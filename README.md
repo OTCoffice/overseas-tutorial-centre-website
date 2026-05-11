@@ -1,0 +1,26 @@
+# OTC Study Hub
+
+Static Vercel prototype for OTC / Overseas Digital Hub.
+
+## Routes
+
+- /
+- /study-guides/
+- /publishing/
+- /courses/
+- /othm-level-5-business-management/
+- /apps/
+- /apps/ucbelt-speaking/
+- /belt/
+- /resources/
+- /consultation-chat/
+- /search/
+- /about/
+
+## Build
+
+No build step is required. To regenerate static pages:
+
+```bash
+node generate-site.js
+```

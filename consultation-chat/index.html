@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultation AI | OTC Study Hub</title>
+  <meta name="description" content="Overseas Tutorial Centre (OTC) Study Hub: education consulting, courses, tutorial support, bilingual study guides, exam preparation apps and Overseas Publishing resources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">
+          <span class="brand-mark"><span></span></span>
+          <span>Overseas Tutorial Centre<small>OTC Study Hub · Overseas Publishing</small></span>
+        </a>
+        <div class="nav-links">
+          <a href="/resources/" aria-current="page">Consulting</a>
+          <a href="/courses/" >Courses</a>
+          <a href="/apps/" >Tutorial & Apps</a>
+          <a href="/publishing/" >Publishing</a>
+          <a href="/about/" >About OTC</a>
+          <a href="/search/" >Search</a>
+          <a class="nav-cta" href="https://payhip.com/OverseasPublishing">Payhip Store</a>
+        </div>
+      </nav>
+    </header>
+  
+  
+    <section class="page-hero"><div class="band"><div class="eyebrow">Education Consulting</div><h1>Consultation AI</h1><p>Instant first-response guidance for English-taught study routes, transfers, progression, academic guardianship and complex education cases.</p></div></section>
+    <section class="band two-col">
+      <div>
+        <div class="chat-app" data-chat-app>
+          <div class="chat-window" data-chat-window>
+            <div class="chat-message bot">
+              <strong>OTC Consultation AI</strong>
+              <p>Hello. Tell me your target country, current education level, intended subject, deadline and any difficulty such as transfer, refusal, appeal, weak transcript or guardianship need.</p>
+              <p class="zh">你好。請說明目標國家、目前學歷、目標專業、時間要求，以及是否涉及轉學、拒錄、申訴、成績較弱或學術監護等情況。</p>
+            </div>
+          </div>
+          <div class="quick-prompts">
+            <button type="button" data-prompt="I want to transfer university and need advice on credits and progression.">Transfer</button>
+            <button type="button" data-prompt="I need help choosing an English-taught university pathway.">Pathway</button>
+            <button type="button" data-prompt="I have an appeal or complaint issue with my school or university.">Appeal</button>
+            <button type="button" data-prompt="I need academic guardianship or ongoing study monitoring.">Guardianship</button>
+          </div>
+          <form class="chat-form" data-chat-form>
+            <textarea name="message" rows="3" placeholder="Type your question / 輸入你的問題"></textarea>
+            <button class="btn btn-dark" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <aside class="about-panel">
+        <h3>What this AI can do</h3>
+        <ul>
+          <li>Identify whether a case is ordinary planning or complex advisory.</li>
+          <li>Suggest documents needed for first review.</li>
+          <li>Explain when paid consulting may apply.</li>
+          <li>Direct learners to courses, apps or human consultation.</li>
+        </ul>
+        <p class="notice">This is an instant guidance tool, not legal, immigration, financial or guaranteed-admission advice. Complex cases require human review.</p>
+      </aside>
+    </section>
+    <script>
+      const chatWindow = document.querySelector("[data-chat-window]");
+      const chatForm = document.querySelector("[data-chat-form]");
+      const prompts = document.querySelectorAll("[data-prompt]");
+
+      function escapeHtml(text) {
+        return text.replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[ch]));
+      }
+
+      function addMessage(role, html) {
+        const node = document.createElement("div");
+        node.className = "chat-message " + role;
+        node.innerHTML = html;
+        chatWindow.appendChild(node);
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+      }
+
+      function buildReply(raw) {
+        const text = raw.toLowerCase();
+        const isOuTutoring = /open university|\bou\b|tma|ou support|ou tutoring|the open university/.test(text);
+        const isBtecTutoring = /btec|pearson|assignment criteria|merit|distinction|hnc|hnd|higher national/.test(text);
+        const isUniversityModuleTutoring = /university module|module support|current university|coursework|dissertation|thesis|project support|exam question bank|courseware|lecture slides|module handbook|undergraduate|master|doctoral|phd|ph\.d/.test(text);
+        const flags = {
+          transfer: /transfer|credit|top.?up|轉學|轉學分|銜接|升學|插班/.test(text),
+          appeal: /appeal|complaint|misconduct|failed|resit|申訴|投訴|掛科|補考|學術不端/.test(text),
+          guardian: /guardian|guardianship|parent|monitor|未成年|監護|家長|跟進/.test(text),
+          english: /english|ielts|ucbelt|speaking|language|英文|雅思|口語/.test(text),
+          visa: /visa|immigration|brp|ukvi|簽證|移民/.test(text),
+          school: /school|college|university|中學|大學|學院/.test(text)
+        };
+
+        const docs = [
+          "passport name and contact details",
+          "current school / college / university",
+          "transcripts and certificates",
+          "target country, institution and subject",
+          "deadline and preferred intake"
+        ];
+
+        let title = "Suggested first step: route assessment";
+        let advice = "This looks like a general education-planning enquiry. OTC can compare suitable English-taught routes, explain likely entry expectations and prepare a document checklist.";
+        let zh = "這看起來屬於一般教育路徑規劃。OTC 可以協助比較英文授課路徑、說明入學要求方向，並整理材料清單。";
+
+        if (flags.transfer) {
+          title = "Suggested first step: transfer / progression review";
+          advice = "We should review your completed credits, transcripts, module titles and target entry level before suggesting top-up, transfer or pathway options.";
+          zh = "建議先做轉學 / 升學銜接評估：需要查看已修學分、成績單、單元名稱與目標入讀級別，再判斷 top-up、轉學或 pathway 選項。";
+          docs.push("module descriptions or syllabus", "previous offer letters if any");
+        }
+        if (flags.appeal) {
+          title = "Suggested first step: complex case advisory";
+          advice = "Appeals, complaints, academic failure and misconduct issues require careful evidence review. This may be a paid consulting case because wording, deadlines and institutional procedures matter.";
+          zh = "申訴、投訴、掛科或學術不端問題需要仔細審核證據、期限與院校程序，通常可能屬於收費複雜案例。";
+          docs.push("decision letter", "appeal deadline", "school policy or procedure", "evidence timeline");
+        }
+        if (flags.guardian) {
+          title = "Suggested first step: guardianship / ongoing monitoring plan";
+          advice = "For guardianship or ongoing support, OTC should confirm learner age, institution, parent expectations, communication frequency and escalation needs.";
+          zh = "如涉及學術監護或持續跟進，需要確認學生年齡、就讀機構、家長期望、溝通頻率與問題升級機制。";
+          docs.push("student age", "parent contact", "school contact", "monitoring expectations");
+        }
+        if (isOuTutoring) {
+          title = "Suggested first step: OU tutoring suitability check";
+          advice = "For an Open University tutoring enquiry, OTC should first confirm your exact OU qualification or module, current study stage, TMA or EMA deadline, tutor feedback and the kind of support needed. Support can cover concept explanation, reading notes, TMA planning, academic English and independent study routines.";
+          zh = "如屬 Open University 輔導諮詢，建議先確認具體 OU 資格或 module、目前學習階段、TMA/EMA 截止日期、已有 tutor feedback 以及需要的支持類型。OTC 可支持概念講解、閱讀筆記、TMA 規劃、學術英語與獨立學習節奏。";
+          docs.push("OU qualification or module page", "TMA / EMA brief", "OU tutor feedback if available", "current week or block", "support sessions requested");
+        }
+        if (isBtecTutoring) {
+          title = "Suggested first step: BTEC / Pearson tutoring suitability check";
+          advice = "For a BTEC or Pearson tutoring enquiry, OTC should first confirm the exact qualification, unit title, level, assignment brief, pass/merit/distinction criteria, deadline and feedback status. Support can cover unit reading, evidence planning, report structure, portfolio organisation, academic English and feedback literacy.";
+          zh = "如屬 BTEC / Pearson 輔導諮詢，建議先確認具體 qualification、unit title、level、assignment brief、pass/merit/distinction criteria、截止日期與 feedback 狀態。OTC 可支持單元閱讀、evidence 規劃、報告結構、portfolio 整理、學術英語與 feedback 理解。";
+          docs.push("Pearson qualification or unit page", "assignment brief", "pass/merit/distinction criteria", "teacher feedback if available", "deadline and resubmission rules");
+        }
+        if (isUniversityModuleTutoring) {
+          title = "Suggested first step: university module support scoping";
+          advice = "For university module support, OTC should first confirm the student's university, programme, module code/title, level, syllabus, assessment brief, reading list, lecture topics, exam format and whether the need is tutoring, revision-bank building, coursework planning or dissertation/project support.";
+          zh = "如屬大學單元輔導，建議先確認學生所在大學、programme、module code/title、level、syllabus、assessment brief、reading list、lecture topics、考試形式，以及需求屬於概念輔導、題庫複習、coursework 規劃還是 dissertation/project 支持。";
+          docs.push("university name and programme title", "module code and title", "module handbook or syllabus", "lecture slides or weekly topics", "reading list", "assessment brief and marking rubric", "exam scope or permitted past-paper material", "dissertation / project brief or supervisor feedback");
+        }
+        if (flags.english) {
+          docs.push("current English level", "target test or university language requirement");
+        }
+
+        const visaNote = flags.visa ? "<p><strong>Important:</strong> If the question involves visa or immigration advice, OTC can provide education-context signposting only. Regulated immigration advice should be handled by an appropriately regulated professional.</p>" : "";
+
+        return `
+          <strong>${title}</strong>
+          <p>${advice}</p>
+          <p class="zh">${zh}</p>
+          ${visaNote}
+          <p><strong>Prepare for human review:</strong> ${docs.slice(0, 8).join("; ")}.</p>
+          <p><strong>Next:</strong> email <a href="mailto:office@overseasuk.com">office@overseasuk.com</a>, WeChat <strong>overseasus</strong>, or WhatsApp <a href="https://wa.me/447947991572">+44 7947 991572</a>.</p>
+        `;
+      }
+
+      function submitMessage(text) {
+        if (!text.trim()) return;
+        addMessage("user", "<p>" + escapeHtml(text) + "</p>");
+        setTimeout(() => addMessage("bot", buildReply(text)), 160);
+      }
+
+      chatForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const textarea = chatForm.elements.message;
+        submitMessage(textarea.value);
+        textarea.value = "";
+      });
+
+      prompts.forEach((button) => button.addEventListener("click", () => submitMessage(button.dataset.prompt)));
+
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("source") === "ou" || params.get("source") === "btec" || params.get("source") === "university-module") {
+        const isBtecSource = params.get("source") === "btec";
+        const isUniversityModuleSource = params.get("source") === "university-module";
+        const course = params.get("course") || (isUniversityModuleSource ? "University module route" : isBtecSource ? "BTEC / Pearson course" : "Open University course");
+        const code = params.get("code") || "";
+        const subject = params.get("subject") || "";
+        const level = params.get("level") || "";
+        const support = params.get("support") || "";
+        const prompt = [
+          isUniversityModuleSource ? "University module tutoring enquiry" : isBtecSource ? "BTEC / Pearson tutoring enquiry" : "Open University tutoring enquiry",
+          (isUniversityModuleSource ? "Route: " : "Course: ") + course,
+          code ? "Code/listing: " + code : "",
+          subject ? "Subject area: " + subject : "",
+          level ? "Level/size: " + level : "",
+          support ? "Support requested: " + support : "",
+          "Please tell me what documents to prepare, what OTC can support, and whether this is tutoring or consulting."
+        ].filter(Boolean).join("\n");
+        submitMessage(prompt);
+      }
+    </script>
+  
+  
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-col footer-about">
+          <strong>OTC Study Hub</strong>
+          <p>Digital learning and publishing platform of Overseas Tutorial Centre, Overseas Publishing House and Overseas Education & Immigration Ltd.</p>
+          <p>Education consulting · tutorial support · bilingual publishing · research projects · digital learning tools.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Compliance Note</strong>
+          <p>OTC publications and tools are independent educational resources unless expressly stated otherwise.</p>
+          <p>References to qualifications, tests or institutions are contextual only; no endorsement is implied without written permission.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Academic Integrity</strong>
+          <p>Resources support understanding, vocabulary, research planning and responsible academic preparation.</p>
+          <p>They are not model answers, official assessment documents or evidence of learner achievement.</p>
+        </div>
+        <div class="footer-col footer-contact">
+          <strong>Contact & Imprint</strong>
+          <p>Overseas Tutorial Centre / Overseas Publishing House<br>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
+          <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>Website: <a href="https://www.overseasuk.com">www.overseasuk.com</a><br>WeChat: overseasus<br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 Overseas Publishing House / Overseas Tutorial Centre. All rights reserved.</span>
+        <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
+      </div>
+    </footer>
+  
+</body>
+</html>
