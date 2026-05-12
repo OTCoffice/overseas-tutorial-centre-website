@@ -18,7 +18,7 @@ const publishingLines = [
   {
     code: "P",
     title: "Practical Life & Professional Guides",
-    desc: "UK life, career licensing, immigration-adjacent practical guides, business setup and professional transition resources."
+    desc: "UK life, career licensing, practical overseas-living guides, business setup and professional transition resources."
   },
   {
     code: "L",
@@ -1287,7 +1287,7 @@ function searchItems() {
     ["Apps & Tools", "/apps/", "UCBELT, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, public bookshop editions and author services."],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management study companion catalogue."],
-    ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and Overseas Education & Immigration."]
+    ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
 
   const qualifications = academicAreas.flatMap((area) => area.items.map((title) => ({
@@ -2133,7 +2133,7 @@ const resources = pageShell({
         <article><strong>Ongoing Learner Management</strong><p>Academic monitoring, parent updates, study support coordination, school communication and escalation planning.</p><span>Paid service package.</span></article>
       </div>
       <div style="height:28px"></div>
-      <div class="notice">Consulting and guidance do not guarantee admission, visa outcomes, credit transfer, scholarship decisions, appeal outcomes, academic progression, employment or final institutional decisions. Where immigration, legal or regulated financial advice is needed, learners should consult an appropriately regulated professional.</div>
+      <div class="notice">Consulting and guidance do not guarantee admission, visa outcomes, credit transfer, scholarship decisions, appeal outcomes, academic progression, employment or final institutional decisions. Where visa, legal or regulated financial advice is needed, learners should consult an appropriately regulated professional.</div>
     </section>
 
     <section class="band compact-band">
@@ -2185,7 +2185,7 @@ const consultationChat = pageShell({
           <li>Explain when paid consulting may apply.</li>
           <li>Direct learners to courses, apps or human consultation.</li>
         </ul>
-        <p class="notice">This is an instant guidance tool, not legal, immigration, financial or guaranteed-admission advice. Complex cases require human review.</p>
+        <p class="notice">This is an instant guidance tool, not legal, visa, financial or guaranteed-admission advice. Complex cases require human review.</p>
       </aside>
     </section>
     <script>
@@ -2271,7 +2271,7 @@ const consultationChat = pageShell({
           docs.push("current English level", "target test or university language requirement");
         }
 
-        const visaNote = flags.visa ? "<p><strong>Important:</strong> If the question involves visa or immigration advice, OTC can provide education-context signposting only. Regulated immigration advice should be handled by an appropriately regulated professional.</p>" : "";
+        const visaNote = flags.visa ? "<p><strong>Important:</strong> If the question involves visa or regulated advice, OTC can provide education-context signposting only. Regulated advice should be handled by an appropriately authorised professional.</p>" : "";
 
         return \`
           <strong>\${title}</strong>
@@ -2379,10 +2379,10 @@ const about = pageShell({
   title: "About | OTC Study Hub",
   current: "about",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">About the Organisation</div><h1>Overseas / OTC</h1><p>A multi-function education, tutorial and publishing ecosystem serving learners, families and overseas Chinese communities.</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">About the Organisation</div><h1>Overseas Tutorial Centre</h1><p>A multi-function education, tutorial and publishing ecosystem serving learners, families and overseas Chinese communities.</p></div></section>
     <section class="band">
       <div class="feature-grid">
-        <article class="feature"><div class="num">Consulting</div><h3>Overseas Education & Immigration</h3><p>Education planning, pathway guidance and practical student support.</p></article>
+        <article class="feature"><div class="num">Consulting</div><h3>Overseas Education Consulting</h3><p>Education planning, pathway guidance and practical student support.</p></article>
         <article class="feature"><div class="num">Tutorial</div><h3>Overseas Tutorial Centre</h3><p>Teaching support, English preparation, learner resources and tutor-led practice.</p></article>
         <article class="feature"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p></article>
       </div>
