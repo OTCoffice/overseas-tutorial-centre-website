@@ -1752,6 +1752,46 @@ h1 {
   margin: 12px 0 0;
 }
 
+.office-notice {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 22px;
+  align-items: start;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 12px 30px rgba(6, 26, 47, 0.055);
+}
+
+.office-notice h2 {
+  color: var(--navy);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(28px, 3vw, 40px);
+  margin: 6px 0 0;
+}
+
+.office-notice p {
+  color: #4d5968;
+  margin: 10px 0 0;
+}
+
+.office-notice-details {
+  background: #faf7f1;
+  border: 1px solid rgba(222, 211, 196, 0.85);
+  border-radius: 7px;
+  padding: 16px;
+}
+
+.office-notice-details a {
+  color: var(--navy);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(184, 138, 59, 0.55);
+  text-underline-offset: 3px;
+}
+
 .spotlight {
   background: #fff;
   border-top: 1px solid var(--line);
@@ -2326,7 +2366,8 @@ h1 {
   .tool-category-grid,
   .metrics-grid,
   .consulting-grid,
-  .consulting-levels {
+  .consulting-levels,
+  .office-notice {
     grid-template-columns: 1fr;
   }
 

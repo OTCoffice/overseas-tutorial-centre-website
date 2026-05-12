@@ -2387,6 +2387,18 @@ const about = pageShell({
         <article class="feature"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p></article>
       </div>
       <div style="height:24px"></div>
+      <div class="office-notice">
+        <div>
+          <div class="eyebrow">Sydney Office Notice</div>
+          <h2>OTC is establishing an Australian office presence.</h2>
+          <p>Overseas Tutorial Centre has secured an office address in Sydney to support education consulting, tutorial coordination, publishing liaison and local professional communication in Australia.</p>
+        </div>
+        <div class="office-notice-details">
+          <p><strong>Overseas Tutorial Centre</strong><br>45 Evans Street, Balmain NSW 2041, Australia</p>
+          <p>Australian contact: <a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>UK main telephone / WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+        </div>
+      </div>
+      <div style="height:24px"></div>
       <div class="about-panel">
         <h3>Contact</h3>
         <p>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
