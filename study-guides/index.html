@@ -25,6 +25,7 @@
           <a href="/publishing/" aria-current="page">Publishing</a>
           <a href="/about/" >About OTC</a>
           <a href="/search/" >Search</a>
+          <button class="nav-translate" type="button" data-translate-page>Translate</button>
           <a class="nav-cta" href="https://payhip.com/OverseasPublishing">Payhip Store</a>
         </div>
       </nav>
@@ -194,5 +195,13 @@
       </div>
     </footer>
   
+  <script>
+    document.querySelectorAll("[data-translate-page]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const url = window.location.href;
+        window.open("https://translate.google.com/translate?sl=auto&tl=zh-CN&u=" + encodeURIComponent(url), "_blank", "noopener");
+      });
+    });
+  </script>
 </body>
 </html>

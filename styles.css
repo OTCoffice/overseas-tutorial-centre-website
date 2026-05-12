@@ -136,6 +136,24 @@ img {
   color: var(--navy);
 }
 
+.nav-translate {
+  appearance: none;
+  border: 1px solid rgba(184, 138, 59, 0.55);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--navy);
+  border-radius: 7px;
+  padding: 9px 11px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.nav-translate:hover {
+  background: #fff;
+  border-color: var(--gold);
+}
+
 .nav-cta {
   background: var(--navy);
   color: #fff !important;

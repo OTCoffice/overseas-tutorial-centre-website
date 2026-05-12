@@ -52,6 +52,7 @@ function nav(current = "") {
           <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>Publishing</a>
           <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>About OTC</a>
           <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>Search</a>
+          <button class="nav-translate" type="button" data-translate-page>Translate</button>
           <a class="nav-cta" href="https://payhip.com/OverseasPublishing">Payhip Store</a>
         </div>
       </nav>
@@ -151,6 +152,14 @@ function pageShell({ title, current = "", body }) {
   ${nav(current)}
   ${body}
   ${footer()}
+  <script>
+    document.querySelectorAll("[data-translate-page]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const url = window.location.href;
+        window.open("https://translate.google.com/translate?sl=auto&tl=zh-CN&u=" + encodeURIComponent(url), "_blank", "noopener");
+      });
+    });
+  </script>
 </body>
 </html>`;
 }
