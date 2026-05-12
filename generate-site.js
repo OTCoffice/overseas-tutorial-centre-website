@@ -2134,6 +2134,15 @@ const resources = pageShell({
       </div>
       <div style="height:28px"></div>
       <div class="notice">Consulting and guidance do not guarantee admission, visa outcomes, credit transfer, scholarship decisions, appeal outcomes, academic progression, employment or final institutional decisions. Where visa, legal or regulated financial advice is needed, learners should consult an appropriately regulated professional.</div>
+      <div style="height:14px"></div>
+      <div class="notice advice-signpost">
+        <strong>Immigration-related matters</strong>
+        <p>OTC does not provide immigration advice. For immigration-related matters, learners and families are signposted to Citizens Advice for free and confidential advice, or to another appropriately authorised adviser where a case requires specialist regulated support.</p>
+        <div class="actions">
+          <a class="btn btn-light" href="https://www.citizensadvice.org.uk/immigration/get-help/get-immigration-advice/">Citizens Advice</a>
+          <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Citizens%20Advice%20Signposting%20Enquiry">Enquiries</a>
+        </div>
+      </div>
     </section>
 
     <section class="band compact-band">
@@ -2185,7 +2194,7 @@ const consultationChat = pageShell({
           <li>Explain when paid consulting may apply.</li>
           <li>Direct learners to courses, apps or human consultation.</li>
         </ul>
-        <p class="notice">This is an instant guidance tool, not legal, visa, financial or guaranteed-admission advice. Complex cases require human review.</p>
+        <p class="notice">This is an instant guidance tool, not legal, visa, immigration, financial or guaranteed-admission advice. Immigration-related matters are signposted to Citizens Advice or another appropriately authorised adviser.</p>
       </aside>
     </section>
     <script>
@@ -2271,7 +2280,7 @@ const consultationChat = pageShell({
           docs.push("current English level", "target test or university language requirement");
         }
 
-        const visaNote = flags.visa ? "<p><strong>Important:</strong> If the question involves visa or regulated advice, OTC can provide education-context signposting only. Regulated advice should be handled by an appropriately authorised professional.</p>" : "";
+        const visaNote = flags.visa ? "<p><strong>Important:</strong> OTC does not provide immigration advice. For immigration-related matters, use Citizens Advice for free and confidential advice, or an appropriately authorised adviser for specialist regulated support.</p><p><a href='https://www.citizensadvice.org.uk/immigration/get-help/get-immigration-advice/'>Open Citizens Advice</a> · <a href='mailto:office@overseasuk.com?subject=Citizens%20Advice%20Signposting%20Enquiry'>Enquiries</a></p>" : "";
 
         return \`
           <strong>\${title}</strong>

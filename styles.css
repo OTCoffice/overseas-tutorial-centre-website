@@ -2226,6 +2226,18 @@ h1 {
   font-size: 14px;
 }
 
+.advice-signpost {
+  color: #51401d;
+}
+
+.advice-signpost p {
+  margin: 8px 0 0;
+}
+
+.advice-signpost .actions {
+  margin-top: 12px;
+}
+
 .site-footer {
   background: #06172b;
   color: rgba(255, 255, 255, 0.72);
