@@ -16,6 +16,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /consultation-chat/
 - /search/
 - /about/
+- /lms-review/
 
 ## Build
 

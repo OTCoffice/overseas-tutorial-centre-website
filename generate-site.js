@@ -2421,6 +2421,176 @@ const about = pageShell({
   `
 });
 
+const lmsReview = pageShell({
+  title: "OTC LMS Review View | OTHM Centre Renewal Evidence",
+  current: "",
+  body: `
+    <section class="lms-shell">
+      <aside class="lms-sidebar">
+        <a class="lms-brand" href="/">
+          <span class="brand-mark"><span></span></span>
+          <strong>OTC LMS</strong>
+          <small>Reviewer evidence view</small>
+        </a>
+        <nav class="lms-menu" aria-label="LMS evidence sections">
+          <a href="#dashboard" aria-current="page">Dashboard</a>
+          <a href="#materials">Teaching Materials</a>
+          <a href="#briefs">Assignment Briefs</a>
+          <a href="#upload">Submission Upload</a>
+          <a href="#feedback">Tutor Feedback</a>
+          <a href="#progress">Progress Tracking</a>
+          <a href="#support">Support & Policies</a>
+        </nav>
+        <div class="lms-reviewer-card">
+          <span>Review account</span>
+          <strong>OTHM Centre Renewal 2026</strong>
+          <p>Demonstration view prepared to evidence learner-facing LMS structure and support arrangements.</p>
+        </div>
+      </aside>
+
+      <main class="lms-main">
+        <section id="dashboard" class="lms-topbar">
+          <div>
+            <div class="eyebrow">Learning Management System</div>
+            <h1>OTHM Level 5 Diploma in Business Management</h1>
+            <p>Sample learner dashboard showing how OTC organises online learning, assessment access, feedback and learner progress tracking.</p>
+          </div>
+          <div class="lms-profile">
+            <span>Student view</span>
+            <strong>Reviewer Learner</strong>
+            <small>Centre No. DC11060519</small>
+          </div>
+        </section>
+
+        <section class="lms-status-grid" aria-label="Course status summary">
+          <article><span>Course access</span><strong>Active</strong><small>6 units visible</small></article>
+          <article><span>Overall progress</span><strong>62%</strong><small>Learning activities completed</small></article>
+          <article><span>Submissions</span><strong>3 / 6</strong><small>Uploaded to assessment area</small></article>
+          <article><span>Tutor response</span><strong>2 working days</strong><small>Standard support timeframe</small></article>
+        </section>
+
+        <section id="materials" class="lms-panel">
+          <div class="lms-panel-head">
+            <div>
+              <span class="lms-tag">Requested evidence 1</span>
+              <h2>Where learners access teaching material</h2>
+            </div>
+            <button type="button">Open unit resources</button>
+          </div>
+          <div class="lms-unit-grid">
+            <article>
+              <b>F/650/1150</b>
+              <strong>Principles and Concepts of Strategy</strong>
+              <span>Slides · reading pack · recorded tutorial · unit checklist</span>
+            </article>
+            <article>
+              <b>H/650/1151</b>
+              <strong>The Management of Human Resources</strong>
+              <span>Lesson notes · case study · glossary · webinar link</span>
+            </article>
+            <article>
+              <b>J/650/1152</b>
+              <strong>Marketing for Managers</strong>
+              <span>Topic workbook · activity sheet · formative quiz</span>
+            </article>
+          </div>
+        </section>
+
+        <section id="briefs" class="lms-panel">
+          <div class="lms-panel-head">
+            <div>
+              <span class="lms-tag">Requested evidence 2</span>
+              <h2>How learners access assignment briefs</h2>
+            </div>
+            <button type="button">Download brief</button>
+          </div>
+          <div class="lms-table" role="table" aria-label="Assignment briefs">
+            <div role="row" class="lms-table-head"><span>Unit</span><span>Brief</span><span>Status</span><span>Due date</span></div>
+            <div role="row"><span>Strategy</span><span>Assignment Brief and Learning Outcomes</span><span>Available</span><span>12 Jun 2026</span></div>
+            <div role="row"><span>HRM</span><span>Assessment Guidance and Evidence Checklist</span><span>Available</span><span>19 Jun 2026</span></div>
+            <div role="row"><span>Marketing</span><span>Assignment Brief, Referencing and Submission Rules</span><span>Available</span><span>26 Jun 2026</span></div>
+          </div>
+        </section>
+
+        <section id="upload" class="lms-panel lms-split-panel">
+          <div>
+            <span class="lms-tag">Requested evidence 3</span>
+            <h2>Where learners upload completed assignments</h2>
+            <p>Learners upload completed work in the assessment area for the relevant unit. The LMS records submission date, file name and current assessment status.</p>
+            <div class="lms-upload-box">
+              <strong>Upload assignment file</strong>
+              <span>Accepted formats: DOCX, PDF · Maximum 50 MB</span>
+              <button type="button">Choose file</button>
+            </div>
+          </div>
+          <aside class="lms-note">
+            <strong>Submission controls</strong>
+            <p>Academic integrity declaration, assignment cover sheet and file naming guidance are shown before upload.</p>
+          </aside>
+        </section>
+
+        <section id="feedback" class="lms-panel">
+          <div class="lms-panel-head">
+            <div>
+              <span class="lms-tag">Requested evidence 4</span>
+              <h2>How learners receive feedback from tutors</h2>
+            </div>
+            <button type="button">View feedback</button>
+          </div>
+          <div class="lms-feedback-card">
+            <div>
+              <span>Assessor feedback</span>
+              <strong>Marketing for Managers - Draft Review</strong>
+              <p>Your structure is clear. Before final submission, strengthen the link between segmentation evidence and the proposed marketing mix. Add Harvard references to two source claims.</p>
+            </div>
+            <div class="lms-feedback-meta">
+              <span>Returned</span>
+              <strong>15 May 2026</strong>
+              <small>Tutor: Li Baiyang</small>
+            </div>
+          </div>
+        </section>
+
+        <section id="progress" class="lms-panel">
+          <div class="lms-panel-head">
+            <div>
+              <span class="lms-tag">Requested evidence 5</span>
+              <h2>How learners keep track of progress</h2>
+            </div>
+            <button type="button">Progress report</button>
+          </div>
+          <div class="lms-progress-list">
+            <div><span>Strategy learning materials</span><b style="width: 88%"></b><em>88%</em></div>
+            <div><span>HRM assessment preparation</span><b style="width: 72%"></b><em>72%</em></div>
+            <div><span>Marketing assignment submission</span><b style="width: 55%"></b><em>55%</em></div>
+            <div><span>Business Law reading and quiz</span><b style="width: 40%"></b><em>40%</em></div>
+          </div>
+        </section>
+
+        <section id="support" class="lms-panel">
+          <div class="lms-panel-head">
+            <div>
+              <span class="lms-tag">Additional key information</span>
+              <h2>Technical support, learner support and policies</h2>
+            </div>
+            <button type="button">Contact tutor</button>
+          </div>
+          <div class="lms-support-grid">
+            <article><strong>Technical support</strong><span>Email office@overseasuk.com for login, browser or submission issues. Urgent assessment access issues are prioritised.</span></article>
+            <article><strong>Academic support</strong><span>Named tutors respond to learner queries normally within two working days.</span></article>
+            <article><strong>Policies</strong><span>Complaints, appeals, malpractice, reasonable adjustment, RPL and data protection policies are available from the learner support area.</span></article>
+          </div>
+        </section>
+
+        <section class="lms-disclaimer">
+          <strong>Reviewer note</strong>
+          <p>This page is an evidence walkthrough view for OTHM Centre Renewal review. It demonstrates the learner-facing information architecture OTC uses for LMS access, online learning support, assessment submission, tutor feedback and progress monitoring. Live learner records are not displayed in this public evidence view.</p>
+        </section>
+      </main>
+    </section>
+  `
+});
+
 write(".", home);
 write("publishing", publishing);
 write("study-guides", guides);
@@ -2439,6 +2609,7 @@ write("resources", resources);
 write("consultation-chat", consultationChat);
 write("search", search);
 write("about", about);
+write("lms-review", lmsReview);
 
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   cleanUrls: true,
@@ -2471,6 +2642,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /consultation-chat/
 - /search/
 - /about/
+- /lms-review/
 
 ## Build
 
