@@ -2494,14 +2494,14 @@ h1 {
 
 .lms-shell {
   min-height: 100vh;
-  background: #eef3f5;
+  background: #f5f6f4;
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
-  color: #1d2733;
+  color: #27313d;
 }
 
 .lms-sidebar {
-  background: #102d4b;
+  background: #23384d;
   color: #fff;
   padding: 22px;
   position: sticky;
@@ -2522,7 +2522,7 @@ h1 {
 .lms-brand small {
   display: block;
   color: rgba(255, 255, 255, 0.72);
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 11px;
@@ -2538,7 +2538,7 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 10px 12px;
-  font-weight: 800;
+  font-weight: 500;
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -2562,10 +2562,10 @@ h1 {
 .lms-status-grid span,
 .lms-feedback-card span {
   display: block;
-  color: #b88a3b;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.1em;
+  color: #9a7a45;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
@@ -2577,7 +2577,7 @@ h1 {
 }
 
 .lms-main {
-  padding: 28px;
+  padding: 32px;
   display: grid;
   gap: 18px;
   align-content: start;
@@ -2587,9 +2587,9 @@ h1 {
 .lms-panel,
 .lms-disclaimer {
   background: #fff;
-  border: 1px solid #dbe3e8;
+  border: 1px solid #d9dedf;
   border-radius: 8px;
-  box-shadow: 0 14px 34px rgba(16, 45, 75, 0.08);
+  box-shadow: 0 10px 28px rgba(32, 52, 68, 0.055);
 }
 
 .lms-topbar {
@@ -2601,9 +2601,11 @@ h1 {
 }
 
 .lms-topbar h1 {
-  font-family: "Source Sans 3", Arial, sans-serif;
-  font-size: 32px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 38px;
+  font-weight: 600;
   margin: 8px 0 10px;
+  color: #213246;
 }
 
 .lms-topbar p,
@@ -2614,8 +2616,8 @@ h1 {
 }
 
 .lms-profile {
-  border-left: 4px solid #b88a3b;
-  background: #f7f2ea;
+  border-left: 3px solid #b79a63;
+  background: #f7f4ed;
   border-radius: 8px;
   padding: 16px;
 }
@@ -2624,6 +2626,7 @@ h1 {
   display: block;
   margin-top: 4px;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .lms-profile small {
@@ -2639,17 +2642,19 @@ h1 {
 
 .lms-status-grid article {
   background: #fff;
-  border: 1px solid #dbe3e8;
+  border: 1px solid #d9dedf;
   border-radius: 8px;
   padding: 18px;
 }
 
 .lms-status-grid strong {
   display: block;
-  font-size: 28px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 31px;
+  font-weight: 600;
   line-height: 1;
   margin: 8px 0;
-  color: #102d4b;
+  color: #25384d;
 }
 
 .lms-status-grid small {
@@ -2670,18 +2675,20 @@ h1 {
 }
 
 .lms-panel h2 {
-  font-family: "Source Sans 3", Arial, sans-serif;
-  font-size: 24px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 29px;
+  font-weight: 600;
   margin-top: 4px;
+  color: #25384d;
 }
 
 .lms-panel button {
   border: 0;
   border-radius: 7px;
-  background: #102d4b;
+  background: #2f4358;
   color: #fff;
   font: inherit;
-  font-weight: 900;
+  font-weight: 600;
   padding: 10px 14px;
 }
 
@@ -2697,20 +2704,22 @@ h1 {
 .lms-note,
 .lms-upload-box,
 .lms-feedback-card {
-  border: 1px solid #dbe3e8;
+  border: 1px solid #d9dedf;
   border-radius: 8px;
   background: #f9fbfc;
   padding: 16px;
 }
 
 .lms-unit-grid b {
-  color: #b88a3b;
+  color: #9a7a45;
+  font-weight: 600;
 }
 
 .lms-unit-grid strong,
 .lms-support-grid strong {
   display: block;
-  color: #102d4b;
+  color: #25384d;
+  font-weight: 600;
   margin: 4px 0;
 }
 
@@ -2721,7 +2730,7 @@ h1 {
 
 .lms-table {
   display: grid;
-  border: 1px solid #dbe3e8;
+  border: 1px solid #d9dedf;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -2733,14 +2742,14 @@ h1 {
 
 .lms-table span {
   padding: 12px;
-  border-bottom: 1px solid #dbe3e8;
+  border-bottom: 1px solid #d9dedf;
   background: #fff;
 }
 
 .lms-table-head span {
-  background: #eaf1f8;
-  color: #102d4b;
-  font-weight: 900;
+  background: #eef2f3;
+  color: #25384d;
+  font-weight: 600;
 }
 
 .lms-split-panel {
@@ -2769,7 +2778,7 @@ h1 {
 }
 
 .lms-feedback-meta {
-  border-left: 1px solid #dbe3e8;
+  border-left: 1px solid #d9dedf;
   padding-left: 18px;
 }
 
@@ -2802,17 +2811,18 @@ h1 {
 }
 
 .lms-progress-list em {
-  color: #102d4b;
+  color: #25384d;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .lms-disclaimer {
-  border-left: 5px solid #b88a3b;
+  border-left: 3px solid #b79a63;
 }
 
 .lms-disclaimer strong {
-  color: #102d4b;
+  color: #25384d;
+  font-weight: 600;
 }
 
 @media (max-width: 980px) {
