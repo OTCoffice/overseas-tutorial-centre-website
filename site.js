@@ -53,7 +53,7 @@ function nav(current = "") {
           <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>About OTC</a>
           <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>Search</a>
           <button class="nav-translate" type="button" data-translate-page>Translate</button>
-          <a class="nav-cta" href="https://payhip.com/OverseasPublishing">Payhip Store</a>
+          <a class="nav-cta" href="/publishing/">Publishing Updates</a>
         </div>
       </nav>
     </header>
@@ -113,6 +113,7 @@ function productCards(limit = products.length) {
         <h3>${p.title}</h3>
         <p>${p.desc}</p>
         <div class="isbn-line">ISBN ${p.isbn}</div>
+        <div class="isbn-line">Second edition under review preparation · not currently sold on Payhip</div>
       </div>
     </article>
   `).join("");

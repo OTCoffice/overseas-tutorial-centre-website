@@ -1285,8 +1285,8 @@ function searchItems() {
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
     ["Apps & Tools", "/apps/", "UCBELT, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
-    ["Publishing", "/publishing/", "Overseas Publishing editorial lines, public bookshop editions and author services."],
-    ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management study companion catalogue."],
+    ["Publishing", "/publishing/", "Overseas Publishing editorial lines, second-edition review updates and author services."],
+    ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management study companion catalogue; OTHM-related titles temporarily withdrawn from Payhip pending second-edition and logo-sample review."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
 
@@ -1308,7 +1308,7 @@ function searchItems() {
     type: "Book",
     title,
     url: "/study-guides/",
-    desc: `${unit}. OTHM Level 5 Business Management public bookshop edition. ISBN ${isbn}.`
+    desc: `${unit}. OTHM Level 5 Business Management public bookshop edition. ISBN ${isbn}. OTHM-related Payhip listing temporarily withdrawn pending second-edition review.`
   }));
 
   const externalSupport = externalProgrammeRoutes.map((item) => ({
@@ -1346,7 +1346,7 @@ const home = pageShell({
           <div class="hero-actions">
             <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">Open UCBELT App</a>
             <a class="btn btn-secondary" href="/courses/">Course Index</a>
-            <a class="btn btn-secondary" href="https://payhip.com/OverseasPublishing">Payhip Store</a>
+            <a class="btn btn-secondary" href="/publishing/">Publishing Updates</a>
           </div>
         </div>
         <aside class="hero-panel">
@@ -1370,7 +1370,7 @@ const home = pageShell({
         <article><b>01</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
         <article><b>02</b><strong>Courses</strong><span>Course support entrances for current and future OTC programmes.</span></article>
         <article><b>03</b><strong>Tutorial & Apps</strong><span>Exam preparation tools, speaking practice, self-review and tutor modes.</span></article>
-        <article><b>04</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and Payhip downloads.</span></article>
+        <article><b>04</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and second-edition review updates.</span></article>
       </div>
     </section>
 
@@ -1414,9 +1414,9 @@ const home = pageShell({
         <aside class="series-shelf">
           <div class="shelf-head">
             <div>
-              <div class="eyebrow">Completed Series</div>
+              <div class="eyebrow">Second Edition Review</div>
               <h3>OTHM Level 5 Business Management</h3>
-              <p>6 books · Qualification No. 610/1527/1 · ISBNs assigned</p>
+              <p>6 books · Payhip listings temporarily withdrawn · second-edition and logo samples pending OTHM review</p>
             </div>
             <a href="/study-guides/">View all</a>
           </div>
@@ -1435,18 +1435,18 @@ const publishing = pageShell({
     <section class="band">
       <div class="section-head">
         <h2>Six editorial lines, one public catalogue.</h2>
-        <p>This structure keeps today's OTHM study guides visible while leaving space for research books, life guides, apps, translation projects and self-publishing services.</p>
+        <p>This structure keeps the OTHM-related study guide record transparent while the second-edition review work is underway, and leaves space for research books, life guides, apps, translation projects and self-publishing services.</p>
       </div>
       <div class="publishing-categories publishing-categories-wide">${publishingLineCards()}</div>
       <div style="height:28px"></div>
-      <div class="notice">Current completed series: OTC bilingual study companions for OTHM Level 5 Diploma in Business Management. Six public bookshop editions completed with assigned ISBNs and qualification number 610/1527/1.</div>
+      <div class="notice">Publishing status update: OTHM-related study guide listings have been temporarily withdrawn from Payhip. OTC is preparing second-edition samples, including logo-use samples, for OTHM review before any renewed public listing. Six first-edition public bookshop records remain documented with assigned ISBNs and qualification number 610/1527/1.</div>
       <div style="height:28px"></div>
       <div class="series-shelf">
         <div class="shelf-head">
           <div>
             <div class="eyebrow">Education & Study Companions</div>
             <h3>OTHM Level 5 Business Management</h3>
-            <p>6 books · Public Bookshop Edition · ISBNs assigned</p>
+            <p>6 books · second-edition review preparation · not currently sold on Payhip</p>
           </div>
           <a href="/study-guides/">Full catalogue</a>
         </div>
@@ -1460,9 +1460,9 @@ const guides = pageShell({
   title: "Study Guides | OTC Study Hub",
   current: "publishing",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing</div><h1>Study Guides</h1><p>Completed bilingual public bookshop editions for concept clarity, terminology support and structured academic preparation.</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing</div><h1>Study Guides</h1><p>Independent bilingual study companion records. OTHM-related titles are currently in second-edition review preparation and are not being sold on Payhip.</p></div></section>
     <section class="band">
-      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management study companions completed with assigned ISBNs. Publishing compliance: OTC study companions are independent learning resources and do not represent OTHM endorsement.</div>
+      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management study companions were completed with assigned ISBNs. OTHM-related Payhip listings have been temporarily withdrawn while OTC prepares second-edition samples and logo-use samples for OTHM review. Publishing compliance: OTC study companions are independent learning resources and do not represent OTHM endorsement unless written permission is obtained.</div>
       <div style="height:28px"></div>
       <div class="product-grid">${productCards()}</div>
     </section>
@@ -1473,12 +1473,12 @@ const othm = pageShell({
   title: "OTHM Level 5 Business Management Series | OTC Study Hub",
   current: "othm",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Completed Bilingual Study Companion Series</div><h1>OTHM Level 5 Business Management</h1><p>Six independent OTC study companions supporting adult learners with business concepts, bilingual terminology, study activities and self-checklists. Qualification No. 610/1527/1.</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Second Edition Review Preparation</div><h1>OTHM Level 5 Business Management</h1><p>Six independent OTC study companion records supporting adult learners with business concepts, bilingual terminology, study activities and self-checklists. Qualification No. 610/1527/1. OTHM-related listings are temporarily withdrawn from Payhip pending second-edition and logo-sample review.</p></div></section>
     <section class="band two-col">
       <div>
         <div class="section-head">
           <h2>A structured six-unit learning series.</h2>
-          <p>The series translates teaching experience into public learning support while keeping assessment records, learner submissions and official quality forms out of published materials.</p>
+          <p>The series translates teaching experience into learning support while keeping assessment records, learner submissions and official quality forms out of published materials. Current work is focused on second-edition review preparation before any renewed public listing.</p>
         </div>
         <div class="product-grid two-up">${productCards()}</div>
       </div>
