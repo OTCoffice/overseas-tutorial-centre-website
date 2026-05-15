@@ -2403,10 +2403,10 @@ const about = pageShell({
         <div>
           <div class="eyebrow">Sydney Office Notice</div>
           <h2>OTC is establishing an Australian office presence.</h2>
-          <p>Overseas Tutorial Centre has secured an office address in Sydney to support education consulting, tutorial coordination, publishing liaison and local professional communication in Australia.</p>
+          <p>Overseas Tutorial Centre Ltd has secured an office address in Sydney to support education consulting, student support coordination, publishing liaison and local professional communication in Australia.</p>
         </div>
         <div class="office-notice-details">
-          <p><strong>Overseas Tutorial Centre</strong><br>45 Evans Street, Balmain NSW 2041, Australia</p>
+          <p><strong>Overseas Tutorial Centre Ltd</strong><br>45 Evans St, Balmain, NSW 2041, Australia</p>
           <p>Australian contact: <a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>UK main telephone / WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
         </div>
       </div>
