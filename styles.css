@@ -2906,7 +2906,7 @@ h1 {
 .site-footer {
   background: #06172b;
   color: rgba(255, 255, 255, 0.72);
-  padding: 38px 0 24px;
+  padding: 28px 0 18px;
   border-top: 1px solid rgba(208, 174, 103, 0.32);
 }
 
@@ -2925,7 +2925,7 @@ h1 {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.08;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .footer-col {
@@ -2934,11 +2934,11 @@ h1 {
 }
 
 .footer-col p {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: rgba(255, 255, 255, 0.62);
   font-size: 11px;
   font-weight: 350;
-  line-height: 1.48;
+  line-height: 1.38;
 }
 
 .footer-about p:first-of-type {
@@ -2955,8 +2955,8 @@ h1 {
 
 .footer-legal {
   width: min(1180px, calc(100% - 32px));
-  margin: 20px auto 0;
-  padding-top: 14px;
+  margin: 14px auto 0;
+  padding-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   display: grid;
   gap: 4px;
