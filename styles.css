@@ -739,99 +739,146 @@ h1 {
 .btec-progression-section {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  padding: 34px 0;
+  padding: 22px 0;
 }
 
-.btec-route-table {
+.btec-compact-hero .band {
+  padding-top: 54px;
+  padding-bottom: 50px;
+}
+
+.btec-page-band {
+  padding-top: 32px;
+  padding-bottom: 58px;
+}
+
+.btec-page-band .section-head {
+  margin-bottom: 18px;
+}
+
+.btec-quick-grid,
+.btec-subject-matrix,
+.btec-workflow {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.btec-quick-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 24px;
+}
+
+.btec-quick-grid article,
+.btec-subject-matrix article,
+.btec-workflow article {
   border: 1px solid var(--line);
   background: #fff;
-  box-shadow: 0 8px 28px rgba(6, 26, 47, 0.045);
-}
-
-.btec-route-table article {
-  min-height: 330px;
-  padding: 17px;
-  border-right: 1px solid var(--line);
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-
-.btec-route-table article:last-child {
-  border-right: 0;
-}
-
-.btec-route-table b {
-  color: var(--gold);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-}
-
-.btec-route-table strong {
-  color: var(--navy);
-  font-size: 22px;
-  line-height: 1.08;
-}
-
-.btec-route-table span {
-  color: #6c5527;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 1.35;
-}
-
-.btec-route-table p {
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.45;
-  margin: 0;
-}
-
-.btec-route-table em {
-  margin-top: auto;
-  color: var(--ink);
-  font-size: 12px;
-  line-height: 1.42;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.btec-planning-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.btec-planning-grid article {
-  background: #fff;
-  border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 17px;
-  box-shadow: 0 8px 24px rgba(6, 26, 47, 0.04);
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(6, 26, 47, 0.035);
 }
 
-.btec-planning-grid strong {
+.btec-quick-grid strong,
+.btec-workflow strong {
   display: block;
   color: var(--navy);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.15;
 }
 
-.btec-planning-grid span {
+.btec-quick-grid span,
+.btec-workflow span {
   display: block;
   color: #6c5527;
   font-size: 12px;
   font-weight: 800;
+  margin-top: 5px;
+}
+
+.btec-quick-grid p,
+.btec-workflow p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.42;
+  margin: 8px 0 0;
+}
+
+.btec-matrix-head {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 14px;
+}
+
+.btec-matrix-head h2 {
+  color: var(--navy);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 700;
+}
+
+.btec-matrix-head p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+}
+
+.btec-subject-matrix {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+.btec-subject-matrix article {
+  min-height: 0;
+}
+
+.btec-code,
+.btec-workflow b {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.btec-subject-matrix h3 {
+  color: var(--navy);
+  font-size: 21px;
+  line-height: 1.08;
   margin-top: 6px;
 }
 
-.btec-planning-grid p {
+.btec-zh {
+  color: #6c5527;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 5px 0 9px;
+}
+
+.btec-subject-matrix dl {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.btec-subject-matrix dt {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.btec-subject-matrix dd {
   color: var(--muted);
-  font-size: 13px;
-  line-height: 1.45;
-  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.38;
+  margin: 2px 0 0;
+}
+
+.btec-workflow {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 14px 0;
 }
 
 .external-route-grid {
@@ -2654,8 +2701,10 @@ h1 {
   .course-system-grid,
   .external-route-grid,
   .curriculum-support-grid,
-  .btec-route-table,
-  .btec-planning-grid,
+  .btec-quick-grid,
+  .btec-subject-matrix,
+  .btec-workflow,
+  .btec-matrix-head,
   .support-mini-grid,
   .support-layout,
   .support-table,
@@ -2680,8 +2729,6 @@ h1 {
   .app-summary-strip article:last-child,
   .external-route-card,
   .external-route-card:last-child,
-  .btec-route-table article,
-  .btec-route-table article:last-child,
   .course-system-entry,
   .course-system-entry:last-child {
     border-right: 0;
