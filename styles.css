@@ -712,6 +712,104 @@ h1 {
   margin: 10px 0 0;
 }
 
+.btec-progression-section {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 34px 0;
+}
+
+.btec-route-table {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(6, 26, 47, 0.045);
+}
+
+.btec-route-table article {
+  min-height: 330px;
+  padding: 17px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.btec-route-table article:last-child {
+  border-right: 0;
+}
+
+.btec-route-table b {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+}
+
+.btec-route-table strong {
+  color: var(--navy);
+  font-size: 22px;
+  line-height: 1.08;
+}
+
+.btec-route-table span {
+  color: #6c5527;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.btec-route-table p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.btec-route-table em {
+  margin-top: auto;
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.42;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btec-planning-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.btec-planning-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 17px;
+  box-shadow: 0 8px 24px rgba(6, 26, 47, 0.04);
+}
+
+.btec-planning-grid strong {
+  display: block;
+  color: var(--navy);
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.btec-planning-grid span {
+  display: block;
+  color: #6c5527;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+.btec-planning-grid p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 10px 0 0;
+}
+
 .external-route-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -2527,6 +2625,8 @@ h1 {
   .course-system-grid,
   .external-route-grid,
   .curriculum-support-grid,
+  .btec-route-table,
+  .btec-planning-grid,
   .support-mini-grid,
   .support-layout,
   .support-table,
@@ -2551,6 +2651,8 @@ h1 {
   .app-summary-strip article:last-child,
   .external-route-card,
   .external-route-card:last-child,
+  .btec-route-table article,
+  .btec-route-table article:last-child,
   .course-system-entry,
   .course-system-entry:last-child {
     border-right: 0;
