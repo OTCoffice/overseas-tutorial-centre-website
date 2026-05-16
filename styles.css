@@ -757,7 +757,6 @@ h1 {
 }
 
 .btec-quick-grid,
-.btec-subject-matrix,
 .btec-workflow {
   display: grid;
   gap: 12px;
@@ -769,7 +768,6 @@ h1 {
 }
 
 .btec-quick-grid article,
-.btec-subject-matrix article,
 .btec-workflow article {
   border: 1px solid var(--line);
   background: #fff;
@@ -824,28 +822,12 @@ h1 {
   margin: 0;
 }
 
-.btec-subject-matrix {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  margin-bottom: 14px;
-}
-
-.btec-subject-matrix article {
-  min-height: 0;
-}
-
 .btec-code,
 .btec-workflow b {
   color: var(--gold);
   font-size: 11px;
   font-weight: 900;
   letter-spacing: 0.14em;
-}
-
-.btec-subject-matrix h3 {
-  color: var(--navy);
-  font-size: 21px;
-  line-height: 1.08;
-  margin-top: 6px;
 }
 
 .btec-zh {
@@ -855,13 +837,80 @@ h1 {
   margin: 5px 0 9px;
 }
 
-.btec-subject-matrix dl {
+.btec-subject-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.btec-subject-toggle {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(6, 26, 47, 0.035);
+  overflow: hidden;
+}
+
+.btec-subject-toggle summary {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  color: var(--navy);
+}
+
+.btec-subject-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.btec-subject-toggle summary::after {
+  content: "+";
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.btec-subject-toggle[open] summary {
+  border-bottom: 1px solid var(--line);
+  background: #fbf8f2;
+}
+
+.btec-subject-toggle[open] summary::after {
+  content: "-";
+}
+
+.btec-subject-toggle strong {
+  display: block;
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.1;
+}
+
+.btec-subject-toggle em {
+  justify-self: end;
+  color: #6c5527;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.btec-toggle-body {
+  padding: 12px 14px 14px;
+}
+
+.btec-toggle-body dl {
   margin: 0;
   display: grid;
   gap: 8px;
 }
 
-.btec-subject-matrix dt {
+.btec-toggle-body dt {
   color: var(--gold);
   font-size: 10px;
   font-weight: 900;
@@ -869,7 +918,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.btec-subject-matrix dd {
+.btec-toggle-body dd {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.38;
@@ -2702,7 +2751,7 @@ h1 {
   .external-route-grid,
   .curriculum-support-grid,
   .btec-quick-grid,
-  .btec-subject-matrix,
+  .btec-subject-list,
   .btec-workflow,
   .btec-matrix-head,
   .support-mini-grid,
@@ -2721,6 +2770,16 @@ h1 {
   .pipeline-list article {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .btec-subject-toggle summary {
+    grid-template-columns: 38px minmax(0, 1fr) 18px;
+  }
+
+  .btec-subject-toggle em {
+    grid-column: 2 / 3;
+    justify-self: start;
+    white-space: normal;
   }
 
   .course-system-grid article,
