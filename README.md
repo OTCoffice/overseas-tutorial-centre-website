@@ -13,6 +13,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /apps/ucbelt-speaking/
 - /belt/
 - /resources/
+- /australia-business-landing/
 - /consultation-chat/
 - /search/
 - /about/

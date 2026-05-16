@@ -2156,7 +2156,78 @@ const resources = pageShell({
       <div class="resource-list">
         <article class="resource-row"><div><h3>Study Route Explainors</h3><p>Public-facing notes comparing qualification levels, English-taught pathways, transfer routes, foundation/top-up logic and application timing.</p></div><a class="btn btn-light" href="/courses/">Course Map</a></article>
         <article class="resource-row"><div><h3>English & Academic Preparation</h3><p>Speaking practice, vocabulary review, academic writing support, interview preparation and learner-readiness tools.</p></div><a class="btn btn-light" href="/apps/">Open Apps</a></article>
+        <article class="resource-row"><div><h3>Australia Business Landing Support</h3><p>Market-entry coordination, representative-office preparation, local administrative support and professional referral for overseas organisations preparing an Australian presence.</p></div><a class="btn btn-light" href="/australia-business-landing/">Australia Support</a></article>
         <article class="resource-row"><div><h3>Publishing & Practical Guides</h3><p>Bilingual books, practical guides and public bookshop editions that turn advisory experience into reusable learning resources.</p></div><a class="btn btn-light" href="/publishing/">Publishing</a></article>
+      </div>
+    </section>
+  `
+});
+
+const australiaBusinessLanding = pageShell({
+  title: "Australia Business Landing & Education Market Support | OTC Study Hub",
+  current: "resources",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Australia Market Entry</div><h1>Australia Business Landing & Education Market Support</h1><p>Administrative, bilingual and market-entry coordination for overseas education and business organisations preparing to establish a practical presence in Australia.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Australia%20Business%20Landing%20Support%20Enquiry">Contact OTC</a><a class="btn btn-secondary" href="/resources/">Consulting Services</a></div></div></section>
+
+    <section class="band">
+      <div class="consulting-hero">
+        <div>
+          <div class="section-head compact-head">
+            <h2>Practical landing support, with regulated advice kept in the right hands.</h2>
+            <p>OTC supports overseas organisations with the administrative and commercial work around Australian market entry: document organisation, local coordination, supplier communication, education-market research and professional referral. Where Australian immigration, legal, tax, financial or regulated education advice is required, OTC signposts clients to appropriately qualified professionals.</p>
+          </div>
+          <div class="actions">
+            <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Australia%20Landing%20Plan">Discuss a landing plan</a>
+            <a class="btn btn-light" href="/about/">About OTC</a>
+          </div>
+        </div>
+        <aside class="consulting-stat-panel">
+          <div><b>Sydney</b><span>Local office coordination through OTC Australia Representative Office planning.</span></div>
+          <div><b>Bilingual</b><span>English and Chinese communication support for UK, Australia and Asia-facing stakeholders.</span></div>
+          <div><b>Referral-led</b><span>Regulated matters are referred to migration agents, lawyers, accountants or other qualified advisers.</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="spotlight">
+      <div class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Service Scope</div>
+          <h2>What OTC can coordinate.</h2>
+          <p>These services are administrative and commercial support services. They help clients prepare, organise and communicate, without replacing regulated professional advice.</p>
+        </div>
+        <div class="consulting-grid">
+          <article><b>01</b><strong>Market-entry Planning</strong><span>Australia landing timetable, stakeholder map, practical document checklist and first-stage route comparison.</span></article>
+          <article><b>02</b><strong>Representative-office Setup Support</strong><span>Address, mailbox, meeting-room, local contact and supplier coordination for an Australian presence.</span></article>
+          <article><b>03</b><strong>Local Administrative Support</strong><span>Document follow-up, appointment coordination, meeting notes, local communication and operational tracking.</span></article>
+          <article><b>04</b><strong>Education Market Research</strong><span>Partner research, bilingual learner-market mapping, centre outreach planning and education product positioning.</span></article>
+          <article><b>05</b><strong>Evidence Pack Organisation</strong><span>Business records, recruitment evidence, local activity records and project chronology prepared for professional review.</span></article>
+          <article><b>06</b><strong>Professional Referral</strong><span>Coordination with registered migration agents, Australian lawyers, tax/BAS agents, accountants and corporate service providers.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Compliance Boundary</div>
+        <h2>Clear limits protect clients and OTC.</h2>
+      </div>
+      <div class="consulting-levels">
+        <article><strong>Business Coordination</strong><p>Administrative planning, commercial communication, records organisation and local service coordination.</p><span>Within OTC scope.</span></article>
+        <article><strong>Company and Address Support</strong><p>Practical liaison with ASIC registered agents, corporate service providers, office suppliers and accountants.</p><span>Coordination only.</span></article>
+        <article><strong>Migration and Visa Matters</strong><p>Visa strategy, sponsor advice, nomination eligibility and application preparation require an Australian registered migration agent or legal practitioner.</p><span>Referral required.</span></article>
+        <article><strong>Tax, Legal and Regulated Education Advice</strong><p>GST, BAS, payroll, contracts, director duties, CRICOS, RTO or Australian education-provider compliance require qualified advisers.</p><span>Referral required.</span></article>
+      </div>
+      <div style="height:28px"></div>
+      <div class="notice advice-signpost">
+        <strong>Important professional boundary</strong>
+        <p>OTC provides administrative, market-entry and business coordination support only. OTC does not provide Australian migration, legal, tax, financial or regulated education compliance advice.</p>
+        <p>Where regulated advice is required, clients should consult registered migration agents, Australian legal practitioners, registered tax/BAS agents, accountants, education compliance specialists or other appropriately qualified professionals.</p>
+      </div>
+      <div style="height:14px"></div>
+      <div class="notice">
+        <strong>中文說明</strong>
+        <p>OTC為海外教育及商業機構提供澳洲落地行政支援、市場調研、文件整理、本地聯絡及專業人士轉介服務。OTC不提供澳洲移民、法律、稅務、金融或受監管教育合規建議；如涉及相關專業服務，將協助轉介持牌或合資格專業人士。</p>
       </div>
     </section>
   `
@@ -2606,6 +2677,7 @@ write("othm-level-5-business-management", othm);
 write("apps", apps);
 write("apps/ucbelt-speaking", ucbelt);
 write("resources", resources);
+write("australia-business-landing", australiaBusinessLanding);
 write("consultation-chat", consultationChat);
 write("search", search);
 write("about", about);
@@ -2639,6 +2711,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /apps/ucbelt-speaking/
 - /belt/
 - /resources/
+- /australia-business-landing/
 - /consultation-chat/
 - /search/
 - /about/
