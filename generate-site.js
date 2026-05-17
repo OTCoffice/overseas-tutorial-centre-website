@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { pageShell, productCards, productShelf, products } = require("./site");
+const { pageShell, productCards, productShelf, products, SITE_URL } = require("./site");
 
 const root = __dirname;
 
@@ -1452,10 +1452,22 @@ function searchItems() {
   return [...pages, ...internationalCurriculumSupport, ...externalSupport, ...qualifications, ...books];
 }
 
+const generatedRoutes = [];
+
+function routePath(route) {
+  return route === "." ? "/" : `/${route.replace(/^\/+|\/+$/g, "")}/`;
+}
+
 function write(route, html) {
   const dir = path.join(root, route);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), html);
+  const publicPath = routePath(route);
+  const canonicalUrl = new URL(publicPath, SITE_URL).toString();
+  const htmlWithCanonical = html
+    .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`)
+    .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`);
+  fs.writeFileSync(path.join(dir, "index.html"), htmlWithCanonical);
+  generatedRoutes.push(publicPath);
 }
 
 const home = pageShell({
@@ -2877,9 +2889,9 @@ const about = pageShell({
       <div style="height:24px"></div>
       <div class="about-panel">
         <h3>Contact</h3>
-        <p>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
-        <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a> · Website: <a href="https://www.overseasuk.com">www.overseasuk.com</a></p>
-        <p>WeChat: <strong>overseasus</strong> · WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+        <p><strong>Overseas Tutorial Centre (OTC)</strong></p>
+        <p>3/F Overseas Education, 207 Regent Street, London W1B 3HH</p>
+        <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: <strong>overseasus</strong><br>Website: <a href="https://overseasuk.com">https://overseasuk.com</a></p>
       </div>
     </section>
   `
@@ -3272,6 +3284,30 @@ write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   cleanUrls: true,
   trailingSlash: true,
+  redirects: [
+    {
+      source: "/(.*)",
+      has: [
+        {
+          type: "host",
+          value: "otc.overseasuk.com"
+        }
+      ],
+      destination: "https://overseasuk.com/$1",
+      permanent: true
+    },
+    {
+      source: "/(.*)",
+      has: [
+        {
+          type: "host",
+          value: "www.otc.overseasuk.com"
+        }
+      ],
+      destination: "https://overseasuk.com/$1",
+      permanent: true
+    }
+  ],
   headers: [
     {
       source: "/(.*)",
@@ -3281,6 +3317,23 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
     }
   ]
 }, null, 2));
+
+const sitemap = [...new Set(generatedRoutes)].sort().map((publicPath) => {
+  const loc = new URL(publicPath, SITE_URL).toString();
+  return `  <url><loc>${loc}</loc></url>`;
+}).join("\n");
+
+fs.writeFileSync(path.join(root, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemap}
+</urlset>
+`);
+
+fs.writeFileSync(path.join(root, "robots.txt"), `User-agent: *
+Allow: /
+
+Sitemap: ${new URL("/sitemap.xml", SITE_URL).toString()}
+`);
 
 fs.writeFileSync(path.join(root, "README.md"), `# OTC Study Hub
 

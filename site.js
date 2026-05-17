@@ -43,6 +43,11 @@ const products = [
   }
 ];
 
+const SITE_URL = "https://overseasuk.com";
+const BRAND_NAME = "Overseas Tutorial Centre (OTC)";
+const CONTACT_HTML = `${BRAND_NAME}<br>3/F Overseas Education, 207 Regent Street, London W1B 3HH<br>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: overseasus<br>Website: <a href="${SITE_URL}">${SITE_URL}</a>`;
+const CONTACT_TEXT = `${BRAND_NAME}\n3/F Overseas Education, 207 Regent Street, London W1B 3HH\nEmail: office@overseasuk.com\nWhatsApp: +44 7947 991572\nWeChat: overseasus\nWebsite: ${SITE_URL}`;
+
 function nav(current = "", locale = "en") {
   const isZh = locale === "zh";
   return `
@@ -50,7 +55,7 @@ function nav(current = "", locale = "en") {
       <nav class="nav">
         <a class="brand" href="/">
           <span class="brand-mark"><span></span></span>
-          <span>Overseas Tutorial Centre<small>OTC Study Hub · Overseas Publishing</small></span>
+          <span>${BRAND_NAME}<small>OTC Study Hub · Overseas Publishing</small></span>
         </a>
         <div class="nav-links">
           <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>${isZh ? "諮詢" : "Consulting"}</a>
@@ -89,12 +94,11 @@ function footer(locale = "en") {
           </div>
           <div class="footer-col footer-contact">
             <strong>聯絡與出版信息</strong>
-            <p>Overseas Tutorial Centre / Overseas Publishing House<br>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
-            <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a> · Website: <a href="https://www.overseasuk.com">www.overseasuk.com</a><br>WeChat: overseasus · WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+            <p>${CONTACT_HTML}</p>
           </div>
         </div>
         <div class="footer-legal">
-          <span>© 2026 Overseas Publishing House / Overseas Tutorial Centre. All rights reserved.</span>
+          <span>© 2026 ${BRAND_NAME}. All rights reserved.</span>
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
@@ -120,12 +124,11 @@ function footer(locale = "en") {
         </div>
         <div class="footer-col footer-contact">
           <strong>Contact & Imprint</strong>
-          <p>Overseas Tutorial Centre / Overseas Publishing House<br>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
-          <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a> · Website: <a href="https://www.overseasuk.com">www.overseasuk.com</a><br>WeChat: overseasus · WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          <p>${CONTACT_HTML}</p>
         </div>
       </div>
       <div class="footer-legal">
-        <span>© 2026 Overseas Publishing House / Overseas Tutorial Centre. All rights reserved.</span>
+        <span>© 2026 ${BRAND_NAME}. All rights reserved.</span>
         <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
       </div>
     </footer>
@@ -178,7 +181,31 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre (OTC) Study Hub: education consulting, courses, tutorial support, bilingual study guides, exam preparation apps and Overseas Publishing resources." }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre (OTC) Study Hub: education consulting, courses, tutorial support, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/" }) {
+  const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
+  const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: BRAND_NAME,
+    alternateName: "OTC",
+    url: SITE_URL,
+    email: "office@overseasuk.com",
+    telephone: "+447947991572",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "3/F Overseas Education, 207 Regent Street",
+      addressLocality: "London",
+      postalCode: "W1B 3HH",
+      addressCountry: "GB"
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Customer support",
+      email: "office@overseasuk.com",
+      telephone: "+447947991572"
+    }
+  };
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -186,6 +213,16 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title}</title>
   <meta name="description" content="${description}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="${BRAND_NAME}">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${description}">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${description}">
+  <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -199,4 +236,4 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 </html>`;
 }
 
-module.exports = { pageShell, productCards, productShelf, products };
+module.exports = { pageShell, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };
