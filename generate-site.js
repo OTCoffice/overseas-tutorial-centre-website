@@ -1655,7 +1655,7 @@ const publishing = pageShell({
           <div>
             <div class="eyebrow">Author Services</div>
             <h3>Ebook Publishing Support</h3>
-            <p>書稿整理、版式設計、PDF / ebook package preparation and Payhip / KDP-ready listing materials.</p>
+            <p>Editorial production, bilingual typesetting, digital publication packaging and platform-ready metadata for institutional, academic and professional publishing projects.</p>
           </div>
           <a href="/publishing/ebook-publishing-support/">Service process</a>
         </div>
@@ -1728,13 +1728,13 @@ const ebookPublishingSupport = pageShell({
   path: "/publishing/ebook-publishing-support/",
   body: `
     <main class="ebook-support-page">
-    <section class="page-hero ebook-service-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Ebook Publishing Support</h1><p>書稿整理、電子書排版、PDF 出版包、封面與 Payhip / KDP 上架資料準備，面向希望把草稿整理成可公開銷售電子書的作者。</p></div></section>
+    <section class="page-hero ebook-service-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Ebook Publishing Support</h1><p>面向教育機構、研究團隊、專業作者與公共文化項目的數字出版製作服務，涵蓋編輯結構整理、雙語版式設計、PDF / ebook 出版包、封面系統與平台上架元資料準備。</p></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Service Positioning</div>
-        <h2>From manuscript draft to publication-ready ebook package.</h2>
-        <p>OTC Overseas Publishing House focuses on practical publishing preparation: organising the manuscript, designing a readable layout, preparing listing materials and helping authors understand the steps before release.</p>
+        <h2>From editorial manuscript to publication-grade digital edition.</h2>
+        <p>OTC Overseas Publishing House supports disciplined editorial production for academic, educational and professional materials: structuring the manuscript, establishing a clear typographic system, preparing digital publication files and documenting the release workflow.</p>
       </div>
       <div class="index-grid ebook-service-grid">
         <article><b>01</b><strong>Manuscript review</strong><span>Check manuscript type, language, length, image/table needs, target reader and intended platform.</span></article>
@@ -1784,7 +1784,7 @@ const ebookPublishingSupport = pageShell({
           </ul>
         </div>
       </div>
-      <div class="notice">Overseas Publishing House can support authors with publication preparation and practical digital-book packaging. Final content responsibility, copyright clearance and platform decisions remain with the author or rights holder.</div>
+      <div class="notice">Overseas Publishing House provides editorial production and digital-publication preparation services. Final content responsibility, rights clearance, institutional approvals and platform decisions remain with the author, commissioning body or rights holder.</div>
     </section>
 
     <section class="band compact-band">
