@@ -2939,7 +2939,7 @@ h1 {
 }
 
 .ebook-support-page .band {
-  width: min(1180px, calc(100% - 40px));
+  width: min(1320px, calc(100% - 48px));
 }
 
 .ebook-support-page .compact-band,
