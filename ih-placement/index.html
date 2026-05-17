@@ -495,7 +495,7 @@
       </div>
       <div class="stats">
         <span><b>10</b> speaking themes</span>
-        <span><b>320</b> bilingual words</span>
+        <span><b>220</b> quiz items</span>
         <span><b>5</b> self levels</span>
         <span><b>7</b> day plan</span>
       </div>
@@ -574,6 +574,7 @@
           </div>
           <div class="answer-frame" style="margin-top:12px">
             Placement test practice areas: A1 be verbs and possessives, verb tense control, prepositions, comparative language, short reading logic, everyday vocabulary and polite communication.
+            <br><strong>Level progress:</strong> <span id="levelStatus">A1 0/8</span>
             <br><strong>Current focus:</strong> <span id="focusSkill">general rotation</span>
           </div>
         </article>
@@ -733,6 +734,112 @@
       {skill:"would rather", level:"B2", q:"I would rather work with classmates ___ prepare alone.", zh:"比較兩個選擇。", options:["to","than","then","that"], a:1, en:"The correct connector is 'than' after would rather.", cn:"would rather 後面比較兩個選擇時，用 than 連接。", example:"Example: I would rather practise slowly than memorise answers.", exampleZh:"例句：我寧願慢慢練習，也不想背答案。"}
     ];
 
+    const levelOrder = ["A1", "A2", "B1", "B1+", "B2"];
+
+    const quizBanks = [
+      {level:"A1", skill:"be verb statements", options:["am","is","are","be"], en:"Match the subject to the correct be verb: I am, he / she / it is, you / we / they are.", cn:"be 動詞要和主語一致：I am，he / she / it is，you / we / they are。", rows:[
+        ["I ___ ready for class.",0,"I 後面用 am。","Example: I am ready for class.","例句：我準備好上課了。"], ["We ___ in the same group.",2,"we 後面用 are。","Example: We are in the same group.","例句：我們在同一組。"], ["My friend ___ very kind.",1,"單數名詞後面用 is。","Example: My friend is helpful.","例句：我的朋友很樂於助人。"], ["They ___ from different countries.",2,"they 後面用 are。","Example: They are from Spain.","例句：他們來自西班牙。"], ["The lesson ___ at 9 o'clock.",1,"單數名詞 lesson 後面用 is。","Example: The lesson is in Room 4.","例句：課在 4 號教室。"], ["You ___ welcome here.",2,"you 後面用 are。","Example: You are welcome to ask questions.","例句：你可以提問。"], ["My parents ___ in London this week.",2,"複數 parents 後面用 are。","Example: My parents are nearby.","例句：我的父母在附近。"], ["This course ___ interesting.",1,"單數 this course 後面用 is。","Example: This course is useful.","例句：這門課很有用。"]
+      ]},
+      {level:"A1", skill:"basic possessives", options:["my","your","his","her"], en:"Use possessive adjectives before nouns: my bag, your class, his teacher, her passport.", cn:"名詞前用物主形容詞：my bag、your class、his teacher、her passport。", rows:[
+        ["I have ___ notebook.",0,"notebook 前要用「我的」。","Example: I have my notebook.","例句：我有我的筆記本。"], ["Please write ___ name here.",1,"對對方說話時用 your。","Example: Write your name on the form.","例句：在表格上寫你的名字。"], ["Tom is with ___ teacher.",2,"Tom 是男孩名，teacher 前用 his。","Example: Tom is with his teacher.","例句：Tom 和他的老師在一起。"], ["Anna lost ___ card.",3,"Anna 是女孩名，card 前用 her。","Example: Anna lost her card.","例句：Anna 丟了她的卡。"], ["This is ___ seat. I sit here.",0,"表示「我的座位」用 my seat。","Example: This is my seat.","例句：這是我的座位。"], ["Is this ___ bag?",1,"詢問對方物品用 your。","Example: Is this your bag?","例句：這是你的包嗎？"], ["He wants ___ phone.",2,"he 對應 his。","Example: He wants his phone.","例句：他想要他的手機。"], ["She needs ___ passport.",3,"she 對應 her。","Example: She needs her passport.","例句：她需要她的護照。"]
+      ]},
+      {level:"A1", skill:"articles a and an", options:["a","an","the","no article"], en:"Use 'a' before consonant sounds and 'an' before vowel sounds when introducing one thing.", cn:"第一次提到一個單數名詞時，輔音音開頭用 a，元音音開頭用 an。", rows:[
+        ["I have ___ umbrella.",1,"umbrella 以元音音開頭，用 an。","Example: I need an umbrella.","例句：我需要一把傘。"], ["She is ___ student.",0,"student 以輔音音開頭，用 a。","Example: She is a student.","例句：她是一名學生。"], ["This is ___ orange bag.",1,"orange 以元音音開頭，用 an。","Example: It is an orange bag.","例句：這是一個橙色包。"], ["He has ___ new pen.",0,"new 以輔音音開頭，用 a。","Example: He has a new pen.","例句：他有一支新筆。"], ["I saw ___ old building.",1,"old 以元音音開頭，用 an。","Example: I saw an old building.","例句：我看到一棟老建築。"], ["We need ___ map.",0,"map 以輔音音開頭，用 a。","Example: We need a map.","例句：我們需要一張地圖。"], ["It is ___ easy question.",1,"easy 以元音音開頭，用 an。","Example: It is an easy question.","例句：這是一個簡單問題。"], ["There is ___ cafe near school.",0,"cafe 以輔音音開頭，用 a。","Example: There is a cafe nearby.","例句：附近有一家咖啡館。"]
+      ]},
+      {level:"A1", skill:"simple present have", options:["have","has","do","does"], en:"Use have with I / you / we / they, and has with he / she / it.", cn:"I / you / we / they 用 have；he / she / it 用 has。", rows:[
+        ["I ___ English homework today.",0,"I 後面用 have。","Example: I have homework today.","例句：我今天有作業。"], ["She ___ a blue bag.",1,"she 後面用 has。","Example: She has a blue bag.","例句：她有一個藍色包。"], ["They ___ lunch at school.",0,"they 後面用 have。","Example: They have lunch together.","例句：他們一起吃午飯。"], ["He ___ two sisters.",1,"he 後面用 has。","Example: He has two sisters.","例句：他有兩個姐妹。"], ["We ___ a test tomorrow.",0,"we 後面用 have。","Example: We have a test tomorrow.","例句：我們明天有測試。"], ["My class ___ twenty students.",1,"單數 class 後面用 has。","Example: My class has twenty students.","例句：我的班有二十名學生。"], ["You ___ a good idea.",0,"you 後面用 have。","Example: You have a good idea.","例句：你有一個好主意。"], ["The school ___ a library.",1,"單數 school 後面用 has。","Example: The school has a library.","例句：學校有圖書館。"]
+      ]},
+      {level:"A1", skill:"basic prepositions", options:["in","on","at","to"], en:"Use common place and time prepositions carefully: in London, on Monday, at 9 o'clock, go to school.", cn:"基礎介詞要按搭配使用：in London，on Monday，at 9 o'clock，go to school。", rows:[
+        ["I live ___ London.",0,"城市前常用 in。","Example: I live in London.","例句：我住在倫敦。"], ["The lesson starts ___ 9 o'clock.",2,"具體時間點用 at。","Example: The lesson starts at 9.","例句：課九點開始。"], ["We have a test ___ Monday.",1,"星期前用 on。","Example: We have class on Monday.","例句：我們星期一有課。"], ["I go ___ school by bus.",3,"go to school 是固定搭配。","Example: I go to school by bus.","例句：我坐公交去學校。"], ["My book is ___ the table.",1,"在桌面上用 on。","Example: The book is on the desk.","例句：書在桌上。"], ["She is ___ Room 3.",0,"在某個房間裡用 in。","Example: She is in Room 3.","例句：她在 3 號房。"], ["Meet me ___ the entrance.",2,"具體地點點位常用 at。","Example: Meet me at the gate.","例句：在門口見我。"], ["We walk ___ the station.",3,"朝某地去用 to。","Example: We walk to the station.","例句：我們走去車站。"]
+      ]},
+      {level:"A2", skill:"present simple routines", options:["go","goes","going","went"], en:"Use present simple for routines; add -s or -es with he / she / it.", cn:"日常習慣用一般現在時；he / she / it 後面動詞加 s 或 es。", rows:[
+        ["I usually ___ to school early.",0,"I 後面用動詞原形。","Example: I usually go to school early.","例句：我通常很早去學校。"], ["She ___ to English club on Fridays.",1,"she 後面用 goes。","Example: She goes to English club.","例句：她去英語社團。"], ["They ___ home after lunch.",0,"they 後面用 go。","Example: They go home together.","例句：他們一起回家。"], ["My brother ___ swimming every week.",1,"my brother 是第三人稱單數。","Example: My brother goes swimming.","例句：我哥哥每週去游泳。"], ["We ___ to the park on Sunday.",0,"we 後面用 go。","Example: We go to the park.","例句：我們去公園。"], ["The bus ___ past our school.",1,"單數 bus 後面用 goes。","Example: The bus goes past school.","例句：公交車經過學校。"], ["You ___ to class by train.",0,"you 後面用 go。","Example: You go by train.","例句：你坐火車去。"], ["Anna ___ shopping with her mum.",1,"Anna 是第三人稱單數。","Example: Anna goes shopping.","例句：Anna 去購物。"]
+      ]},
+      {level:"A2", skill:"past simple", options:["visited","visit","visits","visiting"], en:"Use the past simple for finished past time such as yesterday, last week or in 2025.", cn:"表示過去已完成的事情，用一般過去時，例如 yesterday、last week。", rows:[
+        ["Yesterday we ___ a museum.",0,"yesterday 表示過去，用 visited。","Example: We visited a museum yesterday.","例句：我們昨天參觀了博物館。"], ["Last summer I ___ London.",0,"last summer 表示過去。","Example: I visited London last summer.","例句：我去年夏天去了倫敦。"], ["They ___ their friends on Saturday.",0,"on Saturday 可表示過去的週六。","Example: They visited friends.","例句：他們拜訪了朋友。"], ["She ___ the library after class.",0,"過去完成的動作用 visited。","Example: She visited the library.","例句：她去了圖書館。"], ["We ___ the school before the course.",0,"before the course 表示之前的動作。","Example: We visited the school.","例句：我們參觀了學校。"], ["He ___ his cousin in London.",0,"過去拜訪某人用 visited。","Example: He visited his cousin.","例句：他拜訪了表哥。"], ["I ___ a football match last night.",0,"last night 用過去時。","Example: I visited a stadium last night.","例句：我昨晚去了球場。"], ["My parents ___ Oxford last year.",0,"last year 用過去時。","Example: My parents visited Oxford.","例句：我的父母去了牛津。"]
+      ]},
+      {level:"A2", skill:"there is and there are", options:["is","are","was","be"], en:"Use there is with singular nouns and there are with plural nouns.", cn:"there is 後接單數；there are 後接複數。", rows:[
+        ["There ___ a cafe near the school.",0,"a cafe 是單數。","Example: There is a cafe nearby.","例句：附近有一家咖啡館。"], ["There ___ three students in the room.",1,"three students 是複數。","Example: There are three students.","例句：有三名學生。"], ["There ___ a map on the wall.",0,"a map 是單數。","Example: There is a map on the wall.","例句：牆上有一張地圖。"], ["There ___ many buses outside.",1,"many buses 是複數。","Example: There are many buses.","例句：外面有很多公交車。"], ["There ___ one question left.",0,"one question 是單數。","Example: There is one question left.","例句：還剩一個問題。"], ["There ___ two teachers today.",1,"two teachers 是複數。","Example: There are two teachers today.","例句：今天有兩位老師。"], ["There ___ a problem with my phone.",0,"a problem 是單數。","Example: There is a problem.","例句：有一個問題。"], ["There ___ some books on the desk.",1,"some books 是複數。","Example: There are some books.","例句：桌上有一些書。"]
+      ]},
+      {level:"A2", skill:"comparatives", options:["bigger","big","biggest","more big"], en:"Use comparative forms to compare two things: bigger, easier, more interesting.", cn:"比較兩個事物時用比較級，例如 bigger、easier、more interesting。", rows:[
+        ["London is ___ than my town.",0,"than 前用比較級。","Example: London is bigger than my town.","例句：倫敦比我的小鎮大。"], ["This classroom is ___ than the old one.",0,"比較兩間教室用 bigger。","Example: This room is bigger.","例句：這個房間更大。"], ["The park is ___ than I expected.",0,"than 後表示比較。","Example: The park is bigger than I expected.","例句：公園比我想的大。"], ["My new school is ___ than before.",0,"than before 用比較級。","Example: My new school is bigger.","例句：我的新學校更大。"], ["This bag is ___ than mine.",0,"than mine 用比較級。","Example: This bag is bigger than mine.","例句：這個包比我的大。"], ["The group is ___ than yesterday.",0,"與 yesterday 比較用比較級。","Example: The group is bigger today.","例句：今天小組更大。"], ["The city feels ___ at night.",0,"與其他時間比較時用比較級。","Example: The city feels bigger at night.","例句：城市晚上感覺更大。"], ["Our class is ___ this week.",0,"暗含與之前比較。","Example: Our class is bigger this week.","例句：這週我們班人更多。"]
+      ]},
+      {level:"A2", skill:"polite requests", options:["Could","Does","Was","Had"], en:"Use 'Could you...' for polite requests, especially in class or interviews.", cn:"禮貌請求常用 Could you...，適合課堂和面試。", rows:[
+        ["___ you repeat that, please?",0,"禮貌請求用 Could you。","Example: Could you repeat that, please?","例句：可以請您再說一遍嗎？"], ["___ you speak more slowly, please?",0,"請對方慢一點用 Could you。","Example: Could you speak slowly?","例句：可以請您慢一點說嗎？"], ["___ you write it on the board?",0,"禮貌請求用 Could you。","Example: Could you write it down?","例句：可以請您寫下來嗎？"], ["___ you help me with this word?",0,"請求幫助用 Could you。","Example: Could you help me?","例句：可以幫我嗎？"], ["___ you explain the homework?",0,"請求解釋用 Could you。","Example: Could you explain it?","例句：可以解釋一下嗎？"], ["___ you say the question again?",0,"面試中自然修復用 Could you。","Example: Could you say it again?","例句：可以再說一遍嗎？"], ["___ you show me the room?",0,"請對方展示用 Could you。","Example: Could you show me?","例句：可以給我看一下嗎？"], ["___ you check my answer?",0,"請求檢查用 Could you。","Example: Could you check my answer?","例句：可以檢查我的答案嗎？"]
+      ]},
+      {level:"B1", skill:"for and since", options:["for","since","during","from"], en:"Use for with a length of time and since with a starting point.", cn:"for 後接一段時間；since 後接起始時間點。", rows:[
+        ["I have studied English ___ six years.",0,"six years 是一段時間。","Example: I have studied English for six years.","例句：我學英語六年了。"], ["She has lived here ___ 2024.",1,"2024 是起點。","Example: She has lived here since 2024.","例句：她從 2024 年起住在這裡。"], ["We have waited ___ twenty minutes.",0,"twenty minutes 是一段時間。","Example: We have waited for twenty minutes.","例句：我們等了二十分鐘。"], ["I have known him ___ primary school.",1,"primary school 是起點。","Example: I have known him since primary school.","例句：我從小學起認識他。"], ["They have been friends ___ a long time.",0,"a long time 是一段時間。","Example: They have been friends for a long time.","例句：他們認識很久了。"], ["He has played football ___ last year.",1,"last year 是起點。","Example: He has played football since last year.","例句：他從去年開始踢球。"], ["I have been nervous ___ this morning.",1,"this morning 是起點。","Example: I have been nervous since this morning.","例句：我從今天早上開始緊張。"], ["We have practised ___ two weeks.",0,"two weeks 是一段時間。","Example: We have practised for two weeks.","例句：我們練了兩週。"]
+      ]},
+      {level:"B1", skill:"first conditional", options:["will","would","did","am"], en:"Use if + present simple, then will + base verb for a real future possibility.", cn:"第一條件句表示真實可能的將來情況：If + 一般現在時，主句用 will + 原形。", rows:[
+        ["If I feel nervous, I ___ take a deep breath.",0,"真實可能的將來情況用 will。","Example: If I feel nervous, I will breathe slowly.","例句：如果我緊張，我會慢慢呼吸。"], ["If the teacher asks me, I ___ answer clearly.",0,"if 從句現在時，主句 will。","Example: I will answer clearly.","例句：我會清楚回答。"], ["If I do not understand, I ___ ask politely.",0,"表示將會禮貌提問。","Example: I will ask politely.","例句：我會禮貌提問。"], ["If it rains, we ___ stay inside.",0,"真實可能的將來結果用 will。","Example: We will stay inside.","例句：我們會待在室內。"], ["If I get lost, I ___ call my group leader.",0,"可能發生的情況用 will。","Example: I will call my leader.","例句：我會打給領隊。"], ["If class finishes early, I ___ review vocabulary.",0,"將來結果用 will。","Example: I will review vocabulary.","例句：我會複習詞彙。"], ["If I make a mistake, I ___ try again.",0,"真實可能情況用 will。","Example: I will try again.","例句：我會再試一次。"], ["If the question is difficult, I ___ ask for time.",0,"將來反應用 will。","Example: I will ask for time.","例句：我會請求一點時間。"]
+      ]},
+      {level:"B1", skill:"gerund after enjoy", options:["speaking","speak","to speak","spoke"], en:"After enjoy, practise and avoid, use the -ing form.", cn:"enjoy、practise、avoid 後面通常接 -ing。", rows:[
+        ["I enjoy ___ English with classmates.",0,"enjoy 後接 -ing。","Example: I enjoy speaking English.","例句：我喜歡說英語。"], ["She practises ___ every day.",0,"practise 後接 -ing。","Example: She practises speaking every day.","例句：她每天練習口語。"], ["They avoid ___ Chinese in class.",0,"avoid 後接 -ing。","Example: They avoid speaking Chinese.","例句：他們避免在課上說中文。"], ["He likes ___ to new people.",0,"like 後可接 -ing。","Example: He likes speaking to new people.","例句：他喜歡和新朋友說話。"], ["We started ___ more confidently.",0,"start 後可接 -ing。","Example: We started speaking more.","例句：我們開始說得更多。"], ["I finished ___ with my teacher.",0,"finish 後接 -ing。","Example: I finished speaking with my teacher.","例句：我和老師說完了。"], ["She misses ___ with her friends.",0,"miss 後接 -ing。","Example: She misses speaking with friends.","例句：她想念和朋友聊天。"], ["I keep ___ even when I make mistakes.",0,"keep 後接 -ing。","Example: I keep speaking.","例句：我繼續說。"]
+      ]},
+      {level:"B1", skill:"relative clauses", options:["who","which","where","when"], en:"Use who for people, which for things, where for places and when for times.", cn:"who 指人，which 指物，where 指地點，when 指時間。", rows:[
+        ["A teacher is someone ___ helps students learn.",0,"someone 指人，用 who。","Example: A friend is someone who listens.","例句：朋友是會傾聽的人。"], ["This is the app ___ helps me practise.",1,"app 是物，用 which。","Example: This is a tool which helps me.","例句：這是幫助我的工具。"], ["London is a city ___ many students study English.",2,"city 是地點，用 where。","Example: A school is a place where we learn.","例句：學校是我們學習的地方。"], ["Monday is the day ___ the course begins.",3,"day 是時間，用 when。","Example: Friday is the day when we finish.","例句：週五是我們結束的日子。"], ["A classmate is a person ___ studies with you.",0,"person 指人，用 who。","Example: A classmate is someone who helps.","例句：同學是會幫助你的人。"], ["This is the phrase ___ I use in interviews.",1,"phrase 是物，用 which。","Example: This is a phrase which sounds polite.","例句：這是一個禮貌短語。"], ["The library is a place ___ students can read.",2,"place 是地點，用 where。","Example: The library is where I study.","例句：圖書館是我學習的地方。"], ["Summer is the time ___ many students travel.",3,"time 是時間，用 when。","Example: Summer is when I travel.","例句：夏天是我旅行的時候。"]
+      ]},
+      {level:"B1", skill:"modals for advice", options:["should","must","can","would"], en:"Use should for advice, must for strong obligation, and can for ability or permission.", cn:"should 表示建議，must 表示強制義務，can 表示能力或允許。", rows:[
+        ["You ___ ask if you do not understand.",0,"這是建議，用 should。","Example: You should ask politely.","例句：你應該禮貌提問。"], ["Students ___ bring their ID card.",1,"必須帶證件，用 must。","Example: Students must bring ID.","例句：學生必須帶證件。"], ["I ___ speak about my hobbies.",2,"表示能力用 can。","Example: I can speak about school.","例句：我能談學校。"], ["You ___ practise a little every day.",0,"學習建議用 should。","Example: You should practise daily.","例句：你應該每天練習。"], ["We ___ be on time for class.",1,"上課準時是強制要求。","Example: We must be on time.","例句：我們必須準時。"], ["She ___ understand simple questions.",2,"表示能力用 can。","Example: She can answer simple questions.","例句：她能回答簡單問題。"], ["I ___ review weak words tonight.",0,"復習建議用 should。","Example: I should review vocabulary.","例句：我應該複習詞彙。"], ["Learners ___ follow school rules.",1,"遵守規則是義務。","Example: Learners must follow rules.","例句：學生必須遵守規則。"]
+      ]},
+      {level:"B1+", skill:"indirect questions", options:["starts","does start","start","starting"], en:"In indirect questions, keep normal statement word order: what time the lesson starts, not what time does the lesson start.", cn:"間接問句後半句用陳述句語序：what time the lesson starts，而不是 what time does the lesson start。", rows:[
+        ["Do you know what time the lesson ___?",0,"Do you know 後面用陳述句語序。","Example: Do you know what time the lesson starts?","例句：你知道課幾點開始嗎？"], ["Could you tell me when the test ___?",0,"when 後面保留主語 + 動詞。","Example: Could you tell me when the test starts?","例句：可以告訴我測試何時開始嗎？"], ["I am not sure what time the activity ___.",0,"間接問句不用 does start。","Example: I am not sure what time it starts.","例句：我不確定它幾點開始。"], ["Can you check when the interview ___?",0,"check 後的疑問內容用正常語序。","Example: Can you check when the interview starts?","例句：可以查一下面試何時開始嗎？"], ["Do you remember what time the bus ___?",0,"what time 後面用 the bus starts。","Example: Do you remember what time the bus starts?","例句：你記得公交幾點出發嗎？"], ["Could you explain when the next task ___?",0,"explain 後面用陳述句語序。","Example: Please explain when the task starts.","例句：請解釋任務何時開始。"], ["I need to know what time the class ___.",0,"need to know 後面不是直接問句。","Example: I need to know what time class starts.","例句：我需要知道課幾點開始。"], ["Can you tell me when the meeting ___?",0,"tell me 後面用 meeting starts。","Example: Can you tell me when the meeting starts?","例句：可以告訴我會議何時開始嗎？"]
+      ]},
+      {level:"B1+", skill:"passive voice", options:["is given","gives","gave","giving"], en:"Use the passive when the action or result is more important than the person doing it.", cn:"當重點是動作或結果而不是誰做時，用被動語態。", rows:[
+        ["The placement test ___ before the course.",0,"test 是被安排的對象，用被動。","Example: The test is given online.","例句：測試在線上進行。"], ["Feedback ___ after the interview.",0,"feedback 是被給出的內容。","Example: Feedback is given later.","例句：之後會給反饋。"], ["The answer ___ in the example.",0,"answer 被提供，用 is given。","Example: The answer is given below.","例句：答案在下面給出。"], ["A level ___ after checking speaking.",0,"level 被給出或安排。","Example: A level is given after the test.","例句：測試後會給出級別。"], ["The task ___ by the teacher.",0,"task 被老師給出。","Example: The task is given clearly.","例句：任務被清楚給出。"], ["Extra support ___ when needed.",0,"support 被提供。","Example: Support is given when needed.","例句：需要時會提供支持。"], ["The instruction ___ at the start.",0,"instruction 被給出。","Example: The instruction is given first.","例句：指示會先給出。"], ["The result ___ by email.",0,"result 被發送或給出。","Example: The result is given by email.","例句：結果會通過郵件給出。"]
+      ]},
+      {level:"B1+", skill:"linkers and contrast", options:["although","because","so","and"], en:"Use although to show contrast, because to give a reason, and so to show a result.", cn:"although 表示轉折，because 表示原因，so 表示結果。", rows:[
+        ["___ I was nervous, I answered clearly.",0,"前後有轉折，用 although。","Example: Although I was nervous, I continued.","例句：雖然我緊張，但我繼續了。"], ["I joined the course ___ I want to improve speaking.",1,"後面是原因，用 because。","Example: I practise because I want progress.","例句：我練習是因為想進步。"], ["The question was hard, ___ I asked for repetition.",2,"後面是結果，用 so。","Example: It was noisy, so I asked again.","例句：太吵了，所以我又問了一遍。"], ["I like group work ___ it helps me speak.",1,"後面說原因。","Example: I like it because it helps.","例句：我喜歡它，因為有幫助。"], ["___ my grammar is not perfect, I can communicate.",0,"語法不完美但能交流，是轉折。","Example: Although I pause, I keep speaking.","例句：雖然我會停頓，但我繼續說。"], ["I forgot one word, ___ I explained it another way.",2,"忘詞後換方式解釋，是結果。","Example: I forgot it, so I described it.","例句：我忘了，所以描述它。"], ["I felt confident ___ I had practised.",1,"練習是原因。","Example: I felt ready because I practised.","例句：我因為練習過而準備好了。"], ["___ the topic was new, I gave an example.",0,"新話題但能舉例，是轉折。","Example: Although it was new, I tried.","例句：雖然它很新，但我試了。"]
+      ]},
+      {level:"B1+", skill:"reported speech", options:["was","is","are","be"], en:"In reported speech about a past conversation, present forms often move back: is becomes was.", cn:"轉述過去說過的話時，現在時常後移：is 變 was。", rows:[
+        ["She said the test ___ online.",0,"said 後轉述，is 常變 was。","Example: She said it was online.","例句：她說它是線上的。"], ["He told me the class ___ full.",0,"told me 後轉述過去內容，用 was。","Example: He told me the class was full.","例句：他告訴我班滿了。"], ["The teacher said my answer ___ clear.",0,"said 後用 was。","Example: The teacher said it was clear.","例句：老師說它很清楚。"], ["My friend said London ___ exciting.",0,"轉述朋友過去說的話。","Example: My friend said London was exciting.","例句：朋友說倫敦很 exciting。"], ["She said the homework ___ easy.",0,"homework 作單數概念，用 was。","Example: She said it was easy.","例句：她說它很容易。"], ["He said the interview ___ short.",0,"轉述過去內容用 was。","Example: He said it was short.","例句：他說面試很短。"], ["My mum said the route ___ safe.",0,"route 是單數，用 was。","Example: My mum said it was safe.","例句：媽媽說路線安全。"], ["The email said the meeting ___ tomorrow.",0,"轉述郵件內容可用 was。","Example: The email said it was tomorrow.","例句：郵件說是在明天。"]
+      ]},
+      {level:"B1+", skill:"verb patterns", options:["to speak","speaking","speak","spoke"], en:"Some verbs take to + verb, while others take -ing. Learn the pattern after the first verb.", cn:"有些動詞後接 to do，有些接 -ing，要看前面的動詞搭配。", rows:[
+        ["My teacher encouraged me ___ more in class.",0,"encourage someone to do。","Example: She encouraged me to speak.","例句：她鼓勵我開口說。"], ["I avoid ___ too quickly.",1,"avoid 後接 -ing。","Example: I avoid speaking too quickly.","例句：我避免說太快。"], ["This app helps me ___ more clearly.",2,"help someone do。","Example: It helps me speak clearly.","例句：它幫我說得更清楚。"], ["I hope ___ confidently in the interview.",0,"hope 後接 to do。","Example: I hope to speak confidently.","例句：我希望自信地說。"], ["I practise ___ every evening.",1,"practise 後接 -ing。","Example: I practise speaking daily.","例句：我每天練習說話。"], ["My parents want me ___ English more.",0,"want someone to do。","Example: They want me to speak English.","例句：他們希望我多說英語。"], ["I can ___ about school life.",2,"can 後接動詞原形。","Example: I can speak about school.","例句：我可以談學校生活。"], ["She decided ___ slowly.",0,"decide 後接 to do。","Example: She decided to speak slowly.","例句：她決定慢慢說。"]
+      ]},
+      {level:"B2", skill:"would rather", options:["than","then","that","to"], en:"Use would rather A than B to compare preferred choices.", cn:"would rather A than B 表示寧願 A 而不是 B。", rows:[
+        ["I would rather ask a question ___ stay confused.",0,"would rather A than B。","Example: I would rather ask than guess.","例句：我寧願問，也不想猜。"], ["She would rather practise daily ___ memorise answers.",0,"比較兩個選擇用 than。","Example: She would rather practise than memorise.","例句：她寧願練習而不是背答案。"], ["We would rather arrive early ___ be late.",0,"rather 後比較用 than。","Example: We would rather wait than be late.","例句：我們寧願等，也不遲到。"], ["I would rather explain simply ___ use difficult words.",0,"比較偏好用 than。","Example: I would rather be clear than complicated.","例句：我寧願清楚而不是複雜。"], ["They would rather work in pairs ___ work alone.",0,"兩個動作比較用 than。","Example: They would rather share than work alone.","例句：他們寧願合作。"], ["He would rather repeat the answer ___ stop speaking.",0,"偏好比較用 than。","Example: He would rather repeat than stop.","例句：他寧願重複也不停止。"], ["I would rather be honest ___ pretend to understand.",0,"rather...than。","Example: I would rather ask than pretend.","例句：我寧願問，也不假裝懂。"], ["She would rather take time ___ rush.",0,"寧願慢一點用 than 連接。","Example: She would rather pause than rush.","例句：她寧願停頓也不趕。"]
+      ]},
+      {level:"B2", skill:"third conditional", options:["would have","will have","would","had"], en:"Use if + past perfect, would have + past participle for unreal past situations.", cn:"第三條件句表示與過去事實相反：If + had done，主句 would have done。", rows:[
+        ["If I had practised more, I ___ felt calmer.",0,"過去假設結果用 would have。","Example: I would have felt calmer.","例句：我本來會更冷靜。"], ["If she had asked, the teacher ___ helped her.",0,"主句用 would have + 過去分詞。","Example: The teacher would have helped.","例句：老師本來會幫她。"], ["If we had left earlier, we ___ arrived on time.",0,"與過去相反的結果。","Example: We would have arrived on time.","例句：我們本來會準時到。"], ["If I had known the word, I ___ answered faster.",0,"過去假設結果用 would have。","Example: I would have answered faster.","例句：我本來會答得更快。"], ["If he had listened carefully, he ___ understood.",0,"過去假設。","Example: He would have understood.","例句：他本來會理解。"], ["If they had checked the email, they ___ found the link.",0,"過去未發生結果。","Example: They would have found the link.","例句：他們本來會找到鏈接。"], ["If I had slept earlier, I ___ been less tired.",0,"would have been。","Example: I would have been less tired.","例句：我本來不會那麼累。"], ["If she had prepared examples, she ___ spoken better.",0,"過去假設結果。","Example: She would have spoken better.","例句：她本來會說得更好。"]
+      ]},
+      {level:"B2", skill:"advanced concession", options:["Despite","Because","So","And"], en:"Use despite + noun or -ing to show concession without a full clause.", cn:"despite 後接名詞或 -ing，表示「儘管」。", rows:[
+        ["___ feeling nervous, I answered the question.",0,"despite 後接 -ing。","Example: Despite feeling nervous, I continued.","例句：儘管緊張，我繼續了。"], ["___ the noise, I understood the teacher.",0,"despite 後接名詞。","Example: Despite the noise, I listened.","例句：儘管有噪音，我聽了。"], ["___ making mistakes, she kept speaking.",0,"despite 後接 -ing。","Example: Despite making mistakes, she smiled.","例句：儘管犯錯，她笑了。"], ["___ the difficult topic, he gave an example.",0,"despite 後接名詞短語。","Example: Despite the topic, he tried.","例句：儘管題目難，他嘗試了。"], ["___ being tired, we practised again.",0,"despite 後接 being。","Example: Despite being tired, we worked.","例句：儘管累，我們仍然練習。"], ["___ the short time, I planned my answer.",0,"despite 表示讓步。","Example: Despite the time, I planned.","例句：儘管時間短，我做了計劃。"], ["___ forgetting one word, I explained my idea.",0,"despite + -ing。","Example: Despite forgetting a word, I explained.","例句：儘管忘詞，我解釋了。"], ["___ the pressure, she stayed polite.",0,"despite + noun。","Example: Despite the pressure, she stayed calm.","例句：儘管有壓力，她保持冷靜。"]
+      ]},
+      {level:"B2", skill:"complex reasons", options:["whereas","because","therefore","although"], en:"Choose linkers by meaning: whereas contrasts two facts, therefore shows result, because gives reason.", cn:"whereas 對比兩件事，therefore 表示結果，because 表示原因。", rows:[
+        ["Some students prefer grammar, ___ others prefer speaking.",0,"兩類學生對比，用 whereas。","Example: I like speaking, whereas my friend likes reading.","例句：我喜歡口語，而朋友喜歡閱讀。"], ["I practised daily; ___, I felt more confident.",2,"前因後果，用 therefore。","Example: I prepared; therefore, I improved.","例句：我準備了，因此進步了。"], ["I joined the course ___ I need more fluency.",1,"後面是原因。","Example: I practise because I need fluency.","例句：我練習因為需要流利度。"], ["___ the task was hard, I completed it.",3,"雖然困難但完成，用 although。","Example: Although it was hard, I tried.","例句：雖然難，我嘗試了。"], ["My writing is strong, ___ my speaking needs practice.",0,"兩個方面對比，用 whereas。","Example: I read well, whereas I speak slowly.","例句：我閱讀好，但口語慢。"], ["The feedback was clear; ___, I knew what to improve.",2,"結果用 therefore。","Example: It was clear; therefore, I improved.","例句：很清楚，所以我進步了。"], ["She asked for repetition ___ the question was fast.",1,"原因用 because。","Example: She asked because it was fast.","例句：她問是因為太快。"], ["___ I lacked vocabulary, I used examples.",3,"讓步轉折用 although。","Example: Although I lacked words, I explained.","例句：雖然詞彙不足，我解釋了。"]
+      ]},
+      {level:"B2", skill:"hypothetical advice", options:["were","was","am","be"], en:"Use 'If I were you' for hypothetical advice.", cn:"提出假設性建議時常用 If I were you。", rows:[
+        ["If I ___ you, I would practise aloud.",0,"固定假設建議用 were。","Example: If I were you, I would practise.","例句：如果我是你，我會練習。"], ["If she ___ in my position, she would ask again.",0,"假設語氣可用 were。","Example: If she were here, she would ask.","例句：如果她在這裡，她會問。"], ["If he ___ more confident, he would speak first.",0,"假設現在情況用 were。","Example: If he were confident, he would speak.","例句：如果他自信，他會先說。"], ["If I ___ less nervous, I would answer faster.",0,"與現在相反的假設。","Example: If I were less nervous, I would answer.","例句：如果我不那麼緊張，我會回答。"], ["If the task ___ easier, more students would finish.",0,"假設情況用 were。","Example: If the task were easier, we would finish.","例句：如果任務更簡單，我們會完成。"], ["If my vocabulary ___ stronger, I would give better examples.",0,"假設能力更強。","Example: If my vocabulary were stronger, I would explain.","例句：如果詞彙更強，我會解釋。"], ["If the interview ___ longer, I would add details.",0,"假設面試更長。","Example: If it were longer, I would add detail.","例句：如果更長，我會加細節。"], ["If I ___ the teacher, I would check interaction.",0,"If I were... 是固定形式。","Example: If I were the teacher, I would ask follow-ups.","例句：如果我是老師，我會追問。"]
+      ]}
+    ];
+
+    function rotatedOptions(options, rowIndex) {
+      const offset = rowIndex % options.length;
+      return options.slice(offset).concat(options.slice(0, offset));
+    }
+
+    quizBanks.forEach(bank => {
+      bank.rows.forEach((row, rowIndex) => {
+        const correct = bank.options[row[1]];
+        const options = rotatedOptions(bank.options, rowIndex);
+        quiz.push({
+          level: bank.level,
+          skill: bank.skill,
+          q: row[0],
+          a: options.indexOf(correct),
+          options,
+          zh: row[2],
+          en: bank.en,
+          cn: bank.cn,
+          example: row[3],
+          exampleZh: row[4]
+        });
+      });
+    });
+
+    quiz.sort((a, b) => levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level));
+
     const words = [
       ["placement test", "分班測試", "A test used to find the right class level."],
       ["speaking interview", "口語面試", "A short conversation to check spoken English."],
@@ -756,10 +863,58 @@
       ["let me think", "讓我想一下", "Buys thinking time naturally."]
     ];
 
-    const levelOrder = ["A1", "A2", "B1", "B1+", "B2"];
-    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [] };
+    const PASS_MIN_ATTEMPTS = 8;
+    const PASS_RATE = 0.75;
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats() };
 
     function qs(id) { return document.getElementById(id); }
+
+    function createLevelStats() {
+      return levelOrder.reduce((acc, level) => {
+        acc[level] = { right: 0, attempted: 0 };
+        return acc;
+      }, {});
+    }
+
+    function levelPassed(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0 };
+      return stats.attempted >= PASS_MIN_ATTEMPTS && stats.right / stats.attempted >= PASS_RATE;
+    }
+
+    function markLevelComplete(level) {
+      if (!state.completedLevels.includes(level)) state.completedLevels.push(level);
+    }
+
+    function nextLevelAfter(level) {
+      const next = levelOrder[levelOrder.indexOf(level) + 1];
+      return next || "";
+    }
+
+    function firstQuestionForLevel(level) {
+      return quiz.findIndex(item => item.level === level);
+    }
+
+    function recordLevelAnswer(level, correct) {
+      const stats = state.levelStats[level] || (state.levelStats[level] = { right: 0, attempted: 0 });
+      stats.attempted += 1;
+      if (correct) stats.right += 1;
+      if (levelPassed(level)) {
+        markLevelComplete(level);
+        state.focusSkill = "";
+      }
+    }
+
+    function renderLevelStatus(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0 };
+      const needed = Math.max(PASS_MIN_ATTEMPTS - stats.attempted, 0);
+      const rate = stats.attempted ? Math.round((stats.right / stats.attempted) * 100) : 0;
+      const next = nextLevelAfter(level);
+      if (levelPassed(level)) {
+        qs("levelStatus").textContent = next ? `${level} passed (${stats.right}/${stats.attempted}, ${rate}%). Next: ${next}` : `${level} passed (${stats.right}/${stats.attempted}, ${rate}%).`;
+      } else {
+        qs("levelStatus").textContent = `${level}: ${stats.right}/${stats.attempted} correct · pass at ${PASS_MIN_ATTEMPTS} attempts and ${Math.round(PASS_RATE * 100)}% (${needed} more to check)`;
+      }
+    }
 
     qs("unlockBtn")?.addEventListener("click", () => {
       const value = qs("passwordInput").value.trim();
@@ -829,12 +984,16 @@
       qs("quizFeedback").innerHTML = "";
       qs("focusSkill").textContent = state.focusSkill || "general rotation";
       renderLevelLadder(item.level);
+      renderLevelStatus(item.level);
+      qs("nextQuiz").textContent = "Next question";
       qs("quizOptions").innerHTML = item.options.map((o, i) => `<button class="quiz-option" data-option="${i}">${o}</button>`).join("");
       document.querySelectorAll("[data-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.option);
+        const correct = pick === item.a;
         state.total += 1;
         state.lastQuiz = state.quiz % quiz.length;
-        if (pick === item.a) {
+        recordLevelAnswer(item.level, correct);
+        if (correct) {
           state.right += 1;
           btn.classList.add("correct");
           if (state.focusSkill === item.skill) state.focusSkill = "";
@@ -842,17 +1001,23 @@
         } else {
           btn.classList.add("wrong");
           document.querySelectorAll("[data-option]")[item.a].classList.add("correct");
-          state.focusSkill = item.skill;
+          if (!levelPassed(item.level)) state.focusSkill = item.skill;
           qs("quizFeedback").innerHTML = feedbackHtml(item, false);
         }
         qs("focusSkill").textContent = state.focusSkill || "general rotation";
+        renderLevelStatus(item.level);
+        if (levelPassed(item.level)) {
+          const next = nextLevelAfter(item.level);
+          qs("nextQuiz").textContent = next ? `Continue to ${next}` : "Restart quiz";
+        }
         document.querySelectorAll("[data-option]").forEach(b => b.disabled = true);
         renderScore();
       }));
     }
 
     function feedbackHtml(item, correct) {
-      const matched = correct ? "Next question will return to mixed practice." : `Next question will match this weak point: ${item.skill}.`;
+      const next = nextLevelAfter(item.level);
+      const matched = levelPassed(item.level) ? (next ? `Pass threshold reached. Next question will move to ${next}.` : "Pass threshold reached. This is the top level in this practice set.") : (correct ? "Next question will return to mixed practice." : `Next question will match this weak point: ${item.skill}.`);
       return `
         <div class="feedback-block">
           <div><strong>${correct ? "Correct" : "Review this point"} / ${correct ? "答對了" : "需要補強"}</strong></div>
@@ -866,8 +1031,17 @@
 
     function nextQuizIndex() {
       const current = state.quiz % quiz.length;
+      const currentLevel = quiz[current].level;
+      if (levelPassed(currentLevel)) {
+        markLevelComplete(currentLevel);
+        const next = nextLevelAfter(currentLevel);
+        if (next) {
+          const nextStart = firstQuestionForLevel(next);
+          if (nextStart >= 0) return nextStart;
+        }
+        return 0;
+      }
       if (state.focusSkill) {
-        const currentLevel = quiz[current].level;
         const matched = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current && index !== state.lastQuiz);
         if (matched >= 0) return matched;
         const fallback = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current);
@@ -877,6 +1051,7 @@
       if (sequential < quiz.length) {
         const oldLevel = quiz[current].level;
         const nextLevel = quiz[sequential].level;
+        if (oldLevel !== nextLevel && !levelPassed(oldLevel)) return firstQuestionForLevel(oldLevel);
         if (oldLevel !== nextLevel && !state.completedLevels.includes(oldLevel)) state.completedLevels.push(oldLevel);
         return sequential;
       }
@@ -887,7 +1062,7 @@
     function renderLevelLadder(activeLevel) {
       qs("levelLadder").innerHTML = levelOrder.map(level => {
         const count = quiz.filter(item => item.level === level).length;
-        const done = state.completedLevels.includes(level) ? " done" : "";
+        const done = state.completedLevels.includes(level) || levelPassed(level) ? " done" : "";
         const active = activeLevel === level ? " active" : "";
         return `<div class="level-step${done}${active}">${level}<br><span>${count} questions</span></div>`;
       }).join("");
@@ -899,7 +1074,7 @@
     }
 
     qs("nextQuiz").addEventListener("click", () => { state.quiz = nextQuizIndex(); renderQuiz(); });
-    qs("resetQuiz").addEventListener("click", () => { state.quiz = 0; state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; state.completedLevels = []; renderScore(); renderQuiz(); });
+    qs("resetQuiz").addEventListener("click", () => { state.quiz = 0; state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; state.completedLevels = []; state.levelStats = createLevelStats(); renderScore(); renderQuiz(); });
 
     function renderWords() {
       const word = words[state.word % words.length];
