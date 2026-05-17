@@ -1471,15 +1471,16 @@ function write(route, html) {
 }
 
 const home = pageShell({
-  title: "Overseas Tutorial Centre (OTC) Study Hub | Consulting, Courses, Apps & Publishing",
+  title: "Overseas Tutorial Centre Ltd (OTC) | UK Education Consulting, Tutoring Apps & Publishing",
+  description: "Official website of Overseas Tutorial Centre Ltd (OTC): UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
   current: "home",
   body: `
     <section class="hero">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">Education Consulting · Tutorial Support · Publishing</div>
-          <h1>OTC Study Hub</h1>
-          <p>Overseas Tutorial Centre's structured entrance for education consulting, course support, exam preparation tools and bilingual publishing.</p>
+          <div class="eyebrow">Official Website · UK Education Consulting · Tutoring Apps · Publishing</div>
+          <h1>Overseas Tutorial Centre Ltd</h1>
+          <p>Official OTC website for UK education consulting, international curriculum tutoring, study apps, bilingual study guides and Overseas Publishing resources.</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
