@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { pageShell, productCards, productShelf } = require("./site");
+const { pageShell, productCards, productShelf, products } = require("./site");
 
 const root = __dirname;
 
@@ -119,6 +119,58 @@ function internationalCurriculumCards(limit = internationalCurriculumRoutes.leng
 function publishingLineCards() {
   return publishingLines.map((line) => `
     <a href="/publishing/"><b>${line.code}</b><strong>${line.title}</strong><span>${line.desc}</span></a>
+  `).join("");
+}
+
+function zhInternationalCurriculumCards(limit = 4) {
+  const translations = {
+    AL: ["A-Level / International A-Level", "商科、經濟、會計、心理、社會學、EPQ", "雙語概念講解、command words 訓練、英文段落框架與案例應用。"],
+    BT: ["BTEC / Pearson 職業課程", "Business、IT、Creative Media、Hospitality、Health & Social Care", "Assignment brief 拆解、證據規劃、Pass / Merit / Distinction 標準意識與學術寫作腳手架。"],
+    IB: ["IBDP 國際文憑", "Business Management、Economics、TOK、EE、Psychology、English B", "研究問題規劃、IA / EE 結構輔導、案例分析框架與雙語 rubric 解讀。"],
+    AP: ["AP 美國大學先修課程", "Microeconomics、Macroeconomics、Psychology、Statistics、Seminar、Research", "雙語概念複習、FRQ 寫作練習、證據型解釋與學術詞彙訓練。"]
+  };
+  return internationalCurriculumRoutes.slice(0, limit).map((route) => {
+    const [title, focus, support] = translations[route.code] || [route.zh, route.focus, route.support];
+    return `
+      <article>
+        <b>${route.code}</b>
+        <strong>${title}</strong>
+        <span>${route.title}</span>
+        <p>${focus}</p>
+        <em>${support}</em>
+      </article>
+    `;
+  }).join("");
+}
+
+function zhPublishingLineCards() {
+  const lines = [
+    ["R", "學術與研究出版", "研究專著、數字人文項目、working papers、書目資料與數據導向的文化研究。"],
+    ["E", "教育與學習伴侶書", "與 OTC 教學相連的雙語教輔、課程伴侶書、workbook 與學習支持書。"],
+    ["P", "實用生活與職業指南", "英國生活、職業牌照、海外生活指南、商業設立與職業轉換資源。"],
+    ["L", "文學、翻譯與文化遺產", "原創寫作、古典與現代翻譯、漢學、女性寫作、旅行寫作與文化收藏。"],
+    ["D", "數字產品與學習 App", "密碼保護 app、詞彙訓練器、mock tests、下載模板、音頻包與互動學習工具。"],
+    ["S", "作者服務與自助出版工作室", "ISBN 規劃、編輯流程、雙語排版、封面系統、Payhip / KDP 上架包與出版支持。"]
+  ];
+  return lines.map(([code, title, desc]) => `
+    <a href="/publishing/"><b>${code}</b><strong>${title}</strong><span>${desc}</span></a>
+  `).join("");
+}
+
+function zhProductShelf(limit = products.length) {
+  return products.slice(0, limit).map((p) => `
+    <a class="shelf-book" href="${p.url}" target="_blank" rel="noopener">
+      <span class="shelf-cover">
+        <span>OTC</span>
+        <strong>${p.title}</strong>
+        <em>${p.unit}</em>
+      </span>
+      <span class="shelf-text">
+        <b>${p.unit}</b>
+        <strong>${p.title}</strong>
+        <small>ISBN ${p.isbn} · Payhip 已上架</small>
+      </span>
+    </a>
   `).join("");
 }
 
@@ -1819,73 +1871,125 @@ const internationalCurriculumTutoring = pageShell({
 const chineseEntrance = pageShell({
   title: "中文 | OTC Study Hub",
   current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  description: "OTC Study Hub 中文頁：教育諮詢、課程支持、國際課程雙語輔導、考試練習工具與 Overseas Publishing 雙語出版資源。",
   body: `
-    <section class="page-hero zh-hero">
-      <div class="band">
-        <div class="eyebrow">中文</div>
-        <h1>OTC Study Hub 中文</h1>
-        <p>面向中國學生、家長、國際學校與合作機構的中文導覽頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 學術支援、海外書局教輔出版與數字學習工具。</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="/international-curriculum-tutoring/">國際課程雙語輔導</a>
-          <a class="btn btn-secondary" href="/study-guides/">教輔書 / Study Guides</a>
-          <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Chinese%20Website%20Enquiry">中文諮詢</a>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">教育諮詢 · 課程輔導 · 出版</div>
+          <h1>OTC Study Hub 中文</h1>
+          <p>Overseas Tutorial Centre 的結構化入口，整合教育諮詢、課程支持、考試與練習工具，以及雙語出版資源。</p>
+          <div class="hero-directory">
+            <a href="/resources/"><strong>教育諮詢</strong><span>路線規劃、申請說明、家庭溝通與學生支持</span></a>
+            <a href="/courses/"><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃</span></a>
+            <a href="/apps/"><strong>輔導工具與 App</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
+            <a href="/publishing/"><strong>出版</strong><span>研究出版、學習伴侶書、數字產品與作者服務</span></a>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">打開 UCBELT App</a>
+            <a class="btn btn-secondary" href="/courses/">課程索引</a>
+            <a class="btn btn-secondary" href="/publishing/">出版更新</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <div class="panel-label">當前重點</div>
+          <div class="hub-map">
+            <div class="hub-item"><strong>UCBELT 口語備考</strong><span>10 組主題練習 · 10 套完整 mock · 640 個雙語詞彙。</span></div>
+            <div class="hub-item"><strong>A-Level / BTEC / IB / AP 雙語輔導</strong><span>面向中國 EAL 學生的國際學校支持：概念、寫作、coursework 與 evaluation。</span></div>
+            <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>六個單元課程支持與雙語 study companion 系列。</span></div>
+            <div class="hub-item"><strong>Overseas Publishing 書目</strong><span>學術研究、雙語教輔、實用書、app 與自助出版服務。</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">機構地圖</div>
+        <h2>OTC 學習生態的一個公開入口。</h2>
+        <p>Notion 仍然是內部工作台；本網站整理面向學生、家長、導師和客戶的公開層面。</p>
+      </div>
+      <div class="index-grid">
+        <article><b>01</b><strong>教育諮詢</strong><span>學習規劃、大學路線說明、申請解釋與家庭指導。</span></article>
+        <article><b>02</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
+        <article><b>03</b><strong>輔導工具與 App</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
+        <article><b>04</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
+      </div>
+    </section>
+
+    <section class="band curriculum-overview">
+      <div class="section-head">
+        <div class="eyebrow">國際課程輔導</div>
+        <h2>面向國際學校課程的雙語支持。</h2>
+        <p>OTC 支持正在修讀 A-Level、BTEC、IB、AP 及相關國際課程的中國 EAL 學生，把學科理解轉化為英文學術輸出。</p>
+      </div>
+      <div class="curriculum-layout">
+        <div class="curriculum-map">${zhInternationalCurriculumCards(4)}</div>
+        <aside class="curriculum-panel">
+          <h3>從理解到輸出</h3>
+          <p>重點不是 ready-made answers，而是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
+          <div class="curriculum-tags">
+            <span>雙語概念輔導</span>
+            <span>Academic Writing</span>
+            <span>Coursework Planning</span>
+            <span>Essay Evaluation</span>
+          </div>
+          <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="spotlight">
+      <div class="band app-spotlight compact-band">
+        <div class="app-screen">
+          <div class="screen-title">
+            <div class="eyebrow">精選 App</div>
+            <h3>UCBELT Speaking Test Practice</h3>
+            <p>帶密碼保護的口語練習工具，包含雙語詞彙訓練與教師模式。</p>
+          </div>
+          <div class="screen-stat">
+            <div><b>10</b><span>口語練習主題</span></div>
+            <div><b>640</b><span>雙語詞彙</span></div>
+            <div><b>5</b><span>自評等級</span></div>
+            <div><b>7</b><span>天練習計劃</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="section-head">
+            <h2>從靜態筆記走向可使用的學習工具。</h2>
+            <p>UCBELT app 結合練習題、mock test 流程、flashcards、quizzes、弱詞複習與雙語解釋。</p>
+          </div>
+          <div class="actions">
+            <a class="btn btn-dark" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">啟動嵌入式 App</a>
+            <a class="btn btn-light" href="/apps/ucbelt-speaking/">查看產品頁</a>
+          </div>
+          <p class="notice" style="margin-top:22px">OTC 獨立練習資源。不是 UCB 官方出版物、官方試卷或保分產品。</p>
         </div>
       </div>
     </section>
-    <section class="band zh-band">
-      <div class="section-head">
-        <div class="eyebrow">OTC 是什麼</div>
-        <h2>一個把教育諮詢、課程輔導、學術英文和出版資源連起來的平台。</h2>
-        <p>OTC 不把學生簡單推向「刷題」或「代寫」。我們更重視課程路線判斷、學術邊界、英文輸出能力、assignment brief 拆解、升學材料表達和可持續的學習支持。</p>
+
+    <section class="band publishing-overview">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Overseas Publishing</div>
+        <h2>一個可以長期擴展的出版機構結構。</h2>
+        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目：研究、教育、實用指南、文學、數字產品與自助出版服務都在同一個編輯系統下。</p>
       </div>
-      <div class="zh-service-grid">
-        <article>
-          <span>01</span>
-          <h3>國際課程雙語輔導</h3>
-          <p>A-Level、BTEC / Pearson Vocational、IBDP、AP、IGCSE、Foundation、HND / Higher Nationals 等課程的概念講解、英文答題、coursework / assignment 規劃。</p>
-          <a href="/international-curriculum-tutoring/">打開課程地圖</a>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>BTEC 升學與作業支持</h3>
-          <p>重點服務 BTEC Level 3、本科申請銜接，以及 BTEC Higher Nationals Level 4 / Level 5 的 assignment brief、evidence plan、Pass / Merit / Distinction 意識。</p>
-          <a href="/international-curriculum-tutoring/btec-pearson/">打開 BTEC 專區</a>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>海外書局教輔出版</h3>
-          <p>OTC Study Guide 系列提供獨立學術伴侶書、雙語詞彙、寫作框架、案例分析和負責任的學術支持，不作為官方教材或範文集。</p>
-          <a href="/study-guides/">查看已上架教輔</a>
-        </article>
-        <article>
-          <span>04</span>
-          <h3>教育諮詢與升學規劃</h3>
-          <p>面向英國、澳洲及國際教育路線的選校、轉學、課程匹配、申請材料、學生支持與家長溝通。</p>
-          <a href="/resources/">打開諮詢服務</a>
-        </article>
-      </div>
-      <div style="height:24px"></div>
-      <div class="zh-focus-layout">
-        <article class="zh-focus-main">
-          <div class="eyebrow">Priority</div>
-          <h2>近期主線：中國國際學校 / 國際部的雙語教輔與課程支持</h2>
-          <p>OTC 目前重點擴充可用於本科申請和國際升學的課程輔導策劃，尤其是 BTEC / Pearson Vocational、A-Level、IBDP、AP 以及 Foundation / HND 類 pathway 課程。</p>
-          <div class="zh-link-list">
-            <a href="/international-curriculum-tutoring/btec-pearson/university-progression/"><strong>BTEC Level 3 大學接受度</strong><span>官方來源導向的升學識別與院校要求核查</span></a>
-            <a href="/international-curriculum-tutoring/btec-pearson/level-3-international-level-3/"><strong>BTEC Level 3 / International Level 3</strong><span>高中階段升本科的課程與材料規劃</span></a>
-            <a href="/international-curriculum-tutoring/btec-pearson/route-diagnosis/"><strong>BTEC 路線診斷</strong><span>確認 Level 3、HNC、HND 或其他 Pearson route 是否適合目標專業</span></a>
-            <a href="/courses/"><strong>完整課程入口</strong><span>OTHM、外部課程、學術輔導與 progression support</span></a>
+      <div class="publishing-layout">
+        <div class="publishing-categories">${zhPublishingLineCards()}</div>
+        <aside class="series-shelf">
+          <div class="shelf-head">
+            <div>
+              <div class="eyebrow">Payhip 已上架系列</div>
+              <h3>OTHM Level 5 Business Management</h3>
+              <p>六本 first-edition single-unit 雙語 study companions 已在 Payhip 上架</p>
+            </div>
+            <a href="/study-guides/">查看全部</a>
           </div>
-        </article>
-        <aside class="zh-contact-card">
-          <h3>中文諮詢方式</h3>
-          <p>發送學生年級、所在課程、目標國家 / 專業、當前 assignment brief 或考試類型、希望解決的問題。</p>
-          <p><strong>Email:</strong> <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br><strong>WeChat:</strong> overseasus<br><strong>WhatsApp:</strong> <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
-          <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=OTC%20Chinese%20Consultation%20Enquiry">發送中文諮詢</a>
+          <div class="shelf-grid">${zhProductShelf()}</div>
         </aside>
       </div>
-      <div style="height:24px"></div>
-      <div class="notice">合規提示：OTC 提供學習支持、課程理解、寫作框架、資料規劃與升學路線判斷；不提供代寫、包分、保錄、官方評分或任何可能違反學術誠信的服務。</div>
     </section>
   `
 });

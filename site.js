@@ -43,7 +43,8 @@ const products = [
   }
 ];
 
-function nav(current = "") {
+function nav(current = "", locale = "en") {
+  const isZh = locale === "zh";
   return `
     <header class="site-header">
       <nav class="nav">
@@ -52,21 +53,53 @@ function nav(current = "") {
           <span>Overseas Tutorial Centre<small>OTC Study Hub · Overseas Publishing</small></span>
         </a>
         <div class="nav-links">
-          <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
-          <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>Courses</a>
-          <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>Tutorial & Apps</a>
-          <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>Publishing</a>
-          <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>About OTC</a>
-          <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>Search</a>
+          <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>${isZh ? "諮詢" : "Consulting"}</a>
+          <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>${isZh ? "課程" : "Courses"}</a>
+          <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>${isZh ? "工具與 App" : "Tutorial & Apps"}</a>
+          <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>${isZh ? "出版" : "Publishing"}</a>
+          <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>${isZh ? "關於 OTC" : "About OTC"}</a>
+          <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>${isZh ? "搜索" : "Search"}</a>
           <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
-          <a class="nav-cta" href="/publishing/">Publishing Updates</a>
+          <a class="nav-cta" href="/publishing/">${isZh ? "出版更新" : "Publishing Updates"}</a>
         </div>
       </nav>
     </header>
   `;
 }
 
-function footer() {
+function footer(locale = "en") {
+  if (locale === "zh") {
+    return `
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-col footer-about">
+            <strong>OTC Study Hub</strong>
+            <p>Overseas Tutorial Centre、Overseas Publishing House 與海外教育服務的數字學習及出版平台。</p>
+            <p>教育諮詢 · 課程輔導 · 雙語出版 · 研究項目 · 數字學習工具。</p>
+          </div>
+          <div class="footer-col">
+            <strong>合規提示</strong>
+            <p>除非另有明確說明，OTC 出版物與工具均為獨立教育資源。</p>
+            <p>對資格、考試或機構的引用僅作語境說明；未經書面許可不代表任何官方背書。</p>
+          </div>
+          <div class="footer-col">
+            <strong>學術誠信</strong>
+            <p>資源用於支持理解、詞彙、研究規劃與負責任的學術準備。</p>
+            <p>它們不是範文、官方 assessment 文件，也不是學習成果證明。</p>
+          </div>
+          <div class="footer-col footer-contact">
+            <strong>聯絡與出版信息</strong>
+            <p>Overseas Tutorial Centre / Overseas Publishing House<br>3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
+            <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a> · Website: <a href="https://www.overseasuk.com">www.overseasuk.com</a><br>WeChat: overseasus · WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <span>© 2026 Overseas Publishing House / Overseas Tutorial Centre. All rights reserved.</span>
+          <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
+        </div>
+      </footer>
+    `;
+  }
   return `
     <footer class="site-footer">
       <div class="footer-inner">
@@ -145,23 +178,23 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
-function pageShell({ title, current = "", body }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre (OTC) Study Hub: education consulting, courses, tutorial support, bilingual study guides, exam preparation apps and Overseas Publishing resources." }) {
   return `<!doctype html>
-<html lang="en">
+<html lang="${lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title}</title>
-  <meta name="description" content="Overseas Tutorial Centre (OTC) Study Hub: education consulting, courses, tutorial support, bilingual study guides, exam preparation apps and Overseas Publishing resources.">
+  <meta name="description" content="${description}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  ${nav(current)}
+  ${nav(current, locale)}
   ${body}
-  ${footer()}
+  ${footer(locale)}
 </body>
 </html>`;
 }
