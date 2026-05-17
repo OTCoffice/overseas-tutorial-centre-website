@@ -307,6 +307,39 @@ img {
   border-left: 4px solid var(--gold);
 }
 
+.zh-page h1 {
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: clamp(32px, 3.5vw, 44px);
+  line-height: 1.12;
+  font-weight: 850;
+  max-width: 560px;
+}
+
+.zh-page .hero-inner {
+  min-height: 500px;
+}
+
+.zh-page + .band .section-head h2,
+.zh-page ~ .band .section-head h2,
+.zh-page ~ .spotlight .section-head h2 {
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: clamp(24px, 2.2vw, 32px);
+  line-height: 1.2;
+  font-weight: 850;
+}
+
+.zh-page p,
+.zh-page ~ .band .section-head p,
+.zh-page ~ .spotlight .section-head p {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.zh-page ~ .band .section-head,
+.zh-page ~ .spotlight .section-head {
+  margin-bottom: 24px;
+}
+
 .nav-cta {
   background: var(--navy);
   color: #fff !important;
