@@ -1352,6 +1352,7 @@ function searchItems() {
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
+    ["中文入口", "/zh/", "OTC Study Hub 中文入口：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
     ["BTEC Level 3 University Progression", "/international-curriculum-tutoring/btec-pearson/university-progression/", "Official-source based BTEC Level 3 and BTEC International Level 3 university recognition map, Pearson recognition examples, UCAS tariff guidance and course-entry checking."],
@@ -1816,6 +1817,80 @@ const internationalCurriculumTutoring = pageShell({
           <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=International%20Curriculum%20Bilingual%20Tutoring%20Enquiry">Request Support</a>
         </aside>
       </div>
+    </section>
+  `
+});
+
+const chineseEntrance = pageShell({
+  title: "中文入口 | OTC Study Hub",
+  current: "zh",
+  body: `
+    <section class="page-hero zh-hero">
+      <div class="band">
+        <div class="eyebrow">Chinese Entrance</div>
+        <h1>OTC Study Hub 中文入口</h1>
+        <p>面向中國學生、家長、國際學校與合作機構的中文導覽頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 學術支援、海外書局教輔出版與數字學習工具。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/international-curriculum-tutoring/">國際課程雙語輔導</a>
+          <a class="btn btn-secondary" href="/study-guides/">教輔書 / Study Guides</a>
+          <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Chinese%20Website%20Enquiry">中文諮詢</a>
+        </div>
+      </div>
+    </section>
+    <section class="band zh-band">
+      <div class="section-head">
+        <div class="eyebrow">OTC 是什麼</div>
+        <h2>一個把教育諮詢、課程輔導、學術英文和出版資源連起來的平台。</h2>
+        <p>OTC 不把學生簡單推向「刷題」或「代寫」。我們更重視課程路線判斷、學術邊界、英文輸出能力、assignment brief 拆解、升學材料表達和可持續的學習支持。</p>
+      </div>
+      <div class="zh-service-grid">
+        <article>
+          <span>01</span>
+          <h3>國際課程雙語輔導</h3>
+          <p>A-Level、BTEC / Pearson Vocational、IBDP、AP、IGCSE、Foundation、HND / Higher Nationals 等課程的概念講解、英文答題、coursework / assignment 規劃。</p>
+          <a href="/international-curriculum-tutoring/">打開課程地圖</a>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>BTEC 升學與作業支持</h3>
+          <p>重點服務 BTEC Level 3、本科申請銜接，以及 BTEC Higher Nationals Level 4 / Level 5 的 assignment brief、evidence plan、Pass / Merit / Distinction 意識。</p>
+          <a href="/international-curriculum-tutoring/btec-pearson/">打開 BTEC 專區</a>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>海外書局教輔出版</h3>
+          <p>OTC Study Guide 系列提供獨立學術伴侶書、雙語詞彙、寫作框架、案例分析和負責任的學術支持，不作為官方教材或範文集。</p>
+          <a href="/study-guides/">查看已上架教輔</a>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>教育諮詢與升學規劃</h3>
+          <p>面向英國、澳洲及國際教育路線的選校、轉學、課程匹配、申請材料、學生支持與家長溝通。</p>
+          <a href="/resources/">打開諮詢服務</a>
+        </article>
+      </div>
+      <div style="height:24px"></div>
+      <div class="zh-focus-layout">
+        <article class="zh-focus-main">
+          <div class="eyebrow">Priority</div>
+          <h2>近期主線：中國國際學校 / 國際部的雙語教輔與課程支持</h2>
+          <p>OTC 目前重點擴充可用於本科申請和國際升學的課程輔導策劃，尤其是 BTEC / Pearson Vocational、A-Level、IBDP、AP 以及 Foundation / HND 類 pathway 課程。</p>
+          <div class="zh-link-list">
+            <a href="/international-curriculum-tutoring/btec-pearson/university-progression/"><strong>BTEC Level 3 大學接受度</strong><span>官方來源導向的升學識別與院校要求核查</span></a>
+            <a href="/international-curriculum-tutoring/btec-pearson/level-3-international-level-3/"><strong>BTEC Level 3 / International Level 3</strong><span>高中階段升本科的課程與材料規劃</span></a>
+            <a href="/international-curriculum-tutoring/btec-pearson/route-diagnosis/"><strong>BTEC 路線診斷</strong><span>確認 Level 3、HNC、HND 或其他 Pearson route 是否適合目標專業</span></a>
+            <a href="/courses/"><strong>完整課程入口</strong><span>OTHM、外部課程、學術輔導與 progression support</span></a>
+          </div>
+        </article>
+        <aside class="zh-contact-card">
+          <h3>中文諮詢方式</h3>
+          <p>發送學生年級、所在課程、目標國家 / 專業、當前 assignment brief 或考試類型、希望解決的問題。</p>
+          <p><strong>Email:</strong> <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br><strong>WeChat:</strong> overseasus<br><strong>WhatsApp:</strong> <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=OTC%20Chinese%20Consultation%20Enquiry">發送中文諮詢</a>
+        </aside>
+      </div>
+      <div style="height:24px"></div>
+      <div class="notice">合規提示：OTC 提供學習支持、課程理解、寫作框架、資料規劃與升學路線判斷；不提供代寫、包分、保錄、官方評分或任何可能違反學術誠信的服務。</div>
     </section>
   `
 });
@@ -3072,6 +3147,7 @@ write(".", home);
 write("publishing", publishing);
 write("study-guides", guides);
 write("courses", courses);
+write("zh", chineseEntrance);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
 write("external-programme-support", externalProgrammeSupport);
