@@ -255,6 +255,35 @@
       font-weight: 800;
     }
 
+    .level-ladder {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 6px;
+      margin: 0 0 12px;
+    }
+
+    .level-step {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .level-step.active {
+      border-color: var(--gold);
+      background: #fff8e8;
+      color: var(--ink);
+    }
+
+    .level-step.done {
+      border-color: #b9d8ca;
+      background: #edf8f3;
+      color: var(--green);
+    }
+
     .timer {
       display: flex;
       align-items: center;
@@ -450,6 +479,7 @@
     <section class="view" id="placement">
       <div class="grid">
         <article class="panel span-7">
+          <div class="level-ladder" id="levelLadder"></div>
           <span class="badge" id="quizLevel">A2-B1</span>
           <h3 id="quizPrompt">Question</h3>
           <p class="zh" id="quizZh"></p>
@@ -647,7 +677,8 @@
       ["let me think", "讓我想一下", "Buys thinking time naturally."]
     ];
 
-    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1 };
+    const levelOrder = ["A2", "B1", "B1+", "B2"];
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [] };
 
     function qs(id) { return document.getElementById(id); }
 
@@ -711,11 +742,14 @@
 
     function renderQuiz() {
       const item = quiz[state.quiz % quiz.length];
-      qs("quizLevel").textContent = item.level;
+      const levelItems = quiz.filter(q => q.level === item.level);
+      const levelPosition = levelItems.findIndex(q => q.q === item.q) + 1;
+      qs("quizLevel").textContent = `${item.level} · ${levelPosition}/${levelItems.length} · ${item.skill}`;
       qs("quizPrompt").textContent = item.q;
       qs("quizZh").textContent = item.zh;
       qs("quizFeedback").innerHTML = "";
       qs("focusSkill").textContent = state.focusSkill || "general rotation";
+      renderLevelLadder(item.level);
       qs("quizOptions").innerHTML = item.options.map((o, i) => `<button class="quiz-option" data-option="${i}">${o}</button>`).join("");
       document.querySelectorAll("[data-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.option);
@@ -754,12 +788,30 @@
     function nextQuizIndex() {
       const current = state.quiz % quiz.length;
       if (state.focusSkill) {
-        const matched = quiz.findIndex((item, index) => item.skill === state.focusSkill && index !== current && index !== state.lastQuiz);
+        const currentLevel = quiz[current].level;
+        const matched = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current && index !== state.lastQuiz);
         if (matched >= 0) return matched;
-        const fallback = quiz.findIndex((item, index) => item.skill === state.focusSkill && index !== current);
+        const fallback = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current);
         if (fallback >= 0) return fallback;
       }
-      return (state.quiz + 1) % quiz.length;
+      const sequential = state.quiz + 1;
+      if (sequential < quiz.length) {
+        const oldLevel = quiz[current].level;
+        const nextLevel = quiz[sequential].level;
+        if (oldLevel !== nextLevel && !state.completedLevels.includes(oldLevel)) state.completedLevels.push(oldLevel);
+        return sequential;
+      }
+      if (!state.completedLevels.includes(quiz[current].level)) state.completedLevels.push(quiz[current].level);
+      return 0;
+    }
+
+    function renderLevelLadder(activeLevel) {
+      qs("levelLadder").innerHTML = levelOrder.map(level => {
+        const count = quiz.filter(item => item.level === level).length;
+        const done = state.completedLevels.includes(level) ? " done" : "";
+        const active = activeLevel === level ? " active" : "";
+        return `<div class="level-step${done}${active}">${level}<br><span>${count} questions</span></div>`;
+      }).join("");
     }
 
     function renderScore() {
@@ -768,7 +820,7 @@
     }
 
     qs("nextQuiz").addEventListener("click", () => { state.quiz = nextQuizIndex(); renderQuiz(); });
-    qs("resetQuiz").addEventListener("click", () => { state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; renderScore(); renderQuiz(); });
+    qs("resetQuiz").addEventListener("click", () => { state.quiz = 0; state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; state.completedLevels = []; renderScore(); renderQuiz(); });
 
     function renderWords() {
       const word = words[state.word % words.length];
