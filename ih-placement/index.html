@@ -236,6 +236,25 @@
       color: #304554;
     }
 
+    .feedback-block {
+      display: grid;
+      gap: 8px;
+    }
+
+    .feedback-block strong { color: var(--ink); }
+    .feedback-block .example {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .matched-next {
+      color: var(--blue);
+      font-weight: 800;
+    }
+
     .timer {
       display: flex;
       align-items: center;
@@ -450,6 +469,7 @@
           </div>
           <div class="answer-frame" style="margin-top:12px">
             Placement test practice areas: verb tense control, prepositions, comparative language, short reading logic, everyday vocabulary and polite communication.
+            <br><strong>Current focus:</strong> <span id="focusSkill">general rotation</span>
           </div>
         </article>
       </div>
@@ -586,14 +606,22 @@
     ];
 
     const quiz = [
-      {level:"A2", q:"I usually ___ breakfast at 7:30.", zh:"選擇最自然的動詞。", options:["have","am having","had","has"], a:0, why:"Use present simple for routines: I usually have breakfast."},
-      {level:"A2", q:"Could you tell me where the classroom ___?", zh:"間接問句需要正常語序。", options:["is","are","does","be"], a:0, why:"In an indirect question, use 'where the classroom is'."},
-      {level:"B1", q:"I have studied English ___ six years.", zh:"表示持續多久。", options:["since","for","during","from"], a:1, why:"Use 'for' with a period of time: for six years."},
-      {level:"B1", q:"London is ___ than my city in summer.", zh:"比較級。", options:["busy","busier","busiest","more busy than"], a:1, why:"The comparative of busy is busier."},
-      {level:"B1", q:"If I get lost, I ___ ask a member of staff for help.", zh:"第一條件句。", options:["will","would","was","am"], a:0, why:"If + present simple, will + verb."},
-      {level:"B1+", q:"I enjoy meeting new people, although I feel nervous ___ first.", zh:"固定搭配。", options:["in","on","at","by"], a:2, why:"The phrase is 'at first'."},
-      {level:"B1+", q:"The course will help me ___ more confident when I speak.", zh:"help someone do something。", options:["become","becoming","became","to becoming"], a:0, why:"Help + object + base verb: help me become."},
-      {level:"B2", q:"I would rather practise speaking every day ___ only study grammar.", zh:"would rather A than B。", options:["than","then","that","to"], a:0, why:"The structure is 'would rather ... than ...'."}
+      {skill:"present simple routines", level:"A2", q:"I usually ___ breakfast at 7:30.", zh:"選擇最自然的動詞。", options:["have","am having","had","has"], a:0, en:"Use the present simple for routines and habits: usually / every day / often + base verb.", cn:"表示日常習慣或固定作息時，用一般現在時。I 後面用動詞原形，不加 s。", example:"Example: I usually take the bus to school.", exampleZh:"例句：我通常坐巴士去學校。"},
+      {skill:"present simple routines", level:"A2", q:"She often ___ English after dinner.", zh:"日常習慣，注意第三人稱單數。", options:["study","studies","is studying","studied"], a:1, en:"For he / she / it in the present simple, add -s or -es to the verb.", cn:"一般現在時遇到 he / she / it，動詞通常要加 s 或 es。", example:"Example: My sister watches videos in English.", exampleZh:"例句：我妹妹看英文影片。"},
+      {skill:"indirect questions", level:"A2", q:"Could you tell me where the classroom ___?", zh:"間接問句需要正常語序。", options:["is","are","does","be"], a:0, en:"In an indirect question, use normal word order: where the classroom is, not where is the classroom.", cn:"間接問句不是直接問句，後半句要用陳述句語序：where the classroom is。", example:"Example: Do you know where the office is?", exampleZh:"例句：你知道辦公室在哪裡嗎？"},
+      {skill:"indirect questions", level:"A2", q:"Do you know what time the lesson ___?", zh:"間接問句中 what time 後面用正常語序。", options:["starts","does start","starting","start"], a:0, en:"After 'Do you know...', keep the subject before the verb: the lesson starts.", cn:"Do you know 後面的內容用陳述句語序：the lesson starts，不再加 does。", example:"Example: Can you tell me when the test begins?", exampleZh:"例句：你能告訴我測試什麼時候開始嗎？"},
+      {skill:"for and since", level:"B1", q:"I have studied English ___ six years.", zh:"表示持續多久。", options:["since","for","during","from"], a:1, en:"Use 'for' with a length of time: for six years, for two weeks, for a long time.", cn:"for 後面接一段時間，表示持續多久，例如 for six years。", example:"Example: I have lived here for three months.", exampleZh:"例句：我在這裡住了三個月。"},
+      {skill:"for and since", level:"B1", q:"I have known my best friend ___ primary school.", zh:"表示從某個時間點開始。", options:["for","since","during","while"], a:1, en:"Use 'since' with a starting point: since Monday, since 2024, since primary school.", cn:"since 後面接起點，表示從某個時間開始，例如 since primary school。", example:"Example: I have played tennis since last year.", exampleZh:"例句：我從去年開始打網球。"},
+      {skill:"comparatives", level:"B1", q:"London is ___ than my city in summer.", zh:"比較級。", options:["busy","busier","busiest","more busy than"], a:1, en:"For many two-syllable adjectives ending in -y, change y to i and add -er: busy -> busier.", cn:"以 y 結尾的形容詞比較級常把 y 改成 i，再加 er：busy 變 busier。", example:"Example: This class is easier than the last one.", exampleZh:"例句：這節課比上一節更容易。"},
+      {skill:"comparatives", level:"B1", q:"Speaking English is getting ___ for me.", zh:"表示「越來越容易」。", options:["easy","easier","easiest","more easy"], a:1, en:"Use the comparative form after 'getting' when something is changing: getting easier.", cn:"表示事情正在變得更如何，用 getting + 比較級，例如 getting easier。", example:"Example: I am becoming more confident.", exampleZh:"例句：我正在變得更自信。"},
+      {skill:"first conditional", level:"B1", q:"If I get lost, I ___ ask a member of staff for help.", zh:"第一條件句。", options:["will","would","was","am"], a:0, en:"Use if + present simple, then will + base verb for a real future possibility.", cn:"第一條件句表示將來有可能發生的事：If + 一般現在時，主句用 will + 動詞原形。", example:"Example: If I feel nervous, I will take a deep breath.", exampleZh:"例句：如果我緊張，我會深呼吸。"},
+      {skill:"first conditional", level:"B1", q:"If the teacher speaks too fast, I ___ ask her to repeat it.", zh:"真實可能發生的情況。", options:["will","would","did","am"], a:0, en:"This is a real future situation, so use 'will ask'.", cn:"這是真實可能發生的將來情況，所以用 will ask。", example:"Example: If I do not understand, I will ask politely.", exampleZh:"例句：如果我不明白，我會禮貌地提問。"},
+      {skill:"fixed phrases", level:"B1+", q:"I enjoy meeting new people, although I feel nervous ___ first.", zh:"固定搭配。", options:["in","on","at","by"], a:2, en:"The fixed phrase is 'at first', meaning at the beginning.", cn:"固定搭配是 at first，意思是「一開始」。", example:"Example: At first, I was shy, but then I joined the group.", exampleZh:"例句：一開始我很害羞，但後來我加入了小組。"},
+      {skill:"fixed phrases", level:"B1+", q:"___ my opinion, students should practise speaking every day.", zh:"表達觀點的固定搭配。", options:["On","At","In","By"], a:2, en:"Use 'in my opinion' to introduce a personal view.", cn:"表達「在我看來」要用 in my opinion。", example:"Example: In my opinion, making mistakes is part of learning.", exampleZh:"例句：在我看來，犯錯是學習的一部分。"},
+      {skill:"verb patterns", level:"B1+", q:"The course will help me ___ more confident when I speak.", zh:"help someone do something。", options:["become","becoming","became","to becoming"], a:0, en:"After 'help me', use the base verb: help me become, help me practise.", cn:"help me 後面常接動詞原形，例如 help me become / help me practise。", example:"Example: This app helps me prepare for the interview.", exampleZh:"例句：這個 app 幫我準備面試。"},
+      {skill:"verb patterns", level:"B1+", q:"My teacher encouraged me ___ more in class.", zh:"encourage someone to do something。", options:["speak","speaking","to speak","spoke"], a:2, en:"After 'encourage someone', use to + verb: encouraged me to speak.", cn:"encourage someone 後面用 to + 動詞原形：encouraged me to speak。", example:"Example: My parents encouraged me to try new activities.", exampleZh:"例句：我的父母鼓勵我嘗試新活動。"},
+      {skill:"would rather", level:"B2", q:"I would rather practise speaking every day ___ only study grammar.", zh:"would rather A than B。", options:["than","then","that","to"], a:0, en:"Use 'would rather A than B' to compare two choices.", cn:"would rather A than B 表示「寧願 A 而不是 B」。", example:"Example: I would rather ask a question than stay confused.", exampleZh:"例句：我寧願提問，也不想一直困惑。"},
+      {skill:"would rather", level:"B2", q:"I would rather work with classmates ___ prepare alone.", zh:"比較兩個選擇。", options:["to","than","then","that"], a:1, en:"The correct connector is 'than' after would rather.", cn:"would rather 後面比較兩個選擇時，用 than 連接。", example:"Example: I would rather practise slowly than memorise answers.", exampleZh:"例句：我寧願慢慢練習，也不想背答案。"}
     ];
 
     const words = [
@@ -619,7 +647,7 @@
       ["let me think", "讓我想一下", "Buys thinking time naturally."]
     ];
 
-    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120 };
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1 };
 
     function qs(id) { return document.getElementById(id); }
 
@@ -686,22 +714,52 @@
       qs("quizLevel").textContent = item.level;
       qs("quizPrompt").textContent = item.q;
       qs("quizZh").textContent = item.zh;
-      qs("quizFeedback").textContent = "";
+      qs("quizFeedback").innerHTML = "";
+      qs("focusSkill").textContent = state.focusSkill || "general rotation";
       qs("quizOptions").innerHTML = item.options.map((o, i) => `<button class="quiz-option" data-option="${i}">${o}</button>`).join("");
       document.querySelectorAll("[data-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.option);
         state.total += 1;
+        state.lastQuiz = state.quiz % quiz.length;
         if (pick === item.a) {
           state.right += 1;
           btn.classList.add("correct");
-          qs("quizFeedback").textContent = "Correct. " + item.why;
+          if (state.focusSkill === item.skill) state.focusSkill = "";
+          qs("quizFeedback").innerHTML = feedbackHtml(item, true);
         } else {
           btn.classList.add("wrong");
-          qs("quizFeedback").textContent = "Review this. " + item.why;
+          document.querySelectorAll("[data-option]")[item.a].classList.add("correct");
+          state.focusSkill = item.skill;
+          qs("quizFeedback").innerHTML = feedbackHtml(item, false);
         }
+        qs("focusSkill").textContent = state.focusSkill || "general rotation";
         document.querySelectorAll("[data-option]").forEach(b => b.disabled = true);
         renderScore();
       }));
+    }
+
+    function feedbackHtml(item, correct) {
+      const matched = correct ? "Next question will return to mixed practice." : `Next question will match this weak point: ${item.skill}.`;
+      return `
+        <div class="feedback-block">
+          <div><strong>${correct ? "Correct" : "Review this point"} / ${correct ? "答對了" : "需要補強"}</strong></div>
+          <div><strong>EN:</strong> ${item.en}</div>
+          <div><strong>中文:</strong> ${item.cn}</div>
+          <div class="example"><strong>Example / 例題:</strong><br>${item.example}<br><span class="zh">${item.exampleZh}</span></div>
+          <div class="matched-next">${matched}</div>
+        </div>
+      `;
+    }
+
+    function nextQuizIndex() {
+      const current = state.quiz % quiz.length;
+      if (state.focusSkill) {
+        const matched = quiz.findIndex((item, index) => item.skill === state.focusSkill && index !== current && index !== state.lastQuiz);
+        if (matched >= 0) return matched;
+        const fallback = quiz.findIndex((item, index) => item.skill === state.focusSkill && index !== current);
+        if (fallback >= 0) return fallback;
+      }
+      return (state.quiz + 1) % quiz.length;
     }
 
     function renderScore() {
@@ -709,8 +767,8 @@
       qs("scoreTotal").textContent = state.total;
     }
 
-    qs("nextQuiz").addEventListener("click", () => { state.quiz += 1; renderQuiz(); });
-    qs("resetQuiz").addEventListener("click", () => { state.right = 0; state.total = 0; renderScore(); renderQuiz(); });
+    qs("nextQuiz").addEventListener("click", () => { state.quiz = nextQuizIndex(); renderQuiz(); });
+    qs("resetQuiz").addEventListener("click", () => { state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; renderScore(); renderQuiz(); });
 
     function renderWords() {
       const word = words[state.word % words.length];
