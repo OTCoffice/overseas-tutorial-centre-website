@@ -340,6 +340,35 @@ img {
   margin-bottom: 24px;
 }
 
+.zh-page + .band.compact-band,
+.zh-page ~ .band.compact-band {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.zh-page ~ .band {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.zh-page + .band .index-grid article {
+  min-height: 96px;
+  padding: 14px 16px;
+}
+
+.zh-page + .band .index-grid b {
+  margin-bottom: 8px;
+}
+
+.zh-page + .band .index-grid strong {
+  font-size: 16px;
+}
+
+.zh-page + .band .index-grid span {
+  margin-top: 6px;
+  line-height: 1.38;
+}
+
 .nav-cta {
   background: var(--navy);
   color: #fff !important;
@@ -3245,6 +3274,12 @@ h1 {
     min-height: auto;
   }
 
+  .zh-page + .band .index-grid article,
+  .zh-page + .band .index-grid article:last-child {
+    min-height: auto;
+    padding: 12px 16px;
+  }
+
   .feature-grid,
   .product-grid,
   .app-summary-strip,
@@ -3337,6 +3372,17 @@ h1 {
   .btec-compact-hero .band {
     padding-top: 34px;
     padding-bottom: 30px;
+  }
+
+  .zh-page + .band.compact-band,
+  .zh-page ~ .band.compact-band {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  .zh-page ~ .band {
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 
   .nav-links a {
