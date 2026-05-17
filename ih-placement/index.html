@@ -69,9 +69,11 @@
     button, .btn {
       border: 0;
       border-radius: 6px;
-      padding: 10px 14px;
+      padding: 8px 12px;
       background: var(--ink);
       color: white;
+      font-size: 12.5px;
+      line-height: 1.2;
       font-weight: 700;
       cursor: pointer;
       text-decoration: none;
@@ -139,9 +141,10 @@
       background: #fff9e9;
       border: 1px solid #e7d4a3;
       border-radius: 8px;
-      padding: 12px 14px;
+      padding: 10px 13px;
       color: #5d4b22;
-      font-size: 14px;
+      font-size: 12.5px;
+      line-height: 1.45;
       margin-bottom: 14px;
     }
 
@@ -156,6 +159,8 @@
       background: #fff;
       color: var(--muted);
       border: 1px solid var(--line);
+      padding: 8px 12px;
+      font-size: 12px;
       box-shadow: none;
     }
 
@@ -176,7 +181,7 @@
 
     .card, .panel {
       border-radius: 10px;
-      padding: 16px;
+      padding: 14px;
     }
 
     .span-3 { grid-column: span 3; }
@@ -187,8 +192,8 @@
     .span-8 { grid-column: span 8; }
     .span-12 { grid-column: span 12; }
 
-    .card h3, .panel h3 { font-size: 18px; margin-bottom: 8px; }
-    .card p, .panel p { color: var(--muted); margin: 0 0 12px; }
+    .card h3, .panel h3 { font-size: 16px; margin-bottom: 8px; line-height: 1.22; }
+    .card p, .panel p { color: var(--muted); margin: 0 0 12px; font-size: 13px; line-height: 1.45; }
 
     .topic-list, .word-list, .check-list { display: grid; gap: 8px; }
 
@@ -463,12 +468,13 @@
       line-height: 1.45;
     }
 
-    .zh { color: #536675; font-size: 15px; }
+    .zh { color: #536675; font-size: 12.5px; line-height: 1.35; }
     .answer-frame {
       background: #f4f7f8;
       border-radius: 8px;
-      padding: 12px;
-      font-size: 14px;
+      padding: 10px;
+      font-size: 13px;
+      line-height: 1.45;
       color: #304554;
     }
 
@@ -528,11 +534,11 @@
       background: #10202c;
       color: #fff;
       border-radius: 10px;
-      padding: 14px;
+      padding: 12px;
     }
 
     .timer strong {
-      font-size: 36px;
+      font-size: 30px;
       font-variant-numeric: tabular-nums;
     }
 
@@ -691,8 +697,8 @@
       box-shadow: none;
     }
 
-    .word-card strong { display: block; font-size: 17px; }
-    .word-card span { display: block; color: var(--muted); font-size: 14px; }
+    .word-card strong { display: block; font-size: 14px; line-height: 1.25; }
+    .word-card span { display: block; color: var(--muted); font-size: 12px; line-height: 1.35; }
 
     #vocab .word-card strong {
       font-size: 13px;
@@ -739,8 +745,10 @@
       grid-template-columns: 28px 1fr;
       gap: 8px;
       align-items: start;
-      padding: 8px;
+      padding: 7px 8px;
       border-bottom: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.35;
     }
 
     textarea {
@@ -751,6 +759,8 @@
       border-radius: 8px;
       padding: 10px;
       font: inherit;
+      font-size: 13px;
+      line-height: 1.45;
     }
 
     .day-plan {
