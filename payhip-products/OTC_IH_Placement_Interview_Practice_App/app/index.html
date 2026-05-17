@@ -1,0 +1,2118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTC IH Placement & Interview Practice App</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --paper: #f7f4ee;
+      --panel: #ffffff;
+      --muted: #607080;
+      --line: #d8d2c7;
+      --gold: #b08332;
+      --blue: #24566f;
+      --green: #2f6b55;
+      --red: #9f3f2b;
+      --shadow: 0 18px 42px rgba(16, 24, 32, .12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, "Source Sans 3", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    body.locked main { display: none; }
+    body.embed .standalone-only { display: none !important; }
+
+    .gate {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    body:not(.locked) .gate { display: none; }
+
+    .gate-card, .card, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .gate-card {
+      width: min(440px, 100%);
+      padding: 26px;
+      border-radius: 10px;
+    }
+
+    .gate-card h1 {
+      margin: 0 0 8px;
+      font-size: 26px;
+      line-height: 1.1;
+    }
+
+    .gate-card p { color: var(--muted); margin: 0 0 18px; }
+    .gate-card input {
+      width: 100%;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button, .btn {
+      border: 0;
+      border-radius: 6px;
+      padding: 8px 12px;
+      background: var(--ink);
+      color: white;
+      font-size: 12.5px;
+      line-height: 1.2;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    button.secondary, .btn.secondary { background: #e8e1d6; color: var(--ink); }
+    button.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+
+    header {
+      background: #111820;
+      color: #fff;
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .head-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px;
+      display: grid;
+      grid-template-columns: 1.4fr .8fr;
+      gap: 20px;
+      align-items: end;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .13em;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    h1, h2, h3 { margin: 0; line-height: 1.15; }
+    header h1 { font-size: clamp(26px, 4vw, 44px); margin-top: 8px; }
+    header p { color: #c8d0d6; max-width: 720px; margin: 10px 0 0; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stats span {
+      border: 1px solid rgba(255,255,255,.16);
+      padding: 10px;
+      border-radius: 8px;
+      color: #d7dee3;
+      font-size: 12px;
+    }
+
+    .stats b { display: block; color: #fff; font-size: 22px; }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .source-note {
+      background: #fff9e9;
+      border: 1px solid #e7d4a3;
+      border-radius: 8px;
+      padding: 10px 13px;
+      color: #5d4b22;
+      font-size: 12.5px;
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .tabs button {
+      background: #fff;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      padding: 8px 12px;
+      font-size: 12px;
+      box-shadow: none;
+    }
+
+    .tabs button.active {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: #fff8e8;
+    }
+
+    .view { display: none; }
+    .view.active { display: block; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+    }
+
+    .card, .panel {
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .span-3 { grid-column: span 3; }
+    .span-4 { grid-column: span 4; }
+    .span-5 { grid-column: span 5; }
+    .span-6 { grid-column: span 6; }
+    .span-7 { grid-column: span 7; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+
+    .card h3, .panel h3 { font-size: 16px; margin-bottom: 8px; line-height: 1.22; }
+    .card p, .panel p { color: var(--muted); margin: 0 0 12px; font-size: 13px; line-height: 1.45; }
+
+    .topic-list, .word-list, .check-list { display: grid; gap: 8px; }
+
+    #dashboard .card {
+      padding: 13px;
+      box-shadow: 0 10px 24px rgba(16, 24, 32, .08);
+    }
+
+    #dashboard .badge {
+      font-size: 10px;
+      padding: 2px 7px;
+      margin-bottom: 7px;
+    }
+
+    #dashboard h3 {
+      font-size: 15px;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    #dashboard p {
+      font-size: 13px;
+      line-height: 1.42;
+      margin-bottom: 9px;
+    }
+
+    #dashboard .check-list {
+      gap: 5px;
+      margin-top: 2px;
+    }
+
+    #dashboard .check-list label {
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      color: #314655;
+      font-size: 13px;
+      line-height: 1.32;
+    }
+
+    #dashboard .check-list input {
+      width: 13px;
+      height: 13px;
+      margin: 2px 0 0;
+      accent-color: var(--green);
+    }
+
+    .topic-card {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .topic-card b {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #f2eadb;
+      color: var(--gold);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+    }
+
+    .topic-card.active { border-color: var(--gold); background: #fffaf0; }
+
+    .speaking-levels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0 0 10px;
+    }
+
+    .speaking-levels button {
+      padding: 5px 9px;
+      font-size: 11px;
+      background: #fff;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    .speaking-levels button.active {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: #fff8e8;
+    }
+
+    .question-box {
+      min-height: 176px;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+      border-left: 4px solid var(--blue);
+    }
+
+    #speaking .question-box {
+      min-height: 420px;
+    }
+
+    #speaking .card,
+    #speaking .panel {
+      font-size: 13px;
+    }
+
+    #speaking .card h3 {
+      font-size: 16px;
+      margin-bottom: 7px;
+    }
+
+    #speaking .card p {
+      font-size: 12.5px;
+      line-height: 1.45;
+      margin-bottom: 10px;
+    }
+
+    #speaking .topic-card {
+      padding: 9px;
+      gap: 9px;
+    }
+
+    #speaking .topic-card strong {
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    #speaking .topic-card .zh {
+      margin-top: 2px;
+      font-size: 11.5px;
+      line-height: 1.25;
+      color: #6f7d87;
+    }
+
+    .question {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    #speaking .question {
+      font-size: 18px;
+      line-height: 1.28;
+      letter-spacing: 0;
+    }
+
+    #speaking #speakingZh {
+      font-size: 12px;
+      line-height: 1.35;
+      color: #6c7a84;
+    }
+
+    .follow-up-box {
+      border: 1px solid #d9e3e7;
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fffdf7;
+      font-size: 14px;
+      color: #314655;
+    }
+
+    #speaking .follow-up-box {
+      font-size: 12.5px;
+      line-height: 1.45;
+      padding: 9px 10px;
+    }
+
+    #speaking .follow-up-box .zh {
+      display: block;
+      margin-top: 3px;
+      font-size: 11.5px;
+      line-height: 1.35;
+      color: #73818b;
+    }
+
+    .speaking-tools {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .speaking-tools span {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .speaking-tools b {
+      display: block;
+      color: var(--ink);
+      font-size: 19px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #speaking .speaking-tools span {
+      font-size: 10.5px;
+      padding: 7px;
+    }
+
+    #speaking .speaking-tools b {
+      font-size: 17px;
+    }
+
+    .rating-grid {
+      display: grid;
+      gap: 8px;
+    }
+
+    .rating-row {
+      display: grid;
+      grid-template-columns: 82px 1fr;
+      gap: 8px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .rating-row select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 7px;
+      background: #fff;
+      font: inherit;
+      font-size: 12px;
+    }
+
+    .speaking-log {
+      display: grid;
+      gap: 7px;
+      max-height: 220px;
+      overflow: auto;
+    }
+
+    .speaking-log article {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 8px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .speaking-log strong { display: block; color: var(--ink); }
+    .speaking-log span { color: var(--muted); }
+
+    #speaking .answer-frame {
+      font-size: 12.5px;
+      line-height: 1.45;
+      padding: 10px;
+    }
+
+    #speaking .answer-frame .zh {
+      font-size: 11.5px;
+      line-height: 1.35;
+      color: #73818b;
+    }
+
+    #speaking textarea {
+      min-height: 92px;
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+
+    .zh { color: #536675; font-size: 12.5px; line-height: 1.35; }
+    .answer-frame {
+      background: #f4f7f8;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 13px;
+      line-height: 1.45;
+      color: #304554;
+    }
+
+    .feedback-block {
+      display: grid;
+      gap: 8px;
+    }
+
+    .feedback-block strong { color: var(--ink); }
+    .feedback-block .example {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .matched-next {
+      color: var(--blue);
+      font-weight: 800;
+    }
+
+    .level-ladder {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 6px;
+      margin: 0 0 12px;
+    }
+
+    .level-step {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .level-step.active {
+      border-color: var(--gold);
+      background: #fff8e8;
+      color: var(--ink);
+    }
+
+    .level-step.done {
+      border-color: #b9d8ca;
+      background: #edf8f3;
+      color: var(--green);
+    }
+
+    .level-step.locked {
+      background: #f6f7f8;
+      color: #9aa4aa;
+      border-style: dashed;
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: #10202c;
+      color: #fff;
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .timer strong {
+      font-size: 30px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #quizOptions {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin: 12px 0 8px;
+    }
+
+    #placement #quizPrompt {
+      font-size: 13px;
+      line-height: 1.4;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      font-weight: 700;
+    }
+
+    .quiz-option {
+      width: 100%;
+      min-height: 42px;
+      text-align: center;
+      margin: 0;
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    #placement .quiz-option {
+      min-height: 32px;
+      padding: 7px 8px;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .quiz-option.correct { border-color: var(--green); background: #edf8f3; }
+    .quiz-option.wrong { border-color: var(--red); background: #fff0eb; }
+    #quizFeedback:empty { display: none; }
+
+    .assessment-note {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    #placement .assessment-note {
+      font-size: 11.5px;
+      line-height: 1.35;
+      color: #73818b;
+    }
+
+    #placement #quizLevel {
+      font-size: 10px;
+      padding: 3px 8px;
+    }
+
+    #vocab .card {
+      box-shadow: 0 10px 24px rgba(16, 24, 32, .07);
+    }
+
+    #vocab h3 {
+      font-size: 15px;
+      letter-spacing: .01em;
+    }
+
+    #vocab p {
+      font-size: 12.5px;
+      line-height: 1.42;
+    }
+
+    .vocab-levels {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+
+    .vocab-levels button {
+      padding: 5px 9px;
+      font-size: 11px;
+      background: #fff;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    .vocab-levels button.active {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: #fff8e8;
+    }
+
+    .vocab-test-options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .vocab-test-options button {
+      justify-content: flex-start;
+      min-height: 38px;
+      padding: 8px;
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .vocab-test-options button.correct { border-color: var(--green); background: #edf8f3; }
+    .vocab-test-options button.wrong { border-color: var(--red); background: #fff0eb; }
+
+    .vocab-scoreline {
+      color: var(--muted);
+      font-size: 11.5px;
+      font-weight: 800;
+      margin-top: 8px;
+    }
+
+    .vocab-capacity-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 5px;
+      margin: 9px 0 6px;
+    }
+
+    .vocab-capacity-grid span {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 5px 6px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 10.5px;
+      line-height: 1.15;
+      font-weight: 850;
+    }
+
+    .vocab-capacity-grid span.active {
+      border-color: var(--gold);
+      background: #fff8e8;
+      color: var(--ink);
+    }
+
+    .word-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px;
+      background: #fff;
+    }
+
+    #vocab .word-card {
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .word-card strong { display: block; font-size: 14px; line-height: 1.25; }
+    .word-card span { display: block; color: var(--muted); font-size: 12px; line-height: 1.35; }
+
+    #vocab .word-card strong {
+      font-size: 13px;
+      letter-spacing: .01em;
+      line-height: 1.22;
+    }
+
+    #vocab .word-card span {
+      font-size: 11.5px;
+      line-height: 1.36;
+    }
+
+    #vocab .word-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+      max-height: 520px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .word-meta {
+      color: var(--gold);
+      font-size: 10.5px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .badge {
+      display: inline-flex;
+      width: fit-content;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #edf2f5;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .self-scale label {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 8px;
+      align-items: start;
+      padding: 7px 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    #teacher .card h3,
+    #teacher .panel h3 {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    #teacher p,
+    #teacher label,
+    #teacher li {
+      font-size: 12px;
+      line-height: 1.42;
+    }
+
+    .teacher-kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .teacher-kpis span,
+    .teacher-pill {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      padding: 7px 8px;
+      font-size: 11px;
+      line-height: 1.25;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .teacher-kpis strong,
+    .teacher-pill strong {
+      display: block;
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.1;
+      margin-bottom: 3px;
+    }
+
+    .teacher-grid-small {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .teacher-field {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .teacher-field select,
+    .teacher-field input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 7px 8px;
+      font-size: 12px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .rubric-list {
+      display: grid;
+      gap: 7px;
+      margin-top: 8px;
+    }
+
+    .rubric-row {
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 8px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 7px;
+    }
+
+    .rubric-row:last-child { border-bottom: 0; }
+    .rubric-row strong { font-size: 12px; color: var(--ink); }
+    .rubric-row span { display: block; font-size: 10.8px; color: var(--muted); line-height: 1.3; }
+
+    .rubric-row select {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 6px 7px;
+      font-size: 12px;
+      background: #fff;
+    }
+
+    .teacher-plan {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .teacher-plan article {
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--gold);
+      border-radius: 7px;
+      padding: 8px;
+      background: #fff;
+    }
+
+    .teacher-plan strong {
+      display: block;
+      font-size: 12px;
+      color: var(--ink);
+      margin-bottom: 3px;
+    }
+
+    .teacher-plan span {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .teacher-summary {
+      min-height: 210px;
+      white-space: pre-wrap;
+      font-size: 11.5px;
+      line-height: 1.45;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .day-plan {
+      counter-reset: day;
+      display: grid;
+      gap: 8px;
+    }
+
+    .day-plan li {
+      list-style: none;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    #dashboard .day-plan {
+      gap: 5px;
+    }
+
+    #dashboard .day-plan li {
+      padding: 7px 8px;
+      font-size: 12.5px;
+      line-height: 1.3;
+    }
+
+    .day-plan li::before {
+      counter-increment: day;
+      content: "Day " counter(day);
+      display: inline-block;
+      color: var(--gold);
+      font-weight: 900;
+      margin-right: 8px;
+    }
+
+    #dashboard .day-plan li::before {
+      font-size: 10px;
+      margin-right: 6px;
+    }
+
+    footer {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 18px 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      .head-inner { grid-template-columns: 1fr; }
+      .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 { grid-column: span 12; }
+      .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 560px) {
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #quizOptions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .vocab-capacity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #vocab .word-list, .vocab-test-options { grid-template-columns: 1fr; }
+      main { padding: 12px; }
+      .question { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <section class="gate standalone-only" aria-label="Password gate"></section>
+
+  <header>
+    <div class="head-inner">
+      <div>
+        <div class="eyebrow">Downloadable OTC practice app · independent study tool</div>
+        <h1>Placement Test & Speaking Interview Practice</h1>
+        <p>A standalone preparation app for IH-style pre-arrival online level testing and follow-up speaking interviews. Practice focuses on level-appropriate grammar, vocabulary, short answers, confidence and online interview readiness.</p>
+      </div>
+      <div class="stats">
+        <span><b>15</b> speaking themes</span>
+        <span><b>220</b> quiz items</span>
+        <span><b>5</b> self levels</span>
+        <span><b>7</b> day plan</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="source-note">
+      Based on public International House-style course-preparation guidance: online level placement testing before a course, often followed by a speaking interview or teacher conversation to clarify level. This is an independent OTC practice tool, not an official IH London test.
+    </div>
+
+    <nav class="tabs" aria-label="Practice sections">
+      <button class="active" data-tab="dashboard">Dashboard</button>
+      <button data-tab="placement">Placement quiz</button>
+      <button data-tab="speaking">Speaking interview</button>
+      <button data-tab="vocab">Vocabulary</button>
+      <button data-tab="mock">Mock flow</button>
+      <button data-tab="teacher">Teacher mode</button>
+    </nav>
+
+    <section class="view active" id="dashboard">
+      <div class="grid">
+        <article class="card span-4">
+          <span class="badge">What IH is checking</span>
+          <h3>Level fit, not perfection</h3>
+          <p>The purpose is to place the learner in an age- and level-appropriate class, so answers should be natural, clear and honest.</p>
+          <div class="check-list">
+            <label><input type="checkbox"> I can introduce myself clearly.</label>
+            <label><input type="checkbox"> I can talk about school, hobbies and travel.</label>
+            <label><input type="checkbox"> I can explain opinions with because / for example.</label>
+            <label><input type="checkbox"> I can ask for repetition politely.</label>
+          </div>
+        </article>
+        <article class="card span-4">
+          <span class="badge">Route facts</span>
+          <h3>Typical IH preparation route</h3>
+          <p>Students usually complete an online level placement test before the course starts so the school can place them in a suitable class.</p>
+          <p>The speaking interview or teacher conversation is used to check spoken confidence, interaction and level fit.</p>
+        </article>
+        <article class="card span-4">
+          <span class="badge">7-day plan</span>
+          <h3>Short, steady preparation</h3>
+          <ol class="day-plan">
+            <li>Diagnostic grammar + 2 speaking themes.</li>
+            <li>School, hobbies and family answers.</li>
+            <li>London travel and summer course vocabulary.</li>
+            <li>Past experience and future plan grammar.</li>
+            <li>Opinions, reasons and examples.</li>
+            <li>Full mock interview with timer.</li>
+            <li>Weak-word review and calm final rehearsal.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="placement">
+      <div class="grid">
+        <article class="panel span-7">
+          <div class="level-ladder" id="levelLadder"></div>
+          <span class="badge" id="quizLevel">A1-B2</span>
+          <h3 id="quizPrompt">Question</h3>
+          <div id="quizOptions"></div>
+          <p class="assessment-note" id="quizZh"></p>
+          <div id="quizFeedback" class="answer-frame"></div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="nextQuiz">Next question</button>
+            <button class="secondary" id="resetQuiz">Reset score</button>
+          </div>
+        </article>
+        <article class="card span-5">
+          <h3>Placement readiness score</h3>
+          <p>Use this as a confidence signal only. It does not predict IH placement.</p>
+          <div class="stats" style="display:grid;color:var(--ink)">
+            <span style="color:var(--muted);border-color:var(--line)"><b id="scoreRight" style="color:var(--ink)">0</b> correct</span>
+            <span style="color:var(--muted);border-color:var(--line)"><b id="scoreTotal" style="color:var(--ink)">0</b> attempted</span>
+          </div>
+          <div class="answer-frame" style="margin-top:12px">
+            Placement test practice areas: A1 be verbs and possessives, verb tense control, prepositions, comparative language, short reading logic, everyday vocabulary and polite communication.
+            <br><strong>Level progress:</strong> <span id="levelStatus">A1 0/8</span>
+            <br><strong>Current focus:</strong> <span id="focusSkill">general rotation</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="speaking">
+      <div class="grid">
+        <aside class="card span-3">
+          <h3>Interview route</h3>
+          <p>Select a CEFR band and theme. Practise the main prompt first, then answer a realistic follow-up.</p>
+          <div class="speaking-levels" id="speakingLevels"></div>
+          <div class="topic-list" id="topicList"></div>
+        </aside>
+        <article class="panel span-6 question-box">
+          <span class="badge" id="topicBadge">Theme</span>
+          <div class="question" id="speakingQuestion"></div>
+          <div class="zh" id="speakingZh"></div>
+          <div class="follow-up-box" id="followUpBox"></div>
+          <div class="answer-frame" id="speakingFrame"></div>
+          <div class="speaking-tools">
+            <span><b id="speakingTimerDisplay">01:30</b> answer timer</span>
+            <span><b id="speakingRound">1</b> question round</span>
+            <span><b id="speakingSaved">0</b> saved answers</span>
+          </div>
+          <textarea id="speakingAnswer" placeholder="Type keywords while practising, or paste a short transcript after speaking..."></textarea>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button id="startSpeakingTimer">Start timer</button>
+            <button class="secondary" id="resetSpeakingTimer">Reset timer</button>
+            <button class="secondary" id="nextFollowUp">Follow-up</button>
+            <button id="nextSpeaking">Next prompt</button>
+          </div>
+        </article>
+        <aside class="card span-3">
+          <h3>Self-rating</h3>
+          <p>Save answers for tutor review. This is practice feedback, not an official IH result.</p>
+          <div class="rating-grid">
+            <label class="rating-row">Fluency
+              <select id="rateFluency">
+                <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
+              </select>
+            </label>
+            <label class="rating-row">Vocabulary
+              <select id="rateVocab">
+                <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
+              </select>
+            </label>
+            <label class="rating-row">Interaction
+              <select id="rateInteraction">
+                <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
+              </select>
+            </label>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+            <button id="saveSpeakingAnswer">Save answer</button>
+            <button class="secondary" id="saveWeakPrompt">Mark for review</button>
+          </div>
+          <div class="answer-frame" style="margin-top:10px" id="speakingCoach"></div>
+          <div class="speaking-log" id="speakingLog"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="vocab">
+      <div class="grid">
+        <article class="card span-5">
+          <h3>Levelled vocabulary test</h3>
+          <p>A CEFR-style vocabulary progression tool. A1 starts at a 1,000-word pathway; higher levels expand toward academic and interview-ready lexical range.</p>
+          <div class="vocab-capacity-grid" id="vocabCapacity"></div>
+          <div class="vocab-levels" id="vocabLevels"></div>
+          <div class="vocab-scoreline" id="vocabScore">A1 vocabulary · 0/0</div>
+          <div class="answer-frame" style="margin-top:10px">
+            <span class="badge" id="vocabTestBadge">A1</span>
+            <h3 id="vocabPrompt" style="margin-top:8px"></h3>
+            <div class="vocab-test-options" id="vocabOptions"></div>
+            <div class="assessment-note" id="vocabFeedback"></div>
+          </div>
+        </article>
+        <article class="card span-3">
+          <h3>Academic flashcard</h3>
+          <p>Cycle through the current level. Mark weak vocabulary for teacher review.</p>
+          <div class="word-card">
+            <div class="word-meta" id="wordMeta"></div>
+            <strong id="wordEn"></strong>
+            <span id="wordZh"></span>
+            <span id="wordTip"></span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="nextWord">Next word</button>
+            <button class="secondary" id="weakWord">Weak word</button>
+          </div>
+        </article>
+        <article class="card span-4">
+          <h3>Level word bank</h3>
+          <p id="wordBankIntro">Current level diagnostic sample. Full pathway size is tracked above.</p>
+          <div class="word-list" id="wordList"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="mock">
+      <div class="grid">
+        <article class="panel span-7">
+          <h3>Mock speaking interview</h3>
+          <p>Use the timer and answer naturally. Good answers are clear, not memorised.</p>
+          <div class="timer">
+            <div>
+              <span class="badge" style="background:#213242;color:#fff">Interview timer</span>
+              <strong id="timerDisplay">02:00</strong>
+            </div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <button id="startTimer">Start</button>
+              <button class="secondary" id="resetTimer">Reset</button>
+            </div>
+          </div>
+          <div class="answer-frame" style="margin-top:12px" id="mockPrompt"></div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="newMock">New mock set</button>
+            <button class="secondary" id="copyMock">Copy prompts</button>
+          </div>
+        </article>
+        <article class="card span-5">
+          <h3>Interview survival phrases</h3>
+          <div class="word-list">
+            <div class="word-card"><strong>Could you repeat the question, please?</strong><span>可以請您再說一遍問題嗎？</span></div>
+            <div class="word-card"><strong>Let me think for a second.</strong><span>請讓我想一下。</span></div>
+            <div class="word-card"><strong>For example...</strong><span>例如……</span></div>
+            <div class="word-card"><strong>I am not sure, but I think...</strong><span>我不完全確定，但我認為……</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="teacher">
+      <div class="grid">
+        <article class="panel span-12">
+          <span class="badge">Teacher dashboard</span>
+          <h3>Placement evidence overview</h3>
+          <p>Use this screen after a short diagnostic run. It pulls quiz, vocabulary and speaking-practice signals into one teacher-facing view.</p>
+          <div class="teacher-kpis" id="teacherKpis"></div>
+        </article>
+
+        <article class="card span-4">
+          <h3>Learner profile</h3>
+          <div class="teacher-grid-small">
+            <label class="teacher-field">Learner name
+              <input id="teacherLearner" placeholder="Student name">
+            </label>
+            <label class="teacher-field">Target level
+              <select id="teacherTarget">
+                <option>A1</option><option>A2</option><option>B1</option><option>B1+</option><option>B2</option>
+              </select>
+            </label>
+            <label class="teacher-field">Course context
+              <select id="teacherContext">
+                <option>IH summer placement</option>
+                <option>Pre-arrival interview</option>
+                <option>General English booster</option>
+                <option>Parent progress review</option>
+              </select>
+            </label>
+            <label class="teacher-field">Risk flag
+              <select id="teacherRisk">
+                <option>Low risk</option>
+                <option>Needs monitoring</option>
+                <option>High support needed</option>
+              </select>
+            </label>
+          </div>
+          <div class="self-scale" style="margin-top:10px">
+            <label><input type="radio" name="level" value="1"> 1. Single words; needs Chinese support.</label>
+            <label><input type="radio" name="level" value="2"> 2. Short sentences; frequent pauses.</label>
+            <label><input type="radio" name="level" value="3"> 3. Familiar answers with reasons.</label>
+            <label><input type="radio" name="level" value="4"> 4. Opinions and examples mostly fluent.</label>
+            <label><input type="radio" name="level" value="5"> 5. Repairs, clarifies and handles unfamiliar topics.</label>
+          </div>
+        </article>
+
+        <article class="card span-4">
+          <h3>Speaking rubric</h3>
+          <p>Score the learner after a live or mock interview. The summary updates automatically.</p>
+          <div class="rubric-list" id="teacherRubric"></div>
+        </article>
+
+        <article class="card span-4">
+          <h3>Next lesson prescription</h3>
+          <p>Focus on level fit, repair language and short accurate output before adding length.</p>
+          <div class="teacher-plan" id="teacherPlan"></div>
+        </article>
+
+        <article class="card span-6">
+          <h3>Teacher notes</h3>
+          <p>Notes stay only in this browser. Keep them short, diagnostic and action-based.</p>
+          <textarea id="teacherNotes" placeholder="Pronunciation, grammar, hesitation points, weak vocabulary..."></textarea>
+          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+            <button id="saveNotes">Save notes</button>
+            <button class="secondary" id="clearNotes">Clear</button>
+            <button class="secondary" id="generateTeacherReport">Generate summary</button>
+            <button class="secondary" id="copyTeacherReport">Copy summary</button>
+          </div>
+          <div class="answer-frame" style="margin-top:12px">
+            Weak prompts: <span id="weakPromptList">none yet</span><br>
+            Weak words: <span id="weakWordList">none yet</span>
+          </div>
+        </article>
+
+        <article class="card span-6">
+          <h3>Session summary</h3>
+          <p>Useful for teacher handover or parent update. It avoids promising an official IH level.</p>
+          <div class="answer-frame teacher-summary" id="teacherSummary"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    OTC independent practice resource. Not an official International House London publication, official placement test, official interview script or guaranteed-placement product. Learners should follow direct instructions from their school and complete any official online test using the link supplied by that school.
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const isEmbed = params.get("embed") === "1";
+    const PASSWORDS = ["IH2026", "OTC2026", "overseasus"];
+    if (isEmbed) {
+      document.body.classList.add("embed");
+      document.body.classList.remove("locked");
+    }
+
+    const speakingLevels = ["A1", "A2", "B1", "B1+", "B2"];
+    const speakingLevelFrames = {
+      A1: { frame:"Short answer + one simple detail.", coach:"A1 answers can be short. Use I am..., I like..., I have..., My ... is.... Accuracy matters more than length." },
+      A2: { frame:"Answer + frequency/time/place + because.", coach:"A2 should add a little detail. Use usually, sometimes, last week, next summer and because." },
+      B1: { frame:"Opinion or experience + reason + example + simple conclusion.", coach:"B1 answers should explain why. Avoid one-word answers and try to connect ideas clearly." },
+      "B1+": { frame:"Clear position + two supporting details + a small limitation.", coach:"B1+ should sound more flexible. Use however, although, for example and in my experience." },
+      B2: { frame:"Position + evidence/example + counterpoint + balanced conclusion.", coach:"B2 should show nuance, self-correction and interaction. Give a balanced answer rather than a memorised speech." }
+    };
+    const speakingTopics = [
+      {title:"Self introduction", zh:"自我介紹", prompts:{A1:["What is your name?", "How old are you?", "Where are you from?", "What do you like?"], A2:["Tell me about yourself.", "What do you usually do after school?", "What are you like as a person?", "What do you want your teacher to know about you?"], B1:["Introduce yourself and explain one thing you are proud of.", "How would your friends describe you?", "What has helped you become more confident in English?", "What is one personal goal for this summer?"], "B1+":["How would you introduce yourself to an international class?", "What part of your personality helps you learn?", "What impression would you like to give your teacher?", "How have you changed as a learner recently?"], B2:["How would you present yourself in a short academic interview?", "Which personal quality has shaped your learning most?", "How do you balance confidence with honesty when introducing yourself?", "What should a teacher understand about your learning style?"]}},
+      {title:"Family and home", zh:"家庭與居住", prompts:{A1:["Who is in your family?", "Do you have brothers or sisters?", "Where do you live?", "Is your home quiet or busy?"], A2:["Tell me about your family.", "What do you usually do at home?", "Describe your bedroom or study place.", "How do you help at home?"], B1:["How does your family support your learning?", "What is a normal evening like in your home?", "Do you prefer a quiet or busy home? Why?", "How will you keep in touch with family in London?"], "B1+":["How does family life affect study habits?", "What responsibilities do teenagers usually have at home?", "How can students become more independent while travelling?", "What changes when a student studies away from home?"], B2:["To what extent does family background influence learning confidence?", "How can parents support independence without controlling everything?", "What challenges might teenagers face when living away from home?", "How would you manage homesickness during a course abroad?"]}},
+      {title:"School life", zh:"學校生活", prompts:{A1:["What is your school called?", "Is your school big?", "What time does school start?", "Do you like your school?"], A2:["Describe your school.", "What is a normal school day like?", "What do you like about your classroom?", "What school rule is important?"], B1:["What is the best thing about your school?", "What is difficult for you at school?", "How do students and teachers usually work together?", "What would you change about your school?"], "B1+":["How does your school help students prepare for the future?", "What makes a lesson effective?", "How important is classroom atmosphere?", "What is one weakness in your current school routine?"], B2:["How should schools balance academic pressure and student wellbeing?", "What kind of school environment produces independent learners?", "How could your school improve international communication?", "Should schools focus more on exams or transferable skills?"]}},
+      {title:"Subjects and learning", zh:"科目與學習", prompts:{A1:["What is your favourite subject?", "Do you like English?", "Is maths easy for you?", "What subject is difficult?"], A2:["Which subject do you enjoy most and why?", "How do you study English?", "What helps you remember new words?", "What subject would you like to improve?"], B1:["What subject has taught you the most useful skills?", "How do you prepare for a difficult lesson?", "What makes English challenging for you?", "How do you know you are making progress?"], "B1+":["How is learning English different from learning other subjects?", "What study method works best for you?", "How do you deal with weak areas?", "What role does feedback play in your learning?"], B2:["How do different subjects develop different thinking skills?", "What makes language learning cognitively demanding?", "How can students evaluate whether a study method is effective?", "How would you design a better learning routine for yourself?"]}},
+      {title:"Hobbies and free time", zh:"興趣與課餘", prompts:{A1:["What is your hobby?", "Do you like sport?", "What do you do at the weekend?", "Do you play games?"], A2:["What do you usually do in your free time?", "How often do you do your hobby?", "Who do you spend free time with?", "Would you like to try a new activity?"], B1:["Why is your hobby important to you?", "How do hobbies help students relax?", "Describe a hobby you would recommend.", "How has your free time changed as you got older?"], "B1+":["Can hobbies help students develop useful skills?", "How should teenagers balance study and free time?", "What hobby would be good for an international summer course?", "Are online hobbies as valuable as outdoor activities?"], B2:["To what extent do hobbies shape identity?", "Should schools value hobbies as part of personal development?", "How can leisure activities support mental health?", "What are the risks of turning every hobby into competition?"]}},
+      {title:"Friends and social confidence", zh:"朋友與社交信心", prompts:{A1:["Do you have a best friend?", "What is your friend's name?", "Do you like talking to new people?", "Are you shy?"], A2:["Tell me about a good friend.", "How do you make new friends?", "What do you do with your friends?", "What makes a friendly classmate?"], B1:["What makes a good friendship?", "How can students make friends in a new class?", "What should you do if you feel shy?", "Describe a time when someone helped you."], "B1+":["How can international students overcome social anxiety?", "What causes misunderstanding between classmates?", "How can group work build confidence?", "What kind of communication style do you prefer?"], B2:["How does language ability affect social confidence?", "What strategies help students join an unfamiliar group?", "How can teachers create inclusive interaction?", "Is friendship easier or harder in international environments?"]}},
+      {title:"Travel to London", zh:"倫敦出行", prompts:{A1:["Are you going to London?", "Have you got a passport?", "Do you like travelling?", "What will you take with you?"], A2:["Have you travelled abroad before?", "What are you excited about in London?", "What might be difficult when you arrive?", "How will you ask for help?"], B1:["What preparation is important before travelling to London?", "What problem might happen during the journey?", "How will you stay safe in a new city?", "What place in London would you like to visit?"], "B1+":["How can students prepare for cultural differences before travelling?", "What travel problem would test your English most?", "How should a teenager manage independence in London?", "What would make the trip successful for you?"], B2:["What are the educational benefits of travelling alone or semi-independently?", "How can travel develop maturity and communication skills?", "What risks should young learners manage in a large city?", "How would you respond if your travel plan suddenly changed?"]}},
+      {title:"London and culture", zh:"倫敦與文化", prompts:{A1:["Do you know London?", "What do you want to see in London?", "Do you like museums?", "What food do you want to try?"], A2:["What are you curious about in British culture?", "What place in London would you like to visit?", "What food from your country would you recommend?", "What is different from your city?"], B1:["What can students learn from visiting another country?", "How can people from different cultures become friends?", "What cultural difference might surprise you?", "How would you introduce Chinese culture to classmates?"], "B1+":["How should students talk about cultural differences politely?", "What can culture shock teach young learners?", "How can international classmates learn from each other?", "What stereotype about your country would you like to correct?"], B2:["How can cultural awareness improve communication?", "What are the limits of comparing cultures?", "How should students respond to unfamiliar customs?", "Why is intercultural competence important for future study?"]}},
+      {title:"Summer course goals", zh:"夏令營目標", prompts:{A1:["Why are you taking this course?", "Do you want to improve English?", "Do you want to make friends?", "What do you want to learn?"], A2:["What do you want to improve during the course?", "How will you practise after class?", "What activity would help your English?", "What makes a good summer course?"], B1:["What is your main goal for the summer course?", "How will you know you have improved?", "What kind of class helps you speak more?", "What will you do if the class feels difficult?"], "B1+":["How can you make the course useful beyond the classroom?", "What is a realistic speaking goal for two weeks?", "How should students measure progress?", "What responsibility does the learner have during a short course?"], B2:["How would you set measurable language goals for an intensive course?", "What is the difference between confidence and fluency?", "How can a short summer programme create long-term progress?", "How would you evaluate whether the course was successful?"]}},
+      {title:"English confidence", zh:"英語信心", prompts:{A1:["Is English easy or difficult?", "Can you ask a question in English?", "Do you feel nervous?", "Can you say 'please repeat'?"], A2:["When do you feel confident in English?", "What makes speaking difficult?", "What phrase can you use if you do not understand?", "How do you practise pronunciation?"], B1:["What makes you nervous when speaking English?", "How do you repair communication when you forget a word?", "What helped you become more confident?", "How can mistakes help learning?"], "B1+":["How can students move from accuracy to fluency?", "What repair phrases sound natural in conversation?", "How should learners respond to misunderstanding?", "What is your biggest speaking weakness now?"], B2:["How can learners manage anxiety while maintaining interaction?", "What is the relationship between fluency, accuracy and confidence?", "How can self-correction improve spoken performance?", "Why is natural hesitation acceptable in an interview?"]}},
+      {title:"Technology and learning", zh:"科技與學習", prompts:{A1:["Do you use a phone?", "Do you use a computer for homework?", "Do you watch English videos?", "Is technology useful?"], A2:["How do you use technology for learning?", "Do you prefer online or face-to-face lessons?", "What app helps you learn English?", "How much screen time do you have?"], B1:["How can technology help students learn English?", "What are the risks of using phones too much?", "Do you learn better online or in class? Why?", "How can students use AI responsibly?"], "B1+":["What are the advantages and disadvantages of online learning?", "How can AI support vocabulary and speaking practice?", "Should phones be allowed in class?", "How can students avoid becoming dependent on technology?"], B2:["How does technology change the way teenagers learn?", "Do AI tools help or harm language learning?", "How should schools regulate screen use?", "What does responsible digital learning look like?"]}},
+      {title:"Health and daily routine", zh:"健康與日常", prompts:{A1:["What time do you get up?", "Do you eat breakfast?", "Do you like sport?", "Do you sleep early?"], A2:["Describe your morning routine.", "How do you stay healthy?", "What sport or exercise do you do?", "What do you eat on a school day?"], B1:["How does routine affect learning?", "What healthy habit would you recommend?", "How do you manage tiredness during a busy week?", "Why is sleep important for students?"], "B1+":["How can teenagers balance study, rest and exercise?", "What unhealthy habit is common among students?", "How can a summer course routine affect performance?", "Should schools teach more about wellbeing?"], B2:["To what extent does physical wellbeing influence academic performance?", "How should students manage stress during intensive courses?", "What responsibility do schools have for student wellbeing?", "How can routine support independence abroad?"]}},
+      {title:"Food and preferences", zh:"食物與喜好", prompts:{A1:["What food do you like?", "Do you like British food?", "What do you eat for breakfast?", "Can you cook?"], A2:["What food from your country would you recommend?", "What food would you like to try in London?", "Do you prefer eating at home or outside?", "Describe your favourite meal."], B1:["Why is food important in culture?", "How would you explain a Chinese dish to a classmate?", "What food problem might students have abroad?", "How can students try new food politely?"], "B1+":["How does food help people understand culture?", "What are the benefits of trying unfamiliar food?", "How should schools manage different dietary needs?", "Is fast food a serious problem for teenagers?"], B2:["How can food become a form of cultural communication?", "What does diet reveal about lifestyle and identity?", "How should international programmes handle dietary diversity?", "Why do food habits change when people travel?"]}},
+      {title:"Environment", zh:"環境", prompts:{A1:["Is your city clean?", "Do you recycle?", "Do you like parks?", "Can students save water?"], A2:["What can students do to protect the environment?", "Is there a park near your home?", "Do you use public transport?", "What environmental problem do you know?"], B1:["What environmental problem matters to teenagers?", "How can schools reduce waste?", "What small action can students take every day?", "Should young people learn more about climate change?"], "B1+":["Why is it difficult to change environmental habits?", "How can schools make sustainability practical?", "What is the most realistic action for teenagers?", "Should governments or individuals do more?"], B2:["What environmental issue should young people prioritise?", "How effective are individual actions compared with policy?", "How can schools avoid superficial sustainability campaigns?", "What trade-offs exist between convenience and environmental responsibility?"]}},
+      {title:"Future plans", zh:"未來計劃", prompts:{A1:["What job do you like?", "Do you want to go to university?", "What subject do you want to study?", "Can English help you?"], A2:["What would you like to study in the future?", "What job sounds interesting to you?", "How can English help your future?", "What skill do you want to improve?"], B1:["What are your future study plans?", "How might English help your career?", "What kind of university subject interests you?", "What skill will be important in the future?"], "B1+":["How have your future plans changed?", "What factors influence your choice of subject?", "How can international experience help university applications?", "What uncertainty do you still have about the future?"], B2:["How should students make decisions about future study?", "To what extent should career goals influence subject choice?", "How can international education shape long-term opportunities?", "What skills will matter most in a changing world?"]}}
+    ];
+
+    const quiz = [
+      {skill:"be verb basics", level:"A1", q:"I ___ 14 years old.", zh:"選擇正確的 be 動詞。", options:["am","is","are","be"], a:0, en:"Use 'am' with I: I am. Use 'is' with he / she / it, and 'are' with you / we / they.", cn:"I 後面用 am；he / she / it 後面用 is；you / we / they 後面用 are。", example:"Example: I am in London for a summer course.", exampleZh:"例句：我在倫敦參加暑期課程。"},
+      {skill:"be verb basics", level:"A1", q:"She ___ from China.", zh:"第三人稱單數用哪個 be 動詞？", options:["am","is","are","be"], a:1, en:"Use 'is' with she: She is from China.", cn:"she 是第三人稱單數，後面用 is：She is from China。", example:"Example: He is in my class.", exampleZh:"例句：他在我的班上。"},
+      {skill:"basic possessives", level:"A1", q:"This is ___ passport.", zh:"名詞 passport 前面要用物主形容詞。", options:["I","my","me","mine"], a:1, en:"Use a possessive adjective before a noun: my passport, your bag, his book.", cn:"名詞前面用物主形容詞，例如 my passport / your bag / his book。", example:"Example: This is my student card.", exampleZh:"例句：這是我的學生卡。"},
+      {skill:"basic possessives", level:"A1", q:"He is with ___ mother.", zh:"mother 前面需要表示「他的」。", options:["he","his","him","her"], a:1, en:"Use 'his' before a noun when something belongs to a boy or man: his mother.", cn:"表示「他的」並且後面接名詞時，用 his，例如 his mother。", example:"Example: He is talking to his teacher.", exampleZh:"例句：他正在和他的老師說話。"},
+      {skill:"present simple routines", level:"A2", q:"I usually ___ breakfast at 7:30.", zh:"選擇最自然的動詞。", options:["have","am having","had","has"], a:0, en:"Use the present simple for routines and habits: usually / every day / often + base verb.", cn:"表示日常習慣或固定作息時，用一般現在時。I 後面用動詞原形，不加 s。", example:"Example: I usually take the bus to school.", exampleZh:"例句：我通常坐巴士去學校。"},
+      {skill:"present simple routines", level:"A2", q:"She often ___ English after dinner.", zh:"日常習慣，注意第三人稱單數。", options:["study","studies","is studying","studied"], a:1, en:"For he / she / it in the present simple, add -s or -es to the verb.", cn:"一般現在時遇到 he / she / it，動詞通常要加 s 或 es。", example:"Example: My sister watches videos in English.", exampleZh:"例句：我妹妹看英文影片。"},
+      {skill:"indirect questions", level:"A2", q:"Could you tell me where the classroom ___?", zh:"間接問句需要正常語序。", options:["is","are","does","be"], a:0, en:"In an indirect question, use normal word order: where the classroom is, not where is the classroom.", cn:"間接問句不是直接問句，後半句要用陳述句語序：where the classroom is。", example:"Example: Do you know where the office is?", exampleZh:"例句：你知道辦公室在哪裡嗎？"},
+      {skill:"indirect questions", level:"A2", q:"Do you know what time the lesson ___?", zh:"間接問句中 what time 後面用正常語序。", options:["starts","does start","starting","start"], a:0, en:"After 'Do you know...', keep the subject before the verb: the lesson starts.", cn:"Do you know 後面的內容用陳述句語序：the lesson starts，不再加 does。", example:"Example: Can you tell me when the test begins?", exampleZh:"例句：你能告訴我測試什麼時候開始嗎？"},
+      {skill:"for and since", level:"B1", q:"I have studied English ___ six years.", zh:"表示持續多久。", options:["since","for","during","from"], a:1, en:"Use 'for' with a length of time: for six years, for two weeks, for a long time.", cn:"for 後面接一段時間，表示持續多久，例如 for six years。", example:"Example: I have lived here for three months.", exampleZh:"例句：我在這裡住了三個月。"},
+      {skill:"for and since", level:"B1", q:"I have known my best friend ___ primary school.", zh:"表示從某個時間點開始。", options:["for","since","during","while"], a:1, en:"Use 'since' with a starting point: since Monday, since 2024, since primary school.", cn:"since 後面接起點，表示從某個時間開始，例如 since primary school。", example:"Example: I have played tennis since last year.", exampleZh:"例句：我從去年開始打網球。"},
+      {skill:"comparatives", level:"B1", q:"London is ___ than my city in summer.", zh:"比較級。", options:["busy","busier","busiest","more busy than"], a:1, en:"For many two-syllable adjectives ending in -y, change y to i and add -er: busy -> busier.", cn:"以 y 結尾的形容詞比較級常把 y 改成 i，再加 er：busy 變 busier。", example:"Example: This class is easier than the last one.", exampleZh:"例句：這節課比上一節更容易。"},
+      {skill:"comparatives", level:"B1", q:"Speaking English is getting ___ for me.", zh:"表示「越來越容易」。", options:["easy","easier","easiest","more easy"], a:1, en:"Use the comparative form after 'getting' when something is changing: getting easier.", cn:"表示事情正在變得更如何，用 getting + 比較級，例如 getting easier。", example:"Example: I am becoming more confident.", exampleZh:"例句：我正在變得更自信。"},
+      {skill:"first conditional", level:"B1", q:"If I get lost, I ___ ask a member of staff for help.", zh:"第一條件句。", options:["will","would","was","am"], a:0, en:"Use if + present simple, then will + base verb for a real future possibility.", cn:"第一條件句表示將來有可能發生的事：If + 一般現在時，主句用 will + 動詞原形。", example:"Example: If I feel nervous, I will take a deep breath.", exampleZh:"例句：如果我緊張，我會深呼吸。"},
+      {skill:"first conditional", level:"B1", q:"If the teacher speaks too fast, I ___ ask her to repeat it.", zh:"真實可能發生的情況。", options:["will","would","did","am"], a:0, en:"This is a real future situation, so use 'will ask'.", cn:"這是真實可能發生的將來情況，所以用 will ask。", example:"Example: If I do not understand, I will ask politely.", exampleZh:"例句：如果我不明白，我會禮貌地提問。"},
+      {skill:"fixed phrases", level:"B1+", q:"I enjoy meeting new people, although I feel nervous ___ first.", zh:"固定搭配。", options:["in","on","at","by"], a:2, en:"The fixed phrase is 'at first', meaning at the beginning.", cn:"固定搭配是 at first，意思是「一開始」。", example:"Example: At first, I was shy, but then I joined the group.", exampleZh:"例句：一開始我很害羞，但後來我加入了小組。"},
+      {skill:"fixed phrases", level:"B1+", q:"___ my opinion, students should practise speaking every day.", zh:"表達觀點的固定搭配。", options:["On","At","In","By"], a:2, en:"Use 'in my opinion' to introduce a personal view.", cn:"表達「在我看來」要用 in my opinion。", example:"Example: In my opinion, making mistakes is part of learning.", exampleZh:"例句：在我看來，犯錯是學習的一部分。"},
+      {skill:"verb patterns", level:"B1+", q:"The course will help me ___ more confident when I speak.", zh:"help someone do something。", options:["become","becoming","became","to becoming"], a:0, en:"After 'help me', use the base verb: help me become, help me practise.", cn:"help me 後面常接動詞原形，例如 help me become / help me practise。", example:"Example: This app helps me prepare for the interview.", exampleZh:"例句：這個 app 幫我準備面試。"},
+      {skill:"verb patterns", level:"B1+", q:"My teacher encouraged me ___ more in class.", zh:"encourage someone to do something。", options:["speak","speaking","to speak","spoke"], a:2, en:"After 'encourage someone', use to + verb: encouraged me to speak.", cn:"encourage someone 後面用 to + 動詞原形：encouraged me to speak。", example:"Example: My parents encouraged me to try new activities.", exampleZh:"例句：我的父母鼓勵我嘗試新活動。"},
+      {skill:"would rather", level:"B2", q:"I would rather practise speaking every day ___ only study grammar.", zh:"would rather A than B。", options:["than","then","that","to"], a:0, en:"Use 'would rather A than B' to compare two choices.", cn:"would rather A than B 表示「寧願 A 而不是 B」。", example:"Example: I would rather ask a question than stay confused.", exampleZh:"例句：我寧願提問，也不想一直困惑。"},
+      {skill:"would rather", level:"B2", q:"I would rather work with classmates ___ prepare alone.", zh:"比較兩個選擇。", options:["to","than","then","that"], a:1, en:"The correct connector is 'than' after would rather.", cn:"would rather 後面比較兩個選擇時，用 than 連接。", example:"Example: I would rather practise slowly than memorise answers.", exampleZh:"例句：我寧願慢慢練習，也不想背答案。"}
+    ];
+
+    const levelOrder = ["A1", "A2", "B1", "B1+", "B2"];
+
+    const quizBanks = [
+      {level:"A1", skill:"be verb statements", options:["am","is","are","be"], en:"Match the subject to the correct be verb: I am, he / she / it is, you / we / they are.", cn:"be 動詞要和主語一致：I am，he / she / it is，you / we / they are。", rows:[
+        ["I ___ ready for class.",0,"I 後面用 am。","Example: I am ready for class.","例句：我準備好上課了。"], ["We ___ in the same group.",2,"we 後面用 are。","Example: We are in the same group.","例句：我們在同一組。"], ["My friend ___ very kind.",1,"單數名詞後面用 is。","Example: My friend is helpful.","例句：我的朋友很樂於助人。"], ["They ___ from different countries.",2,"they 後面用 are。","Example: They are from Spain.","例句：他們來自西班牙。"], ["The lesson ___ at 9 o'clock.",1,"單數名詞 lesson 後面用 is。","Example: The lesson is in Room 4.","例句：課在 4 號教室。"], ["You ___ welcome here.",2,"you 後面用 are。","Example: You are welcome to ask questions.","例句：你可以提問。"], ["My parents ___ in London this week.",2,"複數 parents 後面用 are。","Example: My parents are nearby.","例句：我的父母在附近。"], ["This course ___ interesting.",1,"單數 this course 後面用 is。","Example: This course is useful.","例句：這門課很有用。"]
+      ]},
+      {level:"A1", skill:"basic possessives", options:["my","your","his","her"], en:"Use possessive adjectives before nouns: my bag, your class, his teacher, her passport.", cn:"名詞前用物主形容詞：my bag、your class、his teacher、her passport。", rows:[
+        ["I have ___ notebook.",0,"notebook 前要用「我的」。","Example: I have my notebook.","例句：我有我的筆記本。"], ["Please write ___ name here.",1,"對對方說話時用 your。","Example: Write your name on the form.","例句：在表格上寫你的名字。"], ["Tom is with ___ teacher.",2,"Tom 是男孩名，teacher 前用 his。","Example: Tom is with his teacher.","例句：Tom 和他的老師在一起。"], ["Anna lost ___ card.",3,"Anna 是女孩名，card 前用 her。","Example: Anna lost her card.","例句：Anna 丟了她的卡。"], ["This is ___ seat. I sit here.",0,"表示「我的座位」用 my seat。","Example: This is my seat.","例句：這是我的座位。"], ["Is this ___ bag?",1,"詢問對方物品用 your。","Example: Is this your bag?","例句：這是你的包嗎？"], ["He wants ___ phone.",2,"he 對應 his。","Example: He wants his phone.","例句：他想要他的手機。"], ["She needs ___ passport.",3,"she 對應 her。","Example: She needs her passport.","例句：她需要她的護照。"]
+      ]},
+      {level:"A1", skill:"articles a and an", options:["a","an","the","no article"], en:"Use 'a' before consonant sounds and 'an' before vowel sounds when introducing one thing.", cn:"第一次提到一個單數名詞時，輔音音開頭用 a，元音音開頭用 an。", rows:[
+        ["I have ___ umbrella.",1,"umbrella 以元音音開頭，用 an。","Example: I need an umbrella.","例句：我需要一把傘。"], ["She is ___ student.",0,"student 以輔音音開頭，用 a。","Example: She is a student.","例句：她是一名學生。"], ["This is ___ orange bag.",1,"orange 以元音音開頭，用 an。","Example: It is an orange bag.","例句：這是一個橙色包。"], ["He has ___ new pen.",0,"new 以輔音音開頭，用 a。","Example: He has a new pen.","例句：他有一支新筆。"], ["I saw ___ old building.",1,"old 以元音音開頭，用 an。","Example: I saw an old building.","例句：我看到一棟老建築。"], ["We need ___ map.",0,"map 以輔音音開頭，用 a。","Example: We need a map.","例句：我們需要一張地圖。"], ["It is ___ easy question.",1,"easy 以元音音開頭，用 an。","Example: It is an easy question.","例句：這是一個簡單問題。"], ["There is ___ cafe near school.",0,"cafe 以輔音音開頭，用 a。","Example: There is a cafe nearby.","例句：附近有一家咖啡館。"]
+      ]},
+      {level:"A1", skill:"simple present have", options:["have","has","do","does"], en:"Use have with I / you / we / they, and has with he / she / it.", cn:"I / you / we / they 用 have；he / she / it 用 has。", rows:[
+        ["I ___ English homework today.",0,"I 後面用 have。","Example: I have homework today.","例句：我今天有作業。"], ["She ___ a blue bag.",1,"she 後面用 has。","Example: She has a blue bag.","例句：她有一個藍色包。"], ["They ___ lunch at school.",0,"they 後面用 have。","Example: They have lunch together.","例句：他們一起吃午飯。"], ["He ___ two sisters.",1,"he 後面用 has。","Example: He has two sisters.","例句：他有兩個姐妹。"], ["We ___ a test tomorrow.",0,"we 後面用 have。","Example: We have a test tomorrow.","例句：我們明天有測試。"], ["My class ___ twenty students.",1,"單數 class 後面用 has。","Example: My class has twenty students.","例句：我的班有二十名學生。"], ["You ___ a good idea.",0,"you 後面用 have。","Example: You have a good idea.","例句：你有一個好主意。"], ["The school ___ a library.",1,"單數 school 後面用 has。","Example: The school has a library.","例句：學校有圖書館。"]
+      ]},
+      {level:"A1", skill:"basic prepositions", options:["in","on","at","to"], en:"Use common place and time prepositions carefully: in London, on Monday, at 9 o'clock, go to school.", cn:"基礎介詞要按搭配使用：in London，on Monday，at 9 o'clock，go to school。", rows:[
+        ["I live ___ London.",0,"城市前常用 in。","Example: I live in London.","例句：我住在倫敦。"], ["The lesson starts ___ 9 o'clock.",2,"具體時間點用 at。","Example: The lesson starts at 9.","例句：課九點開始。"], ["We have a test ___ Monday.",1,"星期前用 on。","Example: We have class on Monday.","例句：我們星期一有課。"], ["I go ___ school by bus.",3,"go to school 是固定搭配。","Example: I go to school by bus.","例句：我坐公交去學校。"], ["My book is ___ the table.",1,"在桌面上用 on。","Example: The book is on the desk.","例句：書在桌上。"], ["She is ___ Room 3.",0,"在某個房間裡用 in。","Example: She is in Room 3.","例句：她在 3 號房。"], ["Meet me ___ the entrance.",2,"具體地點點位常用 at。","Example: Meet me at the gate.","例句：在門口見我。"], ["We walk ___ the station.",3,"朝某地去用 to。","Example: We walk to the station.","例句：我們走去車站。"]
+      ]},
+      {level:"A2", skill:"present simple routines", options:["go","goes","going","went"], en:"Use present simple for routines; add -s or -es with he / she / it.", cn:"日常習慣用一般現在時；he / she / it 後面動詞加 s 或 es。", rows:[
+        ["I usually ___ to school early.",0,"I 後面用動詞原形。","Example: I usually go to school early.","例句：我通常很早去學校。"], ["She ___ to English club on Fridays.",1,"she 後面用 goes。","Example: She goes to English club.","例句：她去英語社團。"], ["They ___ home after lunch.",0,"they 後面用 go。","Example: They go home together.","例句：他們一起回家。"], ["My brother ___ swimming every week.",1,"my brother 是第三人稱單數。","Example: My brother goes swimming.","例句：我哥哥每週去游泳。"], ["We ___ to the park on Sunday.",0,"we 後面用 go。","Example: We go to the park.","例句：我們去公園。"], ["The bus ___ past our school.",1,"單數 bus 後面用 goes。","Example: The bus goes past school.","例句：公交車經過學校。"], ["You ___ to class by train.",0,"you 後面用 go。","Example: You go by train.","例句：你坐火車去。"], ["Anna ___ shopping with her mum.",1,"Anna 是第三人稱單數。","Example: Anna goes shopping.","例句：Anna 去購物。"]
+      ]},
+      {level:"A2", skill:"past simple", options:["visited","visit","visits","visiting"], en:"Use the past simple for finished past time such as yesterday, last week or in 2025.", cn:"表示過去已完成的事情，用一般過去時，例如 yesterday、last week。", rows:[
+        ["Yesterday we ___ a museum.",0,"yesterday 表示過去，用 visited。","Example: We visited a museum yesterday.","例句：我們昨天參觀了博物館。"], ["Last summer I ___ London.",0,"last summer 表示過去。","Example: I visited London last summer.","例句：我去年夏天去了倫敦。"], ["They ___ their friends on Saturday.",0,"on Saturday 可表示過去的週六。","Example: They visited friends.","例句：他們拜訪了朋友。"], ["She ___ the library after class.",0,"過去完成的動作用 visited。","Example: She visited the library.","例句：她去了圖書館。"], ["We ___ the school before the course.",0,"before the course 表示之前的動作。","Example: We visited the school.","例句：我們參觀了學校。"], ["He ___ his cousin in London.",0,"過去拜訪某人用 visited。","Example: He visited his cousin.","例句：他拜訪了表哥。"], ["I ___ a football match last night.",0,"last night 用過去時。","Example: I visited a stadium last night.","例句：我昨晚去了球場。"], ["My parents ___ Oxford last year.",0,"last year 用過去時。","Example: My parents visited Oxford.","例句：我的父母去了牛津。"]
+      ]},
+      {level:"A2", skill:"there is and there are", options:["is","are","was","be"], en:"Use there is with singular nouns and there are with plural nouns.", cn:"there is 後接單數；there are 後接複數。", rows:[
+        ["There ___ a cafe near the school.",0,"a cafe 是單數。","Example: There is a cafe nearby.","例句：附近有一家咖啡館。"], ["There ___ three students in the room.",1,"three students 是複數。","Example: There are three students.","例句：有三名學生。"], ["There ___ a map on the wall.",0,"a map 是單數。","Example: There is a map on the wall.","例句：牆上有一張地圖。"], ["There ___ many buses outside.",1,"many buses 是複數。","Example: There are many buses.","例句：外面有很多公交車。"], ["There ___ one question left.",0,"one question 是單數。","Example: There is one question left.","例句：還剩一個問題。"], ["There ___ two teachers today.",1,"two teachers 是複數。","Example: There are two teachers today.","例句：今天有兩位老師。"], ["There ___ a problem with my phone.",0,"a problem 是單數。","Example: There is a problem.","例句：有一個問題。"], ["There ___ some books on the desk.",1,"some books 是複數。","Example: There are some books.","例句：桌上有一些書。"]
+      ]},
+      {level:"A2", skill:"comparatives", options:["bigger","big","biggest","more big"], en:"Use comparative forms to compare two things: bigger, easier, more interesting.", cn:"比較兩個事物時用比較級，例如 bigger、easier、more interesting。", rows:[
+        ["London is ___ than my town.",0,"than 前用比較級。","Example: London is bigger than my town.","例句：倫敦比我的小鎮大。"], ["This classroom is ___ than the old one.",0,"比較兩間教室用 bigger。","Example: This room is bigger.","例句：這個房間更大。"], ["The park is ___ than I expected.",0,"than 後表示比較。","Example: The park is bigger than I expected.","例句：公園比我想的大。"], ["My new school is ___ than before.",0,"than before 用比較級。","Example: My new school is bigger.","例句：我的新學校更大。"], ["This bag is ___ than mine.",0,"than mine 用比較級。","Example: This bag is bigger than mine.","例句：這個包比我的大。"], ["The group is ___ than yesterday.",0,"與 yesterday 比較用比較級。","Example: The group is bigger today.","例句：今天小組更大。"], ["The city feels ___ at night.",0,"與其他時間比較時用比較級。","Example: The city feels bigger at night.","例句：城市晚上感覺更大。"], ["Our class is ___ this week.",0,"暗含與之前比較。","Example: Our class is bigger this week.","例句：這週我們班人更多。"]
+      ]},
+      {level:"A2", skill:"polite requests", options:["Could","Does","Was","Had"], en:"Use 'Could you...' for polite requests, especially in class or interviews.", cn:"禮貌請求常用 Could you...，適合課堂和面試。", rows:[
+        ["___ you repeat that, please?",0,"禮貌請求用 Could you。","Example: Could you repeat that, please?","例句：可以請您再說一遍嗎？"], ["___ you speak more slowly, please?",0,"請對方慢一點用 Could you。","Example: Could you speak slowly?","例句：可以請您慢一點說嗎？"], ["___ you write it on the board?",0,"禮貌請求用 Could you。","Example: Could you write it down?","例句：可以請您寫下來嗎？"], ["___ you help me with this word?",0,"請求幫助用 Could you。","Example: Could you help me?","例句：可以幫我嗎？"], ["___ you explain the homework?",0,"請求解釋用 Could you。","Example: Could you explain it?","例句：可以解釋一下嗎？"], ["___ you say the question again?",0,"面試中自然修復用 Could you。","Example: Could you say it again?","例句：可以再說一遍嗎？"], ["___ you show me the room?",0,"請對方展示用 Could you。","Example: Could you show me?","例句：可以給我看一下嗎？"], ["___ you check my answer?",0,"請求檢查用 Could you。","Example: Could you check my answer?","例句：可以檢查我的答案嗎？"]
+      ]},
+      {level:"B1", skill:"for and since", options:["for","since","during","from"], en:"Use for with a length of time and since with a starting point.", cn:"for 後接一段時間；since 後接起始時間點。", rows:[
+        ["I have studied English ___ six years.",0,"six years 是一段時間。","Example: I have studied English for six years.","例句：我學英語六年了。"], ["She has lived here ___ 2024.",1,"2024 是起點。","Example: She has lived here since 2024.","例句：她從 2024 年起住在這裡。"], ["We have waited ___ twenty minutes.",0,"twenty minutes 是一段時間。","Example: We have waited for twenty minutes.","例句：我們等了二十分鐘。"], ["I have known him ___ primary school.",1,"primary school 是起點。","Example: I have known him since primary school.","例句：我從小學起認識他。"], ["They have been friends ___ a long time.",0,"a long time 是一段時間。","Example: They have been friends for a long time.","例句：他們認識很久了。"], ["He has played football ___ last year.",1,"last year 是起點。","Example: He has played football since last year.","例句：他從去年開始踢球。"], ["I have been nervous ___ this morning.",1,"this morning 是起點。","Example: I have been nervous since this morning.","例句：我從今天早上開始緊張。"], ["We have practised ___ two weeks.",0,"two weeks 是一段時間。","Example: We have practised for two weeks.","例句：我們練了兩週。"]
+      ]},
+      {level:"B1", skill:"first conditional", options:["will","would","did","am"], en:"Use if + present simple, then will + base verb for a real future possibility.", cn:"第一條件句表示真實可能的將來情況：If + 一般現在時，主句用 will + 原形。", rows:[
+        ["If I feel nervous, I ___ take a deep breath.",0,"真實可能的將來情況用 will。","Example: If I feel nervous, I will breathe slowly.","例句：如果我緊張，我會慢慢呼吸。"], ["If the teacher asks me, I ___ answer clearly.",0,"if 從句現在時，主句 will。","Example: I will answer clearly.","例句：我會清楚回答。"], ["If I do not understand, I ___ ask politely.",0,"表示將會禮貌提問。","Example: I will ask politely.","例句：我會禮貌提問。"], ["If it rains, we ___ stay inside.",0,"真實可能的將來結果用 will。","Example: We will stay inside.","例句：我們會待在室內。"], ["If I get lost, I ___ call my group leader.",0,"可能發生的情況用 will。","Example: I will call my leader.","例句：我會打給領隊。"], ["If class finishes early, I ___ review vocabulary.",0,"將來結果用 will。","Example: I will review vocabulary.","例句：我會複習詞彙。"], ["If I make a mistake, I ___ try again.",0,"真實可能情況用 will。","Example: I will try again.","例句：我會再試一次。"], ["If the question is difficult, I ___ ask for time.",0,"將來反應用 will。","Example: I will ask for time.","例句：我會請求一點時間。"]
+      ]},
+      {level:"B1", skill:"gerund after enjoy", options:["speaking","speak","to speak","spoke"], en:"After enjoy, practise and avoid, use the -ing form.", cn:"enjoy、practise、avoid 後面通常接 -ing。", rows:[
+        ["I enjoy ___ English with classmates.",0,"enjoy 後接 -ing。","Example: I enjoy speaking English.","例句：我喜歡說英語。"], ["She practises ___ every day.",0,"practise 後接 -ing。","Example: She practises speaking every day.","例句：她每天練習口語。"], ["They avoid ___ Chinese in class.",0,"avoid 後接 -ing。","Example: They avoid speaking Chinese.","例句：他們避免在課上說中文。"], ["He likes ___ to new people.",0,"like 後可接 -ing。","Example: He likes speaking to new people.","例句：他喜歡和新朋友說話。"], ["We started ___ more confidently.",0,"start 後可接 -ing。","Example: We started speaking more.","例句：我們開始說得更多。"], ["I finished ___ with my teacher.",0,"finish 後接 -ing。","Example: I finished speaking with my teacher.","例句：我和老師說完了。"], ["She misses ___ with her friends.",0,"miss 後接 -ing。","Example: She misses speaking with friends.","例句：她想念和朋友聊天。"], ["I keep ___ even when I make mistakes.",0,"keep 後接 -ing。","Example: I keep speaking.","例句：我繼續說。"]
+      ]},
+      {level:"B1", skill:"relative clauses", options:["who","which","where","when"], en:"Use who for people, which for things, where for places and when for times.", cn:"who 指人，which 指物，where 指地點，when 指時間。", rows:[
+        ["A teacher is someone ___ helps students learn.",0,"someone 指人，用 who。","Example: A friend is someone who listens.","例句：朋友是會傾聽的人。"], ["This is the app ___ helps me practise.",1,"app 是物，用 which。","Example: This is a tool which helps me.","例句：這是幫助我的工具。"], ["London is a city ___ many students study English.",2,"city 是地點，用 where。","Example: A school is a place where we learn.","例句：學校是我們學習的地方。"], ["Monday is the day ___ the course begins.",3,"day 是時間，用 when。","Example: Friday is the day when we finish.","例句：週五是我們結束的日子。"], ["A classmate is a person ___ studies with you.",0,"person 指人，用 who。","Example: A classmate is someone who helps.","例句：同學是會幫助你的人。"], ["This is the phrase ___ I use in interviews.",1,"phrase 是物，用 which。","Example: This is a phrase which sounds polite.","例句：這是一個禮貌短語。"], ["The library is a place ___ students can read.",2,"place 是地點，用 where。","Example: The library is where I study.","例句：圖書館是我學習的地方。"], ["Summer is the time ___ many students travel.",3,"time 是時間，用 when。","Example: Summer is when I travel.","例句：夏天是我旅行的時候。"]
+      ]},
+      {level:"B1", skill:"modals for advice", options:["should","must","can","would"], en:"Use should for advice, must for strong obligation, and can for ability or permission.", cn:"should 表示建議，must 表示強制義務，can 表示能力或允許。", rows:[
+        ["You ___ ask if you do not understand.",0,"這是建議，用 should。","Example: You should ask politely.","例句：你應該禮貌提問。"], ["Students ___ bring their ID card.",1,"必須帶證件，用 must。","Example: Students must bring ID.","例句：學生必須帶證件。"], ["I ___ speak about my hobbies.",2,"表示能力用 can。","Example: I can speak about school.","例句：我能談學校。"], ["You ___ practise a little every day.",0,"學習建議用 should。","Example: You should practise daily.","例句：你應該每天練習。"], ["We ___ be on time for class.",1,"上課準時是強制要求。","Example: We must be on time.","例句：我們必須準時。"], ["She ___ understand simple questions.",2,"表示能力用 can。","Example: She can answer simple questions.","例句：她能回答簡單問題。"], ["I ___ review weak words tonight.",0,"復習建議用 should。","Example: I should review vocabulary.","例句：我應該複習詞彙。"], ["Learners ___ follow school rules.",1,"遵守規則是義務。","Example: Learners must follow rules.","例句：學生必須遵守規則。"]
+      ]},
+      {level:"B1+", skill:"indirect questions", options:["starts","does start","start","starting"], en:"In indirect questions, keep normal statement word order: what time the lesson starts, not what time does the lesson start.", cn:"間接問句後半句用陳述句語序：what time the lesson starts，而不是 what time does the lesson start。", rows:[
+        ["Do you know what time the lesson ___?",0,"Do you know 後面用陳述句語序。","Example: Do you know what time the lesson starts?","例句：你知道課幾點開始嗎？"], ["Could you tell me when the test ___?",0,"when 後面保留主語 + 動詞。","Example: Could you tell me when the test starts?","例句：可以告訴我測試何時開始嗎？"], ["I am not sure what time the activity ___.",0,"間接問句不用 does start。","Example: I am not sure what time it starts.","例句：我不確定它幾點開始。"], ["Can you check when the interview ___?",0,"check 後的疑問內容用正常語序。","Example: Can you check when the interview starts?","例句：可以查一下面試何時開始嗎？"], ["Do you remember what time the bus ___?",0,"what time 後面用 the bus starts。","Example: Do you remember what time the bus starts?","例句：你記得公交幾點出發嗎？"], ["Could you explain when the next task ___?",0,"explain 後面用陳述句語序。","Example: Please explain when the task starts.","例句：請解釋任務何時開始。"], ["I need to know what time the class ___.",0,"need to know 後面不是直接問句。","Example: I need to know what time class starts.","例句：我需要知道課幾點開始。"], ["Can you tell me when the meeting ___?",0,"tell me 後面用 meeting starts。","Example: Can you tell me when the meeting starts?","例句：可以告訴我會議何時開始嗎？"]
+      ]},
+      {level:"B1+", skill:"passive voice", options:["is given","gives","gave","giving"], en:"Use the passive when the action or result is more important than the person doing it.", cn:"當重點是動作或結果而不是誰做時，用被動語態。", rows:[
+        ["The placement test ___ before the course.",0,"test 是被安排的對象，用被動。","Example: The test is given online.","例句：測試在線上進行。"], ["Feedback ___ after the interview.",0,"feedback 是被給出的內容。","Example: Feedback is given later.","例句：之後會給反饋。"], ["The answer ___ in the example.",0,"answer 被提供，用 is given。","Example: The answer is given below.","例句：答案在下面給出。"], ["A level ___ after checking speaking.",0,"level 被給出或安排。","Example: A level is given after the test.","例句：測試後會給出級別。"], ["The task ___ by the teacher.",0,"task 被老師給出。","Example: The task is given clearly.","例句：任務被清楚給出。"], ["Extra support ___ when needed.",0,"support 被提供。","Example: Support is given when needed.","例句：需要時會提供支持。"], ["The instruction ___ at the start.",0,"instruction 被給出。","Example: The instruction is given first.","例句：指示會先給出。"], ["The result ___ by email.",0,"result 被發送或給出。","Example: The result is given by email.","例句：結果會通過郵件給出。"]
+      ]},
+      {level:"B1+", skill:"linkers and contrast", options:["although","because","so","and"], en:"Use although to show contrast, because to give a reason, and so to show a result.", cn:"although 表示轉折，because 表示原因，so 表示結果。", rows:[
+        ["___ I was nervous, I answered clearly.",0,"前後有轉折，用 although。","Example: Although I was nervous, I continued.","例句：雖然我緊張，但我繼續了。"], ["I joined the course ___ I want to improve speaking.",1,"後面是原因，用 because。","Example: I practise because I want progress.","例句：我練習是因為想進步。"], ["The question was hard, ___ I asked for repetition.",2,"後面是結果，用 so。","Example: It was noisy, so I asked again.","例句：太吵了，所以我又問了一遍。"], ["I like group work ___ it helps me speak.",1,"後面說原因。","Example: I like it because it helps.","例句：我喜歡它，因為有幫助。"], ["___ my grammar is not perfect, I can communicate.",0,"語法不完美但能交流，是轉折。","Example: Although I pause, I keep speaking.","例句：雖然我會停頓，但我繼續說。"], ["I forgot one word, ___ I explained it another way.",2,"忘詞後換方式解釋，是結果。","Example: I forgot it, so I described it.","例句：我忘了，所以描述它。"], ["I felt confident ___ I had practised.",1,"練習是原因。","Example: I felt ready because I practised.","例句：我因為練習過而準備好了。"], ["___ the topic was new, I gave an example.",0,"新話題但能舉例，是轉折。","Example: Although it was new, I tried.","例句：雖然它很新，但我試了。"]
+      ]},
+      {level:"B1+", skill:"reported speech", options:["was","is","are","be"], en:"In reported speech about a past conversation, present forms often move back: is becomes was.", cn:"轉述過去說過的話時，現在時常後移：is 變 was。", rows:[
+        ["She said the test ___ online.",0,"said 後轉述，is 常變 was。","Example: She said it was online.","例句：她說它是線上的。"], ["He told me the class ___ full.",0,"told me 後轉述過去內容，用 was。","Example: He told me the class was full.","例句：他告訴我班滿了。"], ["The teacher said my answer ___ clear.",0,"said 後用 was。","Example: The teacher said it was clear.","例句：老師說它很清楚。"], ["My friend said London ___ exciting.",0,"轉述朋友過去說的話。","Example: My friend said London was exciting.","例句：朋友說倫敦很 exciting。"], ["She said the homework ___ easy.",0,"homework 作單數概念，用 was。","Example: She said it was easy.","例句：她說它很容易。"], ["He said the interview ___ short.",0,"轉述過去內容用 was。","Example: He said it was short.","例句：他說面試很短。"], ["My mum said the route ___ safe.",0,"route 是單數，用 was。","Example: My mum said it was safe.","例句：媽媽說路線安全。"], ["The email said the meeting ___ tomorrow.",0,"轉述郵件內容可用 was。","Example: The email said it was tomorrow.","例句：郵件說是在明天。"]
+      ]},
+      {level:"B1+", skill:"verb patterns", options:["to speak","speaking","speak","spoke"], en:"Some verbs take to + verb, while others take -ing. Learn the pattern after the first verb.", cn:"有些動詞後接 to do，有些接 -ing，要看前面的動詞搭配。", rows:[
+        ["My teacher encouraged me ___ more in class.",0,"encourage someone to do。","Example: She encouraged me to speak.","例句：她鼓勵我開口說。"], ["I avoid ___ too quickly.",1,"avoid 後接 -ing。","Example: I avoid speaking too quickly.","例句：我避免說太快。"], ["This app helps me ___ more clearly.",2,"help someone do。","Example: It helps me speak clearly.","例句：它幫我說得更清楚。"], ["I hope ___ confidently in the interview.",0,"hope 後接 to do。","Example: I hope to speak confidently.","例句：我希望自信地說。"], ["I practise ___ every evening.",1,"practise 後接 -ing。","Example: I practise speaking daily.","例句：我每天練習說話。"], ["My parents want me ___ English more.",0,"want someone to do。","Example: They want me to speak English.","例句：他們希望我多說英語。"], ["I can ___ about school life.",2,"can 後接動詞原形。","Example: I can speak about school.","例句：我可以談學校生活。"], ["She decided ___ slowly.",0,"decide 後接 to do。","Example: She decided to speak slowly.","例句：她決定慢慢說。"]
+      ]},
+      {level:"B2", skill:"would rather", options:["than","then","that","to"], en:"Use would rather A than B to compare preferred choices.", cn:"would rather A than B 表示寧願 A 而不是 B。", rows:[
+        ["I would rather ask a question ___ stay confused.",0,"would rather A than B。","Example: I would rather ask than guess.","例句：我寧願問，也不想猜。"], ["She would rather practise daily ___ memorise answers.",0,"比較兩個選擇用 than。","Example: She would rather practise than memorise.","例句：她寧願練習而不是背答案。"], ["We would rather arrive early ___ be late.",0,"rather 後比較用 than。","Example: We would rather wait than be late.","例句：我們寧願等，也不遲到。"], ["I would rather explain simply ___ use difficult words.",0,"比較偏好用 than。","Example: I would rather be clear than complicated.","例句：我寧願清楚而不是複雜。"], ["They would rather work in pairs ___ work alone.",0,"兩個動作比較用 than。","Example: They would rather share than work alone.","例句：他們寧願合作。"], ["He would rather repeat the answer ___ stop speaking.",0,"偏好比較用 than。","Example: He would rather repeat than stop.","例句：他寧願重複也不停止。"], ["I would rather be honest ___ pretend to understand.",0,"rather...than。","Example: I would rather ask than pretend.","例句：我寧願問，也不假裝懂。"], ["She would rather take time ___ rush.",0,"寧願慢一點用 than 連接。","Example: She would rather pause than rush.","例句：她寧願停頓也不趕。"]
+      ]},
+      {level:"B2", skill:"third conditional", options:["would have","will have","would","had"], en:"Use if + past perfect, would have + past participle for unreal past situations.", cn:"第三條件句表示與過去事實相反：If + had done，主句 would have done。", rows:[
+        ["If I had practised more, I ___ felt calmer.",0,"過去假設結果用 would have。","Example: I would have felt calmer.","例句：我本來會更冷靜。"], ["If she had asked, the teacher ___ helped her.",0,"主句用 would have + 過去分詞。","Example: The teacher would have helped.","例句：老師本來會幫她。"], ["If we had left earlier, we ___ arrived on time.",0,"與過去相反的結果。","Example: We would have arrived on time.","例句：我們本來會準時到。"], ["If I had known the word, I ___ answered faster.",0,"過去假設結果用 would have。","Example: I would have answered faster.","例句：我本來會答得更快。"], ["If he had listened carefully, he ___ understood.",0,"過去假設。","Example: He would have understood.","例句：他本來會理解。"], ["If they had checked the email, they ___ found the link.",0,"過去未發生結果。","Example: They would have found the link.","例句：他們本來會找到鏈接。"], ["If I had slept earlier, I ___ been less tired.",0,"would have been。","Example: I would have been less tired.","例句：我本來不會那麼累。"], ["If she had prepared examples, she ___ spoken better.",0,"過去假設結果。","Example: She would have spoken better.","例句：她本來會說得更好。"]
+      ]},
+      {level:"B2", skill:"advanced concession", options:["Despite","Because","So","And"], en:"Use despite + noun or -ing to show concession without a full clause.", cn:"despite 後接名詞或 -ing，表示「儘管」。", rows:[
+        ["___ feeling nervous, I answered the question.",0,"despite 後接 -ing。","Example: Despite feeling nervous, I continued.","例句：儘管緊張，我繼續了。"], ["___ the noise, I understood the teacher.",0,"despite 後接名詞。","Example: Despite the noise, I listened.","例句：儘管有噪音，我聽了。"], ["___ making mistakes, she kept speaking.",0,"despite 後接 -ing。","Example: Despite making mistakes, she smiled.","例句：儘管犯錯，她笑了。"], ["___ the difficult topic, he gave an example.",0,"despite 後接名詞短語。","Example: Despite the topic, he tried.","例句：儘管題目難，他嘗試了。"], ["___ being tired, we practised again.",0,"despite 後接 being。","Example: Despite being tired, we worked.","例句：儘管累，我們仍然練習。"], ["___ the short time, I planned my answer.",0,"despite 表示讓步。","Example: Despite the time, I planned.","例句：儘管時間短，我做了計劃。"], ["___ forgetting one word, I explained my idea.",0,"despite + -ing。","Example: Despite forgetting a word, I explained.","例句：儘管忘詞，我解釋了。"], ["___ the pressure, she stayed polite.",0,"despite + noun。","Example: Despite the pressure, she stayed calm.","例句：儘管有壓力，她保持冷靜。"]
+      ]},
+      {level:"B2", skill:"complex reasons", options:["whereas","because","therefore","although"], en:"Choose linkers by meaning: whereas contrasts two facts, therefore shows result, because gives reason.", cn:"whereas 對比兩件事，therefore 表示結果，because 表示原因。", rows:[
+        ["Some students prefer grammar, ___ others prefer speaking.",0,"兩類學生對比，用 whereas。","Example: I like speaking, whereas my friend likes reading.","例句：我喜歡口語，而朋友喜歡閱讀。"], ["I practised daily; ___, I felt more confident.",2,"前因後果，用 therefore。","Example: I prepared; therefore, I improved.","例句：我準備了，因此進步了。"], ["I joined the course ___ I need more fluency.",1,"後面是原因。","Example: I practise because I need fluency.","例句：我練習因為需要流利度。"], ["___ the task was hard, I completed it.",3,"雖然困難但完成，用 although。","Example: Although it was hard, I tried.","例句：雖然難，我嘗試了。"], ["My writing is strong, ___ my speaking needs practice.",0,"兩個方面對比，用 whereas。","Example: I read well, whereas I speak slowly.","例句：我閱讀好，但口語慢。"], ["The feedback was clear; ___, I knew what to improve.",2,"結果用 therefore。","Example: It was clear; therefore, I improved.","例句：很清楚，所以我進步了。"], ["She asked for repetition ___ the question was fast.",1,"原因用 because。","Example: She asked because it was fast.","例句：她問是因為太快。"], ["___ I lacked vocabulary, I used examples.",3,"讓步轉折用 although。","Example: Although I lacked words, I explained.","例句：雖然詞彙不足，我解釋了。"]
+      ]},
+      {level:"B2", skill:"hypothetical advice", options:["were","was","am","be"], en:"Use 'If I were you' for hypothetical advice.", cn:"提出假設性建議時常用 If I were you。", rows:[
+        ["If I ___ you, I would practise aloud.",0,"固定假設建議用 were。","Example: If I were you, I would practise.","例句：如果我是你，我會練習。"], ["If she ___ in my position, she would ask again.",0,"假設語氣可用 were。","Example: If she were here, she would ask.","例句：如果她在這裡，她會問。"], ["If he ___ more confident, he would speak first.",0,"假設現在情況用 were。","Example: If he were confident, he would speak.","例句：如果他自信，他會先說。"], ["If I ___ less nervous, I would answer faster.",0,"與現在相反的假設。","Example: If I were less nervous, I would answer.","例句：如果我不那麼緊張，我會回答。"], ["If the task ___ easier, more students would finish.",0,"假設情況用 were。","Example: If the task were easier, we would finish.","例句：如果任務更簡單，我們會完成。"], ["If my vocabulary ___ stronger, I would give better examples.",0,"假設能力更強。","Example: If my vocabulary were stronger, I would explain.","例句：如果詞彙更強，我會解釋。"], ["If the interview ___ longer, I would add details.",0,"假設面試更長。","Example: If it were longer, I would add detail.","例句：如果更長，我會加細節。"], ["If I ___ the teacher, I would check interaction.",0,"If I were... 是固定形式。","Example: If I were the teacher, I would ask follow-ups.","例句：如果我是老師，我會追問。"]
+      ]}
+    ];
+
+    function rotatedOptions(options, rowIndex) {
+      const offset = rowIndex % options.length;
+      return options.slice(offset).concat(options.slice(0, offset));
+    }
+
+    quizBanks.forEach(bank => {
+      bank.rows.forEach((row, rowIndex) => {
+        const correct = bank.options[row[1]];
+        const options = rotatedOptions(bank.options, rowIndex);
+        quiz.push({
+          level: bank.level,
+          skill: bank.skill,
+          q: row[0],
+          a: options.indexOf(correct),
+          options,
+          zh: row[2],
+          en: bank.en,
+          cn: bank.cn,
+          example: row[3],
+          exampleZh: row[4]
+        });
+      });
+    });
+
+    quiz.sort((a, b) => levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level));
+
+    const vocabBanks = {
+      A1: [
+        ["placement test","分班測試","A short test used to find the right class level.","route"],["speaking interview","口語面談","A short conversation to check spoken English.","route"],["classroom","教室","Use: The classroom is on the second floor.","campus"],["teacher","老師","Use: I can ask the teacher politely.","campus"],["student","學生","Use: I am a student from China.","identity"],["passport","護照","A document used for travel and registration.","travel"],["address","地址","Use: Please write your address clearly.","form"],["number","號碼","Use: My phone number is...","form"],["repeat","重複","Use: Could you repeat that, please?","repair"],["slowly","慢一點","Use: Could you speak slowly?","repair"],["hobby","愛好","Something you enjoy doing in free time.","speaking"],["family","家庭","People related to you.","speaking"],["friend","朋友","A person you know and like.","speaking"],["school","學校","Use: I go to school in Shanghai.","speaking"],["subject","科目","Use: My favourite subject is maths.","speaking"],["breakfast","早餐","Morning meal.","routine"],["usually","通常","Use for routines and habits.","routine"],["today","今天","Use: I have class today.","time"],["tomorrow","明天","Use: The test is tomorrow.","time"],["question","問題","Use: I have a question.","classroom"],["answer","答案","Use: My answer is short.","classroom"],["easy","容易的","Not difficult.","description"],["difficult","困難的","Needs effort or help.","description"],["help","幫助","Use: Could you help me?","repair"]
+      ],
+      A2: [
+        ["routine","日常安排","Things you usually do.","grammar"],["confidence","自信","Use: I want to build my confidence.","speaking"],["fluency","流利度","Speaking smoothly without long pauses.","speaking"],["accuracy","準確度","Grammar and word-choice control.","speaking"],["pronunciation","發音","Clear sounds, stress and intonation.","speaking"],["strength","優勢","Something you can do well.","review"],["weakness","弱項","Something you need to improve.","review"],["improve","提高","Use: I want to improve my speaking.","goal"],["challenge","挑戰","Something difficult but useful.","goal"],["goal","目標","Use: My main goal is fluency.","goal"],["prefer","更喜歡","Use: I prefer group work.","opinion"],["recommend","推薦","Use: I would recommend this app.","opinion"],["because","因為","Give a reason.","linker"],["for example","例如","Give evidence or detail.","linker"],["however","然而","Show contrast.","linker"],["opinion","觀點","Use: In my opinion...","speaking"],["travel","旅行","Use: I will travel to London.","topic"],["journey","旅程","A trip from one place to another.","topic"],["arrive","到達","Use: I will arrive on Monday.","travel"],["activity","活動","A planned task or event.","course"],["group","小組","Use: I work in a group.","classroom"],["partner","搭檔","A person you work with.","classroom"],["example","例子","Use: Let me give an example.","speaking"],["polite","禮貌的","Good and respectful language.","repair"]
+      ],
+      B1: [
+        ["interaction","互動","Communication between people.","interview"],["level fit","級別匹配","Whether the class level suits the learner.","placement"],["evidence","證據","Information that supports an answer.","academic"],["reason","原因","Why something happens or why you think something.","academic"],["compare","比較","Explain similarities and differences.","academic"],["describe","描述","Say what something is like.","academic"],["explain","解釋","Make the meaning clear with reasons.","academic"],["summarise","總結","Give the main points briefly.","academic"],["confidently","自信地","Use: I can answer confidently.","speaking"],["clearly","清楚地","Use: Speak clearly and naturally.","speaking"],["naturally","自然地","Not memorised or robotic.","speaking"],["hesitation","停頓猶豫","A pause while thinking.","speaking"],["strategy","策略","A plan for reaching a goal.","study"],["prepare","準備","Get ready for a task or interview.","study"],["review","複習","Study again to remember better.","study"],["feedback","反饋","Comments that help you improve.","teacher"],["progress","進步","Improvement over time.","study"],["suitable","合適的","Right for a person or situation.","placement"],["familiar","熟悉的","Known or easy to recognise.","level"],["unfamiliar","不熟悉的","New or not known.","level"],["detail","細節","Extra information that supports an answer.","speaking"],["context","語境","The situation around a word or idea.","academic"],["meaning","含義","What a word or idea means.","vocabulary"],["repair phrase","修復短語","A phrase used when communication breaks down.","repair"]
+      ],
+      "B1+": [
+        ["evaluate","評估","Judge strengths, limits or usefulness.","academic"],["analyse","分析","Break an idea into parts and explain how they work.","academic"],["justify","證明合理性","Give reasons for a choice or opinion.","academic"],["perspective","角度","A way of seeing or thinking about something.","academic"],["limitation","限制","A weakness or boundary of an idea.","academic"],["alternative","替代方案","Another possible choice.","academic"],["contrast","對比","Show differences between ideas.","academic"],["therefore","因此","Introduce a result or conclusion.","linker"],["although","雖然","Introduce contrast or concession.","linker"],["whereas","然而/相比之下","Contrast two facts or groups.","linker"],["despite","儘管","Show contrast before a noun or -ing form.","linker"],["indirect question","間接問句","A polite question with normal word order.","grammar"],["statement order","陳述句語序","Subject before verb in indirect questions.","grammar"],["criterion","標準","A standard used to judge performance.","assessment"],["diagnostic","診斷性的","Used to find strengths and weaknesses.","assessment"],["placement outcome","分班結果","The class level assigned after checking ability.","placement"],["register","語體","How formal or informal language sounds.","language"],["appropriate","恰當的","Suitable for the context.","language"],["precise","精準的","Exact and clear, not vague.","language"],["expand","擴展","Add more detail to an answer.","speaking"],["clarify","澄清","Make something clearer.","repair"],["respond","回應","Answer or react to a question.","speaking"],["coherent","連貫的","Easy to follow and logically connected.","academic"],["independently","獨立地","Without too much support.","level"]
+      ],
+      B2: [
+        ["nuance","細微差別","A small but important difference in meaning.","academic"],["implication","含義/影響","A possible meaning or consequence.","academic"],["assumption","假設","Something accepted as true without full proof.","academic"],["hypothetical","假設性的","Imagined rather than real.","grammar"],["concession","讓步","Admitting one point while making another.","academic"],["sophisticated","成熟精細的","Developed, subtle or advanced.","language"],["spontaneous","即興自然的","Produced naturally without full planning.","speaking"],["sustain","保持","Continue something over time.","speaking"],["elaborate","詳述","Explain with more detail.","speaking"],["paraphrase","改述","Say the same idea in different words.","repair"],["infer","推斷","Understand something from evidence.","reading"],["interpret","解讀","Explain meaning from context.","academic"],["reflect","反思","Think carefully about experience and learning.","academic"],["counterpoint","反方觀點","A point that challenges another view.","academic"],["relevance","相關性","How closely something connects to the question.","academic"],["consistency","一致性","Being steady and not contradictory.","academic"],["accuracy range","準確度範圍","How reliably grammar and vocabulary are controlled.","assessment"],["interactional control","互動控制","Managing turn-taking and repair in conversation.","assessment"],["lexical range","詞彙廣度","The range of vocabulary a learner can use.","assessment"],["collocation","搭配","Words that naturally go together.","vocabulary"],["idiomatic","地道的","Natural expression used by fluent speakers.","language"],["subtle","微妙的","Not obvious but important.","language"],["prioritise","優先處理","Decide what matters most.","study"],["self-correct","自我修正","Notice and repair your own mistake.","speaking"]
+      ]
+    };
+
+    const words = Object.entries(vocabBanks).flatMap(([level, items]) => items.map((item) => ({ level, en: item[0], zh: item[1], tip: item[2], group: item[3] })));
+    const vocabTargets = { A1: 1000, A2: 2000, B1: 3500, "B1+": 5000, B2: 7000 };
+    const vocabDefinitions = {
+      classroom: "A room where students learn with a teacher.",
+      teacher: "A person who helps students learn.",
+      student: "A person who is learning at a school or course.",
+      address: "The place where someone lives or can receive mail.",
+      number: "A set of digits used for contact, order or identification.",
+      repeat: "To say or do something again.",
+      slowly: "In a way that is not fast.",
+      school: "A place where young people study.",
+      subject: "An area of study, such as English, maths or science.",
+      today: "The present day.",
+      tomorrow: "The day after today.",
+      question: "A sentence used to ask for information.",
+      answer: "A reply to a question.",
+      help: "Support given when someone has a problem.",
+      confidence: "The feeling that you can do something successfully.",
+      improve: "To become better at something.",
+      goal: "Something a learner wants to achieve.",
+      prefer: "To like one option more than another.",
+      recommend: "To say that something is good or useful for another person.",
+      opinion: "What someone thinks about a topic.",
+      travel: "To go from one place to another.",
+      arrive: "To reach a place.",
+      group: "Several people working or learning together.",
+      example: "A specific case used to explain an idea.",
+      confidently: "In a way that shows belief in your own ability.",
+      clearly: "In a way that is easy to understand."
+    };
+
+    function vocabMeaning(word) {
+      return vocabDefinitions[word.en] || word.tip.replace(/^Use:\s*/i, "").replace(/\s+/g, " ").trim();
+    }
+
+    function formatVocabTarget(value) {
+      return value >= 1000 ? `${(value / 1000).toFixed(value % 1000 ? 1 : 0)}k` : String(value);
+    }
+
+    const PASS_MIN_ATTEMPTS = 8;
+    const PASS_RATE = 0.75;
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, vocabLevel: "A1", vocabRight: 0, vocabTotal: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats(), speakingLevel: "A1", follow: 0, speakingSeconds: 90, speakingTimer: null, speakingNotes: [], rubric: { fluency: 3, accuracy: 3, vocabulary: 3, interaction: 3 } };
+
+    const rubricItems = [
+      ["fluency", "Fluency", "Flow, pauses and answer length / 流暢度與停頓"],
+      ["accuracy", "Accuracy", "Grammar control and sentence safety / 語法準確度"],
+      ["vocabulary", "Vocabulary", "Range, topic words and repair words / 詞彙範圍"],
+      ["interaction", "Interaction", "Follow-up, clarification and confidence / 互動能力"]
+    ];
+
+    function qs(id) { return document.getElementById(id); }
+
+    function createLevelStats() {
+      return levelOrder.reduce((acc, level) => {
+        acc[level] = { right: 0, attempted: 0, seen: [] };
+        return acc;
+      }, {});
+    }
+
+    function levelQuestionCount(level) {
+      return quiz.filter(item => item.level === level).length;
+    }
+
+    function levelCompletion(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      return stats.seen ? stats.seen.length : 0;
+    }
+
+    function levelUnlocked(level) {
+      const index = levelOrder.indexOf(level);
+      if (index <= 0) return true;
+      return levelOrder.slice(0, index).every(previous => levelPassed(previous));
+    }
+
+    function levelPassed(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      const complete = levelCompletion(level) >= levelQuestionCount(level);
+      return complete && stats.attempted > 0 && stats.right / stats.attempted >= PASS_RATE;
+    }
+
+    function markLevelComplete(level) {
+      if (!state.completedLevels.includes(level)) state.completedLevels.push(level);
+    }
+
+    function nextLevelAfter(level) {
+      const next = levelOrder[levelOrder.indexOf(level) + 1];
+      return next || "";
+    }
+
+    function firstQuestionForLevel(level) {
+      return quiz.findIndex(item => item.level === level);
+    }
+
+    function firstUnseenQuestionForLevel(level) {
+      const stats = state.levelStats[level] || { seen: [] };
+      const unseen = quiz.findIndex((item, index) => item.level === level && !stats.seen.includes(index));
+      return unseen >= 0 ? unseen : firstQuestionForLevel(level);
+    }
+
+    function recordLevelAnswer(level, correct, questionIndex) {
+      const stats = state.levelStats[level] || (state.levelStats[level] = { right: 0, attempted: 0, seen: [] });
+      stats.attempted += 1;
+      if (correct) stats.right += 1;
+      if (!stats.seen.includes(questionIndex)) stats.seen.push(questionIndex);
+      if (levelPassed(level)) {
+        markLevelComplete(level);
+        state.focusSkill = "";
+      }
+    }
+
+    function renderLevelStatus(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      const seen = levelCompletion(level);
+      const count = levelQuestionCount(level);
+      const needed = Math.max(count - seen, 0);
+      const rate = stats.attempted ? Math.round((stats.right / stats.attempted) * 100) : 0;
+      const next = nextLevelAfter(level);
+      if (levelPassed(level)) {
+        qs("levelStatus").textContent = next ? `${level} unlocked ${next} (${seen}/${count} completed, ${rate}%).` : `${level} completed (${seen}/${count}, ${rate}%).`;
+      } else {
+        qs("levelStatus").textContent = `${level}: ${seen}/${count} questions seen · ${stats.right}/${stats.attempted} correct · unlock next level at 100% completion and ${Math.round(PASS_RATE * 100)}% accuracy (${needed} unseen)`;
+      }
+    }
+
+    qs("unlockBtn")?.addEventListener("click", () => {
+      const value = qs("passwordInput").value.trim();
+      if (PASSWORDS.includes(value)) {
+        document.body.classList.remove("locked");
+        localStorage.setItem("ihPlacementUnlocked", "1");
+      } else {
+        qs("gateMsg").textContent = "Password not recognised.";
+      }
+    });
+
+    if (localStorage.getItem("ihPlacementUnlocked") === "1") document.body.classList.remove("locked");
+
+    document.querySelectorAll("[data-tab]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-tab]").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+        btn.classList.add("active");
+        qs(btn.dataset.tab).classList.add("active");
+      });
+    });
+
+    function speakingFollowUps(topic) {
+      const extra = {
+        A1: ["Can you say one more word?", "Do you like it? Why?", "Is it easy or difficult?", "Can you give one example?"],
+        A2: ["How often does this happen?", "Who do you usually do this with?", "Can you give a simple reason?", "What happened last time?"],
+        B1: ["Can you give a specific example?", "Why is that important for you?", "How did this change over time?", "What would you do differently next time?"],
+        "B1+": ["Can you compare this with another option?", "What is one limitation of your answer?", "How would another student see this?", "Can you justify your opinion more clearly?"],
+        B2: ["What is the strongest counterargument?", "Can you give a more nuanced example?", "What assumption are you making?", "How would this change in a different context?"]
+      };
+      return topic.prompts[state.speakingLevel].map((prompt, index) => `${prompt.replace(/\?$/, "?")} ${extra[state.speakingLevel][index % extra[state.speakingLevel].length]}`);
+    }
+
+    function speakingItems() {
+      return speakingTopics.map(topic => {
+        const profile = speakingLevelFrames[state.speakingLevel];
+        return {
+          ...topic,
+          level: state.speakingLevel,
+          questions: topic.prompts[state.speakingLevel],
+          followups: speakingFollowUps(topic),
+          frame: profile.frame,
+          coach: profile.coach
+        };
+      });
+    }
+
+    function currentSpeakingItem() {
+      const items = speakingItems();
+      return items[state.topic % items.length] || speakingItems()[0];
+    }
+
+    function formatSeconds(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+    }
+
+    function resetSpeakingTimer() {
+      clearInterval(state.speakingTimer);
+      state.speakingTimer = null;
+      state.speakingSeconds = state.speakingLevel === "A1" ? 60 : state.speakingLevel === "A2" ? 75 : 90;
+      renderSpeakingTimer();
+    }
+
+    function renderSpeakingTimer() {
+      qs("speakingTimerDisplay").textContent = formatSeconds(state.speakingSeconds);
+    }
+
+    function renderSpeakingLevels() {
+      qs("speakingLevels").innerHTML = speakingLevels.map(level => `<button class="${state.speakingLevel === level ? "active" : ""}" data-speaking-level="${level}">${level}</button>`).join("");
+      document.querySelectorAll("[data-speaking-level]").forEach(btn => btn.addEventListener("click", () => {
+        state.speakingLevel = btn.dataset.speakingLevel;
+        state.topic = 0;
+        state.prompt = 0;
+        state.follow = 0;
+        resetSpeakingTimer();
+        renderSpeaking();
+      }));
+    }
+
+    function renderTopics() {
+      const items = speakingItems();
+      qs("topicList").innerHTML = items.map((t, i) => `
+        <div class="topic-card ${i === state.topic ? "active" : ""}" data-topic="${i}">
+          <b>${t.level}</b>
+          <div><strong>${t.title}</strong><div class="zh">${t.zh}</div></div>
+        </div>
+      `).join("");
+      document.querySelectorAll("[data-topic]").forEach(card => card.addEventListener("click", () => {
+        state.topic = Number(card.dataset.topic);
+        state.prompt = 0;
+        state.follow = 0;
+        resetSpeakingTimer();
+        renderSpeaking();
+      }));
+    }
+
+    function renderSpeakingLog() {
+      qs("speakingSaved").textContent = state.speakingNotes.length;
+      qs("speakingLog").innerHTML = state.speakingNotes.slice(0, 6).map(note => `
+        <article>
+          <strong>${note.level} · ${note.title}</strong>
+          <span>${note.question}</span>
+          <div>F${note.fluency} · V${note.vocab} · I${note.interaction}</div>
+          <span>${note.answer || "No transcript saved."}</span>
+        </article>
+      `).join("") || `<article><strong>No saved answers yet</strong><span>Practise aloud, then save keywords or a short transcript.</span></article>`;
+      renderTeacherMode();
+    }
+
+    function renderSpeaking() {
+      const item = currentSpeakingItem();
+      const question = item.questions[state.prompt % item.questions.length];
+      const follow = item.followups[state.follow % item.followups.length];
+      qs("topicBadge").textContent = `${item.level} · ${item.title}`;
+      qs("speakingQuestion").textContent = question;
+      qs("speakingZh").textContent = item.zh;
+      qs("followUpBox").innerHTML = `<strong>Follow-up:</strong> ${follow}<br><span class="zh">追問會檢查互動能力，不是背誦能力。回答後可請對方重複或澄清。</span>`;
+      qs("speakingFrame").innerHTML = `<strong>Answer shape:</strong> ${item.frame}<br><strong>Useful expansion:</strong> because... / for example... / compared with... / however...`;
+      qs("speakingCoach").innerHTML = `<strong>Coach note</strong><br>${item.coach}<br><span class="zh">教練提示：先回答問題，再補充原因和例子；不需要追求完美長句。</span>`;
+      qs("speakingRound").textContent = `${(state.prompt % item.questions.length) + 1}/${item.questions.length}`;
+      renderSpeakingLevels();
+      renderTopics();
+      renderSpeakingTimer();
+      renderSpeakingLog();
+    }
+
+    qs("startSpeakingTimer").addEventListener("click", () => {
+      if (state.speakingTimer) return;
+      state.speakingTimer = setInterval(() => {
+        state.speakingSeconds = Math.max(state.speakingSeconds - 1, 0);
+        renderSpeakingTimer();
+        if (state.speakingSeconds === 0) {
+          clearInterval(state.speakingTimer);
+          state.speakingTimer = null;
+        }
+      }, 1000);
+    });
+
+    qs("resetSpeakingTimer").addEventListener("click", resetSpeakingTimer);
+
+    qs("nextFollowUp").addEventListener("click", () => {
+      const item = currentSpeakingItem();
+      state.follow = (state.follow + 1) % item.followups.length;
+      renderSpeaking();
+    });
+
+    qs("nextSpeaking").addEventListener("click", () => {
+      const item = currentSpeakingItem();
+      state.prompt += 1;
+      state.follow = 0;
+      if (state.prompt >= item.questions.length) {
+        state.prompt = 0;
+        state.topic = (state.topic + 1) % speakingItems().length;
+      }
+      qs("speakingAnswer").value = "";
+      resetSpeakingTimer();
+      renderSpeaking();
+    });
+
+    qs("saveSpeakingAnswer").addEventListener("click", () => {
+      const item = currentSpeakingItem();
+      state.speakingNotes.unshift({
+        level: item.level,
+        title: item.title,
+        question: item.questions[state.prompt % item.questions.length],
+        follow: item.followups[state.follow % item.followups.length],
+        answer: qs("speakingAnswer").value.trim(),
+        fluency: qs("rateFluency").value,
+        vocab: qs("rateVocab").value,
+        interaction: qs("rateInteraction").value
+      });
+      qs("speakingAnswer").value = "";
+      renderSpeakingLog();
+    });
+
+    qs("saveWeakPrompt").addEventListener("click", () => {
+      const item = currentSpeakingItem();
+      state.weakPrompts.push(`${item.level} ${item.title}: ${item.questions[state.prompt % item.questions.length]}`);
+      renderWeak();
+      renderSpeakingLog();
+    });
+
+    function renderQuiz() {
+      const item = quiz[state.quiz % quiz.length];
+      const levelItems = quiz.filter(q => q.level === item.level);
+      const levelPosition = levelItems.findIndex(q => q.q === item.q) + 1;
+      qs("quizLevel").textContent = `${item.level} · ${levelPosition}/${levelItems.length} · ${item.skill}`;
+      qs("quizPrompt").textContent = item.q;
+      qs("quizZh").textContent = `Assessment point / 考核點: ${item.skill} · ${item.zh}`;
+      qs("quizFeedback").innerHTML = "";
+      qs("focusSkill").textContent = state.focusSkill || "general rotation";
+      renderLevelLadder(item.level);
+      renderLevelStatus(item.level);
+      qs("nextQuiz").textContent = "Next question";
+      qs("quizOptions").innerHTML = item.options.map((o, i) => `<button class="quiz-option" data-option="${i}">${o}</button>`).join("");
+      document.querySelectorAll("[data-option]").forEach(btn => btn.addEventListener("click", () => {
+        const pick = Number(btn.dataset.option);
+        const correct = pick === item.a;
+        state.total += 1;
+        state.lastQuiz = state.quiz % quiz.length;
+        recordLevelAnswer(item.level, correct, state.quiz % quiz.length);
+        if (correct) {
+          state.right += 1;
+          btn.classList.add("correct");
+          if (state.focusSkill === item.skill) state.focusSkill = "";
+          qs("quizFeedback").innerHTML = feedbackHtml(item, true);
+        } else {
+          btn.classList.add("wrong");
+          document.querySelectorAll("[data-option]")[item.a].classList.add("correct");
+          if (!levelPassed(item.level)) state.focusSkill = item.skill;
+          qs("quizFeedback").innerHTML = feedbackHtml(item, false);
+        }
+        qs("focusSkill").textContent = state.focusSkill || "general rotation";
+        renderLevelStatus(item.level);
+        if (levelPassed(item.level)) {
+          const next = nextLevelAfter(item.level);
+          qs("nextQuiz").textContent = next ? `Continue to ${next}` : "Restart quiz";
+        }
+        document.querySelectorAll("[data-option]").forEach(b => b.disabled = true);
+        renderScore();
+        renderTeacherMode();
+      }));
+    }
+
+    function feedbackHtml(item, correct) {
+      const next = nextLevelAfter(item.level);
+      const completeText = `${levelCompletion(item.level)}/${levelQuestionCount(item.level)} ${item.level} questions seen`;
+      const matched = levelPassed(item.level) ? (next ? `${item.level} complete. ${next} is now unlocked.` : `${item.level} complete. This is the top level in this practice set.`) : (correct ? `${completeText}. Continue inside ${item.level}; next level is locked until this level is complete.` : `${completeText}. Next question will match this weak point: ${item.skill}.`);
+      return `
+        <div class="feedback-block">
+          <div><strong>${correct ? "Correct" : "Review this point"} / ${correct ? "答對了" : "需要補強"}</strong></div>
+          <div><strong>EN:</strong> ${item.en}</div>
+          <div><strong>中文:</strong> ${item.cn}</div>
+          <div class="example"><strong>Example / 例題:</strong><br>${item.example}<br><span class="zh">${item.exampleZh}</span></div>
+          <div class="matched-next">${matched}</div>
+        </div>
+      `;
+    }
+
+    function nextQuizIndex() {
+      const current = state.quiz % quiz.length;
+      const currentLevel = quiz[current].level;
+      if (levelPassed(currentLevel)) {
+        markLevelComplete(currentLevel);
+        const next = nextLevelAfter(currentLevel);
+        if (next) {
+          const nextStart = firstQuestionForLevel(next);
+          if (nextStart >= 0) return nextStart;
+        }
+        return 0;
+      }
+      if (state.focusSkill) {
+        const matched = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current && index !== state.lastQuiz);
+        if (matched >= 0) return matched;
+        const fallback = quiz.findIndex((item, index) => item.level === currentLevel && item.skill === state.focusSkill && index !== current);
+        if (fallback >= 0) return fallback;
+      }
+      const sequential = state.quiz + 1;
+      if (sequential < quiz.length) {
+        const oldLevel = quiz[current].level;
+        const nextLevel = quiz[sequential].level;
+        if (oldLevel !== nextLevel && !levelPassed(oldLevel)) return firstUnseenQuestionForLevel(oldLevel);
+        if (oldLevel !== nextLevel && !state.completedLevels.includes(oldLevel)) state.completedLevels.push(oldLevel);
+        return sequential;
+      }
+      if (!state.completedLevels.includes(quiz[current].level)) state.completedLevels.push(quiz[current].level);
+      return 0;
+    }
+
+    function renderLevelLadder(activeLevel) {
+      qs("levelLadder").innerHTML = levelOrder.map(level => {
+        const count = quiz.filter(item => item.level === level).length;
+        const done = state.completedLevels.includes(level) || levelPassed(level) ? " done" : "";
+        const active = activeLevel === level ? " active" : "";
+        const locked = levelUnlocked(level) ? "" : " locked";
+        const seen = levelCompletion(level);
+        const label = locked ? "locked" : `${seen}/${count} seen`;
+        return `<div class="level-step${done}${active}${locked}">${level}<br><span>${label}</span></div>`;
+      }).join("");
+    }
+
+    function renderScore() {
+      qs("scoreRight").textContent = state.right;
+      qs("scoreTotal").textContent = state.total;
+      renderTeacherMode();
+    }
+
+    qs("nextQuiz").addEventListener("click", () => { state.quiz = nextQuizIndex(); renderQuiz(); });
+    qs("resetQuiz").addEventListener("click", () => { state.quiz = 0; state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; state.completedLevels = []; state.levelStats = createLevelStats(); renderScore(); renderQuiz(); });
+
+    function renderWords() {
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      const word = levelWords[state.word % levelWords.length];
+      qs("wordMeta").textContent = `${word.level} · ${word.group}`;
+      qs("wordEn").textContent = word.en;
+      qs("wordZh").textContent = word.zh;
+      qs("wordTip").textContent = word.tip;
+      qs("wordBankIntro").textContent = `${state.vocabLevel} pathway target: ${vocabTargets[state.vocabLevel].toLocaleString()} words. Diagnostic sample shown here: ${levelWords.length} items. Total current sample: ${words.length}.`;
+      qs("wordList").innerHTML = levelWords.map(w => `<div class="word-card"><div class="word-meta">${w.level} · ${w.group}</div><strong>${w.en}</strong><span>${w.zh}</span><span>${w.tip}</span></div>`).join("");
+      renderVocabCapacity();
+      renderVocabLevels();
+      renderVocabTest();
+    }
+
+    qs("nextWord").addEventListener("click", () => { state.word += 1; renderWords(); });
+    qs("weakWord").addEventListener("click", () => {
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      state.weakWords.push(levelWords[state.word % levelWords.length].en);
+      renderWeak();
+    });
+
+    function renderVocabLevels() {
+      qs("vocabLevels").innerHTML = levelOrder.map(level => {
+        const sampleCount = words.filter(word => word.level === level).length;
+        return `<button class="${state.vocabLevel === level ? "active" : ""}" data-vocab-level="${level}">${level} · ${formatVocabTarget(vocabTargets[level])} target · ${sampleCount} sample</button>`;
+      }).join("");
+      document.querySelectorAll("[data-vocab-level]").forEach(btn => btn.addEventListener("click", () => {
+        state.vocabLevel = btn.dataset.vocabLevel;
+        state.word = 0;
+        state.vocabRight = 0;
+        state.vocabTotal = 0;
+        renderWords();
+      }));
+    }
+
+    function renderVocabCapacity() {
+      qs("vocabCapacity").innerHTML = levelOrder.map(level => {
+        const active = state.vocabLevel === level ? "active" : "";
+        return `<span class="${active}">${level}<br>${vocabTargets[level].toLocaleString()} words</span>`;
+      }).join("");
+    }
+
+    function vocabQuestion() {
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      const target = levelWords[state.word % levelWords.length];
+      const distractors = levelWords.filter(word => word.en !== target.en).slice(state.word + 1).concat(levelWords).slice(0, 3);
+      const options = rotatedOptions([target, ...distractors], state.word).slice(0, 4);
+      return { target, options, answer: options.findIndex(word => word.en === target.en) };
+    }
+
+    function renderVocabTest() {
+      const item = vocabQuestion();
+      qs("vocabTestBadge").textContent = `${state.vocabLevel} · vocabulary recognition`;
+      qs("vocabPrompt").textContent = `What is "${item.target.en}"?`;
+      qs("vocabFeedback").textContent = "Choose the closest English meaning. Chinese support appears after you answer.";
+      qs("vocabScore").textContent = `${state.vocabLevel} vocabulary pathway · ${vocabTargets[state.vocabLevel].toLocaleString()} target · ${state.vocabRight}/${state.vocabTotal} sample correct`;
+      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${vocabMeaning(word)}</button>`).join("");
+      document.querySelectorAll("[data-vocab-option]").forEach(btn => btn.addEventListener("click", () => {
+        const pick = Number(btn.dataset.vocabOption);
+        state.vocabTotal += 1;
+        if (pick === item.answer) {
+          state.vocabRight += 1;
+          btn.classList.add("correct");
+          qs("vocabFeedback").textContent = `Correct / 正確: ${item.target.en}. 中文: ${item.target.zh}.`;
+        } else {
+          btn.classList.add("wrong");
+          document.querySelectorAll("[data-vocab-option]")[item.answer].classList.add("correct");
+          state.weakWords.push(item.target.en);
+          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} means "${vocabMeaning(item.target)}" 中文: ${item.target.zh}.`;
+        }
+        qs("vocabScore").textContent = `${state.vocabLevel} vocabulary pathway · ${vocabTargets[state.vocabLevel].toLocaleString()} target · ${state.vocabRight}/${state.vocabTotal} sample correct`;
+        document.querySelectorAll("[data-vocab-option]").forEach(option => option.disabled = true);
+        setTimeout(() => { state.word += 1; renderWords(); }, 900);
+        renderWeak();
+      }));
+    }
+
+    function renderWeak() {
+      qs("weakPromptList").textContent = state.weakPrompts.length ? state.weakPrompts.join(" | ") : "none yet";
+      qs("weakWordList").textContent = state.weakWords.length ? state.weakWords.join(", ") : "none yet";
+      renderTeacherMode();
+    }
+
+    function scorePercent(right, total) {
+      return total ? `${Math.round((right / total) * 100)}%` : "0%";
+    }
+
+    function currentPlacementLevel() {
+      const passed = levelOrder.filter(level => levelPassed(level));
+      if (passed.length) return `${passed[passed.length - 1]} passed`;
+      const active = quiz[state.quiz % quiz.length]?.level || "A1";
+      return `${active} in progress`;
+    }
+
+    function rubricAverage() {
+      const values = Object.values(state.rubric).map(Number);
+      return values.reduce((sum, value) => sum + value, 0) / values.length;
+    }
+
+    function supportBand() {
+      const avg = rubricAverage();
+      if (state.total && state.right / state.total < 0.6) return "High support";
+      if (avg < 2.5 || state.weakWords.length + state.weakPrompts.length >= 5) return "Targeted support";
+      if (avg >= 4 && state.total >= 8) return "Stretch practice";
+      return "Steady practice";
+    }
+
+    function recommendedTeacherPlan() {
+      const weakGrammar = state.focusSkill || state.weakPrompts.at(-1)?.split(":")[0] || "core grammar accuracy";
+      const weakVocab = state.weakWords.slice(-4).join(", ") || "classroom, travel and self-introduction vocabulary";
+      return [
+        ["1. Diagnostic warm-up", `5 quick questions at ${quiz[state.quiz % quiz.length]?.level || "A1"} level, then one spoken self-introduction.`],
+        ["2. Micro-teach", `Re-teach ${weakGrammar}. Use one model sentence, one controlled gap-fill and one oral substitution drill.`],
+        ["3. Vocabulary repair", `Review: ${weakVocab}. Ask the learner to define each word in English before Chinese support.`],
+        ["4. Interview transfer", "Run two familiar questions and one follow-up. Require because / for example / Could you repeat...?"],
+        ["5. Homework", "10-minute daily cycle: 6 quiz items, 8 flashcards, 2 recorded answers and one self-correction note."]
+      ];
+    }
+
+    function renderTeacherRubric() {
+      qs("teacherRubric").innerHTML = rubricItems.map(([key, label, note]) => `
+        <div class="rubric-row">
+          <div><strong>${label}</strong><span>${note}</span></div>
+          <select data-rubric="${key}">
+            ${[1,2,3,4,5].map(value => `<option value="${value}" ${Number(state.rubric[key]) === value ? "selected" : ""}>${value} / 5</option>`).join("")}
+          </select>
+        </div>
+      `).join("");
+      document.querySelectorAll("[data-rubric]").forEach(select => select.addEventListener("change", () => {
+        state.rubric[select.dataset.rubric] = Number(select.value);
+        renderTeacherMode();
+      }));
+    }
+
+    function renderTeacherMode() {
+      if (!qs("teacherKpis")) return;
+      qs("teacherKpis").innerHTML = `
+        <span><strong>${currentPlacementLevel()}</strong>placement ladder</span>
+        <span><strong>${scorePercent(state.right, state.total)}</strong>${state.right}/${state.total} quiz correct</span>
+        <span><strong>${scorePercent(state.vocabRight, state.vocabTotal)}</strong>${state.vocabRight}/${state.vocabTotal} vocab sample</span>
+        <span><strong>${state.speakingNotes.length}</strong>saved speaking notes</span>
+      `;
+      if (!document.activeElement?.matches("[data-rubric]")) renderTeacherRubric();
+      qs("teacherPlan").innerHTML = recommendedTeacherPlan().map(([title, text]) => `<article><strong>${title}</strong><span>${text}</span></article>`).join("");
+      if (!qs("teacherSummary").textContent.trim()) qs("teacherSummary").textContent = buildTeacherSummary();
+    }
+
+    function selectedSelfLevel() {
+      const checked = document.querySelector("input[name='level']:checked");
+      return checked ? `${checked.value}/5` : "not selected";
+    }
+
+    function buildTeacherSummary() {
+      const learner = qs("teacherLearner")?.value.trim() || "Learner";
+      const target = qs("teacherTarget")?.value || "A1";
+      const context = qs("teacherContext")?.value || "IH summer placement";
+      const risk = qs("teacherRisk")?.value || "Low risk";
+      const notes = qs("teacherNotes")?.value.trim() || "No additional teacher notes saved yet.";
+      return `${learner} · OTC IH placement preparation summary
+
+Context: ${context}
+Target level: ${target}
+Current signal: ${currentPlacementLevel()}
+Quiz accuracy: ${state.right}/${state.total} (${scorePercent(state.right, state.total)})
+Vocabulary sample: ${state.vocabRight}/${state.vocabTotal} (${scorePercent(state.vocabRight, state.vocabTotal)})
+Speaking rubric average: ${rubricAverage().toFixed(1)}/5
+Self-check: ${selectedSelfLevel()}
+Risk flag: ${risk}
+Support band: ${supportBand()}
+
+Weak prompts / 口語弱項:
+${state.weakPrompts.slice(-5).join("\n") || "None recorded yet."}
+
+Weak words / 詞彙弱項:
+${state.weakWords.slice(-12).join(", ") || "None recorded yet."}
+
+Recommended next session:
+${recommendedTeacherPlan().map(([title, text]) => `${title}: ${text}`).join("\n")}
+
+Teacher notes:
+${notes}
+
+Disclaimer: OTC independent practice summary. This is not an official IH placement result.`;
+    }
+
+    const mockSets = [
+      ["Tell me about yourself.", "Why are you coming to London?", "What do you want to improve in English?", "What will you do if you do not understand a teacher?"],
+      ["Describe your school.", "What subject do you like most?", "Tell me about a hobby.", "How do you make friends in a new class?"],
+      ["Have you studied online before?", "Do you prefer group work or individual work?", "What makes a good English lesson?", "What are your plans after the summer?"]
+    ];
+
+    function renderMock() {
+      const set = mockSets[Math.floor(Math.random() * mockSets.length)];
+      qs("mockPrompt").innerHTML = set.map((q, i) => `<strong>${i + 1}.</strong> ${q}`).join("<br>");
+    }
+
+    qs("newMock").addEventListener("click", renderMock);
+    qs("copyMock").addEventListener("click", () => navigator.clipboard?.writeText(qs("mockPrompt").innerText));
+
+    function renderTimer() {
+      const m = String(Math.floor(state.seconds / 60)).padStart(2, "0");
+      const s = String(state.seconds % 60).padStart(2, "0");
+      qs("timerDisplay").textContent = `${m}:${s}`;
+    }
+
+    qs("startTimer").addEventListener("click", () => {
+      clearInterval(state.timer);
+      state.timer = setInterval(() => {
+        state.seconds = Math.max(0, state.seconds - 1);
+        renderTimer();
+        if (state.seconds === 0) clearInterval(state.timer);
+      }, 1000);
+    });
+
+    qs("resetTimer").addEventListener("click", () => {
+      clearInterval(state.timer);
+      state.seconds = 120;
+      renderTimer();
+    });
+
+    qs("saveNotes").addEventListener("click", () => {
+      localStorage.setItem("ihTeacherNotes", qs("teacherNotes").value);
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    });
+    qs("clearNotes").addEventListener("click", () => { qs("teacherNotes").value = ""; localStorage.removeItem("ihTeacherNotes"); qs("teacherSummary").textContent = buildTeacherSummary(); });
+    qs("generateTeacherReport").addEventListener("click", () => { qs("teacherSummary").textContent = buildTeacherSummary(); });
+    qs("copyTeacherReport").addEventListener("click", () => navigator.clipboard?.writeText(qs("teacherSummary").innerText));
+    ["teacherLearner", "teacherTarget", "teacherContext", "teacherRisk", "teacherNotes"].forEach(id => qs(id)?.addEventListener("input", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
+    ["teacherTarget", "teacherContext", "teacherRisk"].forEach(id => qs(id)?.addEventListener("change", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
+    document.querySelectorAll("input[name='level']").forEach(input => input.addEventListener("change", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
+    qs("teacherNotes").value = localStorage.getItem("ihTeacherNotes") || "";
+
+    renderSpeaking();
+    renderQuiz();
+    renderScore();
+    renderWords();
+    renderWeak();
+    renderMock();
+    renderTimer();
+    renderTeacherMode();
+  </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cover</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --paper: #f7f4ee;
+      --gold: #b08332;
+      --blue: #24566f;
+      --line: #d8d2c7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 1000px;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, Arial, sans-serif;
+    }
+    .cover {
+      width: 1600px;
+      height: 1000px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      border: 30px solid #fff;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.92), rgba(255,255,255,.72)),
+        repeating-linear-gradient(0deg, transparent 0, transparent 58px, rgba(16,24,32,.04) 59px),
+        var(--paper);
+    }
+    .left {
+      padding: 86px 78px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .eyebrow {
+      color: var(--gold);
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 86px;
+      line-height: .98;
+      margin: 34px 0 22px;
+      letter-spacing: 0;
+      max-width: 780px;
+    }
+    .sub {
+      font-size: 31px;
+      line-height: 1.32;
+      color: #4f5d67;
+      max-width: 760px;
+    }
+    .chips {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .chips span {
+      border: 2px solid var(--line);
+      background: #fff;
+      padding: 14px 18px;
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--blue);
+    }
+    .brand {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      border-top: 4px solid var(--gold);
+      padding-top: 26px;
+      font-size: 24px;
+      color: #53616b;
+      font-weight: 800;
+    }
+    .brand strong {
+      display: block;
+      color: var(--ink);
+      font-size: 32px;
+    }
+    .right {
+      background: #111820;
+      color: #fff;
+      padding: 82px 62px;
+      display: grid;
+      align-content: center;
+      gap: 22px;
+      border-left: 10px solid var(--gold);
+    }
+    .panel {
+      border: 2px solid rgba(255,255,255,.18);
+      padding: 26px;
+      background: rgba(255,255,255,.04);
+    }
+    .panel b {
+      display: block;
+      color: var(--gold);
+      font-size: 44px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .panel span {
+      font-size: 24px;
+      color: #d8e0e5;
+      line-height: 1.28;
+    }
+    .notice {
+      font-size: 19px;
+      color: #aeb9c1;
+      line-height: 1.4;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="cover">
+    <section class="left">
+      <div>
+        <div class="eyebrow">OTC downloadable app</div>
+        <h1>IH Placement & Interview Practice</h1>
+        <p class="sub">A1-B2 placement quiz, vocabulary recognition, speaking interview practice and teacher-mode progress summary.</p>
+        <div class="chips">
+          <span>Placement Quiz</span>
+          <span>Vocabulary</span>
+          <span>Speaking</span>
+          <span>Teacher Mode</span>
+        </div>
+      </div>
+      <div class="brand">
+        <div><strong>OTC Study Hub</strong>Independent English preparation resource</div>
+        <div>2026 Edition</div>
+      </div>
+    </section>
+    <section class="right">
+      <div class="panel"><b>220</b><span>levelled grammar and placement-practice items</span></div>
+      <div class="panel"><b>15</b><span>speaking-interview themes with follow-up prompts</span></div>
+      <div class="panel"><b>A1-B2</b><span>sequential level unlock for clearer progression</span></div>
+      <p class="notice">Independent OTC practice tool. Not an official IH publication or guaranteed-placement product.</p>
+    </section>
+  </main>
+</body>
+</html>
