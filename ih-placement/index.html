@@ -757,6 +757,134 @@
       line-height: 1.35;
     }
 
+    #teacher .card h3,
+    #teacher .panel h3 {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    #teacher p,
+    #teacher label,
+    #teacher li {
+      font-size: 12px;
+      line-height: 1.42;
+    }
+
+    .teacher-kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .teacher-kpis span,
+    .teacher-pill {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      padding: 7px 8px;
+      font-size: 11px;
+      line-height: 1.25;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .teacher-kpis strong,
+    .teacher-pill strong {
+      display: block;
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.1;
+      margin-bottom: 3px;
+    }
+
+    .teacher-grid-small {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .teacher-field {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .teacher-field select,
+    .teacher-field input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 7px 8px;
+      font-size: 12px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .rubric-list {
+      display: grid;
+      gap: 7px;
+      margin-top: 8px;
+    }
+
+    .rubric-row {
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 8px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 7px;
+    }
+
+    .rubric-row:last-child { border-bottom: 0; }
+    .rubric-row strong { font-size: 12px; color: var(--ink); }
+    .rubric-row span { display: block; font-size: 10.8px; color: var(--muted); line-height: 1.3; }
+
+    .rubric-row select {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 6px 7px;
+      font-size: 12px;
+      background: #fff;
+    }
+
+    .teacher-plan {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .teacher-plan article {
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--gold);
+      border-radius: 7px;
+      padding: 8px;
+      background: #fff;
+    }
+
+    .teacher-plan strong {
+      display: block;
+      font-size: 12px;
+      color: var(--ink);
+      margin-bottom: 3px;
+    }
+
+    .teacher-plan span {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .teacher-summary {
+      min-height: 210px;
+      white-space: pre-wrap;
+      font-size: 11.5px;
+      line-height: 1.45;
+    }
+
     textarea {
       width: 100%;
       min-height: 110px;
@@ -1068,28 +1196,81 @@
 
     <section class="view" id="teacher">
       <div class="grid">
-        <article class="card span-5">
-          <h3>5-level self check</h3>
-          <div class="self-scale">
-            <label><input type="radio" name="level"> 1. I answer with single words and need Chinese support.</label>
-            <label><input type="radio" name="level"> 2. I can make short sentences but pause often.</label>
-            <label><input type="radio" name="level"> 3. I can answer familiar questions with reasons.</label>
-            <label><input type="radio" name="level"> 4. I can explain opinions and examples fluently.</label>
-            <label><input type="radio" name="level"> 5. I can discuss unfamiliar topics and repair mistakes.</label>
+        <article class="panel span-12">
+          <span class="badge">Teacher dashboard</span>
+          <h3>Placement evidence overview</h3>
+          <p>Use this screen after a short diagnostic run. It pulls quiz, vocabulary and speaking-practice signals into one teacher-facing view.</p>
+          <div class="teacher-kpis" id="teacherKpis"></div>
+        </article>
+
+        <article class="card span-4">
+          <h3>Learner profile</h3>
+          <div class="teacher-grid-small">
+            <label class="teacher-field">Learner name
+              <input id="teacherLearner" placeholder="Student name">
+            </label>
+            <label class="teacher-field">Target level
+              <select id="teacherTarget">
+                <option>A1</option><option>A2</option><option>B1</option><option>B1+</option><option>B2</option>
+              </select>
+            </label>
+            <label class="teacher-field">Course context
+              <select id="teacherContext">
+                <option>IH summer placement</option>
+                <option>Pre-arrival interview</option>
+                <option>General English booster</option>
+                <option>Parent progress review</option>
+              </select>
+            </label>
+            <label class="teacher-field">Risk flag
+              <select id="teacherRisk">
+                <option>Low risk</option>
+                <option>Needs monitoring</option>
+                <option>High support needed</option>
+              </select>
+            </label>
+          </div>
+          <div class="self-scale" style="margin-top:10px">
+            <label><input type="radio" name="level" value="1"> 1. Single words; needs Chinese support.</label>
+            <label><input type="radio" name="level" value="2"> 2. Short sentences; frequent pauses.</label>
+            <label><input type="radio" name="level" value="3"> 3. Familiar answers with reasons.</label>
+            <label><input type="radio" name="level" value="4"> 4. Opinions and examples mostly fluent.</label>
+            <label><input type="radio" name="level" value="5"> 5. Repairs, clarifies and handles unfamiliar topics.</label>
           </div>
         </article>
-        <article class="card span-7">
+
+        <article class="card span-4">
+          <h3>Speaking rubric</h3>
+          <p>Score the learner after a live or mock interview. The summary updates automatically.</p>
+          <div class="rubric-list" id="teacherRubric"></div>
+        </article>
+
+        <article class="card span-4">
+          <h3>Next lesson prescription</h3>
+          <p>Focus on level fit, repair language and short accurate output before adding length.</p>
+          <div class="teacher-plan" id="teacherPlan"></div>
+        </article>
+
+        <article class="card span-6">
           <h3>Teacher notes</h3>
-          <p>Use this for the next OTC session. Notes stay only in this browser.</p>
+          <p>Notes stay only in this browser. Keep them short, diagnostic and action-based.</p>
           <textarea id="teacherNotes" placeholder="Pronunciation, grammar, hesitation points, weak vocabulary..."></textarea>
           <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
             <button id="saveNotes">Save notes</button>
             <button class="secondary" id="clearNotes">Clear</button>
+            <button class="secondary" id="generateTeacherReport">Generate summary</button>
+            <button class="secondary" id="copyTeacherReport">Copy summary</button>
           </div>
           <div class="answer-frame" style="margin-top:12px">
             Weak prompts: <span id="weakPromptList">none yet</span><br>
             Weak words: <span id="weakWordList">none yet</span>
           </div>
+        </article>
+
+        <article class="card span-6">
+          <h3>Session summary</h3>
+          <p>Useful for teacher handover or parent update. It avoids promising an official IH level.</p>
+          <div class="answer-frame teacher-summary" id="teacherSummary"></div>
         </article>
       </div>
     </section>
@@ -1322,7 +1503,14 @@
 
     const PASS_MIN_ATTEMPTS = 8;
     const PASS_RATE = 0.75;
-    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, vocabLevel: "A1", vocabRight: 0, vocabTotal: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats(), speakingLevel: "A1", follow: 0, speakingSeconds: 90, speakingTimer: null, speakingNotes: [] };
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, vocabLevel: "A1", vocabRight: 0, vocabTotal: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats(), speakingLevel: "A1", follow: 0, speakingSeconds: 90, speakingTimer: null, speakingNotes: [], rubric: { fluency: 3, accuracy: 3, vocabulary: 3, interaction: 3 } };
+
+    const rubricItems = [
+      ["fluency", "Fluency", "Flow, pauses and answer length / 流暢度與停頓"],
+      ["accuracy", "Accuracy", "Grammar control and sentence safety / 語法準確度"],
+      ["vocabulary", "Vocabulary", "Range, topic words and repair words / 詞彙範圍"],
+      ["interaction", "Interaction", "Follow-up, clarification and confidence / 互動能力"]
+    ];
 
     function qs(id) { return document.getElementById(id); }
 
@@ -1505,6 +1693,7 @@
           <span>${note.answer || "No transcript saved."}</span>
         </article>
       `).join("") || `<article><strong>No saved answers yet</strong><span>Practise aloud, then save keywords or a short transcript.</span></article>`;
+      renderTeacherMode();
     }
 
     function renderSpeaking() {
@@ -1618,6 +1807,7 @@
         }
         document.querySelectorAll("[data-option]").forEach(b => b.disabled = true);
         renderScore();
+        renderTeacherMode();
       }));
     }
 
@@ -1681,6 +1871,7 @@
     function renderScore() {
       qs("scoreRight").textContent = state.right;
       qs("scoreTotal").textContent = state.total;
+      renderTeacherMode();
     }
 
     qs("nextQuiz").addEventListener("click", () => { state.quiz = nextQuizIndex(); renderQuiz(); });
@@ -1766,6 +1957,109 @@
     function renderWeak() {
       qs("weakPromptList").textContent = state.weakPrompts.length ? state.weakPrompts.join(" | ") : "none yet";
       qs("weakWordList").textContent = state.weakWords.length ? state.weakWords.join(", ") : "none yet";
+      renderTeacherMode();
+    }
+
+    function scorePercent(right, total) {
+      return total ? `${Math.round((right / total) * 100)}%` : "0%";
+    }
+
+    function currentPlacementLevel() {
+      const passed = levelOrder.filter(level => levelPassed(level));
+      if (passed.length) return `${passed[passed.length - 1]} passed`;
+      const active = quiz[state.quiz % quiz.length]?.level || "A1";
+      return `${active} in progress`;
+    }
+
+    function rubricAverage() {
+      const values = Object.values(state.rubric).map(Number);
+      return values.reduce((sum, value) => sum + value, 0) / values.length;
+    }
+
+    function supportBand() {
+      const avg = rubricAverage();
+      if (state.total && state.right / state.total < 0.6) return "High support";
+      if (avg < 2.5 || state.weakWords.length + state.weakPrompts.length >= 5) return "Targeted support";
+      if (avg >= 4 && state.total >= 8) return "Stretch practice";
+      return "Steady practice";
+    }
+
+    function recommendedTeacherPlan() {
+      const weakGrammar = state.focusSkill || state.weakPrompts.at(-1)?.split(":")[0] || "core grammar accuracy";
+      const weakVocab = state.weakWords.slice(-4).join(", ") || "classroom, travel and self-introduction vocabulary";
+      return [
+        ["1. Diagnostic warm-up", `5 quick questions at ${quiz[state.quiz % quiz.length]?.level || "A1"} level, then one spoken self-introduction.`],
+        ["2. Micro-teach", `Re-teach ${weakGrammar}. Use one model sentence, one controlled gap-fill and one oral substitution drill.`],
+        ["3. Vocabulary repair", `Review: ${weakVocab}. Ask the learner to define each word in English before Chinese support.`],
+        ["4. Interview transfer", "Run two familiar questions and one follow-up. Require because / for example / Could you repeat...?"],
+        ["5. Homework", "10-minute daily cycle: 6 quiz items, 8 flashcards, 2 recorded answers and one self-correction note."]
+      ];
+    }
+
+    function renderTeacherRubric() {
+      qs("teacherRubric").innerHTML = rubricItems.map(([key, label, note]) => `
+        <div class="rubric-row">
+          <div><strong>${label}</strong><span>${note}</span></div>
+          <select data-rubric="${key}">
+            ${[1,2,3,4,5].map(value => `<option value="${value}" ${Number(state.rubric[key]) === value ? "selected" : ""}>${value} / 5</option>`).join("")}
+          </select>
+        </div>
+      `).join("");
+      document.querySelectorAll("[data-rubric]").forEach(select => select.addEventListener("change", () => {
+        state.rubric[select.dataset.rubric] = Number(select.value);
+        renderTeacherMode();
+      }));
+    }
+
+    function renderTeacherMode() {
+      if (!qs("teacherKpis")) return;
+      qs("teacherKpis").innerHTML = `
+        <span><strong>${currentPlacementLevel()}</strong>placement ladder</span>
+        <span><strong>${scorePercent(state.right, state.total)}</strong>${state.right}/${state.total} quiz correct</span>
+        <span><strong>${scorePercent(state.vocabRight, state.vocabTotal)}</strong>${state.vocabRight}/${state.vocabTotal} vocab sample</span>
+        <span><strong>${state.speakingNotes.length}</strong>saved speaking notes</span>
+      `;
+      if (!document.activeElement?.matches("[data-rubric]")) renderTeacherRubric();
+      qs("teacherPlan").innerHTML = recommendedTeacherPlan().map(([title, text]) => `<article><strong>${title}</strong><span>${text}</span></article>`).join("");
+      if (!qs("teacherSummary").textContent.trim()) qs("teacherSummary").textContent = buildTeacherSummary();
+    }
+
+    function selectedSelfLevel() {
+      const checked = document.querySelector("input[name='level']:checked");
+      return checked ? `${checked.value}/5` : "not selected";
+    }
+
+    function buildTeacherSummary() {
+      const learner = qs("teacherLearner")?.value.trim() || "Learner";
+      const target = qs("teacherTarget")?.value || "A1";
+      const context = qs("teacherContext")?.value || "IH summer placement";
+      const risk = qs("teacherRisk")?.value || "Low risk";
+      const notes = qs("teacherNotes")?.value.trim() || "No additional teacher notes saved yet.";
+      return `${learner} · OTC IH placement preparation summary
+
+Context: ${context}
+Target level: ${target}
+Current signal: ${currentPlacementLevel()}
+Quiz accuracy: ${state.right}/${state.total} (${scorePercent(state.right, state.total)})
+Vocabulary sample: ${state.vocabRight}/${state.vocabTotal} (${scorePercent(state.vocabRight, state.vocabTotal)})
+Speaking rubric average: ${rubricAverage().toFixed(1)}/5
+Self-check: ${selectedSelfLevel()}
+Risk flag: ${risk}
+Support band: ${supportBand()}
+
+Weak prompts / 口語弱項:
+${state.weakPrompts.slice(-5).join("\n") || "None recorded yet."}
+
+Weak words / 詞彙弱項:
+${state.weakWords.slice(-12).join(", ") || "None recorded yet."}
+
+Recommended next session:
+${recommendedTeacherPlan().map(([title, text]) => `${title}: ${text}`).join("\n")}
+
+Teacher notes:
+${notes}
+
+Disclaimer: OTC independent practice summary. This is not an official IH placement result.`;
     }
 
     const mockSets = [
@@ -1803,8 +2097,22 @@
       renderTimer();
     });
 
-    qs("saveNotes").addEventListener("click", () => localStorage.setItem("ihTeacherNotes", qs("teacherNotes").value));
-    qs("clearNotes").addEventListener("click", () => { qs("teacherNotes").value = ""; localStorage.removeItem("ihTeacherNotes"); });
+    qs("saveNotes").addEventListener("click", () => {
+      localStorage.setItem("ihTeacherNotes", qs("teacherNotes").value);
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    });
+    qs("clearNotes").addEventListener("click", () => { qs("teacherNotes").value = ""; localStorage.removeItem("ihTeacherNotes"); qs("teacherSummary").textContent = buildTeacherSummary(); });
+    qs("generateTeacherReport").addEventListener("click", () => { qs("teacherSummary").textContent = buildTeacherSummary(); });
+    qs("copyTeacherReport").addEventListener("click", () => navigator.clipboard?.writeText(qs("teacherSummary").innerText));
+    ["teacherLearner", "teacherTarget", "teacherContext", "teacherRisk", "teacherNotes"].forEach(id => qs(id)?.addEventListener("input", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
+    ["teacherTarget", "teacherContext", "teacherRisk"].forEach(id => qs(id)?.addEventListener("change", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
+    document.querySelectorAll("input[name='level']").forEach(input => input.addEventListener("change", () => {
+      qs("teacherSummary").textContent = buildTeacherSummary();
+    }));
     qs("teacherNotes").value = localStorage.getItem("ihTeacherNotes") || "";
 
     renderSpeaking();
@@ -1814,6 +2122,7 @@
     renderWeak();
     renderMock();
     renderTimer();
+    renderTeacherMode();
   </script>
 </body>
 </html>
