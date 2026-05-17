@@ -18,6 +18,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /search/
 - /about/
 - /lms-review/
+- /lms-review/wang-zhuoying-summer-2026/
 
 ## Build
 

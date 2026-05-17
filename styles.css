@@ -2903,6 +2903,37 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.ebook-service-card {
+  background: #fdfbf6;
+}
+
+.ebook-service-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.ebook-service-steps span {
+  border-top: 1px solid var(--line);
+  color: #42506a;
+  font-size: 12px;
+  font-weight: 800;
+  padding-top: 9px;
+}
+
+.ebook-service-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ebook-service-grid article:nth-child(3n) {
+  border-right: 0;
+}
+
+.ebook-service-grid article:nth-child(n + 4) {
+  border-top: 1px solid var(--line);
+}
+
 .shelf-book {
   display: grid;
   grid-template-columns: 54px minmax(0, 1fr);
@@ -3282,6 +3313,7 @@ h1 {
 
   .hero-directory,
   .index-grid,
+  .ebook-service-grid,
   .publishing-categories,
   .publishing-categories-wide,
   .curriculum-map,
@@ -3291,6 +3323,9 @@ h1 {
 
   .index-grid article,
   .index-grid article:last-child,
+  .ebook-service-grid article,
+  .ebook-service-grid article:nth-child(3n),
+  .ebook-service-grid article:nth-child(n + 4),
   .curriculum-map article,
   .curriculum-card,
   .curriculum-card:nth-child(4n),
@@ -3304,6 +3339,7 @@ h1 {
   }
 
   .index-grid article:last-child,
+  .ebook-service-grid article:last-child,
   .curriculum-card:last-child,
   .curriculum-map article:last-child {
     border-bottom: 0;
@@ -3447,6 +3483,10 @@ h1 {
   .resource-row {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .ebook-service-steps {
+    grid-template-columns: 1fr;
   }
 
   .btn {

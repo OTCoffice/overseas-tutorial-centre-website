@@ -1609,7 +1609,63 @@ const publishing = pageShell({
       </div>
       <div class="publishing-categories publishing-categories-wide">${publishingLineCards()}</div>
       <div style="height:28px"></div>
-      <div class="notice">Publishing status update: the six OTC OTHM Level 5 Business Management first-edition single-unit study companions are now live on Payhip, alongside the Foundation / Pathway study support titles. OTC study companions are independent educational resources and are not official awarding-body publications.</div>
+      <div class="notice">Publishing status update: the six OTC OTHM Level 5 Business Management first-edition single-unit study companions are now live on Payhip, alongside the Foundation / Pathway study support titles. The OTC IH Placement & Interview Practice App is now available as a standalone Payhip downloadable app. OTC study companions and apps are independent educational resources and are not official awarding-body or institution publications.</div>
+      <div style="height:28px"></div>
+      <div class="series-shelf">
+        <div class="shelf-head">
+          <div>
+            <div class="eyebrow">Digital Products & Learning Apps</div>
+            <h3>OTC IH Placement & Interview Practice App</h3>
+            <p>Standalone downloadable HTML app package prepared for Payhip listing</p>
+          </div>
+          <a href="https://payhip.com/b/qABUa" target="_blank" rel="noopener">Buy on Payhip</a>
+        </div>
+        <div class="shelf-grid">
+          <a class="shelf-book" href="/apps/ih-placement-interview/#embedded-ih-app">
+            <span class="shelf-cover">
+              <span>OTC</span>
+              <strong>IH Placement & Interview Practice App</strong>
+              <em>Payhip Live</em>
+            </span>
+            <span class="shelf-text">
+              <b>Learning App</b>
+              <strong>OTC IH Placement & Interview Practice App</strong>
+              <small>A1-B2 placement quiz · vocabulary recognition · speaking interview practice · teacher mode</small>
+            </span>
+          </a>
+          <a class="shelf-book" href="/ih-placement/">
+            <span class="shelf-cover">
+              <span>OTC</span>
+              <strong>Public IH Placement Practice</strong>
+              <em>Study Hub Live</em>
+            </span>
+            <span class="shelf-text">
+              <b>Public App</b>
+              <strong>IH Placement & Interview Practice</strong>
+              <small>Browser-based public practice version available on OTC Study Hub</small>
+            </span>
+          </a>
+        </div>
+        <div style="height:18px"></div>
+        <div class="notice">The Payhip downloadable app is now live at https://payhip.com/b/qABUa. It is an independent OTC practice product, not an official International House London publication, official placement test, official interview script or guaranteed-placement product.</div>
+      </div>
+      <div style="height:28px"></div>
+      <div class="series-shelf ebook-service-card">
+        <div class="shelf-head">
+          <div>
+            <div class="eyebrow">Author Services</div>
+            <h3>Ebook Publishing Support</h3>
+            <p>書稿整理、版式設計、PDF / ebook package preparation and Payhip / KDP-ready listing materials.</p>
+          </div>
+          <a href="/publishing/ebook-publishing-support/">Service process</a>
+        </div>
+        <div class="ebook-service-steps">
+          <span>01 Manuscript review</span>
+          <span>02 Layout sample</span>
+          <span>03 Ebook package</span>
+          <span>04 Listing support</span>
+        </div>
+      </div>
       <div style="height:28px"></div>
       <div class="series-shelf">
         <div class="shelf-head">
@@ -1660,6 +1716,86 @@ const publishing = pageShell({
           <a href="/study-guides/">Full catalogue</a>
         </div>
         <div class="shelf-grid shelf-grid-wide">${productShelf()}</div>
+      </div>
+    </section>
+  `
+});
+
+const ebookPublishingSupport = pageShell({
+  title: "Ebook Publishing Support | Overseas Publishing House | OTC",
+  description: "Overseas Publishing House helps authors prepare ebook and PDF publication packages, including manuscript review, bilingual layout, cover preparation, Payhip or KDP listing assets and publication workflow guidance.",
+  current: "publishing",
+  path: "/publishing/ebook-publishing-support/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Ebook Publishing Support</h1><p>書稿整理、電子書排版、PDF 出版包、封面與 Payhip / KDP 上架資料準備，面向希望把草稿整理成可公開銷售電子書的作者。</p></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Service Positioning</div>
+        <h2>From manuscript draft to publication-ready ebook package.</h2>
+        <p>OTC Overseas Publishing House focuses on practical publishing preparation: organising the manuscript, designing a readable layout, preparing listing materials and helping authors understand the steps before release.</p>
+      </div>
+      <div class="index-grid ebook-service-grid">
+        <article><b>01</b><strong>Manuscript review</strong><span>Check manuscript type, language, length, image/table needs, target reader and intended platform.</span></article>
+        <article><b>02</b><strong>Structure & editing plan</strong><span>整理章節、前言、目錄、作者簡介、版權頁、免責聲明與必要的中英文出版信息。</span></article>
+        <article><b>03</b><strong>Layout sample</strong><span>Prepare a short sample layout so the author can confirm typography, spacing, heading hierarchy and bilingual style.</span></article>
+        <article><b>04</b><strong>Ebook production</strong><span>Prepare the full PDF / ebook package with consistent typography, page structure, cover placement and export settings.</span></article>
+        <article><b>05</b><strong>Listing assets</strong><span>Draft product title, subtitle, description, category notes, author bio, preview image and Payhip / KDP upload checklist.</span></article>
+        <article><b>06</b><strong>Publication handover</strong><span>Provide final files, change notes and a simple launch checklist for pricing, preview, test purchase and announcement.</span></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">What Authors Can Send First</div>
+        <h2>A small document pack is enough to start.</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>Current manuscript</h3><p>Word, Google Doc, Markdown or PDF draft. Half-written manuscripts are acceptable for first-stage planning.</p></div><span class="pill">Required</span></article>
+        <article class="resource-row"><div><h3>Book intention</h3><p>Tell us whether the book is educational, practical, memoir, research, bilingual, workbook, guidebook or another format.</p></div><span class="pill">Required</span></article>
+        <article class="resource-row"><div><h3>Reference style</h3><p>Any sample books, typography preferences, cover ideas or platform examples that show the intended reader experience.</p></div><span class="pill">Useful</span></article>
+        <article class="resource-row"><div><h3>Timeline and platform</h3><p>Expected launch date and whether the author wants Payhip, Amazon KDP, PDF private sale or another ebook route.</p></div><span class="pill">Useful</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">Scope</div>
+          <h3>What OTC can help with</h3>
+          <ul>
+            <li>Book structure, chapter hierarchy and reader flow</li>
+            <li>Chinese / English / bilingual PDF layout</li>
+            <li>Cover direction, title page, copyright page and imprint notes</li>
+            <li>Payhip product description and sales-page copy</li>
+            <li>KDP-ready checklist and ebook file preparation support</li>
+            <li>Basic publication workflow and post-launch update planning</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">Boundaries</div>
+          <h3>What this service is not</h3>
+          <ul>
+            <li>It is not a guaranteed bestseller or guaranteed sales service.</li>
+            <li>It is not legal advice, tax advice or copyright dispute representation.</li>
+            <li>It does not replace professional proofreading where a book needs formal copyediting.</li>
+            <li>It does not promise platform approval where Payhip, KDP or another platform applies its own rules.</li>
+          </ul>
+        </div>
+      </div>
+      <div style="height:24px"></div>
+      <div class="notice">Overseas Publishing House can support authors with publication preparation and practical digital-book packaging. Final content responsibility, copyright clearance and platform decisions remain with the author or rights holder.</div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Contact</div>
+        <h2>Send a short brief before sharing the full manuscript.</h2>
+        <p>Please include book type, current word count or page count, language, target platform and intended launch timing.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Ebook%20Publishing%20Support%20Enquiry">Email OTC</a>
+        <a class="btn btn-secondary" href="/publishing/">Back to Publishing</a>
       </div>
     </section>
   `
@@ -3263,6 +3399,7 @@ const wangZhuoyingSummerGuide = pageShell({
 
 write(".", home);
 write("publishing", publishing);
+write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("study-guides", guides);
 write("courses", courses);
 write("zh", chineseEntrance);
@@ -3310,6 +3447,17 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
       ],
       destination: "https://overseasuk.com/$1",
       permanent: true
+    },
+    {
+      source: "/(.*)",
+      has: [
+        {
+          type: "host",
+          value: "www.overseasuk.com"
+        }
+      ],
+      destination: "https://overseasuk.com/$1",
+      permanent: true
     }
   ],
   headers: [
@@ -3320,7 +3468,7 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
       ]
     }
   ]
-}, null, 2));
+}, null, 2) + "\n");
 
 const sitemap = [...new Set(generatedRoutes)].sort().map((publicPath) => {
   const loc = new URL(publicPath, SITE_URL).toString();
