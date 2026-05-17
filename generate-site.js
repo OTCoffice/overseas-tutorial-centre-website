@@ -477,15 +477,9 @@ function externalRouteCards() {
 function translateEntry() {
   return `
     <div class="translate-entry">
-      <button type="button" data-translate-page>Translate page</button>
-      <span>Use browser or Google Translate for Chinese / other languages.</span>
+      <button type="button" data-language-help>中文 / Translate</button>
+      <span>Use browser translation for full-page Chinese. Google Translate proxy may alter layout.</span>
     </div>
-    <script>
-      document.querySelector("[data-translate-page]")?.addEventListener("click", () => {
-        const url = window.location.href;
-        window.open("https://translate.google.com/translate?sl=auto&tl=zh-CN&u=" + encodeURIComponent(url), "_blank", "noopener");
-      });
-    </script>
   `;
 }
 
