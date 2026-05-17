@@ -1230,7 +1230,7 @@
     function renderVocabTest() {
       const item = vocabQuestion();
       qs("vocabTestBadge").textContent = `${state.vocabLevel} · vocabulary recognition`;
-      qs("vocabPrompt").textContent = item.target.en;
+      qs("vocabPrompt").textContent = `What is "${item.target.en}"?`;
       qs("vocabFeedback").textContent = "Choose the closest English meaning. Chinese support appears after you answer.";
       qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
       qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${word.tip}</button>`).join("");
