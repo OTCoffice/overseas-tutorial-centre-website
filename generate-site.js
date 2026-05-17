@@ -1727,7 +1727,8 @@ const ebookPublishingSupport = pageShell({
   current: "publishing",
   path: "/publishing/ebook-publishing-support/",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Ebook Publishing Support</h1><p>書稿整理、電子書排版、PDF 出版包、封面與 Payhip / KDP 上架資料準備，面向希望把草稿整理成可公開銷售電子書的作者。</p></div></section>
+    <main class="ebook-support-page">
+    <section class="page-hero ebook-service-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Ebook Publishing Support</h1><p>書稿整理、電子書排版、PDF 出版包、封面與 Payhip / KDP 上架資料準備，面向希望把草稿整理成可公開銷售電子書的作者。</p></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -1783,7 +1784,6 @@ const ebookPublishingSupport = pageShell({
           </ul>
         </div>
       </div>
-      <div style="height:24px"></div>
       <div class="notice">Overseas Publishing House can support authors with publication preparation and practical digital-book packaging. Final content responsibility, copyright clearance and platform decisions remain with the author or rights holder.</div>
     </section>
 
@@ -1798,6 +1798,7 @@ const ebookPublishingSupport = pageShell({
         <a class="btn btn-secondary" href="/publishing/">Back to Publishing</a>
       </div>
     </section>
+    </main>
   `
 });
 
