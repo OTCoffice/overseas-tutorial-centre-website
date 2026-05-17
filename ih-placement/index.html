@@ -1231,21 +1231,21 @@
       const item = vocabQuestion();
       qs("vocabTestBadge").textContent = `${state.vocabLevel} · vocabulary recognition`;
       qs("vocabPrompt").textContent = item.target.en;
-      qs("vocabFeedback").textContent = "Choose the closest Chinese meaning. / 選擇最接近的中文含義。";
+      qs("vocabFeedback").textContent = "Choose the closest English meaning. Chinese support appears after you answer.";
       qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
-      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${word.zh}</button>`).join("");
+      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${word.tip}</button>`).join("");
       document.querySelectorAll("[data-vocab-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.vocabOption);
         state.vocabTotal += 1;
         if (pick === item.answer) {
           state.vocabRight += 1;
           btn.classList.add("correct");
-          qs("vocabFeedback").textContent = `Correct / 正確: ${item.target.en} = ${item.target.zh}. ${item.target.tip}`;
+          qs("vocabFeedback").textContent = `Correct / 正確: ${item.target.en}. 中文: ${item.target.zh}.`;
         } else {
           btn.classList.add("wrong");
           document.querySelectorAll("[data-vocab-option]")[item.answer].classList.add("correct");
           state.weakWords.push(item.target.en);
-          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} = ${item.target.zh}. ${item.target.tip}`;
+          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} means "${item.target.tip}" 中文: ${item.target.zh}.`;
         }
         qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
         document.querySelectorAll("[data-vocab-option]").forEach(option => option.disabled = true);
