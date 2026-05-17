@@ -971,6 +971,38 @@
     };
 
     const words = Object.entries(vocabBanks).flatMap(([level, items]) => items.map((item) => ({ level, en: item[0], zh: item[1], tip: item[2], group: item[3] })));
+    const vocabDefinitions = {
+      classroom: "A room where students learn with a teacher.",
+      teacher: "A person who helps students learn.",
+      student: "A person who is learning at a school or course.",
+      address: "The place where someone lives or can receive mail.",
+      number: "A set of digits used for contact, order or identification.",
+      repeat: "To say or do something again.",
+      slowly: "In a way that is not fast.",
+      school: "A place where young people study.",
+      subject: "An area of study, such as English, maths or science.",
+      today: "The present day.",
+      tomorrow: "The day after today.",
+      question: "A sentence used to ask for information.",
+      answer: "A reply to a question.",
+      help: "Support given when someone has a problem.",
+      confidence: "The feeling that you can do something successfully.",
+      improve: "To become better at something.",
+      goal: "Something a learner wants to achieve.",
+      prefer: "To like one option more than another.",
+      recommend: "To say that something is good or useful for another person.",
+      opinion: "What someone thinks about a topic.",
+      travel: "To go from one place to another.",
+      arrive: "To reach a place.",
+      group: "Several people working or learning together.",
+      example: "A specific case used to explain an idea.",
+      confidently: "In a way that shows belief in your own ability.",
+      clearly: "In a way that is easy to understand."
+    };
+
+    function vocabMeaning(word) {
+      return vocabDefinitions[word.en] || word.tip.replace(/^Use:\s*/i, "").replace(/\s+/g, " ").trim();
+    }
 
     const PASS_MIN_ATTEMPTS = 8;
     const PASS_RATE = 0.75;
@@ -1233,7 +1265,7 @@
       qs("vocabPrompt").textContent = `What is "${item.target.en}"?`;
       qs("vocabFeedback").textContent = "Choose the closest English meaning. Chinese support appears after you answer.";
       qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
-      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${word.tip}</button>`).join("");
+      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${vocabMeaning(word)}</button>`).join("");
       document.querySelectorAll("[data-vocab-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.vocabOption);
         state.vocabTotal += 1;
@@ -1245,7 +1277,7 @@
           btn.classList.add("wrong");
           document.querySelectorAll("[data-vocab-option]")[item.answer].classList.add("correct");
           state.weakWords.push(item.target.en);
-          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} means "${item.target.tip}" 中文: ${item.target.zh}.`;
+          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} means "${vocabMeaning(item.target)}" 中文: ${item.target.zh}.`;
         }
         qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
         document.querySelectorAll("[data-vocab-option]").forEach(option => option.disabled = true);
