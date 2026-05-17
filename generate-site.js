@@ -1479,8 +1479,10 @@ const home = pageShell({
       <div class="hero-inner">
         <div>
           <div class="eyebrow">Official Website · UK Education Consulting · Tutoring Apps · Publishing</div>
-          <h1>Overseas Tutorial Centre Ltd</h1>
-          <h2 class="hero-subhead">海外督導</h2>
+          <div class="hero-title-block">
+            <h1>Overseas Tutorial Centre</h1>
+            <h2 class="hero-subhead">海外督導</h2>
+          </div>
           <p>Official OTC website for UK education consulting, international curriculum tutoring, study apps, bilingual study guides and Overseas Publishing resources.</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>

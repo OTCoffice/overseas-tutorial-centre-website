@@ -432,27 +432,37 @@ h1 {
   max-width: 760px;
 }
 
-.hero h1 {
-  display: inline-block;
-  max-width: none;
-  white-space: nowrap;
-  font-size: clamp(42px, 4.35vw, 56px);
-  line-height: 1;
-  background: #f2e4c7;
-  border: 1px solid rgba(184, 138, 59, 0.34);
+.hero-title-block {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 12px;
+  padding: 10px 18px 12px;
+  background: var(--navy);
+  color: #fff;
   border-left: 5px solid var(--gold);
-  padding: 8px 14px 10px;
-  box-decoration-break: clone;
+}
+
+.hero-title-block h1 {
+  max-width: none;
+  margin-top: 0;
+  color: #fff;
+  white-space: nowrap;
+  font-size: clamp(42px, 4.15vw, 54px);
+  line-height: 0.98;
 }
 
 .hero-subhead {
-  max-width: 690px;
-  margin-top: 10px;
-  color: var(--navy-2);
+  max-width: none;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.92);
   font-family: "Source Sans 3", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-  font-size: clamp(18px, 1.75vw, 22px);
+  font-size: clamp(18px, 1.7vw, 22px);
   font-weight: 800;
-  line-height: 1.22;
+  line-height: 1.12;
+  text-align: center;
 }
 
 .hero p {
@@ -506,11 +516,11 @@ h1 {
 }
 
 .hero-panel {
-  background: #fff;
-  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(222, 211, 196, 0.5);
   border-radius: 7px;
-  padding: 18px;
-  box-shadow: 0 12px 34px rgba(6, 26, 47, 0.07);
+  padding: 14px;
+  box-shadow: none;
 }
 
 .hub-map {
@@ -519,10 +529,15 @@ h1 {
 }
 
 .hub-item {
-  background: #fbf8f2;
-  border: 1px solid var(--line);
-  border-radius: 7px;
-  padding: 14px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid rgba(222, 211, 196, 0.72);
+  border-radius: 0;
+  padding: 9px 2px 8px;
+}
+
+.hub-item:first-child {
+  border-top: 0;
 }
 
 .hub-item strong {
@@ -548,7 +563,7 @@ h1 {
 }
 
 .hero-directory {
-  margin-top: 22px;
+  margin-top: 16px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
@@ -556,11 +571,12 @@ h1 {
 }
 
 .hero-directory a {
-  border: 1px solid var(--line);
-  background: #fff;
-  border-radius: 7px;
-  padding: 12px 13px;
-  min-height: 86px;
+  border: 0;
+  border-top: 1px solid rgba(222, 211, 196, 0.9);
+  background: transparent;
+  border-radius: 0;
+  padding: 9px 0 8px;
+  min-height: 0;
 }
 
 .hero-directory strong {
@@ -3391,9 +3407,13 @@ h1 {
     padding: 42px 0;
   }
 
-  .hero h1 {
+  .hero-title-block {
+    width: 100%;
+    padding: 9px 10px 10px;
+  }
+
+  .hero-title-block h1 {
     font-size: clamp(27px, 8.6vw, 38px);
-    padding: 7px 10px 8px;
   }
 
   .hero-subhead {
