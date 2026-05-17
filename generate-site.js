@@ -1408,6 +1408,7 @@ function searchItems() {
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
     ["Apps & Tools", "/apps/", "UCBELT, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
+    ["IH London Placement & Interview Practice App", "/apps/ih-placement-interview/", "Independent OTC practice app for IH London online placement test readiness, speaking interview preparation, bilingual vocabulary and tutor-led review."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
@@ -1946,8 +1947,8 @@ const chineseEntrance = pageShell({
         <div class="app-screen">
           <div class="screen-title">
             <div class="eyebrow">精選 App</div>
-            <h3>UCBELT Speaking Test Practice</h3>
-            <p>帶密碼保護的口語練習工具，包含雙語詞彙訓練與教師模式。</p>
+            <h3>Speaking & Placement Practice</h3>
+            <p>口語測試、分班測試與面試準備工具，包含雙語詞彙訓練與教師模式。</p>
           </div>
           <div class="screen-stat">
             <div><b>10</b><span>口語練習主題</span></div>
@@ -1959,10 +1960,11 @@ const chineseEntrance = pageShell({
         <div>
           <div class="section-head">
             <h2>學習工具</h2>
-            <p>UCBELT app 結合練習題、mock test 流程、flashcards、quizzes、弱詞複習與雙語解釋。</p>
+            <p>UCBELT 與 IH placement app 結合練習題、mock interview、flashcards、quizzes、弱詞複習與雙語解釋。</p>
           </div>
           <div class="actions">
             <a class="btn btn-dark" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">啟動嵌入式 App</a>
+            <a class="btn btn-dark" href="/apps/ih-placement-interview/#embedded-ih-app">打開 IH 分班練習</a>
             <a class="btn btn-light" href="/apps/ucbelt-speaking/">查看產品頁</a>
           </div>
           <p class="notice" style="margin-top:22px">OTC 獨立練習資源。不是 UCB 官方出版物、官方試卷或保分產品。</p>
@@ -2362,8 +2364,8 @@ const apps = pageShell({
           <p>Speaking test preparation, vocabulary review, weak-word practice, mock tests and tutor-led English tools.</p>
           <ul>
             <li><span>Live</span> <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app">UCBELT Speaking Test Practice</a></li>
+            <li><span>Live</span> <a href="/apps/ih-placement-interview/#embedded-ih-app">IH Placement & Interview Practice</a></li>
             <li><span>Planned</span> Academic English speaking timer suite</li>
-            <li><span>Planned</span> Vocabulary trainer templates</li>
           </ul>
         </article>
         <article>
@@ -2418,6 +2420,7 @@ const apps = pageShell({
       <div class="metrics-grid">
         <article><strong>CE考牌練習App</strong><span>54 views · 0 orders · £0.99</span><p>Existing app-style product. Natural benchmark for future CSCS and SIA practice tools.</p></article>
         <article><strong>UCBELT Speaking Practice</strong><span>Live app · £0.99</span><p>Themed topic practice plus full mock sets, 640 bilingual vocabulary items and teacher mode.</p></article>
+        <article><strong>IH Placement & Interview Practice</strong><span>Live private app</span><p>Wang Zhuoying IH London online placement and speaking interview preparation with bilingual vocabulary, quiz and teacher notes.</p></article>
         <article><strong>英國SIA保安牌照 完全指南</strong><span>60 views · 0 orders · £2.99</span><p>Strongest listed view count in the supplied snapshot; candidate for SIA quiz/practice add-on.</p></article>
         <article><strong>2026英国CE驾照完全指南</strong><span>46 views · 0 orders · £2.99</span><p>Guide plus app pairing suggests a repeatable licence-preparation product model.</p></article>
         <article><strong>A-02 英國CSCS建築業資格卡完全指南</strong><span>26 views · 0 orders · £2.99</span><p>Notion planning already identifies CSCS App framework reuse as a next-step opportunity.</p></article>
@@ -2434,7 +2437,7 @@ const apps = pageShell({
         <article><span>01</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
         <article><span>02</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
         <article><span>03</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
-        <article><span>04</span><strong>Academic English / Speaking Tool Suite</strong><p>Expand UCBELT into reusable speaking timers, answer builders, vocabulary banks and tutor feedback utilities.</p></article>
+        <article><span>04</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
         <article><span>05</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
       </div>
       <div style="height:22px"></div>

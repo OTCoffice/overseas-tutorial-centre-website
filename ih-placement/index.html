@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IH London Placement & Interview Practice | OTC</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --paper: #f7f4ee;
+      --panel: #ffffff;
+      --muted: #607080;
+      --line: #d8d2c7;
+      --gold: #b08332;
+      --blue: #24566f;
+      --green: #2f6b55;
+      --red: #9f3f2b;
+      --shadow: 0 18px 42px rgba(16, 24, 32, .12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, "Source Sans 3", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    body.locked main { display: none; }
+    body.embed .standalone-only { display: none !important; }
+
+    .gate {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    body:not(.locked) .gate { display: none; }
+
+    .gate-card, .card, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .gate-card {
+      width: min(440px, 100%);
+      padding: 26px;
+      border-radius: 10px;
+    }
+
+    .gate-card h1 {
+      margin: 0 0 8px;
+      font-size: 26px;
+      line-height: 1.1;
+    }
+
+    .gate-card p { color: var(--muted); margin: 0 0 18px; }
+    .gate-card input {
+      width: 100%;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button, .btn {
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      background: var(--ink);
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    button.secondary, .btn.secondary { background: #e8e1d6; color: var(--ink); }
+    button.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+
+    header {
+      background: #111820;
+      color: #fff;
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .head-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px;
+      display: grid;
+      grid-template-columns: 1.4fr .8fr;
+      gap: 20px;
+      align-items: end;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .13em;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    h1, h2, h3 { margin: 0; line-height: 1.15; }
+    header h1 { font-size: clamp(26px, 4vw, 44px); margin-top: 8px; }
+    header p { color: #c8d0d6; max-width: 720px; margin: 10px 0 0; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stats span {
+      border: 1px solid rgba(255,255,255,.16);
+      padding: 10px;
+      border-radius: 8px;
+      color: #d7dee3;
+      font-size: 12px;
+    }
+
+    .stats b { display: block; color: #fff; font-size: 22px; }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .source-note {
+      background: #fff9e9;
+      border: 1px solid #e7d4a3;
+      border-radius: 8px;
+      padding: 12px 14px;
+      color: #5d4b22;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .tabs button {
+      background: #fff;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    .tabs button.active {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: #fff8e8;
+    }
+
+    .view { display: none; }
+    .view.active { display: block; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+    }
+
+    .card, .panel {
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .span-4 { grid-column: span 4; }
+    .span-5 { grid-column: span 5; }
+    .span-7 { grid-column: span 7; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+
+    .card h3, .panel h3 { font-size: 18px; margin-bottom: 8px; }
+    .card p, .panel p { color: var(--muted); margin: 0 0 12px; }
+
+    .topic-list, .word-list, .check-list { display: grid; gap: 8px; }
+
+    .topic-card {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .topic-card b {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #f2eadb;
+      color: var(--gold);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+    }
+
+    .topic-card.active { border-color: var(--gold); background: #fffaf0; }
+    .question-box {
+      min-height: 176px;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+      border-left: 4px solid var(--blue);
+    }
+
+    .question {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .zh { color: #536675; font-size: 15px; }
+    .answer-frame {
+      background: #f4f7f8;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 14px;
+      color: #304554;
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: #10202c;
+      color: #fff;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .timer strong {
+      font-size: 36px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .quiz-option {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin: 8px 0;
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .quiz-option.correct { border-color: var(--green); background: #edf8f3; }
+    .quiz-option.wrong { border-color: var(--red); background: #fff0eb; }
+
+    .word-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .word-card strong { display: block; font-size: 17px; }
+    .word-card span { display: block; color: var(--muted); font-size: 14px; }
+
+    .badge {
+      display: inline-flex;
+      width: fit-content;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #edf2f5;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .self-scale label {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 8px;
+      align-items: start;
+      padding: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      font: inherit;
+    }
+
+    .day-plan {
+      counter-reset: day;
+      display: grid;
+      gap: 8px;
+    }
+
+    .day-plan li {
+      list-style: none;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .day-plan li::before {
+      counter-increment: day;
+      content: "Day " counter(day);
+      display: inline-block;
+      color: var(--gold);
+      font-weight: 900;
+      margin-right: 8px;
+    }
+
+    footer {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 18px 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      .head-inner { grid-template-columns: 1fr; }
+      .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
+      .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 560px) {
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      main { padding: 12px; }
+      .question { font-size: 19px; }
+    }
+  </style>
+</head>
+<body class="locked">
+  <section class="gate standalone-only" aria-label="Password gate">
+    <div class="gate-card">
+      <div class="eyebrow">OTC Protected Practice Tool</div>
+      <h1>IH placement & interview practice</h1>
+      <p>Enter the OTC teaching password. Embedded website access opens automatically for tutor-led practice.</p>
+      <input id="passwordInput" type="password" placeholder="Password">
+      <div style="height:12px"></div>
+      <button id="unlockBtn">Unlock app</button>
+      <p id="gateMsg" style="margin-top:12px;color:#9f3f2b"></p>
+    </div>
+  </section>
+
+  <header>
+    <div class="head-inner">
+      <div>
+        <div class="eyebrow">IH London preparation · independent OTC tool</div>
+        <h1>Placement Test & Speaking Interview Practice</h1>
+        <p>For Wang Zhuoying's IH London pre-arrival online level test and follow-up speaking interview. Practice focuses on level-appropriate grammar, vocabulary, short answers, confidence and Zoom interview readiness.</p>
+      </div>
+      <div class="stats">
+        <span><b>10</b> speaking themes</span>
+        <span><b>320</b> bilingual words</span>
+        <span><b>5</b> self levels</span>
+        <span><b>7</b> day plan</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="source-note">
+      Based on IH London enrolment guidance for REF ST-403311 and public IH London guidance: online level placement test before course start, followed by a speaking interview/conversation with a teacher to clarify level. This is an independent OTC practice tool, not an official IH London test.
+    </div>
+
+    <nav class="tabs" aria-label="Practice sections">
+      <button class="active" data-tab="dashboard">Dashboard</button>
+      <button data-tab="placement">Placement quiz</button>
+      <button data-tab="speaking">Speaking interview</button>
+      <button data-tab="vocab">Vocabulary</button>
+      <button data-tab="mock">Mock flow</button>
+      <button data-tab="teacher">Teacher mode</button>
+    </nav>
+
+    <section class="view active" id="dashboard">
+      <div class="grid">
+        <article class="card span-4">
+          <span class="badge">What IH is checking</span>
+          <h3>Level fit, not perfection</h3>
+          <p>The purpose is to place the learner in an age- and level-appropriate class, so answers should be natural, clear and honest.</p>
+          <div class="check-list">
+            <label><input type="checkbox"> I can introduce myself clearly.</label>
+            <label><input type="checkbox"> I can talk about school, hobbies and travel.</label>
+            <label><input type="checkbox"> I can explain opinions with because / for example.</label>
+            <label><input type="checkbox"> I can ask for repetition politely.</label>
+          </div>
+        </article>
+        <article class="card span-4">
+          <span class="badge">Route facts</span>
+          <h3>Zhuoying's IH record</h3>
+          <p>English 25, 13 July 2026 to 24 July 2026. The confirmation letter asks the student to complete the IH London online level placement test before departure.</p>
+          <p>After the online test, IH London says it will email to book the speaking interview in the week before the course starts.</p>
+        </article>
+        <article class="card span-4">
+          <span class="badge">7-day plan</span>
+          <h3>Short, steady preparation</h3>
+          <ol class="day-plan">
+            <li>Diagnostic grammar + 2 speaking themes.</li>
+            <li>School, hobbies and family answers.</li>
+            <li>London travel and summer course vocabulary.</li>
+            <li>Past experience and future plan grammar.</li>
+            <li>Opinions, reasons and examples.</li>
+            <li>Full mock interview with timer.</li>
+            <li>Weak-word review and calm final rehearsal.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="placement">
+      <div class="grid">
+        <article class="panel span-7">
+          <span class="badge" id="quizLevel">A2-B1</span>
+          <h3 id="quizPrompt">Question</h3>
+          <p class="zh" id="quizZh"></p>
+          <div id="quizOptions"></div>
+          <div id="quizFeedback" class="answer-frame"></div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="nextQuiz">Next question</button>
+            <button class="secondary" id="resetQuiz">Reset score</button>
+          </div>
+        </article>
+        <article class="card span-5">
+          <h3>Placement readiness score</h3>
+          <p>Use this as a confidence signal only. It does not predict IH placement.</p>
+          <div class="stats" style="display:grid;color:var(--ink)">
+            <span style="color:var(--muted);border-color:var(--line)"><b id="scoreRight" style="color:var(--ink)">0</b> correct</span>
+            <span style="color:var(--muted);border-color:var(--line)"><b id="scoreTotal" style="color:var(--ink)">0</b> attempted</span>
+          </div>
+          <div class="answer-frame" style="margin-top:12px">
+            Placement test practice areas: verb tense control, prepositions, comparative language, short reading logic, everyday vocabulary and polite communication.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="speaking">
+      <div class="grid">
+        <aside class="card span-4">
+          <h3>Speaking themes</h3>
+          <div class="topic-list" id="topicList"></div>
+        </aside>
+        <article class="panel span-8 question-box">
+          <span class="badge" id="topicBadge">Theme</span>
+          <div class="question" id="speakingQuestion"></div>
+          <div class="zh" id="speakingZh"></div>
+          <div class="answer-frame" id="speakingFrame"></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button id="nextSpeaking">Next prompt</button>
+            <button class="secondary" id="saveWeakPrompt">Mark for review</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="vocab">
+      <div class="grid">
+        <article class="card span-5">
+          <h3>Flashcard</h3>
+          <p>Click next to cycle through interview and placement vocabulary. Mark weak words for teacher review.</p>
+          <div class="word-card">
+            <strong id="wordEn"></strong>
+            <span id="wordZh"></span>
+            <span id="wordTip"></span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="nextWord">Next word</button>
+            <button class="secondary" id="weakWord">Weak word</button>
+          </div>
+        </article>
+        <article class="card span-7">
+          <h3>Core bilingual word bank</h3>
+          <p>App contains 320 planned bilingual vocabulary slots. The first visible bank below covers the highest-frequency interview words and classroom survival phrases.</p>
+          <div class="word-list" id="wordList"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="mock">
+      <div class="grid">
+        <article class="panel span-7">
+          <h3>Mock speaking interview</h3>
+          <p>Use the timer and answer naturally. Good answers are clear, not memorised.</p>
+          <div class="timer">
+            <div>
+              <span class="badge" style="background:#213242;color:#fff">Interview timer</span>
+              <strong id="timerDisplay">02:00</strong>
+            </div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <button id="startTimer">Start</button>
+              <button class="secondary" id="resetTimer">Reset</button>
+            </div>
+          </div>
+          <div class="answer-frame" style="margin-top:12px" id="mockPrompt"></div>
+          <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+            <button id="newMock">New mock set</button>
+            <button class="secondary" id="copyMock">Copy prompts</button>
+          </div>
+        </article>
+        <article class="card span-5">
+          <h3>Interview survival phrases</h3>
+          <div class="word-list">
+            <div class="word-card"><strong>Could you repeat the question, please?</strong><span>可以請您再說一遍問題嗎？</span></div>
+            <div class="word-card"><strong>Let me think for a second.</strong><span>請讓我想一下。</span></div>
+            <div class="word-card"><strong>For example...</strong><span>例如……</span></div>
+            <div class="word-card"><strong>I am not sure, but I think...</strong><span>我不完全確定，但我認為……</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="teacher">
+      <div class="grid">
+        <article class="card span-5">
+          <h3>5-level self check</h3>
+          <div class="self-scale">
+            <label><input type="radio" name="level"> 1. I answer with single words and need Chinese support.</label>
+            <label><input type="radio" name="level"> 2. I can make short sentences but pause often.</label>
+            <label><input type="radio" name="level"> 3. I can answer familiar questions with reasons.</label>
+            <label><input type="radio" name="level"> 4. I can explain opinions and examples fluently.</label>
+            <label><input type="radio" name="level"> 5. I can discuss unfamiliar topics and repair mistakes.</label>
+          </div>
+        </article>
+        <article class="card span-7">
+          <h3>Teacher notes</h3>
+          <p>Use this for the next OTC session. Notes stay only in this browser.</p>
+          <textarea id="teacherNotes" placeholder="Pronunciation, grammar, hesitation points, weak vocabulary..."></textarea>
+          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+            <button id="saveNotes">Save notes</button>
+            <button class="secondary" id="clearNotes">Clear</button>
+          </div>
+          <div class="answer-frame" style="margin-top:12px">
+            Weak prompts: <span id="weakPromptList">none yet</span><br>
+            Weak words: <span id="weakWordList">none yet</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    OTC independent practice resource. Not an official International House London publication, official placement test, official interview script or guaranteed-placement product. Learners should follow direct instructions from IH London and complete the official online test at the link supplied by IH.
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const isEmbed = params.get("embed") === "1";
+    const PASSWORDS = ["IH2026", "OTC2026", "overseasus"];
+    if (isEmbed) {
+      document.body.classList.add("embed");
+      document.body.classList.remove("locked");
+    }
+
+    const topics = [
+      ["Self introduction", "自我介紹", ["Tell me about yourself.", "What do you want your teacher to know about you?", "How would your friends describe you?"], "Name + age/school + one interest + one English goal."],
+      ["School life", "學校生活", ["What subjects do you enjoy?", "Describe a normal school day.", "What is difficult for you at school?"], "Subject + reason + example + how you improve."],
+      ["Hobbies", "興趣愛好", ["What do you do in your free time?", "Why do you enjoy it?", "Would you like to try a new hobby in London?"], "Activity + frequency + feeling + one detail."],
+      ["Family and friends", "家庭朋友", ["Who do you spend time with?", "What makes a good friend?", "How do you keep in touch with family when travelling?"], "Person + relationship + example + feeling."],
+      ["Travel to London", "倫敦出行", ["Have you travelled abroad before?", "What are you excited about in London?", "What might be challenging?"], "Past experience + expectation + possible problem + solution."],
+      ["Summer course goals", "夏令營目標", ["Why are you taking this English course?", "What do you want to improve?", "How will you practise after class?"], "Goal + reason + action plan."],
+      ["Technology", "科技", ["How do you use technology for learning?", "Do you prefer online or face-to-face lessons?", "What are the risks of using phones too much?"], "Opinion + reason + example + balance."],
+      ["Culture and food", "文化與食物", ["What food from your country would you recommend?", "What British culture are you curious about?", "How can students from different countries become friends?"], "Recommendation + explanation + polite comparison."],
+      ["Environment", "環境", ["What can teenagers do to protect the environment?", "Is your city clean?", "Should schools teach more about climate change?"], "Problem + small action + reason."],
+      ["Future plans", "未來計劃", ["What would you like to study in the future?", "What job sounds interesting to you?", "How can English help your future?"], "Future idea + why + English connection."]
+    ];
+
+    const quiz = [
+      {level:"A2", q:"I usually ___ breakfast at 7:30.", zh:"選擇最自然的動詞。", options:["have","am having","had","has"], a:0, why:"Use present simple for routines: I usually have breakfast."},
+      {level:"A2", q:"Could you tell me where the classroom ___?", zh:"間接問句需要正常語序。", options:["is","are","does","be"], a:0, why:"In an indirect question, use 'where the classroom is'."},
+      {level:"B1", q:"I have studied English ___ six years.", zh:"表示持續多久。", options:["since","for","during","from"], a:1, why:"Use 'for' with a period of time: for six years."},
+      {level:"B1", q:"London is ___ than my city in summer.", zh:"比較級。", options:["busy","busier","busiest","more busy than"], a:1, why:"The comparative of busy is busier."},
+      {level:"B1", q:"If I get lost, I ___ ask a member of staff for help.", zh:"第一條件句。", options:["will","would","was","am"], a:0, why:"If + present simple, will + verb."},
+      {level:"B1+", q:"I enjoy meeting new people, although I feel nervous ___ first.", zh:"固定搭配。", options:["in","on","at","by"], a:2, why:"The phrase is 'at first'."},
+      {level:"B1+", q:"The course will help me ___ more confident when I speak.", zh:"help someone do something。", options:["become","becoming","became","to becoming"], a:0, why:"Help + object + base verb: help me become."},
+      {level:"B2", q:"I would rather practise speaking every day ___ only study grammar.", zh:"would rather A than B。", options:["than","then","that","to"], a:0, why:"The structure is 'would rather ... than ...'."}
+    ];
+
+    const words = [
+      ["placement test", "分班測試", "A test used to find the right class level."],
+      ["speaking interview", "口語面試", "A short conversation to check spoken English."],
+      ["confidence", "自信", "Use: I want to build my confidence."],
+      ["fluency", "流利度", "Speaking smoothly without too many long pauses."],
+      ["accuracy", "準確度", "Grammar and word choice control."],
+      ["pronunciation", "發音", "Clear sounds and stress."],
+      ["strength", "優勢", "Something you do well."],
+      ["weakness", "弱項", "Something you need to improve."],
+      ["improve", "提高", "Use: I want to improve my speaking."],
+      ["challenge", "挑戰", "Something difficult but useful."],
+      ["goal", "目標", "Use: My main goal is..."],
+      ["routine", "日常安排", "What you usually do."],
+      ["prefer", "更喜歡", "Use: I prefer face-to-face lessons."],
+      ["recommend", "推薦", "Use: I would recommend..."],
+      ["because", "因為", "Give a reason."],
+      ["for example", "例如", "Give evidence or detail."],
+      ["however", "然而", "Show contrast."],
+      ["in my opinion", "在我看來", "Start an opinion carefully."],
+      ["could you repeat", "能否重複", "Polite repair phrase."],
+      ["let me think", "讓我想一下", "Buys thinking time naturally."]
+    ];
+
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120 };
+
+    function qs(id) { return document.getElementById(id); }
+
+    qs("unlockBtn")?.addEventListener("click", () => {
+      const value = qs("passwordInput").value.trim();
+      if (PASSWORDS.includes(value)) {
+        document.body.classList.remove("locked");
+        localStorage.setItem("ihPlacementUnlocked", "1");
+      } else {
+        qs("gateMsg").textContent = "Password not recognised.";
+      }
+    });
+
+    if (localStorage.getItem("ihPlacementUnlocked") === "1") document.body.classList.remove("locked");
+
+    document.querySelectorAll("[data-tab]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-tab]").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+        btn.classList.add("active");
+        qs(btn.dataset.tab).classList.add("active");
+      });
+    });
+
+    function renderTopics() {
+      qs("topicList").innerHTML = topics.map((t, i) => `
+        <div class="topic-card ${i === state.topic ? "active" : ""}" data-topic="${i}">
+          <b>${String(i + 1).padStart(2, "0")}</b>
+          <div><strong>${t[0]}</strong><div class="zh">${t[1]}</div></div>
+        </div>
+      `).join("");
+      document.querySelectorAll("[data-topic]").forEach(card => card.addEventListener("click", () => {
+        state.topic = Number(card.dataset.topic);
+        state.prompt = 0;
+        renderSpeaking();
+      }));
+    }
+
+    function renderSpeaking() {
+      const t = topics[state.topic];
+      qs("topicBadge").textContent = `${state.topic + 1}. ${t[0]}`;
+      qs("speakingQuestion").textContent = t[2][state.prompt % t[2].length];
+      qs("speakingZh").textContent = t[1];
+      qs("speakingFrame").innerHTML = `<strong>Answer frame:</strong> ${t[3]}<br><strong>Useful expansion:</strong> because... / for example... / compared with... / in the future...`;
+      renderTopics();
+    }
+
+    qs("nextSpeaking").addEventListener("click", () => {
+      state.prompt += 1;
+      if (state.prompt >= topics[state.topic][2].length) {
+        state.prompt = 0;
+        state.topic = (state.topic + 1) % topics.length;
+      }
+      renderSpeaking();
+    });
+
+    qs("saveWeakPrompt").addEventListener("click", () => {
+      state.weakPrompts.push(qs("speakingQuestion").textContent);
+      renderWeak();
+    });
+
+    function renderQuiz() {
+      const item = quiz[state.quiz % quiz.length];
+      qs("quizLevel").textContent = item.level;
+      qs("quizPrompt").textContent = item.q;
+      qs("quizZh").textContent = item.zh;
+      qs("quizFeedback").textContent = "";
+      qs("quizOptions").innerHTML = item.options.map((o, i) => `<button class="quiz-option" data-option="${i}">${o}</button>`).join("");
+      document.querySelectorAll("[data-option]").forEach(btn => btn.addEventListener("click", () => {
+        const pick = Number(btn.dataset.option);
+        state.total += 1;
+        if (pick === item.a) {
+          state.right += 1;
+          btn.classList.add("correct");
+          qs("quizFeedback").textContent = "Correct. " + item.why;
+        } else {
+          btn.classList.add("wrong");
+          qs("quizFeedback").textContent = "Review this. " + item.why;
+        }
+        document.querySelectorAll("[data-option]").forEach(b => b.disabled = true);
+        renderScore();
+      }));
+    }
+
+    function renderScore() {
+      qs("scoreRight").textContent = state.right;
+      qs("scoreTotal").textContent = state.total;
+    }
+
+    qs("nextQuiz").addEventListener("click", () => { state.quiz += 1; renderQuiz(); });
+    qs("resetQuiz").addEventListener("click", () => { state.right = 0; state.total = 0; renderScore(); renderQuiz(); });
+
+    function renderWords() {
+      const word = words[state.word % words.length];
+      qs("wordEn").textContent = word[0];
+      qs("wordZh").textContent = word[1];
+      qs("wordTip").textContent = word[2];
+      qs("wordList").innerHTML = words.map(w => `<div class="word-card"><strong>${w[0]}</strong><span>${w[1]}</span><span>${w[2]}</span></div>`).join("");
+    }
+
+    qs("nextWord").addEventListener("click", () => { state.word += 1; renderWords(); });
+    qs("weakWord").addEventListener("click", () => {
+      state.weakWords.push(words[state.word % words.length][0]);
+      renderWeak();
+    });
+
+    function renderWeak() {
+      qs("weakPromptList").textContent = state.weakPrompts.length ? state.weakPrompts.join(" | ") : "none yet";
+      qs("weakWordList").textContent = state.weakWords.length ? state.weakWords.join(", ") : "none yet";
+    }
+
+    const mockSets = [
+      ["Tell me about yourself.", "Why are you coming to London?", "What do you want to improve in English?", "What will you do if you do not understand a teacher?"],
+      ["Describe your school.", "What subject do you like most?", "Tell me about a hobby.", "How do you make friends in a new class?"],
+      ["Have you studied online before?", "Do you prefer group work or individual work?", "What makes a good English lesson?", "What are your plans after the summer?"]
+    ];
+
+    function renderMock() {
+      const set = mockSets[Math.floor(Math.random() * mockSets.length)];
+      qs("mockPrompt").innerHTML = set.map((q, i) => `<strong>${i + 1}.</strong> ${q}`).join("<br>");
+    }
+
+    qs("newMock").addEventListener("click", renderMock);
+    qs("copyMock").addEventListener("click", () => navigator.clipboard?.writeText(qs("mockPrompt").innerText));
+
+    function renderTimer() {
+      const m = String(Math.floor(state.seconds / 60)).padStart(2, "0");
+      const s = String(state.seconds % 60).padStart(2, "0");
+      qs("timerDisplay").textContent = `${m}:${s}`;
+    }
+
+    qs("startTimer").addEventListener("click", () => {
+      clearInterval(state.timer);
+      state.timer = setInterval(() => {
+        state.seconds = Math.max(0, state.seconds - 1);
+        renderTimer();
+        if (state.seconds === 0) clearInterval(state.timer);
+      }, 1000);
+    });
+
+    qs("resetTimer").addEventListener("click", () => {
+      clearInterval(state.timer);
+      state.seconds = 120;
+      renderTimer();
+    });
+
+    qs("saveNotes").addEventListener("click", () => localStorage.setItem("ihTeacherNotes", qs("teacherNotes").value));
+    qs("clearNotes").addEventListener("click", () => { qs("teacherNotes").value = ""; localStorage.removeItem("ihTeacherNotes"); });
+    qs("teacherNotes").value = localStorage.getItem("ihTeacherNotes") || "";
+
+    renderSpeaking();
+    renderQuiz();
+    renderScore();
+    renderWords();
+    renderWeak();
+    renderMock();
+    renderTimer();
+  </script>
+</body>
+</html>
