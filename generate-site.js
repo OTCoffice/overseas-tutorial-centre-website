@@ -1471,8 +1471,8 @@ function write(route, html) {
 }
 
 const home = pageShell({
-  title: "Overseas Tutorial Centre Ltd (OTC) | UK Education Consulting, Tutoring Apps & Publishing",
-  description: "Official website of Overseas Tutorial Centre Ltd (OTC): UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
+  title: "Overseas Tutorial Centre Ltd (OTC) | 海外督導 | UK Education Consulting",
+  description: "Official website of Overseas Tutorial Centre Ltd (OTC) / 海外督導: UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
   current: "home",
   body: `
     <section class="hero">

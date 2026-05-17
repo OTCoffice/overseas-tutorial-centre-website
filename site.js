@@ -182,7 +182,7 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const structuredData = {
@@ -190,8 +190,8 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
     "@type": "EducationalOrganization",
     name: BRAND_NAME,
     legalName: "Overseas Tutorial Centre Ltd",
-    alternateName: ["Overseas Tutorial Centre (OTC)", "OTC Study Hub", "Overseas Publishing"],
-    description: "Overseas Tutorial Centre Ltd (OTC) is a UK education consulting, international curriculum tutoring, study app and bilingual publishing provider.",
+    alternateName: ["Overseas Tutorial Centre (OTC)", "海外督導", "OTC Study Hub", "Overseas Publishing"],
+    description: "Overseas Tutorial Centre Ltd (OTC) / 海外督導 is a UK education consulting, international curriculum tutoring, study app and bilingual publishing provider.",
     url: SITE_URL,
     email: "office@overseasuk.com",
     telephone: "+447947991572",
