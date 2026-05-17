@@ -179,6 +179,7 @@
       padding: 16px;
     }
 
+    .span-3 { grid-column: span 3; }
     .span-4 { grid-column: span 4; }
     .span-5 { grid-column: span 5; }
     .span-7 { grid-column: span 7; }
@@ -372,15 +373,112 @@
       line-height: 1.4;
     }
 
+    #vocab .card {
+      box-shadow: 0 10px 24px rgba(16, 24, 32, .07);
+    }
+
+    #vocab h3 {
+      font-size: 15px;
+      letter-spacing: .01em;
+    }
+
+    #vocab p {
+      font-size: 12.5px;
+      line-height: 1.42;
+    }
+
+    .vocab-levels {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+
+    .vocab-levels button {
+      padding: 5px 9px;
+      font-size: 11px;
+      background: #fff;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    .vocab-levels button.active {
+      color: var(--ink);
+      border-color: var(--gold);
+      background: #fff8e8;
+    }
+
+    .vocab-test-options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .vocab-test-options button {
+      justify-content: flex-start;
+      min-height: 38px;
+      padding: 8px;
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .vocab-test-options button.correct { border-color: var(--green); background: #edf8f3; }
+    .vocab-test-options button.wrong { border-color: var(--red); background: #fff0eb; }
+
+    .vocab-scoreline {
+      color: var(--muted);
+      font-size: 11.5px;
+      font-weight: 800;
+      margin-top: 8px;
+    }
+
     .word-card {
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 10px;
+      padding: 9px;
       background: #fff;
+    }
+
+    #vocab .word-card {
+      border-radius: 6px;
+      box-shadow: none;
     }
 
     .word-card strong { display: block; font-size: 17px; }
     .word-card span { display: block; color: var(--muted); font-size: 14px; }
+
+    #vocab .word-card strong {
+      font-size: 13px;
+      letter-spacing: .01em;
+      line-height: 1.22;
+    }
+
+    #vocab .word-card span {
+      font-size: 11.5px;
+      line-height: 1.36;
+    }
+
+    #vocab .word-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+      max-height: 520px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .word-meta {
+      color: var(--gold);
+      font-size: 10.5px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
 
     .badge {
       display: inline-flex;
@@ -461,13 +559,14 @@
 
     @media (max-width: 860px) {
       .head-inner { grid-template-columns: 1fr; }
-      .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
+      .span-3, .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
       .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
 
     @media (max-width: 560px) {
       .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       #quizOptions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #vocab .word-list, .vocab-test-options { grid-template-columns: 1fr; }
       main { padding: 12px; }
       .question { font-size: 19px; }
     }
@@ -603,9 +702,22 @@
     <section class="view" id="vocab">
       <div class="grid">
         <article class="card span-5">
-          <h3>Flashcard</h3>
-          <p>Click next to cycle through interview and placement vocabulary. Mark weak words for teacher review.</p>
+          <h3>Levelled vocabulary test</h3>
+          <p>Choose a level, then test recognition of academic, classroom and interview vocabulary. The score is diagnostic only.</p>
+          <div class="vocab-levels" id="vocabLevels"></div>
+          <div class="vocab-scoreline" id="vocabScore">A1 vocabulary · 0/0</div>
+          <div class="answer-frame" style="margin-top:10px">
+            <span class="badge" id="vocabTestBadge">A1</span>
+            <h3 id="vocabPrompt" style="margin-top:8px"></h3>
+            <div class="vocab-test-options" id="vocabOptions"></div>
+            <div class="assessment-note" id="vocabFeedback"></div>
+          </div>
+        </article>
+        <article class="card span-3">
+          <h3>Academic flashcard</h3>
+          <p>Cycle through the current level. Mark weak vocabulary for teacher review.</p>
           <div class="word-card">
+            <div class="word-meta" id="wordMeta"></div>
             <strong id="wordEn"></strong>
             <span id="wordZh"></span>
             <span id="wordTip"></span>
@@ -615,9 +727,9 @@
             <button class="secondary" id="weakWord">Weak word</button>
           </div>
         </article>
-        <article class="card span-7">
-          <h3>Core bilingual word bank</h3>
-          <p>App contains 320 planned bilingual vocabulary slots. The first visible bank below covers the highest-frequency interview words and classroom survival phrases.</p>
+        <article class="card span-4">
+          <h3>Level word bank</h3>
+          <p id="wordBankIntro">Current level bank. Compact bilingual display for scanning and tutor review.</p>
           <div class="word-list" id="wordList"></div>
         </article>
       </div>
@@ -840,32 +952,29 @@
 
     quiz.sort((a, b) => levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level));
 
-    const words = [
-      ["placement test", "分班測試", "A test used to find the right class level."],
-      ["speaking interview", "口語面試", "A short conversation to check spoken English."],
-      ["confidence", "自信", "Use: I want to build my confidence."],
-      ["fluency", "流利度", "Speaking smoothly without too many long pauses."],
-      ["accuracy", "準確度", "Grammar and word choice control."],
-      ["pronunciation", "發音", "Clear sounds and stress."],
-      ["strength", "優勢", "Something you do well."],
-      ["weakness", "弱項", "Something you need to improve."],
-      ["improve", "提高", "Use: I want to improve my speaking."],
-      ["challenge", "挑戰", "Something difficult but useful."],
-      ["goal", "目標", "Use: My main goal is..."],
-      ["routine", "日常安排", "What you usually do."],
-      ["prefer", "更喜歡", "Use: I prefer face-to-face lessons."],
-      ["recommend", "推薦", "Use: I would recommend..."],
-      ["because", "因為", "Give a reason."],
-      ["for example", "例如", "Give evidence or detail."],
-      ["however", "然而", "Show contrast."],
-      ["in my opinion", "在我看來", "Start an opinion carefully."],
-      ["could you repeat", "能否重複", "Polite repair phrase."],
-      ["let me think", "讓我想一下", "Buys thinking time naturally."]
-    ];
+    const vocabBanks = {
+      A1: [
+        ["placement test","分班測試","A short test used to find the right class level.","route"],["speaking interview","口語面談","A short conversation to check spoken English.","route"],["classroom","教室","Use: The classroom is on the second floor.","campus"],["teacher","老師","Use: I can ask the teacher politely.","campus"],["student","學生","Use: I am a student from China.","identity"],["passport","護照","A document used for travel and registration.","travel"],["address","地址","Use: Please write your address clearly.","form"],["number","號碼","Use: My phone number is...","form"],["repeat","重複","Use: Could you repeat that, please?","repair"],["slowly","慢一點","Use: Could you speak slowly?","repair"],["hobby","愛好","Something you enjoy doing in free time.","speaking"],["family","家庭","People related to you.","speaking"],["friend","朋友","A person you know and like.","speaking"],["school","學校","Use: I go to school in Shanghai.","speaking"],["subject","科目","Use: My favourite subject is maths.","speaking"],["breakfast","早餐","Morning meal.","routine"],["usually","通常","Use for routines and habits.","routine"],["today","今天","Use: I have class today.","time"],["tomorrow","明天","Use: The test is tomorrow.","time"],["question","問題","Use: I have a question.","classroom"],["answer","答案","Use: My answer is short.","classroom"],["easy","容易的","Not difficult.","description"],["difficult","困難的","Needs effort or help.","description"],["help","幫助","Use: Could you help me?","repair"]
+      ],
+      A2: [
+        ["routine","日常安排","Things you usually do.","grammar"],["confidence","自信","Use: I want to build my confidence.","speaking"],["fluency","流利度","Speaking smoothly without long pauses.","speaking"],["accuracy","準確度","Grammar and word-choice control.","speaking"],["pronunciation","發音","Clear sounds, stress and intonation.","speaking"],["strength","優勢","Something you can do well.","review"],["weakness","弱項","Something you need to improve.","review"],["improve","提高","Use: I want to improve my speaking.","goal"],["challenge","挑戰","Something difficult but useful.","goal"],["goal","目標","Use: My main goal is fluency.","goal"],["prefer","更喜歡","Use: I prefer group work.","opinion"],["recommend","推薦","Use: I would recommend this app.","opinion"],["because","因為","Give a reason.","linker"],["for example","例如","Give evidence or detail.","linker"],["however","然而","Show contrast.","linker"],["opinion","觀點","Use: In my opinion...","speaking"],["travel","旅行","Use: I will travel to London.","topic"],["journey","旅程","A trip from one place to another.","topic"],["arrive","到達","Use: I will arrive on Monday.","travel"],["activity","活動","A planned task or event.","course"],["group","小組","Use: I work in a group.","classroom"],["partner","搭檔","A person you work with.","classroom"],["example","例子","Use: Let me give an example.","speaking"],["polite","禮貌的","Good and respectful language.","repair"]
+      ],
+      B1: [
+        ["interaction","互動","Communication between people.","interview"],["level fit","級別匹配","Whether the class level suits the learner.","placement"],["evidence","證據","Information that supports an answer.","academic"],["reason","原因","Why something happens or why you think something.","academic"],["compare","比較","Explain similarities and differences.","academic"],["describe","描述","Say what something is like.","academic"],["explain","解釋","Make the meaning clear with reasons.","academic"],["summarise","總結","Give the main points briefly.","academic"],["confidently","自信地","Use: I can answer confidently.","speaking"],["clearly","清楚地","Use: Speak clearly and naturally.","speaking"],["naturally","自然地","Not memorised or robotic.","speaking"],["hesitation","停頓猶豫","A pause while thinking.","speaking"],["strategy","策略","A plan for reaching a goal.","study"],["prepare","準備","Get ready for a task or interview.","study"],["review","複習","Study again to remember better.","study"],["feedback","反饋","Comments that help you improve.","teacher"],["progress","進步","Improvement over time.","study"],["suitable","合適的","Right for a person or situation.","placement"],["familiar","熟悉的","Known or easy to recognise.","level"],["unfamiliar","不熟悉的","New or not known.","level"],["detail","細節","Extra information that supports an answer.","speaking"],["context","語境","The situation around a word or idea.","academic"],["meaning","含義","What a word or idea means.","vocabulary"],["repair phrase","修復短語","A phrase used when communication breaks down.","repair"]
+      ],
+      "B1+": [
+        ["evaluate","評估","Judge strengths, limits or usefulness.","academic"],["analyse","分析","Break an idea into parts and explain how they work.","academic"],["justify","證明合理性","Give reasons for a choice or opinion.","academic"],["perspective","角度","A way of seeing or thinking about something.","academic"],["limitation","限制","A weakness or boundary of an idea.","academic"],["alternative","替代方案","Another possible choice.","academic"],["contrast","對比","Show differences between ideas.","academic"],["therefore","因此","Introduce a result or conclusion.","linker"],["although","雖然","Introduce contrast or concession.","linker"],["whereas","然而/相比之下","Contrast two facts or groups.","linker"],["despite","儘管","Show contrast before a noun or -ing form.","linker"],["indirect question","間接問句","A polite question with normal word order.","grammar"],["statement order","陳述句語序","Subject before verb in indirect questions.","grammar"],["criterion","標準","A standard used to judge performance.","assessment"],["diagnostic","診斷性的","Used to find strengths and weaknesses.","assessment"],["placement outcome","分班結果","The class level assigned after checking ability.","placement"],["register","語體","How formal or informal language sounds.","language"],["appropriate","恰當的","Suitable for the context.","language"],["precise","精準的","Exact and clear, not vague.","language"],["expand","擴展","Add more detail to an answer.","speaking"],["clarify","澄清","Make something clearer.","repair"],["respond","回應","Answer or react to a question.","speaking"],["coherent","連貫的","Easy to follow and logically connected.","academic"],["independently","獨立地","Without too much support.","level"]
+      ],
+      B2: [
+        ["nuance","細微差別","A small but important difference in meaning.","academic"],["implication","含義/影響","A possible meaning or consequence.","academic"],["assumption","假設","Something accepted as true without full proof.","academic"],["hypothetical","假設性的","Imagined rather than real.","grammar"],["concession","讓步","Admitting one point while making another.","academic"],["sophisticated","成熟精細的","Developed, subtle or advanced.","language"],["spontaneous","即興自然的","Produced naturally without full planning.","speaking"],["sustain","保持","Continue something over time.","speaking"],["elaborate","詳述","Explain with more detail.","speaking"],["paraphrase","改述","Say the same idea in different words.","repair"],["infer","推斷","Understand something from evidence.","reading"],["interpret","解讀","Explain meaning from context.","academic"],["reflect","反思","Think carefully about experience and learning.","academic"],["counterpoint","反方觀點","A point that challenges another view.","academic"],["relevance","相關性","How closely something connects to the question.","academic"],["consistency","一致性","Being steady and not contradictory.","academic"],["accuracy range","準確度範圍","How reliably grammar and vocabulary are controlled.","assessment"],["interactional control","互動控制","Managing turn-taking and repair in conversation.","assessment"],["lexical range","詞彙廣度","The range of vocabulary a learner can use.","assessment"],["collocation","搭配","Words that naturally go together.","vocabulary"],["idiomatic","地道的","Natural expression used by fluent speakers.","language"],["subtle","微妙的","Not obvious but important.","language"],["prioritise","優先處理","Decide what matters most.","study"],["self-correct","自我修正","Notice and repair your own mistake.","speaking"]
+      ]
+    };
+
+    const words = Object.entries(vocabBanks).flatMap(([level, items]) => items.map((item) => ({ level, en: item[0], zh: item[1], tip: item[2], group: item[3] })));
 
     const PASS_MIN_ATTEMPTS = 8;
     const PASS_RATE = 0.75;
-    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats() };
+    const state = { topic: 0, prompt: 0, quiz: 0, right: 0, total: 0, word: 0, vocabLevel: "A1", vocabRight: 0, vocabTotal: 0, weakPrompts: [], weakWords: [], timer: null, seconds: 120, focusSkill: "", lastQuiz: -1, completedLevels: [], levelStats: createLevelStats() };
 
     function qs(id) { return document.getElementById(id); }
 
@@ -1077,18 +1186,73 @@
     qs("resetQuiz").addEventListener("click", () => { state.quiz = 0; state.right = 0; state.total = 0; state.focusSkill = ""; state.lastQuiz = -1; state.completedLevels = []; state.levelStats = createLevelStats(); renderScore(); renderQuiz(); });
 
     function renderWords() {
-      const word = words[state.word % words.length];
-      qs("wordEn").textContent = word[0];
-      qs("wordZh").textContent = word[1];
-      qs("wordTip").textContent = word[2];
-      qs("wordList").innerHTML = words.map(w => `<div class="word-card"><strong>${w[0]}</strong><span>${w[1]}</span><span>${w[2]}</span></div>`).join("");
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      const word = levelWords[state.word % levelWords.length];
+      qs("wordMeta").textContent = `${word.level} · ${word.group}`;
+      qs("wordEn").textContent = word.en;
+      qs("wordZh").textContent = word.zh;
+      qs("wordTip").textContent = word.tip;
+      qs("wordBankIntro").textContent = `${state.vocabLevel} word bank · ${levelWords.length} compact bilingual items. Total visible bank: ${words.length} items.`;
+      qs("wordList").innerHTML = levelWords.map(w => `<div class="word-card"><div class="word-meta">${w.level} · ${w.group}</div><strong>${w.en}</strong><span>${w.zh}</span><span>${w.tip}</span></div>`).join("");
+      renderVocabLevels();
+      renderVocabTest();
     }
 
     qs("nextWord").addEventListener("click", () => { state.word += 1; renderWords(); });
     qs("weakWord").addEventListener("click", () => {
-      state.weakWords.push(words[state.word % words.length][0]);
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      state.weakWords.push(levelWords[state.word % levelWords.length].en);
       renderWeak();
     });
+
+    function renderVocabLevels() {
+      qs("vocabLevels").innerHTML = levelOrder.map(level => {
+        const count = words.filter(word => word.level === level).length;
+        return `<button class="${state.vocabLevel === level ? "active" : ""}" data-vocab-level="${level}">${level} · ${count}</button>`;
+      }).join("");
+      document.querySelectorAll("[data-vocab-level]").forEach(btn => btn.addEventListener("click", () => {
+        state.vocabLevel = btn.dataset.vocabLevel;
+        state.word = 0;
+        state.vocabRight = 0;
+        state.vocabTotal = 0;
+        renderWords();
+      }));
+    }
+
+    function vocabQuestion() {
+      const levelWords = words.filter(word => word.level === state.vocabLevel);
+      const target = levelWords[state.word % levelWords.length];
+      const distractors = levelWords.filter(word => word.en !== target.en).slice(state.word + 1).concat(levelWords).slice(0, 3);
+      const options = rotatedOptions([target, ...distractors], state.word).slice(0, 4);
+      return { target, options, answer: options.findIndex(word => word.en === target.en) };
+    }
+
+    function renderVocabTest() {
+      const item = vocabQuestion();
+      qs("vocabTestBadge").textContent = `${state.vocabLevel} · vocabulary recognition`;
+      qs("vocabPrompt").textContent = item.target.en;
+      qs("vocabFeedback").textContent = "Choose the closest Chinese meaning. / 選擇最接近的中文含義。";
+      qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
+      qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${word.zh}</button>`).join("");
+      document.querySelectorAll("[data-vocab-option]").forEach(btn => btn.addEventListener("click", () => {
+        const pick = Number(btn.dataset.vocabOption);
+        state.vocabTotal += 1;
+        if (pick === item.answer) {
+          state.vocabRight += 1;
+          btn.classList.add("correct");
+          qs("vocabFeedback").textContent = `Correct / 正確: ${item.target.en} = ${item.target.zh}. ${item.target.tip}`;
+        } else {
+          btn.classList.add("wrong");
+          document.querySelectorAll("[data-vocab-option]")[item.answer].classList.add("correct");
+          state.weakWords.push(item.target.en);
+          qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} = ${item.target.zh}. ${item.target.tip}`;
+        }
+        qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
+        document.querySelectorAll("[data-vocab-option]").forEach(option => option.disabled = true);
+        setTimeout(() => { state.word += 1; renderWords(); }, 900);
+        renderWeak();
+      }));
+    }
 
     function renderWeak() {
       qs("weakPromptList").textContent = state.weakPrompts.length ? state.weakPrompts.join(" | ") : "none yet";
