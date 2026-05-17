@@ -526,6 +526,12 @@
       color: var(--green);
     }
 
+    .level-step.locked {
+      background: #f6f7f8;
+      color: #9aa4aa;
+      border-style: dashed;
+    }
+
     .timer {
       display: flex;
       align-items: center;
@@ -1322,14 +1328,30 @@
 
     function createLevelStats() {
       return levelOrder.reduce((acc, level) => {
-        acc[level] = { right: 0, attempted: 0 };
+        acc[level] = { right: 0, attempted: 0, seen: [] };
         return acc;
       }, {});
     }
 
+    function levelQuestionCount(level) {
+      return quiz.filter(item => item.level === level).length;
+    }
+
+    function levelCompletion(level) {
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      return stats.seen ? stats.seen.length : 0;
+    }
+
+    function levelUnlocked(level) {
+      const index = levelOrder.indexOf(level);
+      if (index <= 0) return true;
+      return levelOrder.slice(0, index).every(previous => levelPassed(previous));
+    }
+
     function levelPassed(level) {
-      const stats = state.levelStats[level] || { right: 0, attempted: 0 };
-      return stats.attempted >= PASS_MIN_ATTEMPTS && stats.right / stats.attempted >= PASS_RATE;
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      const complete = levelCompletion(level) >= levelQuestionCount(level);
+      return complete && stats.attempted > 0 && stats.right / stats.attempted >= PASS_RATE;
     }
 
     function markLevelComplete(level) {
@@ -1345,10 +1367,17 @@
       return quiz.findIndex(item => item.level === level);
     }
 
-    function recordLevelAnswer(level, correct) {
-      const stats = state.levelStats[level] || (state.levelStats[level] = { right: 0, attempted: 0 });
+    function firstUnseenQuestionForLevel(level) {
+      const stats = state.levelStats[level] || { seen: [] };
+      const unseen = quiz.findIndex((item, index) => item.level === level && !stats.seen.includes(index));
+      return unseen >= 0 ? unseen : firstQuestionForLevel(level);
+    }
+
+    function recordLevelAnswer(level, correct, questionIndex) {
+      const stats = state.levelStats[level] || (state.levelStats[level] = { right: 0, attempted: 0, seen: [] });
       stats.attempted += 1;
       if (correct) stats.right += 1;
+      if (!stats.seen.includes(questionIndex)) stats.seen.push(questionIndex);
       if (levelPassed(level)) {
         markLevelComplete(level);
         state.focusSkill = "";
@@ -1356,14 +1385,16 @@
     }
 
     function renderLevelStatus(level) {
-      const stats = state.levelStats[level] || { right: 0, attempted: 0 };
-      const needed = Math.max(PASS_MIN_ATTEMPTS - stats.attempted, 0);
+      const stats = state.levelStats[level] || { right: 0, attempted: 0, seen: [] };
+      const seen = levelCompletion(level);
+      const count = levelQuestionCount(level);
+      const needed = Math.max(count - seen, 0);
       const rate = stats.attempted ? Math.round((stats.right / stats.attempted) * 100) : 0;
       const next = nextLevelAfter(level);
       if (levelPassed(level)) {
-        qs("levelStatus").textContent = next ? `${level} passed (${stats.right}/${stats.attempted}, ${rate}%). Next: ${next}` : `${level} passed (${stats.right}/${stats.attempted}, ${rate}%).`;
+        qs("levelStatus").textContent = next ? `${level} unlocked ${next} (${seen}/${count} completed, ${rate}%).` : `${level} completed (${seen}/${count}, ${rate}%).`;
       } else {
-        qs("levelStatus").textContent = `${level}: ${stats.right}/${stats.attempted} correct · pass at ${PASS_MIN_ATTEMPTS} attempts and ${Math.round(PASS_RATE * 100)}% (${needed} more to check)`;
+        qs("levelStatus").textContent = `${level}: ${seen}/${count} questions seen · ${stats.right}/${stats.attempted} correct · unlock next level at 100% completion and ${Math.round(PASS_RATE * 100)}% accuracy (${needed} unseen)`;
       }
     }
 
@@ -1567,7 +1598,7 @@
         const correct = pick === item.a;
         state.total += 1;
         state.lastQuiz = state.quiz % quiz.length;
-        recordLevelAnswer(item.level, correct);
+        recordLevelAnswer(item.level, correct, state.quiz % quiz.length);
         if (correct) {
           state.right += 1;
           btn.classList.add("correct");
@@ -1592,7 +1623,8 @@
 
     function feedbackHtml(item, correct) {
       const next = nextLevelAfter(item.level);
-      const matched = levelPassed(item.level) ? (next ? `Pass threshold reached. Next question will move to ${next}.` : "Pass threshold reached. This is the top level in this practice set.") : (correct ? "Next question will return to mixed practice." : `Next question will match this weak point: ${item.skill}.`);
+      const completeText = `${levelCompletion(item.level)}/${levelQuestionCount(item.level)} ${item.level} questions seen`;
+      const matched = levelPassed(item.level) ? (next ? `${item.level} complete. ${next} is now unlocked.` : `${item.level} complete. This is the top level in this practice set.`) : (correct ? `${completeText}. Continue inside ${item.level}; next level is locked until this level is complete.` : `${completeText}. Next question will match this weak point: ${item.skill}.`);
       return `
         <div class="feedback-block">
           <div><strong>${correct ? "Correct" : "Review this point"} / ${correct ? "答對了" : "需要補強"}</strong></div>
@@ -1626,7 +1658,7 @@
       if (sequential < quiz.length) {
         const oldLevel = quiz[current].level;
         const nextLevel = quiz[sequential].level;
-        if (oldLevel !== nextLevel && !levelPassed(oldLevel)) return firstQuestionForLevel(oldLevel);
+        if (oldLevel !== nextLevel && !levelPassed(oldLevel)) return firstUnseenQuestionForLevel(oldLevel);
         if (oldLevel !== nextLevel && !state.completedLevels.includes(oldLevel)) state.completedLevels.push(oldLevel);
         return sequential;
       }
@@ -1639,7 +1671,10 @@
         const count = quiz.filter(item => item.level === level).length;
         const done = state.completedLevels.includes(level) || levelPassed(level) ? " done" : "";
         const active = activeLevel === level ? " active" : "";
-        return `<div class="level-step${done}${active}">${level}<br><span>${count} questions</span></div>`;
+        const locked = levelUnlocked(level) ? "" : " locked";
+        const seen = levelCompletion(level);
+        const label = locked ? "locked" : `${seen}/${count} seen`;
+        return `<div class="level-step${done}${active}${locked}">${level}<br><span>${label}</span></div>`;
       }).join("");
     }
 
