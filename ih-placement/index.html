@@ -437,6 +437,30 @@
       margin-top: 8px;
     }
 
+    .vocab-capacity-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 5px;
+      margin: 9px 0 6px;
+    }
+
+    .vocab-capacity-grid span {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 5px 6px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 10.5px;
+      line-height: 1.15;
+      font-weight: 850;
+    }
+
+    .vocab-capacity-grid span.active {
+      border-color: var(--gold);
+      background: #fff8e8;
+      color: var(--ink);
+    }
+
     .word-card {
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -566,6 +590,7 @@
     @media (max-width: 560px) {
       .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       #quizOptions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .vocab-capacity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       #vocab .word-list, .vocab-test-options { grid-template-columns: 1fr; }
       main { padding: 12px; }
       .question { font-size: 19px; }
@@ -703,7 +728,8 @@
       <div class="grid">
         <article class="card span-5">
           <h3>Levelled vocabulary test</h3>
-          <p>Choose a level, then test recognition of academic, classroom and interview vocabulary. The score is diagnostic only.</p>
+          <p>A CEFR-style vocabulary progression tool. A1 starts at a 1,000-word pathway; higher levels expand toward academic and interview-ready lexical range.</p>
+          <div class="vocab-capacity-grid" id="vocabCapacity"></div>
           <div class="vocab-levels" id="vocabLevels"></div>
           <div class="vocab-scoreline" id="vocabScore">A1 vocabulary · 0/0</div>
           <div class="answer-frame" style="margin-top:10px">
@@ -729,7 +755,7 @@
         </article>
         <article class="card span-4">
           <h3>Level word bank</h3>
-          <p id="wordBankIntro">Current level bank. Compact bilingual display for scanning and tutor review.</p>
+          <p id="wordBankIntro">Current level diagnostic sample. Full pathway size is tracked above.</p>
           <div class="word-list" id="wordList"></div>
         </article>
       </div>
@@ -971,6 +997,7 @@
     };
 
     const words = Object.entries(vocabBanks).flatMap(([level, items]) => items.map((item) => ({ level, en: item[0], zh: item[1], tip: item[2], group: item[3] })));
+    const vocabTargets = { A1: 1000, A2: 2000, B1: 3500, "B1+": 5000, B2: 7000 };
     const vocabDefinitions = {
       classroom: "A room where students learn with a teacher.",
       teacher: "A person who helps students learn.",
@@ -1002,6 +1029,10 @@
 
     function vocabMeaning(word) {
       return vocabDefinitions[word.en] || word.tip.replace(/^Use:\s*/i, "").replace(/\s+/g, " ").trim();
+    }
+
+    function formatVocabTarget(value) {
+      return value >= 1000 ? `${(value / 1000).toFixed(value % 1000 ? 1 : 0)}k` : String(value);
     }
 
     const PASS_MIN_ATTEMPTS = 8;
@@ -1224,8 +1255,9 @@
       qs("wordEn").textContent = word.en;
       qs("wordZh").textContent = word.zh;
       qs("wordTip").textContent = word.tip;
-      qs("wordBankIntro").textContent = `${state.vocabLevel} word bank · ${levelWords.length} compact bilingual items. Total visible bank: ${words.length} items.`;
+      qs("wordBankIntro").textContent = `${state.vocabLevel} pathway target: ${vocabTargets[state.vocabLevel].toLocaleString()} words. Diagnostic sample shown here: ${levelWords.length} items. Total current sample: ${words.length}.`;
       qs("wordList").innerHTML = levelWords.map(w => `<div class="word-card"><div class="word-meta">${w.level} · ${w.group}</div><strong>${w.en}</strong><span>${w.zh}</span><span>${w.tip}</span></div>`).join("");
+      renderVocabCapacity();
       renderVocabLevels();
       renderVocabTest();
     }
@@ -1239,8 +1271,8 @@
 
     function renderVocabLevels() {
       qs("vocabLevels").innerHTML = levelOrder.map(level => {
-        const count = words.filter(word => word.level === level).length;
-        return `<button class="${state.vocabLevel === level ? "active" : ""}" data-vocab-level="${level}">${level} · ${count}</button>`;
+        const sampleCount = words.filter(word => word.level === level).length;
+        return `<button class="${state.vocabLevel === level ? "active" : ""}" data-vocab-level="${level}">${level} · ${formatVocabTarget(vocabTargets[level])} target · ${sampleCount} sample</button>`;
       }).join("");
       document.querySelectorAll("[data-vocab-level]").forEach(btn => btn.addEventListener("click", () => {
         state.vocabLevel = btn.dataset.vocabLevel;
@@ -1249,6 +1281,13 @@
         state.vocabTotal = 0;
         renderWords();
       }));
+    }
+
+    function renderVocabCapacity() {
+      qs("vocabCapacity").innerHTML = levelOrder.map(level => {
+        const active = state.vocabLevel === level ? "active" : "";
+        return `<span class="${active}">${level}<br>${vocabTargets[level].toLocaleString()} words</span>`;
+      }).join("");
     }
 
     function vocabQuestion() {
@@ -1264,7 +1303,7 @@
       qs("vocabTestBadge").textContent = `${state.vocabLevel} · vocabulary recognition`;
       qs("vocabPrompt").textContent = `What is "${item.target.en}"?`;
       qs("vocabFeedback").textContent = "Choose the closest English meaning. Chinese support appears after you answer.";
-      qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
+      qs("vocabScore").textContent = `${state.vocabLevel} vocabulary pathway · ${vocabTargets[state.vocabLevel].toLocaleString()} target · ${state.vocabRight}/${state.vocabTotal} sample correct`;
       qs("vocabOptions").innerHTML = item.options.map((word, index) => `<button data-vocab-option="${index}">${vocabMeaning(word)}</button>`).join("");
       document.querySelectorAll("[data-vocab-option]").forEach(btn => btn.addEventListener("click", () => {
         const pick = Number(btn.dataset.vocabOption);
@@ -1279,7 +1318,7 @@
           state.weakWords.push(item.target.en);
           qs("vocabFeedback").textContent = `Review / 複習: ${item.target.en} means "${vocabMeaning(item.target)}" 中文: ${item.target.zh}.`;
         }
-        qs("vocabScore").textContent = `${state.vocabLevel} vocabulary · ${state.vocabRight}/${state.vocabTotal} correct`;
+        qs("vocabScore").textContent = `${state.vocabLevel} vocabulary pathway · ${vocabTargets[state.vocabLevel].toLocaleString()} target · ${state.vocabRight}/${state.vocabTotal} sample correct`;
         document.querySelectorAll("[data-vocab-option]").forEach(option => option.disabled = true);
         setTimeout(() => { state.word += 1; renderWords(); }, 900);
         renderWeak();
