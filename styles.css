@@ -2807,6 +2807,23 @@ h1 {
   font-weight: 800;
 }
 
+.product-actions {
+  margin-top: 14px;
+}
+
+.product-actions a {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 850;
+  padding: 8px 12px;
+}
+
 .meta {
   color: var(--gold);
   font-size: 11px;

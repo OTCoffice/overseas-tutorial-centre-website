@@ -3,37 +3,43 @@ const products = [
     title: "Principles and Concepts of Strategy",
     unit: "F/650/1150",
     isbn: "978-1-0666440-3-2",
-    desc: "Strategy levels, internal and external analysis, advantage and strategic choice."
+    desc: "Strategy levels, internal and external analysis, advantage and strategic choice.",
+    url: "https://payhip.com/b/Lj2zl"
   },
   {
     title: "The Management of Human Resources",
     unit: "H/650/1151",
     isbn: "978-1-0666440-2-5",
-    desc: "HR planning, recruitment, training, performance and employee relations in bilingual format."
+    desc: "HR planning, recruitment, training, performance and employee relations in bilingual format.",
+    url: "https://payhip.com/b/RKy7i"
   },
   {
     title: "Marketing for Managers",
     unit: "J/650/1152",
     isbn: "978-1-0666440-0-1",
-    desc: "Bilingual companion for marketing concepts, consumer behaviour, marketing functions and evaluation."
+    desc: "Bilingual companion for marketing concepts, consumer behaviour, marketing functions and evaluation.",
+    url: "https://payhip.com/b/J1oEx"
   },
   {
     title: "Business Law for Managers",
     unit: "K/650/1153",
     isbn: "978-1-0666440-1-8",
-    desc: "Contract, employment, governance and business risk explained for management learners."
+    desc: "Contract, employment, governance and business risk explained for management learners.",
+    url: "https://payhip.com/b/H9TaZ"
   },
   {
     title: "Management Accounting and Decision Making",
     unit: "L/650/1154",
     isbn: "978-1-0666440-4-9",
-    desc: "Costing, budgeting, variance analysis and decision tools for business managers."
+    desc: "Costing, budgeting, variance analysis and decision tools for business managers.",
+    url: "https://payhip.com/b/WFhxv"
   },
   {
     title: "Business Start-up: Conception to Market",
     unit: "M/650/1155",
     isbn: "978-1-0666440-5-6",
-    desc: "From startup requirements and support systems to business planning and market entry."
+    desc: "From startup requirements and support systems to business planning and market entry.",
+    url: "https://payhip.com/b/AB0Jr"
   }
 ];
 
@@ -113,7 +119,10 @@ function productCards(limit = products.length) {
         <h3>${p.title}</h3>
         <p>${p.desc}</p>
         <div class="isbn-line">ISBN ${p.isbn}</div>
-        <div class="isbn-line">Second edition under review preparation · not currently sold on Payhip</div>
+        <div class="isbn-line">First-edition single-unit guide · Payhip live</div>
+        <div class="product-actions">
+          <a href="${p.url}" target="_blank" rel="noopener">Buy on Payhip</a>
+        </div>
       </div>
     </article>
   `).join("");
@@ -121,7 +130,7 @@ function productCards(limit = products.length) {
 
 function productShelf(limit = products.length) {
   return products.slice(0, limit).map((p) => `
-    <a class="shelf-book" href="/study-guides/">
+    <a class="shelf-book" href="${p.url}" target="_blank" rel="noopener">
       <span class="shelf-cover">
         <span>OTC</span>
         <strong>${p.title}</strong>
@@ -130,7 +139,7 @@ function productShelf(limit = products.length) {
       <span class="shelf-text">
         <b>${p.unit}</b>
         <strong>${p.title}</strong>
-        <small>ISBN ${p.isbn}</small>
+        <small>ISBN ${p.isbn} · Payhip live</small>
       </span>
     </a>
   `).join("");

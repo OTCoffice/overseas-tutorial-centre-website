@@ -37,6 +37,85 @@ const publishingLines = [
   }
 ];
 
+const internationalCurriculumRoutes = [
+  {
+    code: "AL",
+    title: "A-Level / International A-Level",
+    zh: "A-Level / 國際 A-Level",
+    focus: "Business, Economics, Accounting, Psychology, Sociology, EPQ",
+    pain: "Students often know the concept in Chinese but struggle to write analyse, evaluate and discuss answers in precise academic English.",
+    support: "Bilingual concept explanation, command-word coaching, essay paragraph frames and case-application practice."
+  },
+  {
+    code: "BT",
+    title: "BTEC / Pearson Vocational",
+    zh: "BTEC / Pearson 職業課程",
+    focus: "Business, IT, Creative Media, Hospitality, Health & Social Care",
+    pain: "Learners need help reading assignment briefs, understanding criteria and planning evidence without crossing academic-integrity boundaries.",
+    support: "Assignment-brief breakdown, evidence planning, Pass / Merit / Distinction awareness and academic-writing scaffolding."
+  },
+  {
+    code: "IB",
+    title: "IBDP",
+    zh: "IBDP 國際文憑",
+    focus: "Business Management, Economics, TOK, EE, Psychology, English B",
+    pain: "TOK, EE and IA requirements feel abstract; students need a way to turn rubrics into research questions, structure and evaluation.",
+    support: "Research-question planning, IA / EE structure coaching, case-analysis frames and bilingual rubric interpretation."
+  },
+  {
+    code: "AP",
+    title: "AP",
+    zh: "AP 美國大學先修課程",
+    focus: "Microeconomics, Macroeconomics, Psychology, Statistics, Seminar, Research",
+    pain: "Concept-heavy subjects and FRQ / research writing can become an English-output problem rather than only a knowledge problem.",
+    support: "Bilingual concept review, FRQ writing practice, evidence-based explanation and academic vocabulary coaching."
+  },
+  {
+    code: "IG",
+    title: "GCSE / IGCSE",
+    zh: "GCSE / IGCSE",
+    focus: "ESL, Business Studies, Economics, Accounting, Sciences",
+    pain: "Younger learners are moving from Chinese subject learning into English-medium subjects and need terminology and question-language support.",
+    support: "Starter glossaries, key-term explanation, command-word practice and bilingual subject foundations."
+  },
+  {
+    code: "CA",
+    title: "OSSD / BC / Australian / US High School",
+    zh: "加拿大、澳洲、美高課程",
+    focus: "English, Business, Economics, Social Science, EAL, Research Paper",
+    pain: "Coursework, projects, presentations and rubric-based assessment require steady academic English output across the school year.",
+    support: "Coursework planning, rubric interpretation, presentation English, research-paper structure and study routines."
+  },
+  {
+    code: "FD",
+    title: "Foundation / HND / OTHM / NCC / ATHE",
+    zh: "預科、HND、OTHM、NCC、ATHE",
+    focus: "Business Management, HR, Marketing, Law, Accounting, Study Skills",
+    pain: "Older pathway learners face long English assignments and need structured concept support, not answer writing.",
+    support: "Assignment planning, bilingual terminology, paragraph development, referencing awareness and progress coaching."
+  },
+  {
+    code: "AR",
+    title: "Art, Design, Media and Portfolio Routes",
+    zh: "藝術、設計、媒體與作品集課程",
+    focus: "Art & Design, Media, Music, Portfolio, Artist Statement",
+    pain: "Creative learners need to explain research, process and reflection in convincing academic and portfolio English.",
+    support: "Portfolio writing, artist-statement coaching, research-journal structure and creative-research vocabulary."
+  }
+];
+
+function internationalCurriculumCards(limit = internationalCurriculumRoutes.length) {
+  return internationalCurriculumRoutes.slice(0, limit).map((route) => `
+    <article>
+      <b>${route.code}</b>
+      <strong>${route.title}</strong>
+      <span>${route.zh}</span>
+      <p>${route.focus}</p>
+      <em>${route.support}</em>
+    </article>
+  `).join("");
+}
+
 function publishingLineCards() {
   return publishingLines.map((line) => `
     <a href="/publishing/"><b>${line.code}</b><strong>${line.title}</strong><span>${line.desc}</span></a>
@@ -1279,14 +1358,15 @@ function searchItems() {
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
-    ["Courses", "/courses/", "OTHM qualifications, external programme support, academic tutoring and progression guidance."],
+    ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
+    ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
     ["OTHM Qualifications", "/othm-qualifications/", "Regulated OTHM qualification map, approved/TBC status and level-based enquiry routes."],
     ["External Programme Support", "/external-programme-support/", "OU, BTEC, Pearson, university modules, foundation / pathway and recognised external programme tutoring support."],
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
     ["Apps & Tools", "/apps/", "UCBELT, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
-    ["Publishing", "/publishing/", "Overseas Publishing editorial lines, second-edition review updates and author services."],
-    ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management study companion catalogue; OTHM-related titles temporarily withdrawn from Payhip pending second-edition and logo-sample review."],
+    ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
+    ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
 
@@ -1308,7 +1388,7 @@ function searchItems() {
     type: "Book",
     title,
     url: "/study-guides/",
-    desc: `${unit}. OTHM Level 5 Business Management public bookshop edition. ISBN ${isbn}. OTHM-related Payhip listing temporarily withdrawn pending second-edition review.`
+    desc: `${unit}. OTHM Level 5 Business Management public bookshop edition. ISBN ${isbn}. First-edition single-unit guide live on Payhip.`
   }));
 
   const externalSupport = externalProgrammeRoutes.map((item) => ({
@@ -1318,7 +1398,14 @@ function searchItems() {
     desc: `${item.zh}. ${item.desc} Subjects: ${item.subjects.map((row) => row[0]).join(", ")}. Levels: ${item.levels.join(", ")}.`
   }));
 
-  return [...pages, ...externalSupport, ...qualifications, ...books];
+  const internationalCurriculumSupport = internationalCurriculumRoutes.map((item) => ({
+    type: "International Curriculum Support",
+    title: item.title,
+    url: "/international-curriculum-tutoring/",
+    desc: `${item.zh}. Focus areas: ${item.focus}. Student need: ${item.pain} OTC support: ${item.support}`
+  }));
+
+  return [...pages, ...internationalCurriculumSupport, ...externalSupport, ...qualifications, ...books];
 }
 
 function write(route, html) {
@@ -1339,7 +1426,7 @@ const home = pageShell({
           <p>Overseas Tutorial Centre's structured entrance for education consulting, course support, exam preparation tools and bilingual publishing.</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
-            <a href="/courses/"><strong>Courses</strong><span>OTC course support entrances, qualification pathways and learning plans</span></a>
+            <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tutorial & Apps</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
             <a href="/publishing/"><strong>Publishing</strong><span>Research publishing, study companions, digital products and author services</span></a>
           </div>
@@ -1353,6 +1440,7 @@ const home = pageShell({
           <div class="panel-label">Current Priority</div>
           <div class="hub-map">
             <div class="hub-item"><strong>UCBELT Speaking Preparation</strong><span>10 themed topic sets · 10 full mock sets · 640 bilingual vocabulary items.</span></div>
+            <div class="hub-item"><strong>A-Level / BTEC / IB / AP Bilingual Tutoring</strong><span>International-school support for Chinese EAL learners: concepts, writing, coursework and evaluation.</span></div>
             <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>Six-unit course support and bilingual study companion series.</span></div>
             <div class="hub-item"><strong>Overseas Publishing Catalogue</strong><span>Academic research, bilingual study guides, practical books, apps and self-publishing services.</span></div>
           </div>
@@ -1368,9 +1456,31 @@ const home = pageShell({
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
-        <article><b>02</b><strong>Courses</strong><span>Course support entrances for current and future OTC programmes.</span></article>
+        <article><b>02</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
         <article><b>03</b><strong>Tutorial & Apps</strong><span>Exam preparation tools, speaking practice, self-review and tutor modes.</span></article>
-        <article><b>04</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and second-edition review updates.</span></article>
+        <article><b>04</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
+      </div>
+    </section>
+
+    <section class="band curriculum-overview">
+      <div class="section-head">
+        <div class="eyebrow">International Curriculum Tutoring</div>
+        <h2>Bilingual support for international-school courses.</h2>
+        <p>OTC can support Chinese EAL learners taking A-Level, BTEC, IB, AP and related international curricula by connecting subject understanding with English academic output.</p>
+      </div>
+      <div class="curriculum-layout">
+        <div class="curriculum-map">${internationalCurriculumCards(4)}</div>
+        <aside class="curriculum-panel">
+          <h3>From understanding to output</h3>
+          <p>The focus is not ready-made answers. It is concept explanation, command-word reading, assignment planning, paragraph structure, evidence use and academic phrasing.</p>
+          <div class="curriculum-tags">
+            <span>雙語概念輔導</span>
+            <span>Academic Writing</span>
+            <span>Coursework Planning</span>
+            <span>Essay Evaluation</span>
+          </div>
+          <a class="btn btn-dark" href="/international-curriculum-tutoring/">Open Curriculum Support</a>
+        </aside>
       </div>
     </section>
 
@@ -1414,9 +1524,9 @@ const home = pageShell({
         <aside class="series-shelf">
           <div class="shelf-head">
             <div>
-              <div class="eyebrow">Second Edition Review</div>
+              <div class="eyebrow">Payhip Live Series</div>
               <h3>OTHM Level 5 Business Management</h3>
-              <p>6 books · Payhip listings temporarily withdrawn · second-edition and logo samples pending OTHM review</p>
+              <p>Six first-edition single-unit bilingual study companions now available on Payhip</p>
             </div>
             <a href="/study-guides/">View all</a>
           </div>
@@ -1435,11 +1545,11 @@ const publishing = pageShell({
     <section class="band">
       <div class="section-head">
         <h2>Six editorial lines, one public catalogue.</h2>
-        <p>This structure keeps the OTHM-related study guide record transparent while the second-edition review work is underway, and leaves space for research books, life guides, apps, translation projects and self-publishing services.</p>
+        <p>This structure keeps the OTHM-related study guide catalogue transparent while live Payhip releases, research books, life guides, apps, translation projects and self-publishing services sit under one editorial system.</p>
       </div>
       <div class="publishing-categories publishing-categories-wide">${publishingLineCards()}</div>
       <div style="height:28px"></div>
-      <div class="notice">Publishing status update: two Foundation / Pathway titles are now live on Payhip. OTHM Level 5 Business Management first-edition listings remain withdrawn while OTC prepares second-edition samples and logo-use samples for OTHM review. Six first-edition L5BM public bookshop records remain documented with assigned ISBNs and qualification number 610/1527/1.</div>
+      <div class="notice">Publishing status update: the six OTC OTHM Level 5 Business Management first-edition single-unit study companions are now live on Payhip, alongside the Foundation / Pathway study support titles. OTC study companions are independent educational resources and are not official awarding-body publications.</div>
       <div style="height:28px"></div>
       <div class="series-shelf">
         <div class="shelf-head">
@@ -1485,7 +1595,7 @@ const publishing = pageShell({
           <div>
             <div class="eyebrow">Education & Study Companions</div>
             <h3>OTHM Level 5 Business Management</h3>
-            <p>6 books · second-edition review preparation · not currently sold on Payhip</p>
+            <p>Six first-edition single-unit bilingual study companions · Payhip live</p>
           </div>
           <a href="/study-guides/">Full catalogue</a>
         </div>
@@ -1499,9 +1609,9 @@ const guides = pageShell({
   title: "Study Guides | OTC Study Hub",
   current: "publishing",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing</div><h1>Study Guides</h1><p>Independent bilingual study companion records. OTHM-related titles are currently in second-edition review preparation and are not being sold on Payhip.</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing</div><h1>Study Guides</h1><p>Independent bilingual study companions for business-management learners. The six OTC OTHM Level 5 Business Management first-edition single-unit guides are now live on Payhip.</p></div></section>
     <section class="band">
-      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management study companions were completed with assigned ISBNs. OTHM-related Payhip listings have been temporarily withdrawn while OTC prepares second-edition samples and logo-use samples for OTHM review. Publishing compliance: OTC study companions are independent learning resources and do not represent OTHM endorsement unless written permission is obtained.</div>
+      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management single-unit study companions are live on Payhip with assigned ISBN records. Publishing compliance: OTC study companions are independent learning resources and do not represent official OTHM publication status, official assessment documents, model answers or guaranteed-outcome products.</div>
       <div style="height:28px"></div>
       <div class="product-grid">${productCards()}</div>
     </section>
@@ -1512,12 +1622,12 @@ const othm = pageShell({
   title: "OTHM Level 5 Business Management Series | OTC Study Hub",
   current: "othm",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Second Edition Review Preparation</div><h1>OTHM Level 5 Business Management</h1><p>Six independent OTC study companion records supporting adult learners with business concepts, bilingual terminology, study activities and self-checklists. Qualification No. 610/1527/1. OTHM-related listings are temporarily withdrawn from Payhip pending second-edition and logo-sample review.</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Payhip Live Study Companion Series</div><h1>OTHM Level 5 Business Management</h1><p>Six independent OTC first-edition single-unit study companions supporting adult learners with business concepts, bilingual terminology, study activities and self-checklists. Qualification No. 610/1527/1.</p></div></section>
     <section class="band two-col">
       <div>
         <div class="section-head">
           <h2>A structured six-unit learning series.</h2>
-          <p>The series translates teaching experience into learning support while keeping assessment records, learner submissions and official quality forms out of published materials. Current work is focused on second-edition review preparation before any renewed public listing.</p>
+          <p>The series translates teaching experience into learning support while keeping assessment records, learner submissions and official quality forms out of published materials. Each single-unit guide is now listed as an independent Payhip product.</p>
         </div>
         <div class="product-grid two-up">${productCards()}</div>
       </div>
@@ -1616,26 +1726,32 @@ const courses = pageShell({
         <p>OTC has several kinds of learning provision. Some routes relate to approved qualification delivery; others are tutoring, academic support, English preparation or learner-guidance programmes. The public course page therefore uses a two-layer structure.</p>
       </div>
       <div class="course-system-grid">
-        <a class="course-system-entry" href="/othm-qualifications/">
+        <a class="course-system-entry" href="/international-curriculum-tutoring/">
           <b>01</b>
+          <h3>International Curriculum Bilingual Tutoring</h3>
+          <p>A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation and pathway learners who need bilingual subject and academic-writing support.</p>
+          <span>雙語輔導 only. OTC supports understanding, planning and writing skills, not official delivery or assessed-work completion.</span>
+        </a>
+        <a class="course-system-entry" href="/othm-qualifications/">
+          <b>02</b>
           <h3>OTHM Qualifications</h3>
           <p>Regulated qualification delivery, organised by RQF level and official specification. Delivery only where OTC has current approval, staffing, resources and cohort arrangements.</p>
           <span>Approved / current / TBC status must be checked before enrolment.</span>
         </a>
         <a class="course-system-entry" href="/external-programme-support/">
-          <b>02</b>
+          <b>03</b>
           <h3>External Programme Support</h3>
           <p>OU, BTEC, Pearson, university module, foundation / pathway and other recognised external-programme support.</p>
           <span>Academic tutoring only. Learners remain registered with their own awarding body, university, college or course provider.</span>
         </a>
         <a class="course-system-entry" href="/academic-tutoring/">
-          <b>03</b>
+          <b>04</b>
           <h3>Academic Tutoring</h3>
           <p>Structured support in writing, business, management, research skills, academic English, study skills and progression preparation.</p>
           <span>Focused on independent learning, not assignment completion or model answers.</span>
         </a>
         <a class="course-system-entry" href="/guidance-progression/">
-          <b>04</b>
+          <b>05</b>
           <h3>Guidance & Progression</h3>
           <p>Study-route planning, top-up route review, academic profile organisation and ongoing learner guidance packages.</p>
           <span>Planning support only; not guaranteed admission, visa, credit-transfer or placement service.</span>
@@ -1645,6 +1761,66 @@ const courses = pageShell({
 
     <section class="band compact-band">
       <div class="notice">This page is a course-system gateway. Select one of the four entrances above to open the relevant subpage. Availability depends on approval status, current staff expertise, learner demand, resources, cohort opening and applicable awarding-body requirements.</div>
+    </section>
+  `
+});
+
+const internationalCurriculumTutoring = pageShell({
+  title: "International Curriculum Bilingual Tutoring | OTC Study Hub",
+  current: "courses",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">International Curriculum Tutoring</div><h1>A-Level, BTEC, IB and AP bilingual tutoring</h1><p>雙語輔導 for Chinese EAL learners in international schools, international departments and pathway programmes who need to move from subject understanding to confident English academic output.</p></div></section>
+    <section class="band">
+      ${translateEntry()}
+      <div style="height:18px"></div>
+      <div class="section-head">
+        <h2>Course support is grouped by curriculum type and learning pain point.</h2>
+        <p>This service line sits between Courses, Academic Tutoring and Overseas Publishing. Tutoring helps students understand concepts, plan coursework, read rubrics, build academic vocabulary and practise responsible written output. It is not official school delivery, official examination training, model-answer sale or assignment completion.</p>
+      </div>
+      <div class="curriculum-map curriculum-map-wide">${internationalCurriculumCards()}</div>
+      <div style="height:28px"></div>
+      <div class="curriculum-support-grid">
+        <article>
+          <strong>Subject concept tutoring</strong>
+          <span>學科概念雙語講解</span>
+          <p>Business, economics, accounting, psychology, social science and foundation subjects explained in bilingual language students can actually use.</p>
+        </article>
+        <article>
+          <strong>Essay and exam-response coaching</strong>
+          <span>英文答題與論文段落輔導</span>
+          <p>Command words, paragraph logic, analysis, evaluation, comparison, evidence use and concise academic phrasing.</p>
+        </article>
+        <article>
+          <strong>Assignment and coursework planning</strong>
+          <span>作業與 coursework 規劃</span>
+          <p>Brief breakdown, rubric interpretation, evidence planning, research-question design and weekly progress structure.</p>
+        </article>
+        <article>
+          <strong>Glossary and writing toolkit support</strong>
+          <span>雙語詞彙與寫作工具箱</span>
+          <p>Course-linked academic vocabulary, phrase banks, evaluation verbs and bilingual study companion resources from Overseas Publishing.</p>
+        </article>
+      </div>
+      <div style="height:24px"></div>
+      <div class="support-mini-grid">
+        <aside class="support-note">
+          <h3>Best-fit learners</h3>
+          <ol>
+            <li>Chinese international-school students moving from bilingual learning into English-medium assessment.</li>
+            <li>BTEC, IB and coursework-heavy learners who need planning and writing structure.</li>
+            <li>A-Level, IGCSE and AP students who understand concepts but underperform in English output.</li>
+          </ol>
+        </aside>
+        <aside class="support-note boundary">
+          <h3>Academic boundary</h3>
+          <p>OTC can explain, coach, review requirements and discuss structure. OTC cannot write assessed work, provide ready-made submission answers, guarantee grades or present itself as an official awarding-body service.</p>
+        </aside>
+        <aside class="support-note contact">
+          <h3>Enquiry</h3>
+          <p>Send the curriculum, subject, school year, current topic, assignment brief or exam paper type, deadline and support goal.</p>
+          <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=International%20Curriculum%20Bilingual%20Tutoring%20Enquiry">Request Support</a>
+        </aside>
+      </div>
     </section>
   `
 });
@@ -1886,6 +2062,12 @@ const academicTutoring = pageShell({
         <p>These tutoring routes help learners understand concepts, plan work, improve academic communication and build sustainable study habits. They do not provide model answers or complete assessed work.</p>
       </div>
       <div class="support-table support-table-detail">
+        <article>
+          <strong>International Curriculum Bilingual Tutoring</strong>
+          <span>A-Level / BTEC / IB / AP 雙語輔導</span>
+          <p>Subject concepts, command words, coursework planning and academic English support for international-school learners.</p>
+          <div class="support-card-actions"><a href="/international-curriculum-tutoring/">Open route</a><a href="mailto:office@overseasuk.com?subject=International%20Curriculum%20Bilingual%20Tutoring%20Enquiry">Enquire</a></div>
+        </article>
         <article>
           <strong>Academic Writing Coaching</strong>
           <span>學術寫作輔導</span>
@@ -2550,6 +2732,7 @@ const lmsReview = pageShell({
           <a href="#feedback">Tutor Feedback</a>
           <a href="#progress">Progress Tracking</a>
           <a href="#support">Support & Policies</a>
+          <a href="/lms-review/wang-zhuoying-summer-2026/">Wang Zhuoying summer guide</a>
         </nav>
         <div class="lms-reviewer-card">
           <span>Review account</span>
@@ -2701,10 +2884,200 @@ const lmsReview = pageShell({
   `
 });
 
+const wangZhuoyingSummerGuide = pageShell({
+  title: "Wang Zhuoying Summer 2026 Guide | OTC LMS",
+  current: "",
+  body: `
+    <section class="family-guide-hero">
+      <div class="family-guide-inner">
+        <div>
+          <div class="eyebrow">OTC LMS · Family Route Marker</div>
+          <h1>Wang Zhuoying 2026 Summer</h1>
+          <p>最重要的是顺序：先 IH 英语课，再 InvestIN 艺术设计。下面这张路线图就是给家人看的第一眼指路标。</p>
+          <div class="family-guide-actions">
+            <a class="btn btn-primary" href="#summary">核心信息表</a>
+            <a class="btn btn-secondary" href="#details">课程详情</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="family-guide">
+      <section id="summary" class="guide-section guide-summary-section">
+        <div class="guide-summary-head">
+          <div>
+            <div class="eyebrow">一眼看懂</div>
+            <h2>最重要顺序</h2>
+          </div>
+          <strong>学生：Wang Zhuoying</strong>
+        </div>
+        <div class="route-chart" aria-label="Programme order chart">
+          <article class="route-stop">
+            <span class="route-number">1</span>
+            <h3>IH 英语课</h3>
+            <p>General English · Ref ST-403311</p>
+            <dl class="route-stop-facts">
+              <div><dt>时间</dt><dd>13-24 July 2026</dd></div>
+              <div><dt>机构</dt><dd>IH London</dd></div>
+              <div><dt>地址</dt><dd>16 Stukeley Street, London WC2B 5LQ</dd></div>
+              <div><dt>联系人</dt><dd>Marcin Gwiazda<br>info@ihlondon.com</dd></div>
+            </dl>
+          </article>
+          <div class="route-arrow" aria-hidden="true">
+            <span></span>
+          </div>
+          <article class="route-stop route-stop-accent">
+            <span class="route-number">2</span>
+            <h3>InvestIN 艺术设计</h3>
+            <p>The Young Art & Design Summer Experience</p>
+            <dl class="route-stop-facts">
+              <div><dt>时间</dt><dd>27 July - 7 August 2026</dd></div>
+              <div><dt>机构</dt><dd>InvestIN Education</dd></div>
+              <div><dt>地址</dt><dd>Dukes House, 58 Buckingham Gate</dd></div>
+              <div><dt>联系人</dt><dd>Student Admissions Team<br>info@investin.org</dd></div>
+            </dl>
+          </article>
+        </div>
+        <div class="document-links" aria-label="Drive document links">
+          <a class="document-link-card" href="https://docs.google.com/document/d/1cgy_y1EkjKRZj2dLLsugEofNN-Gov9dXJSW8oJt-Xsc/edit?usp=drivesdk" target="_blank" rel="noopener">
+            <span class="doc-tag">IH 文件</span>
+            <strong>GE Confirmation Letter</strong>
+            <em>ST-403311 · 13-24 July 2026</em>
+          </a>
+          <a class="document-link-card" href="https://docs.google.com/document/d/11KoJsRH4oRKBcU1ffQQaXVEgtnVQCq-pH159RBjXcUk/edit?usp=drivesdk" target="_blank" rel="noopener">
+            <span class="doc-tag">InvestIN 文件</span>
+            <strong>Course Acceptance / VISA Support Letter</strong>
+            <em>27 July - 7 August 2026</em>
+          </a>
+        </div>
+      </section>
+
+      <section id="details" class="guide-section compact-details">
+        <div class="section-head compact-head">
+          <div class="eyebrow">展开详情</div>
+          <h2>两段课程分别做什么</h2>
+        </div>
+        <article class="compact-programme">
+          <div class="programme-date">13 Jul - 24 Jul</div>
+          <div>
+            <h3>IH London · General English</h3>
+            <p>英语学习课程。邮件附件名显示 Visa Letter (Visitor) Payment Received 13 Jul 26 to 24 Jul 26 和 GE Confirmation Letter 13 Jul 26 to 24 Jul 26。</p>
+            <div class="mini-facts">
+              <span>目的：适应伦敦 + 提升英语</span>
+              <span>地点：Covent Garden 附近</span>
+              <span>Reference: ST-403311</span>
+            </div>
+          </div>
+        </article>
+        <article class="compact-programme">
+          <div class="programme-date">27 Jul - 7 Aug</div>
+          <div>
+            <h3>InvestIN · Young Art & Design Summer Experience</h3>
+            <p>艺术与设计职业体验项目。InvestIN VISA Support Letter 写明课程日期为 27 July 2026 - 7 August 2026，地址为 Dukes House, 58 Buckingham Gate, London SW1E 6AJ。住宿/接待期按 Notion 住宿确认信到 10 August 2026。</p>
+            <div class="mini-facts">
+              <span>内容：职业模拟 / 作品集 / 参访</span>
+              <span>地点：Dukes House, 58 Buckingham Gate</span>
+              <span>联系：info@investin.org</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="guide-section compare-section">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Contacts</div>
+          <h2>人物 / 联络人对照表</h2>
+          <p>先找对应角色，再看应该联系谁。住宿/监护信息统一放在页面末尾。</p>
+        </div>
+        <div class="contact-compare-table" role="table" aria-label="People and contact comparison">
+          <div class="compare-row compare-head" role="row">
+            <span>角色</span><span>姓名 / 机构</span><span>电邮 / 电话</span><span>地址 / 备注</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>学生</span><span><strong>Wang Zhuoying</strong><em>英文文件也写作 Zhuoying Wang</em></span><span>学生邮箱：见转发邮件收件人</span><span>两段课程学生本人</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>OTC 协调</span><span><strong>Maria Xiao / Overseas Office</strong></span><span>office@overseasuk.com<br>+44 20 7935 3623<br>WhatsApp +44 7947 991572</span><span>转发确认信、签证信，协调日期；OTC 地址 207 Regent Street, London W1B 3HH</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>IH London</span><span><strong>Marcin Gwiazda</strong><em>Customer Experience Executive</em></span><span>info@ihlondon.com<br>+44 (0) 20 7611 2400</span><span>16 Stukeley Street, Covent Garden, London WC2B 5LQ</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>IH Asia 跟进</span><span><strong>Jo Chang</strong></span><span>jo.chang@ihlondon.com</span><span>OTC 催确认日期邮件中提到：如需 Asia team 处理，可转给 Jo Chang</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>InvestIN</span><span><strong>InvestIN Student Admissions Team</strong></span><span>info@investin.org<br>+44 (0) 203 488 5089</span><span>InvestIN Education, 58 Buckingham Gate, London SW1E 6AJ</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section compare-section">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Activities</div>
+          <h2>活动安排对比表</h2>
+        </div>
+        <div class="activity-compare-table" role="table" aria-label="IH and InvestIN activity comparison">
+          <div class="compare-row compare-head" role="row">
+            <span>项目</span><span>IH London 英语课</span><span>InvestIN 艺术设计夏令营</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>时间</span><span>13 July - 24 July 2026</span><span>课程 27 July - 7 August 2026；住宿/接待到 10 August 2026</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>每天做什么</span><span>General English，通常周一至周五上课；具体课时强度以 GE Confirmation Letter 为准。</span><span>艺术设计职业模拟、专业人士指导、作品集练习、画廊或行业地点参访、结业展示。</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>重点</span><span>适应伦敦、提高英语、熟悉独立上课节奏。</span><span>了解艺术设计职业路径，准备作品集思路，体验行业项目。</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span>家人怎么理解</span><span>第一段：英语课。</span><span>第二段：艺术设计职业体验夏令营。</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section check-panel">
+        <div>
+          <div class="eyebrow">Before Travel</div>
+          <h2>最后核对清单</h2>
+          <p>两份邮件附件已整理成 Drive 文件入口。PDF 原件仍在 Gmail 附件中，Drive 文件用于家人快速阅读。</p>
+        </div>
+        <ol>
+          <li>IH GE Confirmation Letter：English 25，13 July - 24 July 2026，Reference ST-403311。</li>
+          <li>InvestIN VISA Support Letter：课程 27 July - 7 August 2026；住宿/接待另按 Notion 信到 10 August 2026。</li>
+          <li>住宿/监护信息已按 Notion 住宿确认信写入：魏湘宜，Vauxhall 地址，电话和电邮。</li>
+          <li>给签证代办时仍应转发原始邮件和 PDF 原附件；给家人看网页和 Drive 文件即可。</li>
+        </ol>
+      </section>
+
+      <section class="guide-section accommodation-panel">
+        <div>
+          <div class="eyebrow">Accommodation</div>
+          <h2>住宿 / 监护</h2>
+        </div>
+        <div class="accommodation-card">
+          <strong>魏湘宜 Wei Xiangyi</strong>
+          <span>表姐 / 住宿及生活照顾</span>
+          <span>13 July - 10 August 2026</span>
+          <span>Flat 802D, 5 Miles Street, Vauxhall</span>
+          <span>+44 7352 186806</span>
+          <span>lisawei2023@gmail.com</span>
+        </div>
+      </section>
+
+      <section class="guide-section source-panel">
+        <h2>信息来源</h2>
+        <p>Gmail: InvestIN registration email, InvestIN VISA Support Letter emails, IH London enrolment email REF ST-403311, OTC follow-up email about revised IH dates.</p>
+        <p>Official web cross-check: InvestIN Young Art & Design Summer Experience page and IH London General English / contact pages checked on 16 May 2026.</p>
+      </section>
+    </main>
+  `
+});
+
 write(".", home);
 write("publishing", publishing);
 write("study-guides", guides);
 write("courses", courses);
+write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
 write("external-programme-support", externalProgrammeSupport);
 externalProgrammeRoutes.forEach((route) => {
@@ -2721,6 +3094,7 @@ write("consultation-chat", consultationChat);
 write("search", search);
 write("about", about);
 write("lms-review", lmsReview);
+write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
 
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   cleanUrls: true,
@@ -2755,6 +3129,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /search/
 - /about/
 - /lms-review/
+- /lms-review/wang-zhuoying-summer-2026/
 
 ## Build
 
