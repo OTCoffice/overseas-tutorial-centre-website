@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTC Study Hub AI Helper | Controlled Study Assistant</title>
+  <meta name="description" content="Controlled OTC Study Hub AI Helper for bounded study-support questions, course guidance and bilingual learning support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .ai-shell {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .ai-panel {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 14px 34px rgba(6, 26, 47, 0.08);
+      overflow: hidden;
+    }
+
+    .ai-toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #fbf8f2;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .ai-status {
+      color: var(--teal);
+      font-weight: 800;
+    }
+
+    .chat-log {
+      min-height: 420px;
+      max-height: 540px;
+      overflow: auto;
+      padding: 14px;
+      display: grid;
+      align-content: start;
+      gap: 10px;
+      background: #fff;
+    }
+
+    .message {
+      width: min(760px, 92%);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 15px;
+      line-height: 1.48;
+      white-space: pre-wrap;
+    }
+
+    .message.user {
+      justify-self: end;
+      background: #102d4b;
+      color: #fff;
+      border-color: #102d4b;
+    }
+
+    .message.assistant {
+      justify-self: start;
+      background: #f7f9f8;
+      color: var(--ink);
+      border-left: 4px solid var(--teal);
+    }
+
+    .ai-form {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      padding: 12px;
+      border-top: 1px solid var(--line);
+      background: #fbf8f2;
+    }
+
+    .ai-form textarea {
+      width: 100%;
+      min-height: 82px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font: inherit;
+      line-height: 1.4;
+    }
+
+    .ai-form button {
+      align-self: end;
+      min-width: 112px;
+    }
+
+    .helper-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px;
+      box-shadow: 0 10px 24px rgba(6, 26, 47, 0.07);
+    }
+
+    .helper-card + .helper-card {
+      margin-top: 10px;
+    }
+
+    .helper-card h3 {
+      font-size: 16px;
+      line-height: 1.2;
+      margin: 0 0 8px;
+    }
+
+    .helper-card p,
+    .helper-card li {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.42;
+    }
+
+    .helper-card ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .quick-prompts {
+      display: grid;
+      gap: 7px;
+    }
+
+    .quick-prompts button {
+      justify-content: flex-start;
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: none;
+      text-align: left;
+      font-size: 13px;
+      padding: 8px 9px;
+    }
+
+    @media (max-width: 900px) {
+      .ai-shell {
+        grid-template-columns: 1fr;
+      }
+
+      .ai-form {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">
+          <span class="brand-mark"><span></span></span>
+          <span>Overseas Tutorial Centre (OTC)<small>OTC Study Hub · Overseas Publishing</small></span>
+        </a>
+        <div class="nav-links">
+          <a href="/resources/">Consulting</a>
+          <a href="/courses/">Courses</a>
+          <a href="/apps/" aria-current="page">Tutorial & Apps</a>
+          <a href="/publishing/">Publishing</a>
+          <a href="/about/">About OTC</a>
+          <a href="/search/">Search</a>
+          <a href="/zh/">中文</a>
+          <a class="nav-cta" href="/publishing/">Publishing Updates</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="page-hero">
+      <div class="band">
+        <div class="eyebrow">Controlled AI Study Support</div>
+        <h1>OTC Study Hub AI Helper</h1>
+        <p>A bounded study assistant for OTC learners. It supports course navigation, vocabulary, placement preparation and study planning, with daily use limits and academic-integrity guardrails.</p>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="ai-shell">
+        <section class="ai-panel" aria-label="OTC AI Helper chat">
+          <div class="ai-toolbar">
+            <span>Study-support mode · not a model-answer service</span>
+            <span class="ai-status" id="limitStatus">20 daily questions</span>
+          </div>
+          <div class="chat-log" id="chatLog">
+            <div class="message assistant">Hello. I can help with OTC courses, IH placement practice, BTEC / A Level / IB planning, OTHM study guides and academic English.
+
+你好。我可以協助 OTC 課程、IH 分班練習、BTEC / A Level / IB 規劃、OTHM 教輔與學術英語問題。</div>
+          </div>
+          <form class="ai-form" id="aiForm">
+            <textarea id="userMessage" maxlength="1200" placeholder="Ask a focused study question... / 輸入一個具體學習問題"></textarea>
+            <button class="btn btn-primary" id="sendBtn" type="submit">Ask</button>
+          </form>
+        </section>
+
+        <aside>
+          <article class="helper-card">
+            <h3>Use limit</h3>
+            <p>This page is intentionally not a full-site open chatbot. Browser-side limit: 20 questions per day. Server-side limit can also be set with <strong>STUDY_HELPER_DAILY_LIMIT</strong>.</p>
+          </article>
+          <article class="helper-card">
+            <h3>Good questions</h3>
+            <div class="quick-prompts">
+              <button type="button" data-prompt="Give me a 7-day plan for IH placement speaking practice.">IH 7-day speaking plan</button>
+              <button type="button" data-prompt="Explain BTEC Higher Nationals HNC/HND progression in simple Chinese and English.">BTEC HNC/HND progression</button>
+              <button type="button" data-prompt="Help me understand the difference between A Level, BTEC and IB for undergraduate applications.">A Level / BTEC / IB comparison</button>
+              <button type="button" data-prompt="Create a short bilingual glossary for academic writing: evidence, evaluate, compare, limitation.">Academic writing glossary</button>
+            </div>
+          </article>
+          <article class="helper-card">
+            <h3>Boundaries</h3>
+            <ul>
+              <li>No guaranteed admissions, visa or placement outcomes.</li>
+              <li>No official test papers or awarding-body claims.</li>
+              <li>No completed assignment or model-answer writing.</li>
+              <li>For paid advice, contact OTC staff.</li>
+            </ul>
+          </article>
+        </aside>
+      </div>
+      <div style="height:18px"></div>
+      <p class="notice">AI responses may be incomplete or incorrect. Use this as a study-support tool only and check important decisions with OTC staff or the relevant institution.</p>
+    </section>
+  
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-col footer-about">
+          <strong>OTC Study Hub</strong>
+          <p>Digital learning and publishing platform of Overseas Tutorial Centre, Overseas Publishing House and Overseas education services.</p>
+          <p>Education consulting · tutorial support · bilingual publishing · research projects · digital learning tools.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Compliance Note</strong>
+          <p>OTC publications and tools are independent educational resources unless expressly stated otherwise.</p>
+          <p>References to qualifications, tests or institutions are contextual only; no endorsement is implied without written permission.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Academic Integrity</strong>
+          <p>Resources support understanding, vocabulary, research planning and responsible academic preparation.</p>
+          <p>They are not model answers, official assessment documents or evidence of learner achievement.</p>
+        </div>
+        <div class="footer-col footer-contact">
+          <strong>Contact & Imprint</strong>
+          <p>Overseas Tutorial Centre (OTC)<br>3/F Overseas Education, 207 Regent Street, London W1B 3HH</p>
+          <p>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: overseasus<br>Website: <a href="https://www.overseasuk.com">https://www.overseasuk.com</a></p>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 Overseas Tutorial Centre (OTC). All rights reserved.</span>
+        <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
+      </div>
+    </footer>
+
+  <script>
+    const DAILY_LIMIT = 20;
+    const storageKey = `otc-ai-helper-${new Date().toISOString().slice(0, 10)}`;
+    const chatLog = document.getElementById("chatLog");
+    const form = document.getElementById("aiForm");
+    const input = document.getElementById("userMessage");
+    const sendBtn = document.getElementById("sendBtn");
+    const limitStatus = document.getElementById("limitStatus");
+    const messages = [];
+
+    function localCount() {
+      return Number(localStorage.getItem(storageKey) || 0);
+    }
+
+    function setLocalCount(value) {
+      localStorage.setItem(storageKey, String(value));
+      renderLimit();
+    }
+
+    function renderLimit(serverRemaining) {
+      const localRemaining = Math.max(DAILY_LIMIT - localCount(), 0);
+      const remaining = Number.isFinite(serverRemaining) ? Math.min(localRemaining, serverRemaining) : localRemaining;
+      limitStatus.textContent = `${remaining}/${DAILY_LIMIT} questions left today`;
+      sendBtn.disabled = remaining <= 0;
+    }
+
+    function addMessage(role, text) {
+      const node = document.createElement("div");
+      node.className = `message ${role}`;
+      node.textContent = text;
+      chatLog.appendChild(node);
+      chatLog.scrollTop = chatLog.scrollHeight;
+    }
+
+    async function askHelper(text) {
+      if (localCount() >= DAILY_LIMIT) {
+        addMessage("assistant", "Daily browser limit reached. Please come back tomorrow or contact OTC staff.");
+        renderLimit(0);
+        return;
+      }
+      messages.push({ role: "user", content: text });
+      addMessage("user", text);
+      input.value = "";
+      sendBtn.disabled = true;
+      sendBtn.textContent = "Thinking...";
+
+      try {
+        const response = await fetch("/api/study-helper", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ messages: messages.slice(-8) })
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error || "AI Helper is not available.");
+        messages.push({ role: "assistant", content: data.text });
+        setLocalCount(localCount() + 1);
+        renderLimit(data.remaining);
+        addMessage("assistant", data.text);
+      } catch (error) {
+        addMessage("assistant", `${error.message}\n\nIf the site owner has not configured an API key yet, this helper will stay in standby mode.`);
+      } finally {
+        sendBtn.textContent = "Ask";
+        renderLimit();
+      }
+    }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const text = input.value.trim();
+      if (text) askHelper(text);
+    });
+
+    document.querySelectorAll("[data-prompt]").forEach((button) => {
+      button.addEventListener("click", () => {
+        input.value = button.dataset.prompt;
+        input.focus();
+      });
+    });
+
+    renderLimit();
+  </script>
+</body>
+</html>
