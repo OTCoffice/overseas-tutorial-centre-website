@@ -300,11 +300,18 @@
       font-variant-numeric: tabular-nums;
     }
 
+    #quizOptions {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin: 12px 0 8px;
+    }
+
     .quiz-option {
-      display: block;
       width: 100%;
-      text-align: left;
-      margin: 8px 0;
+      min-height: 42px;
+      text-align: center;
+      margin: 0;
       background: #fff;
       color: var(--ink);
       border: 1px solid var(--line);
@@ -312,6 +319,14 @@
 
     .quiz-option.correct { border-color: var(--green); background: #edf8f3; }
     .quiz-option.wrong { border-color: var(--red); background: #fff0eb; }
+    #quizFeedback:empty { display: none; }
+
+    .assessment-note {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
 
     .word-card {
       border: 1px solid var(--line);
@@ -393,6 +408,7 @@
 
     @media (max-width: 560px) {
       .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #quizOptions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       main { padding: 12px; }
       .question { font-size: 19px; }
     }
@@ -482,8 +498,8 @@
           <div class="level-ladder" id="levelLadder"></div>
           <span class="badge" id="quizLevel">A1-B2</span>
           <h3 id="quizPrompt">Question</h3>
-          <p class="zh" id="quizZh"></p>
           <div id="quizOptions"></div>
+          <p class="assessment-note" id="quizZh"></p>
           <div id="quizFeedback" class="answer-frame"></div>
           <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
             <button id="nextQuiz">Next question</button>
@@ -750,7 +766,7 @@
       const levelPosition = levelItems.findIndex(q => q.q === item.q) + 1;
       qs("quizLevel").textContent = `${item.level} · ${levelPosition}/${levelItems.length} · ${item.skill}`;
       qs("quizPrompt").textContent = item.q;
-      qs("quizZh").textContent = item.zh;
+      qs("quizZh").textContent = `Assessment point / 考核點: ${item.skill} · ${item.zh}`;
       qs("quizFeedback").innerHTML = "";
       qs("focusSkill").textContent = state.focusSkill || "general rotation";
       renderLevelLadder(item.level);
