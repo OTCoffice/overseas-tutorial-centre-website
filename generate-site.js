@@ -475,12 +475,7 @@ function externalRouteCards() {
 }
 
 function translateEntry() {
-  return `
-    <div class="translate-entry">
-      <button type="button" data-language-help>中文 / Translate</button>
-      <span>Use browser translation for full-page Chinese. Google Translate proxy may alter layout.</span>
-    </div>
-  `;
+  return "";
 }
 
 function externalProgrammeMatrix(route) {
@@ -1352,7 +1347,7 @@ function searchItems() {
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
-    ["中文入口", "/zh/", "OTC Study Hub 中文入口：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
+    ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
     ["BTEC Level 3 University Progression", "/international-curriculum-tutoring/btec-pearson/university-progression/", "Official-source based BTEC Level 3 and BTEC International Level 3 university recognition map, Pearson recognition examples, UCAS tariff guidance and course-entry checking."],
@@ -1822,13 +1817,13 @@ const internationalCurriculumTutoring = pageShell({
 });
 
 const chineseEntrance = pageShell({
-  title: "中文入口 | OTC Study Hub",
+  title: "中文 | OTC Study Hub",
   current: "zh",
   body: `
     <section class="page-hero zh-hero">
       <div class="band">
-        <div class="eyebrow">Chinese Entrance</div>
-        <h1>OTC Study Hub 中文入口</h1>
+        <div class="eyebrow">中文</div>
+        <h1>OTC Study Hub 中文</h1>
         <p>面向中國學生、家長、國際學校與合作機構的中文導覽頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 學術支援、海外書局教輔出版與數字學習工具。</p>
         <div class="actions">
           <a class="btn btn-primary" href="/international-curriculum-tutoring/">國際課程雙語輔導</a>

@@ -25,8 +25,7 @@
           <a href="/publishing/" >Publishing</a>
           <a href="/about/" >About OTC</a>
           <a href="/search/" >Search</a>
-          <a href="/zh/" >中文入口</a>
-          <button class="nav-translate" type="button" data-language-help>中文 / Translate</button>
+          <a href="/zh/" >中文</a>
           <a class="nav-cta" href="/publishing/">Publishing Updates</a>
         </div>
       </nav>
@@ -2567,28 +2566,5 @@
       </div>
     </footer>
   
-  <script>
-    document.querySelectorAll("[data-language-help]").forEach((button) => {
-      button.addEventListener("click", () => {
-        let panel = document.querySelector("[data-language-panel]");
-        if (!panel) {
-          panel = document.createElement("aside");
-          panel.className = "language-panel";
-          panel.setAttribute("data-language-panel", "");
-          panel.innerHTML = `
-            <button type="button" class="language-panel-close" data-language-close>×</button>
-            <strong>中文閱讀 / Translation</strong>
-            <p>為保持網站排版，OTC 不再自動跳轉到 Google Translate 代理頁。代理翻譯會重寫頁面結構，可能導致排版與原版不一致。</p>
-            <p>建議使用瀏覽器內置 Translate 功能，或保留英文原頁並查看頁面中的中文提示。若需要全文機翻，可手動使用 Google Translate，但版面可能變化。</p>
-            <a href="/zh/">Open Chinese entrance</a>
-            <a href="https://translate.google.com/translate?sl=auto&tl=zh-CN&u=${encodeURIComponent(window.location.href)}" target="_blank" rel="noopener">Open Google Translate version</a>
-          `;
-          document.body.appendChild(panel);
-          panel.querySelector("[data-language-close]").addEventListener("click", () => panel.classList.remove("is-open"));
-        }
-        panel.classList.toggle("is-open");
-      });
-    });
-  </script>
 </body>
 </html>
