@@ -185,7 +185,7 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
@@ -227,8 +227,11 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta property="og:description" content="${description}">
   <meta property="og:url" content="${canonicalUrl}">
   ${socialImageUrl ? `<meta property="og:image" content="${socialImageUrl}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="675">` : ""}
+  <meta property="og:image:secure_url" content="${socialImageUrl}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="${imageWidth}">
+  <meta property="og:image:height" content="${imageHeight}">
+  <meta property="og:image:alt" content="${imageAlt || title}">` : ""}
   <meta name="twitter:card" content="${socialImageUrl ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
