@@ -1400,6 +1400,7 @@ function searchItems() {
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
     ["University Applications", "/university-applications/", "UK university applications, advanced entry, UCAS/direct application planning, document checks and application screening."],
+    ["Study Group 2026 Applications", "/study-group-2026-applications/", "OTC application support for selected Study Group pathway, direct-entry and international routes for July-December 2026 intakes."],
     ["Application Service Standards", "/application-service-standards/", "OTC student application standards for consent, data protection, document authenticity, academic integrity and admissions boundaries."],
     ["Advanced Entry & China Programme Support", "/advanced-entry-china-programmes/", "Support for CFAU/IBP and similar Chinese university international programme students seeking UK Year 2, top-up or advanced-entry review."],
     ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
@@ -2340,6 +2341,7 @@ const home = pageShell({
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
             <a href="/university-applications/"><strong>Applications</strong><span>UK university applications, advanced entry, UCAS/direct and document planning</span></a>
+            <a href="/study-group-2026-applications/"><strong>Study Group 2026</strong><span>July-December pathway and direct-entry application window</span></a>
             <a href="/services/"><strong>Services</strong><span>Translation, publishing, guardianship, academic events and institutional support</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
@@ -2348,6 +2350,7 @@ const home = pageShell({
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/university-applications/">UK Applications</a>
+            <a class="btn btn-secondary" href="/study-group-2026-applications/">Study Group 2026</a>
             <a class="btn btn-secondary" href="/university-partnerships/">University Cooperation</a>
             <a class="btn btn-secondary" href="/application-service-standards/">Service Standards</a>
           </div>
@@ -2357,6 +2360,7 @@ const home = pageShell({
           <div class="hub-map">
             <div class="hub-item"><strong>UCBELT Speaking Preparation</strong><span>10 themed topic sets · 10 full mock sets · 640 bilingual vocabulary items.</span></div>
             <div class="hub-item"><strong>UK University Applications</strong><span>Undergraduate, postgraduate, advanced-entry and China programme document-pack support.</span></div>
+            <div class="hub-item"><strong>Study Group 2026 Intake Window</strong><span>Selected UK, Europe and North America pathway and direct-entry routes for July-December 2026.</span></div>
             <div class="hub-item"><strong>A-Level / BTEC / IB / AP Bilingual Tutoring</strong><span>International-school support for Chinese EAL learners: concepts, writing, coursework and evaluation.</span></div>
             <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>Six-unit course support and bilingual study companion series.</span></div>
           </div>
@@ -2879,6 +2883,14 @@ const universityApplications = pageShell({
         <article><strong>Postgraduate</strong><span>Course shortlist, document checklist and PS/CV planning.</span></article>
         <article><strong>Institutional</strong><span>Admissions enquiry records and partner-ready workflow.</span></article>
       </div>
+      <div class="studygroup-promo-strip">
+        <div>
+          <span>2026 intake window</span>
+          <strong>Study Group pathway and direct-entry applications</strong>
+          <p>OTC is screening selected UK, Europe and North America routes for July-December 2026 intakes, including foundation, International Year One, pre-master and direct-entry options.</p>
+        </div>
+        <a class="btn btn-dark" href="/study-group-2026-applications/">Open Study Group routes</a>
+      </div>
     </section>
 
     <section class="band">
@@ -3036,6 +3048,54 @@ const universityApplications = pageShell({
             fit: "General route for applicants who have completed university-level study in China or another jurisdiction and need the receiving university to assess level, subject fit and evidence quality.",
             action: "Check transcript, credits, grading scale, course descriptions, English evidence, references and official advanced-entry instructions",
             url: "https://www.ucas.com/undergraduate"
+          },
+          {
+            id: "study-group-uk-eu-isc-2026",
+            country: "United Kingdom",
+            institution: "Study Group UK/EU International Study Centres",
+            school: "Pathway admissions",
+            programme: "IFY / IY1 / IY2 / Pre-Master application screening",
+            level: "Foundation and pathway route",
+            band: "Priority 2026 intake window",
+            fit: "Suitable for students targeting July-December 2026 pathway entry who need course matching, document checks and fast confirmation planning.",
+            action: "Screen academic profile, English level, target subject, intake availability and document readiness before submission",
+            url: "https://www.studygroup.com/"
+          },
+          {
+            id: "study-group-huddersfield-london-da-2026",
+            country: "United Kingdom",
+            institution: "University of Huddersfield London",
+            school: "Direct admissions route",
+            programme: "UG / PG Direct Entry application screening",
+            level: "Direct entry route",
+            band: "Priority 2026 intake window",
+            fit: "Useful for students who may be ready for a direct-entry option and need a focused transcript, English and course-fit review.",
+            action: "Check programme level, previous study, English evidence, CV and intake deadline before direct-entry application",
+            url: "https://www.hud.ac.uk/london/"
+          },
+          {
+            id: "study-group-royal-holloway-da-2026",
+            country: "United Kingdom",
+            institution: "Royal Holloway, University of London",
+            school: "Direct admissions route",
+            programme: "UG / PG / PhD Direct Entry application screening",
+            level: "Direct entry route",
+            band: "Priority 2026 intake window",
+            fit: "For students considering Royal Holloway direct entry and needing an organised eligibility review before application.",
+            action: "Prepare course shortlist, transcript evidence, English evidence, CV/research notes where relevant and admissions questions",
+            url: "https://www.royalholloway.ac.uk/"
+          },
+          {
+            id: "study-group-north-america-2026",
+            country: "United States",
+            institution: "Study Group North America",
+            school: "US pathway and direct-entry admissions",
+            programme: "US ISC and UG / PG Direct application screening",
+            level: "Pathway and direct-entry route",
+            band: "Priority 2026 intake window",
+            fit: "Alternative route for students comparing UK and North America options for 2026 entry.",
+            action: "Compare destination fit, academic level, English score, progression route and document timing",
+            url: "https://www.studygroup.com/"
           },
           {
             id: "lse-msc-media-communications",
@@ -3444,6 +3504,98 @@ const universityApplications = pageShell({
         refreshProgrammes();
       })();
     </script>
+  `
+});
+
+const studyGroup2026Applications = pageShell({
+  title: "Study Group 2026 Applications | OTC Study Hub",
+  current: "applications",
+  description: "OTC application support for selected Study Group UK, Europe and North America pathway and direct-entry routes for July-December 2026 intakes.",
+  path: "/study-group-2026-applications/",
+  body: `
+    <section class="page-hero application-hero studygroup-hero"><div class="band"><div class="eyebrow">2026 July-December Intakes</div><h1>Study Group Pathway & Direct-Entry Applications</h1><p>OTC supports students comparing selected Study Group pathway, direct-entry and international routes for 2026 entry.</p><div class="hero-actions"><a class="btn btn-primary" href="#studygroup-route-review">Request route review</a><a class="btn btn-secondary" href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres#otc-apply-form">Open application form</a><a class="btn btn-secondary" href="/application-service-standards/">Service standards</a></div></div></section>
+
+    <main>
+      <section class="band compact-band">
+        <div class="studygroup-window-panel">
+          <div>
+            <span>Recommended timing</span>
+            <strong>Prepare the file before late June or mid July where possible.</strong>
+            <p>Some 2026 routes have short confirmation windows. OTC therefore prioritises transcript checks, English evidence, course matching and admissions follow-up before students lose useful intake options.</p>
+          </div>
+          <div class="studygroup-date-row">
+            <article><b>30 Jun 2026</b><em>Use as an internal check date for direct-entry routes that may close earlier.</em></article>
+            <article><b>15 Jul 2026</b><em>Use as an internal check date for selected pathway and wider route reviews.</em></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Route Coverage</div>
+          <h2>Selected routes OTC can screen for 2026 applicants.</h2>
+          <p>Final availability, entry requirements, fees, scholarships, progression rules and application outcomes must always be confirmed against current provider and university instructions.</p>
+        </div>
+        <div class="studygroup-route-grid">
+          <article>
+            <span>UK / Europe ISC</span>
+            <strong>IFY, International Year One / Two and Pre-Master routes</strong>
+            <p>For students who need a structured pathway before progressing to a university degree.</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres&programme=IFY%20%2F%20IY1%20%2F%20IY2%20%2F%20Pre-Master%20application%20screening#otc-apply-form">Start screening</a>
+          </article>
+          <article>
+            <span>Huddersfield London</span>
+            <strong>UG / PG Direct Entry</strong>
+            <p>For students whose previous study and English profile may support a direct-entry application.</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=University%20of%20Huddersfield%20London#otc-apply-form">Start screening</a>
+          </article>
+          <article>
+            <span>Royal Holloway</span>
+            <strong>UG, PG and PhD Direct Entry</strong>
+            <p>For students considering Royal Holloway and needing a clean eligibility and document review.</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=Royal%20Holloway%2C%20University%20of%20London#otc-apply-form">Start screening</a>
+          </article>
+          <article>
+            <span>North America</span>
+            <strong>US ISC and UG / PG Direct Options</strong>
+            <p>For students comparing UK and North America routes for 2026 entry.</p>
+            <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">Start screening</a>
+          </article>
+          <article>
+            <span>Bellerbys Global</span>
+            <strong>International school and pathway options</strong>
+            <p>For younger learners or families considering an international preparation route.</p>
+            <a href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Bellerbys%20Global%20Route%20Review">Request review</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="band compact-band" id="studygroup-route-review">
+        <div class="studygroup-action-layout">
+          <div>
+            <div class="eyebrow">OTC Application Workflow</div>
+            <h2>What OTC checks before recommending a route.</h2>
+            <ol class="service-steps">
+              <li>Student profile: current school or university, qualification stage, target subject and preferred intake.</li>
+              <li>Academic evidence: transcript, grading scale, course descriptions, diploma or enrolment confirmation where relevant.</li>
+              <li>English readiness: IELTS, TOEFL, PTE, Duolingo or internal English plan where accepted.</li>
+              <li>Route match: foundation, International Year One, pre-master, direct entry or alternative destination.</li>
+              <li>Deadline control: missing-document list, application timeline and confirmation follow-up.</li>
+            </ol>
+          </div>
+          <aside>
+            <strong>Send OTC a route review request</strong>
+            <p>Include current qualification, latest transcript, English score, target subject, preferred destination and whether the student can make a quick confirmation decision.</p>
+            <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Route%20Review&body=Student%20name%3A%0ACurrent%20school%20%2F%20university%3A%0ACurrent%20qualification%3A%0ATarget%20subject%3A%0APreferred%20destination%3A%0ATarget%20intake%3A%0AEnglish%20score%3A%0ATranscript%20status%3A%0ANotes%3A">Email OTC</a>
+            <a class="btn btn-light" href="/university-applications/#otc-apply-form">Use application form</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="notice">This public page is an OTC application-support page. OTC does not guarantee admission, scholarship, visa, accommodation, credit transfer or progression. References to Study Group, universities or centres are route-context information only unless a written agreement or official instruction states otherwise.</div>
+      </section>
+    </main>
   `
 });
 
@@ -5791,6 +5943,7 @@ serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });
 write("university-applications", universityApplications);
+write("study-group-2026-applications", studyGroup2026Applications);
 write("application-service-standards", applicationServiceStandards);
 write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
@@ -5901,6 +6054,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /courses/
 - /services/
 - /university-applications/
+- /study-group-2026-applications/
 - /application-service-standards/
 - /advanced-entry-china-programmes/
 - /university-partnerships/
