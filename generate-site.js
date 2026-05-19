@@ -3531,7 +3531,7 @@ const studyGroup2026Applications = pageShell({
         </div>
       </section>
 
-      <section class="band">
+      <section class="band studygroup-routes-section">
         <div class="section-head compact-head">
           <div class="eyebrow">Route Coverage</div>
           <h2>Selected routes OTC can screen for 2026 applicants.</h2>
@@ -3625,7 +3625,7 @@ const studyGroup2026ApplicationsZh = pageShell({
         </div>
       </section>
 
-      <section class="band">
+      <section class="band studygroup-routes-section">
         <div class="section-head compact-head">
           <div class="eyebrow">路線範圍</div>
           <h2>OTC 可為 2026 申請人初步篩選的路線。</h2>

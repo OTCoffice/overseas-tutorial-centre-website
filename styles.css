@@ -914,6 +914,17 @@ h1 {
   padding-bottom: 44px;
 }
 
+.studygroup-routes-section .section-head {
+  max-width: 700px;
+}
+
+.studygroup-routes-section .section-head h2 {
+  font-family: var(--font-ui);
+  font-size: clamp(24px, 2.4vw, 32px);
+  font-weight: 850;
+  line-height: 1.14;
+}
+
 .studygroup-window-panel,
 .studygroup-action-layout {
   background: #fff;
