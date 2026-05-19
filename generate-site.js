@@ -3595,6 +3595,7 @@ const studyGroup2026Applications = pageShell({
   title: "Study Group 2026 Applications | OTC Study Hub",
   current: "applications",
   description: "OTC application support for selected Study Group UK, Europe and North America pathway and direct-entry routes for July-December 2026 intakes.",
+  image: "/assets/study-group-2026-social-card.png",
   path: "/study-group-2026-applications/",
   body: `
     <section class="page-hero application-hero studygroup-hero"><div class="band"><div class="eyebrow">2026 July-December Intakes</div><h1>Study Group Pathway & Direct-Entry Applications</h1><p>OTC supports students comparing selected Study Group pathway, direct-entry and international routes for 2026 entry.</p><div class="hero-actions"><a class="btn btn-primary" href="#studygroup-route-review">Request route review</a><a class="btn btn-secondary" href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres#otc-apply-form">Open application form</a><a class="btn btn-secondary" href="/application-service-standards/">Service standards</a></div></div></section>
@@ -3709,6 +3710,7 @@ const studyGroup2026ApplicationsZh = pageShell({
   lang: "zh-Hant",
   locale: "zh",
   description: "OTC 中文申請支持頁：Study Group 2026 年 7-12 月入學 pathway、直入與國際路線初步評估。",
+  image: "/assets/study-group-2026-social-card.png",
   path: "/zh/study-group-2026-applications/",
   body: `
     <section class="page-hero application-hero studygroup-hero"><div class="band"><div class="eyebrow">2026 年 7-12 月入學</div><h1>Study Group Pathway 與直入申請</h1><p>OTC 協助學生比較 Study Group 相關 pathway、直入和國際升學路線，並為 2026 年入學準備申請文件。</p><div class="hero-actions"><a class="btn btn-primary" href="#studygroup-route-review">申請路線評估</a><a class="btn btn-secondary" href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres#otc-apply-form">打開申請表</a><a class="btn btn-secondary" href="/application-service-standards/">服務標準</a></div></div></section>
