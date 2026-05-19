@@ -10,6 +10,9 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /courses/
 - /services/
 - /university-applications/
+- /application-service-standards/
+- /advanced-entry-china-programmes/
+- /university-partnerships/
 - /othm-level-5-business-management/
 - /apps/
 - /apps/ucbelt-speaking/

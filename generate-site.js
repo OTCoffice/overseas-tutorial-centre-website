@@ -1399,6 +1399,10 @@ function searchItems() {
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
+    ["University Applications", "/university-applications/", "UK university applications, advanced entry, UCAS/direct application planning, document checks and application screening."],
+    ["Application Service Standards", "/application-service-standards/", "OTC student application standards for consent, data protection, document authenticity, academic integrity and admissions boundaries."],
+    ["Advanced Entry & China Programme Support", "/advanced-entry-china-programmes/", "Support for CFAU/IBP and similar Chinese university international programme students seeking UK Year 2, top-up or advanced-entry review."],
+    ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
     ["Insights", "/insights/", "Education articles, university application notes, pathway explainers and shareable OTC guidance."],
     ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
@@ -1484,7 +1488,8 @@ function write(route, html) {
   const canonicalUrl = new URL(publicPath, SITE_URL).toString();
   const htmlWithCanonical = html
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`)
-    .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`);
+    .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`)
+    .replace(/[ \t]+$/gm, "");
   fs.writeFileSync(path.join(dir, "index.html"), htmlWithCanonical);
   generatedRoutes.push(publicPath);
 }
@@ -1964,17 +1969,17 @@ const serviceProducts = [
     type: "Admissions advisory",
     audience: "Students, families, schools and agencies preparing UK, Australian and international university applications.",
     audienceZh: "面向準備英國、澳洲及國際大學申請的學生、家庭、學校與代理機構。",
-    desc: "Course selection, eligibility review, document planning and application-route management.",
-    descZh: "課程選擇、資格審核、文件規劃與申請路線管理。",
-    shortDesc: "Course screening, eligibility review and application document planning.",
-    cardDesc: "University application advisory for UK, Australia and selected international routes, from initial screening to document planning.",
+    desc: "UK university application advisory, advanced-entry screening, document planning and admissions communication support.",
+    descZh: "英國大學申請顧問、advanced entry 審核、文件規劃與 admissions 溝通支持。",
+    shortDesc: "UK applications, advanced entry, eligibility review and document planning.",
+    cardDesc: "UK university application advisory for undergraduate, postgraduate, UCAS/direct and advanced-entry cases, with document checks, course mapping and admissions communication support.",
     price: "From £300 / case review",
     timeline: "3 days-8 weeks",
     tone: "navy",
-    overview: "A structured advisory service for students who need a realistic application portfolio, document checklist and decision timeline before applying.",
-    process: ["Student profile intake", "Country and programme screening", "Eligibility and document gap review", "Application plan and priority list", "Submission support or referral where needed"],
-    deliverables: ["Application route plan", "Course shortlist", "Document checklist", "Personal statement planning notes"],
-    showcase: ["UK master's portfolio", "Australian university screening file", "UCAS / direct application checklist", "Scholarship document map"],
+    overview: "A structured advisory service for students who need a realistic UK or international application portfolio, a document checklist, a decision timeline and careful admissions-facing communication before applying.",
+    process: ["Student profile intake and consent check", "Country, institution and programme screening", "Transcript, grading-scale and document gap review", "Application plan, priority list and deadline map", "Submission support, admissions enquiry or professional referral where needed"],
+    deliverables: ["Application route plan", "Course shortlist", "Document checklist", "Module / course mapping notes", "Personal statement planning notes"],
+    showcase: ["UK undergraduate advanced-entry file", "CFAU / international programme document pack", "UK master's portfolio", "UCAS / direct application checklist"],
     pricing: ["Initial case review: from £300", "Full application planning: from £850", "Multi-country portfolio: quoted by scope"]
   },
   {
@@ -2086,6 +2091,35 @@ const serviceProducts = [
 
 function serviceDetailPage(service) {
   const list = (items) => items.map((item) => `<li>${item}</li>`).join("");
+  const universityApplicationExtras = service.slug === "university-application-advisory" ? `
+            <section>
+              <div class="eyebrow">UK Admissions Scope</div>
+              <h2>UK application routes covered</h2>
+              <div class="service-detail-grid">
+                <div>Undergraduate UCAS planning</div>
+                <div>Direct applications and enquiries</div>
+                <div>Year 2 / advanced-entry review</div>
+                <div>Postgraduate taught applications</div>
+                <div>Top-up and progression screening</div>
+                <div>Offer-condition follow-up</div>
+              </div>
+            </section>
+            <section>
+              <div class="eyebrow">Document Control</div>
+              <h2>Admissions-facing file preparation</h2>
+              <p>OTC organises student evidence into a clear application file: transcript, grading scale, English evidence, CV, personal statement notes, references, course descriptions, module mapping, document index and admissions questions. Where documents are not in English, OTC checks whether certified translation, original-language copies or institutional confirmation may be required.</p>
+              <p class="source-note">OTC does not falsify documents, inflate academic claims, write assessed work, guarantee offers or provide immigration advice. Final admission, credit, advanced standing and visa decisions remain with the university or relevant authority.</p>
+            </section>
+            <section>
+              <div class="eyebrow">Institutional Links</div>
+              <h2>For university teams and partners</h2>
+              <div class="service-showcase">
+                <article><span>Partner page</span><strong><a href="/university-partnerships/">University Agent & Institutional Cooperation</a></strong></article>
+                <article><span>Standards</span><strong><a href="/application-service-standards/">Application Service Standards</a></strong></article>
+                <article><span>Special route</span><strong><a href="/advanced-entry-china-programmes/">Advanced Entry & China Programme Support</a></strong></article>
+              </div>
+            </section>
+  ` : "";
   return pageShell({
     title: `${service.title} | OTC Services`,
     current: "services",
@@ -2120,6 +2154,7 @@ function serviceDetailPage(service) {
               <h2>Deliverables</h2>
               <div class="service-detail-grid">${service.deliverables.map((item) => `<div>${item}</div>`).join("")}</div>
             </section>
+            ${universityApplicationExtras}
             <section>
               <div class="eyebrow">Portfolio</div>
               <h2>Example finished work</h2>
@@ -2141,10 +2176,10 @@ function serviceDetailPage(service) {
 const services = pageShell({
   title: "Services | OTC Study Hub",
   current: "services",
-  description: "OTC institutional services including premium translation, publishing, academic guardianship, academic events, education fairs and accreditation support.",
+  description: "OTC institutional services including UK university application advisory, premium translation, publishing, academic guardianship, education fairs and accreditation support.",
   path: "/services/",
   body: `
-    <section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC Services</div><h1>Institutional Services</h1><p class="hero-sub">Specialist education, publishing and bilingual advisory services for institutions, academic teams, families and private clients.</p></div></section>
+    <section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC Services</div><h1>Institutional Services</h1><p class="hero-sub">Specialist education, university application, publishing and bilingual advisory services for institutions, academic teams, families and private clients.</p></div></section>
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Service Portfolio</div>
@@ -2152,6 +2187,139 @@ const services = pageShell({
       </div>
       ${serviceCards()}
     </section>
+  `
+});
+
+const applicationServiceStandards = pageShell({
+  title: "Application Service Standards | OTC Study Hub",
+  current: "applications",
+  description: "OTC student application service standards for UK university admissions support, document authenticity, consent, data protection, academic integrity and service boundaries.",
+  path: "/application-service-standards/",
+  body: `
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">Application Standards</div><h1>Student Application Service Standards</h1><p>How OTC manages university application files, student consent, document checks and admissions-facing communication.</p></div></section>
+    <main class="band application-standards">
+      <div class="notice">These standards describe OTC's education coordination and admissions-support process. They do not replace university admissions rules, UCAS rules, UKVI rules, legal advice, immigration advice or the final judgement of any external institution.</div>
+      <div class="standards-grid">
+        <article><b>01</b><h2>Student Consent</h2><p>OTC works from the student's instructions and keeps a clear record of who may receive updates: student, parent, school, agent partner or university contact. Where a university requires the student to submit directly or confirm authorisation, OTC follows that route.</p></article>
+        <article><b>02</b><h2>Document Authenticity</h2><p>Students are asked to provide original or official-source academic documents where available. OTC does not create, alter or endorse false transcripts, certificates, references, English scores, rankings, attendance records or employment evidence.</p></article>
+        <article><b>03</b><h2>Data Protection</h2><p>Application files may contain passports, transcripts, references, scores and family information. OTC limits access to staff or advisers involved in the case, shares documents only for the agreed purpose, and asks clients to avoid sending unnecessary sensitive data.</p></article>
+        <article><b>04</b><h2>Academic Integrity</h2><p>OTC may help students understand requirements, plan personal statements, organise evidence and improve English expression. OTC does not write assessed work, impersonate students, sit tests, complete assignments or misrepresent authorship.</p></article>
+        <article><b>05</b><h2>Admissions Boundaries</h2><p>OTC can provide eligibility screening and application coordination, but cannot guarantee admission, scholarship, credit transfer, advanced standing, visa outcomes, accommodation, professional registration or appeal success.</p></article>
+        <article><b>06</b><h2>Communication Records</h2><p>For complex cases, OTC keeps an internal communication trail covering document requests, admissions questions, deadlines, offer conditions and follow-up actions. This protects the student and gives university teams a cleaner enquiry history.</p></article>
+      </div>
+      <section class="standards-process">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Workflow</div>
+          <h2>Standard application file workflow</h2>
+        </div>
+        <ol class="service-steps">
+          <li>Initial student profile and target-route discussion.</li>
+          <li>Consent, contact route and service-scope confirmation.</li>
+          <li>Document intake: transcript, grading scale, English score, CV, personal statement notes, references and course evidence.</li>
+          <li>Eligibility screening against current university pages and admissions instructions.</li>
+          <li>Document gap list, file naming and application timeline.</li>
+          <li>Application support, direct admissions enquiry, UCAS/direct submission preparation or referral where needed.</li>
+          <li>Offer-condition tracking and next-step planning.</li>
+        </ol>
+      </section>
+      <div class="application-link-strip">
+        <a class="btn btn-dark" href="/university-applications/#otc-apply-form">Start application screening</a>
+        <a class="btn btn-light" href="/advanced-entry-china-programmes/">Advanced entry support</a>
+        <a class="btn btn-light" href="/university-partnerships/">University partnerships</a>
+      </div>
+    </main>
+  `
+});
+
+const advancedEntryChinaProgrammes = pageShell({
+  title: "Advanced Entry & China Programme Support | OTC Study Hub",
+  current: "applications",
+  description: "OTC support for students from Chinese university international programmes seeking UK Year 2, top-up or advanced-entry review, including transcript, module and course-mapping evidence.",
+  path: "/advanced-entry-china-programmes/",
+  body: `
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">Advanced Entry</div><h1>Advanced Entry & China Programme Support</h1><p>Support for students from Chinese university international programmes who need UK Year 2, top-up or advanced-entry review.</p></div></section>
+    <main class="band">
+      <div class="section-head">
+        <h2>Turning a Chinese academic record into a UK admissions-ready file.</h2>
+        <p>Some students have completed one or more years in China, an international undergraduate programme, a pathway route, an HND, OTHM or another external qualification. OTC prepares the evidence layer that helps receiving universities decide whether they can consider direct entry, advanced standing or a suitable alternative route.</p>
+      </div>
+      <div class="advanced-entry-map">
+        <article><span>Student route</span><strong>CFAU / IBP and similar programmes</strong><p>Current university, programme title, year completed, teaching language, modules, credits, marks and intended UK subject are organised before any university enquiry.</p></article>
+        <article><span>Academic evidence</span><strong>Transcript and grading context</strong><p>OTC checks whether the file includes transcript, grading scale, ranking/GPA explanation, course descriptions, teaching schedule and high-school records where useful.</p></article>
+        <article><span>Mapping work</span><strong>Module and subject comparison</strong><p>Modules are grouped by subject area, level, learning focus and relevance to the target UK course. Gaps are flagged rather than hidden.</p></article>
+        <article><span>Admissions use</span><strong>Clean enquiry pack</strong><p>The final pack can support an admissions pre-check, direct-entry enquiry, Year 2 application question or alternative route discussion.</p></article>
+      </div>
+      <section class="standards-process">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Evidence Pack</div>
+          <h2>Typical advanced-entry document pack</h2>
+        </div>
+        <div class="service-detail-grid">
+          <div>Student profile and target course list</div>
+          <div>Official or source transcript</div>
+          <div>English translation or certified-translation route check</div>
+          <div>Course descriptions and module summaries</div>
+          <div>Credit / contact-hour / assessment notes where available</div>
+          <div>High-school academic record if requested</div>
+          <div>English-language evidence</div>
+          <div>Academic reference and CV</div>
+        </div>
+      </section>
+      <div class="notice">Advanced entry is always discretionary. OTC can prepare a strong evidence file and admissions question, but the receiving university decides whether Year 2, top-up, credit recognition, alternative entry or standard Year 1 entry is possible.</div>
+      <div class="application-link-strip">
+        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Advanced%20Entry%20Review%20Enquiry">Request advanced-entry review</a>
+        <a class="btn btn-light" href="/application-service-standards/">Read standards</a>
+      </div>
+    </main>
+  `
+});
+
+const universityPartnerships = pageShell({
+  title: "University Agent & Institutional Cooperation | OTC Study Hub",
+  current: "applications",
+  description: "OTC institutional cooperation page for universities, admissions teams and international offices reviewing OTC as a representative or application-support partner.",
+  path: "/university-partnerships/",
+  body: `
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">Institutional Cooperation</div><h1>University Agent & Institutional Cooperation</h1><p>For university admissions teams, international offices and partner managers reviewing OTC's application-support capability.</p></div></section>
+    <main class="band">
+      <div class="institutional-brief">
+        <div>
+          <div class="eyebrow">OTC Position</div>
+          <h2>UK-based education coordination for Chinese and international students.</h2>
+          <p>Overseas Tutorial Centre Ltd supports students and families with education-route planning, university application preparation, bilingual document organisation, transcript review, course mapping, English-readiness planning and admissions communication. OTC is interested in formal university representative arrangements where the institution's policies, training, data rules and admissions processes can be followed properly.</p>
+          <p>Unless a written institutional agreement says otherwise, references to universities on this website are contextual application information and do not imply endorsement, official partnership or guaranteed admission.</p>
+        </div>
+        <aside>
+          <strong>Overseas Tutorial Centre Ltd</strong>
+          <span>London, United Kingdom</span>
+          <span>Company No. 11060519</span>
+          <span>3/F Overseas Education, 207 Regent Street, London W1B 3HH</span>
+          <a href="mailto:office@overseasuk.com?subject=University%20Representative%20Cooperation">office@overseasuk.com</a>
+        </aside>
+      </div>
+      <div class="standards-grid">
+        <article><b>01</b><h2>Recruitment Support</h2><p>Student enquiry handling, course screening, document checklist preparation, admissions question drafting and offer-condition follow-up.</p></article>
+        <article><b>02</b><h2>China Programme Cases</h2><p>Repeated demand from students in Chinese university international programmes who need UK Year 2, top-up, direct-entry or alternative-route advice.</p></article>
+        <article><b>03</b><h2>Document Discipline</h2><p>Structured student files, version control, transcript translation checks, module mapping and clear distinction between source evidence and adviser notes.</p></article>
+        <article><b>04</b><h2>Compliance Boundary</h2><p>No false documents, no guarantee claims, no immigration advice unless referred to a qualified adviser, and no implication of official university relationship without written permission.</p></article>
+        <article><b>05</b><h2>Operational Follow-up</h2><p>OTC can maintain enquiry logs, deadline reminders, missing-document lists, student/parent communication records and admissions-team follow-up notes.</p></article>
+        <article><b>06</b><h2>Partner Readiness</h2><p>Where approved by a university, OTC can follow agent training, portal requirements, branding rules, data-protection obligations and reporting expectations.</p></article>
+      </div>
+      <section class="standards-process">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Cooperation Request</div>
+          <h2>What OTC would like to discuss with universities</h2>
+        </div>
+        <p>OTC would like to understand the university's official representative process, agent onboarding requirements, territory or student-category rules, training expectations, application portal process, data-protection requirements and whether advanced-entry pre-checks can be handled through a defined channel.</p>
+        <div class="application-link-strip">
+          <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=University%20Representative%20Cooperation">Contact OTC</a>
+          <a class="btn btn-light" href="/assets/OTC_University_Representative_Capability_Statement_2026.pdf" target="_blank" rel="noopener">Download capability PDF</a>
+          <a class="btn btn-light" href="/assets/OTC_University_Representative_Capability_Statement_2026.docx" target="_blank" rel="noopener">Download DOCX</a>
+          <a class="btn btn-light" href="/application-service-standards/">Service standards</a>
+          <a class="btn btn-light" href="/advanced-entry-china-programmes/">Advanced-entry capability</a>
+        </div>
+      </section>
+    </main>
   `
 });
 
@@ -2171,6 +2339,7 @@ const home = pageShell({
           <p>Official OTC website for UK education consulting, international curriculum tutoring, study apps, bilingual study guides and Overseas Publishing resources.</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
+            <a href="/university-applications/"><strong>Applications</strong><span>UK university applications, advanced entry, UCAS/direct and document planning</span></a>
             <a href="/services/"><strong>Services</strong><span>Translation, publishing, guardianship, academic events and institutional support</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
@@ -2178,18 +2347,18 @@ const home = pageShell({
             <a href="/insights/"><strong>Insights</strong><span>Education articles, pathway notes and shareable application explainers</span></a>
           </div>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">Open UCBELT App</a>
-            <a class="btn btn-secondary" href="/courses/">Course Index</a>
-            <a class="btn btn-secondary" href="/publishing/">Publishing Updates</a>
+            <a class="btn btn-primary" href="/university-applications/">UK Applications</a>
+            <a class="btn btn-secondary" href="/university-partnerships/">University Cooperation</a>
+            <a class="btn btn-secondary" href="/application-service-standards/">Service Standards</a>
           </div>
         </div>
         <aside class="hero-panel">
           <div class="panel-label">Current Priority</div>
           <div class="hub-map">
             <div class="hub-item"><strong>UCBELT Speaking Preparation</strong><span>10 themed topic sets · 10 full mock sets · 640 bilingual vocabulary items.</span></div>
+            <div class="hub-item"><strong>UK University Applications</strong><span>Undergraduate, postgraduate, advanced-entry and China programme document-pack support.</span></div>
             <div class="hub-item"><strong>A-Level / BTEC / IB / AP Bilingual Tutoring</strong><span>International-school support for Chinese EAL learners: concepts, writing, coursework and evaluation.</span></div>
             <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>Six-unit course support and bilingual study companion series.</span></div>
-            <div class="hub-item"><strong>Overseas Publishing Catalogue</strong><span>Academic research, bilingual study guides, practical books, apps and self-publishing services.</span></div>
           </div>
         </aside>
       </div>
@@ -2202,12 +2371,12 @@ const home = pageShell({
         <p>Notion remains the operating desk. This site organises the public-facing layers for learners, parents, tutors and customers.</p>
       </div>
       <div class="index-grid">
-        <article><b>01</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
-        <article><b>02</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
-        <article><b>03</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
-        <article><b>04</b><strong>Tools</strong><span>Exam preparation tools, speaking practice, self-review and tutor modes.</span></article>
-        <article><b>05</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
-        <article><b>06</b><strong>Insights</strong><span>Education information articles, application notes and shareable public guidance.</span></article>
+        <article><b>01</b><strong>UK Applications</strong><span>Admissions advisory, document planning, advanced-entry screening and offer-condition follow-up.</span></article>
+        <article><b>02</b><strong>University Cooperation</strong><span>Institutional representative discussions, partner readiness and admissions-team communication.</span></article>
+        <article><b>03</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
+        <article><b>04</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
+        <article><b>05</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
+        <article><b>06</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
       </div>
     </section>
 
@@ -2696,18 +2865,27 @@ const courses = pageShell({
 });
 
 const universityApplications = pageShell({
-  title: "University Applications | OTC Study Hub",
-  current: "courses",
-  description: "OTC university application screening by country, institution, school and programme, starting with University of Edinburgh MSc Marketing.",
+  title: "UK University Applications | OTC Study Hub",
+  current: "applications",
+  description: "OTC UK university application advisory for undergraduate, postgraduate, UCAS/direct and advanced-entry cases, including document checks, course mapping and admissions communication support.",
   path: "/university-applications/",
   body: `
-    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">University Applications</div><h1>Apply through OTC</h1><p>A structured entrance for students who want an initial eligibility review before applying to selected university courses. The first programme record is University of Edinburgh MSc Marketing.</p></div></section>
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">UK University Applications</div><h1>Apply through OTC</h1><p>Admissions advisory for students seeking UK undergraduate, postgraduate, UCAS/direct, advanced-entry and top-up application support.</p><div class="hero-actions"><a class="btn btn-primary" href="#otc-apply-form">Start screening</a><a class="btn btn-secondary" href="/application-service-standards/">Service standards</a><a class="btn btn-secondary" href="/university-partnerships/">University cooperation</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="application-audit-strip">
+        <article><strong>Undergraduate</strong><span>UCAS, direct-entry and course-fit planning.</span></article>
+        <article><strong>Advanced Entry</strong><span>Year 2, top-up and module-mapping evidence.</span></article>
+        <article><strong>Postgraduate</strong><span>Course shortlist, document checklist and PS/CV planning.</span></article>
+        <article><strong>Institutional</strong><span>Admissions enquiry records and partner-ready workflow.</span></article>
+      </div>
+    </section>
 
     <section class="band">
       <div class="section-head compact-head">
-        <div class="eyebrow">Programme Portfolio</div>
-        <h2>Liu Xiaotong case portfolio: media, marketing and communication routes.</h2>
-        <p>This first portfolio turns one live student case into a reusable course database. Australia now includes the full official university list as institution-level review entries, with selected media, communication and marketing courses added as confirmed programme records.</p>
+        <div class="eyebrow">Programme Screening</div>
+        <h2>Country, institution, school and programme-based application review.</h2>
+        <p>OTC starts with the student's evidence, then screens likely routes against official university requirements. The live database currently includes selected UK marketing, media and communication programmes plus wider Australia institution-level screening records. Individual eligibility is always checked against each university's current admissions rules.</p>
       </div>
       <div class="application-layout">
         <aside class="programme-filter-panel" aria-label="Programme filters">
@@ -2725,7 +2903,7 @@ const universityApplications = pageShell({
           </select>
           <label for="programmeFilter">Programme</label>
           <select id="programmeFilter">
-            <option value="edinburgh-msc-marketing">MSc Marketing</option>
+            <option value="cardiff-business-economics-advanced-entry">Cardiff advanced-entry review</option>
           </select>
         </aside>
 
@@ -2755,7 +2933,7 @@ const universityApplications = pageShell({
             <input name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
           </label>
           <label>Current institution
-            <input name="institution" placeholder="e.g. Donghua University" required>
+            <input name="institution" placeholder="e.g. China Foreign Affairs University" required>
           </label>
           <label>Current major
             <input name="major" placeholder="e.g. Public Relations" required>
@@ -2763,9 +2941,12 @@ const universityApplications = pageShell({
           <label>Qualification stage
             <select name="stage" required>
               <option value="">Select</option>
+              <option>Year 1 undergraduate</option>
+              <option>Year 2 undergraduate / advanced-entry case</option>
               <option>Year 3 undergraduate</option>
               <option>Final-year undergraduate</option>
               <option>Graduated bachelor</option>
+              <option>Foundation / HND / OTHM / pathway</option>
               <option>Other pathway / transfer case</option>
             </select>
           </label>
@@ -2784,7 +2965,7 @@ const universityApplications = pageShell({
           </label>
         </div>
         <label>Application notes
-          <textarea name="notes" rows="5" placeholder="Internships, target career, document status, previous refusals, scholarship needs or special circumstances."></textarea>
+          <textarea name="notes" rows="5" placeholder="Target university/course, advanced-entry request, modules completed, document status, internships, previous refusals, scholarship needs or special circumstances."></textarea>
         </label>
         <div class="application-result" id="applicationResult" aria-live="polite">
           Complete the profile to receive an initial OTC review band.
@@ -2798,14 +2979,19 @@ const universityApplications = pageShell({
 
     <section class="band">
       <div class="section-head compact-head">
-        <div class="eyebrow">System Expansion</div>
-        <h2>Next database layers.</h2>
+        <div class="eyebrow">Service Layers</div>
+        <h2>How OTC structures application support.</h2>
       </div>
       <div class="course-system-grid application-system-grid application-system-compact">
         <article><b>01</b><h3>Country</h3><p>UK, Australia, Canada, US, Europe and Asia-Pacific admission routes.</p><span>Different document and timing logic by jurisdiction.</span></article>
         <article><b>02</b><h3>Institution</h3><p>University-level profile, ranking band, admission portal and agent/partner status.</p><span>Official entry requirements stay linked to source pages.</span></article>
         <article><b>03</b><h3>School</h3><p>Business School, Media, Engineering, Education, Computing and other academic units.</p><span>Each school may have different PS, portfolio or reference rules.</span></article>
         <article><b>04</b><h3>Programme</h3><p>Course-level record with requirements, application status, intake, fee and document checklist.</p><span>OTC review can generate a personalised next-step plan.</span></article>
+      </div>
+      <div class="application-link-strip">
+        <a class="btn btn-light" href="/advanced-entry-china-programmes/">Advanced Entry & China Programme Support</a>
+        <a class="btn btn-light" href="/application-service-standards/">Application Service Standards</a>
+        <a class="btn btn-light" href="/services/university-application-advisory/">Advisory service page</a>
       </div>
     </section>
 
@@ -2827,6 +3013,30 @@ const universityApplications = pageShell({
         const targetInstitution = document.getElementById("targetInstitution");
 
         const coreProgrammes = [
+          {
+            id: "cardiff-business-economics-advanced-entry",
+            country: "United Kingdom",
+            institution: "Cardiff University",
+            school: "Cardiff Business School",
+            programme: "Business Economics BSc / Business Management BSc advanced-entry review",
+            level: "Undergraduate advanced-entry enquiry",
+            band: "Eligibility to verify",
+            fit: "Useful for students from China-based international undergraduate programmes who need Year 2 or alternative-entry consideration supported by transcript, module and course-mapping evidence.",
+            action: "Prepare English transcripts, course descriptions, module mapping, academic summary and admissions enquiry questions",
+            url: "https://www.cardiff.ac.uk/study/undergraduate"
+          },
+          {
+            id: "uk-undergraduate-advanced-entry-review",
+            country: "United Kingdom",
+            institution: "UK university to be confirmed",
+            school: "Admissions / academic school review",
+            programme: "Undergraduate Year 2 / advanced-entry screening",
+            level: "Undergraduate advanced-entry enquiry",
+            band: "Case review",
+            fit: "General route for applicants who have completed university-level study in China or another jurisdiction and need the receiving university to assess level, subject fit and evidence quality.",
+            action: "Check transcript, credits, grading scale, course descriptions, English evidence, references and official advanced-entry instructions",
+            url: "https://www.ucas.com/undergraduate"
+          },
           {
             id: "lse-msc-media-communications",
             country: "United Kingdom",
@@ -3012,7 +3222,7 @@ const universityApplications = pageShell({
 
         const programmes = coreProgrammes.concat(australianInstitutionProgrammes);
 
-        let currentProgramme = programmes.find((item) => item.id === "edinburgh-msc-marketing") || programmes[0];
+        let currentProgramme = programmes.find((item) => item.id === "cardiff-business-economics-advanced-entry") || programmes[0];
 
         function buildApplyHref(programme) {
           const params = new URLSearchParams({
@@ -3165,7 +3375,7 @@ const universityApplications = pageShell({
           const text = [data.gpa, data.english, data.stage, data.notes].join(" ").toLowerCase();
           let score = 0;
           if (/3\\.7|3\\.8|3\\.9|4\\.0|85|86|87|88|89|90|91|92|93|94|95/.test(text)) score += 2;
-          if (/final|year 3|graduated/.test(text)) score += 1;
+          if (/final|year 3|year 2|advanced|graduated|pathway|hnd|othm/.test(text)) score += 1;
           if (/ielts\\s*6\\.5|ielts\\s*7|toefl|pte|duolingo/.test(text)) score += 2;
           if (/intern|work|research|project|portfolio|competition|pr|marketing|media/.test(text)) score += 1;
           if (/refusal|gap|fail|low|missing|not sure/.test(text)) score -= 1;
@@ -5581,6 +5791,9 @@ serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });
 write("university-applications", universityApplications);
+write("application-service-standards", applicationServiceStandards);
+write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
+write("university-partnerships", universityPartnerships);
 write("zh", chineseEntrance);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
@@ -5688,6 +5901,9 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /courses/
 - /services/
 - /university-applications/
+- /application-service-standards/
+- /advanced-entry-china-programmes/
+- /university-partnerships/
 - /othm-level-5-business-management/
 - /apps/
 - /apps/ucbelt-speaking/

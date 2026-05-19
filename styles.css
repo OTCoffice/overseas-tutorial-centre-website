@@ -783,6 +783,119 @@ h1 {
   font-size: 16px;
 }
 
+.application-audit-strip,
+.standards-grid,
+.advanced-entry-map {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.application-audit-strip article,
+.standards-grid article,
+.advanced-entry-map article,
+.institutional-brief,
+.institutional-brief aside,
+.standards-process {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(6, 26, 47, 0.05);
+}
+
+.application-audit-strip article,
+.advanced-entry-map article {
+  min-height: 126px;
+  padding: 16px;
+}
+
+.application-audit-strip strong,
+.advanced-entry-map strong,
+.standards-grid h2 {
+  display: block;
+  color: var(--navy);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.application-audit-strip span,
+.advanced-entry-map p,
+.standards-grid p,
+.institutional-brief p,
+.institutional-brief span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.advanced-entry-map span,
+.standards-grid b {
+  display: block;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.standards-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.standards-grid article {
+  padding: 18px;
+}
+
+.standards-grid h2 {
+  font-size: 20px;
+}
+
+.standards-process {
+  margin-top: 22px;
+  padding: 22px;
+}
+
+.application-link-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.institutional-brief {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+  margin-bottom: 22px;
+  padding: 22px;
+}
+
+.institutional-brief h2 {
+  color: var(--navy);
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.12;
+}
+
+.institutional-brief aside {
+  align-self: start;
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+}
+
+.institutional-brief aside strong {
+  color: var(--navy);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.institutional-brief aside a {
+  color: var(--gold);
+  font-weight: 850;
+}
+
 .programme-filter-panel,
 .programme-detail-panel,
 .application-screening-form {
@@ -5942,6 +6055,10 @@ h1 {
   .consulting-hero,
   .curriculum-layout,
   .application-layout,
+  .application-audit-strip,
+  .standards-grid,
+  .advanced-entry-map,
+  .institutional-brief,
   .form-grid,
   .programme-facts {
     grid-template-columns: 1fr;

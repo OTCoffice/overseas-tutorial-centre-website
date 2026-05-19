@@ -61,6 +61,7 @@ function nav(current = "", locale = "en") {
         <div class="nav-links">
           <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>${isZh ? "諮詢" : "Consulting"}</a>
           <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>${isZh ? "服務" : "Services"}</a>
+          <a href="/university-applications/" ${current === "applications" ? 'aria-current="page"' : ""}>${isZh ? "申請" : "Applications"}</a>
           <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>${isZh ? "課程" : "Courses"}</a>
           <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>${isZh ? "工具" : "Tools"}</a>
           <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>${isZh ? "出版" : "Publishing"}</a>
