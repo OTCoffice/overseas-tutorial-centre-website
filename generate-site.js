@@ -3539,30 +3539,35 @@ const studyGroup2026Applications = pageShell({
         </div>
         <div class="studygroup-route-grid">
           <article>
+            <div class="institution-logo logo-studygroup"><b>Study Group</b><em>UK / Europe ISC</em></div>
             <span>UK / Europe ISC</span>
             <strong>IFY, International Year One / Two and Pre-Master routes</strong>
             <p>For students who need a structured pathway before progressing to a university degree.</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres&programme=IFY%20%2F%20IY1%20%2F%20IY2%20%2F%20Pre-Master%20application%20screening#otc-apply-form">Start screening</a>
           </article>
           <article>
+            <div class="institution-logo logo-huddersfield"><b>Huddersfield</b><em>London</em></div>
             <span>Huddersfield London</span>
             <strong>UG / PG Direct Entry</strong>
             <p>For students whose previous study and English profile may support a direct-entry application.</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=University%20of%20Huddersfield%20London#otc-apply-form">Start screening</a>
           </article>
           <article>
+            <div class="institution-logo logo-rhul"><b>Royal Holloway</b><em>University of London</em></div>
             <span>Royal Holloway</span>
             <strong>UG, PG and PhD Direct Entry</strong>
             <p>For students considering Royal Holloway and needing a clean eligibility and document review.</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=Royal%20Holloway%2C%20University%20of%20London#otc-apply-form">Start screening</a>
           </article>
           <article>
+            <div class="institution-logo logo-northamerica"><b>Study Group</b><em>North America</em></div>
             <span>North America</span>
             <strong>US ISC and UG / PG Direct Options</strong>
             <p>For students comparing UK and North America routes for 2026 entry.</p>
             <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">Start screening</a>
           </article>
           <article>
+            <div class="institution-logo logo-bellerbys"><b>Bellerbys</b><em>Global</em></div>
             <span>Bellerbys Global</span>
             <strong>International school and pathway options</strong>
             <p>For younger learners or families considering an international preparation route.</p>
@@ -3633,30 +3638,35 @@ const studyGroup2026ApplicationsZh = pageShell({
         </div>
         <div class="studygroup-route-grid">
           <article>
+            <div class="institution-logo logo-studygroup"><b>Study Group</b><em>UK / Europe ISC</em></div>
             <span>UK / Europe ISC</span>
             <strong>IFY、International Year One / Two 和 Pre-Master 路線</strong>
             <p>適合需要先讀 pathway，再銜接大學學位的學生。</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres&programme=IFY%20%2F%20IY1%20%2F%20IY2%20%2F%20Pre-Master%20application%20screening#otc-apply-form">開始評估</a>
           </article>
           <article>
+            <div class="institution-logo logo-huddersfield"><b>Huddersfield</b><em>London</em></div>
             <span>Huddersfield London</span>
             <strong>本科 / 研究生直入申請</strong>
             <p>適合已有一定學歷和英文基礎，可能符合 direct-entry 要求的學生。</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=University%20of%20Huddersfield%20London#otc-apply-form">開始評估</a>
           </article>
           <article>
+            <div class="institution-logo logo-rhul"><b>Royal Holloway</b><em>University of London</em></div>
             <span>Royal Holloway</span>
             <strong>本科、研究生和博士直入申請</strong>
             <p>適合考慮 Royal Holloway 並需要整理申請資格和文件的學生。</p>
             <a href="/university-applications/?country=United%20Kingdom&institution=Royal%20Holloway%2C%20University%20of%20London#otc-apply-form">開始評估</a>
           </article>
           <article>
+            <div class="institution-logo logo-northamerica"><b>Study Group</b><em>North America</em></div>
             <span>North America</span>
             <strong>美國 ISC 與本科 / 研究生直入選項</strong>
             <p>適合正在比較英國和北美 2026 入學路線的學生。</p>
             <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">開始評估</a>
           </article>
           <article>
+            <div class="institution-logo logo-bellerbys"><b>Bellerbys</b><em>Global</em></div>
             <span>Bellerbys Global</span>
             <strong>國際學校與 pathway 選項</strong>
             <p>適合年齡較小、家庭正在考慮國際預備教育路線的學生。</p>

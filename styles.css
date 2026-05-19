@@ -974,7 +974,7 @@ h1 {
 }
 
 .studygroup-route-grid article {
-  min-height: 270px;
+  min-height: 330px;
   border-right: 1px solid var(--line);
   padding: 18px;
   display: flex;
@@ -994,6 +994,59 @@ h1 {
   color: var(--teal);
   font-size: 13px;
   font-weight: 850;
+}
+
+.institution-logo {
+  min-height: 78px;
+  border: 1px solid #ded3c4;
+  border-radius: 8px;
+  background: #fffdf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+
+.institution-logo b {
+  color: var(--navy);
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.05;
+  margin: 0;
+  text-transform: none;
+}
+
+.institution-logo em {
+  color: #5e6b7a;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+
+.logo-studygroup {
+  border-top: 4px solid #3f7d6b;
+}
+
+.logo-huddersfield {
+  border-top: 4px solid #be9a43;
+}
+
+.logo-rhul {
+  border-top: 4px solid #7a1e35;
+}
+
+.logo-northamerica {
+  border-top: 4px solid #1f4f7a;
+}
+
+.logo-bellerbys {
+  border-top: 4px solid #7a6331;
 }
 
 .studygroup-action-layout aside {
