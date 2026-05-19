@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTHM L5BM Companion App | OTC Study Hub</title>
+  <meta name="description" content="Interactive OTC bilingual study companion app for OTHM Level 5 Business Management teaching-support materials.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #647084;
+      --line: #d8dee8;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --green: #174f45;
+      --gold: #b88a3b;
+      --soft: #f3f6f7;
+      --blue: #14365d;
+      --zh-body: 15px;
+      --zh-note: 14px;
+      --zh-line: 14.5px;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Source Sans 3", Arial, sans-serif; color: var(--ink); background: var(--paper); }
+    a { color: inherit; }
+    .app-shell { min-height: 100vh; display: grid; grid-template-rows: auto 1fr; }
+    .topbar { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 14px 22px; border-bottom: 1px solid var(--line); background: rgba(251,250,247,.96); backdrop-filter: blur(14px); }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 800; color: var(--green); }
+    .brand-mark { width: 34px; height: 34px; border: 1px solid var(--green); display: grid; place-items: center; font-family: "Cormorant Garamond", serif; font-size: 18px; }
+    .brand small { display: block; color: var(--muted); font-weight: 600; font-size: 12px; }
+    .top-actions { display: flex; gap: 10px; align-items: center; }
+    .top-actions a, .top-actions button { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 8px 11px; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+    .top-actions .primary { background: var(--green); color: #fff; border-color: var(--green); }
+    .mode-switch { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+    .mode-switch button { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 7px 8px; font: inherit; font-size: 13px; font-weight: 800; color: var(--green); cursor: pointer; }
+    .mode-switch button.active { background: var(--green); color: #fff; border-color: var(--green); }
+    .workspace { display: grid; grid-template-columns: 330px minmax(0, 1fr) 280px; min-height: 0; }
+    .sidebar { border-right: 1px solid var(--line); background: #fff; padding: 18px; overflow: auto; max-height: calc(100vh - 64px); }
+    .side-title { margin: 0 0 14px; }
+    .side-title span { display: block; color: var(--gold); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; font-weight: 800; }
+    .side-title strong { display: block; font-family: "Cormorant Garamond", serif; font-size: 25px; line-height: 1.05; color: var(--green); margin-top: 4px; }
+    .searchbox { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px 11px; font: inherit; margin-bottom: 10px; }
+    .filters { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 14px; }
+    .filters button, .unit-tabs button { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 7px 8px; font: inherit; font-weight: 800; color: var(--green); cursor: pointer; }
+    .filters button.active, .unit-tabs button.active { background: var(--green); color: #fff; border-color: var(--green); }
+    .unit-tabs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-bottom: 14px; }
+    .nav-list { display: grid; gap: 7px; }
+    .nav-item { width: 100%; text-align: left; border: 1px solid transparent; background: transparent; border-radius: 6px; padding: 9px; cursor: pointer; color: var(--ink); }
+    .nav-item:hover, .nav-item.active { background: var(--soft); border-color: var(--line); }
+    .nav-item span { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; font-weight: 800; }
+    .nav-item strong { display: block; font-size: 14px; line-height: 1.18; margin-top: 2px; }
+    .reader { min-width: 0; overflow: auto; max-height: calc(100vh - 64px); padding: 26px clamp(18px, 4vw, 54px); }
+    .reader-card { max-width: 980px; margin: 0 auto; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: clamp(18px, 3vw, 36px); box-shadow: 0 18px 50px rgba(23,32,51,.06); }
+    .reader-kicker { color: var(--gold); text-transform: uppercase; letter-spacing: .1em; font-size: 12px; font-weight: 900; margin-bottom: 8px; }
+    .reader h1 { font-family: "Cormorant Garamond", serif; font-size: clamp(31px, 4vw, 48px); line-height: 1; color: var(--green); margin: 0 0 12px; letter-spacing: 0; }
+    .reader h2 { color: var(--green); font-size: 21px; line-height: 1.1; margin: 24px 0 10px; border-left: 4px solid var(--gold); padding-left: 10px; }
+    .reader h3 { color: var(--blue); font-size: 17px; margin: 16px 0 8px; }
+    .reader p, .reader li { font-size: 16px; line-height: 1.58; }
+    .reader .subtitle { color: var(--muted); font-weight: 700; margin-top: -4px; }
+    .reader .bilingual { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 14px 0; }
+    .reader .bilingual > div:last-child, .reader .zh-line, .reader .zh-support { color: #42504d; }
+    .reader .bilingual > div:last-child p,
+    .reader .bilingual > div:last-child li,
+    .reader td:lang(zh),
+    .reader [data-zh-text] { font-size: var(--zh-body); line-height: 1.62; font-weight: 400; letter-spacing: 0; }
+    .reader .zh-line { font-size: var(--zh-line); line-height: 1.58; margin: 6px 0 12px; font-weight: 400; letter-spacing: 0; }
+    .reader .zh-support p,
+    .reader .zh-core-companion p { font-size: var(--zh-note); line-height: 1.58; font-weight: 400; letter-spacing: 0; }
+    body[data-lang-mode="english"] .reader .bilingual { grid-template-columns: 1fr; }
+    body[data-lang-mode="english"] .reader .bilingual > div:last-child,
+    body[data-lang-mode="english"] .reader .zh-line,
+    body[data-lang-mode="english"] .reader .zh-support,
+    body[data-lang-mode="english"] .reader .zh-core-companion,
+    body[data-lang-mode="english"] .reader .check-zh { display: none; }
+    body[data-lang-mode="chinese"] .reader .bilingual { grid-template-columns: 1fr; }
+    body[data-lang-mode="chinese"] .reader .bilingual > div:first-child { display: none; }
+    body[data-lang-mode="chinese"] .reader .zh-line,
+    body[data-lang-mode="chinese"] .reader .zh-support,
+    body[data-lang-mode="chinese"] .reader .zh-core-companion { display: block; }
+    body[data-lang-mode="chinese"] .reader .subtitle { color: var(--green); font-size: var(--zh-line); line-height: 1.45; font-weight: 700; }
+    .reader table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    .reader th { background: #f0f4f8; color: var(--green); text-align: left; padding: 9px; border: 1px solid #cbd5e1; }
+    .reader td { border: 1px solid var(--line); vertical-align: top; padding: 9px; }
+    .reader tbody tr:nth-child(even) { background: #f8f9fa; }
+    .reader .notice, .reader .unit-warning, .reader .part-note, .reader .note, .reader .activity, .reader .concept, .reader .academic-insight, .reader .zh-support, .reader .zh-core-companion { border: 1px solid var(--line); border-radius: 6px; padding: 12px; margin: 12px 0; background: #f7f9fc; }
+    .reader .academic-insight { border-color: #d7c397; background: #fbf7ed; }
+    .reader .data-case-block, .reader-card[data-type="case"] { border-left: 4px solid var(--green); }
+    .checklist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin: 14px 0; }
+    .checklist-item { display: grid; grid-template-columns: 18px 1fr; gap: 8px; border: 1px solid var(--line); border-radius: 6px; padding: 10px; }
+    .check-mark { width: 13px; height: 13px; border: 1px solid #8ea19b; margin-top: 5px; }
+    .check-en { margin: 0 0 3px; font-weight: 800; line-height: 1.25; }
+    .check-zh { margin: 0; color: var(--muted); font-size: var(--zh-note); line-height: 1.45; font-weight: 400; letter-spacing: 0; }
+    .tools { border-left: 1px solid var(--line); background: #fff; padding: 18px; overflow: auto; max-height: calc(100vh - 64px); }
+    .tool-card { border: 1px solid var(--line); border-radius: 8px; padding: 13px; margin-bottom: 12px; background: #fff; }
+    .tool-card strong { color: var(--green); display: block; margin-bottom: 6px; }
+    .tool-card p { color: var(--muted); margin: 0; font-size: 14px; line-height: 1.45; }
+    .progress { height: 8px; background: #e8edf1; border-radius: 999px; overflow: hidden; margin-top: 9px; }
+    .progress span { display: block; height: 100%; width: 0%; background: var(--gold); }
+    .empty { color: var(--muted); padding: 18px; border: 1px dashed var(--line); border-radius: 8px; }
+    @media (max-width: 980px) {
+      .workspace { grid-template-columns: 1fr; }
+      .sidebar, .tools, .reader { max-height: none; overflow: visible; }
+      .sidebar, .tools { border: 0; border-bottom: 1px solid var(--line); }
+      .reader .bilingual, .checklist { grid-template-columns: 1fr; }
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .top-actions { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/">
+        <span class="brand-mark">OTC</span>
+        <span>OTC Study Hub<small>Interactive L5BM bilingual companion</small></span>
+      </a>
+      <div class="top-actions">
+        <a href="/apps/">Apps</a>
+        <a href="/othm-level-5-business-management/">Series page</a>
+        <button class="primary" type="button" id="saveProgress">Save progress</button>
+      </div>
+    </header>
+    <main class="workspace">
+      <aside class="sidebar">
+        <h1 class="side-title"><span>Overseas Publishing App</span><strong>Level 5 Business Management Companion</strong></h1>
+        <input class="searchbox" id="searchBox" type="search" placeholder="Search concepts, cases, Chinese terms...">
+        <div class="filters" id="filters"></div>
+        <div class="unit-tabs" id="unitTabs"></div>
+        <div class="nav-list" id="navList"><div class="empty">Loading companion content...</div></div>
+      </aside>
+      <section class="reader" id="reader">
+        <article class="reader-card">
+          <div class="reader-kicker">Loading</div>
+          <h1>Preparing the study companion</h1>
+          <p>The app is loading the full bilingual study-support manuscript into a navigable reader.</p>
+        </article>
+      </section>
+      <aside class="tools">
+        <div class="tool-card">
+          <strong>Bilingual Study Mode</strong>
+          <div class="mode-switch" id="modeSwitch">
+            <button type="button" data-mode="english">English</button>
+            <button type="button" data-mode="bilingual">Bilingual</button>
+            <button type="button" data-mode="chinese">中文提示</button>
+          </div>
+          <p id="modeHint" style="margin-top:10px"></p>
+        </div>
+        <div class="tool-card">
+          <strong>Reader Mode</strong>
+          <p>Use the left menu to jump by unit, chapter, caselet, writing support or glossary. The app replaces forced PDF pagination with controlled reading units.</p>
+        </div>
+        <div class="tool-card">
+          <strong>Progress</strong>
+          <p id="progressText">0 items marked as read.</p>
+          <div class="progress"><span id="progressBar"></span></div>
+        </div>
+        <div class="tool-card">
+          <strong>Compliance Boundary</strong>
+          <p>Independent OTC study-support resource. Not an official OTHM publication, not an assessment brief and not a marking guide.</p>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script>
+    const state = {
+      items: [],
+      filtered: [],
+      activeId: "",
+      filter: "all",
+      unit: "all",
+      mode: localStorage.getItem("otc-l5bm-mode") || "english",
+      read: new Set(JSON.parse(localStorage.getItem("otc-l5bm-read") || "[]"))
+    };
+
+    const categoryLabels = {
+      all: "All",
+      overview: "Overview",
+      chapter: "Chapters",
+      case: "Cases",
+      writing: "Writing",
+      glossary: "Glossary"
+    };
+
+    function classify(title, className) {
+      const text = `${title} ${className}`.toLowerCase();
+      if (text.includes("glossary") || text.includes("terminology") || text.includes("transition word") || text.includes("citation")) return "glossary";
+      if (text.includes("caselet") || text.includes("case") || text.includes("scenario") || text.includes("data application")) return "case";
+      if (text.includes("writing") || text.includes("checklist") || text.includes("practice") || text.includes("expression")) return "writing";
+      if (text.includes("overview") || text.includes("knowledge map") || text.includes("reader guide")) return "overview";
+      return "chapter";
+    }
+
+    function moduleLabel(value) {
+      return value ? `Module ${value}` : "Guide";
+    }
+
+    function replacePartLabels(text) {
+      return String(text).replace(/\bPart\s+([1-6])\b/g, "Module $1");
+    }
+
+    function normaliseModuleLabels(root) {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach((node) => {
+        node.nodeValue = replacePartLabels(node.nodeValue);
+      });
+    }
+
+    function markChineseText(root) {
+      const hasChinese = /[\u3400-\u9fff]/;
+      root.querySelectorAll("p, li, td, th, span, small, strong, b, em").forEach((node) => {
+        if (hasChinese.test(node.textContent || "")) {
+          node.setAttribute("lang", "zh-Hant");
+          node.dataset.zhText = "true";
+        }
+      });
+    }
+
+    function cleanArticle(article) {
+      article.querySelectorAll("style, script, footer, header").forEach((node) => node.remove());
+      normaliseModuleLabels(article);
+      markChineseText(article);
+      return article;
+    }
+
+    function titleWithoutTopic(title, topic) {
+      if (!topic || !title.startsWith(`${topic}: `)) return title;
+      return title.slice(topic.length + 2);
+    }
+
+    function structureTitle(rawTitle, part, chapterState) {
+      const title = replacePartLabels(rawTitle);
+      const moduleNo = part || 0;
+      const modulePrefix = moduleNo ? `Module ${moduleNo}` : "Guide";
+
+      function chapterCode(chapterNo, subNo = null) {
+        return subNo ? `${modulePrefix}.${chapterNo}.${subNo}` : `${modulePrefix}.${chapterNo}`;
+      }
+
+      function nextSub(chapterNo) {
+        const key = `${moduleNo}.${chapterNo}`;
+        chapterState.subCounts[key] = (chapterState.subCounts[key] || 0) + 1;
+        return chapterState.subCounts[key];
+      }
+
+      const chapterMatch = title.match(/^Chapter\s+(\d+):\s*(.+)$/i);
+      if (chapterMatch && moduleNo) {
+        const chapterNo = Number(chapterMatch[1]);
+        chapterState.subCounts[`${moduleNo}.${chapterNo}`] = 0;
+        chapterState[moduleNo] = { no: Number(chapterMatch[1]), topic: chapterMatch[2] };
+        return {
+          title: `${chapterCode(chapterMatch[1])}: ${chapterMatch[2]}`,
+          code: chapterCode(chapterMatch[1])
+        };
+      }
+
+      const caseMatch = title.match(/^Chapter\s+(\d+)\s+Caselet$/i);
+      if (caseMatch && moduleNo) {
+        const code = chapterCode(caseMatch[1], nextSub(caseMatch[1]));
+        return {
+          title: `${code} Case Study`,
+          code
+        };
+      }
+
+      const practiceMatch = title.match(/^Chapter\s+(\d+)\s+Academic Writing Practice$/i);
+      if (practiceMatch && moduleNo) {
+        const code = chapterCode(practiceMatch[1], nextSub(practiceMatch[1]));
+        return {
+          title: `${code} Academic Writing Practice`,
+          code
+        };
+      }
+
+      if (moduleNo && title.startsWith(`${modulePrefix} `)) {
+        return { title: title.slice(modulePrefix.length + 1), code: modulePrefix };
+      }
+
+      if (moduleNo && /^Common Mistakes|Further Reading/.test(title)) {
+        return { title: `${modulePrefix} ${title}`, code: modulePrefix };
+      }
+
+      if (moduleNo && /^Mini-Case Data:/i.test(title)) {
+        return { title: `${modulePrefix} Applied Data Case`, code: `${modulePrefix} Data` };
+      }
+
+      if (moduleNo && /Framework Map|Learning Map|Comparison Matrix/i.test(title)) {
+        return { title: `${modulePrefix} Framework Map`, code: `${modulePrefix} Map` };
+      }
+
+      if (moduleNo && title.includes("Capstone")) {
+        return { title: title.replace(/^Module\s+\d+\s+/, `${modulePrefix} `), code: `${modulePrefix} Capstone` };
+      }
+
+      const current = chapterState[moduleNo];
+      if (moduleNo && current?.topic && title.startsWith(`${current.topic}: `)) {
+        const suffix = titleWithoutTopic(title, current.topic);
+        const labels = {
+          "Critical Development Notes": "Critical Development",
+          "Data Application Case": "Data Application",
+          "Academic Writing and Bilingual Support": "Writing Support",
+          "Extended Applied Scenario": "Applied Scenario",
+          "Comparative Evaluation Framework": "Evaluation Framework"
+        };
+        const code = chapterCode(current.no, nextSub(current.no));
+        return {
+          title: `${code} ${labels[suffix] || suffix}`,
+          code
+        };
+      }
+
+      return { title, code: moduleNo ? modulePrefix : "Guide" };
+    }
+
+    function makeItems(doc) {
+      const nodes = [...doc.querySelectorAll("section.part-opener, article.content-block")];
+      let currentPart = 0;
+      let index = 0;
+      const chapterState = { subCounts: {} };
+      return nodes.map((node) => {
+        const h1 = node.querySelector("h1");
+        if (!h1) return null;
+        const partAttr = node.getAttribute("data-part");
+        if (partAttr) currentPart = Number(partAttr);
+        if (node.classList.contains("part-opener")) {
+          const partText = node.querySelector(".kicker")?.textContent || "";
+          const found = partText.match(/Part\s+(\d+)/i);
+          currentPart = found ? Number(found[1]) : currentPart;
+        }
+        const clone = cleanArticle(node.cloneNode(true));
+        const rawTitle = h1.textContent.trim();
+        const structured = structureTitle(rawTitle, currentPart || 0, chapterState);
+        const title = structured.title;
+        const cloneTitle = clone.querySelector("h1");
+        if (cloneTitle) cloneTitle.textContent = title;
+        const category = node.classList.contains("part-opener") ? "overview" : classify(title, node.className);
+        index += 1;
+        return {
+          id: `item-${index}`,
+          title,
+          code: structured.code,
+          part: currentPart || 0,
+          category,
+          html: clone.innerHTML,
+          text: clone.textContent.replace(/\s+/g, " ").trim()
+        };
+      }).filter(Boolean);
+    }
+
+    function renderFilters() {
+      document.getElementById("filters").innerHTML = Object.entries(categoryLabels).map(([key, label]) =>
+        `<button type="button" class="${state.filter === key ? "active" : ""}" data-filter="${key}">${label}</button>`
+      ).join("");
+      document.getElementById("unitTabs").innerHTML = ["all", 1, 2, 3, 4, 5, 6].map((unit) =>
+        `<button type="button" class="${String(state.unit) === String(unit) ? "active" : ""}" data-unit="${unit}">${unit === "all" ? "All" : unit}</button>`
+      ).join("");
+    }
+
+    function setLanguageMode(mode) {
+      state.mode = mode;
+      localStorage.setItem("otc-l5bm-mode", mode);
+      document.body.dataset.langMode = mode;
+      document.querySelectorAll("[data-mode]").forEach((button) => {
+        button.classList.toggle("active", button.dataset.mode === mode);
+      });
+      const hints = {
+        english: "English academic text is prioritised. Edited Chinese support is hidden but remains available.",
+        bilingual: "English and edited Chinese support are shown together for close study.",
+        chinese: "Chinese notes and bilingual support are prioritised for concept checking."
+      };
+      const hint = document.getElementById("modeHint");
+      if (hint) hint.textContent = hints[mode] || hints.english;
+    }
+
+    function applyFilter() {
+      const query = document.getElementById("searchBox").value.trim().toLowerCase();
+      state.filtered = state.items.filter((item) => {
+        const byFilter = state.filter === "all" || item.category === state.filter;
+        const byUnit = state.unit === "all" || String(item.part) === String(state.unit);
+        const byQuery = !query || item.text.toLowerCase().includes(query) || item.title.toLowerCase().includes(query);
+        return byFilter && byUnit && byQuery;
+      });
+      renderList();
+    }
+
+    function renderList() {
+      const nav = document.getElementById("navList");
+      if (!state.filtered.length) {
+        nav.innerHTML = `<div class="empty">No matching study unit found.</div>`;
+        return;
+      }
+      nav.innerHTML = state.filtered.map((item) => `
+        <button type="button" class="nav-item ${item.id === state.activeId ? "active" : ""}" data-id="${item.id}">
+          <span><em>${item.code || moduleLabel(item.part)}</em><em>${categoryLabels[item.category]}</em></span>
+          <strong>${item.title}</strong>
+        </button>
+      `).join("");
+    }
+
+    function renderReader(id) {
+      const item = state.items.find((entry) => entry.id === id) || state.filtered[0] || state.items[0];
+      if (!item) return;
+      state.activeId = item.id;
+      const readLabel = state.read.has(item.id) ? "Marked as read" : "Mark as read";
+      document.getElementById("reader").innerHTML = `
+        <article class="reader-card" data-type="${item.category}">
+          <div class="reader-kicker">${item.code || (item.part ? moduleLabel(item.part) : "Reader Guide")} · ${categoryLabels[item.category]}</div>
+          ${item.html}
+          <div class="tool-card">
+            <strong>Study action</strong>
+            <p>After reading, summarise the idea in your own words, then write one cautious English academic sentence using evidence and limitation.</p>
+            <div style="height:10px"></div>
+            <button class="primary mark-read" type="button" data-id="${item.id}">${readLabel}</button>
+          </div>
+        </article>
+      `;
+      renderList();
+      updateProgress();
+      document.getElementById("reader").scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function updateProgress() {
+      const count = state.read.size;
+      const total = state.items.length || 1;
+      document.getElementById("progressText").textContent = `${count} of ${total} reading units marked as read.`;
+      document.getElementById("progressBar").style.width = `${Math.round((count / total) * 100)}%`;
+    }
+
+    async function init() {
+      renderFilters();
+      const response = await fetch("./content/l5bm.html");
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      state.items = makeItems(doc);
+      state.filtered = state.items;
+      renderList();
+      renderReader(state.items[0]?.id);
+      setLanguageMode(state.mode);
+      updateProgress();
+    }
+
+    document.addEventListener("click", (event) => {
+      const filter = event.target.closest("[data-filter]");
+      const unit = event.target.closest("[data-unit]");
+      const navItem = event.target.closest("[data-id].nav-item");
+      const markRead = event.target.closest(".mark-read");
+      const mode = event.target.closest("[data-mode]");
+      if (mode) setLanguageMode(mode.dataset.mode);
+      if (filter) {
+        state.filter = filter.dataset.filter;
+        renderFilters();
+        applyFilter();
+        renderReader(state.filtered[0]?.id);
+      }
+      if (unit) {
+        state.unit = unit.dataset.unit;
+        renderFilters();
+        applyFilter();
+        renderReader(state.filtered[0]?.id);
+      }
+      if (navItem) renderReader(navItem.dataset.id);
+      if (markRead) {
+        state.read.add(markRead.dataset.id);
+        localStorage.setItem("otc-l5bm-read", JSON.stringify([...state.read]));
+        renderReader(markRead.dataset.id);
+      }
+    });
+
+    document.getElementById("searchBox").addEventListener("input", () => {
+      applyFilter();
+      renderReader(state.filtered[0]?.id);
+    });
+    document.getElementById("saveProgress").addEventListener("click", () => {
+      localStorage.setItem("otc-l5bm-read", JSON.stringify([...state.read]));
+      updateProgress();
+    });
+
+    init().catch((error) => {
+      document.getElementById("reader").innerHTML = `<article class="reader-card"><h1>Content could not load</h1><p>${error.message}</p></article>`;
+    });
+  </script>
+</body>
+</html>

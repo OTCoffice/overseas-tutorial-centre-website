@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Executive portrait placeholder</title>
+  <desc id="desc">Formal portrait placeholder for the Australia executive director welcome section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f1e7"/>
+      <stop offset="0.55" stop-color="#e5dac8"/>
+      <stop offset="1" stop-color="#c8b58e"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10253c"/>
+      <stop offset="1" stop-color="#07192d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1120" fill="url(#bg)"/>
+  <rect x="58" y="58" width="784" height="1004" fill="none" stroke="#b88a3b" stroke-width="8"/>
+  <circle cx="450" cy="335" r="142" fill="#d8c3a1"/>
+  <path d="M270 765c36-172 95-258 180-258s144 86 180 258v180H270z" fill="url(#suit)"/>
+  <path d="M372 512l78 126 78-126c-21 24-47 36-78 36s-57-12-78-36z" fill="#f8f5ef"/>
+  <path d="M330 945h240" stroke="#b88a3b" stroke-width="6" stroke-linecap="round"/>
+  <text x="450" y="1005" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#071d34" letter-spacing="8">GB</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">OTC Australia VET and TAFE Pathway Map</title>
+  <desc id="desc">A social media poster for OTC Australia vocational education pathway screening with website and contact details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2ea"/>
+      <stop offset="58%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#eaf2ee"/>
+    </linearGradient>
+    <linearGradient id="navyPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061a2f"/>
+      <stop offset="100%" stop-color="#1f5e52"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#061a2f" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="microGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#d8cdbd" stroke-width="0.8" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="40" y="38" width="1120" height="599" rx="22" fill="#fffdf8" stroke="#ded3c4" filter="url(#shadow)"/>
+  <rect x="72" y="70" width="1056" height="535" rx="16" fill="url(#microGrid)" opacity="0.72"/>
+
+  <g transform="translate(86 88)">
+    <rect x="0" y="0" width="410" height="499" rx="14" fill="url(#navyPanel)"/>
+    <path d="M38 406C120 354 176 442 256 388S326 308 382 348" fill="none" stroke="#d0ae67" stroke-width="2.4" opacity="0.72"/>
+    <path d="M34 300C120 256 192 330 282 286S346 236 382 252" fill="none" stroke="#f7f2ea" stroke-width="1.2" opacity="0.38"/>
+    <path d="M42 170C134 132 178 214 268 174S340 112 382 142" fill="none" stroke="#f7f2ea" stroke-width="1.2" opacity="0.32"/>
+    <g fill="#d0ae67">
+      <circle cx="38" cy="406" r="5"/><circle cx="256" cy="388" r="5"/><circle cx="382" cy="348" r="5"/>
+      <circle cx="120" cy="256" r="3.5"/><circle cx="282" cy="286" r="3.5"/><circle cx="346" cy="236" r="3.5"/>
+      <circle cx="134" cy="132" r="3.5"/><circle cx="268" cy="174" r="3.5"/><circle cx="340" cy="112" r="3.5"/>
+    </g>
+    <text x="34" y="58" fill="#d0ae67" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">OTC AUSTRALIA</text>
+    <text x="34" y="102" fill="#fffdf8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="34" font-weight="560">VET / TAFE</text>
+    <text x="34" y="142" fill="#fffdf8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="34" font-weight="560">Pathway Map</text>
+    <text x="34" y="192" fill="#dbe7e2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="17">Vocational course screening</text>
+    <text x="34" y="222" fill="#dbe7e2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="17">TAFE-to-university progression</text>
+    <text x="34" y="252" fill="#dbe7e2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="17">English and document readiness</text>
+    <text x="34" y="472" fill="#fffdf8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15">Overseas Tutorial Centre Ltd</text>
+  </g>
+
+  <g transform="translate(548 104)">
+    <text x="0" y="0" fill="#b88a3b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" letter-spacing="3">STRUCTURED ROUTE COVERAGE</text>
+    <text x="0" y="58" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="48" font-weight="560">Australia vocational</text>
+    <text x="0" y="112" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="48" font-weight="560">education pathways</text>
+    <text x="0" y="158" fill="#4d5968" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="21">For international students exploring practical</text>
+    <text x="0" y="190" fill="#4d5968" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="21">Australian study routes across TAFE, VET,</text>
+    <text x="0" y="222" fill="#4d5968" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="21">English preparation and progression options.</text>
+
+    <g transform="translate(0 280)">
+      <rect x="0" y="0" width="178" height="74" rx="10" fill="#f7f2ea" stroke="#ded3c4"/>
+      <rect x="196" y="0" width="178" height="74" rx="10" fill="#f7f2ea" stroke="#ded3c4"/>
+      <rect x="392" y="0" width="178" height="74" rx="10" fill="#f7f2ea" stroke="#ded3c4"/>
+      <text x="20" y="30" fill="#1f5e52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" letter-spacing="2">SCREENING</text>
+      <text x="20" y="54" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16">Course level</text>
+      <text x="216" y="30" fill="#1f5e52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" letter-spacing="2">READINESS</text>
+      <text x="216" y="54" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16">English + documents</text>
+      <text x="412" y="30" fill="#1f5e52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="12" font-weight="650" letter-spacing="2">PROGRESSION</text>
+      <text x="412" y="54" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16">TAFE to university</text>
+    </g>
+
+    <g transform="translate(0 420)">
+      <text x="0" y="0" fill="#061a2f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="19" font-weight="560">overseasuk.com/australia-vet-tafe-pathways</text>
+      <text x="0" y="34" fill="#4d5968" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="16">office@overseasuk.com  |  WhatsApp +44 7947 991572  |  WeChat overseasus</text>
+    </g>
+  </g>
+</svg>

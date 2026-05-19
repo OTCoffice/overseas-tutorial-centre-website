@@ -60,9 +60,11 @@ function nav(current = "", locale = "en") {
         </a>
         <div class="nav-links">
           <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>${isZh ? "諮詢" : "Consulting"}</a>
+          <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>${isZh ? "服務" : "Services"}</a>
           <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>${isZh ? "課程" : "Courses"}</a>
-          <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>${isZh ? "工具與 App" : "Tutorial & Apps"}</a>
+          <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>${isZh ? "工具" : "Tools"}</a>
           <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>${isZh ? "出版" : "Publishing"}</a>
+          <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>${isZh ? "資訊" : "Insights"}</a>
           <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>${isZh ? "關於 OTC" : "About OTC"}</a>
           <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>${isZh ? "搜索" : "Search"}</a>
           <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
@@ -182,9 +184,10 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
+  const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -222,13 +225,14 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:url" content="${canonicalUrl}">
-  <meta name="twitter:card" content="summary">
+  ${socialImageUrl ? `<meta property="og:image" content="${socialImageUrl}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">` : ""}
+  <meta name="twitter:card" content="${socialImageUrl ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
+  ${socialImageUrl ? `<meta name="twitter:image" content="${socialImageUrl}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>

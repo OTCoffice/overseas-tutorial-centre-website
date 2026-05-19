@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Applications | OTC Study Hub</title>
+  <meta name="description" content="OTC university application screening by country, institution, school and programme, starting with University of Edinburgh MSc Marketing.">
+  <link rel="canonical" href="https://overseasuk.com/university-applications/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Overseas Tutorial Centre Ltd">
+  <meta property="og:title" content="University Applications | OTC Study Hub">
+  <meta property="og:description" content="OTC university application screening by country, institution, school and programme, starting with University of Edinburgh MSc Marketing.">
+  <meta property="og:url" content="https://overseasuk.com/university-applications/">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="University Applications | OTC Study Hub">
+  <meta name="twitter:description" content="OTC university application screening by country, institution, school and programme, starting with University of Edinburgh MSc Marketing.">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"Overseas Tutorial Centre Ltd","legalName":"Overseas Tutorial Centre Ltd","alternateName":["Overseas Tutorial Centre (OTC)","海外督導","OTC Study Hub","Overseas Publishing"],"description":"Overseas Tutorial Centre Ltd (OTC) / 海外督導 is a UK education consulting, international curriculum tutoring, study app and bilingual publishing provider.","url":"https://overseasuk.com","email":"office@overseasuk.com","telephone":"+447947991572","address":{"@type":"PostalAddress","streetAddress":"3/F Overseas Education, 207 Regent Street","addressLocality":"London","postalCode":"W1B 3HH","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","contactType":"Customer support","email":"office@overseasuk.com","telephone":"+447947991572"}}</script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">
+          <span class="brand-mark"><span></span></span>
+          <span>Overseas Tutorial Centre (OTC)<small>OTC Study Hub · Overseas Publishing</small></span>
+        </a>
+        <div class="nav-links">
+          <a href="/resources/" >Consulting</a>
+          <a href="/services/" >Services</a>
+          <a href="/courses/" aria-current="page">Courses</a>
+          <a href="/apps/" >Tools</a>
+          <a href="/publishing/" >Publishing</a>
+          <a href="/insights/" >Insights</a>
+          <a href="/about/" >About OTC</a>
+          <a href="/search/" >Search</a>
+          <a href="/zh/" >中文</a>
+          <a class="nav-cta" href="/publishing/">Publishing Updates</a>
+        </div>
+      </nav>
+    </header>
+  
+  
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">University Applications</div><h1>Apply through OTC</h1><p>A structured entrance for students who want an initial eligibility review before applying to selected university courses. The first programme record is University of Edinburgh MSc Marketing.</p></div></section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Programme Portfolio</div>
+        <h2>Liu Xiaotong case portfolio: media, marketing and communication routes.</h2>
+        <p>This first portfolio turns one live student case into a reusable course database. Australia now includes the full official university list as institution-level review entries, with selected media, communication and marketing courses added as confirmed programme records.</p>
+      </div>
+      <div class="application-layout">
+        <aside class="programme-filter-panel" aria-label="Programme filters">
+          <label for="countryFilter">Country</label>
+          <select id="countryFilter">
+            <option value="All">All countries</option>
+          </select>
+          <label for="institutionFilter">University</label>
+          <select id="institutionFilter">
+            <option value="All">All universities</option>
+          </select>
+          <label for="schoolFilter">School / Faculty</label>
+          <select id="schoolFilter">
+            <option value="All">All schools</option>
+          </select>
+          <label for="programmeFilter">Programme</label>
+          <select id="programmeFilter">
+            <option value="edinburgh-msc-marketing">MSc Marketing</option>
+          </select>
+        </aside>
+
+        <article class="programme-detail-panel" id="programmeDetail">
+        </article>
+      </div>
+      <div class="programme-card-grid" id="programmeCardGrid"></div>
+      <p class="source-note">Australia institution coverage follows the Study Australia public list of Australian universities. Institution-level entries are screening routes; course-level eligibility must still be checked against each university's official admissions page.</p>
+    </section>
+
+    <section class="band compact-band" id="otc-apply-form">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Eligibility Screening</div>
+        <h2>Send a basic profile for OTC review.</h2>
+        <p>The form gives an instant internal guidance band and prepares an email summary for OTC. It is an initial review only, not an admission decision.</p>
+      </div>
+      <form class="application-screening-form" id="applicationScreeningForm">
+        <div class="application-route-summary" id="applicationRouteSummary" hidden></div>
+        <input type="hidden" name="targetCountry" id="targetCountry">
+        <input type="hidden" name="targetState" id="targetState">
+        <input type="hidden" name="targetInstitution" id="targetInstitution">
+        <div class="form-grid">
+          <label>Student name
+            <input name="studentName" autocomplete="name" placeholder="e.g. Liu Xiaotong" required>
+          </label>
+          <label>Email
+            <input name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
+          </label>
+          <label>Current institution
+            <input name="institution" placeholder="e.g. Donghua University" required>
+          </label>
+          <label>Current major
+            <input name="major" placeholder="e.g. Public Relations" required>
+          </label>
+          <label>Qualification stage
+            <select name="stage" required>
+              <option value="">Select</option>
+              <option>Year 3 undergraduate</option>
+              <option>Final-year undergraduate</option>
+              <option>Graduated bachelor</option>
+              <option>Other pathway / transfer case</option>
+            </select>
+          </label>
+          <label>GPA or average
+            <input name="gpa" placeholder="e.g. 3.94/4.0 or 89.4%" required>
+          </label>
+          <label>English score
+            <input name="english" placeholder="e.g. IELTS 6.0, target 6.5">
+          </label>
+          <label>Target intake
+            <select name="intake">
+              <option>2026 entry</option>
+              <option>2027 entry</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+        </div>
+        <label>Application notes
+          <textarea name="notes" rows="5" placeholder="Internships, target career, document status, previous refusals, scholarship needs or special circumstances."></textarea>
+        </label>
+        <div class="application-result" id="applicationResult" aria-live="polite">
+          Complete the profile to receive an initial OTC review band.
+        </div>
+        <div class="programme-actions">
+          <button class="btn btn-dark" type="button" id="reviewButton">Check eligibility</button>
+          <a class="btn btn-light" id="mailtoButton" href="mailto:office@overseasuk.com?subject=OTC%20University%20Application%20Screening%20-%20University%20of%20Edinburgh%20MSc%20Marketing">Send to OTC</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">System Expansion</div>
+        <h2>Next database layers.</h2>
+      </div>
+      <div class="course-system-grid application-system-grid application-system-compact">
+        <article><b>01</b><h3>Country</h3><p>UK, Australia, Canada, US, Europe and Asia-Pacific admission routes.</p><span>Different document and timing logic by jurisdiction.</span></article>
+        <article><b>02</b><h3>Institution</h3><p>University-level profile, ranking band, admission portal and agent/partner status.</p><span>Official entry requirements stay linked to source pages.</span></article>
+        <article><b>03</b><h3>School</h3><p>Business School, Media, Engineering, Education, Computing and other academic units.</p><span>Each school may have different PS, portfolio or reference rules.</span></article>
+        <article><b>04</b><h3>Programme</h3><p>Course-level record with requirements, application status, intake, fee and document checklist.</p><span>OTC review can generate a personalised next-step plan.</span></article>
+      </div>
+    </section>
+
+    <script>
+      (function () {
+        const form = document.getElementById("applicationScreeningForm");
+        const result = document.getElementById("applicationResult");
+        const reviewButton = document.getElementById("reviewButton");
+        const mailtoButton = document.getElementById("mailtoButton");
+        const countryFilter = document.getElementById("countryFilter");
+        const institutionFilter = document.getElementById("institutionFilter");
+        const schoolFilter = document.getElementById("schoolFilter");
+        const programmeFilter = document.getElementById("programmeFilter");
+        const programmeDetail = document.getElementById("programmeDetail");
+        const programmeCardGrid = document.getElementById("programmeCardGrid");
+        const routeSummary = document.getElementById("applicationRouteSummary");
+        const targetCountry = document.getElementById("targetCountry");
+        const targetState = document.getElementById("targetState");
+        const targetInstitution = document.getElementById("targetInstitution");
+
+        const coreProgrammes = [
+          {
+            id: "lse-msc-media-communications",
+            country: "United Kingdom",
+            institution: "London School of Economics and Political Science",
+            school: "Department of Media and Communications",
+            programme: "MSc Media and Communications",
+            level: "Postgraduate taught",
+            band: "Dream",
+            fit: "Best for a high-GPA PR/media applicant with a strong public communication and research narrative.",
+            action: "Dream-school positioning, research-led personal statement and referee planning",
+            url: "https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2026/MSc-Media-and-Communications"
+          },
+          {
+            id: "ucl-msc-science-communication",
+            country: "United Kingdom",
+            institution: "University College London",
+            school: "Department of Science and Technology Studies",
+            programme: "Science Communication MSc",
+            level: "Postgraduate taught",
+            band: "Dream / target to verify",
+            fit: "A practical UCL communication route to verify against the student's PR, public education and media evidence.",
+            action: "Course-fit check, module review and alternative UCL media route search",
+            url: "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/science-communication-msc"
+          },
+          {
+            id: "kcl-ma-culture-media-creative-industries",
+            country: "United Kingdom",
+            institution: "King's College London",
+            school: "Faculty of Arts and Humanities",
+            programme: "MA Culture, Media & Creative Industries",
+            level: "Postgraduate taught",
+            band: "Target",
+            fit: "Strong fit for PR, media, culture, brand communication and internship-based application narrative.",
+            action: "Narrative alignment, work-experience evidence and PS structure",
+            url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/culture-media-and-creative-industries-ma"
+          },
+          {
+            id: "warwick-msc-marketing-strategy",
+            country: "United Kingdom",
+            institution: "University of Warwick",
+            school: "Warwick Business School",
+            programme: "MSc Marketing & Strategy",
+            level: "Postgraduate taught",
+            band: "Target",
+            fit: "Suitable for a high academic average with internships in advertising, HR and brand-related business work.",
+            action: "Business-school CV framing and marketing-strategy motivation review",
+            url: "https://www.wbs.ac.uk/courses/postgraduate/marketing-strategy/"
+          },
+          {
+            id: "manchester-msc-marketing",
+            country: "United Kingdom",
+            institution: "University of Manchester",
+            school: "Alliance Manchester Business School",
+            programme: "MSc Marketing",
+            level: "Postgraduate taught",
+            band: "Match",
+            fit: "Good match for marketing conversion and commercial communication direction.",
+            action: "Document audit, English condition planning and application timing",
+            url: "https://www.manchester.ac.uk/study/masters/courses/list/08597/msc-marketing/"
+          },
+          {
+            id: "edinburgh-msc-marketing",
+            country: "United Kingdom",
+            institution: "University of Edinburgh",
+            school: "Business School",
+            programme: "MSc Marketing",
+            level: "Postgraduate taught",
+            band: "Match",
+            fit: "Clear business-school marketing route for the student's PR and marketing-communications profile.",
+            action: "Pre-application eligibility review and document strategy",
+            url: "https://www.business-school.ed.ac.uk/msc/marketing"
+          },
+          {
+            id: "melbourne-master-marketing-communications",
+            country: "Australia",
+            institution: "University of Melbourne",
+            school: "Faculty of Arts",
+            programme: "Master of Marketing Communications",
+            level: "Postgraduate coursework",
+            band: "Target",
+            fit: "Strong Australia option for PR, brand communication and marketing communications.",
+            action: "Australia document check, English condition and offer timing plan",
+            url: "https://study.unimelb.edu.au/find/courses/graduate/master-of-marketing-communications/"
+          },
+          {
+            id: "sydney-master-media-practice",
+            country: "Australia",
+            institution: "University of Sydney",
+            school: "Faculty of Arts and Social Sciences",
+            programme: "Master of Media Practice",
+            level: "Postgraduate coursework",
+            band: "Match",
+            fit: "Media-practice route suited to communication, PR, writing and professional media development.",
+            action: "Australia portfolio of evidence and programme-fit review",
+            url: "https://www.sydney.edu.au/courses/courses/pc/master-of-media-practice.html"
+          },
+          {
+            id: "anu-master-science-communication",
+            country: "Australia",
+            institution: "Australian National University",
+            school: "Centre for the Public Awareness of Science",
+            programme: "Master of Science Communication",
+            level: "Postgraduate coursework",
+            band: "Match / alternative",
+            fit: "Public communication alternative to verify against the student's Merck x Weibo health education internship evidence.",
+            action: "Alternative-route review and official requirement check",
+            url: "https://programsandcourses.anu.edu.au/program/MSCOM"
+          }
+        ];
+
+        const australianUniversities = [
+          "Adelaide University",
+          "Australian Catholic University",
+          "Australian University of Theology",
+          "Australian National University",
+          "Avondale University",
+          "Bond University",
+          "Charles Darwin University",
+          "Charles Sturt University",
+          "CQ University",
+          "Curtin University",
+          "Deakin University",
+          "Edith Cowan University",
+          "Federation University of Australia",
+          "Flinders University",
+          "Griffith University",
+          "James Cook University",
+          "La Trobe University",
+          "Macquarie University",
+          "Monash University",
+          "Murdoch University",
+          "Queensland University of Technology",
+          "RMIT University",
+          "Southern Cross University",
+          "Swinburne University of Technology",
+          "Torrens University Australia",
+          "University of Canberra",
+          "University of Divinity",
+          "University of Melbourne",
+          "University of New England",
+          "University of New South Wales",
+          "University of Newcastle",
+          "University of Notre Dame Australia",
+          "University of Queensland",
+          "University of Southern Queensland",
+          "University of Sydney",
+          "University of Tasmania",
+          "University of Technology Sydney",
+          "University of the Sunshine Coast",
+          "University of Western Australia",
+          "University of Wollongong",
+          "Victoria University",
+          "Western Sydney University"
+        ];
+
+        const australianOfficialCourseLinks = {
+          "Australian National University": "https://programsandcourses.anu.edu.au/",
+          "University of Melbourne": "https://study.unimelb.edu.au/find/",
+          "University of Sydney": "https://www.sydney.edu.au/courses/",
+          "University of New South Wales": "https://www.unsw.edu.au/study",
+          "University of Queensland": "https://study.uq.edu.au/study-options",
+          "Monash University": "https://www.monash.edu/study/courses",
+          "University of Western Australia": "https://www.uwa.edu.au/study/courses",
+          "University of Adelaide": "https://www.adelaide.edu.au/degree-finder/",
+          "Adelaide University": "https://www.adelaideuni.edu.au/study/"
+        };
+
+        const existingAustralianInstitutions = new Set(coreProgrammes.filter((item) => item.country === "Australia").map((item) => item.institution));
+        const australianInstitutionProgrammes = australianUniversities
+          .filter((institution) => !existingAustralianInstitutions.has(institution))
+          .map((institution) => ({
+            id: "australia-" + institution.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+            country: "Australia",
+            institution,
+            school: "University-wide postgraduate admissions",
+            programme: "Australia postgraduate application review",
+            level: "Postgraduate coursework / research to verify",
+            band: "Institution review",
+            fit: "Institution-level Australian university option to be checked against the student's academic profile, English score, subject direction and intake timing.",
+            action: "Identify suitable media, communication, marketing or related postgraduate courses and confirm official entry requirements",
+            url: australianOfficialCourseLinks[institution] || "https://www.studyaustralia.gov.au/en/plan-your-studies/list-of-australian-universities"
+          }));
+
+        const programmes = coreProgrammes.concat(australianInstitutionProgrammes);
+
+        let currentProgramme = programmes.find((item) => item.id === "edinburgh-msc-marketing") || programmes[0];
+
+        function buildApplyHref(programme) {
+          const params = new URLSearchParams({
+            country: programme.country,
+            institution: programme.institution,
+            programme: programme.programme
+          });
+          return "/university-applications/?" + params.toString() + "#otc-apply-form";
+        }
+
+        function uniqueValues(key, source) {
+          return [...new Set(source.map((item) => item[key]))].sort();
+        }
+
+        function setOptions(select, values, allLabel) {
+          const previous = select.value || "All";
+          select.innerHTML = '<option value="All">' + allLabel + '</option>' + values.map((value) => '<option value="' + value + '">' + value + '</option>').join("");
+          select.value = values.includes(previous) ? previous : "All";
+        }
+
+        function filteredProgrammes() {
+          return programmes.filter((item) => {
+            return (countryFilter.value === "All" || item.country === countryFilter.value)
+              && (institutionFilter.value === "All" || item.institution === institutionFilter.value)
+              && (schoolFilter.value === "All" || item.school === schoolFilter.value);
+          });
+        }
+
+        function renderProgramme(programme) {
+          currentProgramme = programme;
+          programmeFilter.value = programme.id;
+          programmeDetail.innerHTML = [
+            '<div class="programme-meta-row"><span>' + programme.country + '</span><span>' + programme.level + '</span><span>' + programme.band + '</span></div>',
+            '<h2>' + programme.institution + ' - ' + programme.programme + '</h2>',
+            '<p>' + programme.fit + '</p>',
+            '<dl class="programme-facts">',
+            '<div><dt>Country</dt><dd>' + programme.country + '</dd></div>',
+            '<div><dt>Institution</dt><dd>' + programme.institution + '</dd></div>',
+            '<div><dt>School</dt><dd>' + programme.school + '</dd></div>',
+            '<div><dt>Course</dt><dd>' + programme.programme + '</dd></div>',
+            '<div><dt>OTC action</dt><dd>' + programme.action + '</dd></div>',
+            '</dl>',
+            '<div class="programme-actions">',
+            '<a class="btn btn-dark" href="' + buildApplyHref(programme) + '">Apply through OTC</a>',
+            '<a class="btn btn-light" href="' + programme.url + '" target="_blank" rel="noopener">Official course page</a>',
+            '</div>'
+          ].join("");
+          updateReview();
+        }
+
+        function renderCards(list) {
+          programmeCardGrid.innerHTML = list.map((item) => [
+            '<button type="button" class="programme-mini-card' + (item.id === currentProgramme.id ? ' is-active' : '') + '" data-programme-id="' + item.id + '">',
+            '<span>' + item.country + ' · ' + item.band + '</span>',
+            '<strong>' + item.institution + '</strong>',
+            '<em>' + item.programme + '</em>',
+            '</button>'
+          ].join("")).join("");
+        }
+
+        function refreshFilters() {
+          setOptions(countryFilter, uniqueValues("country", programmes), "All countries");
+          setOptions(institutionFilter, uniqueValues("institution", countryFilter.value === "All" ? programmes : programmes.filter((item) => item.country === countryFilter.value)), "All universities");
+          const institutionScope = programmes.filter((item) => (countryFilter.value === "All" || item.country === countryFilter.value) && (institutionFilter.value === "All" || item.institution === institutionFilter.value));
+          setOptions(schoolFilter, uniqueValues("school", institutionScope), "All schools");
+        }
+
+        function refreshProgrammes() {
+          refreshFilters();
+          const list = filteredProgrammes();
+          programmeFilter.innerHTML = list.map((item) => '<option value="' + item.id + '">' + item.programme + ' - ' + item.institution + '</option>').join("");
+          const selected = list.find((item) => item.id === currentProgramme.id) || list[0] || programmes[0];
+          renderCards(list);
+          renderProgramme(selected);
+        }
+
+        function setSelectValue(select, value) {
+          if (!value) return false;
+          const option = Array.from(select.options).find((item) => item.value.toLowerCase() === value.toLowerCase());
+          if (!option) return false;
+          select.value = option.value;
+          return true;
+        }
+
+        function escapeHtml(value) {
+          return String(value || "").replace(/[&<>"']/g, function (char) {
+            return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char];
+          });
+        }
+
+        function canonicalInstitutionName(value) {
+          const institutionAliases = {
+            "unsw sydney": "University of New South Wales",
+            "uts / uts college": "University of Technology Sydney",
+            "university of newcastle / newcastle college": "University of Newcastle",
+            "monash university / monash college": "Monash University",
+            "central queensland university": "CQ University",
+            "university of western australia / uwa college": "University of Western Australia",
+            "murdoch university / murdoch college": "Murdoch University",
+            "notre dame australia": "University of Notre Dame Australia",
+            "university of adelaide": "Adelaide University",
+            "kic adelaide college": "Adelaide University",
+            "international college of hotel management": "Adelaide University"
+          };
+          const key = (value || "").trim().toLowerCase();
+          return institutionAliases[key] || value;
+        }
+
+        function applyIncomingRoute() {
+          const params = new URLSearchParams(window.location.search);
+          const requestedCountry = params.get("country") || "";
+          const requestedState = params.get("state") || "";
+          const requestedInstitution = params.get("institution") || "";
+          const requestedProgramme = params.get("programme") || "";
+          const canonicalInstitution = canonicalInstitutionName(requestedInstitution);
+
+          if (requestedCountry) {
+            setSelectValue(countryFilter, requestedCountry);
+            refreshFilters();
+          }
+          if (canonicalInstitution) {
+            setSelectValue(institutionFilter, canonicalInstitution);
+            refreshFilters();
+          }
+
+          const match = programmes.find((item) => {
+            return (!requestedCountry || item.country.toLowerCase() === requestedCountry.toLowerCase())
+              && (!canonicalInstitution || item.institution.toLowerCase() === canonicalInstitution.toLowerCase())
+              && (!requestedProgramme || item.programme.toLowerCase() === requestedProgramme.toLowerCase());
+          }) || programmes.find((item) => canonicalInstitution && item.institution.toLowerCase() === canonicalInstitution.toLowerCase());
+
+          if (match) {
+            currentProgramme = match;
+          }
+
+          if (requestedCountry || requestedState || requestedInstitution) {
+            targetCountry.value = requestedCountry;
+            targetState.value = requestedState;
+            targetInstitution.value = requestedInstitution || canonicalInstitution;
+            routeSummary.hidden = false;
+            routeSummary.innerHTML = [
+              '<span>Target route</span>',
+              '<strong>' + escapeHtml([requestedCountry, requestedState, requestedInstitution || canonicalInstitution].filter(Boolean).join(" / ")) + '</strong>',
+              '<p>OTC will use this selected route as the starting point for eligibility screening, course matching and document planning.</p>'
+            ].join("");
+          }
+        }
+
+        function scoreProfile(data) {
+          const text = [data.gpa, data.english, data.stage, data.notes].join(" ").toLowerCase();
+          let score = 0;
+          if (/3\.7|3\.8|3\.9|4\.0|85|86|87|88|89|90|91|92|93|94|95/.test(text)) score += 2;
+          if (/final|year 3|graduated/.test(text)) score += 1;
+          if (/ielts\s*6\.5|ielts\s*7|toefl|pte|duolingo/.test(text)) score += 2;
+          if (/intern|work|research|project|portfolio|competition|pr|marketing|media/.test(text)) score += 1;
+          if (/refusal|gap|fail|low|missing|not sure/.test(text)) score -= 1;
+          return score;
+        }
+
+        function buildAdvice(score) {
+          if (score >= 5) {
+            return "Strong initial fit. OTC should prioritise document audit, personal statement positioning and submission timing.";
+          }
+          if (score >= 3) {
+            return "Potentially suitable. OTC should check transcript details, English condition and programme fit before application.";
+          }
+          return "Needs careful review. OTC should first assess academic level, English readiness and alternative programme options.";
+        }
+
+        function updateReview() {
+          const data = Object.fromEntries(new FormData(form).entries());
+          const score = scoreProfile(data);
+          const advice = buildAdvice(score);
+          result.innerHTML = "<strong>Initial OTC review band:</strong> " + advice + "<br><span>This is guidance only. Final eligibility depends on official university admissions checks.</span>";
+          const body = [
+            "OTC University Application Screening",
+            "",
+            "Programme: " + currentProgramme.institution + " - " + currentProgramme.programme,
+            "Country: " + currentProgramme.country,
+            "School: " + currentProgramme.school,
+            "Programme band: " + currentProgramme.band,
+            "Target route country: " + (data.targetCountry || ""),
+            "Target route state: " + (data.targetState || ""),
+            "Target route institution: " + (data.targetInstitution || ""),
+            "Student name: " + (data.studentName || ""),
+            "Email: " + (data.email || ""),
+            "Current institution: " + (data.institution || ""),
+            "Current major: " + (data.major || ""),
+            "Qualification stage: " + (data.stage || ""),
+            "GPA / average: " + (data.gpa || ""),
+            "English score: " + (data.english || ""),
+            "Target intake: " + (data.intake || ""),
+            "Notes: " + (data.notes || ""),
+            "",
+            "Initial OTC review band: " + advice
+          ].join("\n");
+          mailtoButton.href = "mailto:office@overseasuk.com?subject=" + encodeURIComponent("OTC University Application Screening - " + currentProgramme.institution + " " + currentProgramme.programme) + "&body=" + encodeURIComponent(body);
+        }
+
+        reviewButton.addEventListener("click", updateReview);
+        form.addEventListener("input", updateReview);
+        countryFilter.addEventListener("change", refreshProgrammes);
+        institutionFilter.addEventListener("change", refreshProgrammes);
+        schoolFilter.addEventListener("change", refreshProgrammes);
+        programmeFilter.addEventListener("change", function () {
+          const selected = programmes.find((item) => item.id === programmeFilter.value);
+          if (selected) renderProgramme(selected);
+          renderCards(filteredProgrammes());
+        });
+        programmeCardGrid.addEventListener("click", function (event) {
+          const card = event.target.closest("[data-programme-id]");
+          if (!card) return;
+          const selected = programmes.find((item) => item.id === card.dataset.programmeId);
+          if (selected) renderProgramme(selected);
+          renderCards(filteredProgrammes());
+        });
+        refreshFilters();
+        applyIncomingRoute();
+        refreshProgrammes();
+      })();
+    </script>
+  
+  
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-col footer-about">
+          <strong>OTC Study Hub</strong>
+          <p>Digital learning and publishing platform of Overseas Tutorial Centre, Overseas Publishing House and Overseas education services.</p>
+          <p>Education consulting · tutorial support · bilingual publishing · research projects · digital learning tools.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Compliance Note</strong>
+          <p>OTC publications and tools are independent educational resources unless expressly stated otherwise.</p>
+          <p>References to qualifications, tests or institutions are contextual only; no endorsement is implied without written permission.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Academic Integrity</strong>
+          <p>Resources support understanding, vocabulary, research planning and responsible academic preparation.</p>
+          <p>They are not model answers, official assessment documents or evidence of learner achievement.</p>
+        </div>
+        <div class="footer-col footer-contact">
+          <strong>Contact & Imprint</strong>
+          <p>Overseas Tutorial Centre Ltd<br>3/F Overseas Education, 207 Regent Street, London W1B 3HH<br>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: overseasus<br>Website: <a href="https://overseasuk.com">https://overseasuk.com</a></p>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 Overseas Tutorial Centre Ltd. All rights reserved.</span>
+        <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
+      </div>
+    </footer>
+  
+</body>
+</html>

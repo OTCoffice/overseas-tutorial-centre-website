@@ -1398,7 +1398,12 @@ function searchItems() {
   const pages = [
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
+    ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
+    ["Insights", "/insights/", "Education articles, university application notes, pathway explainers and shareable OTC guidance."],
+    ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
+    ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia market intelligence."],
+    ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness and professional referral boundaries."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
@@ -1413,6 +1418,20 @@ function searchItems() {
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
+
+  const insights = insightsArticles.map((article) => ({
+    type: "Insight",
+    title: article.title,
+    url: `/insights/${article.slug}/`,
+    desc: `${article.category}. ${article.summary}`
+  }));
+
+  const services = serviceProducts.map((service) => ({
+    type: "Service",
+    title: service.title,
+    url: `/services/${service.slug}/`,
+    desc: `${service.titleZh}. ${service.cardDesc} ${service.price}. ${service.timeline}.`
+  }));
 
   const qualifications = academicAreas.flatMap((area) => area.items.map((title) => ({
     type: "OTHM Course",
@@ -1449,7 +1468,7 @@ function searchItems() {
     desc: `${item.zh}. Focus areas: ${item.focus}. Student need: ${item.pain} OTC support: ${item.support}`
   }));
 
-  return [...pages, ...internationalCurriculumSupport, ...externalSupport, ...qualifications, ...books];
+  return [...pages, ...services, ...insights, ...internationalCurriculumSupport, ...externalSupport, ...qualifications, ...books];
 }
 
 const generatedRoutes = [];
@@ -1470,6 +1489,672 @@ function write(route, html) {
   generatedRoutes.push(publicPath);
 }
 
+const insightsArticles = [
+  {
+    slug: "uk-aus-application-documents-checklist",
+    title: "UK & Australia University Applications: A Practical Document Checklist",
+    date: "2026-05-19",
+    category: "University Applications",
+    author: "Overseas Tutorial Centre",
+    summary: "A compliance-safe checklist for building a clean application document pack for UK and Australian universities: what to prepare, how to label files, and what to double-check before submission.",
+    titleZh: "英國與澳洲大學申請：實用文件準備清單（提交前核對）",
+    summaryZh: "一份合規、安全、可直接使用的英澳大學申請文件清單：需要準備什麼、如何命名與整理，以及提交前應該核對哪些常見細節。",
+    body: [
+      {
+        heading: "1) Start With a Master Document Pack",
+        paragraphs: [
+          "Before looking at specific universities, build one “master pack” that is complete, clearly named and easy to reuse. A tidy pack reduces avoidable delays and prevents mismatched versions being uploaded.",
+          "Use consistent file naming (e.g., SURNAME_GivenName_DocumentType_Date). Keep original PDFs plus a working folder for edited versions. Save key files as PDF unless the university specifically requests another format."
+        ]
+      },
+      {
+        heading: "2) Academic Records: Transcript, Grading Scale and Translations",
+        paragraphs: [
+          "Most applications need an official transcript (or academic record). If your institution can provide a grading scale or GPA/average mark explanation, include it—this helps evaluators interpret your results.",
+          "If any documents are not in English, check each university’s policy on certified translations. Requirements vary by institution and country, so confirm whether certified translation, notarisation, or original-language attachments are needed."
+        ]
+      },
+      {
+        heading: "3) References and Evidence for Your Statement",
+        paragraphs: [
+          "For references, confirm who will provide them, what format is accepted, and the expected lead time. Some universities use online referee portals; others accept letters or forms. Do not assume one process fits all.",
+          "For your personal statement (or motivation statement), prepare supporting evidence you can point to: module choices, research projects, internships, competitions, publications, media work, or portfolios. Keep evidence factual and avoid inflated claims."
+        ]
+      },
+      {
+        heading: "4) English Readiness and Timing Checks",
+        paragraphs: [
+          "English requirements differ by course and intake. If you plan to use IELTS/TOEFL/PTE or other accepted tests, check the required scores, acceptable test types, and any validity period rules.",
+          "Finally, do a timing audit: application deadline, transcript release date, reference lead time, and test booking windows. A realistic timeline is often the difference between a clean submission and a rushed one."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）先建立「主文件包」（Master Pack）",
+        paragraphs: [
+          "在選定具體院校前，先把一套「主文件包」整理完整：內容齊、命名清楚、可重複使用。文件包越乾淨，越能降低不必要的延誤與上傳版本混亂。",
+          "建議統一命名規則（例如：姓_名_文件類型_日期）。保留官方原始 PDF，同時另建一個工作資料夾存放編修版本。若院校沒有特別要求，重要文件優先以 PDF 形式提交。"
+        ]
+      },
+      {
+        heading: "2）學術文件：成績單、評分標準與翻譯",
+        paragraphs: [
+          "大多數申請都需要官方成績單（Transcript / Academic Record）。如果學校可以提供評分標準、GPA 或平均分解釋文件，建議一併備齊，方便招生方理解你的成績含義。",
+          "如文件非英文，需查清每所大學對「認證翻譯」的規定。不同院校與不同國家要求可能不同，請逐一確認是否需要 certified translation、公證（notarisation），或是否要同時附上原文與譯文。"
+        ]
+      },
+      {
+        heading: "3）推薦信與文書證據：用事實支撐敘事",
+        paragraphs: [
+          "推薦信方面，先確認推薦人、可接受的形式與準備周期。有些大學使用線上推薦人系統（referee portal），有些接受推薦信或表格；不要假設所有學校流程一致。",
+          "個人陳述（Personal Statement / Motivation Statement）建議準備可核對的證據：選修模塊、研究/課題、實習、競賽、發表、媒體作品或作品集等。內容以事實為主，避免誇大或暗示「必然」結果。"
+        ]
+      },
+      {
+        heading: "4）英語準備與時間線核對",
+        paragraphs: [
+          "英語要求會隨課程與入學批次不同而變化。如計畫使用 IELTS/TOEFL/PTE 等考試，請逐一核對要求分數、接受的考試類型，以及成績有效期或截止提交規則。",
+          "最後做一次時間線審核：申請截止日期、成績單開具時間、推薦信準備周期、考試預約窗口。現實可行的時間線，往往決定了提交是否乾淨順暢，而不是臨時趕工。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "uk-australia-marketing-media-master-application-portfolio",
+    title: "Building a UK and Australia Marketing / Media Master's Application Portfolio",
+    date: "2026-05-18",
+    category: "University Applications",
+    author: "Overseas Tutorial Centre",
+    summary: "How OTC turns one student's academic profile, GPA evidence, internships and English plan into a multi-country application portfolio across UK and Australian universities.",
+    titleZh: "如何建立英澳 Marketing / Media 碩士申請組合",
+    summaryZh: "OTC 如何把學生的學術成績、GPA 證明、實習經歷和英語規劃，整理成英國與澳洲多國別碩士申請組合。",
+    body: [
+      {
+        heading: "Start With Evidence, Not a University List",
+        paragraphs: [
+          "A strong Master's application portfolio begins with the student's evidence base: transcript, GPA certificate, ranking certificate, CV, internship records, English score and a realistic intake timeline.",
+          "For marketing, media and communication routes, admissions teams usually need to see more than a course preference. The applicant should be able to explain how academic study, internships, public communication work and future career direction connect."
+        ]
+      },
+      {
+        heading: "Use A Tiered Portfolio",
+        paragraphs: [
+          "OTC normally separates courses into dream, target and match groups. For a high-GPA public relations student, a portfolio may include LSE, UCL, King's, Warwick, Manchester and Edinburgh in the UK, alongside Melbourne, Sydney and ANU in Australia.",
+          "The purpose of a portfolio is not to apply everywhere blindly. It gives the student a controlled range of ambition, evidence requirements and offer timing."
+        ]
+      },
+      {
+        heading: "Australia Needs Institution-Level Screening",
+        paragraphs: [
+          "Australia has a wide university system, and many universities have multiple communication, media, marketing or business-related postgraduate options. A first review may therefore begin at institution level before narrowing to course level.",
+          "This is especially useful when the applicant's profile can support several directions, such as marketing communications, media practice, digital marketing, public communication or management."
+        ]
+      },
+      {
+        heading: "What OTC Checks First",
+        paragraphs: [
+          "The first screening checks academic level, GPA or average mark, English readiness, subject fit, internship evidence, application timing and document gaps.",
+          "The outcome is an application route plan: which courses to prioritise, what documents to collect, what personal statement narrative to build and what English target must be met."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先看證據，而不是先列大學名單",
+        paragraphs: [
+          "一套有力量的碩士申請組合，應該從學生的證據基礎開始：成績單、GPA 證明、排名證明、CV、實習記錄、英語成績，以及現實可行的入學時間線。",
+          "對 Marketing、Media 和 Communication 類課程來說，招生方通常不只看學生想申請哪個課程。申請人需要能說清楚：自己的學術背景、實習經驗、公共傳播工作和未來職業方向之間有什麼連接。"
+        ]
+      },
+      {
+        heading: "用分層方式建立申請組合",
+        paragraphs: [
+          "OTC 通常會把課程分成 dream、target 和 match 幾個層級。對於一名高 GPA 的 Public Relations 學生，英國可以考慮 LSE、UCL、King's、Warwick、Manchester 和 Edinburgh；澳洲則可以同時考慮 Melbourne、Sydney 和 ANU 等方向。",
+          "Portfolio 的目的不是盲目海投，而是讓學生在理想高度、證據要求和 offer 時間安排之間保持可控。"
+        ]
+      },
+      {
+        heading: "澳洲申請需要先做院校級篩查",
+        paragraphs: [
+          "澳洲大學體系很寬，許多大學同時有 communication、media、marketing、business 或 public communication 相關的研究生課程。因此初步審核可以先從院校層面開始，再逐步收窄到具體課程。",
+          "當學生背景可以支持多個方向時，這種方法尤其有用，例如 Marketing Communications、Media Practice、Digital Marketing、Public Communication 或 Management。"
+        ]
+      },
+      {
+        heading: "OTC 會先審核什麼",
+        paragraphs: [
+          "第一步通常審核學術階段、GPA 或均分、英語準備情況、專業匹配度、實習證據、申請時間，以及文件缺口。",
+          "最後形成的是一份申請路線計劃：哪些課程優先、哪些文件要補、personal statement 應該建立什麼敘事，以及英語成績需要達到什麼目標。"
+        ]
+      }
+    ]
+  }
+];
+
+function shareLinks(article, localePath = "") {
+  const articleUrl = new URL(`${localePath}/insights/${article.slug}/`, SITE_URL).toString();
+  const text = `${localePath === "/zh" && article.titleZh ? article.titleZh : article.title} | OTC Study Hub`;
+  return `
+    <div class="share-strip" data-share-strip>
+      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">Share to X</a>
+      <a href="https://www.threads.net/intent/post?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">Share to Threads</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://wa.me/?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a>
+      <a href="mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(articleUrl)}">Email</a>
+      <button type="button" data-copy-link="${articleUrl}">Copy link</button>
+      <button type="button" data-copy-link="${articleUrl}">WeChat copy</button>
+    </div>
+    <script>
+      document.querySelectorAll("[data-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(button.dataset.copyLink);
+            button.textContent = "Copied";
+          } catch (error) {
+            button.textContent = button.dataset.copyLink;
+          }
+        });
+      });
+    </script>
+  `;
+}
+
+function articleBody(article) {
+  const english = article.body.map((section) => `
+    <section>
+      <h2>${section.heading}</h2>
+      ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+    </section>
+  `).join("");
+  const chinese = (article.bodyZh || []).map((section) => `
+    <section>
+      <h2>${section.heading}</h2>
+      ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+    </section>
+  `).join("");
+  return `
+    <div class="bilingual-article-grid">
+      <article>
+        <div class="article-language-label">English</div>
+        ${english}
+      </article>
+      <article lang="zh-Hant">
+        <div class="article-language-label">中文</div>
+        ${chinese}
+      </article>
+    </div>
+  `;
+}
+
+function articleBodyZhFirst(article) {
+  const chinese = (article.bodyZh || []).map((section) => `
+    <section>
+      <h2>${section.heading}</h2>
+      ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+    </section>
+  `).join("");
+  const english = article.body.map((section) => `
+    <section>
+      <h2>${section.heading}</h2>
+      ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+    </section>
+  `).join("");
+  return `
+    <div class="bilingual-article-grid">
+      <article lang="zh-Hant">
+        <div class="article-language-label">中文正文</div>
+        ${chinese}
+      </article>
+      <article>
+        <div class="article-language-label">English reference</div>
+        ${english}
+      </article>
+    </div>
+  `;
+}
+
+const insights = pageShell({
+  title: "Insights | OTC Study Hub",
+  current: "insights",
+  description: "Education insights, university application notes, pathway explainers and OTC study-route articles.",
+  path: "/insights/",
+  body: `
+    <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">Education Insights</div><h1>Insights</h1><p>Short education notes, pathway explainers and application commentary from OTC. Articles can be shared to X, Threads, Facebook and WhatsApp.</p></div></section>
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Latest Articles</div>
+        <h2>Publishable education information for students and families.</h2>
+      </div>
+      <div class="insights-grid">
+        ${insightsArticles.map((article) => `
+          <article class="insight-card">
+            <span>${article.category} · ${article.date}</span>
+            <h3>${article.title}</h3>
+            <p>${article.summary}</p>
+            <h4>${article.titleZh || ""}</h4>
+            <p>${article.summaryZh || ""}</p>
+            <a class="btn btn-light" href="/insights/${article.slug}/">Read article</a>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `
+});
+
+function insightArticlePage(article) {
+  return pageShell({
+    title: `${article.title} | OTC Insights`,
+    current: "insights",
+    description: article.summary,
+    path: `/insights/${article.slug}/`,
+    body: `
+      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
+      <main class="band insight-article">
+        <div class="article-meta">${article.date} · ${article.author}</div>
+        ${shareLinks(article)}
+        ${articleBody(article)}
+        ${shareLinks(article)}
+      </main>
+    `
+  });
+}
+
+function insightArticlePageZh(article) {
+  return pageShell({
+    title: `${article.titleZh || article.title} | OTC 教育資訊`,
+    current: "insights",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: article.summaryZh || article.summary,
+    path: `/zh/insights/${article.slug}/`,
+    body: `
+      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">${article.category}</div><h1>${article.titleZh || article.title}</h1><h2>${article.title}</h2><p>${article.summaryZh || article.summary}</p><p>${article.summary}</p></div></section>
+      <main class="band insight-article">
+        <div class="article-meta">${article.date} · ${article.author}</div>
+        ${shareLinks(article, "/zh")}
+        ${articleBodyZhFirst(article)}
+        ${shareLinks(article, "/zh")}
+      </main>
+    `
+  });
+}
+
+const serviceLines = [
+  {
+    code: "01",
+    title: "Language & Context Studio",
+    titleZh: "高端中英語境工作室",
+    audience: "Government, publishing houses, universities, education institutions, law firms, corporate clients and academic teams.",
+    audienceZh: "面向政府、出版社、大學、教育機構、律師事務所、企業與學術團隊。",
+    desc: "Premium Chinese-English translation, bilingual editing, context calibration and public-facing wording for high-stakes documents.",
+    descZh: "高端中英翻譯、雙語編修、語境校準與高風險文件對外表達設計。",
+    items: ["Government and institutional profiles", "Publishing manuscripts and academic articles", "Legal-context and business documents", "University application and academic materials"]
+  },
+  {
+    code: "02",
+    title: "Publishing & Editorial Production",
+    titleZh: "出版與編輯製作",
+    audience: "Authors, research groups, schools, training providers and cultural or education projects.",
+    audienceZh: "面向作者、研究團隊、學校、培訓機構與文化/教育項目。",
+    desc: "Editorial structure, bilingual layout, ISBN/KDP/Payhip preparation, public bookshop editions and digital publication packages.",
+    descZh: "編輯結構、雙語排版、ISBN/KDP/Payhip 準備、公開書店版本與數字出版包。",
+    items: ["Book and study-guide production", "Bilingual layout and proofing", "KDP / Payhip listing assets", "Research and education publishing workflow"]
+  },
+  {
+    code: "03",
+    title: "Academic Guardianship & Family Office",
+    titleZh: "學術監護與家庭學業辦公室",
+    audience: "International families, minor students, boarding-school families and complex cross-border study cases.",
+    audienceZh: "面向國際家庭、未成年學生、寄宿學校家庭與複雜跨境學習個案。",
+    desc: "Structured academic monitoring, school communication support, parent reporting, safeguarding-aware coordination and study-route planning.",
+    descZh: "學業監測、學校溝通、家長報告、符合 safeguarding 意識的協調與升學路線規劃。",
+    items: ["Academic progress reporting", "School-family communication", "Document and deadline tracking", "Progression and wellbeing coordination"]
+  },
+  {
+    code: "04",
+    title: "Academic Conferences & Roundtables",
+    titleZh: "學術會議與圓桌活動",
+    audience: "Universities, research networks, education organisations, publishers and professional communities.",
+    audienceZh: "面向大學、研究網絡、教育組織、出版社與專業社群。",
+    desc: "Topic design, bilingual materials, speaker coordination, event pages, proceedings preparation and post-event publication support.",
+    descZh: "主題設計、雙語材料、講者協調、活動頁、會議成果整理與會後出版支持。",
+    items: ["Seminars and roundtables", "Bilingual event packs", "Speaker and abstract management", "Proceedings and report production"]
+  },
+  {
+    code: "05",
+    title: "Education Fairs & Institutional Delegations",
+    titleZh: "教育展承辦與機構訪問",
+    audience: "Schools, colleges, universities, agencies, local partners and overseas education organisations.",
+    audienceZh: "面向學校、學院、大學、代理、地方合作方與海外教育機構。",
+    desc: "Event planning, exhibitor coordination, student-facing materials, bilingual promotion and post-event enquiry management.",
+    descZh: "活動規劃、參展方協調、學生材料、雙語宣傳與會後 enquiry 管理。",
+    items: ["Education fair planning", "Institution roadshows", "Bilingual promotional packs", "Lead capture and follow-up workflow"]
+  },
+  {
+    code: "06",
+    title: "Education Institution Accreditation Support",
+    titleZh: "教育機構 Accreditation 支持",
+    audience: "Training providers, tutorial centres, colleges and education companies preparing institutional applications or audits.",
+    audienceZh: "面向準備機構申請、審核或資質整理的培訓機構、補習中心、學院與教育公司。",
+    desc: "Readiness review, policy/document mapping, evidence pack preparation, staff/resource records and quality-assurance narrative support.",
+    descZh: "readiness review、政策與文件映射、證據包、師資/資源記錄與質量保障敘事支持。",
+    items: ["Awarding-body readiness packs", "Policy and evidence mapping", "Staff and resource documentation", "Quality assurance and audit narrative"]
+  }
+];
+
+function serviceCards() {
+  return `
+    <div class="service-product-grid">
+      ${serviceProducts.map((service) => `
+        <a class="service-product-card service-tone-${service.tone || "navy"}${service.featured ? " service-product-featured" : ""}" href="/services/${service.slug}/">
+          <span class="service-book-spine"></span>
+          <span class="service-product-code">${service.code}</span>
+          <strong>${service.title}</strong>
+          <p>${service.shortDesc}</p>
+          <span class="service-product-foot">
+            <span class="service-product-price">${service.price}</span>
+            <span class="service-product-open">Open</span>
+          </span>
+        </a>
+      `).join("")}
+    </div>
+  `;
+}
+
+const serviceProducts = [
+  {
+    ...serviceLines[0],
+    slug: "language-context-studio",
+    type: "Flagship translation service",
+    shortDesc: "Premium bilingual language work for high-stakes institutional documents.",
+    cardDesc: "High-end Chinese-English translation, bilingual editing and tone calibration for government, publishing, academic and legal-context documents.",
+    price: "From £180 / document review",
+    timeline: "1-10 working days",
+    tone: "gold",
+    featured: true,
+    overview: "A premium language and context service for documents where tone, authority, precision and institutional risk matter as much as literal meaning.",
+    process: ["Document intake and purpose check", "Audience, jurisdiction and terminology calibration", "Translation / bilingual editing / rewriting", "Editorial review with query notes", "Final clean copy and tracked-change copy"],
+    deliverables: ["Bilingual final document", "Tracked-change editorial file", "Terminology and style notes", "Optional publication-ready layout"],
+    showcase: ["Government or institution profile", "Academic article / abstract / conference text", "Legal-context supporting document", "Publishing manuscript sample"],
+    pricing: ["Document review: from £180", "Premium translation/editing: quoted by word count and risk level", "Institutional retainer: by monthly scope"]
+  },
+  {
+    ...serviceLines[1],
+    slug: "publishing-editorial-production",
+    type: "Publishing production",
+    shortDesc: "Editorial production for books, reports and bilingual publications.",
+    cardDesc: "Editorial planning, bilingual layout, ISBN/KDP/Payhip preparation and public-facing publication packages.",
+    price: "From £480 / publication pack",
+    timeline: "1-6 weeks",
+    tone: "navy",
+    overview: "A production service for authors, schools, research groups and education projects that need a manuscript turned into a credible public or internal publication.",
+    process: ["Manuscript audit", "Editorial structure and production schedule", "Copyediting / bilingual proofing", "Layout and cover asset preparation", "Upload pack and publication handover"],
+    deliverables: ["Edited manuscript", "PDF publication file", "Cover or listing assets", "KDP / Payhip / internal release checklist"],
+    showcase: ["Study guide edition", "Institutional report", "Conference proceedings", "Bilingual digital booklet"],
+    pricing: ["Publication readiness review: £480", "Short booklet production: from £1,200", "Full book production: quoted after manuscript review"]
+  },
+  {
+    ...serviceLines[2],
+    slug: "academic-guardianship-family-office",
+    type: "Private client education management",
+    shortDesc: "Academic oversight and reporting for international families.",
+    cardDesc: "Academic monitoring, school communication, parent reporting and progression planning for international families.",
+    price: "From £350 / month",
+    timeline: "Monthly or termly",
+    tone: "green",
+    overview: "A discreet education management service for families who need structured oversight across school, tutoring, examinations and university progression.",
+    process: ["Student profile and risk review", "School / family communication map", "Monthly progress monitoring", "Exam and application timeline management", "Parent report and action plan"],
+    deliverables: ["Student education file", "Monthly or termly progress report", "Deadline tracker", "Progression route plan"],
+    showcase: ["Parent reporting dashboard", "Termly academic review", "University progression timeline", "School communication log"],
+    pricing: ["Monthly monitoring: from £350", "Termly academic review: from £650", "Family office package: quoted by scope"]
+  },
+  {
+    ...serviceLines[3],
+    slug: "academic-conferences-roundtables",
+    type: "Academic events",
+    shortDesc: "Conference, roundtable and bilingual event production.",
+    cardDesc: "Conference concept, bilingual materials, speaker coordination, event pages and proceedings support.",
+    price: "From £1,200 / event design",
+    timeline: "2-12 weeks",
+    tone: "rose",
+    overview: "A structured event service for academic, publishing and education-sector organisations needing credible bilingual programming and post-event outputs.",
+    process: ["Theme and audience definition", "Programme and speaker plan", "Bilingual event material production", "Event coordination and facilitation", "Proceedings / report production"],
+    deliverables: ["Event concept note", "Programme and speaker pack", "Bilingual attendee materials", "Post-event report or proceedings"],
+    showcase: ["Academic roundtable", "Policy dialogue", "Publisher seminar", "Education forum"],
+    pricing: ["Event design: from £1,200", "Bilingual materials pack: from £850", "Full delivery: quoted by scale"]
+  },
+  {
+    ...serviceLines[4],
+    slug: "education-fairs-institutional-delegations",
+    type: "Education market events",
+    shortDesc: "Education fairs, roadshows and institutional delegation support.",
+    cardDesc: "Education fairs, institution roadshows, delegation visits, bilingual promotion and enquiry follow-up.",
+    price: "From £2,500 / project",
+    timeline: "4-16 weeks",
+    tone: "teal",
+    overview: "A market-facing service for institutions and partners organising recruitment events, delegation visits or education exchange activity.",
+    process: ["Market and participant scoping", "Partner / exhibitor coordination", "Bilingual promotion and materials", "On-site or online delivery support", "Lead capture and post-event follow-up"],
+    deliverables: ["Event plan", "Institution presentation pack", "Bilingual promotional materials", "Enquiry and follow-up report"],
+    showcase: ["Education fair booth pack", "Institution delegation itinerary", "Roadshow promotion set", "Partner meeting brief"],
+    pricing: ["Small project: from £2,500", "Delegation visit: from £3,800", "Education fair delivery: quoted by venue and scale"]
+  },
+  {
+    ...serviceLines[5],
+    slug: "education-institution-accreditation-support",
+    type: "Institutional readiness support",
+    shortDesc: "Evidence packs and readiness support for education providers.",
+    cardDesc: "Evidence mapping, policy review, staff/resource records and quality-assurance narrative for institutional applications.",
+    price: "From £1,500 / readiness review",
+    timeline: "2-10 weeks",
+    tone: "slate",
+    overview: "A documentation and readiness service for education providers preparing approval, accreditation or quality-assurance evidence packs.",
+    process: ["Readiness diagnostic", "Policy and evidence map", "Document gap list", "Evidence pack preparation", "Quality narrative and submission support"],
+    deliverables: ["Readiness report", "Policy / evidence matrix", "Staff and resource record pack", "Audit or application narrative"],
+    showcase: ["Awarding-body evidence pack", "Centre policy index", "Staff-resource matrix", "Quality assurance narrative"],
+    pricing: ["Readiness review: from £1,500", "Evidence pack build: from £3,500", "Ongoing QA support: monthly retainer"]
+  },
+  {
+    code: "07",
+    title: "University Application Advisory",
+    titleZh: "大學申請顧問服務",
+    slug: "university-application-advisory",
+    type: "Admissions advisory",
+    audience: "Students, families, schools and agencies preparing UK, Australian and international university applications.",
+    audienceZh: "面向準備英國、澳洲及國際大學申請的學生、家庭、學校與代理機構。",
+    desc: "Course selection, eligibility review, document planning and application-route management.",
+    descZh: "課程選擇、資格審核、文件規劃與申請路線管理。",
+    shortDesc: "Course screening, eligibility review and application document planning.",
+    cardDesc: "University application advisory for UK, Australia and selected international routes, from initial screening to document planning.",
+    price: "From £300 / case review",
+    timeline: "3 days-8 weeks",
+    tone: "navy",
+    overview: "A structured advisory service for students who need a realistic application portfolio, document checklist and decision timeline before applying.",
+    process: ["Student profile intake", "Country and programme screening", "Eligibility and document gap review", "Application plan and priority list", "Submission support or referral where needed"],
+    deliverables: ["Application route plan", "Course shortlist", "Document checklist", "Personal statement planning notes"],
+    showcase: ["UK master's portfolio", "Australian university screening file", "UCAS / direct application checklist", "Scholarship document map"],
+    pricing: ["Initial case review: from £300", "Full application planning: from £850", "Multi-country portfolio: quoted by scope"]
+  },
+  {
+    code: "08",
+    title: "Executive Education & Training",
+    titleZh: "高管教育與機構培訓",
+    slug: "executive-education-training",
+    type: "Training programme",
+    audience: "Companies, schools, public bodies and education institutions commissioning short courses or staff development.",
+    audienceZh: "面向委託短課程或員工發展項目的企業、學校、公共機構與教育機構。",
+    desc: "Bespoke workshops, bilingual training packs, executive briefings and learning materials.",
+    descZh: "定制工作坊、雙語培訓包、高管簡報與學習材料。",
+    shortDesc: "Bespoke workshops and bilingual professional training materials.",
+    cardDesc: "Executive education and institutional training design for education, management, communication and market-entry topics.",
+    price: "From £950 / workshop",
+    timeline: "2-8 weeks",
+    tone: "green",
+    overview: "A bespoke training service for organisations needing short, focused and bilingual professional learning sessions.",
+    process: ["Training needs analysis", "Learning outcomes and audience design", "Slide and workbook production", "Workshop delivery", "Feedback and follow-up resources"],
+    deliverables: ["Training outline", "Slide deck", "Workbook or handout", "Attendance and feedback summary"],
+    showcase: ["Education market briefing", "Admissions staff workshop", "Academic English CPD", "Cross-border communication training"],
+    pricing: ["Half-day workshop: from £950", "Full-day workshop: from £1,650", "Programme series: quoted by schedule"]
+  },
+  {
+    code: "09",
+    title: "Research & Policy Briefing",
+    titleZh: "研究與政策簡報",
+    slug: "research-policy-briefing",
+    type: "Research briefing",
+    audience: "Institutions, investors, education groups and professional teams requiring concise education-sector intelligence.",
+    audienceZh: "面向需要教育行業情報的機構、投資方、教育集團與專業團隊。",
+    desc: "Desk research, policy context, market notes and bilingual briefing documents.",
+    descZh: "案頭研究、政策語境、市場筆記與雙語簡報文件。",
+    shortDesc: "Concise education-sector research and bilingual briefing papers.",
+    cardDesc: "Research and policy briefing support for education-sector decisions, market context and institutional planning.",
+    price: "From £650 / briefing",
+    timeline: "1-3 weeks",
+    tone: "rose",
+    overview: "A research service for clients who need a compact, evidence-aware briefing rather than a long consultancy report.",
+    process: ["Research question definition", "Source and policy scan", "Market and stakeholder notes", "Brief drafting", "Editorial review and presentation"],
+    deliverables: ["Briefing note", "Source list", "Executive summary", "Optional slide version"],
+    showcase: ["UK education market note", "Australia entry briefing", "Policy context memo", "Competitor scan"],
+    pricing: ["Short briefing: from £650", "Research memo: from £1,200", "Briefing deck: quoted by scope"]
+  },
+  {
+    code: "10",
+    title: "Digital Learning & Assessment Tools",
+    titleZh: "數字學習與測評工具",
+    slug: "digital-learning-assessment-tools",
+    type: "Digital learning product",
+    audience: "Schools, centres, tutors and education companies building learning apps, quizzes or placement tools.",
+    audienceZh: "面向建設學習應用、測驗或分級工具的學校、中心、教師與教育公司。",
+    desc: "Learning app prototypes, question banks, placement tools and bilingual practice systems.",
+    descZh: "學習應用原型、題庫、分級工具與雙語練習系統。",
+    shortDesc: "Learning app prototypes, question banks and placement tools.",
+    cardDesc: "Digital learning and assessment tool design for tutoring, language practice, placement review and course support.",
+    price: "From £1,800 / prototype",
+    timeline: "3-10 weeks",
+    tone: "teal",
+    overview: "A product-development service for education teams that need a focused learning tool, quiz bank or review workflow.",
+    process: ["Learning objective map", "Question or content model", "Prototype structure", "Interface and content build", "Pilot feedback and iteration"],
+    deliverables: ["Prototype page or app", "Question bank sample", "Tutor guidance notes", "Testing and improvement log"],
+    showcase: ["Placement interview practice", "Vocabulary review tool", "Course quiz system", "Tutor dashboard concept"],
+    pricing: ["Prototype: from £1,800", "Question bank build: from £900", "Custom app: quoted by feature set"]
+  },
+  {
+    code: "11",
+    title: "Institutional Market Entry",
+    titleZh: "機構市場進入支持",
+    slug: "institutional-market-entry",
+    type: "Market entry support",
+    audience: "Education companies, colleges, training providers and international partners entering UK or Australian markets.",
+    audienceZh: "面向進入英國或澳洲市場的教育公司、學院、培訓機構與國際合作方。",
+    desc: "Positioning, partner mapping, local evidence and service-package preparation.",
+    descZh: "定位、合作方映射、本地證據與服務包準備。",
+    shortDesc: "Market-entry positioning and partner development support.",
+    cardDesc: "Institutional market-entry support for education organisations expanding into the UK, Australia or cross-border provision.",
+    price: "From £2,800 / entry plan",
+    timeline: "4-12 weeks",
+    tone: "slate",
+    overview: "A strategic support service for education providers that need local-market positioning, partner logic and credible documentation.",
+    process: ["Market and objective review", "Service and competitor positioning", "Partner and stakeholder map", "Document pack preparation", "Action plan and next-step coordination"],
+    deliverables: ["Market-entry note", "Partner target list", "Institutional profile pack", "Action roadmap"],
+    showcase: ["Australia sponsorship preparation", "UK education partner deck", "Institutional capability profile", "Cross-border service map"],
+    pricing: ["Entry plan: from £2,800", "Partner pack: from £1,500", "Ongoing development support: retainer"]
+  },
+  {
+    code: "12",
+    title: "Compliance File & Audit Copy",
+    titleZh: "合規文件與審核副本",
+    slug: "compliance-file-audit-copy",
+    type: "Evidence file production",
+    audience: "Education providers, companies and private clients preparing structured evidence for accountants, auditors or professional advisers.",
+    audienceZh: "面向為會計師、審核方或專業顧問準備結構化證據的教育機構、公司與私人客戶。",
+    desc: "Document indexing, audit-copy preparation, transaction narratives and evidence-bundle formatting.",
+    descZh: "文件索引、審核副本、交易敘事與證據包排版。",
+    shortDesc: "Structured evidence packs for audit, finance and adviser review.",
+    cardDesc: "Compliance file and audit-copy preparation for education, publishing, finance and institutional evidence bundles.",
+    price: "From £750 / evidence pack",
+    timeline: "3 days-4 weeks",
+    tone: "gold",
+    overview: "A document-production service for clients who need evidence organised into a clear file with narrative, index and audit-copy formatting.",
+    process: ["Evidence intake", "Document indexing", "Transaction or case narrative", "Audit-copy formatting", "Final bundle and gap list"],
+    deliverables: ["Evidence index", "Audit-copy PDF bundle", "Narrative memo", "Gap and follow-up list"],
+    showcase: ["Tuition income evidence pack", "Director-loan evidence file", "Student case archive", "Professional adviser bundle"],
+    pricing: ["Evidence pack: from £750", "Complex multi-account bundle: quoted by volume", "Monthly filing support: retainer"]
+  }
+];
+
+function serviceDetailPage(service) {
+  const list = (items) => items.map((item) => `<li>${item}</li>`).join("");
+  return pageShell({
+    title: `${service.title} | OTC Services`,
+    current: "services",
+    description: service.cardDesc,
+    path: `/services/${service.slug}/`,
+    body: `
+      <section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC Service / ${service.code}</div><h1>${service.title}</h1><h2>${service.titleZh}</h2><p class="hero-sub">${service.cardDesc}</p><p class="hero-sub-zh" lang="zh-Hant">${service.descZh}</p></div></section>
+      <main class="band service-detail">
+        <a class="back-link" href="/services/">Back to all services</a>
+        <div class="service-detail-layout">
+          <aside class="service-detail-panel">
+            <span>${service.type}</span>
+            <strong>${service.price}</strong>
+            <em>${service.timeline}</em>
+            <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Service enquiry - " + service.title)}">Buy / enquire</a>
+            <a class="btn btn-light" href="/consultation-chat/?source=services&service=${encodeURIComponent(service.title)}">Ask OTC first</a>
+          </aside>
+          <article class="service-detail-body">
+            <section>
+              <div class="eyebrow">Service Overview</div>
+              <h2>What this service does</h2>
+              <p>${service.overview}</p>
+              <p lang="zh-Hant">${service.audienceZh}</p>
+            </section>
+            <section>
+              <div class="eyebrow">Workflow</div>
+              <h2>Process</h2>
+              <ol class="service-steps">${list(service.process)}</ol>
+            </section>
+            <section>
+              <div class="eyebrow">Outputs</div>
+              <h2>Deliverables</h2>
+              <div class="service-detail-grid">${service.deliverables.map((item) => `<div>${item}</div>`).join("")}</div>
+            </section>
+            <section>
+              <div class="eyebrow">Portfolio</div>
+              <h2>Example finished work</h2>
+              <div class="service-showcase">${service.showcase.map((item) => `<article><span>Sample</span><strong>${item}</strong></article>`).join("")}</div>
+            </section>
+            <section>
+              <div class="eyebrow">Fees</div>
+              <h2>Indicative pricing</h2>
+              <ul class="service-price-list">${list(service.pricing)}</ul>
+              <p class="source-note">Final fees depend on document volume, urgency, risk level, meeting time, third-party costs and whether certified/legal/regulatory professionals are required.</p>
+            </section>
+          </article>
+        </div>
+      </main>
+    `
+  });
+}
+
+const services = pageShell({
+  title: "Services | OTC Study Hub",
+  current: "services",
+  description: "OTC institutional services including premium translation, publishing, academic guardianship, academic events, education fairs and accreditation support.",
+  path: "/services/",
+  body: `
+    <section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC Services</div><h1>Institutional Services</h1><p class="hero-sub">Specialist education, publishing and bilingual advisory services for institutions, academic teams, families and private clients.</p></div></section>
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Service Portfolio</div>
+        <h2>Select a service to view scope, workflow, deliverables and fees.</h2>
+      </div>
+      ${serviceCards()}
+    </section>
+  `
+});
+
 const home = pageShell({
   title: "Overseas Tutorial Centre Ltd (OTC) | 海外督導 | UK Education Consulting",
   description: "Official website of Overseas Tutorial Centre Ltd (OTC) / 海外督導: UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
@@ -1486,9 +2171,11 @@ const home = pageShell({
           <p>Official OTC website for UK education consulting, international curriculum tutoring, study apps, bilingual study guides and Overseas Publishing resources.</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
+            <a href="/services/"><strong>Services</strong><span>Translation, publishing, guardianship, academic events and institutional support</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
-            <a href="/apps/"><strong>Tutorial & Apps</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
+            <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
             <a href="/publishing/"><strong>Publishing</strong><span>Research publishing, study companions, digital products and author services</span></a>
+            <a href="/insights/"><strong>Insights</strong><span>Education articles, pathway notes and shareable application explainers</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">Open UCBELT App</a>
@@ -1516,9 +2203,11 @@ const home = pageShell({
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
-        <article><b>02</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
-        <article><b>03</b><strong>Tutorial & Apps</strong><span>Exam preparation tools, speaking practice, self-review and tutor modes.</span></article>
-        <article><b>04</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
+        <article><b>02</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
+        <article><b>03</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
+        <article><b>04</b><strong>Tools</strong><span>Exam preparation tools, speaking practice, self-review and tutor modes.</span></article>
+        <article><b>05</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
+        <article><b>06</b><strong>Insights</strong><span>Education information articles, application notes and shareable public guidance.</span></article>
       </div>
     </section>
 
@@ -1571,6 +2260,44 @@ const home = pageShell({
           <p class="notice" style="margin-top:22px">Independent OTC practice resource. Not an official UCB publication, official test paper or guaranteed-score product.</p>
         </div>
       </div>
+    </section>
+
+    <section class="band compact-band premium-translation-section">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Premium Translation</div>
+        <h2>High-level Chinese-English translation and editorial support.</h2>
+        <p>Premium bilingual translation, editing and context calibration for university applications, business records, legal-context documents, publishing manuscripts and high-stakes communications.</p>
+      </div>
+      <div class="translation-service-grid">
+        <article>
+          <b>01</b>
+          <strong>Application and academic translation</strong>
+          <span>Personal statements, CVs, reference materials, academic certificates, research plans and supporting statements.</span>
+        </article>
+        <article>
+          <b>02</b>
+          <strong>Business and compliance documents</strong>
+          <span>Company profiles, source-of-funds narratives, director/shareholder background, cross-border business notes and review materials.</span>
+        </article>
+        <article>
+          <b>03</b>
+          <strong>Legal-context translation</strong>
+          <span>Contracts, solicitor correspondence, transaction background, evidence notes and case timelines. Not legal advice.</span>
+        </article>
+        <article>
+          <b>04</b>
+          <strong>Publishing-grade bilingual editing</strong>
+          <span>Research articles, education content, manuscripts, website copy, brand profiles and public-facing content.</span>
+        </article>
+      </div>
+      <div class="translation-premium-note">
+        <div>
+          <strong>Delivery modes</strong>
+          <p>Literal translation, contextual translation, UK academic tone, business tone, publishing tone or final pre-submission polish.</p>
+        </div>
+        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Premium%20Chinese-English%20Translation%20Service%20Enquiry">Enquire</a>
+      </div>
+      <p class="source-note">Service boundary: OTC provides translation, editing, context organisation and English expression support. Certified translation, notarisation, legal advice or official certification must be checked separately and handled by the appropriate professional where required.</p>
     </section>
 
     <section class="band publishing-overview">
@@ -1953,12 +2680,560 @@ const courses = pageShell({
           <p>Study-route planning, top-up route review, academic profile organisation and ongoing learner guidance packages.</p>
           <span>Planning support only; not guaranteed admission, visa, credit-transfer or placement service.</span>
         </a>
+        <a class="course-system-entry" href="/university-applications/">
+          <b>06</b>
+          <h3>University Applications</h3>
+          <p>Country, institution, school and programme-based application screening for UK and international university courses.</p>
+          <span>透過 OTC 申請. Students can submit a basic profile for eligibility review and next-step advice.</span>
+        </a>
       </div>
     </section>
 
     <section class="band compact-band">
-      <div class="notice">This page is a course-system gateway. Select one of the four entrances above to open the relevant subpage. Availability depends on approval status, current staff expertise, learner demand, resources, cohort opening and applicable awarding-body requirements.</div>
+      <div class="notice">This page is a course-system gateway. Select one of the entrances above to open the relevant subpage. Availability depends on approval status, current staff expertise, learner demand, resources, cohort opening and applicable awarding-body requirements.</div>
     </section>
+  `
+});
+
+const universityApplications = pageShell({
+  title: "University Applications | OTC Study Hub",
+  current: "courses",
+  description: "OTC university application screening by country, institution, school and programme, starting with University of Edinburgh MSc Marketing.",
+  path: "/university-applications/",
+  body: `
+    <section class="page-hero application-hero"><div class="band"><div class="eyebrow">University Applications</div><h1>Apply through OTC</h1><p>A structured entrance for students who want an initial eligibility review before applying to selected university courses. The first programme record is University of Edinburgh MSc Marketing.</p></div></section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Programme Portfolio</div>
+        <h2>Liu Xiaotong case portfolio: media, marketing and communication routes.</h2>
+        <p>This first portfolio turns one live student case into a reusable course database. Australia now includes the full official university list as institution-level review entries, with selected media, communication and marketing courses added as confirmed programme records.</p>
+      </div>
+      <div class="application-layout">
+        <aside class="programme-filter-panel" aria-label="Programme filters">
+          <label for="countryFilter">Country</label>
+          <select id="countryFilter">
+            <option value="All">All countries</option>
+          </select>
+          <label for="institutionFilter">University</label>
+          <select id="institutionFilter">
+            <option value="All">All universities</option>
+          </select>
+          <label for="schoolFilter">School / Faculty</label>
+          <select id="schoolFilter">
+            <option value="All">All schools</option>
+          </select>
+          <label for="programmeFilter">Programme</label>
+          <select id="programmeFilter">
+            <option value="edinburgh-msc-marketing">MSc Marketing</option>
+          </select>
+        </aside>
+
+        <article class="programme-detail-panel" id="programmeDetail">
+        </article>
+      </div>
+      <div class="programme-card-grid" id="programmeCardGrid"></div>
+      <p class="source-note">Australia institution coverage follows the Study Australia public list of Australian universities. Institution-level entries are screening routes; course-level eligibility must still be checked against each university's official admissions page.</p>
+    </section>
+
+    <section class="band compact-band" id="otc-apply-form">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Eligibility Screening</div>
+        <h2>Send a basic profile for OTC review.</h2>
+        <p>The form gives an instant internal guidance band and prepares an email summary for OTC. It is an initial review only, not an admission decision.</p>
+      </div>
+      <form class="application-screening-form" id="applicationScreeningForm">
+        <div class="application-route-summary" id="applicationRouteSummary" hidden></div>
+        <input type="hidden" name="targetCountry" id="targetCountry">
+        <input type="hidden" name="targetState" id="targetState">
+        <input type="hidden" name="targetInstitution" id="targetInstitution">
+        <div class="form-grid">
+          <label>Student name
+            <input name="studentName" autocomplete="name" placeholder="e.g. Liu Xiaotong" required>
+          </label>
+          <label>Email
+            <input name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
+          </label>
+          <label>Current institution
+            <input name="institution" placeholder="e.g. Donghua University" required>
+          </label>
+          <label>Current major
+            <input name="major" placeholder="e.g. Public Relations" required>
+          </label>
+          <label>Qualification stage
+            <select name="stage" required>
+              <option value="">Select</option>
+              <option>Year 3 undergraduate</option>
+              <option>Final-year undergraduate</option>
+              <option>Graduated bachelor</option>
+              <option>Other pathway / transfer case</option>
+            </select>
+          </label>
+          <label>GPA or average
+            <input name="gpa" placeholder="e.g. 3.94/4.0 or 89.4%" required>
+          </label>
+          <label>English score
+            <input name="english" placeholder="e.g. IELTS 6.0, target 6.5">
+          </label>
+          <label>Target intake
+            <select name="intake">
+              <option>2026 entry</option>
+              <option>2027 entry</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+        </div>
+        <label>Application notes
+          <textarea name="notes" rows="5" placeholder="Internships, target career, document status, previous refusals, scholarship needs or special circumstances."></textarea>
+        </label>
+        <div class="application-result" id="applicationResult" aria-live="polite">
+          Complete the profile to receive an initial OTC review band.
+        </div>
+        <div class="programme-actions">
+          <button class="btn btn-dark" type="button" id="reviewButton">Check eligibility</button>
+          <a class="btn btn-light" id="mailtoButton" href="mailto:office@overseasuk.com?subject=OTC%20University%20Application%20Screening%20-%20University%20of%20Edinburgh%20MSc%20Marketing">Send to OTC</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">System Expansion</div>
+        <h2>Next database layers.</h2>
+      </div>
+      <div class="course-system-grid application-system-grid application-system-compact">
+        <article><b>01</b><h3>Country</h3><p>UK, Australia, Canada, US, Europe and Asia-Pacific admission routes.</p><span>Different document and timing logic by jurisdiction.</span></article>
+        <article><b>02</b><h3>Institution</h3><p>University-level profile, ranking band, admission portal and agent/partner status.</p><span>Official entry requirements stay linked to source pages.</span></article>
+        <article><b>03</b><h3>School</h3><p>Business School, Media, Engineering, Education, Computing and other academic units.</p><span>Each school may have different PS, portfolio or reference rules.</span></article>
+        <article><b>04</b><h3>Programme</h3><p>Course-level record with requirements, application status, intake, fee and document checklist.</p><span>OTC review can generate a personalised next-step plan.</span></article>
+      </div>
+    </section>
+
+    <script>
+      (function () {
+        const form = document.getElementById("applicationScreeningForm");
+        const result = document.getElementById("applicationResult");
+        const reviewButton = document.getElementById("reviewButton");
+        const mailtoButton = document.getElementById("mailtoButton");
+        const countryFilter = document.getElementById("countryFilter");
+        const institutionFilter = document.getElementById("institutionFilter");
+        const schoolFilter = document.getElementById("schoolFilter");
+        const programmeFilter = document.getElementById("programmeFilter");
+        const programmeDetail = document.getElementById("programmeDetail");
+        const programmeCardGrid = document.getElementById("programmeCardGrid");
+        const routeSummary = document.getElementById("applicationRouteSummary");
+        const targetCountry = document.getElementById("targetCountry");
+        const targetState = document.getElementById("targetState");
+        const targetInstitution = document.getElementById("targetInstitution");
+
+        const coreProgrammes = [
+          {
+            id: "lse-msc-media-communications",
+            country: "United Kingdom",
+            institution: "London School of Economics and Political Science",
+            school: "Department of Media and Communications",
+            programme: "MSc Media and Communications",
+            level: "Postgraduate taught",
+            band: "Dream",
+            fit: "Best for a high-GPA PR/media applicant with a strong public communication and research narrative.",
+            action: "Dream-school positioning, research-led personal statement and referee planning",
+            url: "https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2026/MSc-Media-and-Communications"
+          },
+          {
+            id: "ucl-msc-science-communication",
+            country: "United Kingdom",
+            institution: "University College London",
+            school: "Department of Science and Technology Studies",
+            programme: "Science Communication MSc",
+            level: "Postgraduate taught",
+            band: "Dream / target to verify",
+            fit: "A practical UCL communication route to verify against the student's PR, public education and media evidence.",
+            action: "Course-fit check, module review and alternative UCL media route search",
+            url: "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/science-communication-msc"
+          },
+          {
+            id: "kcl-ma-culture-media-creative-industries",
+            country: "United Kingdom",
+            institution: "King's College London",
+            school: "Faculty of Arts and Humanities",
+            programme: "MA Culture, Media & Creative Industries",
+            level: "Postgraduate taught",
+            band: "Target",
+            fit: "Strong fit for PR, media, culture, brand communication and internship-based application narrative.",
+            action: "Narrative alignment, work-experience evidence and PS structure",
+            url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/culture-media-and-creative-industries-ma"
+          },
+          {
+            id: "warwick-msc-marketing-strategy",
+            country: "United Kingdom",
+            institution: "University of Warwick",
+            school: "Warwick Business School",
+            programme: "MSc Marketing & Strategy",
+            level: "Postgraduate taught",
+            band: "Target",
+            fit: "Suitable for a high academic average with internships in advertising, HR and brand-related business work.",
+            action: "Business-school CV framing and marketing-strategy motivation review",
+            url: "https://www.wbs.ac.uk/courses/postgraduate/marketing-strategy/"
+          },
+          {
+            id: "manchester-msc-marketing",
+            country: "United Kingdom",
+            institution: "University of Manchester",
+            school: "Alliance Manchester Business School",
+            programme: "MSc Marketing",
+            level: "Postgraduate taught",
+            band: "Match",
+            fit: "Good match for marketing conversion and commercial communication direction.",
+            action: "Document audit, English condition planning and application timing",
+            url: "https://www.manchester.ac.uk/study/masters/courses/list/08597/msc-marketing/"
+          },
+          {
+            id: "edinburgh-msc-marketing",
+            country: "United Kingdom",
+            institution: "University of Edinburgh",
+            school: "Business School",
+            programme: "MSc Marketing",
+            level: "Postgraduate taught",
+            band: "Match",
+            fit: "Clear business-school marketing route for the student's PR and marketing-communications profile.",
+            action: "Pre-application eligibility review and document strategy",
+            url: "https://www.business-school.ed.ac.uk/msc/marketing"
+          },
+          {
+            id: "melbourne-master-marketing-communications",
+            country: "Australia",
+            institution: "University of Melbourne",
+            school: "Faculty of Arts",
+            programme: "Master of Marketing Communications",
+            level: "Postgraduate coursework",
+            band: "Target",
+            fit: "Strong Australia option for PR, brand communication and marketing communications.",
+            action: "Australia document check, English condition and offer timing plan",
+            url: "https://study.unimelb.edu.au/find/courses/graduate/master-of-marketing-communications/"
+          },
+          {
+            id: "sydney-master-media-practice",
+            country: "Australia",
+            institution: "University of Sydney",
+            school: "Faculty of Arts and Social Sciences",
+            programme: "Master of Media Practice",
+            level: "Postgraduate coursework",
+            band: "Match",
+            fit: "Media-practice route suited to communication, PR, writing and professional media development.",
+            action: "Australia portfolio of evidence and programme-fit review",
+            url: "https://www.sydney.edu.au/courses/courses/pc/master-of-media-practice.html"
+          },
+          {
+            id: "anu-master-science-communication",
+            country: "Australia",
+            institution: "Australian National University",
+            school: "Centre for the Public Awareness of Science",
+            programme: "Master of Science Communication",
+            level: "Postgraduate coursework",
+            band: "Match / alternative",
+            fit: "Public communication alternative to verify against the student's Merck x Weibo health education internship evidence.",
+            action: "Alternative-route review and official requirement check",
+            url: "https://programsandcourses.anu.edu.au/program/MSCOM"
+          }
+        ];
+
+        const australianUniversities = [
+          "Adelaide University",
+          "Australian Catholic University",
+          "Australian University of Theology",
+          "Australian National University",
+          "Avondale University",
+          "Bond University",
+          "Charles Darwin University",
+          "Charles Sturt University",
+          "CQ University",
+          "Curtin University",
+          "Deakin University",
+          "Edith Cowan University",
+          "Federation University of Australia",
+          "Flinders University",
+          "Griffith University",
+          "James Cook University",
+          "La Trobe University",
+          "Macquarie University",
+          "Monash University",
+          "Murdoch University",
+          "Queensland University of Technology",
+          "RMIT University",
+          "Southern Cross University",
+          "Swinburne University of Technology",
+          "Torrens University Australia",
+          "University of Canberra",
+          "University of Divinity",
+          "University of Melbourne",
+          "University of New England",
+          "University of New South Wales",
+          "University of Newcastle",
+          "University of Notre Dame Australia",
+          "University of Queensland",
+          "University of Southern Queensland",
+          "University of Sydney",
+          "University of Tasmania",
+          "University of Technology Sydney",
+          "University of the Sunshine Coast",
+          "University of Western Australia",
+          "University of Wollongong",
+          "Victoria University",
+          "Western Sydney University"
+        ];
+
+        const australianOfficialCourseLinks = {
+          "Australian National University": "https://programsandcourses.anu.edu.au/",
+          "University of Melbourne": "https://study.unimelb.edu.au/find/",
+          "University of Sydney": "https://www.sydney.edu.au/courses/",
+          "University of New South Wales": "https://www.unsw.edu.au/study",
+          "University of Queensland": "https://study.uq.edu.au/study-options",
+          "Monash University": "https://www.monash.edu/study/courses",
+          "University of Western Australia": "https://www.uwa.edu.au/study/courses",
+          "University of Adelaide": "https://www.adelaide.edu.au/degree-finder/",
+          "Adelaide University": "https://www.adelaideuni.edu.au/study/"
+        };
+
+        const existingAustralianInstitutions = new Set(coreProgrammes.filter((item) => item.country === "Australia").map((item) => item.institution));
+        const australianInstitutionProgrammes = australianUniversities
+          .filter((institution) => !existingAustralianInstitutions.has(institution))
+          .map((institution) => ({
+            id: "australia-" + institution.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+            country: "Australia",
+            institution,
+            school: "University-wide postgraduate admissions",
+            programme: "Australia postgraduate application review",
+            level: "Postgraduate coursework / research to verify",
+            band: "Institution review",
+            fit: "Institution-level Australian university option to be checked against the student's academic profile, English score, subject direction and intake timing.",
+            action: "Identify suitable media, communication, marketing or related postgraduate courses and confirm official entry requirements",
+            url: australianOfficialCourseLinks[institution] || "https://www.studyaustralia.gov.au/en/plan-your-studies/list-of-australian-universities"
+          }));
+
+        const programmes = coreProgrammes.concat(australianInstitutionProgrammes);
+
+        let currentProgramme = programmes.find((item) => item.id === "edinburgh-msc-marketing") || programmes[0];
+
+        function buildApplyHref(programme) {
+          const params = new URLSearchParams({
+            country: programme.country,
+            institution: programme.institution,
+            programme: programme.programme
+          });
+          return "/university-applications/?" + params.toString() + "#otc-apply-form";
+        }
+
+        function uniqueValues(key, source) {
+          return [...new Set(source.map((item) => item[key]))].sort();
+        }
+
+        function setOptions(select, values, allLabel) {
+          const previous = select.value || "All";
+          select.innerHTML = '<option value="All">' + allLabel + '</option>' + values.map((value) => '<option value="' + value + '">' + value + '</option>').join("");
+          select.value = values.includes(previous) ? previous : "All";
+        }
+
+        function filteredProgrammes() {
+          return programmes.filter((item) => {
+            return (countryFilter.value === "All" || item.country === countryFilter.value)
+              && (institutionFilter.value === "All" || item.institution === institutionFilter.value)
+              && (schoolFilter.value === "All" || item.school === schoolFilter.value);
+          });
+        }
+
+        function renderProgramme(programme) {
+          currentProgramme = programme;
+          programmeFilter.value = programme.id;
+          programmeDetail.innerHTML = [
+            '<div class="programme-meta-row"><span>' + programme.country + '</span><span>' + programme.level + '</span><span>' + programme.band + '</span></div>',
+            '<h2>' + programme.institution + ' - ' + programme.programme + '</h2>',
+            '<p>' + programme.fit + '</p>',
+            '<dl class="programme-facts">',
+            '<div><dt>Country</dt><dd>' + programme.country + '</dd></div>',
+            '<div><dt>Institution</dt><dd>' + programme.institution + '</dd></div>',
+            '<div><dt>School</dt><dd>' + programme.school + '</dd></div>',
+            '<div><dt>Course</dt><dd>' + programme.programme + '</dd></div>',
+            '<div><dt>OTC action</dt><dd>' + programme.action + '</dd></div>',
+            '</dl>',
+            '<div class="programme-actions">',
+            '<a class="btn btn-dark" href="' + buildApplyHref(programme) + '">Apply through OTC</a>',
+            '<a class="btn btn-light" href="' + programme.url + '" target="_blank" rel="noopener">Official course page</a>',
+            '</div>'
+          ].join("");
+          updateReview();
+        }
+
+        function renderCards(list) {
+          programmeCardGrid.innerHTML = list.map((item) => [
+            '<button type="button" class="programme-mini-card' + (item.id === currentProgramme.id ? ' is-active' : '') + '" data-programme-id="' + item.id + '">',
+            '<span>' + item.country + ' · ' + item.band + '</span>',
+            '<strong>' + item.institution + '</strong>',
+            '<em>' + item.programme + '</em>',
+            '</button>'
+          ].join("")).join("");
+        }
+
+        function refreshFilters() {
+          setOptions(countryFilter, uniqueValues("country", programmes), "All countries");
+          setOptions(institutionFilter, uniqueValues("institution", countryFilter.value === "All" ? programmes : programmes.filter((item) => item.country === countryFilter.value)), "All universities");
+          const institutionScope = programmes.filter((item) => (countryFilter.value === "All" || item.country === countryFilter.value) && (institutionFilter.value === "All" || item.institution === institutionFilter.value));
+          setOptions(schoolFilter, uniqueValues("school", institutionScope), "All schools");
+        }
+
+        function refreshProgrammes() {
+          refreshFilters();
+          const list = filteredProgrammes();
+          programmeFilter.innerHTML = list.map((item) => '<option value="' + item.id + '">' + item.programme + ' - ' + item.institution + '</option>').join("");
+          const selected = list.find((item) => item.id === currentProgramme.id) || list[0] || programmes[0];
+          renderCards(list);
+          renderProgramme(selected);
+        }
+
+        function setSelectValue(select, value) {
+          if (!value) return false;
+          const option = Array.from(select.options).find((item) => item.value.toLowerCase() === value.toLowerCase());
+          if (!option) return false;
+          select.value = option.value;
+          return true;
+        }
+
+        function escapeHtml(value) {
+          return String(value || "").replace(/[&<>"']/g, function (char) {
+            return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char];
+          });
+        }
+
+        function canonicalInstitutionName(value) {
+          const institutionAliases = {
+            "unsw sydney": "University of New South Wales",
+            "uts / uts college": "University of Technology Sydney",
+            "university of newcastle / newcastle college": "University of Newcastle",
+            "monash university / monash college": "Monash University",
+            "central queensland university": "CQ University",
+            "university of western australia / uwa college": "University of Western Australia",
+            "murdoch university / murdoch college": "Murdoch University",
+            "notre dame australia": "University of Notre Dame Australia",
+            "university of adelaide": "Adelaide University",
+            "kic adelaide college": "Adelaide University",
+            "international college of hotel management": "Adelaide University"
+          };
+          const key = (value || "").trim().toLowerCase();
+          return institutionAliases[key] || value;
+        }
+
+        function applyIncomingRoute() {
+          const params = new URLSearchParams(window.location.search);
+          const requestedCountry = params.get("country") || "";
+          const requestedState = params.get("state") || "";
+          const requestedInstitution = params.get("institution") || "";
+          const requestedProgramme = params.get("programme") || "";
+          const canonicalInstitution = canonicalInstitutionName(requestedInstitution);
+
+          if (requestedCountry) {
+            setSelectValue(countryFilter, requestedCountry);
+            refreshFilters();
+          }
+          if (canonicalInstitution) {
+            setSelectValue(institutionFilter, canonicalInstitution);
+            refreshFilters();
+          }
+
+          const match = programmes.find((item) => {
+            return (!requestedCountry || item.country.toLowerCase() === requestedCountry.toLowerCase())
+              && (!canonicalInstitution || item.institution.toLowerCase() === canonicalInstitution.toLowerCase())
+              && (!requestedProgramme || item.programme.toLowerCase() === requestedProgramme.toLowerCase());
+          }) || programmes.find((item) => canonicalInstitution && item.institution.toLowerCase() === canonicalInstitution.toLowerCase());
+
+          if (match) {
+            currentProgramme = match;
+          }
+
+          if (requestedCountry || requestedState || requestedInstitution) {
+            targetCountry.value = requestedCountry;
+            targetState.value = requestedState;
+            targetInstitution.value = requestedInstitution || canonicalInstitution;
+            routeSummary.hidden = false;
+            routeSummary.innerHTML = [
+              '<span>Target route</span>',
+              '<strong>' + escapeHtml([requestedCountry, requestedState, requestedInstitution || canonicalInstitution].filter(Boolean).join(" / ")) + '</strong>',
+              '<p>OTC will use this selected route as the starting point for eligibility screening, course matching and document planning.</p>'
+            ].join("");
+          }
+        }
+
+        function scoreProfile(data) {
+          const text = [data.gpa, data.english, data.stage, data.notes].join(" ").toLowerCase();
+          let score = 0;
+          if (/3\\.7|3\\.8|3\\.9|4\\.0|85|86|87|88|89|90|91|92|93|94|95/.test(text)) score += 2;
+          if (/final|year 3|graduated/.test(text)) score += 1;
+          if (/ielts\\s*6\\.5|ielts\\s*7|toefl|pte|duolingo/.test(text)) score += 2;
+          if (/intern|work|research|project|portfolio|competition|pr|marketing|media/.test(text)) score += 1;
+          if (/refusal|gap|fail|low|missing|not sure/.test(text)) score -= 1;
+          return score;
+        }
+
+        function buildAdvice(score) {
+          if (score >= 5) {
+            return "Strong initial fit. OTC should prioritise document audit, personal statement positioning and submission timing.";
+          }
+          if (score >= 3) {
+            return "Potentially suitable. OTC should check transcript details, English condition and programme fit before application.";
+          }
+          return "Needs careful review. OTC should first assess academic level, English readiness and alternative programme options.";
+        }
+
+        function updateReview() {
+          const data = Object.fromEntries(new FormData(form).entries());
+          const score = scoreProfile(data);
+          const advice = buildAdvice(score);
+          result.innerHTML = "<strong>Initial OTC review band:</strong> " + advice + "<br><span>This is guidance only. Final eligibility depends on official university admissions checks.</span>";
+          const body = [
+            "OTC University Application Screening",
+            "",
+            "Programme: " + currentProgramme.institution + " - " + currentProgramme.programme,
+            "Country: " + currentProgramme.country,
+            "School: " + currentProgramme.school,
+            "Programme band: " + currentProgramme.band,
+            "Target route country: " + (data.targetCountry || ""),
+            "Target route state: " + (data.targetState || ""),
+            "Target route institution: " + (data.targetInstitution || ""),
+            "Student name: " + (data.studentName || ""),
+            "Email: " + (data.email || ""),
+            "Current institution: " + (data.institution || ""),
+            "Current major: " + (data.major || ""),
+            "Qualification stage: " + (data.stage || ""),
+            "GPA / average: " + (data.gpa || ""),
+            "English score: " + (data.english || ""),
+            "Target intake: " + (data.intake || ""),
+            "Notes: " + (data.notes || ""),
+            "",
+            "Initial OTC review band: " + advice
+          ].join("\\n");
+          mailtoButton.href = "mailto:office@overseasuk.com?subject=" + encodeURIComponent("OTC University Application Screening - " + currentProgramme.institution + " " + currentProgramme.programme) + "&body=" + encodeURIComponent(body);
+        }
+
+        reviewButton.addEventListener("click", updateReview);
+        form.addEventListener("input", updateReview);
+        countryFilter.addEventListener("change", refreshProgrammes);
+        institutionFilter.addEventListener("change", refreshProgrammes);
+        schoolFilter.addEventListener("change", refreshProgrammes);
+        programmeFilter.addEventListener("change", function () {
+          const selected = programmes.find((item) => item.id === programmeFilter.value);
+          if (selected) renderProgramme(selected);
+          renderCards(filteredProgrammes());
+        });
+        programmeCardGrid.addEventListener("click", function (event) {
+          const card = event.target.closest("[data-programme-id]");
+          if (!card) return;
+          const selected = programmes.find((item) => item.id === card.dataset.programmeId);
+          if (selected) renderProgramme(selected);
+          renderCards(filteredProgrammes());
+        });
+        refreshFilters();
+        applyIncomingRoute();
+        refreshProgrammes();
+      })();
+    </script>
   `
 });
 
@@ -2033,13 +3308,18 @@ const chineseEntrance = pageShell({
       <div class="hero-inner">
         <div>
           <div class="eyebrow">教育諮詢 · 課程輔導 · 出版</div>
-          <h1>OTC 中文</h1>
+          <div class="hero-title-block">
+            <h1>OTC 中文</h1>
+            <h2 class="hero-subhead">Overseas Tutorial Centre</h2>
+          </div>
           <p>Overseas Tutorial Centre 的結構化入口，整合教育諮詢、課程支持、考試與練習工具，以及雙語出版資源。</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>教育諮詢</strong><span>路線規劃、申請說明、家庭溝通與學生支持</span></a>
+            <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議、教育展與機構支持</span></a>
             <a href="/courses/"><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃</span></a>
-            <a href="/apps/"><strong>輔導工具與 App</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
+            <a href="/apps/"><strong>工具</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
             <a href="/publishing/"><strong>出版</strong><span>研究出版、學習伴侶書、數字產品與作者服務</span></a>
+            <a href="/insights/"><strong>教育資訊</strong><span>中英雙語短文、申請觀察、路線說明與可分享文章</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">打開 UCBELT App</a>
@@ -2067,31 +3347,42 @@ const chineseEntrance = pageShell({
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>教育諮詢</strong><span>學習規劃、大學路線說明、申請解釋與家庭指導。</span></article>
-        <article><b>02</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
-        <article><b>03</b><strong>輔導工具與 App</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
-        <article><b>04</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
+        <article><b>02</b><strong>服務</strong><span>翻譯、出版、學術監護、學術會議、教育展與機構 accreditation 支持。</span></article>
+        <article><b>03</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
+        <article><b>04</b><strong>工具</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
+        <article><b>05</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
+        <article><b>06</b><strong>教育資訊</strong><span>中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
       </div>
     </section>
 
-    <section class="band curriculum-overview">
-      <div class="section-head">
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">教育資訊 / Insights</div>
+        <h2>中英雙語文章</h2>
+        <p>每篇 Insights 文章都有完整英文版和完整中文版。中文入口會進入中文正文優先的文章頁，英文作為對照。</p>
+      </div>
+      <div class="insights-grid">
+        ${insightsArticles.map((article) => `
+          <article class="insight-card">
+            <span>${article.category} · ${article.date}</span>
+            <h3>${article.titleZh || article.title}</h3>
+            <p>${article.summaryZh || article.summary}</p>
+            <a class="btn btn-light" href="/zh/insights/${article.slug}/">閱讀中文正文</a>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band curriculum-overview">
+      <div class="section-head compact-head">
         <div class="eyebrow">國際課程輔導</div>
         <h2>課程輔導</h2>
         <p>OTC 支持正在修讀 A-Level、BTEC、IB、AP 及相關國際課程的中國 EAL 學生，把學科理解轉化為英文學術輸出。</p>
       </div>
-      <div class="curriculum-layout">
-        <div class="curriculum-map">${zhInternationalCurriculumCards(4)}</div>
-        <aside class="curriculum-panel">
-          <h3>從理解到輸出</h3>
-          <p>重點不是 ready-made answers，而是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
-          <div class="curriculum-tags">
-            <span>雙語概念輔導</span>
-            <span>Academic Writing</span>
-            <span>Coursework Planning</span>
-            <span>Essay Evaluation</span>
-          </div>
-          <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
-        </aside>
+      <div class="curriculum-map zh-compact-curriculum">${zhInternationalCurriculumCards(4)}</div>
+      <div class="zh-compact-action">
+        <p>重點是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
+        <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
       </div>
     </section>
 
@@ -2123,6 +3414,28 @@ const chineseEntrance = pageShell({
           <p class="notice" style="margin-top:22px">OTC 獨立練習資源。不是 UCB 官方出版物、官方試卷或保分產品。</p>
         </div>
       </div>
+    </section>
+
+    <section class="band compact-band premium-translation-section">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Language & Context Studio</div>
+        <h2>高端中英語境工作室</h2>
+        <p>為大學申請、商務文件、法律語境材料與出版稿件提供精密翻譯、雙語編修與跨文化表達校準。</p>
+      </div>
+      <div class="translation-service-grid">
+        <article><b>01</b><strong>申請與學術翻譯</strong><span>Personal statement、CV、推薦信素材、學術證明、研究計劃與申請補充說明。</span></article>
+        <article><b>02</b><strong>商務與合規文件</strong><span>公司介紹、資金來源說明、董事/股東背景、跨境業務說明與審核材料語境整理。</span></article>
+        <article><b>03</b><strong>法律語境翻譯</strong><span>合約、律師往來、交易背景、證據說明與案件時間線翻譯。非法律意見。</span></article>
+        <article><b>04</b><strong>出版級雙語編修</strong><span>研究文章、教育內容、書稿、網站文案、品牌介紹與 public-facing content。</span></article>
+      </div>
+      <div class="translation-premium-note">
+        <div>
+          <strong>交付方式</strong>
+          <p>可按文件用途提供直譯、意譯、英式學術語氣、商務語氣、出版語氣或提交前 final polish。</p>
+        </div>
+        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Premium%20Chinese-English%20Translation%20Service%20Enquiry">諮詢翻譯服務</a>
+      </div>
+      <p class="source-note">服務邊界：OTC 可提供翻譯、編修、語境整理與英文表達優化；如文件需 certified translation、notarisation、legal advice 或官方認證，需另行確認適用要求並由相應專業人士處理。</p>
     </section>
 
     <section class="band publishing-overview">
@@ -2649,7 +3962,6 @@ const resources = pageShell({
         </aside>
       </div>
     </section>
-
     <section class="spotlight">
       <div class="band compact-band">
         <div class="section-head compact-head">
@@ -2672,7 +3984,7 @@ const resources = pageShell({
         <div class="eyebrow">How We Classify Consulting Work</div>
         <h2>Four service levels keep expectations clear.</h2>
       </div>
-      <div class="consulting-levels">
+      <div class="consulting-levels australia-evidence-cards">
         <article><strong>Information Guidance</strong><p>General pathway explanation, public-facing resources and first-stage comparison. Suitable for early exploration.</p><span>Usually light-touch.</span></article>
         <article><strong>Application Support</strong><p>Institution research, document checklist, communication sequence, application timing and offer-condition review.</p><span>May be free or paid depending on institution and agency arrangement.</span></article>
         <article><strong>Complex Advisory Case</strong><p>Non-standard academic history, transfers, refusals, appeals, progression risk, guardianship or high-stakes institution communication.</p><span>Consulting fee may apply.</span></article>
@@ -2734,7 +4046,6 @@ const australiaBusinessLanding = pageShell({
         </aside>
       </div>
     </section>
-
     <section class="spotlight">
       <div class="band compact-band">
         <div class="section-head compact-head">
@@ -2775,6 +4086,851 @@ const australiaBusinessLanding = pageShell({
         <strong>中文說明</strong>
         <p>OTC為海外教育及商業機構提供澳洲落地行政支援、市場調研、文件整理、本地聯絡及專業人士轉介服務。OTC不提供澳洲移民、法律、稅務、金融或受監管教育合規建議；如涉及相關專業服務，將協助轉介持牌或合資格專業人士。</p>
       </div>
+    </section>
+  `
+});
+
+const australiaOfficePresence = pageShell({
+  title: "Australia Office Presence | OTC Study Hub",
+  current: "about",
+  description: "OTC's Australia-facing office route from NSW: coordination base, university applications, student support, institutional services, market intelligence and professional referral.",
+  path: "/australia-office-presence/",
+  body: `
+    <section class="page-hero australia-office-hero"><div class="band"><div class="eyebrow">Australia Office Presence</div><h1>OTC Australia Office Route</h1><p>A staged NSW-based operating route for education consulting, student support, institutional services and Australia-facing market development.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence">Contact OTC</a><a class="btn btn-secondary" href="/about/">Back to About</a></div></div></section>
+
+    <section class="band">
+      <div class="australia-office-intro">
+        <div>
+          <div class="eyebrow">Operating Position</div>
+          <h2>Establishing presence first, then expanding service depth.</h2>
+          <p>OTC's Australia route begins with a practical NSW coordination base and expands into university application support, family communication, bilingual institutional services, market intelligence and carefully managed professional referral. The route is designed for evidence-based development: each activity should leave a clean record that can support business planning, institutional conversations and professional review.</p>
+          <figure class="coordination-illustration" aria-label="Australia education coordination illustration">
+            <svg viewBox="0 0 820 260" role="img" aria-labelledby="coordinationIllustrationTitle">
+              <title id="coordinationIllustrationTitle">Australia education coordination network</title>
+              <defs>
+                <linearGradient id="coordinationLine" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#b88a3b" stop-opacity="0.18"/>
+                  <stop offset="52%" stop-color="#1f5e52" stop-opacity="0.38"/>
+                  <stop offset="100%" stop-color="#b88a3b" stop-opacity="0.22"/>
+                </linearGradient>
+              </defs>
+              <path class="coordination-shelf" d="M42 212 H768"/>
+              <path class="coordination-route" d="M82 164 C176 96, 242 188, 332 122 S506 64, 638 130 S728 174, 780 92"/>
+              <path class="coordination-route faint" d="M126 210 C218 166, 286 232, 384 188 S548 132, 718 198"/>
+              <g class="coordination-microgrid">
+                <path d="M58 68 C140 42, 206 88, 272 62 S410 34, 494 72 S632 110, 746 58"/>
+                <path d="M54 104 C154 82, 232 134, 318 100 S454 76, 568 118 S684 148, 774 114"/>
+                <path d="M76 136 C184 116, 260 158, 368 142 S520 98, 618 156 S724 202, 784 158"/>
+                <path d="M112 184 C206 140, 288 210, 416 168 S610 154, 748 220"/>
+                <path d="M132 58 C156 112, 138 152, 192 204"/>
+                <path d="M240 48 C278 104, 248 156, 316 218"/>
+                <path d="M376 54 C344 116, 398 152, 372 218"/>
+                <path d="M514 54 C550 108, 506 160, 590 214"/>
+                <path d="M666 58 C626 116, 688 158, 658 218"/>
+                <path d="M730 76 C696 120, 754 162, 710 208"/>
+              </g>
+              <g class="coordination-index-lines">
+                <path d="M210 82 H292 V122"/>
+                <path d="M454 84 H526 V130"/>
+                <path d="M292 174 H364 V122"/>
+                <path d="M520 188 H612 V132"/>
+                <path d="M142 184 H218 V136"/>
+                <path d="M662 102 H734 V166"/>
+              </g>
+              <g class="coordination-clusters">
+                <path d="M86 86 H168 M98 118 H188 M82 150 H152 M122 176 H212"/>
+                <path d="M328 84 H418 M354 112 H466 M312 148 H420 M372 178 H488"/>
+                <path d="M582 82 H694 M610 112 H742 M556 148 H666 M650 178 H776"/>
+                <circle cx="86" cy="86" r="4"/><circle cx="168" cy="86" r="3"/><circle cx="98" cy="118" r="3"/><circle cx="188" cy="118" r="4"/>
+                <circle cx="82" cy="150" r="4"/><circle cx="152" cy="150" r="3"/><circle cx="122" cy="176" r="3"/><circle cx="212" cy="176" r="4"/>
+                <circle cx="328" cy="84" r="4"/><circle cx="418" cy="84" r="3"/><circle cx="354" cy="112" r="3"/><circle cx="466" cy="112" r="4"/>
+                <circle cx="312" cy="148" r="4"/><circle cx="420" cy="148" r="3"/><circle cx="372" cy="178" r="3"/><circle cx="488" cy="178" r="4"/>
+                <circle cx="582" cy="82" r="4"/><circle cx="694" cy="82" r="3"/><circle cx="610" cy="112" r="3"/><circle cx="742" cy="112" r="4"/>
+                <circle cx="556" cy="148" r="4"/><circle cx="666" cy="148" r="3"/><circle cx="650" cy="178" r="3"/><circle cx="776" cy="178" r="4"/>
+              </g>
+              <g class="coordination-nodes">
+                <circle cx="82" cy="164" r="6"/><circle cx="332" cy="122" r="6"/><circle cx="638" cy="130" r="6"/><circle cx="780" cy="92" r="6"/>
+                <circle cx="384" cy="188" r="4"/><circle cx="718" cy="198" r="4"/>
+                <circle cx="132" cy="58" r="3"/><circle cx="240" cy="48" r="3"/><circle cx="376" cy="54" r="3"/><circle cx="514" cy="54" r="3"/><circle cx="666" cy="58" r="3"/>
+                <circle cx="272" cy="62" r="3"/><circle cx="318" cy="100" r="3"/><circle cx="494" cy="72" r="3"/><circle cx="568" cy="118" r="3"/><circle cx="618" cy="156" r="3"/>
+                <circle cx="192" cy="204" r="3"/><circle cx="316" cy="218" r="3"/><circle cx="372" cy="218" r="3"/><circle cx="590" cy="214" r="3"/><circle cx="710" cy="208" r="3"/>
+              </g>
+              <g class="coordination-dots">
+                <circle cx="64" cy="86" r="1.6"/><circle cx="156" cy="72" r="1.6"/><circle cx="226" cy="112" r="1.6"/><circle cx="438" cy="104" r="1.6"/>
+                <circle cx="488" cy="152" r="1.6"/><circle cx="548" cy="88" r="1.6"/><circle cx="608" cy="188" r="1.6"/><circle cx="686" cy="142" r="1.6"/>
+                <circle cx="748" cy="190" r="1.6"/><circle cx="262" cy="190" r="1.6"/><circle cx="424" cy="214" r="1.6"/><circle cx="522" cy="218" r="1.6"/>
+              </g>
+              <g class="coordination-labels">
+                <text x="72" y="238">FILES</text>
+                <text x="310" y="238">ROUTES</text>
+                <text x="574" y="238">LIAISON</text>
+                <text x="204" y="80">AQF</text>
+                <text x="452" y="82">RPL</text>
+                <text x="674" y="92">NSW</text>
+                <text x="94" y="74">STUDENT FILE</text>
+                <text x="96" y="110">TRANSCRIPT</text>
+                <text x="90" y="142">INTAKE</text>
+                <text x="132" y="168">ENGLISH</text>
+                <text x="338" y="76">UNIVERSITY</text>
+                <text x="364" y="104">CREDIT</text>
+                <text x="322" y="140">PATHWAY</text>
+                <text x="382" y="170">OFFER</text>
+                <text x="592" y="74">ADVISER</text>
+                <text x="620" y="104">REFERRAL</text>
+                <text x="566" y="140">NOTES</text>
+                <text x="660" y="170">FOLLOW-UP</text>
+              </g>
+            </svg>
+            <figcaption>Student files, university routes and adviser liaison kept in one coordinated workflow.</figcaption>
+          </figure>
+        </div>
+        <aside class="office-notice-details">
+          <p><strong>Overseas Tutorial Centre Ltd</strong><br>45 Evans St, Balmain, NSW 2041, Australia</p>
+          <p class="office-contact-lines">Australian contact: <a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>UK main telephone / WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          <div class="office-contact-card">
+            <span>Australia coordination contact</span>
+            <strong>Yan Xinyue</strong>
+            <p>Supports OTC's Australia-facing coordination work, including student file organisation, appointment scheduling, education-route communication, bilingual document follow-up and liaison with professional advisers where specialist input is required.</p>
+          </div>
+          <div class="office-status">
+            <span>Current status</span>
+            <strong>Establishing presence</strong>
+            <p>Education coordination and market-entry support are being developed first. Regulated Australian advice remains outside OTC's direct scope.</p>
+          </div>
+          <a class="office-ai-link-card" href="/ai-education-operations/">
+            <span>AI-enabled operations</span>
+            <strong>AI Education Operations Framework</strong>
+            <p>Structured student files, qualification mapping, application workflows, tutorial publishing and Australia route intelligence.</p>
+          </a>
+          <a class="office-ai-link-card" href="/australia-vet-tafe-pathways/">
+            <span>VET / TAFE route coverage</span>
+            <strong>Australia Vocational Pathway Map</strong>
+            <p>State-by-state VET, TAFE, pathway and vocational-course screening for Australia-facing student advisory work.</p>
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="australia-director-welcome">
+        <figure class="director-portrait">
+          <img src="/assets/australia-academic-map-soft.svg?v=20260519-dense" alt="Dense pale map of Australian universities, schools, vocational providers, academic institutions and government education networks">
+          <figcaption>Australia academic network</figcaption>
+        </figure>
+        <div class="director-message">
+          <div class="director-kicker">Welcome from Australia</div>
+          <h2>Welcome to OTC Australia.</h2>
+          <blockquote>
+            <p>OTC's Australia presence is being built to give students, families and education partners a clear local point of coordination. From NSW, our priority is to connect careful student advisory work with practical communication, reliable documentation and responsible professional referral where specialist advice is required.</p>
+            <p>As the Australia office develops, our work will focus on dependable communication, well-organised student files, institution-level pathway screening and a clear professional boundary. We want every family, partner and adviser who works with OTC Australia to understand what we coordinate directly, what evidence we keep, and when a regulated professional should be involved.</p>
+          </blockquote>
+          <div class="director-signature">
+            <img class="director-signature-mark" src="/assets/georgie-barnes-signature.svg?v=20260519-quiet" alt="Georgie Barnes signature">
+            <strong>Georgie Barnes</strong>
+            <span>Executive Director, Australia</span>
+          </div>
+          <div class="director-commitments">
+            <article><b>Student care</b><span>Clear intake, practical next steps and family communication.</span></article>
+            <article><b>Institutional connection</b><span>University application coordination, partner liaison and market intelligence.</span></article>
+            <article><b>Professional boundary</b><span>Regulated migration, legal, tax and compliance matters referred to qualified advisers.</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Cooperation Index</div>
+        <h2>Australia education cooperation map.</h2>
+        <p>This public index shows OTC's Australia-facing coverage by region, institution type and service route. Internal source channels, contract references, commercial terms and platform credentials are maintained privately in OTC's evidence records and are not published on the website.</p>
+      </div>
+      <div class="australia-intelligence-panel">
+        <article class="intel-feature">
+          <span>Public view</span>
+          <strong>Institution and pathway coverage</strong>
+          <p>OTC maintains a structured Australia route across universities, pathway colleges, public and independent schools, VET / TAFE, English-language preparation, professional programmes and national education-promotion materials.</p>
+          <ul>
+            <li>University and pathway application coordination</li>
+            <li>Public school, independent school and guardianship-adjacent routes</li>
+            <li>VET, TAFE, English-language and pathway preparation options</li>
+            <li>Private internal records for contracts, training, compliance and evidence</li>
+          </ul>
+        </article>
+        <div class="cooperation-map-board">
+          <div class="cooperation-map-visual" aria-label="Interactive Australia education cooperation map">
+            <img src="/assets/australia-academic-map-soft.svg?v=20260519-public-index" alt="Australia education cooperation map">
+            <details class="map-pin pin-nsw">
+              <summary>NSW</summary>
+              <div class="map-popover">
+                <strong>New South Wales</strong>
+                <details><summary>UNSW Sydney</summary><p>Foundation, diploma, pre-master and direct-entry application monitoring.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=NSW&institution=UNSW%20Sydney#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>UTS / UTS College</summary><p>Pathway, scholarship, application-timing and international-course progression routes.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=NSW&institution=UTS%20%2F%20UTS%20College#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>University of Wollongong</summary><p>StudyLink application route, nursing and professional-course timing intelligence.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=NSW&institution=University%20of%20Wollongong#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Macquarie University</summary><p>Teaching, law, English and academic-entry route screening.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=NSW&institution=Macquarie%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>University of Newcastle / Newcastle College</summary><p>Pathway, IT, cyber security, data science and regional-campus progression routes.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=NSW&institution=University%20of%20Newcastle%20%2F%20Newcastle%20College#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-vic">
+              <summary>VIC</summary>
+              <div class="map-popover">
+                <strong>Victoria</strong>
+                <details><summary>University of Melbourne</summary><p>High-selectivity university route for postgraduate and research-facing screening.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=VIC&institution=University%20of%20Melbourne#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Monash University / Monash College</summary><p>IT, English, pathway and scholarship-route monitoring.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=VIC&institution=Monash%20University%20%2F%20Monash%20College#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Swinburne University of Technology</summary><p>Business, IT, employability and pathway-course route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=VIC&institution=Swinburne%20University%20of%20Technology#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Deakin University</summary><p>Health, nursing, speech pathology, business and public-health route tracking.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=VIC&institution=Deakin%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Victorian Government Schools</summary><p>Public-school capacity, high-school pathway and family-advisory route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=VIC&institution=Victorian%20Government%20Schools#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-act">
+              <summary>ACT</summary>
+              <div class="map-popover">
+                <strong>ACT and Canberra</strong>
+                <details><summary>Australian National University</summary><p>Scholarship, undergraduate and postgraduate route screening.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=ACT&institution=Australian%20National%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>University of Canberra</summary><p>Foundation, early-offer, health, teaching and professional-course timing routes.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=ACT&institution=University%20of%20Canberra#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>ACT Public Schools</summary><p>Secondary-school, GS-process and family pathway planning coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=ACT&institution=ACT%20Public%20Schools#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-qld">
+              <summary>QLD</summary>
+              <div class="map-popover">
+                <strong>Queensland</strong>
+                <details><summary>University of Queensland</summary><p>Portal, pathway and undergraduate / postgraduate route screening.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=QLD&institution=University%20of%20Queensland#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Griffith University</summary><p>Undergraduate and postgraduate application-route monitoring.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=QLD&institution=Griffith%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Central Queensland University</summary><p>Business, construction-management and regional-route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=QLD&institution=Central%20Queensland%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Groves Christian College</summary><p>School-sector and Year 7-12 pathway coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=QLD&institution=Groves%20Christian%20College#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-wa">
+              <summary>WA</summary>
+              <div class="map-popover">
+                <strong>Western Australia</strong>
+                <details><summary>University of Western Australia / UWA College</summary><p>Foundation, college, conditional-CoE and progression-route tracking.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=WA&institution=University%20of%20Western%20Australia%20%2F%20UWA%20College#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Curtin University</summary><p>Offer, OSHC, payment and application-route monitoring.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=WA&institution=Curtin%20University#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Murdoch University / Murdoch College</summary><p>Pathway, scholarship and nursing-route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=WA&institution=Murdoch%20University%20%2F%20Murdoch%20College#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>Notre Dame Australia</summary><p>Undergraduate, postgraduate, English and short-course route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=WA&institution=Notre%20Dame%20Australia#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-sa">
+              <summary>SA</summary>
+              <div class="map-popover">
+                <strong>South Australia</strong>
+                <details><summary>University of Adelaide</summary><p>Scholarship, quota-course, EMI and professional-route monitoring.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=SA&institution=University%20of%20Adelaide#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>KIC Adelaide College</summary><p>Foundation, diploma, pre-master and scholarship progression route.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=SA&institution=KIC%20Adelaide%20College#otc-apply-form">Apply via OTC</a></details>
+                <details><summary>International College of Hotel Management</summary><p>Hospitality, bachelor, graduate certificate / diploma and master route coverage.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=SA&institution=International%20College%20of%20Hotel%20Management#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+            <details class="map-pin pin-tas">
+              <summary>TAS</summary>
+              <div class="map-popover">
+                <strong>Tasmania</strong>
+                <details><summary>University of Tasmania</summary><p>Scholarship, accommodation, regional-campus and professional-degree route tracking.</p><a class="map-apply-link" href="/university-applications/?country=Australia&state=TAS&institution=University%20of%20Tasmania#otc-apply-form">Apply via OTC</a></details>
+              </div>
+            </details>
+          </div>
+          <aside class="cooperation-map-note">
+            <span>Click a state</span>
+            <strong>Expand by region, then by institution.</strong>
+            <p>Institution names are shown as public route references. Internal channel source, contract, portal and commercial evidence remains in OTC's private audit file.</p>
+          </aside>
+        </div>
+        <script>
+          (() => {
+            const map = document.querySelector(".cooperation-map-visual");
+            if (!map) return;
+            const statePins = Array.from(map.querySelectorAll(":scope > .map-pin"));
+            statePins.forEach((pin) => {
+              const popover = pin.querySelector(".map-popover");
+              if (popover && !popover.querySelector(".map-close")) {
+                const close = document.createElement("button");
+                close.type = "button";
+                close.className = "map-close";
+                close.textContent = "Close";
+                close.addEventListener("click", () => {
+                  pin.open = false;
+                  pin.querySelectorAll(".map-popover details[open]").forEach((child) => {
+                    child.open = false;
+                  });
+                });
+                popover.prepend(close);
+              }
+              pin.addEventListener("toggle", () => {
+                if (!pin.open) return;
+                statePins.forEach((other) => {
+                  if (other !== pin) other.open = false;
+                });
+              });
+            });
+            document.addEventListener("click", (event) => {
+              if (map.contains(event.target)) return;
+              statePins.forEach((pin) => {
+                pin.open = false;
+              });
+            });
+            document.addEventListener("keydown", (event) => {
+              if (event.key !== "Escape") return;
+              statePins.forEach((pin) => {
+                pin.open = false;
+              });
+            });
+          })();
+        </script>
+      </div>
+      <div class="australia-intelligence-panel private-intelligence-panel">
+        <article class="intel-feature">
+          <span>Private evidence kept off-site</span>
+          <strong>Application and partner operations</strong>
+          <p>OTC keeps internal records for portal access, training notices, application workflows, data handling, representative relationships and commercial terms. These records support due diligence but are not disclosed in the public cooperation map.</p>
+          <ul>
+            <li>Application submission and offer-condition workflow records</li>
+            <li>Training, agent-quality and data-protection records</li>
+            <li>Private commercial terms and channel source records</li>
+            <li>Evidence pack retained for audit, legal and professional review where required</li>
+          </ul>
+        </article>
+        <div class="intel-list platform-list">
+          <article><b>Direct routes</b><strong>Contracted pathway and application infrastructure</strong><p>OTC maintains private direct-agreement and portal evidence for international education routes. Public materials describe capability, not commercial structure.</p></article>
+          <article><b>Channel routes</b><strong>Institution updates and application intelligence</strong><p>OTC tracks intake openings, document requirements, application portals, scholarships, school capacity and programme availability through private channels.</p></article>
+          <article><b>Provider routes</b><strong>Pathway, college and English preparation</strong><p>Coverage includes foundation, diploma, pre-master, English, academic-readiness and pathway progression options across Australia.</p></article>
+          <article><b>Professional routes</b><strong>Health, teaching, IT, business and specialist courses</strong><p>OTC monitors selected professional-course routes where timing, quota, English and placement rules require careful file management.</p></article>
+          <article><b>School routes</b><strong>Public, independent and boarding pathways</strong><p>School-sector intelligence supports family advisory work, academic guardianship-adjacent planning and pre-university progression.</p></article>
+          <article><b>Compliance routes</b><strong>Private evidence, public boundary</strong><p>Commercial records, partner sources and regulated-advice boundaries are kept internally. Public claims remain limited to education coordination and application support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight">
+      <div class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Site Rollout</div>
+          <h2>Six necessary stations for the Australia route.</h2>
+          <p>The page separates what OTC can operate directly from what must be referred to qualified Australian professionals.</p>
+        </div>
+        <div class="australia-office-stations">
+          <svg class="station-map-weave" viewBox="0 0 1200 640" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="stationRouteGold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#d9bf86" stop-opacity="0.2"/>
+                <stop offset="55%" stop-color="#b88a3b" stop-opacity="0.42"/>
+                <stop offset="100%" stop-color="#1f5e52" stop-opacity="0.22"/>
+              </linearGradient>
+            </defs>
+            <path stroke="url(#stationRouteGold)" d="M110 126 C250 62, 326 208, 486 130 S770 56, 1018 146" />
+            <path stroke="url(#stationRouteGold)" d="M154 338 C310 266, 410 414, 566 328 S830 256, 1048 360" />
+            <path stroke="url(#stationRouteGold)" d="M198 528 C360 458, 492 586, 662 494 S878 444, 1076 520" />
+            <path stroke="url(#stationRouteGold)" d="M310 92 C346 196, 328 318, 402 418 S552 552, 612 590" />
+            <path stroke="url(#stationRouteGold)" d="M816 80 C760 184, 824 318, 752 420 S650 532, 690 606" />
+            <path stroke="url(#stationRouteGold)" d="M96 248 C218 214, 306 286, 408 246 S610 176, 714 244 S896 326, 1092 278" />
+            <path stroke="url(#stationRouteGold)" d="M86 426 C254 374, 360 478, 512 424 S756 358, 906 430 S1010 470, 1130 438" />
+            <g>
+              <circle cx="110" cy="126" r="5"/><circle cx="486" cy="130" r="5"/><circle cx="1018" cy="146" r="5"/>
+              <circle cx="154" cy="338" r="5"/><circle cx="566" cy="328" r="5"/><circle cx="1048" cy="360" r="5"/>
+              <circle cx="198" cy="528" r="5"/><circle cx="662" cy="494" r="5"/><circle cx="1076" cy="520" r="5"/>
+              <circle cx="402" cy="418" r="4"/><circle cx="752" cy="420" r="4"/>
+              <circle cx="408" cy="246" r="4"/><circle cx="714" cy="244" r="4"/><circle cx="512" cy="424" r="4"/><circle cx="906" cy="430" r="4"/>
+            </g>
+          </svg>
+          <article id="nsw-base"><b>01</b><strong>NSW Coordination Base</strong><p>Sydney-area address, local communication, appointment coordination, meeting-room planning, mailbox workflow and supplier liaison.</p><ul><li>Maintain local contact and correspondence records.</li><li>Coordinate meetings with students, families, institutions and professional partners.</li><li>Keep an Australia activity log for business development and audit-copy use.</li></ul></article>
+          <article id="applications"><b>02</b><strong>University Application Route</strong><p>Australia institution screening, course matching, intake timing, English-readiness checks and application document planning.</p><ul><li>Start at country and institution level before narrowing to programme level.</li><li>Prepare document checklists, file naming and offer-condition tracking.</li><li>Link live cases to the university application portfolio system.</li></ul></article>
+          <article id="student-support"><b>03</b><strong>Student Support Desk</strong><p>Practical support for students and families before arrival, during application preparation and through early settlement coordination.</p><ul><li>Record student enquiries, family instructions and next-step notes.</li><li>Coordinate academic readiness, pre-arrival planning and local service signposting.</li><li>Separate education support from immigration or legal advice.</li></ul></article>
+          <article id="institutional-services"><b>04</b><strong>Institutional Services</strong><p>Bilingual documentation, translation coordination, publishing liaison, training administration and academic-event support.</p><ul><li>Prepare bilingual materials for institutions, publishers and education partners.</li><li>Support training packs, service brochures, meeting notes and presentation files.</li><li>Route certified, legal or notarised work to appropriate professionals where required.</li></ul></article>
+          <article id="market-intelligence"><b>05</b><strong>Market Intelligence</strong><p>Australia education updates, agent-channel notes, institution briefings, public insights and business-development records.</p><ul><li>Summarise agent training, portal updates and institution communications.</li><li>Publish compliant education insights for students and families.</li><li>Build a reusable evidence base for Australian market demand.</li></ul></article>
+          <article id="referral"><b>06</b><strong>Professional Referral</strong><p>Migration, legal, tax, accounting, company setup and regulated education matters are routed to qualified Australian professionals.</p><ul><li>Keep referral records, scope boundaries and client instructions clear.</li><li>Coordinate with registered migration agents, lawyers, accountants and compliance specialists.</li><li>Do not present OTC coordination as regulated professional advice.</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Evidence Roadmap</div>
+        <h2>What should be collected as the route develops.</h2>
+      </div>
+      <div class="consulting-levels australia-evidence-cards">
+        <article><strong>Office and Operations</strong><p>Address proof, local supplier correspondence, meeting records, mailbox logs and Australia activity chronology.</p><span>Operational evidence.</span></article>
+        <article><strong>Education Agency Links</strong><p>Study NSW training emails, institution updates, application portal records, agent-channel communications and student/application reports.</p><span>Market evidence.</span></article>
+        <article><strong>Student Case Records</strong><p>Student enquiries, institution screening notes, course shortlists, document checklists, offer-condition tracking and family communication logs.</p><span>Service evidence.</span></article>
+        <article><strong>Professional Referral Trail</strong><p>Referral emails, adviser details, scope notes and clear separation between OTC coordination and regulated advice.</p><span>Compliance evidence.</span></article>
+      </div>
+      <div style="height:24px"></div>
+      <div class="notice advice-signpost">
+        <strong>Compliance boundary</strong>
+        <p>OTC provides education coordination, bilingual documentation, market-entry support and administrative organisation. OTC does not provide Australian migration, legal, tax, financial or regulated education compliance advice. Regulated matters should be handled by appropriately qualified professionals.</p>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="qualification-report-panel">
+        <div>
+          <span>Evidence Report</span>
+          <h2>OTHM qualifications and Australia pathway strategy.</h2>
+          <p>The report sets out how OTC's UK-regulated OTHM qualification base can support Australia-facing university application, credit/RPL readiness, pathway screening and career-qualification planning without claiming automatic Australian recognition.</p>
+        </div>
+        <a class="btn btn-dark" href="/reports/othm-australia-expansion/">Open report</a>
+      </div>
+      <div style="height:14px"></div>
+      <div class="qualification-report-panel vet-tafe-panel">
+        <div>
+          <span>Route Development</span>
+          <h2>Australia VET / TAFE pathway coverage.</h2>
+          <p>A public pathway map for vocational course screening, TAFE-to-university progression, document-readiness checks and referral boundaries across Australian state training systems.</p>
+        </div>
+        <a class="btn btn-dark" href="/australia-vet-tafe-pathways/">Open map</a>
+      </div>
+    </section>
+  `
+});
+
+const australiaVetTafePathways = pageShell({
+  title: "Australia VET / TAFE Pathways | OTC Study Hub",
+  current: "about",
+  description: "OTC's Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness and professional referral boundaries.",
+  path: "/australia-vet-tafe-pathways/",
+  image: "/assets/otc-australia-vet-tafe-social-card.png",
+  body: `
+    <section class="page-hero ai-operations-hero vet-tafe-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Australia · VET / TAFE Route Coverage</div>
+        <h1>Australia VET / TAFE Pathway Map</h1>
+        <p>OTC is building a structured vocational pathway screening layer for Australian TAFE, VET, English preparation, diploma, advanced diploma and TAFE-to-university progression routes.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
+          <a class="btn btn-secondary" href="/ai-education-operations/">AI operations</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band ai-operations-position vet-tafe-position">
+      <div class="ai-operations-lead">
+        <div class="eyebrow">Operating Purpose</div>
+        <h2>Vocational education gives OTC a practical Australia-facing service route.</h2>
+        <p>VET and TAFE routes sit between school, English preparation, university progression and career qualification planning. OTC's first step is to maintain a state-by-state screening map so that students can be guided by course level, occupation direction, English readiness, document requirements and institution process before any formal application or professional referral is made.</p>
+      </div>
+      <aside class="ai-operations-note">
+        <span>Current status</span>
+        <p>Route coverage and screening readiness. OTC should not describe any provider as an official partner unless a written representative or agent agreement is in place.</p>
+      </aside>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">State Coverage</div>
+        <h2>Initial VET / TAFE map by Australian state and territory.</h2>
+        <p>This is a working public index. Provider-specific application rules, commission terms, contract records and internal contacts remain in OTC's private evidence files.</p>
+      </div>
+      <div class="vet-tafe-map-grid">
+        <article>
+          <b>NSW</b>
+          <strong>TAFE NSW and Sydney-area vocational routes</strong>
+          <p>Priority for OTC's NSW coordination base: diploma, advanced diploma, English preparation, pathway packaging and TAFE-to-university progression screening.</p>
+          <a href="https://www.tafensw.edu.au/international" target="_blank" rel="noopener">Official provider site</a>
+        </article>
+        <article>
+          <b>QLD</b>
+          <strong>TAFE Queensland and regional pathway routes</strong>
+          <p>Coverage for business, IT, hospitality, community services, health-adjacent fields and progression planning where provider processes permit agent or referral handling.</p>
+          <a href="https://tafeqld.edu.au/international" target="_blank" rel="noopener">Official provider site</a>
+        </article>
+        <article>
+          <b>WA</b>
+          <strong>TAFE International Western Australia</strong>
+          <p>Perth and WA route coverage for vocational diplomas, English preparation, institution progression and state-specific application documentation.</p>
+          <a href="https://www.tafeinternational.wa.edu.au/" target="_blank" rel="noopener">Official provider site</a>
+        </article>
+        <article>
+          <b>VIC</b>
+          <strong>Victoria TAFE and dual-sector options</strong>
+          <p>Route tracking for vocational colleges, public TAFE institutes and dual-sector university pathways where vocational study connects to higher education.</p>
+          <span>Provider list under review</span>
+        </article>
+        <article>
+          <b>SA</b>
+          <strong>South Australia vocational and pathway coverage</strong>
+          <p>TAFE, pathway and occupation-focused course screening for Adelaide and regional study routes, with document-readiness checks before application.</p>
+          <span>Provider list under review</span>
+        </article>
+        <article>
+          <b>TAS / ACT / NT</b>
+          <strong>Smaller-market vocational route monitoring</strong>
+          <p>Coverage for selected public providers, regional options, English preparation and family-specific planning where location or course availability matters.</p>
+          <span>Provider list under review</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="spotlight ai-operations-flow-section">
+      <div class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Screening Matrix</div>
+          <h2>What OTC should check before recommending a VET / TAFE route.</h2>
+        </div>
+        <div class="vet-tafe-screening-grid">
+          <article><span>Course level</span><strong>Certificate, Diploma, Advanced Diploma</strong><p>Confirm level, duration, delivery mode, placement requirements and progression options.</p></article>
+          <article><span>English readiness</span><strong>Entry score and preparation route</strong><p>Check English requirements, accepted tests, ELICOS options and realistic timing.</p></article>
+          <article><span>Occupation link</span><strong>Career direction without overclaiming</strong><p>Record the student's target field while keeping skills assessment and migration advice separate.</p></article>
+          <article><span>University pathway</span><strong>Credit and progression possibility</strong><p>Identify TAFE-to-university routes, advanced standing possibilities and institution-specific limits.</p></article>
+          <article><span>Documents</span><strong>Readiness and file discipline</strong><p>Prepare academic records, passport, English evidence, CV, employment evidence and translations where needed.</p></article>
+          <article><span>Professional boundary</span><strong>Referral when advice is regulated</strong><p>Route migration, legal, tax, skills assessment and professional registration questions to qualified advisers.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="ai-operations-boundary">
+        <div>
+          <div class="eyebrow">Next Build Step</div>
+          <h2>Convert this map into provider approach records.</h2>
+        </div>
+        <p>For each priority provider, OTC should create a private record with provider website, international contact, agent / representative application route, required company documents, training requirements, approved course areas, published policies and the date of last review. The public website should remain an index, while contracts and commercial channels stay private.</p>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">One-Click Share</div>
+        <h2>Share this article with its title image.</h2>
+        <p>This page is configured with a social title image. Sharing the page URL should generate a card preview on platforms that support link previews.</p>
+      </div>
+      <div class="social-signature-layout">
+        <a class="social-signature-card" href="/australia-vet-tafe-pathways/" aria-label="Open Australia VET and TAFE pathway map">
+          <img src="/assets/otc-australia-vet-tafe-social-card.png?v=20260519" alt="OTC Australia VET and TAFE pathway map social poster">
+        </a>
+        <article class="social-post-copy">
+          <span>Ready-to-post copy</span>
+          <p>OTC is developing a structured Australia VET / TAFE pathway map to support vocational course screening, TAFE-to-university progression planning, English-readiness checks and document preparation for international students.</p>
+          <p>This is part of our Australia-facing education operations framework: practical, evidence-led and professionally bounded.</p>
+          <div class="one-click-share" data-share-title="Australia VET / TAFE Pathway Map | OTC Study Hub" data-share-url="${new URL("/australia-vet-tafe-pathways/", SITE_URL).toString()}">
+            <button type="button" data-native-share>Share article</button>
+            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent("OTC is developing a structured Australia VET / TAFE pathway map for vocational course screening, TAFE-to-university progression planning and document readiness.")}&url=${encodeURIComponent(new URL("/australia-vet-tafe-pathways/", SITE_URL).toString())}" target="_blank" rel="noopener">Share to X</a>
+            <a href="https://www.threads.net/intent/post?text=${encodeURIComponent("OTC is developing a structured Australia VET / TAFE pathway map for international students. " + new URL("/australia-vet-tafe-pathways/", SITE_URL).toString())}" target="_blank" rel="noopener">Share to Threads</a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(new URL("/australia-vet-tafe-pathways/", SITE_URL).toString())}" target="_blank" rel="noopener">LinkedIn</a>
+            <button type="button" data-copy-share>Copy link</button>
+          </div>
+          <a href="/assets/otc-australia-vet-tafe-social-card.png" target="_blank" rel="noopener">Open title image</a>
+        </article>
+      </div>
+      <script>
+        document.querySelectorAll("[data-native-share]").forEach((button) => {
+          button.addEventListener("click", async () => {
+            const root = button.closest("[data-share-url]");
+            const shareData = {
+              title: root.dataset.shareTitle,
+              text: "OTC Australia VET / TAFE pathway map for vocational course screening, progression planning and document readiness.",
+              url: root.dataset.shareUrl
+            };
+            if (navigator.share) {
+              try { await navigator.share(shareData); return; } catch (error) {}
+            }
+            await navigator.clipboard.writeText(shareData.url);
+            button.textContent = "Link copied";
+          });
+        });
+        document.querySelectorAll("[data-copy-share]").forEach((button) => {
+          button.addEventListener("click", async () => {
+            const root = button.closest("[data-share-url]");
+            await navigator.clipboard.writeText(root.dataset.shareUrl);
+            button.textContent = "Copied";
+          });
+        });
+      </script>
+    </section>
+  `
+});
+
+const aiEducationOperations = pageShell({
+  title: "AI-Enabled Education Operations | OTC Study Hub",
+  current: "about",
+  description: "OTC's AI-supported education operations framework for structured student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia route intelligence.",
+  path: "/ai-education-operations/",
+  body: `
+    <section class="page-hero ai-operations-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Australia · Education Infrastructure</div>
+        <h1>AI-Enabled Education Operations</h1>
+        <p>OTC is building a practical AI-supported operating layer for student-file organisation, qualification mapping, application coordination, tutorial publishing and Australia route intelligence.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
+          <a class="btn btn-secondary" href="/university-applications/#otc-apply-form">Application screening</a>
+          <a class="btn btn-secondary" href="/australia-vet-tafe-pathways/">VET / TAFE map</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band ai-operations-position">
+      <div class="ai-operations-lead">
+        <div class="eyebrow">Operating Position</div>
+        <h2>AI supports structured education operations. Human review remains central.</h2>
+        <p>OTC uses AI as an operational layer, not as a substitute for professional judgement. The framework helps organise student background, document status, programme requirements, pathway options and follow-up actions so that advisers, tutors and families can work from the same structured record.</p>
+      </div>
+      <aside class="ai-operations-note">
+        <span>Public scope</span>
+        <p>Student file organisation, education-route screening, document workflow, academic support planning, bilingual drafting and internal review records.</p>
+      </aside>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Capability Areas</div>
+        <h2>Six operational layers for Australia-facing education work.</h2>
+        <p>The framework is designed as education infrastructure: quieter than marketing, more useful than a brochure, and precise enough to support live case handling.</p>
+      </div>
+      <div class="ai-operations-grid">
+        <article>
+          <b>01</b>
+          <strong>Student File Intelligence</strong>
+          <p>Student background, education history, English profile, target country, timing, document gaps and communication notes organised into a single review record.</p>
+        </article>
+        <article>
+          <b>02</b>
+          <strong>Course &amp; Progression Mapping</strong>
+          <p>Structured comparison between OTHM / UK RQF levels, university pathways, AQF-facing considerations, VET options and institution-specific entry rules.</p>
+        </article>
+        <article>
+          <b>03</b>
+          <strong>Application Workflow Support</strong>
+          <p>Checklists, document requests, draft communication, status tracking and application-readiness notes for university and pathway cases.</p>
+        </article>
+        <article>
+          <b>04</b>
+          <strong>Academic Support &amp; Tutorial Publishing</strong>
+          <p>Study guides, bilingual learning notes, assessment-preparation resources and tutorial planning connected to OTC teaching and publishing activity.</p>
+        </article>
+        <article>
+          <b>05</b>
+          <strong>Compliance &amp; Evidence Management</strong>
+          <p>Version-controlled student records, advice notes, communication logs and file indexes prepared for internal review and professional collaboration.</p>
+        </article>
+        <article>
+          <b>06</b>
+          <strong>Australia Route Market Intelligence</strong>
+          <p>Monitoring of Australian universities, colleges, pathway providers, VET / TAFE routes, school options, English preparation and policy-sensitive service boundaries.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="spotlight ai-operations-flow-section">
+      <div class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Workflow</div>
+          <h2>From enquiry to review archive.</h2>
+        </div>
+        <div class="ai-operations-flow">
+          <article><span>Intake</span><strong>Build the student record</strong><p>Capture background, goals, timing, documents and initial risk points.</p></article>
+          <article><span>Mapping</span><strong>Compare route options</strong><p>Match courses, qualification levels, English needs and institutional requirements.</p></article>
+          <article><span>Coordination</span><strong>Run the application workflow</strong><p>Prepare checklists, drafts, status notes and family communication records.</p></article>
+          <article><span>Review</span><strong>Keep a clean archive</strong><p>Maintain decision notes, version history, adviser liaison and service boundaries.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="ai-operations-boundary">
+        <div>
+          <div class="eyebrow">Professional Boundary</div>
+          <h2>AI can structure education work. It does not replace qualified advice.</h2>
+        </div>
+        <p>Final academic, admissions, legal, immigration, financial or regulated compliance advice remains subject to human review and, where required, appropriately qualified professionals. OTC's public role is education coordination, bilingual documentation, academic support and structured case management.</p>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="qualification-report-panel vet-tafe-panel">
+        <div>
+          <span>Route Coverage</span>
+          <h2>Australia VET / TAFE pathway map.</h2>
+          <p>The vocational route map extends OTC's AI-supported operations into course-level screening for TAFE, VET, English preparation, diploma progression and document-readiness review.</p>
+        </div>
+        <a class="btn btn-dark" href="/australia-vet-tafe-pathways/">Open map</a>
+      </div>
+    </section>
+  `
+});
+
+const othmAustraliaExpansionReport = pageShell({
+  title: "OTHM and Australia Pathway Strategy Report | OTC Study Hub",
+  current: "about",
+  description: "Evidence report on how OTC's OTHM qualification base supports Australia-facing university pathways, credit/RPL readiness and career-qualification planning.",
+  path: "/reports/othm-australia-expansion/",
+  body: `
+    <section class="page-hero australia-office-hero report-hero"><div class="band"><div class="eyebrow">Evidence Report</div><h1>OTHM Qualifications and Australia Pathway Strategy</h1><p>How OTC's UK-regulated qualification base supports Australia-facing university application, credit/RPL readiness and career-qualification planning.</p><div class="actions"><a class="btn btn-primary" href="/australia-office-presence/">Back to Australia route</a><a class="btn btn-secondary" href="/zh/reports/othm-australia-expansion/">中文報告</a></div></div></section>
+    <section class="band">
+      <article class="evidence-report-page">
+        <div class="report-meta-grid">
+          <div><span>Prepared for</span><strong>Overseas Tutorial Centre Ltd</strong></div>
+          <div><span>Purpose</span><strong>Australia expansion strategy evidence</strong></div>
+          <div><span>Date</span><strong>19 May 2026</strong></div>
+          <div><span>Status</span><strong>Internal strategy report</strong></div>
+        </div>
+        <div class="notice advice-signpost">
+          <strong>Boundary statement</strong>
+          <p>This report is not a legal, migration, skills-assessment or university-admissions decision. It explains a service strategy: UK RQF evidence can be prepared for Australian education review, but final recognition, credit, admission, professional registration and migration outcomes remain with the relevant Australian institution or qualified authority.</p>
+        </div>
+
+        <h2>Executive Summary</h2>
+        <p>OTHM qualifications provide OTC with a credible UK-regulated qualification platform from which to develop Australia-facing education advisory, university application, pathway-screening and career-qualification planning services.</p>
+        <p>The strategic link is not automatic recognition. The correct position is that OTHM operates within the UK Regulated Qualifications Framework (RQF), while Australia uses the Australian Qualifications Framework (AQF). Australian institutions assess overseas and prior learning through their own credit, recognition of prior learning (RPL), advanced standing and credit-transfer rules.</p>
+        <p>This creates a practical service bridge for OTC Australia: qualification explanation, document interpretation, course matching, credit/RPL readiness, academic progression planning and career-qualification signposting.</p>
+
+        <h2>Source Evidence</h2>
+        <div class="report-evidence-grid">
+          <article><b>01</b><strong>OTHM regulatory base</strong><p>OTHM states that it is approved and regulated by Ofqual and lists Ofqual Recognition Number RN5284. Its Level 5 Business Management qualification is identified as Qualification Number 610/1527/1.</p></article>
+          <article><b>02</b><strong>UK RQF learning structure</strong><p>OTHM Level 5 Business Management is structured as 120 credits, 1200 Total Qualification Time and 600 Guided Learning Hours, with module-level specifications useful for evidence preparation.</p></article>
+          <article><b>03</b><strong>Australian AQF framework</strong><p>The AQF is Australia's national policy framework for regulated qualifications across schools, VET and higher education, with levels including Diploma, Bachelor, Graduate Certificate and Graduate Diploma routes.</p></article>
+          <article><b>04</b><strong>Credit and RPL mechanisms</strong><p>Australian providers such as UTS, Curtin and UQ publish credit, RPL or advanced-standing processes, creating a legitimate need for organised prior-learning evidence packs.</p></article>
+        </div>
+
+        <h2>Official OTHM Progression Point for Australia</h2>
+        <p>OTHM's official University Progressions page gives this report a stronger Australia-specific evidence point. OTHM states that the listed progression arrangements have been confirmed by each university, while also warning that each applicant remains subject to individual assessment and other entry requirements.</p>
+        <div class="report-evidence-grid">
+          <article><b>Australia 01</b><strong>Edith Cowan University, Australia</strong><p>OTHM lists Edith Cowan University, Australia for OTHM Level 6 / 7 Diploma in Occupational Health and Safety Management, with entry onto a graduate pathway: Graduate Certificate in Occupational Health and Safety and Graduate Diploma of Occupational Health and Safety, leading to the Master of Occupational Health and Safety.</p></article>
+          <article><b>Australia 02</b><strong>Curtin University</strong><p>OTHM lists Curtin University for several Level 3 routes, including Business Studies, Foundation Diploma in Accountancy, Foundation Diploma in Engineering, Foundation Diploma in Information Technology and Foundation Diploma for Higher Education Studies, with entry onto first year of undergraduate programmes.</p></article>
+        </div>
+        <p>This means OTC Australia can point to an official OTHM progression record involving Australian universities. The commercial implication is not a promise of automatic admission. The implication is that OTHM learners create real Australia-facing advisory work: progression screening, evidence checking, qualification explanation, course matching and university communication.</p>
+
+        <h2>Strategic Interpretation for OTC Australia</h2>
+        <p>OTHM is relevant to Australia because it gives OTC a structured UK qualification language that can be mapped, explained and documented for Australia-facing decisions. Students may ask whether an OTHM Level 5, Level 6, Level 7 or Level 8 profile can support university entry, prior-learning review, postgraduate planning, professional-course preparation or career-oriented reskilling.</p>
+        <p>OTC Australia can therefore position a compliant service line as <strong>UK RQF to Australia AQF advisory support</strong>. The service should not claim equivalence or licensing recognition. It should provide evidence-pack preparation, qualification-level explanation, module/learning-outcome matching, transcript/specification organisation, university pathway matching and referral to regulated advisers where required.</p>
+
+        <h2>Evidence Matrix</h2>
+        <div class="report-table-wrap">
+          <table>
+            <thead><tr><th>OTC / OTHM asset</th><th>Australia-facing need</th><th>OTC service implication</th></tr></thead>
+            <tbody>
+              <tr><td>OTHM Ofqual/RQF status</td><td>Students need credible explanation of UK qualification level and structure.</td><td>Prepare qualification briefing notes, certificates, transcripts, specifications and level summaries.</td></tr>
+              <tr><td>OTHM Level 5 Business Management</td><td>Australian institutions consider prior formal learning case by case.</td><td>Build university-entry and credit/RPL readiness packs.</td></tr>
+              <tr><td>120-credit and unit-specification structure</td><td>Credit/RPL reviews often require course descriptions and learning outcomes.</td><td>Maintain module-level mapping records and evidence files.</td></tr>
+              <tr><td>Business and professional subject areas</td><td>Australia has broad university, pathway, VET and professional-course markets.</td><td>Create subject-route portfolios for business, management, IT, health, education, tourism and strategic management.</td></tr>
+              <tr><td>Australia office route</td><td>Students and partners need a local coordination point.</td><td>Use NSW contact route, local communication and institution liaison to support expansion.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Recommended Service Lines</h2>
+        <div class="report-service-list">
+          <article><strong>OTHM-to-Australia Qualification Interpretation</strong><p>RQF level explanation, course-credit summary, learning-outcome extract, academic progression options and Australia-facing evidence packs.</p></article>
+          <article><strong>University Application and Credit/RPL Readiness</strong><p>Institution-specific checklists covering transcripts, certified copies, course outlines, English requirements, RPL forms and timing issues.</p></article>
+          <article><strong>Career-Qualification Route Planning</strong><p>Connect academic progression, employability narrative, postgraduate conversion, professional-course preparation and regulated referral boundaries.</p></article>
+          <article><strong>Institutional Partnership Evidence</strong><p>Use OTHM as a foundation for institutional conversations, bilingual explanation materials and student-file organisation.</p></article>
+        </div>
+
+        <h2>Recommended Wording</h2>
+        <blockquote>
+          <p>OTHM qualifications provide a UK-regulated RQF qualification profile. Australian institutions and professional bodies assess overseas and prior learning under their own rules. OTC supports document preparation, qualification explanation, pathway screening and application coordination. Final recognition, credit, admission, professional registration, skills assessment and migration outcomes remain with the relevant Australian institution or qualified authority.</p>
+        </blockquote>
+
+        <h2>Source Links</h2>
+        <ul class="report-source-list">
+          <li><a href="https://othm.org.uk/quality-standards" target="_blank" rel="noopener">OTHM Quality, Standards & Recognitions</a></li>
+          <li><a href="https://othm.org.uk/university-progression" target="_blank" rel="noopener">OTHM University Progressions</a></li>
+          <li><a href="https://othm.org.uk/qualification/othm-level-5-diploma-in-business-management" target="_blank" rel="noopener">OTHM Level 5 Diploma in Business Management</a></li>
+          <li><a href="https://www.aqf.edu.au/about/what-aqf" target="_blank" rel="noopener">AQF: What is the AQF</a></li>
+          <li><a href="https://www.aqf.edu.au/framework/aqf-qualifications" target="_blank" rel="noopener">AQF Qualifications</a></li>
+          <li><a href="https://www.teqsa.gov.au/how-we-regulate/acts-and-standards/australian-qualifications-framework" target="_blank" rel="noopener">TEQSA AQF overview</a></li>
+          <li><a href="https://www.uts.edu.au/for-students/admissions-entry/recognition-of-prior-learning" target="_blank" rel="noopener">UTS Recognition of Prior Learning</a></li>
+          <li><a href="https://www.curtin.edu.au/study/applying/credit-recognised-learning/apply/" target="_blank" rel="noopener">Curtin Credit for Recognised Learning</a></li>
+          <li><a href="https://policies.uq.edu.au/document/view-current.php?id=217&version=3" target="_blank" rel="noopener">UQ Credit and Recognition of Prior Learning Procedure</a></li>
+        </ul>
+
+        <div class="programme-actions">
+          <a class="btn btn-dark" href="/australia-office-presence/">Back to Australia route</a>
+          <a class="btn btn-light" href="/reports/OTC_Australia_Expansion_OTHM_Qualification_Linkage_Report_2026-05-19.md">Open markdown copy</a>
+        </div>
+      </article>
+    </section>
+  `
+});
+
+const othmAustraliaExpansionReportZh = pageShell({
+  title: "OTHM 與澳洲升學及職業資格路線報告 | OTC Study Hub",
+  current: "zh",
+  description: "OTC 澳洲教育路線專題：OTHM 英國 RQF 資格如何支持澳洲大學銜接、credit/RPL 準備、pathway screening 與職業資格規劃。",
+  path: "/zh/reports/othm-australia-expansion/",
+  body: `
+    <section class="page-hero australia-office-hero report-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲教育路線專題</div><h1>OTHM 資格與澳洲升學及職業資格路線</h1><p>OTC 如何以英國受監管資格體系為基礎，建立澳洲大學申請、credit / RPL 準備、pathway screening 與職業資格前置規劃服務。</p><div class="actions"><a class="btn btn-primary" href="/australia-office-presence/">返回澳洲路線</a><a class="btn btn-secondary" href="/reports/othm-australia-expansion/">English report</a></div></div></section>
+    <section class="band">
+      <article class="evidence-report-page zh-evidence-report" lang="zh-Hant">
+        <div class="report-meta-grid">
+          <div><span>報告對象</span><strong>Overseas Tutorial Centre Ltd</strong></div>
+          <div><span>專題範圍</span><strong>澳洲升學與職業資格路線</strong></div>
+          <div><span>日期</span><strong>2026 年 5 月 19 日</strong></div>
+          <div><span>適用對象</span><strong>學生、家庭及教育合作方</strong></div>
+        </div>
+        <div class="notice advice-signpost">
+          <strong>閱讀說明</strong>
+          <p>本頁介紹 OTC 圍繞英國 RQF 資格與澳洲教育路線提供的資料整理、資格解讀與申請協調服務。澳洲院校、專業機構及相關部門會依其自身規則處理 recognition、credit、admission、professional registration、skills assessment 及 migration outcomes。</p>
+        </div>
+
+        <h2>一、執行摘要</h2>
+        <p>OTHM 資格為 OTC 提供了一個可信的英國受監管資格平台，使 OTC 可以在澳洲方向發展教育諮詢、大學申請、pathway screening、credit / RPL 準備及職業資格路線規劃服務。</p>
+        <p>這裡的核心不是「自動互認」。更合適的理解方式是：OTHM 位於英國 Regulated Qualifications Framework（RQF）語境中；澳洲使用 Australian Qualifications Framework（AQF）。澳洲院校與教育機構會按照自身規則，對 overseas prior learning、credit、recognition of prior learning（RPL）、advanced standing 或 credit transfer 作個案評估。</p>
+        <p>因此，OTHM 與澳洲教育體系之間形成的是一個可操作的服務橋樑：資格層級解釋、文件資料整理、課程匹配、credit / RPL readiness、學術 progression planning 以及職業資格路線 signposting。</p>
+
+        <h2>二、資料基礎</h2>
+        <div class="report-evidence-grid">
+          <article><b>01</b><strong>OTHM 的監管基礎</strong><p>OTHM 官方資料顯示其受 Ofqual 監管，並列出 Ofqual Recognition Number RN5284。OTHM Level 5 Diploma in Business Management 的 Qualification Number 為 610/1527/1。</p></article>
+          <article><b>02</b><strong>英國 RQF 學習結構</strong><p>OTHM Level 5 Business Management 為 120 credits、1200 Total Qualification Time 及 600 Guided Learning Hours。這種模塊化、可文件化的結構，非常適合整理為澳洲院校閱讀所需的申請資料包。</p></article>
+          <article><b>03</b><strong>澳洲 AQF 框架</strong><p>AQF 是澳洲受監管資格的國家政策框架，涵蓋 schools、VET 及 higher education。其層級包括 Diploma、Bachelor、Graduate Certificate、Graduate Diploma 等資格類型。</p></article>
+          <article><b>04</b><strong>Credit / RPL 機制</strong><p>UTS、Curtin、UQ 等澳洲院校均公開 credit、RPL 或 advanced standing 程序。這些制度不保證接受某一資格，但明確創造了 prior-learning documentation preparation 的服務需求。</p></article>
+        </div>
+
+        <h2>三、OTHM 官方澳洲銜接點</h2>
+        <p>OTHM 官方 University Progressions 頁面為本報告提供了更直接的澳洲參考點。OTHM 表示其列出的 progression arrangements 已由相關大學確認，同時也明確說明：每位申請人仍須接受 individual assessment，並滿足其他 entry requirements。</p>
+        <div class="report-evidence-grid">
+          <article><b>Australia 01</b><strong>Edith Cowan University, Australia</strong><p>OTHM 官方列出 Edith Cowan University, Australia：OTHM Level 6 / 7 Diploma in Occupational Health and Safety Management 可進入 graduate pathway，包括 Graduate Certificate in Occupational Health and Safety、Graduate Diploma of Occupational Health and Safety，並通向 Master of Occupational Health and Safety。</p></article>
+          <article><b>Australia 02</b><strong>Curtin University</strong><p>OTHM 官方列出 Curtin University：Level 3 Diploma in Business Studies、Foundation Diploma in Accountancy、Engineering、Information Technology 及 Higher Education Studies 等路線，可對應 first year undergraduate programmes 的 entry route。</p></article>
+        </div>
+        <p>這一點對 OTC 澳洲教育服務具有直接意義：OTHM 並非只具備英國本土升學意義，也可以進入澳洲大學、college、pathway provider 的文件閱讀與申請溝通場景。OTC 的價值在於整理材料、解釋資格、匹配課程、準備申請，而不是承諾錄取或自動等同。</p>
+
+        <h2>四、OTC Australia 的服務場景</h2>
+        <p>OTHM 給 OTC 一套清晰的英國資格語言。學生、家庭和合作方常見問題包括：OTHM Level 5、6、7、8 是否可以支持澳洲大學 entry；是否可能用於 credit / RPL / advanced standing；是否能支持 postgraduate、top-up、conversion 或職業導向 reskilling；以及澳洲院校閱讀這些資料時需要什麼文件。</p>
+        <p>因此，OTC Australia 可以建立一條合規的服務線：<strong>UK RQF to Australia AQF advisory support</strong>。服務內容應包括 evidence pack preparation、qualification-level explanation、module / learning outcome matching、transcript and specification organisation、university pathway matching，以及在移民、法律、技能評估、專業註冊等監管領域進行專業轉介。</p>
+
+        <h2>五、參考矩陣</h2>
+        <div class="report-table-wrap">
+          <table>
+            <thead><tr><th>OTC / OTHM 資產</th><th>澳洲方向需求</th><th>OTC 服務含義</th></tr></thead>
+            <tbody>
+              <tr><td>OTHM Ofqual / RQF 身份</td><td>學生需要可信地解釋英國資格層級與學習結構。</td><td>準備資格說明、證書、成績單、規格文件與 level summary。</td></tr>
+              <tr><td>OTHM Level 5 Business Management</td><td>澳洲院校會按個案評估 prior formal learning。</td><td>建立 university entry 與 credit / RPL readiness 文件包。</td></tr>
+              <tr><td>120-credit 及 unit specification 結構</td><td>Credit / RPL 通常需要課程描述與 learning outcomes。</td><td>維護 module-level mapping records 及 application files。</td></tr>
+              <tr><td>Business / management / professional subject areas</td><td>澳洲有廣泛的大學、pathway、VET 與職業課程市場。</td><td>建立 business、management、IT、health、education、tourism、strategic management 等 subject-route portfolios。</td></tr>
+              <tr><td>澳洲辦事處路線</td><td>學生與合作方需要本地協調窗口。</td><td>以 NSW contact route、local communication 及 institution liaison 支持澳洲教育服務。</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>六、服務範圍</h2>
+        <div class="report-service-list">
+          <article><strong>OTHM-to-Australia Qualification Interpretation</strong><p>解釋 RQF level、credits、TQT / GLH、learning outcomes、academic progression options，並生成 Australia-facing document pack。</p></article>
+          <article><strong>University Application and Credit / RPL Readiness</strong><p>為澳洲大學與 pathway providers 建立 transcript、certified copy、course outline、English requirement、RPL form 及 timing checklist。</p></article>
+          <article><strong>Career-Qualification Route Planning</strong><p>把 academic progression、employability narrative、postgraduate conversion、professional-course preparation 與 regulated referral boundary 連接起來。</p></article>
+          <article><strong>Institutional Partnership Materials</strong><p>以 OTHM 為基礎，支撐院校溝通、雙語說明材料、學生文件包整理及澳洲教育合作材料。</p></article>
+        </div>
+
+        <h2>七、機構服務定位</h2>
+        <blockquote>
+          <p>OTC 以英國 RQF 資格體系與 OTHM 學習路線為基礎，為有意銜接澳洲大學、college、pathway provider 或職業導向課程的學生提供資格解讀、文件整理、課程匹配與申請協調服務。澳洲院校及專業機構會依其自身規則處理 overseas prior learning、credit、admission 或 professional pathway；OTC 的角色是協助學生把既有學習經歷轉化為清晰、可閱讀、可溝通的申請資料。</p>
+        </blockquote>
+
+        <h2>八、結論</h2>
+        <p>OTHM 對 OTC 澳洲教育服務的價值，在於它提供了一套可被文件化、可被解釋、可被映射到澳洲申請語境的英國資格基礎。公開服務的重點不是聲稱自動等同，而是做好中間層工作：把 UK RQF qualification records 整理成 Australia-ready education files，協助學生理解 pathway choices，準備 credit / RPL 文件，並在保持專業邊界的前提下協調申請。</p>
+
+        <h2>來源鏈接</h2>
+        <ul class="report-source-list">
+          <li><a href="https://othm.org.uk/quality-standards" target="_blank" rel="noopener">OTHM Quality, Standards & Recognitions</a></li>
+          <li><a href="https://othm.org.uk/university-progression" target="_blank" rel="noopener">OTHM University Progressions</a></li>
+          <li><a href="https://othm.org.uk/qualification/othm-level-5-diploma-in-business-management" target="_blank" rel="noopener">OTHM Level 5 Diploma in Business Management</a></li>
+          <li><a href="https://www.aqf.edu.au/about/what-aqf" target="_blank" rel="noopener">AQF: What is the AQF</a></li>
+          <li><a href="https://www.aqf.edu.au/framework/aqf-qualifications" target="_blank" rel="noopener">AQF Qualifications</a></li>
+          <li><a href="https://www.teqsa.gov.au/how-we-regulate/acts-and-standards/australian-qualifications-framework" target="_blank" rel="noopener">TEQSA AQF overview</a></li>
+          <li><a href="https://www.uts.edu.au/for-students/admissions-entry/recognition-of-prior-learning" target="_blank" rel="noopener">UTS Recognition of Prior Learning</a></li>
+          <li><a href="https://www.curtin.edu.au/study/applying/credit-recognised-learning/apply/" target="_blank" rel="noopener">Curtin Credit for Recognised Learning</a></li>
+          <li><a href="https://policies.uq.edu.au/document/view-current.php?id=217&version=3" target="_blank" rel="noopener">UQ Credit and Recognition of Prior Learning Procedure</a></li>
+        </ul>
+
+        <div class="programme-actions">
+          <a class="btn btn-dark" href="/reports/othm-australia-expansion/">English report</a>
+          <a class="btn btn-light" href="/australia-office-presence/">返回澳洲路線</a>
+        </div>
+      </article>
     </section>
   `
 });
@@ -3010,21 +5166,38 @@ const about = pageShell({
   body: `
     <section class="page-hero"><div class="band"><div class="eyebrow">About the Organisation</div><h1>Overseas Tutorial Centre</h1><p>A multi-function education, tutorial and publishing ecosystem serving learners, families and overseas Chinese communities.</p></div></section>
     <section class="band">
-      <div class="feature-grid">
-        <article class="feature"><div class="num">Consulting</div><h3>Overseas Education Consulting</h3><p>Education planning, pathway guidance and practical student support.</p></article>
-        <article class="feature"><div class="num">Tutorial</div><h3>Overseas Tutorial Centre</h3><p>Teaching support, English preparation, learner resources and tutor-led practice.</p></article>
-        <article class="feature"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p></article>
+      <div class="business-portfolio-copy">
+        <div class="eyebrow">Business Portfolio</div>
+        <h2>OTC operates as an education, services, publishing and digital-learning portfolio.</h2>
+        <p>Overseas Tutorial Centre connects advisory work, institutional services, course support, publishing products and learning technology under one operating structure. Each business area has its own public entrance, so students, families, institutions and professional partners can move directly to the service line that matches their need.</p>
+      </div>
+      <div style="height:18px"></div>
+      <div class="feature-grid about-business-grid">
+        <a class="feature" href="/resources/"><div class="num">Consulting</div><h3>Education Consulting</h3><p>Pathway planning, complex case review, transfer guidance and practical student support.</p><span>Open consulting</span></a>
+        <a class="feature" href="/services/"><div class="num">Services</div><h3>Institutional Services</h3><p>Translation, publishing, guardianship, events, accreditation and professional service packages.</p><span>Open services</span></a>
+        <a class="feature" href="/courses/"><div class="num">Courses</div><h3>Course & Tutorial Support</h3><p>International curriculum tutoring, OTHM routes, external programme support and academic tutoring.</p><span>Open courses</span></a>
+        <a class="feature" href="/apps/"><div class="num">Tools</div><h3>Learning Apps & Tools</h3><p>Speaking practice, placement preparation, mock tests, quiz systems and digital learning utilities.</p><span>Open tools</span></a>
+        <a class="feature" href="/publishing/"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p><span>Open publishing</span></a>
+        <a class="feature" href="/insights/"><div class="num">Insights</div><h3>Education Insights</h3><p>Short articles, pathway notes and publishable education information for students and families.</p><span>Open insights</span></a>
+        <a class="feature" href="/university-applications/"><div class="num">Applications</div><h3>University Applications</h3><p>Country, institution, school and programme-based application screening.</p><span>Open applications</span></a>
+        <a class="feature" href="/australia-business-landing/"><div class="num">Australia</div><h3>Australia Market Support</h3><p>Education market entry, local coordination and institutional development support.</p><span>Open Australia support</span></a>
       </div>
       <div style="height:24px"></div>
       <div class="office-notice">
         <div>
           <div class="eyebrow">Sydney Office Notice</div>
           <h2>OTC is establishing an Australian office presence.</h2>
-          <p>Overseas Tutorial Centre Ltd has secured an office address in Sydney to support education consulting, student support coordination, publishing liaison and local professional communication in Australia.</p>
+          <p>Overseas Tutorial Centre Ltd is building a practical Australia-facing operating route from NSW: student advisory intake, university application coordination, education-market liaison, publishing and training support, and professional referral where regulated advice is required.</p>
+          <a class="office-window-link" href="/australia-office-presence/">Open Australia office route</a>
         </div>
         <div class="office-notice-details">
           <p><strong>Overseas Tutorial Centre Ltd</strong><br>45 Evans St, Balmain, NSW 2041, Australia</p>
           <p>Australian contact: <a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>UK main telephone / WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          <div class="office-status">
+            <span>Current status</span>
+            <strong>Establishing presence</strong>
+            <p>Education coordination and market-entry support are being developed first. Regulated Australian legal, migration, tax, financial and accreditation advice remains outside OTC's direct scope.</p>
+          </div>
         </div>
       </div>
       <div style="height:24px"></div>
@@ -3403,6 +5576,11 @@ write("publishing", publishing);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("study-guides", guides);
 write("courses", courses);
+write("services", services);
+serviceProducts.forEach((service) => {
+  write(`services/${service.slug}`, serviceDetailPage(service));
+});
+write("university-applications", universityApplications);
 write("zh", chineseEntrance);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
@@ -3417,7 +5595,17 @@ write("apps", apps);
 write("apps/ucbelt-speaking", ucbelt);
 write("resources", resources);
 write("australia-business-landing", australiaBusinessLanding);
+write("australia-office-presence", australiaOfficePresence);
+write("australia-vet-tafe-pathways", australiaVetTafePathways);
+write("ai-education-operations", aiEducationOperations);
+write("reports/othm-australia-expansion", othmAustraliaExpansionReport);
+write("zh/reports/othm-australia-expansion", othmAustraliaExpansionReportZh);
 write("consultation-chat", consultationChat);
+write("insights", insights);
+insightsArticles.forEach((article) => {
+  write(`insights/${article.slug}`, insightArticlePage(article));
+  write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
+});
 write("search", search);
 write("about", about);
 write("lms-review", lmsReview);
@@ -3498,6 +5686,8 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /study-guides/
 - /publishing/
 - /courses/
+- /services/
+- /university-applications/
 - /othm-level-5-business-management/
 - /apps/
 - /apps/ucbelt-speaking/
@@ -3505,6 +5695,8 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /resources/
 - /australia-business-landing/
 - /consultation-chat/
+- /insights/
+- /zh/insights/example-article/
 - /search/
 - /about/
 - /lms-review/
