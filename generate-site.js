@@ -1401,6 +1401,7 @@ function searchItems() {
     ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
     ["University Applications", "/university-applications/", "UK university applications, advanced entry, UCAS/direct application planning, document checks and application screening."],
     ["Study Group 2026 Applications", "/study-group-2026-applications/", "OTC application support for selected Study Group pathway, direct-entry and international routes for July-December 2026 intakes."],
+    ["Study Group 2026 中文申請頁", "/zh/study-group-2026-applications/", "OTC 中文申請支持頁：Study Group 2026 年 7-12 月入學 pathway、直入與國際路線初步評估。"],
     ["Application Service Standards", "/application-service-standards/", "OTC student application standards for consent, data protection, document authenticity, academic integrity and admissions boundaries."],
     ["Advanced Entry & China Programme Support", "/advanced-entry-china-programmes/", "Support for CFAU/IBP and similar Chinese university international programme students seeking UK Year 2, top-up or advanced-entry review."],
     ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
@@ -3599,6 +3600,100 @@ const studyGroup2026Applications = pageShell({
   `
 });
 
+const studyGroup2026ApplicationsZh = pageShell({
+  title: "Study Group 2026 申請 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  description: "OTC 中文申請支持頁：Study Group 2026 年 7-12 月入學 pathway、直入與國際路線初步評估。",
+  path: "/zh/study-group-2026-applications/",
+  body: `
+    <section class="page-hero application-hero studygroup-hero"><div class="band"><div class="eyebrow">2026 年 7-12 月入學</div><h1>Study Group Pathway 與直入申請</h1><p>OTC 協助學生比較 Study Group 相關 pathway、直入和國際升學路線，並為 2026 年入學準備申請文件。</p><div class="hero-actions"><a class="btn btn-primary" href="#studygroup-route-review">申請路線評估</a><a class="btn btn-secondary" href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres#otc-apply-form">打開申請表</a><a class="btn btn-secondary" href="/application-service-standards/">服務標準</a></div></div></section>
+
+    <main>
+      <section class="band compact-band">
+        <div class="studygroup-window-panel">
+          <div>
+            <span>建議時間</span>
+            <strong>盡量在 6 月底或 7 月中以前完成文件準備。</strong>
+            <p>部分 2026 路線的確認窗口較短。OTC 會優先處理成績單、英文證明、課程匹配和 admissions follow-up，避免學生錯過合適的入學選項。</p>
+          </div>
+          <div class="studygroup-date-row">
+            <article><b>30 Jun 2026</b><em>可作為部分直入路線的內部檢查日期。</em></article>
+            <article><b>15 Jul 2026</b><em>可作為部分 pathway 和 wider route review 的內部檢查日期。</em></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">路線範圍</div>
+          <h2>OTC 可為 2026 申請人初步篩選的路線。</h2>
+          <p>最終名額、入學要求、學費、獎學金、銜接規則和申請結果，均需以 provider 或大學最新官方指引為準。</p>
+        </div>
+        <div class="studygroup-route-grid">
+          <article>
+            <span>UK / Europe ISC</span>
+            <strong>IFY、International Year One / Two 和 Pre-Master 路線</strong>
+            <p>適合需要先讀 pathway，再銜接大學學位的學生。</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres&programme=IFY%20%2F%20IY1%20%2F%20IY2%20%2F%20Pre-Master%20application%20screening#otc-apply-form">開始評估</a>
+          </article>
+          <article>
+            <span>Huddersfield London</span>
+            <strong>本科 / 研究生直入申請</strong>
+            <p>適合已有一定學歷和英文基礎，可能符合 direct-entry 要求的學生。</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=University%20of%20Huddersfield%20London#otc-apply-form">開始評估</a>
+          </article>
+          <article>
+            <span>Royal Holloway</span>
+            <strong>本科、研究生和博士直入申請</strong>
+            <p>適合考慮 Royal Holloway 並需要整理申請資格和文件的學生。</p>
+            <a href="/university-applications/?country=United%20Kingdom&institution=Royal%20Holloway%2C%20University%20of%20London#otc-apply-form">開始評估</a>
+          </article>
+          <article>
+            <span>North America</span>
+            <strong>美國 ISC 與本科 / 研究生直入選項</strong>
+            <p>適合正在比較英國和北美 2026 入學路線的學生。</p>
+            <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">開始評估</a>
+          </article>
+          <article>
+            <span>Bellerbys Global</span>
+            <strong>國際學校與 pathway 選項</strong>
+            <p>適合年齡較小、家庭正在考慮國際預備教育路線的學生。</p>
+            <a href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Bellerbys%20Global%20Route%20Review">申請評估</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="band compact-band" id="studygroup-route-review">
+        <div class="studygroup-action-layout">
+          <div>
+            <div class="eyebrow">OTC 申請流程</div>
+            <h2>OTC 推薦路線前會先檢查什麼。</h2>
+            <ol class="service-steps">
+              <li>學生背景：目前學校或大學、學歷階段、目標專業和偏好入學時間。</li>
+              <li>學術文件：成績單、grading scale、課程描述、畢業證明或在讀證明。</li>
+              <li>英文準備：IELTS、TOEFL、PTE、Duolingo 或可接受的內部英文方案。</li>
+              <li>路線匹配：foundation、International Year One、pre-master、直入或其他目的地。</li>
+              <li>時間控制：缺失文件清單、申請時間表和 confirmation follow-up。</li>
+            </ol>
+          </div>
+          <aside>
+            <strong>向 OTC 發送路線評估請求</strong>
+            <p>請提供目前學歷、最新成績單、英文成績、目標專業、偏好目的地，以及學生是否可以較快作出確認決定。</p>
+            <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Route%20Review&body=Student%20name%3A%0ACurrent%20school%20%2F%20university%3A%0ACurrent%20qualification%3A%0ATarget%20subject%3A%0APreferred%20destination%3A%0ATarget%20intake%3A%0AEnglish%20score%3A%0ATranscript%20status%3A%0ANotes%3A">Email OTC</a>
+            <a class="btn btn-light" href="/university-applications/#otc-apply-form">使用申請表</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="notice">本頁為 OTC 申請支持頁。OTC 不保證錄取、獎學金、簽證、住宿、credit transfer 或 progression 結果。除非有書面協議或官方指引，頁面中對 Study Group、大學或 centre 的引用僅作路線說明。</div>
+      </section>
+    </main>
+  `
+});
+
 const internationalCurriculumTutoring = pageShell({
   title: "International Curriculum Bilingual Tutoring | OTC Study Hub",
   current: "courses",
@@ -3677,6 +3772,7 @@ const chineseEntrance = pageShell({
           <p>Overseas Tutorial Centre 的結構化入口，整合教育諮詢、課程支持、考試與練習工具，以及雙語出版資源。</p>
           <div class="hero-directory">
             <a href="/resources/"><strong>教育諮詢</strong><span>路線規劃、申請說明、家庭溝通與學生支持</span></a>
+            <a href="/zh/study-group-2026-applications/"><strong>Study Group 2026</strong><span>2026 年 7-12 月 pathway 與直入申請窗口</span></a>
             <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議、教育展與機構支持</span></a>
             <a href="/courses/"><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃</span></a>
             <a href="/apps/"><strong>工具</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
@@ -3684,15 +3780,16 @@ const chineseEntrance = pageShell({
             <a href="/insights/"><strong>教育資訊</strong><span>中英雙語短文、申請觀察、路線說明與可分享文章</span></a>
           </div>
           <div class="hero-actions">
+            <a class="btn btn-primary" href="/zh/study-group-2026-applications/">Study Group 2026 申請</a>
             <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">打開 UCBELT App</a>
             <a class="btn btn-secondary" href="/courses/">課程索引</a>
-            <a class="btn btn-secondary" href="/publishing/">出版更新</a>
           </div>
         </div>
         <aside class="hero-panel">
           <div class="panel-label">當前重點</div>
           <div class="hub-map">
             <div class="hub-item"><strong>UCBELT 口語備考</strong><span>10 組主題練習 · 10 套完整 mock · 640 個雙語詞彙。</span></div>
+            <div class="hub-item"><strong>Study Group 2026 申請窗口</strong><span>英國、歐洲和北美部分 pathway、直入與國際路線，對應 2026 年 7-12 月入學。</span></div>
             <div class="hub-item"><strong>A-Level / BTEC / IB / AP 雙語輔導</strong><span>面向中國 EAL 學生的國際學校支持：概念、寫作、coursework 與 evaluation。</span></div>
             <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>六個單元課程支持與雙語 study companion 系列。</span></div>
             <div class="hub-item"><strong>Overseas Publishing 書目</strong><span>學術研究、雙語教輔、實用書、app 與自助出版服務。</span></div>
@@ -5948,6 +6045,7 @@ write("application-service-standards", applicationServiceStandards);
 write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
 write("zh", chineseEntrance);
+write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
 write("external-programme-support", externalProgrammeSupport);
@@ -6055,6 +6153,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /services/
 - /university-applications/
 - /study-group-2026-applications/
+- /zh/study-group-2026-applications/
 - /application-service-standards/
 - /advanced-entry-china-programmes/
 - /university-partnerships/
