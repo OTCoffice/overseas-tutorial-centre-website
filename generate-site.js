@@ -3508,6 +3508,89 @@ const universityApplications = pageShell({
   `
 });
 
+const studyGroupNorthAmericaInstitutions = [
+  {
+    name: "California State University San Marcos",
+    location: "California",
+    url: "https://students.studygroup.com/study-options/direct-admit/california-state-university-san-marcos"
+  },
+  {
+    name: "DePaul University",
+    location: "Illinois",
+    url: "https://students.studygroup.com/study-options/direct-admit/depaul-university"
+  },
+  {
+    name: "Florida Atlantic University",
+    location: "Florida",
+    url: "https://students.studygroup.com/study-options/direct-admit/florida-atlantic-university"
+  },
+  {
+    name: "James Madison University",
+    location: "Virginia",
+    url: "https://students.studygroup.com/study-options/direct-admit/james-madison-university"
+  },
+  {
+    name: "Long Island University",
+    location: "New York",
+    url: "https://students.studygroup.com/study-options/direct-admit/long-island-university"
+  },
+  {
+    name: "Mercer University",
+    location: "Georgia",
+    url: "https://students.studygroup.com/study-options/direct-admit/mercer-university"
+  },
+  {
+    name: "New Jersey Institute of Technology",
+    location: "New Jersey",
+    url: "https://students.studygroup.com/study-options/direct-admit/new-jersey-institute-of-technology"
+  },
+  {
+    name: "Texas A&M University-Corpus Christi",
+    location: "Texas",
+    url: "https://students.studygroup.com/study-options/direct-admit/texas-am-corpus-christi"
+  },
+  {
+    name: "Towson University",
+    location: "Maryland",
+    url: "https://students.studygroup.com/study-options/direct-admit/towson-university"
+  },
+  {
+    name: "University of Hartford",
+    location: "Connecticut",
+    url: "https://students.studygroup.com/study-options/direct-admit/university-of-hartford"
+  },
+  {
+    name: "University of Wisconsin-Stout",
+    location: "Wisconsin",
+    url: "https://students.studygroup.com/study-options/direct-admit/wisconsin-stout"
+  },
+  {
+    name: "Western Washington University",
+    location: "Washington",
+    url: "https://students.studygroup.com/study-options/direct-admit/western-washington-university"
+  }
+];
+
+function studyGroupNorthAmericaCards(locale = "en") {
+  const officialLabel = locale === "zh" ? "官方資訊" : "Official info";
+  const screeningLabel = locale === "zh" ? "OTC 評估" : "OTC screening";
+  const routeLabel = locale === "zh" ? "Study Group 北美直錄 / 銜接資訊" : "Study Group North America direct-admit information";
+  return studyGroupNorthAmericaInstitutions.map((institution) => {
+    const screeningHref = `/university-applications/?country=United%20States&institution=${encodeURIComponent(institution.name)}#otc-apply-form`;
+    return `
+      <article class="na-institution-card">
+        <span>${institution.location}</span>
+        <strong>${institution.name}</strong>
+        <p>${routeLabel}</p>
+        <div class="na-card-actions">
+          <a href="${institution.url}" target="_blank" rel="noopener">${officialLabel}</a>
+          <a href="${screeningHref}">${screeningLabel}</a>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
 const studyGroup2026Applications = pageShell({
   title: "Study Group 2026 Applications | OTC Study Hub",
   current: "applications",
@@ -3564,7 +3647,10 @@ const studyGroup2026Applications = pageShell({
             <span>North America</span>
             <strong>US ISC and UG / PG Direct Options</strong>
             <p>For students comparing UK and North America routes for 2026 entry.</p>
-            <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">Start screening</a>
+            <div class="route-card-actions">
+              <a href="#north-america-institutions">View institution list</a>
+              <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">Start screening</a>
+            </div>
           </article>
           <article>
             <div class="institution-logo logo-bellerbys"><b>Bellerbys</b><em>Global</em></div>
@@ -3574,6 +3660,18 @@ const studyGroup2026Applications = pageShell({
             <a href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Bellerbys%20Global%20Route%20Review">Request review</a>
           </article>
         </div>
+      </section>
+
+      <section class="band compact-band north-america-institutions" id="north-america-institutions">
+        <div class="section-head compact-head">
+          <div class="eyebrow">North America</div>
+          <h2>Study Group North America institution list.</h2>
+          <p>Click a university to open its public Study Group information page, or start an OTC screening request for that institution.</p>
+        </div>
+        <div class="north-america-list">
+          ${studyGroupNorthAmericaCards("en")}
+        </div>
+        <div class="notice">Institution availability, eligible degree levels, intakes, entry requirements and fees must be checked against the current Study Group and university instructions before an application is submitted.</div>
       </section>
 
       <section class="band compact-band" id="studygroup-route-review">
@@ -3663,7 +3761,10 @@ const studyGroup2026ApplicationsZh = pageShell({
             <span>North America</span>
             <strong>美國 ISC 與本科 / 研究生直入選項</strong>
             <p>適合正在比較英國和北美 2026 入學路線的學生。</p>
-            <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">開始評估</a>
+            <div class="route-card-actions">
+              <a href="#north-america-institutions">查看院校清單</a>
+              <a href="/university-applications/?country=United%20States&institution=Study%20Group%20North%20America#otc-apply-form">開始評估</a>
+            </div>
           </article>
           <article>
             <div class="institution-logo logo-bellerbys"><b>Bellerbys</b><em>Global</em></div>
@@ -3673,6 +3774,18 @@ const studyGroup2026ApplicationsZh = pageShell({
             <a href="mailto:office@overseasuk.com?subject=Study%20Group%202026%20Bellerbys%20Global%20Route%20Review">申請評估</a>
           </article>
         </div>
+      </section>
+
+      <section class="band compact-band north-america-institutions" id="north-america-institutions">
+        <div class="section-head compact-head">
+          <div class="eyebrow">North America</div>
+          <h2>Study Group 北美合作院校清單。</h2>
+          <p>點擊院校可打開 Study Group 公開資訊頁；如學生條件匹配，也可直接進入 OTC 申請評估表。</p>
+        </div>
+        <div class="north-america-list">
+          ${studyGroupNorthAmericaCards("zh")}
+        </div>
+        <div class="notice">院校名單、可申請學位層級、入學時間、入學要求和費用，均需在遞交申請前按 Study Group 與大學最新官方指引確認。</div>
       </section>
 
       <section class="band compact-band" id="studygroup-route-review">

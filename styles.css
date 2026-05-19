@@ -989,11 +989,88 @@ h1 {
   font-size: 18px;
 }
 
-.studygroup-route-grid a {
+.studygroup-route-grid a,
+.route-card-actions a,
+.na-card-actions a {
   margin-top: auto;
   color: var(--teal);
   font-size: 13px;
   font-weight: 850;
+}
+
+.route-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: auto;
+}
+
+.route-card-actions a {
+  margin-top: 0;
+}
+
+.north-america-institutions {
+  border-top: 1px solid var(--line);
+}
+
+.north-america-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(6, 26, 47, 0.05);
+}
+
+.na-institution-card {
+  min-height: 188px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.na-institution-card:nth-child(4n) {
+  border-right: 0;
+}
+
+.na-institution-card:nth-last-child(-n + 4) {
+  border-bottom: 0;
+}
+
+.na-institution-card span {
+  color: #55716b;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.na-institution-card strong {
+  color: var(--navy);
+  display: block;
+  font-size: 17px;
+  line-height: 1.25;
+  margin-top: 12px;
+}
+
+.na-institution-card p {
+  color: #4e5f6c;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+
+.na-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.na-card-actions a {
+  margin-top: 0;
 }
 
 .institution-logo {
@@ -6324,6 +6401,7 @@ h1 {
   .course-system-grid,
   .programme-card-grid,
   .studygroup-route-grid,
+  .north-america-list,
   .translation-service-grid,
   .external-route-grid,
   .curriculum-support-grid,
@@ -6395,6 +6473,18 @@ h1 {
   }
 
   .studygroup-route-grid article:last-child {
+    border-bottom: 0;
+  }
+
+  .na-institution-card,
+  .na-institution-card:nth-child(4n),
+  .na-institution-card:nth-last-child(-n + 4) {
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .na-institution-card:last-child {
     border-bottom: 0;
   }
 
