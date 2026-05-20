@@ -1178,6 +1178,37 @@ h1 {
   line-height: 1.45;
 }
 
+.education-update-feature {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-top: 12px;
+  padding: 16px;
+}
+
+.education-update-feature span,
+.education-update-feature p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.education-update-feature h3 {
+  color: var(--navy);
+  font-size: 20px;
+  grid-column: 1 / -1;
+}
+
+.education-update-feature .btn {
+  white-space: nowrap;
+}
+
 .pill-row {
   display: flex;
   flex-wrap: wrap;
@@ -7004,6 +7035,10 @@ h1 {
   .curriculum-card:last-child,
   .curriculum-map article:last-child {
     border-bottom: 0;
+  }
+
+  .education-update-feature {
+    grid-template-columns: 1fr;
   }
 
   .hero-inner {
