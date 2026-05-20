@@ -1793,11 +1793,11 @@ const serviceLines = [
   {
     code: "01",
     title: "Language & Context Studio",
-    titleZh: "高端中英語境工作室",
+    titleZh: "中英文件翻譯與專業表達",
     audience: "Government, publishing houses, universities, education institutions, law firms, corporate clients and academic teams.",
     audienceZh: "面向政府、出版社、大學、教育機構、律師事務所、企業與學術團隊。",
-    desc: "Premium Chinese-English translation, bilingual editing, context calibration and public-facing wording for high-stakes documents.",
-    descZh: "高端中英翻譯、雙語編修、語境校準與高風險文件對外表達設計。",
+    desc: "Professional Chinese-English translation, bilingual editing, context calibration and public-facing wording for important documents.",
+    descZh: "中英翻譯、雙語編修、語境校準與重要文件對外表達整理。",
     items: ["Government and institutional profiles", "Publishing manuscripts and academic articles", "Legal-context and business documents", "University application and academic materials"]
   },
   {
@@ -1876,13 +1876,13 @@ const serviceProducts = [
     ...serviceLines[0],
     slug: "language-context-studio",
     type: "Flagship translation service",
-    shortDesc: "Premium bilingual language work for high-stakes institutional documents.",
-    cardDesc: "High-end Chinese-English translation, bilingual editing and tone calibration for government, publishing, academic and legal-context documents.",
+    shortDesc: "Professional bilingual language work for important institutional documents.",
+    cardDesc: "Professional Chinese-English translation, bilingual editing and tone calibration for government, publishing, academic and legal-context documents.",
     price: "From £180 / document review",
     timeline: "1-10 working days",
     tone: "gold",
     featured: true,
-    overview: "A premium language and context service for documents where tone, authority, precision and institutional risk matter as much as literal meaning.",
+    overview: "A professional language and context service for documents where tone, authority, precision and institutional risk matter as much as literal meaning.",
     process: ["Document intake and purpose check", "Audience, jurisdiction and terminology calibration", "Translation / bilingual editing / rewriting", "Editorial review with query notes", "Final clean copy and tracked-change copy"],
     deliverables: ["Bilingual final document", "Tracked-change editorial file", "Terminology and style notes", "Optional publication-ready layout"],
     showcase: ["Government or institution profile", "Academic article / abstract / conference text", "Legal-context supporting document", "Publishing manuscript sample"],
@@ -4009,8 +4009,8 @@ const chineseEntrance = pageShell({
     <section class="band compact-band premium-translation-section">
       <div class="section-head compact-head">
         <div class="eyebrow">Language & Context Studio</div>
-        <h2>高端中英語境工作室</h2>
-        <p>為大學申請、商務文件、法律語境材料與出版稿件提供精密翻譯、雙語編修與跨文化表達校準。</p>
+        <h2>中英文件翻譯與專業表達</h2>
+        <p>為大學申請、商務文件、法律語境材料與出版稿件提供中英翻譯、雙語編修與跨文化表達校準。</p>
       </div>
       <div class="translation-service-grid">
         <article><b>01</b><strong>申請與學術翻譯</strong><span>Personal statement、CV、推薦信素材、學術證明、研究計劃與申請補充說明。</span></article>
