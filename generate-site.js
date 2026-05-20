@@ -1598,14 +1598,26 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "3) How Students Can Use These Updates",
+        heading: "3) Latest Provider Briefing Notes",
+        paragraphs: [
+          "Central Queensland University (CQU): the Master of Construction Management (CL82) has been reported as professionally accredited by the Australian Institute of Building (AIB), giving applicants a clearer industry-recognition point when assessing construction-management study routes.",
+          "Charles Sturt University (CSU): Bachelor of Nursing for Semester 1, 2026 has been reported as full. Limited places were noted in diagnostic radiography, occupational therapy, oral health, paramedicine, pharmacy and physiotherapy, with Engineering (Civil) (Honours), Master of Professional Information Technology and Master of Agricultural Science reported as open at the time of the briefing.",
+          "Curtin Singapore: 2026 scholarship information was reported, including Academic Scholarship and Merit Scholarship routes for eligible diploma, undergraduate, graduate-certificate, postgraduate and packaged English-course applicants.",
+          "La Trobe College Australia: the Diploma of Nursing pathway English requirement for the packaged bachelor route was reported as updated to IELTS 6.5 overall with no band below 6.0, with up to 10 weeks of ELICOS potentially relevant for students still below the threshold.",
+          "Charles Darwin University (CDU): Northern Territory skilled nomination information was reported as open for the 2025-26 programme year. This is included only as study-destination context; visa nomination and migration eligibility must be checked with official government sources or qualified migration professionals.",
+          "RMIT University: applicants and agents were reminded not to use the StudyLink External Offer ID field for agent notes, and Bachelor of Accounting Professional Practice was reported as open to international students.",
+          "Additional Asia-Pacific updates recorded by OTC include Curtin Singapore scholarships, THEi Hong Kong application-date changes for MSc Business Administration (Digital Transformation), and UP Education / HANZ New Zealand Diploma in Enrolled Nursing international-entry updates."
+        ]
+      },
+      {
+        heading: "4) How Students Can Use These Updates",
         paragraphs: [
           "For undergraduate and advanced-entry applicants, OTC can compare direct entry, Year 2 / advanced-entry review, foundation, diploma-style pathway and English-package options. The aim is to identify a realistic route, not to promise a guaranteed outcome.",
           "For pathway applicants, OTC checks academic background, English readiness, scholarship timing, deposit / acceptance steps, document quality and whether a package route may be appropriate. Students should always read the current official entry requirements and offer conditions before accepting any place."
         ]
       },
       {
-        heading: "4) Compliance and Professional Boundaries",
+        heading: "5) Compliance and Professional Boundaries",
         paragraphs: [
           "OTC does not present this information as a guarantee of admission, scholarship, visa outcome or provider endorsement. References to universities, colleges and pathway providers are used to describe available application and information routes.",
           "Visa, migration, tax, legal and regulated education-provider matters should be checked with appropriately qualified professionals. OTC's role is education consulting, application administration, document organisation and responsible communication support."
@@ -1628,14 +1640,26 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "3）學生如何使用這些信息",
+        heading: "3）最新 provider briefing notes",
+        paragraphs: [
+          "中央昆士蘭大學 CQU：Master of Construction Management（CL82）已被記錄為獲 Australian Institute of Building（AIB）職業認證。這對建築管理方向申請人有參考價值，因為它提供了更清晰的行業認可信息。",
+          "查爾斯特大學 CSU：Bachelor of Nursing 2026 年 S1 已被通知滿位。當期 briefing 同時提示部分限額課程仍有少量名額，包括 Diagnostic Radiography、Occupational Therapy、Oral Health、Paramedicine、Pharmacy、Physiotherapy；Engineering (Civil) (Honours)、Master of Professional Information Technology、Master of Agricultural Science 被記錄為仍開放。",
+          "Curtin Singapore：2026 年獎學金信息已記錄，包括 Academic Scholarship 與 Merit Scholarship，適用於符合條件的 Diploma、本科、GC/碩士打包、語言課打包等路線。",
+          "La Trobe College Australia：護理文憑銜接學士打包課程英語要求更新為 IELTS 6.5 overall、各項不低於 6.0；仍未達標者可按要求評估是否可銜接最多 10 週 ELICOS。",
+          "Charles Darwin University（CDU）：北領地政府 2025-26 財年技術簽證提名項目開放信息已記錄。此處只作為留學目的地與畢業後規劃背景信息，不構成移民建議；具體簽證與提名資格必須以政府官方要求及合資格 migration professional 意見為準。",
+          "RMIT University：StudyLink 系統填寫提醒已記錄，即 External Offer ID 欄位不應作為代理備註欄使用；Bachelor of Accounting Professional Practice 已被記錄為對國際學生開放申請。",
+          "OTC 同時記錄了其他亞太 provider updates，包括 Curtin Singapore 獎學金、香港高科院 THEi 工商管理（數碼轉型）碩士申請日期調整，以及 UP Education / HANZ 新西蘭 Enrolled Nursing Diploma 對國際學生開放入學的更新。"
+        ]
+      },
+      {
+        heading: "4）學生如何使用這些信息",
         paragraphs: [
           "對本科與 advanced-entry 申請人，OTC 可協助比較 direct entry、Year 2 / advanced-entry review、Foundation、Diploma-style pathway 及 English package 等選項。目標是找到現實可行的路線，而不是承諾必然錄取。",
           "對 pathway 申請人，OTC 會核對學術背景、英語準備、獎學金時間、押金/接受 offer 步驟、文件質量，以及是否適合打包路線。學生在接受任何 offer 前，仍應閱讀當前官方入學要求與 offer 條件。"
         ]
       },
       {
-        heading: "4）合規邊界與專業責任",
+        heading: "5）合規邊界與專業責任",
         paragraphs: [
           "OTC 不把以上信息表述為錄取、獎學金、簽證或院校背書的保證。對大學、學院與 pathway provider 的引用，是為了說明可研究、可申請或可溝通的信息路線。",
           "涉及簽證、移民、稅務、法律或受監管教育 provider 事項，應由相應合資格專業人士核對。OTC 的角色是教育諮詢、申請行政、文件整理與負責任的溝通支持。"
