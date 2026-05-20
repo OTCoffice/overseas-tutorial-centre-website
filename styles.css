@@ -1148,6 +1148,36 @@ h1 {
   margin-top: 8px;
 }
 
+.education-updates-strip {
+  padding-top: 40px;
+}
+
+.education-update-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.education-update-list article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.education-update-list strong {
+  display: block;
+  color: var(--navy);
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.education-update-list span {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .pill-row {
   display: flex;
   flex-wrap: wrap;
@@ -6942,6 +6972,7 @@ h1 {
   .regional-office-grid,
   .country-school-grid,
   .index-grid,
+  .education-update-list,
   .ebook-service-grid,
   .insights-grid,
   .publishing-categories,
