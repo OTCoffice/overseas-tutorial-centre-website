@@ -487,7 +487,9 @@ h1 {
 
 .zh-landing-card p {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 17px;
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 560;
+  letter-spacing: 0.04em;
   line-height: 1.55;
   margin-top: 22px;
   max-width: 580px;
