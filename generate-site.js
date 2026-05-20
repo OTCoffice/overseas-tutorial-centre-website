@@ -3905,7 +3905,7 @@ const chineseEntrance = pageShell({
           <p>留學、移民、出版<br>升學、轉學、教學</p>
         </aside>
         <div class="zh-landing-copy zh-global-gateway">
-          <img src="/assets/global-office-map-soft.svg?v=20260520" alt="淡色全球辦公室地圖" loading="eager">
+          <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
           <div class="zh-global-gateway-content">
             <div class="eyebrow">全球辦公室入口</div>
             <h2>Global Office Map</h2>
@@ -4083,7 +4083,7 @@ const regionalOfficePages = [
     </section>
     <section class="band regional-office-panel">
       <div class="regional-office-map-card">
-        <img src="/assets/global-office-map-soft.svg?v=20260520" alt="${office.title}淡色全球地圖">
+        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="${office.title}淡色全球地圖">
         <div>
           <div class="eyebrow">服務範圍</div>
           <h2>${office.subtitle}</h2>

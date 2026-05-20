@@ -666,7 +666,7 @@ h1 {
 .regional-office-hero {
   background:
     linear-gradient(90deg, rgba(4, 21, 38, 0.91), rgba(18, 63, 102, 0.74)),
-    url("/assets/global-office-map-soft.svg?v=20260520") center / cover no-repeat;
+    url("/assets/global-office-map-soft.svg?v=20260520-dense") center / cover no-repeat;
   color: #fff;
 }
 
