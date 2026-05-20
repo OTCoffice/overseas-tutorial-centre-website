@@ -446,7 +446,9 @@ h1 {
 .zh-landing-card {
   min-height: 0;
   border-radius: 8px;
-  background: linear-gradient(145deg, #061a2f, #10385b);
+  background:
+    radial-gradient(circle at 88% 10%, rgba(220, 184, 111, 0.2), rgba(220, 184, 111, 0) 34%),
+    linear-gradient(145deg, #041526 0%, #082642 48%, #123f66 100%);
   color: #fff;
   padding: 42px;
   position: relative;
@@ -467,32 +469,41 @@ h1 {
   transform: rotate(9deg);
 }
 
+.zh-landing-card .eyebrow {
+  color: rgba(255, 242, 209, 0.88);
+}
+
 .zh-landing-card h1 {
-  color: #fff;
+  background: linear-gradient(135deg, #fff0ba 0%, #d0ae67 46%, #a97925 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   font-family: var(--font-ui);
   font-size: clamp(58px, 6vw, 88px);
   line-height: 0.98;
   margin: 22px 0 0;
   max-width: 620px;
+  text-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
 }
 
 .zh-landing-card h2 {
-  color: rgba(255, 255, 255, 0.86);
+  color: rgba(255, 255, 255, 0.98);
   font-family: var(--font-ui);
   font-size: clamp(22px, 2vw, 30px);
-  font-weight: 520;
+  font-weight: 560;
   line-height: 1.28;
   margin-top: 18px;
 }
 
-.zh-landing-card p {
-  color: rgba(255, 255, 255, 0.72);
+.hero .zh-landing-card p {
+  color: rgba(255, 255, 255, 0.92);
   font-size: clamp(20px, 2vw, 28px);
-  font-weight: 560;
+  font-weight: 600;
   letter-spacing: 0.04em;
   line-height: 1.55;
   margin-top: 22px;
   max-width: 580px;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.18);
 }
 
 .zh-landing-copy {
