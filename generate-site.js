@@ -1793,7 +1793,7 @@ const serviceLines = [
   {
     code: "01",
     title: "Language & Context Studio",
-    titleZh: "中英文件翻譯與專業表達",
+    titleZh: "海外書局｜編譯部",
     audience: "Government, publishing houses, universities, education institutions, law firms, corporate clients and academic teams.",
     audienceZh: "面向政府、出版社、大學、教育機構、律師事務所、企業與學術團隊。",
     desc: "Professional Chinese-English translation, bilingual editing, context calibration and public-facing wording for important documents.",
@@ -3979,7 +3979,7 @@ const chineseEntrance = pageShell({
     <section class="band compact-band premium-translation-section">
       <div class="section-head compact-head">
         <div class="eyebrow">Language & Context Studio</div>
-        <h2>中英文件翻譯與專業表達</h2>
+        <h2>海外書局｜編譯部</h2>
         <p>為大學申請、商務文件、法律語境材料與出版稿件提供中英翻譯、雙語編修與跨文化表達校準。</p>
       </div>
       <div class="translation-service-grid">
