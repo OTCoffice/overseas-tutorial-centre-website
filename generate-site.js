@@ -1574,6 +1574,156 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "australia-new-zealand-provider-pathway-updates-2026",
+    title: "Australia and New Zealand Pathway Updates: Applying Through OTC",
+    date: "2026-05-20",
+    category: "Australia Pathways",
+    author: "Overseas Tutorial Centre",
+    summary: "OTC supports selected Australia and New Zealand university and pathway applications through formal cooperation, sub-agent channels and provider-information routes where applicable. This article explains how the process works and how students should read scholarship, pathway and COE information safely.",
+    titleZh: "澳洲與新西蘭 Pathway 更新：通過 OTC 做申請應如何理解",
+    summaryZh: "OTC 可在適用情況下通過正式合作、sub-agent pathway 或 provider information channel 協助學生處理澳新院校與銜接課程申請。本文說明申請流程、獎學金與 pathway 信息如何安全理解。",
+    body: [
+      {
+        heading: "1) What “Apply Through OTC” Means",
+        paragraphs: [
+          "Applying through OTC means that OTC can help a student screen suitable routes, organise documents, communicate with relevant admission or partner channels, and prepare an application record. The exact submission route depends on the institution, course, partner arrangement and current provider rules.",
+          "Some routes may be handled through formal cooperation records, some through sub-agent or pathway-provider channels, and some through information / workshop channels where OTC supports the student with research and document preparation. Admission decisions, scholarship decisions and COE issuance remain with the relevant institution or provider."
+        ]
+      },
+      {
+        heading: "2) Current Australia / New Zealand Pathway Information in Scope",
+        paragraphs: [
+          "OTC is monitoring Australia and New Zealand pathway updates including Kaplan Australia / New Zealand, Murdoch College and Murdoch University, KIC Adelaide College and the University of Adelaide, University of Newcastle progression options, and UTS / UTS College scholarship information.",
+          "OTC also maintains Australia-facing provider and pathway records such as University of Sydney / Taylors College Sydney / Navitas workshop materials, LCI Australia / Asia provider updates, and selected Australia student case records involving universities such as UNSW Sydney and the University of Queensland."
+        ]
+      },
+      {
+        heading: "3) How Students Can Use These Updates",
+        paragraphs: [
+          "For undergraduate and advanced-entry applicants, OTC can compare direct entry, Year 2 / advanced-entry review, foundation, diploma-style pathway and English-package options. The aim is to identify a realistic route, not to promise a guaranteed outcome.",
+          "For pathway applicants, OTC checks academic background, English readiness, scholarship timing, deposit / acceptance steps, document quality and whether a package route may be appropriate. Students should always read the current official entry requirements and offer conditions before accepting any place."
+        ]
+      },
+      {
+        heading: "4) Compliance and Professional Boundaries",
+        paragraphs: [
+          "OTC does not present this information as a guarantee of admission, scholarship, visa outcome or provider endorsement. References to universities, colleges and pathway providers are used to describe available application and information routes.",
+          "Visa, migration, tax, legal and regulated education-provider matters should be checked with appropriately qualified professionals. OTC's role is education consulting, application administration, document organisation and responsible communication support."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）「通過 OTC 申請」是什麼意思",
+        paragraphs: [
+          "通過 OTC 申請，是指 OTC 可以協助學生篩選合適路線、整理申請文件、與相關招生或合作渠道溝通，並建立可追蹤的申請記錄。具體提交方式取決於院校、課程、合作安排及當前 provider 規則。",
+          "部分路線可能基於正式合作記錄，部分可能通過 sub-agent 或 pathway-provider channel 處理，也有部分屬於 provider information / workshop channel，即 OTC 協助學生做研究與文件準備。錄取決定、獎學金決定與 COE 出具仍由相關院校或 provider 作出。"
+        ]
+      },
+      {
+        heading: "2）目前納入 OTC 監測的澳新 pathway 信息",
+        paragraphs: [
+          "OTC 正在跟進澳洲與新西蘭 pathway 更新，包括 Kaplan Australia / New Zealand、Murdoch College 與 Murdoch University、KIC Adelaide College 與 University of Adelaide、University of Newcastle 銜接方向，以及 UTS / UTS College 獎學金信息。",
+          "OTC 同時保存澳洲方向的 provider / pathway 記錄，例如 University of Sydney / Taylors College Sydney / Navitas workshop 材料、LCI Australia / Asia provider updates，以及涉及 UNSW Sydney、University of Queensland 等院校的澳洲學生案例文件。"
+        ]
+      },
+      {
+        heading: "3）學生如何使用這些信息",
+        paragraphs: [
+          "對本科與 advanced-entry 申請人，OTC 可協助比較 direct entry、Year 2 / advanced-entry review、Foundation、Diploma-style pathway 及 English package 等選項。目標是找到現實可行的路線，而不是承諾必然錄取。",
+          "對 pathway 申請人，OTC 會核對學術背景、英語準備、獎學金時間、押金/接受 offer 步驟、文件質量，以及是否適合打包路線。學生在接受任何 offer 前，仍應閱讀當前官方入學要求與 offer 條件。"
+        ]
+      },
+      {
+        heading: "4）合規邊界與專業責任",
+        paragraphs: [
+          "OTC 不把以上信息表述為錄取、獎學金、簽證或院校背書的保證。對大學、學院與 pathway provider 的引用，是為了說明可研究、可申請或可溝通的信息路線。",
+          "涉及簽證、移民、稅務、法律或受監管教育 provider 事項，應由相應合資格專業人士核對。OTC 的角色是教育諮詢、申請行政、文件整理與負責任的溝通支持。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "foundation-vs-international-year-one-vs-direct-entry-uk-aus",
+    title: "UK & Australia Pathways: Foundation vs International Year One vs Direct Entry (How to Choose)",
+    date: "2026-05-20",
+    category: "Pathway Planning",
+    author: "Overseas Tutorial Centre",
+    summary: "A practical route-comparison for students choosing between Foundation, International Year One/Diploma-style pathways, and direct entry for UK and Australian universities. Use it to check academic fit, English readiness, progression conditions and timeline risk—without assuming any guaranteed outcome.",
+    titleZh: "英國與澳洲升學 Pathway：Foundation、International Year One 與直入怎麼選？",
+    summaryZh: "給學生與家長的實用路線比較：Foundation、International Year One（或類 Diploma 形式）與大學直入各自適合誰。重點放在學術匹配、英語準備、progression 條件與時間線風險控制，不作任何保證性承諾。",
+    body: [
+      {
+        heading: "1) What These Routes Usually Mean",
+        paragraphs: [
+          "Foundation programmes are typically a pre-undergraduate bridge year: they build academic skills and subject foundations, then progress to Year 1 at a partner university if progression conditions are met.",
+          "International Year One (IYO) or diploma-style pathways are usually designed to lead into Year 2 (or sometimes Year 1) of a degree. They can be time-efficient, but progression requirements and course availability vary.",
+          "Direct entry means applying straight to the university degree (undergraduate or postgraduate) based on your existing qualifications. It often has clearer degree ownership, but may be less flexible if prerequisites are missing."
+        ]
+      },
+      {
+        heading: "2) Four Checks That Decide Fit (More Than Ranking)",
+        paragraphs: [
+          "Check level and subject match: your current qualification level, required subjects, and whether you need maths/science/economics prerequisites for the target major.",
+          "Check progression rules: some pathways require minimum GPA, attendance, specific modules, or English exit scores. Treat these as conditions—not as automatic advancement.",
+          "Check the degree mapping: confirm which degree(s) and intakes the pathway actually progresses to, and whether there are limits on popular majors.",
+          "Check location and provider structure: in the UK and Australia, pathways can be run by the university itself or a partner provider. The experience and support model may differ, so read the provider and university pages carefully."
+        ]
+      },
+      {
+        heading: "3) Timeline and Document Readiness",
+        paragraphs: [
+          "Start with a clean document pack: transcript(s), grading scale notes (if available), ID page, CV, and any portfolio evidence for creative or media routes. Keep file naming consistent to avoid version confusion.",
+          "Plan English readiness realistically: accepted tests, score bands, test validity, and the time you need for booking and retakes. For some pathways, the English route can be via test scores or internal assessment—verify which applies.",
+          "Build a timeline that includes deposits, CAS/CoE issuance windows, accommodation lead time and travel planning. Always confirm dates with the institution’s official admissions communications."
+        ]
+      },
+      {
+        heading: "4) Choosing Safely When You Have Gaps",
+        paragraphs: [
+          "If your profile has gaps (missing prerequisite modules, borderline grades, limited academic writing experience), a pathway may reduce academic transition risk—but it still requires consistent performance and attendance.",
+          "If your profile is strong and prerequisites are met, direct entry can be efficient. But do not assume the same decision will apply across all universities—entry standards can differ by course and intake.",
+          "When in doubt, compare two routes side-by-side: one direct-entry option and one pathway option, then decide based on evidence, deadlines and how comfortable you are with progression conditions."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）三種路線通常是什麼意思",
+        paragraphs: [
+          "Foundation（預科）通常是一年制的本科銜接：補齊學術能力與專業基礎，達到 progression 條件後再升讀合作院校的 Year 1。",
+          "International Year One（IYO）或類 Diploma 的 pathway，通常設計為升讀大學 Year 2（或部分情況升讀 Year 1）。它可能更省時間，但 progression 要求、可銜接的課程範圍會因院校而異。",
+          "直入（Direct entry）則是以你現有學歷直接申請本科/碩士主課程。路線通常更直接、學位歸屬清晰，但若先修課/背景不足，彈性可能較小。"
+        ]
+      },
+      {
+        heading: "2）決定適配度的四個核對（不只看排名）",
+        paragraphs: [
+          "核對學術層級與專業匹配：你目前學歷層級、必修科目，以及目標專業是否需要數學/理科/經濟等先修背景。",
+          "核對 progression 規則：有些 pathway 會要求最低 GPA、出勤率、指定模塊成績或英語 exit score。這些是條件，而不是「自動升讀」。",
+          "核對銜接的學位與入學批次：確認該 pathway 具體能銜接到哪些學位、哪些 intake，以及熱門專業是否有人數或名額限制。",
+          "核對辦學結構：英國與澳洲的 pathway 可能由大學本部或合作機構運營。課程支持模式可能不同，建議同時閱讀大學與 provider 的官方頁面與條款。"
+        ]
+      },
+      {
+        heading: "3）時間線與文件準備：先把「可提交性」做乾淨",
+        paragraphs: [
+          "先整理一套乾淨的文件包：成績單、評分標準（如有）、護照信息頁、CV，以及設計/媒體/藝術等方向的作品或證據。文件命名統一，可避免版本混亂與重複補交。",
+          "英語準備要現實：可接受的考試類型、分數區間、有效期，以及你需要的備考/刷分時間。有些 pathway 可能接受校內測評或內測替代，但必須逐一核對是否適用。",
+          "把押金、CAS/CoE 出具窗口、住宿安排周期與出行計畫一起納入時間線。任何關鍵日期以院校官方通知為準，避免只依賴非正式信息。"
+        ]
+      },
+      {
+        heading: "4）有短板時，如何做更安全的選擇",
+        paragraphs: [
+          "如果背景存在短板（缺先修課、成績臨界、學術寫作不足），pathway 可能有助於降低過渡風險，但仍需要穩定的表現與出勤，不能把它視為保證。",
+          "如果背景較強且先修滿足，直入可能更高效。但不同大學/不同課程/不同 intake 的標準不完全一致，切勿用一個學校的標準推斷全部。",
+          "不確定時可用「雙路線」對照：同時準備一個直入方案與一個 pathway 方案，最後以證據、截止日期與你對 progression 條件的承受度作決策。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "uk-aus-application-documents-checklist",
     title: "UK & Australia University Applications: A Practical Document Checklist",
     date: "2026-05-19",
@@ -2967,6 +3117,14 @@ const universityApplications = pageShell({
           <p>OTC is screening selected UK, Europe and North America routes for July-December 2026 intakes, including foundation, International Year One, pre-master and direct-entry options.</p>
         </div>
         <a class="btn btn-dark" href="/study-group-2026-applications/">Open Study Group routes</a>
+      </div>
+      <div class="studygroup-promo-strip">
+        <div>
+          <span>Australia and New Zealand</span>
+          <strong>Applications through OTC: direct, pathway and sub-agent routes</strong>
+          <p>OTC supports selected Australia and New Zealand university and pathway applications through formal cooperation, sub-agent channels and provider-information routes where applicable. Current pathway monitoring includes Kaplan Australia / New Zealand, Murdoch, Adelaide, Newcastle, UTS, University of Sydney / Taylors College Sydney / Navitas, UQ and UNSW-related case evidence.</p>
+        </div>
+        <a class="btn btn-dark" href="/insights/australia-new-zealand-provider-pathway-updates-2026/">Read Australia pathway update</a>
       </div>
     </section>
 
