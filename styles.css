@@ -435,8 +435,8 @@ h1 {
 }
 
 .zh-landing-inner {
-  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1fr);
-  align-items: start;
+  grid-template-columns: minmax(360px, 0.92fr) minmax(0, 1fr);
+  align-items: stretch;
   gap: 46px;
   min-height: 0;
   padding-top: 32px;
@@ -444,13 +444,16 @@ h1 {
 }
 
 .zh-landing-card {
-  min-height: 430px;
+  min-height: 0;
   border-radius: 8px;
   background: linear-gradient(145deg, #061a2f, #10385b);
   color: #fff;
-  padding: 34px;
+  padding: 42px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .zh-landing-card::before {
@@ -464,74 +467,43 @@ h1 {
   transform: rotate(9deg);
 }
 
-.zh-landing-card h2 {
+.zh-landing-card h1 {
   color: #fff;
-  font-size: clamp(32px, 4vw, 54px);
-  line-height: 1.06;
-  margin-top: 10px;
+  font-family: var(--font-ui);
+  font-size: clamp(58px, 6vw, 88px);
+  line-height: 0.98;
+  margin: 22px 0 0;
   max-width: 620px;
+}
+
+.zh-landing-card h2 {
+  color: rgba(255, 255, 255, 0.86);
+  font-family: var(--font-ui);
+  font-size: clamp(22px, 2vw, 30px);
+  font-weight: 520;
+  line-height: 1.28;
+  margin-top: 18px;
 }
 
 .zh-landing-card p {
   color: rgba(255, 255, 255, 0.72);
   font-size: 17px;
   line-height: 1.55;
-  margin-top: 20px;
+  margin-top: 22px;
   max-width: 580px;
 }
 
-.zh-landing-stat-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 92px;
-  position: relative;
-  z-index: 1;
-}
-
-.zh-landing-stat-grid a {
-  min-height: 96px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.08);
-  padding: 16px;
-}
-
-.zh-landing-stat-grid b {
-  color: #fff;
-  display: block;
-  font-size: 30px;
-  line-height: 1;
-}
-
-.zh-landing-stat-grid span {
-  color: rgba(255, 255, 255, 0.72);
-  display: block;
-  font-size: 13px;
-  line-height: 1.35;
-  margin-top: 10px;
-}
-
 .zh-landing-copy {
-  padding-top: 2px;
-}
-
-.zh-landing-copy h1 {
-  color: var(--navy);
-  font-family: var(--font-ui);
-  font-size: clamp(58px, 6.3vw, 92px);
-  line-height: 0.98;
-  margin-top: 2px;
-  max-width: none;
+  padding-top: 4px;
 }
 
 .zh-landing-copy h2 {
-  color: #667382;
+  color: var(--navy);
   font-family: var(--font-ui);
-  font-size: clamp(20px, 1.8vw, 28px);
-  font-weight: 520;
-  line-height: 1.35;
-  margin-top: 18px;
+  font-size: clamp(34px, 3.2vw, 54px);
+  line-height: 1.1;
+  margin-top: 10px;
+  max-width: 780px;
 }
 
 .zh-landing-copy p {
@@ -555,11 +527,6 @@ h1 {
   line-height: 1.55;
   margin-top: 28px;
   padding: 16px 20px;
-}
-
-.zh-landing-directory {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 22px;
 }
 
 .zh-tools-section {
@@ -6540,7 +6507,6 @@ h1 {
   }
 
   .hero-directory,
-  .zh-landing-directory,
   .zh-tool-link-list,
   .index-grid,
   .ebook-service-grid,
@@ -6783,29 +6749,16 @@ h1 {
     padding: 24px;
   }
 
-  .zh-landing-copy {
-    order: -1;
+  .zh-landing-card h1 {
+    font-size: clamp(42px, 15vw, 60px);
   }
 
   .zh-landing-card h2 {
-    font-size: 30px;
-  }
-
-  .zh-landing-stat-grid {
-    grid-template-columns: 1fr;
-    margin-top: 32px;
-  }
-
-  .zh-landing-stat-grid a {
-    min-height: 74px;
-  }
-
-  .zh-landing-copy h1 {
-    font-size: clamp(44px, 16vw, 62px);
+    font-size: 18px;
   }
 
   .zh-landing-copy h2 {
-    font-size: 18px;
+    font-size: 28px;
     margin-top: 12px;
   }
 
@@ -6858,11 +6811,7 @@ h1 {
   }
 
   .zh-landing-card {
-    min-height: 360px;
-  }
-
-  .zh-landing-stat-grid {
-    margin-top: 56px;
+    min-height: 300px;
   }
 
   .zh-tool-link-list a:nth-child(2n) {
