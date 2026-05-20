@@ -3892,40 +3892,37 @@ const chineseEntrance = pageShell({
   locale: "zh",
   description: "OTC Study Hub 中文頁：教育諮詢、課程支持、國際課程雙語輔導、考試練習工具與 Overseas Publishing 雙語出版資源。",
   body: `
-    <section class="hero zh-page">
-      <div class="hero-inner">
-        <div>
-          <div class="eyebrow">教育諮詢 · 課程輔導 · 出版</div>
-          <div class="hero-title-block">
-            <h1>海外督導</h1>
-            <h2 class="hero-subhead">Overseas Tutorial Centre</h2>
-          </div>
-          <p>海外督導 Overseas Tutorial Centre 的結構化入口，整合教育諮詢、課程支持、考試與練習工具，以及雙語出版資源。</p>
-          <div class="hero-directory">
-            <a href="/resources/"><strong>教育諮詢</strong><span>路線規劃、申請說明、家庭溝通與學生支持</span></a>
-            <a href="/zh/study-group-2026-applications/"><strong>Study Group 2026</strong><span>2026 年 7-12 月 pathway 與直入申請窗口</span></a>
-            <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議、教育展與機構支持</span></a>
-            <a href="/courses/"><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃</span></a>
-            <a href="/apps/"><strong>工具</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
-            <a href="/publishing/"><strong>出版</strong><span>研究出版、學習伴侶書、數字產品與作者服務</span></a>
-            <a href="/insights/"><strong>教育資訊</strong><span>中英雙語短文、申請觀察、路線說明與可分享文章</span></a>
-          </div>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="/zh/study-group-2026-applications/">Study Group 2026 申請</a>
-            <a class="btn btn-primary" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">打開 UCBELT App</a>
-            <a class="btn btn-secondary" href="/courses/">課程索引</a>
-          </div>
-        </div>
-        <aside class="hero-panel">
-          <div class="panel-label">當前重點</div>
-          <div class="hub-map">
-            <div class="hub-item"><strong>UCBELT 口語備考</strong><span>10 組主題練習 · 10 套完整 mock · 640 個雙語詞彙。</span></div>
-            <div class="hub-item"><strong>Study Group 2026 申請窗口</strong><span>英國、歐洲和北美部分 pathway、直入與國際路線，對應 2026 年 7-12 月入學。</span></div>
-            <div class="hub-item"><strong>A-Level / BTEC / IB / AP 雙語輔導</strong><span>面向中國 EAL 學生的國際學校支持：概念、寫作、coursework 與 evaluation。</span></div>
-            <div class="hub-item"><strong>OTHM Level 5 Business Management</strong><span>六個單元課程支持與雙語 study companion 系列。</span></div>
-            <div class="hub-item"><strong>Overseas Publishing 書目</strong><span>學術研究、雙語教輔、實用書、app 與自助出版服務。</span></div>
+    <section class="hero zh-page zh-landing">
+      <div class="hero-inner zh-landing-inner">
+        <aside class="zh-landing-card">
+          <div class="eyebrow">精選入口</div>
+          <h2>Study, Applications & Publishing</h2>
+          <p>中文用戶可直接進入申請、課程、工具、出版與文章入口。</p>
+          <div class="zh-landing-stat-grid">
+            <a href="/zh/study-group-2026-applications/"><b>2026</b><span>Study Group 申請</span></a>
+            <a href="/international-curriculum-tutoring/"><b>A/B/I</b><span>A-Level · BTEC · IB</span></a>
+            <a href="/apps/"><b>Apps</b><span>練習工具清單</span></a>
+            <a href="/publishing/"><b>Books</b><span>出版與教輔</span></a>
           </div>
         </aside>
+        <div class="zh-landing-copy">
+          <div class="eyebrow">教育諮詢 · 課程輔導 · 出版</div>
+          <h1>海外督導</h1>
+          <h2>Overseas Tutorial Centre</h2>
+          <p>整合英國及國際升學諮詢、課程支持、雙語出版、練習工具與教育資訊，為學生、家長和合作方提供清楚的公開入口。</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="/zh/study-group-2026-applications/">Study Group 2026 申請</a>
+            <a class="btn btn-dark" href="/university-applications/">大學申請評估</a>
+            <a class="btn btn-light" href="/courses/">課程索引</a>
+          </div>
+          <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
+          <div class="hero-directory zh-landing-directory">
+            <a href="/resources/"><strong>教育諮詢</strong><span>路線規劃、申請說明、家庭溝通與學生支持</span></a>
+            <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議與機構支持</span></a>
+            <a href="/apps/"><strong>工具</strong><span>口語練習、mock tests、詞彙複習與教師工具</span></a>
+            <a href="/insights/"><strong>教育資訊</strong><span>中英雙語短文、申請觀察、路線說明與可分享文章</span></a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -3976,34 +3973,19 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="spotlight">
-      <div class="band app-spotlight compact-band">
-        <div class="app-screen">
-          <div class="screen-title">
-            <div class="eyebrow">精選 App</div>
-            <h3>Speaking & Placement Practice</h3>
-            <p>口語測試、分班測試與面試準備工具，包含雙語詞彙訓練與教師模式。</p>
-          </div>
-          <div class="screen-stat">
-            <div><b>10</b><span>口語練習主題</span></div>
-            <div><b>640</b><span>雙語詞彙</span></div>
-            <div><b>5</b><span>自評等級</span></div>
-            <div><b>7</b><span>天練習計劃</span></div>
-          </div>
-        </div>
-        <div>
-          <div class="section-head">
-            <h2>學習工具</h2>
-            <p>UCBELT 與 IH placement app 結合練習題、mock interview、flashcards、quizzes、弱詞複習與雙語解釋。</p>
-          </div>
-          <div class="actions">
-            <a class="btn btn-dark" href="/apps/ucbelt-speaking/#embedded-ucbelt-app">啟動嵌入式 App</a>
-            <a class="btn btn-dark" href="/apps/ih-placement-interview/#embedded-ih-app">打開 IH 分班練習</a>
-            <a class="btn btn-light" href="/apps/ucbelt-speaking/">查看產品頁</a>
-          </div>
-          <p class="notice" style="margin-top:22px">OTC 獨立練習資源。不是 UCB 官方出版物、官方試卷或保分產品。</p>
-        </div>
+    <section class="band compact-band zh-tools-section">
+      <div class="section-head compact-head">
+        <div class="eyebrow">學習工具</div>
+        <h2>練習工具清單</h2>
+        <p>工具入口改為輕量清單，方便後續持續增加 speaking、placement、flashcards、quizzes、弱詞複習和教師模式。</p>
       </div>
+      <div class="zh-tool-link-list">
+        <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app"><strong>UCBELT Speaking Practice</strong><span>口語主題、mock test flow、雙語詞彙與自評練習。</span></a>
+        <a href="/apps/ih-placement-interview/#embedded-ih-app"><strong>IH Placement & Interview Practice</strong><span>分班測試與面試準備，適合短期集中練習。</span></a>
+        <a href="/apps/ucbelt-speaking/"><strong>UCBELT 產品頁</strong><span>查看 app 內容、使用方式、練習範圍與服務邊界。</span></a>
+        <a href="/apps/"><strong>全部工具索引</strong><span>未來新增工具會集中放在此入口，避免首頁被大卡片撐滿。</span></a>
+      </div>
+      <p class="source-note">OTC 獨立練習資源。不是 UCB、IH 或其他機構的官方出版物、官方試卷或保分產品。</p>
     </section>
 
     <section class="band compact-band premium-translation-section">
