@@ -415,32 +415,31 @@ h1 {
 }
 
 .zh-page .hero-title-block {
-  min-width: min(620px, 100%);
-  padding: 16px 30px 18px;
-  border: 1px solid rgba(208, 174, 103, 0.72);
-  border-left: 7px solid var(--gold);
-  box-shadow: 0 18px 40px rgba(6, 26, 47, 0.14);
+  min-width: 0;
+  padding: 12px 24px 14px;
+  border-left: 5px solid var(--gold);
+  box-shadow: none;
 }
 
 .zh-page .hero-title-block h1 {
-  font-size: clamp(50px, 5.4vw, 72px);
+  font-family: var(--font-ui);
+  font-size: clamp(44px, 4.6vw, 60px);
+  font-weight: 900;
+  letter-spacing: 0.02em;
 }
 
-.zh-landing {
-  background: #fff;
+.zh-home-hero {
+  background: var(--paper);
 }
 
-.zh-landing::after {
-  display: none;
+.zh-play-title h1 {
+  color: #f2d889;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
 }
 
-.zh-landing-inner {
-  grid-template-columns: minmax(360px, 0.92fr) minmax(0, 1fr);
-  align-items: stretch;
-  gap: 46px;
-  min-height: 0;
-  padding-top: 32px;
-  padding-bottom: 38px;
+.zh-play-title .hero-subhead {
+  color: rgba(255, 255, 255, 0.96);
+  font-size: clamp(16px, 1.6vw, 21px);
 }
 
 .zh-landing-card {
@@ -656,6 +655,18 @@ h1 {
 .zh-global-gateway .zh-landing-notice {
   background: rgba(255, 248, 232, 0.86);
   margin-top: 24px;
+}
+
+.zh-global-map-band {
+  background: #fff;
+}
+
+.zh-global-map-wide {
+  min-height: 520px;
+}
+
+.zh-global-map-wide .zh-global-map-labels {
+  min-height: 360px;
 }
 
 .regional-office-hero {
