@@ -5597,6 +5597,18 @@ h1 {
   padding-top: 66px;
 }
 
+.zh-publishing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.zh-publishing-actions .btn {
+  min-height: 42px;
+  padding: 10px 14px;
+}
+
 .publishing-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.74fr) minmax(420px, 1fr);
