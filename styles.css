@@ -414,6 +414,18 @@ h1 {
   text-align: center;
 }
 
+.zh-page .hero-title-block {
+  min-width: min(620px, 100%);
+  padding: 16px 30px 18px;
+  border: 1px solid rgba(208, 174, 103, 0.72);
+  border-left: 7px solid var(--gold);
+  box-shadow: 0 18px 40px rgba(6, 26, 47, 0.14);
+}
+
+.zh-page .hero-title-block h1 {
+  font-size: clamp(50px, 5.4vw, 72px);
+}
+
 .hero p {
   color: #4c596b;
   font-size: clamp(16px, 1.7vw, 18px);
@@ -6574,8 +6586,17 @@ h1 {
     padding: 9px 10px 10px;
   }
 
+  .zh-page .hero-title-block {
+    min-width: 0;
+    padding: 12px 14px 14px;
+  }
+
   .hero-title-block h1 {
     font-size: clamp(27px, 8.6vw, 38px);
+  }
+
+  .zh-page .hero-title-block h1 {
+    font-size: clamp(38px, 13vw, 52px);
   }
 
   .hero-subhead {
