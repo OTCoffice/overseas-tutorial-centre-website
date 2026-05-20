@@ -1408,6 +1408,10 @@ function searchItems() {
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
     ["Insights", "/insights/", "Education articles, university application notes, pathway explainers and shareable OTC guidance."],
     ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
+    ["英聯邦入口 / Commonwealth Gateway", "/offices/commonwealth/", "OTC regional gateway for UK, Australia, Canada, New Zealand and wider Commonwealth education and family support enquiries."],
+    ["美國入口 / United States Gateway", "/offices/united-states/", "OTC regional gateway for US study-route screening, North America options and document preparation."],
+    ["東亞入口 / East Asia Gateway", "/offices/east-asia/", "OTC regional gateway for students and families from Mainland China, Hong Kong, Taiwan, Japan and Korea."],
+    ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia market intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness and professional referral boundaries."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
@@ -3900,14 +3904,18 @@ const chineseEntrance = pageShell({
           <h2>Overseas Tutorial Centre</h2>
           <p>留學、移民、出版<br>升學、轉學、教學</p>
         </aside>
-        <div class="zh-landing-copy">
-          <div class="eyebrow">快速入口</div>
-          <h2>申請、課程、工具與出版入口</h2>
-          <p>主要服務已整理成清單式入口，後續內容增加時可以繼續擴展，不需要堆疊大面積卡片。</p>
-          <div class="hero-actions">
-            <a class="btn btn-dark" href="/zh/study-group-2026-applications/">Study Group 2026 申請</a>
-            <a class="btn btn-dark" href="/university-applications/">大學申請評估</a>
-            <a class="btn btn-light" href="/courses/">課程索引</a>
+        <div class="zh-landing-copy zh-global-gateway">
+          <img src="/assets/global-office-map-soft.svg?v=20260520" alt="淡色全球辦公室地圖" loading="eager">
+          <div class="zh-global-gateway-content">
+            <div class="eyebrow">全球辦公室入口</div>
+            <h2>Office Gateways</h2>
+            <p>按地區進入對應的申請、轉學、文件與合作聯絡頁面。</p>
+            <div class="zh-office-link-grid">
+              <a href="/offices/commonwealth/"><strong>英聯邦入口</strong><span>UK · Australia · Canada · New Zealand</span></a>
+              <a href="/offices/united-states/"><strong>美國入口</strong><span>US route screening · North America options</span></a>
+              <a href="/offices/east-asia/"><strong>東亞入口</strong><span>中國大陸 · 港澳台 · 日本 · 韓國</span></a>
+              <a href="/offices/europe/"><strong>歐洲入口</strong><span>UK / Europe 英語授課與轉學路線</span></a>
+            </div>
           </div>
           <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
         </div>
@@ -4021,6 +4029,78 @@ const chineseEntrance = pageShell({
     </section>
   `
 });
+
+const regionalOfficePages = [
+  {
+    id: "commonwealth",
+    title: "英聯邦入口",
+    subtitle: "Commonwealth Gateway",
+    desc: "面向英國、澳洲、加拿大、新西蘭及其他英聯邦教育路線的申請、轉學、文件與家庭支持入口。",
+    regions: ["UK head office coordination", "Australia office route", "Canada / New Zealand route screening", "Commonwealth school and university applications"],
+    links: [["澳洲辦公室路線", "/australia-office-presence/"], ["英澳申請文件清單", "/zh/insights/uk-aus-application-documents-checklist/"], ["大學申請評估", "/university-applications/"]]
+  },
+  {
+    id: "united-states",
+    title: "美國入口",
+    subtitle: "United States Gateway",
+    desc: "面向美國本科、研究生、pathway、Study Group North America 及英美路線比較的初步篩選入口。",
+    regions: ["US undergraduate route screening", "Graduate application document review", "Study Group North America options", "UK / US route comparison"],
+    links: [["Study Group 2026 中文申請", "/zh/study-group-2026-applications/"], ["大學申請評估", "/university-applications/"], ["國際課程輔導", "/international-curriculum-tutoring/"]]
+  },
+  {
+    id: "east-asia",
+    title: "東亞入口",
+    subtitle: "East Asia Gateway",
+    desc: "面向中國大陸、香港、澳門、台灣、日本與韓國學生及家庭的雙語升學、轉學、文件整理與課程支持入口。",
+    regions: ["Mainland China student files", "Hong Kong / Taiwan bilingual document support", "Japan / Korea English-taught route screening", "Family communication and tutoring coordination"],
+    links: [["CFAU / IBP 大二申請支持", "/advanced-entry-china-programmes/"], ["中文 Study Group 申請頁", "/zh/study-group-2026-applications/"], ["國際課程輔導", "/international-curriculum-tutoring/"]]
+  },
+  {
+    id: "europe",
+    title: "歐洲入口",
+    subtitle: "Europe Gateway",
+    desc: "面向英國與歐洲英語授課本科、碩士、博士、轉學、pathway 與文件準備的區域入口。",
+    regions: ["UK and Europe English-taught programmes", "Bachelor / master / PhD route screening", "Transfer and advanced-entry checks", "European pathway and direct-entry options"],
+    links: [["Study Group UK / Europe 路線", "/zh/study-group-2026-applications/"], ["大學申請評估", "/university-applications/"], ["機構合作", "/university-partnerships/"]]
+  }
+].map((office) => ({
+  id: office.id,
+  html: pageShell({
+    title: `${office.title} | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: office.desc,
+    body: `
+    <section class="page-hero regional-office-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Regional Office Gateway</div>
+        <h1>${office.title}</h1>
+        <h2>${office.subtitle}</h2>
+        <p>${office.desc}</p>
+        <div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(office.subtitle + " enquiry")}">聯絡 OTC</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div>
+      </div>
+    </section>
+    <section class="band regional-office-panel">
+      <div class="regional-office-map-card">
+        <img src="/assets/global-office-map-soft.svg?v=20260520" alt="${office.title}淡色全球地圖">
+        <div>
+          <div class="eyebrow">服務範圍</div>
+          <h2>${office.subtitle}</h2>
+          <p>${office.desc}</p>
+        </div>
+      </div>
+      <div class="regional-office-grid">
+        ${office.regions.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item}</strong><span>初步篩選、文件整理、時間線說明與後續服務銜接。</span></article>`).join("")}
+      </div>
+      <div class="regional-office-links">
+        ${office.links.map(([label, href]) => `<a href="${href}">${label}</a>`).join("")}
+      </div>
+      <p class="source-note">區域入口用於服務分流與文件協調。任何簽證、移民、法律、認證或錄取結果均以相應官方機構或合資格專業人士的正式要求為準。</p>
+    </section>
+  `
+  })
+}));
 
 const externalProgrammeSupport = pageShell({
   title: "External Programme Support | OTC Study Hub",
@@ -6145,6 +6225,9 @@ write("study-group-2026-applications", studyGroup2026Applications);
 write("application-service-standards", applicationServiceStandards);
 write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
+regionalOfficePages.forEach((office) => {
+  write(`offices/${office.id}`, office.html);
+});
 write("zh", chineseEntrance);
 write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
