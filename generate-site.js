@@ -2406,7 +2406,7 @@ const home = pageShell({
   description: "Official website of Overseas Tutorial Centre Ltd (OTC) / 海外督導: UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
   current: "home",
   body: `
-    <section class="hero">
+    <section class="hero home-hero">
       <div class="hero-inner">
         <div>
           <div class="eyebrow">Official Website · UK Education Consulting · Tutoring Apps · Publishing</div>
