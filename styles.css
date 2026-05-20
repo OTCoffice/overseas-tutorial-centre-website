@@ -547,7 +547,7 @@ h1 {
   border-radius: 8px;
   background: linear-gradient(145deg, #fffdf8, #f7f0e4);
   box-shadow: 0 18px 44px rgba(6, 26, 47, 0.08);
-  min-height: 504px;
+  min-height: 560px;
   overflow: hidden;
   padding: 32px;
   position: relative;
@@ -583,7 +583,7 @@ h1 {
 }
 
 .zh-global-map-labels {
-  min-height: 246px;
+  min-height: 304px;
 }
 
 .zh-map-label {
@@ -596,8 +596,8 @@ h1 {
   display: inline-flex;
   flex-direction: column;
   gap: 4px;
-  min-width: 132px;
-  padding: 12px 17px;
+  min-width: 86px;
+  padding: 8px 12px;
   position: absolute;
   text-decoration: none;
   transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
@@ -624,39 +624,34 @@ h1 {
 
 .zh-map-label strong {
   display: block;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.1;
 }
 
 .zh-map-label span {
   color: #5f6d7f;
   display: block;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.08em;
   line-height: 1.25;
   text-transform: uppercase;
 }
 
-.label-commonwealth {
-  left: 42%;
-  top: 49%;
-}
-
-.label-us {
-  left: 12%;
-  top: 45%;
-}
-
-.label-east-asia {
-  left: 71%;
-  top: 42%;
-}
-
-.label-europe {
-  left: 50%;
-  top: 27%;
-}
+.label-country-uk { left: 48%; top: 31%; }
+.label-country-australia { left: 76%; top: 72%; }
+.label-country-us { left: 14%; top: 43%; }
+.label-country-canada { left: 11%; top: 24%; }
+.label-country-new-zealand { left: 84%; top: 82%; }
+.label-country-ireland { left: 43%; top: 27%; }
+.label-country-singapore { left: 70%; top: 61%; }
+.label-country-japan { left: 84%; top: 38%; }
+.label-country-korea { left: 78%; top: 36%; }
+.label-country-hong-kong { left: 75%; top: 48%; }
+.label-country-netherlands { left: 54%; top: 25%; }
+.label-country-germany { left: 56%; top: 34%; }
+.label-country-france { left: 49%; top: 42%; }
+.label-country-switzerland { left: 56%; top: 45%; }
 
 .zh-global-gateway .zh-landing-notice {
   background: rgba(255, 248, 232, 0.86);
@@ -775,6 +770,59 @@ h1 {
 
 .regional-office-links a:hover {
   border-color: var(--gold-dark);
+}
+
+.country-gateway-panel {
+  background: #fff;
+}
+
+.country-school-grid {
+  border: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.country-school-grid article {
+  border-right: 1px solid var(--line);
+  min-height: 360px;
+  padding: 22px;
+}
+
+.country-school-grid article:last-child {
+  border-right: 0;
+}
+
+.country-school-grid b {
+  color: var(--gold-dark);
+  display: block;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.country-school-grid strong {
+  color: var(--navy);
+  display: block;
+  font-size: 20px;
+}
+
+.country-school-grid ul {
+  color: #4c596b;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 16px 0 0;
+  padding-left: 18px;
+}
+
+.country-school-grid li + li {
+  margin-top: 8px;
+}
+
+.country-route-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 .zh-tools-section {
@@ -6758,6 +6806,7 @@ h1 {
   .zh-tool-link-list,
   .regional-office-map-card,
   .regional-office-grid,
+  .country-school-grid,
   .index-grid,
   .ebook-service-grid,
   .insights-grid,
@@ -6952,6 +7001,17 @@ h1 {
     border-bottom: 0;
   }
 
+  .country-school-grid article,
+  .country-school-grid article:last-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    min-height: 0;
+  }
+
+  .country-school-grid article:last-child {
+    border-bottom: 0;
+  }
+
   .translation-service-grid article:last-child {
     border-bottom: 0;
   }
@@ -7015,43 +7075,42 @@ h1 {
   }
 
   .zh-global-gateway {
-    min-height: 620px;
+    min-height: 760px;
     padding: 22px;
   }
 
   .zh-global-map-labels {
-    min-height: 400px;
+    min-height: 540px;
   }
 
   .zh-map-label {
     min-width: 0;
-    padding: 10px 13px;
-    width: 128px;
+    padding: 8px 10px;
+    width: 104px;
   }
 
   .zh-map-label strong {
-    font-size: 18px;
+    font-size: 15px;
   }
 
-  .label-commonwealth {
-    left: 46%;
-    top: 66%;
+  .zh-map-label span {
+    font-size: 7px;
   }
 
-  .label-us {
-    left: 5%;
-    top: 46%;
-  }
-
-  .label-east-asia {
-    left: 56%;
-    top: 28%;
-  }
-
-  .label-europe {
-    left: 8%;
-    top: 14%;
-  }
+  .label-country-uk { left: 38%; top: 20%; }
+  .label-country-australia { left: 54%; top: 76%; }
+  .label-country-us { left: 6%; top: 35%; }
+  .label-country-canada { left: 6%; top: 20%; }
+  .label-country-new-zealand { left: 58%; top: 88%; }
+  .label-country-ireland { left: 6%; top: 9%; }
+  .label-country-singapore { left: 35%; top: 64%; }
+  .label-country-japan { left: 65%; top: 25%; }
+  .label-country-korea { left: 65%; top: 36%; }
+  .label-country-hong-kong { left: 57%; top: 49%; }
+  .label-country-netherlands { left: 36%; top: 7%; }
+  .label-country-germany { left: 67%; top: 7%; }
+  .label-country-france { left: 35%; top: 34%; }
+  .label-country-switzerland { left: 6%; top: 51%; }
 
   .zh-landing-card h1 {
     font-size: clamp(42px, 15vw, 60px);

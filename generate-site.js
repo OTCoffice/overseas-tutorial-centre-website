@@ -1394,6 +1394,73 @@ function universityModuleSupportList() {
   `;
 }
 
+const countryGatewayData = [
+  { slug: "united-kingdom", zh: "英國", name: "United Kingdom", href: "/countries/united-kingdom/", labelClass: "label-country-uk", note: "OTC 英國總部所在市場，適合本科、碩士、博士、pathway、寄宿學校及國際課程銜接。", universities: ["University of Oxford", "University of Cambridge", "Imperial College London", "UCL", "King's College London", "University of Manchester", "University of Edinburgh", "University of Warwick"], colleges: ["Study Group UK / Europe ISC", "INTO University Partnerships", "Kaplan International Pathways", "Navitas UK Colleges", "Oxford International Education Group", "Cambridge Education Group"], highSchools: ["UK independent boarding schools", "Sixth form colleges", "State boarding schools", "International Study Centres"], primarySchools: ["Preparatory schools", "Junior boarding schools", "Independent primary schools", "London day schools"] },
+  { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已建立較完整的辦公室、VET / TAFE、升學與市場支持頁面。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
+  { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
+  { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", universities: ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"], colleges: ["Seneca Polytechnic", "George Brown College", "Humber College", "Centennial College", "BCIT", "Fanshawe College"], highSchools: ["Ontario public school boards", "BC school districts", "Private boarding schools", "OSSD schools"], primarySchools: ["Public elementary schools", "Private elementary schools", "International junior schools", "Catholic school boards"] },
+  { slug: "new-zealand", zh: "新西蘭", name: "New Zealand", href: "/countries/new-zealand/", labelClass: "label-country-new-zealand", note: "適合大學、理工學院、中小學及家庭型低齡留學路線。", universities: ["University of Auckland", "University of Otago", "Victoria University of Wellington", "University of Canterbury", "Massey University", "Auckland University of Technology"], colleges: ["Te Pukenga / institutes of technology", "Unitec", "Ara Institute of Canterbury", "English language colleges"], highSchools: ["Auckland secondary schools", "Wellington secondary schools", "Christchurch high schools", "Boarding schools"], primarySchools: ["Auckland primary schools", "Wellington primary schools", "Local state primary schools", "Independent primary schools"] },
+  { slug: "ireland", zh: "愛爾蘭", name: "Ireland", href: "/countries/ireland/", labelClass: "label-country-ireland", note: "適合英語授課本科、碩士、醫藥、商科、科技與歐洲工作路線比較。", universities: ["Trinity College Dublin", "University College Dublin", "University of Galway", "University College Cork", "Dublin City University", "University of Limerick"], colleges: ["Technological University Dublin", "Griffith College", "Dublin Business School", "National College of Ireland"], highSchools: ["Irish boarding schools", "Dublin secondary schools", "International high schools", "Senior cycle programmes"], primarySchools: ["Dublin primary schools", "Independent primary schools", "Local national schools", "International junior routes"] },
+  { slug: "singapore", zh: "新加坡", name: "Singapore", href: "/countries/singapore/", labelClass: "label-country-singapore", note: "適合亞洲英文教育、英澳美銜接、國際學校和本科/研究生路線比較。", universities: ["National University of Singapore", "Nanyang Technological University", "Singapore Management University", "Singapore University of Technology and Design", "Singapore Institute of Technology"], colleges: ["Singapore polytechnics", "Kaplan Singapore", "SIM Global Education", "PSB Academy", "James Cook University Singapore"], highSchools: ["Junior colleges", "International schools", "IB schools", "Integrated Programme schools"], primarySchools: ["International primary schools", "Local primary schools", "IB PYP schools", "British curriculum primary schools"] },
+  { slug: "japan", zh: "日本", name: "Japan", href: "/countries/japan/", labelClass: "label-country-japan", note: "適合英文授課本科/研究生、語言學校、國際高中與亞洲路線比較。", universities: ["University of Tokyo", "Kyoto University", "Waseda University", "Keio University", "Sophia University", "Tohoku University", "Osaka University"], colleges: ["Japanese language schools", "Professional training colleges", "Temple University Japan", "Pathway and EJU preparation providers"], highSchools: ["International high schools", "IB schools in Japan", "Japanese private high schools", "Boarding-style programmes"], primarySchools: ["International primary schools", "Japanese private elementary schools", "IB PYP schools", "Bilingual junior schools"] },
+  { slug: "south-korea", zh: "韓國", name: "South Korea", href: "/countries/south-korea/", labelClass: "label-country-korea", note: "適合英文授課、韓語預備、亞洲本科/研究生與國際高中路線。", universities: ["Seoul National University", "KAIST", "Yonsei University", "Korea University", "Sungkyunkwan University", "Hanyang University"], colleges: ["Korean language institutes", "International colleges", "Professional colleges", "Pathway preparation providers"], highSchools: ["International schools", "Foreign language high schools", "Private high schools", "IB / AP schools"], primarySchools: ["International primary schools", "Bilingual elementary schools", "Private elementary schools", "Foreign schools"] },
+  { slug: "hong-kong", zh: "香港", name: "Hong Kong", href: "/countries/hong-kong/", labelClass: "label-country-hong-kong", note: "適合英語授課大學、國際學校、DSE / IB / A-Level 銜接與大灣區家庭路線。", universities: ["University of Hong Kong", "Chinese University of Hong Kong", "Hong Kong University of Science and Technology", "City University of Hong Kong", "Hong Kong Polytechnic University", "Hong Kong Baptist University"], colleges: ["HKU SPACE", "Community colleges", "Vocational Training Council routes", "Private higher education colleges"], highSchools: ["International schools", "DSE schools", "IB schools", "British curriculum schools"], primarySchools: ["International primary schools", "Local primary schools", "ESF junior schools", "Private primary schools"] },
+  { slug: "netherlands", zh: "荷蘭", name: "Netherlands", href: "/countries/netherlands/", labelClass: "label-country-netherlands", note: "適合歐洲英語授課本科、研究型大學、應用科技大學和商科/設計路線。", universities: ["University of Amsterdam", "Delft University of Technology", "Erasmus University Rotterdam", "Utrecht University", "Leiden University", "Eindhoven University of Technology"], colleges: ["Universities of applied sciences", "Hotelschool The Hague", "Amsterdam University of Applied Sciences", "Fontys University of Applied Sciences"], highSchools: ["International schools", "IB schools", "Bilingual secondary schools", "Private international high schools"], primarySchools: ["International primary schools", "IB PYP schools", "Dutch bilingual primary routes", "Private primary schools"] },
+  { slug: "germany", zh: "德國", name: "Germany", href: "/countries/germany/", labelClass: "label-country-germany", note: "適合工程、商科、英語授課碩士、德語預備與歐洲公立大學路線。", universities: ["Technical University of Munich", "LMU Munich", "Heidelberg University", "RWTH Aachen University", "University of Freiburg", "Humboldt University of Berlin"], colleges: ["Universities of applied sciences", "German language institutes", "Studienkolleg routes", "Private business schools"], highSchools: ["International schools", "Gymnasium routes", "IB schools", "Boarding schools"], primarySchools: ["International primary schools", "Bilingual primary schools", "Private elementary schools", "Local Grundschule routes"] },
+  { slug: "france", zh: "法國", name: "France", href: "/countries/france/", labelClass: "label-country-france", note: "適合商學院、藝術設計、工程師學校、英文授課本科/碩士與歐洲交換路線。", universities: ["Sorbonne University", "Universite Paris-Saclay", "Sciences Po", "HEC Paris", "ESSEC Business School", "INSEAD"], colleges: ["Grandes ecoles", "Business schools", "Art and design schools", "French language institutes"], highSchools: ["International schools", "Lycee international routes", "IB schools", "Private secondary schools"], primarySchools: ["International primary schools", "Bilingual primary schools", "Private primary schools", "Local ecole primaire routes"] },
+  { slug: "switzerland", zh: "瑞士", name: "Switzerland", href: "/countries/switzerland/", labelClass: "label-country-switzerland", note: "適合酒店管理、商科、國際學校、寄宿中學與多語環境升學。", universities: ["ETH Zurich", "EPFL", "University of Zurich", "University of Geneva", "University of Lausanne", "University of St. Gallen"], colleges: ["Swiss hotel schools", "Business schools", "Applied sciences universities", "Language schools"], highSchools: ["Swiss boarding schools", "International schools", "IB schools", "A-Level schools"], primarySchools: ["International primary schools", "Junior boarding schools", "Bilingual primary schools", "Private elementary schools"] }
+];
+
+function countryGatewayLabels() {
+  return countryGatewayData.map((country) => `
+    <a class="zh-map-label country-map-label ${country.labelClass}" href="${country.href}">
+      <strong>${country.zh}</strong><span>${country.name}</span>
+    </a>
+  `).join("");
+}
+
+function countryList(items) {
+  return items.map((item) => `<li>${item}</li>`).join("");
+}
+
+function countryGatewayPage(country) {
+  return pageShell({
+    title: `${country.zh}留學入口 | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: `OTC ${country.zh}留學國家頁：大學、學院、中學、小學初步列表與申請文件分流。`,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero">
+        <div class="band">
+          <div class="eyebrow">OTC Country Gateway</div>
+          <h1>${country.zh}留學入口</h1>
+          <h2>${country.name}</h2>
+          <p>${country.note}</p>
+          <div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.name + " study route enquiry")}">提交初步評估</a><a class="btn btn-secondary" href="/zh/">返回全球地圖</a></div>
+        </div>
+      </section>
+      <section class="band country-gateway-panel">
+        <div class="section-head compact-head">
+          <div class="eyebrow">初步列表</div>
+          <h2>${country.zh}：大學 / 學院 / 中學 / 小學</h2>
+          <p>以下為公開展示的第一版路線索引，用於初步分流。具體可申請課程、年級、入學要求、名額、授權渠道和截止日期需要逐案確認。</p>
+        </div>
+        <div class="country-school-grid">
+          <article><b>01</b><strong>大學</strong><ul>${countryList(country.universities)}</ul></article>
+          <article><b>02</b><strong>學院 / Pathway</strong><ul>${countryList(country.colleges)}</ul></article>
+          <article><b>03</b><strong>中學</strong><ul>${countryList(country.highSchools)}</ul></article>
+          <article><b>04</b><strong>小學</strong><ul>${countryList(country.primarySchools)}</ul></article>
+        </div>
+        <div class="country-route-actions">
+          ${country.slug === "australia" ? `<a class="btn btn-dark" href="/australia-office-presence/">打開澳洲成熟路線頁</a><a class="btn btn-light" href="/australia-vet-tafe-pathways/">澳洲 VET / TAFE 路線</a>` : `<a class="btn btn-dark" href="/university-applications/">大學申請評估</a><a class="btn btn-light" href="/international-curriculum-tutoring/">課程與文件準備</a>`}
+        </div>
+        <p class="source-note">列表為 OTC 網站上的初步目的地索引，不代表正式代理授權、保證錄取或完整院校清單。申請、簽證、監護、入讀和轉學均需按相關學校、大學、政府或專業人士的最新正式要求核對。</p>
+      </section>
+    `
+  });
+}
+
 function searchItems() {
   const pages = [
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
@@ -1408,6 +1475,11 @@ function searchItems() {
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
     ["Insights", "/insights/", "Education articles, university application notes, pathway explainers and shareable OTC guidance."],
     ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
+    ...countryGatewayData.filter((country) => country.slug !== "australia").map((country) => [
+      `${country.zh}留學入口 / ${country.name} Study Gateway`,
+      `/countries/${country.slug}/`,
+      `OTC ${country.zh}留學國家頁：大學、學院、中學、小學初步列表與申請文件分流。`
+    ]),
     ["英聯邦入口 / Commonwealth Gateway", "/offices/commonwealth/", "OTC regional gateway for UK, Australia, Canada, New Zealand and wider Commonwealth education and family support enquiries."],
     ["美國入口 / United States Gateway", "/offices/united-states/", "OTC regional gateway for US study-route screening, North America options and document preparation."],
     ["東亞入口 / East Asia Gateway", "/offices/east-asia/", "OTC regional gateway for students and families from Mainland China, Hong Kong, Taiwan, Japan and Korea."],
@@ -3908,15 +3980,10 @@ const chineseEntrance = pageShell({
           <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
           <div class="zh-global-gateway-content">
             <div class="eyebrow">全球辦公室入口</div>
-            <h2>Global Office Map</h2>
-            <p>點擊地圖上的區域文字，進入對應辦公室與路線頁面。</p>
+            <h2>Global Study Map</h2>
+            <p>點擊地圖上的國家文字，進入對應留學國家頁面。</p>
           </div>
-          <div class="zh-global-map-labels" aria-label="全球區域入口">
-            <a class="zh-map-label label-commonwealth" href="/offices/commonwealth/"><strong>英聯邦</strong><span>Commonwealth</span></a>
-            <a class="zh-map-label label-us" href="/offices/united-states/"><strong>美國</strong><span>United States</span></a>
-            <a class="zh-map-label label-east-asia" href="/offices/east-asia/"><strong>東亞</strong><span>East Asia</span></a>
-            <a class="zh-map-label label-europe" href="/offices/europe/"><strong>歐洲</strong><span>Europe</span></a>
-          </div>
+          <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
           <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
         </div>
       </div>
@@ -6227,6 +6294,9 @@ write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
 regionalOfficePages.forEach((office) => {
   write(`offices/${office.id}`, office.html);
+});
+countryGatewayData.filter((country) => country.slug !== "australia").forEach((country) => {
+  write(`countries/${country.slug}`, countryGatewayPage(country));
 });
 write("zh", chineseEntrance);
 write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
