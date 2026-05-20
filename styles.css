@@ -1209,6 +1209,30 @@ h1 {
   white-space: nowrap;
 }
 
+.education-update-notes {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  grid-column: 1 / -1;
+  padding: 12px;
+}
+
+.education-update-notes p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.education-update-notes strong {
+  color: var(--navy);
+}
+
+.education-update-notes a {
+  color: var(--navy);
+  font-weight: 800;
+}
+
 .pill-row {
   display: flex;
   flex-wrap: wrap;

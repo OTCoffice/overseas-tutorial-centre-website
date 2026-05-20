@@ -4051,6 +4051,11 @@ const chineseEntrance = pageShell({
         <span>ASIC Standards for Growth Series · 20 May 2026 · Online</span>
         <h3>Webinar 3: Awards, Qualifications & International Partnerships</h3>
         <p>聚焦 awards、qualifications 與 international partnerships 中的學術誠信、資格認可、合作審批、風險監控與 QA evidence trails。</p>
+        <div class="education-update-notes">
+          <p><strong>內容重點</strong> 以真實場景討論 programme design、approval、monitoring、assessment standards、award recognition 與 transnational delivery 的證據整理。</p>
+          <p><strong>參與提示</strong> ASIC 活動可能涉及攝影、錄影、宣傳素材使用；不希望出現在官方影像中，應提前告知主辦方。</p>
+          <p><strong>郵件與私隱</strong> 報名後 ASIC 可就本活動及未來活動聯絡參與者；活動郵件通常來自 events@asic.org.uk 或 @asic.org.uk 團隊信箱。詳見 <a href="https://www.asic.org.uk/privacy-policy" target="_blank" rel="noopener">ASIC Privacy Policy</a>。</p>
+        </div>
         <a class="btn btn-light" href="https://events.zoom.us/ejl/AtKN6jisagUs5hK_nBcQFrmVzNOtmfLUkXCRT9QrUWjayEqIYu3l~A-gbbMZVg8OMkR1v-ZNjDlfiwfGYhlOPx-3zwIwDJAB9eGWtgF-rfmTSsolQ-gvjL_Z-qWlUBYqHpE3m4hWd-9YdarsHg8MvSuJPG-tXpbMS2iKA/home" target="_blank" rel="noopener">Zoom Events 報名</a>
       </article>
     </section>
