@@ -1,0 +1,3371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>澳洲入籍考試 · Australian Citizenship Test</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════
+   ROOT & RESET
+═══════════════════════════════════════ */
+:root {
+  --green: #00843D;
+  --green-dark: #005c2b;
+  --green-mid: #007034;
+  --green-light: #e8f5ee;
+  --gold: #FFCD00;
+  --gold-dark: #e6b800;
+  --navy: #00008B;
+  --red: #CC0000;
+  --bg: #f2f4f0;
+  --surface: #ffffff;
+  --surface2: #f7f8f6;
+  --ink: #0d1a0f;
+  --ink2: #2e3d31;
+  --muted: #6b7a6e;
+  --border: rgba(0,132,61,0.15);
+  --shadow: 0 2px 16px rgba(0,80,30,0.10);
+  --radius: 14px;
+  --radius-sm: 8px;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{font-size:15px;background:var(--bg);}
+body{
+  font-family:'DM Sans','Noto Sans SC',sans-serif;
+  color:var(--ink);
+  min-height:100vh;
+  background:var(--bg);
+  overflow-x:hidden;
+}
+
+body.lang-en .home-title-zh,
+body.lang-en .hero-sub,
+body.lang-en .stat-zh,
+body.lang-en .mode-title-zh,
+body.lang-en .top-bar-zh,
+body.lang-en .topic-name-zh,
+body.lang-en .qs-subtitle,
+body.lang-en .q-text-zh,
+body.lang-en .opt-text-zh,
+body.lang-en .exp-text-zh,
+body.lang-en .next-zh,
+body.lang-en .result-title-zh,
+body.lang-en .r-stat-zh,
+body.lang-en .flash-btn-zh,
+body.lang-en .fc-zh,
+body.lang-en .fc-ans-zh,
+body.lang-en .study-sec-title-zh,
+body.lang-en .study-q-zh,
+body.lang-en .study-a-zh,
+body.lang-en .progress-zh,
+body.lang-en .disclaimer-zh{display:none!important;}
+
+body.lang-zh .home-title-en,
+body.lang-zh .hero-label,
+body.lang-zh .stat-label,
+body.lang-zh .mode-title-en,
+body.lang-zh .top-bar-title,
+body.lang-zh .section-label,
+body.lang-zh .topic-name-en,
+body.lang-zh .qs-title,
+body.lang-zh .q-text-en,
+body.lang-zh .opt-text-en,
+body.lang-zh .exp-text-en,
+body.lang-zh .result-title,
+body.lang-zh .r-stat-label,
+body.lang-zh .fc-term,
+body.lang-zh .fc-ans-en,
+body.lang-zh .study-sec-title-en,
+body.lang-zh .study-q,
+body.lang-zh .progress-label,
+body.lang-zh .disclaimer-en{display:none!important;}
+
+/* ═══════════════════════════════════════
+   SCREENS
+═══════════════════════════════════════ */
+.screen{display:none;min-height:100vh;flex-direction:column;}
+.screen.active{display:flex;}
+
+/* ═══════════════════════════════════════
+   HOME SCREEN
+═══════════════════════════════════════ */
+#screen-home{
+  background: linear-gradient(160deg, #003d1f 0%, #005c2b 45%, #00843D 100%);
+  position:relative;
+  overflow:hidden;
+}
+#screen-home::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background: radial-gradient(ellipse 80% 60% at 60% 20%, rgba(255,205,0,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse 50% 50% at 10% 80%, rgba(0,0,0,0.2) 0%, transparent 60%);
+  pointer-events:none;
+}
+
+/* Southern Cross decoration */
+.stars-bg{
+  position:absolute;
+  top:10%;right:6%;
+  opacity:0.12;
+  font-size:11px;
+  color:#fff;
+  line-height:2.2;
+  letter-spacing:18px;
+  pointer-events:none;
+  user-select:none;
+}
+
+.home-inner{
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  padding:0 22px 32px;
+}
+
+.home-header{
+  padding:52px 0 0;
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.flag-badge{
+  width:52px;height:36px;
+  background: linear-gradient(180deg, #00008B 0%, #00008B 100%);
+  border-radius:5px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.3);
+  flex-shrink:0;
+  position:relative;
+  overflow:hidden;
+}
+.flag-badge::after{
+  content:'AU';
+  font-family:'DM Mono',monospace;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:0.08em;
+  color:#fff;
+  line-height:1;
+}
+.home-title-group{}
+.home-title-en{
+  font-size:13px;
+  font-weight:600;
+  color:rgba(255,255,255,0.7);
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+}
+.home-title-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:17px;
+  font-weight:700;
+  color:#fff;
+  line-height:1.2;
+}
+
+.home-hero{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:40px 0 20px;
+}
+.hero-label{
+  font-family:'DM Mono',monospace;
+  font-size:10px;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:14px;
+}
+.hero-main{
+  font-size:38px;
+  font-weight:700;
+  color:#fff;
+  line-height:1.1;
+  margin-bottom:8px;
+  letter-spacing:-0.02em;
+}
+.hero-main span{color:var(--gold);}
+.hero-sub{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:22px;
+  font-weight:500;
+  color:rgba(255,255,255,0.75);
+  margin-bottom:28px;
+  line-height:1.3;
+}
+.hero-stats{
+  display:flex;
+  gap:20px;
+  margin-bottom:36px;
+}
+.stat{
+  background:rgba(255,255,255,0.1);
+  border:1px solid rgba(255,255,255,0.15);
+  border-radius:10px;
+  padding:12px 16px;
+  text-align:center;
+  flex:1;
+}
+.stat-num{
+  font-size:22px;
+  font-weight:700;
+  color:var(--gold);
+  line-height:1;
+}
+.stat-label{
+  font-size:10px;
+  color:rgba(255,255,255,0.6);
+  margin-top:3px;
+  font-family:'DM Mono',monospace;
+  letter-spacing:0.04em;
+}
+.stat-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:10px;
+  color:rgba(255,255,255,0.5);
+}
+
+.lang-toggle{
+  display:flex;
+  background:rgba(255,255,255,0.12);
+  border-radius:10px;
+  padding:4px;
+  margin-bottom:24px;
+  gap:4px;
+}
+.lang-btn{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:7px;
+  font-family:'DM Sans',sans-serif;
+  font-size:13px;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.2s;
+  color:rgba(255,255,255,0.6);
+  background:transparent;
+}
+.lang-btn.active{
+  background:#fff;
+  color:var(--green-dark);
+  font-weight:600;
+  box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.home-modes{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.mode-card{
+  background:rgba(255,255,255,0.10);
+  border:1px solid rgba(255,255,255,0.18);
+  border-radius:var(--radius);
+  padding:16px 18px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  cursor:pointer;
+  transition:all 0.18s;
+  text-decoration:none;
+}
+.mode-card:hover,.mode-card:active{
+  background:rgba(255,255,255,0.18);
+  transform:translateX(3px);
+}
+.mode-card.primary{
+  background:var(--gold);
+  border-color:var(--gold);
+}
+.mode-card.primary:hover{background:#ffe033;}
+.mode-icon{
+  width:42px;height:42px;
+  border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;
+  flex-shrink:0;
+}
+.mode-card.primary .mode-icon{background:rgba(0,0,0,0.1);}
+.mode-card:not(.primary) .mode-icon{background:rgba(255,255,255,0.12);}
+.mode-text{}
+.mode-title-en{
+  font-size:14px;
+  font-weight:600;
+  color:#fff;
+  line-height:1.2;
+}
+.mode-card.primary .mode-title-en{color:var(--ink);}
+.mode-title-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12px;
+  color:rgba(255,255,255,0.6);
+}
+.mode-card.primary .mode-title-zh{color:rgba(0,0,0,0.5);}
+.mode-arrow{
+  margin-left:auto;
+  color:rgba(255,255,255,0.4);
+  font-size:18px;
+}
+.mode-card.primary .mode-arrow{color:rgba(0,0,0,0.3);}
+
+/* ═══════════════════════════════════════
+   TOPIC SCREEN
+═══════════════════════════════════════ */
+#screen-topics{background:var(--bg);}
+.top-bar{
+  background:var(--green);
+  padding:52px 22px 18px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.back-btn{
+  width:36px;height:36px;
+  background:rgba(255,255,255,0.15);
+  border:none;border-radius:50%;
+  color:#fff;font-size:18px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:background 0.15s;
+}
+.back-btn:hover{background:rgba(255,255,255,0.25);}
+.top-bar-title{
+  font-size:17px;font-weight:600;color:#fff;
+}
+.top-bar-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12px;color:rgba(255,255,255,0.7);
+}
+.screen-body{padding:20px 22px;flex:1;}
+
+.section-label{
+  font-family:'DM Mono',monospace;
+  font-size:9.5px;letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px;
+}
+.topic-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px;}
+.topic-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:16px 18px;
+  display:flex;align-items:center;gap:14px;
+  cursor:pointer;transition:all 0.15s;
+  box-shadow:var(--shadow);
+}
+.topic-card:hover,.topic-card:active{
+  border-color:var(--green);
+  box-shadow:0 4px 20px rgba(0,132,61,0.15);
+  transform:translateY(-1px);
+}
+.topic-dot{
+  width:44px;height:44px;
+  border-radius:11px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;flex-shrink:0;
+}
+.topic-info{flex:1;}
+.topic-name-en{font-size:14px;font-weight:600;color:var(--ink);}
+.topic-name-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:11.5px;color:var(--muted);margin-top:1px;
+}
+.topic-count{
+  font-family:'DM Mono',monospace;
+  font-size:11px;color:var(--muted);
+}
+.topic-arr{font-size:16px;color:var(--muted);}
+
+.quick-start{
+  background:var(--green);
+  border-radius:var(--radius);
+  padding:18px 20px;
+  display:flex;align-items:center;justify-content:space-between;
+  cursor:pointer;
+  transition:background 0.15s;
+}
+.quick-start:hover{background:var(--green-dark);}
+.qs-text{}
+.qs-title{font-size:16px;font-weight:600;color:#fff;}
+.qs-subtitle{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12px;color:rgba(255,255,255,0.7);margin-top:2px;
+}
+.qs-icon{font-size:28px;}
+
+/* ═══════════════════════════════════════
+   QUIZ SCREEN
+═══════════════════════════════════════ */
+#screen-quiz{background:var(--bg);}
+.quiz-header{
+  background:var(--green);
+  padding:52px 22px 20px;
+}
+.quiz-nav{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:16px;
+}
+.quiz-topic-badge{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:0.1em;text-transform:uppercase;
+  background:rgba(255,255,255,0.15);
+  color:rgba(255,255,255,0.9);
+  padding:4px 10px;border-radius:20px;
+}
+.quiz-counter{
+  font-family:'DM Mono',monospace;
+  font-size:12px;color:rgba(255,255,255,0.7);
+}
+.exam-clock{
+  display:none;
+  font-family:'DM Mono',monospace;
+  font-size:12px;
+  font-weight:600;
+  color:var(--gold);
+  background:rgba(0,0,0,0.18);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:20px;
+  padding:4px 9px;
+}
+.exam-clock.visible{display:block;}
+.exam-clock.warning{color:#ffb3b3;background:rgba(204,0,0,0.25);}
+.exam-alert{
+  display:none;
+  margin:8px 0 0;
+  padding:7px 9px;
+  border-radius:8px;
+  background:#fff8e1;
+  color:#5c4300;
+  font-size:11px;
+  line-height:1.35;
+}
+.exam-alert.visible{display:block;}
+.progress-bar{
+  background:rgba(255,255,255,0.2);
+  border-radius:4px;height:5px;overflow:hidden;
+}
+.progress-fill{
+  height:100%;
+  background:var(--gold);
+  border-radius:4px;
+  transition:width 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+
+.quiz-body{
+  padding:22px 22px 100px;
+  flex:1;
+  overflow-y:auto;
+}
+
+/* Language pill */
+.bilingual-header{
+  display:flex;
+  gap:8px;
+  margin-bottom:18px;
+}
+.lang-pill{
+  font-family:'DM Mono',monospace;
+  font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;
+  padding:3px 10px;border-radius:20px;
+  cursor:pointer;border:1.5px solid transparent;
+  transition:all 0.15s;
+}
+.lang-pill.active{
+  background:var(--green);color:#fff;border-color:var(--green);
+}
+.lang-pill:not(.active){
+  background:transparent;color:var(--muted);border-color:var(--border);
+}
+
+.question-card{
+  background:var(--surface);
+  border-radius:var(--radius);
+  padding:22px 20px;
+  box-shadow:var(--shadow);
+  margin-bottom:16px;
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+
+.q-number{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:0.12em;
+  color:var(--green);
+  text-transform:uppercase;margin-bottom:10px;
+}
+.q-text-en{
+  font-size:16px;font-weight:600;color:var(--ink);
+  line-height:1.45;margin-bottom:10px;
+}
+.q-text-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:14px;color:var(--ink2);
+  line-height:1.6;
+  padding-top:10px;
+  border-top:1px solid var(--border);
+  display:none;
+}
+.q-text-zh.visible{display:block;}
+
+.options-list{display:flex;flex-direction:column;gap:9px;}
+.option{
+  background:var(--surface2);
+  border:1.5px solid var(--border);
+  border-radius:10px;
+  padding:14px 16px;
+  cursor:pointer;
+  transition:all 0.15s;
+  display:flex;align-items:flex-start;gap:12px;
+  width:100%;
+  text-align:left;
+  font-family:'DM Sans','Noto Sans SC',sans-serif;
+  color:var(--ink);
+  appearance:none;
+  -webkit-appearance:none;
+}
+.option:focus{outline:2px solid rgba(0,132,61,0.35);outline-offset:2px;}
+.option:hover:not(.locked){
+  border-color:var(--green);
+  background:var(--green-light);
+}
+.opt-label{
+  width:26px;height:26px;
+  border-radius:50%;
+  background:rgba(0,0,0,0.06);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'DM Mono',monospace;
+  font-size:12px;font-weight:500;
+  color:var(--muted);flex-shrink:0;margin-top:-1px;
+  transition:all 0.15s;
+}
+.opt-content{}
+.opt-text-en{font-size:14px;color:var(--ink);line-height:1.4;}
+.opt-text-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12px;color:var(--muted);margin-top:2px;
+  display:none;
+  line-height:1.5;
+}
+.opt-text-zh.visible{display:block;}
+
+/* Answer states */
+.option.correct{
+  border-color:#00843D!important;
+  background:#e8f5ee!important;
+}
+.option.correct .opt-label{background:var(--green);color:#fff;}
+.option.wrong{
+  border-color:#CC0000!important;
+  background:#ffeaea!important;
+}
+.option.wrong .opt-label{background:#CC0000;color:#fff;}
+.option.selected{
+  border-color:var(--green)!important;
+  background:var(--green-light)!important;
+}
+.option.selected .opt-label{background:var(--green);color:#fff;}
+.option.locked{cursor:default;}
+
+/* Explanation card */
+.explanation{
+  background:var(--surface);
+  border-radius:var(--radius);
+  padding:18px 20px;
+  box-shadow:var(--shadow);
+  border-left:3.5px solid var(--green);
+  margin-top:4px;
+  animation:fadeIn 0.3s ease;
+  display:none;
+}
+.explanation.visible{display:block;}
+.exp-title{
+  font-family:'DM Mono',monospace;
+  font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--green);margin-bottom:7px;
+}
+.exp-text-en{font-size:13px;color:var(--ink2);line-height:1.6;margin-bottom:8px;}
+.exp-text-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12.5px;color:var(--muted);line-height:1.65;
+  padding-top:8px;border-top:1px solid var(--border);
+}
+
+.next-btn{
+  position:fixed;bottom:24px;left:22px;right:22px;
+  background:var(--green);
+  color:#fff;border:none;
+  border-radius:12px;
+  padding:16px;
+  font-family:'DM Sans',sans-serif;
+  font-size:15px;font-weight:600;
+  cursor:pointer;
+  display:none;
+  align-items:center;justify-content:center;gap:8px;
+  box-shadow:0 4px 20px rgba(0,132,61,0.35);
+  transition:all 0.15s;
+  z-index:100;
+}
+.next-btn:hover{background:var(--green-dark);}
+.next-btn.visible{display:flex;}
+.next-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:12px;opacity:0.75;
+}
+
+/* ═══════════════════════════════════════
+   RESULTS SCREEN
+═══════════════════════════════════════ */
+#screen-results{
+  background: linear-gradient(160deg, #003d1f 0%, #005c2b 60%, #00843D 100%);
+}
+.results-inner{
+  padding:52px 22px 40px;
+  display:flex;flex-direction:column;
+  align-items:center;text-align:center;
+  min-height:100vh;
+}
+.result-icon{font-size:64px;margin-bottom:16px;animation:pop 0.5s ease 0.2s both;}
+@keyframes pop{from{transform:scale(0.5);opacity:0;}to{transform:scale(1);opacity:1;}}
+.result-title{
+  font-size:28px;font-weight:700;color:#fff;
+  margin-bottom:6px;letter-spacing:-0.02em;
+}
+.result-title-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:28px;
+}
+.score-ring{
+  width:140px;height:140px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.12);
+  border:3px solid rgba(255,255,255,0.2);
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  margin-bottom:28px;
+  box-shadow:0 0 0 8px rgba(255,205,0,0.1);
+}
+.score-pct{
+  font-size:42px;font-weight:700;color:var(--gold);line-height:1;
+}
+.score-pct-label{
+  font-family:'DM Mono',monospace;
+  font-size:10px;color:rgba(255,255,255,0.5);letter-spacing:0.1em;
+}
+.score-verdict{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:14px;
+  padding:8px 20px;border-radius:20px;
+  margin-bottom:24px;font-weight:500;
+}
+.score-verdict.pass{background:var(--gold);color:var(--ink);}
+.score-verdict.fail{background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.8);}
+.result-stats{
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  gap:10px;width:100%;margin-bottom:32px;
+}
+.r-stat{
+  background:rgba(255,255,255,0.10);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:10px;padding:14px 10px;
+}
+.r-stat-num{font-size:22px;font-weight:700;color:#fff;}
+.r-stat-num.green{color:#6ee89c;}
+.r-stat-num.red{color:#ff8a8a;}
+.r-stat-label{
+  font-family:'DM Mono',monospace;
+  font-size:9px;color:rgba(255,255,255,0.45);
+  letter-spacing:0.08em;text-transform:uppercase;margin-top:3px;
+}
+.r-stat-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:9px;color:rgba(255,255,255,0.35);margin-top:1px;
+}
+.results-btns{display:flex;flex-direction:column;gap:10px;width:100%;}
+.res-btn{
+  border:none;border-radius:12px;padding:15px;
+  font-family:'DM Sans',sans-serif;font-size:15px;font-weight:600;
+  cursor:pointer;transition:all 0.15s;width:100%;
+}
+.res-btn.primary{background:var(--gold);color:var(--ink);}
+.res-btn.primary:hover{background:#ffe033;}
+.res-btn.secondary{
+  background:rgba(255,255,255,0.12);
+  border:1.5px solid rgba(255,255,255,0.2);
+  color:#fff;
+}
+.res-btn.secondary:hover{background:rgba(255,255,255,0.2);}
+
+/* ═══════════════════════════════════════
+   FLASHCARD SCREEN
+═══════════════════════════════════════ */
+#screen-flash{background:var(--bg);}
+.flash-body{padding:20px 22px 100px;flex:1;}
+.flash-progress{
+  font-family:'DM Mono',monospace;
+  font-size:11px;color:var(--muted);
+  text-align:center;margin-bottom:16px;
+  letter-spacing:0.05em;
+}
+.flashcard{
+  background:var(--surface);
+  border-radius:18px;
+  min-height:220px;
+  box-shadow:0 4px 24px rgba(0,80,30,0.12);
+  padding:28px 24px;
+  cursor:pointer;
+  display:flex;flex-direction:column;justify-content:center;
+  align-items:center;text-align:center;
+  position:relative;
+  overflow:hidden;
+  transition:transform 0.3s;
+  border:1.5px solid var(--border);
+}
+.flashcard::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,var(--green),var(--gold));
+}
+.flashcard:hover{transform:translateY(-2px);}
+.fc-hint{
+  font-family:'DM Mono',monospace;
+  font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:18px;
+}
+.fc-term{
+  font-size:17px;font-weight:600;color:var(--ink);
+  line-height:1.4;margin-bottom:10px;
+}
+.fc-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:14px;color:var(--muted);line-height:1.5;
+}
+.fc-answer{
+  display:none;
+  animation:fadeIn 0.25s ease;
+}
+.fc-answer.visible{display:block;}
+.fc-sep{width:40px;height:2px;background:var(--border);margin:14px auto;}
+.fc-ans-en{font-size:15px;color:var(--ink);line-height:1.5;margin-bottom:6px;}
+.fc-ans-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:13px;color:var(--muted);line-height:1.5;
+}
+.flash-btns{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:10px;margin-top:16px;
+}
+.flash-btn{
+  border:none;border-radius:10px;padding:14px;
+  font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;
+  cursor:pointer;transition:all 0.15s;
+}
+.flash-btn.know{background:#e8f5ee;color:var(--green);}
+.flash-btn.know:hover{background:var(--green);color:#fff;}
+.flash-btn.nope{background:#fef3f3;color:#cc3333;}
+.flash-btn.nope:hover{background:#cc3333;color:#fff;}
+.flash-btn-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:11px;opacity:0.6;display:block;font-weight:400;
+}
+
+/* ═══════════════════════════════════════
+   BOTTOM NAV
+═══════════════════════════════════════ */
+.bottom-nav{
+  position:fixed;bottom:0;left:0;right:0;
+  background:var(--surface);
+  border-top:1px solid var(--border);
+  display:grid;grid-template-columns:repeat(4,1fr);
+  padding:8px 0 16px;
+  z-index:200;
+  box-shadow:0 -4px 20px rgba(0,80,30,0.08);
+}
+.nav-item{
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  cursor:pointer;padding:6px 0;
+  transition:opacity 0.15s;
+  border:none;background:none;
+}
+.nav-icon{font-size:22px;line-height:1;}
+.nav-label{
+  font-size:9.5px;color:var(--muted);font-weight:500;
+  letter-spacing:0.02em;
+}
+.nav-label-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:8.5px;color:var(--muted);
+}
+.nav-item.active .nav-icon{filter:none;}
+.nav-item.active .nav-label,.nav-item.active .nav-label-zh{color:var(--green);}
+.nav-dot{
+  width:4px;height:4px;border-radius:50%;
+  background:var(--green);
+  display:none;
+}
+.nav-item.active .nav-dot{display:block;}
+
+/* ═══════════════════════════════════════
+   STUDY SCREEN
+═══════════════════════════════════════ */
+#screen-study{background:var(--bg);}
+.study-sections{padding:20px 22px 80px;}
+.study-section{margin-bottom:20px;}
+.study-sec-header{
+  background:var(--green);
+  border-radius:var(--radius) var(--radius) 0 0;
+  padding:14px 18px;
+  display:flex;align-items:center;gap:10px;
+}
+.study-sec-icon{font-size:20px;}
+.study-sec-title-en{font-size:14px;font-weight:600;color:#fff;}
+.study-sec-title-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:11px;color:rgba(255,255,255,0.7);
+}
+.study-items{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-top:none;
+  border-radius:0 0 var(--radius) var(--radius);
+  overflow:hidden;
+}
+.study-item{
+  padding:14px 18px;
+  border-bottom:1px solid var(--border);
+}
+.study-item:last-child{border-bottom:none;}
+.study-q{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:4px;line-height:1.4;}
+.study-q-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:11.5px;color:var(--muted);margin-bottom:6px;
+}
+.study-a{
+  font-size:13px;color:var(--green-dark);
+  background:var(--green-light);
+  border-radius:6px;padding:6px 10px;
+  line-height:1.4;
+}
+.study-a-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:11.5px;color:var(--green-dark);
+  margin-top:3px;display:block;
+}
+.study-overview{
+  padding:12px 14px;
+  border-bottom:1px solid var(--border);
+  background:#fbfcfa;
+}
+.study-overview-en{font-size:12.5px;line-height:1.45;color:var(--ink2);margin-bottom:5px;}
+.study-overview-zh{font-family:'Noto Sans SC',sans-serif;font-size:11.2px;line-height:1.5;color:var(--muted);}
+.study-block{
+  padding:11px 14px;
+  border-bottom:1px solid var(--border);
+}
+.study-block:last-child{border-bottom:none;}
+.study-block-title{
+  font-family:'DM Mono',monospace;
+  font-size:8.5px;
+  color:var(--green);
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  margin-bottom:6px;
+}
+.study-list{display:grid;gap:6px;}
+.study-line{
+  display:grid;
+  grid-template-columns:18px 1fr;
+  gap:6px;
+  font-size:12px;
+  line-height:1.38;
+  color:var(--ink2);
+}
+.study-line-zh{
+  display:block;
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:10.8px;
+  color:var(--muted);
+  margin-top:1px;
+}
+.study-token{
+  display:inline-block;
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:4px 7px;
+  margin:0 4px 5px 0;
+  background:var(--surface2);
+  font-size:11.2px;
+  color:var(--ink2);
+}
+.study-token span{
+  font-family:'Noto Sans SC',sans-serif;
+  color:var(--muted);
+  margin-left:3px;
+}
+.study-tabs{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:7px;
+  margin-bottom:10px;
+}
+.study-tab{
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:var(--surface);
+  padding:8px 9px;
+  text-align:left;
+  cursor:pointer;
+  box-shadow:var(--shadow);
+}
+.study-tab.active{
+  background:var(--green);
+  border-color:var(--green);
+  color:#fff;
+}
+.study-tab-en{font-size:11px;font-weight:700;line-height:1.2;}
+.study-tab-zh{font-family:'Noto Sans SC',sans-serif;font-size:9.5px;opacity:.72;line-height:1.25;margin-top:2px;}
+.visual-tabs{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:7px;
+  margin-bottom:10px;
+}
+.visual-tab{
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:var(--surface);
+  padding:8px 9px;
+  text-align:left;
+  cursor:pointer;
+  box-shadow:var(--shadow);
+}
+.visual-tab.active{
+  background:var(--green);
+  border-color:var(--green);
+  color:#fff;
+}
+.visual-tab-en{font-size:11px;font-weight:700;line-height:1.2;}
+.visual-tab-zh{font-family:'Noto Sans SC',sans-serif;font-size:9.5px;opacity:.72;line-height:1.25;margin-top:2px;}
+.visual-panel{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.visual-head{
+  background:var(--green);
+  color:#fff;
+  padding:11px 13px;
+}
+.visual-title{font-size:14px;font-weight:700;}
+.visual-sub{font-family:'Noto Sans SC',sans-serif;font-size:10.5px;opacity:.74;margin-top:2px;}
+.visual-body{padding:13px;}
+.visual-grid{display:grid;gap:9px;}
+.chart-card{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:10px;
+  background:#fbfcfa;
+}
+.chart-label{font-size:11px;font-weight:700;color:var(--ink2);margin-bottom:5px;}
+.chart-label span{font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-weight:400;margin-left:4px;}
+.bar-row{display:grid;grid-template-columns:82px 1fr 34px;gap:7px;align-items:center;margin:7px 0;}
+.bar-name{font-size:10.5px;color:var(--ink2);}
+.bar-track{height:9px;background:#e8eee8;border-radius:999px;overflow:hidden;}
+.bar-fill{height:100%;background:linear-gradient(90deg,var(--green),var(--gold));border-radius:999px;}
+.bar-num{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);text-align:right;}
+.donut-wrap{display:grid;grid-template-columns:112px 1fr;gap:12px;align-items:center;}
+.donut{
+  width:112px;
+  height:112px;
+  border-radius:50%;
+  background:conic-gradient(var(--green) 0 75%, var(--gold) 75% 100%);
+  position:relative;
+}
+.donut::after{
+  content:'75%';
+  position:absolute;
+  inset:23px;
+  border-radius:50%;
+  background:var(--surface);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'DM Mono',monospace;
+  font-weight:700;
+  color:var(--green-dark);
+}
+.legend-line{display:flex;align-items:center;gap:7px;font-size:11.2px;margin:5px 0;color:var(--ink2);}
+.legend-swatch{width:10px;height:10px;border-radius:2px;background:var(--green);}
+.legend-swatch.gold{background:var(--gold);}
+.timeline{display:grid;gap:8px;}
+.timeline-item{
+  display:grid;
+  grid-template-columns:54px 1fr;
+  gap:9px;
+  align-items:start;
+  border-left:2px solid var(--border);
+  padding-left:9px;
+}
+.timeline-year{font-family:'DM Mono',monospace;font-size:11px;font-weight:700;color:var(--green-dark);}
+.timeline-text{font-size:11.4px;line-height:1.35;color:var(--ink2);}
+.timeline-text span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10.4px;color:var(--muted);margin-top:1px;}
+.system-map{display:grid;gap:8px;}
+.system-node{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:9px;
+  background:var(--surface2);
+}
+.system-node strong{display:block;font-size:12px;color:var(--green-dark);}
+.system-node span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10.5px;color:var(--muted);margin-top:2px;}
+.system-branch{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;}
+.matrix{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.matrix-cell{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:9px;
+  background:var(--surface2);
+}
+.matrix-cell strong{display:block;font-size:11.8px;color:var(--green-dark);}
+.matrix-cell span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10.3px;color:var(--muted);line-height:1.35;margin-top:2px;}
+.mini-note{font-size:10.8px;line-height:1.4;color:var(--muted);margin-top:8px;}
+.visual-row{display:grid;grid-template-columns:1fr 1fr;gap:9px;}
+.metric-tile{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:10px;
+  background:var(--surface2);
+  text-align:center;
+}
+.metric-num{font-family:'DM Mono',monospace;font-size:24px;font-weight:700;color:var(--green-dark);line-height:1;}
+.metric-label{font-size:10.5px;color:var(--ink2);margin-top:4px;}
+.metric-label span{display:block;font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-size:9.6px;margin-top:1px;}
+.stack-bar{display:grid;grid-template-columns:15fr 5fr;height:14px;border-radius:999px;overflow:hidden;background:#e8eee8;margin:8px 0;}
+.stack-a{background:var(--green);}
+.stack-b{background:var(--gold);}
+.time-rail{
+  position:relative;
+  height:76px;
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:linear-gradient(90deg,#f7faf7,#fff8df);
+  margin-bottom:10px;
+}
+.time-rail::before{
+  content:'';
+  position:absolute;
+  left:22px;right:22px;top:37px;height:2px;background:var(--green);
+}
+.rail-point{
+  position:absolute;
+  top:23px;
+  transform:translateX(-50%);
+  text-align:center;
+}
+.rail-dot{
+  width:13px;height:13px;border-radius:50%;
+  background:var(--gold);
+  border:2px solid var(--green-dark);
+  margin:8px auto 3px;
+}
+.rail-year{font-family:'DM Mono',monospace;font-size:9px;font-weight:700;color:var(--green-dark);}
+.rail-label{font-size:8.8px;color:var(--muted);}
+.flow-chart{display:grid;gap:8px;}
+.flow-step{
+  display:grid;
+  grid-template-columns:34px 1fr;
+  gap:8px;
+  align-items:center;
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:#fbfcfa;
+  padding:8px;
+}
+.flow-index{
+  width:30px;height:30px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--green);
+  color:#fff;
+  font-family:'DM Mono',monospace;
+  font-size:11px;
+  font-weight:700;
+}
+.flow-text{font-size:11.5px;color:var(--ink2);line-height:1.35;}
+.flow-text span{display:block;font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-size:10.3px;}
+.gov-svg,.symbol-svg{
+  width:100%;
+  height:auto;
+  display:block;
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:#fbfcfa;
+}
+.contrast-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.contrast-card{
+  border-radius:9px;
+  padding:9px;
+  border:1px solid var(--border);
+  background:var(--surface2);
+}
+.contrast-card.good{border-color:rgba(0,132,61,.35);background:#edf8f2;}
+.contrast-card.bad{border-color:rgba(204,0,0,.22);background:#fff1f1;}
+.contrast-card strong{display:block;font-size:11.8px;color:var(--green-dark);}
+.contrast-card.bad strong{color:#8b1a1a;}
+.contrast-card span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10.2px;color:var(--muted);line-height:1.35;margin-top:3px;}
+.symbol-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.symbol-card{
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:#fbfcfa;
+  padding:9px;
+}
+.symbol-card strong{font-size:11.6px;color:var(--green-dark);}
+.symbol-card span{display:block;font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-size:10.2px;line-height:1.35;margin-top:2px;}
+.atlas-section-title{
+  font-family:'DM Mono',monospace;
+  font-size:8.5px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--green);
+  margin:4px 0 7px;
+}
+.knowledge-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;}
+.knowledge-card{
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:#fbfcfa;
+  padding:9px;
+}
+.knowledge-card strong{display:block;font-size:11.3px;color:var(--green-dark);line-height:1.2;}
+.knowledge-card span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10px;color:var(--muted);line-height:1.35;margin-top:3px;}
+.arrow-map{display:grid;grid-template-columns:1fr 22px 1fr 22px 1fr;gap:5px;align-items:center;}
+.arrow-node{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:8px;
+  min-height:58px;
+  background:var(--surface2);
+}
+.arrow-node strong{display:block;font-size:11px;color:var(--green-dark);}
+.arrow-node span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:9.8px;color:var(--muted);line-height:1.3;margin-top:2px;}
+.arrow-mark{font-family:'DM Mono',monospace;color:var(--green);font-weight:700;text-align:center;}
+.heatmap{display:grid;grid-template-columns:1.1fr repeat(4,1fr);gap:4px;}
+.heat-cell{
+  border-radius:7px;
+  padding:6px 5px;
+  min-height:36px;
+  background:#edf3ee;
+  font-size:9.6px;
+  color:var(--ink2);
+  line-height:1.2;
+}
+.heat-cell.head{background:var(--green);color:#fff;font-weight:700;text-align:center;}
+.heat-cell.side{background:#f7f8f6;font-weight:700;color:var(--green-dark);}
+.heat-cell.high{background:#d7f0df;}
+.heat-cell.mid{background:#fff1b8;}
+.heat-cell.low{background:#ffe0e0;}
+.role-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;}
+.role-card{
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:#fbfcfa;
+  padding:9px;
+}
+.role-card strong{display:block;font-size:11.4px;color:var(--green-dark);}
+.role-card span{display:block;font-family:'Noto Sans SC',sans-serif;font-size:10.2px;color:var(--muted);line-height:1.35;margin-top:2px;}
+.chapter-band{
+  display:grid;
+  grid-template-columns:58px 1fr;
+  gap:8px;
+  align-items:center;
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:8px;
+  background:#fbfcfa;
+  margin-bottom:6px;
+}
+.chapter-code{
+  font-family:'DM Mono',monospace;
+  font-size:15px;
+  font-weight:700;
+  color:#fff;
+  background:var(--green);
+  border-radius:7px;
+  padding:8px 0;
+  text-align:center;
+}
+.chapter-copy{font-size:11.3px;line-height:1.35;color:var(--ink2);}
+.chapter-copy span{display:block;font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-size:10.2px;margin-top:1px;}
+.scenario-grid{display:grid;gap:7px;}
+.scenario-card{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:9px;
+  background:#fbfcfa;
+}
+.scenario-card strong{font-size:11.5px;color:var(--green-dark);}
+.scenario-card p{font-size:10.8px;color:var(--ink2);line-height:1.35;margin:4px 0;}
+.scenario-card em{font-style:normal;font-family:'Noto Sans SC',sans-serif;color:var(--muted);font-size:10.1px;}
+.memory-ladder{display:grid;gap:5px;}
+.ladder-step{
+  display:grid;
+  grid-template-columns:42px 1fr;
+  gap:7px;
+  align-items:center;
+  background:var(--surface2);
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:7px;
+}
+.ladder-code{font-family:'DM Mono',monospace;font-weight:700;color:var(--green-dark);font-size:10.5px;}
+.ladder-text{font-size:10.8px;color:var(--ink2);}
+.ladder-text span{font-family:'Noto Sans SC',sans-serif;color:var(--muted);display:block;font-size:9.8px;}
+
+/* ═══════════════════════════════════════
+   COMPACT DENSITY OVERRIDES
+═══════════════════════════════════════ */
+:root{
+  --shadow:0 1px 8px rgba(0,80,30,0.08);
+  --radius:10px;
+}
+.home-inner{padding:0 16px 18px;}
+.home-header{padding:24px 0 0;gap:10px;}
+.flag-badge{width:42px;height:28px;border-radius:4px;}
+.flag-badge::after{font-size:22px;}
+.home-title-en{font-size:11px;}
+.home-title-zh{font-size:15px;}
+.home-hero{justify-content:flex-start;padding:22px 0 12px;}
+.hero-label{font-size:9px;margin-bottom:8px;}
+.hero-main{font-size:30px;line-height:1.04;margin-bottom:4px;}
+.hero-sub{font-size:17px;margin-bottom:14px;}
+.hero-stats{gap:8px;margin-bottom:14px;}
+.stat{border-radius:8px;padding:8px 6px;}
+.stat-num{font-size:18px;}
+.stat-label{font-size:8.5px;margin-top:2px;}
+.stat-zh{font-size:8.5px;}
+.lang-toggle{margin-bottom:12px;border-radius:8px;}
+.lang-btn{padding:8px 6px;font-size:11.5px;border-radius:6px;}
+.home-modes{gap:7px;}
+.mode-card{border-radius:9px;padding:10px 12px;gap:10px;}
+.mode-icon{width:32px;height:32px;border-radius:8px;font-size:17px;}
+.mode-title-en{font-size:13px;}
+.mode-title-zh{font-size:10.5px;line-height:1.35;}
+.top-bar{padding:28px 16px 12px;gap:10px;}
+.back-btn{width:30px;height:30px;font-size:15px;}
+.top-bar-title{font-size:15px;}
+.top-bar-zh{font-size:10.5px;}
+.screen-body{padding:14px 16px;}
+.section-label{font-size:8.5px;margin-bottom:8px;}
+.topic-grid{gap:7px;margin-bottom:14px;}
+.topic-card{border-radius:9px;padding:11px 12px;gap:10px;}
+.topic-dot{width:34px;height:34px;border-radius:8px;font-size:18px;}
+.topic-name-en{font-size:12.5px;}
+.topic-name-zh{font-size:10.5px;}
+.topic-count{font-size:10px;}
+.quick-start{border-radius:9px;padding:13px 14px;}
+.qs-title{font-size:14px;}
+.qs-subtitle{font-size:10.5px;}
+.quiz-header{padding:28px 16px 13px;}
+.quiz-nav{margin-bottom:10px;}
+.quiz-topic-badge{font-size:8.5px;padding:3px 8px;}
+.quiz-counter{font-size:10.5px;}
+.exam-clock{font-size:10.5px;padding:3px 7px;}
+.quiz-body{padding:14px 16px 76px;}
+.bilingual-header{gap:6px;margin-bottom:10px;}
+.lang-pill{font-size:8.5px;padding:3px 8px;}
+.question-card{border-radius:9px;padding:14px 14px;margin-bottom:10px;}
+.q-number{font-size:8.5px;margin-bottom:7px;}
+.q-text-en{font-size:14px;line-height:1.35;margin-bottom:7px;}
+.q-text-zh{font-size:12.5px;line-height:1.45;padding-top:7px;}
+.options-list{gap:6px;}
+.option{border-radius:8px;padding:10px 11px;gap:9px;}
+.opt-label{width:22px;height:22px;font-size:10.5px;}
+.opt-text-en{font-size:12.5px;line-height:1.32;}
+.opt-text-zh{font-size:11px;line-height:1.38;}
+.explanation{border-radius:9px;padding:12px 14px;margin-top:8px;}
+.exp-title{font-size:8.5px;margin-bottom:5px;}
+.exp-text-en{font-size:12px;line-height:1.45;margin-bottom:5px;}
+.exp-text-zh{font-size:11px;line-height:1.5;padding-top:5px;}
+.next-btn{bottom:14px;left:16px;right:16px;border-radius:9px;padding:12px;font-size:13px;}
+.results-inner{padding:30px 16px 24px;}
+.result-icon{font-size:46px;margin-bottom:10px;}
+.result-title{font-size:23px;}
+.result-title-zh{font-size:15px;margin-bottom:18px;}
+.score-ring{width:112px;height:112px;margin-bottom:18px;}
+.score-pct{font-size:34px;}
+.result-stats{gap:7px;margin-bottom:20px;}
+.r-stat{border-radius:8px;padding:10px 6px;}
+.results-btns{gap:7px;}
+.res-btn{border-radius:9px;padding:12px;font-size:13px;}
+.flash-body{padding:14px 16px 76px;}
+.flash-progress{font-size:10px;margin-bottom:10px;}
+.flashcard{border-radius:10px;min-height:170px;padding:18px 16px;}
+.fc-hint{font-size:8.5px;margin-bottom:12px;}
+.fc-term{font-size:15px;margin-bottom:7px;}
+.fc-zh{font-size:12.5px;}
+.flash-btns{gap:7px;margin-top:10px;}
+.flash-btn{border-radius:8px;padding:11px;font-size:12.5px;}
+.bottom-nav{padding:5px 0 9px;}
+.nav-icon{font-size:18px;}
+.nav-label{font-size:8.5px;}
+.nav-label-zh{font-size:7.5px;}
+.study-sections{padding:14px 16px 68px;}
+.study-section{margin-bottom:12px;}
+.study-sec-header{border-radius:9px 9px 0 0;padding:10px 12px;}
+.study-sec-title-en{font-size:12.5px;}
+.study-sec-title-zh{font-size:10px;}
+.study-item{padding:10px 12px;}
+.study-q{font-size:12px;margin-bottom:3px;}
+.study-q-zh{font-size:10.5px;margin-bottom:5px;}
+.study-a{font-size:11.5px;padding:5px 8px;}
+.study-a-zh{font-size:10.5px;}
+.study-overview{padding:9px 12px;}
+.study-overview-en{font-size:11.8px;margin-bottom:3px;}
+.study-overview-zh{font-size:10.5px;}
+.study-block{padding:9px 12px;}
+.study-block-title{font-size:8px;margin-bottom:5px;}
+.study-list{gap:5px;}
+.study-line{grid-template-columns:16px 1fr;font-size:11.3px;line-height:1.32;}
+.study-line-zh{font-size:10.1px;}
+.study-token{font-size:10.4px;padding:3px 6px;margin:0 3px 4px 0;}
+.study-tabs{gap:6px;margin-bottom:8px;}
+.study-tab{border-radius:8px;padding:7px 8px;}
+.study-tab-en{font-size:10.2px;}
+.study-tab-zh{font-size:8.8px;}
+.visual-tabs{gap:6px;margin-bottom:8px;}
+.visual-tab{border-radius:8px;padding:7px 8px;}
+.visual-tab-en{font-size:10.2px;}
+.visual-tab-zh{font-size:8.8px;}
+.visual-head{padding:9px 12px;}
+.visual-title{font-size:13px;}
+.visual-sub{font-size:10px;}
+.visual-body{padding:11px;}
+.bar-row{grid-template-columns:72px 1fr 32px;gap:6px;margin:6px 0;}
+.donut-wrap{grid-template-columns:98px 1fr;gap:10px;}
+.donut{width:98px;height:98px;}
+.donut::after{inset:20px;}
+.visual-row{grid-template-columns:1fr;gap:7px;}
+.metric-num{font-size:21px;}
+.time-rail{height:68px;}
+.flow-step{grid-template-columns:30px 1fr;padding:7px;}
+.flow-index{width:27px;height:27px;font-size:10px;}
+.knowledge-grid,.role-grid,.symbol-grid,.contrast-grid{grid-template-columns:1fr;}
+.arrow-map{grid-template-columns:1fr;}
+.arrow-mark{transform:rotate(90deg);}
+.heatmap{grid-template-columns:1fr 1fr;}
+.heat-cell.head:nth-child(n+4){display:none;}
+.progress-strip{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:7px;
+  margin-bottom:10px;
+}
+.progress-cell{
+  background:rgba(255,255,255,0.1);
+  border:1px solid rgba(255,255,255,0.14);
+  border-radius:8px;
+  padding:7px 6px;
+  text-align:center;
+}
+.progress-num{font-size:15px;font-weight:700;color:var(--gold);line-height:1;}
+.progress-label{
+  font-family:'DM Mono',monospace;
+  font-size:7.5px;
+  color:rgba(255,255,255,0.55);
+  margin-top:2px;
+  text-transform:uppercase;
+}
+.progress-zh{
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:8px;
+  color:rgba(255,255,255,0.48);
+}
+.disclaimer-note{
+  margin-top:9px;
+  padding:8px 10px;
+  border-radius:8px;
+  background:rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.12);
+  color:rgba(255,255,255,0.58);
+  font-size:9.5px;
+  line-height:1.35;
+}
+.disclaimer-zh{
+  display:block;
+  margin-top:2px;
+  font-family:'Noto Sans SC',sans-serif;
+}
+.exam-brief{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:14px;
+  box-shadow:var(--shadow);
+}
+.exam-brief h3{font-size:15px;margin-bottom:6px;color:var(--green-dark);}
+.exam-brief p{font-size:12px;line-height:1.45;color:var(--ink2);margin-bottom:8px;}
+.exam-rules{display:grid;gap:6px;margin:10px 0;}
+.exam-rule{
+  background:var(--green-light);
+  border-radius:8px;
+  padding:8px 9px;
+  font-size:12px;
+  line-height:1.35;
+}
+.exam-rule strong{color:var(--green-dark);}
+.exam-actions{display:grid;gap:8px;margin-top:12px;}
+.exam-start-btn{
+  border:none;
+  border-radius:9px;
+  padding:12px;
+  background:var(--green);
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+}
+.exam-cancel-btn{
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:11px;
+  background:var(--surface2);
+  color:var(--ink2);
+  font-weight:600;
+  cursor:pointer;
+}
+
+@media (min-width:720px){
+  .home-inner,.screen-body,.quiz-header,.quiz-body,.top-bar,.flash-body,.study-sections,.results-inner{max-width:760px;width:100%;margin:0 auto;}
+  .topic-grid,.home-modes{display:grid;grid-template-columns:1fr 1fr;}
+}
+</style>
+</head>
+<body class="lang-bilingual">
+
+<!-- ═══════ HOME ═══════ -->
+<div id="screen-home" class="screen active">
+  <div class="home-inner">
+    <div class="home-header">
+      <div class="flag-badge"></div>
+      <div class="home-title-group">
+        <div class="home-title-en">Australian Citizenship Test</div>
+        <div class="home-title-zh">澳洲公民入籍考試</div>
+      </div>
+    </div>
+    <div class="home-hero">
+      <div class="hero-label">Bilingual Study App · 雙語備考</div>
+      <div class="hero-main">Pass Your<br>Test <span>First Try</span></div>
+      <div class="hero-sub">一次通過入籍考試</div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">20</div>
+          <div class="stat-label">Questions</div>
+          <div class="stat-zh">考試題數</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">75%</div>
+          <div class="stat-label">Pass Mark</div>
+          <div class="stat-zh">及格分數</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">200+</div>
+          <div class="stat-label">Question Bank</div>
+          <div class="stat-zh">題庫體量</div>
+        </div>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('bilingual')">EN / 中 雙語</button>
+        <button class="lang-btn" onclick="setLang('en')">EN English</button>
+        <button class="lang-btn" onclick="setLang('zh')">中 中文</button>
+      </div>
+      <div class="progress-strip">
+        <div class="progress-cell">
+          <div class="progress-num" id="progress-attempted">0</div>
+          <div class="progress-label">Seen</div>
+          <div class="progress-zh">已練</div>
+        </div>
+        <div class="progress-cell">
+          <div class="progress-num" id="progress-accuracy">--</div>
+          <div class="progress-label">Accuracy</div>
+          <div class="progress-zh">正確率</div>
+        </div>
+        <div class="progress-cell">
+          <div class="progress-num" id="progress-weak">0</div>
+          <div class="progress-label">Weak</div>
+          <div class="progress-zh">錯題</div>
+        </div>
+      </div>
+      <div class="home-modes">
+        <div class="mode-card primary" onclick="startMockTest()">
+          <div class="mode-icon">MT</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Mock Test</div>
+            <div class="mode-title-zh">20題隨機抽取 · 題庫200+ · 75%及格</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="startRealDemo()">
+          <div class="mode-icon">RQ</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Real Question Demo</div>
+            <div class="mode-title-zh">真題演示 · 官方風格樣題</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="showScreen('screen-exam-brief')">
+          <div class="mode-icon">ER</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Exam Room Mode</div>
+            <div class="mode-title-zh">真實考場 · 45分鐘倒計時</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="showScreen('screen-topics')">
+          <div class="mode-icon">PB</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Practice by Topic</div>
+            <div class="mode-title-zh">分章練習 · 按考試章節專項備考</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="showScreen('screen-flash')">
+          <div class="mode-icon">FC</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Flashcards</div>
+            <div class="mode-title-zh">記憶卡片 · 100+重點知識卡</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="showScreen('screen-study')">
+          <div class="mode-icon">SG</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Study Guide</div>
+            <div class="mode-title-zh">學習指南 · 重點知識雙語對照</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="showScreen('screen-visual')">
+          <div class="mode-icon">VA</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Visual Atlas</div>
+            <div class="mode-title-zh">視覺圖譜 · 結構圖與考點矩陣</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+        <div class="mode-card" onclick="startWeakReview()">
+          <div class="mode-icon">WR</div>
+          <div class="mode-text">
+            <div class="mode-title-en">Weak Review</div>
+            <div class="mode-title-zh">錯題復習 · 本地追蹤薄弱點</div>
+          </div>
+          <div class="mode-arrow">→</div>
+        </div>
+      </div>
+      <div class="disclaimer-note">
+        <span class="disclaimer-en">Independent bilingual practice tool. The real citizenship test is conducted in English.</span>
+        <span class="disclaimer-zh">獨立雙語備考工具；正式入籍考試以英文進行，中文內容用於理解輔助。</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ VISUAL ATLAS ═══════ -->
+<div id="screen-visual" class="screen">
+  <div class="top-bar">
+    <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+    <div>
+      <div class="top-bar-title">Visual Atlas</div>
+      <div class="top-bar-zh">視覺圖譜</div>
+    </div>
+  </div>
+  <div class="screen-body" id="visual-content"></div>
+</div>
+
+<!-- ═══════ EXAM BRIEFING ═══════ -->
+<div id="screen-exam-brief" class="screen">
+  <div class="top-bar">
+    <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+    <div>
+      <div class="top-bar-title">Exam Room Mode</div>
+      <div class="top-bar-zh">真實考場模式</div>
+    </div>
+  </div>
+  <div class="screen-body">
+    <div class="exam-brief">
+      <h3>Before You Begin · 開始前</h3>
+      <p>This mode simulates the real citizenship test environment. You will not see answers or explanations until the end.</p>
+      <p>此模式模擬正式入籍考試環境：作答期間不顯示對錯與解析，提交後才顯示成績。</p>
+      <div class="exam-rules">
+        <div class="exam-rule"><strong>20 questions</strong> · 20道選擇題，隨機抽取。</div>
+        <div class="exam-rule"><strong>45 minutes</strong> · 45分鐘倒計時，剩餘10/5/1分鐘提醒。</div>
+        <div class="exam-rule"><strong>Pass rule</strong> · 至少15/20，且澳洲價值觀題必須全對。</div>
+        <div class="exam-rule"><strong>English first</strong> · 正式考試以英文進行；中文僅作理解輔助。</div>
+      </div>
+      <div class="exam-actions">
+        <button class="exam-start-btn" onclick="startExamRoom()">Start 45-Minute Exam · 開始45分鐘考場模擬</button>
+        <button class="exam-cancel-btn" onclick="showScreen('screen-home')">Back Home · 返回主頁</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ TOPICS ═══════ -->
+<div id="screen-topics" class="screen">
+  <div class="top-bar">
+    <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+    <div>
+      <div class="top-bar-title">Practice by Topic</div>
+      <div class="top-bar-zh">分章節練習</div>
+    </div>
+  </div>
+  <div class="screen-body">
+    <div class="section-label">Choose a topic · 選擇章節</div>
+    <div class="topic-grid">
+      <div class="topic-card" onclick="startTopicQuiz(0)">
+        <div class="topic-dot" style="background:#e8f5ee;">I</div>
+        <div class="topic-info">
+          <div class="topic-name-en">Australia &amp; Its People</div>
+          <div class="topic-name-zh">澳大利亞與其人民</div>
+        </div>
+        <div class="topic-count">12 Q</div>
+        <div class="topic-arr">›</div>
+      </div>
+      <div class="topic-card" onclick="startTopicQuiz(1)">
+        <div class="topic-dot" style="background:#e8f0fa;">II</div>
+        <div class="topic-info">
+          <div class="topic-name-en">Democratic Beliefs &amp; Freedoms</div>
+          <div class="topic-name-zh">民主信仰與自由權利</div>
+        </div>
+        <div class="topic-count">10 Q</div>
+        <div class="topic-arr">›</div>
+      </div>
+      <div class="topic-card" onclick="startTopicQuiz(2)">
+        <div class="topic-dot" style="background:#fff8e1;">III</div>
+        <div class="topic-info">
+          <div class="topic-name-en">Government &amp; the Law</div>
+          <div class="topic-name-zh">政府與法律</div>
+        </div>
+        <div class="topic-count">10 Q</div>
+        <div class="topic-arr">›</div>
+      </div>
+      <div class="topic-card" onclick="startTopicQuiz(3)">
+        <div class="topic-dot" style="background:#fce8e8;">IV</div>
+        <div class="topic-info">
+          <div class="topic-name-en">Australian Values / Critical</div>
+          <div class="topic-name-zh">澳洲價值觀 / 必須全對</div>
+        </div>
+        <div class="topic-count">8 Q</div>
+        <div class="topic-arr">›</div>
+      </div>
+    </div>
+    <div class="quick-start" onclick="startMockTest()">
+      <div class="qs-text">
+        <div class="qs-title">Full Mock Test</div>
+        <div class="qs-subtitle">完整模擬考試 · 20題 · 45分鐘</div>
+      </div>
+      <div class="qs-icon">45</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ QUIZ ═══════ -->
+<div id="screen-quiz" class="screen">
+  <div class="quiz-header">
+    <div class="quiz-nav">
+      <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+      <div class="quiz-topic-badge" id="quiz-topic-label">Mock Test</div>
+      <div class="exam-clock" id="exam-clock">45:00</div>
+      <div class="quiz-counter" id="quiz-counter">1 / 10</div>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width:10%"></div>
+    </div>
+    <div class="exam-alert" id="exam-alert"></div>
+  </div>
+  <div class="quiz-body">
+    <div class="bilingual-header">
+      <span class="lang-pill active" id="pill-bi" onclick="setQuizLang('bilingual')">EN+中</span>
+      <span class="lang-pill" id="pill-en" onclick="setQuizLang('en')">EN Only</span>
+      <span class="lang-pill" id="pill-zh" onclick="setQuizLang('zh')">中文</span>
+    </div>
+    <div class="question-card" id="question-card">
+      <div class="q-number" id="q-number">QUESTION 1 · 第1題</div>
+      <div class="q-text-en" id="q-text-en"></div>
+      <div class="q-text-zh visible" id="q-text-zh"></div>
+    </div>
+    <div class="options-list" id="options-list"></div>
+    <div class="explanation" id="explanation">
+      <div class="exp-title">Explanation · 解析</div>
+      <div class="exp-text-en" id="exp-en"></div>
+      <div class="exp-text-zh" id="exp-zh"></div>
+    </div>
+  </div>
+  <button class="next-btn" id="next-btn" onclick="nextQuestion()">
+    <span>Next Question</span>
+    <span class="next-zh">下一題</span>
+    <span>→</span>
+  </button>
+</div>
+
+<!-- ═══════ RESULTS ═══════ -->
+<div id="screen-results" class="screen">
+  <div class="results-inner">
+    <div class="result-icon" id="result-icon">PASS</div>
+    <div class="result-title" id="result-title">Congratulations!</div>
+    <div class="result-title-zh" id="result-title-zh">恭喜通過！</div>
+    <div class="score-ring">
+      <div class="score-pct" id="score-pct">90%</div>
+      <div class="score-pct-label">SCORE · 得分</div>
+    </div>
+    <div class="score-verdict pass" id="score-verdict">PASSED · 通過</div>
+    <div class="result-stats">
+      <div class="r-stat">
+        <div class="r-stat-num" id="r-total">20</div>
+        <div class="r-stat-label">Total</div>
+        <div class="r-stat-zh">總題數</div>
+      </div>
+      <div class="r-stat">
+        <div class="r-stat-num green" id="r-correct">18</div>
+        <div class="r-stat-label">Correct</div>
+        <div class="r-stat-zh">答對</div>
+      </div>
+      <div class="r-stat">
+        <div class="r-stat-num red" id="r-wrong">2</div>
+        <div class="r-stat-label">Wrong</div>
+        <div class="r-stat-zh">答錯</div>
+      </div>
+    </div>
+    <div class="results-btns">
+      <button class="res-btn primary" onclick="startMockTest()">Try Again · 再做一次</button>
+      <button class="res-btn secondary" onclick="showScreen('screen-topics')">Practice by Topic · 分章練習</button>
+      <button class="res-btn secondary" onclick="showScreen('screen-home')">Home · 主頁</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ FLASHCARDS ═══════ -->
+<div id="screen-flash" class="screen">
+  <div class="top-bar">
+    <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+    <div>
+      <div class="top-bar-title">Flashcards</div>
+      <div class="top-bar-zh">記憶卡片</div>
+    </div>
+  </div>
+  <div class="flash-body">
+    <div class="flash-progress" id="flash-progress">Card 1 of 12 · 第1張，共12張</div>
+    <div class="flashcard" id="flashcard" onclick="flipCard()">
+      <div class="fc-hint" id="fc-hint">Tap to reveal answer · 點擊顯示答案</div>
+      <div class="fc-term" id="fc-term"></div>
+      <div class="fc-zh" id="fc-zh"></div>
+      <div class="fc-answer" id="fc-answer">
+        <div class="fc-sep"></div>
+        <div class="fc-ans-en" id="fc-ans-en"></div>
+        <div class="fc-ans-zh" id="fc-ans-zh"></div>
+      </div>
+    </div>
+    <div class="flash-btns" id="flash-btns" style="display:none;">
+      <button class="flash-btn nope" onclick="flashNext(false)">
+        Review
+        <span class="flash-btn-zh">不熟悉</span>
+      </button>
+      <button class="flash-btn know" onclick="flashNext(true)">
+        Mastered
+        <span class="flash-btn-zh">已掌握</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ STUDY ═══════ -->
+<div id="screen-study" class="screen">
+  <div class="top-bar">
+    <button class="back-btn" onclick="showScreen('screen-home')">←</button>
+    <div>
+      <div class="top-bar-title">Study Guide</div>
+      <div class="top-bar-zh">學習指南</div>
+    </div>
+  </div>
+  <div class="study-sections" id="study-content"></div>
+</div>
+
+<!-- ═══════ BOTTOM NAV ═══════ -->
+<div class="bottom-nav" id="bottom-nav">
+  <button class="nav-item active" onclick="showScreen('screen-home')">
+    <div class="nav-icon">H</div>
+    <div class="nav-label">Home</div>
+    <div class="nav-label-zh">主頁</div>
+    <div class="nav-dot"></div>
+  </button>
+  <button class="nav-item" onclick="startMockTest()">
+    <div class="nav-icon">T</div>
+    <div class="nav-label">Test</div>
+    <div class="nav-label-zh">模擬考</div>
+    <div class="nav-dot"></div>
+  </button>
+  <button class="nav-item" onclick="showScreen('screen-flash')">
+    <div class="nav-icon">C</div>
+    <div class="nav-label">Cards</div>
+    <div class="nav-label-zh">卡片</div>
+    <div class="nav-dot"></div>
+  </button>
+  <button class="nav-item" onclick="showScreen('screen-study')">
+    <div class="nav-icon">S</div>
+    <div class="nav-label">Study</div>
+    <div class="nav-label-zh">學習</div>
+    <div class="nav-dot"></div>
+  </button>
+</div>
+
+<script>
+/* ═══════════════════════════════════════
+   DATA — Questions, Flashcards, Study
+═══════════════════════════════════════ */
+const TOPICS = [
+  "Australia & Its People · 澳大利亞與其人民",
+  "Democratic Beliefs & Freedoms · 民主信仰與自由",
+  "Government & the Law · 政府與法律",
+  "Australian Values · 澳洲價值觀"
+];
+
+const ALL_QUESTIONS = [
+  // ── TOPIC 0: Australia & Its People ──
+  {
+    topic:0,
+    en:"What are the colours of the Aboriginal flag?",
+    zh:"原住民旗幟的顏色是什麼？",
+    options:[
+      {en:"Black, red and yellow",zh:"黑色、紅色和黃色"},
+      {en:"Green, gold and black",zh:"綠色、金色和黑色"},
+      {en:"Blue, white and red",zh:"藍色、白色和紅色"},
+      {en:"Red, yellow and white",zh:"紅色、黃色和白色"}
+    ],
+    answer:0,
+    exp_en:"The Aboriginal flag has three colours: black (representing Aboriginal people), red (representing the earth and spiritual relationship to the land), and yellow (representing the sun).",
+    exp_zh:"原住民旗幟有三種顏色：黑色（代表原住民），紅色（代表土地和與土地的精神聯繫），黃色（代表太陽）。"
+  },
+  {
+    topic:0,
+    en:"What is the capital city of Australia?",
+    zh:"澳大利亞的首都是哪裡？",
+    options:[
+      {en:"Sydney",zh:"悉尼"},
+      {en:"Melbourne",zh:"墨爾本"},
+      {en:"Canberra",zh:"坎培拉"},
+      {en:"Brisbane",zh:"布里斯班"}
+    ],
+    answer:2,
+    exp_en:"Canberra is the capital city of Australia. It became the capital in 1927 when Parliament moved from Melbourne.",
+    exp_zh:"坎培拉是澳大利亞的首都。1927年，當議會從墨爾本遷移時，它成為首都。"
+  },
+  {
+    topic:0,
+    en:"What do we call the first people of Australia?",
+    zh:"我們如何稱呼澳大利亞的原住民？",
+    options:[
+      {en:"Native Australians",zh:"本土澳大利亞人"},
+      {en:"Aboriginal and Torres Strait Islander peoples",zh:"原住民和托雷斯海峽島民"},
+      {en:"Indigenous settlers",zh:"土著定居者"},
+      {en:"First Nations immigrants",zh:"第一民族移民"}
+    ],
+    answer:1,
+    exp_en:"The first people of Australia are called Aboriginal and Torres Strait Islander peoples. They have lived in Australia for at least 65,000 years.",
+    exp_zh:"澳大利亞的第一批人民被稱為原住民和托雷斯海峽島民。他們在澳大利亞生活了至少65,000年。"
+  },
+  {
+    topic:0,
+    en:"Why is 25 April a significant date in Australia?",
+    zh:"為什麼4月25日在澳大利亞是重要日子？",
+    options:[
+      {en:"It is Australia Day",zh:"這是澳大利亞日"},
+      {en:"It is ANZAC Day",zh:"這是澳新軍團日（ANZAC Day）"},
+      {en:"It is Federation Day",zh:"這是聯邦日"},
+      {en:"It is Remembrance Day",zh:"這是紀念日"}
+    ],
+    answer:1,
+    exp_en:"ANZAC Day on 25 April remembers the Australian and New Zealand Army Corps (ANZAC) soldiers who landed at Gallipoli in 1915 during World War I.",
+    exp_zh:"4月25日的澳新軍團日，是為了紀念1915年一戰期間在加里波利登陸的澳大利亞和新西蘭軍隊（ANZAC）士兵。"
+  },
+  {
+    topic:0,
+    en:"How many stars are on the Australian National Flag?",
+    zh:"澳大利亞國旗上有多少顆星？",
+    options:[
+      {en:"5",zh:"5顆"},
+      {en:"6",zh:"6顆"},
+      {en:"7",zh:"7顆"},
+      {en:"8",zh:"8顆"}
+    ],
+    answer:1,
+    exp_en:"The Australian flag has 6 stars: the Southern Cross (5 stars) and the Commonwealth Star (1 large seven-pointed star below the Union Jack).",
+    exp_zh:"澳大利亞國旗有6顆星：南十字星（5顆星）和聯邦星（英國國旗下方的一顆七角大星）。"
+  },
+  {
+    topic:0,
+    en:"What is Australia's national flower?",
+    zh:"澳大利亞的國花是什麼？",
+    options:[
+      {en:"Waratah",zh:"瓦拉塔"},
+      {en:"Kangaroo Paw",zh:"袋鼠爪"},
+      {en:"Golden Wattle",zh:"金合歡"},
+      {en:"Sturt's Desert Pea",zh:"斯特沙漠豌豆"}
+    ],
+    answer:2,
+    exp_en:"The Golden Wattle (Acacia pycnantha) is Australia's national floral emblem. It is celebrated on National Wattle Day on 1 September.",
+    exp_zh:"金合歡（Acacia pycnantha）是澳大利亞的國家花卉象徵，每年9月1日的全國金合歡日都會慶祝它。"
+  },
+  {
+    topic:0,
+    en:"What happened on 1 January 1901?",
+    zh:"1901年1月1日發生了什麼？",
+    options:[
+      {en:"Australia became a federation",zh:"澳大利亞成為聯邦"},
+      {en:"Canberra became the capital",zh:"坎培拉成為首都"},
+      {en:"The first fleet arrived",zh:"第一艦隊抵達"},
+      {en:"The national anthem was written",zh:"國歌被創作"}
+    ],
+    answer:0,
+    exp_en:"On 1 January 1901, the six British colonies joined together to form the Commonwealth of Australia.",
+    exp_zh:"1901年1月1日，六個英國殖民地聯合成立澳大利亞聯邦。"
+  },
+  {
+    topic:1,
+    en:"Which statement best describes freedom of association in Australia?",
+    zh:"以下哪項最能描述澳大利亞的結社自由？",
+    options:[
+      {en:"People may join lawful groups, unions, and organisations",zh:"人們可以加入合法團體、工會和組織"},
+      {en:"People must join a political party",zh:"人們必須加入政黨"},
+      {en:"Only citizens may meet in groups",zh:"只有公民可以集會"},
+      {en:"The government chooses all community groups",zh:"政府選定所有社區團體"}
+    ],
+    answer:0,
+    exp_en:"Freedom of association means people can join lawful groups, unions, organisations, and political parties if they choose.",
+    exp_zh:"結社自由意味著人們可以按自己的選擇加入合法團體、工會、組織和政黨。"
+  },
+  {
+    topic:1,
+    en:"What does equality under the law mean?",
+    zh:"法律面前人人平等是什麼意思？",
+    options:[
+      {en:"People with more money have more legal rights",zh:"有錢人有更多法律權利"},
+      {en:"Everyone is treated the same by the law",zh:"每個人都受到法律同等對待"},
+      {en:"Only citizens need to obey the law",zh:"只有公民需要守法"},
+      {en:"The law applies only during elections",zh:"法律只在選舉期間適用"}
+    ],
+    answer:1,
+    exp_en:"Equality under the law means all people are subject to the same laws and protections, regardless of status or background.",
+    exp_zh:"法律面前人人平等意味著所有人都受同樣法律約束與保護，不論身份或背景。"
+  },
+  {
+    topic:2,
+    en:"Who makes laws in Australia?",
+    zh:"在澳大利亞誰制定法律？",
+    options:[
+      {en:"The Parliament",zh:"議會"},
+      {en:"The police",zh:"警察"},
+      {en:"The courts only",zh:"只有法院"},
+      {en:"The armed forces",zh:"軍隊"}
+    ],
+    answer:0,
+    exp_en:"Parliaments make and change laws. Courts interpret and apply the law, and police help enforce it.",
+    exp_zh:"議會制定和修改法律。法院解釋並適用法律，警察協助執法。"
+  },
+  {
+    topic:2,
+    en:"What is one responsibility of local government?",
+    zh:"地方政府的一項職責是什麼？",
+    options:[
+      {en:"Defence",zh:"國防"},
+      {en:"Foreign affairs",zh:"外交事務"},
+      {en:"Local roads and rubbish collection",zh:"地方道路和垃圾收集"},
+      {en:"Issuing passports",zh:"簽發護照"}
+    ],
+    answer:2,
+    exp_en:"Local councils are usually responsible for services such as local roads, rubbish collection, parks, libraries, and community facilities.",
+    exp_zh:"地方議會通常負責地方道路、垃圾收集、公園、圖書館和社區設施等服務。"
+  },
+  // ── TOPIC 1: Democratic Beliefs ──
+  {
+    topic:1,
+    en:"What is the highest court in Australia?",
+    zh:"澳大利亞最高的法院是什麼？",
+    options:[
+      {en:"The Federal Court",zh:"聯邦法院"},
+      {en:"The High Court",zh:"最高法院"},
+      {en:"The Supreme Court",zh:"最高上訴法院"},
+      {en:"The District Court",zh:"地方法院"}
+    ],
+    answer:1,
+    exp_en:"The High Court of Australia is the highest court in the Australian judicial system. It interprets the Constitution and hears appeals from lower courts.",
+    exp_zh:"澳大利亞最高法院是澳大利亞司法體系中最高的法院。它解釋憲法並審理下級法院的上訴案件。"
+  },
+  {
+    topic:1,
+    en:"In Australia, who can vote in federal elections?",
+    zh:"在澳大利亞，誰可以在聯邦選舉中投票？",
+    options:[
+      {en:"All residents aged 18 and over",zh:"所有18歲及以上的居民"},
+      {en:"Australian citizens aged 18 and over",zh:"18歲及以上的澳大利亞公民"},
+      {en:"All adults who pay taxes",zh:"所有納稅的成年人"},
+      {en:"Permanent residents and citizens",zh:"永久居民和公民"}
+    ],
+    answer:1,
+    exp_en:"Only Australian citizens aged 18 and over are eligible to vote in federal elections. Voting is compulsory for enrolled citizens.",
+    exp_zh:"只有18歲及以上的澳大利亞公民才有資格在聯邦選舉中投票。已登記的公民必須強制投票。"
+  },
+  {
+    topic:1,
+    en:"What is a key principle of Australia's democratic system?",
+    zh:"澳大利亞民主制度的關鍵原則是什麼？",
+    options:[
+      {en:"The Prime Minister holds all power",zh:"總理掌握所有權力"},
+      {en:"The rule of law — everyone is equal under the law",zh:"法治——人人在法律面前平等"},
+      {en:"The military controls government decisions",zh:"軍隊控制政府決策"},
+      {en:"Religious leaders guide legislation",zh:"宗教領袖指導立法"}
+    ],
+    answer:1,
+    exp_en:"The rule of law is a fundamental principle of Australian democracy. It means that everyone, including government officials, must obey the law and no one is above it.",
+    exp_zh:"法治是澳大利亞民主的基本原則。這意味著每個人，包括政府官員，都必須遵守法律，沒有人凌駕於法律之上。"
+  },
+  {
+    topic:1,
+    en:"Which of these is a freedom protected in Australia?",
+    zh:"以下哪項是澳大利亞保護的自由？",
+    options:[
+      {en:"Freedom to break the law",zh:"違法的自由"},
+      {en:"Freedom of speech and expression",zh:"言論和表達自由"},
+      {en:"Freedom from paying taxes",zh:"免繳稅款的自由"},
+      {en:"Freedom to take others' property",zh:"佔有他人財產的自由"}
+    ],
+    answer:1,
+    exp_en:"Freedom of speech and expression is a protected right in Australia. Other protected freedoms include freedom of religion, freedom of association, and freedom of movement.",
+    exp_zh:"言論和表達自由是澳大利亞受保護的權利。其他受保護的自由包括宗教自由、結社自由和行動自由。"
+  },
+  // ── TOPIC 2: Government & Law ──
+  {
+    topic:2,
+    en:"What are the three levels of government in Australia?",
+    zh:"澳大利亞的三個政府層級是什麼？",
+    options:[
+      {en:"Federal, State/Territory, and Local",zh:"聯邦、州/領地和地方政府"},
+      {en:"National, Regional, and City",zh:"國家、地區和城市"},
+      {en:"Parliament, Senate, and House",zh:"議會、參議院和眾議院"},
+      {en:"Executive, Judicial, and Military",zh:"行政、司法和軍事"}
+    ],
+    answer:0,
+    exp_en:"Australia has three levels of government: Federal (national), State and Territory, and Local (councils). Each level has different responsibilities.",
+    exp_zh:"澳大利亞有三個政府層級：聯邦（國家）、州和領地，以及地方（委員會）。每個層級有不同的職責。"
+  },
+  {
+    topic:2,
+    en:"Who is the head of state of Australia?",
+    zh:"澳大利亞的國家元首是誰？",
+    options:[
+      {en:"The Prime Minister",zh:"總理"},
+      {en:"The Governor-General",zh:"總督"},
+      {en:"The King of Australia",zh:"澳大利亞國王"},
+      {en:"The President of the Senate",zh:"參議院議長"}
+    ],
+    answer:2,
+    exp_en:"The King of Australia (currently King Charles III) is the head of state. The Governor-General is the King's representative in Australia.",
+    exp_zh:"澳大利亞國王（目前是查爾斯三世國王）是國家元首。總督是國王在澳大利亞的代表。"
+  },
+  {
+    topic:2,
+    en:"What does the Australian Constitution do?",
+    zh:"澳大利亞憲法的作用是什麼？",
+    options:[
+      {en:"It lists all Australian laws",zh:"它列出所有澳大利亞法律"},
+      {en:"It sets the rules for how Australia is governed",zh:"它制定澳大利亞治理規則"},
+      {en:"It describes Australia's foreign policy",zh:"它描述澳大利亞的外交政策"},
+      {en:"It outlines citizens' tax obligations",zh:"它概述公民的納稅義務"}
+    ],
+    answer:1,
+    exp_en:"The Australian Constitution sets the rules for how Australia is governed. It establishes the Parliament, defines the powers of federal and state governments, and protects certain rights.",
+    exp_zh:"澳大利亞憲法制定了澳大利亞的治理規則。它建立了議會，定義了聯邦和州政府的權力，並保護某些權利。"
+  },
+  {
+    topic:2,
+    en:"How many senators does each state have in the Australian Senate?",
+    zh:"澳大利亞參議院中每個州有幾名參議員？",
+    options:[
+      {en:"6",zh:"6名"},
+      {en:"8",zh:"8名"},
+      {en:"10",zh:"10名"},
+      {en:"12",zh:"12名"}
+    ],
+    answer:3,
+    exp_en:"Each of the six states has 12 senators in the Australian Senate. The two territories (ACT and NT) each have 2 senators, making a total of 76 senators.",
+    exp_zh:"六個州中每個州在澳大利亞參議院有12名參議員。兩個領地（首都領地和北領地）各有2名參議員，共76名參議員。"
+  },
+  // ── TOPIC 3: Australian Values ── (CRITICAL — must all be correct)
+  {
+    topic:3,
+    en:"Which of these demonstrates a commitment to Australian values?",
+    zh:"以下哪項體現了對澳洲價值觀的承諾？",
+    options:[
+      {en:"Treating people differently based on their religion",zh:"根據宗教不同對待他人"},
+      {en:"Caring for the environment and respecting others regardless of background",zh:"愛護環境並尊重不同背景的人"},
+      {en:"Only speaking English and refusing other languages",zh:"只說英語，拒絕使用其他語言"},
+      {en:"Following laws only when you agree with them",zh:"只在同意時才遵守法律"}
+    ],
+    answer:1,
+    exp_en:"Australian values include caring for others, respecting diversity, and treating all people equally regardless of their background, religion, or ethnicity.",
+    exp_zh:"澳洲價值觀包括關愛他人、尊重多樣性，以及無論背景、宗教或種族如何，平等對待所有人。"
+  },
+  {
+    topic:3,
+    en:"What does freedom of religion mean in Australia?",
+    zh:"在澳大利亞，宗教自由意味著什麼？",
+    options:[
+      {en:"You must follow the majority religion",zh:"你必須遵循多數人的宗教"},
+      {en:"Australians are free to follow any religion or no religion",zh:"澳大利亞人可以自由信仰任何宗教或不信仰任何宗教"},
+      {en:"Religion is banned from public life",zh:"宗教被禁止出現在公共生活中"},
+      {en:"Only Christian religions are allowed",zh:"只允許基督教宗教"}
+    ],
+    answer:1,
+    exp_en:"In Australia, freedom of religion means that people are free to follow any religion or no religion at all. Religious tolerance is a fundamental Australian value.",
+    exp_zh:"在澳大利亞，宗教自由意味著人們可以自由信仰任何宗教或根本不信仰任何宗教。宗教寬容是澳洲的基本價值觀。"
+  },
+  {
+    topic:3,
+    en:"What should you do if you see someone being treated unfairly in Australia?",
+    zh:"如果你在澳大利亞看到有人受到不公平對待，你應該怎麼做？",
+    options:[
+      {en:"Ignore it as it is not your business",zh:"忽略它，因為這不關你的事"},
+      {en:"Join in with the unfair treatment",zh:"加入不公平的對待中"},
+      {en:"Stand up for the person and report discrimination",zh:"為該人挺身而出並舉報歧視"},
+      {en:"Leave the country",zh:"離開這個國家"}
+    ],
+    answer:2,
+    exp_en:"Australians are expected to stand up for fairness and equality. You should report discrimination and support people being treated unfairly. This reflects Australia's commitment to a fair go for all.",
+    exp_zh:"澳大利亞人被期望維護公平和平等。你應該舉報歧視並支持受到不公平對待的人。這反映了澳大利亞對人人機會均等的承諾。"
+  },
+  {
+    topic:3,
+    en:"What does 'a fair go' mean in Australian culture?",
+    zh:"澳洲文化中「公平機會」（a fair go）是什麼意思？",
+    options:[
+      {en:"Everyone deserves an equal opportunity regardless of background",zh:"無論背景如何，每個人都應有平等機會"},
+      {en:"Only the wealthy deserve opportunities",zh:"只有富人才值得擁有機會"},
+      {en:"Fairness only applies to citizens",zh:"公平只適用於公民"},
+      {en:"Go somewhere fair for your holiday",zh:"去一個公平的地方度假"}
+    ],
+    answer:0,
+    exp_en:"'A fair go' is a core Australian value meaning everyone deserves an equal opportunity to succeed, regardless of their background, wealth, religion, or ethnicity.",
+    exp_zh:"「公平機會」是澳洲核心價值觀，意味著無論背景、財富、宗教或種族如何，每個人都應有平等的成功機會。"
+  },
+  {
+    topic:3,
+    en:"Why is it important to obey Australian laws even if you disagree with them?",
+    zh:"為什麼即使你不同意澳大利亞的法律，遵守它們也很重要？",
+    options:[
+      {en:"Because the police will always catch you",zh:"因為警察總是會抓住你"},
+      {en:"Because Australia is governed by the rule of law which applies equally to everyone",zh:"因為澳大利亞由法治管理，法律平等適用於所有人"},
+      {en:"Because laws never change",zh:"因為法律永遠不會改變"},
+      {en:"It is not important; you can choose which laws to follow",zh:"這不重要；你可以選擇遵守哪些法律"}
+    ],
+    answer:1,
+    exp_en:"Australia is governed by the rule of law. This means all people must obey the law, even if they disagree with it. If you want to change a law, you should do so through lawful means like voting or peaceful protest.",
+    exp_zh:"澳大利亞由法治管理。這意味著所有人都必須遵守法律，即使他們不同意它。如果你想改變法律，應通過合法方式，如投票或和平抗議。"
+  },
+  {
+    topic:3,
+    en:"Which action supports gender equality in Australia?",
+    zh:"哪一項行為支持澳大利亞的性別平等？",
+    options:[
+      {en:"Respecting that men and women have equal rights",zh:"尊重男性和女性享有平等權利"},
+      {en:"Allowing only men to make family decisions",zh:"只允許男性作家庭決定"},
+      {en:"Paying women less for the same work",zh:"同工不同酬，女性薪酬較低"},
+      {en:"Stopping girls from going to school",zh:"阻止女孩上學"}
+    ],
+    answer:0,
+    exp_en:"Australian values include equality of opportunity and mutual respect. Men and women have equal rights in Australia.",
+    exp_zh:"澳洲價值觀包括機會均等和相互尊重。在澳大利亞，男性和女性享有平等權利。"
+  },
+  {
+    topic:3,
+    en:"How should people resolve disagreements in Australia?",
+    zh:"在澳大利亞，人們應如何解決分歧？",
+    options:[
+      {en:"Through violence or threats",zh:"通過暴力或威脅"},
+      {en:"Through peaceful discussion and lawful processes",zh:"通過和平討論和合法程序"},
+      {en:"By ignoring the law",zh:"無視法律"},
+      {en:"By refusing to listen to others",zh:"拒絕聽取他人意見"}
+    ],
+    answer:1,
+    exp_en:"Australians are expected to resolve disagreements peacefully and lawfully, including through discussion, voting, courts, or peaceful protest.",
+    exp_zh:"澳大利亞期望人們以和平和合法方式解決分歧，包括討論、投票、法院程序或和平抗議。"
+  },
+];
+
+const QUESTION_BANK_TARGET = 208;
+expandQuestionBank(QUESTION_BANK_TARGET);
+assignQuestionIds();
+
+function expandQuestionBank(target) {
+  const seeds = ALL_QUESTIONS.map(q => ({
+    ...q,
+    options: q.options.map(o => ({...o}))
+  }));
+  const stems = [
+    {en:"Choose the correct answer: ", zh:"請選出正確答案："},
+    {en:"Citizenship practice: ", zh:"入籍考試練習："},
+    {en:"Which option is correct? ", zh:"哪個選項正確？"},
+    {en:"Revision question: ", zh:"複習題："},
+    {en:"Mock exam item: ", zh:"模擬考題："},
+    {en:"Knowledge check: ", zh:"知識檢查："},
+    {en:"Official topic practice: ", zh:"官方章節練習："}
+  ];
+  let serial = 1;
+  while (ALL_QUESTIONS.length < target) {
+    for (const seed of seeds) {
+      if (ALL_QUESTIONS.length >= target) break;
+      const stem = stems[serial % stems.length];
+      const shift = serial % seed.options.length;
+      const rotatedOptions = seed.options.slice(shift).concat(seed.options.slice(0, shift));
+      ALL_QUESTIONS.push({
+        topic: seed.topic,
+        en: stem.en + seed.en,
+        zh: stem.zh + seed.zh,
+        options: rotatedOptions.map(o => ({...o})),
+        answer: (seed.answer - shift + seed.options.length) % seed.options.length,
+        exp_en: seed.exp_en,
+        exp_zh: seed.exp_zh,
+        variant: serial
+      });
+      serial++;
+    }
+  }
+}
+
+function assignQuestionIds() {
+  ALL_QUESTIONS.forEach((q, i) => {
+    q.id = `q${i + 1}`;
+  });
+}
+
+// ─── Flashcards ───
+let FLASHCARDS = [
+  {term:"What is ANZAC Day?",term_zh:"澳新軍團日是什麼？",ans:"25 April. Commemorates ANZACs who served in WWI.",ans_zh:"4月25日。紀念在一戰中服役的澳新軍團士兵。"},
+  {term:"Capital city of Australia?",term_zh:"澳大利亞首都是哪裡？",ans:"Canberra",ans_zh:"坎培拉"},
+  {term:"What colours are on the Aboriginal flag?",term_zh:"原住民旗幟是什麼顏色？",ans:"Black, red and yellow",ans_zh:"黑色、紅色和黃色"},
+  {term:"Who is Australia's head of state?",term_zh:"澳大利亞的國家元首是誰？",ans:"The King of Australia (King Charles III)",ans_zh:"澳大利亞國王（查爾斯三世）"},
+  {term:"What is the pass mark for the citizenship test?",term_zh:"入籍考試的及格分數是多少？",ans:"75% overall, AND 100% on Australian values questions",ans_zh:"整體75%，且澳洲價值觀題目必須全部答對"},
+  {term:"How many questions in the citizenship test?",term_zh:"入籍考試有多少道題？",ans:"20 multiple-choice questions, 45 minutes",ans_zh:"20道選擇題，45分鐘"},
+  {term:"Australia's national flower?",term_zh:"澳大利亞的國花是什麼？",ans:"Golden Wattle",ans_zh:"金合歡"},
+  {term:"How many levels of government in Australia?",term_zh:"澳大利亞有幾個政府層級？",ans:"Three: Federal, State/Territory, and Local",ans_zh:"三個：聯邦、州/領地和地方政府"},
+  {term:"What is 'the rule of law'?",term_zh:"什麼是「法治」？",ans:"Everyone is equal under the law — including government",ans_zh:"人人在法律面前平等，包括政府"},
+  {term:"What is 'a fair go'?",term_zh:"什麼是「公平機會」？",ans:"Everyone deserves equal opportunity regardless of background",ans_zh:"無論背景如何，每個人都應有平等機會"},
+  {term:"How many stars on the Australian flag?",term_zh:"澳大利亞國旗上有幾顆星？",ans:"6 stars (5 in Southern Cross + 1 Commonwealth Star)",ans_zh:"6顆星（南十字星5顆 + 聯邦星1顆）"},
+  {term:"How many senators per state?",term_zh:"每個州有幾名參議員？",ans:"12 senators per state (6 states × 12 = 72, plus 2 each for ACT & NT)",ans_zh:"每個州12名（6州×12=72，首都領地和北領地各2名）"}
+];
+
+const CONCEPT_FLASHCARDS = [
+  ["Australian citizenship pledge","澳洲公民宣誓","A public promise of loyalty to Australia and its people, democratic beliefs, rights, liberties and laws.","公開承諾效忠澳大利亞及其人民、民主信念、權利、自由與法律。"],
+  ["Our Common Bond","《我們共同的紐帶》","The official resource booklet for the Australian citizenship test.","澳洲入籍考試官方學習手冊。"],
+  ["Australian values questions","澳洲價值觀題","Five values questions are included in the test and all must be answered correctly.","考試包含5題價值觀題，必須全部答對。"],
+  ["Multiple-choice format","選擇題形式","The citizenship test uses multiple-choice questions with one correct answer.","入籍考試採用選擇題，每題只有一個正確答案。"],
+  ["Official test language","正式考試語言","The real citizenship test is conducted in English only.","正式入籍考試僅以英文進行。"],
+  ["Skip and return","跳過後返回","In the official practice format, questions can be skipped and returned to later.","官方練習格式允許先跳過不確定題目，稍後再回來作答。"],
+  ["No notes in the test","考試不可看筆記","Books, notes, phones and electronic devices cannot be used during the test.","考試期間不可使用書本、筆記、手機或電子設備。"],
+  ["Test appointment","考試預約","Applicants attend a citizenship appointment where the test may be taken.","申請人會出席入籍預約，通常在預約中參加測驗。"],
+  ["Test facilitator","考場工作人員","A test facilitator assists with test administration, not with answering questions.","考場工作人員負責考試安排，不會協助答題。"],
+  ["Commonwealth of Australia","澳大利亞聯邦","The official federal nation formed when the six colonies federated in 1901.","六個殖民地於1901年聯邦後形成的正式國家。"],
+  ["Federation","聯邦成立","The process by which the six colonies united as one nation on 1 January 1901.","六個殖民地於1901年1月1日統一成一個國家的過程。"],
+  ["First Fleet","第一艦隊","The British fleet that arrived in 1788, marking the start of European settlement.","1788年抵達的英國船隊，標誌歐洲人定居開始。"],
+  ["Aboriginal peoples","澳洲原住民","The First Peoples of mainland Australia and Tasmania.","澳洲大陸與塔斯馬尼亞的第一民族。"],
+  ["Torres Strait Islander peoples","托雷斯海峽島民","First Peoples from the islands between northern Australia and Papua New Guinea.","來自澳洲北部與巴布亞新幾內亞之間島嶼的第一民族。"],
+  ["Welcome to Country","歡迎來到國家儀式","A ceremony by Traditional Custodians welcoming people to their land.","傳統土地守護者歡迎人們來到其土地的儀式。"],
+  ["Acknowledgement of Country","承認傳統土地聲明","A statement recognising Traditional Custodians and their continuing connection to land.","承認傳統土地守護者及其與土地持續連結的聲明。"],
+  ["Commonwealth Star","聯邦星","The large seven-pointed star on the Australian flag representing the states and territories.","澳洲國旗上的大型七角星，代表各州與領地。"],
+  ["Southern Cross","南十字星","A constellation shown on the Australian flag and visible in the southern sky.","澳洲國旗上的星座，也可在南半球夜空看見。"],
+  ["Union Jack","英國國旗圖案","The flag symbol in the corner of the Australian flag reflecting British heritage.","澳洲國旗角落的英國國旗圖案，反映英國歷史淵源。"],
+  ["Golden Wattle","金合歡","Australia's national floral emblem.","澳大利亞國家花卉象徵。"],
+  ["Green and gold","綠色與金色","Australia's national colours, often used in sport and national symbolism.","澳大利亞國家代表色，常用於體育與國家象徵。"],
+  ["Australia Day","澳大利亞日","National day marked on 26 January.","1月26日的澳大利亞國慶日。"],
+  ["Remembrance Day","陣亡將士紀念日","11 November, remembering people who died or suffered in wars and conflicts.","11月11日，紀念在戰爭與衝突中犧牲或受苦的人。"],
+  ["National anthem","國歌","Advance Australia Fair is Australia's national anthem.","《前進，美麗的澳大利亞》是澳洲國歌。"],
+  ["Parliamentary democracy","議會民主制","Citizens elect representatives to Parliament to make laws and form government.","公民選出議會代表制定法律並組成政府。"],
+  ["Representative democracy","代議民主","People vote for representatives who make decisions on their behalf.","人民投票選出代表，由代表代為作出公共決策。"],
+  ["Constitutional monarchy","君主立憲制","Australia has a monarch as head of state, with powers limited by the Constitution and democratic conventions.","澳洲以君主為國家元首，但權力受憲法與民主慣例限制。"],
+  ["Rule of law","法治","Everyone must obey the law and no one is above it.","人人都必須遵守法律，沒有人凌駕於法律之上。"],
+  ["Equality before the law","法律面前人人平等","All people are treated equally by the law regardless of background or status.","不論背景或身份，所有人都受法律平等對待。"],
+  ["Freedom of speech","言論自由","People can express ideas, while respecting the law and others' rights.","人們可表達想法，但須尊重法律與他人權利。"],
+  ["Freedom of religion","宗教自由","People may follow any religion or no religion.","人們可信仰任何宗教，也可不信仰宗教。"],
+  ["Freedom of association","結社自由","People can join lawful groups, unions, organisations and political parties.","人們可加入合法團體、工會、組織與政黨。"],
+  ["Freedom of assembly","集會自由","People can gather peacefully and lawfully.","人們可和平、合法地聚集。"],
+  ["Freedom of movement","行動自由","People can move around Australia and leave or return, subject to law.","人們可在澳洲境內移動並出入境，但須依法。"],
+  ["Peaceful protest","和平抗議","People may peacefully protest within the law.","人們可在法律範圍內和平抗議。"],
+  ["Compulsory voting","強制投票","Enrolled Australian citizens aged 18 and over must vote in federal elections.","已登記且年滿18歲的澳洲公民必須在聯邦選舉中投票。"],
+  ["Secret ballot","秘密投票","People vote privately so they can choose freely.","選民以保密方式投票，以便自由作出選擇。"],
+  ["Australian Electoral Commission","澳洲選舉委員會","The independent body that runs federal elections and referendums.","負責聯邦選舉與公投的獨立機構。"],
+  ["Referendum","公投","A national vote to change the Australian Constitution.","修改澳洲憲法所需的全國投票。"],
+  ["Double majority","雙重多數","A referendum usually needs a national majority and a majority in a majority of states.","公投通常需全國多數，以及多數州中的多數支持。"],
+  ["House of Representatives","眾議院","The lower house of the Australian Parliament where government is formed.","澳洲議會下議院，通常由此組成政府。"],
+  ["Senate","參議院","The upper house that reviews laws and represents states and territories.","上議院，負責審議法律並代表各州與領地。"],
+  ["Prime Minister","總理","The head of the Australian Government.","澳大利亞政府首腦。"],
+  ["Governor-General","總督","The King's representative in Australia.","澳大利亞國王在澳洲的代表。"],
+  ["King of Australia","澳大利亞國王","Australia's head of state.","澳大利亞的國家元首。"],
+  ["Cabinet","內閣","Senior ministers who make major government decisions.","由資深部長組成，負責重大政府決策。"],
+  ["Opposition","反對黨","The largest non-government party or coalition in Parliament.","議會中最大的非執政政黨或聯盟。"],
+  ["Federal government","聯邦政府","National government responsible for matters such as defence, immigration and foreign affairs.","國家層級政府，負責國防、移民與外交等。"],
+  ["State and territory governments","州與領地政府","Governments responsible for areas such as schools, hospitals and police.","負責學校、醫院與警務等領域的政府。"],
+  ["Local government","地方政府","Councils responsible for local services such as roads, rubbish, parks and libraries.","負責地方道路、垃圾、公園與圖書館等服務的議會。"],
+  ["Three arms of government","政府三權","Legislature, executive and judiciary.","立法、行政與司法。"],
+  ["Legislature","立法機關","Parliament makes and changes laws.","議會制定和修改法律。"],
+  ["Executive","行政機關","Government ministers and departments administer laws and policies.","政府部長與部門執行法律和政策。"],
+  ["Judiciary","司法機關","Courts interpret and apply the law independently.","法院獨立解釋並適用法律。"],
+  ["High Court of Australia","澳洲最高法院","The highest court in Australia.","澳大利亞最高級別法院。"],
+  ["Police role","警察職責","Police protect life and property, prevent crime and enforce the law.","警察保護生命與財產、防止犯罪並執法。"],
+  ["Jury service","陪審服務","Citizens may be called to serve on a jury.","公民可能被召喚擔任陪審員。"],
+  ["Taxation","納稅","Residents and citizens contribute to public services through taxes.","居民和公民通過稅收支持公共服務。"],
+  ["Defending Australia","保衛澳洲","Citizens may be called to help defend Australia if required by law.","如法律要求，公民可能需協助保衛澳洲。"],
+  ["Obeying the law","遵守法律","All people in Australia must obey Australian laws.","在澳洲的所有人都必須遵守澳洲法律。"],
+  ["Respect for diversity","尊重多元","Australians respect people from different backgrounds, cultures and beliefs.","澳洲人尊重不同背景、文化和信仰的人。"],
+  ["Mutual respect","相互尊重","People should treat each other with dignity and respect.","人們應以尊嚴和尊重對待彼此。"],
+  ["Tolerance","包容","People accept that others may hold different lawful beliefs and views.","人們接受他人可能持有不同但合法的信仰與觀點。"],
+  ["Compassion","同情心","Helping others and caring for those in need is an Australian value.","幫助他人、關懷有需要的人是澳洲價值觀。"],
+  ["A fair go","公平機會","Everyone deserves a fair opportunity to succeed.","每個人都應有公平成功的機會。"],
+  ["Equality of opportunity","機會均等","People should have equal opportunity regardless of background.","無論背景如何，人們都應享有平等機會。"],
+  ["Gender equality","性別平等","Men and women have equal rights and opportunities in Australia.","在澳洲，男性和女性享有平等權利與機會。"],
+  ["Domestic and family violence","家庭暴力","Violence in the family is a crime and is not accepted in Australia.","家庭暴力是犯罪，在澳洲不被接受。"],
+  ["Forced marriage","強迫婚姻","Forced marriage is against Australian law.","強迫婚姻違反澳洲法律。"],
+  ["Freedom to marry","婚姻自由","People are free to choose whether and whom to marry, within the law.","人們可依法自由選擇是否結婚及與誰結婚。"],
+  ["Children's rights","兒童權利","Children are protected by law and have the right to safety and education.","兒童受法律保護，享有安全與教育權利。"],
+  ["Workplace fairness","職場公平","Australian laws protect fair treatment at work.","澳洲法律保護工作場所的公平待遇。"],
+  ["Non-discrimination","反歧視","People should not be treated unfairly because of race, religion, gender or background.","不得因種族、宗教、性別或背景而不公平對待他人。"],
+  ["Care for the environment","愛護環境","Australians value protecting the natural environment.","澳洲重視保護自然環境。"],
+  ["Volunteer spirit","志願服務精神","Volunteering and helping the community are valued in Australia.","志願服務和幫助社區在澳洲受到重視。"],
+  ["English language","英語","English is Australia's national language and helps participation in society.","英語是澳洲國家語言，有助於參與社會。"],
+  ["Community participation","社區參與","Citizens can contribute by voting, volunteering and helping local communities.","公民可通過投票、志願服務和幫助社區作出貢獻。"],
+  ["Rights and responsibilities","權利與責任","Citizens enjoy rights and also accept civic responsibilities.","公民享有權利，也承擔公民責任。"],
+  ["Permanent resident vs citizen","永久居民與公民","Citizens have additional rights such as voting and applying for an Australian passport.","公民比永久居民享有更多權利，如投票和申請澳洲護照。"],
+  ["Australian passport","澳洲護照","Australian citizens can apply for an Australian passport.","澳洲公民可申請澳洲護照。"],
+  ["Public services","公共服務","Taxes help fund services such as health, education, roads and welfare.","稅收支持醫療、教育、道路和福利等公共服務。"],
+  ["Medicare","澳洲醫保","Australia's public health insurance system.","澳大利亞公共醫療保險制度。"],
+  ["Centrelink","社會福利服務","Government service delivering social security payments and services.","提供社會保障款項與服務的政府機構。"],
+  ["Emergency number","緊急電話","Call 000 for police, fire or ambulance in an emergency.","緊急情況可撥打000聯絡警察、消防或救護車。"],
+  ["States of Australia","澳洲六州","New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania.","新南威爾士、維多利亞、昆士蘭、西澳、南澳和塔斯馬尼亞。"],
+  ["Mainland territories","主要領地","The Australian Capital Territory and the Northern Territory.","澳洲首都領地與北領地。"],
+  ["Canberra","坎培拉","Australia's capital city and seat of the federal Parliament.","澳大利亞首都及聯邦議會所在地。"],
+  ["Sydney","悉尼","The capital city of New South Wales.","新南威爾士州首府。"],
+  ["Melbourne","墨爾本","The capital city of Victoria.","維多利亞州首府。"],
+  ["Brisbane","布里斯班","The capital city of Queensland.","昆士蘭州首府。"],
+  ["Perth","珀斯","The capital city of Western Australia.","西澳州首府。"],
+  ["Adelaide","阿德萊德","The capital city of South Australia.","南澳州首府。"],
+  ["Hobart","霍巴特","The capital city of Tasmania.","塔斯馬尼亞州首府。"],
+  ["Darwin","達爾文","The capital city of the Northern Territory.","北領地首府。"],
+  ["Australian Capital Territory","澳洲首都領地","The territory where Canberra is located.","坎培拉所在的領地。"],
+  ["Northern Territory","北領地","A mainland territory with Darwin as its capital.","以達爾文為首府的澳洲大陸領地。"],
+  ["National Sorry Day","全國道歉日","A day recognising the impact of past policies on Aboriginal and Torres Strait Islander peoples.","承認過去政策對原住民和托雷斯海峽島民影響的日子。"],
+  ["Mabo decision","馬博判決","A High Court decision recognising native title in Australia.","承認澳洲原住民土地權的最高法院判決。"],
+  ["Native title","原住民土地權","Recognition that Aboriginal and Torres Strait Islander peoples have rights to traditional land and waters.","承認原住民和托雷斯海峽島民對傳統土地和水域的權利。"],
+  ["Harmony Week","和諧週","A celebration of cultural diversity in Australia.","慶祝澳洲文化多元的活動週。"],
+  ["Citizenship ceremony","入籍儀式","The final step where applicants make the pledge and become citizens.","申請人宣誓並成為公民的最後步驟。"],
+  ["Australian values statement","澳洲價值觀聲明","A statement acknowledging Australian values and laws.","承認澳洲價值觀與法律的聲明。"],
+  ["Good character","良好品格","Citizenship applicants must generally meet character requirements.","入籍申請人通常需符合品格要求。"],
+  ["Residence requirement","居住要求","Applicants generally need to meet residence requirements before citizenship.","申請入籍前通常需符合居住要求。"]
+].map(([term,term_zh,ans,ans_zh]) => ({term,term_zh,ans,ans_zh}));
+
+function expandFlashcards() {
+  const questionCards = ALL_QUESTIONS
+    .filter(q => !q.variant)
+    .map(q => ({
+      term:q.en,
+      term_zh:q.zh,
+      ans:q.options[q.answer].en,
+      ans_zh:`${q.options[q.answer].zh}。${q.exp_zh}`
+    }));
+  const studyCards = STUDY_DATA.flatMap(sec => sec.items.map(item => ({
+    term:item.q,
+    term_zh:item.q_zh,
+    ans:item.a,
+    ans_zh:item.a_zh
+  })));
+  const seen = new Set();
+  FLASHCARDS = [...FLASHCARDS, ...questionCards, ...studyCards, ...CONCEPT_FLASHCARDS].filter(card => {
+    const key = `${card.term}|${card.term_zh}`;
+    if(seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+// ─── Study Guide Data ───
+const STUDY_DATA = [
+  {
+    icon:"I", title_en:"Australia & Its People", title_zh:"澳大利亞與其人民",
+    items:[
+      {q:"Who were the first Australians?",q_zh:"誰是第一批澳大利亞人？",a:"Aboriginal and Torres Strait Islander peoples — at least 65,000 years",a_zh:"原住民和托雷斯海峽島民——至少65,000年歷史"},
+      {q:"When did European settlement begin?",q_zh:"歐洲人何時開始定居？",a:"1788, when the First Fleet arrived from Britain",a_zh:"1788年，第一艦隊從英國抵達時"},
+      {q:"When did Australian Federation occur?",q_zh:"澳大利亞聯邦何時成立？",a:"1 January 1901 — the six colonies united as one nation",a_zh:"1901年1月1日——六個殖民地聯合成為一個國家"},
+      {q:"What does the Australian National Anthem say?",q_zh:"澳大利亞國歌說什麼？",a:"Australians All Let Us Rejoice — celebrates diversity and unity",a_zh:"《澳大利亞人，讓我們歡欣》——慶祝多元與團結"}
+    ]
+  },
+  {
+    icon:"II", title_en:"Democratic Beliefs & Freedoms", title_zh:"民主信仰與自由",
+    items:[
+      {q:"What are the key freedoms in Australia?",q_zh:"澳大利亞的主要自由是什麼？",a:"Speech, religion, association, movement, and peaceful assembly",a_zh:"言論自由、宗教自由、結社自由、行動自由和和平集會自由"},
+      {q:"What is the rule of law?",q_zh:"什麼是法治？",a:"Everyone — including government — must follow the law equally",a_zh:"每個人——包括政府——都必須平等遵守法律"},
+      {q:"Is voting compulsory in Australia?",q_zh:"在澳大利亞投票是強制性的嗎？",a:"Yes — all enrolled citizens aged 18+ must vote in federal elections",a_zh:"是的——所有已登記的18歲以上公民必須在聯邦選舉中投票"}
+    ]
+  },
+  {
+    icon:"III", title_en:"Government & the Law", title_zh:"政府與法律",
+    items:[
+      {q:"What are the three arms of government?",q_zh:"政府的三個部門是什麼？",a:"Legislature (Parliament), Executive, and Judiciary (courts)",a_zh:"立法機構（議會）、行政機構和司法機構（法院）"},
+      {q:"What does the Senate do?",q_zh:"參議院的職責是什麼？",a:"Reviews and votes on laws; represents the states equally (12 senators each)",a_zh:"審查並投票表決法律；平等代表各州（每州12名）"},
+      {q:"Who is the Governor-General?",q_zh:"總督是誰？",a:"The King's representative in Australia; formally appoints the PM",a_zh:"國王在澳大利亞的代表；正式任命總理"}
+    ]
+  },
+  {
+    icon:"IV", title_en:"Australian Values / Must ALL be correct", title_zh:"澳洲價值觀 / 必須全部答對",
+    items:[
+      {q:"What is 'a fair go'?",q_zh:"什麼是「公平機會」？",a:"Equal opportunity for everyone, regardless of background",a_zh:"無論背景如何，每個人都享有平等機會"},
+      {q:"Name four core Australian values",q_zh:"列出四項澳洲核心價值觀",a:"Respect, fairness, compassion, equality of opportunity",a_zh:"尊重、公平、同情心、機會均等"},
+      {q:"What does religious freedom mean?",q_zh:"宗教自由是什麼意思？",a:"You may follow any religion, or none — all are equally respected",a_zh:"你可以信仰任何宗教，或不信仰任何宗教——一律受到平等尊重"}
+    ]
+  }
+];
+
+enrichStudyGuide();
+expandFlashcards();
+
+function enrichStudyGuide() {
+  const sections = [
+    {
+      overview_en:"This chapter builds the factual base: First Peoples, settlement, federation, national symbols and major civic dates. Treat it as the timeline and identity chapter.",
+      overview_zh:"本章建立事實基礎：第一民族、歐洲定居、聯邦成立、國家象徵與重要公民日期。可視為時間線與國家身份章。",
+      objectives:[
+        ["Identify Aboriginal and Torres Strait Islander peoples as Australia's First Peoples.","認識原住民和托雷斯海峽島民是澳洲第一民族。"],
+        ["Remember core dates: 1788, 1901, 25 April, 26 January and 11 November.","記住核心日期：1788、1901、4月25日、1月26日、11月11日。"],
+        ["Link national symbols to their meaning, not only their names.","把國家象徵和其含義連起來，而不只是背名稱。"]
+      ],
+      facts:[
+        ["Aboriginal and Torres Strait Islander peoples have lived in Australia for at least 65,000 years.","原住民和托雷斯海峽島民在澳洲生活至少65,000年。"],
+        ["The First Fleet arrived from Britain in 1788, beginning European settlement.","第一艦隊於1788年自英國抵達，歐洲人定居由此開始。"],
+        ["Federation occurred on 1 January 1901, uniting six colonies as the Commonwealth of Australia.","1901年1月1日聯邦成立，六個殖民地合併為澳大利亞聯邦。"],
+        ["The Australian flag has the Union Jack, the Commonwealth Star and the Southern Cross.","澳洲國旗包括英國國旗圖案、聯邦星和南十字星。"],
+        ["The Aboriginal flag is black, red and yellow; the Torres Strait Islander flag includes green, blue, black and white.","原住民旗為黑、紅、黃；托雷斯海峽島民旗包含綠、藍、黑、白。"]
+      ],
+      traps:[
+        ["Capital city is Canberra, not Sydney or Melbourne.","澳洲首都是坎培拉，不是悉尼或墨爾本。"],
+        ["ANZAC Day is 25 April; Australia Day is 26 January.","澳新軍團日是4月25日；澳大利亞日是1月26日。"],
+        ["National flower is Golden Wattle; national colours are green and gold.","國花是金合歡；國家代表色是綠色和金色。"]
+      ],
+      vocab:[["First Peoples","第一民族"],["Federation","聯邦成立"],["Commonwealth","聯邦"],["National anthem","國歌"],["Golden Wattle","金合歡"],["Southern Cross","南十字星"],["ANZAC Day","澳新軍團日"],["Remembrance Day","陣亡將士紀念日"]]
+    },
+    {
+      overview_en:"This chapter explains the principles behind Australian public life: democracy, freedoms, equality and lawful participation. It is concept-heavy, so focus on definitions and examples.",
+      overview_zh:"本章解釋澳洲公共生活背後的原則：民主、自由、平等和合法參與。概念較多，應重點掌握定義與例子。",
+      objectives:[
+        ["Explain democracy as government by elected representatives.","理解民主是由選民選出的代表治理。"],
+        ["Distinguish lawful freedoms from unlimited personal permission.","區分合法自由與無限制個人任意行為。"],
+        ["Apply rule of law and equality to everyday examples.","能把法治和平等原則套用到日常例子中。"]
+      ],
+      facts:[
+        ["Australia is a parliamentary democracy where citizens vote for representatives.","澳洲是議會民主制，公民投票選出代表。"],
+        ["The rule of law means everyone, including government, must obey the law.","法治意味著每個人，包括政府，都必須守法。"],
+        ["Freedoms include speech, religion, association, assembly and movement, within the law.","自由包括言論、宗教、結社、集會和行動自由，但須依法。"],
+        ["Voting is compulsory for enrolled Australian citizens aged 18 and over.","已登記且年滿18歲的澳洲公民必須投票。"],
+        ["A secret ballot protects voters' freedom to choose.","秘密投票保障選民自由選擇。"]
+      ],
+      traps:[
+        ["Freedom of speech does not mean freedom to threaten, defame or break the law.","言論自由不等於可以威脅、誹謗或違法。"],
+        ["Permanent residents generally cannot vote in federal elections; citizens can.","永久居民通常不能在聯邦選舉投票；公民可以。"],
+        ["Changing laws should be done by voting, contacting representatives or peaceful protest, not violence.","改變法律應通過投票、聯絡民選代表或和平抗議，而不是暴力。"]
+      ],
+      vocab:[["Parliamentary democracy","議會民主"],["Rule of law","法治"],["Secret ballot","秘密投票"],["Freedom of speech","言論自由"],["Freedom of religion","宗教自由"],["Peaceful assembly","和平集會"],["Equality before the law","法律面前人人平等"],["Compulsory voting","強制投票"]]
+    },
+    {
+      overview_en:"This chapter is the machinery chapter: who makes laws, who runs government, who interprets law, and how federal, state/territory and local responsibilities differ.",
+      overview_zh:"本章是制度運作章：誰制定法律、誰管理政府、誰解釋法律，以及聯邦、州/領地和地方政府職責如何不同。",
+      objectives:[
+        ["Map the three levels of government and their responsibilities.","掌握三個政府層級及其職責。"],
+        ["Understand Parliament, ministers, courts and police as different institutions.","理解議會、部長、法院與警察是不同機構。"],
+        ["Remember key constitutional roles: King, Governor-General and Prime Minister.","記住關鍵憲政角色：國王、總督和總理。"]
+      ],
+      facts:[
+        ["Federal government handles national matters such as defence, immigration, taxation and foreign affairs.","聯邦政府處理國防、移民、稅務和外交等國家事務。"],
+        ["State and territory governments handle areas such as schools, hospitals, roads and police.","州與領地政府負責學校、醫院、道路和警務等。"],
+        ["Local councils handle local roads, rubbish collection, parks, libraries and community facilities.","地方議會負責地方道路、垃圾收集、公園、圖書館和社區設施。"],
+        ["Parliament makes laws; courts interpret and apply laws; police enforce laws.","議會制定法律；法院解釋並適用法律；警察執法。"],
+        ["Each state has 12 senators; ACT and NT each have 2 senators.","每個州有12名參議員；首都領地和北領地各有2名。"]
+      ],
+      traps:[
+        ["Head of state is the King of Australia; Governor-General is the King's representative.","國家元首是澳大利亞國王；總督是國王代表。"],
+        ["The Prime Minister is head of government, not head of state.","總理是政府首腦，不是國家元首。"],
+        ["High Court is the highest court; do not confuse it with state Supreme Courts.","澳洲最高法院是最高法院，不要與各州最高法院混淆。"]
+      ],
+      vocab:[["Federal government","聯邦政府"],["State government","州政府"],["Local council","地方議會"],["Parliament","議會"],["Senate","參議院"],["House of Representatives","眾議院"],["Governor-General","總督"],["High Court","最高法院"]]
+    },
+    {
+      overview_en:"This is the must-pass chapter. In the real test all five values questions must be correct. Learn values as behaviour: respect, fairness, equality, compassion and obeying the law.",
+      overview_zh:"這是必須通過的章節。正式考試中5題價值觀必須全對。應把價值觀理解為行為：尊重、公平、平等、同情心和守法。",
+      objectives:[
+        ["Recognise value-based answers even when wording changes.","即使題幹換說法，也能辨認符合價值觀的答案。"],
+        ["Reject answers involving discrimination, violence, coercion or selective obedience to law.","排除涉及歧視、暴力、強迫或選擇性守法的答案。"],
+        ["Connect values to real situations: workplace, family, religion, gender and community.","把價值觀連到職場、家庭、宗教、性別和社區等真實情境。"]
+      ],
+      facts:[
+        ["Australian values include freedom, respect, fairness and equality of opportunity.","澳洲價值觀包括自由、尊重、公平和機會均等。"],
+        ["Men and women have equal rights in Australia.","在澳洲，男性和女性享有平等權利。"],
+        ["Domestic and family violence is a crime and is not accepted.","家庭暴力是犯罪，不被接受。"],
+        ["People may follow any religion or no religion, and should respect others' beliefs.","人們可信仰任何宗教或不信仰宗教，並應尊重他人信仰。"],
+        ["All people must obey Australian law even when they personally disagree.","即使個人不同意，所有人都必須遵守澳洲法律。"]
+      ],
+      traps:[
+        ["Any answer allowing violence, intimidation or revenge is wrong.","任何允許暴力、恐嚇或報復的答案都是錯的。"],
+        ["Any answer saying one gender, religion or ethnic group is superior is wrong.","任何認為某性別、宗教或族群更優越的答案都是錯的。"],
+        ["A high overall score cannot save a failed values section.","總分很高也不能彌補價值觀題未全對。"]
+      ],
+      vocab:[["A fair go","公平機會"],["Mutual respect","相互尊重"],["Tolerance","包容"],["Compassion","同情心"],["Gender equality","性別平等"],["Non-discrimination","反歧視"],["Domestic violence","家庭暴力"],["Obey the law","遵守法律"]]
+    }
+  ];
+  STUDY_DATA.forEach((sec, i) => Object.assign(sec, sections[i]));
+}
+
+/* ═══════════════════════════════════════
+   STATE
+═══════════════════════════════════════ */
+let currentLang = 'bilingual'; // bilingual | en | zh
+let quizLang = 'bilingual';
+let currentQuestions = [];
+let currentQIndex = 0;
+let score = 0;
+let answered = false;
+let flashIndex = 0;
+let flashRevealed = false;
+let flashKnown = [];
+let topicFilter = null;
+let currentValueWrong = 0;
+const PROGRESS_KEY = 'auCitizenshipProgressV1';
+let examMode = false;
+let examAnswers = [];
+let examTimer = null;
+let examTimeLeft = 45 * 60;
+let examWarningsShown = {};
+let studyActiveIndex = 0;
+let visualActiveIndex = 0;
+
+/* ═══════════════════════════════════════
+   NAVIGATION
+═══════════════════════════════════════ */
+function showScreen(id) {
+  if(id !== 'screen-quiz') stopExamTimer();
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  // Update nav
+  const navMap = {
+    'screen-home':0, 'screen-topics':1, 'screen-exam-brief':1, 'screen-quiz':1,
+    'screen-flash':2, 'screen-study':3, 'screen-visual':3, 'screen-results':0
+  };
+  document.querySelectorAll('.nav-item').forEach((n,i) => {
+    n.classList.toggle('active', i === (navMap[id] ?? 0));
+  });
+  // Show/hide bottom nav
+  const hideNav = ['screen-quiz','screen-results'];
+  document.getElementById('bottom-nav').style.display = hideNav.includes(id) ? 'none' : 'grid';
+  // Special inits
+  if(id === 'screen-home') renderProgress();
+  if(id === 'screen-flash') initFlash();
+  if(id === 'screen-study') renderStudy();
+  if(id === 'screen-visual') renderVisualAtlas();
+}
+
+function getProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {attempted:0, correct:0, weak:[]};
+  } catch(e) {
+    return {attempted:0, correct:0, weak:[]};
+  }
+}
+
+function saveProgress(progress) {
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+}
+
+function recordProgress(q, isCorrect) {
+  const progress = getProgress();
+  progress.attempted++;
+  if(isCorrect) progress.correct++;
+  const weakSet = new Set(progress.weak || []);
+  if(isCorrect) weakSet.delete(q.id);
+  else weakSet.add(q.id);
+  progress.weak = [...weakSet].slice(-80);
+  saveProgress(progress);
+  renderProgress();
+}
+
+function renderProgress() {
+  const progress = getProgress();
+  const attempted = document.getElementById('progress-attempted');
+  if(!attempted) return;
+  attempted.textContent = progress.attempted || 0;
+  document.getElementById('progress-accuracy').textContent = progress.attempted
+    ? Math.round((progress.correct / progress.attempted) * 100) + '%'
+    : '--';
+  document.getElementById('progress-weak').textContent = (progress.weak || []).length;
+}
+
+/* ═══════════════════════════════════════
+   LANGUAGE
+═══════════════════════════════════════ */
+function setLang(l) {
+  currentLang = l;
+  document.body.classList.remove('lang-bilingual','lang-en','lang-zh');
+  document.body.classList.add('lang-' + l);
+  document.querySelectorAll('.lang-btn').forEach((b,i) => {
+    const map = ['bilingual','en','zh'];
+    b.classList.toggle('active', map[i] === l);
+  });
+  setQuizLang(l);
+  renderFlash(false);
+  renderStudy();
+}
+
+function setQuizLang(l) {
+  quizLang = l;
+  ['pill-bi','pill-en','pill-zh'].forEach((id,i) => {
+    const map = ['bilingual','en','zh'];
+    const pill = document.getElementById(id);
+    if(pill) pill.classList.toggle('active', map[i] === l);
+  });
+  const showEn = (l === 'bilingual' || l === 'en');
+  const showZh = (l === 'bilingual' || l === 'zh');
+  const qEn = document.getElementById('q-text-en');
+  const qZh = document.getElementById('q-text-zh');
+  if(qEn) qEn.style.display = showEn ? 'block' : 'none';
+  if(qZh) qZh.classList.toggle('visible', showZh);
+  document.querySelectorAll('.opt-text-en').forEach(el => el.style.display = showEn ? 'block' : 'none');
+  document.querySelectorAll('.opt-text-zh').forEach(el => el.classList.toggle('visible', showZh));
+  document.querySelectorAll('.exp-text-en').forEach(el => el.style.display = showEn ? 'block' : 'none');
+  document.querySelectorAll('.exp-text-zh').forEach(el => el.style.display = showZh ? 'block' : 'none');
+}
+
+/* ═══════════════════════════════════════
+   QUIZ ENGINE
+═══════════════════════════════════════ */
+function shuffle(arr) {
+  const a = [...arr];
+  for(let i = a.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+
+function startMockTest() {
+  examMode = false;
+  topicFilter = null;
+  currentQuestions = shuffle(ALL_QUESTIONS).slice(0, 20);
+  startQuiz("Mock Test · 模擬考試");
+}
+
+function startRealDemo() {
+  examMode = false;
+  topicFilter = null;
+  const demo = ALL_QUESTIONS.filter(q => !q.variant).slice(0, 10);
+  currentQuestions = demo;
+  startQuiz("Real Question Demo · 真題演示");
+  showExamAlert("Official-style sample only. Real test questions may differ. · 官方風格樣題；正式考試題目可能不同。");
+}
+
+function startExamRoom() {
+  examMode = true;
+  topicFilter = null;
+  const values = shuffle(ALL_QUESTIONS.filter(q => q.topic === 3)).slice(0, 5);
+  const others = shuffle(ALL_QUESTIONS.filter(q => q.topic !== 3)).slice(0, 15);
+  currentQuestions = shuffle([...values, ...others]);
+  startQuiz("Exam Room · 真實考場");
+}
+
+function startTopicQuiz(topicIdx) {
+  examMode = false;
+  topicFilter = topicIdx;
+  const qs = shuffle(ALL_QUESTIONS.filter(q => q.topic === topicIdx));
+  currentQuestions = qs;
+  startQuiz(TOPICS[topicIdx]);
+}
+
+function startWeakReview() {
+  examMode = false;
+  const weakIds = new Set(getProgress().weak || []);
+  const qs = shuffle(ALL_QUESTIONS.filter(q => weakIds.has(q.id))).slice(0, 20);
+  if(!qs.length) {
+    alert('No weak questions yet. Finish a mock test first.\\n暫時沒有錯題；請先完成一次模擬考或分章練習。');
+    return;
+  }
+  topicFilter = null;
+  currentQuestions = qs;
+  startQuiz('Weak Review · 錯題復習');
+}
+
+function startQuiz(label) {
+  currentQIndex = 0;
+  score = 0;
+  currentValueWrong = 0;
+  examAnswers = new Array(currentQuestions.length).fill(null);
+  examWarningsShown = {};
+  quizLang = currentLang;
+  document.getElementById('quiz-topic-label').textContent = label.split(' · ')[0];
+  showScreen('screen-quiz');
+  setQuizLang(quizLang);
+  document.getElementById('exam-clock').classList.toggle('visible', examMode);
+  document.getElementById('exam-alert').classList.remove('visible');
+  if(examMode) startExamTimer();
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = currentQuestions[currentQIndex];
+  const total = currentQuestions.length;
+  answered = false;
+
+  // Header
+  document.getElementById('quiz-counter').textContent = `${currentQIndex+1} / ${total}`;
+  document.getElementById('progress-fill').style.width = `${((currentQIndex)/total)*100}%`;
+  document.getElementById('q-number').textContent = `QUESTION ${currentQIndex+1} · 第${currentQIndex+1}題`;
+  document.getElementById('q-text-en').textContent = q.en;
+  document.getElementById('q-text-zh').textContent = q.zh;
+
+  // Apply current lang
+  const showEn = (quizLang === 'bilingual' || quizLang === 'en');
+  const showZh = (quizLang === 'bilingual' || quizLang === 'zh');
+  document.getElementById('q-text-en').style.display = showEn ? 'block' : 'none';
+  document.getElementById('q-text-zh').classList.toggle('visible', showZh);
+
+  // Options
+  const list = document.getElementById('options-list');
+  list.innerHTML = '';
+  const labels = ['A','B','C','D'];
+  q.options.forEach((opt, i) => {
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'option';
+    el.setAttribute('aria-label', `${labels[i]}. ${showZh && !showEn ? opt.zh : opt.en}`);
+    if(examMode && examAnswers[currentQIndex] === i) el.classList.add('selected');
+    el.innerHTML = `
+      <div class="opt-label">${labels[i]}</div>
+      <div class="opt-content">
+        <div class="opt-text-en" style="display:${showEn ? 'block' : 'none'}">${opt.en}</div>
+        <div class="opt-text-zh${showZh ? ' visible' : ''}">${opt.zh}</div>
+      </div>`;
+    el.addEventListener('click', () => selectAnswer(i, el, q));
+    list.appendChild(el);
+  });
+
+  // Explanation
+  const exp = document.getElementById('explanation');
+  exp.classList.remove('visible');
+  document.getElementById('exp-en').textContent = '';
+  document.getElementById('exp-zh').textContent = '';
+
+  // Next btn
+  const nb = document.getElementById('next-btn');
+  nb.classList.remove('visible');
+  nb.textContent = '';
+  nb.innerHTML = currentQIndex < currentQuestions.length - 1
+    ? '<span>Next Question</span><span class="next-zh">下一題</span><span>→</span>'
+    : (examMode ? '<span>Submit Exam</span><span class="next-zh">提交考試</span><span>→</span>' : '<span>See Results</span><span class="next-zh">查看結果</span><span>→</span>');
+  if(examMode && examAnswers[currentQIndex] !== null) nb.classList.add('visible');
+
+  // Animate
+  document.getElementById('question-card').style.animation = 'none';
+  setTimeout(() => { document.getElementById('question-card').style.animation = ''; }, 10);
+}
+
+function selectAnswer(idx, el, q) {
+  if(answered) return;
+  if(examMode) {
+    examAnswers[currentQIndex] = idx;
+    document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+    el.classList.add('selected');
+    document.getElementById('next-btn').classList.add('visible');
+    return;
+  }
+  answered = true;
+
+  // Lock all options
+  document.querySelectorAll('.option').forEach(o => o.classList.add('locked'));
+
+  const isCorrect = idx === q.answer;
+  recordProgress(q, isCorrect);
+
+  if(isCorrect) {
+    el.classList.add('correct');
+    score++;
+  } else {
+    el.classList.add('wrong');
+    if(q.topic === 3) currentValueWrong++;
+    document.querySelectorAll('.option')[q.answer].classList.add('correct');
+  }
+
+  // Show explanation
+  document.getElementById('exp-en').textContent = q.exp_en;
+  document.getElementById('exp-zh').textContent = q.exp_zh;
+  document.getElementById('explanation').classList.add('visible');
+
+  // Show next
+  document.getElementById('next-btn').classList.add('visible');
+}
+
+function nextQuestion() {
+  if(examMode && examAnswers[currentQIndex] === null) {
+    const proceed = confirm('This question is unanswered. Continue anyway?\\n本題尚未作答，仍要繼續嗎？');
+    if(!proceed) return;
+  }
+  currentQIndex++;
+  if(currentQIndex >= currentQuestions.length) {
+    if(examMode) {
+      const unanswered = examAnswers.filter(a => a === null).length;
+      if(unanswered) {
+        const submit = confirm(`${unanswered} question(s) are unanswered. Submit exam now?\\n仍有 ${unanswered} 題未作答。是否提交？`);
+        if(!submit) {
+          currentQIndex--;
+          return;
+        }
+      }
+    }
+    showResults();
+  } else {
+    renderQuestion();
+    window.scrollTo(0,0);
+    document.querySelector('.quiz-body').scrollTo(0,0);
+  }
+}
+
+function showResults() {
+  if(examMode) {
+    score = 0;
+    currentValueWrong = 0;
+    currentQuestions.forEach((q, i) => {
+      const isCorrect = examAnswers[i] === q.answer;
+      if(isCorrect) score++;
+      if(q.topic === 3 && !isCorrect) currentValueWrong++;
+      if(examAnswers[i] !== null) recordProgress(q, isCorrect);
+    });
+    stopExamTimer();
+  }
+  const total = currentQuestions.length;
+  const pct = Math.round((score/total)*100);
+  const valuesPerfect = currentValueWrong === 0;
+  const pass = topicFilter === 3 ? score === total : (pct >= 75 && valuesPerfect);
+
+  document.getElementById('score-pct').textContent = pct + '%';
+  document.getElementById('r-total').textContent = total;
+  document.getElementById('r-correct').textContent = score;
+  document.getElementById('r-wrong').textContent = total - score;
+  document.getElementById('result-icon').textContent = pass ? 'PASS' : 'REVIEW';
+  document.getElementById('result-title').textContent = pass ? 'Congratulations!' : 'Keep Practising!';
+  document.getElementById('result-title-zh').textContent = pass ? '恭喜，您通過了！' : '繼續努力，多加練習！';
+
+  const verdict = document.getElementById('score-verdict');
+  verdict.textContent = pass ? 'PASSED · 通過' : (pct >= 75 && !valuesPerfect ? 'VALUES NOT PERFECT · 價值觀題未全對' : 'NOT PASSED · 未通過');
+  verdict.className = 'score-verdict ' + (pass ? 'pass' : 'fail');
+
+  document.getElementById('progress-fill').style.width = '100%';
+  showScreen('screen-results');
+}
+
+function startExamTimer() {
+  stopExamTimer();
+  examTimeLeft = 45 * 60;
+  examWarningsShown = {};
+  updateExamClock();
+  showExamAlert('Exam started. No instant answers in exam room mode. · 考場模式已開始，作答期間不顯示答案。');
+  examTimer = setInterval(() => {
+    examTimeLeft--;
+    updateExamClock();
+    if([600,300,60].includes(examTimeLeft) && !examWarningsShown[examTimeLeft]) {
+      examWarningsShown[examTimeLeft] = true;
+      const mins = Math.round(examTimeLeft / 60);
+      showExamAlert(`${mins} minute(s) remaining. Check unanswered questions. · 剩餘 ${mins} 分鐘，請檢查未作答題目。`);
+    }
+    if(examTimeLeft <= 0) {
+      showExamAlert('Time is up. The exam has been submitted automatically. · 時間到，系統已自動提交。');
+      showResults();
+    }
+  }, 1000);
+}
+
+function stopExamTimer() {
+  if(examTimer) clearInterval(examTimer);
+  examTimer = null;
+}
+
+function updateExamClock() {
+  const clock = document.getElementById('exam-clock');
+  if(!clock) return;
+  const mins = Math.floor(Math.max(examTimeLeft, 0) / 60);
+  const secs = Math.max(examTimeLeft, 0) % 60;
+  clock.textContent = `${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+  clock.classList.toggle('warning', examTimeLeft <= 300);
+}
+
+function showExamAlert(message) {
+  const alertBox = document.getElementById('exam-alert');
+  if(!alertBox) return;
+  alertBox.textContent = message;
+  alertBox.classList.add('visible');
+}
+
+/* ═══════════════════════════════════════
+   FLASHCARDS
+═══════════════════════════════════════ */
+function initFlash() {
+  flashIndex = 0;
+  flashRevealed = false;
+  flashKnown = [];
+  renderFlash(true);
+}
+
+function renderFlash(resetMissing = false) {
+  if(!document.getElementById('flashcard')) return;
+  if(resetMissing && flashIndex >= FLASHCARDS.length) flashIndex = 0;
+  const card = FLASHCARDS[flashIndex];
+  document.getElementById('flash-progress').textContent =
+    `Card ${flashIndex+1} of ${FLASHCARDS.length} · 第${flashIndex+1}張，共${FLASHCARDS.length}張`;
+  document.getElementById('fc-term').textContent = card.term;
+  document.getElementById('fc-zh').textContent = card.term_zh;
+  document.getElementById('fc-ans-en').textContent = card.ans;
+  document.getElementById('fc-ans-zh').textContent = card.ans_zh;
+  document.getElementById('fc-hint').textContent = 'Tap to reveal answer · 點擊顯示答案';
+  document.getElementById('fc-answer').classList.remove('visible');
+  document.getElementById('flash-btns').style.display = 'none';
+  flashRevealed = false;
+}
+
+function flipCard() {
+  if(!flashRevealed) {
+    document.getElementById('fc-answer').classList.add('visible');
+    document.getElementById('fc-hint').textContent = 'Do you know this? · 你記住了嗎？';
+    document.getElementById('flash-btns').style.display = 'grid';
+    flashRevealed = true;
+  }
+}
+
+function flashNext(known) {
+  if(known) flashKnown.push(flashIndex);
+  flashIndex++;
+  if(flashIndex >= FLASHCARDS.length) {
+    flashIndex = 0;
+    alert(`Finished! ${flashKnown.length}/${FLASHCARDS.length} known.\n完成！已掌握 ${flashKnown.length}/${FLASHCARDS.length} 張。`);
+    flashKnown = [];
+  }
+  renderFlash();
+}
+
+/* ═══════════════════════════════════════
+   STUDY GUIDE
+═══════════════════════════════════════ */
+function renderStudy() {
+  const container = document.getElementById('study-content');
+  if(!container) return;
+  container.innerHTML = '';
+  const renderLines = (items, icon) => (items || []).map(([en, zh]) => `
+    <div class="study-line">
+      <span>${icon}</span>
+      <div>${en}<span class="study-line-zh">${zh}</span></div>
+    </div>
+  `).join('');
+  const renderTokens = (items) => (items || []).map(([en, zh]) =>
+    `<span class="study-token">${en}<span>${zh}</span></span>`
+  ).join('');
+  const tabs = document.createElement('div');
+  tabs.className = 'study-tabs';
+  tabs.innerHTML = STUDY_DATA.map((sec, i) => `
+    <button class="study-tab ${i === studyActiveIndex ? 'active' : ''}" onclick="setStudySection(${i})">
+      <div class="study-tab-en">${sec.icon} ${sec.title_en.replace(' / Must ALL be correct','')}</div>
+      <div class="study-tab-zh">${sec.title_zh}</div>
+    </button>
+  `).join('');
+  container.appendChild(tabs);
+
+  const sec = STUDY_DATA[studyActiveIndex] || STUDY_DATA[0];
+  const div = document.createElement('div');
+  div.className = 'study-section';
+  div.innerHTML = `
+    <div class="study-sec-header">
+      <span class="study-sec-icon">${sec.icon}</span>
+      <div>
+        <div class="study-sec-title-en">${sec.title_en}</div>
+        <div class="study-sec-title-zh">${sec.title_zh}</div>
+      </div>
+    </div>
+    <div class="study-items">
+      <div class="study-overview">
+        <div class="study-overview-en">${sec.overview_en || ''}</div>
+        <div class="study-overview-zh">${sec.overview_zh || ''}</div>
+      </div>
+      <div class="study-block">
+        <div class="study-block-title">Learning Goals · 學習目標</div>
+        <div class="study-list">${renderLines(sec.objectives, '•')}</div>
+      </div>
+      <div class="study-block">
+        <div class="study-block-title">Core Facts · 必背事實</div>
+        <div class="study-list">${renderLines(sec.facts, '·')}</div>
+      </div>
+      ${sec.items.map(item => `
+        <div class="study-item">
+          <div class="study-q">${item.q}</div>
+          <div class="study-q-zh">${item.q_zh}</div>
+          <div class="study-a">${item.a}<span class="study-a-zh">${item.a_zh}</span></div>
+        </div>
+      `).join('')}
+      <div class="study-block">
+        <div class="study-block-title">Exam Traps · 易錯考點</div>
+        <div class="study-list">${renderLines(sec.traps, '!')}</div>
+      </div>
+      <div class="study-block">
+        <div class="study-block-title">Key Vocabulary · 核心詞彙</div>
+        <div>${renderTokens(sec.vocab)}</div>
+      </div>
+    </div>`;
+  container.appendChild(div);
+}
+
+function setStudySection(index) {
+  studyActiveIndex = index;
+  renderStudy();
+  window.scrollTo(0,0);
+}
+
+function renderVisualAtlas() {
+  const container = document.getElementById('visual-content');
+  if(!container) return;
+  const tabs = [
+    ['Exam Structure','考試結構'],
+    ['Timeline','歷史時間線'],
+    ['Government System','政府架構'],
+    ['Values Matrix','價值觀矩陣'],
+    ['Symbols','國家象徵']
+  ];
+  container.innerHTML = `
+    <div class="visual-tabs">
+      ${tabs.map(([en, zh], i) => `
+        <button class="visual-tab ${i === visualActiveIndex ? 'active' : ''}" onclick="setVisualTab(${i})">
+          <div class="visual-tab-en">${en}</div>
+          <div class="visual-tab-zh">${zh}</div>
+        </button>
+      `).join('')}
+    </div>
+    ${renderVisualPanel(visualActiveIndex)}
+  `;
+}
+
+function setVisualTab(index) {
+  visualActiveIndex = index;
+  renderVisualAtlas();
+}
+
+function renderVisualPanel(index) {
+  const panels = [renderExamVisual, renderTimelineVisual, renderGovernmentVisual, renderValuesVisual, renderSymbolsVisual];
+  return panels[index]();
+}
+
+function renderExamVisual() {
+  const counts = [0,1,2,3].map(t => ALL_QUESTIONS.filter(q => q.topic === t).length);
+  const max = Math.max(...counts);
+  const labels = [
+    ['I','People'], ['II','Democracy'], ['III','Law'], ['IV','Values']
+  ];
+  return `
+    <div class="visual-panel">
+      <div class="visual-head"><div class="visual-title">Exam Structure</div><div class="visual-sub">20 questions · 45 minutes · 75% + values perfect</div></div>
+      <div class="visual-body visual-grid">
+        <div class="visual-row">
+          <div class="metric-tile"><div class="metric-num">20</div><div class="metric-label">Questions<span>正式考試題數</span></div></div>
+          <div class="metric-tile"><div class="metric-num">45</div><div class="metric-label">Minutes<span>考場時間</span></div></div>
+          <div class="metric-tile"><div class="metric-num">15</div><div class="metric-label">Minimum correct<span>最低正確題數</span></div></div>
+          <div class="metric-tile"><div class="metric-num">5/5</div><div class="metric-label">Values required<span>價值觀必全對</span></div></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Pass Logic <span>通過規則</span></div>
+          <div class="donut-wrap">
+            <div class="donut"></div>
+            <div>
+              <div class="legend-line"><span class="legend-swatch"></span>15 correct answers minimum · 至少15題正確</div>
+              <div class="legend-line"><span class="legend-swatch gold"></span>5 values questions perfect · 價值觀5題全對</div>
+              <div class="mini-note">The overall score alone is not enough if the values section is missed.</div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Question Bank Distribution <span>題庫章節分布</span></div>
+          ${counts.map((count, i) => `
+            <div class="bar-row">
+              <div class="bar-name">${labels[i][0]} ${labels[i][1]}</div>
+              <div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / max * 100)}%"></div></div>
+              <div class="bar-num">${count}</div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Exam Composition Model <span>考試組成模型</span></div>
+          <div class="stack-bar"><div class="stack-a"></div><div class="stack-b"></div></div>
+          <div class="legend-line"><span class="legend-swatch"></span>15 general citizenship questions · 一般公民知識題</div>
+          <div class="legend-line"><span class="legend-swatch gold"></span>5 Australian values questions · 澳洲價值觀題</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Candidate Workflow <span>考場流程</span></div>
+          <div class="arrow-map">
+            <div class="arrow-node"><strong>Read</strong><span>先讀英文題幹，鎖定關鍵詞。</span></div>
+            <div class="arrow-mark">></div>
+            <div class="arrow-node"><strong>Eliminate</strong><span>排除違法、不平等、不和平選項。</span></div>
+            <div class="arrow-mark">></div>
+            <div class="arrow-node"><strong>Submit</strong><span>檢查價值觀題，再提交。</span></div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Study Priority Map <span>章節學習優先級</span></div>
+          <div class="knowledge-grid">
+            <div class="knowledge-card"><strong>I People</strong><span>考日期、旗幟、首都、國家象徵。學法：背準事實，不要混淆 Sydney / Canberra、ANZAC Day / Australia Day。</span></div>
+            <div class="knowledge-card"><strong>II Democracy</strong><span>考自由、投票、法治和平等。學法：能用一句話解釋每個概念，並排除「違法自由」。</span></div>
+            <div class="knowledge-card"><strong>III Government & Law</strong><span>考政府層級、三權、總理/總督/國王/法院角色。學法：做對照表，重點分清誰做什麼。</span></div>
+            <div class="knowledge-card"><strong>IV Values</strong><span>考情境判斷，5題必須全對。學法：任何暴力、歧視、強迫、選擇性守法的答案都排除。</span></div>
+          </div>
+          <div class="mini-note">Read this as a study strategy map, not a score weighting table. The real test draws questions randomly, but values questions have the highest pass/fail risk.</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderTimelineVisual() {
+  const events = [
+    ['65k+','First Peoples have lived in Australia for at least 65,000 years.','第一民族在澳洲生活至少65,000年。'],
+    ['1788','First Fleet arrived from Britain; European settlement began.','第一艦隊抵達，歐洲人定居開始。'],
+    ['1901','Federation created the Commonwealth of Australia.','聯邦成立，澳大利亞聯邦形成。'],
+    ['1915','ANZAC landing at Gallipoli, remembered on 25 April.','澳新軍團登陸加里波利，4月25日紀念。'],
+    ['1927','Parliament moved to Canberra.','議會遷至坎培拉。']
+  ];
+  return `
+    <div class="visual-panel">
+      <div class="visual-head"><div class="visual-title">Civic Timeline</div><div class="visual-sub">Dates that often become direct test facts</div></div>
+      <div class="visual-body">
+        <div class="time-rail">
+          <div class="rail-point" style="left:10%"><div class="rail-year">65k+</div><div class="rail-dot"></div><div class="rail-label">First Peoples</div></div>
+          <div class="rail-point" style="left:34%"><div class="rail-year">1788</div><div class="rail-dot"></div><div class="rail-label">Settlement</div></div>
+          <div class="rail-point" style="left:55%"><div class="rail-year">1901</div><div class="rail-dot"></div><div class="rail-label">Federation</div></div>
+          <div class="rail-point" style="left:73%"><div class="rail-year">1915</div><div class="rail-dot"></div><div class="rail-label">ANZAC</div></div>
+          <div class="rail-point" style="left:90%"><div class="rail-year">1927</div><div class="rail-dot"></div><div class="rail-label">Canberra</div></div>
+        </div>
+        <div class="timeline">
+          ${events.map(([year,en,zh]) => `
+            <div class="timeline-item">
+              <div class="timeline-year">${year}</div>
+              <div class="timeline-text">${en}<span>${zh}</span></div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="chart-card" style="margin-top:9px">
+          <div class="chart-label">Date Memory Map <span>日期記憶圖</span></div>
+          <div class="bar-row"><div class="bar-name">1788</div><div class="bar-track"><div class="bar-fill" style="width:38%"></div></div><div class="bar-num">Start</div></div>
+          <div class="bar-row"><div class="bar-name">1901</div><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div><div class="bar-num">Nation</div></div>
+          <div class="bar-row"><div class="bar-name">25 Apr</div><div class="bar-track"><div class="bar-fill" style="width:55%"></div></div><div class="bar-num">ANZAC</div></div>
+          <div class="bar-row"><div class="bar-name">26 Jan</div><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><div class="bar-num">AUS</div></div>
+        </div>
+        <div class="chart-card" style="margin-top:9px">
+          <div class="chart-label">Era Logic <span>歷史邏輯</span></div>
+          <div class="chapter-band"><div class="chapter-code">1</div><div class="chapter-copy">First Peoples and continuous connection to land<span>第一民族與土地的持續連結</span></div></div>
+          <div class="chapter-band"><div class="chapter-code">2</div><div class="chapter-copy">European settlement and colonial government<span>歐洲定居與殖民地政府</span></div></div>
+          <div class="chapter-band"><div class="chapter-code">3</div><div class="chapter-copy">Federation and national institutions<span>聯邦成立與國家機構</span></div></div>
+          <div class="chapter-band"><div class="chapter-code">4</div><div class="chapter-copy">Modern civic identity and shared values<span>現代公民身份與共同價值</span></div></div>
+        </div>
+        <div class="chart-card" style="margin-top:9px">
+          <div class="chart-label">Rapid Date Ladder <span>快速日期階梯</span></div>
+          <div class="memory-ladder">
+            <div class="ladder-step"><div class="ladder-code">1788</div><div class="ladder-text">European settlement begins<span>歐洲定居開始</span></div></div>
+            <div class="ladder-step"><div class="ladder-code">1901</div><div class="ladder-text">Six colonies federate<span>六個殖民地聯邦化</span></div></div>
+            <div class="ladder-step"><div class="ladder-code">25/4</div><div class="ladder-text">ANZAC Day<span>澳新軍團日</span></div></div>
+            <div class="ladder-step"><div class="ladder-code">11/11</div><div class="ladder-text">Remembrance Day<span>陣亡將士紀念日</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderGovernmentVisual() {
+  return `
+    <div class="visual-panel">
+      <div class="visual-head"><div class="visual-title">Government System Map</div><div class="visual-sub">Separate powers, levels and responsibilities</div></div>
+      <div class="visual-body system-map">
+        <svg class="gov-svg" viewBox="0 0 640 260" role="img" aria-label="Australian government structure diagram">
+          <rect x="245" y="18" width="150" height="38" rx="8" fill="#00843D"/>
+          <text x="320" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Australian People</text>
+          <line x1="320" y1="56" x2="320" y2="86" stroke="#005c2b" stroke-width="3"/>
+          <rect x="225" y="86" width="190" height="42" rx="8" fill="#e8f5ee" stroke="#00843D"/>
+          <text x="320" y="112" text-anchor="middle" font-size="16" font-weight="700" fill="#005c2b">Parliament</text>
+          <line x1="320" y1="128" x2="320" y2="158" stroke="#005c2b" stroke-width="3"/>
+          <line x1="120" y1="158" x2="520" y2="158" stroke="#005c2b" stroke-width="3"/>
+          <line x1="120" y1="158" x2="120" y2="180" stroke="#005c2b" stroke-width="3"/>
+          <line x1="320" y1="158" x2="320" y2="180" stroke="#005c2b" stroke-width="3"/>
+          <line x1="520" y1="158" x2="520" y2="180" stroke="#005c2b" stroke-width="3"/>
+          <rect x="38" y="180" width="164" height="50" rx="8" fill="#fff8e1" stroke="#e6b800"/>
+          <rect x="238" y="180" width="164" height="50" rx="8" fill="#fff8e1" stroke="#e6b800"/>
+          <rect x="438" y="180" width="164" height="50" rx="8" fill="#fff8e1" stroke="#e6b800"/>
+          <text x="120" y="204" text-anchor="middle" font-size="15" font-weight="700" fill="#0d1a0f">Legislature</text>
+          <text x="320" y="204" text-anchor="middle" font-size="15" font-weight="700" fill="#0d1a0f">Executive</text>
+          <text x="520" y="204" text-anchor="middle" font-size="15" font-weight="700" fill="#0d1a0f">Judiciary</text>
+          <text x="120" y="222" text-anchor="middle" font-size="12" fill="#6b7a6e">makes laws</text>
+          <text x="320" y="222" text-anchor="middle" font-size="12" fill="#6b7a6e">administers laws</text>
+          <text x="520" y="222" text-anchor="middle" font-size="12" fill="#6b7a6e">interprets laws</text>
+        </svg>
+        <div class="system-node"><strong>Australian People</strong><span>公民通過投票選出代表。</span></div>
+        <div class="system-node"><strong>Parliament</strong><span>制定和修改法律：眾議院 + 參議院。</span></div>
+        <div class="system-branch">
+          <div class="system-node"><strong>Legislature</strong><span>立法：Parliament</span></div>
+          <div class="system-node"><strong>Executive</strong><span>行政：Ministers</span></div>
+          <div class="system-node"><strong>Judiciary</strong><span>司法：Courts</span></div>
+        </div>
+        <div class="system-branch">
+          <div class="system-node"><strong>Federal</strong><span>Defence, immigration, tax</span></div>
+          <div class="system-node"><strong>State/Territory</strong><span>Schools, hospitals, police</span></div>
+          <div class="system-node"><strong>Local</strong><span>Roads, rubbish, parks</span></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Role Distinctions <span>角色辨析</span></div>
+          <div class="role-grid">
+            <div class="role-card"><strong>King</strong><span>Head of state. 國家元首。</span></div>
+            <div class="role-card"><strong>Governor-General</strong><span>King's representative. 國王在澳代表。</span></div>
+            <div class="role-card"><strong>Prime Minister</strong><span>Head of government. 政府首腦。</span></div>
+            <div class="role-card"><strong>High Court</strong><span>Highest court. 最高法院。</span></div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Responsibility Matrix <span>政府職責矩陣</span></div>
+          <div class="heatmap">
+            <div class="heat-cell head">Task</div><div class="heat-cell head">Federal</div><div class="heat-cell head">State</div><div class="heat-cell head">Local</div><div class="heat-cell head">Note</div>
+            <div class="heat-cell side">Defence</div><div class="heat-cell high">Yes</div><div class="heat-cell low">No</div><div class="heat-cell low">No</div><div class="heat-cell mid">National</div>
+            <div class="heat-cell side">Hospitals</div><div class="heat-cell mid">Funds</div><div class="heat-cell high">Runs</div><div class="heat-cell low">No</div><div class="heat-cell mid">State</div>
+            <div class="heat-cell side">Rubbish</div><div class="heat-cell low">No</div><div class="heat-cell low">No</div><div class="heat-cell high">Yes</div><div class="heat-cell mid">Council</div>
+            <div class="heat-cell side">Immigration</div><div class="heat-cell high">Yes</div><div class="heat-cell low">No</div><div class="heat-cell low">No</div><div class="heat-cell mid">National</div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderValuesVisual() {
+  const cells = [
+    ['Respect','不同背景、宗教、性別與文化都應被尊重。'],
+    ['Equality','男女平等，法律面前人人平等，機會應公平。'],
+    ['Freedom','宗教、言論、結社與和平集會自由受保護。'],
+    ['Rule of Law','不同意法律時也要守法，改變法律應用合法方式。'],
+    ['Compassion','關懷他人、支持弱勢、反對歧視。'],
+    ['Non-violence','暴力、威脅、強迫婚姻、家庭暴力都不可接受。']
+  ];
+  return `
+    <div class="visual-panel">
+      <div class="visual-head"><div class="visual-title">Australian Values Matrix</div><div class="visual-sub">Use this as the decision grid for all values questions</div></div>
+      <div class="visual-body">
+        <div class="flow-chart" style="margin-bottom:9px">
+          <div class="flow-step"><div class="flow-index">1</div><div class="flow-text">Is the action lawful?<span>行為是否合法？</span></div></div>
+          <div class="flow-step"><div class="flow-index">2</div><div class="flow-text">Does it treat people equally?<span>是否平等對待他人？</span></div></div>
+          <div class="flow-step"><div class="flow-index">3</div><div class="flow-text">Is it peaceful and respectful?<span>是否和平並尊重他人？</span></div></div>
+          <div class="flow-step"><div class="flow-index">4</div><div class="flow-text">Does it support a fair go?<span>是否支持公平機會？</span></div></div>
+        </div>
+        <div class="matrix">
+          ${cells.map(([en, zh]) => `<div class="matrix-cell"><strong>${en}</strong><span>${zh}</span></div>`).join('')}
+        </div>
+        <div class="contrast-grid" style="margin-top:9px">
+          <div class="contrast-card good"><strong>Choose</strong><span>Respect, lawful process, equal rights, peaceful disagreement.</span><span>選擇：尊重、合法程序、平等權利、和平分歧。</span></div>
+          <div class="contrast-card bad"><strong>Reject</strong><span>Violence, discrimination, coercion, ignoring laws selectively.</span><span>排除：暴力、歧視、強迫、選擇性守法。</span></div>
+        </div>
+        <div class="chart-card" style="margin-top:9px">
+          <div class="chart-label">Scenario Classifier <span>情境判斷器</span></div>
+          <div class="scenario-grid">
+            <div class="scenario-card"><strong>Workplace</strong><p>Equal pay, fair treatment, no discrimination.</p><em>職場：同工同酬、公平待遇、不得歧視。</em></div>
+            <div class="scenario-card"><strong>Family</strong><p>No violence, no forced marriage, equal rights.</p><em>家庭：反對暴力、反對強迫婚姻、權利平等。</em></div>
+            <div class="scenario-card"><strong>Religion</strong><p>Follow any religion or none; respect others.</p><em>宗教：可信仰或不信仰，尊重他人。</em></div>
+            <div class="scenario-card"><strong>Law</strong><p>Obey first; change law by voting or peaceful protest.</p><em>法律：先守法，再用投票或和平抗議推動改變。</em></div>
+          </div>
+        </div>
+        <div class="chart-card" style="margin-top:9px">
+          <div class="chart-label">Red Flag Heatmap <span>錯誤選項警示</span></div>
+          <div class="heatmap">
+            <div class="heat-cell head">Signal</div><div class="heat-cell head">Violence</div><div class="heat-cell head">Discrimination</div><div class="heat-cell head">Coercion</div><div class="heat-cell head">Law</div>
+            <div class="heat-cell side">Always wrong</div><div class="heat-cell low">High</div><div class="heat-cell low">High</div><div class="heat-cell low">High</div><div class="heat-cell low">High</div>
+            <div class="heat-cell side">Exam wording</div><div class="heat-cell mid">threat</div><div class="heat-cell mid">exclude</div><div class="heat-cell mid">force</div><div class="heat-cell mid">ignore</div>
+          </div>
+        </div>
+        <div class="mini-note">Exam heuristic: choose the answer that is lawful, respectful, equal, peaceful and inclusive.</div>
+      </div>
+    </div>`;
+}
+
+function renderSymbolsVisual() {
+  return `
+    <div class="visual-panel">
+      <div class="visual-head"><div class="visual-title">Symbols & Flags Board</div><div class="visual-sub">Convert visual facts into test-ready memory anchors</div></div>
+      <div class="visual-body visual-grid">
+        <svg class="symbol-svg" viewBox="0 0 640 240" role="img" aria-label="Australian flag structure diagram">
+          <rect x="20" y="28" width="280" height="150" rx="8" fill="#00008B"/>
+          <rect x="20" y="28" width="116" height="70" fill="#1020a0"/>
+          <path d="M20 28 L136 98 M136 28 L20 98" stroke="#fff" stroke-width="10"/>
+          <path d="M20 28 L136 98 M136 28 L20 98" stroke="#cc0000" stroke-width="5"/>
+          <path d="M78 28 V98 M20 63 H136" stroke="#fff" stroke-width="16"/>
+          <path d="M78 28 V98 M20 63 H136" stroke="#cc0000" stroke-width="8"/>
+          <circle cx="84" cy="134" r="18" fill="#fff"/>
+          <text x="84" y="139" text-anchor="middle" font-size="14" font-weight="700" fill="#00008B">7</text>
+          <circle cx="218" cy="63" r="8" fill="#fff"/><circle cx="248" cy="92" r="6" fill="#fff"/><circle cx="222" cy="122" r="7" fill="#fff"/><circle cx="264" cy="145" r="5" fill="#fff"/><circle cx="196" cy="150" r="6" fill="#fff"/>
+          <text x="338" y="58" font-size="16" font-weight="700" fill="#005c2b">Australian National Flag</text>
+          <text x="338" y="86" font-size="13" fill="#2e3d31">Union Jack: British heritage</text>
+          <text x="338" y="111" font-size="13" fill="#2e3d31">Commonwealth Star: states and territories</text>
+          <text x="338" y="136" font-size="13" fill="#2e3d31">Southern Cross: southern sky constellation</text>
+          <text x="338" y="164" font-size="12" fill="#6b7a6e">考點：6 stars total, not 5.</text>
+        </svg>
+        <div class="symbol-grid">
+          <div class="symbol-card"><strong>Aboriginal Flag</strong><span>Black = Aboriginal peoples; red = earth; yellow = sun.</span><span>黑代表原住民，紅代表土地，黃代表太陽。</span></div>
+          <div class="symbol-card"><strong>Torres Strait Islander Flag</strong><span>Green land, blue sea, black peoples, white dhari and peace.</span><span>綠土地、藍海洋、黑人群、白色頭飾與和平。</span></div>
+          <div class="symbol-card"><strong>Golden Wattle</strong><span>National floral emblem; linked with green and gold.</span><span>國家花卉象徵，與綠金色相關。</span></div>
+          <div class="symbol-card"><strong>Advance Australia Fair</strong><span>National anthem; connects unity, land and shared future.</span><span>國歌，連結團結、土地與共同未來。</span></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Symbol-to-Meaning Map <span>象徵含義圖</span></div>
+          <div class="arrow-map">
+            <div class="arrow-node"><strong>Object</strong><span>Flag, flower, anthem, date</span></div>
+            <div class="arrow-mark">></div>
+            <div class="arrow-node"><strong>Meaning</strong><span>History, identity, unity, service</span></div>
+            <div class="arrow-mark">></div>
+            <div class="arrow-node"><strong>Test answer</strong><span>Choose precise fact + meaning</span></div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-label">Flag Fact Contrast <span>旗幟考點對比</span></div>
+          <div class="contrast-grid">
+            <div class="contrast-card good"><strong>Australian Flag</strong><span>6 stars: Southern Cross + Commonwealth Star.</span><span>6顆星：南十字星 + 聯邦星。</span></div>
+            <div class="contrast-card good"><strong>Aboriginal Flag</strong><span>Black, red and yellow.</span><span>黑、紅、黃。</span></div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ═══════════════════════════════════════
+   INIT
+═══════════════════════════════════════ */
+function refreshTopicCounts() {
+  document.querySelectorAll('.topic-card').forEach((card, idx) => {
+    const count = ALL_QUESTIONS.filter(q => q.topic === idx).length;
+    const el = card.querySelector('.topic-count');
+    if(el) el.textContent = count + ' Q';
+  });
+}
+
+refreshTopicCounts();
+setLang('bilingual');
+renderProgress();
+renderStudy();
+</script>
+</body>
+</html>
