@@ -1494,7 +1494,8 @@ function searchItems() {
     ["External Programme Support", "/external-programme-support/", "OU, BTEC, Pearson, university modules, foundation / pathway and recognised external programme tutoring support."],
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
-    ["Apps & Tools", "/apps/", "UCBELT, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
+    ["Apps & Tools", "/apps/", "UCBELT, Australian citizenship test, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
+    ["Australian Citizenship Test Practice App", "/apps/australian-citizenship-test/", "Independent OTC English-Chinese Australian citizenship test practice app with mock tests, topic practice, flashcards and study guide."],
     ["IH London Placement & Interview Practice App", "/apps/ih-placement-interview/", "Independent OTC practice app for IH London online placement test readiness, speaking interview preparation, bilingual vocabulary and tutor-led review."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
@@ -4765,8 +4766,9 @@ const apps = pageShell({
         <article>
           <b>A</b>
           <strong>Licence & Professional Exam Practice</strong>
-          <p>CE driving, CSCS construction card, SIA security licence and future professional-practice drills.</p>
+          <p>Australian citizenship, CE driving, CSCS construction card, SIA security licence and future professional-practice drills.</p>
           <ul>
+            <li><span>Live</span> <a href="/apps/australian-citizenship-test/#embedded-citizenship-app">Australian Citizenship Test Practice</a></li>
             <li><span>Live</span> CE考牌練習App · £0.99</li>
             <li><span>Planned</span> CSCS Practice App</li>
             <li><span>Planned</span> SIA Security Licence Practice App</li>
@@ -4833,6 +4835,7 @@ const apps = pageShell({
       </div>
       <div class="metrics-grid">
         <article><strong>CE考牌練習App</strong><span>54 views · 0 orders · £0.99</span><p>Existing app-style product. Natural benchmark for future CSCS and SIA practice tools.</p></article>
+        <article><strong>Australian Citizenship Test Practice</strong><span>Live OTC Australia product</span><p>208-item bilingual question bank, 20-question mock flow, real exam-room timer, topic practice, visual atlas, flashcards and textbook-style study guide.</p></article>
         <article><strong>UCBELT Speaking Practice</strong><span>Live app · £0.99</span><p>Themed topic practice plus full mock sets, 640 bilingual vocabulary items and teacher mode.</p></article>
         <article><strong>IH Placement & Interview Practice</strong><span>Live public app</span><p>IH London-style online placement and speaking interview preparation with bilingual vocabulary, quiz and teacher notes.</p></article>
         <article><strong>英國SIA保安牌照 完全指南</strong><span>60 views · 0 orders · £2.99</span><p>Strongest listed view count in the supplied snapshot; candidate for SIA quiz/practice add-on.</p></article>
@@ -4848,11 +4851,12 @@ const apps = pageShell({
         <h2>A practical roadmap linked to Overseas Publishing.</h2>
       </div>
       <div class="pipeline-list">
-        <article><span>01</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
-        <article><span>02</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
-        <article><span>03</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
-        <article><span>04</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
-        <article><span>05</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
+        <article><span>01</span><strong>Australian Citizenship Test Practice</strong><p>Live Australia-facing bilingual product: 208-question bank, 154 flashcards, exam-room simulation and study-guide structure, ready for book, audiobook and mobile-app packaging.</p></article>
+        <article><span>02</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
+        <article><span>03</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
+        <article><span>04</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
+        <article><span>05</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
+        <article><span>06</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
       </div>
       <div style="height:22px"></div>
       <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products.</div>
@@ -4885,6 +4889,35 @@ const ucbelt = pageShell({
       </div>
       <div style="height:18px"></div>
       <p class="notice">Independent OTC practice resource. Not an official UCB publication, official UCB test paper, official question bank or guaranteed-score product.</p>
+    </section>
+  `
+});
+
+const australianCitizenshipTest = pageShell({
+  title: "Australian Citizenship Test Practice App | OTC Study Hub",
+  current: "apps",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Australia Digital Learning Product</div><h1>Australian Citizenship Test Practice App</h1><p>Independent English-Chinese practice product for Australian citizenship preparation, built as part of OTC's Australia-facing education, publishing and digital learning portfolio.</p><div class="actions"><a class="btn btn-primary" href="#embedded-citizenship-app">Use App Here</a><a class="btn btn-secondary" href="/apps/">All Tools</a></div></div></section>
+    <section class="band app-summary-band">
+      <div class="app-summary-strip">
+        <article><b>Question Bank</b><strong>208 items</strong><span>Bilingual question, options and explanation structure</span></article>
+        <article><b>Exam Room</b><strong>45 minutes</strong><span>Timer, reminders and realistic test flow</span></article>
+        <article><b>Practice</b><strong>4 chapters</strong><span>People, democracy, law and Australian values</span></article>
+        <article><b>Flashcards</b><strong>154 cards</strong><span>Mastered / unfamiliar tracking</span></article>
+      </div>
+      <p class="notice app-summary-note">Independent OTC bilingual practice resource. It is not an official Australian Government test paper, official question bank, immigration advice product or guarantee of citizenship-test success. Learners should read the current official Australian Citizenship: Our Common Bond resource before taking the real test.</p>
+    </section>
+    <section class="band compact-band" id="embedded-citizenship-app">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Embedded Practice App</div>
+        <h2>Use the Australian citizenship practice app inside OTC Study Hub.</h2>
+        <p>The current version is a working OTC Australia digital learning product: a 208-item bilingual practice bank, real exam-room mode, topic drills, true-question demonstration flow, flashcard system, visual atlas, weak-review area and a dense study-guide structure suitable for extension into print, comic, YouTube and audiobook formats.</p>
+      </div>
+      <div class="embedded-app-frame">
+        <iframe title="Australian Citizenship Test Practice App" src="/citizenship-australia/?embed=1" loading="lazy"></iframe>
+      </div>
+      <div style="height:18px"></div>
+      <p class="notice">Source basis: public Australian citizenship preparation topics from the Department of Home Affairs, including Australian Citizenship: Our Common Bond. The real test is conducted in English and official rules may change. This page is also evidence of OTC's Australia-facing digital learning and publishing product development; no Australian Government endorsement is implied.</p>
     </section>
   `
 });
@@ -6552,6 +6585,7 @@ write("guidance-progression", guidanceProgression);
 write("othm-level-5-business-management", othm);
 write("apps", apps);
 write("apps/ucbelt-speaking", ucbelt);
+write("apps/australian-citizenship-test", australianCitizenshipTest);
 write("resources", resources);
 write("australia-business-landing", australiaBusinessLanding);
 write("australia-office-presence", australiaOfficePresence);
