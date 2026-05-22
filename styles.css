@@ -7028,10 +7028,12 @@ h1 {
 
 .zh-insights-front {
   background: #e8e0d4;
-  padding: 34px 20px 22px;
+  padding: 34px 16px 22px;
 }
 
 .zh-insights-front-page {
+  width: min(var(--page-max), 100%);
+  max-width: var(--page-max);
   margin: 0 auto;
 }
 
