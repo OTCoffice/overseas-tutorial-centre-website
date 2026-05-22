@@ -5271,17 +5271,17 @@ const chineseEntrance = pageShell({
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",
-  description: "OTC Study Hub 中文頁：面向中文世界的免費學習平台，整合國際課程、學術英語、升學路線、練習工具、留學導報與 Overseas Publishing 雙語出版資源。",
+  description: "OTC Study Hub 中文頁：雙語世界｜免費學習平台，整合國際課程、學術英語、升學路線、練習工具、留學導報與 Overseas Publishing 雙語出版資源。",
   body: `
     <section class="hero zh-page zh-home-hero">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">中文世界 · 免費學習平台 · 留學申請 · 海外書局</div>
+          <div class="eyebrow">雙語世界 · 免費學習平台 · 留學申請 · 海外書局</div>
           <div class="hero-title-block zh-play-title">
             <h1>海外督導</h1>
             <h2 class="hero-subhead">Overseas Tutorial Centre</h2>
           </div>
-          <p>面向中文世界的開放學習平台：免費學習資源、升學路線、課程支持與雙語出版。</p>
+          <p>雙語世界的開放學習平台：免費學習資源、升學路線、課程支持與雙語出版。</p>
           <div class="hero-directory">
             <a href="#open-learning-platform"><strong>免費學習平台</strong><span>公開學習資源、練習工具、導報文章與雙語學習內容</span></a>
             <a href="/university-applications/"><strong>大學申請</strong><span>本科、碩士、博士、轉學與 advanced entry 文件整理</span></a>
@@ -5301,7 +5301,7 @@ const chineseEntrance = pageShell({
         <aside class="hero-panel zh-priority-panel">
           <div class="panel-label">快速入口</div>
           <div class="hub-map">
-            <div class="hub-item"><strong>免費學習平台</strong><span>面向中文世界逐步公開學習文章、練習工具、詞彙系統與雙語學習內容。</span></div>
+            <div class="hub-item"><strong>免費學習平台</strong><span>面向雙語學習者逐步公開學習文章、練習工具、詞彙系統與雙語學習內容。</span></div>
             <div class="hub-item"><strong>申請與轉學</strong><span>本科、研究生、pathway、轉學、advanced entry 與文件包整理。</span></div>
             <div class="hub-item"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持。</span></div>
             <div class="hub-item"><strong>海外書局</strong><span>出版、編譯、導報三個板塊集中呈現。</span></div>
@@ -5315,7 +5315,7 @@ const chineseEntrance = pageShell({
     <section class="band compact-band zh-open-learning-section" id="open-learning-platform">
       <div class="section-head compact-head">
         <div class="eyebrow">Open Learning Platform</div>
-        <h2>面向中文世界的免費學習平台</h2>
+        <h2>雙語世界｜免費學習平台</h2>
         <p>OTC 中文站的長期目標，是把留學、國際課程、學術英語、職業考試、海外生活與雙語知識整理成可公開閱讀、可反覆練習、可逐步擴展的免費學習系統。個別深度輔導、申請辦理、翻譯出版及機構服務另行承接。</p>
       </div>
       <div class="zh-open-learning-grid">
