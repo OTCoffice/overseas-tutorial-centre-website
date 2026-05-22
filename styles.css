@@ -524,6 +524,7 @@ h1 {
 .zh-home-hero,
 .zh-global-map-band,
 .zh-institutional-update-section,
+.zh-open-learning-section,
 .zh-route-updates-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
@@ -537,6 +538,7 @@ h1 {
 .zh-home-hero .eyebrow,
 .zh-global-map-band .eyebrow,
 .zh-institutional-update-section .institutional-update-head span,
+.zh-open-learning-section .eyebrow,
 .zh-route-updates-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
 .curriculum-overview .eyebrow {
@@ -586,6 +588,7 @@ h1 {
 }
 
 .zh-global-map-band .section-head h2,
+.zh-open-learning-section .section-head h2,
 .zh-route-updates-section .section-head h2,
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
@@ -598,6 +601,7 @@ h1 {
 }
 
 .zh-global-map-band .section-head p,
+.zh-open-learning-section .section-head p,
 .zh-route-updates-section .section-head p,
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
@@ -609,6 +613,7 @@ h1 {
 }
 
 .zh-institutional-update .institutional-update-cards strong,
+.zh-open-learning-grid strong,
 .zh-tool-link-list strong,
 .zh-publishing-gateway strong,
 .zh-compact-curriculum strong {
@@ -622,12 +627,14 @@ h1 {
 }
 
 .zh-tool-link-list strong,
+.zh-open-learning-grid strong,
 .zh-publishing-gateway strong,
 .zh-compact-curriculum strong {
   font-size: 16px;
 }
 
 .zh-tool-link-list span,
+.zh-open-learning-grid p,
 .zh-publishing-gateway span,
 .zh-compact-curriculum p,
 .zh-compact-curriculum em,
@@ -1061,6 +1068,73 @@ h1 {
   font-size: 13px;
   line-height: 1.45;
   margin-top: 6px;
+}
+
+.zh-open-learning-section {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(247, 242, 234, 0.96)),
+    #fffdf8;
+  border-top: 2px solid var(--navy);
+  border-bottom: 1px solid rgba(222, 211, 196, 0.82);
+}
+
+.zh-open-learning-section .section-head {
+  max-width: 960px;
+}
+
+.zh-open-learning-section .section-head h2 {
+  font-size: clamp(28px, 3.2vw, 40px);
+}
+
+.zh-open-learning-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 16px 40px rgba(6, 26, 47, 0.06);
+}
+
+.zh-open-learning-grid article {
+  min-height: 230px;
+  padding: 20px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+}
+
+.zh-open-learning-grid article:last-child {
+  border-right: 0;
+}
+
+.zh-open-learning-grid b {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+}
+
+.zh-open-learning-grid strong {
+  color: var(--navy);
+  display: block;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.zh-open-learning-grid p {
+  color: #4c596b;
+  margin: 10px 0 0;
+}
+
+.zh-open-learning-grid a {
+  border: 1px solid rgba(184, 138, 59, 0.42);
+  border-radius: 7px;
+  color: var(--navy);
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: auto;
+  padding: 7px 10px;
+  width: max-content;
 }
 
 .zh-route-updates-section {
@@ -9640,6 +9714,7 @@ h1 {
   .country-school-grid,
   .index-grid,
   .education-update-list,
+  .zh-open-learning-grid,
   .zh-publishing-gateway,
   .zh-publishing-tools,
   .zh-publishing-tool-list,
@@ -9766,6 +9841,17 @@ h1 {
   }
 
   .zh-publishing-tool-list a:last-child {
+    border-bottom: 0;
+  }
+
+  .zh-open-learning-grid article,
+  .zh-open-learning-grid article:last-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    min-height: 0;
+  }
+
+  .zh-open-learning-grid article:last-child {
     border-bottom: 0;
   }
 

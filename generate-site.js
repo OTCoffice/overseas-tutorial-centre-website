@@ -5271,91 +5271,92 @@ const chineseEntrance = pageShell({
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",
-  description: "OTC Study Hub 中文頁：教育諮詢、課程支持、國際課程雙語輔導、考試練習工具與 Overseas Publishing 雙語出版資源。",
+  description: "OTC Study Hub 中文頁：面向中文世界的免費學習平台，整合國際課程、學術英語、升學路線、練習工具、留學導報與 Overseas Publishing 雙語出版資源。",
   body: `
     <section class="hero zh-page zh-home-hero">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">中文入口 · 留學移民 · 課程工具 · 海外書局</div>
+          <div class="eyebrow">中文世界 · 免費學習平台 · 留學申請 · 海外書局</div>
           <div class="hero-title-block zh-play-title">
             <h1>海外督導</h1>
             <h2 class="hero-subhead">Overseas Tutorial Centre</h2>
           </div>
-          <p>留學、移民、出版；升學、轉學、教學。</p>
+          <p>面向中文世界的開放學習平台：免費學習資源、升學路線、課程支持與雙語出版。</p>
           <div class="hero-directory">
-            <a href="#global-study-map"><strong>全球留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、亞洲與歐洲主要目的地</span></a>
+            <a href="#open-learning-platform"><strong>免費學習平台</strong><span>公開學習資源、練習工具、導報文章與雙語學習內容</span></a>
             <a href="/university-applications/"><strong>大學申請</strong><span>本科、碩士、博士、轉學與 advanced entry 文件整理</span></a>
-            <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議與機構支持</span></a>
             <a href="/international-curriculum-tutoring/"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持</span></a>
-            <a href="/apps/"><strong>學習工具</strong><span>口語練習、placement、flashcards、quizzes 與導師模式</span></a>
             <a href="#overseas-publishing"><strong>海外書局</strong><span>出版物、編譯部、留學導報三個板塊</span></a>
+            <a href="#global-study-map"><strong>全球留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、亞洲與歐洲主要目的地</span></a>
+            <a href="/services/"><strong>服務與申請</strong><span>申請、翻譯、出版、學術監護、機構支持與專業轉介</span></a>
           </div>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#global-study-map">全球地圖</a>
+            <a class="btn btn-primary" href="#open-learning-platform">免費學習平台</a>
+            <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
             <a class="btn btn-secondary" href="/university-applications/">大學申請評估</a>
-            <a class="btn btn-secondary" href="/application-service-standards/">服務標準</a>
+            <a class="btn btn-secondary" href="#overseas-publishing">海外書局</a>
+            <a class="btn btn-secondary" href="#global-study-map">全球地圖</a>
           </div>
         </div>
         <aside class="hero-panel zh-priority-panel">
           <div class="panel-label">快速入口</div>
           <div class="hub-map">
-            <div class="hub-item"><strong>主要留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、愛爾蘭、新加坡、日本、韓國、香港與歐洲路線。</span></div>
-            <div class="hub-item"><strong>澳洲成熟路線</strong><span>澳洲辦公室、VET / TAFE、升學文件與市場支持頁面已建立。</span></div>
+            <div class="hub-item"><strong>免費學習平台</strong><span>面向中文世界逐步公開學習文章、練習工具、詞彙系統與雙語學習內容。</span></div>
             <div class="hub-item"><strong>申請與轉學</strong><span>本科、研究生、pathway、轉學、advanced entry 與文件包整理。</span></div>
+            <div class="hub-item"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持。</span></div>
             <div class="hub-item"><strong>海外書局</strong><span>出版、編譯、導報三個板塊集中呈現。</span></div>
-            <div class="hub-item"><strong>學習工具</strong><span>口語、placement、詞彙、mock test 和導師輔導工具逐步集中。</span></div>
+            <div class="hub-item"><strong>澳洲成熟路線</strong><span>澳洲辦公室、VET / TAFE、升學文件與市場支持頁面已建立。</span></div>
+            <div class="hub-item"><strong>主要留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、愛爾蘭、新加坡、日本、韓國、香港與歐洲路線。</span></div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="band compact-band zh-global-map-band" id="global-study-map">
+    <section class="band compact-band zh-open-learning-section" id="open-learning-platform">
       <div class="section-head compact-head">
-        <div class="eyebrow">Global Study Map</div>
-        <h2>主要留學國家入口</h2>
-        <p>點擊地圖上的國家文字，進入對應留學國家頁面。澳洲直接進入已成熟的澳洲辦公室路線。</p>
+        <div class="eyebrow">Open Learning Platform</div>
+        <h2>面向中文世界的免費學習平台</h2>
+        <p>OTC 中文站的長期目標，是把留學、國際課程、學術英語、職業考試、海外生活與雙語知識整理成可公開閱讀、可反覆練習、可逐步擴展的免費學習系統。個別深度輔導、申請辦理、翻譯出版及機構服務另行承接。</p>
       </div>
-      <div class="zh-global-gateway zh-global-map-wide">
-        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
-        <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
-        <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
+      <div class="zh-open-learning-grid">
+        <article>
+          <b>01</b>
+          <strong>公開課程與學習路線</strong>
+          <p>A-Level、BTEC、IB、AP、學術英語、升學準備與海外學習方法，逐步整理為中文學生可直接使用的學習地圖。</p>
+          <a href="/international-curriculum-tutoring/">查看課程支持</a>
+        </article>
+        <article>
+          <b>02</b>
+          <strong>練習工具與題庫</strong>
+          <p>口語練習、placement interview、citizenship test、詞彙卡、mock test 和 book-linked digital products 統一進入 Apps & Tools 體系。</p>
+          <a href="/apps/">打開 Apps & Tools</a>
+        </article>
+        <article>
+          <b>03</b>
+          <strong>留學導報與知識文章</strong>
+          <p>以中文文章解釋英澳申請文件、推薦信、personal statement、pathway、信託、海外生活與職業資格等實用主題。</p>
+          <a href="/zh/insights/">閱讀留學導報</a>
+        </article>
+        <article>
+          <b>04</b>
+          <strong>雙語出版與學習產品</strong>
+          <p>Overseas Publishing 將 study companions、PDF guides、practice apps、worksheet packs 和雙語出版項目沉澱為長期學習資產。</p>
+          <a href="#overseas-publishing">進入海外書局</a>
+        </article>
       </div>
+      <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；不構成錄取、簽證、考試通過、官方資格或專業意見保證。</p>
     </section>
 
-    <section class="band compact-band zh-institutional-update-section" id="centre-updates">
-      <div class="institutional-update-board zh-institutional-update">
-        <div class="institutional-update-head">
-          <span>機構公告 · 2026 年 5 月</span>
-          <h2>中心狀態與澳洲辦公室更新</h2>
-          <p>本欄收錄 OTC 對外公開的中心狀態、辦公室建設與重要機構安排。具體證書、郵件與內部審核材料由 OTC 文件系統另行保存。</p>
-        </div>
-        <div class="institutional-update-cards">
-          <article>
-            <b>中心狀態</b>
-            <strong>OTHM approved centre status 已完成續期</strong>
-            <p>Overseas Tutorial Centre 已完成 OTHM approved centre renewal。中心號碼為 <em>DC1802235</em>，本次批准有效期至 <em>2031 年 6 月 30 日</em>。</p>
-            <a href="/othm-qualifications/">查看 OTHM 資格路線</a>
-          </article>
-          <article>
-            <b>澳洲辦公室</b>
-            <strong>Georgie Barnes 正式受任 OTC Australia 執行董事</strong>
-            <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
-            <a href="/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-route-updates-section">
+    <section class="band compact-band curriculum-overview">
       <div class="section-head compact-head">
-        <div class="eyebrow">申請支持</div>
-        <h2>升學申請支持入口</h2>
-        <p>這裡集中放置正在使用的申請評估、文件準備與路線說明，方便已開始規劃升學的學生與家長直接進入下一步。</p>
+        <div class="eyebrow">國際課程輔導</div>
+        <h2>課程輔導</h2>
+        <p>OTC 支持正在修讀 A-Level、BTEC、IB、AP 及相關國際課程的中國 EAL 學生，把學科理解轉化為英文學術輸出。</p>
       </div>
-      <div class="zh-tool-link-list zh-route-update-list">
-        <a href="/zh/study-group-2026-applications/"><strong>Study Group 2026 申請支持</strong><span>英國及國際 pathway、foundation、直入與銜接路線的初步評估。</span></a>
-        <a href="/university-applications/"><strong>大學申請初步評估</strong><span>按國別、院校、學院與課程整理基本條件、文件清單與下一步建議。</span></a>
-        <a href="/zh/insights/uk-aus-application-documents-checklist/"><strong>英澳申請文件準備</strong><span>申請前核對成績單、推薦信、個人陳述、作品集或補充材料。</span></a>
+      <div class="curriculum-map zh-compact-curriculum">${zhInternationalCurriculumCards(4)}</div>
+      <div class="zh-compact-action">
+        <p>重點是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
+        <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
       </div>
     </section>
 
@@ -5400,16 +5401,53 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band curriculum-overview">
+    <section class="band compact-band zh-route-updates-section">
       <div class="section-head compact-head">
-        <div class="eyebrow">國際課程輔導</div>
-        <h2>課程輔導</h2>
-        <p>OTC 支持正在修讀 A-Level、BTEC、IB、AP 及相關國際課程的中國 EAL 學生，把學科理解轉化為英文學術輸出。</p>
+        <div class="eyebrow">服務與申請</div>
+        <h2>升學申請支持入口</h2>
+        <p>當學生需要個別評估、文件整理或正式申請協助時，可從這裡進入 OTC 的服務層。免費學習內容負責普及與準備，個案服務負責具體路線判斷與辦理。</p>
       </div>
-      <div class="curriculum-map zh-compact-curriculum">${zhInternationalCurriculumCards(4)}</div>
-      <div class="zh-compact-action">
-        <p>重點是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
-        <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
+      <div class="zh-tool-link-list zh-route-update-list">
+        <a href="/zh/study-group-2026-applications/"><strong>Study Group 2026 申請支持</strong><span>英國及國際 pathway、foundation、直入與銜接路線的初步評估。</span></a>
+        <a href="/university-applications/"><strong>大學申請初步評估</strong><span>按國別、院校、學院與課程整理基本條件、文件清單與下一步建議。</span></a>
+        <a href="/zh/insights/uk-aus-application-documents-checklist/"><strong>英澳申請文件準備</strong><span>申請前核對成績單、推薦信、個人陳述、作品集或補充材料。</span></a>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-global-map-band" id="global-study-map">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Global Study Map</div>
+        <h2>主要留學國家入口</h2>
+        <p>點擊地圖上的國家文字，進入對應留學國家頁面。澳洲直接進入已成熟的澳洲辦公室路線。</p>
+      </div>
+      <div class="zh-global-gateway zh-global-map-wide">
+        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
+        <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
+        <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-institutional-update-section" id="centre-updates">
+      <div class="institutional-update-board zh-institutional-update">
+        <div class="institutional-update-head">
+          <span>機構公告 · 2026 年 5 月</span>
+          <h2>中心狀態與澳洲辦公室更新</h2>
+          <p>本欄收錄 OTC 對外公開的中心狀態、辦公室建設與重要機構安排。具體證書、郵件與內部審核材料由 OTC 文件系統另行保存。</p>
+        </div>
+        <div class="institutional-update-cards">
+          <article>
+            <b>中心狀態</b>
+            <strong>OTHM approved centre status 已完成續期</strong>
+            <p>Overseas Tutorial Centre 已完成 OTHM approved centre renewal。中心號碼為 <em>DC1802235</em>，本次批准有效期至 <em>2031 年 6 月 30 日</em>。</p>
+            <a href="/othm-qualifications/">查看 OTHM 資格路線</a>
+          </article>
+          <article>
+            <b>澳洲辦公室</b>
+            <strong>Georgie Barnes 正式受任 OTC Australia 執行董事</strong>
+            <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
+            <a href="/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
+          </article>
+        </div>
       </div>
     </section>
 
