@@ -7026,6 +7026,39 @@ h1 {
   overflow: hidden;
 }
 
+.zh-herald-article-page {
+  max-width: min(1180px, calc(100% - 40px));
+  background: transparent;
+  box-shadow: none;
+}
+
+.zh-herald-article-page .zh-herald-masthead,
+.zh-herald-article-page .zh-herald-section-bar,
+.zh-herald-article-page .zh-herald-hero {
+  box-shadow: 0 8px 60px rgba(0, 0, 0, 0.14);
+}
+
+.zh-herald-article-page .zh-herald-masthead {
+  border-radius: 3px 3px 0 0;
+}
+
+.zh-herald-article-page .zh-herald-body-grid,
+.zh-herald-article-page .zh-herald-infographic,
+.zh-herald-article-page .zh-herald-footer {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zh-herald-article-page .zh-herald-body-grid {
+  background: #faf6ef;
+}
+
+.zh-herald-article-page .zh-herald-infographic,
+.zh-herald-article-page .zh-herald-footer {
+  box-shadow: 0 8px 60px rgba(0, 0, 0, 0.12);
+}
+
 .zh-insights-front {
   background: #e8e0d4;
   padding: 34px 20px 22px;

@@ -2436,7 +2436,7 @@ function zhArticleMagazineBody(article) {
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
 
   return `
-    <div class="zh-herald-page">
+    <div class="zh-herald-page zh-herald-article-page">
       <div class="zh-herald-masthead">
         <div>
           <div class="zh-herald-name-en">Overseas Study Review</div>
