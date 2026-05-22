@@ -521,6 +521,134 @@ h1 {
   font-size: clamp(16px, 1.6vw, 21px);
 }
 
+.zh-home-hero,
+.zh-global-map-band,
+.zh-institutional-update-section,
+.zh-route-updates-section,
+.zh-publishing-gateway-section,
+.curriculum-overview,
+.zh-tools-section,
+.zh-site-guide-section {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+}
+
+.zh-home-hero .hero-inner {
+  padding: 46px 0 44px;
+}
+
+.zh-home-hero .eyebrow,
+.zh-global-map-band .eyebrow,
+.zh-institutional-update-section .institutional-update-head span,
+.zh-route-updates-section .eyebrow,
+.zh-publishing-gateway-section .eyebrow,
+.curriculum-overview .eyebrow,
+.zh-tools-section .eyebrow,
+.zh-site-guide-section .eyebrow {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.zh-home-hero .hero-title-block {
+  margin-top: 18px;
+}
+
+.zh-home-hero .hero-title-block h1 {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-size: clamp(34px, 4.5vw, 48px);
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+}
+
+.zh-home-hero .hero-subhead {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-size: clamp(14px, 1.4vw, 17px);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-top: 8px;
+}
+
+.hero.zh-home-hero p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.9;
+  margin-top: 16px;
+}
+
+.zh-home-hero .hero-actions {
+  margin-top: 22px;
+}
+
+.zh-home-hero .btn {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+  min-height: 42px;
+  padding: 10px 16px;
+}
+
+.zh-global-map-band .section-head h2,
+.zh-route-updates-section .section-head h2,
+.zh-publishing-gateway-section .section-head h2,
+.curriculum-overview .section-head h2,
+.zh-tools-section .section-head h2,
+.zh-site-guide-section .section-head h2,
+.zh-institutional-update .institutional-update-head h2 {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 1.28;
+}
+
+.zh-global-map-band .section-head p,
+.zh-route-updates-section .section-head p,
+.zh-publishing-gateway-section .section-head p,
+.curriculum-overview .section-head p,
+.zh-tools-section .section-head p,
+.zh-site-guide-section .section-head p,
+.zh-institutional-update .institutional-update-head p,
+.zh-institutional-update .institutional-update-cards p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.95;
+}
+
+.zh-institutional-update .institutional-update-cards strong,
+.zh-tool-link-list strong,
+.zh-publishing-gateway strong,
+.zh-compact-curriculum strong,
+.zh-site-guide-grid strong {
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-weight: 900;
+  line-height: 1.38;
+}
+
+.zh-institutional-update .institutional-update-cards strong {
+  font-size: 18px;
+}
+
+.zh-tool-link-list strong,
+.zh-publishing-gateway strong,
+.zh-compact-curriculum strong,
+.zh-site-guide-grid strong {
+  font-size: 16px;
+}
+
+.zh-tool-link-list span,
+.zh-publishing-gateway span,
+.zh-compact-curriculum p,
+.zh-compact-curriculum em,
+.zh-site-guide-grid span,
+.zh-compact-action p,
+.source-note {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
 .zh-landing-card {
   min-height: 0;
   border-radius: 8px;
@@ -5525,23 +5653,24 @@ h1 {
 }
 
 .zh-institutional-update .institutional-update-head h2 {
-  font-size: clamp(24px, 2.5vw, 34px);
+  font-size: clamp(22px, 2.6vw, 30px);
+  line-height: 1.28;
 }
 
 .zh-institutional-update .institutional-update-head p,
 .zh-institutional-update .institutional-update-cards p {
   color: #4f5968;
-  font-size: 15px;
-  line-height: 1.72;
+  font-size: 14px;
+  line-height: 1.95;
 }
 
 .zh-institutional-update .institutional-update-cards strong {
-  font-size: 22px;
-  line-height: 1.25;
+  font-size: 18px;
+  line-height: 1.38;
 }
 
 .zh-institutional-update .institutional-update-cards article {
-  min-height: 285px;
+  min-height: 255px;
 }
 
 .coordination-illustration {
