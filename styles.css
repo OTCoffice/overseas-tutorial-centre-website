@@ -527,8 +527,7 @@ h1 {
 .zh-route-updates-section,
 .zh-publishing-gateway-section,
 .curriculum-overview,
-.zh-tools-section,
-.zh-site-guide-section {
+.zh-tools-section {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
 }
 
@@ -542,8 +541,7 @@ h1 {
 .zh-route-updates-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
 .curriculum-overview .eyebrow,
-.zh-tools-section .eyebrow,
-.zh-site-guide-section .eyebrow {
+.zh-tools-section .eyebrow {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 11px;
   font-weight: 700;
@@ -594,7 +592,6 @@ h1 {
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
 .zh-tools-section .section-head h2,
-.zh-site-guide-section .section-head h2,
 .zh-institutional-update .institutional-update-head h2 {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-size: clamp(22px, 2.6vw, 30px);
@@ -608,7 +605,6 @@ h1 {
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
 .zh-tools-section .section-head p,
-.zh-site-guide-section .section-head p,
 .zh-institutional-update .institutional-update-head p,
 .zh-institutional-update .institutional-update-cards p {
   font-size: 14px;
@@ -619,8 +615,7 @@ h1 {
 .zh-institutional-update .institutional-update-cards strong,
 .zh-tool-link-list strong,
 .zh-publishing-gateway strong,
-.zh-compact-curriculum strong,
-.zh-site-guide-grid strong {
+.zh-compact-curriculum strong {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-weight: 900;
   line-height: 1.38;
@@ -632,8 +627,7 @@ h1 {
 
 .zh-tool-link-list strong,
 .zh-publishing-gateway strong,
-.zh-compact-curriculum strong,
-.zh-site-guide-grid strong {
+.zh-compact-curriculum strong {
   font-size: 16px;
 }
 
@@ -641,7 +635,6 @@ h1 {
 .zh-publishing-gateway span,
 .zh-compact-curriculum p,
 .zh-compact-curriculum em,
-.zh-site-guide-grid span,
 .zh-compact-action p,
 .source-note {
   font-size: 13px;
@@ -1091,19 +1084,6 @@ h1 {
 .zh-route-update-list a {
   background: #fff;
   min-height: 150px;
-}
-
-.zh-site-guide-section {
-  background: #fffdf8;
-  border-top: 1px solid rgba(222, 211, 196, 0.75);
-}
-
-.zh-site-guide-section .section-head h2 {
-  font-size: clamp(24px, 2.4vw, 34px);
-}
-
-.zh-site-guide-grid article {
-  background: rgba(255, 255, 255, 0.76);
 }
 
 .hero p {
