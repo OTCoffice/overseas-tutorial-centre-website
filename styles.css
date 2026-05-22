@@ -1389,7 +1389,7 @@ h1 {
 
 .zh-review-departments {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0;
   margin-top: 14px;
   background: #fff;
@@ -1399,8 +1399,8 @@ h1 {
 }
 
 .zh-review-departments article {
-  min-height: 132px;
-  padding: 18px;
+  min-height: 148px;
+  padding: 16px;
   border-right: 1px solid var(--line);
   background: linear-gradient(180deg, #fff, #fbf6ed);
 }
@@ -1419,7 +1419,7 @@ h1 {
 .zh-review-departments strong {
   display: block;
   color: var(--navy);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.15;
   margin-top: 12px;
 }
@@ -1437,6 +1437,25 @@ h1 {
 .zh-review-departments em {
   color: #7a6331;
   font-weight: 850;
+}
+
+.zh-review-format-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.zh-review-format-strip span {
+  background: #fbf6ed;
+  border: 1px solid var(--line);
+  border-left: 3px solid #b5272d;
+  border-radius: 7px;
+  color: #4d5968;
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.45;
+  padding: 10px 12px;
 }
 
 .zh-review-list {
@@ -7123,6 +7142,22 @@ h1 {
   background: #b5272d;
 }
 
+.zh-herald-trust-card + .zh-herald-trust-card {
+  margin-top: 8px;
+}
+
+.zh-herald-trust-card.unit::before {
+  background: #1e6b6b;
+}
+
+.zh-herald-trust-card.will::before {
+  background: #c8952a;
+}
+
+.zh-herald-trust-card.smsf::before {
+  background: #7a5cad;
+}
+
 .zh-herald-card-name {
   color: #1a1410;
   font-size: 13px;
@@ -7151,6 +7186,44 @@ h1 {
   letter-spacing: 0.06em;
   padding: 2px 6px;
   margin-top: 7px;
+}
+
+.zh-herald-cost-row {
+  margin-bottom: 12px;
+}
+
+.zh-herald-cost-row div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.zh-herald-cost-row strong {
+  color: #3d2f22;
+  font-size: 11px;
+}
+
+.zh-herald-cost-row span {
+  color: #7a6552;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.zh-herald-cost-row i {
+  display: block;
+  height: 8px;
+  background: #e8dece;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.zh-herald-cost-row em {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #c8952a, #e8b84b);
 }
 
 .zh-herald-check-item {

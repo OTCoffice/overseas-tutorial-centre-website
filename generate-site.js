@@ -1608,6 +1608,97 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "australia-trust-guide",
+    title: "How to Find a Lawyer and Set Up a Family Trust in Australia",
+    date: "2026-05-22",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "澳洲信託完全指南",
+    author: "留學導報法律財務組",
+    summary: "A practical guide for Australia-based families comparing trust types, lawyer selection, setup costs and key compliance risks before speaking with a solicitor and accountant.",
+    titleZh: "在澳洲如何找律師設立家庭信託",
+    summaryZh: "信託是澳洲華人家庭常見的資產保護與稅務規劃工具。本文整理四大信託類型、如何物色律師、費用估算與設立流程，協助讀者在首次諮詢前做到心中有數。",
+    body: [
+      {
+        heading: "1) What a Trust Is and Why It Is Common in Australia",
+        paragraphs: [
+          "A trust is a legal arrangement where a trustee holds and manages assets for the benefit of beneficiaries. In Australia, family trusts are widely used for asset protection, succession planning and flexible income distribution.",
+          "A trust is not a tax avoidance tool. It is a legal structure that must be set up and administered properly with professional advice from a solicitor and accountant."
+        ]
+      },
+      {
+        heading: "2) What Type of Lawyer You Need",
+        paragraphs: [
+          "Trust setup usually sits within commercial law, trusts, estate planning and business structuring. When checking a law firm's website, look for services such as Estate Planning, Asset Protection, Business Structures or Trusts and Succession.",
+          "A solicitor normally prepares the trust deed. An accountant usually assists with tax registration, ABN/TFN matters and ongoing annual compliance."
+        ]
+      },
+      {
+        heading: "3) What to Prepare Before the First Consultation",
+        paragraphs: [
+          "Before meeting a solicitor, prepare the asset types the trust may hold, the intended beneficiaries, the main purpose of the trust, residency status and any overseas assets that may affect the structure.",
+          "If the information is complete, a straightforward trust setup may often move from consultation to signed deed, tax registration and bank-account opening within a few weeks."
+        ]
+      },
+      {
+        heading: "4) Key Compliance Risks",
+        paragraphs: [
+          "Trustees should pay careful attention to annual income distribution resolutions before the end of the financial year, state-based property surcharges and the choice between individual and corporate trustees.",
+          "This article is general information only and does not constitute legal, tax, migration or financial advice."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "什麼是信託？為什麼在澳洲如此普遍？",
+        paragraphs: [
+          "在澳洲，信託（Trust）是一種法律安排：受託人（Trustee）為受益人（Beneficiary）的利益持有並管理資產。與公司架構相比，信託結合了靈活的收入分配、較強的資產保護，以及可觀的稅務效率，是澳洲中產及高淨值華人家庭常用的財富工具之一。",
+          "信託不是逃稅工具，而是合法的財富保護與傳承結構。它需要由律師、會計師和稅務顧問根據家庭資產、居住身份與長期目標共同規劃。"
+        ]
+      },
+      {
+        heading: "你需要哪一類律師？",
+        paragraphs: [
+          "設立信託屬於商業法 / 信託與遺產規劃（Commercial Law / Trusts & Estate Planning）範疇，並非普通民事或移民律師的專業。在搜尋律師時，官網上應明確列出 Estate Planning、Asset Protection、Business Structures 或 Trusts & Succession 等服務項目。",
+          "在澳洲，律師負責起草信託契約（Trust Deed），會計師負責後續稅務登記與年度申報。實際操作中，兩者需要緊密配合；如你已有澳洲會計師，可請他推薦合作的信託律師。"
+        ]
+      },
+      {
+        heading: "首次諮詢：你應準備什麼？",
+        paragraphs: [
+          "初次與律師會面前，應清楚說明信託預計持有哪些資產，例如物業、股票、商業權益等；也要列出受益人範圍，例如配偶、子女、相關公司或其他家庭成員。",
+          "同時要說明設立信託的主要目的、你的居住身份，以及是否有海外資產。若資料齊備，從首次諮詢至信託正式生效，通常可在數週內完成，包括起草信託契約、簽署、ATO 登記與開設信託銀行帳戶。"
+        ]
+      },
+      {
+        heading: "三大注意事項",
+        paragraphs: [
+          "第一，每年 6 月 30 日前通常需要作出收入分配決議（Resolution）。如未妥善處理，信託收入可能面臨不利稅務結果，這是常見合規風險。",
+          "第二，若信託持有物業，要留意各州對外籍人士、海外信託或特定土地持有結構的附加印花稅與土地稅規則。",
+          "第三，公司受託人（Corporate Trustee）通常比個人受託人更適合長期資產保護與責任隔離，但設立與維護成本較高，需與律師和會計師確認。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["家庭信託", "Family / Discretionary Trust", "受託人靈活分配收入予家庭成員，適合資產保護與家族稅務規劃。", "常見"],
+      ["單位信託", "Unit Trust", "各受益人持有固定單位，適合多人共同持有投資物業或商業資產。", "聯合投資"],
+      ["遺囑信託", "Testamentary Trust", "透過遺囑設立，去世後生效，常用於遺產與未成年子女保護。", "遺產規劃"],
+      ["自管退休金", "SMSF", "信託形式的退休金結構，監管要求嚴格，需要專門顧問協助。", "專業門檻"]
+    ],
+    costBars: [
+      ["家庭信託律師費", "A$1,500-3,500", 55],
+      ["公司受託人設立", "+A$1,000-1,500", 35],
+      ["單位信託律師費", "A$2,500-5,000", 75],
+      ["ATO 登記 TFN/ABN", "免費", 4]
+    ],
+    resources: [
+      ["NSW Law Society", "lawsociety.com.au"],
+      ["Law Institute of Victoria", "liv.asn.au"],
+      ["Queensland Law Society", "qls.com.au"],
+      ["Australian Taxation Office", "ato.gov.au/trusts"]
+    ]
+  },
+  {
     slug: "reference-letter-briefing-pack-uk-aus",
     title: "Reference Letters for UK & Australia Applications: A Simple Referee-Briefing Pack",
     date: "2026-05-22",
@@ -2186,26 +2277,77 @@ function zhIssueDate(date = "") {
   return `${match[1]}年${Number(match[2])}月${Number(match[3])}日`;
 }
 
-const zhReviewCategoryNames = {
-  "University Applications": "大學申請",
-  "UK Applications": "英國申請",
-  "Australia Pathways": "澳新路線",
-  "Pathway Planning": "升學路線"
+const zhReviewColumns = [
+  {
+    key: "study",
+    name: "留學升學",
+    scope: "英澳升學路線、UCAS 申請、Foundation vs 直入",
+    tagline: "旅澳華人 · 留學移民 · 升學規劃",
+    audience: "適合讀者：學生、家長、升學顧問"
+  },
+  {
+    key: "settlement",
+    name: "移居安家",
+    scope: "簽證、生活、租房、選區",
+    tagline: "旅澳華人 · 留學移民 · 生活安置",
+    audience: "適合讀者：新移居家庭、陪讀家長、留學生"
+  },
+  {
+    key: "wealth",
+    name: "財富規劃",
+    scope: "信託、物業投資、稅務、退休金",
+    tagline: "旅澳華人 · 留學移民 · 財富規劃",
+    audience: "適合讀者：在澳華人家庭、投資者"
+  },
+  {
+    key: "licensing",
+    name: "職業考牌",
+    scope: "駕照、CSCS、行業資格",
+    tagline: "旅澳華人 · 留學移民 · 職業資格",
+    audience: "適合讀者：求職者、轉行人士、技能路線學生"
+  },
+  {
+    key: "business",
+    name: "創業自雇",
+    scope: "公司設立、PAYE、商業結構",
+    tagline: "旅澳華人 · 留學移民 · 創業自雇",
+    audience: "適合讀者：創業者、自雇人士、小企業家庭"
+  },
+  {
+    key: "culture",
+    name: "學術文化",
+    scope: "文學、歷史、評論",
+    tagline: "旅澳華人 · 留學移民 · 學術文化",
+    audience: "適合讀者：學生、家長、文化與教育讀者"
+  }
+];
+
+const zhReviewColumnByKey = Object.fromEntries(zhReviewColumns.map((column) => [column.key, column]));
+
+const zhReviewCategoryToColumn = {
+  "University Applications": "study",
+  "UK Applications": "study",
+  "Australia Pathways": "study",
+  "Pathway Planning": "study",
+  "Wealth Planning": "wealth"
 };
 
+function zhReviewColumnForArticle(article) {
+  return zhReviewColumnByKey[article.column] || zhReviewColumnByKey[zhReviewCategoryToColumn[article.category]] || zhReviewColumns[0];
+}
+
 function zhReviewCategoryLabel(category) {
-  return zhReviewCategoryNames[category] || category;
+  return zhReviewColumnForArticle({ category }).name;
 }
 
 function zhReviewDepartmentCards() {
-  const categories = [...new Set(insightsArticles.map((article) => article.category))];
-  return categories.map((category, index) => {
-    const count = insightsArticles.filter((article) => article.category === category).length;
+  return zhReviewColumns.map((column, index) => {
+    const count = insightsArticles.filter((article) => zhReviewColumnForArticle(article).key === column.key).length;
     return `
       <article>
         <b>${String(index + 1).padStart(2, "0")}</b>
-        <strong>${zhReviewCategoryLabel(category)}</strong>
-        <span>${category}</span>
+        <strong>${column.name}</strong>
+        <span>${column.scope}</span>
         <em>${count} 篇</em>
       </article>
     `;
@@ -2222,6 +2364,7 @@ function zhArticleMagazineBody(article) {
   const readingMinutes = Math.max(5, Math.ceil(cleanedSections.reduce((sum, section) => {
     return sum + section.heading.length + section.paragraphs.join("").length;
   }, 0) / 520));
+  const reviewColumn = zhReviewColumnForArticle(article);
   const firstSection = cleanedSections[0];
   const checklist = cleanedSections.slice(0, 7);
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
@@ -2232,22 +2375,22 @@ function zhArticleMagazineBody(article) {
         <div>
           <div class="zh-herald-name-en">Overseas Study Review</div>
           <div class="zh-herald-name-zh">留學導報</div>
-          <div class="zh-herald-tagline">海外書局 · 出版 · 編譯 · 導報</div>
+          <div class="zh-herald-tagline">${reviewColumn.tagline}</div>
         </div>
         <div class="zh-herald-meta">
-          <div><strong>${article.category}</strong></div>
+          <div><strong>${reviewColumn.name}</strong></div>
           <div>${issueMonth}</div>
           <div>${article.author}</div>
           <div>overseasuk.com/insights</div>
         </div>
       </div>
       <div class="zh-herald-section-bar">
-        <div class="zh-herald-section-tag">${article.category}</div>
+        <div class="zh-herald-section-tag">${reviewColumn.name}</div>
         <div class="zh-herald-section-line"></div>
         <time>${zhIssueDate(article.date)}</time>
       </div>
       <header class="zh-herald-hero">
-        <div class="zh-herald-kicker">留學導報 · 中文正文</div>
+        <div class="zh-herald-kicker">${article.kicker || `${reviewColumn.name}專題`}</div>
         <h1>${article.titleZh || article.title}</h1>
         <p class="zh-herald-standfirst">${article.summaryZh || article.summary}</p>
         <div class="zh-herald-byline">
@@ -2255,7 +2398,7 @@ function zhArticleMagazineBody(article) {
           <i></i>
           <span>閱讀時間約 ${readingMinutes} 分鐘</span>
           <i></i>
-          <span>English reference included</span>
+          <span>${reviewColumn.audience}</span>
         </div>
       </header>
       <div class="zh-herald-body-grid">
@@ -2289,11 +2432,41 @@ function zhArticleMagazineBody(article) {
           <div class="zh-herald-widget">
             <div class="zh-herald-widget-title">本文速讀</div>
             <div class="zh-herald-trust-card family">
-              <div class="zh-herald-card-name">${article.category}</div>
-              <div class="zh-herald-card-en">Overseas Study Review</div>
+              <div class="zh-herald-card-name">${reviewColumn.name}</div>
+              <div class="zh-herald-card-en">${article.category}</div>
               <div class="zh-herald-card-desc">${article.summaryZh || article.summary}</div>
               <span class="zh-herald-badge">導報主題</span>
             </div>
+          </div>
+          ${article.sidebarCards ? `
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">類型速查</div>
+              ${article.sidebarCards.map((card, index) => `
+                <div class="zh-herald-trust-card ${["family", "unit", "will", "smsf"][index % 4]}">
+                  <div class="zh-herald-card-name">${card[0]}</div>
+                  <div class="zh-herald-card-en">${card[1]}</div>
+                  <div class="zh-herald-card-desc">${card[2]}</div>
+                  <span class="zh-herald-badge">${card[3]}</span>
+                </div>
+              `).join("")}
+            </div>
+          ` : ""}
+          ${article.costBars ? `
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">費用參考</div>
+              ${article.costBars.map((bar) => `
+                <div class="zh-herald-cost-row">
+                  <div><strong>${bar[0]}</strong><span>${bar[1]}</span></div>
+                  <i><em style="width:${bar[2]}%"></em></i>
+                </div>
+              `).join("")}
+            </div>
+          ` : ""}
+          <div class="zh-herald-widget">
+            <div class="zh-herald-widget-title">欄目定位</div>
+            <div class="zh-herald-check-item">正文負責深度：完整解釋背景、流程與風險。</div>
+            <div class="zh-herald-check-item">側欄負責速查：讀者可快速掃描重點。</div>
+            <div class="zh-herald-check-item">信息圖負責記憶：流程、比較與數據集中呈現。</div>
           </div>
           <div class="zh-herald-widget">
             <div class="zh-herald-widget-title">閱讀清單</div>
@@ -2308,6 +2481,17 @@ function zhArticleMagazineBody(article) {
               </div>
             `).join("")}
           </div>
+          ${article.resources ? `
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">官方查詢資源</div>
+              ${article.resources.map((resource) => `
+                <div class="zh-herald-resource-item">
+                  <div class="zh-herald-resource-icon">↗</div>
+                  <div><div class="zh-herald-resource-name">${resource[0]}</div><div class="zh-herald-resource-url">${resource[1]}</div></div>
+                </div>
+              `).join("")}
+            </div>
+          ` : ""}
         </aside>
       </div>
       <section class="zh-herald-infographic">
@@ -4686,20 +4870,26 @@ const chineseEntrance = pageShell({
         <div>
           <span>Overseas Publishing House</span>
           <strong>留學導報</strong>
-          <p>以導報文章版面組織內容：每個欄目對應一類申請、升學或路線 briefing，點擊列表即可進入完整中文正文。</p>
+          <p>以「正文深度、側欄速查、信息圖記憶」三層結構組織內容。欄目固定分為六類；讀者可先按版面分類定位，再點擊文章進入完整中文正文。</p>
         </div>
         <aside>
           <b>版面分類</b>
-          <em>Applications · Pathways · Documents</em>
+          <em>留學升學 · 移居安家 · 財富規劃 · 職業考牌 · 創業自雇 · 學術文化</em>
         </aside>
       </div>
       <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
+      <div class="zh-review-format-strip">
+        <span>固定版面：報頭 · 欄目標籤欄 · 頁腳</span>
+        <span>正文：分節 · 引言 · 提示框 · 免責聲明</span>
+        <span>速查：側欄卡片 · 清單 · 官方資源</span>
+        <span>視覺：流程圖 · 對比表 · 數據橫條</span>
+      </div>
       <div class="zh-review-list">
         ${insightsArticles.map((article) => `
           <article class="zh-review-row">
             <div class="zh-review-row-meta">
               <time>${article.date}</time>
-              <span>${zhReviewCategoryLabel(article.category)}</span>
+              <span>${zhReviewColumnForArticle(article).name}</span>
             </div>
             <div class="zh-review-row-body">
               <h3>${article.titleZh || article.title}</h3>
