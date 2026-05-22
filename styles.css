@@ -5487,6 +5487,35 @@ h1 {
   color: var(--gold);
 }
 
+.zh-institutional-update-section {
+  background:
+    linear-gradient(180deg, rgba(248, 245, 239, 0.68), rgba(255, 253, 248, 0.2));
+}
+
+.zh-institutional-update {
+  border-color: rgba(184, 138, 59, 0.28);
+}
+
+.zh-institutional-update .institutional-update-head h2 {
+  font-size: clamp(24px, 2.5vw, 34px);
+}
+
+.zh-institutional-update .institutional-update-head p,
+.zh-institutional-update .institutional-update-cards p {
+  color: #4f5968;
+  font-size: 15px;
+  line-height: 1.72;
+}
+
+.zh-institutional-update .institutional-update-cards strong {
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.zh-institutional-update .institutional-update-cards article {
+  min-height: 285px;
+}
+
 .coordination-illustration {
   background:
     linear-gradient(180deg, rgba(255, 253, 248, 0.82), rgba(255, 255, 255, 0.92)),
