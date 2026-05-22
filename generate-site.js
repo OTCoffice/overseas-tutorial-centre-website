@@ -1506,6 +1506,80 @@ function applicationCountryCards() {
   `).join("");
 }
 
+const transnationalEducationGroups = [
+  {
+    name: "Study Group",
+    focus: "UK, Europe and North America pathway and direct-entry routes",
+    note: "Foundation, International Year One, Pre-Master and selected direct-entry application screening for July-December 2026 intakes.",
+    url: "/study-group-2026-applications/",
+    band: "2026 intake window"
+  },
+  {
+    name: "Kaplan International Pathways",
+    focus: "UK, Australia and New Zealand pathway routes",
+    note: "Kaplan Australia / New Zealand and wider pathway-provider channels where current rules and eligibility allow screening.",
+    url: "/insights/australia-new-zealand-provider-pathway-updates-2026/",
+    band: "Pathway provider"
+  },
+  {
+    name: "Navitas",
+    focus: "Australia, UK and global college pathway routes",
+    note: "College-based foundation, diploma and university progression routes, including Australia-facing pathway research records.",
+    url: "/insights/australia-new-zealand-provider-pathway-updates-2026/",
+    band: "College pathway"
+  },
+  {
+    name: "INTO University Partnerships",
+    focus: "UK, US and international pathway routes",
+    note: "International foundation, graduate preparation and direct-entry screening where a current provider route is relevant.",
+    url: "/university-applications/?country=Education%20Group%20%2F%20Pathway%20Provider&institution=INTO%20University%20Partnerships#programme-directory",
+    band: "Pathway provider"
+  },
+  {
+    name: "Cambridge Education Group",
+    focus: "UK and international pathway routes",
+    note: "Foundation, ONCAMPUS-style preparation and university progression screening subject to current provider availability.",
+    url: "/university-applications/?country=Education%20Group%20%2F%20Pathway%20Provider&institution=Cambridge%20Education%20Group#programme-directory",
+    band: "Preparation route"
+  },
+  {
+    name: "Oxford International Education Group",
+    focus: "UK pathway and English preparation routes",
+    note: "Pathway, English preparation and partner-university screening where course level and intake timing can be verified.",
+    url: "/university-applications/?country=Education%20Group%20%2F%20Pathway%20Provider&institution=Oxford%20International%20Education%20Group#programme-directory",
+    band: "Provider route"
+  },
+  {
+    name: "UP Education / HANZ",
+    focus: "New Zealand diploma and progression routes",
+    note: "New Zealand provider updates and international-entry screening, including selected nursing and diploma routes.",
+    url: "/insights/australia-new-zealand-provider-pathway-updates-2026/",
+    band: "NZ provider"
+  },
+  {
+    name: "UTS College",
+    focus: "Australia university pathway route",
+    note: "UTS / UTS College scholarship, pathway and package-route screening before narrowing to course-level eligibility.",
+    url: "/university-applications/?country=Education%20Group%20%2F%20Pathway%20Provider&institution=UTS%20College#programme-directory",
+    band: "Australia pathway"
+  }
+];
+
+function transnationalEducationGroupCards() {
+  return transnationalEducationGroups.map((group) => `
+        <article class="education-group-card">
+          <span>${group.band}</span>
+          <strong>${group.name}</strong>
+          <em>${group.focus}</em>
+          <p>${group.note}</p>
+          <div>
+            <a href="/university-applications/?country=Education%20Group%20%2F%20Pathway%20Provider&institution=${encodeURIComponent(group.name)}#programme-directory">Open in review</a>
+            <a href="${group.url}">Context page</a>
+          </div>
+        </article>
+  `).join("");
+}
+
 function searchItems() {
   const pages = [
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
@@ -4110,21 +4184,16 @@ const universityApplications = pageShell({
         <article><strong>Postgraduate</strong><span>Course shortlist, document checklist and PS/CV planning.</span></article>
         <article><strong>Institutional</strong><span>Admissions enquiry records and partner-ready workflow.</span></article>
       </div>
-      <div class="studygroup-promo-strip">
-        <div>
-          <span>2026 intake window</span>
-          <strong>Study Group pathway and direct-entry applications</strong>
-          <p>OTC is screening selected UK, Europe and North America routes for July-December 2026 intakes, including foundation, International Year One, pre-master and direct-entry options.</p>
-        </div>
-        <a class="btn btn-dark" href="/study-group-2026-applications/">Open Study Group routes</a>
+    </section>
+
+    <section class="band compact-band education-group-section">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Transnational Education Groups</div>
+        <h2>Pathway providers and cross-border education groups.</h2>
+        <p>These routes sit across countries. Select a group to open it inside the same application review system, then narrow by provider, destination, intake and course level.</p>
       </div>
-      <div class="studygroup-promo-strip">
-        <div>
-          <span>Australia and New Zealand</span>
-          <strong>Applications through OTC: direct, pathway and sub-agent routes</strong>
-          <p>OTC supports selected Australia and New Zealand university and pathway applications through formal cooperation, sub-agent channels and provider-information routes where applicable. Current pathway monitoring includes Kaplan Australia / New Zealand, Murdoch, Adelaide, Newcastle, UTS, University of Sydney / Taylors College Sydney / Navitas, UQ and UNSW-related case evidence.</p>
-        </div>
-        <a class="btn btn-dark" href="/insights/australia-new-zealand-provider-pathway-updates-2026/">Read Australia pathway update</a>
+      <div class="education-group-grid">
+${transnationalEducationGroupCards()}
       </div>
     </section>
 
@@ -4542,9 +4611,22 @@ ${applicationCountryCards()}
           url: country.href
         }))), null, 10)};
 
+        const educationGroupProgrammes = ${JSON.stringify(transnationalEducationGroups.map((group) => ({
+          id: `education-group-${group.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+          country: "Education Group / Pathway Provider",
+          institution: group.name,
+          school: "Cross-border pathway admissions",
+          programme: `${group.name} application route screening`,
+          level: "Foundation / pathway / direct entry to verify",
+          band: group.band,
+          fit: group.note,
+          action: `Confirm current ${group.name} provider route, destination country, intake, academic level, English requirement and document checklist`,
+          url: group.url
+        })), null, 10)};
+
         const existingProgrammeKeys = new Set(coreProgrammes.concat(australianInstitutionProgrammes).map((item) => item.country + "::" + item.institution));
         const gatewayInstitutionProgrammes = countryGatewayUniversityProgrammes.filter((item) => !existingProgrammeKeys.has(item.country + "::" + item.institution));
-        const programmes = coreProgrammes.concat(australianInstitutionProgrammes, gatewayInstitutionProgrammes);
+        const programmes = coreProgrammes.concat(australianInstitutionProgrammes, gatewayInstitutionProgrammes, educationGroupProgrammes);
 
         let currentProgramme = programmes.find((item) => item.id === "cardiff-business-economics-advanced-entry") || programmes[0];
         let hasIncomingCountry = false;

@@ -2053,6 +2053,83 @@ h1 {
   text-transform: uppercase;
 }
 
+.education-group-section {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(247, 242, 234, 0.92)),
+    #fff;
+}
+
+.education-group-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.education-group-card {
+  border: 1px solid #d8cdbd;
+  border-top: 3px solid var(--navy);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(6, 26, 47, 0.06);
+  min-height: 220px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education-group-card span {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.education-group-card strong {
+  color: var(--navy);
+  font-size: 21px;
+  line-height: 1.08;
+}
+
+.education-group-card em {
+  color: #7a6331;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.education-group-card p {
+  color: #4a5968;
+  font-size: 13px;
+  line-height: 1.48;
+  margin: 0;
+}
+
+.education-group-card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+}
+
+.education-group-card a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 11px;
+  font-weight: 850;
+  padding: 5px 10px;
+}
+
+.education-group-card a:first-child {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
 .application-hero .band {
   padding: 36px 0;
 }
@@ -9066,6 +9143,7 @@ h1 {
   .consulting-hero,
   .curriculum-layout,
   .application-country-map,
+  .education-group-grid,
   .application-layout,
   .application-audit-strip,
   .standards-grid,
