@@ -566,6 +566,28 @@ h1 {
 
 .zh-home-hero .hero-title-block {
   margin-top: 18px;
+  padding-left: 18px;
+  position: relative;
+}
+
+.zh-home-hero .hero-title-block::before,
+.zh-global-map-band .section-head h2::before,
+.zh-open-learning-section .section-head h2::before,
+.zh-publishing-gateway-section .section-head h2::before,
+.curriculum-overview .section-head h2::before,
+.zh-institutional-update .institutional-update-head h2::before {
+  background: linear-gradient(180deg, var(--gold), rgba(184, 138, 59, 0.26));
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.zh-home-hero .hero-title-block::before {
+  border-radius: 999px;
+  bottom: 4px;
+  left: 0;
+  top: 4px;
+  width: 4px;
 }
 
 .zh-home-hero .hero-title-block h1 {
@@ -658,6 +680,20 @@ h1 {
   font-weight: 900;
   letter-spacing: 0.02em;
   line-height: 1.28;
+  padding-left: 18px;
+  position: relative;
+}
+
+.zh-global-map-band .section-head h2::before,
+.zh-open-learning-section .section-head h2::before,
+.zh-publishing-gateway-section .section-head h2::before,
+.curriculum-overview .section-head h2::before,
+.zh-institutional-update .institutional-update-head h2::before {
+  border-radius: 999px;
+  height: 1.08em;
+  left: 0;
+  top: 0.08em;
+  width: 4px;
 }
 
 .zh-global-map-band .section-head p,
