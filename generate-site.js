@@ -2177,22 +2177,37 @@ const insights = pageShell({
   description: "Overseas Study Review / 海外留學導報 is an Overseas Publishing House series for study-abroad briefings, university application notes, pathway explainers and bilingual education commentary.",
   path: "/insights/",
   body: `
-    <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · 出版 · 編譯 · 導報</div><h1>Overseas Study Review</h1><h2>海外留學導報</h2><p>A bilingual public briefing series under Overseas Publishing House, connecting education publishing, editorial translation and study-abroad commentary for students, families and institutions.</p></div></section>
-    <section class="band">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Latest Briefings</div>
-        <h2>Publishing-grade study-abroad notes, edited for public reading.</h2>
+    <section class="page-hero insights-hero">
+      <div class="band insights-hero-layout">
+        <div>
+          <div class="eyebrow">Overseas Publishing House · 出版 · 編譯 · 導報</div>
+          <h1>Overseas Study Review</h1>
+          <h2>海外留學導報</h2>
+          <p>A bilingual public briefing series under Overseas Publishing House, connecting education publishing, editorial translation and study-abroad commentary for students, families and institutions.</p>
+        </div>
+        <aside class="insights-issue-panel">
+          <span>Current Issue</span>
+          <strong>Study-Abroad Application Briefings</strong>
+          <p>UK · Australia · New Zealand<br>Applications · Pathways · Documents</p>
+        </aside>
+      </div>
+    </section>
+    <section class="band insights-band">
+      <div class="insights-intro">
+        <div>
+          <div class="eyebrow">Latest Briefings</div>
+          <h2>Publishing-grade study-abroad notes, edited for public reading.</h2>
+        </div>
         <p>海外留學導報屬於 Overseas Publishing / 海外書局 的系列板塊之一，與出版、編譯並列：面向學生、家長、教育機構與合作方，整理可分享、可引用、可持續更新的留學資訊。</p>
       </div>
-      <div class="insights-grid">
-        ${insightsArticles.map((article) => `
-          <article class="insight-card">
-            <span>${article.category} · ${article.date}</span>
+      <div class="insights-ledger">
+        ${insightsArticles.map((article, index) => `
+          <article class="insight-card ${index === 0 ? "insight-card-feature" : ""}">
+            <div class="insight-card-meta"><span>${article.category}</span><time>${article.date}</time></div>
             <h3>${article.title}</h3>
-            <p>${article.summary}</p>
             <h4>${article.titleZh || ""}</h4>
-            <p>${article.summaryZh || ""}</p>
-            <a class="btn btn-light" href="/insights/${article.slug}/">Read briefing</a>
+            <p>${article.summary}</p>
+            <a class="insight-link" href="/insights/${article.slug}/">Read briefing</a>
           </article>
         `).join("")}
       </div>
