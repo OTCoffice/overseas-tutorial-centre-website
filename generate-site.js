@@ -4623,43 +4623,24 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band education-updates-strip">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Education Updates</div>
-        <h2>教育動態</h2>
-        <p>Awards, Qualifications & International Partnerships</p>
-      </div>
-      <div class="education-update-list">
-        <article><strong>Awards</strong><span>獎項、榮譽、競賽成果與學生/機構公開成就整理。</span></article>
-        <article><strong>Qualifications</strong><span>英國及國際資格、課程銜接、認證語境與升學路線更新。</span></article>
-        <article><strong>International Partnerships</strong><span>海外院校、教育機構、合作項目與跨境教育服務動態。</span></article>
-      </div>
-      <article class="education-update-feature">
-        <span>ASIC Standards for Growth Series · 20 May 2026 · Online</span>
-        <h3>Webinar 3: Awards, Qualifications & International Partnerships</h3>
-        <p>聚焦 awards、qualifications 與 international partnerships 中的學術誠信、資格認可、合作審批、風險監控與 QA evidence trails。</p>
-        <div class="education-update-notes">
-          <p><strong>內容重點</strong> 以真實場景討論 programme design、approval、monitoring、assessment standards、award recognition 與 transnational delivery 的證據整理。</p>
-          <p><strong>參與提示</strong> ASIC 活動可能涉及攝影、錄影、宣傳素材使用；不希望出現在官方影像中，應提前告知主辦方。</p>
-          <p><strong>郵件與私隱</strong> 報名後 ASIC 可就本活動及未來活動聯絡參與者；活動郵件通常來自 events@asic.org.uk 或 @asic.org.uk 團隊信箱。詳見 <a href="https://www.asic.org.uk/privacy-policy" target="_blank" rel="noopener">ASIC Privacy Policy</a>。</p>
-        </div>
-        <a class="btn btn-light" href="https://events.zoom.us/ejl/AtKN6jisagUs5hK_nBcQFrmVzNOtmfLUkXCRT9QrUWjayEqIYu3l~A-gbbMZVg8OMkR1v-ZNjDlfiwfGYhlOPx-3zwIwDJAB9eGWtgF-rfmTSsolQ-gvjL_Z-qWlUBYqHpE3m4hWd-9YdarsHg8MvSuJPG-tXpbMS2iKA/home" target="_blank" rel="noopener">Zoom Events 報名</a>
-      </article>
-    </section>
-
-    <section class="band compact-band">
+    <section class="band compact-band zh-review-list-section">
       <div class="section-head compact-head">
         <div class="eyebrow">海外書局｜導報</div>
         <h2>海外書局｜海外留學導報</h2>
-        <p>導報是 Overseas Publishing / 海外書局的系列板塊之一，與出版、編譯並列。每篇文章都有完整英文版和完整中文版；中文入口會進入中文正文優先的文章頁，英文作為對照。</p>
+        <p>導報是 Overseas Publishing / 海外書局的系列板塊之一，與出版、編譯並列。中文區只保留導報文章入口；每篇文章點擊後進入中文正文優先的導報版面，英文作為對照。</p>
       </div>
-      <div class="insights-grid">
+      <div class="zh-review-list">
         ${insightsArticles.map((article) => `
-          <article class="insight-card">
-            <span>${article.category} · ${article.date}</span>
-            <h3>${article.titleZh || article.title}</h3>
-            <p>${article.summaryZh || article.summary}</p>
-            <a class="btn btn-light" href="/zh/insights/${article.slug}/">閱讀中文正文</a>
+          <article class="zh-review-row">
+            <div class="zh-review-row-meta">
+              <time>${article.date}</time>
+              <span>${article.category}</span>
+            </div>
+            <div class="zh-review-row-body">
+              <h3>${article.titleZh || article.title}</h3>
+              <p>${article.summaryZh || article.summary}</p>
+            </div>
+            <a href="/zh/insights/${article.slug}/">閱讀中文正文</a>
           </article>
         `).join("")}
       </div>
