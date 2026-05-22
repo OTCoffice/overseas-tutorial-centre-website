@@ -2209,6 +2209,25 @@ function shareLinks(article, localePath = "") {
   `;
 }
 
+function shareLinksHerald(article) {
+  const articleUrl = new URL(`/insights/${article.slug}/`, SITE_URL).toString();
+  const text = `${article.title} | OTC Study Hub`;
+  return `
+    <div class="oeh-share-row" data-share-strip>
+      <span>分享本文</span>
+      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">X</a>
+      <a href="https://www.threads.net/intent/post?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">Threads</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://wa.me/?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a>
+      <a href="mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(articleUrl)}">Email</a>
+      <button type="button" data-copy-link="${articleUrl}">Copy link</button>
+      <button type="button" data-copy-link="${articleUrl}">WeChat copy</button>
+    </div>
+  `;
+}
+
 function articleBody(article) {
   const english = article.body.map((section) => `
     <section>
@@ -2233,6 +2252,221 @@ function articleBody(article) {
         ${chinese}
       </article>
     </div>
+  `;
+}
+
+function stripSectionNumber(heading = "") {
+  return heading
+    .replace(/^\s*\d+\s*[\)）.、]\s*/, "")
+    .replace(/^\s*[一二三四五六七八九十]+\s*[、.]\s*/, "")
+    .trim();
+}
+
+function articleReadingMinutes(article) {
+  const textLength = [
+    article.title,
+    article.titleZh,
+    article.summary,
+    article.summaryZh,
+    ...(article.body || []).flatMap((section) => [section.heading, ...section.paragraphs]),
+    ...(article.bodyZh || []).flatMap((section) => [section.heading, ...section.paragraphs])
+  ].filter(Boolean).join("").length;
+  return Math.max(5, Math.ceil(textLength / 900));
+}
+
+function articleHeroTitleHtml(title = "") {
+  if (title.includes(":")) {
+    const [lead, ...rest] = title.split(":");
+    return `${lead}:<br><em>${rest.join(":").trim()}</em>`;
+  }
+  const words = title.split(" ");
+  if (words.length > 5) {
+    return `${words.slice(0, -3).join(" ")} <em>${words.slice(-3).join(" ")}</em>`;
+  }
+  return title;
+}
+
+function boldInstitutionLead(paragraph = "") {
+  const colonIndex = paragraph.indexOf(":");
+  if (colonIndex > 0 && colonIndex < 80) {
+    return `<strong>${paragraph.slice(0, colonIndex + 1)}</strong>${paragraph.slice(colonIndex + 1)}`;
+  }
+  return paragraph;
+}
+
+function isPathwayUpdateArticle(article) {
+  return article.slug === "australia-new-zealand-provider-pathway-updates-2026";
+}
+
+function genericHeraldSidebar(article) {
+  const sections = (article.body || []).slice(0, 6).map((section) => stripSectionNumber(section.heading));
+  return `
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">本文速查</div>
+      ${sections.map((heading, index) => `
+        <div class="oeh-route-card ${["red", "teal", "gold", "grey"][index % 4]}">
+          <strong>${heading}</strong>
+          <small>${index === 0 ? article.category : "導報正文重點"}</small>
+          <em>${String(index + 1).padStart(2, "0")}</em>
+        </div>
+      `).join("")}
+    </div>
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">重要提示</div>
+      <ul class="oeh-reminder-list">
+        <li>本文為公開教育資訊整理，不構成結果保證。</li>
+        <li>申請、截止日期與入學條件以官方最新通知為準。</li>
+        <li>法律、簽證、稅務或移民事項須由合資格專業人士處理。</li>
+      </ul>
+    </div>
+    ${contactHeraldWidget()}
+  `;
+}
+
+function contactHeraldWidget() {
+  return `
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">聯絡 OTC</div>
+      <div class="oeh-contact-card">
+        <p><strong>WhatsApp</strong><a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+        <p><strong>Email</strong><a href="mailto:office@overseasuk.com">office@overseasuk.com</a></p>
+        <p><strong>WeChat</strong><span>overseasus</span></p>
+      </div>
+    </div>
+  `;
+}
+
+function pathwayHeraldSidebar() {
+  return `
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">申請路線速查</div>
+      <div class="oeh-route-card red"><strong>正式合作路線</strong><small>OTC直接提交，有合作記錄</small><em>direct</em></div>
+      <div class="oeh-route-card teal"><strong>Sub-agent 路線</strong><small>透過pathway provider channel</small><em>provider</em></div>
+      <div class="oeh-route-card gold"><strong>信息支援路線</strong><small>OTC協助研究與文件整理</small><em>support</em></div>
+      <div class="oeh-route-card grey"><strong>學生自行申請</strong><small>OTC提供諮詢，不介入提交</small><em>self</em></div>
+    </div>
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">本期監測院校</div>
+      <div class="oeh-check-list">
+        ${[
+          "Kaplan Australia / NZ",
+          "Murdoch College / University",
+          "KIC Adelaide / Uni of Adelaide",
+          "University of Newcastle",
+          "UTS / UTS College",
+          "UNSW Sydney",
+          "University of Queensland",
+          "Curtin Singapore",
+          "La Trobe College Australia",
+          "Charles Darwin University",
+          "RMIT University"
+        ].map((item) => `<div>${item}</div>`).join("")}
+      </div>
+    </div>
+    <div class="oeh-widget">
+      <div class="oeh-widget-title">重要提示</div>
+      <ul class="oeh-reminder-list">
+        <li>錄取決定由院校作出，OTC不作保證</li>
+        <li>獎學金與COE出具以院校通知為準</li>
+        <li>簽證與移民事項須由合資格專業人士處理</li>
+      </ul>
+    </div>
+    ${contactHeraldWidget()}
+  `;
+}
+
+function heraldArticleBody(article) {
+  const readingMinutes = articleReadingMinutes(article);
+  const sections = article.body || [];
+  const pathway = isPathwayUpdateArticle(article);
+  const complianceSection = pathway ? sections[4] : sections.find((section) => /compliance|professional|boundary|risk|disclaimer/i.test(section.heading));
+  const mainSections = sections.filter((section) => section !== complianceSection);
+  const pullQuote = pathway
+    ? `OTC 的角色是<em>教育諮詢、申請行政與負責任的溝通支持</em>`
+    : article.summary;
+
+  return `
+    <article class="oeh-page">
+      <div class="oeh-masthead">
+        <div>
+          <div class="oeh-name-en">Overseas Education Herald</div>
+          <div class="oeh-name-zh">海外留學導報</div>
+          <div class="oeh-tagline">旅英旅澳華人 · 留學升學 · 生活規劃</div>
+        </div>
+        <div class="oeh-meta">
+          <div><strong>${article.category}</strong></div>
+          <div>${article.date}</div>
+          <div>overseasuk.com/insights</div>
+        </div>
+      </div>
+      <div class="oeh-section-bar">
+        <div>${article.category}</div>
+        <i></i>
+        <time>${article.date}</time>
+      </div>
+      <header class="oeh-hero">
+        <div class="oeh-kicker">${article.kicker || article.category}</div>
+        <h1>${articleHeroTitleHtml(article.title)}</h1>
+        ${article.titleZh ? `<h2>${article.titleZh}</h2>` : ""}
+        <p>${article.summary}</p>
+        <div class="oeh-byline">
+          <span>${article.author}</span>
+          <i></i>
+          <span>${article.date}</span>
+          <i></i>
+          <span>${readingMinutes} min read</span>
+          <i></i>
+          <span>${article.category}</span>
+        </div>
+      </header>
+      <div class="oeh-body-grid">
+        <main class="oeh-main-col">
+          <div class="oeh-pullquote"><p>${pullQuote}</p></div>
+          ${mainSections.map((section, index) => {
+            const cleanHeading = stripSectionNumber(section.heading);
+            if (pathway && index === 0) {
+              return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2><div class="oeh-teal-box"><div class="oeh-box-title">Process Note</div>${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}</div></section>`;
+            }
+            if (pathway && index === 2) {
+              return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2>${section.paragraphs.map((paragraph) => `<div class="oeh-highlight-box compact"><p>${boldInstitutionLead(paragraph)}</p></div>`).join("")}</section>`;
+            }
+            if (pathway && index === 3) {
+              return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2><div class="oeh-highlight-box"><div class="oeh-box-title">Student Use</div>${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}</div></section>`;
+            }
+            return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2>${section.paragraphs.map((paragraph) => `<p>${pathway && index === 1 ? boldInstitutionLead(paragraph) : paragraph}</p>`).join("")}</section>`;
+          }).join("")}
+          ${complianceSection ? `
+            <div class="oeh-warning-box">
+              <div class="oeh-box-title">Compliance Note</div>
+              ${complianceSection.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+            </div>
+            <div class="oeh-disclaimer">${complianceSection.paragraphs.join(" ")}</div>
+          ` : `
+            <div class="oeh-disclaimer">This article is general educational information only. Current admissions requirements, deadlines and official decisions should always be checked with the relevant institution or qualified professional adviser.</div>
+          `}
+        </main>
+        <aside class="oeh-side-col">
+          ${pathway ? pathwayHeraldSidebar() : genericHeraldSidebar(article)}
+        </aside>
+      </div>
+      ${shareLinksHerald(article)}
+      <footer class="oeh-footer">
+        <strong>海外留學導報 · Overseas Tutorial Centre</strong>
+        <span>© 2026 Overseas Tutorial Centre Ltd · 207 Regent Street London W1B 3HH · overseasuk.com</span>
+      </footer>
+    </article>
+    <script>
+      document.querySelectorAll("[data-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(button.dataset.copyLink);
+            button.textContent = "Copied";
+          } catch (error) {
+            button.textContent = button.dataset.copyLink;
+          }
+        });
+      });
+    </script>
   `;
 }
 
@@ -2695,12 +2929,8 @@ function insightArticlePage(article) {
     description: article.summary,
     path: `/insights/${article.slug}/`,
     body: `
-      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">留學導報 · ${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
-      <main class="band insight-article">
-        <div class="article-meta">${article.date} · ${article.author}</div>
-        ${shareLinks(article)}
-        ${articleBody(article)}
-        ${shareLinks(article)}
+      <main class="oeh-shell">
+        ${heraldArticleBody(article)}
       </main>
     `
   });
