@@ -965,6 +965,19 @@ h1 {
   min-height: 150px;
 }
 
+.zh-site-guide-section {
+  background: #fffdf8;
+  border-top: 1px solid rgba(222, 211, 196, 0.75);
+}
+
+.zh-site-guide-section .section-head h2 {
+  font-size: clamp(24px, 2.4vw, 34px);
+}
+
+.zh-site-guide-grid article {
+  background: rgba(255, 255, 255, 0.76);
+}
+
 .hero p {
   color: #4c596b;
   font-size: clamp(16px, 1.7vw, 18px);
