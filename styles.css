@@ -7018,45 +7018,12 @@ h1 {
 }
 
 .zh-herald-page {
-  max-width: 920px;
+  max-width: 880px;
   margin: 32px auto 56px;
   background: #faf6ef;
   color: #1a1410;
   box-shadow: 0 8px 60px rgba(0, 0, 0, 0.18);
   overflow: hidden;
-}
-
-.zh-herald-article-page {
-  max-width: min(1180px, calc(100% - 40px));
-  background: transparent;
-  box-shadow: none;
-}
-
-.zh-herald-article-page .zh-herald-masthead,
-.zh-herald-article-page .zh-herald-section-bar,
-.zh-herald-article-page .zh-herald-hero {
-  box-shadow: 0 8px 60px rgba(0, 0, 0, 0.14);
-}
-
-.zh-herald-article-page .zh-herald-masthead {
-  border-radius: 3px 3px 0 0;
-}
-
-.zh-herald-article-page .zh-herald-body-grid,
-.zh-herald-article-page .zh-herald-infographic,
-.zh-herald-article-page .zh-herald-footer {
-  max-width: 920px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.zh-herald-article-page .zh-herald-body-grid {
-  background: #faf6ef;
-}
-
-.zh-herald-article-page .zh-herald-infographic,
-.zh-herald-article-page .zh-herald-footer {
-  box-shadow: 0 8px 60px rgba(0, 0, 0, 0.12);
 }
 
 .zh-insights-front {
@@ -7070,7 +7037,7 @@ h1 {
 
 .zh-herald-masthead {
   background: #1a1410;
-  padding: 16px 48px;
+  padding: 14px 48px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7090,7 +7057,7 @@ h1 {
 .zh-herald-name-zh {
   color: #fff;
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 900;
   letter-spacing: 0.06em;
   line-height: 1.05;
@@ -7120,7 +7087,7 @@ h1 {
 
 .zh-herald-section-bar {
   background: #b5272d;
-  padding: 7px 48px;
+  padding: 6px 48px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -7147,7 +7114,7 @@ h1 {
 }
 
 .zh-herald-hero {
-  padding: 46px 48px 34px;
+  padding: 44px 48px 32px;
   border-bottom: 2px solid #c8b89a;
   background: linear-gradient(180deg, #faf6ef 0%, #f3ede2 100%);
 }
@@ -7172,10 +7139,10 @@ h1 {
 }
 
 .zh-herald-hero h1 {
-  max-width: 660px;
+  max-width: 620px;
   color: #1a1410;
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
-  font-size: clamp(32px, 4.8vw, 46px);
+  font-size: clamp(30px, 4.2vw, 38px);
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -7221,16 +7188,16 @@ h1 {
 
 .zh-herald-body-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) 260px;
 }
 
 .zh-herald-main {
-  padding: 38px 38px 38px 48px;
+  padding: 36px 36px 36px 48px;
   border-right: 1px solid #c8b89a;
 }
 
 .zh-herald-side {
-  padding: 30px 28px 30px 24px;
+  padding: 28px 28px 28px 24px;
   background: #f3ede2;
 }
 
