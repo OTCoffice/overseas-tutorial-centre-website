@@ -1406,7 +1406,8 @@ h1 {
 }
 
 .zh-publishing-gateway-section .section-head h2 {
-  font-size: clamp(21px, 2.3vw, 27px);
+  font-size: clamp(24px, 2.7vw, 32px);
+  line-height: 1.24;
 }
 
 .zh-publishing-gateway-section .section-head p {
@@ -1456,10 +1457,10 @@ h1 {
 .zh-publishing-gateway strong {
   color: #fff;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: clamp(20px, 2.2vw, 27px);
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.02em;
-  line-height: 1.08;
+  line-height: 1.28;
   margin-top: 12px;
 }
 
@@ -2962,15 +2963,16 @@ h1 {
   background: linear-gradient(180deg, #f7f2ea, #fffdf8);
   border-top: 1px solid rgba(184, 138, 59, 0.28);
   border-bottom: 1px solid rgba(222, 211, 196, 0.72);
-  padding-top: 64px;
+  padding-top: 46px;
 }
 
 .curriculum-overview .section-head {
-  max-width: 880px;
+  max-width: 78ch;
 }
 
 .curriculum-overview .section-head h2 {
-  font-size: clamp(26px, 3vw, 36px);
+  font-size: clamp(24px, 2.7vw, 32px);
+  line-height: 1.24;
 }
 
 .curriculum-layout {
@@ -8934,7 +8936,7 @@ h1 {
   border-left: 4px solid var(--gold);
   color: #fff;
   display: flex;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.28;
   margin: 2px -3px 4px;
   min-height: 54px;
