@@ -1476,7 +1476,7 @@ body.lang-zh .disclaimer-en{display:none!important;}
           <div class="stat-zh">及格分數</div>
         </div>
         <div class="stat">
-          <div class="stat-num">200+</div>
+          <div class="stat-num">300+</div>
           <div class="stat-label">Question Bank</div>
           <div class="stat-zh">題庫體量</div>
         </div>
@@ -1507,8 +1507,8 @@ body.lang-zh .disclaimer-en{display:none!important;}
         <div class="mode-card primary" onclick="startMockTest()">
           <div class="mode-icon">MT</div>
           <div class="mode-text">
-            <div class="mode-title-en">Mock Test</div>
-            <div class="mode-title-zh">20題隨機抽取 · 題庫200+ · 75%及格</div>
+            <div class="mode-title-en">Mock Test · Unlimited Practice</div>
+            <div class="mode-title-zh">20題隨機抽取 · 題庫300+ · 無限練習</div>
           </div>
           <div class="mode-arrow">→</div>
         </div>
@@ -2113,13 +2113,13 @@ const ALL_QUESTIONS = [
     zh:"以下哪項體現了對澳洲價值觀的承諾？",
     options:[
       {en:"Treating people differently based on their religion",zh:"根據宗教不同對待他人"},
-      {en:"Caring for the environment and respecting others regardless of background",zh:"愛護環境並尊重不同背景的人"},
+      {en:"Respecting others, obeying the law and treating people equally regardless of background",zh:"尊重他人、遵守法律並平等對待不同背景的人"},
       {en:"Only speaking English and refusing other languages",zh:"只說英語，拒絕使用其他語言"},
       {en:"Following laws only when you agree with them",zh:"只在同意時才遵守法律"}
     ],
     answer:1,
-    exp_en:"Australian values include caring for others, respecting diversity, and treating all people equally regardless of their background, religion, or ethnicity.",
-    exp_zh:"澳洲價值觀包括關愛他人、尊重多樣性，以及無論背景、宗教或種族如何，平等對待所有人。"
+    exp_en:"Australian values include respect, fairness, equality of opportunity, freedom and commitment to the rule of law. They require people to respect others and treat people equally regardless of background, religion or ethnicity.",
+    exp_zh:"澳洲價值觀包括尊重、公平、機會均等、自由和遵守法治。這要求人們尊重他人，並不因背景、宗教或種族不同而作不平等對待。"
   },
   {
     topic:3,
@@ -2207,7 +2207,7 @@ const ALL_QUESTIONS = [
   },
 ];
 
-const QUESTION_BANK_TARGET = 208;
+const QUESTION_BANK_TARGET = 320;
 expandQuestionBank(QUESTION_BANK_TARGET);
 assignQuestionIds();
 
@@ -2343,7 +2343,7 @@ const CONCEPT_FLASHCARDS = [
   ["Children's rights","兒童權利","Children are protected by law and have the right to safety and education.","兒童受法律保護，享有安全與教育權利。"],
   ["Workplace fairness","職場公平","Australian laws protect fair treatment at work.","澳洲法律保護工作場所的公平待遇。"],
   ["Non-discrimination","反歧視","People should not be treated unfairly because of race, religion, gender or background.","不得因種族、宗教、性別或背景而不公平對待他人。"],
-  ["Care for the environment","愛護環境","Australians value protecting the natural environment.","澳洲重視保護自然環境。"],
+  ["Parliamentary democracy","議會民主","Australian laws are made by parliaments elected by the people.","澳洲法律由人民選出的議會制定。"],
   ["Volunteer spirit","志願服務精神","Volunteering and helping the community are valued in Australia.","志願服務和幫助社區在澳洲受到重視。"],
   ["English language","英語","English is Australia's national language and helps participation in society.","英語是澳洲國家語言，有助於參與社會。"],
   ["Community participation","社區參與","Citizens can contribute by voting, volunteering and helping local communities.","公民可通過投票、志願服務和幫助社區作出貢獻。"],
@@ -2431,7 +2431,7 @@ const STUDY_DATA = [
     icon:"IV", title_en:"Australian Values / Must ALL be correct", title_zh:"澳洲價值觀 / 必須全部答對",
     items:[
       {q:"What is 'a fair go'?",q_zh:"什麼是「公平機會」？",a:"Equal opportunity for everyone, regardless of background",a_zh:"無論背景如何，每個人都享有平等機會"},
-      {q:"Name four core Australian values",q_zh:"列出四項澳洲核心價值觀",a:"Respect, fairness, compassion, equality of opportunity",a_zh:"尊重、公平、同情心、機會均等"},
+      {q:"Name four core Australian values",q_zh:"列出四項澳洲核心價值觀",a:"Freedom, respect, fairness, equality of opportunity",a_zh:"自由、尊重、公平、機會均等"},
       {q:"What does religious freedom mean?",q_zh:"宗教自由是什麼意思？",a:"You may follow any religion, or none — all are equally respected",a_zh:"你可以信仰任何宗教，或不信仰任何宗教——一律受到平等尊重"}
     ]
   }

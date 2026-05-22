@@ -37,6 +37,27 @@ const publishingLines = [
   }
 ];
 
+const publishingPillars = [
+  {
+    code: "01",
+    title: "Publishing",
+    zh: "出版",
+    desc: "ISBN-backed study companions, practical guides, digital books and public bookshop editions released under Overseas Publishing House."
+  },
+  {
+    code: "02",
+    title: "Editorial Translation",
+    zh: "編譯",
+    desc: "Chinese-English translation, bilingual editing, cultural-context adaptation and publication-level language polishing."
+  },
+  {
+    code: "03",
+    title: "Overseas Study Review",
+    zh: "海外留學導報",
+    desc: "A public briefing series for study-abroad notes, pathway updates, application explainers and bilingual education commentary."
+  }
+];
+
 const internationalCurriculumRoutes = [
   {
     code: "AL",
@@ -122,6 +143,12 @@ function publishingLineCards() {
   `).join("");
 }
 
+function publishingPillarCards() {
+  return publishingPillars.map((pillar) => `
+    <article><b>${pillar.code}</b><strong>${pillar.zh}</strong><span>${pillar.title}</span><p>${pillar.desc}</p></article>
+  `).join("");
+}
+
 function zhInternationalCurriculumCards(limit = 4) {
   const translations = {
     AL: ["A-Level / International A-Level", "商科、經濟、會計、心理、社會學、EPQ", "雙語概念講解、command words 訓練、英文段落框架與案例應用。"],
@@ -154,6 +181,12 @@ function zhPublishingLineCards() {
   ];
   return lines.map(([code, title, desc]) => `
     <a href="/publishing/"><b>${code}</b><strong>${title}</strong><span>${desc}</span></a>
+  `).join("");
+}
+
+function zhPublishingPillarCards() {
+  return publishingPillars.map((pillar) => `
+    <article><b>${pillar.code}</b><strong>${pillar.zh}</strong><span>${pillar.title}</span><p>${pillar.desc}</p></article>
   `).join("");
 }
 
@@ -1473,7 +1506,7 @@ function searchItems() {
     ["Advanced Entry & China Programme Support", "/advanced-entry-china-programmes/", "Support for CFAU/IBP and similar Chinese university international programme students seeking UK Year 2, top-up or advanced-entry review."],
     ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
-    ["Insights", "/insights/", "Education articles, university application notes, pathway explainers and shareable OTC guidance."],
+    ["Overseas Study Review / 海外留學導報", "/insights/", "Overseas Publishing House series for study-abroad briefings, pathway notes, public education commentary and shareable bilingual guidance."],
     ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
     ...countryGatewayData.filter((country) => country.slug !== "australia").map((country) => [
       `${country.zh}留學入口 / ${country.name} Study Gateway`,
@@ -1574,6 +1607,170 @@ function write(route, html) {
 }
 
 const insightsArticles = [
+  {
+    slug: "reference-letter-briefing-pack-uk-aus",
+    title: "Reference Letters for UK & Australia Applications: A Simple Referee-Briefing Pack",
+    date: "2026-05-22",
+    category: "University Applications",
+    author: "Overseas Tutorial Centre",
+    summary: "Reference letters (recommendations) are strongest when they are specific, consistent with your application, and written by someone who genuinely knows your academic work. This short guide shows what students can prepare to help referees write an accurate, professional reference—without exaggeration or outcome promises.",
+    titleZh: "英國與澳洲申請推薦信：學生可準備的 Referee Briefing Pack（簡單可用）",
+    summaryZh: "推薦信最有力的地方在於「具體、可核對、與申請資料一致」，而不是華麗形容詞。本文提供一份學生可先準備好的 Referee Briefing Pack，協助推薦人寫出準確、專業、不誇大的推薦內容（不包含任何結果保證）。",
+    body: [
+      {
+        heading: "1) What a Reference Letter Is (and Why Specificity Matters)",
+        paragraphs: [
+          "A reference letter is not a second personal statement. It is an external perspective on your academic readiness, learning habits, and suitability for a course, written by a teacher, tutor, supervisor, or other appropriate referee depending on the programme requirements.",
+          "Admissions teams tend to value concrete examples: what you did, how you performed, and what the referee observed over time. Overly generic praise (“hard-working, passionate”) is less helpful unless it is backed by evidence and context."
+        ]
+      },
+      {
+        heading: "2) The Referee-Briefing Pack (What You Can Prepare)",
+        paragraphs: [
+          "A one-page summary: your intended course(s), target start date/intake, and a 3–5 bullet list of the strengths you hope the referee can comment on (for example, research writing, maths problem-solving, lab discipline, group leadership—only if true).",
+          "Evidence attachments: 2–4 pieces the referee can refer to, such as a marked essay, project report, lab write-up, portfolio link, competition submission, or a graded presentation outline. Choose items that match your intended subject area.",
+          "A factual timeline: key dates (when they taught you, duration, class level), and verifiable outcomes (final grades, predicted grades, rank if officially provided). If the referee does not have official access to a metric, do not ask them to speculate."
+        ]
+      },
+      {
+        heading: "3) What Strong References Usually Include (Safe, Verifiable Language)",
+        paragraphs: [
+          "Academic context: level of study and comparators (for example, “top 10% of the cohort” only if the school can substantiate it). Otherwise, use descriptive but bounded statements such as “consistently among the strongest in my class”.",
+          "Observed behaviours: “asks precise questions”, “revises with feedback”, “documents methods clearly”, “can explain trade-offs in a business case”. These are more credible than claims about future outcomes.",
+          "Course fit: a short, honest link between your evidence and the course demands. Avoid guarantees like “will definitely succeed” or “will secure admission”. A compliant alternative is “is well-prepared for” or “is likely to cope well with”."
+        ]
+      },
+      {
+        heading: "4) Timing, Etiquette, and Common Pitfalls",
+        paragraphs: [
+          "Ask early. A practical lead time is 2–4 weeks before a deadline, longer during exam season. Include the submission method (portal/email), the deadline, and any required format from the institution.",
+          "Do not over-direct the content. It is appropriate to share your briefing pack, but the referee should write in their own voice. Avoid giving a “script” or asking for inflated claims.",
+          "After submission, thank the referee and keep a record of where the reference was used. If you apply to multiple courses, confirm whether the same reference can be reused or whether updates are needed."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）推薦信是什麼（為何「具體」很重要）",
+        paragraphs: [
+          "推薦信不是第二份 personal statement。它是由老師、導師、主管或其他合適的推薦人（視課程要求而定）從第三方角度，對你的學術準備度、學習習慣與課程匹配度做出觀察性描述。",
+          "招生審閱通常更看重具體例子：你做了什麼、表現如何、推薦人長期觀察到哪些學習特徵。只有形容詞的讚美（例如「很努力、很熱愛」）若缺乏證據與背景，說服力會較弱。"
+        ]
+      },
+      {
+        heading: "2）Referee Briefing Pack（學生可先準備什麼）",
+        paragraphs: [
+          "一頁摘要：你想申請的課程/方向、預計入學時間，以及 3–5 個你希望推薦人能評論的優勢要點（例如研究寫作、數學解題、實驗室紀律、團隊協作/領導——前提是確實存在且可被觀察到）。",
+          "證據附件：提供 2–4 份推薦人可引用的作品或成果，例如已批改的 essay、project report、實驗報告、portfolio 連結、比賽作品、或有評分的 presentation 大綱。優先選與申請學科直接相關的材料。",
+          "事實時間線：重要日期（何時開始教你、教了多久、課程/年級），以及可核對的成績信息（final grade、predicted grade、如學校正式提供的排名）。若推薦人沒有官方渠道取得某項指標，不要要求他們猜測或代填。"
+        ]
+      },
+      {
+        heading: "3）強而合規的推薦信通常包含什麼（可核對的安全表述）",
+        paragraphs: [
+          "學術背景：你的學習階段與比較基準（例如「全級前 10%」只有在學校能證明時才使用；否則可用較保守但清晰的說法，如「在我任教的班級中表現一直很突出」）。",
+          "可觀察的行為：例如「提問精準」「能根據回饋修訂」「方法記錄清楚」「能在商業案例中說明取捨」。這些比「未來一定成功」之類的預測更可信。",
+          "課程匹配度：用證據連到課程需求，語氣保持誠實與保守。避免任何保證性措辭（例如「一定能錄取」「必定拿到某結果」）。較合規的替代語可用「準備充分」「有望適應」或「較可能勝任」。"
+        ]
+      },
+      {
+        heading: "4）時間安排、禮儀與常見踩雷點",
+        paragraphs: [
+          "提早邀請。一般建議至少提前 2–4 週（考試季更要提早）。同時提供提交方式（系統/電郵）、截止日期，以及院校對格式/內容的任何硬性要求。",
+          "不要過度指導內容。你可以提供 briefing pack，但推薦信應由推薦人用自己的語氣撰寫；避免給「逐句腳本」，更不要要求不實或誇大的描述。",
+          "提交後要致謝並做好記錄：此封推薦信用於哪些申請、是否可重複使用、若申請多個課程是否需要更新。這能減少反覆打擾推薦人的壓力，也能降低資訊不一致的風險。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "uk-personal-statement-evidence-first-checklist",
+    title: "UK Personal Statement: An Evidence-First Checklist (Clear, Honest, and Specific)",
+    date: "2026-05-21",
+    category: "UK Applications",
+    author: "Overseas Tutorial Centre",
+    summary: "A practical way to plan and draft a UK personal statement without over-claiming. Use this evidence-first checklist to select experiences, describe impact, and keep your writing compliant, authentic, and easy for admissions readers to follow.",
+    titleZh: "英國 Personal Statement：以證據為先的寫作清單（清晰、誠實、具體）",
+    summaryZh: "用「證據優先」的方法規劃與撰寫英國 Personal Statement，避免過度承諾或誇大。本文提供可直接套用的清單：如何選材、如何寫出影響力，以及如何保持合規、真實、易讀。",
+    body: [
+      {
+        heading: "1) What the Personal Statement Is (and Is Not)",
+        paragraphs: [
+          "A personal statement is your structured explanation of academic fit: why this subject, what you have done to prepare, and how you think and learn. It works best when it reads like evidence-backed reasoning, not marketing slogans.",
+          "It is not a guarantee tool. Avoid writing as if admission is certain, and avoid any claims you cannot support (for example, “I will definitely achieve…”, “I am the best candidate…”, or inflated job titles and responsibilities)."
+        ]
+      },
+      {
+        heading: "2) Build an “Evidence Bank” Before You Write",
+        paragraphs: [
+          "List 6–10 evidence items you can describe clearly: academic topics you enjoyed, a project or extended essay, an internship task, a research note, a reading list with reflections, a competition entry, a portfolio piece, or a group project role.",
+          "For each item, write one sentence for: (a) what you did, (b) what you learned, (c) how it connects to your intended subject. Admissions readers typically respond better to specific learning moments than to big adjectives."
+        ]
+      },
+      {
+        heading: "3) A Simple Structure That Stays Specific",
+        paragraphs: [
+          "Opening: one paragraph on your subject motivation grounded in a real experience (a module, a problem you solved, a book/paper you engaged with).",
+          "Middle: 2–3 evidence paragraphs using the pattern “context → action → result → reflection”. Use numbers only when true and verifiable (for example, “analysed 30 survey responses” rather than “huge dataset”).",
+          "Closing: one paragraph on how you will approach the course academically (skills, habits, and next steps), not a list of generic traits."
+        ]
+      },
+      {
+        heading: "4) Common Red Flags (and How to Avoid Them)",
+        paragraphs: [
+          "Plagiarism risk: do not reuse templates line-for-line, and never copy text from sample statements. Your statement should be recognisably yours.",
+          "Over-claiming: avoid unsupported leadership/impact claims. If you say you “led” something, briefly describe what decisions you made and what changed as a result.",
+          "AI/tool use: if you use tools for brainstorming or language support, keep authorship and facts under your control. Always proofread for accuracy, tone consistency, and unintended exaggeration."
+        ]
+      },
+      {
+        heading: "5) Final Checks Before Submission",
+        paragraphs: [
+          "Check factual accuracy: modules, dates, roles, achievements, and titles. Consistency matters across your CV, reference, and any interview answers.",
+          "Check readability: short sentences, clear paragraph breaks, and no unexplained acronyms. Ask a teacher or mentor to review for clarity, not to rewrite your voice."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）Personal Statement 是什麼（也不是什麼）",
+        paragraphs: [
+          "Personal Statement 的核心是「學術匹配度」：你為什麼選這個學科、你做過哪些準備、你如何思考與學習。最有效的寫法像「有證據的推理」，而不是口號式自我包裝。",
+          "它不是保證錄取的工具。避免寫成必然結果，也避免任何無法佐證的說法（例如「我一定會…」「我是最適合的…」或誇大的職稱與工作內容）。"
+        ]
+      },
+      {
+        heading: "2）先建一個「證據庫」，再開始寫",
+        paragraphs: [
+          "先列出 6–10 個你能清楚描述的證據項：喜歡的學術主題、課題/論文/extended essay、實習中完成的具體任務、研究筆記、閱讀清單與反思、比賽作品、portfolio 成品、或小組項目中的角色與貢獻。",
+          "每一項用一句話寫清： (a) 你做了什麼、(b) 你學到了什麼、(c) 這件事如何連到你要申請的學科。比起「很努力、很熱愛」這類形容詞，招生閱讀者通常更重視具體的學習過程與反思。"
+        ]
+      },
+      {
+        heading: "3）一個簡單但不空泛的結構",
+        paragraphs: [
+          "開頭：用一段話交代你對學科的動機，但要落在真實經驗上（例如某個課題、你解決過的一個問題、你讀過的一本書/一篇文章與你的理解）。",
+          "中段：用 2–3 段證據段落，套用「背景 → 行動 → 結果 → 反思」的順序。只有在真實且可核對時才用數字（例如「分析了 30 份問卷」比「處理了大量數據」更清楚）。",
+          "結尾：說明你將如何以學術方式投入課程（能力、習慣、下一步），而不是堆砌泛泛的優點清單。"
+        ]
+      },
+      {
+        heading: "4）常見風險點（以及如何避開）",
+        paragraphs: [
+          "抄襲風險：不要逐句套用模板，更不要複製 sample statement 的內容。你的文字應該一看就知道是你本人寫的。",
+          "過度承諾/誇大：避免沒有證據的影響力與領導力說法。如果你寫「我帶領了…」，就要補一句你做了哪些決策、最終帶來了什麼改變。",
+          "AI/工具使用：即使你用工具做 brainstorming 或語言潤色，作者身份與事實仍要由你掌控。提交前務必逐句校對，避免事實錯誤、語氣不一致或不小心誇大。"
+        ]
+      },
+      {
+        heading: "5）提交前最後核對",
+        paragraphs: [
+          "核對事實：課程/模塊名稱、日期、職責、成果與頭銜等是否準確；並確保與 CV、推薦信、以及日後面試回答一致。",
+          "核對可讀性：句子不要太長、段落分明、縮寫要解釋。可以請老師或導師幫你看「是否清晰」，但不建議讓他人改寫成不屬於你聲音的版本。"
+        ]
+      }
+    ]
+  },
   {
     slug: "australia-new-zealand-provider-pathway-updates-2026",
     title: "Australia and New Zealand Pathway Updates: Applying Through OTC",
@@ -1975,16 +2172,17 @@ function articleBodyZhFirst(article) {
 }
 
 const insights = pageShell({
-  title: "Insights | OTC Study Hub",
+  title: "Overseas Study Review | 海外留學導報 | OTC Study Hub",
   current: "insights",
-  description: "Education insights, university application notes, pathway explainers and OTC study-route articles.",
+  description: "Overseas Study Review / 海外留學導報 is an Overseas Publishing House series for study-abroad briefings, university application notes, pathway explainers and bilingual education commentary.",
   path: "/insights/",
   body: `
-    <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">Education Insights</div><h1>Insights</h1><p>Short education notes, pathway explainers and application commentary from OTC. Articles can be shared to X, Threads, Facebook and WhatsApp.</p></div></section>
+    <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · 出版 · 編譯 · 導報</div><h1>Overseas Study Review</h1><h2>海外留學導報</h2><p>A bilingual public briefing series under Overseas Publishing House, connecting education publishing, editorial translation and study-abroad commentary for students, families and institutions.</p></div></section>
     <section class="band">
       <div class="section-head compact-head">
-        <div class="eyebrow">Latest Articles</div>
-        <h2>Publishable education information for students and families.</h2>
+        <div class="eyebrow">Latest Briefings</div>
+        <h2>Publishing-grade study-abroad notes, edited for public reading.</h2>
+        <p>海外留學導報屬於 Overseas Publishing / 海外書局 的系列板塊之一，與出版、編譯並列：面向學生、家長、教育機構與合作方，整理可分享、可引用、可持續更新的留學資訊。</p>
       </div>
       <div class="insights-grid">
         ${insightsArticles.map((article) => `
@@ -1994,7 +2192,7 @@ const insights = pageShell({
             <p>${article.summary}</p>
             <h4>${article.titleZh || ""}</h4>
             <p>${article.summaryZh || ""}</p>
-            <a class="btn btn-light" href="/insights/${article.slug}/">Read article</a>
+            <a class="btn btn-light" href="/insights/${article.slug}/">Read briefing</a>
           </article>
         `).join("")}
       </div>
@@ -2004,12 +2202,12 @@ const insights = pageShell({
 
 function insightArticlePage(article) {
   return pageShell({
-    title: `${article.title} | OTC Insights`,
+    title: `${article.title} | Overseas Study Review`,
     current: "insights",
     description: article.summary,
     path: `/insights/${article.slug}/`,
     body: `
-      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
+      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">海外留學導報 · ${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
       <main class="band insight-article">
         <div class="article-meta">${article.date} · ${article.author}</div>
         ${shareLinks(article)}
@@ -2022,14 +2220,14 @@ function insightArticlePage(article) {
 
 function insightArticlePageZh(article) {
   return pageShell({
-    title: `${article.titleZh || article.title} | OTC 教育資訊`,
+    title: `${article.titleZh || article.title} | 海外留學導報`,
     current: "insights",
     lang: "zh-Hant",
     locale: "zh",
     description: article.summaryZh || article.summary,
     path: `/zh/insights/${article.slug}/`,
     body: `
-      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">${article.category}</div><h1>${article.titleZh || article.title}</h1><h2>${article.title}</h2><p>${article.summaryZh || article.summary}</p><p>${article.summary}</p></div></section>
+      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">海外留學導報 · ${article.category}</div><h1>${article.titleZh || article.title}</h1><h2>${article.title}</h2><p>${article.summaryZh || article.summary}</p><p>${article.summary}</p></div></section>
       <main class="band insight-article">
         <div class="article-meta">${article.date} · ${article.author}</div>
         ${shareLinks(article, "/zh")}
@@ -2598,7 +2796,7 @@ const home = pageShell({
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
             <a href="/publishing/"><strong>Publishing</strong><span>Research publishing, study companions, digital products and author services</span></a>
-            <a href="/insights/"><strong>Insights</strong><span>Education articles, pathway notes and shareable application explainers</span></a>
+            <a href="/insights/"><strong>Overseas Study Review</strong><span>海外留學導報：publishing-grade study-abroad briefings and bilingual pathway notes</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/university-applications/">UK Applications</a>
@@ -2729,8 +2927,14 @@ const home = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Overseas Publishing</div>
         <h2>A publishing house structure with room to grow.</h2>
-        <p>Overseas Publishing is organised as a long-term publishing programme, not only a PDF shop: research, education, practical guides, literature, digital products and self-publishing services sit under one editorial system.</p>
+        <p>Overseas Publishing is organised as a long-term publishing programme, not only a PDF shop: publishing, editorial translation and the Overseas Study Review / 海外留學導報 sit under one public-facing editorial system.</p>
       </div>
+      <div class="index-grid">
+        <article><b>01</b><strong>出版</strong><span>Public bookshop editions, study guides, ISBN records, digital publication packages and Payhip/KDP release workflows.</span></article>
+        <article><b>02</b><strong>編譯</strong><span>Chinese-English editorial translation, bilingual rewriting, source checking and context calibration for public-facing materials.</span></article>
+        <article><b>03</b><strong>導報</strong><span>海外留學導報：study-abroad briefings, pathway updates, application notes and education-market commentary.</span></article>
+      </div>
+      <div style="height:28px"></div>
       <div class="publishing-layout">
         <div class="publishing-categories">${publishingLineCards()}</div>
         <aside class="series-shelf">
@@ -2754,6 +2958,14 @@ const publishing = pageShell({
   current: "publishing",
   body: `
     <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Publishing</h1><p>A long-term publishing programme for academic research, bilingual education, practical guides, cultural translation, digital products and author services.</p></div></section>
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Publishing · Editorial Translation · Review</div>
+        <h2>Overseas Publishing House is organised around three public-facing series.</h2>
+        <p>海外書局對外分為出版、編譯、導報三個核心板塊：出版承載正式書目與上架產品，編譯承載雙語轉寫與跨文化表達，海外留學導報承載可公開閱讀、可引用、可持續更新的留學與教育評論。</p>
+      </div>
+      <div class="index-grid">${publishingPillarCards()}</div>
+    </section>
     <section class="band">
       <div class="section-head">
         <h2>Six editorial lines, one public catalogue.</h2>
@@ -2761,7 +2973,7 @@ const publishing = pageShell({
       </div>
       <div class="publishing-categories publishing-categories-wide">${publishingLineCards()}</div>
       <div style="height:28px"></div>
-      <div class="notice">Publishing status update: the six OTC OTHM Level 5 Business Management first-edition single-unit study companions are now live on Payhip, alongside the Foundation / Pathway study support titles. The OTC IH Placement & Interview Practice App is now available as a standalone Payhip downloadable app. OTC study companions and apps are independent educational resources and are not official awarding-body or institution publications.</div>
+      <div class="notice">Publishing status update: the six OTC OTHM Level 5 Business Management first-edition single-unit study companions are now live on Payhip, alongside the Foundation / Pathway study support titles. The OTC IH Placement & Interview Practice App is now available as a standalone Payhip downloadable app, and the OTC Australian Citizenship Test Practice Guide + Practice App package has been prepared for Payhip upload. OTC study companions and apps are independent educational resources and are not official awarding-body, institution or government publications.</div>
       <div style="height:28px"></div>
       <div class="series-shelf">
         <div class="shelf-head">
@@ -2800,6 +3012,45 @@ const publishing = pageShell({
         </div>
         <div style="height:18px"></div>
         <div class="notice">The Payhip downloadable app is now live at https://payhip.com/b/qABUa. It is an independent OTC practice product, not an official International House London publication, official placement test, official interview script or guaranteed-placement product.</div>
+      </div>
+      <div style="height:28px"></div>
+      <div class="series-shelf">
+        <div class="shelf-head">
+          <div>
+            <div class="eyebrow">Australia Guide + App Package</div>
+            <h3>OTC Australian Citizenship Test Practice Guide + Practice App</h3>
+            <p>ISBN 978-1-0666440-7-0 · First Edition 2026 · Launch £5.99: printable bilingual PDF guide plus downloadable browser practice app prepared for Payhip release</p>
+          </div>
+          <a href="https://payhip.com/overseaspublishing" target="_blank" rel="noopener">Payhip store</a>
+        </div>
+        <div class="shelf-grid">
+          <a class="shelf-book" href="/apps/australian-citizenship-test/#embedded-citizenship-app">
+            <span class="shelf-cover">
+              <span>OTC</span>
+              <strong>Australian Citizenship Test Practice</strong>
+              <em>Guide + App</em>
+            </span>
+            <span class="shelf-text">
+              <b>Australia Digital Learning</b>
+              <strong>OTC Australian Citizenship Test Practice Guide + Practice App</strong>
+              <small>ISBN 978-1-0666440-7-0 · PDF guide · 300+ structured questions · unlimited mock practice</small>
+            </span>
+          </a>
+          <a class="shelf-book" href="/citizenship-australia/">
+            <span class="shelf-cover">
+              <span>OTC</span>
+              <strong>Australian Citizenship Practice App</strong>
+              <em>Study Hub Live</em>
+            </span>
+            <span class="shelf-text">
+              <b>Public App</b>
+              <strong>Australian Citizenship Test Practice</strong>
+              <small>Browser-based public practice version available on OTC Study Hub</small>
+            </span>
+          </a>
+        </div>
+        <div style="height:18px"></div>
+        <div class="notice">Competitive positioning: ISBN-assigned First Edition 2026 with copyright page and compiler's preface by Xiao Heng. Unlike web-only quiz products or app-store-only subscriptions, this package combines a printable bilingual PDF guide with a local browser app for Chinese-speaking learners who need concept support before English test practice. It has been expanded beyond the common 250+ competitor benchmark to 300+ structured practice questions with unlimited random mock tests. No Australian Government endorsement is implied.</div>
       </div>
       <div style="height:28px"></div>
       <div class="series-shelf ebook-service-card">
@@ -2921,7 +3172,7 @@ const ebookPublishingSupport = pageShell({
             <li>Chinese / English / bilingual PDF layout</li>
             <li>Cover direction, title page, copyright page and imprint notes</li>
             <li>Payhip product description and sales-page copy</li>
-            <li>KDP-ready checklist and ebook file preparation support</li>
+            <li>KDP-ready checklist and guide file preparation support</li>
             <li>Basic publication workflow and post-launch update planning</li>
           </ul>
         </div>
@@ -4168,7 +4419,7 @@ const chineseEntrance = pageShell({
             <a href="/international-curriculum-tutoring/"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持</span></a>
             <a href="/apps/"><strong>學習工具</strong><span>口語練習、placement、flashcards、quizzes 與導師模式</span></a>
             <a href="/publishing/"><strong>海外書局</strong><span>雙語 study companions、公開書店版本與作者服務</span></a>
-            <a href="/insights/"><strong>教育資訊</strong><span>中英雙語文章、申請說明與升學路線筆記</span></a>
+            <a href="/insights/"><strong>海外留學導報</strong><span>海外書局系列導報、升學路線筆記與中英雙語文章</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#global-study-map">全球地圖</a>
@@ -4215,7 +4466,7 @@ const chineseEntrance = pageShell({
         <article><b>03</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
         <article><b>04</b><strong>工具</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
         <article><b>05</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
-        <article><b>06</b><strong>海外書局｜留學導報</strong><span>中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
+        <article><b>06</b><strong>海外書局｜海外留學導報</strong><span>出版、編譯、導報三大板塊之一，整理中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
       </div>
     </section>
 
@@ -4245,9 +4496,9 @@ const chineseEntrance = pageShell({
 
     <section class="band compact-band">
       <div class="section-head compact-head">
-        <div class="eyebrow">教育資訊 / Insights</div>
-        <h2>海外書局｜留學導報</h2>
-        <p>每篇 Insights 文章都有完整英文版和完整中文版。中文入口會進入中文正文優先的文章頁，英文作為對照。</p>
+        <div class="eyebrow">海外書局｜導報</div>
+        <h2>海外書局｜海外留學導報</h2>
+        <p>導報是 Overseas Publishing / 海外書局的系列板塊之一，與出版、編譯並列。每篇文章都有完整英文版和完整中文版；中文入口會進入中文正文優先的文章頁，英文作為對照。</p>
       </div>
       <div class="insights-grid">
         ${insightsArticles.map((article) => `
@@ -4315,12 +4566,14 @@ const chineseEntrance = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Overseas Publishing</div>
         <h2>海外書局｜出版物</h2>
-        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目：研究、教育、實用指南、文學、數字產品與自助出版服務都在同一個編輯系統下。</p>
+        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，海外留學導報負責公開文章與教育評論。</p>
         <div class="zh-publishing-actions">
-          <a class="btn btn-light" href="/insights/">海外書局｜留學導報</a>
+          <a class="btn btn-light" href="/insights/">海外書局｜海外留學導報</a>
           <a class="btn btn-light" href="/publishing/">海外書局｜出版物</a>
         </div>
       </div>
+      <div class="index-grid">${zhPublishingPillarCards()}</div>
+      <div style="height:24px"></div>
       <div class="publishing-layout">
         <div class="publishing-categories">${zhPublishingLineCards()}</div>
         <aside class="series-shelf">
@@ -4768,7 +5021,7 @@ const apps = pageShell({
           <strong>Licence & Professional Exam Practice</strong>
           <p>Australian citizenship, CE driving, CSCS construction card, SIA security licence and future professional-practice drills.</p>
           <ul>
-            <li><span>Live</span> <a href="/apps/australian-citizenship-test/#embedded-citizenship-app">Australian Citizenship Test Practice</a></li>
+            <li><span>Live</span> <a href="/apps/australian-citizenship-test/#embedded-citizenship-app">Australian Citizenship Test Practice Guide + App</a></li>
             <li><span>Live</span> CE考牌練習App · £0.99</li>
             <li><span>Planned</span> CSCS Practice App</li>
             <li><span>Planned</span> SIA Security Licence Practice App</li>
@@ -4835,7 +5088,7 @@ const apps = pageShell({
       </div>
       <div class="metrics-grid">
         <article><strong>CE考牌練習App</strong><span>54 views · 0 orders · £0.99</span><p>Existing app-style product. Natural benchmark for future CSCS and SIA practice tools.</p></article>
-        <article><strong>Australian Citizenship Test Practice</strong><span>Live OTC Australia product</span><p>208-item bilingual question bank, 20-question mock flow, real exam-room timer, topic practice, visual atlas, flashcards and textbook-style study guide.</p></article>
+        <article><strong>Australian Citizenship Test Practice Guide + App</strong><span>ISBN 978-1-0666440-7-0 · launch £5.99</span><p>First Edition 2026: printable PDF guide with copyright page, compiler's preface, 96 basic questions, 224 advanced questions, unlimited random mock flows and local browser app access.</p></article>
         <article><strong>UCBELT Speaking Practice</strong><span>Live app · £0.99</span><p>Themed topic practice plus full mock sets, 640 bilingual vocabulary items and teacher mode.</p></article>
         <article><strong>IH Placement & Interview Practice</strong><span>Live public app</span><p>IH London-style online placement and speaking interview preparation with bilingual vocabulary, quiz and teacher notes.</p></article>
         <article><strong>英國SIA保安牌照 完全指南</strong><span>60 views · 0 orders · £2.99</span><p>Strongest listed view count in the supplied snapshot; candidate for SIA quiz/practice add-on.</p></article>
@@ -4851,7 +5104,7 @@ const apps = pageShell({
         <h2>A practical roadmap linked to Overseas Publishing.</h2>
       </div>
       <div class="pipeline-list">
-        <article><span>01</span><strong>Australian Citizenship Test Practice</strong><p>Live Australia-facing bilingual product: 208-question bank, 154 flashcards, exam-room simulation and study-guide structure, ready for book, audiobook and mobile-app packaging.</p></article>
+        <article><span>01</span><strong>Australian Citizenship Test Practice Guide + App</strong><p>Live Australia-facing bilingual product: printable PDF guide, 300+ structured practice questions, unlimited random mock tests, 154 flashcards, exam-room simulation, values-first study structure and offline-friendly browser package.</p></article>
         <article><span>02</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
         <article><span>03</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
         <article><span>04</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
@@ -4894,16 +5147,16 @@ const ucbelt = pageShell({
 });
 
 const australianCitizenshipTest = pageShell({
-  title: "Australian Citizenship Test Practice App | OTC Study Hub",
+  title: "Australian Citizenship Test Practice Guide + App | OTC Study Hub",
   current: "apps",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Australia Digital Learning Product</div><h1>Australian Citizenship Test Practice App</h1><p>Independent English-Chinese practice product for Australian citizenship preparation, built as part of OTC's Australia-facing education, publishing and digital learning portfolio.</p><div class="actions"><a class="btn btn-primary" href="#embedded-citizenship-app">Use App Here</a><a class="btn btn-secondary" href="/apps/">All Tools</a></div></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">ISBN 978-1-0666440-7-0 · First Edition 2026 · Launch £5.99</div><h1>Australian Citizenship Test Practice Guide + App</h1><p>Independent English-Chinese PDF guide and local browser practice package for Australian citizenship preparation: compiler's preface, 96 basic questions, 224 advanced questions, unlimited random mock tests, values-first revision and no login after download.</p><div class="actions"><a class="btn btn-primary" href="#embedded-citizenship-app">Use App Here</a><a class="btn btn-secondary" href="https://payhip.com/overseaspublishing" target="_blank" rel="noopener">Payhip Store</a></div></div></section>
     <section class="band app-summary-band">
       <div class="app-summary-strip">
-        <article><b>Question Bank</b><strong>208 items</strong><span>Bilingual question, options and explanation structure</span></article>
+        <article><b>Guide</b><strong>PDF</strong><span>Printable bilingual study guide, questions and flashcard glossary</span></article>
+        <article><b>Question Bank</b><strong>300+ items</strong><span>Expanded bilingual question, options and explanation structure</span></article>
         <article><b>Exam Room</b><strong>45 minutes</strong><span>Timer, reminders and realistic test flow</span></article>
-        <article><b>Practice</b><strong>4 chapters</strong><span>People, democracy, law and Australian values</span></article>
-        <article><b>Flashcards</b><strong>154 cards</strong><span>Mastered / unfamiliar tracking</span></article>
+        <article><b>Practice</b><strong>Unlimited</strong><span>Random 20-question mock tests from the expanded bank</span></article>
       </div>
       <p class="notice app-summary-note">Independent OTC bilingual practice resource. It is not an official Australian Government test paper, official question bank, immigration advice product or guarantee of citizenship-test success. Learners should read the current official Australian Citizenship: Our Common Bond resource before taking the real test.</p>
     </section>
@@ -4911,7 +5164,7 @@ const australianCitizenshipTest = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Embedded Practice App</div>
         <h2>Use the Australian citizenship practice app inside OTC Study Hub.</h2>
-        <p>The current version is a working OTC Australia digital learning product: a 208-item bilingual practice bank, real exam-room mode, topic drills, true-question demonstration flow, flashcard system, visual atlas, weak-review area and a dense study-guide structure suitable for extension into print, comic, YouTube and audiobook formats.</p>
+        <p>The current version is a working OTC Australia digital learning product positioned against web-only quizzes and app-store subscriptions: a printable PDF guide package, 300+ structured bilingual practice questions, unlimited random mock tests, real exam-room mode, topic drills, flashcard system, visual atlas, weak-review area, values-first study guide and local browser access after download.</p>
       </div>
       <div class="embedded-app-frame">
         <iframe title="Australian Citizenship Test Practice App" src="/citizenship-australia/?embed=1" loading="lazy"></iframe>
@@ -6159,7 +6412,7 @@ const about = pageShell({
         <a class="feature" href="/courses/"><div class="num">Courses</div><h3>Course & Tutorial Support</h3><p>International curriculum tutoring, OTHM routes, external programme support and academic tutoring.</p><span>Open courses</span></a>
         <a class="feature" href="/apps/"><div class="num">Tools</div><h3>Learning Apps & Tools</h3><p>Speaking practice, placement preparation, mock tests, quiz systems and digital learning utilities.</p><span>Open tools</span></a>
         <a class="feature" href="/publishing/"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p><span>Open publishing</span></a>
-        <a class="feature" href="/insights/"><div class="num">Insights</div><h3>Education Insights</h3><p>Short articles, pathway notes and publishable education information for students and families.</p><span>Open insights</span></a>
+        <a class="feature" href="/insights/"><div class="num">導報</div><h3>Overseas Study Review</h3><p>海外留學導報：publishing-grade study-abroad briefings, pathway notes and bilingual public education commentary.</p><span>Open review</span></a>
         <a class="feature" href="/university-applications/"><div class="num">Applications</div><h3>University Applications</h3><p>Country, institution, school and programme-based application screening.</p><span>Open applications</span></a>
         <a class="feature" href="/australia-business-landing/"><div class="num">Australia</div><h3>Australia Market Support</h3><p>Education market entry, local coordination and institutional development support.</p><span>Open Australia support</span></a>
       </div>
