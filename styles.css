@@ -1395,78 +1395,97 @@ h1 {
 }
 
 .zh-publishing-gateway-section {
-  padding-top: 46px;
+  background: #fffdf8;
+  border-top: 1px solid rgba(222, 211, 196, 0.72);
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.zh-publishing-gateway-section .section-head {
+  margin-bottom: 16px;
+}
+
+.zh-publishing-gateway-section .section-head h2 {
+  font-size: clamp(21px, 2.3vw, 27px);
+}
+
+.zh-publishing-gateway-section .section-head p {
+  max-width: 78ch;
 }
 
 .zh-publishing-gateway {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0;
-  margin-top: 24px;
-  background:
-    linear-gradient(135deg, rgba(6, 26, 47, 0.94), rgba(26, 20, 16, 0.94)),
-    #101820;
-  border: 1px solid rgba(200, 149, 42, 0.45);
-  border-left: 5px solid #b5272d;
+  gap: 10px;
+  margin-top: 16px;
+  background: transparent;
+  border: 0;
+  border-left: 3px solid rgba(184, 138, 59, 0.55);
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 18px 46px rgba(6, 26, 47, 0.1);
+  box-shadow: none;
+  padding-left: 14px;
 }
 
 .zh-publishing-gateway a {
-  min-height: 220px;
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 7px;
+  color: var(--ink);
   display: flex;
   flex-direction: column;
-  padding: 26px;
-  border-right: 1px solid rgba(255, 255, 255, 0.13);
-  color: #fff;
+  min-height: 145px;
+  padding: 16px 17px;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
 }
 
 .zh-publishing-gateway a:last-child {
-  border-right: 0;
+  border-right: 1px solid rgba(222, 211, 196, 0.95);
 }
 
 .zh-publishing-gateway a:hover {
-  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(184, 138, 59, 0.55);
+  box-shadow: 0 10px 24px rgba(6, 26, 47, 0.06);
+  transform: translateY(-1px);
 }
 
 .zh-publishing-gateway b {
-  color: #e8b84b;
-  font-size: 12px;
-  letter-spacing: 0.16em;
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.14em;
 }
 
 .zh-publishing-gateway strong {
-  color: #fff;
+  color: var(--navy);
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: clamp(30px, 4vw, 44px);
+  font-size: 17px;
   font-weight: 900;
-  letter-spacing: 0.04em;
-  line-height: 1.06;
-  margin-top: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  margin-top: 10px;
 }
 
 .zh-publishing-gateway span {
-  color: rgba(255, 255, 255, 0.74);
-  font-size: 14px;
-  line-height: 1.65;
-  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 8px;
 }
 
 .zh-publishing-gateway em {
-  width: max-content;
+  border: 0;
+  border-top: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 0;
+  color: var(--navy);
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 36px;
-  border-radius: 7px;
-  border: 1px solid rgba(232, 184, 75, 0.48);
-  color: #ffe6aa;
-  font-size: 12px;
+  font-size: 11px;
   font-style: normal;
-  font-weight: 850;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   margin-top: auto;
-  padding: 7px 11px;
+  min-height: 0;
+  padding: 10px 0 0;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .zh-review-list-section {
@@ -2941,8 +2960,18 @@ h1 {
 }
 
 .curriculum-overview {
-  border-top: 1px solid rgba(222, 211, 196, 0.72);
+  background: linear-gradient(180deg, #f7f2ea, #fffdf8);
+  border-top: 1px solid rgba(184, 138, 59, 0.28);
   border-bottom: 1px solid rgba(222, 211, 196, 0.72);
+  padding-top: 64px;
+}
+
+.curriculum-overview .section-head {
+  max-width: 880px;
+}
+
+.curriculum-overview .section-head h2 {
+  font-size: clamp(26px, 3vw, 36px);
 }
 
 .curriculum-layout {
@@ -8896,18 +8925,27 @@ h1 {
 }
 
 .zh-compact-curriculum article {
-  min-height: 0;
-  padding: 14px 16px;
+  min-height: 150px;
+  padding: 16px 17px;
 }
 
 .zh-compact-curriculum strong {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 1.35;
 }
 
 .zh-compact-curriculum p,
 .zh-compact-curriculum em {
-  line-height: 1.35;
-  margin-top: 7px;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.zh-compact-curriculum em {
+  color: #6c5527;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
 }
 
 .zh-compact-action {
@@ -9635,7 +9673,7 @@ h1 {
   .zh-publishing-gateway a,
   .zh-publishing-gateway a:last-child {
     border-right: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    border-bottom: 1px solid rgba(222, 211, 196, 0.95);
     min-height: 0;
   }
 
