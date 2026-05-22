@@ -525,6 +525,7 @@ h1 {
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
+.zh-othm-centre-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
@@ -534,6 +535,7 @@ h1 {
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
+.zh-othm-centre-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
   width: min(var(--page-max), calc(100% - 80px));
@@ -546,6 +548,7 @@ h1 {
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
+.zh-othm-centre-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
   padding-left: clamp(44px, 5vw, 88px);
@@ -556,6 +559,7 @@ h1 {
 .zh-global-map-band .eyebrow,
 .zh-institutional-update-section .institutional-update-head span,
 .zh-open-learning-section .eyebrow,
+.zh-othm-centre-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
 .curriculum-overview .eyebrow {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
@@ -573,6 +577,7 @@ h1 {
 .zh-home-hero .hero-title-block::before,
 .zh-global-map-band .section-head h2::before,
 .zh-open-learning-section .section-head h2::before,
+.zh-othm-centre-section .section-head h2::before,
 .zh-publishing-gateway-section .section-head h2::before,
 .curriculum-overview .section-head h2::before,
 .zh-institutional-update .institutional-update-head h2::before {
@@ -673,6 +678,7 @@ h1 {
 
 .zh-global-map-band .section-head h2,
 .zh-open-learning-section .section-head h2,
+.zh-othm-centre-section .section-head h2,
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
 .zh-institutional-update .institutional-update-head h2 {
@@ -687,6 +693,7 @@ h1 {
 
 .zh-global-map-band .section-head h2::before,
 .zh-open-learning-section .section-head h2::before,
+.zh-othm-centre-section .section-head h2::before,
 .zh-publishing-gateway-section .section-head h2::before,
 .curriculum-overview .section-head h2::before,
 .zh-institutional-update .institutional-update-head h2::before {
@@ -699,6 +706,7 @@ h1 {
 
 .zh-global-map-band .section-head p,
 .zh-open-learning-section .section-head p,
+.zh-othm-centre-section .section-head p,
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
 .zh-institutional-update .institutional-update-head p,
@@ -710,6 +718,7 @@ h1 {
 
 .zh-global-map-band .section-head p,
 .zh-open-learning-section .section-head p,
+.zh-othm-centre-section .section-head p,
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
 .zh-institutional-update .institutional-update-head p {
@@ -1279,6 +1288,100 @@ h1 {
   margin-top: auto;
   padding: 7px 10px;
   width: max-content;
+}
+
+.zh-othm-centre-section {
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.04), rgba(184, 138, 59, 0.07)),
+    #fff;
+  border-top: 1px solid rgba(184, 138, 59, 0.38);
+  border-bottom: 1px solid rgba(222, 211, 196, 0.86);
+}
+
+.zh-othm-centre-section .section-head {
+  max-width: 940px;
+}
+
+.zh-othm-centre-panel {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: 18px;
+}
+
+.zh-othm-status {
+  background: var(--navy);
+  border-radius: 8px;
+  color: #fff;
+  padding: 24px 26px;
+}
+
+.zh-othm-status span {
+  color: var(--gold-2);
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-othm-status strong {
+  display: block;
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.22;
+  margin-top: 10px;
+}
+
+.zh-othm-status p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 13px;
+  line-height: 1.85;
+  margin: 14px 0 20px;
+}
+
+.zh-othm-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  background: #fffdf8;
+}
+
+.zh-othm-links a {
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  min-height: 150px;
+  padding: 18px 20px;
+}
+
+.zh-othm-links a:nth-child(2n) {
+  border-right: 0;
+}
+
+.zh-othm-links a:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.zh-othm-links b {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  margin-bottom: 18px;
+}
+
+.zh-othm-links strong {
+  color: var(--navy);
+  display: block;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.zh-othm-links span {
+  color: var(--muted);
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 8px;
 }
 
 .hero p {
@@ -9839,6 +9942,8 @@ h1 {
   .hero-directory,
   .zh-home-hero .hero-directory,
   .zh-audience-strip,
+  .zh-othm-centre-panel,
+  .zh-othm-links,
   .zh-tool-link-list,
   .regional-office-map-card,
   .regional-office-grid,
@@ -9960,6 +10065,7 @@ h1 {
   .zh-global-map-band,
   .zh-institutional-update-section,
   .zh-open-learning-section,
+  .zh-othm-centre-section,
   .zh-publishing-gateway-section,
   .curriculum-overview {
     width: min(var(--page-max), calc(100% - 44px));
@@ -9973,6 +10079,7 @@ h1 {
   .zh-global-map-band,
   .zh-institutional-update-section,
   .zh-open-learning-section,
+  .zh-othm-centre-section,
   .zh-publishing-gateway-section,
   .curriculum-overview {
     padding-left: 16px;
@@ -10006,6 +10113,18 @@ h1 {
   .zh-audience-strip a {
     border-top: 0;
     border-left: 3px solid var(--gold);
+  }
+
+  .zh-othm-links a,
+  .zh-othm-links a:nth-child(2n),
+  .zh-othm-links a:nth-last-child(-n + 2) {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    min-height: 0;
+  }
+
+  .zh-othm-links a:last-child {
+    border-bottom: 0;
   }
 
   .zh-open-learning-grid article,
