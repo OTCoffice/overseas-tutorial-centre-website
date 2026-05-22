@@ -4597,8 +4597,7 @@ const chineseEntrance = pageShell({
             <a href="/services/"><strong>服務</strong><span>翻譯、出版、學術監護、學術會議與機構支持</span></a>
             <a href="/international-curriculum-tutoring/"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持</span></a>
             <a href="/apps/"><strong>學習工具</strong><span>口語練習、placement、flashcards、quizzes 與導師模式</span></a>
-            <a href="/publishing/"><strong>海外書局</strong><span>雙語 study companions、公開書店版本與作者服務</span></a>
-            <a href="/insights/"><strong>留學導報</strong><span>海外書局系列導報、升學路線筆記與中英雙語文章</span></a>
+            <a href="#overseas-publishing"><strong>海外書局</strong><span>出版物、編譯部、留學導報三個板塊</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#global-study-map">全球地圖</a>
@@ -4613,7 +4612,7 @@ const chineseEntrance = pageShell({
             <div class="hub-item"><strong>主要留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、愛爾蘭、新加坡、日本、韓國、香港與歐洲路線。</span></div>
             <div class="hub-item"><strong>澳洲成熟路線</strong><span>澳洲辦公室、VET / TAFE、升學文件與市場支持頁面已建立。</span></div>
             <div class="hub-item"><strong>申請與轉學</strong><span>本科、研究生、pathway、轉學、advanced entry 與文件包整理。</span></div>
-            <div class="hub-item"><strong>海外書局｜編譯部</strong><span>中英文件翻譯、出版級編修與對外表達整理。</span></div>
+            <div class="hub-item"><strong>海外書局</strong><span>出版、編譯、導報三個板塊集中呈現。</span></div>
             <div class="hub-item"><strong>學習工具</strong><span>口語、placement、詞彙、mock test 和導師輔導工具逐步集中。</span></div>
           </div>
         </aside>
@@ -4645,11 +4644,39 @@ const chineseEntrance = pageShell({
         <article><b>03</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
         <article><b>04</b><strong>工具</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
         <article><b>05</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
-        <article><b>06</b><strong>海外書局｜留學導報</strong><span>出版、編譯、導報三大板塊之一，整理中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
+        <article><b>06</b><strong>海外書局</strong><span>統一收攏出版物、編譯部、留學導報三個板塊。</span></article>
       </div>
     </section>
 
-    <section class="band compact-band zh-review-list-section">
+    <section class="band compact-band zh-publishing-gateway-section" id="overseas-publishing">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Overseas Publishing</div>
+        <h2>海外書局</h2>
+        <p>海外書局作為 OTC 的出版與編輯板塊，統一收攏三個對外入口：出版物、編譯部、留學導報。每個入口分別進入對應內容，不再散落在首頁不同位置。</p>
+      </div>
+      <div class="zh-publishing-gateway">
+        <a href="#zh-publishing-catalogue">
+          <b>01</b>
+          <strong>出版物</strong>
+          <span>Study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
+          <em>進入出版物</em>
+        </a>
+        <a href="#zh-editorial-translation">
+          <b>02</b>
+          <strong>編譯部</strong>
+          <span>中英翻譯、出版級編修、跨文化語境整理與對外表達校準。</span>
+          <em>進入編譯部</em>
+        </a>
+        <a href="#zh-study-review">
+          <b>03</b>
+          <strong>留學導報</strong>
+          <span>升學路線、申請文件、英澳澳新 pathway 與教育評論文章。</span>
+          <em>進入留學導報</em>
+        </a>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-review-list-section" id="zh-study-review">
       <div class="section-head compact-head">
         <div class="eyebrow">海外書局｜導報</div>
         <h2>海外書局｜留學導報</h2>
@@ -4684,6 +4711,56 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
+    <section class="band compact-band premium-translation-section" id="zh-editorial-translation">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Language & Context Studio</div>
+        <h2>海外書局｜編譯部</h2>
+        <p>為大學申請、商務文件、法律語境材料與出版稿件提供中英翻譯、雙語編修與跨文化表達校準。</p>
+      </div>
+      <div class="translation-service-grid">
+        <article><b>01</b><strong>申請與學術翻譯</strong><span>Personal statement、CV、推薦信素材、學術證明、研究計劃與申請補充說明。</span></article>
+        <article><b>02</b><strong>商務與合規文件</strong><span>公司介紹、資金來源說明、董事/股東背景、跨境業務說明與審核材料語境整理。</span></article>
+        <article><b>03</b><strong>法律語境翻譯</strong><span>合約、律師往來、交易背景、證據說明與案件時間線翻譯。非法律意見。</span></article>
+        <article><b>04</b><strong>出版級雙語編修</strong><span>研究文章、教育內容、書稿、網站文案、品牌介紹與 public-facing content。</span></article>
+      </div>
+      <div class="translation-premium-note">
+        <div>
+          <strong>交付方式</strong>
+          <p>可按文件用途提供直譯、意譯、英式學術語氣、商務語氣、出版語氣或提交前 final polish。</p>
+        </div>
+        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Premium%20Chinese-English%20Translation%20Service%20Enquiry">諮詢翻譯服務</a>
+      </div>
+      <p class="source-note">服務邊界：OTC 可提供翻譯、編修、語境整理與英文表達優化；如文件需 certified translation、notarisation、legal advice 或官方認證，需另行確認適用要求並由相應專業人士處理。</p>
+    </section>
+
+    <section class="band publishing-overview" id="zh-publishing-catalogue">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Overseas Publishing</div>
+        <h2>海外書局｜出版物</h2>
+        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，留學導報負責公開文章與教育評論。</p>
+        <div class="zh-publishing-actions">
+          <a class="btn btn-light" href="/insights/">海外書局｜留學導報</a>
+          <a class="btn btn-light" href="/publishing/">海外書局｜出版物</a>
+        </div>
+      </div>
+      <div class="index-grid">${zhPublishingPillarCards()}</div>
+      <div style="height:24px"></div>
+      <div class="publishing-layout">
+        <div class="publishing-categories">${zhPublishingLineCards()}</div>
+        <aside class="series-shelf">
+          <div class="shelf-head">
+            <div>
+              <div class="eyebrow">Payhip 已上架系列</div>
+              <h3>OTHM Level 5 Business Management</h3>
+              <p>六本 first-edition single-unit 雙語 study companions 已在 Payhip 上架</p>
+            </div>
+            <a href="/study-guides/">查看全部</a>
+          </div>
+          <div class="shelf-grid">${zhProductShelf()}</div>
+        </aside>
+      </div>
+    </section>
+
     <section class="band compact-band curriculum-overview">
       <div class="section-head compact-head">
         <div class="eyebrow">國際課程輔導</div>
@@ -4710,56 +4787,6 @@ const chineseEntrance = pageShell({
         <a href="/apps/"><strong>全部工具索引</strong><span>未來新增工具會集中放在此入口，避免首頁被大卡片撐滿。</span></a>
       </div>
       <p class="source-note">OTC 獨立練習資源。不是 UCB、IH 或其他機構的官方出版物、官方試卷或保分產品。</p>
-    </section>
-
-    <section class="band compact-band premium-translation-section">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Language & Context Studio</div>
-        <h2>海外書局｜編譯部</h2>
-        <p>為大學申請、商務文件、法律語境材料與出版稿件提供中英翻譯、雙語編修與跨文化表達校準。</p>
-      </div>
-      <div class="translation-service-grid">
-        <article><b>01</b><strong>申請與學術翻譯</strong><span>Personal statement、CV、推薦信素材、學術證明、研究計劃與申請補充說明。</span></article>
-        <article><b>02</b><strong>商務與合規文件</strong><span>公司介紹、資金來源說明、董事/股東背景、跨境業務說明與審核材料語境整理。</span></article>
-        <article><b>03</b><strong>法律語境翻譯</strong><span>合約、律師往來、交易背景、證據說明與案件時間線翻譯。非法律意見。</span></article>
-        <article><b>04</b><strong>出版級雙語編修</strong><span>研究文章、教育內容、書稿、網站文案、品牌介紹與 public-facing content。</span></article>
-      </div>
-      <div class="translation-premium-note">
-        <div>
-          <strong>交付方式</strong>
-          <p>可按文件用途提供直譯、意譯、英式學術語氣、商務語氣、出版語氣或提交前 final polish。</p>
-        </div>
-        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Premium%20Chinese-English%20Translation%20Service%20Enquiry">諮詢翻譯服務</a>
-      </div>
-      <p class="source-note">服務邊界：OTC 可提供翻譯、編修、語境整理與英文表達優化；如文件需 certified translation、notarisation、legal advice 或官方認證，需另行確認適用要求並由相應專業人士處理。</p>
-    </section>
-
-    <section class="band publishing-overview">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Overseas Publishing</div>
-        <h2>海外書局｜出版物</h2>
-        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，留學導報負責公開文章與教育評論。</p>
-        <div class="zh-publishing-actions">
-          <a class="btn btn-light" href="/insights/">海外書局｜留學導報</a>
-          <a class="btn btn-light" href="/publishing/">海外書局｜出版物</a>
-        </div>
-      </div>
-      <div class="index-grid">${zhPublishingPillarCards()}</div>
-      <div style="height:24px"></div>
-      <div class="publishing-layout">
-        <div class="publishing-categories">${zhPublishingLineCards()}</div>
-        <aside class="series-shelf">
-          <div class="shelf-head">
-            <div>
-              <div class="eyebrow">Payhip 已上架系列</div>
-              <h3>OTHM Level 5 Business Management</h3>
-              <p>六本 first-edition single-unit 雙語 study companions 已在 Payhip 上架</p>
-            </div>
-            <a href="/study-guides/">查看全部</a>
-          </div>
-          <div class="shelf-grid">${zhProductShelf()}</div>
-        </aside>
-      </div>
     </section>
   `
 });

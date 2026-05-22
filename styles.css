@@ -1236,6 +1236,81 @@ h1 {
   font-weight: 800;
 }
 
+.zh-publishing-gateway-section {
+  padding-top: 46px;
+}
+
+.zh-publishing-gateway {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin-top: 24px;
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.94), rgba(26, 20, 16, 0.94)),
+    #101820;
+  border: 1px solid rgba(200, 149, 42, 0.45);
+  border-left: 5px solid #b5272d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 18px 46px rgba(6, 26, 47, 0.1);
+}
+
+.zh-publishing-gateway a {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  border-right: 1px solid rgba(255, 255, 255, 0.13);
+  color: #fff;
+}
+
+.zh-publishing-gateway a:last-child {
+  border-right: 0;
+}
+
+.zh-publishing-gateway a:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.zh-publishing-gateway b {
+  color: #e8b84b;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+}
+
+.zh-publishing-gateway strong {
+  color: #fff;
+  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 1.06;
+  margin-top: 18px;
+}
+
+.zh-publishing-gateway span {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 14px;
+}
+
+.zh-publishing-gateway em {
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  border-radius: 7px;
+  border: 1px solid rgba(232, 184, 75, 0.48);
+  color: #ffe6aa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+  margin-top: auto;
+  padding: 7px 11px;
+}
+
 .zh-review-list-section {
   padding-top: 46px;
 }
@@ -7919,6 +7994,7 @@ h1 {
   .country-school-grid,
   .index-grid,
   .education-update-list,
+  .zh-publishing-gateway,
   .ebook-service-grid,
   .insights-hero-layout,
   .insights-intro,
@@ -7995,6 +8071,17 @@ h1 {
 
   .zh-review-row > a {
     width: max-content;
+  }
+
+  .zh-publishing-gateway a,
+  .zh-publishing-gateway a:last-child {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    min-height: 0;
+  }
+
+  .zh-publishing-gateway a:last-child {
+    border-bottom: 0;
   }
 
   .index-grid article,
@@ -8290,7 +8377,8 @@ h1 {
   }
 
   .zh-review-edition-panel > div,
-  .zh-review-edition-panel aside {
+  .zh-review-edition-panel aside,
+  .zh-publishing-gateway a {
     padding: 20px;
   }
 
