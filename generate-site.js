@@ -1531,6 +1531,7 @@ function searchItems() {
     ["Australian Citizenship Test Practice App", "/apps/australian-citizenship-test/", "Independent OTC English-Chinese Australian citizenship test practice app with mock tests, topic practice, flashcards and study guide."],
     ["IH London Placement & Interview Practice App", "/apps/ih-placement-interview/", "Independent OTC practice app for IH London online placement test readiness, speaking interview preparation, bilingual vocabulary and tutor-led review."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
+    ["留學導報中文目錄", "/zh/insights/", "海外書局導報中文文章清單，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理。"],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
@@ -2354,6 +2355,44 @@ function zhReviewDepartmentCards() {
   }).join("");
 }
 
+function zhReviewListContent() {
+  return `
+    <div class="zh-review-edition-panel">
+      <div>
+        <span>Overseas Publishing House</span>
+        <strong>留學導報</strong>
+        <p>以「正文深度、側欄速查、信息圖記憶」三層結構組織內容。欄目固定分為六類；讀者可先按版面分類定位，再點擊文章進入完整中文正文。</p>
+      </div>
+      <aside>
+        <b>版面分類</b>
+        <em>留學升學 · 移居安家 · 財富規劃 · 職業考牌 · 創業自雇 · 學術文化</em>
+      </aside>
+    </div>
+    <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
+    <div class="zh-review-format-strip">
+      <span>固定版面：報頭 · 欄目標籤欄 · 頁腳</span>
+      <span>正文：分節 · 引言 · 提示框 · 免責聲明</span>
+      <span>速查：側欄卡片 · 清單 · 官方資源</span>
+      <span>視覺：流程圖 · 對比表 · 數據橫條</span>
+    </div>
+    <div class="zh-review-list">
+      ${insightsArticles.map((article) => `
+        <article class="zh-review-row">
+          <div class="zh-review-row-meta">
+            <time>${article.date}</time>
+            <span>${zhReviewColumnForArticle(article).name}</span>
+          </div>
+          <div class="zh-review-row-body">
+            <h3>${article.titleZh || article.title}</h3>
+            <p>${article.summaryZh || article.summary}</p>
+          </div>
+          <a href="/zh/insights/${article.slug}/">閱讀中文正文</a>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -2565,6 +2604,40 @@ const insights = pageShell({
           </article>
         `).join("")}
       </div>
+    </section>
+  `
+});
+
+const zhInsights = pageShell({
+  title: "留學導報 | 海外書局 | OTC Study Hub",
+  current: "insights",
+  lang: "zh-Hant",
+  locale: "zh",
+  description: "留學導報是海外書局的中文導報板塊，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理文章。",
+  path: "/zh/insights/",
+  body: `
+    <section class="page-hero insights-hero">
+      <div class="band insights-hero-layout">
+        <div>
+          <div class="eyebrow">海外書局｜導報</div>
+          <h1>留學導報</h1>
+          <h2>Overseas Study Review</h2>
+          <p>海外書局下屬導報板塊，集中發布留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化文章。列表先呈現版面分類，再點擊進入完整導報正文。</p>
+        </div>
+        <aside class="insights-issue-panel">
+          <span>導報版面</span>
+          <strong>正文深度 · 側欄速查 · 信息圖記憶</strong>
+          <p>中文優先<br>英文對照<br>持續更新</p>
+        </aside>
+      </div>
+    </section>
+    <section class="band compact-band zh-review-list-section">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Overseas Publishing House</div>
+        <h2>文章清單與版面分類</h2>
+        <p>導報文章按固定欄目收納；每篇正文保留報頭、欄目標籤、主文、側欄和文末信息圖等出版級結構。</p>
+      </div>
+      ${zhReviewListContent()}
     </section>
   `
 });
@@ -4839,115 +4912,24 @@ const chineseEntrance = pageShell({
         <p>海外書局作為 OTC 的出版與編輯板塊，統一收攏三個對外入口：出版物、編譯部、留學導報。每個入口分別進入對應內容，不再散落在首頁不同位置。</p>
       </div>
       <div class="zh-publishing-gateway">
-        <a href="#zh-publishing-catalogue">
+        <a href="/publishing/">
           <b>01</b>
           <strong>出版物</strong>
           <span>Study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
           <em>進入出版物</em>
         </a>
-        <a href="#zh-editorial-translation">
+        <a href="/services/language-context-studio/">
           <b>02</b>
           <strong>編譯部</strong>
           <span>中英翻譯、出版級編修、跨文化語境整理與對外表達校準。</span>
           <em>進入編譯部</em>
         </a>
-        <a href="#zh-study-review">
+        <a href="/zh/insights/">
           <b>03</b>
           <strong>留學導報</strong>
           <span>升學路線、申請文件、英澳澳新 pathway 與教育評論文章。</span>
           <em>進入留學導報</em>
         </a>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-review-list-section" id="zh-study-review">
-      <div class="section-head compact-head">
-        <div class="eyebrow">海外書局｜導報</div>
-        <h2>海外書局｜留學導報</h2>
-        <p>導報是 Overseas Publishing / 海外書局的系列板塊之一，與出版、編譯並列。中文區只保留導報文章入口；每篇文章點擊後進入中文正文優先的導報版面，英文作為對照。</p>
-      </div>
-      <div class="zh-review-edition-panel">
-        <div>
-          <span>Overseas Publishing House</span>
-          <strong>留學導報</strong>
-          <p>以「正文深度、側欄速查、信息圖記憶」三層結構組織內容。欄目固定分為六類；讀者可先按版面分類定位，再點擊文章進入完整中文正文。</p>
-        </div>
-        <aside>
-          <b>版面分類</b>
-          <em>留學升學 · 移居安家 · 財富規劃 · 職業考牌 · 創業自雇 · 學術文化</em>
-        </aside>
-      </div>
-      <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
-      <div class="zh-review-format-strip">
-        <span>固定版面：報頭 · 欄目標籤欄 · 頁腳</span>
-        <span>正文：分節 · 引言 · 提示框 · 免責聲明</span>
-        <span>速查：側欄卡片 · 清單 · 官方資源</span>
-        <span>視覺：流程圖 · 對比表 · 數據橫條</span>
-      </div>
-      <div class="zh-review-list">
-        ${insightsArticles.map((article) => `
-          <article class="zh-review-row">
-            <div class="zh-review-row-meta">
-              <time>${article.date}</time>
-              <span>${zhReviewColumnForArticle(article).name}</span>
-            </div>
-            <div class="zh-review-row-body">
-              <h3>${article.titleZh || article.title}</h3>
-              <p>${article.summaryZh || article.summary}</p>
-            </div>
-            <a href="/zh/insights/${article.slug}/">閱讀中文正文</a>
-          </article>
-        `).join("")}
-      </div>
-    </section>
-
-    <section class="band compact-band premium-translation-section" id="zh-editorial-translation">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Language & Context Studio</div>
-        <h2>海外書局｜編譯部</h2>
-        <p>為大學申請、商務文件、法律語境材料與出版稿件提供中英翻譯、雙語編修與跨文化表達校準。</p>
-      </div>
-      <div class="translation-service-grid">
-        <article><b>01</b><strong>申請與學術翻譯</strong><span>Personal statement、CV、推薦信素材、學術證明、研究計劃與申請補充說明。</span></article>
-        <article><b>02</b><strong>商務與合規文件</strong><span>公司介紹、資金來源說明、董事/股東背景、跨境業務說明與審核材料語境整理。</span></article>
-        <article><b>03</b><strong>法律語境翻譯</strong><span>合約、律師往來、交易背景、證據說明與案件時間線翻譯。非法律意見。</span></article>
-        <article><b>04</b><strong>出版級雙語編修</strong><span>研究文章、教育內容、書稿、網站文案、品牌介紹與 public-facing content。</span></article>
-      </div>
-      <div class="translation-premium-note">
-        <div>
-          <strong>交付方式</strong>
-          <p>可按文件用途提供直譯、意譯、英式學術語氣、商務語氣、出版語氣或提交前 final polish。</p>
-        </div>
-        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Premium%20Chinese-English%20Translation%20Service%20Enquiry">諮詢翻譯服務</a>
-      </div>
-      <p class="source-note">服務邊界：OTC 可提供翻譯、編修、語境整理與英文表達優化；如文件需 certified translation、notarisation、legal advice 或官方認證，需另行確認適用要求並由相應專業人士處理。</p>
-    </section>
-
-    <section class="band publishing-overview" id="zh-publishing-catalogue">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Overseas Publishing</div>
-        <h2>海外書局｜出版物</h2>
-        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，留學導報負責公開文章與教育評論。</p>
-        <div class="zh-publishing-actions">
-          <a class="btn btn-light" href="/insights/">海外書局｜留學導報</a>
-          <a class="btn btn-light" href="/publishing/">海外書局｜出版物</a>
-        </div>
-      </div>
-      <div class="index-grid">${zhPublishingPillarCards()}</div>
-      <div style="height:24px"></div>
-      <div class="publishing-layout">
-        <div class="publishing-categories">${zhPublishingLineCards()}</div>
-        <aside class="series-shelf">
-          <div class="shelf-head">
-            <div>
-              <div class="eyebrow">Payhip 已上架系列</div>
-              <h3>OTHM Level 5 Business Management</h3>
-              <p>六本 first-edition single-unit 雙語 study companions 已在 Payhip 上架</p>
-            </div>
-            <a href="/study-guides/">查看全部</a>
-          </div>
-          <div class="shelf-grid">${zhProductShelf()}</div>
-        </aside>
       </div>
     </section>
 
@@ -7237,6 +7219,7 @@ write("reports/othm-australia-expansion", othmAustraliaExpansionReport);
 write("zh/reports/othm-australia-expansion", othmAustraliaExpansionReportZh);
 write("consultation-chat", consultationChat);
 write("insights", insights);
+write("zh/insights", zhInsights);
 insightsArticles.forEach((article) => {
   write(`insights/${article.slug}`, insightArticlePage(article));
   write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
