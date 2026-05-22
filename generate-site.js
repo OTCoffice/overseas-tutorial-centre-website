@@ -5281,7 +5281,7 @@ const chineseEntrance = pageShell({
             <h1>雙語世界｜免費學習平台</h1>
             <h2 class="hero-subhead">Overseas Tutorial Centre · 海外督導</h2>
           </div>
-          <p>免費學習資源、雙語課程支持、升學路線與海外知識，為中文學習者建立一個可以反覆使用的開放學習入口。</p>
+          <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
           <div class="hero-directory">
             <a href="#open-learning-platform"><strong>學生自學</strong><span>課程地圖、雙語解釋、練習工具與學術英語支持</span></a>
             <a href="#open-learning-platform"><strong>家長規劃</strong><span>升學路線、文件清單、國別選擇與申請時間線</span></a>
@@ -5310,7 +5310,7 @@ const chineseEntrance = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Open Learning Platform</div>
         <h2>雙語世界｜免費學習平台</h2>
-        <p>OTC 中文站的長期目標，是把留學、國際課程、學術英語、職業考試、海外生活與雙語知識整理成可公開閱讀、可反覆練習、可逐步擴展的免費學習系統。個別深度輔導、申請辦理、翻譯出版及機構服務另行承接。</p>
+        <p>內容來自 OTC 教學、申請與出版積累，整理為免費課程、練習工具與留學知識；個別輔導和正式申請另行承接。</p>
       </div>
       <div class="zh-audience-strip" aria-label="Learning audience entrances">
         <a href="/international-curriculum-tutoring/"><b>For learners</b><strong>學生自學</strong><span>從課程、詞彙、練習與文章開始。</span></a>
