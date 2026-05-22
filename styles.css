@@ -587,6 +587,51 @@ h1 {
   padding: 10px 16px;
 }
 
+.zh-home-hero .hero-directory {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.zh-home-hero .hero-directory a {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+}
+
+.zh-learning-ladder {
+  display: grid;
+  gap: 10px;
+}
+
+.zh-learning-ladder div {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 0.72fr) minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(222, 211, 196, 0.92);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 12px 13px;
+}
+
+.zh-learning-ladder b {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+}
+
+.zh-learning-ladder strong {
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.zh-learning-ladder span {
+  color: #4c596b;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .zh-global-map-band .section-head h2,
 .zh-open-learning-section .section-head h2,
 .zh-route-updates-section .section-head h2,
@@ -1084,6 +1129,46 @@ h1 {
 
 .zh-open-learning-section .section-head h2 {
   font-size: clamp(28px, 3.2vw, 40px);
+}
+
+.zh-audience-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.zh-audience-strip a {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.zh-audience-strip b {
+  color: var(--gold);
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-audience-strip strong {
+  color: var(--navy);
+  display: block;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.zh-audience-strip span {
+  color: var(--muted);
+  display: block;
+  font-size: 13px;
+  line-height: 1.55;
+  margin-top: 4px;
 }
 
 .zh-open-learning-grid {
@@ -9708,6 +9793,8 @@ h1 {
   }
 
   .hero-directory,
+  .zh-home-hero .hero-directory,
+  .zh-audience-strip,
   .zh-tool-link-list,
   .regional-office-map-card,
   .regional-office-grid,
@@ -9842,6 +9929,16 @@ h1 {
 
   .zh-publishing-tool-list a:last-child {
     border-bottom: 0;
+  }
+
+  .zh-learning-ladder div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .zh-audience-strip a {
+    border-top: 0;
+    border-left: 3px solid var(--gold);
   }
 
   .zh-open-learning-grid article,

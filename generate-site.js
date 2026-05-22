@@ -5278,35 +5278,29 @@ const chineseEntrance = pageShell({
         <div>
           <div class="eyebrow">雙語世界 · 免費學習平台 · 留學申請 · 海外書局</div>
           <div class="hero-title-block zh-play-title">
-            <h1>海外督導</h1>
-            <h2 class="hero-subhead">Overseas Tutorial Centre</h2>
+            <h1>雙語世界｜免費學習平台</h1>
+            <h2 class="hero-subhead">Overseas Tutorial Centre · 海外督導</h2>
           </div>
-          <p>雙語世界的開放學習平台：免費學習資源、升學路線、課程支持與雙語出版。</p>
+          <p>免費學習資源、雙語課程支持、升學路線與海外知識，為中文學習者建立一個可以反覆使用的開放學習入口。</p>
           <div class="hero-directory">
-            <a href="#open-learning-platform"><strong>免費學習平台</strong><span>公開學習資源、練習工具、導報文章與雙語學習內容</span></a>
-            <a href="/university-applications/"><strong>大學申請</strong><span>本科、碩士、博士、轉學與 advanced entry 文件整理</span></a>
-            <a href="/international-curriculum-tutoring/"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持</span></a>
-            <a href="#overseas-publishing"><strong>海外書局</strong><span>出版物、編譯部、留學導報三個板塊</span></a>
-            <a href="#global-study-map"><strong>全球留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、亞洲與歐洲主要目的地</span></a>
-            <a href="/services/"><strong>服務與申請</strong><span>申請、翻譯、出版、學術監護、機構支持與專業轉介</span></a>
+            <a href="#open-learning-platform"><strong>學生自學</strong><span>課程地圖、雙語解釋、練習工具與學術英語支持</span></a>
+            <a href="#open-learning-platform"><strong>家長規劃</strong><span>升學路線、文件清單、國別選擇與申請時間線</span></a>
+            <a href="/services/"><strong>教師與機構</strong><span>出版、翻譯、教學資源、活動與機構服務支持</span></a>
           </div>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#open-learning-platform">免費學習平台</a>
+            <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
             <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
-            <a class="btn btn-secondary" href="/university-applications/">大學申請評估</a>
             <a class="btn btn-secondary" href="#overseas-publishing">海外書局</a>
-            <a class="btn btn-secondary" href="#global-study-map">全球地圖</a>
+            <a class="btn btn-secondary" href="/university-applications/">申請評估</a>
           </div>
         </div>
         <aside class="hero-panel zh-priority-panel">
-          <div class="panel-label">快速入口</div>
-          <div class="hub-map">
-            <div class="hub-item"><strong>免費學習平台</strong><span>面向雙語學習者逐步公開學習文章、練習工具、詞彙系統與雙語學習內容。</span></div>
-            <div class="hub-item"><strong>申請與轉學</strong><span>本科、研究生、pathway、轉學、advanced entry 與文件包整理。</span></div>
-            <div class="hub-item"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持。</span></div>
-            <div class="hub-item"><strong>海外書局</strong><span>出版、編譯、導報三個板塊集中呈現。</span></div>
-            <div class="hub-item"><strong>澳洲成熟路線</strong><span>澳洲辦公室、VET / TAFE、升學文件與市場支持頁面已建立。</span></div>
-            <div class="hub-item"><strong>主要留學國家</strong><span>英國、澳洲、美國、加拿大、新西蘭、愛爾蘭、新加坡、日本、韓國、香港與歐洲路線。</span></div>
+          <div class="panel-label">學習路徑</div>
+          <div class="zh-learning-ladder" aria-label="OTC learning path">
+            <div><b>01</b><strong>Learn</strong><span>雙語概念、課程地圖、知識文章</span></div>
+            <div><b>02</b><strong>Practice</strong><span>口語、詞彙、mock tests、題庫</span></div>
+            <div><b>03</b><strong>Plan</strong><span>升學路線、文件清單、時間線</span></div>
+            <div><b>04</b><strong>Apply</strong><span>申請評估、文件整理、專業轉介</span></div>
           </div>
         </aside>
       </div>
@@ -5317,6 +5311,11 @@ const chineseEntrance = pageShell({
         <div class="eyebrow">Open Learning Platform</div>
         <h2>雙語世界｜免費學習平台</h2>
         <p>OTC 中文站的長期目標，是把留學、國際課程、學術英語、職業考試、海外生活與雙語知識整理成可公開閱讀、可反覆練習、可逐步擴展的免費學習系統。個別深度輔導、申請辦理、翻譯出版及機構服務另行承接。</p>
+      </div>
+      <div class="zh-audience-strip" aria-label="Learning audience entrances">
+        <a href="/international-curriculum-tutoring/"><b>For learners</b><strong>學生自學</strong><span>從課程、詞彙、練習與文章開始。</span></a>
+        <a href="/university-applications/"><b>For families</b><strong>家長規劃</strong><span>理解國別、路線、文件與申請節奏。</span></a>
+        <a href="/services/"><b>For educators</b><strong>教師與機構</strong><span>出版、翻譯、教學與項目支持。</span></a>
       </div>
       <div class="zh-open-learning-grid">
         <article>
