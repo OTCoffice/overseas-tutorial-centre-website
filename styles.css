@@ -525,7 +525,6 @@ h1 {
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
-.zh-route-updates-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
@@ -539,7 +538,6 @@ h1 {
 .zh-global-map-band .eyebrow,
 .zh-institutional-update-section .institutional-update-head span,
 .zh-open-learning-section .eyebrow,
-.zh-route-updates-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
 .curriculum-overview .eyebrow {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
@@ -634,7 +632,6 @@ h1 {
 
 .zh-global-map-band .section-head h2,
 .zh-open-learning-section .section-head h2,
-.zh-route-updates-section .section-head h2,
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
 .zh-institutional-update .institutional-update-head h2 {
@@ -647,7 +644,6 @@ h1 {
 
 .zh-global-map-band .section-head p,
 .zh-open-learning-section .section-head p,
-.zh-route-updates-section .section-head p,
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
 .zh-institutional-update .institutional-update-head p,
@@ -1220,21 +1216,6 @@ h1 {
   margin-top: auto;
   padding: 7px 10px;
   width: max-content;
-}
-
-.zh-route-updates-section {
-  background: #fbf8f2;
-  border-top: 1px solid rgba(222, 211, 196, 0.82);
-  border-bottom: 1px solid rgba(222, 211, 196, 0.72);
-}
-
-.zh-route-update-list {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.zh-route-update-list a {
-  background: #fff;
-  min-height: 150px;
 }
 
 .hero p {
