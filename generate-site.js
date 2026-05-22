@@ -4116,11 +4116,47 @@ const universityApplications = pageShell({
       </div>
     </section>
 
-    <section class="band">
+    <section class="band application-country-band">
       <div class="section-head compact-head">
-        <div class="eyebrow">Programme Screening</div>
-        <h2>Country, institution, school and programme-based application review.</h2>
-        <p>OTC starts with the student's evidence, then screens likely routes against official university requirements. The live database currently includes selected UK marketing, media and communication programmes plus wider Australia institution-level screening records. Individual eligibility is always checked against each university's current admissions rules.</p>
+        <div class="eyebrow">Country & Region Map</div>
+        <h2>Choose a destination first, then open the university list.</h2>
+        <p>OTC starts with country and region logic before narrowing to institution, school and programme level. The map below separates UK, Australia and US routes so the university list is easier to scan.</p>
+      </div>
+      <div class="application-country-map" id="applicationCountryMap" aria-label="Country and region application routes">
+        <a class="application-country-card is-primary" href="/university-applications/?country=United%20Kingdom#programme-directory" data-country-jump="United Kingdom">
+          <span>01</span>
+          <strong>United Kingdom</strong>
+          <em>UCAS · direct entry · advanced entry</em>
+          <p>本科、碩士、轉學、top-up 與 advanced-entry 文件整理。</p>
+          <b data-country-count="United Kingdom">Open list</b>
+        </a>
+        <a class="application-country-card australia" href="/university-applications/?country=Australia#programme-directory" data-country-jump="Australia">
+          <span>02</span>
+          <strong>Australia</strong>
+          <em>University · pathway · sub-agent routes</em>
+          <p>澳洲大學及 pathway route 先按院校層面篩查，再逐步收窄課程。</p>
+          <b data-country-count="Australia">Open list</b>
+        </a>
+        <a class="application-country-card us" href="/university-applications/?country=United%20States#programme-directory" data-country-jump="United States">
+          <span>03</span>
+          <strong>United States</strong>
+          <em>North America direct-admit routes</em>
+          <p>美國直入、pathway 與 Study Group North America route 初步篩查。</p>
+          <b data-country-count="United States">Open list</b>
+        </a>
+      </div>
+      <div class="application-region-strip">
+        ${countryGatewayData.filter((country) => !["united-kingdom", "australia", "united-states"].includes(country.slug)).map((country) => `
+          <a href="${country.href}"><strong>${country.zh}</strong><span>${country.name}</span></a>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band" id="programme-directory">
+      <div class="section-head compact-head">
+        <div class="eyebrow">University List</div>
+        <h2 id="programmeDirectoryTitle">University list by selected country.</h2>
+        <p id="programmeDirectorySummary">Choose a country card above or use the filters. Individual eligibility is always checked against each university's current admissions rules.</p>
       </div>
       <div class="application-layout">
         <aside class="programme-filter-panel" aria-label="Programme filters">
@@ -4246,6 +4282,9 @@ const universityApplications = pageShell({
         const targetCountry = document.getElementById("targetCountry");
         const targetState = document.getElementById("targetState");
         const targetInstitution = document.getElementById("targetInstitution");
+        const applicationCountryMap = document.getElementById("applicationCountryMap");
+        const programmeDirectoryTitle = document.getElementById("programmeDirectoryTitle");
+        const programmeDirectorySummary = document.getElementById("programmeDirectorySummary");
 
         const coreProgrammes = [
           {
@@ -4506,6 +4545,7 @@ const universityApplications = pageShell({
         const programmes = coreProgrammes.concat(australianInstitutionProgrammes);
 
         let currentProgramme = programmes.find((item) => item.id === "cardiff-business-economics-advanced-entry") || programmes[0];
+        let hasIncomingCountry = false;
 
         function buildApplyHref(programme) {
           const params = new URLSearchParams({
@@ -4566,6 +4606,25 @@ const universityApplications = pageShell({
           ].join("")).join("");
         }
 
+        function countryDisplayName(country) {
+          return country === "All" ? "all destinations" : country;
+        }
+
+        function updateCountryMap() {
+          const activeCountry = countryFilter.value || "All";
+          document.querySelectorAll("[data-country-jump]").forEach((card) => {
+            card.classList.toggle("is-active", card.dataset.countryJump === activeCountry);
+          });
+          document.querySelectorAll("[data-country-count]").forEach((badge) => {
+            const country = badge.dataset.countryCount;
+            const count = programmes.filter((item) => item.country === country).length;
+            badge.textContent = count + " route" + (count === 1 ? "" : "s");
+          });
+          const activeList = filteredProgrammes();
+          programmeDirectoryTitle.textContent = "University list: " + countryDisplayName(activeCountry);
+          programmeDirectorySummary.textContent = activeList.length + " current screening route" + (activeList.length === 1 ? "" : "s") + " are shown. Use the filters to narrow by university, school or programme.";
+        }
+
         function refreshFilters() {
           setOptions(countryFilter, uniqueValues("country", programmes), "All countries");
           setOptions(institutionFilter, uniqueValues("institution", countryFilter.value === "All" ? programmes : programmes.filter((item) => item.country === countryFilter.value)), "All universities");
@@ -4580,6 +4639,7 @@ const universityApplications = pageShell({
           const selected = list.find((item) => item.id === currentProgramme.id) || list[0] || programmes[0];
           renderCards(list);
           renderProgramme(selected);
+          updateCountryMap();
         }
 
         function setSelectValue(select, value) {
@@ -4621,6 +4681,7 @@ const universityApplications = pageShell({
           const requestedInstitution = params.get("institution") || "";
           const requestedProgramme = params.get("programme") || "";
           const canonicalInstitution = canonicalInstitutionName(requestedInstitution);
+          hasIncomingCountry = Boolean(requestedCountry);
 
           if (requestedCountry) {
             setSelectValue(countryFilter, requestedCountry);
@@ -4722,8 +4783,22 @@ const universityApplications = pageShell({
           if (selected) renderProgramme(selected);
           renderCards(filteredProgrammes());
         });
+        applicationCountryMap.addEventListener("click", function (event) {
+          const card = event.target.closest("[data-country-jump]");
+          if (!card) return;
+          event.preventDefault();
+          countryFilter.value = card.dataset.countryJump;
+          institutionFilter.value = "All";
+          schoolFilter.value = "All";
+          history.replaceState(null, "", "/university-applications/?country=" + encodeURIComponent(card.dataset.countryJump) + "#programme-directory");
+          refreshProgrammes();
+          document.getElementById("programme-directory").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
         refreshFilters();
         applyIncomingRoute();
+        if (!hasIncomingCountry && countryFilter.value === "All") {
+          countryFilter.value = "United Kingdom";
+        }
         refreshProgrammes();
       })();
     </script>

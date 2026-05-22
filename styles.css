@@ -1889,6 +1889,160 @@ h1 {
   align-items: start;
 }
 
+.application-country-band {
+  padding-bottom: 46px;
+}
+
+.application-country-map {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr 1fr;
+  gap: 16px;
+}
+
+.application-country-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 230px;
+  border: 1px solid #d8cdbd;
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(255, 253, 248, 0.96), rgba(247, 240, 228, 0.92)),
+    #fff;
+  box-shadow: 0 18px 42px rgba(6, 26, 47, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.application-country-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(184, 138, 59, 0.18), transparent 28%),
+    url("/assets/global-office-map-soft.svg?v=20260520-dense") center / cover no-repeat;
+  opacity: 0.18;
+}
+
+.application-country-card::after {
+  content: "";
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 0;
+  height: 4px;
+  background: var(--gold);
+}
+
+.application-country-card.australia::after {
+  background: var(--teal);
+}
+
+.application-country-card.us::after {
+  background: var(--rose);
+}
+
+.application-country-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.application-country-card:hover,
+.application-country-card.is-active {
+  border-color: var(--gold);
+  box-shadow: 0 22px 52px rgba(6, 26, 47, 0.12);
+  transform: translateY(-2px);
+}
+
+.application-country-card.is-active {
+  background:
+    linear-gradient(145deg, rgba(255, 250, 240, 0.98), rgba(242, 232, 211, 0.94)),
+    #fff;
+}
+
+.application-country-card span {
+  width: max-content;
+  border-bottom: 2px solid currentColor;
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.application-country-card.australia span {
+  color: var(--teal);
+}
+
+.application-country-card.us span {
+  color: var(--rose);
+}
+
+.application-country-card strong {
+  color: var(--navy);
+  font-size: clamp(24px, 2.4vw, 36px);
+  line-height: 1.05;
+  margin-top: auto;
+}
+
+.application-country-card em {
+  color: #7a6331;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.application-country-card p {
+  color: #4a5968;
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.application-country-card b {
+  align-self: flex-start;
+  border: 1px solid #d8cdbd;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--navy);
+  font-size: 12px;
+  margin-top: 6px;
+  padding: 6px 12px;
+}
+
+.application-region-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.application-region-strip a {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  padding: 10px 12px;
+}
+
+.application-region-strip strong {
+  display: block;
+  color: var(--navy);
+  font-size: 13px;
+}
+
+.application-region-strip span {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .application-hero .band {
   padding: 36px 0;
 }
@@ -8901,6 +9055,7 @@ h1 {
   .publishing-layout,
   .consulting-hero,
   .curriculum-layout,
+  .application-country-map,
   .application-layout,
   .application-audit-strip,
   .standards-grid,
@@ -8964,7 +9119,8 @@ h1 {
   .publishing-categories,
   .publishing-categories-wide,
   .curriculum-map,
-  .curriculum-map-wide {
+  .curriculum-map-wide,
+  .application-region-strip {
     grid-template-columns: 1fr;
   }
 
@@ -9319,6 +9475,15 @@ h1 {
   .nav-links a {
     font-size: 13px;
     padding: 7px 8px;
+  }
+
+  .application-country-card {
+    min-height: 190px;
+    padding: 20px;
+  }
+
+  .application-country-card strong {
+    font-size: 25px;
   }
 
   .insights-issue-panel,
