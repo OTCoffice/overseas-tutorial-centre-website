@@ -5322,22 +5322,22 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band zh-institutional-update-section">
+    <section class="band compact-band zh-institutional-update-section" id="centre-updates">
       <div class="institutional-update-board zh-institutional-update">
         <div class="institutional-update-head">
-          <span>2026 年 5 月機構更新</span>
-          <h2>OTC 澳洲路線新增兩項正式機構節點。</h2>
-          <p>中文區開始與英文主站同步映射重要機構信息。以下內容屬於 OTC 對外公開的機構狀態更新；具體證書、郵件、任命文件及審核材料仍保存在內部文件包中。</p>
+          <span>機構公告 · 2026 年 5 月</span>
+          <h2>中心狀態與澳洲辦公室更新</h2>
+          <p>本欄收錄 OTC 對外公開的中心狀態、辦公室建設與重要機構安排。具體證書、郵件與內部審核材料由 OTC 文件系統另行保存。</p>
         </div>
         <div class="institutional-update-cards">
           <article>
-            <b>中心續期</b>
+            <b>中心狀態</b>
             <strong>OTHM approved centre status 已完成續期</strong>
             <p>Overseas Tutorial Centre 已完成 OTHM approved centre renewal。中心號碼為 <em>DC1802235</em>，本次批准有效期至 <em>2031 年 6 月 30 日</em>。</p>
             <a href="/othm-qualifications/">查看 OTHM 資格路線</a>
           </article>
           <article>
-            <b>澳洲治理</b>
+            <b>澳洲辦公室</b>
             <strong>Georgie Barnes 正式受任 OTC Australia 執行董事</strong>
             <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
             <a href="/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
@@ -6286,22 +6286,22 @@ const australiaOfficePresence = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band">
+    <section class="band compact-band" id="centre-updates">
       <div class="institutional-update-board">
         <div class="institutional-update-head">
-          <span>May 2026 Institutional Update</span>
-          <h2>Two formal milestones now support OTC's Australia-facing route.</h2>
-          <p>OTC records institutional developments that strengthen its UK qualification base and Australia coordination structure while keeping regulated advice, admissions decisions and accreditation outcomes with the appropriate professional or awarding body.</p>
+          <span>Centre Updates · May 2026</span>
+          <h2>Centre status and Australia office updates</h2>
+          <p>This notice records public-facing centre status, office development and governance updates. Certificates, email records and internal review files are retained separately in OTC's document system.</p>
         </div>
         <div class="institutional-update-cards">
           <article>
-            <b>Centre Renewal</b>
+            <b>Centre Status</b>
             <strong>OTHM approved centre status renewed</strong>
             <p>Overseas Tutorial Centre has been renewed as an approved OTHM Centre. The centre record continues under centre number <em>DC1802235</em>, with approval valid until <em>30 June 2031</em>.</p>
             <a href="/othm-qualifications/">View OTHM route</a>
           </article>
           <article>
-            <b>Australia Governance</b>
+            <b>Australia Office</b>
             <strong>Executive Director appointed for OTC Australia</strong>
             <p>Georgie Barnes has been formally appointed as Executive Director, OTC Australia, supporting local coordination, institutional communication, student-route development and professional referral boundaries.</p>
             <a href="#australia-director">View welcome note</a>
@@ -7298,10 +7298,10 @@ const about = pageShell({
             <p>Education coordination and market-entry support are being developed first. Regulated Australian legal, migration, tax, financial and accreditation advice remains outside OTC's direct scope.</p>
           </div>
           <div class="office-status office-status-milestones">
-            <span>May 2026 update</span>
-            <strong>OTHM centre renewal and Australia executive appointment recorded</strong>
+            <span>Centre updates</span>
+            <strong>May 2026 centre status and Australia office notices</strong>
             <p>OTC's OTHM approved centre record has been renewed to 30 June 2031, and Georgie Barnes has been appointed Executive Director, OTC Australia.</p>
-            <a href="/australia-office-presence/">Open institutional update</a>
+            <a href="/australia-office-presence/#centre-updates">Open centre updates</a>
           </div>
         </div>
       </div>
