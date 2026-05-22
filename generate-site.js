@@ -2375,18 +2375,24 @@ function zhReviewListContent() {
       <span>速查：側欄卡片 · 清單 · 官方資源</span>
       <span>視覺：流程圖 · 對比表 · 數據橫條</span>
     </div>
+    <div class="zh-review-list-head">
+      <span>Current Directory</span>
+      <strong>本期文章索引</strong>
+      <em>${insightsArticles.length} 篇導報文章 · 按最新更新排序</em>
+    </div>
     <div class="zh-review-list">
-      ${insightsArticles.map((article) => `
+      ${insightsArticles.map((article, index) => `
         <article class="zh-review-row">
           <div class="zh-review-row-meta">
-            <time>${article.date}</time>
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <time>${article.date.replace(/-/g, ".")}</time>
             <span>${zhReviewColumnForArticle(article).name}</span>
           </div>
           <div class="zh-review-row-body">
             <h3>${article.titleZh || article.title}</h3>
             <p>${article.summaryZh || article.summary}</p>
           </div>
-          <a href="/zh/insights/${article.slug}/">閱讀中文正文</a>
+          <a href="/zh/insights/${article.slug}/">閱讀正文</a>
         </article>
       `).join("")}
     </div>
