@@ -59,17 +59,28 @@ function nav(current = "", locale = "en") {
           <span>${SHORT_BRAND_NAME}<small>OTC Study Hub · Overseas Publishing</small></span>
         </a>
         <div class="nav-links">
-          <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>${isZh ? "諮詢" : "Consulting"}</a>
-          <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>${isZh ? "服務" : "Services"}</a>
-          <a href="/university-applications/" ${current === "applications" ? 'aria-current="page"' : ""}>${isZh ? "申請" : "Applications"}</a>
-          <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>${isZh ? "課程" : "Courses"}</a>
-          <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>${isZh ? "工具" : "Tools"}</a>
-          <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>${isZh ? "出版" : "Publishing"}</a>
-          <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>${isZh ? "導報" : "Review"}</a>
-          <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>${isZh ? "關於 OTC" : "About OTC"}</a>
-          <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>${isZh ? "搜索" : "Search"}</a>
-          <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
-          <a class="nav-cta" href="/publishing/">${isZh ? "出版更新" : "Publishing Updates"}</a>
+          ${isZh ? `
+            <a href="/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
+            <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>課程</a>
+            <a href="/publishing/" ${["apps", "publishing"].includes(current) ? 'aria-current="page"' : ""}>出版</a>
+            <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
+            <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>關於 OTC</a>
+            <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>搜索</a>
+            <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
+            <a class="nav-cta" href="/publishing/">出版更新</a>
+          ` : `
+            <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
+            <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>Services</a>
+            <a href="/university-applications/" ${current === "applications" ? 'aria-current="page"' : ""}>Applications</a>
+            <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>Courses</a>
+            <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>Tools</a>
+            <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>Publishing</a>
+            <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>Review</a>
+            <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>About OTC</a>
+            <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>Search</a>
+            <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
+            <a class="nav-cta" href="/publishing/">Publishing Updates</a>
+          `}
         </div>
       </nav>
     </header>
