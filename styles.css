@@ -540,7 +540,16 @@ h1 {
 }
 
 .zh-home-hero .hero-inner {
-  padding: 46px 0 44px;
+  padding: 46px clamp(44px, 5vw, 88px) 44px;
+}
+
+.zh-global-map-band,
+.zh-institutional-update-section,
+.zh-open-learning-section,
+.zh-publishing-gateway-section,
+.curriculum-overview {
+  padding-left: clamp(44px, 5vw, 88px);
+  padding-right: clamp(32px, 4vw, 72px);
 }
 
 .zh-home-hero .eyebrow,
@@ -9909,6 +9918,20 @@ h1 {
   .zh-publishing-gateway-section,
   .curriculum-overview {
     width: min(var(--page-max), calc(100% - 44px));
+  }
+
+  .zh-home-hero .hero-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .zh-global-map-band,
+  .zh-institutional-update-section,
+  .zh-open-learning-section,
+  .zh-publishing-gateway-section,
+  .curriculum-overview {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .zh-publishing-tools {
