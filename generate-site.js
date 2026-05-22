@@ -5271,14 +5271,14 @@ const chineseEntrance = pageShell({
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",
-  description: "OTC Study Hub 中文頁：雙語世界｜免費學習平台，整合國際課程、學術英語、升學路線、練習工具、留學導報與 Overseas Publishing 雙語出版資源。",
+  description: "OTC Study Hub 中文頁：海外督導｜雙語世界，整合國際課程、學術英語、升學路線、練習工具、留學導報與 Overseas Publishing 雙語出版資源。",
   body: `
     <section class="hero zh-page zh-home-hero">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">雙語世界 · 免費學習平台 · 留學申請 · 海外書局</div>
+          <div class="eyebrow">海外督導 · 雙語世界 · 留學申請 · 海外書局</div>
           <div class="hero-title-block zh-play-title">
-            <h1>雙語世界｜免費學習平台</h1>
+            <h1>海外督導｜雙語世界</h1>
             <h2 class="hero-subhead">Overseas Tutorial Centre · 海外督導</h2>
           </div>
           <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
@@ -5309,7 +5309,7 @@ const chineseEntrance = pageShell({
     <section class="band compact-band zh-open-learning-section" id="open-learning-platform">
       <div class="section-head compact-head">
         <div class="eyebrow">Open Learning Platform</div>
-        <h2>雙語世界｜免費學習平台</h2>
+        <h2>海外督導｜雙語世界</h2>
         <p>內容來自 OTC 教學、申請與出版積累，整理為免費課程、練習工具與留學知識；個別輔導和正式申請另行承接。</p>
       </div>
       <div class="zh-audience-strip" aria-label="Learning audience entrances">
