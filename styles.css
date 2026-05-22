@@ -6823,6 +6823,15 @@ h1 {
   overflow: hidden;
 }
 
+.zh-insights-front {
+  background: #e8e0d4;
+  padding: 34px 20px 22px;
+}
+
+.zh-insights-front-page {
+  margin: 0 auto;
+}
+
 .zh-herald-masthead {
   background: #1a1410;
   padding: 16px 48px;
@@ -6935,6 +6944,16 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin: 0 0 18px;
+}
+
+.zh-herald-hero h1 em {
+  color: #b5272d;
+  font-style: normal;
+}
+
+.zh-insights-front-hero {
+  border-bottom: 0;
+  padding-bottom: 40px;
 }
 
 .zh-herald-standfirst {

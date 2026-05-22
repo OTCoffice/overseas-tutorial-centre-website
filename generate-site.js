@@ -2616,19 +2616,38 @@ const zhInsights = pageShell({
   description: "留學導報是海外書局的中文導報板塊，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理文章。",
   path: "/zh/insights/",
   body: `
-    <section class="page-hero insights-hero">
-      <div class="band insights-hero-layout">
-        <div>
-          <div class="eyebrow">海外書局｜導報</div>
-          <h1>留學導報</h1>
-          <h2>Overseas Study Review</h2>
-          <p>海外書局下屬導報板塊，集中發布留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化文章。列表先呈現版面分類，再點擊進入完整導報正文。</p>
+    <section class="zh-insights-front">
+      <div class="zh-herald-page zh-insights-front-page">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">Overseas Study Review</div>
+            <div class="zh-herald-name-zh">留學導報</div>
+            <div class="zh-herald-tagline">旅澳華人 · 留學移民 · 財富規劃</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外書局系列板塊</strong></div>
+            <div>中文文章目錄</div>
+            <div>出版 · 編譯 · 導報</div>
+            <div>overseasuk.com/zh/insights</div>
+          </div>
         </div>
-        <aside class="insights-issue-panel">
-          <span>導報版面</span>
-          <strong>正文深度 · 側欄速查 · 信息圖記憶</strong>
-          <p>中文優先<br>英文對照<br>持續更新</p>
-        </aside>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">導報版面</div>
+          <div class="zh-herald-section-line"></div>
+          <time>中文優先 · 持續更新</time>
+        </div>
+        <header class="zh-herald-hero zh-insights-front-hero">
+          <div class="zh-herald-kicker">正文深度 · 側欄速查 · 信息圖記憶</div>
+          <h1>海外書局下屬<br><em>留學導報</em>中文目錄</h1>
+          <p class="zh-herald-standfirst">集中發布留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化文章。列表先呈現版面分類，再點擊進入完整導報正文。</p>
+          <div class="zh-herald-byline">
+            <span>留學導報編輯部</span>
+            <i></i>
+            <span>出版、編譯、導報三線收攏</span>
+            <i></i>
+            <span>中文讀者優先版面</span>
+          </div>
+        </header>
       </div>
     </section>
     <section class="band compact-band zh-review-list-section">
