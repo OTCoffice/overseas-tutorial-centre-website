@@ -53,7 +53,7 @@ const publishingPillars = [
   {
     code: "03",
     title: "Overseas Study Review",
-    zh: "海外留學導報",
+    zh: "留學導報",
     desc: "A public briefing series for study-abroad notes, pathway updates, application explainers and bilingual education commentary."
   }
 ];
@@ -1506,7 +1506,7 @@ function searchItems() {
     ["Advanced Entry & China Programme Support", "/advanced-entry-china-programmes/", "Support for CFAU/IBP and similar Chinese university international programme students seeking UK Year 2, top-up or advanced-entry review."],
     ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
-    ["Overseas Study Review / 海外留學導報", "/insights/", "Overseas Publishing House series for study-abroad briefings, pathway notes, public education commentary and shareable bilingual guidance."],
+    ["Overseas Study Review / 留學導報", "/insights/", "Overseas Publishing House series for study-abroad briefings, pathway notes, public education commentary and shareable bilingual guidance."],
     ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
     ...countryGatewayData.filter((country) => country.slug !== "australia").map((country) => [
       `${country.zh}留學入口 / ${country.name} Study Gateway`,
@@ -2186,6 +2186,32 @@ function zhIssueDate(date = "") {
   return `${match[1]}年${Number(match[2])}月${Number(match[3])}日`;
 }
 
+const zhReviewCategoryNames = {
+  "University Applications": "大學申請",
+  "UK Applications": "英國申請",
+  "Australia Pathways": "澳新路線",
+  "Pathway Planning": "升學路線"
+};
+
+function zhReviewCategoryLabel(category) {
+  return zhReviewCategoryNames[category] || category;
+}
+
+function zhReviewDepartmentCards() {
+  const categories = [...new Set(insightsArticles.map((article) => article.category))];
+  return categories.map((category, index) => {
+    const count = insightsArticles.filter((article) => article.category === category).length;
+    return `
+      <article>
+        <b>${String(index + 1).padStart(2, "0")}</b>
+        <strong>${zhReviewCategoryLabel(category)}</strong>
+        <span>${category}</span>
+        <em>${count} 篇</em>
+      </article>
+    `;
+  }).join("");
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -2205,7 +2231,7 @@ function zhArticleMagazineBody(article) {
       <div class="zh-herald-masthead">
         <div>
           <div class="zh-herald-name-en">Overseas Study Review</div>
-          <div class="zh-herald-name-zh">海外留學導報</div>
+          <div class="zh-herald-name-zh">留學導報</div>
           <div class="zh-herald-tagline">海外書局 · 出版 · 編譯 · 導報</div>
         </div>
         <div class="zh-herald-meta">
@@ -2221,7 +2247,7 @@ function zhArticleMagazineBody(article) {
         <time>${zhIssueDate(article.date)}</time>
       </div>
       <header class="zh-herald-hero">
-        <div class="zh-herald-kicker">海外留學導報 · 中文正文</div>
+        <div class="zh-herald-kicker">留學導報 · 中文正文</div>
         <h1>${article.titleZh || article.title}</h1>
         <p class="zh-herald-standfirst">${article.summaryZh || article.summary}</p>
         <div class="zh-herald-byline">
@@ -2257,7 +2283,7 @@ function zhArticleMagazineBody(article) {
             <div class="zh-herald-box-title">重要提示</div>
             <p>本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。</p>
           </div>
-          <div class="zh-herald-disclaimer">本文由海外留學導報編輯部編製。海外留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。</div>
+          <div class="zh-herald-disclaimer">本文由留學導報編輯部編製。留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。</div>
         </main>
         <aside class="zh-herald-side">
           <div class="zh-herald-widget">
@@ -2308,7 +2334,7 @@ function zhArticleMagazineBody(article) {
         </div>
       </section>
       <footer class="zh-herald-footer">
-        <strong>海外留學導報</strong>
+        <strong>留學導報</strong>
         <span>© 2026 Overseas Tutorial Centre Ltd. · Overseas Publishing House · overseasuk.com</span>
       </footer>
     </div>
@@ -2316,9 +2342,9 @@ function zhArticleMagazineBody(article) {
 }
 
 const insights = pageShell({
-  title: "Overseas Study Review | 海外留學導報 | OTC Study Hub",
+  title: "Overseas Study Review | 留學導報 | OTC Study Hub",
   current: "insights",
-  description: "Overseas Study Review / 海外留學導報 is an Overseas Publishing House series for study-abroad briefings, university application notes, pathway explainers and bilingual education commentary.",
+  description: "Overseas Study Review / 留學導報 is an Overseas Publishing House series for study-abroad briefings, university application notes, pathway explainers and bilingual education commentary.",
   path: "/insights/",
   body: `
     <section class="page-hero insights-hero">
@@ -2326,7 +2352,7 @@ const insights = pageShell({
         <div>
           <div class="eyebrow">Overseas Publishing House · 出版 · 編譯 · 導報</div>
           <h1>Overseas Study Review</h1>
-          <h2>海外留學導報</h2>
+          <h2>留學導報</h2>
           <p>A bilingual public briefing series under Overseas Publishing House, connecting education publishing, editorial translation and study-abroad commentary for students, families and institutions.</p>
         </div>
         <aside class="insights-issue-panel">
@@ -2342,7 +2368,7 @@ const insights = pageShell({
           <div class="eyebrow">Latest Briefings</div>
           <h2>Publishing-grade study-abroad notes, edited for public reading.</h2>
         </div>
-        <p>海外留學導報屬於 Overseas Publishing / 海外書局 的系列板塊之一，與出版、編譯並列：面向學生、家長、教育機構與合作方，整理可分享、可引用、可持續更新的留學資訊。</p>
+        <p>留學導報屬於 Overseas Publishing / 海外書局 的系列板塊之一，與出版、編譯並列：面向學生、家長、教育機構與合作方，整理可分享、可引用、可持續更新的留學資訊。</p>
       </div>
       <div class="insights-ledger">
         ${insightsArticles.map((article, index) => `
@@ -2366,7 +2392,7 @@ function insightArticlePage(article) {
     description: article.summary,
     path: `/insights/${article.slug}/`,
     body: `
-      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">海外留學導報 · ${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
+      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">留學導報 · ${article.category}</div><h1>${article.title}</h1><h2>${article.titleZh || ""}</h2><p>${article.summary}</p><p>${article.summaryZh || ""}</p></div></section>
       <main class="band insight-article">
         <div class="article-meta">${article.date} · ${article.author}</div>
         ${shareLinks(article)}
@@ -2379,7 +2405,7 @@ function insightArticlePage(article) {
 
 function insightArticlePageZh(article) {
   return pageShell({
-    title: `${article.titleZh || article.title} | 海外留學導報`,
+    title: `${article.titleZh || article.title} | 留學導報`,
     current: "insights",
     lang: "zh-Hant",
     locale: "zh",
@@ -2949,7 +2975,7 @@ const home = pageShell({
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
             <a href="/publishing/"><strong>Publishing</strong><span>Research publishing, study companions, digital products and author services</span></a>
-            <a href="/insights/"><strong>Overseas Study Review</strong><span>海外留學導報：publishing-grade study-abroad briefings and bilingual pathway notes</span></a>
+            <a href="/insights/"><strong>Overseas Study Review</strong><span>留學導報：publishing-grade study-abroad briefings and bilingual pathway notes</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/university-applications/">UK Applications</a>
@@ -3080,12 +3106,12 @@ const home = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Overseas Publishing</div>
         <h2>A publishing house structure with room to grow.</h2>
-        <p>Overseas Publishing is organised as a long-term publishing programme, not only a PDF shop: publishing, editorial translation and the Overseas Study Review / 海外留學導報 sit under one public-facing editorial system.</p>
+        <p>Overseas Publishing is organised as a long-term publishing programme, not only a PDF shop: publishing, editorial translation and the Overseas Study Review / 留學導報 sit under one public-facing editorial system.</p>
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>出版</strong><span>Public bookshop editions, study guides, ISBN records, digital publication packages and Payhip/KDP release workflows.</span></article>
         <article><b>02</b><strong>編譯</strong><span>Chinese-English editorial translation, bilingual rewriting, source checking and context calibration for public-facing materials.</span></article>
-        <article><b>03</b><strong>導報</strong><span>海外留學導報：study-abroad briefings, pathway updates, application notes and education-market commentary.</span></article>
+        <article><b>03</b><strong>導報</strong><span>留學導報：study-abroad briefings, pathway updates, application notes and education-market commentary.</span></article>
       </div>
       <div style="height:28px"></div>
       <div class="publishing-layout">
@@ -3115,7 +3141,7 @@ const publishing = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Publishing · Editorial Translation · Review</div>
         <h2>Overseas Publishing House is organised around three public-facing series.</h2>
-        <p>海外書局對外分為出版、編譯、導報三個核心板塊：出版承載正式書目與上架產品，編譯承載雙語轉寫與跨文化表達，海外留學導報承載可公開閱讀、可引用、可持續更新的留學與教育評論。</p>
+        <p>海外書局對外分為出版、編譯、導報三個核心板塊：出版承載正式書目與上架產品，編譯承載雙語轉寫與跨文化表達，留學導報承載可公開閱讀、可引用、可持續更新的留學與教育評論。</p>
       </div>
       <div class="index-grid">${publishingPillarCards()}</div>
     </section>
@@ -4572,7 +4598,7 @@ const chineseEntrance = pageShell({
             <a href="/international-curriculum-tutoring/"><strong>課程輔導</strong><span>A-Level、BTEC、IB、AP 與國際課程雙語支持</span></a>
             <a href="/apps/"><strong>學習工具</strong><span>口語練習、placement、flashcards、quizzes 與導師模式</span></a>
             <a href="/publishing/"><strong>海外書局</strong><span>雙語 study companions、公開書店版本與作者服務</span></a>
-            <a href="/insights/"><strong>海外留學導報</strong><span>海外書局系列導報、升學路線筆記與中英雙語文章</span></a>
+            <a href="/insights/"><strong>留學導報</strong><span>海外書局系列導報、升學路線筆記與中英雙語文章</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#global-study-map">全球地圖</a>
@@ -4619,22 +4645,34 @@ const chineseEntrance = pageShell({
         <article><b>03</b><strong>課程</strong><span>國際課程雙語輔導、資格路線與學習計劃。</span></article>
         <article><b>04</b><strong>工具</strong><span>考試準備工具、口語練習、自我複習與導師模式。</span></article>
         <article><b>05</b><strong>出版</strong><span>雙語 study companions、公開書店版本與 Payhip 上架產品。</span></article>
-        <article><b>06</b><strong>海外書局｜海外留學導報</strong><span>出版、編譯、導報三大板塊之一，整理中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
+        <article><b>06</b><strong>海外書局｜留學導報</strong><span>出版、編譯、導報三大板塊之一，整理中英雙語文章、英澳升學、pathway 與申請組合說明。</span></article>
       </div>
     </section>
 
     <section class="band compact-band zh-review-list-section">
       <div class="section-head compact-head">
         <div class="eyebrow">海外書局｜導報</div>
-        <h2>海外書局｜海外留學導報</h2>
+        <h2>海外書局｜留學導報</h2>
         <p>導報是 Overseas Publishing / 海外書局的系列板塊之一，與出版、編譯並列。中文區只保留導報文章入口；每篇文章點擊後進入中文正文優先的導報版面，英文作為對照。</p>
       </div>
+      <div class="zh-review-edition-panel">
+        <div>
+          <span>Overseas Publishing House</span>
+          <strong>留學導報</strong>
+          <p>以導報文章版面組織內容：每個欄目對應一類申請、升學或路線 briefing，點擊列表即可進入完整中文正文。</p>
+        </div>
+        <aside>
+          <b>版面分類</b>
+          <em>Applications · Pathways · Documents</em>
+        </aside>
+      </div>
+      <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
       <div class="zh-review-list">
         ${insightsArticles.map((article) => `
           <article class="zh-review-row">
             <div class="zh-review-row-meta">
               <time>${article.date}</time>
-              <span>${article.category}</span>
+              <span>${zhReviewCategoryLabel(article.category)}</span>
             </div>
             <div class="zh-review-row-body">
               <h3>${article.titleZh || article.title}</h3>
@@ -4700,9 +4738,9 @@ const chineseEntrance = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Overseas Publishing</div>
         <h2>海外書局｜出版物</h2>
-        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，海外留學導報負責公開文章與教育評論。</p>
+        <p>Overseas Publishing 不是單純的 PDF 商店，而是一個長期出版項目。對外以出版、編譯、導報三個板塊形成同一套編輯系統：正式出版物負責書目與上架，編譯負責雙語轉寫與語境整理，留學導報負責公開文章與教育評論。</p>
         <div class="zh-publishing-actions">
-          <a class="btn btn-light" href="/insights/">海外書局｜海外留學導報</a>
+          <a class="btn btn-light" href="/insights/">海外書局｜留學導報</a>
           <a class="btn btn-light" href="/publishing/">海外書局｜出版物</a>
         </div>
       </div>
@@ -6546,7 +6584,7 @@ const about = pageShell({
         <a class="feature" href="/courses/"><div class="num">Courses</div><h3>Course & Tutorial Support</h3><p>International curriculum tutoring, OTHM routes, external programme support and academic tutoring.</p><span>Open courses</span></a>
         <a class="feature" href="/apps/"><div class="num">Tools</div><h3>Learning Apps & Tools</h3><p>Speaking practice, placement preparation, mock tests, quiz systems and digital learning utilities.</p><span>Open tools</span></a>
         <a class="feature" href="/publishing/"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p><span>Open publishing</span></a>
-        <a class="feature" href="/insights/"><div class="num">導報</div><h3>Overseas Study Review</h3><p>海外留學導報：publishing-grade study-abroad briefings, pathway notes and bilingual public education commentary.</p><span>Open review</span></a>
+        <a class="feature" href="/insights/"><div class="num">導報</div><h3>Overseas Study Review</h3><p>留學導報：publishing-grade study-abroad briefings, pathway notes and bilingual public education commentary.</p><span>Open review</span></a>
         <a class="feature" href="/university-applications/"><div class="num">Applications</div><h3>University Applications</h3><p>Country, institution, school and programme-based application screening.</p><span>Open applications</span></a>
         <a class="feature" href="/australia-business-landing/"><div class="num">Australia</div><h3>Australia Market Support</h3><p>Education market entry, local coordination and institutional development support.</p><span>Open Australia support</span></a>
       </div>
