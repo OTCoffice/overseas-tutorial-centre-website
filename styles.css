@@ -530,6 +530,15 @@ h1 {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
 }
 
+.zh-home-hero .hero-inner,
+.zh-global-map-band,
+.zh-institutional-update-section,
+.zh-open-learning-section,
+.zh-publishing-gateway-section,
+.curriculum-overview {
+  width: min(var(--page-max), calc(100% - 80px));
+}
+
 .zh-home-hero .hero-inner {
   padding: 46px 0 44px;
 }
@@ -9891,6 +9900,15 @@ h1 {
 
   .zh-publishing-gateway a:last-child {
     border-bottom: 0;
+  }
+
+  .zh-home-hero .hero-inner,
+  .zh-global-map-band,
+  .zh-institutional-update-section,
+  .zh-open-learning-section,
+  .zh-publishing-gateway-section,
+  .curriculum-overview {
+    width: min(var(--page-max), calc(100% - 44px));
   }
 
   .zh-publishing-tools {
