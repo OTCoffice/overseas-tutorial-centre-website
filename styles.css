@@ -1582,17 +1582,24 @@ h1 {
 .zh-review-row h3 {
   color: #1a1410;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
-  line-height: 1.24;
+  line-height: 1.32;
   margin: 0;
+}
+
+.zh-review-keyword {
+  background: transparent;
+  color: #b5272d;
+  font: inherit;
+  padding: 0;
 }
 
 .zh-review-row p {
   color: #3d2f22;
-  font-size: 14px;
-  line-height: 1.75;
-  margin: 9px 0 0;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 7px 0 0;
   max-width: 760px;
 }
 
@@ -8599,7 +8606,7 @@ h1 {
   }
 
   .zh-review-row h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .zh-review-row > a {

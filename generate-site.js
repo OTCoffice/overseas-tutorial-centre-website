@@ -2355,6 +2355,25 @@ function zhReviewDepartmentCards() {
   }).join("");
 }
 
+function zhReviewTitleHtml(title) {
+  const keywords = [
+    "Referee Briefing Pack",
+    "Personal Statement",
+    "International Year One",
+    "Marketing / Media",
+    "Foundation",
+    "Pathway",
+    "家庭信託",
+    "文件準備清單",
+    "推薦信",
+    "信託",
+    "澳洲",
+    "英國"
+  ];
+  const pattern = new RegExp(keywords.map((keyword) => keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
+  return title.replace(pattern, (match) => `<mark class="zh-review-keyword">${match}</mark>`);
+}
+
 function zhReviewListContent() {
   return `
     <div class="zh-review-edition-panel">
@@ -2389,7 +2408,7 @@ function zhReviewListContent() {
             <span>${zhReviewColumnForArticle(article).name}</span>
           </div>
           <div class="zh-review-row-body">
-            <h3>${article.titleZh || article.title}</h3>
+            <h3>${zhReviewTitleHtml(article.titleZh || article.title)}</h3>
             <p>${article.summaryZh || article.summary}</p>
           </div>
           <a href="/zh/insights/${article.slug}/">閱讀正文</a>
