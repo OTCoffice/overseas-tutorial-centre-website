@@ -6252,12 +6252,36 @@ const australiaOfficePresence = pageShell({
     </section>
 
     <section class="band compact-band">
+      <div class="institutional-update-board">
+        <div class="institutional-update-head">
+          <span>May 2026 Institutional Update</span>
+          <h2>Two formal milestones now support OTC's Australia-facing route.</h2>
+          <p>OTC records institutional developments that strengthen its UK qualification base and Australia coordination structure while keeping regulated advice, admissions decisions and accreditation outcomes with the appropriate professional or awarding body.</p>
+        </div>
+        <div class="institutional-update-cards">
+          <article>
+            <b>Centre Renewal</b>
+            <strong>OTHM approved centre status renewed</strong>
+            <p>Overseas Tutorial Centre has been renewed as an approved OTHM Centre. The centre record continues under centre number <em>DC1802235</em>, with approval valid until <em>30 June 2031</em>.</p>
+            <a href="/othm-qualifications/">View OTHM route</a>
+          </article>
+          <article>
+            <b>Australia Governance</b>
+            <strong>Executive Director appointed for OTC Australia</strong>
+            <p>Georgie Barnes has been formally appointed as Executive Director, OTC Australia, supporting local coordination, institutional communication, student-route development and professional referral boundaries.</p>
+            <a href="#australia-director">View welcome note</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
       <div class="australia-director-welcome">
         <figure class="director-portrait">
           <img src="/assets/australia-academic-map-soft.svg?v=20260519-dense" alt="Dense pale map of Australian universities, schools, vocational providers, academic institutions and government education networks">
           <figcaption>Australia academic network</figcaption>
         </figure>
-        <div class="director-message">
+        <div class="director-message" id="australia-director">
           <div class="director-kicker">Welcome from Australia</div>
           <h2>Welcome to OTC Australia.</h2>
           <blockquote>
@@ -7237,6 +7261,12 @@ const about = pageShell({
             <span>Current status</span>
             <strong>Establishing presence</strong>
             <p>Education coordination and market-entry support are being developed first. Regulated Australian legal, migration, tax, financial and accreditation advice remains outside OTC's direct scope.</p>
+          </div>
+          <div class="office-status office-status-milestones">
+            <span>May 2026 update</span>
+            <strong>OTHM centre renewal and Australia executive appointment recorded</strong>
+            <p>OTC's OTHM approved centre record has been renewed to 30 June 2031, and Georgie Barnes has been appointed Executive Director, OTC Australia.</p>
+            <a href="/australia-office-presence/">Open institutional update</a>
           </div>
         </div>
       </div>
