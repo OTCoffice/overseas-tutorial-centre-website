@@ -1895,21 +1895,21 @@ h1 {
 
 .application-country-map {
   display: grid;
-  grid-template-columns: 1.15fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
 .application-country-card {
   position: relative;
   overflow: hidden;
-  min-height: 230px;
+  min-height: 218px;
   border: 1px solid #d8cdbd;
   border-radius: 8px;
   background:
     linear-gradient(145deg, rgba(255, 253, 248, 0.96), rgba(247, 240, 228, 0.92)),
     #fff;
   box-shadow: 0 18px 42px rgba(6, 26, 47, 0.08);
-  padding: 24px;
+  padding: 22px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1929,18 +1929,23 @@ h1 {
 .application-country-card::after {
   content: "";
   position: absolute;
-  left: 24px;
-  right: 24px;
+  left: 22px;
+  right: 22px;
   top: 0;
   height: 4px;
   background: var(--gold);
 }
 
-.application-country-card.australia::after {
+.application-country-card.australia::after,
+.application-country-card.new-zealand::after,
+.application-country-card.singapore::after,
+.application-country-card.hong-kong::after {
   background: var(--teal);
 }
 
-.application-country-card.us::after {
+.application-country-card.united-states::after,
+.application-country-card.canada::after,
+.application-country-card.ireland::after {
   background: var(--rose);
 }
 
@@ -1972,17 +1977,22 @@ h1 {
   letter-spacing: 0.12em;
 }
 
-.application-country-card.australia span {
+.application-country-card.australia span,
+.application-country-card.new-zealand span,
+.application-country-card.singapore span,
+.application-country-card.hong-kong span {
   color: var(--teal);
 }
 
-.application-country-card.us span {
+.application-country-card.united-states span,
+.application-country-card.canada span,
+.application-country-card.ireland span {
   color: var(--rose);
 }
 
 .application-country-card strong {
   color: var(--navy);
-  font-size: clamp(24px, 2.4vw, 36px);
+  font-size: clamp(20px, 1.8vw, 30px);
   line-height: 1.05;
   margin-top: auto;
 }

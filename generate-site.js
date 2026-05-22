@@ -1494,6 +1494,18 @@ function countryGatewayPage(country) {
   });
 }
 
+function applicationCountryCards() {
+  return countryGatewayData.map((country, index) => `
+        <a class="application-country-card ${country.slug}" href="/university-applications/?country=${encodeURIComponent(country.name)}#programme-directory" data-country-jump="${country.name}">
+          <span>${String(index + 1).padStart(2, "0")}</span>
+          <strong>${country.name}</strong>
+          <em>${country.zh} · university screening</em>
+          <p>${country.note}</p>
+          <b data-country-count="${country.name}">Open list</b>
+        </a>
+  `).join("");
+}
+
 function searchItems() {
   const pages = [
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
@@ -4120,35 +4132,10 @@ const universityApplications = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Country & Region Map</div>
         <h2>Choose a destination first, then open the university list.</h2>
-        <p>OTC starts with country and region logic before narrowing to institution, school and programme level. The map below separates UK, Australia and US routes so the university list is easier to scan.</p>
+        <p>OTC starts with country and region logic before narrowing to institution, school and programme level. The map below now includes all public country and region gateways on the site.</p>
       </div>
       <div class="application-country-map" id="applicationCountryMap" aria-label="Country and region application routes">
-        <a class="application-country-card is-primary" href="/university-applications/?country=United%20Kingdom#programme-directory" data-country-jump="United Kingdom">
-          <span>01</span>
-          <strong>United Kingdom</strong>
-          <em>UCAS · direct entry · advanced entry</em>
-          <p>本科、碩士、轉學、top-up 與 advanced-entry 文件整理。</p>
-          <b data-country-count="United Kingdom">Open list</b>
-        </a>
-        <a class="application-country-card australia" href="/university-applications/?country=Australia#programme-directory" data-country-jump="Australia">
-          <span>02</span>
-          <strong>Australia</strong>
-          <em>University · pathway · sub-agent routes</em>
-          <p>澳洲大學及 pathway route 先按院校層面篩查，再逐步收窄課程。</p>
-          <b data-country-count="Australia">Open list</b>
-        </a>
-        <a class="application-country-card us" href="/university-applications/?country=United%20States#programme-directory" data-country-jump="United States">
-          <span>03</span>
-          <strong>United States</strong>
-          <em>North America direct-admit routes</em>
-          <p>美國直入、pathway 與 Study Group North America route 初步篩查。</p>
-          <b data-country-count="United States">Open list</b>
-        </a>
-      </div>
-      <div class="application-region-strip">
-        ${countryGatewayData.filter((country) => !["united-kingdom", "australia", "united-states"].includes(country.slug)).map((country) => `
-          <a href="${country.href}"><strong>${country.zh}</strong><span>${country.name}</span></a>
-        `).join("")}
+${applicationCountryCards()}
       </div>
     </section>
 
@@ -4542,7 +4529,22 @@ const universityApplications = pageShell({
             url: australianOfficialCourseLinks[institution] || "https://www.studyaustralia.gov.au/en/plan-your-studies/list-of-australian-universities"
           }));
 
-        const programmes = coreProgrammes.concat(australianInstitutionProgrammes);
+        const countryGatewayUniversityProgrammes = ${JSON.stringify(countryGatewayData.filter((country) => country.slug !== "australia").flatMap((country) => country.universities.map((institution) => ({
+          id: `${country.slug}-${institution.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+          country: country.name,
+          institution,
+          school: "University-wide admissions",
+          programme: `${country.name} university application review`,
+          level: "Undergraduate / postgraduate to verify",
+          band: "Country route",
+          fit: `Initial ${country.name} university option to be checked against the student's academic profile, English score, subject direction and intake timing.`,
+          action: `Screen suitable ${country.name} university routes, confirm official entry requirements and prepare document checklist`,
+          url: country.href
+        }))), null, 10)};
+
+        const existingProgrammeKeys = new Set(coreProgrammes.concat(australianInstitutionProgrammes).map((item) => item.country + "::" + item.institution));
+        const gatewayInstitutionProgrammes = countryGatewayUniversityProgrammes.filter((item) => !existingProgrammeKeys.has(item.country + "::" + item.institution));
+        const programmes = coreProgrammes.concat(australianInstitutionProgrammes, gatewayInstitutionProgrammes);
 
         let currentProgramme = programmes.find((item) => item.id === "cardiff-business-economics-advanced-entry") || programmes[0];
         let hasIncomingCountry = false;
