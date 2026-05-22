@@ -610,6 +610,7 @@ h1 {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.9;
+  margin-left: 18px;
   margin-top: 16px;
 }
 
@@ -705,6 +706,14 @@ h1 {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.95;
+}
+
+.zh-global-map-band .section-head p,
+.zh-open-learning-section .section-head p,
+.zh-publishing-gateway-section .section-head p,
+.curriculum-overview .section-head p,
+.zh-institutional-update .institutional-update-head p {
+  padding-left: 18px;
 }
 
 .zh-institutional-update .institutional-update-cards strong,
