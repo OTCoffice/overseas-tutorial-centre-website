@@ -526,8 +526,7 @@ h1 {
 .zh-institutional-update-section,
 .zh-route-updates-section,
 .zh-publishing-gateway-section,
-.curriculum-overview,
-.zh-tools-section {
+.curriculum-overview {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
 }
 
@@ -540,8 +539,7 @@ h1 {
 .zh-institutional-update-section .institutional-update-head span,
 .zh-route-updates-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
-.curriculum-overview .eyebrow,
-.zh-tools-section .eyebrow {
+.curriculum-overview .eyebrow {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 11px;
   font-weight: 700;
@@ -591,7 +589,6 @@ h1 {
 .zh-route-updates-section .section-head h2,
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
-.zh-tools-section .section-head h2,
 .zh-institutional-update .institutional-update-head h2 {
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-size: clamp(22px, 2.6vw, 30px);
@@ -604,7 +601,6 @@ h1 {
 .zh-route-updates-section .section-head p,
 .zh-publishing-gateway-section .section-head p,
 .curriculum-overview .section-head p,
-.zh-tools-section .section-head p,
 .zh-institutional-update .institutional-update-head p,
 .zh-institutional-update .institutional-update-cards p {
   font-size: 14px;
@@ -1036,10 +1032,6 @@ h1 {
   margin-top: 24px;
 }
 
-.zh-tools-section {
-  border-top: 1px solid var(--line);
-}
-
 .zh-tool-link-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1466,6 +1458,92 @@ h1 {
   padding: 6px 10px;
   text-transform: uppercase;
   width: max-content;
+}
+
+.zh-publishing-tools {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr);
+  gap: 18px;
+  margin-top: 16px;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+}
+
+.zh-publishing-tools > div:first-child {
+  border-left: 4px solid var(--gold);
+  padding-left: 16px;
+}
+
+.zh-publishing-tools span {
+  color: var(--gold);
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-publishing-tools h3 {
+  color: var(--navy);
+  font-family: var(--font-ui) !important;
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 8px 0 0;
+}
+
+.zh-publishing-tools p {
+  color: #4c596b;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 10px 0 0;
+}
+
+.zh-publishing-tool-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.zh-publishing-tool-list a {
+  background: #fffdf8;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 15px;
+}
+
+.zh-publishing-tool-list a:nth-child(2n) {
+  border-right: 0;
+}
+
+.zh-publishing-tool-list a:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.zh-publishing-tool-list strong {
+  color: var(--navy);
+  display: block;
+  font-family: var(--font-ui) !important;
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.zh-publishing-tool-list span {
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin-top: 6px;
+  text-transform: none;
 }
 
 .zh-review-list-section {
@@ -9563,6 +9641,8 @@ h1 {
   .index-grid,
   .education-update-list,
   .zh-publishing-gateway,
+  .zh-publishing-tools,
+  .zh-publishing-tool-list,
   .ebook-service-grid,
   .insights-hero-layout,
   .insights-intro,
@@ -9667,6 +9747,25 @@ h1 {
   }
 
   .zh-publishing-gateway a:last-child {
+    border-bottom: 0;
+  }
+
+  .zh-publishing-tools {
+    padding: 16px;
+  }
+
+  .zh-publishing-tool-list {
+    border-left: 0;
+  }
+
+  .zh-publishing-tool-list a,
+  .zh-publishing-tool-list a:nth-child(2n),
+  .zh-publishing-tool-list a:nth-last-child(-n + 2) {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .zh-publishing-tool-list a:last-child {
     border-bottom: 0;
   }
 

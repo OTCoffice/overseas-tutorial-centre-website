@@ -5385,6 +5385,19 @@ const chineseEntrance = pageShell({
           <em>進入留學導報</em>
         </a>
       </div>
+      <div class="zh-publishing-tools">
+        <div>
+          <span>Digital Learning Tools</span>
+          <h3>Apps &amp; Tools</h3>
+          <p>Browser-based practice tools, exam drills, vocabulary systems and book-linked digital products from OTC Study Hub and Overseas Publishing.</p>
+        </div>
+        <div class="zh-publishing-tool-list">
+          <a href="/apps/australian-citizenship-test/#embedded-citizenship-app"><strong>Australian Citizenship Test Practice Guide + App</strong><span>Printable PDF guide, question bank, mock tests and browser-based practice package.</span></a>
+          <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app"><strong>UCBELT Speaking Test Practice</strong><span>Themed topic practice, full mock sets, bilingual vocabulary and teacher mode.</span></a>
+          <a href="/apps/ih-placement-interview/#embedded-ih-app"><strong>IH Placement &amp; Interview Practice</strong><span>Placement-test readiness, speaking interview preparation, vocabulary review and tutor notes.</span></a>
+          <a href="/apps/"><strong>Full Apps &amp; Tools Catalogue</strong><span>Learning apps, practice tools, book companion packs and publishing utilities.</span></a>
+        </div>
+      </div>
     </section>
 
     <section class="band compact-band curriculum-overview">
@@ -5398,21 +5411,6 @@ const chineseEntrance = pageShell({
         <p>重點是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
         <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
       </div>
-    </section>
-
-    <section class="band compact-band zh-tools-section">
-      <div class="section-head compact-head">
-        <div class="eyebrow">學習工具</div>
-        <h2>練習工具清單</h2>
-        <p>工具入口改為輕量清單，方便後續持續增加 speaking、placement、flashcards、quizzes、弱詞複習和教師模式。</p>
-      </div>
-      <div class="zh-tool-link-list">
-        <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app"><strong>UCBELT Speaking Practice</strong><span>口語主題、mock test flow、雙語詞彙與自評練習。</span></a>
-        <a href="/apps/ih-placement-interview/#embedded-ih-app"><strong>IH Placement & Interview Practice</strong><span>分班測試與面試準備，適合短期集中練習。</span></a>
-        <a href="/apps/ucbelt-speaking/"><strong>UCBELT 產品頁</strong><span>查看 app 內容、使用方式、練習範圍與服務邊界。</span></a>
-        <a href="/apps/"><strong>全部工具索引</strong><span>未來新增工具會集中放在此入口，避免首頁被大卡片撐滿。</span></a>
-      </div>
-      <p class="source-note">OTC 獨立練習資源。不是 UCB、IH 或其他機構的官方出版物、官方試卷或保分產品。</p>
     </section>
 
   `
