@@ -1416,76 +1416,75 @@ h1 {
 .zh-publishing-gateway {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 16px;
-  background: transparent;
-  border: 0;
-  border-left: 3px solid rgba(184, 138, 59, 0.55);
+  gap: 0;
+  margin-top: 18px;
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.94), rgba(26, 20, 16, 0.94)),
+    #101820;
+  border: 1px solid rgba(200, 149, 42, 0.45);
+  border-left: 4px solid #b5272d;
   border-radius: 8px;
-  box-shadow: none;
-  padding-left: 14px;
+  box-shadow: 0 16px 34px rgba(6, 26, 47, 0.09);
+  overflow: hidden;
 }
 
 .zh-publishing-gateway a {
-  background: #fff;
-  border: 1px solid rgba(222, 211, 196, 0.95);
-  border-radius: 7px;
-  color: var(--ink);
+  color: #fff;
   display: flex;
   flex-direction: column;
-  min-height: 145px;
-  padding: 16px 17px;
-  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+  min-height: 150px;
+  padding: 18px 19px;
+  border-right: 1px solid rgba(255, 255, 255, 0.13);
+  transition: background 0.16s ease, transform 0.16s ease;
 }
 
 .zh-publishing-gateway a:last-child {
-  border-right: 1px solid rgba(222, 211, 196, 0.95);
+  border-right: 0;
 }
 
 .zh-publishing-gateway a:hover {
-  border-color: rgba(184, 138, 59, 0.55);
-  box-shadow: 0 10px 24px rgba(6, 26, 47, 0.06);
+  background: rgba(255, 255, 255, 0.06);
   transform: translateY(-1px);
 }
 
 .zh-publishing-gateway b {
-  color: var(--gold);
+  color: #e8b84b;
   font-size: 11px;
   letter-spacing: 0.14em;
 }
 
 .zh-publishing-gateway strong {
-  color: var(--navy);
+  color: #fff;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 17px;
+  font-size: clamp(20px, 2.2vw, 27px);
   font-weight: 900;
   letter-spacing: 0.02em;
-  line-height: 1.35;
-  margin-top: 10px;
+  line-height: 1.08;
+  margin-top: 12px;
 }
 
 .zh-publishing-gateway span {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.74);
   font-size: 13px;
   line-height: 1.7;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .zh-publishing-gateway em {
-  border: 0;
-  border-top: 1px solid rgba(222, 211, 196, 0.95);
-  border-radius: 0;
-  color: var(--navy);
+  align-items: center;
+  border: 1px solid rgba(232, 184, 75, 0.42);
+  border-radius: 7px;
+  color: #ffe6aa;
   display: inline-flex;
   font-size: 11px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
   margin-top: auto;
-  min-height: 0;
-  padding: 10px 0 0;
+  min-height: 32px;
+  padding: 6px 10px;
   text-transform: uppercase;
-  width: 100%;
+  width: max-content;
 }
 
 .zh-review-list-section {
@@ -8930,8 +8929,16 @@ h1 {
 }
 
 .zh-compact-curriculum strong {
-  font-size: 17px;
-  line-height: 1.35;
+  align-items: center;
+  background: linear-gradient(135deg, var(--navy), #18283c);
+  border-left: 4px solid var(--gold);
+  color: #fff;
+  display: flex;
+  font-size: 16px;
+  line-height: 1.28;
+  margin: 2px -3px 4px;
+  min-height: 54px;
+  padding: 10px 12px;
 }
 
 .zh-compact-curriculum p,
