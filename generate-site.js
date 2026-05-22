@@ -2171,6 +2171,150 @@ function articleBodyZhFirst(article) {
   `;
 }
 
+const zhSectionNums = ["一", "二", "三", "四", "五", "六", "七", "八"];
+
+function cleanZhHeading(heading = "") {
+  return heading
+    .replace(/^\s*\d+\s*[\)）.、]\s*/, "")
+    .replace(/^\s*[一二三四五六七八九十]+\s*[、.]\s*/, "")
+    .trim();
+}
+
+function zhIssueDate(date = "") {
+  const match = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return date;
+  return `${match[1]}年${Number(match[2])}月${Number(match[3])}日`;
+}
+
+function zhArticleMagazineBody(article) {
+  const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
+  const englishSections = article.body || [];
+  const cleanedSections = zhSections.map((section) => ({
+    heading: cleanZhHeading(section.heading),
+    paragraphs: section.paragraphs
+  }));
+  const readingMinutes = Math.max(5, Math.ceil(cleanedSections.reduce((sum, section) => {
+    return sum + section.heading.length + section.paragraphs.join("").length;
+  }, 0) / 520));
+  const firstSection = cleanedSections[0];
+  const checklist = cleanedSections.slice(0, 7);
+  const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
+
+  return `
+    <div class="zh-herald-page">
+      <div class="zh-herald-masthead">
+        <div>
+          <div class="zh-herald-name-en">Overseas Study Review</div>
+          <div class="zh-herald-name-zh">海外留學導報</div>
+          <div class="zh-herald-tagline">海外書局 · 出版 · 編譯 · 導報</div>
+        </div>
+        <div class="zh-herald-meta">
+          <div><strong>${article.category}</strong></div>
+          <div>${issueMonth}</div>
+          <div>${article.author}</div>
+          <div>overseasuk.com/insights</div>
+        </div>
+      </div>
+      <div class="zh-herald-section-bar">
+        <div class="zh-herald-section-tag">${article.category}</div>
+        <div class="zh-herald-section-line"></div>
+        <time>${zhIssueDate(article.date)}</time>
+      </div>
+      <header class="zh-herald-hero">
+        <div class="zh-herald-kicker">海外留學導報 · 中文正文</div>
+        <h1>${article.titleZh || article.title}</h1>
+        <p class="zh-herald-standfirst">${article.summaryZh || article.summary}</p>
+        <div class="zh-herald-byline">
+          <span>${article.author}</span>
+          <i></i>
+          <span>閱讀時間約 ${readingMinutes} 分鐘</span>
+          <i></i>
+          <span>English reference included</span>
+        </div>
+      </header>
+      <div class="zh-herald-body-grid">
+        <main class="zh-herald-main">
+          ${firstSection ? `
+            <div class="zh-herald-pullquote">
+              <p>${firstSection.paragraphs[0].replace(/。.*$/, "。")}</p>
+            </div>
+          ` : ""}
+          ${cleanedSections.map((section, index) => `
+            <section>
+              <h2 class="zh-herald-section-head" data-num="${zhSectionNums[index] || index + 1}">${section.heading}</h2>
+              ${section.paragraphs.map((paragraph, pIndex) => {
+                if (index === 1 && pIndex === 0) {
+                  return `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">導報提示</div><p>${paragraph}</p></div>`;
+                }
+                if (index === 2 && pIndex === 0) {
+                  return `<div class="zh-herald-highlight-box"><div class="zh-herald-box-title">實務重點</div><p>${paragraph}</p></div>`;
+                }
+                return `<p>${paragraph}</p>`;
+              }).join("")}
+            </section>
+          `).join("")}
+          <div class="zh-herald-warning-box">
+            <div class="zh-herald-box-title">重要提示</div>
+            <p>本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。</p>
+          </div>
+          <div class="zh-herald-disclaimer">本文由海外留學導報編輯部編製。海外留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。</div>
+        </main>
+        <aside class="zh-herald-side">
+          <div class="zh-herald-widget">
+            <div class="zh-herald-widget-title">本文速讀</div>
+            <div class="zh-herald-trust-card family">
+              <div class="zh-herald-card-name">${article.category}</div>
+              <div class="zh-herald-card-en">Overseas Study Review</div>
+              <div class="zh-herald-card-desc">${article.summaryZh || article.summary}</div>
+              <span class="zh-herald-badge">導報主題</span>
+            </div>
+          </div>
+          <div class="zh-herald-widget">
+            <div class="zh-herald-widget-title">閱讀清單</div>
+            ${checklist.map((section) => `<div class="zh-herald-check-item">${section.heading}</div>`).join("")}
+          </div>
+          <div class="zh-herald-widget">
+            <div class="zh-herald-widget-title">英文對照</div>
+            ${englishSections.slice(0, 4).map((section) => `
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">EN</div>
+                <div><div class="zh-herald-resource-name">${section.heading.replace(/^\d+\)\s*/, "")}</div><div class="zh-herald-resource-url">Reference section</div></div>
+              </div>
+            `).join("")}
+          </div>
+        </aside>
+      </div>
+      <section class="zh-herald-infographic">
+        <h2>導報閱讀路線圖</h2>
+        <p>From Briefing to Action · 從資訊整理到申請行動</p>
+        <div class="zh-herald-roadmap">
+          ${checklist.slice(0, 6).map((section, index) => `
+            <div class="zh-herald-roadmap-step">
+              <div>${index + 1}</div>
+              <strong>${section.heading}</strong>
+              <span>${index === 0 ? "理解背景" : index === checklist.length - 1 ? "完成核對" : "整理材料"}</span>
+            </div>
+          `).join("")}
+        </div>
+        <div class="zh-herald-reference-grid">
+          <article>
+            <strong>中文正文</strong>
+            <span>面向學生與家長，先讀重點、流程與風險提示。</span>
+          </article>
+          <article>
+            <strong>English Reference</strong>
+            <span>保留英文原文對照，方便對外溝通與文件準備。</span>
+          </article>
+        </div>
+      </section>
+      <footer class="zh-herald-footer">
+        <strong>海外留學導報</strong>
+        <span>© 2026 Overseas Tutorial Centre Ltd. · Overseas Publishing House · overseasuk.com</span>
+      </footer>
+    </div>
+  `;
+}
+
 const insights = pageShell({
   title: "Overseas Study Review | 海外留學導報 | OTC Study Hub",
   current: "insights",
@@ -2242,13 +2386,7 @@ function insightArticlePageZh(article) {
     description: article.summaryZh || article.summary,
     path: `/zh/insights/${article.slug}/`,
     body: `
-      <section class="page-hero insights-hero"><div class="band"><div class="eyebrow">海外留學導報 · ${article.category}</div><h1>${article.titleZh || article.title}</h1><h2>${article.title}</h2><p>${article.summaryZh || article.summary}</p><p>${article.summary}</p></div></section>
-      <main class="band insight-article">
-        <div class="article-meta">${article.date} · ${article.author}</div>
-        ${shareLinks(article, "/zh")}
-        ${articleBodyZhFirst(article)}
-        ${shareLinks(article, "/zh")}
-      </main>
+      ${zhArticleMagazineBody(article)}
     `
   });
 }
