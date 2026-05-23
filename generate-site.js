@@ -6931,22 +6931,16 @@ const australiaOfficePresence = pageShell({
         </div>
         <div class="nsw-school-card-grid nsw-school-series-grid">
           <article>
-            <b>Archive 01</b>
-            <strong>Early NSW schools briefing record</strong>
-            <p>Placeholder for the earliest Study NSW K-12 briefing record. OTC will add the school profile once the original invitation, recap or presentation file is located in the internal email archive.</p>
-            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">Open school enquiry</a>
-          </article>
-          <article>
             <b>Series 02</b>
             <strong>PLC Pathways</strong>
             <p>Study NSW Greater China training record for PLC Pathways, a school-pathway route connected with NSW independent-school options and transition planning for international students.</p>
-            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20PLC%20Pathways">Free screening</a>
+            <a href="/australia-schools/plc-pathways/">View review draft</a>
           </article>
           <article>
             <b>Series 03</b>
             <strong>Macarthur Anglican School</strong>
-            <p>Sydney south-west independent co-educational school with broad co-curricular provision, homestay support and strong senior-school outcomes recorded in the Study NSW briefing materials.</p>
-            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Macarthur%20Anglican%20School">Free screening</a>
+            <p>Sydney south-west independent co-educational school. Study NSW emails highlight its 84-acre campus, large-campus learning environment and international admissions briefing.</p>
+            <a href="/australia-schools/macarthur-anglican-school/">View review draft</a>
           </article>
           <article>
             <b>Series 04</b>
@@ -6957,17 +6951,23 @@ const australiaOfficePresence = pageShell({
           <article>
             <b>Series 05</b>
             <strong>The Illawarra Grammar School</strong>
-            <p>Wollongong independent co-educational school briefing scheduled for 10 June 2026, covering school profile, admissions, student support, curriculum, extracurricular life and international-student questions.</p>
-            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20The%20Illawarra%20Grammar%20School">Free screening</a>
+            <p>Wollongong independent co-educational school briefing scheduled for 10 June 2026. OTC has opened a pre-briefing review page for school-side completion.</p>
+            <a href="/australia-schools/the-illawarra-grammar-school/">View review draft</a>
           </article>
           <article>
-            <b>Ongoing</b>
-            <strong>NSW K-12 school enquiry desk</strong>
-            <p>OTC will continue adding Study NSW briefing schools, government-school options, independent schools, junior schools, high schools, short-term study and long-term enrolment routes.</p>
-            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">Open school enquiry</a>
+            <b>Queensland</b>
+            <strong>Rockhampton Grammar School</strong>
+            <p>Central Queensland boarding route for families comparing boarding culture, English immersion, regional education and local Australian community life.</p>
+            <a href="/australia-schools/rockhampton-grammar-school/">View profile</a>
+          </article>
+          <article>
+            <b>Queensland</b>
+            <strong>Moreton Bay Colleges</strong>
+            <p>Brisbane east-side boys' and girls' college route covering PSP/HSP, PYP, QCE/ATAR/VET and homestay support.</p>
+            <a href="/australia-schools/moreton-bay-colleges/">View profile</a>
           </article>
         </div>
-        <div class="nsw-school-apply-panel">        <div class="nsw-school-apply-panel">
+        <div class="nsw-school-apply-panel">
           <div>
             <span>Free application channel</span>
             <strong>Send one email to start a no-charge first review.</strong>
@@ -7168,8 +7168,8 @@ const australiaOfficePresenceZh = pageShell({
       <div class="nsw-schools-zone" id="nsw-schools">
         <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
         <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
-        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>Archive 01</b><strong>早期 NSW 學校 briefing 記錄</strong><p>用於收納最早一場 Study NSW K-12 briefing。OTC 將在內部郵件 archive 中定位原始邀請、會後資料或 presentation file 後補入公開學校 profile。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20PLC%20Pathways">免費初篩</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其大型校園、寄宿家庭安排、課外活動及 senior-school outcomes，可用於家庭選校初篩。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Macarthur%20Anglican%20School">免費初篩</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 涵蓋學校介紹、招生、學生支持、課程與國際學生問題。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20The%20Illawarra%20Grammar%20School">免費初篩</a></article><article><b>Ongoing</b><strong>NSW K-12 學校諮詢台</strong><p>OTC 將持續加入 Study NSW briefing schools、公校、私校、junior schools、high schools、短期學習與長期入學路線。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article></div>
-        <div class="nsw-school-apply-panel"><div><span>Free application channel</span>        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
+        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
+        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
       </div>
     </section>
 
@@ -7259,6 +7259,192 @@ const moretonBayCollegesReview = pageShell({
 
     <section class="band"><div class="school-process"><div class="section-head compact-head"><div class="eyebrow">Application Route</div><h2>Moreton Bay Colleges 申請路線摘要。</h2><p>Prospectus lists a five-step route: apply with passport, academic records and English evidence; eligibility/interview; offer and written agreement; visa with CoE/CAAW; pre-arrival including homestay, airport transfer and uniform fitting.</p></div><ol class="school-steps"><li><strong>Student intake</strong><span>確認男校/女校、年級、英文程度、PSP/HSP 是否需要。</span></li><li><strong>Documents</strong><span>護照、近兩年成績單、英文能力證明、subject selection 如適用。</span></li><li><strong>Interview route</strong><span>由學校安排 Principal interview，確認 academic/co-curricular interests。</span></li><li><strong>Offer and CoE</strong><span>以學校 Provisional Letter of Offer、Written Agreement、CoE/CAAW 為準。</span></li></ol></div></section>
   `
+});
+
+function studyNswSchoolReviewPage(school) {
+  return pageShell({
+    title: `${school.name} Review Draft | OTC Study Hub`,
+    current: "about",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: school.description,
+    path: `/australia-schools/${school.slug}/`,
+    body: `
+      <section class="page-hero school-profile-hero herald-school-hero nsw-review-hero"><div class="band"><div class="eyebrow">Study NSW Briefing · Review Draft</div><h1>${school.name}</h1><p>${school.subtitle}</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(`Free school screening - ${school.name}`)}">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
+
+      <section class="band compact-band"><div class="school-review-banner"><strong>Draft for briefing review</strong><p>This page is prepared by Overseas Tutorial Centre from Study NSW / Greater China training email materials and public-facing school briefing notes. It is a school-profile review draft for Chinese families, not a statement of formal appointment or confirmed agency status.</p><p>本頁根據 Study NSW / Greater China 培訓郵件與公開學校介紹線索整理，供學校、項目方或代表審核；正式推廣前需確認課程、費用、申請、住宿及聯絡表述。</p></div></section>
+
+      <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">${school.eyebrow}</div><h2>${school.headline}</h2><p>${school.intro}</p></div><div class="school-facts">${school.facts.map((fact) => `<article><b>${fact[0]}</b><strong>${fact[1]}</strong><span>${fact[2]}</span></article>`).join("")}</div></div><aside class="school-profile-side"><span>OTC reading</span><strong>${school.fitTitle}</strong><p>${school.fit}</p><a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(`Free ${school.name} screening`)}">免費家庭初篩</a></aside></div></section>
+
+      <section class="band compact-band"><div class="school-herald-strip">${school.stats.map((stat) => `<article><b>${stat[0]}</b><span>${stat[1]}</span></article>`).join("")}</div></section>
+
+      <section class="band"><div class="school-china-panel"><div><span>China Family Lens</span><strong>${school.chinaTitle}</strong><p>${school.chinaBody}</p></div><div class="school-highlight-grid">${school.highlights.map((item) => `<article><b>${item[0]}</b><p>${item[1]}</p></article>`).join("")}</div></div></section>
+
+      <section class="spotlight"><div class="band compact-band"><div class="section-head compact-head"><div class="eyebrow">${school.programmeEyebrow}</div><h2>${school.programmeTitle}</h2><p>${school.programmeIntro}</p></div><div class="school-service-cards">${school.programmes.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div></div></section>
+
+      <section class="band compact-band"><div class="school-decision-table"><div class="section-head compact-head"><div class="eyebrow">Decision Notes</div><h2>${school.decisionTitle}</h2></div><div class="school-route-mini">${school.decisions.map((item) => `<article><b>${item[0]}</b><p>${item[1]}</p></article>`).join("")}</div></div></section>
+
+      <section class="band"><div class="school-process"><div class="section-head compact-head"><div class="eyebrow">Application Route</div><h2>${school.routeTitle}</h2><p>${school.routeIntro}</p></div><ol class="school-steps">${school.steps.map((step) => `<li><strong>${step[0]}</strong><span>${step[1]}</span></li>`).join("")}</ol><div class="notice advice-signpost"><strong>Review boundary</strong><p>OTC can support education-route explanation, family communication and document organisation. Final admission, offer, fees, CRICOS details, welfare arrangements and agency status must be confirmed by the school or relevant programme owner.</p></div></div></section>
+
+      <section class="band compact-band"><div class="school-review-contact"><div><span>For school / programme review</span><strong>Please confirm public wording and application pathway.</strong><p>OTC would be grateful for confirmation of the public wording, current entry requirements, fee references, application documents, accommodation/welfare notes and the appropriate representative or agency onboarding route.</p></div><a class="btn btn-dark" href="mailto:${school.reviewEmail}?cc=office@overseasuk.com&subject=${encodeURIComponent(`${school.name} OTC Chinese Profile Review`)}">Email for review</a></div></section>
+    `
+  });
+}
+
+const plcPathwaysReview = studyNswSchoolReviewPage({
+  slug: "plc-pathways",
+  name: "PLC Pathways",
+  subtitle: "博思威中小學留學銜接項目 · NSW private-school pathway route",
+  description: "OTC Chinese review draft for PLC Pathways: Study NSW briefing route, NSW private school pathway planning and Chinese family screening notes.",
+  eyebrow: "Pathway Route",
+  headline: "一條面向 NSW 私立中小學的銜接型路線。",
+  intro: "Study NSW training emails describe PLC Pathways as a school-pathway briefing for education agents, with programme sharing by the project team and follow-up presentation materials for consultation work. OTC treats it as a pathway-mapping item: useful for families who need a structured bridge into NSW private schools before selecting a final school.",
+  facts: [
+    ["Briefing source", "Study NSW training", "2025 Study NSW Greater China Education Agent Online Training series."],
+    ["Route type", "K-12 pathway", "Positioned as a school-pathway route rather than a single school profile."],
+    ["Contact route", "Programme team review required", "Latest school list and application pathway should be confirmed with the programme owner."],
+    ["OTC use", "Family pre-screening", "Student age, grade, English level and school-type preference can be organised before referral."]
+  ],
+  fitTitle: "適合哪些家庭先看？",
+  fit: "適合還未鎖定單一學校、希望先比較 NSW 私校入口、銜接安排、地點與住宿/照護可能性的家庭。",
+  stats: [["2025", "Study NSW training record"], ["K-12", "school pathway route"], ["NSW", "private-school selection layer"], ["Agent", "consultation support materials"], ["Review", "school list to confirm"]],
+  chinaTitle: "PLC Pathways 對中國家庭的價值，是先把「選哪所學校」變成可管理的路線判斷。",
+  chinaBody: "很多中國家庭一開始只知道想去澳洲中小學，但還沒有能力判斷城市、年級、英文門檻、住宿、校風與升學出口。Pathway route 的作用，是把家庭背景先翻譯成可討論的 school shortlist，而不是一開始就被某一所學校鎖死。",
+  highlights: [
+    ["先做路線", "先按年級、英文、預算、寄宿/走讀、城市偏好建立 NSW school route，再進入具體學校。"],
+    ["降低信息差", "把 agent training、school list、application notes 轉成中文家庭能讀懂的比較資料。"],
+    ["銜接思維", "適合需要過渡、英文準備、適應澳洲校園文化或分階段進入私校的學生。"],
+    ["審核邊界", "公開頁僅描述項目線索與諮詢用途，具體院校名單、條款與申請流程需由項目方確認。"]
+  ],
+  programmeEyebrow: "Pathway Screening",
+  programmeTitle: "OTC 先把家庭需求整理成一份可審核的 NSW 學校路線圖。",
+  programmeIntro: "這類路線最適合做成 intake checklist、school-fit memo、document pack 和 family briefing note。",
+  programmes: [
+    ["Family intake", "收集學生年齡、年級、成績、英文、城市偏好、住宿偏好和家庭預算。"],
+    ["School-type mapping", "比較 day school、boarding-adjacent support、Anglican/independent school、regional/city options。"],
+    ["Document preparation", "整理 passport、school reports、English evidence、family questions 和 application timeline。"],
+    ["Programme confirmation", "向項目方確認最新學校名單、申請入口、代表安排與公開用語。"]
+  ],
+  decisionTitle: "PLC Pathways 適合尚未完成選校決策的家庭。",
+  decisions: [
+    ["是否已鎖校", "如果家庭已明確指定某一學校，可直接做 school-specific application；如果未鎖定，pathway route 更有用。"],
+    ["英文過渡", "英文仍不穩定的學生，需要先判斷是否要銜接或準備階段。"],
+    ["城市與照護", "NSW 不只 Sydney，一些 regional 或 school-community route 可能更適合低齡學生。"],
+    ["資料審核", "公開頁要避免列出未確認的合作學校清單，先保持項目層面的審核稿。"]
+  ],
+  routeTitle: "PLC Pathways 初步申請 / 諮詢路線。",
+  routeIntro: "OTC 可先完成家庭資料整理，再向項目方確認最新 school list、entry route、application form and representative process。",
+  steps: [
+    ["Initial family profile", "建立學生年級、英文、成績、目標入學時間與家庭偏好。"],
+    ["Pathway suitability note", "判斷是否適合先走 pathway screening，還是直接進入具體學校申請。"],
+    ["Programme confirmation", "向項目方確認最新學校名單、申請流程、材料要求與公開表述。"],
+    ["School shortlist", "形成 3-5 所學校或路線方向，供家庭與項目方進一步確認。"]
+  ],
+  reviewEmail: "rayd@pathways.education"
+});
+
+const macarthurAnglicanReview = studyNswSchoolReviewPage({
+  slug: "macarthur-anglican-school",
+  name: "Macarthur Anglican School",
+  subtitle: "麥卡瑟聖公會學校 · South-west Sydney independent co-educational school",
+  description: "OTC Chinese review draft for Macarthur Anglican School based on Study NSW training email notes: south-west Sydney, large campus and China family application screening.",
+  eyebrow: "South-west Sydney",
+  headline: "悉尼西南部的大校園男女混合私校路線。",
+  intro: "Study NSW training emails introduce Macarthur Anglican School as a leading independent co-educational school in south-west Sydney, with a large 84-acre campus and a learning environment built around long-term student development. OTC is preparing this review draft to support Chinese family screening before school-side confirmation.",
+  facts: [
+    ["Location", "South-west Sydney", "Positioned in Study NSW materials as a key independent school option in the area."],
+    ["Campus", "84 acres", "Large-campus environment repeatedly highlighted in the briefing emails."],
+    ["School type", "Independent co-educational", "Suitable for families seeking a mixed school environment."],
+    ["Briefing contact", "Nadine James noted", "Study NSW email references the international student admissions representative in the session."]
+  ],
+  fitTitle: "適合哪些家庭先看？",
+  fit: "適合希望留在 Greater Sydney 生活圈、又不想只看市中心高密度學校的家庭；尤其適合重視大校園、學校社群和長期學習節奏的學生。",
+  stats: [["84 acres", "large campus"], ["Sydney", "south-west location"], ["Co-ed", "boys and girls"], ["K-12", "school-route screening"], ["Review", "school confirmation needed"]],
+  chinaTitle: "Macarthur 的中國家庭吸引力，是悉尼生活圈與大校園教育之間的平衡。",
+  chinaBody: "對中國家庭來說，悉尼代表大學、交通、親友與城市資源；但孩子真正每天生活的是校園。Macarthur 這類西南悉尼大校園學校，提供的是更完整的 school community，而不是只把學生放進城市中心的補習與通勤節奏。",
+  highlights: [
+    ["悉尼連接", "保留 Greater Sydney 城市資源、家庭探訪便利與未來大學路線想像。"],
+    ["大校園", "84-acre campus 對低齡和中學生很重要，意味著活動、運動、空間與校園歸屬感。"],
+    ["男女混合", "co-educational setting 適合希望孩子在自然社交環境中學習的家庭。"],
+    ["長期路線", "適合從中學階段逐步建立英文、學術習慣、活動記錄與澳洲升學準備。"]
+  ],
+  programmeEyebrow: "School Fit",
+  programmeTitle: "OTC 將 Macarthur 放在 Greater Sydney K-12 路線中比較。",
+  programmeIntro: "不是只看學費和排名，而是看孩子是否適合西南悉尼、大校園、男女混合和長期澳洲學習生活。",
+  programmes: [
+    ["Location fit", "家庭是否需要 Sydney 親友、交通、城市資源及後續大學連接。"],
+    ["Campus fit", "學生是否適合更大校園、戶外活動、運動和 school-community life。"],
+    ["Academic readiness", "用近兩年成績單、英文能力和面試準備判斷入學風險。"],
+    ["School confirmation", "正式申請前向學校確認最新年級空位、費用、住宿/照護與申請材料。"]
+  ],
+  decisionTitle: "Macarthur 適合希望孩子在悉尼生活圈內建立長期學校歸屬感的家庭。",
+  decisions: [
+    ["城市邏輯", "如果家庭希望一定在 Sydney 附近，Macarthur 可列入西南區比較名單。"],
+    ["校園性格", "大校園不等於一定適合所有孩子，需看學生是否願意參與活動和校園社群。"],
+    ["住宿安排", "如涉及低齡、監護、homestay 或親屬照護，需要先核實學校可接受方式。"],
+    ["審核狀態", "目前為 Study NSW briefing-based draft，需學校確認後才作更正式的公開資料。"]
+  ],
+  routeTitle: "Macarthur 初步申請 / 審核路線。",
+  routeIntro: "OTC 先整理家庭與學生資料，再向學校確認 current availability、application pack、fee schedule、welfare/accommodation notes and representative process。",
+  steps: [
+    ["Family intake", "確認學生年齡、目前年級、成績單、英文水平與目標入學時間。"],
+    ["Sydney fit note", "判斷是否適合 south-west Sydney school route，而不是 CBD 或 regional NSW route。"],
+    ["Document checklist", "準備 school report、passport、English evidence、personal notes and family questions。"],
+    ["School-side review", "向學校確認最新申請要求與公開頁措辭。"]
+  ],
+  reviewEmail: "office@overseasuk.com"
+});
+
+const illawarraGrammarReview = studyNswSchoolReviewPage({
+  slug: "the-illawarra-grammar-school",
+  name: "The Illawarra Grammar School",
+  subtitle: "伊拉瓦拉文法學校 · Wollongong independent co-educational route",
+  description: "OTC Chinese review draft for The Illawarra Grammar School based on Study NSW 2026 briefing invitation: Wollongong school route and China family screening.",
+  eyebrow: "Wollongong Route",
+  headline: "一所位於 Wollongong 的新州沿海城市學校路線。",
+  intro: "Study NSW's 2026 briefing invitation introduces The Illawarra Grammar School as the fifth session in the NSW quality schools online training series. The email positions the session for agents to understand school strengths, admission conditions, student support and family-facing consultation points.",
+  facts: [
+    ["Briefing date", "10 June 2026", "Study NSW invitation lists the dedicated online training session."],
+    ["Location", "Wollongong", "A coastal NSW city south of Sydney, useful for families comparing Sydney and regional options."],
+    ["School type", "Independent co-educational", "Presented as a school profile item in the Study NSW series."],
+    ["Status", "Review draft", "Detailed school data should be completed after the training materials or school confirmation are received."]
+  ],
+  fitTitle: "適合哪些家庭先看？",
+  fit: "適合想看 Sydney 以外新州沿海城市、希望生活節奏更穩定、又希望保持 NSW 大學和城市連接想像的家庭。",
+  stats: [["2026", "Study NSW series"], ["10 Jun", "scheduled briefing"], ["Wollongong", "coastal NSW route"], ["Co-ed", "school profile"], ["Draft", "awaiting full materials"]],
+  chinaTitle: "Illawarra 的初步價值，是把家庭視野從 Sydney 擴展到 Wollongong。",
+  chinaBody: "很多中國家庭第一反應是 Sydney，但不是所有孩子都適合大城市強刺激環境。Wollongong 類型的沿海城市路線，可能更適合需要安靜學習節奏、英語環境、自然生活與 NSW 升學連接的學生。",
+  highlights: [
+    ["沿海城市", "Wollongong 提供比大城市更清晰的生活節奏，同時仍保持 NSW 區域連接。"],
+    ["低壓比較", "適合與 Sydney private schools、regional boarding routes 一起比較，而不是單獨看排名。"],
+    ["待補材料", "正式頁面應在 6 月 10 日 session 後補入課程、入學要求、費用和支持體系。"],
+    ["家庭諮詢", "現階段可先收集中國家庭問題，帶著問題參加或跟進 school briefing。"]
+  ],
+  programmeEyebrow: "Briefing Preparation",
+  programmeTitle: "這一頁先作為 6 月座談會前後的資料承接頁。",
+  programmeIntro: "先建立審核版框架，等正式 materials 到位後補齊 school profile、fees、application steps 和 contact route。",
+  programmes: [
+    ["Pre-briefing questions", "整理中國家庭最需要問的年級、英文、住宿、費用、升學和照護問題。"],
+    ["School profile update", "座談會後補入正式 school strengths、admissions、student support and contact details。"],
+    ["Route comparison", "與 Sydney、Tweed Coast、Central Queensland 等路線做橫向比較。"],
+    ["Review email", "把頁面發給學校或 Study NSW contact 確認措辭與申請流程。"]
+  ],
+  decisionTitle: "Illawarra 目前最適合先進入候選名單，而不是立即下定論。",
+  decisions: [
+    ["等待材料", "6 月 10 日 briefing 後應補齊最新資料，再正式對外推廣。"],
+    ["城市比較", "適合與 Sydney 近郊、Wollongong、regional NSW 作生活方式比較。"],
+    ["學生性格", "如果學生需要更安靜、更自然的生活節奏，Wollongong route 值得看。"],
+    ["審核措辭", "頁面必須保持 briefing draft，不聲稱已代表學校招生。"]
+  ],
+  routeTitle: "Illawarra 初步資料收集路線。",
+  routeIntro: "OTC 先建立 family question bank 和 school profile scaffold，待 Study NSW session 後補入正式資料並發給學校/代表審核。",
+  steps: [
+    ["Family questions", "收集家庭對 Wollongong、年級、費用、英文和照護的問題。"],
+    ["Briefing attendance", "跟進 2026 年 6 月 10 日 Study NSW online training。"],
+    ["Profile completion", "補入 school strengths、entry requirements、support and fee references。"],
+    ["School confirmation", "將頁面發給學校或 Study NSW contact 進行公開表述確認。"]
+  ],
+  reviewEmail: "Lily.Wu@global.investment.nsw.gov.au"
 });
 
 const australiaVetTafePathways = pageShell({
@@ -8447,6 +8633,9 @@ write("australia-business-landing", australiaBusinessLanding);
 write("australia-office-presence", australiaOfficePresence);
 write("zh/australia-office-presence", australiaOfficePresenceZh);
 write("australia-schools/lindisfarne-anglican-grammar-school", lindisfarneSchoolReview);
+write("australia-schools/plc-pathways", plcPathwaysReview);
+write("australia-schools/macarthur-anglican-school", macarthurAnglicanReview);
+write("australia-schools/the-illawarra-grammar-school", illawarraGrammarReview);
 write("australia-schools/rockhampton-grammar-school", rockhamptonGrammarReview);
 write("australia-schools/moreton-bay-colleges", moretonBayCollegesReview);
 write("australia-vet-tafe-pathways", australiaVetTafePathways);
