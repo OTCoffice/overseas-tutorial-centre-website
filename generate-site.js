@@ -8698,7 +8698,7 @@ const australiaPathwaysLanding = pageShell({
       <div class="australia-contact-block">
         <div>
           <span>Contact OTC</span>
-          <strong>把你的英國學歷、成績單和目標職業發來，先做一次澳洲路線初篩。</strong>
+          <strong>把你的現有學歷、成績單和目標職業發來，先做一次澳洲路線初篩。</strong>
           <p>OTC 澳洲代表辦公室設於悉尼 Balmain，可提供澳洲時區諮詢協調服務。受監管移民、法律、稅務、護理註冊及職業評估事項，OTC 將協助轉介合資格專業人士。</p>
         </div>
         <a href="https://wa.me/447947991572">WhatsApp</a>
