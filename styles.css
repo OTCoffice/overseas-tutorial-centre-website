@@ -13025,10 +13025,10 @@ h1 {
 
 .credit-world-map {
   background:
-    url("/assets/credit-alliance-world-map-line.svg?v=20260523") center / 92% auto no-repeat,
+    url("/assets/global-office-map-soft.svg?v=credit-alliance-20260523") center / cover no-repeat,
     linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(236, 226, 211, 0.92));
   border: 1px solid #cdbfae;
-  min-height: 380px;
+  min-height: 420px;
   position: relative;
 }
 
@@ -13092,11 +13092,11 @@ h1 {
   background: #d0ae67;
 }
 
-.node-us { left: 22%; top: 40%; }
-.node-ca { left: 20%; top: 22%; }
-.node-uk { left: 49%; top: 31%; }
-.node-au { left: 78%; top: 68%; }
-.node-nz { left: 88%; top: 79%; }
+.node-us { left: 23%; top: 41%; }
+.node-ca { left: 17%; top: 28%; }
+.node-uk { left: 52%; top: 28%; }
+.node-au { left: 77%; top: 72%; }
+.node-nz { left: 88%; top: 80%; }
 
 .credit-map-card {
   background: rgba(255, 252, 244, 0.98);
