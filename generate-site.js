@@ -1797,6 +1797,178 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "othm-health-social-care-australia-vet-comparison",
+    title: "OTHM Health Qualifications vs Australia VET: A Complete Comparison Guide",
+    date: "2026-05-24",
+    category: "University Pathways",
+    column: "study",
+    kicker: "健康護理 · 資格對照",
+    author: "留學導報編輯部",
+    summary: "A practical comparison between OTHM Health and Social Care qualifications and Australian VET health, ageing, disability, community services and nursing pathways, with clear boundaries on employment licensing and university progression.",
+    titleZh: "OTHM 健康護理資格對照澳洲職業培訓體系完整指南",
+    summaryZh: "本文對照 OTHM 健康與社會護理資格、澳洲 VET 健康護理課程及 AQF 層級，說明升學、就業、執業資格與移民方向之間不能混為一談的關鍵差異。",
+    body: [
+      {
+        heading: "1) Why This Comparison Matters",
+        paragraphs: [
+          "Students considering health, aged care, disability support, community services or nursing in Australia often see two parallel systems: UK-regulated OTHM qualifications and Australia's local VET system.",
+          "The two systems may sit at comparable academic levels, but they do not perform the same function. OTHM may support academic progression or advanced-entry discussions with universities, while Australian VET qualifications are designed around occupational competency and local workplace outcomes.",
+          "This guide maps the two systems for planning purposes, then separates three different goals: university progression, Australian employment training and regulated professional registration."
+        ]
+      },
+      {
+        heading: "2) OTHM Health and Social Care Qualifications",
+        paragraphs: [
+          "OTHM's Health and Social Care pathway runs from Level 3 to Level 7. Relevant qualifications include the OTHM Level 3 Foundation Diploma in Health and Social Care and OTHM Level 3 Diploma in Adult Health and Social Care.",
+          "At management levels, the pathway includes the OTHM Level 4, Level 5, Level 5 Extended, Level 6 and Level 7 Diplomas in Health and Social Care Management.",
+          "OTHM also offers a separate Occupational Health and Safety pathway, including Level 3, Level 6 and Level 7 qualifications. These should not be confused with nursing, aged care or community services qualifications."
+        ]
+      },
+      {
+        heading: "3) Australia VET Health and Care System",
+        paragraphs: [
+          "Australia's VET qualifications sit within the Australian Qualifications Framework (AQF). Certificate III aligns with AQF Level 3, Certificate IV with AQF Level 4, Diploma with AQF Level 5 and Advanced Diploma with AQF Level 6.",
+          "In health and care, the main training package areas are CHC for community services, aged care, disability and individual support, and HLT for health services and nursing-related qualifications.",
+          "VET qualifications are competency-based. They usually require evidence that the learner can perform workplace tasks under Australian standards, legislation and supervision arrangements."
+        ]
+      },
+      {
+        heading: "4) Level-by-Level Comparison",
+        paragraphs: [
+          "OTHM Level 3 Health and Social Care is closest in planning level to Australian Certificate III pathways such as CHC33021 Certificate III in Individual Support and HLT33115 Certificate III in Health Services Assistance.",
+          "CHC33021 reflects work in community, home or residential care settings under supervision and delegation. Training.gov.au states that candidates must complete at least 120 hours of work as detailed in the assessment requirements.",
+          "OTHM Level 4 Health and Social Care Management may be compared academically with Certificate IV-level care and support pathways. For disability, the current qualification is CHC43121 Certificate IV in Disability Support, which superseded CHC43115. CHC43015 Certificate IV in Ageing Support remains a common ageing-support pathway.",
+          "OTHM Level 5 Health and Social Care Management may be compared by level with AQF Diploma routes such as HLT54121 Diploma of Nursing and CHC52025 Diploma of Community Services. However, these are not interchangeable qualifications.",
+          "OTHM Level 6 Health and Social Care Management sits near AQF Advanced Diploma level for planning purposes, such as HLT64121 Advanced Diploma of Nursing or CHC62015 Advanced Diploma of Community Sector Management.",
+          "OTHM Level 7 Health and Social Care Management is beyond the ordinary VET ladder and is better understood as a postgraduate-level management qualification. In Australia, comparable study is usually found in Graduate Diploma or Master's-level health management, public health, health leadership or community services management programs."
+        ]
+      },
+      {
+        heading: "5) The Most Important Boundary: Not Direct Substitution",
+        paragraphs: [
+          "OTHM Health and Social Care qualifications do not automatically replace Australian VET qualifications for employment, licensing or professional registration.",
+          "For nursing, the boundary is especially important. Training.gov.au states that to apply for registration as an enrolled nurse and practise in Australia, a learner must complete a Diploma of Nursing program accredited by ANMAC and approved by the Nursing and Midwifery Board of Australia as an approved program of study. AHPRA should be checked for provider approval.",
+          "Therefore, an OTHM Level 5 Health and Social Care qualification alone does not make a student eligible to register as an enrolled nurse in Australia.",
+          "The practical use of OTHM in this field is usually academic progression: applying to universities for health science, nursing-related, public health or health management programs, subject to the receiving institution's credit and entry rules."
+        ]
+      },
+      {
+        heading: "6) Australian Training Providers to Check",
+        paragraphs: [
+          "Students seeking direct Australian employment pathways should start with registered training organisations listed on training.gov.au and state TAFE websites.",
+          "Major public providers include TAFE NSW, TAFE Queensland, TAFE SA, North Metropolitan TAFE, South Metropolitan TAFE, Chisholm TAFE, Box Hill Institute and Holmesglen Institute. Availability varies by campus, intake, state funding rules and student visa settings.",
+          "Private RTOs may also offer individual support, community services, disability, ageing support or nursing-related programs. Students should verify RTO scope, course code, CRICOS status where relevant, placement arrangements and industry recognition before enrolling."
+        ]
+      },
+      {
+        heading: "7) Route Selection",
+        paragraphs: [
+          "If the goal is direct work in aged care, disability support or community support in Australia, the most direct route is usually an Australian VET qualification such as CHC33021 or a relevant Certificate IV or Diploma delivered by an RTO with the correct scope.",
+          "If the goal is enrolled nurse registration, the student should focus on HLT54121 Diploma of Nursing through an ANMAC-accredited and NMBA-approved program, then follow AHPRA registration requirements.",
+          "If the goal is university entry or advanced standing, OTHM Level 4 or Level 5 Health and Social Care may be used as an academic progression credential, but credit decisions are made by each Australian university.",
+          "If the goal is management-level study, OTHM Level 6 or Level 7 Health and Social Care Management may be more relevant to Australian postgraduate health management or community sector management pathways."
+        ]
+      },
+      {
+        heading: "8) Disclaimer",
+        paragraphs: [
+          "This guide is a level and pathway comparison, not an equivalence decision and not migration, employment or registration advice.",
+          "Australian healthcare professional registration, especially nursing, must be confirmed with the relevant regulator, including AHPRA, NMBA and ANMAC where applicable. Course availability, placement hours, fees and provider approvals should be checked directly with the institution and official registers."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼需要這份對照",
+        paragraphs: [
+          "對於希望在澳洲醫療、老人護理、殘疾支援、社區服務或健康管理領域就業、升學或移民的華人學生，常見的困惑是：英國 OTHM 資格體系和澳洲本地 VET（職業教育與培訓）體系到底如何對應。",
+          "兩者可以做層級上的參考對照，但不能簡單互換。OTHM 更常用於學術銜接、升學申請和 Advanced Entry 討論；澳洲 VET 則以職業能力、實習、工作場景和本地行業要求為核心。",
+          "本文先梳理 OTHM 健康相關資格，再對照澳洲 VET 中常見的 CHC 和 HLT 資格，最後說明就業、執業註冊和升學之間最容易混淆的界線。"
+        ]
+      },
+      {
+        heading: "二、OTHM 健康與社會護理資格全覽",
+        paragraphs: [
+          "OTHM 的健康與社會護理資格體系從 Level 3 延伸至 Level 7，主要包括 OTHM Level 3 Foundation Diploma in Health and Social Care、OTHM Level 3 Diploma in Adult Health and Social Care。",
+          "管理方向包括 OTHM Level 4 Diploma in Health and Social Care Management、Level 5 Diploma、Level 5 Extended Diploma、Level 6 Diploma 及 Level 7 Diploma in Health and Social Care Management。",
+          "OTHM 亦設有職業健康與安全（Occupational Health and Safety）系列，包括 Level 3 Technical Certificate、Level 6 Certificate / Diploma，以及 Level 7 Diploma in Occupational Health and Safety Management。這一系列應與護理、老人照護、殘疾支援及社區服務資格分開理解。"
+        ]
+      },
+      {
+        heading: "三、澳洲 VET 健康與護理體系概覽",
+        paragraphs: [
+          "澳洲 VET 資格按澳洲資歷框架（AQF）分級。Certificate III 對應 AQF Level 3，Certificate IV 對應 Level 4，Diploma 對應 Level 5，Advanced Diploma 對應 Level 6。",
+          "健康護理領域的 VET 資格主要分為兩大類：CHC 系列，涵蓋社區服務、老人護理、殘疾支援和個人支援；HLT 系列，涵蓋衛生服務、護理及相關健康服務資格。",
+          "VET 資格以能力結果為導向，重點不是單純學術層級，而是學習者能否在澳洲法律、行業標準和工作場景下完成相應任務。"
+        ]
+      },
+      {
+        heading: "四、OTHM 與澳洲 VET 逐層對照",
+        paragraphs: [
+          "OTHM Level 3 Health and Social Care 可作為層級參考，對照澳洲 Certificate III 方向，例如 CHC33021 Certificate III in Individual Support 及 HLT33115 Certificate III in Health Services Assistance。",
+          "CHC33021 適用於社區、家居或院舍照護場景，學習者在監督及授權下為長者、殘疾人士或其他需要支援的人士提供以人為本的照護。training.gov.au 顯示，該資格要求至少完成 120 小時工作實踐。",
+          "OTHM Level 4 Health and Social Care Management 可作為層級參考，對照 Certificate IV 類支援資格。殘疾支援方向目前應重點查看 CHC43121 Certificate IV in Disability Support；舊的 CHC43115 已被 CHC43121 取代。老人護理方向可查看 CHC43015 Certificate IV in Ageing Support。",
+          "OTHM Level 5 Health and Social Care Management 可作為層級參考，對照 AQF Diploma 類路線，例如 HLT54121 Diploma of Nursing 或 CHC52025 Diploma of Community Services。但這只是層級參考，不代表可以互相替代。",
+          "OTHM Level 6 Health and Social Care Management 可作為層級參考，對照 AQF Advanced Diploma 類路線，例如 HLT64121 Advanced Diploma of Nursing 或 CHC62015 Advanced Diploma of Community Sector Management。",
+          "OTHM Level 7 Health and Social Care Management 已經超出一般 VET 階梯，更接近澳洲大學 Graduate Diploma 或 Master 層級的健康管理、公共衛生、健康領導或社區服務管理課程。"
+        ]
+      },
+      {
+        heading: "五、關鍵差異：OTHM 與澳洲 VET 不能直接互換",
+        paragraphs: [
+          "這是整份對照中最重要的一點：OTHM 健康與社會護理資格不等同於澳洲 VET 的就業資格、執業許可或專業註冊資格。",
+          "尤其是護理。training.gov.au 對 HLT54121 Diploma of Nursing 的說明指出，若要申請成為澳洲 Enrolled Nurse 並在澳洲執業，學習者須完成由 ANMAC 認證、並由 Nursing and Midwifery Board of Australia（NMBA）批准為 approved program of study 的 Diploma of Nursing 課程，並應透過 AHPRA 核查教育提供者批准狀態。",
+          "因此，僅憑 OTHM Level 5 Health and Social Care 不能在澳洲登記為 Enrolled Nurse，也不能直接替代澳洲本地 HLT54121 Diploma of Nursing。",
+          "OTHM 在澳洲健康護理領域的實際用途，主要是學術銜接：例如用於申請澳洲大學的健康科學、護理相關、公共衛生或健康管理課程，具體 Advanced Entry 或學分減免由接收院校個案決定。"
+        ]
+      },
+      {
+        heading: "六、澳洲主要培訓提供者應如何查",
+        paragraphs: [
+          "如果學生目標是在澳洲直接就業，應優先查看 training.gov.au 上列明的 RTO scope，以及各州 TAFE 或私立 RTO 的課程頁面。",
+          "常見公立提供者包括 TAFE NSW、TAFE Queensland、TAFE SA、North Metropolitan TAFE、South Metropolitan TAFE、Chisholm TAFE、Box Hill Institute、Holmesglen Institute 等。具體課程、校區、開課時間和國際學生名額會隨州份及年度調整。",
+          "私立 RTO 亦可能提供 individual support、community services、disability、ageing support 或 nursing-related 課程。報讀前應核查 RTO scope、課程代碼、是否有 CRICOS（如涉及國際學生簽證）、實習安排、英文要求、學費及行業認可情況。"
+        ]
+      },
+      {
+        heading: "七、路線選擇建議",
+        paragraphs: [
+          "如果目標是在澳洲直接做老人護理、殘疾支援、社區支援或相關照護工作，通常最直接的路線是報讀澳洲本地 VET 資格，例如 CHC33021，或相應 Certificate IV / Diploma 課程。",
+          "如果目標是成為 Enrolled Nurse，重點不是 OTHM，而是 HLT54121 Diploma of Nursing，且該課程必須符合 ANMAC / NMBA / AHPRA 的批准要求。",
+          "如果目標是在澳洲讀大學，例如 Bachelor of Nursing、Bachelor of Health Science、Public Health 或 Health Management，OTHM Level 4 或 Level 5 Health and Social Care 可作為學術銜接材料之一，但能否獲得 Advanced Entry 由澳洲大學自行評估。",
+          "如果目標是健康管理、醫院管理、社區服務機構管理等管理層方向，OTHM Level 6 或 Level 7 Health and Social Care Management 更適合用於銜接澳洲大學的 Graduate Diploma 或碩士課程。"
+        ]
+      },
+      {
+        heading: "八、重要提示",
+        paragraphs: [
+          "本文是資格層級及路線對照，不構成學分等值認定、移民建議、就業建議或執業資格建議。",
+          "澳洲醫療及護理職業的執業資格須由相關監管機構確認，包括 AHPRA、NMBA、ANMAC 及其他行業監管機構。課程供應、實習時數、費用、開課時間、RTO scope 和 CRICOS 狀態，應以官方註冊資料及院校最新公佈為準。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["OTHM", "Academic progression", "適合作為健康與社會護理升學、銜接及 Advanced Entry 討論材料。", "academic"],
+      ["VET", "Workplace competency", "澳洲本地職業教育，重視實習、能力證據與工作場景。", "vet"],
+      ["HLT54121", "Nursing boundary", "護理註冊須看 ANMAC / NMBA / AHPRA 批准，不可由 OTHM 直接替代。", "nursing"],
+      ["CHC33021", "Individual support", "老人護理、殘疾支援與個人支援常見入門資格。", "support"]
+    ],
+    resources: [
+      ["OTHM Health and Social Care", "https://othm.org.uk/subject/health-and-social-care"],
+      ["CHC33021 Certificate III in Individual Support", "https://training.gov.au/training/details/CHC33021"],
+      ["HLT54121 Diploma of Nursing", "https://training.gov.au/training/details/HLT54121"],
+      ["CHC52025 Diploma of Community Services", "https://training.gov.au/training/details/CHC52025"],
+      ["CHC43121 Certificate IV in Disability Support", "https://training.gov.au/Training/Details/CHC43121"],
+      ["CHC62015 Advanced Diploma of Community Sector Management", "https://training.gov.au/training/details/CHC62015"],
+      ["AHPRA approved programs of study", "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"]
+    ],
+    relatedReadings: [
+      "othm-credits-australia-advanced-entry",
+      "otc-othm-centre-renewal-2026",
+      "credit-alliance-global-pathways"
+    ]
+  },
+  {
     slug: "otc-othm-centre-renewal-2026",
     title: "OTC Renews OTHM Approved Centre Status — May 2026",
     date: "2026-05-23",
