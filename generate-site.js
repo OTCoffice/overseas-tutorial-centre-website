@@ -1695,6 +1695,130 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "otc-free-study-abroad-application-agent-service",
+    title: "OTC Free Study-Abroad Application Support: Canada, UK, Australia, New Zealand, US and Ireland",
+    date: "2026-05-23",
+    category: "Study Abroad Services",
+    column: "study",
+    kicker: "Free application support",
+    author: "留學導報編輯部",
+    summary: "A service guide explaining how Overseas Tutorial Centre supports study-abroad applications through partner and sub-agent routes across Canada, the UK, Australia, New Zealand, the US, Ireland and other popular destinations.",
+    titleZh: "加拿大｜英國｜澳洲｜新西蘭｜美國｜愛爾蘭：海外督導熱門院校申請全程免費支持",
+    summaryZh: "海外督導 OTC 通過一級及二級代理合作模式，為學生提供熱門留學國家院校申請支持。對可通過 OTC 合作渠道遞交的院校和項目，學生端申請服務通常不收取中介服務費；先做路線初審，再確認國家、課程、文件和遞交方案。",
+    body: [
+      {
+        heading: "1) What OTC Means by Free Application Support",
+        paragraphs: [
+          "Overseas Tutorial Centre supports applications to popular study destinations including Canada, the United Kingdom, Australia, New Zealand, the United States and Ireland.",
+          "For institutions and programmes that can be submitted through OTC's cooperation, partner or sub-agent channels, the student-facing application support is usually provided without a separate agency service fee.",
+          "This does not mean every possible institution in every country is free or available through OTC. It means OTC first checks whether a student's target route can be handled through an eligible channel, then confirms the application plan and service boundary."
+        ]
+      },
+      {
+        heading: "2) Partner and Sub-Agent Routes",
+        paragraphs: [
+          "OTC works through first-level and second-level agent models where applicable. These may include universities, colleges, pathway providers, international recruitment platforms, school-sector contacts and education cooperation channels.",
+          "This structure allows OTC to cover many popular destinations, including universities, colleges, foundation, international year one, graduate pathway, TAFE / VET, boarding school and secondary-school routes.",
+          "The practical value for students is simple: they do not need to buy an expensive package before understanding whether their country, course, timing and documents make sense."
+        ]
+      },
+      {
+        heading: "3) Countries and Application Types",
+        paragraphs: [
+          "Canada: undergraduate applications, colleges, postgraduate diplomas, master's routes and selected pathway options.",
+          "United Kingdom: undergraduate, postgraduate, foundation, international year one, top-up, progression, direct-entry and pathway applications.",
+          "Australia and New Zealand: universities, TAFE / VET, pathway providers, regional study routes, school applications and family-facing education planning.",
+          "United States and Ireland: selected undergraduate, transfer, postgraduate, language, pathway and cooperation-channel applications where available."
+        ]
+      },
+      {
+        heading: "4) How Students Should Choose an Agency",
+        paragraphs: [
+          "A good application adviser should not begin by pushing a package. The first step should be route diagnosis: academic background, English readiness, budget, intended intake, course direction and document gaps.",
+          "Students should ask who will review the documents, who will monitor portal messages, who follows offer conditions and deadlines, and whether the adviser can explain why each institution is being recommended.",
+          "If an adviser only repeats ranking lists, discounts, limited-time offers or guaranteed-admission language, the family should slow down and ask for a written plan."
+        ]
+      },
+      {
+        heading: "5) Service Boundary",
+        paragraphs: [
+          "Free application support normally applies to institutions and programmes that can be handled through an eligible OTC cooperation, partner or sub-agent route.",
+          "Some special cases, non-partner institutions, complex document editing, portfolio work, certified translation, notarisation, courier, examination fees, visa support or third-party professional services may involve separate institution or third-party costs.",
+          "OTC supports education-route planning, application administration and document organisation. Admission decisions, scholarships, visa decisions and regulated professional advice remain with the relevant institution, authority or qualified adviser."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、海外督導熱門院校申請，全程免費支持",
+        paragraphs: [
+          "加拿大｜英國｜澳洲｜新西蘭｜美國｜愛爾蘭等熱門留學目的地，海外督導 OTC 均可為學生提供院校申請支持。",
+          "對可通過 OTC 合作渠道遞交的院校和項目，學生端申請服務通常不收取中介服務費。這是本文最重要的信息：先做路線初審，再確認國家、院校、課程、文件和遞交方案。",
+          "這不等於所有院校、所有特殊申請都一律免費，而是 OTC 會先判斷學生目標是否可以通過合作、平台或 sub-agent channel 處理，再把可行路線說清楚。"
+        ]
+      },
+      {
+        heading: "二、一級及二級代理模式，覆蓋多數熱門院校和地區",
+        paragraphs: [
+          "海外督導通過一級及二級代理合作模式，連接多個國家與地區的院校、pathway provider、國際招生平台及教育合作渠道。",
+          "申請服務範圍覆蓋大量熱門大學、學院、預科、國際大一、研究生 pathway、職業教育、TAFE / VET、中小學及 boarding school 項目。",
+          "對學生和家長來說，這意味著不必一上來就被迫購買高價套餐；可以先了解自己是否適合加拿大、新西蘭、英國、澳洲、美國或愛爾蘭，再決定具體申請。"
+        ]
+      },
+      {
+        heading: "三、適合哪些申請方向？",
+        paragraphs: [
+          "加拿大：本科、college、公立學院、研究生文憑、碩士及 pathway 路線。",
+          "英國：本科、碩士、預科、國際大一、top-up、專升本、院校直申及 progression route。",
+          "澳洲：大學、TAFE、VET、pathway、中小學、區域型升學路線及家庭教育規劃。",
+          "新西蘭：大學、理工學院、pathway、中小學及家庭型低齡留學路線。",
+          "美國與愛爾蘭：本科、轉學、研究生、語言、pathway 及合作院校申請。"
+        ]
+      },
+      {
+        heading: "四、面對小紅書式中介推薦，先問這幾個問題",
+        paragraphs: [
+          "很多同學會問：小紅書一搜全是廣告，到底哪家留學中介可信？這個問題很真實。大機構的優點是流程穩、品牌可見；但同學們擔心的流水線服務，也確實值得警惕。",
+          "選中介前，先問對方：會不會看完整材料再建議國家和學校？推薦這些院校的理由是什麼？文書和文件誰負責？誰跟進 portal、補件、offer condition 和 deadline？",
+          "如果對方只是不斷催你現在簽約、活動價、名額快沒了，卻說不清課程匹配、文件缺口和時間線，那就應該先停一停。"
+        ]
+      },
+      {
+        heading: "五、海外督導先做路線初審，再啟動申請",
+        paragraphs: [
+          "OTC 更適合不想被模板化處理的學生：先診斷，再規劃，再整理文件，再推進申請。",
+          "第一次初審通常會看學生的學術背景、英語準備、預算、目標 intake、國家偏好、專業方向、文件缺口，以及 dream / target / safe 的院校分層。",
+          "27fall 或更早階段的學生，不必急著定死院校；更重要的是先建立申請檔案，把加拿大、新西蘭、英國、澳洲、美國、愛爾蘭幾條路線放在同一張圖上比較。"
+        ]
+      },
+      {
+        heading: "六、服務邊界說明",
+        paragraphs: [
+          "免費申請服務通常適用於可通過 OTC 合作渠道遞交的院校或項目。",
+          "部分特殊申請、非合作院校、複雜文書、作品集、翻譯、公證、快遞、考試報名、簽證或第三方專業服務，可能產生院校或第三方費用，具體以個案確認為準。",
+          "OTC 提供教育路線規劃、申請行政支持與文件整理；錄取、獎學金、簽證和受監管專業建議，仍以院校、官方機構或合資格專業人士的決定為準。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Free application", "Student-facing support", "可通過 OTC 合作渠道遞交的院校申請，通常不另收中介服務費。", "free"],
+      ["Coverage", "Major study destinations", "加拿大、英國、澳洲、新西蘭、美國、愛爾蘭等熱門地區。", "global"],
+      ["Agent routes", "Partner and sub-agent", "一級及二級代理合作模式，覆蓋大學、學院、pathway、中小學等。", "channel"],
+      ["Boundary", "Case-by-case confirmation", "特殊申請、第三方費用及受監管事項需另行確認。", "clear"]
+    ],
+    costs: [
+      ["合作渠道院校申請", "通常免費", "適用於可通過 OTC 渠道遞交的項目"],
+      ["路線初審", "可先諮詢", "確認國家、課程、文件與時間線"],
+      ["第三方費用", "按實際產生", "考試、翻譯、公證、快遞、院校費用等"]
+    ],
+    resources: [
+      ["OTC university application intake", "https://overseasuk.com/university-applications/"],
+      ["OTC services", "https://overseasuk.com/services/"],
+      ["OTC Canada route", "https://overseasuk.com/countries/canada/"],
+      ["OTC New Zealand route", "https://overseasuk.com/countries/new-zealand/"]
+    ]
+  },
+  {
     slug: "kcl-offer-holder-timeline-course-decisions",
     title: "KCL Offer Holder Stage: Why Course Fit, Conditions and Timing Cannot Wait",
     date: "2026-05-23",
