@@ -7014,7 +7014,7 @@ h1 {
 
 .nsw-school-card-grid article {
   border-top: 5px solid #2f8b82;
-  min-height: 250px;
+  min-height: 230px;
 }
 
 .nsw-school-card-grid article:nth-child(2) {
@@ -7023,6 +7023,18 @@ h1 {
 
 .nsw-school-card-grid article:nth-child(3) {
   border-top-color: #a9171b;
+}
+
+.nsw-school-card-grid article:nth-child(4) {
+  border-top-color: #4f6f9f;
+}
+
+.nsw-school-card-grid article:nth-child(5) {
+  border-top-color: #8f6f3f;
+}
+
+.nsw-school-card-grid article:nth-child(6) {
+  border-top-color: #1f5e52;
 }
 
 .nsw-school-card-grid strong {

@@ -6929,7 +6929,25 @@ const australiaOfficePresence = pageShell({
             <p>OTC will maintain public school profiles, internal briefing notes, school contact records, document checklists and family-facing application guidance. Formal partnership status is recorded privately and only stated publicly when confirmed.</p>
           </article>
         </div>
-        <div class="nsw-school-card-grid">
+        <div class="nsw-school-card-grid nsw-school-series-grid">
+          <article>
+            <b>Archive 01</b>
+            <strong>Early NSW schools briefing record</strong>
+            <p>Placeholder for the earliest Study NSW K-12 briefing record. OTC will add the school profile once the original invitation, recap or presentation file is located in the internal email archive.</p>
+            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">Open school enquiry</a>
+          </article>
+          <article>
+            <b>Series 02</b>
+            <strong>PLC Pathways</strong>
+            <p>Study NSW Greater China training record for PLC Pathways, a school-pathway route connected with NSW independent-school options and transition planning for international students.</p>
+            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20PLC%20Pathways">Free screening</a>
+          </article>
+          <article>
+            <b>Series 03</b>
+            <strong>Macarthur Anglican School</strong>
+            <p>Sydney south-west independent co-educational school with broad co-curricular provision, homestay support and strong senior-school outcomes recorded in the Study NSW briefing materials.</p>
+            <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Macarthur%20Anglican%20School">Free screening</a>
+          </article>
           <article>
             <b>Series 04</b>
             <strong>Lindisfarne Anglican Grammar School</strong>
@@ -6944,12 +6962,12 @@ const australiaOfficePresence = pageShell({
           </article>
           <article>
             <b>Ongoing</b>
-            <strong>NSW primary and secondary school list</strong>
-            <p>OTC will continue adding Study NSW briefing schools, government-school options, independent schools, junior schools, high schools, short-term study and long-term enrolment routes as public-facing profiles become ready.</p>
+            <strong>NSW K-12 school enquiry desk</strong>
+            <p>OTC will continue adding Study NSW briefing schools, government-school options, independent schools, junior schools, high schools, short-term study and long-term enrolment routes.</p>
             <a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">Open school enquiry</a>
           </article>
         </div>
-        <div class="nsw-school-apply-panel">
+        <div class="nsw-school-apply-panel">        <div class="nsw-school-apply-panel">
           <div>
             <span>Free application channel</span>
             <strong>Send one email to start a no-charge first review.</strong>
@@ -7150,8 +7168,8 @@ const australiaOfficePresenceZh = pageShell({
       <div class="nsw-schools-zone" id="nsw-schools">
         <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
         <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
-        <div class="nsw-school-card-grid"><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Lindisfarne%20Anglican%20Grammar%20School">免費初篩</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 涵蓋學校介紹、招生、學生支持、課程與國際學生問題。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20The%20Illawarra%20Grammar%20School">免費初篩</a></article><article><b>Ongoing</b><strong>NSW 中小學名單</strong><p>OTC 將持續加入 Study NSW briefing schools、公校、私校、junior schools、high schools、短期學習與長期入學路線。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article></div>
-        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
+        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>Archive 01</b><strong>早期 NSW 學校 briefing 記錄</strong><p>用於收納最早一場 Study NSW K-12 briefing。OTC 將在內部郵件 archive 中定位原始邀請、會後資料或 presentation file 後補入公開學校 profile。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20PLC%20Pathways">免費初篩</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其大型校園、寄宿家庭安排、課外活動及 senior-school outcomes，可用於家庭選校初篩。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Macarthur%20Anglican%20School">免費初篩</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Lindisfarne%20Anglican%20Grammar%20School">免費初篩</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 涵蓋學校介紹、招生、學生支持、課程與國際學生問題。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20The%20Illawarra%20Grammar%20School">免費初篩</a></article><article><b>Ongoing</b><strong>NSW K-12 學校諮詢台</strong><p>OTC 將持續加入 Study NSW briefing schools、公校、私校、junior schools、high schools、短期學習與長期入學路線。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article></div>
+        <div class="nsw-school-apply-panel"><div><span>Free application channel</span>        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
       </div>
     </section>
 
