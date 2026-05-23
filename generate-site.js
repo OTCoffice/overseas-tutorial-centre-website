@@ -8546,8 +8546,21 @@ const australiaProviders = [
 ];
 
 function australiaStudyInsights() {
-  return insightsArticles
-    .filter((article) => article.slug.includes("australia") || (article.bodyZh || []).some((section) => section.paragraphs.join("").includes("澳洲")))
+  const prioritySlugs = [
+    "australia-health-vocation-pathway",
+    "othm-health-social-care-australia-vet-comparison",
+    "othm-credits-australia-advanced-entry",
+    "australia-new-zealand-provider-pathway-updates-2026",
+    "study-nt-agent-training-certificate-otc-australia-meaning"
+  ];
+  const priorityArticles = prioritySlugs
+    .map((slug) => insightsArticles.find((article) => article.slug === slug))
+    .filter(Boolean);
+  const fallbackArticles = insightsArticles
+    .filter((article) => article.column === "study" && !prioritySlugs.includes(article.slug))
+    .filter((article) => article.slug.includes("australia") || (article.bodyZh || []).some((section) => section.paragraphs.join("").includes("澳洲")));
+  return priorityArticles
+    .concat(fallbackArticles)
     .slice(0, 5)
     .map((article) => `
       <a class="australia-insight-card" href="/zh/insights/${article.slug}/">
