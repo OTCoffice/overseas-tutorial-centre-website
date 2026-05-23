@@ -7201,6 +7201,8 @@ const lindisfarneSchoolReview = pageShell({
 
     <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">Profile</div><h2>一所位於 Tweed Coast / Northern NSW 的 K-12 聖公會學校。</h2><p>Lindisfarne Anglican Grammar School is a co-educational Preschool to Year 12 Anglican school serving the southern Gold Coast, Tweed Coast and northern New South Wales region. The school operates two campuses and supports international students through structured enrolment, wellbeing and homestay arrangements.</p></div><div class="school-facts"><article><b>Location</b><strong>Tweed Coast, NSW</strong><span>約 15 分鐘至 Gold Coast International Airport，約 90 分鐘至 Brisbane International Airport。</span></article><article><b>Campuses</b><strong>Two campuses</strong><span>Junior School: Sunshine Avenue Campus. Middle and Senior School: Mahers Lane Campus, Terranora.</span></article><article><b>Age range</b><strong>Preschool to Year 12</strong><span>One school, two campuses, three subschools: Junior, Middle and Senior School.</span></article><article><b>CRICOS</b><strong>03803G</strong><span>International student enrolment is handled under the school's international programme process.</span></article></div></div><aside class="school-profile-side"><span>OTC note</span><strong>適合哪些家庭先看？</strong><p>適合正在比較 NSW / Gold Coast 邊界地區中小學、希望有 homestay/welfare 支持、重視 K-12 連續性與大學升學指導的家庭。</p><a href="mailto:office@overseasuk.com?subject=Free%20Lindisfarne%20Family%20Screening">免費家庭初篩</a></aside></div></section>
 
+    ${schoolLocationMap({ title: "Lindisfarne sits on the Tweed Coast / Northern NSW education route.", note: "The map marks the school's Northern NSW / Gold Coast corridor position so Chinese families can understand its airport, coastal and cross-border Queensland connection before detailed application screening.", ctaHref: "mailto:office@overseasuk.com?subject=Lindisfarne%20location%20and%20application%20screening", ctaLabel: "Ask OTC to review this location route", pins: [{ label: "Tweed Coast", note: "Lindisfarne", x: 82, y: 62 }] })}
+
     <section class="band compact-band"><div class="school-herald-strip"><article><b>2,126</b><span>prospectus-stated students</span></article><article><b>2 campuses</b><span>Junior / Middle-Senior split</span></article><article><b>90%</b><span>graduates' post-school destination was university</span></article><article><b>73%</b><span>students received early university offers</span></article><article><b>36</b><span>activities and co-curricular programmes</span></article></div></section>
 
     <section class="band"><div class="school-china-panel"><div><span>China Family Lens</span><strong>對中國家庭的真正吸引力：靠近 Gold Coast，但不是純旅遊城市學校。</strong><p>Lindisfarne 的位置對中國家庭很容易理解：15 分鐘到 Gold Coast International Airport，90 分鐘到 Brisbane International Airport，Tweed Coast 兼有海岸生活、澳洲本地家庭社群和相對安靜的學習環境。對低齡學生來說，這種「有機場、有城市、有海岸、但校園生活仍集中」的組合，比單純大城市學校更容易形成穩定作息。</p></div><div class="school-highlight-grid"><article><b>英語沉浸</b><p>學生不是只在語言班學英文，而是在 classroom、homestay、sports、music、service activities 裡持續使用英文。</p></article><article><b>升學準備</b><p>高年級有 careers class、work experience、university sessions、campus tours、scholarship workshops 和個別 pathways counselling。</p></article><article><b>照護結構</b><p>Wellbeing team、health facilities、campus safety、homestay monitoring 對第一次離家的學生尤其重要。</p></article><article><b>短期試讀</b><p>Short-term schedule 適合先體驗澳洲校園、homestay 和英文課堂，再決定是否轉長期入讀。</p></article></div></div></section>
@@ -7228,6 +7230,8 @@ const rockhamptonGrammarReview = pageShell({
     <section class="page-hero school-profile-hero herald-school-hero"><div class="band"><div class="eyebrow">Queensland Boarding School · Review Draft</div><h1>The Rockhampton Grammar School</h1><p>Central Queensland 寄宿強校 · Grow in Character and Scholarship</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=RGS%20Family%20Screening">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
     <section class="band compact-band"><div class="school-review-banner"><strong>Draft for school review</strong><p>本頁根據 The Rockhampton Grammar School international prospectus 整理，作為中文家庭閱讀版審核稿。正式公開推廣前，需由學校/代表確認最新課程、CRICOS、住宿、費用及申請要求。</p></div></section>
     <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">Why It Matters</div><h2>不是大城市路線，而是 Central Queensland 的完整寄宿學校生活。</h2><p>RGS 建校於 1881 年，是 Queensland 歷史悠久的私立男女混合學校之一。Prospectus 強調其「character and scholarship」教育理念、Central Queensland 地區生活、boarding culture、農業/戶外教育、體育藝術活動與大學升學準備。</p></div><div class="school-facts"><article><b>Founded</b><strong>1881</strong><span>One of Australia's long-established grammar schools.</span></article><article><b>Scale</b><strong>1,400+ students</strong><span>Prospectus records Prep-Year 12 and a large secondary cohort.</span></article><article><b>Boarding</b><strong>Queensland boarding route</strong><span>Years 7-12 full accommodation with separate boys/girls houses.</span></article><article><b>CRICOS</b><strong>00507F</strong><span>Secondary Years 7-10 and Years 11-12 courses listed in prospectus.</span></article></div></div><aside class="school-profile-side"><span>OTC reading</span><strong>適合誰？</strong><p>適合希望避開大城市、重視寄宿管理、英語沉浸、戶外教育、體育/農業/藝術資源，以及 Queensland 升學路線的家庭。</p><a href="mailto:office@overseasuk.com?subject=Free%20RGS%20Family%20Screening">免費家庭初篩</a></aside></div></section>
+    ${schoolLocationMap({ title: "RGS anchors the Central Queensland boarding-school route.", note: "The map places Rockhampton in relation to Brisbane and the Queensland coast, helping families see why this is a regional boarding route rather than a metropolitan day-school option.", ctaHref: "mailto:office@overseasuk.com?subject=RGS%20boarding%20route%20screening", ctaLabel: "Ask OTC to review this boarding route", pins: [{ label: "Rockhampton", note: "RGS", x: 78, y: 45 }] })}
+
     <section class="band compact-band"><div class="school-herald-strip"><article><b>1881</b><span>established grammar school</span></article><article><b>1,400+</b><span>students across school</span></article><article><b>350</b><span>approx. boarders</span></article><article><b>36</b><span>sports and activities</span></article><article><b>7.5ha</b><span>main campus and gardens</span></article></div></section>
 
     <section class="band"><div class="school-china-panel"><div><span>China Family Lens</span><strong>RGS 的核心不是「城市便利」，而是寄宿制、英語環境和澳洲本地社群。</strong><p>對中國學生來說，Rockhampton 的價值在於遠離大城市高密度華人社交圈，學生更容易進入澳洲本地同齡人生活。Prospectus 反覆強調 RGS boarders、local community、low foreign student concentration、Australian culture 和 English language ability，這正是很多中學生真正需要的語言與性格成長環境。</p></div><div class="school-highlight-grid"><article><b>寄宿管理</b><p>Years 7-12 可住宿，live-in supervisors 24 小時在場，男生和女生分樓居住，Year 12 可安排更適合備考的個人空間。</p></article><article><b>大學路線</b><p>Prospectus 提及畢業生曾進入 ANU、UQ、Sydney、Melbourne、UNSW 等澳洲核心大學。</p></article><article><b>戶外澳洲</b><p>Ritamada outdoor education、rowing、agriculture、Capricorn Coast、Great Barrier Reef access 讓學生真正體驗澳洲地域教育。</p></article><article><b>性格教育</b><p>學校 motto「Grow in Character and Scholarship」與中國家庭重視的責任、尊重、勤勉、服務和品格教育有天然銜接。</p></article></div></div></section>
@@ -7250,6 +7254,8 @@ const moretonBayCollegesReview = pageShell({
     <section class="page-hero school-profile-hero herald-school-hero"><div class="band"><div class="eyebrow">Brisbane Schools · Review Draft</div><h1>The Moreton Bay Colleges</h1><p>Moreton Bay College · Moreton Bay Boys' College · Brisbane 東區男校/女校路線</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Moreton%20Bay%20Colleges%20Screening">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
     <section class="band compact-band"><div class="school-review-banner"><strong>Draft for school review</strong><p>本頁根據 Moreton Bay Colleges international prospectus 整理，作為中文家庭閱讀版審核稿。正式公開推廣前，需由學校/代表確認課程代碼、住宿安排、入學要求、費用與申請流程。</p></div></section>
     <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">Brisbane Route</div><h2>一組 Brisbane 東區的男校/女校學校組合。</h2><p>The Moreton Bay Colleges comprise Moreton Bay College and Moreton Bay Boys' College. Prospectus materials describe two campuses with premium facilities, a natural environment, international preparation courses, Primary Years Programme, junior/senior secondary studies and school-managed accommodation.</p></div><div class="school-facts"><article><b>Location</b><strong>Brisbane</strong><span>Less than 15km from Brisbane CBD, close to Moreton Bay and the eastern suburbs.</span></article><article><b>Schools</b><strong>MBC / MBBC</strong><span>Moreton Bay College and Moreton Bay Boys' College as a coordinated college route.</span></article><article><b>CRICOS</b><strong>03771K / 03772J</strong><span>Prospectus lists separate CRICOS records for MBC and MBBC.</span></article><article><b>Accommodation</b><strong>School-managed</strong><span>Homestay support, 24-hour support team, meals and transport noted in materials.</span></article></div></div><aside class="school-profile-side"><span>OTC reading</span><strong>適合誰？</strong><p>適合希望選擇 Brisbane 城市生活、男校/女校環境、PYP 小學路線、HSP/PSP 過渡課程和 homestay 管理支持的家庭。</p><a href="mailto:office@overseasuk.com?subject=Free%20Moreton%20Bay%20Colleges%20Screening">免費家庭初篩</a></aside></div></section>
+    ${schoolLocationMap({ title: "Moreton Bay Colleges sit in Brisbane's eastern school corridor.", note: "The map shows the Brisbane / Moreton Bay location so families can connect the boys' and girls' college route with city access, homestay support and Queensland senior pathways.", ctaHref: "mailto:office@overseasuk.com?subject=Moreton%20Bay%20Colleges%20location%20screening", ctaLabel: "Ask OTC to review this Brisbane route", pins: [{ label: "Brisbane", note: "MBC / MBBC", x: 81, y: 58 }] })}
+
     <section class="band compact-band"><div class="school-herald-strip"><article><b>1901</b><span>MBC founded</span></article><article><b>15km</b><span>from Brisbane CBD</span></article><article><b>PSP/HSP</b><span>20-week preparation courses</span></article><article><b>PYP</b><span>IB Primary Years Programme</span></article><article><b>2 schools</b><span>girls' and boys' college route</span></article></div></section>
 
     <section class="band"><div class="school-china-panel"><div><span>China Family Lens</span><strong>Moreton Bay 的優勢，是「Brisbane 城市資源 + 男校/女校分流 + 過渡課程」。</strong><p>對中國家庭來說，Moreton Bay Colleges 比較容易放入 Brisbane 升學版圖：城市安全感、距 CBD 較近、可選女校或男校、PSP/HSP 幫學生先適應澳洲學校，再進入 mainstream learning。對英文仍在過渡期、但家庭希望保留 Brisbane 大學與城市資源的學生，這條路線非常清晰。</p></div><div class="school-highlight-grid"><article><b>準備課程</b><p>20-week PSP/HSP 用於銜接 primary 或 high school，強調英文、study skills、critical thinking 和部分 mainstream integration。</p></article><article><b>小學 PYP</b><p>Primary School Prep-Year 6 採 IB PYP 理念，重視 inquiry、whole-child development 和 international-mindedness。</p></article><article><b>高年級出口</b><p>Years 11-12 可銜接 QCE、ATAR 或 VET qualification，對未來大學與職業方向都保留彈性。</p></article><article><b>住宿支持</b><p>Prospectus 描述 school-managed homestay、24-hour support、meals、transport and security checking。</p></article></div></div></section>
@@ -7260,6 +7266,31 @@ const moretonBayCollegesReview = pageShell({
     <section class="band"><div class="school-process"><div class="section-head compact-head"><div class="eyebrow">Application Route</div><h2>Moreton Bay Colleges 申請路線摘要。</h2><p>Prospectus lists a five-step route: apply with passport, academic records and English evidence; eligibility/interview; offer and written agreement; visa with CoE/CAAW; pre-arrival including homestay, airport transfer and uniform fitting.</p></div><ol class="school-steps"><li><strong>Student intake</strong><span>確認男校/女校、年級、英文程度、PSP/HSP 是否需要。</span></li><li><strong>Documents</strong><span>護照、近兩年成績單、英文能力證明、subject selection 如適用。</span></li><li><strong>Interview route</strong><span>由學校安排 Principal interview，確認 academic/co-curricular interests。</span></li><li><strong>Offer and CoE</strong><span>以學校 Provisional Letter of Offer、Written Agreement、CoE/CAAW 為準。</span></li></ol></div></section>
   `
 });
+
+function schoolLocationMap(map) {
+  const pins = map.pins.map((pin) => `
+    <span class="school-map-pin" style="--x:${pin.x}%;--y:${pin.y}%;">
+      <i></i><b>${pin.label}</b><small>${pin.note}</small>
+    </span>
+  `).join("");
+
+  return `
+    <section class="band compact-band">
+      <div class="school-location-map">
+        <div class="school-location-copy">
+          <span>Australia Location Map</span>
+          <strong>${map.title}</strong>
+          <p>${map.note}</p>
+          <a href="${map.ctaHref}">${map.ctaLabel}</a>
+        </div>
+        <div class="school-map-board" aria-label="${map.title}">
+          <img src="/assets/australia-academic-map-soft.svg?v=school-location-20260523" alt="Australia education location map">
+          ${pins}
+        </div>
+      </div>
+    </section>
+  `;
+}
 
 function studyNswSchoolReviewPage(school) {
   return pageShell({
@@ -7275,6 +7306,8 @@ function studyNswSchoolReviewPage(school) {
       <section class="band compact-band"><div class="school-review-banner"><strong>Draft for briefing review</strong><p>This page is prepared by Overseas Tutorial Centre from Study NSW / Greater China training email materials and public-facing school briefing notes. It is a school-profile review draft for Chinese families, not a statement of formal appointment or confirmed agency status.</p><p>本頁根據 Study NSW / Greater China 培訓郵件與公開學校介紹線索整理，供學校、項目方或代表審核；正式推廣前需確認課程、費用、申請、住宿及聯絡表述。</p></div></section>
 
       <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">${school.eyebrow}</div><h2>${school.headline}</h2><p>${school.intro}</p></div><div class="school-facts">${school.facts.map((fact) => `<article><b>${fact[0]}</b><strong>${fact[1]}</strong><span>${fact[2]}</span></article>`).join("")}</div></div><aside class="school-profile-side"><span>OTC reading</span><strong>${school.fitTitle}</strong><p>${school.fit}</p><a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(`Free ${school.name} screening`)}">免費家庭初篩</a></aside></div></section>
+
+      ${schoolLocationMap(school.locationMap)}
 
       <section class="band compact-band"><div class="school-herald-strip">${school.stats.map((stat) => `<article><b>${stat[0]}</b><span>${stat[1]}</span></article>`).join("")}</div></section>
 
@@ -7305,6 +7338,13 @@ const plcPathwaysReview = studyNswSchoolReviewPage({
     ["Contact route", "Programme team review required", "Latest school list and application pathway should be confirmed with the programme owner."],
     ["OTC use", "Family pre-screening", "Student age, grade, English level and school-type preference can be organised before referral."]
   ],
+  locationMap: {
+    title: "PLC Pathways is mapped as a NSW school-pathway network rather than one campus.",
+    note: "The location marker sits across the Sydney / NSW route because the item is a pathway and partner-school review layer. Confirmed school lists and application channels stay with the programme owner before public promotion.",
+    ctaHref: "mailto:office@overseasuk.com?subject=PLC%20Pathways%20NSW%20route%20screening",
+    ctaLabel: "Ask OTC to review this NSW route",
+    pins: [{ label: "NSW route", note: "PLC Pathways", x: 77, y: 72 }]
+  },
   fitTitle: "適合哪些家庭先看？",
   fit: "適合還未鎖定單一學校、希望先比較 NSW 私校入口、銜接安排、地點與住宿/照護可能性的家庭。",
   stats: [["2025", "Study NSW training record"], ["K-12", "school pathway route"], ["NSW", "private-school selection layer"], ["Agent", "consultation support materials"], ["Review", "school list to confirm"]],
@@ -7357,6 +7397,13 @@ const macarthurAnglicanReview = studyNswSchoolReviewPage({
     ["School type", "Independent co-educational", "Suitable for families seeking a mixed school environment."],
     ["Briefing contact", "Nadine James noted", "Study NSW email references the international student admissions representative in the session."]
   ],
+  locationMap: {
+    title: "Macarthur is marked on the south-west Sydney school route.",
+    note: "This location map helps families understand that the school keeps a Greater Sydney connection while offering a larger campus environment away from the CBD.",
+    ctaHref: "mailto:office@overseasuk.com?subject=Macarthur%20Anglican%20location%20screening",
+    ctaLabel: "Ask OTC to review this Sydney route",
+    pins: [{ label: "South-west Sydney", note: "Macarthur", x: 78, y: 76 }]
+  },
   fitTitle: "適合哪些家庭先看？",
   fit: "適合希望留在 Greater Sydney 生活圈、又不想只看市中心高密度學校的家庭；尤其適合重視大校園、學校社群和長期學習節奏的學生。",
   stats: [["84 acres", "large campus"], ["Sydney", "south-west location"], ["Co-ed", "boys and girls"], ["K-12", "school-route screening"], ["Review", "school confirmation needed"]],
@@ -7392,7 +7439,7 @@ const macarthurAnglicanReview = studyNswSchoolReviewPage({
     ["Document checklist", "準備 school report、passport、English evidence、personal notes and family questions。"],
     ["School-side review", "向學校確認最新申請要求與公開頁措辭。"]
   ],
-  reviewEmail: "office@overseasuk.com"
+  reviewEmail: "international@macarthur.nsw.edu.au"
 });
 
 const illawarraGrammarReview = studyNswSchoolReviewPage({
@@ -7409,6 +7456,13 @@ const illawarraGrammarReview = studyNswSchoolReviewPage({
     ["School type", "Independent co-educational", "Presented as a school profile item in the Study NSW series."],
     ["Status", "Review draft", "Detailed school data should be completed after the training materials or school confirmation are received."]
   ],
+  locationMap: {
+    title: "Illawarra is marked on the Wollongong coastal NSW school route.",
+    note: "The map shows the route south of Sydney, useful for families comparing Sydney, coastal NSW and regional schooling before the full school briefing materials are reviewed.",
+    ctaHref: "mailto:office@overseasuk.com?subject=Illawarra%20Grammar%20location%20screening",
+    ctaLabel: "Ask OTC to review this Wollongong route",
+    pins: [{ label: "Wollongong", note: "TIGS", x: 79, y: 79 }]
+  },
   fitTitle: "適合哪些家庭先看？",
   fit: "適合想看 Sydney 以外新州沿海城市、希望生活節奏更穩定、又希望保持 NSW 大學和城市連接想像的家庭。",
   stats: [["2026", "Study NSW series"], ["10 Jun", "scheduled briefing"], ["Wollongong", "coastal NSW route"], ["Co-ed", "school profile"], ["Draft", "awaiting full materials"]],
@@ -7444,7 +7498,7 @@ const illawarraGrammarReview = studyNswSchoolReviewPage({
     ["Profile completion", "補入 school strengths、entry requirements、support and fee references。"],
     ["School confirmation", "將頁面發給學校或 Study NSW contact 進行公開表述確認。"]
   ],
-  reviewEmail: "Lily.Wu@global.investment.nsw.gov.au"
+  reviewEmail: "enrolments@tigs.nsw.edu.au"
 });
 
 const australiaVetTafePathways = pageShell({

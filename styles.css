@@ -7163,6 +7163,124 @@ h1 {
   margin-top: 14px;
 }
 
+.school-location-map {
+  align-items: stretch;
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.96), rgba(238, 247, 245, 0.94)),
+    #fff;
+  border: 1px solid rgba(31, 94, 82, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 14px 36px rgba(6, 26, 47, 0.06);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(280px, 0.38fr) minmax(0, 1fr);
+  overflow: hidden;
+  padding: clamp(18px, 2.5vw, 28px);
+}
+
+.school-location-copy {
+  align-self: center;
+}
+
+.school-location-copy span {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.school-location-copy strong {
+  color: var(--navy);
+  display: block;
+  font-size: clamp(20px, 2.2vw, 30px);
+  line-height: 1.14;
+  margin-top: 8px;
+}
+
+.school-location-copy p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.72;
+  margin: 12px 0 0;
+}
+
+.school-location-copy a {
+  color: #0f4f47;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+.school-map-board {
+  background:
+    radial-gradient(circle at 78% 58%, rgba(226, 173, 66, 0.16), transparent 18%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.68), rgba(232, 241, 238, 0.82));
+  border: 1px solid rgba(184, 138, 59, 0.24);
+  border-radius: 8px;
+  min-height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.school-map-board img {
+  display: block;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  opacity: 0.82;
+  position: absolute;
+  width: 100%;
+}
+
+.school-map-pin {
+  left: var(--x);
+  position: absolute;
+  top: var(--y);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.school-map-pin i {
+  background: #c23b22;
+  border: 3px solid #fffaf0;
+  border-radius: 999px;
+  box-shadow: 0 0 0 7px rgba(194, 59, 34, 0.14), 0 8px 18px rgba(17, 24, 39, 0.18);
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.school-map-pin b,
+.school-map-pin small {
+  background: rgba(255, 250, 240, 0.92);
+  border: 1px solid rgba(184, 138, 59, 0.32);
+  color: #1f2937;
+  display: block;
+  line-height: 1.2;
+  margin-left: 18px;
+  min-width: 112px;
+  padding: 5px 7px;
+  white-space: nowrap;
+}
+
+.school-map-pin b {
+  font-size: 12px;
+  font-weight: 760;
+  margin-top: -20px;
+}
+
+.school-map-pin small {
+  border-top: 0;
+  color: #6b6358;
+  font-size: 10px;
+  padding-top: 0;
+}
+
 .school-fee-panel {
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(244, 249, 248, 0.95)),
@@ -7414,6 +7532,7 @@ h1 {
   .nsw-school-card-grid,
   .nsw-school-apply-panel,
   .school-profile-grid,
+  .school-location-map,
   .school-facts,
   .school-service-cards,
   .school-steps,
@@ -7430,6 +7549,10 @@ h1 {
 
   .school-fee-table table {
     min-width: 620px;
+  }
+
+  .school-map-board {
+    min-height: 260px;
   }
 }
 
