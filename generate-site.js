@@ -1695,6 +1695,86 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "ucas-offers-conditions-firm-insurance-checklist",
+    title: "UCAS Offers Explained: Conditional vs Unconditional, Firm vs Insurance (A Practical Checklist)",
+    date: "2026-05-23",
+    category: "UK Applications",
+    column: "study",
+    kicker: "UCAS offer types & conditions",
+    author: "OTC Study Hub Editorial",
+    summary: "A compliance-safe, student-friendly guide to reading UCAS offer wording, understanding typical conditions, choosing Firm/Insurance, and keeping evidence organised—without assuming outcomes.",
+    titleZh: "UCAS Offer 怎麼看：Conditional／Unconditional 與 Firm／Insurance（實用核對清單）",
+    summaryZh: "本文用清單方式解釋 UCAS offer 的常見類型與條件：如何讀懂 conditional/unconditional、常見條件有哪些、Firm/Insurance 怎麼選，以及如何整理證明文件與溝通紀錄（不作任何結果保證）。",
+    body: [
+      {
+        heading: "1) Start With the Wording: What Exactly Is the Offer?",
+        paragraphs: [
+          "On UCAS and university communications, focus on the exact offer type and the stated conditions (if any). Avoid assumptions based on what friends received—conditions can differ even within the same course title.",
+          "A conditional offer normally means you must meet specific requirements (for example, final grades, English language scores, portfolio review, or document checks) by a deadline set by the institution.",
+          "An unconditional offer usually indicates no academic conditions remain, but it can still have administrative requirements (for example, identity checks, original documents, or a deposit/payment deadline). Always read the full message."
+        ]
+      },
+      {
+        heading: "2) Typical Conditions (and What to Do if You’re Unsure)",
+        paragraphs: [
+          "Academic conditions: final results, specific subject grades, or overall points. Keep screenshots/PDFs of official result releases and ask your school for a formal transcript if needed.",
+          "English language conditions: IELTS/TOEFL/PTE or an approved alternative. Check the institution’s accepted tests and minimum sub-scores on the official course page; requirements can vary by intake and applicant profile.",
+          "Portfolio/interview conditions: submit exactly what is requested and label files clearly. If a condition is ambiguous (for example, “portfolio acceptable” without detail), ask for clarification in writing and keep the reply."
+        ]
+      },
+      {
+        heading: "3) Firm vs Insurance: A Decision Framework (No Guarantees)",
+        paragraphs: [
+          "Your Firm choice is the one you intend to attend if you meet its conditions. Your Insurance choice is a backup if your Firm conditions are not met.",
+          "A practical approach is to choose an Insurance option with conditions you are more confident you can meet, without treating it as “easier” in a casual sense—check the actual numbers and deadlines.",
+          "Consider logistics: start dates, location, accommodation timing, deposit policies, and whether course structure matches your strengths. If something changes, contact the university/UCAS early rather than waiting."
+        ]
+      },
+      {
+        heading: "4) Evidence Pack: Keep One Folder Ready",
+        paragraphs: [
+          "Create a single folder (cloud + local backup) that includes your offer letters/screenshots, condition list, deadlines, test booking confirmations, results PDFs, passport/ID copies (as appropriate), and email logs.",
+          "If you need to request a change (deferral, module query, updated English score), keep your message factual and attach only the necessary evidence. Avoid over-promising—use wording like “I plan to” or “I am scheduled to”.",
+          "This article is general educational information and not admissions, legal, financial, or immigration advice. Always follow the official UCAS/university instructions for your specific course."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "1）先看「字面」：這份 Offer 到底是什麼？",
+        paragraphs: [
+          "在 UCAS 與院校電郵/系統訊息中，最重要的是 offer 類型與列出的條件（如有）。不要因為同學拿到的條件不同就自行推論——即使課程名稱相同，條件也可能不同。",
+          "Conditional offer 通常表示你需要在指定期限前達到特定要求，例如最終成績、英語成績、作品集審核、或文件核對等。",
+          "Unconditional offer 一般代表學術條件已解除，但仍可能存在行政性要求，例如身分/文件核實、繳付訂金/學費、或提交正本文件等。務必把訊息全文看完。"
+        ]
+      },
+      {
+        heading: "2）常見條件有哪些？不確定時怎麼做？",
+        paragraphs: [
+          "學術條件：最終成績、指定科目分數、或總分/點數。建議保留官方成績發布截圖/下載 PDF，必要時向學校申請正式 transcript。",
+          "英語條件：IELTS/TOEFL/PTE 或院校認可的替代方案。請以院校官方課程頁為準，核對接受的考試類型、總分與單項要求；不同入學季與不同申請人背景可能不同。",
+          "作品集/面試條件：嚴格按要求提交、檔名清晰、版本一致。若條件描述含糊（例如只寫「portfolio acceptable」），建議用書面方式向院校確認細節，並保存回覆。"
+        ]
+      },
+      {
+        heading: "3）Firm 與 Insurance 怎麼選：一個務實的框架（不作保證）",
+        paragraphs: [
+          "Firm 是你在達到條件後想就讀的第一志願；Insurance 是當 Firm 條件未達成時的備用選擇。",
+          "務實做法：Insurance 的條件應在你「較有把握」可達到的範圍內，但不要用「隨便比較容易」的心態判斷——請回到實際數字、科目要求與截止日期。",
+          "同時考慮現實因素：開學時間、地點、住宿安排節奏、訂金政策，以及課程結構是否符合你的強項。若情況有變，盡量提早與院校/UCAS 溝通，不要拖到最後一刻。"
+        ]
+      },
+      {
+        heading: "4）證據整理包：一個資料夾就夠用",
+        paragraphs: [
+          "建立單一資料夾（雲端＋本機備份）：包含 offer 訊息截圖/信件、條件清單與期限、考試報名證明、成績 PDF、護照/身分文件（依需要與合規範圍）、以及往來電郵紀錄。",
+          "若需提出申請（例如 defer、模組查詢、更新英語成績），內容保持事實、附件只放必要證據。避免過度承諾，可用「我計劃／我已安排」等保守表述。",
+          "本文為一般教育資訊，不構成入學、法律、財務或移民建議。請以 UCAS 與院校官方要求為準，並按你的課程與個人情況操作。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "australia-trust-guide",
     title: "How to Find a Lawyer and Set Up a Family Trust in Australia",
     date: "2026-05-22",
@@ -5433,6 +5513,25 @@ const creditAlliance = pageShell({
           `).join("")}
           <div class="credit-map-note">點擊地區名稱展開對應 credit / RPL / progression 前期工作流。</div>
         </div>
+        <script>
+          (() => {
+            const map = document.currentScript.previousElementSibling;
+            if (!map) return;
+            const nodes = Array.from(map.querySelectorAll(".credit-map-node"));
+            nodes.forEach((node) => {
+              node.addEventListener("toggle", () => {
+                if (!node.open) return;
+                nodes.forEach((other) => {
+                  if (other !== node) other.removeAttribute("open");
+                });
+              });
+            });
+            map.addEventListener("click", (event) => {
+              if (event.target.closest(".credit-map-node")) return;
+              nodes.forEach((node) => node.removeAttribute("open"));
+            });
+          })();
+        </script>
       </section>
 
       <section class="credit-compare">

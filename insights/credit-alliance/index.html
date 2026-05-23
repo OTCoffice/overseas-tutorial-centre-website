@@ -236,6 +236,25 @@
 
           <div class="credit-map-note">點擊地區名稱展開對應 credit / RPL / progression 前期工作流。</div>
         </div>
+        <script>
+          (() => {
+            const map = document.currentScript.previousElementSibling;
+            if (!map) return;
+            const nodes = Array.from(map.querySelectorAll(".credit-map-node"));
+            nodes.forEach((node) => {
+              node.addEventListener("toggle", () => {
+                if (!node.open) return;
+                nodes.forEach((other) => {
+                  if (other !== node) other.removeAttribute("open");
+                });
+              });
+            });
+            map.addEventListener("click", (event) => {
+              if (event.target.closest(".credit-map-node")) return;
+              nodes.forEach((node) => node.removeAttribute("open"));
+            });
+          })();
+        </script>
       </section>
 
       <section class="credit-compare">
