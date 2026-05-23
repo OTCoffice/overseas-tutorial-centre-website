@@ -7059,15 +7059,199 @@ h1 {
   margin-top: 14px;
 }
 
+.school-profile-hero {
+  background:
+    linear-gradient(135deg, rgba(246, 242, 234, 0.92), rgba(239, 247, 245, 0.9)),
+    #f8f5ee;
+}
+
+.school-review-banner,
+.school-profile-side,
+.school-fee-panel,
+.school-review-contact {
+  background: #fffaf0;
+  border: 1px solid rgba(184, 138, 59, 0.32);
+  border-radius: 8px;
+  box-shadow: 0 14px 36px rgba(6, 26, 47, 0.06);
+  padding: clamp(18px, 2.4vw, 28px);
+}
+
+.school-review-banner strong,
+.school-profile-side strong,
+.school-review-contact strong {
+  color: var(--navy);
+  display: block;
+  font-size: clamp(20px, 2.4vw, 30px);
+  line-height: 1.15;
+}
+
+.school-review-banner p,
+.school-profile-side p,
+.school-review-contact p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.72;
+  margin: 10px 0 0;
+}
+
+.school-profile-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.34fr);
+}
+
+.school-facts,
+.school-service-cards {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.school-facts article,
+.school-service-cards article {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ded2bf;
+  border-top: 4px solid #2f8b82;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.school-facts b,
+.school-service-cards b,
+.school-profile-side span,
+.school-review-contact span {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.school-facts strong,
+.school-service-cards strong {
+  color: var(--navy);
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 8px;
+}
+
+.school-facts span,
+.school-service-cards p {
+  color: #4b5563;
+  display: block;
+  font-size: 13px;
+  line-height: 1.62;
+  margin-top: 8px;
+}
+
+.school-profile-side a,
+.school-review-contact a {
+  margin-top: 14px;
+}
+
+.school-fee-panel {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(244, 249, 248, 0.95)),
+    #fff;
+}
+
+.school-fee-table {
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.school-fee-table table {
+  border-collapse: collapse;
+  min-width: 760px;
+  width: 100%;
+}
+
+.school-fee-table th,
+.school-fee-table td {
+  border-bottom: 1px solid #e6dccd;
+  color: #364152;
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.school-fee-table th {
+  background: #21170f;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.school-fee-note {
+  color: #6b6358;
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 14px 0 0;
+}
+
+.school-steps {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+}
+
+.school-steps li {
+  background: #fff;
+  border: 1px solid #ded2bf;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.school-steps strong,
+.school-steps span {
+  display: block;
+}
+
+.school-steps strong {
+  color: var(--navy);
+  font-size: 16px;
+}
+
+.school-steps span {
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+.school-review-contact {
+  align-items: center;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
 @media (max-width: 900px) {
   .nsw-schools-briefing,
   .nsw-school-card-grid,
-  .nsw-school-apply-panel {
+  .nsw-school-apply-panel,
+  .school-profile-grid,
+  .school-facts,
+  .school-service-cards,
+  .school-steps,
+  .school-review-contact {
     grid-template-columns: 1fr;
   }
 
   .nsw-school-card-grid article {
     min-height: 0;
+  }
+
+  .school-fee-table table {
+    min-width: 620px;
   }
 }
 
