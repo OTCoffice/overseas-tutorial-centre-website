@@ -11789,3 +11789,458 @@ h1 {
 .footer-legal {
   font-weight: 400;
 }
+
+/* Credit Alliance / 學分聯盟 */
+.credit-alliance-page {
+  background: #f5efe5;
+  color: #182236;
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  margin: 0 auto;
+  width: min(1220px, calc(100% - 44px));
+}
+
+.credit-herald-masthead {
+  align-items: end;
+  border-bottom: 3px double #132a44;
+  border-top: 1px solid #132a44;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 0 16px;
+}
+
+.credit-brand-en {
+  color: #9a7a45;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.credit-brand-zh {
+  color: #061a2f;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.1;
+  margin-top: 4px;
+}
+
+.credit-issue {
+  text-align: right;
+}
+
+.credit-issue span,
+.credit-issue em {
+  color: #826b45;
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.credit-issue strong {
+  color: #061a2f;
+  display: block;
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+.credit-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.9fr);
+  gap: 28px;
+  padding: 42px 0 34px;
+}
+
+.credit-hero h1 {
+  border-left: 5px solid #b88a3b;
+  color: #061a2f;
+  font-size: clamp(46px, 7vw, 92px);
+  line-height: 0.98;
+  padding-left: 20px;
+}
+
+.credit-hero p {
+  color: #4c596b;
+  font-size: 17px;
+  line-height: 1.9;
+  margin: 18px 0 0 25px;
+  max-width: 58ch;
+}
+
+.credit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 0 25px;
+}
+
+.credit-stat-strip {
+  background: #061a2f;
+  border-radius: 8px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-self: stretch;
+}
+
+.credit-stat-strip div {
+  border-right: 1px solid rgba(208, 174, 103, 0.35);
+  padding: 20px 14px;
+}
+
+.credit-stat-strip div:last-child {
+  border-right: 0;
+}
+
+.credit-stat-strip strong {
+  color: #d0ae67;
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.credit-stat-strip span {
+  color: rgba(255, 255, 255, 0.78);
+  display: block;
+  font-size: 12px;
+  line-height: 1.45;
+  margin-top: 10px;
+}
+
+.credit-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 26px;
+}
+
+.credit-main,
+.credit-side {
+  display: grid;
+  gap: 18px;
+}
+
+.credit-section,
+.credit-widget,
+.credit-tabs,
+.credit-compare,
+.credit-share {
+  background: #fffdf8;
+  border: 1px solid #d8cdbd;
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.credit-section-label {
+  color: #b88a3b;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.credit-section h2,
+.credit-tabs h2,
+.credit-compare h2 {
+  border-left: 4px solid #b88a3b;
+  color: #061a2f;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.18;
+  margin-top: 6px;
+  padding-left: 16px;
+}
+
+.credit-section p,
+.credit-tabs .section-head p {
+  color: #4c596b;
+  font-size: 14px;
+  line-height: 1.95;
+  margin: 12px 0 0 20px;
+}
+
+.credit-three-layer,
+.credit-profile-grid,
+.credit-route-cards {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.credit-three-layer div,
+.credit-profile-grid div,
+.credit-route-cards article {
+  background: #f8f1e7;
+  border: 1px solid #ded3c4;
+  border-left: 4px solid #b88a3b;
+  padding: 16px;
+}
+
+.credit-three-layer b,
+.credit-route-cards b {
+  color: #9a7a45;
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.credit-three-layer strong,
+.credit-profile-grid strong,
+.credit-route-cards strong {
+  color: #061a2f;
+  display: block;
+  font-size: 17px;
+  line-height: 1.35;
+  margin-top: 6px;
+}
+
+.credit-three-layer span,
+.credit-profile-grid span,
+.credit-route-cards p {
+  color: #5f6975;
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+
+.credit-table {
+  border: 1px solid #d8cdbd;
+  display: grid;
+  margin-top: 18px;
+}
+
+.credit-row {
+  display: grid;
+  grid-template-columns: 0.55fr 1.2fr 1.1fr;
+}
+
+.credit-table.wide .credit-row {
+  grid-template-columns: 0.5fr 1.2fr 0.65fr 1fr;
+}
+
+.credit-row span {
+  border-bottom: 1px solid #d8cdbd;
+  border-right: 1px solid #d8cdbd;
+  color: #4c596b;
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 12px;
+}
+
+.credit-row span:last-child {
+  border-right: 0;
+}
+
+.credit-row:last-child span {
+  border-bottom: 0;
+}
+
+.credit-row.head span {
+  background: #061a2f;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-weight: 700;
+}
+
+.credit-success-note {
+  background: #f9f4ec;
+}
+
+.credit-fee-bars {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.credit-fee-bars div {
+  align-items: center;
+  background: linear-gradient(90deg, rgba(184, 138, 59, 0.22), rgba(184, 138, 59, 0.04));
+  border: 1px solid #d8cdbd;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.credit-fee-bars b {
+  color: #061a2f;
+}
+
+.credit-widget.dark {
+  background: #061a2f;
+  color: #fff;
+}
+
+.credit-widget strong {
+  color: inherit;
+  display: block;
+  font-size: 20px;
+}
+
+.credit-widget span {
+  color: #d0ae67;
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.credit-widget p,
+.credit-widget li {
+  color: #5f6975;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.credit-widget.dark p {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.credit-widget ul,
+.credit-widget ol {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.credit-tabs,
+.credit-compare,
+.credit-share {
+  margin-top: 26px;
+}
+
+.credit-tabs input {
+  display: none;
+}
+
+.credit-tab-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.credit-tab-labels label {
+  border: 1px solid #b88a3b;
+  border-radius: 999px;
+  color: #061a2f;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  padding: 7px 14px;
+}
+
+.credit-tab-panel {
+  display: none;
+}
+
+#credit-tab-uk:checked ~ .panel-1,
+#credit-tab-au:checked ~ .panel-2,
+#credit-tab-us:checked ~ .panel-3,
+#credit-tab-ca:checked ~ .panel-4,
+#credit-tab-nz:checked ~ .panel-5 {
+  display: block;
+}
+
+.credit-tab-panel h3 {
+  color: #061a2f;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.credit-flow {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.credit-flow div {
+  background: #f8f1e7;
+  border: 1px solid #ded3c4;
+  min-height: 92px;
+  padding: 12px;
+  position: relative;
+}
+
+.credit-flow b {
+  color: #b88a3b;
+  display: block;
+  font-size: 12px;
+}
+
+.credit-flow span {
+  color: #061a2f;
+  display: block;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 12px;
+}
+
+.credit-share {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.credit-share a {
+  border: 1px solid #b88a3b;
+  border-radius: 999px;
+  color: #061a2f;
+  padding: 7px 13px;
+}
+
+@media (max-width: 920px) {
+  .credit-hero,
+  .credit-layout,
+  .credit-three-layer,
+  .credit-profile-grid,
+  .credit-route-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .credit-stat-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .credit-flow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .credit-row,
+  .credit-table.wide .credit-row {
+    grid-template-columns: 1fr;
+  }
+
+  .credit-row span,
+  .credit-row span:last-child {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .credit-alliance-page {
+    width: min(100% - 28px, 1220px);
+  }
+
+  .credit-herald-masthead {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .credit-issue {
+    text-align: left;
+  }
+
+  .credit-hero p,
+  .credit-actions,
+  .credit-section p,
+  .credit-tabs .section-head p {
+    margin-left: 0;
+  }
+}
