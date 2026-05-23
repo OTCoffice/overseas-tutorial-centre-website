@@ -7122,7 +7122,7 @@ const australiaOfficePresenceZh = pageShell({
     </section>
 
     <section class="band">
-      <div class="section-head compact-head"><div class="eyebrow">Evidence Roadmap</div><h2>澳洲路線發展過程中應收集的證據。</h2></div>
+      <div class="section-head compact-head"><div class="eyebrow">Development Record</div><h2>澳洲路線發展檔案與運作支撐。</h2></div>
       <div class="consulting-levels australia-evidence-cards"><article><strong>辦公室與運作</strong><p>地址證明、本地供應商通信、會議記錄、郵箱日誌與澳洲活動 chronology。</p><span>Operational evidence.</span></article><article><strong>教育代理與院校連接</strong><p>Study NSW 培訓郵件、院校更新、申請 portal 記錄、agent-channel 通訊及學生/申請報告。</p><span>Market evidence.</span></article><article><strong>資格路線出版物</strong><p>公開頁面說明 OTHM-to-Australia qualification interpretation、credit/RPL readiness、pathway screening 及職業資格規劃。</p><span>Public capability evidence.</span></article><article><strong>學生案例記錄</strong><p>學生諮詢、院校篩查、課程 shortlists、文件清單、offer-condition tracking 及家庭溝通記錄。</p><span>Service evidence.</span></article><article><strong>專業轉介記錄</strong><p>轉介郵件、顧問資料、服務範圍 notes 及 OTC 協調與 regulated advice 的邊界。</p><span>Compliance evidence.</span></article></div>
       <div style="height:24px"></div><div class="notice advice-signpost"><strong>合規邊界</strong><p>OTC 提供教育協調、雙語文件、市場進入支持及行政整理；不提供澳洲移民、法律、稅務、金融或受監管教育合規建議。相關事項應由合資格專業人士處理。</p></div>
     </section>
