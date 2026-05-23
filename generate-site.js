@@ -1761,6 +1761,155 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "east-asian-women-australia-migration-whv-citizenship",
+    title: "East Asian Women in Australia: A Ten-Year Migration Road from WHV to Citizenship",
+    date: "2026-05-23",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "澳洲移民個案札記",
+    author: "留學導報編輯部",
+    summary: "A reflective Chinese-language feature on an East Asian woman's long migration journey in Australia, from a Working Holiday Visa to skilled migration, permanent residence and citizenship, with cautious 2026 pathway notes for readers.",
+    titleZh: "東亞女性在澳洲的移民之路：從 WHV 到入籍的十年堅持",
+    summaryZh: "從打工度假到永居，再到澳洲公民身份，一位東亞女性用近十年時間走完了漫長而不穩定的移民路。本文以個人故事為引，整理 2026 年澳洲技術移民常見方向與準備提醒。",
+    body: [
+      {
+        heading: "1) A Ten-Year Journey from Working Holiday to Citizenship",
+        paragraphs: [
+          "This article is a reflective migration story based on a friend's experience of entering Australia on a Working Holiday Visa before the pandemic and later becoming an Australian citizen.",
+          "Her pathway involved work experience, repeated skills assessments, English testing, state nomination attempts, permanent residence and finally citizenship. It should be read as an encouragement story, not as a template that guarantees the same result for others."
+        ]
+      },
+      {
+        heading: "2) Key Steps in the Migration File",
+        paragraphs: [
+          "The practical milestones included entering Australia on a Working Holiday Visa, building local experience, completing skills assessments as occupation lists and requirements changed, achieving strong PTE Academic results, gaining CCL points, and later pursuing state nomination and permanent residence.",
+          "The most important lesson is not that one pathway is always correct, but that applicants must keep evidence, timing, occupation choice, English scores and professional advice under constant review."
+        ]
+      },
+      {
+        heading: "3) Australia Skilled Migration Notes for 2026",
+        paragraphs: [
+          "For 2026 readers, Australia's skilled migration system remains highly dependent on occupation lists, skills assessments, English level, state or territory nomination settings, invitation rounds and document quality.",
+          "Health, aged care, nursing, early childhood education, community services, social work, engineering and some IT-related fields may appear in different state or skilled migration contexts, but demand and invitation patterns can change quickly.",
+          "Readers should check SkillSelect, the Department of Home Affairs visa pages, the relevant state or territory nomination pages, and the assessing authority for their exact occupation before making study, work or visa decisions."
+        ]
+      },
+      {
+        heading: "4) Common Visa Routes to Understand",
+        paragraphs: [
+          "Subclass 189 is a points-tested skilled independent permanent visa for invited applicants with an eligible occupation, suitable skills assessment and sufficient points.",
+          "Subclass 190 is a skilled nominated permanent visa. A state or territory nomination is required, and each state or territory may set its own nomination criteria.",
+          "Subclass 491 is a provisional regional skilled visa. Some applicants later look toward subclass 191 permanent residence if they meet the relevant residence, work and income-document requirements. Employer-sponsored routes such as 482 to 186 may also be relevant in some cases.",
+          "These routes are not interchangeable. A student's course choice, employment history, occupation assessment, English score and location can all affect which options are realistic."
+        ]
+      },
+      {
+        heading: "5) A Note for Women Migrating Alone",
+        paragraphs: [
+          "Many East Asian women arrive in Australia without family support, then face language pressure, workplace adjustment, cultural distance, financial risk and policy uncertainty at the same time.",
+          "The strength in this story is not romanticised suffering. It is the quiet discipline of continuing to gather evidence, retake exams, change direction when necessary, ask better questions and keep going when the system changes."
+        ]
+      },
+      {
+        heading: "6) Compliance Boundary",
+        paragraphs: [
+          "This article is general public information and personal reflection. It is not immigration advice, legal advice or a promise of eligibility.",
+          "Anyone making visa or citizenship decisions should check the latest Australian Government information and, where needed, consult a registered migration agent, Australian legal practitioner or other appropriately qualified professional."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、從 WHV 到入籍，近十年的路不是一句勵志可以概括",
+        paragraphs: [
+          "昨天，我去參加了一位朋友的澳洲入籍儀式。看著她從當年背著包來澳洲打工度假的女孩，一步步走到今天，心裡其實很難只用「恭喜」兩個字概括。",
+          "她是疫情前持 Working Holiday Visa（WHV，打工度假簽證）來到澳洲的。從最初的 backpacker，到後來取得永居、完成入籍程序，前後花了將近十年。這一路裡，有疫情封鎖，有 189 獨立技術移民邀請節奏變化，有職業清單大洗牌，也有中介失誤、重新轉向和自己補材料的漫長消耗。",
+          "這篇文章不是要把她的路包裝成人人可複製的模板，而是想記下：一個東亞女性在異國政策縫隙裡，把自己一次次重新組裝起來，最後真的走到了那一天。"
+        ]
+      },
+      {
+        heading: "二、她的移民歷程重點回顧",
+        paragraphs: [
+          "起點是 WHV 入境。她一邊工作，一邊累積澳洲本地經驗，慢慢理解這個國家的職場規則、生活節奏和簽證系統。",
+          "技能評估做了不止一次。因為職業清單、評估標準和市場方向一直變，她前後準備過不同方向的 Skills Assessment，每一次都意味著重新整理學歷、工作證明、職責描述和材料邏輯。",
+          "英語也不是輕鬆過關。她最後考到 PTE Academic 各項 8 分水準，並拿下 CCL（社區語言加分），才把分數結構推到更有競爭力的位置。",
+          "最艱難的一段，是好不容易等到 190 州擔保邀請，卻因為當時中介處理疏忽導致申請被拒。後來她沒有停在抱怨裡，而是換職業方向，自己重新準備材料，再次等待機會。",
+          "最終，她從臨時簽證一路走到 PR，再到 2025 年前後完成入籍相關程序。這個結果背後，不是運氣一句話，而是十年裡一次次沒有放棄。"
+        ]
+      },
+      {
+        heading: "三、為什麼特別想寫東亞女性",
+        paragraphs: [
+          "很多東亞女性來澳洲時，其實沒有太多後盾。家人不一定理解，朋友分散在不同城市，語言和文化要自己適應，租房、工作、考試、簽證、銀行、稅務、醫療，全部都要一點點學會。",
+          "更難的是，她們常常被要求既要溫柔、懂事、穩定，又要足夠堅硬，能承受拒簽、失業、政策變動、孤獨感和職場歧視。這種韌性不是口號，而是每天早上醒來還要繼續處理文件、繼續上班、繼續備考的能力。",
+          "所以我聽她講這段經歷時，既心疼也佩服。她不是一夜逆襲，她只是一直沒有把自己交給失望。"
+        ]
+      },
+      {
+        heading: "四、2026 年澳洲移民現況：先看方向，再看個案",
+        paragraphs: [
+          "截至 2026 年，澳洲技術移民仍然高度依賴職業清單、技能評估、英語成績、EOI 分數、州或領地提名政策、邀請輪次和材料質量。任何單一網帖都不能替代官方頁面和個案判斷。",
+          "從近期市場觀察看，醫療、健康、護理、老年護理、幼教、社工、社區服務等方向仍然受到不少申請人關注；工程和 IT 也仍有機會，但競爭和職業細分要求更需要仔細核對。",
+          "如果正在準備，建議固定查看 SkillSelect、澳洲內政部簽證頁、各州/領地 nomination 頁面，以及自己職業對應的 assessing authority。不要只聽「現在什麼最熱門」，而要看你自己的學歷、工作、英文、地區和時間線是否真的對得上。"
+        ]
+      },
+      {
+        heading: "五、幾條常見簽證路線，應該這樣理解",
+        paragraphs: [
+          "189 獨立技術移民是 points-tested permanent visa，核心在於受邀、合格職業、有效技能評估和分數競爭。它的吸引力很大，但不是每個職業、每個分數段都有穩定機會。",
+          "190 州擔保技術移民是 permanent visa，需要州或領地 nomination。它常被很多申請人視為主流路線之一，但各州的職業清單、居住/工作要求、優先行業和邀請策略會變，需要逐州核對。",
+          "491 偏遠地區技術簽證是 provisional regional visa。部分申請人之後會再看 191 永居路線，但前提包括持有合資格簽證、滿足相關居住與合規要求，以及提供所需稅務/收入文件等。",
+          "雇主擔保路線，例如 482 轉 186，對某些職業和雇主條件合適的人也可能重要。但雇主資質、職位真實性、工資、市場測試和後續轉永居要求，都不能靠一句「公司願意擔保」就跳過。"
+        ]
+      },
+      {
+        heading: "六、正在準備的人，真正要把關的是這幾件事",
+        paragraphs: [
+          "第一，技能評估。不同職業由不同評估機構負責，對學歷、工作年限、職責、英文、註冊資格和文件格式要求差異很大。不要等到 EOI 前才發現職業評估不成立。",
+          "第二，英語和加分。PTE、IELTS、CCL、澳洲學習、偏遠地區、配偶分、Professional Year 等，都要回到官方 points table 和個人條件核對。能加分不等於一定該加，時間成本也要算進去。",
+          "第三，EOI 和州擔保材料。EOI 不是許願池，所有聲明都應能被文件支持。州擔保階段尤其要嚴謹，因為小錯可能直接影響邀請或申請結果。",
+          "第四，中介或代理。重要步驟不要完全放手不看。若付費尋求移民協助，應核對對方是否為澳洲註冊移民代理（MARA / OMARA）或合資格澳洲法律從業者，並保留書面建議和提交記錄。"
+        ]
+      },
+      {
+        heading: "七、給還在路上的你",
+        paragraphs: [
+          "移民不是一條平坦的路。它有時像一場長期耐力測試：你以為快到了，政策又變；你以為材料齊了，又要補新證明；你以為這個職業安全，清單又開始調整。",
+          "但我朋友的故事提醒我，很多事情不是靠一次決定完成，而是靠很多次小小的、不放棄的動作累積起來。考一次不夠就再考，職業方向不行就重看，材料出錯就重整，孤獨爆棚也先把今天過完。",
+          "如果你正在澳洲、加拿大、紐西蘭或其他國家的移民路上，希望這篇文章能給你一點力氣。不是所有等待都有結果，但清醒、持續、願意調整的人，總比原地耗著的人更接近下一扇門。"
+        ]
+      },
+      {
+        heading: "八、最後想對她說",
+        paragraphs: [
+          "恭喜你。從那個背著包來打工度假的女孩，到今天站在入籍儀式裡，這十年真的很不容易。",
+          "也謝謝你讓我再次看見：東亞女性在異國生活裡的韌性，不只是能吃苦，而是能在不確定裡保留判斷、體面和向前走的能力。這很珍貴。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["WHV", "Working Holiday Visa", "適合年輕人短期在澳洲旅行、工作與體驗生活，但後續路線需重新規劃。", "start"],
+      ["Skills Assessment", "職業技能評估", "技術移民核心材料之一，須依職業與評估機構要求準備。", "evidence"],
+      ["EOI / Nomination", "意向書與州擔保", "分數、職業、州政策、邀請輪次和材料一致性都會影響結果。", "selection"],
+      ["Citizenship", "入籍與身份轉換", "永居後仍需滿足居住、品格與其他入籍要求，時間線要逐項核對。", "final"]
+    ],
+    resources: [
+      ["SkillSelect", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect"],
+      ["Skilled Independent visa (subclass 189)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-tested"],
+      ["Skilled Nominated visa (subclass 190)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-nominated-190"],
+      ["Skilled Work Regional visa (subclass 491)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-work-regional-provisional-491"],
+      ["Permanent Residence Skilled Regional visa (subclass 191)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-191/regional-provisional"],
+      ["Using a migration agent", "https://immi.homeaffairs.gov.au/help-support/who-can-help-with-your-application/using-a-migration-agent"],
+      ["Australian citizenship residence calculator", "https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator"]
+    ],
+    relatedReadings: [
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "australia-agent-training-map-2026",
+      "study-nt-agent-training-certificate-otc-australia-meaning",
+      "australia-trust-guide"
+    ]
+  },
+  {
     slug: "otc-free-study-abroad-application-agent-service",
     title: "OTC Free Study-Abroad Application Support: Canada, UK, Australia, New Zealand, US and Ireland",
     date: "2026-05-23",
@@ -3277,6 +3426,7 @@ const zhReviewCategoryToColumn = {
   "University Applications": "study",
   "UK Applications": "study",
   "Australia Pathways": "study",
+  "Australia Migration": "settlement",
   "Pathway Planning": "study",
   "Wealth Planning": "wealth"
 };
@@ -3311,6 +3461,9 @@ function zhReviewTitleHtml(title) {
     "Marketing / Media",
     "Foundation",
     "Pathway",
+    "WHV",
+    "入籍",
+    "技術移民",
     "家庭信託",
     "文件準備清單",
     "推薦信",
@@ -3365,6 +3518,62 @@ function zhReviewListContent() {
         </article>
       `).join("")}
     </div>
+  `;
+}
+
+function zhArticleRelatedReadings(article) {
+  if (!article.relatedReadings || !article.relatedReadings.length) return "";
+  const relatedArticles = article.relatedReadings
+    .map((slug) => insightsArticles.find((candidate) => candidate.slug === slug))
+    .filter(Boolean);
+  if (!relatedArticles.length) return "";
+  return `
+      <section class="zh-herald-infographic zh-herald-related-section">
+        <h2>相關閱讀</h2>
+        <p>Related Reading · 延伸閱讀與實用參考</p>
+        <div class="zh-herald-related-grid">
+          ${relatedArticles.map((related, index) => {
+            const column = zhReviewColumnForArticle(related);
+            return `
+              <a class="zh-herald-related-card" href="/zh/insights/${related.slug}/">
+                <span>${String(index + 1).padStart(2, "0")} · ${column.name}</span>
+                <strong>${related.titleZh || related.title}</strong>
+                <em>${related.summaryZh || related.summary}</em>
+              </a>
+            `;
+          }).join("")}
+        </div>
+      </section>
+  `;
+}
+
+function zhArticleRoadmap(article, checklist) {
+  const related = zhArticleRelatedReadings(article);
+  if (related) return related;
+  return `
+      <section class="zh-herald-infographic">
+        <h2>導報閱讀路線圖</h2>
+        <p>From Briefing to Action · 從資訊整理到申請行動</p>
+        <div class="zh-herald-roadmap">
+          ${checklist.slice(0, 6).map((section, index) => `
+            <div class="zh-herald-roadmap-step">
+              <div>${index + 1}</div>
+              <strong>${section.heading}</strong>
+              <span>${index === 0 ? "理解背景" : index === checklist.length - 1 ? "完成核對" : "整理材料"}</span>
+            </div>
+          `).join("")}
+        </div>
+        <div class="zh-herald-reference-grid">
+          <article>
+            <strong>中文正文</strong>
+            <span>面向學生與家長，先讀重點、流程與風險提示。</span>
+          </article>
+          <article>
+            <strong>English Reference</strong>
+            <span>保留英文原文對照，方便對外溝通與文件準備。</span>
+          </article>
+        </div>
+      </section>
   `;
 }
 
@@ -3516,29 +3725,7 @@ function zhArticleMagazineBody(article) {
           ` : ""}
         </aside>
       </div>
-      <section class="zh-herald-infographic">
-        <h2>導報閱讀路線圖</h2>
-        <p>From Briefing to Action · 從資訊整理到申請行動</p>
-        <div class="zh-herald-roadmap">
-          ${checklist.slice(0, 6).map((section, index) => `
-            <div class="zh-herald-roadmap-step">
-              <div>${index + 1}</div>
-              <strong>${section.heading}</strong>
-              <span>${index === 0 ? "理解背景" : index === checklist.length - 1 ? "完成核對" : "整理材料"}</span>
-            </div>
-          `).join("")}
-        </div>
-        <div class="zh-herald-reference-grid">
-          <article>
-            <strong>中文正文</strong>
-            <span>面向學生與家長，先讀重點、流程與風險提示。</span>
-          </article>
-          <article>
-            <strong>English Reference</strong>
-            <span>保留英文原文對照，方便對外溝通與文件準備。</span>
-          </article>
-        </div>
-      </section>
+      ${zhArticleRoadmap(article, checklist)}
       ${shareLinksHerald(article, "zh")}
       <footer class="zh-herald-footer">
         <strong>留學導報</strong>
