@@ -5887,6 +5887,49 @@ h1 {
   padding-top: 12px;
 }
 
+.australia-china-qualification-table {
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.china-qualification-row {
+  align-items: stretch;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.86);
+  display: grid;
+  grid-template-columns: minmax(150px, 0.18fr) minmax(170px, 0.22fr) minmax(260px, 0.34fr) minmax(220px, 0.26fr);
+  min-width: 900px;
+}
+
+.china-qualification-row:last-child {
+  border-bottom: 0;
+}
+
+.china-qualification-row span {
+  border-right: 1px solid rgba(222, 211, 196, 0.72);
+  color: #344258;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 10px 12px;
+}
+
+.china-qualification-row span:last-child {
+  border-right: 0;
+}
+
+.china-qualification-head {
+  background: #f7f2ea;
+}
+
+.china-qualification-head span {
+  color: var(--navy);
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .australia-comparison-band {
   background: var(--ink);
   color: #fff;
