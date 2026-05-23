@@ -9087,6 +9087,39 @@ h1 {
   letter-spacing: 0.08em;
 }
 
+.herald-home-link {
+  align-items: center;
+  background: #fffaf2;
+  border-bottom: 1px solid #d8c8ab;
+  color: #21170f;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 8px 48px;
+  text-decoration: none;
+}
+
+.herald-home-link span {
+  color: #8b7560;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.herald-home-link strong {
+  border-left: 3px solid #b5272d;
+  color: #b5272d;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+.herald-home-link:hover strong {
+  color: #1e6b6b;
+}
+
 .zh-herald-hero {
   padding: 44px 48px 32px;
   border-bottom: 2px solid #c8b89a;
@@ -10237,6 +10270,13 @@ h1 {
 
   .oeh-section-bar {
     padding: 6px 20px;
+  }
+
+  .herald-home-link {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    padding: 9px 20px;
   }
 
   .oeh-section-bar div {

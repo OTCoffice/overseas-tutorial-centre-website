@@ -63,7 +63,7 @@ function nav(current = "", locale = "en") {
             <a href="/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
             <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>課程</a>
             <a href="/publishing/" ${["apps", "publishing"].includes(current) ? 'aria-current="page"' : ""}>出版</a>
-            <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
+            <a href="/zh/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
             <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>關於 OTC</a>
             <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>搜索</a>
             <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
