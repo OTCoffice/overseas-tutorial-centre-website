@@ -6060,16 +6060,32 @@ h1 {
 
 .australia-insight-grid {
   display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  grid-template-columns: 1fr;
 }
 
 .australia-insight-card {
   background: #fff;
   border: 1px solid rgba(222, 211, 196, 0.95);
-  border-radius: 8px;
-  min-height: 220px;
-  padding: 18px;
+  border-bottom: 0;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(190px, 0.28fr) minmax(0, 1fr);
+  min-height: auto;
+  padding: 12px 14px;
+}
+
+.australia-insight-card:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+.australia-insight-card:last-child {
+  border-bottom: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 0 0 8px 8px;
+}
+
+.australia-insight-card:hover {
+  background: #fffaf2;
 }
 
 .australia-insight-card em {
@@ -6079,6 +6095,25 @@ h1 {
   font-style: normal;
   line-height: 1.55;
   margin-top: 12px;
+}
+
+.australia-insight-card.compact span {
+  align-self: center;
+  margin: 0;
+}
+
+.australia-insight-card.compact strong {
+  align-self: center;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+@media (max-width: 700px) {
+  .australia-insight-card {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
 }
 
 .australia-contact-block {

@@ -8563,10 +8563,9 @@ function australiaStudyInsights() {
     .concat(fallbackArticles)
     .slice(0, 5)
     .map((article) => `
-      <a class="australia-insight-card" href="/zh/insights/${article.slug}/">
+      <a class="australia-insight-card compact" href="/zh/insights/${article.slug}/">
         <span>${article.date} · ${article.kicker || article.category}</span>
         <strong>${article.titleZh || article.title}</strong>
-        <em>${article.summaryZh || article.summary}</em>
       </a>
     `).join("");
 }
