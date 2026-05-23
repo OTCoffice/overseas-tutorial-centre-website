@@ -9,10 +9,26 @@
   <text x="1122" y="110" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
   <rect x="78" y="176" width="304" height="48" fill="#b5272d"/>
   <text x="104" y="207" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="2">留學導報 · 深度指南</text>
+  <text x="426" y="195" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14" font-weight="800">ISSN-OTC · PUBLIC BRIEFING · FOR STUDENTS, FAMILIES & PARTNERS</text>
+  <text x="426" y="219" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2">留學升學  /  政策解讀  /  文件把關  /  風險提示</text>
   <line x1="78" y1="246" x2="456" y2="246" stroke="#c8952a" stroke-width="4"/>
-  <text x="78" y="315" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="52" font-weight="900">Study NT Agent </text><text x="78" y="381" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="52" font-weight="900">Training 證書意味著什</text><text x="78" y="447" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="52" font-weight="900">麼：OTC 澳洲版圖的一個實質節點</text>
-  <text x="78" y="522" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="25" font-weight="900">海外督導 OTC · 留學導報文章</text>
-  <text x="78" y="558" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+  <text x="78" y="315" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">Study NT Age</text><text x="78" y="378" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">nt Training </text><text x="78" y="441" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">證書意味著什麼：OTC…</text>
+  <rect x="782" y="256" width="324" height="202" fill="#fff5e5" stroke="#d6c39f" stroke-width="1.5"/>
+  <text x="806" y="286" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2">本期閱讀索引</text>
+  <text x="806" y="318" fill="#4f4032" font-family="'Noto Sans TC', Arial, sans-serif" font-size="15" font-weight="800">01 · 這不是裝飾性 badge，而是</text><text x="806" y="345" fill="#4f4032" font-family="'Noto Sans TC', Arial, sans-serif" font-size="15" font-weight="800">02 · 為什麼 Northern Te</text><text x="806" y="372" fill="#4f4032" font-family="'Noto Sans TC', Arial, sans-serif" font-size="15" font-weight="800">03 · 對 OTC 澳洲擴張意味著什麼</text><text x="806" y="399" fill="#4f4032" font-family="'Noto Sans TC', Arial, sans-serif" font-size="15" font-weight="800">04 · 邊界：這張證書不代表什麼？</text>
+  <line x1="806" y1="430" x2="1082" y2="430" stroke="#d6c39f" stroke-width="1"/>
+  <text x="806" y="451" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="700">Evidence-led · Official-source aware · Updated briefing</text>
+  <rect x="78" y="470" width="640" height="58" fill="#fff7e8" stroke="#dec9a4" stroke-width="1"/>
+  <text x="98" y="494" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="800">OTC 完成 Study NT Agent Training Cou</text><text x="98" y="518" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="800">rse 並取得 completion certificate，代表…</text>
+  <rect x="78" y="540" width="88" height="30" fill="#1a1410"/><text x="122" y="560" text-anchor="middle" fill="#e8b84b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">留學升學</text><rect x="178" y="540" width="88" height="30" fill="#1a1410"/><text x="222" y="560" text-anchor="middle" fill="#e8b84b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">政策解讀</text><rect x="278" y="540" width="88" height="30" fill="#1a1410"/><text x="322" y="560" text-anchor="middle" fill="#e8b84b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">文件把關</text><rect x="378" y="540" width="88" height="30" fill="#1a1410"/><text x="422" y="560" text-anchor="middle" fill="#e8b84b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">風險提示</text>
+  <text x="506" y="560" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18" font-weight="900">海外督導 OTC · 留學導報文章</text>
+  <text x="78" y="589" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14">Overseas Tutorial Centre Ltd · OTC Study Hub · office@overseasuk.com · WhatsApp +44 7947 991572</text>
+  <g opacity="0.9">
+    <rect x="820" y="486" width="86" height="86" fill="#fffaf2" stroke="#d6c39f" stroke-width="1"/>
+    <rect x="832" y="498" width="12" height="12" fill="#1a1410"/><rect x="856" y="498" width="12" height="12" fill="#b5272d"/><rect x="880" y="498" width="12" height="12" fill="#1a1410"/>
+    <rect x="832" y="522" width="12" height="12" fill="#c8952a"/><rect x="856" y="522" width="12" height="12" fill="#1a1410"/><rect x="880" y="522" width="12" height="12" fill="#b5272d"/>
+    <rect x="832" y="546" width="12" height="12" fill="#1a1410"/><rect x="856" y="546" width="12" height="12" fill="#c8952a"/><rect x="880" y="546" width="12" height="12" fill="#1a1410"/>
+  </g>
   <circle cx="1052" cy="504" r="48" fill="#fff7e8" stroke="#d6c39f" stroke-width="2"/>
   <text x="1052" y="498" text-anchor="middle" fill="#1a1410" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
   <text x="1052" y="523" text-anchor="middle" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">導報</text>
