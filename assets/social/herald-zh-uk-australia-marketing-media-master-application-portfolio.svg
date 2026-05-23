@@ -1,16 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#efe5d6"/>
-  <rect x="58" y="48" width="1084" height="534" fill="#fffaf2" stroke="#c8b89a" stroke-width="2"/>
-  <rect x="58" y="48" width="1084" height="86" fill="#1a1410"/>
-  <rect x="58" y="134" width="1084" height="12" fill="#b5272d"/>
-  <text x="92" y="86" fill="#e8b84b" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="4">OVERSEAS STUDY REVIEW</text>
-  <text x="92" y="118" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="30" font-weight="800">留學導報</text>
-  <text x="1110" y="96" text-anchor="end" fill="#9a8870" font-family="Arial, sans-serif" font-size="17">2026.05.18 · 留學導報</text>
-  <text x="92" y="190" fill="#b5272d" font-family="Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3">留學｜升學｜轉學｜遊學｜訪學｜自學</text>
-  <line x1="92" y1="214" x2="310" y2="214" stroke="#c8952a" stroke-width="4"/>
-  <text x="92" y="278" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">如何建立英澳 Marketin</text><text x="92" y="344" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">g / Media 碩士申請組</text><text x="92" y="410" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="50" font-weight="900">合</text>
-  <text x="92" y="492" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="23" font-weight="700">海外督導 OTC · 留學導報文章</text>
-  <rect x="836" y="466" width="252" height="62" fill="#1e6b6b"/>
-  <text x="962" y="505" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="800">overseasuk.com</text>
-  <text x="92" y="555" fill="#8b7560" font-family="Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+  <rect width="1200" height="630" fill="#e9eef4"/>
+  <rect x="56" y="44" width="1088" height="542" rx="0" fill="#fbfaf7" stroke="#d5dde7" stroke-width="2"/>
+  <rect x="56" y="44" width="1088" height="104" fill="#12365c"/>
+  <rect x="56" y="148" width="1088" height="8" fill="#b92f3b"/>
+  <rect x="92" y="190" width="8" height="286" fill="#b92f3b"/>
+  <text x="94" y="84" fill="#dbe7f3" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="3">OVERSEAS STUDY REVIEW</text>
+  <text x="94" y="124" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="34" font-weight="900">留學導報</text>
+  <text x="1106" y="90" text-anchor="end" fill="#dbe7f3" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="700">2026.05.18 · 留學導報</text>
+  <text x="1106" y="122" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
+  <text x="126" y="208" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="21" font-weight="900" letter-spacing="2">留學導報 · 深度指南</text>
+  <line x1="126" y1="228" x2="404" y2="228" stroke="#c9a24e" stroke-width="3"/>
+  <text x="126" y="296" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="56" font-weight="900">如何建立英澳 Marketing</text><text x="126" y="362" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="56" font-weight="900"> / Media 碩士申請組合</text>
+  <text x="126" y="520" fill="#38536f" font-family="'Noto Sans TC', Arial, sans-serif" font-size="24" font-weight="800">海外督導 OTC · 留學導報文章</text>
+  <text x="126" y="555" fill="#6c7d90" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+  <circle cx="1038" cy="496" r="50" fill="#eef4f9" stroke="#d7e2ec" stroke-width="2"/>
+  <text x="1038" y="490" text-anchor="middle" fill="#12365c" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
+  <text x="1038" y="516" text-anchor="middle" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">導報</text>
 </svg>
