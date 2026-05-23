@@ -12976,6 +12976,53 @@ h1 {
   margin-top: 7px;
 }
 
+.credit-tabs {
+  background:
+    linear-gradient(180deg, rgba(255, 252, 244, 0.96), rgba(239, 228, 211, 0.94));
+  border-top: 1px solid #cdbfae;
+  color: #21170f;
+}
+
+.credit-tabs .eyebrow {
+  color: #a9171b;
+}
+
+.credit-tabs h2 {
+  color: #21170f;
+}
+
+.credit-tabs h2::before {
+  background: #b88a3b;
+}
+
+.credit-tabs .section-head p {
+  color: #51483e;
+}
+
+.credit-tabs .credit-tab-labels label {
+  background: rgba(255, 250, 240, 0.78);
+  border-color: #cdbfae;
+  color: #21170f;
+}
+
+.credit-tabs .credit-flow {
+  border-top-color: #cdbfae;
+}
+
+.credit-tabs .credit-flow b {
+  background: #fffaf0;
+  border-color: #b88a3b;
+  color: #a06d16;
+}
+
+.credit-tabs .credit-flow span {
+  color: #2f2a22;
+}
+
+.credit-tabs .credit-tab-panel h3 {
+  color: #a06d16;
+}
+
 .credit-row {
   grid-template-columns: 0.48fr 1.05fr 1fr !important;
 }
