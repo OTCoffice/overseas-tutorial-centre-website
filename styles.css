@@ -6018,16 +6018,45 @@ h1 {
 
 .australia-provider-grid {
   display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  grid-template-columns: 1fr;
 }
 
-.australia-provider-grid article {
-  background: #fff;
+.australia-provider-grid article,
+.australia-provider-row {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(222, 211, 196, 0.95);
-  border-radius: 8px;
-  min-height: 154px;
-  padding: 18px;
+  border-bottom: 0;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 72px minmax(190px, 0.42fr) minmax(0, 1fr);
+  min-height: 0;
+  padding: 10px 14px;
+}
+
+.australia-provider-row-head {
+  background: #f7f2ea;
+  border-radius: 8px 8px 0 0;
+  color: #5b6572;
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0.12em;
+  min-height: 36px;
+  text-transform: uppercase;
+}
+
+.australia-provider-grid article:last-child {
+  border-bottom: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 0 0 8px 8px;
+}
+
+.australia-provider-grid article:hover {
+  background: #fffaf1;
+}
+
+.australia-provider-grid article span {
+  margin-bottom: 0;
 }
 
 .australia-provider-grid strong,
@@ -6035,7 +6064,7 @@ h1 {
 .australia-contact-block strong {
   color: var(--navy);
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 560;
   line-height: 1.22;
 }
@@ -6044,7 +6073,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 14px;
+  margin-top: 0;
 }
 
 .australia-provider-grid em {
@@ -6055,7 +6084,8 @@ h1 {
   font-size: 11px;
   font-style: normal;
   font-weight: 720;
-  padding: 4px 8px;
+  line-height: 1;
+  padding: 5px 8px;
 }
 
 .australia-insight-grid {
@@ -11800,6 +11830,18 @@ h1 {
   .cooperation-map-visual,
   .cooperation-map-visual > img {
     min-height: 640px;
+  }
+
+  .australia-provider-grid article,
+  .australia-provider-row {
+    align-items: flex-start;
+    gap: 6px;
+    grid-template-columns: 48px minmax(0, 1fr);
+  }
+
+  .australia-provider-grid article div,
+  .australia-provider-row div {
+    grid-column: 2;
   }
 
   .map-pin > summary {

@@ -8535,14 +8535,7 @@ const australiaProviders = [
   ["Curtin University", "WA", ["健康", "工程", "商業"]],
   ["Charles Darwin University", "NT", ["TAFE", "護理", "Regional"]],
   ["CQU", "QLD", ["健康", "商業", "Regional"]],
-  ["CSU", "NSW", ["護理", "口腔健康", "社區服務"]],
-  ["Murdoch College", "WA", ["Pathway", "Foundation"]],
-  ["KIC Adelaide College", "SA", ["Pathway", "Diploma"]],
-  ["UTS College", "NSW", ["Pathway", "Diploma"]],
-  ["La Trobe College Australia", "VIC", ["Pathway", "Diploma"]],
-  ["TAFE NSW", "NSW", ["VET", "護理", "社區服務"]],
-  ["Holmesglen Institute", "VIC", ["VET", "老人護理", "殘疾支援"]],
-  ["Healthcare Australia", "National", ["RTO", "護理", "支援工作"]]
+  ["CSU", "NSW", ["護理", "口腔健康", "社區服務"]]
 ];
 
 function australiaStudyInsights() {
@@ -8649,6 +8642,11 @@ const australiaPathwaysLanding = pageShell({
         <p>以下為路線與資料整理入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
       </div>
       <div class="australia-provider-grid">
+        <div class="australia-provider-row australia-provider-row-head">
+          <span>State</span>
+          <strong>Institution / Provider</strong>
+          <div>Route keywords</div>
+        </div>
         ${australiaProviders.map(([name, state, tags]) => `
           <article>
             <span>${state}</span>
