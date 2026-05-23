@@ -5790,6 +5790,339 @@ h1 {
   color: var(--gold);
 }
 
+.australia-pathways-hero {
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.94), rgba(31, 94, 82, 0.82)),
+    url("/assets/australia-academic-map-soft.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.australia-pathways-hero h1 {
+  font-size: clamp(36px, 4vw, 58px);
+  font-weight: 560;
+  letter-spacing: 0;
+  line-height: 1.14;
+  max-width: 980px;
+  overflow-wrap: anywhere;
+}
+
+.australia-pathways-hero p {
+  max-width: 900px;
+}
+
+.australia-pathways-hero .australia-hero-note {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: clamp(16px, 1.5vw, 20px);
+}
+
+.australia-pathway-card-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.australia-pathway-card {
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(6, 26, 47, 0.055);
+  padding: 20px;
+}
+
+.australia-pathway-card summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.australia-pathway-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.australia-pathway-card b,
+.australia-provider-grid span,
+.australia-insight-card span,
+.australia-contact-block span {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0.13em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.australia-pathway-card strong {
+  color: var(--navy);
+  display: block;
+  font-size: 24px;
+  font-weight: 560;
+  line-height: 1.18;
+}
+
+.australia-pathway-card summary span {
+  color: #53606f;
+  display: block;
+  font-size: 14px;
+  font-weight: 650;
+  margin-top: 8px;
+}
+
+.australia-pathway-card p {
+  color: #4f5c69;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 18px 0 0;
+}
+
+.australia-pathway-card em {
+  border-top: 1px solid rgba(222, 211, 196, 0.9);
+  color: #6b5a42;
+  display: block;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 1.55;
+  margin-top: 16px;
+  padding-top: 12px;
+}
+
+.australia-comparison-band {
+  background: var(--ink);
+  color: #fff;
+  max-width: none;
+  padding-left: max(24px, calc((100vw - var(--page-max)) / 2));
+  padding-right: max(24px, calc((100vw - var(--page-max)) / 2));
+}
+
+.invert-head h2,
+.invert-head p {
+  color: #fff;
+}
+
+.australia-comparison-table {
+  border: 1px solid rgba(208, 174, 103, 0.34);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.australia-comparison-table .compare-row {
+  display: grid;
+  grid-template-columns: 0.6fr 1.35fr 1.1fr 0.5fr 1.25fr;
+  min-width: 980px;
+}
+
+.australia-comparison-table .compare-row span {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 14px;
+}
+
+.australia-comparison-table .compare-head span {
+  background: rgba(184, 138, 59, 0.22);
+  color: #f2d99c;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.health-pathway-layout {
+  align-items: start;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 0.42fr 0.58fr;
+}
+
+.health-pathway-layout h2 {
+  color: var(--navy);
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 560;
+  line-height: 1.15;
+  margin: 10px 0 0;
+}
+
+.health-pathway-layout p {
+  color: #4d5a68;
+  font-size: 16px;
+  line-height: 1.72;
+}
+
+.health-route-columns {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.health-route-columns article {
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.health-route-columns b {
+  color: var(--teal);
+  display: block;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.health-route-columns ol {
+  counter-reset: step;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.health-route-columns li {
+  border-top: 1px solid rgba(222, 211, 196, 0.92);
+  color: #344258;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 12px 0 12px 36px;
+  position: relative;
+}
+
+.health-route-columns li::before {
+  background: var(--navy);
+  border-radius: 999px;
+  color: #fff;
+  content: counter(step);
+  counter-increment: step;
+  font-size: 11px;
+  font-weight: 800;
+  height: 24px;
+  left: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 24px;
+}
+
+.australia-regulator-note {
+  background: #fff8e8;
+  border: 1px solid rgba(184, 138, 59, 0.34);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  color: #4e4130;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.65;
+  margin-top: 18px;
+  padding: 18px 20px;
+}
+
+.australia-provider-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.australia-provider-grid article {
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+  min-height: 154px;
+  padding: 18px;
+}
+
+.australia-provider-grid strong,
+.australia-insight-card strong,
+.australia-contact-block strong {
+  color: var(--navy);
+  display: block;
+  font-size: 18px;
+  font-weight: 560;
+  line-height: 1.22;
+}
+
+.australia-provider-grid div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.australia-provider-grid em {
+  background: #f7f2ea;
+  border: 1px solid rgba(222, 211, 196, 0.9);
+  border-radius: 999px;
+  color: #53606f;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 720;
+  padding: 4px 8px;
+}
+
+.australia-insight-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.australia-insight-card {
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-radius: 8px;
+  min-height: 220px;
+  padding: 18px;
+}
+
+.australia-insight-card em {
+  color: #5d6774;
+  display: block;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.55;
+  margin-top: 12px;
+}
+
+.australia-contact-block {
+  align-items: stretch;
+  background: #fff;
+  border: 1px solid rgba(222, 211, 196, 0.95);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) 150px 150px 150px;
+  padding: clamp(22px, 3vw, 34px);
+}
+
+.australia-contact-block p {
+  color: #53606f;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 12px 0 0;
+}
+
+.australia-contact-block a {
+  align-items: center;
+  background: var(--navy);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 13px;
+  font-weight: 800;
+  justify-content: center;
+  min-height: 72px;
+  padding: 12px;
+  text-align: center;
+}
+
+.australia-contact-block a:nth-of-type(2) {
+  background: var(--teal);
+}
+
+.australia-contact-block a:nth-of-type(3) {
+  background: var(--gold);
+  color: var(--navy);
+}
+
 .social-signature-layout {
   align-items: start;
   display: grid;
@@ -11405,6 +11738,12 @@ h1 {
   .ai-operations-boundary,
   .vet-tafe-map-grid,
   .vet-tafe-screening-grid,
+  .australia-pathway-card-grid,
+  .health-pathway-layout,
+  .health-route-columns,
+  .australia-provider-grid,
+  .australia-insight-grid,
+  .australia-contact-block,
   .social-signature-layout,
   .institutional-update-board,
   .institutional-update-cards,

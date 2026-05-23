@@ -1797,6 +1797,169 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "australia-health-vocation-pathway",
+    title: "Health and Care Careers in Australia: OTHM Qualifications and Local VET Training Routes",
+    date: "2026-05-24",
+    category: "University Pathways",
+    column: "study",
+    kicker: "澳洲醫療 · 職業培訓路線",
+    author: "留學導報編輯部",
+    summary: "A practical route map for Chinese-speaking students comparing OTHM Health and Social Care qualifications, Australian VET training and regulated health-care pathways.",
+    titleZh: "在澳洲做醫療護理：OTHM 資格與本地 VET 培訓的完整路線圖",
+    summaryZh: "本文把澳洲醫療護理職業機會、OTHM 健康與社會護理資格、澳洲本地 VET 培訓及護理執業邊界放在同一張路線圖中，幫學生判斷應從英國 OTHM、澳洲 VET 還是大學銜接開始。",
+    body: [
+      {
+        heading: "1) Why Health and Care Is One of Australia's Most Practical Career Routes",
+        paragraphs: [
+          "Australia's ageing population, disability support needs and community-care workforce demand make health and care one of the clearest long-term study and career directions for international students.",
+          "For Chinese-speaking students in the UK or planning to move to Australia, this is not only a stable employment sector. It may also connect with skilled occupation planning, depending on the specific occupation, qualification, registration body and visa route.",
+          "The practical question is not whether the sector matters, but where to start: UK OTHM, Australian VET, university advanced entry, or a regulated professional pathway."
+        ]
+      },
+      {
+        heading: "2) Two Qualification Systems Running in Parallel",
+        paragraphs: [
+          "Australia's VET system sits within the Australian Qualifications Framework and is delivered by TAFEs and registered training organisations. In health and care, common families include CHC community services and HLT health training package qualifications.",
+          "OTHM is a UK Ofqual-regulated awarding organisation. Its Health and Social Care qualifications run from Level 3 to Level 7 under the UK RQF framework.",
+          "These systems are not rivals. A useful way to read them is: OTHM can help open an academic progression conversation, while Australian VET is the local training route for Australian workplace competency and, where applicable, regulated pathways."
+        ]
+      },
+      {
+        heading: "3) OTHM Health Qualifications and Australian VET References",
+        paragraphs: [
+          "OTHM Level 3 Foundation Diploma in Health and Social Care may be compared, for planning purposes, with Australian entry-level care training such as CHC33021 Certificate III in Individual Support and HLT33115 Certificate III in Health Services Assistance.",
+          "OTHM Level 4 Diploma in Health and Social Care Management may be compared with Certificate IV-level support routes. For disability, students should check the current CHC43121 Certificate IV in Disability Support; the older CHC43115 Certificate IV in Disability has been superseded.",
+          "OTHM Level 5 Diploma or Extended Diploma in Health and Social Care Management may sit near AQF Diploma-level planning references such as HLT54121 Diploma of Nursing or CHC52025 Diploma of Community Services, but this is not direct equivalence.",
+          "OTHM Level 6 Health and Social Care Management can be compared at planning level with advanced diploma or management routes, while OTHM Level 7 is better read against Australian graduate diploma or master's-level health management study."
+        ]
+      },
+      {
+        heading: "4) The Most Important Clarification",
+        paragraphs: [
+          "Students sometimes see OTHM Level 5 Health and Social Care and assume it means they can immediately work as a nurse in Australia. That assumption is not safe.",
+          "Enrolled Nurse registration in Australia is regulated. Training.gov.au explains that a learner seeking registration as an enrolled nurse must complete a Diploma of Nursing program accredited by ANMAC and approved by the Nursing and Midwifery Board of Australia as an approved program of study. Students should check AHPRA's approved programs list before relying on any course.",
+          "The practical use of OTHM Level 5 in this field is usually academic entry or advanced-entry discussion with universities, not direct nursing registration."
+        ]
+      },
+      {
+        heading: "5) Four Route Options",
+        paragraphs: [
+          "Route A is the direct Australian employment route: study a local VET qualification such as CHC33021, a relevant Certificate IV, CHC52025 or HLT54121 through an appropriately scoped provider.",
+          "Route B is the UK-to-Australia academic route: study OTHM Level 4 or Level 5 Health and Social Care with OTC, then apply for Australian university advanced entry into a health science, nursing-related, public health or health management degree where accepted.",
+          "Route C is the management route: use OTHM Level 6 or Level 7 Health and Social Care Management to support applications to Australian postgraduate health management or community-sector management programs.",
+          "Route D is the migration-sensitive route: any skilled migration planning must be checked against Home Affairs, SkillSelect, state nomination rules and a registered MARA / OMARA migration agent."
+        ]
+      },
+      {
+        heading: "6) Providers to Consider",
+        paragraphs: [
+          "For VET routes, students should check public TAFE providers such as TAFE NSW, TAFE Queensland, TAFE SA, North Metropolitan TAFE, South Metropolitan TAFE, and Victorian providers such as Holmesglen Institute, Box Hill Institute and Chisholm TAFE.",
+          "Private RTOs may also offer health, individual support, disability, ageing support, community services or nursing-related training. Before enrolling, students should check RTO scope, current course code, CRICOS status for international students, placement arrangements and regulatory recognition.",
+          "For OTHM-to-university routes, universities assess credit and advanced entry case by case. Students should prepare transcripts, unit specifications, English evidence and a clear study plan."
+        ]
+      },
+      {
+        heading: "7) Disclaimer",
+        paragraphs: [
+          "This article is general education information and a route-planning guide. It is not migration advice, legal advice, employment advice or professional registration advice.",
+          "Australian health-care professional registration must be confirmed with the relevant regulator, including AHPRA, NMBA and ANMAC where applicable. Course availability, fees, placement hours and provider approvals must be checked directly with official registers and institutions."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼醫療護理是澳洲最值得走的職業路線之一",
+        paragraphs: [
+          "澳洲人口老齡化正在加速，老人護理、殘疾支援、社區醫療與健康管理長期面臨人手缺口。對於正在英國或準備前往澳洲的華人學生，這意味著一條相對清晰、穩定、可長期累積的職業路線。",
+          "醫療護理不只是一份工作，它還可能與澳洲技術移民的職業規劃相連。不同職業類別，例如 Enrolled Nurse、個人護理工作者、社區服務工作者或管理類職位，分別對應不同的資格、評估機構與簽證提名邏輯。",
+          "真正需要判斷的不是「醫療護理是否值得走」，而是「從哪裡開始、走哪條路、在哪一步需要本地資格或監管機構確認」。"
+        ]
+      },
+      {
+        heading: "二、兩條並行的資格體系",
+        paragraphs: [
+          "在澳洲醫療護理領域，存在兩套互有關聯但性質不同的資格體系。",
+          "第一套是澳洲 VET 體系。VET 即 Vocational Education and Training，按澳洲資歷框架（AQF）分級，由各州 TAFE 及已登記培訓機構（RTO）提供。醫療護理常見資格分為 CHC 系列（社區服務、老人護理、殘疾支援、個人支援）和 HLT 系列（衛生服務、護理及相關健康服務）。",
+          "第二套是英國 OTHM 資格體系。OTHM 是英國 Ofqual 監管的頒證機構，其健康與社會護理資格從 Level 3 延伸至 Level 7，按英國 RQF 框架認可。OTHM 的優勢在於可在英國修讀，並作為澳洲大學銜接入學或 Advanced Entry 申請的材料之一。",
+          "簡單理解：OTHM 負責開門，VET 負責落地。前者更偏學術銜接與路線準備，後者更偏澳洲本地工作能力、實習與執業環境。"
+        ]
+      },
+      {
+        heading: "三、OTHM 健康護理資格清單與澳洲對應",
+        paragraphs: [
+          "OTHM Level 3 Foundation Diploma in Health and Social Care，可作為層級參考，對照澳洲 CHC33021 Certificate III in Individual Support（Ageing / Disability）及 HLT33115 Certificate III in Health Services Assistance。",
+          "OTHM Level 3 Foundation Diploma in Health and Social Care 由 6 個必修單元組成，共 60 學分，旨在為學習者在醫療及社會護理行業擔任支援工作者、高級支援工作者或護理助理職位做準備。",
+          "澳洲 CHC33021 Certificate III in Individual Support 針對老人護理、殘疾支援及個人支援等入門工作場景。training.gov.au 顯示，該資格要求學習者完成至少 120 小時的工作實踐。",
+          "OTHM Level 4 Diploma in Health and Social Care Management，可作為層級參考，對照澳洲 Certificate IV 類支援資格。老人護理方向可查看 CHC43015 Certificate IV in Ageing Support；殘疾支援方向應查看現行 CHC43121 Certificate IV in Disability Support。舊版 CHC43115 Certificate IV in Disability 已被 CHC43121 取代。",
+          "OTHM Level 5 Diploma / Extended Diploma in Health and Social Care Management，可作為層級參考，對照 HLT54121 Diploma of Nursing 及 CHC52025 Diploma of Community Services。但這只是層級參考，不代表資格可以互相替代。",
+          "OTHM Level 6 Diploma in Health and Social Care Management，可對照 Advanced Diploma 或社區服務管理方向；OTHM Level 7 Diploma in Health and Social Care Management 在澳洲 VET 體系沒有直接對應，更適合銜接 Graduate Diploma of Health Management 或 Master of Health Management 等大學課程。"
+        ]
+      },
+      {
+        heading: "四、最重要的一個釐清",
+        paragraphs: [
+          "許多學生看到 OTHM Level 5 Health and Social Care，會直接聯想到「我可以在澳洲做護士了」。這個理解必須糾正。",
+          "澳洲 Enrolled Nurse 的執業資格受監管。training.gov.au 對 HLT54121 Diploma of Nursing 的說明指出，若要申請成為澳洲 Enrolled Nurse 並在澳洲執業，學習者須完成由 ANMAC 認證、並由 Nursing and Midwifery Board of Australia（NMBA）批准為 approved program of study 的 Diploma of Nursing 課程，並應通過 AHPRA 核查教育提供者及課程批准狀態。",
+          "因此，OTHM Level 5 Health and Social Care 的實際用途不是執業許可，而是大學入學或 Advanced Entry 申請材料。它可以用於申請澳洲大學 Bachelor of Nursing、Bachelor of Health Science、Public Health 或 Health Management 等相關課程，但能否減免學分由澳洲大學逐案評估。",
+          "如果學生的明確目標是 Enrolled Nurse 執業，核心路線仍是澳洲本地獲認可的 HLT54121 Diploma of Nursing 或受監管機構承認的等值路線。"
+        ]
+      },
+      {
+        heading: "五、路線選擇指引",
+        paragraphs: [
+          "路線 A：直接在澳洲就業。適合已在澳洲、希望盡快取得本地工作資格的學生。可優先查看 CHC33021、CHC43015、CHC43121、CHC52025 或 HLT54121 等本地 VET 課程。修讀時間通常為 6 個月至 18 個月不等，具體取決於課程、校區、學習模式及實習要求。",
+          "路線 B：英國 OTHM 銜接澳洲大學。適合希望先在英國修讀 OTHM Level 4 或 Level 5 Health and Social Care，再申請澳洲大學相關學位 Advanced Entry 的學生。這條路線更長，但最終有機會取得澳洲大學學位，長期發展空間較大。",
+          "路線 C：OTHM Level 7 銜接澳洲碩士。適合已有醫療、護理、社區服務或管理背景，希望進入健康管理、醫院管理或社區服務機構管理層的人士。",
+          "路線 D：技術移民路線。部分澳洲技術移民職業類別要求澳洲本地資格、海外等值評估、工作經驗或專業註冊。此路線必須查閱 SkillSelect、Home Affairs 及各州領地提名官方頁面，並諮詢合資格 MARA / OMARA 移民代理。"
+        ]
+      },
+      {
+        heading: "六、主要院校與培訓機構參考",
+        paragraphs: [
+          "澳洲 VET 路線可先查看各州 TAFE 及 RTO。常見公立提供者包括 TAFE NSW、TAFE Queensland、TAFE SA、North Metropolitan TAFE、South Metropolitan TAFE，以及維州的 Holmesglen Institute、Box Hill Institute、Chisholm TAFE 等。",
+          "私立 RTO 亦可能提供老人護理、殘疾支援、個人支援、社區服務或護理相關課程。報讀前必須核查 RTO scope、課程代碼、CRICOS 狀態（如涉及國際學生簽證）、實習安排、英語要求、學費及行業認可。",
+          "如果學生走 OTHM 銜接澳洲大學路線，應提前準備成績單、資格證書、課程單元說明、英文成績、個人陳述及清晰的職業計劃。澳洲大學是否接受 Advanced Entry 或 credit transfer，由院校按個案決定。"
+        ]
+      },
+      {
+        heading: "七、OTC 可以如何協助",
+        paragraphs: [
+          "OTC 可協助學生整理 OTHM 資格、英國學習記錄、課程單元說明及澳洲申請文件，並根據學生目標判斷應優先看 VET、TAFE、大學 Advanced Entry 還是健康管理碩士路線。",
+          "OTC 也可以協助學生向相關院校準備 inquiry、文件清單、學分評估材料及路線比較表。但涉及澳洲移民、法律、護理註冊、職業評估或受監管建議時，應由相應合資格專業人士處理。"
+        ]
+      },
+      {
+        heading: "八、重要提示",
+        paragraphs: [
+          "本文所列課程資訊及院校政策以各院校、training.gov.au、AHPRA、ANMAC、NMBA、Home Affairs 及各州領地官方最新公佈為準。",
+          "澳洲醫療職業的執業資格須由相關監管機構評審確認。涉及技術移民及職業提名事項，請查閱 SkillSelect、Home Affairs 及各州領地提名官方頁面，並諮詢 MARA / OMARA 移民代理。本文不構成移民建議、法律意見、就業結果保證或執業資格認定。",
+          "OTC 為 OTHM 官方認可教學及評核中心（Centre No. DC1802235），Overseas Tutorial Centre Ltd，Companies House No. 11060519。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Route A", "Australian VET", "最快落地工作場景：TAFE / RTO、實習、職業能力與本地課程代碼。", "vet"],
+      ["Route B", "OTHM to university", "用 OTHM Level 4/5 支持 Advanced Entry 或 credit discussion。", "academic"],
+      ["Route C", "Health management", "OTHM Level 6/7 更適合健康管理、社區服務管理與碩士銜接。", "management"],
+      ["Boundary", "AHPRA / ANMAC", "護理註冊須看本地批准課程與監管機構，不可用 OTHM 直接替代。", "compliance"]
+    ],
+    resources: [
+      ["OTHM Health and Social Care", "https://othm.org.uk/subject/health-and-social-care"],
+      ["CHC33021 Certificate III in Individual Support", "https://training.gov.au/training/details/CHC33021"],
+      ["CHC43121 Certificate IV in Disability Support", "https://training.gov.au/Training/Details/CHC43121"],
+      ["HLT54121 Diploma of Nursing", "https://training.gov.au/training/details/HLT54121"],
+      ["CHC52025 Diploma of Community Services", "https://training.gov.au/training/details/CHC52025"],
+      ["AHPRA approved programs of study", "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"],
+      ["SkillSelect", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect"]
+    ],
+    relatedReadings: [
+      "othm-health-social-care-australia-vet-comparison",
+      "othm-credits-australia-advanced-entry",
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "otc-othm-centre-renewal-2026"
+    ]
+  },
+  {
     slug: "othm-health-social-care-australia-vet-comparison",
     title: "OTHM Health Qualifications vs Australia VET: A Complete Comparison Guide",
     date: "2026-05-24",
@@ -4770,6 +4933,16 @@ function zhArticleMagazineBody(article) {
         </aside>
       </div>
       ${zhArticleRoadmap(article, checklist)}
+      ${article.slug.includes("australia") ? `
+        <section class="zh-herald-infographic australia-article-cta">
+          <h2>下一步：把文章變成路線評估</h2>
+          <p>讀完導報後，可回到 OTC 澳洲路線頁，把你的學歷、課程單元、成績單與目標職業整理成初步評估。</p>
+          <div class="credit-actions">
+            <a class="btn btn-dark" href="/australia/">了解 OTC 澳洲路線</a>
+            <a class="btn btn-light" href="https://wa.me/447947991572?text=I%20would%20like%20an%20Australia%20pathway%20assessment">免費路線初篩</a>
+          </div>
+        </section>
+      ` : ""}
       ${shareLinksHerald(article, "zh")}
       <footer class="zh-herald-footer">
         <strong>留學導報</strong>
@@ -8336,6 +8509,174 @@ const australiaBusinessLanding = pageShell({
   `
 });
 
+const australiaPathwayCards = [
+  ["Route A", "升學路線", "OTHM Level 3-6 → 澳洲大學 Advanced Entry", "適合希望在澳洲取得大學學位的學生", "先做資格文件、課程單元、英文與學分減免可能性審閱。"],
+  ["Route B", "職業培訓路線", "VET Certificate III / IV / Diploma", "適合希望在澳洲直接就業的學生", "重點查看 RTO scope、CRICOS、實習安排、課程代碼與本地工作場景。"],
+  ["Route C", "管理升學路線", "OTHM Level 7 → 澳洲大學碩士銜接", "適合有工作經驗、希望進入管理層的人士", "更適合健康管理、社區服務管理、項目管理與教育管理方向。"]
+];
+
+const australiaComparisonRows = [
+  ["Level 3", "Foundation Diploma in Health and Social Care", "CHC33021 / HLT33115", "AQF 3", "入門支援、護理助理、個人照護方向"],
+  ["Level 4", "Diploma in Health and Social Care Management", "CHC43015 / CHC43121", "AQF 4", "老人護理、殘疾支援與中級支援路線"],
+  ["Level 5", "Diploma / Extended Diploma in Health and Social Care Management", "HLT54121 / CHC52025", "AQF 5", "護理文憑、社區服務文憑或大學銜接討論"],
+  ["Level 6", "Diploma in Health and Social Care Management", "HLT64121 / CHC62015", "AQF 6", "高級護理、社區服務管理或本科後段銜接"],
+  ["Level 7", "Diploma in Health and Social Care Management", "無直接 VET 對應", "Postgraduate", "Graduate Diploma / Master of Health Management"]
+];
+
+const australiaProviders = [
+  ["Murdoch University", "WA", ["健康護理", "商業", "教育"]],
+  ["University of Adelaide", "SA", ["STEM", "健康", "商業"]],
+  ["University of Newcastle", "NSW", ["健康", "工程", "IT"]],
+  ["UTS", "NSW", ["工程", "IT", "商業"]],
+  ["UNSW Sydney", "NSW", ["工程", "商業", "科學"]],
+  ["University of Queensland", "QLD", ["健康", "生命科學", "工程"]],
+  ["RMIT", "VIC", ["設計", "工程", "商業"]],
+  ["La Trobe University", "VIC", ["健康", "護理", "社區服務"]],
+  ["Curtin University", "WA", ["健康", "工程", "商業"]],
+  ["Charles Darwin University", "NT", ["TAFE", "護理", "Regional"]],
+  ["CQU", "QLD", ["健康", "商業", "Regional"]],
+  ["CSU", "NSW", ["護理", "口腔健康", "社區服務"]],
+  ["Murdoch College", "WA", ["Pathway", "Foundation"]],
+  ["KIC Adelaide College", "SA", ["Pathway", "Diploma"]],
+  ["UTS College", "NSW", ["Pathway", "Diploma"]],
+  ["La Trobe College Australia", "VIC", ["Pathway", "Diploma"]],
+  ["TAFE NSW", "NSW", ["VET", "護理", "社區服務"]],
+  ["Holmesglen Institute", "VIC", ["VET", "老人護理", "殘疾支援"]],
+  ["Healthcare Australia", "National", ["RTO", "護理", "支援工作"]]
+];
+
+function australiaStudyInsights() {
+  return insightsArticles
+    .filter((article) => article.slug.includes("australia") || (article.bodyZh || []).some((section) => section.paragraphs.join("").includes("澳洲")))
+    .slice(0, 5)
+    .map((article) => `
+      <a class="australia-insight-card" href="/zh/insights/${article.slug}/">
+        <span>${article.date} · ${article.kicker || article.category}</span>
+        <strong>${article.titleZh || article.title}</strong>
+        <em>${article.summaryZh || article.summary}</em>
+      </a>
+    `).join("");
+}
+
+const australiaPathwaysLanding = pageShell({
+  title: "澳洲升學與職業路線 | OTC Study Hub",
+  current: "australia",
+  locale: "zh",
+  lang: "zh-Hant",
+  description: "OTC 澳洲升學與職業路線頁：OTHM 銜接澳洲大學、VET / TAFE 職業培訓、健康護理路線、院校與 Pathway Provider 初步篩查。",
+  path: "/australia/",
+  body: `
+    <section class="page-hero australia-pathways-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Australia Pathways</div>
+        <h1>你在英國的學歷，<br>在澳洲值多少？</h1>
+        <p>Australia Pathways — Qualifications · Careers · Migration</p>
+        <p class="australia-hero-note">OTC 協助英澳兩地學生評估、轉換並最大化其學術資歷在澳洲的使用價值：升讀大學、取得職業資格、規劃健康護理與技術路線。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://wa.me/447947991572?text=I%20would%20like%20an%20Australia%20pathway%20credit%20assessment">免費學分評估</a>
+          <a class="btn btn-secondary" href="#providers">查看澳洲院校清單</a>
+          <a class="btn btn-secondary" href="#australia-insights">閱讀澳洲路線導報</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Three Routes</div>
+        <h2>先判斷你要走升學、職業培訓，還是管理銜接。</h2>
+        <p>三條路線可互相銜接，但每一步的資格用途不同：學術入學、職業能力、執業註冊與移民評估不能混為一談。</p>
+      </div>
+      <div class="australia-pathway-card-grid">
+        ${australiaPathwayCards.map((card) => `
+          <details class="australia-pathway-card" open>
+            <summary><b>${card[0]}</b><strong>${card[1]}</strong><span>${card[2]}</span></summary>
+            <p>${card[3]}</p>
+            <em>${card[4]}</em>
+          </details>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band australia-comparison-band">
+      <div class="section-head compact-head invert-head">
+        <div class="eyebrow">OTHM × Australia VET</div>
+        <h2>資格層級對照，不等於自動承認。</h2>
+        <p>這張表用於初步路線判斷；正式學分、就業、執業或移民評估必須回到院校、RTO、AHPRA / ANMAC / NMBA 或移民專業人士。</p>
+      </div>
+      <div class="australia-comparison-table" role="table" aria-label="OTHM and Australia VET comparison">
+        <div class="compare-row compare-head" role="row"><span>OTHM 層級</span><span>OTHM 課程名稱</span><span>澳洲 VET 對應</span><span>AQF</span><span>銜接目標</span></div>
+        ${australiaComparisonRows.map((row) => `<div class="compare-row" role="row">${row.map((cell) => `<span>${cell}</span>`).join("")}</div>`).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="health-pathway-layout">
+        <div>
+          <div class="eyebrow">Health Pathway</div>
+          <h2>在澳洲做醫療護理，你需要什麼資格？</h2>
+          <p>醫療護理路線最容易混淆，因為「學術層級相近」不代表「可以直接執業」。OTC 先幫學生把文件與目標拆開，再決定走 VET、TAFE、大學還是監管註冊路線。</p>
+        </div>
+        <div class="health-route-columns">
+          <article>
+            <b>澳洲 VET 路線</b>
+            <ol><li>Certificate III</li><li>Certificate IV</li><li>Diploma of Nursing</li><li>Enrolled Nurse 執業申請</li></ol>
+          </article>
+          <article>
+            <b>OTHM 銜接路線</b>
+            <ol><li>Level 3</li><li>Level 5</li><li>Bachelor Advanced Entry</li><li>澳洲本地認可學位 / 後續註冊</li></ol>
+          </article>
+        </div>
+      </div>
+      <div class="australia-regulator-note">執業護士資格須由 ANMAC / NMBA / AHPRA 評審。申請前建議先讓 OTC 顧問整理學歷文件，再由相應監管或持牌專業人士確認。</div>
+    </section>
+
+    <section class="band compact-band" id="providers">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Provider Index</div>
+        <h2>OTC 協助處理申請初篩的澳洲院校及 Pathway Provider。</h2>
+        <p>以下為路線與資料整理入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
+      </div>
+      <div class="australia-provider-grid">
+        ${australiaProviders.map(([name, state, tags]) => `
+          <article>
+            <span>${state}</span>
+            <strong>${name}</strong>
+            <div>${tags.map((tag) => `<em>${tag}</em>`).join("")}</div>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band" id="australia-insights">
+      <div class="section-head compact-head">
+        <div class="eyebrow">海外留學導報</div>
+        <h2>澳洲路線專欄。</h2>
+        <p>深度文章負責解釋政策、資格、風險與路線；本頁負責把讀者帶回具體諮詢流程。</p>
+      </div>
+      <div class="australia-insight-grid">
+        ${australiaStudyInsights()}
+      </div>
+      <div class="credit-actions">
+        <a class="btn btn-dark" href="/zh/insights/australia-health-vocation-pathway/">閱讀醫療護理路線圖</a>
+        <a class="btn btn-light" href="/zh/insights/">查看全部導報文章</a>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="australia-contact-block">
+        <div>
+          <span>Contact OTC</span>
+          <strong>把你的英國學歷、成績單和目標職業發來，先做一次澳洲路線初篩。</strong>
+          <p>OTC 澳洲代表辦公室設於悉尼 Balmain，可提供澳洲時區諮詢協調服務。受監管移民、法律、稅務、護理註冊及職業評估事項，OTC 將協助轉介合資格專業人士。</p>
+        </div>
+        <a href="https://wa.me/447947991572">WhatsApp</a>
+        <a href="mailto:office@overseasuk.com?subject=Australia%20Pathway%20Assessment">Email</a>
+        <a href="/zh/insights/australia-health-vocation-pathway/">導報文章</a>
+      </div>
+    </section>
+  `
+});
+
 const australiaOfficePresence = pageShell({
   title: "Australia Office Presence | OTC Study Hub",
   current: "about",
@@ -10555,6 +10896,7 @@ write("apps/ucbelt-speaking", ucbelt);
 write("apps/australian-citizenship-test", australianCitizenshipTest);
 write("resources", resources);
 write("australia-business-landing", australiaBusinessLanding);
+write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);
 write("zh/australia-office-presence", australiaOfficePresenceZh);
 write("australia-universities/charles-darwin-university", charlesDarwinUniversityProfile);

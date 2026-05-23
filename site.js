@@ -61,6 +61,7 @@ function nav(current = "", locale = "en") {
         <div class="nav-links">
           ${isZh ? `
             <a href="/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
+            <a href="/australia/" ${current === "australia" ? 'aria-current="page"' : ""}>澳洲路線</a>
             <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>課程</a>
             <a href="/publishing/" ${["apps", "publishing"].includes(current) ? 'aria-current="page"' : ""}>出版</a>
             <a href="/zh/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
@@ -72,6 +73,7 @@ function nav(current = "", locale = "en") {
             <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
             <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>Services</a>
             <a href="/university-applications/" ${current === "applications" ? 'aria-current="page"' : ""}>Applications</a>
+            <a href="/australia/" ${current === "australia" ? 'aria-current="page"' : ""}>Australia Pathways</a>
             <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>Courses</a>
             <a href="/apps/" ${current === "apps" ? 'aria-current="page"' : ""}>Tools</a>
             <a href="/publishing/" ${current === "publishing" ? 'aria-current="page"' : ""}>Publishing</a>
