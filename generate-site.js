@@ -1695,6 +1695,114 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "kcl-offer-holder-timeline-course-decisions",
+    title: "KCL Offer Holder Stage: Why Course Fit, Conditions and Timing Cannot Wait",
+    date: "2026-05-23",
+    category: "UK Applications",
+    column: "study",
+    kicker: "KCL offer-holder timing",
+    author: "留學導報編輯部",
+    summary: "A privacy-safe Overseas Study Review article explaining why King's College London offer-holder communications, course fit, offer conditions, accommodation, visa/CAS and official portal timelines must be handled early and systematically.",
+    titleZh: "KCL Offer Holder 階段為什麼不能等：課程、條件、時間線與入學準備",
+    summaryZh: "近期 KCL offer-holder 信息提醒我們：名校 offer 不是終點，而是一段高密度時間管理。課程適配、條件核對、接受 offer、住宿、CAS、簽證與官方 portal 信息，都需要及早處理。本文不披露任何學生個資，只總結這類信息對英國申請家庭的普遍意義。",
+    body: [
+      {
+        heading: "1) Offer Holder Communication Is a Workflow, Not a Celebration Email",
+        paragraphs: [
+          "A King's College London offer-holder email or community invitation should not be treated as a decorative congratulation. It is part of a wider workflow that includes offer conditions, acceptance deadlines, accommodation, visa preparation, subject-level information and official portal communication.",
+          "The student detail behind this article is deliberately removed. The public point is general: when a highly selective UK university starts sending offer-holder information, the applicant's file has entered a time-sensitive phase.",
+          "Families should therefore move from 'we have an offer' to 'we are managing a confirmed sequence of actions'."
+        ]
+      },
+      {
+        heading: "2) Why This Kind of Course Information Is Absolutely Necessary",
+        paragraphs: [
+          "At KCL level, the course is not just a title on an offer letter. It controls academic preparation, subject expectations, reading culture, employability positioning, possible professional direction and the student's first-year adjustment risk.",
+          "Offer-holder subject hubs, events and official next-step pages help applicants understand what the department expects before enrolment. Ignoring these materials means the student may arrive with the offer but without a working understanding of the course.",
+          "For families comparing several offers, the correct question is not only which university ranks higher. It is whether this course, this department, this London environment and this timetable are actually manageable for the student."
+        ]
+      },
+      {
+        heading: "3) Timing Controls the Outcome After the Offer",
+        paragraphs: [
+          "KCL's official offer-holder guidance points students back to deadlines, conditions, document submission, King's Apply messages, accommodation advice and visa / international student guidance. These are not optional side notes.",
+          "A missed acceptance deadline, slow document response, late condition upload, delayed CAS preparation or late accommodation action can create practical risk even when the academic offer is strong.",
+          "The offer-holder period should therefore be handled with a dated checklist: decision deadline, condition deadline, document evidence, official message history, accommodation route, deposit requirement if applicable, CAS timing and visa planning."
+        ]
+      },
+      {
+        heading: "4) How OTC Reads This Type of KCL Information",
+        paragraphs: [
+          "OTC treats this category of email as a case-management trigger. It means the student file should be reviewed for offer type, course fit, outstanding conditions, official portal messages and next-step responsibilities.",
+          "WeChat groups or community invitations can be useful for peer connection and practical reminders, but they must never replace official KCL webpages, King's Apply, UCAS, formal email or written admissions instructions.",
+          "The correct support is calm and administrative: decode the official message, build the checklist, confirm what is still missing, and make sure the student knows which deadline comes next."
+        ]
+      },
+      {
+        heading: "5) Public Boundary",
+        paragraphs: [
+          "This article is based on a privacy-safe review of a type of KCL offer-holder communication. It does not disclose any student's name, email address, course, application number, offer condition or private correspondence.",
+          "It is general education information only. KCL's official webpages, King's Apply, UCAS and the student's own offer letter remain the controlling sources for deadlines, conditions, deposits, accommodation and visa-related steps.",
+          "OTC can support education-route organisation and document preparation, but does not guarantee admission outcomes or replace official university instructions."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、Offer holder 信息不是祝賀郵件，而是工作流程開始",
+        paragraphs: [
+          "KCL 這類 offer-holder email 或社群邀請，不能只當作一封好消息。它實際上代表學生檔案進入下一階段：offer 條件、接受期限、住宿、簽證/CAS、課程信息、官方 portal 通訊，都開始變成有時間順序的工作。",
+          "本文已完全隱去學生個資，不公開姓名、郵箱、申請號、具體 offer 條件或私人往來。這裡討論的是一個普遍問題：英國名校開始發 offer-holder 信息時，申請已經進入高度時間敏感階段。",
+          "家庭此時要從「拿到 offer 了」切換為「開始管理一組有日期、有文件、有官方渠道的任務」。"
+        ]
+      },
+      {
+        heading: "二、為什麼這類課程信息有絕對必要性？",
+        paragraphs: [
+          "到了 KCL 這類院校，課程不是 offer letter 上的一行字。它直接影響學生的學術準備、學科預期、閱讀強度、就業定位、專業方向，以及第一年能否適應。",
+          "Offer-holder subject hubs、學院活動、next-step 官方頁面，都是幫學生提前理解課程與學院期待的材料。如果忽略這些信息，學生可能只是「拿著 offer 入學」，但並沒有真正理解自己要讀什麼。",
+          "對正在比較多個 offer 的家庭來說，問題也不只是「哪所排名更高」。更重要的是：這個課程、這個 department、這個 London 學習環境和這條時間線，是否真的適合這名學生。"
+        ]
+      },
+      {
+        heading: "三、Offer 之後，時間線會直接影響結果",
+        paragraphs: [
+          "KCL 官方 offer-holder guidance 會把學生帶回幾個核心事項：deadline、conditions、document submission、King's Apply message、accommodation advice、visa / international student guidance。這些不是附屬信息，而是 offer 之後真正要做的事情。",
+          "如果 acceptance deadline 錯過、條件文件上傳慢、官方 message 沒有回、CAS 準備延後、住宿行動太晚，即使學生本身拿到的是好 offer，也可能產生實際風險。",
+          "因此 offer-holder 階段應該立即建立日期清單：接受 offer 的期限、滿足條件的期限、文件證據、官方 message 紀錄、住宿路線、是否需要 deposit、CAS 時間、簽證時間。"
+        ]
+      },
+      {
+        heading: "四、OTC 如何處理這類 KCL 信息？",
+        paragraphs: [
+          "OTC 會把這類郵件視為 case-management trigger：學生檔案需要立即檢查 offer type、course fit、未完成條件、官方 portal message 和下一步責任。",
+          "微信群、offer-holder community 或同學群可以提供同伴信息和提醒，但不能替代 KCL 官方網頁、King's Apply、UCAS、正式 email 或 offer letter 裡的書面要求。",
+          "正確的支持不是製造焦慮，而是安靜地做行政管理：讀懂官方信息、建立 checklist、確認缺口、提醒下一個 deadline。"
+        ]
+      },
+      {
+        heading: "五、公開邊界",
+        paragraphs: [
+          "本文只基於 KCL offer-holder 類型信息做公開教育解讀，已去除所有學生個人信息，不披露姓名、郵箱、課程細節、申請號、offer 條件或私人通信。",
+          "本文僅為一般教育資訊。具體 deadline、condition、deposit、accommodation、CAS、visa 及註冊要求，應以 KCL 官方頁面、King's Apply、UCAS 及學生個人 offer letter 為準。",
+          "OTC 可協助教育路線整理、文件清單、官方信息解讀與申請行政支持，但不保證錄取結果，也不替代院校官方指示。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Offer holder", "Not the finish line", "拿到 offer 後，真正的條件、文件與時間管理才開始。", "workflow"],
+      ["Course fit", "Department readiness", "課程信息決定學生是否理解學術要求與第一年適應風險。", "academic"],
+      ["Deadline", "Time-sensitive stage", "接受期限、條件文件、住宿、CAS 與簽證都需要提前排期。", "timing"],
+      ["Privacy", "No student data", "文章只講類型和流程，不公開任何學生私人資料。", "safe"]
+    ],
+    resources: [
+      ["KCL undergraduate offer holders", "https://www.kcl.ac.uk/study/undergraduate/offer-holders"],
+      ["KCL postgraduate taught offer holders", "https://www.kcl.ac.uk/study/postgraduate-taught/offer-holders"],
+      ["KCL undergraduate next steps", "https://www.kcl.ac.uk/study/undergraduate/offer-holders/next-steps"],
+      ["KCL postgraduate research offer-holder guidance", "https://www.kcl.ac.uk/study/postgraduate-research/how-to-apply/important-information-for-postgraduate-research-offer-holders"]
+    ]
+  },
+  {
     slug: "study-nt-agent-training-certificate-otc-australia-meaning",
     title: "What the Study NT Agent Training Certificate Means for OTC's Australia Route",
     date: "2026-05-23",
