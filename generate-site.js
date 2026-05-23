@@ -1786,9 +1786,10 @@ function writeHeraldSocialImage(article, locale = "en") {
     <rect x="832" y="522" width="12" height="12" fill="#c8952a"/><rect x="856" y="522" width="12" height="12" fill="#1a1410"/><rect x="880" y="522" width="12" height="12" fill="#b5272d"/>
     <rect x="832" y="546" width="12" height="12" fill="#1a1410"/><rect x="856" y="546" width="12" height="12" fill="#c8952a"/><rect x="880" y="546" width="12" height="12" fill="#1a1410"/>
   </g>
-  <circle cx="1052" cy="504" r="48" fill="#fff7e8" stroke="#d6c39f" stroke-width="2"/>
-  <text x="1052" y="498" text-anchor="middle" fill="#1a1410" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
-  <text x="1052" y="523" text-anchor="middle" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">${isZh ? "導報" : "REVIEW"}</text>
+  <rect x="944" y="490" width="176" height="86" fill="#fff7e8" stroke="#d6c39f" stroke-width="2"/>
+  <text x="1032" y="517" text-anchor="middle" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="2">${isZh ? "版面" : "SECTION"}</text>
+  <text x="1032" y="544" text-anchor="middle" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="${isZh ? 23 : 18}" font-weight="900">${isZh ? "留學導報" : "Study Review"}</text>
+  <text x="1032" y="565" text-anchor="middle" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="800">${isZh ? "OTC Study Hub" : "OTC Study Hub"}</text>
 </svg>`;
   fs.writeFileSync(outPath, svg);
   return imagePath;
