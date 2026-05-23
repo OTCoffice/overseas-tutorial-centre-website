@@ -10190,12 +10190,23 @@ h1 {
   animation: fadeUp 0.6s ease 0.2s both;
 }
 
+.oeh-share-row-top {
+  background: #1a1410;
+  border-bottom: 3px solid #b5272d;
+  border-top: 0;
+  padding: 14px 48px;
+}
+
 .oeh-share-row span {
   margin-right: 4px;
   color: var(--oeh-ink-light);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
+}
+
+.oeh-share-row-top span {
+  color: #e8b84b;
 }
 
 .oeh-share-row a,
@@ -10212,10 +10223,23 @@ h1 {
   cursor: pointer;
 }
 
+.oeh-share-row-top a,
+.oeh-share-row-top button {
+  border-color: rgba(232, 184, 75, 0.45);
+  color: #fffaf2;
+}
+
 .oeh-share-row a:hover,
 .oeh-share-row button:hover {
   background: var(--oeh-ink);
   color: #fff;
+}
+
+.oeh-share-row-top a:hover,
+.oeh-share-row-top button:hover {
+  background: #e8b84b;
+  border-color: #e8b84b;
+  color: #1a1410;
 }
 
 .oeh-footer {

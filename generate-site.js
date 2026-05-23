@@ -2681,22 +2681,42 @@ function shareLinks(article, localePath = "") {
   `;
 }
 
-function shareLinksHerald(article) {
-  const articleUrl = new URL(`/insights/${article.slug}/`, SITE_URL).toString();
-  const text = `${article.title} | OTC Study Hub`;
+function shareLinksHerald(article, locale = "en", placement = "bottom") {
+  const isZh = locale === "zh";
+  const articleUrl = new URL(`${isZh ? "/zh" : ""}/insights/${article.slug}/`, SITE_URL).toString();
+  const text = `${isZh && article.titleZh ? article.titleZh : article.title} | OTC Study Hub`;
+  const rowClass = placement === "top" ? " oeh-share-row-top" : "";
   return `
-    <div class="oeh-share-row" data-share-strip>
-      <span>分享本文</span>
+    <div class="oeh-share-row${rowClass}" data-share-strip>
+      <span>${isZh ? "分享本文" : "Share this article"}</span>
       <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">X</a>
       <a href="https://www.threads.net/intent/post?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">Threads</a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://wa.me/?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">WhatsApp</a>
       <a href="https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a>
       <a href="mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(articleUrl)}">Email</a>
-      <button type="button" data-copy-link="${articleUrl}">Copy link</button>
-      <button type="button" data-copy-link="${articleUrl}">WeChat copy</button>
+      <button type="button" data-copy-link="${articleUrl}">${isZh ? "複製連結" : "Copy link"}</button>
+      <button type="button" data-copy-link="${articleUrl}">Instagram</button>
+      <button type="button" data-copy-link="${articleUrl}">${isZh ? "微信複製" : "WeChat copy"}</button>
     </div>
+  `;
+}
+
+function heraldShareScript() {
+  return `
+    <script>
+      document.querySelectorAll("[data-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(button.dataset.copyLink);
+            button.textContent = "Copied";
+          } catch (error) {
+            button.textContent = button.dataset.copyLink;
+          }
+        });
+      });
+    </script>
   `;
 }
 
@@ -2895,6 +2915,7 @@ function heraldArticleBody(article) {
           <span>${article.category}</span>
         </div>
       </header>
+      ${shareLinksHerald(article, "en", "top")}
       <div class="oeh-body-grid">
         <main class="oeh-main-col">
           <div class="oeh-pullquote"><p>${pullQuote}</p></div>
@@ -2925,24 +2946,13 @@ function heraldArticleBody(article) {
           ${pathway ? pathwayHeraldSidebar() : genericHeraldSidebar(article)}
         </aside>
       </div>
-      ${shareLinksHerald(article)}
+      ${shareLinksHerald(article, "en")}
       <footer class="oeh-footer">
         <strong>海外留學導報 · Overseas Tutorial Centre</strong>
         <span>© 2026 Overseas Tutorial Centre Ltd · 207 Regent Street London W1B 3HH · overseasuk.com</span>
       </footer>
     </article>
-    <script>
-      document.querySelectorAll("[data-copy-link]").forEach((button) => {
-        button.addEventListener("click", async () => {
-          try {
-            await navigator.clipboard.writeText(button.dataset.copyLink);
-            button.textContent = "Copied";
-          } catch (error) {
-            button.textContent = button.dataset.copyLink;
-          }
-        });
-      });
-    </script>
+    ${heraldShareScript()}
   `;
 }
 
@@ -3184,6 +3194,7 @@ function zhArticleMagazineBody(article) {
           <span>${reviewColumn.audience}</span>
         </div>
       </header>
+      ${shareLinksHerald(article, "zh", "top")}
       <div class="zh-herald-body-grid">
         <main class="zh-herald-main">
           ${firstSection ? `
@@ -3300,11 +3311,13 @@ function zhArticleMagazineBody(article) {
           </article>
         </div>
       </section>
+      ${shareLinksHerald(article, "zh")}
       <footer class="zh-herald-footer">
         <strong>留學導報</strong>
         <span>© 2026 Overseas Tutorial Centre Ltd. · Overseas Publishing House · overseasuk.com</span>
       </footer>
     </div>
+    ${heraldShareScript()}
   `;
 }
 
