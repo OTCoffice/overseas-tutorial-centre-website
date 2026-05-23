@@ -7246,6 +7246,129 @@ h1 {
   grid-template-columns: minmax(0, 1fr) auto;
 }
 
+.school-herald-strip {
+  background: #17100b;
+  border-radius: 8px;
+  color: #fff;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.school-herald-strip article {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 18px 16px;
+}
+
+.school-herald-strip b,
+.school-herald-strip span {
+  display: block;
+}
+
+.school-herald-strip b {
+  color: #e2ad42;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1;
+}
+
+.school-herald-strip span {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.school-china-panel,
+.school-decision-table {
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.96), rgba(237, 247, 245, 0.94)),
+    #fff;
+  border: 1px solid rgba(31, 94, 82, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 14px 40px rgba(6, 26, 47, 0.06);
+  padding: clamp(20px, 3vw, 34px);
+}
+
+.school-china-panel > div:first-child {
+  border-left: 6px solid #c23b22;
+  margin-bottom: 18px;
+  padding-left: 18px;
+}
+
+.school-china-panel span {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.school-china-panel strong {
+  color: var(--navy);
+  display: block;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.14;
+  margin-top: 8px;
+}
+
+.school-china-panel p {
+  color: #3f4a57;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 12px 0 0;
+}
+
+.school-highlight-grid,
+.school-route-mini {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.school-highlight-grid article,
+.school-route-mini article {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ded2bf;
+  border-top: 4px solid #c23b22;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.school-highlight-grid article:nth-child(2),
+.school-route-mini article:nth-child(2) {
+  border-top-color: #2f8b82;
+}
+
+.school-highlight-grid article:nth-child(3),
+.school-route-mini article:nth-child(3) {
+  border-top-color: #b88a3b;
+}
+
+.school-highlight-grid article:nth-child(4),
+.school-route-mini article:nth-child(4) {
+  border-top-color: #4f6f9f;
+}
+
+.school-highlight-grid b,
+.school-route-mini b {
+  color: var(--navy);
+  display: block;
+  font-size: 17px;
+}
+
+.school-highlight-grid p,
+.school-route-mini p {
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 1.68;
+  margin: 8px 0 0;
+}
+
 @media (max-width: 900px) {
   .nsw-schools-briefing,
   .nsw-school-card-grid,
@@ -7254,7 +7377,10 @@ h1 {
   .school-facts,
   .school-service-cards,
   .school-steps,
-  .school-review-contact {
+  .school-review-contact,
+  .school-herald-strip,
+  .school-highlight-grid,
+  .school-route-mini {
     grid-template-columns: 1fr;
   }
 
