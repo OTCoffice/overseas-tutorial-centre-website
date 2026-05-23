@@ -1761,6 +1761,521 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "uk-online-safety-cyberbullying-legal-guide",
+    title: "Cyberbullying in the UK: Legal Protections and Reporting Guide for International Students",
+    date: "2026-05-23",
+    category: "Settlement & Life",
+    column: "settlement",
+    kicker: "網絡安全 · 英國法律",
+    author: "留學導報編輯部",
+    summary: "A practical UK guide for international students on online harassment, stalking, malicious communications, police reporting, Report Fraud, harmful content routes, university support and mental health resources.",
+    titleZh: "在英國遭受網絡暴力：留學生的法律保護與報案實務指南",
+    summaryZh: "英國沒有單一的「網絡暴力法」，但騷擾、跟蹤、威脅、惡意通訊、私密影像濫用和平台安全責任分別由多部法律與監管機制處理。本文整理留學生在英國遭遇網絡暴力時的保存證據、報案、平台舉報、大學支援與心理健康資源。",
+    body: [
+      {
+        heading: "1) How Common Online Abuse Is in the UK",
+        paragraphs: [
+          "Online abuse in the UK is not an isolated problem. It may appear as harassment, cyberstalking, trolling, doxing, threats, impersonation, intimate image abuse or coordinated abuse across platforms.",
+          "For overseas Chinese students, the facts can be cross-border: the victim may be in the UK, the perpetrator may be overseas, and the abuse may occur on Chinese-language platforms. That makes enforcement harder, but it does not mean UK reporting routes are irrelevant.",
+          "If the harm affects you in the UK, keep evidence and consider UK police, university, platform and support channels. Be realistic about cross-border outcomes, but do not assume nothing can be done."
+        ]
+      },
+      {
+        heading: "2) The UK Legal Framework",
+        paragraphs: [
+          "The UK does not have one single cyberbullying statute. Online abuse may be handled through several overlapping laws, depending on the content, repetition, threat level and impact.",
+          "The Protection from Harassment Act 1997 is often relevant where there is a course of conduct, including repeated unwanted communications or behaviour that causes alarm or distress. Cyberstalking may also be treated through harassment and stalking offences.",
+          "The Malicious Communications Act 1988 and Communications Act 2003 may apply to grossly offensive, indecent, obscene, menacing or threatening communications, depending on the exact facts and prosecutorial threshold.",
+          "The Public Order Act 1986 can be relevant where threatening, abusive or insulting words or behaviour are used in circumstances that may cause harassment, alarm or distress.",
+          "The Online Safety Act 2023 is the newer platform-regulation framework. It places duties on in-scope online services to assess and manage risks, including illegal content, and Ofcom is the regulator. This does not replace police reporting for crimes against an individual, but it changes what platforms are expected to do."
+        ]
+      },
+      {
+        heading: "3) First Step: Preserve Evidence",
+        paragraphs: [
+          "The safest sequence is: preserve evidence first, then block, mute or restrict contact.",
+          "Screenshots should show the account name, handle or ID, timestamp, platform name and surrounding context. For repeated harassment, organise evidence chronologically and number the files.",
+          "For webpages, save URLs and screenshots, and where possible preserve the page or export a copy. For voice or video content, keep the original file or a lawful screen recording.",
+          "Write a brief impact log: when the incident happened, how it affected your study, sleep, safety, movement, work, relationships or mental health, and whether you changed your routine because of it."
+        ]
+      },
+      {
+        heading: "4) Reporting to UK Police",
+        paragraphs: [
+          "If someone is in immediate danger or a crime is in progress, call 999. For non-emergency police reporting, call 101 or use your local police force's online reporting route.",
+          "For fraud and cybercrime in England, Wales and Northern Ireland, the national online route is now Report Fraud at reportfraud.police.uk. In Scotland, Police Scotland remains the main reporting route for many crime reports.",
+          "When reporting, prepare a timeline, the perpetrator's online identifiers, screenshots or files, platform links, any real-world identity information, and your impact statement. If the perpetrator appears to be overseas, tell the police clearly so jurisdiction and referral issues can be assessed."
+        ]
+      },
+      {
+        heading: "5) Reporting Harmful Content",
+        paragraphs: [
+          "Report Harmful Content, provided by the UK Safer Internet Centre and operated by SWGfL, gives practical guidance on reporting harmful content to major platforms and may support escalation in eligible cases.",
+          "For Facebook, Instagram, TikTok, YouTube, X and other major platforms, report through the platform first and keep the report reference or confirmation email.",
+          "For WeChat, Weibo, Xiaohongshu or other Chinese-language platforms, use the platform's complaint mechanisms and preserve every submission record. The UK Online Safety Act may apply to in-scope services with UK users, but practical enforcement and response times can vary."
+        ]
+      },
+      {
+        heading: "6) Civil Injunctions",
+        paragraphs: [
+          "In addition to criminal reporting, some victims may consider civil action such as an injunction to stop harassment. This is fact-specific and usually requires legal advice.",
+          "Legal aid may be available in limited circumstances, especially where domestic abuse, stalking or safeguarding issues are involved. Citizens Advice, university legal clinics and community advice services may help you find the right starting point."
+        ]
+      },
+      {
+        heading: "7) University Support",
+        paragraphs: [
+          "UK universities generally have student wellbeing, safeguarding, conduct, complaints or student support teams that can help students affected by online abuse.",
+          "If the abuse affects exams, coursework, attendance or safety, ask about mitigating circumstances, extensions, counselling, safety planning or temporary study adjustments.",
+          "If the abuse is linked to classmates, accommodation, societies or campus activity, make a university report as well as considering police or platform reporting."
+        ]
+      },
+      {
+        heading: "8) Mental Health Support",
+        paragraphs: [
+          "Online abuse can be destabilising and isolating. If you feel unsafe, overwhelmed or at risk of self-harm, seek urgent support.",
+          "Samaritans is available on 116 123 for free 24-hour emotional support. Mind provides mental health information and signposting. The Cyber Helpline offers free support for victims of cybercrime and online harm in the UK.",
+          "University counselling services and NHS Talking Therapies may also be relevant, depending on your location and eligibility."
+        ]
+      },
+      {
+        heading: "9) If the Perpetrator Is Overseas",
+        paragraphs: [
+          "Where the perpetrator is outside the UK, direct prosecution may be more difficult, and extradition is not a realistic outcome for many online-abuse cases.",
+          "Reporting can still matter: it creates an official record, may support university or immigration-related evidence needs, helps platforms assess removal requests, and may become relevant if the perpetrator later enters a UK jurisdiction or the conduct is part of a wider organised pattern.",
+          "Avoid overstating what police or platforms can guarantee. The strongest practical step is to preserve evidence, report through multiple appropriate channels, and get support early."
+        ]
+      },
+      {
+        heading: "10) Legal Boundary",
+        paragraphs: [
+          "This article is general information only and does not constitute legal advice. UK law differs across England and Wales, Scotland and Northern Ireland, and the right route depends on the facts.",
+          "For legal advice, consult a qualified solicitor or an appropriate advice service. For emergencies, call 999. For current reporting forms and thresholds, rely on official police, GOV.UK, Ofcom and support-service pages."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、英國的網絡暴力有多普遍",
+        paragraphs: [
+          "網絡暴力在英國不是個別事件，而是學生、移民和年輕專業人士都可能遇到的現實問題。它可能表現為網絡欺凌、針對性騷擾、cyberstalking、人肉搜索、威脅、冒用身份、私密影像濫用，或跨平台的集體攻擊。",
+          "對於在英國的海外華人留學生而言，這個問題有其特殊性：施害者可能在中國境內，受害者在英國；騷擾可能發生在微信、微博、小紅書等中文平台，但受害行為對你在英國的生活、學習和安全造成影響。",
+          "跨境性質會帶來法律適用和執法難度，但不代表報案沒有意義。如果你人在英國並受到實際影響，應保存證據，並考慮使用英國警方、學校、平台和心理支援渠道。"
+        ]
+      },
+      {
+        heading: "二、英國的法律框架：哪些法律可能保護你",
+        paragraphs: [
+          "英國沒有一部單一的「網絡暴力法」，但現有法律體系對網絡侵害行為有多個切入點。具體適用哪一部法律，要看內容、重複性、威脅程度、受害影響和證據情況。",
+          "《騷擾保護法》1997（Protection from Harassment Act 1997）常用於處理反覆、不受歡迎且造成 alarm or distress 的行為，包括線上持續騷擾和部分 cyberstalking 情況。所謂「虛擬圍攻」或多人集中攻擊，也可能在具體事實下被作為騷擾模式的一部分評估。",
+          "《惡意通訊法》1988（Malicious Communications Act 1988）及《通訊法》2003（Communications Act 2003）可能涵蓋嚴重冒犯性、猥褻性、威脅性或帶有惡意目的的通訊，包括社交媒體私信、群組信息及公開帖子。",
+          "《公共秩序法》1986（Public Order Act 1986）在涉及威脅、辱罵或侮辱性文字或視覺內容，並可能造成 harassment, alarm or distress 的情況下，也可能相關。",
+          "《線上安全法》2023（Online Safety Act 2023）是英國最新的重要平台監管框架。它對符合條件的線上服務提供商施加風險評估和安全義務，Ofcom 是監管機構。這部法律主要約束平台，不取代個人遭受犯罪時向警方報案的路線。"
+        ]
+      },
+      {
+        heading: "三、第一步：保存證據",
+        paragraphs: [
+          "與澳洲情況相同，正確的第一步是先保存，再屏蔽。許多受害者在情緒衝擊下會立刻刪除、退出群聊或拉黑對方，但這可能直接損害日後的法律追究能力。",
+          "截圖時要確保畫面包含發布賬號的用戶名、ID 或 handle、發布時間戳、平台名稱和上下文，不要只截取文字內容。對於涉及多條信息的騷擾，按時間順序整理截圖並編號。",
+          "對於網頁內容，保存 URL、日期和截圖；如條件允許，可保存完整頁面。對於視頻或語音內容，保留原始文件或在合法、安全的情況下使用錄屏工具保存完整片段。",
+          "同時記錄你發現內容的時間，以及每次騷擾對你學業、睡眠、出行、安全感、社交生活和心理狀態的具體影響。這類影響記錄在後續報案、學校支援或法律程序中都可能有用。"
+        ]
+      },
+      {
+        heading: "四、向英國警方報案",
+        paragraphs: [
+          "如果涉及即時人身威脅、正在發生的犯罪或生命安全風險，請撥打 999。非緊急情況可撥打 101，或使用所在地警隊的網上報案渠道。",
+          "涉及詐騙、身份盜用、賬號入侵或部分網絡犯罪時，英格蘭、威爾士和北愛爾蘭目前的國家在線入口是 Report Fraud：reportfraud.police.uk。蘇格蘭案件通常應優先查看 Police Scotland 的報案渠道。",
+          "報案時應提供完整事件時間線、施害者所有網絡身份信息（賬號名、ID、頭像截圖、鏈接）、已保存的截圖及文件，以及每次騷擾對你的具體影響陳述。如果你懷疑施害者在中國境內，也應告知警方，讓警方評估管轄、轉介和跨境因素。"
+        ]
+      },
+      {
+        heading: "五、向 Report Harmful Content 舉報",
+        paragraphs: [
+          "Report Harmful Content（RHC）由 UK Safer Internet Centre 提供、SWGfL 運營，主要協助個人理解如何向各大平台舉報有害內容，並在符合條件時提供進一步指引。",
+          "如果內容出現在 Facebook、Instagram、TikTok、YouTube、X 等平台，應先使用平台內部舉報機制，並保存舉報編號、確認郵件或截圖。",
+          "如果侵害發生在微信、微博或小紅書等中文平台，也應使用平台官方投訴渠道提交申請並保存記錄。部分在英國提供服務的平台可能落入《線上安全法》監管範圍，但實際回應速度和可執行性會因平台而異，因此不要只依賴單一渠道。"
+        ]
+      },
+      {
+        heading: "六、申請民事禁制令",
+        paragraphs: [
+          "除刑事報案外，部分受害者也可考慮民事途徑，例如申請禁制令（injunction）要求施害者停止騷擾行為。這類申請高度依賴個案事實，通常需要律師協助。",
+          "在英格蘭及威爾士，法律援助（Legal Aid）在特定條件下可能適用，尤其是涉及家庭暴力、跟蹤、保護令或其他安全風險的案件。Citizens Advice、大學法律診所或社區法律服務可協助你判斷從哪裡開始。"
+        ]
+      },
+      {
+        heading: "七、大學的支援角色",
+        paragraphs: [
+          "英國大學通常設有學生福利、學生安全、safeguarding、學生申訴或 counselling 相關部門，可協助學生記錄事件、制定安全計劃、聯繫警方，並在必要時調整學業安排。",
+          "如果網絡暴力影響到考試、作業、出勤或日常學習，建議同時向大學學生支援部門備案，詢問 mitigating circumstances、延期、臨時學習安排或心理支援。",
+          "如果事件與同學、住宿、學生社團或校園活動有關，校內記錄尤其重要。它可在後續學業安排、福利支援或其他程序中作為背景文件。"
+        ]
+      },
+      {
+        heading: "八、心理健康支援",
+        paragraphs: [
+          "遭受網絡暴力對心理健康的衝擊不應被低估。如果你感到恐懼、失眠、無法上課、持續焦慮，或出現自傷念頭，請儘快尋求支援。",
+          "Samaritans：116 123，24 小時免費情緒支援。Mind：mind.org.uk，提供心理健康資訊及支援服務。The Cyber Helpline：thecyberhelpline.com，為英國網絡犯罪和線上侵害受害者提供免費實務支援。",
+          "大學學生諮詢服務通常對在讀學生免費或低費用。NHS Talking Therapies 也可能適用，可通過 GP 轉介或在部分地區自行申請，等候時間因地區而異。"
+        ]
+      },
+      {
+        heading: "九、施害者在中國境內的特殊情況",
+        paragraphs: [
+          "對於在英國的海外華人，施害者可能身處中國，這會增加執法難度。現實地說，英國警方對身在海外的施害者直接採取刑事追訴或引渡，在很多網絡騷擾案件中並不容易。",
+          "但報案仍有實際意義：建立正式受害記錄，作為學校支援、移民申請或其他程序中的書面背景；支撐平台內容移除或賬號處理申請；並在施害者日後進入英國司法管轄範圍時，讓既有記錄可以被調取。",
+          "如果你認為騷擾行為具有有組織、跨平台或持續升級的特徵，報案時應明確說明，並提交按時間整理的證據包。"
+        ]
+      },
+      {
+        heading: "十、重要提示",
+        paragraphs: [
+          "本文所列法律資訊及舉報渠道以英國官方機構最新公佈為準。具體法律情況因個案而異，且英格蘭及威爾士、蘇格蘭、北愛爾蘭的法律制度和報案路徑可能不同。",
+          "如需法律意見，請諮詢合資格 solicitor 或適當法律服務機構。本文不構成法律建議；如有即時危險，請撥打 999。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["999", "Emergency", "如有人身安全或生命危險，立即撥打 999。", "urgent"],
+      ["101", "Police non-emergency", "非緊急報案或警務協助，可用所在地警隊網上渠道。", "police"],
+      ["Report Fraud", "Cybercrime / fraud", "英格蘭、威爾士和北愛部分網絡犯罪與詐騙舉報入口。", "online"],
+      ["RHC", "Harmful content", "協助理解各平台有害內容舉報流程。", "report"]
+    ],
+    resources: [
+      ["Online Safety Act - GOV.UK", "https://www.gov.uk/government/collections/online-safety-act"],
+      ["Online Safety Act explainer - GOV.UK", "https://www.gov.uk/government/publications/online-safety-act-explainer"],
+      ["Contact the police - GOV.UK", "https://www.gov.uk/contact-police"],
+      ["How to report - Police.uk", "https://www.police.uk/pu/contact-us/what-and-how-to-report/how-to-report/"],
+      ["Report Fraud", "https://www.reportfraud.police.uk/"],
+      ["Report Harmful Content", "https://reportharmfulcontent.com/"],
+      ["Report Harmful Content - UK Safer Internet Centre", "https://saferinternet.org.uk/report-harmful-content"],
+      ["The Cyber Helpline", "https://www.thecyberhelpline.com/united-kingdom"],
+      ["Samaritans", "https://www.samaritans.org/how-we-can-help/contact-samaritan/"],
+      ["Mind", "https://www.mind.org.uk/"],
+      ["Citizens Advice", "https://www.citizensadvice.org.uk/"]
+    ],
+    relatedReadings: [
+      "australia-online-safety-cyberbullying-legal-guide",
+      "overseas-chinese-media-interview-guide"
+    ]
+  },
+  {
+    slug: "australia-online-safety-cyberbullying-legal-guide",
+    title: "Online Abuse in Australia: A Practical Legal Protection and Reporting Guide for International Students",
+    date: "2026-05-23",
+    category: "Settlement & Life",
+    column: "settlement",
+    kicker: "網絡安全 · 法律保護",
+    author: "留學導報編輯部",
+    summary: "A practical guide for international students in Australia on documenting online abuse, reporting urgent and non-urgent incidents, using ReportCyber and eSafety channels, seeking university support and protecting mental health.",
+    titleZh: "在澳洲遭受網絡暴力：留學生的法律保護與報警實務指南",
+    summaryZh: "網絡暴力在澳洲可能涉及線上安全、刑事威脅、騷擾、身份冒用或私密影像濫用等問題。本文整理留學生遭遇網絡暴力時的證據保存、報警渠道、eSafety 投訴、大學支援與心理健康資源。",
+    body: [
+      {
+        heading: "1) How Australia Understands Online Abuse",
+        paragraphs: [
+          "Online abuse in Australia is not only a moral or social-media issue. Depending on the facts, it may involve adult cyber abuse, image-based abuse, cyberstalking, threats, impersonation, harassment or other criminal conduct.",
+          "The Online Safety Act 2021 gives the eSafety Commissioner a central role in handling certain online harms, while state and territory criminal laws may also apply to threats, stalking, intimidation, identity misuse and related behaviour.",
+          "For international students, the practical point is simple: if you are in Australia and the harm affects you here, you should consider Australian reporting and support channels even if the perpetrator appears to be overseas. Cross-border enforcement can be complex, so keep expectations realistic and preserve evidence carefully."
+        ]
+      },
+      {
+        heading: "2) First Step: Preserve Evidence Before Blocking",
+        paragraphs: [
+          "Many victims instinctively delete, block or leave a group chat. That reaction is understandable, but it can damage later reporting. A safer sequence is: preserve evidence first, then block or restrict contact.",
+          "Screenshots should include the account name, handle or ID, profile image where relevant, platform name and timestamp. For repeated harassment, organise screenshots in chronological order and number them.",
+          "For video or voice content, preserve the original file or screen recording where lawful and safe to do so. For webpages, save the page where possible and keep URLs, dates, usernames and platform details.",
+          "Also write a short impact note: when you found the content, how it affected your study, sleep, safety, work, social life or mental health, and whether you changed your daily routine because of it."
+        ]
+      },
+      {
+        heading: "3) Reporting to Police",
+        paragraphs: [
+          "If there is an immediate risk to life or safety, call Triple Zero (000). For non-urgent police assistance in Australia, the Police Assistance Line is 131 444, and you may also attend a local police station.",
+          "Cybercrime reports can also be submitted through ReportCyber at cyber.gov.au/report, especially where the matter involves online accounts, multiple platforms, scams, account compromise or complex digital evidence.",
+          "When reporting, prepare a concise timeline, the perpetrator's online identifiers, screenshots or files, any known real-world identity information, and your impact statement. The clearer your evidence pack, the easier it is for a police officer or referral body to understand the case."
+        ]
+      },
+      {
+        heading: "4) Reporting to the eSafety Commissioner",
+        paragraphs: [
+          "The eSafety Commissioner is Australia's online safety regulator and operates reporting schemes for matters such as adult cyber abuse, image-based abuse and cyberbullying involving children.",
+          "The central reporting entry point is esafety.gov.au/report. eSafety may be able to help with content removal processes in eligible cases, but the exact outcome depends on the content, platform, evidence and legal threshold.",
+          "For abuse occurring on overseas or Chinese-language platforms, it can still be worth preserving evidence and lodging the most suitable report. However, platform response and enforcement may vary, so do not rely on one channel only."
+        ]
+      },
+      {
+        heading: "5) University Support",
+        paragraphs: [
+          "Australian universities usually have student safety, wellbeing, counselling, complaints or conduct teams that can support students affected by online abuse.",
+          "The university may help record the incident, discuss safety planning, refer you to counselling, help you contact police, or consider study adjustments such as assessment extensions or temporary remote arrangements where appropriate.",
+          "If the abuse is linked to campus life, classmates, student groups, accommodation or university activities, making an internal report can create a useful record for later academic or welfare support."
+        ]
+      },
+      {
+        heading: "6) Mental Health Support",
+        paragraphs: [
+          "Online abuse can create real psychological harm. If you feel unsafe, overwhelmed or at risk of self-harm, seek urgent support.",
+          "Lifeline is available on 13 11 14 for crisis support. Beyond Blue provides mental health support on 1300 22 4636. 1800RESPECT is available on 1800 737 732 for sexual, domestic and family violence support, including technology-facilitated abuse contexts.",
+          "International students should also check their university counselling service and overseas student health cover support pathways."
+        ]
+      },
+      {
+        heading: "7) Legal Boundary",
+        paragraphs: [
+          "This article is general public information only and does not constitute legal advice. The right reporting path depends on the platform, content, location, identity of the perpetrator, level of threat and available evidence.",
+          "For legal advice, consult an Australian legal practitioner or a community legal centre. For emergencies, use 000. For current reporting thresholds and forms, rely on official police, eSafety and ReportCyber pages."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、澳洲如何定義網絡暴力",
+        paragraphs: [
+          "網絡暴力在澳洲不是模糊的道德問題，而是可能進入法律規管範圍的行為。澳洲聯邦層面的《線上安全法》（Online Safety Act 2021）是目前最主要的線上安全監管框架，同時各州及領地亦可能有針對網絡騷擾、身份冒用、跟蹤、威脅及恐嚇的刑事條文。",
+          "根據澳洲現行線上安全監管框架，常見需要留意的行為包括：針對特定個人的嚴重網絡濫用內容（adult cyber abuse / cyber abuse material）、未經同意發布私密影像（image-based abuse）、持續性網絡騷擾或 cyberstalking，以及在網上發布足以令當事人產生恐懼的威脅性內容。",
+          "對留學生而言，一個重要認知是：即使施害者身處中國或其他國家，只要你人在澳洲、侵害對你的生活和安全造成影響，就應考慮使用澳洲的報警、eSafety、學校和心理支援渠道。跨境執法可能複雜，不能保證每個案件都能立即處理，但保留證據和正式報告仍然重要。"
+        ]
+      },
+      {
+        heading: "二、第一步：保存證據",
+        paragraphs: [
+          "遭受網絡暴力後，很多人的第一反應是刪除、退出群聊或屏蔽對方。這種反應完全可以理解，但若未先保存證據，可能會削弱日後報警、投訴或向學校求助的能力。比較安全的順序是：先保存，再屏蔽。",
+          "截圖時要確保畫面包含發布賬號的用戶名、ID 或 handle、發布時間戳、平台名稱，以及必要時的頭像或個人頁面信息，不要只截取文字內容。對於涉及多條信息的騷擾，按時間順序整理截圖並編號。",
+          "如果是視頻或語音內容，盡量保存原始文件或使用錄屏工具保存完整片段。對於網頁內容，可以保存 URL、日期和頁面截圖；如條件允許，也可用瀏覽器保存完整頁面，以便保留更多上下文。",
+          "同時建議記錄你發現內容的時間、平台、當時情境，以及這件事對你睡眠、學習、出行、安全感、心理健康或社交生活造成的具體影響。這類影響陳述看似主觀，但在後續求助或報案時很有用。"
+        ]
+      },
+      {
+        heading: "三、向澳洲警方報案",
+        paragraphs: [
+          "如果涉及即時人身威脅、正在發生的危險或生命安全風險，請直接撥打 000。非緊急情況可撥打 131 444（澳洲非緊急警察協助熱線），或前往最近的警察局提交報案。",
+          "網絡犯罪亦可通過澳洲官方 ReportCyber 平台在線提交：cyber.gov.au/report。這個渠道適合處理網絡賬號、跨平台騷擾、詐騙、入侵、身份冒用或複雜數字證據等案件，報告會按情況轉介至相關執法或支援機構。",
+          "報案時應準備：事件時間線、施害者的網絡身份信息（賬號名、ID、頭像截圖、鏈接）、所有已保存的證據文件，以及事件對你日常生活、學業和心理健康的具體影響。證據包越清晰，越有助於警員理解案件性質。"
+        ]
+      },
+      {
+        heading: "四、向 eSafety Commissioner 投訴",
+        paragraphs: [
+          "澳洲 eSafety Commissioner 是《線上安全法》授權的獨立監管機構，處理多類線上安全投訴，包括針對成人的嚴重網絡濫用（Adult Cyber Abuse）、非自願私密影像（Image-based Abuse），以及涉及未成年人的網絡欺凌。",
+          "投訴入口是 esafety.gov.au/report。投訴時通常需要提交截圖、鏈接、平台信息和事件說明。eSafety 在符合條件的案件中可協助推動內容移除或採取其他監管措施，具體結果取決於內容性質、平台、證據和法律門檻。",
+          "如果騷擾發生在微信、微博、小紅書或其他中文平台，也仍然值得保存證據並評估是否向 eSafety 或平台投訴。不過，不同平台的回應速度和澳洲監管可及性可能不同，因此不應只依賴單一渠道。"
+        ]
+      },
+      {
+        heading: "五、校園資源：大學的支援角色",
+        paragraphs: [
+          "澳洲大學通常設有學生安全、學生福利、學生申訴、學生行為或 counselling 相關部門，可協助受到網絡暴力影響的學生記錄事件、制定安全計劃、聯繫警方或安排心理支援。",
+          "如果事件影響到考試、作業、出勤或日常學習，你也可以向學校說明情況，詢問是否可以申請延期考試、作業延期、臨時遠程上課或其他合理支援安排。",
+          "如果網絡暴力與校園環境、同學、學生社群、住宿或大學活動有關，除了向警方或 eSafety 求助，也應向學校相關部門備案。這份校內記錄在後續需要學校出具支援文件時可能會有用。"
+        ]
+      },
+      {
+        heading: "六、心理健康支援",
+        paragraphs: [
+          "遭受網絡暴力對心理健康的衝擊往往被低估。如果你感到恐懼、失眠、無法上課、持續焦慮，或出現自傷念頭，請儘快尋求支援。",
+          "Lifeline：13 11 14，提供 24 小時危機支援。Beyond Blue：1300 22 4636，提供心理健康支援。1800RESPECT：1800 737 732，如網絡暴力涉及性暴力、家庭暴力、親密關係暴力或 technology-facilitated abuse 背景，可聯絡該服務。",
+          "大學學生諮詢服務（Student Counselling）通常對在讀學生免費或低費用，部分學校可較快安排初次面談。留學生也可以查看自己的 OSHC 或學校國際學生支援服務。"
+        ]
+      },
+      {
+        heading: "七、重要提示",
+        paragraphs: [
+          "本文所列法律資訊及投訴渠道以澳洲官方機構最新公佈為準。具體法律情況因個案而異，會受到內容性質、平台、證據、地點、威脅程度和施害者身份等因素影響。",
+          "如需法律意見，請諮詢持牌澳洲律師或社區法律中心。本文不構成法律建議；如有即時危險，請撥打 000。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["000", "Emergency", "如有人身安全或生命危險，立即撥打 000。", "urgent"],
+      ["131 444", "Police Assistance Line", "非緊急警察協助，可用於非即時危險的報案或諮詢。", "police"],
+      ["ReportCyber", "Cybercrime report", "適合網絡犯罪、賬號、詐騙、跨平台數字證據等案件。", "online"],
+      ["eSafety", "Online safety regulator", "可處理成人 cyber abuse、image-based abuse 及部分網絡欺凌投訴。", "report"]
+    ],
+    resources: [
+      ["eSafety report page", "https://www.esafety.gov.au/report"],
+      ["Adult cyber abuse - eSafety", "https://www.esafety.gov.au/key-issues/adult-cyber-abuse"],
+      ["Report image-based abuse - eSafety", "https://www.esafety.gov.au/key-topics/image-based-abuse/report-image-based-abuse"],
+      ["ReportCyber", "https://www.cyber.gov.au/report"],
+      ["Police Assistance Line 131 444", "https://www.health.gov.au/contacts/police-assistance-line"],
+      ["Triple Zero 000", "https://www.triplezero.gov.au/"],
+      ["Lifeline", "https://www.lifeline.org.au/"],
+      ["Beyond Blue", "https://www.beyondblue.org.au/"],
+      ["1800RESPECT", "https://www.1800respect.org.au/"]
+    ],
+    relatedReadings: [
+      "overseas-chinese-media-interview-guide",
+      "australia-new-zealand-provider-pathway-updates-2026"
+    ]
+  },
+  {
+    slug: "overseas-chinese-media-interview-guide",
+    title: "When a Journalist Contacts You: What Overseas Chinese Should Know Before a Media Interview",
+    date: "2026-05-23",
+    category: "Settlement & Life",
+    column: "settlement",
+    kicker: "媒體採訪 · 個人保護",
+    author: "留學導報編輯部",
+    summary: "A practical decision guide for overseas Chinese students, migrants and professionals before accepting interviews with international media, covering editorial framing, identity protection, review rights, release forms and cross-border risk.",
+    titleZh: "當記者找上你：海外華人接受境外媒體採訪前應該知道的事",
+    summaryZh: "海外華人被國際媒體邀請採訪時，既可能獲得重要發聲機會，也可能面臨身份曝光、跨境傳播、合約條款和敘事框架風險。本文整理接受採訪前應問清楚的問題與書面保護要點。",
+    body: [
+      {
+        heading: "1) Why This Matters for Overseas Chinese Communities",
+        paragraphs: [
+          "International students, new migrants and professionals overseas may be contacted by BBC, ABC, SBS, The Guardian or other media after sharing a personal experience online or speaking at a public event.",
+          "The invitation may feel validating, but the interviewee may not understand Western media workflows, release forms, editorial framing or the cross-border consequences of publication.",
+          "This article is not designed to tell you to accept or reject an interview. It is a checklist for asking the right questions before deciding."
+        ]
+      },
+      {
+        heading: "2) Seven Questions to Ask Before an Interview",
+        paragraphs: [
+          "What is the editorial angle? Ask what the report or documentary is trying to show, and how your story will support that argument.",
+          "How will my words be used? Clarify whether your contribution will appear as a direct quote, video clip, voiceover, background information or anonymised testimony.",
+          "Do I have a right of review? This usually means the right to check facts relating to you before publication, not the right to control the journalist's editorial conclusion.",
+          "How will my identity appear? Confirm whether your full name, face, voice, location, university, employer or family details will be identifiable.",
+          "Where will the content be published? A programme may be made for one market but later clipped, translated or circulated globally.",
+          "Will I be asked to sign a release or consent form? Ask for it before the interview day and read it carefully.",
+          "Can I withdraw before publication? Clarify whether there is a withdrawal deadline, and what happens if you change your mind."
+        ]
+      },
+      {
+        heading: "3) What the Agreement Should Cover",
+        paragraphs: [
+          "Oral promises are fragile. Key protections should be confirmed in writing, whether through a formal agreement or a clear email thread.",
+          "Useful written terms include the interview purpose, permitted use, format of publication, anonymity or masking measures, fact-check process, publication platforms and regions, and withdrawal deadline.",
+          "For large media organisations, ask for the draft release form in advance. You are entitled to take time to read it and, where appropriate, seek legal advice."
+        ]
+      },
+      {
+        heading: "4) Cross-Border Impact",
+        paragraphs: [
+          "For people based in Australia or another overseas country but still deeply connected with China through family, work, business or future plans, cross-border impact is a realistic factor, not paranoia.",
+          "Consider whether family members could be affected, whether your career involves China-facing work, and whether online attention could affect your safety, wellbeing or future plans.",
+          "There is no single correct answer. Some people can speak publicly; others need anonymity or may decide not to participate."
+        ]
+      },
+      {
+        heading: "5) The Positive Value of Speaking",
+        paragraphs: [
+          "Caution does not mean silence. Speaking publicly about online abuse, discrimination or institutional failure can create real social value when done under appropriate protections.",
+          "It can show others that reporting is possible, help mainstream audiences understand overseas Chinese experiences, and sometimes support policy or platform change.",
+          "The question is not simply whether to speak, but under what conditions, with what boundaries, and with what preparation."
+        ]
+      },
+      {
+        heading: "6) If You Decide to Participate",
+        paragraphs: [
+          "Prepare a few clear sentences that express the core points you want to make. These are the words you would be comfortable seeing quoted.",
+          "List topics or identifying details you do not want disclosed, and tell the journalist before the interview. Consider having a trusted person accompany you or at least know where you are and who you are meeting.",
+          "If the interview is recorded, ask whether you can receive or keep a copy. After the interview, confirm any important clarifications by email."
+        ]
+      },
+      {
+        heading: "7) If You Decide to Decline",
+        paragraphs: [
+          "You do not need to give a detailed explanation. A short, polite email saying that you are not comfortable participating at this time is enough.",
+          "Your story belongs to you. You have the right to decide when, how and to whom it is told."
+        ]
+      },
+      {
+        heading: "8) Boundary",
+        paragraphs: [
+          "This article is general information only and does not constitute legal advice, media strategy advice or public relations advice.",
+          "For specific contract terms, consent forms, defamation risk, immigration consequences or legal responsibility, consult an Australian legal practitioner or other qualified adviser."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼這個話題對海外華人格外重要",
+        paragraphs: [
+          "每年都有海外華人，包括留學生、新移民和專業人士，因為在社交媒體分享了某段個人經歷，或在校園活動中作了一次公開發言，而被 BBC、ABC、SBS、《衛報》或其他西方主流媒體的記者主動聯繫，邀請參與報道或紀錄片拍攝。",
+          "這樣的邀請往往令人既受到重視，又感到不安。受訪者的故事確實有新聞價值，但受訪者本人未必熟悉西方媒體的運作邏輯、合約條款，以及一旦報道發布後可能帶來的跨境影響。",
+          "這篇文章不是要說服你接受或拒絕任何採訪邀請，而是幫你在作決定之前，把應該問的問題問清楚，把應該要求的保護要求到位。"
+        ]
+      },
+      {
+        heading: "二、接受採訪前必須釐清的七個問題",
+        paragraphs: [
+          "第一，這份報道的主題框架是什麼？記者在聯繫你時通常會給出一個初步描述，但「主題框架」（editorial angle）往往比描述更窄、更有立場。你可以直接問：這個紀錄片或報道的核心論點是什麼？你希望通過我的故事說明什麼？如果答案讓你感到你的故事會被用來支持一個你並不完全認同的結論，這是一個重要警示信號。",
+          "第二，我的發言會以什麼形式呈現？文字引述、視頻片段、配音旁白，還是只作背景資料？不同呈現形式對曝光程度和被斷章取義的風險有本質差異，應要求記者明確說明並以書面確認。",
+          "第三，我是否有審閱權（Right of Review）？審閱權通常是指在報道發布前，你有機會核實涉及你的部分是否準確，並要求更正事實錯誤。注意，審閱權不等於編輯權，你通常無法要求修改記者的敘述角度，但可以要求糾正涉及自己的事實錯誤。",
+          "第四，我的身份會以何種程度公開？全名、全臉、聲音、所在地、學校、工作單位、家人背景，還是可以匿名或部分匿名？紀錄片製作尤其涉及視覺識別，匿名保護的技術落實方式需要明確確認，而不是只靠口頭承諾。",
+          "第五，這份內容會在哪些平台和地區發布？在互聯網環境下，「只在某地區播出」並不等於內容不會被截取、翻譯或轉傳。你需要評估：如果這份報道被截取並在國內社交媒體廣泛傳播，你是否準備好接受可能後果。",
+          "第六，採訪前是否需要簽署任何文件？許多媒體機構要求受訪者簽署 Release Form 或 Consent Form。這類文件通常是有利於媒體機構的格式合約，你有權要求對方提前提供文件，必要時諮詢律師。不要在採訪當天才第一次看到文件。",
+          "第七，如果我在發布前想退出，有沒有撤回機制？製作完成前是否可以撤回參與？撤回截止時間是何時？這個問題不代表你一定會退出，但在決定參與之前知道退出通道是否存在，是保護自己的基本常識。"
+        ]
+      },
+      {
+        heading: "三、協議應該包含的內容",
+        paragraphs: [
+          "口頭承諾在媒體採訪中很脆弱。以下條款應以書面形式確認，可以是正式合約，也可以是清楚的電郵往來：受訪目的與使用範圍、採訪內容是否只用於特定項目、呈現形式、匿名保護的具體技術措施、事實審閱流程與時間安排、發布平台與地區範圍，以及你的撤回權利和截止日期。",
+          "如果對方是大型媒體機構，他們的法律團隊通常有標準協議格式。你可以要求對方先發協議草稿，再決定是否繼續。",
+          "不要因為對方是知名媒體就放棄閱讀條款。越是傳播能力強的平台，越需要把身份保護、使用範圍和撤回機制說清楚。"
+        ]
+      },
+      {
+        heading: "四、跨境影響的現實評估",
+        paragraphs: [
+          "對於身在澳洲但與中國仍有深度連結，例如家人、事業、未來回國計劃或中國市場工作的受訪者，跨境影響是一個需要認真評估的現實維度，而不是過度焦慮。",
+          "需要考慮的問題包括：你在國內的家人是否可能因為你的發言受到影響？你目前或未來的職業計劃是否涉及與中國的業務往來？你的簽證狀態、心理健康、安全感或未來移民計劃是否可能受到輿論環境影響？",
+          "這些問題沒有統一答案。有些人的情況允許他們公開發聲，有些人的處境需要更謹慎的保護措施。重要的是在接受採訪之前，而不是之後，把這些問題想清楚。"
+        ]
+      },
+      {
+        heading: "五、參與的正面價值",
+        paragraphs: [
+          "上面列出很多需要謹慎的理由，但這不是說接受採訪必然是壞事。公開講述網絡暴力、歧視或制度性失誤的經歷，在適當保護條件下，可以產生真實的社會價值。",
+          "它為其他有類似遭遇的人提供可見先例，說明維權是可能的；它向主流社會傳遞海外華人群體的真實處境；它也可能推動媒體平台、學校或立法機構重新重視某些問題。",
+          "問題不在於要不要發聲，而在於在什麼條件下發聲，以及你對可能後果有多充分的準備。正義的聲張從來不是一帆風順，但有準備的聲張，比倉促的決定，往往走得更遠。"
+        ]
+      },
+      {
+        heading: "六、如果你決定參與",
+        paragraphs: [
+          "確認所有書面協議後，在正式採訪前做好準備。把你想表達的核心觀點整理成幾個清晰句子，這些是你希望被引用的內容。",
+          "把你不希望被觸及或公開的細節列出來，採訪前明確告訴記者這些是邊界。找一個你信任的人陪同採訪，或者至少讓他知道你在哪裡、和誰見面。",
+          "如果採訪是視頻或錄音形式，可以詢問是否能獲得一份採訪錄音副本留存。採訪結束後，如果有任何不確定的地方，用電郵向記者確認你的陳述被正確理解，留下文字記錄。"
+        ]
+      },
+      {
+        heading: "七、如果你決定拒絕",
+        paragraphs: [
+          "拒絕採訪邀請不需要詳細解釋理由。一封禮貌的電郵說明你目前不方便參與即可。",
+          "你的故事是你的，你有完全的權利決定何時、以何種方式、向誰講述它。"
+        ]
+      },
+      {
+        heading: "八、重要提示",
+        paragraphs: [
+          "本文為一般性資訊，不構成法律建議、媒體公關建議或合約建議。涉及具體合約條款、法律責任、誹謗風險、身份保護或跨境後果，請諮詢持牌澳洲律師或其他合資格專業人士。",
+          "本文不代表對任何媒體機構的立場或評價。每一次採訪是否適合參與，都應根據個人安全、身份風險、家庭情況和書面協議具體判斷。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Editorial angle", "主題框架", "先問清楚報道想用你的故事說明什麼。", "frame"],
+      ["Review right", "事實審閱", "爭取核對涉及你的事實錯誤，不等於控制編輯立場。", "facts"],
+      ["Identity", "身份保護", "匿名、打碼、變聲、地點和學校信息都要書面確認。", "privacy"],
+      ["Withdrawal", "撤回機制", "在拍攝和發布前先問清楚退出截止點。", "exit"]
+    ],
+    resources: [
+      ["BBC Editorial Guidelines", "https://www.bbc.co.uk/editorialguidelines/"],
+      ["ABC Editorial Policies", "https://www.abc.net.au/edpols/"],
+      ["SBS Codes of Practice", "https://www.sbs.com.au/aboutus/codes-of-practice/"],
+      ["Arts Law Centre of Australia", "https://www.artslaw.com.au/"],
+      ["LawAccess NSW", "https://www.lawaccess.nsw.gov.au/"]
+    ],
+    relatedReadings: [
+      "australia-online-safety-cyberbullying-legal-guide",
+      "australia-new-zealand-provider-pathway-updates-2026"
+    ]
+  },
+  {
     slug: "othm-credits-australia-advanced-entry",
     title: "OTHM Credits in Australian University Entry and Credit Transfer: A Practical Analysis",
     date: "2026-05-23",
