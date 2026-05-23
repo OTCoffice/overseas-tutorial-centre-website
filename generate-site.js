@@ -5796,7 +5796,7 @@ const chineseEntrance = pageShell({
             <b>澳洲辦公室</b>
             <strong>Georgie Barnes 正式受任 OTC Australia 執行董事</strong>
             <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
-            <a href="/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
+            <a href="/zh/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
           </article>
         </div>
       </div>
@@ -5812,7 +5812,7 @@ const regionalOfficePages = [
     subtitle: "Commonwealth Gateway",
     desc: "面向英國、澳洲、加拿大、新西蘭及其他英聯邦教育路線的申請、轉學、文件與家庭支持入口。",
     regions: ["UK head office coordination", "Australia office route", "Canada / New Zealand route screening", "Commonwealth school and university applications"],
-    links: [["澳洲辦公室路線", "/australia-office-presence/"], ["英澳申請文件清單", "/zh/insights/uk-aus-application-documents-checklist/"], ["大學申請評估", "/university-applications/"]]
+    links: [["澳洲辦公室路線", "/zh/australia-office-presence/"], ["英澳申請文件清單", "/zh/insights/uk-aus-application-documents-checklist/"], ["大學申請評估", "/university-applications/"]]
   },
   {
     id: "united-states",
@@ -6543,7 +6543,7 @@ const australiaOfficePresence = pageShell({
   description: "OTC's Australia-facing office route from NSW: coordination base, university applications, student support, institutional services, market intelligence and professional referral.",
   path: "/australia-office-presence/",
   body: `
-    <section class="page-hero australia-office-hero"><div class="band"><div class="eyebrow">Australia Office Presence</div><h1>OTC Australia Office Route</h1><p>A staged NSW-based operating route for education consulting, student support, institutional services and Australia-facing market development.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence">Contact OTC</a><a class="btn btn-secondary" href="/about/">Back to About</a></div></div></section>
+    <section class="page-hero australia-office-hero"><div class="band"><div class="eyebrow">Australia Office Presence</div><h1>OTC Australia Office Route</h1><p>A staged NSW-based operating route for education consulting, student support, institutional services and Australia-facing market development.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence">Contact OTC</a><a class="btn btn-secondary" href="/about/">Back to About</a><a class="btn btn-secondary" href="/zh/australia-office-presence/">中文頁面</a></div></div></section>
 
     <section class="band">
       <div class="australia-office-intro">
@@ -7000,6 +7000,137 @@ const australiaOfficePresence = pageShell({
         </div>
         <a class="btn btn-dark" href="/australia-vet-tafe-pathways/">Open map</a>
       </div>
+    </section>
+  `
+});
+
+const australiaOfficePresenceZh = pageShell({
+  title: "澳洲辦公室路線 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  description: "OTC 澳洲辦公室中文鏡像頁：NSW 協調基地、大學申請、中小學通道、VET/TAFE、資格路線、學生支持、機構服務、市場情報及專業轉介邊界。",
+  path: "/zh/australia-office-presence/",
+  body: `
+    <section class="page-hero australia-office-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲辦公室路線</div><h1>OTC Australia Office Route</h1><p>以新南威爾士州為起點，建立教育諮詢、學生支持、院校申請、機構服務與澳洲市場發展的分階段運作路線。</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence%20Chinese%20Enquiry">聯絡 OTC</a><a class="btn btn-secondary" href="/australia-office-presence/">English page</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div></div></section>
+
+    <section class="band">
+      <div class="australia-office-intro">
+        <div>
+          <div class="eyebrow">Operating Position</div>
+          <h2>先建立本地存在，再逐步加深服務能力。</h2>
+          <p>OTC 的澳洲路線從 NSW 協調基地開始，向大學申請支持、家庭溝通、雙語機構服務、市場情報及專業轉介延展。這一路線強調可留痕、可審閱、可持續發展：每一項活動都應形成清楚記錄，支持業務規劃、院校溝通及專業審查。</p>
+          <figure class="coordination-illustration" aria-label="澳洲教育協調網絡示意圖">
+            <svg viewBox="0 0 820 260" role="img" aria-labelledby="coordinationIllustrationTitleZh">
+              <title id="coordinationIllustrationTitleZh">澳洲教育協調網絡</title>
+              <defs><linearGradient id="coordinationLineZh" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#b88a3b" stop-opacity="0.18"/><stop offset="52%" stop-color="#1f5e52" stop-opacity="0.38"/><stop offset="100%" stop-color="#b88a3b" stop-opacity="0.22"/></linearGradient></defs>
+              <path class="coordination-shelf" d="M42 212 H768"/>
+              <path class="coordination-route" d="M82 164 C176 96, 242 188, 332 122 S506 64, 638 130 S728 174, 780 92"/>
+              <path class="coordination-route faint" d="M126 210 C218 166, 286 232, 384 188 S548 132, 718 198"/>
+              <g class="coordination-microgrid">
+                <path d="M58 68 C140 42, 206 88, 272 62 S410 34, 494 72 S632 110, 746 58"/>
+                <path d="M54 104 C154 82, 232 134, 318 100 S454 76, 568 118 S684 148, 774 114"/>
+                <path d="M76 136 C184 116, 260 158, 368 142 S520 98, 618 156 S724 202, 784 158"/>
+                <path d="M112 184 C206 140, 288 210, 416 168 S610 154, 748 220"/>
+              </g>
+              <g class="coordination-index-lines"><path d="M210 82 H292 V122"/><path d="M454 84 H526 V130"/><path d="M292 174 H364 V122"/><path d="M520 188 H612 V132"/><path d="M142 184 H218 V136"/><path d="M662 102 H734 V166"/></g>
+              <g class="coordination-clusters">
+                <path d="M86 86 H168 M98 118 H188 M82 150 H152 M122 176 H212"/>
+                <path d="M328 84 H418 M354 112 H466 M312 148 H420 M372 178 H488"/>
+                <path d="M582 82 H694 M610 112 H742 M556 148 H666 M650 178 H776"/>
+                <circle cx="86" cy="86" r="4"/><circle cx="188" cy="118" r="4"/><circle cx="82" cy="150" r="4"/><circle cx="212" cy="176" r="4"/>
+                <circle cx="328" cy="84" r="4"/><circle cx="466" cy="112" r="4"/><circle cx="312" cy="148" r="4"/><circle cx="488" cy="178" r="4"/>
+                <circle cx="582" cy="82" r="4"/><circle cx="742" cy="112" r="4"/><circle cx="556" cy="148" r="4"/><circle cx="776" cy="178" r="4"/>
+              </g>
+              <g class="coordination-nodes"><circle cx="82" cy="164" r="6"/><circle cx="332" cy="122" r="6"/><circle cx="638" cy="130" r="6"/><circle cx="780" cy="92" r="6"/><circle cx="384" cy="188" r="4"/><circle cx="718" cy="198" r="4"/></g>
+              <g class="coordination-labels">
+                <text x="72" y="238">FILES</text><text x="310" y="238">ROUTES</text><text x="574" y="238">LIAISON</text>
+                <text x="204" y="80">AQF</text><text x="452" y="82">RPL</text><text x="674" y="92">NSW</text>
+                <text x="94" y="74">STUDENT FILE</text><text x="96" y="110">TRANSCRIPT</text><text x="90" y="142">INTAKE</text><text x="132" y="168">ENGLISH</text>
+                <text x="338" y="76">UNIVERSITY</text><text x="364" y="104">CREDIT</text><text x="322" y="140">PATHWAY</text><text x="382" y="170">OFFER</text>
+              </g>
+            </svg>
+            <figcaption>學生文件、院校路線與專業轉介在同一協調流程內管理。</figcaption>
+          </figure>
+        </div>
+        <aside class="office-notice-details">
+          <p><strong>Overseas Tutorial Centre Ltd</strong><br>45 Evans St, Balmain, NSW 2041, Australia</p>
+          <p class="office-contact-lines">澳洲聯絡：<a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>英國電話 / WhatsApp：<a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+          <div class="office-contact-card"><span>澳洲協調聯絡</span><strong>Yan Xinyue</strong><p>支持 OTC 面向澳洲的學生文件整理、預約協調、教育路線溝通、雙語文件跟進及必要時與專業顧問聯絡。</p></div>
+          <div class="office-status"><span>Current status</span><strong>正在建立本地存在</strong><p>先發展教育協調及市場進入支持；澳洲受監管專業建議不屬於 OTC 直接服務範圍。</p></div>
+          <a class="office-ai-link-card" href="/ai-education-operations/"><span>AI-enabled operations</span><strong>AI 教育運作框架</strong><p>學生文件、資格映射、申請流程、輔導出版與澳洲路線情報的結構化管理。</p></a>
+          <a class="office-ai-link-card" href="/australia-vet-tafe-pathways/"><span>VET / TAFE route coverage</span><strong>澳洲職業教育路線圖</strong><p>按州整理 VET、TAFE、pathway 及職業導向課程的初步篩查。</p></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band compact-band" id="centre-updates">
+      <div class="institutional-update-board">
+        <div class="institutional-update-head"><span>Centre Updates · 2026 年 5 月</span><h2>中心狀態與澳洲辦公室更新</h2><p>本區記錄可公開展示的中心狀態、澳洲辦公室發展和治理更新。證書、郵件記錄及內部審核文件另行保存在 OTC 文件系統。</p></div>
+        <div class="institutional-update-cards">
+          <article><b>中心狀態</b><strong>OTHM approved centre status renewed</strong><p>Overseas Tutorial Centre 已續期為 OTHM approved centre。中心號 <em>DC1802235</em> 保持不變，批准有效期至 <em>2031 年 6 月 30 日</em>。</p><a href="/othm-qualifications/">查看 OTHM 路線</a></article>
+          <article><b>澳洲辦公室</b><strong>OTC Australia 執行董事任命</strong><p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持本地協調、院校溝通、學生路線發展及專業轉介邊界。</p><a href="#australia-director">查看歡迎詞</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="australia-director-welcome">
+        <figure class="director-portrait"><img src="/assets/australia-academic-map-soft.svg?v=20260519-dense" alt="澳洲大學、中小學、職業教育、學術機構與政府教育網絡分布圖"><figcaption>Australia academic network</figcaption></figure>
+        <div class="director-message" id="australia-director">
+          <div class="director-kicker">Welcome from Australia</div>
+          <h2>歡迎來到 OTC Australia。</h2>
+          <blockquote><p>OTC 的澳洲存在旨在為學生、家庭與教育合作方提供清晰的本地協調點。從 NSW 出發，我們的重點是把審慎的學生諮詢、實際溝通、可靠文件整理，以及必要時的專業轉介銜接起來。</p><p>隨著澳洲辦公室發展，工作重心將放在可靠溝通、清晰學生文件、院校級 pathway screening 及明確專業邊界。我們希望每一位與 OTC Australia 合作的家庭、伙伴與顧問，都能理解 OTC 直接協調什麼、保留哪些證據，以及何時需要合資格專業人士介入。</p></blockquote>
+          <div class="director-signature"><img class="director-signature-mark" src="/assets/georgie-barnes-signature.svg?v=20260519-quiet" alt="Georgie Barnes signature"><strong>Georgie Barnes</strong><span>Executive Director, Australia</span></div>
+          <div class="director-commitments"><article><b>學生照護</b><span>清晰 intake、實際下一步與家庭溝通。</span></article><article><b>院校連接</b><span>大學申請協調、伙伴聯絡與市場情報。</span></article><article><b>專業邊界</b><span>移民、法律、稅務及合規事項轉介合資格顧問。</span></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head"><div class="eyebrow">Cooperation Index</div><h2>澳洲教育合作版圖。</h2><p>本公開索引展示 OTC 面向澳洲的區域、院校類型與服務路線覆蓋。內部渠道來源、合同、商業條款及平台憑證保存在 OTC 私有證據檔案，不在網站公開。</p></div>
+      <div class="australia-intelligence-panel">
+        <article class="intel-feature"><span>Public view</span><strong>院校與 pathway 覆蓋</strong><p>OTC 維護一條覆蓋澳洲大學、pathway colleges、公立與私立學校、VET / TAFE、英語準備、專業課程及國家教育推廣材料的結構化路線。</p><ul><li>大學與 pathway 申請協調</li><li>公立學校、私立學校與監護相鄰路線</li><li>VET、TAFE、英語與 pathway 準備</li><li>合同、培訓、合規和證據記錄私下保存</li></ul></article>
+        <div class="intel-list platform-list">
+          <article><b>NSW</b><strong>悉尼及新州協調核心</strong><p>UNSW、UTS / UTS College、Wollongong、Macquarie、Newcastle 及 NSW 中小學路線。</p></article>
+          <article><b>VIC</b><strong>墨爾本與維州路線</strong><p>Melbourne、Monash / Monash College、Swinburne、Deakin 及政府學校路線。</p></article>
+          <article><b>QLD / ACT</b><strong>昆州與首都區</strong><p>UQ、Griffith、QUT、ANU、University of Canberra 及公校選項。</p></article>
+          <article><b>WA / SA / TAS</b><strong>西澳、南澳及塔州</strong><p>UWA、Curtin、Murdoch、Adelaide、KIC Adelaide、UTAS 及職業導向課程。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight"><div class="band compact-band">
+      <div class="section-head compact-head"><div class="eyebrow">Site Rollout</div><h2>澳洲路線的六個必要站點。</h2><p>本頁區分 OTC 可以直接運作的教育協調工作，以及必須轉介合資格澳洲專業人士處理的事項。</p></div>
+      <div class="australia-office-stations">
+        <article id="nsw-base"><b>01</b><strong>NSW 協調基地</strong><p>悉尼地區地址、本地溝通、預約協調、會議室安排、郵件流程及供應商聯絡。</p><ul><li>保留本地聯絡與往來記錄。</li><li>協調學生、家庭、院校及專業伙伴會議。</li><li>維護澳洲活動日誌。</li></ul></article>
+        <article id="applications"><b>02</b><strong>大學申請路線</strong><p>澳洲院校篩查、課程匹配、intake 時間、英語準備及申請文件規劃。</p><ul><li>先從國別與院校層面篩查，再細化到課程。</li><li>準備文件清單、命名規則及 offer 條件追蹤。</li><li>連接大學申請 portfolio 系統。</li></ul></article>
+        <article id="student-support"><b>03</b><strong>學生支持台</strong><p>支持學生與家庭在申請前、申請中及早期安置階段的實際溝通。</p><ul><li>記錄學生諮詢、家庭指示與下一步。</li><li>協調學術準備、抵達前規劃與本地服務指引。</li><li>將教育支持與移民/法律建議分開。</li></ul></article>
+        <article id="institutional-services"><b>04</b><strong>機構服務</strong><p>雙語文件、翻譯協調、出版聯絡、培訓行政及學術活動支持。</p><ul><li>準備面向機構、出版方及教育伙伴的雙語材料。</li><li>支持培訓包、服務簡介、會議記錄與展示文件。</li><li>需要 certified/legal/notarised 的工作轉介專業人士。</li></ul></article>
+        <article id="market-intelligence"><b>05</b><strong>市場情報</strong><p>澳洲教育更新、agent-channel notes、院校 briefings、公開 insights 及業務發展記錄。</p><ul><li>總結 agent training、portal updates 及院校通信。</li><li>發布合規教育資訊。</li><li>建立澳洲市場需求證據庫。</li></ul></article>
+        <article id="referral"><b>06</b><strong>專業轉介</strong><p>移民、法律、稅務、會計、公司設立及受監管教育事項轉介合資格澳洲專業人士。</p><ul><li>保留轉介記錄、範圍邊界與客戶指示。</li><li>協調註冊移民代理、律師、會計師及合規專家。</li><li>不將 OTC 教育協調表述為受監管專業建議。</li></ul></article>
+      </div>
+    </div></section>
+
+    <section class="band">
+      <div class="nsw-schools-zone" id="nsw-schools">
+        <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
+        <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
+        <div class="nsw-school-card-grid"><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20Lindisfarne%20Anglican%20Grammar%20School">免費初篩</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 涵蓋學校介紹、招生、學生支持、課程與國際學生問題。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Screening%20-%20The%20Illawarra%20Grammar%20School">免費初篩</a></article><article><b>Ongoing</b><strong>NSW 中小學名單</strong><p>OTC 將持續加入 Study NSW briefing schools、公校、私校、junior schools、high schools、短期學習與長期入學路線。</p><a href="mailto:office@overseasuk.com?subject=Free%20NSW%20School%20Application%20Screening">開啟學校諮詢</a></article></div>
+        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head"><div class="eyebrow">Evidence Roadmap</div><h2>澳洲路線發展過程中應收集的證據。</h2></div>
+      <div class="consulting-levels australia-evidence-cards"><article><strong>辦公室與運作</strong><p>地址證明、本地供應商通信、會議記錄、郵箱日誌與澳洲活動 chronology。</p><span>Operational evidence.</span></article><article><strong>教育代理與院校連接</strong><p>Study NSW 培訓郵件、院校更新、申請 portal 記錄、agent-channel 通訊及學生/申請報告。</p><span>Market evidence.</span></article><article><strong>資格路線出版物</strong><p>公開頁面說明 OTHM-to-Australia qualification interpretation、credit/RPL readiness、pathway screening 及職業資格規劃。</p><span>Public capability evidence.</span></article><article><strong>學生案例記錄</strong><p>學生諮詢、院校篩查、課程 shortlists、文件清單、offer-condition tracking 及家庭溝通記錄。</p><span>Service evidence.</span></article><article><strong>專業轉介記錄</strong><p>轉介郵件、顧問資料、服務範圍 notes 及 OTC 協調與 regulated advice 的邊界。</p><span>Compliance evidence.</span></article></div>
+      <div style="height:24px"></div><div class="notice advice-signpost"><strong>合規邊界</strong><p>OTC 提供教育協調、雙語文件、市場進入支持及行政整理；不提供澳洲移民、法律、稅務、金融或受監管教育合規建議。相關事項應由合資格專業人士處理。</p></div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="qualification-report-panel"><div><span>Evidence Report</span><h2>OTHM qualifications and Australia pathway strategy.</h2><p>本報告屬於 OTC Australia readiness evidence chain 的一部分，記錄 OTC 的英國 OTHM 資格基礎如何支持澳洲大學申請、credit/RPL readiness、pathway screening 及職業資格路線規劃，但不聲稱澳洲自動承認。</p></div><div class="qualification-report-actions"><a class="btn btn-dark" href="/zh/reports/othm-australia-expansion/">中文專題</a><a class="btn btn-light" href="/reports/othm-australia-expansion/">English report</a></div></div>
+      <div style="height:14px"></div>
+      <div class="qualification-report-panel vet-tafe-panel"><div><span>Route Development</span><h2>Australia VET / TAFE pathway coverage.</h2><p>澳洲職業教育路線圖，用於 VET / TAFE 課程篩查、TAFE-to-university progression、文件準備及專業轉介邊界。</p></div><a class="btn btn-dark" href="/australia-vet-tafe-pathways/">打開路線圖</a></div>
     </section>
   `
 });
@@ -8188,6 +8319,7 @@ write("apps/australian-citizenship-test", australianCitizenshipTest);
 write("resources", resources);
 write("australia-business-landing", australiaBusinessLanding);
 write("australia-office-presence", australiaOfficePresence);
+write("zh/australia-office-presence", australiaOfficePresenceZh);
 write("australia-vet-tafe-pathways", australiaVetTafePathways);
 write("ai-education-operations", aiEducationOperations);
 write("reports/othm-australia-expansion", othmAustraliaExpansionReport);
