@@ -1776,7 +1776,7 @@ function writeHeraldSocialImage(article, locale = "en") {
   <line x1="806" y1="430" x2="1082" y2="430" stroke="#d6c39f" stroke-width="1"/>
   <text x="806" y="451" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="700">${isZh ? "Evidence-led · Official-source aware · Updated briefing" : "Evidence-led · Official-source aware · Updated briefing"}</text>
   <rect x="78" y="470" width="640" height="58" fill="#fff7e8" stroke="#dec9a4" stroke-width="1"/>
-  ${summaryLines.map((line, index) => `<text x="98" y="${494 + index * 24}" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="800">${escapeXml(line)}</text>`).join("")}
+  ${summaryLines.map((line, index) => `<text x="100" y="${493 + index * 25}" fill="#5d4d3c" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="16" font-weight="600">${escapeXml(line)}</text>`).join("")}
   ${topicTags.map((tag, index) => `<rect x="${78 + index * (isZh ? 100 : 104)}" y="540" width="${isZh ? 88 : 92}" height="30" fill="#1a1410"/><text x="${122 + index * (isZh ? 100 : 104)}" y="560" text-anchor="middle" fill="#e8b84b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">${escapeXml(tag)}</text>`).join("")}
   <text x="506" y="560" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18" font-weight="900">${isZh ? "海外督導 OTC · 留學導報文章" : "Overseas Tutorial Centre · Study Review Article"}</text>
   <text x="78" y="589" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14">Overseas Tutorial Centre Ltd · OTC Study Hub · office@overseasuk.com · WhatsApp +44 7947 991572</text>
