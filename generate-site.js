@@ -1695,6 +1695,109 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "australia-agent-training-map-2026",
+    title: "Australia Education Agent Training Map 2026: From NSW School Briefings to a National Route",
+    date: "2026-05-23",
+    category: "Australia Pathways",
+    column: "study",
+    kicker: "Australia agent training map",
+    author: "OTC Study Hub Editorial",
+    summary: "OTC is extending the Study NSW school-briefing model into a national Australia education agent training map covering Queensland, Victoria, Western Australia, South Australia, Northern Territory, Tasmania and ACT.",
+    titleZh: "澳洲教育中介培訓版圖：從新州中小學線上培訓會到全澳路線",
+    summaryZh: "OTC 以 Study NSW 新州中小學在線培訓會為起點，向澳洲其他州與領地的官方教育推廣機構發出參與培訓、加入 briefing / webinar / mailing list 的請求，逐步建立全澳 K-12、VET/TAFE、ELICOS、pathway 與高等教育更新版圖。",
+    body: [
+      {
+        heading: "1) Why OTC Is Mapping Agent Training Routes",
+        paragraphs: [
+          "Study NSW school briefings provide a useful model: official or semi-official sessions introduce schools, admissions conditions, fee notes, enquiry contacts and counselling points for education agents.",
+          "OTC is extending that model across Australia so that Chinese-speaking families can receive more accurate, state-specific education-route information before any school, VET/TAFE, ELICOS, pathway or university application is prepared.",
+          "This page records public-facing route development only. It does not claim formal appointment by any state agency or provider unless a written agreement or official confirmation is in place."
+        ]
+      },
+      {
+        heading: "2) Seven State and Territory Routes Contacted",
+        paragraphs: [
+          "Queensland: OTC has contacted Study Queensland to request access to education agent workshops, destination briefings, school-sector webinars, VET/TAFE updates and provider opportunities.",
+          "Victoria: OTC has contacted Study Melbourne regarding sector briefings, agent briefings and international education updates covering Victorian schools, VET/TAFE, ELICOS and higher education routes.",
+          "Western Australia: OTC has contacted StudyPerth following the Agent Education Week model, seeking future agent education activities, provider briefings and destination updates.",
+          "South Australia: OTC has contacted StudyAdelaide to request inclusion in agent events, school-focused webinars, provider updates and mailing lists.",
+          "Northern Territory: OTC has contacted Study NT regarding the Study NT Education Agent Training Course and future NT destination/provider briefings.",
+          "Tasmania: OTC has contacted Government Education and Training International for Tasmanian Government Schools agent updates, briefing routes and registration guidance.",
+          "ACT / Canberra: OTC has contacted the ACT International Education Unit and Study Canberra route for government school agent briefing and registration information."
+        ]
+      },
+      {
+        heading: "3) What This Means for Students and Families",
+        paragraphs: [
+          "The practical value is not a badge. The value is a maintained briefing discipline: knowing where official updates come from, which state or provider is responsible for the rules, and when OTC should verify details before advising a family.",
+          "For Chinese-speaking families, this creates a clearer comparison framework across Sydney, Melbourne, Brisbane, Perth, Adelaide, Darwin, Hobart and Canberra routes.",
+          "For OTC, it creates a public information layer, an internal contact log and a future training calendar that can support K-12 school screening, vocational pathway planning and university application preparation."
+        ]
+      },
+      {
+        heading: "4) Public Boundary",
+        paragraphs: [
+          "Participation in a webinar, mailing list or public briefing does not automatically create an agency agreement or authorise OTC to represent a provider.",
+          "Formal cooperation, agent appointment, referral terms, commission arrangements, application authority and use of logos must be confirmed through the relevant institution or official body.",
+          "OTC will keep public pages as education-route information until a formal status can be evidenced."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼要建立澳洲教育中介培訓版圖？",
+        paragraphs: [
+          "Study NSW 的中小學在線培訓會提供了一個很好的樣板：由官方或準官方渠道向教育中介介紹學校、招生條件、費用提示、諮詢窗口與家庭溝通要點。",
+          "OTC 現在把這個模式向全澳洲拓展。目的不是把所有州份一次性做成「合作名單」，而是先建立可查、可更新、可跟進的培訓與 briefing 路線，讓中文家庭在申請前看到更準確的州別資訊。",
+          "本頁記錄的是公開發展路線：參加培訓、加入更新清單、建立州別資料入口。除非有書面協議或官方確認，OTC 不會把培訓參與表述為正式代理授權。"
+        ]
+      },
+      {
+        heading: "二、已發出聯絡的七條州與領地路線",
+        paragraphs: [
+          "Queensland：已向 Study Queensland 發出請求，希望加入教育中介 workshop、destination briefing、中小學 sector webinar、VET / TAFE 更新與 provider opportunity 通知。",
+          "Victoria：已向 Study Melbourne 發出請求，關注 2026 sector briefings、agent briefing 及維州學校、VET / TAFE、ELICOS、高等教育與 pathway provider 更新。",
+          "Western Australia：已向 StudyPerth 發出請求，參考 Agent Education Week 模式，申請加入後續 agent education activity、provider briefing 與 Perth destination update。",
+          "South Australia：已向 StudyAdelaide 發出請求，希望接收 South Australia 的 agent event、school-focused webinar、provider update 及 mailing list 通知。",
+          "Northern Territory：已向 Study NT 發出請求，關注 Study NT Education Agent Training Course 及 Northern Territory 學校、VET / TAFE、ELICOS、高等教育路線更新。",
+          "Tasmania：已向 Government Education and Training International 發出請求，了解 Tasmanian Government Schools 的 agent update、briefing route、registration guidance 及政府學校資料入口。",
+          "ACT / Canberra：已向 ACT International Education Unit 及 Study Canberra 路線發出請求，了解 Canberra Government Schools 的中介 briefings、webinar、mailing list 及註冊路徑。"
+        ]
+      },
+      {
+        heading: "三、對學生和家庭有什麼用？",
+        paragraphs: [
+          "真正有價值的不是某個 badge，而是持續更新的 briefing discipline：知道官方資訊從哪裡來、哪個州或 provider 負責規則、什麼情況下需要向官方窗口再次確認。",
+          "對中文家庭而言，這使澳洲路線不再只有「悉尼或墨爾本」兩個模糊選項，而可以把 Sydney、Melbourne、Brisbane、Perth、Adelaide、Darwin、Hobart、Canberra 放在同一張教育地圖上比較。",
+          "對 OTC 而言，這形成三層用途：公開資訊頁面、內部聯絡紀錄、未來培訓日曆。這些都可服務於 K-12 學校初篩、VET / TAFE 路線規劃、pathway 銜接與大學申請準備。"
+        ]
+      },
+      {
+        heading: "四、公開表述邊界",
+        paragraphs: [
+          "參加 webinar、加入 mailing list 或收到 public briefing，不等於取得正式代理協議，也不等於可以代表某所院校或政府項目招生。",
+          "正式合作、agent appointment、referral terms、commission arrangement、application authority 及 logo 使用，都必須由相關院校或官方機構以書面方式確認。",
+          "在正式確認前，OTC 只將相關頁面作為教育路線資訊、家庭初步諮詢與文件準備參考，不把培訓參與誇大成授權合作。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["NSW", "Study NSW briefing model", "中小學在線培訓會與 school profile 審核頁已形成可複用模式。", "origin"],
+      ["QLD / VIC / WA", "Major destination routes", "重點跟進 Queensland、Victoria、Western Australia 的 agent / sector briefing。", "priority"],
+      ["SA / NT / TAS / ACT", "Regional and government-school routes", "補齊 South Australia、Northern Territory、Tasmania、Canberra 政府與區域教育入口。", "coverage"],
+      ["Public boundary", "Compliance first", "培訓參與不等於代理授權，正式合作需書面確認。", "boundary"]
+    ],
+    resources: [
+      ["Study Queensland", "studyqueensland.qld.gov.au"],
+      ["Study Melbourne", "studymelbourne.vic.gov.au"],
+      ["StudyPerth", "studyperth.com.au"],
+      ["StudyAdelaide", "studyadelaide.com"],
+      ["Study NT", "studynt.nt.gov.au"],
+      ["Tasmanian Government Education International", "study.tas.gov.au"],
+      ["ACT International Education Unit", "act.gov.au"]
+    ]
+  },
+  {
     slug: "ucas-offers-conditions-firm-insurance-checklist",
     title: "UCAS Offers Explained: Conditional vs Unconditional, Firm vs Insurance (A Practical Checklist)",
     date: "2026-05-23",
@@ -6931,6 +7034,12 @@ const australiaOfficePresence = pageShell({
         </div>
         <div class="nsw-school-card-grid nsw-school-series-grid">
           <article>
+            <b>National</b>
+            <strong>Australia Agent Training Map 2026</strong>
+            <p>OTC has requested access to official state and territory agent briefings, school-sector webinars and education updates across Queensland, Victoria, Western Australia, South Australia, Northern Territory, Tasmania and ACT.</p>
+            <a href="/zh/insights/australia-agent-training-map-2026/">Read training map</a>
+          </article>
+          <article>
             <b>Series 02</b>
             <strong>PLC Pathways</strong>
             <p>Study NSW Greater China training record for PLC Pathways, a school-pathway route connected with NSW independent-school options and transition planning for international students.</p>
@@ -7168,7 +7277,7 @@ const australiaOfficePresenceZh = pageShell({
       <div class="nsw-schools-zone" id="nsw-schools">
         <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
         <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
-        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
+        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>National</b><strong>澳洲教育中介培訓版圖 2026</strong><p>OTC 已向 Queensland、Victoria、Western Australia、South Australia、Northern Territory、Tasmania、ACT 等官方窗口發出培訓與 briefing 加入請求，建立全澳學校與升學更新路線。</p><a href="/zh/insights/australia-agent-training-map-2026/">閱讀導報專題</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
         <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
       </div>
     </section>
