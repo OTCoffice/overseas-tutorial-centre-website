@@ -3137,6 +3137,9 @@ function zhArticleMagazineBody(article) {
     return sum + section.heading.length + section.paragraphs.join("").length;
   }, 0) / 520));
   const reviewColumn = zhReviewColumnForArticle(article);
+  const sectionLabel = reviewColumn.name === "留學升學"
+    ? "留學｜升學｜轉學｜遊學｜訪學｜自學"
+    : reviewColumn.name;
   const firstSection = cleanedSections[0];
   const checklist = cleanedSections.slice(0, 7);
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
@@ -3157,7 +3160,7 @@ function zhArticleMagazineBody(article) {
         </div>
       </div>
       <div class="zh-herald-section-bar">
-        <div class="zh-herald-section-tag">${reviewColumn.name}</div>
+        <div class="zh-herald-section-tag">${sectionLabel}</div>
         <div class="zh-herald-section-line"></div>
         <time>${zhIssueDate(article.date)}</time>
       </div>
