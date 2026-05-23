@@ -5951,7 +5951,7 @@ h1 {
 }
 
 .australia-comparison-band {
-  background: var(--ink);
+  background: var(--navy);
   color: #fff;
   max-width: none;
   padding-left: max(24px, calc((100vw - var(--page-max)) / 2));
@@ -5964,7 +5964,8 @@ h1 {
 }
 
 .australia-comparison-table {
-  border: 1px solid rgba(208, 174, 103, 0.34);
+  background: #fff;
+  border: 1px solid rgba(208, 174, 103, 0.58);
   border-radius: 8px;
   overflow-x: auto;
 }
@@ -5976,20 +5977,28 @@ h1 {
 }
 
 .australia-comparison-table .compare-row span {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
-  color: rgba(255, 255, 255, 0.82);
+  border-bottom: 1px solid rgba(222, 211, 196, 0.92);
+  border-right: 1px solid rgba(222, 211, 196, 0.72);
+  color: #344258;
   font-size: 13px;
   line-height: 1.45;
   padding: 14px;
 }
 
 .australia-comparison-table .compare-head span {
-  background: rgba(184, 138, 59, 0.22);
-  color: #f2d99c;
+  background: var(--gold);
+  color: #fff;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.australia-comparison-table .compare-row:last-child span {
+  border-bottom: 0;
+}
+
+.australia-comparison-table .compare-row span:last-child {
+  border-right: 0;
 }
 
 .health-pathway-layout {
