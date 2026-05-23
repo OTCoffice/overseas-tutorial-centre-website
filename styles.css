@@ -6113,41 +6113,27 @@ h1 {
 }
 
 .australia-provider-list {
-  background: #fff;
-  border-top: 2px solid var(--navy);
+  border-top: 1px solid rgba(6, 26, 47, 0.34);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .australia-provider-list li {
-  align-items: baseline;
-  border-bottom: 1px solid rgba(222, 211, 196, 0.9);
-  display: grid;
-  gap: 12px;
-  grid-template-columns: 52px minmax(210px, 0.42fr) minmax(0, 1fr);
+  align-items: center;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.72);
+  display: flex;
+  gap: 10px;
   min-height: 0;
-  padding: 7px 0;
-}
-
-.australia-provider-list li:hover {
-  background: #fffaf1;
-}
-
-.australia-provider-list-head {
-  background: #f7f2ea;
-  color: #5b6572;
-  font-size: 11px;
-  font-weight: 780;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  padding: 6px 0;
 }
 
 .australia-provider-list span {
-  color: var(--gold);
+  color: var(--navy);
+  flex: 0 0 34px;
   font-size: 11px;
-  font-weight: 820;
-  letter-spacing: 0.08em;
+  font-weight: 860;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -6156,16 +6142,16 @@ h1 {
 .australia-contact-block strong {
   color: var(--navy);
   display: block;
-  font-size: 16px;
-  font-weight: 560;
+  font-size: 15px;
+  font-weight: 650;
   line-height: 1.22;
 }
 
 .australia-provider-list em {
-  color: #53606f;
-  font-size: 13px;
+  color: #66717f;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 650;
+  font-weight: 560;
   line-height: 1.35;
 }
 
@@ -11915,13 +11901,14 @@ h1 {
 
   .australia-provider-list li {
     align-items: baseline;
-    gap: 4px 10px;
-    grid-template-columns: 42px minmax(0, 1fr);
+    flex-wrap: wrap;
+    gap: 3px 8px;
     padding: 8px 0;
   }
 
   .australia-provider-list em {
-    grid-column: 2;
+    flex-basis: calc(100% - 42px);
+    margin-left: 42px;
   }
 
   .map-pin > summary {

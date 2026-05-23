@@ -8664,12 +8664,11 @@ const australiaPathwaysLanding = pageShell({
         <p>以下為路線與資料整理入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
       </div>
       <ul class="australia-provider-list">
-        <li class="australia-provider-list-head"><span>州份</span><strong>院校 / Provider</strong><em>路線方向</em></li>
         ${australiaProviders.map(([name, state, tags]) => `
           <li>
             <span>${state}</span>
             <strong>${name}</strong>
-            <em>${tags.join(" · ")}</em>
+            <em>(${tags.join(" · ")})</em>
           </li>
         `).join("")}
       </ul>
