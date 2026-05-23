@@ -5953,8 +5953,12 @@ h1 {
   background: var(--navy);
   color: #fff;
   max-width: none;
-  padding-left: max(24px, calc((100vw - var(--page-max)) / 2));
-  padding-right: max(24px, calc((100vw - var(--page-max)) / 2));
+  padding-left: max(18px, calc((100vw - 1520px) / 2));
+  padding-right: max(18px, calc((100vw - 1520px) / 2));
+}
+
+.australia-comparison-band .section-head {
+  max-width: 1180px;
 }
 
 .invert-head h2,
@@ -5966,13 +5970,17 @@ h1 {
   background: #fff;
   border: 1px solid rgba(208, 174, 103, 0.58);
   border-radius: 8px;
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.14);
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: auto;
+  width: min(100%, 1460px);
 }
 
 .australia-comparison-table .compare-row {
   display: grid;
-  grid-template-columns: 0.6fr 1.35fr 1.1fr 0.5fr 1.25fr;
-  min-width: 980px;
+  grid-template-columns: 0.68fr 1.55fr 1.16fr 0.46fr 1.45fr;
+  min-width: 1180px;
 }
 
 .australia-comparison-table .compare-row span {
@@ -5982,6 +5990,23 @@ h1 {
   font-size: 13px;
   line-height: 1.45;
   padding: 14px;
+}
+
+.australia-comparison-table .compare-row:not(.compare-head):nth-child(odd) span {
+  background: #fbf8f2;
+}
+
+.australia-comparison-table .compare-row:not(.compare-head) span:first-child {
+  background: #eef3f7;
+  color: var(--navy);
+  font-weight: 820;
+}
+
+.australia-comparison-table .compare-row:not(.compare-head) span:nth-child(4) {
+  background: #fff8e8;
+  color: #8a611a;
+  font-weight: 820;
+  text-align: center;
 }
 
 .australia-comparison-table .compare-head span {
