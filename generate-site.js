@@ -5274,6 +5274,7 @@ const creditAlliance = pageShell({
   description: "海外督導學分聯盟：以 OTHM、Open University、英澳美加紐學分與先前學習記錄為基礎，整理跨國升學、credit transfer、RPL 與申請文件路線。",
   path: "/insights/credit-alliance/",
   body: `
+    <link rel="stylesheet" href="/styles.css?v=credit-alliance-newspaper-20260523">
     <main class="credit-alliance-page">
       <header class="credit-herald-masthead">
         <div>
@@ -5290,7 +5291,7 @@ const creditAlliance = pageShell({
       <section class="credit-hero">
         <div>
           <div class="eyebrow">Credit Alliance</div>
-          <h1>學分聯盟</h1>
+          <h1>你的學分，全球通用</h1>
           <p>把學生已完成的課程、資格、成績單、學習成果與申請目標整理成可閱讀、可比較、可提交的跨國學分路線文件。</p>
           <div class="credit-actions">
             <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Credit%20Alliance%20Review">提交學分評估</a>
