@@ -7410,6 +7410,90 @@ h1 {
   grid-template-columns: minmax(0, 1fr) auto;
 }
 
+.university-status-panel {
+  align-self: start;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(245, 249, 247, 0.96)),
+    #fff;
+  border: 1px solid rgba(31, 94, 82, 0.18);
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+  box-shadow: 0 16px 34px rgba(6, 26, 47, 0.07);
+  padding: 20px;
+}
+
+.university-status-panel > span {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.university-status-panel > strong {
+  color: var(--navy);
+  display: block;
+  font-size: 20px;
+  line-height: 1.18;
+  margin-top: 8px;
+}
+
+.university-status-panel dl {
+  border-top: 1px solid #eadfce;
+  display: grid;
+  gap: 0;
+  margin: 16px 0 0;
+}
+
+.university-status-panel dl div {
+  border-bottom: 1px solid #eadfce;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 92px minmax(0, 1fr);
+  padding: 10px 0;
+}
+
+.university-status-panel dt {
+  color: #8a6b2e;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.university-status-panel dd {
+  color: #3e4b5a;
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.university-status-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.university-status-actions a {
+  border: 1px solid rgba(31, 94, 82, 0.28);
+  border-radius: 999px;
+  color: var(--teal);
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.university-status-actions a:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
 .school-herald-strip {
   background: #17100b;
   border-radius: 8px;
