@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#e9eef4"/>
-  <rect x="38" y="34" width="1124" height="562" fill="#fbfaf7" stroke="#d5dde7" stroke-width="2"/>
-  <rect x="38" y="34" width="1124" height="96" fill="#12365c"/>
-  <rect x="38" y="130" width="1124" height="10" fill="#b92f3b"/>
-  <text x="78" y="72" fill="#dbe7f3" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="3">OVERSEAS STUDY REVIEW</text>
+  <rect width="1200" height="630" fill="#efe5d6"/>
+  <rect x="38" y="34" width="1124" height="562" fill="#fffaf2" stroke="#c8b89a" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="96" fill="#1a1410"/>
+  <rect x="38" y="130" width="1124" height="10" fill="#b5272d"/>
+  <text x="78" y="72" fill="#e8b84b" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="3">OVERSEAS STUDY REVIEW</text>
   <text x="78" y="111" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="36" font-weight="900">Overseas Education Herald</text>
-  <text x="1122" y="78" text-anchor="end" fill="#dbe7f3" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="700">2026-05-19 · Overseas Study Review</text>
+  <text x="1122" y="78" text-anchor="end" fill="#bfae95" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="700">2026-05-19 · Overseas Study Review</text>
   <text x="1122" y="110" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
-  <rect x="78" y="176" width="336" height="48" fill="#b92f3b"/>
+  <rect x="78" y="176" width="336" height="48" fill="#b5272d"/>
   <text x="104" y="207" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="1">UNIVERSITY APPLICATIONS</text>
-  <line x1="78" y1="246" x2="456" y2="246" stroke="#c9a24e" stroke-width="4"/>
-  <text x="78" y="315" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">UK &amp; Australia University</text><text x="78" y="375" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">Applications: A Practical</text><text x="78" y="435" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">Document Checklist</text>
-  <text x="78" y="522" fill="#38536f" font-family="'Noto Sans TC', Arial, sans-serif" font-size="25" font-weight="900">Overseas Tutorial Centre · Study Review Article</text>
-  <text x="78" y="558" fill="#6c7d90" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
-  <circle cx="1052" cy="504" r="48" fill="#eef4f9" stroke="#d7e2ec" stroke-width="2"/>
-  <text x="1052" y="498" text-anchor="middle" fill="#12365c" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
-  <text x="1052" y="523" text-anchor="middle" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">REVIEW</text>
+  <line x1="78" y1="246" x2="456" y2="246" stroke="#c8952a" stroke-width="4"/>
+  <text x="78" y="315" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">UK &amp; Australia University</text><text x="78" y="375" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">Applications: A Practical</text><text x="78" y="435" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="46" font-weight="900">Document Checklist</text>
+  <text x="78" y="522" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="25" font-weight="900">Overseas Tutorial Centre · Study Review Article</text>
+  <text x="78" y="558" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+  <circle cx="1052" cy="504" r="48" fill="#fff7e8" stroke="#d6c39f" stroke-width="2"/>
+  <text x="1052" y="498" text-anchor="middle" fill="#1a1410" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
+  <text x="1052" y="523" text-anchor="middle" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">REVIEW</text>
 </svg>
