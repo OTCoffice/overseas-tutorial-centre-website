@@ -6927,6 +6927,13 @@ h1 {
   max-width: 82ch;
 }
 
+.qualification-report-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
 .report-hero h1 {
   font-family: var(--font-ui) !important;
   letter-spacing: 0;

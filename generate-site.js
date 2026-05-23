@@ -6918,6 +6918,7 @@ const australiaOfficePresence = pageShell({
       <div class="consulting-levels australia-evidence-cards">
         <article><strong>Office and Operations</strong><p>Address proof, local supplier correspondence, meeting records, mailbox logs and Australia activity chronology.</p><span>Operational evidence.</span></article>
         <article><strong>Education Agency Links</strong><p>Study NSW training emails, institution updates, application portal records, agent-channel communications and student/application reports.</p><span>Market evidence.</span></article>
+        <article><strong>Qualification Pathway Publications</strong><p>Published OTC pages explaining OTHM-to-Australia qualification interpretation, credit/RPL readiness, pathway screening and career-qualification planning.</p><span>Public capability evidence.</span></article>
         <article><strong>Student Case Records</strong><p>Student enquiries, institution screening notes, course shortlists, document checklists, offer-condition tracking and family communication logs.</p><span>Service evidence.</span></article>
         <article><strong>Professional Referral Trail</strong><p>Referral emails, adviser details, scope notes and clear separation between OTC coordination and regulated advice.</p><span>Compliance evidence.</span></article>
       </div>
@@ -6933,9 +6934,12 @@ const australiaOfficePresence = pageShell({
         <div>
           <span>Evidence Report</span>
           <h2>OTHM qualifications and Australia pathway strategy.</h2>
-          <p>The report sets out how OTC's UK-regulated OTHM qualification base can support Australia-facing university application, credit/RPL readiness, pathway screening and career-qualification planning without claiming automatic Australian recognition.</p>
+          <p>The report is part of OTC Australia's readiness evidence chain. It records how OTC's UK-regulated OTHM qualification base can support Australia-facing university application, credit/RPL readiness, pathway screening and career-qualification planning without claiming automatic Australian recognition.</p>
         </div>
-        <a class="btn btn-dark" href="/reports/othm-australia-expansion/">Open report</a>
+        <div class="qualification-report-actions">
+          <a class="btn btn-dark" href="/reports/othm-australia-expansion/">Open report</a>
+          <a class="btn btn-light" href="/zh/reports/othm-australia-expansion/">中文專題</a>
+        </div>
       </div>
       <div style="height:14px"></div>
       <div class="qualification-report-panel vet-tafe-panel">
