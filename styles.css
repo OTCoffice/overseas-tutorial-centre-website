@@ -9651,7 +9651,8 @@ h1 {
 }
 
 .oeh-page {
-  max-width: 880px;
+  width: min(1120px, calc(100% - 32px));
+  max-width: 1120px;
   margin: 0 auto;
   background: var(--oeh-paper);
   color: var(--oeh-ink);
@@ -9818,19 +9819,20 @@ h1 {
 
 .oeh-body-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 340px);
   border-bottom: 2px solid var(--oeh-rule);
   animation: fadeUp 0.6s ease 0.1s both;
 }
 
 .oeh-main-col {
-  padding: 36px 36px 36px 48px;
+  padding: 38px 48px 40px 56px;
   border-right: 1px solid var(--oeh-rule);
   background: var(--oeh-paper);
 }
 
 .oeh-side-col {
-  padding: 28px 24px;
+  min-width: 0;
+  padding: 30px 32px 30px 28px;
   background: var(--oeh-paper-warm);
 }
 
@@ -9997,6 +9999,7 @@ h1 {
 .oeh-route-card {
   position: relative;
   overflow: hidden;
+  min-width: 0;
   margin-bottom: 8px;
   padding: 10px 12px 10px 14px;
   background: #fff;
@@ -10212,6 +10215,7 @@ h1 {
   }
 
   .oeh-page {
+    width: 100%;
     max-width: none;
     box-shadow: none;
   }
