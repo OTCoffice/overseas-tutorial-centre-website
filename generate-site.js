@@ -1738,27 +1738,27 @@ function writeHeraldSocialImage(article, locale = "en") {
   const title = isZh ? (article.titleZh || article.title) : article.title;
   const column = isZh ? "留學導報 · 深度指南" : (article.category || "Overseas Study Review");
   const issue = isZh ? `${article.date.replace(/-/g, ".")} · 留學導報` : `${article.date} · Overseas Study Review`;
-  const titleLines = wrapOgTitle(title, isZh ? 16 : 32, 3);
-  const titleFontSize = isZh ? (titleLines.length >= 3 ? 48 : 56) : (titleLines.length >= 3 ? 43 : 48);
-  const titleLineHeight = isZh ? 66 : 58;
+  const titleLines = wrapOgTitle(title, isZh ? 15 : 30, 3);
+  const titleFontSize = isZh ? (titleLines.length >= 3 ? 52 : 60) : (titleLines.length >= 3 ? 46 : 52);
+  const titleLineHeight = isZh ? 66 : 60;
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#e9eef4"/>
-  <rect x="56" y="44" width="1088" height="542" rx="0" fill="#fbfaf7" stroke="#d5dde7" stroke-width="2"/>
-  <rect x="56" y="44" width="1088" height="104" fill="#12365c"/>
-  <rect x="56" y="148" width="1088" height="8" fill="#b92f3b"/>
-  <rect x="92" y="190" width="8" height="286" fill="#b92f3b"/>
-  <text x="94" y="84" fill="#dbe7f3" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="3">OVERSEAS STUDY REVIEW</text>
-  <text x="94" y="124" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="34" font-weight="900">${isZh ? "留學導報" : "Overseas Education Herald"}</text>
-  <text x="1106" y="90" text-anchor="end" fill="#dbe7f3" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="700">${escapeXml(issue)}</text>
-  <text x="1106" y="122" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
-  <text x="126" y="208" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="21" font-weight="900" letter-spacing="${isZh ? 2 : 1}">${escapeXml(isZh ? column : column.toUpperCase())}</text>
-  <line x1="126" y1="228" x2="404" y2="228" stroke="#c9a24e" stroke-width="3"/>
-  ${titleLines.map((line, index) => `<text x="126" y="${296 + index * titleLineHeight}" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="${titleFontSize}" font-weight="900">${escapeXml(line)}</text>`).join("")}
-  <text x="126" y="520" fill="#38536f" font-family="'Noto Sans TC', Arial, sans-serif" font-size="24" font-weight="800">${isZh ? "海外督導 OTC · 留學導報文章" : "Overseas Tutorial Centre · Study Review Article"}</text>
-  <text x="126" y="555" fill="#6c7d90" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
-  <circle cx="1038" cy="496" r="50" fill="#eef4f9" stroke="#d7e2ec" stroke-width="2"/>
-  <text x="1038" y="490" text-anchor="middle" fill="#12365c" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
-  <text x="1038" y="516" text-anchor="middle" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">${isZh ? "導報" : "REVIEW"}</text>
+  <rect x="38" y="34" width="1124" height="562" fill="#fbfaf7" stroke="#d5dde7" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="96" fill="#12365c"/>
+  <rect x="38" y="130" width="1124" height="10" fill="#b92f3b"/>
+  <text x="78" y="72" fill="#dbe7f3" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="3">OVERSEAS STUDY REVIEW</text>
+  <text x="78" y="111" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="36" font-weight="900">${isZh ? "留學導報" : "Overseas Education Herald"}</text>
+  <text x="1122" y="78" text-anchor="end" fill="#dbe7f3" font-family="'Noto Sans TC', Arial, sans-serif" font-size="17" font-weight="700">${escapeXml(issue)}</text>
+  <text x="1122" y="110" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
+  <rect x="78" y="176" width="${isZh ? 304 : 336}" height="48" fill="#b92f3b"/>
+  <text x="104" y="207" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="${isZh ? 2 : 1}">${escapeXml(isZh ? column : column.toUpperCase())}</text>
+  <line x1="78" y1="246" x2="456" y2="246" stroke="#c9a24e" stroke-width="4"/>
+  ${titleLines.map((line, index) => `<text x="78" y="${315 + index * titleLineHeight}" fill="#10243d" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="${titleFontSize}" font-weight="900">${escapeXml(line)}</text>`).join("")}
+  <text x="78" y="522" fill="#38536f" font-family="'Noto Sans TC', Arial, sans-serif" font-size="25" font-weight="900">${isZh ? "海外督導 OTC · 留學導報文章" : "Overseas Tutorial Centre · Study Review Article"}</text>
+  <text x="78" y="558" fill="#6c7d90" font-family="'Noto Sans TC', Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+  <circle cx="1052" cy="504" r="48" fill="#eef4f9" stroke="#d7e2ec" stroke-width="2"/>
+  <text x="1052" y="498" text-anchor="middle" fill="#12365c" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="800">OTC</text>
+  <text x="1052" y="523" text-anchor="middle" fill="#b92f3b" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="900">${isZh ? "導報" : "REVIEW"}</text>
 </svg>`;
   fs.writeFileSync(outPath, svg);
   return imagePath;
