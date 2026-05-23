@@ -7315,7 +7315,7 @@ const othmAustraliaExpansionReportZh = pageShell({
   description: "OTC 澳洲教育路線專題：OTHM 英國 RQF 資格如何支持澳洲大學銜接、credit/RPL 準備、pathway screening 與職業資格規劃。",
   path: "/zh/reports/othm-australia-expansion/",
   body: `
-    <section class="page-hero australia-office-hero report-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲教育路線專題</div><h1>OTHM 資格與澳洲升學及職業資格路線</h1><p>OTC 如何以英國受監管資格體系為基礎，建立澳洲大學申請、credit / RPL 準備、pathway screening 與職業資格前置規劃服務。</p><div class="actions"><a class="btn btn-primary" href="/australia-office-presence/">返回澳洲路線</a><a class="btn btn-secondary" href="/reports/othm-australia-expansion/">English report</a></div></div></section>
+    <section class="page-hero australia-office-hero report-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲教育路線專題</div><h1>OTHM 與澳洲路線</h1><p>英國 RQF 資格如何支持澳洲升學、credit / RPL 準備與職業路線規劃。</p><div class="actions"><a class="btn btn-primary" href="/australia-office-presence/">返回澳洲路線</a><a class="btn btn-secondary" href="/reports/othm-australia-expansion/">English report</a></div></div></section>
     <section class="band">
       <article class="evidence-report-page zh-evidence-report" lang="zh-Hant">
         <div class="zh-report-edition-bar">

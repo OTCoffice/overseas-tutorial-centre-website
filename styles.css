@@ -6933,15 +6933,18 @@ h1 {
 }
 
 .zh-report-hero h1 {
-  font-size: clamp(27px, 3.2vw, 42px);
-  font-weight: 520 !important;
-  letter-spacing: 0.01em;
-  max-width: 900px;
+  font-family: var(--font-ui) !important;
+  font-size: clamp(24px, 2.7vw, 36px);
+  font-weight: 500 !important;
+  letter-spacing: 0;
+  max-width: 760px;
 }
 
 .zh-report-hero p {
-  font-size: 15px;
-  max-width: 900px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 720px;
 }
 
 .evidence-report-page {
