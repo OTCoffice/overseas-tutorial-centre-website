@@ -7065,6 +7065,18 @@ h1 {
     #f8f5ee;
 }
 
+.herald-school-hero .band {
+  border-left: 8px solid #c23b22;
+  padding-left: clamp(24px, 4vw, 54px);
+}
+
+.herald-school-hero h1 {
+  color: #111827;
+  font-family: var(--font-ui);
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
 .school-review-banner,
 .school-profile-side,
 .school-fee-panel,
