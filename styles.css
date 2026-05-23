@@ -4969,6 +4969,7 @@ h1 {
 }
 
 .australia-evidence-cards {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   isolation: isolate;
 }
 
@@ -6932,6 +6933,130 @@ h1 {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: flex-end;
+}
+
+.nsw-schools-zone {
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.94), rgba(242, 247, 245, 0.96)),
+    #fff;
+  border: 1px solid rgba(31, 94, 82, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(6, 26, 47, 0.06);
+  padding: clamp(22px, 3vw, 34px);
+}
+
+.nsw-schools-zone .section-head {
+  margin-bottom: 18px;
+}
+
+.nsw-schools-briefing {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 0.9fr 1.1fr;
+  margin-bottom: 14px;
+}
+
+.nsw-schools-briefing article,
+.nsw-school-card-grid article,
+.nsw-school-apply-panel {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #d8c7aa;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.nsw-schools-briefing article:first-child {
+  background: #21170f;
+  border-color: #21170f;
+}
+
+.nsw-schools-briefing span,
+.nsw-school-apply-panel span,
+.nsw-school-card-grid b {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nsw-schools-briefing article:first-child span,
+.nsw-schools-briefing article:first-child strong,
+.nsw-schools-briefing article:first-child p {
+  color: #fff;
+}
+
+.nsw-schools-briefing strong,
+.nsw-school-card-grid strong,
+.nsw-school-apply-panel strong {
+  color: var(--navy);
+  display: block;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.18;
+  margin-top: 7px;
+}
+
+.nsw-schools-briefing p,
+.nsw-school-card-grid p,
+.nsw-school-apply-panel p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.62;
+  margin: 10px 0 0;
+}
+
+.nsw-school-card-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.nsw-school-card-grid article {
+  border-top: 5px solid #2f8b82;
+  min-height: 250px;
+}
+
+.nsw-school-card-grid article:nth-child(2) {
+  border-top-color: #b88a3b;
+}
+
+.nsw-school-card-grid article:nth-child(3) {
+  border-top-color: #a9171b;
+}
+
+.nsw-school-card-grid strong {
+  font-size: 18px;
+}
+
+.nsw-school-card-grid a {
+  border-top: 1px solid #eadfce;
+  color: var(--teal);
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 14px;
+  padding-top: 10px;
+}
+
+.nsw-school-apply-panel {
+  align-items: center;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-top: 14px;
+}
+
+@media (max-width: 900px) {
+  .nsw-schools-briefing,
+  .nsw-school-card-grid,
+  .nsw-school-apply-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .nsw-school-card-grid article {
+    min-height: 0;
+  }
 }
 
 .report-hero h1 {
