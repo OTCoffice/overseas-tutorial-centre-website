@@ -8989,7 +8989,8 @@ h1 {
 }
 
 .zh-herald-page {
-  max-width: 880px;
+  width: min(1120px, calc(100% - 32px));
+  max-width: 1120px;
   margin: 32px auto 56px;
   background: #faf6ef;
   color: #1a1410;
@@ -9161,16 +9162,17 @@ h1 {
 
 .zh-herald-body-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 340px);
 }
 
 .zh-herald-main {
-  padding: 36px 36px 36px 48px;
+  padding: 38px 48px 40px 56px;
   border-right: 1px solid #c8b89a;
 }
 
 .zh-herald-side {
-  padding: 28px 28px 28px 24px;
+  min-width: 0;
+  padding: 30px 32px 30px 28px;
   background: #f3ede2;
 }
 
@@ -9450,11 +9452,16 @@ h1 {
   display: flex;
   align-items: center;
   gap: 9px;
+  min-width: 0;
   background: #fff;
   border: 1px solid #c8b89a;
   border-radius: 5px;
   padding: 9px 10px;
   margin-bottom: 7px;
+}
+
+.zh-herald-resource-item > div:last-child {
+  min-width: 0;
 }
 
 .zh-herald-resource-icon {
@@ -9481,6 +9488,8 @@ h1 {
   color: #7a6552;
   font-size: 10px;
   margin-top: 2px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .zh-herald-infographic {
