@@ -1693,6 +1693,72 @@ function write(route, html) {
   generatedRoutes.push(publicPath);
 }
 
+function escapeXml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function wrapOgTitle(title, maxChars = 24, maxLines = 3) {
+  const text = String(title || "").replace(/\s+/g, " ").trim();
+  const hasCjk = /[\u3400-\u9fff]/.test(text);
+  const hasSpaces = text.includes(" ") && !hasCjk;
+  const tokens = hasSpaces ? text.split(" ") : Array.from(text);
+  const lines = [];
+  let current = "";
+  tokens.forEach((token) => {
+    const next = hasSpaces ? (current ? `${current} ${token}` : token) : `${current}${token}`;
+    if (next.length > maxChars && current && lines.length < maxLines - 1) {
+      lines.push(current);
+      current = token;
+    } else {
+      current = next;
+    }
+  });
+  if (current) lines.push(current);
+  if (lines.length > maxLines) {
+    lines.length = maxLines;
+    lines[maxLines - 1] = `${lines[maxLines - 1].slice(0, Math.max(0, maxChars - 1))}…`;
+  }
+  return lines;
+}
+
+function heraldSocialImagePath(article, locale = "en") {
+  return `/assets/social/herald-${locale}-${article.slug}.png`;
+}
+
+function writeHeraldSocialImage(article, locale = "en") {
+  const isZh = locale === "zh";
+  const imagePath = heraldSocialImagePath(article, locale);
+  const svgPath = imagePath.replace(/\.png$/, ".svg");
+  const outPath = path.join(root, svgPath.replace(/^\//, ""));
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  const title = isZh ? (article.titleZh || article.title) : article.title;
+  const column = isZh ? "留學｜升學｜轉學｜遊學｜訪學｜自學" : (article.category || "Overseas Study Review");
+  const issue = isZh ? `${article.date.replace(/-/g, ".")} · 留學導報` : `${article.date} · Overseas Study Review`;
+  const titleLines = wrapOgTitle(title, isZh ? 15 : 34, 3);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#efe5d6"/>
+  <rect x="58" y="48" width="1084" height="534" fill="#fffaf2" stroke="#c8b89a" stroke-width="2"/>
+  <rect x="58" y="48" width="1084" height="86" fill="#1a1410"/>
+  <rect x="58" y="134" width="1084" height="12" fill="#b5272d"/>
+  <text x="92" y="86" fill="#e8b84b" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="4">OVERSEAS STUDY REVIEW</text>
+  <text x="92" y="118" fill="#ffffff" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="30" font-weight="800">${isZh ? "留學導報" : "Overseas Education Herald"}</text>
+  <text x="1110" y="96" text-anchor="end" fill="#9a8870" font-family="Arial, sans-serif" font-size="17">${escapeXml(issue)}</text>
+  <text x="92" y="190" fill="#b5272d" font-family="Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3">${escapeXml(column.toUpperCase ? column.toUpperCase() : column)}</text>
+  <line x1="92" y1="214" x2="310" y2="214" stroke="#c8952a" stroke-width="4"/>
+  ${titleLines.map((line, index) => `<text x="92" y="${278 + index * 66}" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="${isZh ? 50 : 46}" font-weight="900">${escapeXml(line)}</text>`).join("")}
+  <text x="92" y="492" fill="#5d4d3c" font-family="'Noto Sans TC', Arial, sans-serif" font-size="23" font-weight="700">${isZh ? "海外督導 OTC · 留學導報文章" : "Overseas Tutorial Centre · Study Review Article"}</text>
+  <rect x="836" y="466" width="252" height="62" fill="#1e6b6b"/>
+  <text x="962" y="505" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="800">overseasuk.com</text>
+  <text x="92" y="555" fill="#8b7560" font-family="Arial, sans-serif" font-size="18">Overseas Tutorial Centre Ltd · OTC Study Hub</text>
+</svg>`;
+  fs.writeFileSync(outPath, svg);
+  return imagePath;
+}
+
 const insightsArticles = [
   {
     slug: "otc-free-study-abroad-application-agent-service",
@@ -3581,11 +3647,16 @@ const zhInsights = pageShell({
 });
 
 function insightArticlePage(article) {
+  const image = writeHeraldSocialImage(article, "en");
   return pageShell({
     title: `${article.title} | Overseas Study Review`,
     current: "insights",
     description: article.summary,
     path: `/insights/${article.slug}/`,
+    image,
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: `${article.title} | Overseas Study Review`,
     body: `
       <main class="oeh-shell">
         ${heraldArticleBody(article)}
@@ -3595,6 +3666,7 @@ function insightArticlePage(article) {
 }
 
 function insightArticlePageZh(article) {
+  const image = writeHeraldSocialImage(article, "zh");
   return pageShell({
     title: `${article.titleZh || article.title} | 留學導報`,
     current: "insights",
@@ -3602,6 +3674,10 @@ function insightArticlePageZh(article) {
     locale: "zh",
     description: article.summaryZh || article.summary,
     path: `/zh/insights/${article.slug}/`,
+    image,
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: `${article.titleZh || article.title} | 留學導報`,
     body: `
       ${zhArticleMagazineBody(article)}
     `

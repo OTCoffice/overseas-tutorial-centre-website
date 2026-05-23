@@ -200,6 +200,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
+  const socialImageType = image.endsWith(".svg") ? "image/svg+xml" : image.endsWith(".jpg") || image.endsWith(".jpeg") ? "image/jpeg" : "image/png";
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -239,7 +240,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta property="og:url" content="${canonicalUrl}">
   ${socialImageUrl ? `<meta property="og:image" content="${socialImageUrl}">
   <meta property="og:image:secure_url" content="${socialImageUrl}">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:type" content="${socialImageType}">
   <meta property="og:image:width" content="${imageWidth}">
   <meta property="og:image:height" content="${imageHeight}">
   <meta property="og:image:alt" content="${imageAlt || title}">` : ""}
