@@ -8663,20 +8663,16 @@ const australiaPathwaysLanding = pageShell({
         <h2>OTC 協助處理申請初篩的澳洲院校及 Pathway Provider。</h2>
         <p>以下為路線與資料整理入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
       </div>
-      <div class="australia-provider-grid">
-        <div class="australia-provider-row australia-provider-row-head">
-          <span>State</span>
-          <strong>Institution / Provider</strong>
-          <div>Route keywords</div>
-        </div>
+      <ul class="australia-provider-list">
+        <li class="australia-provider-list-head"><span>州份</span><strong>院校 / Provider</strong><em>路線方向</em></li>
         ${australiaProviders.map(([name, state, tags]) => `
-          <article>
+          <li>
             <span>${state}</span>
             <strong>${name}</strong>
-            <div>${tags.map((tag) => `<em>${tag}</em>`).join("")}</div>
-          </article>
+            <em>${tags.join(" · ")}</em>
+          </li>
         `).join("")}
-      </div>
+      </ul>
     </section>
 
     <section class="band compact-band" id="australia-insights">

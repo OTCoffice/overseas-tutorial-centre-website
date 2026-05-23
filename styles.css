@@ -5860,7 +5860,6 @@ h1 {
 }
 
 .australia-pathway-card b,
-.australia-provider-grid span,
 .australia-insight-card span,
 .australia-contact-block span {
   color: var(--gold);
@@ -6088,50 +6087,46 @@ h1 {
   padding: 18px 20px;
 }
 
-.australia-provider-grid {
-  display: grid;
-  gap: 0;
-  grid-template-columns: 1fr;
+.australia-provider-list {
+  background: #fff;
+  border-top: 2px solid var(--navy);
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.australia-provider-grid article,
-.australia-provider-row {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(222, 211, 196, 0.95);
-  border-bottom: 0;
+.australia-provider-list li {
+  align-items: baseline;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.9);
   display: grid;
-  gap: 14px;
-  grid-template-columns: 72px minmax(190px, 0.42fr) minmax(0, 1fr);
+  gap: 12px;
+  grid-template-columns: 52px minmax(210px, 0.42fr) minmax(0, 1fr);
   min-height: 0;
-  padding: 10px 14px;
+  padding: 7px 0;
 }
 
-.australia-provider-row-head {
-  background: #f7f2ea;
-  border-radius: 8px 8px 0 0;
-  color: #5b6572;
-  font-size: 11px;
-  font-weight: 780;
-  letter-spacing: 0.12em;
-  min-height: 36px;
-  text-transform: uppercase;
-}
-
-.australia-provider-grid article:last-child {
-  border-bottom: 1px solid rgba(222, 211, 196, 0.95);
-  border-radius: 0 0 8px 8px;
-}
-
-.australia-provider-grid article:hover {
+.australia-provider-list li:hover {
   background: #fffaf1;
 }
 
-.australia-provider-grid article span {
-  margin-bottom: 0;
+.australia-provider-list-head {
+  background: #f7f2ea;
+  color: #5b6572;
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.australia-provider-grid strong,
+.australia-provider-list span {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.australia-provider-list strong,
 .australia-insight-card strong,
 .australia-contact-block strong {
   color: var(--navy);
@@ -6141,23 +6136,12 @@ h1 {
   line-height: 1.22;
 }
 
-.australia-provider-grid div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 0;
-}
-
-.australia-provider-grid em {
-  background: #f7f2ea;
-  border: 1px solid rgba(222, 211, 196, 0.9);
-  border-radius: 999px;
+.australia-provider-list em {
   color: #53606f;
-  font-size: 11px;
+  font-size: 13px;
   font-style: normal;
-  font-weight: 720;
-  line-height: 1;
-  padding: 5px 8px;
+  font-weight: 650;
+  line-height: 1.35;
 }
 
 .australia-insight-grid {
@@ -11878,7 +11862,7 @@ h1 {
   .australia-pathway-card-grid,
   .health-pathway-layout,
   .health-route-columns,
-  .australia-provider-grid,
+  .australia-provider-list,
   .australia-insight-grid,
   .australia-contact-block,
   .social-signature-layout,
@@ -11904,15 +11888,14 @@ h1 {
     min-height: 640px;
   }
 
-  .australia-provider-grid article,
-  .australia-provider-row {
-    align-items: flex-start;
-    gap: 6px;
-    grid-template-columns: 48px minmax(0, 1fr);
+  .australia-provider-list li {
+    align-items: baseline;
+    gap: 4px 10px;
+    grid-template-columns: 42px minmax(0, 1fr);
+    padding: 8px 0;
   }
 
-  .australia-provider-grid article div,
-  .australia-provider-row div {
+  .australia-provider-list em {
     grid-column: 2;
   }
 
