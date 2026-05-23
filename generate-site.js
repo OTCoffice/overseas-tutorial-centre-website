@@ -1695,6 +1695,100 @@ function write(route, html) {
 
 const insightsArticles = [
   {
+    slug: "study-nt-agent-training-certificate-otc-australia-meaning",
+    title: "What the Study NT Agent Training Certificate Means for OTC's Australia Route",
+    date: "2026-05-23",
+    category: "Australia Pathways",
+    column: "study",
+    kicker: "Study NT certificate analysis",
+    author: "OTC Study Hub Editorial",
+    summary: "OTC's completion of the Study NT Agent Training Course is a concrete training milestone in its Australia expansion map: it strengthens destination knowledge, state-level briefing discipline and public evidence of preparation, while remaining distinct from formal agency appointment or regulated advice.",
+    titleZh: "Study NT Agent Training 證書意味著什麼：OTC 澳洲版圖的一個實質節點",
+    summaryZh: "OTC 完成 Study NT Agent Training Course 並取得 completion certificate，代表其澳洲擴張不再停留於一般市場描述，而開始進入州/領地官方教育資訊、agent training 與目的地知識體系。這是公開培訓證明，不等同於正式代理授權或受監管專業建議資格。",
+    body: [
+      {
+        heading: "1) A Training Certificate, Not a Decorative Badge",
+        paragraphs: [
+          "The Study NT Agent Training Course certificate shows that OTC has completed a structured Northern Territory education-agent training route and can evidence that completion publicly.",
+          "For an education organisation building an Australia-facing service desk, this matters because destination knowledge must be learned from official or sector-recognised channels, not assembled only from marketing brochures.",
+          "The certificate is therefore a practical training milestone: it helps OTC organise Northern Territory schools, VET/TAFE, ELICOS, pathway and higher-education information with a more disciplined state-level lens."
+        ]
+      },
+      {
+        heading: "2) Why Northern Territory Matters in a National Australia Map",
+        paragraphs: [
+          "Many families start with Sydney, Melbourne or Brisbane. Northern Territory adds another layer to the map: Darwin, regional education, smaller destination markets, skilled-economy context, English immersion and provider routes that may not be visible in major-city comparisons.",
+          "Including Study NT in OTC's training map helps prevent the Australia service from becoming a two-city conversation. It gives families a more complete way to compare state and territory routes.",
+          "For OTC's internal operation, the NT training record can sit beside Study NSW briefings, Queensland and Victoria outreach, StudyPerth, StudyAdelaide, Tasmania and ACT routes as part of a national education intelligence layer."
+        ]
+      },
+      {
+        heading: "3) What It Means for OTC's Australia Expansion",
+        paragraphs: [
+          "The certificate supports three types of evidence: staff training evidence, market-development evidence and public capability evidence.",
+          "Staff training evidence means OTC can show that its Australia-facing office work includes structured learning and not only general enquiry handling.",
+          "Market-development evidence means OTC is actively building state and territory education channels, not merely claiming an abstract interest in Australia.",
+          "Public capability evidence means students, families and institutional contacts can see that OTC is building a documented route into official education briefings and destination training."
+        ]
+      },
+      {
+        heading: "4) The Boundary: What the Certificate Does Not Mean",
+        paragraphs: [
+          "The certificate does not by itself create a formal agency agreement with every Northern Territory provider, does not authorise OTC to use provider logos, and does not replace written representative terms.",
+          "It is also not migration advice, legal advice, tax advice or a regulated professional qualification. Visa, migration, legal and tax matters must be handled by qualified professionals where required.",
+          "OTC will therefore describe the certificate as an education-agent training completion record and destination-readiness milestone, while keeping formal cooperation claims limited to relationships that are separately evidenced."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這不是裝飾性 badge，而是一個培訓完成記錄",
+        paragraphs: [
+          "Study NT Agent Training Course completion certificate 說明 OTC 已完成 Northern Territory 的教育中介培訓路線，並可以把這一完成狀態作為公開培訓記錄展示。",
+          "對正在建立 Australia-facing service desk 的教育機構來說，這件事重要，是因為澳洲目的地知識不能只靠宣傳冊拼湊，而應該進入官方或行業認可的 briefing / training / update 軌道。",
+          "因此，這張證書的意義不是好看，而是實務性的：它幫 OTC 用更有紀律的州/領地視角，整理 Northern Territory 的 schools、VET / TAFE、ELICOS、pathway 和高等教育資訊。"
+        ]
+      },
+      {
+        heading: "二、為什麼 Northern Territory 對全澳版圖有意義？",
+        paragraphs: [
+          "許多家庭談澳洲留學，第一反應是 Sydney、Melbourne 或 Brisbane。Northern Territory 讓澳洲地圖多出另一層：Darwin、regional education、小型目的地市場、英語沉浸、技能經濟背景，以及不一定出現在大城市比較表中的 provider route。",
+          "把 Study NT 納入 OTC 的培訓版圖，可以避免澳洲服務變成只談兩三個大城市，而能讓家庭更完整地比較各州與領地的教育路線。",
+          "對 OTC 內部運作而言，Study NT 培訓記錄可以與 Study NSW briefing、Queensland / Victoria 聯絡、StudyPerth、StudyAdelaide、Tasmania、ACT 等路線並列，形成 national education intelligence layer。"
+        ]
+      },
+      {
+        heading: "三、對 OTC 澳洲擴張意味著什麼？",
+        paragraphs: [
+          "這張證書至少支撐三類記錄：staff training evidence、market-development evidence、public capability evidence。",
+          "Staff training evidence 表示 OTC 的澳洲辦公室工作不是單純接收詢問，而包含結構化培訓和州別教育知識建立。",
+          "Market-development evidence 表示 OTC 正在主動建立澳洲各州與領地教育渠道，而不是抽象地說「準備進軍澳洲」。",
+          "Public capability evidence 表示學生、家庭與院校窗口可以看到：OTC 正在把自己接入官方教育 briefing、destination training 和州別資料更新的路線。"
+        ]
+      },
+      {
+        heading: "四、邊界：這張證書不代表什麼？",
+        paragraphs: [
+          "這張證書本身不等於 OTC 已自動取得所有 Northern Territory provider 的正式代理協議，也不等於可以使用 provider logo，更不替代書面的 representative terms。",
+          "它也不是移民建議資格、法律建議資格、稅務建議資格或其他受監管專業資格。涉及 visa、migration、legal、tax 的事項，仍應由合資格專業人士處理。",
+          "因此，OTC 對外會把它表述為 education-agent training completion record 和 destination-readiness milestone；正式合作與代理狀態，仍只在另有書面證據時公開表述。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Training record", "Study NT completion", "證明 OTC 已完成 Northern Territory 教育中介培訓。", "completed"],
+      ["Australia route", "State-level readiness", "把澳洲服務從大城市比較推進到州/領地級資料架構。", "route"],
+      ["Evidence value", "Staff + market + public capability", "可支持培訓、業務發展與公開能力展示三類記錄。", "evidence"],
+      ["Boundary", "Not formal appointment", "不等於代理授權、移民建議或受監管專業資格。", "compliance"]
+    ],
+    resources: [
+      ["OTC Study NT training certificate", "/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf"],
+      ["Study NT", "studynt.nt.gov.au"],
+      ["OTC Australia route", "/zh/australia-office-presence/"],
+      ["Australia training map", "/zh/insights/australia-agent-training-map-2026/"]
+    ]
+  },
+  {
     slug: "australia-agent-training-map-2026",
     title: "Australia Education Agent Training Map 2026: From NSW School Briefings to a National Route",
     date: "2026-05-23",
@@ -7279,7 +7373,7 @@ const australiaOfficePresenceZh = pageShell({
       <div class="nsw-schools-zone" id="nsw-schools">
         <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
         <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
-        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>National</b><strong>澳洲教育中介培訓版圖 2026</strong><p>OTC 已向 Queensland、Victoria、Western Australia、South Australia、Northern Territory、Tasmania、ACT 等官方窗口發出培訓與 briefing 加入請求；Study NT training account 已 activated，agent training 已完成，completion certificate 已公開存檔。</p><a href="/zh/insights/australia-agent-training-map-2026/">閱讀導報專題</a><a href="/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf">查看 Study NT 證書</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
+        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>National</b><strong>澳洲教育中介培訓版圖 2026</strong><p>OTC 已向 Queensland、Victoria、Western Australia、South Australia、Northern Territory、Tasmania、ACT 等官方窗口發出培訓與 briefing 加入請求；Study NT training account 已 activated，agent training 已完成，completion certificate 已公開存檔。</p><a href="/zh/insights/australia-agent-training-map-2026/">閱讀培訓版圖</a><a href="/zh/insights/study-nt-agent-training-certificate-otc-australia-meaning/">證書意義解讀</a><a href="/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf">查看 Study NT 證書</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
         <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
       </div>
     </section>
