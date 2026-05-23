@@ -1797,6 +1797,156 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "otc-othm-centre-renewal-2026",
+    title: "OTC Renews OTHM Approved Centre Status — May 2026",
+    date: "2026-05-23",
+    category: "OTC News",
+    column: "study",
+    kicker: "機構資訊 · OTHM 認可更新",
+    author: "留學導報編輯部",
+    summary: "Overseas Tutorial Centre has received OTHM renewal approval in May 2026, confirming continued operation under centre number DC1802235 and clarifying the currently approved OTHM provision for students.",
+    titleZh: "海外補習中心 OTHM 認可中心資格正式更新 — 2026 年 5 月",
+    summaryZh: "2026 年 5 月，海外補習中心（OTC）收到 OTHM 中心更新批准通知，確認中心編號 DC1802235 維持不變，中心名稱同步更新，學生登記及評核安排不受影響。",
+    body: [
+      {
+        heading: "1) Renewal Confirmed",
+        paragraphs: [
+          "On 21 May 2026, Overseas Tutorial Centre (OTC) received a centre renewal approval notice from OTHM Qualifications. The notice was issued by Elise Labram from OTHM's centre approval team and confirms OTC's continued status as an OTHM-approved teaching and assessment centre.",
+          "OTC's OTHM centre number remains DC1802235. The centre name has been updated to Overseas Tutorial Centre, replacing the previous name Overseas Tutorial College, while the centre number remains unchanged.",
+          "This name update does not affect existing or new learner registrations, assessment arrangements or the continuity of OTC's OTHM centre record."
+        ]
+      },
+      {
+        heading: "2) Qualifications Covered by This Renewal",
+        paragraphs: [
+          "Based on the renewal correspondence between OTC and OTHM, OTC is currently approved to continue offering the following OTHM qualifications.",
+          "Level 3: OTHM Level 3 Foundation Diploma for Higher Education Studies.",
+          "Business and management provision from Level 4 to Level 6: OTHM Level 4 Diploma in Business Management, OTHM Level 5 Diploma in Business Management and OTHM Level 6 Diploma in Business Management.",
+          "Postgraduate-level provision at Level 7: OTHM Level 7 Diploma in Project Management and OTHM Level 7 Diploma in Education Management and Leadership.",
+          "The OTHM Level 7 Diploma in Accounting and Finance was not included in this renewal scope. OTC has informed OTHM that this qualification will be deferred until a suitably qualified tutor is in place. This does not affect the renewal of the other approved qualifications."
+        ]
+      },
+      {
+        heading: "3) What the Renewal Process Reviewed",
+        paragraphs: [
+          "Under OTHM's centre renewal process, approved centres must periodically submit updated evidence to confirm continuing compliance with OTHM requirements.",
+          "Tutor suitability was one of the reviewed areas. OTHM requires tutors to hold a subject qualification at the same level or above the qualification they deliver, together with relevant teaching credentials or more than 12 months of teaching experience. OTC adjusted staffing allocation during the renewal process to match these requirements.",
+          "OTC also submitted learning management system evidence, including screenshots and functional demonstrations showing how learners access materials, submit assignments, receive feedback and track progress. OTC provided OTHM with a dedicated LMS review interface at otc.overseasuk.com/lms-review/.",
+          "Policy documents were also updated, including complaints and appeals, remote and blended learning, equality and diversity, academic malpractice, reasonable adjustments and recognition of prior learning policies."
+        ]
+      },
+      {
+        heading: "4) Impact on Current and Prospective Students",
+        paragraphs: [
+          "OTHM confirmed in the renewal approval correspondence that OTC remained active throughout the renewal review period and that learner registration activity was not interrupted.",
+          "The centre number DC1802235 remains unchanged. Existing learner qualification registrations and assessment arrangements are therefore not affected by the centre name update.",
+          "For prospective students, the renewal confirms that OTC continues to hold the appropriate OTHM centre approval to deliver and assess the approved OTHM qualifications listed in this briefing."
+        ]
+      },
+      {
+        heading: "5) What OTHM Is",
+        paragraphs: [
+          "OTHM Qualifications is a UK awarding organisation regulated by Ofqual. Its qualifications are positioned within the UK Regulated Qualifications Framework (RQF), with Levels 3 to 7 carrying clear academic level references.",
+          "OTHM qualifications are used by learners for academic progression, including undergraduate and postgraduate top-up or pathway applications where accepted by the receiving institution.",
+          "OTC delivers its OTHM provision from its London teaching base at 3/F, 207 Regent Street, London W1B 3HH, with remote learning options where appropriate and approved."
+        ]
+      },
+      {
+        heading: "6) Contact OTC",
+        paragraphs: [
+          "For OTHM course enquiries, registration arrangements or fee information, students may contact OTC by WhatsApp or telephone on +44 7947 991572.",
+          "Email: office@overseasuk.com. WeChat: overseasus. Address: 3/F, 207 Regent Street, London W1B 3HH.",
+          "Learners should verify current centre and qualification information through official OTHM channels where needed."
+        ]
+      },
+      {
+        heading: "7) Information Basis",
+        paragraphs: [
+          "This briefing is based on OTHM Qualifications' renewal approval notice and correspondence records between OTC and OTHM.",
+          "Course availability, fees and entry requirements are subject to OTC's latest published information. Formal centre approval status should be checked through OTHM's official approved-centre verification channels using centre number DC1802235."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、更新確認",
+        paragraphs: [
+          "2026 年 5 月 21 日，海外補習中心（Overseas Tutorial Centre，OTC）正式收到 OTHM Qualifications 頒發的中心更新批准通知。該通知由 OTHM 認可中心資格認證部門管理人 Elise Labram 發出，確認 OTC 繼續作為 OTHM 認可的教學及評核中心運作。",
+          "OTC 的 OTHM 中心編號為 DC1802235。中心名稱現正式更新為 Overseas Tutorial Centre（前稱 Overseas Tutorial College），但中心編號保持不變。",
+          "這一名稱更新不影響任何現有或新報讀學生的登記、評核安排或中心記錄連續性。"
+        ]
+      },
+      {
+        heading: "二、此次更新涵蓋的 OTHM 課程",
+        paragraphs: [
+          "根據本次更新流程中 OTC 與 OTHM 之間的郵件往來記錄，現階段 OTC 獲批繼續提供以下 OTHM 資格課程。",
+          "Level 3：OTHM Level 3 Foundation Diploma for Higher Education Studies。",
+          "Level 4 至 Level 6（商業及管理方向）：OTHM Level 4 Diploma in Business Management、OTHM Level 5 Diploma in Business Management、OTHM Level 6 Diploma in Business Management。",
+          "Level 7（研究生層級）：OTHM Level 7 Diploma in Project Management、OTHM Level 7 Diploma in Education Management and Leadership。",
+          "備註：OTHM Level 7 Diploma in Accounting and Finance 在本輪更新中暫時未納入審批範圍。OTC 已主動向 OTHM 確認，將此資格推遲至具備合資格導師後再行申請；這不影響其他課程的更新。"
+        ]
+      },
+      {
+        heading: "三、更新流程說明",
+        paragraphs: [
+          "根據 OTHM 的中心更新政策，已認可的 OTHM 教學中心須定期向 OTHM 提交更新文件，以確認中心持續符合 OTHM 對教學、評核、政策和學習支援的要求。",
+          "教學人員資格方面，OTHM 要求每位任課導師須持有與所教授課程同等或以上學科資格，並具有相關教學資歷或逾 12 個月的教學經驗。本次更新過程中，OTC 對教職員分配作出了相應調整。",
+          "學習管理系統（LMS）方面，OTC 向 OTHM 提交了 LMS 操作截圖及功能演示，涵蓋學生如何獲取教學材料、提交作業、獲取回饋及追蹤學習進度。OTC 亦為 OTHM 提供了專屬的 LMS 審閱界面，網址為 otc.overseasuk.com/lms-review/。",
+          "政策文件方面，OTC 更新了多項機構政策，包括申訴及投訴政策、遠端 / 混合學習政策、多元平等政策、學術不當行為政策、合理便利政策，以及先前學習認定政策，確保各政策符合 OTHM 的最新規範要求。"
+        ]
+      },
+      {
+        heading: "四、對在讀及擬報讀學生的影響",
+        paragraphs: [
+          "OTHM 在更新批准郵件中確認，OTC 在整個更新審批期間始終作為活躍中心運作，學生登記工作未中斷。",
+          "更新後，中心號碼 DC1802235 維持不變，學生的 OTHM 資格登記及評核安排均不受中心名稱更新影響。",
+          "對於正在考慮報讀 OTC OTHM 課程的學生，此次更新確認 OTC 繼續具備向學生提供已批准 OTHM 資格教學及評核的中心資格。"
+        ]
+      },
+      {
+        heading: "五、OTHM 是什麼",
+        paragraphs: [
+          "OTHM Qualifications 是英國 Ofqual 監管的頒證機構，其資格按英國 RQF（Regulated Qualifications Framework，受監管資格框架）編排，Level 3 至 Level 7 各層級均有明確的學術等值標準。",
+          "OTHM 資格被英國及國際多所大學用作銜接升學參考，可用於本科及研究生 top-up 或 pathway 申請，具體接受情況以接收院校的最新入學與學分認可政策為準。",
+          "OTC 的 OTHM 課程以倫敦 207 Regent Street 的實體課室為主要教學基地，並在合適及獲批情況下提供遠端學習選項。"
+        ]
+      },
+      {
+        heading: "六、聯絡 OTC",
+        paragraphs: [
+          "如需查詢 OTHM 課程詳情、報名安排或課程費用，歡迎通過以下渠道聯絡 OTC。",
+          "電話 / WhatsApp：+44 7947 991572。電郵：office@overseasuk.com。WeChat：overseasus。",
+          "地址：3/F, 207 Regent Street, London W1B 3HH。"
+        ]
+      },
+      {
+        heading: "七、重要提示",
+        paragraphs: [
+          "本文資訊以 OTHM Qualifications 官方通知及 OTC 與 OTHM 往來記錄為依據。課程供應、費用及入學要求以 OTC 最新公佈為準。",
+          "OTHM 資格的正式認可狀態可通過 OTHM 官網的 Approved Centre / centre verification 相關功能查核，中心號碼：DC1802235。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["DC1802235", "Centre number", "OTC 的 OTHM 中心編號保持不變。", "centre"],
+      ["21 May 2026", "Renewal notice", "OTHM 更新批准通知日期。", "renewal"],
+      ["Overseas Tutorial Centre", "Centre name", "中心名稱由 Overseas Tutorial College 更新為 Overseas Tutorial Centre。", "name"],
+      ["London W1B", "Teaching base", "OTC 倫敦 Regent Street 教學基地。", "location"]
+    ],
+    resources: [
+      ["OTHM Qualifications", "https://othm.org.uk/"],
+      ["Become an Approved Centre - OTHM", "https://othm.org.uk/become-centre"],
+      ["OTHM Qualifications list", "https://othm.org.uk/qualification"],
+      ["OTC LMS review interface", "https://otc.overseasuk.com/lms-review/"],
+      ["OTC contact", "https://overseasuk.com/contact/"]
+    ],
+    relatedReadings: [
+      "credit-alliance-global-pathways",
+      "othm-credits-australia-advanced-entry",
+      "australia-new-zealand-provider-pathway-updates-2026"
+    ]
+  },
+  {
     slug: "uk-online-safety-cyberbullying-legal-guide",
     title: "Cyberbullying in the UK: Legal Protections and Reporting Guide for International Students",
     date: "2026-05-23",
