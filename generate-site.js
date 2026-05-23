@@ -1761,6 +1761,159 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "othm-credits-australia-advanced-entry",
+    title: "OTHM Credits in Australian University Entry and Credit Transfer: A Practical Analysis",
+    date: "2026-05-23",
+    category: "Australia Pathways",
+    column: "study",
+    kicker: "OTHM 學分澳洲升學",
+    author: "留學導報編輯部",
+    summary: "A practical bilingual analysis of how OTHM qualifications (Level 3–7) are recognised in Australian university applications, credit transfer processes, advanced entry pathways and articulation routes, including required documents, typical timelines and case scenarios.",
+    titleZh: "OTHM 學分在澳洲升學與轉學中的作用",
+    summaryZh: "一份給正在考慮澳洲路線學生的實務分析：OTHM Level 3 至 Level 7 在澳洲大學的入學對應、Credit Transfer 流程、必要文件、院校接受度與三種典型轉學情境，涵蓋 pathway college 銜接、Advanced Entry 申請及跨學歷整合策略。",
+    body: [
+      {
+        heading: "1) What OTHM Is and Why Australia Recognises It",
+        paragraphs: [
+          "OTHM is a UK awarding organisation regulated by Ofqual. Its qualifications are structured under the Regulated Qualifications Framework (RQF) at Levels 3 to 7, each with defined academic equivalency standards.",
+          "When Australian universities assess overseas qualifications, the primary question is whether the qualification is officially regulated in its country of origin. OTHM's Ofqual-regulated status directly answers that question.",
+          "OTHM currently operates across more than 70 countries through over 500 approved centres, with tens of thousands of learners annually progressing to higher study or employment. This scale means Australian university admissions offices — particularly those with large international student cohorts — already have handling precedent for OTHM applications.",
+          "Each OTHM unit carries a credit value, with one credit representing approximately ten hours of learning. A full academic year typically equates to 120 UK credits or 60 European ECTS credits. All OTHM qualification specifications list both UK credits and ECTS values, providing internationally transparent comparability. This dual-credit standard is particularly important for Australian credit transfer applications, where Credit Assessment Committees require specific credit figures."
+        ]
+      },
+      {
+        heading: "2) OTHM Level Equivalencies in the Australian Context",
+        paragraphs: [
+          "Level 3 Foundation corresponds to Australian Year 12 / pre-university entry level. Students with OTHM Level 3 can apply for Australian undergraduate first-year direct entry, or enter via pathway college foundation programmes such as Murdoch College, KIC Adelaide, or La Trobe College Australia.",
+          "Level 4 corresponds to the academic standard of completed first-year Australian undergraduate study, broadly equating to Certificate IV to Diploma under the Australian Qualifications Framework (AQF). Some Australian universities accept OTHM Level 4 as grounds for second-year direct entry (Advanced Entry / Year 2), but this is subject to individual assessment and requires close subject alignment.",
+          "Level 5 is the most persuasive OTHM level for Australian university applications. Under RQF, Level 5 equates to the second year of UK higher education, corresponding to AQF Diploma to Advanced Diploma. Students with OTHM Level 5 and matching subject direction may apply for third-year direct entry (Year 3 Entry) or Honours-year direct entry at several Australian universities, significantly reducing time in Australia.",
+          "Level 6 is equivalent to a complete UK Bachelor's degree. In Australia, Level 6 holders can apply directly for postgraduate (Master's) admission, bypassing Australian undergraduate study. Some institutions also accept Level 6 as entry to Graduate Certificate or Graduate Diploma programmes, with onward progression to full Master's courses.",
+          "Level 7 equates to a UK Postgraduate Diploma. In Australia, Level 7 may support applications for MBA or other Master's programmes with exemptions from coursework units, allowing direct entry into thesis stages or advanced-year courses."
+        ]
+      },
+      {
+        heading: "3) The Australian Credit Transfer Process and Key Documents",
+        paragraphs: [
+          "Credit transfer applications in Australia are administratively more involved than in the UK, because Australian universities typically require Unit Outlines — not just transcripts. These documents must detail the learning objectives, assessment methods, contact hours and content scope of each completed unit, enabling the Credit Assessment Committee to compare it against its own curriculum.",
+          "The OTHM Official Transcript is the baseline requirement and must be issued directly by OTHM; student-printed records are not accepted.",
+          "The Unit Outline (Module Descriptor) is the most commonly overlooked document and the most frequent cause of application rejection or delay. OTC assists students in preparing standard outlines for each completed OTHM unit in a format that meets Australian institutional review requirements.",
+          "The Certificate of Achievement / Qualification Certificate is the formal OTHM qualification award confirming the student has completed an entire level, not merely individual units.",
+          "English proficiency results (IELTS/PTE) must be submitted separately. Australian universities typically require IELTS 6.0–6.5 overall, with higher requirements for nursing and some other programmes.",
+          "Where Open University credits are held, OU official transcripts and CATS credit listings should be included as supplementary academic background. Assessment timelines for Credit Transfer Applications at Australian universities are typically 3–6 weeks, extending to 8 weeks during peak intake periods. OTC recommends submitting at least 4 months before the intended entry date."
+        ]
+      },
+      {
+        heading: "4) Australian Institutions with Stronger OTHM Acceptance Precedent",
+        paragraphs: [
+          "Institutions with pathway college articulation: Murdoch University / Murdoch College, University of Adelaide / KIC Adelaide, La Trobe University / La Trobe College Australia, and University of Technology Sydney / UTS College. The advantage of these combinations is that students complete articulation through the pathway college first, which already has its own OTHM assessment process, significantly reducing uncertainty compared with direct university applications.",
+          "Institutions with relatively flexible Advanced Entry policies: RMIT University, University of Newcastle, Central Queensland University (CQU), Charles Sturt University (CSU), and Curtin University. These institutions have precedent for handling UK RQF qualifications. The specific number of credit exemptions granted depends on subject alignment and requires individual review.",
+          "A note on Group of Eight (Go8) institutions such as UNSW Sydney, University of Queensland and University of Melbourne: these apply stricter credit transfer assessment standards, typically requiring strong subject alignment and tending to limit exemption volumes. For these institutions, OTC recommends obtaining an admission offer first, then pursuing Recognition of Prior Learning (RPL) after enrolment rather than requesting Advanced Entry at the application stage."
+        ]
+      },
+      {
+        heading: "5) Three Typical OTHM Transfer Scenarios",
+        paragraphs: [
+          "Scenario 1 — Completing OTHM in the UK and transferring to an Australian university: The most common scenario. A student completes OTHM Level 4 or Level 5 in the UK and wishes to continue at an Australian university in the same subject area. Key steps are confirming qualification equivalency via WES or ENIC, submitting a Credit Transfer Application with a Unit Outline document pack, and ensuring strong subject alignment. OTC case records show that applications where subject direction matches closely — such as OTHM Business Management Level 5 against Australian Bachelor of Business — have significantly higher credit exemption success rates than cross-disciplinary applications.",
+          "Scenario 2 — Enrolled in Australia, using OTHM to strengthen a transfer to a higher-ranked institution: Some students enrolled at Australian institutions have not met internal transfer grade thresholds, or wish to transfer to a higher-ranked university. The strategy here is to complete supplementary OTHM units on top of existing Australian credits, creating a stronger academic record, then applying for transfer with a combined Credit Transfer application. The key value is that OTHM qualifications add academic depth and provide an independent UK official qualification record alongside the Australian transcript.",
+          "Scenario 3 — Holding Chinese or other Asian qualifications and seeking Australian higher-year entry: Direct Advanced Entry applications from Chinese university first- or second-year students are inconsistent in outcome, primarily because Chinese institutional courses require unit-by-unit verification against Australian curricula. OTC's approach is to supplement WES-verified Chinese qualifications with targeted OTHM units, using the UK RQF framework to improve the recognisability of the application, then submit a consolidated Advanced Entry application. This approach converts the question from 'can I get in?' to a technical question of 'which year do I enter?'"
+        ]
+      },
+      {
+        heading: "6) Frequently Asked Questions",
+        paragraphs: [
+          "Is there an official Australian recognition list for OTHM? No. Australia does not maintain a national list of approved overseas qualifications. Each university's Credit Assessment Committee evaluates applications independently. OTHM's recognition basis in Australia is its official Ofqual-regulated status in the UK and the framework correspondence between AQF and RQF, not a specific bilateral agreement.",
+          "How is the number of credit exemptions determined? By the Credit Assessment Committee of each institution, based on the degree of content alignment. Applications with strong subject alignment typically receive the maximum exemptions; cross-disciplinary applications tend to receive fewer. OTC recommends making an informal enquiry with the admissions office before submitting a formal application, to understand the institution's general approach to similar backgrounds.",
+          "Can OTHM credits contribute to Australian skilled migration points? OTHM qualifications do not directly contribute to skilled migration scoring. However, an Australian university degree subsequently obtained may serve as the educational basis for a migration application. Some state and territory nomination programmes have specific quotas for students at Australian institutions in certain fields — this has an indirect relationship with OTHM articulation pathways. Specific migration matters must be confirmed with a MARA/OMARA-registered migration agent or qualified migration lawyer; this article does not constitute migration advice."
+        ]
+      },
+      {
+        heading: "7) Next Steps",
+        paragraphs: [
+          "If you are considering applying for Australian university Advanced Entry or Credit Transfer using OTHM credits, OTC recommends the following sequence: first, compile your existing OTHM transcripts and Unit Outlines for all completed units; second, identify your target institution and programme and review its Credit Transfer policy page; third, contact OTC for a free credit assessment to confirm which credits have the strongest transfer prospects; finally, prepare a complete application document pack and submit through the institution's required process.",
+          "Contact OTC: WhatsApp +44 7947 991572 / office@overseasuk.com / WeChat: overseasus"
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、OTHM 是什麼，澳洲為什麼認可它",
+        paragraphs: [
+          "OTHM 是英國 Ofqual 官方監管的頒證機構，其資格體系按英國 RQF（Regulated Qualifications Framework）編排，Level 3 至 Level 7 各層級均有明確的學術等值標準。這個「官方監管」的身份是關鍵——澳洲大學在評估海外資格時，首要問題是「這個資格在原產國是否受官方監管」，OTHM 的 Ofqual 認證正好回答了這個問題。",
+          "OTHM 目前在全球超過 70 個國家、逾 500 個認可中心運營，每年有數以萬計的學習者通過 OTHM 資格進入更高層次的學習或就業。這個規模意味著澳洲各大院校的招生辦公室對 OTHM 並不陌生——尤其是在有大量國際學生的院校，OTHM 申請個案已有相當的處理先例。",
+          "OTHM 資格的每個單元均附有學分值，一個學分代表約 10 小時的學習投入。一個完整學年通常為 120 個英國學分，相當於 60 個歐洲 ECTS 學分。所有 OTHM 資格說明文件均同時列出英國學分及 ECTS 學分值，確保國際間的透明可比性。這個雙學分標準對澳洲升學尤為重要——澳洲大學的 Credit Transfer Committee 在評估學分豁免時，需要明確的學分數字作依據，OTHM 的標準化格式正好符合這一要求。"
+        ]
+      },
+      {
+        heading: "二、OTHM 各層級在澳洲的具體對應",
+        paragraphs: [
+          "Level 3 Foundation：對應澳洲大學一年級入學資格（AQF Level 5 以下的銜接層）。持 OTHM Level 3 的學生可申請澳洲大學本科一年級直入，或通過 pathway college（如 Murdoch College、KIC Adelaide、La Trobe College Australia）的 Foundation 銜接課程進入對應大學。",
+          "Level 4：對應澳洲本科一年級完成的學術水平，在 AQF 框架下約等於 Certificate IV 至 Diploma 層級。實際操作中，部分澳洲大學接受 OTHM Level 4 作為本科二年級直入（Advanced Entry / Year 2）的申請依據，但需個案評審，且要求學科方向吻合。",
+          "Level 5：這是澳洲升學申請中最具說服力的 OTHM 層級。Level 5 在 RQF 框架下相當於英國高等教育第二年，對應 AQF Diploma 至 Advanced Diploma 層級。持 OTHM Level 5 且學科方向匹配的學生，在多所澳洲大學可申請本科三年級直入（Year 3 Entry）或 Honours 年直入，大幅縮短在澳修讀年期。",
+          "Level 6：相當於英國本科學位（Bachelor's Degree）的完整學術資歷。在澳洲，Level 6 持有人可直接申請碩士課程（Postgraduate）入學，免去在澳讀本科的環節。部分院校亦接受 Level 6 作為 Graduate Certificate 或 Graduate Diploma 的入學依據，再銜接至全碩士課程。",
+          "Level 7：相當於英國研究生文憑（Postgraduate Diploma）。在澳洲，Level 7 可用於申請 MBA 或其他碩士課程的豁免申請，通常可豁免前期課程單元（Coursework Units），直接進入論文階段或高年級課程。"
+        ]
+      },
+      {
+        heading: "三、澳洲 Credit Transfer 的實際流程與關鍵文件",
+        paragraphs: [
+          "澳洲的學分轉入申請在行政上比英國複雜，原因是澳洲大學普遍要求申請人提交課程大綱（Unit Outline），而不只是成績單。這份文件需要詳細說明每個已修讀科目的學習目標、評核方式、課時及內容範疇，供院校的 Credit Assessment Committee 與其自身課程作對應比較。",
+          "OTHM 官方成績單（Official Transcript）是最基本的要求，必須由 OTHM 直接出具，不接受學生自行打印的成績記錄。課程大綱（Unit Outline / Module Descriptor）是最容易被忽略、也最容易導致申請被拒或延誤的文件，OTC 協助學生準備每個已修 OTHM 單元的標準大綱，格式符合澳洲院校的評審要求。資格完成確認函（Certificate of Achievement / Qualification Certificate）是 OTHM 頒發的正式資格證書，用以確認學生已完成整個資格層級而非僅部分單元。",
+          "英語成績（IELTS/PTE）需獨立提交，澳洲院校通常要求 IELTS 6.0–6.5 overall，護理及部分課程要求更高。如持有 Open University 學分，需附 OU 官方成績單及 CATS 學分列表作為補充學術背景。澳洲院校的 Credit Transfer Application 通常需要 3–6 週，部分院校在入學高峰期可長達 8 週。OTC 建議學生在擬入學日期前至少 4 個月提交申請，預留充足的評審及後續溝通時間。"
+        ]
+      },
+      {
+        heading: "四、哪些澳洲院校對 OTHM 接受度較高",
+        paragraphs: [
+          "有 pathway college 銜接的院校組合：Murdoch University / Murdoch College、University of Adelaide / KIC Adelaide College、La Trobe University / La Trobe College Australia、University of Technology Sydney / UTS College。這些組合的優勢在於：學生先通過 pathway college 完成銜接課程，再直入大學，pathway college 本身已對 OTHM 資格有評估機制，大大降低直接申請的不確定性。",
+          "接受 Advanced Entry 申請的院校：RMIT University、University of Newcastle、Central Queensland University（CQU）、Charles Sturt University（CSU）、Curtin University。這幾所院校在 Advanced Entry 政策上相對靈活，有處理英國 RQF 資格的先例。具體學分豁免數量取決於學科方向吻合程度，需個案評審。",
+          "需要特別注意的情況：Group of Eight（Go8）成員院校（如 UNSW Sydney、University of Queensland、University of Melbourne）對 Credit Transfer 的審批較嚴格，通常要求學科方向高度吻合，且傾向於減少豁免學分數。這類院校建議先取得入學 offer，再通過入學後的 RPL 申請處理學分豁免，而非在申請階段即要求 Advanced Entry。"
+        ]
+      },
+      {
+        heading: "五、OTHM 轉學個案的三種典型情境",
+        paragraphs: [
+          "情境一：在英國修讀 OTHM，希望轉至澳洲大學繼續就讀。這是最常見的情境。學生在英國完成 OTHM Level 4 或 Level 5 後，希望轉往澳洲就讀同等方向的本科課程。關鍵步驟是先通過 WES 或 ENIC 確認資格等值，再向目標院校提交 Credit Transfer Application，同時提供 Unit Outline 文件包。OTC 的個案記錄顯示，學科方向吻合（例如 OTHM Business Management Level 5 對應澳洲 Bachelor of Business）的申請，學分豁免成功率顯著高於跨學科申請。",
+          "情境二：在澳洲就讀，希望通過 OTHM 補強後轉入更好的院校。部分學生在澳洲院校就讀期間成績未達轉學要求，或希望轉入排名較高的院校。這類個案的策略是在現有澳洲學分基礎上，補修 OTHM 相關單元，形成更完整的學術記錄，再向目標院校申請轉學及 Credit Transfer。這個策略的核心在於：OTHM 資格補強了申請材料的學術深度，同時提供了一份獨立的英國官方資格記錄。",
+          "情境三：持中國或其他亞洲學歷，希望進入澳洲本科高年級。中國大學一年級或二年級的學歷，直接申請澳洲大學 Advanced Entry 的成功率不穩定，主要原因是中國院校課程與澳洲院校的學科對應需要逐科核實。OTC 的做法是在 WES 認證中國學歷的基礎上，補修對應的 OTHM 單元，以英國 RQF 框架補強申請材料的可識別性，再整合提交 Advanced Entry 申請。這個方法把原本「能不能進」的不確定性，轉化為「進哪一年」的技術問題。"
+        ]
+      },
+      {
+        heading: "六、常見問題與注意事項",
+        paragraphs: [
+          "OTHM 在澳洲是否有官方認可清單？澳洲沒有一份全國性的「認可海外資格清單」，每所大學的 Credit Assessment Committee 獨立評審申請。OTHM 作為 Ofqual 監管資格，在澳洲的認可依據是其在英國的官方地位，以及 AQF 與 RQF 之間的框架對應關係，而非針對 OTHM 的專項協議。",
+          "學分豁免數量如何確定？由各院校的 Credit Assessment Committee 按課程內容對應程度決定。通常學科方向高度吻合的申請可獲最多豁免，跨學科申請豁免學分往往較少。OTC 建議在提交申請前，先向招生辦公室作非正式查詢（informal enquiry），了解該院校對類似背景的一般做法。",
+          "OTHM 學分能否用於澳洲技術移民的加分？OTHM 資格本身不直接用於技術移民評分，但取得更高層級的澳洲大學學位後，該學位可作為移民申請的學歷依據。部分州/領地的提名項目對特定專業的澳洲院校學生有額外的提名配額，這與 OTHM 的轉學銜接路線有間接關聯。具體移民事項必須諮詢 MARA / OMARA 註冊移民代理或合資格移民律師，本文不構成移民建議。"
+        ]
+      },
+      {
+        heading: "七、下一步",
+        paragraphs: [
+          "如果你正在考慮以 OTHM 學分申請澳洲院校的 Advanced Entry 或 Credit Transfer，OTC 的建議步驟是：首先整理現有 OTHM 成績及所有已修單元的 Unit Outline；其次確定目標院校及課程，查閱該院校的 Credit Transfer 政策頁面；然後聯絡 OTC 進行免費學分評估，確認哪些學分有較高的轉入可能性；最後準備完整申請文件包，按院校要求的流程提交。",
+          "聯絡 OTC：WhatsApp +44 7947 991572 / office@overseasuk.com / WeChat: overseasus"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["Ofqual regulated", "UK official awarding body", "OTHM 受英國 Ofqual 官方監管，資格在英國具法定地位，是澳洲大學評估的首要依據。", "verified"],
+      ["Level 5 → Year 3", "Most impactful entry point", "OTHM Level 5 是澳洲升學申請中最具說服力的層級，可申請本科三年級或 Honours 年直入。", "pathway"],
+      ["Unit Outlines required", "Most critical document", "澳洲 Credit Transfer 必須提交課程大綱，OTC 協助學生準備符合院校評審格式的完整文件包。", "document"],
+      ["4 months lead time", "Apply early", "澳洲院校學分評審需 3–8 週，OTC 建議入學日期前至少 4 個月提交申請。", "timeline"]
+    ],
+    resources: [
+      ["OTHM Qualifications official site", "https://www.othm.org.uk/"],
+      ["Australian Qualifications Framework (AQF)", "https://www.aqf.edu.au/"],
+      ["Ofqual Register of Regulated Qualifications", "https://register.ofqual.gov.uk/"],
+      ["WES (World Education Services) credential evaluation", "https://www.wes.org/"],
+      ["ENIC UK (UK ENIC for overseas qualification comparisons)", "https://www.enic.org.uk/"]
+    ],
+    relatedReadings: [
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "australia-agent-training-map-2026",
+      "otc-free-study-abroad-application-agent-service",
+      "east-asian-women-australia-migration-whv-citizenship"
+    ]
+  },
+  {
     slug: "east-asian-women-australia-migration-whv-citizenship",
     title: "East Asian Women in Australia: A Ten-Year Migration Road from WHV to Citizenship",
     date: "2026-05-23",
