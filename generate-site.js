@@ -5413,26 +5413,26 @@ const creditAlliance = pageShell({
           <h2>五地區流程圖</h2>
           <p>不同地區的 credit、RPL、advanced standing 和 progression 規則不同。以下流程用於前期方向判斷，不代替院校正式決定。</p>
         </div>
-        <input checked id="credit-tab-uk" name="credit-tabs" type="radio">
-        <input id="credit-tab-au" name="credit-tabs" type="radio">
-        <input id="credit-tab-us" name="credit-tabs" type="radio">
-        <input id="credit-tab-ca" name="credit-tabs" type="radio">
-        <input id="credit-tab-nz" name="credit-tabs" type="radio">
-        <div class="credit-tab-labels">
-          <label for="credit-tab-uk">英國</label>
-          <label for="credit-tab-au">澳洲</label>
-          <label for="credit-tab-us">美國</label>
-          <label for="credit-tab-ca">加拿大</label>
-          <label for="credit-tab-nz">紐西蘭</label>
+        <div class="credit-world-map" aria-label="Credit route world map">
+          ${[
+            ["uk", "英國", "UK route"],
+            ["au", "澳洲", "Australia route"],
+            ["us", "美國", "US route"],
+            ["ca", "加拿大", "Canada route"],
+            ["nz", "紐西蘭", "New Zealand route"]
+          ].map(([key, label, title], index) => `
+            <details class="credit-map-node node-${key}" ${index === 0 ? "open" : ""}>
+              <summary>${label}</summary>
+              <div class="credit-map-card">
+                <strong>${title}</strong>
+                <div class="credit-flow">
+                  ${["目標課程", "資格核查", "成績單", "課綱匹配", "英文/作品", "提交審閱", "結果跟進"].map((step, i) => `<div><b>${String(i + 1).padStart(2, "0")}</b><span>${step}</span></div>`).join("")}
+                </div>
+              </div>
+            </details>
+          `).join("")}
+          <div class="credit-map-note">點擊地區名稱展開對應 credit / RPL / progression 前期工作流。</div>
         </div>
-        ${["英國 route", "澳洲 route", "美國 route", "加拿大 route", "紐西蘭 route"].map((title, index) => `
-          <div class="credit-tab-panel panel-${index + 1}">
-            <h3>${title}</h3>
-            <div class="credit-flow">
-              ${["目標課程", "資格核查", "成績單", "課綱匹配", "英文/作品", "提交審閱", "結果跟進"].map((step, i) => `<div><b>${String(i + 1).padStart(2, "0")}</b><span>${step}</span></div>`).join("")}
-            </div>
-          </div>
-        `).join("")}
       </section>
 
       <section class="credit-compare">

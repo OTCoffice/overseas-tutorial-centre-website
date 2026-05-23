@@ -13023,6 +13023,142 @@ h1 {
   color: #a06d16;
 }
 
+.credit-world-map {
+  background:
+    radial-gradient(ellipse at 22% 36%, rgba(184, 138, 59, 0.18) 0 9%, transparent 10%),
+    radial-gradient(ellipse at 51% 33%, rgba(47, 139, 130, 0.13) 0 15%, transparent 16%),
+    radial-gradient(ellipse at 82% 66%, rgba(184, 138, 59, 0.15) 0 12%, transparent 13%),
+    linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(236, 226, 211, 0.92));
+  border: 1px solid #cdbfae;
+  min-height: 330px;
+  position: relative;
+}
+
+.credit-world-map::before {
+  border: 1px solid rgba(184, 138, 59, 0.28);
+  content: "";
+  inset: 24px;
+  position: absolute;
+}
+
+.credit-world-map::after {
+  background:
+    linear-gradient(90deg, transparent 0 49%, rgba(184, 138, 59, 0.18) 49% 50%, transparent 50%),
+    linear-gradient(0deg, transparent 0 49%, rgba(184, 138, 59, 0.18) 49% 50%, transparent 50%);
+  content: "";
+  inset: 24px;
+  opacity: 0.6;
+  position: absolute;
+  pointer-events: none;
+}
+
+.credit-map-node {
+  position: absolute;
+  z-index: 2;
+}
+
+.credit-map-node > summary {
+  background: #fffaf0;
+  border: 1px solid #b88a3b;
+  box-shadow: 0 8px 20px rgba(38, 28, 15, 0.12);
+  color: #21170f;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 700;
+  list-style: none;
+  padding: 6px 10px;
+}
+
+.credit-map-node > summary::-webkit-details-marker {
+  display: none;
+}
+
+.credit-map-node > summary::before {
+  background: #a9171b;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 7px;
+  margin-right: 6px;
+  width: 7px;
+}
+
+.credit-map-node[open] > summary {
+  background: #a9171b;
+  border-color: #a9171b;
+  color: #fff;
+}
+
+.credit-map-node[open] > summary::before {
+  background: #d0ae67;
+}
+
+.node-us { left: 18%; top: 42%; }
+.node-ca { left: 17%; top: 22%; }
+.node-uk { left: 47%; top: 30%; }
+.node-au { left: 75%; top: 65%; }
+.node-nz { left: 86%; top: 76%; }
+
+.credit-map-card {
+  background: rgba(255, 252, 244, 0.98);
+  border: 1px solid #b88a3b;
+  box-shadow: 0 14px 34px rgba(38, 28, 15, 0.16);
+  left: 0;
+  margin-top: 8px;
+  padding: 10px;
+  position: absolute;
+  width: min(470px, 54vw);
+  z-index: 4;
+}
+
+.node-au .credit-map-card,
+.node-nz .credit-map-card {
+  left: auto;
+  right: 0;
+}
+
+.credit-map-card strong {
+  color: #a06d16;
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.credit-map-card .credit-flow {
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.credit-map-card .credit-flow div {
+  min-height: 50px;
+}
+
+.credit-map-card .credit-flow b {
+  height: 24px;
+  width: 24px;
+}
+
+.credit-map-card .credit-flow span {
+  font-size: 8.8px;
+  margin-top: 5px;
+}
+
+.credit-map-note {
+  background: rgba(255, 250, 240, 0.88);
+  border: 1px solid #cdbfae;
+  bottom: 18px;
+  color: #51483e;
+  font-size: 10px;
+  left: 22px;
+  padding: 7px 9px;
+  position: absolute;
+  z-index: 1;
+}
+
 .credit-row {
   grid-template-columns: 0.48fr 1.05fr 1fr !important;
 }
