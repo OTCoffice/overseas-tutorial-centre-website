@@ -7174,6 +7174,26 @@ h1 {
   overflow-x: auto;
 }
 
+.school-fee-panel h2 span,
+.school-fee-panel p span,
+.school-fee-table span,
+.school-fee-note span {
+  display: block;
+}
+
+.school-fee-panel h2 span {
+  color: #7b6b57;
+  font-size: 0.72em;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.school-fee-panel > div > p span + span,
+.school-fee-note span + span {
+  color: #6f665c;
+  margin-top: 4px;
+}
+
 .school-fee-table table {
   border-collapse: collapse;
   min-width: 760px;
@@ -7197,6 +7217,26 @@ h1 {
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.school-fee-table th span {
+  color: #d6c9b8;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-top: 3px;
+  text-transform: none;
+}
+
+.school-fee-table td b {
+  color: #233047;
+  display: block;
+  font-weight: 650;
+}
+
+.school-fee-table td span {
+  color: #786f64;
+  margin-top: 4px;
 }
 
 .school-fee-note {
