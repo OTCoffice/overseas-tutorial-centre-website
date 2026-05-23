@@ -7056,12 +7056,205 @@ h1 {
 }
 
 .zh-evidence-report {
+  background:
+    linear-gradient(90deg, rgba(169, 23, 27, 0.055), transparent 18%),
+    linear-gradient(180deg, #fffdf8, #fffaf1 52%, #ffffff);
+  border-color: #d7c7ad;
+  border-radius: 0;
+  box-shadow: 0 18px 46px rgba(35, 28, 18, 0.10);
   font-family: var(--font-ui);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(20px, 3.4vw, 42px);
+}
+
+.zh-report-edition-bar {
+  align-items: center;
+  border-bottom: 3px solid #21170f;
+  border-top: 8px solid #a9171b;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr auto 1fr;
+  margin: -8px 0 18px;
+  padding: 12px 0 10px;
+}
+
+.zh-report-edition-bar span,
+.zh-report-edition-bar em {
+  color: #685b4b;
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-report-edition-bar strong {
+  color: #21170f;
+  font-size: clamp(18px, 2.4vw, 28px);
+  letter-spacing: 0.08em;
+}
+
+.zh-report-edition-bar em {
+  justify-self: end;
+}
+
+.zh-evidence-report .report-meta-grid {
+  gap: 8px;
+}
+
+.zh-evidence-report .report-meta-grid div {
+  background: #21170f;
+  border: 0;
+  border-radius: 0;
+  min-height: 86px;
+}
+
+.zh-evidence-report .report-meta-grid div:nth-child(2) {
+  background: #0f5f59;
+}
+
+.zh-evidence-report .report-meta-grid div:nth-child(3) {
+  background: #b88a3b;
+}
+
+.zh-evidence-report .report-meta-grid div:nth-child(4) {
+  background: #a9171b;
+}
+
+.zh-evidence-report .report-meta-grid span,
+.zh-evidence-report .report-meta-grid strong {
+  color: #fff;
+}
+
+.zh-report-route-strip {
+  border: 1px solid #d4c2a5;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: 18px 0;
+}
+
+.zh-report-route-strip div {
+  background: #fff;
+  border-right: 1px solid #d4c2a5;
+  padding: 12px 10px;
+}
+
+.zh-report-route-strip div:nth-child(2n) {
+  background: #f2eadb;
+}
+
+.zh-report-route-strip div:last-child {
+  border-right: 0;
+}
+
+.zh-report-route-strip b {
+  color: #a9171b;
+  display: block;
+  font-size: 12px;
+}
+
+.zh-report-route-strip span {
+  color: #4d463b;
+  display: block;
+  font-size: 11px;
+  line-height: 1.45;
+  margin-top: 4px;
+}
+
+.zh-evidence-report .advice-signpost {
+  background: #eef7f5;
+  border-color: #7db8b0;
+  border-left: 6px solid #2f8b82;
+  border-radius: 0;
+}
+
+.zh-report-feature-layout {
+  align-items: start;
+  display: grid;
+  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) 286px;
+  margin-top: 10px;
+}
+
+.zh-report-main-copy {
+  min-width: 0;
+}
+
+.zh-report-side-rail {
+  display: grid;
+  gap: 10px;
+  position: sticky;
+  top: 18px;
+}
+
+.zh-report-side-card {
+  background: #fffdf7;
+  border: 1px solid #d8c7aa;
+  border-left: 5px solid #b88a3b;
+  padding: 13px 14px;
+}
+
+.zh-report-side-card.dark {
+  background: #21170f;
+  border-color: #21170f;
+  color: #fff;
+}
+
+.zh-report-side-card.teal {
+  border-left-color: #2f8b82;
+}
+
+.zh-report-side-card.gold {
+  background: #fbf2dc;
+}
+
+.zh-report-side-card.red {
+  border-left-color: #a9171b;
+}
+
+.zh-report-side-card span {
+  color: #a9171b;
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.zh-report-side-card.dark span,
+.zh-report-side-card.dark strong,
+.zh-report-side-card.dark p {
+  color: #fff;
+}
+
+.zh-report-side-card strong {
+  color: #21170f;
+  display: block;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.zh-report-side-card p,
+.zh-report-side-card li {
+  color: #4b4136;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.zh-report-side-card ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
 }
 
 .zh-evidence-report h2 {
-  font-size: clamp(24px, 2.5vw, 34px);
+  align-items: center;
+  background: linear-gradient(90deg, #21170f 0, #21170f 10px, #f2eadb 10px, transparent 100%);
+  border-top: 0;
+  display: flex;
+  font-size: clamp(21px, 2vw, 29px);
   letter-spacing: 0.01em;
+  margin-top: 30px;
+  padding: 10px 0 10px 22px;
 }
 
 .zh-evidence-report p,
@@ -7076,8 +7269,90 @@ h1 {
 .zh-evidence-report .report-evidence-grid strong,
 .zh-evidence-report .report-service-list strong,
 .zh-evidence-report .report-meta-grid strong {
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.01em;
+}
+
+.zh-evidence-report .report-evidence-grid,
+.zh-evidence-report .report-service-list {
+  gap: 10px;
+}
+
+.zh-evidence-report .report-evidence-grid article,
+.zh-evidence-report .report-service-list article {
+  border-radius: 0;
+  border-top: 5px solid #2f8b82;
+  box-shadow: 0 8px 20px rgba(35, 28, 18, 0.05);
+}
+
+.zh-evidence-report .report-evidence-grid article:nth-child(2n),
+.zh-evidence-report .report-service-list article:nth-child(2n) {
+  border-top-color: #b88a3b;
+}
+
+.zh-evidence-report .report-evidence-grid article:nth-child(3n),
+.zh-evidence-report .report-service-list article:nth-child(3n) {
+  border-top-color: #a9171b;
+}
+
+.zh-evidence-report .report-table-wrap {
+  border: 1px solid #d4c2a5;
+  box-shadow: inset 0 4px 0 #a9171b;
+}
+
+.zh-evidence-report .report-table-wrap th {
+  background: #21170f;
+  color: #fff;
+}
+
+.zh-evidence-report .report-table-wrap tr:nth-child(even) td {
+  background: #fff8ea;
+}
+
+.zh-evidence-report blockquote {
+  background: #21170f;
+  border-left-color: #d9ad45;
+}
+
+.zh-evidence-report blockquote p {
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .zh-report-feature-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-report-side-rail {
+    position: static;
+  }
+
+  .zh-report-route-strip,
+  .zh-evidence-report .report-meta-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .zh-report-edition-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-report-edition-bar em {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 560px) {
+  .zh-report-route-strip,
+  .zh-evidence-report .report-meta-grid,
+  .zh-evidence-report .report-evidence-grid,
+  .zh-evidence-report .report-service-list {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-evidence-report {
+    padding: 18px;
+  }
 }
 
 .spotlight {
