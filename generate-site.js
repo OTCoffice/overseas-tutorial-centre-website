@@ -8705,7 +8705,7 @@ const australiaPathwaysLanding = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Health Provider Directory</div>
         <h2>澳洲護理、社會健康、醫學與職業培訓院校清單。</h2>
-        <p>以下為 OTC 做健康護理方向申請初篩時使用的官方資料入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
+        <p>OTC 已可透過現有二級代理及合作渠道協助多數院校進行申請初篩與路線判斷，並正逐步將部分院校升級為一級代理關係；具體可遞交項目、代表權限與合作狀態以各機構當期書面確認為準。</p>
       </div>
       <div class="australia-provider-directory">
         ${australiaProviders.map((group) => `
