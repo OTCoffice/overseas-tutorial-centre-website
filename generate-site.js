@@ -11639,7 +11639,26 @@ function zhVetBoardCard(title, desc, href, tag = "VET Board") {
   `;
 }
 
-function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related }) {
+function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro = "把路線規劃落到可執行：用出版物、清單與工具把證據整理好，再進入諮詢或正式申請流程。", tag = "Tools", context = "" } = {}) {
+  const query = context ? `&context=${encodeURIComponent(context)}` : "";
+  return `
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">${tag}</div>
+        <h2>${heading}</h2>
+        <p>${intro}</p>
+      </div>
+      <div class="hub-map">
+        ${zhVetBoardCard("出版物與更新", "Overseas Publishing：出版物、媒體更新與可公開引用的材料入口。", "/publishing/", "Publishing")}
+        ${zhVetBoardCard("Study Guides", "公眾版學習指南與模組化學習材料（可逐步擴展到職業培訓配套）。", "/study-guides/", "Guides")}
+        ${zhVetBoardCard("Apps & Tools", "工具與練習入口：詞彙、mock tests、互動學習與資料整理工具。", "/apps/", "Apps")}
+        ${zhVetBoardCard("Consultation AI", "快速整理問題清單與文件缺口（不構成移民/法律建議）。", `/consultation-chat/?source=vet-tafe-board${query}`, "AI")}
+      </div>
+    </section>
+  `;
+}
+
+function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext }) {
   const resourceList = (resources || [])
     .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
     .join("");
@@ -11717,6 +11736,8 @@ function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, hero
           </article>
         </div>
       </section>
+
+      ${zhVetBoardToolShelf({ context: toolContext || heroTitle })}
 
       ${(related || []).length ? `
       <section class="band compact-band">
@@ -11823,6 +11844,7 @@ const zhAustraliaVetHealthCommunity = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/health-community/",
   heroTitle: "健康護理 / 社區服務：VET / TAFE 板塊",
   heroIntro: "把 CHC/HLT 類方向拆成可核對的課程代碼、實習安排與合規邊界。尤其是護理註冊：課程層級相近不代表可直接執業，需以監管機構與批准課程為準。",
+  toolContext: "health-community",
   sections: [
     ["Board 01", "課程代碼優先", "先用 training.gov.au 查 qualification code、RTO 與入學前置條件。", ["qualification code / training package", "RTO scope 與校區", "實習時數與安排", "評核方式與 evidence"]],
     ["Board 02", "護理註冊邊界", "涉及 AHPRA / NMBA / ANMAC 的註冊問題需以官方批准課程與條款為準。", ["不要把非批准課程當作註冊路線", "確認課程是否為 approved program", "核對 placement 與 supervision", "必要時專業轉介"]],
@@ -11848,6 +11870,7 @@ const zhAustraliaVetTradesConstruction = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/trades-construction/",
   heroTitle: "技工 / 建築 / 安全培訓：VET / TAFE 板塊",
   heroIntro: "技工與建築路線往往涉及州法規、工地安全與 licence 語境。這個板塊聚焦：課程代碼、RTO scope、實操評核與合規/轉介邊界。",
+  toolContext: "trades-construction",
   sections: [
     ["Board 01", "課程與 licence 分開看", "課程本身是教育訓練；執業/牌照可能有額外要求。", ["qualification vs licence 分離", "核對州/行業要求", "查看實操評核", "記錄 training evidence"]],
     ["Board 02", "RTO scope 與校區", "同名課程在不同 RTO/校區的交付方式可能不同。", ["scope/交付方式", "校區與時間線", "設備與實訓安排", "出勤要求"]],
@@ -11869,6 +11892,7 @@ const zhAustraliaVetBusinessItCreative = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/business-it-creative/",
   heroTitle: "商科 / IT / 創意媒體：VET / TAFE 板塊",
   heroIntro: "把看似『泛』的方向做成可核對清單：課程模組、評核方式、工具要求、作品集/專題與實習安排。重點是 evidence-led，而不是口號式興趣敘述。",
+  toolContext: "business-it-creative",
   sections: [
     ["Board 01", "模組與評核方式", "先讀課程模組與 assessment type，避免只看課程名稱。", ["module list", "assessment type", "工具/軟件", "出勤與 group work"]],
     ["Board 02", "作品集 / 專題", "把專題做小做實：可核對、可展示、可改進。", ["1 個分析 + 1 個 audit", "3 張圖表 + 反思", "引用來源", "避免誇大結果"]],
@@ -11890,6 +11914,7 @@ const zhAustraliaVetProviderChecklist = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/provider-checklist/",
   heroTitle: "RTO / TAFE 課程篩查清單（快速版）",
   heroIntro: "用一份可重複使用的清單，把『這個課程到底靠不靠譜』拆成可核對項：course code、RTO scope、CRICOS、實習、評核、出勤、費用與退費條款。",
+  toolContext: "provider-checklist",
   sections: [
     ["Checklist 01", "課程代碼與等級", "先核對 qualification code、AQF level 與授課模式。", ["course code/名稱", "AQF level", "delivery mode", "入學前置條件"]],
     ["Checklist 02", "RTO/TAFE 資格", "核對 RTO scope、校區與交付能力。", ["RTO scope", "校區/時間表", "師資與實訓", "評核 evidence"]],
@@ -11912,6 +11937,7 @@ const zhAustraliaVetTafeToUniversity = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/tafe-to-university/",
   heroTitle: "TAFE → 大學：銜接與 credit 的可行性讀法",
   heroIntro: "很多學生把『學術層級接近』誤讀成『一定可減免學分』。這個板塊用可核對方式整理：credit/advanced standing 的材料、流程與不能保證的邊界。",
+  toolContext: "tafe-to-university",
   sections: [
     ["Board 01", "先看官方 credit policy", "每所大學的 credit policy 不同，不能用傳聞推定。", ["credit policy", "學分上限", "單元對照", "是否需 syllabus"]],
     ["Board 02", "材料清單", "把可審閱材料準備齊：課綱、評核、成績與時長。", ["sylabus/單元描述", "assessment brief", "transcript", "課程時長與時數"]],
@@ -11934,6 +11960,7 @@ const zhAustraliaVetEvidencePack = zhVetBoardPage({
   path: "/zh/australia-vet-tafe-pathways/evidence-pack/",
   heroTitle: "職業培訓 evidence pack：一頁版模板",
   heroIntro: "把你要走的 VET/TAFE 路線做成一頁版：目標方向、課程代碼、文件狀態、英文、時間線與 10 個問題。材料乾淨，回覆就快。",
+  toolContext: "evidence-pack",
   sections: [
     ["Template 01", "基本信息", "你是誰、要去哪、何時入學、目前狀態。", ["目標州/城市", "目標開課期", "預算區間", "聯絡與備註"]],
     ["Template 02", "學歷與英文", "學歷/成績單/翻譯與英文成績一目了然。", ["最高學歷", "成績單/翻譯", "英文成績與有效期", "gap 解釋（如有）"]],
