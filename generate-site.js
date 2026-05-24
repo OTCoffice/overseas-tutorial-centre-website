@@ -1798,6 +1798,131 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "othm-health-social-care-bilingual-study-series-plan",
+    title: "Overseas Publishing Plans an OTHM Health & Social Care Bilingual Study Series",
+    date: "2026-05-24",
+    category: "OTC News",
+    column: "study",
+    kicker: "海外書局 · OTHM 教材策劃",
+    author: "留學導報編輯部",
+    summary: "Overseas Publishing House is planning an independent bilingual study-companion series for OTHM Health and Social Care learners, linking assignment support, health terminology, UK care-sector learning and Australia pathway context.",
+    titleZh: "海外書局策劃 OTHM 健康護理雙語教材：從 Level 3 到 Level 7 的學習支持路線",
+    summaryZh: "海外書局正在策劃《OTHM 健康護理雙語精講》系列，面向華語學生、照護從業者與英澳健康護理路線規劃人群。這套書的重點不是替代官方課綱，而是把英文資格要求、作業寫作、健康護理術語與升學職業路線翻譯成可操作的學習支持。",
+    body: [
+      {
+        heading: "1) Why OTC Is Planning This Series",
+        paragraphs: [
+          "Overseas Publishing House is preparing a bilingual OTHM Health and Social Care study-companion series for Chinese-speaking learners who need both academic structure and practical pathway context.",
+          "Health and care is no longer a narrow vocational niche. In the UK, adult social care continues to face sustained workforce pressure; in Australia, ageing care, disability support, community health and nursing-related routes remain central to study and career planning.",
+          "For many students, the hardest part is not only the English. It is understanding how a qualification title, a regulated framework, an assignment brief, a workplace skill and a future progression route fit together."
+        ]
+      },
+      {
+        heading: "2) Who the Series Serves",
+        paragraphs: [
+          "The planned readers include OTHM Health and Social Care learners, Chinese-speaking care-sector workers, students comparing UK and Australian health-care routes, and families planning longer-term health, social care or health-management progression.",
+          "Each guide will use bilingual explanation, health-care terminology, assignment-oriented frameworks and official-source reading lists to make the learning path more legible.",
+          "The series is designed as an independent learning-support product. It is not an official OTHM publication, not a model-answer bank and not a substitute for centre-issued assessment instructions."
+        ]
+      },
+      {
+        heading: "3) Five Books, Level 3 to Level 7",
+        paragraphs: [
+          "Book 1 covers Level 3 entry and career orientation: health systems, care roles, foundation concepts, terminology and assignment-writing basics.",
+          "Book 2 covers Level 4 management foundations: care-setting organisation, communication, staff coordination, multicultural care and case-based writing.",
+          "Book 3 covers Level 5 core practice and management: CQC standards, quality management, research methods, mental health, disability support, NDIS and the boundary between OTHM Level 5 and Australian Diploma of Nursing routes.",
+          "Book 4 covers Level 6 academic progression: referencing, policy analysis, critical thinking and advanced-entry preparation.",
+          "Book 5 covers Level 7 management and master's preparation: research design, health-system leadership, strategy, postgraduate progression and cross-disciplinary health-management planning."
+        ]
+      },
+      {
+        heading: "4) Market and Distribution",
+        paragraphs: [
+          "The first release strategy is PDF-first: Payhip for direct ebook sales, then Amazon KDP and print-on-demand options for wider discoverability once the manuscript and design system are stable.",
+          "OTC can also use the guides as course-bundle resources for enrolled learners, as seminar handouts for health-pathway enquiries, and as bilingual lead magnets connected to Study Hub and Overseas Study Review articles.",
+          "The editorial plan prioritises Level 3 and Level 5 first. Level 3 supports new learners, while Level 5 has the strongest pathway conversation because students often compare it with Australian VET, nursing and community-services routes."
+        ]
+      },
+      {
+        heading: "5) Academic Review and Compliance Boundary",
+        paragraphs: [
+          "OTC is preparing a health-subject evidence workflow around tutor suitability, academic review and learning-resource readiness. Medical and care-sector expertise will be used to review terminology, clinical context and ethical boundaries.",
+          "The compliance line must stay clear: every book will cite public official sources, explain learning concepts and provide frameworks for study. It will not reproduce confidential assessment materials, quality-assurance forms, learner submissions or official marking tools.",
+          "Students must always follow the current OTHM specification and instructions issued by their approved centre."
+        ]
+      },
+      {
+        heading: "6) What Happens Next",
+        paragraphs: [
+          "The public planning column is now live on the OTC website, giving readers a central place to track the series concept, book matrix, market logic, distribution channels and compliance notes.",
+          "The next practical steps are academic review, manuscript sample preparation, cover and interior template development, and a small pilot release for Level 3 or Level 5 before the full series is expanded."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼海外書局要策劃這套書",
+        paragraphs: [
+          "海外書局正在策劃一套《OTHM 健康護理雙語精講》系列，目標讀者是需要同時理解英文資格要求、作業寫作、健康護理術語和英澳升學職業路線的華語學習者。",
+          "健康護理不再只是狹義的職業技能方向。英國成人社會照護長期存在人手壓力；澳洲的老人護理、殘疾支援、社區健康與護理相關路線，也一直是學生規劃升學、就業和長期發展時無法繞開的領域。",
+          "很多學生真正卡住的不是單純英文，而是不知道一個資格名稱、一套監管框架、一份 assignment brief、一項工作技能和未來的升學或職業路線到底如何連起來。這套書要解決的正是這個問題。"
+        ]
+      },
+      {
+        heading: "二、這套書服務誰",
+        paragraphs: [
+          "這套系列面向四類人：正在或準備修讀 OTHM Health and Social Care 的學生；已在 care home、community care、support work 等場景工作的華語從業者；比較英國 OTHM 與澳洲健康護理路線的學生；以及為子女規劃健康、社會照護或健康管理方向的家庭。",
+          "每冊會用中英雙語說明、健康護理詞彙、assignment 寫作框架和官方來源閱讀清單，把原本散落在 specification、課堂材料、政策網站和職業路線圖裡的資訊整理成可讀、可學、可諮詢的教輔材料。",
+          "這套書的定位是獨立學習支持，不是 OTHM 官方教材，不是標準答案庫，也不替代 approved centre 發出的評核指引。"
+        ]
+      },
+      {
+        heading: "三、五冊規劃：從 Level 3 到 Level 7",
+        paragraphs: [
+          "第一冊是 Level 3 入門與職業定向，涵蓋英國與澳洲醫療照護體系基礎、健康護理職業路線、核心概念、術語表與 assignment 寫作入門。",
+          "第二冊是 Level 4 管理基礎，重點放在醫療及照護機構組織、人員協調、溝通、多元文化護理和案例式寫作。",
+          "第三冊是 Level 5 執業核心與管理，會處理 CQC 標準、護理品質管理、研究方法、心理健康、殘疾支援倫理、澳洲 NDIS 與 CHC 體系，也會釐清 OTHM Level 5 與澳洲 Diploma of Nursing 之間不能直接互換的邊界。",
+          "第四冊是 Level 6 學術升學橋樑，聚焦文獻引用、政策分析、批判性思維和澳洲大學 Advanced Entry 文件準備。",
+          "第五冊是 Level 7 管理碩士預備，面向研究設計、醫療系統領導力、策略管理、研究生銜接和跨學科健康管理路線。"
+        ]
+      },
+      {
+        heading: "四、市場與發行渠道",
+        paragraphs: [
+          "初期發行建議採用 PDF ebook first：先在 Payhip 上架電子版，待版式、封面與內容模板穩定後，再擴展至 Amazon KDP、print-on-demand 或其他紙本分發渠道。",
+          "OTC 也可以把這套書用作在校學生的課程配套、健康護理路線講座的資料包，以及 Study Hub 與海外留學導報文章的轉化入口。",
+          "發行順序建議先做 Level 3 和 Level 5。Level 3 對新生最友好，Level 5 則最容易引發英國 OTHM、澳洲 VET、護理和社區服務路線之間的比較需求。"
+        ]
+      },
+      {
+        heading: "五、學術審閱與合規邊界",
+        paragraphs: [
+          "OTC 正在圍繞 Health and Social Care 方向準備導師資格、學術審閱和學習資源證據。醫學與照護領域的專業背景將用於審閱術語、臨床語境和倫理邊界。",
+          "合規邊界必須清楚：每冊可以引用公開官方來源、解釋學習概念、提供寫作框架和延伸閱讀；但不能收錄保密評核材料、質量保證表格、學生作業、官方 marking tools 或可直接提交的標準答案。",
+          "學生仍必須以最新官方 specification 及 approved centre 發出的指引為準。"
+        ]
+      },
+      {
+        heading: "六、下一步",
+        paragraphs: [
+          "OTC 官網的出版策劃專欄已經作為這套系列的公開入口，用於展示系列定位、五冊書目、讀者市場、發行渠道與合規聲明。",
+          "下一步將進入學術審閱、樣章製作、封面與內頁模板設計，以及 Level 3 或 Level 5 小規模試發行。等首冊穩定後，再逐步擴展至完整 Level 3 至 Level 7 系列。"
+        ]
+      }
+    ],
+    resources: [
+      ["OTC publishing series planning column", "https://overseasuk.com/publishing/othm-health-social-care-bilingual-series/"],
+      ["OTHM Health and Social Care subject area", "https://othm.org.uk/subject/health-and-social-care"],
+      ["Skills for Care workforce intelligence", "https://www.skillsforcare.org.uk/Adult-Social-Care-Workforce-Data/Workforce-intelligence/publications/Topics/State-of-the-adult-social-care-sector-and-workforce-in-England.aspx"],
+      ["Care Quality Commission State of Care", "https://www.cqc.org.uk/publications/major-report/state-care/2024-2025"]
+    ],
+    relatedReadings: [
+      "australia-health-vocation-pathway",
+      "othm-health-social-care-australia-vet-comparison",
+      "otc-othm-centre-renewal-2026"
+    ]
+  },
+  {
     slug: "australia-health-vocation-pathway",
     title: "Health and Care Careers in Australia: OTHM Qualifications and Local VET Training Routes",
     date: "2026-05-24",
@@ -6105,11 +6230,11 @@ const guides = pageShell({
       <div style="height:28px"></div>
       <article class="resource-row">
         <div>
-          <div class="meta">Planned Series · Health & Social Care</div>
+          <div class="meta">Publishing Planning Column · Health & Social Care</div>
           <h3>《OTHM 健康護理雙語精講》</h3>
-          <p>Planned Level 3-7 bilingual study-guide series for health and social care learners, including health terminology, assignment frameworks, Australia pathway notes and tutor-resource preparation.</p>
+          <p>Level 3-7 bilingual study-guide series planning column, including market research, five-book roadmap, health terminology, assignment frameworks, Australia pathway notes, distribution channels and compliance boundaries.</p>
         </div>
-        <a class="btn btn-dark" href="/publishing/othm-health-social-care-bilingual-series/">Open Series Plan</a>
+        <a class="btn btn-dark" href="/publishing/othm-health-social-care-bilingual-series/">Open Planning Column</a>
       </article>
       <div style="height:28px"></div>
       <div class="product-grid">${productCards()}</div>
@@ -6119,38 +6244,56 @@ const guides = pageShell({
 
 const othmHealthSocialCareBilingualSeries = pageShell({
   title: "OTHM Health & Social Care Bilingual Study Series | Overseas Publishing House | OTC",
-  description: "Overseas Publishing House planned bilingual study-guide series for OTHM Health and Social Care levels 3 to 7, linking UK OTHM learning, Australia health pathways and assignment-oriented academic preparation.",
+  description: "Overseas Publishing House publishing-planning column for the OTHM Health and Social Care bilingual study companion series, covering market research, five-book roadmap, distribution channels and compliance boundaries.",
   current: "publishing",
   path: "/publishing/othm-health-social-care-bilingual-series/",
   body: `
     <main class="health-series-page">
-    <section class="page-hero health-series-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Planned 2026 Series</div><h1>OTHM Health & Social Care Bilingual Study Series</h1><p>《OTHM 健康護理雙語精講》：從 Level 3 到 Level 7，每冊覆蓋一個層級，中英對照，考試導向，連接英國 OTHM 學習與澳洲健康護理路線。</p><div class="actions"><a class="btn btn-primary" href="#health-series-books">查看五冊規劃</a><a class="btn btn-secondary" href="/australia/">澳洲健康路線</a><a class="btn btn-secondary" href="/othm-qualifications/">OTHM 資格入口</a></div></div></section>
+    <section class="page-hero health-series-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · 2026 Planning Column</div><h1>《OTHM 健康護理雙語精講》出版策劃專欄</h1><p>OTHM Health & Social Care Bilingual Study Series：從 Level 3 到 Level 7，把英文資格要求、健康護理術語、assignment 寫作框架、英澳升學與職業路線整理成可學、可讀、可諮詢的雙語教輔系列。</p><div class="actions"><a class="btn btn-primary" href="#health-series-books">查看五冊書目</a><a class="btn btn-secondary" href="/zh/insights/othm-health-social-care-bilingual-study-series-plan/">閱讀導報介紹</a><a class="btn btn-secondary" href="/australia/">澳洲健康路線</a></div></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
-        <div class="eyebrow">Positioning</div>
-        <h2>學術備考 + 職業轉型的雙軌教材系列。</h2>
-        <p>本系列面向正在修讀或準備修讀 OTHM Health and Social Care 的中文學習者，也服務正在比較英國 OTHM、澳洲 VET、護理及社會健康方向的旅英旅澳華人學生與從業者。教材定位是學習輔助與路線理解，不取代官方 specification、課堂教學或評核文件。</p>
+        <div class="eyebrow">Editorial Positioning</div>
+        <h2>學術備考 + 職業轉型 + 路線判斷。</h2>
+        <p>這是一個出版策劃專欄，不是單本書介紹。它把市場需求、讀者分層、五冊產品矩陣、發行渠道、學術審閱與合規邊界放在同一頁，方便 OTC 後續對接作者、導師、學生、合作中心與海外書局發行流程。</p>
       </div>
       <div class="index-grid">
-        <article><b>01</b><strong>OTHM learners</strong><span>中英對照拆解 unit outcomes、assessment criteria、核心概念和常見寫作任務。</span></article>
-        <article><b>02</b><strong>Australia pathway readers</strong><span>把 OTHM 層級、澳洲 VET、Bachelor / Master 銜接與執業邊界放在同一套語言裡。</span></article>
-        <article><b>03</b><strong>Care-sector workers</strong><span>幫已在 care home、community care 或 support work 的讀者理解升級資格與學術表達。</span></article>
-        <article><b>04</b><strong>Family planning</strong><span>給家長和學生一套可閱讀、可比較、可諮詢的醫療健康升學路線材料。</span></article>
+        <article><b>01</b><strong>OTHM learners</strong><span>拆解 unit outcomes、assessment criteria、核心概念、常見 assignment 題型與雙語學術表達。</span></article>
+        <article><b>02</b><strong>Care workers</strong><span>幫 care home、community care、support work 從業者理解資格升級與管理層路線。</span></article>
+        <article><b>03</b><strong>Australia pathway readers</strong><span>對照 OTHM、澳洲 VET、Bachelor / Master 銜接、AHPRA / ANMAC 邊界與移民評估風險。</span></article>
+        <article><b>04</b><strong>Family decision makers</strong><span>給家長和學生一套可閱讀、可比較、可帶入諮詢的健康護理升學資料。</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Market Snapshot</div>
+        <h2>為什麼這套書有市場。</h2>
+        <p>華語學生在健康護理方向常見的困難不是缺少資訊，而是資訊過於碎片化：官方 specification、政策網站、作業要求、職業註冊、澳洲 VET 與大學銜接往往分散在不同語境。雙語教輔的價值，是把這些內容轉譯成能學、能用、能判斷風險的學習產品。</p>
+      </div>
+      <div class="resource-list compact-resource-list">
+        <article class="resource-row"><div><div class="meta">Demand</div><h3>英國社會照護與澳洲健康護理都需要長期人才</h3><p>成人社會照護、老人護理、殘疾支援、社區服務和健康管理都不是短期熱點，而是結構性需求。學生需要的是能把學術資格與職業場景連起來的材料。</p></div><span class="pill">Workforce</span></article>
+        <article class="resource-row"><div><div class="meta">Reader Gap</div><h3>華語學習者需要雙語術語與 assignment 框架</h3><p>單純翻譯課綱不夠。讀者需要 health terminology、case study 語言、care ethics 表達、policy vocabulary，以及如何把經驗寫成合格學術答案。</p></div><span class="pill">Bilingual</span></article>
+        <article class="resource-row"><div><div class="meta">Distribution</div><h3>海外書局已有 Payhip / KDP / OTC 課程場景</h3><p>系列可先以 PDF ebook 發行，再進入 Amazon KDP、print-on-demand、OTC 課程包、導報文章與社群內容矩陣，降低首發風險。</p></div><span class="pill">Channels</span></article>
       </div>
     </section>
 
     <section class="band" id="health-series-books">
       <div class="section-head compact-head">
         <div class="eyebrow">Five-Book Plan</div>
-        <h2>五冊覆蓋 Level 3 至 Level 7。</h2>
+        <h2>五冊產品矩陣：Level 3 至 Level 7。</h2>
       </div>
-      <div class="resource-list">
-        <article class="resource-row"><div><div class="meta">Book 1 · Level 3</div><h3>入門與職業定向</h3><p>英國 NHS 與澳洲 Medicare 基礎、健康護理職業路線、Level 3 核心單元中英對照、300 詞 health terminology、OTHM 評核與 assignment 寫作入門。</p></div><span class="pill">Planned</span></article>
-        <article class="resource-row"><div><div class="meta">Book 2 · Level 4</div><h3>管理基礎</h3><p>醫療機構組織架構、人員管理、溝通與多元文化護理、learning outcomes 與 assessment criteria 解析、作業框架模板及英國老人院管理案例。</p></div><span class="pill">Planned</span></article>
-        <article class="resource-row"><div><div class="meta">Book 3 · Level 5</div><h3>執業核心</h3><p>CQC 標準、護理品質管理、研究方法、心理健康與殘疾支援倫理、澳洲 NDIS 與 CHC 資格體系，以及 Level 5 與 HLT54121 Diploma of Nursing 的邊界對照。</p></div><span class="pill">Priority</span></article>
-        <article class="resource-row"><div><div class="meta">Book 4 · Level 6</div><h3>學術升學橋樑</h3><p>文獻引用、政策分析、批判性思維、澳洲大學 Advanced Entry 文件清單、unit outline 準備、Level 6 至英澳三年級 / top-up 銜接指引。</p></div><span class="pill">Planned</span></article>
-        <article class="resource-row"><div><div class="meta">Book 5 · Level 7</div><h3>管理碩士預備</h3><p>研究設計、碩士前導寫作、醫療系統領導力、策略管理、澳洲健康管理碩士銜接，以及醫學背景進入 health management 的跨學科路徑。</p></div><span class="pill">Planned</span></article>
+      <div class="comparison-table-wrap">
+        <table class="pathway-table">
+          <thead><tr><th>冊次</th><th>層級 / 書名</th><th>核心內容</th><th>首要讀者</th><th>發行優先級</th></tr></thead>
+          <tbody>
+            <tr><td>Book 1</td><td><strong>Level 3</strong><br>入門與職業定向</td><td>NHS / Medicare 基礎、健康護理職業路線、Level 3 核心單元、300 詞 terminology、assignment 入門</td><td>新生、轉行者、家長</td><td><span class="pill">First launch</span></td></tr>
+            <tr><td>Book 2</td><td><strong>Level 4</strong><br>管理基礎</td><td>機構組織、人員管理、溝通、多元文化護理、assessment criteria、老人院案例</td><td>初級主管、Level 4 學生</td><td><span class="pill">Planned</span></td></tr>
+            <tr><td>Book 3</td><td><strong>Level 5</strong><br>執業核心</td><td>CQC、品質管理、研究方法、心理健康、殘疾支援倫理、NDIS、CHC、HLT54121 邊界</td><td>Level 5 學生、澳洲路線讀者</td><td><span class="pill">Priority</span></td></tr>
+            <tr><td>Book 4</td><td><strong>Level 6</strong><br>學術升學橋樑</td><td>文獻引用、政策分析、批判性思維、澳洲 Advanced Entry、unit outline 文件準備</td><td>升學申請者</td><td><span class="pill">Planned</span></td></tr>
+            <tr><td>Book 5</td><td><strong>Level 7</strong><br>管理碩士預備</td><td>研究設計、health-system leadership、strategy、碩士銜接、跨學科健康管理路線</td><td>管理層、研究生申請者</td><td><span class="pill">Planned</span></td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
@@ -6172,11 +6315,12 @@ const othmHealthSocialCareBilingualSeries = pageShell({
           <div class="eyebrow">Publishing Plan</div>
           <h3>出版與銷售節奏</h3>
           <ul>
-            <li>PDF ebook first，Payhip 平台發售</li>
-            <li>單冊參考 £9.99-£14.99，系列套裝另定</li>
-            <li>每冊配套一篇海外留學導報深度文章</li>
+            <li>PDF ebook first，Payhip 平台首發</li>
+            <li>單冊參考 £9.99-£14.99，系列套裝 £44.99 起</li>
+            <li>穩定後擴展 Amazon KDP / print-on-demand</li>
             <li>OTC 在校學生可作為首批教學配套讀者</li>
-            <li>Traditional Chinese 讀者優先，後續可擴展英文摘要版</li>
+            <li>每冊配套一篇海外留學導報深度文章</li>
+            <li>微信、小紅書、Threads、OTC Study Hub 聯動發行</li>
           </ul>
         </div>
       </div>
@@ -6185,13 +6329,14 @@ const othmHealthSocialCareBilingualSeries = pageShell({
 
     <section class="band">
       <div class="section-head compact-head">
-        <div class="eyebrow">Tutor & Approval Preparation</div>
-        <h2>Health and Social Care delivery is being prepared as a regulated approval workflow.</h2>
-        <p>OTC is preparing internal evidence for Health and Social Care tutor allocation and qualification-resource readiness. Public enrolment can only be opened after current approval, tutor suitability, resources, cohort arrangements and awarding-body requirements are confirmed.</p>
+        <div class="eyebrow">Academic Review & Approval Readiness</div>
+        <h2>教材出版與資格申請分開管理，但互相支撐。</h2>
+        <p>出版策劃可以先行，用於市場測試、樣章製作與學術審閱；正式開課與學生註冊則必須以 OTHM approval、導師配置、IQA / resource evidence、cohort arrangements 及 awarding-body 要求為準。</p>
       </div>
       <div class="resource-list">
-        <article class="resource-row"><div><h3>Prof. Yang Huabin / Prof. Steve Yang</h3><p>Proposed medical-science contributor and health-subject tutor candidate. Formal submission requires verified degree certificate, CV, teaching-experience evidence and final qualification allocation.</p></div><span class="pill">Evidence needed</span></article>
-        <article class="resource-row"><div><h3>OTHM Health and Social Care qualification scope</h3><p>Public OTHM subject listing includes Level 3 Foundation Diploma in Health and Social Care and Level 4-7 Health and Social Care Management qualifications. OTC will confirm the exact requested scope before notifying OTHM.</p></div><a class="btn btn-light" href="https://othm.org.uk/subject/health-and-social-care" target="_blank" rel="noopener">Official OTHM page</a></article>
+        <article class="resource-row"><div><div class="meta">Academic adviser / review request</div><h3>Prof. Yang Huabin / Prof. Steve Yang</h3><p>Proposed medical-science contributor and health-subject tutor candidate. The editorial review package should confirm medical terminology, clinical context, ethics boundaries and level-appropriate academic expectations before publication.</p></div><span class="pill">Review stage</span></article>
+        <article class="resource-row"><div><div class="meta">Qualification scope</div><h3>OTHM Health and Social Care Level 3-7 plus Level 8 leadership route</h3><p>OTC's new-qualification workstream can prepare Level 3 Foundation Diploma in Health and Social Care, Level 4-7 Health and Social Care Management, and relevant Level 8 Strategic Management and Leadership Practice evidence where tutor suitability and resources support the application.</p></div><a class="btn btn-light" href="https://othm.org.uk/subject/health-and-social-care" target="_blank" rel="noopener">Official OTHM page</a></article>
+        <article class="resource-row"><div><div class="meta">Overseas Study Review</div><h3>導報文章已同步發布</h3><p>導報文章負責面向學生、家長與讀者解釋為什麼要做這套教材、它解決什麼學習痛點、如何銜接 OTC 的健康護理與澳洲路線內容。</p></div><a class="btn btn-dark" href="/zh/insights/othm-health-social-care-bilingual-study-series-plan/">閱讀文章</a></article>
       </div>
     </section>
     </main>
