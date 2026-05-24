@@ -9324,6 +9324,49 @@ h1 {
   margin-top: 22px;
 }
 
+.health-series-page {
+  --health-serif: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "PMingLiU", serif;
+  font-family: var(--health-serif);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.health-series-page :is(h1, h2, h3),
+.health-series-page .volume-entry h3,
+.health-series-page .volume-zh {
+  font-family: var(--health-serif) !important;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+.health-series-page :is(p, li, dd),
+.health-series-page .section-head p,
+.health-series-page .volume-abstract {
+  font-family: var(--health-serif);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+
+.health-series-page :is(.eyebrow, .btn, .pill, .meta, .volume-meta, .volume-keywords, .volume-spine, .page-share-actions, .series-toggle-index, small, b) {
+  font-family: var(--font-ui) !important;
+}
+
+.health-series-page .section-head h2 {
+  line-height: 1.22;
+}
+
+.health-series-page .section-head p {
+  color: #3e3428;
+  line-height: 1.9;
+}
+
+.health-series-page .index-grid span,
+.health-series-page .resource-row p {
+  color: #39414c;
+  line-height: 1.82;
+}
+
 .series-toggle-list {
   display: grid;
   gap: 12px;
