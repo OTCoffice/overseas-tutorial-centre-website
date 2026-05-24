@@ -5810,12 +5810,13 @@ const zhInsights = pageShell({
 
 function insightArticlePage(article) {
   const image = writeHeraldSocialImage(article, "en");
+  const socialImageVersion = "v=20260524-social-png";
   return pageShell({
     title: `${article.title} | Overseas Study Review`,
     current: "insights",
     description: article.summary,
     path: `/insights/${article.slug}/`,
-    image,
+    image: `${image}?${socialImageVersion}`,
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: `${article.title} | Overseas Study Review`,
@@ -5829,6 +5830,7 @@ function insightArticlePage(article) {
 
 function insightArticlePageZh(article) {
   const image = writeHeraldSocialImage(article, "zh");
+  const socialImageVersion = "v=20260524-social-png";
   return pageShell({
     title: `${article.titleZh || article.title} | 留學導報`,
     current: "insights",
@@ -5836,7 +5838,7 @@ function insightArticlePageZh(article) {
     locale: "zh",
     description: article.summaryZh || article.summary,
     path: `/zh/insights/${article.slug}/`,
-    image,
+    image: `${image}?${socialImageVersion}`,
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: `${article.titleZh || article.title} | 留學導報`,
