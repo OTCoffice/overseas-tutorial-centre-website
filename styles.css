@@ -11106,6 +11106,29 @@ h1 {
   text-decoration: underline;
 }
 
+.zh-herald-infographic.australia-article-cta {
+  background: #fffaf2;
+  color: #1a1410;
+  padding: 18px 26px;
+  border-top: 1px solid #dec9a4;
+  border-bottom: 1px solid #dec9a4;
+}
+
+.zh-herald-infographic.australia-article-cta h2 {
+  color: #1a1410;
+}
+
+.zh-herald-infographic.australia-article-cta > p {
+  color: #7a6552;
+  margin: 6px 0 14px;
+  letter-spacing: 0.06em;
+}
+
+.zh-herald-infographic.australia-article-cta .credit-actions {
+  margin: 10px 0 0;
+  justify-content: center;
+}
+
 .zh-herald-roadmap {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
