@@ -1487,7 +1487,7 @@ function countryGatewayPage(country) {
           <article><b>04</b><strong>小學</strong><ul>${countryList(country.primarySchools)}</ul></article>
         </div>
         <div class="country-route-actions">
-          ${country.slug === "australia" ? `<a class="btn btn-dark" href="/australia-office-presence/">打開澳洲成熟路線頁</a><a class="btn btn-light" href="/australia-vet-tafe-pathways/">澳洲 VET / TAFE 路線</a>` : `<a class="btn btn-dark" href="/university-applications/">大學申請評估</a><a class="btn btn-light" href="/international-curriculum-tutoring/">課程與文件準備</a>`}
+          ${country.slug === "australia" ? `<a class="btn btn-dark" href="/australia-office-presence/">打開澳洲成熟路線頁</a><a class="btn btn-light" href="/zh/australia-vet-tafe-pathways/">澳洲 VET / TAFE 職業培訓</a>` : `<a class="btn btn-dark" href="/university-applications/">大學申請評估</a><a class="btn btn-light" href="/international-curriculum-tutoring/">課程與文件準備</a>`}
         </div>
         <p class="source-note">列表為 OTC 網站上的初步目的地索引，不代表正式代理授權、保證錄取或完整院校清單。申請、簽證、監護、入讀和轉學均需按相關學校、大學、政府或專業人士的最新正式要求核對。</p>
       </section>
@@ -9304,6 +9304,14 @@ const chineseEntrance = pageShell({
           <a href="#overseas-publishing">進入海外書局</a>
         </article>
       </div>
+      <div class="qualification-report-panel vet-tafe-panel" style="margin-top:16px">
+        <div>
+          <span>職業培訓路線</span>
+          <h2>澳洲 VET / TAFE：多板塊職業培訓總覽</h2>
+          <p>新增中文子頁面佈局：健康護理、技工建築、商科 IT 創意媒體、RTO/TAFE 篩查清單、TAFE-to-university 銜接與 evidence pack。</p>
+        </div>
+        <a class="btn btn-dark" href="/zh/australia-vet-tafe-pathways/">打開職業培訓總覽</a>
+      </div>
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；不構成錄取、簽證、考試通過、官方資格或專業意見保證。</p>
     </section>
 
@@ -11454,6 +11462,7 @@ const australiaVetTafePathways = pageShell({
         <div class="actions">
           <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
           <a class="btn btn-secondary" href="/ai-education-operations/">AI operations</a>
+          <a class="btn btn-secondary" href="/zh/australia-vet-tafe-pathways/">中文職業培訓佈局</a>
         </div>
       </div>
     </section>
@@ -11468,6 +11477,31 @@ const australiaVetTafePathways = pageShell({
         <span>Current status</span>
         <p>Route coverage and screening readiness. OTC should not describe any provider as an official partner unless a written representative or agent agreement is in place.</p>
       </aside>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Boards</div>
+        <h2>Vocational training boards (student-facing subpages).</h2>
+        <p>Sector boards are maintained under the Chinese site to support course screening, provider checks and document readiness. They are education planning tools, not immigration or employment advice.</p>
+      </div>
+      <div class="vet-tafe-screening-grid">
+        ${[
+          ["Health & Community", "Health, aged care, disability and community services routes (with clear registration boundaries).", "/zh/australia-vet-tafe-pathways/health-community/"],
+          ["Trades & Construction", "Apprenticeship-adjacent study, trades licences context, safety training and evidence boundaries.", "/zh/australia-vet-tafe-pathways/trades-construction/"],
+          ["Business / IT / Creative", "Business, hospitality, IT and creative media VET planning (assessment-fit + portfolio).", "/zh/australia-vet-tafe-pathways/business-it-creative/"],
+          ["Provider checklist", "Short due-diligence checklist: RTO scope, CRICOS, placements, costs and key documents.", "/zh/australia-vet-tafe-pathways/provider-checklist/"],
+          ["TAFE → University", "Progression and credit conversations: what can be compared, and what cannot be assumed.", "/zh/australia-vet-tafe-pathways/tafe-to-university/"],
+          ["Student evidence pack", "A one-page evidence pack template: transcripts, course codes, timeline and questions.", "/zh/australia-vet-tafe-pathways/evidence-pack/"]
+        ].map(([title, desc, href]) => `
+          <article>
+            <span>Board</span>
+            <strong>${title}</strong>
+            <p>${desc}</p>
+            <a href="${href}">Open</a>
+          </article>
+        `).join("")}
+      </div>
     </section>
 
     <section class="band compact-band">
@@ -11593,6 +11627,326 @@ const australiaVetTafePathways = pageShell({
       </script>
     </section>
   `
+});
+
+function zhVetBoardCard(title, desc, href, tag = "VET Board") {
+  return `
+    <a class="hub-item" href="${href}">
+      <strong>${title}</strong>
+      <span>${tag}</span>
+      <p>${desc}</p>
+    </a>
+  `;
+}
+
+function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related }) {
+  const resourceList = (resources || [])
+    .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
+    .join("");
+  const relatedCards = (related || []).map((card) => zhVetBoardCard(card[0], card[1], card[2], card[3] || "相關板塊")).join("");
+
+  return pageShell({
+    title,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    description,
+    path,
+    body: `
+      <section class="page-hero ai-operations-hero vet-tafe-hero">
+        <div class="band">
+          <div class="eyebrow">${heroEyebrow || "OTC Australia · 職業培訓路線"}</div>
+          <h1>${heroTitle}</h1>
+          <p>${heroIntro}</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="/zh/australia-vet-tafe-pathways/">返回職業培訓總覽</a>
+            <a class="btn btn-secondary" href="/australia-office-presence/">Australia route</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band ai-operations-position vet-tafe-position">
+        <div class="ai-operations-lead">
+          <div class="eyebrow">使用方式</div>
+          <h2>先把問題拆成：課程代碼 / 英文與學歷 / 實習與評核 / 合規邊界。</h2>
+          <p>本頁為教育規劃與資料整理工具，用於幫學生做課程篩查與文件準備。涉及移民評估、就業保證、執業註冊或法律建議，請以官方與合格專業人士為準。</p>
+        </div>
+        <aside class="ai-operations-note">
+          <span>合規提示</span>
+          <p>OTC 不做「保證就業/保證移民」式表述；本頁重點是可核對的文件、課程代碼與官方入口。</p>
+        </aside>
+      </section>
+
+      <section class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">板塊內容</div>
+          <h2>${heroTitle}：多板塊整理</h2>
+          <p>每個板塊都對應「要準備什麼文件、問什麼問題、在哪裡核對、哪些內容需要轉介」。</p>
+        </div>
+        <div class="vet-tafe-screening-grid">
+          ${(sections || []).map((block) => `
+            <article>
+              <span>${block[0]}</span>
+              <strong>${block[1]}</strong>
+              <p>${block[2]}</p>
+              <div style="height:10px"></div>
+              ${(block[3] || []).slice(0, 4).map((item) => `<p style="margin:8px 0 0; font-size:13px; color:#4d5968;">• ${item}</p>`).join("")}
+            </article>
+          `).join("")}
+        </div>
+      </section>
+
+      <section class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">官方入口</div>
+          <h2>優先使用官方查詢頁面核對。</h2>
+          <p>把 course code、CRICOS、RTO scope、實習/placement、費用與入學要求逐項核對，避免只看宣傳頁或社交媒體摘要。</p>
+        </div>
+        <div class="zh-academic-reading-board">
+          <article class="zh-academic-reading-panel">
+            <strong>官方連結</strong>
+            <ul class="zh-academic-reading-list">${resourceList}</ul>
+          </article>
+          <article class="zh-academic-reading-panel">
+            <strong>下一步</strong>
+            <ul class="zh-academic-reading-list">
+              <li><strong>建立 evidence pack</strong><span>學歷/成績單/翻譯、英文成績、課程代碼、簡歷與實習證據。</span></li>
+              <li><strong>做 10 個問題清單</strong><span>入學要求、實習安排、評核方式、出勤、成本與時間線。</span></li>
+              <li><strong>識別需轉介事項</strong><span>移民/法律/執業註冊/雇傭合約等交由合格人士。</span></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      ${(related || []).length ? `
+      <section class="band compact-band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Related</div>
+          <h2>更多職業培訓板塊</h2>
+          <p>用板塊方式把職業培訓路線拆開：更容易更新，也更容易讓學生把材料準備齊。</p>
+        </div>
+        <div class="hub-map">${relatedCards}</div>
+      </section>
+      ` : ""}
+    `
+  });
+}
+
+const zhAustraliaVetTafeHub = pageShell({
+  title: "澳洲 VET / TAFE 職業培訓路線總覽 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  description: "OTC 澳洲職業培訓路線總覽：VET/TAFE 板塊化整理，包含課程篩查、文件準備、官方查詢入口與合規邊界。",
+  path: "/zh/australia-vet-tafe-pathways/",
+  body: `
+    <section class="page-hero ai-operations-hero vet-tafe-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Australia · 職業培訓路線</div>
+        <h1>澳洲 VET / TAFE 職業培訓：板塊總覽</h1>
+        <p>把職業培訓路線做成可更新的多板塊：課程代碼、RTO/TAFE 核對、實習安排、評核方式、升學銜接與轉介邊界。這些頁面是教育規劃工具，不構成移民或就業建議。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
+          <a class="btn btn-secondary" href="/australia-vet-tafe-pathways/">English map</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band ai-operations-position vet-tafe-position">
+      <div class="ai-operations-lead">
+        <div class="eyebrow">核心原則</div>
+        <h2>先用官方入口核對，再談個案策略。</h2>
+        <p>職業培訓的第一步不是選「熱門課」，而是核對：課程代碼、AQF 等級、RTO scope、CRICOS（如涉及國際學生）、實習/placement、評核方式與費用。把資料做乾淨，後續才可能快速做出可靠判斷。</p>
+      </div>
+      <aside class="ai-operations-note">
+        <span>Scope boundary</span>
+        <p>涉及移民評估、簽證選擇、職業註冊、法律/稅務、雇傭合約等，OTC 以轉介方式處理。</p>
+      </aside>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Boards</div>
+        <h2>多板塊佈局（子頁面）</h2>
+        <p>每個板塊是一個可獨立更新的子頁面，便於新增院校、政策入口、常見問題清單與文件模板。</p>
+      </div>
+      <div class="vet-tafe-screening-grid">
+        ${[
+          ["Health & Community", "健康護理 / 社區服務", "含護理註冊邊界、實習安排與課程核對要點。", "/zh/australia-vet-tafe-pathways/health-community/"],
+          ["Trades & Construction", "技工 / 建築 / 安全培訓", "含 licence 語境提醒、RTO scope 核對與風險提示。", "/zh/australia-vet-tafe-pathways/trades-construction/"],
+          ["Business / IT / Creative", "商科 / IT / 創意媒體", "含評核型式、作品集/專題、文書敘事證據。", "/zh/australia-vet-tafe-pathways/business-it-creative/"],
+          ["Provider checklist", "RTO/TAFE 課程篩查清單", "CRICOS、課程代碼、實習、成本、退費、出勤與 evidence。", "/zh/australia-vet-tafe-pathways/provider-checklist/"],
+          ["TAFE → University", "TAFE-to-university 銜接", "credit/advanced standing 的材料、流程與不能保證的邊界。", "/zh/australia-vet-tafe-pathways/tafe-to-university/"],
+          ["Evidence pack", "學生 evidence pack", "把材料整理成一頁版，方便提問與快速比對。", "/zh/australia-vet-tafe-pathways/evidence-pack/"]
+        ].map(([tag, title, desc, href]) => `
+          <article>
+            <span>${tag}</span>
+            <strong>${title}</strong>
+            <p>${desc}</p>
+            <a href="${href}">打開子頁面</a>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Official</div>
+        <h2>常用官方查詢入口（總覽）</h2>
+        <p>先用官方頁面核對 course code、RTO、CRICOS 與條款，再做課程比較與路線規劃。</p>
+      </div>
+      <div class="zh-academic-reading-board">
+        <article class="zh-academic-reading-panel">
+          <strong>查課程 / 查機構</strong>
+          <ul class="zh-academic-reading-list">
+            <li><strong><a href="https://training.gov.au/" target="_blank" rel="noopener">training.gov.au</a></strong><span>澳洲官方訓練資訊：課程代碼、training package、RTO 清單。</span></li>
+            <li><strong><a href="https://cricos.education.gov.au/" target="_blank" rel="noopener">CRICOS</a></strong><span>國際學生課程登錄查詢（如適用）。</span></li>
+            <li><strong><a href="https://www.asqa.gov.au/" target="_blank" rel="noopener">ASQA</a></strong><span>職業教育監管與合規信息入口。</span></li>
+          </ul>
+        </article>
+        <article class="zh-academic-reading-panel">
+          <strong>下一步（OTC 使用）</strong>
+          <ul class="zh-academic-reading-list">
+            <li><strong>問 10 個問題</strong><span>入學要求、實習/placement、評核方式、出勤、費用與時間線。</span></li>
+            <li><strong>做一頁 evidence pack</strong><span>學歷/成績單/翻譯、英文、工作/實習、目標方向。</span></li>
+            <li><strong>標記需轉介事項</strong><span>移民、執業註冊、法律/合約、稅務與監管事項。</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  `
+});
+
+const zhAustraliaVetHealthCommunity = zhVetBoardPage({
+  title: "澳洲健康護理與社區服務（VET / TAFE）| OTC 職業培訓板塊",
+  description: "澳洲健康護理與社區服務職業培訓板塊：課程核對、實習安排、註冊邊界與官方入口。",
+  path: "/zh/australia-vet-tafe-pathways/health-community/",
+  heroTitle: "健康護理 / 社區服務：VET / TAFE 板塊",
+  heroIntro: "把 CHC/HLT 類方向拆成可核對的課程代碼、實習安排與合規邊界。尤其是護理註冊：課程層級相近不代表可直接執業，需以監管機構與批准課程為準。",
+  sections: [
+    ["Board 01", "課程代碼優先", "先用 training.gov.au 查 qualification code、RTO 與入學前置條件。", ["qualification code / training package", "RTO scope 與校區", "實習時數與安排", "評核方式與 evidence"]],
+    ["Board 02", "護理註冊邊界", "涉及 AHPRA / NMBA / ANMAC 的註冊問題需以官方批准課程與條款為準。", ["不要把非批准課程當作註冊路線", "確認課程是否為 approved program", "核對 placement 與 supervision", "必要時專業轉介"]],
+    ["Board 03", "文件準備", "把學歷、英文與實習證據整理成可審閱格式，方便快速比對。", ["成績單與翻譯", "英文成績有效期", "工作/實習證明", "個人陳述的證據點"]],
+    ["Board 04", "實務風險提示", "就業與移民結果不可保證；重點是可核對、可更新。", ["避免保證式說法", "以官方條款為準", "不混淆學術/職業/註冊", "必要時轉介"]]
+  ],
+  resources: [
+    ["training.gov.au", "https://training.gov.au/"],
+    ["AHPRA approved programs of study", "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"],
+    ["NMBA (Nursing and Midwifery Board of Australia)", "https://www.nursingmidwiferyboard.gov.au/"],
+    ["ANMAC", "https://www.anmac.org.au/"]
+  ],
+  related: [
+    ["RTO/TAFE 篩查清單", "先核對 course code、CRICOS、實習、出勤與費用條款。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
+    ["TAFE-to-university", "銜接與 credit conversation：哪些可比較、哪些不能假設。", "/zh/australia-vet-tafe-pathways/tafe-to-university/", "Progression"],
+    ["Evidence pack", "把材料整理成一頁版，便於提問與快速比對。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ]
+});
+
+const zhAustraliaVetTradesConstruction = zhVetBoardPage({
+  title: "澳洲技工 / 建築 / 安全培訓（VET / TAFE）| OTC 職業培訓板塊",
+  description: "澳洲技工與建築職業培訓板塊：課程核對、證據準備、合規邊界與官方入口。",
+  path: "/zh/australia-vet-tafe-pathways/trades-construction/",
+  heroTitle: "技工 / 建築 / 安全培訓：VET / TAFE 板塊",
+  heroIntro: "技工與建築路線往往涉及州法規、工地安全與 licence 語境。這個板塊聚焦：課程代碼、RTO scope、實操評核與合規/轉介邊界。",
+  sections: [
+    ["Board 01", "課程與 licence 分開看", "課程本身是教育訓練；執業/牌照可能有額外要求。", ["qualification vs licence 分離", "核對州/行業要求", "查看實操評核", "記錄 training evidence"]],
+    ["Board 02", "RTO scope 與校區", "同名課程在不同 RTO/校區的交付方式可能不同。", ["scope/交付方式", "校區與時間線", "設備與實訓安排", "出勤要求"]],
+    ["Board 03", "學習與工作證據", "把安全培訓、實操、工地經驗做成可核對的證據。", ["證書與成績單", "工作/實習證明", "照片/日志（合規）", "推薦人與聯絡信息"]]
+  ],
+  resources: [
+    ["training.gov.au", "https://training.gov.au/"],
+    ["ASQA", "https://www.asqa.gov.au/"]
+  ],
+  related: [
+    ["Provider checklist", "用清單快速排除不清晰課程與風險條款。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
+    ["Evidence pack", "整理一頁版材料，方便比較與提問。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ]
+});
+
+const zhAustraliaVetBusinessItCreative = zhVetBoardPage({
+  title: "澳洲商科 / IT / 創意媒體（VET / TAFE）| OTC 職業培訓板塊",
+  description: "澳洲商科/IT/創意媒體職業培訓板塊：課程模組、評核方式、作品集/專題與官方入口。",
+  path: "/zh/australia-vet-tafe-pathways/business-it-creative/",
+  heroTitle: "商科 / IT / 創意媒體：VET / TAFE 板塊",
+  heroIntro: "把看似『泛』的方向做成可核對清單：課程模組、評核方式、工具要求、作品集/專題與實習安排。重點是 evidence-led，而不是口號式興趣敘述。",
+  sections: [
+    ["Board 01", "模組與評核方式", "先讀課程模組與 assessment type，避免只看課程名稱。", ["module list", "assessment type", "工具/軟件", "出勤與 group work"]],
+    ["Board 02", "作品集 / 專題", "把專題做小做實：可核對、可展示、可改進。", ["1 個分析 + 1 個 audit", "3 張圖表 + 反思", "引用來源", "避免誇大結果"]],
+    ["Board 03", "文件與英文", "VET 仍然需要可審閱的英文與文件一致性。", ["英文成績與有效期", "簡歷與工作內容", "學歷翻譯件", "同名材料版本管理"]]
+  ],
+  resources: [
+    ["training.gov.au", "https://training.gov.au/"],
+    ["CRICOS", "https://cricos.education.gov.au/"]
+  ],
+  related: [
+    ["TAFE-to-university", "如涉及銜接，先理解 credit 的邊界。", "/zh/australia-vet-tafe-pathways/tafe-to-university/", "Progression"],
+    ["Evidence pack", "把材料整理成一頁版，降低溝通成本。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ]
+});
+
+const zhAustraliaVetProviderChecklist = zhVetBoardPage({
+  title: "RTO/TAFE 課程篩查清單 | OTC 職業培訓板塊",
+  description: "用一份短清單做職業培訓課程篩查：course code、RTO scope、CRICOS、實習、出勤、費用與條款。",
+  path: "/zh/australia-vet-tafe-pathways/provider-checklist/",
+  heroTitle: "RTO / TAFE 課程篩查清單（快速版）",
+  heroIntro: "用一份可重複使用的清單，把『這個課程到底靠不靠譜』拆成可核對項：course code、RTO scope、CRICOS、實習、評核、出勤、費用與退費條款。",
+  sections: [
+    ["Checklist 01", "課程代碼與等級", "先核對 qualification code、AQF level 與授課模式。", ["course code/名稱", "AQF level", "delivery mode", "入學前置條件"]],
+    ["Checklist 02", "RTO/TAFE 資格", "核對 RTO scope、校區與交付能力。", ["RTO scope", "校區/時間表", "師資與實訓", "評核 evidence"]],
+    ["Checklist 03", "國際學生（如適用）", "核對 CRICOS、CoE、出勤與 OSHC 語境。", ["CRICOS 代碼", "出勤/進度要求", "費用與退費", "學生支持"]],
+    ["Checklist 04", "實習/placement", "把 placement 問清楚：時數、場景、誰安排、如何評核。", ["placement 時數", "安排方與地點", "保險/安全", "督導與評核"]]
+  ],
+  resources: [
+    ["training.gov.au", "https://training.gov.au/"],
+    ["CRICOS", "https://cricos.education.gov.au/"],
+    ["ASQA", "https://www.asqa.gov.au/"]
+  ],
+  related: [
+    ["Evidence pack", "把材料整理成一頁版，方便逐項核對。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ]
+});
+
+const zhAustraliaVetTafeToUniversity = zhVetBoardPage({
+  title: "TAFE-to-University 銜接與 Credit 討論 | OTC 職業培訓板塊",
+  description: "TAFE/VET 到大學的銜接與 credit 討論：哪些可以比較、哪些不能假設。",
+  path: "/zh/australia-vet-tafe-pathways/tafe-to-university/",
+  heroTitle: "TAFE → 大學：銜接與 credit 的可行性讀法",
+  heroIntro: "很多學生把『學術層級接近』誤讀成『一定可減免學分』。這個板塊用可核對方式整理：credit/advanced standing 的材料、流程與不能保證的邊界。",
+  sections: [
+    ["Board 01", "先看官方 credit policy", "每所大學的 credit policy 不同，不能用傳聞推定。", ["credit policy", "學分上限", "單元對照", "是否需 syllabus"]],
+    ["Board 02", "材料清單", "把可審閱材料準備齊：課綱、評核、成績與時長。", ["sylabus/單元描述", "assessment brief", "transcript", "課程時長與時數"]],
+    ["Board 03", "風險提示", "銜接與移民、就業是不同問題；避免把它們綁成保證。", ["不做結果保證", "政策可能更新", "以書面為準", "必要時轉介"]]
+  ],
+  resources: [
+    ["CRICOS", "https://cricos.education.gov.au/"],
+    ["TEQSA", "https://www.teqsa.gov.au/"],
+    ["training.gov.au", "https://training.gov.au/"]
+  ],
+  related: [
+    ["Provider checklist", "先把課程核對乾淨，銜接才有討論基礎。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
+    ["Evidence pack", "把材料整理成一頁版，降低溝通成本。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ]
+});
+
+const zhAustraliaVetEvidencePack = zhVetBoardPage({
+  title: "職業培訓 evidence pack（一頁版）| OTC 職業培訓板塊",
+  description: "把職業培訓路線材料整理成一頁版 evidence pack：方便提問、比對與留痕。",
+  path: "/zh/australia-vet-tafe-pathways/evidence-pack/",
+  heroTitle: "職業培訓 evidence pack：一頁版模板",
+  heroIntro: "把你要走的 VET/TAFE 路線做成一頁版：目標方向、課程代碼、文件狀態、英文、時間線與 10 個問題。材料乾淨，回覆就快。",
+  sections: [
+    ["Template 01", "基本信息", "你是誰、要去哪、何時入學、目前狀態。", ["目標州/城市", "目標開課期", "預算區間", "聯絡與備註"]],
+    ["Template 02", "學歷與英文", "學歷/成績單/翻譯與英文成績一目了然。", ["最高學歷", "成績單/翻譯", "英文成績與有效期", "gap 解釋（如有）"]],
+    ["Template 03", "課程與問題", "列出 course code，並寫下你要問的 10 個問題。", ["course code", "RTO/校區", "placement 安排", "費用/退費/出勤"]]
+  ],
+  resources: [
+    ["training.gov.au", "https://training.gov.au/"],
+    ["CRICOS", "https://cricos.education.gov.au/"]
+  ],
+  related: [
+    ["Provider checklist", "用清單逐項核對你的 evidence pack。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
+    ["返回總覽", "查看全部職業培訓板塊。", "/zh/australia-vet-tafe-pathways/", "Hub"]
+  ]
 });
 
 const aiEducationOperations = pageShell({
@@ -12636,6 +12990,13 @@ write("australia-schools/the-illawarra-grammar-school", illawarraGrammarReview);
 write("australia-schools/rockhampton-grammar-school", rockhamptonGrammarReview);
 write("australia-schools/moreton-bay-colleges", moretonBayCollegesReview);
 write("australia-vet-tafe-pathways", australiaVetTafePathways);
+write("zh/australia-vet-tafe-pathways", zhAustraliaVetTafeHub);
+write("zh/australia-vet-tafe-pathways/health-community", zhAustraliaVetHealthCommunity);
+write("zh/australia-vet-tafe-pathways/trades-construction", zhAustraliaVetTradesConstruction);
+write("zh/australia-vet-tafe-pathways/business-it-creative", zhAustraliaVetBusinessItCreative);
+write("zh/australia-vet-tafe-pathways/provider-checklist", zhAustraliaVetProviderChecklist);
+write("zh/australia-vet-tafe-pathways/tafe-to-university", zhAustraliaVetTafeToUniversity);
+write("zh/australia-vet-tafe-pathways/evidence-pack", zhAustraliaVetEvidencePack);
 write("ai-education-operations", aiEducationOperations);
 write("reports/othm-australia-expansion", othmAustraliaExpansionReport);
 write("zh/reports/othm-australia-expansion", othmAustraliaExpansionReportZh);
