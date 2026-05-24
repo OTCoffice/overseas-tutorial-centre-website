@@ -2611,7 +2611,7 @@ const insightsArticles = [
         paragraphs: [
           "Overseas Supervision has released the first public demo of its NCLEX-RN bilingual clinical judgment learning tool. The demo is designed for Chinese-speaking nurses and health-care learners who are researching NCLEX-RN preparation in the context of the Ahpra/NMBA Stream B route.",
           "The public version is intentionally modest: 50 original low-risk practice items, bilingual rationales, a glossary panel, category filters, wrong-answer review and a learner report that can be copied into notes or sent to a tutor.",
-          "Readers can open the public landing page at /apps/nclex-rn-bilingual-demo/ and the trainer directly at /apps/nclex-rn-bilingual-trainer/."
+          "Readers who subscribe to Overseas Study Review and OTC website updates can use the public demo directly: open the landing page at <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a>, or open the trainer at <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>."
         ]
       },
       {
@@ -2660,7 +2660,7 @@ const insightsArticles = [
         paragraphs: [
           "海外督導學習中心正式上線 NCLEX-RN 雙語臨床判斷公開 Demo。這是海外督導與海外書局正在策劃的護理雙語教輔產品線中的第一個公開展示版本，主要面向正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 路線的華語護理背景讀者。",
           "公開版刻意採用小而清楚的範圍：50 題低風險原創展示題、雙語解析、術語表、分類篩選、錯題回看與學員報告工具。這不是把完整產品一次性放出，而是先讓讀者試用學習設計與界面邏輯。",
-          "讀者可從公開入口進入：/apps/nclex-rn-bilingual-demo/；也可直接打開練習工具：/apps/nclex-rn-bilingual-trainer/。"
+          "訂閱本刊及 OTC 網站更新的讀者，可直接使用公開 Demo：從公開入口 <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> 進入；也可直接打開練習工具 <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>。"
         ]
       },
       {
