@@ -12063,6 +12063,18 @@ function zhVetBoardCard(title, desc, href, tag = "VET Board") {
 
 function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro = "把路線規劃落到可執行：用出版物、清單與工具把證據整理好，再進入諮詢或正式申請流程。", tag = "Tools", context = "" } = {}) {
   const query = context ? `&context=${encodeURIComponent(context)}` : "";
+  const isHealthCommunity = context === "health-community";
+  const cards = isHealthCommunity ? [
+    ["健康與社會照護雙語出版系列", "Overseas Publishing 規劃中的 OTHM Health & Social Care 雙語學習系列，可承接 CHC/HLT、placement、監管邊界與術語表內容。", "/publishing/othm-health-social-care-bilingual-series/", "Publishing Plan"],
+    ["Study Guides", "公眾版學習指南入口；後續可加入健康護理術語、placement checklist、CHC/HLT 文件核對模板。", "/study-guides/", "Guides"],
+    ["Apps & Tools", "學習工具入口：可延伸到 health/community vocabulary、placement interview readiness、文件缺口自查與 quiz。", "/apps/", "Apps"],
+    ["Consultation AI", "快速整理健康護理/社區服務課程問題清單與文件缺口；不構成移民、註冊或法律建議。", `/consultation-chat/?source=vet-tafe-board${query}`, "AI"]
+  ] : [
+    ["出版物與更新", "Overseas Publishing：出版物、媒體更新與可公開引用的材料入口。", "/publishing/", "Publishing"],
+    ["Study Guides", "公眾版學習指南與模組化學習材料（可逐步擴展到職業培訓配套）。", "/study-guides/", "Guides"],
+    ["Apps & Tools", "工具與練習入口：詞彙、mock tests、互動學習與資料整理工具。", "/apps/", "Apps"],
+    ["Consultation AI", "快速整理問題清單與文件缺口（不構成移民/法律建議）。", `/consultation-chat/?source=vet-tafe-board${query}`, "AI"]
+  ];
   return `
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -12071,10 +12083,7 @@ function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro
         <p>${intro}</p>
       </div>
       <div class="hub-map">
-        ${zhVetBoardCard("出版物與更新", "Overseas Publishing：出版物、媒體更新與可公開引用的材料入口。", "/publishing/", "Publishing")}
-        ${zhVetBoardCard("Study Guides", "公眾版學習指南與模組化學習材料（可逐步擴展到職業培訓配套）。", "/study-guides/", "Guides")}
-        ${zhVetBoardCard("Apps & Tools", "工具與練習入口：詞彙、mock tests、互動學習與資料整理工具。", "/apps/", "Apps")}
-        ${zhVetBoardCard("Consultation AI", "快速整理問題清單與文件缺口（不構成移民/法律建議）。", `/consultation-chat/?source=vet-tafe-board${query}`, "AI")}
+        ${cards.map((card) => zhVetBoardCard(card[0], card[1], card[2], card[3])).join("")}
       </div>
     </section>
   `;
