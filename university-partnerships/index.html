@@ -47,6 +47,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/">Back to parent page</a>
+        <div class="page-share-actions" aria-label="Share this page">
+          <span>Share</span>
+          <a href="https://twitter.com/intent/tweet?text=University%20Agent%20%26%20Institutional%20Cooperation%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=University%20Agent%20%26%20Institutional%20Cooperation%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=University%20Agent%20%26%20Institutional%20Cooperation%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F&text=University%20Agent%20%26%20Institutional%20Cooperation%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=University%20Agent%20%26%20Institutional%20Cooperation%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Funiversity-partnerships%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/university-partnerships/">Copy link</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero application-hero"><div class="band"><div class="eyebrow">Institutional Cooperation</div><h1>University Agent & Institutional Cooperation</h1><p>For university admissions teams, international offices and partner managers reviewing OTC's application-support capability.</p></div></section>
     <main class="band">
       <div class="institutional-brief">
@@ -116,6 +134,39 @@
         <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
       </div>
     </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

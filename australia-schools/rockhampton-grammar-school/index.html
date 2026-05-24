@@ -44,6 +44,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/australia-schools/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=The%20Rockhampton%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=The%20Rockhampton%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=The%20Rockhampton%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F&text=The%20Rockhampton%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=The%20Rockhampton%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Frockhampton-grammar-school%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/australia-schools/rockhampton-grammar-school/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero school-profile-hero herald-school-hero"><div class="band"><div class="eyebrow">Queensland Boarding School · Review Draft</div><h1>The Rockhampton Grammar School</h1><p>Central Queensland 寄宿強校 · Grow in Character and Scholarship</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=RGS%20Family%20Screening">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
     <section class="band compact-band"><div class="school-review-banner"><strong>Draft for school review</strong><p>本頁根據 The Rockhampton Grammar School international prospectus 整理，作為中文家庭閱讀版審核稿。正式公開推廣前，需由學校/代表確認最新課程、CRICOS、住宿、費用及申請要求。</p></div></section>
     <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">Why It Matters</div><h2>不是大城市路線，而是 Central Queensland 的完整寄宿學校生活。</h2><p>RGS 建校於 1881 年，是 Queensland 歷史悠久的私立男女混合學校之一。Prospectus 強調其「character and scholarship」教育理念、Central Queensland 地區生活、boarding culture、農業/戶外教育、體育藝術活動與大學升學準備。</p></div><div class="school-facts"><article><b>Founded</b><strong>1881</strong><span>One of Australia's long-established grammar schools.</span></article><article><b>Scale</b><strong>1,400+ students</strong><span>Prospectus records Prep-Year 12 and a large secondary cohort.</span></article><article><b>Boarding</b><strong>Queensland boarding route</strong><span>Years 7-12 full accommodation with separate boys/girls houses.</span></article><article><b>CRICOS</b><strong>00507F</strong><span>Secondary Years 7-10 and Years 11-12 courses listed in prospectus.</span></article></div></div><aside class="school-profile-side"><span>OTC reading</span><strong>適合誰？</strong><p>適合希望避開大城市、重視寄宿管理、英語沉浸、戶外教育、體育/農業/藝術資源，以及 Queensland 升學路線的家庭。</p><a href="mailto:office@overseasuk.com?subject=Free%20RGS%20Family%20Screening">免費家庭初篩</a></aside></div></section>
@@ -105,6 +123,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

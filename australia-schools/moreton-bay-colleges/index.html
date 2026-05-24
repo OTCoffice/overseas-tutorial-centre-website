@@ -44,6 +44,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/australia-schools/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=Moreton%20Bay%20Colleges%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=Moreton%20Bay%20Colleges%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=Moreton%20Bay%20Colleges%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F&text=Moreton%20Bay%20Colleges%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=Moreton%20Bay%20Colleges%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmoreton-bay-colleges%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/australia-schools/moreton-bay-colleges/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero school-profile-hero herald-school-hero"><div class="band"><div class="eyebrow">Brisbane Schools · Review Draft</div><h1>The Moreton Bay Colleges</h1><p>Moreton Bay College · Moreton Bay Boys' College · Brisbane 東區男校/女校路線</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Moreton%20Bay%20Colleges%20Screening">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
     <section class="band compact-band"><div class="school-review-banner"><strong>Draft for school review</strong><p>本頁根據 Moreton Bay Colleges international prospectus 整理，作為中文家庭閱讀版審核稿。正式公開推廣前，需由學校/代表確認課程代碼、住宿安排、入學要求、費用與申請流程。</p></div></section>
     <section class="band"><div class="school-profile-grid"><div class="school-profile-main"><div class="section-head compact-head"><div class="eyebrow">Brisbane Route</div><h2>一組 Brisbane 東區的男校/女校學校組合。</h2><p>The Moreton Bay Colleges comprise Moreton Bay College and Moreton Bay Boys' College. Prospectus materials describe two campuses with premium facilities, a natural environment, international preparation courses, Primary Years Programme, junior/senior secondary studies and school-managed accommodation.</p></div><div class="school-facts"><article><b>Location</b><strong>Brisbane</strong><span>Less than 15km from Brisbane CBD, close to Moreton Bay and the eastern suburbs.</span></article><article><b>Schools</b><strong>MBC / MBBC</strong><span>Moreton Bay College and Moreton Bay Boys' College as a coordinated college route.</span></article><article><b>CRICOS</b><strong>03771K / 03772J</strong><span>Prospectus lists separate CRICOS records for MBC and MBBC.</span></article><article><b>Accommodation</b><strong>School-managed</strong><span>Homestay support, 24-hour support team, meals and transport noted in materials.</span></article></div></div><aside class="school-profile-side"><span>OTC reading</span><strong>適合誰？</strong><p>適合希望選擇 Brisbane 城市生活、男校/女校環境、PYP 小學路線、HSP/PSP 過渡課程和 homestay 管理支持的家庭。</p><a href="mailto:office@overseasuk.com?subject=Free%20Moreton%20Bay%20Colleges%20Screening">免費家庭初篩</a></aside></div></section>
@@ -105,6 +123,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

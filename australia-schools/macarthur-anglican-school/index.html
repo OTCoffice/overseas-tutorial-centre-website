@@ -44,6 +44,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/australia-schools/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=Macarthur%20Anglican%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=Macarthur%20Anglican%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=Macarthur%20Anglican%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F&text=Macarthur%20Anglican%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=Macarthur%20Anglican%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Fmacarthur-anglican-school%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/australia-schools/macarthur-anglican-school/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
       <section class="page-hero school-profile-hero herald-school-hero nsw-review-hero"><div class="band"><div class="eyebrow">Study NSW Briefing · Review Draft</div><h1>Macarthur Anglican School</h1><p>麥卡瑟聖公會學校 · South-west Sydney independent co-educational school</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Free%20school%20screening%20-%20Macarthur%20Anglican%20School">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回澳洲學校區</a></div></div></section>
 
       <section class="band compact-band"><div class="school-review-banner"><strong>Draft for briefing review</strong><p>This page is prepared by Overseas Tutorial Centre from Study NSW / Greater China training email materials and public-facing school briefing notes. It is a school-profile review draft for Chinese families, not a statement of formal appointment or confirmed agency status.</p><p>本頁根據 Study NSW / Greater China 培訓郵件與公開學校介紹線索整理，供學校、項目方或代表審核；正式推廣前需確認課程、費用、申請、住宿及聯絡表述。</p></div></section>
@@ -111,6 +129,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

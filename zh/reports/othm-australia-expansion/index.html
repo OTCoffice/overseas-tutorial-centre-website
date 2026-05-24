@@ -47,6 +47,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/zh/reports/">Back to parent page</a>
+        <div class="page-share-actions" aria-label="Share this page">
+          <span>Share</span>
+          <a href="https://twitter.com/intent/tweet?text=OTHM%20%E8%88%87%E6%BE%B3%E6%B4%B2%E5%8D%87%E5%AD%B8%E5%8F%8A%E8%81%B7%E6%A5%AD%E8%B3%87%E6%A0%BC%E8%B7%AF%E7%B7%9A%E5%A0%B1%E5%91%8A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=OTHM%20%E8%88%87%E6%BE%B3%E6%B4%B2%E5%8D%87%E5%AD%B8%E5%8F%8A%E8%81%B7%E6%A5%AD%E8%B3%87%E6%A0%BC%E8%B7%AF%E7%B7%9A%E5%A0%B1%E5%91%8A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=OTHM%20%E8%88%87%E6%BE%B3%E6%B4%B2%E5%8D%87%E5%AD%B8%E5%8F%8A%E8%81%B7%E6%A5%AD%E8%B3%87%E6%A0%BC%E8%B7%AF%E7%B7%9A%E5%A0%B1%E5%91%8A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F&text=OTHM%20%E8%88%87%E6%BE%B3%E6%B4%B2%E5%8D%87%E5%AD%B8%E5%8F%8A%E8%81%B7%E6%A5%AD%E8%B3%87%E6%A0%BC%E8%B7%AF%E7%B7%9A%E5%A0%B1%E5%91%8A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=OTHM%20%E8%88%87%E6%BE%B3%E6%B4%B2%E5%8D%87%E5%AD%B8%E5%8F%8A%E8%81%B7%E6%A5%AD%E8%B3%87%E6%A0%BC%E8%B7%AF%E7%B7%9A%E5%A0%B1%E5%91%8A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Fzh%2Freports%2Fothm-australia-expansion%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/zh/reports/othm-australia-expansion/">Copy link</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero australia-office-hero report-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲教育路線專題</div><h1>OTHM 與澳洲路線</h1><p>英國 RQF 資格如何支持澳洲升學、credit / RPL 準備與職業路線規劃。</p><div class="actions"><a class="btn btn-primary" href="/australia-office-presence/">返回澳洲路線</a><a class="btn btn-secondary" href="/reports/othm-australia-expansion/">English report</a></div></div></section>
     <section class="band">
       <article class="evidence-report-page zh-evidence-report" lang="zh-Hant">
@@ -212,6 +230,39 @@
         <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
       </div>
     </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

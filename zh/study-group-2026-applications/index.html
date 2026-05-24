@@ -49,6 +49,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/zh/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=Study%20Group%202026%20%E7%94%B3%E8%AB%8B%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=Study%20Group%202026%20%E7%94%B3%E8%AB%8B%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=Study%20Group%202026%20%E7%94%B3%E8%AB%8B%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F&text=Study%20Group%202026%20%E7%94%B3%E8%AB%8B%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=Study%20Group%202026%20%E7%94%B3%E8%AB%8B%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Fzh%2Fstudy-group-2026-applications%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/zh/study-group-2026-applications/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero application-hero studygroup-hero"><div class="band"><div class="eyebrow">2026 年 7-12 月入學</div><h1>Study Group Pathway 與直入申請</h1><p>OTC 協助學生比較 Study Group 相關 pathway、直入和國際升學路線，並為 2026 年入學準備申請文件。</p><div class="hero-actions"><a class="btn btn-primary" href="#studygroup-route-review">申請路線評估</a><a class="btn btn-secondary" href="/university-applications/?country=United%20Kingdom&institution=Study%20Group%20UK%2FEU%20International%20Study%20Centres#otc-apply-form">打開申請表</a><a class="btn btn-secondary" href="/application-service-standards/">服務標準</a></div></div></section>
 
     <main>
@@ -301,6 +319,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

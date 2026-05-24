@@ -44,6 +44,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/australia-schools/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=Lindisfarne%20Anglican%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=Lindisfarne%20Anglican%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=Lindisfarne%20Anglican%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F&text=Lindisfarne%20Anglican%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=Lindisfarne%20Anglican%20Grammar%20School%20Review%20Draft%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Faustralia-schools%2Flindisfarne-anglican-grammar-school%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/australia-schools/lindisfarne-anglican-grammar-school/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero school-profile-hero"><div class="band"><div class="eyebrow">School Profile · Review Draft</div><h1>Lindisfarne Anglican Grammar School</h1><p>林迪斯法恩聖公會文法學校 · 面向中國家庭的雙語資料頁審核稿</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Lindisfarne%20Application%20Screening">Start OTC screening</a><a class="btn btn-secondary" href="/zh/australia-office-presence/#nsw-schools">返回 NSW 學校區</a></div></div></section>
 
     <section class="band compact-band"><div class="school-review-banner"><strong>Draft for school review</strong><p>This static page is prepared by Overseas Tutorial Centre for Lindisfarne's review before public release and agency-agreement discussion. It summarises information from the 2026 international prospectus and fee schedules supplied to OTC.</p><p>本頁為 OTC 根據學校資料整理的中文家庭閱讀版審核稿。正式發布前，請學校確認名稱、課程、費用、入學流程、住宿及聯絡表述是否準確。</p></div></section>
@@ -113,6 +131,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

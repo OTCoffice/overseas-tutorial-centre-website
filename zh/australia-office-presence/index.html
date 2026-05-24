@@ -44,6 +44,24 @@
     </header>
 
 
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/zh/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=%E6%BE%B3%E6%B4%B2%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%B7%AF%E7%B7%9A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=%E6%BE%B3%E6%B4%B2%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%B7%AF%E7%B7%9A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=%E6%BE%B3%E6%B4%B2%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%B7%AF%E7%B7%9A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F&text=%E6%BE%B3%E6%B4%B2%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%B7%AF%E7%B7%9A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=%E6%BE%B3%E6%B4%B2%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%B7%AF%E7%B7%9A%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-office-presence%2F">Email</a>
+          <button type="button" data-page-copy-link="https://overseasuk.com/zh/australia-office-presence/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
+
     <section class="page-hero australia-office-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲辦公室路線</div><h1>OTC Australia Office Route</h1><p>以新南威爾士州為起點，建立教育諮詢、學生支持、院校申請、機構服務與澳洲市場發展的分階段運作路線。</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence%20Chinese%20Enquiry">聯絡 OTC</a><a class="btn btn-secondary" href="/australia-office-presence/">English page</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div></div></section>
 
     <section class="band">
@@ -228,6 +246,39 @@
           <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
         </div>
       </footer>
+
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
 
 </body>
 </html>

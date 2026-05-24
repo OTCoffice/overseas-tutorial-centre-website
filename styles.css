@@ -9231,6 +9231,74 @@ h1 {
   margin-top: 30px;
 }
 
+.page-utility-bar {
+  background: #f7f3ea;
+  border-bottom: 1px solid rgba(9, 31, 56, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.page-utility-inner {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--max);
+  padding: 10px 20px;
+}
+
+.page-parent-link {
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-parent-link::before {
+  content: "←";
+  margin-right: 8px;
+}
+
+.page-share-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: flex-end;
+}
+
+.page-share-actions span {
+  color: #7a6b56;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+.page-share-actions a,
+.page-share-actions button {
+  background: #fff;
+  border: 1px solid rgba(9, 31, 56, 0.14);
+  border-radius: 999px;
+  color: var(--navy);
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.page-share-actions a:hover,
+.page-share-actions button:hover {
+  background: var(--navy);
+  color: #fff;
+}
+
 .page-hero .btn-secondary {
   background: #fff;
   border-color: rgba(255, 255, 255, 0.28);
@@ -15061,6 +15129,15 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  .page-utility-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .page-share-actions {
+    justify-content: flex-start;
+  }
+
   .series-toggle-item summary {
     grid-template-columns: 1fr;
     gap: 8px;

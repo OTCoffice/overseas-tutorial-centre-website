@@ -6255,7 +6255,7 @@ const othmHealthSocialCareBilingualSeries = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Editorial Rationale</div>
         <h2>以雙語學術支持補足資格學習中的語境斷層。</h2>
-        <p>本策劃將 OTHM Health and Social Care 系列視為一組跨語言、跨資歷框架、跨職業語境的學習對象，而非單純的考試教材。頁面集中呈現讀者分層、內容架構、書目矩陣、發行模型、學術審閱與合規邊界，作為後續作者協作、導師審閱、出版排程及課程資源配置的工作基礎。</p>
+        <p>本策劃將 OTHM Health and Social Care 系列視為一組跨語言、跨資歷框架、跨職業語境的學習對象，而非單純的考試教材。頁面集中呈現 editorial rationale、audience segmentation、content architecture、bibliographic apparatus、rights and permissions、dissemination model、academic review protocol 與 compliance boundary，作為後續作者協作、導師審閱、出版排程及課程資源配置的工作基礎。</p>
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>OTHM learners</strong><span>圍繞 learning outcomes、assessment criteria、核心概念、學術寫作語言與證據組織方式建立雙語支持。</span></article>
@@ -6267,14 +6267,28 @@ const othmHealthSocialCareBilingualSeries = pageShell({
 
     <section class="band compact-band">
       <div class="section-head compact-head">
+        <div class="eyebrow">Scholarly Apparatus and Editorial Governance</div>
+        <h2>以出版級編輯流程管理術語、來源、審閱與版本控制。</h2>
+        <p>本系列採用 academic study companion 的編輯定位：每冊不是線性講義，而是帶有概念索引、術語庫、official-source bibliography、cross-framework equivalence notes、case commentary 和 reflective writing scaffold 的學術教輔。編輯流程需保留 source audit trail、version history、review memorandum、permissions log 與 errata protocol，確保出版品可被課程顧問、導師與讀者追溯。</p>
+      </div>
+      <div class="index-grid">
+        <article><b>A</b><strong>Terminology control</strong><span>建立 bilingual controlled vocabulary，統一 health, social care, safeguarding, quality assurance, leadership 等核心詞彙。</span></article>
+        <article><b>B</b><strong>Source hierarchy</strong><span>優先引用 OTHM specification、regulator guidance、official qualification registers、CQC / Skills for Care / AHPRA / ANMAC 等可核查來源。</span></article>
+        <article><b>C</b><strong>Editorial peer review</strong><span>導師審閱、醫學顧問審閱、語言編輯與合規審讀分開記錄，避免單一審閱替代完整 quality assurance。</span></article>
+        <article><b>D</b><strong>Publication metadata</strong><span>每冊建立 ISBN / edition statement / imprint notice / disclaimer / bibliography / revision note，便於 Payhip、KDP 與機構授權發行。</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
         <div class="eyebrow">Market and Pedagogical Need</div>
         <h2>需求基礎：照護人才缺口、華語學習者語境障礙與跨框架銜接。</h2>
-        <p>健康與社會照護方向的學習材料通常分散於 awarding body specification、監管機構指引、照護政策、職業註冊資料與院校銜接規則之中。華語學習者面臨的主要障礙，不只是英文詞彙，而是如何理解不同制度下的資格用途、證據標準、工作場景與升學限制。本系列的出版價值在於建立一套具備術語一致性、學術寫作導向與路線判斷功能的雙語知識框架。</p>
+        <p>健康與社會照護方向的學習材料通常分散於 awarding body specification、監管機構指引、照護政策、職業註冊資料與院校銜接規則之中。華語學習者面臨的主要障礙，不只是英文詞彙，而是如何理解不同制度下的 qualification purpose、evidence standard、professional context、learning outcome mapping 與 progression limitation。本系列的出版價值在於建立一套具備術語一致性、學術寫作導向、source literacy 與 route-risk interpretation 功能的雙語知識框架。</p>
       </div>
       <div class="resource-list compact-resource-list">
         <article class="resource-row"><div><div class="meta">Workforce Context</div><h3>社會照護與健康管理具備長期結構性需求</h3><p>成人社會照護、老人護理、殘疾支援、社區服務與健康管理均屬長周期人才需求領域。教材需要把課程學習、職業場景、監管邊界與升學可能性放入同一套分析框架。</p></div><span class="pill">Demand</span></article>
         <article class="resource-row"><div><div class="meta">Learning Gap</div><h3>單純翻譯課綱不足以支持學術表達</h3><p>讀者需要的不只是詞彙表，還包括 case study 語言、care ethics 表述、policy vocabulary、反思性寫作結構、引用邏輯與 assessment criteria 的證據化回應方式。</p></div><span class="pill">Pedagogy</span></article>
-        <article class="resource-row"><div><div class="meta">Publishing Model</div><h3>以低風險數位首發驗證內容與讀者需求</h3><p>系列可先以 PDF ebook 和課程配套資源測試，再根據讀者反饋、導師審閱與銷售數據擴展至 Amazon KDP、print-on-demand 和機構授權。</p></div><span class="pill">Validation</span></article>
+        <article class="resource-row"><div><div class="meta">Publishing Model</div><h3>以低風險數位首發驗證內容與讀者需求</h3><p>系列可先以 PDF ebook、sample chapter 和 course-pack supplement 測試，再根據 reader analytics、tutor review、revision notes 與 sales data 擴展至 Amazon KDP、print-on-demand 和 institutional licensing。</p></div><span class="pill">Validation</span></article>
       </div>
     </section>
 
@@ -6287,31 +6301,31 @@ const othmHealthSocialCareBilingualSeries = pageShell({
         <details class="series-toggle-item" open>
           <summary><span class="series-toggle-index">Book 1</span><span><strong>Level 3 · Foundation and Career Orientation</strong><em>入門與職業定向</em></span><small>First launch</small></summary>
           <div class="series-toggle-body">
-            <dl><dt>學術與專業內容範圍</dt><dd>NHS / Medicare 基礎、健康與社會照護職業結構、Level 3 核心概念、基礎術語、評核任務入門與證據整理。</dd><dt>主要讀者</dt><dd>新生、轉行者、家長，以及需要先建立 health and social care 語境的學習者。</dd><dt>用途定位</dt><dd>作為全系列的入門卷，建立術語、框架、職業圖譜與學術寫作基線。</dd></dl>
+            <dl><dt>學術與專業內容範圍</dt><dd>NHS / Medicare 基礎、健康與社會照護職業結構、Level 3 核心概念、基礎術語、assessment task literacy 與 evidence collation。</dd><dt>主要讀者</dt><dd>新生、轉行者、家長，以及需要先建立 health and social care 語境的學習者。</dd><dt>用途定位</dt><dd>作為全系列的入門卷，建立術語、框架、職業圖譜、academic register 與 formative writing baseline。</dd></dl>
           </div>
         </details>
         <details class="series-toggle-item">
           <summary><span class="series-toggle-index">Book 2</span><span><strong>Level 4 · Management Foundations</strong><em>管理基礎</em></span><small>Planned</small></summary>
           <div class="series-toggle-body">
-            <dl><dt>學術與專業內容範圍</dt><dd>照護機構運作、人員協調、專業溝通、多元文化護理、assessment criteria 回應方式與案例分析。</dd><dt>主要讀者</dt><dd>Level 4 學生、初級主管、準備從一線照護轉向團隊協調的人員。</dd><dt>用途定位</dt><dd>把 care setting 的實務經驗轉化為管理概念、證據化敘述與 case-based academic writing。</dd></dl>
+            <dl><dt>學術與專業內容範圍</dt><dd>照護機構運作、人員協調、專業溝通、多元文化護理、assessment criteria response、case analysis 與 reflective commentary。</dd><dt>主要讀者</dt><dd>Level 4 學生、初級主管、準備從一線照護轉向團隊協調的人員。</dd><dt>用途定位</dt><dd>把 care setting 的實務經驗轉化為 management concepts、evidence-based narrative 與 case-based academic writing。</dd></dl>
           </div>
         </details>
         <details class="series-toggle-item">
           <summary><span class="series-toggle-index">Book 3</span><span><strong>Level 5 · Practice, Quality and Systems</strong><em>執業核心與系統理解</em></span><small>Priority</small></summary>
           <div class="series-toggle-body">
-            <dl><dt>學術與專業內容範圍</dt><dd>CQC 標準、品質管理、研究方法、心理健康、殘疾支援倫理、NDIS、CHC / HLT 體系與 Diploma of Nursing 邊界。</dd><dt>主要讀者</dt><dd>Level 5 學生、澳洲路線讀者、比較 OTHM 與本地 VET / nursing pathway 的家庭。</dd><dt>用途定位</dt><dd>作為最重要的對照卷，清楚區分學術入學支持、職業能力訓練、執業註冊與移民評估。</dd></dl>
+            <dl><dt>學術與專業內容範圍</dt><dd>CQC 標準、quality governance、research methods、mental health、disability support ethics、NDIS、CHC / HLT 體系與 Diploma of Nursing 邊界。</dd><dt>主要讀者</dt><dd>Level 5 學生、澳洲路線讀者、比較 OTHM 與本地 VET / nursing pathway 的家庭。</dd><dt>用途定位</dt><dd>作為最重要的對照卷，清楚區分 academic progression support、vocational competency、professional registration 與 migration assessment。</dd></dl>
           </div>
         </details>
         <details class="series-toggle-item">
           <summary><span class="series-toggle-index">Book 4</span><span><strong>Level 6 · Academic Progression Bridge</strong><em>學術升學橋樑</em></span><small>Planned</small></summary>
           <div class="series-toggle-body">
-            <dl><dt>學術與專業內容範圍</dt><dd>文獻引用、政策分析、批判性思維、澳洲 Advanced Entry 文件準備、unit outline 與 learning outcome 對照。</dd><dt>主要讀者</dt><dd>準備申請 advanced entry、top-up、third-year entry 或澳洲本科銜接的學生。</dd><dt>用途定位</dt><dd>服務於學術銜接與 credit discussion，協助讀者把既有學習成果轉化為院校可審閱的材料。</dd></dl>
+            <dl><dt>學術與專業內容範圍</dt><dd>文獻引用、policy analysis、critical appraisal、澳洲 Advanced Entry 文件準備、unit outline、learning outcome mapping 與 credit narrative。</dd><dt>主要讀者</dt><dd>準備申請 advanced entry、top-up、third-year entry 或澳洲本科銜接的學生。</dd><dt>用途定位</dt><dd>服務於 academic articulation 與 credit discussion，協助讀者把既有學習成果轉化為院校可審閱的 evidence portfolio。</dd></dl>
           </div>
         </details>
         <details class="series-toggle-item">
           <summary><span class="series-toggle-index">Book 5</span><span><strong>Level 7 · Health Management and Master's Preparation</strong><em>管理碩士預備</em></span><small>Planned</small></summary>
           <div class="series-toggle-body">
-            <dl><dt>學術與專業內容範圍</dt><dd>研究設計、health-system leadership、strategic management、碩士銜接、跨學科健康管理與管理經驗轉化。</dd><dt>主要讀者</dt><dd>有照護、醫療或管理背景，準備進入 postgraduate health management 路線的讀者。</dd><dt>用途定位</dt><dd>作為研究生前導卷，重點處理 leadership、strategy、research design 與 professional experience reflection。</dd></dl>
+            <dl><dt>學術與專業內容範圍</dt><dd>研究設計、health-system leadership、strategic management、碩士銜接、跨學科健康管理、capstone preparation 與管理經驗轉化。</dd><dt>主要讀者</dt><dd>有照護、醫療或管理背景，準備進入 postgraduate health management 路線的讀者。</dd><dt>用途定位</dt><dd>作為研究生前導卷，重點處理 leadership discourse、strategy analysis、research design 與 professional experience reflection。</dd></dl>
           </div>
         </details>
       </div>

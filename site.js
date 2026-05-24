@@ -198,6 +198,75 @@ function productShelf(limit = products.length) {
   `).join("");
 }
 
+function parentPathFor(canonicalPath) {
+  const clean = canonicalPath.replace(/^\/+|\/+$/g, "");
+  if (!clean) return "";
+  const parts = clean.split("/");
+  if (parts.length === 1) return "/";
+  return `/${parts.slice(0, -1).join("/")}/`;
+}
+
+function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
+  const parentPath = parentPathFor(canonicalPath);
+  const isZh = locale === "zh";
+  const shareText = `${title} | OTC Study Hub`;
+  const parentLabel = isZh ? "返回上級頁面" : "Back to parent page";
+  return `
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        ${parentPath ? `<a class="page-parent-link" href="${parentPath}">${parentLabel}</a>` : `<a class="page-parent-link" href="/">${isZh ? "返回首頁" : "Back to home"}</a>`}
+        <div class="page-share-actions" aria-label="${isZh ? "分享本頁" : "Share this page"}">
+          <span>${isZh ? "分享" : "Share"}</span>
+          <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(canonicalUrl)}" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=${encodeURIComponent(shareText + " " + canonicalUrl)}" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonicalUrl)}" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=${encodeURIComponent(shareText + " " + canonicalUrl)}" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(shareText)}" target="_blank" rel="noopener">Telegram</a>
+          <a href="mailto:?subject=${encodeURIComponent(shareText)}&body=${encodeURIComponent(canonicalUrl)}">Email</a>
+          <button type="button" data-page-copy-link="${canonicalUrl}">${isZh ? "複製連結" : "Copy link"}</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function pageUtilityScript() {
+  return `
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+    </script>
+  `;
+}
+
 function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
@@ -255,8 +324,10 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 </head>
 <body>
   ${nav(current, locale)}
+  ${pageUtilityBar({ canonicalPath, canonicalUrl, title, locale })}
   ${body}
   ${footer(locale)}
+  ${pageUtilityScript()}
 </body>
 </html>`;
 }
