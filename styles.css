@@ -10423,6 +10423,55 @@ h1 {
   text-align: left !important;
 }
 
+.zh-academic-reading-list {
+  border-top: 1px solid rgba(61, 47, 34, 0.16);
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.zh-academic-reading-list li {
+  align-items: baseline;
+  border-bottom: 1px solid rgba(61, 47, 34, 0.1);
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 78px minmax(180px, 0.8fr) minmax(180px, 1fr);
+  margin: 0;
+  padding: 7px 0;
+}
+
+.zh-academic-reading-list span {
+  color: #7f1d1d;
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.zh-academic-reading-list a {
+  color: #1a1410;
+  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.zh-academic-reading-list a:hover {
+  color: #b5272d;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.zh-academic-reading-list em {
+  color: #6b5742;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
 .zh-academic-reading-ribbon {
   width: fit-content;
   margin: 0 0 14px auto;
@@ -15700,6 +15749,16 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  .zh-academic-reading-list li {
+    gap: 4px;
+    grid-template-columns: 1fr;
+    padding: 8px 0;
+  }
+
+  .zh-academic-reading-list a {
+    font-size: 13px;
+  }
+
   .zh-academic-reading-board {
     grid-template-columns: 1fr;
   }

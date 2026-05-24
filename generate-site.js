@@ -5503,6 +5503,21 @@ function zhAcademicReadingCard(reference, index) {
   `;
 }
 
+function zhAcademicReadingUrl(parts) {
+  return `https://scholar.google.com/scholar?q=${encodeURIComponent(`${parts.title} ${parts.byline}`)}`;
+}
+
+function zhAcademicReadingListItem(reference) {
+  const parts = zhAcademicReadingParts(reference);
+  return `
+              <li>
+                <span>${zhAcademicReadingTag(reference)}</span>
+                <a href="${zhAcademicReadingUrl(parts)}" target="_blank" rel="noopener">${parts.title}</a>
+                <em>${parts.byline}</em>
+              </li>
+  `;
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -5529,11 +5544,10 @@ function zhArticleMagazineBody(article) {
   const academicReferences = readingReferences && readingReferences.length ? `
           <section class="zh-academic-bibliography">
             <h2 class="zh-herald-section-head" data-num="讀">延伸閱讀</h2>
-            <p class="zh-academic-source-note">以下以延伸閱讀方式呈現，供讀者順著本文問題意識繼續追索；獎項、日期與網頁事實另置於下方編校核查。</p>
-            <div class="zh-academic-reading-ribbon">reading map · 小貼紙書目</div>
-            <div class="zh-academic-reading-board">
-              ${readingReferences.map((reference, index) => zhAcademicReadingCard(reference, index)).join("")}
-            </div>
+            <p class="zh-academic-source-note">精簡列出本文牽涉的主要文本與理論線索。書名連至 Scholar 檢索，便於讀者自行查版本、館藏與論文引用。</p>
+            <ul class="zh-academic-reading-list">
+              ${readingReferences.map((reference) => zhAcademicReadingListItem(reference)).join("")}
+            </ul>
           </section>
   ` : "";
   const factCheckNotes = article.factCheckNotes && article.factCheckNotes.length ? `
