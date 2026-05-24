@@ -242,6 +242,7 @@
     let activeCategory = "all";
     let activeMode = "all";
     let progress = loadProgress();
+    let checkedResult = null;
 
     function loadProgress() {
       try {
@@ -273,6 +274,8 @@
 
     function renderQuestion() {
       selected = new Set();
+      checkedResult = null;
+      document.getElementById("checkBtn").textContent = "Check / 查看解析";
       const q = items[index];
       if (!q) {
         document.getElementById("question").innerHTML = `<p class="notice">No items match this filter yet. 沒有符合目前篩選條件的題目。</p>`;
@@ -298,6 +301,9 @@
           const id = btn.dataset.id;
           if (selected.has(id)) selected.delete(id); else selected.add(id);
           btn.classList.toggle("selected");
+          checkedResult = null;
+          document.getElementById("result").innerHTML = "";
+          document.getElementById("checkBtn").textContent = "Check / 查看解析";
         });
       });
     }
@@ -307,6 +313,18 @@
       if (!q) return;
       const answer = [...q.answer].sort().join(",");
       const got = [...selected].sort().join(",");
+      const resultEl = document.getElementById("result");
+      const checkBtn = document.getElementById("checkBtn");
+      if (checkedResult && checkedResult.questionId === q.id && checkedResult.selection === got) {
+        if (resultEl.innerHTML.trim()) {
+          resultEl.innerHTML = "";
+          checkBtn.textContent = "Show explanation / 顯示解析";
+        } else {
+          resultEl.innerHTML = checkedResult.html;
+          checkBtn.textContent = "Hide explanation / 收起解析";
+        }
+        return;
+      }
       const correct = answer === got;
       const rationaleZh = q.rationaleZh || q.rationale_zh || "";
       const tags = q.tags || q.wrong_tags || [];
@@ -323,14 +341,20 @@
         tags.forEach(tag => progress.tags[tag] = (progress.tags[tag] || 0) + 1);
       }
       save();
-      document.getElementById("result").innerHTML = `
+      checkedResult = {
+        questionId: q.id,
+        selection: got,
+        html: `
         <div class="result">
           <strong>${correct ? "Correct / 答對" : "Review / 需要複盤"}</strong>
           <p>Answer: ${q.answer.join(", ")}</p>
           <p>${q.rationale}<br><span class="zh">${rationaleZh}</span></p>
           <div>${tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
         </div>
-      `;
+      `
+      };
+      resultEl.innerHTML = checkedResult.html;
+      checkBtn.textContent = "Hide explanation / 收起解析";
     }
 
     function next() {
