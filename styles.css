@@ -5953,12 +5953,14 @@ h1 {
   background: var(--navy);
   color: #fff;
   max-width: none;
-  padding-left: max(18px, calc((100vw - 1520px) / 2));
-  padding-right: max(18px, calc((100vw - 1520px) / 2));
+  width: calc(100% - 10px);
+  padding-left: clamp(10px, 1.2vw, 24px);
+  padding-right: clamp(10px, 1.2vw, 24px);
 }
 
 .australia-comparison-band .section-head {
-  max-width: 1320px;
+  max-width: 1760px;
+  width: 100%;
 }
 
 .invert-head h2,
@@ -5974,13 +5976,13 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto;
-  width: min(100%, 1520px);
+  width: 100%;
 }
 
 .australia-comparison-table .compare-row {
   display: grid;
-  grid-template-columns: 1.05fr 1.2fr 1.42fr 1.28fr 0.7fr 1.45fr;
-  min-width: 1440px;
+  grid-template-columns: 1.18fr 1.25fr 1.62fr 1.38fr 0.78fr 1.72fr;
+  min-width: 1680px;
 }
 
 .australia-comparison-table .compare-row span {

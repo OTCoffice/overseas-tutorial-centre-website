@@ -8806,7 +8806,7 @@ const australiaPathwaysLanding = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band australia-comparison-band">
+    <section class="band compact-band australia-comparison-band" id="qualification-comparison">
       <div class="section-head compact-head invert-head">
         <div class="eyebrow">China Qualifications × OTHM × Australia VET</div>
         <h2>中國學歷、OTHM 補強與澳洲 VET / AQF 對照。</h2>
