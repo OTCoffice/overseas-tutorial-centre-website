@@ -8536,18 +8536,72 @@ const australiaComparisonRows = [
 ];
 
 const australiaProviders = [
-  ["Murdoch University", "WA", ["健康護理", "商業", "教育"]],
-  ["University of Adelaide", "SA", ["STEM", "健康", "商業"]],
-  ["University of Newcastle", "NSW", ["健康", "工程", "IT"]],
-  ["UTS", "NSW", ["工程", "IT", "商業"]],
-  ["UNSW Sydney", "NSW", ["工程", "商業", "科學"]],
-  ["University of Queensland", "QLD", ["健康", "生命科學", "工程"]],
-  ["RMIT", "VIC", ["設計", "工程", "商業"]],
-  ["La Trobe University", "VIC", ["健康", "護理", "社區服務"]],
-  ["Curtin University", "WA", ["健康", "工程", "商業"]],
-  ["Charles Darwin University", "NT", ["TAFE", "護理", "Regional"]],
-  ["CQU", "QLD", ["健康", "商業", "Regional"]],
-  ["CSU", "NSW", ["護理", "口腔健康", "社區服務"]]
+  {
+    title: "大學：護理 / 醫學 / 公共健康",
+    items: [
+      ["NSW", "University of Sydney", "Medicine and Health", "https://www.sydney.edu.au/medicine-health/"],
+      ["NSW", "UNSW Sydney", "Medicine and Health", "https://www.unsw.edu.au/medicine-health"],
+      ["NSW", "University of Technology Sydney", "Health", "https://www.uts.edu.au/study/health"],
+      ["NSW", "University of Newcastle", "Health, Medicine and Wellbeing", "https://www.newcastle.edu.au/school/medicine-and-public-health"],
+      ["NSW", "Western Sydney University", "Nursing, Midwifery and Health", "https://www.westernsydney.edu.au/future/study/courses/nursing-midwifery-and-health"],
+      ["NSW", "Charles Sturt University", "Nursing, Paramedicine, Oral Health, Social Work", "https://study.csu.edu.au/courses/health-medicine"],
+      ["NSW", "University of Wollongong", "Nursing, Medicine and Health", "https://www.uow.edu.au/science-medicine-health/"],
+      ["ACT", "University of Canberra", "Health", "https://www.canberra.edu.au/future-students/study-at-uc/study-areas/health"],
+      ["ACT", "Australian National University", "Medicine and Health", "https://health.anu.edu.au/"],
+      ["National", "Australian Catholic University", "Nursing, Midwifery, Allied Health", "https://www.acu.edu.au/study-at-acu/find-a-course/health-sciences"]
+    ]
+  },
+  {
+    title: "大學：VIC / TAS / QLD / NT",
+    items: [
+      ["VIC", "University of Melbourne", "Medicine, Dentistry and Health Sciences", "https://mdhs.unimelb.edu.au/"],
+      ["VIC", "Monash University", "Medicine, Nursing and Health Sciences", "https://www.monash.edu/medicine"],
+      ["VIC", "Deakin University", "Nursing, Midwifery, Health Sciences", "https://www.deakin.edu.au/study/find-a-course/health"],
+      ["VIC", "La Trobe University", "Nursing and Health", "https://www.latrobe.edu.au/courses/nursing"],
+      ["VIC", "RMIT University", "Health and Biomedical Sciences", "https://www.rmit.edu.au/study-with-us/health-and-biomedical-sciences"],
+      ["VIC", "Victoria University", "Health and Biomedicine", "https://www.vu.edu.au/study-at-vu/courses/health-biomedicine"],
+      ["TAS", "University of Tasmania", "Health and Medicine", "https://www.utas.edu.au/study/health-and-medicine"],
+      ["QLD", "University of Queensland", "Medicine, Nursing, Public Health", "https://medicine.uq.edu.au/"],
+      ["QLD", "Queensland University of Technology", "Health", "https://www.qut.edu.au/study/health"],
+      ["QLD", "Griffith University", "Medicine, Dentistry and Health", "https://www.griffith.edu.au/study/health"],
+      ["QLD", "Central Queensland University", "Nursing, Health and Social Work", "https://www.cqu.edu.au/courses/study-areas/health"],
+      ["QLD", "James Cook University", "Medicine, Nursing and Health Sciences", "https://www.jcu.edu.au/college-of-medicine-and-dentistry"],
+      ["NT", "Charles Darwin University", "Health, Nursing and CDU TAFE", "https://www.cdu.edu.au/study/health"]
+    ]
+  },
+  {
+    title: "大學：SA / WA",
+    items: [
+      ["SA", "University of Adelaide", "Health and Medical Sciences", "https://health.adelaide.edu.au/"],
+      ["SA", "University of South Australia", "Clinical and Health Sciences", "https://www.unisa.edu.au/about-unisa/academic-units/clinical-and-health-sciences/"],
+      ["SA", "Flinders University", "Medicine and Public Health", "https://www.flinders.edu.au/college-medicine-public-health"],
+      ["WA", "Curtin University", "Health Sciences", "https://www.curtin.edu.au/about/learning-teaching/health-sciences/"],
+      ["WA", "Edith Cowan University", "Medical and Health Sciences", "https://www.ecu.edu.au/schools/medical-and-health-sciences"],
+      ["WA", "Murdoch University", "Health, Nursing and Counselling", "https://www.murdoch.edu.au/study/courses/health"],
+      ["WA", "University of Western Australia", "Medical School and Population Health", "https://www.uwa.edu.au/schools/medical-school"],
+      ["WA", "University of Notre Dame Australia", "Nursing, Medicine, Health Sciences", "https://www.notredame.edu.au/study/health-sciences"]
+    ]
+  },
+  {
+    title: "TAFE / VET / 職業培訓 College",
+    items: [
+      ["NSW", "TAFE NSW", "Diploma of Nursing, Health Services, Community Services", "https://www.tafensw.edu.au/course-areas/healthcare"],
+      ["QLD", "TAFE Queensland", "Diploma of Nursing, Allied Health, Community Services", "https://tafeqld.edu.au/courses/study-areas/health-and-science"],
+      ["SA", "TAFE SA", "Diploma of Nursing, Health and Lifestyle", "https://www.tafesa.edu.au/courses/health-lifestyle"],
+      ["WA", "North Metropolitan TAFE", "Diploma of Nursing, Dental, Allied Health", "https://www.northmetrotafe.wa.edu.au/courses/diploma-nursing-0"],
+      ["WA", "South Metropolitan TAFE", "Nursing, Health and Community Services", "https://www.southmetrotafe.wa.edu.au/courses/health-and-community-services"],
+      ["TAS", "TasTAFE", "Health and Community Services", "https://www.tastafe.tas.edu.au/courses/health-community-services"],
+      ["ACT", "Canberra Institute of Technology", "Health, Community and Science", "https://cit.edu.au/courses/health_community"],
+      ["NT", "CDU TAFE", "Health, Community Services and Nursing Pathways", "https://www.cdu.edu.au/study/tafe"],
+      ["VIC", "Holmesglen Institute", "Nursing, Allied Health, Community Services", "https://www.holmesglen.edu.au/Explore-Courses/Health-and-community/"],
+      ["VIC", "Box Hill Institute", "Diploma of Nursing, Health and Community", "https://www.boxhill.edu.au/courses/diploma-of-nursing-hc544-d/"],
+      ["VIC", "Chisholm Institute", "Diploma of Nursing, Health and Community Services", "https://www.chisholm.edu.au/courses/diploma/nursing"],
+      ["VIC", "Melbourne Polytechnic", "Health and Community Services", "https://www.melbournepolytechnic.edu.au/study/health-and-community/"],
+      ["VIC", "Bendigo Kangan Institute", "Health and Community Services", "https://www.kangan.edu.au/courses/department/health-and-community-services"],
+      ["QLD", "Mater Education", "Diploma of Nursing and Healthcare Training", "https://www.matereducation.qld.edu.au/"],
+      ["National", "Healthcare Australia Training", "Aged Care, Disability, Individual Support", "https://training.healthcareaustralia.com.au/"]
+    ]
+  }
 ];
 
 function australiaStudyInsights() {
@@ -8649,19 +8703,28 @@ const australiaPathwaysLanding = pageShell({
 
     <section class="band compact-band" id="providers">
       <div class="section-head compact-head">
-        <div class="eyebrow">Provider Index</div>
-        <h2>OTC 協助處理申請初篩的澳洲院校及 Pathway Provider。</h2>
-        <p>以下為路線與資料整理入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
+        <div class="eyebrow">Health Provider Directory</div>
+        <h2>澳洲護理、社會健康、醫學與職業培訓院校清單。</h2>
+        <p>以下為 OTC 做健康護理方向申請初篩時使用的官方資料入口；正式代理、合作或代表狀態以各機構書面確認為準。</p>
       </div>
-      <ul class="australia-provider-list">
-        ${australiaProviders.map(([name, state, tags]) => `
-          <li>
-            <span>${state}</span>
-            <strong>${name}</strong>
-            <em>(${tags.join(" · ")})</em>
-          </li>
+      <div class="australia-provider-directory">
+        ${australiaProviders.map((group) => `
+          <article>
+            <h3>${group.title}</h3>
+            <ul>
+              ${group.items.map(([state, name, focus, href]) => `
+                <li>
+                  <a href="${href}" target="_blank" rel="noopener">
+                    <span>${state}</span>
+                    <strong>${name}</strong>
+                    <em>${focus}</em>
+                  </a>
+                </li>
+              `).join("")}
+            </ul>
+          </article>
         `).join("")}
-      </ul>
+      </div>
     </section>
 
     <section class="band compact-band" id="australia-insights">

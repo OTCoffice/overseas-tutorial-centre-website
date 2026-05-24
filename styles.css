@@ -6116,32 +6116,59 @@ h1 {
   padding: 18px 20px;
 }
 
-.australia-provider-list {
-  border-top: 1px solid rgba(6, 26, 47, 0.34);
+.australia-provider-directory {
+  column-gap: 28px;
+  columns: 4 280px;
+}
+
+.australia-provider-directory article {
+  break-inside: avoid;
+  margin: 0 0 24px;
+}
+
+.australia-provider-directory h3 {
+  border-bottom: 2px solid var(--navy);
+  color: var(--navy);
+  font-size: 15px;
+  font-weight: 760;
+  letter-spacing: 0.02em;
+  line-height: 1.28;
+  margin: 0 0 8px;
+  padding-bottom: 7px;
+}
+
+.australia-provider-directory ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.australia-provider-list li {
-  align-items: center;
+.australia-provider-directory li {
   border-bottom: 1px solid rgba(222, 211, 196, 0.72);
-  display: flex;
-  gap: 10px;
-  min-height: 0;
-  padding: 6px 0;
 }
 
-.australia-provider-list span {
-  color: var(--navy);
-  flex: 0 0 34px;
-  font-size: 11px;
+.australia-provider-directory a {
+  display: grid;
+  gap: 2px 9px;
+  grid-template-columns: 42px minmax(0, 1fr);
+  padding: 7px 0;
+}
+
+.australia-provider-directory a:hover strong {
+  color: var(--gold);
+}
+
+.australia-provider-directory span {
+  color: var(--gold);
+  font-size: 10px;
   font-weight: 860;
+  grid-row: span 2;
   letter-spacing: 0.06em;
+  padding-top: 1px;
   text-transform: uppercase;
 }
 
-.australia-provider-list strong,
+.australia-provider-directory strong,
 .australia-insight-card strong,
 .australia-contact-block strong {
   color: var(--navy);
@@ -6151,9 +6178,9 @@ h1 {
   line-height: 1.22;
 }
 
-.australia-provider-list em {
+.australia-provider-directory em {
   color: #66717f;
-  font-size: 12px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 560;
   line-height: 1.35;
@@ -11877,7 +11904,7 @@ h1 {
   .australia-pathway-card-grid,
   .health-pathway-layout,
   .health-route-columns,
-  .australia-provider-list,
+  .australia-provider-directory,
   .australia-insight-grid,
   .australia-contact-block,
   .social-signature-layout,
@@ -11903,16 +11930,8 @@ h1 {
     min-height: 640px;
   }
 
-  .australia-provider-list li {
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 3px 8px;
-    padding: 8px 0;
-  }
-
-  .australia-provider-list em {
-    flex-basis: calc(100% - 42px);
-    margin-left: 42px;
+  .australia-provider-directory {
+    columns: 1;
   }
 
   .map-pin > summary {
