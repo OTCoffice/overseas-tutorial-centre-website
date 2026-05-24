@@ -8526,11 +8526,13 @@ const australiaChinaQualificationRows = [
 ];
 
 const australiaComparisonRows = [
-  ["Level 3", "Foundation Diploma in Health and Social Care", "CHC33021 / HLT33115", "AQF 3", "入門支援、護理助理、個人照護方向"],
-  ["Level 4", "Diploma in Health and Social Care Management", "CHC43015 / CHC43121", "AQF 4", "老人護理、殘疾支援與中級支援路線"],
-  ["Level 5", "Diploma / Extended Diploma in Health and Social Care Management", "HLT54121 / CHC52025", "AQF 5", "護理文憑、社區服務文憑或大學銜接討論"],
-  ["Level 6", "Diploma in Health and Social Care Management", "HLT64121 / CHC62015", "AQF 6", "高級護理、社區服務管理或本科後段銜接"],
-  ["Level 7", "Diploma in Health and Social Care Management", "無直接 VET 對應", "Postgraduate", "Graduate Diploma / Master of Health Management"]
+  ["普通高中 / 高考", "Foundation、Diploma、部分本科直入", "OTHM Level 3 Foundation / Higher Education Studies 可作英國資格補強", "CHC33021 / HLT33115 或 Pathway Diploma", "AQF 3 / Foundation", "看高考比例、英文、目標專業及是否先走 pathway。"],
+  ["國際高中 A-Level / IB / AP", "本科直入、學分或先修優勢", "通常不需 OTHM 補強；如科目不足可用 Level 3 / 4 補學術背景", "本科直入或 Diploma pathway", "Undergraduate entry", "看科目匹配、預估分、理科先修、作品集及英文門檻。"],
+  ["中國大專 / 高職", "本科 Advanced Entry、VET / TAFE、Diploma 銜接", "OTHM Level 4 / 5 可補強課程結構與英國 RQF 可讀性", "CHC52025 / HLT54121 / 相關 Diploma", "AQF 5", "重點比對課程描述、實習、學分與澳洲目標課程方向。"],
+  ["中國本科在讀", "轉學、Advanced Standing、重新申請本科", "成績弱或單元不清晰時，可用 OTHM Level 4 / 5 補充可審閱材料", "本科 credit transfer / VET bridge", "AQF 5-7 語境", "逐科比對已修單元、成績、課綱與英文要求。"],
+  ["中國本科畢業", "澳洲碩士、Graduate Certificate / Diploma、轉專業橋樑", "OTHM Level 6 / 7 可支持管理、健康管理、項目管理等轉向", "Graduate Certificate / Graduate Diploma / Master", "Postgraduate", "看本科背景、均分、院校層次、工作經驗與轉專業跨度。"],
+  ["成人本科 / 自考 / 專升本", "個案評估、碩士預科、Graduate Certificate 或本科後段", "可用 OTHM Level 5 / 6 建立更清晰的英國資格層級文件", "Pathway / Graduate Certificate / credit review", "個案評估", "需確認學歷可驗證性、學習形式、學分結構與院校接受度。"],
+  ["中職 / 技校 / 職高", "VET Certificate / Diploma、TAFE、職業方向 Pathway", "可先用 OTHM Level 3 建立高等教育預備或健康社護基礎", "Certificate III / IV / TAFE Diploma", "AQF 3-4", "更適合先看職業課程、英文、年齡、實習能力與學習計劃。"]
 ];
 
 const australiaProviders = [
@@ -8612,26 +8614,14 @@ const australiaPathwaysLanding = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band">
-      <div class="section-head compact-head">
-        <div class="eyebrow">China Qualifications</div>
-        <h2>中國常見學歷，在澳洲申請中通常先這樣讀。</h2>
-        <p>以下不是官方等值結論，而是 OTC 做申請初篩時的材料閱讀方式：先判斷學歷層級、課程內容、成績可驗證性，再匹配大學、Pathway、VET / TAFE 或 OTHM 補強路線。</p>
-      </div>
-      <div class="australia-china-qualification-table" role="table" aria-label="Chinese qualifications and Australia pathway screening">
-        <div class="china-qualification-row china-qualification-head" role="row"><span>中國常見背景</span><span>澳洲常見入口</span><span>OTC 初篩重點</span><span>常見文件</span></div>
-        ${australiaChinaQualificationRows.map((row) => `<div class="china-qualification-row" role="row">${row.map((cell) => `<span>${cell}</span>`).join("")}</div>`).join("")}
-      </div>
-    </section>
-
     <section class="band compact-band australia-comparison-band">
       <div class="section-head compact-head invert-head">
-        <div class="eyebrow">OTHM × Australia VET</div>
-        <h2>資格層級對照，不等於自動承認。</h2>
+        <div class="eyebrow">China Qualifications × OTHM × Australia VET</div>
+        <h2>中國學歷、OTHM 補強與澳洲 VET / AQF 對照。</h2>
         <p>這張表用於初步路線判斷；正式學分、就業、執業或移民評估必須回到院校、RTO、AHPRA / ANMAC / NMBA 或移民專業人士。</p>
       </div>
-      <div class="australia-comparison-table" role="table" aria-label="OTHM and Australia VET comparison">
-        <div class="compare-row compare-head" role="row"><span>OTHM 層級</span><span>OTHM 課程名稱</span><span>澳洲 VET 對應</span><span>AQF</span><span>銜接目標</span></div>
+      <div class="australia-comparison-table wide" role="table" aria-label="Chinese qualifications, OTHM and Australia VET comparison">
+        <div class="compare-row compare-head" role="row"><span>中國常見背景</span><span>澳洲常見入口</span><span>OTHM 補強 / 銜接用途</span><span>澳洲 VET / Pathway 對應</span><span>AQF / 階段</span><span>OTC 初篩重點</span></div>
         ${australiaComparisonRows.map((row) => `<div class="compare-row" role="row">${row.map((cell) => `<span>${cell}</span>`).join("")}</div>`).join("")}
       </div>
     </section>
