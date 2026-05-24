@@ -5545,6 +5545,94 @@ function zhAcademicReadingListItem(reference) {
   `;
 }
 
+const taiwanTravelogueCoverGallery = [
+  {
+    label: "台灣版",
+    title: "《臺灣漫遊錄》",
+    publisher: "春山出版",
+    note: "原作出版；偽譯裝置引發封面署名討論",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/412x580_wmkn_337454246964_0.jpg",
+    source: "https://www.cna.com.tw/news/acul/202605235003.aspx"
+  },
+  {
+    label: "美國版",
+    title: "Taiwan Travelogue",
+    publisher: "Graywolf Press",
+    note: "Lin King 英譯；2024 National Book Award 翻譯文學獎",
+    image: "https://www.graywolfpress.org/sites/default/files/covers/9781644453155.jpg",
+    source: "https://www.graywolfpress.org/books/taiwan-travelogue"
+  },
+  {
+    label: "英國版",
+    title: "Taiwan Travelogue",
+    publisher: "And Other Stories",
+    note: "2026 International Booker Prize 評選與出版語境",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/1407x2160_wmkn_030525085522_0.jpg",
+    source: "https://www.cna.com.tw/news/acul/202605235003.aspx"
+  },
+  {
+    label: "澳洲版",
+    title: "Taiwan Travelogue",
+    publisher: "Scribe Publications",
+    note: "以鄧南光1930年代攝影建立殖民地視覺記憶",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/468x728_wmkn_778559652936_0.jpg",
+    source: "https://www.cna.com.tw/news/acul/202605235003.aspx"
+  },
+  {
+    label: "日本版",
+    title: "台湾漫遊鉄道のふたり",
+    publisher: "中央公論新社",
+    note: "三浦裕子譯；2024年第10屆日本翻譯大賞",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/850x1240_wmkn_906541536026_0.jpg",
+    source: "https://www.chuko.co.jp/tanko/2023/04/005652.html"
+  },
+  {
+    label: "韓國版",
+    title: "1938 타이완여행기",
+    publisher: "마티스블루",
+    note: "標題標出1938，將殖民歷史背景前置",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/500x816_wmkn_843544868873_0.jpg",
+    source: "https://www.cna.com.tw/news/acul/202605235003.aspx"
+  },
+  {
+    label: "芬蘭版",
+    title: "Matkapäiväkirja Taiwanista",
+    publisher: "Aula & Co",
+    note: "Rauno Sainio 芬譯；飲食與殖民史進入北歐讀者語境",
+    image: "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260523/705x1024_wmkn_99933309260_0.jpg",
+    source: "https://aulakustannus.fi/kirjat/matkapaivakirja-taiwanista"
+  }
+];
+
+function zhAcademicCoverGallery(article) {
+  if (!article.academic || !article.slug || !article.slug.startsWith("taiwan-travelogue")) return "";
+  return `
+            <section class="zh-academic-cover-atlas" aria-labelledby="taiwan-travelogue-cover-atlas-title">
+              <div class="zh-academic-cover-atlas-head">
+                <span>visual bibliography</span>
+                <h2 id="taiwan-travelogue-cover-atlas-title">《臺灣漫遊錄》版本封面圖譜</h2>
+                <p>封面縮圖作為評論與版本辨識使用：它們顯示同一部小說在不同語言市場中如何被重新命名、視覺化與定位。</p>
+              </div>
+              <div class="zh-academic-cover-grid">
+                ${taiwanTravelogueCoverGallery.map((cover, index) => `
+                  <figure class="zh-academic-cover-card">
+                    <a href="${cover.source}" target="_blank" rel="noopener">
+                      <img src="${cover.image}" alt="${cover.label}：${cover.title}封面" loading="${index < 3 ? "eager" : "lazy"}">
+                    </a>
+                    <figcaption>
+                      <span>${cover.label}</span>
+                      <strong>${cover.title}</strong>
+                      <em>${cover.publisher}</em>
+                      <small>${cover.note}</small>
+                    </figcaption>
+                  </figure>
+                `).join("")}
+              </div>
+              <p class="zh-academic-cover-source">封面來源：各出版社公開書頁及中央社2026年5月23日版本封面報導；本頁僅作書評、研究與版本辨識用途。</p>
+            </section>
+  `;
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -5638,6 +5726,7 @@ function zhArticleMagazineBody(article) {
               <p>${firstSection.paragraphs[0].replace(/。.*$/, "。")}</p>
             </div>
           ` : ""}
+          ${zhAcademicCoverGallery(article)}
           ${cleanedSections.map((section, index) => {
             const marginFigure = article.academic ? zhAcademicMarginFigure(article, index) : "";
             return `
