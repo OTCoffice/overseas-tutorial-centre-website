@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 const { pageShell, productCards, productShelf, products, SITE_URL } = require("./site");
 
 const root = __dirname;
@@ -1740,6 +1741,7 @@ function writeHeraldSocialImage(article, locale = "en") {
   const imagePath = heraldSocialImagePath(article, locale);
   const svgPath = imagePath.replace(/\.png$/, ".svg");
   const outPath = path.join(root, svgPath.replace(/^\//, ""));
+  const pngOutPath = path.join(root, imagePath.replace(/^\//, ""));
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   const title = isZh ? (article.titleZh || article.title) : article.title;
   const column = isZh ? "留學導報 · 深度指南" : (article.category || "Overseas Study Review");
@@ -1767,7 +1769,7 @@ function writeHeraldSocialImage(article, locale = "en") {
   <text x="1122" y="110" text-anchor="end" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="19" font-weight="800">overseasuk.com</text>
   <rect x="78" y="176" width="${isZh ? 304 : 336}" height="48" fill="#b5272d"/>
   <text x="104" y="207" fill="#ffffff" font-family="'Noto Sans TC', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="${isZh ? 2 : 1}">${escapeXml(isZh ? column : column.toUpperCase())}</text>
-  <text x="426" y="195" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14" font-weight="800">${isZh ? "ISSN-OTC · PUBLIC BRIEFING · FOR STUDENTS, FAMILIES & PARTNERS" : "ISSN-OTC · PUBLIC BRIEFING · STUDENTS, FAMILIES & PARTNERS"}</text>
+  <text x="426" y="195" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="14" font-weight="800">${isZh ? "ISSN-OTC · PUBLIC BRIEFING · FOR STUDENTS, FAMILIES &amp; PARTNERS" : "ISSN-OTC · PUBLIC BRIEFING · STUDENTS, FAMILIES &amp; PARTNERS"}</text>
   <text x="426" y="219" fill="#b5272d" font-family="'Noto Sans TC', Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2">${escapeXml(topicTags.join("  /  "))}</text>
   <line x1="78" y1="246" x2="456" y2="246" stroke="#c8952a" stroke-width="4"/>
   ${titleLines.map((line, index) => `<text x="78" y="${315 + index * titleLineHeight}" fill="#1a1410" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="${titleFontSize}" font-weight="900">${escapeXml(line)}</text>`).join("")}
@@ -1793,6 +1795,20 @@ function writeHeraldSocialImage(article, locale = "en") {
   <text x="1032" y="565" text-anchor="middle" fill="#8b7560" font-family="'Noto Sans TC', Arial, sans-serif" font-size="12" font-weight="800">${isZh ? "OTC Study Hub" : "OTC Study Hub"}</text>
 </svg>`;
   fs.writeFileSync(outPath, svg);
+  try {
+    execFileSync(
+      process.execPath,
+      [
+        "-e",
+        "const sharp=require('sharp'); const [src,dst]=process.argv.slice(1); sharp(src).png().toFile(dst).catch((error)=>{ console.error(error); process.exit(1); });",
+        outPath,
+        pngOutPath
+      ],
+      { cwd: root, stdio: "pipe" }
+    );
+  } catch (error) {
+    console.warn(`Could not render social PNG for ${article.slug}: ${error.message}`);
+  }
   return imagePath;
 }
 
