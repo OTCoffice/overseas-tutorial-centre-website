@@ -1798,6 +1798,445 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "taiwan-travelogue-multidimensional-literary-politics",
+    title: "《臺灣漫遊錄》的多維文學政治意義：獲獎之後",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "文學評論 · 台灣文學",
+    author: "蕭珩",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-01",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    summary: "A long-form academic culture review of Shuangzi Yang's Taiwan Travelogue, reading the novel's pseudo-translation device, food writing, postcolonial politics, public-sphere effects and feminist literary significance.",
+    titleZh: "《臺灣漫遊錄》的多維文學政治意義：獲獎之後",
+    summaryZh: "本文從文學史、政治學、社會學、殖民與後殖民理論、公共領域理論及女性主義文學批評六個維度，分析楊双子《臺灣漫遊錄》的偽譯策略、國際獲獎現象與台灣文學的世界位置。",
+    sidebarCards: [
+      ["Pseudo-translation", "偽譯", "以不存在的日文原著與譯者注構成後設敘事裝置。", "form"],
+      ["Contact zone", "接觸地帶", "旅行、美食與殖民凝視交錯的權力場域。", "postcolonial"],
+      ["Counterpublic", "對抗性公共領域", "台灣文化主體性在世界文學場域中的發聲。", "public"],
+      ["Yuri history", "百合歷史小說", "女性情感、殖民秩序與階級位置的交織書寫。", "gender"]
+    ],
+    relatedReadings: [
+      "taiwan-travelogue-pseudo-translation-comparative-literature"
+    ],
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+          "This Chinese long-form article examines Shuangzi Yang's Taiwan Travelogue through literary history, political theory, sociology, postcolonial theory, public-sphere theory and feminist criticism. The English page preserves the editorial abstract; the full Chinese article is published in the Chinese Overseas Study Review."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "楊双子（楊若慈與已故妹妹楊若暉之共同筆名）於2020年出版的歷史小說《臺灣漫遊錄》（Taiwan Travelogue），以其獨特的「偽譯作」敘事裝置、精密的後設結構及豐富的後殖民內涵，在台灣及國際文壇引發廣泛迴響。小說先後榮獲金鼎獎文學圖書獎（2021）、日本翻譯大賞（2024）、美國國家圖書獎翻譯文學獎（2024）及國際布克獎（2026），成為首部獲此殊榮的華文原著小說，具有里程碑意義。本文從文學史、政治學、社會學、殖民與後殖民理論、哈伯瑪斯式公共領域理論及女性主義文學批評六個維度，對該小說的獲獎現象與大眾接受進行系統性分析，以呈現其多層次的文學與社會意義。"
+        ]
+      },
+      {
+        heading: "偽譯、鐵道與問題意識",
+        paragraphs: [
+          "《臺灣漫遊錄》採取一種刻意的後設敘事裝置：假托1930年代日本女作家「青山千鶴子」留有原著、楊双子負責「翻譯並注釋」，藉此建構一段發生於1938年的台灣縱貫鐵道旅行故事。日本女作家青山千鶴子與台灣本島通譯王千鶴，在近三個月的旅途中品嚐台灣各地料理，逐漸發展出一段跨越殖民鴻溝、游移於友誼與情慾之間的幽微情誼。",
+          "全書以十二道台灣菜餚為章節結構，融合旅行書寫、美食志、百合（yuri）情感及後設虛構技法，並設置多時間層（1938、1954、1970、1990、2020），使讀者在閱讀過程中同時參與歷史建構的反思。",
+          "1938年這一時間點具有高度歷史壓力。1895年《馬關條約》後，台灣進入日本殖民統治；至1937年中日戰爭爆發後，台灣總督府推動更強烈的皇民化與戰時動員。小說表面上寫一趟美食鐵道旅行，實則把旅行的自由、飲食的歡愉與戰爭帝國的制度壓迫放在同一個歷史平面上閱讀。",
+          "鐵道在小說中承擔的也遠超交通功能。日治時期台灣西部縱貫線於1908年前後完成，讓殖民地的移動、調查、行政控制、物資流通與觀光凝視彼此連結。青山千鶴子的旅行之所以可能，正是因為殖民現代性已經把台灣改造成可被路線化、分類化、記錄化的空間；王千鶴的通譯位置，則揭示這套現代性必須依賴被殖民者的語言勞動才能運作。",
+          "這一形式選擇帶有深刻的認識論壓力，遠超文學遊戲。「偽譯」作為一種文體策略，同時指涉語言翻譯（日文↔中文）、歷史記憶的轉譯（殖民檔案↔當代重述）、以及身份認同的協商（殖民者凝視↔被殖民者主體性）。三重「翻譯」結構的交疊，賦予小說豐富的闡釋空間，也解釋了為何它能在不同語境、不同讀者群中引發持續且深入的回響。"
+        ]
+      },
+      {
+        heading: "台灣文學的裂縫與形式反擊",
+        paragraphs: [
+          "台灣文學長期處於多重殖民敘事的夾縫之中。荷蘭、明鄭、清帝國、日本帝國、中華民國國民政府的相繼統治，造成語言政策的反覆翻轉與文學傳承的制度性斷裂（陳芳明，《台灣新文學史》，2011，頁3–28）。在此歷史語境下，書寫台灣常面臨雙重困境：語言媒介的合法性危機，以及歷史敘事被更強大的「中心」收編的焦慮。",
+          "楊双子以「偽譯」回應這個老困境，最有力之處，在於她避開正面宣告台灣主體的直線道路，先借來日治時期日本文人的台灣遊記外殼，如佐藤春夫的《殖民地之旅》與西川滿的台灣書寫，再讓台灣人的翻譯與注釋慢慢把外殼撬開。",
+          "這使小說同時處於「致敬」與「顛覆」的張力之中，既繼承日治時期台灣文學的物質遺跡，又以當代意識重新評估其殖民性（Kleeman，Under an Imperial Sun，2003，頁12–19）。",
+          "從敘事技術而言，小說廣泛運用熱奈特（Gérard Genette）的敘事學概念：敘事時距的刻意操控、聚焦位置（focalization）的游移，以及跨層敘事（metalepsis）。青山的第一人稱敘述隨時被「譯者注」打斷，聚焦不斷被外部視角干擾，使讀者同時閱讀「故事」與「閱讀行為本身」。這正呼應 Linda Hutcheon 所稱的「歷史後設小說」（historiographic metafiction）。",
+          "這些技法共同建構出一個自我意識高度發達、邀請讀者同時閱讀「故事」與「閱讀行為本身」的複式文本，呼應 Linda Hutcheon 所稱的「歷史後設小說」（historiographic metafiction）——一類同時自我指涉其虛構性、又深度介入歷史再現問題的小說形式（Hutcheon，A Poetics of Postmodernism，1988，頁105–123）。",
+          "此處尤其需要區分「偽譯」與一般歷史小說中的「擬真」。一般擬真借史料細節增加可信度；《臺灣漫遊錄》的偽譯則把可信度本身變成問題：誰保存文本？誰有資格翻譯？誰能替誰註釋？誰的聲音被檔案化？小說將一段殖民歷史推向更尖銳的閱讀現場，逼迫讀者檢查「歷史如何被製成可讀文本」。",
+          "書中注釋早已越出附屬裝飾的位置，成為敘事權力的舞台。當譯者注打斷青山的日記，讀者被迫在日本女作家的敘述慾望、台灣譯者的當代批判，以及王千鶴的沉默之間移動。台灣文學長期承受的語言斷裂與史料斷裂，就這樣被轉成一種可被世界文學讀懂的形式。",
+          "國際評審對此高度評價。國際布克獎評審讚譽該書「呈現後設小說結構的同時，對語言細微差異保有罕見的敏銳度」，認為其形式創新本身即是對殖民歷史的評論。這一評價確認了台灣文學在全球文學場域中的自主位置：它以特殊的歷史經驗與形式探索進入世界文學對話，不再被迫依附於「中文文學」或「亞洲文學」的大框。"
+        ]
+      },
+      {
+        heading: "身份政治與柔性抵抗",
+        paragraphs: [
+          "小說的時間背景（1938年）並非隨意選擇。彼時皇民化運動甫告展開，強制推廣日語、抑制台灣本土認同；中日戰爭全面爆發，台灣被迫捲入帝國的戰時動員體制（葉石濤，《台灣文學史綱》，1987，頁78–95）。王千鶴以通譯身份周旋於日語與台語之間，其身份的流動性本身即是殖民現代性造就的生存策略。",
+          "青山與王千鶴的關係，是小說最冷的一道政治傷口。青山可以善意，可以溫柔，但她的帝國位置不會因此消失。她能夠自由出入殖民地空間，以「客觀」視角記錄台灣的現代化成就；而這種現代化，在帝國敘事裡本來就被寫成日本的文明贈禮。",
+          "小說借王千鶴的沉默與退縮，展示被殖民者在「善意的凝視」面前維持主體性的限度。「內地人與本島人，終究不可能存在平等的友誼。」這句話的冷，來自一種政治現實主義：它準確指出殖民關係的傷口，也呼應愛德華·薩依德（Edward Said）對東方主義的批判——凝視本身即是一種知識／權力的運作（Said，Orientalism，1978，頁3–28）。",
+          "1938年的政治性還在於它位於「殖民現代化」與「總力戰」之間。若說殖民政府以鐵道、學校、公共衛生、博覽會與觀光書寫來展示治理成果，那麼戰時皇民化則進一步要求被殖民者在語言、姓名、宗教、兵役與情感認同上向帝國中心靠攏。王千鶴的通譯身份因此帶著制度裂痕：她受制度壓迫，又被制度需要。",
+          "小說的政治敏銳，正在於它拒絕把人寫扁。青山的溫柔是真的，帝國身份也是真的；王千鶴的沉默是真的，她的能動性也沒有消失。政治壓迫從暴力場面延伸到餐桌、車廂、旅館、翻譯、禮貌與猶豫裡，一點點滲出來。",
+          "在當代地緣政治語境下，小說的接受無可避免地與台灣主權議題交纏。英文譯者林慕蓮（Lin King）在多個場合表示，她主動選擇只翻譯台灣作品，明確指出此選擇帶有政治立場：使台灣的文化生產在英語世界的公共討論中獲得可見性，本身即是對「台灣是否具有獨立文化主體性」這一問題的實踐性回答。西方文學獎的肯定，因此具有超越文學評價的政治意涵——它在符號層面承認台灣作為一個具有獨立文化生命的政治實體（Casanova，The World Republic of Letters，2004，頁127–167）。",
+          "小說的政治敘事避開簡單的反殖民控訴，藉由「美食旅行」的輕盈形式，將政治議題嵌入日常感官體驗的敘述之中。這種「柔性抵抗」策略——以歡愉包裹批判，以情感帶動反思——使政治訊息能夠繞過讀者的防衛心理，造成更深層的觸動，也大幅擴展了潛在讀者群，不限於具有政治意識的閱讀者。"
+        ]
+      },
+      {
+        heading: "餐桌上的日常政治",
+        paragraphs: [
+          "米歇爾·德·塞托（Michel de Certeau）在《日常生活實踐》中指出，日常生活中的消費行為，包括飲食、行走、閱讀，是弱勢群體對強勢結構進行戰術性挪用的場域。《臺灣漫遊錄》的美食書寫正可在此框架下閱讀：殖民地的菜市場、小吃攤、餐廳，是台灣庶民日常生活最密集的集中地，也是殖民現代性的物質遺跡與本土民俗記憶最複雜地交疊之處。",
+          "小說選取的十二道菜餚，各有其社會學意涵。麻薏湯以平民化的粗糲，抵抗著「帝國廚房」對台灣飲食的異國情調化；菜尾湯以「再生」的料理邏輯（將宴席剩菜熬煮為新菜），隱喻台灣社會對多元族群成分的整合能力；蜜豆冰的酸甜尾韻，則為全書的情感基調定調——無法完全言明、游移於失落與滿足之間的情感狀態，亦是殖民關係中人際情誼的最佳隱喻。",
+          "食物在此承載文化身份，也把社會結構刻進身體經驗：誰能吃什麼、在哪裡吃、與誰共食，皆透露出殖民秩序下的階級、族群與性別位置（Appadurai，1988，頁3–24；Mintz，Sweetness and Power，1985，頁151–186）。",
+          "王千鶴的家庭背景（妾室之女）引入了階級分析的維度。她同時承受殖民壓迫與父權壓迫，卻也因此養成對複雜人情世故的高度敏感與靈活的身份轉換能力。布迪厄的「慣習」（habitus）概念在此具有解釋力：王千鶴在多重位置之間的游移，是長期在結構性不平等中求存所形成的身體化傾向。",
+          "她的通譯職業本身，即是在語言不平等中尋求能動性的一種策略。",
+          "飲食書寫還具有檔案補償作用。殖民官方檔案往往記錄產量、稅收、交通、衛生與行政分類，卻難以保存庶民如何在日常生活中感受殖民現代性。楊双子以味覺、口感、菜名、店鋪與共食場景重建生活世界，使那些不易進入國家檔案的身體經驗獲得敘事位置。",
+          "這種寫法也避免把「台灣」抽象化為政治口號。小說中的台灣由地方飲食、階級習慣、家庭制度、語言轉換、鐵路節點與城市鄉鎮差異共同構成，是一個具體的生活共同體。食物既能被殖民觀光消費，也能成為本土記憶抵抗被單向命名的方式。",
+          "對國際讀者而言，這種多層次的社會複雜性提供了重要的認識論禮物：台灣脫離被動受害的「殖民地」扁平形象，呈現出自身的內部分層、幽默感、情感生命與主體能動性。"
+        ]
+      },
+      {
+        heading: "凝視、混雜與接觸地帶",
+        paragraphs: [
+          "霍米·巴巴（Homi K. Bhabha）在《文化的定位》中提出「混雜性」（hybridity）與「第三空間」（the Third Space）的概念，用以描述殖民話語在接觸地帶產生的意義滑移。《臺灣漫遊錄》的翻譯裝置，正是對這一理論最精緻的文學示範。",
+          "巴巴的框架若與瑪麗·路易斯·普拉特（Mary Louise Pratt）的「接觸地帶」（contact zone）概念並置，旅行書寫的政治性會變得更清楚。普拉特在《帝國之眼》中指出，旅行書寫是殖民者確立「反征服」（anti-conquest）姿態的核心文類：殖民者藉由無害的「觀察」與「記錄」，在道德上為帝國擴張開脫。",
+          "青山千鶴子的旅行日記，正是這一「反征服」姿態的文學體現。她以女性的溫柔凝視取代粗暴的政治宰制，卻在無意間複製了帝國知識／權力的結構。《臺灣漫遊錄》藉由「譯者注」的不斷介入，系統性地拆解這一敘事的意識形態操作。",
+          "「偽譯」結構在形式上實踐了後殖民批評的核心洞見：原文（日文帝國凝視）與譯文（台灣本土重述）之間的落差，來自政治闡釋的必然分歧，並非語言等值的失敗。加亞特里·斯皮瓦克（Gayatri Chakravorty Spivak）在《翻譯的政治》中提醒我們，翻譯沒有中性的語言轉換位置，它帶著詮釋行為中的「倫理暴力」（ethical violence）（Spivak，1993，頁179–200）；楊双子的「偽譯」把這一「倫理暴力」曝光，並在文學形式內部加以逆轉。",
+          "在普拉特的意義上，青山的旅行屬於帝國知識體制中的「可愛版本」：她不以軍人、官吏或學者身份出場，而以女性作家、食客與旅人身份進入台灣。正因為她看似柔和，讀者更容易看見殖民權力如何從命令與暴力延伸到命名、品評、採集、描述與出版之中。",
+          "巴巴的「混雜性」也不應被誤讀為和諧融合。小說中的混雜源於不對等權力中的語言滑移、身份表演與情感誤認，距離台日文化的平等交會很遠。王千鶴既能使用殖民者語言，也能在翻譯中保留不透明之處；她的能動性正存在於無法完全被青山理解、也無法完全被譯者注捕捉的縫隙裡。",
+          "食物在後殖民意義上完成了從「異國奇觀」（exotic spectacle）到「理解媒介」的轉化：青山最初將台灣食物視為可被消費的他者性符號，逐漸在共食行為中體會食物作為社群記憶與情感聯結載體的意義。這一轉化弧線，正是巴巴所說的「第三空間」的開啟——一個不屬於任何一方的、以協商與接觸為特徵的意義生成場域（Bhabha，1994，頁36–39）。"
+        ]
+      },
+      {
+        heading: "文學進入公共領域",
+        paragraphs: [
+          "哈伯瑪斯談公共領域，重視不同聲音如何在理性溝通中相遇；南希·弗雷澤則把這套理想往回拉，指出主流公共領域常以普遍性之名，把女性、少數族裔與殖民地人民擋在門外。",
+          "《臺灣漫遊錄》進入國際獎項與多語閱讀場域後，被看見的遠超一部小說。它像一個台灣文化主體性的對抗性發言，從「中文文學」或「亞洲文學」的大框裡側身出來，要求讀者正面看見台灣自己的歷史位置。",
+          "小說出版初期，其「偽譯」裝置曾引起部分讀者的困惑乃至爭議：是否存在「原著欺騙」的倫理問題？歷史虛構的邊界應如何劃定？這些爭議本身即促成一場關於歷史書寫倫理與台灣記憶主權的公共討論。",
+          "在跨語言的公共領域層次，多個語言版本的流通（繁體中文、日文、英文及其後的韓文、法文等譯本），使小說成為多語脈絡下的對話節點。不同語言讀者群帶入各自的歷史意識——日本讀者面對自身帝國歷史的鏡像，英語世界讀者在後殖民思潮的語境下閱讀台灣的特殊性，韓國讀者在相似的帝國記憶中找到共鳴——形成跨文化公共對話的複調結構。",
+          "2024年美國國家圖書獎翻譯文學獎與2026年國際布克獎，將這部原本高度依賴台灣歷史語境的小說推入更大的世界文學公共場域。這些獎項獎勵的焦點不止於「台灣題材」，也承認台灣殖民經驗、偽譯形式與翻譯倫理本身足以成為世界文學的問題。",
+          "這一接受史也讓「翻譯」本身成為公共議題。英文譯本把台灣文本帶入英語世界時，並沒有扮演透明管道；它在獎項、出版社、評論媒體、讀者社群與政治新聞之間重新安排台灣的可見性。換言之，《臺灣漫遊錄》的國際成功，既是文本被翻譯的成功，也是台灣歷史敘事進入全球公共領域的一次制度性事件。",
+          "楊双子的得獎感言中明確表示：「文學是在強權面前與他人對話的能力。」這一陳述，既是對小說功能的詮釋，也是對文學之政治性的哈伯瑪斯式信念。"
+        ]
+      },
+      {
+        heading: "百合歷史小說與女性主體",
+        paragraphs: [
+          "楊双子明確標舉「百合歷史小說」的創作路線，將女性之間的情感聯結置於敘事中心，是對台灣歷史小說傳統中以男性為主體、女性為配角的敘事慣例的結構性顛覆。",
+          "這一選擇置於台灣女性文學的更長歷史脈絡中，方能見其意義。日治時期《臺灣民報》等媒體雖曾為女性議題提供有限公共空間，但女性書寫在制度上仍受到語言政策與性別規範的雙重限制；戰後國民政府時期，官方文學史更以男性英雄敘事主導歷史小說的典律建構。",
+          "小說的女性主義意涵深入性別、殖民與階級的交織壓迫結構，並不停留在「女性中心」的敘事視角上。王千鶴的身份困境同時承受妾室污名的父權壓迫與本島人身份的殖民壓迫；她在婚前短暫的旅行自由，被設計為一段正常秩序暫時懸置的例外狀態。",
+          "青山千鶴子與王千鶴之間的情感之所以幽微，既因同性情感在歷史語境中難以命名，也因殖民者與被殖民者之間的權力差異使任何親密都帶有政治陰影。小說拒絕把百合書寫處理成脫離歷史的純情幻想，讓情感本身承受語言、階級、帝國身份與父權婚姻制度的多重壓力。",
+          "從這個角度看，王千鶴的「不可完全言說」接近女性主體在殖民父權雙重秩序下的歷史真實，而非敘事缺陷。她的沉默帶著被制度逼出的生存語法：有些話不能說，有些情感不能被命名，有些理解只能在共同吃下一道菜、共同坐過一段車程後短暫出現。",
+          "這種結構性的設計，使小說的百合情感越出個人層次的純愛書寫，轉向對壓迫結構的批判性省察，呼應雷·周（Rey Chow）對現代性語境下中國／東亞女性主體性的分析（Chow，Woman and Chinese Modernity，1991，頁3–33）。",
+          "從女性主義文學批評的視角，《臺灣漫遊錄》的貢獻在於其「通俗性」的策略選擇：以美食旅行的輕盈形式承載女性情感解放的可能性，使女性主義思想能夠觸及更廣泛的讀者群。這與艾蓮·蕭沃特（Elaine Showalter）所區分的「女性文學」（feminine literature）——以通俗形式潛藏激進內容——傳統相互呼應（Showalter，A Literature of Their Own，1977，頁13–36）。"
+        ]
+      },
+      {
+        heading: "獲獎之後的世界位置",
+        paragraphs: [
+          "回到開頭，為什麼是《臺灣漫遊錄》？答案恐怕不在單一題材，也不在某種容易宣傳的台灣性，而在它能讓形式、歷史、食物、情感、翻譯與政治同時發聲。",
+          "在文學史層次，它以後設「偽譯」打破台灣歷史小說的書寫困境，確立台灣文學在全球文學場域中的自主地位；在政治學層次，它提供一套以輕盈包裹批判的「柔性抵抗」敘事；在社會學層次，它以食物與旅行為切入點，呈現殖民社會的複雜日常生活。",
+          "在後殖民理論層次，它以「翻譯即政治」的形式實踐，同時回應巴巴的混雜性理論與普拉特的接觸地帶批判；在公共領域層次，它以弗雷澤意義上的「對抗性公共領域」發言，成為跨語言、跨文化對話的節點；在女性主義文學層次，它以通俗形式為女性情感主體性與多元性別想像開拓空間。",
+          "《臺灣漫遊錄》成為里程碑，靠的並非替台灣說出一句響亮口號。它把美學創新、後殖民批判、女性情感與文化主體性壓進同一部小說裡。台灣在世界文學中的位置，從被說明、被介紹，轉為由一種複雜形式自己證明出來。"
+        ]
+      }
+    ],
+    readingListZh: [
+      "楊双子。《臺灣漫遊錄》。春山出版，2020。",
+      "Yang, Shuangzi [楊双子]. Taiwan Travelogue. Translated by Lin King, Graywolf Press, 2024.",
+      "陳芳明。《台灣新文學史》。聯經出版，2011。",
+      "Kleeman, Faye Yuan. Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South. U of Hawai'i P, 2003.",
+      "Liao, Ping-hui, and David Der-wei Wang, editors. Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory. Columbia University Press, 2006.",
+      "Hutcheon, Linda. A Poetics of Postmodernism: History, Theory, Fiction. Routledge, 1988.",
+      "Pratt, Mary Louise. Imperial Eyes: Travel Writing and Transculturation. Routledge, 1992.",
+      "Bhabha, Homi K. The Location of Culture. Routledge, 1994.",
+      "Said, Edward W. Orientalism. Pantheon Books, 1978.",
+      "Fraser, Nancy. “Rethinking the Public Sphere.” Habermas and the Public Sphere, edited by Craig Calhoun, MIT Press, 1992.",
+      "Showalter, Elaine. A Literature of Their Own: British Women Novelists from Bronte to Lessing. Princeton UP, 1977.",
+      "黃美娥。《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》。麥田出版，2004。"
+    ],
+    referencesZh: [
+      "Appadurai, Arjun. “How to Make a National Cuisine: Cookbooks in Contemporary India.” Comparative Studies in Society and History, vol. 30, no. 1, 1988, pp. 3–24.",
+      "Bhabha, Homi K. The Location of Culture. Routledge, 1994.",
+      "Bourdieu, Pierre. Distinction: A Social Critique of the Judgement of Taste. Translated by Richard Nice, Harvard UP, 1984.",
+      "Butler, Judith. Gender Trouble: Feminism and the Subversion of Identity. Routledge, 1990.",
+      "Casanova, Pascale. The World Republic of Letters. Translated by M. B. DeBevoise, Harvard UP, 2004.",
+      "Chow, Rey. Woman and Chinese Modernity: The Politics of Reading between West and East. U of Minnesota P, 1991.",
+      "Damrosch, David. What Is World Literature? Princeton UP, 2003.",
+      "de Certeau, Michel. The Practice of Everyday Life. Translated by Steven Rendall, U of California P, 1984.",
+      "Fraser, Nancy. “Rethinking the Public Sphere.” Habermas and the Public Sphere, edited by Craig Calhoun, MIT Press, 1992, pp. 109–142.",
+      "Genette, Gérard. Narrative Discourse: An Essay in Method. Translated by Jane E. Lewin, Cornell UP, 1980.",
+      "Habermas, Jürgen. The Structural Transformation of the Public Sphere. Translated by Thomas Burger, MIT Press, 1989.",
+      "Hutcheon, Linda. A Poetics of Postmodernism: History, Theory, Fiction. Routledge, 1988.",
+      "Kleeman, Faye Yuan. Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South. U of Hawai'i P, 2003.",
+      "Mintz, Sidney W. Sweetness and Power: The Place of Sugar in Modern History. Viking, 1985.",
+      "Pratt, Mary Louise. Imperial Eyes: Travel Writing and Transculturation. Routledge, 1992.",
+      "Said, Edward W. Orientalism. Pantheon Books, 1978.",
+      "Showalter, Elaine. A Literature of Their Own: British Women Novelists from Bronte to Lessing. Princeton UP, 1977.",
+      "Spivak, Gayatri Chakravorty. “The Politics of Translation.” Outside in the Teaching Machine, Routledge, 1993, pp. 179–200.",
+      "Yang, Shuangzi [楊双子]. Taiwan Travelogue. Translated by Lin King, Graywolf Press, 2024.",
+      "Chou, Wan-yao [周婉窈]. The Kominka Movement: Taiwan under Wartime Japan, 1937–1945. Yale University, 1991.",
+      "Liao, Ping-hui, and David Der-wei Wang, editors. Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory. Columbia University Press, 2006.",
+      "楊双子。《臺灣漫遊錄》。春山出版，2020。",
+      "陳芳明。《台灣新文學史》。聯經出版，2011。",
+      "葉石濤。《台灣文學史綱》。文學界雜誌社，1987。",
+      "黃美娥。《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》。麥田出版，2004。",
+      "佐藤春夫。《植民地の旅》。改造社，1925。",
+      "日本アジア歴史資料センター（JACAR）。〈17 Apr 1895 Peace treaty concluded between Japan and China (Treaty of Shimonoseki)〉。https://www.jacar.go.jp/english/jacarbl-fsjwar-e/main/18950417/index.html",
+      "National Book Foundation. “Taiwan Travelogue.” https://www.nationalbook.org/books/taiwan-travelogue/",
+      "The Booker Prizes. “Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King, wins the International Booker Prize 2026.” https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the",
+      "中央公論新社。〈『台湾漫遊鉄道のふたり』が第十回日本翻訳大賞を受賞しました〉。https://www.chuko.co.jp/prize/125121.html",
+      "文化部英文網站。〈‘Taiwan Travelogue’ receives U.S. National Book Awards for Translated Literature〉。https://www.moc.gov.tw/en/News_Content2.aspx?n=467&s=227389"
+    ],
+    factCheckNotes: [
+      "1895史實核查：日本アジア歴史資料センター（JACAR）日清戰爭檔案頁確認《馬關條約》於1895年4月17日簽訂，台灣割讓由此進入日本殖民統治脈絡。來源：https://www.jacar.go.jp/english/jacarbl-fsjwar-e/main/18950417/index.html",
+      "皇民化史實核查：周婉窈 The Kominka Movement: Taiwan under Wartime Japan, 1937–1945 及相關學術資料確認皇民化運動與1937–1945戰時動員脈絡相關。",
+      "鐵道史實核查：日治台灣西部縱貫線於1908年前後完成，作為殖民治理、物資流通與現代交通的重要基礎；本文僅採保守表述「1908年前後完成」。",
+      "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the",
+      "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
+      "獎項核查：中央公論新社公告確認楊双子著、三浦裕子譯《台湾漫遊鉄道のふたり》獲第十回日本翻訳大賞。來源：https://www.chuko.co.jp/prize/125121.html",
+      "獎項核查：文化部英文網站確認 Taiwan Travelogue 獲2024 U.S. National Book Awards for Translated Literature。來源：https://www.moc.gov.tw/en/News_Content2.aspx?n=467&s=227389"
+    ]
+  },
+  {
+    slug: "taiwan-travelogue-pseudo-translation-comparative-literature",
+    title: "Taiwan Travelogue in the Genealogy of Pseudo-Translation",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "比較文學 · 偽譯譜系",
+    author: "蕭珩",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-02",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    summary: "A comparative-literature essay placing Taiwan Travelogue in a long genealogy of pseudonymous authorship, fictitious translation and historiographic metafiction across Western, Chinese, Japanese and postcolonial literary traditions.",
+    titleZh: "《臺灣漫遊錄》：偽譯譜系的台灣節點",
+    summaryZh: "本文從奧西恩、博爾赫斯、《紅樓夢》與《源氏物語》一路讀到《臺灣漫遊錄》，追問偽托作者、虛構翻譯與後設歷史書寫如何替被壓低的歷史尋找聲音。",
+    sidebarCards: [
+      ["Ossian", "奧西恩詩篇", "民族文學建構與虛構翻譯的經典案例。", "west"],
+      ["Borges", "博爾赫斯", "假書評、重寫與閱讀語境的後設命題。", "modern"],
+      ["Liezi", "《列子》", "中國古典偽托與借古人權威自立的傳統。", "china"],
+      ["Fortleben", "後續生命", "班雅明翻譯論中的延展與變形能力。", "translation"]
+    ],
+    relatedReadings: [
+      "taiwan-travelogue-multidimensional-literary-politics"
+    ],
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+          "This Chinese long-form article places Taiwan Travelogue in a comparative genealogy of pseudo-translation, pseudonymous authorship and historiographic metafiction. The full Chinese article is published in the Chinese Overseas Study Review."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "《臺灣漫遊錄》的「偽譯作」裝置，遠比一個漂亮的文學花招更尖銳，也很難被收進孤立的台灣創意名目裡。它踩在一條很長、也很危險的書寫傳統上：有人託名古人，有人假稱譯本，有人把不存在的檔案寫得像真的，有人乾脆讓註釋反客為主。本文沿著「偽托作者」（pseudonymous authorship）、「虛構翻譯」（fictitious translation）與「歷史後設小說」（historiographic metafiction）三條線，從奧西恩、梅里美、博爾赫斯、納博科夫，讀到《列子》、《紅樓夢》、《源氏物語》與愛爾蘭、東亞殖民地文學。本文追問的重心，離「誰騙了誰」很遠；真正棘手的是：為什麼有些歷史，非得繞道、假託、翻譯、扮演，才終於能說出口。"
+        ]
+      },
+      {
+        heading: "偽譯作為世界文學問題",
+        paragraphs: [
+          "偽托書寫大致有三種面孔：假借一個作者，假稱一部譯本，或把歷史寫成一座到處露出機關的舞台。Linda Hutcheon 說「歷史後設小說」的迷人處，正在於它明知自己是人工製品，卻因此更能逼近歷史書寫的人工性。",
+          "讀《臺灣漫遊錄》，若只說它「形式新穎」，其實太輕了。這部小說把作者、原文、譯者、註釋、史料與讀者的信任全部拆開，重新排在桌面上。當這些零件一件件鬆動，所謂歷史真實便不再像一塊沉默的石頭，而像一份被翻譯、被保存、被刪節、被轉述過無數次的文稿。",
+          "偽譯之所以能跨文化流動，靠的正是這種又借信任、又破壞信任的能力。讀者相信古籍，相信譯本，相信旅行記，相信編者序，相信腳註；偽譯便在這些相信之間開一條縫，讓人看見「原文」和「真本」其實也常常只是權威裝作自然的樣子。《臺灣漫遊錄》能被台灣、日本與英語讀者各自讀出不同震動，原因正在這裡：它寫台灣殖民史，也寫世界文學裡那個反覆發作的真實焦慮。",
+          "它比 Hutcheon 所說的歷史後設小說又多走了一步。翻譯在這裡失去橋樑或服務的安穩身份；它成了現場，成了權力換手、記憶改寫、身份試探的地方。下面的比較無意替《臺灣漫遊錄》安排一份漂亮祖譜；我更想看清它到底從哪些舊形式裡借火，又在哪裡把火燒回台灣。"
+        ]
+      },
+      {
+        heading: "從奧西恩到後設迷宮",
+        paragraphs: [
+          "2.1 古典與中世紀的偽托傳統。偽托早在現代小說誕生前就已存在。它藏在古典、宗教與中世紀文獻秩序裡。荷馬到底是誰，這個問題吵了兩千多年；《聖經》與早期基督教文獻中的偽名書寫，也一直牽動權威、傳承與正典形成。",
+          "西方文學的偽托傳統可追溯至古典時代。荷馬史詩的「作者問題」本身即是一場延續兩千餘年的偽托爭議；《聖經》中的部分文本亦被現代聖經學者視為偽托文書。這種早期偽托的動機，主要是借權威以自立：真實作者隱身於假托的前人名義之後，以迴避風險或強化說服力。",
+          "古典與中世紀的偽托，很難直接套入今天對「欺騙」的道德判決。那時作者權尚未成為出版制度的中心，以聖賢、先知、古代詩人或遠方旅行者之名發言，常常是文本進入知識秩序的通行證。這套邏輯進入現代後沒有消失，只是變得更狡黠，也更文學化。",
+          "2.2 十八世紀：偽托作為諷刺與啟蒙武器。到了啟蒙時代，假託開始帶刺。虛構旅行者、外來者書信、遠方見聞，讓讀者隔著一雙陌生的眼睛看自己，看見平日被習慣遮住的荒謬。",
+          "啟蒙時代的偽托傳統賦予這一策略全新的政治銳度。斯威夫特以「萊繆爾·格列佛船長」之名出版《格列佛遊記》，製造具有高度說服力的虛構旅行者，以第一手報告揭露英國社會的荒謬。孟德斯鳩的《波斯人信札》則虛構兩位波斯旅人記錄巴黎觀察，以外來者視角使法國讀者重新審視本國社會習俗。",
+          "旅行書寫從來不清白。它借航海、帝國、殖民與跨文化見聞取得可信度，又能回頭刺穿帝國中心的自信。斯威夫特、孟德斯鳩與《臺灣漫遊錄》隔著時代相望，靠的正是這種遠親關係：旅行記好讀，於是也最適合偷渡批判。",
+          "詹姆斯·麥克弗森的「奧西恩詩篇」案例最直接觸及虛構翻譯的核心問題。麥克弗森宣稱發現並翻譯古代蓋爾語吟遊詩人奧西恩的史詩，引發全歐洲轟動；「原著」卻始終沒有現身。這一事件既是文學史上的偽造醜聞，也是一個關於民族文學建構、翻譯倫理與文化真實性的深刻寓言。",
+          "奧西恩最有意思的地方，不止在於麥克弗森究竟造沒造假，更在於十八世紀歐洲為何那麼想相信他。蘇格蘭被英格蘭吸納之後，一位古老吟遊詩人的突然現身，等於替被壓縮的民族文化補上一段深遠的過去。偽譯在這裡帶著傷口，近乎一種文化補償。",
+          "2.3 十九世紀：歷史小說、性別偽裝與偽文獻的成熟。瓦爾特·司各特確立現代歷史小說範式時，已大量使用序言、編者、史料、腳注與題詞等準文獻裝置，使小說像史書一樣可被查考，又使歷史本身顯出敘事性。",
+          "十九世紀歷史小說進一步成熟化偽文獻裝置。瓦爾特·司各特在多部作品中以虛構編者、腳注與史料來源強化歷史真實感；梅里美則虛構西班牙女劇作家克拉拉·加蘇爾，以「翻譯者」身份出版自己的戲劇。此處的翻譯兼具文學策略、性別偽裝與話語挪用。",
+          "梅里美與《臺灣漫遊錄》可以放在同一張桌上讀。他造出的遠超另一個筆名：那是一位有性別、有國籍、有肖像、有文風的西班牙女劇作家，自己則退到「翻譯者」的位置。青山千鶴子也是這種機制的後殖民版本：一個被造出來的他者之聲，反過來讓真正的作者靠近本來難以抵達的位置。",
+          "同時代女性作家的筆名策略，如喬治·桑與勃朗特三姊妹以男性化筆名進入文學公共領域，也說明作者名從來超出署名功能，常常是進入制度、評論與市場的門票。被排除者借用可被承認的名字發言，與被殖民者借殖民語言、殖民文類或虛構殖民者之口發言，在結構上具有可比性。",
+          "2.4 二十世紀的後設激進化：博爾赫斯、納博科夫、卡爾維諾。進入二十世紀後，偽托從增加可信度的技巧轉入哲學性與形式性的核心地帶：文本為何可信，讀者如何相信，注釋如何取得權力，翻譯如何改寫原文，皆成為小說本身的題目。",
+          "二十世紀文學對偽托與虛構翻譯傳統的激進化，以博爾赫斯、納博科夫與卡爾維諾最具代表性。博爾赫斯的《皮埃爾·梅納爾，〈唐吉訶德〉的作者》揭示意義不在文字本身，而在歷史語境、讀者位置與閱讀行為之中；納博科夫《微暗的火》使注釋吞噬原文；卡爾維諾《如果在冬夜，一個旅人》則以不斷中斷的翻譯文本構成一部關於閱讀本身的小說。",
+          "博爾赫斯把偽書、假文獻與虛構學術評論推到哲學邊上：同一段文字到了不同時代，便不再是同一段文字。納博科夫更狠，他讓註釋者幾乎吃掉原文，逼讀者承認詮釋帶著伸手奪權的慾望，遠非溫順服務。《臺灣漫遊錄》的譯者注也如此。它讓權力關係突然現形，絕非旁枝或裝飾。",
+          "卡爾維諾把翻譯、閱讀與不完整性鎖進同一台敘事機器。讀者一次次進入開端，又一次次被中斷；閱讀變成追一部缺席文本。《臺灣漫遊錄》的多重時間層也在說同一件事：後來者只能在殘缺、重述與翻譯之間接近歷史，沒有誰能回到一個乾淨透明的原初現場。",
+          "2.5 費爾南多·佩索阿的極端案例：異名書寫與主體的解構。佩索阿的異名遠超普通筆名，它是一組具有完整傳記、風格、思想與相互評論關係的虛構作者系統。這使「作者」從單一自我變成多聲部的集合，也使現代主體的分裂直接成為文學形式。",
+          "佩索阿把偽托推到近乎眩暈的程度。他創造大量具有傳記、個性與文體的虛構作者，讓他們彼此評論、彼此牴牾。作者這個位置從穩定的「我」裂成一屋子互不讓步的聲音。這種分裂感，放到後殖民語境裡讀，並不陌生。"
+        ]
+      },
+      {
+        heading: "古籍、物語與殖民記憶",
+        paragraphs: [
+          "3.1 中國古典文學的偽托傳統。中國文學與思想史中的偽托，常常與經典權威、學派傳承和史學正統緊密相連。文本託名古人，目的不止於隱藏作者，也在於取得進入古典知識秩序的資格。",
+          "中國文學史上的偽托傳統同樣源遠流長。《列子》問題是最具代表性的案例：該書長期被視為戰國列禦寇所著，卻在魏晉時代突然大量流傳。多數現代學者，如楊伯峻，認定現存《列子》為魏晉偽作，藉先秦聖賢之名為道家玄學思想賦予古典合法性。",
+          "中國古典偽托傳統與西方偽托不同之處，在於它常與經學、子學、史學的權威結構相連。文本若能託名於古人，即可取得古典秩序中的發言資格；而後世學者對真偽的辨析，也往往同時是對思想譜系、學派權威與政治合法性的重新排序。",
+          "《紅樓夢》的作者問題提供了更複雜的後設框架。小說開篇設置「空空道人」發現頑石故事、「東魯孔梅溪」題書名、「曹雪芹」批閱增刪等多重中介，使作者被分裂為多個層次的虛構節點。這種主動降格與虛實混淆，既是迴避政治審查的修辭盾牌，也是一種後設宣告。",
+          "《紅樓夢》高明就高明在，它不急著讓讀者相信故事是真的；它讓讀者在「真假有無」之間反覆失足。小說開篇便拆自己的台，卻因此摸到正史摸不到的東西：情感、家族、慾望、制度，還有那些不能被正經寫進史書的疼痛。",
+          "蒲松齡《聊齋志異》以「異史氏曰」的史家評論姿態，為鬼怪故事注入正史書寫的話語形式；魯迅《故事新編》則以現代白話重述先秦神話與歷史故事，在重述中插入現代意識的批判眼光。二者都以形式的古典性與意識的當代性之間的張力，製造批判的槓桿。",
+          "3.2 日本文學的物語傳統與後設書寫。日本古典文學中的後設辯護，並非等到近代才出現。《源氏物語》已在文本內部提出虛構與正史的關係問題，並以物語能捕捉人情真實為虛構辯護。",
+          "日本文學傳統中，《源氏物語》「螢」帖（第25帖）的物語論框架尤為重要。紫式部借光源氏之口為物語辯護：物語雖為虛構，卻比正史更能呈現人情的真實。這一「以虛構辯護虛構」的後設策略，在日本文學史上確立了物語作為知識形式的合法性。",
+          "「螢」帖早早說出一個後來小說反覆證明的道理：虛構未必比正史更假；有些人情，正史根本裝不下。《臺灣漫遊錄》用旅行日記、譯者注和出版框架重構殖民地女性情感生命，正是沿著這條路往前走。",
+          "江戶時代讀本文學進一步發展了偽文獻與史料化裝置。曲亭馬琴《南總里見八犬傳》大量運用歷史文獻、家譜、傳聞與考證姿態，讓虛構敘事取得近似史傳的厚度。這一文獻癖好與歐洲司各特式歷史小說雖未必存在直接影響，卻顯示東西方在歷史小說成熟時都會借助「像史料一樣的小說」來建立可信度。",
+          "3.3 殖民語境中的偽托：愛爾蘭民族文藝復興的啟示。殖民地文學中的偽托與重述，往往與民族文學的自我建構相連。當殖民權力切斷或貶低本土記憶時，重述古老神話、民間故事或失落文獻，便成為重建文化連續性的方式。",
+          "殖民語境中的偽托書寫，在愛爾蘭文學中有重要先例。葉慈與格雷戈里夫人在愛爾蘭民族文藝復興運動中大量重述凱爾特神話與民間故事，其真實性宣稱本身即是一種文化政治聲明。台灣在日治與戰後去日本化之間遭遇雙重記憶斷裂，《臺灣漫遊錄》以偽譯填補空白的姿態，與愛爾蘭案例在文化政治邏輯上高度呼應。",
+          "殖民地或半殖民地文學常面臨一個共同困境：被殖民者的歷史記憶並非完全消失，它以破碎、失語、被翻譯、被檔案化或被敵對政權重寫的方式存在。偽托、重述與虛構翻譯之所以反覆出現，正因為它們能把斷裂的史料重新組織成可感的敘事，使被壓制的共同體獲得文化深度。",
+          "所以，《臺灣漫遊錄》的偽譯不能被粗暴地打成「造假」。殖民地記憶最棘手之處，常常在於事實碎得無法自己長成一個主體。偽譯很危險，當然危險；可它也有力量。它承認歷史已經破了，仍然替被壓低的聲音搭一個能被聽見的台。",
+          "3.4 韓江與東亞後殖民文學的當代匯流。若把《臺灣漫遊錄》放入21世紀東亞文學英譯與國際獎項的脈絡，韓江《少年來了》是一個重要參照。兩者題材不同，卻都以女性書寫、多聲部結構、歷史創傷與翻譯傳播進入英語世界公共討論。",
+          "放到更近的東亞文學現場，韓江《少年來了》是一面冷鏡。它以多聲部敘事處理光州事件的歷史創傷，又經由英文譯本進入國際讀者視野。韓江與楊双子不必被硬湊成同一類作家；但兩人的國際接受，確實讓人看見一條新的文學路線：女性書寫、歷史創傷、非線性敘事與翻譯倫理，正在英語世界獎項場域中彼此靠近。"
+        ]
+      },
+      {
+        heading: "偽托的詩學",
+        paragraphs: [
+          "若把上述文本一一攤開，最先浮出的其實是文學對真實的反咬。偽托書寫明明戴著假面，卻最擅長反問那些自稱真實的文本：你們的真實從何而來？誰替你們蓋章？誰被你們排除在檔案之外？麥克弗森的奧西恩、博爾赫斯的假書評、梅里美的克拉拉·加蘇爾，都在被看穿的一瞬間，把真實本身拖到燈下。這裡無意替造假辯護；真正要指出的是，真實從來也有自己的修辭、制度和舞台。",
+          "翻譯在這裡早已越出語言服務的範圍。它更像一個權力交換的房間：有人把原文交出來，有人替它改換聲帶，有人替它標註年代、來源與可信度。班雅明談 Fortleben，說翻譯讓原文獲得後續生命；《臺灣漫遊錄》卻把這句話推到幾乎反諷的位置。青山千鶴子的原文從未存在，卻在楊双子的「譯本」中活得異常具體。這個不存在的原文，比許多存在的檔案更能逼近台灣殖民經驗的神經末梢。",
+          "由此看，所謂原初性少了幾分神聖。原文、真本、古本、第一手材料，當然重要；但文學史一次次告訴我們，原初性也可能是權威戴得最久的一張面具。偽譯的冒犯性，正在於它不肯跪在原文面前。它承認來源可疑、傳承斷裂、聲音混雜，卻也正因如此，能把被正統文獻排斥的經驗帶回閱讀現場。",
+          "這些文本總是靠近沉默。蘇格蘭需要奧西恩，是因為民族過去被壓縮成一種可疑的缺席；愛爾蘭重述凱爾特神話，是因為殖民秩序奪走了文化連續性的敘述權；《臺灣漫遊錄》虛構青山千鶴子與王千鶴，是因為日治時期台灣女性的情感生活、翻譯勞動與日常傷痕，本來就不容易在官方檔案中留下完整聲音。偽托像沉默被迫學會的另一種發音。",
+          "作者也因此失去安穩姓名的外觀。偽托文本常把作者拆成多人：實際作者、虛構作者、譯者、編者、註釋者、讀者，彼此推拉，彼此搶奪最後一句話。《臺灣漫遊錄》尤其如此。楊双子本就是共同筆名，青山千鶴子又作為虛構原作者登場，譯者注插入當代台灣視角，英文譯者林慕蓮再把整套裝置推入英語世界。這種作者位置的複數化，正是台灣多語歷史在形式上的顯影。",
+          "所以形式在這裡絕非外衣。偽托文本真正動人的地方，往往在於它為什麼非得繞到假託、譯本、註釋、殘卷、編者序裡去說。形式本身已經在思想，在辯論，在抵抗。《臺灣漫遊錄》最值得被放入世界文學譜系之處，也正在這裡：它借台灣的歷史裂縫，重新改寫後設框架的重量與方向。"
+        ]
+      },
+      {
+        heading: "邊緣重寫世界文學",
+        paragraphs: [
+          "從比較文學回頭看，偽托與虛構翻譯從來都在文學史的要害處。它們一再出現在那些身份被壓迫、記憶被切斷、聲音被攔截的地方。",
+          "從奧西恩到梅里美，從博爾赫斯到納博科夫，從蒲松齡到《紅樓夢》，從葉慈到韓江，這些文本在各自的文化語境中均代表著對「誰有權書寫歷史」、「誰的聲音得以被聽見」這一根本問題的形式性回答。",
+          "《臺灣漫遊錄》厲害的地方，在於它沒有把這套古老策略照搬過來；它把偽譯放進台灣後殖民歷史的裂縫裡重新點燃。它當然是台灣文學的里程碑；但若只把它放回台灣文學內部，又會低估它對世界文學形式史的挑釁。",
+          "世界文學可以越出中心語言收編邊緣文本的舊路。它也可以反過來：由一段邊緣歷史，重新解釋那些早被中心文學史說熟了的形式。當《臺灣漫遊錄》被放在奧西恩、博爾赫斯、納博科夫、《紅樓夢》與《源氏物語》之間，台灣已經越過被比較的位置；它成了比較文學重新出發的地方。",
+          "國際布克獎評審讀到的那種「普遍性」，來自形式深處的共振，而非抽空歷史後的普遍：不同語言、不同殖民記憶、不同文學傳統，最後都碰到同一個難題——有時候，人必須繞一個彎，甚至必須說一個精心安排的謊，才說得出真相。"
+        ]
+      }
+    ],
+    readingListZh: [
+      "楊双子。《臺灣漫遊錄》。春山出版，2020。",
+      "Yang, Shuangzi [楊双子]. Taiwan Travelogue. Translated by Lin King, Graywolf Press, 2024.",
+      "Hutcheon, Linda. A Poetics of Postmodernism: History, Theory, Fiction. Routledge, 1988.",
+      "Grafton, Anthony. Forgers and Critics: Creativity and Duplicity in Western Scholarship. Princeton UP, 1990.",
+      "Ruthven, K. K. Faking Literature. Cambridge UP, 2001.",
+      "Stewart, Susan. Crimes of Writing: Problems in the Containment of Representation. Oxford UP, 1991.",
+      "Benjamin, Walter. “The Task of the Translator.” Illuminations, edited by Hannah Arendt, Schocken Books, 1968.",
+      "Borges, Jorge Luis. “Pierre Menard, Author of the Quixote.” Ficciones, translated by Andrew Hurley, Penguin, 1998.",
+      "Nabokov, Vladimir. Pale Fire. Putnam, 1962.",
+      "Calvino, Italo. If on a Winter's Night a Traveler. Translated by William Weaver, Harcourt, 1981.",
+      "Murasaki Shikibu [紫式部]. The Tale of Genji. Translated by Royall Tyler, Penguin, 2003.",
+      "楊伯峻。《列子集釋》。中華書局，1979。"
+    ],
+    referencesZh: [
+      "Anderson, Benedict. Imagined Communities: Reflections on the Origin and Spread of Nationalism. Verso, 1983.",
+      "Benjamin, Walter. “The Task of the Translator.” Translated by Harry Zohn. Illuminations, edited by Hannah Arendt, Schocken Books, 1968, pp. 69–82.",
+      "Borges, Jorge Luis. “Pierre Menard, Author of the Quixote.” Ficciones, translated by Andrew Hurley, Penguin, 1998, pp. 33–43.",
+      "Calvino, Italo. If on a Winter's Night a Traveler. Translated by William Weaver, Harcourt, 1981.",
+      "Britannica. “Ossian.” Encyclopaedia Britannica. https://www.britannica.com/topic/Ossian",
+      "Britannica. “James Macpherson.” Encyclopaedia Britannica. https://www.britannica.com/biography/James-Macpherson",
+      "de Certeau, Michel. The Practice of Everyday Life. Translated by Steven Rendall, U of California P, 1984.",
+      "Gaskill, Howard. “Ossian in Europe.” Canadian Review of Comparative Literature, vol. 21, nos. 1–2, 1994, pp. 643–678.",
+      "Grafton, Anthony. Forgers and Critics: Creativity and Duplicity in Western Scholarship. Princeton UP, 1990.",
+      "Library of Congress. “The poems of Ossian.” https://www.loc.gov/item/33005647/",
+      "Han Kang [韓江]. Human Acts. Translated by Deborah Smith, Portobello Books, 2016.",
+      "Hutcheon, Linda. A Poetics of Postmodernism: History, Theory, Fiction. Routledge, 1988.",
+      "Macpherson, James. The Poems of Ossian and Related Works. Edited by Howard Gaskill, Edinburgh UP, 1996.",
+      "Mérimée, Prosper. Theatre de Clara Gazul, suivi de La Famille de Carvajal. Edited by Patrick Berthier, Gallimard, 1985.",
+      "Montesquieu, Charles-Louis de Secondat. Persian Letters. Translated by Margaret Mauldon, Oxford UP, 2008.",
+      "Moretti, Franco. “Conjectures on World Literature.” New Left Review, vol. 1, 2000, pp. 54–68.",
+      "Murasaki Shikibu [紫式部]. The Tale of Genji. Translated by Royall Tyler, Penguin, 2003.",
+      "Nabokov, Vladimir. Pale Fire. Putnam, 1962.",
+      "National Book Foundation. “Taiwan Travelogue.” https://www.nationalbook.org/books/taiwan-travelogue/",
+      "Ruthven, K. K. Faking Literature. Cambridge UP, 2001.",
+      "Scott, Walter. Waverley; or, 'Tis Sixty Years Since. Edited by Claire Lamont, Oxford UP, 1986.",
+      "Shklovsky, Viktor. “Art as Technique.” Russian Formalist Criticism: Four Essays, translated by Lee T. Lemon and Marion J. Reis, U of Nebraska P, 1965, pp. 3–24.",
+      "Spivak, Gayatri Chakravorty. “Can the Subaltern Speak?” Marxism and the Interpretation of Culture, edited by Cary Nelson and Lawrence Grossberg, U of Illinois P, 1988, pp. 271–313.",
+      "Stewart, Susan. Crimes of Writing: Problems in the Containment of Representation. Oxford UP, 1991.",
+      "The Booker Prizes. “Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King, wins the International Booker Prize 2026.” https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the",
+      "Tymoczko, Maria. Translation in a Postcolonial Context: Early Irish Literature in English Translation. St. Jerome Publishing, 1999.",
+      "Venuti, Lawrence. The Translator's Invisibility: A History of Translation. Routledge, 1995.",
+      "White, Hayden. Metahistory: The Historical Imagination in Nineteenth-Century Europe. Johns Hopkins UP, 1973.",
+      "Yang, Shuangzi [楊双子]. Taiwan Travelogue. Translated by Lin King, Graywolf Press, 2024.",
+      "楊双子。《臺灣漫遊錄》。春山出版，2020。",
+      "楊伯峻。《列子集釋》。中華書局，1979。",
+      "曹雪芹、高鶚。《紅樓夢》。人民文學出版社，2008。",
+      "蒲松齡。《聊齋志異》。上海古籍出版社，1986。",
+      "魯迅。《故事新編》。收入《魯迅全集》第二卷，人民文學出版社，2005，頁341–504。"
+    ],
+    factCheckNotes: [
+      "奧西恩核查：Britannica 將 Ossian 詩篇與 James Macpherson 1760年代的「發現／翻譯」及後續真偽爭議相連；Library of Congress 亦將相關版本列入 literary forgeries and mystifications 主題。來源：https://www.britannica.com/topic/Ossian；https://www.loc.gov/item/33005647/",
+      "《源氏物語》核查：物語辯護論位於「螢」帖（第25帖），而非「蓬生」帖；本文已按此處理。",
+      "《列子》核查：現存《列子》真偽與魏晉成書問題依楊伯峻《列子集釋》處理，本文採「多數現代學者認為現存本為魏晉偽作」之保守表述。",
+      "班雅明術語核查：《譯者的任務》中 Fortleben / afterlife 脈絡可譯為「後續生命」，本文避免將其簡化為單一 Nachleben。",
+      "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
+      "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026，並確認其原作語言與翻譯者資訊。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the"
+    ]
+  },
+  {
+    slug: "business-marketing-media-course-fit-portfolio-evidence-pack",
+    title: "Business, Marketing or Media? A Module-First Course-Fit Checklist + Mini Portfolio Plan",
+    date: "2026-05-24",
+    category: "University Pathways",
+    column: "study",
+    kicker: "Course fit · Evidence pack",
+    author: "留學導報編輯部",
+    summary: "A practical way to choose between Business, Marketing and Media programmes by reading modules (not just course names), then building a small evidence pack and portfolio that supports honest statements and interviews without over-claiming outcomes.",
+    titleZh: "商科、行銷還是媒體？用「課程模組」判斷適配度：選科清單＋迷你作品集方案",
+    summaryZh: "不要只看課程名稱與排名；先讀課程模組與評核方式，再做一套「證據包＋迷你作品集」：既能支援 Personal Statement / SOP 與面試，又能避免空泛或誇大，讓申請更可核對、也更合規。",
+    body: [
+      {
+        heading: "1) Start with modules, assessments, and graduate skills",
+        paragraphs: [
+          "Course titles overlap. What really differs is the module mix (strategy, consumer behaviour, analytics, media theory, production, branding), the assessment style (essays, reports, group projects, presentations, portfolios) and the skill outcomes.",
+          "Before deciding, pull the module list for each programme and mark: (a) 3 modules you are genuinely curious about, (b) 2 modules you feel underprepared for, and (c) the main assessment types.",
+          "If a programme is heavily quantitative (statistics, econometrics, marketing analytics), plan how you will show readiness (maths background, spreadsheet work, simple data projects) rather than hoping motivation alone will carry it."
+        ]
+      },
+      {
+        heading: "2) Build a one-page course-fit evidence pack (easy to reuse)",
+        paragraphs: [
+          "Create a single-page evidence pack that you can reuse across applications: your target programme, 3 module links, 3 evidence bullets, and 2 learning goals for your first term.",
+          "Evidence can be small but specific: a club role, a part-time job task, a short online course certificate, a reading log, or a mini research note with sources.",
+          "Keep claims cautious and verifiable: describe what you did, what you learned, and what you would improve next time."
+        ]
+      },
+      {
+        heading: "3) A mini portfolio plan: 3 small projects that fit most routes",
+        paragraphs: [
+          "Project A (analysis): choose one brand or organisation, write a 700–1,000 word campaign analysis with 3–5 sources and a short reflection on metrics and limitations.",
+          "Project B (audit): do a content audit for 10 posts (or 10 pages). Summarise themes, audience assumptions and improvements in a simple spreadsheet + 1-page insight note.",
+          "Project C (data-lite): use publicly available data (e.g., website traffic estimates, simple survey results, platform analytics screenshots) to produce 3 charts and explain what the data can and cannot show."
+        ]
+      },
+      {
+        heading: "4) A safe application line: demonstrate readiness, not promises",
+        paragraphs: [
+          "In statements and interviews, focus on readiness signals: module awareness, realistic learning plan, evidence-based examples, and an understanding that admission decisions depend on the institution's criteria and the wider applicant pool.",
+          "If you are still undecided, say so strategically: show how your evidence pack helps you test-fit between Business, Marketing and Media pathways, and what you will do in the next 6–8 weeks to reduce uncertainty."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先看「課程模組」與評核方式，不要只看課程名稱",
+        paragraphs: [
+          "商科、行銷與媒體類課程名稱常常互相重疊；真正差異在於模組組合（策略、消費者行為、數據分析、媒體理論、內容製作、品牌等）、評核形式（essay、report、group project、presentation、portfolio）與要訓練的能力。",
+          "建議把每個目標課程的 module list 拉出來，逐一標記：(a) 你真正想學的 3 個模組；(b) 你目前最不熟悉的 2 個模組；(c) 主要評核方式是什麼。",
+          "如果課程偏量化（統計、計量、行銷分析），就要提早規劃「如何證明你準備好了」：例如數學背景、試算表能力、簡單數據小專題，而不是只用熱情敘述。"
+        ]
+      },
+      {
+        heading: "二、做一份可重複使用的「一頁證據包」",
+        paragraphs: [
+          "把申請材料做成一頁式 evidence pack：目標課程、3 個模組連結、3 條可核對的證據點、以及開學第一學期的 2 個學習目標。",
+          "證據不必很大，但要具體：社團職務、兼職工作任務、短課程證書、閱讀筆記、帶來源的 mini research note 都可以。",
+          "表述要保守且可驗證：說清楚你做了什麼、學到什麼、下次會怎麼改進，避免誇大或把結果講成保證。"
+        ]
+      },
+      {
+        heading: "三、迷你作品集：3 個小專題，幾乎適用所有路線",
+        paragraphs: [
+          "專題 A（分析）：選一個品牌或機構，寫 700–1,000 字的 campaign 分析，引用 3–5 個資料來源，並補一段對指標與限制的反思。",
+          "專題 B（盤點）：做一份 10 篇貼文（或 10 個網頁）的 content audit，用簡單表格整理主題、受眾假設與改進建議，再配一頁 insight note。",
+          "專題 C（輕數據）：用公開資料或可分享的數據截圖（例如平台分析、簡單問卷結果）做 3 張圖表，並解釋這些數據「能說明什麼」與「不能說明什麼」。"
+        ]
+      },
+      {
+        heading: "四、合規的申請敘事：展示準備度，而不是承諾結果",
+        paragraphs: [
+          "Personal Statement / SOP 與面試建議聚焦在「準備度訊號」：你了解模組、你有可執行的學習計劃、例子有證據、也明白錄取取決於校方標準與整體競爭情況。",
+          "如果你仍在 Business／Marketing／Media 之間猶豫，可以用更成熟的方式呈現：說明你如何用 evidence pack 來做路線 test-fit，以及未來 6–8 週你會做哪些行動（補課、做專題、閱讀與反思）來降低不確定性。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-health-social-care-bilingual-study-series-plan",
     title: "Overseas Publishing Plans an OTHM Health & Social Care Bilingual Study Series",
     date: "2026-05-24",
@@ -4801,7 +5240,11 @@ function zhReviewTitleHtml(title) {
     "推薦信",
     "信託",
     "澳洲",
-    "英國"
+    "英國",
+    "臺灣漫遊錄",
+    "偽譯",
+    "比較文學",
+    "學術文化"
   ];
   const pattern = new RegExp(keywords.map((keyword) => keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
   return title.replace(pattern, (match) => `<mark class="zh-review-keyword">${match}</mark>`);
@@ -4909,6 +5352,141 @@ function zhArticleRoadmap(article, checklist) {
   `;
 }
 
+function zhAcademicMarginFigure(article, index) {
+  const shared = {
+    train: {
+      label: "鐵道旅行",
+      caption: "殖民地移動、觀看與記錄",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M18 82 H142" /><path d="M28 92 H58 M74 92 H104 M120 92 H142" /><path d="M35 68 C54 54 92 50 124 66" /><path d="M36 69 L122 69 L132 82 L26 82 Z" /><rect x="48" y="61" width="18" height="10" /><rect x="74" y="58" width="18" height="13" /><rect x="100" y="61" width="18" height="10" /><circle cx="48" cy="82" r="6" /><circle cx="112" cy="82" r="6" /><path d="M18 39 C36 29 50 31 65 39 C82 49 99 49 118 36 C128 30 138 29 146 32" /></svg>`
+    },
+    table: {
+      label: "餐桌檔案",
+      caption: "食物、階級與日常生活政治",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><ellipse cx="80" cy="70" rx="48" ry="18" /><ellipse cx="80" cy="66" rx="30" ry="10" /><path d="M52 75 L44 104 M108 75 L116 104" /><path d="M35 45 C54 33 72 36 82 47 C94 60 119 55 130 42" /><path d="M53 49 C56 43 64 41 70 45 M91 48 C96 42 105 42 111 48" /><path d="M40 59 C49 65 49 75 40 82 M120 59 C111 65 111 75 120 82" /></svg>`
+    },
+    contact: {
+      label: "接觸地帶",
+      caption: "翻譯、凝視與權力交會",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M36 26 H91 V83 H36 Z" /><path d="M69 37 H123 V96 H69 Z" /><path d="M47 42 H79 M47 54 H82 M47 66 H73" /><path d="M82 53 H111 M82 65 H112 M82 77 H101" /><path d="M60 92 C72 80 85 80 99 92" /><path d="M31 91 C45 106 60 108 75 99" /><path d="M129 29 C112 17 96 19 83 29" /></svg>`
+    },
+    archive: {
+      label: "女性書寫",
+      caption: "被壓低的聲音與情感檔案",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M36 26 C57 20 72 28 80 44 C88 28 105 20 124 27 V88 C106 80 91 84 80 98 C69 84 52 80 36 88 Z" /><path d="M80 44 V98" /><path d="M49 42 H67 M49 55 H70 M49 68 H64" /><path d="M93 42 H113 M91 55 H112 M96 68 H109" /><path d="M51 98 C65 105 94 105 110 98" /></svg>`
+    },
+    manuscript: {
+      label: "偽譯手稿",
+      caption: "原文、譯文與作者位置",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M42 20 H116 C122 20 126 26 123 32 C119 42 119 79 126 93 C129 99 124 104 116 104 H42 C50 91 51 36 42 20 Z" /><path d="M52 38 H101 M52 50 H112 M52 62 H94 M52 74 H106" /><path d="M105 22 C98 31 100 42 112 47" /><path d="M35 92 C51 88 65 91 78 100" /></svg>`
+    },
+    ossian: {
+      label: "奧西恩",
+      caption: "虛構古詩與民族文學想像",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M20 83 C40 61 52 66 66 80 C83 54 102 48 140 82" /><path d="M31 84 H145" /><path d="M57 70 C58 50 72 39 91 37 C102 36 112 31 120 23" /><path d="M82 39 C79 28 83 20 94 16" /><path d="M54 58 C42 54 36 46 36 35" /><path d="M102 52 C114 52 124 58 131 70" /><circle cx="94" cy="16" r="3" /></svg>`
+    },
+    labyrinth: {
+      label: "書頁迷宮",
+      caption: "後設文本與注釋權力",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><rect x="33" y="22" width="94" height="76" rx="2" /><path d="M50 39 H110 V51 H67 V62 H118 V75 H82 V86 H49" /><path d="M47 39 V86 H58" /><path d="M72 39 V28 M95 98 V86" /><path d="M33 98 C52 106 106 106 127 98" /></svg>`
+    },
+    scroll: {
+      label: "物語卷軸",
+      caption: "虛構比正史更接近人情",
+      svg: `<svg viewBox="0 0 160 120" aria-hidden="true"><path d="M35 37 C43 25 59 25 67 37 H123 C132 37 137 45 133 53 C128 64 128 76 134 88 H66 C57 100 42 99 35 88 C43 76 43 49 35 37 Z" /><path d="M67 37 C73 50 73 75 66 88" /><path d="M82 52 H118 M82 64 H113 M82 76 H121" /><circle cx="50" cy="37" r="8" /><circle cx="50" cy="88" r="8" /></svg>`
+    }
+  };
+  const articleFigures = {
+    "taiwan-travelogue-multidimensional-literary-politics": {
+      1: shared.train,
+      3: shared.table,
+      5: shared.contact,
+      7: shared.archive
+    },
+    "taiwan-travelogue-pseudo-translation-comparative-literature": {
+      1: shared.manuscript,
+      2: shared.ossian,
+      3: shared.scroll,
+      4: shared.labyrinth
+    }
+  };
+  const figure = articleFigures[article.slug] && articleFigures[article.slug][index];
+  if (!figure) return "";
+  return `
+                <aside class="zh-academic-margin-figure ${index % 2 ? "is-right" : "is-left"}">
+                  <div class="zh-academic-sketch">${figure.svg}</div>
+                  <strong>${figure.label}</strong>
+                  <span>${figure.caption}</span>
+                </aside>
+  `;
+}
+
+function zhAcademicParagraph(paragraph) {
+  const subsectionMatch = paragraph.match(/^(\d+\.\d)\s+([^。]+。)(.*)$/);
+  if (subsectionMatch) {
+    return `<p><span class="zh-academic-subtitle">${subsectionMatch[2]}</span>${subsectionMatch[3]}</p>`;
+  }
+  return `<p>${paragraph}</p>`;
+}
+
+function zhAcademicReadingTag(reference) {
+  const lower = reference.toLowerCase();
+  if (/楊双子|yang, shuangzi|taiwan travelogue|臺灣漫遊錄/.test(lower)) return "核心文本";
+  if (/hutcheon|genette|white|moretti|borges|nabokov|calvino|pessoa|zenith|grafton|ruthven|stewart/.test(lower)) return "形式理論";
+  if (/bhabha|pratt|said|spivak|casanova|damrosch|tymosczko|tymo|venuti|anderson/.test(lower)) return "殖民與翻譯";
+  if (/murasaki|源氏|列子|紅樓夢|聊齋|魯迅|楊伯峻|紫式部|蒲松齡|曹雪芹/.test(lower)) return "東亞古典";
+  if (/showalter|chow|butler|fraser|habermas|bourdieu|certeau|appadurai|mintz/.test(lower)) return "社會與性別";
+  if (/陳芳明|葉石濤|黃美娥|kleeman|liao|chou|佐藤春夫/.test(lower)) return "台灣文學史";
+  return "延伸線索";
+}
+
+function zhAcademicReadingParts(reference) {
+  const quoted = reference.match(/《([^》]+)》/);
+  if (quoted) {
+    const before = reference.slice(0, quoted.index).replace(/[。.\s]+$/g, "");
+    const after = reference.slice(quoted.index + quoted[0].length).replace(/^[。.\s]+/g, "");
+    return {
+      title: `《${quoted[1]}》`,
+      byline: before || zhAcademicReadingTag(reference),
+      detail: after || reference
+    };
+  }
+  const englishTitle = reference.match(/\. ([^.]+?)\. (?:Translated|Edited|Routledge|Princeton|Harvard|Cambridge|Oxford|U of|University|Verso|Penguin|Putnam|Harcourt|Schocken|Graywolf|Pantheon|Viking|MIT|Johns Hopkins|St\.|Edinburgh)/);
+  if (englishTitle) {
+    const title = englishTitle[1].trim();
+    const byline = reference.slice(0, englishTitle.index + 1).replace(/\.$/, "");
+    const detail = reference.slice(englishTitle.index + englishTitle[0].indexOf(title) + title.length).replace(/^[. ]+/, "");
+    return { title, byline, detail: detail || reference };
+  }
+  const articleTitle = reference.match(/[“"](.*?)[”"]/);
+  if (articleTitle) {
+    const byline = reference.slice(0, articleTitle.index).replace(/[.。\s]+$/g, "");
+    const detail = reference.slice(articleTitle.index + articleTitle[0].length).replace(/^[.。\s]+/g, "");
+    return {
+      title: `“${articleTitle[1]}”`,
+      byline: byline || zhAcademicReadingTag(reference),
+      detail: detail || reference
+    };
+  }
+  return {
+    title: reference.split(". ")[1] || reference,
+    byline: reference.split(". ")[0] || zhAcademicReadingTag(reference),
+    detail: reference
+  };
+}
+
+function zhAcademicReadingCard(reference, index) {
+  const parts = zhAcademicReadingParts(reference);
+  const tiltClass = `tilt-${(index % 5) + 1}`;
+  return `
+              <article class="zh-academic-reading-chip ${tiltClass}">
+                <span>${zhAcademicReadingTag(reference)}</span>
+                <strong>${parts.title}</strong>
+                <em>${parts.byline}</em>
+                <small>${parts.detail}</small>
+              </article>
+  `;
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -4927,8 +5505,32 @@ function zhArticleMagazineBody(article) {
   const checklist = cleanedSections.slice(0, 7);
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
 
+  const pageClass = article.academic ? " zh-academic-page" : "";
+  const mainClass = article.academic ? " zh-academic-main" : "";
+  const readingReferences = article.readingListZh && article.readingListZh.length
+    ? article.readingListZh
+    : article.referencesZh;
+  const academicReferences = readingReferences && readingReferences.length ? `
+          <section class="zh-academic-bibliography">
+            <h2 class="zh-herald-section-head" data-num="讀">延伸閱讀</h2>
+            <p class="zh-academic-source-note">以下以延伸閱讀方式呈現，供讀者順著本文問題意識繼續追索；獎項、日期與網頁事實另置於下方編校核查。</p>
+            <div class="zh-academic-reading-ribbon">reading map · 小貼紙書目</div>
+            <div class="zh-academic-reading-board">
+              ${readingReferences.map((reference, index) => zhAcademicReadingCard(reference, index)).join("")}
+            </div>
+          </section>
+  ` : "";
+  const factCheckNotes = article.factCheckNotes && article.factCheckNotes.length ? `
+          <details class="zh-academic-factcheck">
+            <summary>編校核查</summary>
+            <p>以下為《留學導報》刊載編校核查，不屬於作者正文；僅用於說明本頁發布時已核對的關鍵事實與參考依據。</p>
+            <ul>
+              ${article.factCheckNotes.map((note) => `<li>${note}</li>`).join("")}
+            </ul>
+          </details>
+  ` : "";
   return `
-    <div class="zh-herald-page">
+    <div class="zh-herald-page${pageClass}">
       <div class="zh-herald-masthead">
         <div>
           <div class="zh-herald-name-en">Overseas Study Review</div>
@@ -4956,26 +5558,39 @@ function zhArticleMagazineBody(article) {
         <h1>${article.titleZh || article.title}</h1>
         <p class="zh-herald-standfirst">${article.summaryZh || article.summary}</p>
         <div class="zh-herald-byline">
-          <span>${article.author}</span>
+          <span>作者：${article.author}</span>
           <i></i>
           <span>閱讀時間約 ${readingMinutes} 分鐘</span>
           <i></i>
-          <span>${reviewColumn.audience}</span>
+          <span>${article.academic ? "全文刊登 · 作者版權所有" : reviewColumn.audience}</span>
         </div>
       </header>
+      ${article.academic ? `
+      <div class="zh-academic-publication-strip">
+        <span>《留學導報》刊載資訊</span>
+        <strong>${article.publicationCode || "留學導報學術文化欄"}</strong>
+        <em>${article.rightsNotice || "作者版權所有。未經許可，不得轉載、摘編或改寫。"}</em>
+      </div>
+      ` : ""}
       ${heraldSubscribeCta("zh")}
       ${shareLinksHerald(article, "zh", "top")}
       <div class="zh-herald-body-grid">
-        <main class="zh-herald-main">
+        <main class="zh-herald-main${mainClass}">
           ${firstSection ? `
             <div class="zh-herald-pullquote">
               <p>${firstSection.paragraphs[0].replace(/。.*$/, "。")}</p>
             </div>
           ` : ""}
-          ${cleanedSections.map((section, index) => `
-            <section>
+          ${cleanedSections.map((section, index) => {
+            const marginFigure = article.academic ? zhAcademicMarginFigure(article, index) : "";
+            return `
+            <section class="${marginFigure ? "zh-academic-illustrated-section" : ""}">
               <h2 class="zh-herald-section-head" data-num="${zhSectionNums[index] || index + 1}">${section.heading}</h2>
+              ${marginFigure}
               ${section.paragraphs.map((paragraph, pIndex) => {
+                if (article.academic) {
+                  return zhAcademicParagraph(paragraph);
+                }
                 if (index === 1 && pIndex === 0) {
                   return `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">導報提示</div><p>${paragraph}</p></div>`;
                 }
@@ -4985,14 +5600,15 @@ function zhArticleMagazineBody(article) {
                 return `<p>${paragraph}</p>`;
               }).join("")}
             </section>
-          `).join("")}
+          `;
+          }).join("")}${academicReferences}${factCheckNotes}
           <div class="zh-herald-warning-box">
-            <div class="zh-herald-box-title">重要提示</div>
-            <p>本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。</p>
+            <div class="zh-herald-box-title">${article.academic ? "版權聲明" : "重要提示"}</div>
+            <p>${article.academic ? (article.rightsNotice || "作者版權所有。本文由《留學導報》全文刊登，未經許可，不得轉載、摘編、改寫或作商業使用。") : "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"}</p>
           </div>
-          <div class="zh-herald-disclaimer">本文由留學導報編輯部編製。留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。</div>
+          <div class="zh-herald-disclaimer">${article.academic ? `作者：${article.author || "蕭珩"}。${article.publicationCode || "《留學導報》學術文化欄"}。本文為作者授權《留學導報》全文刊登版本，文章著作權歸作者所有；《留學導報》保留本版式、編排、網頁發布與刊載記錄之相關權利。` : "本文由留學導報編輯部編製。留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。"}</div>
         </main>
-        <aside class="zh-herald-side">
+        ${article.academic ? "" : `<aside class="zh-herald-side">
           <div class="zh-herald-widget">
             <div class="zh-herald-widget-title">本文速讀</div>
             <div class="zh-herald-trust-card family">
@@ -5056,7 +5672,7 @@ function zhArticleMagazineBody(article) {
               `).join("")}
             </div>
           ` : ""}
-        </aside>
+        </aside>`}
       </div>
       ${zhArticleRoadmap(article, checklist)}
       ${article.slug.includes("australia") ? `
@@ -5113,7 +5729,7 @@ const insights = pageShell({
           <article class="insight-card ${index === 0 ? "insight-card-feature" : ""}">
             <div class="insight-card-meta"><span>${article.category}</span><time>${article.date}</time></div>
             <h3>${article.title}</h3>
-            <h4>${article.titleZh || ""}</h4>
+            ${article.titleZh && article.titleZh !== article.title ? `<h4>${article.titleZh}</h4>` : ""}
             <p>${article.summary}</p>
             <a class="insight-link" href="/insights/${article.slug}/">Read briefing</a>
           </article>
@@ -7664,7 +8280,7 @@ const creditAlliance = pageShell({
   description: "海外督導學分聯盟：以 OTHM、Open University、英澳美加紐學分與先前學習記錄為基礎，整理跨國升學、credit transfer、RPL 與申請文件路線。",
   path: "/insights/credit-alliance/",
   body: `
-    <link rel="stylesheet" href="/styles.css?v=credit-alliance-newspaper-20260523">
+    <link rel="stylesheet" href="/styles.css?v=academic-reading-stickers-20260524">
     <main class="credit-alliance-page">
       <header class="credit-herald-masthead">
         <div>

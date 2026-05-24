@@ -107,7 +107,7 @@ function footer(locale = "en") {
           <div class="footer-col">
             <strong>學術誠信</strong>
             <p>資源用於支持理解、詞彙、研究規劃與負責任的學術準備。</p>
-            <p>它們不是範文、官方 assessment 文件，也不是學習成果證明。</p>
+            <p>它們僅作公開資訊與學習路線參考，不構成範文、官方 assessment 文件或學習成果證明。</p>
           </div>
           <div class="footer-col footer-contact">
             <strong>聯絡與出版信息</strong>
@@ -320,7 +320,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="twitter:description" content="${description}">
   ${socialImageUrl ? `<meta name="twitter:image" content="${socialImageUrl}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=academic-reading-stickers-20260524">
 </head>
 <body>
   ${nav(current, locale)}
