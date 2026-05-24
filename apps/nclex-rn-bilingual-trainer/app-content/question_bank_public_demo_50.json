@@ -1,0 +1,2041 @@
+{
+  "version": "0.1",
+  "status": "50-item public demo candidate pool for website/app preview; excludes high-risk clinical items and still requires editorial review before publication.",
+  "disclaimer": "Independent educational practice items. Not official NCLEX questions and not copied from any commercial QBank. Demo items do not predict exam, registration, visa or employment outcomes.",
+  "selection_policy": {
+    "source_pool": "Internal candidate pool under clinical and compliance review",
+    "excluded_risk_level": "high",
+    "excluded_categories": [
+      "pharmacology",
+      "maternal_child",
+      "prioritization",
+      "ngn",
+      "safety_infection"
+    ],
+    "intended_use": "public demo, lead magnet, website preview and low-risk app showcase"
+  },
+  "items": [
+    {
+      "id": "E002",
+      "category": "english_wording",
+      "stem": "In an NCLEX question, the word 'priority' usually means:",
+      "stem_zh": "NCLEX 題目中的 priority 通常表示：",
+      "options": [
+        [
+          "A",
+          "The answer that is easiest to do.",
+          "最容易做的答案。"
+        ],
+        [
+          "B",
+          "The answer that is safest or most urgent now.",
+          "此刻最安全或最緊急的答案。"
+        ],
+        [
+          "C",
+          "The answer that includes the most information.",
+          "包含最多資訊的答案。"
+        ],
+        [
+          "D",
+          "The answer that is usually done at discharge.",
+          "通常出院時做的答案。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Priority asks for the safest or most urgent nursing action in context.",
+      "rationale_zh": "Priority 問的是該情境中最安全或最緊急的護理行動。",
+      "wrong_tags": [
+        "english_wording",
+        "prioritization"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "E003",
+      "category": "english_wording",
+      "stem": "The phrase 'expected finding' in a question usually asks the learner to identify:",
+      "stem_zh": "題目中的 expected finding 通常要求考生辨識：",
+      "options": [
+        [
+          "A",
+          "A normal or anticipated finding for the condition or treatment.",
+          "對該情況或治療而言正常/可預期的發現。"
+        ],
+        [
+          "B",
+          "The most dangerous finding.",
+          "最危險的發現。"
+        ],
+        [
+          "C",
+          "The finding that requires immediate provider notification.",
+          "需立即通知醫師/團隊的發現。"
+        ],
+        [
+          "D",
+          "The finding the family expects.",
+          "家屬期待的發現。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Expected finding means anticipated or consistent with the condition/treatment, not necessarily urgent.",
+      "rationale_zh": "Expected finding 表示與情況/治療一致或可預期，不一定緊急。",
+      "wrong_tags": [
+        "english_wording"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "E006",
+      "category": "english_wording",
+      "stem": "The phrase 'requires immediate intervention' most closely means:",
+      "stem_zh": "requires immediate intervention 最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "Needs action now to prevent harm.",
+          "需要現在行動以防傷害。"
+        ],
+        [
+          "B",
+          "Can wait until discharge.",
+          "可等到出院。"
+        ],
+        [
+          "C",
+          "Is only a documentation issue.",
+          "只是記錄問題。"
+        ],
+        [
+          "D",
+          "Is always psychosocial only.",
+          "永遠只是心理社會問題。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Immediate intervention means prompt action is needed for safety or clinical risk.",
+      "rationale_zh": "Immediate intervention 表示因安全或臨床風險需要及時處理。",
+      "wrong_tags": [
+        "english_wording"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "E007",
+      "category": "english_wording",
+      "stem": "The phrase 'no further action is needed' is safest only when:",
+      "stem_zh": "no further action is needed 只有在什麼情況下才安全？",
+      "options": [
+        [
+          "A",
+          "The finding is expected and no safety concern exists.",
+          "該發現可預期且無安全風險。"
+        ],
+        [
+          "B",
+          "The option is short.",
+          "選項很短。"
+        ],
+        [
+          "C",
+          "The client is upset.",
+          "病人不高興。"
+        ],
+        [
+          "D",
+          "The nurse is busy.",
+          "護理師很忙。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "No further action is appropriate only when the finding is expected and safe.",
+      "rationale_zh": "只有當發現可預期且安全時，才適合不需進一步行動。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "T001",
+      "category": "test_strategy",
+      "stem": "A learner often changes correct answers to wrong answers without new evidence. Which strategy is best?",
+      "stem_zh": "學員常在沒有新證據時把正確答案改成錯誤答案。最佳策略是？",
+      "options": [
+        [
+          "A",
+          "Always change the first answer.",
+          "永遠改第一直覺答案。"
+        ],
+        [
+          "B",
+          "Never review flagged questions.",
+          "永遠不要回看標記題。"
+        ],
+        [
+          "C",
+          "Change an answer only when a specific cue proves the first choice is unsafe or incorrect.",
+          "只有當具體線索證明原答案不安全或錯誤時才改。"
+        ],
+        [
+          "D",
+          "Choose the longest option.",
+          "選最長的選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Answer changes should be evidence-based, not anxiety-based.",
+      "rationale_zh": "改答案應基於證據，而不是焦慮。",
+      "wrong_tags": [
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "T003",
+      "category": "test_strategy",
+      "stem": "Which study behavior is most likely to improve clinical judgment consistency?",
+      "stem_zh": "哪種學習行為最可能提升臨床判斷穩定性？",
+      "options": [
+        [
+          "A",
+          "Tagging every missed question by error type.",
+          "按錯因標記每一道錯題。"
+        ],
+        [
+          "B",
+          "Only counting how many questions were completed.",
+          "只計算完成題數。"
+        ],
+        [
+          "C",
+          "Changing resources every two days.",
+          "每兩天換一套資源。"
+        ],
+        [
+          "D",
+          "Skipping all rationales after correct answers.",
+          "答對後完全不看解析。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Error tagging reveals patterns and makes future review targeted.",
+      "rationale_zh": "錯因標記能揭示模式，讓後續複習更有針對性。",
+      "wrong_tags": [
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "T005",
+      "category": "test_strategy",
+      "stem": "Which behavior best supports timed-practice improvement?",
+      "stem_zh": "哪種行為最能支持限時練習進步？",
+      "options": [
+        [
+          "A",
+          "Review why each wrong option was tempting.",
+          "複盤每個錯誤選項為何有誘惑性。"
+        ],
+        [
+          "B",
+          "Only celebrate the score.",
+          "只看分數。"
+        ],
+        [
+          "C",
+          "Skip all questions with long stems.",
+          "跳過所有長題幹。"
+        ],
+        [
+          "D",
+          "Translate every word in the final week.",
+          "最後一週逐字翻譯每個詞。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Understanding distractors improves reasoning and reduces repeat mistakes.",
+      "rationale_zh": "理解干擾選項能提升推理並減少重複錯誤。",
+      "wrong_tags": [
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "T006",
+      "category": "test_strategy",
+      "stem": "Which review method is best for NGN case studies?",
+      "stem_zh": "NGN case studies 最佳複習方法是？",
+      "options": [
+        [
+          "A",
+          "Write the key cues and why they matter.",
+          "寫下關鍵線索及其重要性。"
+        ],
+        [
+          "B",
+          "Only memorize the final answer.",
+          "只背最終答案。"
+        ],
+        [
+          "C",
+          "Skip long cases.",
+          "跳過長病例。"
+        ],
+        [
+          "D",
+          "Read rationales without noting errors.",
+          "看解析但不記錯因。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "NGN improvement depends on cue recognition and reasoning, not answer memorization only.",
+      "rationale_zh": "NGN 進步取決於線索辨識和推理，而不只是背答案。",
+      "wrong_tags": [
+        "test_strategy",
+        "cue_recognition"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 4
+    },
+    {
+      "id": "E004",
+      "category": "english_wording",
+      "stem": "When a question asks for the 'best' response, the learner should choose the option that is:",
+      "stem_zh": "當題目問 best response 時，考生應選：",
+      "options": [
+        [
+          "A",
+          "Always the longest option.",
+          "永遠最長的選項。"
+        ],
+        [
+          "B",
+          "The safest and most therapeutic in the given context.",
+          "該情境中最安全且最具治療性的選項。"
+        ],
+        [
+          "C",
+          "The option with the most medical terms.",
+          "醫學術語最多的選項。"
+        ],
+        [
+          "D",
+          "The option that gives personal advice.",
+          "提供個人建議的選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Best asks for the most appropriate response in context, often combining safety and therapeutic communication.",
+      "rationale_zh": "Best 問的是情境中最合適的回應，常結合安全與治療性溝通。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 8
+    },
+    {
+      "id": "E005",
+      "category": "english_wording",
+      "stem": "When an option says 'notify the provider,' what should the learner check first?",
+      "stem_zh": "選項寫 notify the provider 時，考生應先檢查什麼？",
+      "options": [
+        [
+          "A",
+          "Whether nursing assessment or immediate safety action is needed first.",
+          "是否需先做護理評估或立即安全行動。"
+        ],
+        [
+          "B",
+          "Whether it is the longest option.",
+          "是否最長。"
+        ],
+        [
+          "C",
+          "Whether it sounds dramatic.",
+          "是否聽起來嚴重。"
+        ],
+        [
+          "D",
+          "Whether the family asked for it.",
+          "是否家屬要求。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Notification may be correct, but the nurse often needs focused assessment or immediate safety intervention first.",
+      "rationale_zh": "通知可能正確，但護理師常需先做重點評估或立即安全處理。",
+      "wrong_tags": [
+        "english_wording",
+        "prioritization"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 8
+    },
+    {
+      "id": "E001",
+      "category": "english_wording",
+      "stem": "The question asks which statement by the client indicates a need for further teaching. What is the question asking you to find?",
+      "stem_zh": "題目問病人哪句話 indicates a need for further teaching。這是在問你找什麼？",
+      "options": [
+        [
+          "A",
+          "The statement that is correct.",
+          "正確的句子。"
+        ],
+        [
+          "B",
+          "The statement that shows misunderstanding.",
+          "顯示誤解的句子。"
+        ],
+        [
+          "C",
+          "The statement that is most polite.",
+          "最有禮貌的句子。"
+        ],
+        [
+          "D",
+          "The statement that repeats the nurse's words.",
+          "重複護理師原話的句子。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Further teaching means the client has misunderstood or needs more instruction.",
+      "rationale_zh": "Further teaching 表示病人有誤解或仍需更多教學。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 12
+    },
+    {
+      "id": "T002",
+      "category": "test_strategy",
+      "stem": "A learner's wrong-answer log shows repeated 'English wording' mistakes. Which action is most useful?",
+      "stem_zh": "學員錯題紀錄反覆出現 English wording 錯誤。哪項最有用？",
+      "options": [
+        [
+          "A",
+          "Ignore the wording and do more random questions only.",
+          "忽略題幹，只多做隨機題。"
+        ],
+        [
+          "B",
+          "Build a list of command phrases such as first, priority, follow-up and further teaching.",
+          "建立 first、priority、follow-up、further teaching 等指令詞清單。"
+        ],
+        [
+          "C",
+          "Stop reading rationales.",
+          "停止看解析。"
+        ],
+        [
+          "D",
+          "Translate every word slowly during timed practice.",
+          "限時練習時逐字慢慢翻譯。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Repeated wording mistakes need targeted command-phrase training, not only more random practice.",
+      "rationale_zh": "反覆題幹理解錯誤需要針對指令詞訓練，而不只是多做隨機題。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 12
+    },
+    {
+      "id": "T004",
+      "category": "test_strategy",
+      "stem": "Which approach is best after missing multiple pharmacology questions?",
+      "stem_zh": "連續錯多道藥理題後，哪種方法最好？",
+      "options": [
+        [
+          "A",
+          "Create class-based medication cards.",
+          "建立按藥物類別整理的卡片。"
+        ],
+        [
+          "B",
+          "Stop studying pharmacology.",
+          "停止學藥理。"
+        ],
+        [
+          "C",
+          "Memorize only one drug name.",
+          "只背一個藥名。"
+        ],
+        [
+          "D",
+          "Switch resources every hour.",
+          "每小時換資源。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Class-based medication cards help organize purpose, risks, monitoring and teaching.",
+      "rationale_zh": "按類別整理藥卡有助於組織用途、風險、監測與教學。",
+      "wrong_tags": [
+        "test_strategy",
+        "knowledge_gap"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 12
+    },
+    {
+      "id": "AUTO30_018",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_027",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"expected finding\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「expected finding」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a finding consistent with the condition or treatment",
+          "與情況或治療相符的發現"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"expected finding\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「expected finding」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_036",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"requires follow-up\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「requires follow-up」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "an abnormal or unsafe finding that needs further action",
+          "需要進一步行動的異常或不安全發現"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"requires follow-up\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「requires follow-up」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_063",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_072",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"expected finding\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「expected finding」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "a finding consistent with the condition or treatment",
+          "與情況或治療相符的發現"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"expected finding\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「expected finding」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_081",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"requires follow-up\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「requires follow-up」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "an abnormal or unsafe finding that needs further action",
+          "需要進一步行動的異常或不安全發現"
+        ],
+        [
+          "B",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The command phrase \"requires follow-up\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「requires follow-up」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "AUTO30_108",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "low",
+      "public_demo_risk_score": 10
+    },
+    {
+      "id": "OS002",
+      "category": "osce_transition",
+      "stem": "Which sentence best demonstrates patient identification before a procedure?",
+      "stem_zh": "哪句話最能展現操作前確認病人身份？",
+      "options": [
+        [
+          "A",
+          "You look like the right patient.",
+          "你看起來像是正確的病人。"
+        ],
+        [
+          "B",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期。"
+        ],
+        [
+          "C",
+          "Your family says you are the patient.",
+          "你的家人說你就是這位病人。"
+        ],
+        [
+          "D",
+          "The room number matches, so we can start.",
+          "房號一致，所以可以開始。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Using two identifiers such as full name and date of birth supports patient safety before procedures.",
+      "rationale_zh": "使用全名與出生日期等兩項身份識別有助於操作前病人安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "safety_infection"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "OS003",
+      "category": "osce_transition",
+      "stem": "Which phrase is best when explaining hand hygiene to a patient?",
+      "stem_zh": "向病人解釋手部衛生時，哪句話最合適？",
+      "options": [
+        [
+          "A",
+          "I wash my hands because the rules say so.",
+          "我洗手只是因為規定如此。"
+        ],
+        [
+          "B",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ],
+        [
+          "C",
+          "It probably does not matter.",
+          "這大概不重要。"
+        ],
+        [
+          "D",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The phrase is clear, respectful and links the action to infection risk reduction.",
+      "rationale_zh": "此句清楚、尊重，並把行動連到降低感染風險。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication",
+        "safety_infection"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "MH002",
+      "category": "therapeutic_communication",
+      "stem": "A client with hallucinations says, 'The voices are telling me I am worthless.' Which response is best?",
+      "stem_zh": "有幻聽的病人說：『那些聲音說我一文不值。』最佳回應是？",
+      "options": [
+        [
+          "A",
+          "Those voices are not real.",
+          "那些聲音不是真的。"
+        ],
+        [
+          "B",
+          "Try to ignore them.",
+          "試著不要理它們。"
+        ],
+        [
+          "C",
+          "I do not hear the voices, but I can see this is frightening for you.",
+          "我沒有聽到那些聲音，但我看得出這讓你很害怕。"
+        ],
+        [
+          "D",
+          "Why do you believe the voices?",
+          "你為什麼相信那些聲音？"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response acknowledges the client's experience without arguing with the hallucination.",
+      "rationale_zh": "此回應承認病人的感受，但不與幻聽內容爭辯。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "MH003",
+      "category": "therapeutic_communication",
+      "stem": "A client is crying after receiving a serious diagnosis. Which response is most therapeutic?",
+      "stem_zh": "病人收到嚴重診斷後哭泣。哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "You should be strong for your family.",
+          "你應該為家人堅強。"
+        ],
+        [
+          "B",
+          "At least treatment is available.",
+          "至少還有治療。"
+        ],
+        [
+          "C",
+          "This is a lot to take in. I can sit with you for a moment.",
+          "這確實很難承受，我可以陪你坐一會兒。"
+        ],
+        [
+          "D",
+          "Let's talk about your insurance forms.",
+          "我們談談你的保險表格。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response acknowledges emotion and offers presence without false reassurance or changing the subject.",
+      "rationale_zh": "此回應承認情緒並提供陪伴，沒有虛假安慰或轉移話題。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "MH005",
+      "category": "therapeutic_communication",
+      "stem": "A client says, 'No one understands how scared I am before surgery.' Which response is most therapeutic?",
+      "stem_zh": "病人說：『沒有人理解我手術前有多害怕。』哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Everyone is scared before surgery.",
+          "每個人手術前都害怕。"
+        ],
+        [
+          "B",
+          "You should trust the surgeon.",
+          "你應該相信外科醫師。"
+        ],
+        [
+          "C",
+          "Tell me what worries you the most right now.",
+          "告訴我你現在最擔心的是什麼。"
+        ],
+        [
+          "D",
+          "Let's not think about fear.",
+          "我們不要想害怕這件事。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Open-ended exploration acknowledges fear and invites expression.",
+      "rationale_zh": "開放式探索承認恐懼並鼓勵表達。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "MH006",
+      "category": "therapeutic_communication",
+      "stem": "A client says, 'I am angry that no one listens.' Which response is best?",
+      "stem_zh": "病人說：『我很生氣，沒有人聽我說。』最佳回應是？",
+      "options": [
+        [
+          "A",
+          "Calm down first.",
+          "你先冷靜。"
+        ],
+        [
+          "B",
+          "I can see you are angry. Tell me what happened.",
+          "我看得出你很生氣，告訴我發生了什麼。"
+        ],
+        [
+          "C",
+          "There is no reason to be angry.",
+          "沒有理由生氣。"
+        ],
+        [
+          "D",
+          "Other clients have worse problems.",
+          "其他病人問題更嚴重。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The response acknowledges emotion and invites expression.",
+      "rationale_zh": "此回應承認情緒並邀請表達。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "MH009",
+      "category": "therapeutic_communication",
+      "stem": "A client refuses medication and says, 'You are trying to poison me.' Which response is most therapeutic?",
+      "stem_zh": "病人拒藥並說：『你們想毒害我。』哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "That is ridiculous.",
+          "這太荒謬了。"
+        ],
+        [
+          "B",
+          "I am not trying to poison you. Tell me what worries you about the medication.",
+          "我不是要毒害你。告訴我你對藥物擔心什麼。"
+        ],
+        [
+          "C",
+          "Take it or you cannot eat.",
+          "不吃藥就不能吃飯。"
+        ],
+        [
+          "D",
+          "Your belief is completely false.",
+          "你的想法完全錯誤。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The response does not argue with the belief and explores the client's concern.",
+      "rationale_zh": "此回應不與信念爭辯，並探索病人擔憂。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 28
+    },
+    {
+      "id": "OS001",
+      "category": "osce_transition",
+      "stem": "Which phrase is most appropriate when escalating a concerning change in a client's condition?",
+      "stem_zh": "當病人狀況出現令人擔心的變化，需要升級通報時，哪句話最合適？",
+      "options": [
+        [
+          "A",
+          "I think something is weird, but I am not sure.",
+          "我覺得有點怪，但我不確定。"
+        ],
+        [
+          "B",
+          "The client is probably fine, but can you come later?",
+          "病人大概沒事，你晚點能來嗎？"
+        ],
+        [
+          "C",
+          "I am concerned because the oxygen saturation has dropped to 88% and the client is increasingly short of breath.",
+          "我擔心是因為血氧降至 88%，且病人呼吸困難加重。"
+        ],
+        [
+          "D",
+          "The family is worried, so you should see the client.",
+          "家屬很擔心，所以你應該來看。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Escalation should be specific, objective and linked to clinical concern.",
+      "rationale_zh": "升級通報應具體、客觀，並連到臨床風險。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "cue_recognition",
+        "osce_transition"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 48
+    },
+    {
+      "id": "OS004",
+      "category": "osce_transition",
+      "stem": "Which phrase best explains a pain assessment?",
+      "stem_zh": "哪句話最能解釋疼痛評估？",
+      "options": [
+        [
+          "A",
+          "I need you to pick a number because the form says so.",
+          "表格要求，所以你選數字。"
+        ],
+        [
+          "B",
+          "Can you rate your pain from 0 to 10, where 0 is no pain and 10 is the worst pain?",
+          "請用 0 到 10 評分你的疼痛，0 是不痛，10 是最嚴重。"
+        ],
+        [
+          "C",
+          "Pain is not important right now.",
+          "疼痛現在不重要。"
+        ],
+        [
+          "D",
+          "Your pain score should be low.",
+          "你的疼痛分數應該低。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The phrase is clear, patient-centered and clinically useful.",
+      "rationale_zh": "此句清楚、以病人為中心且具臨床用途。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 32
+    },
+    {
+      "id": "OS005",
+      "category": "osce_transition",
+      "stem": "Which phrase best shows escalation using objective data?",
+      "stem_zh": "哪句話最能用客觀資料做升級通報？",
+      "options": [
+        [
+          "A",
+          "The client looks bad.",
+          "病人看起來不好。"
+        ],
+        [
+          "B",
+          "The family is nervous.",
+          "家屬很緊張。"
+        ],
+        [
+          "C",
+          "The blood pressure is 88/54 and the heart rate is 122.",
+          "血壓 88/54，心率 122。"
+        ],
+        [
+          "D",
+          "I just feel worried.",
+          "我只是覺得擔心。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Objective vital-sign data makes escalation clearer and safer.",
+      "rationale_zh": "客觀生命徵象讓升級通報更清楚且安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "cue_recognition"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 32
+    },
+    {
+      "id": "OS006",
+      "category": "osce_transition",
+      "stem": "Which phrase best asks permission before assessment?",
+      "stem_zh": "評估前哪句話最能表達徵求同意？",
+      "options": [
+        [
+          "A",
+          "I am going to check your wound now; is that okay?",
+          "我現在要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "B",
+          "I do not need to explain this.",
+          "我不需要解釋。"
+        ],
+        [
+          "C",
+          "You have no choice.",
+          "你沒有選擇。"
+        ],
+        [
+          "D",
+          "I will do it quickly without telling you.",
+          "我不告訴你，快速做完。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Permission and explanation support dignity, consent and OSCE communication.",
+      "rationale_zh": "徵求同意與解釋有助於尊嚴、同意與 OSCE 溝通。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 36
+    },
+    {
+      "id": "D002",
+      "category": "delegation_scope",
+      "stem": "Which assignment should the charge nurse give to an experienced LPN/LVN rather than UAP?",
+      "stem_zh": "下列哪項更適合分配給有經驗的 LPN/LVN，而不是 UAP？",
+      "options": [
+        [
+          "A",
+          "Feeding a stable client who needs tray setup.",
+          "協助穩定病人進食並擺放餐盤。"
+        ],
+        [
+          "B",
+          "Reinforcing teaching about a dressing change after RN instruction.",
+          "在 RN 教學後補強換藥說明。"
+        ],
+        [
+          "C",
+          "Taking routine vital signs for a stable client.",
+          "為穩定病人量例行生命徵象。"
+        ],
+        [
+          "D",
+          "Transporting a discharged client by wheelchair.",
+          "用輪椅送出院病人。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Depending on jurisdiction and facility policy, LPN/LVN may reinforce teaching after RN instruction; UAP should not teach.",
+      "rationale_zh": "依地區與機構規範，LPN/LVN 可在 RN 教學後補強說明；UAP 不應承擔教學。",
+      "wrong_tags": [
+        "delegation_scope",
+        "english_wording"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 56
+    },
+    {
+      "id": "D003",
+      "category": "delegation_scope",
+      "stem": "Which client should the RN assign to another RN rather than to an LPN/LVN?",
+      "stem_zh": "下列哪位病人應由 RN 接手，而不是分配給 LPN/LVN？",
+      "options": [
+        [
+          "A",
+          "A stable client needing a scheduled oral antibiotic.",
+          "穩定病人需定時口服抗生素。"
+        ],
+        [
+          "B",
+          "A client admitted from the emergency department with new stroke symptoms.",
+          "急診收入、有新發中風症狀的病人。"
+        ],
+        [
+          "C",
+          "A client needing routine wound dressing reinforcement.",
+          "需要例行傷口敷料加強的病人。"
+        ],
+        [
+          "D",
+          "A stable client requesting assistance with hygiene.",
+          "穩定病人需要個人清潔協助。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A newly admitted unstable client with neurologic changes requires RN assessment and judgment.",
+      "rationale_zh": "新入院且有神經變化的不穩定病人需要 RN 評估與判斷。",
+      "wrong_tags": [
+        "delegation_scope",
+        "prioritization"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 52
+    },
+    {
+      "id": "D004",
+      "category": "delegation_scope",
+      "stem": "Which instruction should the RN give to UAP when delegating care?",
+      "stem_zh": "RN 委派照護給 UAP 時，哪項指示最合適？",
+      "options": [
+        [
+          "A",
+          "Assess whether the client is ready for discharge.",
+          "評估病人是否可出院。"
+        ],
+        [
+          "B",
+          "Tell me if the client becomes dizzy while walking.",
+          "如果病人行走時頭暈，請告訴我。"
+        ],
+        [
+          "C",
+          "Decide whether the medication should be held.",
+          "決定是否暫停藥物。"
+        ],
+        [
+          "D",
+          "Teach the client how to use the inhaler.",
+          "教病人使用吸入器。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "UAP may report observations during a delegated routine task; assessment, medication decisions and teaching remain RN responsibilities.",
+      "rationale_zh": "UAP 可在例行任務中回報觀察；評估、藥物決策與教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 52
+    },
+    {
+      "id": "D005",
+      "category": "delegation_scope",
+      "stem": "Which task should the RN keep rather than delegate?",
+      "stem_zh": "哪項任務應由 RN 保留而不是委派？",
+      "options": [
+        [
+          "A",
+          "Initial assessment of a newly admitted client.",
+          "新入院病人的初始評估。"
+        ],
+        [
+          "B",
+          "Obtaining a stable client's weight.",
+          "測量穩定病人體重。"
+        ],
+        [
+          "C",
+          "Assisting with routine feeding.",
+          "協助例行進食。"
+        ],
+        [
+          "D",
+          "Transporting a stable client.",
+          "運送穩定病人。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Initial assessment requires RN judgment and should not be delegated.",
+      "rationale_zh": "初始評估需要 RN 判斷，不應委派。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 40
+    },
+    {
+      "id": "D006",
+      "category": "delegation_scope",
+      "stem": "The RN delegates vital signs to UAP. Which instruction is best?",
+      "stem_zh": "RN 委派 UAP 量生命徵象。哪項指示最好？",
+      "options": [
+        [
+          "A",
+          "Report systolic blood pressure below 90 immediately.",
+          "收縮壓低於 90 立即回報。"
+        ],
+        [
+          "B",
+          "Decide whether to hold medications.",
+          "決定是否停藥。"
+        ],
+        [
+          "C",
+          "Assess the cause of fever.",
+          "評估發燒原因。"
+        ],
+        [
+          "D",
+          "Teach the client about hypertension.",
+          "教病人高血壓知識。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Delegated tasks should include clear reporting parameters. Medication decisions, assessment and teaching remain RN functions.",
+      "rationale_zh": "委派任務應有明確回報標準；藥物決策、評估與教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope",
+        "safety_infection"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 52
+    },
+    {
+      "id": "D008",
+      "category": "delegation_scope",
+      "stem": "Which statement by UAP requires RN follow-up?",
+      "stem_zh": "UAP 哪句話需要 RN 追蹤？",
+      "options": [
+        [
+          "A",
+          "I will report if the client becomes short of breath.",
+          "如果病人呼吸困難我會回報。"
+        ],
+        [
+          "B",
+          "I will teach the client how to use the incentive spirometer.",
+          "我會教病人使用 incentive spirometer。"
+        ],
+        [
+          "C",
+          "I will help the stable client bathe.",
+          "我會協助穩定病人洗澡。"
+        ],
+        [
+          "D",
+          "I will record the intake amount.",
+          "我會記錄攝入量。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Teaching requires RN responsibility and should not be performed by UAP.",
+      "rationale_zh": "教學屬 RN 職責，不應由 UAP 執行。",
+      "wrong_tags": [
+        "delegation_scope",
+        "english_wording"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 44
+    },
+    {
+      "id": "MH001",
+      "category": "therapeutic_communication",
+      "stem": "A client says, 'I cannot go on anymore. I have been thinking about ending my life.' Which response is best?",
+      "stem_zh": "病人說：『我撐不下去了，一直在想結束生命。』最佳回應是？",
+      "options": [
+        [
+          "A",
+          "You have so much to live for.",
+          "你還有很多值得活下去的理由。"
+        ],
+        [
+          "B",
+          "Do you have a plan to harm yourself?",
+          "你有傷害自己的計劃嗎？"
+        ],
+        [
+          "C",
+          "Try not to think that way.",
+          "不要那樣想。"
+        ],
+        [
+          "D",
+          "I will tell your family to stay with you.",
+          "我會叫你的家人陪你。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Direct suicide risk assessment is required and therapeutic when safety is at risk.",
+      "rationale_zh": "有自殺意念時需要直接評估風險，這是安全且治療性的做法。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "safety_infection",
+        "prioritization"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 40
+    },
+    {
+      "id": "MH004",
+      "category": "therapeutic_communication",
+      "stem": "A client with mania is pacing and speaking rapidly. Which nursing approach is best?",
+      "stem_zh": "躁症病人來回踱步、語速很快。最佳護理方式是？",
+      "options": [
+        [
+          "A",
+          "Use long detailed explanations.",
+          "使用很長很詳細的解釋。"
+        ],
+        [
+          "B",
+          "Provide a calm environment and brief clear directions.",
+          "提供安靜環境與簡短清楚指令。"
+        ],
+        [
+          "C",
+          "Encourage a large stimulating group activity.",
+          "鼓勵參加大型刺激性團體活動。"
+        ],
+        [
+          "D",
+          "Argue until the client sits down.",
+          "爭辯直到病人坐下。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A calm, low-stimulation environment and brief directions support safety and communication.",
+      "rationale_zh": "安靜低刺激環境與簡短指令有助於安全與溝通。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "safety_infection"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 32
+    },
+    {
+      "id": "MH007",
+      "category": "therapeutic_communication",
+      "stem": "Which response is best for a client expressing fear before a procedure?",
+      "stem_zh": "病人在操作前表達恐懼，哪個回應最佳？",
+      "options": [
+        [
+          "A",
+          "Tell me what you understand about the procedure.",
+          "告訴我你對這個操作的理解。"
+        ],
+        [
+          "B",
+          "It is not scary.",
+          "這不可怕。"
+        ],
+        [
+          "C",
+          "Everyone does fine.",
+          "每個人都沒事。"
+        ],
+        [
+          "D",
+          "Do not ask questions now.",
+          "現在不要問問題。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Assessing understanding helps identify concerns and supports teaching.",
+      "rationale_zh": "評估理解有助於找出擔憂並支持教學。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "english_wording"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 36
+    },
+    {
+      "id": "MH008",
+      "category": "therapeutic_communication",
+      "stem": "A client with panic reports feeling unable to breathe. Which action is best?",
+      "stem_zh": "恐慌病人表示覺得無法呼吸。哪項行動最佳？",
+      "options": [
+        [
+          "A",
+          "Stay with the client and speak in a calm, simple manner.",
+          "陪伴病人並用平靜簡短語言說話。"
+        ],
+        [
+          "B",
+          "Tell the client to stop overreacting.",
+          "告訴病人不要反應過度。"
+        ],
+        [
+          "C",
+          "Leave the client alone to calm down.",
+          "讓病人獨自冷靜。"
+        ],
+        [
+          "D",
+          "Use complex explanations.",
+          "使用複雜解釋。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Presence and calm simple communication support safety during panic.",
+      "rationale_zh": "陪伴與簡短平靜溝通有助於恐慌時的安全。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "safety_infection"
+      ],
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 32
+    },
+    {
+      "id": "AUTO30_008",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 38
+    },
+    {
+      "id": "AUTO30_017",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates consent before wound assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現傷口評估前徵求同意？",
+      "options": [
+        [
+          "A",
+          "I need to check your wound now; is that okay?",
+          "我現在需要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Permission and explanation support dignity and consent.",
+      "rationale_zh": "徵求同意與解釋有助尊嚴和同意。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 42
+    },
+    {
+      "id": "AUTO30_026",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates patient identification in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現病人身份確認？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期？"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Two identifiers support safety before care.",
+      "rationale_zh": "兩項身份識別有助照護前安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 34
+    },
+    {
+      "id": "AUTO30_035",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates hand hygiene explanation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現手部衛生解釋？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The explanation links the action to patient safety.",
+      "rationale_zh": "此解釋將行動與病人安全連結。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 34
+    },
+    {
+      "id": "AUTO30_044",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates SBAR escalation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現SBAR 升級通報？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "The blood pressure is 88/54 and heart rate is 122.",
+          "血壓 88/54，心率 122。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Objective data makes escalation clearer.",
+      "rationale_zh": "客觀資料讓升級通報更清楚。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 42
+    },
+    {
+      "id": "AUTO30_053",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 38
+    },
+    {
+      "id": "AUTO30_062",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates consent before wound assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現傷口評估前徵求同意？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I need to check your wound now; is that okay?",
+          "我現在需要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Permission and explanation support dignity and consent.",
+      "rationale_zh": "徵求同意與解釋有助尊嚴和同意。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 42
+    },
+    {
+      "id": "AUTO30_071",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates patient identification in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現病人身份確認？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期？"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Two identifiers support safety before care.",
+      "rationale_zh": "兩項身份識別有助照護前安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 34
+    },
+    {
+      "id": "AUTO30_006",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review",
+      "public_demo_candidate": true,
+      "public_demo_risk_level": "medium",
+      "public_demo_risk_score": 54
+    }
+  ]
+}

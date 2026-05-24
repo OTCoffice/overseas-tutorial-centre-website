@@ -1615,6 +1615,8 @@ function searchItems() {
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
     ["Apps & Tools", "/apps/", "UCBELT, Australian citizenship test, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
+    ["NCLEX-RN Bilingual Clinical Judgment Demo", "/apps/nclex-rn-bilingual-demo/", "Independent OTC bilingual NCLEX-RN clinical judgment public demo with 50 original low-risk practice items, glossary support and learner report."],
+    ["NCLEX-RN Bilingual Trainer", "/apps/nclex-rn-bilingual-trainer/", "Public demo trainer for bilingual NCLEX-RN cue recognition, prioritisation language, wrong-answer review and glossary practice."],
     ["Australian Citizenship Test Practice App", "/apps/australian-citizenship-test/", "Independent OTC English-Chinese Australian citizenship test practice app with mock tests, topic practice, flashcards and study guide."],
     ["IH London Placement & Interview Practice App", "/apps/ih-placement-interview/", "Independent OTC practice app for IH London online placement test readiness, speaking interview preparation, bilingual vocabulary and tutor-led review."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
@@ -2585,6 +2587,133 @@ const insightsArticles = [
       "General public briefing only; not migration or legal advice.",
       "The 2026 NPL is a system setting and processing-priority framework, not a guarantee of visa grant.",
       "Applicants with complex circumstances should consult a registered Australian migration agent or qualified legal practitioner."
+    ]
+  },
+  {
+    slug: "nclex-rn-bilingual-clinical-judgment-demo-launch",
+    title: "NCLEX-RN Bilingual Clinical Judgment Demo Goes Live",
+    date: "2026-05-24",
+    category: "OTC News",
+    column: "study",
+    kicker: "NCLEX-RN · Demo Launch · Overseas Supervision",
+    author: "海外督導學習中心 / 留學導報編輯部",
+    summary: "Overseas Supervision has released a public bilingual NCLEX-RN clinical judgment demo with 50 original low-risk practice items, glossary support and a learner review report, while the full 500-item pool remains under internal clinical and compliance review.",
+    titleZh: "NCLEX-RN 雙語臨床判斷 Demo 上線：50 題公開展示題池與學員報告工具",
+    summaryZh: "海外督導學習中心正式上線 NCLEX-RN 雙語臨床判斷公開 Demo，先開放 50 題低風險原創展示題、雙語術語表、錯題分類與學員報告工具；完整 500 題題池仍留在內部進行臨床與合規審核。",
+    relatedReadings: [
+      "overseas-supervision-nclex-rn-bilingual-study-companion-preview",
+      "nclex-rn-2026-stream-b-taiwan-nursing-prep",
+      "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway"
+    ],
+    body: [
+      {
+        heading: "1) Public demo now available",
+        paragraphs: [
+          "Overseas Supervision has released the first public demo of its NCLEX-RN bilingual clinical judgment learning tool. The demo is designed for Chinese-speaking nurses and health-care learners who are researching NCLEX-RN preparation in the context of the Ahpra/NMBA Stream B route.",
+          "The public version is intentionally modest: 50 original low-risk practice items, bilingual rationales, a glossary panel, category filters, wrong-answer review and a learner report that can be copied into notes or sent to a tutor.",
+          "Readers can open the public landing page at /apps/nclex-rn-bilingual-demo/ and the trainer directly at /apps/nclex-rn-bilingual-trainer/."
+        ]
+      },
+      {
+        heading: "2) What the demo is testing",
+        paragraphs: [
+          "The demo is not a full CAT simulator and not a replacement for established NCLEX products. Its purpose is narrower: to test whether a bilingual interface can help learners notice cue recognition, prioritisation language, delegation boundaries, safety logic and the reason behind each wrong answer.",
+          "Instead of showing only a score, the trainer asks learners to tag the likely cause of each miss, such as knowledge gap, English wording, cue recognition, prioritisation, delegation/scope or safety and infection control.",
+          "This gives tutors and learners a better starting point for feedback: not simply 'more questions needed', but 'which kind of thinking broke down here?'"
+        ]
+      },
+      {
+        heading: "3) Why the release is staged",
+        paragraphs: [
+          "The full product line is being built around a much larger original question pool of 500 items. That internal pool is not being released publicly yet because clinical-education material must be reviewed with more care than ordinary marketing content.",
+          "For the public demo, the team selected lower-risk items and removed higher-stakes categories that require deeper nursing review, including complex pharmacology, obstetric emergencies, acute deterioration, airway risk, sepsis escalation and other areas where wording precision matters.",
+          "This staged release lets learners try the learning design now while the editorial team continues clinical review, source checking, glossary expansion and app usability testing."
+        ]
+      },
+      {
+        heading: "4) Who should try it first",
+        paragraphs: [
+          "The demo is most relevant for Taiwan-trained nurses, Chinese-speaking nursing graduates, health and community-care learners, and families researching Australian RN routes through GCAN, Stream B, NCLEX-RN and OSCE.",
+          "It may also help tutors understand how a learner is reading English nursing questions: whether the difficulty lies in vocabulary, clinical judgment, exam logic or confidence under time pressure.",
+          "Early users are encouraged to record which categories feel useful, which rationales need clearer Chinese explanation and whether the learner report is practical enough for supervision."
+        ]
+      },
+      {
+        heading: "5) Compliance boundary",
+        paragraphs: [
+          "This demo is an independent educational prototype. It is not an official NCLEX, NCSBN, Pearson VUE, Ahpra, NMBA, ANMAC or immigration product, and it is not endorsed by those bodies.",
+          "The demo does not guarantee NCLEX-RN pass, OSCE pass, Australian registration, skills assessment, visa grant, school admission or employment outcome.",
+          "Learners must always follow their own official Ahpra/NMBA dashboard, Pearson VUE instructions, ATT validity dates, regulator communications and professional advice where required."
+        ]
+      },
+      {
+        heading: "6) Next steps",
+        paragraphs: [
+          "Overseas Supervision will now use the public demo to collect feedback before moving into a more structured beta. The next planned improvements include broader glossary coverage, topic-specific drills, a wrong-answers-only review mode and clearer tutor-facing progress summaries.",
+          "The full 500-item pool will remain an internal review asset until the clinical and compliance checks are complete. The public message is simple: try the demo, test the bilingual learning design, and help shape a safer, clearer NCLEX-RN support tool for Chinese-speaking learners."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、公開 Demo 正式上線",
+        paragraphs: [
+          "海外督導學習中心正式上線 NCLEX-RN 雙語臨床判斷公開 Demo。這是海外督導與海外書局正在策劃的護理雙語教輔產品線中的第一個公開展示版本，主要面向正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 路線的華語護理背景讀者。",
+          "公開版刻意採用小而清楚的範圍：50 題低風險原創展示題、雙語解析、術語表、分類篩選、錯題回看與學員報告工具。這不是把完整產品一次性放出，而是先讓讀者試用學習設計與界面邏輯。",
+          "讀者可從公開入口進入：/apps/nclex-rn-bilingual-demo/；也可直接打開練習工具：/apps/nclex-rn-bilingual-trainer/。"
+        ]
+      },
+      {
+        heading: "二、這個 Demo 想測試什麼",
+        paragraphs: [
+          "這個 Demo 不是完整 CAT 模擬器，也不是要替代 UWorld、Archer、Kaplan、Saunders 等成熟備考產品。它測試的是另一件事：雙語界面是否能幫華語考生看清 cue recognition、prioritisation、delegation、scope of practice、safety logic，以及每一次錯題背後真正卡住的位置。",
+          "練習工具不只顯示對錯，也會引導學員標記錯題原因，例如 knowledge gap、English wording、cue recognition、prioritization、delegation/scope、safety/infection control。",
+          "這樣一來，學員和督導老師討論時就不只是『分數不夠』，而是能看出：到底是英文題幹沒讀懂、線索沒抓住、優先順序錯了，還是對澳洲/英語護理語境中的職責邊界不熟悉。"
+        ]
+      },
+      {
+        heading: "三、為什麼採用分階段發布",
+        paragraphs: [
+          "完整產品線目前已圍繞 500 題原創題池進行內部建設，但這個完整題池不會直接公開。原因很簡單：臨床教育內容不同於普通市場文案，任何涉及藥理、急症、產兒科、惡化病人與安全風險的表述，都需要更嚴格的臨床與合規審核。",
+          "因此，公開 Demo 先選擇相對低風險的展示題，暫時避開複雜藥理、產科急症、急性惡化、airway risk、sepsis escalation、重大出血等需要更高精度審閱的內容。",
+          "這種分階段發布方式，可以讓讀者現在就試用學習工具，也讓編輯團隊有時間繼續做臨床審核、來源核對、術語擴充與 App 使用體驗測試。"
+        ]
+      },
+      {
+        heading: "四、誰適合先試用",
+        paragraphs: [
+          "這個 Demo 最適合幾類讀者：台灣五專/專科護理背景考生、正在研究澳洲 RN 路線的華語護理師、準備 NCLEX-RN 的護理畢業生、健康護理與社區服務方向學習者，以及正在為家人規劃 GCAN、Stream B、NCLEX-RN、OSCE 路線的家庭。",
+          "對督導老師而言，它也可以作為初步診斷工具：觀察學員讀英文護理題時，困難究竟來自詞彙、臨床判斷、考試邏輯，還是時間壓力下的不確定感。",
+          "我們也希望早期用戶反饋：哪些分類最有用、哪些中文解析需要更清楚、學員報告是否方便貼到筆記或發給督導老師。"
+        ]
+      },
+      {
+        heading: "五、合規邊界",
+        paragraphs: [
+          "本 Demo 是獨立教育原型，不是 NCLEX、NCSBN、Pearson VUE、AHPRA、NMBA、ANMAC 或任何移民/監管機構的官方產品，也不代表上述機構背書。",
+          "本 Demo 不承諾 NCLEX-RN 通過、不承諾 OSCE 通過、不承諾澳洲 RN 註冊、不承諾職業評估、不承諾簽證、不承諾入學或就業結果。",
+          "學員仍必須以自己的 Ahpra/NMBA dashboard、Pearson VUE 通知、ATT 有效日期、官方監管要求及必要時的專業建議為準。"
+        ]
+      },
+      {
+        heading: "六、下一步",
+        paragraphs: [
+          "海外督導將先用公開 Demo 收集小範圍反饋，再進入更正式的 beta 測試。下一步規劃包括：擴充雙語術語表、增加主題練習、加入 only wrong answers review mode，並把學員報告做得更適合督導老師使用。",
+          "完整 500 題題池會繼續作為內部審核資產保留，待臨床與合規審核完成後再決定公開範圍。現階段的公開信息很明確：先試用 Demo，檢驗雙語學習設計，逐步把這套 NCLEX-RN 支援工具做得更安全、更清楚、更適合華語護理背景學員。"
+        ]
+      }
+    ],
+    resources: [
+      ["OTC — NCLEX-RN Bilingual Demo", "https://overseasuk.com/apps/nclex-rn-bilingual-demo/"],
+      ["OTC — NCLEX-RN Bilingual Trainer", "https://overseasuk.com/apps/nclex-rn-bilingual-trainer/"],
+      ["NCLEX — Test plans", "https://www.nclex.com/test-plans"],
+      ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM.aspx"],
+      ["OTC — Australia VET / TAFE Health & Community Services", "https://overseasuk.com/zh/australia-vet-tafe-pathways/health-community/"]
+    ],
+    notes: [
+      "Public launch note for the NCLEX-RN bilingual demo dated 2026-05-24.",
+      "The public demo uses a 50-item low-risk sample. The full 500-item internal pool remains under review.",
+      "Independent educational prototype only; no exam, registration, visa or employment outcome is guaranteed."
     ]
   },
   {
@@ -10650,6 +10779,7 @@ const apps = pageShell({
           <strong>Licence & Professional Exam Practice</strong>
           <p>Australian citizenship, CE driving, CSCS construction card, SIA security licence and future professional-practice drills.</p>
           <ul>
+            <li><span>Live Demo</span> <a href="/apps/nclex-rn-bilingual-demo/">NCLEX-RN Bilingual Clinical Judgment Demo</a></li>
             <li><span>Live</span> <a href="/apps/australian-citizenship-test/#embedded-citizenship-app">Australian Citizenship Test Practice Guide + App</a></li>
             <li><span>Live</span> CE考牌練習App · £0.99</li>
             <li><span>Planned</span> CSCS Practice App</li>
@@ -10716,6 +10846,7 @@ const apps = pageShell({
         <p>The figures below are working dashboard notes supplied for product planning. Live tools and listed guides can later receive companion apps, quizzes or practice systems.</p>
       </div>
       <div class="metrics-grid">
+        <article><strong>NCLEX-RN Bilingual Clinical Judgment Demo</strong><span>Public demo · 50 low-risk items</span><p>Independent bilingual trainer with glossary support, category filters, wrong-answer tagging and learner report. Full 500-item internal pool remains under clinical and compliance review.</p></article>
         <article><strong>CE考牌練習App</strong><span>54 views · 0 orders · £0.99</span><p>Existing app-style product. Natural benchmark for future CSCS and SIA practice tools.</p></article>
         <article><strong>Australian Citizenship Test Practice Guide + App</strong><span>ISBN 978-1-0666440-7-0 · launch £5.99</span><p>First Edition 2026: printable PDF guide with copyright page, compiler's preface, 96 basic questions, 224 advanced questions, unlimited random mock flows and local browser app access.</p></article>
         <article><strong>UCBELT Speaking Practice</strong><span>Live app · £0.99</span><p>Themed topic practice plus full mock sets, 640 bilingual vocabulary items and teacher mode.</p></article>
@@ -10733,12 +10864,13 @@ const apps = pageShell({
         <h2>A practical roadmap linked to Overseas Publishing.</h2>
       </div>
       <div class="pipeline-list">
-        <article><span>01</span><strong>Australian Citizenship Test Practice Guide + App</strong><p>Live Australia-facing bilingual product: printable PDF guide, 300+ structured practice questions, unlimited random mock tests, 154 flashcards, exam-room simulation, values-first study structure and offline-friendly browser package.</p></article>
-        <article><span>02</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
-        <article><span>03</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
-        <article><span>04</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
-        <article><span>05</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
-        <article><span>06</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
+        <article><span>01</span><strong>NCLEX-RN Bilingual Clinical Judgment Demo</strong><p>Live public demo for Chinese-speaking nursing learners: 50 original low-risk items, glossary support, category filters, wrong-answer review and copyable learner report. Not an official NCLEX/NCSBN/Pearson VUE/Ahpra/NMBA product.</p></article>
+        <article><span>02</span><strong>Australian Citizenship Test Practice Guide + App</strong><p>Live Australia-facing bilingual product: printable PDF guide, 300+ structured practice questions, unlimited random mock tests, 154 flashcards, exam-room simulation, values-first study structure and offline-friendly browser package.</p></article>
+        <article><span>03</span><strong>CSCS Practice App</strong><p>Use the CE app structure for construction-card quiz practice, terminology review and mock-test flow.</p></article>
+        <article><span>04</span><strong>SIA Security Licence Practice App</strong><p>Convert the SIA guide into repeatable scenario questions, knowledge checks and licence vocabulary drills.</p></article>
+        <article><span>05</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
+        <article><span>06</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
+        <article><span>07</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
       </div>
       <div style="height:22px"></div>
       <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products.</div>
@@ -13952,6 +14084,11 @@ write("search", search);
 write("about", about);
 write("lms-review", lmsReview);
 write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
+
+[
+  "/apps/nclex-rn-bilingual-demo/",
+  "/apps/nclex-rn-bilingual-trainer/"
+].forEach((publicPath) => generatedRoutes.push(publicPath));
 
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   cleanUrls: true,

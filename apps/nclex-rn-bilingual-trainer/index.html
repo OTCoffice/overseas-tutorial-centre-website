@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NCLEX-RN Bilingual Clinical Judgment Trainer | Prototype</title>
+  <style>
+    :root {
+      --ink: #17324d;
+      --muted: #5d6b78;
+      --line: #d7e2ea;
+      --paper: #f7fafc;
+      --accent: #0f766e;
+      --warn: #8a4b0f;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+    header {
+      padding: 28px 18px;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-size: 12px; font-weight: 700; }
+    h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 44px); line-height: 1.08; }
+    h2 { margin-top: 0; }
+    .grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 18px; padding: 18px; }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .notice {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: var(--warn);
+      border-radius: 8px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+    .question-stem { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+    .zh { color: var(--muted); }
+    button {
+      border: 1px solid var(--line);
+      background: var(--white);
+      color: var(--ink);
+      border-radius: 7px;
+      padding: 10px 12px;
+      cursor: pointer;
+      font: inherit;
+    }
+    button.primary { background: var(--accent); border-color: var(--accent); color: white; }
+    button.option {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin: 8px 0;
+    }
+    button.option.selected { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(15, 118, 110, .15); }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    .actions button.danger { color: #991b1b; border-color: #fecaca; background: #fff5f5; }
+    .result { margin-top: 14px; padding: 12px; border-radius: 8px; background: #ecfeff; border: 1px solid #a5f3fc; }
+    .tag { display: inline-block; margin: 4px 4px 0 0; padding: 4px 8px; border-radius: 999px; background: #e6f4f1; color: #115e59; font-size: 13px; }
+    .stat { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .stat div { background: #f8fafc; border: 1px solid var(--line); padding: 10px; border-radius: 8px; }
+    .category-dashboard { margin-top: 14px; display: grid; gap: 8px; }
+    .category-row { display: grid; grid-template-columns: minmax(110px, 1.2fr) repeat(4, minmax(42px, .5fr)); gap: 6px; align-items: center; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; font-size: 13px; }
+    .category-row:not(.header) { cursor: pointer; }
+    .category-row:not(.header):hover { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(15, 118, 110, .08); }
+    .category-row.header { background: #edf7f5; color: var(--accent); font-weight: 700; }
+    .category-name { font-weight: 700; overflow-wrap: anywhere; }
+    .mini-bar { grid-column: 1 / -1; height: 6px; background: #edf2f7; border-radius: 999px; overflow: hidden; }
+    .mini-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+    .report-box { white-space: pre-wrap; background: #f8fafc; border: 1px solid var(--line); border-radius: 8px; padding: 12px; max-height: 360px; overflow: auto; font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    select, input[type="search"], input[type="date"] { width: 100%; padding: 10px; border: 1px solid var(--line); border-radius: 7px; font: inherit; background: var(--white); }
+    label { display: block; margin-top: 12px; color: var(--muted); font-size: 14px; }
+    .toolbar { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+    .toolbar .wide { grid-column: 1 / -1; }
+    @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 560px) { .toolbar { grid-template-columns: 1fr; } .toolbar .wide { grid-column: auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Overseas Supervision · Prototype</div>
+      <h1>NCLEX-RN Bilingual Clinical Judgment Trainer</h1>
+      <p>雙語臨床判斷練習原型：題目、錯題分類、術語卡與 ATT 倒數。Independent educational prototype, not an official NCLEX product.</p>
+      <div class="notice">本工具為獨立教育輔助原型，不是 NCSBN、Pearson VUE、AHPRA、NMBA 或 ANMAC 官方工具，不承諾考試、註冊、簽證或就業結果。</div>
+    </div>
+  </header>
+
+  <main class="wrap grid">
+    <section class="card" id="practice">
+      <h2>Practice Drill</h2>
+      <div class="toolbar">
+        <label>Category / 分類
+          <select id="categoryFilter">
+            <option value="all">All categories / 全部分類</option>
+          </select>
+        </label>
+        <label>Mode / 模式
+          <select id="modeFilter">
+            <option value="all">All items / 全部題目</option>
+            <option value="wrong">Wrong answers only / 只練錯題</option>
+          </select>
+        </label>
+        <div class="actions wide">
+          <button id="shuffleBtn">Shuffle pool / 打亂題池</button>
+        </div>
+      </div>
+      <div id="question"></div>
+      <div class="actions">
+        <button class="primary" id="checkBtn">Check / 查看解析</button>
+        <button id="nextBtn">Next / 下一題</button>
+        <button id="markReviewBtn">Flag for review / 標記複習</button>
+      </div>
+      <div id="result"></div>
+    </section>
+
+    <aside class="card">
+      <h2>Study Dashboard</h2>
+      <p class="notice">Public demo mode: this page only loads the 50-item low-risk demo pool. The 500-item internal pool remains under RN / nursing educator review and is not exposed here. 公開展示模式只載入 50 題低風險 demo 題池；500 題內部題池仍在 RN / 護理教育者審核流程中，不在此頁公開。</p>
+      <p class="notice">Progress is stored only in this browser/device. Clearing cache, changing browser or reinstalling a wrapped app may reset records. 進度只儲存在本裝置瀏覽器；清除快取、更換瀏覽器或重新安裝封裝 App 可能會重置記錄。</p>
+      <div class="stat">
+        <div><strong id="doneCount">0</strong><br><span class="zh">已練習</span></div>
+        <div><strong id="correctCount">0</strong><br><span class="zh">答對</span></div>
+      </div>
+      <h3>ATT Countdown</h3>
+      <p class="zh">輸入自己的 ATT expiry date，按個人有效期倒排，不使用固定天數承諾。</p>
+      <input id="attDate" type="date">
+      <p id="attOutput"></p>
+      <h3>Weak Tags</h3>
+      <div id="weakTags"></div>
+      <h3>Category Review</h3>
+      <div id="categoryDashboard" class="category-dashboard"></div>
+      <div class="actions">
+        <button id="copySummaryBtn">Copy weak summary / 複製弱項摘要</button>
+        <button id="copyReportBtn">Copy learner report / 複製學員報告</button>
+        <button id="showReportBtn">Show report / 顯示報告</button>
+        <button class="danger" id="resetBtn">Reset progress / 重置進度</button>
+      </div>
+    </aside>
+
+    <section class="card">
+      <h2>Learner Report</h2>
+      <p class="zh">本報告只依本裝置練習記錄生成，不能作為通過預測或官方評估。</p>
+      <div id="learnerReport" class="report-box">No report generated yet / 尚未生成報告。</div>
+    </section>
+
+    <section class="card">
+      <h2>Glossary Flashcards</h2>
+      <label>Search glossary / 搜尋術語
+        <input id="glossarySearch" type="search" placeholder="clinical judgment / 優先順序">
+      </label>
+      <div id="glossary"></div>
+    </section>
+  </main>
+
+  <script>
+    const fallbackItems = [
+      {
+        id: "P001",
+        type: "single",
+        category: "prioritization",
+        stem: "The nurse receives reports on four clients. Which client should the nurse assess first?",
+        stemZh: "護理師收到四位病人的情況回報。應先評估哪一位？",
+        options: [
+          ["A", "A client with chronic arthritis reporting pain rated 5/10.", "慢性關節炎病人回報疼痛 5/10。"],
+          ["B", "A client taking furosemide reporting new muscle weakness.", "正在使用 furosemide 的病人出現新的肌肉無力。"],
+          ["C", "A client scheduled for discharge asking about medication timing.", "準備出院的病人詢問服藥時間。"],
+          ["D", "A client with insomnia requesting a sleep aid.", "失眠病人要求安眠藥。"]
+        ],
+        answer: ["B"],
+        rationale: "Furosemide can contribute to potassium loss. New muscle weakness may signal an electrolyte problem with cardiac risk.",
+        rationaleZh: "Furosemide 可能造成鉀流失。新的肌肉無力可能提示電解質問題並帶有心律風險。",
+        tags: ["knowledge_gap", "cue_recognition", "prioritization"]
+      },
+      {
+        id: "D001",
+        type: "single",
+        category: "delegation_scope",
+        stem: "Which task is most appropriate for the RN to delegate to unlicensed assistive personnel?",
+        stemZh: "下列哪項最適合由 RN 委派給無照護理輔助人員？",
+        options: [
+          ["A", "Teach a newly diagnosed diabetic client how to inject insulin.", "教新診斷糖尿病病人如何注射胰島素。"],
+          ["B", "Assess a client with new chest pain.", "評估新發胸痛病人。"],
+          ["C", "Assist a stable postoperative client to ambulate.", "協助穩定的術後病人下床行走。"],
+          ["D", "Evaluate whether pain medication was effective.", "評估止痛藥是否有效。"]
+        ],
+        answer: ["C"],
+        rationale: "Routine assistance with ambulation for a stable client is appropriate. Teaching, new symptom assessment and evaluation require RN judgment.",
+        rationaleZh: "穩定病人的例行行走協助可委派。教學、新症狀評估與療效評價需要 RN 判斷。",
+        tags: ["delegation_scope"]
+      },
+      {
+        id: "NGN001",
+        type: "multi",
+        category: "ngn",
+        stem: "Which cues require immediate nursing attention? Select all that apply.",
+        stemZh: "哪些線索需要立即護理關注？可多選。",
+        caseText: "A client is 2 hours postoperative after abdominal surgery. The client reports increasing shortness of breath, appears restless and has an oxygen saturation of 88% on room air.",
+        caseTextZh: "病人腹部手術後 2 小時，回報呼吸越來越困難，表現不安，室內空氣下血氧飽和度 88%。",
+        options: [
+          ["A", "2 hours postoperative", "術後 2 小時"],
+          ["B", "Increasing shortness of breath", "呼吸困難加重"],
+          ["C", "Restlessness", "不安"],
+          ["D", "Oxygen saturation 88% on room air", "室內空氣下血氧 88%"]
+        ],
+        answer: ["B", "C", "D"],
+        rationale: "Worsening shortness of breath, restlessness and low oxygen saturation indicate immediate breathing/oxygenation concern.",
+        rationaleZh: "呼吸困難加重、不安與血氧偏低提示立即的 breathing/oxygenation 風險。",
+        tags: ["cue_recognition", "prioritization", "safety_infection"]
+      }
+    ];
+
+    let glossary = [
+      ["clinical judgment", "臨床判斷", "core", "Recognize cues, analyze them, prioritize hypotheses, take action and evaluate outcomes."],
+      ["prioritization", "優先順序", "core", "Choose what is safest and most urgent now."],
+      ["delegation", "委派/授權執行", "scope", "Assign suitable tasks based on stability and scope."],
+      ["requires follow-up", "需要追蹤", "question-language", "Usually asks which finding is abnormal or unsafe."],
+      ["ATT", "Authorization to Test 考試授權", "process", "Use your own validity dates for planning."]
+    ];
+
+    function emptyProgress() {
+      return { done: 0, correct: 0, tags: {}, wrongIds: {}, reviewIds: {}, byCategory: {} };
+    }
+
+    const defaultProgress = emptyProgress();
+    let index = 0;
+    let allItems = fallbackItems;
+    let items = fallbackItems;
+    let selected = new Set();
+    let activeCategory = "all";
+    let activeMode = "all";
+    let progress = loadProgress();
+
+    function loadProgress() {
+      try {
+        const raw = localStorage.getItem("nclexPrototypeProgress");
+        if (!raw) return emptyProgress();
+        const parsed = JSON.parse(raw);
+        return {
+          done: Number(parsed.done) || 0,
+          correct: Number(parsed.correct) || 0,
+          tags: parsed.tags && typeof parsed.tags === "object" ? parsed.tags : {},
+          wrongIds: parsed.wrongIds && typeof parsed.wrongIds === "object" ? parsed.wrongIds : {},
+          reviewIds: parsed.reviewIds && typeof parsed.reviewIds === "object" ? parsed.reviewIds : {},
+          byCategory: parsed.byCategory && typeof parsed.byCategory === "object" ? parsed.byCategory : {}
+        };
+      } catch (error) {
+        console.warn("Progress storage unavailable:", error.message);
+        return emptyProgress();
+      }
+    }
+
+    function save() {
+      try {
+        localStorage.setItem("nclexPrototypeProgress", JSON.stringify(progress));
+      } catch (error) {
+        console.warn("Progress could not be saved:", error.message);
+      }
+      renderStats();
+    }
+
+    function renderQuestion() {
+      selected = new Set();
+      const q = items[index];
+      if (!q) {
+        document.getElementById("question").innerHTML = `<p class="notice">No items match this filter yet. 沒有符合目前篩選條件的題目。</p>`;
+        document.getElementById("result").innerHTML = "";
+        return;
+      }
+      const caseText = q.caseText || q.case || "";
+      const caseTextZh = q.caseTextZh || q.case_zh || "";
+      const stemZh = q.stemZh || q.stem_zh || "";
+      const rationaleZh = q.rationaleZh || q.rationale_zh || "";
+      const tags = q.tags || q.wrong_tags || [];
+      const opts = q.options.map(([id, en, zh]) => `<button class="option" data-id="${id}"><strong>${id}.</strong> ${en}<br><span class="zh">${zh}</span></button>`).join("");
+      document.getElementById("question").innerHTML = `
+        ${caseText ? `<p>${caseText}<br><span class="zh">${caseTextZh}</span></p>` : ""}
+        <p class="eyebrow">${q.id} · ${q.category} · ${index + 1}/${items.length} in current pool · ${allItems.length} public demo items</p>
+        <div class="question-stem">${q.stem}</div>
+        <p class="zh">${stemZh}</p>
+        ${opts}
+      `;
+      document.getElementById("result").innerHTML = "";
+      document.querySelectorAll(".option").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.dataset.id;
+          if (selected.has(id)) selected.delete(id); else selected.add(id);
+          btn.classList.toggle("selected");
+        });
+      });
+    }
+
+    function check() {
+      const q = items[index];
+      if (!q) return;
+      const answer = [...q.answer].sort().join(",");
+      const got = [...selected].sort().join(",");
+      const correct = answer === got;
+      const rationaleZh = q.rationaleZh || q.rationale_zh || "";
+      const tags = q.tags || q.wrong_tags || [];
+      progress.done += 1;
+      if (!progress.byCategory[q.category]) progress.byCategory[q.category] = { done: 0, correct: 0, wrong: 0 };
+      progress.byCategory[q.category].done += 1;
+      if (correct) progress.correct += 1;
+      if (correct) {
+        progress.byCategory[q.category].correct += 1;
+        delete progress.wrongIds[q.id];
+      } else {
+        progress.byCategory[q.category].wrong += 1;
+        progress.wrongIds[q.id] = (progress.wrongIds[q.id] || 0) + 1;
+        tags.forEach(tag => progress.tags[tag] = (progress.tags[tag] || 0) + 1);
+      }
+      save();
+      document.getElementById("result").innerHTML = `
+        <div class="result">
+          <strong>${correct ? "Correct / 答對" : "Review / 需要複盤"}</strong>
+          <p>Answer: ${q.answer.join(", ")}</p>
+          <p>${q.rationale}<br><span class="zh">${rationaleZh}</span></p>
+          <div>${tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
+        </div>
+      `;
+    }
+
+    function next() {
+      if (!items.length) return;
+      index = (index + 1) % items.length;
+      renderQuestion();
+    }
+
+    function renderStats() {
+      document.getElementById("doneCount").textContent = progress.done;
+      document.getElementById("correctCount").textContent = progress.correct;
+      const tags = Object.entries(progress.tags).sort((a, b) => b[1] - a[1]);
+      const wrongCount = Object.keys(progress.wrongIds || {}).length;
+      document.getElementById("weakTags").innerHTML = tags.length
+        ? `<p class="zh">${wrongCount} items currently in wrong-answer queue / ${wrongCount} 題在錯題隊列</p>${tags.map(([tag, count]) => `<span class="tag">${tag}: ${count}</span>`).join("")}`
+        : `<p class="zh">尚無錯題標籤。</p>`;
+      renderCategoryDashboard();
+    }
+
+    function categoryRows() {
+      const totals = {};
+      for (const item of allItems) {
+        totals[item.category] = (totals[item.category] || 0) + 1;
+      }
+      return Object.entries(totals).sort(([a], [b]) => a.localeCompare(b)).map(([category, total]) => {
+        const stats = progress.byCategory?.[category] || { done: 0, correct: 0, wrong: 0 };
+        const wrongQueue = Object.keys(progress.wrongIds || {}).filter((id) => {
+          const item = allItems.find((candidate) => candidate.id === id);
+          return item && item.category === category;
+        }).length;
+        const accuracy = stats.done ? Math.round((stats.correct / stats.done) * 100) : 0;
+        const completion = total ? Math.min(100, Math.round((stats.done / total) * 100)) : 0;
+        return { category, total, done: stats.done || 0, accuracy, wrongQueue, completion };
+      });
+    }
+
+    function renderCategoryDashboard() {
+      const rows = categoryRows();
+      document.getElementById("categoryDashboard").innerHTML = `
+        <div class="category-row header">
+          <span>Category</span><span>Total</span><span>Done</span><span>Acc</span><span>Wrong</span>
+        </div>
+        ${rows.map((row) => `
+          <div class="category-row" data-category="${row.category}">
+            <span class="category-name">${row.category}</span>
+            <span>${row.total}</span>
+            <span>${row.done}</span>
+            <span>${row.accuracy}%</span>
+            <span>${row.wrongQueue}</span>
+            <div class="mini-bar" title="${row.completion}% completed"><span style="width:${row.completion}%"></span></div>
+          </div>
+        `).join("")}
+      `;
+      document.querySelectorAll(".category-row[data-category]").forEach((row) => {
+        row.addEventListener("click", () => {
+          document.getElementById("categoryFilter").value = row.dataset.category;
+          document.getElementById("modeFilter").value = "all";
+          applyFilters();
+        });
+      });
+    }
+
+    function weakSummaryText() {
+      const tags = Object.entries(progress.tags).sort((a, b) => b[1] - a[1]).slice(0, 5);
+      const accuracy = progress.done ? Math.round((progress.correct / progress.done) * 100) : 0;
+      const weakLines = tags.length ? tags.map(([tag, count]) => `- ${tag}: ${count}`).join("\n") : "- No weak tags yet / 尚無錯題標籤";
+      const categoryLines = categoryRows().map((row) => `- ${row.category}: done ${row.done}/${row.total}, accuracy ${row.accuracy}%, wrong queue ${row.wrongQueue}`).join("\n");
+      return `NCLEX-RN Bilingual Trainer weak-area summary\nPool mode: public demo\nDone: ${progress.done}\nCorrect: ${progress.correct}\nAccuracy: ${accuracy}%\nWrong-answer queue: ${Object.keys(progress.wrongIds || {}).length}\nFlagged for review: ${Object.keys(progress.reviewIds || {}).length}\nWeak tags:\n${weakLines}\nCategory review:\n${categoryLines}`;
+    }
+
+    function learnerReportText() {
+      const now = new Date().toISOString().slice(0, 10);
+      const accuracy = progress.done ? Math.round((progress.correct / progress.done) * 100) : 0;
+      const rows = categoryRows();
+      const weakest = rows
+        .filter((row) => row.done > 0)
+        .sort((a, b) => a.accuracy - b.accuracy || b.wrongQueue - a.wrongQueue)
+        .slice(0, 3);
+      const untouched = rows.filter((row) => row.done === 0).map((row) => row.category);
+      const tagLines = Object.entries(progress.tags)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 8)
+        .map(([tag, count]) => `- ${tag}: ${count}`)
+        .join("\n") || "- No weak tags recorded yet.";
+      const categoryLines = rows.map((row) => {
+        return `- ${row.category}: ${row.done}/${row.total} done, ${row.accuracy}% accuracy, ${row.wrongQueue} in wrong queue, ${row.completion}% completion`;
+      }).join("\n");
+      const recommendation = weakest.length
+        ? weakest.map((row) => `- Prioritize ${row.category}: accuracy ${row.accuracy}%, wrong queue ${row.wrongQueue}.`).join("\n")
+        : "- Start with prioritization, pharmacology and NGN cue recognition to establish a baseline.";
+      return [
+        "NCLEX-RN Bilingual Clinical Judgment Trainer",
+        "Learner Progress Report / 學員進度報告",
+        `Generated: ${now}`,
+        "",
+        "Independent educational report. Not an official NCLEX, Ahpra, NMBA or ANMAC assessment. No pass, registration, visa or employment outcome is guaranteed.",
+        "",
+        `Overall practice: ${progress.done} items attempted / ${progress.correct} correct / ${accuracy}% accuracy`,
+        `Question pool: ${allItems.length} public demo items`,
+        `Wrong-answer queue: ${Object.keys(progress.wrongIds || {}).length}`,
+        `Flagged for review: ${Object.keys(progress.reviewIds || {}).length}`,
+        "",
+        "Category progress:",
+        categoryLines,
+        "",
+        "Top weak tags:",
+        tagLines,
+        "",
+        "Suggested next focus:",
+        recommendation,
+        untouched.length ? `\nUntouched categories: ${untouched.join(", ")}` : "",
+        "",
+        "Supervisor note / 督導提示:",
+        "Use this report to guide discussion and revision planning. It is a local practice record, not a readiness guarantee."
+      ].filter(Boolean).join("\n");
+    }
+
+    async function copyWeakSummary() {
+      const text = weakSummaryText();
+      try {
+        await navigator.clipboard.writeText(text);
+        document.getElementById("attOutput").textContent = "Weak summary copied / 弱項摘要已複製";
+      } catch (error) {
+        window.prompt("Copy weak summary / 複製弱項摘要", text);
+      }
+    }
+
+    async function copyLearnerReport() {
+      const text = learnerReportText();
+      document.getElementById("learnerReport").textContent = text;
+      try {
+        await navigator.clipboard.writeText(text);
+        document.getElementById("attOutput").textContent = "Learner report copied / 學員報告已複製";
+      } catch (error) {
+        window.prompt("Copy learner report / 複製學員報告", text);
+      }
+    }
+
+    function showLearnerReport() {
+      document.getElementById("learnerReport").textContent = learnerReportText();
+    }
+
+    function markCurrentForReview() {
+      const q = items[index];
+      if (!q) return;
+      progress.reviewIds[q.id] = (progress.reviewIds[q.id] || 0) + 1;
+      save();
+      document.getElementById("attOutput").textContent = `${q.id} flagged for review / 已標記複習`;
+    }
+
+    function resetProgress() {
+      if (!window.confirm("Reset all local progress on this browser/device? 是否重置本裝置瀏覽器中的全部進度？")) return;
+      progress = emptyProgress();
+      save();
+      applyFilters();
+    }
+
+    function renderGlossary(query = "") {
+      const q = query.trim().toLowerCase();
+      const filtered = glossary.filter(([en, zh, category, note]) => {
+        const haystack = `${en} ${zh} ${category} ${note}`.toLowerCase();
+        return !q || haystack.includes(q);
+      });
+      document.getElementById("glossary").innerHTML = filtered.map(([en, zh, category, note]) => `
+        <p><strong>${en}</strong> / ${zh} <span class="tag">${category}</span><br><span class="zh">${note}</span></p>
+      `).join("") || `<p class="zh">No matching term / 沒有符合術語。</p>`;
+    }
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let cell = "";
+      let inQuotes = false;
+      for (let i = 0; i < text.length; i += 1) {
+        const ch = text[i];
+        const next = text[i + 1];
+        if (ch === "\"" && inQuotes && next === "\"") {
+          cell += "\"";
+          i += 1;
+        } else if (ch === "\"") {
+          inQuotes = !inQuotes;
+        } else if (ch === "," && !inQuotes) {
+          row.push(cell);
+          cell = "";
+        } else if ((ch === "\n" || ch === "\r") && !inQuotes) {
+          if (ch === "\r" && next === "\n") i += 1;
+          row.push(cell);
+          if (row.some((value) => value.trim())) rows.push(row);
+          row = [];
+          cell = "";
+        } else {
+          cell += ch;
+        }
+      }
+      row.push(cell);
+      if (row.some((value) => value.trim())) rows.push(row);
+      return rows;
+    }
+
+    async function loadGlossary() {
+      try {
+        const response = await fetch("./app-content/glossary.csv", { cache: "no-store" });
+        if (!response.ok) throw new Error("glossary.csv unavailable");
+        const rows = parseCsv(await response.text());
+        const [, ...data] = rows;
+        glossary = data
+          .filter((row) => row.length >= 4)
+          .map(([term, zh, category, note]) => [term, zh, category, note]);
+      } catch (error) {
+        console.warn("Using fallback glossary:", error.message);
+      }
+      renderGlossary(document.getElementById("glossarySearch").value);
+    }
+
+    function renderFilters() {
+      const categories = [...new Set(allItems.map((item) => item.category))].sort();
+      const select = document.getElementById("categoryFilter");
+      select.innerHTML = `<option value="all">All categories / 全部分類</option>` + categories.map((category) => {
+        const count = allItems.filter((item) => item.category === category).length;
+        return `<option value="${category}">${category} (${count})</option>`;
+      }).join("");
+      select.value = activeCategory;
+    }
+
+    function applyFilters() {
+      activeCategory = document.getElementById("categoryFilter").value;
+      activeMode = document.getElementById("modeFilter").value;
+      items = allItems.filter((item) => {
+        const categoryMatch = activeCategory === "all" || item.category === activeCategory;
+        const modeMatch = activeMode === "all" || Boolean(progress.wrongIds && progress.wrongIds[item.id]);
+        return categoryMatch && modeMatch;
+      });
+      index = 0;
+      renderQuestion();
+      renderStats();
+    }
+
+    function shufflePool() {
+      items = [...items].sort(() => Math.random() - 0.5);
+      index = 0;
+      renderQuestion();
+    }
+
+    document.getElementById("checkBtn").addEventListener("click", check);
+    document.getElementById("nextBtn").addEventListener("click", next);
+    document.getElementById("copySummaryBtn").addEventListener("click", copyWeakSummary);
+    document.getElementById("copyReportBtn").addEventListener("click", copyLearnerReport);
+    document.getElementById("showReportBtn").addEventListener("click", showLearnerReport);
+    document.getElementById("markReviewBtn").addEventListener("click", markCurrentForReview);
+    document.getElementById("resetBtn").addEventListener("click", resetProgress);
+    document.getElementById("categoryFilter").addEventListener("change", applyFilters);
+    document.getElementById("modeFilter").addEventListener("change", applyFilters);
+    document.getElementById("shuffleBtn").addEventListener("click", shufflePool);
+    document.getElementById("glossarySearch").addEventListener("input", (event) => renderGlossary(event.target.value));
+    document.getElementById("attDate").addEventListener("change", (event) => {
+      const date = new Date(event.target.value + "T00:00:00");
+      const now = new Date();
+      const days = Math.ceil((date - now) / 86400000);
+      document.getElementById("attOutput").textContent = Number.isFinite(days)
+        ? `${days} days until ATT expiry / 距離 ATT 到期約 ${days} 天`
+        : "";
+    });
+
+    async function loadBetaItems() {
+      try {
+        const demoResponse = await fetch("./app-content/question_bank_public_demo_50.json", { cache: "no-store" });
+        const demoBank = demoResponse.ok ? await demoResponse.json() : null;
+        const demoMerged = demoBank && Array.isArray(demoBank.items) ? demoBank.items : [];
+        if (demoMerged.length) allItems = demoMerged;
+      } catch (error) {
+        console.warn("Using fallback items:", error.message);
+      }
+      items = allItems;
+      renderFilters();
+      applyFilters();
+      renderStats();
+      loadGlossary();
+    }
+
+    loadBetaItems();
+  </script>
+</body>
+</html>
