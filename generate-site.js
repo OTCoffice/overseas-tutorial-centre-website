@@ -12080,7 +12080,7 @@ function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro
   `;
 }
 
-function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext }) {
+function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext, extraContent = "" }) {
   const resourceList = (resources || [])
     .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
     .join("");
@@ -12136,6 +12136,8 @@ function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, hero
           `).join("")}
         </div>
       </section>
+
+      ${extraContent}
 
       <section class="band compact-band">
         <div class="section-head compact-head">
@@ -12262,22 +12264,135 @@ const zhAustraliaVetTafeHub = pageShell({
 
 const zhAustraliaVetHealthCommunity = zhVetBoardPage({
   title: "澳洲健康護理與社區服務（VET / TAFE）| OTC 職業培訓板塊",
-  description: "澳洲健康護理與社區服務職業培訓板塊：課程核對、實習安排、註冊邊界與官方入口。",
+  description: "澳洲健康護理與社區服務職業培訓板塊：CHC/HLT 課程核對、work placement、CRICOS/RTO 篩查、護理註冊邊界與官方入口。",
   path: "/zh/australia-vet-tafe-pathways/health-community/",
   heroTitle: "健康護理 / 社區服務：VET / TAFE 板塊",
-  heroIntro: "把 CHC/HLT 類方向拆成可核對的課程代碼、實習安排與合規邊界。尤其是護理註冊：課程層級相近不代表可直接執業，需以監管機構與批准課程為準。",
+  heroIntro: "把 CHC 社區服務與 HLT 健康護理方向拆成可核對的課程代碼、實習安排、CRICOS/RTO 條件與合規邊界。尤其是護理註冊：課程層級相近不代表可直接執業，需以 AHPRA / NMBA / ANMAC 批准課程為準。",
   toolContext: "health-community",
   sections: [
-    ["Board 01", "課程代碼優先", "先用 training.gov.au 查 qualification code、RTO 與入學前置條件。", ["qualification code / training package", "RTO scope 與校區", "實習時數與安排", "評核方式與 evidence"]],
-    ["Board 02", "護理註冊邊界", "涉及 AHPRA / NMBA / ANMAC 的註冊問題需以官方批准課程與條款為準。", ["不要把非批准課程當作註冊路線", "確認課程是否為 approved program", "核對 placement 與 supervision", "必要時專業轉介"]],
-    ["Board 03", "文件準備", "把學歷、英文與實習證據整理成可審閱格式，方便快速比對。", ["成績單與翻譯", "英文成績有效期", "工作/實習證明", "個人陳述的證據點"]],
-    ["Board 04", "實務風險提示", "就業與移民結果不可保證；重點是可核對、可更新。", ["避免保證式說法", "以官方條款為準", "不混淆學術/職業/註冊", "必要時轉介"]]
+    ["Board 01", "CHC 社區服務", "Individual Support、Disability、Community Services、Mental Health、Early Childhood 等方向先按 CHC 代碼核對。", ["CHC qualification code", "work placement 時數", "Police / WWC / NDIS screening", "非護理執業資格"]],
+    ["Board 02", "HLT 健康護理", "Allied Health Assistance、Health Services Assistance、Pathology、Diploma of Nursing 等方向按 HLT 代碼與監管要求核對。", ["HLT qualification code", "clinical / vocational placement", "supervision 與 logbook", "是否涉及 NMBA 註冊"]],
+    ["Board 03", "Placement 實習安排", "海外學生最容易卡在 placement：誰安排、在哪裡做、需要哪些 screening 和保險，必須提前問清楚。", ["placement 時數與場景", "RTO/TAFE 安排責任", "immunisation / checks", "make-up 機制與記錄"]],
+    ["Board 04", "護理註冊邊界", "涉及 AHPRA / NMBA / ANMAC 的註冊問題需以官方批准課程與條款為準。", ["相似 Diploma 不等於可註冊", "確認 approved program", "英文與 fit-and-proper 要求", "必要時專業轉介"]]
   ],
+  extraContent: `
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">CHC / HLT map</div>
+        <h2>先按課程代碼與實習要求做可核對表。</h2>
+        <p>這張表不是完整課程清單，而是海外學生與家庭做第一輪篩查時最常見、最需要釐清的方向。正式入學、簽證、註冊或就業結果，仍以 RTO/TAFE、CRICOS、AHPRA / NMBA / ANMAC 及合格專業人士意見為準。</p>
+      </div>
+      <div class="report-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>類別</th>
+              <th>資格代碼 / 課程</th>
+              <th>AQF 層級</th>
+              <th>Placement / 實習重點</th>
+              <th>合規邊界</th>
+              <th>核對入口</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CHC · Aged Care / Disability</td>
+              <td>CHC33021 Certificate III in Individual Support</td>
+              <td>Level 3</td>
+              <td>training.gov.au 顯示需至少 120 小時 work placement。</td>
+              <td>適合 aged care / disability / home and community 入門；通常需 Police Check、Working with Children Check 或 NDIS worker screening。不是護理註冊資格。</td>
+              <td><a href="https://training.gov.au/training/details/CHC33021" target="_blank" rel="noopener">CHC33021</a></td>
+            </tr>
+            <tr>
+              <td>CHC · Community Services</td>
+              <td>CHC52021 / CHC52025 Diploma of Community Services</td>
+              <td>Level 5</td>
+              <td>通常涉及 case management / community placement；各 RTO 版本、release 與實習安排需逐項核對。</td>
+              <td>可作 community services / coordinator 方向討論，不等同社工、護理或移民職業評估結果。</td>
+              <td><a href="https://training.gov.au/Search?searchTitleOrCode=CHC520" target="_blank" rel="noopener">CHC520 search</a></td>
+            </tr>
+            <tr>
+              <td>HLT · Allied Health</td>
+              <td>HLT33021 Certificate III in Allied Health Assistance</td>
+              <td>Level 3</td>
+              <td>需核對 work placement 時數、supervision、服務場景與 RTO 安排。</td>
+              <td>通常為 allied health assistant 輔助角色，不是獨立執業或職業註冊承諾。</td>
+              <td><a href="https://training.gov.au/training/details/HLT33021" target="_blank" rel="noopener">HLT33021</a></td>
+            </tr>
+            <tr>
+              <td>HLT · Nursing</td>
+              <td>HLT54121 Diploma of Nursing</td>
+              <td>Level 5</td>
+              <td>training package companion information列出 400 clinical hours；實際安排需核對 provider 與 approved program。</td>
+              <td>完成 Diploma of Nursing 只可按 Enrolled Nurse 路徑討論；必須是 ANMAC accredited 並獲 NMBA approved program，不能把普通 HLT Diploma 當作護理註冊路線。</td>
+              <td><a href="https://training.gov.au/Training/Details/HLT54121" target="_blank" rel="noopener">HLT54121</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Registration warning</div>
+        <h2>護理註冊專區：Diploma of Nursing 不等於 Registered Nurse。</h2>
+        <p>海外學生最容易混淆的是「VET Diploma of Nursing」、「Enrolled Nurse」和大學 Bachelor of Nursing / Registered Nurse。頁面必須把這個邊界放在醒目位置。</p>
+      </div>
+      <div class="vet-tafe-screening-grid">
+        <article>
+          <span>Step 01</span>
+          <strong>查 approved program</strong>
+          <p>先在 AHPRA approved programs of study 中核對 provider、campus、qualification 與批准狀態。</p>
+        </article>
+        <article>
+          <span>Step 02</span>
+          <strong>核對 clinical placement</strong>
+          <p>問清楚 placement 小時、場景、supervision、logbook、make-up 安排與保險。</p>
+        </article>
+        <article>
+          <span>Step 03</span>
+          <strong>確認註冊與英文要求</strong>
+          <p>NMBA 註冊通常涉及英文、criminal history、recency、fitness to practise 等要求。OTC 可做文件整理，不替代監管判斷。</p>
+        </article>
+      </div>
+      <aside class="ai-operations-note" style="margin-top:18px;">
+        <span>公開頁面警示語</span>
+        <p>課程層級相近不代表可直接執業；未經批准課程不能承諾護理註冊、職業評估或移民結果。涉及註冊、技能評估與簽證路線時，應轉介 AHPRA / NMBA / ANMAC 或合資格專業人士。</p>
+      </aside>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Placement readiness</div>
+        <h2>海外學生 placement 前要先問清楚的 10 件事。</h2>
+        <p>這個清單用於督導學習中心初步問診，幫學生把「能不能上課」和「能不能完成實習」分開看。</p>
+      </div>
+      <div class="vet-tafe-screening-grid">
+        ${[
+          ["01", "課程是否 CRICOS 註冊", "國際學生不能只看 RTO 是否有課，還要核對 CRICOS 與校區。"],
+          ["02", "誰安排 placement", "由 TAFE/RTO 安排、學生自找，還是混合模式？要寫清楚。"],
+          ["03", "需要哪些 checks", "Police Check、WWC、NDIS screening、immunisation、first aid 等逐項列出。"],
+          ["04", "實習場景與班次", "aged care、community、hospital、allied health、早晚夜班是否涉及。"],
+          ["05", "缺勤與 make-up", "若因病、簽證、家庭原因缺 placement，如何補時數。"],
+          ["06", "OTC 支援邊界", "OTC 協助整理問題、文件與溝通，不承諾 placement、註冊或就業結果。"]
+        ].map(([num, title, desc]) => `
+          <article>
+            <span>${num}</span>
+            <strong>${title}</strong>
+            <p>${desc}</p>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `,
   resources: [
     ["training.gov.au", "https://training.gov.au/"],
+    ["CRICOS", "https://cricos.education.gov.au/"],
     ["AHPRA approved programs of study", "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"],
     ["NMBA (Nursing and Midwifery Board of Australia)", "https://www.nursingmidwiferyboard.gov.au/"],
-    ["ANMAC", "https://www.anmac.org.au/"]
+    ["ANMAC", "https://www.anmac.org.au/"],
+    ["HLT54121 Diploma of Nursing", "https://training.gov.au/Training/Details/HLT54121"],
+    ["CHC33021 Certificate III in Individual Support", "https://training.gov.au/training/details/CHC33021"]
   ],
   related: [
     ["RTO/TAFE 篩查清單", "先核對 course code、CRICOS、實習、出勤與費用條款。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
