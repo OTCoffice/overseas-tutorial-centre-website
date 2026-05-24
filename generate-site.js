@@ -2588,6 +2588,98 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "australia-482-skills-in-demand-employer-sponsorship-checklist",
+    title: "Australia 482 Skills in Demand Visa: Employer Sponsorship Is Not Just Finding a Company",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "482 Skills in Demand · Employer sponsorship",
+    author: "留學導報編輯部",
+    summary: "A compliance-first briefing on Australia’s Skills in Demand visa (subclass 482), covering approved sponsors, CSOL occupation fit, salary thresholds, one-year relevant work experience, skills assessment and English requirements.",
+    titleZh: "482 Skills in Demand 簽證：僱主擔保不是「找到公司就行」",
+    summaryZh: "澳洲 482 Skills in Demand 簽證常被簡化成「找到公司願意擔保」。實際上，Core Skills stream 涉及 approved sponsor、CSOL 職業、AMSR/CSIT 薪資、至少一年相關工作經驗、技能評估與英文要求。本文用官方頁面做一份申請人與雇主都能讀懂的合規核對清單。",
+    body: [
+      {
+        heading: "1) The first misunderstanding: sponsorship is a structured employer process",
+        paragraphs: [
+          "The Skills in Demand visa (subclass 482) lets an employer sponsor a suitably skilled worker for a position they cannot fill with a suitably skilled Australian worker. That wording matters: the visa is tied to a real role, an approved sponsor, the nominated occupation and the applicant’s evidence.",
+          "A willing company is only the beginning. The proposed employer must be an approved sponsor, or at least have submitted an application to become a Standard Business Sponsor before nominating the worker.",
+          "For the Core Skills stream, the nominated occupation must be on the Core Skills Occupation List (CSOL). If the occupation fit is weak, the whole file becomes weak."
+        ]
+      },
+      {
+        heading: "2) Salary: AMSR and CSIT are not optional details",
+        paragraphs: [
+          "Home Affairs salary rules require the employer to determine the Annual Market Salary Rate (AMSR) correctly and not pay the overseas worker less than an Australian worker would be paid for equivalent work.",
+          "For Skills in Demand Core Skills stream nominations, the role must meet the Core Skills Income Threshold (CSIT). The Home Affairs salary page states AUD76,515 for nominations lodged from 1 July 2025 to 30 June 2026.",
+          "Non-cash benefits such as accommodation or a car do not replace the threshold. Salary evidence is therefore not just a number in an offer letter; it is part of the employer’s compliance file."
+        ]
+      },
+      {
+        heading: "3) Applicant evidence: one year of relevant experience, skills and English",
+        paragraphs: [
+          "For the Core Skills stream, applicants must generally have at least one year of relevant work experience in the nominated occupation or a related field. Part-time or casual work may count only where it is equivalent to the required full-time period and at the right skill level.",
+          "Some occupations require a mandatory skills assessment. Where required, the assessment must be commenced before submitting the visa application or the application may not be valid.",
+          "Primary applicants must also meet the relevant English language requirements unless an exemption applies. From the applicant’s perspective, a 482 file is therefore a combined story: role fit, experience evidence, English evidence and sponsor evidence must point in the same direction."
+        ]
+      },
+      {
+        heading: "4) A low-risk preparation checklist",
+        paragraphs: [
+          "Applicants should prepare passport and visa history, CV, qualification records, employment contracts, reference letters, payslips, tax or social-security records where relevant, English test evidence, and skills-assessment evidence if required.",
+          "Employers should prepare sponsor approval evidence, business registration, organisation chart, position description, recruitment or labour-market evidence where applicable, salary benchmarking, employment contract and compliance records.",
+          "This article is general public information, not migration or legal advice. Cases involving refusal history, related-party sponsorship, newly formed businesses, unclear salary source or complex visa status should be reviewed by a registered Australian migration agent or qualified lawyer."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、第一個誤區：僱主擔保不是一句「公司願意」",
+        paragraphs: [
+          "澳洲 Skills in Demand visa（subclass 482）讓雇主在找不到合適澳洲本地員工時，擔保具備相應技能的海外工作者。這句話背後其實有四個核心：真實職位、合格 sponsor、對應職業、申請人證據。",
+          "所以，找到一家公司願意幫忙，只是起點，不是終點。雇主需要是 approved sponsor，或至少已提交 Standard Business Sponsor 申請，之後才能為具體職位提名申請人。",
+          "如果走 Core Skills stream，被提名職位還需要落在 Core Skills Occupation List（CSOL）框架內。職業匹配不清楚，後面的薪資、經驗、英文材料再完整，也很難讓整份文件站穩。"
+        ]
+      },
+      {
+        heading: "二、薪資不是隨便填：AMSR 與 CSIT 都要看",
+        paragraphs: [
+          "Home Affairs 對提名薪資有明確要求：雇主要正確判斷 Annual Market Salary Rate（AMSR），也就是澳洲本地同等職位應有的市場薪資，並且不能把海外員工支付得低於同等澳洲員工。",
+          "Core Skills stream 還要看 Core Skills Income Threshold（CSIT）。Home Affairs 薪資頁面列明，2025 年 7 月 1 日至 2026 年 6 月 30 日之間遞交的相關 nomination，CSIT 為 AUD76,515。",
+          "住宿、車輛等非現金福利不能替代薪資門檻。因此，薪資不是 offer letter 上的一個數字，而是雇主合規文件的一部分。"
+        ]
+      },
+      {
+        heading: "三、申請人端：一年相關經驗、技能與英文不能漏",
+        paragraphs: [
+          "Core Skills stream 通常要求申請人在被提名職業或相關領域有至少一年相關工作經驗。兼職或 casual work 並非完全不能算，但要能折算到足夠的全職等效期間，並且工作內容要達到相應技能層級。",
+          "部分職業還需要 mandatory skills assessment。若屬於強制技能評估職業，通常需要在遞交簽證前已經開始評估，否則可能影響申請有效性。",
+          "主申請人還要滿足英文要求，除非符合豁免。換句話說，482 文件不是只看職位，也不是只看個人履歷，而是職位、經驗、薪資、英文、雇主材料互相支撐。"
+        ]
+      },
+      {
+        heading: "四、比較低風險的準備清單",
+        paragraphs: [
+          "申請人端可以先準備：護照與簽證歷史、CV、學歷文件、工作合同、推薦信、工資單、稅務或社保記錄（如適用）、英文成績，以及需要時的技能評估材料。",
+          "雇主端則應準備：sponsor 批准或申請證據、公司登記、組織架構、職位描述、招聘或勞動市場證據（如適用）、薪資市場對照、雇傭合同與合規記錄。",
+          "本文為公開政策與教育資訊整理，不構成移民法律建議。若涉及拒簽史、親屬或關聯公司擔保、新成立公司、薪資來源不清或簽證身份複雜，應找澳洲註冊移民代理或合資格律師做個案審查。"
+        ]
+      }
+    ],
+    resources: [
+      ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+      ["Home Affairs — Skills in Demand Visa (subclass 482) Core Skills stream", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream"],
+      ["Home Affairs — Salary requirements to nominate a worker", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482/salary-requirements"],
+      ["Home Affairs — English proficiency (subclass 482)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/sufficient-english"],
+      ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+    ],
+    notes: [
+      "General public briefing only; not migration, legal, tax or employment advice.",
+      "Salary thresholds, occupation lists and assessment requirements can change; always verify the current official page before acting.",
+      "For professional advice, consult a registered Australian migration agent or qualified Australian legal practitioner."
+    ]
+  },
+  {
     slug: "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
     title: "Australia Migration Program 2026–27: 185,000 Places and an Onshore Tilt — What It Means for Students and Skilled Applicants",
     date: "2026-05-24",
