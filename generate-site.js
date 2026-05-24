@@ -2587,6 +2587,245 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "australia-employer-sponsorship-standard-business-sponsor-checklist",
+    title: "Australia Employer Sponsorship: What a Business Must Check Before Sponsoring a Worker",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Employer sponsorship · SBS checklist",
+    author: "留學導報編輯部",
+    summary: "A compliance-first checklist for businesses and applicants reading Australian employer sponsorship, Standard Business Sponsor status, nomination evidence, salary thresholds and professional-advice boundaries.",
+    titleZh: "什麼條件可以在澳洲給別人工作擔保？雇主擔保前的合規清單",
+    summaryZh: "澳洲工作擔保不是個人一句話能完成的事，而是一套由企業擔保資格、職位真實性、提名、薪資、招聘證據與簽證申請共同構成的流程。本文把 Standard Business Sponsor、482/186/494 常見路線與高風險邊界整理成可核對清單。",
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+          "This article is a general public briefing. It does not provide migration, legal, tax or employment-law advice. Businesses and applicants should check the current Home Affairs pages and consult a registered migration agent or Australian legal practitioner before acting."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先分清：雇主擔保是企業流程，不是個人承諾",
+        paragraphs: [
+          "在澳洲給海外員工做工作擔保，通常涉及企業先成為 Standard Business Sponsor，再為特定職位提交 nomination，最後由員工申請相應簽證。常見路線包括 subclass 482 Skills in Demand、186 雇主提名永居及 494 區域雇主擔保。",
+          "這裡的核心不是「某個人願不願意擔保」，而是企業是否合法營運、是否有真實職位需求、是否能支付市場薪資、是否能履行擔保義務。若只是為了簽證而製造職位，風險非常高。"
+        ]
+      },
+      {
+        heading: "二、企業端需要先核對的條件",
+        paragraphs: [
+          "第一，企業須是合法、持續經營並正在交易的澳洲企業，通常需要 ABN、公司或商業登記、財務與稅務記錄、業務合同、發票、租約或辦公地址等材料來支持其真實運作。",
+          "第二，公司及相關負責人不應存在嚴重不良記錄，例如移民、勞工、稅務或合規違規。移民局會看企業是否有能力、也是否可信地履行 sponsorship obligations。",
+          "第三，提名職位需要有真實商業需求，職位內容、組織架構、工作地點、全職安排、職責描述與薪資都要能互相對得上。小企業不是不能擔保，但更要證明財務能力和職位必要性。"
+        ]
+      },
+      {
+        heading: "三、職位與薪資：最容易出問題的地方",
+        paragraphs: [
+          "被提名職位通常需要落在相關 skilled occupation list 或 Core Skills Occupation List 的框架內。雇主還可能需要進行 Labour Market Testing，以證明已按要求嘗試在澳洲本地招聘。",
+          "薪資不能只看雇主願意付多少，還要符合 Annual Market Salary Rate，並達到相應收入門檻，例如 482 Core Skills stream 的 Core Skills Income Threshold。具體金額會按日期與政策調整，發布前必須以 Home Affairs 當前頁面為準。",
+          "雇主不能向被擔保人收取擔保費或回扣。這類行為不只是商業糾紛，而可能觸及移民與勞工合規問題。"
+        ]
+      },
+      {
+        heading: "四、給申請人和企業的低風險做法",
+        paragraphs: [
+          "企業端先建立一套 evidence pack：公司登記、ABN、財務報表、BAS 或稅務記錄、招聘廣告、組織架構、職位說明、薪資依據、僱傭合約及 SAF levy 預算。",
+          "申請人端同步準備護照、簽證歷史、學歷證明、工作經驗、英文成績、技能評估或職業註冊資料。兩邊資料要能互相支持：職位需要什麼能力，申請人就要能證明自己具備什麼能力。",
+          "若個案涉及公司新成立、親屬公司、董事或股東本人被提名、薪資來源不清或職位高度依賴申請人，應在行動前找 MARA 註冊移民代理或澳洲律師做正式評估。"
+        ]
+      }
+    ],
+    resources: [
+      ["Home Affairs — Learn about sponsoring", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/learn-about-sponsoring"],
+      ["Home Affairs — Standard Business Sponsor", "https://immi.homeaffairs.gov.au/employer-subsite/Pages/becoming-standard-business-sponsor.aspx"],
+      ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+      ["Home Affairs — Salary requirements", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482/salary-requirements"]
+    ],
+    notes: [
+      "稿件來源：Gmail 2026-05-24〈什麼條件可以在澳洲給別人「工作擔保」〉，已改寫為合規公開稿。",
+      "General information only; not migration, legal, tax or employment advice."
+    ]
+  },
+  {
+    slug: "australia-self-sponsorship-company-sponsor-risk-check",
+    title: "Australia Self-Sponsorship Through Your Own Company: Why It Is High Risk",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Self-sponsorship · Risk check",
+    author: "留學導報編輯部",
+    summary: "A cautious briefing on Australian self-sponsorship through a Pty Ltd company, focusing on genuine position evidence, employer-employee relationship, business substance and professional review.",
+    titleZh: "在澳洲自己開公司自擔保可行嗎？先看這份高風險核對清單",
+    summaryZh: "澳洲自擔保常被簡化成「開一家公司擔保自己」，但實務上會面臨職位真實性、公司獨立營運、雇主—員工關係、薪資能力與商業實質等審查。本文只作風險教育，不建議讀者自行 DIY。",
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+          "Self-sponsorship scenarios are fact-sensitive and high risk. This public article explains issues to check before seeking professional advice; it is not a route recommendation."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、自擔保不是魔法公式",
+        paragraphs: [
+          "所謂 self-sponsorship，通常指申請人通過自己控制或參與的澳洲公司，由公司作為雇主提名自己擔任某一職位。從法律結構上看，Pty Ltd 有限公司與個人是不同法律實體；但從移民審查角度看，這種安排會被高度審視。",
+          "如果公司只是為了簽證而成立，沒有真實營運、沒有客戶、沒有收入、沒有獨立管理能力，或職位本身並非商業必需，拒簽風險很高。"
+        ]
+      },
+      {
+        heading: "二、Sole trader 通常不是合適結構",
+        paragraphs: [
+          "獨資或自僱模式很難形成清晰的雇主與員工關係。雇主擔保需要一個能提名、監督、支付薪資並履行擔保義務的雇主實體。",
+          "因此，自擔保討論中常見的是 Pty Ltd 有限公司結構。但公司存在本身並不等於可行，審查重點仍是商業實質與職位真實性。"
+        ]
+      },
+      {
+        heading: "三、四個核心風險點",
+        paragraphs: [
+          "第一，職位是否真實。職位應是公司業務真正需要，而不是為某個人量身定做的簽證空缺。職責、職業清單、招聘證據、業務計劃和組織架構要互相支持。",
+          "第二，公司是否有財務能力。公司需要能支付符合市場水平和收入門檻的薪資，並能承擔 SAF levy、會計、合規和營運成本。新公司或低營收公司會面臨更重的證據壓力。",
+          "第三，雇主—員工關係是否成立。如果申請人同時是唯一董事、唯一股東、唯一員工，且沒有人能有效監督或解雇他，案件會非常敏感。",
+          "第四，資金流是否清晰。若薪資實質上來自申請人自己循環支付，或公司收入與薪資承擔不匹配，會削弱案件可信度。"
+        ]
+      },
+      {
+        heading: "四、比較務實的準備方式",
+        paragraphs: [
+          "在尋求專業意見前，先整理公司材料：ABN/ACN、ASIC 記錄、BAS、稅表、銀行流水、客戶合同、發票、租約、業務計劃、員工或承包商記錄、招聘材料與職位說明。",
+          "同時整理個人材料：學歷、工作經驗、英文、職業資格、技能評估或註冊要求。若公司需求和個人能力不能自然對接，不應勉強包裝。",
+          "這類案件不適合自行操作。應先讓 MARA 註冊移民代理或澳洲律師審查公司結構、職位、薪資、證據與替代路線。"
+        ]
+      }
+    ],
+    resources: [
+      ["Home Affairs — Become a sponsor", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor"],
+      ["Home Affairs — Standard Business Sponsor", "https://immi.homeaffairs.gov.au/employer-subsite/Pages/becoming-standard-business-sponsor.aspx"],
+      ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+      ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+    ],
+    notes: [
+      "稿件來源：Gmail 2026-05-24〈澳洲移民：自己開公司自擔保（Self-Sponsorship）？〉，已改寫為風險教育稿。",
+      "Not a recommendation to pursue self-sponsorship."
+    ]
+  },
+  {
+    slug: "australia-training-visa-407-sponsorship-nomination-sequence-update",
+    title: "Australia Training Visa 407: Sponsorship and Nomination Must Be Planned Before Lodgement",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Training visa 407 · Planning sequence",
+    author: "留學導報編輯部",
+    summary: "A short public briefing on why Training Visa (subclass 407) applicants and sponsors should plan sponsorship, nomination and visa lodgement sequence carefully and verify requirements on official Home Affairs pages.",
+    titleZh: "澳洲 407 Training Visa：先核對 sponsor 與 nomination，再安排遞交節奏",
+    summaryZh: "407 培訓簽證不應只看簽證表格本身。申請前需要先核對 Temporary Activities Sponsor、Training Visa Nomination、培訓安排、時間線與簽證空窗風險。本文根據公開線索改寫，避免轉載第三方通訊原文。",
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+          "This article is rewritten from a newsletter lead and checked against official Home Affairs entry points. Readers must verify current requirements directly before acting."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、407 不是單獨一張簽證申請表",
+        paragraphs: [
+          "Training Visa (subclass 407) 面向在澳洲參加職業培訓、專業發展或特定訓練安排的人群。它通常涉及三層問題：誰是 sponsor，培訓或 nomination 是否被接受，以及申請人自己的簽證條件是否滿足。",
+          "很多申請延誤不是因為申請人不知道 407，而是把 sponsor、nomination 和 visa lodgement 的先後順序想得太簡單。若前置審批未完成或材料不匹配，後續時間線會被拉長。"
+        ]
+      },
+      {
+        heading: "二、申請前要先問的三個問題",
+        paragraphs: [
+          "第一，sponsor 是否具備資格。對 407 相關活動，通常需要 Temporary Activities Sponsor 或其他符合規則的 sponsor 身份。是否已批准、是否仍有效、可否覆蓋該活動，都要核對。",
+          "第二，nomination 或培訓安排是否清楚。培訓目的、職業關聯、時間、地點、監督安排、培訓計劃和申請人背景要一致。",
+          "第三，簽證時間線是否安全。若申請人已在澳洲，必須特別注意現有簽證到期、bridging visa、遞交節點與是否可能出現身份空窗。"
+        ]
+      },
+      {
+        heading: "三、給學生與雇主的實務清單",
+        paragraphs: [
+          "雇主或培訓方先建立 sponsor/nomination 文件包，包括 sponsor approval、training plan、職責與培訓內容、監督人資料、保險、場地和時間安排。",
+          "申請人同步準備護照、簽證歷史、學歷與工作經驗、英文或職業背景材料、健康與品格資料，以及與培訓目標相匹配的個人說明。",
+          "不要只依賴社交媒體或招聘通訊的摘要。407 涉及簽證狀態和培訓合規，必須回到 Home Affairs 官方頁面，必要時找 MARA 註冊移民代理確認。"
+        ]
+      }
+    ],
+    resources: [
+      ["Home Affairs — Training visa (subclass 407)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/training-407"],
+      ["Home Affairs — Temporary Activities Sponsor", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor/temporary-activities-sponsor"],
+      ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+    ],
+    notes: [
+      "稿件來源：Gmail 2026-05-24 LinkedIn newsletter 線索，公開稿已重寫，未轉載第三方原文。",
+      "Must be checked against current Home Affairs requirements before case use."
+    ]
+  },
+  {
+    slug: "bytedance-scholarship-2026-ai-students-application-briefing",
+    title: "ByteDance Scholarship 2026: A Briefing for AI and Computer Science Students",
+    date: "2026-05-24",
+    category: "Scholarships",
+    column: "study",
+    kicker: "Scholarship watch · AI research",
+    author: "留學導報編輯部",
+    summary: "A concise student-facing note on the ByteDance Scholarship application window, eligibility signals and preparation checklist, based on the official scholarship website and internal editorial lead.",
+    titleZh: "字節跳動獎學金 2026：AI 與計算機方向學生的申請提示",
+    summaryZh: "字節跳動獎學金已開放新一輪申請，面向人工智能、計算機科學及相關方向學生。本文把申請截止、研究成果、導師推薦與材料準備整理成導報提示，提醒學生以官方頁面為準。",
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+          "This scholarship briefing is for general information. Applicants should rely on the official ByteDance Scholarship website for eligibility, deadlines, award structure and form submission."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這是一個值得 AI / CS 學生關注的企業獎學金",
+        paragraphs: [
+          "字節跳動獎學金面向人工智能、計算機科學及相關研究方向學生，重點關注科研潛力、階段性成果、研究問題意識與長期價值。對準備博士、科研實習、AI 安全、多模態生成、機器學習系統等方向的學生來說，這類項目可以作為研究履歷的一部分來準備。",
+          "根據官方獎學金頁面與郵件線索，新一輪申請節點集中在 2026 年 6 月下旬前後；具體 eligibility、地域、畢業時間、申請表和材料要求必須以官方頁面為準。"
+        ]
+      },
+      {
+        heading: "二、申請材料不只是堆成果",
+        paragraphs: [
+          "申請人應優先整理三類材料：第一，科研成果證明，例如論文、預印本、開源項目、競賽、專利或可展示的研究 demo；第二，導師推薦或學術評價；第三，一份能說清研究問題、方法、貢獻和未來方向的個人陳述。",
+          "若成果仍處於階段性狀態，也不必急於包裝成完成品。更重要的是講清楚：你在解決什麼問題，已有證據支持到哪一步，下一步要如何驗證。"
+        ]
+      },
+      {
+        heading: "三、適合海外學生的準備節奏",
+        paragraphs: [
+          "第一週：核對官方申請頁，保存截止日期、申請表、資格條件和推薦信要求。若不確定自己是否符合地域或畢業時間條件，先向官方渠道確認。",
+          "第二週：把研究成果整理為一頁 research evidence pack，包括項目名稱、你的角色、方法、結果、連結和可核驗材料。",
+          "第三週：請導師或研究 supervisor 提前準備推薦意見。不要等到截止前才發材料，因為高質量推薦需要對方理解你的研究脈絡。",
+          "最後：提交前做一次事實核對，確保日期、學校、研究方向、附件命名、連結權限和英文/中文表述一致。"
+        ]
+      },
+      {
+        heading: "四、導報提醒",
+        paragraphs: [
+          "獎學金資訊變動快，尤其是申請範圍、截止時間、獎項數量和評審安排。本文只作申請提示，不替代官方公告，也不承諾申請結果。",
+          "對海外申請人而言，最有價值的準備不是臨時寫一份漂亮文書，而是提前建立可核對的科研證據包。這份材料未必只用於一個獎學金，也可支持博士申請、暑研、研究助理申請和學術面試。"
+        ]
+      }
+    ],
+    resources: [
+      ["ByteDance Scholarship — Official Website", "https://scholarship.bytedance.com/en"]
+    ],
+    notes: [
+      "稿件來源：Gmail 2026-05-24〈導報文 字节跳动奖学金〉，已改寫為申請提示稿。",
+      "Scholarship details must be checked on the official site before submission."
+    ]
+  },
+  {
     slug: "business-marketing-media-course-fit-portfolio-evidence-pack",
     title: "Business, Marketing or Media? A Module-First Course-Fit Checklist + Mini Portfolio Plan",
     date: "2026-05-24",
