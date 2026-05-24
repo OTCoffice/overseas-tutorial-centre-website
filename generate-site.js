@@ -2588,6 +2588,133 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "nclex-rn-2026-stream-b-taiwan-nursing-prep",
+    title: "NCLEX-RN 2026 Prep Strategy for Taiwan-Trained Stream B Nurses",
+    date: "2026-05-24",
+    category: "Australia Health Pathways",
+    column: "settlement",
+    kicker: "NCLEX-RN · NGN · Stream B",
+    author: "留學導報編輯部",
+    summary: "A practical, source-checked NCLEX-RN preparation plan for Taiwan-trained nurses using the Ahpra/NMBA Stream B OBA route, updated for the 2026 RN test plan and Next Generation NCLEX item formats.",
+    titleZh: "NCLEX-RN 備考策略完整解析（2026 最新版）：台灣五專背景 Stream B 考生專用",
+    summaryZh: "NCLEX-RN 是 AHPRA / NMBA Stream B OBA 路線中的核心筆試。本文依 NCSBN 2026 RN Test Plan、NCLEX Candidate Bulletin 與 NMBA RN MCQ 頁面，整理台灣五專護理背景考生可用的 8-12 週備考策略、NGN 題型、時間管理與 OSCE 銜接提醒。",
+    relatedReadings: ["taiwan-nursing-ahpra-stream-b-gcan-rn-pathway"],
+    body: [
+      {
+        heading: "1) First correction: 2026 NCLEX-RN is 85-150 items, not 75-145",
+        paragraphs: [
+          "The April 2026 NCLEX Candidate Bulletin states that the NCLEX-RN is a variable-length computerized adaptive test with 85 to 150 items and a five-hour time limit, including optional breaks.",
+          "The 2026 RN Test Plan is effective from April 1, 2026 through March 31, 2029. Candidates should treat the test plan as the map for study, because it explains client-needs categories, clinical judgment, sample item formats and item-writing logic.",
+          "For Ahpra/NMBA Stream B registered nurse candidates, the RN MCQ examination is coordinated with NCSBN and delivered through Pearson VUE using the NCLEX-RN."
+        ]
+      },
+      {
+        heading: "2) What Taiwan-trained nurses should train differently",
+        paragraphs: [
+          "Many Taiwan-trained nurses are clinically experienced but need to adjust to NCLEX language: prioritisation, delegation, safety, therapeutic communication, infection control, pharmacology and US-style entry-level nursing responsibility.",
+          "The exam rewards clinical judgment more than memorisation. A useful daily question is not simply 'what is correct?' but 'what is the safest nursing action now, based on the cues available?'",
+          "Build a bilingual weak-point log for English medical terms, medication classes, maternal-child nursing, mental health, paediatrics, delegation and emergency prioritisation."
+        ]
+      },
+      {
+        heading: "3) NGN item formats and scoring",
+        paragraphs: [
+          "Next Generation NCLEX item formats may include case studies, bow-tie, matrix/grid, drag-and-drop, highlight and extended multiple response. The point is to assess whether the candidate can notice cues, analyse them, prioritise hypotheses, take action and evaluate outcomes.",
+          "Do not rely on the old rule that all SATA items are simply all-or-nothing. NCSBN states that items with more than one key can use partial-credit scoring, including plus/minus, zero/one and rationale scoring models.",
+          "For practice, this means reviewing rationales is more valuable than counting only the percentage correct. A candidate should know whether the mistake was knowledge, cue recognition, prioritisation, English wording or unsafe delegation."
+        ]
+      },
+      {
+        heading: "4) A realistic 8-12 week plan",
+        paragraphs: [
+          "Weeks 1-3 should focus on the official test plan, baseline question bank results and high-frequency content gaps. Use daily blocks of 50-75 questions plus rationale review rather than passive reading.",
+          "Weeks 4-8 should increase to timed mixed sets and CAT-style practice. Track each missed item under content area and reasoning error. Pharmacology, physiology, maternal-child, mental health and safety/delegation usually need repeated spaced review.",
+          "The final two to four weeks should focus on full timed practice, NGN case studies, sleep rhythm, test-day routine and reducing avoidable anxiety. Readiness scores from commercial tools are signals, not guarantees."
+        ]
+      },
+      {
+        heading: "5) Stream B timeline and OSCE connection",
+        paragraphs: [
+          "Ahpra/NMBA advises that once a portfolio has been approved, the IQNM dashboard will direct candidates to register and pay for the NCLEX-RN through Pearson VUE. After authorisation, candidates schedule the examination through Pearson VUE.",
+          "The current Ahpra RN candidate handbook states that the Authorization to Test is valid for 90 days. NCSBN also reminds candidates that they must test within the dates of the ATT, which cannot be extended.",
+          "Passing the NCLEX-RN is not the end of the Stream B route. Stream B candidates still need to complete the OSCE before they are eligible to apply for registration in Australia."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先修正一個重要數字：2026 版不是 75-145 題",
+        paragraphs: [
+          "NCSBN 2026 年 4 月版 Candidate Bulletin 說明，NCLEX-RN 是電腦適應性考試（CAT），題量為 85 至 150 題，總時間最多 5 小時，時間包含介紹頁面與所有休息。",
+          "2026 RN Test Plan 自 2026 年 4 月 1 日生效，至 2029 年 3 月 31 日。它不是普通簡章，而是備考地圖：內容類別、臨床判斷、題型示例和命題邏輯都在裡面。",
+          "對 AHPRA / NMBA Stream B 的 Registered Nurse 考生來說，RN MCQ Examination 由 NCSBN / Pearson VUE 的 NCLEX-RN 承接。這一關是 OBA 路線的重要筆試，但不是澳洲註冊的最後一步。"
+        ]
+      },
+      {
+        heading: "二、台灣五專背景考生最需要換腦的地方",
+        paragraphs: [
+          "台灣護理師常有真實臨床經驗，但 NCLEX-RN 的難點在語言與思維轉換：prioritization、delegation、safety、therapeutic communication、infection control、pharmacology，以及美式入門 RN 的職責邊界。",
+          "這不是單純背題考試。更好的練習問題是：在目前資料與風險下，最安全、最優先、最符合 RN 職責的下一步是什麼？",
+          "建議建立雙語弱點本，把錯題分成 medication / maternal-child / mental health / paediatrics / delegation / emergency prioritisation / English wording，而不是只記『這題選錯』。"
+        ]
+      },
+      {
+        heading: "三、NGN 題型：不要再用舊 SATA 規則備考",
+        paragraphs: [
+          "Next Generation NCLEX（NGN）會用 case studies、bow-tie、matrix/grid、drag-and-drop、highlight、extended multiple response 等題型，測的是考生能否發現 cues、分析資料、排序假設、採取行動並評估結果。",
+          "原稿中的『SATA 全部選對才得分』需要修正。NCSBN 目前說明，多答案題可使用 partial credit scoring，常見模型包括 plus/minus、zero/one 和 rationale scoring。",
+          "所以刷題時不要只看正確率。每一道錯題都要問：是知識缺口、線索辨識、優先順序、英文理解，還是 delegation / safety 判斷錯誤？這比單純追求題量更有用。"
+        ]
+      },
+      {
+        heading: "四、8-12 週備考節奏：把題庫變成診斷工具",
+        paragraphs: [
+          "第 1-3 週，先讀官方 Test Plan，做一次基線測試，每天 50-75 題加完整解析。這一階段不要急著衝模考分數，重點是找出內容缺口與英文題幹習慣。",
+          "第 4-8 週，改成限時 mixed sets 與 CAT-style practice。每週固定複盤弱項：藥理、內外科生理、產兒、精神、感染控制、安全與 delegation。錯題本要按『為什麼錯』分類。",
+          "最後 2-4 週，重點放在完整限時練習、NGN case studies、作息穩定、考場流程和焦慮管理。商業題庫的 readiness assessment 只能當參考訊號，不是通過保證。"
+        ]
+      },
+      {
+        heading: "五、資源怎麼選：官方資料打底，商業題庫做訓練",
+        paragraphs: [
+          "官方資料必讀：NCSBN 2026 RN Test Plan、NCLEX Candidate Bulletin、NCLEX FAQ、Ahpra / NMBA 的 RN MCQ 頁面。先確定考試制度，再選補習或題庫。",
+          "商業題庫可作訓練工具，例如 UWorld、Archer、Kaplan、SimpleNursing 等，但本文不把任何第三方資源寫成保證有效。選擇時看三件事：解析品質、NGN 題型覆蓋、錯題分類是否方便。",
+          "若使用 Mark Klimek 或其他免費講義/音頻，也應把它當成概念複習，而不是官方標準答案來源。真正的底層標準仍是 NCSBN test plan 和護理監管機構要求。"
+        ]
+      },
+      {
+        heading: "六、ATT、90 天與 OSCE：不要只盯著筆試",
+        paragraphs: [
+          "Ahpra / NMBA 說明，portfolio approved 之後，IQNM dashboard 會提示考生到 NCSBN / Pearson VUE 註冊並支付 NCLEX-RN 費用；之後收到 Authorization to Test（ATT）再預約考點與日期。",
+          "目前 Ahpra RN candidate handbook 寫明 ATT 有效期為 90 天；NCSBN 也提醒考生必須在 ATT 有效日期內考試，ATT 日期不能延長。因此公開文章不宜把備考窗口寫成固定 180 天，而應寫成『按個人 ATT 有效期倒排備考』。",
+          "更重要的是，Stream B 考生通過 NCLEX-RN 後仍需準備 OSCE。NMBA 的 OSCE 頁面明確說明，Stream B 候選人完成 Orientation Part 1、Portfolio 和 MCQ 後，還需要通過 OSCE，才有資格申請澳洲註冊。"
+        ]
+      },
+      {
+        heading: "七、導報建議：可以鼓勵，但不要製造保證感",
+        paragraphs: [
+          "台灣五專護理背景的考生，不需要被『海外考試』嚇倒；你們的臨床經驗是資產。但 NCLEX-RN 要求的是英文環境下的安全判斷與入門 RN 標準，需要有紀律地轉換題感。",
+          "比較穩的策略是：官方 test plan 做地圖，題庫做訓練，錯題本做診斷，ATT 有效期做時間邊界，OSCE 做下一階段準備。",
+          "本文為一般教育資訊，不是註冊、移民、就業或財務建議。AHPRA / NMBA 流程、NCLEX 費用與考試安排、OSCE 位置及個人適用性，請以官方頁面與個案通知為準。"
+        ]
+      }
+    ],
+    resources: [
+      ["NCSBN — 2026 NCLEX-RN Test Plan", "https://www.ncsbn.org/publications/2026-nclex-rn-test-plan"],
+      ["NCLEX — Test Plans", "https://www.nclex.com/test-plans"],
+      ["NCSBN — 2026 NCLEX Examination Candidate Bulletin", "https://www.ncsbn.org/public-files/NCLEX_Examination_Candidate_Bulletin_April_2026.pdf"],
+      ["NCSBN — Current scoring models", "https://ncsbn.zendesk.com/hc/en-us/articles/14690447982359-What-are-the-current-scoring-models"],
+      ["NCLEX — Frequently Asked Questions", "https://www.nclex.com/faqs.page"],
+      ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
+      ["NMBA — Objective Structured Clinical Exam (OSCE)", "https://www.nursingmidwiferyboard.gov.au/Accreditation%20/IQNM/Examination/Objective-structured-clinical-exam.aspx"]
+    ],
+    notes: [
+      "General public briefing only; not registration, migration, employment, legal or financial advice.",
+      "The article corrects outdated NCLEX figures and avoids guaranteed-pass language.",
+      "Candidates should follow their own Ahpra/NMBA dashboard, Pearson VUE ATT validity dates and current NCSBN materials."
+    ]
+  },
+  {
     slug: "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
     title: "Taiwan Nursing Background to Australia RN: AHPRA Stream B, GCAN and the OBA Route",
     date: "2026-05-24",
