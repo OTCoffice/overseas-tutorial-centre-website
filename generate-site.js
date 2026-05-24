@@ -5751,30 +5751,57 @@ function zhArticleRelatedReadings(article) {
 }
 
 function zhArticleRoadmap(article, checklist) {
-  const related = zhArticleRelatedReadings(article);
-  if (related) return related;
-  return `
-      <section class="zh-herald-infographic">
-        <h2>導報閱讀路線圖</h2>
-        <p>From Briefing to Action · 從資訊整理到申請行動</p>
-        <div class="zh-herald-roadmap">
-          ${checklist.slice(0, 6).map((section, index) => `
-            <div class="zh-herald-roadmap-step">
-              <div>${index + 1}</div>
-              <strong>${section.heading}</strong>
-              <span>${index === 0 ? "理解背景" : index === checklist.length - 1 ? "完成核對" : "整理材料"}</span>
-            </div>
+  const relatedArticles = (() => {
+    const resolved = (article.relatedReadings || [])
+      .map((slug) => insightsArticles.find((candidate) => candidate.slug === slug))
+      .filter(Boolean);
+    if (resolved.length) return resolved.slice(0, 6);
+    const sameCategory = insightsArticles.filter((candidate) => candidate.slug !== article.slug && candidate.category === article.category);
+    if (sameCategory.length) return sameCategory.slice(0, 6);
+    const sameColumn = insightsArticles.filter((candidate) => candidate.slug !== article.slug && candidate.column === article.column);
+    return sameColumn.slice(0, 6);
+  })();
+
+  const resources = (article.resources || []).slice(0, 6);
+
+  const relatedHtml = relatedArticles.length ? `
+        <div class="zh-herald-reading-list">
+          ${relatedArticles.map((related) => {
+            const column = zhReviewColumnForArticle(related);
+            return `
+            <a class="zh-herald-reading-item" href="/zh/insights/${related.slug}/">
+              <strong>${related.titleZh || related.title}</strong>
+              <span>${column.name} · ${related.date.replace(/-/g, ".")}</span>
+            </a>
+          `;
+          }).join("")}
+        </div>
+  ` : `<div class="zh-herald-reading-empty">本期暫無可自動匹配的延伸閱讀。你可以回到 <a href="/zh/insights/">留學導報索引</a> 以欄目或日期瀏覽。</div>`;
+
+  const resourcesHtml = resources.length ? `
+        <div class="zh-herald-reading-list">
+          ${resources.map((resource) => `
+            <a class="zh-herald-reading-item zh-herald-reading-link" href="${resource[1]}" target="_blank" rel="noopener">
+              <strong>${resource[0]}</strong>
+              <span>${resource[1]}</span>
+            </a>
           `).join("")}
         </div>
-        <div class="zh-herald-reference-grid">
-          <article>
-            <strong>中文正文</strong>
-            <span>面向學生與家長，先讀重點、流程與風險提示。</span>
-          </article>
-          <article>
-            <strong>English Reference</strong>
-            <span>保留英文原文對照，方便對外溝通與文件準備。</span>
-          </article>
+  ` : `<div class="zh-herald-reading-empty">本文未列出官方連結。建議以 Home Affairs / 州領地官方網站的最新頁面為準。</div>`;
+
+  return `
+      <section class="zh-herald-infographic zh-herald-reading-hub">
+        <h2>相關閱讀與官方資源</h2>
+        <p>Related Reading · Official Links · 延伸閱讀與政策查詢入口</p>
+        <div class="zh-herald-reading-grid">
+          <div>
+            <h3>本報相關閱讀</h3>
+            ${relatedHtml}
+          </div>
+          <div>
+            <h3>官方政策 / 查詢</h3>
+            ${resourcesHtml}
+          </div>
         </div>
       </section>
   `;
