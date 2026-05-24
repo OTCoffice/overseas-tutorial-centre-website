@@ -31,7 +31,9 @@
     .eyebrow { text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-size: 12px; font-weight: 700; }
     h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 44px); line-height: 1.08; }
     h2 { margin-top: 0; }
-    .grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 18px; padding: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 18px; padding: 18px; align-items: start; }
+    .practice-card, .dashboard-card { grid-column: 1 / -1; }
+    .report-card { grid-column: 1 / -1; }
     .card {
       background: var(--white);
       border: 1px solid var(--line);
@@ -46,6 +48,11 @@
       padding: 12px;
       margin-top: 12px;
     }
+    .dashboard-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+    .dashboard-block { border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 14px; min-height: 100%; }
+    .dashboard-block h3 { margin: 0 0 8px; font-size: 16px; }
+    .dashboard-notes { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .dashboard-notes .notice { margin: 0; }
     .question-stem { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
     .zh { color: var(--muted); }
     button {
@@ -80,12 +87,30 @@
     .mini-bar { grid-column: 1 / -1; height: 6px; background: #edf2f7; border-radius: 999px; overflow: hidden; }
     .mini-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
     .report-box { white-space: pre-wrap; background: #f8fafc; border: 1px solid var(--line); border-radius: 8px; padding: 12px; max-height: 360px; overflow: auto; font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .glossary-note { margin: 10px 0; padding: 8px 10px; border-radius: 7px; background: #f8fafc; border: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    .glossary-mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .glossary-mini-card { border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; }
+    .glossary-mini-card p { margin: 4px 0 0; }
     select, input[type="search"], input[type="date"] { width: 100%; padding: 10px; border: 1px solid var(--line); border-radius: 7px; font: inherit; background: var(--white); }
     label { display: block; margin-top: 12px; color: var(--muted); font-size: 14px; }
     .toolbar { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
     .toolbar .wide { grid-column: 1 / -1; }
-    @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
-    @media (max-width: 560px) { .toolbar { grid-template-columns: 1fr; } .toolbar .wide { grid-column: auto; } }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .practice-card, .dashboard-card, .report-card { grid-column: 1 / -1; }
+      .dashboard-grid, .dashboard-notes { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      header { padding: 22px 14px; }
+      .grid { padding: 12px; gap: 12px; }
+      .card { padding: 14px; }
+      .toolbar { grid-template-columns: 1fr; }
+      .toolbar .wide { grid-column: auto; }
+      .actions { flex-direction: column; }
+      .actions button { width: 100%; }
+      .category-row { grid-template-columns: minmax(0, 1fr) repeat(4, minmax(38px, auto)); font-size: 12px; }
+      .glossary-mini-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -99,7 +124,7 @@
   </header>
 
   <main class="wrap grid">
-    <section class="card" id="practice">
+    <section class="card practice-card" id="practice">
       <h2>Practice Drill</h2>
       <div class="toolbar">
         <label>Category / 分類
@@ -126,42 +151,44 @@
       <div id="result"></div>
     </section>
 
-    <aside class="card">
+    <aside class="card dashboard-card">
       <h2>Study Dashboard</h2>
-      <p class="notice">Public demo mode: this page only loads the 50-item low-risk demo pool. The 500-item internal pool remains under RN / nursing educator review and is not exposed here. 公開展示模式只載入 50 題低風險 demo 題池；500 題內部題池仍在 RN / 護理教育者審核流程中，不在此頁公開。</p>
-      <p class="notice">Progress is stored only in this browser/device. Clearing cache, changing browser or reinstalling a wrapped app may reset records. 進度只儲存在本裝置瀏覽器；清除快取、更換瀏覽器或重新安裝封裝 App 可能會重置記錄。</p>
-      <div class="stat">
-        <div><strong id="doneCount">0</strong><br><span class="zh">已練習</span></div>
-        <div><strong id="correctCount">0</strong><br><span class="zh">答對</span></div>
-      </div>
-      <h3>ATT Countdown</h3>
-      <p class="zh">輸入自己的 ATT expiry date，按個人有效期倒排，不使用固定天數承諾。</p>
-      <input id="attDate" type="date">
-      <p id="attOutput"></p>
-      <h3>Weak Tags</h3>
-      <div id="weakTags"></div>
-      <h3>Category Review</h3>
-      <div id="categoryDashboard" class="category-dashboard"></div>
-      <div class="actions">
-        <button id="copySummaryBtn">Copy weak summary / 複製弱項摘要</button>
-        <button id="copyReportBtn">Copy learner report / 複製學員報告</button>
-        <button id="showReportBtn">Show report / 顯示報告</button>
-        <button class="danger" id="resetBtn">Reset progress / 重置進度</button>
+      <div class="dashboard-grid">
+        <div class="dashboard-notes">
+          <p class="notice">Public demo mode: this page only loads the 50-item low-risk demo pool. The 500-item internal pool remains under RN / nursing educator review and is not exposed here. 公開展示模式只載入 50 題低風險 demo 題池；500 題內部題池仍在 RN / 護理教育者審核流程中，不在此頁公開。</p>
+          <p class="notice">Progress is stored only in this browser/device. Clearing cache, changing browser or reinstalling a wrapped app may reset records. 進度只儲存在本裝置瀏覽器；清除快取、更換瀏覽器或重新安裝封裝 App 可能會重置記錄。</p>
+        </div>
+        <div class="dashboard-block">
+          <div class="stat">
+            <div><strong id="doneCount">0</strong><br><span class="zh">已練習</span></div>
+            <div><strong id="correctCount">0</strong><br><span class="zh">答對</span></div>
+          </div>
+          <h3>ATT Countdown</h3>
+          <p class="zh">輸入自己的 ATT expiry date，按個人有效期倒排，不使用固定天數承諾。</p>
+          <input id="attDate" type="date">
+          <p id="attOutput"></p>
+        </div>
+        <div class="dashboard-block">
+          <h3>Weak Tags</h3>
+          <div id="weakTags"></div>
+        </div>
+        <div class="dashboard-block">
+          <h3>Category Review</h3>
+          <div id="categoryDashboard" class="category-dashboard"></div>
+        </div>
+        <div class="actions">
+          <button id="copySummaryBtn">Copy weak summary / 複製弱項摘要</button>
+          <button id="copyReportBtn">Copy learner report / 複製學員報告</button>
+          <button id="showReportBtn">Show report / 顯示報告</button>
+          <button class="danger" id="resetBtn">Reset progress / 重置進度</button>
+        </div>
       </div>
     </aside>
 
-    <section class="card">
+    <section class="card report-card">
       <h2>Learner Report</h2>
       <p class="zh">本報告只依本裝置練習記錄生成，不能作為通過預測或官方評估。</p>
       <div id="learnerReport" class="report-box">No report generated yet / 尚未生成報告。</div>
-    </section>
-
-    <section class="card">
-      <h2>Glossary Flashcards</h2>
-      <label>Search glossary / 搜尋術語
-        <input id="glossarySearch" type="search" placeholder="clinical judgment / 優先順序">
-      </label>
-      <div id="glossary"></div>
     </section>
   </main>
 
@@ -341,6 +368,7 @@
         tags.forEach(tag => progress.tags[tag] = (progress.tags[tag] || 0) + 1);
       }
       save();
+      const relatedGlossary = correct ? "" : renderRelatedGlossary(q, tags);
       checkedResult = {
         questionId: q.id,
         selection: got,
@@ -350,6 +378,7 @@
           <p>Answer: ${q.answer.join(", ")}</p>
           <p>${q.rationale}<br><span class="zh">${rationaleZh}</span></p>
           <div>${tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
+          ${relatedGlossary}
         </div>
       `
       };
@@ -512,15 +541,39 @@
       applyFilters();
     }
 
-    function renderGlossary(query = "") {
-      const q = query.trim().toLowerCase();
-      const filtered = glossary.filter(([en, zh, category, note]) => {
-        const haystack = `${en} ${zh} ${category} ${note}`.toLowerCase();
-        return !q || haystack.includes(q);
-      });
-      document.getElementById("glossary").innerHTML = filtered.map(([en, zh, category, note]) => `
-        <p><strong>${en}</strong> / ${zh} <span class="tag">${category}</span><br><span class="zh">${note}</span></p>
-      `).join("") || `<p class="zh">No matching term / 沒有符合術語。</p>`;
+    function normalize(value) {
+      return String(value || "").toLowerCase().replace(/[_-]+/g, " ");
+    }
+
+    function renderRelatedGlossary(question, tags) {
+      const tagMap = {
+        cue_recognition: ["cue", "recognize cues", "analyze cues", "clinical judgment"],
+        delegation_scope: ["delegation", "scope of practice", "RN assessment", "UAP", "teaching", "evaluation"],
+        english_wording: ["requires follow-up", "further teaching", "priority", "most appropriate", "first action"],
+        knowledge_gap: ["client needs", "NCLEX test plan", "candidate bulletin"],
+        osce_transition: ["OSCE", "OBA", "Ahpra", "NMBA", "portfolio"],
+        prioritization: ["prioritization", "ABC", "Maslow", "acute", "unstable client"],
+        safety_infection: ["infection control", "safety and infection control", "sepsis", "hypoxia", "aspiration"],
+        test_strategy: ["readiness assessment", "ATT", "MCQ", "NCLEX-RN"],
+        therapeutic_communication: ["therapeutic communication", "open-ended question", "reflection", "false reassurance"]
+      };
+      const wanted = new Set(["clinical judgment"]);
+      tags.forEach((tag) => (tagMap[tag] || []).forEach((term) => wanted.add(normalize(term))));
+      wanted.add(normalize(question.category));
+      const matches = glossary.filter(([en, zh, category, note]) => {
+        const term = normalize(en);
+        const haystack = `${term} ${normalize(zh)} ${normalize(category)} ${normalize(note)}`;
+        return [...wanted].some((needle) => needle && (term === needle || haystack.includes(needle)));
+      }).slice(0, 6);
+      if (!matches.length) return "";
+      return `
+        <div class="glossary-note">Related glossary after a wrong answer / 錯題關聯詞彙：只在需要複盤時出現。</div>
+        <div class="glossary-mini-grid">
+          ${matches.map(([en, zh, category, note]) => `
+            <article class="glossary-mini-card"><strong>${en}</strong> / ${zh} <span class="tag">${category}</span><p class="zh">${note}</p></article>
+          `).join("")}
+        </div>
+      `;
     }
 
     function parseCsv(text) {
@@ -566,7 +619,6 @@
       } catch (error) {
         console.warn("Using fallback glossary:", error.message);
       }
-      renderGlossary(document.getElementById("glossarySearch").value);
     }
 
     function renderFilters() {
@@ -608,7 +660,6 @@
     document.getElementById("categoryFilter").addEventListener("change", applyFilters);
     document.getElementById("modeFilter").addEventListener("change", applyFilters);
     document.getElementById("shuffleBtn").addEventListener("click", shufflePool);
-    document.getElementById("glossarySearch").addEventListener("input", (event) => renderGlossary(event.target.value));
     document.getElementById("attDate").addEventListener("change", (event) => {
       const date = new Date(event.target.value + "T00:00:00");
       const now = new Date();
