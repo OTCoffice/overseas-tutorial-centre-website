@@ -5507,13 +5507,40 @@ function zhAcademicReadingUrl(parts) {
   return `https://scholar.google.com/scholar?q=${encodeURIComponent(`${parts.title} ${parts.byline}`)}`;
 }
 
+function zhAcademicPublicationUrl(parts) {
+  return `https://search.worldcat.org/search?q=${encodeURIComponent(`${parts.title} ${parts.byline}`)}`;
+}
+
+function zhAcademicReviewUrl(parts) {
+  return `https://scholar.google.com/scholar?q=${encodeURIComponent(`${parts.title} ${parts.byline} review OR 書評`)}`;
+}
+
+function zhAcademicReadingRelation(reference) {
+  const tag = zhAcademicReadingTag(reference);
+  const relations = {
+    "核心文本": "文本原點",
+    "形式理論": "偽托、後設與敘事框架",
+    "殖民與翻譯": "帝國、翻譯與世界文學場域",
+    "東亞古典": "古典物語與偽托傳統",
+    "社會與性別": "公共領域、階級與女性主體",
+    "台灣文學史": "台灣歷史語境",
+    "延伸線索": "旁支線索"
+  };
+  return relations[tag] || "旁支線索";
+}
+
 function zhAcademicReadingListItem(reference) {
   const parts = zhAcademicReadingParts(reference);
   return `
               <li>
-                <span>${zhAcademicReadingTag(reference)}</span>
-                <a href="${zhAcademicReadingUrl(parts)}" target="_blank" rel="noopener">${parts.title}</a>
+                <span class="zh-reading-node">${zhAcademicReadingTag(reference)}</span>
+                <strong><a href="${zhAcademicReadingUrl(parts)}" target="_blank" rel="noopener">${parts.title}</a></strong>
                 <em>${parts.byline}</em>
+                <small>${zhAcademicReadingRelation(reference)}</small>
+                <nav aria-label="${parts.title} 延伸連結">
+                  <a href="${zhAcademicPublicationUrl(parts)}" target="_blank" rel="noopener">出版/館藏</a>
+                  <a href="${zhAcademicReviewUrl(parts)}" target="_blank" rel="noopener">書評/研究</a>
+                </nav>
               </li>
   `;
 }
@@ -5544,7 +5571,7 @@ function zhArticleMagazineBody(article) {
   const academicReferences = readingReferences && readingReferences.length ? `
           <section class="zh-academic-bibliography">
             <h2 class="zh-herald-section-head" data-num="讀">延伸閱讀</h2>
-            <p class="zh-academic-source-note">精簡列出本文牽涉的主要文本與理論線索。書名連至 Scholar 檢索，便於讀者自行查版本、館藏與論文引用。</p>
+            <p class="zh-academic-source-note">這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。</p>
             <ul class="zh-academic-reading-list">
               ${readingReferences.map((reference) => zhAcademicReadingListItem(reference)).join("")}
             </ul>
