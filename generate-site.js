@@ -1619,6 +1619,7 @@ function searchItems() {
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
     ["留學導報中文目錄", "/zh/insights/", "海外書局導報中文文章清單，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理。"],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
+    ["OTHM Health & Social Care Bilingual Study Series", "/publishing/othm-health-social-care-bilingual-series/", "Overseas Publishing House planned bilingual study-guide series for OTHM Health and Social Care levels 3 to 7, linked to OTC's Australia health pathway research and tutor approval preparation."],
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
 
@@ -5962,6 +5963,45 @@ const publishing = pageShell({
       <div class="series-shelf">
         <div class="shelf-head">
           <div>
+            <div class="eyebrow">Planned Health & Care Series</div>
+            <h3>OTHM Health & Social Care Bilingual Study Series</h3>
+            <p>《OTHM 健康護理雙語精講》規劃覆蓋 Level 3 至 Level 7，連接英國 OTHM 學習、澳洲健康護理路線與職業轉型讀者。</p>
+          </div>
+          <a href="/publishing/othm-health-social-care-bilingual-series/">Series plan</a>
+        </div>
+        <div class="shelf-grid">
+          <a class="shelf-book" href="/publishing/othm-health-social-care-bilingual-series/">
+            <span class="shelf-cover">
+              <span>OPH</span>
+              <strong>OTHM Health & Social Care Bilingual Study Series</strong>
+              <em>Planned 2026</em>
+            </span>
+            <span class="shelf-text">
+              <b>Health & Care Publishing</b>
+              <strong>Level 3-7 bilingual study companions</strong>
+              <small>中英對照 · assignment framework · health terminology · Australia VET / university pathway notes</small>
+            </span>
+          </a>
+          <a class="shelf-book" href="/australia/">
+            <span class="shelf-cover">
+              <span>OTC</span>
+              <strong>Australia Health Pathways</strong>
+              <em>Route Map</em>
+            </span>
+            <span class="shelf-text">
+              <b>Pathway Context</b>
+              <strong>Australia health, VET and university route map</strong>
+              <small>OTHM 補強、澳洲 VET、AHPRA / ANMAC / NMBA 邊界與院校初篩入口</small>
+            </span>
+          </a>
+        </div>
+        <div style="height:18px"></div>
+        <div class="notice">Series status: planning and tutor-resource preparation. These study companions will be independent Overseas Publishing House learning resources and will not be official OTHM specifications, assessment briefs, model answers or awarding-body publications.</div>
+      </div>
+      <div style="height:28px"></div>
+      <div class="series-shelf">
+        <div class="shelf-head">
+          <div>
             <div class="eyebrow">Education & Study Companions</div>
             <h3>OTHM Level 5 Business Management</h3>
             <p>Six first-edition single-unit bilingual study companions · Payhip live</p>
@@ -6063,8 +6103,98 @@ const guides = pageShell({
     <section class="band">
       <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management single-unit study companions are live on Payhip with assigned ISBN records. Publishing compliance: OTC study companions are independent learning resources and do not represent official OTHM publication status, official assessment documents, model answers or guaranteed-outcome products.</div>
       <div style="height:28px"></div>
+      <article class="resource-row">
+        <div>
+          <div class="meta">Planned Series · Health & Social Care</div>
+          <h3>《OTHM 健康護理雙語精講》</h3>
+          <p>Planned Level 3-7 bilingual study-guide series for health and social care learners, including health terminology, assignment frameworks, Australia pathway notes and tutor-resource preparation.</p>
+        </div>
+        <a class="btn btn-dark" href="/publishing/othm-health-social-care-bilingual-series/">Open Series Plan</a>
+      </article>
+      <div style="height:28px"></div>
       <div class="product-grid">${productCards()}</div>
     </section>
+  `
+});
+
+const othmHealthSocialCareBilingualSeries = pageShell({
+  title: "OTHM Health & Social Care Bilingual Study Series | Overseas Publishing House | OTC",
+  description: "Overseas Publishing House planned bilingual study-guide series for OTHM Health and Social Care levels 3 to 7, linking UK OTHM learning, Australia health pathways and assignment-oriented academic preparation.",
+  current: "publishing",
+  path: "/publishing/othm-health-social-care-bilingual-series/",
+  body: `
+    <main class="health-series-page">
+    <section class="page-hero health-series-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Planned 2026 Series</div><h1>OTHM Health & Social Care Bilingual Study Series</h1><p>《OTHM 健康護理雙語精講》：從 Level 3 到 Level 7，每冊覆蓋一個層級，中英對照，考試導向，連接英國 OTHM 學習與澳洲健康護理路線。</p><div class="actions"><a class="btn btn-primary" href="#health-series-books">查看五冊規劃</a><a class="btn btn-secondary" href="/australia/">澳洲健康路線</a><a class="btn btn-secondary" href="/othm-qualifications/">OTHM 資格入口</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Positioning</div>
+        <h2>學術備考 + 職業轉型的雙軌教材系列。</h2>
+        <p>本系列面向正在修讀或準備修讀 OTHM Health and Social Care 的中文學習者，也服務正在比較英國 OTHM、澳洲 VET、護理及社會健康方向的旅英旅澳華人學生與從業者。教材定位是學習輔助與路線理解，不取代官方 specification、課堂教學或評核文件。</p>
+      </div>
+      <div class="index-grid">
+        <article><b>01</b><strong>OTHM learners</strong><span>中英對照拆解 unit outcomes、assessment criteria、核心概念和常見寫作任務。</span></article>
+        <article><b>02</b><strong>Australia pathway readers</strong><span>把 OTHM 層級、澳洲 VET、Bachelor / Master 銜接與執業邊界放在同一套語言裡。</span></article>
+        <article><b>03</b><strong>Care-sector workers</strong><span>幫已在 care home、community care 或 support work 的讀者理解升級資格與學術表達。</span></article>
+        <article><b>04</b><strong>Family planning</strong><span>給家長和學生一套可閱讀、可比較、可諮詢的醫療健康升學路線材料。</span></article>
+      </div>
+    </section>
+
+    <section class="band" id="health-series-books">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Five-Book Plan</div>
+        <h2>五冊覆蓋 Level 3 至 Level 7。</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><div class="meta">Book 1 · Level 3</div><h3>入門與職業定向</h3><p>英國 NHS 與澳洲 Medicare 基礎、健康護理職業路線、Level 3 核心單元中英對照、300 詞 health terminology、OTHM 評核與 assignment 寫作入門。</p></div><span class="pill">Planned</span></article>
+        <article class="resource-row"><div><div class="meta">Book 2 · Level 4</div><h3>管理基礎</h3><p>醫療機構組織架構、人員管理、溝通與多元文化護理、learning outcomes 與 assessment criteria 解析、作業框架模板及英國老人院管理案例。</p></div><span class="pill">Planned</span></article>
+        <article class="resource-row"><div><div class="meta">Book 3 · Level 5</div><h3>執業核心</h3><p>CQC 標準、護理品質管理、研究方法、心理健康與殘疾支援倫理、澳洲 NDIS 與 CHC 資格體系，以及 Level 5 與 HLT54121 Diploma of Nursing 的邊界對照。</p></div><span class="pill">Priority</span></article>
+        <article class="resource-row"><div><div class="meta">Book 4 · Level 6</div><h3>學術升學橋樑</h3><p>文獻引用、政策分析、批判性思維、澳洲大學 Advanced Entry 文件清單、unit outline 準備、Level 6 至英澳三年級 / top-up 銜接指引。</p></div><span class="pill">Planned</span></article>
+        <article class="resource-row"><div><div class="meta">Book 5 · Level 7</div><h3>管理碩士預備</h3><p>研究設計、碩士前導寫作、醫療系統領導力、策略管理、澳洲健康管理碩士銜接，以及醫學背景進入 health management 的跨學科路徑。</p></div><span class="pill">Planned</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">Standard Book Structure</div>
+          <h3>每冊固定骨架</h3>
+          <ul>
+            <li>中文前言：資格用途、學完能做什麼、在澳洲如何理解</li>
+            <li>課程架構與評核說明，中英雙語呈現</li>
+            <li>各單元核心知識點與關鍵概念對照</li>
+            <li>200-300 條中英術語表</li>
+            <li>assignment 要求解析與答題框架模板</li>
+            <li>延伸閱讀、官方來源及澳洲 VET 對應附錄</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">Publishing Plan</div>
+          <h3>出版與銷售節奏</h3>
+          <ul>
+            <li>PDF ebook first，Payhip 平台發售</li>
+            <li>單冊參考 £9.99-£14.99，系列套裝另定</li>
+            <li>每冊配套一篇海外留學導報深度文章</li>
+            <li>OTC 在校學生可作為首批教學配套讀者</li>
+            <li>Traditional Chinese 讀者優先，後續可擴展英文摘要版</li>
+          </ul>
+        </div>
+      </div>
+      <div class="notice">Compliance boundary: this is an independent Overseas Publishing House / OTC learning-support series. It is not an official OTHM textbook, official specification, assignment brief, mark scheme, learner submission, model-answer bank or guaranteed-assessment product. Learners must follow the current official specification and instructions issued by their approved centre.</div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Tutor & Approval Preparation</div>
+        <h2>Health and Social Care delivery is being prepared as a regulated approval workflow.</h2>
+        <p>OTC is preparing internal evidence for Health and Social Care tutor allocation and qualification-resource readiness. Public enrolment can only be opened after current approval, tutor suitability, resources, cohort arrangements and awarding-body requirements are confirmed.</p>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>Prof. Yang Huabin / Prof. Steve Yang</h3><p>Proposed medical-science contributor and health-subject tutor candidate. Formal submission requires verified degree certificate, CV, teaching-experience evidence and final qualification allocation.</p></div><span class="pill">Evidence needed</span></article>
+        <article class="resource-row"><div><h3>OTHM Health and Social Care qualification scope</h3><p>Public OTHM subject listing includes Level 3 Foundation Diploma in Health and Social Care and Level 4-7 Health and Social Care Management qualifications. OTC will confirm the exact requested scope before notifying OTHM.</p></div><a class="btn btn-light" href="https://othm.org.uk/subject/health-and-social-care" target="_blank" rel="noopener">Official OTHM page</a></article>
+      </div>
+    </section>
+    </main>
   `
 });
 
@@ -6157,6 +6287,14 @@ const othmQualifications = pageShell({
             <p>Official OTHM doctoral-level listing. Delivery or support must be confirmed case by case according to approval, specialist tutor availability, learner profile, resources and current cohort arrangements.</p>
           </div>
           <a class="btn btn-light" href="mailto:office@overseasuk.com?subject=OTHM%20Level%208%20Strategic%20Management%20and%20Leadership%20Practice%20Enquiry">Enquire</a>
+        </article>
+        <article class="resource-row">
+          <div>
+            <div class="meta">New Qualification Approval Preparation</div>
+            <h3>OTHM Health and Social Care Series</h3>
+            <p>OTC is preparing Health and Social Care tutor-allocation evidence and resource readiness for possible Level 3-7 delivery. Public enrolment remains subject to current approval, tutor suitability confirmation, cohort arrangements and awarding-body requirements.</p>
+          </div>
+          <a class="btn btn-dark" href="/publishing/othm-health-social-care-bilingual-series/">Open Series Plan</a>
         </article>
       </div>
       <div style="height:28px"></div>
@@ -10942,6 +11080,7 @@ const wangZhuoyingSummerGuide = pageShell({
 write(".", home);
 write("publishing", publishing);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
+write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
 write("courses", courses);
 write("services", services);

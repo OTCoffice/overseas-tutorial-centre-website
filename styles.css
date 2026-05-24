@@ -9235,6 +9235,25 @@ h1 {
   color: var(--navy);
 }
 
+.health-series-hero .band {
+  padding: 44px 0 42px;
+}
+
+.health-series-hero h1 {
+  font-size: clamp(36px, 4.4vw, 58px);
+  max-width: 1040px;
+}
+
+.health-series-hero p {
+  font-size: clamp(17px, 1.65vw, 21px);
+  max-width: 980px;
+  margin-top: 18px;
+}
+
+.health-series-hero .actions {
+  margin-top: 22px;
+}
+
 .notice {
   background: #fbf2de;
   border: 1px solid #e4d1a3;
