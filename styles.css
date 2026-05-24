@@ -15994,3 +15994,138 @@ h1 {
     margin-top: 11px;
   }
 }
+
+.media-channel-strip {
+  background:
+    linear-gradient(135deg, rgba(255, 253, 247, 0.96), rgba(232, 239, 233, 0.92)),
+    radial-gradient(circle at 92% 20%, rgba(208, 174, 103, 0.16), transparent 34%);
+}
+
+.media-channel-actions,
+.media-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.media-hero .band {
+  background:
+    linear-gradient(120deg, rgba(16, 43, 58, 0.95), rgba(31, 94, 82, 0.91)),
+    url("/assets/social/overseas-publishing-podcast-taiwan-travelogue.svg") center/cover no-repeat;
+  color: #fffdf7;
+}
+
+.media-hero h1,
+.media-hero p,
+.media-hero .eyebrow {
+  color: #fffdf7;
+}
+
+.media-hero-actions {
+  margin-top: 24px;
+}
+
+.media-launch-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.media-launch-card {
+  align-items: flex-start;
+  background: #fffdf7;
+  border: 1px solid rgba(16, 43, 58, 0.12);
+  border-radius: 8px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 72px 1fr;
+  padding: 24px;
+}
+
+.media-icon {
+  align-items: center;
+  aspect-ratio: 1;
+  background: #102b3a;
+  border-radius: 8px;
+  color: #fffdf7;
+  display: flex;
+  font-weight: 750;
+  justify-content: center;
+  letter-spacing: 0.04em;
+}
+
+.media-episode-layout {
+  align-items: center;
+  display: grid;
+  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+}
+
+.media-episode-layout img {
+  border-radius: 8px;
+  box-shadow: 0 22px 44px rgba(16, 43, 58, 0.16);
+  display: block;
+  width: 100%;
+}
+
+.media-meta-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 24px;
+}
+
+.media-meta-list span {
+  background: rgba(31, 94, 82, 0.1);
+  border: 1px solid rgba(31, 94, 82, 0.14);
+  border-radius: 999px;
+  color: #102b3a;
+  font-size: 13px;
+  padding: 8px 11px;
+}
+
+.workflow-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.workflow-grid article {
+  background: #fffdf7;
+  border: 1px solid rgba(16, 43, 58, 0.12);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.workflow-grid b {
+  color: #b88a3b;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+
+.workflow-grid strong {
+  color: #061a2f;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.workflow-grid span {
+  color: #4d5968;
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+@media (max-width: 900px) {
+  .media-launch-grid,
+  .media-episode-layout,
+  .workflow-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .media-launch-card {
+    grid-template-columns: 56px 1fr;
+    padding: 18px;
+  }
+}

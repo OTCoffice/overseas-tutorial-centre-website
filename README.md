@@ -7,6 +7,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /
 - /study-guides/
 - /publishing/
+- /publishing/media/
 - /courses/
 - /services/
 - /university-applications/

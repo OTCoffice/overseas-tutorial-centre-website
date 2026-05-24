@@ -2328,6 +2328,265 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "taiwan-travelogue-reception-aesthetics-global-acceptance",
+    title: "From Authorial Life to Global Reception: Reception Aesthetics of Taiwan Travelogue",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "接受美學 · 全球接受",
+    author: "蕭珩",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-04",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    summary: "A long-form reception-aesthetics essay on Yang Shuang-zi's Taiwan Travelogue, reading the novel through authorial biography, publishing ecology, awards, translation politics and global interpretive communities.",
+    titleZh: "從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析",
+    summaryZh: "本文以堯斯、伊澤爾與費什的接受理論為框架，分析《臺灣漫遊錄》如何在作者生命史、出版協作、偽譯結構、獎項場域、譯者政治與全球思潮的疊加中，從台灣文學事件成為世界文學現象。",
+    sidebarCards: [
+      ["Reception", "接受美學", "期待視野、文本空白與詮釋共同體如何共同生成文學現象。", "theory"],
+      ["Biography", "作者生命史", "貧困、雙胞胎筆名、哀悼與百合書寫的情感底層。", "life"],
+      ["Translation", "譯者政治", "Lin King 的翻譯選擇如何成為台灣可見性的公共行動。", "translation"],
+      ["World literature", "世界文學", "獎項、語言版本與地緣政治如何推動跨語接受。", "global"]
+    ],
+    relatedReadings: [
+      "taiwan-travelogue-multidimensional-literary-politics",
+      "taiwan-travelogue-pseudo-translation-comparative-literature",
+      "taiwan-travelogue-critical-collection-methodology"
+    ],
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+          "This Chinese long-form article reads the international reception of Taiwan Travelogue through reception aesthetics, literary sociology, translation studies and the politics of world literature. The English page preserves the editorial abstract; the full Chinese article is published in the Chinese Overseas Study Review."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "本文以漢斯·羅伯特·堯斯（Hans Robert Jauss）的接受美學理論為核心框架，結合作者生平傳記、文本的多義開放結構、出版生態與編輯協作、獎項的場域放大機制、譯者的政治性翻譯策略，以及全球文學思潮的時代語境，分析《臺灣漫遊錄》在本土及國際語境中的接受盛況。",
+          "本文論證，這一盛況不是由單一因素驅動，而是由至少六個相互強化的接受層次共同疊加作用所形成的複合結構：作者傳記的感召力、文本的多義性與期待視野的生產性破裂、出版生態中的機構性協作、獎項連鎖的馬太效應、譯者作為政治行動者的能動性，以及全球文學場域在特定歷史時刻的思潮聚光。任何一個層次的單獨分析，都不足以解釋這一接受盛況的全貌；只有在六個層次的動態交疊中，方能理解一部台灣中文小說如何在六年之內抵達世界文學的核心位置。"
+        ]
+      },
+      {
+        heading: "接受盛況的結構性之謎",
+        paragraphs: [
+          "2026年5月19日倫敦泰特現代美術館的頒獎典禮上，楊双子以長篇小說《臺灣漫遊錄》奪下國際布克獎，創下台灣文學史與國際布克獎歷史的重要里程碑。在此之前，她已於2024年底榮獲第75屆美國國家圖書獎翻譯文學大獎，成為台灣首位獲此殊榮的創作者。再往前追溯，這部作品已獲2024年日本翻譯大賞與2021年台灣金鼎獎文學圖書獎；英文版之後帶動多語版權流通，成為台灣近年出版史上最受國際矚目的文學案例之一。",
+          "這一成就的驚人之處，在於其出發點的微小。楊双子曾多次談及，台灣多數文學出版社在小說編輯階段，往往只校對錯字與格式，不太深度介入文本修改；而《臺灣漫遊錄》初版以「青山千鶴子著、楊双子譯」為框架，進行大膽的文學實驗，需要有已建立讀者信任的出版社願意承擔出版風險。換言之，這部後來席捲全球的小說，在誕生之初即面臨出版市場的結構性排斥。",
+          "這種從市場冒險到全球盛況的巨大落差，構成接受美學分析最值得深究的張力場所。文學獎項每年頒發，多數得獎作品在下一輪媒體週期中即告沉寂；而《臺灣漫遊錄》的接受，顯然具有更深層的結構性基礎，需要超出「獎項運氣」或「時代機遇」的解釋框架。",
+          "堯斯在〈文學史作為文學科學的挑戰〉中提出「期待視野」（Erwartungshorizont）：文學作品的意義，產生於文本與特定歷史時刻讀者群集體期待之間的動態協商。一部作品之所以能引發深廣共鳴，是因為它既滿足既有期待，又以某種「審美距離」挑戰並擴展這些期待，使讀者在閱讀之後擁有一個被永久擴大的視野。",
+          "伊澤爾在《閱讀行動》中進一步發展「隱含讀者」與「文本空白」的概念：每部文本都在其結構中留有刻意的空白，邀請讀者以自身的歷史經驗與想像力加以填充。費什的「詮釋共同體」理論則提醒我們，意義由共享閱讀慣例與詮釋策略的讀者共同體在閱讀實踐中持續生產。《臺灣漫遊錄》的接受盛況，正是多個詮釋共同體在同一文本中同時找到自身入口的結果。"
+        ]
+      },
+      {
+        heading: "作者傳記作為接受的情感底蘊",
+        paragraphs: [
+          "接受美學的理論傳統，長期傾向於去作者化，強調文本意義在讀者閱讀行為中生成。然而在當代文學消費的媒體生態中，尤其在社交媒體主導的信息傳播環境下，作者的故事往往構成接受的第一個情感入口，是讀者在接觸文本之前已被激活的「前理解」。楊双子的傳記，在這一意義上，具有近乎原型性的多重感召力，且每一層感召力都指向不同的讀者群。",
+          "楊双子本名楊若慈，出生於1984年的台中烏日眷村，是村中少有的本省家庭。父母在她與妹妹年幼時離異，姊妹由祖母扶養長大。15歲開始，兩人相互扶持，楊若慈做麵包學徒，楊若暉做工讀生；她曾賣過雞排、手搖飲，也做過麵包學徒，利用工作空檔寫可以換取稿費的言情小說，然後趕去夜校晚自習。",
+          "這一早年生命史，對應著布迪厄所分析的文學場域中的位置取得：在嚴苛的物質條件下，以創作實踐作為階級突圍的策略。楊双子的故事超出一般苦難成功敘事，關鍵在於她不是從文學場域的中心出發，而是從言情小說這一長期被低估的大眾文類中練出形式感、節奏感與讀者感。日後《臺灣漫遊錄》能以美食旅行與百合情感吸引大眾讀者，同時又以歷史考據、偽譯裝置與後殖民意識贏得學術讀者，正與這段早期訓練密切相關。",
+          "她後來進入中興大學台灣文學與跨國文化研究所，曾形容在興大讀書的八年，是自己成為台灣小說家的關鍵八年。從中文系到台文所，她在閱讀、研究、論述與創作中，逐步確立自身書寫方向，也在對「什麼是台灣文學」的追問中，形塑出鮮明而堅定的創作理念。夜校與研究所、言情小說與台灣文學史、謀生寫作與學術訓練，在她身上不是彼此抵消的矛盾，而是互相加壓的燃料。",
+          "更重要的是，她從來不是一個人在寫作。「楊双子」原是姊妹共同筆名，「双子」取自日文雙胞胎之意。這個筆名原為共同創作台灣歷史百合小說而誕生，特意選用日文漢字「双」，也預示了作品對日本語境與跨語流通的早期想像。2015年，妹妹楊若暉因癌症離世。她留下的文獻考據資料，後來持續參與楊若慈的創作，成為《花開時節》《花開少女華麗島》以及《臺灣漫遊錄》背後不斷回返的材料與情感底層。",
+          "弗洛伊德在《哀悼與憂鬱》中區分哀悼與憂鬱：哀悼是對失去對象的逐漸釋放，憂鬱則是把失去對象內化為自我的永久組成部分。楊双子的書寫，在此意義上是一種生產性的憂鬱行動。妹妹不以幽靈姿態縈繞，而以文獻資料、未竟承諾、共同筆名與小說世界中的少女情誼持續在場。",
+          "百合小說所創造的，是雙胞胎姊妹從未擁有的青春。這一點，反向照亮《臺灣漫遊錄》的情感結構：小說中的兩位千鶴，既是殖民歷史中的人物，也是作者在時間與死亡夾縫中為自己與妹妹補種的可能性。讀者在閱讀兩位女性之間的親密、遲疑與不可抵達時，讀到的已不只是愛情或友誼，而是「替另一個人看見更遠地方」的書寫倫理。"
+        ]
+      },
+      {
+        heading: "歷史百合宇宙與公開身份",
+        paragraphs: [
+          "《臺灣漫遊錄》並非楊双子的孤立之作，而是一個逐步擴大的「歷史百合宇宙」的核心節點。《花開時節》《花開少女華麗島》與《臺灣漫遊錄》共享同一創作方向：把女性之間的情誼、台灣民俗與日治時期歷史放入彼此照亮的敘事空間。前作終幕落下的一九三八年，正是《臺灣漫遊錄》鐵道之旅展開的起點。",
+          "這一宇宙也向台灣首位女記者楊千鶴致敬。楊千鶴的〈花開時節〉在1942年發表，是日治時期台灣女性書寫中的重要文本。楊双子以「千鶴」命名小說人物，又讓「楊双子」這一筆名帶著日文漢字的痕跡，製造出跨越現實與虛構、當代與歷史、作者與前輩女性書寫者的多層致敬結構。這種文學傳承的具身化，使她的創作不只是個人書寫，也是一場台灣女性文學系譜的積極建構。",
+          "楊双子公開出櫃並已婚，其早期創作以羅曼史小說為主，近年將百合元素融入台灣歷史書寫，透過女性之間的理解與情誼開展新的敘事視角。這一身份的公開性，在接受過程中具有雙重意義：它使歷史百合書寫獲得一種由內而外的真實性認證，也使 LGBTQ+ 讀者群形成特殊的認同性閱讀。",
+          "賽奇維克在《壁櫥的認識論》中指出，酷兒讀者長期在文學史中以曲折方式尋找自身影像。當一部作品以正面而複雜的方式呈現女性之間的情感，且把這種情感放回歷史現場，它就不只是一段關係描寫，也是一種歷史位置的修復。台灣作為亞洲同性婚姻合法化的重要案例，在英語世界的接受中，又使《臺灣漫遊錄》的百合元素與台灣民主形象相互強化。",
+          "楊双子身處多重邊緣位置：本省眷村、單親貧窮家庭、夜校背景、女同志作家、百合大眾文學創作者。正是這些邊緣性的交疊，使她的創作在讀者面前獲得一種特殊的道德權威。她想寫只有台灣人能創作、也只有台灣人真正想讀的小說；而當這樣的小說被世界閱讀，台灣讀者感到的便不只是被代表，更是一種久候的文化回聲。"
+        ]
+      },
+      {
+        heading: "出版生態與文本精修",
+        paragraphs: [
+          "任何接受美學分析，若忽略文本從作者手稿到讀者手中所經歷的出版機構中介過程，都是不完整的。《臺灣漫遊錄》的接受盛況，與一個精密的出版機構協作過程密不可分。",
+          "透過作家友人陳又津認識春山出版社後，楊双子第一次遇到願意鉅細靡遺討論小說、追問細節、指出問題的編輯夥伴。從2019年8月到2020年3月出版之間，《臺灣漫遊錄》前後修訂多次。編輯的吹毛求疵，對一部以偽譯、注釋、多時間層與歷史細節為核心的小說來說，不只是文字加工，而是風險管理與形式校準。",
+          "布迪厄在《藝術的規則》中指出，出版社不是單純商業中介，更是文化資本的認證機構。一家具有聲譽、願意深度介入文本的出版社選擇出版某部作品，本身即是向特定讀者群發出信號：這部作品值得嚴肅對待。春山出版對《臺灣漫遊錄》的支持，提供了文本抵達讀者之前的品質保證，也使它在台灣文學讀者群中取得初始信任。",
+          "書上市初期，「青山千鶴子著、楊双子譯」的設定引發爭議，部分讀者以為真有一位日治時代日本女作家留下遊記，發現是小說策略後感到受騙。楊双子事後分析，當代台灣有許多人對台灣文史重新出土抱有高度期待，這種期待可能使讀者忽略文本中已埋下的虛構線索，進而產生情感落差。",
+          "這場風波在接受美學意義上格外重要。讀者對失落台灣史料的強烈渴望，既是偽譯裝置得以成立的情感土壤，也是它被誤讀為詐欺的原因。換言之，作品最想處理的問題，正是在初次接受中以衝突形式爆發出來：台灣讀者究竟多麼渴望一份未曾被保存的殖民地女性旅行檔案？",
+          "出版風波也意外製造了公共討論。關於文學虛構倫理、歷史書寫責任、台灣失落史料渴望的辯論，使這部小說在出版初期即成為文化事件，而不只是一本待讀的文學作品。用堯斯的語言說，「炎上」製造了一次強烈的視野破裂，迫使讀者重新思考自己對歷史文本與虛構文本的分類方式。",
+          "小說中1938、1954、1970、1990與2020等時間節點，則構成五個不同的隱含讀者位置。1938年是日治殖民語境下的原始敘事；1954年是國民政府去日本化後的記憶重框；1970年是戒嚴體制下本土意識的壓抑與積累；1990年是民主化解嚴後本土意識的釋放；2020年則是當代讀者閱讀所有層疊的現在。每一個時間節點，都可能成為不同世代台灣讀者的集體記憶錨點。"
+        ]
+      },
+      {
+        heading: "文本多義性與期待視野的破裂",
+        paragraphs: [
+          "《臺灣漫遊錄》在文本內部同時開啟多個入口。它像美食旅遊小說，以一道道菜餚組織章節；它像百合小說，讓兩位女性在殖民秩序邊緣彼此靠近又彼此退後；它像歷史小說，重建1938年的台灣鐵道、城市、料理與語言環境；它又像後設小說，不斷提醒讀者：你正在閱讀一部被翻譯、被注釋、被重構的文本。",
+          "這種類型混搭製造了一個柔軟的入口。讀者以為走進一部輕盈的美食旅行小說，卻在閱讀過程中逐漸被帶入更深、更重的殖民歷史與身份政治討論。飲食與認同、階級、殖民觀光、地方記憶相連；女性情誼與父權制度、殖民秩序、語言不平等互相纏繞。",
+          "「以輕包重」的敘事策略，使小說同時服務於至少三個不同讀者群：尋求感官愉悅與美食想像的大眾讀者；追求情感共鳴與歷史想像的百合類型讀者；尋求殖民歷史批判與後設文學探索的嚴肅讀者。三個群體都能從文本中取得滿足，卻不是同樣的滿足，也因此不容易形成對同一文本的排他性佔有。",
+          "偽譯裝置在讀者被「騙到」的瞬間，製造了最深刻的後設閱讀效果。當讀者發現原著從未存在、翻譯是一種書寫策略，便不得不回頭重新閱讀整部小說：所謂歷史記錄究竟由誰建構？文獻真實性意味著什麼？翻譯者與注釋者的權力如何改變文本？這種二度閱讀的激活，是詮釋共同體形成的標誌。",
+          "更精細地看，小說中的空白分布極不平均。青山千鶴子的日記看似完整，卻不斷暴露帝國視角的盲點；王千鶴的沉默看似缺席，卻成為讀者最想填補的空白；譯者注看似提供解答，實際上又製造新的不確定性。這些空白讓不同讀者以自身經驗進入文本：台灣讀者補入被壓抑的歷史記憶，日本讀者補入帝國反省，酷兒讀者補入被歷史刪去的同性情感，飲食讀者補入身體與味覺經驗。",
+          "這正是伊澤爾所說的文本空白的生命力。優秀文本不會把所有意義一次性說完，而是保留足夠的縫隙，使讀者在閱讀中完成一部分作品。《臺灣漫遊錄》的世界化，並非因它變得簡單易懂，而是因它的空白足夠深，足以容納不同語言、不同歷史處境的讀者。"
+        ]
+      },
+      {
+        heading: "獎項場域與事件放大",
+        paragraphs: [
+          "《臺灣漫遊錄》的接受呈現明顯的連鎖放大：台灣金鼎獎、日本翻譯大賞、美國國家圖書獎翻譯文學獎、國際布克獎。每一次獎項都不只是評價結果，也是一個新的閱讀入口，將作品送入新的制度網絡與讀者社群。",
+          "文學獎項在布迪厄意義上，是文學場域中的象徵資本轉換機制。地方獎項確認作品在本土文學史中的位置；翻譯獎項確認作品跨語轉換的可讀性與形式價值；英語世界的大型獎項則把作品推入全球書市與媒體視野。這些獎項之間構成馬太效應：既有肯定提高下一輪被看見的概率，而下一輪肯定又回過頭來重估前一輪的意義。",
+          "2024年美國國家圖書獎翻譯文學大獎，使《臺灣漫遊錄》首次在英語世界獲得制度性高亮。到2026年國際布克獎，它已不只是「一部台灣小說被英譯」的案例，而是「一部中文原著台灣小說以翻譯文學身份進入世界文學核心獎項」的事件。",
+          "這種事件性改變了讀者的閱讀姿勢。許多英語讀者初次接觸《臺灣漫遊錄》時，已知道它是獲獎作品，於是帶著「它為何重要」的期待閱讀；台灣讀者重新閱讀時，則把它視為台灣文學被世界承認的證據。獎項沒有創造文本的價值，卻改變了價值被感知、被談論、被流通的方式。",
+          "阿蘭·巴迪烏的「事件」概念在此可作參照：事件不只是發生了什麼，而是迫使在場主體重新定位自身座標。國際布克獎頒給《臺灣漫遊錄》與 Lin King 的英譯，使台灣文學在集體意識中從焦慮的問題轉化為自信的回答：台灣並非等待被中心承認的邊緣，而是已經帶著自己的歷史、形式與語言問題進入世界文學現場。"
+        ]
+      },
+      {
+        heading: "譯者能動性與翻譯政治",
+        paragraphs: [
+          "在《臺灣漫遊錄》的接受鏈條中，英文版譯者 Lin King（金翎）的角色遠超傳統意義上的翻譯工作者。她不是把中文內容搬運到英文裡，而是在世界文學場域中重新設置台灣的可見性。",
+          "金翎曾表示，2022年俄烏戰爭爆發後，她下定決心，在可預見的將來只翻譯來自台灣的創作。這一立場使翻譯行為本身成為政治表態，也使譯者成為獨立於文本之外的公共知識分子。韋努蒂在《譯者的隱形》中批判英語翻譯界以流暢為名讓譯者隱形，主張以異化策略讓讀者意識到自己正在讀翻譯作品。金翎的做法與此相通，政治性更強：她的翻譯選擇，直接回應台灣存在如何在英語世界被看見的問題。",
+          "她在英文版中保留譯者注腳、序文與後記，並以多套拼音系統處理台語、客語、日語與華語混雜的語言現實。這種策略拒絕把台灣的多語現實壓平為一種順滑英文，也拒絕把翻譯中的顆粒感過濾掉。她曾以柳橙汁中的果粒比喻翻譯：那些看似礙口的顆粒，正是文本的生命。",
+          "英文版因此形成更複雜的後設結構：虛構作者青山千鶴子的敘述、虛構譯者楊双子的注釋、真實譯者 Lin King 的注腳彼此疊加。每一層都是不同歷史位置上的詮釋聲音，使英文版在後設意義上不是被簡化的版本，而是被再次增厚的版本。",
+          "譯者政治也成為獨立接受事件。作者與譯者的公開發言，使獎項從文學評價延伸為關於台灣主權、文化可見性與翻譯倫理的公共討論。對不少英語讀者來說，閱讀《Taiwan Travelogue》不只是接觸一部小說，也是在理解一個譯者為何要把台灣作品帶入英語世界。"
+        ]
+      },
+      {
+        heading: "全球思潮與多重詮釋社群",
+        paragraphs: [
+          "《臺灣漫遊錄》的世界接受，恰好發生在亞洲女性歷史書寫被重新看見的時刻。韓江獲諾貝爾文學獎，使英語讀者對亞洲女性、歷史傷痕、國家暴力與身體記憶形成新的期待視野。楊双子自己也指出，這不是把兩位作家畫上等號，而是世界文學視角像一盞探照燈，在時代風潮轉動時照向了原本較隱沒的女性聲音。",
+          "這一探照燈效應，使《臺灣漫遊錄》不必從零開始教育讀者如何閱讀亞洲歷史創傷。讀者已經有某種問題意識：亞洲女性如何書寫國家暴力之下的人？《臺灣漫遊錄》提供的答案具有台灣特殊性：它處理的不是單一事件的創傷，而是殖民結構在日常生活、飲食、語言與情感關係中的持續滲透。",
+          "俄烏戰爭後，西方世界對被強鄰威脅的民主社會高度關注，台灣的地緣政治能見度上升。《臺灣漫遊錄》在此語境中被閱讀，便帶有雙重性質：它是文學作品，也是台灣存在的文化證明。對某些讀者而言，閱讀這部書甚至具有政治聲援意味。",
+          "東歐、波羅的海與烏克蘭讀者對小說的共鳴，則提示一種跨地域後殖民記憶的可能。台灣日治經驗、烏克蘭與東歐的帝國記憶、被強權夾縫中的語言與身份焦慮，雖然歷史脈絡不同，卻可能共享一套情感語法：如何在他者命名的世界中保留自己的名字？如何在帝國帶來的現代性與帝國造成的傷害之間保持判斷？",
+          "LGBTQ+ 讀者讀到的是另一條線。百合歷史小說把女性之間的愛放回歷史，不再把同性情感視為當代城市裡突然出現的例外，而是視為被史料、父權與殖民秩序共同壓低聲音的長期存在。這種歷史化，給身份認同帶來深刻穩定感。",
+          "飲食文化讀者則從味覺進入台灣。美食寫作是一種全球語言，食物能繞過抽象政治，先讓讀者用身體理解地方。當麻薏湯、菜尾湯、蜜豆冰與鐵路旅行被放在一起，台灣不再只是新聞中的地緣政治名詞，而是一個有味道、有季節、有階級、有記憶的生活世界。"
+        ]
+      },
+      {
+        heading: "六層接受的動態模型",
+        paragraphs: [
+          "將以上六個接受層次置於同一分析框架下，可以看到它們不是單線因果，更像一個相互強化的動態共振結構。",
+          "作者傳記為文本多義性提供情感解碼框架：姊妹相依的生命史，使讀者在閱讀兩位千鶴的情感時帶入更深的生命感受；多重邊緣身份，為文本的多個接受入口預設了不同的情感共鳴基礎。",
+          "出版生態為獎項機制提供形式完成度：若沒有春山版本的精細打磨，文本未必具備進入國際獎項場域的穩定性；出版初期的爭議，經過修訂與討論後轉化為作品接受史的一部分，也成為後來讀者理解偽譯裝置的重要背景。",
+          "獎項連鎖為譯者能動性提供結構機會：本土獎項與日本接受建立初步聲譽，英文版出版與美國國家圖書獎擴大能見度，國際布克獎則讓作者與譯者的政治發言被全球媒體聽見。",
+          "譯者能動性為全球思潮提供跨語介面：Lin King 的翻譯策略讓台灣語言複雜性在英語中保留顆粒感，使後殖民讀者、酷兒讀者、飲食讀者、世界文學讀者都能找到自己的閱讀入口。",
+          "全球思潮又反向強化作者傳記與台灣身份的接受框架：亞洲女性歷史書寫的探照燈效應、俄烏戰爭後的地緣政治焦慮、LGBTQ+文化能見度，都使楊双子的生命史與文本形式獲得新的公共意義。",
+          "這六層疊加構成一次罕見的全頻道共鳴。每一個可能的讀者群，都從這部小說中找到自己的入口；每一個入口又足夠深入，足以引發持續閱讀、討論、翻譯與再詮釋。這正是堯斯所描述的古典化機制的當代示範：一部作品能穿越時間與語境限制，不因它提供單一答案，而因它能同時回應不同讀者群最迫切的問題。"
+        ]
+      },
+      {
+        heading: "眾聲喧嘩的接受生態學",
+        paragraphs: [
+          "楊双子和 Lin King 期待能有更多台灣文學進入英語世界，讓更多作品反映出台灣不是齊聲合唱，而是眾聲喧嘩的民主社會。巴赫金以「眾聲喧嘩」（polyphony）描述小說中多種聲音共存、彼此不被化約的狀態；這個詞用在《臺灣漫遊錄》的接受現象上，同樣精準。",
+          "這部小說的接受，本身即是一場眾聲喧嘩。台灣認同讀者聽到身份政治的回聲，LGBTQ+讀者聽到情感解放的回聲，日本讀者聽到帝國反省的回聲，東歐讀者聽到殖民記憶的回聲，學術讀者聽到後設文學的回聲，美食讀者聽到感官愉悅的回聲，飲食政治讀者聽到食物即政治的回聲。每一種接受都是真實的；沒有任何一種接受能獨自構成全部意義。",
+          "在所有聲音的底部，始終有一個最輕柔、也最持久的迴響：一對雙胞胎姊妹曾在烏日眷村相依為命，其中一人先行離去，另一人帶著共同的名字、妹妹留下的資料與未竟的承諾，繼續向世界述說她們都想看見的遠方。",
+          "楊双子在國際獎項舞台上談到台灣文學的百年探問，也談到自由與平等的百年追求。這句話是她一個人站在台上說的；在那個名字的最深處，卻有兩個人的呼吸。正因如此，《臺灣漫遊錄》的全球接受，不只是一本書的成功，也是一種文學如何替逝者、替地方、替被壓低的歷史聲音繼續遠行的證明。"
+        ]
+      }
+    ],
+    readingListZh: [
+      "楊双子。《臺灣漫遊錄》。春山出版，2020。",
+      "Yang, Shuangzi [楊双子]. Taiwan Travelogue. Translated by Lin King, Graywolf Press, 2024.",
+      "Jauss, Hans Robert. Toward an Aesthetic of Reception. Translated by Timothy Bahti, U of Minnesota P, 1982.",
+      "Iser, Wolfgang. The Act of Reading: A Theory of Aesthetic Response. Johns Hopkins UP, 1978.",
+      "Fish, Stanley. Is There a Text in This Class? The Authority of Interpretive Communities. Harvard UP, 1980.",
+      "Bourdieu, Pierre. The Rules of Art: Genesis and Structure of the Literary Field. Stanford UP, 1996.",
+      "Venuti, Lawrence. The Translator's Invisibility: A History of Translation. Routledge, 1995.",
+      "Bakhtin, Mikhail. Problems of Dostoevsky's Poetics. U of Minnesota P, 1984.",
+      "Sedgwick, Eve Kosofsky. Epistemology of the Closet. U of California P, 1990.",
+      "Casanova, Pascale. The World Republic of Letters. Harvard UP, 2004.",
+      "Freud, Sigmund. “Mourning and Melancholia.” The Standard Edition of the Complete Psychological Works of Sigmund Freud, vol. 14, Hogarth Press, 1957.",
+      "Gadamer, Hans-Georg. Truth and Method. Crossroad, 1989."
+    ],
+    factCheckNotes: [
+      "稿件來源：Gmail 收件箱中 Overseas Office 於 2026年5月24日 09:24（London）發出的〈從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析〉。",
+      "獎項與出版事實已按 The Booker Prizes、National Book Foundation、Graywolf Press 與中央社公開資料核對；涉及訪談細節、作者生命史與媒體引述者，保留為作者正文中的接受材料，後續紙本刊載可再逐條比對原始訪談頁面。",
+      "本文將郵件正文中的參考文獻改為「延伸閱讀／微型知識圖譜」版式，避免頁面末尾形成突兀的學術書目堆疊，同時保留讀者外部查讀入口。"
+    ]
+  },
+  {
+    slug: "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+    title: "Australia Migration Program 2026–27: 185,000 Places and an Onshore Tilt — What It Means for Students and Skilled Applicants",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Budget 2026–27 · Onshore prioritisation",
+    author: "留學導報編輯部",
+    summary: "A clear, practical briefing on the 2026–27 permanent Migration Program planning level (185,000) and the policy direction to prioritise onshore applicants, plus what students, graduates and skilled applicants can do to reduce avoidable risk.",
+    titleZh: "澳洲 2026–27 永居名額與「境內優先」方向：留學生與技術路線該怎麼讀懂？",
+    summaryZh: "2026–27 澳洲永居規劃名額維持 185,000，並明確把更多名額優先配置給已在澳洲境內的申請人。本文用「可操作」的方式解讀：對留學生、485 畢業生、482 雇主擔保與技術移民路線，這些數字可能意味著什麼，以及你現在可以做哪些準備來降低不確定性。",
+    body: [
+      {
+        heading: "1) What was announced (planning level + direction, not a guarantee)",
+        paragraphs: [
+          "Australia’s 2026–27 permanent Migration Program planning level is set at 185,000 places, with an approximate 70:30 split between Skilled and Family streams. Planning levels are program settings, not an approval guarantee for any individual application.",
+          "A key direction is prioritising onshore applicants: 129,590 places are allocated to migrants already living in Australia, with 55,110 places available offshore (plus a small Special Eligibility allocation).",
+          "This means the practical competition picture can differ depending on whether you are onshore or offshore, and which visa pathway you are pursuing."
+        ]
+      },
+      {
+        heading: "2) Why “onshore prioritisation” matters for real applicants",
+        paragraphs: [
+          "When the system signals onshore priority, applicants already in Australia may see relatively clearer transition pathways — but only if they meet visa criteria, have clean documentation, and can satisfy skills, work and English requirements.",
+          "Offshore applicants should expect that invitations and processing capacity may concentrate on fewer cohorts (for example, highly skilled roles, employer-sponsored cases, or clearly shortage-linked occupations), but the exact impact varies by year and by instrument.",
+          "The most important mindset shift is to treat your plan as a sequence: temporary status management → evidence readiness → eligibility checks → application timing. A single missing document can cost months."
+        ]
+      },
+      {
+        heading: "3) A practical checklist for students, graduates and skilled applicants (next 6–12 weeks)",
+        paragraphs: [
+          "Build a simple evidence pack: passport + visa history, qualification documents, translated transcripts, employment evidence (contracts, payslips, tax summaries where applicable), and updated English test results where required.",
+          "Read official sources first, then map your pathway: Home Affairs program settings, your visa subclass page, and any state/territory nomination requirements (for points-tested routes). Save screenshots or PDFs of key rules you rely on.",
+          "Do a “realism check” on timing and costs: skills assessment lead times, English test validity windows, and the risk of policy changes. If you need professional advice, use a registered Australian migration agent (MARA) or lawyer."
+        ]
+      },
+      {
+        heading: "4) Risk boundaries: what to avoid saying (and what to watch)",
+        paragraphs: [
+          "Avoid promises like “this policy guarantees PR” or “onshore means automatic success”. Outcomes depend on eligibility, evidence, quotas, processing priorities and the overall applicant pool.",
+          "Watch updates around: detailed category allocations, points-test settings, state nomination rules, and employer-sponsored policy instruments. These details often come later than headline planning-level announcements.",
+          "For high-stakes decisions (course choice, visa timing, relocation), rely on official pages and dated instruments, not social-media summaries."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先搞清楚：規劃名額是「方向」，不是對個人的承諾",
+        paragraphs: [
+          "澳洲公布 2026–27 永居（Permanent Migration Program）規劃名額為 185,000，並維持大約 70:30 的技術類與家庭類比例。要特別注意：規劃名額是政府的年度配額設定，並不等於任何人「一定會批」。",
+          "本次最值得關注的訊號是「境內優先」：公開信息指出，129,590 個名額將優先配置給已在澳洲境內居住的人士，境外名額為 55,110（另有少量 Special Eligibility）。",
+          "因此，同樣是技術移民或雇主擔保，境內／境外的競爭環境與處理節奏可能不同；不同子類別也會呈現不同的實際體感。"
+        ]
+      },
+      {
+        heading: "二、為什麼「境內優先」會改變你的策略讀法",
+        paragraphs: [
+          "當系統更偏向境內申請人時，人在澳洲的申請者可能更容易形成「可持續的轉換路徑」——但前提是你確實符合條件、材料乾淨、英文與工作證據能對得上，以及能跟上政策與時間線。",
+          "境外申請者則要更務實：邀請輪次與處理資源可能集中於更少的群體（例如高技能、雇主擔保或明確短缺的職位），但影響程度會因年度細分配額與實施文件而異。",
+          "最重要的心態轉換是把移民路線視為「一段流程」：臨時身份管理 → 證據準備 → 資格核對 → 時點選擇。很多延誤不是分數不夠，而是證據不齊或版本不一致。"
+        ]
+      },
+      {
+        heading: "三、留學生、485、482 與技術路線：接下來 6–12 週可做的清單",
+        paragraphs: [
+          "做一套最小可用的 evidence pack：護照與簽證歷史、學歷文件、成績單與翻譯件、就業證據（合同、工資單、稅務文件如適用）、以及必要時更新的英文成績（注意有效期）。",
+          "先看官方，再做路線對照：Home Affairs 的規劃與優先處理信息、你對應子類別簽證頁面、以及州／領地提名要求（如走 190/491 等分數制）。把你依賴的規則截圖或存成 PDF，保留日期。",
+          "做一次「現實校準」：技能評估的等待時間、英文考試有效期、政策變動風險與整體成本。若涉及高風險決策，建議找澳洲註冊移民代理（MARA）或律師取得個案意見。"
+        ]
+      },
+      {
+        heading: "四、合規邊界：避免保證式說法，重點關注哪些後續更新",
+        paragraphs: [
+          "避免把政策訊號說成結果保證，例如「境內優先＝必拿 PR」。結果取決於資格條件、證據、年度配額、處理優先級與申請池競爭。",
+          "接下來需要關注的通常包括：更細的類別配額拆分、分數制度與打分細則、州／領地提名政策、以及雇主擔保相關的實施文件與門檻更新。",
+          "做重大決策（選課、簽證時點、搬遷）時，盡量依據官方頁面與有日期的政策文件，不要只依賴社交媒體或二手解讀。"
+        ]
+      }
+    ],
+    resources: [
+      ["Home Affairs — Migration Program planning levels", "https://immi.homeaffairs.gov.au/what-we-do/migration-program-planning-levels"],
+      ["Australian Government — Budget 2026–27", "https://budget.gov.au/index.htm"],
+      ["Budget downloads (Budget papers)", "https://budget.gov.au/content/downloads.htm"]
+    ],
+    notes: [
+      "General information only; not migration or legal advice.",
+      "Eligibility and outcomes depend on current legislation, instruments, and departmental processing priorities.",
+      "For professional advice, consult a registered Australian migration agent (MARA) or Australian legal practitioner."
+    ]
+  },
+  {
     slug: "business-marketing-media-course-fit-portfolio-evidence-pack",
     title: "Business, Marketing or Media? A Module-First Course-Fit Checklist + Mini Portfolio Plan",
     date: "2026-05-24",
@@ -6851,6 +7110,18 @@ const publishing = pageShell({
   current: "publishing",
   body: `
     <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Publishing</h1><p>A long-term publishing programme for academic research, bilingual education, practical guides, cultural translation, digital products and author services.</p></div></section>
+    <section class="band compact-band media-channel-strip">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Overseas Publishing Media</div>
+        <h2>YouTube and podcast briefings for research-led publishing.</h2>
+        <p>Notion is now kept as the raw editorial desk. Public-facing audio, video and shareable cultural commentary will sit on the Overseas Publishing media hub.</p>
+      </div>
+      <div class="media-channel-actions">
+        <a class="btn btn-dark" href="/publishing/media/">Open Media Hub</a>
+        <a class="btn btn-light" href="/publishing/media/#youtube-channel">YouTube Channel</a>
+        <a class="btn btn-light" href="/publishing/media/#podcast-feed">Podcast Feed</a>
+      </div>
+    </section>
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Publishing · Editorial Translation · Review</div>
@@ -7052,6 +7323,99 @@ const publishing = pageShell({
         </div>
         <div class="shelf-grid shelf-grid-wide">${productShelf()}</div>
       </div>
+    </section>
+  `
+});
+
+const publishingMedia = pageShell({
+  title: "Overseas Publishing Media | YouTube & Podcast",
+  current: "publishing",
+  description: "Overseas Publishing media hub for YouTube briefings, podcast audio, NotebookLM Audio Overview source packs and cultural translation commentary.",
+  body: `
+    <section class="page-hero media-hero">
+      <div class="band">
+        <div class="eyebrow">Overseas Publishing Media</div>
+        <h1>YouTube & Podcast</h1>
+        <p>Public-facing audio and video briefings for Overseas Publishing House: literary commentary, translation notes, study-guide explainers and research-led cultural conversations.</p>
+        <div class="hero-actions media-hero-actions">
+          <a class="btn btn-primary" href="#youtube-channel">YouTube Channel</a>
+          <a class="btn btn-secondary" href="#podcast-feed">Podcast Feed</a>
+          <a class="btn btn-secondary" href="#notebooklm-audio">NotebookLM Audio Pack</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="media-launch-grid">
+        <article id="youtube-channel" class="media-launch-card">
+          <span class="media-icon">YT</span>
+          <div>
+            <div class="eyebrow">Channel Button</div>
+            <h2>YouTube: Overseas Office</h2>
+            <p>Channel identity: Overseas Office, office@overseasuk.com. Use this button as the public YouTube entry once the channel URL or handle is confirmed in YouTube Studio. The first upload is planned as a NotebookLM-assisted audio briefing with a static cover image.</p>
+            <div class="media-button-row">
+              <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Overseas%20Office%20YouTube%20channel%20link">Bind channel link</a>
+              <a class="btn btn-light" href="#episode-001">Episode 001</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="podcast-feed" class="media-launch-card">
+          <span class="media-icon">RSS</span>
+          <div>
+            <div class="eyebrow">Podcast Button</div>
+            <h2>Podcast: Overseas Publishing Audio</h2>
+            <p>The podcast feed will carry concise bilingual audio briefings. NotebookLM audio overviews can be used as draft audio, then edited, titled and uploaded with a clean cover asset.</p>
+            <div class="media-button-row">
+              <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Overseas%20Publishing%20Podcast%20feed">Request podcast feed</a>
+              <a class="btn btn-light" href="#production-workflow">Production workflow</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="episode-001" class="band media-episode-band">
+      <div class="media-episode-layout">
+        <div>
+          <div class="eyebrow">Episode 001 · NotebookLM Audio Brief</div>
+          <h2>《臺灣漫遊錄》如何成為世界文學事件？</h2>
+          <p>A short audio briefing on Taiwan Travelogue, pseudo-translation, colonial memory and why a Taiwanese novel can travel across languages without becoming only a prize story.</p>
+          <div class="media-meta-list">
+            <span>Status: source pack ready</span>
+            <span>Format: NotebookLM audio overview + edited upload</span>
+            <span>Use: YouTube static-cover video / podcast episode</span>
+          </div>
+          <div class="media-button-row">
+            <a class="btn btn-dark" href="/assets/social/overseas-publishing-podcast-taiwan-travelogue.png">Open cover art</a>
+            <a class="btn btn-light" href="#notebooklm-audio">View source pack</a>
+          </div>
+        </div>
+        <img src="/assets/social/overseas-publishing-podcast-taiwan-travelogue.png" alt="Overseas Publishing podcast cover for Taiwan Travelogue audio briefing">
+      </div>
+    </section>
+
+    <section id="notebooklm-audio" class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">NotebookLM Production Pack</div>
+        <h2>Use NotebookLM to generate the draft audio, then publish as an edited media item.</h2>
+        <p>The working sources are kept outside the public page. Upload the source brief into NotebookLM, generate an Audio Overview, review the output, then publish only the approved audio and cover asset.</p>
+      </div>
+      <div class="workflow-grid">
+        <article><b>01</b><strong>Prepare sources</strong><span>Use the local source brief and any approved article drafts. Keep internal notes out of the public notebook.</span></article>
+        <article><b>02</b><strong>Generate audio</strong><span>Create an Audio Overview in NotebookLM. Use the account language settings and review the generated discussion before publishing.</span></article>
+        <article><b>03</b><strong>Edit metadata</strong><span>Title, short description, disclaimers, cover art and episode notes are prepared before upload.</span></article>
+        <article><b>04</b><strong>Upload</strong><span>Publish to YouTube as a podcast-style static-cover video, then mirror to the podcast feed when available.</span></article>
+      </div>
+    </section>
+
+    <section id="production-workflow" class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Release Standard</div>
+        <h2>Public media, private sources.</h2>
+        <p>Notion preserves raw working drafts. Public media should only use cleared source text, confirmed facts, non-sensitive descriptions and platform-ready metadata.</p>
+      </div>
+      <div class="notice">NotebookLM audio should be treated as draft production material, not as an automatically publishable final recording. Check names, awards, dates, attributions, privacy issues and copyright before uploading.</div>
     </section>
   `
 });
@@ -12196,6 +12560,7 @@ const wangZhuoyingSummerGuide = pageShell({
 
 write(".", home);
 write("publishing", publishing);
+write("publishing/media", publishingMedia);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
@@ -12333,6 +12698,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /
 - /study-guides/
 - /publishing/
+- /publishing/media/
 - /courses/
 - /services/
 - /university-applications/
