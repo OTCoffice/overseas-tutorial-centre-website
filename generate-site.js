@@ -5484,15 +5484,15 @@ function shareLinksHerald(article, locale = "en", placement = "bottom") {
 
 function heraldSubscribeCta(locale = "en") {
   const isZh = locale === "zh";
-  const subject = isZh ? "訂閱留學導報更新" : "Subscribe to Overseas Study Review";
+  const subject = isZh ? "訂閱留學導報及 OTC 網站更新" : "Subscribe to Overseas Study Review and OTC website updates";
   const body = isZh
-    ? "您好，請將我加入留學導報更新名單。"
-    : "Hello, please add me to the Overseas Study Review update list.";
+    ? "您好，請將我加入《留學導報》及 OTC 網站更新名單。"
+    : "Hello, please add me to the Overseas Study Review and OTC website update list.";
   return `
     <div class="herald-subscribe-row ${isZh ? "zh-herald-subscribe-row" : "oeh-subscribe-row"}">
       <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}">
-        <span>${isZh ? "留學導報" : "Overseas Study Review"}</span>
-        <strong>${isZh ? "訂閱導報更新" : "Subscribe to Review Updates"}</strong>
+        <span>${isZh ? "留學導報 · OTC 更新" : "Overseas Study Review · OTC updates"}</span>
+        <strong>${isZh ? "訂閱本報及本網更新" : "Subscribe to Review and Website Updates"}</strong>
       </a>
     </div>
   `;
