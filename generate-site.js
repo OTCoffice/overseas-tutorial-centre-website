@@ -2497,6 +2497,97 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "australia-student-visa-2026-npl-md115-priority-processing",
+    title: "Australia Student Visa 2026: NPL 295,000, MD115 and What Offshore Applicants Should Know",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "study",
+    kicker: "Student visa · NPL 2026 · MD115",
+    author: "留學導報編輯部",
+    summary: "A practical briefing on Australia’s 2026 National Planning Level of 295,000 new international student commencements, Ministerial Direction 115, offshore student visa processing, and complete-file preparation.",
+    titleZh: "澳洲 2026 學生簽證不是簡單「擴招」：NPL 295,000 與 MD115 優先處理怎麼看",
+    summaryZh: "澳洲 2026 年國際學生 National Planning Level 為 295,000，比 2025 年增加 25,000。但這不是一句「名額放開」就能概括的消息。本文用公開官方資料說明 NPL、MD115、境外學生簽證處理優先級與材料完整性，幫助學生和家長把申請節奏看清楚。",
+    body: [
+      {
+        heading: "1) The headline: 295,000 is a managed-growth setting, not a personal visa guarantee",
+        paragraphs: [
+          "Australia’s 2026 National Planning Level (NPL) for new international student commencements is 295,000, which is 25,000 higher than the 2025 level. This is good news for the sector, but it should not be read as an individual visa guarantee.",
+          "The official framing is managed growth: the government is trying to keep international education open while controlling processing pressure, provider allocation and system integrity.",
+          "For students and families, the practical question is not only “is Australia accepting more students?” but also “which provider, which intake, which course level, and how complete is the visa file?”"
+        ]
+      },
+      {
+        heading: "2) What MD115 changes in the real application journey",
+        paragraphs: [
+          "Study Australia states that Ministerial Direction 115 (MD115) replaced MD111 for 2026 offshore Student visa processing. The new system affects offshore Student visa applications, not every possible student-related situation.",
+          "The priority system works through provider allocation progress. In plain terms, where and when a student applies can affect processing priority, even when the formal visa requirements remain the same.",
+          "This is why applicants should treat course selection, provider choice and lodgement timing as one file strategy, rather than three unrelated decisions."
+        ]
+      },
+      {
+        heading: "3) What applicants can do now",
+        paragraphs: [
+          "First, build a clean application timeline: offer, acceptance, CoE, payment record, OSHC, financial evidence, Genuine Student explanation and supporting documents should tell one coherent story.",
+          "Second, check the provider and course logic before paying. A cheaper or faster option may still create questions if the course level, study history and future plan do not connect clearly.",
+          "Third, lodge a complete file where possible. Study Australia explicitly warns that missing or incorrect information can delay processing and may lead to refusal."
+        ]
+      },
+      {
+        heading: "4) Where OTC can help, and where the boundary is",
+        paragraphs: [
+          "OTC can help students and families read the education pathway: course fit, provider comparison, document checklist, study-plan logic, family communication and preparation for official requirements.",
+          "OTC does not guarantee visa outcomes and this article is not migration legal advice. Where a case involves refusal history, complex visa status, high-risk financial evidence or legal questions, applicants should consult a registered Australian migration agent or qualified legal practitioner.",
+          "The strongest plan is evidence-first: understand the official system, choose a defensible course, prepare documents early and avoid last-minute storytelling."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先看清標題：295,000 是「管理式增長」，不是個人簽證保證",
+        paragraphs: [
+          "澳洲 2026 年國際學生 National Planning Level（NPL）為 295,000，比 2025 年增加 25,000。這對市場是利好，但不能簡單理解為「澳洲學生簽證全面放開」或「申請就會批」。",
+          "官方說法的核心是 managed growth，也就是在繼續歡迎國際學生的同時，管理處理速度、院校分配、住宿壓力與整體系統完整性。",
+          "對學生和家長來說，真正要問的不是單一句「澳洲是不是擴招」，而是：你選的是哪所學校、哪個 intake、哪個課程層級、你的簽證材料是否完整且邏輯一致。"
+        ]
+      },
+      {
+        heading: "二、MD115 對境外學生申請意味著什麼",
+        paragraphs: [
+          "Study Australia 公開說明，2026 年境外 Student visa 申請處理中，Ministerial Direction 115（MD115）取代了 2025 年使用的 MD111。這套系統主要影響境外遞交的學生簽證申請。",
+          "MD115 的重點不是把簽證要求全部改掉，而是通過院校新海外學生名額使用情況來管理處理優先級。換句話說，同樣是學生簽證，申請時間、院校分配進度與材料完整性，都可能影響實際等待體感。",
+          "因此，選校、接受 offer、交押金、拿 CoE、準備簽證材料，不能拆成互不相關的步驟。它們其實是一個完整的申請策略。"
+        ]
+      },
+      {
+        heading: "三、現在可以做的三件事",
+        paragraphs: [
+          "第一，建立清楚的時間線：offer、接受確認、CoE、付款記錄、OSHC、資金證明、Genuine Student 說明和支持文件，要能講出同一個合理故事。",
+          "第二，先核對課程邏輯再付款。便宜、快、門檻低不一定等於穩。如果課程層級、過往學習、未來規劃與家庭資金不能自然對上，簽證文件很容易變成補救式寫作。",
+          "第三，盡量完整遞交。Study Australia 提醒，資料缺失或信息錯誤會拖慢處理，甚至可能導致拒簽。這也是為什麼學生簽證不是只拿到 CoE 就結束。"
+        ]
+      },
+      {
+        heading: "四、OTC 可以做什麼，不能承諾什麼",
+        paragraphs: [
+          "OTC 可以協助學生和家庭做教育路徑閱讀：課程匹配、院校比較、文件清單、學習計劃邏輯、家長溝通與官方要求前的準備工作。",
+          "但本文不是移民法律建議，OTC 也不承諾簽證結果。若個案涉及拒簽史、複雜簽證身份、高風險資金材料或法律問題，應尋求澳洲註冊移民代理或合資格法律顧問的個案意見。",
+          "比較穩的做法是 evidence-first：先看官方規則，選一個能說清楚的課程，提前準備文件，不要等到最後才用一篇說明信試圖補上所有漏洞。"
+        ]
+      }
+    ],
+    resources: [
+      ["Australian Department of Education — A managed system for international education", "https://www.education.gov.au/managed-system-international-education-2026"],
+      ["Study Australia — Student visa processing update", "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-processing-update"],
+      ["Home Affairs — Student visa (subclass 500)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"],
+      ["Home Affairs — Check twice, submit once", "https://immi.homeaffairs.gov.au/help-support/applying-online-or-on-paper/online/check-twice-submit-once"]
+    ],
+    notes: [
+      "General public briefing only; not migration or legal advice.",
+      "The 2026 NPL is a system setting and processing-priority framework, not a guarantee of visa grant.",
+      "Applicants with complex circumstances should consult a registered Australian migration agent or qualified legal practitioner."
+    ]
+  },
+  {
     slug: "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
     title: "Australia Migration Program 2026–27: 185,000 Places and an Onshore Tilt — What It Means for Students and Skilled Applicants",
     date: "2026-05-24",
