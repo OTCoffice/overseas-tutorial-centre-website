@@ -2588,6 +2588,119 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
+    title: "Taiwan Nursing Background to Australia RN: AHPRA Stream B, GCAN and the OBA Route",
+    date: "2026-05-24",
+    category: "Australia Health Pathways",
+    column: "settlement",
+    kicker: "AHPRA Stream B · GCAN · IQNM",
+    author: "留學導報編輯部",
+    summary: "A compliance-first briefing on why Taiwanese diploma-trained nurses may look at AHPRA/NMBA Stream B, the OBA route, and TEQSA-accredited Graduate Certificate in Advanced Nursing options such as IHM’s GCAN.",
+    titleZh: "被挖掘到的低成本澳洲 RN 申請途徑：台灣五專護理背景也能走通？AHPRA Stream B + GCAN 半年線上課程解析",
+    summaryZh: "台灣五專護理、台灣護理師執照與工作經驗，是否能透過 AHPRA Stream B、OBA、NCLEX-RN、OSCE 與 GCAN 做澳洲 RN 路線規劃？本文用 AHPRA/NMBA、TEQSA 與 IHM 公開資料做一份合規版路線解析：GCAN 可作學歷補強與澳洲護理語境準備，但不等於自動註冊，也不等於移民保證。",
+    body: [
+      {
+        heading: "1) Why this route attracts attention",
+        paragraphs: [
+          "Australia continues to face strong demand for nurses, and internationally qualified nurses and midwives (IQNMs) use the Ahpra/NMBA process to have their qualifications assessed before applying for registration.",
+          "For Taiwanese nurses, the key question is often not whether they have nursing experience, but whether their entry-to-practice qualification is assessed as substantially equivalent to an Australian-approved qualification.",
+          "This is where many applicants begin researching Stream B, the outcomes-based assessment (OBA), and postgraduate study options such as a Graduate Certificate in Advanced Nursing (GCAN)."
+        ]
+      },
+      {
+        heading: "2) Stream B: OBA, not automatic registration",
+        paragraphs: [
+          "Ahpra/NMBA’s IQNM process starts with the online self-check. Stream B candidates generally hold a qualification that is relevant to nursing or midwifery but is not assessed as substantially equivalent to, or based on similar competencies as, an approved Australian qualification.",
+          "Stream B candidates must complete Orientation Part 1 and the outcomes-based assessment. For registered nurses, the MCQ examination is delivered through the NCLEX-RN, and candidates must also complete the OSCE before they are eligible to apply for registration.",
+          "This is an assessment pathway, not a guaranteed approval route. English language skills, recency of practice, criminal history, professional standards and documentary evidence still matter."
+        ]
+      },
+      {
+        heading: "3) Where GCAN fits: qualification strengthening and Australian nursing context",
+        paragraphs: [
+          "IHM’s Graduate Certificate in Advanced Nursing is listed as TEQSA-accredited, AQF Level 8, delivered online, with a full-time duration of 26 weeks and a published tuition fee of AUD 8,000 for the online GCAN.",
+          "For a diploma-trained nurse, a TEQSA-accredited postgraduate certificate can be attractive because it gives an Australian higher-education credential and structured exposure to Australian nursing language, ethics, clinical decision-making and specialist topics.",
+          "However, the important caveat is clear: completion of GCAN does not directly lead to registration as a nurse or midwife in Australia. It may support preparation and qualification presentation, but Ahpra/NMBA remains the registration decision-maker."
+        ]
+      },
+      {
+        heading: "4) A cautious planning sequence",
+        paragraphs: [
+          "A practical sequence is: complete the Ahpra/NMBA self-check, confirm the stream and document requirements, review whether an Australian postgraduate nursing certificate is useful for the file, prepare English and NCLEX-RN in parallel, then plan OSCE timing and travel if required.",
+          "Applicants should also check whether they meet recency of practice and English language standards. From 23 April 2026, Ahpra notes changes to accepted English test score requirements, so applicants should read the current standard before booking a test.",
+          "For migration, registration is only one component. ANMAC skills assessment, visa eligibility, employer sponsorship, state nomination and migration advice are separate issues and should be handled by qualified professionals."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼台灣護理師開始關注這條路",
+        paragraphs: [
+          "澳洲醫療體系長期需要護理人才，海外合格護士與助產士（IQNM）可透過 AHPRA / NMBA 流程評估資格並申請註冊。對台灣護理師而言，真正的問題往往不是「有沒有護理背景」，而是原始入門學歷是否被視為與澳洲批准課程 substantially equivalent。",
+          "台灣五專護理、護理師執照與臨床工作經驗，讓不少人開始研究 Stream B、Outcome-Based Assessment（OBA）、NCLEX-RN、OSCE，以及澳洲 Graduate Certificate in Advanced Nursing（GCAN）這類學歷補強選項。",
+          "這篇文章不是移民承諾，也不是註冊保證，而是把「台灣五專護理背景 + Stream B + GCAN」這條近期被討論較多的低成本規劃路線，拆成可核對的官方節點。"
+        ]
+      },
+      {
+        heading: "二、Stream B 是 OBA 路線，不是直接註冊",
+        paragraphs: [
+          "AHPRA / NMBA 的 IQNM 流程通常先從 online self-check 開始。Stream B 候選人一般是指：所持資格與護理或助產相關，但尚未被判定為與澳洲批准資格 substantially equivalent，或未被認為基於相似能力標準。",
+          "Stream B 不是壞消息，但它代表你需要完成後續評估。對 Registered Nurse 方向而言，通常會涉及 Orientation Part 1、portfolio、MCQ examination（NCLEX-RN）以及 OSCE。NMBA 的 OSCE 頁面也明確說明，Stream B 候選人通過前置階段後，需通過 OSCE 才有資格申請澳洲註冊。",
+          "所以，五專 + 台灣護理師執照 + 工作經驗可以成為申請材料的一部分，但不能被寫成「一定可直接成為澳洲 RN」。英語、近年臨床經驗、無犯罪紀錄、文件一致性與專業標準仍會被審查。"
+        ]
+      },
+      {
+        heading: "三、GCAN 的作用：學歷補強與澳洲護理語境準備",
+        paragraphs: [
+          "以 Institute of Health & Management（IHM）的 Graduate Certificate in Advanced Nursing 為例，公開資料顯示該課程為 TEQSA 認證、AQF Level 8，線上授課，全職 26 週，線上 GCAN 學費標示為 AUD 8,000。",
+          "對已有護理專科、台灣註冊與工作經驗的人來說，GCAN 的吸引力在於：用半年左右取得澳洲高等教育體系下的 postgraduate certificate，同時接觸澳洲護理實務、倫理、臨床判斷、專科方向與英文學術語境。",
+          "但這裡必須放一個醒目警示：GCAN 不等於 AHPRA 註冊。IHM 自己對 Australian Nursing Practice 方向也提醒，完成課程不會直接導致澳洲護士或助產士註冊。它更適合作為學歷補強、語境準備和文件呈現的一部分，而不是保證通行證。"
+        ]
+      },
+      {
+        heading: "四、一條比較務實的規劃流程",
+        paragraphs: [
+          "第一步，先做 AHPRA / NMBA self-check，確認自己落在哪個 stream。不要先假設自己一定是 Stream B，也不要只根據社群案例判斷。",
+          "第二步，整理文件：台灣五專畢業證書、成績單、課程描述、台灣護理師執照、工作證明、good standing 或主管機構文件、護照、姓名變更文件（如有）、英文成績與近年臨床時數。",
+          "第三步，評估是否需要 GCAN 或其他澳洲高等教育補強。若選 GCAN，應核對 TEQSA、課程名稱、AQF level、交付方式、學費、英文門檻、是否有 NCLEX / OSCE 支援，以及該課程對自己文件策略的實際作用。",
+          "第四步，同步準備 NCLEX-RN 與英文。若 portfolio 被批准，Registered Nurse MCQ 由 NCSBN / Pearson VUE 的 NCLEX-RN 承接；OSCE 則需按 NMBA / Ahpra 要求安排。"
+        ]
+      },
+      {
+        heading: "五、成本分析：低成本是相對概念，不是低風險",
+        paragraphs: [
+          "與直接在澳洲讀完整 Bachelor of Nursing 或多年課程相比，線上 GCAN 的學費與時間成本確實更容易控制。以 IHM 公開頁面的 AUD 8,000 線上 GCAN 為例，對仍在台灣工作的護理師，可能比立刻搬去澳洲讀長學位更可行。",
+          "但總成本不能只看學費。還要估算英文考試、文件翻譯與認證、AHPRA / NMBA 費用、NCLEX-RN、OSCE、赴澳考試與住宿、複考風險、職業評估、簽證與專業諮詢費。",
+          "移民部分尤其不能簡化。成為澳洲 RN 後，是否能走 ANMAC skills assessment、189/190/186 或雇主擔保，取決於當年政策、個人分數、工作經驗、英文、州政策與雇主條件。GCAN 本身不直接等於移民加分或 PR 保證。"
+        ]
+      },
+      {
+        heading: "六、OTC 的建議：先做路線審核，再決定是否投入",
+        paragraphs: [
+          "這條路最適合已有護理資格、英文願意投入、能承受 1-2 年考試與文件週期，並且願意把澳洲 RN 當作長期職涯轉換而不是短期捷徑的人。",
+          "如果你是台灣五專護理背景，建議先做三件事：完成 self-check、整理完整 evidence pack、把英文與 NCLEX 計畫放到同一張時間表。之後再判斷 GCAN 是否真的適合你，而不是因為「半年線上」四個字就匆忙報名。",
+          "OTC 可協助做教育路線解讀、文件清單、課程資訊核對與官方來源整理；AHPRA 註冊、ANMAC 職業評估及移民簽證決策，應由監管機構或合資格專業人士確認。"
+        ]
+      }
+    ],
+    resources: [
+      ["Ahpra — Apply for registration / IQNM self-check entry point", "https://www.ahpra.gov.au/Registration/Registration-Process.aspx"],
+      ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/International.aspx"],
+      ["NMBA — Objective Structured Clinical Exam (OSCE)", "https://www.nursingmidwiferyboard.gov.au/Accreditation%20/IQNM/Examination/Objective-structured-clinical-exam.aspx"],
+      ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
+      ["Ahpra — English language skills FAQ", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/FAQ.aspx"],
+      ["TEQSA — Graduate Certificate in Advanced Nursing", "https://www.teqsa.gov.au/course/graduate-certificate-advanced-nursing"],
+      ["IHM — Graduate Certificate in Advanced Nursing", "https://ihm.edu.au/graduate-certificate-in-advanced-nursing/"],
+      ["IHM — GCAN Australian Nursing Practice notice", "https://ihm.edu.au/lp/gcan-anp/"],
+      ["ANMAC — Skills assessment", "https://www.anmac.org.au/skilled-migration-services"]
+    ],
+    notes: [
+      "General public briefing only; not registration, migration, legal, employment or financial advice.",
+      "GCAN may support education planning and Australian nursing-context preparation, but it does not directly lead to nurse registration in Australia.",
+      "Always verify the current Ahpra/NMBA, TEQSA, provider, ANMAC and Home Affairs requirements before paying for a course or lodging an application."
+    ]
+  },
+  {
     slug: "australia-482-skills-in-demand-employer-sponsorship-checklist",
     title: "Australia 482 Skills in Demand Visa: Employer Sponsorship Is Not Just Finding a Company",
     date: "2026-05-24",
