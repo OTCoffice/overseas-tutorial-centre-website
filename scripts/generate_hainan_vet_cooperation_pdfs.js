@@ -265,18 +265,89 @@ const baseCss = `
     font-size: 7.5px;
     line-height: 1.3;
   }
+  .signoff {
+    margin-top: 4mm;
+    border-top: 1px solid #dce5e6;
+    padding-top: 3mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5mm;
+  }
+  .signer {
+    background: #f7faf9;
+    border: 1px solid #d8e1e1;
+    border-radius: 6px;
+    padding: 3mm;
+  }
+  .signer b {
+    display: block;
+    color: #173848;
+    font-size: 10px;
+    margin-bottom: 1mm;
+  }
+  .signer span {
+    display: block;
+    color: #52616f;
+    font-size: 8.5px;
+    font-weight: 700;
+  }
   .section {
     margin-bottom: 7mm;
     break-inside: avoid;
   }
   .memo-page .content {
-    padding-bottom: 18mm;
+    padding: 9mm 13mm 14mm;
   }
   .memo-page h1 {
     font-size: 23px;
   }
   .memo-page p {
-    font-size: 9.7px;
+    font-size: 9.1px;
+    line-height: 1.48;
+    margin-bottom: 2.2mm;
+  }
+  .memo-page li {
+    font-size: 8.6px;
+    line-height: 1.32;
+    margin-bottom: 1.15mm;
+  }
+  .memo-page .card {
+    padding: 4mm;
+  }
+  .memo-page .section {
+    margin-bottom: 4.8mm;
+  }
+  .memo-page h2 {
+    font-size: 13.5px;
+    margin-bottom: 2.2mm;
+  }
+  .memo-page h3 {
+    font-size: 10.5px;
+    margin-bottom: 1.4mm;
+  }
+  .memo-page .hero {
+    padding: 10mm 13mm 6mm;
+  }
+  .memo-page .hero .subtitle {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 2.5mm;
+  }
+  .memo-page .steps {
+    gap: 1.7mm;
+  }
+  .memo-page .step {
+    padding-top: 2.4mm;
+    padding-bottom: 2.4mm;
+    font-size: 8.5px;
+    line-height: 1.32;
+  }
+  .memo-page .signoff {
+    margin-top: 3mm;
+    padding-top: 2.2mm;
+  }
+  .memo-page .signer {
+    padding: 2.2mm 3mm;
   }
 `;
 
@@ -360,6 +431,10 @@ const briefHtml = `<!doctype html>
           <div class="step">OTC 提供講座提綱、路線說明、學生意向表與合規口徑；海南合作方組織學生/家長說明會。</div>
           <div class="step">OTC 對意向學生進行非移民法律性質的教育 route screening，合適學生再進入 provider application、平台轉介或專業服務轉介。</div>
         </div>
+      </section>
+      <section class="signoff">
+        <div class="signer"><b>Yan Xinyue</b><span>海外督導澳洲項目經理</span></div>
+        <div class="signer"><b>Georgie Barnes</b><span>海外督導澳洲執行董事</span></div>
       </section>
     </main>
     <footer class="footer">
@@ -506,6 +581,10 @@ const memoHtml = `<!doctype html>
       <section class="card gold">
         <h2>建議下一步</h2>
         <p>請 Dawn Yun 老師協助判斷海南端最適合先接觸的 1-2 類機構：職業院校 / 高職 / 中職、國際教育合作辦公室、就業實習平台、護理康養幼教或旅遊酒店相關培訓機構。OTC 可先準備一場「海南學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」線上試講。</p>
+      </section>
+      <section class="signoff">
+        <div class="signer"><b>Yan Xinyue</b><span>海外督導澳洲項目經理</span></div>
+        <div class="signer"><b>Georgie Barnes</b><span>海外督導澳洲執行董事</span></div>
       </section>
     </main>
     <footer class="footer">
