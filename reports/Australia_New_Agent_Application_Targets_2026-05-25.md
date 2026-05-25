@@ -77,10 +77,15 @@ Use a standard pack for all first-wave applications:
 - OTC corporate profile and UK company registration details.
 - UKPRN / OTHM approved-centre evidence.
 - Australia office / representative-office evidence, if relevant.
+- Xiaoxi Study Abroad Platform / 小希留学平台 cooperation evidence, framed as platform-based education advisory / referral-operation experience and transferable international-provider exposure.
 - Compliance statement: ESOS, National Code, no false partnership claims, no migration/legal advice unless referred to registered professionals.
 - Student-support statement: family communication, document organisation, route screening, welfare signposting, bilingual support.
 - Market plan: China / Chinese-speaking families, UK-Australia progression, online supervised learning, VET/TAFE/health/community-care pathway interest.
 - Referee explanation if provider requests existing Australian institution references and OTC cannot truthfully provide them yet.
+
+Suggested wording for applications:
+
+> OTC has platform-based education advisory and student-referral cooperation experience through 小希留学平台 / Xiaoxi Study Abroad Platform, including exposure to international pathway providers and Australia-linked provider updates. OTC treats this as transferable student-support, document-handling and provider-communication experience; it does not present Xiaoxi platform access as direct appointment by any Australian provider.
 
 ## Safe Public Wording
 

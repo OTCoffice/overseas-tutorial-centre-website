@@ -143,6 +143,22 @@ These are confirmed or partially confirmed operating-support relationships, but 
 
 **Not allowed:** OTHM approval is an Australian government-school or Australian provider appointment.
 
+**Xiaoxi Study Abroad Platform / 小希留学平台 cooperation**
+
+Gmail evidence shows OTC receives Xiaoxi Study Abroad Platform / 小希留学平台 partner updates, institution revenue-rule updates, reward-policy summaries and agent/CAS guidance. This is relevant to OTC's broader education advisory and student-referral operating experience.
+
+Evidence reviewed includes:
+
+- Xiaoxi platform revenue-rule update for Kaplan International Languages English Language Programmes across AU / CA / UK / IRE / US, Gmail message ID `19e4373d3a1ec665`.
+- Xiaoxi platform UK provider reward-policy summary covering INTO and OnCampus / CEG projects, Gmail message ID `19d1ab23a26e0a80`.
+- Xiaoxi platform revenue-rule updates covering OnCampus / CEG and Kaplan-related pathway programmes, Gmail message IDs `19d5167b7da46a3a`, `19d230ee4e844ca7`.
+- Xiaoxi platform Australia / New Zealand commission framework and Australia-specific reward references including UTS College and UNSW College, Gmail message ID `19c4c621c0ec7bf7`.
+- Xiaoxi platform revenue-rule update mentioning Australia-linked providers / programmes including Ozford College and Swinburne University of Technology, Gmail message ID `19ce01ca73e37050`.
+
+**Safe wording:** OTC has platform-based education advisory / referral-operation experience through 小希留学平台, including exposure to international education groups and Australia-linked provider/course updates. This experience is relevant as transferable operational experience for Australia-facing agent applications.
+
+**Not allowed:** Xiaoxi platform access or platform-based commission updates are not the same as direct appointment by Kaplan Australia, Study Group Australia, Cambridge Education Group Australia, UTS College, UNSW College, Swinburne, Ozford or any other Australian provider, unless a separate direct agreement or written appointment exists.
+
 ## 6. Evidence Classification Table
 
 | Category | Status | Can use internally? | Can use publicly? |
@@ -154,6 +170,7 @@ These are confirmed or partially confirmed operating-support relationships, but 
 | Agent training account / certificate | Study NT account approved and certificate held | Yes | Carefully, as training/readiness evidence only |
 | School profile review / onboarding request | Lindisfarne materials / request sent | Yes | Only as review-draft if school has not objected |
 | Australia operating address / services | Regus / corporate advisers | Yes | Yes, as business-presence evidence if documents support it |
+| Platform-based referral / commission-operation experience | Xiaoxi Study Abroad Platform / 小希留学平台 updates found | Yes | Only as transferable experience, not provider appointment |
 
 ## 7. Immediate Follow-Up Actions
 
@@ -167,4 +184,3 @@ These are confirmed or partially confirmed operating-support relationships, but 
 ## 8. Recommended Internal Summary
 
 OTC has not yet found Gmail evidence of a completed direct Australian education-agent appointment. OTC does have a credible pipeline of Australia development evidence: NT Government Schools application submitted, StudyAdelaide agent newsletter subscription, Study Melbourne public-resource contact and engagement enquiry, Study NT agent-training access, Lindisfarne profile/onboarding enquiry, and Australian office/corporate setup support. These should be described as a staged Australia development pipeline rather than completed direct cooperation.
-
