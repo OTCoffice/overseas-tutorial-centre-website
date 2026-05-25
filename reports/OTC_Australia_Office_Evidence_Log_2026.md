@@ -250,7 +250,7 @@ Do not state or imply:
 **Subject:** `RE: Education agent application enquiry - Northern Territory Government Schools`  
 **Gmail received message ID:** `19e5c36b68f49e2a`  
 **Gmail acknowledgement sent message ID:** `19e5de370bc65ef5`  
-**Classification:** Official application-process direction; NT Government Schools agent application pathway evidence; application pending.
+**Classification:** Official application-process direction; NT Government Schools agent application pathway evidence; application submitted.
 
 ### Summary of Email
 
@@ -283,11 +283,27 @@ This record is stronger than a general public-resource reply because it identifi
 
 ### Follow-Up Actions
 
-1. Complete the official International education agent application.
-2. Prepare supporting documents: OTC company evidence, capability statement, Study NT Agent Training Certificate, Australia route page and compliance statement.
-3. Submit the application to `internationalservice@education.nt.gov.au`.
-4. Wait for written assessment outcome.
+1. Complete the official International education agent application. **Completed 2026-05-25.**
+2. Prepare supporting documents: OTC company evidence, capability statement, Study NT Agent Training Certificate, Australia route page and compliance statement. **Completed 2026-05-25.**
+3. Submit the application to `internationalservice@education.nt.gov.au`. **Submitted 2026-05-25.**
+4. Wait for written assessment outcome. **Pending.**
 5. Do not make public claims of appointment until formal agreement is issued, agreed and returned.
+
+### Submission Record
+
+OTC submitted the completed application pack by email on 2026-05-25:
+
+- ZIP pack submission Gmail sent message ID: `19e5e0a89a7a4af6`.
+- Individual-attachment follow-up Gmail sent message ID: `19e5e0ad90c97c88`.
+
+The submission included:
+
+- completed NT Government Schools International education agent application form;
+- OTC NT Government Schools supporting statement, including Section 5 referee explanation and compliance statement;
+- OTC University Representative Capability Statement 2026;
+- OTC Study NT Agent Training Course completion certificate.
+
+OTC disclosed that it could not truthfully nominate two current Australian education organisations under Section 5 because it is seeking its first direct Australian government-school / institution appointment. OTC requested Department guidance on alternative referees or additional evidence if required.
 
 ### Evidence Status
 
@@ -295,8 +311,8 @@ This record is stronger than a general public-resource reply because it identifi
 | --- | --- |
 | Official process direction received | Yes |
 | Acknowledgement reply sent | Yes |
-| Application submitted | Pending |
+| Application submitted | Yes |
 | Formal agreement received | No |
 | Representative appointment evidence | No |
 | Suitable for internal Australia office evidence | Yes |
-| Suitable for public claim | Only as application-process review / preparation |
+| Suitable for public claim | Only as application submitted / awaiting assessment |

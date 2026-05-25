@@ -2,7 +2,7 @@
 
 **Prepared for:** OTC Australia office development file  
 **Date:** 2026-05-25  
-**Status:** Internal working checklist. Not public partnership evidence.
+**Status:** Submitted. Not public partnership evidence.
 
 ## 1. Official Process Confirmed
 
@@ -20,17 +20,17 @@ The official process states that a company can apply to become an international 
 
 ## 2. OTC Immediate Action List
 
-- Download the current International education agent application from NT.GOV.AU.
-- Complete the form using OTC company details.
-- Attach OTC supporting documents:
+- Download the current International education agent application from NT.GOV.AU. **Completed.**
+- Complete the form using OTC company details. **Completed.**
+- Attach OTC supporting documents. **Completed:**
   - company registration / incorporation evidence;
   - OTC Australia route capability statement;
   - Study NT Agent Training Certificate;
   - website profile / Australia office presence page;
   - education advisory service summary;
   - compliance statement covering ESOS / National Code awareness and no migration advice.
-- Review all public wording to ensure OTC does not claim NT Government Schools appointment before written approval.
-- Submit the completed application to `internationalservice@education.nt.gov.au`.
+- Review all public wording to ensure OTC does not claim NT Government Schools appointment before written approval. **Completed in submission wording.**
+- Submit the completed application to `internationalservice@education.nt.gov.au`. **Submitted 2026-05-25.**
 
 ## 3. Compliance Boundary
 
@@ -53,4 +53,14 @@ Safe public wording, if needed:
 
 - Email from InternationalServices DET / Emmalee Bone, 2026-05-24, Gmail message ID `19e5c36b68f49e2a`.
 - OTC acknowledgement reply, 2026-05-25, Gmail sent message ID `19e5de370bc65ef5`.
+- Application submission as ZIP pack, 2026-05-25, Gmail sent message ID `19e5e0a89a7a4af6`.
+- Individual-attachment follow-up submission, 2026-05-25, Gmail sent message ID `19e5e0ad90c97c88`.
 - Official page: `https://nt.gov.au/learning/international-education/become-an-education-agent`.
+
+## 5. Submitted File Pack
+
+- `OTC_NT_Government_Schools_Education_Agent_Application_2026-05-25.docx`
+- `OTC_NT_Government_Schools_Supporting_Statement_2026-05-25.docx`
+- `OTC_University_Representative_Capability_Statement_2026.pdf`
+- `otc-study-nt-agent-training-certificate-2026.pdf`
+- Backup ZIP: `OTC_NT_Government_Schools_Education_Agent_Application_Pack_2026-05-25.zip`
