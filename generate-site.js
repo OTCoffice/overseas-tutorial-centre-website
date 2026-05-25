@@ -11286,6 +11286,12 @@ const chineseEntrance = pageShell({
             <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
             <a href="/zh/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
           </article>
+          <article>
+            <b>運作更新</b>
+            <strong>澳洲辦公室銀行安排已開通</strong>
+            <p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或書面通知為準。</p>
+            <a href="/zh/australia-office-presence/#centre-updates">查看澳洲辦公室更新</a>
+          </article>
         </div>
       </div>
     </section>
@@ -12381,8 +12387,8 @@ const australiaOfficePresence = pageShell({
           </div>
           <div class="office-status">
             <span>Current status</span>
-            <strong>Establishing presence</strong>
-            <p>Education coordination and market-entry support are being developed first. Regulated Australian advice remains outside OTC's direct scope.</p>
+            <strong>Operational setup active</strong>
+            <p>Education coordination, market-entry support and local banking administration are being developed first. Regulated Australian advice remains outside OTC's direct scope.</p>
           </div>
           <a class="office-ai-link-card" href="/ai-education-operations/">
             <span>AI-enabled operations</span>
@@ -12417,6 +12423,12 @@ const australiaOfficePresence = pageShell({
             <strong>Executive Director appointed for OTC Australia</strong>
             <p>Georgie Barnes has been formally appointed as Executive Director, OTC Australia, supporting local coordination, institutional communication, student-route development and professional referral boundaries.</p>
             <a href="#australia-director">View welcome note</a>
+          </article>
+          <article>
+            <b>Operations</b>
+            <strong>Australia office banking arrangement is active</strong>
+            <p>OTC Australia's local banking arrangement has been opened to support office administration, education-service coordination, invoice processing and market-operation readiness. Payment details are provided only through formal invoices or written OTC notices.</p>
+            <a href="#centre-updates">View updates</a>
           </article>
         </div>
       </div>
@@ -12844,7 +12856,7 @@ const australiaOfficePresenceZh = pageShell({
           <p><strong>Overseas Tutorial Centre Ltd</strong><br>45 Evans St, Balmain, NSW 2041, Australia</p>
           <p class="office-contact-lines">澳洲聯絡：<a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>英國電話 / WhatsApp：<a href="https://wa.me/447947991572">+44 7947 991572</a></p>
           <div class="office-contact-card"><span>澳洲協調聯絡</span><strong>Yan Xinyue</strong><p>支持 OTC 面向澳洲的學生文件整理、預約協調、教育路線溝通、雙語文件跟進及必要時與專業顧問聯絡。</p></div>
-          <div class="office-status"><span>Current status</span><strong>正在建立本地存在</strong><p>先發展教育協調及市場進入支持；澳洲受監管專業建議不屬於 OTC 直接服務範圍。</p></div>
+          <div class="office-status"><span>Current status</span><strong>本地運作安排已啟動</strong><p>先發展教育協調、市場進入支持及本地銀行行政安排；澳洲受監管專業建議不屬於 OTC 直接服務範圍。</p></div>
           <a class="office-ai-link-card" href="/ai-education-operations/"><span>AI-enabled operations</span><strong>AI 教育運作框架</strong><p>學生文件、資格映射、申請流程、輔導出版與澳洲路線情報的結構化管理。</p></a>
           <a class="office-ai-link-card" href="/australia-vet-tafe-pathways/"><span>VET / TAFE route coverage</span><strong>澳洲職業教育路線圖</strong><p>按州整理 VET、TAFE、pathway 及職業導向課程的初步篩查。</p></a>
         </aside>
@@ -12857,6 +12869,7 @@ const australiaOfficePresenceZh = pageShell({
         <div class="institutional-update-cards">
           <article><b>中心狀態</b><strong>OTHM approved centre status renewed</strong><p>Overseas Tutorial Centre 已續期為 OTHM approved centre。中心號 <em>DC1802235</em> 保持不變，批准有效期至 <em>2031 年 6 月 30 日</em>。</p><a href="/othm-qualifications/">查看 OTHM 路線</a></article>
           <article><b>澳洲辦公室</b><strong>OTC Australia 執行董事任命</strong><p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持本地協調、院校溝通、學生路線發展及專業轉介邊界。</p><a href="#australia-director">查看歡迎詞</a></article>
+          <article><b>運作更新</b><strong>澳洲辦公室銀行安排已開通</strong><p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或 OTC 書面通知為準。</p><a href="#centre-updates">查看更新</a></article>
         </div>
       </div>
     </section>
