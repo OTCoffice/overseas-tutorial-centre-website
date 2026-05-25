@@ -8950,6 +8950,23 @@ const publishing = pageShell({
       <div class="series-shelf">
         <div class="shelf-head">
           <div>
+            <div class="eyebrow">First Product in Development</div>
+            <h3>BTEC Level 3 Business Assignment Writing Toolkit</h3>
+            <p>Independent bilingual assignment-planning resource for China-based BTEC / Pearson Vocational learners preparing for undergraduate progression.</p>
+          </div>
+          <a href="/publishing/btec-level-3-business-assignment-writing-toolkit/">Open product plan</a>
+        </div>
+        <div class="ebook-service-steps">
+          <span>Assignment brief breakdown</span>
+          <span>Pass / Merit / Distinction awareness</span>
+          <span>Evidence planning matrix</span>
+          <span>Academic writing scaffolds</span>
+        </div>
+      </div>
+      <div style="height:28px"></div>
+      <div class="series-shelf">
+        <div class="shelf-head">
+          <div>
             <div class="eyebrow">New Payhip Releases</div>
             <h3>Foundation / Pathway Study Support</h3>
             <p>Independent bilingual learning resources for Level 3, foundation and pathway learners.</p>
@@ -9179,7 +9196,7 @@ const bilingualStudySupportMarketReport = pageShell({
         <h2>First products should be chosen by market pain, not by institutional prestige.</h2>
       </div>
       <div class="resource-list">
-        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>Immediate priority. Supports China-based international learners with assignment brief reading, criteria awareness, evidence planning and academic phrasing.</p></div><span class="pill">Priority 1</span></article>
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>Immediate priority. Supports China-based international learners with assignment brief reading, criteria awareness, evidence planning and academic phrasing.</p><a class="btn btn-light" href="/publishing/btec-level-3-business-assignment-writing-toolkit/">Open product plan</a></div><span class="pill">Priority 1</span></article>
         <article class="resource-row"><div><h3>A-Level / IAL Business Evaluation Writing Guide</h3><p>High-demand essay-output product for international schools and bilingual learners preparing for UK-style business assessment.</p></div><span class="pill">Priority 2</span></article>
         <article class="resource-row"><div><h3>BTEC Level 3 Business Bilingual Study Companion</h3><p>Course companion and glossary-led product that can anchor the wider Pearson/BTEC Level 3 publishing route.</p></div><span class="pill">Priority 3</span></article>
         <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>Cross-route product for BTEC, Foundation, HNC/HND and OTHM-style learners who need structure, not ghostwritten answers.</p></div><span class="pill">Cross-route</span></article>
@@ -9264,7 +9281,7 @@ const bilingualStudySupportMarketReportZh = pageShell({
         <h2>第一批產品應按市場痛點排序，而不是按資格名氣排序。</h2>
       </div>
       <div class="resource-list">
-        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>最優先。面向中國國際課程學生，處理 assignment brief、criteria、evidence planning 和 academic phrasing。</p></div><span class="pill">Priority 1</span></article>
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>最優先。面向中國國際課程學生，處理 assignment brief、criteria、evidence planning 和 academic phrasing。</p><a class="btn btn-light" href="/zh/publishing/btec-level-3-business-assignment-writing-toolkit/">打開產品策劃</a></div><span class="pill">Priority 1</span></article>
         <article class="resource-row"><div><h3>A-Level / IAL Business Evaluation Writing Guide</h3><p>適合國際學校與雙語學生的 essay-output 產品，重點訓練 evaluation、case application 和論述結構。</p></div><span class="pill">Priority 2</span></article>
         <article class="resource-row"><div><h3>BTEC Level 3 Business Bilingual Study Companion</h3><p>以課程伴侶和術語表為核心，可成為 Pearson / BTEC Level 3 雙語出版線的母本。</p></div><span class="pill">Priority 3</span></article>
         <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>跨 BTEC、Foundation、HNC/HND、OTHM 的通用寫作產品，提供結構而不是替學生完成作業。</p></div><span class="pill">Cross-route</span></article>
@@ -9297,6 +9314,172 @@ const bilingualStudySupportMarketReportZh = pageShell({
       </div>
       <div style="height:18px"></div>
       <div class="notice">工作源文件：reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md。本頁是 OTC / 海外書局的市場定位與出版路線頁，不是 Pearson、Cambridge、IB、College Board 或任何 awarding body 的官方文件。</div>
+    </section>
+  `
+});
+
+const btecLevel3BusinessAssignmentToolkit = pageShell({
+  title: "BTEC Level 3 Business Assignment Writing Toolkit | Overseas Publishing House | OTC",
+  description: "Independent bilingual study-support product plan for BTEC Level 3 and Pearson Vocational Business learners: assignment brief breakdown, evidence planning, criteria awareness and academic writing scaffolding.",
+  current: "publishing",
+  path: "/publishing/btec-level-3-business-assignment-writing-toolkit/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Product Plan</div><h1>BTEC Level 3 Business Assignment Writing Toolkit</h1><p>An independent bilingual study-support product for Chinese international-school, international-department and pathway learners who need to turn business knowledge into responsible English assignment output.</p><div class="actions"><a class="btn btn-secondary" href="/zh/publishing/btec-level-3-business-assignment-writing-toolkit/">中文版本</a><a class="btn btn-secondary" href="/publishing/bilingual-study-support-market-report/">Market report</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Product Positioning</div>
+        <h2>Not a textbook replacement. A bilingual output system for assignment-based learners.</h2>
+        <p>BTEC Level 3 and Pearson Vocational learners often understand business concepts in class but struggle to read assignment briefs, interpret criteria, plan evidence and write in English with enough academic discipline. This toolkit sits between tutoring and publishing: it helps learners plan, phrase, reference and self-check without crossing into model-answer or assignment-completion territory.</p>
+      </div>
+      <div class="index-grid ebook-service-grid">
+        <article><b>01</b><strong>Reader</strong><span>Chinese EAL learners in BTEC Level 3 / International Level 3 Business, Pearson vocational routes and international-school pathway settings.</span></article>
+        <article><b>02</b><strong>Need</strong><span>Assignment brief breakdown, criteria awareness, evidence planning, business vocabulary and report-writing structure.</span></article>
+        <article><b>03</b><strong>Format</strong><span>PDF ebook first, then Payhip worksheet pack, browser practice app and tutor-pack extension.</span></article>
+        <article><b>04</b><strong>Internal ID</strong><span>OTC-BTEC-L3-BUS-AWT-001. ISBN to be assigned only after manuscript enters final publication layout.</span></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Manuscript Architecture</div>
+        <h2>The book should train the writing process, not hand out answers.</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>1. Qualification and route context</h3><p>Level 3 / International Level 3, vocational assessment logic, undergraduate-progression relevance and the difference between learning support and assessed work.</p></div><span class="pill">Context</span></article>
+        <article class="resource-row"><div><h3>2. How to read an assignment brief</h3><p>Task wording, command verbs, evidence requirements, submission format, deadline planning and teacher feedback signals.</p></div><span class="pill">Brief reading</span></article>
+        <article class="resource-row"><div><h3>3. Pass / Merit / Distinction awareness</h3><p>Explain the difference between meeting basic requirements, applying evidence well, and evaluating business decisions with clear limits.</p></div><span class="pill">Criteria</span></article>
+        <article class="resource-row"><div><h3>4. Evidence planning matrix</h3><p>Source log, business case facts, data selection, citation notes, screenshot rules and how to avoid unsupported claims.</p></div><span class="pill">Evidence</span></article>
+        <article class="resource-row"><div><h3>5. Business vocabulary and bilingual glossary</h3><p>Operational aims, stakeholders, marketing mix, finance terms, recruitment language, decision-making vocabulary and academic phrase banks.</p></div><span class="pill">Glossary</span></article>
+        <article class="resource-row"><div><h3>6. Paragraph and report-writing frames</h3><p>PEEAL-style paragraph logic, comparison language, evaluation stems, conclusion patterns and Harvard referencing basics.</p></div><span class="pill">Writing</span></article>
+        <article class="resource-row"><div><h3>7. Weak-answer diagnosis</h3><p>Show why answers become descriptive, unsupported, copied, over-translated or too informal, then provide repair steps.</p></div><span class="pill">Review</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">Subject Applications</div>
+          <h3>Business units where the toolkit can be used.</h3>
+          <ul>
+            <li>Exploring Business / business environment</li>
+            <li>Marketing and customer communication</li>
+            <li>Personal and business finance</li>
+            <li>Recruitment, selection and human resources</li>
+            <li>International business and global markets</li>
+            <li>Business decision making and data use</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">Compliance Boundary</div>
+          <h3>Keep the product academically clean.</h3>
+          <ul>
+            <li>Independent study-support resource only.</li>
+            <li>Not an official Pearson, BTEC or awarding-body publication.</li>
+            <li>No model answers, submission-ready paragraphs or guaranteed grades.</li>
+            <li>All examples should be generic, original and clearly framed as practice.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Launch Plan</div>
+        <h2>Two-day writing sprint, then production package.</h2>
+      </div>
+      <div class="workflow-grid">
+        <article><b>Day 1</b><strong>Architecture and sample chapter</strong><span>Lock chapter structure, glossary categories, assignment-brief template and one complete sample workflow.</span></article>
+        <article><b>Day 2</b><strong>Core manuscript draft</strong><span>Draft criteria awareness, evidence planning, paragraph frames, weak-answer diagnosis and compliance page.</span></article>
+        <article><b>Production</b><strong>Publication package</strong><span>Prepare PDF layout, cover, Payhip description, preview images and internal ISBN decision note.</span></article>
+        <article><b>Extension</b><strong>App companion</strong><span>Convert glossary, brief-reading checks and evidence-planning prompts into a small browser app.</span></article>
+      </div>
+      <div style="height:18px"></div>
+      <div class="notice">This product plan is part of the OTC bilingual study-support publishing roadmap. It is a public planning page, not a finished publication or an official Pearson / BTEC document.</div>
+    </section>
+  `
+});
+
+const btecLevel3BusinessAssignmentToolkitZh = pageShell({
+  title: "BTEC Level 3 商科作業寫作工具箱 | 海外書局 | 海外督導",
+  description: "海外書局 BTEC Level 3 / Pearson Vocational Business 雙語教輔產品策劃：assignment brief 解讀、evidence planning、criteria awareness 與英文學術寫作框架。",
+  current: "publishing",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/publishing/btec-level-3-business-assignment-writing-toolkit/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">海外書局 · 產品策劃</div><h1>BTEC Level 3 商科作業寫作工具箱</h1><p>面向中國國際學校、國際部、雙語學校與 pathway learners 的獨立雙語教輔產品，幫助學生把商科理解轉化為合規、清楚、有證據的英文 assignment output。</p><div class="actions"><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/">English version</a><a class="btn btn-secondary" href="/zh/publishing/bilingual-study-support-market-report/">市場報告</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">產品定位</div>
+        <h2>不是替代教材，而是 assignment-based learners 的雙語輸出系統。</h2>
+        <p>BTEC Level 3 / Pearson Vocational 學生常見問題不是完全不懂商科概念，而是看不透 assignment brief、criteria、evidence requirement，也不知道如何把中文理解轉成合規英文段落。這本工具箱位於輔導與出版之間：教學生規劃、表達、引用和自查，但不提供可提交範文，也不替學生完成作業。</p>
+      </div>
+      <div class="index-grid ebook-service-grid">
+        <article><b>01</b><strong>讀者</strong><span>BTEC Level 3 / International Level 3 Business、Pearson vocational routes、國際學校與 pathway learners。</span></article>
+        <article><b>02</b><strong>需求</strong><span>Assignment brief 解讀、criteria awareness、evidence planning、商科詞彙與 report-writing structure。</span></article>
+        <article><b>03</b><strong>形態</strong><span>先做 PDF ebook，再延伸 Payhip worksheet pack、browser practice app 和 tutor pack。</span></article>
+        <article><b>04</b><strong>內部編號</strong><span>OTC-BTEC-L3-BUS-AWT-001。ISBN 只在書稿進入正式出版排版後分配。</span></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">書稿結構</div>
+        <h2>訓練寫作流程，而不是派發答案。</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>1. 資格與升學語境</h3><p>Level 3 / International Level 3、vocational assessment 邏輯、升本用途，以及 learning support 和 assessed work 的邊界。</p></div><span class="pill">Context</span></article>
+        <article class="resource-row"><div><h3>2. 如何讀懂 assignment brief</h3><p>任務動詞、證據要求、提交格式、時間規劃和老師 feedback 中透露的改進方向。</p></div><span class="pill">Brief</span></article>
+        <article class="resource-row"><div><h3>3. Pass / Merit / Distinction 意識</h3><p>說明 basic requirement、good application 和 evaluated judgement 的差別，避免只停留在描述。</p></div><span class="pill">Criteria</span></article>
+        <article class="resource-row"><div><h3>4. Evidence planning matrix</h3><p>資料來源表、企業案例事實、數據選擇、引用記錄、截圖規則與 unsupported claims 的修正方法。</p></div><span class="pill">Evidence</span></article>
+        <article class="resource-row"><div><h3>5. 商科雙語詞彙表</h3><p>Business aims、stakeholders、marketing mix、finance、recruitment、decision-making 等核心術語與英文表述。</p></div><span class="pill">Glossary</span></article>
+        <article class="resource-row"><div><h3>6. 段落與 report 寫作框架</h3><p>PEEAL 類段落邏輯、比較語言、evaluation stems、conclusion patterns 和 Harvard referencing 基礎。</p></div><span class="pill">Writing</span></article>
+        <article class="resource-row"><div><h3>7. 弱答案診斷</h3><p>指出答案為何變成純描述、缺證據、像翻譯腔、過度依賴 AI 或不夠正式，並給出修正步驟。</p></div><span class="pill">Review</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">適用學科</div>
+          <h3>先從商科單元切入。</h3>
+          <ul>
+            <li>Exploring Business / business environment</li>
+            <li>Marketing and customer communication</li>
+            <li>Personal and business finance</li>
+            <li>Recruitment, selection and human resources</li>
+            <li>International business and global markets</li>
+            <li>Business decision making and data use</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">合規邊界</div>
+          <h3>產品必須保持學術乾淨。</h3>
+          <ul>
+            <li>只作獨立學習支持資源。</li>
+            <li>不是 Pearson、BTEC 或 awarding body 官方出版物。</li>
+            <li>不提供 model answers、可提交段落或保分承諾。</li>
+            <li>所有示例應為原創練習材料，並清楚標示練習用途。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">啟動計劃</div>
+        <h2>兩天完成核心寫作，再進入出版包製作。</h2>
+      </div>
+      <div class="workflow-grid">
+        <article><b>Day 1</b><strong>架構與樣章</strong><span>確定章節、詞彙分類、assignment-brief template 和一個完整作業規劃樣例。</span></article>
+        <article><b>Day 2</b><strong>核心書稿</strong><span>完成 criteria awareness、evidence planning、paragraph frames、weak-answer diagnosis 和 compliance page。</span></article>
+        <article><b>Production</b><strong>出版包</strong><span>準備 PDF 版式、封面、Payhip description、preview images 和 ISBN 決策記錄。</span></article>
+        <article><b>Extension</b><strong>App companion</strong><span>將詞彙、brief-reading checks 和 evidence-planning prompts 轉成 browser app。</span></article>
+      </div>
+      <div style="height:18px"></div>
+      <div class="notice">本頁屬於 OTC / 海外書局雙語教輔出版路線的公開策劃頁，不是 finished publication，也不是 Pearson / BTEC 官方文件。</div>
     </section>
   `
 });
@@ -10772,7 +10955,7 @@ const internationalCurriculumTutoring = pageShell({
       </div>
       <div class="curriculum-map curriculum-map-wide">${internationalCurriculumCards()}</div>
       <div style="height:28px"></div>
-      <div class="notice">Publishing strategy update: OTC now treats BTEC Level 3 / International Level 3 as a core bilingual study-support publishing route, not merely a pre-centre-approval qualification option. Read the market report: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
+      <div class="notice">Publishing strategy update: OTC now treats BTEC Level 3 / International Level 3 as a core bilingual study-support publishing route, not merely a pre-centre-approval qualification option. Read the market report: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>. First product plan: <a href="/publishing/btec-level-3-business-assignment-writing-toolkit/">BTEC Level 3 Business Assignment Writing Toolkit</a>.</div>
       <div style="height:28px"></div>
       <div class="curriculum-support-grid">
         <article>
@@ -11813,7 +11996,7 @@ const apps = pageShell({
         <article><span>05</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
         <article><span>06</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
         <article><span>07</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
-        <article><span>08</span><strong>BTEC Level 3 Assignment Toolkit App</strong><p>Companion app concept for bilingual vocabulary checks, assignment-brief breakdown, evidence-planning prompts and Pass / Merit / Distinction self-checks linked to the new market report.</p></article>
+        <article><span>08</span><strong>BTEC Level 3 Assignment Toolkit App</strong><p>Companion app concept for bilingual vocabulary checks, assignment-brief breakdown, evidence-planning prompts and Pass / Merit / Distinction self-checks linked to the new <a href="/publishing/btec-level-3-business-assignment-writing-toolkit/">BTEC Level 3 product plan</a>.</p></article>
       </div>
       <div style="height:22px"></div>
       <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products. Related publishing roadmap: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
@@ -15002,6 +15185,8 @@ write("publishing", publishing);
 write("publishing/media", publishingMedia);
 write("publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReport);
 write("zh/publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReportZh);
+write("publishing/btec-level-3-business-assignment-writing-toolkit", btecLevel3BusinessAssignmentToolkit);
+write("zh/publishing/btec-level-3-business-assignment-writing-toolkit", btecLevel3BusinessAssignmentToolkitZh);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
@@ -15154,6 +15339,8 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /publishing/media/
 - /publishing/bilingual-study-support-market-report/
 - /zh/publishing/bilingual-study-support-market-report/
+- /publishing/btec-level-3-business-assignment-writing-toolkit/
+- /zh/publishing/btec-level-3-business-assignment-writing-toolkit/
 - /courses/
 - /services/
 - /university-applications/
