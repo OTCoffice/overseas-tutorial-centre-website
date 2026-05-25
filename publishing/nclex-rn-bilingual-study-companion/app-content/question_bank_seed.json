@@ -1,0 +1,107 @@
+{
+  "version": "0.1",
+  "status": "original seed items for editorial review",
+  "disclaimer": "Independent educational practice items. Not official NCLEX questions and not copied from any commercial QBank.",
+  "items": [
+    {
+      "id": "P001",
+      "type": "single_best_answer",
+      "category": "prioritization",
+      "stem": "The nurse receives reports on four clients. Which client should the nurse assess first?",
+      "stem_zh": "護理師收到四位病人的情況回報。應先評估哪一位？",
+      "options": [
+        {
+          "id": "A",
+          "text": "A client with chronic arthritis reporting pain rated 5/10.",
+          "text_zh": "慢性關節炎病人回報疼痛 5/10。"
+        },
+        {
+          "id": "B",
+          "text": "A client taking furosemide reporting new muscle weakness.",
+          "text_zh": "正在使用 furosemide 的病人出現新的肌肉無力。"
+        },
+        {
+          "id": "C",
+          "text": "A client scheduled for discharge asking about medication timing.",
+          "text_zh": "準備出院的病人詢問服藥時間。"
+        },
+        {
+          "id": "D",
+          "text": "A client with insomnia requesting a sleep aid.",
+          "text_zh": "失眠病人要求安眠藥。"
+        }
+      ],
+      "answer": "B",
+      "rationale": "Furosemide can contribute to potassium loss. New muscle weakness may signal an electrolyte problem with cardiac risk and should be assessed before stable chronic pain, discharge teaching or sleep comfort.",
+      "rationale_zh": "Furosemide 可能造成鉀流失。新的肌肉無力可能提示電解質問題並帶有心律風險，優先於穩定慢性疼痛、出院教學或睡眠舒適需求。",
+      "wrong_tags": ["knowledge_gap", "cue_recognition", "prioritization"]
+    },
+    {
+      "id": "D001",
+      "type": "single_best_answer",
+      "category": "delegation_scope",
+      "stem": "Which task is most appropriate for the RN to delegate to unlicensed assistive personnel?",
+      "stem_zh": "下列哪項最適合由 RN 委派給無照護理輔助人員？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Teach a newly diagnosed diabetic client how to inject insulin.",
+          "text_zh": "教新診斷糖尿病病人如何注射胰島素。"
+        },
+        {
+          "id": "B",
+          "text": "Assess a client with new chest pain.",
+          "text_zh": "評估新發胸痛病人。"
+        },
+        {
+          "id": "C",
+          "text": "Assist a stable postoperative client to ambulate.",
+          "text_zh": "協助穩定的術後病人下床行走。"
+        },
+        {
+          "id": "D",
+          "text": "Evaluate whether pain medication was effective.",
+          "text_zh": "評估止痛藥是否有效。"
+        }
+      ],
+      "answer": "C",
+      "rationale": "Routine assistance with ambulation for a stable client is appropriate. Teaching, new symptom assessment and evaluation require RN judgment.",
+      "rationale_zh": "穩定病人的例行行走協助可委派。教學、新症狀評估與療效評價需要 RN 判斷。",
+      "wrong_tags": ["delegation_scope"]
+    },
+    {
+      "id": "NGN001",
+      "type": "case_cue_recognition",
+      "category": "ngn",
+      "stem": "A client is 2 hours postoperative after abdominal surgery. The client reports increasing shortness of breath, appears restless and has an oxygen saturation of 88% on room air. Which cues require immediate nursing attention?",
+      "stem_zh": "病人腹部手術後 2 小時，回報呼吸越來越困難，表現不安，室內空氣下血氧飽和度 88%。哪些線索需要立即護理關注？",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 hours postoperative",
+          "text_zh": "術後 2 小時"
+        },
+        {
+          "id": "B",
+          "text": "Increasing shortness of breath",
+          "text_zh": "呼吸困難加重"
+        },
+        {
+          "id": "C",
+          "text": "Restlessness",
+          "text_zh": "不安"
+        },
+        {
+          "id": "D",
+          "text": "Oxygen saturation 88% on room air",
+          "text_zh": "室內空氣下血氧 88%"
+        }
+      ],
+      "answer": ["B", "C", "D"],
+      "rationale": "Worsening shortness of breath, restlessness and low oxygen saturation indicate immediate breathing/oxygenation concern. Postoperative timing provides context but is not itself the immediate abnormal cue.",
+      "rationale_zh": "呼吸困難加重、不安與血氧偏低提示立即的 breathing/oxygenation 風險。術後時間提供背景，但本身不是最直接的異常線索。",
+      "wrong_tags": ["cue_recognition", "prioritization", "safety_infection"]
+    }
+  ]
+}
+

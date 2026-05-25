@@ -1,0 +1,761 @@
+{
+  "version": "0.2",
+  "status": "20 original core beta items for editorial and nursing review",
+  "disclaimer": "Independent educational practice items. Not official NCLEX questions and not copied from any commercial QBank. Generated expansion items require RN/nursing educator review before public release.",
+  "items": [
+    {
+      "id": "P001",
+      "category": "prioritization",
+      "stem": "The nurse receives reports on four clients. Which client should the nurse assess first?",
+      "stem_zh": "護理師收到四位病人的情況回報。應先評估哪一位？",
+      "options": [
+        [
+          "A",
+          "A client with chronic arthritis reporting pain rated 5/10.",
+          "慢性關節炎病人回報疼痛 5/10。"
+        ],
+        [
+          "B",
+          "A client taking furosemide reporting new muscle weakness.",
+          "正在使用 furosemide 的病人出現新的肌肉無力。"
+        ],
+        [
+          "C",
+          "A client scheduled for discharge asking about medication timing.",
+          "準備出院的病人詢問服藥時間。"
+        ],
+        [
+          "D",
+          "A client with insomnia requesting a sleep aid.",
+          "失眠病人要求安眠藥。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Furosemide can contribute to potassium loss. New muscle weakness may signal an electrolyte problem with cardiac risk.",
+      "rationale_zh": "Furosemide 可能造成鉀流失。新的肌肉無力可能提示電解質問題並帶有心律風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "P002",
+      "category": "prioritization",
+      "stem": "Which client should the nurse see first?",
+      "stem_zh": "護理師應先看哪位病人？",
+      "options": [
+        [
+          "A",
+          "A client with pneumonia whose oxygen saturation decreased from 94% to 88%.",
+          "肺炎病人血氧從 94% 降至 88%。"
+        ],
+        [
+          "B",
+          "A client with diabetes requesting a bedtime snack.",
+          "糖尿病病人要求睡前點心。"
+        ],
+        [
+          "C",
+          "A client with a cast reporting mild itching under the cast.",
+          "石膏病人回報石膏下輕微癢。"
+        ],
+        [
+          "D",
+          "A client with hypertension asking about a low-sodium diet.",
+          "高血壓病人詢問低鈉飲食。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "A falling oxygen saturation is an immediate breathing concern and outranks teaching or comfort needs.",
+      "rationale_zh": "血氧下降屬於立即 breathing 風險，優先於教學或舒適需求。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "P003",
+      "category": "prioritization",
+      "stem": "A client 6 hours after thyroidectomy reports tingling around the mouth. What should the nurse do first?",
+      "stem_zh": "甲狀腺切除術後 6 小時病人回報口周麻刺感。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding as expected.",
+          "記錄為預期現象。"
+        ],
+        [
+          "B",
+          "Assess for signs of hypocalcemia and notify the provider.",
+          "評估低血鈣徵象並通知醫師/團隊。"
+        ],
+        [
+          "C",
+          "Encourage the client to cough deeply.",
+          "鼓勵病人深咳。"
+        ],
+        [
+          "D",
+          "Offer warm fluids.",
+          "提供溫熱飲品。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Tingling after thyroidectomy may indicate hypocalcemia from parathyroid disruption and requires prompt assessment.",
+      "rationale_zh": "甲狀腺術後口周麻刺可能提示副甲狀腺受影響導致低血鈣，需要及時評估。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "D001",
+      "category": "delegation_scope",
+      "stem": "Which task is most appropriate for the RN to delegate to unlicensed assistive personnel?",
+      "stem_zh": "下列哪項最適合由 RN 委派給無照護理輔助人員？",
+      "options": [
+        [
+          "A",
+          "Teach a newly diagnosed diabetic client how to inject insulin.",
+          "教新診斷糖尿病病人如何注射胰島素。"
+        ],
+        [
+          "B",
+          "Assess a client with new chest pain.",
+          "評估新發胸痛病人。"
+        ],
+        [
+          "C",
+          "Assist a stable postoperative client to ambulate.",
+          "協助穩定的術後病人下床行走。"
+        ],
+        [
+          "D",
+          "Evaluate whether pain medication was effective.",
+          "評估止痛藥是否有效。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Routine assistance with ambulation for a stable client is appropriate. Teaching, new symptom assessment and evaluation require RN judgment.",
+      "rationale_zh": "穩定病人的例行行走協助可委派。教學、新症狀評估與療效評價需要 RN 判斷。",
+      "wrong_tags": [
+        "delegation_scope"
+      ]
+    },
+    {
+      "id": "D002",
+      "category": "delegation_scope",
+      "stem": "Which assignment should the charge nurse give to an experienced LPN/LVN rather than UAP?",
+      "stem_zh": "下列哪項更適合分配給有經驗的 LPN/LVN，而不是 UAP？",
+      "options": [
+        [
+          "A",
+          "Feeding a stable client who needs tray setup.",
+          "協助穩定病人進食並擺放餐盤。"
+        ],
+        [
+          "B",
+          "Reinforcing teaching about a dressing change after RN instruction.",
+          "在 RN 教學後補強換藥說明。"
+        ],
+        [
+          "C",
+          "Taking routine vital signs for a stable client.",
+          "為穩定病人量例行生命徵象。"
+        ],
+        [
+          "D",
+          "Transporting a discharged client by wheelchair.",
+          "用輪椅送出院病人。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Depending on jurisdiction and facility policy, LPN/LVN may reinforce teaching after RN instruction; UAP should not teach.",
+      "rationale_zh": "依地區與機構規範，LPN/LVN 可在 RN 教學後補強說明；UAP 不應承擔教學。",
+      "wrong_tags": [
+        "delegation_scope",
+        "english_wording"
+      ]
+    },
+    {
+      "id": "PH001",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin reports black, tarry stools. Which action should the nurse take first?",
+      "stem_zh": "服用 warfarin 的病人回報黑色柏油樣大便。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Encourage more leafy green vegetables.",
+          "鼓勵多吃綠葉蔬菜。"
+        ],
+        [
+          "B",
+          "Document as an expected effect.",
+          "記錄為預期作用。"
+        ],
+        [
+          "C",
+          "Assess for bleeding and notify the provider.",
+          "評估出血並通知醫師/團隊。"
+        ],
+        [
+          "D",
+          "Teach the client to take the medication with food.",
+          "教病人隨餐服藥。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Black, tarry stools may indicate gastrointestinal bleeding, a serious risk with anticoagulant therapy.",
+      "rationale_zh": "黑色柏油樣便可能提示胃腸道出血，是抗凝治療的重要風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "PH002",
+      "category": "pharmacology",
+      "stem": "Which finding in a client receiving opioid analgesia requires immediate follow-up?",
+      "stem_zh": "使用 opioid 止痛藥的病人，下列哪個發現需要立即追蹤？",
+      "options": [
+        [
+          "A",
+          "Respiratory rate 8/min.",
+          "呼吸頻率 8 次/分。"
+        ],
+        [
+          "B",
+          "Constipation for 1 day.",
+          "便秘 1 天。"
+        ],
+        [
+          "C",
+          "Mild nausea.",
+          "輕微噁心。"
+        ],
+        [
+          "D",
+          "Pain reduced from 8/10 to 4/10.",
+          "疼痛從 8/10 降至 4/10。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Respiratory depression is a priority safety concern with opioids.",
+      "rationale_zh": "呼吸抑制是 opioid 的優先安全風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "PH003",
+      "category": "pharmacology",
+      "stem": "Which statement by a client taking an ACE inhibitor requires further teaching?",
+      "stem_zh": "服用 ACE inhibitor 的病人哪句話表示需要進一步教學？",
+      "options": [
+        [
+          "A",
+          "I will report swelling of my lips or face.",
+          "我會回報嘴唇或臉部腫脹。"
+        ],
+        [
+          "B",
+          "I may feel dizzy when standing quickly.",
+          "我快速站起來可能會頭暈。"
+        ],
+        [
+          "C",
+          "I will use a salt substitute freely.",
+          "我會自由使用代鹽。"
+        ],
+        [
+          "D",
+          "I will tell my provider if I develop a persistent cough.",
+          "如果出現持續咳嗽我會告知醫師/團隊。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Some salt substitutes contain potassium, which can be risky with ACE inhibitors.",
+      "rationale_zh": "部分代鹽含鉀，ACE inhibitor 使用者需謹慎。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "english_wording"
+      ]
+    },
+    {
+      "id": "MH001",
+      "category": "therapeutic_communication",
+      "stem": "A client says, 'I cannot go on anymore. I have been thinking about ending my life.' Which response is best?",
+      "stem_zh": "病人說：『我撐不下去了，一直在想結束生命。』最佳回應是？",
+      "options": [
+        [
+          "A",
+          "You have so much to live for.",
+          "你還有很多值得活下去的理由。"
+        ],
+        [
+          "B",
+          "Do you have a plan to harm yourself?",
+          "你有傷害自己的計劃嗎？"
+        ],
+        [
+          "C",
+          "Try not to think that way.",
+          "不要那樣想。"
+        ],
+        [
+          "D",
+          "I will tell your family to stay with you.",
+          "我會叫你的家人陪你。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Direct suicide risk assessment is required and therapeutic when safety is at risk.",
+      "rationale_zh": "有自殺意念時需要直接評估風險，這是安全且治療性的做法。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "safety_infection",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "MH002",
+      "category": "therapeutic_communication",
+      "stem": "A client with hallucinations says, 'The voices are telling me I am worthless.' Which response is best?",
+      "stem_zh": "有幻聽的病人說：『那些聲音說我一文不值。』最佳回應是？",
+      "options": [
+        [
+          "A",
+          "Those voices are not real.",
+          "那些聲音不是真的。"
+        ],
+        [
+          "B",
+          "Try to ignore them.",
+          "試著不要理它們。"
+        ],
+        [
+          "C",
+          "I do not hear the voices, but I can see this is frightening for you.",
+          "我沒有聽到那些聲音，但我看得出這讓你很害怕。"
+        ],
+        [
+          "D",
+          "Why do you believe the voices?",
+          "你為什麼相信那些聲音？"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response acknowledges the client's experience without arguing with the hallucination.",
+      "rationale_zh": "此回應承認病人的感受，但不與幻聽內容爭辯。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ]
+    },
+    {
+      "id": "S001",
+      "category": "safety_infection",
+      "stem": "Which action should the nurse take before administering medication to a client?",
+      "stem_zh": "給藥前護理師應先做哪件事？",
+      "options": [
+        [
+          "A",
+          "Ask if the medication looks familiar.",
+          "詢問病人藥物是否看起來熟悉。"
+        ],
+        [
+          "B",
+          "Use two approved client identifiers.",
+          "使用兩項核准的病人身份識別。"
+        ],
+        [
+          "C",
+          "Ask the family to confirm the room number.",
+          "請家屬確認房號。"
+        ],
+        [
+          "D",
+          "Check whether the client has eaten.",
+          "確認病人是否進食。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Medication safety requires two approved identifiers. Room number is not sufficient.",
+      "rationale_zh": "給藥安全需要兩項核准身份識別，房號不足以確認身份。",
+      "wrong_tags": [
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "S002",
+      "category": "safety_infection",
+      "stem": "A client is suspected of having tuberculosis. Which precaution should the nurse anticipate?",
+      "stem_zh": "病人疑似結核病。護理師應預期哪種隔離措施？",
+      "options": [
+        [
+          "A",
+          "Contact precautions only.",
+          "僅接觸隔離。"
+        ],
+        [
+          "B",
+          "Droplet precautions only.",
+          "僅飛沫隔離。"
+        ],
+        [
+          "C",
+          "Airborne precautions with appropriate respirator use.",
+          "空氣隔離並使用適當呼吸防護。"
+        ],
+        [
+          "D",
+          "Standard precautions only.",
+          "僅標準防護。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Tuberculosis requires airborne precautions with appropriate respiratory protection.",
+      "rationale_zh": "結核病需要空氣隔離及適當呼吸防護。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "MC001",
+      "category": "maternal_child",
+      "stem": "A postpartum client has a boggy uterus and heavy lochia. What should the nurse do first?",
+      "stem_zh": "產後病人子宮鬆軟且惡露量多。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Encourage oral fluids.",
+          "鼓勵口服液體。"
+        ],
+        [
+          "B",
+          "Massage the fundus.",
+          "按摩子宮底。"
+        ],
+        [
+          "C",
+          "Assist the client to shower.",
+          "協助病人淋浴。"
+        ],
+        [
+          "D",
+          "Document the finding.",
+          "記錄此發現。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A boggy uterus with heavy lochia suggests uterine atony and bleeding risk. In this NCLEX-style context, fundal massage is the expected immediate nursing action for suspected atony, while real clinical practice should follow facility protocol and provider or midwifery guidance after assessment.",
+      "rationale_zh": "子宮鬆軟合併惡露量多提示子宮收縮乏力與出血風險，應立即按摩子宮底。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "MC002",
+      "category": "maternal_child",
+      "stem": "Which prenatal finding should the nurse report immediately?",
+      "stem_zh": "下列哪個產前發現應立即回報？",
+      "options": [
+        [
+          "A",
+          "Mild ankle swelling at the end of the day.",
+          "傍晚輕微腳踝水腫。"
+        ],
+        [
+          "B",
+          "Severe headache with visual changes.",
+          "嚴重頭痛合併視覺變化。"
+        ],
+        [
+          "C",
+          "Increased urinary frequency early in pregnancy.",
+          "孕早期尿頻增加。"
+        ],
+        [
+          "D",
+          "Mild nausea in the morning.",
+          "早晨輕微噁心。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Severe headache with visual changes may indicate preeclampsia and requires prompt follow-up.",
+      "rationale_zh": "嚴重頭痛合併視覺變化可能提示子癲前症，需要立即追蹤。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "NGN001",
+      "category": "ngn",
+      "stem": "Which cues require immediate nursing attention? Select all that apply.",
+      "stem_zh": "哪些線索需要立即護理關注？可多選。",
+      "case": "A client is 2 hours postoperative after abdominal surgery. The client reports increasing shortness of breath, appears restless and has an oxygen saturation of 88% on room air.",
+      "case_zh": "病人腹部手術後 2 小時，回報呼吸越來越困難，表現不安，室內空氣下血氧飽和度 88%。",
+      "options": [
+        [
+          "A",
+          "2 hours postoperative",
+          "術後 2 小時"
+        ],
+        [
+          "B",
+          "Increasing shortness of breath",
+          "呼吸困難加重"
+        ],
+        [
+          "C",
+          "Restlessness",
+          "不安"
+        ],
+        [
+          "D",
+          "Oxygen saturation 88% on room air",
+          "室內空氣下血氧 88%"
+        ]
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "rationale": "Worsening shortness of breath, restlessness and low oxygen saturation indicate immediate breathing/oxygenation concern.",
+      "rationale_zh": "呼吸困難加重、不安與血氧偏低提示立即 breathing/oxygenation 風險。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "NGN002",
+      "category": "ngn",
+      "stem": "Which findings are most concerning? Select all that apply.",
+      "stem_zh": "哪些發現最令人擔心？可多選。",
+      "case": "A client 1 day after bowel surgery reports increasing abdominal pain. Temperature is 38.6 C, heart rate 118/min, blood pressure 92/58 mmHg and the client is restless.",
+      "case_zh": "腸道手術後第 1 天病人回報腹痛加重。體溫 38.6 C、心率 118/分、血壓 92/58 mmHg，並且不安。",
+      "options": [
+        [
+          "A",
+          "Increasing abdominal pain",
+          "腹痛加重"
+        ],
+        [
+          "B",
+          "Temperature 38.6 C",
+          "體溫 38.6 C"
+        ],
+        [
+          "C",
+          "Heart rate 118/min",
+          "心率 118/分"
+        ],
+        [
+          "D",
+          "Blood pressure 92/58 mmHg",
+          "血壓 92/58 mmHg"
+        ]
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "rationale": "Together these cues suggest possible postoperative complication, infection/sepsis or perfusion concern and need urgent attention.",
+      "rationale_zh": "這些線索合併提示可能術後併發症、感染/敗血症或灌流問題，需要緊急關注。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "E001",
+      "category": "english_wording",
+      "stem": "The question asks which statement by the client indicates a need for further teaching. What is the question asking you to find?",
+      "stem_zh": "題目問病人哪句話 indicates a need for further teaching。這是在問你找什麼？",
+      "options": [
+        [
+          "A",
+          "The statement that is correct.",
+          "正確的句子。"
+        ],
+        [
+          "B",
+          "The statement that shows misunderstanding.",
+          "顯示誤解的句子。"
+        ],
+        [
+          "C",
+          "The statement that is most polite.",
+          "最有禮貌的句子。"
+        ],
+        [
+          "D",
+          "The statement that repeats the nurse's words.",
+          "重複護理師原話的句子。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Further teaching means the client has misunderstood or needs more instruction.",
+      "rationale_zh": "Further teaching 表示病人有誤解或仍需更多教學。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ]
+    },
+    {
+      "id": "E002",
+      "category": "english_wording",
+      "stem": "In an NCLEX question, the word 'priority' usually means:",
+      "stem_zh": "NCLEX 題目中的 priority 通常表示：",
+      "options": [
+        [
+          "A",
+          "The answer that is easiest to do.",
+          "最容易做的答案。"
+        ],
+        [
+          "B",
+          "The answer that is safest or most urgent now.",
+          "此刻最安全或最緊急的答案。"
+        ],
+        [
+          "C",
+          "The answer that includes the most information.",
+          "包含最多資訊的答案。"
+        ],
+        [
+          "D",
+          "The answer that is usually done at discharge.",
+          "通常出院時做的答案。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Priority asks for the safest or most urgent nursing action in context.",
+      "rationale_zh": "Priority 問的是該情境中最安全或最緊急的護理行動。",
+      "wrong_tags": [
+        "english_wording",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "OS001",
+      "category": "osce_transition",
+      "stem": "Which phrase is most appropriate when escalating a concerning change in a client's condition?",
+      "stem_zh": "當病人狀況出現令人擔心的變化，需要升級通報時，哪句話最合適？",
+      "options": [
+        [
+          "A",
+          "I think something is weird, but I am not sure.",
+          "我覺得有點怪，但我不確定。"
+        ],
+        [
+          "B",
+          "The client is probably fine, but can you come later?",
+          "病人大概沒事，你晚點能來嗎？"
+        ],
+        [
+          "C",
+          "I am concerned because the oxygen saturation has dropped to 88% and the client is increasingly short of breath.",
+          "我擔心是因為血氧降至 88%，且病人呼吸困難加重。"
+        ],
+        [
+          "D",
+          "The family is worried, so you should see the client.",
+          "家屬很擔心，所以你應該來看。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Escalation should be specific, objective and linked to clinical concern.",
+      "rationale_zh": "升級通報應具體、客觀，並連到臨床風險。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "cue_recognition",
+        "osce_transition"
+      ]
+    },
+    {
+      "id": "T001",
+      "category": "test_strategy",
+      "stem": "A learner often changes correct answers to wrong answers without new evidence. Which strategy is best?",
+      "stem_zh": "學員常在沒有新證據時把正確答案改成錯誤答案。最佳策略是？",
+      "options": [
+        [
+          "A",
+          "Always change the first answer.",
+          "永遠改第一直覺答案。"
+        ],
+        [
+          "B",
+          "Never review flagged questions.",
+          "永遠不要回看標記題。"
+        ],
+        [
+          "C",
+          "Change an answer only when a specific cue proves the first choice is unsafe or incorrect.",
+          "只有當具體線索證明原答案不安全或錯誤時才改。"
+        ],
+        [
+          "D",
+          "Choose the longest option.",
+          "選最長的選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Answer changes should be evidence-based, not anxiety-based.",
+      "rationale_zh": "改答案應基於證據，而不是焦慮。",
+      "wrong_tags": [
+        "test_strategy"
+      ]
+    }
+  ]
+}

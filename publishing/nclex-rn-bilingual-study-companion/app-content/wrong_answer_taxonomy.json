@@ -1,0 +1,54 @@
+{
+  "version": "0.1",
+  "taxonomy": [
+    {
+      "id": "knowledge_gap",
+      "label": "Knowledge gap",
+      "label_zh": "知識缺口",
+      "description": "The learner did not know the condition, medication, procedure or nursing principle."
+    },
+    {
+      "id": "english_wording",
+      "label": "English wording",
+      "label_zh": "英文題幹理解",
+      "description": "The learner misunderstood key words such as first, priority, expected, follow-up or further teaching."
+    },
+    {
+      "id": "cue_recognition",
+      "label": "Cue recognition",
+      "label_zh": "線索辨識",
+      "description": "The learner missed the most important cue or treated all cues as equal."
+    },
+    {
+      "id": "prioritization",
+      "label": "Prioritization",
+      "label_zh": "優先順序",
+      "description": "The learner identified the issue but chose a non-urgent or less safe action."
+    },
+    {
+      "id": "delegation_scope",
+      "label": "Delegation / scope",
+      "label_zh": "委派與職責邊界",
+      "description": "The learner assigned an RN task to another role or failed to delegate a routine stable task."
+    },
+    {
+      "id": "safety_infection",
+      "label": "Safety / infection control",
+      "label_zh": "安全與感染控制",
+      "description": "The learner missed fall risk, aspiration risk, isolation, hand hygiene, medication safety or similar safety concern."
+    },
+    {
+      "id": "therapeutic_communication",
+      "label": "Therapeutic communication",
+      "label_zh": "治療性溝通",
+      "description": "The learner chose a response that blocks feelings, gives false reassurance, argues or changes subject too quickly."
+    },
+    {
+      "id": "test_strategy",
+      "label": "Test strategy",
+      "label_zh": "考試策略",
+      "description": "The mistake came from rushing, overthinking, changing answers without evidence or mismanaging time."
+    }
+  ]
+}
+

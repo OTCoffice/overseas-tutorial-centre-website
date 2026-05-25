@@ -1,0 +1,6979 @@
+{
+  "version": "0.5",
+  "status": "180-item expanded bilingual beta practice pool for editorial and nursing review",
+  "disclaimer": "Independent educational practice items. Not official NCLEX questions and not copied from any commercial QBank. Generated expansion items require RN/nursing educator review before public release.",
+  "items": [
+    {
+      "id": "P004",
+      "category": "prioritization",
+      "stem": "Which client should the nurse assess first after receiving shift report?",
+      "stem_zh": "交班後護理師應先評估哪位病人？",
+      "options": [
+        [
+          "A",
+          "A client with COPD whose oxygen saturation is 89% and who is using accessory muscles.",
+          "COPD 病人血氧 89%，並使用輔助呼吸肌。"
+        ],
+        [
+          "B",
+          "A client with a sprained ankle requesting an ice pack.",
+          "腳踝扭傷病人要求冰敷。"
+        ],
+        [
+          "C",
+          "A client with stable angina asking about diet.",
+          "穩定型心絞痛病人詢問飲食。"
+        ],
+        [
+          "D",
+          "A client with constipation requesting prune juice.",
+          "便秘病人要求西梅汁。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Accessory muscle use with low oxygen saturation indicates breathing distress and requires priority assessment.",
+      "rationale_zh": "血氧低且使用輔助呼吸肌提示呼吸窘迫，需要優先評估。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "P005",
+      "category": "prioritization",
+      "stem": "A client with diabetes is confused, diaphoretic and trembling. What should the nurse do first?",
+      "stem_zh": "糖尿病病人混亂、出汗、顫抖。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Check the blood glucose level.",
+          "檢查血糖。"
+        ],
+        [
+          "B",
+          "Provide discharge teaching.",
+          "提供出院教學。"
+        ],
+        [
+          "C",
+          "Document the symptoms.",
+          "記錄症狀。"
+        ],
+        [
+          "D",
+          "Encourage the client to rest.",
+          "鼓勵病人休息。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The cues suggest possible hypoglycemia. Assessment of blood glucose is the immediate priority.",
+      "rationale_zh": "這些線索提示可能低血糖，立即檢查血糖是優先行動。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization",
+        "knowledge_gap"
+      ]
+    },
+    {
+      "id": "P006",
+      "category": "prioritization",
+      "stem": "A client receiving a blood transfusion develops chills, fever and back pain. What is the priority action?",
+      "stem_zh": "輸血中的病人出現寒顫、發燒和背痛。優先行動是？",
+      "options": [
+        [
+          "A",
+          "Slow the transfusion rate.",
+          "減慢輸血速度。"
+        ],
+        [
+          "B",
+          "Stop the transfusion.",
+          "停止輸血。"
+        ],
+        [
+          "C",
+          "Offer warm blankets only.",
+          "只提供溫毯。"
+        ],
+        [
+          "D",
+          "Document and reassess in 1 hour.",
+          "記錄並 1 小時後再評估。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "These signs may indicate a transfusion reaction. Stop the transfusion and follow protocol.",
+      "rationale_zh": "這些徵象可能提示輸血反應，應停止輸血並按流程處理。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "safety_infection",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "D003",
+      "category": "delegation_scope",
+      "stem": "Which client should the RN assign to another RN rather than to an LPN/LVN?",
+      "stem_zh": "下列哪位病人應由 RN 接手，而不是分配給 LPN/LVN？",
+      "options": [
+        [
+          "A",
+          "A stable client needing a scheduled oral antibiotic.",
+          "穩定病人需定時口服抗生素。"
+        ],
+        [
+          "B",
+          "A client admitted from the emergency department with new stroke symptoms.",
+          "急診收入、有新發中風症狀的病人。"
+        ],
+        [
+          "C",
+          "A client needing routine wound dressing reinforcement.",
+          "需要例行傷口敷料加強的病人。"
+        ],
+        [
+          "D",
+          "A stable client requesting assistance with hygiene.",
+          "穩定病人需要個人清潔協助。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A newly admitted unstable client with neurologic changes requires RN assessment and judgment.",
+      "rationale_zh": "新入院且有神經變化的不穩定病人需要 RN 評估與判斷。",
+      "wrong_tags": [
+        "delegation_scope",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "D004",
+      "category": "delegation_scope",
+      "stem": "Which instruction should the RN give to UAP when delegating care?",
+      "stem_zh": "RN 委派照護給 UAP 時，哪項指示最合適？",
+      "options": [
+        [
+          "A",
+          "Assess whether the client is ready for discharge.",
+          "評估病人是否可出院。"
+        ],
+        [
+          "B",
+          "Tell me if the client becomes dizzy while walking.",
+          "如果病人行走時頭暈，請告訴我。"
+        ],
+        [
+          "C",
+          "Decide whether the medication should be held.",
+          "決定是否暫停藥物。"
+        ],
+        [
+          "D",
+          "Teach the client how to use the inhaler.",
+          "教病人使用吸入器。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "UAP may report observations during a delegated routine task; assessment, medication decisions and teaching remain RN responsibilities.",
+      "rationale_zh": "UAP 可在例行任務中回報觀察；評估、藥物決策與教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ]
+    },
+    {
+      "id": "PH004",
+      "category": "pharmacology",
+      "stem": "Which assessment is most important before administering digoxin?",
+      "stem_zh": "給 digoxin 前最重要的評估是什麼？",
+      "options": [
+        [
+          "A",
+          "Apical pulse.",
+          "心尖脈。"
+        ],
+        [
+          "B",
+          "Temperature.",
+          "體溫。"
+        ],
+        [
+          "C",
+          "Bowel sounds.",
+          "腸鳴音。"
+        ],
+        [
+          "D",
+          "Pain score.",
+          "疼痛分數。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Digoxin can affect heart rate and rhythm. The apical pulse should be assessed before administration.",
+      "rationale_zh": "Digoxin 可影響心率與心律，給藥前需評估心尖脈。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "PH005",
+      "category": "pharmacology",
+      "stem": "A client receiving heparin has a sudden severe headache and confusion. What is the nurse's priority?",
+      "stem_zh": "使用 heparin 的病人突然嚴重頭痛並意識混亂。護理師優先處理是？",
+      "options": [
+        [
+          "A",
+          "Assess for bleeding and notify the provider immediately.",
+          "評估出血並立即通知醫師/團隊。"
+        ],
+        [
+          "B",
+          "Give the next heparin dose early.",
+          "提前給下一劑 heparin。"
+        ],
+        [
+          "C",
+          "Encourage the client to sleep.",
+          "鼓勵病人睡覺。"
+        ],
+        [
+          "D",
+          "Document as a common side effect.",
+          "記錄為常見副作用。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Severe headache and confusion may indicate serious bleeding, including intracranial bleeding, in a client receiving anticoagulation.",
+      "rationale_zh": "抗凝治療中嚴重頭痛和混亂可能提示嚴重出血，包括顱內出血。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "PH006",
+      "category": "pharmacology",
+      "stem": "Which statement by a client taking prednisone requires further teaching?",
+      "stem_zh": "服用 prednisone 的病人哪句話表示需要進一步教學？",
+      "options": [
+        [
+          "A",
+          "I will report signs of infection.",
+          "我會回報感染徵象。"
+        ],
+        [
+          "B",
+          "I should stop the medication suddenly when I feel better.",
+          "我覺得好些時應突然停藥。"
+        ],
+        [
+          "C",
+          "My blood glucose may be affected.",
+          "我的血糖可能受影響。"
+        ],
+        [
+          "D",
+          "I will take it as prescribed.",
+          "我會按處方服用。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Steroids should not be stopped abruptly without provider guidance due to adrenal suppression risk.",
+      "rationale_zh": "類固醇不應未經指示突然停用，因有腎上腺抑制風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "english_wording"
+      ]
+    },
+    {
+      "id": "PH007",
+      "category": "pharmacology",
+      "stem": "A client with diabetes is prescribed insulin lispro. Which timing instruction is most appropriate?",
+      "stem_zh": "糖尿病病人使用 insulin lispro。哪項時間指導最合適？",
+      "options": [
+        [
+          "A",
+          "Take it shortly before eating.",
+          "接近進餐前使用。"
+        ],
+        [
+          "B",
+          "Take it only at bedtime.",
+          "只在睡前使用。"
+        ],
+        [
+          "C",
+          "Take it after skipping a meal.",
+          "跳餐後使用。"
+        ],
+        [
+          "D",
+          "Take it once a week.",
+          "每週一次使用。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Rapid-acting insulin is usually administered close to mealtime to reduce hypoglycemia risk.",
+      "rationale_zh": "速效胰島素通常接近進餐時間使用，以降低低血糖風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "S003",
+      "category": "safety_infection",
+      "stem": "Which client should be placed near the nurses' station for safety?",
+      "stem_zh": "哪位病人基於安全考量應安排靠近護理站？",
+      "options": [
+        [
+          "A",
+          "A confused client who repeatedly tries to get out of bed.",
+          "混亂且反覆嘗試下床的病人。"
+        ],
+        [
+          "B",
+          "A stable client waiting for discharge paperwork.",
+          "穩定等待出院文件的病人。"
+        ],
+        [
+          "C",
+          "A client requesting a private room for rest.",
+          "要求單人房休息的病人。"
+        ],
+        [
+          "D",
+          "A client with mild seasonal allergies.",
+          "輕微季節性過敏病人。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Confusion and repeated attempts to get out of bed increase fall risk and require safety planning.",
+      "rationale_zh": "混亂且反覆下床增加跌倒風險，需要安全安排。",
+      "wrong_tags": [
+        "safety_infection",
+        "cue_recognition"
+      ]
+    },
+    {
+      "id": "S004",
+      "category": "safety_infection",
+      "stem": "A client with C. difficile infection is admitted. Which precaution is most appropriate?",
+      "stem_zh": "C. difficile 感染病人入院。最合適的防護措施是？",
+      "options": [
+        [
+          "A",
+          "Contact precautions and handwashing with soap and water.",
+          "接觸隔離並用肥皂和水洗手。"
+        ],
+        [
+          "B",
+          "Airborne precautions only.",
+          "僅空氣隔離。"
+        ],
+        [
+          "C",
+          "No special precautions.",
+          "無需特別防護。"
+        ],
+        [
+          "D",
+          "Use alcohol hand rub only after care.",
+          "照護後只用酒精乾洗手。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "C. difficile requires contact precautions; soap and water are important because spores are not reliably removed by alcohol hand rub alone.",
+      "rationale_zh": "C. difficile 需接觸隔離；孢子不能單靠酒精乾洗手可靠去除，肥皂水洗手重要。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "S005",
+      "category": "safety_infection",
+      "stem": "Which action reduces aspiration risk for a client receiving enteral feeding?",
+      "stem_zh": "哪項措施可降低管灌病人誤吸風險？",
+      "options": [
+        [
+          "A",
+          "Keep the head of bed elevated as prescribed.",
+          "按規定抬高床頭。"
+        ],
+        [
+          "B",
+          "Place the client flat after feeding.",
+          "餵食後讓病人平躺。"
+        ],
+        [
+          "C",
+          "Give all medications rapidly together.",
+          "所有藥物快速一起給。"
+        ],
+        [
+          "D",
+          "Ignore coughing during feeding.",
+          "餵食中咳嗽不需理會。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Elevating the head of bed helps reduce aspiration risk during enteral feeding.",
+      "rationale_zh": "抬高床頭有助於降低管灌時誤吸風險。",
+      "wrong_tags": [
+        "safety_infection",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "MC003",
+      "category": "maternal_child",
+      "stem": "Which newborn finding requires immediate follow-up?",
+      "stem_zh": "下列哪個新生兒發現需要立即追蹤？",
+      "options": [
+        [
+          "A",
+          "Acrocyanosis shortly after birth.",
+          "出生後短時間四肢末端發紺。"
+        ],
+        [
+          "B",
+          "Respiratory grunting and nasal flaring.",
+          "呼吸呻吟與鼻翼煽動。"
+        ],
+        [
+          "C",
+          "Sleeping between feedings.",
+          "兩次餵奶間睡覺。"
+        ],
+        [
+          "D",
+          "Passing meconium in the first day.",
+          "第一天排胎便。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Grunting and nasal flaring indicate respiratory distress and require immediate assessment.",
+      "rationale_zh": "呼吸呻吟與鼻翼煽動提示呼吸窘迫，需要立即評估。",
+      "wrong_tags": [
+        "maternal_child",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "MC004",
+      "category": "maternal_child",
+      "stem": "A pregnant client reports decreased fetal movement. What should the nurse do?",
+      "stem_zh": "孕婦回報胎動減少。護理師應怎麼做？",
+      "options": [
+        [
+          "A",
+          "Tell the client this is always normal near term.",
+          "告訴病人臨近足月這一定正常。"
+        ],
+        [
+          "B",
+          "Advise prompt evaluation according to protocol.",
+          "按流程建議及時評估。"
+        ],
+        [
+          "C",
+          "Suggest waiting one week.",
+          "建議等一週。"
+        ],
+        [
+          "D",
+          "Document without follow-up.",
+          "記錄但不追蹤。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Decreased fetal movement may indicate fetal well-being concern and requires timely evaluation.",
+      "rationale_zh": "胎動減少可能提示胎兒狀況問題，需要及時評估。",
+      "wrong_tags": [
+        "maternal_child",
+        "safety_infection",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "MH003",
+      "category": "therapeutic_communication",
+      "stem": "A client is crying after receiving a serious diagnosis. Which response is most therapeutic?",
+      "stem_zh": "病人收到嚴重診斷後哭泣。哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "You should be strong for your family.",
+          "你應該為家人堅強。"
+        ],
+        [
+          "B",
+          "At least treatment is available.",
+          "至少還有治療。"
+        ],
+        [
+          "C",
+          "This is a lot to take in. I can sit with you for a moment.",
+          "這確實很難承受，我可以陪你坐一會兒。"
+        ],
+        [
+          "D",
+          "Let's talk about your insurance forms.",
+          "我們談談你的保險表格。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response acknowledges emotion and offers presence without false reassurance or changing the subject.",
+      "rationale_zh": "此回應承認情緒並提供陪伴，沒有虛假安慰或轉移話題。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ]
+    },
+    {
+      "id": "MH004",
+      "category": "therapeutic_communication",
+      "stem": "A client with mania is pacing and speaking rapidly. Which nursing approach is best?",
+      "stem_zh": "躁症病人來回踱步、語速很快。最佳護理方式是？",
+      "options": [
+        [
+          "A",
+          "Use long detailed explanations.",
+          "使用很長很詳細的解釋。"
+        ],
+        [
+          "B",
+          "Provide a calm environment and brief clear directions.",
+          "提供安靜環境與簡短清楚指令。"
+        ],
+        [
+          "C",
+          "Encourage a large stimulating group activity.",
+          "鼓勵參加大型刺激性團體活動。"
+        ],
+        [
+          "D",
+          "Argue until the client sits down.",
+          "爭辯直到病人坐下。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A calm, low-stimulation environment and brief directions support safety and communication.",
+      "rationale_zh": "安靜低刺激環境與簡短指令有助於安全與溝通。",
+      "wrong_tags": [
+        "therapeutic_communication",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "NGN003",
+      "category": "ngn",
+      "stem": "Which cues suggest possible sepsis? Select all that apply.",
+      "stem_zh": "哪些線索提示可能敗血症？可多選。",
+      "case": "An older adult with a urinary tract infection is newly confused. Temperature is 38.9 C, heart rate 122/min, blood pressure 88/54 mmHg and respirations 26/min.",
+      "case_zh": "泌尿道感染的老年病人新發混亂。體溫 38.9 C、心率 122/分、血壓 88/54 mmHg、呼吸 26/分。",
+      "options": [
+        [
+          "A",
+          "New confusion",
+          "新發混亂"
+        ],
+        [
+          "B",
+          "Temperature 38.9 C",
+          "體溫 38.9 C"
+        ],
+        [
+          "C",
+          "Heart rate 122/min",
+          "心率 122/分"
+        ],
+        [
+          "D",
+          "Blood pressure 88/54 mmHg",
+          "血壓 88/54 mmHg"
+        ]
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "rationale": "Infection with mental status change, fever, tachycardia and hypotension is concerning for sepsis and poor perfusion.",
+      "rationale_zh": "感染合併意識變化、發燒、心動過速與低血壓提示敗血症與灌流不良風險。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "NGN004",
+      "category": "ngn",
+      "stem": "Which actions are appropriate first-line nursing actions? Select all that apply.",
+      "stem_zh": "哪些屬於合適的第一線護理行動？可多選。",
+      "case": "A client with asthma is wheezing, speaking in short phrases and has oxygen saturation 90%.",
+      "case_zh": "哮喘病人喘鳴，只能短句說話，血氧 90%。",
+      "options": [
+        [
+          "A",
+          "Position the client upright.",
+          "讓病人採直立坐姿。"
+        ],
+        [
+          "B",
+          "Assess respiratory status.",
+          "評估呼吸狀態。"
+        ],
+        [
+          "C",
+          "Delay care until discharge teaching is complete.",
+          "延後處理直到完成出院教學。"
+        ],
+        [
+          "D",
+          "Administer prescribed rescue medication per protocol.",
+          "按醫囑/流程給予急救藥物。"
+        ]
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "rationale": "Respiratory distress requires positioning, assessment and prescribed/protocol treatment. Teaching is not first priority during distress.",
+      "rationale_zh": "呼吸窘迫需體位、評估與按醫囑/流程處理；教學不是此刻優先。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ]
+    },
+    {
+      "id": "E003",
+      "category": "english_wording",
+      "stem": "The phrase 'expected finding' in a question usually asks the learner to identify:",
+      "stem_zh": "題目中的 expected finding 通常要求考生辨識：",
+      "options": [
+        [
+          "A",
+          "A normal or anticipated finding for the condition or treatment.",
+          "對該情況或治療而言正常/可預期的發現。"
+        ],
+        [
+          "B",
+          "The most dangerous finding.",
+          "最危險的發現。"
+        ],
+        [
+          "C",
+          "The finding that requires immediate provider notification.",
+          "需立即通知醫師/團隊的發現。"
+        ],
+        [
+          "D",
+          "The finding the family expects.",
+          "家屬期待的發現。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Expected finding means anticipated or consistent with the condition/treatment, not necessarily urgent.",
+      "rationale_zh": "Expected finding 表示與情況/治療一致或可預期，不一定緊急。",
+      "wrong_tags": [
+        "english_wording"
+      ]
+    },
+    {
+      "id": "E004",
+      "category": "english_wording",
+      "stem": "When a question asks for the 'best' response, the learner should choose the option that is:",
+      "stem_zh": "當題目問 best response 時，考生應選：",
+      "options": [
+        [
+          "A",
+          "Always the longest option.",
+          "永遠最長的選項。"
+        ],
+        [
+          "B",
+          "The safest and most therapeutic in the given context.",
+          "該情境中最安全且最具治療性的選項。"
+        ],
+        [
+          "C",
+          "The option with the most medical terms.",
+          "醫學術語最多的選項。"
+        ],
+        [
+          "D",
+          "The option that gives personal advice.",
+          "提供個人建議的選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Best asks for the most appropriate response in context, often combining safety and therapeutic communication.",
+      "rationale_zh": "Best 問的是情境中最合適的回應，常結合安全與治療性溝通。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ]
+    },
+    {
+      "id": "OS002",
+      "category": "osce_transition",
+      "stem": "Which sentence best demonstrates patient identification before a procedure?",
+      "stem_zh": "哪句話最能展現操作前確認病人身份？",
+      "options": [
+        [
+          "A",
+          "You look like the right patient.",
+          "你看起來像是正確的病人。"
+        ],
+        [
+          "B",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期。"
+        ],
+        [
+          "C",
+          "Your family says you are the patient.",
+          "你的家人說你就是這位病人。"
+        ],
+        [
+          "D",
+          "The room number matches, so we can start.",
+          "房號一致，所以可以開始。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Using two identifiers such as full name and date of birth supports patient safety before procedures.",
+      "rationale_zh": "使用全名與出生日期等兩項身份識別有助於操作前病人安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "OS003",
+      "category": "osce_transition",
+      "stem": "Which phrase is best when explaining hand hygiene to a patient?",
+      "stem_zh": "向病人解釋手部衛生時，哪句話最合適？",
+      "options": [
+        [
+          "A",
+          "I wash my hands because the rules say so.",
+          "我洗手只是因為規定如此。"
+        ],
+        [
+          "B",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ],
+        [
+          "C",
+          "It probably does not matter.",
+          "這大概不重要。"
+        ],
+        [
+          "D",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The phrase is clear, respectful and links the action to infection risk reduction.",
+      "rationale_zh": "此句清楚、尊重，並把行動連到降低感染風險。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "T002",
+      "category": "test_strategy",
+      "stem": "A learner's wrong-answer log shows repeated 'English wording' mistakes. Which action is most useful?",
+      "stem_zh": "學員錯題紀錄反覆出現 English wording 錯誤。哪項最有用？",
+      "options": [
+        [
+          "A",
+          "Ignore the wording and do more random questions only.",
+          "忽略題幹，只多做隨機題。"
+        ],
+        [
+          "B",
+          "Build a list of command phrases such as first, priority, follow-up and further teaching.",
+          "建立 first、priority、follow-up、further teaching 等指令詞清單。"
+        ],
+        [
+          "C",
+          "Stop reading rationales.",
+          "停止看解析。"
+        ],
+        [
+          "D",
+          "Translate every word slowly during timed practice.",
+          "限時練習時逐字慢慢翻譯。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Repeated wording mistakes need targeted command-phrase training, not only more random practice.",
+      "rationale_zh": "反覆題幹理解錯誤需要針對指令詞訓練，而不只是多做隨機題。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ]
+    },
+    {
+      "id": "T003",
+      "category": "test_strategy",
+      "stem": "Which study behavior is most likely to improve clinical judgment consistency?",
+      "stem_zh": "哪種學習行為最可能提升臨床判斷穩定性？",
+      "options": [
+        [
+          "A",
+          "Tagging every missed question by error type.",
+          "按錯因標記每一道錯題。"
+        ],
+        [
+          "B",
+          "Only counting how many questions were completed.",
+          "只計算完成題數。"
+        ],
+        [
+          "C",
+          "Changing resources every two days.",
+          "每兩天換一套資源。"
+        ],
+        [
+          "D",
+          "Skipping all rationales after correct answers.",
+          "答對後完全不看解析。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Error tagging reveals patterns and makes future review targeted.",
+      "rationale_zh": "錯因標記能揭示模式，讓後續複習更有針對性。",
+      "wrong_tags": [
+        "test_strategy"
+      ]
+    },
+    {
+      "id": "MIX001",
+      "category": "mixed_review",
+      "stem": "Which finding in a client with heart failure requires the most immediate follow-up?",
+      "stem_zh": "心衰病人下列哪個發現最需要立即追蹤？",
+      "options": [
+        [
+          "A",
+          "Sudden weight gain and increasing shortness of breath.",
+          "體重突然增加且呼吸困難加重。"
+        ],
+        [
+          "B",
+          "Requests information about a low-sodium diet.",
+          "詢問低鈉飲食。"
+        ],
+        [
+          "C",
+          "Mild fatigue after physical therapy.",
+          "物理治療後輕微疲倦。"
+        ],
+        [
+          "D",
+          "Asks when family can visit.",
+          "詢問家屬何時可探視。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Sudden weight gain with worsening dyspnea suggests fluid overload and respiratory compromise.",
+      "rationale_zh": "體重突然增加合併呼吸困難加重提示液體負荷與呼吸風險。",
+      "wrong_tags": [
+        "cue_recognition",
+        "prioritization",
+        "knowledge_gap"
+      ]
+    },
+    {
+      "id": "MIX002",
+      "category": "mixed_review",
+      "stem": "Which client statement after stroke discharge teaching indicates understanding?",
+      "stem_zh": "中風出院教學後，病人哪句話表示理解？",
+      "options": [
+        [
+          "A",
+          "If one side of my face droops, I should seek emergency help.",
+          "如果一側臉下垂，我應尋求緊急協助。"
+        ],
+        [
+          "B",
+          "I should wait a few days if my speech becomes slurred.",
+          "如果說話含糊，我應等幾天。"
+        ],
+        [
+          "C",
+          "Weakness on one side is normal and never urgent.",
+          "單側無力很正常，永遠不緊急。"
+        ],
+        [
+          "D",
+          "I only need help if I have pain.",
+          "只有疼痛才需要求助。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Facial droop, slurred speech or unilateral weakness may signal stroke and require emergency response.",
+      "rationale_zh": "臉歪、語言含糊或單側無力可能提示中風，需要緊急處理。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "english_wording",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "MIX003",
+      "category": "mixed_review",
+      "stem": "A client with chronic kidney disease reports palpitations and weakness. Which lab value is most concerning?",
+      "stem_zh": "慢性腎病病人回報心悸和無力。哪個化驗值最令人擔心？",
+      "options": [
+        [
+          "A",
+          "Potassium 6.2 mEq/L.",
+          "鉀 6.2 mEq/L。"
+        ],
+        [
+          "B",
+          "Sodium 138 mEq/L.",
+          "鈉 138 mEq/L。"
+        ],
+        [
+          "C",
+          "Hemoglobin 12.8 g/dL.",
+          "血紅蛋白 12.8 g/dL。"
+        ],
+        [
+          "D",
+          "Calcium 9.4 mg/dL.",
+          "鈣 9.4 mg/dL。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Hyperkalemia can cause life-threatening dysrhythmias and is a priority concern.",
+      "rationale_zh": "高血鉀可造成危及生命的心律不整，是優先風險。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "cue_recognition",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "S006",
+      "category": "safety_infection",
+      "stem": "Which action is most important before transferring a client from bed to chair for the first time after surgery?",
+      "stem_zh": "術後第一次協助病人從床移到椅子前，哪項最重要？",
+      "options": [
+        [
+          "A",
+          "Assess dizziness and orthostatic tolerance.",
+          "評估頭暈與姿勢耐受。"
+        ],
+        [
+          "B",
+          "Ask the family to lift the client quickly.",
+          "請家屬快速抱起病人。"
+        ],
+        [
+          "C",
+          "Remove all assistive devices.",
+          "移除所有輔助設備。"
+        ],
+        [
+          "D",
+          "Turn off the call bell.",
+          "關掉呼叫鈴。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "First transfer after surgery requires safety assessment to reduce fall and orthostatic risk.",
+      "rationale_zh": "術後第一次轉移需先做安全評估，以降低跌倒與姿勢性低血壓風險。",
+      "wrong_tags": [
+        "safety_infection",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "PH008",
+      "category": "pharmacology",
+      "stem": "Which client statement about nitroglycerin requires further teaching?",
+      "stem_zh": "關於 nitroglycerin，病人哪句話表示需要進一步教學？",
+      "options": [
+        [
+          "A",
+          "I will sit down before taking it.",
+          "服用前我會先坐下。"
+        ],
+        [
+          "B",
+          "I will keep it in the original dark container.",
+          "我會保存在原本的避光容器。"
+        ],
+        [
+          "C",
+          "I can take it with erectile dysfunction medication whenever needed.",
+          "需要時我可以和勃起功能障礙藥一起服用。"
+        ],
+        [
+          "D",
+          "I will seek emergency help if chest pain is not relieved as instructed.",
+          "若胸痛未按指示緩解，我會尋求緊急協助。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Nitroglycerin should not be combined with PDE-5 inhibitor erectile dysfunction medications due to severe hypotension risk.",
+      "rationale_zh": "Nitroglycerin 不應與 PDE-5 inhibitor 類勃起功能障礙藥合用，因可能造成嚴重低血壓。",
+      "wrong_tags": [
+        "knowledge_gap",
+        "english_wording",
+        "safety_infection"
+      ]
+    },
+    {
+      "id": "MH005",
+      "category": "therapeutic_communication",
+      "stem": "A client says, 'No one understands how scared I am before surgery.' Which response is most therapeutic?",
+      "stem_zh": "病人說：『沒有人理解我手術前有多害怕。』哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Everyone is scared before surgery.",
+          "每個人手術前都害怕。"
+        ],
+        [
+          "B",
+          "You should trust the surgeon.",
+          "你應該相信外科醫師。"
+        ],
+        [
+          "C",
+          "Tell me what worries you the most right now.",
+          "告訴我你現在最擔心的是什麼。"
+        ],
+        [
+          "D",
+          "Let's not think about fear.",
+          "我們不要想害怕這件事。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Open-ended exploration acknowledges fear and invites expression.",
+      "rationale_zh": "開放式探索承認恐懼並鼓勵表達。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ]
+    },
+    {
+      "id": "AUTO30_001",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a postoperative client with new shortness of breath and oxygen saturation 88%. What should the nurse do first?",
+      "stem_zh": "護理師照護一位術後病人，出現新發呼吸困難且血氧 88%。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Assess respiratory status and escalate care.",
+          "評估呼吸狀態並升級處理。"
+        ],
+        [
+          "B",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "New dyspnea with low oxygen saturation is an immediate breathing concern.",
+      "rationale_zh": "新發呼吸困難合併低血氧是立即的 breathing 風險。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_002",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin needs nursing follow-up related to black stools. Which action is most appropriate?",
+      "stem_zh": "使用 warfarin 的病人因黑便需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Assess for bleeding and review anticoagulation instructions.",
+          "評估出血並複核抗凝相關指示。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Black stools may indicate gastrointestinal bleeding.",
+      "rationale_zh": "黑便可能提示胃腸道出血。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_003",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for confused client trying to climb out of bed when the issue is least restrictive fall-prevention measures?",
+      "stem_zh": "當問題是限制最少的防跌措施時，對於混亂且試圖下床病人哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Assess causes and implement least restrictive safety measures.",
+          "評估原因並採取限制最少的安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Fall prevention starts with assessment and least restrictive interventions.",
+      "rationale_zh": "防跌應從評估與限制最少的措施開始。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_004",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ],
+        [
+          "D",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_005",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "B",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_006",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_007",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with asthma has wheezing and speaking in short phrases. The care plan also includes negative-pressure room as available.",
+      "case_zh": "一位哮喘病人出現喘鳴且只能短句說話。照護計劃也包含可用時負壓房。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Assess and act on wheezing and speaking in short phrases; apply negative-pressure room as available if relevant.",
+          "評估並處理喘鳴且只能短句說話；如相關則採取可用時負壓房。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_008",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_009",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"further teaching\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「further teaching」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "a statement showing misunderstanding or unsafe practice",
+          "顯示誤解或不安全做法的陳述"
+        ],
+        [
+          "B",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The command phrase \"further teaching\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「further teaching」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_010",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with a tracheostomy with high-pitched noise and anxiety. What should the nurse do first?",
+      "stem_zh": "護理師照護一位氣切病人，出現高音調聲音與焦慮。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Assess airway patency.",
+          "評估呼吸道通暢。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A high-pitched sound can signal airway obstruction.",
+      "rationale_zh": "高音調聲音可能提示呼吸道阻塞。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_011",
+      "category": "pharmacology",
+      "stem": "A client taking opioid analgesic needs nursing follow-up related to respiratory rate 8/min. Which action is most appropriate?",
+      "stem_zh": "使用 opioid analgesic 的病人因呼吸 8 次/分需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Assess sedation and respiratory status immediately.",
+          "立即評估鎮靜與呼吸狀態。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Respiratory depression is a priority opioid safety concern.",
+      "rationale_zh": "呼吸抑制是 opioid 的優先安全風險。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_012",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for seizure in bed when the issue is injury prevention and side positioning when possible?",
+      "stem_zh": "當問題是防傷並可行時側臥時，對於床上抽搐哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ],
+        [
+          "D",
+          "Protect from injury and support airway safety.",
+          "保護病人免受傷並支持 airway 安全。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Do not place objects in the mouth during a seizure.",
+      "rationale_zh": "抽搐時不要把物品放入口中。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_013",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "B",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_014",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_015",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_016",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client after thyroidectomy has tingling around the mouth and muscle twitching. The care plan also includes least restrictive fall-prevention measures.",
+      "case_zh": "一位甲狀腺切除後病人出現口周麻與肌肉抽動。照護計劃也包含限制最少的防跌措施。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ],
+        [
+          "D",
+          "Assess and act on tingling around the mouth and muscle twitching; apply least restrictive fall-prevention measures if relevant.",
+          "評估並處理口周麻與肌肉抽動；如相關則採取限制最少的防跌措施。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_017",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates consent before wound assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現傷口評估前徵求同意？",
+      "options": [
+        [
+          "A",
+          "I need to check your wound now; is that okay?",
+          "我現在需要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Permission and explanation support dignity and consent.",
+      "rationale_zh": "徵求同意與解釋有助尊嚴和同意。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_018",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_019",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client receiving anticoagulation with sudden severe headache and confusion. What should the nurse do first?",
+      "stem_zh": "護理師照護一位接受抗凝治療的病人，出現突然嚴重頭痛與混亂。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Assess for bleeding and notify the provider promptly.",
+          "評估出血並及時通知醫師/團隊。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Neurologic change during anticoagulation may indicate serious bleeding.",
+      "rationale_zh": "抗凝期間出現神經狀態變化可能提示嚴重出血。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_020",
+      "category": "pharmacology",
+      "stem": "A client taking nitroglycerin needs nursing follow-up related to use with erectile dysfunction medication. Which action is most appropriate?",
+      "stem_zh": "使用 nitroglycerin 的病人因與勃起功能障礙藥合用需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ],
+        [
+          "D",
+          "Teach that this combination can cause severe hypotension.",
+          "教導此組合可能造成嚴重低血壓。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Nitroglycerin and PDE-5 inhibitors can create dangerous hypotension.",
+      "rationale_zh": "Nitroglycerin 與 PDE-5 inhibitor 可造成危險低血壓。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_021",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for home oxygen when the issue is open flame nearby?",
+      "stem_zh": "當問題是附近有明火時，對於居家氧氣哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Keep oxygen away from flames and heat sources.",
+          "讓氧氣遠離火源與熱源。"
+        ],
+        [
+          "B",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Oxygen supports combustion and creates fire risk.",
+      "rationale_zh": "氧氣助燃並帶來火災風險。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_022",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_023",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_024",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ],
+        [
+          "D",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_025",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with chest pressure has diaphoresis and nausea. The care plan also includes injury prevention and side positioning when possible.",
+      "case_zh": "一位胸部壓迫感病人出現出汗與噁心。照護計劃也包含防傷並可行時側臥。",
+      "options": [
+        [
+          "A",
+          "Assess and act on diaphoresis and nausea; apply injury prevention and side positioning when possible if relevant.",
+          "評估並處理出汗與噁心；如相關則採取防傷並可行時側臥。"
+        ],
+        [
+          "B",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_026",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates patient identification in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現病人身份確認？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期？"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Two identifiers support safety before care.",
+      "rationale_zh": "兩項身份識別有助照護前安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_027",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"expected finding\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「expected finding」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a finding consistent with the condition or treatment",
+          "與情況或治療相符的發現"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"expected finding\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「expected finding」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_028",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client receiving a blood transfusion with chills, fever and back pain. What should the nurse do first?",
+      "stem_zh": "護理師照護一位輸血中病人，出現寒顫、發燒與背痛。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ],
+        [
+          "D",
+          "Stop the transfusion and follow reaction protocol.",
+          "停止輸血並按輸血反應流程處理。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "These findings may indicate a transfusion reaction.",
+      "rationale_zh": "這些發現可能提示輸血反應。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_029",
+      "category": "pharmacology",
+      "stem": "A client taking gentamicin needs nursing follow-up related to ringing in ears. Which action is most appropriate?",
+      "stem_zh": "使用 gentamicin 的病人因耳鳴需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Report possible ototoxicity promptly.",
+          "及時回報可能耳毒性。"
+        ],
+        [
+          "B",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Aminoglycosides may be associated with ototoxicity.",
+      "rationale_zh": "Aminoglycoside 可能與耳毒性相關。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_030",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for enteral feeding when the issue is aspiration prevention?",
+      "stem_zh": "當問題是預防誤吸時，對於管灌哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Keep the head of bed elevated as prescribed.",
+          "按規定抬高床頭。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Head elevation helps reduce aspiration risk.",
+      "rationale_zh": "抬高床頭有助降低誤吸風險。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_031",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_032",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ],
+        [
+          "D",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_033",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "B",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_034",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with diabetes has confusion, sweating and trembling. The care plan also includes open flame nearby.",
+      "case_zh": "一位糖尿病病人出現混亂、出汗與顫抖。照護計劃也包含附近有明火。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Assess and act on confusion, sweating and trembling; apply open flame nearby if relevant.",
+          "評估並處理混亂、出汗與顫抖；如相關則採取附近有明火。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_035",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates hand hygiene explanation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現手部衛生解釋？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The explanation links the action to patient safety.",
+      "rationale_zh": "此解釋將行動與病人安全連結。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_036",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"requires follow-up\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「requires follow-up」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "an abnormal or unsafe finding that needs further action",
+          "需要進一步行動的異常或不安全發現"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"requires follow-up\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「requires follow-up」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_037",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with possible stroke with new facial droop and slurred speech. What should the nurse do first?",
+      "stem_zh": "護理師照護一位疑似中風病人，出現新發臉歪與言語含糊。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Note time of onset and activate stroke protocol.",
+          "記錄發作時間並啟動中風流程。"
+        ],
+        [
+          "B",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Stroke symptoms require rapid time-sensitive response.",
+      "rationale_zh": "中風症狀需要快速且有時間敏感性的處理。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_038",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin needs nursing follow-up related to black stools. Which action is most appropriate?",
+      "stem_zh": "使用 warfarin 的病人因黑便需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Assess for bleeding and review anticoagulation instructions.",
+          "評估出血並複核抗凝相關指示。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Black stools may indicate gastrointestinal bleeding.",
+      "rationale_zh": "黑便可能提示胃腸道出血。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_039",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for needlestick injury when the issue is exposure response?",
+      "stem_zh": "當問題是暴露處理時，對於針刺傷哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Wash the area and report immediately according to protocol.",
+          "清洗部位並立即按流程報告。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Occupational exposure requires prompt reporting and protocol-based follow-up.",
+      "rationale_zh": "職業暴露需要及時報告與按流程追蹤。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_040",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ],
+        [
+          "D",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_041",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "B",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_042",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_043",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with infection has new confusion, fever and blood pressure 86/52. The care plan also includes aspiration prevention.",
+      "case_zh": "一位感染病人出現新發混亂、發燒且血壓 86/52。照護計劃也包含預防誤吸。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Assess and act on new confusion, fever and blood pressure 86/52; apply aspiration prevention if relevant.",
+          "評估並處理新發混亂、發燒且血壓 86/52；如相關則採取預防誤吸。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_044",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates SBAR escalation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現SBAR 升級通報？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "The blood pressure is 88/54 and heart rate is 122.",
+          "血壓 88/54，心率 122。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Objective data makes escalation clearer.",
+      "rationale_zh": "客觀資料讓升級通報更清楚。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_045",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"best response\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「best response」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the response that is safest and most therapeutic in context",
+          "該情境中最安全且最具治療性的回應"
+        ],
+        [
+          "B",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The command phrase \"best response\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「best response」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_046",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with COPD with increasing work of breathing and restlessness. What should the nurse do first?",
+      "stem_zh": "護理師照護一位COPD 病人，出現呼吸做功增加且不安。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Assess respiratory status first.",
+          "先評估呼吸狀態。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Restlessness can be a cue of hypoxia or distress.",
+      "rationale_zh": "不安可能是低氧或窘迫的線索。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_047",
+      "category": "pharmacology",
+      "stem": "A client taking opioid analgesic needs nursing follow-up related to respiratory rate 8/min. Which action is most appropriate?",
+      "stem_zh": "使用 opioid analgesic 的病人因呼吸 8 次/分需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Assess sedation and respiratory status immediately.",
+          "立即評估鎮靜與呼吸狀態。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Respiratory depression is a priority opioid safety concern.",
+      "rationale_zh": "呼吸抑制是 opioid 的優先安全風險。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_048",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for pressure injury prevention when the issue is immobility?",
+      "stem_zh": "當問題是不能活動時，對於壓傷預防哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ],
+        [
+          "D",
+          "Reposition regularly and protect skin integrity.",
+          "定期翻身並保護皮膚完整性。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Regular repositioning reduces prolonged pressure.",
+      "rationale_zh": "定期翻身可減少長時間受壓。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_049",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "B",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_050",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_051",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_052",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with chronic kidney disease has palpitations and potassium 6.3 mEq/L. The care plan also includes exposure response.",
+      "case_zh": "一位慢性腎病病人出現心悸且鉀 6.3 mEq/L。照護計劃也包含暴露處理。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ],
+        [
+          "D",
+          "Assess and act on palpitations and potassium 6.3 mEq/L; apply exposure response if relevant.",
+          "評估並處理心悸且鉀 6.3 mEq/L；如相關則採取暴露處理。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_053",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_054",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"further teaching\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「further teaching」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "a statement showing misunderstanding or unsafe practice",
+          "顯示誤解或不安全做法的陳述"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The command phrase \"further teaching\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「further teaching」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_055",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with asthma with wheezing and speaking in short phrases. What should the nurse do first?",
+      "stem_zh": "護理師照護一位哮喘病人，出現喘鳴且只能短句說話。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Assess breathing and administer prescribed rescue therapy per protocol.",
+          "評估呼吸並按醫囑/流程給予急救治療。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Short phrases and wheezing indicate respiratory distress.",
+      "rationale_zh": "只能短句說話與喘鳴提示呼吸窘迫。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_056",
+      "category": "pharmacology",
+      "stem": "A client taking nitroglycerin needs nursing follow-up related to use with erectile dysfunction medication. Which action is most appropriate?",
+      "stem_zh": "使用 nitroglycerin 的病人因與勃起功能障礙藥合用需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ],
+        [
+          "D",
+          "Teach that this combination can cause severe hypotension.",
+          "教導此組合可能造成嚴重低血壓。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Nitroglycerin and PDE-5 inhibitors can create dangerous hypotension.",
+      "rationale_zh": "Nitroglycerin 與 PDE-5 inhibitor 可造成危險低血壓。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_057",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for C. difficile infection when the issue is contact precautions and soap-and-water hand hygiene?",
+      "stem_zh": "當問題是接觸隔離與肥皂水洗手時，對於C. difficile 感染哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Use contact precautions and soap-and-water hand hygiene.",
+          "使用接觸隔離並用肥皂水洗手。"
+        ],
+        [
+          "B",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "C. difficile spores are not reliably removed by alcohol rub alone.",
+      "rationale_zh": "C. difficile 孢子不能可靠地只靠酒精乾洗手去除。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_058",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_059",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_060",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ],
+        [
+          "D",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_061",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with head injury has increasing drowsiness and vomiting. The care plan also includes immobility.",
+      "case_zh": "一位頭部外傷病人出現嗜睡加重與嘔吐。照護計劃也包含不能活動。",
+      "options": [
+        [
+          "A",
+          "Assess and act on increasing drowsiness and vomiting; apply immobility if relevant.",
+          "評估並處理嗜睡加重與嘔吐；如相關則採取不能活動。"
+        ],
+        [
+          "B",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_062",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates consent before wound assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現傷口評估前徵求同意？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I need to check your wound now; is that okay?",
+          "我現在需要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Permission and explanation support dignity and consent.",
+      "rationale_zh": "徵求同意與解釋有助尊嚴和同意。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_063",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_064",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client after thyroidectomy with tingling around the mouth and muscle twitching. What should the nurse do first?",
+      "stem_zh": "護理師照護一位甲狀腺切除後病人，出現口周麻與肌肉抽動。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ],
+        [
+          "D",
+          "Assess for hypocalcemia and maintain airway readiness.",
+          "評估低血鈣並保持 airway 準備。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Tingling and twitching can indicate hypocalcemia after thyroid surgery.",
+      "rationale_zh": "甲狀腺術後口周麻和抽動可能提示低血鈣。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_065",
+      "category": "pharmacology",
+      "stem": "A client taking gentamicin needs nursing follow-up related to ringing in ears. Which action is most appropriate?",
+      "stem_zh": "使用 gentamicin 的病人因耳鳴需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Report possible ototoxicity promptly.",
+          "及時回報可能耳毒性。"
+        ],
+        [
+          "B",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Aminoglycosides may be associated with ototoxicity.",
+      "rationale_zh": "Aminoglycoside 可能與耳毒性相關。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_066",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for airborne infection concern when the issue is negative-pressure room as available?",
+      "stem_zh": "當問題是可用時負壓房時，對於空氣傳播感染風險哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Place the client in airborne precautions according to protocol.",
+          "按流程安排空氣隔離。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Airborne precautions generally require special room ventilation.",
+      "rationale_zh": "空氣隔離通常需要特殊通風安排。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_067",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_068",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ],
+        [
+          "D",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_069",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "B",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_070",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client after a fall has new hip pain and external rotation of the leg. The care plan also includes contact precautions and soap-and-water hand hygiene.",
+      "case_zh": "一位跌倒後病人出現新發髖部疼痛且腿部外旋。照護計劃也包含接觸隔離與肥皂水洗手。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Assess and act on new hip pain and external rotation of the leg; apply contact precautions and soap-and-water hand hygiene if relevant.",
+          "評估並處理新發髖部疼痛且腿部外旋；如相關則採取接觸隔離與肥皂水洗手。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_071",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates patient identification in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現病人身份確認？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期？"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Two identifiers support safety before care.",
+      "rationale_zh": "兩項身份識別有助照護前安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_072",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"expected finding\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「expected finding」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "a finding consistent with the condition or treatment",
+          "與情況或治療相符的發現"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"expected finding\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「expected finding」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_073",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with chest pressure with diaphoresis and nausea. What should the nurse do first?",
+      "stem_zh": "護理師照護一位胸部壓迫感病人，出現出汗與噁心。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Assess cardiac status and obtain emergency help per protocol.",
+          "評估心臟狀態並按流程尋求緊急協助。"
+        ],
+        [
+          "B",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Chest pressure with diaphoresis and nausea may indicate acute coronary syndrome.",
+      "rationale_zh": "胸部壓迫感合併出汗和噁心可能提示急性冠脈綜合徵。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_074",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin needs nursing follow-up related to black stools. Which action is most appropriate?",
+      "stem_zh": "使用 warfarin 的病人因黑便需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Assess for bleeding and review anticoagulation instructions.",
+          "評估出血並複核抗凝相關指示。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Black stools may indicate gastrointestinal bleeding.",
+      "rationale_zh": "黑便可能提示胃腸道出血。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_075",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for confused client trying to climb out of bed when the issue is least restrictive fall-prevention measures?",
+      "stem_zh": "當問題是限制最少的防跌措施時，對於混亂且試圖下床病人哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Assess causes and implement least restrictive safety measures.",
+          "評估原因並採取限制最少的安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Fall prevention starts with assessment and least restrictive interventions.",
+      "rationale_zh": "防跌應從評估與限制最少的措施開始。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_076",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ],
+        [
+          "D",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_077",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "B",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_078",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_079",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with vomiting and diarrhea has dizziness and poor skin turgor. The care plan also includes negative-pressure room as available.",
+      "case_zh": "一位嘔吐腹瀉病人出現頭暈且皮膚彈性差。照護計劃也包含可用時負壓房。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Assess and act on dizziness and poor skin turgor; apply negative-pressure room as available if relevant.",
+          "評估並處理頭暈且皮膚彈性差；如相關則採取可用時負壓房。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_080",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates hand hygiene explanation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現手部衛生解釋？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The explanation links the action to patient safety.",
+      "rationale_zh": "此解釋將行動與病人安全連結。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_081",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"requires follow-up\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「requires follow-up」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "an abnormal or unsafe finding that needs further action",
+          "需要進一步行動的異常或不安全發現"
+        ],
+        [
+          "B",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The command phrase \"requires follow-up\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「requires follow-up」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_082",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with diabetes with confusion, sweating and trembling. What should the nurse do first?",
+      "stem_zh": "護理師照護一位糖尿病病人，出現混亂、出汗與顫抖。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Check the blood glucose level.",
+          "檢查血糖。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "These cues suggest possible hypoglycemia and require immediate assessment.",
+      "rationale_zh": "這些線索提示可能低血糖，需要立即評估。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_083",
+      "category": "pharmacology",
+      "stem": "A client taking opioid analgesic needs nursing follow-up related to respiratory rate 8/min. Which action is most appropriate?",
+      "stem_zh": "使用 opioid analgesic 的病人因呼吸 8 次/分需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Assess sedation and respiratory status immediately.",
+          "立即評估鎮靜與呼吸狀態。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Respiratory depression is a priority opioid safety concern.",
+      "rationale_zh": "呼吸抑制是 opioid 的優先安全風險。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_084",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for seizure in bed when the issue is injury prevention and side positioning when possible?",
+      "stem_zh": "當問題是防傷並可行時側臥時，對於床上抽搐哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ],
+        [
+          "D",
+          "Protect from injury and support airway safety.",
+          "保護病人免受傷並支持 airway 安全。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Do not place objects in the mouth during a seizure.",
+      "rationale_zh": "抽搐時不要把物品放入口中。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_085",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "B",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_086",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_087",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_088",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with abdominal pain has rigid abdomen and hypotension. The care plan also includes least restrictive fall-prevention measures.",
+      "case_zh": "一位腹痛病人出現腹部僵硬且低血壓。照護計劃也包含限制最少的防跌措施。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ],
+        [
+          "D",
+          "Assess and act on rigid abdomen and hypotension; apply least restrictive fall-prevention measures if relevant.",
+          "評估並處理腹部僵硬且低血壓；如相關則採取限制最少的防跌措施。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_089",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates SBAR escalation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現SBAR 升級通報？",
+      "options": [
+        [
+          "A",
+          "The blood pressure is 88/54 and heart rate is 122.",
+          "血壓 88/54，心率 122。"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Objective data makes escalation clearer.",
+      "rationale_zh": "客觀資料讓升級通報更清楚。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_090",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"best response\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「best response」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the response that is safest and most therapeutic in context",
+          "該情境中最安全且最具治療性的回應"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The command phrase \"best response\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「best response」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_091",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with infection with new confusion, fever and blood pressure 86/52. What should the nurse do first?",
+      "stem_zh": "護理師照護一位感染病人，出現新發混亂、發燒且血壓 86/52。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Assess perfusion and activate sepsis response per protocol.",
+          "評估灌流並按流程啟動敗血症處理。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Infection plus hypotension and mental-status change is concerning for sepsis.",
+      "rationale_zh": "感染合併低血壓和意識變化令人擔心敗血症。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_092",
+      "category": "pharmacology",
+      "stem": "A client taking nitroglycerin needs nursing follow-up related to use with erectile dysfunction medication. Which action is most appropriate?",
+      "stem_zh": "使用 nitroglycerin 的病人因與勃起功能障礙藥合用需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ],
+        [
+          "D",
+          "Teach that this combination can cause severe hypotension.",
+          "教導此組合可能造成嚴重低血壓。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Nitroglycerin and PDE-5 inhibitors can create dangerous hypotension.",
+      "rationale_zh": "Nitroglycerin 與 PDE-5 inhibitor 可造成危險低血壓。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_093",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for home oxygen when the issue is open flame nearby?",
+      "stem_zh": "當問題是附近有明火時，對於居家氧氣哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Keep oxygen away from flames and heat sources.",
+          "讓氧氣遠離火源與熱源。"
+        ],
+        [
+          "B",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Oxygen supports combustion and creates fire risk.",
+      "rationale_zh": "氧氣助燃並帶來火災風險。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_094",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_095",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_096",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ],
+        [
+          "D",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_097",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A postoperative client has new shortness of breath and oxygen saturation 88%. The care plan also includes injury prevention and side positioning when possible.",
+      "case_zh": "一位術後病人出現新發呼吸困難且血氧 88%。照護計劃也包含防傷並可行時側臥。",
+      "options": [
+        [
+          "A",
+          "Assess and act on new shortness of breath and oxygen saturation 88%; apply injury prevention and side positioning when possible if relevant.",
+          "評估並處理新發呼吸困難且血氧 88%；如相關則採取防傷並可行時側臥。"
+        ],
+        [
+          "B",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_098",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_099",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"further teaching\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「further teaching」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a statement showing misunderstanding or unsafe practice",
+          "顯示誤解或不安全做法的陳述"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"further teaching\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「further teaching」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_100",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with chronic kidney disease with palpitations and potassium 6.3 mEq/L. What should the nurse do first?",
+      "stem_zh": "護理師照護一位慢性腎病病人，出現心悸且鉀 6.3 mEq/L。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ],
+        [
+          "D",
+          "Place the client on cardiac monitoring and escalate care.",
+          "進行心電監測並升級處理。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Hyperkalemia can cause life-threatening dysrhythmias.",
+      "rationale_zh": "高血鉀可造成危及生命的心律不整。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_101",
+      "category": "pharmacology",
+      "stem": "A client taking gentamicin needs nursing follow-up related to ringing in ears. Which action is most appropriate?",
+      "stem_zh": "使用 gentamicin 的病人因耳鳴需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Report possible ototoxicity promptly.",
+          "及時回報可能耳毒性。"
+        ],
+        [
+          "B",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Aminoglycosides may be associated with ototoxicity.",
+      "rationale_zh": "Aminoglycoside 可能與耳毒性相關。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_102",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for enteral feeding when the issue is aspiration prevention?",
+      "stem_zh": "當問題是預防誤吸時，對於管灌哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Keep the head of bed elevated as prescribed.",
+          "按規定抬高床頭。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Head elevation helps reduce aspiration risk.",
+      "rationale_zh": "抬高床頭有助降低誤吸風險。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_103",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_104",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ],
+        [
+          "D",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_105",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "B",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_106",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with a tracheostomy has high-pitched noise and anxiety. The care plan also includes open flame nearby.",
+      "case_zh": "一位氣切病人出現高音調聲音與焦慮。照護計劃也包含附近有明火。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Assess and act on high-pitched noise and anxiety; apply open flame nearby if relevant.",
+          "評估並處理高音調聲音與焦慮；如相關則採取附近有明火。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_107",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates consent before wound assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現傷口評估前徵求同意？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "I need to check your wound now; is that okay?",
+          "我現在需要檢查你的傷口，可以嗎？"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Permission and explanation support dignity and consent.",
+      "rationale_zh": "徵求同意與解釋有助尊嚴和同意。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_108",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"priority action\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「priority action」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "the safest and most urgent nursing action now",
+          "此刻最安全且最緊急的護理行動"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"priority action\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「priority action」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_109",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with head injury with increasing drowsiness and vomiting. What should the nurse do first?",
+      "stem_zh": "護理師照護一位頭部外傷病人，出現嗜睡加重與嘔吐。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Assess neurologic status and escalate care.",
+          "評估神經狀態並升級處理。"
+        ],
+        [
+          "B",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Worsening neurologic cues after head injury may indicate increased intracranial pressure.",
+      "rationale_zh": "頭傷後神經線索惡化可能提示顱內壓升高。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_110",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin needs nursing follow-up related to black stools. Which action is most appropriate?",
+      "stem_zh": "使用 warfarin 的病人因黑便需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Assess for bleeding and review anticoagulation instructions.",
+          "評估出血並複核抗凝相關指示。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Black stools may indicate gastrointestinal bleeding.",
+      "rationale_zh": "黑便可能提示胃腸道出血。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_111",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for needlestick injury when the issue is exposure response?",
+      "stem_zh": "當問題是暴露處理時，對於針刺傷哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Wash the area and report immediately according to protocol.",
+          "清洗部位並立即按流程報告。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Occupational exposure requires prompt reporting and protocol-based follow-up.",
+      "rationale_zh": "職業暴露需要及時報告與按流程追蹤。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_112",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ],
+        [
+          "D",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_113",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "B",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_114",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_115",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client receiving anticoagulation has sudden severe headache and confusion. The care plan also includes aspiration prevention.",
+      "case_zh": "一位接受抗凝治療的病人出現突然嚴重頭痛與混亂。照護計劃也包含預防誤吸。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Assess and act on sudden severe headache and confusion; apply aspiration prevention if relevant.",
+          "評估並處理突然嚴重頭痛與混亂；如相關則採取預防誤吸。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_116",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates patient identification in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現病人身份確認？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "This is just paperwork.",
+          "這只是文書。"
+        ],
+        [
+          "D",
+          "Can you tell me your full name and date of birth?",
+          "請告訴我你的全名和出生日期？"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Two identifiers support safety before care.",
+      "rationale_zh": "兩項身份識別有助照護前安全。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_117",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"expected finding\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「expected finding」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "a finding consistent with the condition or treatment",
+          "與情況或治療相符的發現"
+        ],
+        [
+          "B",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The command phrase \"expected finding\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「expected finding」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_118",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client after a fall with new hip pain and external rotation of the leg. What should the nurse do first?",
+      "stem_zh": "護理師照護一位跌倒後病人，出現新發髖部疼痛且腿部外旋。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Keep the client still and assess neurovascular status.",
+          "保持病人不動並評估神經血管狀態。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The cues may indicate fracture; movement can worsen injury.",
+      "rationale_zh": "這些線索可能提示骨折，移動可能加重傷害。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_119",
+      "category": "pharmacology",
+      "stem": "A client taking opioid analgesic needs nursing follow-up related to respiratory rate 8/min. Which action is most appropriate?",
+      "stem_zh": "使用 opioid analgesic 的病人因呼吸 8 次/分需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Assess sedation and respiratory status immediately.",
+          "立即評估鎮靜與呼吸狀態。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Respiratory depression is a priority opioid safety concern.",
+      "rationale_zh": "呼吸抑制是 opioid 的優先安全風險。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_120",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for pressure injury prevention when the issue is immobility?",
+      "stem_zh": "當問題是不能活動時，對於壓傷預防哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ],
+        [
+          "D",
+          "Reposition regularly and protect skin integrity.",
+          "定期翻身並保護皮膚完整性。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Regular repositioning reduces prolonged pressure.",
+      "rationale_zh": "定期翻身可減少長時間受壓。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_121",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "B",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_122",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_123",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_124",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client receiving a blood transfusion has chills, fever and back pain. The care plan also includes exposure response.",
+      "case_zh": "一位輸血中病人出現寒顫、發燒與背痛。照護計劃也包含暴露處理。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "C",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ],
+        [
+          "D",
+          "Assess and act on chills, fever and back pain; apply exposure response if relevant.",
+          "評估並處理寒顫、發燒與背痛；如相關則採取暴露處理。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_125",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates hand hygiene explanation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現手部衛生解釋？",
+      "options": [
+        [
+          "A",
+          "I clean my hands before care to reduce infection risk.",
+          "我在照護前清潔雙手，以降低感染風險。"
+        ],
+        [
+          "B",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The explanation links the action to patient safety.",
+      "rationale_zh": "此解釋將行動與病人安全連結。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_126",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"requires follow-up\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「requires follow-up」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "an abnormal or unsafe finding that needs further action",
+          "需要進一步行動的異常或不安全發現"
+        ],
+        [
+          "C",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "The command phrase \"requires follow-up\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「requires follow-up」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_127",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with vomiting and diarrhea with dizziness and poor skin turgor. What should the nurse do first?",
+      "stem_zh": "護理師照護一位嘔吐腹瀉病人，出現頭暈且皮膚彈性差。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Assess hydration status and vital signs.",
+          "評估水合狀態與生命徵象。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Fluid loss can cause dehydration and perfusion problems.",
+      "rationale_zh": "體液流失可造成脫水和灌流問題。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_128",
+      "category": "pharmacology",
+      "stem": "A client taking nitroglycerin needs nursing follow-up related to use with erectile dysfunction medication. Which action is most appropriate?",
+      "stem_zh": "使用 nitroglycerin 的病人因與勃起功能障礙藥合用需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "C",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ],
+        [
+          "D",
+          "Teach that this combination can cause severe hypotension.",
+          "教導此組合可能造成嚴重低血壓。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Nitroglycerin and PDE-5 inhibitors can create dangerous hypotension.",
+      "rationale_zh": "Nitroglycerin 與 PDE-5 inhibitor 可造成危險低血壓。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_129",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for C. difficile infection when the issue is contact precautions and soap-and-water hand hygiene?",
+      "stem_zh": "當問題是接觸隔離與肥皂水洗手時，對於C. difficile 感染哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Use contact precautions and soap-and-water hand hygiene.",
+          "使用接觸隔離並用肥皂水洗手。"
+        ],
+        [
+          "B",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "C. difficile spores are not reliably removed by alcohol rub alone.",
+      "rationale_zh": "C. difficile 孢子不能可靠地只靠酒精乾洗手去除。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_130",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ],
+        [
+          "C",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_131",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_132",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "C",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ],
+        [
+          "D",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_133",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with possible stroke has new facial droop and slurred speech. The care plan also includes immobility.",
+      "case_zh": "一位疑似中風病人出現新發臉歪與言語含糊。照護計劃也包含不能活動。",
+      "options": [
+        [
+          "A",
+          "Assess and act on new facial droop and slurred speech; apply immobility if relevant.",
+          "評估並處理新發臉歪與言語含糊；如相關則採取不能活動。"
+        ],
+        [
+          "B",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_134",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates SBAR escalation in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現SBAR 升級通報？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "The blood pressure is 88/54 and heart rate is 122.",
+          "血壓 88/54，心率 122。"
+        ],
+        [
+          "C",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Objective data makes escalation clearer.",
+      "rationale_zh": "客觀資料讓升級通報更清楚。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_135",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"best response\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「best response」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "the response that is safest and most therapeutic in context",
+          "該情境中最安全且最具治療性的回應"
+        ],
+        [
+          "D",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "The command phrase \"best response\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「best response」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_136",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a client with abdominal pain with rigid abdomen and hypotension. What should the nurse do first?",
+      "stem_zh": "護理師照護一位腹痛病人，出現腹部僵硬且低血壓。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "B",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "C",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ],
+        [
+          "D",
+          "Assess circulation and escalate care immediately.",
+          "評估循環並立即升級處理。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Rigid abdomen with hypotension suggests acute instability.",
+      "rationale_zh": "腹部僵硬合併低血壓提示急性不穩定。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_137",
+      "category": "pharmacology",
+      "stem": "A client taking gentamicin needs nursing follow-up related to ringing in ears. Which action is most appropriate?",
+      "stem_zh": "使用 gentamicin 的病人因耳鳴需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Report possible ototoxicity promptly.",
+          "及時回報可能耳毒性。"
+        ],
+        [
+          "B",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Aminoglycosides may be associated with ototoxicity.",
+      "rationale_zh": "Aminoglycoside 可能與耳毒性相關。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_138",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for airborne infection concern when the issue is negative-pressure room as available?",
+      "stem_zh": "當問題是可用時負壓房時，對於空氣傳播感染風險哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Place the client in airborne precautions according to protocol.",
+          "按流程安排空氣隔離。"
+        ],
+        [
+          "C",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Airborne precautions generally require special room ventilation.",
+      "rationale_zh": "空氣隔離通常需要特殊通風安排。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_139",
+      "category": "maternal_child",
+      "stem": "A postpartum client has boggy uterus and heavy lochia. What is the best nursing response?",
+      "stem_zh": "一位產後病人出現子宮鬆軟且惡露多。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Assess the fundus and massage if atony is confirmed per protocol.",
+          "評估宮底，若確認 atony 則按流程按摩宮底。"
+        ],
+        [
+          "D",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Boggy uterus with heavy lochia suggests uterine atony and bleeding risk.",
+      "rationale_zh": "子宮鬆軟合併惡露多提示子宮收縮乏力與出血風險。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_140",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"No one listens to me.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「沒有人聽我說。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "B",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "C",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ],
+        [
+          "D",
+          "I can see this is frustrating. Tell me what happened.",
+          "我看得出這讓你很沮喪，告訴我發生了什麼。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Acknowledging feeling and inviting expression is therapeutic.",
+      "rationale_zh": "承認感受並邀請表達具有治療性。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_141",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of teaching a new insulin injection technique. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派教新的胰島素注射技巧。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Keep the teaching with the RN.",
+          "由 RN 保留教學。"
+        ],
+        [
+          "B",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "Initial teaching requires RN responsibility.",
+      "rationale_zh": "初始教學屬 RN 職責。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_142",
+      "category": "ngn",
+      "stem": "Which action best reflects clinical judgment in this mixed safety case?",
+      "stem_zh": "在這個混合安全情境中，哪項行動最能體現臨床判斷？",
+      "case": "A client with COPD has increasing work of breathing and restlessness. The care plan also includes contact precautions and soap-and-water hand hygiene.",
+      "case_zh": "一位COPD 病人出現呼吸做功增加且不安。照護計劃也包含接觸隔離與肥皂水洗手。",
+      "options": [
+        [
+          "A",
+          "Focus on nonurgent teaching first.",
+          "先做非緊急教學。"
+        ],
+        [
+          "B",
+          "Assess and act on increasing work of breathing and restlessness; apply contact precautions and soap-and-water hand hygiene if relevant.",
+          "評估並處理呼吸做功增加且不安；如相關則採取接觸隔離與肥皂水洗手。"
+        ],
+        [
+          "C",
+          "Ignore abnormal cues.",
+          "忽略異常線索。"
+        ],
+        [
+          "D",
+          "Choose the longest option without reasoning.",
+          "不推理，只選最長選項。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Clinical judgment requires recognizing urgent cues, prioritizing safety and applying the relevant protocol-sensitive intervention.",
+      "rationale_zh": "臨床判斷需要辨識緊急線索、排序安全風險，並採取相關且符合流程的干預。",
+      "wrong_tags": [
+        "ngn",
+        "cue_recognition",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_143",
+      "category": "osce_transition",
+      "stem": "Which phrase best demonstrates pain assessment in an OSCE-style interaction?",
+      "stem_zh": "在 OSCE 式互動中，哪句話最能展現疼痛評估？",
+      "options": [
+        [
+          "A",
+          "You do not need to know why.",
+          "你不需要知道原因。"
+        ],
+        [
+          "B",
+          "I will do this without explaining.",
+          "我不解釋就做。"
+        ],
+        [
+          "C",
+          "Can you rate your pain from 0 to 10?",
+          "請用 0 到 10 評分你的疼痛。"
+        ],
+        [
+          "D",
+          "This is just paperwork.",
+          "這只是文書。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "A clear pain scale supports focused assessment.",
+      "rationale_zh": "清楚的疼痛量表有助重點評估。",
+      "wrong_tags": [
+        "osce_transition",
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_144",
+      "category": "english_wording",
+      "stem": "In an NCLEX-style stem, the phrase \"further teaching\" most closely means:",
+      "stem_zh": "在 NCLEX 式題幹中，「further teaching」最接近的意思是：",
+      "options": [
+        [
+          "A",
+          "the answer with the most medical jargon",
+          "醫學術語最多的答案"
+        ],
+        [
+          "B",
+          "the answer preferred by family members",
+          "家屬偏好的答案"
+        ],
+        [
+          "C",
+          "a reason to stop reading the stem",
+          "停止閱讀題幹的理由"
+        ],
+        [
+          "D",
+          "a statement showing misunderstanding or unsafe practice",
+          "顯示誤解或不安全做法的陳述"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "The command phrase \"further teaching\" directs what kind of answer the learner should select.",
+      "rationale_zh": "指令詞「further teaching」會決定考生應選哪一類答案。",
+      "wrong_tags": [
+        "english_wording",
+        "test_strategy"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_145",
+      "category": "prioritization",
+      "stem": "The nurse is caring for a postoperative client with new shortness of breath and oxygen saturation 88%. What should the nurse do first?",
+      "stem_zh": "護理師照護一位術後病人，出現新發呼吸困難且血氧 88%。護理師應先做什麼？",
+      "options": [
+        [
+          "A",
+          "Assess respiratory status and escalate care.",
+          "評估呼吸狀態並升級處理。"
+        ],
+        [
+          "B",
+          "Document the finding and reassess at the end of the shift.",
+          "記錄該發現並在班末再評估。"
+        ],
+        [
+          "C",
+          "Provide routine discharge teaching.",
+          "提供例行出院教學。"
+        ],
+        [
+          "D",
+          "Ask family members what they prefer.",
+          "詢問家屬偏好。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "New dyspnea with low oxygen saturation is an immediate breathing concern.",
+      "rationale_zh": "新發呼吸困難合併低血氧是立即的 breathing 風險。",
+      "wrong_tags": [
+        "prioritization",
+        "cue_recognition"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_146",
+      "category": "pharmacology",
+      "stem": "A client taking warfarin needs nursing follow-up related to black stools. Which action is most appropriate?",
+      "stem_zh": "使用 warfarin 的病人因黑便需要護理追蹤。哪項行動最合適？",
+      "options": [
+        [
+          "A",
+          "Ignore the finding if the client feels well.",
+          "若病人感覺良好則忽略。"
+        ],
+        [
+          "B",
+          "Assess for bleeding and review anticoagulation instructions.",
+          "評估出血並複核抗凝相關指示。"
+        ],
+        [
+          "C",
+          "Give an extra dose without an order.",
+          "未經醫囑額外給藥。"
+        ],
+        [
+          "D",
+          "Teach that this is never clinically important.",
+          "教導這永遠不具臨床重要性。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Black stools may indicate gastrointestinal bleeding.",
+      "rationale_zh": "黑便可能提示胃腸道出血。",
+      "wrong_tags": [
+        "pharmacology",
+        "knowledge_gap"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_147",
+      "category": "safety_infection",
+      "stem": "Which nursing action is most appropriate for confused client trying to climb out of bed when the issue is least restrictive fall-prevention measures?",
+      "stem_zh": "當問題是限制最少的防跌措施時，對於混亂且試圖下床病人哪項護理行動最合適？",
+      "options": [
+        [
+          "A",
+          "Document only.",
+          "只記錄。"
+        ],
+        [
+          "B",
+          "Use no special safety measures.",
+          "不採取特別安全措施。"
+        ],
+        [
+          "C",
+          "Assess causes and implement least restrictive safety measures.",
+          "評估原因並採取限制最少的安全措施。"
+        ],
+        [
+          "D",
+          "Ask another patient to supervise.",
+          "請另一位病人監督。"
+        ]
+      ],
+      "answer": [
+        "C"
+      ],
+      "rationale": "Fall prevention starts with assessment and least restrictive interventions.",
+      "rationale_zh": "防跌應從評估與限制最少的措施開始。",
+      "wrong_tags": [
+        "safety_infection"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_148",
+      "category": "maternal_child",
+      "stem": "A newborn has jitteriness and poor feeding. What is the best nursing response?",
+      "stem_zh": "一位新生兒出現顫抖且餵食差。最佳護理反應是？",
+      "options": [
+        [
+          "A",
+          "Reassure that this is always expected.",
+          "安慰說這永遠是預期現象。"
+        ],
+        [
+          "B",
+          "Wait until the next routine check.",
+          "等到下一次例行檢查。"
+        ],
+        [
+          "C",
+          "Focus only on discharge paperwork.",
+          "只處理出院文件。"
+        ],
+        [
+          "D",
+          "Check blood glucose.",
+          "檢查血糖。"
+        ]
+      ],
+      "answer": [
+        "D"
+      ],
+      "rationale": "Jitteriness and poor feeding may indicate neonatal hypoglycemia.",
+      "rationale_zh": "顫抖和餵食差可能提示新生兒低血糖。",
+      "wrong_tags": [
+        "maternal_child",
+        "prioritization"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_149",
+      "category": "therapeutic_communication",
+      "stem": "A client says, \"I feel ashamed that I need help.\" Which response is most therapeutic?",
+      "stem_zh": "病人說：「我覺得需要幫助很丟臉。」哪個回應最具治療性？",
+      "options": [
+        [
+          "A",
+          "Many people need support during illness. What kind of help feels hardest to accept?",
+          "很多人在生病時需要支持。哪類幫助最讓你難接受？"
+        ],
+        [
+          "B",
+          "Do not worry about it.",
+          "不要擔心。"
+        ],
+        [
+          "C",
+          "Other people have worse problems.",
+          "其他人的問題更嚴重。"
+        ],
+        [
+          "D",
+          "You should not feel that way.",
+          "你不應該有這種感覺。"
+        ]
+      ],
+      "answer": [
+        "A"
+      ],
+      "rationale": "The response normalizes support and explores feelings.",
+      "rationale_zh": "此回應正常化支持並探索感受。",
+      "wrong_tags": [
+        "therapeutic_communication"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    },
+    {
+      "id": "AUTO30_150",
+      "category": "delegation_scope",
+      "stem": "The RN is considering delegation of care of a client with sudden respiratory distress. Which decision is safest?",
+      "stem_zh": "RN 正在考慮委派突然呼吸窘迫病人的照護。哪個決定最安全？",
+      "options": [
+        [
+          "A",
+          "Delegate without giving report parameters.",
+          "未提供回報標準直接委派。"
+        ],
+        [
+          "B",
+          "Assign to an RN for immediate assessment.",
+          "分配給 RN 立即評估。"
+        ],
+        [
+          "C",
+          "Ask the family to decide scope.",
+          "請家屬決定職責範圍。"
+        ],
+        [
+          "D",
+          "Assign based only on who is nearby.",
+          "只按誰離得近來分配。"
+        ]
+      ],
+      "answer": [
+        "B"
+      ],
+      "rationale": "Unstable respiratory status requires RN assessment.",
+      "rationale_zh": "不穩定呼吸狀態需要 RN 評估。",
+      "wrong_tags": [
+        "delegation_scope"
+      ],
+      "generated": true,
+      "review_status": "needs_nursing_review"
+    }
+  ]
+}

@@ -2718,15 +2718,15 @@ const insightsArticles = [
   },
   {
     slug: "overseas-supervision-nclex-rn-bilingual-study-companion-preview",
-    title: "Overseas Supervision Announces a Bilingual NCLEX-RN Study Companion and App Plan",
-    date: "2026-05-24",
+    title: "Overseas Supervision Opens Controlled Beta Review for a 500-Page NCLEX-RN Bilingual Study Companion",
+    date: "2026-05-25",
     category: "OTC News",
     column: "study",
-    kicker: "海外督導 · 新書預告 · NCLEX-RN",
+    kicker: "海外督導 · Beta Review · NCLEX-RN",
     author: "海外督導學習中心 / 留學導報編輯部",
-    summary: "Overseas Supervision is preparing an independent bilingual NCLEX-RN clinical judgment study companion and lightweight practice app for Chinese-speaking nurses exploring the Ahpra/NMBA Stream B route.",
-    titleZh: "海外督導新書預告：《NCLEX-RN 臨床判斷雙語備考指南》與配套練習 App 策劃啟動",
-    summaryZh: "海外督導學習中心與海外書局正在策劃一套面向華語護理背景考生的 NCLEX-RN 雙語教輔與輕量練習 App，重點服務正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 的台灣五專/專科護理背景讀者。",
+    summary: "Overseas Supervision has completed a 500-page working manuscript of an independent NCLEX-RN bilingual clinical judgment study companion and has moved the project into controlled beta review, with the public demo app already available.",
+    titleZh: "海外督導《NCLEX-RN 臨床判斷雙語備考指南》500頁工作稿完成，進入受控 Beta 審稿",
+    summaryZh: "海外督導學習中心與海外書局已完成《NCLEX-RN 臨床判斷雙語備考指南》500頁工作稿，項目正式進入受控 Beta 審稿階段；公開 Demo App 已開放讀者試用。",
     relatedReadings: [
       "nclex-rn-2026-stream-b-taiwan-nursing-prep",
       "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
@@ -2734,11 +2734,11 @@ const insightsArticles = [
     ],
     body: [
       {
-        heading: "1) A new bilingual learning product line",
+        heading: "1) From product plan to 500-page working manuscript",
         paragraphs: [
-          "Overseas Supervision and Overseas Publishing House are preparing an independent bilingual NCLEX-RN study companion for Chinese-speaking nurses who are exploring the Ahpra/NMBA Stream B route.",
-          "The planned product is not a large English question bank. It is a bilingual clinical-judgment companion designed to help readers understand the 2026 NCLEX-RN test plan, NGN item logic, prioritisation, delegation, therapeutic communication and the transition from NCLEX-RN to OSCE preparation.",
-          "The working title is NCLEX-RN Clinical Judgment Bilingual Study Companion: Stream B Route Edition."
+          "Overseas Supervision and Overseas Publishing House have moved the NCLEX-RN bilingual study companion project from planning into controlled beta review. The current working manuscript contains 33 manuscript sections and 470 structured page units, with an estimated print length of about 500 pages.",
+          "The project remains an independent educational resource for Chinese-speaking nurses and health-care learners exploring NCLEX-RN preparation within the wider Ahpra/NMBA Stream B context.",
+          "The working title is NCLEX-RN Clinical Judgment Bilingual Study Companion: Stream B Route Edition. The current release label is 500-Page Working Manuscript / Beta Review Edition, not final sale edition."
         ]
       },
       {
@@ -2750,44 +2750,53 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "3) Planned contents",
+        heading: "3) What is included in the beta review edition",
         paragraphs: [
-          "The first edition is planned as a digital-first bilingual workbook of roughly 120-180 pages, with a print-on-demand edition considered after the pilot release.",
-          "Planned chapters include: Stream B route map, 2026 NCLEX-RN test-plan interpretation, clinical judgment model, prioritisation, delegation, therapeutic communication, pharmacology language, NGN case-study reading, an 8-12 week study plan, ATT countdown planning and OSCE transition notes.",
-          "Practice material will be written independently by the editorial team and reviewed before release. It will not copy or adapt proprietary questions from UWorld, Archer, Kaplan, Saunders or any commercial QBank."
+          "The beta review edition includes route-map chapters, 2026 NCLEX-RN test-plan interpretation, clinical judgment method, prioritisation and delegation, NGN case-reading, pharmacology language, maternal-child safety, mental-health communication, infection control, OSCE transition notes, bilingual phrasebook material and a large structured practice compendium.",
+          "The manuscript is paired with an editorial index and a clinical-risk review queue. The review queue currently separates the internal 500-item pool into high, medium and low review priority so that nursing reviewers can examine higher-risk items first.",
+          "Practice material is written independently by the editorial team and is not copied or adapted from proprietary question banks such as UWorld, Archer, Kaplan, Saunders or other commercial products."
         ]
       },
       {
-        heading: "4) Companion app concept",
+        heading: "4) Public demo app is already open",
         paragraphs: [
-          "A lightweight web app is also being scoped as a companion tool rather than a full CAT simulator. The first version may include bilingual flashcards, original mini-drills, NGN cue-recognition exercises, wrong-answer categories and an ATT countdown planner.",
-          "The key feature is the wrong-answer log: knowledge gap, English wording, cue recognition, prioritisation, delegation/scope, safety and infection control. This helps learners see why they are missing questions rather than simply chasing a score.",
-          "The app will be designed for mobile use, but the first public version is expected to be a web app to keep development and updates manageable."
+          "The public demo app is already available. Readers can open the public entrance at <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> or directly open the trainer at <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>.",
+          "The demo uses a controlled low-risk public question set. It supports bilingual rationales, category filters, wrong-answer review, glossary support and a copyable weak-area summary for learners and tutors.",
+          "The full 500-item internal pool remains under clinical and compliance review. Higher-risk pharmacology, maternal-child, mental-health, safety and NGN items will not be promoted as a public full product until review is complete."
         ]
       },
       {
-        heading: "5) Compliance boundary",
+        heading: "5) Why the release is controlled",
         paragraphs: [
-          "This planned book and app will be independent educational resources. They will not be official NCSBN, Pearson VUE, Ahpra, NMBA or ANMAC materials, and they will not guarantee NCLEX-RN pass, OSCE pass, Australian registration, visa grant or employment outcome.",
-          "Every official process claim will be checked against current public sources. Candidates must follow their own Ahpra/NMBA dashboard, Pearson VUE instructions, ATT validity dates and official registration requirements.",
-          "The purpose is to support learning, terminology, planning and clinical-judgment practice, not to replace regulator guidance or professional advice."
+          "Clinical education publishing needs a slower release path than ordinary marketing content. The team has therefore prepared a beta review package rather than a final sale package.",
+          "Before final sale, the project requires RN / nursing educator review, official-source review, bilingual editorial review, compliance review and app-content alignment review.",
+          "The immediate public message is deliberately precise: the manuscript is substantial enough for beta review, the public demo is open, and the final commercial edition will wait for professional sign-off."
         ]
       },
       {
-        heading: "6) Invitation for early readers",
+        heading: "6) Compliance boundary",
         paragraphs: [
-          "Overseas Supervision is now collecting early reader interest from Taiwan-trained nurses, Chinese-speaking nursing graduates, health-community learners and families researching Australian RN routes.",
-          "Interested readers can subscribe to Overseas Study Review updates and watch for the pilot workbook, sample pages and first app demo. Early feedback will help decide whether the first release should prioritise Stream B route planning, NCLEX English, pharmacology vocabulary or NGN case practice."
+          "This book, app and question bank are independent educational resources. They are not official NCLEX, NCSBN, Pearson VUE, Ahpra, NMBA, ANMAC, Australian Government or migration-authority products.",
+          "They do not guarantee NCLEX-RN pass, OSCE pass, Ahpra/NMBA registration, ANMAC skills assessment, visa grant, course admission, employment or any other regulated outcome.",
+          "Learners must follow their own official regulator dashboard, Pearson VUE instructions, ATT validity dates, current candidate bulletin and professional advice where required."
+        ]
+      },
+      {
+        heading: "7) Invitation for beta readers and reviewers",
+        paragraphs: [
+          "Overseas Supervision is now collecting feedback from Taiwan-trained nurses, Chinese-speaking nursing graduates, health-community learners, tutors and qualified nursing reviewers.",
+          "Early readers can try the public demo, subscribe to Overseas Study Review updates and watch for selected sample pages. Professional reviewers should focus on clinical safety, source currency, bilingual clarity and whether any wording sounds too close to a guarantee or official instruction.",
+          "The goal is not simply to produce a long book. The goal is to build a safer bilingual learning system that helps Chinese-speaking learners understand the logic behind NCLEX-RN clinical judgment."
         ]
       }
     ],
     bodyZh: [
       {
-        heading: "一、海外督導啟動 NCLEX-RN 雙語教輔策劃",
+        heading: "一、從新書策劃推進到 500 頁工作稿",
         paragraphs: [
-          "海外督導學習中心與海外書局正在策劃一套面向華語護理背景考生的 NCLEX-RN 雙語教輔與輕量練習 App。這套產品主要服務正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 的讀者，尤其是台灣五專/專科護理背景、已具備臨床經驗但需要轉換英文考試語境的人。",
-          "這不是一套『大而全』英文題庫，也不是替代 UWorld、Archer、Kaplan 或 Saunders 的完整備考系統。它的定位是 bilingual clinical judgment companion：用中文講清考試邏輯，用英文保留核心護理術語，幫考生把官方規則、題幹語言、臨床判斷和澳洲 Stream B 路線放在同一張學習地圖上。",
-          "暫定書名為《NCLEX-RN 臨床判斷雙語備考指南：AHPRA Stream B 路線版》。"
+          "海外督導學習中心與海外書局已將 NCLEX-RN 雙語教輔項目從「新書策劃」推進到「受控 Beta 審稿」。目前工作稿包含 33 個章節檔與 470 個結構化 page units，估算印刷體量約 500 頁。",
+          "這套產品主要服務正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 的華語護理背景讀者，尤其是台灣五專/專科護理背景、已有臨床經驗但需要轉換英文考試語境的人。",
+          "本階段版本名稱建議使用：《NCLEX-RN 臨床判斷雙語備考指南：AHPRA Stream B 路線版》500-Page Working Manuscript / Beta Review Edition。它不是正式銷售版。"
         ]
       },
       {
@@ -2799,39 +2808,49 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "三、暫定內容架構",
+        heading: "三、Beta 審稿版包括什麼",
         paragraphs: [
-          "第一版計劃採用 digital-first workbook 形式，預計 120-180 頁，先做 PDF / Payhip 測試版，待內容、讀者反饋與版式穩定後，再考慮 KDP 或 print-on-demand 紙本版。",
-          "暫定章節包括：AHPRA Stream B / NCLEX-RN / OSCE 路線圖、2026 NCLEX-RN Test Plan 雙語解讀、Clinical Judgment Model、prioritization、delegation、therapeutic communication、pharmacology 高頻英文、NGN case study 讀題方法、8-12 週備考計劃、ATT 倒數表與 OSCE 銜接提示。",
-          "練習題將由編輯團隊獨立撰寫並安排審閱，不複製、不改寫 UWorld、Archer、Kaplan、Saunders 或任何商業題庫內容。"
+          "Beta 審稿版目前包括：AHPRA Stream B 路線圖、2026 NCLEX-RN Test Plan 雙語解讀、Clinical Judgment Model、prioritization、delegation、NGN case study 讀題方法、pharmacology 高頻英文、產兒安全、精神健康溝通、安全與感染控制、OSCE 銜接、雙語術語表與大型練習工作稿。",
+          "書稿同時配套 editorial index 與 clinical-risk review queue。審核隊列會把內部 500 題題池按 high / medium / low review priority 分層，方便 RN reviewer 先處理高風險題。",
+          "練習題由編輯團隊獨立撰寫並安排審閱，不複製、不改寫 UWorld、Archer、Kaplan、Saunders 或任何商業題庫內容。"
         ]
       },
       {
-        heading: "四、配套 App：不做大題庫，先做錯題診斷工具",
+        heading: "四、公開 Demo App 已可試用",
         paragraphs: [
-          "配套 App 初期不計劃做完整 CAT 模擬，而是做一個 mobile-friendly web app：雙語術語卡、原創 mini-drills、NGN cue-recognition 練習、錯題分類和 ATT countdown planner。",
-          "最重要的功能是錯題原因分類：knowledge gap、English wording、cue recognition、prioritization、delegation/scope、safety/infection control。很多考生刷題時只看分數，但不知道自己究竟是英文沒讀懂、線索沒抓到，還是優先順序錯了。",
-          "這個 App 的價值不是取代主流題庫，而是幫華語考生把每一次錯題變成可追蹤的學習診斷。"
+          "公開 Demo App 已經上線。讀者可從公開入口 <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> 進入，也可直接打開練習工具 <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>。",
+          "公開 Demo 採用受控低風險題池，支援雙語解析、分類篩選、錯題回看、關聯詞彙卡與可複製的弱項報告，適合讀者先試用學習設計。",
+          "完整 500 題內部題池仍處於臨床與合規審核階段。涉及藥理、產兒、精神健康、安全感染控制與 NGN 的高風險題，不會在完成審核前作為完整公開產品推廣。"
         ]
       },
       {
-        heading: "五、合規聲明",
+        heading: "五、為什麼採取受控發布",
         paragraphs: [
-          "本書與 App 將作為獨立教育輔助材料，不是 NCSBN、Pearson VUE、AHPRA、NMBA、ANMAC 或任何監管機構的官方材料，也不構成註冊、移民、就業、法律或財務建議。",
-          "本項目不承諾 NCLEX-RN 通過、不承諾 OSCE 通過、不承諾澳洲 RN 註冊、不承諾 ANMAC 職業評估、不承諾簽證或就業結果。",
-          "所有涉及官方流程的內容都會按公開來源核對。考生仍必須以自己的 Ahpra/NMBA dashboard、Pearson VUE 通知、ATT 有效日期和官方註冊標準為準。"
+          "臨床教育出版不同於普通市場文案，不能因為書稿體量足夠就直接作為正式銷售版推出。海外督導因此先建立 Beta Review Edition，而不是直接發布 Final Sale Edition。",
+          "正式銷售前，需要完成 RN / nursing educator 臨床審核、官方來源核對、雙語編輯審核、合規審核，以及 App 內容一致性審核。",
+          "現階段公開信息應保持精確：500 頁工作稿已完成，公開 Demo 可試用，正式商業版仍等待專業審核與簽署。"
         ]
       },
       {
-        heading: "六、徵集早期讀者與試讀反饋",
+        heading: "六、合規聲明",
         paragraphs: [
-          "海外督導現在開始徵集早期讀者意向。適合關注的人包括：台灣五專/專科護理背景考生、正在研究 AHPRA Stream B 的護理師、準備 NCLEX-RN 的華語考生、澳洲健康與社區服務方向學習者，以及正在為家人規劃 RN 路線的家庭。",
-          "後續將陸續發布樣章、術語表、8-12 週備考模板與 App demo。早期讀者的反饋將幫助我們判斷第一版應優先強化 Stream B 路線圖、NCLEX 英文、藥理詞彙，還是 NGN case practice。",
-          "讀者可先訂閱留學導報及 OTC 網站更新，等待試讀版與內測通知。"
+          "本書、App 與題庫均為獨立教育輔助材料，不是 NCLEX、NCSBN、Pearson VUE、AHPRA、NMBA、ANMAC、澳洲政府或任何移民/監管機構的官方產品。",
+          "本項目不承諾 NCLEX-RN 通過、不承諾 OSCE 通過、不承諾澳洲 RN 註冊、不承諾 ANMAC 職業評估、不承諾簽證、不承諾入學或就業結果。",
+          "學員仍應以自己的官方 regulator dashboard、Pearson VUE 通知、ATT 有效日期、最新 candidate bulletin 及必要時的專業建議為準。"
+        ]
+      },
+      {
+        heading: "七、徵集 Beta 讀者與專業審核意見",
+        paragraphs: [
+          "海外督導現在徵集台灣護理背景讀者、華語護理畢業生、健康與社區服務方向學習者、督導老師與合資格 nursing reviewer 的反饋。",
+          "讀者可先試用公開 Demo，訂閱留學導報及 OTC 網站更新，等待後續樣章與試讀通知。專業審核者則可重點查看臨床安全、來源時效、雙語清晰度，以及是否有任何表述過度接近保證或官方指令。",
+          "本項目的目標不是單純做一本很厚的書，而是建立一套更安全、更清楚、更適合華語護理背景讀者的 NCLEX-RN 雙語臨床判斷學習系統。"
         ]
       }
     ],
     resources: [
+      ["OTC — NCLEX-RN Bilingual Demo", "https://overseasuk.com/apps/nclex-rn-bilingual-demo/"],
+      ["OTC — NCLEX-RN Bilingual Trainer", "https://overseasuk.com/apps/nclex-rn-bilingual-trainer/"],
       ["NCLEX — 2026 RN Test Plan", "https://www.nclex.com/test-plans"],
       ["NCSBN — 2026 NCLEX Candidate Bulletin", "https://www.ncsbn.org/public-files/NCLEX_Examination_Candidate_Bulletin_April_2026.pdf"],
       ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
@@ -2839,9 +2858,10 @@ const insightsArticles = [
       ["OTC — Australia VET / TAFE Health & Community Services", "https://overseasuk.com/zh/australia-vet-tafe-pathways/health-community/"]
     ],
     notes: [
-      "New-book preview based on internal market study dated 2026-05-24.",
+      "Beta review announcement updated 2026-05-25.",
+      "The 500-page working manuscript is a controlled review edition, not final sale edition.",
       "Independent educational planning notice; not an official NCLEX, Ahpra, NMBA, ANMAC or Pearson VUE publication.",
-      "No pass, registration, visa or employment outcome is guaranteed."
+      "No pass, registration, visa, admission or employment outcome is guaranteed."
     ]
   },
   {
