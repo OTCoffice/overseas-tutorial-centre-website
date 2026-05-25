@@ -1816,6 +1816,118 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "study-melbourne-hub-victoria-student-support-official-resource",
+    title: "What Is Study Melbourne Hub? Official Student-Support Resources for Victoria-Bound Students",
+    date: "2026-05-25",
+    category: "Australia Study Pathways",
+    column: "settlement",
+    kicker: "Victoria · Study Melbourne · Student Support",
+    author: "留學導報編輯部",
+    summary: "A practical guide to Study Melbourne Hub, the Victorian Government's public information and support resource for international students studying and living in Victoria.",
+    titleZh: "Study Melbourne Hub 是什麼：去維州留學前，學生和家庭可以先知道的官方支持資源",
+    summaryZh: "Study Melbourne Hub 是維多利亞州政府面向國際學生的公共資訊與支持資源。本文整理赴墨爾本 / 維州學生可提前了解的官方入口、到達前清單與 OTC 的服務邊界。",
+    relatedReadings: [
+      "australia-student-visa-2026-npl-md115-priority-processing",
+      "australia-health-vocation-pathway",
+      "uk-aus-application-documents-checklist"
+    ],
+    body: [
+      {
+        heading: "1) What Study Melbourne Hub is",
+        paragraphs: [
+          "Study Melbourne Hub is part of Study Melbourne, a Victorian Government initiative supporting Victoria's international student community with public information, support services, events and student-experience resources.",
+          "The Melbourne Hub is located at 17 Hardware Lane in Melbourne's CBD. Study Melbourne's public website also provides information about studying, living, working and settling into student life in Victoria.",
+          "For families planning a Melbourne or Victoria study route, Study Melbourne should be understood as an official public resource layer. It is not a substitute for a student's own education provider, visa instructions, medical support, legal advice or emergency services."
+        ]
+      },
+      {
+        heading: "2) Why students should know it before arrival",
+        paragraphs: [
+          "Many international students focus heavily on the offer, CoE, visa and flight, but the first month in Australia also depends on practical support: accommodation, transport, phone, banking, OSHC, provider orientation, student work rights and knowing where to ask for help.",
+          "Study Melbourne's value is that it gives students a Victorian Government starting point for public information and student-support orientation. It can help students understand events, wellbeing resources, work-related information and the wider student community in Victoria.",
+          "For OTC, the correct use is to direct students to official public resources while keeping our own role clear: education-route coordination, document organisation, family communication and study-planning support."
+        ]
+      },
+      {
+        heading: "3) Victoria arrival-support checklist",
+        paragraphs: [
+          "Before departure, students should confirm their offer, CoE, payment record, orientation date, accommodation address, OSHC policy, emergency contacts, initial funds, phone plan and arrival transport.",
+          "During the first week, students should attend provider orientation, activate student email and LMS access, check accommodation condition, set up local banking and transport, save emergency contacts and bookmark Study Melbourne resources.",
+          "If a situation involves visa risk, workplace exploitation, accommodation disputes, mental-health crisis, medical emergency, professional registration or legal conflict, students should seek the appropriate official or qualified support rather than relying on informal advice."
+        ]
+      },
+      {
+        heading: "4) What OTC can and cannot do",
+        paragraphs: [
+          "OTC can help students and families build a study-route file, compare providers, organise document checklists, understand public resources, prepare family communication and keep a practical arrival plan.",
+          "OTC does not act as Study Melbourne, Global Victoria, DJSIR or the Victorian Government. Referencing Study Melbourne does not imply partnership, appointment, endorsement or recruitment authorisation.",
+          "OTC also does not provide migration legal advice, employment legal advice, accommodation legal advice, medical advice or emergency support. Where regulated or urgent issues arise, students should contact the appropriate official service, qualified professional or emergency channel."
+        ]
+      },
+      {
+        heading: "5) How to keep updated",
+        paragraphs: [
+          "Students can visit the Study Melbourne website, follow Study Melbourne's public social-media channels and subscribe to its e-newsletter for updates.",
+          "OTC will also keep Study Melbourne as part of its Victoria public-resource map and use it when preparing Melbourne / Victoria student orientation notes.",
+          "A good study plan is not only about admission. It also needs a safe landing plan, a reliable support map and a clear understanding of where official information begins."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、Study Melbourne Hub 是什麼",
+        paragraphs: [
+          "Study Melbourne Hub 是 Study Melbourne 的一部分。Study Melbourne 是維多利亞州政府面向國際學生的公共資訊與支持項目，服務對象包括在維州學習、生活或準備赴維州學習的國際學生群體。",
+          "Study Melbourne Hub 位於墨爾本市中心 Hardware Lane。Study Melbourne 官網也提供關於在維州學習、生活、工作、活動、學生支持與社群連結的公開資訊。",
+          "對準備赴墨爾本或維州留學的家庭來說，Study Melbourne 應被理解為一層官方公共資源入口。它不是學生所在學校的替代品，也不是簽證、醫療、法律、住宿糾紛或緊急情況的萬能解決渠道。"
+        ]
+      },
+      {
+        heading: "二、為什麼出發前就應該知道它",
+        paragraphs: [
+          "很多家庭在出發前只盯著 offer、CoE、簽證和機票，但學生到澳洲後的第一個月，真正考驗的是生活落地能力：住宿、交通、電話卡、銀行、OSHC、學校 orientation、兼職工作權益、遇到問題時去哪裡求助。",
+          "Study Melbourne 的價值在於，它提供了一個維州政府層面的公共資訊起點，幫學生理解官方活動、學生支持、生活資訊、工作相關提示與維州國際學生社群。",
+          "對 OTC 而言，正確用法是：在學生路線規劃中引導學生查看官方公共資源，同時保持我們自己的服務邊界清楚，即教育路線協調、文件整理、家庭溝通與學習規劃支持。"
+        ]
+      },
+      {
+        heading: "三、赴維州學生到達前清單",
+        paragraphs: [
+          "出發前，學生應確認 offer、CoE、付款記錄、orientation 日期、住宿地址、OSHC 保單、緊急聯絡人、初期生活費、電話卡方案與抵達交通安排。",
+          "到達第一週，學生應完成學校 orientation、啟用 student email 和 LMS、檢查住宿狀況並保留照片、設置本地銀行和交通卡、保存緊急聯絡方式，並收藏 Study Melbourne 等官方公共資源。",
+          "若問題涉及簽證風險、工作剝削、住宿糾紛、心理健康危機、醫療急症、專業註冊或法律衝突，學生不應只依賴非正式建議，而應尋求相應官方渠道、合資格專業人士或緊急服務。"
+        ]
+      },
+      {
+        heading: "四、OTC 可以做什麼，不能做什麼",
+        paragraphs: [
+          "OTC 可以協助學生和家庭建立留學路線檔案、比較院校與課程、整理文件清單、理解公共資源、準備家庭溝通與到達前安排。",
+          "OTC 不是 Study Melbourne、Global Victoria、DJSIR 或維多利亞州政府。引用 Study Melbourne 公共資源，不代表 OTC 與 Study Melbourne 建立合作、獲得授權、被官方背書或取得招生代理身份。",
+          "OTC 也不提供移民法律建議、就業法律建議、住宿法律建議、醫療建議或緊急救援。遇到受監管或緊急事項時，學生應聯絡相應官方服務、合資格專業人士或緊急渠道。"
+        ]
+      },
+      {
+        heading: "五、如何持續更新",
+        paragraphs: [
+          "學生可以訪問 Study Melbourne 官網，關注其公開社交媒體渠道，並訂閱 e-newsletter 以獲得活動與學生支持資訊更新。",
+          "OTC 也會把 Study Melbourne 納入維州公共資源地圖，在整理墨爾本 / 維州學生 orientation notes 時作為官方公共入口之一。",
+          "一個好的留學規劃不只是拿到 offer，也包括安全落地、知道去哪裡尋找官方資訊，以及在問題出現時能分清哪些事應該找學校、政府公共資源、專業人士或緊急服務。"
+        ]
+      }
+    ],
+    resources: [
+      ["Study Melbourne official website", "https://studymelbourne.vic.gov.au/"],
+      ["Global Victoria — International Education", "https://global.vic.gov.au/our-programs-and-services/our-programs/international-education"],
+      ["DJSIR — Trade and investment / Study Melbourne Hub reference", "https://djsir.vic.gov.au/what-we-do/trade-and-investment"],
+      ["Study Australia — Victoria / Melbourne", "https://www.studyaustralia.gov.au/en/life-in-australia/locations-in-australia/victoria-melbourne"]
+    ],
+    notes: [
+      "Public student-support resource explainer only.",
+      "Referencing Study Melbourne does not imply partnership, appointment, endorsement or recruitment authorisation.",
+      "OTC role is education-route coordination and student-support orientation, not regulated migration, legal, medical, employment or accommodation advice."
+    ]
+  },
+  {
     slug: "taiwan-travelogue-multidimensional-literary-politics",
     title: "《臺灣漫遊錄》的多維文學政治意義：獲獎之後",
     date: "2026-05-24",
