@@ -238,3 +238,65 @@ Do not state or imply:
 | Agency appointment evidence | No |
 | Suitable for internal Australia office evidence | Yes |
 | Suitable for public claim | Only as sector-update monitoring / public-resource reference |
+
+---
+
+## Evidence Entry 004 — Northern Territory Government Schools Education Agent Application Process Direction
+
+**Date received:** 2026-05-24, approximately 23:59 UK time  
+**Source:** InternationalServices DET / Department of Education and Training, Northern Territory Government  
+**Sender:** `InternationalService@education.nt.gov.au`  
+**Contact person:** Emmalee Bone, International Services  
+**Subject:** `RE: Education agent application enquiry - Northern Territory Government Schools`  
+**Gmail received message ID:** `19e5c36b68f49e2a`  
+**Gmail acknowledgement sent message ID:** `19e5de370bc65ef5`  
+**Classification:** Official application-process direction; NT Government Schools agent application pathway evidence; application pending.
+
+### Summary of Email
+
+Northern Territory Government Department of Education and Training replied to OTC's enquiry about the education agent application route for Northern Territory Government Schools.
+
+The reply instructed OTC to follow the process on the NT.GOV.AU page:
+
+`https://nt.gov.au/learning/international-education/become-an-education-agent`
+
+The email signature identifies:
+
+- International Services;
+- Department of Education and Training;
+- Northern Territory Government;
+- address: 14th Floor, Mitchell Centre, 55-59 Mitchell Street, Darwin;
+- postal address: GPO Box 4821, Darwin NT 0801;
+- phone: `08 8999 5895`;
+- email: `internationalservice@education.nt.gov.au`;
+- CRICOS Provider No. `00780M`.
+
+### Official Process Summary
+
+The NT.GOV.AU page states that applicants should fill in the International education agent application and email it to `internationalservice@education.nt.gov.au`. Applications are assessed and outcomes are notified in writing.
+
+If approved, the applicant receives a formal agent agreement or may use the institution's standard agent agreement. Appointment as a representative occurs only after both parties agree on the terms and the signed agreement is returned.
+
+### Evidence Value for OTC Australia Office
+
+This record is stronger than a general public-resource reply because it identifies the formal process for OTC to apply as an education agent for NT Government Schools. It supports the Australia office evidence chain as an official pathway direction, but it does not by itself create agent appointment or representative status.
+
+### Follow-Up Actions
+
+1. Complete the official International education agent application.
+2. Prepare supporting documents: OTC company evidence, capability statement, Study NT Agent Training Certificate, Australia route page and compliance statement.
+3. Submit the application to `internationalservice@education.nt.gov.au`.
+4. Wait for written assessment outcome.
+5. Do not make public claims of appointment until formal agreement is issued, agreed and returned.
+
+### Evidence Status
+
+| Field | Status |
+| --- | --- |
+| Official process direction received | Yes |
+| Acknowledgement reply sent | Yes |
+| Application submitted | Pending |
+| Formal agreement received | No |
+| Representative appointment evidence | No |
+| Suitable for internal Australia office evidence | Yes |
+| Suitable for public claim | Only as application-process review / preparation |
