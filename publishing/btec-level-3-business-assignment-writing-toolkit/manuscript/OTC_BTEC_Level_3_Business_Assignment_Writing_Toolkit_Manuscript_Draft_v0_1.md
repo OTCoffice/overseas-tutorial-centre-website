@@ -667,7 +667,70 @@ In simple terms:
 
 這裡不是官方評分標準，也不是保分指南。這裡的作用是讓學生明白：低層次答案通常停留在「描述」，較成熟的答案會把知識應用到企業情境，高階答案會進一步判斷限制、條件和取捨。
 
-## 3.2 What a Pass-level answer often does
+Grade awareness means understanding the kind of thinking your writing needs to show. It is not a promise that a paragraph will receive a particular grade. The final assessment depends on the official brief, centre guidance, unit criteria, authenticity of learner work and assessor judgement.
+
+However, a learner who cannot tell the difference between description, application and evaluation is likely to struggle. The learner may write a long answer but still remain at a basic level of thinking. Length alone does not create quality.
+
+### 中文加強說明
+
+「等級意識」不是保分，也不是讓學生猜老師怎麼給分。它的作用是幫學生判斷自己的答案現在處於哪種思維層次：
+
+- 我只是在描述事實嗎？
+- 我有沒有把概念放進題目中的企業？
+- 我有沒有用證據支持？
+- 我有沒有比較方案、指出限制、作出判斷？
+
+很多學生誤以為「寫得長」就更像高分答案。實際上，長而鬆散的 descriptive answer 仍然只是 descriptive。高質量答案不一定浮誇，但必須有清楚的 business reasoning。
+
+## 3.2 The three movements: completion, application, judgement
+
+For study-support purposes, this toolkit uses three broad movements:
+
+| Movement | Main question | Typical weakness | Stronger direction |
+| --- | --- | --- | --- |
+| Completion | Have I answered the task? | Missing parts of the brief | Cover the task accurately and relevantly |
+| Application | Have I used the business context? | Generic textbook answer | Link the concept to the selected business |
+| Judgement | Have I weighed evidence and limits? | Personal opinion or one-sided praise | Explain suitability, limits and conditions |
+
+This framework is not a substitute for official criteria. It is a planning tool. It helps the learner see whether an answer has moved beyond basic completion.
+
+### 中文提示
+
+可以把 assignment 寫作看成三個動作：
+
+1. **Completion**：我有沒有把題目要求做完？
+2. **Application**：我有沒有把知識用到這家企業？
+3. **Judgement**：我有沒有根據證據和限制作出判斷？
+
+如果只完成第一步，答案通常是基本完成。如果做到第二步，答案開始有商科應用。如果做到第三步，答案才有更成熟的 evaluation quality。
+
+### Worked mini-example
+
+Task direction:
+
+> Recommend one low-budget promotional method for a small cafe and explain why it may be suitable.
+
+Completion:
+
+> The cafe could use a loyalty card. Customers can get a free drink after several purchases.
+
+Application:
+
+> The cafe could use a loyalty card because it is located near a railway station and may have customers who pass regularly. This method may encourage repeat purchases without requiring a large advertising budget.
+
+Judgement:
+
+> The loyalty card may be suitable as a first low-budget method because it encourages repeat visits and can be implemented easily at the point of sale. However, its impact on weekend sales may be limited if the main weekend customers are families rather than regular commuters. The owner should therefore track repeat visits and compare weekday and weekend use before judging whether the campaign has worked.
+
+### 中文拆解
+
+三個版本看起來都在講 loyalty card，但層次不同：
+
+- 第一版只是說「可以用會員卡」。
+- 第二版開始說「為什麼對這家 cafe 可能合適」。
+- 第三版加入「限制、條件、衡量方式」，所以更像 evaluation。
+
+## 3.3 What a Pass-level answer often does
 
 A Pass-level direction usually requires the learner to complete the task clearly and relevantly. The learner should show basic understanding of the business concept and connect it to the assignment question.
 
@@ -681,7 +744,35 @@ This is relevant and understandable. It shows the basic idea. However, it does n
 
 Pass-level 的基本方向是「任務完整、概念正確、與題目相關」。但如果答案只停在這裡，通常會比較平。學生應把它當成地基，而不是最終目標。
 
-## 3.3 What a Merit-level answer often adds
+At this level of writing, the learner should avoid two problems. The first problem is incomplete task coverage. For example, the learner may describe a promotional method but forget to connect it to the target customer group. The second problem is inaccurate concept use. For example, the learner may use "promotion" when the paragraph is really about price reduction, or use "market research" when the evidence is only personal opinion.
+
+Basic completion still matters. A learner cannot build stronger analysis on top of an answer that does not answer the task. For this reason, Pass-level awareness should not be treated as unimportant. It is the foundation.
+
+### Pass-level checklist
+
+- Does the answer address the correct task?
+- Is the business concept used accurately?
+- Is the answer relevant to the business scenario?
+- Is there at least a basic reason or example?
+- Is the writing clear enough for the reader to follow?
+
+### 中文補充
+
+Pass-level 不等於「很差」。它代表答案至少要完成任務、概念不能錯、內容不能跑題。很多學生一心想寫高級分析，反而忘了先把基本任務做完整。真正穩定的寫作，是先完成基本要求，再逐步增加 application 和 judgement。
+
+### Common weak Pass-level pattern
+
+> The business should advertise more because advertising can attract customers.
+
+This is relevant but very thin. It uses a basic idea, but it does not identify the customer group, method, cost or context.
+
+### How to strengthen it slightly
+
+> The business could advertise a student discount on social media because local students may be more likely to respond to low-cost offers.
+
+This is still simple, but it is more focused because it names the customer group and promotional method.
+
+## 3.4 What a Merit-level answer often adds
 
 A Merit-level direction often shows stronger application. The learner should use the business context more carefully and explain why a method fits the specific situation.
 
@@ -695,7 +786,51 @@ This is stronger because it applies the method to the cafe's situation.
 
 Merit-level 的關鍵是 application。學生不能只寫「會員卡可以增加回頭客」，而要說「對這家靠近車站的小咖啡店而言，會員卡為什麼可能有效」。這就是把知識放回題目。
 
-## 3.4 What a Distinction-level answer often adds
+Application is not the same as adding a business name. A learner may write "Harbour Bean Cafe should use social media" many times, but the paragraph may still be generic if it does not explain why social media fits the cafe's problem, customers, resources or aims.
+
+Stronger application normally includes at least two of the following:
+
+- a feature of the selected business
+- a specific customer group
+- a relevant resource or constraint
+- a piece of evidence
+- a comparison with another option
+- an explanation of how the method affects the business aim
+
+### 中文補充
+
+Application 不是把企業名字塞進句子裡。真正的 application 要讓讀者看出：這個答案只能是針對這家企業寫的，而不是換成任何企業都能用。
+
+例如：
+
+- 弱 application：Harbour Bean Cafe should use Instagram because Instagram is popular.
+- 強 application：Harbour Bean Cafe may use Instagram to reach local students because the cafe needs a low-cost channel and students may respond to short visual offers, but the business would need consistent posting to make this method effective.
+
+後者更像 application，因為它同時提到 business need、customer group、cost constraint 和 limitation。
+
+### Merit-level development frame
+
+Use this pattern when trying to move beyond basic description:
+
+1. Name the business issue.
+2. Select the relevant concept or method.
+3. Explain why it fits this business.
+4. Add evidence or realistic reasoning.
+5. Mention one practical constraint.
+
+### 中文寫作支架
+
+可以用中文先規劃：
+
+- 這家企業的問題是什麼？
+- 我選的商科工具是什麼？
+- 這個工具為什麼適合這家企業，而不是任何企業？
+- 我有什麼證據或合理推理？
+- 有什麼實際限制？
+
+再轉成英文段落。
+
+## 3.5 What a Distinction-level answer often adds
 
 A Distinction-level direction often requires more judgement. The learner should consider strengths, limits, trade-offs and conditions.
 
@@ -716,25 +851,317 @@ Distinction-level 的核心不是「寫更多」，而是「判斷更成熟」�
 
 只在最後加一句 "However, there are disadvantages" 不是真正 evaluation。
 
+Evaluation is often the hardest step for EAL learners because it requires careful academic judgement. It is not enough to praise a recommendation and then add a short sentence beginning with "However." The limitation must affect the judgement.
+
+For example:
+
+Weak evaluation:
+
+> Social media is good, but it also has disadvantages.
+
+This sentence names the existence of disadvantages, but it does not evaluate anything.
+
+Stronger evaluation:
+
+> Social media may be suitable as a low-cost awareness tool, but it may not solve the cafe's weekend sales problem unless the campaign reaches weekend customers rather than only weekday commuters.
+
+This is stronger because the limitation is connected to the business aim.
+
+### Evaluation questions
+
+When evaluating, ask:
+
+- Suitable for what aim?
+- Suitable for which customer group?
+- Suitable under what conditions?
+- What evidence is missing?
+- What risk could reduce effectiveness?
+- What alternative might be stronger?
+- How should success be measured?
+
+### 中文補充
+
+Evaluation 要避免「假評估」。假評估常見句型是：
+
+- This has advantages and disadvantages.
+- This may be good but also bad.
+- This depends on many factors.
+
+這些句子本身沒有錯，但如果不說清楚 advantage 是什麼、disadvantage 如何影響企業、depends on 哪些 factors，就沒有真正完成 evaluation。
+
+真正的 evaluation 要把 limitation 拉回企業目標。例如：
+
+- 如果目標是增加 weekend family customers，只針對 student commuters 的 loyalty card 可能效果有限。
+- 如果 cafe 沒有人負責定期更新內容，social media campaign 可能無法持續。
+- 如果沒有 tracking method，owner 很難知道 promotion 是否真的提升了 repeat visits。
+
+這些才是能推動 judgement 的限制。
+
+## 3.6 How one answer can move through the levels
+
+The same topic can be developed in stages. This helps learners understand that stronger writing is built by adding application and judgement, not by memorising a "high-level phrase."
+
+Topic:
+
+> A small cafe wants to improve customer loyalty.
+
+Stage 1: basic relevant answer
+
+> The cafe can use a loyalty card. This can make customers come back because they can get a free drink.
+
+Stage 2: applied answer
+
+> The cafe can use a loyalty card because it is a low-cost method that may encourage repeat purchases from customers who pass the railway station regularly. This may be useful for a small business because it does not require expensive advertising.
+
+Stage 3: evaluative answer
+
+> The loyalty card may be a realistic first option because it is low-cost and easy for staff to explain at the point of sale. However, it may be more effective for regular weekday customers than for occasional weekend family visitors. The owner should compare repeat visits before and after the card is introduced and consider pairing it with a weekend family offer if the main aim is to improve weekend sales.
+
+### 中文拆解
+
+三個版本不是靠「高級詞」區分，而是靠思維深度區分：
+
+- Stage 1 有基本相關性。
+- Stage 2 有 business context。
+- Stage 3 有 suitability、limitation、measurement 和 alternative direction。
+
+學生不要迷信複雜詞。清楚、具體、有證據、有判斷，才是更成熟的寫作。
+
+## 3.7 What not to do: fake upgrading
+
+Some learners try to make an answer look stronger by adding academic-looking words. This is fake upgrading. It does not improve the answer if the reasoning is still weak.
+
+### Fake upgrade 1: adding long introductory phrases
+
+Weak:
+
+> In today's increasingly competitive business environment, promotion is very important.
+
+This sounds formal, but it does not answer the task.
+
+Better:
+
+> Promotion may be important for Harbour Bean Cafe because the business needs to increase weekend customer visits without using a high-cost advertising campaign.
+
+### Fake upgrade 2: adding "evaluate" vocabulary without evaluation
+
+Weak:
+
+> This method is effective. However, it has disadvantages. Therefore, it is good.
+
+Better:
+
+> This method may be effective for repeat weekday customers, but it may be less effective for attracting new weekend visitors unless the cafe promotes the offer through channels used by families and local students.
+
+### Fake upgrade 3: using data without explaining it
+
+Weak:
+
+> Sales are 20% lower at weekends, so the campaign is good.
+
+Better:
+
+> If weekend sales are 20% lower than weekday sales, the cafe needs a campaign that specifically reaches weekend customers. A general weekday loyalty card may not fully address this problem unless it is adapted for weekend visitors.
+
+### 中文提示
+
+假升級是中國學生常見問題：句子看起來正式，但 reasoning 沒有變強。真正的升級不是加長句、加 however、加數據，而是讓證據改變你的判斷。
+
+## 3.8 Evidence and judgement must work together
+
+Evidence alone does not create evaluation. The learner must explain what the evidence means for the business decision.
+
+| Evidence | Weak use | Stronger judgement |
+| --- | --- | --- |
+| Weekend sales are lower than weekday sales. | The cafe should do promotion. | The cafe needs promotion aimed at weekend customers, not only regular weekday commuters. |
+| Students pass the station regularly. | Students will buy more coffee. | A loyalty card may encourage repeat purchases if students already pass the cafe frequently. |
+| The cafe has limited budget. | It cannot do marketing. | Low-cost methods may be more realistic, but they require consistent staff execution. |
+| A bookstore is nearby. | The bookstore can help. | A partnership may reach similar local customers, but results depend on shared promotion quality. |
+
+### 中文提示
+
+Evidence 不是自動變成 judgement。學生要說明「這條證據對決策意味著什麼」。例如 weekend sales low 這條證據，不是直接證明任何 promotion 都好，而是說明 promotion 必須針對 weekend customers。
+
+## 3.9 The role of cautious language
+
+Business assignments often require careful wording. Avoid absolute claims unless the evidence clearly supports them.
+
+Risky wording:
+
+- This will increase sales.
+- Customers will like this.
+- Social media is the best method.
+- The business must use this strategy.
+
+More careful wording:
+
+- This may increase awareness among local students.
+- This could encourage repeat visits if customers value the reward.
+- Social media may be a suitable first method because it is low-cost.
+- The business should consider this option if it can update content consistently.
+
+### 中文提示
+
+英文商科寫作很重視 cautious language。中文裡學生可能習慣寫「一定會」「必然」「最有效」，但 assignment 裡如果沒有強證據，這些詞會顯得過度。更安全的詞包括 may、could、is likely to、depends on、provided that。
+
+## 3.10 Building a paragraph upward
+
+Use this process to upgrade a paragraph:
+
+1. Write the basic point.
+2. Add the business context.
+3. Add evidence or realistic reasoning.
+4. Add a limitation.
+5. Add a judgement or recommendation.
+
+Basic point:
+
+> The cafe could use social media.
+
+Add business context:
+
+> The cafe could use social media to reach local student customers.
+
+Add evidence or reasoning:
+
+> This may be suitable because social media is a low-cost channel and students may respond to short visual offers.
+
+Add limitation:
+
+> However, this method may be limited if the cafe does not post consistently or if the content does not reach weekend customers.
+
+Add judgement:
+
+> Therefore, social media may be useful as an awareness tool, but the owner should track engagement and weekend visits before judging whether it has improved sales.
+
+### 中文操作
+
+每段可以按五步升級：
+
+1. 我想說什麼？
+2. 這和題目中的企業有什麼關係？
+3. 我有什麼證據或合理推理？
+4. 這個觀點有什麼限制？
+5. 所以我作出什麼判斷？
+
+這比直接追求「高級句子」更可靠。
+
+## Chapter 3 practice task
+
+Read the paragraph below:
+
+> The cafe should use TikTok because many people use TikTok and it is popular. This will help the business get more customers. It is a good method.
+
+Improve it in three stages:
+
+1. Add business context.
+2. Add evidence or realistic reasoning.
+3. Add limitation and judgement.
+
+### Possible planning notes
+
+- Business context: small cafe, local students, weekend sales problem.
+- Evidence/reasoning: low-cost channel, visual offers, student audience.
+- Limitation: staff time, consistency, whether weekend customers use TikTok.
+- Judgement: useful for awareness, not enough by itself to prove sales growth.
+
+### 中文練習提示
+
+不要直接把原句改得更長。先判斷它弱在哪裡：
+
+- 「many people」太泛。
+- 「will help」太絕對。
+- 「good method」沒有判斷依據。
+
+改寫時要讓句子回答：對這家 cafe、這類顧客、這個問題，TikTok 為什麼可能有用，又為什麼可能有限？
+
+## Chapter 3 quick self-check
+
+Before moving to Chapter 4, the learner should be able to answer:
+
+1. What is the difference between completion, application and judgement?
+2. Why is application more than adding a business name?
+3. What makes evaluation stronger than listing advantages and disadvantages?
+4. Why can cautious language improve academic writing?
+5. How can evidence change a recommendation?
+
+### 中文自查
+
+進入第四章之前，學生應該能說清：
+
+1. completion、application、judgement 有什麼不同？
+2. 為什麼 application 不只是把企業名字寫進去？
+3. 為什麼 evaluation 不是優缺點清單？
+4. 為什麼 may、could、depends on 這類語言更適合商科寫作？
+5. 證據如何影響 recommendation？
+
 ---
 
 # Chapter 4. Evidence Planning
 
 ## 4.1 Evidence should be planned before writing
 
-Many learners write first and then search for evidence later. This usually creates weak paragraphs. Evidence should be planned before the paragraph is written.
+Many learners write first and then search for evidence later. This usually creates weak paragraphs. Evidence should be planned before the paragraph is written. In a BTEC Business assignment, evidence is not decoration. It is the material that allows the learner to show application, explain business reasoning and move beyond personal opinion.
+
+Evidence planning is especially important for Chinese-speaking EAL learners because the first draft is often driven by a strong general idea in Chinese: "this business should advertise more", "the manager should reduce costs", "staff training is important", or "customers like discounts". These ideas may be reasonable, but they are not yet assignment-ready. The learner needs to ask: what type of evidence would make this idea credible in the brief? Does the evidence come from the case, from an external source, from a calculation, from an observation, or from a business framework? How strong is the evidence? What can it prove, and what can it not prove?
+
+Good evidence planning changes the writer's behaviour. Instead of asking, "What can I say?", the learner starts asking, "What can I support?" This is a major shift. It prevents paragraphs from becoming broad essays about business in general and helps the learner stay close to the assignment brief.
 
 An assignment paragraph needs evidence for three reasons:
 
 1. To show that the point is grounded in the business case.
 2. To avoid unsupported claims.
 3. To help the learner move from opinion to academic reasoning.
+4. To make comparison and evaluation possible.
+5. To protect the learner from invented examples or overconfident statements.
+
+Evidence also helps with time management. If the learner has planned the evidence before writing, the paragraph can be built more calmly. If the learner writes without evidence, the draft often becomes longer but weaker. The student may spend hours producing sentences, then discover that the paragraph still does not answer the command verb. In this sense, evidence planning is not an extra task. It saves time.
 
 ### 中文提示
 
 不要先寫一大段，再最後硬塞一個 reference。更好的方法是先想：我要證明什麼？我需要什麼證據？這個證據能不能支持我的 point？
 
-## 4.2 Evidence planning matrix
+中國學生常見問題不是“完全沒有想法”，而是想法沒有被證據固定住。比如“這家公司應該做 social media marketing”本身不是錯，但如果沒有說明目標客群、平台使用習慣、預算限制、內容更新能力、衡量方法，這句話就只是建議，不是 BTEC assignment 中可評分的 applied analysis。
+
+寫作前先問三個問題：
+
+1. 這條證據來自哪裡？
+2. 它支持哪一個 point？
+3. 它最多能證明到什麼程度？
+
+第三個問題尤其重要。很多證據只能支持 may / could / is likely to，不能支持 will definitely。這就是 Level 3 商科寫作要慢慢建立的 academic caution。
+
+## 4.2 What counts as evidence in BTEC Business writing?
+
+Evidence in BTEC Business writing can take several forms. It does not always have to be a long academic journal article, especially at Level 3. However, it must be relevant, credible and used honestly.
+
+The most common evidence types are:
+
+1. **Case evidence**: details supplied in the assignment scenario, business brief, learner's selected organisation or centre-issued case material.
+2. **Business data**: sales figures, customer numbers, costs, budgets, market share, staffing levels, stock movement, website traffic or survey results.
+3. **Framework evidence**: concepts from marketing, finance, operations, human resources or enterprise theory that help interpret the case.
+4. **External context**: market trends, competitor examples, customer behaviour, regulation, economic conditions or technology changes.
+5. **Learner-produced evidence**: observations, interviews, small surveys, screenshots, tables, calculations or planning documents where the centre allows them.
+6. **Academic or professional sources**: textbooks, awarding-organisation learning materials, business reports, reputable websites, government statistics and professional bodies.
+
+Different units use evidence differently. A marketing unit may require customer segmentation, promotional aims and campaign evidence. A finance unit may require calculations and interpretation. A recruitment or HR unit may require job descriptions, person specifications, training plans or performance-management evidence. An enterprise unit may require risk evidence, resource planning and feasibility judgement.
+
+This means the learner should not build one generic evidence pack for every assignment. Evidence must be matched to the unit, the command verb and the assessment criteria.
+
+### 中文提示
+
+Evidence 不等於“隨便找一個網頁引用”。Level 3 的 evidence 可以包括案例材料、數據、表格、調查、觀察、框架、教材概念、政府或行業資料。關鍵是：它是否能支持你的具體段落？
+
+比如：
+
+- Marketing assignment 需要 customer segment、promotion channel、campaign aim、budget awareness。
+- Finance assignment 需要 calculation、cash flow、cost/revenue logic、financial interpretation。
+- HR assignment 需要 job role、skills requirement、training method、performance evidence。
+- Enterprise assignment 需要 risk、resource、market need、feasibility。
+
+如果所有科目都用同一種 evidence，文章會很空。BTEC 寫作不是“套模板”，而是根據 unit 選 evidence。
+
+## 4.3 Evidence planning matrix
 
 | Writing claim | Evidence needed | Chinese check | Academic integrity warning |
 | --- | --- | --- | --- |
@@ -743,7 +1170,31 @@ An assignment paragraph needs evidence for three reasons:
 | A bookstore partnership could extend reach. | Shared customer profile, local partnership example | 這條證據支持低成本合作的合理性 | 不要把合作寫成保證銷售增長 |
 | Social media may increase awareness. | Platform use, local engagement, campaign examples | 這條證據支持 awareness，不一定支持 sales | 不要把 likes 直接等同於 revenue |
 
-## 4.3 Weak evidence and stronger evidence
+The matrix should be completed before drafting. It forces the learner to connect claim, support and caution. This is important because weak assignment paragraphs often contain claims that sound business-like but have no evidence pathway.
+
+For example, "The cafe should use TikTok" is not yet an evidence-based claim. It becomes more useful when the learner writes: "The cafe could test short-form video content if its target customer group includes local students who regularly use mobile social platforms, but this would need staff time, consistent posting and a way to track whether awareness becomes repeat visits." This sentence does not guarantee success. It uses evidence, conditions and limitation.
+
+The learner can use a simple four-column planning sheet:
+
+| Assessment point | My claim | Evidence source | What this evidence can prove |
+| --- | --- | --- | --- |
+| Recommend a promotional method | A loyalty card may be suitable | Location near station; repeat commuter customers; low printing cost | It can support suitability for repeat purchase, not guaranteed profit |
+| Explain training needs | New staff may need product and service training | Customer complaints; service delay; product knowledge gaps | It can support a training need, not prove all staff are weak |
+| Compare finance options | A small loan may allow faster purchase of equipment | Equipment price; expected cash flow; interest cost | It can support feasibility if repayment is realistic |
+| Evaluate market research | A small survey may give useful initial insight | Survey questions; sample size; customer group | It can support limited local insight, not a full market conclusion |
+
+### 中文提示
+
+做 evidence planning matrix 的目的不是把文章寫複雜，而是防止文章變成空話。每一個 claim 後面都應該能回答：
+
+- 我這句話靠什麼支持？
+- 這個證據是 strong、limited 還是 only suggestive？
+- 我有沒有把證據說得太滿？
+- 這條證據能不能回到 assignment brief？
+
+如果學生能在寫作前完成這張表，正式段落通常會更短、更穩、更像英國課程下的 assignment。
+
+## 4.4 Weak evidence and stronger evidence
 
 | Weak evidence | Why it is weak | Stronger evidence direction |
 | --- | --- | --- |
@@ -752,9 +1203,221 @@ An assignment paragraph needs evidence for three reasons:
 | "Students like discounts." | Stereotype and too broad | Use local student footfall or a modest survey |
 | "The partnership will be successful." | Guaranteed claim | Explain conditions that may influence success |
 
+Weak evidence is not always false. Sometimes it is simply too broad. "Students like discounts" may contain a possible truth, but it is not precise enough for a business assignment. Which students? In what location? For what product? How often? At what discount level? Would the discount increase sales volume enough to protect profit margin? The moment the learner asks these questions, the writing becomes more analytical.
+
+Stronger evidence does not mean dramatic evidence. It often means narrower evidence. A small but relevant customer count may be more useful than a broad statement about society. A simple table of weekday and weekend sales may be more useful than a long paragraph about marketing theory. A short competitor comparison may be more useful than a vague claim that the business should be "more competitive".
+
+The learner should also distinguish between evidence and interpretation. Evidence might show that weekend sales are lower than weekday sales. Interpretation explains what this may mean: perhaps the cafe depends on commuters and has not yet attracted leisure customers. Recommendation then proposes a response: test a weekend family offer, collaborate with a nearby bookstore, or promote a study-friendly seating area. Evaluation then asks whether the response is realistic: budget, staff time, location, customer behaviour and measurement.
+
 ### 中文提示
 
 弱證據通常有三個特徵：太大、太絕對、太像常識。比如「everyone」「always」「will definitely」這類寫法，在商科 assignment 中通常很危險。更好的表達是 may、could、is likely to、depends on。
+
+還有一種弱證據是“看起來有數字，但數字沒有來源”。例如：
+
+- The cafe will increase sales by 50%.
+- The campaign will attract 500 new customers.
+- Most students will buy the product.
+
+如果 brief 沒有提供，學生也沒有調查，這些數字不能自己編。BTEC assignment 對 evidence 的基本要求是 honest and traceable。你可以做 reasonable estimate，但要說清楚 assumption；不能把猜測寫成事實。
+
+## 4.5 Source hierarchy: which evidence is stronger?
+
+Not all sources carry the same weight. A learner does not need to use university-level academic literature for every sentence, but the source should fit the purpose.
+
+| Evidence source | Usually useful for | Limitation |
+| --- | --- | --- |
+| Centre-issued assignment brief | Understanding the task and scenario | It may not contain enough detail for full analysis |
+| Business case material | Application to the selected organisation | Must not be stretched beyond what it says |
+| Textbook or learning material | Concepts, definitions and frameworks | Must be applied, not copied as general theory |
+| Company website | Products, mission, services, locations | Promotional language may be biased |
+| Government statistics | Market, population, employment or economic context | May be broad and not directly local |
+| Industry report | Trends, consumer behaviour, sector evidence | May be costly, selective or too advanced |
+| Small learner survey | Local customer insight | Sample size may be limited |
+| Interview or observation | Practical context and operational detail | May be subjective or incomplete |
+
+The learner should choose sources based on function. If the paragraph explains a marketing concept, a textbook or learning material may be appropriate. If the paragraph applies the concept to a selected business, case evidence or business-specific data is needed. If the paragraph evaluates feasibility, the learner may need budget, resources, customer behaviour and operational limits.
+
+### 中文提示
+
+Source hierarchy 的意思是：不同來源有不同用途。公司官網可以說明公司提供什麼服務，但它不一定能客觀證明公司表現很好。政府統計比較可信，但可能太宏觀，不能直接證明某家小企業一定會成功。學生小調查貼近本地，但樣本小，所以表述要謹慎。
+
+不要用一種來源承擔所有功能。比較好的段落通常會混合使用：
+
+- textbook concept 解釋概念；
+- case evidence 回到企業；
+- simple data 支持問題；
+- cautious judgement 說明限制。
+
+## 4.6 Evidence log for learners
+
+An evidence log is a simple table where the learner records useful evidence before writing. It should be practical, not bureaucratic. The purpose is to prevent the student from losing sources, mixing sources or forgetting how evidence connects to the assignment criteria.
+
+| Evidence item | Where it came from | Which paragraph it may support | Notes for cautious use |
+| --- | --- | --- | --- |
+| Weekend sales are lower than weekday sales | Case data / business notes | Problem identification; marketing recommendation | Need exact period if available; do not assume cause |
+| Many customers pass the shop during morning commute | Observation / location description | Target customer and loyalty method | Stronger for weekday commuters than weekend families |
+| Competitor offers student discount | Competitor website / local observation | Promotional comparison | Does not prove discount will work for this business |
+| Owner has limited budget | Case brief / interview note | Feasibility and recommendation limits | Supports low-cost options |
+| Staff struggle to explain new product range | Manager comment / customer complaint | Training need and service quality | Should be linked to role and performance |
+
+The log should be updated as the learner writes. Sometimes evidence that looks useful at the start becomes less relevant later. Sometimes a paragraph changes direction and needs different support. A good evidence log allows the learner to make these changes without losing control of the assignment.
+
+### 中文提示
+
+Evidence log 是學生寫 assignment 前最值得建立的工具。它不是給老師看的漂亮表格，而是給自己防止混亂的工作表。
+
+每條 evidence 都要記三件事：
+
+1. 來源是哪裡；
+2. 支持哪一段；
+3. 使用時有什麼限制。
+
+如果第三欄和第四欄填不出來，說明這條 evidence 可能只是“看起來相關”，但還沒有真正進入寫作邏輯。
+
+## 4.7 Matching evidence to Pass, Merit and Distinction writing
+
+Evidence can support different levels of response depending on how it is used. The same piece of evidence may produce a simple Pass-level statement, a stronger Merit-level explanation or a more evaluative Distinction-level judgement.
+
+For example, consider this evidence:
+
+> The cafe is located near a railway station and receives many weekday commuter customers, but weekend sales are lower.
+
+A descriptive use may be:
+
+> The cafe is near a railway station and has many weekday customers.
+
+This may support basic application, but it does not yet explain what the evidence means.
+
+A more analytical use may be:
+
+> Because the cafe is near a railway station, a loyalty card may encourage repeat purchases from weekday commuters who pass the business regularly. However, this evidence is less useful for solving weak weekend sales because weekend customers may have different reasons for visiting the area.
+
+This is stronger because it applies the evidence to a recommendation and recognises a limit.
+
+A more evaluative use may be:
+
+> A loyalty card is likely to be a low-risk starting point for weekday retention, but it should not be treated as the main solution to weekend decline unless the cafe gathers evidence about weekend customer segments. A partnership with a nearby bookstore or weekend event venue may be more relevant if the problem is not repeat weekday trade but lack of leisure footfall.
+
+This is stronger again because it compares options and uses evidence to guide judgement.
+
+### 中文提示
+
+同一條 evidence 可以寫出不同層次：
+
+- Pass: 我有提到 evidence。
+- Merit: 我解釋 evidence 和企業問題的關係。
+- Distinction: 我用 evidence 比較選項、指出限制、形成 judgement。
+
+所以升級答案不是加華麗詞彙，而是更精準地使用 evidence。尤其要注意：evidence 不是越多越好，而是越貼合 assessment point 越好。
+
+## 4.8 How to avoid fabricated evidence
+
+One of the most serious risks in assignment writing is fabricated evidence. This can happen when a learner feels pressure to make the paragraph sound specific. The student may invent sales numbers, survey results, customer percentages, competitor prices or interview comments. This is dangerous. It can create academic integrity problems and weaken trust in the work.
+
+Learners should use three safer strategies:
+
+1. **Use available evidence honestly.** If the brief says sales are low, use that. Do not invent exact monthly figures unless provided.
+2. **Use cautious estimation.** If estimating, label it clearly as an assumption or projection.
+3. **Use evidence gaps as evaluation.** If data is missing, say what further evidence the business should collect.
+
+For example, a weak and risky sentence is:
+
+> The cafe will gain 300 new customers in one month.
+
+A safer sentence is:
+
+> The cafe cannot assume a fixed increase in customers without tracking campaign response, but it could measure new customer visits through a simple discount code or loyalty-card sign-up record.
+
+This sentence is academically stronger because it recognises uncertainty and proposes evidence collection.
+
+### 中文提示
+
+不要為了讓文章“看起來具體”而編數字。沒有來源的精確數字比沒有數字更危險。可以寫：
+
+- The business could track...
+- The owner should collect...
+- This cannot be confirmed without...
+- A small survey may help identify...
+
+這些句子比亂寫 30%、500 customers、sales will double 更可靠。
+
+## 4.9 Evidence gaps can become evaluation
+
+Many learners think missing evidence is a weakness that must be hidden. In fact, identifying evidence gaps can strengthen evaluation. Business decisions are often made under uncertainty. A good assignment answer can explain what is known, what is not known and what should be measured next.
+
+For example:
+
+> The cafe has evidence of weak weekend sales, but the case does not show whether the problem is low footfall, weak conversion, unsuitable products or limited awareness. Therefore, the owner should collect weekend customer data before choosing between promotion, product changes or partnership activity.
+
+This is a mature response. It does not pretend to know everything. It uses the evidence gap to make a practical recommendation.
+
+Evidence-gap evaluation is useful in many business units:
+
+| Unit area | Evidence gap | Better evaluative response |
+| --- | --- | --- |
+| Marketing | No customer-segment data | Recommend a small survey before choosing channels |
+| Finance | No cash-flow forecast | Avoid recommending borrowing until repayment is assessed |
+| HR | No staff-performance data | Identify training need cautiously and suggest observation |
+| Operations | No stock-loss figure | Recommend tracking before changing supplier or stock system |
+| Enterprise | No competitor pricing | Treat pricing strategy as provisional |
+
+### 中文提示
+
+看不見資料時，不要假裝看見。可以把“資料不足”變成 evaluation。這在英國商科寫作中很重要，因為真實 business decision 經常不是“百分百確定”，而是在有限證據下做合理判斷。
+
+好句型：
+
+- The available evidence suggests..., but it does not show...
+- This recommendation would be stronger if the business collected...
+- Without data on..., the conclusion should remain cautious.
+- Before implementing this option, the owner should test...
+
+## 4.10 Chapter 4 practice task
+
+Use the Harbour Bean Cafe scenario or a business selected by the centre. Choose one recommendation and complete the evidence plan before writing a paragraph.
+
+| Planning question | Learner answer |
+| --- | --- |
+| What is my recommendation? |  |
+| Which assessment criterion does it answer? |  |
+| What case evidence supports the problem? |  |
+| What business concept or framework supports the method? |  |
+| What data would make the recommendation stronger? |  |
+| What limitation must I mention? |  |
+| What should the business measure after implementation? |  |
+
+Then write one paragraph using this structure:
+
+1. Point: state the recommendation.
+2. Evidence: add case or source evidence.
+3. Application: explain why it fits the business.
+4. Limitation: identify what the evidence cannot prove.
+5. Judgement: recommend what should be tested or measured.
+
+### 中文寫作支架
+
+先不要急著寫完整段落。先用中文檢查邏輯：
+
+- 我的建議是什麼？
+- 我靠哪條 evidence 支持？
+- 這條 evidence 到底能證明什麼？
+- 它不能證明什麼？
+- 我最後的 judgement 是什麼？
+
+再轉成英文時，避免使用 too strong 的語氣。Level 3 Business assignment 中，成熟的句子通常不是“絕對正確”，而是“有條件地合理”。
+
+### Chapter 4 quick self-check
+
+Before moving to paragraph writing, the learner should be able to tick the following:
+
+- I know which evidence supports each paragraph.
+- I can explain where the evidence came from.
+- I know whether the evidence is strong, limited or only suggestive.
+- I have not invented precise data.
+- I have linked evidence to the selected business, not only to business in general.
+- I have used evidence gaps as part of evaluation where relevant.
+- I can explain the difference between evidence, interpretation, recommendation and judgement.
 
 ---
 
