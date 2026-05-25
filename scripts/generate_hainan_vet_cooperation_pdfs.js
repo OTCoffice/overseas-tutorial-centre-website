@@ -375,19 +375,19 @@ const briefHtml = `<!doctype html>
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>OTC Hainan Australia VET Brief</title>
+  <title>OTC Multi-city Australia VET Brief</title>
   <style>${baseCss}</style>
 </head>
 <body>
   <section class="page brief-page">
     <header class="topbar">
-      <div class="brand">Overseas Tutorial Centre Ltd<span>OTC Australia Expansion · Hainan Cooperation</span></div>
+      <div class="brand">Overseas Tutorial Centre Ltd<span>OTC Australia Expansion · Multi-city Cooperation</span></div>
       <div class="date">Draft for Dawn Yun · 25 May 2026</div>
     </header>
     <section class="hero">
       <div class="eyebrow">One-page cooperation brief</div>
-      <h1>OTC x 海南：澳洲 VET / TAFE 職業相關移民導向合作</h1>
-      <p class="subtitle">面向海南本地教育國際合作、職業教育、就業實習與學生發展機構，建立「海南本地學生資源 + OTC 海外操作能力 + 澳洲 VET/TAFE 通道」的可執行合作模型。</p>
+      <h1>OTC 多地合作：澳洲 VET / TAFE 職業相關移民導向合作</h1>
+      <p class="subtitle">面向海南、西安、成都、昆明、南寧等地教育國際合作、職業教育、就業實習與學生發展機構，建立「多地學生資源 + OTC 海外操作能力 + 澳洲 VET/TAFE 通道」的可執行合作模型。</p>
       <div class="metric-row">
         <div class="metric"><b>5年+</b><span>國際教育平台型諮詢與學生轉介操作經驗</span></div>
         <div class="metric"><b>VET</b><span>健康護理、社區服務、幼教、IT、商科等方向</span></div>
@@ -399,7 +399,7 @@ const briefHtml = `<!doctype html>
       <div class="grid-2 section">
         <article class="card gold">
           <h2>合作定位</h2>
-          <p>OTC 希望與海南本地機構共同推進澳洲 VET / TAFE 職業教育方向合作，重點服務有海外職業發展、技能提升、就業實習能力準備及合規移民導向資訊需求的學生和家庭。</p>
+          <p>OTC 希望與海南、西安、成都、昆明、南寧等地機構共同推進澳洲 VET / TAFE 職業教育方向合作，重點服務有海外職業發展、技能提升、就業實習能力準備及合規移民導向資訊需求的學生和家庭。</p>
           <p>本合作不是單純留學廣告，也不承諾簽證、移民或就業結果；核心是用透明、可操作的方式幫助學生理解澳洲職業教育、課程選擇、英語要求、placement、職業方向與後續可能路線。</p>
         </article>
         <article class="card blue">
@@ -426,12 +426,12 @@ const briefHtml = `<!doctype html>
           </ul>
         </article>
         <article class="card">
-          <h3>海南合作方可提供</h3>
+          <h3>多地合作方可提供</h3>
           <ul>
             <li>本地學生、家庭與職教機構觸達。</li>
             <li>就業實習平台或國際合作項目入口。</li>
             <li>線下講座、招生說明會及學生意向收集。</li>
-            <li>海南本地職教、康養、幼教、旅遊酒店需求反饋。</li>
+            <li>海南、西安、成都、昆明、南寧本地職教、康養、幼教、旅遊酒店需求反饋。</li>
           </ul>
         </article>
         <article class="card">
@@ -446,19 +446,19 @@ const briefHtml = `<!doctype html>
       <section class="section">
         <h2>初步合作流程</h2>
         <div class="steps">
-          <div class="step">Dawn Yun 老師協助引薦海南本地合適機構或負責人，先做一次線上初步溝通。</div>
+          <div class="step">Dawn Yun 老師協助引薦海南、西安、成都、昆明、南寧等地合適機構或負責人，先做一次線上初步溝通。</div>
           <div class="step">選定 1-2 個職業方向試點，建議從 aged care / community services / early childhood 開始。</div>
-          <div class="step">OTC 提供講座提綱、路線說明、學生意向表與合規口徑；海南合作方組織學生/家長說明會。</div>
+          <div class="step">OTC 提供講座提綱、路線說明、學生意向表與合規口徑；多地合作方組織學生/家長說明會。</div>
           <div class="step">OTC 對意向學生進行非移民法律性質的教育 route screening，合適學生再進入 provider application、平台轉介或專業服務轉介。</div>
         </div>
       </section>
       <section class="micro-grid section">
         <article class="mini-card">
-          <h3>首批目標人群</h3>
+          <h3>五地試點定位</h3>
           <ul>
-            <li>海南中高職、高職、應屆畢業生及轉型青年。</li>
-            <li>關注護理、康養、幼教、社區服務、酒店旅遊和 IT 的家庭。</li>
-            <li>已有英語基礎但缺少海外職業路線理解的學生。</li>
+            <li>海南：康養、旅遊酒店、職教國際合作。</li>
+            <li>西安/成都：高職、高校周邊與西部家庭市場。</li>
+            <li>昆明/南寧：面向西南及東盟通道的技能出海。</li>
           </ul>
         </article>
         <article class="mini-card">
@@ -497,7 +497,7 @@ const memoHtml = `<!doctype html>
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>OTC Hainan Australia VET Cooperation Memorandum</title>
+  <title>OTC Multi-city Australia VET Cooperation Memorandum</title>
   <style>${baseCss}</style>
 </head>
 <body>
@@ -508,15 +508,15 @@ const memoHtml = `<!doctype html>
     </header>
     <section class="hero">
       <div class="eyebrow">Cooperation memorandum</div>
-      <h1>OTC 澳洲 VET / TAFE 擴展業務與海南本地機構合作備忘錄</h1>
-      <p class="subtitle">擬面向海南本地教育國際合作、就業實習、職業教育、學生發展及技能出海相關機構，建立以澳洲 VET/TAFE 職業教育與合規移民導向資訊服務為核心的招生與服務合作模型。</p>
+      <h1>OTC 澳洲 VET / TAFE 擴展業務與海南、西安、成都、昆明、南寧等地機構合作備忘錄</h1>
+      <p class="subtitle">擬面向海南、西安、成都、昆明、南寧等地教育國際合作、就業實習、職業教育、學生發展及技能出海相關機構，建立以澳洲 VET/TAFE 職業教育與合規移民導向資訊服務為核心的招生與服務合作模型。</p>
     </section>
     <main class="content">
       <div class="grid-2 section">
         <article class="card">
           <h2>合作背景</h2>
           <p>OTC 是一家英國註冊的教育支持與國際學習服務機構，長期服務中國及海外華語家庭，主要工作包括國際升學路線規劃、學術支持、文件整理、課程銜接、家長溝通、學生監督學習與跨境教育資源協調。</p>
-          <p>澳洲 VET / TAFE、護理健康、社區服務、康養、幼教與職業實習方向重新成為中國家庭關注的技能出海路線。海南在國際教育合作、職教出海、青年就業與區域開放方面具有獨特位置。</p>
+          <p>澳洲 VET / TAFE、護理健康、社區服務、康養、幼教與職業實習方向重新成為中國家庭關注的技能出海路線。海南、西安、成都、昆明、南寧在國際教育合作、職教出海、青年就業與區域開放方面具有獨特位置。</p>
         </article>
         <article class="card gold">
           <h2>核心定位</h2>
@@ -544,17 +544,17 @@ const memoHtml = `<!doctype html>
           </ul>
         </article>
         <article class="card blue">
-          <h3>海南端價值</h3>
+          <h3>多地端價值</h3>
           <ul>
             <li>補充澳洲職教、技能出海和就業實習方向產品。</li>
             <li>提升本地學生及家長服務黏性。</li>
-            <li>形成海南本地國際教育合作示範案例。</li>
+            <li>形成多地本地國際教育合作示範案例。</li>
             <li>把本地職教需求轉化為可追蹤招生與服務數據。</li>
           </ul>
         </article>
       </div>
       <section class="section">
-        <h2>目標學生與海南端切入口</h2>
+        <h2>目標學生與多地端切入口</h2>
         <div class="grid-3">
           <article class="card">
             <h3>學生類型</h3>
@@ -565,7 +565,7 @@ const memoHtml = `<!doctype html>
             </ul>
           </article>
           <article class="card">
-            <h3>海南合作入口</h3>
+            <h3>多地合作入口</h3>
             <ul>
               <li>職業院校 / 高職 / 中職國際合作部門。</li>
               <li>就業實習平台、青年職涯發展項目、康養幼教相關培訓機構。</li>
@@ -587,7 +587,7 @@ const memoHtml = `<!doctype html>
         <div class="grid-2">
           <article class="card">
             <h3>VET / TAFE 職教與技能出海</h3>
-            <p>共同設計面向海南學生的澳洲職業教育服務包：TAFE / VET、健康護理、aged care、community services、early childhood、business、IT、hospitality 等方向解讀，並提供英語、學術、職業能力和文件準備支持。</p>
+            <p>共同設計面向海南、西安、成都、昆明、南寧學生的澳洲職業教育服務包：TAFE / VET、健康護理、aged care、community services、early childhood、business、IT、hospitality 等方向解讀，並提供英語、學術、職業能力和文件準備支持。</p>
           </article>
           <article class="card">
             <h3>就業實習與職涯準備</h3>
@@ -598,7 +598,7 @@ const memoHtml = `<!doctype html>
     </main>
     <footer class="footer">
       <div>Page 1 · Cooperation concept and capability summary</div>
-      <div>Prepared for internal referral discussion with Dawn Yun and Hainan stakeholders</div>
+      <div>Prepared for internal referral discussion with Dawn Yun and multi-city stakeholders</div>
     </footer>
   </section>
 
@@ -611,7 +611,7 @@ const memoHtml = `<!doctype html>
       <section class="section">
         <h2>共同建立招生與服務閉環</h2>
         <div class="steps">
-          <div class="step">海南本地機構負責學生觸達、初步意向收集、線下信任建立和本地家長溝通。</div>
+          <div class="step">海南、西安、成都、昆明、南寧等地機構負責學生觸達、初步意向收集、線下信任建立和本地家長溝通。</div>
           <div class="step">OTC 提供澳洲 VET/TAFE 職業路線設計、provider 信息、文件清單、英語/學術/職業能力準備與雙語家長溝通。</div>
           <div class="step">合適學生按合規路徑進入平台轉介或 direct provider application；涉及簽證、移民、技能評估個案判斷時，轉介註冊專業人士。</div>
           <div class="step">學生在申請、入學前、入學後由雙方分工支持，形成案例、內容、家長口碑和後續招生渠道。</div>
@@ -621,7 +621,7 @@ const memoHtml = `<!doctype html>
         <article class="card gold">
           <h2>三階段合作模式</h2>
           <h3>第一階段：信息互通與試點（1-2 個月）</h3>
-          <p>Dawn Yun 老師協助介紹海南本地合適機構；OTC 提供公司簡介、澳洲方向服務說明、合規聲明和案例型材料；雙方選定 1-2 個試點方向。</p>
+          <p>Dawn Yun 老師協助介紹海南、西安、成都、昆明、南寧等地合適機構；OTC 提供公司簡介、澳洲方向服務說明、合規聲明和案例型材料；雙方選定 1-2 個試點方向。</p>
           <h3>第二階段：共建內容與招生活動（2-4 個月）</h3>
           <p>聯合舉辦澳洲 VET/TAFE 職業路線說明會，建立學生意向登記表，由 OTC 做初步 route screening。</p>
           <h3>第三階段：申請轉化與案例沉澱（4-6 個月）</h3>
@@ -630,12 +630,12 @@ const memoHtml = `<!doctype html>
         <article class="card">
           <h2>優先產品包</h2>
           <ul>
-            <li>海南學生澳洲 VET / TAFE 職業路線說明會。</li>
+            <li>多地學生澳洲 VET / TAFE 職業路線說明會。</li>
             <li>Aged care / community services / early childhood 中文路線手冊。</li>
             <li>英語 + 職業能力 + overseas study readiness 短課。</li>
             <li>學生 route screening 表與家長溝通模板。</li>
             <li>澳洲職業教育與合規移民資訊邊界講座。</li>
-            <li>海南本地職教機構國際合作試點方案。</li>
+            <li>多地本地職教機構國際合作試點方案。</li>
           </ul>
         </article>
       </div>
@@ -652,7 +652,7 @@ const memoHtml = `<!doctype html>
         <article class="card">
           <h2>給 Dawn Yun 老師的轉介話術</h2>
           <p>Dawn 老師您好，OTC 目前正在系統化拓展澳洲方向教育服務，現階段重點放在澳洲 VET/TAFE 職業教育、健康護理、aged care、community services、early childhood、職業能力準備及合規移民導向資訊服務。</p>
-          <p>我們希望探索是否能與海南本地教育國際合作、職業教育、就業實習或學生發展相關機構建立合作，先從澳洲 VET/TAFE 職業路線說明、學生意向收集、家長溝通、英語與職業能力準備和試點案例開始。</p>
+          <p>我們希望探索是否能與海南、西安、成都、昆明、南寧等地教育國際合作、職業教育、就業實習或學生發展相關機構建立合作，先從澳洲 VET/TAFE 職業路線說明、學生意向收集、家長溝通、英語與職業能力準備和試點案例開始。</p>
         </article>
       </div>
       <section class="section">
@@ -661,7 +661,7 @@ const memoHtml = `<!doctype html>
           <article class="card">
             <h3>招生與觸達</h3>
             <ul>
-              <li>完成 2 場海南學生 / 家長路線說明會。</li>
+              <li>完成 2 場多地學生 / 家長路線說明會。</li>
               <li>收集 30-50 份澳洲 VET/TAFE 意向表。</li>
               <li>形成 10-15 個可初步 route screening 的學生檔案。</li>
             </ul>
@@ -677,7 +677,7 @@ const memoHtml = `<!doctype html>
           <article class="card">
             <h3>證據與復盤</h3>
             <ul>
-              <li>輸出一份海南試點復盤報告。</li>
+              <li>輸出一份多地試點復盤報告。</li>
               <li>沉澱匿名案例、常見問題、家長關注點與內容選題。</li>
               <li>為後續澳洲 provider application 提供 market plan 和 recruitment pipeline 證據。</li>
             </ul>
@@ -686,7 +686,7 @@ const memoHtml = `<!doctype html>
       </section>
       <section class="card gold">
         <h2>建議下一步</h2>
-        <p>請 Dawn Yun 老師協助判斷海南端最適合先接觸的 1-2 類機構：職業院校 / 高職 / 中職、國際教育合作辦公室、就業實習平台、護理康養幼教或旅遊酒店相關培訓機構。OTC 可先準備一場「海南學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」線上試講。</p>
+        <p>請 Dawn Yun 老師協助判斷海南、西安、成都、昆明、南寧各地最適合先接觸的 1-2 類機構：職業院校 / 高職 / 中職、國際教育合作辦公室、就業實習平台、護理康養幼教或旅遊酒店相關培訓機構。OTC 可先準備一場「多地學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」線上試講。</p>
       </section>
       <section class="signoff">
         <div class="signer"><b>Yan Xinyue</b><span>海外督導澳洲項目經理</span></div>
