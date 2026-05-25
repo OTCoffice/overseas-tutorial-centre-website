@@ -80,7 +80,8 @@ Do not state or imply:
 2. Add Study Melbourne Hub to the Victoria public-resource list for students going to Melbourne / Victoria.
 3. Create a Victoria arrival-support checklist linking to Study Melbourne, student work rights, accommodation, safety, wellbeing and emergency support resources. **Created:** `reports/Victoria_Arrival_Support_Checklist_Study_Melbourne_2026-05-25.md`.
 4. Publish a 留學導報 article: "Study Melbourne Hub 是什麼：去維州留學前可先知道的官方學生支持資源".
-5. Keep screenshots or PDF export of the email in the private evidence folder if needed for future office-development review.
+5. Send a short acknowledgement reply confirming OTC will use Study Melbourne only as a public-resource reference and will not imply partner / agent status. **Sent:** 2026-05-25, Gmail sent message ID `19e5de1b0d917c93`.
+6. Keep screenshots or PDF export of the email in the private evidence folder if needed for future office-development review.
 
 ### Suggested Reply to Study Melbourne Hub
 
@@ -109,6 +110,7 @@ Overseas Tutorial Centre / Overseas Supervision
 | Field | Status |
 | --- | --- |
 | Source received | Yes |
+| Acknowledgement reply sent | Yes |
 | Public-resource value | Yes |
 | Partnership evidence | No |
 | Agency appointment evidence | No |
@@ -155,3 +157,84 @@ This entry shows that OTC has moved beyond passive public-resource recording and
 | Agency appointment evidence | No |
 | Suitable for internal Australia office evidence | Yes |
 | Suitable for public claim | No, except neutral statement that an enquiry has been sent if necessary |
+
+---
+
+## Evidence Entry 003 — StudyAdelaide Agent Newsletter Subscription / Briefing Follow-Up
+
+**Date received:** 2026-05-25, approximately 01:36 UK time  
+**Source:** StudyAdelaide Enquiries / Lisa, StudyAdelaide Team  
+**Sender:** `enquiries@studyadelaide.com`  
+**Subject:** `Re: Automatic reply: Request to join StudyAdelaide agent / school-sector briefing updates`  
+**Gmail received message ID:** `19e5c8fbdef67490`  
+**Gmail acknowledgement sent message ID:** `19e5de230a071b83`  
+**Classification:** South Australia sector-update access; agent newsletter subscription evidence; briefing-opportunity follow-up pending.
+
+### Summary of Email
+
+StudyAdelaide replied to OTC's request to join StudyAdelaide agent / school-sector briefing updates. The reply stated that the StudyAdelaide team is currently travelling and will get back to OTC regarding agent briefing opportunities.
+
+The reply also confirmed:
+
+> "I have subscribed OTC to our agent newsletter using this email address: office@overseasuk.com."
+
+The sender signature identifies:
+
+- StudyAdelaide Team;
+- email: `enquiries@studyadelaide.com`;
+- phone: `+61 8 8226 0022`;
+- address: Level 1, 26 Franklin Street, Adelaide SA 5000 Australia;
+- website: `studyadelaide.com`.
+
+### Evidence Value for OTC Australia Office
+
+This record supports OTC Australia office development in the following limited ways:
+
+- confirms OTC has been added to StudyAdelaide's agent newsletter using the office mailbox;
+- provides evidence of direct South Australia sector-update contact;
+- records that StudyAdelaide will follow up regarding agent briefing opportunities;
+- supports a state-level Australia office evidence chain covering Victoria and South Australia public / sector resources.
+
+### Safe Internal Interpretation
+
+OTC has been added to the StudyAdelaide agent newsletter and is waiting for further information about possible agent briefing opportunities. This is useful internal development evidence for the South Australia route file.
+
+### Safe Public Wording
+
+If referenced publicly, use only a neutral statement:
+
+> OTC monitors StudyAdelaide public and sector updates as part of its South Australia study-route research and student-support information work.
+
+Chinese version:
+
+> OTC 已將 StudyAdelaide 的公開資訊與 sector updates 納入南澳留學路線研究和學生支持資料整理範圍。
+
+### Claims Not Allowed
+
+Do not state or imply:
+
+- OTC is an official StudyAdelaide agent.
+- OTC is appointed, authorised or endorsed by StudyAdelaide.
+- StudyAdelaide has approved OTC to recruit students.
+- Newsletter subscription is the same as agent appointment or formal partnership.
+- StudyAdelaide has confirmed briefing access until a separate briefing invitation or written confirmation is received.
+
+### Follow-Up Actions
+
+1. Monitor the StudyAdelaide agent newsletter through `office@overseasuk.com`.
+2. Wait for StudyAdelaide's promised follow-up regarding agent briefing opportunities.
+3. Add StudyAdelaide to the South Australia public / sector resource map.
+4. Prepare a South Australia student route note covering Adelaide study resources, school / VET / higher education positioning and arrival-support public resources.
+
+### Evidence Status
+
+| Field | Status |
+| --- | --- |
+| Source received | Yes |
+| Agent newsletter subscription confirmed | Yes |
+| Acknowledgement reply sent | Yes |
+| Briefing-opportunity response | Pending |
+| Partnership evidence | No |
+| Agency appointment evidence | No |
+| Suitable for internal Australia office evidence | Yes |
+| Suitable for public claim | Only as sector-update monitoring / public-resource reference |
