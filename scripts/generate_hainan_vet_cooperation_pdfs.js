@@ -1,0 +1,556 @@
+const fs = require("fs");
+const path = require("path");
+const { chromium } = require("/Users/rongrongxiao/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright");
+
+const root = "/Users/rongrongxiao/Documents/New project/otc-study-hub";
+const outDir = path.join(root, "reports", "pdf");
+fs.mkdirSync(outDir, { recursive: true });
+
+const baseCss = `
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #18243a;
+    background: #eef2f3;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: #fbfcfb;
+    position: relative;
+    overflow: hidden;
+  }
+  .brief-page {
+    width: 297mm;
+    min-height: 210mm;
+  }
+  .brief-page .hero {
+    padding: 10mm 12mm 6mm;
+  }
+  .brief-page .content {
+    padding: 6mm 12mm 10mm;
+  }
+  .brief-page h1 {
+    font-size: 24px;
+  }
+  .brief-page .subtitle {
+    max-width: 238mm;
+    font-size: 10.5px;
+    line-height: 1.55;
+    margin-top: 3mm;
+  }
+  .brief-page .metric-row {
+    margin-top: 4mm;
+  }
+  .brief-page .section {
+    margin-bottom: 5mm;
+  }
+  .brief-page .card {
+    padding: 4mm;
+  }
+  .brief-page p {
+    font-size: 9.2px;
+    line-height: 1.45;
+    margin-bottom: 2mm;
+  }
+  .brief-page li {
+    font-size: 8.7px;
+    line-height: 1.32;
+    margin-bottom: 1.15mm;
+  }
+  .brief-page .steps {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3mm;
+  }
+  .brief-page .step {
+    padding: 10mm 3mm 3mm;
+    min-height: 26mm;
+  }
+  .brief-page .step::before {
+    top: 4mm;
+    left: 3mm;
+    transform: none;
+  }
+  .topbar {
+    height: 14mm;
+    background: #183a4a;
+    color: #fff;
+    padding: 4.5mm 11mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: .01em;
+  }
+  .brand {
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .brand span {
+    display: block;
+    font-size: 7.5px;
+    margin-top: 1px;
+    opacity: .75;
+    font-weight: 600;
+  }
+  .date {
+    font-size: 8.5px;
+    opacity: .86;
+    text-align: right;
+  }
+  .hero {
+    padding: 13mm 13mm 8mm;
+    background: linear-gradient(180deg, #f7fbfb 0%, #ffffff 100%);
+    border-bottom: 1px solid #dce5e6;
+  }
+  .eyebrow {
+    color: #9b6b25;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .12em;
+    margin-bottom: 4mm;
+  }
+  h1 {
+    margin: 0;
+    color: #173848;
+    font-size: 25px;
+    line-height: 1.16;
+    letter-spacing: 0;
+  }
+  .subtitle {
+    margin-top: 4mm;
+    max-width: 158mm;
+    font-size: 11.5px;
+    line-height: 1.72;
+    color: #425161;
+    font-weight: 600;
+  }
+  .content {
+    padding: 8mm 13mm 10mm;
+  }
+  h2 {
+    margin: 0 0 3mm;
+    color: #173848;
+    font-size: 15px;
+    line-height: 1.25;
+  }
+  h3 {
+    margin: 0 0 2mm;
+    color: #173848;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+  p {
+    margin: 0 0 3mm;
+    font-size: 10px;
+    line-height: 1.65;
+    color: #354454;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5mm;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4mm;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #d8e1e1;
+    border-radius: 7px;
+    padding: 5mm;
+    break-inside: avoid;
+  }
+  .card.gold {
+    background: #fffbf2;
+    border-color: #dec58f;
+  }
+  .card.blue {
+    background: #f4fafb;
+    border-color: #bcd4da;
+  }
+  .pill {
+    display: inline-block;
+    color: #173848;
+    border: 1px solid #d4bb83;
+    background: #fff7e5;
+    border-radius: 999px;
+    padding: 1.6mm 3mm;
+    margin: 0 1.5mm 1.7mm 0;
+    font-size: 8.5px;
+    font-weight: 800;
+  }
+  ul {
+    margin: 0;
+    padding-left: 4.3mm;
+  }
+  li {
+    margin: 0 0 1.8mm;
+    font-size: 9.3px;
+    line-height: 1.45;
+    color: #354454;
+  }
+  .metric-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3mm;
+    margin-top: 5mm;
+  }
+  .metric {
+    background: #173848;
+    color: #fff;
+    padding: 4mm;
+    border-radius: 7px;
+  }
+  .metric b {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 1mm;
+  }
+  .metric span {
+    display: block;
+    font-size: 8px;
+    line-height: 1.3;
+    opacity: .86;
+  }
+  .steps {
+    counter-reset: step;
+    display: grid;
+    gap: 2.3mm;
+  }
+  .step {
+    position: relative;
+    padding: 3mm 3.5mm 3mm 11mm;
+    border: 1px solid #dce5e6;
+    background: #fff;
+    border-radius: 6px;
+    font-size: 9.2px;
+    line-height: 1.45;
+    color: #354454;
+    font-weight: 650;
+  }
+  .step::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    left: 3mm;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5.8mm;
+    height: 5.8mm;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #b88734;
+    color: #173848;
+    font-size: 9px;
+    font-weight: 900;
+  }
+  .footer {
+    position: absolute;
+    left: 13mm;
+    right: 13mm;
+    bottom: 7mm;
+    border-top: 1px solid #dce5e6;
+    padding-top: 3mm;
+    display: flex;
+    justify-content: space-between;
+    gap: 6mm;
+    color: #677583;
+    font-size: 7.5px;
+    line-height: 1.3;
+  }
+  .section {
+    margin-bottom: 7mm;
+    break-inside: avoid;
+  }
+  .memo-page .content {
+    padding-bottom: 18mm;
+  }
+  .memo-page h1 {
+    font-size: 23px;
+  }
+  .memo-page p {
+    font-size: 9.7px;
+  }
+`;
+
+const briefHtml = `<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>OTC Hainan Australia VET Brief</title>
+  <style>${baseCss}</style>
+</head>
+<body>
+  <section class="page brief-page">
+    <header class="topbar">
+      <div class="brand">Overseas Tutorial Centre Ltd<span>OTC Australia Expansion · Hainan Cooperation</span></div>
+      <div class="date">Draft for Dawn Yun · 25 May 2026</div>
+    </header>
+    <section class="hero">
+      <div class="eyebrow">One-page cooperation brief</div>
+      <h1>OTC x 海南：澳洲 VET / TAFE 職業相關移民導向合作</h1>
+      <p class="subtitle">面向海南本地教育國際合作、職業教育、就業實習與學生發展機構，建立「海南本地學生資源 + OTC 海外操作能力 + 澳洲 VET/TAFE 通道」的可執行合作模型。</p>
+      <div class="metric-row">
+        <div class="metric"><b>5年+</b><span>小希留學平台型教育諮詢與學生轉介經驗</span></div>
+        <div class="metric"><b>VET</b><span>健康護理、社區服務、幼教、IT、商科等方向</span></div>
+        <div class="metric"><b>90天</b><span>試點講座、意向收集、route screening 與申請轉化</span></div>
+        <div class="metric"><b>合規</b><span>不承諾簽證、移民、工作結果，個案轉介專業人士</span></div>
+      </div>
+    </section>
+    <main class="content">
+      <div class="grid-2 section">
+        <article class="card gold">
+          <h2>合作定位</h2>
+          <p>OTC 希望與海南本地機構共同推進澳洲 VET / TAFE 職業教育方向合作，重點服務有海外職業發展、技能提升、就業實習能力準備及合規移民導向資訊需求的學生和家庭。</p>
+          <p>本合作不是單純留學廣告，也不承諾簽證、移民或就業結果；核心是用透明、可操作的方式幫助學生理解澳洲職業教育、課程選擇、英語要求、placement、職業方向與後續可能路線。</p>
+        </article>
+        <article class="card blue">
+          <h2>優先試點方向</h2>
+          <span class="pill">Aged Care</span>
+          <span class="pill">Individual Support</span>
+          <span class="pill">Community Services</span>
+          <span class="pill">Early Childhood</span>
+          <span class="pill">Health Support</span>
+          <span class="pill">Nursing-adjacent Pathway</span>
+          <span class="pill">Business / IT</span>
+          <span class="pill">Hospitality</span>
+          <p style="margin-top:3mm;">先以職業結果為導向，不以排名敘事為主，重點講清楚課程、技能、英語、實習、註冊、技能評估與簽證資訊之間的區別。</p>
+        </article>
+      </div>
+      <div class="grid-3 section">
+        <article class="card">
+          <h3>OTC 可提供</h3>
+          <ul>
+            <li>澳洲 VET / TAFE / private VET / ELICOS 路線資料整理。</li>
+            <li>學生 route screening、文件清單、材料預審和家長溝通。</li>
+            <li>英語、學術、職業能力與 workplace readiness 準備。</li>
+            <li>留學導報、雙語手冊、講座、短課和學習工具。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>海南合作方可提供</h3>
+          <ul>
+            <li>本地學生、家庭與職教機構觸達。</li>
+            <li>就業實習平台或國際合作項目入口。</li>
+            <li>線下講座、招生說明會及學生意向收集。</li>
+            <li>海南本地職教、康養、幼教、旅遊酒店需求反饋。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>合規邊界</h3>
+          <ul>
+            <li>不宣稱已獲澳洲 provider 任命，除非有書面 agreement。</li>
+            <li>不承諾簽證、移民、就業或收入結果。</li>
+            <li>個案 migration advice 轉介註冊移民代理或合資格專業人士。</li>
+          </ul>
+        </article>
+      </div>
+      <section class="section">
+        <h2>初步合作流程</h2>
+        <div class="steps">
+          <div class="step">Dawn Yun 老師協助引薦海南本地合適機構或負責人，先做一次線上初步溝通。</div>
+          <div class="step">選定 1-2 個職業方向試點，建議從 aged care / community services / early childhood 開始。</div>
+          <div class="step">OTC 提供講座提綱、路線說明、學生意向表與合規口徑；海南合作方組織學生/家長說明會。</div>
+          <div class="step">OTC 對意向學生進行非移民法律性質的教育 route screening，合適學生再進入 provider application、平台轉介或專業服務轉介。</div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>Overseas Tutorial Centre Ltd · UK education support and OTC Australia route development</div>
+      <div>Internal cooperation brief · Not a provider appointment or migration advice document</div>
+    </footer>
+  </section>
+</body>
+</html>`;
+
+const memoHtml = `<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>OTC Hainan Australia VET Cooperation Memorandum</title>
+  <style>${baseCss}</style>
+</head>
+<body>
+  <section class="page memo-page">
+    <header class="topbar">
+      <div class="brand">Overseas Tutorial Centre Ltd<span>OTC Australia Expansion · Cooperation Memorandum</span></div>
+      <div class="date">Draft · 25 May 2026</div>
+    </header>
+    <section class="hero">
+      <div class="eyebrow">Cooperation memorandum</div>
+      <h1>OTC 澳洲 VET / TAFE 擴展業務與海南本地機構合作備忘錄</h1>
+      <p class="subtitle">擬面向海南本地教育國際合作、就業實習、職業教育、學生發展及技能出海相關機構，建立以澳洲 VET/TAFE 職業教育與合規移民導向資訊服務為核心的招生與服務合作模型。</p>
+    </section>
+    <main class="content">
+      <div class="grid-2 section">
+        <article class="card">
+          <h2>合作背景</h2>
+          <p>OTC 是一家英國註冊的教育支持與國際學習服務機構，長期服務中國及海外華語家庭，主要工作包括國際升學路線規劃、學術支持、文件整理、課程銜接、家長溝通、學生監督學習與跨境教育資源協調。</p>
+          <p>澳洲 VET / TAFE、護理健康、社區服務、康養、幼教與職業實習方向重新成為中國家庭關注的技能出海路線。海南在國際教育合作、職教出海、青年就業與區域開放方面具有獨特位置。</p>
+        </article>
+        <article class="card gold">
+          <h2>核心定位</h2>
+          <p>OTC 希望將澳洲擴展業務重點放在「澳洲 VET / TAFE 職業教育、技能培養、就業實習能力準備及合規移民導向資訊服務」上。</p>
+          <p>合作模式不是承諾移民結果，而是幫助學生在早期看懂教育制度、職業方向、英語要求、placement、註冊、技能評估與簽證資訊之間的邏輯關係。</p>
+        </article>
+      </div>
+      <div class="grid-3 section">
+        <article class="card blue">
+          <h3>OTC 現有能力</h3>
+          <ul>
+            <li>英國教育服務、國際升學與家長溝通經驗。</li>
+            <li>OTHM approved centre 相關經驗和資格課程運作能力。</li>
+            <li>小希留學平台型學生轉介與 provider policy 跟蹤經驗。</li>
+            <li>澳洲 provider / TAFE / VET agent application 管線整理。</li>
+          </ul>
+        </article>
+        <article class="card blue">
+          <h3>澳洲拓展基礎</h3>
+          <ul>
+            <li>NT Government Schools agent application 已提交。</li>
+            <li>StudyAdelaide agent newsletter 已確認訂閱。</li>
+            <li>Study Melbourne / Global Victoria 公共資源已建立信息聯絡。</li>
+            <li>健康護理、社區服務、VET/TAFE 中文內容建設中。</li>
+          </ul>
+        </article>
+        <article class="card blue">
+          <h3>海南端價值</h3>
+          <ul>
+            <li>補充澳洲職教、技能出海和就業實習方向產品。</li>
+            <li>提升本地學生及家長服務黏性。</li>
+            <li>形成海南本地國際教育合作示範案例。</li>
+            <li>把本地職教需求轉化為可追蹤招生與服務數據。</li>
+          </ul>
+        </article>
+      </div>
+      <section class="section">
+        <h2>合作方向</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>VET / TAFE 職教與技能出海</h3>
+            <p>共同設計面向海南學生的澳洲職業教育服務包：TAFE / VET、健康護理、aged care、community services、early childhood、business、IT、hospitality 等方向解讀，並提供英語、學術、職業能力和文件準備支持。</p>
+          </article>
+          <article class="card">
+            <h3>就業實習與職涯準備</h3>
+            <p>共同開發澳洲職業方向介紹、英文 CV、面試、職場溝通、clinical / care communication、placement readiness 和國際實習資訊整理，在合規邊界內提供職涯導向服務。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>Page 1 · Cooperation concept and capability summary</div>
+      <div>Prepared for internal referral discussion with Dawn Yun and Hainan stakeholders</div>
+    </footer>
+  </section>
+
+  <section class="page memo-page">
+    <header class="topbar">
+      <div class="brand">Overseas Tutorial Centre Ltd<span>OTC Australia Expansion · Execution Model</span></div>
+      <div class="date">Draft · 25 May 2026</div>
+    </header>
+    <main class="content" style="padding-top:12mm;">
+      <section class="section">
+        <h2>共同建立招生與服務閉環</h2>
+        <div class="steps">
+          <div class="step">海南本地機構負責學生觸達、初步意向收集、線下信任建立和本地家長溝通。</div>
+          <div class="step">OTC 提供澳洲 VET/TAFE 職業路線設計、provider 信息、文件清單、英語/學術/職業能力準備與雙語家長溝通。</div>
+          <div class="step">合適學生按合規路徑進入平台轉介或 direct provider application；涉及簽證、移民、技能評估個案判斷時，轉介註冊專業人士。</div>
+          <div class="step">學生在申請、入學前、入學後由雙方分工支持，形成案例、內容、家長口碑和後續招生渠道。</div>
+        </div>
+      </section>
+      <div class="grid-2 section">
+        <article class="card gold">
+          <h2>三階段合作模式</h2>
+          <h3>第一階段：信息互通與試點（1-2 個月）</h3>
+          <p>Dawn Yun 老師協助介紹海南本地合適機構；OTC 提供公司簡介、澳洲方向服務說明、合規聲明和案例型材料；雙方選定 1-2 個試點方向。</p>
+          <h3>第二階段：共建內容與招生活動（2-4 個月）</h3>
+          <p>聯合舉辦澳洲 VET/TAFE 職業路線說明會，建立學生意向登記表，由 OTC 做初步 route screening。</p>
+          <h3>第三階段：申請轉化與案例沉澱（4-6 個月）</h3>
+          <p>對合適學生進行 provider application 支持，記錄需求、進度和問題類型，建立匿名案例庫並反哺澳洲 provider agent application。</p>
+        </article>
+        <article class="card">
+          <h2>優先產品包</h2>
+          <ul>
+            <li>海南學生澳洲 VET / TAFE 職業路線說明會。</li>
+            <li>Aged care / community services / early childhood 中文路線手冊。</li>
+            <li>英語 + 職業能力 + overseas study readiness 短課。</li>
+            <li>學生 route screening 表與家長溝通模板。</li>
+            <li>澳洲職業教育與合規移民資訊邊界講座。</li>
+            <li>海南本地職教機構國際合作試點方案。</li>
+          </ul>
+        </article>
+      </div>
+      <div class="grid-2 section">
+        <article class="card blue">
+          <h2>合規邊界</h2>
+          <ul>
+            <li>不宣稱任何澳洲院校、政府部門或教育集團已正式授權，除非有書面 appointment / agreement。</li>
+            <li>不承諾澳洲簽證結果、移民結果、工作結果或收入結果。</li>
+            <li>可以提供公開、一般性的澳洲職業教育與移民相關資訊解讀，但不得對個別學生作簽證策略、移民資格或成功率判斷。</li>
+            <li>涉及簽證、移民、法律或技能評估個案時，轉介註冊移民代理或合資格專業人士。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>給 Dawn Yun 老師的轉介話術</h2>
+          <p>Dawn 老師您好，OTC 目前正在系統化拓展澳洲方向教育服務，現階段重點放在澳洲 VET/TAFE 職業教育、健康護理、aged care、community services、early childhood、職業能力準備及合規移民導向資訊服務。</p>
+          <p>我們希望探索是否能與海南本地教育國際合作、職業教育、就業實習或學生發展相關機構建立合作，先從澳洲 VET/TAFE 職業路線說明、學生意向收集、家長溝通、英語與職業能力準備和試點案例開始。</p>
+        </article>
+      </div>
+      <section class="card gold">
+        <h2>建議下一步</h2>
+        <p>請 Dawn Yun 老師協助判斷海南端最適合先接觸的 1-2 類機構：職業院校 / 高職 / 中職、國際教育合作辦公室、就業實習平台、護理康養幼教或旅遊酒店相關培訓機構。OTC 可先準備一場「海南學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」線上試講。</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>Page 2 · Execution model, compliance boundary and next steps</div>
+      <div>Not a migration advice document · Provider information subject to official confirmation</div>
+    </footer>
+  </section>
+</body>
+</html>`;
+
+async function renderPdf(html, filename, options = {}) {
+  const htmlPath = path.join(outDir, filename.replace(/\.pdf$/, ".html"));
+  const pdfPath = path.join(outDir, filename);
+  fs.writeFileSync(htmlPath, html);
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  });
+  const page = await browser.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 1 });
+  await page.goto(`file://${htmlPath}`, { waitUntil: "load" });
+  await page.pdf({
+    path: pdfPath,
+    format: "A4",
+    landscape: Boolean(options.landscape),
+    printBackground: true,
+    displayHeaderFooter: false,
+    margin: { top: "0mm", right: "0mm", bottom: "0mm", left: "0mm" },
+  });
+  await browser.close();
+  return pdfPath;
+}
+
+(async () => {
+  const briefPdf = await renderPdf(
+    briefHtml,
+    "OTC_Hainan_Australia_VET_Migration_Oriented_One_Page_Brief_2026-05-25.pdf",
+    { landscape: true }
+  );
+  const memoPdf = await renderPdf(
+    memoHtml,
+    "OTC_Australia_Hainan_Cooperation_Memorandum_Draft_2026-05-25.pdf"
+  );
+  console.log(briefPdf);
+  console.log(memoPdf);
+})().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
