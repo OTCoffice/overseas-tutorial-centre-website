@@ -8622,6 +8622,178 @@ const universityPartnerships = pageShell({
   `
 });
 
+const portalNotice = `
+  <div class="notice portal-notice">
+    This first portal layer is a lightweight client-access interface for proposal viewing and case coordination. It is not a substitute for a production authentication system. Sensitive passports, transcripts and financial evidence should still be exchanged through agreed secure channels.
+  </div>
+`;
+
+const clientPortal = pageShell({
+  title: "OTC Client Portal | Parent, Student and Agent Access",
+  current: "portal",
+  noindex: true,
+  description: "Private OTC client portal entrance for parents, students and agent partners to review pathway plans, proposal documents and case checklists.",
+  path: "/client-portal/",
+  body: `
+    <section class="page-hero portal-hero"><div class="band"><div class="eyebrow">Client Access</div><h1>OTC Client Portal</h1><p>Three private-facing entrances for families, students and agent partners to review planning documents, case checklists and next-step notes.</p></div></section>
+    <main class="band portal-page">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Portal Map</div>
+        <h2>Different users need different views.</h2>
+        <p>Parents need fee scope, planning documents and case progress. Students need learning tasks and document checklists. Agent partners need referral notes, eligibility screening and communication records.</p>
+      </div>
+      <div class="portal-grid">
+        <a class="portal-card parent" href="/parent-portal/">
+          <b>01</b>
+          <strong>Parent Portal</strong>
+          <span>家長端口</span>
+          <p>View pathway proposals, service scope, fee notes, document requests and application progress.</p>
+          <em>Open parent access</em>
+        </a>
+        <a class="portal-card student" href="/student-portal/">
+          <b>02</b>
+          <strong>Student Portal</strong>
+          <span>學生端口</span>
+          <p>Review learning tasks, English-readiness plans, assignment support notes and submission checklists.</p>
+          <em>Open student access</em>
+        </a>
+        <a class="portal-card agent" href="/agent-portal/">
+          <b>03</b>
+          <strong>Agent Portal</strong>
+          <span>代辦端口</span>
+          <p>Coordinate referrals, case screening, document gaps, commission notes and adviser communication.</p>
+          <em>Open agent access</em>
+        </a>
+      </div>
+      ${portalNotice}
+    </main>
+  `
+});
+
+const parentPortal = pageShell({
+  title: "OTC Parent Portal | Family Case Documents",
+  current: "portal",
+  noindex: true,
+  description: "OTC parent portal for private family pathway proposals, fee scope, application progress and document checklists.",
+  path: "/parent-portal/",
+  body: `
+    <section class="page-hero portal-hero"><div class="band"><div class="eyebrow">Parent Portal</div><h1>Family Planning Documents</h1><p>家長端口：查看升學規劃書、服務範圍、費用說明、文件清單與下一步安排。</p></div></section>
+    <main class="band portal-page">
+      <div class="portal-login-layout">
+        <section class="portal-login-panel" data-portal-lock data-portal-password="OTC2027">
+          <div class="eyebrow">Secure Preview</div>
+          <h2>Enter access code</h2>
+          <p>For demonstration access, enter the case access code supplied by OTC. This page is marked noindex and should be replaced by server-side authentication for long-term use.</p>
+          <form class="portal-login-form" data-portal-form>
+            <label>
+              Access code
+              <input type="password" data-portal-input autocomplete="current-password" placeholder="Enter code">
+            </label>
+            <button class="btn btn-dark" type="submit">View family documents</button>
+            <span class="portal-error" data-portal-error aria-live="polite"></span>
+          </form>
+        </section>
+
+        <section class="portal-dashboard" data-portal-dashboard hidden>
+          <div class="portal-dashboard-head">
+            <div>
+              <div class="eyebrow">Active Family Case</div>
+              <h2>Yang Zixi · 2027 January UK Undergraduate Pathway</h2>
+              <p>OTHM Level 3 Foundation Diploma for Higher Education Studies → Coventry University London main route, with UCB–Warwick as non-London high-value alternative.</p>
+            </div>
+            <a class="btn btn-dark" href="/assets/client-files/yang-zixi-2027/OTC_Yang_Zixi_2027_January_UK_Undergraduate_Pathway_Proposal.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </div>
+          <div class="portal-status-strip">
+            <article><b>Student</b><strong>Yang Zixi</strong><span>Born 31 Dec 2008 · 18 by Jan 2027</span></article>
+            <article><b>Route</b><strong>OTHM Level 3</strong><span>Foundation Diploma for Higher Education Studies</span></article>
+            <article><b>Fee Scope</b><strong>£6,000</strong><span>OTC one-stop service to registration</span></article>
+          </div>
+          <div class="portal-doc-viewer">
+            <iframe title="Yang Zixi pathway proposal PDF" src="/assets/client-files/yang-zixi-2027/OTC_Yang_Zixi_2027_January_UK_Undergraduate_Pathway_Proposal.pdf"></iframe>
+          </div>
+          <div class="portal-task-grid">
+            <article><b>Next documents</b><p>High-school transcript screenshots, English evidence, passport details, Stratford living-arrangement note and subject preference.</p></article>
+            <article><b>English gatekeeper</b><p>English score and academic-writing readiness remain the key condition before confirming university application strategy.</p></article>
+            <article><b>Admissions note</b><p>University entry, intake availability, English condition and CAS eligibility must be confirmed with each receiving institution.</p></article>
+          </div>
+        </section>
+      </div>
+      ${portalNotice}
+    </main>
+    <script>
+      document.querySelectorAll("[data-portal-lock]").forEach((lock) => {
+        const form = lock.querySelector("[data-portal-form]");
+        const input = lock.querySelector("[data-portal-input]");
+        const error = lock.querySelector("[data-portal-error]");
+        const dashboard = document.querySelector("[data-portal-dashboard]");
+        const key = "otc_parent_portal_preview";
+        const reveal = () => {
+          lock.hidden = true;
+          dashboard.hidden = false;
+          try { sessionStorage.setItem(key, "open"); } catch (e) {}
+        };
+        try {
+          if (sessionStorage.getItem(key) === "open") reveal();
+        } catch (e) {}
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          if ((input.value || "").trim() === lock.dataset.portalPassword) {
+            reveal();
+          } else {
+            error.textContent = "Access code not recognised.";
+            input.focus();
+          }
+        });
+      });
+    </script>
+  `
+});
+
+const studentPortal = pageShell({
+  title: "OTC Student Portal | Learning Tasks and Checklists",
+  current: "portal",
+  noindex: true,
+  description: "OTC student portal for English readiness, learning tasks, assignment planning and document checklists.",
+  path: "/student-portal/",
+  body: `
+    <section class="page-hero portal-hero"><div class="band"><div class="eyebrow">Student Portal</div><h1>Learning Tasks & Case Checklist</h1><p>學生端口：把升學方案轉成每週學習任務、英文輸出訓練、文件清單與進度節點。</p></div></section>
+    <main class="band portal-page">
+      <div class="portal-workbench">
+        <article><b>English readiness</b><strong>英文能力是核心門檻</strong><p>Diagnostic grammar, academic vocabulary, paragraph output and interview / admissions communication practice.</p></article>
+        <article><b>OTHM Level 3 support</b><strong>Assignment-based route</strong><p>Brief reading, evidence planning, academic-writing frames and responsible feedback-based revision.</p></article>
+        <article><b>Application documents</b><strong>Student-owned evidence</strong><p>Transcript, passport, English evidence, study intention, personal statement notes and course preference.</p></article>
+        <article><b>Weekly rhythm</b><strong>Small tasks, visible progress</strong><p>Reading, vocabulary, writing draft, tutor feedback, revision and final document preparation.</p></article>
+      </div>
+      ${portalNotice}
+    </main>
+  `
+});
+
+const agentPortal = pageShell({
+  title: "OTC Agent Portal | Referral and Case Coordination",
+  current: "portal",
+  noindex: true,
+  description: "OTC agent portal for referral intake, eligibility notes, document gap lists and case coordination.",
+  path: "/agent-portal/",
+  body: `
+    <section class="page-hero portal-hero"><div class="band"><div class="eyebrow">Agent Portal</div><h1>Referral & Case Coordination</h1><p>代辦端口：用於轉介案件、資格初篩、文件差距、溝通紀錄與後續申請協調。</p></div></section>
+    <main class="band portal-page">
+      <div class="portal-workbench">
+        <article><b>Referral intake</b><strong>Student profile first</strong><p>Student name, date of birth, current school year, target intake, family location, subject preference and budget scope.</p></article>
+        <article><b>Eligibility screen</b><strong>Route before promise</strong><p>Check whether the case is direct-entry, foundation, OTHM, BTEC, International Year One or another route.</p></article>
+        <article><b>Document gap list</b><strong>No hidden missing evidence</strong><p>Transcript, English evidence, passport, consent, living arrangement and prior study documents.</p></article>
+        <article><b>Communication record</b><strong>Clean handover</strong><p>OTC can maintain family-facing proposal notes, university questions and next-step reminders.</p></article>
+      </div>
+      <div class="application-link-strip">
+        <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Agent%20Referral%20Case%20Intake">Submit referral by email</a>
+        <a class="btn btn-light" href="/application-service-standards/">Application standards</a>
+        <a class="btn btn-light" href="/university-applications/">Application services</a>
+      </div>
+      ${portalNotice}
+    </main>
+  `
+});
+
 const home = pageShell({
   title: "Overseas Tutorial Centre Ltd (OTC) | 海外督導 | UK Education Consulting",
   description: "Official website of Overseas Tutorial Centre Ltd (OTC) / 海外督導: UK education consulting, international curriculum tutoring, bilingual study guides, study apps and Overseas Publishing resources.",
@@ -15368,6 +15540,10 @@ write("study-group-2026-applications", studyGroup2026Applications);
 write("application-service-standards", applicationServiceStandards);
 write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
+write("client-portal", clientPortal);
+write("parent-portal", parentPortal);
+write("student-portal", studentPortal);
+write("agent-portal", agentPortal);
 regionalOfficePages.forEach((office) => {
   write(`offices/${office.id}`, office.html);
 });
@@ -15477,7 +15653,17 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   ]
 }, null, 2) + "\n");
 
-const sitemap = [...new Set(generatedRoutes)].sort().map((publicPath) => {
+const sitemapExcludedRoutes = new Set([
+  "/client-portal/",
+  "/parent-portal/",
+  "/student-portal/",
+  "/agent-portal/"
+]);
+
+const sitemap = [...new Set(generatedRoutes)]
+  .filter((publicPath) => !sitemapExcludedRoutes.has(publicPath))
+  .sort()
+  .map((publicPath) => {
   const loc = new URL(publicPath, SITE_URL).toString();
   return `  <url><loc>${loc}</loc></url>`;
 }).join("\n");

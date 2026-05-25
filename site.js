@@ -67,6 +67,7 @@ function nav(current = "", locale = "en") {
             <a href="/zh/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
             <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>關於 OTC</a>
             <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>搜索</a>
+            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>客戶端口</a>
             <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
             <a class="nav-cta" href="/publishing/">出版更新</a>
           ` : `
@@ -80,6 +81,7 @@ function nav(current = "", locale = "en") {
             <a href="/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>Review</a>
             <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>About OTC</a>
             <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>Search</a>
+            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>Portal</a>
             <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
             <a class="nav-cta" href="/publishing/">Publishing Updates</a>
           `}
@@ -291,7 +293,7 @@ function pageUtilityScript() {
   `;
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
@@ -327,6 +329,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title}</title>
   <meta name="description" content="${description}">
+  ${noindex ? '<meta name="robots" content="noindex, nofollow">' : ""}
   <link rel="canonical" href="${canonicalUrl}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="${BRAND_NAME}">
