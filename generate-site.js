@@ -1816,6 +1816,99 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "new-zealand-aewv-skill-level-3-english-requirement-2026",
+    title: "New Zealand AEWV Update: English Requirement Extends to Skill Level 3 Roles from 1 June 2026",
+    date: "2026-05-25",
+    category: "New Zealand Policy Watch",
+    column: "study",
+    kicker: "New Zealand · AEWV · English requirement",
+    author: "留學導報編輯部",
+    summary: "Immigration New Zealand has confirmed that from 1 June 2026, AEWV applicants in ANZSCO or National Occupation List skill level 3 roles must meet the minimum English language requirement, with targeted transitional exemptions for some current AEWV holders.",
+    titleZh: "紐西蘭 AEWV 新規：2026 年 6 月 1 日起 Skill Level 3 職位也要英文證明",
+    summaryZh: "Immigration New Zealand 已確認，自 2026 年 6 月 1 日起，AEWV 申請中屬於 ANZSCO 或 National Occupation List skill level 3 的職位，也須符合最低英文能力要求。部分現有 AEWV 持有人有過渡豁免。",
+    relatedReadings: [
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "uk-aus-application-documents-checklist",
+      "australia-locum-pharmacist-fifo-career-guide"
+    ],
+    resources: [
+      ["Immigration New Zealand announcement", "https://www.immigration.govt.nz/about-us/news-centre/english-language-requirements-extended-to-aewv-skill-level-3-roles/"],
+      ["AEWV English language requirements", "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/english-language-requirements/english-language-requirements-for-an-accredited-employer-work-visa/"],
+      ["Beehive government release", "https://www.beehive.govt.nz/release/english-language-requirement-extended-aewv-skill-level-3-roles"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-25。信息來源為 Immigration New Zealand 2026-05-25 公告及 Beehive 同日政府新聞稿。",
+      "本文按官方公告整理為一般資訊，不構成紐西蘭移民建議。"
+    ],
+    body: [
+      {
+        heading: "1) What has changed",
+        paragraphs: [
+          "Immigration New Zealand has announced that from 1 June 2026, minimum English language requirements for the Accredited Employer Work Visa (AEWV) will extend to ANZSCO and National Occupation List (NOL) skill level 3 occupations.",
+          "The English requirement already applied to AEWV roles at skill levels 4 and 5. The policy change brings skill level 3 roles into the same minimum-English framework."
+        ]
+      },
+      {
+        heading: "2) Who is affected",
+        paragraphs: [
+          "The change affects people applying for an AEWV in a skill level 3 role from 1 June 2026. INZ says this applies even where the employer received a job check token before 1 June 2026.",
+          "The requirement does not retrospectively change a current valid AEWV. INZ also notes that Global Workforce Seasonal Visa and Peak Seasonal Visa AEWV applications are not required to meet the minimum English standard, and the requirement does not apply to Job Change applications."
+        ]
+      },
+      {
+        heading: "3) Evidence and transitional arrangements",
+        paragraphs: [
+          "The official minimum standard is described as basic, everyday English. INZ's English requirement page lists acceptable evidence routes, including approved English-language test results such as IELTS overall 4.0 or equivalent accepted scores.",
+          "People already holding an AEWV that expires on or before 1 December 2026 will be exempt from the new English requirement when applying for a further AEWV at skill level 3. People who have already provided English evidence in a previous AEWV application may also be exempt."
+        ]
+      },
+      {
+        heading: "4) What applicants and employers should check now",
+        paragraphs: [
+          "Applicants should first confirm the job's ANZSCO or NOL skill level, then check whether they already qualify through an exemption or need to arrange an accepted test result.",
+          "Employers recruiting into skill level 3 roles should build the English evidence timeline into hiring plans. Immigration advice should be provided only by appropriately qualified professionals or through official channels."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、政策變化：Skill Level 3 納入 AEWV 英文要求",
+        paragraphs: [
+          "Immigration New Zealand 已於 2026 年 5 月 25 日公告：自 2026 年 6 月 1 日起，Accredited Employer Work Visa（AEWV）中屬於 ANZSCO 或 National Occupation List（NOL）skill level 3 的職位，也需要符合最低英文能力要求。",
+          "此前 AEWV 英文要求主要適用於 skill level 4 和 5 職位。新規將 skill level 3 拉入同一套最低英文框架，官方說明目的在於讓移工能以基本日常英文理解權利義務、工作溝通與生活情境。"
+        ]
+      },
+      {
+        heading: "二、誰會受影響",
+        paragraphs: [
+          "從 2026 年 6 月 1 日起，凡申請 skill level 3 職位 AEWV 的申請人，需要符合英文要求。INZ 公告中特別指出：即使雇主在 2026 年 6 月 1 日前已取得 job check token，申請人若從 6 月 1 日起遞交 skill level 3 AEWV，仍需符合新英文要求。",
+          "現有有效 AEWV 不會被追溯影響。INZ 亦說明，Global Workforce Seasonal Visa 與 Peak Seasonal Visa 的 AEWV 申請無需符合此最低英文要求；Job Change application 也不適用此要求。"
+        ]
+      },
+      {
+        heading: "三、英文證明與分數參考",
+        paragraphs: [
+          "官方口徑是 basic, everyday English，並非高階英文。INZ 的 AEWV 英文要求頁列出可接受證明方式，包括認可英文測試成績；政府新聞稿提到現行基準為 IELTS 4.0 或同等水平。",
+          "原稿中提到 TOEFL iBT overall 31、PTE Academic overall 29 等分數，應以 INZ 英文要求頁最新列表為準。申請時還要注意成績有效期、考試形式與是否為 INZ 接受的測試結果。"
+        ]
+      },
+      {
+        heading: "四、過渡豁免：現有 AEWV 持有人要看日期",
+        paragraphs: [
+          "INZ 公告列明，已持有 AEWV 且簽證在 2026 年 12 月 1 日或之前到期的人，如申請新的 skill level 3 AEWV，可豁免新的英文要求。已在過往 AEWV 申請中提供過英文證明的人，也可能獲豁免。",
+          "這一過渡安排不代表所有續簽者都免英文。讀者需要按自己的簽證到期日、職位 skill level、過往是否已提供英文證明，以及本次申請類型逐項核對。"
+        ]
+      },
+      {
+        heading: "五、申請人與雇主現在應做什麼",
+        paragraphs: [
+          "申請人先確認職位的 ANZSCO 或 NOL skill level，再判斷是否屬於 2026 年 6 月 1 日後遞交、是否有過渡豁免、是否需要提前安排 IELTS 或其他認可英文測試。",
+          "雇主則應把英文證明時間納入招聘與入職計劃，避免職位已通過 job check，但候選人因英文證明未準備好而延誤遞交。涉及簽證策略、豁免判斷或個案風險時，應以 INZ 官方資訊或合資格移民顧問 / 律師意見為準。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
     title: "Australia Hairdresser Pathway: RPL, Certificate III and Employer Sponsorship Need to Be Separated",
     date: "2026-05-25",
