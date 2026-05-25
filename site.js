@@ -223,7 +223,7 @@ function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
           <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}" target="_blank" rel="noopener">Facebook</a>
           <a href="https://wa.me/?text=${encodeURIComponent(shareText + " " + canonicalUrl)}" target="_blank" rel="noopener">WhatsApp</a>
           <a href="https://t.me/share/url?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(shareText)}" target="_blank" rel="noopener">Telegram</a>
-          <a href="mailto:?subject=${encodeURIComponent(shareText)}&body=${encodeURIComponent(canonicalUrl)}">Email</a>
+          <button type="button" data-email-share data-email-subject="${encodeURIComponent(shareText)}" data-email-body="${encodeURIComponent(canonicalUrl)}" data-email-done="${isZh ? "已複製郵件" : "Email copied"}">Email</button>
           <button type="button" data-page-copy-link="${canonicalUrl}">${isZh ? "複製連結" : "Copy link"}</button>
         </div>
       </div>
@@ -261,6 +261,30 @@ function pageUtilityScript() {
           window.setTimeout(() => {
             button.textContent = originalLabel;
           }, 1400);
+        });
+      });
+      document.querySelectorAll("[data-email-share]").forEach((button) => {
+        if (button.dataset.emailShareBound === "true") return;
+        button.dataset.emailShareBound = "true";
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const subject = decodeURIComponent(button.dataset.emailSubject || "");
+          const body = decodeURIComponent(button.dataset.emailBody || "");
+          const mailto = "mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          const draft = "Subject: " + subject + "\\n\\n" + body;
+          try {
+            await navigator.clipboard.writeText(draft);
+            button.textContent = button.dataset.emailDone || "Email copied";
+          } catch (error) {
+            button.textContent = button.dataset.emailDone || "Email ready";
+          }
+          window.setTimeout(() => {
+            window.location.href = mailto;
+          }, 80);
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1800);
         });
       });
     </script>

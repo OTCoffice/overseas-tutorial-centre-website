@@ -6234,7 +6234,7 @@ function shareLinks(article, localePath = "") {
       <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">Facebook</a>
       <a href="https://wa.me/?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">WhatsApp</a>
       <a href="https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a>
-      <a href="mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(articleUrl)}">Email</a>
+      <button type="button" data-email-share data-email-subject="${encodeURIComponent(text)}" data-email-body="${encodeURIComponent(articleUrl)}" data-email-done="Email copied">Email</button>
       <button type="button" data-copy-link="${articleUrl}">Copy link</button>
       <button type="button" data-copy-link="${articleUrl}">WeChat copy</button>
     </div>
@@ -6268,6 +6268,30 @@ function shareLinks(article, localePath = "") {
           }, 1400);
         });
       });
+      document.querySelectorAll("[data-email-share]").forEach((button) => {
+        if (button.dataset.emailShareBound === "true") return;
+        button.dataset.emailShareBound = "true";
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const subject = decodeURIComponent(button.dataset.emailSubject || "");
+          const body = decodeURIComponent(button.dataset.emailBody || "");
+          const mailto = "mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          const draft = "Subject: " + subject + "\\n\\n" + body;
+          try {
+            await navigator.clipboard.writeText(draft);
+            button.textContent = button.dataset.emailDone || "Email copied";
+          } catch (error) {
+            button.textContent = button.dataset.emailDone || "Email ready";
+          }
+          window.setTimeout(() => {
+            window.location.href = mailto;
+          }, 80);
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1800);
+        });
+      });
     </script>
   `;
 }
@@ -6286,7 +6310,7 @@ function shareLinksHerald(article, locale = "en", placement = "bottom") {
       <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://wa.me/?text=${encodeURIComponent(text + " " + articleUrl)}" target="_blank" rel="noopener">WhatsApp</a>
       <a href="https://t.me/share/url?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a>
-      <a href="mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(articleUrl)}">Email</a>
+      <button type="button" data-email-share data-email-subject="${encodeURIComponent(text)}" data-email-body="${encodeURIComponent(articleUrl)}" data-email-done="${isZh ? "已複製郵件" : "Email copied"}">Email</button>
       <button type="button" data-copy-link="${articleUrl}">${isZh ? "複製連結" : "Copy link"}</button>
       <button type="button" data-copy-link="${articleUrl}">Instagram</button>
       <button type="button" data-copy-link="${articleUrl}">${isZh ? "微信複製" : "WeChat copy"}</button>
@@ -6340,6 +6364,30 @@ function heraldShareScript() {
           window.setTimeout(() => {
             button.textContent = originalLabel;
           }, 1400);
+        });
+      });
+      document.querySelectorAll("[data-email-share]").forEach((button) => {
+        if (button.dataset.emailShareBound === "true") return;
+        button.dataset.emailShareBound = "true";
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const subject = decodeURIComponent(button.dataset.emailSubject || "");
+          const body = decodeURIComponent(button.dataset.emailBody || "");
+          const mailto = "mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          const draft = "Subject: " + subject + "\\n\\n" + body;
+          try {
+            await navigator.clipboard.writeText(draft);
+            button.textContent = button.dataset.emailDone || "Email copied";
+          } catch (error) {
+            button.textContent = button.dataset.emailDone || "Email ready";
+          }
+          window.setTimeout(() => {
+            window.location.href = mailto;
+          }, 80);
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1800);
         });
       });
     </script>

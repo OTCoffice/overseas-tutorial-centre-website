@@ -55,7 +55,7 @@
           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-vet-tafe-pathways%2F" target="_blank" rel="noopener">Facebook</a>
           <a href="https://wa.me/?text=%E6%BE%B3%E6%B4%B2%20VET%20%2F%20TAFE%20%E8%81%B7%E6%A5%AD%E5%9F%B9%E8%A8%93%E8%B7%AF%E7%B7%9A%E7%B8%BD%E8%A6%BD%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-vet-tafe-pathways%2F" target="_blank" rel="noopener">WhatsApp</a>
           <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-vet-tafe-pathways%2F&text=%E6%BE%B3%E6%B4%B2%20VET%20%2F%20TAFE%20%E8%81%B7%E6%A5%AD%E5%9F%B9%E8%A8%93%E8%B7%AF%E7%B7%9A%E7%B8%BD%E8%A6%BD%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
-          <a href="mailto:?subject=%E6%BE%B3%E6%B4%B2%20VET%20%2F%20TAFE%20%E8%81%B7%E6%A5%AD%E5%9F%B9%E8%A8%93%E8%B7%AF%E7%B7%9A%E7%B8%BD%E8%A6%BD%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub&body=https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-vet-tafe-pathways%2F">Email</a>
+          <button type="button" data-email-share data-email-subject="%E6%BE%B3%E6%B4%B2%20VET%20%2F%20TAFE%20%E8%81%B7%E6%A5%AD%E5%9F%B9%E8%A8%93%E8%B7%AF%E7%B7%9A%E7%B8%BD%E8%A6%BD%20%7C%20OTC%20Study%20Hub%20%7C%20OTC%20Study%20Hub" data-email-body="https%3A%2F%2Foverseasuk.com%2Fzh%2Faustralia-vet-tafe-pathways%2F" data-email-done="已複製郵件">Email</button>
           <button type="button" data-page-copy-link="https://overseasuk.com/zh/australia-vet-tafe-pathways/">複製連結</button>
         </div>
       </div>
@@ -223,6 +223,30 @@
           window.setTimeout(() => {
             button.textContent = originalLabel;
           }, 1400);
+        });
+      });
+      document.querySelectorAll("[data-email-share]").forEach((button) => {
+        if (button.dataset.emailShareBound === "true") return;
+        button.dataset.emailShareBound = "true";
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const subject = decodeURIComponent(button.dataset.emailSubject || "");
+          const body = decodeURIComponent(button.dataset.emailBody || "");
+          const mailto = "mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          const draft = "Subject: " + subject + "\n\n" + body;
+          try {
+            await navigator.clipboard.writeText(draft);
+            button.textContent = button.dataset.emailDone || "Email copied";
+          } catch (error) {
+            button.textContent = button.dataset.emailDone || "Email ready";
+          }
+          window.setTimeout(() => {
+            window.location.href = mailto;
+          }, 80);
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1800);
         });
       });
     </script>
