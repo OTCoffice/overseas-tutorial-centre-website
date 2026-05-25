@@ -381,7 +381,37 @@ All four instructions may relate to marketing, but they do not ask for the same 
 
 很多學生一看到 marketing、finance、HR，就立刻開始寫自己背過的內容。但 brief 中的動詞才是真正決定答案結構的地方。Describe、Explain、Analyse、Evaluate 不是同義詞。題目動詞不同，答案深度、證據使用和結論方式都不同。
 
-## 2.2 The brief-reading formula
+An assignment brief should be read slowly, more than once. The first reading is for orientation: What is the broad topic? The second reading is for task control: What exactly must be produced? The third reading is for assessment risk: What evidence, format, deadline and academic-integrity conditions must be followed?
+
+Many learners treat the brief as a topic sheet. This is not enough. A brief is closer to a contract between the learner and the assessment task. It tells the learner what kind of work is expected, what kind of evidence may be needed, and what kind of writing will be judged.
+
+### 中文提示
+
+Assignment brief 不是「作文題目」。它更像一份任務合約。學生必須知道自己要交什麼、按什麼格式交、用什麼證據支撐、哪些事情不能做。如果只看 topic，不看 task instruction，就很容易寫偏。
+
+## 2.2 The four parts of a brief
+
+Although assignment briefs vary by centre, many contain four kinds of information:
+
+1. **Scenario or context**: the business case, role or situation.
+2. **Tasks**: what the learner must produce.
+3. **Assessment criteria or learning aims**: what the task is connected to.
+4. **Submission instructions**: format, deadline, word count, references and academic-integrity rules.
+
+The learner should not treat these as separate decorations. They work together. The scenario limits the business context. The task tells the learner what to do. The criteria indicate the expected depth. The submission instructions control the practical delivery.
+
+| Brief part | What to look for | 中文審題問題 |
+| --- | --- | --- |
+| Scenario | Business type, size, customer group, problem | 題目給了什麼企業情境？限制是什麼？ |
+| Task | Command word and output type | 我要 describe、explain、analyse 還是 evaluate？ |
+| Criteria | Level of thinking and evidence | 這個任務是基本描述、應用分析還是評估判斷？ |
+| Submission | Format and rules | 要 report、presentation、poster 還是 portfolio？引用和截止要求是什麼？ |
+
+### 中文提示
+
+很多學生只看 task，不看 scenario。這會導致答案像通用商科筆記，而不是針對題目。也有學生只看 criteria，不看 submission format，最後內容可能有了，但格式不合要求。讀 brief 時要四個部分一起看。
+
+## 2.3 The brief-reading formula
 
 Before writing, mark the brief in three parts:
 
@@ -418,7 +448,40 @@ Breakdown:
 
 如果學生忽略這些限制，答案就會跑題。
 
-## 2.3 Command words and writing depth
+### Annotation method
+
+Use a simple four-colour annotation system if allowed:
+
+- Circle the command word.
+- Underline the task object.
+- Box the business context.
+- Highlight the evidence or submission requirement.
+
+If using a digital brief, copy the task into a planning document and annotate it before writing any paragraph.
+
+Example annotation:
+
+> **Explain** how a **small business** could use a **low-budget promotional campaign** to attract **local student customers**.
+
+Annotated meaning:
+
+- Explain = give reasons and show links.
+- Small business = keep recommendations realistic.
+- Low-budget promotional campaign = focus on cost-conscious methods.
+- Local student customers = target market must remain specific.
+
+### 中文操作
+
+可以把題目拆成四個框：
+
+1. 動詞：Explain。
+2. 企業限制：small business。
+3. 任務對象：low-budget promotional campaign。
+4. 目標顧客：local student customers。
+
+拆完之後，學生就知道不能寫大型品牌 campaign，不能寫所有顧客，也不能只列 promotion methods。
+
+## 2.4 Command words and writing depth
 
 | Command word | What it usually requires | 中文操作提示 |
 | --- | --- | --- |
@@ -436,6 +499,155 @@ Do not use the same paragraph style for all command words. A descriptive paragra
 ### 中文提醒
 
 最常見的失分方式，是題目要求 evaluate，但學生只寫 describe。另一種常見問題，是題目要求 recommend，但學生只寫「我建議……」卻沒有說明為什麼這個方案更適合該企業。
+
+## 2.5 Command word ladder
+
+The command words can be imagined as a ladder. The higher steps normally require more reasoning.
+
+| Step | Command words | Main writing move | 中文理解 |
+| --- | --- | --- | --- |
+| 1 | Identify, list, outline | State key points | 說出是什麼 |
+| 2 | Describe | Give features or details | 描述特徵 |
+| 3 | Explain | Give reasons and links | 說明原因和關係 |
+| 4 | Analyse | Break into parts and show effects | 拆解因素和影響 |
+| 5 | Compare | Judge similarities and differences | 比較差異及其意義 |
+| 6 | Evaluate, justify, recommend | Make a reasoned judgement | 作出有證據的判斷 |
+
+This ladder is not a formal grading scale. It is a planning tool. It helps the learner check whether the paragraph is deep enough for the command word.
+
+### 中文提示
+
+這個 ladder 不是官方評分表，而是寫作自查工具。如果題目要求 evaluate，但學生段落只停留在 describe，就說明深度不夠。寫作時可以問：我現在是在說「是什麼」，還是在說「為什麼」，還是在作出「有條件的判斷」？
+
+## 2.6 Task object: the part learners often miss
+
+The command word is important, but the task object is equally important. The task object tells the learner what exactly must be discussed.
+
+Compare:
+
+- Evaluate the effectiveness of a promotional campaign.
+- Evaluate the effectiveness of a recruitment process.
+- Evaluate the effectiveness of financial planning.
+
+The command word is the same: evaluate. But the task object changes the whole answer.
+
+For a promotional campaign, the learner may need to discuss target customers, channels, message, cost and response. For recruitment, the learner may need to discuss job description, selection method, fairness, cost and quality of hire. For financial planning, the learner may need to discuss cash flow, budget control, forecasting and risk.
+
+### 中文提示
+
+學生常常只圈動詞，不圈 task object。這是不夠的。Evaluate 只是告訴你「要評估」，但評估什麼？promotion、recruitment、finance，每一個對象需要的證據和概念都不同。
+
+## 2.7 Evidence demand: what proof does the brief imply?
+
+Some briefs state the evidence requirement clearly. Others imply it. The learner must learn to infer what evidence is needed.
+
+If the task asks about a marketing campaign, possible evidence may include:
+
+- target customer profile
+- campaign cost
+- social media engagement
+- customer feedback
+- sales pattern
+- competitor activity
+
+If the task asks about recruitment, possible evidence may include:
+
+- job description
+- person specification
+- application process
+- interview notes
+- selection criteria
+- training or turnover issues
+
+If the task asks about finance, possible evidence may include:
+
+- revenue and cost figures
+- cash-flow forecast
+- break-even point
+- budget variance
+- profit margin
+- financial risk
+
+### 中文提示
+
+Evidence 不是寫完正文後補一個 reference。Evidence 是一開始就要規劃的。不同 task object 需要不同證據。Marketing 需要顧客和渠道證據；recruitment 需要職位和選拔證據；finance 需要數字和預測證據。不能用同一套例子打天下。
+
+## 2.8 Output type: report, presentation, portfolio or written response
+
+Many learners focus only on content and forget the output type. A report is not written like a speech. A presentation is not structured like an essay. A portfolio may require evidence files, screenshots, tables or reflection notes.
+
+| Output type | What it usually needs | Common learner mistake |
+| --- | --- | --- |
+| Report | headings, paragraphs, evidence, conclusion | writing one long essay without headings |
+| Presentation | concise points, speaker notes, visuals | putting full paragraphs on slides |
+| Portfolio | evidence items and commentary | uploading evidence without explaining it |
+| Written response | direct answer to task wording | writing everything known about the topic |
+
+### 中文提示
+
+交付形式很重要。Report 要像 report，有 heading、有 evidence、有 conclusion。Presentation 要適合展示，不是把 essay 貼到 slide 上。Portfolio 不是文件堆積，要說明每個 evidence item 證明什麼。
+
+## 2.9 The danger of writing from memory
+
+Writing from memory feels fast, but it often causes three problems:
+
+1. The answer becomes too generic.
+2. The paragraph ignores the business scenario.
+3. The learner forgets the exact command word.
+
+For example, if the learner has memorised the marketing mix, they may write about product, price, place and promotion even when the task only asks for a promotional campaign. This wastes space and may weaken focus.
+
+### 中文提示
+
+背過的內容不能直接倒進 assignment。Assignment 不是默寫商科筆記。學生要先看題目需要哪一部分知識，再選擇使用。多寫不等於高分，寫偏會降低答案質量。
+
+## 2.10 Planning grid before writing
+
+Before writing a paragraph, complete a small planning grid.
+
+| Question | Learner note |
+| --- | --- |
+| What is the command word? |  |
+| What is the task object? |  |
+| What business context must I use? |  |
+| What evidence do I need? |  |
+| What limitation should I consider? |  |
+| What output format is required? |  |
+
+### Example completed grid
+
+| Question | Learner note |
+| --- | --- |
+| What is the command word? | Explain |
+| What is the task object? | Low-budget promotional campaign |
+| What business context must I use? | Small cafe near a railway station |
+| What evidence do I need? | Customer group, weekend sales issue, low-cost channels |
+| What limitation should I consider? | Staff time, weak tracking, customer response uncertainty |
+| What output format is required? | Short business report |
+
+### 中文提示
+
+這個 planning grid 看起來簡單，但能避免大量跑題。每一段寫之前都可以快速填一次。如果填不出 evidence 或 limitation，說明這一段還沒有準備好。
+
+## Chapter 2 quick self-check
+
+Before moving to Chapter 3, the learner should be able to answer:
+
+1. What are the four parts of an assignment brief?
+2. What is the difference between command word and task object?
+3. Why is evidence demand important before writing?
+4. Why should output type affect writing style?
+5. Why is writing from memory risky?
+
+### 中文自查
+
+進入第三章之前，學生應該能說清：
+
+1. assignment brief 通常包含哪四個部分？
+2. command word 和 task object 有什麼不同？
+3. 為什麼 evidence 要在寫作前規劃？
+4. 為什麼 report、presentation、portfolio 寫法不同？
+5. 為什麼不能直接把背過的知識倒進 assignment？
 
 ---
 
