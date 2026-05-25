@@ -1816,6 +1816,483 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
+    title: "Australia Hairdresser Pathway: RPL, Certificate III and Employer Sponsorship Need to Be Separated",
+    date: "2026-05-25",
+    category: "Australia Pathways",
+    column: "study",
+    kicker: "Australia · Trades · RPL",
+    author: "留學導報編輯部",
+    summary: "A publication-safe guide to the hairdressing route in Australia: what RPL can and cannot do, why the qualification record matters, and why migration advice must be separated from course and skills-document preparation.",
+    titleZh: "澳洲美髮師路線：RPL、Certificate III 與雇主擔保要先分清楚",
+    summaryZh: "美髮經驗可以成為澳洲技職與職業評估材料的一部分，但不能把 RPL、證書、職業清單、雇主擔保與簽證結果混成一句「包移民」。本文把可整理的材料、必須核查的官方入口與出版風險分開說清楚。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "australia-new-zealand-provider-pathway-updates-2026"
+    ],
+    resources: [
+      ["Australia skilled occupation list", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list"],
+      ["training.gov.au qualification records", "https://training.gov.au/"],
+      ["Trades Recognition Australia", "https://www.tradesrecognitionaustralia.gov.au/"]
+    ],
+    body: [
+      {
+        heading: "1) Start with the distinction",
+        paragraphs: [
+          "For hairdressers considering Australia, three things must be separated: recognition of prior learning, the Australian qualification record, and any later visa or employer-sponsorship question.",
+          "RPL may help an education or training provider assess whether past work evidence can count toward a qualification outcome. It is not, by itself, a visa grant, a job offer or a professional migration guarantee."
+        ]
+      },
+      {
+        heading: "2) Evidence that usually matters",
+        paragraphs: [
+          "A practical evidence pack normally includes employment references, payslips or tax records where available, photos of work, service menus, training certificates, customer or employer records, and a clear timeline of duties.",
+          "The key editorial point is evidence quality. A claim such as 'years of salon work' is weaker than dated, verifiable documents showing the work performed."
+        ]
+      },
+      {
+        heading: "3) Official checks before any public claim",
+        paragraphs: [
+          "Before publishing or advising, check the relevant occupation entry through the Australian Department of Home Affairs skilled occupation list, the qualification record through training.gov.au, and any skills assessment pathway through the responsible assessment body.",
+          "If the matter becomes migration advice, it should be handled by a registered migration professional or the relevant official channel."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先把三件事拆開",
+        paragraphs: [
+          "美髮師考慮澳洲路線時，最容易被混在一起的是三件事：RPL（Recognition of Prior Learning，既有經驗認定）、澳洲技職資格（例如與 Certificate III in Hairdressing 相關的培訓記錄）、以及後續是否能走雇主擔保或其他簽證路線。",
+          "RPL 的作用，是讓培訓機構或相關評估方根據過往工作證據判斷是否可抵扣部分學習或形成資格結果。它不是簽證批准，不是工作邀約，也不是「保證移民」。"
+        ]
+      },
+      {
+        heading: "二、美髮經驗要整理成證據，而不是口號",
+        paragraphs: [
+          "可先準備一個工作證據包：雇主推薦信、任職合同或工資 / 稅務記錄（如有）、服務項目清單、作品照片、店鋪或客戶記錄、培訓證書，以及清晰的工作時間線與職責說明。",
+          "出版和諮詢時要避免使用「零基礎也行」「不用上課」「不用英文」「包過」等表述。更穩妥的說法是：有相關經驗者可先做材料初篩，再由合資格機構按其標準判斷。"
+        ]
+      },
+      {
+        heading: "三、三個官方入口先查清楚",
+        paragraphs: [
+          "第一，澳洲 Department of Home Affairs 的 skilled occupation list，用來核對職業在簽證框架中的位置：https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list。",
+          "第二，training.gov.au，用來核對資格名稱、代碼、單元與是否仍為現行 / 被替代版本：https://training.gov.au/。",
+          "第三，Trades Recognition Australia 或相關職業評估機構，用來核對技能評估的申請要求：https://www.tradesrecognitionaustralia.gov.au/。"
+        ]
+      },
+      {
+        heading: "四、導報給讀者的結論",
+        paragraphs: [
+          "美髮不是不能做路線，而是要把教育、技能證據、雇主與簽證四層分開處理。先把材料做實，再談是否適合評估、是否需要補課、是否有僱主需求，以及是否需要正式移民意見。",
+          "對 OTC 內部審核而言，這類文章可以發布為「材料準備與官方核查指南」，不應發布為「無英文、無上課、直接移民」的結果承諾。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "australia-locum-pharmacist-fifo-career-guide",
+    title: "Locum Pharmacist and FIFO Work in Australia: What Overseas Readers Should Check First",
+    date: "2026-05-25",
+    category: "Australia Careers",
+    column: "career",
+    kicker: "Australia · Pharmacy · Remote work",
+    author: "留學導報編輯部",
+    summary: "Locum and FIFO pharmacy roles can be attractive, especially in regional Australia, but overseas readers must first understand registration, supervision, contracts, accommodation and professional risk.",
+    titleZh: "澳洲 Locum Pharmacist 與 FIFO 工作：出發前先核對註冊、合約與偏遠地區條件",
+    summaryZh: "澳洲偏遠地區藥房常見臨時藥師與 FIFO 工作安排，但對海外讀者而言，第一步不是看日薪，而是核查 AHPRA / Pharmacy Board 註冊、工作範圍、住宿交通、保險與合約責任。",
+    relatedReadings: [
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["Pharmacy Board of Australia overseas registration", "https://www.pharmacyboard.gov.au/Registration/Overseas.aspx"],
+      ["Ahpra registration information", "https://www.ahpra.gov.au/"],
+      ["Australian Department of Health and Aged Care", "https://www.health.gov.au/"]
+    ],
+    body: [
+      {
+        heading: "1) What locum and FIFO usually mean",
+        paragraphs: [
+          "A locum pharmacist is usually engaged to cover temporary pharmacy staffing needs. FIFO means fly-in fly-out: the worker travels to a regional or remote site for a rostered block and then returns home.",
+          "These roles can offer higher pay or accommodation support, but the details depend on registration status, location, employer, roster, travel, insurance and contract terms."
+        ]
+      },
+      {
+        heading: "2) Registration is the first gate",
+        paragraphs: [
+          "Overseas-trained pharmacists should begin with the Pharmacy Board of Australia and Ahpra registration information. Without the correct registration and permission to work, salary figures and job adverts are not actionable.",
+          "Readers should also check whether the role requires community pharmacy experience, vaccinations, medication review work, rural practice confidence, or additional state-level requirements."
+        ]
+      },
+      {
+        heading: "3) Contract checks",
+        paragraphs: [
+          "Before accepting a locum or FIFO role, check who pays flights, local transport, accommodation, meals, professional indemnity insurance, overtime, cancellation costs and emergency cover.",
+          "Remote practice can be professionally rewarding, but it is not a casual holiday job. The pharmacist may be the most senior health professional immediately available in the community."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、Locum Pharmacist 與 FIFO 是什麼",
+        paragraphs: [
+          "Locum Pharmacist 通常指臨時藥師：藥房因休假、空缺、旺季或偏遠地區人手不足，聘請藥師短期補位。FIFO（Fly In Fly Out）則是飛到偏遠或區域地點工作一段 roster，再飛回原居地。",
+          "這類工作可能有較高時薪、住宿或交通補貼，但是否適合，取決於註冊資格、工作地點、合約、保險、偏遠地區經驗與個人承受能力。"
+        ]
+      },
+      {
+        heading: "二、海外讀者第一步：先查註冊",
+        paragraphs: [
+          "海外藥學背景讀者應先查 Pharmacy Board of Australia 的 overseas registration 頁面：https://www.pharmacyboard.gov.au/Registration/Overseas.aspx，以及 Ahpra 註冊要求：https://www.ahpra.gov.au/。",
+          "沒有相應註冊與工作權利，招聘廣告上的日薪、住宿、FIFO 津貼都只是參考信息，不能直接變成可入職機會。"
+        ]
+      },
+      {
+        heading: "三、合約要逐項看",
+        paragraphs: [
+          "接受 locum 或 FIFO 前，至少要確認：機票誰付、本地交通誰安排、住宿是否安全、餐食是否包含、是否有 professional indemnity insurance、加班如何計算、班表取消如何補償、緊急情況由誰支援。",
+          "偏遠地區藥房可能要求更強的獨立判斷能力。對讀者而言，這不是單純「去偏遠地區賺高薪」，而是專業責任、合規與生活安排一起評估。"
+        ]
+      },
+      {
+        heading: "四、可以發布的導報角度",
+        paragraphs: [
+          "本文適合作為「職業介紹與核查清單」發布，不應渲染為任何人都能立即入職。對有藥學背景的讀者，正確順序是：核查註冊、整理學歷與實習 / 工作證據、了解州和雇主要求，再看具體招聘機會。",
+          "如涉及簽證、職業註冊、執業範圍或保險責任，應以官方機構與合資格專業人士意見為準。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "us-adjustment-of-status-viral-policy-claim-check",
+    title: "Before Sharing a U.S. AOS 'Policy Bomb' Claim: How Students Should Check Official Sources",
+    date: "2026-05-25",
+    category: "US Policy Watch",
+    column: "study",
+    kicker: "United States · AOS · Fact-check",
+    author: "留學導報編輯部",
+    summary: "A viral claim about Adjustment of Status should not be published as confirmed policy unless it can be traced to USCIS, the Federal Register, the State Department or a qualified immigration-law source.",
+    titleZh: "網傳美國 AOS「政策核彈」前，留學生應先核對哪些官方來源",
+    summaryZh: "今天收到的美國 AOS 稿件屬於高風險法律 / 移民信息。導報不把未核實網傳內容當作已確認政策發布，而整理成官方核查指南：先看 USCIS、Federal Register、DOS 與合資格移民律師來源。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["USCIS Adjustment of Status", "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status"],
+      ["USCIS Policy Manual, Volume 7", "https://www.uscis.gov/policy-manual/volume-7-part-a"],
+      ["Federal Register", "https://www.federalregister.gov/"]
+    ],
+    factCheckNotes: [
+      "本文未將郵件原稿中的重大政策變動描述作為已確認事實發布。",
+      "發布版本以讀者核查流程為主，避免替代移民律師或官方機構意見。"
+    ],
+    body: [
+      {
+        heading: "1) Treat major immigration claims as unverified until sourced",
+        paragraphs: [
+          "A claim that a core U.S. immigration process has been fundamentally changed should not be repeated as fact merely because it is urgent, dramatic or widely forwarded.",
+          "For Adjustment of Status, start with USCIS pages, the USCIS Policy Manual, the Federal Register, the Department of State where consular processing is involved, and qualified immigration-law analysis."
+        ]
+      },
+      {
+        heading: "2) What students should do",
+        paragraphs: [
+          "Students and workers should avoid changing travel plans, filing strategy or employment timing based only on social-media posts. Save the post, identify the claimed agency action, and look for a dated official document.",
+          "If a case is already pending or close to filing, the responsible attorney or qualified adviser should review the specific facts."
+        ]
+      },
+      {
+        heading: "3) Editorial boundary",
+        paragraphs: [
+          "For publication, the safe article is a fact-check and source guide, not a breaking-news alarm. If the official position later changes, the article can be updated with the exact date, document title and official link.",
+          "This is general information only and is not legal advice."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、重大移民消息，不能靠轉發口吻定性",
+        paragraphs: [
+          "今天收到的原稿提到美國 Adjustment of Status（AOS，境內調整身分）可能出現重大變化。這類內容一旦寫錯，會直接影響讀者的旅行、身份、工作與申請節奏，因此《留學導報》不把未核實的網傳說法當作已確認政策發布。",
+          "正確做法是先找官方來源：USCIS 的 AOS 頁面：https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status；USCIS Policy Manual Volume 7：https://www.uscis.gov/policy-manual/volume-7-part-a；如涉及規章變更，再查 Federal Register：https://www.federalregister.gov/。"
+        ]
+      },
+      {
+        heading: "二、讀者應如何自查",
+        paragraphs: [
+          "第一步，確認消息說的是哪個機構、哪份文件、哪一天生效。只寫「政府突然宣布」「全面取消」「徹底改變」而沒有文件名稱與官方鏈接，不能作為行動依據。",
+          "第二步，區分政策、提案、內部指引、個案裁量與律師觀點。移民程序中，同一個詞在不同情境下含義不同，不能用短視頻標題替代法律判斷。"
+        ]
+      },
+      {
+        heading: "三、學生和工作人士暫時不要做什麼",
+        paragraphs: [
+          "不要僅憑社交媒體帖子取消旅行、改變入境安排、放棄學業或工作計劃，也不要在沒有律師審核的情況下倉促提交或撤回申請。",
+          "如果你已有 pending case、即將遞交 I-485、身份即將到期，或涉及 H-1B、L-1、F-1、婚姻 / 親屬移民等具體情況，應讓負責案件的移民律師或合資格專業人士看完整材料。"
+        ]
+      },
+      {
+        heading: "四、導報發布口徑",
+        paragraphs: [
+          "本篇按「核查指南」發布，而不是按「突發政策已生效」發布。若日後有官方文件，導報可更新文章，補入文件名稱、發布日期、生效日期與官方鏈接。",
+          "本文僅為一般資訊整理，不構成美國法律或移民建議。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "nordic-power-electronics-phd-18-month-application-plan",
+    title: "From NTU Power Electronics MSc to a Nordic PhD: A Practical 18-Month Preparation Plan",
+    date: "2026-05-25",
+    category: "PhD Applications",
+    column: "study",
+    kicker: "Nordics · Electrical Engineering · PhD",
+    author: "留學導報編輯部",
+    summary: "For a power-electronics or electrical-engineering master’s student, Nordic PhD applications should be treated as funded research job applications: supervisor fit, research evidence and timing matter more than slogans.",
+    titleZh: "南洋理工電力電子碩士申北歐電工科 PhD：1.5 年準備路線",
+    summaryZh: "北歐電工科博士通常更像研究職位招聘：看課題匹配、導師需求、研究能力與資金來源。對 NTU 電力電子碩士而言，1.5 年可以做出有競爭力的材料，但不能靠泛泛套磁逆襲。",
+    relatedReadings: [
+      "uk-personal-statement-evidence-first-checklist",
+      "ucas-offers-conditions-firm-insurance-checklist"
+    ],
+    resources: [
+      ["Study in Sweden", "https://studyinsweden.se/"],
+      ["Study in Norway", "https://www.studyinnorway.no/"],
+      ["Study in Finland", "https://www.studyinfinland.fi/"],
+      ["Study in Denmark", "https://studyindenmark.dk/"]
+    ],
+    body: [
+      {
+        heading: "1) Think of it as a research job",
+        paragraphs: [
+          "Many Nordic PhD positions are advertised as funded research jobs. The application is therefore less like a taught master’s application and more like applying to join a specific lab or project.",
+          "A strong applicant shows technical fit, research maturity, writing ability, and evidence that they understand the project’s methods and constraints."
+        ]
+      },
+      {
+        heading: "2) Build the evidence in 18 months",
+        paragraphs: [
+          "The first six months should clarify the research direction: power electronics, drives, grids, renewable integration, control, reliability, semiconductors or another focused theme.",
+          "The next six months should produce evidence: a thesis direction, supervisor letter, preprint or conference target where realistic, coding or simulation portfolio, and a one-page research fit memo.",
+          "The final six months should be used for targeted applications, not mass emails."
+        ]
+      },
+      {
+        heading: "3) Where applications fail",
+        paragraphs: [
+          "Common failures include generic supervisor emails, weak explanation of methods, no connection to the advertised project, and overclaiming results.",
+          "A concise, specific email with a focused CV and project-fit paragraph is usually stronger than a long personal story."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、北歐 PhD 更像研究職位，不只是升學申請",
+        paragraphs: [
+          "北歐很多博士崗位是 funded PhD position，本質上接近研究工作招聘。學校或課題組在找一個能進入項目、完成研究任務、交付論文與成果的人，而不只是錄取一名學生。",
+          "因此，南洋理工（NTU）電力電子碩士申北歐電工科博士，核心不是「學校名氣夠不夠」，而是研究方向、技能證據、導師需求與項目資金是否對得上。"
+        ]
+      },
+      {
+        heading: "二、1.5 年準備可以這樣拆",
+        paragraphs: [
+          "前 6 個月：縮小方向。不要只寫 Electrical Engineering，要明確到 power electronics、electric drives、smart grid、renewable integration、control、wide-bandgap semiconductor devices、reliability 等可對應課題組的方向。",
+          "中間 6 個月：做證據。包括碩士論文方向、導師推薦、可展示的仿真 / 控制 / 硬件經驗、英文研究摘要、GitHub 或項目文檔（如適合公開）、以及一頁 research fit memo。",
+          "最後 6 個月：定向投遞。優先投有明確 funding 的 PhD vacancy，再針對導師近期論文與項目寫短郵件，不建議群發模板。"
+        ]
+      },
+      {
+        heading: "三、套磁郵件怎麼寫才不像群發",
+        paragraphs: [
+          "郵件正文控制在 180 至 250 詞左右：第一段說你是誰與研究方向；第二段精準對應導師某個項目或論文；第三段列出 2 至 3 個證據，例如碩士 thesis、仿真工具、控制算法、實驗平台或發表計劃。",
+          "附件用一頁 CV、成績單、研究摘要即可。不要一上來發十幾頁材料，也不要用「我非常熱愛貴校」代替技術匹配。"
+        ]
+      },
+      {
+        heading: "四、官方入口與現實預期",
+        paragraphs: [
+          "讀者可從 Study in Sweden、Study in Norway、Study in Finland、Study in Denmark 了解各國博士制度與生活信息，再回到各大學 job vacancy / PhD positions 頁面找具體崗位。",
+          "1.5 年足夠把材料從普通申請提升到可競爭，但不能保證錄取。真正能提高成功率的是方向清晰、證據可核、導師與項目匹配，而不是把國家名單拉得很長。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "china-fine-art-sino-foreign-cooperation-programmes-2026",
+    title: "Fine Art in China Through Sino-Foreign Programmes: A 2026 Checklist for International Families",
+    date: "2026-05-25",
+    category: "China Programmes",
+    column: "study",
+    kicker: "China · Fine Art · Sino-foreign cooperation",
+    author: "留學導報編輯部",
+    summary: "For families considering fine art without immediately sending a student overseas, Sino-foreign cooperation programmes may be worth reviewing, but the first check should be official approval, degree recognition and portfolio fit.",
+    titleZh: "2026 還想在國內讀純藝：中外合作辦學與藝術方向初篩清單",
+    summaryZh: "純藝家庭若暫時不想直接出國，可把中外合作辦學作為選項之一，但先查教育部平台、學位授予、外方合作院校、作品集要求、語言與後續升學出口，不能只看宣傳海報。",
+    relatedReadings: [
+      "uk-personal-statement-evidence-first-checklist",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["MOE Sino-foreign cooperation information platform", "https://www.crs.jsj.edu.cn/"],
+      ["China Ministry of Education", "https://www.moe.gov.cn/"]
+    ],
+    body: [
+      {
+        heading: "1) Why families look at this route",
+        paragraphs: [
+          "Some fine-art students want international curriculum exposure but are not ready, financially or personally, to move overseas immediately. Sino-foreign cooperation programmes may provide a middle route.",
+          "The route should be checked carefully: official approval, degree-awarding arrangements, studio resources, portfolio fit, language requirements and progression options."
+        ]
+      },
+      {
+        heading: "2) What to verify first",
+        paragraphs: [
+          "Start with the Ministry of Education’s Sino-foreign cooperation information platform. Confirm the programme name, Chinese institution, foreign partner, approval status, student intake scope and credential arrangement.",
+          "Then review whether the programme suits the student’s artistic direction: painting, sculpture, experimental art, visual communication, digital media, curation or interdisciplinary practice."
+        ]
+      },
+      {
+        heading: "3) Portfolio and student wellbeing",
+        paragraphs: [
+          "For fine art, the portfolio is not decoration. It should show process, observation, material experimentation, critical thinking and a coherent visual question.",
+          "Families should also consider student wellbeing, studio culture, workload, city environment and whether the programme supports later graduate applications."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼純藝家庭會看中外合作辦學",
+        paragraphs: [
+          "有些學生想接觸國際藝術教育，但暫時不適合直接出國：可能是年齡、家庭預算、語言、生活適應或安全管理方面的考量。這時，中外合作辦學可以作為一個過渡型選項。",
+          "但它不是「不用出國就等於海外名校」的捷徑。家長和學生要先查清楚項目是否在教育部平台可查、學位如何授予、外方合作院校是否真實參與、課程與作品集方向是否匹配。"
+        ]
+      },
+      {
+        heading: "二、第一步：查教育部平台",
+        paragraphs: [
+          "中外合作辦學信息應先查教育部中外合作辦學監管工作信息平台：https://www.crs.jsj.edu.cn/。重點核對項目名稱、中方院校、外方院校、批准書編號、招生層次、招生方式與證書信息。",
+          "若宣傳材料中的名稱、外方院校、學位說法與平台信息不一致，應要求招生方提供正式書面說明，不要只依賴口頭承諾。"
+        ]
+      },
+      {
+        heading: "三、純藝要看作品集方向，不只看校名",
+        paragraphs: [
+          "純藝方向包括繪畫、雕塑、實驗藝術、裝置、影像、材料研究、策展與跨媒介實踐等。學生應確認課程是否支持自己的創作方向，而不是只看「國際」「合作」「雙文憑」等關鍵詞。",
+          "作品集應呈現觀察、過程、材料實驗、概念發展與最終作品，而不只是漂亮成品。若未來想申海外研究生，還要看課程是否能支持英文 artist statement、portfolio documentation 與研究型寫作。"
+        ]
+      },
+      {
+        heading: "四、家長還要看生活與長期出口",
+        paragraphs: [
+          "藝術學習高度依賴工作室文化與生活狀態。家長應實地或線上了解城市環境、住宿、校園管理、工作室開放時間、教師背景、展覽機會與心理支持。",
+          "更重要的是長期出口：畢業後是國內升學、海外研究生、藝術教育、設計轉向、策展與文化機構，還是獨立創作。不同出口需要不同的課程和作品集策略。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "uk-ucas-clearing-prep-evidence-pack-decision-matrix",
+    title: "UCAS Clearing Prep: An Evidence Pack + Decision Matrix (So You Can Move Fast, Safely)",
+    date: "2026-05-25",
+    category: "UK Applications",
+    column: "study",
+    kicker: "UK · UCAS · Clearing readiness",
+    author: "留學導報編輯部",
+    summary: "A practical, compliance-safe checklist for building a Clearing-ready evidence pack and a simple decision matrix — helping students compare options quickly without relying on rumours or last-minute panic.",
+    titleZh: "UCAS Clearing 怎麼準備：一份可直接用的「證據包」＋決策矩陣（讓你快、但不亂）",
+    summaryZh: "Clearing 的核心不是「臨時搶位」，而是讓自己在需要時能快速、可靠地做決策。本文提供一套可直接落地的證據包清單與課程比較矩陣，避免靠小道消息與情緒決定。",
+    relatedReadings: [
+      "ucas-offers-conditions-firm-insurance-checklist",
+      "uk-aus-application-documents-checklist",
+      "uk-personal-statement-evidence-first-checklist"
+    ],
+    body: [
+      {
+        heading: "1) What Clearing is (and what it is not)",
+        paragraphs: [
+          "Clearing is a UCAS route that helps applicants find a course place if their plans change (for example, results don’t match expectations, they decline their firm choice, or they apply later). It is not a guarantee of admission, and availability can change quickly.",
+          "Because places can appear and disappear, the best advantage is preparation: being able to communicate clearly, share accurate documents, and make a calm comparison between realistic options."
+        ]
+      },
+      {
+        heading: "2) Your Clearing-ready evidence pack (one folder)",
+        paragraphs: [
+          "Prepare a single folder (PDFs preferred) so you can respond fast and consistently: passport ID page (if requested), UCAS Personal ID, qualifications and predicted/achieved grades, English-language evidence (if relevant), personal statement (final version), academic references, and an up-to-date CV (optional but helpful for some courses).",
+          "Add a one-page summary: your name, contact details, intended subject area, top 3 course targets, key strengths and relevant evidence (projects, competitions, placements). This helps you stay consistent when you speak to universities."
+        ]
+      },
+      {
+        heading: "3) A simple decision matrix (score before you call)",
+        paragraphs: [
+          "Use a quick comparison table with 6–8 criteria: course modules fit, entry requirements you can realistically meet, cost (tuition + living), location and commute, accommodation availability, placement year / accreditation (if applicable), timetable intensity, and support services.",
+          "Give each criterion a weight (for example 1–3). A weighted score prevents “headline chasing” and keeps decisions aligned with what matters for your goals and constraints."
+        ]
+      },
+      {
+        heading: "4) Calling universities: a short script that stays accurate",
+        paragraphs: [
+          "When you call, keep it factual: confirm course code, entry requirements, any required documents, how they assess suitability (grades, portfolio, interview), and timelines for decisions. If you are unsure, say you will verify and follow up in writing.",
+          "Avoid over-claiming. If you have pending results or missing evidence, be transparent. Universities can advise on next steps, but only they can confirm current requirements and whether a place can be offered."
+        ]
+      },
+      {
+        heading: "5) Safety checks (to avoid expensive mistakes)",
+        paragraphs: [
+          "Double-check deadlines, fees and conditions on the official UCAS/university pages. Where a course has professional requirements (health, education, law, engineering), check accreditation and any extra checks early.",
+          "If a decision affects visas, regulated professional registration, or legal obligations, treat informal advice as insufficient and seek the correct official guidance or qualified professional support."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、Clearing 是什麼（也不是什麼）",
+        paragraphs: [
+          "Clearing 是 UCAS 的一種申請路徑，用於在原計劃改變時尋找可申請的課程名額（例如成績與預期不符、放棄 firm 選擇、或較晚才開始申請等）。它不是錄取保證，且名額會隨時變動。",
+          "因此 Clearing 的優勢不在「運氣」，而在「準備度」：能否清晰表達、迅速提供準確文件，以及用冷靜的方法比較多個可行選項。"
+        ]
+      },
+      {
+        heading: "二、Clearing「證據包」：一個資料夾就夠",
+        paragraphs: [
+          "把常用文件整理成一個資料夾（建議以 PDF 為主），讓你在需要時可快速、統一地回覆：護照資料頁（如學校要求）、UCAS Personal ID、學歷與成績證明（含 predicted / achieved）、英語能力證明（如適用）、Personal Statement 最終版、推薦信 / references、以及更新過的 CV（視課程需要）。",
+          "再加一頁「摘要頁」：姓名與聯絡方式、目標學科方向、前三個課程目標、關鍵優勢與證據（作品 / project、比賽、實習等）。這一頁能讓你在打電話或發郵件時保持表述一致。"
+        ]
+      },
+      {
+        heading: "三、決策矩陣：先打分，再打電話",
+        paragraphs: [
+          "用一張簡單表格比較 6–8 個關鍵因素：課程模組是否匹配、你是否有把握滿足入學條件、成本（學費＋生活費）、地點與通勤、住宿供應與條件、placement year / accreditation（如適用）、課表強度、以及學生支持服務。",
+          "給每個因素加「權重」（例如 1–3）。加權分數能避免只追新聞標題或排名，讓決策回到你的目標與限制條件。"
+        ]
+      },
+      {
+        heading: "四、聯絡大學：一段簡短、但不誇大的問法",
+        paragraphs: [
+          "聯絡時以事實為主：確認 course code、入學要求、需要提交哪些文件、學校如何評估適配（成績 / 作品集 / 面試等）、以及可能的回覆時間線。對不確定的點，直接說明你會再核對並以書面方式跟進。",
+          "避免誇大或猜測。若你有未出成績或材料不齊，務必誠實說明。大學可告知流程與下一步，但只有校方能確認當下要求與是否能提供名額。"
+        ]
+      },
+      {
+        heading: "五、風險與安全檢查（避免代價高的錯誤）",
+        paragraphs: [
+          "所有截止日期、費用與條件，務必以 UCAS 與院校官方頁面為準。若涉及受監管專業（如健康、教育、法律、工程等），更要提早確認 accreditation 與額外要求。",
+          "若決策牽涉簽證、受監管職業註冊或法律義務，非正式建議不足以作依據；請以官方指南與合資格專業人士意見為準。"
+        ]
+      }
+    ],
+    resources: [
+      ["UCAS — Clearing", "https://www.ucas.com/undergraduate/clearing-and-results-day/what-clearing"],
+      ["UCAS — Course search", "https://www.ucas.com/explore"],
+      ["UKCISA (international student advice)", "https://www.ukcisa.org.uk/"]
+    ],
+    notes: [
+      "General educational information only; no place, admission, visa or outcome is guaranteed.",
+      "Always confirm deadlines, fees and requirements on UCAS/university official pages.",
+      "For regulated or legal matters, seek qualified professional support."
+    ]
+  },
+  {
     slug: "study-melbourne-hub-victoria-student-support-official-resource",
     title: "What Is Study Melbourne Hub? Official Student-Support Resources for Victoria-Bound Students",
     date: "2026-05-25",
