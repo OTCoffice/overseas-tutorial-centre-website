@@ -9512,6 +9512,8 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
           <h3>這不是要學生寫廣告文案。</h3>
           <p>本題的核心不是「想一個好看的宣傳活動」，而是訓練學生如何把企業問題、目標顧客、低成本渠道、證據與限制放進一個清楚的 business report。</p>
           <p>學生需要證明自己理解 marketing decision，而不是只描述 cafe 很需要宣傳。</p>
+          <p><strong>讀題順序：</strong>先圈出 business problem，再圈出 target customers，最後圈出 evaluate。這三個詞決定整篇 report 的結構。</p>
+          <p><strong>中文思維轉換：</strong>不要從「我覺得這個方法好」開始，而要從「這個方法是否符合企業情境、證據和限制」開始。</p>
         </div>
       </div>
     </section>
@@ -9527,11 +9529,32 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
             <tr><th>Brief wording</th><th>What the learner must do</th><th>中文提示</th><th>Evidence to prepare</th></tr>
           </thead>
           <tbody>
-            <tr><td>Explain the current marketing problem.</td><td>Identify the business issue, target customers and why the current approach is not enough.</td><td>不是泛泛說「銷售不好」，而是指出週末客流、學生家庭客群、現有渠道不足。</td><td>Sales pattern, customer observation, competitor comparison, local area notes.</td></tr>
-            <tr><td>Recommend a suitable promotional approach.</td><td>Choose realistic marketing actions that fit budget, business size and customer group.</td><td>建議要可執行，不能像大公司 campaign；要符合小店資源。</td><td>Social media plan, loyalty card outline, partner bookstore idea, simple cost estimate.</td></tr>
-            <tr><td>Evaluate likely limits.</td><td>Show what might reduce success and how the business could monitor results.</td><td>Distinction 類寫法通常需要看到限制、風險、條件和衡量方式。</td><td>Budget risk, staff time, weak data, seasonality, tracking method.</td></tr>
+            <tr><td>Explain the current marketing problem.</td><td>Identify the business issue, target customers and why the current approach is not enough.</td><td>不是泛泛說「銷售不好」，而是指出週末客流、學生家庭客群、現有渠道不足。中文審題時要問：到底是哪一類顧客沒有被有效觸達？目前方法為何不夠？</td><td>Sales pattern, customer observation, competitor comparison, local area notes.</td></tr>
+            <tr><td>Recommend a suitable promotional approach.</td><td>Choose realistic marketing actions that fit budget, business size and customer group.</td><td>建議要可執行，不能像大公司 campaign；要符合小店資源。中文思考時先排除「燒錢廣告」「明星代言」這類不合情境的方案，再選低成本、高可操作性的方案。</td><td>Social media plan, loyalty card outline, partner bookstore idea, simple cost estimate.</td></tr>
+            <tr><td>Evaluate likely limits.</td><td>Show what might reduce success and how the business could monitor results.</td><td>Distinction 類寫法通常需要看到限制、風險、條件和衡量方式。中文常見錯誤是只寫「這個方法有優點和缺點」，但沒有判斷什麼情況下有效、什麼情況下失效。</td><td>Budget risk, staff time, weak data, seasonality, tracking method.</td></tr>
           </tbody>
         </table>
+      </div>
+      <div style="height:18px"></div>
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">中文審題支架</div>
+          <h3>每一句 brief 都要拆成「動詞 + 對象 + 證據」。</h3>
+          <ul>
+            <li><strong>Explain</strong>：不是列點，而是說清原因、關係和後果。</li>
+            <li><strong>Recommend</strong>：不是隨便提建議，而是選一個與企業資源相符的方案。</li>
+            <li><strong>Evaluate</strong>：不是寫優缺點清單，而是作出有條件的判斷。</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">常見失分點</div>
+          <h3>中文理解正確，但英文輸出失控。</h3>
+          <ul>
+            <li>把「推廣」寫成純廣告口號，沒有 business reasoning。</li>
+            <li>把「證據」理解成自己編一組數字，造成 academic integrity 風險。</li>
+            <li>把「評估」寫成最後一句 however，前面沒有任何 evidence support。</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -9541,9 +9564,9 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
         <h2>Pass / Merit / Distinction awareness without giving model answers.</h2>
       </div>
       <div class="resource-list">
-        <article class="resource-row"><div><h3>Pass-level direction</h3><p>Describe the business problem and explain one reasonable marketing response with basic evidence. The answer should be clear and relevant, but may remain mostly descriptive.</p><p><strong>中文：</strong>先做到任務完整、概念正確、證據基本相關。</p></div><span class="pill">P</span></article>
-        <article class="resource-row"><div><h3>Merit-level direction</h3><p>Apply evidence more carefully to the cafe. Compare more than one promotional option and explain why one option fits the business better.</p><p><strong>中文：</strong>不能只背 marketing mix，要把證據真正放回企業情境。</p></div><span class="pill">M</span></article>
-        <article class="resource-row"><div><h3>Distinction-level direction</h3><p>Evaluate trade-offs, limits and conditions. A stronger answer explains what could go wrong, what data is missing and how the owner should judge success.</p><p><strong>中文：</strong>高分不是字數更多，而是判斷更成熟、限制更清楚。</p></div><span class="pill">D</span></article>
+        <article class="resource-row"><div><h3>Pass-level direction</h3><p>Describe the business problem and explain one reasonable marketing response with basic evidence. The answer should be clear and relevant, but may remain mostly descriptive.</p><p><strong>中文：</strong>先做到任務完整、概念正確、證據基本相關。學生要能說清楚：企業遇到什麼問題、建議什麼方法、為什麼這個方法與題目有關。</p><p><strong>避免：</strong>只寫「咖啡店應該多做宣傳」但沒有說明目標顧客和具體渠道。</p></div><span class="pill">P</span></article>
+        <article class="resource-row"><div><h3>Merit-level direction</h3><p>Apply evidence more carefully to the cafe. Compare more than one promotional option and explain why one option fits the business better.</p><p><strong>中文：</strong>不能只背 marketing mix，要把證據真正放回企業情境。學生應比較 social media、loyalty card、bookstore partnership 的適用性。</p><p><strong>升級方法：</strong>用「對這家小店而言」來限制分析範圍，避免把大企業答案套進小企業題目。</p></div><span class="pill">M</span></article>
+        <article class="resource-row"><div><h3>Distinction-level direction</h3><p>Evaluate trade-offs, limits and conditions. A stronger answer explains what could go wrong, what data is missing and how the owner should judge success.</p><p><strong>中文：</strong>高分不是字數更多，而是判斷更成熟、限制更清楚。要寫出方案成功依賴哪些條件，例如 staff time、學生回流率、社媒觸達率或季節因素。</p><p><strong>高分信號：</strong>能指出「即使方案便宜，也可能因缺乏執行時間或數據追蹤而效果有限」。</p></div><span class="pill">D</span></article>
       </div>
     </section>
 
@@ -9558,9 +9581,9 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
             <tr><th>Claim to make</th><th>Evidence needed</th><th>Source note</th><th>Writing use</th></tr>
           </thead>
           <tbody>
-            <tr><td>Weekend sales are weaker than weekday sales.</td><td>Simple weekly sales comparison or owner observation.</td><td>Use internal business notes if available; do not invent exact numbers.</td><td>Use to justify why the campaign targets weekend customers.</td></tr>
-            <tr><td>Students may respond to loyalty incentives.</td><td>Local student footfall, competitor loyalty schemes, short customer survey.</td><td>Keep the evidence modest; avoid unsupported claims about all students.</td><td>Use to explain why loyalty cards may be suitable but limited.</td></tr>
-            <tr><td>A bookstore partnership could extend reach.</td><td>Shared local customer group and low-cost cross-promotion example.</td><td>Frame as a realistic option, not a guaranteed sales solution.</td><td>Use in recommendation and evaluation paragraphs.</td></tr>
+            <tr><td>Weekend sales are weaker than weekday sales.</td><td>Simple weekly sales comparison or owner observation.</td><td>Use internal business notes if available; do not invent exact numbers. 中文提醒：如果沒有真實數據，只能寫 owner observation / assumed pattern，不可偽造 sales figure。</td><td>Use to justify why the campaign targets weekend customers. 中文寫法：這條證據用來證明「問題存在」，不是用來證明「方案一定成功」。</td></tr>
+            <tr><td>Students may respond to loyalty incentives.</td><td>Local student footfall, competitor loyalty schemes, short customer survey.</td><td>Keep the evidence modest; avoid unsupported claims about all students. 中文提醒：不要寫「所有學生都喜歡折扣」，應寫「student customers may be more responsive」。</td><td>Use to explain why loyalty cards may be suitable but limited. 中文寫法：適合性和限制要一起寫，不能只寫 loyalty card 很好。</td></tr>
+            <tr><td>A bookstore partnership could extend reach.</td><td>Shared local customer group and low-cost cross-promotion example.</td><td>Frame as a realistic option, not a guaranteed sales solution. 中文提醒：partnership 是低成本渠道，不是自動增加銷售的魔法。</td><td>Use in recommendation and evaluation paragraphs. 中文寫法：先說為何匹配顧客群，再說效果取決於雙方合作頻率和宣傳質量。</td></tr>
           </tbody>
         </table>
       </div>
@@ -9586,7 +9609,21 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
             <li>用 however / therefore / this depends on 連接判斷。</li>
             <li>每段只處理一個清楚觀點，不要把所有想法堆在一起。</li>
           </ul>
+          <p><strong>中文到英文的轉換：</strong>「我認為會員卡很好」應變成 The loyalty card may be suitable because it encourages repeat purchases among nearby student customers.</p>
+          <p><strong>判斷句模板：</strong>「這個方案是否有效，取決於……」可以寫成 The effectiveness of this option depends on whether the cafe can track repeat visits and promote the card consistently.</p>
         </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Chinese Support Layer</div>
+        <h2>How the bilingual scaffolding should appear in the book.</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>1. 概念層：先把題目讀懂</h3><p>每個 key task 旁邊提供中文審題問題，例如「題目要我證明什麼？」「這個 business context 限制了哪些選項？」</p></div><span class="pill">理解</span></article>
+        <article class="resource-row"><div><h3>2. 證據層：再決定能寫什麼</h3><p>提醒學生區分 real evidence、reasonable assumption、invented claim。中文提示要明確指出哪些寫法會導致證據不足或學術不端風險。</p></div><span class="pill">證據</span></article>
+        <article class="resource-row"><div><h3>3. 表達層：最後轉成英文段落</h3><p>提供中文意思到英文 academic phrasing 的轉換，而不是逐字翻譯。重點是把「我覺得」轉成 evidence-based judgement。</p></div><span class="pill">輸出</span></article>
       </div>
     </section>
 
@@ -9601,9 +9638,9 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
             <tr><th>Term</th><th>Academic meaning</th><th>中文理解</th><th>Useful phrase</th></tr>
           </thead>
           <tbody>
-            <tr><td>Target market</td><td>The group of customers a business aims to reach.</td><td>目標顧客群，不是所有可能買東西的人。</td><td>The target market for this campaign is likely to be ...</td></tr>
-            <tr><td>Promotion</td><td>Communication activities used to inform or persuade customers.</td><td>促銷/推廣，重點是與顧客溝通。</td><td>A low-cost promotional method may be suitable because ...</td></tr>
-            <tr><td>Evaluation</td><td>A reasoned judgement that considers strengths, limits and conditions.</td><td>評估，不是簡單說優點和缺點。</td><td>The effectiveness of this option depends on ...</td></tr>
+            <tr><td>Target market</td><td>The group of customers a business aims to reach.</td><td>目標顧客群，不是所有可能買東西的人。中文常見誤解是把 customer 寫得太寬，導致 recommendation 沒有焦點。</td><td>The target market for this campaign is likely to be ... / This group matters because ...</td></tr>
+            <tr><td>Promotion</td><td>Communication activities used to inform or persuade customers.</td><td>促銷/推廣，重點是與顧客溝通，不等於單純降價。學生要說清楚 message、channel 和 intended customer response。</td><td>A low-cost promotional method may be suitable because ... / This method could increase awareness by ...</td></tr>
+            <tr><td>Evaluation</td><td>A reasoned judgement that considers strengths, limits and conditions.</td><td>評估，不是簡單說優點和缺點。中文寫作時先問：這個方案在什麼條件下有效？最大限制是什麼？如何衡量？</td><td>The effectiveness of this option depends on ... / However, this recommendation may be limited by ...</td></tr>
           </tbody>
         </table>
       </div>
