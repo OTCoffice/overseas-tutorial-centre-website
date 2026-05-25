@@ -1,0 +1,3 @@
+Date,Reference,Project,Student_or_Client,Counterparty,Payment_Type,Currency,Gross_Amount,Fees,Net_Amount,Direction,Payment_Channel,Invoice_Number,Receipt_or_Email_Evidence,Compliance_Category,Notes
+2026-05-25,EXAMPLE-001,Australia Office Setup,Internal,Airwallex,Platform / account setup,GBP,0.00,0.00,0.00,Outgoing,Airwallex,TBC,Gmail evidence ID or PDF filename,Operating expense,Example row only; replace before use
+,,,,,,GBP,,,,,,,,,

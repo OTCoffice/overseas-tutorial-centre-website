@@ -352,3 +352,78 @@ Do not state or imply:
 - OTC holds an Australian provider agent code.
 - newsletter subscription, training access or public-resource contact equals partnership.
 - Australian business address / corporate-services evidence equals education-sector authorisation.
+
+---
+
+## Evidence Entry 006 — Airwallex Business Account Verification / Payment Operations Readiness
+
+**Date received:** 2026-05-25  
+**Source:** Airwallex / OTC office mailbox records  
+**Evidence memo:** `reports/OTC_Australia_Airwallex_Account_Verification_Evidence_2026-05-25.md`  
+**Classification:** Internal payment-operations readiness evidence; Australia office development support. Not an education-provider partnership or agency appointment.
+
+### Gmail Evidence Identified
+
+| Evidence | Sender | Subject | Gmail message ID | Time |
+| --- | --- | --- | --- | --- |
+| Verification / ready-for-use record | Overseas Office mailbox record | `[Airwallex] Congratulations! Your account has been verified and is ready for use.` | `19e5e4a80d65a3c3` | 2026-05-25 08:40 UK time |
+| Airwallex plan activation | Airwallex `support@info.airwallex.com` | `Your Airwallex subscription has been activated` | `19e5e4849147a3c1` | 2026-05-25 08:37 UK time |
+| GBP Global Account activation | Airwallex `support@info.airwallex.com` | `Your United Kingdom Global Account is ready to use!` | `19e5e484412a62e6` | 2026-05-25 08:37 UK time |
+
+### Summary
+
+Airwallex email evidence confirms that the business account facility connected with **OVERSEAS TUTORIAL CENTRE LTD.** has been verified / activated and is ready to use. The Global Account email confirms a GBP Global Account in the United Kingdom is active and ready to use. Full account numbers and account links should remain in the private finance evidence folder only.
+
+### Evidence Value for OTC Australia Office
+
+This record supports OTC's Australia-facing operations in the following limited ways:
+
+- demonstrates a verified business payment infrastructure for OTC;
+- supports provider / supplier / platform payment readiness;
+- strengthens the back-office evidence chain for Australia education-agent applications and business development;
+- supports future invoice, commission and expense reconciliation planning;
+- provides a finance-operations control point for Australia VET / schools / pathway expansion work.
+
+### Safe Internal Wording
+
+> OTC has received Airwallex confirmation that its business account facility for OVERSEAS TUTORIAL CENTRE LTD. has been verified / activated and is ready for use. This is recorded as payment-operations readiness evidence for OTC Australia office development.
+
+### Safe Public Wording
+
+If referenced externally, use only a high-level operations statement:
+
+> OTC maintains verified business payment infrastructure for education operations, supplier payments and international business administration.
+
+Chinese version:
+
+> OTC 已建立經驗證的商業收付款基礎設施，可支持教育服務營運、供應商付款及國際業務行政管理。
+
+### Claims Not Allowed
+
+Do not state or imply:
+
+- Airwallex verification is an Australian education-agent appointment.
+- Airwallex is an education provider, government body or school-sector partner.
+- Airwallex has endorsed OTC's education services.
+- this evidence proves Australian provider authorisation, CRICOS authority, migration-agent authority or regulated student-fee handling authority.
+- account numbers can be published in public-facing materials.
+
+### Follow-Up Actions
+
+1. Save the Airwallex activation and account-ready emails as private PDF / screenshot evidence.
+2. Ask Airwallex whether a formal account confirmation letter can be downloaded for institutional due diligence.
+3. Create an Australia payment / invoice reconciliation spreadsheet before processing Australia project payments.
+4. Define whether student-paid third-party costs, provider invoices and OTC service fees are to be separated in accounting records.
+5. Keep Airwallex evidence in the internal finance / office readiness file, not in public website copy.
+
+### Evidence Status
+
+| Field | Status |
+| --- | --- |
+| Source found in Gmail | Yes |
+| Verified payment infrastructure evidence | Yes |
+| Australia office operating-readiness evidence | Yes |
+| Education-provider partnership evidence | No |
+| Government endorsement evidence | No |
+| Agent appointment evidence | No |
+| Suitable for public claim | Only as general business payment infrastructure |
