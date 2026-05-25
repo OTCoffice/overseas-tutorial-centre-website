@@ -11292,6 +11292,12 @@ const chineseEntrance = pageShell({
             <p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或書面通知為準。</p>
             <a href="/zh/australia-office-presence/#centre-updates">查看澳洲辦公室更新</a>
           </article>
+          <article>
+            <b>院校合作</b>
+            <strong>澳洲院校合作進度已建立公開索引</strong>
+            <p>OTC 已把 Study NSW briefing、CDU Global enquiry、學校資料審核稿與代理 / 代表申請準備度整理為澳洲院校合作進度。正式代理身份仍以院校書面協議為準。</p>
+            <a href="/zh/australia-office-presence/#australia-institutional-progress">查看合作進度</a>
+          </article>
         </div>
       </div>
     </section>
@@ -12430,7 +12436,27 @@ const australiaOfficePresence = pageShell({
             <p>OTC Australia's local banking arrangement has been opened to support office administration, education-service coordination, invoice processing and market-operation readiness. Payment details are provided only through formal invoices or written OTC notices.</p>
             <a href="#centre-updates">View updates</a>
           </article>
+          <article>
+            <b>Institutional Progress</b>
+            <strong>Australia provider-cooperation tracker updated</strong>
+            <p>OTC has organised Study NSW briefing records, the CDU Global enquiry, school-profile review drafts and representative-readiness materials into a public progress tracker. Formal agent or representative status depends on written provider approval.</p>
+            <a href="#australia-institutional-progress">View progress</a>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section class="band compact-band" id="australia-institutional-progress">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Australia Institutional Cooperation</div>
+        <h2>Provider-cooperation progress is being documented route by route.</h2>
+        <p>OTC is building an Australia-facing provider record for universities, schools, pathway providers and vocational routes. Public pages record readiness and enquiry progress; contracts, commission terms and provider-specific onboarding documents remain private until written approval is confirmed.</p>
+      </div>
+      <div class="metrics-grid">
+        <article><strong>Study NSW</strong><span>Briefing and school-profile pipeline</span><p>NSW school and pathway briefing records are being converted into review drafts for Chinese-family screening before school-side confirmation.</p></article>
+        <article><strong>Charles Darwin University</strong><span>CDU Global enquiry recorded</span><p>CDU is tracked as the Northern Territory university / TAFE route. OTC records enquiry reference 260523-000334 and is awaiting formal agent / representative process guidance.</p></article>
+        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>Australia office route, Study NT completion evidence, provider profiles and compliance boundaries are now available for institutional review.</p></article>
+        <article><strong>Boundary</strong><span>No partnership claim without agreement</span><p>Public references to providers support route explanation and application screening only. They do not imply appointment, endorsement or guaranteed admission.</p></article>
       </div>
     </section>
 
@@ -12870,7 +12896,22 @@ const australiaOfficePresenceZh = pageShell({
           <article><b>中心狀態</b><strong>OTHM approved centre status renewed</strong><p>Overseas Tutorial Centre 已續期為 OTHM approved centre。中心號 <em>DC1802235</em> 保持不變，批准有效期至 <em>2031 年 6 月 30 日</em>。</p><a href="/othm-qualifications/">查看 OTHM 路線</a></article>
           <article><b>澳洲辦公室</b><strong>OTC Australia 執行董事任命</strong><p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持本地協調、院校溝通、學生路線發展及專業轉介邊界。</p><a href="#australia-director">查看歡迎詞</a></article>
           <article><b>運作更新</b><strong>澳洲辦公室銀行安排已開通</strong><p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或 OTC 書面通知為準。</p><a href="#centre-updates">查看更新</a></article>
+          <article><b>院校合作</b><strong>澳洲院校合作進度已建立公開索引</strong><p>OTC 已把 Study NSW briefing、CDU Global enquiry、學校資料審核稿與代理 / 代表申請準備度整理為澳洲院校合作進度。正式代理身份仍以院校書面協議為準。</p><a href="#australia-institutional-progress">查看合作進度</a></article>
         </div>
+      </div>
+    </section>
+
+    <section class="band compact-band" id="australia-institutional-progress">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Australia Institutional Cooperation</div>
+        <h2>澳洲院校合作進度按路線整理。</h2>
+        <p>OTC 正在把澳洲大學、中小學、pathway provider 與 VET / TAFE 路線整理為可公開閱讀的合作進度索引。公開頁展示準備度、詢問進度與資料審核狀態；正式代理協議、佣金條款與 onboarding 文件仍保留在內部文件系統，待院校書面確認後再公開。</p>
+      </div>
+      <div class="metrics-grid">
+        <article><strong>Study NSW</strong><span>Briefing and school-profile pipeline</span><p>NSW 學校與 pathway briefing 記錄已轉化為中文家庭初篩和學校審核稿，正式推廣前需由學校或項目方確認。</p></article>
+        <article><strong>Charles Darwin University</strong><span>CDU Global enquiry recorded</span><p>CDU 已作為 Northern Territory university / TAFE route 納入澳洲版圖；OTC 記錄 enquiry reference 260523-000334，等待正式 agent / representative process 指引。</p></article>
+        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>澳洲辦公室頁、Study NT training evidence、院校資料頁、合規邊界與文件整理能力，已形成可供院校審閱的公開證據包。</p></article>
+        <article><strong>Boundary</strong><span>No partnership claim without agreement</span><p>網站提及院校僅用於路線說明、資料整理與申請初篩；未簽署書面協議前，不表示正式代理、官方背書或保證錄取。</p></article>
       </div>
     </section>
 
