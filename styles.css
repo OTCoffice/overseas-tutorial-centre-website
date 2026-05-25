@@ -16422,6 +16422,62 @@ h1 {
   font-size: 18px;
 }
 
+.portal-proposal-template + .portal-proposal-template {
+  border-top: 1px solid rgba(8, 36, 61, 0.12);
+  margin-top: 28px;
+  padding-top: 28px;
+}
+
+.portal-template-summary {
+  border-top: 1px solid rgba(8, 36, 61, 0.1);
+  margin: 8px 0 18px;
+  padding-top: 18px;
+}
+
+.portal-template-summary h3 {
+  color: #08243d;
+  font-size: 22px;
+  line-height: 1.18;
+  margin: 0 0 7px;
+}
+
+.portal-template-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.portal-template-grid article {
+  background: #fbf7ef;
+  border: 1px solid rgba(8, 36, 61, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.portal-template-grid b {
+  color: #b8892f;
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.portal-template-grid strong {
+  color: #08243d;
+  display: block;
+  font-size: 16px;
+  line-height: 1.24;
+  margin-bottom: 7px;
+}
+
+.portal-template-grid p {
+  color: #4d5968;
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 0;
+}
+
 .portal-doc-viewer {
   background: #f3eee4;
   border: 1px solid rgba(8, 36, 61, 0.14);
@@ -16444,6 +16500,7 @@ h1 {
   .portal-grid,
   .portal-workbench,
   .portal-task-grid,
+  .portal-template-grid,
   .portal-status-strip {
     grid-template-columns: 1fr;
   }

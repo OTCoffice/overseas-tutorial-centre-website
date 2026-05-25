@@ -8670,6 +8670,106 @@ const clientPortal = pageShell({
   `
 });
 
+const parentPortalCases = [
+  {
+    label: "Active Family Case",
+    title: "Yang Zixi · 2027 January UK Undergraduate Pathway",
+    summary: "OTHM Level 3 Foundation Diploma for Higher Education Studies → Coventry University London main route, with UCB–Warwick as a non-London high-value alternative.",
+    pdfHref: "/assets/client-files/yang-zixi-2027/OTC_Yang_Zixi_2027_January_UK_Undergraduate_Pathway_Proposal.pdf",
+    pdfTitle: "Yang Zixi pathway proposal PDF",
+    facts: [
+      { label: "Student", value: "Yang Zixi", note: "Born 31 Dec 2008 · 18 by Jan 2027" },
+      { label: "Route", value: "OTHM Level 3", note: "Foundation Diploma for Higher Education Studies" },
+      { label: "Fee Scope", value: "£6,000", note: "OTC one-stop service to registration" }
+    ],
+    templateBlocks: [
+      {
+        label: "01",
+        title: "Student snapshot",
+        text: "Current study year, date of birth, family location, preferred living arrangement, target intake and academic score pattern."
+      },
+      {
+        label: "02",
+        title: "Route diagnosis",
+        text: "Identify whether the student needs direct entry, foundation, OTHM Level 3, BTEC, International Year One or another progression route."
+      },
+      {
+        label: "03",
+        title: "English gatekeeper",
+        text: "Record the English evidence required for admissions and separate school-entry readiness from visa and CAS conditions."
+      },
+      {
+        label: "04",
+        title: "University shortlist",
+        text: "Rank realistic institutions by intake, location, subject fit, progression recognition, commute feasibility and documentation burden."
+      },
+      {
+        label: "05",
+        title: "Service scope",
+        text: "Define what OTC handles, what the family provides, third-party fees, university decisions and non-guarantee boundaries."
+      },
+      {
+        label: "06",
+        title: "Next documents",
+        text: "Turn the plan into a clean checklist: transcript, passport, English evidence, subject preference, family consent and living notes."
+      }
+    ],
+    tasks: [
+      { label: "Next documents", text: "High-school transcript screenshots, English evidence, passport details, Stratford living-arrangement note and subject preference." },
+      { label: "English gatekeeper", text: "English score and academic-writing readiness remain the key condition before confirming university application strategy." },
+      { label: "Admissions note", text: "University entry, intake availability, English condition and CAS eligibility must be confirmed with each receiving institution." }
+    ]
+  }
+];
+
+const portalFactStrip = (facts) => facts.map((fact) => `
+  <article><b>${fact.label}</b><strong>${fact.value}</strong><span>${fact.note}</span></article>
+`).join("");
+
+const portalTemplateBlocks = (blocks) => blocks.map((block) => `
+  <article>
+    <b>${block.label}</b>
+    <strong>${block.title}</strong>
+    <p>${block.text}</p>
+  </article>
+`).join("");
+
+const portalTaskGrid = (tasks) => tasks.map((task) => `
+  <article><b>${task.label}</b><p>${task.text}</p></article>
+`).join("");
+
+const parentProposalTemplate = (caseItem) => `
+  <div class="portal-proposal-template">
+    <div class="portal-dashboard-head">
+      <div>
+        <div class="eyebrow">${caseItem.label}</div>
+        <h2>${caseItem.title}</h2>
+        <p>${caseItem.summary}</p>
+      </div>
+      <a class="btn btn-dark" href="${caseItem.pdfHref}" target="_blank" rel="noopener">Open PDF</a>
+    </div>
+    <div class="portal-status-strip">
+      ${portalFactStrip(caseItem.facts)}
+    </div>
+    <section class="portal-template-summary" aria-label="OTC proposal template structure">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Reusable Proposal Template</div>
+        <h3>規劃書模板骨架</h3>
+        <p>Each future family proposal can follow this same structure: student facts, route diagnosis, English condition, institution shortlist, OTC service scope and next-document checklist.</p>
+      </div>
+      <div class="portal-template-grid">
+        ${portalTemplateBlocks(caseItem.templateBlocks)}
+      </div>
+    </section>
+    <div class="portal-doc-viewer">
+      <iframe title="${caseItem.pdfTitle}" src="${caseItem.pdfHref}"></iframe>
+    </div>
+    <div class="portal-task-grid">
+      ${portalTaskGrid(caseItem.tasks)}
+    </div>
+  </div>
+`;
+
 const parentPortal = pageShell({
   title: "OTC Parent Portal | Family Case Documents",
   current: "portal",
@@ -8695,27 +8795,7 @@ const parentPortal = pageShell({
         </section>
 
         <section class="portal-dashboard" data-portal-dashboard hidden>
-          <div class="portal-dashboard-head">
-            <div>
-              <div class="eyebrow">Active Family Case</div>
-              <h2>Yang Zixi · 2027 January UK Undergraduate Pathway</h2>
-              <p>OTHM Level 3 Foundation Diploma for Higher Education Studies → Coventry University London main route, with UCB–Warwick as non-London high-value alternative.</p>
-            </div>
-            <a class="btn btn-dark" href="/assets/client-files/yang-zixi-2027/OTC_Yang_Zixi_2027_January_UK_Undergraduate_Pathway_Proposal.pdf" target="_blank" rel="noopener">Open PDF</a>
-          </div>
-          <div class="portal-status-strip">
-            <article><b>Student</b><strong>Yang Zixi</strong><span>Born 31 Dec 2008 · 18 by Jan 2027</span></article>
-            <article><b>Route</b><strong>OTHM Level 3</strong><span>Foundation Diploma for Higher Education Studies</span></article>
-            <article><b>Fee Scope</b><strong>£6,000</strong><span>OTC one-stop service to registration</span></article>
-          </div>
-          <div class="portal-doc-viewer">
-            <iframe title="Yang Zixi pathway proposal PDF" src="/assets/client-files/yang-zixi-2027/OTC_Yang_Zixi_2027_January_UK_Undergraduate_Pathway_Proposal.pdf"></iframe>
-          </div>
-          <div class="portal-task-grid">
-            <article><b>Next documents</b><p>High-school transcript screenshots, English evidence, passport details, Stratford living-arrangement note and subject preference.</p></article>
-            <article><b>English gatekeeper</b><p>English score and academic-writing readiness remain the key condition before confirming university application strategy.</p></article>
-            <article><b>Admissions note</b><p>University entry, intake availability, English condition and CAS eligibility must be confirmed with each receiving institution.</p></article>
-          </div>
+          ${parentPortalCases.map(parentProposalTemplate).join("")}
         </section>
       </div>
       ${portalNotice}
