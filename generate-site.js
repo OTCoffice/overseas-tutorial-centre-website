@@ -8933,6 +8933,23 @@ const publishing = pageShell({
       <div class="series-shelf">
         <div class="shelf-head">
           <div>
+            <div class="eyebrow">Market Research · Bilingual Study Support</div>
+            <h3>International Curriculum Bilingual Study Support Market Report</h3>
+            <p>OTC publishing roadmap for BTEC Level 3, A-Level / IAL, IB, Foundation and BTEC Higher Nationals bilingual study companions.</p>
+          </div>
+          <a href="/publishing/bilingual-study-support-market-report/">Read report</a>
+        </div>
+        <div class="ebook-service-steps">
+          <span>BTEC Level 3 publishing route</span>
+          <span>A-Level / IB writing toolkits</span>
+          <span>ISBN allocation policy</span>
+          <span>Payhip / app bundle roadmap</span>
+        </div>
+      </div>
+      <div style="height:28px"></div>
+      <div class="series-shelf">
+        <div class="shelf-head">
+          <div>
             <div class="eyebrow">New Payhip Releases</div>
             <h3>Foundation / Pathway Study Support</h3>
             <p>Independent bilingual learning resources for Level 3, foundation and pathway learners.</p>
@@ -9112,6 +9129,89 @@ const publishingMedia = pageShell({
         <p>Notion preserves raw working drafts. Public media should only use cleared source text, confirmed facts, non-sensitive descriptions and platform-ready metadata.</p>
       </div>
       <div class="notice">NotebookLM audio should be treated as draft production material, not as an automatically publishable final recording. Check names, awards, dates, attributions, privacy issues and copyright before uploading.</div>
+    </section>
+  `
+});
+
+const bilingualStudySupportMarketReport = pageShell({
+  title: "Bilingual Study Support Market Report | Overseas Publishing House | OTC",
+  description: "OTC market research and publishing roadmap for bilingual study-support resources covering BTEC Level 3, A-Level, IBDP, AP, Foundation and BTEC Higher Nationals learners.",
+  current: "publishing",
+  path: "/publishing/bilingual-study-support-market-report/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Market Research</div><h1>Bilingual Study Support Market Report</h1><p>OTC 雙語教輔出版市場調查：面向中國國際學校、國際部、雙語學校與 pathway learners，建立從 BTEC Level 3 到 Higher Nationals 的獨立學習支持產品線。</p></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Executive Position</div>
+        <h2>Level 3 is the publishing entrance; Level 4/5 is the centre-delivery horizon.</h2>
+        <p>OTC should not treat BTEC Level 3 as secondary. For Overseas Publishing House, Level 3 / International Level 3 is the immediate bilingual study-support market for international-school and university-progression learners. BTEC Higher Nationals Level 4 / 5 HNC-HND remains the longer-term delivery, LMS and centre-approval route.</p>
+      </div>
+      <div class="index-grid ebook-service-grid">
+        <article><b>01</b><strong>BTEC Level 3</strong><span>Assignment brief, criteria, evidence planning, Pass / Merit / Distinction awareness and bilingual study companions.</span></article>
+        <article><b>02</b><strong>A-Level / IAL</strong><span>Business, Economics, Accounting and Psychology guides for command words, evaluation and case-application writing.</span></article>
+        <article><b>03</b><strong>IBDP</strong><span>TOK, EE, IA and Business Management planning resources with bilingual rubric interpretation.</span></article>
+        <article><b>04</b><strong>Foundation / Pathway</strong><span>Academic writing, referencing, business vocabulary and assignment-based study support.</span></article>
+        <article><b>05</b><strong>BTEC Higher Nationals</strong><span>Level 4 / 5 HNC-HND assignment writing, unit outcomes, top-up progression and future centre-delivery support.</span></article>
+        <article><b>06</b><strong>Apps & ISBN</strong><span>Vocabulary quizzes, writing-frame trainers, ISBN-controlled PDF guides and Payhip / KDP bundles.</span></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Market Gap</div>
+        <h2>Students do not only need content. They need bilingual output infrastructure.</h2>
+        <p>Official specifications, textbooks and assessment rules remain essential. The weak point for Chinese EAL learners is converting subject understanding into responsible English academic output. OTC's role is to publish independent resources that support understanding, vocabulary, planning and academic integrity rather than providing model answers.</p>
+      </div>
+      <div class="metrics-grid">
+        <article><strong>Subject understanding</strong><span>中文概念到英文學科語言</span><p>Key-term explanation, bilingual concept mapping and course-linked glossary products.</p></article>
+        <article><strong>Assessment language</strong><span>Command words and criteria</span><p>Describe, explain, analyse and evaluate framed by level, evidence and learner task type.</p></article>
+        <article><strong>Assignment planning</strong><span>Brief to evidence plan</span><p>Assignment brief breakdown, source planning, evidence tables and milestone checklists.</p></article>
+        <article><strong>Academic writing</strong><span>Paragraph and report structure</span><p>PEEAL-style frames, evaluation language, Harvard referencing and feedback literacy.</p></article>
+        <article><strong>Progression clarity</strong><span>升學路線與資格理解</span><p>Level 3 to undergraduate progression, Higher Nationals, foundation and top-up route notes.</p></article>
+        <article><strong>Compliance boundary</strong><span>合規學習支持</span><p>Independent study support only: no official status, no model answers, no assignment completion.</p></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Product Roadmap</div>
+        <h2>First products should be chosen by market pain, not by institutional prestige.</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>Immediate priority. Supports China-based international learners with assignment brief reading, criteria awareness, evidence planning and academic phrasing.</p></div><span class="pill">Priority 1</span></article>
+        <article class="resource-row"><div><h3>A-Level / IAL Business Evaluation Writing Guide</h3><p>High-demand essay-output product for international schools and bilingual learners preparing for UK-style business assessment.</p></div><span class="pill">Priority 2</span></article>
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Bilingual Study Companion</h3><p>Course companion and glossary-led product that can anchor the wider Pearson/BTEC Level 3 publishing route.</p></div><span class="pill">Priority 3</span></article>
+        <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>Cross-route product for BTEC, Foundation, HNC/HND and OTHM-style learners who need structure, not ghostwritten answers.</p></div><span class="pill">Cross-route</span></article>
+        <article class="resource-row"><div><h3>BTEC Higher Nationals Business Assignment Writing Companion</h3><p>Longer-term HNC/HND product aligned with OTC's Pearson centre-approval and online-delivery enquiry.</p></div><span class="pill">HN route</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">ISBN Allocation</div>
+          <h3>Assign ISBNs only to publication-ready products.</h3>
+          <ul>
+            <li>One formal sales book equals one ISBN.</li>
+            <li>PDF ebook, POD paperback and EPUB/Kindle formats should be tracked separately.</li>
+            <li>Apps and browser tools usually do not require ISBNs unless bundled with a formal book.</li>
+            <li>Drafts, previews, internal tutor notes and sample chapters should use internal IDs only.</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">Compliance</div>
+          <h3>Use independent study-support language.</h3>
+          <ul>
+            <li>Use: Independent Study Companion, Bilingual Study Support Toolkit, Assignment Planning Companion.</li>
+            <li>Avoid: Official Guide, Model Answers, Marking Guide, Guaranteed Pass, Examiner Secrets.</li>
+            <li>Do not imply Pearson, Cambridge, IB or College Board endorsement without written permission.</li>
+            <li>Keep academic-integrity boundaries visible on every public product page.</li>
+          </ul>
+        </div>
+      </div>
+      <div style="height:18px"></div>
+      <div class="notice">Working source file: reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md. This report is an internal OTC publishing roadmap and public-facing market-positioning page. It is not an official Pearson, Cambridge, IB, College Board or awarding-body document.</div>
     </section>
   `
 });
@@ -10587,6 +10687,8 @@ const internationalCurriculumTutoring = pageShell({
       </div>
       <div class="curriculum-map curriculum-map-wide">${internationalCurriculumCards()}</div>
       <div style="height:28px"></div>
+      <div class="notice">Publishing strategy update: OTC now treats BTEC Level 3 / International Level 3 as a core bilingual study-support publishing route, not merely a pre-centre-approval qualification option. Read the market report: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
+      <div style="height:28px"></div>
       <div class="curriculum-support-grid">
         <article>
           <strong>Subject concept tutoring</strong>
@@ -11621,9 +11723,10 @@ const apps = pageShell({
         <article><span>05</span><strong>OTHM L5BM Unit Quiz Bank</strong><p>MCQs, bilingual glossary flashcards and self-checklists for each of the six public bookshop editions.</p></article>
         <article><span>06</span><strong>IH Placement & Interview Practice</strong><p>Reusable young-learner placement-test readiness, speaking interview practice, vocabulary review and tutor feedback utilities.</p></article>
         <article><span>07</span><strong>Payhip Book Companion Download Packs</strong><p>Attach templates, worksheets and checklists to books so PDF products become richer learning packages.</p></article>
+        <article><span>08</span><strong>BTEC Level 3 Assignment Toolkit App</strong><p>Companion app concept for bilingual vocabulary checks, assignment-brief breakdown, evidence-planning prompts and Pass / Merit / Distinction self-checks linked to the new market report.</p></article>
       </div>
       <div style="height:22px"></div>
-      <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products.</div>
+      <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products. Related publishing roadmap: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
     </section>
   `
 });
@@ -14765,6 +14868,7 @@ const wangZhuoyingSummerGuide = pageShell({
 write(".", home);
 write("publishing", publishing);
 write("publishing/media", publishingMedia);
+write("publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReport);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
@@ -14915,6 +15019,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /study-guides/
 - /publishing/
 - /publishing/media/
+- /publishing/bilingual-study-support-market-report/
 - /courses/
 - /services/
 - /university-applications/
