@@ -114,3 +114,44 @@ Overseas Tutorial Centre / Overseas Supervision
 | Agency appointment evidence | No |
 | Suitable for internal Australia office evidence | Yes |
 | Suitable for public claim | Only as public-resource reference |
+
+---
+
+## Evidence Entry 002 — Study Melbourne Formal Referral / Engagement Enquiry Sent
+
+**Date sent:** 2026-05-25  
+**Recipient:** `info@studymelbourne.vic.gov.au`  
+**Subject:** `Partnership / Community Referral Enquiry — OTC Study Hub and Victoria-bound International Students`  
+**Gmail sent message ID:** `19e5ddfed6996a3c`  
+**Classification:** Formal enquiry sent; awaiting response. Not partnership evidence unless Study Melbourne replies with written confirmation.
+
+### Summary of Enquiry
+
+OTC sent a formal enquiry to Study Melbourne Hub asking whether there is an appropriate pathway for overseas-based education-support organisations to engage with Study Melbourne in a compliant and transparent way.
+
+The enquiry asked whether Study Melbourne has:
+
+- a community referral or education-sector contact pathway for organisations supporting Victoria-bound international students;
+- a communications pack or approved wording that overseas education advisers may share with students and families;
+- a newsletter, briefing, webinar or public information session suitable for international education advisers;
+- a process for requesting a Hub visit, online briefing or event discussion where appropriate;
+- guidance on how overseas-based advisers should describe Study Melbourne resources without implying official appointment, endorsement or agency status.
+
+### Compliance Boundary Used in the Email
+
+The email expressly stated that OTC is not presenting itself as an official representative, appointed agent or partner of Study Melbourne, Global Victoria, DJSIR or the Victorian Government. It framed OTC's role as education coordination, document organisation, student-support orientation and family communication.
+
+### Evidence Value
+
+This entry shows that OTC has moved beyond passive public-resource recording and has initiated a formal pathway enquiry. It may support Australia office development evidence as a documented outreach step, but it does not by itself establish any partnership, authorisation, agency relationship or government endorsement.
+
+### Current Status
+
+| Field | Status |
+| --- | --- |
+| Formal enquiry sent | Yes |
+| Response received | Pending |
+| Partnership evidence | No |
+| Agency appointment evidence | No |
+| Suitable for internal Australia office evidence | Yes |
+| Suitable for public claim | No, except neutral statement that an enquiry has been sent if necessary |
