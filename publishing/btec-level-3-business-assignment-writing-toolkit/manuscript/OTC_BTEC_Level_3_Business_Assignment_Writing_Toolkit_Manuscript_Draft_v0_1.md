@@ -1425,13 +1425,34 @@ Before moving to paragraph writing, the learner should be able to tick the follo
 
 ## 5.1 Why paragraph frames help
 
-A paragraph frame is not a model answer. It is a structure that helps the learner organise thinking. The learner must still use their own evidence, own business case and centre-issued brief.
+A paragraph frame is not a model answer. It is a structure that helps the learner organise thinking. The learner must still use their own evidence, own business case and centre-issued brief. The frame is useful because many Level 3 Business learners do not fail because they have no ideas. They struggle because their ideas arrive in the wrong order. They state a recommendation before identifying the business issue. They add evidence after the judgement. They explain theory without applying it to the organisation. They write a limitation but do not connect it to the recommendation.
 
 The purpose of a frame is to stop the paragraph from becoming a list of disconnected sentences.
+
+In a BTEC assignment, a paragraph should usually do four things:
+
+1. Make a clear point.
+2. Support the point with relevant evidence.
+3. Apply the evidence to the selected business or scenario.
+4. Explain what this means for the task, including limits where relevant.
+
+This is not the only possible structure, but it is a safe structure for learners who are building academic confidence. A strong paragraph is not simply longer. It has direction. Each sentence has a job. The reader can see why the sentence is there.
+
+For Chinese-speaking learners, paragraph frames also help with English output. Many students can explain the business logic orally in Chinese but lose structure when writing in English. They may translate directly from Chinese and produce sentences such as "This method is very good and can make the company develop better." The idea is not useless, but the English does not show evidence, application or judgement. A frame helps the learner convert business thinking into assessable academic writing.
 
 ### 中文提示
 
 寫作框架不是讓學生照抄，而是幫學生按邏輯組織內容。真正要變動的是 evidence、business context 和 judgement。框架只是骨架，不是答案。
+
+對中國學生來說，frame 的價值是把“中文腦中的道理”變成英語 assignment 可以評分的段落。不要把 frame 理解成範文。它不是答案，而是段落秩序。
+
+一個段落至少要回答：
+
+- 我這段要說什麼？
+- 我用什麼證據支持？
+- 這個證據和企業有什麼關係？
+- 這個觀點有什麼限制？
+- 這段最後如何回到題目？
 
 ## 5.2 PEEAL frame
 
@@ -1443,7 +1464,79 @@ The purpose of a frame is to stop the paragraph from becoming a list of disconne
 | Application | Apply to the business | In this business, ... | 回到題目中的企業 |
 | Link / Limit | Link to judgement | However, this depends on ... | 加入限制或連回問題 |
 
-## 5.3 Example paragraph skeleton
+PEEAL is a teaching frame. It should not be applied mechanically to every sentence, but it gives learners a reliable route. The most important part is not the acronym. The most important part is the movement from claim to evidence to application.
+
+Many weak paragraphs only contain Point and Explanation. They say what the learner thinks and why the learner thinks it, but they do not show evidence. Some paragraphs contain Point and Evidence, but no Application. They mention a source, but the reader cannot see why it matters to the selected business. Some paragraphs contain Point, Evidence and Application, but no Limit. These paragraphs may be adequate for basic analysis, but they often sound too certain.
+
+The PEEAL frame helps the learner avoid these problems:
+
+| Common problem | Missing part of PEEAL | What to add |
+| --- | --- | --- |
+| The paragraph sounds like opinion | Evidence | Add case data, source evidence, observation or business concept |
+| The paragraph sounds like textbook summary | Application | Explain how the concept works in this organisation |
+| The paragraph sounds too certain | Link / Limit | Add a condition, risk, dependency or further evidence need |
+| The paragraph is a list | Explanation | Explain how one sentence leads to the next |
+| The paragraph does not answer the task | Point / Link | Reconnect to the command verb and assessment focus |
+
+### 中文提示
+
+PEEAL 不是讓學生每段都寫五句固定句型，而是提醒學生：不要只有觀點，沒有證據；不要只有理論，沒有企業；不要只有建議，沒有限制。
+
+最常見的弱段落是：
+
+> The business should use social media. Social media is popular. It can help the business get more customers. Therefore, this is a good method.
+
+問題在於：沒有說哪個 customer group，沒有 evidence，沒有說該企業是否有能力持續更新內容，也沒有說如何衡量效果。
+
+更好的段落要回答：為誰做？為什麼適合？靠什麼證據？有什麼限制？如何判斷是否有效？
+
+## 5.3 Sentence functions inside a paragraph
+
+Before writing a paragraph, the learner should understand sentence function. A paragraph is not a pile of sentences. Each sentence should perform a role.
+
+| Sentence function | Purpose | Example sentence starter |
+| --- | --- | --- |
+| Topic sentence | Shows the paragraph focus | One suitable approach may be... |
+| Evidence sentence | Supports the point | This is supported by... |
+| Interpretation sentence | Explains what the evidence means | This suggests that... |
+| Application sentence | Links to the selected business | For this business, this matters because... |
+| Limitation sentence | Shows caution | However, this may be limited by... |
+| Judgement sentence | Connects back to the task | Therefore, the business should... |
+
+The learner should not begin every paragraph with the same phrase. Variety matters. However, function matters more than style. A simple sentence with a clear function is better than a decorative sentence that does not help the assignment.
+
+For example:
+
+> One suitable approach may be a loyalty card.
+
+This is a clear topic sentence, but it is not enough.
+
+> This is supported by the cafe's location near a railway station, where weekday customers may pass the shop regularly.
+
+This adds evidence and application.
+
+> However, this method may not solve weak weekend sales unless the cafe can also attract leisure customers.
+
+This adds limitation.
+
+> Therefore, the owner should test the loyalty card with weekday commuters while collecting separate evidence on weekend customer behaviour.
+
+This adds judgement.
+
+### 中文提示
+
+寫段落時不要只想“我要湊字數”。應該想：這句話在段落中做什麼工作？
+
+- Topic sentence：告訴讀者我要說什麼。
+- Evidence sentence：證明我不是空口說。
+- Interpretation：解釋證據代表什麼。
+- Application：回到這家企業。
+- Limitation：指出限制。
+- Judgement：回到題目並作出判斷。
+
+如果一段裡很多句子沒有明確功能，就容易變成流水帳。
+
+## 5.4 Example paragraph skeleton
 
 > One suitable method for Harbour Bean Cafe may be a loyalty card because it is a low-cost way to encourage repeat purchases. This is supported by the cafe's position near a railway station, where some customers may pass the business regularly. In this business, a loyalty card could be realistic because it does not require a large advertising budget and can be explained easily at the point of sale. However, its effectiveness depends on whether the cafe can attract repeat customers at weekends, not only weekday commuters. Therefore, the owner should track repeat visits before judging whether the method has improved weekend sales.
 
@@ -1456,7 +1549,26 @@ The purpose of a frame is to stop the paragraph from becoming a list of disconne
 - However...：指出限制。
 - Therefore...：作出行動建議或判斷。
 
-### 中文到英文轉換
+This paragraph is not a model answer to be copied. It is a demonstration of movement. It moves from recommendation to evidence, from evidence to application, from application to limitation, and from limitation to judgement. The learner should replace the business, evidence and assessment focus with their own task.
+
+The paragraph can be stretched or shortened depending on the assessment criterion. For a Pass-level explanation, the learner may need a clearer description of what a loyalty card is and why repeat purchase matters. For a Merit-level analysis, the learner may need to explain the relationship between commuter behaviour, repeat visits and low-cost promotion. For a Distinction-level evaluation, the learner may need to compare loyalty cards with another method, such as a partnership or weekend event promotion.
+
+### 中文提示
+
+這段不是範文。不能整段照搬。它只是展示段落如何移動：
+
+recommendation -> evidence -> application -> limitation -> judgement
+
+學生真正要替換的是：
+
+- business name；
+- evidence；
+- customer group；
+- assessment criterion；
+- limitation；
+- final judgement。
+
+## 5.5 中文到英文轉換
 
 | 中文意思 | 不夠學術的英文 | 更好的英文 |
 | --- | --- | --- |
@@ -1464,6 +1576,245 @@ The purpose of a frame is to stop the paragraph from becoming a list of disconne
 | 社交媒體很多人用 | Many people use social media. | Social media may help the cafe reach local student customers if the content is updated consistently. |
 | 這個方法也有缺點 | This method also has disadvantages. | However, this method may be limited by staff time, weak tracking data and inconsistent promotion. |
 | 老闆應該看看有沒有效 | The owner should see if it works. | The owner should monitor repeat visits and weekend sales before judging the effectiveness of the campaign. |
+
+Chinese-to-English conversion should not be word-for-word translation. The learner should convert the thinking function. For example, "這個方法很好" should not become "this method is very good." In academic business writing, the learner should explain suitability, mechanism and condition.
+
+Useful conversion patterns include:
+
+| 中文思維 | Academic English function | Better English pattern |
+| --- | --- | --- |
+| 這個方法適合這家公司 | Suitability | This approach may be suitable for the business because... |
+| 這個方法可以增加顧客 | Mechanism | This may increase customer visits by... |
+| 但也有風險 | Limitation | However, the impact may be limited if... |
+| 還要看情況 | Condition | The effectiveness depends on... |
+| 要先試一下 | Evidence collection | The business should test this by... |
+| 不能保證成功 | Caution | This should not be treated as a guaranteed solution because... |
+
+### 中文提示
+
+中英轉換的核心不是翻譯字，而是翻譯“學術功能”。中文裡一句“這個方法挺好”，在英文 assignment 裡可能要拆成三部分：
+
+1. suitable for whom；
+2. supported by what evidence；
+3. limited by what condition。
+
+## 5.6 Frames for different command verbs
+
+Different command verbs need different paragraph shapes. Learners often use one paragraph style for every task, but this is risky. A paragraph for "describe" does not need the same level of judgement as a paragraph for "evaluate". A paragraph for "compare" must include more than one option. A paragraph for "recommend" must link evidence to a practical decision.
+
+### Describe
+
+Purpose: show what something is, what it includes or how it works.
+
+Frame:
+
+> [Concept / method] refers to... It usually includes... In the context of [business], this may involve...
+
+Example:
+
+> A loyalty scheme is a promotional method that rewards customers for repeat purchases. In the context of Harbour Bean Cafe, this may involve offering a free drink after a set number of purchases.
+
+Chinese check:
+
+描述不是評價。Describe 主要說清楚“是什麼”。不要在 describe 段落中突然寫太多 judgement。
+
+### Explain
+
+Purpose: show why or how something matters.
+
+Frame:
+
+> This matters because... The evidence suggests... Therefore, it may affect...
+
+Example:
+
+> This matters because commuters who pass the cafe regularly may be more likely to respond to a simple repeat-purchase reward than customers who visit only once.
+
+Chinese check:
+
+Explain 要回答 because / how。不要只把 definition 重複一遍。
+
+### Analyse
+
+Purpose: break down relationships between evidence, cause, effect and business context.
+
+Frame:
+
+> This may lead to... because... In this business, the impact may be... However, this depends on...
+
+Example:
+
+> A loyalty card may increase repeat visits because it gives regular customers a reason to return. In this business, the impact may be stronger on weekday commuters than weekend visitors because commuters pass the cafe more frequently.
+
+Chinese check:
+
+Analyse 要拆關係。你要說清楚 cause and effect，不是只寫“有好處”。
+
+### Compare
+
+Purpose: identify similarities, differences and relative suitability.
+
+Frame:
+
+> Option A may be more suitable for... whereas Option B may be more suitable for... The key difference is...
+
+Example:
+
+> A loyalty card may be more suitable for retaining weekday customers, whereas a bookstore partnership may be more suitable for reaching new weekend visitors. The key difference is that the loyalty card depends on existing repeat footfall, while the partnership may create access to a different customer group.
+
+Chinese check:
+
+Compare 不能只寫 A 一段、B 一段，最後沒有比較。比較要有比較點：cost、risk、customer fit、time、evidence strength。
+
+### Evaluate
+
+Purpose: make a supported judgement, including strengths, limits and conditions.
+
+Frame:
+
+> Overall, [option] may be the stronger choice if... However, it should be treated cautiously because... The business should therefore...
+
+Example:
+
+> Overall, a bookstore partnership may be the stronger weekend option if the cafe can reach leisure customers who are not already weekday commuters. However, it should be treated cautiously because the case does not provide evidence of shared customer demand. The business should therefore test the partnership through a short weekend offer before committing major resources.
+
+Chinese check:
+
+Evaluate 不是“寫優點缺點”。它要最後形成 judgement：哪個更合適？在什麼條件下？為什麼？
+
+## 5.7 Upgrading a weak paragraph
+
+Learners often benefit from seeing a weak paragraph upgraded step by step.
+
+Weak paragraph:
+
+> The cafe should use social media because many people use it. It is cheap and can help the cafe get more customers. This is a good method for the cafe.
+
+This paragraph has a point, but it is weak. It uses "many people" without evidence. It says "cheap" without explaining staff time or content quality. It says "get more customers" without explaining which customers or how success would be measured.
+
+Improved paragraph:
+
+> Social media may be a suitable awareness method for Harbour Bean Cafe if the business wants to reach local students and younger customers. This is because short updates, menu photographs and limited offers can be shared at low financial cost compared with paid local advertising. However, the method still requires staff time and regular content, so it may not be effective if the cafe posts only occasionally. The owner should therefore use a simple tracking method, such as a discount code or customer question at purchase, before judging whether online attention has become actual customer visits.
+
+Why it is stronger:
+
+1. It identifies the target group.
+2. It explains the mechanism.
+3. It avoids saying social media is automatically successful.
+4. It includes a limitation.
+5. It recommends measurement.
+
+### 中文提示
+
+升級段落不是把句子變長，而是讓每一句有功能。弱段落的問題是太泛、太絕對、沒有 evidence。強一點的段落會說：
+
+- 對誰有用；
+- 為什麼有用；
+- 成本或限制是什麼；
+- 如何測量；
+- 不能保證什麼。
+
+## 5.8 Paragraph bank for common BTEC Business topics
+
+The following frames are not model answers. They are controlled sentence patterns for learners to adapt.
+
+### Marketing recommendation
+
+> One suitable marketing method may be [method] because it could help [business] reach [customer group]. This is supported by [evidence]. For this business, the method may be realistic because [application]. However, its effectiveness may be limited by [limitation]. Therefore, the business should [measurement or next step].
+
+中文提示：Marketing 段落必須說 customer group 和 channel fit。不要只說“promote more”。
+
+### Finance decision
+
+> [Finance option] may be suitable because it allows the business to [purpose]. The evidence suggests that [financial evidence]. However, this option may create pressure if [risk]. Therefore, the business should compare [cost / repayment / cash-flow impact] before making the decision.
+
+中文提示：Finance 段落不要只說“有錢就好”。要說 repayment、cash flow、cost、risk。
+
+### HR training need
+
+> Staff training may be needed because [performance issue]. This is supported by [evidence]. In this business, training could improve [skill or service area]. However, training may not solve the problem if [limitation]. The manager should therefore monitor [performance indicator].
+
+中文提示：HR 段落要避免把所有問題都歸咎於 staff。可能還有 process、management、resources 的原因。
+
+### Enterprise risk
+
+> One key risk is [risk]. This may affect the business because [impact]. The evidence suggests that [support]. The risk could be reduced by [response], although this may be limited by [constraint]. Therefore, the entrepreneur should [action].
+
+中文提示：Enterprise 段落要有 risk + impact + response，不要只列出風險名稱。
+
+### Customer service improvement
+
+> Improving [service area] may help the business because [customer impact]. This is supported by [customer evidence]. For this business, the improvement may be practical if [resource condition]. However, it should be measured through [indicator] rather than assumed to be successful.
+
+中文提示：Customer service 段落要說 customer experience 和 business outcome 之間的關係。
+
+## 5.9 Avoiding formulaic writing
+
+Frames are helpful, but formulaic writing is a risk. If every paragraph begins with "One suitable method may be..." and every paragraph ends with "therefore the business should...", the work may sound mechanical. The learner should use frames as planning tools, then vary the language.
+
+Alternative topic sentence patterns:
+
+- A practical starting point for the business may be...
+- The evidence suggests that the business should consider...
+- In this scenario, the most realistic option may be...
+- For a small business with limited resources, ... may be more suitable than...
+- Before choosing a final method, the business should consider...
+
+Alternative limitation patterns:
+
+- This may be limited by...
+- The main risk is...
+- This conclusion should remain cautious because...
+- The evidence does not yet show...
+- The business would need to test whether...
+
+Alternative judgement patterns:
+
+- Therefore, this option should be tested before wider use.
+- This makes the method suitable as a short-term action, but not a complete solution.
+- On balance, this option is stronger if the business can...
+- The recommendation is reasonable, provided that...
+- Further evidence would be needed before committing significant resources.
+
+### 中文提示
+
+框架不能讓文章像機器。學生可以先用 frame 起草，再把句式換得自然一點。關鍵是保留功能，不是保留固定句子。
+
+## 5.10 Chapter 5 practice task
+
+Choose one weak paragraph from your own draft. Do not rewrite the whole assignment. Work on one paragraph only.
+
+Step 1: Label each sentence.
+
+| Sentence | Function |
+| --- | --- |
+| Sentence 1 | Point / evidence / explanation / application / limitation / judgement? |
+| Sentence 2 | Point / evidence / explanation / application / limitation / judgement? |
+| Sentence 3 | Point / evidence / explanation / application / limitation / judgement? |
+
+Step 2: Identify what is missing.
+
+- Is there a clear point?
+- Is there evidence?
+- Is the evidence applied to the business?
+- Is there a limitation?
+- Does the final sentence answer the task?
+
+Step 3: Rewrite the paragraph using PEEAL or a command-verb frame.
+
+Step 4: Check that the paragraph is still your own work and uses your own evidence.
+
+### Chapter 5 quick self-check
+
+Before moving to academic integrity and final review, the learner should be able to tick the following:
+
+- I can identify the function of each sentence in a paragraph.
+- I can use a frame without copying a model answer.
+- I can adapt paragraph shape to describe, explain, analyse, compare or evaluate.
+- I can move from Chinese business thinking to English academic phrasing.
+- I can add evidence and application rather than only opinion.
+- I can add limitation without making the paragraph negative.
+- I can vary sentence starters while keeping the paragraph structure clear.
 
 ---
 
