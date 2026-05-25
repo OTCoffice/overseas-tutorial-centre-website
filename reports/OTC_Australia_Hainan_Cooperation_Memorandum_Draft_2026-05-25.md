@@ -22,9 +22,9 @@ Overseas Tutorial Centre Ltd（以下簡稱「OTC」）是一家英國註冊的�
 
 OTC 具備多年英國教育服務經驗，熟悉英國課程、國際升學、學生支持、文件審核及家長溝通流程。OTC 亦具有 OTHM approved centre 相關經驗和資格課程運作能力，可為學生提供國際課程銜接、學術能力補強和升學準備支持。
 
-### 2. 國際教育平台與學生轉介經驗
+### 2. 國際教育平台型操作與學生轉介經驗
 
-OTC 透過小希留學平台 / Xiaoxi Study Abroad Platform 具備平台型教育諮詢、學生轉介、院校政策跟蹤和國際 pathway 項目操作經驗。相關經驗涉及 Kaplan、Cambridge Education Group / OnCampus、UTS College、UNSW College、Swinburne、Ozford 等國際與澳洲相關項目資訊。
+OTC 具備平台型教育諮詢、學生轉介、院校政策跟蹤和國際 pathway 項目操作經驗，熟悉國際教育集團、語言課程、foundation / pathway、VET / TAFE 及澳洲相關職業教育項目的資訊整理、學生溝通和流程跟進。
 
 該經驗可作為 OTC 申請澳洲新教育代理、搭建澳洲方向學生服務流程、理解院校政策與文件要求的重要操作基礎。
 
@@ -33,10 +33,9 @@ OTC 透過小希留學平台 / Xiaoxi Study Abroad Platform 具備平台型教�
 OTC 已開始系統化推進澳洲業務，包括：
 
 - 建立澳洲辦公室與營運證據；
-- 完成 Study NT 相關 agent training / training account 準備；
-- 已向 Northern Territory Government Schools 提交 education agent application；
-- 已收到 StudyAdelaide agent newsletter 訂閱確認；
-- 已與 Study Melbourne / Global Victoria 公共學生支持資源建立初步信息聯絡；
+- 已完成澳洲州政府及公共教育資源方向的初步 training / information access 準備；
+- 已啟動澳洲政府學校、TAFE、VET 與 pathway provider 的 agent application / EOI 管線；
+- 已建立澳洲州級公共學生支持資源的信息跟蹤機制；
 - 已整理澳洲 TAFE、公立職教、私立 VET/ELICOS、健康護理、社區服務及部分大學 pathway 的公開 agent application / EOI 入口；
 - 正在形成澳洲健康護理、aged care、community services、early childhood、business、IT、VET/TAFE 和 pathway 路線的中文內容與學生支持資料庫；
 - 以「教育路線 + 職業技能 + 就業準備 + 合規移民資訊邊界」作為澳洲擴展的核心產品方向。
@@ -131,7 +130,7 @@ OTC 可為海南合作方提供海外教育內容支持：
 - 擴大中國學生來源與本地服務網絡；
 - 為澳洲 provider application 提供更清晰的 market plan；
 - 形成可被澳洲院校理解的 recruitment and student-support pipeline；
-- 把英國、小希平台與澳洲路線經驗轉化為實際市場；
+- 把英國教育服務、國際平台型操作經驗與澳洲路線經驗轉化為實際市場；
 - 為未來 direct agent appointment 積累真實案例與數據。
 
 ### 對學生和家庭
@@ -193,7 +192,7 @@ OTC 可為海南合作方提供海外教育內容支持：
 
 ## 七、建議給 Dawn Yun 老師的轉介話術
 
-> Dawn 老師您好，OTC 目前正在系統化拓展澳洲方向教育服務，現階段重點放在澳洲 VET/TAFE 職業教育、健康護理、aged care、community services、early childhood、職業能力準備及合規移民導向資訊服務。OTC 在英國教育服務、小希留學平台合作、國際 pathway 項目、雙語內容和學生支持方面已有一定操作經驗，近期也已啟動澳洲 provider / government school / TAFE / VET agent application 管線。  
+> Dawn 老師您好，OTC 目前正在系統化拓展澳洲方向教育服務，現階段重點放在澳洲 VET/TAFE 職業教育、健康護理、aged care、community services、early childhood、職業能力準備及合規移民導向資訊服務。OTC 在英國教育服務、國際教育平台型操作、國際 pathway 項目、雙語內容和學生支持方面已有一定操作經驗，近期也已啟動澳洲 provider / government school / TAFE / VET agent application 管線。  
 >
 > 我們希望探索是否能與海南本地教育國際合作、職業教育、就業實習或學生發展相關機構建立合作，先從澳洲 VET/TAFE 職業路線說明、學生意向收集、家長溝通、英語與職業能力準備和試點案例開始。這不是簡單的招生廣告，也不承諾簽證或移民結果，而是希望把海南本地資源、OTC 海外操作能力和澳洲職教方向新機會結合起來，形成雙方都能長期受益的合作模式。  
 >

@@ -17,7 +17,7 @@ OTC 希望與海南本地機構共同推進澳洲 VET/TAFE 職業教育方向合
 - 學生 route screening、文件清單、材料預審和家長溝通；
 - 英語、學術、職業能力和 workplace readiness 準備；
 - 留學導報文章、雙語手冊、講座、短課和學習工具；
-- 小希留學平台相關操作經驗與國際 pathway provider 政策跟蹤經驗；
+- 國際教育平台型操作經驗與國際 pathway provider 政策跟蹤經驗；
 - 澳洲 provider / TAFE / VET agent application 管線與公開申請入口整理。
 
 ## 海南合作方可提供什麼
@@ -65,4 +65,3 @@ OTC 希望與海南本地機構共同推進澳洲 VET/TAFE 職業教育方向合
 - 面向高中/職校畢業生的升學服務機構。
 
 OTC 可先準備一場主題為「海南學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」的線上試講。
-

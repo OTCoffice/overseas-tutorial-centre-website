@@ -74,6 +74,26 @@ const baseCss = `
     left: 3mm;
     transform: none;
   }
+  .brief-page .micro-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr 1fr;
+    gap: 3mm;
+  }
+  .brief-page .mini-card {
+    border: 1px solid #d8e1e1;
+    background: #fff;
+    border-radius: 6px;
+    padding: 3mm;
+  }
+  .brief-page .mini-card h3 {
+    font-size: 9.8px;
+    margin-bottom: 1.5mm;
+  }
+  .brief-page .mini-card p,
+  .brief-page .mini-card li {
+    font-size: 7.9px;
+    line-height: 1.28;
+  }
   .topbar {
     height: 14mm;
     background: #183a4a;
@@ -369,7 +389,7 @@ const briefHtml = `<!doctype html>
       <h1>OTC x 海南：澳洲 VET / TAFE 職業相關移民導向合作</h1>
       <p class="subtitle">面向海南本地教育國際合作、職業教育、就業實習與學生發展機構，建立「海南本地學生資源 + OTC 海外操作能力 + 澳洲 VET/TAFE 通道」的可執行合作模型。</p>
       <div class="metric-row">
-        <div class="metric"><b>5年+</b><span>小希留學平台型教育諮詢與學生轉介經驗</span></div>
+        <div class="metric"><b>5年+</b><span>國際教育平台型諮詢與學生轉介操作經驗</span></div>
         <div class="metric"><b>VET</b><span>健康護理、社區服務、幼教、IT、商科等方向</span></div>
         <div class="metric"><b>90天</b><span>試點講座、意向收集、route screening 與申請轉化</span></div>
         <div class="metric"><b>合規</b><span>不承諾簽證、移民、工作結果，個案轉介專業人士</span></div>
@@ -432,6 +452,34 @@ const briefHtml = `<!doctype html>
           <div class="step">OTC 對意向學生進行非移民法律性質的教育 route screening，合適學生再進入 provider application、平台轉介或專業服務轉介。</div>
         </div>
       </section>
+      <section class="micro-grid section">
+        <article class="mini-card">
+          <h3>首批目標人群</h3>
+          <ul>
+            <li>海南中高職、高職、應屆畢業生及轉型青年。</li>
+            <li>關注護理、康養、幼教、社區服務、酒店旅遊和 IT 的家庭。</li>
+            <li>已有英語基礎但缺少海外職業路線理解的學生。</li>
+          </ul>
+        </article>
+        <article class="mini-card">
+          <h3>可交付資料包</h3>
+          <ul>
+            <li>職業方向資料卡。</li>
+            <li>學生意向表與初篩表。</li>
+            <li>家長問答與合規提示。</li>
+            <li>講座簡報與後續跟進模板。</li>
+          </ul>
+        </article>
+        <article class="mini-card">
+          <h3>90 天成果指標</h3>
+          <ul>
+            <li>2 場線上/線下說明會。</li>
+            <li>30-50 份學生意向表。</li>
+            <li>10-15 個 route screening。</li>
+            <li>3-5 個可跟進申請案例。</li>
+          </ul>
+        </article>
+      </section>
       <section class="signoff">
         <div class="signer"><b>Yan Xinyue</b><span>海外督導澳洲項目經理</span></div>
         <div class="signer"><b>Georgie Barnes</b><span>海外督導澳洲執行董事</span></div>
@@ -482,16 +530,16 @@ const memoHtml = `<!doctype html>
           <ul>
             <li>英國教育服務、國際升學與家長溝通經驗。</li>
             <li>OTHM approved centre 相關經驗和資格課程運作能力。</li>
-            <li>小希留學平台型學生轉介與 provider policy 跟蹤經驗。</li>
+            <li>國際教育平台型學生轉介與 provider policy 跟蹤經驗。</li>
             <li>澳洲 provider / TAFE / VET agent application 管線整理。</li>
           </ul>
         </article>
         <article class="card blue">
           <h3>澳洲拓展基礎</h3>
           <ul>
-            <li>NT Government Schools agent application 已提交。</li>
-            <li>StudyAdelaide agent newsletter 已確認訂閱。</li>
-            <li>Study Melbourne / Global Victoria 公共資源已建立信息聯絡。</li>
+            <li>澳洲政府學校、TAFE、VET 與 pathway provider application / EOI 管線已啟動。</li>
+            <li>澳洲州級公共教育與學生支持資源已納入信息跟蹤。</li>
+            <li>多類澳洲職業教育公開申請入口與合作流程已完成初步整理。</li>
             <li>健康護理、社區服務、VET/TAFE 中文內容建設中。</li>
           </ul>
         </article>
@@ -505,6 +553,35 @@ const memoHtml = `<!doctype html>
           </ul>
         </article>
       </div>
+      <section class="section">
+        <h2>目標學生與海南端切入口</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>學生類型</h3>
+            <ul>
+              <li>中高職、高職、應屆畢業生及希望轉換職業方向的青年。</li>
+              <li>對護理、康養、幼教、社區服務、酒店旅遊、IT、商科感興趣的學生。</li>
+              <li>希望先用職業教育和英語能力打基礎，再理解後續海外可能路線的家庭。</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>海南合作入口</h3>
+            <ul>
+              <li>職業院校 / 高職 / 中職國際合作部門。</li>
+              <li>就業實習平台、青年職涯發展項目、康養幼教相關培訓機構。</li>
+              <li>服務高中畢業生、職校畢業生和家長群體的升學服務入口。</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>OTC 交付資料</h3>
+            <ul>
+              <li>澳洲 VET/TAFE 職業方向資料卡與中文路線手冊。</li>
+              <li>學生意向表、route screening 表、家長 FAQ 與合規提示。</li>
+              <li>講座 PPT、短課提綱、跟進郵件和可匿名化案例模板。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
       <section class="section">
         <h2>合作方向</h2>
         <div class="grid-2">
@@ -578,6 +655,35 @@ const memoHtml = `<!doctype html>
           <p>我們希望探索是否能與海南本地教育國際合作、職業教育、就業實習或學生發展相關機構建立合作，先從澳洲 VET/TAFE 職業路線說明、學生意向收集、家長溝通、英語與職業能力準備和試點案例開始。</p>
         </article>
       </div>
+      <section class="section">
+        <h2>90 天試點成果與評估指標</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>招生與觸達</h3>
+            <ul>
+              <li>完成 2 場海南學生 / 家長路線說明會。</li>
+              <li>收集 30-50 份澳洲 VET/TAFE 意向表。</li>
+              <li>形成 10-15 個可初步 route screening 的學生檔案。</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>服務與轉化</h3>
+            <ul>
+              <li>完成 3-5 個可跟進申請案例。</li>
+              <li>建立學生文件清單、英語準備和職業方向跟進表。</li>
+              <li>區分平台轉介、直接 provider application 和專業服務轉介。</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>證據與復盤</h3>
+            <ul>
+              <li>輸出一份海南試點復盤報告。</li>
+              <li>沉澱匿名案例、常見問題、家長關注點與內容選題。</li>
+              <li>為後續澳洲 provider application 提供 market plan 和 recruitment pipeline 證據。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
       <section class="card gold">
         <h2>建議下一步</h2>
         <p>請 Dawn Yun 老師協助判斷海南端最適合先接觸的 1-2 類機構：職業院校 / 高職 / 中職、國際教育合作辦公室、就業實習平台、護理康養幼教或旅遊酒店相關培訓機構。OTC 可先準備一場「海南學生如何理解澳洲 VET/TAFE 職業教育與職業相關移民導向路線」線上試講。</p>
