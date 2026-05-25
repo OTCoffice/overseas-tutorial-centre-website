@@ -9139,7 +9139,7 @@ const bilingualStudySupportMarketReport = pageShell({
   current: "publishing",
   path: "/publishing/bilingual-study-support-market-report/",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Market Research</div><h1>Bilingual Study Support Market Report</h1><p>OTC 雙語教輔出版市場調查：面向中國國際學校、國際部、雙語學校與 pathway learners，建立從 BTEC Level 3 到 Higher Nationals 的獨立學習支持產品線。</p></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Market Research</div><h1>Bilingual Study Support Market Report</h1><p>OTC 雙語教輔出版市場調查：面向中國國際學校、國際部、雙語學校與 pathway learners，建立從 BTEC Level 3 到 Higher Nationals 的獨立學習支持產品線。</p><div class="actions"><a class="btn btn-secondary" href="/zh/publishing/bilingual-study-support-market-report/">中文版本</a><a class="btn btn-secondary" href="/publishing/">Back to Publishing</a></div></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -9212,6 +9212,91 @@ const bilingualStudySupportMarketReport = pageShell({
       </div>
       <div style="height:18px"></div>
       <div class="notice">Working source file: reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md. This report is an internal OTC publishing roadmap and public-facing market-positioning page. It is not an official Pearson, Cambridge, IB, College Board or awarding-body document.</div>
+    </section>
+  `
+});
+
+const bilingualStudySupportMarketReportZh = pageShell({
+  title: "雙語教輔市場調查 | 海外書局 | 海外督導",
+  description: "海外督導 / Overseas Publishing House 面向中國國際學校、國際部、雙語學校與 pathway learners 的 BTEC Level 3、A-Level、IB、Foundation、BTEC Higher Nationals 雙語教輔出版策劃。",
+  current: "publishing",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/publishing/bilingual-study-support-market-report/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">海外書局 · 市場調查</div><h1>雙語教輔市場調查</h1><p>面向中國國際學校、國際部、雙語學校與 pathway learners，建立 BTEC Level 3、A-Level、IB、Foundation 與 BTEC Higher Nationals 的獨立雙語學習支持產品線。</p><div class="actions"><a class="btn btn-secondary" href="/publishing/bilingual-study-support-market-report/">English version</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">核心判斷</div>
+        <h2>Level 3 是出版入口；Level 4/5 是中心交付與進階路線。</h2>
+        <p>OTC 不應把 BTEC Level 3 視為次要方向。對海外書局而言，BTEC Level 3 / International Level 3 正好對接中國國際學校、國際部和 pathway learners 的升本需求，是最適合先做雙語教輔出版的入口。BTEC Higher Nationals Level 4 / 5 HNC-HND 則應繼續作為 OTC 申請 Pearson centre、online delivery 和 LMS 建設的中長線。</p>
+      </div>
+      <div class="index-grid ebook-service-grid">
+        <article><b>01</b><strong>BTEC Level 3</strong><span>assignment brief 解讀、criteria awareness、evidence planning、Pass / Merit / Distinction 目標意識與雙語學習伴侶。</span></article>
+        <article><b>02</b><strong>A-Level / IAL</strong><span>商科、經濟、會計、心理等科目的 command words、evaluation、case application 和英文論述訓練。</span></article>
+        <article><b>03</b><strong>IBDP</strong><span>TOK、EE、IA、Business Management 等 rubric 解讀、研究問題和學術寫作支持。</span></article>
+        <article><b>04</b><strong>Foundation / Pathway</strong><span>學術寫作、referencing、business vocabulary、assignment-based study support。</span></article>
+        <article><b>05</b><strong>BTEC Higher Nationals</strong><span>Level 4 / 5 HNC-HND 的 unit outcomes、report writing、top-up progression 和未來中心交付支持。</span></article>
+        <article><b>06</b><strong>Apps & ISBN</strong><span>詞彙測試、writing-frame trainer、ISBN-controlled PDF guide 與 Payhip / KDP / app bundle。</span></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">市場缺口</div>
+        <h2>學生缺的不是資料，而是雙語輸出系統。</h2>
+        <p>官方 specification、教材和 assessment rules 仍然是基礎。中國 EAL 學生真正卡住的地方，是如何把已經理解的學科內容轉換成合規、清楚、有證據的英文學術輸出。OTC 的定位不是提供範文或代寫，而是出版能支持理解、詞彙、規劃與 academic integrity 的獨立學習資源。</p>
+      </div>
+      <div class="metrics-grid">
+        <article><strong>概念理解</strong><span>中文概念到英文學科語言</span><p>用雙語概念圖、key-term explanation 和 course-linked glossary 降低閱讀門檻。</p></article>
+        <article><strong>評核語言</strong><span>Command words and criteria</span><p>把 describe、explain、analyse、evaluate 等評核動詞轉換為學生能操作的寫作任務。</p></article>
+        <article><strong>作業規劃</strong><span>Brief to evidence plan</span><p>幫學生讀懂 assignment brief、拆解任務、建立 evidence table 和進度清單。</p></article>
+        <article><strong>英文寫作</strong><span>Paragraph and report structure</span><p>使用 PEEAL 類寫作框架、evaluation language、Harvard referencing 和 feedback literacy。</p></article>
+        <article><strong>升學理解</strong><span>Progression clarity</span><p>解釋 Level 3 to undergraduate progression、Higher Nationals、foundation、top-up 等路線。</p></article>
+        <article><strong>合規邊界</strong><span>Independent support only</span><p>明確標示獨立學習支持，不冒充官方教材、不提供 model answers、不承諾通過。</p></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">產品路線</div>
+        <h2>第一批產品應按市場痛點排序，而不是按資格名氣排序。</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>最優先。面向中國國際課程學生，處理 assignment brief、criteria、evidence planning 和 academic phrasing。</p></div><span class="pill">Priority 1</span></article>
+        <article class="resource-row"><div><h3>A-Level / IAL Business Evaluation Writing Guide</h3><p>適合國際學校與雙語學生的 essay-output 產品，重點訓練 evaluation、case application 和論述結構。</p></div><span class="pill">Priority 2</span></article>
+        <article class="resource-row"><div><h3>BTEC Level 3 Business Bilingual Study Companion</h3><p>以課程伴侶和術語表為核心，可成為 Pearson / BTEC Level 3 雙語出版線的母本。</p></div><span class="pill">Priority 3</span></article>
+        <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>跨 BTEC、Foundation、HNC/HND、OTHM 的通用寫作產品，提供結構而不是替學生完成作業。</p></div><span class="pill">Cross-route</span></article>
+        <article class="resource-row"><div><h3>BTEC Higher Nationals Business Assignment Writing Companion</h3><p>對接 HNC/HND 和 OTC Pearson centre enquiry 的長線產品。</p></div><span class="pill">HN route</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">書號分配</div>
+          <h3>ISBN 只給進入正式出版流程的產品。</h3>
+          <ul>
+            <li>一本正式銷售書對應一個 ISBN。</li>
+            <li>PDF ebook、POD paperback、EPUB / Kindle 應按不同格式分開管理。</li>
+            <li>app 和 browser tool 通常不需要 ISBN，除非與正式 ebook / PDF publication 捆綁銷售。</li>
+            <li>草稿、preview、tutor note、sample chapter 只使用內部 ID。</li>
+          </ul>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">合規措辭</div>
+          <h3>對外只使用獨立學習支持語言。</h3>
+          <ul>
+            <li>可用：Independent Study Companion、Bilingual Study Support Toolkit、Assignment Planning Companion。</li>
+            <li>避免：Official Guide、Model Answers、Marking Guide、Guaranteed Pass、Examiner Secrets。</li>
+            <li>未取得書面授權時，不暗示 Pearson、Cambridge、IB、College Board 或任何 awarding body 背書。</li>
+            <li>每個產品頁保留 academic integrity 和 independent resource 邊界。</li>
+          </ul>
+        </div>
+      </div>
+      <div style="height:18px"></div>
+      <div class="notice">工作源文件：reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md。本頁是 OTC / 海外書局的市場定位與出版路線頁，不是 Pearson、Cambridge、IB、College Board 或任何 awarding body 的官方文件。</div>
     </section>
   `
 });
@@ -11134,14 +11219,20 @@ const chineseEntrance = pageShell({
           <span>Study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
           <em>進入出版物</em>
         </a>
-        <a href="/services/language-context-studio/">
+        <a href="/zh/publishing/bilingual-study-support-market-report/">
           <b>02</b>
+          <strong>雙語教輔市場調查</strong>
+          <span>BTEC Level 3、A-Level、IB、Foundation 與 Higher Nationals 的出版策劃。</span>
+          <em>閱讀中文報告</em>
+        </a>
+        <a href="/services/language-context-studio/">
+          <b>03</b>
           <strong>編譯部</strong>
           <span>中英翻譯、出版級編修、跨文化語境整理與對外表達校準。</span>
           <em>進入編譯部</em>
         </a>
         <a href="/zh/insights/">
-          <b>03</b>
+          <b>04</b>
           <strong>留學導報</strong>
           <span>升學路線、申請文件、英澳澳新 pathway 與教育評論文章。</span>
           <em>進入留學導報</em>
@@ -14869,6 +14960,7 @@ write(".", home);
 write("publishing", publishing);
 write("publishing/media", publishingMedia);
 write("publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReport);
+write("zh/publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReportZh);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
@@ -15020,6 +15112,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /publishing/
 - /publishing/media/
 - /publishing/bilingual-study-support-market-report/
+- /zh/publishing/bilingual-study-support-market-report/
 - /courses/
 - /services/
 - /university-applications/
