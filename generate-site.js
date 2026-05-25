@@ -11206,24 +11206,37 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
+    <section class="band compact-band zh-global-map-band" id="global-study-map">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Global Study Map</div>
+        <h2>主要留學國家入口</h2>
+        <p>點擊地圖上的國家文字，進入對應留學國家頁面。澳洲直接進入已成熟的澳洲辦公室路線。</p>
+      </div>
+      <div class="zh-global-gateway zh-global-map-wide">
+        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
+        <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
+        <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
+      </div>
+    </section>
+
     <section class="band compact-band zh-publishing-gateway-section" id="overseas-publishing">
       <div class="section-head compact-head">
-        <div class="eyebrow">Overseas Publishing</div>
-        <h2>海外書局</h2>
-        <p>海外書局作為 OTC 的出版與編輯板塊，統一收攏三個對外入口：出版物、編譯部、留學導報。每個入口分別進入對應內容，不再散落在首頁不同位置。</p>
+        <div class="eyebrow">海外書局</div>
+        <h2>出版、編譯與導報</h2>
+        <p>海外書局是 OTC 的出版與編輯板塊，位於留學國家入口之後，承接正式出版物、雙語教輔策劃、編譯服務與可公開閱讀的留學導報文章。</p>
       </div>
       <div class="zh-publishing-gateway">
         <a href="/publishing/">
           <b>01</b>
           <strong>出版物</strong>
-          <span>Study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
+          <span>雙語 study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
           <em>進入出版物</em>
         </a>
         <a href="/zh/publishing/bilingual-study-support-market-report/">
           <b>02</b>
-          <strong>雙語教輔市場調查</strong>
-          <span>BTEC Level 3、A-Level、IB、Foundation 與 Higher Nationals 的出版策劃。</span>
-          <em>閱讀中文報告</em>
+          <strong>雙語教輔策劃</strong>
+          <span>BTEC Level 3、A-Level、IB、Foundation 與 Higher Nationals 的教輔出版路線。</span>
+          <em>閱讀策劃</em>
         </a>
         <a href="/services/language-context-studio/">
           <b>03</b>
@@ -11235,34 +11248,8 @@ const chineseEntrance = pageShell({
           <b>04</b>
           <strong>留學導報</strong>
           <span>升學路線、申請文件、英澳澳新 pathway 與教育評論文章。</span>
-          <em>進入留學導報</em>
+          <em>閱讀導報</em>
         </a>
-      </div>
-      <div class="zh-publishing-tools">
-        <div>
-          <span>Digital Learning Tools</span>
-          <h3>Apps &amp; Tools</h3>
-          <p>Browser-based practice tools, exam drills, vocabulary systems and book-linked digital products from OTC Study Hub and Overseas Publishing.</p>
-        </div>
-        <div class="zh-publishing-tool-list">
-          <a href="/apps/australian-citizenship-test/#embedded-citizenship-app"><strong>Australian Citizenship Test Practice Guide + App</strong><span>Printable PDF guide, question bank, mock tests and browser-based practice package.</span></a>
-          <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app"><strong>UCBELT Speaking Test Practice</strong><span>Themed topic practice, full mock sets, bilingual vocabulary and teacher mode.</span></a>
-          <a href="/apps/ih-placement-interview/#embedded-ih-app"><strong>IH Placement &amp; Interview Practice</strong><span>Placement-test readiness, speaking interview preparation, vocabulary review and tutor notes.</span></a>
-          <a href="/apps/"><strong>Full Apps &amp; Tools Catalogue</strong><span>Learning apps, practice tools, book companion packs and publishing utilities.</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-global-map-band" id="global-study-map">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Global Study Map</div>
-        <h2>主要留學國家入口</h2>
-        <p>點擊地圖上的國家文字，進入對應留學國家頁面。澳洲直接進入已成熟的澳洲辦公室路線。</p>
-      </div>
-      <div class="zh-global-gateway zh-global-map-wide">
-        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
-        <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
-        <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
       </div>
     </section>
 
