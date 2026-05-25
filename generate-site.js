@@ -9324,7 +9324,7 @@ const btecLevel3BusinessAssignmentToolkit = pageShell({
   current: "publishing",
   path: "/publishing/btec-level-3-business-assignment-writing-toolkit/",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Product Plan</div><h1>BTEC Level 3 Business Assignment Writing Toolkit</h1><p>An independent bilingual study-support product for Chinese international-school, international-department and pathway learners who need to turn business knowledge into responsible English assignment output.</p><div class="actions"><a class="btn btn-secondary" href="/zh/publishing/btec-level-3-business-assignment-writing-toolkit/">中文版本</a><a class="btn btn-secondary" href="/publishing/bilingual-study-support-market-report/">Market report</a></div></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House · Product Plan</div><h1>BTEC Level 3 Business Assignment Writing Toolkit</h1><p>An independent bilingual study-support product for Chinese international-school, international-department and pathway learners who need to turn business knowledge into responsible English assignment output.</p><div class="actions"><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/sample/">View sample pages</a><a class="btn btn-secondary" href="/zh/publishing/btec-level-3-business-assignment-writing-toolkit/">中文版本</a><a class="btn btn-secondary" href="/publishing/bilingual-study-support-market-report/">Market report</a></div></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -9386,12 +9386,13 @@ const btecLevel3BusinessAssignmentToolkit = pageShell({
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Launch Plan</div>
-        <h2>Two-day writing sprint, then production package.</h2>
+        <h2>Core manuscript development before publication packaging.</h2>
       </div>
       <div class="workflow-grid">
-        <article><b>Day 1</b><strong>Architecture and sample chapter</strong><span>Lock chapter structure, glossary categories, assignment-brief template and one complete sample workflow.</span></article>
-        <article><b>Day 2</b><strong>Core manuscript draft</strong><span>Draft criteria awareness, evidence planning, paragraph frames, weak-answer diagnosis and compliance page.</span></article>
+        <article><b>Stage 1</b><strong>Architecture and sample chapter</strong><span>Lock chapter structure, glossary categories, assignment-brief template and one complete sample workflow.</span></article>
+        <article><b>Stage 2</b><strong>Core manuscript draft</strong><span>Draft criteria awareness, evidence planning, paragraph frames, weak-answer diagnosis and compliance page.</span></article>
         <article><b>Production</b><strong>Publication package</strong><span>Prepare PDF layout, cover, Payhip description, preview images and internal ISBN decision note.</span></article>
+        <article><b>Sample</b><strong>Publication sample pages</strong><span>Review the public bilingual sample pages before preparing the full PDF and Payhip preview.</span></article>
         <article><b>Extension</b><strong>App companion</strong><span>Convert glossary, brief-reading checks and evidence-planning prompts into a small browser app.</span></article>
       </div>
       <div style="height:18px"></div>
@@ -9408,7 +9409,7 @@ const btecLevel3BusinessAssignmentToolkitZh = pageShell({
   locale: "zh",
   path: "/zh/publishing/btec-level-3-business-assignment-writing-toolkit/",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">海外書局 · 產品策劃</div><h1>BTEC Level 3 商科作業寫作工具箱</h1><p>面向中國國際學校、國際部、雙語學校與 pathway learners 的獨立雙語教輔產品，幫助學生把商科理解轉化為合規、清楚、有證據的英文 assignment output。</p><div class="actions"><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/">English version</a><a class="btn btn-secondary" href="/zh/publishing/bilingual-study-support-market-report/">市場報告</a></div></div></section>
+    <section class="page-hero"><div class="band"><div class="eyebrow">海外書局 · 產品策劃</div><h1>BTEC Level 3 商科作業寫作工具箱</h1><p>面向中國國際學校、國際部、雙語學校與 pathway learners 的獨立雙語教輔產品，幫助學生把商科理解轉化為合規、清楚、有證據的英文 assignment output。</p><div class="actions"><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/sample/">查看出版樣張</a><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/">English version</a><a class="btn btn-secondary" href="/zh/publishing/bilingual-study-support-market-report/">市場報告</a></div></div></section>
 
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -9470,16 +9471,144 @@ const btecLevel3BusinessAssignmentToolkitZh = pageShell({
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">啟動計劃</div>
-        <h2>兩天完成核心寫作，再進入出版包製作。</h2>
+        <h2>先完成核心書稿，再進入出版包製作。</h2>
       </div>
       <div class="workflow-grid">
-        <article><b>Day 1</b><strong>架構與樣章</strong><span>確定章節、詞彙分類、assignment-brief template 和一個完整作業規劃樣例。</span></article>
-        <article><b>Day 2</b><strong>核心書稿</strong><span>完成 criteria awareness、evidence planning、paragraph frames、weak-answer diagnosis 和 compliance page。</span></article>
+        <article><b>Stage 1</b><strong>架構與樣章</strong><span>確定章節、詞彙分類、assignment-brief template 和一個完整作業規劃樣例。</span></article>
+        <article><b>Stage 2</b><strong>核心書稿</strong><span>完成 criteria awareness、evidence planning、paragraph frames、weak-answer diagnosis 和 compliance page。</span></article>
         <article><b>Production</b><strong>出版包</strong><span>準備 PDF 版式、封面、Payhip description、preview images 和 ISBN 決策記錄。</span></article>
+        <article><b>Sample</b><strong>出版樣張</strong><span>先審核公開雙語樣張，再進入完整 PDF 和 Payhip preview 製作。</span></article>
         <article><b>Extension</b><strong>App companion</strong><span>將詞彙、brief-reading checks 和 evidence-planning prompts 轉成 browser app。</span></article>
       </div>
       <div style="height:18px"></div>
       <div class="notice">本頁屬於 OTC / 海外書局雙語教輔出版路線的公開策劃頁，不是 finished publication，也不是 Pearson / BTEC 官方文件。</div>
+    </section>
+  `
+});
+
+const btecLevel3BusinessAssignmentToolkitSample = pageShell({
+  title: "Sample Pages | BTEC Level 3 Business Assignment Writing Toolkit | OTC",
+  description: "Publication sample pages for the OTC BTEC Level 3 Business Assignment Writing Toolkit, showing bilingual assignment brief breakdown, evidence planning, criteria awareness and writing frames.",
+  current: "publishing",
+  path: "/publishing/btec-level-3-business-assignment-writing-toolkit/sample/",
+  body: `
+    <section class="page-hero"><div class="band"><div class="eyebrow">Publication Sample · Bilingual Study Support</div><h1>Sample Pages</h1><p>BTEC Level 3 Business Assignment Writing Toolkit · bilingual sample spread for assignment brief reading, evidence planning and academic writing support.</p><div class="actions"><a class="btn btn-secondary" href="/publishing/btec-level-3-business-assignment-writing-toolkit/">Back to product plan</a><a class="btn btn-secondary" href="/publishing/bilingual-study-support-market-report/">Market report</a></div></div></section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Sample Context</div>
+        <h2>Practice brief: improving a small business marketing campaign.</h2>
+        <p>The sample below demonstrates the intended publication style: concise English instruction, Chinese concept support, structured evidence planning and clear academic-integrity boundaries. The practice task is original OTC sample material and is not taken from any official Pearson / BTEC assignment brief.</p>
+      </div>
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">Practice Assignment Scenario</div>
+          <h3>Harbour Bean Cafe</h3>
+          <p>Harbour Bean Cafe is an independent cafe near a railway station. It has steady weekday footfall but weak weekend sales. The owner wants to improve local student and family engagement through a low-budget social media campaign, loyalty card and partnership with a nearby bookstore.</p>
+          <p><strong>Student task:</strong> prepare a short report that explains the current marketing problem, recommends a suitable promotional approach and evaluates the likely limits of the recommendation.</p>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">中文導讀</div>
+          <h3>這不是要學生寫廣告文案。</h3>
+          <p>本題的核心不是「想一個好看的宣傳活動」，而是訓練學生如何把企業問題、目標顧客、低成本渠道、證據與限制放進一個清楚的 business report。</p>
+          <p>學生需要證明自己理解 marketing decision，而不是只描述 cafe 很需要宣傳。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Sample Page 1</div>
+        <h2>Assignment brief breakdown.</h2>
+      </div>
+      <div class="report-table-wrap">
+        <table>
+          <thead>
+            <tr><th>Brief wording</th><th>What the learner must do</th><th>中文提示</th><th>Evidence to prepare</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Explain the current marketing problem.</td><td>Identify the business issue, target customers and why the current approach is not enough.</td><td>不是泛泛說「銷售不好」，而是指出週末客流、學生家庭客群、現有渠道不足。</td><td>Sales pattern, customer observation, competitor comparison, local area notes.</td></tr>
+            <tr><td>Recommend a suitable promotional approach.</td><td>Choose realistic marketing actions that fit budget, business size and customer group.</td><td>建議要可執行，不能像大公司 campaign；要符合小店資源。</td><td>Social media plan, loyalty card outline, partner bookstore idea, simple cost estimate.</td></tr>
+            <tr><td>Evaluate likely limits.</td><td>Show what might reduce success and how the business could monitor results.</td><td>Distinction 類寫法通常需要看到限制、風險、條件和衡量方式。</td><td>Budget risk, staff time, weak data, seasonality, tracking method.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Sample Page 2</div>
+        <h2>Pass / Merit / Distinction awareness without giving model answers.</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><h3>Pass-level direction</h3><p>Describe the business problem and explain one reasonable marketing response with basic evidence. The answer should be clear and relevant, but may remain mostly descriptive.</p><p><strong>中文：</strong>先做到任務完整、概念正確、證據基本相關。</p></div><span class="pill">P</span></article>
+        <article class="resource-row"><div><h3>Merit-level direction</h3><p>Apply evidence more carefully to the cafe. Compare more than one promotional option and explain why one option fits the business better.</p><p><strong>中文：</strong>不能只背 marketing mix，要把證據真正放回企業情境。</p></div><span class="pill">M</span></article>
+        <article class="resource-row"><div><h3>Distinction-level direction</h3><p>Evaluate trade-offs, limits and conditions. A stronger answer explains what could go wrong, what data is missing and how the owner should judge success.</p><p><strong>中文：</strong>高分不是字數更多，而是判斷更成熟、限制更清楚。</p></div><span class="pill">D</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Sample Page 3</div>
+        <h2>Evidence planning matrix.</h2>
+      </div>
+      <div class="report-table-wrap">
+        <table>
+          <thead>
+            <tr><th>Claim to make</th><th>Evidence needed</th><th>Source note</th><th>Writing use</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Weekend sales are weaker than weekday sales.</td><td>Simple weekly sales comparison or owner observation.</td><td>Use internal business notes if available; do not invent exact numbers.</td><td>Use to justify why the campaign targets weekend customers.</td></tr>
+            <tr><td>Students may respond to loyalty incentives.</td><td>Local student footfall, competitor loyalty schemes, short customer survey.</td><td>Keep the evidence modest; avoid unsupported claims about all students.</td><td>Use to explain why loyalty cards may be suitable but limited.</td></tr>
+            <tr><td>A bookstore partnership could extend reach.</td><td>Shared local customer group and low-cost cross-promotion example.</td><td>Frame as a realistic option, not a guaranteed sales solution.</td><td>Use in recommendation and evaluation paragraphs.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="two-col">
+        <div class="about-panel surface">
+          <div class="eyebrow">Mini Writing Frame</div>
+          <h3>Evaluation paragraph skeleton</h3>
+          <p><strong>Point:</strong> The loyalty card may be suitable for Harbour Bean Cafe because ...</p>
+          <p><strong>Evidence:</strong> This is supported by ...</p>
+          <p><strong>Application:</strong> In this business, the evidence matters because ...</p>
+          <p><strong>Limit:</strong> However, the recommendation may be limited by ...</p>
+          <p><strong>Judgement:</strong> Therefore, the owner should ...</p>
+        </div>
+        <div class="about-panel surface">
+          <div class="eyebrow">中文寫作提示</div>
+          <h3>不要直接翻譯中文作文。</h3>
+          <ul>
+            <li>用 evidence suggests that，而不是 I think。</li>
+            <li>用 this may be suitable because，而不是 this is very good。</li>
+            <li>用 however / therefore / this depends on 連接判斷。</li>
+            <li>每段只處理一個清楚觀點，不要把所有想法堆在一起。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Sample Glossary</div>
+        <h2>Vocabulary is taught as academic use, not just translation.</h2>
+      </div>
+      <div class="report-table-wrap">
+        <table>
+          <thead>
+            <tr><th>Term</th><th>Academic meaning</th><th>中文理解</th><th>Useful phrase</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Target market</td><td>The group of customers a business aims to reach.</td><td>目標顧客群，不是所有可能買東西的人。</td><td>The target market for this campaign is likely to be ...</td></tr>
+            <tr><td>Promotion</td><td>Communication activities used to inform or persuade customers.</td><td>促銷/推廣，重點是與顧客溝通。</td><td>A low-cost promotional method may be suitable because ...</td></tr>
+            <tr><td>Evaluation</td><td>A reasoned judgement that considers strengths, limits and conditions.</td><td>評估，不是簡單說優點和缺點。</td><td>The effectiveness of this option depends on ...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="height:18px"></div>
+      <div class="notice">Publication boundary: this sample is an independent OTC practice spread. It is not an official Pearson, BTEC or awarding-body assignment brief, mark scheme, model answer or guaranteed-grade product.</div>
     </section>
   `
 });
@@ -15187,6 +15316,7 @@ write("publishing/bilingual-study-support-market-report", bilingualStudySupportM
 write("zh/publishing/bilingual-study-support-market-report", bilingualStudySupportMarketReportZh);
 write("publishing/btec-level-3-business-assignment-writing-toolkit", btecLevel3BusinessAssignmentToolkit);
 write("zh/publishing/btec-level-3-business-assignment-writing-toolkit", btecLevel3BusinessAssignmentToolkitZh);
+write("publishing/btec-level-3-business-assignment-writing-toolkit/sample", btecLevel3BusinessAssignmentToolkitSample);
 write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
@@ -15341,6 +15471,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /zh/publishing/bilingual-study-support-market-report/
 - /publishing/btec-level-3-business-assignment-writing-toolkit/
 - /zh/publishing/btec-level-3-business-assignment-writing-toolkit/
+- /publishing/btec-level-3-business-assignment-writing-toolkit/sample/
 - /courses/
 - /services/
 - /university-applications/

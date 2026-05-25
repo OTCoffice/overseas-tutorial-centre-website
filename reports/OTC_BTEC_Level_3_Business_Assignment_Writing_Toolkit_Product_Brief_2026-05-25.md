@@ -67,16 +67,16 @@ Avoid:
 
 The product must not imply Pearson, BTEC or awarding-body endorsement without written permission.
 
-## Two-Day Writing Sprint
+## Writing and Production Sequence
 
-Day 1:
+Stage 1:
 
 - Lock chapter structure
 - Draft assignment-brief template
 - Draft one complete sample planning workflow
 - Prepare glossary categories
 
-Day 2:
+Stage 2:
 
 - Draft criteria awareness chapter
 - Draft evidence planning matrix
@@ -91,4 +91,3 @@ Day 2:
 4. Payhip listing assets
 5. ISBN decision note
 6. Optional browser app companion
-
