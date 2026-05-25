@@ -316,3 +316,39 @@ OTC disclosed that it could not truthfully nominate two current Australian educa
 | Representative appointment evidence | No |
 | Suitable for internal Australia office evidence | Yes |
 | Suitable for public claim | Only as application submitted / awaiting assessment |
+
+---
+
+## Evidence Entry 005 — Gmail Audit of Direct Australia Cooperation Evidence
+
+**Date completed:** 2026-05-25  
+**Audit file:** `reports/OTC_Australia_Direct_Cooperation_Relationship_Audit_2026-05-25.md`  
+**Classification:** Internal evidence-control audit; direct cooperation claims boundary.
+
+### Summary
+
+OTC searched Gmail for evidence of Australian direct cooperation, including terms such as appointed agent, approved agent, agent agreement, agency agreement, representative agreement, agent code, commission, StudyAdelaide, Study Melbourne, Study NT, Study NSW, Northern Territory Government Schools, Charles Darwin University, TAFE and Australian government-school references.
+
+The reviewed Gmail evidence did not identify a completed Australian institution / government-school appointment, signed agency agreement, agent code, commission schedule or formal representative letter.
+
+### Positive Evidence Found
+
+- Northern Territory Government Schools application submitted and awaiting written assessment.
+- StudyAdelaide agent newsletter subscription confirmed; briefing follow-up pending.
+- Study Melbourne public-resource introduction received; formal engagement enquiry sent.
+- Study NT Agent Training Course account approved and training evidence used in the NT application pack.
+- Lindisfarne Anglican Grammar School materials / Chinese profile review and onboarding request sent.
+- Regus Balmain, Walker Wayland Advantage and WIDEN Migration Consultancy records support Australian operating-presence and compliance planning, not education partnership.
+
+### Claims Boundary
+
+Safe internal wording:
+
+> OTC has a developing Australia cooperation pipeline and several direct Australia-sector contacts, but no reviewed Gmail evidence currently confirms completed appointment as an official Australian education agent or representative.
+
+Do not state or imply:
+
+- OTC is already appointed by any Australian government-school system or provider.
+- OTC holds an Australian provider agent code.
+- newsletter subscription, training access or public-resource contact equals partnership.
+- Australian business address / corporate-services evidence equals education-sector authorisation.
