@@ -16,6 +16,7 @@
   --shadow: 0 18px 46px rgba(6, 26, 47, 0.1);
   --page-max: 1480px;
   --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-zh-editorial: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "STSong", "SimSun", serif;
 }
 
 * {
@@ -16512,4 +16513,99 @@ h1 {
   .portal-doc-viewer {
     height: 520px;
   }
+}
+
+/* Global Chinese editorial typography: align Chinese pages with the Overseas Study Review / 留學導報 reading style. */
+html[lang^="zh"] body {
+  font-family: var(--font-zh-editorial);
+  letter-spacing: 0;
+}
+
+html[lang^="zh"] :is(
+  .page-hero h1,
+  .page-hero h2,
+  .page-hero p,
+  .hero h1,
+  .hero h2,
+  .hero p,
+  .section-head h2,
+  .section-head p,
+  .compact-head h2,
+  .compact-head p,
+  .feature h3,
+  .feature p,
+  .resource-row h3,
+  .resource-row p,
+  .about-panel h3,
+  .about-panel p,
+  .about-panel li,
+  .index-grid strong,
+  .index-grid span,
+  .two-col strong,
+  .two-col p,
+  .two-col li,
+  .notice,
+  .office-notice h2,
+  .office-notice p,
+  .institutional-update-head h2,
+  .institutional-update-head p,
+  .institutional-update-cards strong,
+  .institutional-update-cards p,
+  .vet-tafe-screening-grid strong,
+  .vet-tafe-screening-grid p,
+  .metrics-grid strong,
+  .metrics-grid p,
+  .zh-academic-reading-panel,
+  .zh-academic-reading-panel strong,
+  .zh-academic-reading-list,
+  .zh-academic-reading-list li,
+  .zh-academic-reading-list span
+) {
+  font-family: var(--font-zh-editorial) !important;
+}
+
+html[lang^="zh"] :is(
+  .nav,
+  .nav *,
+  .brand,
+  .brand *,
+  .page-utility-bar,
+  .page-utility-bar *,
+  .actions,
+  .actions *,
+  .btn,
+  .pill,
+  .eyebrow,
+  button,
+  input,
+  textarea,
+  select,
+  code,
+  pre,
+  .site-footer,
+  .site-footer *,
+  .isbn-line,
+  .meta,
+  .num,
+  .product-actions,
+  .product-actions *,
+  .page-share-actions,
+  .page-share-actions *
+) {
+  font-family: var(--font-ui) !important;
+}
+
+html[lang^="zh"] .page-hero h1,
+html[lang^="zh"] .hero h1 {
+  font-weight: 900;
+  line-height: 1.16;
+}
+
+html[lang^="zh"] .page-hero p,
+html[lang^="zh"] .hero p,
+html[lang^="zh"] .section-head p,
+html[lang^="zh"] .resource-row p,
+html[lang^="zh"] .about-panel p,
+html[lang^="zh"] .about-panel li {
+  line-height: 1.9;
 }
