@@ -110,9 +110,9 @@ BTEC Level 3 Business assignments may cover a wide range of applied business top
 | Human resources | Learners recommend training without diagnosing the staffing problem. | Task object analysis, evidence matching, application audit. | 不要一遇到員工問題就寫 training。先看問題是 skill、motivation、process 還是 management。 |
 | Enterprise and entrepreneurship | Learners list risks but do not connect them to decision making. | Evidence gaps, evaluation questions, scenario-based judgement. | 風險要寫 impact 和 response，不要只列風險名稱。 |
 | Customer service | Learners write that customers are important but do not show service outcomes. | Application audit, paragraph functions, final judgement. | 要把 customer experience 和 repeat purchase、reputation、complaints、sales 連起來。 |
-| Operations | Learners describe processes but do not analyse efficiency, quality or capacity. | Evidence planning and business context checks. | Operations 不是流水帳，要看 time、cost、quality、capacity 和 bottleneck。 |
+| Operations | Learners describe processes but do not analyse efficiency, quality or capacity. | Evidence planning and business context checks. | Operations 要聚焦 time、cost、quality、capacity 和 bottleneck，而非流程流水帳。 |
 | International business | Learners make broad claims about global markets. | Cautious language, source hierarchy, limitation writing. | 不要寫「全球化很好」。要看 market entry、culture、currency、legal and logistics risks。 |
-| Business environment | Learners list PESTLE factors without linking them to the organisation. | Task alignment and evidence matrix. | PESTLE 不是背表格，要說哪個 factor 對這家企業最重要。 |
+| Business environment | Learners list PESTLE factors without linking them to the organisation. | Task alignment and evidence matrix. | PESTLE 要選出對這家企業最關鍵的 factor，並說清其 business impact。 |
 
 The same writing discipline applies across these topics:
 
@@ -193,7 +193,7 @@ Assignment-based learning 的核心在於把知識點放入一個具體 business
 
 如果答案只停留在定義層面，就很容易變成 descriptive answer。
 
-對中國學生來說，這裡最容易出現一個錯覺：以為自己已經懂了概念，就等於已經能完成 assignment。其實中間還差一層「英文學術輸出」。學生需要把中文理解轉換成英文論證，而不是把中文想法逐句翻譯。
+對中國學生來說，這裡最容易出現一個錯覺：以為自己已經懂了概念，就等於已經能完成 assignment。其實中間還差一層「英文學術輸出」。學生需要把中文理解轉換成英文論證，避免把中文想法逐句翻譯。
 
 ### Mini diagnostic
 
@@ -213,9 +213,9 @@ If the answer to any of these questions is no, the learner is not ready to write
 - 我能不能不用背誦定義，也說清這個商科概念？
 - 我能不能把概念放到一個具體企業或案例裡？
 - 我知道這一段需要什麼證據嗎？
-- 我能不能寫出限制，而不是只寫「有優點也有缺點」？
+- 我能不能寫出限制，避免停留在「有優點也有缺點」？
 
-如果其中任何一題答不上來，先不要急著寫成文。這時候要做的是 planning，不是 final writing。
+如果其中任何一題答不上來，先不要急著寫成文。這時候應回到 planning，暫緩 final writing。
 
 ## 1.2 The hidden task: move from knowledge to output
 
@@ -237,9 +237,9 @@ The purpose of this toolkit is to help the learner build the missing bridge.
 | Learning step | What the learner does | 中文理解 |
 | --- | --- | --- |
 | Concept | Understand the business idea | 先懂概念，例如 promotion、target market、cash flow |
-| Context | Apply it to the business case | 把概念放回題目中的企業，而不是泛泛而談 |
+| Context | Apply it to the business case | 把概念放回題目中的企業，避免泛泛而談 |
 | Evidence | Choose support for the point | 找證據支持，不要空口判斷 |
-| Writing | Turn it into a paragraph | 用英文段落表達，而不是中文直譯 |
+| Writing | Turn it into a paragraph | 用英文段落表達，避免中文直譯 |
 | Evaluation | Judge suitability and limits | 判斷方案是否適合、限制在哪裡 |
 
 This sequence matters. Learners often want to jump from concept directly to writing. That shortcut creates vague paragraphs. A stronger answer usually passes through all five steps, even if the final paragraph looks short.
@@ -269,7 +269,7 @@ The learner should ask:
 - What evidence suggests the method may work?
 - What makes the method limited?
 
-「社交媒體很流行」不是商科分析。真正的商科分析要說清楚：對這家企業、這類顧客、這個問題而言，社交媒體為什麼可能合適。否則答案只是常識，不是 assignment evidence。
+「社交媒體很流行」仍停留在常識層面。真正的商科分析要說清楚：對這家企業、這類顧客、這個問題而言，社交媒體為什麼可能合適。否則答案仍是常識，尚未形成 assignment evidence。
 
 ## 1.3 The three layers of a business assignment answer
 
@@ -382,7 +382,7 @@ Before writing a recommendation, check:
 - Have I compared it with at least one alternative?
 - Have I explained any limits or conditions?
 
-Recommendation 不是「我建議」。在 assignment 裡，recommendation 必須有理由、有證據、有比較、有邊界。
+Recommendation 需要超越「我建議」式表述。在 assignment 裡，recommendation 必須有理由、有證據、有比較、有邊界。
 
 中文思維可以先問：
 
@@ -413,7 +413,7 @@ A casual answer:
 - ignores evidence and limitations
 - uses informal wording
 
-Vocational 不是「隨便寫得實用一點」。BTEC 的 applied learning 要求學生能把商科概念用到實際情境，但仍然要有結構、有證據、有學術邊界。實用不等於口語化，職業導向不等於沒有學術要求。
+Vocational writing 需要避免「隨便寫得實用一點」的誤解。BTEC 的 applied learning 要求學生能把商科概念用到實際情境，但仍然要有結構、有證據、有學術邊界。實用性仍需要學術表述，職業導向仍需要 assessment discipline。
 
 ## 1.7 What this toolkit will train you to do
 
@@ -442,7 +442,7 @@ After writing:
 - check whether paragraphs are descriptive or evaluative
 - check whether AI or external support has been used safely
 
-本工具箱不是只在寫不出來時才翻一下。它應該貫穿三個階段：
+本工具箱應貫穿整個 assignment workflow。它應該貫穿三個階段：
 
 - 寫之前：讀 brief、圈動詞、定 evidence。
 - 寫之中：按段落邏輯輸出。
@@ -465,7 +465,7 @@ Before moving to Chapter 2, the learner should be able to answer:
 1. assignment 寫作和考試複習有什麼不同？
 2. 懂概念和應用概念有什麼不同？
 3. 商科 assignment answer 的三層是什麼？
-4. 為什麼「社交媒體很流行」不是有效商科分析？
+4. 為什麼「社交媒體很流行」仍不足以構成有效商科分析？
 5. recommendation 為什麼不能只是「我建議」？
 
 ---
@@ -485,13 +485,13 @@ Compare these instructions:
 
 All four instructions may relate to marketing, but they do not ask for the same answer.
 
-很多學生一看到 marketing、finance、HR，就立刻開始寫自己背過的內容。但 brief 中的動詞才是真正決定答案結構的地方。Describe、Explain、Analyse、Evaluate 不是同義詞。題目動詞不同，答案深度、證據使用和結論方式都不同。
+很多學生一看到 marketing、finance、HR，就立刻開始寫自己背過的內容。但 brief 中的動詞才是真正決定答案結構的地方。Describe、Explain、Analyse、Evaluate 對應不同寫作深度。題目動詞不同，答案深度、證據使用和結論方式都不同。
 
 An assignment brief should be read slowly, more than once. The first reading is for orientation: What is the broad topic? The second reading is for task control: What exactly must be produced? The third reading is for assessment risk: What evidence, format, deadline and academic-integrity conditions must be followed?
 
 Many learners treat the brief as a topic sheet. This is not enough. A brief is closer to a contract between the learner and the assessment task. It tells the learner what kind of work is expected, what kind of evidence may be needed, and what kind of writing will be judged.
 
-Assignment brief 不是「作文題目」。它更像一份任務合約。學生必須知道自己要交什麼、按什麼格式交、用什麼證據支撐、哪些事情不能做。如果只看 topic，不看 task instruction，就很容易寫偏。
+Assignment brief 更接近一份任務合約。它更像一份任務合約。學生必須知道自己要交什麼、按什麼格式交、用什麼證據支撐、哪些事情不能做。如果只看 topic，不看 task instruction，就很容易寫偏。
 
 ## 2.2 The four parts of a brief
 
@@ -545,8 +545,8 @@ Breakdown:
 
 1. small business：小企業資源有限。
 2. low-budget：不能寫昂貴的大型廣告。
-3. promotional campaign：重點是推廣活動，不是整個 business strategy。
-4. local student customers：目標顧客是本地學生，不是所有顧客。
+3. promotional campaign：重點是推廣活動，避免擴寫成整個 business strategy。
+4. local student customers：目標顧客是本地學生，避免泛化為所有顧客。
 
 如果學生忽略這些限制，答案就會跑題。
 
@@ -664,7 +664,7 @@ If the task asks about finance, possible evidence may include:
 - profit margin
 - financial risk
 
-Evidence 不是寫完正文後補一個 reference。Evidence 是一開始就要規劃的。不同 task object 需要不同證據。Marketing 需要顧客和渠道證據；recruitment 需要職位和選拔證據；finance 需要數字和預測證據。不能用同一套例子打天下。
+Evidence 需要在寫作前規劃，不能只在正文後補一個 reference。Evidence 是一開始就要規劃的。不同 task object 需要不同證據。Marketing 需要顧客和渠道證據；recruitment 需要職位和選拔證據；finance 需要數字和預測證據。不能用同一套例子打天下。
 
 ## 2.8 Output type: report, presentation, portfolio or written response
 
@@ -677,7 +677,7 @@ Many learners focus only on content and forget the output type. A report is not 
 | Portfolio | evidence items and commentary | uploading evidence without explaining it |
 | Written response | direct answer to task wording | writing everything known about the topic |
 
-交付形式很重要。Report 要像 report，有 heading、有 evidence、有 conclusion。Presentation 要適合展示，不是把 essay 貼到 slide 上。Portfolio 不是文件堆積，要說明每個 evidence item 證明什麼。
+交付形式很重要。Report 要像 report，有 heading、有 evidence、有 conclusion。Presentation 要適合展示，避免把 essay 直接貼到 slide 上。Portfolio 要說明每個 evidence item 證明什麼，避免變成文件堆積。
 
 ## 2.9 The danger of writing from memory
 
@@ -689,7 +689,7 @@ Writing from memory feels fast, but it often causes three problems:
 
 For example, if the learner has memorised the marketing mix, they may write about product, price, place and promotion even when the task only asks for a promotional campaign. This wastes space and may weaken focus.
 
-背過的內容不能直接倒進 assignment。Assignment 不是默寫商科筆記。學生要先看題目需要哪一部分知識，再選擇使用。多寫不等於高分，寫偏會降低答案質量。
+背過的內容不能直接倒進 assignment。Assignment 要避免變成商科筆記默寫。學生要先看題目需要哪一部分知識，再選擇使用。篇幅增加不會自動提高質量；寫偏會降低答案質量。
 
 ## 2.10 Planning grid before writing
 
@@ -824,7 +824,7 @@ Example of Pass-level thinking:
 
 This is relevant and understandable. It shows the basic idea. However, it does not yet apply much evidence or judge limitations.
 
-Pass-level 的基本方向是「任務完整、概念正確、與題目相關」。但如果答案只停在這裡，通常會比較平。學生應把它當成地基，而不是最終目標。
+Pass-level 的基本方向是「任務完整、概念正確、與題目相關」。但如果答案只停在這裡，通常會比較平。學生應把它當成地基，而非最終目標。
 
 At this level of writing, the learner should avoid two problems. The first problem is incomplete task coverage. For example, the learner may describe a promotional method but forget to connect it to the target customer group. The second problem is inaccurate concept use. For example, the learner may use "promotion" when the paragraph is really about price reduction, or use "market research" when the evidence is only personal opinion.
 
@@ -879,7 +879,7 @@ Stronger application normally includes at least two of the following:
 
 ### 中文補充
 
-Application 不是把企業名字塞進句子裡。真正的 application 要讓讀者看出：這個答案只能是針對這家企業寫的，而不是換成任何企業都能用。
+Application 需要超越把企業名字塞進句子裡的表面做法。真正的 application 要讓讀者看出：這個答案只能是針對這家企業寫的，避免寫成換成任何企業都能用的通用答案。
 
 例如：
 
@@ -904,7 +904,7 @@ Use this pattern when trying to move beyond basic description:
 
 - 這家企業的問題是什麼？
 - 我選的商科工具是什麼？
-- 這個工具為什麼適合這家企業，而不是任何企業？
+- 這個工具為什麼適合這家企業，而非任意企業？
 - 我有什麼證據或合理推理？
 - 有什麼實際限制？
 
@@ -927,7 +927,7 @@ Distinction-level 的核心在於更成熟的判斷。高階答案會回答：
 - 有沒有其他方案更適合？
 - 企業應如何衡量是否成功？
 
-只在最後加一句 "However, there are disadvantages" 不是真正 evaluation。
+只在最後加一句 "However, there are disadvantages" 仍未形成真正 evaluation。
 
 Evaluation is often the hardest step for EAL learners because it requires careful academic judgement. It is not enough to praise a recommendation and then add a short sentence beginning with "However." The limitation must affect the judgement.
 
@@ -1163,7 +1163,7 @@ Before moving to Chapter 4, the learner should be able to answer:
 
 1. completion、application、judgement 有什麼不同？
 2. 為什麼 application 不只是把企業名字寫進去？
-3. 為什麼 evaluation 不是優缺點清單？
+3. 為什麼 evaluation 需要超越優缺點清單？
 4. 為什麼 may、could、depends on 這類語言更適合商科寫作？
 5. 證據如何影響 recommendation？
 
@@ -1191,7 +1191,7 @@ Evidence also helps with time management. If the learner has planned the evidenc
 
 不要先寫一大段，再最後硬塞一個 reference。更好的方法是先想：我要證明什麼？我需要什麼證據？這個證據能不能支持我的 point？
 
-中國學生常見問題是想法沒有被證據固定住。比如“這家公司應該做 social media marketing”本身不是錯，但如果沒有說明目標客群、平台使用習慣、預算限制、內容更新能力、衡量方法，這句話就只是建議，不是 BTEC assignment 中可評分的 applied analysis。
+中國學生常見問題是想法沒有被證據固定住。比如“這家公司應該做 social media marketing”本身可以成立，但如果沒有說明目標客群、平台使用習慣、預算限制、內容更新能力、衡量方法，這句話就只是建議，尚未形成 BTEC assignment 中可評分的 applied analysis。
 
 寫作前先問三個問題：
 
@@ -1494,7 +1494,7 @@ This is not the only possible structure, but it is a safe structure for learners
 
 For Chinese-speaking learners, paragraph frames also help with English output. Many students can explain the business logic orally in Chinese but lose structure when writing in English. They may translate directly from Chinese and produce sentences such as "This method is very good and can make the company develop better." The idea is not useless, but the English does not show evidence, application or judgement. A frame helps the learner convert business thinking into assessable academic writing.
 
-寫作框架的作用，是幫學生按邏輯組織內容。真正要變動的是 evidence、business context 和 judgement。框架只是骨架，不是答案。
+寫作框架的作用，是幫學生按邏輯組織內容。真正要變動的是 evidence、business context 和 judgement。框架只是骨架，不能被當作答案。
 
 對中國學生來說，frame 的價值是把“中文腦中的道理”變成英語 assignment 可以評分的段落。不要把 frame 理解成範文。它提供的是段落秩序。
 
@@ -1576,7 +1576,7 @@ This adds judgement.
 寫段落時不要只想“我要湊字數”。應該想：這句話在段落中做什麼工作？
 
 - Topic sentence：告訴讀者我要說什麼。
-- Evidence sentence：證明我不是空口說。
+- Evidence sentence：證明這不是空泛判斷。
 - Interpretation：解釋證據代表什麼。
 - Application：回到這家企業。
 - Limitation：指出限制。
@@ -1601,7 +1601,7 @@ This paragraph is not a model answer to be copied. It is a demonstration of move
 
 The paragraph can be stretched or shortened depending on the assessment criterion. For a Pass-level explanation, the learner may need a clearer description of what a loyalty card is and why repeat purchase matters. For a Merit-level analysis, the learner may need to explain the relationship between commuter behaviour, repeat visits and low-cost promotion. For a Distinction-level evaluation, the learner may need to compare loyalty cards with another method, such as a partnership or weekend event promotion.
 
-這段不是範文。不能整段照搬。它只是展示段落如何移動：
+這段只作示範用途。不能整段照搬。它只是展示段落如何移動：
 
 recommendation -> evidence -> application -> limitation -> judgement
 
@@ -1660,7 +1660,7 @@ Example:
 
 Chinese check:
 
-描述不是評價。Describe 主要說清楚“是什麼”。不要在 describe 段落中突然寫太多 judgement。
+描述與評價需要分開處理。Describe 主要說清楚“是什麼”。不要在 describe 段落中突然寫太多 judgement。
 
 ### Explain
 
@@ -1692,7 +1692,7 @@ Example:
 
 Chinese check:
 
-Analyse 要拆關係。你要說清楚 cause and effect，不是只寫“有好處”。
+Analyse 要拆關係。你要說清楚 cause and effect，避免只寫“有好處”。
 
 ### Compare
 
@@ -1724,7 +1724,7 @@ Example:
 
 Chinese check:
 
-Evaluate 不是“寫優點缺點”。它要最後形成 judgement：哪個更合適？在什麼條件下？為什麼？
+Evaluate 需要超越“寫優點缺點”。它要最後形成 judgement：哪個更合適？在什麼條件下？為什麼？
 
 ## 5.7 Upgrading a weak paragraph
 
@@ -1818,7 +1818,7 @@ Alternative judgement patterns:
 - The recommendation is reasonable, provided that...
 - Further evidence would be needed before committing significant resources.
 
-框架不能讓文章像機器。學生可以先用 frame 起草，再把句式換得自然一點。關鍵是保留功能，不是保留固定句子。
+框架不能讓文章像機器。學生可以先用 frame 起草，再把句式換得自然一點。關鍵是保留功能，避免保留固定句子。
 
 ## 5.10 Chapter 5 practice task
 
@@ -1866,7 +1866,7 @@ A learner may use support to understand a task, improve vocabulary, plan evidenc
 
 This toolkit supports learning. It does not provide submission-ready answers.
 
-學習支持和替代完成作業不是一回事。學生可以使用工具理解題目、整理詞彙、建立提綱、檢查段落邏輯，但不能把他人或 AI 生成的內容當作自己的 assessed work 直接提交。
+學習支持與替代完成作業必須嚴格區分。學生可以使用工具理解題目、整理詞彙、建立提綱、檢查段落邏輯，但不能把他人或 AI 生成的內容當作自己的 assessed work 直接提交。
 
 ## 6.2 Safe and unsafe uses of AI
 
@@ -1898,7 +1898,7 @@ A useful test is simple:
 
 If the answer is no, the learner may not have enough ownership of the work.
 
-Authorship 不是「英文一定要寫得差」。學生當然可以提升英文，但提升要有痕跡。老師看到一篇突然像商業顧問報告一樣成熟的作業，卻發現學生說不清每一段怎麼來的，風險就很高。
+Authorship 並不要求英文保持低水平。學生當然可以提升英文，但提升要有痕跡。老師看到一篇突然像商業顧問報告一樣成熟的作業，卻發現學生說不清每一段怎麼來的，風險就很高。
 
 學生要能說清：
 
@@ -1987,7 +1987,7 @@ Risk: The tool may generate upgraded content that the learner does not own.
 
 The learner should revise manually after receiving feedback. The final paragraph should be written by the learner, using the learner's evidence, organisation and reasoning.
 
-比較安全的 AI 使用方式，是讓 AI 幫你理解和檢查，而不是幫你產出最終答案。可以問：
+比較安全的 AI 使用方式，是讓 AI 幫你理解和檢查，避免用它產出最終答案。可以問：
 
 - analyse 這個詞在商科作業裡通常要做什麼？
 - 這段是 descriptive 還是 analytical？
@@ -2080,7 +2080,7 @@ If a learner does not understand feedback, they should ask a clarification quest
 - 證據如何支持？
 - 有什麼限制？
 
-Feedback 要變成 action，不是變成裝飾詞。
+Feedback 要轉化為 action，避免只變成裝飾詞。
 
 ## 6.9 Red flags before submission
 
@@ -2155,7 +2155,7 @@ Before submitting a draft, the learner should check the answer in four layers.
 - Have I addressed the correct business and customer group?
 - Have I followed the centre-issued brief?
 
-先檢查有沒有答題，而不是先檢查英文漂不漂亮。英文再漂亮，如果答錯任務也沒有用。
+先檢查有沒有答題，先不要只檢查英文是否漂亮。英文再漂亮，如果答錯任務也沒有用。
 
 ## 7.2 Evidence check
 
@@ -2182,7 +2182,7 @@ Before submitting a draft, the learner should check the answer in four layers.
 - Have I explained what success depends on?
 - Have I made a reasoned judgement?
 
-Evaluation 不是「最後寫一個缺點」。真正的 evaluation 要說明條件、限制、取捨和判斷依據。
+Evaluation 需要超越「最後寫一個缺點」。真正的 evaluation 要說明條件、限制、取捨和判斷依據。
 
 ## 7.5 Submission readiness protocol
 
@@ -2256,7 +2256,7 @@ Assumption:
 
 Both can be useful, but they should not be treated the same. Evidence can support a claim more directly. Assumption should be presented cautiously and, where possible, tested.
 
-Evidence audit 不是只看「有沒有引用」。它要看：
+Evidence audit 要超越「有沒有引用」的形式檢查。它要看：
 
 - 這個 claim 有沒有證據？
 - 證據是否和這個企業有關？
@@ -2394,7 +2394,7 @@ The learner can rate readiness from 1 to 5:
 
 The goal is not emotional confidence only. It is evidence-based confidence. The learner should feel ready because the assignment has been checked systematically.
 
-提交信心不是「我覺得差不多了」。真正的 confidence 來自系統檢查：
+提交信心應來自系統檢查，而非「我覺得差不多了」。真正的 confidence 來自系統檢查：
 
 - 題目讀清楚。
 - 證據有記錄。
@@ -2480,7 +2480,7 @@ These subject stickers are quick-reference cards. They connect common BTEC Busin
 
 <div class="two-mini">
 <div class="mini-template"><strong>Mini evidence map</strong><ul><li>What is the business problem?</li><li>What evidence is available?</li><li>Which customer, cost, staff or operational group is affected?</li><li>What decision must the business make?</li></ul></div>
-<div class="avoid-card"><strong>避諱</strong><p>Weak line: There are advantages and disadvantages.</p><p>Stronger route: The main trade-off is between ... and ...</p><p>優缺點清單不是 evaluation。</p></div>
+<div class="avoid-card"><strong>避諱</strong><p>Weak line: There are advantages and disadvantages.</p><p>Stronger route: The main trade-off is between ... and ...</p><p>優缺點清單仍未形成 evaluation。</p></div>
 </div>
 
 <div class="phrase-card"><strong>Academic phrase set</strong><p>The main issue appears to be ... because ... . This matters for customer service because ... . The available evidence suggests that ... . However, this recommendation may be limited by ... . Therefore, the business should prioritise ... provided that ... .</p></div>
@@ -2912,7 +2912,7 @@ This small booklet records expressions that usually weaken assignment writing. I
 
 
 
-<div class="keep-with-next"><h2>Avoidance Set 11. false evaluation</h2><p>Risk focus: advantages/disadvantages lists without judgement. 優缺點清單不是評估。</p></div>
+<div class="keep-with-next"><h2>Avoidance Set 11. false evaluation</h2><p>Risk focus: advantages/disadvantages lists without judgement. 優缺點清單仍未形成評估。</p></div>
 
 
 <div class="avoid-card"><strong>避諱：There are advantages and disadvantages.</strong><p>Use instead: The main trade-off is between cost and speed.</p><p>Rewrite practice for false evaluation: ________________________________</p></div>

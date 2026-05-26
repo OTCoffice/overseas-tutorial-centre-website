@@ -578,5 +578,62 @@ for (let i = 1; i <= tinyBooklets.length; i++) {
 `);
 }
 
-fs.writeFileSync(out, [md, append.join("\n"), "\n\n---\n\n", appendices].join("\n"), "utf8");
+let finalText = [md, append.join("\n"), "\n\n---\n\n", appendices].join("\n");
+
+const toneReplacements = [
+  ["Operations 不是流水帳，要看 time、cost、quality、capacity 和 bottleneck。", "Operations 要聚焦 time、cost、quality、capacity 和 bottleneck，而非流程流水帳。"],
+  ["PESTLE 不是背表格，要說哪個 factor 對這家企業最重要。", "PESTLE 要選出對這家企業最關鍵的 factor，並說清其 business impact。"],
+  ["而不是把中文想法逐句翻譯。", "避免把中文想法逐句翻譯。"],
+  ["我能不能寫出限制，而不是只寫「有優點也有缺點」？", "我能不能寫出限制，避免停留在「有優點也有缺點」？"],
+  ["這時候要做的是 planning，不是 final writing。", "這時候應回到 planning，暫緩 final writing。"],
+  ["而不是泛泛而談", "避免泛泛而談"],
+  ["而不是中文直譯", "避免中文直譯"],
+  ["「社交媒體很流行」不是商科分析。", "「社交媒體很流行」仍停留在常識層面。"],
+  ["否則答案只是常識，不是 assignment evidence。", "否則答案仍是常識，尚未形成 assignment evidence。"],
+  ["Recommendation 不是「我建議」。", "Recommendation 需要超越「我建議」式表述。"],
+  ["Vocational 不是「隨便寫得實用一點」。", "Vocational writing 需要避免「隨便寫得實用一點」的誤解。"],
+  ["實用不等於口語化，職業導向不等於沒有學術要求。", "實用性仍需要學術表述，職業導向仍需要 assessment discipline。"],
+  ["本工具箱不是只在寫不出來時才翻一下。", "本工具箱應貫穿整個 assignment workflow。"],
+  ["為什麼「社交媒體很流行」不是有效商科分析？", "為什麼「社交媒體很流行」仍不足以構成有效商科分析？"],
+  ["Describe、Explain、Analyse、Evaluate 不是同義詞。", "Describe、Explain、Analyse、Evaluate 對應不同寫作深度。"],
+  ["Assignment brief 不是「作文題目」。", "Assignment brief 更接近一份任務合約。"],
+  ["重點是推廣活動，不是整個 business strategy。", "重點是推廣活動，避免擴寫成整個 business strategy。"],
+  ["目標顧客是本地學生，不是所有顧客。", "目標顧客是本地學生，避免泛化為所有顧客。"],
+  ["Evidence 不是寫完正文後補一個 reference。", "Evidence 需要在寫作前規劃，不能只在正文後補一個 reference。"],
+  ["Presentation 要適合展示，不是把 essay 貼到 slide 上。", "Presentation 要適合展示，避免把 essay 直接貼到 slide 上。"],
+  ["Portfolio 不是文件堆積，要說明每個 evidence item 證明什麼。", "Portfolio 要說明每個 evidence item 證明什麼，避免變成文件堆積。"],
+  ["Assignment 不是默寫商科筆記。", "Assignment 要避免變成商科筆記默寫。"],
+  ["多寫不等於高分，寫偏會降低答案質量。", "篇幅增加不會自動提高質量；寫偏會降低答案質量。"],
+  ["而不是最終目標。", "而非最終目標。"],
+  ["Application 不是把企業名字塞進句子裡。", "Application 需要超越把企業名字塞進句子裡的表面做法。"],
+  ["而不是換成任何企業都能用。", "避免寫成換成任何企業都能用的通用答案。"],
+  ["這個工具為什麼適合這家企業，而不是任何企業？", "這個工具為什麼適合這家企業，而非任意企業？"],
+  ["不是真正 evaluation。", "仍未形成真正 evaluation。"],
+  ["為什麼 evaluation 不是優缺點清單？", "為什麼 evaluation 需要超越優缺點清單？"],
+  ["本身不是錯", "本身可以成立"],
+  ["不是 BTEC assignment 中可評分的 applied analysis。", "尚未形成 BTEC assignment 中可評分的 applied analysis。"],
+  ["框架只是骨架，不是答案。", "框架只是骨架，不能被當作答案。"],
+  ["證明我不是空口說。", "證明這不是空泛判斷。"],
+  ["這段不是範文。", "這段只作示範用途。"],
+  ["描述不是評價。", "描述與評價需要分開處理。"],
+  ["不是只寫“有好處”。", "避免只寫“有好處”。"],
+  ["Evaluate 不是“寫優點缺點”。", "Evaluate 需要超越“寫優點缺點”。"],
+  ["關鍵是保留功能，不是保留固定句子。", "關鍵是保留功能，避免保留固定句子。"],
+  ["學習支持和替代完成作業不是一回事。", "學習支持與替代完成作業必須嚴格區分。"],
+  ["Authorship 不是「英文一定要寫得差」。", "Authorship 並不要求英文保持低水平。"],
+  ["而不是幫你產出最終答案。", "避免用它產出最終答案。"],
+  ["Feedback 要變成 action，不是變成裝飾詞。", "Feedback 要轉化為 action，避免只變成裝飾詞。"],
+  ["而不是先檢查英文漂不漂亮。", "先不要只檢查英文是否漂亮。"],
+  ["Evaluation 不是「最後寫一個缺點」。", "Evaluation 需要超越「最後寫一個缺點」。"],
+  ["Evidence audit 不是只看「有沒有引用」。", "Evidence audit 要超越「有沒有引用」的形式檢查。"],
+  ["提交信心不是「我覺得差不多了」。", "提交信心應來自系統檢查，而非「我覺得差不多了」。"],
+  ["優缺點清單不是 evaluation。", "優缺點清單仍未形成 evaluation。"],
+  ["優缺點清單不是評估。", "優缺點清單仍未形成評估。"]
+];
+
+for (const [from, to] of toneReplacements) {
+  finalText = finalText.split(from).join(to);
+}
+
+fs.writeFileSync(out, finalText, "utf8");
 console.log(out);
