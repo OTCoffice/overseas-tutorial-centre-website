@@ -1816,6 +1816,255 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "summer-school-vaccine-medical-consent-parent-checklist",
+    title: "Summer School Parent Checklist: Vaccinations, Medical Forms and Travel Consent",
+    date: "2026-05-26",
+    category: "Summer School",
+    column: "study",
+    kicker: "Summer School · Parents · Health & Consent",
+    author: "留學導報編輯部",
+    summary: "A practical parent-facing checklist for overseas summer school preparation: vaccine records, medical forms, parental consent letters, emergency contacts and a clean document pack.",
+    titleZh: "夏校出行前，疫苗、體檢、家長同意書怎麼準備？一份給家長的操作清單",
+    summaryZh: "原夏校頁面暫時無法打開時，家長可先按這份公開清單準備：核對疫苗記錄、安排體檢或醫療表格、簽署家長同意書、整理緊急聯絡與出行文件。本文只作教育與行政準備提示，不替代醫生、學校或法律意見。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "reference-letter-briefing-pack-uk-aus",
+      "uk-entry-requirements-course-page-checklist"
+    ],
+    resources: [
+      ["NHS: Travel vaccinations", "https://www.nhs.uk/vaccinations/travel-vaccinations/"],
+      ["NHS: Travel vaccination advice", "https://www.nhs.uk/vaccinations/travel-vaccinations/travel-vaccination-advice/"],
+      ["Fit for Travel: Child travellers", "https://www.fitfortravel.scot.nhs.uk/advice/general-travel-health-advice/child-travellers"],
+      ["GOV.UK: Permission to take a child abroad", "https://www.gov.uk/permission-take-child-abroad"],
+      ["GOV.UK: Children travelling to the UK", "https://www.gov.uk/government/publications/children-travelling-to-the-uk/children-travelling-to-the-uk-accessible"],
+      ["GOV.UK: Travel abroad", "https://www.gov.uk/browse/abroad/travel-abroad"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-26。本文依 NHS travel vaccinations、Fit for Travel child travellers 及 GOV.UK 兒童出行同意相關公開資訊整理。",
+      "不同夏校、學校、營地、目的地國家及航空公司可能有不同要求；正式操作以項目方、醫生、學校、邊境/簽證官方頁面和家長實際監護安排為準。"
+    ],
+    sidebarCards: [
+      ["1", "疫苗記錄", "先確認 routine vaccinations 是否完整，再按目的地和項目要求查 travel vaccines。", "Health"],
+      ["2", "體檢 / 醫療表", "如夏校要求 medical form，由醫生/診所按表格填寫並簽章。", "Medical"],
+      ["3", "家長同意書", "未成年人出行常需家長/監護人書面同意，尤其非父母同行時。", "Consent"],
+      ["4", "文件包", "護照、簽證、保險、緊急聯絡、過敏史和藥物說明放在同一檔案。", "Pack"]
+    ],
+    body: [
+      {
+        heading: "1) Start with the programme requirement",
+        paragraphs: [
+          "If the original summer school page cannot be opened, ask the organiser for the latest written requirements and start a parent document pack immediately.",
+          "The core file usually includes passport copy, visa or entry permission if applicable, insurance, medical form, vaccination record, allergies, medication notes, emergency contacts and parental consent."
+        ]
+      },
+      {
+        heading: "2) Vaccinations and medical forms",
+        paragraphs: [
+          "Parents should first check whether the child is up to date with routine vaccinations, then check destination-specific travel vaccine advice. Travel vaccines depend on destination, itinerary, duration, activities and the child's age.",
+          "If a medical form requires a doctor or clinic signature, book early and bring the programme form, passport details, vaccination record and medication list."
+        ]
+      },
+      {
+        heading: "3) Parental consent and travel permission",
+        paragraphs: [
+          "For a child travelling abroad, written permission from people with parental responsibility may be requested at borders or by programme staff. GOV.UK notes that a permission letter may be asked for at a UK or foreign border.",
+          "The letter should name the child, parents or guardians, accompanying adult or organisation, travel dates, destination, emergency contacts and permission for routine supervision and urgent medical contact."
+        ]
+      },
+      {
+        heading: "4) Keep the boundary clear",
+        paragraphs: [
+          "OTC can help families organise checklists and document packs. It cannot replace a doctor, school nurse, solicitor, border authority, visa authority or programme organiser.",
+          "When unsure, ask the programme organiser and official health or travel sources in writing, then keep the reply in the student's file."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、原頁面打不開時，先按「家長文件包」準備",
+        paragraphs: [
+          "如果夏校頁面暫時打不開，家長可以先按公開通用清單準備，不必等到最後一週才開始補材料。請同時向項目方索取最新書面要求，並把所有回覆截圖或存成 PDF。",
+          "建議先建立一個「夏校出行文件包」：學生護照首頁、簽證或入境許可（如適用）、保險、疫苗記錄、體檢/醫療表、過敏與用藥說明、緊急聯絡人、家長同意書、航班與住宿/接送信息。"
+        ]
+      },
+      {
+        heading: "二、疫苗怎麼辦：先核 routine vaccinations，再看目的地和項目要求",
+        paragraphs: [
+          "第一步不是盲目補針，而是先找出學生已有的疫苗記錄：兒童疫苗本、學校/診所記錄、GP 或家庭醫生記錄、過去出國疫苗記錄等。先確認常規疫苗是否完整，再看目的地是否需要 travel vaccines。",
+          "NHS 關於 travel vaccinations 的公開說明提醒，出行前應確認常規疫苗是否 up to date。不同國家、停留時間、活動內容、學生年齡和健康狀況都會影響建議。",
+          "實務上請至少提前數週處理，因為有些疫苗需要多劑次或間隔時間。若夏校、航空公司、目的地國家或醫生給出不同要求，以最新正式書面要求為準。"
+        ]
+      },
+      {
+        heading: "三、體檢 / 醫療表：只填事實，不替醫生判斷",
+        paragraphs: [
+          "很多夏校會要求 health form、medical form 或 emergency medical information。家長應如實填寫：過敏史、哮喘、癲癇、糖尿病、食物禁忌、正在服用的藥物、既往重大疾病、心理健康或特殊支持需要（如適用）。",
+          "如果表格需要醫生或診所簽字蓋章，請提前預約。去診所時帶上：項目方原表格、學生護照信息、疫苗記錄、正在使用的藥物清單、過敏信息、家長聯絡方式。不要讓中介或老師代替醫生填寫醫療判斷。"
+        ]
+      },
+      {
+        heading: "四、家長同意書：未成年人出行要把監護授權寫清楚",
+        paragraphs: [
+          "未成年人出國，尤其是跟學校、夏校、親戚、監護人或團隊老師同行時，通常需要家長/監護人的書面同意。GOV.UK 關於帶未成年人出國的說明也提醒，邊境或相關方可能要求查看 permission letter。",
+          "一份實用的家長同意書應至少包括：學生姓名、出生日期、護照號；父母/監護人姓名、電話和電郵；同行成人或項目方名稱；出行國家、城市、日期；住宿或活動安排；緊急聯絡人；家長同意學生參加項目、接受日常管理、在緊急情況下由項目方聯絡醫療機構和家長。",
+          "如父母不同姓、單親監護、離異、監護權安排複雜，或孩子由非父母成人帶出境，建議提前諮詢相關官方渠道或法律專業人士，並保留能證明監護/同意關係的文件。"
+        ]
+      },
+      {
+        heading: "五、建議家長一次性提交的文件清單",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>文件</th><th>用途</th><th>注意事項</th></tr></thead>
+              <tbody>
+                <tr><td>學生護照首頁</td><td>身份核對、機票與入境材料</td><td>確認有效期足夠，姓名拼寫一致。</td></tr>
+                <tr><td>簽證 / 入境許可</td><td>入境與項目報到</td><td>如目的地要求，請保存批准頁或電子簽證 PDF。</td></tr>
+                <tr><td>疫苗記錄</td><td>健康與入營要求核對</td><td>盡量提供英文或可識別版本；不清楚時請醫生/診所協助。</td></tr>
+                <tr><td>體檢 / 醫療表</td><td>夏校健康管理與緊急處理</td><td>需要醫生簽字時不要自行代填專業部分。</td></tr>
+                <tr><td>家長同意書</td><td>未成年人出行、監護與緊急聯絡授權</td><td>父母/監護人簽名、日期、聯絡方式要完整。</td></tr>
+                <tr><td>保險信息</td><td>醫療、旅行延誤、行李等風險處理</td><td>保存 policy number、24 小時求助電話。</td></tr>
+                <tr><td>過敏 / 用藥說明</td><td>住宿、餐飲、活動安全</td><td>藥品名稱、劑量、服用時間最好中英雙語標註。</td></tr>
+                <tr><td>緊急聯絡人</td><td>項目期間快速聯絡</td><td>至少兩名成人，含手機、微信/WhatsApp、電郵。</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "六、給家長的簡短發送模板",
+        paragraphs: [
+          "家長可將以下文字連同文件一起發給項目負責人：",
+          `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">可複製模板</div><p>您好，已按夏校要求整理學生出行文件。附件包括：護照首頁、疫苗記錄、體檢/醫療表、家長同意書、保險信息、緊急聯絡人及過敏/用藥說明（如適用）。請協助核對是否還需補充其他文件。如項目方對疫苗、體檢或家長同意書有最新版表格，請以最新版為準發給我們更新。</p></div>`
+        ]
+      },
+      {
+        heading: "七、OTC 可以協助什麼，不能替代什麼",
+        paragraphs: [
+          "OTC 可以協助家長整理文件清單、核對是否缺頁、翻譯/雙語整理基本信息、提醒時間節點、把項目方回覆歸檔。但醫療判斷應由醫生/診所完成；法律或監護權爭議應由合資格法律專業人士處理；簽證/邊境要求應以官方渠道為準。",
+          "本文是給家長的行政準備清單，不構成醫療建議、法律建議、簽證建議或學校/夏校官方要求。正式出行前，請以項目方最新書面通知、官方健康/邊境資訊和個人實際情況為準。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "uk-entry-requirements-course-page-checklist",
+    title: "UK Entry Requirements: How to Read a Course Page Without Missing the Hidden Conditions",
+    date: "2026-05-26",
+    category: "UK Applications",
+    column: "study",
+    kicker: "UK · Applications · Entry requirements",
+    author: "留學導報編輯部",
+    summary: "A practical, compliance-safe checklist for decoding UK university entry requirements: grade wording, subject constraints, English language rules, extra tests/portfolio flags, and a simple evidence pack to keep families aligned.",
+    titleZh: "英國大學 Entry Requirements 怎麼讀：用一張核對清單避免漏掉「隱形條件」",
+    summaryZh: "一份可直接用於家長與學生溝通的入門核對清單：成績要求的關鍵字、科目限制、英文要求、作品集／面試／測試提示，以及一套「證據包」做法，讓資訊可追溯、可核查（不做任何結果保證）。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "uk-personal-statement-evidence-first-checklist",
+      "ucas-offers-conditions-firm-insurance-checklist"
+    ],
+    resources: [
+      ["UCAS: How to apply (overview)", "https://www.ucas.com/undergraduate/applying-university"],
+      ["UCAS: Entry requirements (overview)", "https://www.ucas.com/undergraduate/what-and-where-study/understanding-entry-requirements"],
+      ["UK Government: Student visa (official guidance)", "https://www.gov.uk/student-visa"]
+    ],
+    body: [
+      {
+        heading: "1) Start with the right source (and save it)",
+        paragraphs: [
+          "Entry requirements can differ between a university prospectus PDF, a department web page, and a UCAS listing. Use the course page as your primary reference, then cross-check against the UCAS entry for the same course code (if applicable).",
+          "Build a small evidence pack: save a PDF print of the course page, capture screenshots of the requirements section, and note the page URL + access date. Requirements change — your job is to keep the family aligned with the latest written source."
+        ]
+      },
+      {
+        heading: "2) Decode grade wording: typical phrases that change the meaning",
+        paragraphs: [
+          "Don’t treat a grade line as a single number. Watch for wording that changes risk and flexibility (examples vary by course):",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>Phrase you might see</th><th>What it usually implies</th><th>What to check next</th></tr></thead>
+              <tbody>
+                <tr><td>\"AAA including Mathematics\"</td><td>Subject-specific constraint.</td><td>Which maths? Any further minimum grade per subject?</td></tr>
+                <tr><td>\"Typical offer\"</td><td>Not a guarantee; competitive context matters.</td><td>Selection factors (portfolio, interview, admissions test).</td></tr>
+                <tr><td>\"We consider a range of qualifications\"</td><td>Multiple pathways may be accepted.</td><td>Confirm your exact qualification + combinations.</td></tr>
+                <tr><td>\"Contextual offer available\"</td><td>Some applicants may receive adjusted grades.</td><td>Eligibility criteria and required evidence.</td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "If a family wants certainty, the only safe answer is: get it in writing from the admissions team for the specific applicant profile."
+        ]
+      },
+      {
+        heading: "3) English language and deadlines: treat as a separate checklist",
+        paragraphs: [
+          "English requirements are often separate from academic grades and may have additional rules: accepted tests, minimum component scores, validity windows, and latest test dates aligned to CAS/enrolment timelines.",
+          "Practical step: create a one-page ‘English readiness’ note with (a) target test + score, (b) booking plan, (c) retake buffer, and (d) a reminder to re-check the university’s accepted tests and validity rules before paying test fees."
+        ]
+      },
+      {
+        heading: "4) Hidden extras: portfolio, interview, admissions tests, work experience",
+        paragraphs: [
+          "Many ‘hidden conditions’ are not hidden — they’re simply in a different section: ‘How you are assessed’, ‘Selection process’, ‘Additional requirements’, or a departmental page.",
+          "Before any big decision (switching majors, paying deposits, arranging travel), scan the page for: portfolio submission format, interview dates/time zones, admissions test requirements, work experience expectations, and any restrictions on subject combinations."
+        ]
+      },
+      {
+        heading: "5) Compliance-safe messaging for families",
+        paragraphs: [
+          "Avoid outcome promises. Use verifiable language: ‘the current published requirement says…’, ‘the admissions team confirmed in writing…’, ‘this is a planning estimate…’.",
+          "Visa, immigration and professional registration rules are separate. For those topics, rely on official sources and qualified professionals; this article is an education-planning checklist, not legal advice."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先找對頁面（並把它存成可追溯的證據）",
+        paragraphs: [
+          "英國大學的入學要求可能同時出現在：大學 prospectus PDF、學院／系所課程頁、UCAS 頁面。實務上建議以「課程頁 course page」作主參考，再與 UCAS 同一課程（如有 course code/UCAS listing）互相核對。",
+          "建立一個小型「證據包」：把課程頁列印成 PDF、把 requirements 相關段落截圖、記下網址與查閱日期。入學要求會更新；可追溯的文字證據能避免家長與學生各自理解、後續產生爭議。"
+        ]
+      },
+      {
+        heading: "二、讀懂成績要求的關鍵字：同一句話可能代表不同風險",
+        paragraphs: [
+          "不要把 requirements 當成單一數字。留意會改變意思的詞（不同專業會有差異）：",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>常見寫法</th><th>通常代表什麼</th><th>下一步要核查</th></tr></thead>
+              <tbody>
+                <tr><td>\"AAA including Mathematics\"</td><td>有科目限制。</td><td>數學是哪一門？是否有單科最低分？</td></tr>
+                <tr><td>\"Typical offer\"</td><td>不是保證；競爭程度會影響。</td><td>是否有作品集／面試／測試等選拔因素。</td></tr>
+                <tr><td>\"We consider a range of qualifications\"</td><td>可能接受多種學制／組合。</td><td>確認你的「具體」學制與科目組合是否被接受。</td></tr>
+                <tr><td>\"Contextual offer available\"</td><td>部分學生可能有調整後的 offer。</td><td>資格條件與需要提供的證明文件。</td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "如果家長想要「確定」，唯一合規的做法是：針對該學生的背景與科目組合，讓 admissions 以書面方式確認。"
+        ]
+      },
+      {
+        heading: "三、英文要求請獨立成一張清單：把時間點也寫進去",
+        paragraphs: [
+          "英文要求往往與學術要求分開，且可能包含：接受的考試種類、單項分數、成績有效期、最晚提交日期（常與入學註冊／CAS 節點相關）。",
+          "實用做法：做一張 A4『英文準備單』，包含（1）目標考試與分數（2）報名計畫（3）重考緩衝（4）付款前再次核查學校對 accepted tests 與有效期的最新規則。"
+        ]
+      },
+      {
+        heading: "四、最常被忽略的附加條件：作品集、面試、入學測試、工作經驗",
+        paragraphs: [
+          "很多所謂『隱形條件』其實不隱形，只是藏在另一個區塊：例如 “How you are assessed”、“Selection process”、“Additional requirements”，或系所的補充頁面。",
+          "在做重大決策前（例如改專業、支付押金、安排行程），請先快速掃描：作品集格式與提交方式、面試時間與時區、入學測試要求、工作經驗期待、以及科目組合限制。"
+        ]
+      },
+      {
+        heading: "五、對家長的合規表述方式：只說可核查的話",
+        paragraphs: [
+          "避免任何結果保證。建議用可核查語句：『目前公開頁面寫的是…』『admissions 書面確認了…』『這是規劃估算…』。",
+          "簽證、移民、職業註冊屬於另一套規則與專業範疇；相關問題請依官方資訊與合資格專業人士處理。本文僅提供教育規劃用的核對清單，不構成法律建議。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "australia-vet-tafe-aqf-cost-duration-xian-landing-guide-2026",
     title: "Australia VET / TAFE Explained: AQF Level, Study Length, Fees and a Xi'an Landing Plan",
     date: "2026-05-26",
