@@ -1862,138 +1862,265 @@ const insightsArticles = [
           <strong>VET / TAFE 不是一個模糊概念，是 AQF Level 3-6 的職業教育階梯。</strong>
           <p>西安落地先講清楚層級、費用、文件與路線；再組織學校、國際部、職教院校和合作方做宣講。OTC 負責把學術路線、申請文件、移民邊界和澳洲 provider 核查一次打通。</p>
         </div>
-        <div class="vet-visual-grid">
-          <div class="vet-aqf-ladder" aria-label="VET / TAFE AQF level ladder">
-            <div class="vet-aqf-step step-6"><b>AQF 6</b><strong>Advanced Diploma</strong><span>高階技術 / paraprofessional</span><em>常見 1.5-2 年</em></div>
-            <div class="vet-aqf-step step-5"><b>AQF 5</b><strong>Diploma</strong><span>VET 主力層級 / 可談銜接</span><em>常見 1-2 年</em></div>
-            <div class="vet-aqf-step step-4"><b>AQF 4</b><strong>Certificate IV</strong><span>技能進階 / Diploma 前置</span><em>約半年-1 年</em></div>
-            <div class="vet-aqf-step step-3"><b>AQF 3</b><strong>Certificate III</strong><span>職業入門 / 技能證書</span><em>約半年-1 年</em></div>
+        <div class="vet-table-stack">
+          <div class="report-table-wrap vet-brief-table">
+            <table>
+              <caption>AQF 層級速查</caption>
+              <thead><tr><th>AQF 層級</th><th>資格名稱</th><th>中文定位</th><th>常見學制</th></tr></thead>
+              <tbody>
+                <tr><td>AQF 6</td><td>Advanced Diploma</td><td>高階技術 / paraprofessional</td><td>常見 1.5-2 年</td></tr>
+                <tr><td>AQF 5</td><td>Diploma</td><td>VET 主力層級 / 可談銜接</td><td>常見 1-2 年</td></tr>
+                <tr><td>AQF 4</td><td>Certificate IV</td><td>技能進階 / Diploma 前置</td><td>約半年-1 年</td></tr>
+                <tr><td>AQF 3</td><td>Certificate III</td><td>職業入門 / 技能證書</td><td>約半年-1 年</td></tr>
+              </tbody>
+            </table>
           </div>
-          <div class="vet-landing-cards">
-            <article>
-              <b>西安宣講清單</b>
-              <strong>先聯絡這些機構</strong>
-              <ul>
-                <li>國際學校、國際部、雙語學校升學中心</li>
-                <li>西安外國語大學、西安交通大學國際教育/繼續教育相關窗口</li>
-                <li>西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等職教院校</li>
-                <li>留學服務機構、語培機構、A-Level / BTEC / Foundation 合作點</li>
-                <li>澳洲校方、TAFE / RTO、pathway provider 線上宣講窗口</li>
-              </ul>
-            </article>
-            <article class="dark">
-              <b>OTC 海外督導</b>
-              <strong>學術 + 申請 + 移民路線支持</strong>
-              <ul>
-                <li>AQF / RQF / BTEC / OTHM 層級對讀</li>
-                <li>英文、成績單、evidence pack、CV 與 course matching</li>
-                <li>TAFE / VET / 大學 pathway / RPL 問題清單</li>
-                <li>簽證、移民、職業註冊問題直接標記轉介邊界</li>
-                <li>宣講材料、家長答疑、合作方培訓與後續 case log</li>
-              </ul>
-            </article>
+          <div class="report-table-wrap vet-brief-table">
+            <table>
+              <caption>西安宣講對象清單</caption>
+              <thead><tr><th>對象類型</th><th>先聯絡的機構</th><th>宣講重點</th></tr></thead>
+              <tbody>
+                <tr><td>國際教育端</td><td>國際學校、國際部、雙語學校升學中心</td><td>AQF 層級、TAFE-to-university、費用與文件準備</td></tr>
+                <tr><td>高校窗口</td><td>西安外國語大學、西安交通大學國際教育 / 繼續教育相關窗口</td><td>澳洲職業教育層級、銜接邏輯與合作 briefing</td></tr>
+                <tr><td>職教院校</td><td>西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等</td><td>VET / TAFE 對讀、技能證據、RPL 與 provider 核查</td></tr>
+                <tr><td>渠道合作</td><td>留學服務機構、語培機構、A-Level / BTEC / Foundation 合作點</td><td>學生初篩、英文準備、申請文件與家長答疑</td></tr>
+                <tr><td>澳洲端</td><td>澳洲校方、TAFE / RTO、pathway provider 線上宣講窗口</td><td>正式課程、CRICOS / RTO scope、費用頁與授權邊界</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="report-table-wrap vet-brief-table">
+            <table>
+              <caption>OTC 海外督導支持邊界</caption>
+              <thead><tr><th>工作項目</th><th>OTC 可做</th><th>邊界提醒</th></tr></thead>
+              <tbody>
+                <tr><td>層級對讀</td><td>AQF / RQF / BTEC / OTHM 層級對讀</td><td>不等於中國學歷自動認定或院校錄取保證</td></tr>
+                <tr><td>申請文件</td><td>英文、成績單、evidence pack、CV 與 course matching</td><td>最終要求以 provider / offer / admissions 書面信息為準</td></tr>
+                <tr><td>路線問題</td><td>TAFE / VET / 大學 pathway / RPL 問題清單</td><td>RPL、學分、豁免須由正式 provider 判定</td></tr>
+                <tr><td>合規邊界</td><td>簽證、移民、職業註冊問題直接標記轉介邊界</td><td>簽證、移民與職業註冊由合資格專業人士處理</td></tr>
+                <tr><td>落地執行</td><td>宣講材料、家長答疑、合作方培訓與後續 case log</td><td>澳洲資格交付和證書簽發需正式授權後才可宣傳</td></tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
     `,
     body: [
       {
-        heading: "1) What level is VET / TAFE?",
+        heading: "1) Service scope and evidence sources",
         paragraphs: [
-          "In Australia, VET and TAFE qualifications sit inside the Australian Qualifications Framework (AQF). The usual ladder is Certificate I to IV, Diploma, and Advanced Diploma.",
-          "The practical answer for Chinese partners is: Certificate III is AQF level 3, Certificate IV is AQF level 4, Diploma is AQF level 5, and Advanced Diploma is AQF level 6. This is not the same as a Chinese degree equivalence statement; it is the Australian qualification framework level."
+          "This briefing explains how OTC supports students, families and local partners with Australian VET / TAFE route comparison. The service scope is education consulting, document preparation, provider checking and compliance-boundary clarification.",
+          "Information should be checked against the Australian Qualifications Framework, CRICOS, training.gov.au, provider course pages, provider fee pages and written provider communications."
         ]
       },
       {
-        heading: "2) How long does it usually take?",
+        heading: "2) AQF level mapping",
         paragraphs: [
-          "Duration depends on course design, delivery mode, student background and whether the student studies full-time. Many Certificate III / IV programmes are roughly one semester to one year; many Diploma programmes are one to two years; Advanced Diploma programmes often take about one and a half to two years.",
-          "The safe public answer is to quote the exact provider course page or CRICOS record, because visa-linked international courses must match the registered duration and delivery conditions."
+          "VET / TAFE should be explained by AQF level, not as a single generic course type. Certificate III commonly maps to AQF level 3, Certificate IV to AQF level 4, Diploma to AQF level 5 and Advanced Diploma to AQF level 6.",
+          "This is an Australian framework explanation only. It is not a Chinese qualification equivalence decision, a university admission decision, a visa outcome or a skills assessment outcome."
         ]
       },
       {
-        heading: "3) Fees and related costs",
+        heading: "3) Duration and course checks",
         paragraphs: [
-          "Tuition varies widely by provider, state, field and whether the student is domestic, international or subsidised. International VET fees are normally listed by the provider, and Study Australia directs students to search official course listings and provider pages for current fees.",
-          "For a concrete official example, TAFE Queensland lists its Diploma of Business / Diploma of Leadership and Management at South Bank, Brisbane, starting 13 July 2026, with a 1-year duration and an international student total course fee of AUD 17,200. Using the AUD/CNY reference rate around 1 AUD = RMB 4.87 on 26 May 2026, this is approximately RMB 83,800 before additional costs.",
-          "A practical first-year budget example can therefore be built as follows: tuition AUD 17,200 (about RMB 83,800); materials/equipment estimate AUD 500-1,500 (about RMB 2,400-7,300); application or administration estimate AUD 100-250 (about RMB 500-1,200); OSHC example AUD 806 for 12 months single cover based on ANU/Allianz's published table (about RMB 3,900); Student visa VAC AUD 2,000 for the primary applicant under the 1 July 2025 Study Australia update (about RMB 9,700); living-cost estimate AUD 24,000-30,000 for one year in Brisbane (about RMB 116,900-146,100). That gives an illustrative first-year budget of roughly AUD 44,600-51,800, or about RMB 217,000-252,000. This is a planning estimate, not a provider quote.",
-          "In addition to tuition, families should budget for application or enrolment fees, material and equipment costs, uniforms or tool kits, work placement requirements, insurance, visa-related costs, OSHC where relevant, English testing, travel and living costs."
+          "Duration depends on the qualification level, course design, campus, delivery mode, student background and whether the student studies full-time. Public explanations should be supported by the provider course page and, where international student visa study is involved, the CRICOS record.",
+          "The operating rule is to avoid standalone duration claims. OTC should record the course name, provider, campus, CRICOS status, intake, duration, entry requirements, placement requirements and fee page before advising a family or partner."
         ]
       },
       {
-        heading: "4) What can be launched first in Xi'an?",
+        heading: "4) Fee estimate and budget model",
         paragraphs: [
-          "A Xi'an launch should begin as an information, pathway and preparation centre, not as an unauthorised Australian qualification delivery site. The first stage can include AQF/VET briefings, occupation route mapping, English and document preparation, portfolio or skills evidence workshops, and partner-provider information sessions.",
-          "If an Australian qualification is to be delivered or advertised, the provider and course must be checked through training.gov.au, CRICOS where international student visa study is involved, and the relevant RTO scope. OTC should not claim to issue Australian AQF qualifications unless the delivery and certification arrangement is formally authorised."
+          "Fees should be broken down by category rather than quoted as a single number. The example below uses TAFE Queensland's Diploma of Business / Diploma of Leadership and Management at South Bank, Brisbane, starting 13 July 2026, with a 1-year duration and an international student total course fee of AUD 17,200. RMB figures use an indicative AUD/CNY reference rate of about 1:4.87 on 26 May 2026.",
+          `<div class="report-table-wrap article-cost-table">
+            <table>
+              <thead>
+                <tr><th>Cost item</th><th>Indicative AUD amount</th><th>Approx. RMB amount</th><th>Planning note</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Tuition</td><td>AUD 17,200</td><td>About RMB 83,800</td><td>TAFE Queensland Diploma of Business / Diploma of Leadership and Management example, South Bank, Brisbane.</td></tr>
+                <tr><td>Materials, equipment, uniform or consumables</td><td>AUD 500-1,500</td><td>About RMB 2,400-7,300</td><td>Course-specific; check provider fee page and offer documents.</td></tr>
+                <tr><td>Application / administration / enrolment estimate</td><td>AUD 100-250</td><td>About RMB 500-1,200</td><td>May be separate from tuition; provider policies vary.</td></tr>
+                <tr><td>OSHC example</td><td>AUD 806</td><td>About RMB 3,900</td><td>12-month single-cover example based on ANU / Allianz published table.</td></tr>
+                <tr><td>Student visa VAC, primary applicant</td><td>AUD 2,000</td><td>About RMB 9,700</td><td>Study Australia update from 1 July 2025; always recheck before payment.</td></tr>
+                <tr><td>Brisbane living-cost planning range</td><td>AUD 24,000-30,000</td><td>About RMB 116,900-146,100</td><td>Food, accommodation, transport and general living expenses; planning estimate only.</td></tr>
+                <tr><td><strong>Illustrative first-year total</strong></td><td><strong>AUD 44,600-51,800</strong></td><td><strong>About RMB 217,000-252,000</strong></td><td><strong>Planning estimate, not a provider quote or formal offer.</strong></td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "This is a planning model only. Formal payment decisions should rely on provider offer documents, the latest provider fee page and official visa / OSHC information."
         ]
       },
       {
-        heading: "5) The night-call answer",
+        heading: "5) Xi'an service deployment scope",
         paragraphs: [
-          "For a partner who says they are busy during the day and wants to understand the model properly at night, the useful answer is simple: this is not a vague 'vocational course' brand. It is a regulated Australian qualification ladder with specific levels, providers, course durations and costs.",
-          "The Xi'an opportunity is to explain it clearly, screen student fit, prepare evidence and build a compliant partner route before promising enrolment, visa or qualification outcomes."
+          "A Xi'an-facing service should be positioned as information briefing, student screening, English and document preparation, pathway comparison and provider briefing support. It should not be presented as an unauthorised Australian qualification delivery centre.",
+          "Any claim about Australian qualification delivery, certification, CRICOS-linked delivery or RTO scope must be supported by written provider confirmation and the relevant public registers."
+        ]
+      },
+      {
+        heading: "6) Partner communication standard",
+        paragraphs: [
+          "Partner communications should use verifiable language: AQF level, provider name, course page, CRICOS status, fee page, entry requirements, placement requirements and written provider confirmation where needed.",
+          "OTC should not promise admission, visa outcomes, occupational registration, skills assessment or Australian qualification delivery. Those matters require formal institutional decisions or qualified professional advice."
         ]
       }
     ],
     bodyZh: [
       {
-        heading: "一、VET / TAFE 到底對標哪一級學歷",
+        heading: "一、服務定位與資料來源",
         paragraphs: [
-          "澳洲 VET（Vocational Education and Training）和 TAFE（Technical and Further Education）不是一個單一學位，也不是一句「職業課程」就能講完。它是一套放在 Australian Qualifications Framework（AQF）裡的職業教育資格階梯。",
-          "對外說明要乾脆：Certificate III 是 AQF Level 3；Certificate IV 是 AQF Level 4；Diploma 是 AQF Level 5；Advanced Diploma 是 AQF Level 6。這是澳洲官方框架內的層級，不等於中國學歷自動認定，但足以讓家長立刻明白它不是野路子，而是可核查、可註冊、可對讀的職業教育體系。"
+          "本頁用於說明 OTC 如何協助學生、家庭與合作方理解澳洲 VET / TAFE 路線。內容以官方框架、provider 公開頁面與可核查資料為基礎，服務範圍限定在教育諮詢、文件準備、路線比較與合規邊界提示。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>信息類型</th><th>主要來源</th><th>用途</th><th>OTC 處理方式</th></tr></thead>
+              <tbody>
+                <tr><td>資格層級</td><td>Australian Qualifications Framework (AQF)</td><td>確認 Certificate、Diploma、Advanced Diploma 的官方層級。</td><td>轉化為中文對照表，避免把 VET / TAFE 說成模糊課程。</td></tr>
+                <tr><td>課程註冊</td><td>CRICOS、training.gov.au、provider course page</td><td>核查課程、校區、開課、international student 適用性與 RTO scope。</td><td>建立 provider 核查表，逐項記錄來源和更新日期。</td></tr>
+                <tr><td>費用預算</td><td>Study Australia、provider fee page、公開保險/簽證費用頁</td><td>拆分 tuition、材料費、OSHC、簽證與生活費。</td><td>提供規劃估算表；正式付款以 provider offer 和官方頁面為準。</td></tr>
+                <tr><td>合規邊界</td><td>院校書面回覆、RTO / CRICOS 信息、專業顧問意見</td><td>區分教育諮詢、資格交付、移民/職業註冊等不同責任範圍。</td><td>在每個 case 中標記需要轉介或等待正式授權的事項。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "二、用中國家長能聽懂的方式怎麼解釋",
+        heading: "二、AQF 層級對照",
         paragraphs: [
-          "如果面向家長或西安本地合作方，可以把 VET / TAFE 解釋為：澳洲官方監管的職業教育與技能資格體系，重點不是學術研究，而是面向就業、技能、實訓、職業路線和後續升學銜接。",
-          "Certificate III / IV 更像技能證書和職業入門 / 進階資格；Diploma 是 VET 的主力層級之一，常被學生用作就業技能、轉專業、升學銜接或 pathway；Advanced Diploma 則更高一級，偏高階技術或 paraprofessional 能力。"
+          "VET / TAFE 應按 AQF 層級說明，而不是用單一中文詞概括。以下對照用於初步理解，並不構成中國學歷認證、院校錄取或移民結果判斷。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>AQF 層級</th><th>常見資格</th><th>中文說明</th><th>常見用途</th><th>核查重點</th></tr></thead>
+              <tbody>
+                <tr><td>AQF 3</td><td>Certificate III</td><td>職業入門與基礎技能證書。</td><td>技能起點、部分職業入門、後續進階學習。</td><td>課程是否在 RTO scope；是否面向國際學生。</td></tr>
+                <tr><td>AQF 4</td><td>Certificate IV</td><td>技能進階或 Diploma 前置層級。</td><td>轉入 Diploma、職業方向確認、技能補強。</td><td>入學條件、英文要求、placement 或實訓要求。</td></tr>
+                <tr><td>AQF 5</td><td>Diploma</td><td>VET 主力層級之一，可用於技能、轉專業或銜接。</td><td>職業教育主路線、TAFE-to-university、部分 advanced standing 討論。</td><td>provider、CRICOS、銜接規則和費用頁。</td></tr>
+                <tr><td>AQF 6</td><td>Advanced Diploma</td><td>更高階技術或 paraprofessional 層級。</td><td>高階技能、專業方向深化、部分本科銜接場景。</td><td>課程時長、專業限制、職業註冊/技能評估邊界。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "三、學制一般多長",
+        heading: "三、學制與課程核查",
         paragraphs: [
-          "學制沒有一個固定答案，要看專業、校區、開課方式、學生背景和是否 full-time。一般口徑可以這樣講：Certificate III / IV 常見為半年到一年左右；Diploma 常見為一年到兩年；Advanced Diploma 常見為一年半到兩年左右。",
-          "但對外招生和正式諮詢不能只講大概。涉及國際學生、學生簽證或澳洲境內學習時，要查 provider course page 和 CRICOS record，因為 CRICOS 會列出給國際學生的正式課程註冊信息。CRICOS 官方入口是：https://cricos.education.gov.au/。"
+          "學制不能以單一數字承諾。正式服務中，OTC 會同時核查課程頁、CRICOS record、開課日期、校區、學習模式與 placement 要求。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>項目</th><th>常見範圍</th><th>必查來源</th><th>為什麼要查</th></tr></thead>
+              <tbody>
+                <tr><td>Certificate III / IV</td><td>約半年至一年，視課程設計而定。</td><td>provider course page、training.gov.au、CRICOS（如涉及國際學生）。</td><td>確認是否適合作為入門、轉專業或 Diploma 前置。</td></tr>
+                <tr><td>Diploma</td><td>常見一年至兩年。</td><td>CRICOS duration、provider fee page、entry requirements。</td><td>確認銜接可能、費用、英文要求和課程強度。</td></tr>
+                <tr><td>Advanced Diploma</td><td>常見一年半至兩年。</td><td>course page、RTO scope、placement / practical requirements。</td><td>確認是否涉及高階技術、實訓、職業路線或進一步銜接。</td></tr>
+                <tr><td>國際學生適用性</td><td>不以普通課程頁推定。</td><td>CRICOS official course register: https://cricos.education.gov.au/。</td><td>學生簽證相關課程必須核查 CRICOS 註冊信息。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "四、學費和相關費用怎麼算",
+        heading: "四、費用估算與預算模型",
         paragraphs: [
-          "VET / TAFE 學費差異很大，取決於州、provider、專業、校區、是否國際學生、是否有政府補貼。不能用一個固定數字概括所有課程。Study Australia 的官方費用頁提醒學生要查具體課程和 provider 的當前費用：https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs。",
-          "實務上要把費用拆成幾類：學費 tuition；申請 / enrolment / administration fee；材料費、工具包、制服、耗材；實習或 work placement 可能產生的要求；英語考試費；簽證相關費用；保險與 OSHC（如適用）；住宿、交通和生活費。",
-          "舉一個官方頁面上的實例：TAFE Queensland 的 Diploma of Business / Diploma of Leadership and Management 頁面列出 South Bank, Brisbane 校區 2026 年 7 月 13 日開課、1 年制，國際學生 total course fee 為 AUD 17,200，頁面同時說明這是 international students 的總課程費用。按 2026 年 5 月 26 日 AUD/CNY 約 1:4.87 估算，AUD 17,200 約等於人民幣 83,800 元。這只是按當日匯率折算的學費示例，未包含材料費、一次性申請費、OSHC、簽證、住宿、交通和生活費。",
-          "如果把一個 1 年制 Brisbane / South Bank 學生做成可給家長看的預算樣本，可以這樣列：學費 AUD 17,200，約人民幣 83,800；材料、工具、制服或耗材先按 AUD 500-1,500 預估，約人民幣 2,400-7,300；申請 / administration / enrolment 相關費用先按 AUD 100-250 預估，約人民幣 500-1,200；OSHC 可用公開示例估算，ANU / Allianz 12 個月 single cover 表示 AUD 806，約人民幣 3,900；學生簽證主申請人的 VAC，Study Australia 2025 年 7 月更新列為 AUD 2,000，約人民幣 9,700；Brisbane 一年生活費可先按 AUD 24,000-30,000 做保守預估，約人民幣 116,900-146,100。合計第一年預算約 AUD 44,600-51,800，折人民幣約 217,000-252,000。這是規劃用預估，不是院校正式報價。",
-          "例如 TAFE Queensland 的 international price list 會按課程列出國際學生費用，並提示材料費和一次性申請費可能另算：https://tafeqld.edu.au/international/courses/international-pricelist。這類頁面適合做正式報價前的核查入口。"
+          "費用需要拆分，不應用單一數字概括。以下以 TAFE Queensland Diploma of Business / Diploma of Leadership and Management（South Bank, Brisbane；2026 年 7 月 13 日開課；1 年制；國際學生 total course fee AUD 17,200）作示例，並按 2026 年 5 月 26 日 AUD/CNY 約 1:4.87 估算人民幣金額。正式報價以 provider offer、費用頁及官方收費通知為準。",
+          `<div class="report-table-wrap article-cost-table">
+            <table>
+              <thead>
+                <tr><th>費用項目</th><th>AUD 估算</th><th>人民幣約算</th><th>說明</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>學費 tuition</td><td>AUD 17,200</td><td>約 RMB 83,800</td><td>TAFE Queensland Diploma of Business / Diploma of Leadership and Management，South Bank, Brisbane 示例。</td></tr>
+                <tr><td>材料、工具、制服或耗材</td><td>AUD 500-1,500</td><td>約 RMB 2,400-7,300</td><td>按課程不同而變；正式提交前查 provider fee page 和 offer 文件。</td></tr>
+                <tr><td>申請 / administration / enrolment 相關費用</td><td>AUD 100-250</td><td>約 RMB 500-1,200</td><td>可能另算，不同 provider 規則不同。</td></tr>
+                <tr><td>OSHC 公開示例</td><td>AUD 806</td><td>約 RMB 3,900</td><td>以 ANU / Allianz 12 個月 single cover 公開表格作參考。</td></tr>
+                <tr><td>學生簽證 VAC，主申請人</td><td>AUD 2,000</td><td>約 RMB 9,700</td><td>Study Australia 2025 年 7 月更新口徑；付款前仍需核查最新官方頁面。</td></tr>
+                <tr><td>Brisbane 一年生活費預估</td><td>AUD 24,000-30,000</td><td>約 RMB 116,900-146,100</td><td>住宿、飲食、交通和日常生活費；只作規劃估算。</td></tr>
+                <tr><td><strong>第一年預算樣本合計</strong></td><td><strong>AUD 44,600-51,800</strong></td><td><strong>約 RMB 217,000-252,000</strong></td><td><strong>這是給家長看的規劃樣本，不是院校正式報價。</strong></td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>正式核查入口</th><th>核查內容</th><th>輸出文件</th></tr></thead>
+              <tbody>
+                <tr><td>Study Australia 費用頁</td><td>生活費、簽證費和一般費用分類。</td><td>家庭預算說明表。</td></tr>
+                <tr><td>Provider international price list</td><td>國際學生 tuition、材料費和一次性申請費。</td><td>課程費用核查表。</td></tr>
+                <tr><td>Offer / written agreement</td><td>正式學費、付款節點、退費規則和附加費用。</td><td>提交前最終費用核對清單。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "五、西安先落地，可以做什麼",
+        heading: "五、西安落地服務範圍",
         paragraphs: [
-          "西安落地第一步不是喊口號，而是把宣講場景做起來：國際學校、國際部、雙語學校、職業技術院校、語培機構、留學服務機構、家長社群和澳洲 provider 線上窗口，都可以成為第一批說明會對象。",
-          "OTC 要做的是清楚分工：本地做 AQF 層級講解、職業方向測評、英文與材料準備、作品 / 技能證據整理、RPL 概念解釋、澳洲 provider / RTO 路線介紹；澳洲資格交付、證書簽發、CRICOS、RTO scope 和正式合作授權，必須逐項核清楚後再公開承諾。"
+          "西安本地落地應定位為信息說明、學生初篩、文件準備與 provider briefing 支持，不應包裝成未授權的澳洲資格交付中心。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>服務場景</th><th>可提供內容</th><th>交付物</th><th>邊界</th></tr></thead>
+              <tbody>
+                <tr><td>家長說明會</td><td>AQF 層級、學制、費用構成、申請文件和路線比較。</td><td>中文 briefing、問答清單、費用估算表。</td><td>不承諾錄取、簽證或資格結果。</td></tr>
+                <tr><td>學生初篩</td><td>年齡、英文、學歷、職業方向、預算和學習地點偏好。</td><td>學生初篩表、下一步文件清單。</td><td>不替代 provider admissions assessment。</td></tr>
+                <tr><td>文件準備</td><td>成績單、英文證明、CV、作品/技能證據、學習目的說明。</td><td>evidence pack、文件命名和缺件清單。</td><td>文件真實性由學生提供並承擔責任。</td></tr>
+                <tr><td>Provider briefing</td><td>課程頁、費用頁、CRICOS / RTO scope 和 entry requirements 說明。</td><td>provider 核查表、合作方 briefing notes。</td><td>正式合作需 provider written confirmation 或協議。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "六、西安宣講機構預覽清單",
+        heading: "六、合作機構清單與用途",
         paragraphs: [
-          "第一批可以聯絡：西安國際學校、民辦雙語學校、普通高中國際部、A-Level / BTEC / Foundation 教學點；這些地方最需要把 VET / TAFE、Diploma、Advanced Diploma、TAFE-to-university 說明白。",
-          "第二批可以聯絡：西安外國語大學、西安交通大學、西北大學等高校的國際教育、繼續教育或海外項目窗口，以及西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等職教院校。宣講主題不叫「賣課」，而叫澳洲職業教育層級、費用、升學銜接和學生文件準備。",
-          "第三批是合作渠道：語培機構、留學服務公司、企業培訓機構、家長社群和澳洲校方 / TAFE / RTO / pathway provider 線上招生窗口。OTC 可以做宣講材料、家長答疑、學生初篩表和後續 case log，把西安做成西北樣板。"
+          "合作機構應按學生來源、服務用途和合規邊界分類管理。以下清單用於業務開發排序，不代表已建立正式合作或授權關係。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>合作類型</th><th>潛在機構</th><th>適合主題</th><th>OTC 交付</th></tr></thead>
+              <tbody>
+                <tr><td>國際教育端</td><td>國際學校、民辦雙語學校、普通高中國際部、A-Level / BTEC / Foundation 教學點。</td><td>VET / TAFE、Diploma、Advanced Diploma、TAFE-to-university。</td><td>升學路線說明、學生初篩表、家長問答。</td></tr>
+                <tr><td>高校窗口</td><td>西安外國語大學、西安交通大學、西北大學等國際教育、繼續教育或海外項目窗口。</td><td>澳洲職業教育層級、升學銜接、短期 briefing。</td><td>機構簡報、課程層級表、合作問題清單。</td></tr>
+                <tr><td>職教院校</td><td>西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等。</td><td>VET / TAFE 對讀、技能證據、RPL 概念和 provider 核查。</td><td>職教路線 briefing、RPL 問題清單、provider 核查模板。</td></tr>
+                <tr><td>市場渠道</td><td>語培機構、留學服務公司、企業培訓機構、家長社群。</td><td>學生來源、英文準備、文件準備、家庭預算。</td><td>渠道培訓、標準答覆、case log。</td></tr>
+                <tr><td>澳洲 provider</td><td>澳洲校方、TAFE / RTO、pathway provider 線上招生窗口。</td><td>課程、費用、開課、授權和正式合作流程。</td><td>官方詢問函、資料索取清單、合作狀態記錄。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "七、對合作方的夜間答覆，可以這樣說",
+        heading: "七、合作方溝通口徑",
         paragraphs: [
-          "可以先回覆對方：VET / TAFE 不是單一級別，而是澳洲 AQF 裡的職業教育階梯。常見從 Certificate III / IV 到 Diploma / Advanced Diploma，對應 AQF Level 3-6。學制多數在半年至兩年之間，但正式口徑要以具體 provider 和 CRICOS / course page 為準。",
-          "費用也不是一個數字，要分學費、材料費、申請費、保險、簽證、英文測試和生活費。西安落地可以先做介紹、測評、材料準備和 pathway counselling；真正澳洲資格交付和證書簽發，必須等 provider、RTO scope、CRICOS / 合作授權全部核清楚後再對外承諾。這個態度不是保守，是專業。"
+          "與合作方溝通時，建議使用清晰、可核查、可轉發的口徑。重點是先說明 VET / TAFE 的層級、費用構成和可做事項，再把需要官方核查或專業轉介的內容明確分開。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead>
+                <tr><th>溝通主題</th><th>建議表述</th><th>需要核查</th><th>不可承諾</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>課程層級</td><td>VET / TAFE 是澳洲 AQF 框架內的職業教育階梯，常見從 Certificate III / IV 到 Diploma / Advanced Diploma，對應 AQF Level 3-6。</td><td>具體課程名稱、AQF level、provider、校區及是否面向 international students。</td><td>不能說成單一學位，也不能承諾等同中國某一學歷。</td></tr>
+                <tr><td>學制時間</td><td>常見學制約半年至兩年，但正式周期必須回到 provider course page 和 CRICOS record。</td><td>CRICOS duration、開課日期、full-time / part-time、placement 或實訓安排。</td><td>不能用籠統時間替代正式 offer 或 CRICOS 信息。</td></tr>
+                <tr><td>費用預算</td><td>費用不是一個數字，應拆成 tuition、材料費、申請費、OSHC、簽證、英文測試、住宿交通和生活費。</td><td>provider fee page、international price list、材料費、一次性費用、匯率和家庭預算。</td><td>不能把估算表當成正式報價；不得忽略生活費和簽證相關費用。</td></tr>
+                <tr><td>西安落地</td><td>第一階段可做課程介紹、學生初篩、英文與文件準備、pathway counselling 和 provider briefing。</td><td>合作方角色、宣講材料、學生來源、後續申請流程和官方合作窗口。</td><td>不能宣稱本地可直接交付澳洲資格或簽發澳洲證書。</td></tr>
+                <tr><td>合規邊界</td><td>正式澳洲資格交付、證書簽發、RTO scope、CRICOS 和合作授權必須逐項核清後再對外發布。</td><td>training.gov.au、CRICOS、provider written confirmation、合作協議和授權範圍。</td><td>不能提前承諾錄取、簽證、職業註冊、技能評估或移民結果。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       },
       {
-        heading: "八、OTC 可以先做的三件事",
+        heading: "八、OTC 將提供以下專業服務",
         paragraphs: [
-          "第一，做一頁中文 VET / TAFE 路線圖：AQF Level 3-6、常見專業、學制、費用構成、升學與就業用途。第二，做西安本地說明會和初篩表：學生年齡、英文、學歷、職業方向、家庭預算、是否考慮澳洲境內學習。第三，建立 provider 核查表：training.gov.au、CRICOS、課程頁、費用頁、材料費、placement 要求、英文要求和開課時間。",
-          "OTC 海外督導的強項不是只會介紹學校，而是把學術路線、英文輸出、申請文件、職業教育、移民邊界和澳洲本地資源放在一個工作台上處理。學生要走學術銜接，能做；要看職業教育，能做；涉及簽證、職業註冊、技能評估，直接標記專業轉介。這才是對家庭真正有用的支持。"
+          "OTC 的服務重點不是單純介紹學校，而是把課程層級、學生背景、英文能力、申請文件、費用預算、澳洲 provider 核查與合規邊界放在同一套工作流程中處理。",
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead>
+                <tr><th>服務模組</th><th>OTC 交付內容</th><th>學生 / 家庭得到什麼</th><th>合規邊界</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>VET / TAFE 路線圖</td><td>整理 AQF Level 3-6、常見專業方向、學制、費用構成、升學及就業用途。</td><td>用一頁中文 briefing 看懂澳洲職業教育層級，不再只聽籠統的「職業課程」。</td><td>層級解讀不等於中國學歷認證、錄取保證或移民結果。</td></tr>
+                <tr><td>學生初步評估</td><td>核對年齡、英文、現有學歷、職業方向、家庭預算和是否考慮澳洲境內學習。</td><td>先判斷是否適合 VET / TAFE、pathway、學術銜接或其他替代路線。</td><td>正式入學要求以 provider / admissions 書面評估為準。</td></tr>
+                <tr><td>西安本地說明會</td><td>為學校、國際部、職教院校、語培與留學合作方準備簡報、問答稿和初篩表。</td><td>合作方可以用統一口徑向家長解釋層級、費用、文件和後續步驟。</td><td>不得把說明會包裝成澳洲資格交付或證書授權。</td></tr>
+                <tr><td>Provider 核查表</td><td>逐項核對 training.gov.au、CRICOS、課程頁、費用頁、材料費、placement 要求、英文要求和開課時間。</td><td>降低錯報課程、漏算費用、忽略實習或英文要求的風險。</td><td>所有課程、費用、開課與簽證相關信息均需以官方最新頁面和書面文件為準。</td></tr>
+                <tr><td>專業轉介標記</td><td>遇到簽證、移民、職業註冊、技能評估等問題時，明確標記需要 qualified professional adviser 處理。</td><td>家庭知道哪些屬於教育諮詢，哪些必須另行尋求專業意見。</td><td>OTC 不提供受監管的移民、法律、職業註冊或技能評估結論。</td></tr>
+              </tbody>
+            </table>
+          </div>`
         ]
       }
     ]
@@ -7478,7 +7605,7 @@ function heraldArticleBody(article) {
             if (pathway && index === 3) {
               return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2><div class="oeh-highlight-box"><div class="oeh-box-title">Student Use</div>${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}</div></section>`;
             }
-            return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2>${section.paragraphs.map((paragraph) => `<p>${pathway && index === 1 ? boldInstitutionLead(paragraph) : paragraph}</p>`).join("")}</section>`;
+            return `<section><h2 class="oeh-section-head" data-num="${index + 1}">${cleanHeading}</h2>${section.paragraphs.map((paragraph) => articleParagraphHtml(pathway && index === 1 ? boldInstitutionLead(paragraph) : paragraph)).join("")}</section>`;
           }).join("")}
           ${complianceSection ? `
             <div class="oeh-warning-box">
@@ -7502,6 +7629,12 @@ function heraldArticleBody(article) {
     </article>
     ${heraldShareScript()}
   `;
+}
+
+function articleParagraphHtml(paragraph) {
+  const value = String(paragraph || "").trim();
+  if (/^<(div|table|section|ul|ol|blockquote|details)\b/i.test(value)) return value;
+  return `<p>${paragraph}</p>`;
 }
 
 function articleBodyZhFirst(article) {
@@ -8155,7 +8288,7 @@ function zhArticleMagazineBody(article) {
                 if (index === 2 && pIndex === 0) {
                   return `<div class="zh-herald-highlight-box"><div class="zh-herald-box-title">實務重點</div><p>${paragraph}</p></div>`;
                 }
-                return `<p>${paragraph}</p>`;
+                return articleParagraphHtml(paragraph);
               }).join("")}
             </section>
           `;
