@@ -1604,7 +1604,7 @@ function searchItems() {
     ["美國入口 / United States Gateway", "/offices/united-states/", "OTC regional gateway for US study-route screening, North America options and document preparation."],
     ["東亞入口 / East Asia Gateway", "/offices/east-asia/", "OTC regional gateway for students and families from Mainland China, Hong Kong, Taiwan, Japan and Korea."],
     ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
-    ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia market intelligence."],
+    ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
@@ -13718,17 +13718,17 @@ const australiaOfficePresenceZh = pageShell({
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",
-  description: "OTC 澳洲辦公室中文鏡像頁：NSW 協調基地、大學申請、中小學通道、VET/TAFE、資格路線、學生支持、機構服務、市場情報及專業轉介邊界。",
+  description: "OTC 澳洲辦公室中文鏡像頁：NSW 協調基地、中國五城宣傳節點、大學申請、中小學通道、VET/TAFE、資格路線、學生支持、機構服務、市場情報及專業轉介邊界。",
   path: "/zh/australia-office-presence/",
   body: `
-    <section class="page-hero australia-office-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲辦公室路線</div><h1>OTC Australia Office Route</h1><p>以新南威爾士州為起點，建立教育諮詢、學生支持、院校申請、機構服務與澳洲市場發展的分階段運作路線。</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence%20Chinese%20Enquiry">聯絡 OTC</a><a class="btn btn-secondary" href="/australia-office-presence/">English page</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div></div></section>
+    <section class="page-hero australia-office-hero zh-report-hero"><div class="band"><div class="eyebrow">澳洲辦公室路線</div><h1>OTC Australia Office Route</h1><p>以新南威爾士州為起點，建立教育諮詢、學生支持、院校申請、機構服務與澳洲市場發展的分階段運作路線；中國端同步在北京、上海、廣州、深圳、西安開展宣傳、說明與渠道準備。</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence%20Chinese%20Enquiry">聯絡 OTC</a><a class="btn btn-secondary" href="/australia-office-presence/">English page</a><a class="btn btn-secondary" href="/zh/">返回中文首頁</a></div></div></section>
 
     <section class="band">
       <div class="australia-office-intro">
         <div>
           <div class="eyebrow">Operating Position</div>
-          <h2>先建立本地存在，再逐步加深服務能力。</h2>
-          <p>OTC 的澳洲路線從 NSW 協調基地開始，向大學申請支持、家庭溝通、雙語機構服務、市場情報及專業轉介延展。這一路線強調可留痕、可審閱、可持續發展：每一項活動都應形成清楚記錄，支持業務規劃、院校溝通及專業審查。</p>
+          <h2>澳洲本地存在與中國五城宣傳同步推進。</h2>
+          <p>OTC 的澳洲路線從 NSW 協調基地開始，向大學申請支持、家庭溝通、雙語機構服務、市場情報及專業轉介延展；中國端以北京、上海、廣州、深圳、西安作為宣傳與渠道準備節點。這一路線強調可留痕、可審閱、可持續發展：每一項活動都應形成清楚記錄，支持業務規劃、院校溝通及專業審查。</p>
           <figure class="coordination-illustration" aria-label="澳洲教育協調網絡示意圖">
             <svg viewBox="0 0 820 260" role="img" aria-labelledby="coordinationIllustrationTitleZh">
               <title id="coordinationIllustrationTitleZh">澳洲教育協調網絡</title>
@@ -13773,6 +13773,8 @@ const australiaOfficePresenceZh = pageShell({
       </div>
     </section>
 
+    ${australiaChinaPromotionPanel("zh")}
+
     <section class="band compact-band" id="centre-updates">
       <div class="institutional-update-board">
         <div class="institutional-update-head"><span>Centre Updates · 2026 年 5 月</span><h2>中心狀態與澳洲辦公室更新</h2><p>本區記錄可公開展示的中心狀態、澳洲辦公室發展和治理更新。證書、郵件記錄及內部審核文件另行保存在 OTC 文件系統。</p></div>
@@ -13781,6 +13783,7 @@ const australiaOfficePresenceZh = pageShell({
           <article><b>澳洲辦公室</b><strong>OTC Australia 執行董事任命</strong><p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持本地協調、院校溝通、學生路線發展及專業轉介邊界。</p><a href="#australia-director">查看歡迎詞</a></article>
           <article><b>運作更新</b><strong>澳洲辦公室銀行安排已開通</strong><p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或 OTC 書面通知為準。</p><a href="#centre-updates">查看更新</a></article>
           <article><b>院校合作</b><strong>澳洲院校合作進度已建立公開索引</strong><p>OTC 已把 Study NSW briefing、CDU Global enquiry、學校資料審核稿與代理 / 代表申請準備度整理為澳洲院校合作進度。正式代理身份仍以院校書面協議為準。</p><a href="#australia-institutional-progress">查看合作進度</a></article>
+          <article><b>中國宣傳</b><strong>五城宣傳工作已啟動</strong><p>北京、上海、廣州、深圳、西安作為中國端宣傳節點，用於澳洲路線說明、VET / TAFE 解讀、家庭諮詢與渠道準備。</p><a href="#china-five-city-outreach">查看城市節點</a></article>
         </div>
       </div>
     </section>
@@ -13794,7 +13797,8 @@ const australiaOfficePresenceZh = pageShell({
       <div class="metrics-grid">
         <article><strong>Study NSW</strong><span>Briefing and school-profile pipeline</span><p>NSW 學校與 pathway briefing 記錄已轉化為中文家庭初篩和學校審核稿，正式推廣前需由學校或項目方確認。</p></article>
         <article><strong>Charles Darwin University</strong><span>CDU Global enquiry recorded</span><p>CDU 已作為 Northern Territory university / TAFE route 納入澳洲版圖；OTC 記錄 enquiry reference 260523-000334，等待正式 agent / representative process 指引。</p></article>
-        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>澳洲辦公室頁、Study NT training evidence、院校資料頁、合規邊界與文件整理能力，已形成可供院校審閱的公開證據包。</p></article>
+        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>澳洲辦公室頁、Study NT training evidence、院校資料頁、合規邊界、中國五城宣傳記錄與文件整理能力，已形成可供院校審閱的公開證據包。</p></article>
+        <article><strong>China outreach</strong><span>Five-city promotion layer</span><p>北京、上海、廣州、深圳、西安正用於澳洲路線說明、家庭諮詢、VET / TAFE 解讀、渠道準備與學生材料初篩。</p></article>
         <article><strong>Boundary</strong><span>No partnership claim without agreement</span><p>網站提及院校僅用於路線說明、資料整理與申請初篩；未簽署書面協議前，不表示正式代理、官方背書或保證錄取。</p></article>
       </div>
     </section>
@@ -14575,20 +14579,22 @@ const zhAustraliaVetTafeHub = pageShell({
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",
-  description: "OTC 澳洲職業培訓路線總覽：VET/TAFE 板塊化整理，包含課程篩查、文件準備、官方查詢入口與合規邊界。",
+  description: "OTC 澳洲職業培訓路線總覽：VET/TAFE 板塊化整理，包含中國五城宣傳材料、課程篩查、文件準備、官方查詢入口與合規邊界。",
   path: "/zh/australia-vet-tafe-pathways/",
   body: `
     <section class="page-hero ai-operations-hero vet-tafe-hero">
       <div class="band">
         <div class="eyebrow">OTC Australia · 職業培訓路線</div>
         <h1>澳洲 VET / TAFE 職業培訓：板塊總覽</h1>
-        <p>把職業培訓路線做成可更新的多板塊：課程代碼、RTO/TAFE 核對、實習安排、評核方式、升學銜接與轉介邊界。這些頁面是教育規劃工具，不構成移民或就業建議。</p>
+        <p>把職業培訓路線做成可更新的多板塊：課程代碼、RTO/TAFE 核對、實習安排、評核方式、升學銜接與轉介邊界；同時支持北京、上海、廣州、深圳、西安五城宣傳與家庭說明。這些頁面是教育規劃工具，不構成移民或就業建議。</p>
         <div class="actions">
           <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
           <a class="btn btn-secondary" href="/australia-vet-tafe-pathways/">English map</a>
         </div>
       </div>
     </section>
+
+    ${australiaChinaPromotionPanel("zh")}
 
     <section class="band ai-operations-position vet-tafe-position">
       <div class="ai-operations-lead">
@@ -14909,14 +14915,14 @@ const zhAustraliaVetEvidencePack = zhVetBoardPage({
 const aiEducationOperations = pageShell({
   title: "AI-Enabled Education Operations | OTC Study Hub",
   current: "about",
-  description: "OTC's AI-supported education operations framework for structured student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia route intelligence.",
+  description: "OTC's AI-supported education operations framework for structured student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence.",
   path: "/ai-education-operations/",
   body: `
     <section class="page-hero ai-operations-hero">
       <div class="band">
         <div class="eyebrow">OTC Australia · Education Infrastructure</div>
         <h1>AI-Enabled Education Operations</h1>
-        <p>OTC is building a practical AI-supported operating layer for student-file organisation, qualification mapping, application coordination, tutorial publishing and Australia route intelligence.</p>
+        <p>OTC is building a practical AI-supported operating layer for student-file organisation, qualification mapping, application coordination, tutorial publishing, China five-city outreach tracking and Australia route intelligence.</p>
         <div class="actions">
           <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
           <a class="btn btn-secondary" href="/university-applications/#otc-apply-form">Application screening</a>
@@ -15499,14 +15505,14 @@ const about = pageShell({
         <a class="feature" href="/publishing/"><div class="num">Publishing</div><h3>Overseas Publishing House</h3><p>Bilingual digital books, study guides, practical resources and public bookshop editions.</p><span>Open publishing</span></a>
         <a class="feature" href="/insights/"><div class="num">導報</div><h3>Overseas Study Review</h3><p>留學導報：publishing-grade study-abroad briefings, pathway notes and bilingual public education commentary.</p><span>Open review</span></a>
         <a class="feature" href="/university-applications/"><div class="num">Applications</div><h3>University Applications</h3><p>Country, institution, school and programme-based application screening.</p><span>Open applications</span></a>
-        <a class="feature" href="/australia-business-landing/"><div class="num">Australia</div><h3>Australia Market Support</h3><p>Education market entry, local coordination and institutional development support.</p><span>Open Australia support</span></a>
+        <a class="feature" href="/australia-business-landing/"><div class="num">Australia</div><h3>Australia Market Support</h3><p>Education market entry, NSW coordination, China five-city outreach and institutional development support.</p><span>Open Australia support</span></a>
       </div>
       <div style="height:24px"></div>
       <div class="office-notice">
         <div>
           <div class="eyebrow">Sydney Office Notice</div>
           <h2>OTC is establishing an Australian office presence.</h2>
-          <p>Overseas Tutorial Centre Ltd is building a practical Australia-facing operating route from NSW: student advisory intake, university application coordination, education-market liaison, publishing and training support, and professional referral where regulated advice is required.</p>
+          <p>Overseas Tutorial Centre Ltd is building a practical Australia-facing operating route from NSW: student advisory intake, university application coordination, education-market liaison, publishing and training support, China five-city outreach in Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an, and professional referral where regulated advice is required.</p>
           <a class="office-window-link" href="/australia-office-presence/">Open Australia office route</a>
         </div>
         <div class="office-notice-details">
@@ -15514,8 +15520,8 @@ const about = pageShell({
           <p>Australian contact: <a href="mailto:x.yan@overseasuk.com">x.yan@overseasuk.com</a><br>UK main telephone / WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a></p>
           <div class="office-status">
             <span>Current status</span>
-            <strong>Establishing presence</strong>
-            <p>Education coordination and market-entry support are being developed first. Regulated Australian legal, migration, tax, financial and accreditation advice remains outside OTC's direct scope.</p>
+            <strong>Establishing presence + China outreach</strong>
+            <p>Education coordination, market-entry support and China-side promotion nodes are being developed first. Regulated Australian legal, migration, tax, financial and accreditation advice remains outside OTC's direct scope.</p>
           </div>
           <div class="office-status office-status-milestones">
             <span>Centre updates</span>
