@@ -3,12 +3,12 @@ const path = require("path");
 
 const dir = __dirname;
 const source = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Manuscript_Draft_v0_2.md");
-const out = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_v0_3.md");
+const out = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_v0_4.md");
 
 let md = fs.readFileSync(source, "utf8");
 
 md = md
-  .replace("Draft v0.2 · 25 May 2026", "Expanded review draft v0.3 · 26 May 2026")
+  .replace("Draft v0.2 · 25 May 2026", "Expanded review draft v0.4 · 26 May 2026")
   .replace(
     "## Publication Boundary\n\nThis manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.\n\n本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。",
     "<div class=\"publication-boundary\"><strong>Publication boundary</strong><p>This manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.</p><p>本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。</p></div>"
@@ -66,6 +66,38 @@ md = md
   .replace("很多學生最後不是輸在內容，而是輸在文件管理：", "很多學生最後的風險來自文件管理：")
   .replace("這本書的核心不是更多資料，而是穩定輸出：讀題、證據、語言、判斷、合規。", "這本書的核心是穩定輸出：讀題、證據、語言、判斷、合規。")
   .replace("比較不是左右列優缺點，而是判斷取捨。", "比較的重點是判斷取捨。");
+
+const appendixStart = md.indexOf("\n# Appendix A.");
+let appendices = "";
+if (appendixStart !== -1) {
+  appendices = md.slice(appendixStart).trim();
+  md = md.slice(0, appendixStart).trimEnd();
+}
+
+const contents = `## Contents
+
+| Section | Purpose | Proof page |
+| --- | --- | --- |
+| Front matter | Title, publication boundary, positioning and reader guidance. | 1 |
+| Part I. Core Assignment Writing Toolkit | Chapters 1-7: brief reading, grade-awareness, evidence, paragraph writing, integrity and final checks. | 6 |
+| Chapter 1 | Explains what assignment-based Business learning is really asking for. | 7 |
+| Chapter 2 | Trains learners to read assignment briefs before writing. | 17 |
+| Chapter 3 | Builds Pass / Merit / Distinction awareness without making grade promises. | 26 |
+| Chapter 4 | Helps learners plan honest and relevant evidence. | 40 |
+| Chapter 5 | Provides paragraph frames and bilingual academic-writing scaffolds. | 53 |
+| Chapter 6 | Sets academic-integrity, AI-use and authorship boundaries. | 66 |
+| Chapter 7 | Provides final submission checks and readiness protocols. | 75 |
+| Part II. Subject Stickers | Compact subject maps for common BTEC Business topic areas. | 84 |
+| Part III. Academic Writing Phrasebook | Master phrasebank plus topic-specific application riders. | 93 |
+| Part IV. Avoidance Booklet | Category-specific weak lines and stronger academic alternatives. | 102 |
+| Part V. Mini Templates | Practice scaffolds for brief reading, evidence, evaluation and feedback use. | 112 |
+| Part VI. Tiny Review Booklets | Twenty compact review cards for final paragraph audit. | 129 |
+| Appendices A-E | Phrase bank, breakdown sheet, evidence log, submission checklist and bilingual glossary. | 137 |
+
+本書按 assignment workflow 排列：先讀題，再理解深度，再規劃證據，再寫段落，再處理 AI / integrity，最後提交檢查。後半部是可抽取使用的 workbook-style reference section；Appendices 放在全書最後，方便查閱。
+`;
+
+md = md.replace(/## Contents[\s\S]*?\n---\n\n# Chapter 1\./, `${contents}\n\n---\n\n# Part I. Core Assignment Writing Toolkit\n\nThis part contains the core learning sequence. It should be read before the workbook-style reference tools in Parts II-VI.\n\n核心學習順序先建立 assignment writing 的工作方法，再使用後半部的 phrasebook、avoidance cards 和 templates。\n\n---\n\n# Chapter 1.`);
 
 const subjects = [
   ["Marketing", "customer group, message, channel, cost and evidence of response", "把 target customer、channel fit、成本和衡量方式放在同一段，不要只寫多宣傳。"],
@@ -140,6 +172,158 @@ const avoidCycleThemes = [
   ["final submission risk", "unchecked file, missing brief alignment and unsupported claims", "提交前檢查任務、文件和證據鏈。"]
 ];
 
+const topicRiders = [
+  ["Marketing", "The proposed channel is suitable only if the target group actually uses it and the business can monitor response.", "channel fit, target segment, campaign cost, response evidence"],
+  ["Finance", "The finance decision should be judged through cash flow, affordability and repayment risk rather than profit alone.", "cash flow, break-even, fixed cost, repayment risk"],
+  ["Human Resources", "The staffing response should match the diagnosed issue: skill gap, motivation problem, workload pressure or recruitment need.", "skills audit, staff feedback, turnover pattern, training cost"],
+  ["Operations", "The operational recommendation should show how the process, bottleneck or quality issue affects business performance.", "capacity, delay, waste, quality defect, cost impact"],
+  ["Customer Service", "The service issue matters when it affects complaints, repeat purchase, reputation or customer trust.", "complaint log, review evidence, retention, service recovery"],
+  ["Enterprise", "The opportunity should be judged against risk, resources and the learner's evidence of customer demand.", "market need, resource fit, uncertainty, risk response"],
+  ["Business Environment", "The external factor should be selected for relevance rather than listed as a full PESTLE table.", "legal change, economic pressure, social trend, stakeholder effect"],
+  ["International Business", "International expansion should be treated as conditional on logistics, culture, currency and legal requirements.", "market entry, exchange rate, cultural fit, compliance risk"],
+  ["Retail", "The retail judgement should connect location, product range and customer behaviour to sales evidence.", "footfall, product mix, display, local competition"],
+  ["Digital Business", "Digital activity should be judged by conversion, trust and repeat behaviour, not by reach alone.", "reach, clicks, conversion, review trust, data privacy"],
+  ["Hospitality", "Hospitality evidence should connect service consistency, occupancy, seasonality and guest feedback.", "occupancy, review score, peak demand, staffing rota"],
+  ["Small Business", "Small-business recommendations should stay affordable, manageable and measurable for the owner.", "owner time, local demand, low-cost action, simple metric"],
+  ["Comparison", "A comparison should judge both options against the same criterion.", "cost, speed, suitability, risk, evidence quality"],
+  ["Evaluation", "Evaluation should explain which condition could change the recommendation.", "limitation, assumption, trade-off, final judgement"]
+];
+
+const avoidanceSets = [
+  {
+    title: "overclaiming",
+    risk: "absolute success claims",
+    items: [
+      ["This will definitely increase sales.", "This could increase sales if the target group responds to the offer."],
+      ["The campaign will be successful.", "The campaign may be suitable if the channel reaches the selected customers."],
+      ["This is the best method.", "This appears to be the most suitable method given the available evidence."],
+      ["The business will make more profit.", "Profit may improve if additional revenue is higher than campaign cost."],
+      ["Customers will like it.", "Customers may respond positively if the offer matches their needs."]
+    ]
+  },
+  {
+    title: "vague customers",
+    risk: "unclear target groups",
+    items: [
+      ["Many people like cheap products.", "Price-sensitive students may respond to lower-cost offers."],
+      ["Customers are important.", "Repeat customers matter because they can reduce the need for constant new-customer acquisition."],
+      ["Everyone uses social media.", "The selected audience is likely to use short-form video if evidence shows mobile-first behaviour."],
+      ["People want good service.", "Customers who complain about waiting time may value faster response and clearer communication."],
+      ["The business should attract more people.", "The business should target a defined group whose needs match the offer."]
+    ]
+  },
+  {
+    title: "empty recommendations",
+    risk: "advice without evidence",
+    items: [
+      ["The business should improve marketing.", "The business should test a specific channel because the target group is likely to see it."],
+      ["The company should train staff.", "Training is suitable if the evidence shows a skills gap rather than a motivation issue."],
+      ["The business needs better service.", "Service recovery should focus on the complaint stage where most dissatisfaction occurs."],
+      ["The business should expand.", "Expansion should be considered only if demand evidence and cash-flow capacity support it."],
+      ["The business should use technology.", "Technology is useful only if it solves the identified process or customer problem."]
+    ]
+  },
+  {
+    title: "weak finance writing",
+    risk: "profit talk without cash-flow logic",
+    items: [
+      ["More sales means more profit.", "Higher sales may still reduce profit if variable costs and promotion costs are too high."],
+      ["The business needs more money.", "The finance issue should be assessed through cash flow, cost and repayment risk."],
+      ["The loan is good because it gives cash.", "A loan improves short-term cash but creates repayment pressure."],
+      ["Discounts will help revenue.", "Discounts may increase volume but lower contribution per sale."],
+      ["Expansion is affordable.", "Affordability depends on cash inflows, fixed costs and the timing of payments."]
+    ]
+  },
+  {
+    title: "weak marketing writing",
+    risk: "promotion talk without channel fit",
+    items: [
+      ["Social media is cheap and effective.", "Social media may be low-cost, but effectiveness depends on content quality and audience response."],
+      ["The business should advertise more.", "The business should choose a channel that reaches the target segment at an affordable cost."],
+      ["A discount will attract customers.", "A discount may attract price-sensitive customers but can weaken margin and brand perception."],
+      ["Posters are useful.", "Posters are useful only if placed where the target customer is likely to notice them."],
+      ["Influencers will increase awareness.", "Influencer activity may increase awareness if the audience matches the product market."]
+    ]
+  },
+  {
+    title: "weak HR writing",
+    risk: "blaming staff instead of diagnosing the issue",
+    items: [
+      ["The company needs better staff.", "The staffing issue appears to relate to skills, workload or motivation."],
+      ["Training will fix the problem.", "Training is suitable only if employees lack knowledge or procedure confidence."],
+      ["Staff are lazy.", "Low performance may reflect unclear targets, workload pressure or weak supervision."],
+      ["The business should hire more workers.", "Recruitment is suitable if workload evidence shows capacity shortage."],
+      ["Motivation is low.", "Motivation should be evidenced through turnover, absence, feedback or performance patterns."]
+    ]
+  },
+  {
+    title: "weak operations writing",
+    risk: "process description without bottleneck analysis",
+    items: [
+      ["The process is slow.", "The delay appears to occur at the order-processing stage."],
+      ["Quality is important.", "Quality matters because defects can increase returns, cost and reputational risk."],
+      ["The business should be more efficient.", "Efficiency can improve if the identified bottleneck is reduced."],
+      ["More machines will help.", "Additional equipment is suitable only if capacity is the real constraint."],
+      ["The business wastes time.", "The paragraph should identify which task creates wasted time and how it affects output."]
+    ]
+  },
+  {
+    title: "weak customer service writing",
+    risk: "service praise without retention logic",
+    items: [
+      ["Good service is important.", "Service quality matters when it affects repeat purchase and complaints."],
+      ["Customers want fast replies.", "Response time should be linked to complaint resolution and customer trust."],
+      ["The business should be friendly.", "Staff communication may improve satisfaction if complaints show confusion or frustration."],
+      ["Bad reviews are bad.", "Negative reviews can reduce trust and make new-customer acquisition harder."],
+      ["The customer is always right.", "Service recovery should balance customer satisfaction with cost and policy limits."]
+    ]
+  },
+  {
+    title: "AI and authorship risk",
+    risk: "language that no longer sounds learner-owned",
+    items: [
+      ["AI wrote this paragraph for clarity.", "AI may be used to check structure, but the learner must rewrite and own the argument."],
+      ["The wording sounds professional.", "The learner must still be able to explain each claim, source and recommendation."],
+      ["I used AI for the final answer.", "AI use should follow the centre's policy and be recorded in the support log."],
+      ["The source looks real.", "Every source must be traceable and checked before use."],
+      ["The paragraph is better now.", "Improvement is safe only if the learner's own reasoning remains visible."]
+    ]
+  },
+  {
+    title: "source misuse",
+    risk: "evidence dropped in without explanation",
+    items: [
+      ["According to a website, marketing is useful.", "Use the source to support a specific claim about the selected business."],
+      ["This statistic proves the method works.", "Explain what the statistic can and cannot prove."],
+      ["The source says customers like it.", "Identify which customers, which context and why it matters."],
+      ["I found a quote.", "A quote needs interpretation, not decoration."],
+      ["The evidence is enough.", "Evidence is enough only if it matches the task object and paragraph claim."]
+    ]
+  },
+  {
+    title: "false evaluation",
+    risk: "advantages/disadvantages lists without judgement",
+    items: [
+      ["There are advantages and disadvantages.", "The main trade-off is between cost and speed."],
+      ["However, there are problems.", "The limitation matters because it may reduce suitability for this business."],
+      ["Both options are good.", "Option A is more suitable if the business prioritises cost control."],
+      ["It depends.", "It depends on budget, staff capacity and target-customer response."],
+      ["This is a balanced answer.", "A balanced answer still needs a final justified judgement."]
+    ]
+  },
+  {
+    title: "final submission risk",
+    risk: "unchecked file, missing brief alignment and unsupported claims",
+    items: [
+      ["The assignment is finished.", "The final draft should be checked against the brief, evidence and file requirements."],
+      ["The file is uploaded.", "Check file name, version, unit, task number and submission format."],
+      ["The writing sounds good.", "Check whether each paragraph answers the command word."],
+      ["References are included.", "Check whether each reference is used honestly and explained."],
+      ["The tutor checked it.", "Tutor feedback supports revision but does not replace learner ownership."]
+    ]
+  }
+];
+
 const templateScenarios = [
   "a small cafe choosing a low-cost promotional method",
   "a local retailer reviewing weekend sales",
@@ -192,9 +376,9 @@ append.push(`
 
 ---
 
-# Part II. Mini Stickers, Tiny Booklets and Academic Writing Templates
+# Part II. Subject Stickers
 
-This expanded review section turns the manuscript into a working companion rather than a plain reading document. The pages below are designed as reusable classroom, tutoring and self-study inserts.
+These subject stickers are quick-reference cards. They connect common BTEC Business topic areas to the same output discipline: task, evidence, application, judgement and integrity.
 
 <div class="micro-sticker"><strong>Positioning sticker</strong><p>This toolkit is a bilingual output system. The learner reads the brief, maps the evidence, selects the academic function and writes with visible responsibility.</p><p>這本書的核心是穩定輸出：讀題、證據、語言、判斷、合規。</p></div>
 `);
@@ -224,17 +408,26 @@ append.push(`
 
 # Part III. Academic Writing Phrasebook
 
-The phrasebook is organised by academic function. Learners should choose a function first, then adapt the sentence to the assignment brief and business evidence.
+The phrasebook is organised as one master set plus topic riders. Learners should choose the academic function first, then adapt the phrase to the actual assignment brief and evidence.
+
+<div class="micro-sticker"><strong>Phrasebook boundary</strong><p>Phrases are practice scaffolds. They should be rewritten in the learner's own voice before submission and must be connected to real brief evidence.</p><p>套語只用於練習 academic function。提交前必須改成學生自己的語氣，並接上真實 evidence。</p></div>
 `);
 
-for (let block = 0; block < 14; block++) {
-  const [theme, context, cn] = phraseCycleThemes[block];
-  append.push(`\n\n## Phrasebook Cycle ${block + 1}. ${theme}\n\nFocus: ${context}. ${cn}\n`);
-  for (const [fn, phrase, note] of phraseFunctions) {
-    append.push(`
-<div class="phrase-card"><strong>${fn}</strong><p>${phrase}</p><p>${note}</p><p>Practice line for ${theme.toLowerCase()}: In this case, the learner can explain __________________ by using evidence about ${context}.</p></div>
+append.push(`\n\n## Master phrasebook by academic function\n`);
+for (const [fn, phrase, note] of phraseFunctions) {
+  append.push(`
+<div class="phrase-card"><strong>${fn}</strong><p>${phrase}</p><p>${note}</p><p>Adaptation rule: replace every blank with the learner's own brief, business context and evidence.</p></div>
 `);
-  }
+}
+
+for (let block = 0; block < topicRiders.length; block++) {
+  const [theme, phrase, evidence] = topicRiders[block];
+  append.push(`
+
+## Topic rider ${block + 1}. ${theme}
+
+<div class="phrase-card"><strong>Topic-specific application</strong><p>${phrase}</p><p>Evidence route: ${evidence}.</p><p>Practice line: In this ${theme.toLowerCase()} task, the most relevant evidence is __________________ because __________________.</p></div>
+`);
 }
 
 append.push(`
@@ -247,11 +440,12 @@ This small booklet records expressions that usually weaken assignment writing. I
 `);
 
 for (let cycle = 0; cycle < 12; cycle++) {
-  const [theme, risk, cn] = avoidCycleThemes[cycle];
-  append.push(`\n\n## Avoidance Set ${cycle + 1}. ${theme}\n\nRisk focus: ${risk}. ${cn}\n`);
-  for (const [weak, stronger, note] of avoidItems) {
+  const set = avoidanceSets[cycle];
+  const themeCn = avoidCycleThemes[cycle][2];
+  append.push(`\n\n## Avoidance Set ${cycle + 1}. ${set.title}\n\nRisk focus: ${set.risk}. ${themeCn}\n`);
+  for (const [weak, stronger] of set.items) {
     append.push(`
-<div class="avoid-card"><strong>避諱：${weak}</strong><p>Use instead: ${stronger}</p><p>${note}</p><p>Rewrite practice for ${theme}: ________________________________</p></div>
+<div class="avoid-card"><strong>避諱：${weak}</strong><p>Use instead: ${stronger}</p><p>Rewrite practice for ${set.title}: ________________________________</p></div>
 `);
   }
 }
@@ -262,7 +456,7 @@ append.push(`
 
 # Part V. Mini Templates
 
-The following templates are small, repeatable writing tools. They should be completed with the learner's own assignment brief, evidence and business case.
+The following templates are small, repeatable writing tools. These templates are practice scaffolds, not submission-ready answers. Replace every field with the learner's own brief, evidence and business case.
 `);
 
 const templates = [
@@ -276,7 +470,7 @@ const templates = [
 
 for (let cycle = 0; cycle < 20; cycle++) {
   const scenario = templateScenarios[cycle];
-  append.push(`\n\n## Template Pack ${cycle + 1}. ${scenario}\n\nUse these templates with this sample context: ${scenario}. Replace the scenario with the learner's actual brief before writing.\n`);
+  append.push(`\n\n## Template Pack ${cycle + 1}. ${scenario}\n\nUse these templates with this sample context: ${scenario}. These templates are practice scaffolds, not submission-ready answers. Replace every field with the learner's own brief and evidence before writing.\n`);
   for (const [name, fields] of templates) {
     append.push(`
 <div class="mini-template"><strong>${name}</strong><table><tbody><tr><td>Context:</td><td>${scenario}</td></tr>${fields.map((f) => `<tr><td>${f}</td><td></td></tr>`).join("")}</tbody></table></div>
@@ -290,15 +484,16 @@ append.push(`
 
 # Part VI. Tiny Review Booklets
 
-These pages are designed as detachable review booklets for tutors or learners. Each booklet repeats the same discipline: task, evidence, writing function, boundary and revision action.
+These twenty compact review cards are designed for tutors or learners. Each card has a distinct review function. They are intended to be used after drafting one paragraph, not as filler pages.
 `);
 
-for (let i = 1; i <= 60; i++) {
+for (let i = 1; i <= 20; i++) {
   const [focus, question, action] = bookletFocuses[(i - 1) % bookletFocuses.length];
   const scenario = templateScenarios[(i - 1) % templateScenarios.length];
   const subject = subjects[(i - 1) % subjects.length][0];
-  const avoidA = avoidItems[(i - 1) % avoidItems.length];
-  const avoidB = avoidItems[i % avoidItems.length];
+  const set = avoidanceSets[(i - 1) % avoidanceSets.length];
+  const avoidA = set.items[0];
+  const avoidB = set.items[1];
   const levelMove = ["completion", "application", "analysis", "evaluation", "final audit"][(i - 1) % 5];
   const evidenceMove = ["brief evidence", "case evidence", "customer evidence", "financial evidence", "teacher feedback", "source log"][(i - 1) % 6];
   append.push(`
@@ -309,10 +504,10 @@ for (let i = 1; i <= 60; i++) {
 
 <div class="two-mini">
 <div class="mini-template"><strong>Paragraph audit</strong><ul><li>Claim: what does this paragraph actually say?</li><li>Application: which sentence connects it to ${scenario}?</li><li>Evidence: which ${evidenceMove} supports the claim?</li><li>Depth: is the paragraph at ${levelMove} level?</li><li>Revision: what one sentence should be changed first?</li></ul></div>
-<div class="avoid-card"><strong>避諱 checklist</strong><ul><li>Weak line to avoid: ${avoidA[0]}</li><li>Repair route: ${avoidA[1]}</li><li>Second risk: ${avoidB[0]}</li><li>No invented numbers, fake survey data or copied model paragraph.</li><li>Final test: can the learner explain the paragraph aloud?</li></ul></div>
+<div class="avoid-card"><strong>避諱 checklist: ${set.title}</strong><ul><li>Weak line to avoid: ${avoidA[0]}</li><li>Repair route: ${avoidA[1]}</li><li>Second risk: ${avoidB[0]}</li><li>No invented numbers, fake survey data or copied model paragraph.</li><li>Final test: can the learner explain the paragraph aloud?</li></ul></div>
 </div>
 `);
 }
 
-fs.writeFileSync(out, md + append.join("\n"), "utf8");
+fs.writeFileSync(out, [md, append.join("\n"), "\n\n---\n\n", appendices].join("\n"), "utf8");
 console.log(out);
