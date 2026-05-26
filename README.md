@@ -27,6 +27,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /belt/
 - /resources/
 - /australia-business-landing/
+- /ai-business-studio/
 - /consultation-chat/
 - /insights/
 - /zh/insights/example-article/

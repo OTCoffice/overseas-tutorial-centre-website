@@ -1816,6 +1816,251 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "australia-vet-tafe-aqf-cost-duration-xian-landing-guide-2026",
+    title: "Australia VET / TAFE Explained: AQF Level, Study Length, Fees and a Xi'an Landing Plan",
+    date: "2026-05-26",
+    category: "Australia VET",
+    column: "study",
+    kicker: "Australia · VET / TAFE · China landing",
+    author: "留學導報編輯部",
+    summary: "A practical note for Chinese families and partners asking what Australian VET / TAFE maps to, how long it normally takes, what the fee structure looks like, and what can safely be launched first in Xi'an without over-claiming Australian qualification delivery.",
+    titleZh: "澳洲 VET / TAFE 職業教育怎麼對標：學歷層級、學制、費用與西安落地路線",
+    summaryZh: "有人問：VET / TAFE 到底對標哪一級學歷？學制多久？學費和相關費用怎麼算？如果想先在西安落地，哪些能做、哪些不能亂承諾？本文把 AQF 層級、常見學制、費用構成、官方查詢入口與本地落地方式一次說清楚。",
+    relatedReadings: [
+      "australia-new-zealand-provider-pathway-updates-2026",
+      "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["Australian Qualifications Framework levels", "https://www.aqf.edu.au/framework/aqf-levels"],
+      ["AQF qualification types", "https://www.aqf.edu.au/framework/aqf-qualifications"],
+      ["Study Australia living and education costs", "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs"],
+      ["CRICOS official course register", "https://cricos.education.gov.au/"],
+      ["training.gov.au National VET Register", "https://training.gov.au/"],
+      ["ASQA: what is an RTO", "https://www.asqa.gov.au/rtos/what-is-an-rto"],
+      ["TAFE Queensland international price list", "https://tafeqld.edu.au/international/courses/international-pricelist"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-26。本文依據 AQF、Study Australia、CRICOS、training.gov.au、ASQA 及 TAFE Queensland 公開頁面整理。",
+      "各州 TAFE 與私立 RTO 課程費用、材料費、校區與開課時間會變動；正式報價應以 provider letter of offer / course page 為準。"
+    ],
+    sidebarCards: [
+      ["Certificate III", "AQF Level 3", "常見入門 / 技能型職業證書", "基礎技能"],
+      ["Certificate IV", "AQF Level 4", "更專門的技能或升讀 Diploma 前置", "技能進階"],
+      ["Diploma", "AQF Level 5", "常見 VET 主力層級，可銜接部分本科", "高職 / 副學士感"],
+      ["Advanced Diploma", "AQF Level 6", "更高技能 / paraprofessional 層級", "高階技術"]
+    ],
+    body: [
+      {
+        heading: "1) What level is VET / TAFE?",
+        paragraphs: [
+          "In Australia, VET and TAFE qualifications sit inside the Australian Qualifications Framework (AQF). The usual ladder is Certificate I to IV, Diploma, and Advanced Diploma.",
+          "The practical answer for Chinese partners is: Certificate III is AQF level 3, Certificate IV is AQF level 4, Diploma is AQF level 5, and Advanced Diploma is AQF level 6. This is not the same as a Chinese degree equivalence statement; it is the Australian qualification framework level."
+        ]
+      },
+      {
+        heading: "2) How long does it usually take?",
+        paragraphs: [
+          "Duration depends on course design, delivery mode, student background and whether the student studies full-time. Many Certificate III / IV programmes are roughly one semester to one year; many Diploma programmes are one to two years; Advanced Diploma programmes often take about one and a half to two years.",
+          "The safe public answer is to quote the exact provider course page or CRICOS record, because visa-linked international courses must match the registered duration and delivery conditions."
+        ]
+      },
+      {
+        heading: "3) Fees and related costs",
+        paragraphs: [
+          "Tuition varies widely by provider, state, field and whether the student is domestic, international or subsidised. International VET fees are normally listed by the provider, and Study Australia directs students to search official course listings and provider pages for current fees.",
+          "In addition to tuition, families should budget for application or enrolment fees, material and equipment costs, uniforms or tool kits, work placement requirements, insurance, visa-related costs, OSHC where relevant, English testing, travel and living costs."
+        ]
+      },
+      {
+        heading: "4) What can be launched first in Xi'an?",
+        paragraphs: [
+          "A Xi'an launch should begin as an information, pathway and preparation centre, not as an unauthorised Australian qualification delivery site. The first stage can include AQF/VET briefings, occupation route mapping, English and document preparation, portfolio or skills evidence workshops, and partner-provider information sessions.",
+          "If an Australian qualification is to be delivered or advertised, the provider and course must be checked through training.gov.au, CRICOS where international student visa study is involved, and the relevant RTO scope. OTC should not claim to issue Australian AQF qualifications unless the delivery and certification arrangement is formally authorised."
+        ]
+      },
+      {
+        heading: "5) The night-call answer",
+        paragraphs: [
+          "For a partner who says they are busy during the day and wants to understand the model properly at night, the useful answer is simple: this is not a vague 'vocational course' brand. It is a regulated Australian qualification ladder with specific levels, providers, course durations and costs.",
+          "The Xi'an opportunity is to explain it clearly, screen student fit, prepare evidence and build a compliant partner route before promising enrolment, visa or qualification outcomes."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、VET / TAFE 到底對標哪一級學歷",
+        paragraphs: [
+          "澳洲 VET（Vocational Education and Training）和 TAFE（Technical and Further Education）不是一個單一學位，而是一套職業教育資格路線，放在 Australian Qualifications Framework（AQF）裡。AQF 是澳洲官方的資格框架，從 Level 1 到 Level 10。",
+          "最常見的職業教育層級可以這樣說：Certificate III 是 AQF Level 3；Certificate IV 是 AQF Level 4；Diploma 是 AQF Level 5；Advanced Diploma 是 AQF Level 6。這是澳洲框架內的層級，不等於直接給中國學歷等同認定，也不能簡單說成「大專 / 本科」完全對等。"
+        ]
+      },
+      {
+        heading: "二、用中國家長能聽懂的方式怎麼解釋",
+        paragraphs: [
+          "如果面向家長或西安本地合作方，可以把 VET / TAFE 解釋為：澳洲官方監管的職業教育與技能資格體系，重點不是學術研究，而是面向就業、技能、實訓、職業路線和後續升學銜接。",
+          "Certificate III / IV 更像技能證書和職業入門 / 進階資格；Diploma 是 VET 的主力層級之一，常被學生用作就業技能、轉專業、升學銜接或 pathway；Advanced Diploma 則更高一級，偏高階技術或 paraprofessional 能力。"
+        ]
+      },
+      {
+        heading: "三、學制一般多長",
+        paragraphs: [
+          "學制沒有一個固定答案，要看專業、校區、開課方式、學生背景和是否 full-time。一般口徑可以這樣講：Certificate III / IV 常見為半年到一年左右；Diploma 常見為一年到兩年；Advanced Diploma 常見為一年半到兩年左右。",
+          "但對外招生和正式諮詢不能只講大概。涉及國際學生、學生簽證或澳洲境內學習時，要查 provider course page 和 CRICOS record，因為 CRICOS 會列出給國際學生的正式課程註冊信息。CRICOS 官方入口是：https://cricos.education.gov.au/。"
+        ]
+      },
+      {
+        heading: "四、學費和相關費用怎麼算",
+        paragraphs: [
+          "VET / TAFE 學費差異很大，取決於州、provider、專業、校區、是否國際學生、是否有政府補貼。不能用一個固定數字概括所有課程。Study Australia 的官方費用頁提醒學生要查具體課程和 provider 的當前費用：https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs。",
+          "實務上要把費用拆成幾類：學費 tuition；申請 / enrolment / administration fee；材料費、工具包、制服、耗材；實習或 work placement 可能產生的要求；英語考試費；簽證相關費用；保險與 OSHC（如適用）；住宿、交通和生活費。",
+          "例如 TAFE Queensland 的 international price list 會按課程列出國際學生費用，並提示材料費和一次性申請費可能另算：https://tafeqld.edu.au/international/courses/international-pricelist。這類頁面適合做正式報價前的核查入口。"
+        ]
+      },
+      {
+        heading: "五、西安先落地，可以做什麼",
+        paragraphs: [
+          "西安第一步不應該直接說「我們在本地開澳洲 TAFE 學歷班」。合規做法是先做信息、測評和準備中心：VET / TAFE 說明會、AQF 層級講解、職業方向測評、英文和材料準備、作品 / 技能證據整理、RPL 概念解釋、澳洲 provider / RTO 路線介紹。",
+          "如果將來要宣傳或交付澳洲 AQF qualification，必須核對 training.gov.au 上的 RTO 與 scope of registration，也要核查是否涉及 CRICOS、境外交付授權、合作協議和證書簽發責任。ASQA 對 RTO 的說明很清楚：只有註冊 RTO 且該課程在其 scope 內，才可以 advertise, offer and deliver VET。"
+        ]
+      },
+      {
+        heading: "六、對合作方的夜間答覆，可以這樣說",
+        paragraphs: [
+          "可以先回覆對方：VET / TAFE 不是單一級別，而是澳洲 AQF 裡的職業教育階梯。常見從 Certificate III / IV 到 Diploma / Advanced Diploma，對應 AQF Level 3-6。學制多數在半年至兩年之間，但正式口徑要以具體 provider 和 CRICOS / course page 為準。",
+          "費用也不是一個數字，要分學費、材料費、申請費、保險、簽證、英文測試和生活費。西安落地可以先做介紹、測評、材料準備和 pathway counselling；真正澳洲資格交付和證書簽發，必須等 provider、RTO scope、CRICOS / 合作授權全部核清楚後再對外承諾。"
+        ]
+      },
+      {
+        heading: "七、OTC 可以先做的三件事",
+        paragraphs: [
+          "第一，做一頁中文 VET / TAFE 路線圖：AQF Level 3-6、常見專業、學制、費用構成、升學與就業用途。第二，做西安本地說明會和初篩表：學生年齡、英文、學歷、職業方向、家庭預算、是否考慮澳洲境內學習。第三，建立 provider 核查表：training.gov.au、CRICOS、課程頁、費用頁、材料費、placement 要求、英文要求和開課時間。",
+          "這樣落地比較穩：先做教育信息與合規篩選，再做合作方對接；先講清楚框架，再談招生；先查官方註冊，再談資格和證書。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "uk-chinese-local-business-website-refresh-market-report-2026",
+    title: "UK Chinese Local Business Website Refresh Report: Why Older Shops Need a Faster Digital Front Door",
+    date: "2026-05-25",
+    category: "AI Business Studio",
+    column: "business",
+    kicker: "華人商家 · 網站煥新 · AI Studio",
+    author: "留學導報編輯部",
+    summary: "A practical market note on the digital gap among UK Chinese and Asian local businesses: many shops are still relying on scattered Facebook pages, PDF menus, old websites, delivery-platform listings and incomplete Google profiles. OTC AI Business Studio is launched as a preview-first workflow for business owners who want to see a redesigned online front door before deciding what to pay for.",
+    titleZh: "英國華人老商家網站煥新調查：一萬至兩萬家本地店鋪可能需要重新整理網上門面",
+    summaryZh: "英國華人本地商家並不缺手藝、客源和口碑，真正缺的常常是一個讓客人快速看懂、快速聯絡、快速下單的網上門面。根據官方人口背景、華人公司量級、外賣店目錄與 OTC 初步觀察，英國至少有一批以萬計的華人及亞洲本地店鋪存在網站老舊、資料分散、缺少雙語內容或 Google 展示不足的問題。OTC AI Business Studio 因此推出「先生成預覽、滿意後付費」的商家煥新流程。",
+    relatedReadings: [
+      "business-marketing-media-course-fit-portfolio-evidence-pack",
+      "otc-free-study-abroad-application-agent-service",
+      "overseas-chinese-media-interview-guide"
+    ],
+    resources: [
+      ["ONS Census 2021 ethnic group data", "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/population-of-england-and-wales/latest/"],
+      ["Grant Thornton Tou Ying Tracker 2024", "https://www.grantthornton.co.uk/insights/tou-ying-tracker-2024-chinese-investments-in-the-uk-remain-robust/"],
+      ["PoIData Chinese takeaway directory report", "https://www.poidata.io/report/chinese-takeaway/united-kingdom"],
+      ["Lloyds Bank Consumer Digital Index 2024", "https://www.lloydsbankinggroup.com/media/consumer-digital-index.html"],
+      ["OTC AI Business Studio", "https://overseasuk.com/ai-business-studio/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-25。本文使用 ONS Census 2021、Grant Thornton Tou Ying Tracker 2024、PoIData 商業目錄與 Lloyds Bank Consumer Digital Index 相關公開資料。",
+      "本文中的一萬至兩萬家為服務市場估算，不是政府官方統計。估算目的在於判斷產品需求和服務優先級，不用作投資承諾或收益保證。"
+    ],
+    sidebarCards: [
+      ["老店外賣", "Takeaway", "菜單、地址、Google 評論與 WhatsApp 入口最容易缺位。", "高優先"],
+      ["華人超市", "Supermarket", "商品目錄、到店自取、批發詢價與節日促銷需要整理。", "高潛力"],
+      ["美容美甲", "Beauty", "作品圖、價目表、預約方式與評價展示直接影響轉化。", "看圖決策"],
+      ["維修搬家", "Local Services", "服務範圍、緊急聯絡、案例與可信度需要更清楚。", "信任入口"]
+    ],
+    costBars: [
+      ["保守急需改造", "8,000-12,000 家", 58],
+      ["可服務市場", "10,000-20,000+ 家", 78],
+      ["外賣店量級", "約 13,561 家目錄記錄", 64]
+    ],
+    body: [
+      {
+        heading: "1) What the public data can and cannot tell us",
+        paragraphs: [
+          "There is no official UK dataset that directly counts 'older Chinese businesses with outdated websites'. The sensible approach is to triangulate: Chinese community size, Chinese-owned company counts, visible local-business categories, directory records and the observable condition of public online profiles.",
+          "ONS Census 2021 data records 445,646 people identifying as Chinese in England and Wales. Grant Thornton's Tou Ying Tracker 2024 also recognises the wider contribution of over 30,000 Chinese-owned companies in the UK. These figures do not equal local shops one-for-one, but they show a large, established commercial and community base."
+        ]
+      },
+      {
+        heading: "2) A conservative market estimate",
+        paragraphs: [
+          "Commercial directory data indicates 13,561 Chinese takeaways across the United Kingdom. When adjacent categories are included, such as Chinese supermarkets, Asian grocery stores, bubble tea shops, beauty clinics, nail salons, travel agencies, tutoring centres, accountants, repair services, cleaning, moving and local trade services, the practical addressable group becomes much larger than restaurants alone.",
+          "For a cautious planning estimate, OTC treats 8,000-12,000 businesses as the urgent-refresh segment and 10,000-20,000+ as the broader serviceable market for website, Google profile, content and monthly maintenance support. This is a working service estimate, not an official government statistic."
+        ]
+      },
+      {
+        heading: "3) What 'outdated' usually looks like",
+        paragraphs: [
+          "The problem is rarely that the business is bad. The problem is that the digital front door is unclear: an old site that does not open properly on mobile, a menu hidden inside a photo album, prices scattered across Facebook posts, no clear WhatsApp button, missing opening hours, incomplete Google Business information, or only English content where Chinese-speaking customers need reassurance.",
+          "For older local shops, the issue is time. Owners are busy operating the shop, answering calls, managing staff, buying stock and serving customers. A website redesign becomes another chore, so the online presence freezes even while the business itself keeps changing."
+        ]
+      },
+      {
+        heading: "4) OTC AI Business Studio launch",
+        paragraphs: [
+          "OTC AI Business Studio is designed around one simple promise: first create a useful preview, then discuss price and scope. The workflow collects public business information, drafts a refreshed bilingual web presence, adds clearer images and service blocks, and prepares a client-facing preview before any full project begins.",
+          "This is not a complex ordering system at the first step. It is a practical way to show the owner what the shop could look like online, then convert that preview into a website, Google review support, monthly updates, ordering links or maintenance tasks only when the owner is satisfied."
+        ]
+      },
+      {
+        heading: "5) Why this matters for Chinese local business owners",
+        paragraphs: [
+          "Customers now search before they walk in. If Google, Facebook and the website do not answer the basic questions in ten seconds, the customer may choose another shop that looks clearer, even if the first shop has better food, better service or better prices.",
+          "A small business does not need a flashy corporate site. It needs a trustworthy digital front door: name, photos, menu or service list, location, opening hours, WhatsApp or phone, reviews, delivery or booking information, and bilingual wording that feels local and real."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先說清楚：這不是官方精確統計，而是服務市場估算",
+        paragraphs: [
+          "英國目前沒有一個政府資料庫會直接告訴我們：「有多少華人老商家的網站已經落後、急需裝修」。所以這份調查不能假裝有一個神奇的官方答案。比較負責任的方法，是把幾類公開資料放在一起看：華人人口、華人／中國背景公司量級、外賣與本地服務目錄、Google / Facebook / 網站可見狀態，以及 OTC 對本地華人商家線索的初步觀察。",
+          "ONS 2021 年人口普查顯示，英格蘭與威爾斯登記為 Chinese ethnic group 的人口為 445,646 人。Grant Thornton 2024 年 Tou Ying Tracker 亦提到，英國有超過 30,000 家華人／中國背景公司為經濟作出貢獻。這些數字不等於每一家都是街邊店，但它們說明：英國華人商業基礎已經足夠大，足以支撐一個專門服務華人本地商家的數位化工具。"
+        ]
+      },
+      {
+        heading: "二、保守估算：急需煥新的老華商，至少是以萬計",
+        paragraphs: [
+          "單看餐飲外賣，商業目錄 PoIData 2025 年資料顯示英國有 13,561 家 Chinese takeaway 記錄。這還沒有包括華人超市、亞洲雜貨、奶茶店、美容美甲、中醫理療、會計、補習中心、旅行社、房產中介、物流快遞、修水電、搬家清潔、裝修維修等大量本地服務商家。",
+          "因此，OTC 以較保守方式估算：英國華人及亞洲本地商家中，急需處理「網站太舊、資料分散、Google 展示不足、沒有清楚聯絡入口」的商家，大約可先抓 8,000 至 12,000 家；若把輕度改造、月度維護、Google 評論管理、社交媒體更新也納入，可服務市場可達 10,000 至 20,000 家以上。這是一個服務開發估算，不是政府官方統計。"
+        ]
+      },
+      {
+        heading: "三、真正的痛點不是商家不好，而是網上門面太亂",
+        paragraphs: [
+          "很多華人老商家不是沒有實力。飯菜好吃、老客穩定、手藝扎實、街坊熟悉，問題是新客在網上看不懂：網站打不開或手機顯示很差，菜單只是 Facebook 相簿裡的一張照片，價格與營業時間散落在舊貼文，Google 上沒有清楚圖片，WhatsApp / 電話入口不明顯，中文和英文內容也沒有整理好。",
+          "對忙碌店主來說，重做網站總像一件很麻煩的事。每天要進貨、接電話、處理員工、服務客人、更新價格、應付節假日時間，網站自然一直拖。結果就是：店在現實中還活著，網上看起來卻像停在很多年前。"
+        ]
+      },
+      {
+        heading: "四、OTC AI Business Studio：先生成預覽，滿意後再付費",
+        paragraphs: [
+          "OTC AI Business Studio 推出的不是一開始就很重的訂貨系統，而是更務實的一步：一鍵提交商家資料，AI Studio 先抓取公開資訊，整理 Google / Facebook / 網站線索，生成一個「改造後網上門面」預覽，再由人工檢查語氣、圖片、服務範圍與價格表達。",
+          "店主可以先看到效果：店面圖片怎樣呈現，菜單或服務價目怎樣排，WhatsApp 入口放在哪裡，Google 評論怎樣展示，中文和英文怎樣同時讓人看懂。滿意後，再決定是否付費建站、加訂貨表、加產品目錄、做 Google 評論管理或月度維護。核心原則是：先看得見，再談價格。"
+        ]
+      },
+      {
+        heading: "五、這個 App 的工作流：抓單、換圖、議價、出單",
+        paragraphs: [
+          "OTC 的下一步，是把這套流程做成可操作的 AI Studio 系統：一鍵提交商家名稱或 Google / Facebook 連結；系統自動抓取公開商家資訊；生成改版後網站預覽；後台形成 lead record；人工確認後發送給店主；店主回覆後進入議價、範圍確認和出單跟進。",
+          "這種做法適合華人老商家，因為它不要求店主先懂技術，也不要求店主先花大錢。店主只需要看到：原本混亂的網上資料，可以變成一個清楚、可信、可聯絡、可持續更新的網上門面。"
+        ]
+      },
+      {
+        heading: "六、發布目的：讓華人商家的好生意更容易被找到",
+        paragraphs: [
+          "《留學導報》發布這份調查，不只是為了談網站，而是為了指出一個很現實的商業機會：華人本地商家長期服務社區，但很多店沒有得到同等水準的網上展示。當顧客已經習慣先 Google、先看評分、先看圖片、先找 WhatsApp，老商家的第一印象不能繼續停留在舊網站和零散社交媒體裡。",
+          "OTC AI Business Studio 現已作為試行工具推出。商家或介紹人可打開 <a href=\"/ai-business-studio/\">OTC AI Business Studio</a> 提交線索，或直接聯絡 WeChat: overseasus、WhatsApp: +44 7947 991572、Email: office@overseasuk.com。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "new-zealand-aewv-skill-level-3-english-requirement-2026",
     title: "New Zealand AEWV Update: English Requirement Extends to Skill Level 3 Roles from 1 June 2026",
     date: "2026-05-25",
@@ -15681,6 +15926,7 @@ write("lms-review", lmsReview);
 write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
 
 [
+  "/ai-business-studio/",
   "/apps/nclex-rn-bilingual-demo/",
   "/apps/nclex-rn-bilingual-trainer/"
 ].forEach((publicPath) => generatedRoutes.push(publicPath));
@@ -15789,6 +16035,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /belt/
 - /resources/
 - /australia-business-landing/
+- /ai-business-studio/
 - /consultation-chat/
 - /insights/
 - /zh/insights/example-article/
