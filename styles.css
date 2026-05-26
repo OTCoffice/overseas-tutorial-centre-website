@@ -8309,6 +8309,67 @@ h1 {
   background: #f8f2e8;
 }
 
+.zh-side-window {
+  background: #fffdf7;
+}
+
+.zh-side-summary {
+  background: #f3ebdc;
+  border-left: 4px solid #1e6b6b;
+  display: grid;
+  gap: 6px;
+  padding: 13px 14px;
+}
+
+.zh-side-summary strong {
+  color: #1a1410;
+  font-family: var(--font-zh-editorial);
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.zh-side-summary span {
+  color: #5f5143;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.zh-sidebar-info-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.zh-sidebar-info-table th,
+.zh-sidebar-info-table td {
+  border-bottom: 1px solid #eadfce;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 9px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.zh-sidebar-info-table th {
+  color: #b5272d;
+  font-weight: 900;
+  padding-right: 10px;
+  white-space: nowrap;
+  width: 78px;
+}
+
+.zh-sidebar-info-table td {
+  color: #3f352c;
+}
+
+.zh-sidebar-info-table tr:last-child th,
+.zh-sidebar-info-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.zh-sidebar-info-table.boundary th {
+  color: #1e6b6b;
+}
+
 .evidence-report-page blockquote {
   background: #f7f2ea;
   border-left: 4px solid var(--gold);

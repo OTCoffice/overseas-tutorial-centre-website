@@ -1823,9 +1823,9 @@ const insightsArticles = [
     column: "study",
     kicker: "Australia · VET / TAFE · China landing",
     author: "留學導報編輯部",
-    summary: "A practical note for Chinese families and partners asking what Australian VET / TAFE maps to, how long it normally takes, what the fee structure looks like, and what can safely be launched first in Xi'an without over-claiming Australian qualification delivery.",
+    summary: "A service-oriented briefing for students, families and partners comparing Australian VET / TAFE routes: AQF level mapping, duration checks, fee modelling, provider verification and compliance boundaries for Xi'an-facing advisory work.",
     titleZh: "澳洲 VET / TAFE 職業教育怎麼對標：學歷層級、學制、費用與西安落地路線",
-    summaryZh: "有人問：VET / TAFE 到底對標哪一級學歷？學制多久？學費和相關費用怎麼算？如果想先在西安落地，哪些能做、哪些不能亂承諾？本文把 AQF 層級、常見學制、費用構成、官方查詢入口與本地落地方式一次說清楚。",
+    summaryZh: "面向學生、家庭與合作方的澳洲 VET / TAFE 路線服務說明：以 AQF 層級、CRICOS / provider 核查、費用預算模型、文件準備和合規邊界為核心，建立可執行的西安本地諮詢與宣講工作流。",
     relatedReadings: [
       "australia-new-zealand-provider-pathway-updates-2026",
       "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
@@ -1859,8 +1859,8 @@ const insightsArticles = [
       <section class="zh-herald-visual-brief vet-tafe-visual-brief" aria-label="澳洲 VET / TAFE 層級、宣講對象與 OTC 支持總覽">
         <div class="vet-visual-head">
           <span>一眼看懂</span>
-          <strong>VET / TAFE 不是一個模糊概念，是 AQF Level 3-6 的職業教育階梯。</strong>
-          <p>西安落地先講清楚層級、費用、文件與路線；再組織學校、國際部、職教院校和合作方做宣講。OTC 負責把學術路線、申請文件、移民邊界和澳洲 provider 核查一次打通。</p>
+          <strong>澳洲 VET / TAFE 路線需要按 AQF 層級、provider 資格、CRICOS 信息和費用模型逐項核查。</strong>
+          <p>OTC 的服務流程將路線說明、學生初篩、文件準備、費用估算、合作方宣講和專業轉介邊界放在同一套可追蹤工作表中處理。</p>
         </div>
         <div class="vet-table-stack">
           <div class="report-table-wrap vet-brief-table">
@@ -1903,6 +1903,61 @@ const insightsArticles = [
           </div>
         </div>
       </section>
+    `,
+    zhSidebarSupplement: `
+          <div class="zh-herald-widget zh-side-window">
+            <div class="zh-herald-widget-title">補充信息窗口</div>
+            <div class="zh-side-summary">
+              <strong>VET / TAFE 路線核查</strong>
+              <span>以 AQF、CRICOS、provider fee page 和 written confirmation 為核心依據。</span>
+            </div>
+          </div>
+          <div class="zh-herald-widget zh-side-window">
+            <div class="zh-herald-widget-title">數據快照</div>
+            <table class="zh-sidebar-info-table">
+              <tbody>
+                <tr><th>AQF 範圍</th><td>Level 3-6</td></tr>
+                <tr><th>示例課程</th><td>TAFE Queensland Diploma of Business / Diploma of Leadership and Management</td></tr>
+                <tr><th>示例學費</th><td>AUD 17,200</td></tr>
+                <tr><th>估算匯率</th><td>1 AUD 約 RMB 4.87（2026-05-26）</td></tr>
+                <tr><th>一年預算</th><td>AUD 44,600-51,800，約 RMB 217,000-252,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="zh-herald-widget zh-side-window">
+            <div class="zh-herald-widget-title">提交前必查</div>
+            <table class="zh-sidebar-info-table">
+              <tbody>
+                <tr><th>AQF</th><td>確認資格層級與 qualification type。</td></tr>
+                <tr><th>CRICOS</th><td>確認國際學生課程、校區、duration。</td></tr>
+                <tr><th>training.gov.au</th><td>確認 RTO scope 和 provider 信息。</td></tr>
+                <tr><th>Provider page</th><td>確認 intake、entry requirements、fee page。</td></tr>
+                <tr><th>Written confirmation</th><td>正式合作、授權、銜接或特殊安排須留書面依據。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="zh-herald-widget zh-side-window">
+            <div class="zh-herald-widget-title">OTC 服務輸出</div>
+            <table class="zh-sidebar-info-table">
+              <tbody>
+                <tr><th>學生端</th><td>初篩表、文件清單、英文與學歷背景核對。</td></tr>
+                <tr><th>家庭端</th><td>費用模型、路線比較、風險邊界說明。</td></tr>
+                <tr><th>合作方</th><td>宣講簡報、標準口徑、case log。</td></tr>
+                <tr><th>Provider</th><td>課程詢問函、資料索取清單、核查記錄。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="zh-herald-widget zh-side-window">
+            <div class="zh-herald-widget-title">不可直接承諾</div>
+            <table class="zh-sidebar-info-table boundary">
+              <tbody>
+                <tr><th>錄取</th><td>由 provider / admissions 決定。</td></tr>
+                <tr><th>簽證</th><td>需按官方規則或合資格移民顧問意見處理。</td></tr>
+                <tr><th>職業註冊</th><td>由相關註冊或評估機構判定。</td></tr>
+                <tr><th>資格交付</th><td>需正式 RTO / provider 授權和書面協議。</td></tr>
+              </tbody>
+            </table>
+          </div>
     `,
     body: [
       {
@@ -8300,6 +8355,7 @@ function zhArticleMagazineBody(article) {
           <div class="zh-herald-disclaimer">${article.academic ? `作者：${article.author || "蕭珩"}。${article.publicationCode || "《留學導報》學術文化欄"}。本文為作者授權《留學導報》全文刊登版本，文章著作權歸作者所有；《留學導報》保留本版式、編排、網頁發布與刊載記錄之相關權利。` : "本文由留學導報編輯部編製。留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。"}</div>
         </main>
         ${article.academic ? "" : `<aside class="zh-herald-side">
+          ${article.zhSidebarSupplement || `
           <div class="zh-herald-widget">
             <div class="zh-herald-widget-title">本文速讀</div>
             <div class="zh-herald-trust-card family">
@@ -8363,6 +8419,7 @@ function zhArticleMagazineBody(article) {
               `).join("")}
             </div>
           ` : ""}
+          `}
         </aside>`}
       </div>
       ${zhArticleRoadmap(article, checklist)}
