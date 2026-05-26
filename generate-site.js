@@ -14306,6 +14306,10 @@ function summerSchoolCountryPage(route) {
   const renderProjectExpandedContent = (project) => {
     const brand = projectBrandAssets[project[0]];
     const favicon = brand ? `https://www.google.com/s2/favicons?sz=128&domain=${encodeURIComponent(brand.domain)}` : "";
+    const applyHref = buildSummerSchoolApplyHref(project);
+    const whatsappHref = buildSummerSchoolWhatsAppHref(project);
+    const deadline = inferSummerDeadline(project);
+    const visaSupport = inferSummerVisaSupport(project);
     return `
       <div class="summer-project-feature">
         <div class="summer-project-feature-brand">
@@ -14322,6 +14326,16 @@ function summerSchoolCountryPage(route) {
             <span class="summer-project-chip">${project[2]}</span>
           </div>
           <p>${project[5]}</p>
+          <div class="summer-project-info-grid">
+            <article><strong>Deadline</strong><span>${deadline}</span></article>
+            <article><strong>Visa 支持</strong><span>${visaSupport}</span></article>
+          </div>
+          <div class="summer-project-cta-row">
+            <a class="summer-project-cta primary" href="${applyHref}">透過 OTC 申請</a>
+            ${brand ? `<a class="summer-project-cta" href="${brand.url}" target="_blank" rel="noopener">官方網址</a>` : ""}
+            <a class="summer-project-cta" href="${whatsappHref}" target="_blank" rel="noopener">WhatsApp</a>
+            <span class="summer-project-contact">WeChat: overseasus</span>
+          </div>
         </div>
       </div>
       <table>
@@ -14340,6 +14354,46 @@ function summerSchoolCountryPage(route) {
       </table>
     `;
   };
+
+  function buildSummerSchoolApplyHref(project) {
+    const params = new URLSearchParams({
+      country: route.name,
+      institution: project[3],
+      programme: project[0]
+    });
+    return `/university-applications/?${params.toString()}#otc-apply-form`;
+  }
+
+  function buildSummerSchoolWhatsAppHref(project) {
+    const text = `你好，我想透過 OTC 申請 ${project[0]}。國家：${route.zh}／${route.name}。請協助我做初步審核。`;
+    return `https://wa.me/447947991572?text=${encodeURIComponent(text)}`;
+  }
+
+  function inferSummerDeadline(project) {
+    const [title, time, , , , , , fee, , note] = project;
+    const merged = `${title} ${time} ${fee} ${note}`;
+    if (/完整付款節點顯示至\s*\d{1,2}\s*\w+\s*\d{4}/i.test(merged)) {
+      return (merged.match(/完整付款節點顯示至\s*[^；。]+/i) || ["完整付款節點請以校方頁面為準"])[0];
+    }
+    if (/已開放登記|open for registration|open now/i.test(merged)) {
+      return "2026 已開放／rolling，熱門週次名額滿即止";
+    }
+    if (/Session|每門課 1 週|可連讀|Any Tuesday|多批次|批次/i.test(time)) {
+      return "按週次 / session 滾動收件，熱門位先滿";
+    }
+    if (/待報價|以.*為準|需按最新/i.test(merged)) {
+      return "需先向校方確認最新可報週次與名額";
+    }
+    return "通常採 rolling review，建議先報熱門週次";
+  }
+
+  function inferSummerVisaSupport(project) {
+    const text = `${project[0]} ${project[9]}`;
+    if (/London|Oxford|Cambridge|KCL|UCL|Imperial|UAL/i.test(text)) {
+      return "OTC 協助短期訪英文件清單、家長 consent / 健康表與校方信件核對";
+    }
+    return "OTC 協助短期學習文件、家長 consent、接送與健康材料整理";
+  }
 
   const renderProjectExpandedPanel = (project, index, displayNumber = index + 1) => `
       <article id="summer-project-${route.slug}-${index + 1}" class="summer-project-card summer-project-expanded-card" data-active="true">
@@ -14373,20 +14427,37 @@ function summerSchoolCountryPage(route) {
         const cards = groupEntries
           .map(({ project, index }, groupIndex) => {
             const meta = inferProjectMeta(project);
+            const applyHref = buildSummerSchoolApplyHref(project);
+            const whatsappHref = buildSummerSchoolWhatsAppHref(project);
+            const deadline = inferSummerDeadline(project);
+            const visaSupport = inferSummerVisaSupport(project);
+            const brand = projectBrandAssets[project[0]];
             return `
-            <button type="button" class="summer-hot-course-card" data-project-jump="summer-project-${route.slug}-${index + 1}">
-              <b>${String(groupIndex + 1).padStart(2, "0")}</b>
-              <strong>${project[0]}</strong>
-              <span>${project[3]}</span>
-              <div class="summer-hot-meta-row">
-                <span class="summer-hot-meta-pill">${meta.age}</span>
-                <span class="summer-hot-meta-pill">${meta.city}</span>
-                <span class="summer-hot-meta-pill">${meta.priceBand}</span>
-                <span class="summer-hot-meta-pill">${meta.boarding}</span>
+            <article class="summer-hot-course-card">
+              <button type="button" class="summer-hot-course-card-main" data-project-jump="summer-project-${route.slug}-${index + 1}">
+                <b>${String(groupIndex + 1).padStart(2, "0")}</b>
+                <strong>${project[0]}</strong>
+                <span>${project[3]}</span>
+                <div class="summer-hot-meta-row">
+                  <span class="summer-hot-meta-pill">${meta.age}</span>
+                  <span class="summer-hot-meta-pill">${meta.city}</span>
+                  <span class="summer-hot-meta-pill">${meta.priceBand}</span>
+                  <span class="summer-hot-meta-pill">${meta.boarding}</span>
+                </div>
+                <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
+                <em>${meta.city} · ${meta.age}</em>
+                <div class="summer-hot-info-grid">
+                  <article><strong>Deadline</strong><span>${deadline}</span></article>
+                  <article><strong>Visa 支持</strong><span>${visaSupport}</span></article>
+                </div>
+              </button>
+              <div class="summer-hot-cta-row">
+                <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+                ${brand ? `<a class="summer-hot-cta" href="${brand.url}" target="_blank" rel="noopener">官方網址</a>` : ""}
+                <a class="summer-hot-cta" href="${whatsappHref}" target="_blank" rel="noopener">WhatsApp</a>
+                <span class="summer-hot-wechat">WeChat: overseasus</span>
               </div>
-              <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
-              <em>${meta.city} · ${meta.age}</em>
-            </button>
+            </article>
           `; }).join("");
 
         const details = groupEntries
@@ -14420,20 +14491,37 @@ function summerSchoolCountryPage(route) {
       <div class="summer-hot-course-grid">
         ${route.projects.map((project, index) => {
           const meta = inferProjectMeta(project);
+          const applyHref = buildSummerSchoolApplyHref(project);
+          const whatsappHref = buildSummerSchoolWhatsAppHref(project);
+          const deadline = inferSummerDeadline(project);
+          const visaSupport = inferSummerVisaSupport(project);
+          const brand = projectBrandAssets[project[0]];
           return `
-          <button type="button" class="summer-hot-course-card" data-project-jump="summer-project-${route.slug}-${index + 1}">
-            <b>${String(index + 1).padStart(2, "0")}</b>
-            <strong>${project[0]}</strong>
-            <span>${project[3]}</span>
-            <div class="summer-hot-meta-row">
-              <span class="summer-hot-meta-pill">${meta.age}</span>
-              <span class="summer-hot-meta-pill">${meta.city}</span>
-              <span class="summer-hot-meta-pill">${meta.priceBand}</span>
-              <span class="summer-hot-meta-pill">${meta.boarding}</span>
+          <article class="summer-hot-course-card">
+            <button type="button" class="summer-hot-course-card-main" data-project-jump="summer-project-${route.slug}-${index + 1}">
+              <b>${String(index + 1).padStart(2, "0")}</b>
+              <strong>${project[0]}</strong>
+              <span>${project[3]}</span>
+              <div class="summer-hot-meta-row">
+                <span class="summer-hot-meta-pill">${meta.age}</span>
+                <span class="summer-hot-meta-pill">${meta.city}</span>
+                <span class="summer-hot-meta-pill">${meta.priceBand}</span>
+                <span class="summer-hot-meta-pill">${meta.boarding}</span>
+              </div>
+              <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
+              <em>${meta.city} · ${meta.age}</em>
+              <div class="summer-hot-info-grid">
+                <article><strong>Deadline</strong><span>${deadline}</span></article>
+                <article><strong>Visa 支持</strong><span>${visaSupport}</span></article>
+              </div>
+            </button>
+            <div class="summer-hot-cta-row">
+              <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+              ${brand ? `<a class="summer-hot-cta" href="${brand.url}" target="_blank" rel="noopener">官方網址</a>` : ""}
+              <a class="summer-hot-cta" href="${whatsappHref}" target="_blank" rel="noopener">WhatsApp</a>
+              <span class="summer-hot-wechat">WeChat: overseasus</span>
             </div>
-            <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
-            <em>${meta.city} · ${meta.age}</em>
-          </button>
+          </article>
         `; }).join("")}
       </div>
     `;
@@ -14569,13 +14657,14 @@ function summerSchoolCountryPage(route) {
               if (!stage) return;
               clearUkStages();
               const button = document.querySelector('[data-project-jump="' + projectId + '"]');
+              const card = button ? button.closest(".summer-hot-course-card") : null;
               const grid = button ? button.closest(".summer-hot-course-grid") : null;
               if (grid && button) {
-                button.insertAdjacentElement("afterend", stage);
+                (card || button).insertAdjacentElement("afterend", stage);
               }
               stage.hidden = false;
               stage.innerHTML = fragment.innerHTML;
-              if (button) button.setAttribute("data-active", "true");
+              if (card) card.setAttribute("data-active", "true");
               activeProjectId = projectId;
               if (shouldUpdateHash) {
                 history.replaceState(null, "", "#" + projectId);
