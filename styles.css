@@ -633,12 +633,38 @@ h1 {
 }
 
 .zh-home-hero .hero-directory {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .zh-home-hero .hero-directory a {
   background: rgba(255, 255, 255, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.52);
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(6, 26, 47, 0.06);
+  min-height: 152px;
+  padding: 18px 18px 16px;
+  align-content: start;
+}
+
+.zh-home-hero .hero-directory a:nth-child(1) {
+  background: #dfe5e2;
+  border-color: #c7d2cd;
+}
+
+.zh-home-hero .hero-directory a:nth-child(2) {
+  background: #e6ddd4;
+  border-color: #d8c9bb;
+}
+
+.zh-home-hero .hero-directory a:nth-child(3) {
+  background: #d8e0e6;
+  border-color: #c1d0da;
+}
+
+.zh-home-hero .hero-directory a:nth-child(4) {
+  background: #e4ddd8;
+  border-color: #d5c7c0;
 }
 
 .zh-learning-ladder {
@@ -1202,7 +1228,7 @@ h1 {
 
 .zh-audience-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   margin: 0 0 18px;
 }
@@ -1243,17 +1269,29 @@ h1 {
 .zh-open-learning-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  border: 1px solid var(--line);
-  background: #fff;
+  border: 1px solid rgba(193, 180, 164, 0.72);
+  background:
+    linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+    repeating-linear-gradient(
+      135deg,
+      rgba(181, 169, 153, 0.12) 0,
+      rgba(181, 169, 153, 0.12) 1px,
+      transparent 1px,
+      transparent 14px
+    );
+  border-radius: 10px;
   box-shadow: 0 16px 40px rgba(6, 26, 47, 0.06);
+  overflow: hidden;
 }
 
 .zh-open-learning-grid article {
   min-height: 230px;
   padding: 20px;
-  border-right: 1px solid var(--line);
+  border-right: 1px solid rgba(193, 180, 164, 0.62);
   display: flex;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(2px);
 }
 
 .zh-open-learning-grid article:last-child {
@@ -2356,6 +2394,67 @@ h1 {
   border: 1px solid var(--line);
   background: #fff;
   box-shadow: 0 8px 28px rgba(6, 26, 47, 0.05);
+}
+
+.course-search-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.course-search-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(6, 26, 47, 0.05);
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  padding: 20px;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+
+.course-search-card:hover {
+  border-color: rgba(184, 138, 59, 0.52);
+  box-shadow: 0 14px 34px rgba(6, 26, 47, 0.08);
+  transform: translateY(-2px);
+}
+
+.course-search-card b {
+  color: var(--gold);
+  display: block;
+  font-size: 11px;
+  font-weight: 760;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.course-search-card strong {
+  color: var(--navy);
+  display: block;
+  font-size: 22px;
+  font-weight: 560;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.course-search-card p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 14px 0 0;
+}
+
+.course-search-card span {
+  border-top: 1px solid #eadfce;
+  color: var(--navy);
+  display: block;
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0.06em;
+  margin-top: auto;
+  padding-top: 14px;
+  text-transform: uppercase;
 }
 
 .course-system-grid article,
@@ -5155,6 +5254,66 @@ h1 {
   font-size: 13px;
   line-height: 1.45;
   margin: 8px 0 0;
+}
+
+.search-empty-state {
+  grid-column: 1 / -1;
+  border: 1px dashed rgba(11, 33, 56, 0.18);
+  border-radius: 10px;
+  background: #fbf8f2;
+  padding: 18px;
+}
+
+.search-empty-state strong {
+  display: block;
+  color: var(--navy);
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.search-empty-state p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.zh-alliance-duo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 16px;
+}
+
+.zh-alliance-card {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 18px;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(6, 26, 47, 0.05);
+}
+
+.zh-alliance-card b {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.zh-alliance-card strong {
+  color: var(--navy);
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+.zh-alliance-card span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .source-note {
@@ -12980,6 +13139,7 @@ h1 {
     border-left: 3px solid var(--gold);
   }
 
+
   .zh-othm-links a,
   .zh-othm-links a:nth-child(2n),
   .zh-othm-links a:nth-last-child(-n + 2) {
@@ -13039,6 +13199,7 @@ h1 {
   .product-grid,
   .app-summary-strip,
   .app-directory-grid,
+  .course-search-grid,
   .course-system-grid,
   .programme-card-grid,
   .studygroup-route-grid,
@@ -16812,5 +16973,512 @@ html[lang^="zh"] .about-panel li {
 @media (max-width: 860px) {
   .zh-herald-visual-brief {
     padding: 22px 16px 26px;
+  }
+}
+
+.summer-project-list {
+  display: grid;
+  gap: 16px;
+}
+
+.summer-project-list-inline {
+  margin-top: 16px;
+}
+
+.summer-project-detail-stage {
+  grid-column: 1 / -1;
+  margin-top: 16px;
+}
+
+.summer-project-detail-store {
+  display: none;
+}
+
+.summer-project-card {
+  background: #fffdf8;
+  border: 1px solid rgba(20, 40, 68, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(20, 40, 68, 0.06);
+  overflow: hidden;
+}
+
+.summer-project-card summary {
+  align-items: center;
+  cursor: pointer;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  list-style: none;
+  padding: 18px 22px;
+}
+
+.summer-project-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.summer-project-card summary b {
+  align-items: center;
+  background: var(--navy);
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 900;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}
+
+.summer-project-card summary strong {
+  color: var(--navy);
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.summer-project-card summary span {
+  color: #5f6f84;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.summer-project-card[open] summary {
+  background: #fbf7ee;
+  border-bottom: 1px solid rgba(20, 40, 68, 0.12);
+}
+
+.summer-project-card[data-active="true"] {
+  border-color: rgba(20, 40, 68, 0.24);
+  box-shadow: 0 16px 38px rgba(20, 40, 68, 0.11);
+}
+
+.summer-project-card .report-table-wrap {
+  margin: 0;
+  padding: 0 18px 18px;
+}
+
+.summer-project-card-head {
+  align-items: center;
+  background:
+    linear-gradient(135deg, #0d2340 0%, #183a63 100%);
+  border-bottom: 1px solid rgba(181, 146, 82, 0.18);
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 44px minmax(0, 1fr);
+  padding: 18px 22px;
+}
+
+.summer-project-card-head b {
+  align-items: center;
+  background: rgba(255, 248, 239, 0.96);
+  border: 1px solid rgba(181, 146, 82, 0.24);
+  border-radius: 999px;
+  color: #0d2340;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 900;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}
+
+.summer-project-card-head strong {
+  color: #fff8ef;
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.summer-project-card-head span {
+  color: rgba(255, 248, 239, 0.84);
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.summer-project-card table {
+  margin-top: 14px;
+}
+
+.summer-route-grid,
+.summer-hot-course-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summer-hot-category + .summer-hot-category {
+  margin-top: 26px;
+}
+
+.summer-hot-category-head {
+  align-items: flex-start;
+  background: linear-gradient(135deg, #0d2340 0%, #183a63 100%);
+  border: 1px solid rgba(13, 35, 64, 0.18);
+  border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(13, 35, 64, 0.16);
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 54px minmax(0, 1fr);
+  margin-bottom: 16px;
+  padding: 18px 20px;
+}
+
+.summer-hot-category-head b {
+  align-items: center;
+  background: #fff8ef;
+  border-radius: 999px;
+  color: #0d2340;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 900;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: 0.08em;
+  width: 40px;
+}
+
+.summer-hot-category-head strong {
+  color: #ffffff;
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: clamp(30px, 3.4vw, 40px);
+  font-weight: 900;
+  line-height: 1.08;
+  margin-top: 2px;
+}
+
+.summer-hot-category-head p {
+  color: rgba(255, 248, 239, 0.9);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 8px 0 0;
+  max-width: 82ch;
+}
+
+.summer-route-grid article,
+.summer-hot-course-card {
+  background: #fff;
+  border: 1px solid #dcc8ab;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(26, 20, 16, 0.05);
+  padding: 18px;
+}
+
+.summer-route-grid article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summer-route-grid b,
+.summer-hot-course-card b {
+  color: var(--gold);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.summer-route-grid strong,
+.summer-hot-course-card strong {
+  color: var(--navy);
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 8px;
+}
+
+.summer-route-grid p,
+.summer-hot-course-card p {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.58;
+  margin: 0;
+}
+
+.summer-hot-course-card span {
+  color: #6a778a;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.summer-hot-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.summer-hot-meta-pill {
+  background: #faf5e8;
+  border: 1px solid rgba(181, 146, 82, 0.24);
+  border-radius: 999px;
+  color: var(--navy);
+  display: inline-flex;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 7px 9px;
+}
+
+.summer-hot-course-card em {
+  color: #6a778a;
+  display: block;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.4;
+  margin-top: 12px;
+}
+
+.summer-hot-course-card {
+  appearance: none;
+  align-items: flex-start;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.summer-hot-course-card:hover {
+  border-color: rgba(13, 35, 64, 0.2);
+  box-shadow: 0 14px 32px rgba(13, 35, 64, 0.08);
+  transform: translateY(-1px);
+}
+
+.summer-hot-course-card:focus-visible {
+  outline: 2px solid rgba(13, 35, 64, 0.3);
+  outline-offset: 2px;
+}
+
+.summer-hot-course-card[data-active="true"] {
+  border-color: rgba(20, 40, 68, 0.24);
+  box-shadow: 0 16px 38px rgba(20, 40, 68, 0.11);
+  background:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(249, 244, 234, 0.98)),
+    #fffdf8;
+}
+
+.summer-painpoint-list {
+  margin-top: 10px;
+}
+
+.summer-detail-head {
+  margin-top: 28px;
+}
+
+.summer-detail-head h3 {
+  color: var(--navy);
+  font-family: var(--font-zh-editorial);
+  font-size: clamp(24px, 2.5vw, 30px);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.summer-project-feature {
+  align-items: stretch;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 260px minmax(0, 1fr);
+  margin-top: 14px;
+}
+
+.summer-project-feature-brand {
+  align-items: center;
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.96), rgba(250, 245, 235, 0.98)),
+    #fbf7ee;
+  border: 1px solid rgba(181, 146, 82, 0.18);
+  border-radius: 12px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 56px minmax(0, 1fr);
+  padding: 18px;
+}
+
+.summer-project-feature-brand img {
+  background: #fffdf8;
+  border: 1px solid rgba(181, 146, 82, 0.16);
+  border-radius: 14px;
+  display: block;
+  height: 56px;
+  padding: 10px;
+  width: 56px;
+}
+
+.summer-project-feature-brand-copy strong {
+  color: var(--navy);
+  display: block;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.summer-project-feature-brand-copy span {
+  color: #7b7568;
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.summer-project-feature-brand-copy a {
+  color: #9b7630;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.summer-project-feature-copy {
+  background: #fffdf8;
+  border: 1px solid rgba(20, 40, 68, 0.1);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.summer-project-feature-copy p {
+  color: #5b6170;
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.summer-project-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.summer-project-chip {
+  background: #faf5e8;
+  border: 1px solid rgba(181, 146, 82, 0.24);
+  border-radius: 999px;
+  color: var(--navy);
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 8px 10px;
+}
+
+.summer-project-card table thead th {
+  background: #efe4cf;
+  color: var(--navy);
+  border-color: rgba(164, 132, 74, 0.28);
+}
+
+.summer-project-card table td,
+.summer-project-card table th {
+  border-color: rgba(20, 40, 68, 0.14);
+}
+
+.summer-project-card.article-service-table td:first-child,
+.summer-project-card .article-service-table td:first-child,
+.summer-project-card table td:first-child {
+  background: #f6ead5;
+  color: var(--navy);
+  border-right: 1px solid rgba(164, 132, 74, 0.22);
+  font-weight: 800;
+  width: 158px;
+}
+
+.summer-project-card table td:not(:first-child) {
+  background: #fffdf8;
+  color: #4f5866;
+}
+
+.summer-project-card table tbody tr:nth-child(even) td:first-child {
+  background: #f1e2ca;
+}
+
+.summer-project-card table tbody tr:nth-child(even) td:not(:first-child) {
+  background: #fbf7ef;
+}
+
+@media (max-width: 860px) {
+  .summer-route-grid,
+  .summer-hot-course-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summer-hot-category-head {
+    grid-template-columns: 42px minmax(0, 1fr);
+    padding: 14px 14px 15px;
+  }
+
+  .summer-hot-category-head b {
+    height: 34px;
+    width: 34px;
+  }
+
+  .summer-hot-category-head strong {
+    font-size: 24px;
+  }
+
+  .summer-hot-category-head p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .summer-project-card summary {
+    gap: 10px;
+    grid-template-columns: 38px minmax(0, 1fr);
+    padding: 16px 16px 14px;
+  }
+
+  .summer-project-card summary span {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .summer-project-card summary strong {
+    font-size: 19px;
+  }
+
+  .summer-project-card .report-table-wrap {
+    padding: 0 12px 14px;
+  }
+
+  .summer-project-card-head {
+    grid-template-columns: 38px minmax(0, 1fr);
+    padding: 16px 16px 14px;
+  }
+
+  .summer-project-card-head strong {
+    font-size: 19px;
+  }
+
+  .summer-project-feature {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summer-project-feature-brand {
+    grid-template-columns: 48px minmax(0, 1fr);
+    padding: 14px;
+  }
+
+  .summer-project-feature-brand img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .summer-route-grid strong,
+  .summer-hot-course-card strong {
+    font-size: 18px;
   }
 }

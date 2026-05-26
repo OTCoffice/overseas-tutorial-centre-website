@@ -1607,7 +1607,8 @@ function searchItems() {
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
-    ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
+    ["Courses", "/courses/", "OTC course architecture hub separating the global programme finder from OTC's own learning platform, tutoring routes and qualification support."],
+    ["OTC Learning Platform", "/learning-platform/", "OTC's own learning platform for international curriculum tutoring, Apps & Tools, OTHM, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
     ["BTEC Level 3 University Progression", "/international-curriculum-tutoring/btec-pearson/university-progression/", "Official-source based BTEC Level 3 and BTEC International Level 3 university recognition map, Pearson recognition examples, UCAS tariff guidance and course-entry checking."],
     ["OTHM Qualifications", "/othm-qualifications/", "Regulated OTHM qualification map, approved/TBC status and level-based enquiry routes."],
@@ -1815,6 +1816,161 @@ function writeHeraldSocialImage(article, locale = "en") {
 }
 
 const insightsArticles = [
+  {
+    slug: "uk-summer-school-programme-awards-2026",
+    title: "UK Summer School 2026: A Parent-Facing Programme Guide to Academic, English and Career Routes",
+    date: "2026-05-26",
+    category: "Summer School",
+    column: "study",
+    kicker: "UK Summer School · Parents · OTC Selection",
+    author: "留學導報編輯部",
+    summary: "A practical OTC guide to UK summer school types for families comparing English-improvement, academic-campus, career-exploration and younger-student residential routes, with a wider OTC summer network across the UK, Australia, New Zealand, Malaysia, the US and Canada.",
+    titleZh: "英國暑期遊學項目大賞：家長怎麼選 Summer School、學術營、職涯體驗與低齡寄宿營",
+    summaryZh: "不是所有英國 summer school 都適合同一類學生。這份 OTC 導報把家長最常問的四類項目放在一起比較：英文提升型、名校學術體驗型、職涯探索型、低齡寄宿型；同時說明 OTC 目前可承接英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目，一級/二級代理通道均可對接，代辦不收隱藏費用。",
+    relatedReadings: [
+      "summer-school-vaccine-medical-consent-parent-checklist",
+      "uk-aus-application-documents-checklist",
+      "uk-entry-requirements-course-page-checklist"
+    ],
+    resources: [
+      ["Oxford Royale official site", "https://www.oxford-royale.com/"],
+      ["Oxford Royale prices & dates 2026", "https://www.oxford-royale.com/prices"],
+      ["InvestIN Summer Schools 2026", "https://investin.org/collections/summer-schools"],
+      ["InvestIN Summer Schools overview", "https://investin.org/pages/investin-summer-schools"],
+      ["IH London Course Catalogue 2026", "https://www.ihlondon.com/wp-content/uploads/2025/09/IH-London-Course-Catalogue-2026-V2.pdf"],
+      ["NHS: Travel vaccinations", "https://www.nhs.uk/vaccinations/travel-vaccinations/"],
+      ["GOV.UK: Permission to take a child abroad", "https://www.gov.uk/permission-take-child-abroad"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-26。本文項目分類與例示依 Oxford Royale、InvestIN、IH London 2026 官方公開頁面或目錄整理。",
+      "夏校地點、年齡分段、住宿安排、價格、開課日期與空位變動很快；正式報名前應以各項目官方最新頁面、招生團隊書面回覆及家庭自身監護安排為準。"
+    ],
+    sidebarCards: [
+      ["1", "英文提升型", "適合希望先把英語環境、住宿生活與日常適應建立起來的學生。", "English"],
+      ["2", "學術體驗型", "適合成績較穩、希望感受 Oxford / Cambridge / London 學術氛圍的家庭。", "Academic"],
+      ["3", "職涯探索型", "適合已對醫學、法律、設計、投行、媒體等方向有興趣的學生。", "Career"],
+      ["4", "低齡寄宿型", "適合 8–14 歲左右、需要更強 pastoral support 與活動照看的家庭。", "Younger"]
+    ],
+    body: [
+      {
+        heading: "1) Don’t ask “which summer school is best?” Ask “best for what kind of student?”",
+        paragraphs: [
+          "Families often compare UK summer schools as if they were interchangeable. They are not. Some are essentially English-language and residential-life programmes; some are academic tasting programmes on famous campuses; some are career simulation products; and some are more suitable for younger students who need stronger pastoral structure.",
+          "OTC’s safer screening question is: what is the student actually trying to gain this summer — English confidence, academic stretch, UK campus exposure, university-application positioning, or a supervised first experience abroad?"
+        ]
+      },
+      {
+        heading: "2) Four practical route types",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>Route type</th><th>Best for</th><th>What families should expect</th></tr></thead>
+              <tbody>
+                <tr><td>English-improvement residential</td><td>Students who need spoken English, confidence and first-time UK adaptation.</td><td>Daily English classes, activities, excursions, stronger pastoral structure, less subject specialisation.</td></tr>
+                <tr><td>Academic campus summer school</td><td>Students seeking subject exposure and a stronger “study on campus” experience.</td><td>Prestige branding, more ambitious peer group, seminar/workshop structure, usually higher fees.</td></tr>
+                <tr><td>Career exploration / work experience style</td><td>Students already interested in medicine, law, design, media, politics, engineering and similar fields.</td><td>Industry simulation, professional visits, networking, English used in context, but less like a traditional language camp.</td></tr>
+                <tr><td>Younger learners / structured pastoral route</td><td>Families with younger students who care most about safety, routine and supervised group life.</td><td>Tighter supervision, age-specific activity design, stronger welfare emphasis, usually less independent city movement.</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "3) Example route signals from current official providers",
+        paragraphs: [
+          "Oxford Royale’s current 2026 public materials position it as an academic-campus route with UK locations including Oxford, Cambridge and London, and a 2026 prices page showing two-week structures by location. This is usually the kind of option families compare when they want subject exposure plus a recognisable campus atmosphere.",
+          "InvestIN’s 2026 summer school pages position its London programmes as career-exploration experiences for ages 12-18, with one-week, two-week and Premium formats, central London campus delivery and hands-on professional exposure. This suits students who already want to test fields like medicine, law, design, engineering, media or politics in a more profession-facing way.",
+          "IH London’s 2026 catalogue / young learner materials point to a more classic English-and-residential route, including younger learner provision and a stronger pastoral feel. This is often a better first overseas step for families who are not yet looking for highly specialised subject branding."
+        ]
+      },
+      {
+        heading: "4) What OTC actually helps with",
+        paragraphs: [
+          "OTC does not simply forward a brochure. We help families compare age fit, English level, independence level, budget band, city preference, accommodation tolerance, paperwork burden and whether the student is emotionally ready for a residential UK experience.",
+          "That usually means: screening 2-4 realistic options, flagging hidden differences in age band / contact hours / supervision / airport transfer / meal plan / medical form burden, helping with registration communication, preparing the parent document pack, and keeping a clean travel-and-contact file."
+        ]
+      },
+      {
+        heading: "5) OTC summer routes are broader than the UK-only conversation",
+        paragraphs: [
+          "Although this page focuses on UK summer routes, OTC also handles summer-school and study-tour screening across Australia, New Zealand, Malaysia, the United States and Canada.",
+          "For these routes, OTC works through first-level and second-level agent channels where applicable. The family-facing message is simple: the application-handling service is free and OTC does not present hidden handling charges in the application route itself."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、不要只問「哪個英國夏校最好」；要先問「最適合哪一類學生」",
+        paragraphs: [
+          "家長最容易踩的一個坑，就是把所有英國 summer school 都當成差不多的產品。其實不是。有人是去補英語環境和住宿生活適應，有人是想感受 Oxford / Cambridge / London 的學術氛圍，有人是想提前試水醫學、法律、設計、投行、媒體等職涯方向，還有人只是第一次單獨出國，需要更強的照看與監護結構。",
+          "OTC 幫家長做的第一步，不是先報名，而是先判斷這個暑假學生最需要的是什麼：英文開口、自信建立、學術刺激、名校校園感、職涯探索，還是單純先安全地完成第一次英國寄宿體驗。"
+        ]
+      },
+      {
+        heading: "二、四類英國暑期遊學，先分清再報",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>類型</th><th>更適合誰</th><th>家長通常會得到什麼</th></tr></thead>
+              <tbody>
+                <tr><td>英文提升型寄宿夏校</td><td>英文基礎還在建立、第一次出國、需要先適應集體生活的學生。</td><td>每天英文課 + 活動 + excursions，照看結構通常更強，但學科專業深度較少。</td></tr>
+                <tr><td>名校學術體驗型</td><td>成績較穩、希望感受英國校園學術氛圍、願意進入更有競爭感同儕環境的學生。</td><td>Oxford / Cambridge / London 類學術包裝更強，通常費用也更高，適合把「校園感」和 subject exposure 放在前面。</td></tr>
+                <tr><td>職涯探索 / work experience 型</td><td>已經對醫學、法律、設計、媒體、工程、投資銀行、政治等方向有興趣的學生。</td><td>更像行業模擬和職場體驗，英文是在情境中使用，不等於傳統語言營。</td></tr>
+                <tr><td>低齡寄宿與監護型</td><td>年齡更小、家長最在意安全、作息、照看與 pastoral support 的家庭。</td><td>監護與活動安排更密，學生自由活動空間通常較少，但對第一次離家更友好。</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "三、把幾個常被家長拿來比較的英國項目放在同一張圖上看",
+        paragraphs: [
+          "如果家長追求的是「英國名校氛圍 + 學術課題感 + 校園住宿體驗」，Oxford Royale 這類路線會比較常出現在 shortlist 裡。它目前的 2026 公開頁面把 Oxford、Cambridge、London 等地點與兩週制結構、價格頁面都放得很清楚，這類路線比較像『把暑假做成一段高密度學術體驗』。",
+          "如果家長想要的是『孩子已經對某個專業方向有感覺，想提前試一次』，那 InvestIN 類型會更對口。它目前 2026 官方頁把 London summer schools 做成 career exploration 路線，年齡分 12-14 與 15-18，並強調一週、兩週與 Premium 結構、central London campus、professional exposure 和最高可達 65 小時的 hands-on 經驗。這種不是傳統英文營，而是職涯方向先體驗。",
+          "如果家長的優先順序其實是『孩子還小，先把英文、寄宿、照看、作息、安全感做好』，IH London 這類 young learner / residential 路線反而常常更實用。它的 2026 目錄與 young learner 公開材料更偏向經典的英語加住宿生活體驗，也更容易被家長理解和管理。"
+        ]
+      },
+      {
+        heading: "四、家長真正要比的，不只是名氣，而是這幾個隱形差異",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>比較點</th><th>家長應該問什麼</th><th>OTC 會怎麼幫你看</th></tr></thead>
+              <tbody>
+                <tr><td>年齡與成熟度</td><td>孩子能否承受 residential group life？是否需要高監護？</td><td>先看年齡，不夠成熟的不往過度自由或過度專業的項目推。</td></tr>
+                <tr><td>英文程度</td><td>是去補 spoken confidence，還是已能進入 subject-heavy seminar？</td><td>把英文適應和課程難度拆開看，避免『英文不夠卻硬上專業營』。</td></tr>
+                <tr><td>項目定位</td><td>到底是語言營、學術營，還是職涯模擬？</td><td>把 brochure 裡的包裝語言翻成家長能判斷的真實結構。</td></tr>
+                <tr><td>照看與住宿</td><td>住宿誰管？晚上活動誰盯？接送誰接？</td><td>逐項核對 accommodation、airport transfer、meal plan、safeguarding、emergency contact。</td></tr>
+                <tr><td>行前文件量</td><td>是否有 health form、consent letter、醫生簽字、疫苗記錄？</td><td>幫家長提前建立文件包，不到最後一週才慌張補資料。</td></tr>
+                <tr><td>暑假目標</td><td>回來後要的是一段經歷、英語提升，還是可放進後續申請敘事？</td><td>根據學生年齡與下一步規劃決定選『先體驗』還是『更可敘事』的項目。</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "五、OTC 在英國暑期遊學上到底做什麼",
+        paragraphs: [
+          "OTC 不只是把 brochure 轉發給家長。我們更常做的是：先按年齡、英文、成熟度、城市偏好、住宿接受度、預算和未來升學方向，幫家庭縮出 2–4 個真正可比的選項；再把報名路徑、家長 consent、health form、疫苗/醫療材料、住宿/接送、在英聯絡、應急溝通這些事情一起整理成一個乾淨的行前包。",
+          "如果學生是第一次去英國，或者家長本身更重視孩子在英國期間的溝通與狀態跟進，OTC 還可以承接海外督導與家長支持這一層，而不只是『報完名就結束』。"
+        ]
+      },
+      {
+        heading: "六、OTC 不只做英國：澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目也可對接",
+        paragraphs: [
+          "雖然這一頁主題是英國，但 OTC 目前承接的不只是英國暑期遊學。澳洲、新西蘭、馬來西亞、美國、加拿大的暑期項目，我們也都可以做初步篩選、匹配、報名材料整理與家長端溝通。",
+          "按 OTC 目前的操作口徑，這些暑期項目可通過一級或二級代理通道對接；家長端最需要知道的一句話是：代辦本身不收隱藏費用，報名前會把費用構成、項目方收費與需要自行承擔的部分說清楚，不做模糊收費。"
+        ]
+      },
+      {
+        heading: "七、這頁面可以直接給家長或朋友點進來：如果要報名，先做初步匹配",
+        paragraphs: [
+          `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">OTC 暑校聯盟入口</div><p>如果你想先判斷孩子更適合英文提升型、學術體驗型、職涯探索型還是低齡寄宿型，可直接打開 OTC 暑校聯盟頁：<a href="/summer-school-alliance/">/summer-school-alliance/</a>。若想直接把年齡、英文程度、預算和暑假時間發來，亦可用 OTC 諮詢頁：<a href="/consultation-chat/?source=uk-summer-school-awards">/consultation-chat/?source=uk-summer-school-awards</a>。</p></div>`,
+          "若孩子已經鎖定暑期出行，請同時準備健康與同意文件。家長可直接配合閱讀這份清單頁：[去英國 Summer School 前，家長怎樣做健康檢查？可直接照填的清單](/zh/insights/summer-school-vaccine-medical-consent-parent-checklist/)。"
+        ]
+      }
+    ]
+  },
   {
     slug: "summer-school-vaccine-medical-consent-parent-checklist",
     title: "UK Summer School Health Checklist: Vaccinations, Medical Forms and Travel Consent",
@@ -9744,6 +9900,7 @@ const home = pageShell({
           <div class="hero-directory">
             <a href="/resources/"><strong>Consulting</strong><span>Pathway planning, applications, student and parent guidance</span></a>
             <a href="/university-applications/"><strong>Applications</strong><span>UK university applications, advanced entry, UCAS/direct and document planning</span></a>
+            <a href="/zh/summer-school-alliance/"><strong>Summer School Alliance</strong><span>UK, Australia, New Zealand, Malaysia, US and Canada summer-school gateway for families</span></a>
             <a href="/study-group-2026-applications/"><strong>Study Group 2026</strong><span>July-December pathway and direct-entry application window</span></a>
             <a href="/services/"><strong>Services</strong><span>Translation, publishing, guardianship, academic events and institutional support</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
@@ -9780,10 +9937,11 @@ const home = pageShell({
       <div class="index-grid">
         <article><b>01</b><strong>UK Applications</strong><span>Admissions advisory, document planning, advanced-entry screening and offer-condition follow-up.</span></article>
         <article><b>02</b><strong>University Cooperation</strong><span>Institutional representative discussions, partner readiness and admissions-team communication.</span></article>
-        <article><b>03</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
-        <article><b>04</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
-        <article><b>05</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
-        <article><b>06</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
+        <article><b>03</b><strong>Summer School Alliance</strong><span>One family-facing entrance for six destinations, summer-school screening, fee notes and project lists.</span></article>
+        <article><b>04</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
+        <article><b>05</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
+        <article><b>06</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
+        <article><b>07</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
       </div>
     </section>
 
@@ -11123,11 +11281,168 @@ const courses = pageShell({
   title: "Courses | OTC Study Hub",
   current: "courses",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Course Entrance</div><h1>Courses</h1><p>OTC course information is organised by both academic subject and approval / delivery system, so learners can distinguish regulated qualifications from tutoring, study support and progression guidance.</p></div></section>
+    <section class="page-hero ai-operations-hero">
+      <div class="band">
+        <div class="eyebrow">Programme & Learning Architecture</div>
+        <h1>Courses</h1>
+        <p>這一頁現在只做一件事：把兩個不同系統分開講清楚。世界高校課程庫放在一邊，OTC 自己的學習平台放在另一邊。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/university-applications/#programme-directory">Global course finder</a>
+          <a class="btn btn-secondary" href="/learning-platform/">OTC learning platform</a>
+          <a class="btn btn-secondary" href="/consultation-chat/?source=courses&intent=eligibility">Check eligibility</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Two Systems</div>
+        <h2>先分清楚：你找的是「全球課程」，還是「OTC 自己的學習支持」？</h2>
+        <p>如果你要找世界 3000 多所高校的 programme、國家、學校、school、入學要求與申請入口，那是 course finder。若你要找 OTC 自己的輔導、題庫、Apps、OTHM、external support 和 progression guidance，那是 learning platform。</p>
+      </div>
+      <div class="course-search-grid">
+        <a class="course-search-card" href="/university-applications/#programme-directory">
+          <b>System 01</b>
+          <strong>Global Course Finder</strong>
+          <p>世界高校 programme database、國家分流、學校清單、progression route、pathway provider 和申請初篩。</p>
+          <span>Open course finder</span>
+        </a>
+        <a class="course-search-card" href="/learning-platform/">
+          <b>System 02</b>
+          <strong>OTC Learning Platform</strong>
+          <p>把國際課程輔導、Apps & Tools、OTHM、external programme support、academic tutoring 和 guidance 全部放在同一個學習平台入口。</p>
+          <span>Open learning platform</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="band compact-band" id="programme-database">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Global Course Finder</div>
+        <h2>世界 3000+ 高校課程，不應放在 OTC 教學入口裡。</h2>
+        <p>這部分應集中放在 University Applications / Programme Directory 體系。它本質上是 course database，不是 OTC 自有課程頁。</p>
+      </div>
+      <div class="course-search-grid">
+        <a class="course-search-card" href="/university-applications/#programme-directory">
+          <b>Finder 01</b>
+          <strong>Programme Directory</strong>
+          <p>按國家、院校、school/faculty、programme level 做篩選，這裡才是全球課程庫的主入口。</p>
+          <span>Open directory</span>
+        </a>
+        <a class="course-search-card" href="/university-applications/">
+          <b>Finder 02</b>
+          <strong>Country & Institution Routes</strong>
+          <p>先按國家和院校方向分流，再進 programme list，避免把所有課程堆在一個平面頁面上。</p>
+          <span>Open route</span>
+        </a>
+        <a class="course-search-card" href="/study-group-2026-applications/">
+          <b>Finder 03</b>
+          <strong>Pathway Provider Routes</strong>
+          <p>Study Group、Kaplan、INTO、Navitas、Cambridge Education Group 等 provider-driven 路線也放進課程庫邏輯裡。</p>
+          <span>Open route</span>
+        </a>
+        <a class="course-search-card" href="/advanced-entry-china-programmes/">
+          <b>Finder 04</b>
+          <strong>Advanced Entry / Top-up Cases</strong>
+          <p>對高意圖的 Year 2、final-year、top-up、mature entry 需求，直接進入特殊路線頁，而不是混在普通課程庫裡。</p>
+          <span>Open route</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="band" id="learning-platform-structure">
+      <div class="section-head compact-head">
+        <div class="eyebrow">OTC Learning Platform</div>
+        <h2>OTC 自己的學習平台，應該單獨成系統。</h2>
+        <p>這部分不是世界高校資料庫，而是 OTC 自有的學習支持、工具、資格路線與教學產品。使用者來這裡，不是為了找校，而是為了學、練、補、提分、做 progression 準備。</p>
+      </div>
+      <div class="course-search-grid">
+        <a class="course-search-card" href="/international-curriculum-tutoring/">
+          <b>Learn 01</b>
+          <strong>International Curriculum Tutoring</strong>
+          <p>A-Level、BTEC、IB、AP、Foundation、pathway learners 的雙語學習支持。</p>
+          <span>Open learning route</span>
+        </a>
+        <a class="course-search-card" href="/apps/">
+          <b>Learn 02</b>
+          <strong>Apps & Tools</strong>
+          <p>口語練習、詞彙卡、mock tests、book-linked 工具和可持續增長的學習產品。</p>
+          <span>Open tools</span>
+        </a>
+        <a class="course-search-card" href="/othm-qualifications/">
+          <b>Learn 03</b>
+          <strong>OTHM Qualifications</strong>
+          <p>OTC 受監管資格路線、approved status、level map 和 progression indication。</p>
+          <span>Open qualification route</span>
+        </a>
+        <a class="course-search-card" href="/external-programme-support/">
+          <b>Learn 04</b>
+          <strong>External Programme Support</strong>
+          <p>OU、Pearson、BTEC、university module、distance learning 和外部註冊學生支持。</p>
+          <span>Open support route</span>
+        </a>
+        <a class="course-search-card" href="/academic-tutoring/">
+          <b>Learn 05</b>
+          <strong>Academic Tutoring</strong>
+          <p>學術寫作、研究方法、商科、管理、英語輸出與學習技能支持。</p>
+          <span>Open tutoring</span>
+        </a>
+        <a class="course-search-card" href="/guidance-progression/">
+          <b>Learn 06</b>
+          <strong>Guidance & Progression</strong>
+          <p>把學習、top-up、轉學、升學、mature entry 和路線規劃接起來。</p>
+          <span>Open guidance</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">How to Open the Right System</div>
+        <h2>很簡單：找校，就去 course finder；要學，就去 learning platform。</h2>
+        <p>這樣一拆，世界高校 programme 不會把 OTC 的學習產品淹沒；OTC 的 Apps、課程輔導和 OTHM 也不會被誤解成「全球課程庫的一部分」。</p>
+      </div>
+      <div class="course-search-grid">
+        <a class="course-search-card" href="/university-applications/#programme-directory">
+          <b>Use 01</b>
+          <strong>I want to browse universities and programmes</strong>
+          <p>走 Global Course Finder。</p>
+          <span>Open finder</span>
+        </a>
+        <a class="course-search-card" href="/learning-platform/">
+          <b>Use 02</b>
+          <strong>I want tutoring, tools or study support</strong>
+          <p>走 OTC Learning Platform。</p>
+          <span>Open learning</span>
+        </a>
+        <a class="course-search-card" href="/advanced-entry-china-programmes/">
+          <b>Use 03</b>
+          <strong>I already have prior study and need top-up / advanced entry</strong>
+          <p>先走特殊路線，不用先埋在一般課程庫裡。</p>
+          <span>Open special route</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="qualification-report-panel">
+        <div>
+          <span>Next Step</span>
+          <h2>不知道該進哪一個？先做一次初篩。</h2>
+          <p>如果你不確定自己是該先找 programme，還是先做學習支持與 progression 規劃，就把背景資料交給 OTC 先做一次 route review。</p>
+        </div>
+        <div class="qualification-report-actions">
+          <a class="btn btn-dark" href="/consultation-chat/?source=courses&intent=pathway-assessment">Free pathway assessment</a>
+          <a class="btn btn-light" href="https://wa.me/447947991572?text=${encodeURIComponent("Hello, I want an OTC course eligibility review.")}">WhatsApp advisor</a>
+          <a class="btn btn-light" href="/learning-platform/">Open learning platform</a>
+        </div>
+      </div>
+    </section>
+
     <section class="band">
       <div class="section-head">
-        <h2>Choose the right kind of course before choosing the subject.</h2>
-        <p>OTC has several kinds of learning provision. Some routes relate to approved qualification delivery; others are tutoring, academic support, English preparation or learner-guidance programmes. The public course page therefore uses a two-layer structure.</p>
+        <h2>All OTC course entrances</h2>
+        <p>下面保留 OTC 原有課程與服務入口，方便你按系統類型直接進入對應頁面。</p>
       </div>
       <div class="course-system-grid">
         <a class="course-system-entry" href="/international-curriculum-tutoring/">
@@ -11170,7 +11485,86 @@ const courses = pageShell({
     </section>
 
     <section class="band compact-band">
-      <div class="notice">This page is a course-system gateway. Select one of the entrances above to open the relevant subpage. Availability depends on approval status, current staff expertise, learner demand, resources, cohort opening and applicable awarding-body requirements.</div>
+      <div class="notice">Availability still depends on approval status, staff expertise, learner demand, resources, cohort opening and awarding-body requirements.</div>
+    </section>
+  `
+});
+
+const learningPlatform = pageShell({
+  title: "OTC Learning Platform | OTC Study Hub",
+  current: "apps",
+  body: `
+    <section class="page-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Learning Platform</div>
+        <h1>OTC Learning Platform</h1>
+        <p>這裡只放 OTC 自己的學習支持系統：課程輔導、Apps、OTHM、external support、academic tutoring 和 progression guidance。它不是全球高校課程庫。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/apps/">Open Apps & Tools</a>
+          <a class="btn btn-secondary" href="/international-curriculum-tutoring/">Curriculum tutoring</a>
+          <a class="btn btn-secondary" href="/courses/">Back to Courses</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Learning Layers</div>
+        <h2>OTC 的學習平台，分成六個固定板塊。</h2>
+        <p>使用者進到這裡，不再是先找大學，而是先看自己要哪種支持：學科、資格、工具、external module、學術寫作，還是 progression guidance。</p>
+      </div>
+      <div class="course-search-grid">
+        <a class="course-search-card" href="/international-curriculum-tutoring/">
+          <b>Layer 01</b>
+          <strong>International Curriculum Tutoring</strong>
+          <p>A-Level、BTEC、IB、AP、Foundation、pathway 等國際課程雙語支持。</p>
+          <span>Open route</span>
+        </a>
+        <a class="course-search-card" href="/apps/">
+          <b>Layer 02</b>
+          <strong>Apps & Tools</strong>
+          <p>口語、詞彙、quiz、mock tests、book-linked digital products 和學習工具。</p>
+          <span>Open tools</span>
+        </a>
+        <a class="course-search-card" href="/othm-qualifications/">
+          <b>Layer 03</b>
+          <strong>OTHM Qualifications</strong>
+          <p>OTC 自己的 regulated qualification 路線與 level map。</p>
+          <span>Open route</span>
+        </a>
+        <a class="course-search-card" href="/external-programme-support/">
+          <b>Layer 04</b>
+          <strong>External Programme Support</strong>
+          <p>OU、Pearson、BTEC、university modules 和 distance learning learners 的支持。</p>
+          <span>Open route</span>
+        </a>
+        <a class="course-search-card" href="/academic-tutoring/">
+          <b>Layer 05</b>
+          <strong>Academic Tutoring</strong>
+          <p>學術寫作、研究方法、商科、英語、study skills 和 coursework support。</p>
+          <span>Open tutoring</span>
+        </a>
+        <a class="course-search-card" href="/guidance-progression/">
+          <b>Layer 06</b>
+          <strong>Guidance & Progression</strong>
+          <p>top-up、advanced entry、mature entry、route planning 和長線學習安排。</p>
+          <span>Open guidance</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="qualification-report-panel">
+        <div>
+          <span>Boundary</span>
+          <h2>平台內是學習支持；找校選 programme 請回 Course Finder。</h2>
+          <p>如果你要搜尋全球高校與 programme，請進入 University Applications / Programme Directory。Learning Platform 不承擔全球課程庫功能。</p>
+        </div>
+        <div class="qualification-report-actions">
+          <a class="btn btn-dark" href="/university-applications/#programme-directory">Open course finder</a>
+          <a class="btn btn-light" href="/consultation-chat/?source=learning-platform&intent=route-review">Ask OTC to review my route</a>
+        </div>
+      </div>
     </section>
   `
 });
@@ -12555,11 +12949,13 @@ const chineseEntrance = pageShell({
           <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
           <div class="hero-directory">
             <a href="/insights/credit-alliance/"><strong>學分聯盟</strong><span>課程地圖、雙語解釋、練習工具與學術英語支持</span></a>
+            <a href="/zh/summer-school-alliance/"><strong>暑校聯盟</strong><span>六個暑期目的地、一個家長入口，集中查看項目、費用與路線</span></a>
             <a href="#open-learning-platform"><strong>家長規劃</strong><span>升學路線、文件清單、國別選擇與申請時間線</span></a>
             <a href="/services/"><strong>機構運作</strong><span>出版、翻譯、教學資源、活動與機構服務支持</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
+            <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
             <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
             <a class="btn btn-secondary" href="#overseas-publishing">海外書局</a>
             <a class="btn btn-secondary" href="/university-applications/">申請評估</a>
@@ -12585,6 +12981,7 @@ const chineseEntrance = pageShell({
       </div>
       <div class="zh-audience-strip" aria-label="Learning audience entrances">
         <a href="/insights/credit-alliance/"><b>For learners</b><strong>學分聯盟</strong><span>從課程、詞彙、練習與文章開始。</span></a>
+        <a href="/zh/summer-school-alliance/"><b>For summer planning</b><strong>暑校聯盟</strong><span>六個目的地、項目、費用、住宿與暑期路線集中查看。</span></a>
         <a href="#global-study-map"><b>For families</b><strong>家長規劃</strong><span>理解國別、路線、文件與申請節奏。</span></a>
         <a href="/services/"><b>For educators</b><strong>機構運作</strong><span>出版、翻譯、教學與項目支持。</span></a>
       </div>
@@ -13412,6 +13809,810 @@ const resources = pageShell({
     </section>
   `
 });
+
+const summerSchoolAlliance = pageShell({
+  title: "OTC 暑校聯盟入口 | OTC Study Hub",
+  current: "resources",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/summer-school-alliance/",
+  description: "OTC 暑校聯盟入口：英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期遊學與 summer school 初步匹配、免費代辦、無隱藏收費、海外督導與家長文件支持。",
+  body: `
+    <section class="page-hero regional-office-hero country-gateway-hero">
+      <div class="band">
+        <div class="eyebrow">OTC Summer School Alliance</div>
+        <h1>暑校聯盟入口</h1>
+        <h2>UK · Australia · New Zealand · Malaysia · USA · Canada</h2>
+        <p>OTC 目前可對接英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期遊學與 summer school 路線。按現行操作口徑，一級 / 二級代理通道均可承接；家長端代辦本身不收隱藏費用，報名前先把費用構成與項目邊界講清楚。</p>
+        <div class="notice" style="margin:18px 0 14px; font-size:1rem; line-height:1.7; border-left:6px solid #b5272d; background:#fff6e8;">
+          <strong>OTC 暑校代辦口徑：</strong>英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目可走一級 / 二級代理通道；<strong>代辦本身免費，不設隱藏收費</strong>。正式報名前，我們會先把項目方收費、住宿、接送、醫療表、保險與家長需自行承擔的部分逐項說清。
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">立即咨詢</a>
+          <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp</a>
+          <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Summer%20School%20Alliance%20Enquiry">發送需求</a>
+          <a class="btn btn-secondary" href="/zh/insights/uk-summer-school-programme-awards-2026/">閱讀英國項目大賞</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band country-gateway-panel">
+      <div class="section-head compact-head">
+        <div class="eyebrow">OTC Route Scope</div>
+        <h2>六個暑期目的地，一個家長入口。</h2>
+        <p>先分國家，再分項目類型，再分學生年齡、英文、成熟度與預算。這樣比盲目看 brochure 更容易找到真正合適的 route。</p>
+      </div>
+      <div class="summer-alliance-map-wrap">
+        <div class="summer-alliance-sidecard">
+          <div class="meta">家長先看這裡</div>
+          <h3>點地圖，不用先猜哪個國家最適合。</h3>
+          <p>六個目的地各自打開後，都先看三件事：<strong>有哪些可報方向</strong>、<strong>有哪些注意事項</strong>、<strong>應該怎樣選路徑</strong>。適合第一次做暑校比較，也適合家長先在一個頁面內做 shortlist。</p>
+          <ul class="summer-route-stack">
+            <li><strong>第一步</strong><span>先點國家，看項目清單與注意事項</span></li>
+            <li><strong>第二步</strong><span>再判斷是英文提升、學術體驗、低齡寄宿還是職涯探索</span></li>
+            <li><strong>第三步</strong><span>最後再打開專屬頁看完整表格、費用與流程</span></li>
+          </ul>
+        </div>
+        <div class="credit-world-map summer-alliance-map" aria-label="OTC 暑校聯盟目的地地圖">
+          <details class="map-pin pin-summer-canada">
+            <summary>加拿大 Canada</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>加拿大：平衡型北美體驗</strong>
+              <p>適合第一次走北美、希望英語輸出、城市安全感與生活節奏更平衡的家庭。</p>
+              <ul class="summer-inline-list">
+                <li>英語與城市生活營</li>
+                <li>中學校園體驗與訪校</li>
+                <li>學術 + 活動平衡型暑校</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>先看城市生活成本、未成年人入境文件、住宿與接送責任。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>第一次北美體驗先走平衡型；若家長已在看中學，則直接把訪校型放進 shortlist。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/canada/">打開加拿大完整頁</a>
+            </div>
+          </details>
+          <details class="map-pin pin-summer-usa">
+            <summary>美國 USA</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>美國：選擇多，但更要防止只看名字</strong>
+              <p>適合看大學校園、主題 enrichment、專題學術營的學生，但層次差很大，最需要提前篩選。</p>
+              <ul class="summer-inline-list">
+                <li>大學校園 enrichment route</li>
+                <li>專題學術營</li>
+                <li>中學體驗與訪校路線</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>提早看美簽、保險、住宿與學生獨立能力，不要臨近出發才補文件。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>想感受名校氛圍走 campus 類；已有科目偏好則看 STEM / writing / business 等主題營。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/united-states/">打開美國完整頁</a>
+            </div>
+          </details>
+          <details class="map-pin pin-summer-uk">
+            <summary>英國 UK</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>英國：OTC 目前最成熟的暑期路線</strong>
+              <p>適合想把英文提升、名校學術體驗、低齡寄宿和職涯探索放在同一個國家內比較的家庭。</p>
+              <ul class="summer-inline-list">
+                <li>Oxford / Cambridge 學術體驗營</li>
+                <li>London 職涯探索營</li>
+                <li>低齡英文寄宿夏校</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>住宿監護、接送、健康表與 consent 文件要提早整理，London 類項目通常預算更高。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>第一次出國可先看低齡寄宿或英文提升型；高年級再進入學術體驗和職涯探索型。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/uk/">打開英國完整頁</a>
+            </div>
+          </details>
+          <details class="map-pin pin-summer-malaysia">
+            <summary>馬來西亞 Malaysia</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>馬來西亞：亞洲區試水與過渡路線</strong>
+              <p>適合先做英語、國際校環境或低齡家庭的短期過渡，整體風險感與總成本通常更容易控。</p>
+              <ul class="summer-inline-list">
+                <li>英語提升與國際校體驗營</li>
+                <li>親子城市學習營</li>
+                <li>升學前置觀察營</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>逐案匹配合作通道，先核對住宿、餐食、監護與短期保險。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>低齡或首次出境家庭可先走親子 / 過渡型，之後再升級到英美澳加暑校。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/malaysia/">打開馬來西亞完整頁</a>
+            </div>
+          </details>
+          <details class="map-pin pin-summer-australia">
+            <summary>澳洲 Australia</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>澳洲：暑期體驗可直接連到後續升學</strong>
+              <p>適合希望把短期體驗和後續 K-12、pathway 或 university route 一起看的家庭。</p>
+              <ul class="summer-inline-list">
+                <li>校園英文與生活體驗營</li>
+                <li>中學校園觀察 + 短期體驗</li>
+                <li>大學城市體驗 + 升學導向營</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>州別、學校 calendar、監護與 health form 會直接影響是否來得及報名。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>先看城市與校園可走大學城市體驗；若家長已考慮中學長線，直接放學校觀察型進 shortlist。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/australia/">打開澳洲完整頁</a>
+            </div>
+          </details>
+          <details class="map-pin pin-summer-newzealand">
+            <summary>新西蘭 New Zealand</summary>
+            <div class="map-popover summer-map-popover">
+              <strong>新西蘭：節奏更穩、過渡感更溫和</strong>
+              <p>適合重視生活安全感、英語輸出與校園體驗並重，希望先做溫和過渡的家庭。</p>
+              <ul class="summer-inline-list">
+                <li>英語沉浸寄宿營</li>
+                <li>校園觀察與學校體驗</li>
+                <li>城市生活 + 英文輸出營</li>
+              </ul>
+              <p class="summer-route-note"><strong>注意事項：</strong>先看季節差異、機票、住宿與是否需要逐校核 availability。</p>
+              <p class="summer-route-note"><strong>選擇路徑：</strong>想穩穩建立英語環境可先走寄宿營；若重點是後續中學路線，就以校園觀察型為主。</p>
+              <a class="summer-country-jump" href="/zh/summer-school-alliance/new-zealand/">打開新西蘭完整頁</a>
+            </div>
+          </details>
+        </div>
+      </div>
+      <div class="country-school-grid">
+        <article><b>01</b><strong>英國 UK</strong><p>英文提升型、名校學術體驗型、職涯探索型、低齡寄宿型最齊全，也是 OTC 目前最成熟的暑期路線。</p><a href="/zh/summer-school-alliance/uk/">打開英國專屬頁</a></article>
+        <article><b>02</b><strong>澳洲 Australia</strong><p>適合看校園環境、英語沉浸、學校接軌與長線升學銜接的家庭，可連接 OTC 澳洲路線與後續在地支持。</p><a href="/zh/summer-school-alliance/australia/">打開澳洲專屬頁</a></article>
+        <article><b>03</b><strong>新西蘭 New Zealand</strong><p>適合偏好生活節奏穩、環境安全感更強、英語與校園體驗並重的家庭。</p><a href="/zh/summer-school-alliance/new-zealand/">打開新西蘭專屬頁</a></article>
+        <article><b>04</b><strong>馬來西亞 Malaysia</strong><p>適合先做英語、國際學校環境或亞洲區短期過渡體驗的家庭；由 OTC 按個案匹配具體合作通道。</p><a href="/zh/summer-school-alliance/malaysia/">打開馬來西亞專屬頁</a></article>
+        <article><b>05</b><strong>美國 USA</strong><p>適合看大學校園、英語 immersion、專題營或夏季 enrichment 路線的學生，需更早做監護、文件與預算判斷。</p><a href="/zh/summer-school-alliance/united-states/">打開美國專屬頁</a></article>
+        <article><b>06</b><strong>加拿大 Canada</strong><p>適合偏好北美學校氛圍、英語環境與相對平衡生活節奏的家庭，可結合後續學校申請規劃。</p><a href="/zh/summer-school-alliance/canada/">打開加拿大專屬頁</a></article>
+      </div>
+      <p class="source-note">合作通道、名額、年齡分段、住宿安排和當年開課情況會變動；是否走一級代理、二級代理或直接報名，會在具體個案匹配時提前說清。</p>
+    </section>
+
+    <section class="band compact-band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Programme Types</div>
+        <h2>先看類型，再看名字。</h2>
+      </div>
+      <div class="school-service-cards">
+        <article><b>01</b><strong>英文提升型</strong><p>適合先做 spoken confidence、寄宿生活適應、日常英語輸出與第一次海外集體生活。</p></article>
+        <article><b>02</b><strong>學術體驗型</strong><p>適合希望感受名校校園氛圍、短期接觸學科主題、把暑假做成 academic exposure 的學生。</p></article>
+        <article><b>03</b><strong>職涯探索型</strong><p>適合已經對醫學、法律、設計、媒體、工程、商科等方向有明顯興趣的學生。</p></article>
+        <article><b>04</b><strong>低齡寄宿型</strong><p>適合年齡更小、家長更在意 supervision、作息、照看與 pastoral support 的家庭。</p></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Customer Pain Points</div>
+        <h2>家長和學生現在最常問的，其實是這幾件事。</h2>
+        <p>這些不是抽象 marketing 文案，而是 OTC 近似於社群真實提問的整理。入口頁先回答問題，再讓家長點進各國專屬頁做比對。</p>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><div class="meta">高頻問題 01</div><h3>現在還有什麼暑期營隊可以報名？</h3><p>家長真正想問的是：現在報還來不來得及、還有沒有名額、哪個國家不用太晚開始補文件。OTC 的做法不是先亂推，而是先看時間窗口、學生年齡、簽證與 health / consent 文件負擔，再給可報 shortlist。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/uk/">先看英國</a></article>
+        <article class="resource-row"><div><div class="meta">高頻問題 02</div><h3>我是高一，想去美國、加拿大、澳洲或其他英文國家，找遊學團還是代辦比較好？</h3><p>如果是高一或高中段學生，核心不是「團」還是「代辦」本身，而是學生成熟度、英文輸出、住宿接受度和家長是否需要更細的在途支持。OTC 更適合處理「要把選項看懂、材料理順、風險說清」的家庭。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/united-states/">看美國頁</a></article>
+        <article class="resource-row"><div><div class="meta">高頻問題 03</div><h3>第一次海外遊學，7 年級和 9 年級兄弟一起去，想多國學生、住校或 homestay、戶外多、不要太像補習班，怎麼選？</h3><p>這種需求非常典型。通常不應直接上高壓學術營或考證型英文班，而是更適合英文提升型寄宿路線、低齡寄宿型或平衡活動型項目。重點在 mixed nationality、school-based classes、outdoor activity 與 pastoral support，而不是 brochure 上名字最大聲。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/canada/">看加拿大頁</a></article>
+        <article class="resource-row"><div><div class="meta">高頻問題 04</div><h3>30 歲內已畢業，想找暑期美國營地 / work-and-travel 類型，有沒有替代路線？</h3><p>這類已經不是傳統中學生 summer school，而是 gap year / camp counselor / cultural exchange 類問題。OTC 會先區分學生暑期營、成年人營地工作、志工和打工旅遊平替，不把不同東西混著講，避免家長和學生被錯誤廣告帶偏。</p></div><a class="btn btn-light" href="/consultation-chat/?source=summer-school-alliance&route=adult-seasonal">提交成人暑期需求</a></article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section-head compact-head">
+        <div class="eyebrow">What OTC Does</div>
+        <h2>家長真正得到的，不只是報名，而是一整套減壓流程。</h2>
+      </div>
+      <div class="resource-list">
+        <article class="resource-row"><div><div class="meta">Route screening</div><h3>先做 2–4 個真實可比選項</h3><p>按年齡、英文、成熟度、城市偏好、住宿接受度、預算和未來升學方向，縮小到能真正比較的 shortlist。</p></div><span class="pill">初篩</span></article>
+        <article class="resource-row"><div><div class="meta">Application handling</div><h3>免費代辦，不做隱藏收費</h3><p>代辦本身不額外設隱藏費用；會在報名前把項目方收費、住宿、接送、醫療表、保險和家長需自行承擔的部分明確說清。</p></div><span class="pill">透明</span></article>
+        <article class="resource-row"><div><div class="meta">Parent document pack</div><h3>家長文件包一次整理</h3><p>護照、健康表、疫苗記錄、consent、緊急聯絡、住宿與接送信息，避免到了出發前最後一週才補材料。</p></div><a class="btn btn-dark" href="/zh/insights/summer-school-vaccine-medical-consent-parent-checklist/">健康文件清單</a></article>
+        <article class="resource-row"><div><div class="meta">Overseas supervision</div><h3>海外督導與在途溝通支持</h3><p>適合第一次出國、家長對學生在外狀態特別關心，或需要在外期間有額外聯絡與協調支撐的家庭。</p></div><span class="pill">督導</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band">
+      <div class="notice">Boundary note: 「暑校聯盟」在此頁面指 OTC 的暑期項目合作與分流入口，不代表單一官方聯盟機構名稱。具體授權、名額、價格、住宿、監護與開課安排均以對應項目方最新書面資料為準。</div>
+    </section>
+  `
+});
+
+const summerSchoolCountryRoutes = [
+  {
+    slug: "uk",
+    zh: "英國",
+    name: "United Kingdom",
+    intro: "英國暑期項目最豐富，從純英文提升、Oxford / Cambridge / London 學術體驗，到職涯探索與低齡寄宿營都能找到對應路線。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；實際費用由項目方學費、住宿、餐食、接送、保險、簽證與機票構成。名校學術體驗與 London career 型通常高於純英文寄宿營。",
+    process: [
+      "先按年齡、英文程度、成熟度與預算做初步匹配",
+      "縮小為 2–4 個可比項目",
+      "確認項目方費用、住宿、接送與 health / consent 文件要求",
+      "提交報名資料並整理家長文件包",
+      "出發前核對航班、保險、緊急聯絡與在英支持方式"
+    ],
+    projects: [
+      ["KCL Pre-University Summer School 2026", "6–31 Jul 2026；每門課 1 週，可連讀 2–3 週", "King’s College London, London", "KCL 官方 pre-university route", "講座、seminar、小組討論、學科導向工作坊；方向含商科、法律、心理、醫學科學、政治國關、理工與英語文化", "先試學科，再試大學節奏；適合把暑假做成『正式申請前的學術試跑』", "一般為 completion / participation 證明，依官方條款執行", "1 週學術課約 £3,195；2 週約 £6,180；3 週約 £9,375；申請費 £65；住宿另計", "適合 16–17 歲、希望用真實大學課堂測方向的學生", "來源含 OTC Notion 暑校庫；KCL 是官方大學自辦，適合成熟度較穩的高中後段學生"],
+      ["UCL Summer School 2026", "Session 1：29 Jun–17 Jul 2026；Session 2：20 Jul–7 Aug 2026；可讀 3 或 6 週", "UCL Bloomsbury Main Campus, London", "UCL 官方 credit-bearing summer school", "50+ 正式模組，含 AI、腦科學、商業、法律、人文藝術、國際政治等；有作業、考核與學分機制", "獲得正式大學級模組體驗；若通過可支持學分/成績單敘事", "官方 transcript / credits 視課程與考核結果而定", "申請費於早期窗口可免；其後約 £60；學費、住宿與倫敦生活費合計通常顯著高於一般青少年營", "適合本科在讀、incoming undergraduate，或成熟度很高的 senior student", "此類不是一般『遊學團』，更接近正式學術課；家長端需先確認學生能否承受評核強度"],
+      ["Language in Action 倫敦 UCL 校園 Junior Programme", "2026 夏季多批次；中心頁面顯示 12–18 歲常年暑期接收", "UCL Institute of Education + Garden Halls / University of London residences, London", "Language in Action / Malvern International juniors", "15 小時每週英文課、Zone 1 校園生活、博物館與城市 excursions、full board、單人 ensuite 為 premium option", "把『倫敦生活 + 英文輸出 + 大學校園感』打包成較穩定的 junior route", "課程報告、結業證明等依 provider 安排", "項目方學費 + 住宿 + 接送；UCL premium 中心通常高於普通校園營", "適合 12–18 歲、想住在倫敦中心並感受大學區生活的學生", "Gmail 附件顯示 UCL 中心採 Garden Halls / UCL 上課組合；更像成熟 junior 城市校園營"],
+      ["Malvern Innovate Summer Academy @ UCL", "9–23 Jul 2026；23 Jul–6 Aug 2026；6–20 Aug 2026", "UCL Main Campus, London", "Malvern International 高端學術夏校", "60 小時學術課、教授授課、大學與企業參訪、Oxford / Cambridge 一日學術行程、UCL 住宿", "更偏『高端學術曝光 + 申請素材累積』，而非普通英文營", "結業證書；電郵資料提到 academic evaluation / recommendation 類產出", "2026 標準 residential 約 £6,285 / 2 週；day option 約 £3,675 / 10 days；曾有早鳥價 £5,700", "適合 15–18 歲、英文至少 B2+、家長願意做高價位精英路線的家庭", "這是 OTC 郵件裡的真實 agent 線索之一，適合要 London 名校體驗且願意為校園與師資買單的家庭"],
+      ["Bucksmore Intensive English @ St Hilda’s College, Oxford", "Any Tuesday between 30 Jun–28 Jul 2026；可讀 1–5 週", "St Hilda’s College, Oxford", "Bucksmore 英語強化路線", "25 小時 / 週 intensive English、Oxford 城市文化活動、住宿與 excursions 結合", "快速提升英語輸出與書面 / 口頭表達，同時獲得 Oxford 校園感", "Personalised report card + Bucksmore certification", "Fully inclusive 約 £2,095 / 週", "適合 13–17 歲、A1+ 起、希望先強化英文而不是直接上高壓學術營的學生", "Bucksmore 5 月庫存郵件顯示名額與 nationality cap 變動很快；此類項目需盡早鎖位"],
+      ["Bucksmore Intensive English @ King’s College London", "30 Jun 2026 或 14 Jul 2026 開課；2 或 4 週", "King’s College London, London", "Bucksmore 倫敦 intensive English", "25 小時 / 週 intensive English、London Travelcard、中央倫敦住宿、2 full-day + 1 half-day excursions per week", "把倫敦沉浸感、城市 mobility 與語言提升放在一起", "Certificate of Attendance；多週通常另有 report card", "Fully inclusive 約 £2,195 / 週", "適合 13–17 歲、A1+ 起，希望在城市裡『邊學邊跑』的學生", "Gmail 庫存郵件提到 Turkey 線對 KCL Intensive English 兩個 session 已有滿位訊號，說明熱門且變動快"],
+      ["Bucksmore IELTS Preparation @ King’s College London", "2026 夏季 London 批次；通常與 KCL 中心暑期檔期同步", "King’s College London, London", "Bucksmore exam-prep route", "25 小時 / 週 IELTS 技巧訓練、mock exam、四科策略與 Academic UKVI exam 準備", "若家長目標非常清晰，能把『暑校』直接轉成語言應試成果", "Bucksmore report card / certificate；完成 mock 與回饋鏈路更明確", "學費依 provider 當期頁面；通常高於普通英語營、低於高端學術營", "適合英語基礎已有一定水平、明確要衝 IELTS 的 15–17 歲學生", "比一般 summer school 更工具化；若孩子只是第一次出國，不一定應先走此路徑"],
+      ["Bucksmore English @ OIC Brighton", "Any Tuesday between 30 Jun–21 Jul 2026；可讀 1–4 週", "OIC Brighton, Brighton", "Bucksmore foundation English route", "20 小時 / 週英語課、OIC Brighton 全封閉校園、Brighton 與 London excursions、boarding structure 較完整", "適合第一次海外寄宿、先練英文和生活規律的學生", "Personalised report card + Bucksmore certification", "Fully inclusive 約 £1,595 / 週", "適合 11–15 歲、所有英文等級均可", "Gmail 庫存郵件顯示部分國籍在 weeks 1–3 已有滿位，且 provider 有 20% nationality cap"],
+      ["Bucksmore English Plus @ OIC Brighton", "30 Jun 2026 或 14 Jul 2026 開課；2 或 4 週", "OIC Brighton, Brighton", "Bucksmore English + 專項活動", "English Plus Adventure / Creative Arts / Science / Sports 等，把主課英語和下午專項工作坊綁在一起", "比純英語營更有『孩子回來能講出具體經歷』的內容感", "Provider report card + certification", "Creative Arts 約 £1,616 / 週；Adventure 約 £1,795 / 週；不同 Plus 主題價格不同", "適合 11–15 歲、第一次海外營又不想只有英文課的家庭", "很適合家長常說的『不要太像補習班、要有活動和國際同學』那一類需求"],
+      ["Bucksmore Pre-University @ St Catharine’s College, Cambridge", "典型起始檔期為 7 Jul 2026；常見 2 週", "St Catharine’s College, Cambridge", "Bucksmore pre-university preparation", "Environmental Science & Sustainability、Maths、Finance & Economics、Law 等 subject route；小班、23 小時 / 週左右、Cambridge 氛圍", "讓學生在 Cambridge 場景內先試『大一程度』學術節奏", "Report card + Bucksmore Letter of Recommendation + certification", "約 £3,195 / 週起，依學科與批次而定", "適合 15–17 歲、B2+、已有學科方向且願意承受更高學術密度的學生", "5 月 Bucksmore 郵件提到 Cambridge 2026 已新增 Law subject，說明此條線仍在擴項"],
+      ["SBC Earlscliffe College Pathways 2026", "29 Jun、13 Jul、20 Jul、27 Jul、3 Aug 2026 開課；可讀 1–4 週", "Earlscliffe, Folkestone, Kent", "Summer Boarding Courses / Earlscliffe College Pathways", "Think Global、Global Leadership、Business: Mini MBA、University Preparation；20 小時 / 週；城鎮型 campus + Canterbury / London 等 excursions", "把『英語 + 全球議題 + pre-university soft skills』做成比較完整的一條線", "Certificate of completion + tutor reference letter", "Residential / day options；費率依週數與方案變動", "適合 13–17 歲，A2+ 到 B1+ 起，想要『不是純語言班、也不是大學 credit course』的中間層學生", "Gmail 附件直接來自 2026 prospectus；很適合想要結構完整、管理穩妥又有學術感的家庭"],
+      ["Reach Cambridge 2026", "3–18 Jul / 17 Jul–1 Aug / 24 Jul–8 Aug / 31 Jul–15 Aug 2026", "Cambridge college accommodation, Cambridge", "Reach Cambridge residential academic programme", "14–18 歲 residential academic programme；常見方向含醫學、工程、心理、創意寫作與領導力；Cambridge city immersion + excursions", "很適合『想要 Cambridge 學術氛圍，但還不到正式大學 credit 課』的高中生", "Completion materials 依官方課程安排", "費率與課程、週次、住宿組合相關；以 2026 brochure / agent pack 為準", "適合 14–18 歲、想做 Cambridge 沉浸式學術 residential 路線的學生", "Reach Cambridge 官方 agents 頁面明確開放合作；OTC 已於 2026-05-26 發開發郵件"],
+      ["TASIS England Summer Program 2026", "Session 1：22 Jun–11 Jul 2026；Session 2：13 Jul–1 Aug 2026；可單期或雙期", "TASIS England, Surrey near London", "structured boarding summer school", "11–17 歲；每期選 1 門 main course + 1 門 elective；校園活動、sport、travel 與 boarding community 結合", "對第一次出國、家長重視 pastoral care、structured community 的情況很友好", "Participation / completion materials 依官方安排", "一般課程單期約 £6,360；EAL 單期約 £5,300；雙期另有組合價", "適合 11–17 歲、希望校園管理穩、活動多、國際學生混合度高的家庭", "官方頁面強調 50+ 國家學生與完整校園管理；OTC 已於 2026-05-26 發開發郵件"],
+      ["Academic Summer London Career Pathways 2026", "28 Jun–12 Jul；12 Jul–26 Jul 2026；部分 Future Gen 可延至 9 Aug", "London Westminster + UK excursions", "career pathways / future study route", "14–17 歲；Medicine、Engineering、Entrepreneurship、Future Gen Study 等 specialist pathways；結合 London visits、workshops 與 leadership output", "更適合已經有職涯方向感、想把暑假變成申請素材的學生", "官方頁面提到可帶走 2 個 CPD qualifications for CV / motivation letter", "Boarding 約 £5,000 / 2 週；Day 約 £3,000 / 2 週；Future Gen Study boarding 約 £4,500 / 2 週", "適合 14–17 歲、希望走 London 城市學習 + career exploration 的家庭", "這不是傳統英文營，更偏 pre-career route；OTC 已於 2026-05-26 發開發郵件"],
+      ["St Clare’s Oxford Summer Courses 2026", "Juniors / Teenagers 多個 7–8 月週次；Teenagers 常見 2–4 週制", "St Clare’s, Oxford", "Oxford summer courses for juniors & teenagers", "9–15 歲 Active English / Young Leaders；15–17 歲 Interactive English、Exam Prep、IB Introduction、Science、Art & Digital Design、Business in Oxford", "低齡和高中段都能找到對應線，尤其適合 Oxford 英語 / 學術 / IB 預備需求", "Participation / completion materials 依課程而定", "例如 Juniors Active English 2 週約 £3,485；Young Leaders 2 週約 £3,750；Teenagers Interactive English 2 週約 £2,345；IB Intro 3 週約 £5,325", "適合 9–17 歲，特別是想在 Oxford 做英語、領導力或 IB 導向體驗的家庭", "St Clare’s 官方 summer brochure 與條款均可查到，且明確存在 agent booking 路徑；OTC 已於 2026-05-26 發開發郵件"],
+      ["ISSOS Cambridge / St Andrews 2026", "Cambridge：9–29 Jul 2026；St Andrews：28 Jun–19 Jul / 22 Jul–12 Aug 2026", "University of Cambridge / University of St Andrews campuses", "ISSOS 三週全包國際暑校", "一門 academic + 一門 elective；3 週 residential；學術、創意與活動平衡；nationality cap 10%", "真正強調國際混合與同齡社交密度，對『結交多國朋友』很有吸引力", "Completion certificate；部分學術方向還有 final showcase / presentation", "All-inclusive 3-week residential；費率以官方 dates & fees 為準", "適合 13–18 歲、願意待滿 3 週、看重國際社交和完整校園社群的學生", "ISSOS 不是短平快；比較吃時間，但也因此更像一段完整的海外學習生活"],
+      ["Immerse Education UK Summer Programmes 2026", "2026 夏季多校區多週次；Oxford / Cambridge / London 均有 session", "Oxford / Cambridge / London college sites", "academic enrichment provider route", "Medicine、Law、Engineering、AI、Architecture、Psychology、Creative Writing 等主題；college-based 學習 + excursions + formal hall 式體驗", "對想要『學科探索 + 名校場景』的家庭吸引力很強，而且內容選擇非常廣", "Certificate / academic report 類材料依官方課程安排", "高價位英國 academic enrichment 路線；以年齡段、校區與住宿層級定價", "適合 13–18 歲、希望在 Oxford / Cambridge / London 場景做學科試跑的學生", "Immerse 官方提供校區 contact 與總部聯絡資訊；OTC 已於 2026-05-26 發開發郵件"],
+      ["InvestIN London Summer Experiences 2026", "2026 夏季；1 週、2 週與 Premium 2 週組合", "UCL campus / central London partner sites", "career immersion / work experience route", "12–14 與 15–18 兩年齡層；Doctor、Lawyer、Engineer、Investment Banker、Psychologist、Media、Art & Design 等 15+ career tracks；含 workplace visits、networking、career coaching", "特別適合把暑假做成『未來專業試玩』，而不是只做英文營的家庭", "Certificate；部分 programme 強調可獲 qualification / UCAS related value 依官方宣稱", "with / without accommodation；以 track、時長與住宿選項定價", "適合 12–18 歲、已有職涯方向感或家長重視履歷故事線的學生", "OTC 郵箱中已有 InvestIN 真實學生報名與簽證支持往來，可視作已有接觸渠道"],
+      ["Concord College Summer School 2026", "Summer 2026；官方頁面已開放諮詢", "Concord College, Shropshire", "boarding school summer school", "在 73 英畝寄宿校園中提供 international summer school；學術、活動與校園共同體平衡，偏 boarding school environment", "對想體驗完整英國寄宿校園、又不一定非要 London / Oxford 城市型的家庭很有吸引力", "Completion materials 依官方安排", "費率需以 2026 官方 summer information 為準", "適合低齡到高中段、偏好封閉校園、安全感和寄宿共同體的家庭", "Concord Summer School 官方查得到 summer 專用聯絡郵箱；OTC 已於 2026-05-26 發開發郵件"],
+      ["CSVPA Cambridge Summer School 2026", "2026 夏季；多門 1 週制藝術設計與表演方向短課", "Cambridge School of Visual & Performing Arts, Cambridge", "arts / design specialist summer school", "3D Design、Animation、Games Design 等 1 週創意課程；藝術院校氛圍明確，偏 studio / creative practice", "對藝術、設計、遊戲、動畫方向的學生比普通綜合暑校更精準", "Participation / completion materials 依官方安排", "課程費依專項與週數；住宿及生活費另計或另配", "適合藝術設計方向學生，尤其想試 studio learning 或作品集導向課程者", "CSVPA 屬專門藝術表演院校，定位和 UAL 不同；OTC 已於 2026-05-26 發開發郵件"],
+      ["Sidcot School Summer Route / Boarding Experience", "2026 夏季；需按校方可開放時段與 summer route 進一步確認", "Sidcot School, Somerset", "boarding school / admissions-facing route", "適合延伸為寄宿校園體驗、看校、短期暑期安排或 boarding environment 觀察；農村校園、活動空間與 pastoral context 較強", "對偏愛安全感、校園一體化和英國寄宿氛圍的家庭，是 London 城市型之外的另一種選擇", "以校方安排為準", "費率與 summer / short stay 類安排待校方進一步確認", "適合想看英國 boarding school 環境、重 pastoral care 與低城市壓力的家庭", "目前先作潛在 summer 路徑觀察；OTC 已於 2026-05-26 向 admissions 發開發郵件"],
+      ["Felsted International Summer School 2026", "2026 夏季已開放登記；完整付款節點顯示至 24 May 2026", "Felsted School, Essex", "traditional boarding school summer school", "國際暑校、英語學習、活動、短途出遊與寄宿生活管理結合；距 Stansted 機場近，對交通安排友好", "很適合第一次去英國、家長重視 boarding supervision、接送便利和成熟營運體系的家庭", "Participation / completion materials 依校方安排", "費率以 2026 官方報名與 enquires 頁面為準；學費、住宿、活動與接送條款需按最新 pack 核對", "適合低齡到高中段、偏好封閉校園與傳統英國寄宿校氛圍的家庭", "官方網站公開列出 International Summer School 專用聯絡方式與報名入口，是很適合後續發展合作的穩定校方型項目"],
+      ["Bell Young Learners Summer Explorer 2026", "Start any Sunday；2026 夏季各校區按週開班", "Bell St Albans / Bell The Leys / Bell Tudor Hall 等", "young learners English + activity route", "11–17 歲；15 小時 / 週 project-based English、Language in Action、活動與 excursion；工作人員比例與 welfare 流程成熟", "對『第一次出國、不要太學術、要英文+活動+照看』這類需求很對路", "Participation / completion materials 依 Bell 安排", "例如部分 Explorer 路線約 £1,150 / 週起；具體依校區、季節與方案而定", "適合 11–17 歲、所有英文等級，尤其適合第一次海外短期營家庭", "Bell 是老牌語言與 young learner 提供方，校區選擇多；之後可補發 group / representative 開發郵件"],
+      ["Oxford Summer Courses 2026", "Courses begin from 28 Jun 2026；至 30 Aug 2026 間多批次", "Oxford / Cambridge / leading UK boarding schools", "Oxford Summer Courses provider route", "small-group tutor-led learning、seminar 式討論、學科選擇多，分年齡層與住宿層級", "適合想把『英式 tutorial 氛圍』做成暑期體驗的家庭", "Participation / completion 類證明依 provider 條款", "Pricing 約 £5,495–£9,995，視年齡段、location 與 tier 而定", "適合 13–24 歲；家長端需先看孩子屬於 junior、teen 還是 older cohort", "品牌辨識度高，但不是 Oxford / Cambridge 官方學位課；需把『使用校園』與『官方 affiliation』講清楚"],
+      ["Oxford Royale Summer School 2026", "Summer 2026；Oxford / Cambridge / London 等多校園批次", "Oxford / Cambridge / London campuses", "Oxford Royale provider route", "Business、Medicine、Law、Engineering、Psychology、Politics & Leadership 等多主題；guest speakers + residential + graduation", "更偏高曝光度的名校場景學術營，適合想先廣泛接觸專業方向的學生", "Completion / graduation materials 依官方條款", "高價位 academic summer provider；學費、住宿、交通需按當年校區核對", "適合 13+ 到 young adult cohort，尤其是想走名校場景學術履歷路線的家庭", "需明確對家長說明：provider 使用名校場地與師資資源，不等於官方錄取背書"],
+      ["MPW Summer School 2026", "2026 夏季主檔；London + Cambridge", "MPW London / Cambridge", "MPW 官方 international summer school", "小班 academic learning、文化活動、career talks、top university visits、35+ nationalities", "比較適合想把『英語 + 學術 + 城市文化』做成平衡組合的學生", "結業證明依 MPW 條款", "費率見 MPW 2026 brochure；通常屬中高價位英國學術暑校", "適合希望在 London / Cambridge 兩城中做較穩妥比較的家庭", "MPW 對『purposeful schedule』強調較多，適合不想太空、也不想太競賽化的學生"],
+      ["Imperial Global Summer School 2026", "29 Jun–10 Jul 2026；3–14 Aug 2026", "Imperial College London", "Imperial 官方 STEM pre-university route", "課堂 lectures、lab sessions、practical workshops、Innovation Challenge；只做 STEM / medicine / business 相關", "如果孩子已明確偏 STEM，這條比普通 university taster 更有學科集中度", "Imperial programme completion materials 依官方規則", "官方高端 pre-university route；費率與住宿依 2026 brochure / fees 頁面", "適合 16–17 歲、學術力較強、希望衝刺 STEM university exposure 的學生", "Imperial 官方路線很清楚，但只適合特定類型學生，不應亂推薦給純英語需求者"],
+      ["UAL International Summer School 2026", "2026 夏季；典型為 3 週制", "University of the Arts London campuses, London", "UAL 官方藝術設計暑校", "art school style studio learning、portfolio building、2D / 3D collage、mark-making、design process、London 藝術城市文化", "對藝術設計方向的孩子很值，因為作品集與 art-school teaching 體驗比『名校打卡』更重要", "Certificate of attendance / digital badge 依課程安排", "課程費 + 住宿；UAL 住宿多為另售，且 16–18 歲可單住，11–15 歲通常需家長陪同附近房間", "適合 11–18 歲藝術設計方向學生，尤其 16–18 歲作品集階段", "這類項目重 portfolio 與 studio culture；住宿 supervision 條款必須提前和家長講清楚"],
+      ["Inspired Summer Camps @ Reddam House Berkshire", "12–25 Jul 2026；26 Jul–8 Aug 2026", "Reddam House Berkshire, Wokingham, UK", "Inspired Global Summer Camps", "英語 / STEAM / Public Speaking / Multi-sports / Wilderness / Performing Arts / Horse riding 等多主題；125 英畝校園", "更像 premium camp 而非純學術夏校，適合年齡更小或重活動體驗的家庭", "Camp completion materials 依 provider 條款", "Residential 約 £3,700 / 2 週；day 約 £1,855；部分專項另有 surcharge", "適合 4–16 歲分齡營，尤其是希望 camp 氣質更強、學術壓力更低的家庭", "這條來自 Gmail 附件；不是『大學暑校』，但對低齡與活動型需求很有競爭力"]
+    ]
+  },
+  {
+    slug: "australia",
+    zh: "澳洲",
+    name: "Australia",
+    intro: "澳洲更適合想把暑期體驗和後續長線升學、學校銜接、在地生活感一起看的家庭，尤其對 Brisbane、Sydney、Melbourne 路線有明確偏好的家長。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；澳洲暑期項目通常由課程費、住宿或 homestay、機場接送、保險與活動費組成。若結合學校參訪或後續正課銜接，文件與時間規劃更重要。",
+    process: [
+      "先判斷是語言/校園體驗，還是與後續 K-12 / pathway / university route 聯動",
+      "看州別、城市、安全感與住宿方式",
+      "核對是否需要監護、health form、學校額外材料",
+      "按合作通道遞交報名或 short-term placement 需求",
+      "同步建立後續澳洲升學或學校銜接備忘錄"
+    ],
+    projects: [
+      ["校園英文與生活體驗營", "南半球假期與校園可開放時段視項目方而定", "Sydney / Brisbane / Melbourne 等", "語言學校或短期校園項目方", "英文課、城市活動、校園參觀、group project", "更重在英語沉浸與生活適應", "多數可提供 participation certificate", "以項目方報價為準", "適合第一次看澳洲環境的家庭", "需提前看州別與學校 calendar"],
+      ["中學校園觀察 + 短期體驗", "依合作校可安排時間", "QLD / NSW / VIC 為主", "K-12 school-facing route", "課堂旁聽、校園 tour、住宿和監護條件比較", "適合把暑期體驗和後續中學申請連起來", "通常以 school visit / short placement 記錄為主", "學校與接待安排差異很大", "適合考慮澳洲中學長線路線的家庭", "需逐校核對 availability"],
+      ["大學城市體驗 + 升學導向營", "暑期批次依 provider 而定", "Brisbane / Sydney / Melbourne", "pathway / university-facing short route", "校園參訪、學科講座、城市與生活規劃", "更適合作為『先看城市與校園』的一步", "一般可有參與證明", "費率通常高於單純英語體驗", "適合 15+ 學生與家長同行決策", "更看重後續升學敘事與適配"]
+    ]
+  },
+  {
+    slug: "new-zealand",
+    zh: "新西蘭",
+    name: "New Zealand",
+    intro: "新西蘭暑期路線通常更偏生活節奏穩、英語輸出與校園安全感，適合希望先做溫和過渡的家庭。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；費用通常由課程、住宿、活動、接送和保險構成，城市間差異較大。",
+    process: [
+      "判斷家庭要的是英語沉浸還是學校觀察",
+      "看 Auckland / Wellington / Christchurch 等城市偏好",
+      "核對住宿、監護和短期健康材料",
+      "按合作路線匹配項目與可報名時段"
+    ],
+    projects: [
+      ["英語沉浸寄宿營", "按暑期批次安排", "Auckland / Christchurch 等", "language + residential route", "英文課、活動、短途 outing", "適合先建立英語環境自信", "completion certificate 常見", "項目費率以項目方為準", "適合初次北半球以外體驗的家庭", "需提前看機票與季節安排"],
+      ["校園觀察與學校體驗", "逐校安排", "主要城市學校區", "school-facing route", "參訪、課堂觀察、校園和住宿條件比較", "更偏向後續選校前置", "以 visit 記錄為主", "通常不是標準固定套餐", "適合中學家庭", "availability 逐校不同"],
+      ["城市生活 + 英文輸出營", "短期批次", "Auckland / Wellington", "city-based short programme", "城市探索、英文任務、文化活動", "提升實際使用英語的輸出感", "參與證明常見", "成本中等", "適合 13+ 學生", "需看團體安排"]
+    ]
+  },
+  {
+    slug: "malaysia",
+    zh: "馬來西亞",
+    name: "Malaysia",
+    intro: "馬來西亞暑期路線更適合作為亞洲區短期英文 / 國際校環境試水，或作為年紀較小學生的過渡型方案。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；項目費通常低於英美澳加主流暑校，但具體仍要看學校、住宿與活動安排。",
+    process: [
+      "先確定是英語營、國際校體驗還是城市型 camp",
+      "看 Kuala Lumpur / Penang / Johor 等城市與交通便利度",
+      "確認住宿、餐食、監護與短期保險安排",
+      "按具體合作通道對接項目方"
+    ],
+    projects: [
+      ["英語提升與國際校體驗營", "暑期短批次", "Kuala Lumpur / Selangor", "international school / camp route", "英文、活動、校園與生活體驗", "適合低風險試水", "participation certificate 常見", "通常成本相對友好", "適合亞洲區短期過渡", "需逐案匹配"],
+      ["親子城市學習營", "短期靈活", "KL / Penang", "family-friendly route", "城市活動、英文輸出、親子同行安排", "適合家長一起看環境", "依項目安排", "由家庭結構決定總成本", "適合低齡或第一次出境家庭", "更多是客製化路線"],
+      ["升學前置觀察營", "依合作校時段", "國際校集中區", "school-facing route", "看校、與後續正課銜接討論", "適合作為正式申請前置", "一般以參訪記錄為主", "按校與住宿方案計", "適合考慮國際校轉軌家庭", "需個案討論"]
+    ]
+  },
+  {
+    slug: "united-states",
+    zh: "美國",
+    name: "United States",
+    intro: "美國暑期項目更容易拉開層次，從大學校園 enrichment 到專題營差異很大，家長最需要防止只看名字不看實際結構。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；美國暑校常見成本構成包括項目費、住宿、保險、簽證、航班及較高的在途管理成本。",
+    process: [
+      "先判斷是 campus enrichment 還是專題營",
+      "核對年齡、住宿與學生獨立能力",
+      "確認美簽、保險與家長 consent 路線",
+      "按具體州別與項目方匹配可報名名額"
+    ],
+    projects: [
+      ["大學校園 enrichment route", "暑期批次", "東西岸大學城市", "campus summer route", "課題課、校園生活、短期 project", "適合感受北美大學氛圍", "completion certificate 常見", "項目費與城市成本較高", "適合 14+ / 15+ 學生", "需提前處理簽證節點"],
+      ["專題學術營", "暑期 1–3 週常見", "多州可有", "subject-focused route", "STEM、寫作、商科、創意等主題", "更偏技能或主題深入", "一般有參與證明", "以主題和住宿方式決定費率", "適合已有明顯主題興趣的學生", "需看英文與同儕競爭環境"],
+      ["美國中學體驗與訪校路線", "按學校安排", "寄宿校 / day school 區域", "school-facing route", "校園參訪、短體驗、住宿與監護比較", "適合後續中學選校家庭", "visit-based record 為主", "不一定是標準套餐", "適合家長深度決策前置", "需逐校談 availability"]
+    ]
+  },
+  {
+    slug: "canada",
+    zh: "加拿大",
+    name: "Canada",
+    intro: "加拿大路線適合想要北美體驗，但又更重視生活平衡、環境安全感和英語實用輸出的家庭。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；費用通常由課程、住宿、活動、接送、保險和簽證或入境文件構成。",
+    process: [
+      "先確定是英語營、校園體驗還是中學觀察",
+      "看 Vancouver / Toronto / 其他城市偏好",
+      "核對住宿、保險與未成年人文件",
+      "按合作通道匹配項目與實際開班時段"
+    ],
+    projects: [
+      ["英語與城市生活營", "暑期短批次", "Toronto / Vancouver", "language + city route", "英文課、城市活動、同儕互動", "適合做英語輸出和北美生活適應", "participation certificate 常見", "成本中等到偏高", "適合首次北美體驗", "需看城市生活成本"],
+      ["中學校園體驗與訪校", "按學校安排", "公私校集中城市", "K-12 school-facing route", "看校、寄宿或監護條件比較", "適合後續加拿大中學家庭", "visit 記錄為主", "按校與住宿方案而定", "適合家長前置決策", "availability 逐校不同"],
+      ["學術 + 活動平衡型暑校", "暑期 1–2 週常見", "多城可有", "balanced summer route", "少量學術課 + 活動 + excursion", "比純語言營更有內容，但壓力不如學術營高", "completion certificate 常見", "由住宿和地點決定費率", "適合 12+ / 13+ 學生", "需看英文與獨立性"]
+    ]
+  }
+];
+
+function summerSchoolCountryPage(route) {
+  const categoryGroups = route.slug === "uk"
+    ? [
+        {
+          id: "london-campus",
+          code: "01",
+          title: "London 名校校園型",
+          description: "適合想要 UCL、KCL、UAL、Imperial 這類大學城市校園感的家庭。通常價格更高，但 academic exposure 和校園故事感也更強。"
+        },
+        {
+          id: "oxbridge-academic",
+          code: "02",
+          title: "Oxford / Cambridge 學術型",
+          description: "適合把暑假做成申請前學科試跑、希望孩子提早摸到 tutorial / seminar / pre-university 節奏的家庭。"
+        },
+        {
+          id: "junior-english",
+          code: "03",
+          title: "Junior 英語寄宿型",
+          description: "更適合 12–16 歲、第一次出國、家長更看重 pastoral care、同齡社交與英文輸出，而不是只追名校名字。"
+        },
+        {
+          id: "premium-camp",
+          code: "04",
+          title: "Premium Camp / 活動導向型",
+          description: "適合低齡、兄弟姊妹一起出行、希望課程壓力低一點、活動多一點、住宿和照看穩一點的家庭。"
+        }
+      ]
+    : [];
+
+  const getProjectCategory = (projectTitle) => {
+    if (route.slug !== "uk") return "default";
+    if (/KCL|UCL|Imperial|UAL|InvestIN|Academic Summer|King’s College London/i.test(projectTitle)) {
+      return "london-campus";
+    }
+    if (/Oxford|Cambridge|Reach Cambridge|ISSOS|Immerse|St Clare|Oxford Royale|Oxford Summer Courses|Bucksmore Pre-University|Earlscliffe/i.test(projectTitle)) {
+      return "oxbridge-academic";
+    }
+    if (/Language in Action|Bucksmore Intensive English|Bucksmore English|Bucksmore IELTS|TASIS|Bell Young Learners|Felsted/i.test(projectTitle)) {
+      return "junior-english";
+    }
+    if (/Inspired|Sidcot|Concord|CSVPA|Camp/i.test(projectTitle)) {
+      return "premium-camp";
+    }
+    return "junior-english";
+  };
+
+  const categoryImageMap = {
+    "london-campus": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    "oxbridge-academic": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "junior-english": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+    "premium-camp": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    default: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+  };
+
+  const projectBrandAssets = {
+    "KCL Pre-University Summer School 2026": { label: "King's College London", url: "https://www.kcl.ac.uk/", domain: "kcl.ac.uk" },
+    "UCL Summer School 2026": { label: "University College London", url: "https://www.ucl.ac.uk/", domain: "ucl.ac.uk" },
+    "Language in Action 倫敦 UCL 校園 Junior Programme": { label: "Language in Action", url: "https://www.languageinaction.co.uk/", domain: "languageinaction.co.uk" },
+    "Malvern Innovate Summer Academy @ UCL": { label: "Malvern International", url: "https://www.malverninternational.com/", domain: "malverninternational.com" },
+    "Bucksmore Intensive English @ St Hilda’s College, Oxford": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "Bucksmore Intensive English @ King’s College London": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "Bucksmore IELTS Preparation @ King’s College London": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "Bucksmore English @ OIC Brighton": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "Bucksmore English Plus @ OIC Brighton": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "Bucksmore Pre-University @ St Catharine’s College, Cambridge": { label: "Bucksmore Education", url: "https://www.bucksmore.com/", domain: "bucksmore.com" },
+    "SBC Earlscliffe College Pathways 2026": { label: "Earlscliffe", url: "https://www.earlscliffe.co.uk/", domain: "earlscliffe.co.uk" },
+    "Reach Cambridge 2026": { label: "Reach Cambridge", url: "https://www.reachcambridge.com/", domain: "reachcambridge.com" },
+    "TASIS England Summer Program 2026": { label: "TASIS England", url: "https://www.tasisengland.org/", domain: "tasisengland.org" },
+    "Academic Summer London Career Pathways 2026": { label: "Academic Summer", url: "https://www.academiccamp.org/", domain: "academiccamp.org" },
+    "St Clare’s Oxford Summer Courses 2026": { label: "St Clare's, Oxford", url: "https://www.stclares.ac.uk/", domain: "stclares.ac.uk" },
+    "ISSOS Cambridge / St Andrews 2026": { label: "ISSOS", url: "https://www.issos.com/", domain: "issos.com" },
+    "Immerse Education UK Summer Programmes 2026": { label: "Immerse Education", url: "https://www.immerse.education/", domain: "immerse.education" },
+    "InvestIN London Summer Experiences 2026": { label: "InvestIN Education", url: "https://www.investin.org/", domain: "investin.org" },
+    "Concord College Summer School 2026": { label: "Concord College", url: "https://concordcollegeuk.com/", domain: "concordcollegeuk.com" },
+    "CSVPA Cambridge Summer School 2026": { label: "CSVPA", url: "https://www.csvpa.com/", domain: "csvpa.com" },
+    "Sidcot School Summer Route / Boarding Experience": { label: "Sidcot School", url: "https://www.sidcot.org.uk/", domain: "sidcot.org.uk" },
+    "Felsted International Summer School 2026": { label: "Felsted School", url: "https://www.felsted.org/", domain: "felsted.org" },
+    "Bell Young Learners Summer Explorer 2026": { label: "Bell English", url: "https://www.bellenglish.com/", domain: "bellenglish.com" },
+    "Oxford Summer Courses 2026": { label: "Oxford Summer Courses", url: "https://oxfordsummercourses.com/", domain: "oxfordsummercourses.com" },
+    "Oxford Royale Summer School 2026": { label: "Oxford Royale", url: "https://www.oxford-royale.com/", domain: "oxford-royale.com" },
+    "MPW Summer School 2026": { label: "MPW", url: "https://www.mpw.ac.uk/", domain: "mpw.ac.uk" },
+    "Imperial Global Summer School 2026": { label: "Imperial College London", url: "https://www.imperial.ac.uk/", domain: "imperial.ac.uk" },
+    "UAL International Summer School 2026": { label: "University of the Arts London", url: "https://www.arts.ac.uk/", domain: "arts.ac.uk" },
+    "Inspired Summer Camps @ Reddam House Berkshire": { label: "Inspired Education", url: "https://www.inspirededu.com/", domain: "inspirededu.com" }
+  };
+
+  const projectMetaOverrides = {
+    "KCL Pre-University Summer School 2026": { age: "16–17歲", city: "London", priceBand: "££££", boarding: "城市宿舍 / 自理" },
+    "UCL Summer School 2026": { age: "17+ / 本科", city: "London", priceBand: "££££", boarding: "城市宿舍 / 自理" },
+    "Language in Action 倫敦 UCL 校園 Junior Programme": { age: "12–18歲", city: "London", priceBand: "£££", boarding: "住校 / 寄宿" },
+    "Malvern Innovate Summer Academy @ UCL": { age: "15–18歲", city: "London", priceBand: "££££", boarding: "住校 / 寄宿" },
+    "Bucksmore Intensive English @ St Hilda’s College, Oxford": { age: "13–17歲", city: "Oxford", priceBand: "££", boarding: "住校 / 寄宿" },
+    "Bucksmore Intensive English @ King’s College London": { age: "13–17歲", city: "London", priceBand: "££", boarding: "住校 / 寄宿" },
+    "Bucksmore IELTS Preparation @ King’s College London": { age: "15–17歲", city: "London", priceBand: "£££", boarding: "住校 / 寄宿" },
+    "Bucksmore English @ OIC Brighton": { age: "11–15歲", city: "Brighton", priceBand: "££", boarding: "住校 / 寄宿" },
+    "Bucksmore English Plus @ OIC Brighton": { age: "11–15歲", city: "Brighton", priceBand: "££", boarding: "住校 / 寄宿" },
+    "Bucksmore Pre-University @ St Catharine’s College, Cambridge": { age: "15–17歲", city: "Cambridge", priceBand: "£££", boarding: "住校 / 寄宿" },
+    "SBC Earlscliffe College Pathways 2026": { age: "13–17歲", city: "Kent", priceBand: "£££", boarding: "可日校 / 住校" },
+    "Reach Cambridge 2026": { age: "14–18歲", city: "Cambridge", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "TASIS England Summer Program 2026": { age: "11–17歲", city: "Surrey", priceBand: "££££", boarding: "住校 / 寄宿" },
+    "Academic Summer London Career Pathways 2026": { age: "14–17歲", city: "London", priceBand: "£££", boarding: "可日校 / 住校" },
+    "St Clare’s Oxford Summer Courses 2026": { age: "9–17歲", city: "Oxford", priceBand: "£££", boarding: "可日校 / 住校" },
+    "ISSOS Cambridge / St Andrews 2026": { age: "13–18歲", city: "Cambridge", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Immerse Education UK Summer Programmes 2026": { age: "13–18歲", city: "Oxford / Cambridge / London", priceBand: "££££", boarding: "住校 / 寄宿" },
+    "InvestIN London Summer Experiences 2026": { age: "12–18歲", city: "London", priceBand: "£££", boarding: "可日校 / 住校" },
+    "Concord College Summer School 2026": { age: "低齡–高中", city: "Shropshire", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "CSVPA Cambridge Summer School 2026": { age: "藝術方向", city: "Cambridge", priceBand: "£££", boarding: "城市宿舍 / 自理" },
+    "Sidcot School Summer Route / Boarding Experience": { age: "待核", city: "Somerset", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Felsted International Summer School 2026": { age: "低齡–高中", city: "Essex", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Bell Young Learners Summer Explorer 2026": { age: "11–17歲", city: "多校區", priceBand: "££", boarding: "住校 / 寄宿" },
+    "Oxford Summer Courses 2026": { age: "13–24歲", city: "Oxford / Cambridge", priceBand: "££££", boarding: "住校 / 寄宿" },
+    "Oxford Royale Summer School 2026": { age: "13+ 歲", city: "Oxford / Cambridge / London", priceBand: "££££", boarding: "住校 / 寄宿" },
+    "MPW Summer School 2026": { age: "13+ 歲", city: "London / Cambridge", priceBand: "£££", boarding: "住校 / 寄宿" },
+    "Imperial Global Summer School 2026": { age: "16–17歲", city: "London", priceBand: "££££", boarding: "城市宿舍 / 自理" },
+    "UAL International Summer School 2026": { age: "11–18歲", city: "London", priceBand: "£££", boarding: "城市宿舍 / 自理" },
+    "Inspired Summer Camps @ Reddam House Berkshire": { age: "4–16歲", city: "Berkshire", priceBand: "£££", boarding: "可日校 / 住校" }
+  };
+
+  const inferProjectMeta = (project) => {
+    const [title, time, location, routeType, , , , fee, audience, note] = project;
+    const merged = `${title} ${routeType} ${fee} ${audience} ${note}`;
+
+    if (projectMetaOverrides[title]) {
+      return { ...projectMetaOverrides[title], time };
+    }
+
+    let age = "待核";
+    const ageMatch = merged.match(/(\d{1,2})\s*[–-]\s*(\d{1,2})\s*歲/);
+    if (ageMatch) {
+      age = `${ageMatch[1]}–${ageMatch[2]}歲`;
+    } else if (/本科|undergraduate|young adult/i.test(merged)) {
+      age = "17+ / 本科";
+    }
+
+    let city = "英國";
+    if (/London/i.test(location)) city = "London";
+    else if (/Oxford/i.test(location)) city = "Oxford";
+    else if (/Cambridge/i.test(location)) city = "Cambridge";
+    else if (/Brighton/i.test(location)) city = "Brighton";
+    else if (/Surrey/i.test(location)) city = "Surrey";
+    else if (/Essex/i.test(location)) city = "Essex";
+    else if (/Kent|Folkestone/i.test(location)) city = "Kent";
+    else if (/Berkshire|Wokingham/i.test(location)) city = "Berkshire";
+    else if (/Somerset/i.test(location)) city = "Somerset";
+    else if (/Shropshire/i.test(location)) city = "Shropshire";
+
+    let priceBand = "£££";
+    if (/£1,\d{3}|£2,\d{3}|1,5|1,6|1,7|1,8|1,9/.test(fee)) priceBand = "££";
+    if (/£3,\d{3}|£4,\d{3}|£5,\d{3}/.test(fee)) priceBand = "£££";
+    if (/£6,\d{3}|£7,\d{3}|£8,\d{3}|£9,\d{3}|高價位|高端/.test(fee)) priceBand = "££££";
+    if (/待校方|待報價|為準/.test(fee) && !/£/.test(fee)) priceBand = "待報價";
+
+    let boarding = "住宿待核";
+    if (/day option|day /i.test(merged)) boarding = "可日校 / 住校";
+    if (/residential|boarding|寄宿|宿舍|full board|college accommodation/i.test(merged)) boarding = "住校 / 寄宿";
+    if (/自理|另售|住宿另計|城市生活/i.test(merged)) boarding = "城市宿舍 / 自理";
+
+    return { age, city, priceBand, boarding, time };
+  };
+
+  const renderProjectExpandedContent = (project) => {
+    const brand = projectBrandAssets[project[0]];
+    const favicon = brand ? `https://www.google.com/s2/favicons?sz=128&domain=${encodeURIComponent(brand.domain)}` : "";
+    return `
+      <div class="summer-project-feature">
+        <div class="summer-project-feature-brand">
+          ${brand ? `<img src="${favicon}" alt="${brand.label} site mark" loading="lazy" />` : ""}
+          <div class="summer-project-feature-brand-copy">
+            <strong>${brand ? brand.label : project[3]}</strong>
+            <span>${brand ? brand.domain : project[2]}</span>
+            ${brand ? `<a href="${brand.url}" target="_blank" rel="noopener">官方網站</a>` : ""}
+          </div>
+        </div>
+        <div class="summer-project-feature-copy">
+          <div class="summer-project-chip-row">
+            <span class="summer-project-chip">${project[3]}</span>
+            <span class="summer-project-chip">${project[2]}</span>
+          </div>
+          <p>${project[5]}</p>
+        </div>
+      </div>
+      <table>
+        <thead><tr><th>欄目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>時間</td><td>${project[1]}</td></tr>
+          <tr><td>地點</td><td>${project[2]}</td></tr>
+          <tr><td>項目方 / 路線類型</td><td>${project[3]}</td></tr>
+          <tr><td>主要內容</td><td>${project[4]}</td></tr>
+          <tr><td>預期結果</td><td>${project[5]}</td></tr>
+          <tr><td>證書 / 結業形式</td><td>${project[6]}</td></tr>
+          <tr><td>收費構成</td><td>${project[7]}</td></tr>
+          <tr><td>適合人群</td><td>${project[8]}</td></tr>
+          <tr><td>OTC 備註</td><td>${project[9]}</td></tr>
+        </tbody>
+      </table>
+    `;
+  };
+
+  const renderProjectExpandedPanel = (project, index, displayNumber = index + 1) => `
+      <article id="summer-project-${route.slug}-${index + 1}" class="summer-project-card summer-project-expanded-card" data-active="true">
+        <div class="summer-project-card-head">
+          <b>${String(displayNumber).padStart(2, "0")}</b>
+          <div>
+            <strong>${project[0]}</strong>
+            <span>${project[8]}</span>
+          </div>
+        </div>
+        <div class="report-table-wrap article-service-table">
+          ${renderProjectExpandedContent(project)}
+        </div>
+      </article>
+    `;
+
+  const renderProjectDetail = (project, index, displayNumber = index + 1) => `
+      <details id="summer-project-${route.slug}-${index + 1}" class="summer-project-card">
+        <summary><b>${String(displayNumber).padStart(2, "0")}</b><strong>${project[0]}</strong><span>${project[8]}</span></summary>
+        <div class="report-table-wrap article-service-table">
+          ${renderProjectExpandedContent(project)}
+        </div>
+      </details>
+    `;
+
+  const hotCourseCards = route.slug === "uk"
+    ? categoryGroups.map((group) => {
+        const groupEntries = route.projects.map((project, index) => ({ project, index }))
+          .filter(({ project }) => getProjectCategory(project[0]) === group.id);
+
+        const cards = groupEntries
+          .map(({ project, index }, groupIndex) => {
+            const meta = inferProjectMeta(project);
+            return `
+            <button type="button" class="summer-hot-course-card" data-project-jump="summer-project-${route.slug}-${index + 1}">
+              <b>${String(groupIndex + 1).padStart(2, "0")}</b>
+              <strong>${project[0]}</strong>
+              <span>${project[3]}</span>
+              <div class="summer-hot-meta-row">
+                <span class="summer-hot-meta-pill">${meta.age}</span>
+                <span class="summer-hot-meta-pill">${meta.city}</span>
+                <span class="summer-hot-meta-pill">${meta.priceBand}</span>
+                <span class="summer-hot-meta-pill">${meta.boarding}</span>
+              </div>
+              <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
+              <em>${meta.city} · ${meta.age}</em>
+            </button>
+          `; }).join("");
+
+        const details = groupEntries
+          .map(({ project, index }, groupIndex) => `
+            <div class="summer-project-detail-fragment" data-project-detail="summer-project-${route.slug}-${index + 1}" data-group-id="${group.id}">
+              ${renderProjectExpandedPanel(project, index, groupIndex + 1)}
+            </div>
+          `)
+          .join("");
+
+        return `
+          <section class="summer-hot-category">
+            <div class="summer-hot-category-head">
+              <b>${group.code}</b>
+              <div>
+                <strong>${group.title}</strong>
+                <p>${group.description}</p>
+              </div>
+            </div>
+            <div class="summer-hot-course-grid">
+              ${cards}
+            </div>
+            <div class="summer-project-detail-stage" data-project-stage="${group.id}" hidden></div>
+            <div class="summer-project-detail-store" hidden>
+              ${details}
+            </div>
+          </section>
+        `;
+      }).join("")
+    : `
+      <div class="summer-hot-course-grid">
+        ${route.projects.map((project, index) => {
+          const meta = inferProjectMeta(project);
+          return `
+          <button type="button" class="summer-hot-course-card" data-project-jump="summer-project-${route.slug}-${index + 1}">
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <strong>${project[0]}</strong>
+            <span>${project[3]}</span>
+            <div class="summer-hot-meta-row">
+              <span class="summer-hot-meta-pill">${meta.age}</span>
+              <span class="summer-hot-meta-pill">${meta.city}</span>
+              <span class="summer-hot-meta-pill">${meta.priceBand}</span>
+              <span class="summer-hot-meta-pill">${meta.boarding}</span>
+            </div>
+            <p>${project[8].replace(/^適合/, "").replace(/的家庭$/, "").replace(/的學生$/, "")}</p>
+            <em>${meta.city} · ${meta.age}</em>
+          </button>
+        `; }).join("")}
+      </div>
+    `;
+
+  const routeNotes = route.slug === "uk" ? "" : "";
+
+  const routePainPoints = route.slug === "uk"
+    ? `
+      <div class="resource-list summer-painpoint-list">
+        <article class="resource-row">
+          <div>
+            <div class="meta">家長最常問 01</div>
+            <h3>現在還來得及報嗎？</h3>
+            <p>很多暑校是邊報邊滿。先定類型，再搶熱門週次和床位。</p>
+          </div>
+          <span class="pill">先搶位</span>
+        </article>
+        <article class="resource-row">
+          <div>
+            <div class="meta">家長最常問 02</div>
+            <h3>選大學暑校、寄宿英文營，還是職涯探索營？</h3>
+            <p>先看年齡、英文、成熟度，再看家庭要體驗還是要申請素材。</p>
+          </div>
+          <span class="pill">先分流</span>
+        </article>
+        <article class="resource-row">
+          <div>
+            <div class="meta">家長最常問 03</div>
+            <h3>住校、homestay 還是城市宿舍？</h3>
+            <p>第一次出國或年齡偏小，先看寄宿校；London 城市路線更適合自理能力強的學生。</p>
+          </div>
+          <span class="pill">看住宿</span>
+        </article>
+      </div>
+    `
+    : "";
+
+  const routeProjectDetailsBlock = route.slug === "uk"
+    ? ""
+    : `
+      <div class="section-head compact-head summer-detail-head">
+        <div class="eyebrow">Detailed Project Notes</div>
+        <h3>項目清單詳表</h3>
+        <p>時間、地點、內容、結果、證書與收費構成都放在同一張表裡，方便家長真正做比較。</p>
+      </div>
+      <div class="summer-project-list">
+        ${route.projects.map((project, index) => renderProjectDetail(project, index)).join("")}
+      </div>
+    `;
+
+  return pageShell({
+    title: `OTC ${route.zh}暑期項目頁 | OTC Study Hub`,
+    current: "resources",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
+    path: `/zh/summer-school-alliance/${route.slug}/`,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero">
+        <div class="band">
+          <div class="eyebrow">OTC Summer School Country Desk</div>
+          <h1>${route.zh}暑期項目頁</h1>
+          <h2>${route.name}</h2>
+          <p>${route.intro}</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-country&country=${encodeURIComponent(route.name)}">立即咨詢</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 OTC ${route.zh}暑期項目。`)}">WhatsApp</a>
+            <a class="btn btn-secondary" href="/summer-school-alliance/">返回暑校聯盟入口</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="two-col">
+          <div class="about-panel surface">
+            <div class="eyebrow">Fee Explanation</div>
+            <h3>收費說明</h3>
+            <p>${route.fee}</p>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Standard Process</div>
+            <h3>標準流程</h3>
+            <ol>${route.process.map((step) => `<li>${step}</li>`).join("")}</ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Parent Concerns</div>
+          <h2>先把家長最在意的問題講清楚。</h2>
+        </div>
+        ${routePainPoints}
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Hot Course List</div>
+          <h2>熱門課程總表</h2>
+          <p>先找對類型，再點開細看。</p>
+        </div>
+        ${hotCourseCards}
+        ${routeProjectDetailsBlock}
+      </section>
+
+      <script>
+        (() => {
+          const isUkGrouped = ${route.slug === "uk" ? "true" : "false"};
+          let activeProjectId = null;
+
+          const clearUkStages = () => {
+            document.querySelectorAll("[data-project-stage]").forEach((stage) => {
+              stage.hidden = true;
+              stage.innerHTML = "";
+            });
+            document.querySelectorAll(".summer-hot-course-card").forEach((item) => item.removeAttribute("data-active"));
+            activeProjectId = null;
+          };
+
+          const jumpToProject = (projectId, shouldUpdateHash = false) => {
+            if (isUkGrouped) {
+              if (activeProjectId === projectId) {
+                clearUkStages();
+                if (shouldUpdateHash) {
+                  history.replaceState(null, "", window.location.pathname + window.location.search);
+                }
+                return;
+              }
+              const fragment = document.querySelector('[data-project-detail="' + projectId + '"]');
+              if (!fragment) return;
+              const groupId = fragment.getAttribute("data-group-id");
+              const stage = document.querySelector('[data-project-stage="' + groupId + '"]');
+              if (!stage) return;
+              clearUkStages();
+              const button = document.querySelector('[data-project-jump="' + projectId + '"]');
+              const grid = button ? button.closest(".summer-hot-course-grid") : null;
+              if (grid && button) {
+                button.insertAdjacentElement("afterend", stage);
+              }
+              stage.hidden = false;
+              stage.innerHTML = fragment.innerHTML;
+              if (button) button.setAttribute("data-active", "true");
+              activeProjectId = projectId;
+              if (shouldUpdateHash) {
+                history.replaceState(null, "", "#" + projectId);
+              }
+              stage.scrollIntoView({ behavior: "smooth", block: "nearest" });
+              return;
+            }
+
+            const panel = document.getElementById(projectId);
+            if (!panel) return;
+            document.querySelectorAll(".summer-project-card").forEach((item) => item.removeAttribute("data-active"));
+            panel.setAttribute("open", "");
+            panel.setAttribute("data-active", "true");
+            if (shouldUpdateHash) {
+              history.replaceState(null, "", "#" + projectId);
+            }
+            panel.scrollIntoView({ behavior: "smooth", block: "start" });
+          };
+
+          document.querySelectorAll("[data-project-jump]").forEach((button) => {
+            button.addEventListener("click", () => {
+              jumpToProject(button.getAttribute("data-project-jump"), true);
+            });
+          });
+
+          const loadFromHash = () => {
+            if (!window.location.hash) return;
+            jumpToProject(decodeURIComponent(window.location.hash.slice(1)));
+          };
+
+          window.addEventListener("hashchange", loadFromHash);
+          window.addEventListener("load", loadFromHash);
+        })();
+      </script>
+    `
+  });
+}
 
 const australiaBusinessLanding = pageShell({
   title: "Australia Business Landing & Education Market Support | OTC Study Hub",
@@ -16061,33 +17262,113 @@ const search = pageShell({
       const results = document.querySelector("[data-search-results]");
       const meta = document.querySelector("[data-search-meta]");
       const data = JSON.parse(document.getElementById("search-data").textContent);
+      const params = new URLSearchParams(window.location.search);
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function tokenize(value) {
+        return String(value)
+          .toLowerCase()
+          .replaceAll("/", " ")
+          .replaceAll(",", " ")
+          .replaceAll(":", " ")
+          .replaceAll(";", " ")
+          .replaceAll("(", " ")
+          .replaceAll(")", " ")
+          .replaceAll("-", " ")
+          .replaceAll("–", " ")
+          .replaceAll("—", " ")
+          .replaceAll("|", " ")
+          .split(" ")
+          .map((part) => part.trim())
+          .filter(Boolean);
+      }
+
+      function scoreItem(item, terms) {
+        const title = String(item.title || "").toLowerCase();
+        const type = String(item.type || "").toLowerCase();
+        const desc = String(item.desc || "").toLowerCase();
+        const url = String(item.url || "").toLowerCase();
+        const haystack = [type, title, desc, url].join(" ");
+        const titleTokens = tokenize(title);
+        const descTokens = tokenize(desc);
+        let score = 0;
+
+        for (const term of terms) {
+          if (!haystack.includes(term)) return -1;
+          if (title === term) score += 120;
+          if (title.startsWith(term)) score += 80;
+          if (title.includes(term)) score += 45;
+          if (titleTokens.includes(term)) score += 35;
+          if (type.includes(term)) score += 18;
+          if (descTokens.includes(term)) score += 12;
+          if (url.includes(term)) score += 8;
+        }
+
+        if (terms.length > 1 && title.includes(terms.join(" "))) score += 40;
+        if (String(item.url || "").startsWith("/zh/")) score += 2;
+        return score;
+      }
 
       function render(items, query = "") {
-        meta.textContent = query ? items.length + " result(s) for \"" + query + "\"" : data.length + " searchable records";
+        if (query) {
+          meta.textContent = items.length + ' result(s) for "' + query + '"';
+        } else {
+          meta.textContent = data.length + " searchable records";
+        }
+
+        if (!items.length) {
+          results.innerHTML = \`
+            <div class="search-empty-state">
+              <strong>No matching results</strong>
+              <p>Try a course title, qualification level, institution, country, app name, visa topic or keyword such as OTHM, nursing, Australia, top-up or UCBELT.</p>
+            </div>
+          \`;
+          return;
+        }
+
         results.innerHTML = items.slice(0, 80).map((item) => \`
           <a class="search-result" href="\${item.url}">
-            <span>\${item.type}</span>
-            <strong>\${item.title}</strong>
-            <p>\${item.desc}</p>
+            <span>\${escapeHtml(item.type)}</span>
+            <strong>\${escapeHtml(item.title)}</strong>
+            <p>\${escapeHtml(item.desc)}</p>
           </a>
         \`).join("");
       }
 
       function doSearch() {
-        const query = input.value.trim().toLowerCase();
+        const rawQuery = input.value.trim();
+        const query = rawQuery.toLowerCase();
         if (!query) {
+          params.delete("q");
+          const cleanUrl = window.location.pathname + (params.toString() ? "?" + params.toString() : "");
+          window.history.replaceState({}, "", cleanUrl);
           render(data.slice(0, 18), "");
           return;
         }
-        const terms = query.split(/\\s+/).filter(Boolean);
-        const filtered = data.filter((item) => {
-          const haystack = (item.type + " " + item.title + " " + item.desc).toLowerCase();
-          return terms.every((term) => haystack.includes(term));
-        });
-        render(filtered, input.value.trim());
+        params.set("q", rawQuery);
+        window.history.replaceState({}, "", window.location.pathname + "?" + params.toString());
+
+        const terms = tokenize(query);
+        const ranked = data
+          .map((item) => ({ item, score: scoreItem(item, terms) }))
+          .filter((entry) => entry.score >= 0)
+          .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
+          .map((entry) => entry.item);
+
+        render(ranked, rawQuery);
       }
 
       input.addEventListener("input", doSearch);
+      const preset = params.get("q");
+      if (preset) input.value = preset;
       doSearch();
     </script>
   `
@@ -16522,6 +17803,7 @@ write("publishing/ebook-publishing-support", ebookPublishingSupport);
 write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCareBilingualSeries);
 write("study-guides", guides);
 write("courses", courses);
+write("learning-platform", learningPlatform);
 write("services", services);
 serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
@@ -16557,6 +17839,13 @@ write("apps", apps);
 write("apps/ucbelt-speaking", ucbelt);
 write("apps/australian-citizenship-test", australianCitizenshipTest);
 write("resources", resources);
+write("summer-school-alliance", summerSchoolAlliance);
+write("zh/summer-school-alliance", summerSchoolAlliance);
+summerSchoolCountryRoutes.forEach((route) => {
+  const page = summerSchoolCountryPage(route);
+  write(`summer-school-alliance/${route.slug}`, page);
+  write(`zh/summer-school-alliance/${route.slug}`, page);
+});
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);
