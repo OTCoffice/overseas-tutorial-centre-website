@@ -10,21 +10,21 @@ Publication status: expanded manuscript draft under editorial review
 
 ## Publication Boundary
 
-This manuscript is an independent OTC bilingual study-support resource. It is not an official Pearson, BTEC or awarding-body publication. It does not reproduce official assignment briefs, mark schemes, assessment decisions or model answers. Learners must always follow their centre-issued brief, teacher guidance and academic-integrity rules.
+This manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.
 
-本書稿是 OTC / 海外書局的獨立雙語學習支持資源，不是 Pearson、BTEC 或任何 awarding body 的官方出版物。本書不提供官方 assignment brief、mark scheme、assessment decision 或可提交範文。學生必須以學校或 centre 發出的正式 brief、教師要求和 academic integrity 規則為準。
+本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。
 
 ---
 
 ## Preface
 
-Many Chinese learners studying BTEC Level 3 Business are not weak because they lack ideas. They are often weak because their ideas do not yet travel well into English assignment writing.
+Many Chinese learners studying BTEC Level 3 Business have subject ideas, classroom understanding and business examples, but those ideas often do not yet travel well into English assignment writing.
 
 In class, a learner may understand what a business aims to do, why customers matter, why a marketing method can help, or why finance affects decision making. But when the assignment brief asks the learner to explain, analyse, recommend or evaluate, the answer often becomes unclear. It may become too descriptive, too translated, too general, unsupported by evidence, or too dependent on AI-generated wording.
 
 This toolkit is designed for that gap.
 
-It does not replace a textbook. It does not give answers to copy. It does not promise grades. Instead, it trains the learner to move through a disciplined process:
+It trains the learner to move through a disciplined bilingual output process:
 
 1. Read the assignment brief carefully.
 2. Identify the command word and task object.
@@ -36,9 +36,9 @@ It does not replace a textbook. It does not give answers to copy. It does not pr
 
 ### 中文導讀
 
-很多中國學生學 BTEC Level 3 Business 時，真正卡住的地方不是完全不懂商科，而是不知道如何把已經懂的內容轉成英文 assignment。學生可能知道「企業需要顧客」「推廣可以增加銷售」「成本會影響決策」，但一到正式作業，就容易寫成中文作文翻譯版，或者寫成沒有證據的泛泛而談。
+很多中國學生學 BTEC Level 3 Business 時，真正卡住的地方，是如何把已經懂的內容轉成英文 assignment。學生可能知道「企業需要顧客」「推廣可以增加銷售」「成本會影響決策」，但一到正式作業，就容易寫成中文作文翻譯版，或者寫成沒有證據的泛泛而談。
 
-本工具箱的目的，是幫學生建立一套可重複使用的 assignment writing process。它不是範文集，也不是代寫指南，而是幫學生理解 brief、拆解 criteria、規劃 evidence、組織 paragraph，並避免 academic misconduct。
+本工具箱的目的，是幫學生建立一套可重複使用的 assignment writing process：理解 brief、拆解 criteria、規劃 evidence、組織 paragraph，並避免 academic misconduct。
 
 ---
 

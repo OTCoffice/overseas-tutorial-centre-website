@@ -1430,7 +1430,7 @@ function universityModuleSupportList() {
 
 const countryGatewayData = [
   { slug: "united-kingdom", zh: "英國", name: "United Kingdom", href: "/countries/united-kingdom/", labelClass: "label-country-uk", note: "OTC 英國總部所在市場，適合本科、碩士、博士、pathway、寄宿學校及國際課程銜接。", universities: ["University of Oxford", "University of Cambridge", "Imperial College London", "UCL", "King's College London", "University of Manchester", "University of Edinburgh", "University of Warwick"], colleges: ["Study Group UK / Europe ISC", "INTO University Partnerships", "Kaplan International Pathways", "Navitas UK Colleges", "Oxford International Education Group", "Cambridge Education Group"], highSchools: ["UK independent boarding schools", "Sixth form colleges", "State boarding schools", "International Study Centres"], primarySchools: ["Preparatory schools", "Junior boarding schools", "Independent primary schools", "London day schools"] },
-  { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已建立較完整的辦公室、VET / TAFE、升學與市場支持頁面。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
+  { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已升級為澳洲本地協調 + 中國五城宣傳並行：北京、上海、廣州、深圳、西安同步開展說明會、渠道拜訪、家長諮詢與 VET / TAFE 路線初篩。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
   { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
   { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", universities: ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"], colleges: ["Seneca Polytechnic", "George Brown College", "Humber College", "Centennial College", "BCIT", "Fanshawe College"], highSchools: ["Ontario public school boards", "BC school districts", "Private boarding schools", "OSSD schools"], primarySchools: ["Public elementary schools", "Private elementary schools", "International junior schools", "Catholic school boards"] },
   { slug: "new-zealand", zh: "新西蘭", name: "New Zealand", href: "/countries/new-zealand/", labelClass: "label-country-new-zealand", note: "適合大學、理工學院、中小學及家庭型低齡留學路線。", universities: ["University of Auckland", "University of Otago", "Victoria University of Wellington", "University of Canterbury", "Massey University", "Auckland University of Technology"], colleges: ["Te Pukenga / institutes of technology", "Unitec", "Ara Institute of Canterbury", "English language colleges"], highSchools: ["Auckland secondary schools", "Wellington secondary schools", "Christchurch high schools", "Boarding schools"], primarySchools: ["Auckland primary schools", "Wellington primary schools", "Local state primary schools", "Independent primary schools"] },
@@ -1594,7 +1594,7 @@ function searchItems() {
     ["University Agent & Institutional Cooperation", "/university-partnerships/", "OTC institutional cooperation page for university admissions teams and international offices reviewing representative capability."],
     ["Consultation AI", "/consultation-chat/", "Instant first-response guidance for education consulting cases."],
     ["Overseas Study Review / 留學導報", "/insights/", "Overseas Publishing House series for study-abroad briefings, pathway notes, public education commentary and shareable bilingual guidance."],
-    ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, covering coordination base, university applications, student support, institutional services, market intelligence and professional referral."],
+    ["Australia Office Presence", "/australia-office-presence/", "OTC Australia-facing office route from NSW, now paired with China five-city outreach in Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an for family briefings, VET / TAFE route explanation and student file screening."],
     ...countryGatewayData.filter((country) => country.slug !== "australia").map((country) => [
       `${country.zh}留學入口 / ${country.name} Study Gateway`,
       `/countries/${country.slug}/`,
@@ -1605,7 +1605,7 @@ function searchItems() {
     ["東亞入口 / East Asia Gateway", "/offices/east-asia/", "OTC regional gateway for students and families from Mainland China, Hong Kong, Taiwan, Japan and Korea."],
     ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management and Australia market intelligence."],
-    ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness and professional referral boundaries."],
+    ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["Courses", "/courses/", "OTHM qualifications, international curriculum bilingual tutoring, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
@@ -8869,7 +8869,7 @@ const universityPartnerships = pageShell({
 
 const portalNotice = `
   <div class="notice portal-notice">
-    This first portal layer is a lightweight client-access interface for proposal viewing and case coordination. It is not a substitute for a production authentication system. Sensitive passports, transcripts and financial evidence should still be exchanged through agreed secure channels.
+    This first portal layer is a lightweight client-access interface for proposal viewing and case coordination. For long-term use, sensitive passports, transcripts and financial evidence should move through production authentication and agreed secure channels.
   </div>
 `;
 
@@ -9189,7 +9189,7 @@ const home = pageShell({
         <div class="curriculum-map">${internationalCurriculumCards(4)}</div>
         <aside class="curriculum-panel">
           <h3>From understanding to output</h3>
-          <p>The focus is not ready-made answers. It is concept explanation, command-word reading, assignment planning, paragraph structure, evidence use and academic phrasing.</p>
+          <p>The focus is concept explanation, command-word reading, assignment planning, paragraph structure, evidence use and academic phrasing, with clear academic-integrity boundaries.</p>
           <div class="curriculum-tags">
             <span>雙語概念輔導</span>
             <span>Academic Writing</span>
@@ -9497,7 +9497,7 @@ const publishing = pageShell({
           </a>
         </div>
         <div style="height:18px"></div>
-        <div class="notice">These are independent Overseas Publishing House / OTC educational support materials. They are not official awarding-body publications, official assessment documents, model answers or guaranteed-progression products.</div>
+        <div class="notice">These are independent Overseas Publishing House / OTC educational support materials. Official awarding-body publications, assessment documents, progression decisions and submission-ready answers remain outside this catalogue.</div>
       </div>
       <div style="height:28px"></div>
       <div class="series-shelf">
@@ -9536,7 +9536,7 @@ const publishing = pageShell({
           </a>
         </div>
         <div style="height:18px"></div>
-        <div class="notice">Series status: planning and tutor-resource preparation. These study companions will be independent Overseas Publishing House learning resources and will not be official OTHM specifications, assessment briefs, model answers or awarding-body publications.</div>
+        <div class="notice">Series status: planning and tutor-resource preparation. These study companions are planned as independent Overseas Publishing House learning resources, used alongside official OTHM specifications, centre-issued assessment briefs and awarding-body guidance.</div>
       </div>
       <div style="height:28px"></div>
       <div class="series-shelf">
@@ -9659,7 +9659,7 @@ const bilingualStudySupportMarketReport = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Executive Position</div>
         <h2>Level 3 is the publishing entrance; Level 4/5 is the centre-delivery horizon.</h2>
-        <p>OTC should not treat BTEC Level 3 as secondary. For Overseas Publishing House, Level 3 / International Level 3 is the immediate bilingual study-support market for international-school and university-progression learners. BTEC Higher Nationals Level 4 / 5 HNC-HND remains the longer-term delivery, LMS and centre-approval route.</p>
+        <p>OTC should treat BTEC Level 3 as a core bilingual publishing entrance. For Overseas Publishing House, Level 3 / International Level 3 is the immediate bilingual output-system market for international-school and university-progression learners. BTEC Higher Nationals Level 4 / 5 HNC-HND remains the longer-term delivery, LMS and centre-approval route.</p>
       </div>
       <div class="index-grid ebook-service-grid">
         <article><b>01</b><strong>BTEC Level 3</strong><span>Assignment brief, criteria, evidence planning, Pass / Merit / Distinction awareness and bilingual study companions.</span></article>
@@ -9675,7 +9675,7 @@ const bilingualStudySupportMarketReport = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Market Gap</div>
         <h2>Students do not only need content. They need bilingual output infrastructure.</h2>
-        <p>Official specifications, textbooks and assessment rules remain essential. The weak point for Chinese EAL learners is converting subject understanding into responsible English academic output. OTC's role is to publish independent resources that support understanding, vocabulary, planning and academic integrity rather than providing model answers.</p>
+        <p>Official specifications, textbooks and assessment rules remain essential. The weak point for Chinese EAL learners is converting subject understanding into responsible English academic output. OTC's role is to publish independent bilingual output systems that support understanding, vocabulary, planning, evidence discipline and academic integrity.</p>
       </div>
       <div class="metrics-grid">
         <article><strong>Subject understanding</strong><span>中文概念到英文學科語言</span><p>Key-term explanation, bilingual concept mapping and course-linked glossary products.</p></article>
@@ -9683,7 +9683,7 @@ const bilingualStudySupportMarketReport = pageShell({
         <article><strong>Assignment planning</strong><span>Brief to evidence plan</span><p>Assignment brief breakdown, source planning, evidence tables and milestone checklists.</p></article>
         <article><strong>Academic writing</strong><span>Paragraph and report structure</span><p>PEEAL-style frames, evaluation language, Harvard referencing and feedback literacy.</p></article>
         <article><strong>Progression clarity</strong><span>升學路線與資格理解</span><p>Level 3 to undergraduate progression, Higher Nationals, foundation and top-up route notes.</p></article>
-        <article><strong>Compliance boundary</strong><span>合規學習支持</span><p>Independent study support only: no official status, no model answers, no assignment completion.</p></article>
+        <article><strong>Compliance boundary</strong><span>合規學習支持</span><p>Independent study-support positioning with clear boundaries around official documents, submission-ready writing, assessed work and grade promises.</p></article>
       </div>
     </section>
 
@@ -9725,7 +9725,7 @@ const bilingualStudySupportMarketReport = pageShell({
         </div>
       </div>
       <div style="height:18px"></div>
-      <div class="notice">Working source file: reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md. This report is an internal OTC publishing roadmap and public-facing market-positioning page. It is not an official Pearson, Cambridge, IB, College Board or awarding-body document.</div>
+      <div class="notice">Working source file: reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md. This report is an internal OTC publishing roadmap and public-facing market-positioning page. Official Pearson, Cambridge, IB, College Board and awarding-body documents remain the controlling sources for qualification rules.</div>
     </section>
   `
 });
@@ -9744,7 +9744,7 @@ const bilingualStudySupportMarketReportZh = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">核心判斷</div>
         <h2>Level 3 是出版入口；Level 4/5 是中心交付與進階路線。</h2>
-        <p>OTC 不應把 BTEC Level 3 視為次要方向。對海外書局而言，BTEC Level 3 / International Level 3 正好對接中國國際學校、國際部和 pathway learners 的升本需求，是最適合先做雙語教輔出版的入口。BTEC Higher Nationals Level 4 / 5 HNC-HND 則應繼續作為 OTC 申請 Pearson centre、online delivery 和 LMS 建設的中長線。</p>
+        <p>OTC 應把 BTEC Level 3 視為核心雙語教輔方向。對海外書局而言，BTEC Level 3 / International Level 3 正好對接中國國際學校、國際部和 pathway learners 的升本需求，是最適合先做雙語輸出系統出版的入口。BTEC Higher Nationals Level 4 / 5 HNC-HND 則應繼續作為 OTC 申請 Pearson centre、online delivery 和 LMS 建設的中長線。</p>
       </div>
       <div class="index-grid ebook-service-grid">
         <article><b>01</b><strong>BTEC Level 3</strong><span>assignment brief 解讀、criteria awareness、evidence planning、Pass / Merit / Distinction 目標意識與雙語學習伴侶。</span></article>
@@ -9759,8 +9759,8 @@ const bilingualStudySupportMarketReportZh = pageShell({
     <section class="band">
       <div class="section-head compact-head">
         <div class="eyebrow">市場缺口</div>
-        <h2>學生缺的不是資料，而是雙語輸出系統。</h2>
-        <p>官方 specification、教材和 assessment rules 仍然是基礎。中國 EAL 學生真正卡住的地方，是如何把已經理解的學科內容轉換成合規、清楚、有證據的英文學術輸出。OTC 的定位不是提供範文或代寫，而是出版能支持理解、詞彙、規劃與 academic integrity 的獨立學習資源。</p>
+        <h2>學生需要一套雙語輸出系統。</h2>
+        <p>官方 specification、教材和 assessment rules 仍然是基礎。中國 EAL 學生真正卡住的地方，是如何把已經理解的學科內容轉換成合規、清楚、有證據的英文學術輸出。OTC 的定位是出版能支持理解、詞彙、規劃、evidence discipline 與 academic integrity 的獨立雙語學習資源。</p>
       </div>
       <div class="metrics-grid">
         <article><strong>概念理解</strong><span>中文概念到英文學科語言</span><p>用雙語概念圖、key-term explanation 和 course-linked glossary 降低閱讀門檻。</p></article>
@@ -9768,7 +9768,7 @@ const bilingualStudySupportMarketReportZh = pageShell({
         <article><strong>作業規劃</strong><span>Brief to evidence plan</span><p>幫學生讀懂 assignment brief、拆解任務、建立 evidence table 和進度清單。</p></article>
         <article><strong>英文寫作</strong><span>Paragraph and report structure</span><p>使用 PEEAL 類寫作框架、evaluation language、Harvard referencing 和 feedback literacy。</p></article>
         <article><strong>升學理解</strong><span>Progression clarity</span><p>解釋 Level 3 to undergraduate progression、Higher Nationals、foundation、top-up 等路線。</p></article>
-        <article><strong>合規邊界</strong><span>Independent support only</span><p>明確標示獨立學習支持，不冒充官方教材、不提供 model answers、不承諾通過。</p></article>
+        <article><strong>合規邊界</strong><span>Independent support only</span><p>以獨立學習支持語言呈現，清楚標示官方文件、centre guidance、可提交成文與保分承諾的邊界。</p></article>
       </div>
     </section>
 
@@ -9781,7 +9781,7 @@ const bilingualStudySupportMarketReportZh = pageShell({
         <article class="resource-row"><div><h3>BTEC Level 3 Business Assignment Writing Toolkit</h3><p>最優先。面向中國國際課程學生，處理 assignment brief、criteria、evidence planning 和 academic phrasing。</p><a class="btn btn-light" href="/zh/publishing/btec-level-3-business-assignment-writing-toolkit/">打開產品策劃</a></div><span class="pill">Priority 1</span></article>
         <article class="resource-row"><div><h3>A-Level / IAL Business Evaluation Writing Guide</h3><p>適合國際學校與雙語學生的 essay-output 產品，重點訓練 evaluation、case application 和論述結構。</p></div><span class="pill">Priority 2</span></article>
         <article class="resource-row"><div><h3>BTEC Level 3 Business Bilingual Study Companion</h3><p>以課程伴侶和術語表為核心，可成為 Pearson / BTEC Level 3 雙語出版線的母本。</p></div><span class="pill">Priority 3</span></article>
-        <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>跨 BTEC、Foundation、HNC/HND、OTHM 的通用寫作產品，提供結構而不是替學生完成作業。</p></div><span class="pill">Cross-route</span></article>
+        <article class="resource-row"><div><h3>Academic Writing for Assignment-Based Courses</h3><p>跨 BTEC、Foundation、HNC/HND、OTHM 的通用寫作產品，聚焦結構化輸出、evidence planning 與 academic integrity。</p></div><span class="pill">Cross-route</span></article>
         <article class="resource-row"><div><h3>BTEC Higher Nationals Business Assignment Writing Companion</h3><p>對接 HNC/HND 和 OTC Pearson centre enquiry 的長線產品。</p></div><span class="pill">HN route</span></article>
       </div>
     </section>
@@ -9810,7 +9810,7 @@ const bilingualStudySupportMarketReportZh = pageShell({
         </div>
       </div>
       <div style="height:18px"></div>
-      <div class="notice">工作源文件：reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md。本頁是 OTC / 海外書局的市場定位與出版路線頁，不是 Pearson、Cambridge、IB、College Board 或任何 awarding body 的官方文件。</div>
+      <div class="notice">工作源文件：reports/OTC_Bilingual_Study_Support_Market_Report_2026-05-25.md。本頁是 OTC / 海外書局的市場定位與出版路線頁；Pearson、Cambridge、IB、College Board 及各 awarding body 的官方文件仍是資格規則的最終依據。</div>
     </section>
   `
 });
@@ -9826,8 +9826,8 @@ const btecLevel3BusinessAssignmentToolkit = pageShell({
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Product Positioning</div>
-        <h2>Not a textbook replacement. A bilingual output system for assignment-based learners.</h2>
-        <p>BTEC Level 3 and Pearson Vocational learners often understand business concepts in class but struggle to read assignment briefs, interpret criteria, plan evidence and write in English with enough academic discipline. This toolkit sits between tutoring and publishing: it helps learners plan, phrase, reference and self-check without crossing into model-answer or assignment-completion territory.</p>
+        <h2>A bilingual output system for assignment-based learners.</h2>
+        <p>BTEC Level 3 and Pearson Vocational learners often understand business concepts in class, then need a disciplined system for reading assignment briefs, interpreting criteria, planning evidence and writing in English. This toolkit sits between tutoring and publishing: it trains planning, phrasing, referencing and self-checking while keeping academic-integrity boundaries visible.</p>
       </div>
       <div class="index-grid ebook-service-grid">
         <article><b>01</b><strong>Reader</strong><span>Chinese EAL learners in BTEC Level 3 / International Level 3 Business, Pearson vocational routes and international-school pathway settings.</span></article>
@@ -9871,9 +9871,9 @@ const btecLevel3BusinessAssignmentToolkit = pageShell({
           <div class="eyebrow">Compliance Boundary</div>
           <h3>Keep the product academically clean.</h3>
           <ul>
-            <li>Independent study-support resource only.</li>
-            <li>Not an official Pearson, BTEC or awarding-body publication.</li>
-            <li>No model answers, submission-ready paragraphs or guaranteed grades.</li>
+            <li>Independent bilingual study-support resource.</li>
+            <li>Use alongside centre-issued Pearson / BTEC specifications, assignment briefs and tutor guidance.</li>
+            <li>Academic-integrity boundary: planning, evidence, phrasing and self-checking support only; submission-ready writing and grade promises sit outside the product scope.</li>
             <li>All examples should be generic, original and clearly framed as practice.</li>
           </ul>
         </div>
@@ -9893,7 +9893,7 @@ const btecLevel3BusinessAssignmentToolkit = pageShell({
         <article><b>Extension</b><strong>App companion</strong><span>Convert glossary, brief-reading checks and evidence-planning prompts into a small browser app.</span></article>
       </div>
       <div style="height:18px"></div>
-      <div class="notice">This product plan is part of the OTC bilingual study-support publishing roadmap. It is a public planning page, not a finished publication or an official Pearson / BTEC document.</div>
+      <div class="notice">This product plan is part of the OTC bilingual output-system publishing roadmap for assignment-based learners. Official Pearson / BTEC qualification details, assessment rules and centre requirements should be checked through the relevant official and centre sources before use.</div>
     </section>
   `
 });
@@ -9911,8 +9911,8 @@ const btecLevel3BusinessAssignmentToolkitZh = pageShell({
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">產品定位</div>
-        <h2>不是替代教材，而是 assignment-based learners 的雙語輸出系統。</h2>
-        <p>BTEC Level 3 / Pearson Vocational 學生常見問題不是完全不懂商科概念，而是看不透 assignment brief、criteria、evidence requirement，也不知道如何把中文理解轉成合規英文段落。這本工具箱位於輔導與出版之間：教學生規劃、表達、引用和自查，但不提供可提交範文，也不替學生完成作業。</p>
+        <h2>面向 assignment-based learners 的雙語輸出系統。</h2>
+        <p>BTEC Level 3 / Pearson Vocational 學生需要一套穩定輸出流程：讀懂 assignment brief、辨認 criteria、規劃 evidence requirement，並把中文理解轉成合規英文段落。這本工具箱位於輔導與出版之間，訓練學生規劃、表達、引用和自查，同時把 academic integrity 邊界放在寫作流程中。</p>
       </div>
       <div class="index-grid ebook-service-grid">
         <article><b>01</b><strong>讀者</strong><span>BTEC Level 3 / International Level 3 Business、Pearson vocational routes、國際學校與 pathway learners。</span></article>
@@ -9956,9 +9956,9 @@ const btecLevel3BusinessAssignmentToolkitZh = pageShell({
           <div class="eyebrow">合規邊界</div>
           <h3>產品必須保持學術乾淨。</h3>
           <ul>
-            <li>只作獨立學習支持資源。</li>
-            <li>不是 Pearson、BTEC 或 awarding body 官方出版物。</li>
-            <li>不提供 model answers、可提交段落或保分承諾。</li>
+            <li>獨立雙語學習支持資源。</li>
+            <li>配合 centre-issued Pearson / BTEC specification、assignment brief 與 tutor guidance 使用。</li>
+            <li>合規邊界：支持 planning、evidence、phrasing 與 self-checking；可提交成文和保分承諾不屬於產品範圍。</li>
             <li>所有示例應為原創練習材料，並清楚標示練習用途。</li>
           </ul>
         </div>
@@ -9978,7 +9978,7 @@ const btecLevel3BusinessAssignmentToolkitZh = pageShell({
         <article><b>Extension</b><strong>App companion</strong><span>將詞彙、brief-reading checks 和 evidence-planning prompts 轉成 browser app。</span></article>
       </div>
       <div style="height:18px"></div>
-      <div class="notice">本頁屬於 OTC / 海外書局雙語教輔出版路線的公開策劃頁，不是 finished publication，也不是 Pearson / BTEC 官方文件。</div>
+      <div class="notice">本頁屬於 OTC / 海外書局面向 assignment-based learners 的雙語輸出系統出版路線。Pearson / BTEC 資格名稱、assessment rules 和 centre requirements 應以官方與 centre 最新文件為準。</div>
     </section>
   `
 });
@@ -9995,7 +9995,7 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Sample Context</div>
         <h2>Practice brief: improving a small business marketing campaign.</h2>
-        <p>The sample below demonstrates the intended publication style: concise English instruction, Chinese concept support, structured evidence planning and clear academic-integrity boundaries. The practice task is original OTC sample material and is not taken from any official Pearson / BTEC assignment brief.</p>
+        <p>The sample below demonstrates the intended publication style: concise English instruction, Chinese concept support, structured evidence planning and clear academic-integrity boundaries. The practice task is original OTC sample material created independently from Pearson / BTEC assignment briefs.</p>
       </div>
       <div class="two-col">
         <div class="about-panel surface">
@@ -10006,11 +10006,11 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
         </div>
         <div class="about-panel surface">
           <div class="eyebrow">中文導讀</div>
-          <h3>這不是要學生寫廣告文案。</h3>
-          <p>本題的核心不是「想一個好看的宣傳活動」，而是訓練學生如何把企業問題、目標顧客、低成本渠道、證據與限制放進一個清楚的 business report。</p>
-          <p>學生需要證明自己理解 marketing decision，而不是只描述 cafe 很需要宣傳。</p>
+          <h3>本題訓練 business report 的輸出邏輯。</h3>
+          <p>學生要把企業問題、目標顧客、低成本渠道、證據與限制放進一個清楚的 business report。</p>
+          <p>學生需要證明自己理解 marketing decision，並用證據說明 cafe 的宣傳需求與方案限制。</p>
           <p><strong>讀題順序：</strong>先圈出 business problem，再圈出 target customers，最後圈出 evaluate。這三個詞決定整篇 report 的結構。</p>
-          <p><strong>中文思維轉換：</strong>不要從「我覺得這個方法好」開始，而要從「這個方法是否符合企業情境、證據和限制」開始。</p>
+          <p><strong>中文思維轉換：</strong>從「這個方法是否符合企業情境、證據和限制」開始，再決定英文段落如何下判斷。</p>
         </div>
       </div>
     </section>
@@ -10026,7 +10026,7 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
             <tr><th>Brief wording</th><th>What the learner must do</th><th>中文提示</th><th>Evidence to prepare</th></tr>
           </thead>
           <tbody>
-            <tr><td>Explain the current marketing problem.</td><td>Identify the business issue, target customers and why the current approach is not enough.</td><td>不是泛泛說「銷售不好」，而是指出週末客流、學生家庭客群、現有渠道不足。中文審題時要問：到底是哪一類顧客沒有被有效觸達？目前方法為何不夠？</td><td>Sales pattern, customer observation, competitor comparison, local area notes.</td></tr>
+            <tr><td>Explain the current marketing problem.</td><td>Identify the business issue, target customers and why the current approach is not enough.</td><td>指出週末客流、學生家庭客群、現有渠道不足。中文審題時要問：到底是哪一類顧客沒有被有效觸達？目前方法為何不夠？</td><td>Sales pattern, customer observation, competitor comparison, local area notes.</td></tr>
             <tr><td>Recommend a suitable promotional approach.</td><td>Choose realistic marketing actions that fit budget, business size and customer group.</td><td>建議要可執行，不能像大公司 campaign；要符合小店資源。中文思考時先排除「燒錢廣告」「明星代言」這類不合情境的方案，再選低成本、高可操作性的方案。</td><td>Social media plan, loyalty card outline, partner bookstore idea, simple cost estimate.</td></tr>
             <tr><td>Evaluate likely limits.</td><td>Show what might reduce success and how the business could monitor results.</td><td>Distinction 類寫法通常需要看到限制、風險、條件和衡量方式。中文常見錯誤是只寫「這個方法有優點和缺點」，但沒有判斷什麼情況下有效、什麼情況下失效。</td><td>Budget risk, staff time, weak data, seasonality, tracking method.</td></tr>
           </tbody>
@@ -10038,9 +10038,9 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
           <div class="eyebrow">中文審題支架</div>
           <h3>每一句 brief 都要拆成「動詞 + 對象 + 證據」。</h3>
           <ul>
-            <li><strong>Explain</strong>：不是列點，而是說清原因、關係和後果。</li>
-            <li><strong>Recommend</strong>：不是隨便提建議，而是選一個與企業資源相符的方案。</li>
-            <li><strong>Evaluate</strong>：不是寫優缺點清單，而是作出有條件的判斷。</li>
+            <li><strong>Explain</strong>：說清原因、關係和後果。</li>
+            <li><strong>Recommend</strong>：選一個與企業資源相符的方案。</li>
+            <li><strong>Evaluate</strong>：作出有條件的判斷。</li>
           </ul>
         </div>
         <div class="about-panel surface">
@@ -10058,12 +10058,12 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
     <section class="band compact-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Sample Page 2</div>
-        <h2>Pass / Merit / Distinction awareness without giving model answers.</h2>
+        <h2>Pass / Merit / Distinction awareness with academic-integrity boundaries.</h2>
       </div>
       <div class="resource-list">
         <article class="resource-row"><div><h3>Pass-level direction</h3><p>Describe the business problem and explain one reasonable marketing response with basic evidence. The answer should be clear and relevant, but may remain mostly descriptive.</p><p><strong>中文：</strong>先做到任務完整、概念正確、證據基本相關。學生要能說清楚：企業遇到什麼問題、建議什麼方法、為什麼這個方法與題目有關。</p><p><strong>避免：</strong>只寫「咖啡店應該多做宣傳」但沒有說明目標顧客和具體渠道。</p></div><span class="pill">P</span></article>
         <article class="resource-row"><div><h3>Merit-level direction</h3><p>Apply evidence more carefully to the cafe. Compare more than one promotional option and explain why one option fits the business better.</p><p><strong>中文：</strong>不能只背 marketing mix，要把證據真正放回企業情境。學生應比較 social media、loyalty card、bookstore partnership 的適用性。</p><p><strong>升級方法：</strong>用「對這家小店而言」來限制分析範圍，避免把大企業答案套進小企業題目。</p></div><span class="pill">M</span></article>
-        <article class="resource-row"><div><h3>Distinction-level direction</h3><p>Evaluate trade-offs, limits and conditions. A stronger answer explains what could go wrong, what data is missing and how the owner should judge success.</p><p><strong>中文：</strong>高分不是字數更多，而是判斷更成熟、限制更清楚。要寫出方案成功依賴哪些條件，例如 staff time、學生回流率、社媒觸達率或季節因素。</p><p><strong>高分信號：</strong>能指出「即使方案便宜，也可能因缺乏執行時間或數據追蹤而效果有限」。</p></div><span class="pill">D</span></article>
+        <article class="resource-row"><div><h3>Distinction-level direction</h3><p>Evaluate trade-offs, limits and conditions. A stronger answer explains what could go wrong, what data is missing and how the owner should judge success.</p><p><strong>中文：</strong>高分來自更成熟的判斷、更清楚的限制和更穩定的證據使用。要寫出方案成功依賴哪些條件，例如 staff time、學生回流率、社媒觸達率或季節因素。</p><p><strong>高分信號：</strong>能指出「即使方案便宜，也可能因缺乏執行時間或數據追蹤而效果有限」。</p></div><span class="pill">D</span></article>
       </div>
     </section>
 
@@ -10142,7 +10142,7 @@ const btecLevel3BusinessAssignmentToolkitSample = pageShell({
         </table>
       </div>
       <div style="height:18px"></div>
-      <div class="notice">Publication boundary: this sample is an independent OTC practice spread. It is not an official Pearson, BTEC or awarding-body assignment brief, mark scheme, model answer or guaranteed-grade product.</div>
+      <div class="notice">Publication boundary: this independent OTC practice spread supports brief reading, evidence planning and writing structure. Official Pearson / BTEC briefs, mark schemes and assessment decisions remain with official and centre sources. Submission-ready writing and grade promises sit outside this product boundary.</div>
     </section>
   `
 });
@@ -10234,7 +10234,7 @@ const guides = pageShell({
   body: `
     <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing</div><h1>Study Guides</h1><p>Independent bilingual study companions for business-management learners. The six OTC OTHM Level 5 Business Management first-edition single-unit guides are now live on Payhip.</p></div></section>
     <section class="band">
-      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management single-unit study companions are live on Payhip with assigned ISBN records. Publishing compliance: OTC study companions are independent learning resources and do not represent official OTHM publication status, official assessment documents, model answers or guaranteed-outcome products.</div>
+      <div class="notice">Series status: six OTHM Level 5 Diploma in Business Management single-unit study companions are live on Payhip with assigned ISBN records. Publishing compliance: OTC study companions are independent learning resources used alongside official centre guidance; official OTHM status, assessment documents, submission-ready answers and guaranteed outcomes remain outside the product scope.</div>
       <div style="height:28px"></div>
       <article class="resource-row">
         <div>
@@ -12259,7 +12259,7 @@ function externalProgrammeDetailPage(route) {
           <div style="height:24px"></div>
           <div class="ou-course-directory">${openUniversityCourseList()}</div>
           <div style="height:24px"></div>
-          <div class="notice">OTC provides tutoring and academic support only. Learners remain registered with The Open University. OTC does not act for OU, change grades, submit work, complete TMAs or provide ready-made answers for submission.</div>
+          <div class="notice">OTC provides tutoring and academic support only. Learners remain registered with The Open University. Grade decisions, submissions, TMAs and submission-ready answers remain with the learner, OU and official OU processes.</div>
         </section>
         <script>
           const ouState = { subject: "all", type: "all" };
@@ -12315,7 +12315,7 @@ function externalProgrammeDetailPage(route) {
           <div style="height:24px"></div>
           <div class="ou-course-directory">${btecPearsonCourseList()}</div>
           <div style="height:24px"></div>
-          <div class="notice">OTC provides tutoring and academic support only. Learners remain registered with their own Pearson-approved centre or provider. OTC does not act for Pearson, submit learner work, complete assignments, create portfolios for submission or provide ready-made answers.</div>
+          <div class="notice">OTC provides tutoring and academic support only. Learners remain registered with their own Pearson-approved centre or provider. Pearson decisions, learner submissions, assessed portfolios and submission-ready answers remain outside OTC's support boundary.</div>
         </section>
         <script>
           const btecState = { subject: "all", type: "all" };
@@ -12362,7 +12362,7 @@ function externalProgrammeDetailPage(route) {
             <h2>Two entry routes for undergraduate, master's and doctoral learners.</h2>
             <p>This page is designed for international students already studying university modules and needing structured academic support. Students may start by subject area or by their current university. OTC can scope courseware support, exam-question banks, coursework planning, dissertation / thesis / project tutoring and academic English support after reviewing the exact module documents.</p>
           </div>
-          <div class="notice">Service boundary: OTC provides independent tutoring and academic support. It is not an official service of the listed universities, does not act as an awarding body, does not complete assessed work and does not provide ready-made answers for submission.</div>
+          <div class="notice">Service boundary: OTC provides independent tutoring and academic support. Awarding-body decisions, university services, assessed work and submission-ready answers remain outside OTC's support boundary.</div>
           <div style="height:18px"></div>
           <div class="pathway-strip">
             <a href="/external-programme-support/">External support overview</a>
@@ -12444,7 +12444,7 @@ const academicTutoring = pageShell({
     <section class="band">
       <div class="section-head">
         <h2>Independent learning support, not assignment completion.</h2>
-        <p>These tutoring routes help learners understand concepts, plan work, improve academic communication and build sustainable study habits. They do not provide model answers or complete assessed work.</p>
+        <p>These tutoring routes help learners understand concepts, plan work, improve academic communication and build sustainable study habits, with assessed work and submission-ready answers kept outside the support boundary.</p>
       </div>
       <div class="support-table support-table-detail">
         <article>
@@ -12662,7 +12662,7 @@ const apps = pageShell({
         <article><span>08</span><strong>BTEC Level 3 Assignment Toolkit App</strong><p>Companion app concept for bilingual vocabulary checks, assignment-brief breakdown, evidence-planning prompts and Pass / Merit / Distinction self-checks linked to the new <a href="/publishing/btec-level-3-business-assignment-writing-toolkit/">BTEC Level 3 product plan</a>.</p></article>
       </div>
       <div style="height:22px"></div>
-      <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources. They are not official test papers, official question banks, awarding-body materials or guaranteed-outcome products. Related publishing roadmap: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
+      <div class="notice">All practice apps and tools are independent OTC / Overseas Publishing resources for preparation, vocabulary, practice and self-checking. Official test papers, official question banks, awarding-body materials and guaranteed-outcome claims remain outside the product scope. Related publishing roadmap: <a href="/publishing/bilingual-study-support-market-report/">Bilingual Study Support Market Report</a>.</div>
     </section>
   `
 });
@@ -12880,6 +12880,46 @@ const australiaPathwayCards = [
   ["Route C", "管理升學路線", "OTHM Level 7 → 澳洲大學碩士銜接", "適合有工作經驗、希望進入管理層的人士", "更適合健康管理、社區服務管理、項目管理與教育管理方向。"]
 ];
 
+const australiaChinaPromotionCities = [
+  ["Beijing", "北京", "政策、國際學校與高端家長說明會", "Policy-facing briefings, international-school family sessions and partner due diligence."],
+  ["Shanghai", "上海", "國際課程、Pathway 與本科/碩士轉向", "International-curriculum families, pathway providers and university progression cases."],
+  ["Guangzhou", "廣州", "大灣區家庭、職業教育與澳洲升學", "Greater Bay Area family consultations, VET / TAFE explainers and Australia study-route screening."],
+  ["Shenzhen", "深圳", "科技、IT、商科、創意與職業轉向", "Technology, IT, business, creative and career-change route presentations."],
+  ["Xi'an", "西安", "西北落地樣板、VET / TAFE 說明與渠道培訓", "Northwest China pilot city for VET / TAFE briefings, channel training and student evidence-pack preparation."]
+];
+
+function australiaChinaPromotionPanel(locale = "en") {
+  const isZh = locale === "zh";
+  return `
+    <section class="band compact-band australia-china-promotion" id="china-five-city-outreach">
+      <div class="section-head compact-head">
+        <div class="eyebrow">${isZh ? "China Outreach Rollout" : "China Outreach Rollout"}</div>
+        <h2>${isZh ? "澳洲路線同步推進中國五大城市宣傳工作。" : "Australia Route outreach is moving into five major Chinese cities."}</h2>
+        <p>${isZh
+          ? "OTC Australia Route 現在不只是在澳洲本地做辦公室與院校路線建設，也在中國端建立宣傳與初篩節點：北京、上海、廣州、深圳、西安。重點是公開說明、家長諮詢、渠道培訓、VET / TAFE 路線解釋和學生文件初篩；不將宣傳工作表述為官方代理授權、簽證保證或錄取保證。"
+          : "OTC Australia Route is now developing two sides of the route at the same time: Australia-facing coordination and China-facing outreach. Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an are being used as briefing and screening cities for family consultations, channel training, VET / TAFE explanation and student evidence-pack preparation. Outreach does not imply provider appointment, visa assurance or guaranteed admission."}
+        </p>
+      </div>
+      <div class="vet-tafe-screening-grid">
+        ${australiaChinaPromotionCities.map(([en, zh, zhFocus, enFocus]) => `
+          <article>
+            <span>${en}</span>
+            <strong>${isZh ? zh : `${en} / ${zh}`}</strong>
+            <p>${isZh ? zhFocus : enFocus}</p>
+          </article>
+        `).join("")}
+      </div>
+      <div class="notice advice-signpost">
+        <strong>${isZh ? "合規口徑" : "Compliance wording"}</strong>
+        <p>${isZh
+          ? "五城宣傳定位為教育資訊、課程路線、文件準備與合作渠道溝通；正式申請、院校代表權限、受監管移民/法律/稅務/職業註冊事項，仍以書面授權、官方規則及合資格專業人士意見為準。"
+          : "The five-city rollout is an education-information, pathway-explanation, document-readiness and channel-communication activity. Formal applications, provider representation, regulated migration/legal/tax/professional-registration matters remain subject to written authority, official rules and qualified professional advice."}
+        </p>
+      </div>
+    </section>
+  `;
+}
+
 const australiaChinaQualificationRows = [
   ["普通高中 / 高考", "Foundation、Diploma、部分本科直入", "看高考省份、總分比例、目標專業與英文門檻。", "高中成績單、高考成績、畢業證、英文成績"],
   ["國際高中 A-Level / IB / AP", "本科直入、學分或先修優勢", "看科目匹配、預估分 / 最終分、理科先修與作品集要求。", "官方成績、學校預估、課程大綱、英文成績"],
@@ -13006,7 +13046,7 @@ const australiaPathwaysLanding = pageShell({
       <div class="band">
         <div class="eyebrow">OTC Australia Pathways</div>
         <h1>你的學歷，<br>在澳洲值多少？</h1>
-        <p>先判斷你要走升學、職業培訓，還是管理銜接。</p>
+        <p>先判斷你要走升學、職業培訓，還是管理銜接；同時把澳洲本地協調與中國五城宣傳節點接起來。</p>
         <p class="australia-hero-note">三條路線可互相銜接，但每一步的資格用途不同：學術入學、職業能力、執業註冊與移民評估不能混為一談。</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://wa.me/447947991572?text=I%20would%20like%20an%20Australia%20pathway%20credit%20assessment">免費學分評估</a>
@@ -13015,6 +13055,8 @@ const australiaPathwaysLanding = pageShell({
         </div>
       </div>
     </section>
+
+    ${australiaChinaPromotionPanel("zh")}
 
     <section class="band compact-band">
       <div class="section-head compact-head">
@@ -13125,17 +13167,17 @@ const australiaPathwaysLanding = pageShell({
 const australiaOfficePresence = pageShell({
   title: "Australia Office Presence | OTC Study Hub",
   current: "about",
-  description: "OTC's Australia-facing office route from NSW: coordination base, university applications, student support, institutional services, market intelligence and professional referral.",
+  description: "OTC's Australia-facing office route from NSW, paired with China five-city outreach in Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an for family briefings, VET / TAFE explanation and application screening.",
   path: "/australia-office-presence/",
   body: `
-    <section class="page-hero australia-office-hero"><div class="band"><div class="eyebrow">Australia Office Presence</div><h1>OTC Australia Office Route</h1><p>A staged NSW-based operating route for education consulting, student support, institutional services and Australia-facing market development.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence">Contact OTC</a><a class="btn btn-secondary" href="/about/">Back to About</a><a class="btn btn-secondary" href="/zh/australia-office-presence/">中文頁面</a></div></div></section>
+    <section class="page-hero australia-office-hero"><div class="band"><div class="eyebrow">Australia Office Presence</div><h1>OTC Australia Office Route</h1><p>A staged NSW-based operating route for education consulting, student support, institutional services and Australia-facing market development, now paired with China outreach in Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an.</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Office%20Presence">Contact OTC</a><a class="btn btn-secondary" href="/about/">Back to About</a><a class="btn btn-secondary" href="/zh/australia-office-presence/">中文頁面</a></div></div></section>
 
     <section class="band">
       <div class="australia-office-intro">
         <div>
           <div class="eyebrow">Operating Position</div>
-          <h2>Establishing presence first, then expanding service depth.</h2>
-          <p>OTC's Australia route begins with a practical NSW coordination base and expands into university application support, family communication, bilingual institutional services, market intelligence and carefully managed professional referral. The route is designed for evidence-based development: each activity should leave a clean record that can support business planning, institutional conversations and professional review.</p>
+          <h2>Establishing Australia presence while building China-side outreach.</h2>
+          <p>OTC's Australia route begins with a practical NSW coordination base and expands into university application support, family communication, bilingual institutional services, market intelligence and carefully managed professional referral. The next development layer is China-side outreach: Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an are being used for briefings, partner conversations, family consultations and student-file screening. The route is designed for evidence-based development: each activity should leave a clean record that can support business planning, institutional conversations and professional review.</p>
           <figure class="coordination-illustration" aria-label="Australia education coordination illustration">
             <svg viewBox="0 0 820 260" role="img" aria-labelledby="coordinationIllustrationTitle">
               <title id="coordinationIllustrationTitle">Australia education coordination network</title>
@@ -13243,6 +13285,8 @@ const australiaOfficePresence = pageShell({
       </div>
     </section>
 
+    ${australiaChinaPromotionPanel("en")}
+
     <section class="band compact-band" id="centre-updates">
       <div class="institutional-update-board">
         <div class="institutional-update-head">
@@ -13275,6 +13319,12 @@ const australiaOfficePresence = pageShell({
             <p>OTC has organised Study NSW briefing records, the CDU Global enquiry, school-profile review drafts and representative-readiness materials into a public progress tracker. Formal agent or representative status depends on written provider approval.</p>
             <a href="#australia-institutional-progress">View progress</a>
           </article>
+          <article>
+            <b>China Outreach</b>
+            <strong>Five-city promotion work has started</strong>
+            <p>Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an are being used as China-side outreach nodes for Australia Route briefings, VET / TAFE explanation, family consultations and channel preparation.</p>
+            <a href="#china-five-city-outreach">View cities</a>
+          </article>
         </div>
       </div>
     </section>
@@ -13288,7 +13338,8 @@ const australiaOfficePresence = pageShell({
       <div class="metrics-grid">
         <article><strong>Study NSW</strong><span>Briefing and school-profile pipeline</span><p>NSW school and pathway briefing records are being converted into review drafts for Chinese-family screening before school-side confirmation.</p></article>
         <article><strong>Charles Darwin University</strong><span>CDU Global enquiry recorded</span><p>CDU is tracked as the Northern Territory university / TAFE route. OTC records enquiry reference 260523-000334 and is awaiting formal agent / representative process guidance.</p></article>
-        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>Australia office route, Study NT completion evidence, provider profiles and compliance boundaries are now available for institutional review.</p></article>
+        <article><strong>Agency readiness</strong><span>Public evidence pack prepared</span><p>Australia office route, Study NT completion evidence, provider profiles, China five-city outreach notes and compliance boundaries are now available for institutional review.</p></article>
+        <article><strong>China outreach</strong><span>Five-city promotion layer</span><p>Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an are being used for route briefings, family consultations, VET / TAFE explanation and channel preparation.</p></article>
         <article><strong>Boundary</strong><span>No partnership claim without agreement</span><p>Public references to providers support route explanation and application screening only. They do not imply appointment, endorsement or guaranteed admission.</p></article>
       </div>
     </section>
@@ -14203,7 +14254,7 @@ const illawarraGrammarReview = studyNswSchoolReviewPage({
 const australiaVetTafePathways = pageShell({
   title: "Australia VET / TAFE Pathways | OTC Study Hub",
   current: "about",
-  description: "OTC's Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness and professional referral boundaries.",
+  description: "OTC's Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach.",
   path: "/australia-vet-tafe-pathways/",
   image: "/assets/otc-australia-vet-tafe-social-card.png",
   body: `
@@ -14211,7 +14262,7 @@ const australiaVetTafePathways = pageShell({
       <div class="band">
         <div class="eyebrow">OTC Australia · VET / TAFE Route Coverage</div>
         <h1>Australia VET / TAFE Pathway Map</h1>
-        <p>OTC is building a structured vocational pathway screening layer for Australian TAFE, VET, English preparation, diploma, advanced diploma and TAFE-to-university progression routes.</p>
+        <p>OTC is building a structured vocational pathway screening layer for Australian TAFE, VET, English preparation, diploma, advanced diploma and TAFE-to-university progression routes, with China-side outreach now developing through Beijing, Shanghai, Guangzhou, Shenzhen and Xi'an.</p>
         <div class="actions">
           <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
           <a class="btn btn-secondary" href="/ai-education-operations/">AI operations</a>
@@ -14219,6 +14270,8 @@ const australiaVetTafePathways = pageShell({
         </div>
       </div>
     </section>
+
+    ${australiaChinaPromotionPanel("en")}
 
     <section class="band ai-operations-position vet-tafe-position">
       <div class="ai-operations-lead">
