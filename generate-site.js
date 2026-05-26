@@ -1855,6 +1855,47 @@ const insightsArticles = [
       ["Diploma", "AQF Level 5", "常見 VET 主力層級，可銜接部分本科", "高職 / 副學士感"],
       ["Advanced Diploma", "AQF Level 6", "更高技能 / paraprofessional 層級", "高階技術"]
     ],
+    zhVisualPanel: `
+      <section class="zh-herald-visual-brief vet-tafe-visual-brief" aria-label="澳洲 VET / TAFE 層級、宣講對象與 OTC 支持總覽">
+        <div class="vet-visual-head">
+          <span>一眼看懂</span>
+          <strong>VET / TAFE 不是一個模糊概念，是 AQF Level 3-6 的職業教育階梯。</strong>
+          <p>西安落地先講清楚層級、費用、文件與路線；再組織學校、國際部、職教院校和合作方做宣講。OTC 負責把學術路線、申請文件、移民邊界和澳洲 provider 核查一次打通。</p>
+        </div>
+        <div class="vet-visual-grid">
+          <div class="vet-aqf-ladder" aria-label="VET / TAFE AQF level ladder">
+            <div class="vet-aqf-step step-6"><b>AQF 6</b><strong>Advanced Diploma</strong><span>高階技術 / paraprofessional</span><em>常見 1.5-2 年</em></div>
+            <div class="vet-aqf-step step-5"><b>AQF 5</b><strong>Diploma</strong><span>VET 主力層級 / 可談銜接</span><em>常見 1-2 年</em></div>
+            <div class="vet-aqf-step step-4"><b>AQF 4</b><strong>Certificate IV</strong><span>技能進階 / Diploma 前置</span><em>約半年-1 年</em></div>
+            <div class="vet-aqf-step step-3"><b>AQF 3</b><strong>Certificate III</strong><span>職業入門 / 技能證書</span><em>約半年-1 年</em></div>
+          </div>
+          <div class="vet-landing-cards">
+            <article>
+              <b>西安宣講清單</b>
+              <strong>先聯絡這些機構</strong>
+              <ul>
+                <li>國際學校、國際部、雙語學校升學中心</li>
+                <li>西安外國語大學、西安交通大學國際教育/繼續教育相關窗口</li>
+                <li>西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等職教院校</li>
+                <li>留學服務機構、語培機構、A-Level / BTEC / Foundation 合作點</li>
+                <li>澳洲校方、TAFE / RTO、pathway provider 線上宣講窗口</li>
+              </ul>
+            </article>
+            <article class="dark">
+              <b>OTC 海外督導</b>
+              <strong>學術 + 申請 + 移民路線支持</strong>
+              <ul>
+                <li>AQF / RQF / BTEC / OTHM 層級對讀</li>
+                <li>英文、成績單、evidence pack、CV 與 course matching</li>
+                <li>TAFE / VET / 大學 pathway / RPL 問題清單</li>
+                <li>簽證、移民、職業註冊問題直接標記轉介邊界</li>
+                <li>宣講材料、家長答疑、合作方培訓與後續 case log</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    `,
     body: [
       {
         heading: "1) What level is VET / TAFE?",
@@ -1898,8 +1939,8 @@ const insightsArticles = [
       {
         heading: "一、VET / TAFE 到底對標哪一級學歷",
         paragraphs: [
-          "澳洲 VET（Vocational Education and Training）和 TAFE（Technical and Further Education）不是一個單一學位，而是一套職業教育資格路線，放在 Australian Qualifications Framework（AQF）裡。AQF 是澳洲官方的資格框架，從 Level 1 到 Level 10。",
-          "最常見的職業教育層級可以這樣說：Certificate III 是 AQF Level 3；Certificate IV 是 AQF Level 4；Diploma 是 AQF Level 5；Advanced Diploma 是 AQF Level 6。這是澳洲框架內的層級，不等於直接給中國學歷等同認定，也不能簡單說成「大專 / 本科」完全對等。"
+          "澳洲 VET（Vocational Education and Training）和 TAFE（Technical and Further Education）不是一個單一學位，也不是一句「職業課程」就能講完。它是一套放在 Australian Qualifications Framework（AQF）裡的職業教育資格階梯。",
+          "對外說明要乾脆：Certificate III 是 AQF Level 3；Certificate IV 是 AQF Level 4；Diploma 是 AQF Level 5；Advanced Diploma 是 AQF Level 6。這是澳洲官方框架內的層級，不等於中國學歷自動認定，但足以讓家長立刻明白它不是野路子，而是可核查、可註冊、可對讀的職業教育體系。"
         ]
       },
       {
@@ -1929,22 +1970,30 @@ const insightsArticles = [
       {
         heading: "五、西安先落地，可以做什麼",
         paragraphs: [
-          "西安第一步不應該直接說「我們在本地開澳洲 TAFE 學歷班」。合規做法是先做信息、測評和準備中心：VET / TAFE 說明會、AQF 層級講解、職業方向測評、英文和材料準備、作品 / 技能證據整理、RPL 概念解釋、澳洲 provider / RTO 路線介紹。",
-          "如果將來要宣傳或交付澳洲 AQF qualification，必須核對 training.gov.au 上的 RTO 與 scope of registration，也要核查是否涉及 CRICOS、境外交付授權、合作協議和證書簽發責任。ASQA 對 RTO 的說明很清楚：只有註冊 RTO 且該課程在其 scope 內，才可以 advertise, offer and deliver VET。"
+          "西安落地第一步不是喊口號，而是把宣講場景做起來：國際學校、國際部、雙語學校、職業技術院校、語培機構、留學服務機構、家長社群和澳洲 provider 線上窗口，都可以成為第一批說明會對象。",
+          "OTC 要做的是清楚分工：本地做 AQF 層級講解、職業方向測評、英文與材料準備、作品 / 技能證據整理、RPL 概念解釋、澳洲 provider / RTO 路線介紹；澳洲資格交付、證書簽發、CRICOS、RTO scope 和正式合作授權，必須逐項核清楚後再公開承諾。"
         ]
       },
       {
-        heading: "六、對合作方的夜間答覆，可以這樣說",
+        heading: "六、西安宣講機構預覽清單",
+        paragraphs: [
+          "第一批可以聯絡：西安國際學校、民辦雙語學校、普通高中國際部、A-Level / BTEC / Foundation 教學點；這些地方最需要把 VET / TAFE、Diploma、Advanced Diploma、TAFE-to-university 說明白。",
+          "第二批可以聯絡：西安外國語大學、西安交通大學、西北大學等高校的國際教育、繼續教育或海外項目窗口，以及西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等職教院校。宣講主題不叫「賣課」，而叫澳洲職業教育層級、費用、升學銜接和學生文件準備。",
+          "第三批是合作渠道：語培機構、留學服務公司、企業培訓機構、家長社群和澳洲校方 / TAFE / RTO / pathway provider 線上招生窗口。OTC 可以做宣講材料、家長答疑、學生初篩表和後續 case log，把西安做成西北樣板。"
+        ]
+      },
+      {
+        heading: "七、對合作方的夜間答覆，可以這樣說",
         paragraphs: [
           "可以先回覆對方：VET / TAFE 不是單一級別，而是澳洲 AQF 裡的職業教育階梯。常見從 Certificate III / IV 到 Diploma / Advanced Diploma，對應 AQF Level 3-6。學制多數在半年至兩年之間，但正式口徑要以具體 provider 和 CRICOS / course page 為準。",
-          "費用也不是一個數字，要分學費、材料費、申請費、保險、簽證、英文測試和生活費。西安落地可以先做介紹、測評、材料準備和 pathway counselling；真正澳洲資格交付和證書簽發，必須等 provider、RTO scope、CRICOS / 合作授權全部核清楚後再對外承諾。"
+          "費用也不是一個數字，要分學費、材料費、申請費、保險、簽證、英文測試和生活費。西安落地可以先做介紹、測評、材料準備和 pathway counselling；真正澳洲資格交付和證書簽發，必須等 provider、RTO scope、CRICOS / 合作授權全部核清楚後再對外承諾。這個態度不是保守，是專業。"
         ]
       },
       {
-        heading: "七、OTC 可以先做的三件事",
+        heading: "八、OTC 可以先做的三件事",
         paragraphs: [
           "第一，做一頁中文 VET / TAFE 路線圖：AQF Level 3-6、常見專業、學制、費用構成、升學與就業用途。第二，做西安本地說明會和初篩表：學生年齡、英文、學歷、職業方向、家庭預算、是否考慮澳洲境內學習。第三，建立 provider 核查表：training.gov.au、CRICOS、課程頁、費用頁、材料費、placement 要求、英文要求和開課時間。",
-          "這樣落地比較穩：先做教育信息與合規篩選，再做合作方對接；先講清楚框架，再談招生；先查官方註冊，再談資格和證書。"
+          "OTC 海外督導的強項不是只會介紹學校，而是把學術路線、英文輸出、申請文件、職業教育、移民邊界和澳洲本地資源放在一個工作台上處理。學生要走學術銜接，能做；要看職業教育，能做；涉及簽證、職業註冊、技能評估，直接標記專業轉介。這才是對家庭真正有用的支持。"
         ]
       }
     ]
@@ -8081,6 +8130,7 @@ function zhArticleMagazineBody(article) {
       ` : ""}
       ${heraldSubscribeCta("zh")}
       ${shareLinksHerald(article, "zh", "top")}
+      ${article.zhVisualPanel || ""}
       <div class="zh-herald-body-grid">
         <main class="zh-herald-main${mainClass}">
           ${firstSection ? `

@@ -347,7 +347,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="twitter:description" content="${description}">
   ${socialImageUrl ? `<meta name="twitter:image" content="${socialImageUrl}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="stylesheet" href="/styles.css?v=zh-editorial-fonts-20260526">
+  <link rel="stylesheet" href="/styles.css?v=vet-tafe-visual-route-20260526">
 </head>
 <body>
   ${nav(current, locale)}
