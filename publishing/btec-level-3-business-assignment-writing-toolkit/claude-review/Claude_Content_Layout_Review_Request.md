@@ -7,8 +7,8 @@ Please review the attached PDF and manuscript as an external editorial reviewer 
 Title: BTEC Level 3 Business Assignment Writing Toolkit  
 Format: independent bilingual study-support companion  
 Audience: Chinese / EAL learners studying BTEC Level 3 Business or similar assignment-based business courses  
-Current length: 121 PDF pages; approximately 28,885 words in the markdown manuscript  
-Status: expanded review draft v0.4
+Current length: 122 PDF pages; approximately 28,936 words in the markdown manuscript  
+Status: expanded review draft v0.4.1
 
 ## Important positioning
 
@@ -89,7 +89,7 @@ Flag:
 - repetitive visual modules;
 - footer issues;
 - whether the colour system improves navigation or looks decorative;
-- whether the current 121-page length feels justified after v0.4 structural cuts.
+- whether the current 122-page length feels justified after v0.4.1 structural cuts.
 
 ## Output format requested
 

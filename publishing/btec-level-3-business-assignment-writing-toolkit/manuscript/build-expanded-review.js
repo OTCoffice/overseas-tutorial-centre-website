@@ -3,12 +3,12 @@ const path = require("path");
 
 const dir = __dirname;
 const source = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Manuscript_Draft_v0_2.md");
-const out = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_v0_4.md");
+const out = path.join(dir, "OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_v0_4_1.md");
 
 let md = fs.readFileSync(source, "utf8");
 
 md = md
-  .replace("Draft v0.2 · 25 May 2026", "Expanded review draft v0.4 · 26 May 2026")
+  .replace("Draft v0.2 · 25 May 2026", "Expanded review draft v0.4.1 · 26 May 2026")
   .replace(
     "## Publication Boundary\n\nThis manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.\n\n本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。",
     "<div class=\"publication-boundary\"><strong>Publication boundary</strong><p>This manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.</p><p>本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。</p></div>"
@@ -67,6 +67,38 @@ md = md
   .replace("這本書的核心不是更多資料，而是穩定輸出：讀題、證據、語言、判斷、合規。", "這本書的核心是穩定輸出：讀題、證據、語言、判斷、合規。")
   .replace("比較不是左右列優缺點，而是判斷取捨。", "比較的重點是判斷取捨。");
 
+const frontMatter = `<section class="book-cover">
+<div class="cover-kicker">OTC Publishing House</div>
+<h1>BTEC Level 3 Business Assignment Writing Toolkit</h1>
+<p class="cover-subtitle">Independent Bilingual Study Support Companion</p>
+<p class="cover-cn">BTEC Level 3 Business assignment writing bilingual output system</p>
+<p class="cover-version">Expanded review draft v0.4.1 · 26 May 2026</p>
+</section>
+
+<section class="copyright-page">
+<h1>Publication Record</h1>
+<table>
+<tbody>
+<tr><td>Title</td><td>BTEC Level 3 Business Assignment Writing Toolkit</td></tr>
+<tr><td>Series</td><td>Independent Bilingual Study Support Companion</td></tr>
+<tr><td>Publisher imprint</td><td>Overseas Publishing House / OTC Study Hub</td></tr>
+<tr><td>Internal ID</td><td>OTC-BTEC-L3-BUS-AWT-001</td></tr>
+<tr><td>ISBN status</td><td>TBC before release</td></tr>
+<tr><td>Publication status</td><td>expanded manuscript draft under editorial review</td></tr>
+</tbody>
+</table>
+<p class="page-note">This draft is prepared for editorial review, proofing and publication-pack development. It is not an official Pearson / BTEC publication.</p>
+</section>
+
+<section class="boundary-page">
+<div class="publication-boundary"><strong>Publication boundary</strong><p>This manuscript is an independent OTC bilingual output-system resource for assignment-based learners. Official Pearson / BTEC publications, awarding-body documents, assignment briefs, mark schemes, assessment decisions and centre guidance remain the controlling sources. The manuscript trains brief reading, evidence planning, academic phrasing and self-checking within academic-integrity boundaries.</p><p>本書稿是 OTC / 海外書局面向 assignment-based learners 的獨立雙語輸出系統資源。Pearson / BTEC 官方出版物、awarding-body 文件、assignment brief、mark scheme、assessment decision 與 centre guidance 仍是最終依據。本書稿訓練 brief reading、evidence planning、academic phrasing 與 self-checking，並把 academic integrity 邊界放進寫作流程。</p></div>
+</section>`;
+
+md = md.replace(
+  /^# BTEC Level 3 Business Assignment Writing Toolkit[\s\S]*?\n## Preface/,
+  `${frontMatter}\n\n## Preface`
+);
+
 const appendixStart = md.indexOf("\n# Appendix A.");
 let appendices = "";
 if (appendixStart !== -1) {
@@ -74,25 +106,43 @@ if (appendixStart !== -1) {
   md = md.slice(0, appendixStart).trimEnd();
 }
 
+const tocPages = {
+  frontMatter: 1,
+  partI: 7,
+  chapter1: 8,
+  chapter2: 14,
+  chapter3: 19,
+  chapter4: 27,
+  chapter5: 33,
+  chapter6: 41,
+  chapter7: 47,
+  partII: 52,
+  partIII: 58,
+  partIV: 62,
+  partV: 70,
+  partVI: 110,
+  appendices: 117
+};
+
 const contents = `## Contents
 
 | Section | Purpose | Proof page |
 | --- | --- | --- |
-| Front matter | Title, publication boundary, positioning and reader guidance. | 1 |
-| Part I. Core Assignment Writing Toolkit | Chapters 1-7: brief reading, grade-awareness, evidence, paragraph writing, integrity and final checks. | 6 |
-| Chapter 1 | Explains what assignment-based Business learning is really asking for. | 7 |
-| Chapter 2 | Trains learners to read assignment briefs before writing. | 17 |
-| Chapter 3 | Builds Pass / Merit / Distinction awareness without making grade promises. | 26 |
-| Chapter 4 | Helps learners plan honest and relevant evidence. | 40 |
-| Chapter 5 | Provides paragraph frames and bilingual academic-writing scaffolds. | 53 |
-| Chapter 6 | Sets academic-integrity, AI-use and authorship boundaries. | 66 |
-| Chapter 7 | Provides final submission checks and readiness protocols. | 75 |
-| Part II. Subject Stickers | Compact subject maps for common BTEC Business topic areas. | 84 |
-| Part III. Academic Writing Phrasebook | Master phrasebank plus topic-specific application riders. | 93 |
-| Part IV. Avoidance Booklet | Category-specific weak lines and stronger academic alternatives. | 102 |
-| Part V. Mini Templates | Practice scaffolds for brief reading, evidence, evaluation and feedback use. | 112 |
-| Part VI. Tiny Review Booklets | Twenty compact review cards for final paragraph audit. | 129 |
-| Appendices A-E | Phrase bank, breakdown sheet, evidence log, submission checklist and bilingual glossary. | 137 |
+| Front matter | Title, publication boundary, positioning and reader guidance. | ${tocPages.frontMatter} |
+| Part I. Core Assignment Writing Toolkit | Chapters 1-7: brief reading, grade-awareness, evidence, paragraph writing, integrity and final checks. | ${tocPages.partI} |
+| Chapter 1 | Explains what assignment-based Business learning is really asking for. | ${tocPages.chapter1} |
+| Chapter 2 | Trains learners to read assignment briefs before writing. | ${tocPages.chapter2} |
+| Chapter 3 | Builds Pass / Merit / Distinction awareness without making grade promises. | ${tocPages.chapter3} |
+| Chapter 4 | Helps learners plan honest and relevant evidence. | ${tocPages.chapter4} |
+| Chapter 5 | Provides paragraph frames and bilingual academic-writing scaffolds. | ${tocPages.chapter5} |
+| Chapter 6 | Sets academic-integrity, AI-use and authorship boundaries. | ${tocPages.chapter6} |
+| Chapter 7 | Provides final submission checks and readiness protocols. | ${tocPages.chapter7} |
+| Part II. Subject Stickers | Compact subject maps for common BTEC Business topic areas. | ${tocPages.partII} |
+| Part III. Academic Writing Phrasebook | Master phrasebank plus topic-specific application riders. | ${tocPages.partIII} |
+| Part IV. Avoidance Booklet | Category-specific weak lines and stronger academic alternatives. | ${tocPages.partIV} |
+| Part V. Mini Templates | Practice scaffolds for brief reading, evidence, evaluation and feedback use. | ${tocPages.partV} |
+| Part VI. Tiny Review Booklets | Twenty compact review cards for final paragraph audit. | ${tocPages.partVI} |
+| Appendices A-E | Phrase bank, breakdown sheet, evidence log, submission checklist and bilingual glossary. | ${tocPages.appendices} |
 
 本書按 assignment workflow 排列：先讀題，再理解深度，再規劃證據，再寫段落，再處理 AI / integrity，最後提交檢查。後半部是可抽取使用的 workbook-style reference section；Appendices 放在全書最後，方便查閱。
 `;
@@ -442,7 +492,7 @@ This small booklet records expressions that usually weaken assignment writing. I
 for (let cycle = 0; cycle < 12; cycle++) {
   const set = avoidanceSets[cycle];
   const themeCn = avoidCycleThemes[cycle][2];
-  append.push(`\n\n## Avoidance Set ${cycle + 1}. ${set.title}\n\nRisk focus: ${set.risk}. ${themeCn}\n`);
+  append.push(`\n\n<div class="keep-with-next"><h2>Avoidance Set ${cycle + 1}. ${set.title}</h2><p>Risk focus: ${set.risk}. ${themeCn}</p></div>\n`);
   for (const [weak, stronger] of set.items) {
     append.push(`
 <div class="avoid-card"><strong>避諱：${weak}</strong><p>Use instead: ${stronger}</p><p>Rewrite practice for ${set.title}: ________________________________</p></div>
@@ -468,9 +518,32 @@ const templates = [
   ["Teacher-feedback action template", ["Feedback point:", "Related paragraph:", "What the feedback means:", "Revision action:", "Evidence added:", "Final check:"]]
 ];
 
+const tinyBooklets = [
+  ["Task alignment", "Brief reading", "assignment brief, command word, assessment criterion", "task drift", "Does the paragraph answer the exact command word?", "Circle the command word and underline the sentence that answers it.", ["The paragraph explains the topic but not the task.", "The paragraph should answer the command word and task object directly."], ["This is related to business.", "This is relevant only if it answers the required assessment point."]],
+  ["Evidence trail", "Evidence planning", "source log, date, brief evidence, case data", "source misuse", "Can the evidence be traced and explained?", "Add source, date and the sentence explaining relevance.", ["I found a quote.", "A quote needs interpretation, not decoration."], ["The evidence is enough.", "Evidence is enough only if it matches the task object and paragraph claim."]],
+  ["Business application", "Business context", "business name, customer group, cost, staff or process affected", "application drift", "Is the point connected to the selected business?", "Name the business, customer group, cost or process affected.", ["This applies to many businesses.", "The paragraph should show why it applies to this business."], ["The business should do this.", "The recommendation needs a business-specific reason."]],
+  ["Cautious language", "Academic phrasing", "conditional language, limits, uncertainty and evidence strength", "overclaiming", "Is the claim too absolute?", "Replace will definitely with may, could, is likely to, or depends on.", ["This will definitely increase sales.", "This could increase sales if the target group responds to the offer."], ["The business will make more profit.", "Profit may improve if additional revenue is higher than campaign cost."]],
+  ["Customer group", "Marketing", "target segment, customer need, channel fit and response evidence", "vague customers", "Is the target customer specific enough?", "Replace customers with a defined segment and reason.", ["Customers are important.", "Repeat customers matter because they can reduce the need for constant new-customer acquisition."], ["The business should attract more people.", "The business should target a defined group whose needs match the offer."]],
+  ["Finance logic", "Finance", "cash flow, fixed cost, variable cost, break-even and repayment risk", "weak finance writing", "Does the paragraph mention cost, cash flow or risk?", "Add one finance implication before the judgement.", ["More sales means more profit.", "Higher sales may still reduce profit if variable costs and promotion costs are too high."], ["The loan is good because it gives cash.", "A loan improves short-term cash but creates repayment pressure."]],
+  ["Marketing logic", "Marketing", "channel choice, target customer, campaign cost and measurable response", "weak marketing writing", "Does the channel fit the audience?", "Explain why this channel reaches this group.", ["Social media is cheap and effective.", "Social media may be low-cost, but effectiveness depends on content quality and audience response."], ["The business should advertise more.", "The business should choose a channel that reaches the target segment at an affordable cost."]],
+  ["HR diagnosis", "Human Resources", "skills gap, motivation issue, workload pressure or recruitment need", "weak HR writing", "Is the staff issue diagnosed before the solution?", "Name whether the problem is skill, motivation, workload or recruitment.", ["The company needs better staff.", "The staffing issue appears to relate to skills, workload or motivation."], ["Training will fix the problem.", "Training is suitable only if employees lack knowledge or procedure confidence."]],
+  ["Operations bottleneck", "Operations", "capacity, quality, delay, waste and process constraint", "weak operations writing", "Does the paragraph identify a process problem?", "Add capacity, quality, delay or waste evidence.", ["The process is slow.", "The delay appears to occur at the order-processing stage."], ["The business should be more efficient.", "Efficiency can improve if the identified bottleneck is reduced."]],
+  ["Customer service", "Customer Service", "complaint pattern, response time, retention and reputation", "weak customer service writing", "Does the service point connect to retention or reputation?", "Add a business consequence, not just service praise.", ["Good service is important.", "Service quality matters when it affects repeat purchase and complaints."], ["Bad reviews are bad.", "Negative reviews can reduce trust and make new-customer acquisition harder."]],
+  ["Evaluation", "Evaluation", "trade-off, limitation, assumption and justified final judgement", "false evaluation", "Is there a real trade-off?", "Add one condition that could change the recommendation.", ["There are advantages and disadvantages.", "The main trade-off is between cost and speed."], ["This is a balanced answer.", "A balanced answer still needs a final justified judgement."]],
+  ["Comparison", "Comparison", "same criterion, option A, option B, suitability and risk", "comparison drift", "Are two options judged against the same criterion?", "Use cost, suitability, speed or risk as the comparison basis.", ["Both options are good.", "Option A is more suitable if the business prioritises cost control."], ["It depends.", "It depends on budget, staff capacity and target-customer response."]],
+  ["AI support log", "Academic integrity", "tool used, purpose, learner rewrite and centre policy", "AI and authorship risk", "Can the learner explain what support was used?", "Record what was checked and what was rewritten by the learner.", ["AI wrote this paragraph for clarity.", "AI may be used to check structure, but the learner must rewrite and own the argument."], ["I used AI for the final answer.", "AI use should follow the centre's policy and be recorded in the support log."]],
+  ["Source hierarchy", "Evidence quality", "official brief, class material, credible source and case evidence", "source misuse", "Is the strongest available evidence being used?", "Replace a weak web claim with brief data, case evidence or a credible source.", ["According to a website, marketing is useful.", "Use the source to support a specific claim about the selected business."], ["This statistic proves the method works.", "Explain what the statistic can and cannot prove."]],
+  ["Final file control", "Submission readiness", "file name, unit, task number, final version and upload format", "final submission risk", "Is the final version clearly named?", "Check file name, unit, task number and final upload version.", ["The file is uploaded.", "Check file name, version, unit, task number and submission format."], ["The assignment is finished.", "The final draft should be checked against the brief, evidence and file requirements."]],
+  ["Teacher feedback", "Revision", "feedback point, paragraph location, revision action and evidence added", "feedback-to-action gap", "Has feedback been converted into an action?", "Write the exact revision action, not just 'improve analysis'.", ["My tutor said improve analysis.", "The learner should identify which claim needs more evidence or judgement."], ["I fixed the paragraph.", "State what was changed: evidence, application, limitation or final judgement."]],
+  ["Paragraph order", "Paragraph structure", "claim, evidence, application, analysis and link back to task", "paragraph order risk", "Does evidence appear before judgement?", "Move judgement after evidence and application.", ["Therefore this is the best option.", "First explain the evidence and application before making the judgement."], ["The paragraph has many ideas.", "Order the ideas by function: point, evidence, application, evaluation."]],
+  ["Academic phrasing", "Academic style", "precise verb, cautious claim, business implication and task link", "conversational phrasing", "Does the sentence sound too conversational?", "Replace good/bad/very important with a precise academic function.", ["This is good for the business.", "This may support customer retention by ..."], ["The company should do lots of marketing.", "The business should select a channel that matches ..."]],
+  ["Integrity boundary", "Academic integrity", "traceable evidence, no invented numbers, no copied model answer", "integrity boundary risk", "Could any sentence look invented or copied?", "Remove unsupported numbers and generic model-answer language.", ["The survey shows 85% of customers agree.", "Use this only if the survey genuinely exists and is referenced."], ["This paragraph sounds like a model answer.", "Rewrite using the learner's own evidence and wording."]],
+  ["Progression value", "University-readiness", "independent evidence use, judgement, responsibility and reflection", "progression-value gap", "Does this paragraph build skills useful for university study?", "Link the habit to evidence, independence and academic judgement.", ["This helps me pass.", "This habit supports independent academic writing beyond this assignment."], ["I followed the template.", "The learner should explain the judgement in their own words."]]
+];
+
 for (let cycle = 0; cycle < 20; cycle++) {
   const scenario = templateScenarios[cycle];
-  append.push(`\n\n## Template Pack ${cycle + 1}. ${scenario}\n\nUse these templates with this sample context: ${scenario}. These templates are practice scaffolds, not submission-ready answers. Replace every field with the learner's own brief and evidence before writing.\n`);
+  append.push(`\n\n<div class="keep-with-next"><h2>Template Pack ${cycle + 1}. ${scenario}</h2><p>Use these templates with this sample context: ${scenario}. These templates are practice scaffolds, not submission-ready answers. Replace every field with the learner's own brief and evidence before writing.</p></div>\n`);
   for (const [name, fields] of templates) {
     append.push(`
 <div class="mini-template"><strong>${name}</strong><table><tbody><tr><td>Context:</td><td>${scenario}</td></tr>${fields.map((f) => `<tr><td>${f}</td><td></td></tr>`).join("")}</tbody></table></div>
@@ -487,24 +560,20 @@ append.push(`
 These twenty compact review cards are designed for tutors or learners. Each card has a distinct review function. They are intended to be used after drafting one paragraph, not as filler pages.
 `);
 
-for (let i = 1; i <= 20; i++) {
-  const [focus, question, action] = bookletFocuses[(i - 1) % bookletFocuses.length];
-  const scenario = templateScenarios[(i - 1) % templateScenarios.length];
-  const subject = subjects[(i - 1) % subjects.length][0];
-  const set = avoidanceSets[(i - 1) % avoidanceSets.length];
-  const avoidA = set.items[0];
-  const avoidB = set.items[1];
+for (let i = 1; i <= tinyBooklets.length; i++) {
+  const [focus, subject, evidenceMove, checklistLabel, question, action, avoidA, avoidB] = tinyBooklets[i - 1];
   const levelMove = ["completion", "application", "analysis", "evaluation", "final audit"][(i - 1) % 5];
-  const evidenceMove = ["brief evidence", "case evidence", "customer evidence", "financial evidence", "teacher feedback", "source log"][(i - 1) % 6];
   append.push(`
 
-## Tiny Booklet ${i}. ${focus}
+<div class="booklet-page">
+<div class="keep-with-next"><h2>Tiny Booklet ${i}. ${focus}</h2></div>
 
-<div class="tiny-booklet"><strong>Booklet use</strong><p>Use this page after writing one draft paragraph for ${subject}. Review context: ${scenario}. Review move: ${levelMove}. Evidence route: ${evidenceMove}. Key question: ${question}</p><p>寫完一段後使用。本頁重點是：${action}</p></div>
+<div class="tiny-booklet"><strong>Booklet use</strong><p>Use this page after writing one draft paragraph for ${subject}. Review move: ${levelMove}. Evidence route: ${evidenceMove}. Key question: ${question}</p><p>寫完一段後使用。本頁重點是：${action}</p></div>
 
 <div class="two-mini">
-<div class="mini-template"><strong>Paragraph audit</strong><ul><li>Claim: what does this paragraph actually say?</li><li>Application: which sentence connects it to ${scenario}?</li><li>Evidence: which ${evidenceMove} supports the claim?</li><li>Depth: is the paragraph at ${levelMove} level?</li><li>Revision: what one sentence should be changed first?</li></ul></div>
-<div class="avoid-card"><strong>避諱 checklist: ${set.title}</strong><ul><li>Weak line to avoid: ${avoidA[0]}</li><li>Repair route: ${avoidA[1]}</li><li>Second risk: ${avoidB[0]}</li><li>No invented numbers, fake survey data or copied model paragraph.</li><li>Final test: can the learner explain the paragraph aloud?</li></ul></div>
+<div class="mini-template"><strong>Paragraph audit</strong><ul><li>Claim: what does this paragraph actually say?</li><li>Application: which sentence connects it to ${subject}?</li><li>Evidence: which ${evidenceMove} supports the claim?</li><li>Depth: is the paragraph at ${levelMove} level?</li><li>Revision: what one sentence should be changed first?</li></ul></div>
+<div class="avoid-card"><strong>避諱 checklist: ${checklistLabel}</strong><ul><li>Weak line to avoid: ${avoidA[0]}</li><li>Repair route: ${avoidA[1]}</li><li>Second risk: ${avoidB[0]}</li><li>No invented numbers, fake survey data or copied model paragraph.</li><li>Final test: can the learner explain the paragraph aloud?</li></ul></div>
+</div>
 </div>
 `);
 }

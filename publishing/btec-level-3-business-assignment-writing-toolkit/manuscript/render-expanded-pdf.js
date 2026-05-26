@@ -4,7 +4,7 @@ const { chromium } = require("playwright");
 const { PDFDocument, StandardFonts, rgb } = require("pdf-lib");
 
 const dir = __dirname;
-const version = process.env.BTEC_TOOLKIT_VERSION || "v0_4";
+const version = process.env.BTEC_TOOLKIT_VERSION || "v0_4_1";
 const htmlPath = path.join(dir, `OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_${version}.html`);
 const basePdfPath = path.join(dir, `OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_${version}.base.pdf`);
 const finalPdfPath = path.join(dir, `OTC_BTEC_Level_3_Business_Assignment_Writing_Toolkit_Expanded_Review_${version}.pdf`);

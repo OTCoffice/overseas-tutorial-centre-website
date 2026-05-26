@@ -23,7 +23,8 @@ h2,
 h3,
 h4 {
   color: #08213f;
-  break-after: avoid;
+  break-after: avoid-page;
+  page-break-after: avoid;
   line-height: 1.18;
 }
 
@@ -37,8 +38,69 @@ h1 {
   padding: 5mm 6mm 5.5mm;
 }
 
-body > h1:first-of-type {
+.book-cover,
+.copyright-page,
+.boundary-page {
+  break-after: page;
+}
+
+.book-cover {
+  align-content: center;
+  background: #08213f;
+  color: #fff;
+  display: grid;
+  min-height: 245mm;
+  padding: 0 12mm;
+}
+
+.book-cover .cover-kicker {
+  color: #d8c184;
+  font-size: 8.8px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 5mm;
+  text-transform: uppercase;
+}
+
+.book-cover h1 {
+  background: transparent;
+  border: 0;
   break-before: auto;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.04;
+  margin: 0 0 4mm;
+  padding: 0;
+}
+
+.book-cover .cover-subtitle {
+  color: #f4efe2;
+  font-size: 13px;
+  line-height: 1.35;
+  margin-bottom: 2mm;
+}
+
+.book-cover .cover-cn {
+  color: #d8c184;
+  font-size: 10px;
+  margin-bottom: 12mm;
+}
+
+.book-cover .cover-version {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.32);
+  color: #eef2f6;
+  font-size: 8.8px;
+  padding-top: 3mm;
+}
+
+.copyright-page h1 {
+  break-before: auto !important;
+  margin-top: 12mm;
+}
+
+.boundary-page {
+  display: block;
+  padding-top: 65mm;
 }
 
 h1 + p {
@@ -108,8 +170,8 @@ li {
 
 hr {
   border: 0;
-  border-top: 1px solid #d8c184;
-  margin: 7mm 0;
+  display: none;
+  margin: 0;
 }
 
 table {
@@ -204,6 +266,34 @@ code {
   background: #fbfaf4;
   border-color: #d8cba5;
   border-top: 3px solid #08213f;
+}
+
+.booklet-page {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 0 0 3.5mm;
+}
+
+.booklet-page .tiny-booklet,
+.booklet-page .mini-template,
+.booklet-page .avoid-card {
+  margin: 2mm 0;
+  padding: 2.2mm 2.6mm;
+}
+
+.booklet-page .two-mini {
+  gap: 2.2mm;
+}
+
+.booklet-page h2 {
+  margin-top: 3.8mm;
+}
+
+.keep-with-next {
+  break-after: avoid-page;
+  break-inside: avoid;
+  page-break-after: avoid;
+  page-break-inside: avoid;
 }
 
 .micro-sticker strong,
