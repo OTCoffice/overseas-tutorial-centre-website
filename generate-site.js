@@ -1817,15 +1817,15 @@ function writeHeraldSocialImage(article, locale = "en") {
 const insightsArticles = [
   {
     slug: "summer-school-vaccine-medical-consent-parent-checklist",
-    title: "Summer School Parent Checklist: Vaccinations, Medical Forms and Travel Consent",
+    title: "UK Summer School Health Checklist: Vaccinations, Medical Forms and Travel Consent",
     date: "2026-05-26",
     category: "Summer School",
     column: "study",
     kicker: "Summer School · Parents · Health & Consent",
     author: "留學導報編輯部",
-    summary: "A practical parent-facing checklist for overseas summer school preparation: vaccine records, medical forms, parental consent letters, emergency contacts and a clean document pack.",
-    titleZh: "夏校出行前，疫苗、體檢、家長同意書怎麼準備？一份給家長的操作清單",
-    summaryZh: "原夏校頁面暫時無法打開時，家長可先按這份公開清單準備：核對疫苗記錄、安排體檢或醫療表格、簽署家長同意書、整理緊急聯絡與出行文件。本文只作教育與行政準備提示，不替代醫生、學校或法律意見。",
+    summary: "A practical parent-facing health checklist for UK summer school preparation: student health information, vaccine records, medical forms, medication notes, emergency contacts and travel consent.",
+    titleZh: "去英國 Summer School 前，家長怎樣做健康檢查？可直接照填的清單",
+    summaryZh: "給準備去英國 summer school 的家長使用：學生基本健康資料、近期健康狀況、疫苗記錄、用藥與過敏、醫生/診所確認項目、緊急聯絡人和家長同意書，一次整理成可提交文件包。",
     relatedReadings: [
       "uk-aus-application-documents-checklist",
       "reference-letter-briefing-pack-uk-aus",
@@ -1881,14 +1881,124 @@ const insightsArticles = [
     ],
     bodyZh: [
       {
-        heading: "一、原頁面打不開時，先按「家長文件包」準備",
+        heading: "一、英國 Summer School 健康檢查清單：家長可直接照填",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>項目</th><th>請填寫 / 勾選</th><th>備註</th></tr></thead>
+              <tbody>
+                <tr><td>學生姓名</td><td>____________</td><td>需與護照一致。</td></tr>
+                <tr><td>出生日期</td><td>____________</td><td>日 / 月 / 年。</td></tr>
+                <tr><td>護照號碼</td><td>____________</td><td>附護照首頁。</td></tr>
+                <tr><td>英國夏校名稱</td><td>____________</td><td>填 summer school / camp 正式名稱。</td></tr>
+                <tr><td>出行日期</td><td>____________</td><td>含抵達英國與離開英國日期。</td></tr>
+                <tr><td>身高 / 體重</td><td>____________</td><td>如夏校 health form 要求。</td></tr>
+                <tr><td>血型</td><td>____________</td><td>不知道可填 Unknown。</td></tr>
+                <tr><td>是否有慢性疾病</td><td>是 / 否；詳情：____________</td><td>如哮喘、糖尿病、心臟病等。</td></tr>
+                <tr><td>是否正在服藥</td><td>是 / 否；藥名：____________</td><td>寫明劑量、時間、是否需成人提醒。</td></tr>
+                <tr><td>是否有過敏史</td><td>是 / 否；過敏源：____________</td><td>食物、藥物、花粉、昆蟲、乳膠等。</td></tr>
+                <tr><td>是否有食物禁忌</td><td>是 / 否；詳情：____________</td><td>宗教、素食、乳糖不耐、堅果過敏等。</td></tr>
+                <tr><td>是否近期手術或住院</td><td>是 / 否；日期與原因：____________</td><td>建議附醫生說明。</td></tr>
+                <tr><td>是否需要情緒/心理支持</td><td>是 / 否；注意事項：____________</td><td>如焦慮、睡眠、適應問題等。</td></tr>
+                <tr><td>是否適合正常體育活動</td><td>是 / 否 / 需限制</td><td>如不能跑步、游泳、遠足，請寫清。</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "二、出發前 7 天健康狀況確認",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>出發前 7 天內</th><th>是 / 否</th><th>如選「是」，請說明</th></tr></thead>
+              <tbody>
+                <tr><td>是否發燒</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否咳嗽、喉嚨痛、流鼻水</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否腹瀉或嘔吐</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否皮疹或疑似傳染性皮膚問題</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否接觸傳染病患者</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否胸悶、頭暈、嚴重疲勞</td><td>是 / 否</td><td>____________</td></tr>
+                <tr><td>是否有任何需要夏校老師特別注意的健康變化</td><td>是 / 否</td><td>____________</td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "如出發前出現發燒、傳染性症狀、嚴重不適或醫生建議不宜出行，請先通知夏校/項目方，不要隱瞞健康變化。"
+        ]
+      },
+      {
+        heading: "三、疫苗記錄核對",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>疫苗 / 記錄</th><th>是否已接種 / 有記錄</th><th>文件位置</th></tr></thead>
+              <tbody>
+                <tr><td>MMR 麻疹、腮腺炎、風疹</td><td>是 / 否 / 不確定</td><td>疫苗本 / 診所記錄 / 學校記錄</td></tr>
+                <tr><td>DTP / Tdap 白喉、破傷風、百日咳</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>Polio 小兒麻痺</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>Hepatitis B 乙肝</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>Chickenpox / Varicella 水痘</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>Influenza 流感，如有</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>COVID-19，如夏校要求</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+                <tr><td>其他英國夏校或醫生要求項目</td><td>是 / 否 / 不確定</td><td>____________</td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "家長需要附上疫苗本、接種記錄照片或診所/學校出具的接種記錄。若無法判斷英文名稱，可先提交原始記錄，再由項目方確認是否需要翻譯或醫生說明。"
+        ]
+      },
+      {
+        heading: "四、用藥與過敏說明",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>項目</th><th>請填寫</th><th>提醒</th></tr></thead>
+              <tbody>
+                <tr><td>藥品名稱</td><td>____________</td><td>最好中英文或拍照附藥盒。</td></tr>
+                <tr><td>用途</td><td>____________</td><td>例如哮喘、過敏、胃藥等。</td></tr>
+                <tr><td>劑量</td><td>____________</td><td>每次多少、每日幾次。</td></tr>
+                <tr><td>服用時間</td><td>____________</td><td>早/午/晚/睡前/需要時。</td></tr>
+                <tr><td>是否需要成人提醒</td><td>是 / 否</td><td>請明確告知夏校。</td></tr>
+                <tr><td>是否需要冷藏</td><td>是 / 否</td><td>如需冷藏，提前確認宿舍/醫務室安排。</td></tr>
+                <tr><td>是否有醫生處方/說明</td><td>是 / 否</td><td>處方藥建議附醫生信或處方。</td></tr>
+                <tr><td>禁忌藥物</td><td>____________</td><td>例如青黴素、布洛芬等。</td></tr>
+                <tr><td>過敏反應表現</td><td>____________</td><td>皮疹、呼吸困難、腫脹、嘔吐等。</td></tr>
+                <tr><td>緊急處理方式</td><td>____________</td><td>如有 EpiPen 等需明確說明。</td></tr>
+              </tbody>
+            </table>
+          </div>`
+        ]
+      },
+      {
+        heading: "五、如英國 Summer School 要求體檢，請醫生/診所確認這些項目",
+        paragraphs: [
+          `<div class="report-table-wrap article-service-table">
+            <table>
+              <thead><tr><th>醫生/診所確認項目</th><th>適合 / 不適合 / 需限制</th><th>醫生備註</th></tr></thead>
+              <tbody>
+                <tr><td>學生目前身體狀況是否適合參加 summer school</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否適合長途飛行</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否適合集體住宿</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否適合正常戶外活動</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否適合體育課 / 游泳 / 遠足</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否有需夏校知悉的醫療風險</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否需要攜帶常用藥</td><td>____________</td><td>____________</td></tr>
+                <tr><td>是否需要特殊飲食或照護</td><td>____________</td><td>____________</td></tr>
+              </tbody>
+            </table>
+          </div>`,
+          "醫生簽名：____________　診所名稱：____________　診所電話：____________　檢查日期：____________　診所蓋章：____________"
+        ]
+      },
+      {
+        heading: "六、原頁面打不開時，仍要先按「家長文件包」準備",
         paragraphs: [
           "如果夏校頁面暫時打不開，家長可以先按公開通用清單準備，不必等到最後一週才開始補材料。請同時向項目方索取最新書面要求，並把所有回覆截圖或存成 PDF。",
           "建議先建立一個「夏校出行文件包」：學生護照首頁、簽證或入境許可（如適用）、保險、疫苗記錄、體檢/醫療表、過敏與用藥說明、緊急聯絡人、家長同意書、航班與住宿/接送信息。"
         ]
       },
       {
-        heading: "二、疫苗怎麼辦：先核 routine vaccinations，再看目的地和項目要求",
+        heading: "七、補充提醒：疫苗怎麼辦",
         paragraphs: [
           "第一步不是盲目補針，而是先找出學生已有的疫苗記錄：兒童疫苗本、學校/診所記錄、GP 或家庭醫生記錄、過去出國疫苗記錄等。先確認常規疫苗是否完整，再看目的地是否需要 travel vaccines。",
           "NHS 關於 travel vaccinations 的公開說明提醒，出行前應確認常規疫苗是否 up to date。不同國家、停留時間、活動內容、學生年齡和健康狀況都會影響建議。",
@@ -1896,14 +2006,14 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "三、體檢 / 醫療表：只填事實，不替醫生判斷",
+        heading: "八、補充提醒：體檢 / 醫療表只填事實，不替醫生判斷",
         paragraphs: [
           "很多夏校會要求 health form、medical form 或 emergency medical information。家長應如實填寫：過敏史、哮喘、癲癇、糖尿病、食物禁忌、正在服用的藥物、既往重大疾病、心理健康或特殊支持需要（如適用）。",
           "如果表格需要醫生或診所簽字蓋章，請提前預約。去診所時帶上：項目方原表格、學生護照信息、疫苗記錄、正在使用的藥物清單、過敏信息、家長聯絡方式。不要讓中介或老師代替醫生填寫醫療判斷。"
         ]
       },
       {
-        heading: "四、家長同意書：未成年人出行要把監護授權寫清楚",
+        heading: "九、家長同意書：未成年人去英國要把監護授權寫清楚",
         paragraphs: [
           "未成年人出國，尤其是跟學校、夏校、親戚、監護人或團隊老師同行時，通常需要家長/監護人的書面同意。GOV.UK 關於帶未成年人出國的說明也提醒，邊境或相關方可能要求查看 permission letter。",
           "一份實用的家長同意書應至少包括：學生姓名、出生日期、護照號；父母/監護人姓名、電話和電郵；同行成人或項目方名稱；出行國家、城市、日期；住宿或活動安排；緊急聯絡人；家長同意學生參加項目、接受日常管理、在緊急情況下由項目方聯絡醫療機構和家長。",
@@ -1911,7 +2021,7 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "五、建議家長一次性提交的文件清單",
+        heading: "十、建議家長一次性提交的文件清單",
         paragraphs: [
           `<div class="report-table-wrap article-service-table">
             <table>
@@ -1931,14 +2041,14 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "六、給家長的簡短發送模板",
+        heading: "十一、給家長的簡短發送模板",
         paragraphs: [
           "家長可將以下文字連同文件一起發給項目負責人：",
           `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">可複製模板</div><p>您好，已按夏校要求整理學生出行文件。附件包括：護照首頁、疫苗記錄、體檢/醫療表、家長同意書、保險信息、緊急聯絡人及過敏/用藥說明（如適用）。請協助核對是否還需補充其他文件。如項目方對疫苗、體檢或家長同意書有最新版表格，請以最新版為準發給我們更新。</p></div>`
         ]
       },
       {
-        heading: "七、OTC 可以協助什麼，不能替代什麼",
+        heading: "十二、OTC 可以協助什麼，不能替代什麼",
         paragraphs: [
           "OTC 可以協助家長整理文件清單、核對是否缺頁、翻譯/雙語整理基本信息、提醒時間節點、把項目方回覆歸檔。但醫療判斷應由醫生/診所完成；法律或監護權爭議應由合資格法律專業人士處理；簽證/邊境要求應以官方渠道為準。",
           "本文是給家長的行政準備清單，不構成醫療建議、法律建議、簽證建議或學校/夏校官方要求。正式出行前，請以項目方最新書面通知、官方健康/邊境資訊和個人實際情況為準。"
