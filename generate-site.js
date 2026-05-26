@@ -1838,7 +1838,12 @@ const insightsArticles = [
       ["CRICOS official course register", "https://cricos.education.gov.au/"],
       ["training.gov.au National VET Register", "https://training.gov.au/"],
       ["ASQA: what is an RTO", "https://www.asqa.gov.au/rtos/what-is-an-rto"],
-      ["TAFE Queensland international price list", "https://tafeqld.edu.au/international/courses/international-pricelist"]
+      ["TAFE Queensland international price list", "https://tafeqld.edu.au/international/courses/international-pricelist"],
+      ["TAFE Queensland Diploma of Business / Diploma of Leadership and Management", "https://tafeqld.edu.au/course/17/17874/diploma-of-business-diploma-of-leadership-and-management?ways_to_study=International"],
+      ["Study Australia student visa application charge update", "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase"],
+      ["Home Affairs student visa length and OSHC requirement", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/length-of-stay"],
+      ["ANU OSHC duration and premium example", "https://www.anu.edu.au/students/program-administration/fees-payments/overseas-student-health-cover-duration-costs"],
+      ["AUD/CNY reference rate, 26 May 2026", "https://za.investing.com/currencies/aud-cny-historical-data"]
     ],
     factCheckNotes: [
       "核查時間：2026-05-26。本文依據 AQF、Study Australia、CRICOS、training.gov.au、ASQA 及 TAFE Queensland 公開頁面整理。",
@@ -1869,6 +1874,8 @@ const insightsArticles = [
         heading: "3) Fees and related costs",
         paragraphs: [
           "Tuition varies widely by provider, state, field and whether the student is domestic, international or subsidised. International VET fees are normally listed by the provider, and Study Australia directs students to search official course listings and provider pages for current fees.",
+          "For a concrete official example, TAFE Queensland lists its Diploma of Business / Diploma of Leadership and Management at South Bank, Brisbane, starting 13 July 2026, with a 1-year duration and an international student total course fee of AUD 17,200. Using the AUD/CNY reference rate around 1 AUD = RMB 4.87 on 26 May 2026, this is approximately RMB 83,800 before additional costs.",
+          "A practical first-year budget example can therefore be built as follows: tuition AUD 17,200 (about RMB 83,800); materials/equipment estimate AUD 500-1,500 (about RMB 2,400-7,300); application or administration estimate AUD 100-250 (about RMB 500-1,200); OSHC example AUD 806 for 12 months single cover based on ANU/Allianz's published table (about RMB 3,900); Student visa VAC AUD 2,000 for the primary applicant under the 1 July 2025 Study Australia update (about RMB 9,700); living-cost estimate AUD 24,000-30,000 for one year in Brisbane (about RMB 116,900-146,100). That gives an illustrative first-year budget of roughly AUD 44,600-51,800, or about RMB 217,000-252,000. This is a planning estimate, not a provider quote.",
           "In addition to tuition, families should budget for application or enrolment fees, material and equipment costs, uniforms or tool kits, work placement requirements, insurance, visa-related costs, OSHC where relevant, English testing, travel and living costs."
         ]
       },
@@ -1914,6 +1921,8 @@ const insightsArticles = [
         paragraphs: [
           "VET / TAFE 學費差異很大，取決於州、provider、專業、校區、是否國際學生、是否有政府補貼。不能用一個固定數字概括所有課程。Study Australia 的官方費用頁提醒學生要查具體課程和 provider 的當前費用：https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs。",
           "實務上要把費用拆成幾類：學費 tuition；申請 / enrolment / administration fee；材料費、工具包、制服、耗材；實習或 work placement 可能產生的要求；英語考試費；簽證相關費用；保險與 OSHC（如適用）；住宿、交通和生活費。",
+          "舉一個官方頁面上的實例：TAFE Queensland 的 Diploma of Business / Diploma of Leadership and Management 頁面列出 South Bank, Brisbane 校區 2026 年 7 月 13 日開課、1 年制，國際學生 total course fee 為 AUD 17,200，頁面同時說明這是 international students 的總課程費用。按 2026 年 5 月 26 日 AUD/CNY 約 1:4.87 估算，AUD 17,200 約等於人民幣 83,800 元。這只是按當日匯率折算的學費示例，未包含材料費、一次性申請費、OSHC、簽證、住宿、交通和生活費。",
+          "如果把一個 1 年制 Brisbane / South Bank 學生做成可給家長看的預算樣本，可以這樣列：學費 AUD 17,200，約人民幣 83,800；材料、工具、制服或耗材先按 AUD 500-1,500 預估，約人民幣 2,400-7,300；申請 / administration / enrolment 相關費用先按 AUD 100-250 預估，約人民幣 500-1,200；OSHC 可用公開示例估算，ANU / Allianz 12 個月 single cover 表示 AUD 806，約人民幣 3,900；學生簽證主申請人的 VAC，Study Australia 2025 年 7 月更新列為 AUD 2,000，約人民幣 9,700；Brisbane 一年生活費可先按 AUD 24,000-30,000 做保守預估，約人民幣 116,900-146,100。合計第一年預算約 AUD 44,600-51,800，折人民幣約 217,000-252,000。這是規劃用預估，不是院校正式報價。",
           "例如 TAFE Queensland 的 international price list 會按課程列出國際學生費用，並提示材料費和一次性申請費可能另算：https://tafeqld.edu.au/international/courses/international-pricelist。這類頁面適合做正式報價前的核查入口。"
         ]
       },
