@@ -9803,8 +9803,6 @@ function otcPartnerRecruitmentPage(locale = "en") {
             <p>${heroBody}</p>
             <div class="actions">
               <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Apply as Partner"}</a>
-              <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 Australia One-Pager" : "Download Australia One-Pager"}</a>
-              <a class="partner-text-link" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
             </div>
             <div class="partner-language-switch">
               <a href="${oppositePath}">${isZh ? "English version" : "中文版"}</a>
