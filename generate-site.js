@@ -9646,11 +9646,11 @@ function otcPartnerRecruitmentPage(locale = "en") {
   const oppositePath = isZh ? "/education-partners/" : "/zh/education-partners/";
   const heroTitle = isZh ? "成為 OTC 教育合作夥伴" : "Become an OTC Education Partner";
   const heroSubtitle = isZh
-    ? "加入 OTC Global Summer Alliance，與我們一起協助家庭連接英國與澳洲的國際教育與升學路線。"
-    : "Join OTC Global Summer Alliance and help families access international education pathways across the UK and Australia.";
+    ? "與 OTC 一起建立英國、澳洲與國際暑期教育合作網絡。"
+    : "Join OTC in building international summer and pathway partnerships across the UK, Australia, and selected global education destinations.";
   const heroBody = isZh
-    ? "我們與教育顧問、國際學校升學顧問、家長社群、遊學組織方及區域合作夥伴合作。比起大量招生，我們更看重學生與學校是否真正匹配。"
-    : "We work with education consultants, international school advisors, family offices, study tour organisers, and regional partners who believe educational fit matters more than mass recruitment.";
+    ? "從 summer alliance、private school exposure 到 pathway planning，我們更重視教育匹配、家庭判斷與長線發展，而不是大量招生。"
+    : "From summer alliance development and private-school exposure to pathway planning, OTC prioritises educational fit, family decision support, and long-term progression over mass recruitment.";
   const applyHref = isZh
     ? "mailto:office@overseasuk.com?subject=OTC%20合作夥伴申請&body=機構名稱%3A%0A聯絡人%3A%0A地區%3A%0A合作方向%3A%0A網站%20/%20社群%3A%0A備註%3A"
     : "mailto:office@overseasuk.com?subject=OTC%20Partner%20Application&body=Organisation%20name%3A%0AContact%20person%3A%0ARegion%3A%0APartnership%20interest%3A%0AWebsite%20/%20social%20links%3A%0ANotes%3A";
@@ -9683,56 +9683,69 @@ function otcPartnerRecruitmentPage(locale = "en") {
     body: `
       <section class="page-hero partner-hero">
         <div class="band">
-          <div class="eyebrow">${isZh ? "OTC Partner Network" : "OTC Partner Network"}</div>
-          <h1>${heroTitle}</h1>
-          <p>${isZh ? "面向教育顧問、院校合作方與區域夥伴的英澳教育合作入口。" : "A partnership gateway for education consultants, institutional collaborators and regional education partners across the UK and Australia."}</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Apply as Partner"}</a>
-            <a class="btn btn-secondary" href="${meetingHref}">${isZh ? "預約會議" : "Schedule a Meeting"}</a>
-            <a class="btn btn-secondary" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
-            <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載澳洲合作簡介" : "Download Australia One-Pager"}</a>
+          <div class="partner-hero-copy">
+            <div class="eyebrow">${isZh ? "OTC Partner Network" : "OTC Partner Network"}</div>
+            <h1>${heroTitle}</h1>
+            <h2>${heroSubtitle}</h2>
+            <p>${heroBody}</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Apply as Partner"}</a>
+              <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 Australia One-Pager" : "Download Australia One-Pager"}</a>
+              <a class="partner-text-link" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
+            </div>
+            <div class="partner-language-switch">
+              <a href="${oppositePath}">${isZh ? "English version" : "中文版"}</a>
+            </div>
+            <div class="partner-trust-strip">
+              <span>${isZh ? "UK-based" : "UK-based"}</span>
+              <span>${isZh ? "Bilingual support" : "Bilingual support"}</span>
+              <span>${isZh ? "Private school exposure" : "Private school exposure"}</span>
+              <span>${isZh ? "Pathway planning" : "Pathway planning"}</span>
+            </div>
           </div>
-          <div class="partner-language-switch">
-            <a href="${oppositePath}">${isZh ? "English version" : "中文版"}</a>
+          <div class="partner-hero-visual">
+            <div class="partner-hero-panel hero-map">
+              <strong>${isZh ? "OTC Global Summer Alliance" : "OTC Global Summer Alliance"}</strong>
+              <span>${isZh ? "UK · Australia · pathway-led partnerships" : "UK · Australia · pathway-led partnerships"}</span>
+            </div>
+            <div class="partner-stat-grid">
+              <article>
+                <b>01</b>
+                <strong>${isZh ? "Summer Alliance" : "Summer Alliance"}</strong>
+                <span>${isZh ? "語言、學術與私校前置路線" : "Language, academic and school-exposure routes"}</span>
+              </article>
+              <article>
+                <b>02</b>
+                <strong>${isZh ? "K-12 / Boarding" : "K-12 / Boarding"}</strong>
+                <span>${isZh ? "家庭規劃、觀察與轉化支持" : "Family planning, observation and conversion support"}</span>
+              </article>
+              <article>
+                <b>03</b>
+                <strong>${isZh ? "University Pathway" : "University Pathway"}</strong>
+                <span>${isZh ? "暑期體驗接回長線升學" : "Short-term experience feeding longer-term progression"}</span>
+              </article>
+              <article>
+                <b>04</b>
+                <strong>${isZh ? "Partner Network" : "Partner Network"}</strong>
+                <span>${isZh ? "顧問、學校與區域合作夥伴" : "Consultants, schools and regional partners"}</span>
+              </article>
+            </div>
           </div>
         </div>
       </section>
 
       <main>
         <section class="band">
-          <div class="section-head compact-head">
-            <div class="eyebrow">${isZh ? "合作路線圖" : "Partner Route Map"}</div>
-            <h2>${isZh ? "OTC Global Summer Alliance 怎麼運作" : "How OTC Global Summer Alliance works"}</h2>
-            <p>${isZh ? "把合作方、家庭需求、項目匹配與後續升學放在同一套工作流裡。先分清合作角色，再推進對接。" : "The system connects partner types, family needs, programme matching and longer-term progression in one workflow."}</p>
+          <div class="section-head compact-head partner-tier-head">
+            <div class="eyebrow">${isZh ? "About OTC" : "About OTC"}</div>
+            <h2>${isZh ? "立足英國，面向全球的教育合作節點" : "A UK-based education partnership platform with global reach"}</h2>
+            <p>${isZh ? "OTC 的定位不是旅遊式暑校集合頁，而是把夏校、私校前置、pathway 與長線升學規劃接在一起的合作網絡。" : "OTC is not positioned as a tourism-style summer aggregator. It connects summer programmes, private-school exposure, pathway planning, and longer-term educational progression in one network."}</p>
           </div>
-          <div class="partner-route-map">
-            <article>
-              <b>01</b>
-              <strong>${isZh ? "合作方入口" : "Partner Entry"}</strong>
-              <span>${isZh ? "教育顧問、學校顧問、遊學組織方、家長社群與院校合作方。" : "Education consultants, school advisors, study-tour organisers, parent communities and institutions."}</span>
-            </article>
-            <article>
-              <b>02</b>
-              <strong>${isZh ? "家庭需求" : "Family Need"}</strong>
-              <span>${isZh ? "暑校、私校觀察、pathway 準備、K-12 規劃或大學試跑。" : "Summer programmes, private-school observation, pathway preparation, K-12 planning or university taster routes."}</span>
-            </article>
-            <article>
-              <b>03</b>
-              <strong>${isZh ? "OTC 匹配" : "OTC Matching"}</strong>
-              <span>${isZh ? "按學生背景、家庭預期與項目可行性做分流，不走大量安置式招生。" : "Students are routed by profile, family expectation and programme fit rather than mass-placement logic."}</span>
-            </article>
-            <article>
-              <b>04</b>
-              <strong>${isZh ? "後續轉化" : "Progression"}</strong>
-              <span>${isZh ? "把短期體驗接回 K-12、私校、pathway 或後續大學升學。" : "Short-term experience can lead into K-12, private-school, pathway or university progression."}</span>
-            </article>
-          </div>
-          <div class="partner-type-table">
-            <div class="partner-type-row head"><span>${isZh ? "合作類型" : "Partner Type"}</span><span>${isZh ? "適合對象" : "Best For"}</span><span>${isZh ? "合作重點" : "What It Usually Leads To"}</span></div>
-            <div class="partner-type-row"><span>${isZh ? "Referral Partner" : "Referral Partner"}</span><span>${isZh ? "家長社群、教育博主、校內顧問" : "Parent communities, education creators, school counsellors"}</span><span>${isZh ? "家庭轉介、初步對接、後續由 OTC 跟進" : "Family referrals and OTC follow-up"}</span></div>
-            <div class="partner-type-row"><span>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</span><span>${isZh ? "精品諮詢團隊、區域 agency、pathway centre" : "Boutique consultancies, regional agencies, pathway centres"}</span><span>${isZh ? "聯名宣傳、諮詢分工、study tour 或區域合作" : "Co-branded promotion, consultation cooperation and study tours"}</span></div>
-            <div class="partner-type-row"><span>${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}</span><span>${isZh ? "學校、語言中心、pathway provider、大學" : "Schools, language centres, pathway providers, universities"}</span><span>${isZh ? "合作項目、訪校安排、長線招生合作" : "Custom programmes, visits and longer-term recruitment cooperation"}</span></div>
-            <div class="partner-type-row"><span>${isZh ? "Summer Programme Provider" : "Summer Programme Provider"}</span><span>${isZh ? "summer school、camp、school visit provider" : "Summer school, camp and visit providers"}</span><span>${isZh ? "納入 OTC Summer Alliance、做公開頁展示與家長分流" : "Inclusion in OTC Summer Alliance and family-facing positioning"}</span></div>
+          <div class="partner-trust-badges">
+            <article><strong>UK-based</strong><span>${isZh ? "英國本地教育與升學背景" : "Grounded in UK education and progression work"}</span></article>
+            <article><strong>Bilingual</strong><span>${isZh ? "更好承接亞洲家庭與海外院校" : "Better communication across Asian families and institutions"}</span></article>
+            <article><strong>Pathway-first</strong><span>${isZh ? "把短期項目接回長線規劃" : "Short-term routes tied to long-term planning"}</span></article>
+            <article><strong>Educational fit</strong><span>${isZh ? "強調匹配，不做大量安置" : "Fit-driven rather than volume-driven"}</span></article>
           </div>
         </section>
 
@@ -9757,35 +9770,34 @@ function otcPartnerRecruitmentPage(locale = "en") {
 
         <section class="band">
           <div class="section-head compact-head">
-            <div class="eyebrow">${isZh ? "合作對象" : "Who We Partner With"}</div>
-            <h2>${isZh ? "我們希望和哪些人合作" : "Who We Partner With"}</h2>
+            <div class="eyebrow">${isZh ? "合作模式" : "Partnership Models"}</div>
+            <h2>${isZh ? "先看 OTC 的三種合作方式" : "Three ways partners typically work with OTC"}</h2>
+            <p>${isZh ? "把合作層級先分清楚，對接效率會高很多。" : "Clarity on partner model makes the next step faster and more credible."}</p>
           </div>
-          <div class="standards-grid partner-grid">
-            <article><b>01</b><h2>${isZh ? "教育顧問" : "Education Consultants"}</h2><p>${isZh ? "協助區域學生招募、家長諮詢與初步路線判斷。" : "Regional student recruitment and family consultation support."}</p></article>
-            <article><b>02</b><h2>${isZh ? "國際學校顧問" : "International School Advisors"}</h2><p>${isZh ? "服務正在探索英國與澳洲 boarding 或 K-12 路線的家庭。" : "Families exploring UK and Australian boarding or K-12 pathways."}</p></article>
-            <article><b>03</b><h2>${isZh ? "遊學與訪學組織方" : "Study Tour Organisers"}</h2><p>${isZh ? "可共同設計 summer programme、教育訪校與 immersion 路線。" : "Customised summer programmes, educational visits, and immersion routes."}</p></article>
-            <article><b>04</b><h2>${isZh ? "家長社群與家族辦公室" : "Family Offices & Parent Communities"}</h2><p>${isZh ? "面向高淨值家庭的國際教育與長線規劃支持。" : "High-net-worth families seeking international education planning."}</p></article>
-            <article><b>05</b><h2>${isZh ? "本地教育工作室" : "Local Education Studios"}</h2><p>${isZh ? "適合精品諮詢團隊、升學工作室與 pathway preparation centres。" : "Boutique counselling teams and pathway preparation centres."}</p></article>
-            <article><b>06</b><h2>${isZh ? "院校與教育機構" : "University & School Partners"}</h2><p>${isZh ? "語言學校、私校、pathway provider 與大學合作方。" : "Language schools, private schools, pathway providers, and universities."}</p></article>
+          <div class="standards-grid partner-model-grid">
+            <article><b>01</b><h2>${isZh ? "Referral Partner" : "Referral Partner"}</h2><p>${isZh ? "適合家長社群、教育顧問老師、內容創作者與校內顧問。OTC 負責後續諮詢、匹配與操作。" : "Designed for parent communities, counsellors, education creators and school advisers. OTC handles the operational follow-through."}</p></article>
+            <article><b>02</b><h2>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</h2><p>${isZh ? "適合精品 agency、區域工作室與 pathway centre，可做聯名宣傳、區域諮詢與短期訪學合作。" : "Suited to boutique agencies, local studios and pathway centres for regional consultation, co-branding and study-tour cooperation."}</p></article>
+            <article><b>03</b><h2>${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}</h2><p>${isZh ? "適合學校、語言中心、summer provider 與 pathway provider，可共同設計項目、訪校安排與長線招募。" : "For schools, language centres, summer providers and pathway providers exploring custom programmes, visits and longer-term recruitment."}</p></article>
           </div>
         </section>
 
         <section class="band">
           <div class="two-col">
             <div class="about-panel surface">
-              <div class="eyebrow">OTC Global Summer Alliance</div>
-              <h3>${isZh ? "OTC Global Summer Alliance" : "OTC Global Summer Alliance"}</h3>
-              <p>${isZh ? "OTC 正在建立一個多目的地的夏校聯盟，重點不是旅遊式 summer camp，而是教育定位與長線銜接。" : "OTC is building a multi-destination summer alliance focused on educational positioning and long-term progression rather than generic tourism-style summer camps."}</p>
+              <div class="eyebrow">${isZh ? "Why Australia" : "Why Australia"}</div>
+              <h3>${isZh ? "為什麼越來越多家庭開始看澳洲？" : "Why more families are looking seriously at Australia"}</h3>
+              <p>${isZh ? "澳洲對很多家庭來說，不只是暑期活動目的地，而是更安全、語言環境更穩、K-12 連續性更清楚的大教育市場。" : "Australia is increasingly seen not just as a summer destination, but as a wider education ecosystem with stronger lifestyle confidence, English exposure and K-12 continuity."}</p>
               <ul class="summer-focus-list">
-                <li><strong>${isZh ? "English immersion" : "English immersion"}</strong><span>${isZh ? "英文沉浸與真實輸出環境" : "English immersion and real-world communication environments."}</span></li>
-                <li><strong>${isZh ? "Private school observation" : "Private school observation"}</strong><span>${isZh ? "幫家庭更早理解私校、寄宿與校園文化" : "Helping families understand private schools, boarding and school culture earlier."}</span></li>
-                <li><strong>${isZh ? "Pathway preparation" : "Pathway preparation"}</strong><span>${isZh ? "把短期項目和未來 K-12 / university transition 放在一起看" : "Connecting short-term programmes with future K-12 and university transition planning."}</span></li>
+                <li><strong>${isZh ? "Safety and lifestyle" : "Safety and lifestyle"}</strong><span>${isZh ? "高淨值與低齡家庭更重視安全感、照護與生活質量。" : "Families often prioritise safety, care structures and quality of life."}</span></li>
+                <li><strong>${isZh ? "Boarding and homestay" : "Boarding and homestay"}</strong><span>${isZh ? "澳洲更容易把短期體驗接回 boarding、guardian 與 K-12 規劃。" : "Short-term experiences can more naturally feed into boarding, guardian planning and K-12 decisions."}</span></li>
+                <li><strong>${isZh ? "Pathway flexibility" : "Pathway flexibility"}</strong><span>${isZh ? "從暑期體驗到本科銜接，路線更容易連起來。" : "Australia offers clearer continuity from short-term exposure to university planning."}</span></li>
               </ul>
             </div>
             <div class="about-panel surface">
-              <div class="eyebrow">${isZh ? "澳洲拓展" : "Australia Focus"}</div>
-              <h3>${isZh ? "Australia Summer Alliance 正在擴展中" : "Australia Summer Alliance Expansion"}</h3>
-              <p>${isZh ? "目前 OTC 正在圍繞 Gold Coast、Brisbane、Sydney、Melbourne、Adelaide 與 Perth，建立語言營、私校觀察、大學學術試跑與 pathway preparation 的合作網絡。" : "OTC is currently expanding its Australia Summer Alliance with selected schools and institutions across Gold Coast, Brisbane, Sydney, Melbourne, Adelaide, and Perth."}</p>
+              <div class="eyebrow">${isZh ? "OTC Gold Coast Focus" : "OTC Gold Coast Focus"}</div>
+              <h3>${isZh ? "Gold Coast 對 OTC 來說，不只是旅遊城市" : "Gold Coast is not just a tourism city in OTC's model"}</h3>
+              <p>${isZh ? "我們把 Gold Coast 看成私校觀察、語言營、homestay、生活環境與 future boarding discussion 可以同時發生的教育節點。" : "OTC treats Gold Coast as an education node where English immersion, school exposure, homestay, lifestyle confidence and future boarding discussion can all sit together."}</p>
+              <p>${isZh ? "目前澳洲合作擴展正圍繞 Gold Coast、Brisbane、Sydney、Melbourne、Adelaide 與 Perth 展開。" : "Current alliance development spans Gold Coast, Brisbane, Sydney, Melbourne, Adelaide and Perth."}</p>
               <p>${isZh ? "部分私校觀察與 immersion 類安排，仍需以校方批准為準。" : "Some private school observation opportunities remain subject to school approval."}</p>
             </div>
           </div>
@@ -9793,21 +9805,24 @@ function otcPartnerRecruitmentPage(locale = "en") {
 
         <section class="band">
           <div class="section-head compact-head">
-            <div class="eyebrow">${isZh ? "合作模式" : "Partnership Opportunities"}</div>
-            <h2>${isZh ? "OTC 可以如何合作" : "Partnership Opportunities"}</h2>
+            <div class="eyebrow">${isZh ? "合作對象" : "Who We Partner With"}</div>
+            <h2>${isZh ? "這頁最適合哪些合作方打開" : "Who this page is designed for"}</h2>
           </div>
           <div class="standards-grid partner-grid">
-            <article><b>01</b><h2>${isZh ? "Referral Partner" : "Referral Partner"}</h2><p>${isZh ? "適合教育博主、校內顧問、家長社群與本地升學顧問。OTC 負責 admissions support 與後續操作。" : "Suitable for education influencers, school counsellors, parent communities and local advisors. OTC handles admissions support and operations."}</p></article>
-            <article><b>02</b><h2>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</h2><p>${isZh ? "適合區域 agency、精品諮詢團隊與 pathway centre，可做聯名宣傳、學生諮詢、study tour 與區域合作。" : "Suitable for regional agencies, boutique consultancies and pathway centres. Includes student consultation, co-branded promotion, study tour opportunities and regional cooperation."}</p></article>
-            <article><b>03</b><h2>${isZh ? "Institutional Collaboration" : "Institutional Collaboration"}</h2><p>${isZh ? "適合學校、大學、pathway provider 與語言中心，可探討 customised summer programmes、pathway articulation、educational visits 與長線合作。" : "Suitable for schools, universities, pathway providers and language centres. Potential cooperation includes customised summer programmes, pathway articulation, educational visits and long-term recruitment cooperation."}</p></article>
+            <article><b>01</b><h2>${isZh ? "教育顧問" : "Education Consultants"}</h2><p>${isZh ? "協助區域家長諮詢、初步路線判斷與教育規劃分流。" : "Regional family consultation, first-stage route diagnosis and educational planning support."}</p></article>
+            <article><b>02</b><h2>${isZh ? "國際學校與升學顧問" : "International School Advisors"}</h2><p>${isZh ? "服務正在探索英國與澳洲 boarding 或 K-12 走向的家庭。" : "Advisers working with families exploring boarding and K-12 pathways in the UK or Australia."}</p></article>
+            <article><b>03</b><h2>${isZh ? "遊學與訪學組織方" : "Study Tour Organisers"}</h2><p>${isZh ? "可共同設計 summer programme、school visit 與 immersion 路線。" : "Partners building customised summer programmes, school visits and immersion routes."}</p></article>
+            <article><b>04</b><h2>${isZh ? "家長社群與家族辦公室" : "Parent Communities & Family Offices"}</h2><p>${isZh ? "面向更重視教育判斷、生活品質與長線規劃的家庭。" : "For families placing high value on educational fit, lifestyle confidence and long-term planning."}</p></article>
+            <article><b>05</b><h2>${isZh ? "本地教育工作室" : "Local Education Studios"}</h2><p>${isZh ? "適合精品升學工作室、pathway preparation centre 與區域合作節點。" : "Suited to boutique counselling studios, pathway preparation centres and regional cooperation nodes."}</p></article>
+            <article><b>06</b><h2>${isZh ? "院校與教育機構" : "Schools & Institutions"}</h2><p>${isZh ? "語言學校、私校、summer provider、pathway provider 與大學合作方。" : "Language schools, private schools, summer providers, pathway providers and universities."}</p></article>
           </div>
         </section>
 
         <section class="band">
           <div class="two-col">
             <div class="about-panel surface">
-              <div class="eyebrow">${isZh ? "為什麼家庭選 OTC" : "Why Partner with OTC"}</div>
-              <h3>${isZh ? "家庭選擇 OTC，通常不是因為量，而是因為判斷與匹配" : "Why Families Choose OTC"}</h3>
+              <div class="eyebrow">${isZh ? "為什麼和 OTC 合作" : "Why Partner with OTC"}</div>
+              <h3>${isZh ? "家庭選擇 OTC，通常不是因為量，而是因為判斷與匹配" : "Families usually choose OTC for judgement, fit and progression logic"}</h3>
               <ul class="summer-focus-list">
                 <li><strong>${isZh ? "英國本地教育定位" : "UK-based positioning"}</strong><span>${isZh ? "英國本地升學與教育路線背景" : "A UK-based international education positioning."}</span></li>
                 <li><strong>${isZh ? "雙語溝通" : "Bilingual communication"}</strong><span>${isZh ? "更好連接亞洲家庭與海外院校" : "Stronger engagement with Asian families and institutions."}</span></li>
@@ -9825,6 +9840,35 @@ function otcPartnerRecruitmentPage(locale = "en") {
                 <li><strong>${isZh ? "pathway / university progression" : "Pathway and university progression"}</strong><span>${isZh ? "把短期體驗接回長線教育規劃" : "Connecting short-term experiences to longer-term educational planning."}</span></li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "合作路線圖" : "Partner Route Map"}</div>
+            <h2>${isZh ? "一段合作通常怎麼展開" : "How a typical OTC partner route unfolds"}</h2>
+          </div>
+          <div class="partner-route-map">
+            <article>
+              <b>01</b>
+              <strong>${isZh ? "合作方入口" : "Partner Entry"}</strong>
+              <span>${isZh ? "先分清 referral、regional、institutional 或 programme provider。" : "Start by clarifying whether the enquiry is referral, regional, institutional or programme-led."}</span>
+            </article>
+            <article>
+              <b>02</b>
+              <strong>${isZh ? "家庭需求" : "Family Need"}</strong>
+              <span>${isZh ? "暑校、私校觀察、pathway、K-12 或大學試跑的需求會完全不同。" : "Family needs differ sharply across summer, school exposure, pathway, K-12 and university trial routes."}</span>
+            </article>
+            <article>
+              <b>03</b>
+              <strong>${isZh ? "OTC 匹配" : "OTC Matching"}</strong>
+              <span>${isZh ? "按學生背景、家庭判斷與項目可行性做對接。" : "OTC matches by student profile, family judgement and programme feasibility."}</span>
+            </article>
+            <article>
+              <b>04</b>
+              <strong>${isZh ? "後續轉化" : "Progression"}</strong>
+              <span>${isZh ? "把短期體驗接回私校、pathway 或後續大學規劃。" : "Short-term experience can then connect back into private school, pathway or university planning."}</span>
+            </article>
           </div>
         </section>
 
@@ -9880,6 +9924,19 @@ function otcPartnerRecruitmentPage(locale = "en") {
                 <a href="${onePagerHtml}" target="_blank" rel="noopener">${isZh ? "查看 HTML 預覽" : "Open HTML preview"}</a>
               </div>
             </aside>
+          </div>
+        </section>
+
+        <section class="band partner-final-cta">
+          <div class="partner-final-cta-card">
+            <div class="eyebrow">${isZh ? "Final CTA" : "Final CTA"}</div>
+            <h2>${isZh ? "現在開始和 OTC 建立合作對話" : "Start a Conversation with OTC"}</h2>
+            <p>${isZh ? "無論你是教育顧問、學校代表、暑期項目機構或區域合作方，OTC 都歡迎先從一段清楚、克制、可落地的合作對話開始。" : "Whether you are an education consultant, school representative, summer programme provider or regional partner, OTC welcomes a clear and grounded first conversation."}</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Apply as Partner"}</a>
+              <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 One-Pager" : "Download One-Pager"}</a>
+              <a class="partner-text-link" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
+            </div>
           </div>
         </section>
 
