@@ -20587,21 +20587,56 @@ html[lang^="zh"] .about-panel li {
   bottom: auto !important;
   display: flex !important;
   flex-direction: column !important;
-  left: auto !important;
+  left: 6.2% !important;
   padding: 0 !important;
   position: absolute !important;
-  right: 14px !important;
-  top: 10px !important;
-  width: auto !important;
+  right: auto !important;
+  top: 14.5% !important;
+  width: 34% !important;
+  max-width: 500px !important;
   z-index: 5 !important;
 }
 
 .partner-hero-copy .eyebrow,
-.partner-hero-copy h1,
-.partner-hero-copy h2,
-.partner-hero-copy p,
+.partner-language-switch,
 .partner-trust-strip {
   display: none !important;
+}
+
+.partner-hero-copy h1,
+.partner-hero-copy h2,
+.partner-hero-copy p {
+  display: block !important;
+  margin: 0 !important;
+  max-width: 92% !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.38) !important;
+}
+
+.partner-hero-copy h1 {
+  color: #f2e0a7 !important;
+  font-family: "Songti SC", "Songti TC", "Songti", "STSong", serif !important;
+  font-size: clamp(24px, 2.7vw, 35px) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.14 !important;
+  margin-bottom: 8px !important;
+}
+
+.partner-hero-copy h2 {
+  color: #fffaf0 !important;
+  font-family: "Songti SC", "Songti TC", "Songti", "STSong", serif !important;
+  font-size: clamp(24px, 2.7vw, 35px) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.14 !important;
+  margin-bottom: 16px !important;
+}
+
+.partner-hero-copy p {
+  color: rgba(249, 243, 231, 0.94) !important;
+  font-size: clamp(11px, 1vw, 13px) !important;
+  line-height: 1.62 !important;
+  max-width: 78% !important;
 }
 
 .partner-hero .actions {
@@ -20609,6 +20644,9 @@ html[lang^="zh"] .about-panel li {
   gap: 4px !important;
   margin: 0 !important;
   pointer-events: auto !important;
+  position: absolute !important;
+  right: 14px !important;
+  top: 10px !important;
 }
 
 .partner-hero .btn,
