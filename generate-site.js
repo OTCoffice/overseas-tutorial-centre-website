@@ -5948,6 +5948,124 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "soas-nstc-taiwan-scholarships-2026-27-application-guide",
+    title: "SOAS NSTC Taiwan Scholarships 2026/27: What Applicants Should Notice First",
+    date: "2026-05-27",
+    category: "Scholarships",
+    column: "study",
+    kicker: "SOAS · Taiwan Studies · 獎學金窗口",
+    author: "留學導報編輯部",
+    summary: "A practical OTC briefing on the newly announced SOAS Taiwan Studies scholarship opportunity backed by Taiwan’s NSTC, including what is already clear from official SOAS sources, what applicants should verify before submission, and why this scholarship deserves attention beyond the headline amount.",
+    titleZh: "SOAS 台灣研究獎學金開放申請：這筆 2026/27 funding 為什麼值得立刻看？",
+    summaryZh: "SOAS 近期正式宣布獲得臺灣國家科學及技術委員會（NSTC）支持，將擴大 Taiwan Studies 的 scholarship、研究交流與學術活動。對有意申請 MA Taiwan Studies 或以台灣研究為主題研究學位的人來說，這不是一條可有可無的小獎學金消息，而是一個很值得立刻盤清條件、時程與申請敘事的 funding 窗口。",
+    relatedReadings: [
+      "uk-second-masters-scholarship-funding-guide-2026",
+      "uk-personal-statement-evidence-first-checklist",
+      "uk-master-application-checklist-2026",
+      "uk-australia-marketing-media-masters-application-portfolio"
+    ],
+    resources: [
+      ["SOAS official news — Major funding boost for Taiwan Studies", "https://www.soas.ac.uk/about/news/major-funding-boost-taiwan-studies"],
+      ["SOAS Centre of Taiwan Studies", "https://www.soas.ac.uk/research/centres-and-institutes/centre-taiwan-studies"],
+      ["SOAS MA Taiwan Studies", "https://www.soas.ac.uk/cia/programmes/mataiwanstudies/"],
+      ["SOAS scholarships, bursaries and awards", "https://www.soas.ac.uk/study/fees-and-funding/scholarships-bursaries-and-awards"],
+      ["SOAS Master’s Scholarships (International) 2026", "https://www.soas.ac.uk/study/student-life/finance/scholarships/soas-masters-scholarships-international-2026"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-27。SOAS 已在官方新聞頁面確認獲得臺灣國家科學及技術委員會（NSTC）支持，並明言新計畫將提供 scholarship opportunities、visiting scholar programme 與台灣 fieldwork / conference funding。",
+      "SOAS Centre of Taiwan Studies 官方介紹頁同時確認：SOAS 持續提供 MA Taiwan Studies，且為國際上最活躍的 Taiwan Studies 中心之一。",
+      "本文提到的『£10,000（Home）／£20,000（Overseas）與 2026 年 6 月 17 日中午 12 點（英國時間）截止』，依據目前對外發布的 SOAS Taiwan Studies 招生公告口徑整理；正式送件前，申請人仍應回到 SOAS scholarship / programme 官方頁面再次核對最新條件與截止時間。"
+    ],
+    sidebarCards: [
+      ["01", "申請對象", "優先看 MA Taiwan Studies 與以台灣研究為主題的 research degree 申請者。", "Eligibility"],
+      ["02", "官方訊號", "SOAS 已正式確認 NSTC funding 會帶來 scholarship opportunities。", "Official"],
+      ["03", "實際價值", "這不只是學費減免消息，更是進入 SOAS Taiwan Studies 生態系的入口。", "Value"],
+      ["04", "先做什麼", "先申請課程、看 funding 頁面，再把研究動機與台灣研究連結講清楚。", "Action"]
+    ],
+    body: [
+      {
+        heading: "1) Why this is worth attention now",
+        paragraphs: [
+          "SOAS has now officially confirmed a major NSTC-backed expansion of its Taiwan Studies work. In its 19 May 2026 news announcement, SOAS states that the new NSTC Taiwan Studies Project will provide scholarship opportunities, a visiting scholar programme, and support for conference participation and fieldwork in Taiwan.",
+          "That matters because this is not a generic university marketing line. It is a programme-level signal that funding, research activity and Taiwan-focused academic visibility are all being strengthened at the same time."
+        ]
+      },
+      {
+        heading: "2) Why SOAS matters in this field",
+        paragraphs: [
+          "SOAS is not just another UK university listing a regional-studies option. Its Centre of Taiwan Studies describes itself as one of the world's leading hubs for Taiwan-focused teaching, research and public engagement, and it hosts the long-running MA Taiwan Studies.",
+          "For applicants, this changes the value of the scholarship. You are not only looking at money; you are looking at whether the surrounding academic platform is active enough to make the degree, the dissertation topic and future networking worthwhile."
+        ]
+      },
+      {
+        heading: "3) The practical reading of the scholarship announcement",
+        paragraphs: [
+          "The public announcement currently circulating through SOAS Taiwan Studies channels indicates a 2026/27 NSTC Taiwan Scholarships round tied to MA Taiwan Studies and Taiwan-focused research degrees, with different fee-support levels for Home and Overseas fee status applicants.",
+          "For OTC's practical reading, the most important point is not the headline amount alone. It is that the scholarship appears to be tied directly to Taiwan-focused study and research purpose. That means weakly connected applications are unlikely to stand out, even if the applicant is otherwise academically strong."
+        ]
+      },
+      {
+        heading: "4) What applicants should prepare first",
+        paragraphs: [
+          "The first move should still be admissions discipline: identify the eligible course, prepare the course application properly, and then move in parallel on scholarship preparation. SOAS's broader scholarships pages repeatedly show the same pattern: applicants need to have applied to SOAS, and many awards either require an offer or expect the course application to already be in the system.",
+          "For Taiwan Studies in particular, the critical document is not only grades. It is the academic logic linking your background, your Taiwan focus, your proposed line of inquiry and what SOAS specifically offers that another programme would not."
+        ]
+      },
+      {
+        heading: "5) Why this opportunity is bigger than a single fee waiver",
+        paragraphs: [
+          "The official SOAS announcement frames the NSTC Taiwan Studies Project as more than a scholarship pot. It includes visiting scholars, events activity and fieldwork support. In other words, the funding sits inside an expanding academic ecosystem.",
+          "That is why this should be read as a strategic application opportunity rather than a one-off discount. For the right applicant, the value lies in access to a live Taiwan Studies environment, not just in the tuition figure."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這條獎學金值得現在立刻看，不只是因為金額",
+        paragraphs: [
+          "SOAS 已在 2026 年 5 月 19 日的官方新聞中明確宣布，學校獲得臺灣國家科學及技術委員會（NSTC）支持，將透過新的 <b>NSTC Taiwan Studies Project</b> 擴大 Taiwan Studies 的 scholarship opportunities、visiting scholar programme，以及赴台 research fieldwork / conference funding。",
+          "這件事真正值得注意的，不只是『有一筆新獎學金開了』，而是它顯示 <b>SOAS 的台灣研究板塊正在被實質加碼</b>。對申請人來說，這代表你看到的不是一條孤零零的 fee waiver，而是一個背後有研究活動、學者交流與學術能量支持的 funding 窗口。"
+        ]
+      },
+      {
+        heading: "二、SOAS 的價值，不只是學校名氣，而是它本來就在做 Taiwan Studies",
+        paragraphs: [
+          "SOAS 不是臨時拼出一個『亞洲研究』概念來配合 funding。它的 Centre of Taiwan Studies 官方介紹頁本身就已經寫得很清楚：SOAS 長期被視為國際上最活躍的 Taiwan Studies 中心之一，並持續提供 <b>MA Taiwan Studies</b> 課程。",
+          "這意味著，如果你申請的是這條獎學金，你要看的不只是『這筆錢能不能減學費』，而是 <b>你進去之後，這個學術環境是否真的能承接你的研究興趣、論文主題與未來方向</b>。這也是為什麼這筆 funding 和一般單純的 international scholarship 不太一樣。"
+        ]
+      },
+      {
+        heading: "三、目前對外流出的口徑，重點不是先背金額，而是先看自己是不是對的人",
+        paragraphs: [
+          "依目前 SOAS Taiwan Studies 對外公告口徑，這輪 <b>NSTC Taiwan Scholarships</b> 主要面向 2026/27 入學的 <b>MA Taiwan Studies</b> 申請者，以及以台灣研究為主題的 research degree 申請者。公告中提到：<b>Home fee status 申請者可獲學費支持 £10,000，Overseas fee status 申請者可獲 £20,000</b>；同時目前流出的截止時間口徑為 <b>2026 年 6 月 17 日中午 12 點（英國時間）</b>。",
+          "但比金額更重要的，是你是不是 <b>真的適合這個獎學金</b>。這類 funding 不太可能青睞只是順手把台灣加進申請表的人。更有競爭力的，通常是那些本來就能把自己的學術背景、工作經驗、研究題目與台灣研究清楚接起來的申請人。"
+        ]
+      },
+      {
+        heading: "四、這種獎學金最怕的不是沒成績，而是申請敘事空",
+        paragraphs: [
+          "對 Taiwan Studies 這類較聚焦的 funding 來說，真正會拉開差距的，往往不是單純成績單，而是申請邏輯。你需要回答的不只是『我想去 SOAS』，而是：<b>為什麼是台灣？為什麼是現在？為什麼是 SOAS？你的研究關心、語言能力、社會觀察或職涯目標，和這個板塊到底怎麼接？</b>",
+          "如果這幾個問題講不清楚，那麼即使你 academic profile 不差，也很容易顯得只是來拿 funding。相反地，如果你的申請能讓人看見你和 Taiwan Studies 之間有真實而持續的連結，這類專項獎學金通常會更看得到你。"
+        ]
+      },
+      {
+        heading: "五、實務上怎麼做：先申請課程，再把 scholarship 併進時間表",
+        paragraphs: [
+          "從 OTC 的角度，最穩的操作順序還是：<b>先把 SOAS 課程申請送出去</b>，同時把 scholarship page、programme page、所需文件、deadline 與是否要求 offer 的規則列進同一張時間表。SOAS 的一般 scholarships / bursaries 頁面本身就反覆提醒：申請人至少應先完成入學申請，因為新 admissions system 會據此識別 eligibility。",
+          "也就是說，這不是『先拿到 offer 才開始想 funding』，而是：<b>入學申請是主線，獎學金準備要同步進行</b>。尤其這種有明確主題導向的 scholarship，更不應拖到最後幾天才開始拼個人陳述。"
+        ]
+      },
+      {
+        heading: "六、OTC 的判斷：這筆 funding 值得看，因為它連著的是整個學術環境",
+        paragraphs: [
+          "如果只從『減學費』角度看，很多人會把這筆獎學金和一般 university scholarship 混在一起。但 SOAS 官方新聞其實已經透露得很清楚：這個 NSTC Taiwan Studies Project 不只帶來 scholarship，還會帶來 visiting scholars、研究活動、fieldwork 支持與學術網絡延伸。",
+          "所以 OTC 對這條 funding 的判斷是：<b>它值得發，不是因為 headline 好看，而是因為它背後有一整個會動的學術生態系</b>。對真正想走 Taiwan Studies、區域研究、研究型碩士或後續博士路線的人來說，這比一筆孤立的學費折扣要有價值得多。",
+          "最後也提醒一句：正式送件前，仍應回到 SOAS scholarship / programme 官方頁面再次核對最新條件、費額口徑與截止時間。導報可以幫你先抓方向，但最後的提交版本，還是要以學校當下官方頁面為準。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-health-social-care-australia-vet-comparison",
     title: "OTHM Health Qualifications vs Australia VET: A Complete Comparison Guide",
     date: "2026-05-24",
