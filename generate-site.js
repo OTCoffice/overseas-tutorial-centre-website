@@ -5831,6 +5831,123 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "uk-second-masters-scholarship-funding-guide-2026",
+    title: "Second UK Master's Funding Guide 2026: Loan Limits, Scholarship Routes and Application Sequence",
+    date: "2026-05-27",
+    category: "UK Funding",
+    column: "study",
+    kicker: "英國碩士 · Funding 邊界 · 申請順序",
+    author: "留學導報編輯部",
+    summary: "A practical OTC briefing on whether applicants can fund a second UK master's degree, including the official limit on the Postgraduate Master's Loan, what Chevening does and does not rule out, and how to sequence course applications with scholarship applications.",
+    titleZh: "第二個英國碩士還能申請獎學金嗎？學貸限制、常見資助路徑與申請順序一次看懂",
+    summaryZh: "很多人準備讀第二個英國碩士時，第一個卡住的不是 offer，而是 funding。英國政府的 Postgraduate Master’s Loan 一般不能用在第二個完整碩士，但這不等於完全沒有資助機會。這篇《留學導報》把官方邊界、Chevening 等常見獎學金口徑，以及「先拿 offer 還是先申請 funding」這個最常見問題，一次整理清楚。",
+    relatedReadings: [
+      "uk-master-application-checklist-2026",
+      "uk-personal-statement-evidence-first-checklist",
+      "ucas-offer-conditional-unconditional-firm-insurance-guide",
+      "uk-australia-marketing-media-masters-application-portfolio"
+    ],
+    resources: [
+      ["GOV.UK — Master's Loan eligibility", "https://www.gov.uk/masters-loan/eligibility"],
+      ["GOV.UK — Master's Loan overview", "https://www.gov.uk/masters-loan/overview"],
+      ["GOV.UK — Funding for postgraduate study", "https://www.gov.uk/funding-for-postgraduate-study"],
+      ["Chevening — Eligibility criteria", "https://www.chevening.org/scholarships/who-can-apply/eligibility"],
+      ["Chevening — Work experience", "https://www.chevening.org/scholarships/who-can-apply/work-experience/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-27。本文關於英國 Postgraduate Master’s Loan 的資格限制，已按 GOV.UK 官方頁面核對。",
+      "GOV.UK 明確寫明：若申請人已擁有 master's degree 或同等資格，或之前已為 master’s course 取得 loan / grant，通常不能再獲得 Postgraduate Master’s Loan；但 PGCE、postgraduate diploma 或 certificate 不自動排除資格。",
+      "Chevening 官方 eligibility 頁面同時寫明：『having a master’s degree does not prevent you from applying for a second master’s degree in the UK』，但必須滿足其自身國籍、工作經驗、課程選擇與回國承諾等條件。"
+    ],
+    sidebarCards: [
+      ["01", "學貸", "第二個完整碩士一般不能再申請英國政府 Master’s Loan。", "Loan"],
+      ["02", "校內 funding", "大學 merit scholarship、international scholarship 與 bursary 仍值得逐校查。", "Scholarship"],
+      ["03", "Chevening", "持有碩士不自動排除，但門檻高，工作經驗與敘事邏輯很重要。", "Chevening"],
+      ["04", "申請順序", "多數情況先申請課程，再按學校規則申請 funding。", "Offer"]
+    ],
+    body: [
+      {
+        heading: "1) The first funding shock: a second master's is usually outside the UK government's loan route",
+        paragraphs: [
+          "For many applicants, the biggest surprise is not admissions but finance. GOV.UK's Master's Loan eligibility page states that you cannot get a Postgraduate Master's Loan if you already have a master's degree or an equivalent qualification, or if you have already received a loan or grant for a master's course, subject to limited exceptions such as leaving for a serious personal reason.",
+          "That makes the second-master's conversation very different from the first. The question stops being 'Can I rely on standard student finance?' and becomes 'Which parts of the total cost must be covered by self-funding, family support, employer support or scholarships?'"
+        ]
+      },
+      {
+        heading: "2) No loan does not mean no funding",
+        paragraphs: [
+          "What many applicants then discover is that funding for a second master's usually comes from a patchwork rather than a single government source. In practice, the most common routes are university merit scholarships, international scholarships, alumni discounts, departmental bursaries and, for a smaller group, external awards such as Chevening or GREAT.",
+          "The practical implication is simple: a second master's often needs to be funded in layers. Full funding is possible, but partial tuition discounts plus self-funding are much more common than a single clean package that covers everything."
+        ]
+      },
+      {
+        heading: "3) Chevening is still possible — and the official wording matters",
+        paragraphs: [
+          "One of the most important official clarifications comes from Chevening itself. Its eligibility page explicitly says that having a master's degree does not prevent you from applying for a second master's in the UK.",
+          "That matters because many applicants incorrectly assume that 'already having a master's' automatically excludes all major scholarship routes. It does exclude the standard UK government Master's Loan, but it does not automatically exclude Chevening. What Chevening does require is its own set of conditions: eligible nationality, return commitment, three course applications and substantial work experience after the undergraduate degree."
+        ]
+      },
+      {
+        heading: "4) Why a second master's can still make sense to scholarship panels",
+        paragraphs: [
+          "A second master's is not automatically a weakness. In many cases, it can be framed as a progression move: a shift from theory to practice, from one sector into another, from domestic training into an international market, or from general experience into regulated specialisation.",
+          "The decisive issue is not whether it is your second degree, but whether you can explain why the first one is not enough for the next stage of your work. Mature applicants often do better when their first master's, work history and new course create a credible professional narrative rather than looking like repeated study without a purpose."
+        ]
+      },
+      {
+        heading: "5) So should applicants secure admission first, then apply for scholarships?",
+        paragraphs: [
+          "In most real cases, yes. The normal operational order is to apply for the course first, receive a conditional or unconditional offer, then check which university scholarships are automatic and which require a separate funding form.",
+          "This does not mean you should ignore scholarship deadlines until after offer stage. The better approach is to check the university's funding page as you apply, note deadlines immediately, and assume that some awards are automatic while others need a separate post-offer step. In other words: admissions first, but funding awareness from day one."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先說結論：第二個英國碩士，通常不能再申請政府學貸",
+        paragraphs: [
+          "很多人一開始卡住的不是申請本身，而是資金安排。GOV.UK 的 <b>Master’s Loan eligibility</b> 頁面寫得很清楚：如果申請人 <b>已經有 master’s degree 或同等資格</b>，或者 <b>之前已經為 master’s course 拿過 loan / grant</b>，一般就不能再獲得英國政府的 Postgraduate Master’s Loan；少數例外通常只涉及嚴重個人原因，例如因 illness 或 bereavement 中斷課程。",
+          "也就是說，對第二個完整碩士來說，真正的問題往往不再是『能不能像第一次那樣辦學貸』，而是要開始更現實地重排資金結構：哪些要自費、哪些可以靠家庭支持、哪些有可能靠公司或外部 funding 補上。"
+        ]
+      },
+      {
+        heading: "二、不能申請學貸，不等於完全沒有 funding",
+        paragraphs: [
+          "這是很多人最容易誤解的一點。第二個碩士通常拿不到標準政府學貸，但這不代表完全沒有資助空間。真正比較常見的 funding 來源，其實是：<b>校內 merit scholarship、international scholarship、alumni discount、department bursary</b>，以及少數競爭非常強的外部項目，例如 <b>Chevening</b> 或特定國別獎學金。",
+          "從實務角度看，第二個碩士的 funding 很少是『一筆全包』，更常見的是 <b>部分學費減免 + 自費補足</b>。所以如果有人在規劃第二個碩士，與其只問『有沒有全額』，不如更早把每一層可能的資金來源拆開看。"
+        ]
+      },
+      {
+        heading: "三、Chevening 是可以申請的，而且官方其實寫得很明白",
+        paragraphs: [
+          "Chevening 這類大型獎學金常被誤會成『有碩士就不能再申請』，但這並不準確。Chevening 官方 eligibility 頁面明確寫道：<b>having a master’s degree does not prevent you from applying for a second master’s degree in the UK</b>。",
+          "真正會決定你能不能申請的，不是『你是不是第二個碩士』，而是 Chevening 自己的條件：例如 <b>合資格國籍、回國承諾、課程選擇要求，以及至少 2,800 小時、通常約等於兩年、且在本科畢業後累積的工作經驗</b>。所以它不是一條容易的 funding 路，但也不是因為你已經有一個碩士就自動關門。"
+        ]
+      },
+      {
+        heading: "四、第二個碩士不是天然劣勢，關鍵是你怎麼把理由講清楚",
+        paragraphs: [
+          "很多第二個碩士申請，真正的成敗不在於『第二個』這個標籤，而在於你能不能說清楚：<b>為什麼第一個碩士還不夠、為什麼現在要再讀、為什麼這一個新課程能補上你接下來真正需要的能力</b>。",
+          "如果第一個碩士、工作經驗與第二個碩士之間能形成一條合理的職涯敘事，例如從理論走向實務、從本地背景走向國際市場、從舊行業轉向新的專業應用，那麼 scholarship panel 或學校 admissions team 通常不會只把你看成『重複讀書』。成熟申請者反而往往在這裡更有優勢。"
+        ]
+      },
+      {
+        heading: "五、申請順序通常是：先申請課程，再申請獎學金",
+        paragraphs: [
+          "對大部分學校來說，最實際的操作順序仍然是：<b>先申請課程，先拿到 conditional 或 unconditional offer，再按照學校 funding 頁面的規則申請獎學金</b>。這不代表你要等 offer 出來才第一次去看 scholarship，而是代表：<b>入學申請是主線，獎學金申請要從第一天就同步留意 deadline 與規則</b>。",
+          "很多校內獎學金其實分兩種：一種是 <b>申請入學時自動審核</b>，另一種是 <b>拿到 offer 後還要另外填 funding form</b>。所以最穩的做法，不是先幻想 funding，而是邊申請課程、邊把 funding page、截止時間、所需文件和條件一起列進清單。"
+        ]
+      },
+      {
+        heading: "六、OTC 的實務判斷：第二個碩士值得申請，但要先把三件事盤清",
+        paragraphs: [
+          "如果是 OTC 內部在看第二個英國碩士，我們通常最先盤的不是『有沒有學貸』，而是三件事：<b>第一，這個第二個碩士的理由是否成立；第二，目標學校是否本身就對國際生 funding 較友好；第三，你能否接受部分減免而不是全額資助</b>。",
+          "真正現實的做法，是把 offer、scholarship、生活費與整體資金缺口放在同一張表裡一起看。第二個碩士不是不能讀，也不是不能拿 funding；只是它需要更成熟、更清楚、也更誠實的資金規劃。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-health-social-care-australia-vet-comparison",
     title: "OTHM Health Qualifications vs Australia VET: A Complete Comparison Guide",
     date: "2026-05-24",
