@@ -9613,6 +9613,10 @@ const universityPartnerships = pageShell({
         <article><b>05</b><h2>Operational Follow-up</h2><p>OTC can maintain enquiry logs, deadline reminders, missing-document lists, student/parent communication records and admissions-team follow-up notes.</p></article>
         <article><b>06</b><h2>Partner Readiness</h2><p>Where approved by a university, OTC can follow agent training, portal requirements, branding rules, data-protection obligations and reporting expectations.</p></article>
       </div>
+      <div class="notice" style="margin-top:24px;">
+        <strong>Looking for wider cooperation?</strong>
+        <p>For OTC Global Summer Alliance, Australia expansion, referral partners, school advisors and regional education cooperation, please use the dedicated partner page: <a href="/education-partners/">Become an OTC Education Partner</a>.</p>
+      </div>
       <section class="standards-process">
         <div class="section-head compact-head">
           <div class="eyebrow">Cooperation Request</div>
@@ -9621,6 +9625,7 @@ const universityPartnerships = pageShell({
         <p>OTC would like to understand the university's official representative process, agent onboarding requirements, territory or student-category rules, training expectations, application portal process, data-protection requirements and whether advanced-entry pre-checks can be handled through a defined channel.</p>
         <div class="application-link-strip">
           <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=University%20Representative%20Cooperation">Contact OTC</a>
+          <a class="btn btn-light" href="/education-partners/">Partner network</a>
           <a class="btn btn-light" href="/assets/OTC_University_Representative_Capability_Statement_2026.pdf" target="_blank" rel="noopener">Download capability PDF</a>
           <a class="btn btn-light" href="/assets/OTC_University_Representative_Capability_Statement_2026.docx" target="_blank" rel="noopener">Download DOCX</a>
           <a class="btn btn-light" href="/application-service-standards/">Service standards</a>
@@ -9630,6 +9635,293 @@ const universityPartnerships = pageShell({
     </main>
   `
 });
+
+function otcPartnerRecruitmentPage(locale = "en") {
+  const isZh = locale === "zh";
+  const pageTitle = isZh ? "成為 OTC 教育合作夥伴 | OTC Study Hub" : "Become an OTC Education Partner | OTC Study Hub";
+  const pageDescription = isZh
+    ? "OTC 教育合作夥伴招募頁：面向教育顧問、國際學校顧問、遊學組織方、家長社群與院校合作方的英澳教育合作入口。"
+    : "OTC education partner recruitment page for education consultants, school advisors, family offices, study tour organisers and institutional partners across the UK and Australia.";
+  const pagePath = isZh ? "/zh/education-partners/" : "/education-partners/";
+  const oppositePath = isZh ? "/education-partners/" : "/zh/education-partners/";
+  const heroTitle = isZh ? "成為 OTC 教育合作夥伴" : "Become an OTC Education Partner";
+  const heroSubtitle = isZh
+    ? "加入 OTC Global Summer Alliance，與我們一起協助家庭連接英國與澳洲的國際教育與升學路線。"
+    : "Join OTC Global Summer Alliance and help families access international education pathways across the UK and Australia.";
+  const heroBody = isZh
+    ? "我們與教育顧問、國際學校升學顧問、家長社群、遊學組織方及區域合作夥伴合作。比起大量招生，我們更看重學生與學校是否真正匹配。"
+    : "We work with education consultants, international school advisors, family offices, study tour organisers, and regional partners who believe educational fit matters more than mass recruitment.";
+  const applyHref = isZh
+    ? "mailto:office@overseasuk.com?subject=OTC%20合作夥伴申請&body=機構名稱%3A%0A聯絡人%3A%0A地區%3A%0A合作方向%3A%0A網站%20/%20社群%3A%0A備註%3A"
+    : "mailto:office@overseasuk.com?subject=OTC%20Partner%20Application&body=Organisation%20name%3A%0AContact%20person%3A%0ARegion%3A%0APartnership%20interest%3A%0AWebsite%20/%20social%20links%3A%0ANotes%3A";
+  const meetingHref = isZh
+    ? "/consultation-chat/?source=partner-network&intent=meeting"
+    : "/consultation-chat/?source=partner-network&intent=meeting";
+  const whatsappHref = "https://wa.me/447947991572?text=" + encodeURIComponent(isZh ? "你好，我想了解 OTC 教育合作夥伴計劃。" : "Hello, I would like to explore becoming an OTC education partner.");
+  const inquiryFormSubject = isZh ? "OTC 合作夥伴諮詢" : "OTC Partner Enquiry";
+  const contactLabel = isZh ? "聯絡 OTC" : "Contact OTC";
+  const whatsappLabel = "WhatsApp";
+  const wechatLabel = "WeChat: overseasus";
+  const onePagerPdf = "/reports/pdf/OTC_Australia_Summer_Alliance_One_Pager_2026-05-27.pdf";
+  const onePagerHtml = "/reports/pdf/OTC_Australia_Summer_Alliance_One_Pager_2026-05-27.html";
+  const partnerTypeLabel = isZh ? "合作類型" : "Partnership type";
+  const partnerTypeOptions = [
+    ["referral", isZh ? "Referral Partner" : "Referral Partner"],
+    ["regional", isZh ? "Regional Education Partner" : "Regional Education Partner"],
+    ["institutional", isZh ? "School / Institutional Partner" : "School / Institutional Partner"],
+    ["provider", isZh ? "Summer Programme Provider" : "Summer Programme Provider"],
+    ["other", isZh ? "Other" : "Other"],
+  ];
+
+  return pageShell({
+    title: pageTitle,
+    current: "resources",
+    lang: isZh ? "zh-Hant" : "en",
+    locale: isZh ? "zh" : "en",
+    description: pageDescription,
+    path: pagePath,
+    body: `
+      <section class="page-hero partner-hero">
+        <div class="band">
+          <div class="eyebrow">${isZh ? "OTC Partner Network" : "OTC Partner Network"}</div>
+          <h1>${heroTitle}</h1>
+          <p>${isZh ? "面向教育顧問、院校合作方與區域夥伴的英澳教育合作入口。" : "A partnership gateway for education consultants, institutional collaborators and regional education partners across the UK and Australia."}</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Apply as Partner"}</a>
+            <a class="btn btn-secondary" href="${meetingHref}">${isZh ? "預約會議" : "Schedule a Meeting"}</a>
+            <a class="btn btn-secondary" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
+            <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載澳洲合作簡介" : "Download Australia One-Pager"}</a>
+          </div>
+          <div class="partner-language-switch">
+            <a href="${oppositePath}">${isZh ? "English version" : "中文版"}</a>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "合作路線圖" : "Partner Route Map"}</div>
+            <h2>${isZh ? "OTC Global Summer Alliance 怎麼運作" : "How OTC Global Summer Alliance works"}</h2>
+            <p>${isZh ? "把合作方、家庭需求、項目匹配與後續升學放在同一套工作流裡。先分清合作角色，再推進對接。" : "The system connects partner types, family needs, programme matching and longer-term progression in one workflow."}</p>
+          </div>
+          <div class="partner-route-map">
+            <article>
+              <b>01</b>
+              <strong>${isZh ? "合作方入口" : "Partner Entry"}</strong>
+              <span>${isZh ? "教育顧問、學校顧問、遊學組織方、家長社群與院校合作方。" : "Education consultants, school advisors, study-tour organisers, parent communities and institutions."}</span>
+            </article>
+            <article>
+              <b>02</b>
+              <strong>${isZh ? "家庭需求" : "Family Need"}</strong>
+              <span>${isZh ? "暑校、私校觀察、pathway 準備、K-12 規劃或大學試跑。" : "Summer programmes, private-school observation, pathway preparation, K-12 planning or university taster routes."}</span>
+            </article>
+            <article>
+              <b>03</b>
+              <strong>${isZh ? "OTC 匹配" : "OTC Matching"}</strong>
+              <span>${isZh ? "按學生背景、家庭預期與項目可行性做分流，不走大量安置式招生。" : "Students are routed by profile, family expectation and programme fit rather than mass-placement logic."}</span>
+            </article>
+            <article>
+              <b>04</b>
+              <strong>${isZh ? "後續轉化" : "Progression"}</strong>
+              <span>${isZh ? "把短期體驗接回 K-12、私校、pathway 或後續大學升學。" : "Short-term experience can lead into K-12, private-school, pathway or university progression."}</span>
+            </article>
+          </div>
+          <div class="partner-type-table">
+            <div class="partner-type-row head"><span>${isZh ? "合作類型" : "Partner Type"}</span><span>${isZh ? "適合對象" : "Best For"}</span><span>${isZh ? "合作重點" : "What It Usually Leads To"}</span></div>
+            <div class="partner-type-row"><span>${isZh ? "Referral Partner" : "Referral Partner"}</span><span>${isZh ? "家長社群、教育博主、校內顧問" : "Parent communities, education creators, school counsellors"}</span><span>${isZh ? "家庭轉介、初步對接、後續由 OTC 跟進" : "Family referrals and OTC follow-up"}</span></div>
+            <div class="partner-type-row"><span>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</span><span>${isZh ? "精品諮詢團隊、區域 agency、pathway centre" : "Boutique consultancies, regional agencies, pathway centres"}</span><span>${isZh ? "聯名宣傳、諮詢分工、study tour 或區域合作" : "Co-branded promotion, consultation cooperation and study tours"}</span></div>
+            <div class="partner-type-row"><span>${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}</span><span>${isZh ? "學校、語言中心、pathway provider、大學" : "Schools, language centres, pathway providers, universities"}</span><span>${isZh ? "合作項目、訪校安排、長線招生合作" : "Custom programmes, visits and longer-term recruitment cooperation"}</span></div>
+            <div class="partner-type-row"><span>${isZh ? "Summer Programme Provider" : "Summer Programme Provider"}</span><span>${isZh ? "summer school、camp、school visit provider" : "Summer school, camp and visit providers"}</span><span>${isZh ? "納入 OTC Summer Alliance、做公開頁展示與家長分流" : "Inclusion in OTC Summer Alliance and family-facing positioning"}</span></div>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="institutional-brief partner-brief">
+            <div>
+              <div class="eyebrow">${isZh ? "關於 OTC" : "About OTC"}</div>
+              <h2>${isZh ? "Overseas Tutorial Centre（OTC）是一家立足英國、面向全球的國際教育諮詢與升學路線支持機構。" : "Overseas Tutorial Centre (OTC) is an internationally oriented education consultancy and pathway support provider with its base in the United Kingdom."}</h2>
+              <p>${isZh ? "OTC 早期以英國升學與 progression 路線為主，現在正把 Global Summer Alliance 與 pathway network 擴展到澳洲、英國及其他具教育價值的目的地。" : "Originally focused on UK progression routes, OTC is now expanding its international summer alliance and pathway network across Australia, the UK, and selected global education destinations."}</p>
+              <p>${isZh ? "我們重視的不只是短期項目，而是更完整的教育規劃：K-12 preparation、private school exposure、pathway readiness、大學銜接與 family education planning。" : "Our focus is not only short-term programmes, but long-term educational planning: K-12 preparation, private school exposure, pathway readiness, university transition, and family education planning."}</p>
+            </div>
+            <aside>
+              <strong>Overseas Tutorial Centre Ltd</strong>
+              <span>London, United Kingdom</span>
+              <span>office@overseasuk.com</span>
+              <span>WhatsApp +44 7947 991572</span>
+              <span>WeChat: overseasus</span>
+              <a href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 Australia Summer Alliance PDF" : "Download Australia Summer Alliance PDF"}</a>
+            </aside>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "合作對象" : "Who We Partner With"}</div>
+            <h2>${isZh ? "我們希望和哪些人合作" : "Who We Partner With"}</h2>
+          </div>
+          <div class="standards-grid partner-grid">
+            <article><b>01</b><h2>${isZh ? "教育顧問" : "Education Consultants"}</h2><p>${isZh ? "協助區域學生招募、家長諮詢與初步路線判斷。" : "Regional student recruitment and family consultation support."}</p></article>
+            <article><b>02</b><h2>${isZh ? "國際學校顧問" : "International School Advisors"}</h2><p>${isZh ? "服務正在探索英國與澳洲 boarding 或 K-12 路線的家庭。" : "Families exploring UK and Australian boarding or K-12 pathways."}</p></article>
+            <article><b>03</b><h2>${isZh ? "遊學與訪學組織方" : "Study Tour Organisers"}</h2><p>${isZh ? "可共同設計 summer programme、教育訪校與 immersion 路線。" : "Customised summer programmes, educational visits, and immersion routes."}</p></article>
+            <article><b>04</b><h2>${isZh ? "家長社群與家族辦公室" : "Family Offices & Parent Communities"}</h2><p>${isZh ? "面向高淨值家庭的國際教育與長線規劃支持。" : "High-net-worth families seeking international education planning."}</p></article>
+            <article><b>05</b><h2>${isZh ? "本地教育工作室" : "Local Education Studios"}</h2><p>${isZh ? "適合精品諮詢團隊、升學工作室與 pathway preparation centres。" : "Boutique counselling teams and pathway preparation centres."}</p></article>
+            <article><b>06</b><h2>${isZh ? "院校與教育機構" : "University & School Partners"}</h2><p>${isZh ? "語言學校、私校、pathway provider 與大學合作方。" : "Language schools, private schools, pathway providers, and universities."}</p></article>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="two-col">
+            <div class="about-panel surface">
+              <div class="eyebrow">OTC Global Summer Alliance</div>
+              <h3>${isZh ? "OTC Global Summer Alliance" : "OTC Global Summer Alliance"}</h3>
+              <p>${isZh ? "OTC 正在建立一個多目的地的夏校聯盟，重點不是旅遊式 summer camp，而是教育定位與長線銜接。" : "OTC is building a multi-destination summer alliance focused on educational positioning and long-term progression rather than generic tourism-style summer camps."}</p>
+              <ul class="summer-focus-list">
+                <li><strong>${isZh ? "English immersion" : "English immersion"}</strong><span>${isZh ? "英文沉浸與真實輸出環境" : "English immersion and real-world communication environments."}</span></li>
+                <li><strong>${isZh ? "Private school observation" : "Private school observation"}</strong><span>${isZh ? "幫家庭更早理解私校、寄宿與校園文化" : "Helping families understand private schools, boarding and school culture earlier."}</span></li>
+                <li><strong>${isZh ? "Pathway preparation" : "Pathway preparation"}</strong><span>${isZh ? "把短期項目和未來 K-12 / university transition 放在一起看" : "Connecting short-term programmes with future K-12 and university transition planning."}</span></li>
+              </ul>
+            </div>
+            <div class="about-panel surface">
+              <div class="eyebrow">${isZh ? "澳洲拓展" : "Australia Focus"}</div>
+              <h3>${isZh ? "Australia Summer Alliance 正在擴展中" : "Australia Summer Alliance Expansion"}</h3>
+              <p>${isZh ? "目前 OTC 正在圍繞 Gold Coast、Brisbane、Sydney、Melbourne、Adelaide 與 Perth，建立語言營、私校觀察、大學學術試跑與 pathway preparation 的合作網絡。" : "OTC is currently expanding its Australia Summer Alliance with selected schools and institutions across Gold Coast, Brisbane, Sydney, Melbourne, Adelaide, and Perth."}</p>
+              <p>${isZh ? "部分私校觀察與 immersion 類安排，仍需以校方批准為準。" : "Some private school observation opportunities remain subject to school approval."}</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "合作模式" : "Partnership Opportunities"}</div>
+            <h2>${isZh ? "OTC 可以如何合作" : "Partnership Opportunities"}</h2>
+          </div>
+          <div class="standards-grid partner-grid">
+            <article><b>01</b><h2>${isZh ? "Referral Partner" : "Referral Partner"}</h2><p>${isZh ? "適合教育博主、校內顧問、家長社群與本地升學顧問。OTC 負責 admissions support 與後續操作。" : "Suitable for education influencers, school counsellors, parent communities and local advisors. OTC handles admissions support and operations."}</p></article>
+            <article><b>02</b><h2>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</h2><p>${isZh ? "適合區域 agency、精品諮詢團隊與 pathway centre，可做聯名宣傳、學生諮詢、study tour 與區域合作。" : "Suitable for regional agencies, boutique consultancies and pathway centres. Includes student consultation, co-branded promotion, study tour opportunities and regional cooperation."}</p></article>
+            <article><b>03</b><h2>${isZh ? "Institutional Collaboration" : "Institutional Collaboration"}</h2><p>${isZh ? "適合學校、大學、pathway provider 與語言中心，可探討 customised summer programmes、pathway articulation、educational visits 與長線合作。" : "Suitable for schools, universities, pathway providers and language centres. Potential cooperation includes customised summer programmes, pathway articulation, educational visits and long-term recruitment cooperation."}</p></article>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="two-col">
+            <div class="about-panel surface">
+              <div class="eyebrow">${isZh ? "為什麼家庭選 OTC" : "Why Partner with OTC"}</div>
+              <h3>${isZh ? "家庭選擇 OTC，通常不是因為量，而是因為判斷與匹配" : "Why Families Choose OTC"}</h3>
+              <ul class="summer-focus-list">
+                <li><strong>${isZh ? "英國本地教育定位" : "UK-based positioning"}</strong><span>${isZh ? "英國本地升學與教育路線背景" : "A UK-based international education positioning."}</span></li>
+                <li><strong>${isZh ? "雙語溝通" : "Bilingual communication"}</strong><span>${isZh ? "更好連接亞洲家庭與海外院校" : "Stronger engagement with Asian families and institutions."}</span></li>
+                <li><strong>${isZh ? "教育匹配優先" : "Educational fit first"}</strong><span>${isZh ? "重視長線規劃，不做大量安置式招生" : "Long-term progression planning over mass placement."}</span></li>
+                <li><strong>${isZh ? "私校與 pathway 視角" : "Private school and pathway lens"}</strong><span>${isZh ? "適合高端家庭與非標準教育決策" : "Well suited to premium school and pathway positioning."}</span></li>
+              </ul>
+            </div>
+            <div class="about-panel surface">
+              <div class="eyebrow">${isZh ? "OTC 協助內容" : "Support Services"}</div>
+              <h3>${isZh ? "OTC 可提供的支持" : "OTC Support Services"}</h3>
+              <ul class="summer-focus-list">
+                <li><strong>${isZh ? "programme matching" : "Programme matching"}</strong><span>${isZh ? "項目匹配與初步篩查" : "Programme matching and initial screening."}</span></li>
+                <li><strong>${isZh ? "under-18 文件" : "Under-18 support"}</strong><span>${isZh ? "consent、welfare、health form 與接送資料整理" : "Under-18 documentation, consent, welfare and logistics support."}</span></li>
+                <li><strong>${isZh ? "homestay / guardian" : "Homestay / guardian support"}</strong><span>${isZh ? "讓家庭更清楚住宿與照護差異" : "Helping families understand accommodation and care structures."}</span></li>
+                <li><strong>${isZh ? "pathway / university progression" : "Pathway and university progression"}</strong><span>${isZh ? "把短期體驗接回長線教育規劃" : "Connecting short-term experiences to longer-term educational planning."}</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "Partner FAQ" : "Partner FAQ"}</div>
+            <h2>${isZh ? "合作夥伴常見問題" : "Common Partner Questions"}</h2>
+          </div>
+          <div class="summer-faq-grid">
+            <details><summary>${isZh ? "OTC 比一般遊學代辦有什麼不同？" : "How is OTC different from a generic summer-school agent?"}</summary><p>${isZh ? "OTC 更重視教育匹配、私校與 pathway 規劃，以及家長決策支持，而不是只做 mass recruitment 或旅遊式 summer camp 推廣。" : "OTC is positioned around educational fit, private-school and pathway planning, and family decision support rather than mass recruitment or tourism-style summer camp promotion."}</p></details>
+            <details><summary>${isZh ? "可以先從 referral 合作開始嗎？" : "Can cooperation start with referrals only?"}</summary><p>${isZh ? "可以。很多合作方會先從 referral 開始，再逐步延伸到 co-branded activity、study tour 或區域合作。" : "Yes. Many relationships start with referral cooperation, then develop into co-branded promotion, study tours or regional partnerships."}</p></details>
+            <details><summary>${isZh ? "OTC 會公開承諾 boarding placement 嗎？" : "Does OTC publicly promise boarding placements?"}</summary><p>${isZh ? "不會。涉及私校觀察、immersion 或 boarding 類安排的機會，均需以校方批准與具體回覆為準。" : "No. Private-school observation, immersion or boarding-related opportunities remain subject to school approval and specific institutional responses."}</p></details>
+            <details><summary>${isZh ? "合作後可以怎樣接家長？" : "How does OTC support families after referral?"}</summary><p>${isZh ? "OTC 可接手路線諮詢、項目匹配、申請材料、未成年人文件、homestay / guardian 溝通與後續升學規劃。" : "OTC can support route review, programme matching, application materials, under-18 documentation, homestay or guardian communication and progression planning."}</p></details>
+          </div>
+        </section>
+
+        <section class="band partner-application-section">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "Start a Conversation" : "Start a Conversation"}</div>
+            <h2>${isZh ? "與 OTC 開始一段對話" : "Start a Conversation with OTC"}</h2>
+            <p>${isZh ? "先告訴我們你是什麼類型的合作方、主要服務哪一類家庭，以及你目前想推進哪條線。" : "Tell us what kind of partner you are, who you work with, and what kind of cooperation you want to explore."}</p>
+          </div>
+          <div class="partner-application-layout">
+            <form class="partner-application-form" data-partner-form>
+              <div class="partner-form-grid">
+                <label><span>${isZh ? "機構名稱" : "Organisation"}</span><input name="organisation" type="text" /></label>
+                <label><span>${isZh ? "聯絡人" : "Contact person"}</span><input name="contact" type="text" /></label>
+                <label><span>${isZh ? "地區" : "Region"}</span><input name="region" type="text" /></label>
+                <label><span>${partnerTypeLabel}</span><select name="partnerType" required><option value="">${isZh ? "請選擇" : "Please select"}</option>${partnerTypeOptions.map(([value, label]) => `<option value="${value}">${label}</option>`).join("")}</select></label>
+                <label><span>${isZh ? "合作方向" : "Partnership interest"}</span><input name="interest" type="text" /></label>
+                <label><span>${isZh ? "網站 / 社群連結" : "Website / social links"}</span><input name="links" type="text" /></label>
+              </div>
+              <label><span>${isZh ? "補充說明" : "Notes"}</span><textarea name="notes" rows="5"></textarea></label>
+              <div class="partner-form-note">${isZh ? "我們會按合作類型整理來信，方便後續安排對接、跟進與資料發送。" : "Your enquiry will be grouped by partnership type so we can route the next step more clearly."}</div>
+              <div class="partner-form-actions">
+                <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Become an OTC Partner"}</a>
+                <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(inquiryFormSubject)}" data-partner-mail>${contactLabel}</a>
+                <a class="btn btn-secondary" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
+                <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 PDF" : "Download PDF"}</a>
+              </div>
+              <div class="summer-wechat-inline">${wechatLabel}</div>
+            </form>
+            <aside class="about-panel surface partner-side-note">
+              <div class="eyebrow">${isZh ? "合作說明" : "Partner Note"}</div>
+              <h3>${isZh ? "適合哪些合作方先來對接" : "Who should reach out first"}</h3>
+              <p>${isZh ? "如果你在做家長諮詢、遊學組織、私校前置、pathway 規劃或區域教育合作，這一頁就是最合適的入口。" : "If you work in family advising, summer programming, private-school preparation, pathway planning or regional education cooperation, this is the right first point of contact."}</p>
+              <ul class="summer-focus-list partner-mini-list">
+                <li><strong>${isZh ? "合作方類型" : "Partner type"}</strong><span>${isZh ? "先用表單分清 referral、regional、institutional 或 programme provider。" : "Use the form to classify referral, regional, institutional or programme-provider enquiries."}</span></li>
+                <li><strong>${isZh ? "資料包" : "One-pager"}</strong><span>${isZh ? "可先下載 Australia Summer Alliance PDF 作為簡介。" : "Download the Australia Summer Alliance PDF as a first briefing."}</span></li>
+              </ul>
+              <div class="partner-side-links">
+                <a href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "查看 PDF 簡介" : "Open PDF one-pager"}</a>
+                <a href="${onePagerHtml}" target="_blank" rel="noopener">${isZh ? "查看 HTML 預覽" : "Open HTML preview"}</a>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <script>
+          (() => {
+            const form = document.querySelector('[data-partner-form]');
+            const mailLink = document.querySelector('[data-partner-mail]');
+            if (!form || !mailLink) return;
+            const updateMailto = () => {
+              const data = Object.fromEntries(new FormData(form).entries());
+              const partnerTypeMap = {
+                referral: "${isZh ? "Referral Partner" : "Referral Partner"}",
+                regional: "${isZh ? "Regional Education Partner" : "Regional Education Partner"}",
+                institutional: "${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}",
+                provider: "${isZh ? "Summer Programme Provider" : "Summer Programme Provider"}",
+                other: "${isZh ? "Other" : "Other"}"
+              };
+              const selectedType = partnerTypeMap[data.partnerType] || "";
+              const subject = selectedType
+                ? "${isZh ? "OTC 合作夥伴諮詢" : "New OTC Partner Inquiry"}" + " – " + selectedType
+                : "${inquiryFormSubject}";
+              const lines = [
+                subject,
+                "",
+                "${isZh ? "機構名稱" : "Organisation"}: " + (data.organisation || ""),
+                "${isZh ? "聯絡人" : "Contact person"}: " + (data.contact || ""),
+                "${isZh ? "地區" : "Region"}: " + (data.region || ""),
+                "${partnerTypeLabel}: " + (selectedType || ""),
+                "${isZh ? "合作方向" : "Partnership interest"}: " + (data.interest || ""),
+                "${isZh ? "網站 / 社群連結" : "Website / social links"}: " + (data.links || ""),
+                "${isZh ? "補充說明" : "Notes"}: " + (data.notes || "")
+              ].join("\\n");
+              mailLink.href = "mailto:office@overseasuk.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines);
+            };
+            form.addEventListener("input", updateMailto);
+            updateMailto();
+          })();
+        </script>
+      </main>
+    `
+  });
+}
 
 const portalNotice = `
   <div class="notice portal-notice">
@@ -9902,6 +10194,7 @@ const home = pageShell({
             <a href="/university-applications/"><strong>Applications</strong><span>UK university applications, advanced entry, UCAS/direct and document planning</span></a>
             <a href="/zh/summer-school-alliance/"><strong>Summer School Alliance</strong><span>UK, Australia, New Zealand, Malaysia, US and Canada summer-school gateway for families</span></a>
             <a href="/study-group-2026-applications/"><strong>Study Group 2026</strong><span>July-December pathway and direct-entry application window</span></a>
+            <a href="/education-partners/"><strong>Education Partners</strong><span>Work with OTC across summer programmes, pathway preparation, private school exposure, and international education partnerships</span></a>
             <a href="/services/"><strong>Services</strong><span>Translation, publishing, guardianship, academic events and institutional support</span></a>
             <a href="/courses/"><strong>Courses</strong><span>International curriculum tutoring, qualification pathways and learning plans</span></a>
             <a href="/apps/"><strong>Tools</strong><span>Speaking practice, mock tests, vocabulary review and tutor tools</span></a>
@@ -9938,10 +10231,11 @@ const home = pageShell({
         <article><b>01</b><strong>UK Applications</strong><span>Admissions advisory, document planning, advanced-entry screening and offer-condition follow-up.</span></article>
         <article><b>02</b><strong>University Cooperation</strong><span>Institutional representative discussions, partner readiness and admissions-team communication.</span></article>
         <article><b>03</b><strong>Summer School Alliance</strong><span>One family-facing entrance for six destinations, summer-school screening, fee notes and project lists.</span></article>
-        <article><b>04</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
-        <article><b>05</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
-        <article><b>06</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
-        <article><b>07</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
+        <article><b>04</b><strong>Education Partners</strong><span>Summer programmes, pathway preparation, private-school exposure and institutional partnership routes.</span></article>
+        <article><b>05</b><strong>Consulting</strong><span>Study planning, university pathway notes, application explainers and family guidance.</span></article>
+        <article><b>06</b><strong>Services</strong><span>Translation, publishing, guardianship, events, fairs and institutional support.</span></article>
+        <article><b>07</b><strong>Courses</strong><span>International curriculum bilingual tutoring, qualification pathways and learning plans.</span></article>
+        <article><b>08</b><strong>Publishing</strong><span>Bilingual study companions, public bookshop editions and live Payhip releases.</span></article>
       </div>
     </section>
 
@@ -12951,7 +13245,7 @@ const chineseEntrance = pageShell({
             <a href="/insights/credit-alliance/"><strong>學分聯盟</strong><span>課程地圖、雙語解釋、練習工具與學術英語支持</span></a>
             <a href="/zh/summer-school-alliance/"><strong>暑校聯盟</strong><span>六個暑期目的地、一個家長入口，集中查看項目、費用與路線</span></a>
             <a href="#open-learning-platform"><strong>家長規劃</strong><span>升學路線、文件清單、國別選擇與申請時間線</span></a>
-            <a href="/services/"><strong>機構運作</strong><span>出版、翻譯、教學資源、活動與機構服務支持</span></a>
+            <a href="/zh/education-partners/"><strong>機構運作</strong><span>合作夥伴、出版、翻譯、教學資源與機構支持</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
@@ -12983,7 +13277,7 @@ const chineseEntrance = pageShell({
         <a href="/insights/credit-alliance/"><b>For learners</b><strong>學分聯盟</strong><span>從課程、詞彙、練習與文章開始。</span></a>
         <a href="/zh/summer-school-alliance/"><b>For summer planning</b><strong>暑校聯盟</strong><span>六個目的地、項目、費用、住宿與暑期路線集中查看。</span></a>
         <a href="#global-study-map"><b>For families</b><strong>家長規劃</strong><span>理解國別、路線、文件與申請節奏。</span></a>
-        <a href="/services/"><b>For educators</b><strong>機構運作</strong><span>出版、翻譯、教學與項目支持。</span></a>
+        <a href="/zh/education-partners/"><b>For educators</b><strong>機構運作</strong><span>合作夥伴、出版、翻譯與機構支持。</span></a>
       </div>
       <div class="zh-open-learning-grid">
         <article>
@@ -14063,9 +14357,25 @@ const summerSchoolCountryRoutes = [
       "同步建立後續澳洲升學或學校銜接備忘錄"
     ],
     projects: [
-      ["校園英文與生活體驗營", "南半球假期與校園可開放時段視項目方而定", "Sydney / Brisbane / Melbourne 等", "語言學校或短期校園項目方", "英文課、城市活動、校園參觀、group project", "更重在英語沉浸與生活適應", "多數可提供 participation certificate", "以項目方報價為準", "適合第一次看澳洲環境的家庭", "需提前看州別與學校 calendar"],
-      ["中學校園觀察 + 短期體驗", "依合作校可安排時間", "QLD / NSW / VIC 為主", "K-12 school-facing route", "課堂旁聽、校園 tour、住宿和監護條件比較", "適合把暑期體驗和後續中學申請連起來", "通常以 school visit / short placement 記錄為主", "學校與接待安排差異很大", "適合考慮澳洲中學長線路線的家庭", "需逐校核對 availability"],
-      ["大學城市體驗 + 升學導向營", "暑期批次依 provider 而定", "Brisbane / Sydney / Melbourne", "pathway / university-facing short route", "校園參訪、學科講座、城市與生活規劃", "更適合作為『先看城市與校園』的一步", "一般可有參與證明", "費率通常高於單純英語體驗", "適合 15+ 學生與家長同行決策", "更看重後續升學敘事與適配"]
+      ["Universal English Melbourne Summer Camp 2026", "12 Jul–16 Aug 2026；每週 15 小時英文課", "Melbourne", "Universal English × Oxford International Junior Programmes", "12–17 歲；英文課、文化活動、excursions，走 Melbourne city-based junior summer camp 路線", "很適合第一次看澳洲、希望把城市生活、英文輸出和國際同齡社交放在一起的家庭", "Participation / completion materials 依項目方安排", "需按官方 application form 與住宿方案核價", "適合 12–17 歲、第一次澳洲暑期體驗的學生", "官方頁面已公開 2026 dates 與 enrolment 流程；Melbourne 路線對城市體驗型家庭很直觀"],
+      ["Universal English College Junior Holiday Program 2026", "29 Jun–29 Aug 2026", "Sydney", "Universal English College Junior Holiday Program", "12–17 歲；英文學習、 supervised excursions、同齡國際學生互動", "比正式升學導向項目更輕，適合作為澳洲第一段語言＋生活適應 route", "課程結業證明依 provider 條款", "需按 2026 package / accommodation 安排核價", "適合 12–17 歲、偏好 Sydney 的家庭", "官方頁面已明列 2026 檔期；比較適合要 Sydney 而不是只要大學名字的家庭"],
+      ["Universal English College Kids Holiday Program 2026", "2026 school holiday intake；低齡組按週安排", "Sydney", "Universal English College Kids Holiday Program", "10–11 歲為主；互動式英文、創意活動、學校主題課與 supervised day schedule", "很適合低齡、第一次出國、家長希望先做白天型英文與活動結合的家庭", "Participation / completion materials 依 provider 安排", "按週次、監護與接送安排核價", "適合 10–11 歲、需要更低齡友善安排的家庭", "UEC 官方另設 Kids Holiday Program 頁面，能補齊 12 歲以下學生的 Sydney 入口"],
+      ["BROWNS Junior Holiday Program / PSP+ 2026", "2026 school holidays；Brisbane / Gold Coast / Melbourne", "Brisbane / Gold Coast / Melbourne", "BROWNS English Language School", "6–17 歲；Junior Holiday Program 與 Primary / High School Preparation 線並存，可更細分低齡與高中前期需求", "澳洲少數同時覆蓋 6–11 與 12–17 的 junior English 路線，對兄弟姊妹或低齡家庭更友好", "結業證書與 graduation ceremony 依官方安排", "費率依城市、年齡段與課程類型而定", "適合 6–17 歲、希望先做語言與學校適應的家庭", "官方頁面明確列出 Brisbane、Gold Coast、Melbourne 三地校區；是很實用的多城市比較型項目"],
+      ["Discover English Junior Holiday Program 2026", "2026 北半球暑假 5 週主檔；每週 15 小時英文課", "Melbourne", "Discover English Junior Holiday Program", "10–17 歲；15 小時英文、每日 Melbourne excursions、weekly themed activities；12 歲以上可配 homestay", "很適合把 Melbourne 英文、城市探索與較清晰的 day-to-day programme 放在一起比較的家庭", "Certificate of participation 常見", "按課程週數、homestay、接送與保險核價", "適合 10–17 歲、想要 Melbourne 路線且看重每日活動結構的家庭", "官方頁面明列年齡、課時與 homestay 條件；對第一次來澳洲的家長很容易理解"],
+      ["Greenwich College Junior Holiday and Study Groups 2026", "05 Jan–06 Feb 2026；13 Jul–14 Aug 2026；group study tours 可全年", "Sydney / Melbourne / Brisbane / Gold Coast", "Greenwich College Junior Holiday & Study Groups", "Global Explorer junior holiday route + flexible study group；英語學習、全球議題 awareness 與多城市校區選擇", "適合想做團體出行、城市可選、又希望 provider 營運成熟的家庭", "Participation / completion materials 依 provider 條款", "按城市、團體形式、住宿與 excursion 安排核價", "適合 12–17 歲、想看 Sydney / Melbourne / Brisbane / Gold Coast 多城市比較的家庭", "官方頁面已列 2026 檔期與 study groups 機制；很適合校方團體或小團組合"],
+      ["AICOL Gold Coast Summer Camp 2026", "每年 1–2 月、6–8 月常見 camp 檔期；可按週報讀", "Southport, Gold Coast", "Australian International College of Language", "6–18 歲；英語課、活動、excursions、homestay，可配 study tour 與 Queensland 校園觀察", "很適合 Gold Coast 低齡暑校產品包裝，尤其是『英語沉浸 + 海邊城市 + 寄宿家庭』路線", "Participation / completion certificate 依 AICOL 安排", "按 camp 週數、homestay、接送與活動核價", "適合 6–18 歲、想走 Gold Coast 經典 junior camp 的家庭", "AICOL 是 Gold Coast 老牌 junior camp 提供方，對亞洲家庭與 study tour 接待都比較成熟"],
+      ["IH Gold Coast Junior / Study Tour Route 2026", "按 school holiday 與 study tour 檔期靈活安排", "Southport, Gold Coast", "International House Gold Coast", "偏國際語言學校路線；英語 immersion、城市生活、短期團體或家庭學生可彈性組合", "適合想把 Gold Coast 做成『相對輕量、時間靈活、預算較友好』澳洲暑校入口的家庭", "Participation / completion materials 依 provider 條款", "通常按週數、課程、homestay 與活動配置核價", "適合初中高中學生、偏英語沉浸與城市體驗需求", "這條更像靈活型語言＋生活 route，適合 OTC 做暑期小團或客製出行"],
+      ["Phoenix Academy High School Holiday Program 2026", "2026 school holidays；最長可讀 8 週", "Perth", "Phoenix Academy HSHP", "High school holiday English route，結合課堂、活動與 Perth 城市體驗；另有 homestay / residence 選項", "非常適合要 Perth、希望成本與城市節奏更穩、又想要完整 junior programme 的家庭", "Participation / completion materials 依官方課程安排", "2026 fee schedule 已公開；按週數、活動與住宿方案核算", "適合 12–17 歲、偏好西澳 / Perth 的家庭", "Phoenix 官方已公開 2026 fee schedule；是 OTC 可以直接納入澳洲暑校池的成熟 junior 項目"],
+      ["South Australian Government Schools Holiday Program 2026", "school breaks 期間按州政府學校檔期開放", "Adelaide / South Australia", "South Australian Government Schools", "由州政府學校 staff 與 student ambassadors 協助執行；活動包括社交、戶外、educational excursions 與 school holiday events", "很適合想看澳洲政府學校體系、先做在地校園感受與州別觀察的家庭", "以活動參與記錄與校方 communication 為主", "多為州政府學校系統安排；費率與 eligibility 需依當期通知與學生身份核對", "適合已在看南澳政府學校、或希望先了解 Adelaide 學校體系的家庭", "這條更像 school-system route，不是傳統商業夏校；很適合放進 OTC 澳洲中學觀察池"],
+      ["Gold Coast Private School Shadowing Route 2026", "依校方可開放時段與 partner 對接情況安排", "Southport / Mudgeeraba, Gold Coast", "TSS / St Hilda's / Somerset 等私校觀察路線", "可結合私校校園觀察、短期 shadowing、boarding / homestay 比較與語言支持安排；重點在前置選校而非純玩樂", "非常適合高淨值或長線低齡留學家庭，把 Gold Coast 做成『私校體驗 + 英語沉浸 + 後續申請』三合一路線", "以學校回覆、觀察記錄與 OTC route planning memo 為主", "按校方可接待範圍、城市安排、住宿與接送複雜度客製核價", "適合已在看澳洲私校、boarding 或 IB / 英式高中路線的家庭", "公開頁僅作高端路線介紹；是否能做短期 boarding / immersion 需按校方回覆與 partner 對接逐案確認"],
+      ["Shafston High School Preparation 2026", "全年可銜接；暑期亦可作中學前置英語準備", "Brisbane / Gold Coast", "Shafston For Schools", "針對國際學生的 high school preparation；強化校園英語、學術技能、社交語言與中學轉入準備", "如果家長真正目標是澳洲中學銜接，而不是只做短期遊學，這條線比一般 camp 更實用", "語言完成與 preparation progress 記錄依官方安排", "按週數、校區與住宿安排核價", "適合 12–17 歲、已在看澳洲中學轉入或長線 K-12 的家庭", "Shafston 官方明確定位為入讀澳洲中學前置準備，適合放入 OTC 澳洲中學路線池"],
+      ["UOW Summer Master Classes 2026", "5–23 Jan 2026；另有 8 Dec 2025 Orientation", "Wollongong, NSW", "University of Wollongong official summer master class", "完成 Year 12 的學生可在 3 週內讀一門大學科目，成功通過可得 6 credit points，並支援 Early Admission 敘事", "這不是普通遊學，而是非常明確的大學學術試跑；對想看澳洲本科學術節奏的家庭很有價值", "官方學分與 master class completion 結果依 UOW 規定", "費率與 eligibility 條件需依 UOW 當年頁面核對", "適合完成 Year 12、已在看澳洲本科的學生", "UOW 官方頁面已說明 2027 applications 將於 Term 3 開放；這類屬大學導向型高價值項目"],
+      ["JCU IERC Summer School 2026", "summer holidays 5-day intensive；以官方當期開放為準", "Townsville / Cairns, Queensland", "James Cook University IERC", "面向計劃升讀 JCU 的高中生，聚焦數學、英文、化學與 tertiary study skills；由 Indigenous Education and Research Centre 帶領", "對符合條件、想先看澳洲大學學習支持與校園節奏的學生，是很真實的大學試跑入口", "官方 participation / preparatory program 記錄依 JCU 規定", "費率與 eligibility 需依 JCU 當年 summer school 條件核對", "適合 Year 12 planning-to-study cohort；需注意官方 eligibility 範圍", "這條帶有明確 eligibility 條件，適合放進 OTC 澳洲大學導向型補充路線，而不是當作普適商品亂推"],
+      ["NYSF Year 12 Program 2027 Intake", "2027 年 1 月兩個 session；申請通常在前一年度開放", "Canberra / Brisbane", "National Youth Science Forum", "面向即將升 Year 12 的 STEM 興趣學生；住宿式科學探索、研究機構參訪、career exposure 與同齡社群", "非常適合理工傾向很強、想把暑假做成『未來專業試跑』而不是純語言營的學生", "官方 completion / participation records 依 NYSF 條款", "以官方 program fee、session 與獎助安排為準", "適合即將升 Year 12、偏 STEM / science / engineering 的學生", "NYSF 是澳洲辨識度很高的高中 STEM summer route；更像學術與職涯探索平台，而非一般遊學"],
+      ["TAFE Queensland Coomera Rock School 2026", "school holiday intensive；暑期批次按官方開放", "Gold Coast, Queensland", "TAFE Queensland Coomera Creative", "面向 Grades 9–12 的沉浸式音樂與創作 holiday intensive，讓高中生先體驗 tertiary-level music study", "如果學生是音樂、表演或創意產業方向，這條比普通英文暑校更有專業試跑價值", "參與與 completion 記錄依官方課程安排", "以 TAFE Queensland 官方課程頁與當期開班資訊為準", "適合 Grades 9–12、偏音樂 / 創意方向學生", "這類屬專項技能 summer route，適合放進澳洲專題型 short list，而不是只放語言項目"],
+      ["ACU Western Civilisation Summer School Program 2026", "2026 summer；2-day academic event", "ACU / Australia", "Australian Catholic University official summer school", "面向將升 Years 10–12、對 liberal arts / humanities 有興趣的學生；更偏學術導向與大學預備", "適合希望先用低成本方式接觸澳洲大學學術氣氛，而不是直接走長週期 camp 的家庭", "官方參與記錄依 ACU 條款", "官方頁面描述為 fully funded academic event", "適合 Years 10–12、偏人文社科方向學生", "這類雖不屬傳統商業暑校，但很適合放進 OTC 澳洲大學導向型 shortlist"],
+      ["Navitas English Australia Pathway English", "全年多開課點；暑期可作短期英語 / pathway 準備", "Sydney / Perth 等", "Navitas English", "General English、Academic English、Pathway English；更接近『澳洲升學前語言與適應』而不是傳統 camp", "如果家長真正目標是後續 pathway / diploma / university，而不是只要一個夏令營，這條反而更實用", "可作語言完成與 pathway support 記錄", "費率與時長需按校區 / 課程類型核對", "適合 16+、偏升學準備或成熟學生", "Navitas 英語是典型澳洲 pathway 前置語言線；可作 OTC 澳洲升學轉化入口之一"],
+      ["Study Australia School Observation & Route Planning", "依校方與州別可安排時段", "QLD / NSW / VIC / WA", "school-facing observation route", "不做空泛遊學，而是把中學看校、homestay / boarding、監護、州別節奏和後續申請前置放在一起", "非常適合已經在看澳洲 K-12 或未來長線升學的家庭", "通常以 visit / observation / OTC screening notes 為主", "按學校、城市、接待與文件複雜度核對", "適合考慮澳洲中學長線的家庭", "這條不是單一項目方，而是 OTC 澳洲 office 可承接的 K-12 路線前置工作"]
     ]
   },
   {
@@ -14143,6 +14453,7 @@ const summerSchoolCountryRoutes = [
 ];
 
 function summerSchoolCountryPage(route) {
+  const groupedRoute = route.slug === "uk" || route.slug === "australia";
   const categoryGroups = route.slug === "uk"
     ? [
         {
@@ -14170,6 +14481,33 @@ function summerSchoolCountryPage(route) {
           description: "適合低齡、兄弟姊妹一起出行、希望課程壓力低一點、活動多一點、住宿和照看穩一點的家庭。"
         }
       ]
+    : route.slug === "australia"
+      ? [
+          {
+            id: "city-english",
+            code: "01",
+            title: "城市英文生活型",
+            description: "適合第一次看澳洲、希望先做英文輸出、城市生活感與校園適應的家庭。通常比正式升學導向路線更輕、更好進入。"
+          },
+          {
+            id: "school-observation",
+            code: "02",
+            title: "中學觀察銜接型",
+            description: "適合已經把澳洲 K-12、寄宿、homestay、州別差異放進決策裡的家庭。重點不是玩，而是先把學校與監護條件看懂。"
+          },
+        {
+          id: "university-taster",
+          code: "03",
+          title: "大學學術試跑型",
+          description: "適合已在看澳洲本科、希望先摸學科節奏、學分、early admission 敘事與校園強度的家庭。"
+        },
+        {
+          id: "pathway-preparation",
+          code: "04",
+          title: "Pathway / 升學準備型",
+          description: "適合真正目標是後續 pathway、語言銜接、diploma 或大學升學的家庭。短期項目只是入口，重點在能否順手接上正式路線。"
+        }
+      ]
     : [];
 
   const getProjectCategory = (projectTitle) => {
@@ -14187,6 +14525,13 @@ function summerSchoolCountryPage(route) {
       return "premium-camp";
     }
     return "junior-english";
+  };
+
+  const getAustraliaProjectCategory = (projectTitle) => {
+    if (/UOW|ACU|NYSF|TAFE Queensland|JCU IERC/i.test(projectTitle)) return "university-taster";
+    if (/Navitas|Shafston|Study Australia School Observation/i.test(projectTitle)) return "pathway-preparation";
+    if (/BROWNS|Kids Holiday Program|High School Holiday|High School Preparation|School Observation|South Australian Government Schools|Private School Shadowing/i.test(projectTitle)) return "school-observation";
+    return "city-english";
   };
 
   const categoryImageMap = {
@@ -14226,7 +14571,26 @@ function summerSchoolCountryPage(route) {
     "MPW Summer School 2026": { label: "MPW", url: "https://www.mpw.ac.uk/", domain: "mpw.ac.uk" },
     "Imperial Global Summer School 2026": { label: "Imperial College London", url: "https://www.imperial.ac.uk/", domain: "imperial.ac.uk" },
     "UAL International Summer School 2026": { label: "University of the Arts London", url: "https://www.arts.ac.uk/", domain: "arts.ac.uk" },
-    "Inspired Summer Camps @ Reddam House Berkshire": { label: "Inspired Education", url: "https://www.inspirededu.com/", domain: "inspirededu.com" }
+    "Inspired Summer Camps @ Reddam House Berkshire": { label: "Inspired Education", url: "https://www.inspirededu.com/", domain: "inspirededu.com" },
+    "Universal English Melbourne Summer Camp 2026": { label: "Universal English", url: "https://www.universalenglish.edu.au/summer-camp", domain: "universalenglish.edu.au" },
+    "Universal English College Junior Holiday Program 2026": { label: "Universal English College", url: "https://uec.edu.au/junior-holiday-program/", domain: "uec.edu.au" },
+    "Universal English College Kids Holiday Program 2026": { label: "Universal English College", url: "https://uec.edu.au/kids-holiday-program-khp/", domain: "uec.edu.au" },
+    "BROWNS Junior Holiday Program / PSP+ 2026": { label: "BROWNS English", url: "https://brownsenglish.edu.au/courses/junior-holiday-program/", domain: "brownsenglish.edu.au" },
+    "Discover English Junior Holiday Program 2026": { label: "Discover English", url: "https://www.discoverenglish.vic.edu.au/copy-of-study-tours-programs", domain: "discoverenglish.vic.edu.au" },
+    "Greenwich College Junior Holiday and Study Groups 2026": { label: "Greenwich College", url: "https://www.greenwichcollege.edu.au/elicos/junior-holiday-study-groups", domain: "greenwichcollege.edu.au" },
+    "AICOL Gold Coast Summer Camp 2026": { label: "AICOL", url: "https://www.aicol.com.au/camps-2-2/", domain: "aicol.com.au" },
+    "IH Gold Coast Junior / Study Tour Route 2026": { label: "International House Gold Coast", url: "https://www.ihsydney.com.au/", domain: "ihsydney.com.au" },
+    "Phoenix Academy High School Holiday Program 2026": { label: "Phoenix Academy", url: "https://www.phoenix.edu.au/courses/high-school-holiday-program", domain: "phoenix.edu.au" },
+    "South Australian Government Schools Holiday Program 2026": { label: "South Australian Government Schools", url: "https://www.internationalstudents.sa.edu.au/en/for-students/school-holiday-program/", domain: "internationalstudents.sa.edu.au" },
+    "Gold Coast Private School Shadowing Route 2026": { label: "Study Gold Coast / OTC Route Planning", url: "https://studygoldcoast.org.au/", domain: "studygoldcoast.org.au" },
+    "Shafston High School Preparation 2026": { label: "Shafston For Schools", url: "https://shafstonforschools.edu.au/hsp/", domain: "shafstonforschools.edu.au" },
+    "UOW Summer Master Classes 2026": { label: "University of Wollongong", url: "https://www.uow.edu.au/engage/schools-parents/high-school/summer-master-classes/", domain: "uow.edu.au" },
+    "JCU IERC Summer School 2026": { label: "James Cook University", url: "https://www.jcu.edu.au/ierc/experience-uni/summer-school", domain: "jcu.edu.au" },
+    "NYSF Year 12 Program 2027 Intake": { label: "National Youth Science Forum", url: "https://www.nysf.edu.au/programs/year-12-program/", domain: "nysf.edu.au" },
+    "TAFE Queensland Coomera Rock School 2026": { label: "TAFE Queensland", url: "https://tafeqld.edu.au/course/19/19459/coomera-creative-coomera-rock-school", domain: "tafeqld.edu.au" },
+    "ACU Western Civilisation Summer School Program 2026": { label: "Australian Catholic University", url: "https://www.acu.edu.au/about-acu/institutes-academies-and-centres/western-civilisation-program/summer-school", domain: "acu.edu.au" },
+    "Navitas English Australia Pathway English": { label: "Navitas English", url: "https://www.navitasenglish.edu.au/", domain: "navitasenglish.edu.au" },
+    "Study Australia School Observation & Route Planning": { label: "Study Australia", url: "https://www.studyaustralia.gov.au/", domain: "studyaustralia.gov.au" }
   };
 
   const projectMetaOverrides = {
@@ -14258,7 +14622,26 @@ function summerSchoolCountryPage(route) {
     "MPW Summer School 2026": { age: "13+ 歲", city: "London / Cambridge", priceBand: "£££", boarding: "住校 / 寄宿" },
     "Imperial Global Summer School 2026": { age: "16–17歲", city: "London", priceBand: "££££", boarding: "城市宿舍 / 自理" },
     "UAL International Summer School 2026": { age: "11–18歲", city: "London", priceBand: "£££", boarding: "城市宿舍 / 自理" },
-    "Inspired Summer Camps @ Reddam House Berkshire": { age: "4–16歲", city: "Berkshire", priceBand: "£££", boarding: "可日校 / 住校" }
+    "Inspired Summer Camps @ Reddam House Berkshire": { age: "4–16歲", city: "Berkshire", priceBand: "£££", boarding: "可日校 / 住校" },
+    "Universal English Melbourne Summer Camp 2026": { age: "12–17歲", city: "Melbourne", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Universal English College Junior Holiday Program 2026": { age: "12–17歲", city: "Sydney", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Universal English College Kids Holiday Program 2026": { age: "10–11歲", city: "Sydney", priceBand: "待報價", boarding: "可日校 / 住校" },
+    "BROWNS Junior Holiday Program / PSP+ 2026": { age: "6–17歲", city: "Brisbane / Gold Coast / Melbourne", priceBand: "A$ 路線", boarding: "可日校 / 住校" },
+    "Discover English Junior Holiday Program 2026": { age: "10–17歲", city: "Melbourne", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "Greenwich College Junior Holiday and Study Groups 2026": { age: "12–17歲", city: "Sydney / Melbourne / Brisbane / Gold Coast", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "AICOL Gold Coast Summer Camp 2026": { age: "6–18歲", city: "Gold Coast", priceBand: "A$ 路線", boarding: "住校 / homestay" },
+    "IH Gold Coast Junior / Study Tour Route 2026": { age: "初中–高中", city: "Gold Coast", priceBand: "待報價", boarding: "住校 / homestay" },
+    "Phoenix Academy High School Holiday Program 2026": { age: "12–17歲", city: "Perth", priceBand: "A$ 路線", boarding: "住校 / 寄宿" },
+    "South Australian Government Schools Holiday Program 2026": { age: "在讀國際中學生", city: "Adelaide", priceBand: "按州別 / 校方", boarding: "無住宿 / 依學校" },
+    "Gold Coast Private School Shadowing Route 2026": { age: "低齡–高中", city: "Gold Coast", priceBand: "高端客製", boarding: "boarding / homestay / 自理" },
+    "Shafston High School Preparation 2026": { age: "12–17歲", city: "Brisbane / Gold Coast", priceBand: "待報價", boarding: "住校 / 寄宿" },
+    "UOW Summer Master Classes 2026": { age: "Year 12", city: "Wollongong", priceBand: "A$ 路線", boarding: "城市宿舍 / 自理" },
+    "JCU IERC Summer School 2026": { age: "Year 12 planning cohort", city: "Queensland", priceBand: "按 eligibility", boarding: "住校 / 活動" },
+    "NYSF Year 12 Program 2027 Intake": { age: "即將升 Year 12", city: "Canberra / Brisbane", priceBand: "A$ 路線", boarding: "住校 / 寄宿" },
+    "TAFE Queensland Coomera Rock School 2026": { age: "Grades 9–12", city: "Gold Coast", priceBand: "A$ 路線", boarding: "無住宿 / 依活動" },
+    "ACU Western Civilisation Summer School Program 2026": { age: "Years 10–12", city: "Australia", priceBand: "低成本 / funded", boarding: "無住宿 / 依活動" },
+    "Navitas English Australia Pathway English": { age: "16+ 歲", city: "Sydney / Perth", priceBand: "待報價", boarding: "城市宿舍 / 自理" },
+    "Study Australia School Observation & Route Planning": { age: "家長同行 / K-12", city: "QLD / NSW / VIC / WA", priceBand: "客製核價", boarding: "住校 / homestay / 自理" }
   };
 
   const inferProjectMeta = (project) => {
@@ -14277,7 +14660,7 @@ function summerSchoolCountryPage(route) {
       age = "17+ / 本科";
     }
 
-    let city = "英國";
+    let city = route.slug === "australia" ? "Australia" : "英國";
     if (/London/i.test(location)) city = "London";
     else if (/Oxford/i.test(location)) city = "Oxford";
     else if (/Cambridge/i.test(location)) city = "Cambridge";
@@ -14288,11 +14671,18 @@ function summerSchoolCountryPage(route) {
     else if (/Berkshire|Wokingham/i.test(location)) city = "Berkshire";
     else if (/Somerset/i.test(location)) city = "Somerset";
     else if (/Shropshire/i.test(location)) city = "Shropshire";
+    else if (/Melbourne/i.test(location)) city = "Melbourne";
+    else if (/Sydney/i.test(location)) city = "Sydney";
+    else if (/Brisbane/i.test(location)) city = "Brisbane";
+    else if (/Gold Coast/i.test(location)) city = "Gold Coast";
+    else if (/Perth/i.test(location)) city = "Perth";
+    else if (/Wollongong/i.test(location)) city = "Wollongong";
 
     let priceBand = "£££";
     if (/£1,\d{3}|£2,\d{3}|1,5|1,6|1,7|1,8|1,9/.test(fee)) priceBand = "££";
     if (/£3,\d{3}|£4,\d{3}|£5,\d{3}/.test(fee)) priceBand = "£££";
     if (/£6,\d{3}|£7,\d{3}|£8,\d{3}|£9,\d{3}|高價位|高端/.test(fee)) priceBand = "££££";
+    if (/A\$|AUD|澳幣|fully funded|funded/i.test(fee)) priceBand = "A$ 路線";
     if (/待校方|待報價|為準/.test(fee) && !/£/.test(fee)) priceBand = "待報價";
 
     let boarding = "住宿待核";
@@ -14389,6 +14779,9 @@ function summerSchoolCountryPage(route) {
 
   function inferSummerVisaSupport(project) {
     const text = `${project[0]} ${project[9]}`;
+    if (route.slug === "australia") {
+      return "OTC 協助澳洲短期學習文件、未成年人 consent / health form、接送與州別材料核對";
+    }
     if (/London|Oxford|Cambridge|KCL|UCL|Imperial|UAL/i.test(text)) {
       return "OTC 協助短期訪英文件清單、家長 consent / 健康表與校方信件核對";
     }
@@ -14419,10 +14812,13 @@ function summerSchoolCountryPage(route) {
       </details>
     `;
 
-  const hotCourseCards = route.slug === "uk"
+  const hotCourseCards = groupedRoute
     ? categoryGroups.map((group) => {
         const groupEntries = route.projects.map((project, index) => ({ project, index }))
-          .filter(({ project }) => getProjectCategory(project[0]) === group.id);
+          .filter(({ project }) => {
+            const category = route.slug === "uk" ? getProjectCategory(project[0]) : getAustraliaProjectCategory(project[0]);
+            return category === group.id;
+          });
 
         const cards = groupEntries
           .map(({ project, index }, groupIndex) => {
@@ -14559,7 +14955,142 @@ function summerSchoolCountryPage(route) {
     `
     : "";
 
-  const routeProjectDetailsBlock = route.slug === "uk"
+  const routePainPointsBlock = routePainPoints
+    ? `
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Parent Concerns</div>
+          <h2>先把家長最在意的問題講清楚。</h2>
+        </div>
+        ${routePainPoints}
+      </section>
+    `
+    : "";
+
+  const australiaIntroSections = route.slug === "australia"
+    ? `
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Australia Summer Routes</div>
+          <h2>不同家庭，需要不同澳洲路線</h2>
+          <p>有些家庭想先測試英文與城市適應，有些已經開始比較 boarding、homestay、州別教育與私校差異。OTC Australia Summer Alliance 把澳洲短期項目拆成四條主線，先幫家庭找對教育入口，再談具體報名。</p>
+        </div>
+        <div class="summer-route-pillars">
+          <article><b>01</b><strong>城市英文生活型</strong><span>第一次澳洲體驗、英文輸出與城市生活適應。</span></article>
+          <article><b>02</b><strong>中學觀察銜接型</strong><span>不是玩，而是先看懂澳洲 K-12、boarding 與私校差異。</span></article>
+          <article><b>03</b><strong>大學學術試跑型</strong><span>提前感受澳洲本科與學術節奏，理解 future degree fit。</span></article>
+          <article><b>04</b><strong>Pathway / 升學準備型</strong><span>短期只是入口，真正重點是後續中學、大學與 pathway 規劃。</span></article>
+        </div>
+      </section>
+
+      <section class="band australia-gold-coast-focus">
+        <div class="two-col">
+          <div class="about-panel surface">
+            <div class="eyebrow">Gold Coast</div>
+            <h3>為什麼 OTC 特別關注 Gold Coast？</h3>
+            <p>Gold Coast 不只是旅遊城市。近年越來越多亞洲家庭開始把它當作澳洲低齡教育、私校前置與英語沉浸的觀察窗口：私校密度夠、生活品質高、家長安全感強，也更容易把「暑校」做成未來 K-12 與 boarding 規劃的第一站。</p>
+            <p>對很多家庭來說，這裡更像一個適合先看、先感受、先比較的起點：既能安排英文與城市體驗，也能逐步理解私校、寄宿、homestay 與後續升學選項。</p>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">熱門關注</div>
+            <h3>Gold Coast / Queensland 常被問到的路線</h3>
+            <ul class="summer-focus-list">
+              <li><strong>AICOL</strong><span>低齡英文 camp、homestay、study tour</span></li>
+              <li><strong>TSS</strong><span>男校、private-school exposure、future boarding pathway</span></li>
+              <li><strong>St Hilda’s</strong><span>女校、premium family route、boarding culture</span></li>
+              <li><strong>Somerset</strong><span>IB / academic family positioning</span></li>
+              <li><strong>BROWNS</strong><span>PSP+、junior holiday、多城市比較</span></li>
+              <li><strong>Bond English</strong><span>older teen、academic English、future university transition</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    `
+    : "";
+
+  const australiaDecisionSupportBlock = route.slug === "australia"
+    ? `
+      <section class="band">
+        <div class="two-col australia-decision-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">家長怎麼看</div>
+            <h3>選澳洲暑校時，先把幾個關鍵問題看清楚</h3>
+            <ul class="summer-focus-list">
+              <li><strong>camp vs pathway</strong><span>短期英文活動，和真正的中學 / pathway 前置，是兩種完全不同的決策。</span></li>
+              <li><strong>boarding vs homestay</strong><span>看成熟度、語言輸出、監護安排與家庭風格，不是單純看哪個聽起來高級。</span></li>
+              <li><strong>government vs private</strong><span>州政府系統、私校文化與 support 結構不同，適合的學生也不同。</span></li>
+              <li><strong>Gold Coast vs Melbourne vs Sydney</strong><span>不是只比城市名氣，而是比生活節奏、家長安全感、私校密度與後續路線。</span></li>
+              <li><strong>低齡怎麼選</strong><span>低齡先看 pastoral care、住宿穩定度與 transfer / consent 文件負擔。</span></li>
+              <li><strong>Year 12 academic trial</strong><span>偏學術型學生更適合大學 summer、NYSF、subject-based intensive，不一定是普通語言營。</span></li>
+            </ul>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">先看這三組</div>
+            <h3>常見家庭通常會先從這裡開始看</h3>
+            <div class="summer-route-cards">
+              <article><b>第一次澳洲體驗</b><strong>AICOL / Greenwich / Universal</strong><span>適合第一次出國、先測試英文、城市與 homestay 接受度的家庭。</span></article>
+              <article><b>未來考慮私校</b><strong>Shadowing / BROWNS PSP+ / Study Australia Observation</strong><span>適合已開始看 boarding、私校文化與後續 K-12 規劃的家庭。</span></article>
+              <article><b>偏大學預備</b><strong>UOW / JCU / ACU / NYSF</strong><span>適合高中後段、IB / STEM / university-prep 取向更強的學生。</span></article>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+    : "";
+
+  const australiaSupportSection = route.slug === "australia"
+    ? `
+      <section class="band">
+        <div class="two-col australia-support-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">OTC 協助內容</div>
+            <h3>OTC 不只是代報名</h3>
+            <p>OTC 協助家庭處理澳洲短期學習文件、under-18 consent / welfare、airport transfer、homestay 溝通、私校觀察安排、pathway 規劃，以及後續 K-12 / 大學銜接。真正重點不是行程本身，而是學生與學校是否匹配。</p>
+            <div class="summer-route-cards">
+              <article><b>家長同行路線</b><strong>school visit / suburb inspection / boarding consultation</strong><span>高淨值家庭真正購買的，往往是 relocation confidence，而不只是暑校名額。</span></article>
+              <article><b>簽證與監護說明</b><strong>consent / guardian / welfare / transfer / health form</strong><span>低齡澳洲路線最怕文件與責任邊界不清；OTC 先把這些講明白。</span></article>
+            </div>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">澳洲路線</div>
+            <h3>澳洲暑校，很多家庭其實在看的是下一步</h3>
+            <p>有些學生只是先做英文與城市適應，有些家庭則已經在看 K-12、私校、boarding、pathway 或未來大學銜接。對這類家庭來說，短期項目的價值不只在於暑假本身，而在於它能不能幫助你更清楚下一步。</p>
+            <p>所以這一頁不只整理暑期項目，也把澳洲教育環境、低齡照護、私校觀察和後續路線一起放進來，方便家庭一次看懂。</p>
+            <div class="summer-country-cta-banner">
+              <strong>開始規劃你的 Australia Summer Route</strong>
+              <span>預約 OTC 顧問、WhatsApp 或微信直接進線，先做教育匹配，再談具體項目。</span>
+              <div class="summer-country-cta-row">
+                <a class="btn btn-primary" href="/consultation-chat/?source=australia-summer-alliance-route">預約 OTC 路線諮詢</a>
+                <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想開始規劃 Australia Summer Route。")}">WhatsApp</a>
+                <a class="btn btn-secondary" href="/zh/summer-school-alliance/australia/#gold-coast-focus">查看 Gold Coast 路線</a>
+              </div>
+              <div class="summer-wechat-inline">WeChat: overseasus</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">常見問題</div>
+          <h2>澳洲家長最常問的問題</h2>
+          <p>先把最影響決策的問題講清楚，再看具體項目，會更省時間。</p>
+        </div>
+        <div class="summer-faq-grid">
+          <details><summary>澳洲暑校適合幾歲開始？</summary><p>通常會先看學生獨立性、英文輸出能力與家長對 homestay / guardian 的接受度，而不是只看年級。低齡學生更重視照護與節奏穩定。</p></details>
+          <details><summary>boarding 和 homestay 有什麼差別？</summary><p>boarding 更集中在校園節奏與 pastoral care；homestay 更依賴家庭匹配與城市生活適應。沒有絕對高下，重點是學生性格與家庭預期。</p></details>
+          <details><summary>澳洲私校可以短期觀察嗎？</summary><p>部分路線可以做校園觀察、short-term exposure 或 partner-based arrangement，但需以校方批准與當期可接待情況為準，不作公開保證。</p></details>
+          <details><summary>Gold Coast 和 Melbourne 怎麼選？</summary><p>Gold Coast 更適合低齡、私校前置與家長安全感高的家庭；Melbourne / Sydney 則更適合城市型、學術型或大學試跑型需求。</p></details>
+          <details><summary>澳洲低齡需要 guardian 嗎？</summary><p>視年齡、學校安排、簽證要求與住宿方式而定。OTC 會先說清 consent、welfare、接送與責任邊界，再決定走哪種項目。</p></details>
+          <details><summary>Year 12 適合參加哪種學術項目？</summary><p>偏學術型學生更適合 subject-based summer、NYSF、大學學術試跑或 pathway readiness，而不一定是普通語言 camp。</p></details>
+          <details><summary>OTC 可以協助簽證與監護文件嗎？</summary><p>OTC 可協助整理短期學習文件、consent / health form、接送與 guardian / welfare 所需資訊，但最終簽證與正式合規要求仍以官方規定為準。</p></details>
+          <details><summary>澳洲暑校能不能接後續升學？</summary><p>可以，但不是所有 camp 都天然接 K-12 或大學路線。真正有價值的是把短期體驗做成後續學校、pathway 或 family planning 的前置觀察。</p></details>
+        </div>
+      </section>
+    `
+    : "";
+
+  const routeProjectDetailsBlock = groupedRoute
     ? ""
     : `
       <div class="section-head compact-head summer-detail-head">
@@ -14577,22 +15108,29 @@ function summerSchoolCountryPage(route) {
     current: "resources",
     lang: "zh-Hant",
     locale: "zh",
-    description: `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
+    description: route.slug === "australia"
+      ? "OTC 澳洲暑校聯盟：語言營、私校觀察、大學學術試跑與 pathway 準備集中頁，面向需要澳洲教育決策支持的家庭。"
+      : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
     body: `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
-          <h1>${route.zh}暑期項目頁</h1>
+          <h1>${route.slug === "australia" ? "澳洲暑校聯盟 Australia Summer Alliance 2026" : `${route.zh}暑期項目頁`}</h1>
           <h2>${route.name}</h2>
-          <p>${route.intro}</p>
+          <p>${route.slug === "australia"
+            ? "從 Gold Coast 到 Melbourne，不只是暑期活動，而是國際教育與升學路線的第一次實地體驗。OTC 精選澳洲語言營、私校觀察、大學學術試跑與 pathway 準備項目，協助家庭真正理解澳洲 K-12、寄宿、homestay 與升學體系。"
+            : route.intro}</p>
           <div class="actions">
-            <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-country&country=${encodeURIComponent(route.name)}">立即咨詢</a>
+            <a class="btn btn-primary" href="${route.slug === "australia" ? "#hot-course-list" : `/consultation-chat/?source=summer-school-country&country=${encodeURIComponent(route.name)}`}">${route.slug === "australia" ? "查看熱門課程" : "立即咨詢"}</a>
+            ${route.slug === "australia" ? `<a class="btn btn-secondary" href="/consultation-chat/?source=australia-summer-alliance&country=${encodeURIComponent(route.name)}">預約 OTC 路線諮詢</a>` : ""}
             <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 OTC ${route.zh}暑期項目。`)}">WhatsApp</a>
             <a class="btn btn-secondary" href="/summer-school-alliance/">返回暑校聯盟入口</a>
           </div>
         </div>
       </section>
+
+      ${australiaIntroSections}
 
       <section class="band">
         <div class="two-col">
@@ -14609,27 +15147,40 @@ function summerSchoolCountryPage(route) {
         </div>
       </section>
 
-      <section class="band">
-        <div class="section-head compact-head">
-          <div class="eyebrow">Parent Concerns</div>
-          <h2>先把家長最在意的問題講清楚。</h2>
-        </div>
-        ${routePainPoints}
-      </section>
+      ${routePainPointsBlock}
 
-      <section class="band">
+      ${australiaDecisionSupportBlock}
+
+      <section class="band" id="hot-course-list">
         <div class="section-head compact-head">
           <div class="eyebrow">Hot Course List</div>
           <h2>熱門課程總表</h2>
-          <p>先找對類型，再點開細看。</p>
+          <p>${route.slug === "australia" ? "先看路線，再看項目；把短期體驗和長線升學放在同一張地圖裡理解。" : "先找對類型，再點開細看。"}</p>
         </div>
         ${hotCourseCards}
         ${routeProjectDetailsBlock}
       </section>
 
+      ${australiaSupportSection}
+
+      ${route.slug === "australia" ? `
+      <section class="band">
+        <div class="summer-country-cta-banner">
+          <strong>你是教育顧問、遊學組織方或學校合作窗口？</strong>
+          <span>OTC 正在建立英澳雙線的教育合作網絡。若你想討論 referral cooperation、Australia Summer Alliance、私校前置或區域合作，可直接打開合作夥伴頁。</span>
+          <div class="summer-country-cta-row">
+            <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+            <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Australia%20Partner%20Enquiry">Email OTC</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC Australia Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="summer-wechat-inline">WeChat: overseasus</div>
+        </div>
+      </section>
+      ` : ""}
+
       <script>
         (() => {
-          const isUkGrouped = ${route.slug === "uk" ? "true" : "false"};
+          const isUkGrouped = ${groupedRoute ? "true" : "false"};
           let activeProjectId = null;
 
           const clearUkStages = () => {
@@ -17903,6 +18454,8 @@ write("study-group-2026-applications", studyGroup2026Applications);
 write("application-service-standards", applicationServiceStandards);
 write("advanced-entry-china-programmes", advancedEntryChinaProgrammes);
 write("university-partnerships", universityPartnerships);
+write("education-partners", otcPartnerRecruitmentPage("en"));
+write("zh/education-partners", otcPartnerRecruitmentPage("zh"));
 write("client-portal", clientPortal);
 write("parent-portal", parentPortal);
 write("student-portal", studentPortal);

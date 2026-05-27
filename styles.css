@@ -17516,6 +17516,419 @@ html[lang^="zh"] .about-panel li {
   background: #fbf7ef;
 }
 
+.summer-route-pillars,
+.summer-route-cards,
+.summer-faq-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.summer-route-pillars {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.summer-route-pillars article,
+.summer-route-cards article {
+  background: linear-gradient(180deg, rgba(255, 252, 245, 0.98), rgba(248, 243, 233, 0.98));
+  border: 1px solid rgba(181, 146, 82, 0.18);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.summer-route-pillars b,
+.summer-route-cards b {
+  color: #9b7630;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.summer-route-pillars strong,
+.summer-route-cards strong {
+  color: var(--navy);
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.summer-route-pillars span,
+.summer-route-cards span {
+  color: #556071;
+  display: block;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 8px;
+}
+
+.summer-focus-list {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.summer-focus-list li {
+  align-items: start;
+  border-bottom: 1px solid rgba(20, 40, 68, 0.08);
+  display: grid;
+  gap: 4px;
+  padding-bottom: 12px;
+}
+
+.summer-focus-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.summer-focus-list strong {
+  color: var(--navy);
+  font-size: 15px;
+}
+
+.summer-focus-list span {
+  color: #5d6775;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.australia-decision-grid,
+.australia-support-grid {
+  align-items: stretch;
+}
+
+.summer-country-cta-banner {
+  background: linear-gradient(180deg, rgba(16, 40, 74, 0.98), rgba(23, 49, 86, 0.98));
+  border-radius: 16px;
+  color: #f9f4e8;
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.summer-country-cta-banner strong {
+  color: #fff9ef;
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.summer-country-cta-banner span {
+  color: rgba(255, 248, 232, 0.85);
+  display: block;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 8px;
+}
+
+.summer-country-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.summer-wechat-inline {
+  color: rgba(255, 248, 232, 0.92);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.summer-faq-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.summer-faq-grid details {
+  background: #fffdf8;
+  border: 1px solid rgba(20, 40, 68, 0.1);
+  border-radius: 14px;
+  padding: 0 16px;
+}
+
+.summer-faq-grid summary {
+  color: var(--navy);
+  cursor: pointer;
+  font-family: var(--font-zh-editorial);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  list-style: none;
+  padding: 16px 0;
+}
+
+.summer-faq-grid summary::-webkit-details-marker {
+  display: none;
+}
+
+.summer-faq-grid details p {
+  color: #5a6573;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+
+.partner-hero {
+  background:
+    linear-gradient(135deg, rgba(18, 39, 68, 0.96), rgba(34, 63, 101, 0.94)),
+    linear-gradient(180deg, rgba(240, 245, 250, 0.92), rgba(233, 239, 245, 0.9));
+  color: #f7f6f0;
+}
+
+.partner-hero .eyebrow,
+.partner-hero h1,
+.partner-hero p {
+  color: #f7f6f0;
+}
+
+.partner-language-switch {
+  margin-top: 14px;
+}
+
+.partner-language-switch a {
+  color: rgba(247, 246, 240, 0.86);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.partner-hero h1 {
+  font-family: var(--font-zh-editorial);
+  letter-spacing: 0;
+}
+
+.partner-grid article h2 {
+  font-size: 22px;
+}
+
+.partner-route-map {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.partner-route-map article {
+  background: linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(247, 241, 230, 0.98));
+  border: 1px solid rgba(181, 146, 82, 0.18);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.partner-route-map b {
+  color: #9b7630;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.partner-route-map strong {
+  color: var(--navy);
+  display: block;
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.partner-route-map span {
+  color: #586271;
+  display: block;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 8px;
+}
+
+.partner-type-table {
+  border: 1px solid rgba(20, 40, 68, 0.1);
+  border-radius: 16px;
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+.partner-type-row {
+  display: grid;
+  grid-template-columns: 1.05fr 1.15fr 1.4fr;
+}
+
+.partner-type-row span {
+  border-bottom: 1px solid rgba(20, 40, 68, 0.1);
+  color: #4f5968;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 14px 16px;
+}
+
+.partner-type-row span:first-child {
+  background: #f6ead5;
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-weight: 800;
+}
+
+.partner-type-row.head span {
+  background: var(--navy);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+  color: #fff8ec;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.partner-type-row:last-child span {
+  border-bottom: 0;
+}
+
+.partner-brief aside,
+.partner-side-note {
+  background: linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(247, 241, 230, 0.98));
+}
+
+.partner-application-section {
+  padding-bottom: 14px;
+}
+
+.partner-application-layout {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+}
+
+.partner-application-form {
+  background: #fffdf8;
+  border: 1px solid rgba(20, 40, 68, 0.1);
+  border-radius: 18px;
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.partner-application-section .section-head {
+  margin-bottom: 10px;
+}
+
+.partner-application-section .section-head h2 {
+  color: var(--navy);
+  font-family: var(--font-zh-editorial);
+  font-size: clamp(28px, 3vw, 34px);
+  line-height: 1.14;
+  margin-bottom: 8px;
+}
+
+.partner-application-section .section-head p {
+  color: #5b6573;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 0;
+  max-width: 700px;
+}
+
+.partner-form-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.partner-application-form label {
+  display: grid;
+  gap: 8px;
+}
+
+.partner-application-form label span {
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.partner-application-form input,
+.partner-application-form select,
+.partner-application-form textarea {
+  background: #fffdfa;
+  border: 1px solid rgba(20, 40, 68, 0.14);
+  border-radius: 12px;
+  color: #344154;
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 12px 14px;
+}
+
+.partner-application-form textarea {
+  min-height: 138px;
+  resize: vertical;
+}
+
+.partner-form-note {
+  color: #697380;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.partner-form-actions {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 4px;
+}
+
+.partner-form-actions .btn {
+  justify-content: center;
+}
+
+.partner-side-note {
+  padding: 18px;
+}
+
+.partner-side-note h3 {
+  color: var(--navy);
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  line-height: 1.28;
+  margin-bottom: 8px;
+}
+
+.partner-side-note p {
+  color: #5d6774;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.partner-mini-list {
+  margin-top: 14px;
+}
+
+.partner-mini-list strong {
+  font-size: 14px;
+}
+
+.partner-side-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.partner-side-links a {
+  color: #9b7630;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 800;
+}
+
 @media (max-width: 860px) {
   .summer-route-grid,
   .summer-hot-course-grid {
@@ -17602,5 +18015,28 @@ html[lang^="zh"] .about-panel li {
   .summer-hot-info-grid,
   .summer-project-info-grid {
     grid-template-columns: 1fr;
+  }
+
+  .summer-route-pillars,
+  .summer-faq-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summer-country-cta-row {
+    flex-direction: column;
+  }
+
+  .partner-application-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .partner-route-map,
+  .partner-form-grid,
+  .partner-form-actions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .partner-type-row {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
