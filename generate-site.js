@@ -9834,7 +9834,7 @@ function otcPartnerRecruitmentPage(locale = "en") {
               <ul class="summer-focus-list">
                 <li><strong>${isZh ? "英國本地教育定位" : "UK-based positioning"}</strong><span>${isZh ? "英國本地升學與教育路線背景" : "A UK-based international education positioning."}</span></li>
                 <li><strong>${isZh ? "雙語溝通" : "Bilingual communication"}</strong><span>${isZh ? "更好連接亞洲家庭與海外院校" : "Stronger engagement with Asian families and institutions."}</span></li>
-                <li><strong>${isZh ? "教育匹配優先" : "Educational fit first"}</strong><span>${isZh ? "重視長線規劃，不做大量安置式招生" : "Long-term progression planning over mass placement."}</span></li>
+                <li><strong>${isZh ? "教育匹配視角" : "Educational matching first"}</strong><span>${isZh ? "重視長線規劃，不做大量安置式招生" : "Long-term progression planning over mass placement."}</span></li>
                 <li><strong>${isZh ? "私校與 pathway 視角" : "Private school and pathway lens"}</strong><span>${isZh ? "適合高端家庭與非標準教育決策" : "Well suited to premium school and pathway positioning."}</span></li>
               </ul>
             </div>
