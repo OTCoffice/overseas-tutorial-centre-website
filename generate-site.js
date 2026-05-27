@@ -10174,9 +10174,9 @@ function otcPartnerRecruitmentPage(locale = "en") {
     locale: isZh ? "zh" : "en",
     description: pageDescription,
     path: pagePath,
-    image: "/assets/social/partner-hero-social-preview-clean-square.jpg",
+    image: "/assets/social/partner-hero-social-preview-ai-20260527.jpg",
     imageWidth: 1200,
-    imageHeight: 1200,
+    imageHeight: 630,
     imageAlt: isZh ? "OTC Global Summer Alliance 合作夥伴頁封面圖" : "OTC Global Summer Alliance partner page hero image",
     body: `
       <section class="page-hero partner-hero">

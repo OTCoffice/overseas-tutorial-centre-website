@@ -20558,7 +20558,7 @@ html[lang^="zh"] .about-panel li {
 
 /* Direct hero replacement using user-provided reference image */
 .partner-hero {
-  background: url("/assets/partner-hero-user-reference.jpg") center center / cover no-repeat !important;
+  background: url("/assets/partner-hero-ai-20260527.png") center center / cover no-repeat !important;
   border-radius: 0 !important;
   min-height: 0 !important;
 }
