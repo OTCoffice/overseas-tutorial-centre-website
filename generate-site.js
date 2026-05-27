@@ -9646,11 +9646,11 @@ function otcPartnerRecruitmentPage(locale = "en") {
   const oppositePath = isZh ? "/education-partners/" : "/zh/education-partners/";
   const heroTitle = isZh ? "成為 OTC 教育合作夥伴" : "Become an OTC Education Partner";
   const heroSubtitle = isZh
-    ? "與 OTC 一起建立英國、澳洲與國際暑期教育合作網絡。"
-    : "Join OTC in building international summer and pathway partnerships across the UK, Australia, and selected global education destinations.";
+    ? "與 OTC 一起建立國際教育合作網絡"
+    : "Build an international education partnership network with OTC";
   const heroBody = isZh
-    ? "從 summer alliance、private school exposure 到 pathway planning，我們更重視教育匹配、家庭判斷與長線發展，而不是大量招生。"
-    : "From summer alliance development and private-school exposure to pathway planning, OTC prioritises educational fit, family decision support, and long-term progression over mass recruitment.";
+    ? "以英國與澳洲為核心，從 summer alliance、private school exposure 到 pathway planning，OTC 更重視教育匹配、家庭判斷與長線發展。"
+    : "With the UK and Australia as core routes, OTC connects summer alliance development, private-school exposure and pathway planning through a fit-first, long-term approach.";
   const applyHref = isZh
     ? "mailto:office@overseasuk.com?subject=OTC%20合作夥伴申請&body=機構名稱%3A%0A聯絡人%3A%0A地區%3A%0A合作方向%3A%0A網站%20/%20社群%3A%0A備註%3A"
     : "mailto:office@overseasuk.com?subject=OTC%20Partner%20Application&body=Organisation%20name%3A%0AContact%20person%3A%0ARegion%3A%0APartnership%20interest%3A%0AWebsite%20/%20social%20links%3A%0ANotes%3A";
@@ -9707,28 +9707,23 @@ function otcPartnerRecruitmentPage(locale = "en") {
             <div class="partner-hero-panel hero-map">
               <strong>${isZh ? "OTC Global Summer Alliance" : "OTC Global Summer Alliance"}</strong>
               <span>${isZh ? "UK · Australia · pathway-led partnerships" : "UK · Australia · pathway-led partnerships"}</span>
+              <div class="partner-alliance-map" aria-hidden="true">
+                <div class="partner-map-line line-1"></div>
+                <div class="partner-map-line line-2"></div>
+                <div class="partner-map-line line-3"></div>
+                <div class="partner-map-line line-4"></div>
+                <div class="partner-map-node node-london"><b>London</b><span>${isZh ? "UK base" : "UK base"}</span></div>
+                <div class="partner-map-node node-goldcoast"><b>Gold Coast</b><span>${isZh ? "Private school focus" : "Private school focus"}</span></div>
+                <div class="partner-map-node node-brisbane"><b>Brisbane</b><span>${isZh ? "Regional routes" : "Regional routes"}</span></div>
+                <div class="partner-map-node node-melbourne"><b>Melbourne</b><span>${isZh ? "University pathway" : "University pathway"}</span></div>
+                <div class="partner-map-node node-sydney"><b>Sydney</b><span>${isZh ? "Partner expansion" : "Partner expansion"}</span></div>
+              </div>
             </div>
-            <div class="partner-stat-grid">
-              <article>
-                <b>01</b>
-                <strong>${isZh ? "Summer Alliance" : "Summer Alliance"}</strong>
-                <span>${isZh ? "語言、學術與私校前置路線" : "Language, academic and school-exposure routes"}</span>
-              </article>
-              <article>
-                <b>02</b>
-                <strong>${isZh ? "K-12 / Boarding" : "K-12 / Boarding"}</strong>
-                <span>${isZh ? "家庭規劃、觀察與轉化支持" : "Family planning, observation and conversion support"}</span>
-              </article>
-              <article>
-                <b>03</b>
-                <strong>${isZh ? "University Pathway" : "University Pathway"}</strong>
-                <span>${isZh ? "暑期體驗接回長線升學" : "Short-term experience feeding longer-term progression"}</span>
-              </article>
-              <article>
-                <b>04</b>
-                <strong>${isZh ? "Partner Network" : "Partner Network"}</strong>
-                <span>${isZh ? "顧問、學校與區域合作夥伴" : "Consultants, schools and regional partners"}</span>
-              </article>
+            <div class="partner-ecosystem-diagram">
+              <article><b>01</b><strong>${isZh ? "UK Pathways" : "UK Pathways"}</strong></article>
+              <article><b>02</b><strong>${isZh ? "Australia Summer Alliance" : "Australia Summer Alliance"}</strong></article>
+              <article><b>03</b><strong>${isZh ? "K-12 / Boarding Exposure" : "K-12 / Boarding Exposure"}</strong></article>
+              <article><b>04</b><strong>${isZh ? "University & Pathway Progression" : "University & Pathway Progression"}</strong></article>
             </div>
           </div>
         </div>
@@ -9737,15 +9732,15 @@ function otcPartnerRecruitmentPage(locale = "en") {
       <main>
         <section class="band">
           <div class="section-head compact-head partner-tier-head">
-            <div class="eyebrow">${isZh ? "About OTC" : "About OTC"}</div>
-            <h2>${isZh ? "立足英國，面向全球的教育合作節點" : "A UK-based education partnership platform with global reach"}</h2>
-            <p>${isZh ? "OTC 的定位不是旅遊式暑校集合頁，而是把夏校、私校前置、pathway 與長線升學規劃接在一起的合作網絡。" : "OTC is not positioned as a tourism-style summer aggregator. It connects summer programmes, private-school exposure, pathway planning, and longer-term educational progression in one network."}</p>
+            <div class="eyebrow">${isZh ? "Why OTC" : "Why OTC"}</div>
+            <h2>${isZh ? "值得信任的英澳教育合作節點" : "Why partners trust OTC as a UK–Australia education platform"}</h2>
+            <p>${isZh ? "OTC 的定位不是旅遊式暑校集合頁，而是把夏校、私校前置、pathway 與長線升學規劃接在一起的教育合作網絡。" : "OTC is not a tourism-style summer aggregator. It is a partnership-led education platform connecting summer programmes, private-school exposure, pathways and longer-term progression planning."}</p>
           </div>
           <div class="partner-trust-badges">
-            <article><strong>UK-based</strong><span>${isZh ? "英國本地教育與升學背景" : "Grounded in UK education and progression work"}</span></article>
-            <article><strong>Bilingual</strong><span>${isZh ? "更好承接亞洲家庭與海外院校" : "Better communication across Asian families and institutions"}</span></article>
-            <article><strong>Pathway-first</strong><span>${isZh ? "把短期項目接回長線規劃" : "Short-term routes tied to long-term planning"}</span></article>
-            <article><strong>Educational fit</strong><span>${isZh ? "強調匹配，不做大量安置" : "Fit-driven rather than volume-driven"}</span></article>
+            <article><strong>${isZh ? "UK-based positioning" : "UK-based positioning"}</strong><span>${isZh ? "英國本地教育與升學背景" : "Grounded in UK education and progression work"}</span></article>
+            <article><strong>${isZh ? "Bilingual family support" : "Bilingual family support"}</strong><span>${isZh ? "更好承接亞洲家庭與海外院校" : "Better communication across Asian families and institutions"}</span></article>
+            <article><strong>${isZh ? "Pathway-focused planning" : "Pathway-focused planning"}</strong><span>${isZh ? "把短期項目接回長線規劃" : "Short-term routes tied to longer-term planning"}</span></article>
+            <article><strong>${isZh ? "Educational matching approach" : "Educational matching approach"}</strong><span>${isZh ? "強調匹配，不做大量安置" : "Matching-led rather than volume-driven"}</span></article>
           </div>
         </section>
 
@@ -9757,12 +9752,11 @@ function otcPartnerRecruitmentPage(locale = "en") {
               <p>${isZh ? "OTC 早期以英國升學與 progression 路線為主，現在正把 Global Summer Alliance 與 pathway network 擴展到澳洲、英國及其他具教育價值的目的地。" : "Originally focused on UK progression routes, OTC is now expanding its international summer alliance and pathway network across Australia, the UK, and selected global education destinations."}</p>
               <p>${isZh ? "我們重視的不只是短期項目，而是更完整的教育規劃：K-12 preparation、private school exposure、pathway readiness、大學銜接與 family education planning。" : "Our focus is not only short-term programmes, but long-term educational planning: K-12 preparation, private school exposure, pathway readiness, university transition, and family education planning."}</p>
             </div>
-            <aside>
-              <strong>Overseas Tutorial Centre Ltd</strong>
-              <span>London, United Kingdom</span>
-              <span>office@overseasuk.com</span>
-              <span>WhatsApp +44 7947 991572</span>
-              <span>WeChat: overseasus</span>
+            <aside class="partner-facts">
+              <div><strong>${isZh ? "Established in London" : "Established in London"}</strong><span>London, United Kingdom</span></div>
+              <div><strong>${isZh ? "Core Routes" : "Core Routes"}</strong><span>UK · Australia · pathway-led programmes</span></div>
+              <div><strong>${isZh ? "Focus" : "Focus"}</strong><span>${isZh ? "Private school exposure · summer alliance · family planning" : "Private-school exposure · summer alliance · family planning"}</span></div>
+              <div><strong>${isZh ? "Contact" : "Contact"}</strong><span>office@overseasuk.com · WhatsApp +44 7947 991572 · WeChat: overseasus</span></div>
               <a href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 Australia Summer Alliance PDF" : "Download Australia Summer Alliance PDF"}</a>
             </aside>
           </div>
@@ -9775,9 +9769,9 @@ function otcPartnerRecruitmentPage(locale = "en") {
             <p>${isZh ? "把合作層級先分清楚，對接效率會高很多。" : "Clarity on partner model makes the next step faster and more credible."}</p>
           </div>
           <div class="standards-grid partner-model-grid">
-            <article><b>01</b><h2>${isZh ? "Referral Partner" : "Referral Partner"}</h2><p>${isZh ? "適合家長社群、教育顧問老師、內容創作者與校內顧問。OTC 負責後續諮詢、匹配與操作。" : "Designed for parent communities, counsellors, education creators and school advisers. OTC handles the operational follow-through."}</p></article>
-            <article><b>02</b><h2>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</h2><p>${isZh ? "適合精品 agency、區域工作室與 pathway centre，可做聯名宣傳、區域諮詢與短期訪學合作。" : "Suited to boutique agencies, local studios and pathway centres for regional consultation, co-branding and study-tour cooperation."}</p></article>
-            <article><b>03</b><h2>${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}</h2><p>${isZh ? "適合學校、語言中心、summer provider 與 pathway provider，可共同設計項目、訪校安排與長線招募。" : "For schools, language centres, summer providers and pathway providers exploring custom programmes, visits and longer-term recruitment."}</p></article>
+            <article><b>01</b><h2>${isZh ? "Referral Partner" : "Referral Partner"}</h2><p>${isZh ? "適合家長社群、教育顧問老師、內容創作者與校內顧問。OTC 負責後續諮詢、匹配與操作。" : "Designed for parent communities, counsellors, education creators and school advisers. OTC handles the operational follow-through."}</p><span class="partner-card-example">${isZh ? "典型合作：家長轉介 · 初步路線判斷 · OTC 後續承接" : "Typical collaboration: family referrals · first-stage route review · OTC follow-through"}</span></article>
+            <article><b>02</b><h2>${isZh ? "Regional Education Partner" : "Regional Education Partner"}</h2><p>${isZh ? "適合精品 agency、區域工作室與 pathway centre，可做聯名宣傳、區域諮詢與短期訪學合作。" : "Suited to boutique agencies, local studios and pathway centres for regional consultation, co-branding and study-tour cooperation."}</p><span class="partner-card-example">${isZh ? "典型合作：區域諮詢 · 聯名活動 · study tour 協作" : "Typical collaboration: regional consultation · co-branded activity · study-tour cooperation"}</span></article>
+            <article><b>03</b><h2>${isZh ? "School / Institutional Partner" : "School / Institutional Partner"}</h2><p>${isZh ? "適合學校、語言中心、summer provider 與 pathway provider，可共同設計項目、訪校安排與長線招募。" : "For schools, language centres, summer providers and pathway providers exploring custom programmes, visits and longer-term recruitment."}</p><span class="partner-card-example">${isZh ? "典型合作：school visit · customised immersion · pathway collaboration" : "Typical collaboration: school visits · customised immersion · pathway collaboration"}</span></article>
           </div>
         </section>
 
@@ -9786,7 +9780,7 @@ function otcPartnerRecruitmentPage(locale = "en") {
             <div class="about-panel surface">
               <div class="eyebrow">${isZh ? "Why Australia" : "Why Australia"}</div>
               <h3>${isZh ? "為什麼越來越多家庭開始看澳洲？" : "Why more families are looking seriously at Australia"}</h3>
-              <p>${isZh ? "澳洲對很多家庭來說，不只是暑期活動目的地，而是更安全、語言環境更穩、K-12 連續性更清楚的大教育市場。" : "Australia is increasingly seen not just as a summer destination, but as a wider education ecosystem with stronger lifestyle confidence, English exposure and K-12 continuity."}</p>
+              <p>${isZh ? "澳洲對很多家庭來說，不只是暑期活動目的地，而是更安全、語言環境更穩、K-12 連續性更清楚、也更容易讓家庭想像孩子長期發展的大教育市場。" : "Australia is increasingly seen not just as a summer destination, but as a wider education ecosystem with stronger lifestyle confidence, English exposure, K-12 continuity, and clearer long-term family imagination."}</p>
               <ul class="summer-focus-list">
                 <li><strong>${isZh ? "Safety and lifestyle" : "Safety and lifestyle"}</strong><span>${isZh ? "高淨值與低齡家庭更重視安全感、照護與生活質量。" : "Families often prioritise safety, care structures and quality of life."}</span></li>
                 <li><strong>${isZh ? "Boarding and homestay" : "Boarding and homestay"}</strong><span>${isZh ? "澳洲更容易把短期體驗接回 boarding、guardian 與 K-12 規劃。" : "Short-term experiences can more naturally feed into boarding, guardian planning and K-12 decisions."}</span></li>
@@ -9800,6 +9794,20 @@ function otcPartnerRecruitmentPage(locale = "en") {
               <p>${isZh ? "目前澳洲合作擴展正圍繞 Gold Coast、Brisbane、Sydney、Melbourne、Adelaide 與 Perth 展開。" : "Current alliance development spans Gold Coast, Brisbane, Sydney, Melbourne, Adelaide and Perth."}</p>
               <p>${isZh ? "部分私校觀察與 immersion 類安排，仍需以校方批准為準。" : "Some private school observation opportunities remain subject to school approval."}</p>
             </div>
+          </div>
+        </section>
+
+        <section class="band">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${isZh ? "Alliance Momentum" : "Alliance Momentum"}</div>
+            <h2>${isZh ? "我們正在建立中的合作方向" : "Current alliance directions in development"}</h2>
+            <p>${isZh ? "不把它做成誇張的 member wall，而是清楚說明目前正在對接與擴展的重點區域。" : "Rather than a noisy member wall, this section signals the partnership directions OTC is actively developing."}</p>
+          </div>
+          <div class="partner-momentum-grid">
+            <article><strong>${isZh ? "Australia" : "Australia"}</strong><span>${isZh ? "Gold Coast、Brisbane、Melbourne、Sydney 的 summer、school exposure 與 pathway 合作。" : "Summer, school-exposure and pathway cooperation across Gold Coast, Brisbane, Melbourne and Sydney."}</span></article>
+            <article><strong>${isZh ? "United Kingdom" : "United Kingdom"}</strong><span>${isZh ? "結合 UK progression、private school exposure 與 long-term admissions support。" : "UK progression, private-school exposure and longer-term admissions support."}</span></article>
+            <article><strong>${isZh ? "Pathway Providers" : "Pathway Providers"}</strong><span>${isZh ? "面向 language centres、pathway providers 與 academic transition partners。" : "Conversations with language centres, pathway providers and academic transition partners."}</span></article>
+            <article><strong>${isZh ? "Boutique Partners" : "Boutique Partners"}</strong><span>${isZh ? "教育顧問、家長社群與區域合作節點的精準合作。" : "Boutique regional cooperation with education advisers and parent communities."}</span></article>
           </div>
         </section>
 
@@ -9888,26 +9896,85 @@ function otcPartnerRecruitmentPage(locale = "en") {
         <section class="band partner-application-section">
           <div class="section-head compact-head">
             <div class="eyebrow">${isZh ? "Start a Conversation" : "Start a Conversation"}</div>
-            <h2>${isZh ? "與 OTC 開始一段對話" : "Start a Conversation with OTC"}</h2>
-            <p>${isZh ? "先告訴我們你是什麼類型的合作方、主要服務哪一類家庭，以及你目前想推進哪條線。" : "Tell us what kind of partner you are, who you work with, and what kind of cooperation you want to explore."}</p>
+            <h2>${isZh ? "以申請加入 OTC Network 的方式開始對話" : "Start the conversation as an OTC network onboarding"}</h2>
+            <p>${isZh ? "我們把合作申請拆成幾個清楚步驟，先了解你是誰、服務哪一類家庭，以及你最想推進哪條合作線。" : "This partner intake is structured like a guided onboarding flow, so OTC can understand who you are, which families you serve, and which collaboration route matters most."}</p>
           </div>
           <div class="partner-application-layout">
             <form class="partner-application-form" data-partner-form>
-              <div class="partner-form-grid">
-                <label><span>${isZh ? "機構名稱" : "Organisation"}</span><input name="organisation" type="text" /></label>
-                <label><span>${isZh ? "聯絡人" : "Contact person"}</span><input name="contact" type="text" /></label>
-                <label><span>${isZh ? "地區" : "Region"}</span><input name="region" type="text" /></label>
-                <label><span>${partnerTypeLabel}</span><select name="partnerType" required><option value="">${isZh ? "請選擇" : "Please select"}</option>${partnerTypeOptions.map(([value, label]) => `<option value="${value}">${label}</option>`).join("")}</select></label>
-                <label><span>${isZh ? "合作方向" : "Partnership interest"}</span><input name="interest" type="text" /></label>
-                <label><span>${isZh ? "網站 / 社群連結" : "Website / social links"}</span><input name="links" type="text" /></label>
+              <div class="partner-wizard-progress" data-partner-progress>
+                <button type="button" class="partner-progress-pill is-active" data-step-target="1"><b>01</b><span>${isZh ? "合作方類型" : "Partner Type"}</span></button>
+                <button type="button" class="partner-progress-pill" data-step-target="2"><b>02</b><span>${isZh ? "機構資料" : "Organisation"}</span></button>
+                <button type="button" class="partner-progress-pill" data-step-target="3"><b>03</b><span>${isZh ? "服務地區" : "Regions & Students"}</span></button>
+                <button type="button" class="partner-progress-pill" data-step-target="4"><b>04</b><span>${isZh ? "合作興趣" : "Interests"}</span></button>
+                <button type="button" class="partner-progress-pill" data-step-target="5"><b>05</b><span>${isZh ? "開始對話" : "Start Conversation"}</span></button>
               </div>
-              <label><span>${isZh ? "補充說明" : "Notes"}</span><textarea name="notes" rows="5"></textarea></label>
-              <div class="partner-form-note">${isZh ? "我們會按合作類型整理來信，方便後續安排對接、跟進與資料發送。" : "Your enquiry will be grouped by partnership type so we can route the next step more clearly."}</div>
-              <div class="partner-form-actions">
-                <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Become an OTC Partner"}</a>
-                <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(inquiryFormSubject)}" data-partner-mail>${contactLabel}</a>
-                <a class="btn btn-secondary" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
-                <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 PDF" : "Download PDF"}</a>
+              <div class="partner-form-step partner-form-step-panel is-active" data-step-panel="1">
+                <div class="partner-form-step-head"><b>01</b><div><strong>${isZh ? "Who are you?" : "Who are you?"}</strong><span>${isZh ? "先說明你屬於哪一類合作方。" : "Start by clarifying what kind of partner you are."}</span></div></div>
+                <label><span>${partnerTypeLabel}</span><select name="partnerType" required><option value="">${isZh ? "請選擇" : "Please select"}</option>${partnerTypeOptions.map(([value, label]) => `<option value="${value}">${label}</option>`).join("")}</select></label>
+                <div class="partner-step-actions">
+                  <span class="partner-step-hint">${isZh ? "這一步會決定後續的對接與回覆方式。" : "This helps OTC route the enquiry appropriately."}</span>
+                  <button type="button" class="btn btn-primary" data-partner-next>${isZh ? "下一步" : "Next"}</button>
+                </div>
+              </div>
+              <div class="partner-form-step partner-form-step-panel" data-step-panel="2">
+                <div class="partner-form-step-head"><b>02</b><div><strong>${isZh ? "機構資料" : "Organisation Info"}</strong><span>${isZh ? "留下基礎聯絡方式與對外資訊。" : "Share the basic organisational and contact details."}</span></div></div>
+                <div class="partner-form-grid">
+                  <label><span>${isZh ? "機構名稱" : "Organisation"}</span><input name="organisation" type="text" /></label>
+                  <label><span>${isZh ? "聯絡人" : "Contact person"}</span><input name="contact" type="text" /></label>
+                  <label><span>${isZh ? "地區" : "Region"}</span><input name="region" type="text" /></label>
+                  <label><span>${isZh ? "網站 / 社群連結" : "Website / social links"}</span><input name="links" type="text" /></label>
+                </div>
+                <div class="partner-step-actions">
+                  <button type="button" class="btn btn-secondary" data-partner-back>${isZh ? "上一步" : "Back"}</button>
+                  <button type="button" class="btn btn-primary" data-partner-next>${isZh ? "下一步" : "Next"}</button>
+                </div>
+              </div>
+              <div class="partner-form-step partner-form-step-panel" data-step-panel="3">
+                <div class="partner-form-step-head"><b>03</b><div><strong>${isZh ? "服務地區與學生類型" : "Regions and Student Types"}</strong><span>${isZh ? "幫我們快速判斷合作範圍。" : "Help OTC understand your likely coverage."}</span></div></div>
+                <div class="partner-check-grid">
+                  <label class="partner-check"><input type="checkbox" name="regions" value="China Mainland"><span>${isZh ? "中國內地" : "China Mainland"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="regions" value="Hong Kong / Macau"><span>${isZh ? "港澳" : "Hong Kong / Macau"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="regions" value="United Kingdom"><span>${isZh ? "英國" : "United Kingdom"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="regions" value="Australia"><span>${isZh ? "澳洲" : "Australia"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="studentTypes" value="Junior / K-12"><span>${isZh ? "低齡 / K-12" : "Junior / K-12"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="studentTypes" value="Private School Families"><span>${isZh ? "私校家庭" : "Private School Families"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="studentTypes" value="Pre-University"><span>${isZh ? "預科 / 大學前" : "Pre-University"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="studentTypes" value="Parent Communities"><span>${isZh ? "家長社群" : "Parent Communities"}</span></label>
+                </div>
+                <div class="partner-step-actions">
+                  <button type="button" class="btn btn-secondary" data-partner-back>${isZh ? "上一步" : "Back"}</button>
+                  <button type="button" class="btn btn-primary" data-partner-next>${isZh ? "下一步" : "Next"}</button>
+                </div>
+              </div>
+              <div class="partner-form-step partner-form-step-panel" data-step-panel="4">
+                <div class="partner-form-step-head"><b>04</b><div><strong>${isZh ? "合作興趣" : "Cooperation Interest"}</strong><span>${isZh ? "可以多選，方便後續分流。" : "Select one or more focus areas."}</span></div></div>
+                <div class="partner-check-grid">
+                  <label class="partner-check"><input type="checkbox" name="interests" value="Summer Alliance"><span>${isZh ? "Summer alliance" : "Summer alliance"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="interests" value="Private School Routes"><span>${isZh ? "Private school routes" : "Private school routes"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="interests" value="K-12 Pathway"><span>${isZh ? "K-12 pathway" : "K-12 pathway"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="interests" value="Study Tours"><span>${isZh ? "Study tours" : "Study tours"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="interests" value="University Progression"><span>${isZh ? "University progression" : "University progression"}</span></label>
+                  <label class="partner-check"><input type="checkbox" name="interests" value="Pathway Providers"><span>${isZh ? "Pathway providers" : "Pathway providers"}</span></label>
+                </div>
+                <label><span>${isZh ? "合作方向補充" : "Partnership interest details"}</span><input name="interest" type="text" /></label>
+                <div class="partner-step-actions">
+                  <button type="button" class="btn btn-secondary" data-partner-back>${isZh ? "上一步" : "Back"}</button>
+                  <button type="button" class="btn btn-primary" data-partner-next>${isZh ? "下一步" : "Next"}</button>
+                </div>
+              </div>
+              <div class="partner-form-step partner-form-step-panel" data-step-panel="5">
+                <div class="partner-form-step-head"><b>05</b><div><strong>${isZh ? "開始對話" : "Start Conversation"}</strong><span>${isZh ? "補充你現在最想推進的內容，然後把這次合作申請發給 OTC。" : "Add any final context, then send this partner onboarding enquiry to OTC."}</span></div></div>
+                <div class="partner-onboarding-summary" data-partner-summary></div>
+                <label><span>${isZh ? "補充說明" : "Notes"}</span><textarea name="notes" rows="5"></textarea></label>
+                <div class="partner-form-note">${isZh ? "我們會按合作類型整理來信，方便後續安排對接、跟進與資料發送。" : "Your enquiry will be grouped by partnership type so we can route the next step more clearly."}</div>
+                <div class="partner-form-actions">
+                  <button type="button" class="btn btn-secondary" data-partner-back>${isZh ? "上一步" : "Back"}</button>
+                  <a class="btn btn-primary" href="${applyHref}">${isZh ? "申請成為合作夥伴" : "Become an OTC Partner"}</a>
+                  <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(inquiryFormSubject)}" data-partner-mail>${contactLabel}</a>
+                  <a class="btn btn-secondary" href="${whatsappHref}" target="_blank" rel="noopener">${whatsappLabel}</a>
+                  <a class="btn btn-secondary" href="${onePagerPdf}" target="_blank" rel="noopener">${isZh ? "下載 PDF" : "Download PDF"}</a>
+                </div>
+                <div class="partner-success-note">${isZh ? "提交後，OTC 會按合作類型與興趣方向聯繫你，並安排後續資料或會議。" : "Once sent, OTC will follow up according to partner type and collaboration interests, and arrange the next conversation or materials."}</div>
               </div>
               <div class="summer-wechat-inline">${wechatLabel}</div>
             </form>
@@ -9944,9 +10011,25 @@ function otcPartnerRecruitmentPage(locale = "en") {
           (() => {
             const form = document.querySelector('[data-partner-form]');
             const mailLink = document.querySelector('[data-partner-mail]');
-            if (!form || !mailLink) return;
+            const panels = Array.from(document.querySelectorAll('[data-step-panel]'));
+            const pills = Array.from(document.querySelectorAll('[data-step-target]'));
+            const summary = document.querySelector('[data-partner-summary]');
+            if (!form || !mailLink || !panels.length || !pills.length) return;
+            let activeStep = 1;
+            const setStep = (step) => {
+              activeStep = Math.max(1, Math.min(step, panels.length));
+              panels.forEach((panel) => {
+                panel.classList.toggle('is-active', Number(panel.dataset.stepPanel) === activeStep);
+              });
+              pills.forEach((pill) => {
+                const target = Number(pill.dataset.stepTarget);
+                pill.classList.toggle('is-active', target === activeStep);
+                pill.classList.toggle('is-complete', target < activeStep);
+              });
+            };
             const updateMailto = () => {
-              const data = Object.fromEntries(new FormData(form).entries());
+              const formData = new FormData(form);
+              const data = Object.fromEntries(formData.entries());
               const partnerTypeMap = {
                 referral: "${isZh ? "Referral Partner" : "Referral Partner"}",
                 regional: "${isZh ? "Regional Education Partner" : "Regional Education Partner"}",
@@ -9955,6 +10038,9 @@ function otcPartnerRecruitmentPage(locale = "en") {
                 other: "${isZh ? "Other" : "Other"}"
               };
               const selectedType = partnerTypeMap[data.partnerType] || "";
+              const selectedRegions = formData.getAll("regions").join(", ");
+              const selectedStudentTypes = formData.getAll("studentTypes").join(", ");
+              const selectedInterests = formData.getAll("interests").join(", ");
               const subject = selectedType
                 ? "${isZh ? "OTC 合作夥伴諮詢" : "New OTC Partner Inquiry"}" + " – " + selectedType
                 : "${inquiryFormSubject}";
@@ -9965,14 +10051,51 @@ function otcPartnerRecruitmentPage(locale = "en") {
                 "${isZh ? "聯絡人" : "Contact person"}: " + (data.contact || ""),
                 "${isZh ? "地區" : "Region"}: " + (data.region || ""),
                 "${partnerTypeLabel}: " + (selectedType || ""),
+                "${isZh ? "服務地區" : "Regions"}: " + (selectedRegions || ""),
+                "${isZh ? "學生類型" : "Student types"}: " + (selectedStudentTypes || ""),
+                "${isZh ? "合作興趣" : "Cooperation interests"}: " + (selectedInterests || ""),
                 "${isZh ? "合作方向" : "Partnership interest"}: " + (data.interest || ""),
                 "${isZh ? "網站 / 社群連結" : "Website / social links"}: " + (data.links || ""),
                 "${isZh ? "補充說明" : "Notes"}: " + (data.notes || "")
               ].join("\\n");
               mailLink.href = "mailto:office@overseasuk.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines);
+              if (summary) {
+                summary.innerHTML = [
+                  "<strong>${isZh ? "申請摘要" : "Onboarding summary"}</strong>",
+                  "<span>${partnerTypeLabel}: " + (selectedType || "${isZh ? "未選擇" : "Not selected"}") + "</span>",
+                  "<span>${isZh ? "服務地區" : "Regions"}: " + (selectedRegions || "${isZh ? "待補充" : "To be added"}") + "</span>",
+                  "<span>${isZh ? "學生類型" : "Student types"}: " + (selectedStudentTypes || "${isZh ? "待補充" : "To be added"}") + "</span>",
+                  "<span>${isZh ? "合作興趣" : "Cooperation interests"}: " + (selectedInterests || "${isZh ? "待補充" : "To be added"}") + "</span>"
+                ].join("");
+              }
             };
+            form.querySelectorAll('[data-partner-next]').forEach((button) => {
+              button.addEventListener('click', () => {
+                if (activeStep === 1) {
+                  const typeValue = form.querySelector('select[name="partnerType"]')?.value;
+                  if (!typeValue) {
+                    form.querySelector('select[name="partnerType"]')?.focus();
+                    return;
+                  }
+                }
+                setStep(activeStep + 1);
+              });
+            });
+            form.querySelectorAll('[data-partner-back]').forEach((button) => {
+              button.addEventListener('click', () => setStep(activeStep - 1));
+            });
+            pills.forEach((pill) => {
+              pill.addEventListener('click', () => {
+                const target = Number(pill.dataset.stepTarget);
+                if (!target) return;
+                if (target > 1 && !form.querySelector('select[name="partnerType"]')?.value) return;
+                setStep(target);
+              });
+            });
             form.addEventListener("input", updateMailto);
+            form.addEventListener("change", updateMailto);
             updateMailto();
+            setStep(1);
           })();
         </script>
       </main>
