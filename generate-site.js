@@ -1607,6 +1607,8 @@ function searchItems() {
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
+    ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
+    ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
     ["Courses", "/courses/", "OTC course architecture hub separating the global programme finder from OTC's own learning platform, tutoring routes and qualification support."],
     ["OTC Learning Platform", "/learning-platform/", "OTC's own learning platform for international curriculum tutoring, Apps & Tools, OTHM, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
@@ -1816,6 +1818,105 @@ function writeHeraldSocialImage(article, locale = "en") {
 }
 
 const insightsArticles = [
+  {
+    slug: "anonymous-europe-business-planning",
+    title: "Europe Business Master’s Planning (Typical Case): IELTS 5.5 → 6.0–6.5, MSc vs MBA, and a Practical Shortlist Matrix",
+    date: "2026-05-28",
+    category: "University Applications",
+    column: "study",
+    kicker: "Europe · Business · Planning checklist",
+    author: "留學導報編輯部",
+    summary: "If your current English score is below a common entry threshold (e.g., IELTS 5.5 vs 6.0–6.5), don’t rush into random applications. This neutral, non-personal guide shows a typical planning flow: raise English strategically, choose between MSc (professional/management) and MBA based on role evidence, and use a one-page shortlist matrix so you can verify requirements before spending time and fees (no outcome guarantees).",
+    titleZh: "歐洲商科留學規劃（一般情況）：IELTS 5.5 → 6.0–6.5、MSc vs MBA、以及一張可直接用的選校矩陣",
+    summaryZh: "當英語分數低於常見門檻（例如 IELTS 5.5 對比 6.0–6.5）時，最容易踩雷的是「先亂投再補救」。本文以一般情況（非特定客戶）整理一套可複用的規劃流程：如何把語言提升嵌入時間軸、如何用職務證據判斷走 MSc（職場向/管理向）還是 MBA、以及如何用一張 A4 選校矩陣先把要求核對清楚再投入成本（不作任何錄取/簽證/結果承諾）。",
+    relatedReadings: [
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "uk-entry-requirements-course-page-checklist",
+      "reference-letter-briefing-pack-uk-aus"
+    ],
+    resources: [
+      ["IELTS (official)", "https://www.ielts.org/"],
+      ["QAA: Advice and Guidance – Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文為一般性教育資訊整理，用於幫助讀者建立可核對的選校與時間軸方法；各校入學要求、語言門檻、GMAT/GRE、工作年資與文件規則可能每年更新，請以目標課程官方頁面最新版本為準。",
+      "本文不包含任何個案可識別資訊，不構成錄取/簽證/就業結果承諾；如需個別評估，需在取得同意與完整文件核對後再進行。"
+    ],
+    body: [
+      {
+        heading: "1) Treat IELTS 5.5 as a planning signal, not a verdict",
+        paragraphs: [
+          "In many European business programmes, IELTS 6.0–6.5 (often with sub-score conditions) is a common pattern, but not a universal rule. If you are at 5.5 today, the key is not panic—it’s building a realistic language timeline and only shortlisting programmes you can genuinely meet.",
+          "Practical step: write down your target intake month, then count backwards to set a test date, retake buffer, and document-prep window. This prevents “late-score” applications that waste fees."
+        ]
+      },
+      {
+        heading: "2) MSc vs MBA: decide by evidence of role, not by title",
+        paragraphs: [
+          "Many candidates default to “MBA = better”. In practice, the best choice depends on your role evidence: scope of responsibility, leadership exposure, project ownership, and measurable outcomes.",
+          "If your work is specialist and you want a deeper functional pivot (analytics/marketing/management tracks), a professional MSc may fit. If you have clear leadership/management stories and want broader general management development, an MBA can make sense. Requirements vary widely—verify each programme’s work-experience expectations."
+        ]
+      },
+      {
+        heading: "3) Build a 1-page shortlist matrix (this saves weeks)",
+        paragraphs: [
+          "Use one spreadsheet/page for 3–8 programmes. Columns to include: language requirement (overall + sub-scores), whether alternatives are accepted, start date, deadlines, tuition + living budget, required documents, interview format, and whether GMAT/GRE is optional/required.",
+          "Add one more column called “Proof needed”: for each requirement, note what document you will use to prove it (test report, employer letter, transcript, etc.)."
+        ]
+      },
+      {
+        heading: "4) Language plan: raise score with constraints, not slogans",
+        paragraphs: [
+          "A realistic plan matches your weekly hours. If you can study 6–8 hours/week, your timeline differs from 15–20 hours/week. Build a schedule that includes mock tests, focused weakness drills (often Writing/Speaking), and at least one full retake buffer.",
+          "Avoid “waiver assumptions”. If a programme mentions possible English waivers for prior English-medium study, confirm the exact proof and whether it applies to your intake year."
+        ]
+      },
+      {
+        heading: "5) A safe next-step checklist (no personal data needed yet)",
+        paragraphs: [
+          "Before any paid application step, prepare a neutral pack: updated CV (role + metrics), 1-page achievements list, transcript scan, passport name consistency check, and an email template to ask admissions 5–7 precise questions (IELTS, deadlines, GMAT/GRE, work experience, and document format).",
+          "This keeps the process compliant and efficient: you verify requirements first, then decide whether to invest more time and money."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、把 IELTS 5.5 當成「規劃信號」，不要當成「判決」",
+        paragraphs: [
+          "歐洲商科課程常見 IELTS 6.0–6.5（可能含單科要求）的模式，但並非所有學校一致。如果你目前是 5.5，重點不是焦慮，而是：把語言提升放進時間軸，並且只把「你確實能達標」的課程放入名單。",
+          "實用做法：先寫下你想入學的月份，再倒推設定考試日期、一次重考緩衝、與文件準備窗口，避免最後變成「分數來不及」的無效申請。"
+        ]
+      },
+      {
+        heading: "二、MSc 還是 MBA：用職務證據決策，不用頭銜決策",
+        paragraphs: [
+          "很多人直覺覺得「MBA 一定更好」。但真正適配度取決於你是否有可呈現的職務證據：責任範圍、是否帶人/帶案、是否參與決策、以及能否量化成果。",
+          "如果你偏向專業職能深化或轉向特定方向（如分析、行銷、管理軌），職場向/管理向的 MSc 往往更合適；如果你有清楚的領導/管理敘事、希望發展更廣的總體管理能力，MBA 可能更匹配。各校對年資與面試要求差異很大，務必逐一核對。"
+        ]
+      },
+      {
+        heading: "三、做一張 A4 選校矩陣（這一步能省下好幾週）",
+        paragraphs: [
+          "把 3–8 個課程放進同一張表：語言要求（總分/單科）、是否接受替代考試、開學時間、截止日期、學費 + 生活費預算、文件清單、面試形式、GMAT/GRE 是否必要/可選。",
+          "再加一欄「證明文件」：每一個要求要用什麼文件證明（成績單、雇主信、履歷、考試報告等）。這能快速看出你缺的不是『意願』，而是『證據』。"
+        ]
+      },
+      {
+        heading: "四、語言提升要「貼合約束」，不要靠口號",
+        paragraphs: [
+          "一個可落地的提升計畫必須貼合你每週可投入的時數。每週 6–8 小時與 15–20 小時的節奏完全不同；建議把模考、弱項專攻（常見是 Writing/Speaking）、以及至少一次重考緩衝都寫進時間表。",
+          "不要假設可以 waiver。若課程提到可能接受英文授課背景或內部測試作為豁免，請確認：需要什麼證明、是否適用你那一屆入學、以及是否仍有單科/面試要求。"
+        ]
+      },
+      {
+        heading: "五、下一步清單（在不提供個資的前提下也能先做）",
+        paragraphs: [
+          "在任何付費申請步驟前，先準備一份中性資料包：更新 CV（職務 + 量化成果）、一頁成就清單、成績單掃描、護照姓名一致性檢查、以及一封可複用的招生詢問 email 模板（針對 IELTS、截止日期、GMAT/GRE、年資要求、文件格式等提出 5–7 個精準問題）。",
+          "這樣流程更合規也更省成本：先把要求核對清楚，再決定是否投入更多時間與費用。"
+        ]
+      }
+    ]
+  },
   {
     slug: "chinese-students-poland-nursing-study-employment-report-2026",
     title: "Chinese-Speaking Students and Poland Nursing 2026: Study, PWZ Licensing and Employment Routes",
@@ -10982,6 +11083,134 @@ const creditAlliance = pageShell({
   `
 });
 
+const zhStudyPlanning = pageShell({
+  title: "留學規劃 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/study-planning/",
+  description: "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。",
+  body: `
+    <section class="page-hero zh-planning-hero">
+      <div class="band">
+        <div class="eyebrow">Family Study Planning</div>
+        <h1>留學規劃</h1>
+        <h2>先定家庭目標，再選國家、學校與路線。</h2>
+        <p>中國家庭做留學規劃，通常不是先問「哪個學校排名高」，而是先把家庭預算、孩子年齡、英文基礎、專業方向、升學出口、身份/就業期待和家長可陪伴程度放在同一張表裡看。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Chinese%20study%20planning%20enquiry">提交規劃需求</a>
+          <a class="btn btn-secondary" href="/zh/">返回中文首頁</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-planning-route">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Planning Logic</div>
+        <h2>按中國家庭的真實決策順序拆解。</h2>
+        <p>先決定「孩子適合怎樣走」，再決定「去哪個國家、讀哪類學校、怎麼準備材料」。</p>
+      </div>
+      <div class="zh-planning-steps">
+        ${[
+          ["01", "家庭目標", "預算、陪讀可能性、未來是否考慮工作/身份、家長對安全與監護的要求。"],
+          ["02", "學生畫像", "年齡、英文、學術基礎、自律程度、抗壓能力、是否適合寄宿或大城市生活。"],
+          ["03", "國家路線", "英國、澳洲、加拿大、美國、新西蘭、歐洲、亞洲英語授課路線的差異。"],
+          ["04", "學校與專業", "不是只看排名，而是看入學門檻、課程結構、就業/升學出口和學生匹配度。"],
+          ["05", "文件與時間線", "成績單、推薦信、個人陳述、作品集、英文考試、簽證材料與家長文件節點。"],
+          ["06", "落地支持", "住宿、接送、監護、學習跟進、緊急協調與在讀後的路線調整。"]
+        ].map(([num, title, desc]) => `<article><b>${num}</b><strong>${title}</strong><p>${desc}</p></article>`).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band zh-planning-route">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Route Boards</div>
+        <h2>常見路線入口</h2>
+        <p>不同家庭需要的不是同一套答案。以下入口用於先分流，再進入具體申請或課程頁。</p>
+      </div>
+      <div class="zh-planning-board">
+        <a href="/zh/summer-school-alliance/"><span>Short-term</span><strong>暑校 / 遊學 / 訪學</strong><p>適合先試海外環境、校園生活、寄宿/活動和英文輸出。</p><em>進入暑校聯盟 →</em></a>
+        <a href="/university-applications/"><span>University</span><strong>本科 / 碩士 / 轉學</strong><p>選校、專業、文書、推薦信、時間線與文件審核。</p><em>進入申請評估 →</em></a>
+        <a href="/international-curriculum-tutoring/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
+        <a href="/zh/australia-vet-tafe-pathways/"><span>Career</span><strong>職涯培訓 / VET / TAFE</strong><p>職業教育、課程篩查、TAFE-to-university 和 evidence pack。</p><em>查看職涯培訓 →</em></a>
+        <a href="/zh/immigration-info/"><span>Policy</span><strong>移民與政策資訊</strong><p>按國別整理政策入口、職業路線與合規邊界，不替代專業建議。</p><em>查看移民資訊 →</em></a>
+        <a href="/zh/services/"><span>Support</span><strong>服務導覽台</strong><p>驛站調度、學術監護、出版製作、文件審核與機構合作。</p><em>打開服務導覽 →</em></a>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-planning-note">
+      <strong>OTC 規劃邊界</strong>
+      <p>OTC 可做教育路線解釋、文件整理、學校/課程初步篩查、家長溝通與學習支持。簽證、移民、法律、稅務、醫療、保險與法定監護等事項，應由相應官方機構或合資格專業人士處理。</p>
+    </section>
+  `
+});
+
+const zhImmigrationInfo = pageShell({
+  title: "移民資訊 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/immigration-info/",
+  description: "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。",
+  body: `
+    <section class="page-hero zh-immigration-hero">
+      <div class="band">
+        <div class="eyebrow">Immigration Information Desk</div>
+        <h1>移民資訊</h1>
+        <h2>按國別看政策入口、職業路線與合規邊界。</h2>
+        <p>本頁用於幫學生和家庭建立「留學後可能路線」的基本框架：畢業後工作、職業清單、技能評估、語言要求、僱主擔保、地區政策與官方查詢入口。具體簽證與移民建議需由合資格專業人士提供。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Immigration%20information%20route%20question">提交路線問題</a>
+          <a class="btn btn-secondary" href="/zh/study-planning/">返回留學規劃</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-immigration-country-board">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Country Boards</div>
+        <h2>國別資訊架構</h2>
+        <p>先按國別看「學生最常問什麼」，再進入官方政策或導報文章。頁面採用活潑卡片，不把政策長文堆在首頁。</p>
+      </div>
+      <div class="zh-immigration-grid">
+        ${[
+          ["Australia", "澳洲", "學生簽證、畢業後工作、僱主擔保、州擔保、職業評估、VET/TAFE 與職業路線。", "/zh/insights/australia-migration-program-2026-27-onshore-prioritisation-what-it-means/", "澳洲導報 →"],
+          ["United Kingdom", "英國", "Graduate route、Skilled Worker、僱主擔保、短缺職業、升學與工作銜接。", "/zh/insights/uk-aus-application-documents-checklist/", "英國資料 →"],
+          ["Canada", "加拿大", "PGWP、Express Entry、省提名、college/university 路線與工作經驗規劃。", "/countries/canada/", "加拿大入口 →"],
+          ["New Zealand", "新西蘭", "Post Study Work Visa、AEWV、skill level、職業與地區路線。", "/zh/insights/new-zealand-aewv-skill-level-3-english-requirement-2026/", "新西蘭導報 →"],
+          ["United States", "美國", "OPT、STEM OPT、H-1B、學術/研究路線與身份不確定性。", "/countries/united-states/", "美國入口 →"],
+          ["Europe", "歐洲", "德國、荷蘭、北歐等英語授課、求職簽證、職業資格與語言門檻。", "/zh/insights/czech-nursing-english-pathway-reality-check/", "歐洲案例 →"]
+        ].map(([tag, title, desc, href, cta]) => `
+          <a class="zh-immigration-card" href="${href}">
+            <span>${tag}</span>
+            <strong>${title}</strong>
+            <p>${desc}</p>
+            <em>${cta}</em>
+          </a>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band zh-immigration-layers">
+      <div class="section-head compact-head">
+        <div class="eyebrow">How to Read</div>
+        <h2>不要只問「能不能移民」，先拆成四層。</h2>
+      </div>
+      <div class="school-service-cards">
+        <article><b>01</b><strong>留學身份</strong><p>入學、簽證、出勤、課程長度、畢業資格與官方條件。</p></article>
+        <article><b>02</b><strong>畢業後工作</strong><p>post-study work、OPT/PGWP/Graduate route、工作時長與申請窗口。</p></article>
+        <article><b>03</b><strong>職業與僱主</strong><p>職業清單、技能評估、語言、僱主擔保與地區需求。</p></article>
+        <article><b>04</b><strong>專業轉介</strong><p>具體簽證策略、移民申請、法律判斷需交由合資格專業人士。</p></article>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-planning-note">
+      <strong>合規聲明</strong>
+      <p>本頁是教育與公開政策資訊整理，不構成移民建議、法律建議、簽證承諾、就業承諾或永久居留保證。所有申請均以各國官方機構、院校、僱主與合資格顧問的正式要求為準。</p>
+    </section>
+  `
+});
+
 const chineseEntrance = pageShell({
   title: "中文 | OTC Study Hub",
   current: "zh",
@@ -10999,16 +11228,16 @@ const chineseEntrance = pageShell({
           </div>
           <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
           <div class="hero-directory">
-            <a href="/insights/credit-alliance/"><strong>學分聯盟</strong><span>課程地圖、雙語解釋、練習工具與學術英語支持</span></a>
             <a href="/zh/summer-school-alliance/"><strong>暑校聯盟</strong><span>六個暑期目的地、一個家長入口，集中查看項目、費用與路線</span></a>
-            <a href="#open-learning-platform"><strong>家長規劃</strong><span>升學路線、文件清單、國別選擇與申請時間線</span></a>
-            <a href="/zh/education-partners/"><strong>機構運作</strong><span>合作夥伴、出版、翻譯、教學資源與機構支持</span></a>
+            <a href="/zh/study-planning/"><strong>留學規劃</strong><span>按中國家庭常見決策順序整理國家、學校、專業、預算與時間線</span></a>
+            <a href="/zh/immigration-info/"><strong>移民資訊</strong><span>按國別整理政策入口、職業路線與合規邊界</span></a>
+            <a href="/international-curriculum-tutoring/"><strong>學習平台</strong><span>課程輔導、雙語學習、學術英語、題庫與學習工具</span></a>
           </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
             <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
             <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
-            <a class="btn btn-secondary" href="#overseas-publishing">海外書局</a>
+            <a class="btn btn-secondary" href="/publishing/">海外書局</a>
             <a class="btn btn-secondary" href="/university-applications/">申請評估</a>
           </div>
         </div>
@@ -11025,171 +11254,86 @@ const chineseEntrance = pageShell({
       <a class="zh-hero-service-button" href="/zh/services/">服務導覽台 →</a>
     </section>
 
-    <section class="band compact-band zh-open-learning-section" id="open-learning-platform">
+    <section class="band compact-band zh-business-hub" id="open-learning-platform">
       <div class="section-head compact-head">
-        <div class="eyebrow">Open Learning Platform</div>
-        <h2>海外督導｜雙語世界</h2>
-        <p>內容來自 OTC 教學、申請與出版積累，整理為免費課程、練習工具與留學知識；個別輔導和正式申請另行承接。</p>
+        <div class="eyebrow">OTC Chinese Service Map</div>
+        <h2>選擇路口</h2>
+        <p>首頁只保留業務板塊與路口判斷；詳細流程、文章、資格說明與文件清單進入相應子頁。</p>
       </div>
-      <div class="zh-audience-strip" aria-label="Learning audience entrances">
-        <a href="/insights/credit-alliance/"><b>For learners</b><strong>學分聯盟</strong><span>從課程、詞彙、練習與文章開始。</span></a>
-        <a href="/zh/summer-school-alliance/"><b>For summer planning</b><strong>暑校聯盟</strong><span>六個目的地、項目、費用、住宿與暑期路線集中查看。</span></a>
-        <a href="#global-study-map"><b>For families</b><strong>家長規劃</strong><span>理解國別、路線、文件與申請節奏。</span></a>
-        <a href="/zh/education-partners/"><b>For educators</b><strong>機構運作</strong><span>合作夥伴、出版、翻譯與機構支持。</span></a>
-      </div>
-      <div class="zh-open-learning-grid">
-        <article>
+      <div class="zh-business-grid">
+        <a class="zh-business-card" href="/zh/study-planning/">
           <b>01</b>
-          <strong>公開課程與學習路線</strong>
-          <p>A-Level、BTEC、IB、AP、學術英語、升學準備與海外學習方法，逐步整理為中文學生可直接使用的學習地圖。</p>
-          <a href="/international-curriculum-tutoring/">查看課程支持</a>
-        </article>
-        <article>
+          <strong>留學規劃</strong>
+          <span>選校、文件、時間線、家長溝通與申請前評估。</span>
+          <em>進入留學規劃 →</em>
+        </a>
+        <a class="zh-business-card" href="/zh/immigration-info/">
           <b>02</b>
-          <strong>練習工具與題庫</strong>
-          <p>口語練習、placement interview、citizenship test、詞彙卡、mock test 和 book-linked digital products 統一進入 Apps & Tools 體系。</p>
-          <a href="/apps/">打開 Apps & Tools</a>
-        </article>
-        <article>
+          <strong>移民資訊</strong>
+          <span>以導報方式整理簽證、職業路線與政策背景；不替代法律或移民建議。</span>
+          <em>打開移民資訊 →</em>
+        </a>
+        <a class="zh-business-card" href="/international-curriculum-tutoring/">
           <b>03</b>
-          <strong>留學導報與知識文章</strong>
-          <p>以中文文章解釋英澳申請文件、推薦信、personal statement、pathway、信託、海外生活與職業資格等實用主題；申請文件準備文章暫放在導報內。</p>
-          <a href="/zh/insights/">閱讀留學導報</a>
-        </article>
-        <article>
+          <strong>學習平台</strong>
+          <span>A-Level、BTEC、IB、AP、學術英語、題庫與雙語學習工具。</span>
+          <em>打開課程支持 →</em>
+        </a>
+        <a class="zh-business-card" href="/zh/services/">
           <b>04</b>
-          <strong>雙語出版與學習產品</strong>
-          <p>Overseas Publishing 將 study companions、PDF guides、practice apps、worksheet packs 和雙語出版項目沉澱為長期學習資產。</p>
-          <a href="#overseas-publishing">進入海外書局</a>
-        </article>
-      </div>
-      <div class="qualification-report-panel vet-tafe-panel" style="margin-top:16px">
-        <div>
-          <span>職業培訓路線</span>
-          <h2>澳洲 VET / TAFE：多板塊職業培訓總覽</h2>
-          <p>新增中文子頁面佈局：健康護理、技工建築、商科 IT 創意媒體、RTO/TAFE 篩查清單、TAFE-to-university 銜接與 evidence pack。</p>
-        </div>
-        <a class="btn btn-dark" href="/zh/australia-vet-tafe-pathways/">打開職業培訓總覽</a>
-      </div>
-      <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；不構成錄取、簽證、考試通過、官方資格或專業意見保證。</p>
-    </section>
-
-    <section class="band compact-band zh-othm-centre-section" id="othm-centre">
-      <div class="section-head compact-head">
-        <div class="eyebrow">OTHM Approved Centre</div>
-        <h2>OTHM 中心</h2>
-        <p>海外督導的核心資質板塊：以 OTHM approved centre 身份承接資格路線、學習支持、文件整理、進階銜接與澳洲方向資格解讀。</p>
-      </div>
-      <div class="zh-othm-centre-panel">
-        <div class="zh-othm-status">
-          <span>Centre status</span>
-          <strong>Approved centre DC1802235</strong>
-          <p>中心續期已完成，有效期至 2031 年 6 月 30 日。OTHM 相關學習、申請及銜接服務應作為 OTC 中文站的固定核心入口。</p>
-          <a class="btn btn-dark" href="/othm-qualifications/">查看 OTHM 資格路線</a>
-        </div>
-        <div class="zh-othm-links">
-          <a href="/othm-level-5-business-management/"><b>01</b><strong>Level 5 Business Management</strong><span>商科管理方向的核心展示課程與學習支持入口。</span></a>
-          <a href="/apps/othm-l5bm-companion/"><b>02</b><strong>Study Companion</strong><span>把 OTHM 學習材料延伸為雙語練習、詞彙與自測工具。</span></a>
-          <a href="/zh/reports/othm-australia-expansion/"><b>03</b><strong>澳洲銜接解讀</strong><span>以 UK RQF 到 Australia AQF 的文件化解釋支持澳洲教育路線。</span></a>
-          <a href="#centre-updates"><b>04</b><strong>中心公告</strong><span>中心續期、澳洲執行董事與重要機構更新集中查閱。</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="band compact-band curriculum-overview">
-      <div class="section-head compact-head">
-        <div class="eyebrow">國際課程輔導</div>
-        <h2>課程輔導</h2>
-        <p>OTC 支持正在修讀 A-Level、BTEC、IB、AP 及相關國際課程的中國 EAL 學生，把學科理解轉化為英文學術輸出。</p>
-      </div>
-      <div class="curriculum-map zh-compact-curriculum">${zhInternationalCurriculumCards(4)}</div>
-      <div class="zh-compact-action">
-        <p>重點是概念講解、command words 解讀、assignment planning、段落結構、證據使用與學術表述。</p>
-        <a class="btn btn-dark" href="/international-curriculum-tutoring/">打開國際課程支持</a>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-global-map-band" id="global-study-map">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Global Study Map</div>
-        <h2>主要留學國家入口</h2>
-        <p>點擊地圖上的國家文字，進入對應留學國家頁面。澳洲直接進入已成熟的澳洲辦公室路線。</p>
-      </div>
-      <div class="zh-global-gateway zh-global-map-wide">
-        <img src="/assets/global-office-map-soft.svg?v=20260520-dense" alt="淡色全球辦公室地圖" loading="eager">
-        <div class="zh-global-map-labels" aria-label="全球主要留學國家入口">${countryGatewayLabels()}</div>
-        <div class="zh-landing-notice">OTC 為獨立教育服務與出版機構；申請結果、錄取、簽證、升讀與認證均以相關機構正式要求為準。</div>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-publishing-gateway-section" id="overseas-publishing">
-      <div class="section-head compact-head">
-        <div class="eyebrow">海外書局</div>
-        <h2>出版、編譯與導報</h2>
-        <p>海外書局是 OTC 的出版與編輯板塊，位於留學國家入口之後，承接正式出版物、雙語教輔策劃、編譯服務與可公開閱讀的留學導報文章。</p>
-      </div>
-      <div class="zh-publishing-gateway">
-        <a href="/publishing/">
-          <b>01</b>
-          <strong>出版物</strong>
-          <span>雙語 study companions、公眾書店版本、Payhip 上架產品與作者出版支持。</span>
-          <em>進入出版物</em>
-        </a>
-        <a href="/zh/publishing/bilingual-study-support-market-report/">
-          <b>02</b>
-          <strong>雙語教輔策劃</strong>
-          <span>BTEC Level 3、A-Level、IB、Foundation 與 Higher Nationals 的教輔出版路線。</span>
-          <em>閱讀策劃</em>
-        </a>
-        <a href="/services/language-context-studio/">
-          <b>03</b>
-          <strong>編譯部</strong>
-          <span>中英翻譯、出版級編修、跨文化語境整理與對外表達校準。</span>
-          <em>進入編譯部</em>
-        </a>
-        <a href="/zh/insights/">
-          <b>04</b>
-          <strong>留學導報</strong>
-          <span>升學路線、申請文件、英澳澳新 pathway 與教育評論文章。</span>
-          <em>閱讀導報</em>
+          <strong>服務導覽</strong>
+          <span>驛站調度、學術監護、出版製作、文件審核與機構合作入口。</span>
+          <em>服務導覽台 →</em>
         </a>
       </div>
     </section>
 
-    <section class="band compact-band zh-institutional-update-section" id="centre-updates">
-      <div class="institutional-update-board zh-institutional-update">
-        <div class="institutional-update-head">
-          <span>機構公告 · 2026 年 5 月</span>
-          <h2>中心狀態與澳洲辦公室更新</h2>
-          <p>本欄收錄 OTC 對外公開的中心狀態、辦公室建設與重要機構安排。具體證書、郵件與內部審核材料由 OTC 文件系統另行保存。</p>
-        </div>
-        <div class="institutional-update-cards">
-          <article>
-            <b>中心狀態</b>
-            <strong>OTHM approved centre status 已完成續期</strong>
-            <p>Overseas Tutorial Centre 已完成 OTHM approved centre renewal。中心號碼為 <em>DC1802235</em>，本次批准有效期至 <em>2031 年 6 月 30 日</em>。</p>
-            <a href="/othm-qualifications/">查看 OTHM 資格路線</a>
-          </article>
-          <article>
-            <b>澳洲辦公室</b>
-            <strong>Georgie Barnes 正式受任 OTC Australia 執行董事</strong>
-            <p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持澳洲本地協調、院校溝通、學生路線發展及專業轉介邊界。</p>
-            <a href="/zh/australia-office-presence/#australia-director">查看澳洲辦公室路線</a>
-          </article>
-          <article>
-            <b>運作更新</b>
-            <strong>澳洲辦公室銀行安排已開通</strong>
-            <p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或書面通知為準。</p>
-            <a href="/zh/australia-office-presence/#centre-updates">查看澳洲辦公室更新</a>
-          </article>
-          <article>
-            <b>院校合作</b>
-            <strong>澳洲院校合作進度已建立公開索引</strong>
-            <p>OTC 已把 Study NSW briefing、CDU Global enquiry、學校資料審核稿與代理 / 代表申請準備度整理為澳洲院校合作進度。正式代理身份仍以院校書面協議為準。</p>
-            <a href="/zh/australia-office-presence/#australia-institutional-progress">查看合作進度</a>
-          </article>
-        </div>
+    <section class="band compact-band zh-home-feature-grid" id="othm-centre">
+      <a class="zh-home-othm-black" href="/othm-qualifications/">
+        <span>OTHM Approved Centre</span>
+        <strong>OTHM 中心</strong>
+        <p>中心號碼 DC1802235。中心續期已完成，有效期至 2031 年 6 月 30 日。資格路線、學習支持、進階銜接與澳洲方向解讀放入子頁。</p>
+        <em>查看 OTHM 中心與資格路線 →</em>
+      </a>
+      <div class="zh-home-side-stack">
+        <a class="zh-home-feature-card is-training" href="/zh/australia-vet-tafe-pathways/">
+          <span>Career Training</span>
+          <strong>職涯培訓</strong>
+          <p>澳洲 VET / TAFE：健康護理、技工建築、商科 IT、創意媒體與 TAFE-to-university 銜接，完整內容放在子頁。</p>
+          <em>打開職業培訓總覽 →</em>
+        </a>
+        <a class="zh-home-feature-card is-planning" href="/zh/study-planning/">
+          <span>Family Planning</span>
+          <strong>中國家庭留學決策表</strong>
+          <p>先定家庭目標，再比較國家、學校、專業、預算、升學銜接與後續身份/就業可能性。</p>
+          <em>查看規劃框架 →</em>
+        </a>
       </div>
+    </section>
+
+    <section class="band compact-band zh-home-action-board">
+      <a class="zh-home-update-card" href="/zh/australia-office-presence/#centre-updates">
+        <span>澳洲辦公室更新</span>
+        <strong>OTC Australia：執行董事、銀行安排與院校合作進度</strong>
+        <p>本欄只作公開索引：Georgie Barnes 受任、澳洲辦公室運作、Study NSW briefing、CDU Global enquiry 等細節放入澳洲辦公室頁。</p>
+        <em>查看澳洲辦公室更新 →</em>
+      </a>
+      <div class="zh-home-small-links">
+        <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用與家長端安排。</span></a>
+        <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接與雙語解釋。</span></a>
+        <a href="/zh/education-partners/"><b>機構合作</b><span>學校、教育機構、合作夥伴與市場入口。</span></a>
+        <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span></a>
+      </div>
+      <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
+    </section>
+
+    <section class="band compact-band zh-home-bookshop-footer">
+      <a class="zh-home-bookshop-card" href="/publishing/">
+        <span>Overseas Publishing</span>
+        <strong>海外書局｜出版、編譯與導報</strong>
+        <p>海外書局放在首頁底部作為內容資產入口：正式出版物、雙語教輔、翻譯編修、研究簡報與留學導報文章分別進入對應子頁。</p>
+        <em>進入海外書局 →</em>
+      </a>
     </section>
 
   `
@@ -18487,6 +18631,8 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
   write(`countries/${country.slug}`, countryGatewayPage(country));
 });
 write("zh", chineseEntrance);
+write("zh/study-planning", zhStudyPlanning);
+write("zh/immigration-info", zhImmigrationInfo);
 write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);

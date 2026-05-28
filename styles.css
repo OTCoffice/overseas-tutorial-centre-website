@@ -787,6 +787,9 @@ h1 {
 }
 
 .zh-home-hero,
+.zh-business-hub,
+.zh-home-feature-grid,
+.zh-home-action-board,
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
@@ -797,6 +800,9 @@ h1 {
 }
 
 .zh-home-hero .hero-inner,
+.zh-business-hub,
+.zh-home-feature-grid,
+.zh-home-action-board,
 .zh-global-map-band,
 .zh-institutional-update-section,
 .zh-open-learning-section,
@@ -811,6 +817,9 @@ h1 {
 }
 
 .zh-global-map-band,
+.zh-business-hub,
+.zh-home-feature-grid,
+.zh-home-action-board,
 .zh-institutional-update-section,
 .zh-open-learning-section,
 .zh-othm-centre-section,
@@ -821,6 +830,7 @@ h1 {
 }
 
 .zh-home-hero .eyebrow,
+.zh-business-hub .eyebrow,
 .zh-global-map-band .eyebrow,
 .zh-institutional-update-section .institutional-update-head span,
 .zh-open-learning-section .eyebrow,
@@ -840,6 +850,7 @@ h1 {
 }
 
 .zh-home-hero .hero-title-block::before,
+.zh-business-hub .section-head h2::before,
 .zh-global-map-band .section-head h2::before,
 .zh-open-learning-section .section-head h2::before,
 .zh-othm-centre-section .section-head h2::before,
@@ -967,6 +978,7 @@ h1 {
   line-height: 1.45;
 }
 
+.zh-business-hub .section-head h2,
 .zh-global-map-band .section-head h2,
 .zh-open-learning-section .section-head h2,
 .zh-othm-centre-section .section-head h2,
@@ -982,6 +994,7 @@ h1 {
   position: relative;
 }
 
+.zh-business-hub .section-head h2::before,
 .zh-global-map-band .section-head h2::before,
 .zh-open-learning-section .section-head h2::before,
 .zh-othm-centre-section .section-head h2::before,
@@ -995,6 +1008,7 @@ h1 {
   width: 4px;
 }
 
+.zh-business-hub .section-head p,
 .zh-global-map-band .section-head p,
 .zh-open-learning-section .section-head p,
 .zh-othm-centre-section .section-head p,
@@ -1007,6 +1021,7 @@ h1 {
   line-height: 1.95;
 }
 
+.zh-business-hub .section-head p,
 .zh-global-map-band .section-head p,
 .zh-open-learning-section .section-head p,
 .zh-othm-centre-section .section-head p,
@@ -1047,6 +1062,417 @@ h1 {
   font-size: 13px;
   font-weight: 400;
   line-height: 1.85;
+}
+
+.zh-business-hub {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(247, 242, 234, 0.98)),
+    #fffdf8;
+  border-top: 2px solid var(--navy);
+  border-bottom: 1px solid rgba(222, 211, 196, 0.9);
+}
+
+.zh-business-hub .section-head {
+  max-width: 860px;
+}
+
+.zh-business-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.zh-business-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  min-height: 206px;
+  padding: 18px;
+}
+
+.zh-business-card:nth-child(1) {
+  border-top: 5px solid #1f5e52;
+}
+
+.zh-business-card:nth-child(2) {
+  border-top: 5px solid #8d3f35;
+}
+
+.zh-business-card:nth-child(3) {
+  border-top: 5px solid #2f5f88;
+}
+
+.zh-business-card:nth-child(4) {
+  border-top: 5px solid #b88a3b;
+}
+
+.zh-business-card b,
+.zh-home-feature-card span,
+.zh-home-othm-black span,
+.zh-home-update-card span {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-business-card b {
+  color: var(--gold);
+}
+
+.zh-business-card strong {
+  color: var(--navy);
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.zh-business-card span,
+.zh-home-feature-card p,
+.zh-home-update-card p,
+.zh-home-small-links span {
+  color: #4c596b;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.zh-business-card em,
+.zh-home-feature-card em,
+.zh-home-othm-black em,
+.zh-home-update-card em {
+  align-self: end;
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+}
+
+.zh-home-feature-grid {
+  align-items: stretch;
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.04), rgba(184, 138, 59, 0.08)),
+    #fff;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.92);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(360px, 0.95fr) minmax(0, 1.05fr);
+}
+
+.zh-home-othm-black {
+  background:
+    linear-gradient(135deg, #061a2f 0%, #111820 70%, #241b12 100%);
+  border-radius: 10px;
+  color: #fff;
+  display: grid;
+  min-height: 324px;
+  padding: 28px;
+}
+
+.zh-home-othm-black span {
+  color: var(--gold-2);
+}
+
+.zh-home-othm-black strong {
+  color: #fffaf0;
+  font-size: clamp(34px, 4.5vw, 54px);
+  line-height: 1.04;
+}
+
+.zh-home-othm-black p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 8px 0 24px;
+  max-width: 620px;
+}
+
+.zh-home-othm-black em {
+  color: #fffaf0;
+}
+
+.zh-home-side-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.zh-home-feature-card {
+  background: #fffdf8;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+  padding: 22px;
+}
+
+.zh-home-feature-card.is-training {
+  border-left: 6px solid #2f5f88;
+}
+
+.zh-home-feature-card.is-planning {
+  border-left: 6px solid #1f5e52;
+}
+
+.zh-home-feature-card.is-bookshop {
+  border-left: 6px solid var(--gold);
+}
+
+.zh-home-feature-card span {
+  color: var(--gold);
+}
+
+.zh-home-feature-card strong {
+  color: var(--navy);
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.12;
+}
+
+.zh-home-feature-card p {
+  margin: 0;
+}
+
+.zh-home-action-board {
+  background: #f7f2ea;
+}
+
+.zh-home-update-card {
+  background:
+    linear-gradient(90deg, rgba(6, 26, 47, 0.96), rgba(24, 54, 83, 0.92)),
+    var(--navy);
+  border-radius: 10px;
+  color: #fff;
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 22px 24px;
+}
+
+.zh-home-update-card span {
+  color: var(--gold-2);
+}
+
+.zh-home-update-card strong {
+  color: #fffaf0;
+  font-size: clamp(22px, 2.8vw, 34px);
+  line-height: 1.18;
+}
+
+.zh-home-update-card p {
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0;
+  max-width: 980px;
+}
+
+.zh-home-update-card em {
+  color: #fffaf0;
+}
+
+.zh-home-small-links {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.zh-home-small-links a {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 6px;
+  padding: 15px 16px;
+}
+
+.zh-home-small-links b {
+  color: var(--navy);
+  font-size: 17px;
+  line-height: 1.22;
+}
+
+.zh-home-bookshop-footer {
+  background:
+    linear-gradient(135deg, rgba(184, 138, 59, 0.1), rgba(6, 26, 47, 0.04)),
+    #fffdf8;
+}
+
+.zh-home-bookshop-card {
+  background: #fff;
+  border: 1px solid rgba(184, 138, 59, 0.42);
+  border-left: 8px solid var(--gold);
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+  padding: 24px 28px;
+}
+
+.zh-home-bookshop-card span {
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-home-bookshop-card strong {
+  color: var(--navy);
+  font-size: clamp(26px, 3.2vw, 40px);
+  line-height: 1.12;
+}
+
+.zh-home-bookshop-card p {
+  color: #4c596b;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 960px;
+}
+
+.zh-home-bookshop-card em {
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 850;
+}
+
+.zh-planning-hero,
+.zh-immigration-hero {
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.92), rgba(30, 83, 90, 0.86)),
+    var(--navy);
+}
+
+.zh-immigration-hero {
+  background:
+    linear-gradient(135deg, rgba(92, 46, 64, 0.9), rgba(20, 76, 88, 0.86)),
+    var(--navy);
+}
+
+.zh-planning-hero .band,
+.zh-immigration-hero .band {
+  color: #fff;
+}
+
+.zh-planning-hero h1,
+.zh-immigration-hero h1 {
+  color: #fffaf0;
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-size: clamp(46px, 6vw, 78px);
+  font-weight: 900;
+}
+
+.zh-planning-hero h2,
+.zh-immigration-hero h2 {
+  color: rgba(255, 250, 240, 0.92);
+  font-size: clamp(22px, 2.4vw, 34px);
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+.zh-planning-hero p,
+.zh-immigration-hero p {
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 860px;
+}
+
+.zh-planning-route,
+.zh-immigration-country-board,
+.zh-immigration-layers {
+  background: #fffdf8;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.86);
+}
+
+.zh-planning-steps,
+.zh-planning-board,
+.zh-immigration-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.zh-planning-steps article,
+.zh-planning-board a,
+.zh-immigration-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+}
+
+.zh-planning-steps article:nth-child(3n + 1),
+.zh-planning-board a:nth-child(3n + 1),
+.zh-immigration-card:nth-child(3n + 1) {
+  border-top: 5px solid #1f5e52;
+}
+
+.zh-planning-steps article:nth-child(3n + 2),
+.zh-planning-board a:nth-child(3n + 2),
+.zh-immigration-card:nth-child(3n + 2) {
+  border-top: 5px solid #b88a3b;
+}
+
+.zh-planning-steps article:nth-child(3n),
+.zh-planning-board a:nth-child(3n),
+.zh-immigration-card:nth-child(3n) {
+  border-top: 5px solid #8d3f35;
+}
+
+.zh-planning-steps b,
+.zh-planning-board span,
+.zh-immigration-card span {
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-planning-steps strong,
+.zh-planning-board strong,
+.zh-immigration-card strong {
+  color: var(--navy);
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.zh-planning-steps p,
+.zh-planning-board p,
+.zh-immigration-card p {
+  color: #4c596b;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.zh-planning-board em,
+.zh-immigration-card em {
+  color: var(--navy);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+}
+
+.zh-planning-note {
+  background: #061a2f;
+  color: #fff;
+}
+
+.zh-planning-note strong {
+  color: #fffaf0;
+  display: block;
+  font-size: 24px;
+}
+
+.zh-planning-note p {
+  color: rgba(255, 255, 255, 0.76);
+  margin: 8px 0 0;
+  max-width: 980px;
 }
 
 .zh-landing-card {
@@ -14288,6 +14714,12 @@ h1 {
 
   .hero-directory,
   .zh-home-hero .hero-directory,
+  .zh-business-grid,
+  .zh-home-feature-grid,
+  .zh-home-small-links,
+  .zh-planning-steps,
+  .zh-planning-board,
+  .zh-immigration-grid,
   .zh-audience-strip,
   .zh-othm-centre-panel,
   .zh-othm-links,
@@ -14440,6 +14872,9 @@ h1 {
   }
 
   .zh-home-hero .hero-inner,
+  .zh-business-hub,
+  .zh-home-feature-grid,
+  .zh-home-action-board,
   .zh-global-map-band,
   .zh-institutional-update-section,
   .zh-open-learning-section,
@@ -14455,6 +14890,9 @@ h1 {
   }
 
   .zh-global-map-band,
+  .zh-business-hub,
+  .zh-home-feature-grid,
+  .zh-home-action-board,
   .zh-institutional-update-section,
   .zh-open-learning-section,
   .zh-othm-centre-section,
