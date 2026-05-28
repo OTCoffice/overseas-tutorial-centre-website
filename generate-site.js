@@ -12377,6 +12377,46 @@ const summerSchoolCountryRoutes = [
       ["CISS Toronto Summer Programme 2026", "2026/06/28–2026/08/08｜2–6 週", "Toronto（University of Toronto St. George / Trinity College area）", "city residential programme", "CISS 官方 Toronto programme；12–16 歲，可選 General English 或 Global Leadership，住 University of Toronto 校園 residence，多數 single room。", "這條很適合家長想要『多一點校園與城市、少一點純語言學校感』的 Toronto route；CISS 的 residence 感與活動包裝比一般 city camp 更完整。", "completion certificate 常見", "C$ 路線；residence 型通常高於 homestay camp", "適合 12–16 歲、想看 Toronto 大學氛圍與城市活動、接受 residence supervision 的家庭", "CISS 官方頁已公開 2026 dates、年齡、General English / Global Leadership 兩種選項；是很典型的加拿大城市 residence summer route"],
       ["Summer at UBC – operated by ILSC 2026", "2026/06/28–2026/08/09｜1–6 週", "Vancouver（University of British Columbia）", "UBC summer route operated by ILSC", "CISS 2026 brochure 已公開：Summer at UBC – operated by ILSC，9–17 歲；General English 15 小時 / 週，另有 Global Leadership（12–17 歲），含 campus accommodation、3 meals、insurance、transfers。", "如果校方或家長更認可『CISS + ILSC + UBC』這種組合，這條比單一 provider 更容易往團體或 direct cooperation 談。", "ILSC certificate / completion 常見", "C$ 路線；package 結構清楚", "適合 9–17 歲，尤其是 group route、學校團或想談更正式合作通道的家庭 / 顧問", "這條很適合我們往 direct cooperation 推，因為 CISS 官方已把合作 operator、年齡、週數與 package 寫得很清楚"]
     ]
+  },
+  {
+    slug: "ireland",
+    zh: "愛爾蘭",
+    name: "Ireland",
+    intro: "愛爾蘭暑校適合想要英語沉浸、城市安全感、homestay / residence 彈性與歐洲英語環境的家庭。它不像英國名校線那麼高壓，更像一條溫和、穩妥、性價比清楚的 junior English route。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；愛爾蘭暑校費用通常由英語課程、住宿、餐食、活動、接送、保險、未成年人照護與城市交通組成。部分 provider 公開報價，部分需要按週數與住宿方式詢價。",
+    process: [
+      "先分清楚是個人 residential、homestay，還是 group-only campus route",
+      "再看 Dublin / UCD / DCU / Cork / Galway 等城市與校園差異",
+      "核對未成年人住宿、接送、UM service、保險與活動監督安排",
+      "最後按年齡、英文程度、週數、預算與是否可接受 group-only 條件縮小 shortlist"
+    ],
+    projects: [
+      ["DCU International Academy Junior Residential Programme 2026", "June / July / August 2026 group intakes", "Dublin City University Glasnevin Campus", "DCU International Academy", "DCU 官方 junior residential English route；以 group 為主，含英語課、校內住宿、full board、機場接送、weekday activities、evening activities 與 weekend trips。", "很適合學校團、小團或家庭組團，把愛爾蘭做成安全的大學校園英文體驗。", "course certificate 依 DCU 安排", "按 group proposal 報價", "適合 junior group route、重視 campus safety 與完整照護的家庭 / 學校", "官方明示不接受個人 junior 報名，需按 group / tour operator / school route 溝通。"],
+      ["ISI Dublin Residential Programme 2026", "27 Jun–2 Aug 2026；1–5 週", "Dublin city centre / Belvedere College", "ISI Dublin", "Dublin city-centre residential programme；14–17 歲，英語課、活動、excursions、residence 與 city access 結合。", "公開年齡、日期與價格，適合先做清楚透明的愛爾蘭個人 residential route。", "course completion materials 依 ISI 安排", "1 週 €1,500；2 週 €2,835；3 週 €4,250；4 週 €5,670；5 週 €7,065；另有 admin / UM / diet 等 supplements", "適合 14–17 歲、想住在 Dublin 中心、需要價格清楚的學生", "一週選項有限，15 歲以下 UM service 可能有額外要求。"],
+      ["Babel Academy Junior Summer School 2026", "Homestay 28 Jun–2 Aug 2026；residence dates 待核", "Dublin / Manor House Raheny / DCU residence", "Babel Academy of English", "11–17 歲 junior summer school，英語課、level test、course book、activity programme、Saturday tour、airport transfer，可選 homestay 或 university residence。", "很適合家長想比較 homestay 與 DCU residence 的 Dublin route。", "assessment and certificate on completion", "fee TBC，按住宿與週數核價", "適合 11–17 歲、第一次愛爾蘭英語營或希望住宿選擇彈性的學生", "需要確認 residence 週期、完整 fee sheet 與 agent terms。"],
+      ["Swan Junior International Summer Programme at UCD 2026", "29 Jun–7 Aug 2026；按週安排", "University College Dublin Belfield", "Swan English Language Training", "12–17 歲 UCD campus junior route，General English、international classmates、drama / art / sport、Dublin attractions 與 accommodation package 可配。", "UCD 校園信號強，適合希望用 university campus 做安全英文沉浸的家庭。", "course certificate / progress records 依 Swan 安排", "按 2026 price list 與住宿 package 核價", "適合 12–17 歲、想要 Dublin 南區大學校園環境的學生", "需按 homestay / residential package 確認 exact fee 與 travel pass。"],
+      ["Welcome Ireland English Summer Camp 2026", "21 Jun–16 Aug 2026", "Dublin", "Welcome Ireland", "9–17 歲 English summer camp，英語學習、sports、social activities，並可選 residence 或 homestay。", "低齡到青少年都可看，是愛爾蘭列表裡很適合家長先理解的入門 route。", "completion materials 依 provider 安排", "fee TBC", "適合 9–17 歲、想要 Dublin + residence / homestay choice 的家庭", "需確認具體費用、監護比例、接送與保險包含範圍。"]
+    ]
+  },
+  {
+    slug: "singapore",
+    zh: "新加坡",
+    name: "Singapore",
+    intro: "新加坡暑校更適合作為亞洲區英文提升、STEM / leadership、pre-university exposure 與短期國際課堂試水。多數項目偏 day camp 或 campus programme，海外家庭需要特別核對住宿、監護與家長同行安排。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；新加坡暑校費用通常由課程費、活動、住宿或家長同行安排、保險、機票與本地交通構成。很多日營不含住宿，需要另外做 guardian / hotel / parent-accompanied planning。",
+    process: [
+      "先分清楚是 English day camp、future-skills camp、international-school camp，還是 university/pre-university route",
+      "再核對是否接受海外學生、是否需要家長同行或本地監護",
+      "確認住宿、接送、保險、簽證或短期入境安排",
+      "最後按年齡、課程密度、英語程度與家庭是否能接受日營模式縮小 shortlist"
+    ],
+    projects: [
+      ["British Council Singapore Summer 2026 Camps", "Summer 2026 weekly camps", "Napier Road / Toa Payoh, Singapore", "British Council Singapore", "4–16 歲 English holiday camps；以 weekly topic、hands-on experiential learning、English confidence 與 safe interactive classroom 為主。", "品牌信任度高，適合低齡和中小學生先做新加坡英文環境試水。", "completion / participation record 依 British Council 安排", "fee section public；exact weekly fee 需按週次核對", "適合 4–16 歲、家長可安排住宿或同行的新加坡英文日營家庭", "多為 day camp，不含住宿；海外學生需另行安排 guardian / hotel / parent stay。"],
+      ["SMU Young Leaders Summer Programme 2026", "13–18 Jul 2026；12 Jul check-in", "Singapore Management University city campus", "SMU Young Leaders Summer Programme", "面向 2027 / 2028 畢業高中生的 1 週 academic enrichment；內容含 leadership、data analytics、visualisation、machine learning、Python、collaboration 與 communication。", "很適合高中後段學生把新加坡做成 leadership + future skills + university exposure。", "programme completion materials 依 SMU 安排", "SGD 3,500", "適合 2027 / 2028 畢業、學術成熟度較高的高中生", "Selective 且 deadline-sensitive；需確認當期是否仍可申請及住宿安排。"],
+      ["NUS College Summer School 2026", "2026 dates TBC from official page", "National University of Singapore", "NUS College", "16–18 歲 pre-university route；主題為 interdisciplinary inquiry、global citizenship、campus life 與新加坡城市體驗。", "NUS 品牌強，適合高年級、已開始看大學與跨學科方向的學生。", "completion materials 依 NUSC 安排", "fee TBC", "適合 16–18 歲、偏學術探索與大學體驗的學生", "需確認 exact dates、fees、住宿、國際學生名額與申請截止。"],
+      ["HWA x SUSS-INTO Future Summer School 2026", "July–August 2026", "HWA International School / SUSS-INTO, Singapore", "HWA International School", "5–19 歲 Future Summer School；以 IB-inspired global learning、critical thinking、communication、collaboration、creativity 與 cultural interaction 為主。", "年齡跨度大，適合家庭把新加坡做成低齡到高中段的 future-skills 試水。", "certificate / student presentation 依 programme 安排", "fee TBC；welcome scheme / discount info public", "適合 5–19 歲、希望新加坡國際校環境與未來技能結合的家庭", "需確認住宿、詳細 fee table、日程與 overseas student logistics。"],
+      ["MDIS English Immersion Programme 2026", "1–4 週 by arrangement", "MDIS Singapore", "Management Development and Consultancy / MDIS", "14–18 歲 English Immersion Programme；可按 1–4 週設計，面向 international student groups，提升 spoken/written English 並體驗 Singapore student life。", "適合中國學校團或小型團把新加坡做成可控的英語沉浸 route。", "completion materials 依 MDIS 安排", "quote-based by group needs", "適合 14–18 歲、能組成 30+ 人的學校團 / 國際學生團", "官方明示 minimum capacity 30 international students；個人散客與住宿需確認。"]
+    ]
   }
 ];
 
@@ -12626,7 +12666,17 @@ function summerSchoolCountryPage(route) {
     "UChicago 3 Week Immersion 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
     "UChicago 4 Week Practicum 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
     "UChicago Summer Online 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
-    "UChicago Pre-College Summer Language Institute 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/pre-college-summer-language-institute/", domain: "summer.uchicago.edu" }
+    "UChicago Pre-College Summer Language Institute 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/pre-college-summer-language-institute/", domain: "summer.uchicago.edu" },
+    "DCU International Academy Junior Residential Programme 2026": { label: "DCU International Academy", url: "https://english.dcu.ie/accommodation/summer-residential-programme/", domain: "english.dcu.ie" },
+    "ISI Dublin Residential Programme 2026": { label: "ISI Dublin", url: "https://www.summercamp.studyinireland.ie/en/residential-programme/", domain: "summercamp.studyinireland.ie" },
+    "Babel Academy Junior Summer School 2026": { label: "Babel Academy", url: "https://babelacademy.ie/our-course/junior-summer-school/", domain: "babelacademy.ie" },
+    "Swan Junior International Summer Programme at UCD 2026": { label: "Swan English Language Training", url: "https://selt.ie/junior-courses/junior-international-summer-programme/", domain: "selt.ie" },
+    "Welcome Ireland English Summer Camp 2026": { label: "Welcome Ireland", url: "https://welcomeireland.ie/courses/english-summer-camp-in-ireland/", domain: "welcomeireland.ie" },
+    "British Council Singapore Summer 2026 Camps": { label: "British Council Singapore", url: "https://www.britishcouncil.sg/english-courses/camps/study", domain: "britishcouncil.sg" },
+    "SMU Young Leaders Summer Programme 2026": { label: "Singapore Management University", url: "https://admissions.smu.edu.sg/smu-young-leaders-summer-programme", domain: "admissions.smu.edu.sg" },
+    "NUS College Summer School 2026": { label: "NUS College", url: "https://nuscollege.nus.edu.sg/admissions/summer-school/", domain: "nuscollege.nus.edu.sg" },
+    "HWA x SUSS-INTO Future Summer School 2026": { label: "HWA International School", url: "https://www.hwa.edu.sg/academic/summer-school-program/", domain: "hwa.edu.sg" },
+    "MDIS English Immersion Programme 2026": { label: "MDIS", url: "https://www.mdis.edu.sg/ct-summer-camps", domain: "mdis.edu.sg" }
   };
 
   const projectMetaOverrides = {
@@ -12703,6 +12753,16 @@ function summerSchoolCountryPage(route) {
     "ELS Malaysia Holiday English Programme 2026": { age: "中學–高中", city: "Kuala Lumpur / Subang / Penang / Johor", priceBand: "RM 路線", boarding: "日校 / 自理 / 個案住宿" },
     "Erican Winter Camp Malaysia 2026": { age: "中小學生", city: "Kuala Lumpur", priceBand: "RM 路線", boarding: "日校 / 家長安排" },
     "Monash University Malaysia Pre-University Summer Route 2026": { age: "16+ / 高中後段", city: "Bandar Sunway", priceBand: "按活動", boarding: "日校 / 自理" },
+    "DCU International Academy Junior Residential Programme 2026": { age: "團體 junior", city: "Dublin", priceBand: "€ / 報價", boarding: "住校 / group-only" },
+    "ISI Dublin Residential Programme 2026": { age: "14–17歲", city: "Dublin", priceBand: "€€", boarding: "住校 / 寄宿" },
+    "Babel Academy Junior Summer School 2026": { age: "11–17歲", city: "Dublin", priceBand: "待報價", boarding: "homestay / residence" },
+    "Swan Junior International Summer Programme at UCD 2026": { age: "12–17歲", city: "Dublin / UCD", priceBand: "€ / package", boarding: "homestay / residence" },
+    "Welcome Ireland English Summer Camp 2026": { age: "9–17歲", city: "Dublin", priceBand: "待報價", boarding: "homestay / residence" },
+    "British Council Singapore Summer 2026 Camps": { age: "4–16歲", city: "Singapore", priceBand: "S$ 路線", boarding: "日營 / 家長安排" },
+    "SMU Young Leaders Summer Programme 2026": { age: "高中後段", city: "Singapore", priceBand: "S$3,500", boarding: "campus / 待核" },
+    "NUS College Summer School 2026": { age: "16–18歲", city: "Singapore", priceBand: "待報價", boarding: "campus / 待核" },
+    "HWA x SUSS-INTO Future Summer School 2026": { age: "5–19歲", city: "Singapore", priceBand: "待報價", boarding: "待核" },
+    "MDIS English Immersion Programme 2026": { age: "14–18歲", city: "Singapore", priceBand: "團體報價", boarding: "團體 / 待核" },
     "Yale Young Global Scholars 2026": { age: "高中生", city: "New Haven", priceBand: "US$ 路線", boarding: "住校 / 寄宿" },
     "Columbia Summer Immersion New York City 2026": { age: "16–18歲", city: "New York", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
     "Columbia College Edge 2026": { age: "高年級高中生", city: "New York", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
@@ -12728,7 +12788,7 @@ function summerSchoolCountryPage(route) {
       age = "17+ / 本科";
     }
 
-    let city = route.slug === "australia" ? "Australia" : route.slug === "new-zealand" ? "New Zealand" : route.slug === "canada" ? "Canada" : route.slug === "malaysia" ? "Malaysia" : route.slug === "united-states" ? "United States" : "英國";
+    let city = route.slug === "australia" ? "Australia" : route.slug === "new-zealand" ? "New Zealand" : route.slug === "canada" ? "Canada" : route.slug === "malaysia" ? "Malaysia" : route.slug === "united-states" ? "United States" : route.slug === "ireland" ? "Ireland" : route.slug === "singapore" ? "Singapore" : "英國";
     if (/London/i.test(location)) city = "London";
     else if (/Oxford/i.test(location)) city = "Oxford";
     else if (/Cambridge/i.test(location)) city = "Cambridge";
@@ -12748,6 +12808,8 @@ function summerSchoolCountryPage(route) {
     else if (/Auckland/i.test(location)) city = "Auckland";
     else if (/Christchurch/i.test(location)) city = "Christchurch";
     else if (/Hamilton/i.test(location)) city = "Hamilton";
+    else if (/Dublin|UCD|DCU|Belvedere/i.test(location)) city = "Dublin";
+    else if (/Singapore|SMU|NUS|MDIS|HWA/i.test(location)) city = "Singapore";
     else if (/Queenstown/i.test(location)) city = "Queenstown";
     else if (/Vancouver|UBC|SFU/i.test(location)) city = "Vancouver";
     else if (/Toronto|UTSG|St\. George/i.test(location)) city = "Toronto";
