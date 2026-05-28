@@ -17298,7 +17298,7 @@ const canadaEditorialBody = route.slug === "canada"
       : route.slug === "malaysia"
       ? "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png"
       : route.slug === "canada"
-      ? "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png"
+      ? "/assets/social/canada-summer-alliance-hero-share-20260528-v3.png"
       : route.slug === "new-zealand"
       ? "/assets/social/new-zealand-summer-alliance-hero-share-20260528-v1.png"
       : route.slug === "australia"
@@ -17985,7 +17985,7 @@ function canadaProgrammesPage() {
     locale: "zh",
     description: "加拿大暑校熱門課程總表：Tamwood、ILSC、CISS、Summer at UBC 與 North America planning route 項目總表。",
     path: "/zh/summer-school-alliance/canada/programmes/",
-    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png",
+    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v3.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 加拿大暑校聯盟分享題圖",
