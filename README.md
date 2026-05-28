@@ -15,6 +15,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /publishing/btec-level-3-business-assignment-writing-toolkit/sample/
 - /courses/
 - /services/
+- /zh/services/
 - /university-applications/
 - /study-group-2026-applications/
 - /zh/study-group-2026-applications/

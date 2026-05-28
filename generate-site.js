@@ -6385,19 +6385,114 @@ const serviceLines = [
 ];
 
 function serviceCards() {
-  return `
-    <div class="service-product-grid">
-      ${serviceProducts.map((service) => `
-        <a class="service-product-card service-tone-${service.tone || "navy"}${service.featured ? " service-product-featured" : ""}" href="/services/${service.slug}/">
+  const featuredSlugs = [
+    "station-dispatch-emergency-coordination",
+    "academic-guardianship-family-office",
+    "university-application-advisory",
+    "publishing-editorial-production"
+  ];
+  const featured = featuredSlugs
+    .map((slug) => serviceProducts.find((service) => service.slug === slug))
+    .filter(Boolean);
+  const groups = [
+    {
+      title: "Family & Student Response",
+      titleZh: "家庭與學生端",
+      desc: "申請、監護、緊急調度與持續跟進。",
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools"]
+    },
+    {
+      title: "Publishing & Language",
+      titleZh: "出版與語言",
+      desc: "翻譯、編輯、出版和研究材料。",
+      slugs: ["language-context-studio", "publishing-editorial-production", "research-policy-briefing", "compliance-file-audit-copy"]
+    },
+    {
+      title: "Institutional Work",
+      titleZh: "機構合作",
+      desc: "市場進入、培訓、活動與資質準備。",
+      slugs: ["institutional-market-entry", "executive-education-training", "education-fairs-institutional-delegations", "education-institution-accreditation-support", "academic-conferences-roundtables"]
+    }
+  ];
+  const card = (service, isFeature = false) => `
+        <a class="${isFeature ? "service-feature-card" : "service-product-card"} service-tone-${service.tone || "navy"}${service.featured ? " service-product-featured" : ""}" href="/services/${service.slug}/">
           <span class="service-book-spine"></span>
-          <span class="service-product-code">${service.code}</span>
+          <span class="service-product-code">${service.code} · ${service.type}</span>
           <strong>${service.title}</strong>
-          <p>${service.shortDesc}</p>
+          <em>${service.titleZh}</em>
+          <p>${isFeature ? service.cardDesc : service.shortDesc}</p>
           <span class="service-product-foot">
             <span class="service-product-price">${service.price}</span>
-            <span class="service-product-open">Open</span>
+            <span class="service-product-open">Open service</span>
           </span>
         </a>
+  `;
+  return `
+    <div class="service-feature-grid">
+      ${featured.map((service) => card(service, true)).join("")}
+    </div>
+    <div class="service-directory">
+      ${groups.map((group, index) => `
+        <section class="service-directory-band service-directory-tone-${index + 1}">
+          <div class="service-directory-head">
+            <span>${group.titleZh}</span>
+            <h3>${group.title}</h3>
+            <p>${group.desc}</p>
+          </div>
+          <div class="service-product-grid">
+            ${group.slugs
+              .map((slug) => serviceProducts.find((service) => service.slug === slug))
+              .filter(Boolean)
+              .map((service) => card(service))
+              .join("")}
+          </div>
+        </section>
+      `).join("")}
+    </div>
+  `;
+}
+
+function serviceArticleDirectory(locale = "en") {
+  const isZh = locale === "zh";
+  const groups = [
+    {
+      title: isZh ? "家庭與學生端" : "Family & Student Response",
+      desc: isZh ? "突發調度、學術監護、申請文件與學習工具。" : "Emergency dispatch, guardianship, applications and learning tools.",
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools"]
+    },
+    {
+      title: isZh ? "出版與語言" : "Publishing & Language",
+      desc: isZh ? "翻譯、編輯、出版製作、研究簡報與合規副本。" : "Translation, editing, publishing, research briefs and compliance copies.",
+      slugs: ["language-context-studio", "publishing-editorial-production", "research-policy-briefing", "compliance-file-audit-copy"]
+    },
+    {
+      title: isZh ? "機構合作" : "Institutional Work",
+      desc: isZh ? "市場進入、培訓、教育展、accreditation 與學術活動。" : "Market entry, training, education fairs, accreditation and academic events.",
+      slugs: ["institutional-market-entry", "executive-education-training", "education-fairs-institutional-delegations", "education-institution-accreditation-support", "academic-conferences-roundtables"]
+    }
+  ];
+  return `
+    <div class="service-article-directory">
+      ${groups.map((group) => `
+        <section class="service-article-group">
+          <header>
+            <strong>${group.title}</strong>
+            <span>${group.desc}</span>
+          </header>
+          <div>
+            ${group.slugs
+              .map((slug) => serviceProducts.find((service) => service.slug === slug))
+              .filter(Boolean)
+              .map((service) => `
+                <a href="/services/${service.slug}/">
+                  <b>${isZh ? service.titleZh : service.title}</b>
+                  <span>${isZh ? service.descZh : service.shortDesc}</span>
+                  <em>${service.price}</em>
+                </a>
+              `)
+              .join("")}
+          </div>
+        </section>
       `).join("")}
     </div>
   `;
@@ -6620,6 +6715,52 @@ const serviceProducts = [
     deliverables: ["Evidence index", "Audit-copy PDF bundle", "Narrative memo", "Gap and follow-up list"],
     showcase: ["Tuition income evidence pack", "Director-loan evidence file", "Student case archive", "Professional adviser bundle"],
     pricing: ["Evidence pack: from £750", "Complex multi-account bundle: quoted by volume", "Monthly filing support: retainer"]
+  },
+  {
+    code: "13",
+    title: "Station Dispatch & Emergency Coordination",
+    titleZh: "驛站調度｜24小時緊急協調",
+    slug: "station-dispatch-emergency-coordination",
+    type: "24-hour family coordination",
+    audience: "International students, families, summer-school learners, visiting scholars and boarding / homestay cases needing cross-time-zone escalation support.",
+    audienceZh: "面向全球留學、遊學、訪學及長短寄宿家庭，尤其是涉及未成年人、跨時區家長溝通、住宿接送、突發變更與多方協調的個案。",
+    desc: "24-hour emergency coordination for study, summer school, visiting scholar and boarding / homestay routes.",
+    descZh: "為全球留學、遊學、訪學與長短寄宿提供 24 小時緊急調度服務。",
+    shortDesc: "24-hour dispatch for study, summer school, visiting scholar and boarding cases.",
+    cardDesc: "A family-facing 24-hour dispatch desk for accommodation, travel disruption, provider communication, document escalation and urgent parent-side coordination.",
+    price: "From £180 / urgent dispatch case",
+    timeline: "24-hour response desk",
+    tone: "rose",
+    overview: "Station Dispatch is OTC's emergency coordination service for families who need a calm bilingual contact point when a student, summer-school learner, visiting scholar or boarding / homestay case has an urgent operational problem across time zones.",
+    process: [
+      "Intake: student identity, location, programme, accommodation, provider and parent contact route",
+      "Risk triage: safety, medical, police, school duty officer, accommodation provider, travel or document category",
+      "Contact map: confirm who must be reached first and what written authority or consent is needed",
+      "Dispatch actions: call / message provider contacts, accommodation, driver, school office, parent or local support contact as appropriate",
+      "Escalation log: keep a concise time-stamped record of actions, replies, unresolved risks and next decision point",
+      "Handover: written summary for family, provider or onward professional support where needed"
+    ],
+    deliverables: [
+      "Emergency contact map",
+      "Time-stamped action log",
+      "Parent-side update notes",
+      "Provider / accommodation communication record",
+      "Next-step and escalation checklist",
+      "Post-incident summary"
+    ],
+    showcase: [
+      "Summer school arrival disruption",
+      "Boarding / homestay communication escalation",
+      "Lost document or urgent form follow-up",
+      "Visiting scholar accommodation handover",
+      "Student welfare signposting and parent update"
+    ],
+    pricing: [
+      "Urgent dispatch case: from £180",
+      "24-hour monitoring window: from £360",
+      "Short-trip dispatch cover: quoted by dates, destination and risk level",
+      "Termly family dispatch add-on: quoted with guardianship or family office package"
+    ]
   }
 ];
 
@@ -6651,6 +6792,36 @@ function serviceDetailPage(service) {
                 <article><span>Partner page</span><strong><a href="/university-partnerships/">University Agent & Institutional Cooperation</a></strong></article>
                 <article><span>Standards</span><strong><a href="/application-service-standards/">Application Service Standards</a></strong></article>
                 <article><span>Special route</span><strong><a href="/advanced-entry-china-programmes/">Advanced Entry & China Programme Support</a></strong></article>
+              </div>
+            </section>
+  ` : "";
+  const stationDispatchExtras = service.slug === "station-dispatch-emergency-coordination" ? `
+            <section>
+              <div class="eyebrow">Dispatch Scope</div>
+              <h2>What counts as urgent coordination</h2>
+              <div class="service-detail-grid">
+                <div>Accommodation or homestay handover problem</div>
+                <div>Airport pickup, missed transfer or arrival delay</div>
+                <div>Provider, school or camp contact not responding</div>
+                <div>Minor-student consent, custodial or travel-document follow-up</div>
+                <div>Parent-side update during time-zone gaps</div>
+                <div>Short-term welfare signposting and escalation record</div>
+              </div>
+            </section>
+            <section>
+              <div class="eyebrow">Service Boundary</div>
+              <h2>24-hour dispatch is not a substitute for emergency services</h2>
+              <p>OTC Station Dispatch is an education and family coordination service. It does not replace local police, ambulance, hospital emergency departments, school safeguarding / duty officer systems, accommodation-provider obligations, insurance assistance lines, legal advice, immigration advice or a legally appointed guardian.</p>
+              <p lang="zh-Hant">「24 小時」指調度響應、聯絡升級、家長端更新與記錄整理；若涉及人身安全、醫療、犯罪、失蹤、嚴重心理危機或法律責任，應立即聯絡當地緊急服務、學校值班系統、住宿方、保險公司或合資格專業人士。</p>
+            </section>
+            <section>
+              <div class="eyebrow">Ready File</div>
+              <h2>Before travel, prepare a dispatch file</h2>
+              <div class="service-showcase">
+                <article><span>Contacts</span><strong>Student, parent, provider, accommodation, driver and local emergency contacts</strong></article>
+                <article><span>Documents</span><strong>Passport copy, programme confirmation, consent / custodial forms and insurance details</strong></article>
+                <article><span>Schedule</span><strong>Flight, arrival, check-in, class start, pickup and curfew timeline</strong></article>
+                <article><span>Authority</span><strong>Who may speak to providers and what written consent is required</strong></article>
               </div>
             </section>
   ` : "";
@@ -6689,6 +6860,7 @@ function serviceDetailPage(service) {
               <div class="service-detail-grid">${service.deliverables.map((item) => `<div>${item}</div>`).join("")}</div>
             </section>
             ${universityApplicationExtras}
+            ${stationDispatchExtras}
             <section>
               <div class="eyebrow">Portfolio</div>
               <h2>Example finished work</h2>
@@ -6707,22 +6879,216 @@ function serviceDetailPage(service) {
   });
 }
 
-const services = pageShell({
-  title: "Services | OTC Study Hub",
-  current: "services",
-  description: "OTC institutional services including UK university application advisory, premium translation, publishing, academic guardianship, education fairs and accreditation support.",
-  path: "/services/",
-  body: `
-    <section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC Services</div><h1>Institutional Services</h1><p class="hero-sub">Specialist education, university application, publishing and bilingual advisory services for institutions, academic teams, families and private clients.</p></div></section>
-    <section class="band compact-band">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Service Portfolio</div>
-        <h2>Select a service to view scope, workflow, deliverables and fees.</h2>
+function servicesLandingPage(locale = "en") {
+  const isZh = locale === "zh";
+  const path = isZh ? "/zh/services/" : "/services/";
+  return pageShell({
+    title: isZh ? "服務導覽 | OTC Study Hub" : "Services | OTC Study Hub",
+    current: "services",
+    description: isZh
+      ? "OTC 服務導覽：驛站調度、申請顧問、學術監護、出版語言與機構合作。"
+      : "OTC institutional services including university application advisory, emergency coordination, publishing, academic guardianship, education fairs and accreditation support.",
+    path,
+    body: isZh ? `
+    <section class="page-hero services-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">OTC 服務</div>
+            <h1>服務導覽台</h1>
+            <h2>申請 · 監護 · 出版 · 機構合作</h2>
+            <p class="hero-sub">面向家庭、學生、出版項目與教育機構的服務入口。首頁只做分流，詳細流程、交付物、費用與服務邊界放在子頁。</p>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/services/station-dispatch-emergency-coordination/"><strong>驛站調度</strong><span>24 小時緊急協調</span></a>
+            <a href="/services/academic-guardianship-family-office/"><strong>學術監護</strong><span>家庭學業辦公室</span></a>
+            <a href="/services/university-application-advisory/"><strong>申請顧問</strong><span>升學文件規劃</span></a>
+            <a href="/services/publishing-editorial-production/"><strong>出版製作</strong><span>書稿、報告與教材</span></a>
+          </aside>
+        </div>
       </div>
-      ${serviceCards()}
+    </section>
+    <section class="band service-review-strip">
+      <a href="/services/station-dispatch-emergency-coordination/"><b>24h</b><strong>緊急調度</strong><span>住宿、接送、文件、家長端更新</span></a>
+      <a href="/application-service-standards/"><b>STD</b><strong>服務標準</strong><span>邊界、同意、文件與溝通記錄</span></a>
+      <a href="/consultation-chat/"><b>AI</b><strong>初步分流</strong><span>先把需求說清楚，再進服務線</span></a>
+      <a href="/zh/summer-school-alliance/"><b>SUM</b><strong>暑校聯盟</strong><span>暑校、遊學、短期項目入口</span></a>
+    </section>
+    <section class="band compact-band service-review-body">
+      <div class="section-head compact-head service-review-head">
+        <span>服務索引</span>
+        <strong>按情境選</strong>
+        <p>入口只做分流；流程、交付物、費用和服務邊界放在子頁。</p>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section>
+            <h2 class="zh-herald-section-head" data-num="01">先按情境選，不按部門選</h2>
+            <p>如果學生或家庭正在處理突發住宿、接送、文件、家長端更新或跨時區協調，先進「驛站調度」。如果問題是申請策略、學校溝通、學業進度或出版文件，再轉到相應子頁。</p>
+            <div class="service-situation-grid">
+              <a href="/services/station-dispatch-emergency-coordination/"><b>突發協調</b><strong>驛站調度</strong><span>24 小時緊急調度、住宿接送、家長端更新。</span></a>
+              <a href="/services/university-application-advisory/"><b>升學文件</b><strong>申請顧問</strong><span>選校、材料、進度表、文件審核。</span></a>
+              <a href="/services/academic-guardianship-family-office/"><b>在讀跟進</b><strong>學術監護</strong><span>學校溝通、進度追蹤、家長報告。</span></a>
+              <a href="/services/publishing-editorial-production/"><b>出版製作</b><strong>海外書局</strong><span>書稿、報告、教材與雙語出版。</span></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="02">三條主線</h2>
+            <div class="service-route-list">
+              <a href="/services/station-dispatch-emergency-coordination/"><span>家庭端</span><strong>家庭與學生端</strong><em>驛站調度、監護、申請、學習工具。</em></a>
+              <a href="/services/language-context-studio/"><span>出版端</span><strong>出版與語言</strong><em>翻譯、編輯、出版、研究簡報、合規副本。</em></a>
+              <a href="/zh/education-partners/"><span>機構端</span><strong>機構合作</strong><em>市場進入、培訓、教育展、accreditation。</em></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">完整服務索引</h2>
+            ${serviceArticleDirectory("zh")}
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side">
+          <div class="service-guide-card is-urgent">
+            <span>緊急</span>
+            <strong>先看驛站調度</strong>
+            <p>住宿、接送、文件、家長端更新與跨時區突發協調。</p>
+            <a href="/services/station-dispatch-emergency-coordination/">打開調度頁</a>
+          </div>
+          <div class="service-guide-card">
+            <span>學生</span>
+            <strong>申請或學業問題</strong>
+            <p>大學申請、學術監護、進度跟進、文件整理與溝通紀錄。</p>
+            <a href="/services/university-application-advisory/">打開申請頁</a>
+          </div>
+          <div class="service-guide-card">
+            <span>機構</span>
+            <strong>機構合作入口</strong>
+            <p>市場進入、培訓、教育展、accreditation 與 evidence pack。</p>
+            <a href="/zh/education-partners/">合作入口</a>
+          </div>
+          <div class="service-guide-note">
+            <b>邊界</b>
+            <p>OTC 可做教育協調、文件整理與溝通升級；法律、移民、醫療、保險與法定監護由相應機構或合資格人士處理。</p>
+          </div>
+          <div class="service-side-links">
+            <span>快速入口</span>
+            <a href="/application-service-standards/">服務標準</a>
+            <a href="/consultation-chat/">AI 初步分流</a>
+            <a href="/zh/summer-school-alliance/">暑校聯盟</a>
+            <a href="/zh/education-partners/">機構合作</a>
+          </div>
+          <div class="service-mini-index">
+            <span>常用子頁</span>
+            <a href="/services/language-context-studio/">翻譯與語言</a>
+            <a href="/services/compliance-file-audit-copy/">合規文件</a>
+            <a href="/services/research-policy-briefing/">研究簡報</a>
+            <a href="/services/digital-learning-assessment-tools/">數字學習工具</a>
+          </div>
+          <a class="service-language-link" href="/services/">英文版</a>
+        </aside>
+      </div>
+    </section>
+  ` : `
+    <section class="page-hero services-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">OTC Services</div>
+            <h1>Service Review Desk</h1>
+            <h2>Applications · Guardianship · Publishing · Partnerships</h2>
+            <p class="hero-sub">Specialist education, university application, publishing, emergency coordination and bilingual advisory services for institutions, families and private clients.</p>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/services/station-dispatch-emergency-coordination/"><strong>Dispatch</strong><span>24-hour coordination</span></a>
+            <a href="/services/academic-guardianship-family-office/"><strong>Guardianship</strong><span>Family office support</span></a>
+            <a href="/services/university-application-advisory/"><strong>Applications</strong><span>Admissions file planning</span></a>
+            <a href="/services/publishing-editorial-production/"><strong>Publishing</strong><span>Books, reports and guides</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section class="band service-review-strip">
+      <a href="/services/station-dispatch-emergency-coordination/"><b>24h</b><strong>Emergency dispatch</strong><span>Accommodation, travel, documents and parent updates</span></a>
+      <a href="/application-service-standards/"><b>STD</b><strong>Service standards</strong><span>Boundaries, consent, files and communication records</span></a>
+      <a href="/consultation-chat/"><b>AI</b><strong>First-response triage</strong><span>Clarify the case before selecting a service line</span></a>
+      <a href="/summer-school-alliance/"><b>SUM</b><strong>Summer alliance</strong><span>Summer school, study trips and short programmes</span></a>
+    </section>
+    <section class="band compact-band service-review-body">
+      <div class="section-head compact-head service-review-head">
+        <span>Service Portfolio</span>
+        <strong>Choose by situation</strong>
+        <p>This entrance routes the case; scope, workflow, deliverables, fees and boundaries live on service pages.</p>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section>
+            <h2 class="zh-herald-section-head" data-num="01">Choose by situation, not by department</h2>
+            <p>If a family is dealing with urgent accommodation, travel, documents, parent updates or cross-time-zone coordination, start with Dispatch. If the issue is admissions strategy, school communication, academic progress or publication work, move to the relevant service page.</p>
+            <div class="service-situation-grid">
+              <a href="/services/station-dispatch-emergency-coordination/"><b>Urgent case</b><strong>Dispatch</strong><span>24-hour coordination, accommodation, travel and parent updates.</span></a>
+              <a href="/services/university-application-advisory/"><b>Admissions file</b><strong>Applications</strong><span>Shortlisting, documents, timeline and file review.</span></a>
+              <a href="/services/academic-guardianship-family-office/"><b>Ongoing study</b><strong>Guardianship</strong><span>School communication, progress tracking and parent reporting.</span></a>
+              <a href="/services/publishing-editorial-production/"><b>Editorial work</b><strong>Publishing</strong><span>Books, reports, guides and bilingual production.</span></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="02">Three service routes</h2>
+            <div class="service-route-list">
+              <a href="/services/station-dispatch-emergency-coordination/"><span>Family response</span><strong>Family & Student</strong><em>Dispatch, guardianship, applications and learning tools.</em></a>
+              <a href="/services/language-context-studio/"><span>Editorial desk</span><strong>Publishing & Language</strong><em>Translation, editing, publishing, research briefs and compliance copies.</em></a>
+              <a href="/education-partners/"><span>Institutional route</span><strong>Institutional Work</strong><em>Market entry, training, education fairs and accreditation support.</em></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">Full service index</h2>
+            ${serviceArticleDirectory("en")}
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side">
+          <div class="service-guide-card is-urgent">
+            <span>urgent</span>
+            <strong>Start with Dispatch</strong>
+            <p>Accommodation, travel, documents, parent updates and cross-time-zone escalation.</p>
+            <a href="/services/station-dispatch-emergency-coordination/">Open dispatch</a>
+          </div>
+          <div class="service-guide-card">
+            <span>student</span>
+            <strong>Applications or study</strong>
+            <p>Admissions planning, guardianship, progress tracking, file organisation and communication records.</p>
+            <a href="/services/university-application-advisory/">Open applications</a>
+          </div>
+          <div class="service-guide-card">
+            <span>institution</span>
+            <strong>Institutional entry</strong>
+            <p>Market entry, training, education fairs, accreditation and evidence packs.</p>
+            <a href="/education-partners/">Partner route</a>
+          </div>
+          <div class="service-guide-note">
+            <b>Boundary</b>
+            <p>OTC provides education coordination, file organisation and communication escalation. Legal, immigration, medical, insurance and statutory guardianship matters must be handled by the relevant qualified person or authority.</p>
+          </div>
+          <div class="service-side-links">
+            <span>Quick links</span>
+            <a href="/application-service-standards/">Service standards</a>
+            <a href="/consultation-chat/">AI triage</a>
+            <a href="/summer-school-alliance/">Summer alliance</a>
+            <a href="/education-partners/">Partner route</a>
+          </div>
+          <div class="service-mini-index">
+            <span>Common pages</span>
+            <a href="/services/language-context-studio/">Language studio</a>
+            <a href="/services/compliance-file-audit-copy/">Compliance files</a>
+            <a href="/services/research-policy-briefing/">Research briefing</a>
+            <a href="/services/digital-learning-assessment-tools/">Digital learning tools</a>
+          </div>
+          <a class="service-language-link" href="/zh/services/">Chinese version</a>
+        </aside>
+      </div>
     </section>
   `
-});
+  });
+}
+
+const services = servicesLandingPage("en");
+const servicesZh = servicesLandingPage("zh");
 
 const applicationServiceStandards = pageShell({
   title: "Application Service Standards | OTC Study Hub",
@@ -18094,6 +18460,7 @@ write("study-guides", guides);
 write("courses", courses);
 write("learning-platform", learningPlatform);
 write("services", services);
+write("zh/services", servicesZh);
 serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });
@@ -18282,6 +18649,7 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /publishing/btec-level-3-business-assignment-writing-toolkit/sample/
 - /courses/
 - /services/
+- /zh/services/
 - /university-applications/
 - /study-group-2026-applications/
 - /zh/study-group-2026-applications/
@@ -18310,6 +18678,12 @@ No build step is required. To regenerate static pages:
 \`\`\`bash
 node generate-site.js
 \`\`\`
+
+## 留學導報文章編輯 Prompt
+
+發布或改稿前先做版面平衡檢查：如果正文只有 4-5 個短段落，而右側側欄同時出現速讀、類型卡、欄目定位、閱讀清單、英文對照和官方資源，頁面會變成左輕右重。這類實用清單文章應先補正文密度，例如加入可掃描表格、流程清單、提交前核對、常見錯誤修正或小案例；同時把側欄切到 \`sidebarMode: "compact-practical"\`，保留速讀、3-4 張重點卡和官方資源即可。
+
+導報文章不要把自己放進 \`relatedReadings\`。樣本發布後用本地頁面檢查桌面版與手機版：主欄應有足夠閱讀重量，右側只作輔助速查，不能讓讀者感覺正文很薄、側欄反而像主內容。
 `);
 
 console.log("Generated OTC Study Hub static prototype.");
