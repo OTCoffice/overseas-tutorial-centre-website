@@ -1967,12 +1967,13 @@ const insightsArticles = [
     column: "study",
     kicker: "BTEC · OTHM · Assignment planning",
     author: "留學導報編輯部",
+    sidebarMode: "compact-practical",
     summary: "Many BTEC and OTHM coursework problems are not caused by weak ability, but by poor alignment with the assignment brief, weak evidence traceability, rushed referencing, or unclear authenticity records. This briefing gives students a simple evidence-log method for keeping coursework organised from Day 1.",
     titleZh: "BTEC／OTHM 作業怎麼穩：用一張「證據紀錄表」清單把基本功做到位（避免白白失分）",
     summaryZh: "BTEC 或 OTHM 的 coursework，許多「意外失分」不是因為能力不夠，而是：沒對準 assignment brief、證據無法追溯、引用與格式倉促、或真實性（authenticity）說明不清。本文用一張好上手的證據紀錄表（evidence log）清單，帶你從第 1 天就把每段內容對到評分/學習成果要求，並整理出一份乾淨可驗證的提交包（不作任何結果承諾；以學校/中心規範為準）。",
     relatedReadings: [
       "othm-credits-australia-advanced-entry",
-      "btec-othm-assignment-evidence-log-checklist",
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
       "uk-personal-statement-evidence-first-checklist",
       "uk-aus-application-documents-checklist"
     ],
@@ -2003,21 +2004,37 @@ const insightsArticles = [
         heading: "2) Build an evidence log from Day 1",
         paragraphs: [
           "An evidence log records what you did, when you did it, what output exists, and which criterion it supports. It reduces deadline anxiety because you can see what is already submission-ready.",
-          "Keep it simple: date, activity, output filename, and a one-line explanation of the evidence value."
+          "Keep it simple: date, activity, output filename, and a one-line explanation of the evidence value.",
+          '<div class="article-service-table"><table><thead><tr><th>Evidence-log field</th><th>What to record</th><th>Why it matters</th></tr></thead><tbody><tr><td>Criterion / LO</td><td>The exact learning outcome, assessment criterion or task line from the brief.</td><td>Prevents writing a polished paragraph that does not answer the required point.</td></tr><tr><td>Draft location</td><td>Section, page, slide number or appendix reference where the evidence appears.</td><td>Makes it easy to audit coverage before submission.</td></tr><tr><td>Evidence file</td><td>Interview note, spreadsheet, screenshot, calculation, source extract or production output.</td><td>Keeps claims traceable instead of floating as unsupported statements.</td></tr><tr><td>Source / permission</td><td>Reference, data source, consent note, AI-use note or centre instruction.</td><td>Supports academic integrity and authenticity checks.</td></tr></tbody></table></div>'
         ]
       },
       {
         heading: "3) Make traceability obvious: claims, evidence and sources",
         paragraphs: [
           "Assessors should not have to guess how your argument works. Important claims should be linked to evidence such as tables, screenshots, calculations, production outputs or source material.",
-          "If you use AI tools, follow your centre's policy, record the purpose of use, and preserve drafts and notes so your own thinking remains visible."
+          "If you use AI tools, follow your centre's policy, record the purpose of use, and preserve drafts and notes so your own thinking remains visible.",
+          "A practical test is to ask whether a tutor can move from one paragraph to the relevant brief line, evidence file and source without asking you to explain it verbally."
         ]
       },
       {
-        heading: "4) Submit a clean pack: naming, versions and authenticity",
+        heading: "4) Use the log during drafting, not only at the end",
+        paragraphs: [
+          "The evidence log should be open while you write. When a paragraph is mainly description, mark it as weak and add analysis, evaluation or a direct link to the criterion.",
+          "For group work, the log also helps separate shared outputs from your own contribution. Record meeting notes, task ownership and version history so the final submission does not blur who did what."
+        ]
+      },
+      {
+        heading: "5) Submit a clean pack: naming, versions and authenticity",
         paragraphs: [
           "Small administrative mistakes can create disproportionate delays. Use consistent filenames, keep a final-submission folder, and check that the name and student number match the submission system.",
           "Before submitting, review references, figure labels, appendix links and any required declaration or authenticity statement."
+        ]
+      },
+      {
+        heading: "6) A 10-minute final check before upload",
+        paragraphs: [
+          "Before upload, open the brief and the evidence log side by side. Tick only what is visible in the final document or named appendix, not what you remember doing.",
+          "If a criterion has no evidence, either add the missing support or flag the gap for tutor advice before the deadline. Guessing is riskier than asking early."
         ]
       }
     ],
@@ -2033,21 +2050,37 @@ const insightsArticles = [
         heading: "二、從第 1 天就做 evidence log（不要等到前一晚）",
         paragraphs: [
           "Evidence log 就是一份持續更新的紀錄：你做了什麼、何時做的、留下了什麼可驗證的成果。它能大幅降低臨近截止日的焦慮，因為你隨時知道「可提交的證據」有哪些。",
-          "保持簡單即可：日期、活動（例如訪談筆記／資料清理／分鏡草稿）、輸出檔名、以及一句話說明「這份證據支撐哪個規準」。"
+          "保持簡單即可：日期、活動（例如訪談筆記／資料清理／分鏡草稿）、輸出檔名、以及一句話說明「這份證據支撐哪個規準」。",
+          '<div class="article-service-table"><table><thead><tr><th>欄位</th><th>要記什麼</th><th>為什麼有用</th></tr></thead><tbody><tr><td>規準 / LO</td><td>assignment brief 上的 learning outcome、assessment criterion 或 task 原文。</td><td>避免寫得很順，卻沒有回答評分要求。</td></tr><tr><td>正文位置</td><td>第幾節、第幾頁、slide 編號或 appendix 編號。</td><td>提交前可以快速檢查每個要求是否真的被覆蓋。</td></tr><tr><td>證據檔</td><td>訪談筆記、試算表、截圖、計算、作品輸出、資料來源摘錄。</td><td>讓主張可追溯，不只是空泛描述。</td></tr><tr><td>來源 / 合規</td><td>引用來源、資料權限、AI 使用紀錄、中心要求或 consent note。</td><td>支援 academic integrity、authenticity 與中心抽查。</td></tr></tbody></table></div>'
         ]
       },
       {
         heading: "三、讓「可追溯性」一眼就看懂：主張 → 證據 → 來源",
         paragraphs: [
           "評分者不應該靠猜來理解你的論證。每個重要主張都盡量給出（a）你的證據（表格、截圖、計算、作品/產出）以及（b）必要時的資料來源（書籍/文章/官方頁面）。",
-          "如果你使用了 AI 工具，務必遵守中心/學校規範：清楚記錄用途（發想、語句潤飾、程式/概念解釋等），並保留草稿與筆記，讓你的思考與決策過程可被看見。"
+          "如果你使用了 AI 工具，務必遵守中心/學校規範：清楚記錄用途（發想、語句潤飾、程式/概念解釋等），並保留草稿與筆記，讓你的思考與決策過程可被看見。",
+          "一個很實用的測試是：導師是否能從正文某一段，直接追到 brief 的哪一條、哪個證據檔、哪個來源，而不需要你口頭補解釋。如果不能，這一段就還不夠穩。"
         ]
       },
       {
-        heading: "四、提交包要乾淨：命名、版本與 authenticity",
+        heading: "四、寫作過程就要用 log，不是最後才補",
+        paragraphs: [
+          "Evidence log 不應該是提交前一天才補的文件，而是寫作時一直打開的工作台。每寫完一段，就回頭問：這段是在描述、分析、比較、評估，還是只是在湊字數？它對應哪一條規準？證據在哪裡？",
+          "如果是小組作業，紀錄更重要。會議紀錄、分工、版本、你負責的資料處理或分析段落，都應該留下痕跡。這樣最後提交時，shared output 和 individual contribution 才不會混在一起。"
+        ]
+      },
+      {
+        heading: "五、提交包要乾淨：命名、版本與 authenticity",
         paragraphs: [
           "小小行政失誤也可能造成很大延誤。檔名要一致、保留最終版資料夾，並確認姓名/學號與提交系統一致。",
           "提交前用 10 分鐘跑一次快速檢查：引用是否完整、圖表是否有標題與編號、附錄是否在正文被引用、以及是否包含要求的 declaration／authenticity statement。"
+        ]
+      },
+      {
+        heading: "六、提交前 10 分鐘：只核對「看得見」的東西",
+        paragraphs: [
+          "最後上傳前，把 assignment brief 和 evidence log 並排打開。每一條只能勾選「在最終正文或附錄裡看得見」的內容，不要勾選你腦中記得做過、但文件裡沒有呈現的內容。",
+          "如果某條規準沒有證據，最穩的做法不是硬猜，而是補上可驗證資料，或在截止日前向 tutor / centre 問清楚。越早暴露問題，越容易修；越晚才發現，越容易變成不必要失分。"
         ]
       }
     ]
@@ -5956,6 +5989,7 @@ function zhArticleMagazineBody(article) {
   const firstSection = cleanedSections[0];
   const checklist = cleanedSections.slice(0, 7);
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
+  const compactSidebar = article.sidebarMode === "compact" || article.sidebarMode === "compact-practical";
 
   const pageClass = article.academic ? " zh-academic-page" : "";
   const mainClass = article.academic ? " zh-academic-main" : "";
@@ -6061,7 +6095,7 @@ function zhArticleMagazineBody(article) {
           </div>
           <div class="zh-herald-disclaimer">${article.academic ? `作者：${article.author || "蕭珩"}。${article.publicationCode || "《留學導報》學術文化欄"}。本文為作者授權《留學導報》全文刊登版本，文章著作權歸作者所有；《留學導報》保留本版式、編排、網頁發布與刊載記錄之相關權利。` : "本文由留學導報編輯部編製。留學導報屬於 Overseas Publishing / 海外書局系列板塊之一，與出版、編譯並列，面向學生、家長、教育機構與合作方提供可公開閱讀、可引用、可持續更新的雙語教育資訊。"}</div>
         </main>
-        ${article.academic ? "" : `<aside class="zh-herald-side">
+        ${article.academic ? "" : `<aside class="zh-herald-side${compactSidebar ? " is-compact" : ""}">
           ${article.zhSidebarSupplement || `
           <div class="zh-herald-widget">
             <div class="zh-herald-widget-title">本文速讀</div>
@@ -6096,17 +6130,17 @@ function zhArticleMagazineBody(article) {
               `).join("")}
             </div>
           ` : ""}
-          <div class="zh-herald-widget">
+          ${compactSidebar ? "" : `<div class="zh-herald-widget">
             <div class="zh-herald-widget-title">欄目定位</div>
             <div class="zh-herald-check-item">正文負責深度：完整解釋背景、流程與風險。</div>
             <div class="zh-herald-check-item">側欄負責速查：讀者可快速掃描重點。</div>
             <div class="zh-herald-check-item">信息圖負責記憶：流程、比較與數據集中呈現。</div>
-          </div>
-          <div class="zh-herald-widget">
+          </div>`}
+          ${compactSidebar ? "" : `<div class="zh-herald-widget">
             <div class="zh-herald-widget-title">閱讀清單</div>
             ${checklist.map((section) => `<div class="zh-herald-check-item">${section.heading}</div>`).join("")}
-          </div>
-          <div class="zh-herald-widget">
+          </div>`}
+          ${compactSidebar ? "" : `<div class="zh-herald-widget">
             <div class="zh-herald-widget-title">英文對照</div>
             ${englishSections.slice(0, 4).map((section) => `
               <div class="zh-herald-resource-item">
@@ -6114,7 +6148,7 @@ function zhArticleMagazineBody(article) {
                 <div><div class="zh-herald-resource-name">${section.heading.replace(/^\d+\)\s*/, "")}</div><div class="zh-herald-resource-url">Reference section</div></div>
               </div>
             `).join("")}
-          </div>
+          </div>`}
           ${article.resources ? `
             <div class="zh-herald-widget">
               <div class="zh-herald-widget-title">官方查詢資源</div>
