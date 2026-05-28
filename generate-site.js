@@ -6885,6 +6885,8 @@ function servicesLandingPage(locale = "en") {
   return pageShell({
     title: isZh ? "服務導覽 | OTC Study Hub" : "Services | OTC Study Hub",
     current: "services",
+    locale: isZh ? "zh" : "en",
+    lang: isZh ? "zh-Hant" : "en",
     description: isZh
       ? "OTC 服務導覽：驛站調度、申請顧問、學術監護、出版語言與機構合作。"
       : "OTC institutional services including university application advisory, emergency coordination, publishing, academic guardianship, education fairs and accreditation support.",
@@ -6985,6 +6987,7 @@ function servicesLandingPage(locale = "en") {
           <a class="service-language-link" href="/services/">英文版</a>
         </aside>
       </div>
+      <a class="zh-hero-service-button" href="/zh/services/"><span>服務入口</span><strong>服務導覽台</strong><em>申請 · 監護 · 出版 · 機構合作</em></a>
     </section>
   ` : `
     <section class="page-hero services-hero">
@@ -11019,6 +11022,7 @@ const chineseEntrance = pageShell({
           </div>
         </aside>
       </div>
+      <a class="zh-hero-service-button" href="/zh/services/"><span>服務入口</span><strong>服務導覽台</strong><em>申請 · 監護 · 出版 · 機構合作</em></a>
     </section>
 
     <section class="band compact-band zh-open-learning-section" id="open-learning-platform">

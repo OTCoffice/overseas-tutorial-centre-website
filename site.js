@@ -212,7 +212,7 @@ function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
   const parentPath = parentPathFor(canonicalPath);
   const isZh = locale === "zh";
   const shareText = `${title} | OTC Study Hub`;
-  const parentLabel = isZh ? "返回上級頁面" : "Back to parent page";
+  const parentLabel = isZh ? (parentPath === "/zh/" ? "返回中文首頁" : "返回上級頁面") : "Back to parent page";
   return `
     <div class="page-utility-bar" data-page-share>
       <div class="page-utility-inner">
