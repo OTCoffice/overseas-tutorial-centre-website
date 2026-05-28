@@ -1817,6 +1817,106 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "czech-nursing-english-pathway-reality-check",
+    title: "Czech Nursing (EU) Reality Check: English-Taught Options, Costs, and a Czech–Hungary–Poland Shortlist Checklist",
+    date: "2026-05-28",
+    category: "EU Study",
+    column: "study",
+    kicker: "Nursing · Central Europe · Practical checklist",
+    author: "留學導報編輯部",
+    summary: "Czechia can look attractive for Nursing because public universities are often good value and the living environment is strong. The catch: many undergraduate Nursing routes are delivered mainly in Czech, and “full English-taught BSc Nursing” options can be limited and intake-specific. Use this checklist to verify language-of-instruction, clinical placement language, recognition steps, and your IELTS 6.0 fit—then compare with Hungary and Poland without over-promising outcomes.",
+    titleZh: "捷克護理（Nursing）路線現實核對：英文授課、費用與「捷克－匈牙利－波蘭」選校清單",
+    summaryZh: "捷克的護理路線之所以吸引人，常見原因是公立大學費用相對友好、生活環境與安全感佳；但要先面對一個現實：許多本科 Nursing 以捷克語為主，所謂「完整英文授課 BSc Nursing」選項可能不多、且每年/每校條件不同。本文用一張核對清單，教你確認授課語言、臨床實習語言、畢業後認證/執業流程，以及 IELTS 6.0 大致能碰到哪些門檻；再用同一把尺比較匈牙利與波蘭（不作任何結果承諾，最終以校方與官方規定為準）。",
+    relatedReadings: [
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "uk-aus-application-documents-checklist",
+      "reference-letter-briefing-pack-uk-aus"
+    ],
+    resources: [
+      ["Study in Czechia (official portal)", "https://www.studyin.cz/"],
+      ["European Commission: Regulated professions", "https://ec.europa.eu/growth/tools-databases/regprof/"],
+      ["QAA: Advice and Guidance – Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文為教育資訊整理，重點是「如何核對官方資訊與課程條件」，而非替代任何國家主管機關、專業註冊機構或學校招生處的正式說明。",
+      "護理屬高度受規管專業；是否可在特定國家/地區執業，通常涉及語言、臨床時數、課程對標、文件認證與註冊考核等多因素。本文不構成執業/移民/錄取的法律或結果承諾；請務必以目標國家註冊機構與學校 course page 的最新版本為準。"
+    ],
+    body: [
+      {
+        heading: "1) Start with the hard question: is the whole degree actually taught in English?",
+        paragraphs: [
+          "For Nursing, the phrase “English-taught” must be checked at three levels: (a) lecture language, (b) assessment language, and (c) clinical placement language. A programme can be partly English in class but still require local language for hospital placements.",
+          "Your verification checklist: course page language-of-instruction, placement partner info, and the admissions office’s written confirmation (email) on what language level is required for placements."
+        ]
+      },
+      {
+        heading: "2) Costs: separate tuition from real living budget",
+        paragraphs: [
+          "Central Europe can be cost-effective, but budgets vary by city and lifestyle. Create a simple monthly budget (rent, utilities, food, transport, insurance, phone, emergency buffer) and test it against your family’s cashflow.",
+          "Avoid relying on one “typical” number from social media. Use: university tuition page + accommodation options + recent rental listings as your evidence base."
+        ]
+      },
+      {
+        heading: "3) IELTS 6.0: what it can mean—and what it doesn’t guarantee",
+        paragraphs: [
+          "IELTS 6.0 is often treated as roughly B2-level, and many programmes list B2/IELTS-equivalent thresholds. But Nursing is communication-heavy, so some schools or placement partners may ask for higher scores, speaking minimums, or interviews.",
+          "Also check “waiver” language carefully. If a school mentions possible waivers for prior English-medium study or internal tests, confirm the exact proof they accept and whether it applies to your intake year."
+        ]
+      },
+      {
+        heading: "4) Shortlisting Czechia vs Hungary vs Poland: use one matrix",
+        paragraphs: [
+          "Instead of picking by rumours, build a one-page comparison matrix for your top 3–6 options: language of instruction, placement language requirement, entry requirements (science subjects), tuition, city cost, start date, application timeline, and recognition/registration steps for your target work country.",
+          "If you’re comparing Czechia, Hungary and Poland, the biggest practical difference is often programme availability in English and the placement-language reality. Your job is to confirm this in writing before you spend time and money."
+        ]
+      },
+      {
+        heading: "5) “Friendly universities” list: treat these as leads, not promises",
+        paragraphs: [
+          "Students often shortlist institutions such as University of South Bohemia, University of Ostrava, Charles University (Prague), Masaryk University (Brno), and others. The key is not the name—it’s whether the specific Nursing pathway you want is English-taught end-to-end and placement-compatible for international students in your intended year.",
+          "Action step: make a short email template (your grades, English proof, target intake, and questions) and send it to admissions for confirmation on language, placements, and document requirements."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先問最硬的問題：這個 Nursing 本科「真的全程英文」嗎？",
+        paragraphs: [
+          "護理專業的「英文授課」一定要拆成三層核對：（a）上課語言、（b）作業/考試語言、（c）臨床實習語言。有些課程課堂可用英文，但到了醫院實習仍可能要求當地語言。",
+          "核對清單：course page 的 language-of-instruction 說明、實習合作單位/臨床安排資訊、以及招生辦（email）對「實習語言要求」的書面確認。"
+        ]
+      },
+      {
+        heading: "二、費用拆開算：學費是一回事，生活費才是長期壓力測試",
+        paragraphs: [
+          "中東歐確實可能相對省，但不同城市與生活方式差異很大。建議做一份月度預算：房租、水電網、餐食、交通、保險、手機、以及緊急預備金，並用家庭現金流去壓力測試。",
+          "不要只用社群平台的一個「典型數字」決策。更穩的證據組合是：大學學費頁面 + 宿舍/住宿選項 + 近期租屋行情（作為核對）。"
+        ]
+      },
+      {
+        heading: "三、IELTS 6.0 可以意味著什麼？也不意味著什麼？",
+        paragraphs: [
+          "IELTS 6.0 常被視為約 B2 水平，很多課程會用 B2/IELTS 等價門檻做初篩；但護理是高度溝通導向的專業，部分學校或臨床實習單位可能要求更高分、口說單科門檻，或加上面試。",
+          "另外「waiver」一定要看清楚。若學校寫到可能接受英文授課背景或內部測試作為豁免，請務必確認：需要哪些證明、是否適用你那一屆入學、是否也涵蓋實習語言要求。"
+        ]
+      },
+      {
+        heading: "四、捷克 vs 匈牙利 vs 波蘭：用同一張矩陣做決策",
+        paragraphs: [
+          "不要靠傳言選國家；用一張 A4 比較矩陣把你 3–6 個選項放在同一把尺上：授課語言、實習語言要求、入學條件（生物/化學等科目）、學費、城市生活成本、開學時間、申請節奏、以及你目標就業國家的認證/註冊步驟。",
+          "若你在捷克、匈牙利、波蘭之間猶豫，最常見的實務差異其實是：英文路線的「供給量」與「實習語言現實」。在花時間與費用前，先把這兩點用書面確認清楚。"
+        ]
+      },
+      {
+        heading: "五、「國際生友好學校」名單：把它當線索，不要當承諾",
+        paragraphs: [
+          "學生常會把 University of South Bohemia、University of Ostrava、Charles University（布拉格）、Masaryk University（Brno）等放入初步名單；但重點不是校名，而是你要走的那個 Nursing pathway 是否真能全程英文、並且在你計畫入學的年度對國際生提供可行的臨床實習安排。",
+          "建議動作：做一封固定 email 模板（你的成績、英文證明、目標入學季、問題清單），直接寄給招生辦確認：語言要求、實習安排、文件清單與是否有入學考/面試。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "btec-othm-assignment-evidence-log-checklist",
     title: "BTEC / OTHM Assignments: A Simple Evidence Log Checklist (So You Don’t Lose Marks on Basics)",
     date: "2026-05-28",
@@ -16943,7 +17043,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
       : route.slug === "malaysia"
       ? "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png"
       : route.slug === "canada"
-      ? "/assets/social/canada-summer-alliance-hero-share-20260528-v1.png"
+      ? "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png"
       : "",
     imageWidth: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 1200 : 1200,
     imageHeight: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 630 : 675,
@@ -17570,7 +17670,7 @@ function canadaProgrammesPage() {
     locale: "zh",
     description: "加拿大暑校熱門課程總表：Tamwood、ILSC、CISS、Summer at UBC 與 North America planning route 項目總表。",
     path: "/zh/summer-school-alliance/canada/programmes/",
-    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v1.png",
+    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 加拿大暑校聯盟分享題圖",
