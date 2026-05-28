@@ -15273,11 +15273,17 @@ const summerSchoolCountryRoutes = [
       "按當季 intake、年齡段與名額狀況縮小 shortlist"
     ],
     projects: [
+      ["NZLC Young Learner English + Activities Programme 2026", "05 Jan–20 Feb 2026／23 Mar–10 Apr 2026／06 Jul–14 Aug 2026", "Auckland", "NZLC Auckland", "上午互動式 English，下午 Auckland 文化與戶外活動；官方頁明示 13–17 歲、NZQA young learners accreditation，以及 homestay / airport transfer / caregiver support", "很適合第一次做海外 English + activities、希望先把英文 confidence、活動密度與 homestay 穩定度一起看的家庭", "graduation certificate / academic record 依校方安排", "依週數、homestay、接送與額外 caregiver support 核價", "適合 13–17 歲、偏 junior English + activities 的家庭", "NZLC 是 Auckland 大型英語學校，這條是很實用的 Auckland junior English 主線"],
+      ["NZLC Young Learner General English / High School Preparation 2026", "全年可於每週一開課（公眾假期除外）", "Auckland", "NZLC Auckland", "Young Learner General English / High School Preparation 全年運行；官方頁明示 13–17 歲、每週一開課、high school placement support、academic recommendation letter、optional caregiver support", "更適合已經在看新西蘭高中或想把暑校直接接回 school-prep 的家庭", "graduation certificate / academic report", "依週數、homestay、接送與 school support 安排核價", "適合 13–17 歲、偏 school-prep / high school transition 的家庭", "如果家長要的是 Auckland school-prep 而不是單純活動營，這條比 holiday route 更直"],
       ["Kiwi English Academy Study Tour 2026", "Summer Fun January／Mid-Year Fun July–August 2026；Study Tour 可按學校假期安排", "Newmarket, Auckland", "Kiwi English Academy Junior Courses", "上午英文課、下午 Auckland sightseeing / Maori concert / sailing / hiking 等活動；官方頁面同時提供 Study Tour 路線", "很適合第一次看新西蘭、希望把英文輸出、城市安全感與 homestay 放在同一條線比較的家庭", "Participation / completion materials 依校方安排", "費率依週數、活動、homestay 與接送配置核價", "適合 14–17 歲；12–13 歲可按安排個案確認", "Kiwi English Academy 是 Auckland 老牌 Category 1 英文學校，junior school 與 holiday / study tour 路線公開透明，適合作為 OTC 新西蘭暑校主入口"],
       ["Kiwi English Academy High School Preparation 2026", "2–48 週；2026 年 junior intake 可按週銜接", "Newmarket, Auckland", "Kiwi English Academy High School Preparation", "General English 加學科英文、數學、science、economics、accounting 與 academic writing；官方頁面也提到可對接 New Zealand high school entry", "不是純活動營，而是更偏新西蘭中學銜接前置；很適合已經在看 K-12 或後續正課家庭", "完成記錄與學習進度依校方安排；部分學生達標可銜接 NCEA level 1 / 2 科目", "按週數、homestay、學校銜接與接送安排核價", "適合 14–17 歲、偏 school-prep / high-school transition 的家庭", "如果家長真正目標是『先把新西蘭中學系統看懂』，這條比一般 summer camp 更實用"],
       ["WIE Holiday Program 2026", "Summer / Winter English Holiday Programme；group holiday programme 按檔期安排", "Hamilton, Waikato", "WIE Holiday Program", "English lessons 加 leisure / adventure activities，可配 Rotorua、Hamilton、Auckland 一帶 excursion；官方明示 only for groups", "很適合學校團、家族團或小團體；比單純 city camp 更有『紐西蘭生活與自然體驗』感", "Participation / group completion records 依 WIE 安排", "通常按團體形式、活動與 homestay 組合核價", "適合 10+ 歲團體學生，尤其是想做 group route 的家庭或學校", "WIE 官方已公開 Holiday Program 與 contact info；但這條主要做 group-only，不適合當成普通散客常規營亂賣"],
+      ["WIE High School Preparation 2026", "全年可申請；可接學校假期與個人 route", "Hamilton, Waikato", "Waikato Institute of Education", "官方 High School Preparation programme，重點是 English、New Zealand school culture、study methods、exams 與後續 tertiary understanding", "適合想要 Hamilton / Waikato 路線、又希望 school-prep 比 holiday route 更扎實的家庭", "學習進度與 preparation records 依 WIE 安排", "依週數、homestay 與 support 模式核價", "適合 13–17 歲、偏 school-prep / individual route 的家庭", "這條更像真正的 high school preparation，不應和純活動營混在一起賣"],
+      ["EF Auckland Summer Course 2026", "2–24 週；全年短期 course 可選", "Auckland", "EF Auckland", "EF Auckland 官方短期 summer course，English lessons 搭配 harbour、beach、city exploration；官方同時提供 homestay 與 residence", "適合偏好國際品牌、想要全天監督感較強、又希望 Auckland 城市體驗更完整的家庭", "EF certificate / course completion records", "依課程長度、住宿與全包配置核價", "適合 12–16 歲、16–18 歲與短期 Auckland immersion 家庭", "這條比較像團體化、品牌化 Auckland route，適合作為 Kiwi / NZLC 之外的補充選項"],
       ["LSNZ Junior Camp Christchurch 2026", "06 Jul 2026／27 Jul 2026／17 Aug 2026／04 Jan 2027", "Christchurch", "LSNZ Holiday Programme for Young Learners", "上午 level-based General English，下午 South Island local exploration、戶外活動與文化體驗；官方標示 multilingual support", "很適合希望把 Christchurch 安全感、英文學習與戶外體驗放在一起的家庭", "Participation / completion materials 依校方安排", "官方頁面標示 from NZ$4,322（GST included），實際以當期 package 與住宿為準", "適合 14–17 歲、偏好 Christchurch / South Island 的家庭", "LSNZ 官方已公開 2026 / 2027 intake 日期與價格，是目前最好落地的新西蘭 young learners 路線之一"],
+      ["LSNZ Young Learners General English / High School Preparation 2026", "全年開課；holiday programme 之外可按週安排", "Christchurch / Queenstown", "LSNZ Young Learners", "LSNZ 官方 young learners 頁明示 Christchurch 14–17 歲、Queenstown 15–17 歲，並可做 General English / High School Preparation", "適合想要 Christchurch 或 Queenstown、又不一定只做固定 holiday camp package 的家庭", "course completion / progress records 依校方安排", "依週數、校區與住宿配置核價", "適合 14–17 歲、偏 school-prep / young learners 長一點週數的家庭", "這條能補足 LSNZ holiday camp 之外的較彈性 route"],
       ["CCEL Secondary Schools Holiday Programme 2026", "School holiday intake；General English 可每週一開課，holiday programme 依檔期確認", "Christchurch", "Christchurch College of English", "依官方 holiday programme 與 CCEL 校區安排，結合英文課、Christchurch 校園生活與在地活動；校區位於 University of Canterbury Campus", "很適合要 Christchurch、重視校區環境與 support 結構的家庭", "Participation / school holiday programme materials 依 CCEL 安排", "費率、週數與住宿需向 CCEL 當期核對", "適合中學生、希望做新西蘭校園環境體驗的家庭", "CCEL 的 Secondary Schools Holiday Programme 官方文件可對到 Christchurch 校區與聯絡方式，適合列入 OTC 可核實的真實項目池"],
+      ["University of Auckland Summer School 2026", "05 Jan 2026–18 Feb 2026；Summer School 2026", "Auckland", "University of Auckland", "University of Auckland 官方 Summer School 2026，屬於 6 週 intensive university teaching format；更適合已在讀大學或已明確看 undergraduate credit 的學生", "適合把 Auckland 校園、大學課堂強度與 future transition 放在一起看的高年級學生與家庭", "按大學修課與成績結果計", "依 University of Auckland fee schedule 與選課安排為準", "適合 17+、高中後段或大學前置 / credit route", "這條不是低齡 summer camp，要如實放在 transition / pre-university 區，而不是 holiday camp 區"],
       ["University of Auckland Summer Start International 2027", "06 Jan 2027–17 Feb 2027；Summer School semester", "Auckland", "University of Auckland Summer Start International", "國際學生在正式本科前先讀一門課、體驗 campus life、參加 social / cultural activities；可申請 6 週校內住宿", "這不是一般低齡 summer camp，而是偏 university transition；很適合已在 New Zealand high school / foundation 就讀、準備升本科的學生", "按大學學分與 Summer Start completion 結果計", "費率按 University of Auckland international undergraduate fee schedule 為準", "適合已在新西蘭、準備升讀本科的國際學生", "官方頁面對 eligibility 寫得很清楚：主要面向 currently in New Zealand、即將完成 NZ high school 或 foundation programme 的學生；公開頁需如實說明，不可包裝成普適暑校"],
       ["Te Atatū International Student Preparation Programme 2026", "全年可申請；可作新西蘭中學前置準備", "Online / New Zealand school-prep route", "PSI Tutoring – Te Atatū Programme", "Science、Social Studies、English live lessons，加 tutorials、homework 與 family support，幫國際學生提前熟悉新西蘭高中教學方式", "很適合尚未出發、但已準備未來進入新西蘭 high school 的家庭；可當作 school-prep 前置，而不是替代 summer camp", "學習記錄與 preparation progress 依 PSI 安排", "按課程長度與 support 模式核價", "適合 13–16 歲、偏 school transition 的學生", "這條不是傳統線下暑校，但官方定位清楚，適合 OTC 在新西蘭中學前置頁面裡如實列出，幫家長區分『暑校體驗』與『學校前置準備』兩種完全不同路線"]
     ]
@@ -15563,11 +15569,17 @@ function summerSchoolCountryPage(route) {
     "ACU Western Civilisation Summer School Program 2026": { label: "Australian Catholic University", url: "https://www.acu.edu.au/about-acu/institutes-academies-and-centres/western-civilisation-program/summer-school", domain: "acu.edu.au" },
     "Navitas English Australia Pathway English": { label: "Navitas English", url: "https://www.navitasenglish.edu.au/", domain: "navitasenglish.edu.au" },
     "Study Australia School Observation & Route Planning": { label: "Study Australia", url: "https://www.studyaustralia.gov.au/", domain: "studyaustralia.gov.au" },
+    "NZLC Young Learner English + Activities Programme 2026": { label: "NZLC Auckland", url: "https://nzlc.ac.nz/english-activities-programme/", domain: "nzlc.ac.nz" },
+    "NZLC Young Learner General English / High School Preparation 2026": { label: "NZLC Auckland", url: "https://nzlc.ac.nz/general-english-high-school-preparation/", domain: "nzlc.ac.nz" },
     "Kiwi English Academy Study Tour 2026": { label: "Kiwi English Academy", url: "https://www.kiwienglish.co.nz/junior-courses/", domain: "kiwienglish.co.nz" },
     "Kiwi English Academy High School Preparation 2026": { label: "Kiwi English Academy", url: "https://www.kiwienglish.co.nz/junior-courses/", domain: "kiwienglish.co.nz" },
     "WIE Holiday Program 2026": { label: "Waikato Institute of Education", url: "https://wie.nz/courses/holiday-program/", domain: "wie.nz" },
+    "WIE High School Preparation 2026": { label: "Waikato Institute of Education", url: "https://www.wie.ac.nz/highschool.htm", domain: "wie.ac.nz" },
+    "EF Auckland Summer Course 2026": { label: "EF Auckland", url: "https://www.ef.com/english-auckland/", domain: "ef.com" },
     "LSNZ Junior Camp Christchurch 2026": { label: "LSNZ", url: "https://www.lsnz.co.nz/holiday-programme-young-learners", domain: "lsnz.co.nz" },
+    "LSNZ Young Learners General English / High School Preparation 2026": { label: "LSNZ", url: "https://www.lsnz.co.nz/young-learners", domain: "lsnz.co.nz" },
     "CCEL Secondary Schools Holiday Programme 2026": { label: "Christchurch College of English", url: "https://www.ccel.co.nz/about/contact/", domain: "ccel.co.nz" },
+    "University of Auckland Summer School 2026": { label: "University of Auckland", url: "https://www.auckland.ac.nz/en/students/academic-information/important-dates.html", domain: "auckland.ac.nz" },
     "University of Auckland Summer Start International 2027": { label: "University of Auckland", url: "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/preparation-and-foundation-programmes/kokiri-raumati-summer-programmes/summer-start-international.html", domain: "auckland.ac.nz" },
     "Te Atatū International Student Preparation Programme 2026": { label: "PSI Tutoring", url: "https://www.teatatu.psi.ac.nz/", domain: "psi.ac.nz" },
     "Tamwood UBC English & Culture Camp 2026": { label: "Tamwood Camps", url: "https://tamwood.com/camps/ubc/", domain: "tamwood.com" },
@@ -15682,11 +15694,17 @@ function summerSchoolCountryPage(route) {
     "ACU Western Civilisation Summer School Program 2026": { age: "Years 10–12", city: "Australia", priceBand: "低成本 / funded", boarding: "無住宿 / 依活動" },
     "Navitas English Australia Pathway English": { age: "16+ 歲", city: "Sydney / Perth", priceBand: "待報價", boarding: "城市宿舍 / 自理" },
     "Study Australia School Observation & Route Planning": { age: "家長同行 / K-12", city: "QLD / NSW / VIC / WA", priceBand: "客製核價", boarding: "住校 / homestay / 自理" },
+    "NZLC Young Learner English + Activities Programme 2026": { age: "13–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "Homestay / 接送" },
+    "NZLC Young Learner General English / High School Preparation 2026": { age: "13–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "Homestay / 接送" },
     "Kiwi English Academy Study Tour 2026": { age: "14–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
     "Kiwi English Academy High School Preparation 2026": { age: "14–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
     "WIE Holiday Program 2026": { age: "10+ 歲（團體）", city: "Hamilton", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "WIE High School Preparation 2026": { age: "13–17歲", city: "Hamilton", priceBand: "NZ$ 路線", boarding: "Homestay" },
+    "EF Auckland Summer Course 2026": { age: "12–18歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "Homestay / Residence" },
     "LSNZ Junior Camp Christchurch 2026": { age: "14–17歲", city: "Christchurch", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "LSNZ Young Learners General English / High School Preparation 2026": { age: "14–17歲", city: "Christchurch / Queenstown", priceBand: "NZ$ 路線", boarding: "Homestay / Residence" },
     "CCEL Secondary Schools Holiday Programme 2026": { age: "中學生", city: "Christchurch", priceBand: "待報價", boarding: "住校 / homestay" },
+    "University of Auckland Summer School 2026": { age: "17+ / 大學前置", city: "Auckland", priceBand: "NZ$ 路線", boarding: "城市宿舍 / 自理" },
     "University of Auckland Summer Start International 2027": { age: "Year 13 / foundation 完成", city: "Auckland", priceBand: "NZ$ 路線", boarding: "城市宿舍 / 自理" },
     "Te Atatū International Student Preparation Programme 2026": { age: "13–16歲", city: "Online / NZ route", priceBand: "待報價", boarding: "無住宿 / 線上" },
     "Tamwood UBC English & Culture Camp 2026": { age: "11–17歲", city: "Vancouver", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
@@ -16766,30 +16784,30 @@ const malaysiaEditorialBody = route.slug === "malaysia"
               <p class="zh-herald-standfirst">馬來西亞這條線更適合先做英語、先看課堂、先試 school-break route 的家庭。先把年齡段、日校或住宿、城市節奏和預算看清楚，後面的項目選擇會省力很多。</p>
             </header>
 
-            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
-              <details class="summer-mini-detail" open>
-                <summary><b>01</b><strong>收費說明</strong><span>成本比英美澳加更可控。</span></summary>
-                <p>OTC 代辦免費；常見成本包括項目費、住宿或日校安排、接送、保險與往返機票。</p>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              <details class="summer-mini-detail">
+                <summary><b>01</b><strong>收費說明</strong><span>成本更可控。</span></summary>
+                <p>項目、住宿、接送。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>02</b><strong>標準流程</strong><span>先分年齡，再分 route。</span></summary>
-                <p>先看 low-age、teen、holiday 或 pre-university，再核對是否日校、住宿或家長陪同。</p>
+                <p>low-age、teen、pre-u。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>03</b><strong>適合家庭</strong><span>適合第一次做國際暑校。</span></summary>
-                <p>更適合重視安全感、飛行負擔、英語 confidence 和低風險試水的家庭。</p>
+                <p>安全感、低風險、英語 confidence。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
-                <p>Low-age English、Teen Holiday English、Camp Route、Pre-University Exposure。</p>
+                <p>Low-age、Teen、Camp、Pre-U。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>05</b><strong>減壓流程</strong><span>OTC 先做家長端分流。</span></summary>
-                <p>先把孩子年齡、英文程度、住宿方式和家長預期講清楚，再進 shortlist。</p>
+                <p>年齡、英文、住宿先講清楚。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
-                <p>馬來西亞適不適合低齡、要不要住校、值不值得先從這條線試起，這些都能先看清楚。</p>
+                <p>低齡、住校、值不值。</p>
               </details>
             </div>
 
@@ -16869,7 +16887,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
     `
     : "";
 
-  const canadaEditorialBody = route.slug === "canada"
+const canadaEditorialBody = route.slug === "canada"
     ? `
       <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-canada">
         <div class="zh-herald-masthead">
@@ -16901,30 +16919,30 @@ const malaysiaEditorialBody = route.slug === "malaysia"
               <p class="zh-herald-standfirst">加拿大這條線適合先看 residence、homestay、城市節奏與 North America school planning。先把住宿型態、文件與城市差異看清楚，後面的 shortlist 會穩很多。</p>
             </header>
 
-            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
               <details class="summer-mini-detail">
-                <summary><b>01</b><strong>收費說明</strong><span>北美線裡較平衡，但文件不能少。</span></summary>
-                <p>課程、住宿、保險、接送、城市生活費與未成年人文件。</p>
+                <summary><b>01</b><strong>收費說明</strong><span>北美線裡較平衡。</span></summary>
+                <p>課程、住宿、文件。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>02</b><strong>標準流程</strong><span>先分 residence 或 homestay。</span></summary>
-                <p>先看住宿，再看城市、provider、週數與開班檔期。</p>
+                <p>先看住宿，再看城市。</p>
               </details>
               <details class="summer-mini-detail">
-                <summary><b>03</b><strong>適合家庭</strong><span>適合第一次做北美暑校的家庭。</span></summary>
-                <p>重視安全感、生活平衡與英文環境的家庭會更喜歡。</p>
+                <summary><b>03</b><strong>適合家庭</strong><span>適合第一次做北美暑校。</span></summary>
+                <p>安全感、平衡、英文環境。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
-                <p>Campus residence、city homestay、leadership、North America planning。</p>
+                <p>Residence、Homestay、Leadership、Planning。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>05</b><strong>減壓流程</strong><span>先把住宿和文件講清楚。</span></summary>
-                <p>custodial、consent、接送與 supervision 要先核對。</p>
+                <p>custodial、consent、接送。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
-                <p>先看 residence、homestay、Toronto / Vancouver 與值不值得做。</p>
+                <p>Residence、Homestay、值不值。</p>
               </details>
             </div>
 
@@ -17015,6 +17033,243 @@ const malaysiaEditorialBody = route.slug === "malaysia"
     `
     : "";
 
+  const newZealandEditorialBody = route.slug === "new-zealand"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-newzealand">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜新西蘭</strong></div>
+            <div>New Zealand Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">New Zealand · Junior English · School Prep · Safer Rhythm</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜新西蘭</h1>
+                <h2>New Zealand Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">新西蘭這條線適合先看英文沉浸、校園安全感、生活節奏與 homestay 穩定度。先把 junior、school-prep、group route 和 transition route 分清楚，後面的 shortlist 會省力很多。</p>
+            </header>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              <details class="summer-mini-detail"><summary><b>01</b><strong>收費說明</strong><span>成本更穩，住宿差異先看。</span></summary><p>課程、住宿、接送。</p></details>
+              <details class="summer-mini-detail"><summary><b>02</b><strong>標準流程</strong><span>先分 junior、prep、transition。</span></summary><p>先看 route，再看城市。</p></details>
+              <details class="summer-mini-detail"><summary><b>03</b><strong>適合家庭</strong><span>適合第一次做國際暑校。</span></summary><p>安全感、節奏、英文沉浸。</p></details>
+              <details class="summer-mini-detail"><summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary><p>Junior、Prep、Group、Transition。</p></details>
+              <details class="summer-mini-detail"><summary><b>05</b><strong>減壓流程</strong><span>先把 homestay 和照護講清楚。</span></summary><p>住宿、consent、保險。</p></details>
+              <details class="summer-mini-detail"><summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary><p>適不適合、住哪裡、值不值。</p></details>
+            </div>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">新西蘭線更適合哪類家庭</h2>
+              <p>第一次做國際暑校、希望英語環境真實但節奏不要太高壓，或想先把 K-12 / university transition 做成較溫和入口的家庭，通常會先看新西蘭。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
+              <p>Junior English、school-prep、group holiday route、university transition。先把 route 分開，再看 provider，家長比較不會被 brochure 帶著走。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>新西蘭項目更適合集中在 programmes 總表裡比對。主頁先把 family fit 和 route 講清楚，完整項目放到子頁集中看。</p>
+              <div class="summer-herald-linkbox">
+                <strong>新西蘭暑校熱門課程總表</strong>
+                <span>Kiwi English Academy、WIE、LSNZ、CCEL、University of Auckland 等 route 總表。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/new-zealand/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看新西蘭暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+          </main>
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family"><div class="zh-herald-card-name">Junior English</div><div class="zh-herald-card-en">Kiwi / LSNZ</div><div class="zh-herald-card-desc">適合先做英語 confidence、校園節奏與 homestay 適應。</div></div>
+              <div class="zh-herald-trust-card unit"><div class="zh-herald-card-name">School Prep</div><div class="zh-herald-card-en">High School Preparation</div><div class="zh-herald-card-desc">適合已經在看中學轉入、校園語言和學校適應的家庭。</div></div>
+              <div class="zh-herald-trust-card will"><div class="zh-herald-card-name">Group Route</div><div class="zh-herald-card-en">WIE / Group Holiday</div><div class="zh-herald-card-desc">適合學校團、小團與 group-based holiday route。</div></div>
+              <div class="zh-herald-trust-card smsf"><div class="zh-herald-card-name">Transition Route</div><div class="zh-herald-card-en">University of Auckland</div><div class="zh-herald-card-desc">適合高中後段、已經開始看本科轉接與長線規劃的家庭。</div></div>
+            </div>
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">城市與節奏</div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">AKL</div><div><div class="zh-herald-resource-name">Auckland</div><div class="zh-herald-card-desc">城市資源完整，適合 junior English、school prep 與 university transition。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">CHC</div><div><div class="zh-herald-resource-name">Christchurch</div><div class="zh-herald-card-desc">節奏更穩，適合 residence、secondary holiday route 與 homestay。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">HAM</div><div><div class="zh-herald-resource-name">Hamilton</div><div class="zh-herald-card-desc">更偏 group holiday 與 school-break route。</div></div></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
+
+  const australiaEditorialBody = route.slug === "australia"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-australia">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜澳洲</strong></div>
+            <div>Australia Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">Australia · City English · School Observation · Pathway</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜澳洲</h1>
+                <h2>Australia Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">澳洲這條線適合先把城市英文生活、中學觀察、私校前置、大學試跑與 pathway 準備分清楚。先看 route，再看州別、城市與住宿，後面的 short list 才會穩。</p>
+            </header>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              <details class="summer-mini-detail"><summary><b>01</b><strong>收費說明</strong><span>城市與住宿差異先看。</span></summary><p>課程、住宿、接送。</p></details>
+              <details class="summer-mini-detail"><summary><b>02</b><strong>標準流程</strong><span>先分 school、city、pathway。</span></summary><p>先看 route，再看城市。</p></details>
+              <details class="summer-mini-detail"><summary><b>03</b><strong>適合家庭</strong><span>適合接回長線升學。</span></summary><p>K-12、私校、pathway。</p></details>
+              <details class="summer-mini-detail"><summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary><p>城市、中學、大學、Pathway。</p></details>
+              <details class="summer-mini-detail"><summary><b>05</b><strong>減壓流程</strong><span>先把監護和住宿講清楚。</span></summary><p>homestay、consent、接送。</p></details>
+              <details class="summer-mini-detail"><summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary><p>城市、節奏、適不適合。</p></details>
+            </div>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">澳洲線更適合哪類家庭</h2>
+              <p>如果家長不只想找一個短期營，而是想把暑假直接接回後續私校、中學、pathway 或本科規劃，澳洲線通常比單純語言營更有延續性。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
+              <p>城市英文生活型、中學觀察 / 私校前置型、大學學術試跑型、pathway / 升學準備型。先把主線分開，再看 provider 與州別。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>澳洲項目適合放到 programmes 總表集中比較。主頁先講清楚家庭適配與 route，完整項目放到子頁看得更準。</p>
+              <div class="summer-herald-linkbox">
+                <strong>澳洲暑校熱門課程總表</strong>
+                <span>BROWNS、Shafston、Gold Coast、Melbourne、Sydney 與大學試跑 / pathway route 總表。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/australia/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看澳洲暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+          </main>
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family"><div class="zh-herald-card-name">城市英文生活型</div><div class="zh-herald-card-en">Sydney / Melbourne / Brisbane</div><div class="zh-herald-card-desc">適合第一次看澳洲、先做英文輸出與城市生活感。</div></div>
+              <div class="zh-herald-trust-card unit"><div class="zh-herald-card-name">中學觀察型</div><div class="zh-herald-card-en">School Observation / Shadowing</div><div class="zh-herald-card-desc">適合已在看 K-12、私校與 boarding 的家庭。</div></div>
+              <div class="zh-herald-trust-card will"><div class="zh-herald-card-name">大學試跑型</div><div class="zh-herald-card-en">UOW / JCU / NYSF</div><div class="zh-herald-card-desc">適合高中後段、已開始看本科學科節奏的學生。</div></div>
+              <div class="zh-herald-trust-card smsf"><div class="zh-herald-card-name">Pathway 準備型</div><div class="zh-herald-card-en">Shafston / Navitas</div><div class="zh-herald-card-desc">適合真正要把短期 route 接回升學規劃的家庭。</div></div>
+            </div>
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">州別與城市</div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">GC</div><div><div class="zh-herald-resource-name">Gold Coast</div><div class="zh-herald-card-desc">私校觀察、語言沉浸與 coastal school route 很完整。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">SYD</div><div><div class="zh-herald-resource-name">Sydney</div><div class="zh-herald-card-desc">城市節奏快，適合英文、城市生活與 school-break route。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">MEL</div><div><div class="zh-herald-resource-name">Melbourne</div><div class="zh-herald-card-desc">適合英文、校園生活與藝術 / 學術氛圍更重的家庭。</div></div></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
+
+  const ukEditorialBody = route.slug === "uk"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-uk">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜英國</strong></div>
+            <div>United Kingdom Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">United Kingdom · Oxford · Cambridge · London · Boarding</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜英國</h1>
+                <h2>United Kingdom Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">英國暑校最常見的誤差，是把 Oxford、Cambridge、London campus、junior English、premium camp 全部混成一類。先把 route 分開，再看 school name，後面的 shortlist 才有意義。</p>
+            </header>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              <details class="summer-mini-detail"><summary><b>01</b><strong>收費說明</strong><span>校名不同，差價很大。</span></summary><p>項目、住宿、監護。</p></details>
+              <details class="summer-mini-detail"><summary><b>02</b><strong>標準流程</strong><span>先分學術型、寄宿型、camp。</span></summary><p>先看 route，再看校名。</p></details>
+              <details class="summer-mini-detail"><summary><b>03</b><strong>適合家庭</strong><span>適合英式學術與寄宿體驗。</span></summary><p>tutorial、boarding、care。</p></details>
+              <details class="summer-mini-detail"><summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary><p>London、Oxbridge、Junior、Camp。</p></details>
+              <details class="summer-mini-detail"><summary><b>05</b><strong>減壓流程</strong><span>先把校名和 provider 講清楚。</span></summary><p>affiliation、住宿、年齡段。</p></details>
+              <details class="summer-mini-detail"><summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary><p>官方性、寄宿、值不值。</p></details>
+            </div>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">英國線更適合哪類家庭</h2>
+              <p>如果家長想先讓孩子摸到英式學術、seminar / tutorial、boarding 與名校場景，英國線通常最直觀。但真正要先分清楚 route，不是看到 Oxford 或 London 就直接報。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
+              <p>London 名校校園型、Oxbridge 學術型、junior English 寄宿型、premium camp / 活動型。先把主線分開，再看 provider 與具體校園。</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>英國項目最容易因為 school name 看花。主頁先講清楚 route 和 family fit，完整項目放到子頁總表集中比對。</p>
+              <div class="summer-herald-linkbox">
+                <strong>英國暑校熱門課程總表</strong>
+                <span>Oxford、Cambridge、London、boarding、junior English 與 premium camp route 總表。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/uk/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看英國暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+          </main>
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family"><div class="zh-herald-card-name">London 名校型</div><div class="zh-herald-card-en">UCL / KCL / UAL / Imperial</div><div class="zh-herald-card-desc">適合先看 London campus、城市節奏與大學校園感。</div></div>
+              <div class="zh-herald-trust-card unit"><div class="zh-herald-card-name">Oxbridge 學術型</div><div class="zh-herald-card-en">Oxford / Cambridge</div><div class="zh-herald-card-desc">適合學術力強、想提早摸 tutorial / seminar 的學生。</div></div>
+              <div class="zh-herald-trust-card will"><div class="zh-herald-card-name">Junior 寄宿型</div><div class="zh-herald-card-en">Bell / Bucksmore / TASIS</div><div class="zh-herald-card-desc">適合低齡、重 pastoral care、寄宿與英文輸出的家庭。</div></div>
+              <div class="zh-herald-trust-card smsf"><div class="zh-herald-card-name">Premium Camp 型</div><div class="zh-herald-card-en">Inspired / ISSOS</div><div class="zh-herald-card-desc">適合活動更多、課堂壓力更低、年齡更小的家庭。</div></div>
+            </div>
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">城市與校園</div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">LDN</div><div><div class="zh-herald-resource-name">London</div><div class="zh-herald-card-desc">城市感最強，適合 campus life、專業探索與大學節奏。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">OX</div><div><div class="zh-herald-resource-name">Oxford</div><div class="zh-herald-card-desc">tutorial 氣質更強，適合學術型與 pre-university route。</div></div></div>
+              <div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">CAM</div><div><div class="zh-herald-resource-name">Cambridge</div><div class="zh-herald-card-desc">學術感、college 場景與學科探索都很強。</div></div></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
+
   return pageShell({
     title: route.slug === "new-zealand"
       ? "OTC 新西蘭暑校聯盟 | OTC Study Hub"
@@ -17054,7 +17309,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
       : route.slug === "canada"
       ? "OTC 加拿大暑校聯盟分享題圖"
       : "",
-    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : `
+    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : route.slug === "new-zealand" ? newZealandEditorialBody : route.slug === "australia" ? australiaEditorialBody : route.slug === "uk" ? ukEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
@@ -17568,6 +17823,54 @@ function malaysiaProgrammesPage() {
               <article><strong>最後做 shortlist</strong><span>先把城市、預算和孩子節奏核對完再進正式申請。</span></article>
               <article><strong>聯絡 OTC</strong><span>WhatsApp +44 7947 991572 · office@overseasuk.com · WeChat overseasus</span></article>
             </div>
+            <div class="article-service-table summer-programme-compare-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>類型</th>
+                    <th>代表 Provider</th>
+                    <th>城市</th>
+                    <th>年齡</th>
+                    <th>住宿</th>
+                    <th>更適合誰</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Low-age English</td>
+                    <td>British Council</td>
+                    <td>Kuala Lumpur</td>
+                    <td>7–12</td>
+                    <td>日校 / 家長安排</td>
+                    <td>低齡、先做英文 confidence</td>
+                  </tr>
+                  <tr>
+                    <td>Teen Holiday English</td>
+                    <td>British Council / ELS</td>
+                    <td>KL / Subang / Penang</td>
+                    <td>13–17</td>
+                    <td>日校 / 自理</td>
+                    <td>第一次做國際暑校、先試亞洲線</td>
+                  </tr>
+                  <tr>
+                    <td>Camp Route</td>
+                    <td>Erican</td>
+                    <td>Kuala Lumpur</td>
+                    <td>中小學</td>
+                    <td>Camp / 日校</td>
+                    <td>活動型、團體型、節奏更柔和</td>
+                  </tr>
+                  <tr>
+                    <td>Pre-University</td>
+                    <td>Monash Malaysia</td>
+                    <td>Bandar Sunway</td>
+                    <td>16+</td>
+                    <td>城市宿舍 / 自理</td>
+                    <td>高中後段、想先看大學氛圍</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             ${groupedSections}
             <div class="summer-country-cta-row" style="margin-top:20px">
               <a class="btn btn-primary" href="/zh/summer-school-alliance/malaysia/">返回馬來西亞主頁</a>
@@ -17711,6 +18014,54 @@ function canadaProgrammesPage() {
               <article><strong>最後做 shortlist</strong><span>先把預算、年齡與文件核對完再進正式申請。</span></article>
               <article><strong>聯絡 OTC</strong><span>WhatsApp +44 7947 991572 · office@overseasuk.com · WeChat overseasus</span></article>
             </div>
+            <div class="article-service-table summer-programme-compare-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>類型</th>
+                    <th>代表 Provider</th>
+                    <th>城市</th>
+                    <th>年齡</th>
+                    <th>住宿</th>
+                    <th>更適合誰</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Campus Residence</td>
+                    <td>Tamwood / ILSC UBC</td>
+                    <td>Vancouver</td>
+                    <td>11–17</td>
+                    <td>Residence</td>
+                    <td>喜歡校園感、supervision 更完整</td>
+                  </tr>
+                  <tr>
+                    <td>City Homestay</td>
+                    <td>ILSC Toronto / CISS</td>
+                    <td>Toronto</td>
+                    <td>13–17</td>
+                    <td>Homestay</td>
+                    <td>想看北美城市節奏與生活環境</td>
+                  </tr>
+                  <tr>
+                    <td>Leadership / Future</td>
+                    <td>Tamwood Future of Work</td>
+                    <td>Vancouver</td>
+                    <td>15–17</td>
+                    <td>Residence</td>
+                    <td>已開始看 subject interest 與未來方向</td>
+                  </tr>
+                  <tr>
+                    <td>North America Planning</td>
+                    <td>CISS / Summer at UBC</td>
+                    <td>Toronto / Vancouver</td>
+                    <td>13–17</td>
+                    <td>Residence / Homestay</td>
+                    <td>把暑期體驗接回後續學校申請</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
             ${groupedSections}
 
@@ -17721,6 +18072,382 @@ function canadaProgrammesPage() {
         </div>
       </div>
     `
+  });
+}
+
+function buildAllianceProgrammesPage(routeSlug, config) {
+  const route = summerSchoolCountryRoutes.find((entry) => entry.slug === routeSlug);
+  if (!route) return "";
+
+  const inferMeta = (project) => {
+    const merged = project.join(" ");
+    let age = "青少年";
+    const ageMatch = merged.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲?/);
+    if (ageMatch) age = `${ageMatch[1].replace(/\s*/g, "")}歲`;
+    else if (/Year 12|高中後段|16\+|17\+|本科/i.test(merged)) age = "高中後段 / 16+";
+
+    let city = project[2]
+      .replace(/（.*?）/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    city = city.split("/")[0].trim();
+
+    let format = "住宿待核";
+    if (/homestay/i.test(merged)) format = "Homestay";
+    else if (/residence|residential|寄宿|宿舍|boarding|住校/i.test(merged)) format = "Residence";
+    else if (/day|日校/i.test(merged)) format = "日校";
+    else if (/online|線上/i.test(merged)) format = "線上 / 無住宿";
+    return { age, city, format };
+  };
+
+  const groupedSections = config.groups.map((group) => {
+    const items = route.projects
+      .map((project, index) => ({ project, index }))
+      .filter(({ project }) => config.getCategory(project[0]) === group.id);
+
+    const cards = items.map(({ project, index }) => {
+      const meta = inferMeta(project);
+      const applyHref = `/university-applications/?${new URLSearchParams({
+        country: route.name,
+        institution: project[3],
+        programme: project[0]
+      }).toString()}#otc-apply-form`;
+      return `
+        <article class="summer-hot-course-card">
+          <div class="summer-hot-course-card-main">
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <strong>${project[0]}</strong>
+            <span>${project[3]}</span>
+            <div class="summer-hot-meta-row">
+              <span class="summer-hot-meta-pill">${meta.age}</span>
+              <span class="summer-hot-meta-pill">${meta.city}</span>
+              <span class="summer-hot-meta-pill">${meta.format}</span>
+            </div>
+            <p>${project[4]}</p>
+            <em>${project[8]}</em>
+          </div>
+          <div class="summer-hot-cta-row">
+            <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+            <a class="summer-hot-cta" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 ${project[0]}。`)}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    return `
+      <section class="summer-hot-category">
+        <div class="summer-hot-category-head">
+          <b>${group.code}</b>
+          <div>
+            <strong>${group.title}</strong>
+            <p>${group.description}</p>
+          </div>
+        </div>
+        <div class="summer-hot-course-grid">
+          ${cards}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  return pageShell({
+    title: config.pageTitle,
+    current: "resources",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: config.pageDescription,
+    path: config.path,
+    image: config.image,
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: config.imageAlt,
+    body: `
+      <div class="zh-herald-page summer-herald-page summer-herald-us ${config.bodyClass}">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">${config.englishTitle}</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>${config.chineseTitle}</strong></div>
+            <div>${config.englishTitle}</div>
+            <div>OTC Study Hub</div>
+            <div>programme shortlist</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">${config.stripTag}</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid summer-herald-grid-single">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>${config.chineseTitle}</h1>
+                <h2>${config.englishTitle}</h2>
+              </div>
+              <p class="zh-herald-standfirst">${config.standfirst}</p>
+            </header>
+            <div class="summer-herald-inline-strip">
+              ${config.inlineStrip.map((item) => `<article><strong>${item.title}</strong><span>${item.copy}</span></article>`).join("")}
+            </div>
+            ${config.compareTableHtml || ""}
+            ${groupedSections}
+            <div class="summer-country-cta-row" style="margin-top:20px">
+              <a class="btn btn-primary" href="${config.backHref}">返回${config.backLabel}主頁</a>
+            </div>
+          </main>
+        </div>
+      </div>
+    `
+  });
+}
+
+function newZealandProgrammesPage() {
+  return buildAllianceProgrammesPage("new-zealand", {
+    pageTitle: "新西蘭暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "新西蘭暑校熱門課程總表：Kiwi English Academy、WIE、LSNZ、CCEL、University of Auckland 與 school-prep / junior holiday / transition route 總表。",
+    path: "/zh/summer-school-alliance/new-zealand/programmes/",
+    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png",
+    imageAlt: "OTC 新西蘭暑校聯盟分享題圖",
+    bodyClass: "summer-herald-newzealand",
+    chineseTitle: "海外督導｜暑校聯盟｜新西蘭",
+    englishTitle: "New Zealand Summer Alliance 2026",
+    stripTag: "New Zealand Programmes",
+    standfirst: "這一頁集中放 Kiwi English Academy、WIE、LSNZ、CCEL、University of Auckland 等 route，方便家長直接比對 junior、school prep、group holiday 與 transition 路線。",
+    inlineStrip: [
+      { title: "先看年齡段", copy: "先分 junior、teen、transition，再看 provider。" },
+      { title: "再看住宿", copy: "homestay、residence、group route 差異很大。" },
+      { title: "最後做 shortlist", copy: "先把城市、預算與照護核對完再報名。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead>
+            <tr>
+              <th>類型</th>
+              <th>代表 Provider</th>
+              <th>城市</th>
+              <th>年齡</th>
+              <th>住宿</th>
+              <th>更適合誰</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Junior English</td>
+              <td>NZLC / Kiwi / LSNZ</td>
+              <td>Auckland / Christchurch</td>
+              <td>13–17</td>
+              <td>Homestay / Residence</td>
+              <td>第一次做國際暑校、先建英文 confidence</td>
+            </tr>
+            <tr>
+              <td>School Prep</td>
+              <td>NZLC / Kiwi / WIE / PSI</td>
+              <td>Auckland / Hamilton / Online</td>
+              <td>13–17</td>
+              <td>Homestay / 線上</td>
+              <td>已在看新西蘭中學或 school transition</td>
+            </tr>
+            <tr>
+              <td>Group Route</td>
+              <td>WIE / NZLC Group Tours</td>
+              <td>Hamilton / Auckland</td>
+              <td>10+</td>
+              <td>Homestay / 團體安排</td>
+              <td>學校團、小團、家族團</td>
+            </tr>
+            <tr>
+              <td>Transition</td>
+              <td>University of Auckland</td>
+              <td>Auckland</td>
+              <td>17+</td>
+              <td>城市宿舍 / 自理</td>
+              <td>高中後段、本科前置、credit route</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/new-zealand/",
+    backLabel: "新西蘭",
+    groups: [
+      { id: "junior-english", code: "01", title: "Junior English", description: "適合先做英語 confidence 與 homestay 適應。" },
+      { id: "school-prep", code: "02", title: "School Prep", description: "適合已在看中學前置與校園適應的家庭。" },
+      { id: "group-route", code: "03", title: "Group Route", description: "適合學校團與 holiday route。" },
+      { id: "transition", code: "04", title: "Transition Route", description: "適合高中後段與本科前置。" }
+    ],
+    getCategory: (title) => /High School Preparation|Preparation/i.test(title)
+      ? "school-prep"
+      : /WIE Holiday|Group/i.test(title)
+        ? "group-route"
+        : /University of Auckland|Transition|Summer School/i.test(title)
+          ? "transition"
+          : "junior-english"
+  });
+}
+
+function australiaProgrammesPage() {
+  return buildAllianceProgrammesPage("australia", {
+    pageTitle: "澳洲暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "澳洲暑校熱門課程總表：BROWNS、Shafston、Gold Coast、Melbourne、Sydney 與大學試跑 / pathway route 總表。",
+    path: "/zh/summer-school-alliance/australia/programmes/",
+    image: "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png",
+    imageAlt: "OTC 澳洲暑校聯盟分享題圖",
+    bodyClass: "summer-herald-australia",
+    chineseTitle: "海外督導｜暑校聯盟｜澳洲",
+    englishTitle: "Australia Summer Alliance 2026",
+    stripTag: "Australia Programmes",
+    standfirst: "這一頁集中放 Melbourne、Sydney、Gold Coast、Brisbane、Perth 以及 school observation、pathway、university taster 等 route，方便家長直接比對城市與路線。",
+    inlineStrip: [
+      { title: "先看主線", copy: "先分城市英文、學校觀察、大學試跑或 pathway。" },
+      { title: "再看州別", copy: "Sydney、Melbourne、Gold Coast、Perth 的節奏不同。" },
+      { title: "最後做 shortlist", copy: "先把監護、住宿與預算核對完再報名。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead>
+            <tr>
+              <th>類型</th>
+              <th>代表 Provider</th>
+              <th>城市</th>
+              <th>年齡</th>
+              <th>住宿</th>
+              <th>更適合誰</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>城市英文生活型</td>
+              <td>BROWNS / Universal / Greenwich</td>
+              <td>Sydney / Melbourne / Brisbane</td>
+              <td>10–17</td>
+              <td>Homestay / Residence</td>
+              <td>第一次看澳洲、先做英文與城市生活感</td>
+            </tr>
+            <tr>
+              <td>中學觀察型</td>
+              <td>School Observation / Shadowing</td>
+              <td>Gold Coast / Adelaide</td>
+              <td>低齡–高中</td>
+              <td>Boarding / Homestay</td>
+              <td>已在看 K-12、私校與 boarding</td>
+            </tr>
+            <tr>
+              <td>大學試跑型</td>
+              <td>UOW / JCU / NYSF</td>
+              <td>Wollongong / Queensland</td>
+              <td>16+</td>
+              <td>Residence / 自理</td>
+              <td>高中後段、想先看本科節奏</td>
+            </tr>
+            <tr>
+              <td>Pathway 準備型</td>
+              <td>Shafston / Navitas</td>
+              <td>Brisbane / Sydney / Perth</td>
+              <td>12–17 / 16+</td>
+              <td>Homestay / 城市宿舍</td>
+              <td>想把短期 route 接回升學規劃</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/australia/",
+    backLabel: "澳洲",
+    groups: [
+      { id: "city-english", code: "01", title: "城市英文生活型", description: "適合第一次看澳洲與英文輸出型家庭。" },
+      { id: "school-observation", code: "02", title: "中學觀察型", description: "適合 K-12、私校與 boarding 家庭。" },
+      { id: "university-taster", code: "03", title: "大學試跑型", description: "適合高中後段與學科探索。" },
+      { id: "pathway-preparation", code: "04", title: "Pathway 準備型", description: "適合長線升學與 transition route。" }
+    ],
+    getCategory: (title) => /UOW|ACU|NYSF|TAFE Queensland|JCU IERC/i.test(title) ? "university-taster" : /Navitas|Shafston|Study Australia School Observation/i.test(title) ? "pathway-preparation" : /BROWNS|Kids Holiday Program|High School Holiday|High School Preparation|School Observation|South Australian Government Schools|Private School Shadowing/i.test(title) ? "school-observation" : "city-english"
+  });
+}
+
+function ukProgrammesPage() {
+  return buildAllianceProgrammesPage("uk", {
+    pageTitle: "英國暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "英國暑校熱門課程總表：Oxford、Cambridge、London、boarding、junior English 與 premium camp route 總表。",
+    path: "/zh/summer-school-alliance/uk/programmes/",
+    image: "/assets/social/us-summer-alliance-hero-share-20260528-v4.png",
+    imageAlt: "OTC 英國暑校聯盟分享題圖",
+    bodyClass: "summer-herald-uk",
+    chineseTitle: "海外督導｜暑校聯盟｜英國",
+    englishTitle: "United Kingdom Summer Alliance 2026",
+    stripTag: "United Kingdom Programmes",
+    standfirst: "這一頁集中放 Oxford、Cambridge、London、boarding、junior English 與 premium camp route，方便家長直接比對學術型、寄宿型與 camp 型差異。",
+    inlineStrip: [
+      { title: "先看 route", copy: "先分 London、Oxbridge、junior English 或 camp。" },
+      { title: "再看校園與寄宿", copy: "校名、官方 affiliation、boarding 要先核對。" },
+      { title: "最後做 shortlist", copy: "先把年齡、英文與住宿承受度核對完。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead>
+            <tr>
+              <th>類型</th>
+              <th>代表 Provider</th>
+              <th>城市</th>
+              <th>年齡</th>
+              <th>住宿</th>
+              <th>更適合誰</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>London 名校校園型</td>
+              <td>KCL / UCL / Imperial / UAL</td>
+              <td>London</td>
+              <td>13–18 / 17+</td>
+              <td>Residence / 城市宿舍</td>
+              <td>想看 London 校園、城市節奏與大學氛圍</td>
+            </tr>
+            <tr>
+              <td>Oxbridge 學術型</td>
+              <td>Oxford / Cambridge providers</td>
+              <td>Oxford / Cambridge</td>
+              <td>13–18</td>
+              <td>Boarding / Residence</td>
+              <td>重視 tutorial、seminar、學術討論密度</td>
+            </tr>
+            <tr>
+              <td>Junior 英語寄宿型</td>
+              <td>Bucksmore / Bell / TASIS</td>
+              <td>Brighton / Surrey / 多校區</td>
+              <td>11–17</td>
+              <td>Boarding / Homestay</td>
+              <td>低齡、重 pastoral care 與寄宿體驗</td>
+            </tr>
+            <tr>
+              <td>Premium Camp 型</td>
+              <td>ISSOS / Inspired / Concord</td>
+              <td>多校區</td>
+              <td>低齡–高中</td>
+              <td>Boarding / Camp</td>
+              <td>想要活動更豐富、課堂壓力更低</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/uk/",
+    backLabel: "英國",
+    groups: [
+      { id: "london-campus", code: "01", title: "London 名校校園型", description: "適合大學校園感與城市節奏。" },
+      { id: "oxbridge-academic", code: "02", title: "Oxbridge 學術型", description: "適合學術力強、想摸 tutorial / seminar 的學生。" },
+      { id: "junior-english", code: "03", title: "Junior 英語寄宿型", description: "適合低齡、重 pastoral care 與寄宿。" },
+      { id: "premium-camp", code: "04", title: "Premium Camp 型", description: "適合活動更多、課堂壓力更低的家庭。" }
+    ],
+    getCategory: (title) => /KCL|UCL|Imperial|UAL|InvestIN|Academic Summer|King’s College London/i.test(title) ? "london-campus" : /Oxford|Cambridge|Reach Cambridge|ISSOS|Immerse|St Clare|Oxford Royale|Oxford Summer Courses|Bucksmore Pre-University|Earlscliffe/i.test(title) ? "oxbridge-academic" : /Language in Action|Bucksmore Intensive English|Bucksmore English|Bucksmore IELTS|TASIS|Bell Young Learners|Felsted/i.test(title) ? "junior-english" : "premium-camp"
   });
 }
 
@@ -20964,6 +21691,12 @@ write("summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("zh/summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("summer-school-alliance/canada/programmes", canadaProgrammesPage());
 write("zh/summer-school-alliance/canada/programmes", canadaProgrammesPage());
+write("summer-school-alliance/new-zealand/programmes", newZealandProgrammesPage());
+write("zh/summer-school-alliance/new-zealand/programmes", newZealandProgrammesPage());
+write("summer-school-alliance/australia/programmes", australiaProgrammesPage());
+write("zh/summer-school-alliance/australia/programmes", australiaProgrammesPage());
+write("summer-school-alliance/uk/programmes", ukProgrammesPage());
+write("zh/summer-school-alliance/uk/programmes", ukProgrammesPage());
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);

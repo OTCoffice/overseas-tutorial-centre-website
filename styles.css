@@ -10954,13 +10954,13 @@ h1 {
 }
 
 .zh-herald-main {
-  padding: 38px 48px 40px 56px;
+  padding: 28px 34px 30px 40px;
   border-right: 1px solid #c8b89a;
 }
 
 .zh-herald-side {
   min-width: 0;
-  padding: 30px 32px 30px 28px;
+  padding: 22px 24px 22px 20px;
   background: #f3ede2;
 }
 
@@ -10973,8 +10973,8 @@ h1 {
   font-size: 18px;
   font-weight: 850;
   line-height: 1.35;
-  margin: 30px 0 14px;
-  padding-bottom: 9px;
+  margin: 18px 0 9px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #c8b89a;
 }
 
@@ -10999,10 +10999,10 @@ h1 {
 
 .zh-herald-main p {
   color: #3d2f22;
-  font-size: 14px;
-  line-height: 1.95;
+  font-size: 13px;
+  line-height: 1.75;
   text-align: justify;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 .zh-academic-page {
@@ -11612,8 +11612,8 @@ h1 {
 }
 
 .zh-herald-widget {
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #c8b89a;
 }
 
@@ -11632,7 +11632,7 @@ h1 {
   font-size: 14px;
   font-weight: 850;
   letter-spacing: 0.06em;
-  margin-bottom: 13px;
+  margin-bottom: 9px;
 }
 
 .zh-herald-widget-title::before {
@@ -18319,56 +18319,56 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   padding: 0 10px 8px;
 }
 
-.summer-herald-us .summer-hot-course-grid {
+.summer-herald-page .summer-hot-course-grid {
   gap: 10px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 12px;
 }
 
-.summer-herald-us .summer-hot-course-card {
+.summer-herald-page .summer-hot-course-card {
   border-radius: 4px;
   box-shadow: none;
   padding: 12px;
 }
 
-.summer-herald-us .summer-hot-course-card-main {
+.summer-herald-page .summer-hot-course-card-main {
   padding: 0;
 }
 
-.summer-herald-us .summer-hot-course-card-main strong {
+.summer-herald-page .summer-hot-course-card-main strong {
   font-family: var(--font-zh-editorial);
   font-size: 15px;
   line-height: 1.28;
 }
 
-.summer-herald-us .summer-hot-course-card-main > span,
-.summer-herald-us .summer-hot-course-card-main p,
-.summer-herald-us .summer-hot-course-card-main em {
+.summer-herald-page .summer-hot-course-card-main > span,
+.summer-herald-page .summer-hot-course-card-main p,
+.summer-herald-page .summer-hot-course-card-main em {
   font-size: 11px;
 }
 
-.summer-herald-us .summer-hot-cta-row {
+.summer-herald-page .summer-hot-cta-row {
   padding: 8px 0 0;
 }
 
-.summer-herald-us .summer-hot-course-card-main b {
+.summer-herald-page .summer-hot-course-card-main b {
   font-size: 10px;
 }
 
-.summer-herald-us .summer-hot-course-card-main p {
+.summer-herald-page .summer-hot-course-card-main p {
   line-height: 1.45;
   margin-top: 6px;
 }
 
-.summer-herald-us .summer-hot-course-card-main > span {
+.summer-herald-page .summer-hot-course-card-main > span {
   margin-top: 5px;
 }
 
-.summer-herald-us .summer-hot-category + .summer-hot-category {
+.summer-herald-page .summer-hot-category + .summer-hot-category {
   margin-top: 18px;
 }
 
-.summer-herald-us .summer-hot-category-head {
+.summer-herald-page .summer-hot-category-head {
   border-radius: 6px;
   box-shadow: none;
   gap: 8px;
@@ -18377,39 +18377,39 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   padding: 10px 12px;
 }
 
-.summer-herald-us .summer-hot-category-head b {
+.summer-herald-page .summer-hot-category-head b {
   font-size: 11px;
   height: 28px;
   width: 28px;
 }
 
-.summer-herald-us .summer-hot-category-head strong {
+.summer-herald-page .summer-hot-category-head strong {
   font-size: 20px;
   line-height: 1.12;
   margin-top: 0;
 }
 
-.summer-herald-us .summer-hot-category-head p {
+.summer-herald-page .summer-hot-category-head p {
   font-size: 11px;
   line-height: 1.45;
   margin: 4px 0 0;
 }
 
-.summer-herald-us .summer-hot-meta-row {
+.summer-herald-page .summer-hot-meta-row {
   gap: 6px;
   margin-top: 8px;
 }
 
-.summer-herald-us .summer-hot-meta-pill {
+.summer-herald-page .summer-hot-meta-pill {
   font-size: 10px;
   padding: 5px 7px;
 }
 
-.summer-herald-us .summer-hot-course-card-main em {
+.summer-herald-page .summer-hot-course-card-main em {
   margin-top: 4px;
 }
 
-.summer-herald-us .summer-country-cta-banner {
+.summer-herald-page .summer-country-cta-banner {
   margin-top: 8px;
 }
 
@@ -18418,22 +18418,22 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   border: 1px solid #d6c6ab;
   border-radius: 4px;
   display: grid;
-  gap: 10px;
-  margin-top: 12px;
-  padding: 16px 18px;
+  gap: 7px;
+  margin-top: 8px;
+  padding: 11px 13px;
 }
 
 .summer-herald-linkbox strong {
   color: #1a1410;
   font-family: var(--font-zh-editorial);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2;
 }
 
 .summer-herald-linkbox span {
   color: #4e4031;
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .summer-herald-linkbox .actions {
@@ -18452,11 +18452,11 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .summer-herald-us .zh-herald-masthead {
-  padding: 16px 36px;
+  padding: 14px 26px;
 }
 
 .summer-herald-us .zh-herald-section-bar {
-  padding: 7px 36px;
+  padding: 6px 26px;
 }
 
 .summer-herald-us .zh-herald-body-grid {
@@ -18468,15 +18468,15 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .summer-herald-us .zh-herald-main {
-  padding: 34px 36px 34px 36px;
+  padding: 24px 26px 24px 26px;
 }
 
 .summer-herald-us .zh-herald-side {
-  padding: 28px 28px 28px 24px;
+  padding: 18px 18px 18px 16px;
 }
 
 .summer-herald-us .summer-herald-hero {
-  padding: 0 0 14px;
+  padding: 0 0 10px;
   border-bottom: 1px solid #c8b89a;
   background: transparent;
 }
@@ -18510,14 +18510,14 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   max-width: 760px;
   border-left: 0;
   padding-left: 0;
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 .summer-herald-inline-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
-  margin: 10px 0 14px;
+  margin: 8px 0 10px;
 }
 
 .summer-herald-inline-strip article {
