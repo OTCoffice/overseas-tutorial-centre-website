@@ -163,3 +163,19 @@ build_share(
         {"title": "常見問題", "blurb": "低齡能不能做、值不值得先從這條線開始，都能先看清。"},
     ],
 )
+
+build_share(
+    "canada-summer-alliance-hero-share-20260528-v1.png",
+    "Canada · Residence · Homestay · North America",
+    "海外督導｜暑校聯盟｜加拿大",
+    "Canada Summer Alliance 2026",
+    "加拿大這條線適合先看 residence、homestay、城市節奏與 North America school planning。先把住宿型態、文件與城市差異看清楚，後面的 shortlist 會穩很多。",
+    [
+        {"title": "收費說明", "blurb": "北美線裡較平衡，但文件不能少。"},
+        {"title": "標準流程", "blurb": "先分 residence 或 homestay，再看城市與 provider。"},
+        {"title": "適合家庭", "blurb": "適合第一次做北美暑校、重視生活平衡的家庭。"},
+        {"title": "路線分類", "blurb": "Campus residence、city homestay、leadership、planning。"},
+        {"title": "減壓流程", "blurb": "先核對 custodial、consent、接送與 supervision。"},
+        {"title": "常見問題", "blurb": "先看 residence、homestay、Toronto / Vancouver。"},
+    ],
+)

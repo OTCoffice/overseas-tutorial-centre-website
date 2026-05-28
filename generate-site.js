@@ -16942,13 +16942,17 @@ const malaysiaEditorialBody = route.slug === "malaysia"
       ? "/assets/social/us-summer-alliance-hero-share-20260528-v4.png"
       : route.slug === "malaysia"
       ? "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png"
+      : route.slug === "canada"
+      ? "/assets/social/canada-summer-alliance-hero-share-20260528-v1.png"
       : "",
-    imageWidth: route.slug === "united-states" || route.slug === "malaysia" ? 1200 : 1200,
-    imageHeight: route.slug === "united-states" || route.slug === "malaysia" ? 630 : 675,
+    imageWidth: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 1200 : 1200,
+    imageHeight: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 630 : 675,
     imageAlt: route.slug === "united-states"
       ? "OTC 美國暑校聯盟分享題圖"
       : route.slug === "malaysia"
       ? "OTC 馬來西亞暑校聯盟分享題圖"
+      : route.slug === "canada"
+      ? "OTC 加拿大暑校聯盟分享題圖"
       : "",
     body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
@@ -17566,6 +17570,10 @@ function canadaProgrammesPage() {
     locale: "zh",
     description: "加拿大暑校熱門課程總表：Tamwood、ILSC、CISS、Summer at UBC 與 North America planning route 項目總表。",
     path: "/zh/summer-school-alliance/canada/programmes/",
+    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v1.png",
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: "OTC 加拿大暑校聯盟分享題圖",
     body: `
       <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-canada">
         <div class="zh-herald-masthead">
