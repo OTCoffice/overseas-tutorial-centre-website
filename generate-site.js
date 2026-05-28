@@ -16548,6 +16548,141 @@ function summerSchoolCountryPage(route) {
     `
     : "";
 
+  const malaysiaEditorialBody = route.slug === "malaysia"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-malaysia">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜馬來西亞</strong></div>
+            <div>Malaysia Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">Malaysia · School-Break · English · Pre-University</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜馬來西亞</h1>
+                <h2>Malaysia Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">馬來西亞這條線更適合先做英語、先看課堂、先試 school-break route 的家庭。先把年齡段、日校或住宿、城市節奏和預算看清楚，後面的項目選擇會省力很多。</p>
+            </header>
+
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
+              <details class="summer-mini-detail" open>
+                <summary><b>01</b><strong>收費說明</strong><span>成本比英美澳加更可控。</span></summary>
+                <p>OTC 代辦免費；常見成本包括項目費、住宿或日校安排、接送、保險與往返機票。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>02</b><strong>標準流程</strong><span>先分年齡，再分 route。</span></summary>
+                <p>先看 low-age、teen、holiday 或 pre-university，再核對是否日校、住宿或家長陪同。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>03</b><strong>適合家庭</strong><span>適合第一次做國際暑校。</span></summary>
+                <p>更適合重視安全感、飛行負擔、英語 confidence 和低風險試水的家庭。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
+                <p>Low-age English、Teen Holiday English、Camp Route、Pre-University Exposure。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>05</b><strong>減壓流程</strong><span>OTC 先做家長端分流。</span></summary>
+                <p>先把孩子年齡、英文程度、住宿方式和家長預期講清楚，再進 shortlist。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
+                <p>馬來西亞適不適合低齡、要不要住校、值不值得先從這條線試起，這些都能先看清楚。</p>
+              </details>
+            </div>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">馬來西亞線更適合哪類家庭</h2>
+              <p>第一次做國際暑校、重視風險控制、想先看亞洲區國際課堂，或只想先讓孩子建立英語 confidence 的家庭，通常會先從這條線開始。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
+              <p>Low-age English camp、Teen holiday English、holiday / winter camp、pre-university exposure。先把這幾條線分開看，再選 provider，會準得多。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>馬來西亞項目適合壓成一張清楚的 route 總表看，不需要在主頁堆滿大卡。主頁先把 family fit 講清楚，完整項目放到子頁集中比對。</p>
+              <div class="summer-herald-linkbox">
+                <strong>馬來西亞暑校熱門課程總表</strong>
+                <span>British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 總表。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/malaysia/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看馬來西亞暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="四">合作與申請</h2>
+              <div class="summer-country-cta-banner">
+                <strong>你是馬來西亞英語中心、holiday camp 或 pre-university 合作窗口？</strong>
+                <span>OTC 目前正把馬來西亞路線整理成更清楚的 school-break 與 pre-university route。若你願意討論 family referrals、small groups 或更直接合作，可直接和我們連線。</span>
+                <div class="summer-country-cta-row">
+                  <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+                  <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Malaysia%20Summer%20Alliance%20Enquiry">Email OTC</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC Malaysia Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+                <div class="summer-wechat-inline">WeChat: overseasus</div>
+              </div>
+            </section>
+          </main>
+
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family">
+                <div class="zh-herald-card-name">Low-age English</div>
+                <div class="zh-herald-card-en">British Council Primary</div>
+                <div class="zh-herald-card-desc">適合 7–12 歲，先做英語 confidence、課堂節奏與 group learning。</div>
+              </div>
+              <div class="zh-herald-trust-card unit">
+                <div class="zh-herald-card-name">Teen Holiday English</div>
+                <div class="zh-herald-card-en">British Council / ELS</div>
+                <div class="zh-herald-card-desc">適合 13–17 歲，先做 speaking、writing 與 school-break immersion。</div>
+              </div>
+              <div class="zh-herald-trust-card will">
+                <div class="zh-herald-card-name">Camp Route</div>
+                <div class="zh-herald-card-en">Erican</div>
+                <div class="zh-herald-card-desc">更偏輕量、團體型、節奏較柔和的 holiday route。</div>
+              </div>
+              <div class="zh-herald-trust-card smsf">
+                <div class="zh-herald-card-name">Pre-University</div>
+                <div class="zh-herald-card-en">Monash Malaysia</div>
+                <div class="zh-herald-card-desc">更適合高中後段，已開始看本科與專業方向的家庭。</div>
+              </div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">先核對</div>
+              <div class="zh-herald-check-item">年齡段：low-age、teen、pre-university 要分開看。</div>
+              <div class="zh-herald-check-item">住宿方式：日校、住宿、家長陪同，對體驗差很多。</div>
+              <div class="zh-herald-check-item">城市節奏：Kuala Lumpur、Bandar Sunway、Subang 不一樣。</div>
+              <div class="zh-herald-check-item">這條線更適合先試，不用一開始追最重的學術營。</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
+
   return pageShell({
     title: route.slug === "new-zealand"
       ? "OTC 新西蘭暑校聯盟 | OTC Study Hub"
@@ -16571,11 +16706,19 @@ function summerSchoolCountryPage(route) {
       ? "OTC 美國暑校聯盟：Yale、Columbia、Berkeley、UCLA、UChicago 與 US pre-college / summer immersion / campus routes 集中頁。"
       : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
-    image: route.slug === "united-states" ? "/assets/summer-school-hero-ai-20260528.png" : "",
-    imageWidth: route.slug === "united-states" ? 1983 : 1200,
-    imageHeight: route.slug === "united-states" ? 793 : 675,
-    imageAlt: route.slug === "united-states" ? "OTC 美國暑校聯盟分享題圖" : "",
-    body: route.slug === "united-states" ? usEditorialBody : `
+    image: route.slug === "united-states"
+      ? "/assets/social/us-summer-alliance-social-preview-20260528-v2.png"
+      : route.slug === "malaysia"
+      ? "/assets/social/malaysia-summer-alliance-social-preview-20260528-v1.png"
+      : "",
+    imageWidth: route.slug === "united-states" || route.slug === "malaysia" ? 1200 : 1200,
+    imageHeight: route.slug === "united-states" || route.slug === "malaysia" ? 630 : 675,
+    imageAlt: route.slug === "united-states"
+      ? "OTC 美國暑校聯盟分享題圖"
+      : route.slug === "malaysia"
+      ? "OTC 馬來西亞暑校聯盟分享題圖"
+      : "",
+    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
@@ -16891,9 +17034,9 @@ function unitedStatesProgrammesPage() {
     locale: "zh",
     description: "美國暑校熱門課程總表：Yale、Columbia、Brown、Berkeley、UCLA、UChicago 與更多 pre-college / academic enrichment 項目總表。",
     path: "/zh/summer-school-alliance/united-states/programmes/",
-    image: "/assets/summer-school-hero-ai-20260528.png",
-    imageWidth: 1983,
-    imageHeight: 793,
+    image: "/assets/social/us-summer-alliance-social-preview-20260528-v2.png",
+    imageWidth: 1200,
+    imageHeight: 630,
     imageAlt: "OTC 美國暑校聯盟分享題圖",
     body: `
       <div class="zh-herald-page summer-herald-page summer-herald-us">
@@ -16949,6 +17092,149 @@ function unitedStatesProgrammesPage() {
 
             <div class="summer-country-cta-row" style="margin-top:20px">
               <a class="btn btn-primary" href="/zh/summer-school-alliance/united-states/">返回美國主頁</a>
+            </div>
+          </main>
+        </div>
+      </div>
+    `
+  });
+}
+
+function malaysiaProgrammesPage() {
+  const route = summerSchoolCountryRoutes.find((entry) => entry.slug === "malaysia");
+  if (!route) return "";
+
+  const getMalaysiaProjectCategory = (projectTitle) => {
+    if (/Primary|Kids/i.test(projectTitle)) return "low-age-english";
+    if (/Secondary|ELS/i.test(projectTitle)) return "teen-english";
+    if (/Erican|Winter Camp|Holiday/i.test(projectTitle)) return "camp-route";
+    return "pre-university";
+  };
+
+  const categoryGroups = [
+    { id: "low-age-english", code: "01", title: "Low-age English", description: "適合低齡英語 confidence 與課堂習慣建立。" },
+    { id: "teen-english", code: "02", title: "Teen Holiday English", description: "適合 13–17 歲 school-break route。" },
+    { id: "camp-route", code: "03", title: "Camp Route", description: "偏 holiday / winter camp 的輕量主線。" },
+    { id: "pre-university", code: "04", title: "Pre-University Exposure", description: "適合高中後段與未來本科方向探索。" }
+  ];
+
+  const inferProjectMeta = (project) => {
+    const merged = project.join(" ");
+    let age = "青少年";
+    const ageMatch = merged.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲?/);
+    if (ageMatch) age = `${ageMatch[1].replace(/\s*/g, "")}歲`;
+
+    let city = project[2];
+    if (/Kuala Lumpur/i.test(project[2])) city = "Kuala Lumpur";
+    else if (/Bandar Sunway|Sunway/i.test(project[2])) city = "Bandar Sunway";
+    else if (/Subang/i.test(project[2])) city = "Subang";
+
+    let format = "日校 / 待核";
+    if (/residential|住宿|宿舍/i.test(merged)) format = "住宿 / 宿舍";
+    if (/day|日校/i.test(merged)) format = "日校";
+    if (/parent|陪同/i.test(merged)) format = "家長陪同可";
+    return { age, city, format };
+  };
+
+  const groupedSections = categoryGroups.map((group) => {
+    const items = route.projects
+      .map((project, index) => ({ project, index }))
+      .filter(({ project }) => getMalaysiaProjectCategory(project[0]) === group.id);
+
+    const cards = items.map(({ project, index }) => {
+      const meta = inferProjectMeta(project);
+      const applyHref = `/university-applications/?${new URLSearchParams({
+        country: route.name,
+        institution: project[3],
+        programme: project[0]
+      }).toString()}#otc-apply-form`;
+      return `
+        <article class="summer-hot-course-card">
+          <div class="summer-hot-course-card-main">
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <strong>${project[0]}</strong>
+            <span>${project[3]}</span>
+            <div class="summer-hot-meta-row">
+              <span class="summer-hot-meta-pill">${meta.age}</span>
+              <span class="summer-hot-meta-pill">${meta.city}</span>
+              <span class="summer-hot-meta-pill">${meta.format}</span>
+            </div>
+            <p>${project[4]}</p>
+            <em>${project[8]}</em>
+          </div>
+          <div class="summer-hot-cta-row">
+            <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+            <a class="summer-hot-cta" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 ${project[0]}。`)}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    return `
+      <section class="summer-hot-category">
+        <div class="summer-hot-category-head">
+          <b>${group.code}</b>
+          <div>
+            <strong>${group.title}</strong>
+            <p>${group.description}</p>
+          </div>
+        </div>
+        <div class="summer-hot-course-grid">
+          ${cards}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  return pageShell({
+    title: "馬來西亞暑校熱門課程總表 | OTC Study Hub",
+    current: "resources",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: "馬來西亞暑校熱門課程總表：British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 項目總表。",
+    path: "/zh/summer-school-alliance/malaysia/programmes/",
+    image: "/assets/social/malaysia-summer-alliance-social-preview-20260528-v1.png",
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: "OTC 馬來西亞暑校聯盟分享題圖",
+    body: `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-malaysia">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Malaysia Summer Alliance 2026</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜馬來西亞</strong></div>
+            <div>Malaysia Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>programme shortlist</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">Malaysia Programmes</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid summer-herald-grid-single">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜馬來西亞</h1>
+                <h2>Malaysia Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">這一頁集中放 British Council、ELS、Erican、Monash Malaysia 以及 school-break / pre-university route，方便家長直接比對年齡段、城市與住宿方式。</p>
+            </header>
+            <div class="summer-herald-inline-strip">
+              <article><strong>先看年齡段</strong><span>low-age、teen、pre-university 要分開看。</span></article>
+              <article><strong>再看日校或住宿</strong><span>馬來西亞很多路線不是住校型，這一點要先講清楚。</span></article>
+              <article><strong>最後做 shortlist</strong><span>先把城市、預算和孩子節奏核對完再進正式申請。</span></article>
+              <article><strong>聯絡 OTC</strong><span>WhatsApp +44 7947 991572 · office@overseasuk.com · WeChat overseasus</span></article>
+            </div>
+            ${groupedSections}
+            <div class="summer-country-cta-row" style="margin-top:20px">
+              <a class="btn btn-primary" href="/zh/summer-school-alliance/malaysia/">返回馬來西亞主頁</a>
             </div>
           </main>
         </div>
@@ -20193,6 +20479,8 @@ summerSchoolCountryRoutes.forEach((route) => {
 });
 write("summer-school-alliance/united-states/programmes", unitedStatesProgrammesPage());
 write("zh/summer-school-alliance/united-states/programmes", unitedStatesProgrammesPage());
+write("summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
+write("zh/summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);
