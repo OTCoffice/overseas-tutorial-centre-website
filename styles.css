@@ -18280,6 +18280,45 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   padding: 0 14px 10px;
 }
 
+.summer-mini-details-grid-herald + section {
+  margin-top: 14px;
+}
+
+.summer-mini-details-grid-us {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail summary {
+  gap: 2px;
+  min-height: 86px;
+  padding: 10px 10px 9px;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail b {
+  font-size: 10px;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail strong {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail span,
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail p {
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.summer-herald-us .summer-mini-details-grid-us .summer-mini-detail p {
+  padding: 0 10px 8px;
+}
+
 .summer-herald-us .summer-hot-course-grid {
   gap: 10px;
   grid-template-columns: repeat(2, minmax(0, 1fr));

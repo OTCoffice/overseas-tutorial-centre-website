@@ -1817,6 +1817,92 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "btec-othm-assignment-evidence-log-checklist",
+    title: "BTEC / OTHM Assignments: A Simple Evidence Log Checklist (So You Don’t Lose Marks on Basics)",
+    date: "2026-05-28",
+    category: "Vocational Qualifications",
+    column: "study",
+    kicker: "BTEC · OTHM · Assignment planning",
+    author: "留學導報編輯部",
+    summary: "For BTEC or OTHM coursework, most “surprise” mark losses are not about ability—they come from missing the brief, weak evidence traceability, rushed referencing, or unclear authenticity. This short checklist shows how to build an evidence log from Day 1, map every paragraph to criteria, and keep a clean submission pack (no guarantees; follow your centre’s rules).",
+    titleZh: "BTEC／OTHM 作業怎麼穩：用一張「證據紀錄表」清單把基本功做到位（避免白白失分）",
+    summaryZh: "BTEC 或 OTHM 的 coursework，許多「意外失分」不是因為能力不夠，而是：沒對準 assignment brief、證據無法追溯、引用與格式倉促、或真實性（authenticity）說明不清。本文用一張好上手的證據紀錄表（evidence log）清單，帶你從第 1 天就把每段內容對到評分/學習成果要求，並整理出一份乾淨可驗證的提交包（不作任何結果承諾；以學校/中心規範為準）。",
+    relatedReadings: [
+      "uk-entry-requirements-course-page-checklist",
+      "uk-personal-statement-evidence-first-checklist",
+      "business-marketing-media-course-fit-portfolio-evidence-pack"
+    ],
+    resources: [
+      ["Pearson: BTEC (official)", "https://qualifications.pearson.com/en/qualifications/btec-nationals.html"],
+      ["OTHM Qualifications (official)", "https://othm.org.uk/"],
+      ["QAA: Advice and Guidance – Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文關於 BTEC/職業課程作業的「對準 brief、證據可追溯、引用與學術誠信」屬通用學習策略；授課與評核細節請以你所屬中心（centre）發出的 assignment brief、學術誠信政策與內部流程為準。",
+      "不同課程（BTEC/OTHM、不同單元/等級）對 learning outcomes、評分規準與格式要求差異很大；本文不替代官方/中心文件，也不構成任何成績或升學結果承諾。"
+    ],
+    body: [
+      {
+        heading: "1) Start with the brief: turn requirements into a 1-page map",
+        paragraphs: [
+          "Before you write, extract the assignment brief into a simple map: tasks, learning outcomes / assessment criteria, word count guidance, format, and submission rules. If any requirement is unclear, ask early—late clarification is expensive.",
+          "A practical habit: create a “criteria checklist” table (criterion → where it will be evidenced → which file/appendix supports it)."
+        ]
+      },
+      {
+        heading: "2) Build an evidence log from Day 1 (not the night before)",
+        paragraphs: [
+          "An evidence log is a running list of what you did, when you did it, and what proof exists. It reduces panic because you always know what can be submitted as evidence.",
+          "Keep it simple: date, activity (e.g., interview notes / data cleaning / storyboard draft), output file name, and a one-line “how it supports the criterion”."
+        ]
+      },
+      {
+        heading: "3) Make traceability obvious: link claims → evidence → source",
+        paragraphs: [
+          "Markers should be able to follow your logic without guessing. For each key claim, show (a) your evidence (tables, screenshots, calculations, artefacts) and (b) your sources (books/articles/official pages) where relevant.",
+          "If you used AI tools, follow your centre’s policy: record what you used them for (brainstorming, language polishing, code explanation), and keep drafts/notes that show your own work and decision-making."
+        ]
+      },
+      {
+        heading: "4) Submit a clean pack: file naming, versions, and authenticity",
+        paragraphs: [
+          "Small admin mistakes can cause big delays. Use consistent file names, keep a final version folder, and ensure your name/ID matches the submission portal.",
+          "Before submission, run a 10-minute check: citations present, figures labelled, appendices referenced in-text, and any required declaration/authenticity statement included."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先讀懂 brief：把要求做成「一張地圖」",
+        paragraphs: [
+          "下筆前先把 assignment brief 拆成一張簡單地圖：要完成的任務、learning outcomes／assessment criteria、字數建議、格式、以及提交規則。哪裡看不懂就提早問清楚，最後一刻才釐清通常成本最高。",
+          "最實用的做法：做一張「規準核對表」（criterion → 你會在哪一段呈現 → 對應的證據檔/附錄是什麼）。"
+        ]
+      },
+      {
+        heading: "二、從第 1 天就做 evidence log（不要等到前一晚）",
+        paragraphs: [
+          "Evidence log 就是一份持續更新的紀錄：你做了什麼、何時做的、留下了什麼可驗證的成果。它能大幅降低臨近截止日的焦慮，因為你隨時知道「可提交的證據」有哪些。",
+          "保持簡單即可：日期、活動（例如訪談筆記／資料清理／分鏡草稿）、輸出檔名、以及一句話說明「這份證據支撐哪個規準」。"
+        ]
+      },
+      {
+        heading: "三、讓「可追溯性」一眼就看懂：主張 → 證據 → 來源",
+        paragraphs: [
+          "評分者不應該靠猜來理解你的論證。每個重要主張都盡量給出（a）你的證據（表格、截圖、計算、作品/產出）以及（b）必要時的資料來源（書籍/文章/官方頁面）。",
+          "如果你使用了 AI 工具，務必遵守中心/學校規範：清楚記錄用途（發想、語句潤飾、程式/概念解釋等），並保留草稿與筆記，讓你的思考與決策過程可被看見。"
+        ]
+      },
+      {
+        heading: "四、提交包要乾淨：命名、版本與 authenticity",
+        paragraphs: [
+          "小小行政失誤也可能造成很大延誤。檔名要一致、保留最終版資料夾，並確認姓名/學號與提交系統一致。",
+          "提交前用 10 分鐘跑一次快速檢查：引用是否完整、圖表是否有標題與編號、附錄是否在正文被引用、以及是否包含要求的 declaration／authenticity statement。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "uk-skilled-worker-to-ilr-5-year-checklist-2026",
     title: "Skilled Worker → ILR: A Practical 5-Year Timeline Checklist (UK, May 2026)",
     date: "2026-05-28",
@@ -16398,30 +16484,30 @@ function summerSchoolCountryPage(route) {
               <p class="zh-herald-standfirst">美國暑校項目多、節奏快、費用高，先把學術強度、住宿安排、城市節奏、英文門檻與文件要求看清楚，後面的 shortlist 和報名才會穩。</p>
             </header>
 
-            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
-              <details class="summer-mini-detail" open>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              <details class="summer-mini-detail">
                 <summary><b>01</b><strong>收費說明</strong><span>美國通常是幾條線裡成本最高的一組。</span></summary>
-                <p>OTC 代辦免費；常見成本包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人安排。</p>
+                <p>項目費、住宿、保險、簽證、航班與未成年人安排。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>02</b><strong>標準流程</strong><span>先分主線，再做 shortlist。</span></summary>
-                <p>先分 pre-college、campus immersion 或學科探索，再核對年齡、住宿、英文、美簽與當季檔期。</p>
+                <p>先看 pre-college、immersion 或學科探索。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>03</b><strong>適合家庭</strong><span>更適合美本目標較清楚的家庭。</span></summary>
-                <p>適合已在看 Top US、美本申請、subject interest、campus exposure，並能承受較高課堂密度與預算的學生。</p>
+                <p>適合看 Top US、subject interest 與 campus exposure 的學生。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
-                <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。先選路線，再選校名。</p>
+                <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>05</b><strong>減壓流程</strong><span>OTC 先做家庭端預篩。</span></summary>
-                <p>先把英文、課堂承受度、住宿、城市、預算與文件風險講清楚，再進入正式申請。</p>
+                <p>先核對英文、住宿、城市、預算與文件風險。</p>
               </details>
               <details class="summer-mini-detail">
                 <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
-                <p>不一定只看名校；第一次也能做，但更適合年級較高、獨立性更強的學生。credit-bearing 更接近正式大學課。</p>
+                <p>先看名校、credit-bearing、第一次是否適合。</p>
               </details>
             </div>
 
@@ -16548,7 +16634,7 @@ function summerSchoolCountryPage(route) {
     `
     : "";
 
-  const malaysiaEditorialBody = route.slug === "malaysia"
+const malaysiaEditorialBody = route.slug === "malaysia"
     ? `
       <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-malaysia">
         <div class="zh-herald-masthead">
@@ -16683,6 +16769,152 @@ function summerSchoolCountryPage(route) {
     `
     : "";
 
+  const canadaEditorialBody = route.slug === "canada"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-canada">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜加拿大</strong></div>
+            <div>Canada Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">Canada · Residence · Homestay · North America</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜加拿大</h1>
+                <h2>Canada Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">加拿大這條線適合先看 residence、homestay、城市節奏與 North America school planning。先把住宿型態、文件與城市差異看清楚，後面的 shortlist 會穩很多。</p>
+            </header>
+
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
+              <details class="summer-mini-detail">
+                <summary><b>01</b><strong>收費說明</strong><span>北美線裡較平衡，但文件不能少。</span></summary>
+                <p>課程、住宿、保險、接送、城市生活費與未成年人文件。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>02</b><strong>標準流程</strong><span>先分 residence 或 homestay。</span></summary>
+                <p>先看住宿，再看城市、provider、週數與開班檔期。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>03</b><strong>適合家庭</strong><span>適合第一次做北美暑校的家庭。</span></summary>
+                <p>重視安全感、生活平衡與英文環境的家庭會更喜歡。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
+                <p>Campus residence、city homestay、leadership、North America planning。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>05</b><strong>減壓流程</strong><span>先把住宿和文件講清楚。</span></summary>
+                <p>custodial、consent、接送與 supervision 要先核對。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
+                <p>先看 residence、homestay、Toronto / Vancouver 與值不值得做。</p>
+              </details>
+            </div>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">加拿大線更適合哪類家庭</h2>
+              <p>第一次做北美暑校、重視安全感與生活平衡，或想先把 North America school planning 做成較低壓入口的家庭，通常會先看加拿大。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
+              <p>Campus residence、city homestay、leadership / future route、North America planning。先把這幾條線分開，再看 provider，會準得多。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>加拿大項目適合集中在一張 programmes 總表裡看。主頁先把 family fit 和 route 講清楚，完整項目放到子頁集中比較。</p>
+              <div class="summer-herald-linkbox">
+                <strong>加拿大暑校熱門課程總表</strong>
+                <span>Tamwood、ILSC、CISS 與 Summer at UBC 等 Canada 路線總表。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/canada/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看加拿大暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="四">合作與申請</h2>
+              <div class="summer-country-cta-banner">
+                <strong>你是加拿大 campus camp、summer provider 或 young learners 合作窗口？</strong>
+                <span>OTC 目前正把加拿大 residence、homestay 與 North America transition 路線整理成更清楚的 family-facing system。若你願意討論 family referrals、small groups 或更直接合作，可直接和我們連線。</span>
+                <div class="summer-country-cta-row">
+                  <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+                  <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Canada%20Summer%20Alliance%20Enquiry">Email OTC</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC Canada Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+                <div class="summer-wechat-inline">WeChat: overseasus</div>
+              </div>
+            </section>
+          </main>
+
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family">
+                <div class="zh-herald-card-name">Campus Residence</div>
+                <div class="zh-herald-card-en">Tamwood / Summer at UBC</div>
+                <div class="zh-herald-card-desc">適合想先感受大學校園、監督結構與 residence 生活的家庭。</div>
+              </div>
+              <div class="zh-herald-trust-card unit">
+                <div class="zh-herald-card-name">City Homestay</div>
+                <div class="zh-herald-card-en">ILSC Toronto</div>
+                <div class="zh-herald-card-desc">適合城市生活適應、英文輸出與較溫和的北美初體驗。</div>
+              </div>
+              <div class="zh-herald-trust-card will">
+                <div class="zh-herald-card-name">Leadership Route</div>
+                <div class="zh-herald-card-en">Future of Work</div>
+                <div class="zh-herald-card-desc">適合已經在看 future major、career story 或高年級敘事的學生。</div>
+              </div>
+              <div class="zh-herald-trust-card smsf">
+                <div class="zh-herald-card-name">Planning Route</div>
+                <div class="zh-herald-card-en">North America Planning</div>
+                <div class="zh-herald-card-desc">適合把暑期經歷接回後續中學、本科與 North America planning。</div>
+              </div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">城市與住宿</div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">VAN</div>
+                <div><div class="zh-herald-resource-name">Vancouver / UBC</div><div class="zh-herald-card-desc">校園感更強，適合 residence、campus rhythm 與較完整 supervision。</div></div>
+              </div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">TOR</div>
+                <div><div class="zh-herald-resource-name">Toronto</div><div class="zh-herald-card-desc">城市感更強，適合 homestay、生活節奏與 North America exposure。</div></div>
+              </div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">文件與安排</div>
+              <div class="zh-herald-check-item">custodial / consent 需先核對。</div>
+              <div class="zh-herald-check-item">residence、homestay、接送安排會直接影響體驗。</div>
+              <div class="zh-herald-check-item">Toronto / Vancouver 成本與節奏差異要先講清楚。</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
+
   return pageShell({
     title: route.slug === "new-zealand"
       ? "OTC 新西蘭暑校聯盟 | OTC Study Hub"
@@ -16707,9 +16939,9 @@ function summerSchoolCountryPage(route) {
       : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
     image: route.slug === "united-states"
-      ? "/assets/social/us-summer-alliance-herald-share-20260528-v3.png"
+      ? "/assets/social/us-summer-alliance-hero-share-20260528-v4.png"
       : route.slug === "malaysia"
-      ? "/assets/social/malaysia-summer-alliance-herald-share-20260528-v2.png"
+      ? "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png"
       : "",
     imageWidth: route.slug === "united-states" || route.slug === "malaysia" ? 1200 : 1200,
     imageHeight: route.slug === "united-states" || route.slug === "malaysia" ? 630 : 675,
@@ -16718,7 +16950,7 @@ function summerSchoolCountryPage(route) {
       : route.slug === "malaysia"
       ? "OTC 馬來西亞暑校聯盟分享題圖"
       : "",
-    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : `
+    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
@@ -17034,7 +17266,7 @@ function unitedStatesProgrammesPage() {
     locale: "zh",
     description: "美國暑校熱門課程總表：Yale、Columbia、Brown、Berkeley、UCLA、UChicago 與更多 pre-college / academic enrichment 項目總表。",
     path: "/zh/summer-school-alliance/united-states/programmes/",
-    image: "/assets/social/us-summer-alliance-herald-share-20260528-v3.png",
+    image: "/assets/social/us-summer-alliance-hero-share-20260528-v4.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 美國暑校聯盟分享題圖",
@@ -17193,7 +17425,7 @@ function malaysiaProgrammesPage() {
     locale: "zh",
     description: "馬來西亞暑校熱門課程總表：British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 項目總表。",
     path: "/zh/summer-school-alliance/malaysia/programmes/",
-    image: "/assets/social/malaysia-summer-alliance-herald-share-20260528-v2.png",
+    image: "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 馬來西亞暑校聯盟分享題圖",
@@ -17235,6 +17467,147 @@ function malaysiaProgrammesPage() {
             ${groupedSections}
             <div class="summer-country-cta-row" style="margin-top:20px">
               <a class="btn btn-primary" href="/zh/summer-school-alliance/malaysia/">返回馬來西亞主頁</a>
+            </div>
+          </main>
+        </div>
+      </div>
+    `
+  });
+}
+
+function canadaProgrammesPage() {
+  const route = summerSchoolCountryRoutes.find((entry) => entry.slug === "canada");
+  if (!route) return "";
+
+  const getCanadaProjectCategory = (projectTitle) => {
+    if (/Future of Work/i.test(projectTitle)) return "leadership-future";
+    if (/ILSC|Toronto/i.test(projectTitle)) return "city-homestay";
+    if (/UBC|Tamwood|CISS/i.test(projectTitle)) return "campus-residence";
+    return "north-america-planning";
+  };
+
+  const categoryGroups = [
+    { id: "campus-residence", code: "01", title: "Campus Residence", description: "適合先看大學校園、住校監督與 campus rhythm 的家庭。" },
+    { id: "city-homestay", code: "02", title: "City Homestay", description: "適合城市生活、英文輸出與較溫和的北美初體驗。" },
+    { id: "leadership-future", code: "03", title: "Leadership / Future Route", description: "適合 future major、career story 與高年級敘事。" },
+    { id: "north-america-planning", code: "04", title: "North America Planning", description: "適合把暑期經歷接回中學、本科與長線規劃。" }
+  ];
+
+  const inferProjectMeta = (project) => {
+    const merged = project.join(" ");
+    let age = "青少年";
+    const ageMatch = merged.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲?/);
+    if (ageMatch) age = `${ageMatch[1].replace(/\s*/g, "")}歲`;
+
+    let city = project[2];
+    if (/Vancouver|UBC/i.test(project[2])) city = "Vancouver";
+    else if (/Toronto/i.test(project[2])) city = "Toronto";
+
+    let format = "住宿待核";
+    if (/residence|residential|宿舍|campus/i.test(merged)) format = "Residence";
+    else if (/homestay/i.test(merged)) format = "Homestay";
+    return { age, city, format };
+  };
+
+  const groupedSections = categoryGroups.map((group) => {
+    const items = route.projects
+      .map((project, index) => ({ project, index }))
+      .filter(({ project }) => getCanadaProjectCategory(project[0]) === group.id);
+
+    const cards = items.map(({ project, index }) => {
+      const meta = inferProjectMeta(project);
+      const applyHref = `/university-applications/?${new URLSearchParams({
+        country: route.name,
+        institution: project[3],
+        programme: project[0]
+      }).toString()}#otc-apply-form`;
+      return `
+        <article class="summer-hot-course-card">
+          <div class="summer-hot-course-card-main">
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <strong>${project[0]}</strong>
+            <span>${project[3]}</span>
+            <div class="summer-hot-meta-row">
+              <span class="summer-hot-meta-pill">${meta.age}</span>
+              <span class="summer-hot-meta-pill">${meta.city}</span>
+              <span class="summer-hot-meta-pill">${meta.format}</span>
+            </div>
+            <p>${project[4]}</p>
+            <em>${project[8]}</em>
+          </div>
+          <div class="summer-hot-cta-row">
+            <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+            <a class="summer-hot-cta" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 ${project[0]}。`)}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    return `
+      <section class="summer-hot-category">
+        <div class="summer-hot-category-head">
+          <b>${group.code}</b>
+          <div>
+            <strong>${group.title}</strong>
+            <p>${group.description}</p>
+          </div>
+        </div>
+        <div class="summer-hot-course-grid">
+          ${cards}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  return pageShell({
+    title: "加拿大暑校熱門課程總表 | OTC Study Hub",
+    current: "resources",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: "加拿大暑校熱門課程總表：Tamwood、ILSC、CISS、Summer at UBC 與 North America planning route 項目總表。",
+    path: "/zh/summer-school-alliance/canada/programmes/",
+    body: `
+      <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-canada">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Canada Summer Alliance 2026</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜加拿大</strong></div>
+            <div>Canada Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>programme shortlist</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">Canada Programmes</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+
+        <div class="zh-herald-body-grid summer-herald-grid summer-herald-grid-single">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜加拿大</h1>
+                <h2>Canada Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">這一頁集中放 Tamwood、ILSC、CISS、Summer at UBC 與 Canada residence / homestay / leadership route，方便家長直接比對住宿、城市與節奏。</p>
+            </header>
+
+            <div class="summer-herald-inline-strip">
+              <article><strong>先看住宿</strong><span>先分 residence 或 homestay，再看城市與 provider。</span></article>
+              <article><strong>再看城市</strong><span>Toronto 和 Vancouver 節奏完全不同。</span></article>
+              <article><strong>最後做 shortlist</strong><span>先把預算、年齡與文件核對完再進正式申請。</span></article>
+              <article><strong>聯絡 OTC</strong><span>WhatsApp +44 7947 991572 · office@overseasuk.com · WeChat overseasus</span></article>
+            </div>
+
+            ${groupedSections}
+
+            <div class="summer-country-cta-row" style="margin-top:20px">
+              <a class="btn btn-primary" href="/zh/summer-school-alliance/canada/">返回加拿大主頁</a>
             </div>
           </main>
         </div>
@@ -20481,6 +20854,8 @@ write("summer-school-alliance/united-states/programmes", unitedStatesProgrammesP
 write("zh/summer-school-alliance/united-states/programmes", unitedStatesProgrammesPage());
 write("summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("zh/summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
+write("summer-school-alliance/canada/programmes", canadaProgrammesPage());
+write("zh/summer-school-alliance/canada/programmes", canadaProgrammesPage());
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);
