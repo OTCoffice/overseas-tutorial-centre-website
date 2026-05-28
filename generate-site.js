@@ -17299,15 +17299,27 @@ const canadaEditorialBody = route.slug === "canada"
       ? "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png"
       : route.slug === "canada"
       ? "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png"
+      : route.slug === "new-zealand"
+      ? "/assets/social/new-zealand-summer-alliance-hero-share-20260528-v1.png"
+      : route.slug === "australia"
+      ? "/assets/social/australia-summer-alliance-hero-share-20260528-v1.png"
+      : route.slug === "uk"
+      ? "/assets/social/uk-summer-alliance-hero-share-20260528-v1.png"
       : "",
-    imageWidth: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 1200 : 1200,
-    imageHeight: route.slug === "united-states" || route.slug === "malaysia" || route.slug === "canada" ? 630 : 675,
+    imageWidth: 1200,
+    imageHeight: 630,
     imageAlt: route.slug === "united-states"
       ? "OTC 美國暑校聯盟分享題圖"
       : route.slug === "malaysia"
       ? "OTC 馬來西亞暑校聯盟分享題圖"
       : route.slug === "canada"
       ? "OTC 加拿大暑校聯盟分享題圖"
+      : route.slug === "new-zealand"
+      ? "OTC 新西蘭暑校聯盟分享題圖"
+      : route.slug === "australia"
+      ? "OTC 澳洲暑校聯盟分享題圖"
+      : route.slug === "uk"
+      ? "OTC 英國暑校聯盟分享題圖"
       : "",
     body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : route.slug === "new-zealand" ? newZealandEditorialBody : route.slug === "australia" ? australiaEditorialBody : route.slug === "uk" ? ukEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
@@ -18210,7 +18222,7 @@ function newZealandProgrammesPage() {
     pageTitle: "新西蘭暑校熱門課程總表 | OTC Study Hub",
     pageDescription: "新西蘭暑校熱門課程總表：Kiwi English Academy、WIE、LSNZ、CCEL、University of Auckland 與 school-prep / junior holiday / transition route 總表。",
     path: "/zh/summer-school-alliance/new-zealand/programmes/",
-    image: "/assets/social/canada-summer-alliance-hero-share-20260528-v2.png",
+    image: "/assets/social/new-zealand-summer-alliance-hero-share-20260528-v1.png",
     imageAlt: "OTC 新西蘭暑校聯盟分享題圖",
     bodyClass: "summer-herald-newzealand",
     chineseTitle: "海外督導｜暑校聯盟｜新西蘭",
@@ -18296,7 +18308,7 @@ function australiaProgrammesPage() {
     pageTitle: "澳洲暑校熱門課程總表 | OTC Study Hub",
     pageDescription: "澳洲暑校熱門課程總表：BROWNS、Shafston、Gold Coast、Melbourne、Sydney 與大學試跑 / pathway route 總表。",
     path: "/zh/summer-school-alliance/australia/programmes/",
-    image: "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png",
+    image: "/assets/social/australia-summer-alliance-hero-share-20260528-v1.png",
     imageAlt: "OTC 澳洲暑校聯盟分享題圖",
     bodyClass: "summer-herald-australia",
     chineseTitle: "海外督導｜暑校聯盟｜澳洲",
@@ -18376,7 +18388,7 @@ function ukProgrammesPage() {
     pageTitle: "英國暑校熱門課程總表 | OTC Study Hub",
     pageDescription: "英國暑校熱門課程總表：Oxford、Cambridge、London、boarding、junior English 與 premium camp route 總表。",
     path: "/zh/summer-school-alliance/uk/programmes/",
-    image: "/assets/social/us-summer-alliance-hero-share-20260528-v4.png",
+    image: "/assets/social/uk-summer-alliance-hero-share-20260528-v1.png",
     imageAlt: "OTC 英國暑校聯盟分享題圖",
     bodyClass: "summer-herald-uk",
     chineseTitle: "海外督導｜暑校聯盟｜英國",
