@@ -96,12 +96,25 @@ Use exactly these headings or country-appropriate equivalents:
 
 Rules:
 - six cards in one row when screen allows
+- if the country page has a right-side column and the six-card row makes the top area feel scattered, compress it into the left content frame directly under the hero; use exactly 4 compact cards in one row, remove numeric labels, and use these four-character headings in order: `免費代辦` / `收費項目` / `住宿類型` / `文件審核`
+- compression must still use the Summer Alliance subpage visual language: colour-coded compact boxes, clear category distinction, no flat grey strip, no single-tone card row
 - default closed
 - very small
 - one short line in the summary
 - expanded body also short
 - no long paragraphs
 - card height must stay visually light
+- this successful pattern is the reference:
+  `收費說明｜成本更穩，住宿差異先看。`
+  `標準流程｜先分 junior、prep、transition。`
+  `適合家庭｜適合第一次做國際暑校。`
+  `路線分類｜先分四條主線。`
+  `減壓流程｜先把 homestay 和照護講清楚。`
+  `常見問題｜先看這幾件事。`
+- do not expand these into consultant prose
+- do not turn them back into medium or large cards
+- do not let the card band visually stick to the section below
+- keep a clear but tight separation between the six-card row and the first正文 section below
 
 For high-density countries like the US, cards must be compressed to Malaysia-level lightness.
 
@@ -212,8 +225,24 @@ So:
 - keep headings thin
 - keep category bars slim
 - keep all section gaps tight
+- if a section already reads clearly in one line, do not add more text
+- if a section can be a thin strip, do not turn it into a box
+- if a comparison can be shown in a short row or compact table, do not rebuild it as stacked panels
 
 If something feels large, compress it.
+
+## Proven reference rule
+
+If unsure, fall back to the successful New Zealand programmes treatment now approved by the user:
+
+- small six-card row
+- very short one-line summaries
+- thin section rhythm
+- compact compare table
+- compressed programme cards
+- hero/share image consistency
+
+That approved handling is the default standard to reuse.
 
 ## Final requirement
 

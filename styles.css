@@ -18298,6 +18298,58 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   gap: 8px;
 }
 
+.summer-mini-details-grid-canada-compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 7px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail summary {
+  gap: 2px;
+  min-height: 62px;
+  padding: 8px 10px;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail:nth-child(1) {
+  background: #fff7e6;
+  border-color: #d7ad55;
+  border-top: 3px solid #b7892c;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail:nth-child(2) {
+  background: #fff3ee;
+  border-color: #d69a83;
+  border-top: 3px solid #b24c34;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail:nth-child(3) {
+  background: #eef8f6;
+  border-color: #9fc7bf;
+  border-top: 3px solid #3f7f78;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail:nth-child(4) {
+  background: #eef3fb;
+  border-color: #aebdd4;
+  border-top: 3px solid #3e5f90;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail strong {
+  font-size: 13px;
+  line-height: 1.15;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail span,
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail p {
+  font-size: 11px;
+  line-height: 1.32;
+}
+
+.summer-herald-canada .summer-mini-details-grid-canada-compact .summer-mini-detail p {
+  padding: 0 10px 8px;
+}
+
 .summer-herald-us .summer-mini-details-grid-us .summer-mini-detail {
   border-radius: 4px;
   box-shadow: none;
