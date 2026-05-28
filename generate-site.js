@@ -1960,6 +1960,212 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "btec-othm-assignment-evidence-log-checklist",
+    title: "BTEC and OTHM Assignment Evidence Log Checklist: Keep Coursework Traceable and Submission-Ready",
+    date: "2026-05-28",
+    category: "Vocational Qualifications",
+    column: "study",
+    kicker: "BTEC · OTHM · Assignment planning",
+    author: "留學導報編輯部",
+    summary: "Many BTEC and OTHM coursework problems are not caused by weak ability, but by poor alignment with the assignment brief, weak evidence traceability, rushed referencing, or unclear authenticity records. This briefing gives students a simple evidence-log method for keeping coursework organised from Day 1.",
+    titleZh: "BTEC／OTHM 作業怎麼穩：用一張「證據紀錄表」清單把基本功做到位（避免白白失分）",
+    summaryZh: "BTEC 或 OTHM 的 coursework，許多「意外失分」不是因為能力不夠，而是：沒對準 assignment brief、證據無法追溯、引用與格式倉促、或真實性（authenticity）說明不清。本文用一張好上手的證據紀錄表（evidence log）清單，帶你從第 1 天就把每段內容對到評分/學習成果要求，並整理出一份乾淨可驗證的提交包（不作任何結果承諾；以學校/中心規範為準）。",
+    relatedReadings: [
+      "othm-credits-australia-advanced-entry",
+      "btec-othm-assignment-evidence-log-checklist",
+      "uk-personal-statement-evidence-first-checklist",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["Pearson: BTEC (official)", "https://qualifications.pearson.com/en/qualifications/btec-nationals.html"],
+      ["OTHM Qualifications (official)", "https://othm.org.uk/"],
+      ["QAA: Advice and Guidance - Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文關於 BTEC/職業課程作業的「對準 brief、證據可追溯、引用與學術誠信」屬通用學習策略；授課與評核細節請以你所屬中心（centre）發出的 assignment brief、學術誠信政策與內部流程為準。",
+      "不同課程（BTEC/OTHM、不同單元/等級）對 learning outcomes、評分規準與格式要求差異很大；本文不替代官方/中心文件，也不構成任何成績或升學結果承諾。"
+    ],
+    sidebarCards: [
+      ["01", "Brief map", "先把 assignment brief 拆成規準與證據地圖。", "Map"],
+      ["02", "Evidence log", "從第 1 天記錄活動、輸出與對應規準。", "Log"],
+      ["03", "Traceability", "每個重要主張都能連到證據與來源。", "Evidence"],
+      ["04", "Submission pack", "最後檔名、版本、引用與 authenticity 一次核對。", "Pack"]
+    ],
+    body: [
+      {
+        heading: "1) Start with the brief: turn requirements into a 1-page map",
+        paragraphs: [
+          "Before writing, break the assignment brief into a simple map: tasks, learning outcomes or assessment criteria, word guidance, required format and submission rules.",
+          "A useful working table is: criterion, where it appears in your draft, and which evidence file or appendix supports it."
+        ]
+      },
+      {
+        heading: "2) Build an evidence log from Day 1",
+        paragraphs: [
+          "An evidence log records what you did, when you did it, what output exists, and which criterion it supports. It reduces deadline anxiety because you can see what is already submission-ready.",
+          "Keep it simple: date, activity, output filename, and a one-line explanation of the evidence value."
+        ]
+      },
+      {
+        heading: "3) Make traceability obvious: claims, evidence and sources",
+        paragraphs: [
+          "Assessors should not have to guess how your argument works. Important claims should be linked to evidence such as tables, screenshots, calculations, production outputs or source material.",
+          "If you use AI tools, follow your centre's policy, record the purpose of use, and preserve drafts and notes so your own thinking remains visible."
+        ]
+      },
+      {
+        heading: "4) Submit a clean pack: naming, versions and authenticity",
+        paragraphs: [
+          "Small administrative mistakes can create disproportionate delays. Use consistent filenames, keep a final-submission folder, and check that the name and student number match the submission system.",
+          "Before submitting, review references, figure labels, appendix links and any required declaration or authenticity statement."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先讀懂 brief：把要求做成「一張地圖」",
+        paragraphs: [
+          "下筆前先把 assignment brief 拆成一張簡單地圖：要完成的任務、learning outcomes／assessment criteria、字數建議、格式、以及提交規則。哪裡看不懂就提早問清楚，最後一刻才釐清通常成本最高。",
+          "最實用的做法：做一張「規準核對表」（criterion → 你會在哪一段呈現 → 對應的證據檔/附錄是什麼）。"
+        ]
+      },
+      {
+        heading: "二、從第 1 天就做 evidence log（不要等到前一晚）",
+        paragraphs: [
+          "Evidence log 就是一份持續更新的紀錄：你做了什麼、何時做的、留下了什麼可驗證的成果。它能大幅降低臨近截止日的焦慮，因為你隨時知道「可提交的證據」有哪些。",
+          "保持簡單即可：日期、活動（例如訪談筆記／資料清理／分鏡草稿）、輸出檔名、以及一句話說明「這份證據支撐哪個規準」。"
+        ]
+      },
+      {
+        heading: "三、讓「可追溯性」一眼就看懂：主張 → 證據 → 來源",
+        paragraphs: [
+          "評分者不應該靠猜來理解你的論證。每個重要主張都盡量給出（a）你的證據（表格、截圖、計算、作品/產出）以及（b）必要時的資料來源（書籍/文章/官方頁面）。",
+          "如果你使用了 AI 工具，務必遵守中心/學校規範：清楚記錄用途（發想、語句潤飾、程式/概念解釋等），並保留草稿與筆記，讓你的思考與決策過程可被看見。"
+        ]
+      },
+      {
+        heading: "四、提交包要乾淨：命名、版本與 authenticity",
+        paragraphs: [
+          "小小行政失誤也可能造成很大延誤。檔名要一致、保留最終版資料夾，並確認姓名/學號與提交系統一致。",
+          "提交前用 10 分鐘跑一次快速檢查：引用是否完整、圖表是否有標題與編號、附錄是否在正文被引用、以及是否包含要求的 declaration／authenticity statement。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "english-test-choice-uk-aus-ielts-pte-det-checklist",
+    title: "Choosing IELTS, PTE or Duolingo for UK and Australia: Start from Requirements, Not Rumours",
+    date: "2026-05-27",
+    category: "University Applications",
+    column: "study",
+    kicker: "English readiness · UK/Australia · Checklist",
+    author: "留學導報編輯部",
+    summary: "Choosing an English test should begin with the course requirements, not with rumours about which test is easier. This briefing compares IELTS Academic, PTE Academic and Duolingo English Test from a practical application-file perspective, with a 6-week preparation rhythm and document checklist.",
+    titleZh: "英國／澳洲英語成績怎麼選：IELTS、PTE、Duolingo 用「要求先行」核對清單做決定",
+    summaryZh: "選英語考試不要只看哪個「好考」；先看你申請的課程／學院是否接受、接受到什麼分數與單科要求，再用一張「接受度矩陣」做決策。本文用實務角度比較 IELTS Academic、PTE Academic 與 Duolingo English Test（DET），並給出 6 週準備節奏與文件把關清單，降低臨門一腳因格式、有效期或姓名證件不一致而卡關的風險。",
+    relatedReadings: [
+      "uk-entry-requirements-course-page-checklist",
+      "uk-aus-application-documents-checklist",
+      "foundation-vs-international-year-one-vs-direct-entry-uk-aus",
+      "uk-personal-statement-evidence-first-checklist"
+    ],
+    resources: [
+      ["IELTS: About IELTS", "https://www.ielts.org/"],
+      ["IELTS: IELTS band scores", "https://www.ielts.org/for-test-takers/results/ielts-scoring-in-detail"],
+      ["Pearson: PTE Academic", "https://www.pearsonpte.com/pte-academic"],
+      ["Duolingo English Test: Official site", "https://englishtest.duolingo.com/"],
+      ["UCAS: International and EU students", "https://www.ucas.com/undergraduate/applying-university/international-and-eu-students"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-27。考試形式、分數說明與基本政策以 IELTS、Pearson PTE、Duolingo English Test 官方公開頁面為準。",
+      "各校、各專業、各學院對可接受考試種類、分數與單科要求差異很大，且可能隨年度更新；正式送件前請以目標課程的官方 course page／admissions 頁面最新版本為準。本文不構成錄取或簽證結果承諾。"
+    ],
+    sidebarCards: [
+      ["01", "Requirements first", "先查 course page 是否接受，再決定考哪一種。", "Check"],
+      ["02", "Score profile", "總分、單科、有效期和版本限制要一起看。", "Scores"],
+      ["03", "Document hygiene", "姓名、證件、出分日和上傳格式不要臨時處理。", "Files"],
+      ["04", "6-week rhythm", "用診斷、弱項、計時與模考建立穩定輸出。", "Plan"]
+    ],
+    body: [
+      {
+        heading: "1) Start from requirements, not which test feels easiest",
+        paragraphs: [
+          "The safest UK and Australia application method is to start with the official English language requirements for each target course. Check accepted tests, whether online or home-based versions are accepted, component requirements and expiry rules.",
+          "Build an acceptance matrix for each target course, marking IELTS, PTE and Duolingo as accepted, not accepted or needs confirmation."
+        ]
+      },
+      {
+        heading: "2) IELTS vs PTE vs Duolingo: compare real use cases",
+        paragraphs: [
+          "IELTS is more traditional, PTE is fully computer-based, and Duolingo is usually online with flexible booking. Students differ in typing speed, listening fatigue and comfort speaking to a computer.",
+          "Acceptance rules are course-specific. Some schools accept several tests, while individual faculties or professional programmes may be stricter."
+        ]
+      },
+      {
+        heading: "3) Document checks: small mistakes cause big delays",
+        paragraphs: [
+          "Use the passport name exactly when booking. Name mismatches can be slow to correct near a deadline.",
+          "Track test date, result date and expiry date against offer conditions, enrolment deadlines, CAS or school portal upload deadlines."
+        ]
+      },
+      {
+        heading: "4) A simple 6-week preparation rhythm",
+        paragraphs: [
+          "Week 1: diagnostic test, confirm accepted tests, and identify the weakest component. Weeks 2-3: daily listening and reading, two writing tasks per week, and structured speaking feedback.",
+          "Weeks 4-5: add timed practice and an error log. Week 6: complete two full mocks, then focus on sleep, timing and stable output."
+        ]
+      },
+      {
+        heading: "5) Manage expectations with conservative wording",
+        paragraphs: [
+          "English evidence is only one part of an application. Meeting the minimum English requirement does not guarantee admission or visa outcomes.",
+          "If a course page uses case-by-case wording, email admissions early and keep the written reply in the application file."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先看「要求」再選考試：不要從「哪個好考」出發",
+        paragraphs: [
+          "英國／澳洲升學最穩的做法，是先回到目標課程的官方 English language requirements。關鍵不只總分，還包括：接受哪些考試（以及是否接受 online／home-based 版本）、是否有單科門檻（特別是 writing / speaking）、各單科最低分，以及有效期（expiry）。",
+          "建議做一張「接受度矩陣」：每個目標課程一欄，IELTS / PTE / Duolingo 各一列，標記「接受／不接受／需確認」，並貼上官方連結。這一步通常能直接避免臨近截止才發現不被接受的風險。"
+        ]
+      },
+      {
+        heading: "二、IELTS vs PTE vs Duolingo：用「真實使用情境」來比較",
+        paragraphs: [
+          "<b>形式適配：</b>IELTS 較傳統（視地點可能有紙筆／機考）；PTE 全電腦化；Duolingo 多為線上形式、預約彈性較高。學生在打字速度、聽力疲勞、以及「對著電腦說話」的舒適度上差異很大，會直接影響表現。",
+          "<b>接受條件常有例外：</b>有些學校三者都接受，但也有學院或專業只接受 IELTS / PTE；部分課程對 writing 門檻更高。請把 course page 當作唯一準則，不要用社群平台的「好考排行」做結論。",
+          "<b>出分與時程：</b>要考慮出分速度、補考窗口、以及上傳與驗證時間。把緩衝（buffer）排進計畫，才能在出現技術或文件問題時仍有餘裕。"
+        ]
+      },
+      {
+        heading: "三、文件把關清單：小錯誤會造成大延誤",
+        paragraphs: [
+          "<b>姓名／證件一致：</b>報名姓名請完全對齊護照（順序、空格、中間名）。姓名不一致的更正流程通常很慢，臨近截止更可能無法處理。",
+          "<b>有效期管理：</b>把考試日期、出分日期、到期日寫進同一份時間表，並對齊 offer condition、enrolment、CAS 或學校 portal 的最後提交日。",
+          "<b>上傳就緒：</b>把 booking confirmation、使用證件、成績報告號碼、以及學校 portal 的上傳指引整理成同一個資料夾（必要時另備截圖版本），降低臨時找不到文件的風險。"
+        ]
+      },
+      {
+        heading: "四、6 週準備節奏（可複製、可執行）",
+        paragraphs: [
+          "<b>第 1 週：</b>做一次診斷測驗＋確認目標課程接受哪種考試＋鎖定最弱項。",
+          "<b>第 2–3 週：</b>每天小量練習（聽／讀）＋每週 2 篇寫作任務＋每週 1 次口說練習並取得結構化回饋。",
+          "<b>第 4–5 週：</b>加入計時（timed）訓練，建立錯題／錯誤清單（error log），重複練到穩定（寫作的 coherence 與 task response 最重要）。",
+          "<b>第 6 週：</b>做 2 次完整模考後，改以睡眠、時間分配與穩定輸出為核心；最後 7 天避免大改策略。"
+        ]
+      },
+      {
+        heading: "五、風險提示：用更保守的措辭管理期待",
+        paragraphs: [
+          "英語成績只是申請的一部分。即使成績達到最低要求，錄取仍取決於完整背景、競爭程度與課程的 selection rules；本文不構成任何錄取或簽證結果承諾。",
+          "若 course page 出現「case by case」或特殊條件（例如更高 writing 門檻），建議提早用 email 向 admissions 詢問並保留書面回覆，作為你的申請檔案證據。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "poland-nursing-pwz-exam-language-details-2026",
     title: "Poland Nursing PWZ Exam Details 2026: Language Certificate, Adaptation Period and Licensing Steps",
     date: "2026-05-28",
