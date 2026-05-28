@@ -16252,35 +16252,102 @@ function summerSchoolCountryPage(route) {
   const usAllianceSections = route.slug === "united-states"
     ? `
       <section class="band">
-        <div class="section-head compact-head">
-          <div class="eyebrow">United States Overview</div>
-          <h2>先點開這六張卡</h2>
-        </div>
-        <div class="summer-mini-details-grid">
-          <details class="summer-mini-detail" open>
-            <summary><b>01</b><strong>收費說明</strong><span>美國通常是最高成本的一組。</span></summary>
-            <p>OTC 代辦免費；常見成本包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人安排。</p>
-          </details>
-          <details class="summer-mini-detail">
-            <summary><b>02</b><strong>標準流程</strong><span>先分路線，再做 shortlist。</span></summary>
-            <p>先分 pre-college、campus immersion 或學科探索，再核對年齡、住宿、英文、美簽、保險與當季檔期。</p>
-          </details>
-          <details class="summer-mini-detail">
-            <summary><b>03</b><strong>適合家庭</strong><span>更適合美本目標家庭。</span></summary>
-            <p>適合已在看 Top US、美本申請、subject interest、campus exposure，並能承受較高課堂密度與預算的學生。</p>
-          </details>
-          <details class="summer-mini-detail">
-            <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
-            <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。先選路線，再選校名。</p>
-          </details>
-          <details class="summer-mini-detail">
-            <summary><b>05</b><strong>整套減壓流程</strong><span>OTC 先做家庭端預篩。</span></summary>
-            <p>先把英文、課堂承受度、住宿、城市、預算與文件風險講清楚，再進入正式申請。</p>
-          </details>
-          <details class="summer-mini-detail">
-            <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
-            <p>不一定只看名校；第一次也能做，但更適合年級較高、獨立性更強的學生。credit-bearing 更接近正式大學課。</p>
-          </details>
+        <div class="zh-herald-page summer-herald-page summer-herald-us">
+          <div class="zh-herald-masthead">
+            <div>
+              <div class="zh-herald-name-en">Overseas Study Review</div>
+              <div class="zh-herald-name-zh">留學導報</div>
+              <div class="zh-herald-tagline">美國暑校｜聯合招生｜預科前置｜校園體驗</div>
+            </div>
+            <div class="zh-herald-meta">
+              <div><strong>美國暑校</strong></div>
+              <div>2026 Summer Intake</div>
+              <div>OTC Summer Alliance Desk</div>
+              <div>overseasuk.com/summer-school-alliance</div>
+            </div>
+          </div>
+          <div class="zh-herald-section-bar">
+            <div class="zh-herald-section-tag">United States · Pre-College · Campus Route</div>
+            <div class="zh-herald-section-line"></div>
+            <time>2026</time>
+          </div>
+          <div class="zh-herald-body-grid summer-herald-grid">
+            <main class="zh-herald-main summer-herald-main">
+              <header class="zh-herald-hero summer-herald-hero">
+                <div class="zh-herald-kicker">United States Summer Alliance</div>
+                <h1>美國暑校，先看路線，再看校名。</h1>
+                <p class="zh-herald-standfirst">美國暑校最怕一開始就追最有名的學校，最後花了最高的預算，選到最不適合的節奏。這一頁先幫家長把 route 講清楚，再往下看 40+ 真項目。</p>
+              </header>
+              <div class="summer-mini-details-grid summer-mini-details-grid-herald">
+                <details class="summer-mini-detail" open>
+                  <summary><b>01</b><strong>收費說明</strong><span>通常是幾條線裡成本最高的一組。</span></summary>
+                  <p>OTC 代辦免費；常見成本包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人安排。</p>
+                </details>
+                <details class="summer-mini-detail">
+                  <summary><b>02</b><strong>標準流程</strong><span>先分主線，再做 shortlist。</span></summary>
+                  <p>先分 pre-college、campus immersion 或學科探索，再核對年齡、住宿、英文、美簽與當季檔期。</p>
+                </details>
+                <details class="summer-mini-detail">
+                  <summary><b>03</b><strong>適合家庭</strong><span>更適合美本目標較清楚的家庭。</span></summary>
+                  <p>適合已在看 Top US、美本申請、subject interest、campus exposure，並能承受較高課堂密度與預算的學生。</p>
+                </details>
+                <details class="summer-mini-detail">
+                  <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
+                  <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。先選路線，再選校名。</p>
+                </details>
+                <details class="summer-mini-detail">
+                  <summary><b>05</b><strong>減壓流程</strong><span>OTC 先做家庭端預篩。</span></summary>
+                  <p>先把英文、課堂承受度、住宿、城市、預算與文件風險講清楚，再進入正式申請。</p>
+                </details>
+                <details class="summer-mini-detail">
+                  <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
+                  <p>不一定只看名校；第一次也能做，但更適合年級較高、獨立性更強的學生。credit-bearing 更接近正式大學課。</p>
+                </details>
+              </div>
+              <section>
+                <h2 class="zh-herald-section-head" data-num="一">美國線最適合哪類學生</h2>
+                <p>如果目標是美本、Top US、subject exploration、research exposure 或個人陳述素材，美國線會比較有感。前提是學生能承受更高的課堂密度，也願意提早做文件、住宿與預算規劃。</p>
+              </section>
+              <section>
+                <h2 class="zh-herald-section-head" data-num="二">OTC 會先幫家長看什麼</h2>
+                <p>先看學生適合 academic route 還是 campus immersion，再看 East Coast / West Coast、住宿型態、年齡與英語門檻。這樣 shortlist 才會更穩，也比較不會在最貴的市場裡走冤枉路。</p>
+              </section>
+            </main>
+            <aside class="zh-herald-side summer-herald-side">
+              <div class="zh-herald-widget">
+                <div class="zh-herald-widget-title">本文速讀</div>
+                <div class="zh-herald-trust-card">
+                  <div class="zh-herald-card-name">美國暑校聯盟</div>
+                  <div class="zh-herald-card-en">US Summer Alliance</div>
+                  <div class="zh-herald-card-desc">這頁集中處理 Yale、Columbia、Brown、Berkeley、UCLA、UChicago 等 40+ 真項目，先幫家庭分清 route，再進入報名。</div>
+                  <span class="zh-herald-badge">OTC Route Desk</span>
+                </div>
+              </div>
+              <div class="zh-herald-widget">
+                <div class="zh-herald-widget-title">四條主線</div>
+                <div class="zh-herald-trust-card family">
+                  <div class="zh-herald-card-name">名校學術型</div>
+                  <div class="zh-herald-card-en">Yale / UChicago</div>
+                  <div class="zh-herald-card-desc">適合學術力強、願意進入高密度討論環境的學生。</div>
+                </div>
+                <div class="zh-herald-trust-card unit">
+                  <div class="zh-herald-card-name">校園 immersion 型</div>
+                  <div class="zh-herald-card-en">Columbia / UCLA / Berkeley</div>
+                  <div class="zh-herald-card-desc">適合先體驗 campus life、住宿與美國課堂節奏的家庭。</div>
+                </div>
+                <div class="zh-herald-trust-card will">
+                  <div class="zh-herald-card-name">學科探索型</div>
+                  <div class="zh-herald-card-en">Institutes / Subject Tracks</div>
+                  <div class="zh-herald-card-desc">適合 STEM、創意、商科或社科方向興趣較清楚的學生。</div>
+                </div>
+                <div class="zh-herald-trust-card smsf">
+                  <div class="zh-herald-card-name">長線前置型</div>
+                  <div class="zh-herald-card-en">North America Planning</div>
+                  <div class="zh-herald-card-desc">適合把暑期經歷接回美本敘事、研究主題與後續申請規劃。</div>
+                </div>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
     `
@@ -16298,6 +16365,188 @@ function summerSchoolCountryPage(route) {
         ${route.projects.map((project, index) => renderProjectDetail(project, index)).join("")}
       </div>
     `;
+
+  const usEditorialBody = route.slug === "united-states"
+    ? `
+      <div class="zh-herald-page summer-herald-page summer-herald-us">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜美國</strong></div>
+            <div>United States Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">United States · Summer School Hub · Pre-College</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜美國</h1>
+                <h2>United States Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">美國暑校項目多、節奏快、費用高，先把學術強度、住宿安排、城市節奏、英文門檻與文件要求看清楚，後面的 shortlist 和報名才會穩。</p>
+            </header>
+
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald">
+              <details class="summer-mini-detail" open>
+                <summary><b>01</b><strong>收費說明</strong><span>美國通常是幾條線裡成本最高的一組。</span></summary>
+                <p>OTC 代辦免費；常見成本包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人安排。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>02</b><strong>標準流程</strong><span>先分主線，再做 shortlist。</span></summary>
+                <p>先分 pre-college、campus immersion 或學科探索，再核對年齡、住宿、英文、美簽與當季檔期。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>03</b><strong>適合家庭</strong><span>更適合美本目標較清楚的家庭。</span></summary>
+                <p>適合已在看 Top US、美本申請、subject interest、campus exposure，並能承受較高課堂密度與預算的學生。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
+                <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。先選路線，再選校名。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>05</b><strong>減壓流程</strong><span>OTC 先做家庭端預篩。</span></summary>
+                <p>先把英文、課堂承受度、住宿、城市、預算與文件風險講清楚，再進入正式申請。</p>
+              </details>
+              <details class="summer-mini-detail">
+                <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
+                <p>不一定只看名校；第一次也能做，但更適合年級較高、獨立性更強的學生。credit-bearing 更接近正式大學課。</p>
+              </details>
+            </div>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">美國線更適合哪類學生</h2>
+              <p>如果目標是美本、Top US、subject exploration、research exposure 或個人陳述素材，美國線會比較有感。前提是學生能承受更高的課堂密度，也願意提早做文件、住宿與預算規劃。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">OTC 會先幫家長看什麼</h2>
+              <p>先看學生適合 academic route 還是 campus immersion，再看 East Coast / West Coast、住宿型態、年齡與英語門檻。這樣 shortlist 才會更穩，也比較不會在最貴的市場裡走冤枉路。</p>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>美國項目數量多、檔期細、結構差異大，放在主頁會把整個閱讀節奏拖垮。主頁先負責把 route 和家庭適配講清楚；真正的 40+ 項目總表，放到獨立頁面集中閱讀與比較。</p>
+              <div class="summer-herald-linkbox">
+                <strong>美國暑校熱門課程總表</strong>
+                <span>Yale、Columbia、Brown、Berkeley、UCLA、UChicago 以及更多 pre-college / academic enrichment 項目。</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="/zh/summer-school-alliance/united-states/programmes/">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看美國暑校熱門課程總表。")}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 class="zh-herald-section-head" data-num="四">校方合作與家長申請</h2>
+              <div class="summer-country-cta-banner">
+                <strong>你是美國 pre-college、summer session 或 high school outreach 合作窗口？</strong>
+                <span>OTC 目前正把美國暑校路線從單純名校整理，往更清楚的 pre-college / academic route curation 推進。若你願意討論 family referrals、small-group enquiries、subject-specific summer route 或更直接合作，可直接與我們連線。</span>
+                <div class="summer-country-cta-row">
+                  <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+                  <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20United%20States%20Summer%20Alliance%20Enquiry">Email OTC</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC United States Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+                <div class="summer-wechat-inline">WeChat: overseasus</div>
+              </div>
+            </section>
+          </main>
+
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              <div class="zh-herald-trust-card family">
+                <div class="zh-herald-card-name">名校學術型</div>
+                <div class="zh-herald-card-en">Yale / UChicago</div>
+                <div class="zh-herald-card-desc">適合學術力強、願意進入高密度閱讀、寫作與討論環境的學生。</div>
+              </div>
+              <div class="zh-herald-trust-card unit">
+                <div class="zh-herald-card-name">校園 immersion 型</div>
+                <div class="zh-herald-card-en">Columbia / UCLA / Berkeley</div>
+                <div class="zh-herald-card-desc">適合先體驗 campus life、住宿與美國課堂節奏的家庭。</div>
+              </div>
+              <div class="zh-herald-trust-card will">
+                <div class="zh-herald-card-name">學科探索型</div>
+                <div class="zh-herald-card-en">Institutes / Subject Tracks</div>
+                <div class="zh-herald-card-desc">適合 STEM、創意、商科或社科方向興趣較清楚的學生。</div>
+              </div>
+              <div class="zh-herald-trust-card smsf">
+                <div class="zh-herald-card-name">長線前置型</div>
+                <div class="zh-herald-card-en">North America Planning</div>
+                <div class="zh-herald-card-desc">適合把暑期經歷接回美本敘事、研究主題與後續申請規劃。</div>
+              </div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">城市與節奏</div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">NY</div>
+                <div><div class="zh-herald-resource-name">New York / Columbia</div><div class="zh-herald-card-desc">城市感強、節奏快，適合想直接感受 Ivy campus + city life 的家庭。</div></div>
+              </div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">NH</div>
+                <div><div class="zh-herald-resource-name">New Haven / Yale</div><div class="zh-herald-card-desc">更偏學術導向，適合願意進入 seminar / discussion 氛圍的學生。</div></div>
+              </div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">CA</div>
+                <div><div class="zh-herald-resource-name">Berkeley / UCLA</div><div class="zh-herald-card-desc">West Coast 校園感強，適合 campus immersion 與 subject exploration。</div></div>
+              </div>
+              <div class="zh-herald-resource-item">
+                <div class="zh-herald-resource-icon">CHI</div>
+                <div><div class="zh-herald-resource-name">Chicago</div><div class="zh-herald-card-desc">學術密度高、節奏明確，更適合已經知道自己想試什麼的學生。</div></div>
+              </div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">成本與文件</div>
+              <div class="zh-herald-cost-row">
+                <div><strong>項目費</strong><span>主體成本</span></div>
+                <i><em style="width:88%"></em></i>
+              </div>
+              <div class="zh-herald-cost-row">
+                <div><strong>住宿 / 保險</strong><span>常見附加項</span></div>
+                <i><em style="width:68%"></em></i>
+              </div>
+              <div class="zh-herald-cost-row">
+                <div><strong>航班 / 城市生活</strong><span>視城市變動大</span></div>
+                <i><em style="width:74%"></em></i>
+              </div>
+              <div class="zh-herald-check-item">美簽、保險、未成年人 consent 與接送安排要提早核對。</div>
+              <div class="zh-herald-check-item">residential / commuter / online / family stay 直接影響整體體驗與預算。</div>
+              <div class="zh-herald-check-item">credit-bearing、non-credit、institute route 要先講清楚。</div>
+            </div>
+
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">報名前先核對</div>
+              <div class="zh-herald-trust-card">
+                <div class="zh-herald-card-name">年齡與成熟度</div>
+                <div class="zh-herald-card-desc">第一次做美國暑校也可以，但更適合年級較高、獨立性更強的學生。</div>
+              </div>
+              <div class="zh-herald-trust-card unit">
+                <div class="zh-herald-card-name">英文與課堂承受度</div>
+                <div class="zh-herald-card-desc">美國線的課堂密度、作業量與社交壓力通常都更高。</div>
+              </div>
+              <div class="zh-herald-trust-card will">
+                <div class="zh-herald-card-name">暑校用途</div>
+                <div class="zh-herald-card-desc">更適合想做學術敘事、campus exposure 或 subject interest 的家庭。</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    `
+    : "";
 
   return pageShell({
     title: route.slug === "new-zealand"
@@ -16326,7 +16575,7 @@ function summerSchoolCountryPage(route) {
     imageWidth: route.slug === "united-states" ? 1983 : 1200,
     imageHeight: route.slug === "united-states" ? 793 : 675,
     imageAlt: route.slug === "united-states" ? "OTC 美國暑校聯盟分享題圖" : "",
-    body: `
+    body: route.slug === "united-states" ? usEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
@@ -16540,6 +16789,170 @@ function summerSchoolCountryPage(route) {
           window.addEventListener("load", loadFromHash);
         })();
       </script>
+    `
+  });
+}
+
+function unitedStatesProgrammesPage() {
+  const route = summerSchoolCountryRoutes.find((entry) => entry.slug === "united-states");
+  if (!route) return "";
+
+  const getUnitedStatesProjectCategory = (projectTitle) => {
+    if (/YYGS|UChicago 1 Week|UChicago 2 Week|UChicago 3 Week|UChicago 4 Week/i.test(projectTitle)) return "elite-academic";
+    if (/Columbia NYC Residential|Columbia NYC Commuter|College Edge|UCLA Summer College Immersion|Berkeley Pre-College Scholars Session [A-F]/i.test(projectTitle)) return "precollege-campus";
+    if (/UCLA Precollege Summer Institutes|UCLA College\/Professional|UCLA Public Leadership|Brown Environmental Leadership|Brown Leadership Institute|Brown STEM|embARC/i.test(projectTitle)) return "subject-exploration";
+    return "research-planning";
+  };
+
+  const categoryGroups = [
+    { id: "elite-academic", code: "01", title: "名校學術型", description: "Yale、UChicago 等高密度學術主線。" },
+    { id: "precollege-campus", code: "02", title: "Pre-College 校園型", description: "Columbia、UCLA、Berkeley 等校園沉浸主線。" },
+    { id: "subject-exploration", code: "03", title: "學科探索型", description: "STEM、領導力、創意與專題導向路線。" },
+    { id: "research-planning", code: "04", title: "研究 / 長線前置型", description: "適合放進美本敘事與長線規劃的 route。" }
+  ];
+
+  const inferProjectMeta = (project) => {
+    const [title, time, location, provider, content, outcome, certificate, fee, familyFit, note] = project;
+    const merged = `${title} ${time} ${location} ${provider} ${content} ${outcome} ${certificate} ${fee} ${familyFit} ${note}`;
+    let age = "高中生";
+    const ageMatch = merged.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲?/);
+    if (ageMatch) age = `${ageMatch[1].replace(/\s*/g, "")}歲`;
+
+    let city = location;
+    if (/New Haven|Yale/i.test(location)) city = "New Haven";
+    else if (/New York|Columbia/i.test(location)) city = "New York";
+    else if (/Berkeley/i.test(location)) city = "Berkeley";
+    else if (/Los Angeles|UCLA/i.test(location)) city = "Los Angeles";
+    else if (/Chicago|UChicago/i.test(location)) city = "Chicago";
+    else if (/Providence|Brown/i.test(location)) city = "Providence";
+
+    let boarding = "住宿待核";
+    if (/residential|boarding|宿舍|college accommodation/i.test(merged)) boarding = "住校 / 宿舍";
+    else if (/commuter/i.test(merged)) boarding = "通勤";
+    else if (/online|線上/i.test(merged)) boarding = "線上";
+
+    return { age, city, boarding };
+  };
+
+  const groupedSections = categoryGroups.map((group) => {
+    const items = route.projects
+      .map((project, index) => ({ project, index }))
+      .filter(({ project }) => getUnitedStatesProjectCategory(project[0]) === group.id);
+
+    const cards = items.map(({ project, index }) => {
+      const meta = inferProjectMeta(project);
+      const applyHref = `/university-applications/?${new URLSearchParams({
+        country: route.name,
+        institution: project[3],
+        programme: project[0]
+      }).toString()}#otc-apply-form`;
+      return `
+        <article class="summer-hot-course-card">
+          <div class="summer-hot-course-card-main">
+            <b>${String(index + 1).padStart(2, "0")}</b>
+            <strong>${project[0]}</strong>
+            <span>${project[3]}</span>
+            <div class="summer-hot-meta-row">
+              <span class="summer-hot-meta-pill">${meta.age}</span>
+              <span class="summer-hot-meta-pill">${meta.city}</span>
+              <span class="summer-hot-meta-pill">${meta.boarding}</span>
+            </div>
+            <p>${project[4]}</p>
+            <em>${project[8]}</em>
+          </div>
+          <div class="summer-hot-cta-row">
+            <a class="summer-hot-cta primary" href="${applyHref}">透過 OTC 申請</a>
+            <a class="summer-hot-cta" href="https://wa.me/447947991572?text=${encodeURIComponent(`你好，我想了解 ${project[0]}。`)}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    return `
+      <section class="summer-hot-category">
+        <div class="summer-hot-category-head">
+          <b>${group.code}</b>
+          <div>
+            <strong>${group.title}</strong>
+            <p>${group.description}</p>
+          </div>
+        </div>
+        <div class="summer-hot-course-grid">
+          ${cards}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  return pageShell({
+    title: "美國暑校熱門課程總表 | OTC Study Hub",
+    current: "resources",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: "美國暑校熱門課程總表：Yale、Columbia、Brown、Berkeley、UCLA、UChicago 與更多 pre-college / academic enrichment 項目總表。",
+    path: "/zh/summer-school-alliance/united-states/programmes/",
+    image: "/assets/summer-school-hero-ai-20260528.png",
+    imageWidth: 1983,
+    imageHeight: 793,
+    imageAlt: "OTC 美國暑校聯盟分享題圖",
+    body: `
+      <div class="zh-herald-page summer-herald-page summer-herald-us">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">United States Summer Alliance 2026</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>海外督導｜暑校聯盟｜美國</strong></div>
+            <div>United States Summer Alliance 2026</div>
+            <div>OTC Study Hub</div>
+            <div>programme shortlist</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">United States Programmes</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+
+        <div class="zh-herald-body-grid summer-herald-grid summer-herald-grid-single">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>海外督導｜暑校聯盟｜美國</h1>
+                <h2>United States Summer Alliance 2026</h2>
+              </div>
+              <p class="zh-herald-standfirst">這一頁集中放 Yale、Columbia、Brown、Berkeley、UCLA、UChicago 及其不同 session / track，方便家長直接比對 route、城市、住宿與適配度。</p>
+            </header>
+
+            <div class="summer-herald-inline-strip">
+              <article>
+                <strong>先看 route</strong>
+                <span>先分學術型、campus 型、學科型或長線前置型，再看校名。</span>
+              </article>
+              <article>
+                <strong>再看城市與住宿</strong>
+                <span>New York、New Haven、California、Chicago 的節奏完全不同。</span>
+              </article>
+              <article>
+                <strong>最後做 shortlist</strong>
+                <span>把預算、年齡、英文與監護文件一起核對，再進正式申請。</span>
+              </article>
+              <article>
+                <strong>聯絡 OTC</strong>
+                <span>WhatsApp +44 7947 991572 · office@overseasuk.com · WeChat overseasus</span>
+              </article>
+            </div>
+
+            ${groupedSections}
+
+            <div class="summer-country-cta-row" style="margin-top:20px">
+              <a class="btn btn-primary" href="/zh/summer-school-alliance/united-states/">返回美國主頁</a>
+            </div>
+          </main>
+        </div>
+      </div>
     `
   });
 }
@@ -19778,6 +20191,8 @@ summerSchoolCountryRoutes.forEach((route) => {
   write(`summer-school-alliance/${route.slug}`, page);
   write(`zh/summer-school-alliance/${route.slug}`, page);
 });
+write("summer-school-alliance/united-states/programmes", unitedStatesProgrammesPage());
+write("zh/summer-school-alliance/united-states/programmes", unitedStatesProgrammesPage());
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-office-presence", australiaOfficePresence);

@@ -18223,6 +18223,286 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   margin-bottom: 2px;
 }
 
+.summer-herald-page {
+  background: #fbf7ef;
+  border: 1px solid #d6c6ab;
+}
+
+.summer-herald-grid {
+  margin-top: 0;
+}
+
+.summer-herald-main {
+  padding-top: 26px;
+  padding-bottom: 28px;
+}
+
+.summer-herald-side {
+  background: #f2ebdf;
+}
+
+.summer-herald-hero {
+  padding: 0 0 8px;
+}
+
+.summer-herald-hero .zh-herald-kicker {
+  margin-bottom: 10px;
+}
+
+.summer-herald-hero h1 {
+  color: #1a1410;
+  font-size: 34px;
+  line-height: 1.08;
+  margin: 0 0 12px;
+}
+
+.summer-herald-hero .zh-herald-standfirst {
+  color: #3d2f22;
+  font-size: 14px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.summer-mini-details-grid-herald {
+  margin-top: 10px;
+}
+
+.summer-mini-details-grid-herald .summer-mini-detail {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.summer-mini-details-grid-herald .summer-mini-detail summary {
+  padding: 12px 14px;
+}
+
+.summer-mini-details-grid-herald .summer-mini-detail p {
+  padding: 0 14px 10px;
+}
+
+.summer-herald-us .summer-hot-course-grid {
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 12px;
+}
+
+.summer-herald-us .summer-hot-course-card {
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 12px;
+}
+
+.summer-herald-us .summer-hot-course-card-main {
+  padding: 0;
+}
+
+.summer-herald-us .summer-hot-course-card-main strong {
+  font-family: var(--font-zh-editorial);
+  font-size: 15px;
+  line-height: 1.28;
+}
+
+.summer-herald-us .summer-hot-course-card-main > span,
+.summer-herald-us .summer-hot-course-card-main p,
+.summer-herald-us .summer-hot-course-card-main em {
+  font-size: 11px;
+}
+
+.summer-herald-us .summer-hot-cta-row {
+  padding: 8px 0 0;
+}
+
+.summer-herald-us .summer-hot-course-card-main b {
+  font-size: 10px;
+}
+
+.summer-herald-us .summer-hot-course-card-main p {
+  line-height: 1.45;
+  margin-top: 6px;
+}
+
+.summer-herald-us .summer-hot-course-card-main > span {
+  margin-top: 5px;
+}
+
+.summer-herald-us .summer-hot-category + .summer-hot-category {
+  margin-top: 18px;
+}
+
+.summer-herald-us .summer-hot-category-head {
+  border-radius: 6px;
+  box-shadow: none;
+  gap: 8px;
+  grid-template-columns: 38px minmax(0, 1fr);
+  margin-bottom: 10px;
+  padding: 10px 12px;
+}
+
+.summer-herald-us .summer-hot-category-head b {
+  font-size: 11px;
+  height: 28px;
+  width: 28px;
+}
+
+.summer-herald-us .summer-hot-category-head strong {
+  font-size: 20px;
+  line-height: 1.12;
+  margin-top: 0;
+}
+
+.summer-herald-us .summer-hot-category-head p {
+  font-size: 11px;
+  line-height: 1.45;
+  margin: 4px 0 0;
+}
+
+.summer-herald-us .summer-hot-meta-row {
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.summer-herald-us .summer-hot-meta-pill {
+  font-size: 10px;
+  padding: 5px 7px;
+}
+
+.summer-herald-us .summer-hot-course-card-main em {
+  margin-top: 4px;
+}
+
+.summer-herald-us .summer-country-cta-banner {
+  margin-top: 8px;
+}
+
+.summer-herald-linkbox {
+  background: #f7f0e3;
+  border: 1px solid #d6c6ab;
+  border-radius: 4px;
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 16px 18px;
+}
+
+.summer-herald-linkbox strong {
+  color: #1a1410;
+  font-family: var(--font-zh-editorial);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.summer-herald-linkbox span {
+  color: #4e4031;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.summer-herald-linkbox .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.summer-herald-us {
+  width: min(1380px, calc(100% - 24px));
+  max-width: none;
+  margin: 0 auto 28px;
+  border: 0;
+  box-shadow: none;
+  background: #fbf7ef;
+}
+
+.summer-herald-us .zh-herald-masthead {
+  padding: 16px 36px;
+}
+
+.summer-herald-us .zh-herald-section-bar {
+  padding: 7px 36px;
+}
+
+.summer-herald-us .zh-herald-body-grid {
+  grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.82fr);
+}
+
+.summer-herald-grid-single {
+  grid-template-columns: 1fr !important;
+}
+
+.summer-herald-us .zh-herald-main {
+  padding: 34px 36px 34px 36px;
+}
+
+.summer-herald-us .zh-herald-side {
+  padding: 28px 28px 28px 24px;
+}
+
+.summer-herald-us .summer-herald-hero {
+  padding: 0 0 14px;
+  border-bottom: 1px solid #c8b89a;
+  background: transparent;
+}
+
+.summer-herald-title-stack {
+  display: grid;
+  gap: 6px;
+}
+
+.summer-herald-us .summer-herald-title-stack h1 {
+  max-width: none;
+  color: #111111;
+  font-size: clamp(34px, 4.8vw, 56px);
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.summer-herald-us .summer-herald-title-stack h2 {
+  color: #8d734b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.summer-herald-us .zh-herald-standfirst {
+  max-width: 760px;
+  border-left: 0;
+  padding-left: 0;
+  margin-top: 14px;
+}
+
+.summer-herald-inline-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 10px 0 14px;
+}
+
+.summer-herald-inline-strip article {
+  background: #f4ecdd;
+  border: 1px solid #d6c6ab;
+  border-radius: 4px;
+  display: grid;
+  gap: 4px;
+  padding: 8px 10px;
+}
+
+.summer-herald-inline-strip strong {
+  color: #18110d;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.summer-herald-inline-strip span {
+  color: #554536;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
 .summer-focus-list {
   display: grid;
   gap: 12px;
