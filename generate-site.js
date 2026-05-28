@@ -11227,12 +11227,6 @@ const chineseEntrance = pageShell({
             <h2 class="hero-subhead">Overseas Tutorial Centre · 海外督導</h2>
           </div>
           <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
-          <div class="hero-directory">
-            <a href="/zh/summer-school-alliance/"><strong>暑校聯盟</strong><span>六個暑期目的地、一個家長入口，集中查看項目、費用與路線</span></a>
-            <a href="/zh/study-planning/"><strong>留學規劃</strong><span>按中國家庭常見決策順序整理國家、學校、專業、預算與時間線</span></a>
-            <a href="/zh/immigration-info/"><strong>移民資訊</strong><span>按國別整理政策入口、職業路線與合規邊界</span></a>
-            <a href="/international-curriculum-tutoring/"><strong>學習平台</strong><span>課程輔導、雙語學習、學術英語、題庫與學習工具</span></a>
-          </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
             <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
@@ -11254,86 +11248,114 @@ const chineseEntrance = pageShell({
       <a class="zh-hero-service-button" href="/zh/services/">服務導覽台 →</a>
     </section>
 
-    <section class="band compact-band zh-business-hub" id="open-learning-platform">
-      <div class="section-head compact-head">
-        <div class="eyebrow">OTC Chinese Service Map</div>
-        <h2>選擇路口</h2>
-        <p>首頁只保留業務板塊與路口判斷；詳細流程、文章、資格說明與文件清單進入相應子頁。</p>
-      </div>
-      <div class="zh-business-grid">
-        <a class="zh-business-card" href="/zh/study-planning/">
-          <b>01</b>
-          <strong>留學規劃</strong>
-          <span>選校、文件、時間線、家長溝通與申請前評估。</span>
-          <em>進入留學規劃 →</em>
-        </a>
-        <a class="zh-business-card" href="/zh/immigration-info/">
-          <b>02</b>
-          <strong>移民資訊</strong>
-          <span>以導報方式整理簽證、職業路線與政策背景；不替代法律或移民建議。</span>
-          <em>打開移民資訊 →</em>
-        </a>
-        <a class="zh-business-card" href="/international-curriculum-tutoring/">
-          <b>03</b>
-          <strong>學習平台</strong>
-          <span>A-Level、BTEC、IB、AP、學術英語、題庫與雙語學習工具。</span>
-          <em>打開課程支持 →</em>
-        </a>
-        <a class="zh-business-card" href="/zh/services/">
-          <b>04</b>
-          <strong>服務導覽</strong>
-          <span>驛站調度、學術監護、出版製作、文件審核與機構合作入口。</span>
-          <em>服務導覽台 →</em>
-        </a>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-home-feature-grid" id="othm-centre">
-      <a class="zh-home-othm-black" href="/othm-qualifications/">
-        <span>OTHM Approved Centre</span>
-        <strong>OTHM 中心</strong>
-        <p>中心號碼 DC1802235。中心續期已完成，有效期至 2031 年 6 月 30 日。資格路線、學習支持、進階銜接與澳洲方向解讀放入子頁。</p>
-        <em>查看 OTHM 中心與資格路線 →</em>
-      </a>
-      <div class="zh-home-side-stack">
-        <a class="zh-home-feature-card is-training" href="/zh/australia-vet-tafe-pathways/">
-          <span>Career Training</span>
-          <strong>職涯培訓</strong>
-          <p>澳洲 VET / TAFE：健康護理、技工建築、商科 IT、創意媒體與 TAFE-to-university 銜接，完整內容放在子頁。</p>
-          <em>打開職業培訓總覽 →</em>
-        </a>
-        <a class="zh-home-feature-card is-planning" href="/zh/study-planning/">
-          <span>Family Planning</span>
-          <strong>中國家庭留學決策表</strong>
-          <p>先定家庭目標，再比較國家、學校、專業、預算、升學銜接與後續身份/就業可能性。</p>
-          <em>查看規劃框架 →</em>
-        </a>
-      </div>
-    </section>
-
-    <section class="band compact-band zh-home-action-board">
-      <a class="zh-home-update-card" href="/zh/australia-office-presence/#centre-updates">
-        <span>澳洲辦公室更新</span>
-        <strong>OTC Australia：執行董事、銀行安排與院校合作進度</strong>
-        <p>本欄只作公開索引：Georgie Barnes 受任、澳洲辦公室運作、Study NSW briefing、CDU Global enquiry 等細節放入澳洲辦公室頁。</p>
-        <em>查看澳洲辦公室更新 →</em>
-      </a>
+    <section class="band compact-band zh-home-top-links">
       <div class="zh-home-small-links">
-        <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用與家長端安排。</span></a>
-        <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接與雙語解釋。</span></a>
-        <a href="/zh/education-partners/"><b>機構合作</b><span>學校、教育機構、合作夥伴與市場入口。</span></a>
-        <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span></a>
+        <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用、監護與家長端安排。</span><em>英國｜加拿大｜澳洲｜新西蘭｜住宿文件</em></a>
+        <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接、先前學習與雙語解釋。</span><em>Credit transfer｜RPL｜升學文件｜資格對照</em></a>
+        <a href="/zh/education-partners/"><b>機構合作</b><span>學校、教育機構、合作夥伴與市場入口。</span><em>代表申請｜市場進入｜培訓簡報｜資料包</em></a>
+        <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span><em>政策解讀｜考牌路線｜家庭決策｜案例觀察</em></a>
       </div>
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
     </section>
 
+    <section class="band compact-band zh-home-workbench" aria-label="海外督導工作台">
+      <div class="zh-workbench-head">
+        <span>From current OTC inbox workflow</span>
+        <strong>海外督導工作台</strong>
+        <p>郵件工作流顯示，OTC 的特點不是只放服務名稱，而是把逐校問詢、學生文件、課程路線、出版審稿與跨區域協調整理成可追蹤的工作線索。</p>
+      </div>
+      <div class="zh-workbench-ledger">
+        <a href="/zh/summer-school-alliance/"><b>短期項目聯絡</b><span>逐校核對 group format、age range、homestay、seasonal dates 與家長端安排。</span></a>
+        <a href="/university-applications/"><b>學生檔案協調</b><span>申請文件、英文測試、延期保留、家長決策與院校溝通節點。</span></a>
+        <a href="/zh/australia-vet-tafe-pathways/"><b>職業路線篩查</b><span>澳洲 VET / TAFE、CRICOS、skills evidence、職業方向與專業轉介邊界。</span></a>
+        <a href="/publishing/"><b>出版審稿流程</b><span>雙語題庫、護理 / NCLEX 題目、中文解析、clinical safety 與外部審稿。</span></a>
+      </div>
+    </section>
+
+    <section class="band compact-band zh-home-route-tiles" id="open-learning-platform">
+      <div class="zh-home-route-note">
+        <span>先判斷家庭目前處在哪一步：選國家與學校、理解政策與職業路線，或補一條更實用的職業培訓路徑。</span>
+        <em>OTC 將信息拆成三個入口，詳細流程放入子頁，首頁只保留判斷線索。</em>
+      </div>
+      <a href="/zh/study-planning/"><strong>留學規劃</strong><span>國家、學校、專業、預算、時間線與文件節點按中國家庭決策順序拆開。</span><small>對象：高中/本科/碩士家庭 · 材料：成績單/PS/CV · 輸出：申請時間表</small></a>
+      <a href="/zh/immigration-info/"><strong>移民資訊</strong><span>按國別整理政策入口、職業路線、畢業後工作與合規邊界。</span><small>對象：英澳加紐方向 · 材料：官方政策/職業清單 · 輸出：風險提示</small></a>
+      <a href="/zh/australia-vet-tafe-pathways/"><strong>職涯培訓</strong><span>澳洲 VET / TAFE、職業課程、TAFE-to-university 與就業方向總覽。</span><small>對象：轉專業/職業導向 · 材料：RTO/TAFE/課程代碼 · 輸出：evidence pack</small></a>
+    </section>
+
+    <section class="band compact-band zh-home-feature-grid" id="othm-centre">
+      <div class="zh-home-learning-core">
+        <a class="zh-learning-head" href="/international-curriculum-tutoring/">
+          <span>OTC Learning Platform</span>
+          <strong>學習平台</strong>
+          <p>把國際課程輔導、雙語學習、學術英語、題庫工具、作業規劃與在讀學生支持集中成首頁第二中心。學生先在這裡補能力、整理 evidence，再進入申請、資格或職業路線。</p>
+        </a>
+        <div class="zh-learning-ledger">
+          <a href="/international-curriculum-tutoring/"><b>國際課程</b><span>A-Level、IB、AP、Foundation 與在讀學科理解。</span></a>
+          <a href="/external-programme-support/btec-pearson/"><b>BTEC / OTHM</b><span>作業 brief、criteria、evidence log 與模塊化學習支持。</span></a>
+          <a href="/apps/ucbelt-speaking/"><b>英文與測評</b><span>Academic English、口語練習、mock tests 與題庫工具。</span></a>
+          <a href="/learning-platform/"><b>學習工具台</b><span>Apps、題庫、雙語解析、進度整理與申請前學習準備。</span></a>
+        </div>
+      </div>
+      <div class="zh-home-side-stack">
+        <a class="zh-home-othm-status" href="/othm-qualifications/">
+          <span>OTHM Approved Centre</span>
+          <strong>OTHM 中心狀態</strong>
+          <p>中心號碼 DC1802235，有效期至 2031 年 6 月 30 日。作為資格與 progression 支撐，不再壓過學習主入口。</p>
+          <div class="zh-home-facts"><b>DC1802235</b><b>2031-06-30</b><b>UK RQF</b></div>
+          <em>查看資格路線 →</em>
+        </a>
+        <a class="zh-home-feature-card is-planning" href="/insights/credit-alliance/">
+          <span>Credit Mobility</span>
+          <strong>全球學歷與學分流通體系</strong>
+          <p>把 OTHM、Open University、英澳美加紐課程與先前學習記錄放進同一套 qualification、credit transfer 與 RPL 解讀框架。</p>
+          <div class="zh-card-micro"><b>Credit transfer</b><b>RPL</b><b>Advanced standing</b></div>
+          <em>查看學分聯盟 →</em>
+        </a>
+      </div>
+    </section>
+
     <section class="band compact-band zh-home-bookshop-footer">
-      <a class="zh-home-bookshop-card" href="/publishing/">
-        <span>Overseas Publishing</span>
-        <strong>海外書局｜出版、編譯與導報</strong>
-        <p>海外書局放在首頁底部作為內容資產入口：正式出版物、雙語教輔、翻譯編修、研究簡報與留學導報文章分別進入對應子頁。</p>
-        <em>進入海外書局 →</em>
-      </a>
+      <div class="zh-home-bookshop-card">
+        <a class="zh-bookshop-main" href="/publishing/">
+          <span>Overseas Publishing</span>
+          <strong>海外書局｜出版、編譯與導報</strong>
+          <p>海外書局放在首頁底部作為內容資產入口：正式出版物、雙語教輔、翻譯編修、研究簡報與留學導報文章分別進入對應子頁。</p>
+          <div class="zh-bookshop-links"><span>出版製作</span><span>雙語編譯</span><span>留學導報</span><span>研究簡報</span></div>
+          <em>進入海外書局 →</em>
+        </a>
+        <div class="zh-bookshop-button-grid" aria-label="海外書局子頁入口">
+          <a href="/services/publishing-editorial-production/"><b>出版製作</b><span>書稿、報告、教材、PDF / ebook 出版包。</span></a>
+          <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span></a>
+          <a href="/publishing/bilingual-study-support-market-report/"><b>雙語教輔</b><span>BTEC、A-Level、IB、Foundation 市場與產品線。</span></a>
+          <a href="/publishing/btec-level-3-business-assignment-writing-toolkit/"><b>BTEC 工具箱</b><span>Assignment brief、evidence planning、criteria awareness。</span></a>
+          <a href="/publishing/othm-health-social-care-bilingual-series/"><b>OTHM 系列</b><span>Health & Social Care 雙語學習支持規劃。</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="zh-home-region-map" aria-label="海外督導地域版圖">
+      <div class="zh-region-map-inner">
+        <div class="zh-region-map-copy">
+          <span>OTC Global Footprint</span>
+          <strong>海外督導地域版圖</strong>
+          <p>英國總部、東亞家庭端、北美與歐洲路線，以及正在形成的澳洲辦公室。地圖只作全球佈局索引；具體服務與正式文件以各子頁為準。</p>
+        </div>
+        <div class="zh-region-map-stage" aria-hidden="false">
+          <svg class="zh-region-lines" viewBox="0 0 100 60" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M47 25 L23 27" />
+            <path d="M47 25 L71 28" />
+            <path d="M47 25 L83 43" />
+            <path d="M47 25 L51 24" />
+          </svg>
+          <span class="zh-map-node is-london"><i></i><b>London HQ</b><em>英國總部</em></span>
+          <span class="zh-map-node is-us"><i></i><b>US route</b><em>美國入口</em></span>
+          <span class="zh-map-node is-east-asia"><i></i><b>East Asia</b><em>東亞家庭端</em></span>
+          <span class="zh-map-node is-europe"><i></i><b>Europe</b><em>歐洲入口</em></span>
+          <a class="zh-map-node is-australia" href="/zh/australia-office-presence/" aria-label="打開澳洲辦公室發展與變遷">
+            <i></i><b>OTC Australia</b><em>澳洲辦公室發展與變遷 →</em>
+          </a>
+        </div>
+      </div>
     </section>
 
   `

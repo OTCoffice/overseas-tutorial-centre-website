@@ -680,7 +680,8 @@ h1 {
 .home-hero,
 .zh-home-hero {
   background:
-    linear-gradient(135deg, #061a2f 0%, #082846 58%, #0b3153 100%);
+    radial-gradient(circle at 82% 16%, rgba(245, 194, 107, 0.24), transparent 22%),
+    linear-gradient(135deg, #061a2f 0%, #082846 54%, #123c57 100%);
   color: #fff;
 }
 
@@ -814,6 +815,22 @@ h1 {
 
 .zh-home-hero .hero-inner {
   padding: 46px clamp(44px, 5vw, 88px) 44px;
+  position: relative;
+}
+
+.zh-home-hero {
+  border-bottom: 6px solid #d7ad55;
+}
+
+.zh-home-hero .hero-inner::after {
+  background: linear-gradient(90deg, #d7ad55, #566f92 34%, #9a4a35 68%, #93a6d4);
+  border-radius: 999px;
+  bottom: 18px;
+  content: "";
+  height: 5px;
+  left: clamp(44px, 5vw, 88px);
+  position: absolute;
+  width: min(420px, 48vw);
 }
 
 .zh-global-map-band,
@@ -1110,7 +1127,9 @@ h1 {
 
 .zh-business-card b,
 .zh-home-feature-card span,
+.zh-home-learning-core span,
 .zh-home-othm-black span,
+.zh-home-othm-status span,
 .zh-home-update-card span {
   font-family: var(--font-ui);
   font-size: 11px;
@@ -1140,7 +1159,9 @@ h1 {
 
 .zh-business-card em,
 .zh-home-feature-card em,
+.zh-home-learning-core em,
 .zh-home-othm-black em,
+.zh-home-othm-status em,
 .zh-home-update-card em {
   align-self: end;
   color: var(--navy);
@@ -1153,12 +1174,260 @@ h1 {
 .zh-home-feature-grid {
   align-items: stretch;
   background:
-    linear-gradient(135deg, rgba(6, 26, 47, 0.04), rgba(184, 138, 59, 0.08)),
+    linear-gradient(135deg, rgba(6, 26, 47, 0.035), rgba(184, 138, 59, 0.06), rgba(86, 111, 146, 0.05)),
     #fff;
   border-bottom: 1px solid rgba(222, 211, 196, 0.92);
   display: grid;
   gap: 18px;
   grid-template-columns: minmax(360px, 0.95fr) minmax(0, 1.05fr);
+}
+
+.zh-home-route-tiles {
+  background:
+    linear-gradient(90deg, rgba(255, 247, 230, 0.98), rgba(255, 253, 248, 0.98) 48%, rgba(242, 245, 251, 0.98)),
+    #fffdf8;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.9);
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.zh-home-route-note {
+  align-items: baseline;
+  display: grid;
+  gap: 8px;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  margin-bottom: 14px;
+}
+
+.zh-home-route-note span {
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+.zh-home-route-note em {
+  color: #6a5f50;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 1.55;
+}
+
+.zh-home-route-tiles a {
+  align-content: start;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: grid;
+  gap: 6px;
+  min-height: 118px;
+  padding: 6px 20px 8px 48px;
+  position: relative;
+}
+
+.zh-home-route-tiles a + a {
+  border-left: 1px solid rgba(131, 112, 82, 0.2);
+}
+
+.zh-home-route-tiles a::before,
+.zh-home-small-links a::before,
+.zh-home-feature-card::before {
+  align-items: center;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 900;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  width: 28px;
+}
+
+.zh-home-route-tiles a:nth-child(1)::before {
+  background: #8c681f;
+  content: "留";
+}
+
+.zh-home-route-tiles a:nth-child(2)::before {
+  background: #9a4a35;
+  content: "策";
+}
+
+.zh-home-route-tiles a:nth-child(3)::before {
+  background: #566f92;
+  content: "職";
+}
+
+.zh-home-route-tiles strong {
+  color: var(--navy);
+  font-size: 17px;
+  line-height: 1.22;
+}
+
+.zh-home-route-tiles span {
+  color: #4c596b;
+  font-size: 12px;
+  line-height: 1.45;
+  margin-top: 2px;
+}
+
+.zh-home-route-tiles small {
+  border-top: 1px solid rgba(6, 26, 47, 0.1);
+  color: #5e6874;
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  font-weight: 750;
+  line-height: 1.42;
+  margin-top: 2px;
+  padding-top: 7px;
+}
+
+.zh-home-learning-core {
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.96), rgba(247, 242, 234, 0.92) 52%, rgba(242, 245, 251, 0.94));
+  border: 0;
+  border-left: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--navy);
+  display: grid;
+  gap: 18px;
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr;
+  min-height: 324px;
+  padding: 12px 28px 28px 0;
+  position: relative;
+}
+
+.zh-home-learning-core::before {
+  background: #d7ad55;
+  content: "";
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 16px;
+  width: 4px;
+}
+
+.zh-learning-head {
+  align-content: center;
+  display: grid;
+  gap: 7px;
+  max-width: 780px;
+  padding-left: 18px;
+}
+
+.zh-learning-head span {
+  color: #566f92;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-learning-head strong {
+  color: var(--navy);
+  font-size: clamp(22px, 2.5vw, 31px);
+  font-weight: 900;
+  line-height: 1.18;
+}
+
+.zh-learning-head p {
+  color: #3d4b5f;
+  font-size: 13px;
+  line-height: 1.78;
+  margin: 0;
+  max-width: 650px;
+}
+
+.zh-learning-ledger {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding-left: 18px;
+}
+
+.zh-learning-ledger a {
+  align-content: start;
+  border-left: 1px solid rgba(131, 112, 82, 0.18);
+  border-top: 1px solid rgba(131, 112, 82, 0.22);
+  color: var(--navy);
+  display: grid;
+  gap: 5px;
+  min-height: 112px;
+  padding: 13px 14px 12px 44px;
+  position: relative;
+}
+
+.zh-learning-ledger a:nth-child(odd) {
+  border-right: 0;
+}
+
+.zh-learning-ledger a:nth-child(1) {
+  border-left: 0;
+}
+
+.zh-learning-ledger a::before {
+  align-items: center;
+  background: #566f92;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  border-radius: 999px;
+  color: #fff;
+  content: "L";
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 900;
+  height: 24px;
+  justify-content: center;
+  left: 12px;
+  line-height: 1;
+  position: absolute;
+  top: 14px;
+  width: 24px;
+}
+
+.zh-learning-ledger a:nth-child(1)::before {
+  background: #8c681f;
+  content: "課";
+}
+
+.zh-learning-ledger a:nth-child(2)::before {
+  background: #566f92;
+  content: "證";
+}
+
+.zh-learning-ledger a:nth-child(3)::before {
+  background: #9a4a35;
+  content: "英";
+}
+
+.zh-learning-ledger a:nth-child(4)::before {
+  background: #3e5f90;
+  content: "工";
+}
+
+.zh-learning-ledger b {
+  color: var(--navy);
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.zh-learning-ledger span {
+  color: #4c596b;
+  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .zh-home-othm-black {
@@ -1185,7 +1454,7 @@ h1 {
   color: rgba(255, 255, 255, 0.78);
   font-size: 14px;
   line-height: 1.9;
-  margin: 8px 0 24px;
+  margin: 8px 0 16px;
   max-width: 620px;
 }
 
@@ -1193,18 +1462,63 @@ h1 {
   color: #fffaf0;
 }
 
-.zh-home-side-stack {
-  display: grid;
-  gap: 18px;
+.zh-home-facts,
+.zh-card-micro,
+.zh-bookshop-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
 }
 
-.zh-home-feature-card {
+.zh-home-facts {
+  margin: 0 0 22px;
+}
+
+.zh-home-facts b,
+.zh-card-micro b,
+.zh-bookshop-links span {
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.25;
+  padding: 6px 9px;
+}
+
+.zh-home-facts b {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: rgba(255, 232, 173, 0.92);
+  padding: 0;
+}
+
+.zh-home-side-stack {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.zh-home-feature-card,
+.zh-home-othm-status {
   background: #fffdf8;
   border: 1px solid var(--line);
   border-radius: 10px;
   display: grid;
   gap: 10px;
   padding: 22px;
+  position: relative;
+}
+
+.zh-home-othm-status {
+  background:
+    linear-gradient(135deg, rgba(6, 26, 47, 0.94), rgba(17, 24, 32, 0.92)),
+    #061a2f;
+  border-color: rgba(184, 138, 59, 0.26);
+  color: #fff;
+  min-height: 164px;
+  padding: 20px 22px;
 }
 
 .zh-home-feature-card.is-training {
@@ -1223,18 +1537,232 @@ h1 {
   color: var(--gold);
 }
 
-.zh-home-feature-card strong {
+.zh-home-othm-status span {
+  color: var(--gold-2);
+}
+
+.zh-home-feature-card strong,
+.zh-home-othm-status strong {
   color: var(--navy);
   font-size: clamp(24px, 3vw, 34px);
   line-height: 1.12;
 }
 
-.zh-home-feature-card p {
+.zh-home-othm-status strong {
+  color: #fffaf0;
+  font-size: clamp(21px, 2.3vw, 28px);
+}
+
+.zh-home-feature-card p,
+.zh-home-othm-status p {
   margin: 0;
+}
+
+.zh-home-othm-status p {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 12px;
+  line-height: 1.62;
+}
+
+.zh-home-othm-status em {
+  color: #fffaf0;
+}
+
+.zh-home-othm-status .zh-home-facts {
+  margin: 0;
+}
+
+.zh-card-micro {
+  margin-top: 2px;
+}
+
+.zh-home-learning-core .zh-card-micro {
+  padding-left: 18px;
+}
+
+.zh-card-micro b {
+  background: rgba(6, 26, 47, 0.04);
+  border: 0;
+  color: #3d4b5f;
 }
 
 .zh-home-action-board {
   background: #f7f2ea;
+}
+
+.zh-home-region-map {
+  background:
+    linear-gradient(90deg, rgba(6, 23, 43, 0.72), rgba(6, 23, 43, 0.22) 48%, rgba(6, 23, 43, 0.76)),
+    url("/assets/hero-worldmap-nasa-blackmarble-2016.jpg") center / cover no-repeat,
+    #061a2f;
+  color: #fff;
+  min-height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+
+.zh-home-region-map::after {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(6, 23, 43, 0.18) 62%, #06172b 100%),
+    radial-gradient(circle at 83% 67%, rgba(245, 194, 107, 0.22), transparent 17%),
+    radial-gradient(circle at 48% 42%, rgba(245, 194, 107, 0.16), transparent 15%);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.zh-region-map-inner {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(260px, 0.32fr) minmax(0, 0.68fr);
+  margin: 0 auto;
+  max-width: 1180px;
+  min-height: 360px;
+  padding: 34px 24px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.zh-region-map-copy {
+  align-self: end;
+  max-width: 330px;
+}
+
+.zh-region-map-copy span {
+  color: var(--gold-2);
+  display: block;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.zh-region-map-copy strong {
+  color: #fff8e8;
+  display: block;
+  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-size: clamp(24px, 3vw, 38px);
+  line-height: 1.12;
+}
+
+.zh-region-map-copy p {
+  color: rgba(255, 248, 232, 0.74);
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+
+.zh-region-map-stage {
+  min-height: 300px;
+  position: relative;
+}
+
+.zh-region-lines {
+  height: 100%;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.zh-region-lines path {
+  fill: none;
+  stroke: rgba(245, 194, 107, 0.52);
+  stroke-dasharray: 2 5;
+  stroke-linecap: round;
+  stroke-width: 0.35;
+}
+
+.zh-map-node {
+  color: #f5c26b;
+  display: grid;
+  gap: 2px;
+  line-height: 1.12;
+  min-width: 86px;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(245, 194, 107, 0.42), 0 1px 6px rgba(0, 0, 0, 0.88);
+  transform: translate(-8px, -8px);
+}
+
+.zh-map-node i {
+  background: #f5c26b;
+  border: 1px solid rgba(255, 250, 230, 0.88);
+  border-radius: 999px;
+  box-shadow: 0 0 0 4px rgba(245, 194, 107, 0.15), 0 0 24px rgba(245, 194, 107, 0.92);
+  display: block;
+  height: 8px;
+  margin-bottom: 4px;
+  width: 8px;
+}
+
+.zh-map-node b {
+  color: #ffe8ad;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.zh-map-node em {
+  color: rgba(255, 232, 173, 0.82);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.zh-map-node.is-london {
+  left: 47%;
+  top: 42%;
+}
+
+.zh-map-node.is-us {
+  left: 23%;
+  top: 45%;
+}
+
+.zh-map-node.is-east-asia {
+  left: 71%;
+  top: 46%;
+}
+
+.zh-map-node.is-europe {
+  left: 51%;
+  top: 40%;
+}
+
+.zh-map-node.is-australia {
+  left: 83%;
+  top: 72%;
+  min-width: 150px;
+}
+
+.zh-map-node.is-australia i {
+  height: 11px;
+  width: 11px;
+}
+
+.zh-map-node.is-australia b,
+.zh-map-node.is-australia em {
+  color: #fff4ce;
+}
+
+.zh-map-node.is-australia:focus-visible,
+.zh-map-node.is-australia:hover {
+  color: #fff4ce;
+  transform: translate(-8px, -8px) scale(1.04);
+}
+
+.zh-home-top-links {
+  background:
+    linear-gradient(90deg, rgba(255, 253, 248, 0.99), rgba(247, 242, 234, 0.98) 52%, rgba(242, 245, 251, 0.98)),
+    #fffdf8;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.9);
+}
+
+.zh-home-top-links .source-note {
+  margin-top: 12px;
 }
 
 .zh-home-update-card {
@@ -1271,17 +1799,55 @@ h1 {
 
 .zh-home-small-links {
   display: grid;
-  gap: 12px;
+  align-items: stretch;
+  gap: 0;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .zh-home-small-links a {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
   display: grid;
-  gap: 6px;
-  padding: 15px 16px;
+  gap: 4px;
+  min-height: 82px;
+  padding: 4px 18px 6px 48px;
+  position: relative;
+}
+
+.zh-home-small-links a + a {
+  border-left: 1px solid rgba(131, 112, 82, 0.24);
+}
+
+.zh-home-small-links a:not(:last-child)::after {
+  color: rgba(184, 138, 59, 0.7);
+  content: "|";
+  font-family: var(--font-ui);
+  font-size: 18px;
+  font-weight: 300;
+  position: absolute;
+  right: -4px;
+  top: 22px;
+}
+
+.zh-home-small-links a:nth-child(1)::before {
+  background: #8c681f;
+  content: "暑";
+}
+
+.zh-home-small-links a:nth-child(2)::before {
+  background: #3e5f90;
+  content: "分";
+}
+
+.zh-home-small-links a:nth-child(3)::before {
+  background: #566f92;
+  content: "合";
+}
+
+.zh-home-small-links a:nth-child(4)::before {
+  background: #b24c34;
+  content: "導";
 }
 
 .zh-home-small-links b {
@@ -1290,20 +1856,180 @@ h1 {
   line-height: 1.22;
 }
 
+.zh-home-small-links span {
+  font-size: 12px;
+  line-height: 1.42;
+}
+
+.zh-home-small-links em {
+  color: #7a6752;
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: 1.45;
+}
+
+.zh-home-workbench {
+  background:
+    linear-gradient(90deg, rgba(255, 253, 248, 0.99), rgba(255, 250, 240, 0.98) 44%, rgba(242, 245, 251, 0.98)),
+    #fffdf8;
+  border-bottom: 1px solid rgba(222, 211, 196, 0.86);
+  color: var(--navy);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+}
+
+.zh-workbench-head {
+  align-content: center;
+  border-left: 4px solid #d7ad55;
+  display: grid;
+  gap: 7px;
+  padding-left: 16px;
+}
+
+.zh-workbench-head span {
+  color: #9a4a35;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zh-workbench-head strong {
+  color: var(--navy);
+  font-size: clamp(22px, 2.5vw, 31px);
+  font-weight: 900;
+  line-height: 1.18;
+}
+
+.zh-workbench-head p {
+  color: #4c596b;
+  font-size: 13px;
+  line-height: 1.78;
+  margin: 0;
+}
+
+.zh-workbench-ledger {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.zh-workbench-ledger a {
+  align-content: start;
+  border-top: 1px solid rgba(131, 112, 82, 0.22);
+  color: var(--navy);
+  display: grid;
+  gap: 5px;
+  min-height: 88px;
+  padding: 13px 18px 13px 44px;
+  position: relative;
+}
+
+.zh-workbench-ledger a:nth-child(odd) {
+  border-right: 1px solid rgba(131, 112, 82, 0.16);
+}
+
+.zh-workbench-ledger a:nth-child(-n+2) {
+  border-top: 0;
+  padding-top: 4px;
+}
+
+.zh-workbench-ledger a::before {
+  align-items: center;
+  background: #566f92;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  border-radius: 999px;
+  color: #fff;
+  content: "W";
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 900;
+  height: 24px;
+  justify-content: center;
+  left: 12px;
+  line-height: 1;
+  position: absolute;
+  top: 14px;
+  width: 24px;
+}
+
+.zh-workbench-ledger a:nth-child(-n+2)::before {
+  top: 5px;
+}
+
+.zh-workbench-ledger a:nth-child(1)::before {
+  background: #8c681f;
+  content: "S";
+}
+
+.zh-workbench-ledger a:nth-child(2)::before {
+  background: #b24c34;
+  content: "F";
+}
+
+.zh-workbench-ledger a:nth-child(3)::before {
+  background: #566f92;
+  content: "V";
+}
+
+.zh-workbench-ledger a:nth-child(4)::before {
+  background: #b88a3b;
+  content: "P";
+}
+
+.zh-workbench-ledger b {
+  color: var(--navy);
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.zh-workbench-ledger span {
+  color: #4c596b;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
 .zh-home-bookshop-footer {
   background:
-    linear-gradient(135deg, rgba(184, 138, 59, 0.1), rgba(6, 26, 47, 0.04)),
+    linear-gradient(90deg, rgba(255, 253, 248, 0.99), rgba(247, 242, 234, 0.98) 48%, rgba(242, 245, 251, 0.98)),
     #fffdf8;
+  border-top: 1px solid rgba(214, 198, 171, 0.88);
+  padding-bottom: 28px;
+  padding-top: 28px;
 }
 
 .zh-home-bookshop-card {
-  background: #fff;
-  border: 1px solid rgba(184, 138, 59, 0.42);
-  border-left: 8px solid var(--gold);
-  border-radius: 10px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   display: grid;
-  gap: 10px;
-  padding: 24px 28px;
+  gap: 18px;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  padding: 0;
+  position: relative;
+}
+
+.zh-home-bookshop-card::before {
+  background: #d7ad55;
+  content: "";
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 4px;
+}
+
+.zh-bookshop-main {
+  align-content: center;
+  display: grid;
+  gap: 7px;
+  padding-left: 18px;
+  text-decoration: none;
 }
 
 .zh-home-bookshop-card span {
@@ -1317,24 +2043,87 @@ h1 {
 
 .zh-home-bookshop-card strong {
   color: var(--navy);
-  font-size: clamp(26px, 3.2vw, 40px);
-  line-height: 1.12;
+  font-size: clamp(22px, 2.5vw, 31px);
+  font-weight: 900;
+  line-height: 1.18;
 }
 
 .zh-home-bookshop-card p {
   color: #4c596b;
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 13px;
+  line-height: 1.78;
   margin: 0;
-  max-width: 960px;
+  max-width: 650px;
+}
+
+.zh-bookshop-links {
+  gap: 5px;
+  margin: 0;
+}
+
+.zh-bookshop-links span {
+  background: #fff7e6;
+  border: 1px solid rgba(184, 138, 59, 0.26);
+  color: #6d4f19;
+  font-size: 10px;
+  padding: 4px 7px;
 }
 
 .zh-home-bookshop-card em {
   color: var(--navy);
   font-family: var(--font-ui);
-  font-size: 13px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 850;
+}
+
+.zh-bookshop-button-grid {
+  display: grid;
+  gap: 9px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.zh-bookshop-button-grid a {
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(214, 198, 171, 0.72);
+  border-left: 4px solid #d7ad55;
+  border-radius: 6px;
+  display: grid;
+  gap: 3px;
+  min-height: 58px;
+  padding: 9px 11px;
+}
+
+.zh-bookshop-button-grid a:nth-child(2) {
+  border-left-color: #b24c34;
+}
+
+.zh-bookshop-button-grid a:nth-child(3) {
+  border-left-color: #3e5f90;
+}
+
+.zh-bookshop-button-grid a:nth-child(4) {
+  border-left-color: #566f92;
+}
+
+.zh-bookshop-button-grid a:nth-child(5) {
+  border-left-color: #061a2f;
+  grid-column: 1 / -1;
+}
+
+.zh-bookshop-button-grid b {
+  color: var(--navy);
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.zh-bookshop-button-grid span {
+  color: #5e6874;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.28;
+  text-transform: none;
 }
 
 .zh-planning-hero,
@@ -14675,6 +15464,44 @@ h1 {
     position: static;
   }
 
+  .zh-region-map-inner {
+    grid-template-columns: 1fr;
+    min-height: 520px;
+  }
+
+  .zh-region-map-copy {
+    align-self: start;
+  }
+
+  .zh-region-map-stage {
+    min-height: 310px;
+  }
+
+  .zh-home-bookshop-card,
+  .zh-bookshop-button-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-home-route-tiles a:nth-child(1) {
+    min-height: 0;
+    padding: 12px 0 12px 40px;
+  }
+
+  .zh-home-route-tiles a {
+    border-left: 0;
+    border-top: 1px solid rgba(131, 112, 82, 0.18);
+    min-height: 0;
+    padding: 12px 0 12px 40px;
+  }
+
+  .zh-home-route-tiles a + a {
+    border-left: 0;
+  }
+
+  .zh-home-route-note {
+    grid-template-columns: 1fr;
+  }
+
   .service-herald-main {
     border-right: 0;
     padding: 20px;
@@ -14716,7 +15543,11 @@ h1 {
   .zh-home-hero .hero-directory,
   .zh-business-grid,
   .zh-home-feature-grid,
+  .zh-home-route-tiles,
+  .zh-home-workbench,
+  .zh-home-learning-core,
   .zh-home-small-links,
+  .zh-region-grid,
   .zh-planning-steps,
   .zh-planning-board,
   .zh-immigration-grid,
@@ -14750,6 +15581,47 @@ h1 {
   .insight-card-feature {
     grid-row: auto;
     min-height: 0;
+  }
+
+  .zh-home-small-links a {
+    border-left: 0;
+    border-top: 1px solid rgba(131, 112, 82, 0.18);
+    min-height: 0;
+    padding: 12px 0 12px 38px;
+  }
+
+  .zh-home-small-links a + a {
+    border-left: 0;
+  }
+
+  .zh-home-small-links a:not(:last-child)::after {
+    content: none;
+  }
+
+  .zh-home-learning-core {
+    padding-right: 0;
+  }
+
+  .zh-home-side-stack {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-learning-ledger {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-learning-ledger a,
+  .zh-learning-ledger a:nth-child(-n+2) {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid rgba(131, 112, 82, 0.18);
+    min-height: 0;
+    padding: 12px 0 12px 40px;
+  }
+
+  .zh-learning-ledger a::before,
+  .zh-learning-ledger a:nth-child(-n+2)::before {
+    top: 13px;
   }
 
   .zh-herald-page {
