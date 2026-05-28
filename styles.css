@@ -1273,6 +1273,236 @@ h1 {
   color: var(--gold);
 }
 
+.country-gateway-hero {
+  background:
+    linear-gradient(90deg, rgba(10, 24, 40, 0.78), rgba(22, 55, 86, 0.58)),
+    url("/assets/summer-school-hero-ai-20260528.png") center center / cover no-repeat !important;
+}
+
+.country-gateway-hero .band {
+  padding: 22px 0 18px;
+}
+
+.country-gateway-hero h1 {
+  color: #f3ecde;
+  font-size: clamp(30px, 3.5vw, 42px);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.country-gateway-hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(18px, 1.9vw, 24px);
+  margin-top: 8px;
+}
+
+.country-gateway-hero p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 15px;
+  max-width: 620px;
+}
+
+.summer-alliance-hero-grid {
+  align-items: end;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+}
+
+.summer-alliance-hero-main {
+  max-width: 760px;
+}
+
+.summer-alliance-hero-main .eyebrow {
+  color: #d4a44b;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+}
+
+.summer-alliance-hero-main h1 {
+  color: #f3ede0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(28px, 3.3vw, 42px);
+  font-weight: 700;
+  line-height: 1.04;
+  margin: 0;
+}
+
+.summer-alliance-hero-main h2 {
+  color: #d9b56a;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(18px, 1.8vw, 24px);
+  font-weight: 600;
+  line-height: 1.18;
+  margin: 10px 0 0;
+}
+
+.summer-alliance-hero-main p {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 12px;
+  max-width: 620px;
+}
+
+.summer-alliance-hero-proofs {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 18px;
+  max-width: 760px;
+}
+
+.summer-alliance-hero-proofs article {
+  align-content: start;
+  border-left: 2px solid rgba(212, 164, 75, 0.62);
+  padding-left: 14px;
+}
+
+.summer-alliance-hero-proofs strong {
+  color: #ecd7a2;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.summer-alliance-hero-proofs span {
+  color: rgba(255, 255, 255, 0.82);
+  display: block;
+  font-size: 12px;
+  line-height: 1.55;
+  margin-top: 6px;
+}
+
+.summer-alliance-hero-main .actions {
+  margin-top: 18px;
+}
+
+.summer-alliance-hero-side {
+  align-self: end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.summer-alliance-hero-stats {
+  background: rgba(7, 18, 31, 0.82);
+  border: 1px solid rgba(212, 164, 75, 0.42);
+  border-radius: 10px;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  min-width: 360px;
+  overflow: hidden;
+}
+
+.summer-alliance-hero-stats article {
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.summer-alliance-hero-stats article:last-child {
+  border-right: 0;
+}
+
+.summer-alliance-hero-stats strong {
+  color: #dfb35c;
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.summer-alliance-hero-stats span {
+  color: rgba(255, 255, 255, 0.82);
+  display: block;
+  font-size: 11px;
+  line-height: 1.45;
+  margin-top: 6px;
+}
+
+.summer-alliance-region-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.summer-alliance-region-card {
+  background: #fff;
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
+  overflow: hidden;
+}
+
+.summer-alliance-region-card img {
+  display: block;
+  height: 118px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.summer-alliance-region-card .body {
+  padding: 14px 14px 16px;
+}
+
+.summer-alliance-region-card strong {
+  color: var(--navy);
+  display: block;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.summer-alliance-region-card span {
+  color: #5d6774;
+  display: block;
+  font-size: 13px;
+  line-height: 1.55;
+  margin-top: 8px;
+  min-height: 60px;
+}
+
+.summer-alliance-region-card a {
+  color: var(--gold);
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.summer-alliance-timeline-grid article {
+  min-height: 150px;
+}
+
+.summer-alliance-bottom-cta {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 18px 20px;
+}
+
+.summer-alliance-bottom-cta strong {
+  color: var(--navy);
+  display: block;
+  font-size: 22px;
+}
+
+.summer-alliance-bottom-cta span {
+  color: #5d6774;
+  display: block;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
 .regional-office-panel {
   background: #fff;
 }
@@ -1370,20 +1600,81 @@ h1 {
 }
 
 .country-gateway-panel {
-  background: #fff;
+  background: #fffdf9;
+  border: 1px solid #eadfc9;
+  border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(15, 35, 65, 0.05);
+}
+
+.summer-alliance-intro {
+  padding-top: 20px;
+}
+
+.summer-alliance-intro-head {
+  margin-bottom: 12px;
+}
+
+.summer-alliance-pillars {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.summer-alliance-pillars article {
+  background: rgba(255, 253, 248, 0.98);
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
+  min-height: 108px;
+  padding: 15px 16px 14px;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.summer-alliance-pillars article:hover {
+  border-color: #d3b27a;
+  box-shadow: 0 10px 24px rgba(15, 35, 65, 0.08);
+  transform: translateY(-2px);
+}
+
+.summer-alliance-pillars strong {
+  color: var(--navy);
+  display: block;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.summer-alliance-pillars span {
+  color: #5d6774;
+  display: block;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.summer-alliance-overview .section-head {
+  margin-bottom: 14px;
+}
+
+.summer-alliance-note {
+  background: #fff6e8;
+  border-left: 4px solid #b88a3b;
+  margin-top: 14px;
 }
 
 .country-school-grid {
-  border: 1px solid var(--line);
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 24px;
+  margin-top: 16px;
+  overflow: hidden;
 }
 
 .country-school-grid article {
-  border-right: 1px solid var(--line);
-  min-height: 360px;
-  padding: 22px;
+  border-right: 1px solid #eadfc9;
+  min-height: 320px;
+  padding: 18px;
 }
 
 .country-school-grid article:last-child {
@@ -1419,7 +1710,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .zh-tool-link-list {
@@ -1806,13 +2097,22 @@ h1 {
   padding-bottom: 54px;
 }
 
+.summer-alliance-intro.band,
+.summer-alliance-overview.band,
+.country-gateway-panel.band,
+.band:has(.resource-list),
+.band:has(.school-service-cards) {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
 .section-head {
   max-width: 780px;
   margin-bottom: 34px;
 }
 
 .compact-head {
-  margin-bottom: 22px;
+  margin-bottom: 14px;
 }
 
 .section-head h2 {
@@ -8061,6 +8361,18 @@ h1 {
   margin-top: 8px;
 }
 
+.summer-alliance-overview .summer-alliance-sidecard,
+.resource-row {
+  background: #fff;
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
+}
+
+.summer-alliance-overview .summer-alliance-sidecard {
+  padding: 18px;
+}
+
 .school-profile-side a,
 .school-review-contact a {
   margin-top: 14px;
@@ -13181,6 +13493,7 @@ h1 {
   .zh-audience-strip,
   .zh-othm-centre-panel,
   .zh-othm-links,
+  .summer-alliance-pillars,
   .zh-tool-link-list,
   .regional-office-map-card,
   .regional-office-grid,

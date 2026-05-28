@@ -14768,141 +14768,64 @@ const summerSchoolAlliance = pageShell({
   body: `
     <section class="page-hero regional-office-hero country-gateway-hero">
       <div class="band">
-        <div class="eyebrow">OTC Summer School Alliance</div>
-        <h1>暑校聯盟入口</h1>
-        <h2>UK · Australia · New Zealand · Malaysia · USA · Canada</h2>
-        <p>OTC 目前可對接英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期遊學與 summer school 路線。按現行操作口徑，一級 / 二級代理通道均可承接；家長端代辦本身不收隱藏費用，報名前先把費用構成與項目邊界講清楚。</p>
-        <div class="notice" style="margin:18px 0 14px; font-size:1rem; line-height:1.7; border-left:6px solid #b5272d; background:#fff6e8;">
-          <strong>OTC 暑校代辦口徑：</strong>英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目可走一級 / 二級代理通道；<strong>代辦本身免費，不設隱藏收費</strong>。正式報名前，我們會先把項目方收費、住宿、接送、醫療表、保險與家長需自行承擔的部分逐項說清。
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">立即咨詢</a>
-          <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp</a>
-          <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Summer%20School%20Alliance%20Enquiry">發送需求</a>
-          <a class="btn btn-secondary" href="/zh/insights/uk-summer-school-programme-awards-2026/">閱讀英國項目大賞</a>
+        <div class="summer-alliance-hero-grid">
+          <div class="summer-alliance-hero-main">
+            <div class="eyebrow">SUMMER SCHOOL HUB</div>
+            <h1>海外督導｜暑校聯盟</h1>
+            <h2>UK · Australia · New Zealand · Malaysia · USA · Canada</h2>
+            <p>為中學生提供全球優質暑期學術項目，探索興趣，提升背景，為未來升學做好準備。</p>
+            <div class="summer-alliance-hero-proofs">
+              <article><strong>全球優質項目</strong><span>精選全球知名院校暑校項目</span></article>
+              <article><strong>學術背景提升</strong><span>提升學術能力與軟實力，助力升學申請</span></article>
+              <article><strong>專業顧問服務</strong><span>個性化規劃與全程跟進，讓每一步更有方向</span></article>
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">立即咨詢</a>
+              <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Summer%20School%20Alliance%20Enquiry">發送需求</a>
+            </div>
+          </div>
+          <div class="summer-alliance-hero-side">
+            <div class="summer-alliance-hero-stats">
+              <article><strong>10+</strong><span>國家與地區</span></article>
+              <article><strong>200+</strong><span>優質項目</span></article>
+              <article><strong>3000+</strong><span>學生參與</span></article>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="band country-gateway-panel">
-      <div class="section-head compact-head">
-        <div class="eyebrow">OTC Route Scope</div>
-        <h2>六個暑期目的地，一個家長入口。</h2>
-        <p>先分國家，再分項目類型，再分學生年齡、英文、成熟度與預算。這樣比盲目看 brochure 更容易找到真正合適的 route。</p>
+    <section class="band compact-band summer-alliance-intro">
+      <div class="section-head compact-head summer-alliance-intro-head">
+        <h2>項目國家 / Region</h2>
       </div>
-      <div class="summer-alliance-map-wrap">
-        <div class="summer-alliance-sidecard">
-          <div class="meta">家長先看這裡</div>
-          <h3>點地圖，不用先猜哪個國家最適合。</h3>
-          <p>六個目的地各自打開後，都先看三件事：<strong>有哪些可報方向</strong>、<strong>有哪些注意事項</strong>、<strong>應該怎樣選路徑</strong>。適合第一次做暑校比較，也適合家長先在一個頁面內做 shortlist。</p>
-          <ul class="summer-route-stack">
-            <li><strong>第一步</strong><span>先點國家，看項目清單與注意事項</span></li>
-            <li><strong>第二步</strong><span>再判斷是英文提升、學術體驗、低齡寄宿還是職涯探索</span></li>
-            <li><strong>第三步</strong><span>最後再打開專屬頁看完整表格、費用與流程</span></li>
-          </ul>
-        </div>
-        <div class="credit-world-map summer-alliance-map" aria-label="OTC 暑校聯盟目的地地圖">
-          <details class="map-pin pin-summer-canada">
-            <summary>加拿大 Canada</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>加拿大：平衡型北美體驗</strong>
-              <p>適合第一次走北美、希望英語輸出、城市安全感與生活節奏更平衡的家庭。</p>
-              <ul class="summer-inline-list">
-                <li>英語與城市生活營</li>
-                <li>中學校園體驗與訪校</li>
-                <li>學術 + 活動平衡型暑校</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>先看城市生活成本、未成年人入境文件、住宿與接送責任。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>第一次北美體驗先走平衡型；若家長已在看中學，則直接把訪校型放進 shortlist。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/canada/">打開加拿大完整頁</a>
-            </div>
-          </details>
-          <details class="map-pin pin-summer-usa">
-            <summary>美國 USA</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>美國：選擇多，但更要防止只看名字</strong>
-              <p>適合看大學校園、主題 enrichment、專題學術營的學生，但層次差很大，最需要提前篩選。</p>
-              <ul class="summer-inline-list">
-                <li>大學校園 enrichment route</li>
-                <li>專題學術營</li>
-                <li>中學體驗與訪校路線</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>提早看美簽、保險、住宿與學生獨立能力，不要臨近出發才補文件。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>想感受名校氛圍走 campus 類；已有科目偏好則看 STEM / writing / business 等主題營。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/united-states/">打開美國完整頁</a>
-            </div>
-          </details>
-          <details class="map-pin pin-summer-uk">
-            <summary>英國 UK</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>英國：OTC 目前最成熟的暑期路線</strong>
-              <p>適合想把英文提升、名校學術體驗、低齡寄宿和職涯探索放在同一個國家內比較的家庭。</p>
-              <ul class="summer-inline-list">
-                <li>Oxford / Cambridge 學術體驗營</li>
-                <li>London 職涯探索營</li>
-                <li>低齡英文寄宿夏校</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>住宿監護、接送、健康表與 consent 文件要提早整理，London 類項目通常預算更高。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>第一次出國可先看低齡寄宿或英文提升型；高年級再進入學術體驗和職涯探索型。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/uk/">打開英國完整頁</a>
-            </div>
-          </details>
-          <details class="map-pin pin-summer-malaysia">
-            <summary>馬來西亞 Malaysia</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>馬來西亞：亞洲區試水與過渡路線</strong>
-              <p>適合先做英語、國際校環境或低齡家庭的短期過渡，整體風險感與總成本通常更容易控。</p>
-              <ul class="summer-inline-list">
-                <li>英語提升與國際校體驗營</li>
-                <li>親子城市學習營</li>
-                <li>升學前置觀察營</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>逐案匹配合作通道，先核對住宿、餐食、監護與短期保險。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>低齡或首次出境家庭可先走親子 / 過渡型，之後再升級到英美澳加暑校。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/malaysia/">打開馬來西亞完整頁</a>
-            </div>
-          </details>
-          <details class="map-pin pin-summer-australia">
-            <summary>澳洲 Australia</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>澳洲：暑期體驗可直接連到後續升學</strong>
-              <p>適合希望把短期體驗和後續 K-12、pathway 或 university route 一起看的家庭。</p>
-              <ul class="summer-inline-list">
-                <li>校園英文與生活體驗營</li>
-                <li>中學校園觀察 + 短期體驗</li>
-                <li>大學城市體驗 + 升學導向營</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>州別、學校 calendar、監護與 health form 會直接影響是否來得及報名。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>先看城市與校園可走大學城市體驗；若家長已考慮中學長線，直接放學校觀察型進 shortlist。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/australia/">打開澳洲完整頁</a>
-            </div>
-          </details>
-          <details class="map-pin pin-summer-newzealand">
-            <summary>新西蘭 New Zealand</summary>
-            <div class="map-popover summer-map-popover">
-              <strong>新西蘭：節奏更穩、過渡感更溫和</strong>
-              <p>適合重視生活安全感、英語輸出與校園體驗並重，希望先做溫和過渡的家庭。</p>
-              <ul class="summer-inline-list">
-                <li>英語沉浸寄宿營</li>
-                <li>校園觀察與學校體驗</li>
-                <li>城市生活 + 英文輸出營</li>
-              </ul>
-              <p class="summer-route-note"><strong>注意事項：</strong>先看季節差異、機票、住宿與是否需要逐校核 availability。</p>
-              <p class="summer-route-note"><strong>選擇路徑：</strong>想穩穩建立英語環境可先走寄宿營；若重點是後續中學路線，就以校園觀察型為主。</p>
-              <a class="summer-country-jump" href="/zh/summer-school-alliance/new-zealand/">打開新西蘭完整頁</a>
-            </div>
-          </details>
-        </div>
+      <div class="summer-alliance-region-grid">
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80" alt="英國 UK">
+          <div class="body"><strong>英國 UK</strong><span>牛津、劍橋及 G5 名校項目，學術嚴謹，選擇豐富。</span><a href="/zh/summer-school-alliance/uk/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=900&q=80" alt="澳大利亞 Australia">
+          <div class="body"><strong>澳大利亞 Australia</strong><span>多元文化，環境友好，STEM 與研究項目豐富。</span><a href="/zh/summer-school-alliance/australia/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="新西蘭 New Zealand">
+          <div class="body"><strong>新西蘭 New Zealand</strong><span>自然學科結合生活體驗，適合溫和過渡型學生。</span><a href="/zh/summer-school-alliance/new-zealand/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=900&q=80" alt="馬來西亞 Malaysia">
+          <div class="body"><strong>馬來西亞 Malaysia</strong><span>英語環境、距離近，適合首次國際項目試水。</span><a href="/zh/summer-school-alliance/malaysia/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=900&q=80" alt="美國 USA">
+          <div class="body"><strong>美國 USA</strong><span>世界頂尖大學資源，適合科研、創新與專業探索。</span><a href="/zh/summer-school-alliance/united-states/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80" alt="加拿大 Canada">
+          <div class="body"><strong>加拿大 Canada</strong><span>安全友好，適合長線規劃與平衡型北美體驗。</span><a href="/zh/summer-school-alliance/canada/">查看項目 →</a></div>
+        </article>
       </div>
-      <div class="country-school-grid">
-        <article><b>01</b><strong>英國 UK</strong><p>英文提升型、名校學術體驗型、職涯探索型、低齡寄宿型最齊全，也是 OTC 目前最成熟的暑期路線。</p><a href="/zh/summer-school-alliance/uk/">打開英國專屬頁</a></article>
-        <article><b>02</b><strong>澳洲 Australia</strong><p>適合看校園環境、英語沉浸、學校接軌與長線升學銜接的家庭，可連接 OTC 澳洲路線與後續在地支持。</p><a href="/zh/summer-school-alliance/australia/">打開澳洲專屬頁</a></article>
-        <article><b>03</b><strong>新西蘭 New Zealand</strong><p>適合偏好生活節奏穩、環境安全感更強、英語與校園體驗並重的家庭。</p><a href="/zh/summer-school-alliance/new-zealand/">打開新西蘭專屬頁</a></article>
-        <article><b>04</b><strong>馬來西亞 Malaysia</strong><p>適合先做英語、國際學校環境或亞洲區短期過渡體驗的家庭；由 OTC 按個案匹配具體合作通道。</p><a href="/zh/summer-school-alliance/malaysia/">打開馬來西亞專屬頁</a></article>
-        <article><b>05</b><strong>美國 USA</strong><p>適合看大學校園、英語 immersion、專題營或夏季 enrichment 路線的學生，需更早做監護、文件與預算判斷。</p><a href="/zh/summer-school-alliance/united-states/">打開美國專屬頁</a></article>
-        <article><b>06</b><strong>加拿大 Canada</strong><p>適合偏好北美學校氛圍、英語環境與相對平衡生活節奏的家庭，可結合後續學校申請規劃。</p><a href="/zh/summer-school-alliance/canada/">打開加拿大專屬頁</a></article>
-      </div>
-      <p class="source-note">合作通道、名額、年齡分段、住宿安排和當年開課情況會變動；是否走一級代理、二級代理或直接報名，會在具體個案匹配時提前說清。</p>
     </section>
 
     <section class="band compact-band">
@@ -14921,8 +14844,8 @@ const summerSchoolAlliance = pageShell({
     <section class="band">
       <div class="section-head compact-head">
         <div class="eyebrow">Customer Pain Points</div>
-        <h2>家長和學生現在最常問的，其實是這幾件事。</h2>
-        <p>這些不是抽象 marketing 文案，而是 OTC 近似於社群真實提問的整理。入口頁先回答問題，再讓家長點進各國專屬頁做比對。</p>
+        <h2>常見問題</h2>
+        <p>入口頁先回答真問題，再讓家長點進各國專屬頁做比對，而不是直接被 brochure 名字帶著走。</p>
       </div>
       <div class="resource-list">
         <article class="resource-row"><div><div class="meta">高頻問題 01</div><h3>現在還有什麼暑期營隊可以報名？</h3><p>家長真正想問的是：現在報還來不來得及、還有沒有名額、哪個國家不用太晚開始補文件。OTC 的做法不是先亂推，而是先看時間窗口、學生年齡、簽證與 health / consent 文件負擔，再給可報 shortlist。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/uk/">先看英國</a></article>
@@ -14935,7 +14858,7 @@ const summerSchoolAlliance = pageShell({
     <section class="band">
       <div class="section-head compact-head">
         <div class="eyebrow">What OTC Does</div>
-        <h2>家長真正得到的，不只是報名，而是一整套減壓流程。</h2>
+        <h2>整套減壓流程</h2>
       </div>
       <div class="resource-list">
         <article class="resource-row"><div><div class="meta">Route screening</div><h3>先做 2–4 個真實可比選項</h3><p>按年齡、英文、成熟度、城市偏好、住宿接受度、預算和未來升學方向，縮小到能真正比較的 shortlist。</p></div><span class="pill">初篩</span></article>
@@ -14946,7 +14869,26 @@ const summerSchoolAlliance = pageShell({
     </section>
 
     <section class="band compact-band">
-      <div class="notice">Boundary note: 「暑校聯盟」在此頁面指 OTC 的暑期項目合作與分流入口，不代表單一官方聯盟機構名稱。具體授權、名額、價格、住宿、監護與開課安排均以對應項目方最新書面資料為準。</div>
+      <div class="section-head compact-head">
+        <div class="eyebrow">Application Timeline</div>
+        <h2>暑校申請時間軸</h2>
+      </div>
+      <div class="school-service-cards summer-alliance-timeline-grid">
+        <article><b>9–11月</b><strong>先了解路線</strong><p>確定目標、預算與大方向。</p></article>
+        <article><b>12–2月</b><strong>提交申請</strong><p>準備材料，鎖定名額與項目。</p></article>
+        <article><b>3–4月</b><strong>錄取與住宿</strong><p>確認錄取、簽證、接送與住宿安排。</p></article>
+        <article><b>6–8月</b><strong>參加暑校</strong><p>出發入營，完成課程與成果整理。</p></article>
+      </div>
+      <div class="summer-alliance-bottom-cta">
+        <div>
+          <strong>開啟你的暑期學術之旅</strong>
+          <span>專業顧問為你梳理方向，匹配更合適的暑校項目。</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">免費咨詢</a>
+          <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp 咨詢</a>
+        </div>
+      </div>
     </section>
   `
 });
