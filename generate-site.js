@@ -16707,9 +16707,9 @@ function summerSchoolCountryPage(route) {
       : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
     image: route.slug === "united-states"
-      ? "/assets/social/us-summer-alliance-social-preview-20260528-v2.png"
+      ? "/assets/social/us-summer-alliance-herald-share-20260528-v3.png"
       : route.slug === "malaysia"
-      ? "/assets/social/malaysia-summer-alliance-social-preview-20260528-v1.png"
+      ? "/assets/social/malaysia-summer-alliance-herald-share-20260528-v2.png"
       : "",
     imageWidth: route.slug === "united-states" || route.slug === "malaysia" ? 1200 : 1200,
     imageHeight: route.slug === "united-states" || route.slug === "malaysia" ? 630 : 675,
@@ -17034,7 +17034,7 @@ function unitedStatesProgrammesPage() {
     locale: "zh",
     description: "美國暑校熱門課程總表：Yale、Columbia、Brown、Berkeley、UCLA、UChicago 與更多 pre-college / academic enrichment 項目總表。",
     path: "/zh/summer-school-alliance/united-states/programmes/",
-    image: "/assets/social/us-summer-alliance-social-preview-20260528-v2.png",
+    image: "/assets/social/us-summer-alliance-herald-share-20260528-v3.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 美國暑校聯盟分享題圖",
@@ -17193,7 +17193,7 @@ function malaysiaProgrammesPage() {
     locale: "zh",
     description: "馬來西亞暑校熱門課程總表：British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 項目總表。",
     path: "/zh/summer-school-alliance/malaysia/programmes/",
-    image: "/assets/social/malaysia-summer-alliance-social-preview-20260528-v1.png",
+    image: "/assets/social/malaysia-summer-alliance-herald-share-20260528-v2.png",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: "OTC 馬來西亞暑校聯盟分享題圖",
