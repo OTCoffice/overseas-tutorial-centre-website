@@ -16322,6 +16322,10 @@ function summerSchoolCountryPage(route) {
       ? "OTC 美國暑校聯盟：Yale、Columbia、Berkeley、UCLA、UChicago 與 US pre-college / summer immersion / campus routes 集中頁。"
       : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
+    image: route.slug === "united-states" ? "/assets/summer-school-hero-ai-20260528.png" : "",
+    imageWidth: route.slug === "united-states" ? 1983 : 1200,
+    imageHeight: route.slug === "united-states" ? 793 : 675,
+    imageAlt: route.slug === "united-states" ? "OTC 美國暑校聯盟分享題圖" : "",
     body: `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
