@@ -6987,7 +6987,7 @@ function servicesLandingPage(locale = "en") {
           <a class="service-language-link" href="/services/">英文版</a>
         </aside>
       </div>
-      <a class="zh-hero-service-button" href="/zh/services/"><span>服務入口</span><strong>服務導覽台</strong><em>申請 · 監護 · 出版 · 機構合作</em></a>
+      <a class="zh-hero-service-button" href="/zh/services/">服務導覽台 →</a>
     </section>
   ` : `
     <section class="page-hero services-hero">
@@ -11022,7 +11022,7 @@ const chineseEntrance = pageShell({
           </div>
         </aside>
       </div>
-      <a class="zh-hero-service-button" href="/zh/services/"><span>服務入口</span><strong>服務導覽台</strong><em>申請 · 監護 · 出版 · 機構合作</em></a>
+      <a class="zh-hero-service-button" href="/zh/services/">服務導覽台 →</a>
     </section>
 
     <section class="band compact-band zh-open-learning-section" id="open-learning-platform">
