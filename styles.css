@@ -20764,3 +20764,88 @@ html[lang^="zh"] .about-panel li {
   line-height: 1.28 !important;
   text-align: center !important;
 }
+
+/* Final lock: partner hero left copy must stay visible above the artwork */
+body .partner-hero .band {
+  position: relative !important;
+}
+
+body .partner-hero .band .partner-hero-copy {
+  align-items: flex-start !important;
+  background: linear-gradient(90deg, rgba(6, 22, 40, 0.72) 0%, rgba(6, 22, 40, 0.48) 52%, rgba(6, 22, 40, 0) 100%) !important;
+  border-radius: 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  isolation: isolate !important;
+  left: 5.8% !important;
+  max-width: 520px !important;
+  opacity: 1 !important;
+  padding: 20px 24px 18px !important;
+  pointer-events: auto !important;
+  position: absolute !important;
+  top: 11.5% !important;
+  visibility: visible !important;
+  width: min(36%, 520px) !important;
+  z-index: 20 !important;
+}
+
+body .partner-hero .band .partner-hero-copy .partner-hero-scene,
+body .partner-hero .band .partner-hero-copy .eyebrow,
+body .partner-hero .band .partner-hero-copy .partner-language-switch,
+body .partner-hero .band .partner-hero-copy .partner-trust-strip {
+  display: none !important;
+}
+
+body .partner-hero .band .partner-hero-copy h1,
+body .partner-hero .band .partner-hero-copy h2,
+body .partner-hero .band .partner-hero-copy p {
+  display: block !important;
+  opacity: 1 !important;
+  text-indent: 0 !important;
+  transform: none !important;
+  visibility: visible !important;
+  white-space: normal !important;
+}
+
+body .partner-hero .band .partner-hero-copy h1 {
+  color: #f0d98f !important;
+  font-family: "Songti SC", "Songti TC", "Songti", "STSong", serif !important;
+  font-size: clamp(26px, 2.75vw, 36px) !important;
+  font-weight: 700 !important;
+  line-height: 1.12 !important;
+  margin: 0 0 8px !important;
+  max-width: none !important;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.58) !important;
+}
+
+body .partner-hero .band .partner-hero-copy h2 {
+  color: #fffaf0 !important;
+  font-family: "Songti SC", "Songti TC", "Songti", "STSong", serif !important;
+  font-size: clamp(26px, 2.75vw, 36px) !important;
+  font-weight: 700 !important;
+  line-height: 1.12 !important;
+  margin: 0 0 14px !important;
+  max-width: none !important;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.58) !important;
+}
+
+body .partner-hero .band .partner-hero-copy p {
+  color: rgba(248, 242, 229, 0.96) !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+  max-width: 290px !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.52) !important;
+}
+
+body .partner-hero .band .partner-hero-copy .actions {
+  display: flex !important;
+  gap: 6px !important;
+  margin: 0 !important;
+  pointer-events: auto !important;
+  position: absolute !important;
+  right: -176px !important;
+  top: -6px !important;
+  z-index: 30 !important;
+}
