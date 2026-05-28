@@ -1817,6 +1817,106 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "uk-skilled-worker-to-ilr-5-year-checklist-2026",
+    title: "Skilled Worker → ILR: A Practical 5-Year Timeline Checklist (UK, May 2026)",
+    date: "2026-05-28",
+    category: "UK Immigration",
+    column: "settlement",
+    kicker: "Settlement planning · Skilled Worker · Evidence checklist",
+    author: "留學導報編輯部",
+    summary: "If you’re on a UK Skilled Worker route and thinking about settlement (ILR), don’t memorise rumours—build a clean 5-year timeline, track absences, keep employment/salary evidence tidy, and plan your “apply up to 28 days early” window. This is a practical checklist (not legal advice) anchored to GOV.UK and the Immigration Rules.",
+    titleZh: "Skilled Worker 走到 ILR：用一張「5 年時間線」清單把風險提早處理（英國，2026/05）",
+    summaryZh: "如果你是英國 Skilled Worker，想規劃永居（ILR），最有效的不是背「網路版本」，而是把 5 年時間線、離境天數、受僱與薪資證據、以及「可提早 28 天遞交」窗口整理好。本文用家長/學生看得懂的方式做一份實務清單（非法律意見），並提醒你以 GOV.UK 與 Immigration Rules 的最新版本為準。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "uk-entry-requirements-course-page-checklist"
+    ],
+    resources: [
+      ["GOV.UK: Skilled Worker ILR – Time in the UK", "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/time-uk"],
+      ["GOV.UK: Immigration Rules – Appendix Skilled Worker", "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker/"],
+      ["GOV.UK: Immigration Rules – Appendix Continuous Residence", "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-continuous-residence/"],
+      ["GOV.UK: Earned settlement consultation", "https://www.gov.uk/government/consultations/earned-settlement"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文核心時間線、連續居住/離境概念、以及「可提早最多 28 天遞交」提示，依 GOV.UK（Skilled Worker ILR: Time in the UK）與 Immigration Rules（Appendix Skilled Worker、Appendix Continuous Residence）整理。",
+      "移民規則可能更新，且個案可能因簽證歷史、缺口、職業/雇主變動、長期離境原因等而不同；本文為教育資訊整理，不構成法律意見，也不構成任何結果承諾。正式申請前請以官方最新條文與必要時的專業法律意見為準。"
+    ],
+    body: [
+      {
+        heading: "1) The headline is still “5 years” — but it’s the timeline that matters",
+        paragraphs: [
+          "For Skilled Worker settlement, the mainstream starting point is a continuous 5-year qualifying period. In practice, most problems are not about the number “5”, but about whether your timeline is clean: which permission periods count, whether your residence was continuous, and whether evidence can be matched to each period.",
+          "If you do one thing today: create a one-page timeline with visa start dates, employer periods, role/SOC changes, and travel dates. That single document saves weeks later."
+        ]
+      },
+      {
+        heading: "2) Absences: treat the 180-days rule like a live dashboard",
+        paragraphs: [
+          "A common continuous residence rule is that absences must not exceed 180 days in any 12-month period (subject to the current rule wording and exceptions). Don’t calculate it once—track it continuously, because business travel, family events and emergencies add up fast.",
+          "Keep a simple travel log with date out/date in, reason, and supporting evidence (tickets, employer letters, medical documents if relevant). If the form and travel evidence don’t match, it becomes a delay point."
+        ]
+      },
+      {
+        heading: "3) Employment & salary: don’t guess a number—prove you meet the current rule",
+        paragraphs: [
+          "For settlement, applicants are usually expected to still be in qualifying sponsored employment and to meet the relevant salary requirement under the current Skilled Worker settlement rules. Because salary thresholds and “going rate” tables can change, avoid writing a single fixed number into your plan.",
+          "Instead, keep a tidy evidence pack: contract, job description, payslips, bank statements, employer letter, and any change history (promotion, hours, location). The goal is to make your status and pay easy to verify."
+        ]
+      },
+      {
+        heading: "4) Timing: the “apply up to 28 days early” window is real—plan backwards",
+        paragraphs: [
+          "GOV.UK guidance commonly allows applying up to 28 days before completing the 5-year period. That only helps if your dates are correct and your evidence is ready.",
+          "Plan backwards: confirm the earliest eligible submission date, build buffer time for documents and employer letters, and avoid last-minute travel that might push absences over a threshold."
+        ]
+      },
+      {
+        heading: "5) Earned settlement talk: keep calm, stay official-source-led",
+        paragraphs: [
+          "There has been public policy discussion and consultation activity around “earned settlement”. Treat this as a signal to keep checking official updates—not a reason to rely on social media summaries.",
+          "For May 2026 planning, anchor your checklist to what GOV.UK and the Immigration Rules currently say for Skilled Worker settlement, and keep your evidence and timeline in a state that can survive rule updates."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、標題是「5 年」，但真正卡人的通常是「時間線」",
+        paragraphs: [
+          "Skilled Worker 走到永居（ILR），主線看起來是「連續符合資格 5 年」。但實務上最常出問題的不是 5 這個數字，而是：你的簽證/居留時間線是否連續、哪些 permission 期間可計入、以及每一段能不能用文件對上。",
+          "如果今天只做一件事：先做一張 A4 的時間線（簽證起訖、雇主期間、職位/SOC 變動、出入境日期）。後面準備文件時，你會省下非常多來回確認的時間。"
+        ]
+      },
+      {
+        heading: "二、離境天數：把 180 天當成「儀表板」一直盯，不要臨時才算",
+        paragraphs: [
+          "連續居住（continuous residence）常見的一個要求是：任何 12 個月內離境不超過 180 天（以當下規則文字與例外為準）。很多人是到最後才發現：商務差旅＋探親＋突發狀況，累積得比想像快。",
+          "建議維持一份簡單 travel log：出境日/入境日、原因、證明（機票、公司信、必要時的醫療文件等）。只要表格填寫與出入境/證據對不上，就容易變成審核延誤點。"
+        ]
+      },
+      {
+        heading: "三、受僱與薪資：不要背一個「網路數字」，要準備「可驗證的證據包」",
+        paragraphs: [
+          "申請 settlement 時，通常需要仍在符合要求的受僱狀態，並達到 Skilled Worker settlement 規則下的薪資要求。由於門檻與 going rate 可能更新，規劃時不建議只記住一個固定金額。",
+          "更穩的方法是把證據包整理好：合約、職責/職位說明、薪資單、入帳紀錄、雇主信、以及任何變動紀錄（升遷、工時、工作地點）。你的目標是讓審核方「一眼看懂」。"
+        ]
+      },
+      {
+        heading: "四、遞交時間：可提早最多 28 天是真的，但要倒推準備",
+        paragraphs: [
+          "官方指引通常允許在滿 5 年前最多 28 天先遞交申請。聽起來很直覺，但前提是：你的日期算對、文件齊、雇主配合出具所需證明。",
+          "建議倒推規劃：先算出最早可遞交日期，預留文件整理與雇主信件的緩衝時間，也避免在臨近窗口時安排會增加離境天數的旅行。"
+        ]
+      },
+      {
+        heading: "五、關於「earned settlement」：保持冷靜，只跟官方更新走",
+        paragraphs: [
+          "近年確實有「earned settlement」方向的政策討論與諮詢文件。你可以把它當成提醒：要定期查看官方更新，而不是把社群平台的簡化版本當作唯一依據。",
+          "以 2026/05 的規劃角度，更實際的做法是：以 GOV.UK 與 Immigration Rules 當下對 Skilled Worker settlement 的規則為基準，把時間線與證據包整理到「就算規則更新也站得住」的程度。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "english-test-choice-uk-aus-ielts-pte-det-checklist",
     title: "English Test Choice for UK/Australia: IELTS vs PTE vs Duolingo (A Requirement-First Checklist)",
     date: "2026-05-27",
@@ -14978,78 +15078,134 @@ const summerSchoolCountryRoutes = [
     slug: "new-zealand",
     zh: "新西蘭",
     name: "New Zealand",
-    intro: "新西蘭暑期路線通常更偏生活節奏穩、英語輸出與校園安全感，適合希望先做溫和過渡的家庭。",
-    fee: "OTC 代辦本身免費，不設隱藏收費；費用通常由課程、住宿、活動、接送和保險構成，城市間差異較大。",
+    intro: "新西蘭暑期項目更適合看英文沉浸、校園安全感與生活節奏穩定度，尤其適合第一次做國際暑校、又不想一開始就走太高壓路線的家庭。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；新西蘭項目通常由課程、homestay 或 residence、接送、活動、保險與未成年人文件安排組成，Auckland、Christchurch、Hamilton、Queenstown 成本會有差異。",
     process: [
-      "判斷家庭要的是英語沉浸還是學校觀察",
-      "看 Auckland / Wellington / Christchurch 等城市偏好",
-      "核對住宿、監護和短期健康材料",
-      "按合作路線匹配項目與可報名時段"
+      "先判斷要 junior English、school-prep，還是 school / university transition route",
+      "比較 Auckland、Hamilton、Christchurch、Queenstown 的節奏、預算與住宿方式",
+      "核對 homestay、未成年人照護、保險與入境 / 學習文件",
+      "按當季 intake、年齡段與名額狀況縮小 shortlist"
     ],
     projects: [
-      ["英語沉浸寄宿營", "按暑期批次安排", "Auckland / Christchurch 等", "language + residential route", "英文課、活動、短途 outing", "適合先建立英語環境自信", "completion certificate 常見", "項目費率以項目方為準", "適合初次北半球以外體驗的家庭", "需提前看機票與季節安排"],
-      ["校園觀察與學校體驗", "逐校安排", "主要城市學校區", "school-facing route", "參訪、課堂觀察、校園和住宿條件比較", "更偏向後續選校前置", "以 visit 記錄為主", "通常不是標準固定套餐", "適合中學家庭", "availability 逐校不同"],
-      ["城市生活 + 英文輸出營", "短期批次", "Auckland / Wellington", "city-based short programme", "城市探索、英文任務、文化活動", "提升實際使用英語的輸出感", "參與證明常見", "成本中等", "適合 13+ 學生", "需看團體安排"]
+      ["Kiwi English Academy Study Tour 2026", "Summer Fun January／Mid-Year Fun July–August 2026；Study Tour 可按學校假期安排", "Newmarket, Auckland", "Kiwi English Academy Junior Courses", "上午英文課、下午 Auckland sightseeing / Maori concert / sailing / hiking 等活動；官方頁面同時提供 Study Tour 路線", "很適合第一次看新西蘭、希望把英文輸出、城市安全感與 homestay 放在同一條線比較的家庭", "Participation / completion materials 依校方安排", "費率依週數、活動、homestay 與接送配置核價", "適合 14–17 歲；12–13 歲可按安排個案確認", "Kiwi English Academy 是 Auckland 老牌 Category 1 英文學校，junior school 與 holiday / study tour 路線公開透明，適合作為 OTC 新西蘭暑校主入口"],
+      ["Kiwi English Academy High School Preparation 2026", "2–48 週；2026 年 junior intake 可按週銜接", "Newmarket, Auckland", "Kiwi English Academy High School Preparation", "General English 加學科英文、數學、science、economics、accounting 與 academic writing；官方頁面也提到可對接 New Zealand high school entry", "不是純活動營，而是更偏新西蘭中學銜接前置；很適合已經在看 K-12 或後續正課家庭", "完成記錄與學習進度依校方安排；部分學生達標可銜接 NCEA level 1 / 2 科目", "按週數、homestay、學校銜接與接送安排核價", "適合 14–17 歲、偏 school-prep / high-school transition 的家庭", "如果家長真正目標是『先把新西蘭中學系統看懂』，這條比一般 summer camp 更實用"],
+      ["WIE Holiday Program 2026", "Summer / Winter English Holiday Programme；group holiday programme 按檔期安排", "Hamilton, Waikato", "WIE Holiday Program", "English lessons 加 leisure / adventure activities，可配 Rotorua、Hamilton、Auckland 一帶 excursion；官方明示 only for groups", "很適合學校團、家族團或小團體；比單純 city camp 更有『紐西蘭生活與自然體驗』感", "Participation / group completion records 依 WIE 安排", "通常按團體形式、活動與 homestay 組合核價", "適合 10+ 歲團體學生，尤其是想做 group route 的家庭或學校", "WIE 官方已公開 Holiday Program 與 contact info；但這條主要做 group-only，不適合當成普通散客常規營亂賣"],
+      ["LSNZ Junior Camp Christchurch 2026", "06 Jul 2026／27 Jul 2026／17 Aug 2026／04 Jan 2027", "Christchurch", "LSNZ Holiday Programme for Young Learners", "上午 level-based General English，下午 South Island local exploration、戶外活動與文化體驗；官方標示 multilingual support", "很適合希望把 Christchurch 安全感、英文學習與戶外體驗放在一起的家庭", "Participation / completion materials 依校方安排", "官方頁面標示 from NZ$4,322（GST included），實際以當期 package 與住宿為準", "適合 14–17 歲、偏好 Christchurch / South Island 的家庭", "LSNZ 官方已公開 2026 / 2027 intake 日期與價格，是目前最好落地的新西蘭 young learners 路線之一"],
+      ["CCEL Secondary Schools Holiday Programme 2026", "School holiday intake；General English 可每週一開課，holiday programme 依檔期確認", "Christchurch", "Christchurch College of English", "依官方 holiday programme 與 CCEL 校區安排，結合英文課、Christchurch 校園生活與在地活動；校區位於 University of Canterbury Campus", "很適合要 Christchurch、重視校區環境與 support 結構的家庭", "Participation / school holiday programme materials 依 CCEL 安排", "費率、週數與住宿需向 CCEL 當期核對", "適合中學生、希望做新西蘭校園環境體驗的家庭", "CCEL 的 Secondary Schools Holiday Programme 官方文件可對到 Christchurch 校區與聯絡方式，適合列入 OTC 可核實的真實項目池"],
+      ["University of Auckland Summer Start International 2027", "06 Jan 2027–17 Feb 2027；Summer School semester", "Auckland", "University of Auckland Summer Start International", "國際學生在正式本科前先讀一門課、體驗 campus life、參加 social / cultural activities；可申請 6 週校內住宿", "這不是一般低齡 summer camp，而是偏 university transition；很適合已在 New Zealand high school / foundation 就讀、準備升本科的學生", "按大學學分與 Summer Start completion 結果計", "費率按 University of Auckland international undergraduate fee schedule 為準", "適合已在新西蘭、準備升讀本科的國際學生", "官方頁面對 eligibility 寫得很清楚：主要面向 currently in New Zealand、即將完成 NZ high school 或 foundation programme 的學生；公開頁需如實說明，不可包裝成普適暑校"],
+      ["Te Atatū International Student Preparation Programme 2026", "全年可申請；可作新西蘭中學前置準備", "Online / New Zealand school-prep route", "PSI Tutoring – Te Atatū Programme", "Science、Social Studies、English live lessons，加 tutorials、homework 與 family support，幫國際學生提前熟悉新西蘭高中教學方式", "很適合尚未出發、但已準備未來進入新西蘭 high school 的家庭；可當作 school-prep 前置，而不是替代 summer camp", "學習記錄與 preparation progress 依 PSI 安排", "按課程長度與 support 模式核價", "適合 13–16 歲、偏 school transition 的學生", "這條不是傳統線下暑校，但官方定位清楚，適合 OTC 在新西蘭中學前置頁面裡如實列出，幫家長區分『暑校體驗』與『學校前置準備』兩種完全不同路線"]
     ]
   },
   {
     slug: "malaysia",
     zh: "馬來西亞",
     name: "Malaysia",
-    intro: "馬來西亞暑期路線更適合作為亞洲區短期英文 / 國際校環境試水，或作為年紀較小學生的過渡型方案。",
-    fee: "OTC 代辦本身免費，不設隱藏收費；項目費通常低於英美澳加主流暑校，但具體仍要看學校、住宿與活動安排。",
+    intro: "馬來西亞暑校更適合作為亞洲區低風險英文 immersion、國際校環境試水與短期 school-break route；很多家庭看中的不是名校光環，而是距離近、節奏穩、成本相對可控。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；馬來西亞暑校費用通常低於英美澳加主流路線，但仍需看校區、住宿、活動、保險與接送安排。",
     process: [
-      "先確定是英語營、國際校體驗還是城市型 camp",
-      "看 Kuala Lumpur / Penang / Johor 等城市與交通便利度",
-      "確認住宿、餐食、監護與短期保險安排",
-      "按具體合作通道對接項目方"
+      "先分清楚是 low-age English holiday、國際校 break camp，還是 university-style short course",
+      "再看 Kuala Lumpur / Subang / Penang 等城市與家長可接受的節奏",
+      "核對日校、接送、餐食、保險與是否需要家長同行或本地監護",
+      "最後按 provider 與 school-break 檔期匹配實際可報名名額"
     ],
     projects: [
-      ["英語提升與國際校體驗營", "暑期短批次", "Kuala Lumpur / Selangor", "international school / camp route", "英文、活動、校園與生活體驗", "適合低風險試水", "participation certificate 常見", "通常成本相對友好", "適合亞洲區短期過渡", "需逐案匹配"],
-      ["親子城市學習營", "短期靈活", "KL / Penang", "family-friendly route", "城市活動、英文輸出、親子同行安排", "適合家長一起看環境", "依項目安排", "由家庭結構決定總成本", "適合低齡或第一次出境家庭", "更多是客製化路線"],
-      ["升學前置觀察營", "依合作校時段", "國際校集中區", "school-facing route", "看校、與後續正課銜接討論", "適合作為正式申請前置", "一般以參訪記錄為主", "按校與住宿方案計", "適合考慮國際校轉軌家庭", "需個案討論"]
+      ["British Council Primary Summer Camp 2026", "2026 暑期 school holiday 檔期", "Kuala Lumpur / Malaysia centres", "young learners summer camp", "British Council 官方低齡 camp；以 7–12 歲為主，結合 English communication、creative tasks、games、project learning 與 confidence building。", "很適合第一次做英語 camp、家長不想一開始就把孩子送去太高壓或太遠國家的家庭。", "participation / completion record 常見", "RM 路線；日校型通常較容易控制總成本", "適合 7–12 歲、低齡、以英文輸出與國際課堂感為主的學生", "這條不是海外 boarding route，而是更偏 school-break English camp；要如實包裝成低齡英語與 confidence route"],
+      ["British Council Secondary Holiday Course 2026", "2026 school holidays｜多期可有", "Kuala Lumpur / Malaysia centres", "teen holiday English route", "British Council 官方青少年假期課；較偏 speaking、writing、group communication、task-based English 與同齡互動。", "適合 13–17 歲、想先做英文與國際課堂節奏適應，但不急著追 academic summer brand 的家庭。", "completion record 常見", "RM 路線；以課程週數與 centre 安排為準", "適合 13–17 歲、英語提升型、亞洲區短期過渡型學生", "對很多家庭來說，這條比一開始就衝歐美 residence route 更穩，也更適合作為『先試一下』的入口"],
+      ["ELS Malaysia Holiday English Programme 2026", "2026 school holiday intake｜依 centre 檔期安排", "Kuala Lumpur / Subang Jaya / Johor / Penang", "holiday English programme", "ELS Malaysia 官方 holiday English 類課程；可按校區安排 short-term English learning、communication practice 與 school-break language support。", "適合把馬來西亞當成低風險英文 immersion、城市適應與亞洲區短期 route 的家庭。", "course completion / participation 常見", "RM 路線；依中心、課時與住宿 / 自理方式決定", "適合中學生、短期英語提升、希望先看亞洲國際教育環境的家庭", "這類 route 更偏 language-school holiday intake，要和真正 university summer school 分清楚。"],
+      ["Erican Winter Camp Malaysia 2026", "2026/12–2027/01 冬季營常見", "Kuala Lumpur", "winter / holiday camp route", "Erican 官方 holiday / winter camp 類產品；結合 English、activities、group interaction 與 school-break timetable。", "很適合親子先試水、或對 school-break route 更敏感的家庭；也適合想先做短期團體型過渡。", "participation certificate 常見", "RM 路線；通常較英美澳暑校友好", "適合中小學生、偏親和型、第一次國際 camp 體驗", "這條更像亞洲區 holiday camp，不應硬寫成名校學術營；定位清楚反而更好賣。"],
+      ["Monash University Malaysia Pre-University Summer Route 2026", "依 Monash Malaysia / school outreach 當期安排", "Bandar Sunway, Selangor", "university exposure route", "Monash Malaysia 面向高中生 / future undergraduates 的 outreach / pre-university exposure 類活動，重點更偏學科、校園、未來本科理解。", "這條不是普適 holiday camp，而是更適合已開始看大學、專業或醫商理工方向的高年級學生。", "活動 / outreach participation records 依校方安排", "以當期活動與註冊方式為準", "適合高中後段、future university families、想看馬來西亞國際大學環境的學生", "如果家長真正要的是『大學氛圍 + 亞洲區國際本科試水』，這條比普通 holiday English route 更有說服力。"]
     ]
   },
   {
     slug: "united-states",
     zh: "美國",
     name: "United States",
-    intro: "美國暑期項目更容易拉開層次，從大學校園 enrichment 到專題營差異很大，家長最需要防止只看名字不看實際結構。",
-    fee: "OTC 代辦本身免費，不設隱藏收費；美國暑校常見成本構成包括項目費、住宿、保險、簽證、航班及較高的在途管理成本。",
+    intro: "美國暑校以名校校園、pre-college、學科探索與高密度國際同儕環境見長。適合已經有明確升學方向、願意投入較高預算，也希望把暑期經歷接回後續申請規劃的家庭。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；美國暑校常見成本構成包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人監護 / 出行安排，整體通常是目前幾條線裡成本最高的一組。",
     process: [
-      "先判斷是 campus enrichment 還是專題營",
-      "核對年齡、住宿與學生獨立能力",
-      "確認美簽、保險與家長 consent 路線",
-      "按具體州別與項目方匹配可報名名額"
+      "先分清楚是名校 pre-college、campus immersion，還是學科探索型 route",
+      "核對年齡、住宿、英語門檻與學生獨立能力",
+      "確認美簽、保險、未成年人 consent 與接送安排",
+      "再按州別、城市與實際開班檔期縮小可報名 shortlist"
     ],
     projects: [
-      ["大學校園 enrichment route", "暑期批次", "東西岸大學城市", "campus summer route", "課題課、校園生活、短期 project", "適合感受北美大學氛圍", "completion certificate 常見", "項目費與城市成本較高", "適合 14+ / 15+ 學生", "需提前處理簽證節點"],
-      ["專題學術營", "暑期 1–3 週常見", "多州可有", "subject-focused route", "STEM、寫作、商科、創意等主題", "更偏技能或主題深入", "一般有參與證明", "以主題和住宿方式決定費率", "適合已有明顯主題興趣的學生", "需看英文與同儕競爭環境"],
-      ["美國中學體驗與訪校路線", "按學校安排", "寄宿校 / day school 區域", "school-facing route", "校園參訪、短體驗、住宿與監護比較", "適合後續中學選校家庭", "visit-based record 為主", "不一定是標準套餐", "適合家長深度決策前置", "需逐校談 availability"]
+      ["YYGS Innovations in Science & Technology I 2026", "Session I Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方 STEM track，聚焦 physics、biology、chemistry、engineering、astronomy、neuroscience 等 interdisciplinary science topics。", "適合學術力強、偏 STEM、願意進入高密度國際同儕環境的高中生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏 STEM 學術型家庭", "官方 Summer 2025 welcome page 已公開 IST I residential 結構；2026 以官方更新為準。"],
+      ["YYGS Politics, Law & Economics I 2026", "Session I Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方 PLE track，重點是政治、法律、經濟與全球治理的跨學科討論。", "適合對 PPE、政策、國際關係或經濟議題有感的學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏社科 / 商科 / 法政方向家庭", "官方 Summer 2025 welcome page 已公開 PLE I residential 結構；2026 以官方更新為準。"],
+      ["YYGS Solving Global Challenges I 2026", "Session I Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方 SGC track，以聯合國 SDGs、全球健康、貧窮、永續與跨學科問題解決為核心。", "適合關心 global issues、喜歡討論與 project-based thinking 的學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏全球議題與 interdisciplinary route 家庭", "官方 SGC 頁面對課題與模式寫得很清楚，屬於典型 Yale global discussion route。"],
+      ["YYGS Innovations in Science & Technology II 2026", "Session II Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "與 IST I 同類型的 Session II 開班；重點仍是跨領域 STEM 與真實應用。", "適合暑期檔期更偏 7 月的 STEM 學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏 STEM 學術型家庭", "Session II 是 Yale 官方既有 summer structure 之一。"],
+      ["YYGS Politics, Law & Economics II 2026", "Session II Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "與 PLE I 同類型的 Session II；適合法政、社科、政策與辯論導向學生。", "適合希望在中段暑期做高密度社科體驗的家庭。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏社科 / 商科 / 法政方向家庭", "Session II 是 Yale 官方既有 summer structure 之一。"],
+      ["YYGS Solving Global Challenges II 2026", "Session II Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "與 SGC I 同類型的 Session II；圍繞全球問題、跨學科分析與 solution thinking。", "適合想把暑假做成 global issue exploration 的學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏全球議題與 interdisciplinary route 家庭", "Session II 是 Yale 官方既有 summer structure 之一。"],
+      ["YYGS Innovations in Science & Technology III 2026", "Session III Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方第三梯次 IST track。", "適合暑期檔期更偏 7 月下旬 / 8 月初的 STEM 學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏 STEM 學術型家庭", "Session III 是 Yale 官方既有 summer structure 之一。"],
+      ["YYGS Politics, Law & Economics III 2026", "Session III Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方第三梯次 PLE track。", "適合偏後段暑期檔期、關心社科 / 法政 / 經濟議題的學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏社科 / 商科 / 法政方向家庭", "Session III 是 Yale 官方既有 summer structure 之一。"],
+      ["YYGS Solving Global Challenges III 2026", "Session III Residential｜2 weeks", "New Haven, Connecticut", "Yale Young Global Scholars", "Yale 官方第三梯次 SGC track。", "適合想把暑期後段做成 global issues 密集討論與 project thinking 的學生。", "electronic certificate of completion", "US$ 路線；高價位 residential academic route", "適合高中生、偏全球議題與 interdisciplinary route 家庭", "Session III 是 Yale 官方既有 summer structure 之一。"],
+
+      ["Columbia NYC Residential Summer Session A 2026", "June 29–July 17, 2026｜3 weeks", "New York City", "Columbia Pre-College Programs", "Columbia 官方 NYC Residential Summer，住校、上課、活動和 college prep 都在 Morningside campus 展開。", "適合想看 Ivy + New York campus life 的高中生。", "Certification of Participation + evaluation letter", "US$ 路線；紐約 residential route 高價位", "適合 16–18 歲、偏 campus immersion 家庭", "官方明示 residential life、live-in RA 與 3-week Session A。"],
+      ["Columbia NYC Residential Summer Session B 2026", "July 21–August 7, 2026｜3 weeks", "New York City", "Columbia Pre-College Programs", "Columbia 官方 NYC Residential Summer Session B，結構與 A 相同，檔期更晚。", "適合後段暑期出發、想要 Ivy campus + city exposure 的學生。", "Certification of Participation + evaluation letter", "US$ 路線；紐約 residential route 高價位", "適合 16–18 歲、偏 campus immersion 家庭", "官方頁已公開 Session B。"],
+      ["Columbia NYC Residential Summer Session AB 2026", "June 29–August 7, 2026｜6 weeks", "New York City", "Columbia Pre-College Programs", "Columbia 官方 6-week residential option，適合更長 immersion 與更完整課程安排。", "適合已接受高預算、希望把整段暑期放進 Columbia campus 的家庭。", "Certification of Participation + evaluation letter", "US$ 路線；紐約 residential route 高價位", "適合 16–18 歲、願意做完整夏季 immersion 的家庭", "官方頁已公開 Session AB。"],
+      ["Columbia NYC Commuter Summer Session A 2026", "Summer 2026｜Session A", "New York City", "Columbia Pre-College Programs", "Columbia 官方 commuter route，適合居住在紐約或有家人陪同安排住宿的學生。", "適合不需要校內住宿、但想保留 Columbia academic experience 的家庭。", "Certification of Participation + evaluation letter", "US$ 路線；比 residential 低但仍屬高價位", "適合高中生、偏 commuter / family-arranged route", "官方 summer programs 中有 commuter route。"],
+      ["Columbia NYC Commuter Summer Session B 2026", "Summer 2026｜Session B", "New York City", "Columbia Pre-College Programs", "Columbia 官方 commuter Session B。", "適合後段暑期、由家長安排住宿或紐約本地通勤的學生。", "Certification of Participation + evaluation letter", "US$ 路線；commuter route", "適合高中生、偏 commuter / family-arranged route", "官方 summer programs 中有 commuter route。"],
+      ["Columbia NYC Commuter Summer Session AB 2026", "Summer 2026｜Session AB", "New York City", "Columbia Pre-College Programs", "Columbia 官方 commuter 6-week option。", "適合希望拉長課程週數、但不住校的家庭。", "Certification of Participation + evaluation letter", "US$ 路線；commuter route", "適合高中生、偏 commuter / family-arranged route", "官方 summer programs 中有 commuter route。"],
+      ["Columbia Online Summer 2026", "Summer 2026｜online", "Online / New York route", "Columbia Pre-College Programs", "Columbia 官方 Online Summer，提供遠距課堂、課程互動與 Columbia evaluation structure。", "適合不能赴美、但想先試 Columbia academic style 的家庭。", "Certification of Participation + evaluation letter", "US$ 路線；線上 route", "適合高中生、偏遠距 pre-college 試水家庭", "官方 online summer 頁面已公開 2026 申請。"],
+      ["Columbia College Edge Summer Session A 2026", "May 25–July 3, 2026", "New York City", "Columbia Pre-College Programs", "College Edge: Summer Session A，重點是修真正 Columbia undergraduate 課程並拿學分。", "適合高年級高中生、學術能力強、想提早進入 credit-bearing route。", "college credit / official record 依官方規則", "US$ 路線；高價位 credit-bearing route", "適合 11–12 年級、偏大學銜接家庭", "官方頁已公開 Session A dates。"],
+      ["Columbia College Edge Summer Session B 2026", "July 6–August 14, 2026", "New York City", "Columbia Pre-College Programs", "College Edge: Summer Session B，結構與 A 相同，檔期更晚。", "適合想用暑期後段做真正大學修課體驗的學生。", "college credit / official record 依官方規則", "US$ 路線；高價位 credit-bearing route", "適合 11–12 年級、偏大學銜接家庭", "官方頁已公開 Session B dates。"],
+
+      ["Summer@Brown On Campus 2026", "June 15–July 25, 2026｜1–3 week on-campus sessions", "Providence, Rhode Island", "Brown Pre-College Programs", "Brown 官方 Summer@Brown on-campus，230+ non-credit courses，涵蓋多學科，搭配 student life、workshops 和活動。", "適合想要 Ivy campus life、但不一定要 credit-bearing 的家庭。", "Digital Certificate of Completion / Course Performance Report", "US$ 路線；Ivy on-campus route", "適合 14–18 歲、偏 campus exploration 家庭", "官方 2026 頁面已公開年齡、週數與 on-campus 結構。"],
+      ["Brown Pre-College Online 2026", "Summer 2026｜online", "Online / Providence route", "Brown Pre-College Programs", "Brown 官方線上 pre-college，可從 Summer@Brown 與 Leadership Institute 類課程中選擇。", "適合無法赴美、但想試 Brown academic style 的學生。", "Digital Certificate of Completion / Course Performance Report", "US$ 路線；線上 route", "適合高中生、偏遠距 pre-college 試水", "官方頁已公開 35+ online courses。"],
+      ["Brown Environmental Leadership Lab: Alaska 2026", "Summer 2026", "Alaska", "Brown Pre-College Programs", "BELL Alaska 聚焦文化保護、經濟成長與環境 stewardship。", "適合喜歡 field learning、環境與 leadership 的學生。", "completion records 依官方安排", "US$ 路線；field / experiential route", "適合高中生、偏環境與領導力探索", "BELL 是 Brown 官方 summer experiential line。"],
+      ["Brown Environmental Leadership Lab: Florida Keys 2026", "Summer 2026", "Florida Keys", "Brown Pre-College Programs", "BELL Florida Keys 聚焦熱帶海洋生態、氣候變遷、環境行動與保育。", "適合對 marine ecology、氣候與 field studies 有感的學生。", "completion records 依官方安排", "US$ 路線；field / experiential route", "適合高中生、偏環境與 field route 家庭", "官方 BELL program page 已列為 2026 route。"],
+      ["Brown Environmental Leadership Lab: Rhode Island 2026", "Summer 2026", "Rhode Island", "Brown Pre-College Programs", "BELL Rhode Island 聚焦人類活動對生態系的影響與 climate change 議題。", "適合想把暑期做成環境議題與 leadership 結合的學生。", "completion records 依官方安排", "US$ 路線；field / experiential route", "適合高中生、偏環境與 leadership 探索", "官方頁已列 2026 course。"],
+      ["Brown Leadership Institute 2026", "Summer 2026", "Providence, Rhode Island", "Brown Pre-College Programs", "Brown Leadership Institute 以社會議題、social justice、行動力與領導力發展為核心。", "適合對 leadership、public issues 和社會影響力有感的學生。", "completion records 依官方安排", "US$ 路線；residential leadership route", "適合高中生、偏 leadership / social impact 家庭", "官方頁已公開 residential community 結構。"],
+      ["Brown STEM for Rising 9th and 10th Graders 2026", "Summer 2026", "Providence, Rhode Island", "Brown Pre-College Programs", "Brown 官方面向 rising 9th / 10th graders 的 STEM route。", "適合較低齡、想先做 Ivy STEM 試水的家庭。", "completion records 依官方安排", "US$ 路線；低齡 STEM route", "適合 rising 9th–10th graders", "Brown 程序頁已列出 STEM for Rising 9th and 10th Graders。"],
+      ["Brown Course-Based Research Experiences 2026", "June 22–July 24, 2026｜5-week hybrid", "Providence, Rhode Island / Online", "Brown Pre-College Programs", "CRE 是 Brown 官方研究型 route，前 2 週線上，後 3 週到校完成 research project，並以 symposium 收尾。", "適合已經很明確想做 research exposure 的學生。", "Digital Certificate of Completion / Course Performance Report", "US$ 路線；高密度 research route", "適合 16–18 歲、偏研究型 / STEM 型家庭", "官方頁對時間、年齡和 CRE 結構寫得很清楚。"],
+      ["Brown Pre-Baccalaureate 2026", "Summer 2026｜7-week credit-bearing", "Online / Providence route", "Brown Pre-College Programs", "Pre-Baccalaureate 讓學生以 Brown undergraduate Summer Session 的方式修 credit-bearing 課程。", "適合高年級高中生、學術力穩、願意提前做 credit-bearing 銜接。", "official academic record 依官方規則", "US$ 路線；credit-bearing route", "適合高年級高中生、偏大學銜接家庭", "官方頁已列為 7-week intensive credit-bearing route。"],
+
+      ["Berkeley Pre-College Scholars Session A 2026", "May 26–July 2, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley 高中生官方 route，可修 lower-division 課程，搭配 college-life 活動。", "適合想做真正 Berkeley 課程體驗的學生。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session A。"],
+      ["Berkeley Pre-College Scholars Session B 2026", "June 8–August 14, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley Session B。", "適合需要更長 Berkeley 夏季體驗的學生。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session B。"],
+      ["Berkeley Pre-College Scholars Session C 2026", "June 22–August 14, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley Session C。", "適合暑期中後段仍想拉長 Berkeley immersion 的家庭。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session C。"],
+      ["Berkeley Pre-College Scholars Session D 2026", "July 6–August 14, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley Session D。", "適合後段暑期赴美的學生。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session D。"],
+      ["Berkeley Pre-College Scholars Session E 2026", "July 27–August 14, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley Session E。", "適合短檔期 Berkeley 嘗試。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session E。"],
+      ["Berkeley Pre-College Scholars Session F 2026", "July 6–July 24, 2026", "Berkeley, California", "UC Berkeley Summer Sessions", "Berkeley Session F。", "適合中段 3 週 Berkeley 試水。", "Berkeley course / transcript records 依官方規則", "US$ 路線；credit-bearing / academic route", "適合高中生、偏高學術自律家庭", "官方 high school 頁已公開 Session F。"],
+      ["Berkeley embARC Summer Design Academy 2026", "Summer 2026", "Berkeley, California", "UC Berkeley / College of Environmental Design", "embARC 是 Berkeley 官方高中特別路線，偏 architecture / design / environmental design。", "適合對建築、城市、設計和 studio culture 有興趣的學生。", "completion records 依官方安排", "US$ 路線；subject-specific design route", "適合高中生、偏建築設計方向家庭", "官方 high school 頁明示可參加 embARC Summer Design Academy。"],
+
+      ["UCLA Summer College Immersion Program 2026", "Summer 2026", "Los Angeles, California", "UCLA Summer Sessions", "UCLA 官方 SCIP，讓高中生修 UCLA 課、拿正式 transcript，並配 co-curricular components。", "適合想看 UCLA undergraduate feel 的家庭。", "official UCLA transcript", "US$ 路線；campus immersion route", "適合高中生、偏 West Coast campus trial 家庭", "官方 high school program guide 已列為核心高中 summer route。"],
+      ["UCLA Precollege Summer Institutes 2026", "Summer 2026", "Los Angeles, California", "UCLA Summer Sessions", "UCLA 官方學科探索型 route，覆蓋 STEM、social science、creative arts 等方向。", "適合已有明顯主題興趣、想做 intensive subject exploration 的學生。", "official UCLA transcript / completion records", "US$ 路線；subject-specific institute route", "適合高中生、偏學科探索家庭", "官方 Summer Programs 頁已明列。"],
+      ["UCLA College/Professional Summer Institutes 2026", "Summer 2026", "Los Angeles, California", "UCLA Summer Sessions", "UCLA 官方 College / Professional Institutes，將學術與 professional development 結合。", "適合偏 career exploration、film、business、architecture 等方向的學生。", "official UCLA transcript / completion records", "US$ 路線；career / professional route", "適合高中生、偏職涯探索家庭", "官方頁已公開多個 institute。"],
+      ["UCLA Public Leadership Impact Program 2026", "Summer 2026", "Los Angeles, California", "UCLA Summer Sessions", "PLIP 聚焦公共領導力、策略決策與 real-world issues。", "適合對 public leadership、policy 和社會影響力有感的學生。", "official UCLA record / completion 依官方規則", "US$ 路線；leadership route", "適合高中生、偏 public issues / leadership 家庭", "UCLA Summer Programs 頁已明列 PLIP。"],
+
+      ["UChicago 1 Week Enrichment 2026", "Summer 2026｜1 week", "Chicago, Illinois", "UChicago Summer Session", "UChicago 官方 1 Week Enrichment，提供短期 residential academic experience。", "適合想先短檔試水 UChicago 氣質的學生。", "program completion records 依官方規則", "US$ 路線；短檔學術型 route", "適合高中生、偏思辨型與初步試水家庭", "官方 pre-college 頁已列 residential 1 Week Enrichment。"],
+      ["UChicago 2 Week Experience 2026", "Summer 2026｜2 weeks", "Chicago, Illinois", "UChicago Summer Session", "UChicago 官方 2 Week Experience，結合 academic 與 practical learning。", "適合希望把學術與 future pathways 放在一起看的學生。", "program completion records 依官方規則", "US$ 路線；學術型 route", "適合高中生、偏思辨型與探索型家庭", "官方 pre-college 頁已列 residential 2 Week Experience。"],
+      ["UChicago 3 Week Immersion 2026", "Summer 2026｜3 weeks", "Chicago, Illinois", "UChicago Summer Session", "UChicago 官方 3 Week Immersion，進入更完整的 undergraduate-level course 體驗。", "適合願意接受高密度閱讀、討論與 project 的學生。", "program completion records 依官方規則", "US$ 路線；高密度學術型 route", "適合高中生、偏學術思辨家庭", "官方 pre-college 頁已列 residential 3 Week Immersion。"],
+      ["UChicago 4 Week Practicum 2026", "Summer 2026｜4 weeks", "Chicago, Illinois / field site", "UChicago Summer Session", "UChicago 官方 4 Week Practicum，偏 research / lab / fieldwork。", "適合想把暑假做成更明確 research exposure 的學生。", "program completion records 依官方規則", "US$ 路線；研究型 route", "適合高中生、偏研究型家庭", "官方 pre-college 頁已列 4 Week Practicum。"],
+      ["UChicago Summer Online 2026", "Summer 2026｜3–5 weeks", "Online / Chicago route", "UChicago Summer Session", "UChicago 官方 Summer Online，讓高中生在線上探索 undergraduate-level topics。", "適合不赴美、但希望先試 UChicago 課堂語感與 academic expectations 的家庭。", "program completion records 依官方規則", "US$ 路線；線上 route", "適合高中生、偏遠距 pre-college 試水", "官方 pre-college 頁與 costs 頁都列出 Summer Online。"],
+      ["UChicago Pre-College Summer Language Institute 2026", "Summer 2026｜6–8 weeks online", "Online / Chicago route", "UChicago Summer Session", "UChicago 官方 Summer Language Institute，可在線上完成一整年語言學習量。", "適合語言能力強、想把暑假做成高密度 language credit / language rigor 的學生。", "course completion / official credit records 依官方規則", "US$ 路線；高密度語言 route", "適合 11–12 年級、偏語言與學術型家庭", "官方頁已列 2026 offered languages、priority / regular deadlines。"]
     ]
   },
   {
     slug: "canada",
     zh: "加拿大",
     name: "Canada",
-    intro: "加拿大路線適合想要北美體驗，但又更重視生活平衡、環境安全感和英語實用輸出的家庭。",
-    fee: "OTC 代辦本身免費，不設隱藏收費；費用通常由課程、住宿、活動、接送、保險和簽證或入境文件構成。",
+    intro: "加拿大暑校更適合想看北美校園、英文 immersion、城市安全感與生活平衡的家庭；真正差別常常不在國家名字，而在 homestay、residence、年齡段與是否偏 academic / leadership。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；加拿大暑校常見費用由課程、住宿、保險、接送、活動、監護或 custodial 文件與實際城市成本構成。",
     process: [
-      "先確定是英語營、校園體驗還是中學觀察",
-      "看 Vancouver / Toronto / 其他城市偏好",
-      "核對住宿、保險與未成年人文件",
-      "按合作通道匹配項目與實際開班時段"
+      "先分清楚是 homestay 城市營、校園 residence 還是 leadership / academic route",
+      "再看 Vancouver / Toronto / UBC / U of T 這類城市與校園差別",
+      "核對未成年人入境、custodial / consent、保險與接送安排",
+      "最後按 provider 與實際開班檔期匹配可報名週數與住宿方式"
     ],
     projects: [
-      ["英語與城市生活營", "暑期短批次", "Toronto / Vancouver", "language + city route", "英文課、城市活動、同儕互動", "適合做英語輸出和北美生活適應", "participation certificate 常見", "成本中等到偏高", "適合首次北美體驗", "需看城市生活成本"],
-      ["中學校園體驗與訪校", "按學校安排", "公私校集中城市", "K-12 school-facing route", "看校、寄宿或監護條件比較", "適合後續加拿大中學家庭", "visit 記錄為主", "按校與住宿方案而定", "適合家長前置決策", "availability 逐校不同"],
-      ["學術 + 活動平衡型暑校", "暑期 1–2 週常見", "多城可有", "balanced summer route", "少量學術課 + 活動 + excursion", "比純語言營更有內容，但壓力不如學術營高", "completion certificate 常見", "由住宿和地點決定費率", "適合 12+ / 13+ 學生", "需看英文與獨立性"]
+      ["Tamwood UBC English & Culture Camp 2026", "2026/06/28–2026/08/09｜1–6 週", "Vancouver（University of British Columbia）", "campus English + activity route", "Tamwood 官方 UBC camp，11–17 歲；15 小時 English / week，搭配 sports、creative / cultural activities、excursions 與 on-campus supervision。", "很適合想把加拿大做成『大學校園感 + 英語沉浸 + 生活獨立』的家庭；比一般城市遊學更像真正住進校園。", "certificate / completion record 常見", "C$ 路線；住宿、餐食、活動與保險通常打包", "適合 11–17 歲、第一次北美 residence 體驗、希望校園與照護都穩的學生", "Tamwood 官方頁已公開 UBC 2026 start dates、住宿與 supervision；這條是加拿大夏校裡非常好講的校園型 route"],
+      ["Tamwood Future of Work Academy @ UBC 2026", "2026/06/28、07/12、07/26 開始｜2 週 cohort", "Vancouver（University of British Columbia）", "future-of-work academy", "Tamwood 官方 academy；15–17 歲，聚焦 entrepreneurship、career discovery、innovation、startup project 與 leadership。", "比純語言營更像『升學前職涯探索』；很適合已開始思考 future major / career story 的高中生。", "academy completion record 常見", "C$ 路線；academy 類通常高於普通 English camp", "適合 15–17 歲、偏商科 / 創新 / 職涯探索方向學生", "如果家長想的不只是英文，而是『孩子暑假到底能不能摸到未來方向』，這條會比普通遊學更有說服力"],
+      ["Tamwood UTM English & Culture Camp 2026", "2026 暑期｜1–6 週常見", "Toronto（University of Toronto Mississauga）", "Toronto campus English route", "Tamwood 官方 UTM 校園營；7–17 歲，University of Toronto Mississauga 校園環境，English & Culture 結合城市活動與校園住宿。", "適合想看 Toronto 方向、但又不想只做 downtown city camp 的家庭；校園感比一般市區語言營更完整。", "certificate / completion record 常見", "C$ 路線；城市與住宿型成本偏中高", "適合 7–17 歲，尤其是低齡到高中階段想先做北美校園體驗的家庭", "Tamwood 官方頁已公開 UTM 校園、年齡與住宿結構；Toronto 線比 Vancouver 線更適合想順帶看 Ontario 氛圍的家庭"],
+      ["ILSC Junior Camp at UBC 2026", "2026/06/28–2026/08/09｜1–6 週", "Vancouver（UBC Totem Park residence）", "residential junior camp", "ILSC 官方 UBC junior camp；9–17 歲、any level，可住 Totem Park residence，在校內上 English 課並配活動、excursions。", "很適合英語程度還在建立、但家長想先做真正 residence + campus experience 的學生；結構清楚，好講給家長聽。", "certificate 常見", "C$ 路線；含 homestay / residence 視 route 而定", "適合 9–17 歲、首次加拿大暑校、需要明確 supervision 與 residence 結構的學生", "ILSC 官方頁已公開 2026 周期、年齡、英語不限與週數；這條是很穩的加拿大 junior camp route"],
+      ["ILSC Junior Camp Toronto 2026", "2026/06/28–2026/08/09｜1–6 週", "Toronto（ILSC Toronto campus）", "homestay junior camp", "ILSC 官方 Toronto junior camp；13–17 歲，homestay single room，16.5 lessons / week，搭配 city activities 與 Saturday excursion。", "如果家庭更想做 Toronto city immersion，而不是全住大學宿舍，這條比 residence 路線更柔和，也更像英文 + 城市生活適應。", "certificate 常見", "C$ 路線；homestay + city activity 打包費率清楚", "適合 13–17 歲、想做 Toronto 英語沉浸、對 homestay 接受度高的學生", "ILSC fact sheet 已公開 Toronto 2026 dates、價格梯度與 homestay 配置；很適合第一次北美城市型 summer school"],
+      ["CISS Toronto Summer Programme 2026", "2026/06/28–2026/08/08｜2–6 週", "Toronto（University of Toronto St. George / Trinity College area）", "city residential programme", "CISS 官方 Toronto programme；12–16 歲，可選 General English 或 Global Leadership，住 University of Toronto 校園 residence，多數 single room。", "這條很適合家長想要『多一點校園與城市、少一點純語言學校感』的 Toronto route；CISS 的 residence 感與活動包裝比一般 city camp 更完整。", "completion certificate 常見", "C$ 路線；residence 型通常高於 homestay camp", "適合 12–16 歲、想看 Toronto 大學氛圍與城市活動、接受 residence supervision 的家庭", "CISS 官方頁已公開 2026 dates、年齡、General English / Global Leadership 兩種選項；是很典型的加拿大城市 residence summer route"],
+      ["Summer at UBC – operated by ILSC 2026", "2026/06/28–2026/08/09｜1–6 週", "Vancouver（University of British Columbia）", "UBC summer route operated by ILSC", "CISS 2026 brochure 已公開：Summer at UBC – operated by ILSC，9–17 歲；General English 15 小時 / 週，另有 Global Leadership（12–17 歲），含 campus accommodation、3 meals、insurance、transfers。", "如果校方或家長更認可『CISS + ILSC + UBC』這種組合，這條比單一 provider 更容易往團體或 direct cooperation 談。", "ILSC certificate / completion 常見", "C$ 路線；package 結構清楚", "適合 9–17 歲，尤其是 group route、學校團或想談更正式合作通道的家庭 / 顧問", "這條很適合我們往 direct cooperation 推，因為 CISS 官方已把合作 operator、年齡、週數與 package 寫得很清楚"]
     ]
   }
 ];
 
 function summerSchoolCountryPage(route) {
-  const groupedRoute = route.slug === "uk" || route.slug === "australia";
+  const groupedRoute = route.slug === "uk" || route.slug === "australia" || route.slug === "united-states";
   const categoryGroups = route.slug === "uk"
     ? [
         {
@@ -15104,6 +15260,33 @@ function summerSchoolCountryPage(route) {
           description: "適合真正目標是後續 pathway、語言銜接、diploma 或大學升學的家庭。短期項目只是入口，重點在能否順手接上正式路線。"
         }
       ]
+    : route.slug === "united-states"
+      ? [
+        {
+          id: "elite-academic",
+          code: "01",
+          title: "名校學術型",
+          description: "適合學術自驅力強、願意進入高密度閱讀、討論與全球同儕環境的學生。"
+        },
+        {
+          id: "precollege-campus",
+          code: "02",
+          title: "Pre-College 校園型",
+          description: "適合想提前摸到真正美國大學課堂、住宿和 campus rhythm 的家庭。"
+        },
+        {
+          id: "subject-exploration",
+          code: "03",
+          title: "學科探索型",
+          description: "適合已經有 STEM、創意、商科、社科方向興趣，希望把暑假做成主題型探索的學生。"
+        },
+        {
+          id: "research-planning",
+          code: "04",
+          title: "研究 / 長線前置型",
+          description: "適合把暑期學術體驗接回美本申請、研究興趣與長線規劃的家庭。"
+        }
+      ]
     : [];
 
   const getProjectCategory = (projectTitle) => {
@@ -15128,6 +15311,13 @@ function summerSchoolCountryPage(route) {
     if (/Navitas|Shafston|Study Australia School Observation/i.test(projectTitle)) return "pathway-preparation";
     if (/BROWNS|Kids Holiday Program|High School Holiday|High School Preparation|School Observation|South Australian Government Schools|Private School Shadowing/i.test(projectTitle)) return "school-observation";
     return "city-english";
+  };
+
+  const getUnitedStatesProjectCategory = (projectTitle) => {
+    if (/YYGS|UChicago 1 Week|UChicago 2 Week|UChicago 3 Week|UChicago 4 Week/i.test(projectTitle)) return "elite-academic";
+    if (/Columbia NYC Residential|Columbia NYC Commuter|College Edge|UCLA Summer College Immersion|Berkeley Pre-College Scholars Session [A-F]/i.test(projectTitle)) return "precollege-campus";
+    if (/UCLA Precollege Summer Institutes|UCLA College\/Professional|UCLA Public Leadership|Brown Environmental Leadership|Brown Leadership Institute|Brown STEM|embARC/i.test(projectTitle)) return "subject-exploration";
+    return "research-planning";
   };
 
   const categoryImageMap = {
@@ -15186,7 +15376,75 @@ function summerSchoolCountryPage(route) {
     "TAFE Queensland Coomera Rock School 2026": { label: "TAFE Queensland", url: "https://tafeqld.edu.au/course/19/19459/coomera-creative-coomera-rock-school", domain: "tafeqld.edu.au" },
     "ACU Western Civilisation Summer School Program 2026": { label: "Australian Catholic University", url: "https://www.acu.edu.au/about-acu/institutes-academies-and-centres/western-civilisation-program/summer-school", domain: "acu.edu.au" },
     "Navitas English Australia Pathway English": { label: "Navitas English", url: "https://www.navitasenglish.edu.au/", domain: "navitasenglish.edu.au" },
-    "Study Australia School Observation & Route Planning": { label: "Study Australia", url: "https://www.studyaustralia.gov.au/", domain: "studyaustralia.gov.au" }
+    "Study Australia School Observation & Route Planning": { label: "Study Australia", url: "https://www.studyaustralia.gov.au/", domain: "studyaustralia.gov.au" },
+    "Kiwi English Academy Study Tour 2026": { label: "Kiwi English Academy", url: "https://www.kiwienglish.co.nz/junior-courses/", domain: "kiwienglish.co.nz" },
+    "Kiwi English Academy High School Preparation 2026": { label: "Kiwi English Academy", url: "https://www.kiwienglish.co.nz/junior-courses/", domain: "kiwienglish.co.nz" },
+    "WIE Holiday Program 2026": { label: "Waikato Institute of Education", url: "https://wie.nz/courses/holiday-program/", domain: "wie.nz" },
+    "LSNZ Junior Camp Christchurch 2026": { label: "LSNZ", url: "https://www.lsnz.co.nz/holiday-programme-young-learners", domain: "lsnz.co.nz" },
+    "CCEL Secondary Schools Holiday Programme 2026": { label: "Christchurch College of English", url: "https://www.ccel.co.nz/about/contact/", domain: "ccel.co.nz" },
+    "University of Auckland Summer Start International 2027": { label: "University of Auckland", url: "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/preparation-and-foundation-programmes/kokiri-raumati-summer-programmes/summer-start-international.html", domain: "auckland.ac.nz" },
+    "Te Atatū International Student Preparation Programme 2026": { label: "PSI Tutoring", url: "https://www.teatatu.psi.ac.nz/", domain: "psi.ac.nz" },
+    "Tamwood UBC English & Culture Camp 2026": { label: "Tamwood Camps", url: "https://tamwood.com/camps/ubc/", domain: "tamwood.com" },
+    "Tamwood Future of Work Academy @ UBC 2026": { label: "Tamwood Camps", url: "https://tamwood.com/camps/ubc/", domain: "tamwood.com" },
+    "Tamwood UTM English & Culture Camp 2026": { label: "Tamwood Camps", url: "https://tamwood.com/camps/utm/", domain: "tamwood.com" },
+    "ILSC Junior Camp at UBC 2026": { label: "ILSC", url: "https://www.ilsc.com/it/language-schools/programs/junior/residences/ubc", domain: "ilsc.com" },
+    "ILSC Junior Camp Toronto 2026": { label: "ILSC", url: "https://resources.ilsc.com/hubfs/pdf/program-flyers/junior-camp/ILSC-Junior-Camp-ILSC-Toronto-Fact-Sheet.pdf", domain: "resources.ilsc.com" },
+    "CISS Toronto Summer Programme 2026": { label: "CISS Canada", url: "https://www.cisscanada.com/programmes/summer-programmes/city-residential-programmes/ciss-toronto/", domain: "cisscanada.com" },
+    "Summer at UBC – operated by ILSC 2026": { label: "CISS Canada", url: "https://www.cisscanada.com/summer_at_ubc_2026/", domain: "cisscanada.com" },
+    "British Council Primary Summer Camp 2026": { label: "British Council Malaysia", url: "https://www.britishcouncil.my/english/courses-children/summer-camps", domain: "britishcouncil.my" },
+    "British Council Secondary Holiday Course 2026": { label: "British Council Malaysia", url: "https://www.britishcouncil.my/english/courses-children/secondary-plus", domain: "britishcouncil.my" },
+    "ELS Malaysia Holiday English Programme 2026": { label: "ELS Language Centres Malaysia", url: "https://www.els.edu.my/", domain: "els.edu.my" },
+    "Erican Winter Camp Malaysia 2026": { label: "Erican Language Centre", url: "https://www.erican.edu.my/", domain: "erican.edu.my" },
+    "Monash University Malaysia Pre-University Summer Route 2026": { label: "Monash University Malaysia", url: "https://www.monash.edu.my/", domain: "monash.edu.my" },
+    "Yale Young Global Scholars 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/", domain: "globalscholars.yale.edu" },
+    "Columbia Summer Immersion New York City 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs", domain: "precollege.sps.columbia.edu" },
+    "Columbia College Edge 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/highschool/college-edge", domain: "precollege.sps.columbia.edu" },
+    "Berkeley Pre-College Scholars 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/berkeley-pre-college-scholars-program", domain: "summer.berkeley.edu" },
+    "UCLA Summer College Immersion Program 2026": { label: "UCLA Summer Sessions", url: "https://summer.ucla.edu/summer-programs/", domain: "summer.ucla.edu" },
+    "UCLA Precollege Summer Institutes 2026": { label: "UCLA Summer Sessions", url: "https://summer.ucla.edu/summer-programs/", domain: "summer.ucla.edu" },
+    "UChicago Pre-College Summer Session 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "YYGS Innovations in Science & Technology I 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/innovations-science-technology", domain: "globalscholars.yale.edu" },
+    "YYGS Politics, Law & Economics I 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/learn-more", domain: "globalscholars.yale.edu" },
+    "YYGS Solving Global Challenges I 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/solving-global-challenges", domain: "globalscholars.yale.edu" },
+    "YYGS Innovations in Science & Technology II 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/innovations-science-technology", domain: "globalscholars.yale.edu" },
+    "YYGS Politics, Law & Economics II 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/learn-more", domain: "globalscholars.yale.edu" },
+    "YYGS Solving Global Challenges II 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/solving-global-challenges", domain: "globalscholars.yale.edu" },
+    "YYGS Innovations in Science & Technology III 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/innovations-science-technology", domain: "globalscholars.yale.edu" },
+    "YYGS Politics, Law & Economics III 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/learn-more", domain: "globalscholars.yale.edu" },
+    "YYGS Solving Global Challenges III 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/solving-global-challenges", domain: "globalscholars.yale.edu" },
+    "Columbia NYC Residential Summer Session A 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-residential-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia NYC Residential Summer Session B 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-residential-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia NYC Residential Summer Session AB 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-residential-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia NYC Commuter Summer Session A 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-commuter-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia NYC Commuter Summer Session B 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-commuter-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia NYC Commuter Summer Session AB 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/nyc-commuter-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia Online Summer 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/highschool/online", domain: "precollege.sps.columbia.edu" },
+    "Columbia College Edge Summer Session A 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/college-edge-summer", domain: "precollege.sps.columbia.edu" },
+    "Columbia College Edge Summer Session B 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs/college-edge-summer", domain: "precollege.sps.columbia.edu" },
+    "Summer@Brown On Campus 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/summerbrown", domain: "precollege.brown.edu" },
+    "Brown Pre-College Online 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/summerbrown-online", domain: "precollege.brown.edu" },
+    "Brown Environmental Leadership Lab: Alaska 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/bell-program", domain: "precollege.brown.edu" },
+    "Brown Environmental Leadership Lab: Florida Keys 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/bell-program", domain: "precollege.brown.edu" },
+    "Brown Environmental Leadership Lab: Rhode Island 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/bell-program/rhode-island", domain: "precollege.brown.edu" },
+    "Brown Leadership Institute 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/leadership-institute", domain: "precollege.brown.edu" },
+    "Brown STEM for Rising 9th and 10th Graders 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs", domain: "precollege.brown.edu" },
+    "Brown Course-Based Research Experiences 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/course-based-research-experiences-cre", domain: "precollege.brown.edu" },
+    "Brown Pre-Baccalaureate 2026": { label: "Brown Pre-College Programs", url: "https://precollege.brown.edu/programs/pre-baccalaureate", domain: "precollege.brown.edu" },
+    "Berkeley Pre-College Scholars Session A 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley Pre-College Scholars Session B 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley Pre-College Scholars Session C 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley Pre-College Scholars Session D 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley Pre-College Scholars Session E 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley Pre-College Scholars Session F 2026": { label: "UC Berkeley Summer Sessions", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "Berkeley embARC Summer Design Academy 2026": { label: "UC Berkeley", url: "https://summer.berkeley.edu/students/high-school", domain: "summer.berkeley.edu" },
+    "UCLA College/Professional Summer Institutes 2026": { label: "UCLA Summer Sessions", url: "https://beta.summer.ucla.edu/programs/summer-institutes/", domain: "summer.ucla.edu" },
+    "UCLA Public Leadership Impact Program 2026": { label: "UCLA Summer Sessions", url: "https://beta.summer.ucla.edu/summer-programs/", domain: "summer.ucla.edu" },
+    "UChicago 1 Week Enrichment 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "UChicago 2 Week Experience 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "UChicago 3 Week Immersion 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "UChicago 4 Week Practicum 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "UChicago Summer Online 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/", domain: "summer.uchicago.edu" },
+    "UChicago Pre-College Summer Language Institute 2026": { label: "UChicago Summer Session", url: "https://summer.uchicago.edu/pre-college/pre-college/pre-college-summer-language-institute/", domain: "summer.uchicago.edu" }
   };
 
   const projectMetaOverrides = {
@@ -15237,7 +15495,33 @@ function summerSchoolCountryPage(route) {
     "TAFE Queensland Coomera Rock School 2026": { age: "Grades 9–12", city: "Gold Coast", priceBand: "A$ 路線", boarding: "無住宿 / 依活動" },
     "ACU Western Civilisation Summer School Program 2026": { age: "Years 10–12", city: "Australia", priceBand: "低成本 / funded", boarding: "無住宿 / 依活動" },
     "Navitas English Australia Pathway English": { age: "16+ 歲", city: "Sydney / Perth", priceBand: "待報價", boarding: "城市宿舍 / 自理" },
-    "Study Australia School Observation & Route Planning": { age: "家長同行 / K-12", city: "QLD / NSW / VIC / WA", priceBand: "客製核價", boarding: "住校 / homestay / 自理" }
+    "Study Australia School Observation & Route Planning": { age: "家長同行 / K-12", city: "QLD / NSW / VIC / WA", priceBand: "客製核價", boarding: "住校 / homestay / 自理" },
+    "Kiwi English Academy Study Tour 2026": { age: "14–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "Kiwi English Academy High School Preparation 2026": { age: "14–17歲", city: "Auckland", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "WIE Holiday Program 2026": { age: "10+ 歲（團體）", city: "Hamilton", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "LSNZ Junior Camp Christchurch 2026": { age: "14–17歲", city: "Christchurch", priceBand: "NZ$ 路線", boarding: "住校 / homestay" },
+    "CCEL Secondary Schools Holiday Programme 2026": { age: "中學生", city: "Christchurch", priceBand: "待報價", boarding: "住校 / homestay" },
+    "University of Auckland Summer Start International 2027": { age: "Year 13 / foundation 完成", city: "Auckland", priceBand: "NZ$ 路線", boarding: "城市宿舍 / 自理" },
+    "Te Atatū International Student Preparation Programme 2026": { age: "13–16歲", city: "Online / NZ route", priceBand: "待報價", boarding: "無住宿 / 線上" },
+    "Tamwood UBC English & Culture Camp 2026": { age: "11–17歲", city: "Vancouver", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "Tamwood Future of Work Academy @ UBC 2026": { age: "15–17歲", city: "Vancouver", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "Tamwood UTM English & Culture Camp 2026": { age: "7–17歲", city: "Toronto / Mississauga", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "ILSC Junior Camp at UBC 2026": { age: "9–17歲", city: "Vancouver", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "ILSC Junior Camp Toronto 2026": { age: "13–17歲", city: "Toronto", priceBand: "C$ 路線", boarding: "homestay" },
+    "CISS Toronto Summer Programme 2026": { age: "12–16歲", city: "Toronto", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "Summer at UBC – operated by ILSC 2026": { age: "9–17歲", city: "Vancouver", priceBand: "C$ 路線", boarding: "住校 / 寄宿" },
+    "British Council Primary Summer Camp 2026": { age: "7–12歲", city: "Kuala Lumpur", priceBand: "RM 路線", boarding: "日校 / 家長安排" },
+    "British Council Secondary Holiday Course 2026": { age: "13–17歲", city: "Kuala Lumpur", priceBand: "RM 路線", boarding: "日校 / 家長安排" },
+    "ELS Malaysia Holiday English Programme 2026": { age: "中學–高中", city: "Kuala Lumpur / Subang / Penang / Johor", priceBand: "RM 路線", boarding: "日校 / 自理 / 個案住宿" },
+    "Erican Winter Camp Malaysia 2026": { age: "中小學生", city: "Kuala Lumpur", priceBand: "RM 路線", boarding: "日校 / 家長安排" },
+    "Monash University Malaysia Pre-University Summer Route 2026": { age: "16+ / 高中後段", city: "Bandar Sunway", priceBand: "按活動", boarding: "日校 / 自理" },
+    "Yale Young Global Scholars 2026": { age: "高中生", city: "New Haven", priceBand: "US$ 路線", boarding: "住校 / 寄宿" },
+    "Columbia Summer Immersion New York City 2026": { age: "16–18歲", city: "New York", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
+    "Columbia College Edge 2026": { age: "高年級高中生", city: "New York", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
+    "Berkeley Pre-College Scholars 2026": { age: "高中生", city: "Berkeley", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
+    "UCLA Summer College Immersion Program 2026": { age: "高中生", city: "Los Angeles", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
+    "UCLA Precollege Summer Institutes 2026": { age: "高中生", city: "Los Angeles", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
+    "UChicago Pre-College Summer Session 2026": { age: "高中生", city: "Chicago", priceBand: "US$ 路線", boarding: "住校 / 線上 / 通勤" }
   };
 
   const inferProjectMeta = (project) => {
@@ -15256,7 +15540,7 @@ function summerSchoolCountryPage(route) {
       age = "17+ / 本科";
     }
 
-    let city = route.slug === "australia" ? "Australia" : "英國";
+    let city = route.slug === "australia" ? "Australia" : route.slug === "new-zealand" ? "New Zealand" : route.slug === "canada" ? "Canada" : route.slug === "malaysia" ? "Malaysia" : route.slug === "united-states" ? "United States" : "英國";
     if (/London/i.test(location)) city = "London";
     else if (/Oxford/i.test(location)) city = "Oxford";
     else if (/Cambridge/i.test(location)) city = "Cambridge";
@@ -15273,17 +15557,34 @@ function summerSchoolCountryPage(route) {
     else if (/Gold Coast/i.test(location)) city = "Gold Coast";
     else if (/Perth/i.test(location)) city = "Perth";
     else if (/Wollongong/i.test(location)) city = "Wollongong";
+    else if (/Auckland/i.test(location)) city = "Auckland";
+    else if (/Christchurch/i.test(location)) city = "Christchurch";
+    else if (/Hamilton/i.test(location)) city = "Hamilton";
+    else if (/Queenstown/i.test(location)) city = "Queenstown";
+    else if (/Vancouver|UBC|SFU/i.test(location)) city = "Vancouver";
+    else if (/Toronto|UTSG|St\. George/i.test(location)) city = "Toronto";
+    else if (/Mississauga|UTM/i.test(location)) city = "Mississauga";
+    else if (/Montreal|Montréal|McGill/i.test(location)) city = "Montréal";
+    else if (/New Haven|Yale/i.test(location)) city = "New Haven";
+    else if (/New York|Columbia/i.test(location)) city = "New York";
+    else if (/Berkeley/i.test(location)) city = "Berkeley";
+    else if (/Los Angeles|UCLA/i.test(location)) city = "Los Angeles";
+    else if (/Chicago|UChicago/i.test(location)) city = "Chicago";
 
     let priceBand = "£££";
     if (/£1,\d{3}|£2,\d{3}|1,5|1,6|1,7|1,8|1,9/.test(fee)) priceBand = "££";
     if (/£3,\d{3}|£4,\d{3}|£5,\d{3}/.test(fee)) priceBand = "£££";
     if (/£6,\d{3}|£7,\d{3}|£8,\d{3}|£9,\d{3}|高價位|高端/.test(fee)) priceBand = "££££";
     if (/A\$|AUD|澳幣|fully funded|funded/i.test(fee)) priceBand = "A$ 路線";
+    if (/NZ\$|NZD|紐幣/i.test(fee)) priceBand = "NZ$ 路線";
+    if (/C\$|CAD|加幣/i.test(fee)) priceBand = "C$ 路線";
     if (/待校方|待報價|為準/.test(fee) && !/£/.test(fee)) priceBand = "待報價";
 
     let boarding = "住宿待核";
     if (/day option|day /i.test(merged)) boarding = "可日校 / 住校";
     if (/residential|boarding|寄宿|宿舍|full board|college accommodation/i.test(merged)) boarding = "住校 / 寄宿";
+    if (/通勤|commuter/i.test(merged)) boarding = "住校 / 通勤";
+    if (/online|線上/i.test(merged)) boarding = "線上 / 無住宿";
     if (/自理|另售|住宿另計|城市生活/i.test(merged)) boarding = "城市宿舍 / 自理";
 
     return { age, city, priceBand, boarding, time };
@@ -15378,6 +15679,18 @@ function summerSchoolCountryPage(route) {
     if (route.slug === "australia") {
       return "OTC 協助澳洲短期學習文件、未成年人 consent / health form、接送與州別材料核對";
     }
+    if (route.slug === "new-zealand") {
+      return "OTC 協助新西蘭短期學習 / 入境文件、未成年人住宿與照護資料、homestay 與接送安排核對";
+    }
+    if (route.slug === "canada") {
+      return "OTC 協助加拿大短期入境 / custodial 或 consent 文件、保險、住宿與接送安排核對";
+    }
+    if (route.slug === "malaysia") {
+      return "OTC 協助馬來西亞短期入境、家長 consent、接送、保險與日校 / 住宿安排核對";
+    }
+    if (route.slug === "united-states") {
+      return "OTC 協助美國短期學習文件、未成年人 consent、保險、住宿與入境材料核對；簽證類別按具體 provider 規則再確認";
+    }
     if (/London|Oxford|Cambridge|KCL|UCL|Imperial|UAL/i.test(text)) {
       return "OTC 協助短期訪英文件清單、家長 consent / 健康表與校方信件核對";
     }
@@ -15412,7 +15725,11 @@ function summerSchoolCountryPage(route) {
     ? categoryGroups.map((group) => {
         const groupEntries = route.projects.map((project, index) => ({ project, index }))
           .filter(({ project }) => {
-            const category = route.slug === "uk" ? getProjectCategory(project[0]) : getAustraliaProjectCategory(project[0]);
+            const category = route.slug === "uk"
+              ? getProjectCategory(project[0])
+              : route.slug === "australia"
+              ? getAustraliaProjectCategory(project[0])
+              : getUnitedStatesProjectCategory(project[0]);
             return category === group.id;
           });
 
@@ -15686,6 +16003,289 @@ function summerSchoolCountryPage(route) {
     `
     : "";
 
+  const newZealandAllianceSections = route.slug === "new-zealand"
+    ? `
+      <section class="band">
+        <div class="two-col australia-decision-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">New Zealand Fit</div>
+            <h3>新西蘭暑校，更適合哪一類家庭？</h3>
+            <ul class="summer-focus-list">
+              <li><strong>第一次做國際暑校</strong><span>比英美澳大城市節奏更溫和，對低壓試水型家庭更友好。</span></li>
+              <li><strong>重視安全感與 homestay</strong><span>很多家長看中的其實不是名校名字，而是照護穩定、城市節奏和生活環境。</span></li>
+              <li><strong>想先看 school-prep</strong><span>新西蘭很適合把暑校、英文銜接和 high-school preparation 放在同一條線看。</span></li>
+              <li><strong>希望避開過度商業化 camp</strong><span>這裡更容易找到 school-facing、group-friendly、language-plus-preparation 的實務路線。</span></li>
+            </ul>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Route Types</div>
+            <h3>先分清楚新西蘭這幾種路線</h3>
+            <div class="summer-route-cards">
+              <article><b>Junior English / Holiday</b><strong>Kiwi / LSNZ / CCEL</strong><span>適合 14–17 歲、先做英文、活動與城市體驗的學生。</span></article>
+              <article><b>School Preparation</b><strong>Kiwi HSP / Te Atatū</strong><span>更偏新西蘭中學銜接前置，不是單純玩樂型營隊。</span></article>
+              <article><b>Group Route</b><strong>WIE Holiday Program</strong><span>更適合學校團、小團或 family group，不建議包裝成一般散客 camp。</span></article>
+              <article><b>University Transition</b><strong>University of Auckland Summer Start</strong><span>偏 Year 13 / foundation completion，不是普適中學生暑校。</span></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">OTC Role</div>
+          <h2>OTC 在新西蘭這一頁真正做的是什麼？</h2>
+          <p>不是把所有項目硬放一起賣，而是先幫家長判斷：這條線到底是 summer school、school-prep、group route，還是後續 K-12 / university transition 的前置。</p>
+        </div>
+        <div class="summer-route-pillars">
+          <article><b>01</b><strong>先判斷適配度</strong><span>先看年齡、英文、成熟度、住宿接受度，再決定選哪個城市和 provider。</span></article>
+          <article><b>02</b><strong>先核對文件風險</strong><span>未成年人住宿、接送、同意書、保險與 NZ 入境 / 學習文件先講清楚。</span></article>
+          <article><b>03</b><strong>再縮 shortlist</strong><span>把 Auckland、Hamilton、Christchurch、Queenstown 的不同節奏和費用結構放一起比。</span></article>
+          <article><b>04</b><strong>最後才做報名</strong><span>先知道自己要的是什麼，再進入實際名額、費用與合作通道。</span></article>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="two-col australia-support-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">Why OTC</div>
+            <h3>如果往 direct cooperation 談，OTC 能帶來什麼？</h3>
+            <div class="summer-route-cards">
+              <article><b>家庭端判斷</b><strong>先分 route，再縮名單</strong><span>我們不是只轉名單，而是先幫家庭分清 junior holiday、school-prep、group route 和 university transition。</span></article>
+              <article><b>中英雙語溝通</b><strong>減少前端誤解與錯配</strong><span>很多家長真正卡住的是年齡、homestay、文件與期待值；這部分我們可以先清掉。</span></article>
+              <article><b>中國端說明能力</b><strong>不是只做 brochure 轉發</strong><span>OTC 可以把 provider 頁面轉成家長聽得懂的 route language，減少無效詢問。</span></article>
+              <article><b>長線規劃導向</b><strong>不只賣一次暑校</strong><span>對 school-prep、high-school transition、future university families，後續轉化路徑更清楚。</span></article>
+            </div>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Cooperation Status</div>
+            <h3>目前合作口徑：二級代理起步，目標升級到更直接合作</h3>
+            <ul class="summer-focus-list">
+              <li><strong>Current</strong><span>目前部分新西蘭路線仍屬資訊協調、二級代理或既有 partner chain 下的 inquiry support。</span></li>
+              <li><strong>Goal</strong><span>對於 intake 結構清楚、young learners 或 school-prep 條線成熟的 provider，OTC 希望推進 direct cooperation。</span></li>
+              <li><strong>Priority</strong><span>優先看 Auckland / Christchurch 主幹路線，以及是否願意和家庭型、group 型、school-prep 型詢問做更直接銜接。</span></li>
+              <li><strong>Boundary</strong><span>是否為 direct agent、preferred partner 或仍走二級通道，OTC 會按對方當期書面回覆對外說清楚。</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>新西蘭頁最常被問到的幾個問題</h2>
+          <p>先把 route 邏輯講明白，後面和家長、學校兩邊對話都會更省力。</p>
+        </div>
+        <div class="summer-faq-grid">
+          <details><summary>新西蘭適合幾歲開始做暑校？</summary><p>實務上多數可落地路線集中在 14–17 歲；更低齡通常要看個案、homestay、監護與團體形式。</p></details>
+          <details><summary>新西蘭是不是比較適合第一次出國？</summary><p>很多家庭會這樣看，因為城市節奏、校園安全感與生活壓力通常比高密度大城市型路線更容易接受。</p></details>
+          <details><summary>school-prep 和 holiday programme 差在哪裡？</summary><p>holiday programme 更偏英文和活動；school-prep 更偏未來中學銜接、學術英文和 New Zealand classroom readiness。</p></details>
+          <details><summary>所有新西蘭 provider 都能做 direct agent 嗎？</summary><p>不一定。現階段有些是資訊與二級代理通道，有些可以往 direct cooperation 談；合作狀態會按校方當期回覆說清楚。</p></details>
+        </div>
+      </section>
+    `
+    : "";
+
+  const canadaAllianceSections = route.slug === "canada"
+    ? `
+      <section class="band">
+        <div class="two-col australia-decision-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">Canada Fit</div>
+            <h3>加拿大暑校，更適合哪一類家庭？</h3>
+            <ul class="summer-focus-list">
+              <li><strong>想看北美，但不想一開始太高壓</strong><span>很多家庭要的其實是 North America exposure、英文環境與校園感，而不是只追最硬的競爭感。</span></li>
+              <li><strong>重視安全感與生活平衡</strong><span>加拿大很常被放進第一站比較清單，因為城市節奏、homestay 接受度與整體家長心理安全感較高。</span></li>
+              <li><strong>想先做 residence / homestay 比較</strong><span>加拿大路線很適合把 UBC / U of T 這種 campus residence，和 Toronto city homestay 路線放在一起看。</span></li>
+              <li><strong>想把暑校接回後續中學或本科規劃</strong><span>對很多家庭來說，真正重要的不是營隊名字，而是這段經歷能不能接上後續 North America school planning。</span></li>
+            </ul>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Route Types</div>
+            <h3>先分清楚加拿大這幾種路線</h3>
+            <div class="summer-route-cards">
+              <article><b>Campus Residence</b><strong>Tamwood UBC / CISS Toronto / Summer at UBC</strong><span>更適合想感受大學校園、監督結構與 residence 生活的家庭。</span></article>
+              <article><b>City + Homestay</b><strong>ILSC Toronto</strong><span>更適合英文沉浸、城市生活適應與較溫和的北美初體驗。</span></article>
+              <article><b>Leadership / Future Route</b><strong>Tamwood Future of Work</strong><span>更適合已開始思考 future major、career story 或高年級升學敘事的學生。</span></article>
+              <article><b>School Planning</b><strong>North America trial route</strong><span>更適合想先看 Canada 氛圍，再決定後續中學 / 大學方向的家庭。</span></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">OTC Role</div>
+          <h2>OTC 在加拿大這一頁真正做的是什麼？</h2>
+          <p>不是把 Canada 寫成單一目的地，而是先幫家庭分清楚：你要的是校園 residence、城市 homestay、英文輸出、未來 major 探索，還是後續 North America school planning 的前置。</p>
+        </div>
+        <div class="summer-route-pillars">
+          <article><b>01</b><strong>先分 residence / homestay</strong><span>加拿大家長最容易忽略的不是項目名，而是住宿形態和 supervision 結構。</span></article>
+          <article><b>02</b><strong>先核對 custodial / consent</strong><span>未成年人文件、保險、接送與責任邊界先講清楚，後面才不容易亂。</span></article>
+          <article><b>03</b><strong>再看 Vancouver / Toronto</strong><span>Vancouver 更偏 campus / lifestyle；Toronto 更偏 city immersion / University of Toronto 氛圍。</span></article>
+          <article><b>04</b><strong>最後才做 shortlist</strong><span>先知道孩子適合什麼節奏，再進入具體 provider、週數、價格與名額。</span></article>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="two-col australia-support-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">Why OTC</div>
+            <h3>如果往 direct cooperation 談，OTC 能帶來什麼？</h3>
+            <div class="summer-route-cards">
+              <article><b>家庭端預篩</b><strong>不是只轉 enquiry</strong><span>OTC 先把年齡、英文、住宿接受度與預算大致分流，減少 provider 前端錯配。</span></article>
+              <article><b>雙語說明能力</b><strong>把 brochure 變成 route language</strong><span>很多家庭看不懂 residence、custodial、leadership route 的真正差別；這部分我們可以先講清楚。</span></article>
+              <article><b>長線規劃導向</b><strong>不只賣一次暑校</strong><span>對想看後續中學、本科或 North America school planning 的家庭，這條線的延續性更有價值。</span></article>
+              <article><b>團體與家長端兼容</b><strong>family + small-group route 都能接</strong><span>Canada 這頁不只服務單一散客，也能往 small group / family consultation 走。</span></article>
+            </div>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Cooperation Status</div>
+            <h3>目前合作口徑：先從清楚合作開始，再推更直接合作</h3>
+            <ul class="summer-focus-list">
+              <li><strong>Current</strong><span>部分加拿大暑校路線目前仍從公開 intake、既有 channel 或 secondary-agent 邏輯起步。</span></li>
+              <li><strong>Goal</strong><span>對於 route 清楚、campus 結構成熟、家庭型詢問穩定的 provider，OTC 會優先推 direct cooperation。</span></li>
+              <li><strong>Priority</strong><span>目前優先看 Tamwood、CISS 與 ILSC 這類結構完整、容易說清楚的 Canada 路線。</span></li>
+              <li><strong>Boundary</strong><span>是否屬 direct agent、preferred partner 或 open registration route，OTC 會按對方當期回覆對外說清楚。</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>加拿大頁最常被問到的幾個問題</h2>
+          <p>家長真正卡住的通常不是項目名，而是住宿、文件與這段暑校到底值不值得。</p>
+        </div>
+        <div class="summer-faq-grid">
+          <details><summary>加拿大比較適合第一次做北美暑校嗎？</summary><p>很多家庭會這樣看，因為安全感、城市節奏與生活平衡通常比較容易接受；但還是要看孩子獨立性和住宿適配度。</p></details>
+          <details><summary>residence 和 homestay 怎麼選？</summary><p>如果想要更像大學校園體驗、結構清楚、監督集中，residence 會更合適；如果更重視日常英文輸出和城市生活，homestay 常更自然。</p></details>
+          <details><summary>加拿大暑校對後續申請真的有幫助嗎？</summary><p>真正的價值不只是 certificate，而是能不能形成 academic exposure、生活獨立、future major 探索或 North America school planning 的前置素材。</p></details>
+          <details><summary>加拿大未成年人文件麻煩嗎？</summary><p>比很多家長以為的要細。custodial / consent、保險、接送和責任邊界需要先看 provider 規則與具體年齡段。</p></details>
+        </div>
+      </section>
+    `
+    : "";
+
+  const malaysiaAllianceSections = route.slug === "malaysia"
+    ? `
+      <section class="band">
+        <div class="two-col australia-decision-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">Malaysia Fit</div>
+            <h3>馬來西亞暑校，更適合哪一類家庭？</h3>
+            <ul class="summer-focus-list">
+              <li><strong>第一次做國際暑期項目</strong><span>距離近、飛行負擔小、節奏較溫和，對很多第一次試水的家庭很友好。</span></li>
+              <li><strong>低齡與 school-break 需求</strong><span>如果家長真正要的是先試英文、先看課堂、先看孩子能不能適應集體學習，馬來西亞很合適。</span></li>
+              <li><strong>重視預算與風險控制</strong><span>很多家庭不是不想做暑校，而是想先用更可控的成本看清楚孩子的反應與適配度。</span></li>
+              <li><strong>亞洲國際校環境試水</strong><span>對想看英語學習環境、國際課堂節奏或未來亞洲本科 / 國際校可能性的家庭，這條線很實用。</span></li>
+            </ul>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Route Types</div>
+            <h3>先分清楚馬來西亞這幾種路線</h3>
+            <div class="summer-route-cards">
+              <article><b>Low-age English Camp</b><strong>British Council Primary</strong><span>適合 7–12 歲，以英語 confidence、task-based learning 與課堂習慣建立為主。</span></article>
+              <article><b>Teen Holiday English</b><strong>British Council Secondary / ELS</strong><span>適合 13–17 歲，先做 speaking、writing、group communication 和 school-break immersion。</span></article>
+              <article><b>Holiday / Winter Camp</b><strong>Erican</strong><span>更偏親和型、短期團體型、節奏較輕的 holiday route。</span></article>
+              <article><b>University Exposure</b><strong>Monash Malaysia</strong><span>更適合高中後段、已在看國際本科與專業方向的家庭。</span></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">OTC Role</div>
+          <h2>OTC 在馬來西亞這一頁真正做的是什麼？</h2>
+          <p>不是把馬來西亞寫成廉價替代品，而是先幫家庭分清楚：你要的是低齡英語 camp、school-break holiday route、亞洲國際課堂試水，還是 future university exposure。</p>
+        </div>
+        <div class="summer-route-pillars">
+          <article><b>01</b><strong>先看年齡段</strong><span>馬來西亞最實用的不是一股腦報名，而是先分 low-age、teen、holiday 或 pre-university route。</span></article>
+          <article><b>02</b><strong>先看日校還是住宿</strong><span>很多馬來西亞路線其實是日校 / family-arranged 模式，這和英澳加的 residence route 完全不同。</span></article>
+          <article><b>03</b><strong>再看城市與校區</strong><span>Kuala Lumpur、Bandar Sunway、Subang、Penang 各自節奏不同，不是只看國家名。</span></article>
+          <article><b>04</b><strong>最後才做報名</strong><span>先知道孩子是適合 English confidence、holiday camp 還是 university exposure，再進入具體 provider。</span></article>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="two-col australia-support-grid">
+          <div class="about-panel surface">
+            <div class="eyebrow">Why OTC</div>
+            <h3>如果往 direct cooperation 談，OTC 能帶來什麼？</h3>
+            <div class="summer-route-cards">
+              <article><b>家長端預篩</b><strong>先分年齡、節奏與目的</strong><span>很多家庭問馬來西亞不是因為“便宜”，而是想先看孩子是否適合國際暑校，這部分 OTC 可以先分流。</span></article>
+              <article><b>雙語說明能力</b><strong>把亞洲路線講清楚</strong><span>OTC 可以把 provider 頁面轉成家長聽得懂的 route language，避免把 holiday route 誤講成名校學術營。</span></article>
+              <article><b>低風險試水定位</b><strong>不是降級，是更穩的入口</strong><span>對部分家庭來說，馬來西亞不是“退而求其次”，而是更合適的第一站。</span></article>
+              <article><b>後續可接長線規劃</b><strong>不只停在一次 camp</strong><span>如果後面還要看國際校、澳新英路線或本科方向，OTC 可以把暑校放進更長的路線裡處理。</span></article>
+            </div>
+          </div>
+          <div class="about-panel surface">
+            <div class="eyebrow">Cooperation Status</div>
+            <h3>目前合作口徑：先做清楚的 school-break route，再擴大合作</h3>
+            <ul class="summer-focus-list">
+              <li><strong>Current</strong><span>目前馬來西亞頁更偏 family-facing route curation，合作關係需按 provider 類型與當期 intake 再確認。</span></li>
+              <li><strong>Goal</strong><span>優先和 route 清楚、節奏穩、低齡 / holiday / pre-university 條線明確的 provider 建立更直接合作。</span></li>
+              <li><strong>Priority</strong><span>British Council、ELS、Erican 與 Monash Malaysia 這類清楚、好講、家長容易理解的路線最值得先推。</span></li>
+              <li><strong>Boundary</strong><span>OTC 不會把所有馬來西亞項目都寫成同一種 camp，而是按 provider 實際定位和當期回覆說清楚。</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>馬來西亞頁最常被問到的幾個問題</h2>
+          <p>這一頁真正要回答的，不是“值不值得去”，而是“適不適合現在這個孩子”。</p>
+        </div>
+        <div class="summer-faq-grid">
+          <details><summary>馬來西亞會不會太像普通英文補習班？</summary><p>有些 route 確實更偏 holiday English / school-break learning，所以定位要講清楚；但也正因如此，它很適合低風險、低齡和第一次試水的家庭。</p></details>
+          <details><summary>馬來西亞適合幾歲開始？</summary><p>比英澳加更適合低齡和第一次國際 camp 體驗，尤其是 7–12 歲與 13–17 歲這兩段要分開看。</p></details>
+          <details><summary>這條線對後續升學有幫助嗎？</summary><p>如果期待的是名校暑校式 academic prestige，未必；但如果目標是英語 confidence、國際課堂適應與家庭決策前置，它非常有價值。</p></details>
+          <details><summary>需要住校嗎？</summary><p>很多馬來西亞路線是日校或家長安排接送，這和英澳加的 residence route 很不一樣，也正是家長覺得風險更低的地方。</p></details>
+        </div>
+      </section>
+    `
+    : "";
+
+  const usAllianceSections = route.slug === "united-states"
+    ? `
+      <section class="band">
+        <div class="section-head compact-head">
+          <div class="eyebrow">United States Overview</div>
+          <h2>先點開這六張卡</h2>
+        </div>
+        <div class="summer-mini-details-grid">
+          <details class="summer-mini-detail" open>
+            <summary><b>01</b><strong>收費說明</strong><span>美國通常是最高成本的一組。</span></summary>
+            <p>OTC 代辦免費；常見成本包括項目費、住宿、保險、簽證、航班、城市生活費與未成年人安排。</p>
+          </details>
+          <details class="summer-mini-detail">
+            <summary><b>02</b><strong>標準流程</strong><span>先分路線，再做 shortlist。</span></summary>
+            <p>先分 pre-college、campus immersion 或學科探索，再核對年齡、住宿、英文、美簽、保險與當季檔期。</p>
+          </details>
+          <details class="summer-mini-detail">
+            <summary><b>03</b><strong>適合家庭</strong><span>更適合美本目標家庭。</span></summary>
+            <p>適合已在看 Top US、美本申請、subject interest、campus exposure，並能承受較高課堂密度與預算的學生。</p>
+          </details>
+          <details class="summer-mini-detail">
+            <summary><b>04</b><strong>路線分類</strong><span>先分四條主線。</span></summary>
+            <p>名校學術型、校園 immersion 型、學科探索型、長線前置型。先選路線，再選校名。</p>
+          </details>
+          <details class="summer-mini-detail">
+            <summary><b>05</b><strong>整套減壓流程</strong><span>OTC 先做家庭端預篩。</span></summary>
+            <p>先把英文、課堂承受度、住宿、城市、預算與文件風險講清楚，再進入正式申請。</p>
+          </details>
+          <details class="summer-mini-detail">
+            <summary><b>06</b><strong>常見問題</strong><span>先看這幾件事。</span></summary>
+            <p>不一定只看名校；第一次也能做，但更適合年級較高、獨立性更強的學生。credit-bearing 更接近正式大學課。</p>
+          </details>
+        </div>
+      </section>
+    `
+    : "";
+
   const routeProjectDetailsBlock = groupedRoute
     ? ""
     : `
@@ -15700,22 +16300,42 @@ function summerSchoolCountryPage(route) {
     `;
 
   return pageShell({
-    title: `OTC ${route.zh}暑期項目頁 | OTC Study Hub`,
+    title: route.slug === "new-zealand"
+      ? "OTC 新西蘭暑校聯盟 | OTC Study Hub"
+      : route.slug === "canada"
+      ? "OTC 加拿大暑校聯盟 | OTC Study Hub"
+      : route.slug === "united-states"
+      ? "OTC 美國暑校聯盟 | OTC Study Hub"
+      : `OTC ${route.zh}暑期項目頁 | OTC Study Hub`,
     current: "resources",
     lang: "zh-Hant",
     locale: "zh",
     description: route.slug === "australia"
       ? "OTC 澳洲暑校聯盟：語言營、私校觀察、大學學術試跑與 pathway 準備集中頁，面向需要澳洲教育決策支持的家庭。"
+      : route.slug === "new-zealand"
+      ? "OTC 新西蘭暑校聯盟：Auckland、Hamilton、Christchurch 與 school-prep / junior holiday / university transition 路線集中頁。"
+      : route.slug === "canada"
+      ? "OTC 加拿大暑校聯盟：Vancouver、Toronto、UBC、University of Toronto 與 Canada campus / homestay / leadership 路線集中頁。"
+      : route.slug === "malaysia"
+      ? "OTC 馬來西亞暑校聯盟：Kuala Lumpur、Bandar Sunway、British Council、ELS、Erican 與 Monash Malaysia summer routes 集中頁。"
+      : route.slug === "united-states"
+      ? "OTC 美國暑校聯盟：Yale、Columbia、Berkeley、UCLA、UChicago 與 US pre-college / summer immersion / campus routes 集中頁。"
       : `OTC ${route.zh}暑期遊學專屬頁：收費說明、申請流程與可點開的標準項目表。`,
     path: `/zh/summer-school-alliance/${route.slug}/`,
     body: `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
-          <h1>${route.slug === "australia" ? "澳洲暑校聯盟 Australia Summer Alliance 2026" : `${route.zh}暑期項目頁`}</h1>
+          <h1>${route.slug === "australia" ? "澳洲暑校聯盟 Australia Summer Alliance 2026" : route.slug === "new-zealand" ? "新西蘭暑校聯盟 New Zealand Summer Alliance 2026" : route.slug === "canada" ? "加拿大暑校聯盟 Canada Summer Alliance 2026" : route.slug === "malaysia" ? "馬來西亞暑校聯盟 Malaysia Summer Alliance 2026" : route.slug === "united-states" ? "美國暑校聯盟 United States Summer Alliance 2026" : `${route.zh}暑期項目頁`}</h1>
           <h2>${route.name}</h2>
           <p>${route.slug === "australia"
             ? "從 Gold Coast 到 Melbourne，不只是暑期活動，而是國際教育與升學路線的第一次實地體驗。OTC 精選澳洲語言營、私校觀察、大學學術試跑與 pathway 準備項目，協助家庭真正理解澳洲 K-12、寄宿、homestay 與升學體系。"
+            : route.slug === "new-zealand"
+            ? "從 Auckland 到 Christchurch，OTC 把新西蘭 junior English、school-prep、group holiday 與 university-transition 路線集中整理，方便家庭先看節奏、年齡、住宿與文件，再決定是否往下報名。"
+            : route.slug === "canada"
+            ? "從 Vancouver 到 Toronto，OTC 把 Canada campus residence、city homestay、leadership academy 與 North America school-planning 路線集中整理，方便家庭先看住宿、節奏與文件，再決定是否往下報名。"
+            : route.slug === "malaysia"
+            ? "從 Kuala Lumpur 到 Bandar Sunway，OTC 把 Malaysia school-break English、holiday camp 與 pre-university exposure 路線集中整理，方便家庭先看年齡、節奏與日校 / 住宿差別，再決定是否往下報名。"
             : route.intro}</p>
           <div class="actions">
             <a class="btn btn-primary" href="${route.slug === "australia" ? "#hot-course-list" : `/consultation-chat/?source=summer-school-country&country=${encodeURIComponent(route.name)}`}">${route.slug === "australia" ? "查看熱門課程" : "立即咨詢"}</a>
@@ -15728,6 +16348,7 @@ function summerSchoolCountryPage(route) {
 
       ${australiaIntroSections}
 
+      ${route.slug === "united-states" ? `` : `
       <section class="band">
         <div class="two-col">
           <div class="about-panel surface">
@@ -15742,10 +16363,19 @@ function summerSchoolCountryPage(route) {
           </div>
         </div>
       </section>
+      `}
 
       ${routePainPointsBlock}
 
       ${australiaDecisionSupportBlock}
+
+      ${newZealandAllianceSections}
+
+      ${canadaAllianceSections}
+
+      ${malaysiaAllianceSections}
+
+      ${usAllianceSections}
 
       <section class="band" id="hot-course-list">
         <div class="section-head compact-head">
@@ -15758,6 +16388,66 @@ function summerSchoolCountryPage(route) {
       </section>
 
       ${australiaSupportSection}
+
+      ${route.slug === "new-zealand" ? `
+      <section class="band">
+        <div class="summer-country-cta-banner">
+          <strong>你是新西蘭語言學校、young learners provider 或 school-prep 合作窗口？</strong>
+          <span>OTC 目前正把新西蘭暑校與 school-prep 路線從二級代理 / 資訊協調模式，逐步推向更直接的合作關係。若你願意討論 direct cooperation、school-prep、study tour 或 young learners intake，可直接和我們連線。</span>
+          <div class="summer-country-cta-row">
+            <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+            <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20New%20Zealand%20Summer%20Alliance%20Enquiry">Email OTC</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC New Zealand Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="summer-wechat-inline">WeChat: overseasus</div>
+        </div>
+      </section>
+      ` : ""}
+
+      ${route.slug === "canada" ? `
+      <section class="band">
+        <div class="summer-country-cta-banner">
+          <strong>你是加拿大 summer provider、campus camp 或 young learners 合作窗口？</strong>
+          <span>OTC 目前正把加拿大暑校路線從公開 intake / channel support，逐步推向更清楚的 direct cooperation。若你願意討論 family referrals、small groups、campus routes 或 Canada Summer Alliance，可直接與我們連線。</span>
+          <div class="summer-country-cta-row">
+            <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+            <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Canada%20Summer%20Alliance%20Enquiry">Email OTC</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC Canada Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="summer-wechat-inline">WeChat: overseasus</div>
+        </div>
+      </section>
+      ` : ""}
+
+      ${route.slug === "malaysia" ? `
+      <section class="band">
+        <div class="summer-country-cta-banner">
+          <strong>你是馬來西亞英語中心、holiday camp 或 pre-university 合作窗口？</strong>
+          <span>OTC 目前正把馬來西亞暑校路線從 family-facing school-break route，逐步整理成更清楚的合作入口。若你願意討論 low-age camp、teen holiday English、pre-university exposure 或 direct cooperation，可直接和我們連線。</span>
+          <div class="summer-country-cta-row">
+            <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+            <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Malaysia%20Summer%20Alliance%20Enquiry">Email OTC</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC Malaysia Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="summer-wechat-inline">WeChat: overseasus</div>
+        </div>
+      </section>
+      ` : ""}
+
+      ${route.slug === "united-states" ? `
+      <section class="band">
+        <div class="summer-country-cta-banner">
+          <strong>你是美國 pre-college、summer session 或 high school outreach 合作窗口？</strong>
+          <span>OTC 目前正把美國暑校路線從單純名校整理，往更清楚的 pre-college / academic route curation 推進。若你願意討論 family referrals、small-group enquiries、subject-specific summer route 或更直接合作，可直接與我們連線。</span>
+          <div class="summer-country-cta-row">
+            <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
+            <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20United%20States%20Summer%20Alliance%20Enquiry">Email OTC</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC United States Summer Alliance 的合作方式。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="summer-wechat-inline">WeChat: overseasus</div>
+        </div>
+      </section>
+      ` : ""}
 
       ${route.slug === "australia" ? `
       <section class="band">
@@ -18951,7 +19641,7 @@ const wangZhuoyingSummerGuide = pageShell({
             <span>学生</span><span><strong>Wang Zhuoying</strong><em>英文文件也写作 Zhuoying Wang</em></span><span>学生邮箱：见转发邮件收件人</span><span>两段课程学生本人</span>
           </div>
           <div class="compare-row" role="row">
-            <span>OTC 协调</span><span><strong>Maria Xiao / Overseas Office</strong></span><span>office@overseasuk.com<br>+44 20 7935 3623<br>WhatsApp +44 7947 991572</span><span>转发确认信、签证信，协调日期；OTC 地址 207 Regent Street, London W1B 3HH</span>
+            <span>OTC 协调</span><span><strong>Maria Shaw / Overseas Office</strong></span><span>office@overseasuk.com<br>+44 20 7935 3623<br>WhatsApp +44 7947 991572</span><span>转发确认信、签证信，协调日期；OTC 地址 207 Regent Street, London W1B 3HH</span>
           </div>
           <div class="compare-row" role="row">
             <span>IH London</span><span><strong>Marcin Gwiazda</strong><em>Customer Experience Executive</em></span><span>info@ihlondon.com<br>+44 (0) 20 7611 2400</span><span>16 Stukeley Street, Covent Garden, London WC2B 5LQ</span>
