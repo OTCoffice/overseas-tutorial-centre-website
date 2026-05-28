@@ -1817,6 +1817,279 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "chinese-students-poland-nursing-study-employment-report-2026",
+    title: "Chinese-Speaking Students and Poland Nursing 2026: Study, PWZ Licensing and Employment Routes",
+    date: "2026-05-28",
+    category: "EU Study",
+    column: "study",
+    kicker: "Nursing · Chinese-speaking students · Poland report",
+    author: "留學導報編輯部",
+    summary: "For Chinese-speaking students from Taiwan, mainland China, Hong Kong and the wider diaspora, Poland can be a lower-cost entry point into European nursing education. This report reviews English-taught BSc Nursing options, cost ranges, student-life constraints, PWZ licensing, Polish-language barriers and onward employment routes across Poland, the EU and Chinese-speaking regions.",
+    titleZh: "華語世界進入波蘭護理留學與就業調查報告：低成本歐盟入口，但語言與 PWZ 是硬門檻",
+    summaryZh: "對台灣、中國大陸、香港及其他華語家庭而言，波蘭護理留學的吸引力在於成本相對低、歐盟資格框架清楚、護理人力需求長期存在。但英文授課 BSc Nursing 不是自動執業保證，畢業後仍要面對 PWZ、波蘭語證書、目標國註冊與回華語地區認證等問題。這篇導報以 2026 申請家庭角度整理風險、成本與出路。",
+    relatedReadings: [
+      "poland-nursing-pwz-licensing-2026",
+      "poland-nursing-pwz-exam-language-details-2026",
+      "czech-nursing-english-pathway-reality-check",
+      "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway"
+    ],
+    resources: [
+      ["European Commission — Automatic recognition", "https://single-market-economy.ec.europa.eu/single-market/services/free-movement-professionals/recognition-professional-qualifications-practice/automatic-recognition_en"],
+      ["EUR-Lex — Directive 2005/36/EC", "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32005L0036"],
+      ["Study.gov.pl — Tuition fees in Poland", "https://study.gov.pl/pl/czesne"],
+      ["Vincent Pol University — Nursing BSc", "https://vpu.edu.pl/nursing-bachelor-of-science/"],
+      ["Vincent Pol University — 2026/2027 fees", "https://vpu.edu.pl/fees-2-2/"],
+      ["Medical University of Gdańsk — Nursing transfer / fee reference", "https://admission.mug.edu.pl/55590.html"],
+      ["Polish Economic Institute — healthcare workforce shortage note", "https://pie.net.pl/en/economic-weekly-46-2025-november-21-2025/"],
+      ["Poland Office for Foreigners — Work student", "https://www.gov.pl/web/udsc-en/work-student"],
+      ["NIPiP — Act on the Professions of Nurse and Midwife", "https://nipip.pl/prawo/ogolne/ustawa-o-zawodach-pielegniarki-i-poloznej/"],
+      ["State Commission — Polish certificate examination fees", "https://certyfikatpolski.pl/en/about-the-examination/examination-fees/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文將學費寫為區間及例子，而非保證價格；Study.gov.pl 說明波蘭非公立院校學費常見約 2000-6000 EUR/年，具體費用由院校和課程決定。",
+      "Vincent Pol University 2026/2027 fee page 顯示 Nursing 標準費用為 4500 EUR/年；其 Nursing BSc 課程頁另見較早或特定口徑的 3500 EUR/年資訊，因此本文提醒以當年 fee page 與錄取合同為準。",
+      "Medical University of Gdańsk 2026 Nursing transfer 頁面列出 Nursing 年費 27400 PLN，約屬 6000 EUR 左右區間；醫科大學費用與私立應用科學大學不同，不宜混為一談。",
+      "波蘭學生打工部分，官方 Office for Foreigners 重點是符合條件的 full-time student 可免工作許可；本文不再簡化寫成所有國際學生固定每週 20 小時限制。",
+      "護理缺口部分，Polish Economic Institute 2025 note 轉述 OECD Health at a Glance 2025，提到 2039 年可能出現 260000 個護理職位缺口；本文採用『預測 / 可能』而非既成事實。",
+      "PWZ、波蘭語證書、EU recognition 與回台/英美加路線均屬一般教育資訊，最終以 NIPiP、OIPiP、目標國 regulator、台灣考選部與主管機關書面規定為準。"
+    ],
+    sidebarCards: [
+      ["01", "低成本入口", "波蘭費用通常低於西歐，但各校差異大。", "Cost"],
+      ["02", "語言門檻", "英文課程不等於免波蘭語；PWZ 仍看語言能力。", "Language"],
+      ["03", "就業缺口", "老齡化與護理短缺支撐需求，但薪資分國家差很大。", "Workforce"],
+      ["04", "華語家庭", "適合預算敏感、願意提前規劃歐盟牌照的學生。", "Chinese"]
+    ],
+    body: [
+      {
+        heading: "1) Why Poland appears on Chinese-speaking nursing shortlists",
+        paragraphs: [
+          "For families from Taiwan, mainland China, Hong Kong and the wider Chinese-speaking diaspora, Poland is attractive because it combines lower-cost EU study with a regulated European nursing framework.",
+          "The attraction is real, but it must be read carefully: an English-taught BSc Nursing programme can be a study route, not an automatic nursing licence."
+        ]
+      },
+      {
+        heading: "2) Admissions are manageable, but science and English still matter",
+        paragraphs: [
+          "Most families should expect high-school completion, biology and chemistry readiness, English evidence such as IELTS or an internal school test, translated documents and sometimes interview or science screening.",
+          "Individual schools set their own rules, so the safest approach is to ask each university for the 2026 intake checklist in writing."
+        ]
+      },
+      {
+        heading: "3) Cost is lower than Western Europe, but not one fixed number",
+        paragraphs: [
+          "Study.gov.pl notes that private higher-education fees in Poland commonly range from about EUR 2,000 to EUR 6,000 per year, depending on institution and programme. Nursing, medicine-related and English-taught programmes can sit higher than general programmes.",
+          "For example, Vincent Pol University's 2026/2027 fee page lists Nursing at EUR 4,500 per year under its standard fee table, while Medical University of Gdańsk's Nursing transfer information lists PLN 27,400 per year. Families should always use the current fee page and admission contract, not agency screenshots."
+        ]
+      },
+      {
+        heading: "4) Student life: work rights, living costs and Polish-language pressure",
+        paragraphs: [
+          "Living costs can still be significantly lower than in Western Europe, but Warsaw, Kraków and Gdańsk are not cheap cities by Central European standards. A prudent first-year budget should include tuition, rent, deposit, insurance, visa/residence costs, winter clothing, transport and emergency funds.",
+          "Poland's Office for Foreigners explains that students whose stay is based on full-time studies may work without a work permit under specified student-visa or temporary-residence conditions. Families should check the student's exact status instead of relying on a simple '20 hours per week' rule copied from other countries."
+        ]
+      },
+      {
+        heading: "5) After graduation, PWZ and language decide whether Poland is realistic",
+        paragraphs: [
+          "Nursing is a regulated profession in Poland. Graduates need to apply for Prawo Wykonywania Zawodu, or PWZ, through the nurses and midwives chamber system. English-taught graduates should expect Polish-language evidence to be central to that process.",
+          "For Chinese-speaking students, this is the decisive planning issue. If the aim is to stay in Poland, Polish should be studied from the first year. If the aim is Germany, Norway, the UK, Taiwan or North America, the target-country regulator should be checked from the beginning as well."
+        ]
+      },
+      {
+        heading: "6) Employment routes differ sharply by destination",
+        paragraphs: [
+          "Poland has a serious nursing workforce challenge. A Polish Economic Institute note citing OECD Health at a Glance 2025 points to a potential shortage of 260,000 nursing positions by 2039. That supports long-term demand, but local wages are still not the same as Western Europe or the Nordic region.",
+          "Many graduates therefore treat Poland as one stage in a longer European route: obtain the degree, handle PWZ and language, then consider Germany, the Netherlands, Norway, Ireland, the UK or another regulator-led pathway. Returning to Taiwan, mainland China or Hong Kong requires separate degree assessment and local licensing steps."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼華語家庭開始看波蘭護理",
+        paragraphs: [
+          "對台灣、中國大陸、香港及海外華語家庭來說，波蘭護理的吸引力主要來自三點：它在歐盟體系內，學費與生活費通常低於西歐，並且護理屬於長期需求穩定的專業。",
+          "但這條路不能被理解成『便宜讀英文護理，畢業自動留歐工作』。更準確的說法是：波蘭可以是低成本進入歐洲護理教育與牌照體系的入口，但之後仍要處理 PWZ、波蘭語、目標國 regulator、簽證與本地就業語言。"
+        ]
+      },
+      {
+        heading: "二、入學要求：華語學生要先把理科與英文準備好",
+        paragraphs: [
+          "多數英文授課 BSc Nursing 會看高中畢業背景、生物與化學基礎、英文能力、護照、成績單、畢業證、翻譯與公證文件。有些學校還會要求面試、生物 / 化學測驗或內部英文測試。",
+          "IELTS 6.0 常被視為比較安全的起點，但不同學校對 TOEFL、Duolingo、內部測試、英文授課背景 waiver 的接受方式不同。華語家庭最好直接向學校索取 2026 intake 的書面要求，不要只看代辦海報或舊論壇帖子。"
+        ]
+      },
+      {
+        heading: "三、學校與費用：可以做 shortlist，但要逐校核價",
+        paragraphs: [
+          "波蘭英文護理常見 shortlist 會出現 Vincent Pol University、部分應用科學大學，以及 Medical University of Gdańsk、Medical University of Lublin、Medical University of Warsaw 等醫科大學路線。公立醫科大學、私立應用科學大學與轉學路線的費用和招生要求差異很大。",
+          "Study.gov.pl 對波蘭學費的總體說法是：非公立院校常見學費約 2000-6000 EUR/年，具體由院校與課程決定。Vincent Pol University 的 2026/2027 fee page 將 Nursing 標準費用列為 4500 EUR/年；Medical University of Gdańsk 的 Nursing transfer 頁面列出 27400 PLN/年。這些數字可作參考，但最終要看錄取當年的 fee page、offer letter 和學生合同。",
+          '<div class="article-service-table"><table><thead><tr><th>類型</th><th>費用感</th><th>適合誰</th><th>OTC 提醒</th></tr></thead><tbody><tr><td>私立 / 應用科學大學</td><td>常見約 3500-5000 EUR/年上下</td><td>重視成本與入學彈性的家庭</td><td>核對是否有穩定英文 Nursing BSc 與臨床安排</td></tr><tr><td>公立醫科大學</td><td>常見更高，部分約 6000 EUR/年或以上</td><td>重視醫學品牌與學術體系的學生</td><td>名額、面試、理科要求可能更嚴</td></tr><tr><td>轉學 / 插班</td><td>按院校規則個案處理</td><td>已有護理學習背景者</td><td>需核對年級、課程匹配、文件與截止日</td></tr></tbody></table></div>'
+        ]
+      },
+      {
+        heading: "四、生活與打工：不要照搬英澳的 20 小時規則",
+        paragraphs: [
+          "波蘭生活成本通常低於英國、愛爾蘭、荷蘭和北歐，但 Warsaw、Kraków、Gdańsk 等城市房租也在上升。第一年總預算建議把學費、住宿押金、生活費、保險、簽證 / 居留、冬季衣物、交通與緊急備用金一起算進去，保守估算約 10000-15000 EUR 會比較安全。",
+          "打工方面，不建議簡單寫成所有國際學生『每週 20 小時』。波蘭 Office for Foreigners 的官方說法重點是：符合條件的全日制學生，在特定學生簽證或學生居留許可下，可免工作許可工作。具體工時、雇傭形式、稅務與居留風險仍需按學生身份、合同類型和學校要求確認。",
+          "對護理學生來說，更大的壓力往往不是打工，而是臨床實習與語言。課堂可以是英文，但醫院、病人、病歷與交班環境會把波蘭語能力迅速推到台前。建議至少從 A1/A2 開始同步學，逐步推到 B1-B2。"
+        ]
+      },
+      {
+        heading: "五、畢業後：PWZ 是在波蘭工作的核心",
+        paragraphs: [
+          "波蘭護理屬於受管制職業。畢業後若想在波蘭本地以護士身份工作，需要向 NIPiP / OIPiP 系統申請 Prawo Wykonywania Zawodu（PWZ）。這不是簡單拿畢業證就能上崗。",
+          "波蘭本地護理畢業生通常不需要再參加 NCLEX 式全國護理理論考試，但需要處理 PWZ 文件。英文班國際學生尤其要注意：官方波蘭語能力證明通常是核心門檻，包含口語與書寫。外國護理學歷持有人則可能另有 nostryfikacja、有限 PWZ、適應期等要求。"
+        ]
+      },
+      {
+        heading: "六、就業前景：需求強，但不同國家薪資差距很大",
+        paragraphs: [
+          "波蘭和歐洲都面臨護理人力壓力。Polish Economic Institute 2025 年資料轉述 OECD Health at a Glance 2025，指出波蘭到 2039 年可能出現 260000 個護理職位缺口。這代表需求方向清楚，但不等於每個畢業生都能忽略語言與牌照要求。",
+          "留在波蘭的優點是進入本地醫療體系較直接，缺點是薪資通常仍低於德國、北歐、愛爾蘭、英國等市場。若以歐盟其他國家為目標，波蘭學位與 PWZ 可以成為重要起點，但仍要完成目的國語言、regulator 註冊、文件審核與可能的適應要求。",
+          "如果回台灣，通常要走教育部學歷認證、考選部護理師考試與衛福部相關程序；若去美國、加拿大或澳洲，則常涉及 CGFNS / credentials evaluation、NCLEX-RN 或當地 nursing board 評估。歐洲背景有加分，但不能直接替代當地執照。"
+        ]
+      },
+      {
+        heading: "七、華語家庭的優缺點總結",
+        paragraphs: [
+          "優點很清楚：成本通常低於西歐，歐盟資格框架清楚，護理需求長期存在，三年制 BSc Nursing 對預算敏感家庭有吸引力。對願意學語言、願意走 regulator 流程的學生，波蘭確實可以是務實入口。",
+          "缺點也不能淡化：華語資訊不如英澳成熟，英文班並不等於免波蘭語，本地薪資不是歐洲最高，畢業後要不要留波蘭、去西歐或回華語地區，會導向完全不同的準備路線。",
+          "OTC 建議先做五件事：第一，準備 IELTS 6.0 或同等英文證明；第二，從入學前就開始波蘭語；第三，逐校確認 2026 學費、臨床實習與 PWZ 支援；第四，向 NIPiP / OIPiP 或學校國際辦公室索取書面說明；第五，若目標是回台或去英美加，從第一年就查目標地牌照制度。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "poland-nursing-pwz-exam-language-details-2026",
+    title: "Poland Nursing PWZ Exam Details 2026: Language Certificate, Adaptation Period and Licensing Steps",
+    date: "2026-05-28",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Nursing · PWZ · Polish language certificate",
+    author: "留學導報編輯部",
+    summary: "Poland does not use a separate NCLEX-style national nursing licensure examination. For nursing graduates, the practical licensing route is BSc Nursing plus PWZ registration, Polish-language evidence and, for some foreign-qualification cases, adaptation or qualification-recognition steps. This briefing focuses on the exam-like part families most often ask about: the Polish language certificate and PWZ documentation.",
+    titleZh: "波蘭護理執照考試細節：沒有 NCLEX 式國考，真正關鍵是 PWZ 與波蘭語證書",
+    summaryZh: "波蘭護理執業不是靠單獨的 NCLEX 式國家護理執照考試，而是透過護理學位、PWZ 申請、波蘭語官方證明、健康與品行文件，以及部分外國學歷個案的適應期或學歷認證來完成。這篇導報把英文班畢業生、非歐盟學生、外國學歷申請人和歐盟互認路線分開說清楚。",
+    relatedReadings: [
+      "poland-nursing-pwz-licensing-2026",
+      "czech-nursing-english-pathway-reality-check",
+      "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
+      "overseas-supervision-nclex-rn-bilingual-study-companion-preview"
+    ],
+    resources: [
+      ["NIPiP — Act on the Professions of Nurse and Midwife", "https://nipip.pl/prawo/ogolne/ustawa-o-zawodach-pielegniarki-i-poloznej/"],
+      ["NIPiP — Adaptation internship regulation for foreign nurses and midwives", "https://nipip.pl/rozporzadzenie-ministra-zdrowia-25-pazdziernika-2016-r-sprawie-stazu-adaptacyjnego-dla-cudzoziemcow-ubiegajacych-sie-o-przyznanie-prawa-wykonywania-zawodu-pielegniarki-lub-poloznej-2/"],
+      ["OIPiP Piła — PWZ for non-EU foreigners", "https://oipip.pila.pl/przyznawanie-prawa-wykonywania-zawodu-obywatelom-panstw-spoza-unii-europejskiej/"],
+      ["State Commission — Polish certificate examination fees", "https://certyfikatpolski.pl/en/about-the-examination/examination-fees/"],
+      ["State Commission — Polish certificate FAQ", "https://certyfikatpolski.pl/en/faqs/"],
+      ["European Commission — Automatic recognition", "https://single-market-economy.ec.europa.eu/single-market/services/free-movement-professionals/recognition-professional-qualifications-practice/automatic-recognition_en"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-28。本文將「執照考試」表述修正為 PWZ 申請與波蘭語證書流程；截至本文發布，波蘭護理本地執業並非 NCLEX 式單一國家護理牌照考試制度。",
+      "NIPiP 公開法規文本及地區商會說明均指向 PWZ、官方波蘭語能力證明、學歷、健康、完整法律行為能力及良好品行等要求；具體清單應以申請所在地 OIPiP 書面要求為準。",
+      "certyfikatpolski.pl 官方費用頁寫明：考試費由授權考點設定，但不得超過法定上限；成人 B1 / B2 上限為 150 EUR，證書簽發費另為 20 EUR 等值波蘭茲羅提。",
+      "官方 FAQ 提到護理委員會通常要求在波蘭醫院或門診工作的外國人以 B1 波蘭語證書證明能力；實務上醫療溝通風險較高，B2 往往更保險。"
+    ],
+    sidebarCards: [
+      ["01", "不是 NCLEX", "波蘭沒有單獨 NCLEX 式全國護理牌照考試。", "Exam"],
+      ["02", "真正關卡", "PWZ、波蘭語證書、健康與品行文件才是核心。", "PWZ"],
+      ["03", "語言證書", "成人 B1 / B2 考試費上限為 150 EUR，證書費另計。", "Polish"],
+      ["04", "外國學歷", "可能涉及 nostryfikacja、有限 PWZ 及適應期。", "Foreign"]
+    ],
+    body: [
+      {
+        heading: "1) Poland does not run an NCLEX-style national nursing licence exam",
+        paragraphs: [
+          "For nursing families, the most important correction is simple: Poland does not operate a separate NCLEX-style national nursing licensure examination for local BSc Nursing graduates.",
+          "The licensing route is built around completion of a compliant nursing programme, application for PWZ through the nurses and midwives chamber system, and satisfaction of language, health, character and administrative requirements."
+        ]
+      },
+      {
+        heading: "2) Polish graduates and English-taught graduates still need to think about language",
+        paragraphs: [
+          "A Polish BSc Nursing programme normally includes clinical training as part of the degree, so a graduate is not usually looking for another national theoretical nursing exam after graduation.",
+          "However, English-taught international graduates should not assume that an English degree removes the language issue. For practice in Poland, official evidence of Polish ability in speech and writing is usually the decisive practical barrier."
+        ]
+      },
+      {
+        heading: "3) The exam-like component is usually the Polish language certificate",
+        paragraphs: [
+          "The certificate examination is administered under the State Commission for the Certification of Proficiency in Polish as a Foreign Language. The test covers written and oral competence, including reading, listening, grammar, writing and speaking.",
+          "Official fee guidance says centres set their own fee within statutory maximums. For adults, B1 and B2 are capped at 150 EUR, with a separate certificate issuing fee. Nursing applicants should check the latest centre list and session dates at certyfikatpolski.pl."
+        ]
+      },
+      {
+        heading: "4) Foreign qualifications can add nostrification and adaptation steps",
+        paragraphs: [
+          "Applicants with foreign nursing qualifications may need qualification recognition or nostrification, and some cases may involve a limited right to practise for an adaptation period before full PWZ can be granted.",
+          "This is not the same situation as a student who completed a recognised Polish nursing degree. Families should separate Polish-graduate cases from foreign-qualification cases when asking schools or chambers for advice."
+        ]
+      },
+      {
+        heading: "5) EU onward recognition is still a separate target-country process",
+        paragraphs: [
+          "Once a nurse has a Polish qualification and PWZ, EU recognition under Directive 2005/36/EC may support onward registration in another European country, particularly for general care nursing qualifications that meet the harmonised training requirements.",
+          "Even then, destination countries can still ask for their own language evidence, regulator registration, health and character documents, and sometimes adaptation or additional assessment."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先釐清：波蘭沒有 NCLEX 式國家護理執照考試",
+        paragraphs: [
+          "很多學生把波蘭護理想像成「讀完大學，再考一個像 NCLEX 的全國護理牌照考試」。這個理解需要修正。波蘭護理執業的核心不是一場單獨的國家護理理論考，而是取得符合要求的護理學位後，向護士與助產士商會系統申請 <strong>Prawo Wykonywania Zawodu（PWZ）</strong>。",
+          "PWZ 由 Naczelna Izba Pielęgniarek i Położnych（NIPiP）及各地區 OIPiP 系統管理。對本地護理畢業生而言，大學課程本身已包含臨床訓練；畢業後真正要處理的是 PWZ、波蘭語、健康、品行及行政文件。"
+        ]
+      },
+      {
+        heading: "二、波蘭本地畢業生：學位之後直接走 PWZ",
+        paragraphs: [
+          "若學生完成波蘭 3 年 BSc Nursing（通常 180 ECTS，並符合 EU general care nurse 相關訓練要求），一般不是再去參加一場額外國家護理理論考，而是向預計工作地的 OIPiP 提交 PWZ 申請。",
+          "英文授課學生最容易低估的一點，是<strong>波蘭語能力</strong>。波蘭語要求通常包括口語與書寫，也就是法規中常見的 in speech and writing / w mowie i piśmie。若課程是波蘭語授課，語言證明的處理方式可能不同；若是英文班，通常應預期需要另外準備官方波蘭語證書。"
+        ]
+      },
+      {
+        heading: "三、真正像「考試」的部分：波蘭語國家證書",
+        paragraphs: [
+          "對英文班或國際學生來說，最像考牌門檻的往往不是護理理論國考，而是 <strong>Certyfikat znajomości języka polskiego jako obcego</strong>，也就是波蘭語作為外語的官方證書考試。",
+          "這項考試由 Państwowa Komisja do spraw Poświadczania Znajomości Języka Polskiego jako Obcego 制度下的授權考點承辦，通常包括閱讀、聽力、語法、寫作與口試。護理工作常見說法是 B1 起步，但因為病人溝通、病歷、交班和安全責任都很重，B2 會更保險。",
+          "官方費用頁面說明，考試費由各授權考點自行設定，但不得超過法定上限。成人 B1 / B2 考試上限為 150 EUR，證書簽發費另為 20 EUR 等值波蘭茲羅提。實際報名費、場次、城市與名額，應以 certyfikatpolski.pl 及各考點最新公告為準。"
+        ]
+      },
+      {
+        heading: "四、非波蘭學歷或非歐盟申請人：可能多出認證與適應期",
+        paragraphs: [
+          "如果申請人是在波蘭完成護理學位的國際學生，邏輯通常接近波蘭畢業生：用波蘭學位申請 PWZ，但需要處理波蘭語與外國人身份文件。",
+          "如果申請人持有的是外國護理學歷，情況就可能不同。這類個案可能涉及 nostryfikacja（學歷認證 / 等值認定）、有限 PWZ、適應期（staż adaptacyjny）及更完整的文件審查。部分地區商會會列出 6 個月適應期等安排，但是否適用要看申請人學歷、國籍、工作地與 OIPiP 判斷。",
+          "所以問學校或商會時，要把問題問準：你是「波蘭英文 BSc Nursing 畢業生」，還是「外國護理學歷持有人要來波蘭換牌」。兩者不是同一條路。"
+        ]
+      },
+      {
+        heading: "五、共同文件：不要只盯著考試",
+        paragraphs: [
+          "PWZ 申請通常不是只看一張語言證書。常見文件還包括大學文憑與成績單、必要翻譯、健康證明、無犯罪或良好品行材料、完整法律行為能力聲明、居留或工作相關身份，以及地區 OIPiP 要求的申請表與費用。",
+          '<div class="article-service-table"><table><thead><tr><th>項目</th><th>波蘭畢業英文班</th><th>外國護理學歷</th><th>注意事項</th></tr></thead><tbody><tr><td>護理理論國考</td><td>通常沒有 NCLEX 式另考</td><td>不是核心名稱；看認證與補足要求</td><td>不要把波蘭制度誤解成美式 NCLEX</td></tr><tr><td>波蘭語證書</td><td>通常是核心門檻</td><td>通常是核心門檻</td><td>B1 起步，B2 更穩</td></tr><tr><td>適應期</td><td>通常由學位內臨床實習覆蓋</td><td>可能需要有限 PWZ 與適應期</td><td>以 OIPiP 書面回覆為準</td></tr><tr><td>PWZ</td><td>向預計工作地 OIPiP 申請</td><td>認證與文件完成後申請</td><td>取得後才是波蘭本地執業核心</td></tr></tbody></table></div>',
+          "申請處理時間與費用並沒有一個適用全國所有個案的簡單答案。實務上，從數週到數月都有可能，尤其涉及翻譯、補件、外國文件或適應安排時，更應提前準備。"
+        ]
+      },
+      {
+        heading: "六、取得 PWZ 後再談歐盟互認",
+        paragraphs: [
+          "取得波蘭學位與 PWZ 後，若資格符合 EU Directive 2005/36/EC 對 general care nurse 的最低訓練要求，申請人可進入歐盟專業資格承認框架，這也是很多學生選擇波蘭護理的原因之一。",
+          "但歐盟互認不等於去任何國家都不用再準備。德國、荷蘭、北歐、愛爾蘭、英國等地仍可能要求當地語言、regulator 註冊、健康與品行文件，甚至適應期或補充評估。簡單說，波蘭 PWZ 是很有用的出發點，但不是終點。"
+        ]
+      },
+      {
+        heading: "七、OTC 給英文班學生的實務建議",
+        paragraphs: [
+          "如果你讀的是波蘭英文 Nursing BSc，請從第一年就把波蘭語列入畢業計劃，而不是等到最後一年才問能不能拿 PWZ。至少先以 B1 為近期目標，再視職業規劃往 B2 推進。",
+          "下一步可以做三件事：第一，查 certyfikatpolski.pl 的考試場次、考點與費用；第二，向學校國際辦公室索取英文班畢業生 PWZ 支援說明；第三，直接寫信給目標城市 OIPiP，例如 Krakow、Warsaw 或 Katowice，詢問你的身份和課程背景需要哪些文件。",
+          "如果目標不是留在波蘭，而是回台灣、去英國、北歐、美國或加拿大，也要同步查目標國護理註冊制度。波蘭護理可以是進入歐盟健康照護體系的好入口，但語言和牌照路線一定要提前排好。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "poland-nursing-pwz-licensing-2026",
     title: "Poland Nursing Licensing 2026: BSc Nursing, PWZ, Polish Language and EU Recognition",
     date: "2026-05-28",
@@ -1944,6 +2217,7 @@ const insightsArticles = [
     column: "study",
     kicker: "Nursing · Central Europe · Route comparison",
     author: "留學導報編輯部",
+    socialImageVersion: "v=20260528-czech-social-v2",
     summary: "Czech nursing can look attractive because tuition can be lower than Western Europe and the living environment is often strong. The catch is practical: many bachelor's routes are taught mainly in Czech, while full English-taught Nursing BSc options are more limited and intake-specific. This briefing focuses on the official checks that matter most, then places Czechia next to Hungary and Poland for families comparing lower-cost EU nursing routes.",
     titleZh: "捷克護理本科怎麼看？英文授課、費用與捷克／匈牙利／波蘭三國比較",
     summaryZh: "捷克護理本科最吸引人的地方，通常是生活品質穩、整體成本比西歐低；但真正要先看清楚的，是英文授課到底多不多、臨床實習語言怎麼算、IELTS 6.0 能不能碰到合適路線。這篇導報把捷克的實際情況先講清楚，再和匈牙利、波蘭一起放進同一張比較表裡。",
@@ -5101,7 +5375,7 @@ function zhReviewListContent() {
             <span>${zhReviewColumnForArticle(article).name}</span>
           </div>
           <div class="zh-review-row-body">
-            <h3>${zhReviewTitleHtml(article.titleZh || article.title)}</h3>
+            <h3><a href="/zh/insights/${article.slug}/">${zhReviewTitleHtml(article.titleZh || article.title)}</a></h3>
             <p>${article.summaryZh || article.summary}</p>
           </div>
           <a href="/zh/insights/${article.slug}/">閱讀正文</a>
@@ -5769,7 +6043,7 @@ const zhInsights = pageShell({
 
 function insightArticlePage(article) {
   const image = writeHeraldSocialImage(article, "en");
-  const socialImageVersion = "v=20260524-social-png";
+  const socialImageVersion = article.socialImageVersion || "v=20260524-social-png";
   return pageShell({
     title: `${article.title} | Overseas Study Review`,
     current: "insights",
@@ -5789,7 +6063,7 @@ function insightArticlePage(article) {
 
 function insightArticlePageZh(article) {
   const image = writeHeraldSocialImage(article, "zh");
-  const socialImageVersion = "v=20260524-social-png";
+  const socialImageVersion = article.socialImageVersion || "v=20260524-social-png";
   return pageShell({
     title: `${article.titleZh || article.title} | 留學導報`,
     current: "insights",

@@ -2813,6 +2813,15 @@ h1 {
   margin: 0;
 }
 
+.zh-review-row h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.zh-review-row h3 a:hover {
+  color: #b5272d;
+}
+
 .zh-review-keyword {
   background: transparent;
   color: #b5272d;
