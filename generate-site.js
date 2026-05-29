@@ -1820,6 +1820,256 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "portfolio-evidence-pack-marketing-media-business",
+    title: "Marketing / Media / Business Applications: A Simple Portfolio & Evidence Pack (UK/Australia)",
+    date: "2026-05-29",
+    category: "University Applications",
+    column: "study",
+    kicker: "Portfolio · Evidence-first · Compliance-safe",
+    author: "留學導報編輯部",
+    summary: "For marketing, media and business-related applications, “a portfolio” does not have to be design-heavy or expensive. This guide shows a simple evidence pack you can build in 7–14 days: a one-page story, 3–5 proof items, reflective notes, and a verification checklist so your claims are specific, honest and easy for admissions to understand (no outcome guarantees).",
+    titleZh: "行銷／媒體／商科申請：用一套「作品集＋證據包」把你講清楚（英國／澳洲通用）",
+    summaryZh: "申請行銷、媒體與商科相關科系時，「作品集」不一定要很花錢或很炫；更重要的是可核對的證據與清晰敘事。本文提供一套 7–14 天可完成的作品集＋證據包框架：一頁故事、3–5 個證據項、反思筆記與核對清單，讓內容具體、誠實、容易被招生閱讀（不作任何錄取/結果承諾）。",
+    relatedReadings: [
+      "uk-personal-statement-evidence-first-checklist",
+      "reference-letter-briefing-pack-uk-aus",
+      "uk-entry-requirements-course-page-checklist",
+      "ucas-offers-conditions-firm-insurance-checklist"
+    ],
+    resources: [
+      ["QAA — Advice and Guidance: Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"],
+      ["UCAS — How to write a personal statement (overview)", "https://www.ucas.com/undergraduate/applying-university/writing-your-personal-statement/how-write-personal-statement"],
+      ["IELTS (official)", "https://www.ielts.org/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-29。本文為一般性教育資訊，提供『可被核對的作品集/證據包』方法論；各校/各課程對作品集格式、頁數、檔案大小、是否接受連結、是否可用團隊作品等規則可能每年更新，請以目標課程官方頁面為準。",
+      "本文不構成錄取、簽證、獎學金、就業或任何結果承諾；請避免誇大或代寫。若作品包含第三方素材或團隊成果，務必清楚標註來源與個人貢獻範圍。"
+    ],
+    body: [
+      {
+        heading: "1) What admissions actually needs (and what they don’t)",
+        paragraphs: [
+          "For marketing/media/business programmes, admissions usually wants to see: (a) what you can do, (b) how you think, and (c) whether your claims are credible. They do not need “fancy design” if the evidence is clear.",
+          "A good portfolio is simply a structured evidence pack: each claim is paired with proof, context and a short reflection."
+        ]
+      },
+      {
+        heading: "2) The 4-part evidence pack (works even with zero design tools)",
+        paragraphs: [
+          "Part A — A one-page story: your target direction (e.g., marketing analytics, brand strategy, media production, business management), why it fits, and what you’ve done that proves it.",
+          "Part B — 3–5 proof items: a mini campaign write-up, a short case analysis, a social/content audit, a basic dashboard/report, a video/script/storyboard, a research summary, or a community project.",
+          "Part C — Reflection notes (100–200 words each): what you did, what you learned, what you would change next time.",
+          "Part D — Verification notes: links, screenshots, dates, tools used, and your exact role if it was a team project."
+        ]
+      },
+      {
+        heading: "3) Proof items: pick “low-risk, high-signal” work",
+        paragraphs: [
+          "Avoid high-risk claims like “I guaranteed growth” or “I ran ads at scale” unless you can prove it and you have permission to disclose. Instead, show controllable work: your process, reasoning, and measurable but modest outcomes (or a clearly-labelled simulation).",
+          "If you have limited time, one strong item beats five weak ones. Prioritise clarity, specificity, and clean structure."
+        ]
+      },
+      {
+        heading: "4) Academic integrity and compliance: what to label clearly",
+        paragraphs: [
+          "If you used AI tools, templates, or collaborators, label it. If you used third-party images/music, cite and check usage rights. If it was a team project, define your contribution in one sentence.",
+          "Never submit content you cannot defend in an interview. Treat the portfolio as a “verifiable file”, not a marketing brochure."
+        ]
+      },
+      {
+        heading: "5) A 7–14 day build plan (practical checklist)",
+        paragraphs: [
+          "Day 1–2: pick direction + write the one-page story. Day 3–7: build 2 proof items. Day 8–10: add 1–3 more proof items (or polish the strongest two). Day 11–12: write reflection notes. Day 13–14: run the verification checklist: dates, links, citations, role boundaries, and file naming.",
+          "If a programme asks for a specific format (PDF page limit, file size, platform upload), adapt the same pack—don’t rebuild from scratch."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、招生到底想看什麼？不想看什麼？",
+        paragraphs: [
+          "行銷／媒體／商科課程的招生通常想確認三件事：你能做什麼、你怎麼思考、你說的話是否可信。設計不必炫，但證據要清楚。",
+          "好的作品集本質上是一套「證據包」：每一個主張都要配上證明、背景與簡短反思，讓人能核對。"
+        ]
+      },
+      {
+        heading: "二、一套四件式證據包（沒有設計工具也能做）",
+        paragraphs: [
+          "A 部分｜一頁故事：你的方向（例如行銷分析、品牌策略、媒體製作、商業管理）、為什麼適合你、以及你做過哪些事能證明。",
+          "B 部分｜3–5 個證據項：小型行銷企劃/策略拆解、案例分析、社群/內容審計、基礎報表/儀表板、影片/腳本/分鏡、研究摘要或社區專案等。",
+          "C 部分｜反思筆記（每項 100–200 字）：你做了什麼、學到什麼、下次會怎麼改。",
+          "D 部分｜可核對資訊：連結、截圖、日期、使用工具，以及若為團隊作品，清楚寫出你的角色與負責範圍。"
+        ]
+      },
+      {
+        heading: "三、證據項怎麼選：優先「低風險、高訊號」",
+        paragraphs: [
+          "避免高風險主張（例如「我保證成長」「我大量投放廣告」）除非你能證明且有權公開。更安全的做法是呈現可控的成果：你的流程、推理、與適度可量化的結果（或清楚標示為模擬/練習）。",
+          "時間不夠時，一個強項比五個弱項有用。把力氣放在結構清晰、用詞具體、證據可查。"
+        ]
+      },
+      {
+        heading: "四、學術誠信與合規：哪些地方要標清楚",
+        paragraphs: [
+          "若使用 AI 工具、模板或他人協作，請標註。若使用第三方圖片/音樂素材，請引用來源並確認使用權。若是團隊作品，用一句話定義你的貢獻。",
+          "不要提交你無法在面試中解釋的內容。把作品集當成「可被核對的檔案」，而不是行銷海報。"
+        ]
+      },
+      {
+        heading: "五、7–14 天完成版：可直接照做的節奏表",
+        paragraphs: [
+          "第 1–2 天：確定方向＋寫完一頁故事。第 3–7 天：完成 2 個證據項。第 8–10 天：再補 1–3 個（或專注把最強兩個打磨到位）。第 11–12 天：完成反思筆記。第 13–14 天：跑一次核對清單：日期、連結、引用、角色邊界、檔名與格式。",
+          "若目標課程要求特定格式（PDF 頁數、檔案大小、平台上傳規格），只要把同一套證據包改版輸出即可，不必整套重做。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "tafe-sa-offshore-china-application-guide-2026",
+    title: "TAFE SA Offshore China Route 2026: Application Is Manageable, Visa Risk Is the Real Work",
+    date: "2026-05-29",
+    category: "Australia VET / TAFE",
+    column: "study",
+    kicker: "Australia · TAFE SA · Offshore China",
+    author: "留學導報編輯部",
+    summary: "A practical family-facing explanation of the 2026 TAFE SA offshore China route: the application itself is usually manageable when documents are complete; the real work is visa-risk control, English packaging, age and study-continuity logic, and the nursing exception.",
+    titleZh: "2026 境外中國學生 TAFE SA 路線解讀：申請本身不難，真正要把握的是簽證風險",
+    summaryZh: "TAFE SA 這類申請本身通常沒有太高技術難度，真正要把握的是簽證風險：年齡、學習連續性、英文打包、資金與學習計劃邏輯，以及護理路線不能按普通 TAFE pathway 處理的例外條件。",
+    relatedReadings: [
+      "othm-health-social-care-australia-vet-comparison",
+      "australia-aged-care-disability-allied-health-pr-routes-2026",
+      "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
+      "credit-alliance-global-pathways"
+    ],
+    resources: [
+      ["TAFE SA International", "https://www.tafesa.edu.au/international"],
+      ["AHPRA English language skills registration standard", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/English-language-skills-registration-standard.aspx"],
+      ["Home Affairs Student visa subclass 500", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"],
+      ["Adelaide University", "https://www.adelaideuni.edu.au/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-29。本文依據 OTC 收到的 2026 TAFE SA 境外中國申請資料整理；公開頁面僅呈現教育資訊、文件初篩與風險提示，不披露後台處理細節。",
+      "本文是教育資訊解讀，不構成 TAFE SA、Adelaide University、AHPRA、NMBA、ANMAC 或澳洲移民局的官方錄取、簽證、註冊、學分或就業承諾。正式申請前必須回到官方課程頁、監管機構與簽證頁面核對。"
+    ],
+    sidebarCards: [
+      ["Year 12", "主要基線", "境外高中畢業生或同等學歷；年齡偏高者需特別準備工作經驗證明。", "profile"],
+      ["IELTS 5.0", "最低打包門檻", "一般路線可用最低英文搭配 ELICOS，但不適用護理例外。", "english"],
+      ["CoE package", "一次打包", "TAFE SA + 大學路線可在支付首學期費用後取得打包 CoE。", "coe"],
+      ["Nursing", "高風險例外", "護理需先達 AHPRA 式英文，還有數學測試、體能與手法操作要求。", "nursing"]
+    ],
+    body: [
+      {
+        heading: "1) Application is manageable; risk screening is the real work",
+        paragraphs: [
+          "For an ordinary offshore applicant with complete documents and a sensible course choice, the TAFE SA application itself is not the hard part. The hard part is whether the file makes sense for an Australian student-visa decision.",
+          "The route is written for offshore applicants from China who are secondary school leavers or hold an equivalent qualification. The core academic baseline is Year 12 completion with a graduation certificate and transcript.",
+          "The material also carries an important risk-control signal: for visa-risk purposes, applicants should preferably be no older than 21. Older applicants may need to show work experience that is related to the proposed course. This should be read as a file-preparation warning, not as a simple age ban.",
+          "The table is for offshore applications. Onshore students may have more route options, so an onshore case should not be forced into the same shortlist without checking current TAFE SA options."
+        ]
+      },
+      {
+        heading: "2) English: direct entry, minimum packaging, and the nursing exception",
+        paragraphs: [
+          "For many routes, direct entry is described as PTE 51 overall with each band at least 36, or IELTS 6.0 overall with each band at least 5.0. Students below that level may still be able to package English if they reach the minimum threshold: PTE 36 overall or IELTS 5.0 overall.",
+          "The PDF says TAFE SA can recommend the English-course length, with a maximum of 20 weeks. If the student needs more than 20 weeks, the practical instruction is to study English first and come back after reaching the minimum threshold.",
+          "Nursing is different. Diploma of Nursing must meet the nursing English threshold before application: IELTS 7.0 overall, listening/speaking/reading at least 7.0 and writing at least 6.5, or PTE overall 65 with writing allowed at 58 and the other three skills at least 65. This is why nursing cannot be treated as a normal IELTS 5.0 plus English package."
+        ]
+      },
+      {
+        heading: "3) What packaged CoEs actually mean",
+        paragraphs: [
+          "The TAFE SA plus Adelaide University packaged routes are designed so that the student applies once and, after paying the first-semester TAFE SA tuition, receives the CoEs for the packaged study sequence.",
+          "This is useful for planning because the student can see the whole route on one timeline. But it should not be exaggerated. A packaged CoE is not a visa guarantee, not a professional registration guarantee, not an employment promise, and not a blanket credit decision beyond what the institution actually confirms."
+        ]
+      },
+      {
+        heading: "4) Institutions, official websites and OTC handling buttons",
+        paragraphs: [
+          `Each course family should be checked on the official institution website before OTC screens the file. <div class="article-service-table"><table><thead><tr><th>Institution / route</th><th>Course family</th><th>Official website</th><th>OTC handling</th></tr></thead><tbody><tr><td>TAFE SA International</td><td>Engineering associate degrees</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA International</td><td>Tourism, hospitality and events</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>IT package: Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Early childhood and teaching package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Nursing package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Marketing and business package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Screen, media and visual effects package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Flinders University</td><td>Selected engineering package routes to be confirmed by intake</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">Handle through OTC</a></td></tr></tbody></table></div>`,
+          "The button does not replace official admission checks. It starts an OTC file-screening conversation so the student's age, English, academic history and visa-risk logic can be reviewed before any formal submission."
+        ]
+      },
+      {
+        heading: "5) Main course clusters in the PDF",
+        paragraphs: [
+          `The guide covers several route families: <div class="article-service-table"><table><thead><tr><th>Cluster</th><th>Typical route</th><th>Key warning</th></tr></thead><tbody><tr><td>Engineering</td><td>Associate degrees in civil/structural, biomedical, electrical, electronic or mechanical engineering</td><td>Maths background and diagnostic test matter.</td></tr><tr><td>IT</td><td>Certificate IV + Diploma + Bachelor of IT</td><td>Stream choice affects the university major direction.</td></tr><tr><td>Early childhood</td><td>Certificate III + Diploma + Bachelor of Teaching</td><td>Higher English and placement/check requirements should be verified.</td></tr><tr><td>Nursing</td><td>Diploma of Nursing + Bachelor of Nursing</td><td>English, maths test, physical demands and registration standards make this the highest-risk route.</td></tr><tr><td>Business / creative</td><td>Marketing, screen and media, visual effects</td><td>Check exact academic entry wording and portfolio/creative evidence if relevant.</td></tr></tbody></table></div>`,
+          "The tuition figures in the PDF are planning figures. Families should treat them as a route-screening reference only and request the current official fee schedule before making a payment decision."
+        ]
+      },
+      {
+        heading: "6) Nursing must be separated from ordinary pathway marketing",
+        paragraphs: [
+          "Nursing is the route most likely to be misunderstood. The PDF notes AHPRA-style English, a mathematics test during orientation, physical demands and manual-handling requirements. If the student fails the maths test, they must take an online Maths for Nursing short course while studying first semester; the PDF lists the cost as A$200 and warns that failure may lead to deferment or cancellation of the Diploma.",
+          "This means OTC should screen nursing files more cautiously than ordinary business or IT packages. English test date, score pattern, Year 12 record, maths background and physical-readiness notes should be checked before any positive route language is used."
+        ]
+      },
+      {
+        heading: "7) OTC file checklist before discussion",
+        paragraphs: [
+          "A clean file should include passport bio page, Year 10/11/12 records where relevant, graduation certificate, transcript, English test report and date, maths evidence for engineering or nursing-sensitive routes, work-experience evidence for older applicants, and a one-page route table covering course, duration, intake, fee notes and CoE plan.",
+          "The best next step is not to rush the application. It is to check visa-risk logic first: why this course, why Australia, why now, why this level, how the family funds it, and how the student can explain study continuity.",
+          "OTC's public role is file screening, risk explanation and case coordination. After an enquiry is received, follow-up handling is managed manually by OTC and is not described on the public page."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、申請本身不難，真正難的是簽證風險判斷",
+        paragraphs: [
+          "TAFE SA 這類申請，如果學生文件完整、課程選擇合理，操作本身通常沒有太高技術難度。真正要把握的是：這個案子放到澳洲學生簽證語境下，學習邏輯是否說得通。",
+          "這條路線針對的是「境外申請」的中國學生，核心對象是高中畢業生或同等學歷學生。最基本的學術材料，是 12 年級完成、畢業證和成績單。",
+          "資料裡還有一個很現實的風險提示：為了提高簽證通過率，申請人最好不超過 21 歲。超過 21 歲不是一定不能做，但通常需要提供與課程相關的工作經驗證明，讓學習計劃看起來有連續性。",
+          "這張表是境外申請用的。人在澳洲境內的學生可能有更多選擇，不能把境外表格機械套到所有個案上。"
+        ]
+      },
+      {
+        heading: "二、英文門檻：直入、最低打包，以及護理例外",
+        paragraphs: [
+          "一般路線的直入英文，PDF 寫的是 PTE 總分 51、各項不低於 36，或 IELTS 總分 6.0、各項不低於 5.0。若未達直入，但達到最低英文，仍可能搭配語言課。",
+          "最低打包門檻是 PTE 36 或 IELTS 5.0。TAFE SA 可按學生情況建議語言課長度，但 PDF 寫明最多 20 週。若需要超過 20 週，實務上應先讀英文，達到最低門檻後再進入申請流程。",
+          "護理是最大例外。Diploma of Nursing 不能按一般 IELTS 5.0 加語言課處理，必須申請前達到護理英文：IELTS 總分 7.0，聽說讀各不低於 7.0、寫作不低於 6.5；或 PTE 總分 65，寫作可 58，其他三項不低於 65。"
+        ]
+      },
+      {
+        heading: "三、打包 CoE 的意思：方便規劃，但不是保證",
+        paragraphs: [
+          "TAFE SA + Adelaide University 的打包路線，重點是一次申請、支付 TAFE SA 首學期學費後取得整條路線的 CoE。對家長來說，這讓時間表比較清楚，也方便簽證材料整理。",
+          "但這裡一定要講清楚：打包 CoE 不是簽證保證，不是就業保證，不是職業註冊保證，也不是所有學分與升學結果的無條件承諾。它只是把已設定好的學習路線放進同一個申請框架。"
+        ]
+      },
+      {
+        heading: "四、院校、官方網站與「通過 OTC 辦理」入口",
+        paragraphs: [
+          `每個課程族都應先看院校官方網站，再由 OTC 做文件與簽證風險初篩：<div class="article-service-table"><table><thead><tr><th>院校 / 路線</th><th>課程方向</th><th>官方網站</th><th>辦理入口</th></tr></thead><tbody><tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">通過 OTC 辦理</a></td></tr></tbody></table></div>`,
+          "這個按鈕不是取代官方審核，而是啟動 OTC 初步評估：先看年齡、英文、學歷、課程邏輯與簽證風險，再決定是否進入正式遞交流程。"
+        ]
+      },
+      {
+        heading: "五、PDF 覆蓋的主要課程板塊",
+        paragraphs: [
+          `這份指南不是只有一條路，而是幾組可篩查的課程群：<div class="article-service-table"><table><thead><tr><th>板塊</th><th>典型路線</th><th>特別注意</th></tr></thead><tbody><tr><td>工程</td><td>土木結構、生物醫學、電氣、電子、機械工程 Associate Degree</td><td>數學背景與入學後 diagnostic test 很重要。</td></tr><tr><td>IT</td><td>Certificate IV + Diploma + Bachelor of IT</td><td>不同 stream 會影響後續大學專業方向。</td></tr><tr><td>幼教</td><td>Certificate III + Diploma + Bachelor of Teaching</td><td>英文要求較高，placement 與背景審查需另行核對。</td></tr><tr><td>護理</td><td>Diploma of Nursing + Bachelor of Nursing</td><td>英文、數學測試、體能與註冊標準，使其成為最高風險路線。</td></tr><tr><td>商科 / 創意</td><td>Marketing、Screen and Media、Visual Effects</td><td>需核對學歷要求文字及是否要作品集/創作證據。</td></tr></tbody></table></div>`,
+          "PDF 內的學費數字適合做初篩，不應直接當作最終報價。正式報名前，必須向 TAFE SA 或大學索取最新 fee schedule、開課與 CRICOS 信息。"
+        ]
+      },
+      {
+        heading: "六、護理路線要單獨拿出來審",
+        paragraphs: [
+          "護理是最容易被家長誤會的路線。PDF 中除了高英文門檻，還提到 physical demands、manual handling，以及入學 orientation 時的數學測試。若數學測試未通過，學生需在第一學期同時修讀 TAFE SA Maths for Nursing 線上短課，PDF 標示費用為 A$200；若仍未完成，Diploma 可能延後或取消。",
+          "所以 OTC 在處理護理個案時，不能只看「能不能打包」。必須先看英文成績有效期、分項、12 年級記錄、數學背景、體能與手法操作要求，並把 AHPRA / NMBA / ANMAC 的官方口徑放在旁邊核對。"
+        ]
+      },
+      {
+        heading: "七、OTC 文件包應該怎麼整理",
+        paragraphs: [
+          "建議先做一頁 evidence pack：護照、10/11/12 年級材料、畢業證、成績單、英文成績與考試日期、工程或護理相關數學證據、21 歲以上申請人的工作經驗證明、目標課程、學制、開課、學費與 CoE 付款節點。",
+          "下一步不是立刻送件，而是先看簽證風險：為什麼讀這個課程、為什麼去澳洲、為什麼是現在、為什麼是這個級別、家庭資金如何說明、學生過去學習與未來計劃是否連得起來。",
+          "OTC 公開頁面只說文件初篩、風險提示與個案協調。收到申請後，後續處理由 OTC 按個案手動跟進，不在公開頁面呈現後台流程。",
+          "一句話總結：TAFE SA 路線很適合做澳洲職業教育與大學銜接規劃，但要把一般 pathway、護理註冊、簽證材料和大學打包分開讀。分清楚，才不會在後面白白失分。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "anonymous-europe-business-planning",
     title: "Europe Business Master’s Planning (Typical Case): IELTS 5.5 → 6.0–6.5, MSc vs MBA, and a Practical Shortlist Matrix",
     date: "2026-05-28",
@@ -17622,7 +17872,12 @@ function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, hero
   const resourceList = (resources || [])
     .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
     .join("");
+  const resourceSideLinks = (resources || [])
+    .map((resource) => `<a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a>`)
+    .join("");
   const relatedCards = (related || []).map((card) => zhVetBoardCard(card[0], card[1], card[2], card[3] || "相關板塊")).join("");
+  const stripItems = (sections || []).slice(0, 4);
+  const panelItems = (related || []).slice(0, 4);
 
   return pageShell({
     title,
@@ -17632,85 +17887,100 @@ function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, hero
     description,
     path,
     body: `
-      <section class="page-hero ai-operations-hero vet-tafe-hero">
+      <section class="page-hero services-hero vet-tafe-hero">
         <div class="band">
-          <div class="eyebrow">${heroEyebrow || "OTC Australia · 職業培訓路線"}</div>
-          <h1>${heroTitle}</h1>
-          <p>${heroIntro}</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="/zh/australia-vet-tafe-pathways/">返回職業培訓總覽</a>
-            <a class="btn btn-secondary" href="/australia-office-presence/">Australia route</a>
+          <div class="service-hero-layout">
+            <div>
+              <div class="eyebrow">${heroEyebrow || "OTC Australia · 職業培訓路線"}</div>
+              <h1>${heroTitle}</h1>
+              <h2>文件初篩 · 官方核對 · 風險邊界</h2>
+              <p class="hero-sub">${heroIntro}</p>
+            </div>
+            <aside class="service-hero-panel">
+              <a href="/zh/australia-vet-tafe-pathways/"><strong>職培總覽</strong><span>返回澳洲 VET / TAFE</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/"><strong>TAFE SA</strong><span>境外中國申請站點</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/provider-checklist/"><strong>篩查清單</strong><span>RTO / TAFE 文件核對</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/evidence-pack/"><strong>Evidence</strong><span>學生文件包模板</span></a>
+            </aside>
           </div>
         </div>
       </section>
 
-      <section class="band ai-operations-position vet-tafe-position">
-        <div class="ai-operations-lead">
-          <div class="eyebrow">使用方式</div>
-          <h2>先把問題拆成：課程代碼 / 英文與學歷 / 實習與評核 / 合規邊界。</h2>
-          <p>本頁為教育規劃與資料整理工具，用於幫學生做課程篩查與文件準備。涉及移民評估、就業保證、執業註冊或法律建議，請以官方與合格專業人士為準。</p>
-        </div>
-        <aside class="ai-operations-note">
-          <span>合規提示</span>
-          <p>OTC 不做「保證就業/保證移民」式表述；本頁重點是可核對的文件、課程代碼與官方入口。</p>
-        </aside>
+      <section class="band service-review-strip">
+        ${stripItems.map((item, index) => `
+          <a href="#vet-section-${index + 1}"><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[1]}</strong><span>${item[2]}</span></a>
+        `).join("")}
       </section>
 
-      <section class="band compact-band">
-        <div class="section-head compact-head">
-          <div class="eyebrow">板塊內容</div>
-          <h2>${heroTitle}：多板塊整理</h2>
-          <p>每個板塊都對應「要準備什麼文件、問什麼問題、在哪裡核對、哪些內容需要轉介」。</p>
+      <section class="band compact-band service-review-body">
+        <div class="section-head compact-head service-review-head">
+          <span>職培服務台</span>
+          <strong>先分流，再核對</strong>
+          <p>子頁採用服務導覽台格局：左側是主線板塊，右側是官方入口、下一步和相關子頁。</p>
         </div>
-        <div class="vet-tafe-screening-grid">
-          ${(sections || []).map((block) => `
-            <article>
-              <span>${block[0]}</span>
-              <strong>${block[1]}</strong>
-              <p>${block[2]}</p>
-              <div style="height:10px"></div>
-              ${(block[3] || []).slice(0, 4).map((item) => `<p style="margin:8px 0 0; font-size:13px; color:#4d5968;">• ${item}</p>`).join("")}
-            </article>
-          `).join("")}
+        <div class="service-herald-grid">
+          <main class="service-herald-main">
+            <section>
+              <h2 class="zh-herald-section-head" data-num="01">板塊內容</h2>
+              <p>每個板塊都對應「要準備什麼文件、問什麼問題、在哪裡核對、哪些內容需要轉介」。</p>
+              <div class="service-situation-grid">
+                ${(sections || []).map((block, index) => `
+                  <a id="vet-section-${index + 1}" href="#vet-section-${index + 1}">
+                    <b>${block[0]}</b>
+                    <strong>${block[1]}</strong>
+                    <span>${block[2]}</span>
+                    <small>${(block[3] || []).slice(0, 3).join(" · ")}</small>
+                  </a>
+                `).join("")}
+              </div>
+            </section>
+            ${extraContent}
+            <section>
+              <h2 class="zh-herald-section-head" data-num="02">配套工具</h2>
+              <div class="service-route-list">
+                <a href="/publishing/"><span>Publishing</span><strong>出版物與更新</strong><em>公開材料、指南、報告與可引用內容。</em></a>
+                <a href="/study-guides/"><span>Guides</span><strong>Study Guides</strong><em>學習指南與模組化文件準備材料。</em></a>
+                <a href="/apps/"><span>Apps</span><strong>Apps & Tools</strong><em>詞彙、測試、文件缺口與互動工具。</em></a>
+                <a href="/consultation-chat/?source=vet-tafe-board&context=${encodeURIComponent(toolContext || heroTitle)}"><span>AI</span><strong>初步分流</strong><em>整理問題清單與文件缺口，不構成移民/法律建議。</em></a>
+              </div>
+            </section>
+            ${(related || []).length ? `
+            <section>
+              <h2 class="zh-herald-section-head" data-num="03">相關板塊</h2>
+              <div class="service-situation-grid">${relatedCards}</div>
+            </section>
+            ` : ""}
+          </main>
+          <aside class="service-guide-side service-herald-side">
+            <div class="service-guide-card is-urgent">
+              <span>合規邊界</span>
+              <strong>不做保證式表述</strong>
+              <p>OTC 做教育協調、文件整理與官方入口核對；移民、法律、執業註冊與就業結果由相應機構或合資格人士處理。</p>
+              <a href="/application-service-standards/">查看服務標準</a>
+            </div>
+            <div class="service-guide-card">
+              <span>官方入口</span>
+              <strong>先核對再推薦</strong>
+              <p>course code、CRICOS、RTO scope、placement、費用與入學要求必須逐項查官方來源。</p>
+              <a href="https://training.gov.au/" target="_blank" rel="noopener">training.gov.au</a>
+            </div>
+            <div class="service-guide-note">
+              <b>下一步</b>
+              <p>建立 evidence pack：學歷、英文、課程代碼、CV、工作/實習證明、資金與學習計劃問題。</p>
+            </div>
+            <div class="service-side-links">
+              <span>官方連結</span>
+              ${resourceSideLinks}
+            </div>
+            ${(panelItems.length ? `
+            <div class="service-mini-index">
+              <span>相關子頁</span>
+              ${panelItems.map((card) => `<a href="${card[2]}">${card[0]}</a>`).join("")}
+            </div>
+            ` : "")}
+          </aside>
         </div>
       </section>
-
-      ${extraContent}
-
-      <section class="band compact-band">
-        <div class="section-head compact-head">
-          <div class="eyebrow">官方入口</div>
-          <h2>優先使用官方查詢頁面核對。</h2>
-          <p>把 course code、CRICOS、RTO scope、實習/placement、費用與入學要求逐項核對，避免只看宣傳頁或社交媒體摘要。</p>
-        </div>
-        <div class="zh-academic-reading-board">
-          <article class="zh-academic-reading-panel">
-            <strong>官方連結</strong>
-            <ul class="zh-academic-reading-list">${resourceList}</ul>
-          </article>
-          <article class="zh-academic-reading-panel">
-            <strong>下一步</strong>
-            <ul class="zh-academic-reading-list">
-              <li><strong>建立 evidence pack</strong><span>學歷/成績單/翻譯、英文成績、課程代碼、簡歷與實習證據。</span></li>
-              <li><strong>做 10 個問題清單</strong><span>入學要求、實習安排、評核方式、出勤、成本與時間線。</span></li>
-              <li><strong>識別需轉介事項</strong><span>移民/法律/執業註冊/雇傭合約等交由合格人士。</span></li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      ${zhVetBoardToolShelf({ context: toolContext || heroTitle })}
-
-      ${(related || []).length ? `
-      <section class="band compact-band">
-        <div class="section-head compact-head">
-          <div class="eyebrow">Related</div>
-          <h2>更多職業培訓板塊</h2>
-          <p>用板塊方式把職業培訓路線拆開：更容易更新，也更容易讓學生把材料準備齊。</p>
-        </div>
-        <div class="hub-map">${relatedCards}</div>
-      </section>
-      ` : ""}
     `
   });
 }
@@ -17723,83 +17993,177 @@ const zhAustraliaVetTafeHub = pageShell({
   description: "OTC 澳洲職業培訓路線總覽：VET/TAFE 板塊化整理，包含中國五城宣傳材料、課程篩查、文件準備、官方查詢入口與合規邊界。",
   path: "/zh/australia-vet-tafe-pathways/",
   body: `
-    <section class="page-hero ai-operations-hero vet-tafe-hero">
+    <section class="page-hero services-hero vet-tafe-hero">
       <div class="band">
-        <div class="eyebrow">OTC Australia · 職業培訓路線</div>
-        <h1>澳洲 VET / TAFE 職業培訓：板塊總覽</h1>
-        <p>把職業培訓路線做成可更新的多板塊：課程代碼、RTO/TAFE 核對、實習安排、評核方式、升學銜接與轉介邊界；同時支持北京、上海、廣州、深圳、西安五城宣傳與家庭說明。這些頁面是教育規劃工具，不構成移民或就業建議。</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="/australia-office-presence/">Australia route</a>
-          <a class="btn btn-secondary" href="/australia-vet-tafe-pathways/">English map</a>
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">OTC Australia · 職業培訓服務台</div>
+            <h1>澳洲 VET / TAFE 職業培訓</h1>
+            <h2>課程篩查 · 文件包 · 官方核對 · 風險邊界</h2>
+            <p class="hero-sub">把職業培訓路線做成可更新的服務台：課程代碼、RTO/TAFE 核對、實習安排、評核方式、升學銜接與轉介邊界。入口乾淨，詳細內容放進子頁。</p>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/"><strong>TAFE SA</strong><span>境外中國申請站點</span></a>
+            <a href="/zh/australia-vet-tafe-pathways/health-community/"><strong>健康護理</strong><span>CHC / HLT / placement</span></a>
+            <a href="/zh/australia-vet-tafe-pathways/tafe-to-university/"><strong>銜接大學</strong><span>credit / progression</span></a>
+            <a href="/zh/australia-vet-tafe-pathways/evidence-pack/"><strong>Evidence</strong><span>學生文件包模板</span></a>
+          </aside>
         </div>
       </div>
     </section>
 
-    ${australiaChinaPromotionPanel("zh")}
-
-    <section class="band ai-operations-position vet-tafe-position">
-      <div class="ai-operations-lead">
-        <div class="eyebrow">核心原則</div>
-        <h2>先用官方入口核對，再談個案策略。</h2>
-        <p>職業培訓的第一步不是選「熱門課」，而是核對：課程代碼、AQF 等級、RTO scope、CRICOS（如涉及國際學生）、實習/placement、評核方式與費用。把資料做乾淨，後續才可能快速做出可靠判斷。</p>
-      </div>
-      <aside class="ai-operations-note">
-        <span>Scope boundary</span>
-        <p>涉及移民評估、簽證選擇、職業註冊、法律/稅務、雇傭合約等，OTC 以轉介方式處理。</p>
-      </aside>
+    <section class="band service-review-strip">
+      <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/"><b>SA</b><strong>TAFE SA</strong><span>境外中國申請與簽證風險初篩</span></a>
+      <a href="/zh/australia-vet-tafe-pathways/provider-checklist/"><b>CHK</b><strong>篩查清單</strong><span>course code、CRICOS、RTO、費用</span></a>
+      <a href="/zh/australia-vet-tafe-pathways/tafe-to-university/"><b>UNI</b><strong>銜接大學</strong><span>credit / advanced standing 邊界</span></a>
+      <a href="/zh/australia-vet-tafe-pathways/evidence-pack/"><b>DOC</b><strong>文件包</strong><span>一頁 evidence pack 與問題清單</span></a>
     </section>
 
-    <section class="band compact-band">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Boards</div>
-        <h2>多板塊佈局（子頁面）</h2>
-        <p>每個板塊是一個可獨立更新的子頁面，便於新增院校、政策入口、常見問題清單與文件模板。</p>
+    <section class="band compact-band service-review-body">
+      <div class="section-head compact-head service-review-head">
+        <span>職培索引</span>
+        <strong>按情境進子頁</strong>
+        <p>總覽只做分流；課程表、官方入口、文件清單和風險提示放在子頁。</p>
       </div>
-      <div class="vet-tafe-screening-grid">
-        ${[
-          ["Health & Community", "健康護理 / 社區服務", "含護理註冊邊界、實習安排與課程核對要點。", "/zh/australia-vet-tafe-pathways/health-community/"],
-          ["Trades & Construction", "技工 / 建築 / 安全培訓", "含 licence 語境提醒、RTO scope 核對與風險提示。", "/zh/australia-vet-tafe-pathways/trades-construction/"],
-          ["Business / IT / Creative", "商科 / IT / 創意媒體", "含評核型式、作品集/專題、文書敘事證據。", "/zh/australia-vet-tafe-pathways/business-it-creative/"],
-          ["Provider checklist", "RTO/TAFE 課程篩查清單", "CRICOS、課程代碼、實習、成本、退費、出勤與 evidence。", "/zh/australia-vet-tafe-pathways/provider-checklist/"],
-          ["TAFE → University", "TAFE-to-university 銜接", "credit/advanced standing 的材料、流程與不能保證的邊界。", "/zh/australia-vet-tafe-pathways/tafe-to-university/"],
-          ["Evidence pack", "學生 evidence pack", "把材料整理成一頁版，方便提問與快速比對。", "/zh/australia-vet-tafe-pathways/evidence-pack/"]
-        ].map(([tag, title, desc, href]) => `
-          <article>
-            <span>${tag}</span>
-            <strong>${title}</strong>
-            <p>${desc}</p>
-            <a href="${href}">打開子頁面</a>
-          </article>
-        `).join("")}
-      </div>
-    </section>
-
-    <section class="band compact-band">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Official</div>
-        <h2>常用官方查詢入口（總覽）</h2>
-        <p>先用官方頁面核對 course code、RTO、CRICOS 與條款，再做課程比較與路線規劃。</p>
-      </div>
-      <div class="zh-academic-reading-board">
-        <article class="zh-academic-reading-panel">
-          <strong>查課程 / 查機構</strong>
-          <ul class="zh-academic-reading-list">
-            <li><strong><a href="https://training.gov.au/" target="_blank" rel="noopener">training.gov.au</a></strong><span>澳洲官方訓練資訊：課程代碼、training package、RTO 清單。</span></li>
-            <li><strong><a href="https://cricos.education.gov.au/" target="_blank" rel="noopener">CRICOS</a></strong><span>國際學生課程登錄查詢（如適用）。</span></li>
-            <li><strong><a href="https://www.asqa.gov.au/" target="_blank" rel="noopener">ASQA</a></strong><span>職業教育監管與合規信息入口。</span></li>
-          </ul>
-        </article>
-        <article class="zh-academic-reading-panel">
-          <strong>下一步（OTC 使用）</strong>
-          <ul class="zh-academic-reading-list">
-            <li><strong>問 10 個問題</strong><span>入學要求、實習/placement、評核方式、出勤、費用與時間線。</span></li>
-            <li><strong>做一頁 evidence pack</strong><span>學歷/成績單/翻譯、英文、工作/實習、目標方向。</span></li>
-            <li><strong>標記需轉介事項</strong><span>移民、執業註冊、法律/合約、稅務與監管事項。</span></li>
-          </ul>
-        </article>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section>
+            <h2 class="zh-herald-section-head" data-num="01">多板塊佈局（子頁面）</h2>
+            <p>每個板塊是一個可獨立更新的服務台子頁，便於新增院校、政策入口、常見問題清單與文件模板。</p>
+            <div class="service-situation-grid">
+              <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/"><b>TAFE SA</b><strong>TAFE SA 境外中國申請</strong><span>院校官網、可辦課程、簽證風險初篩與 OTC 辦理入口。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/health-community/"><b>Health</b><strong>健康護理 / 社區服務</strong><span>護理註冊邊界、placement、CHC/HLT 課程核對。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/trades-construction/"><b>Trades</b><strong>技工 / 建築 / 安全培訓</strong><span>licence 語境、RTO scope、實操評核與安全培訓。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/business-it-creative/"><b>BIT</b><strong>商科 / IT / 創意媒體</strong><span>評核型式、作品集/專題、文書敘事證據。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/provider-checklist/"><b>Check</b><strong>RTO/TAFE 課程篩查清單</strong><span>CRICOS、課程代碼、實習、成本、退費與 evidence。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/tafe-to-university/"><b>Credit</b><strong>TAFE-to-university 銜接</strong><span>credit / advanced standing 的材料、流程與邊界。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/evidence-pack/"><b>Doc</b><strong>學生 evidence pack</strong><span>把材料整理成一頁版，方便提問與快速比對。</span></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="02">先用官方入口核對</h2>
+            <div class="service-route-list">
+              <a href="https://training.gov.au/" target="_blank" rel="noopener"><span>Course</span><strong>training.gov.au</strong><em>課程代碼、training package、RTO scope。</em></a>
+              <a href="https://cricos.education.gov.au/" target="_blank" rel="noopener"><span>Student visa</span><strong>CRICOS</strong><em>國際學生課程登錄查詢。</em></a>
+              <a href="https://www.asqa.gov.au/" target="_blank" rel="noopener"><span>Regulator</span><strong>ASQA</strong><em>職業教育監管與合規入口。</em></a>
+              <a href="/zh/insights/tafe-sa-offshore-china-application-guide-2026/"><span>Herald</span><strong>TAFE SA 導報解讀</strong><em>高中畢業、英文打包、CoE package、護理例外。</em></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">OTC 使用方式</h2>
+            <div class="service-situation-grid">
+              <a href="/zh/australia-vet-tafe-pathways/evidence-pack/"><b>01</b><strong>做一頁 evidence pack</strong><span>學歷/成績單/翻譯、英文、工作/實習、目標方向。</span></a>
+              <a href="/zh/australia-vet-tafe-pathways/provider-checklist/"><b>02</b><strong>問 10 個問題</strong><span>入學要求、placement、評核、出勤、費用、時間線。</span></a>
+              <a href="/application-service-standards/"><b>03</b><strong>標記需轉介事項</strong><span>移民、註冊、法律/合約、稅務與監管事項。</span></a>
+              <a href="/consultation-chat/?source=vet-tafe-hub"><b>AI</b><strong>初步分流</strong><span>先把需求說清楚，再進入對應子頁。</span></a>
+            </div>
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side">
+          <div class="service-guide-card is-urgent">
+            <span>首推入口</span>
+            <strong>TAFE SA 境外中國申請</strong>
+            <p>申請本身不難，重點是簽證風險、英文、年齡、課程邏輯與護理例外。</p>
+            <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/">打開站點</a>
+          </div>
+          <div class="service-guide-card">
+            <span>核心原則</span>
+            <strong>先核對，再推薦</strong>
+            <p>course code、AQF、RTO scope、CRICOS、placement、評核方式與費用，都要有官方來源。</p>
+            <a href="/zh/australia-vet-tafe-pathways/provider-checklist/">查看清單</a>
+          </div>
+          <div class="service-guide-note">
+            <b>邊界</b>
+            <p>本頁是教育規劃工具，不構成移民、就業、職業註冊、法律或稅務建議。</p>
+          </div>
+          <div class="service-side-links">
+            <span>快速入口</span>
+            <a href="/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/">TAFE SA</a>
+            <a href="/zh/australia-vet-tafe-pathways/health-community/">健康護理</a>
+            <a href="/zh/australia-vet-tafe-pathways/tafe-to-university/">銜接大學</a>
+            <a href="/zh/australia-vet-tafe-pathways/evidence-pack/">文件包</a>
+          </div>
+          <div class="service-mini-index">
+            <span>官方網站</span>
+            <a href="https://training.gov.au/" target="_blank" rel="noopener">training.gov.au</a>
+            <a href="https://cricos.education.gov.au/" target="_blank" rel="noopener">CRICOS</a>
+            <a href="https://www.asqa.gov.au/" target="_blank" rel="noopener">ASQA</a>
+            <a href="/australia-vet-tafe-pathways/">English map</a>
+          </div>
+        </aside>
       </div>
     </section>
   `
+});
+
+const tafeSaOffshoreChinaExtra = `
+  <section class="band compact-band">
+    <div class="section-head compact-head">
+      <div class="eyebrow">Official Institutions</div>
+      <h2>院校、官方網站與通過 OTC 辦理入口</h2>
+      <p>公開頁面只展示院校官方網站和 OTC 文件初篩入口；後台遞交與個案協調由 OTC 收到申請後手動處理。</p>
+    </div>
+    <div class="article-service-table">
+      <table>
+        <thead><tr><th>院校 / 路線</th><th>課程方向</th><th>官方網站</th><th>辦理入口</th></tr></thead>
+        <tbody>
+          <tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="band compact-band">
+    <div class="section-head compact-head">
+      <div class="eyebrow">Visa Risk</div>
+      <h2>先篩簽證風險，再決定是否遞交</h2>
+      <p>TAFE SA 申請文件通常不難，真正需要 OTC 把關的是學生簽證敘事是否成立。</p>
+    </div>
+    <div class="vet-tafe-screening-grid">
+      <article><span>01</span><strong>年齡與學習連續性</strong><p>21 歲以上或有學習/工作空窗者，要準備更清楚的工作經驗、學習理由與回溯材料。</p></article>
+      <article><span>02</span><strong>英文與 ELICOS 打包</strong><p>一般路線可看 IELTS / PTE 與語言課打包；但若需要超過合理長度，應先補英文。</p></article>
+      <article><span>03</span><strong>課程級別與方向</strong><p>為什麼讀 TAFE、為什麼選該專業、是否和過往學習/工作背景連得起來。</p></article>
+      <article><span>04</span><strong>護理例外</strong><p>護理需先看 AHPRA 式英文、數學測試、體能與註冊邊界，不按普通 TAFE pathway 處理。</p></article>
+    </div>
+  </section>
+`;
+
+const zhAustraliaVetTafeSaOffshoreChina = zhVetBoardPage({
+  title: "TAFE SA 境外中國申請路線 | OTC 澳洲 VET / TAFE",
+  description: "OTC TAFE SA 境外中國申請路線站點：院校官網、TAFE SA + Adelaide University / Flinders University 打包課程、簽證風險初篩、文件清單與通過 OTC 辦理入口。",
+  path: "/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/",
+  heroEyebrow: "OTC Australia · TAFE SA route",
+  heroTitle: "TAFE SA 境外中國申請：OTC 路線站點",
+  heroIntro: "這一頁是 OTC 面向中國家庭的 TAFE SA 申請站點：先公開列出院校官方網站、可辦理課程方向與 OTC 初篩入口，再由 OTC 在收到申請後按個案手動跟進。申請本身不難，重點是簽證風險、英文、年齡、課程邏輯與護理例外。",
+  toolContext: "tafe-sa-offshore-china",
+  sections: [
+    ["Route 01", "境外中國學生初篩", "以高中畢業或同等學歷為主，先看年齡、學歷、英文與學習連續性。", ["Year 12 / 同等學歷", "21 歲以上需特別審", "空窗與工作經驗證據"]],
+    ["Route 02", "TAFE SA 直讀與語言打包", "一般路線可按 IELTS / PTE 與 ELICOS 打包設計，但需核對官方當期要求。", ["IELTS / PTE", "ELICOS 週數", "CoE package"]],
+    ["Route 03", "TAFE + 大學打包", "TAFE SA 與 Adelaide University / Flinders University 相關銜接需按入學季確認。", ["IT / 幼教 / 護理 / 商科", "工程銜接", "大學學費另核"]],
+    ["Route 04", "護理高風險例外", "護理不能按普通 TAFE 申請處理，需先看英文、數學測試與職業註冊邊界。", ["IELTS 7 / PTE 65 口徑", "Maths for Nursing", "AHPRA / NMBA / ANMAC"]],
+    ["Route 05", "OTC 文件包", "把材料整理成一頁 evidence pack，再決定是否進入正式遞交。", ["護照/成績單/畢業證", "英文成績", "工作或實習證明", "資金與學習計劃問題"]]
+  ],
+  resources: [
+    ["TAFE SA International", "https://www.tafesa.edu.au/international"],
+    ["Adelaide University Study", "https://www.adelaideuni.edu.au/study/"],
+    ["Flinders University International", "https://www.flinders.edu.au/international"],
+    ["Home Affairs Student visa subclass 500", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"],
+    ["AHPRA English language skills registration standard", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/English-language-skills-registration-standard.aspx"]
+  ],
+  related: [
+    ["導報解讀", "閱讀面向家長的 TAFE SA 境外中國申請指南解讀。", "/zh/insights/tafe-sa-offshore-china-application-guide-2026/", "導報"],
+    ["RTO/TAFE 篩查清單", "先核對 course code、CRICOS、實習、出勤與費用條款。", "/zh/australia-vet-tafe-pathways/provider-checklist/", "Checklist"],
+    ["TAFE-to-university", "銜接與 credit conversation：哪些可比較、哪些不能假設。", "/zh/australia-vet-tafe-pathways/tafe-to-university/", "Progression"],
+    ["Evidence pack", "把材料整理成一頁版，便於提問與快速比對。", "/zh/australia-vet-tafe-pathways/evidence-pack/", "Template"]
+  ],
+  extraContent: tafeSaOffshoreChinaExtra
 });
 
 const zhAustraliaVetHealthCommunity = zhVetBoardPage({
@@ -19215,6 +19579,7 @@ write("australia-schools/rockhampton-grammar-school", rockhamptonGrammarReview);
 write("australia-schools/moreton-bay-colleges", moretonBayCollegesReview);
 write("australia-vet-tafe-pathways", australiaVetTafePathways);
 write("zh/australia-vet-tafe-pathways", zhAustraliaVetTafeHub);
+write("zh/australia-vet-tafe-pathways/tafe-sa-offshore-china", zhAustraliaVetTafeSaOffshoreChina);
 write("zh/australia-vet-tafe-pathways/health-community", zhAustraliaVetHealthCommunity);
 write("zh/australia-vet-tafe-pathways/trades-construction", zhAustraliaVetTradesConstruction);
 write("zh/australia-vet-tafe-pathways/business-it-creative", zhAustraliaVetBusinessItCreative);
@@ -19369,6 +19734,14 @@ node generate-site.js
 發布或改稿前先做版面平衡檢查：如果正文只有 4-5 個短段落，而右側側欄同時出現速讀、類型卡、欄目定位、閱讀清單、英文對照和官方資源，頁面會變成左輕右重。這類實用清單文章應先補正文密度，例如加入可掃描表格、流程清單、提交前核對、常見錯誤修正或小案例；同時把側欄切到 \`sidebarMode: "compact-practical"\`，保留速讀、3-4 張重點卡和官方資源即可。
 
 導報文章不要把自己放進 \`relatedReadings\`。樣本發布後用本地頁面檢查桌面版與手機版：主欄應有足夠閱讀重量，右側只作輔助速查，不能讓讀者感覺正文很薄、側欄反而像主內容。
+
+## 新建網頁 Prompt：服務導覽台格局
+
+新建 OTC 公開路線頁、服務頁、暑校頁、VET/TAFE 頁或 provider pathway 頁時，優先使用「服務導覽台 / Service Review Desk」格局：壓縮報頭、右側 4 個高價值入口、四項頂部 action strip、左側主流程、右側側欄導引。優先復用 \`service-herald-grid\`、\`service-herald-main\`、\`service-guide-side\`、\`service-situation-grid\`、\`service-route-list\`、\`service-guide-card\`、\`service-side-links\` 和 \`service-mini-index\`。
+
+\`/zh/australia-vet-tafe-pathways/\` 及其所有子頁固定採用服務導覽台格局：總覽只做乾淨分流，詳細課程表、官方入口、文件清單和風險提示放在子頁。不要用散亂等寬卡片作為主要架構。若列出院校或 provider，必須顯示院校官方網站與「通過 OTC 辦理」或相應 OTC action button。
+
+公開頁只說 OTC 進行文件初篩、官方來源核對、教育協調與個案跟進；不得披露上級代理鏈、私有平台、商業條款、內部轉介或後台交接記錄。移民、法律、稅務、就業合約、醫療註冊與專業執照等受監管事項，一律寫成官方核對或合資格人士轉介。
 `);
 
 console.log("Generated OTC Study Hub static prototype.");
