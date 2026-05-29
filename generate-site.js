@@ -17868,7 +17868,7 @@ function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro
   `;
 }
 
-function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext, extraContent = "" }) {
+function zhVetBoardPage({ title, description, path, image = "/assets/otc-australia-vet-tafe-social-card.png", imageWidth = 1200, imageHeight = 675, imageAlt = "", heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext, extraContent = "" }) {
   const resourceList = (resources || [])
     .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
     .join("");
@@ -17886,6 +17886,10 @@ function zhVetBoardPage({ title, description, path, heroEyebrow, heroTitle, hero
     locale: "zh",
     description,
     path,
+    image,
+    imageWidth,
+    imageHeight,
+    imageAlt: imageAlt || `${heroTitle || title} | OTC 澳洲 VET / TAFE`,
     body: `
       <section class="page-hero services-hero vet-tafe-hero">
         <div class="band">
@@ -17992,6 +17996,10 @@ const zhAustraliaVetTafeHub = pageShell({
   locale: "zh",
   description: "OTC 澳洲職業培訓路線總覽：VET/TAFE 板塊化整理，包含中國五城宣傳材料、課程篩查、文件準備、官方查詢入口與合規邊界。",
   path: "/zh/australia-vet-tafe-pathways/",
+  image: "/assets/otc-australia-vet-tafe-social-card.png",
+  imageWidth: 1200,
+  imageHeight: 675,
+  imageAlt: "OTC 澳洲 VET / TAFE 職業培訓路線分享報頭",
   body: `
     <section class="page-hero services-hero vet-tafe-hero">
       <div class="band">
@@ -18139,6 +18147,10 @@ const zhAustraliaVetTafeSaOffshoreChina = zhVetBoardPage({
   title: "TAFE SA 境外中國申請路線 | OTC 澳洲 VET / TAFE",
   description: "OTC TAFE SA 境外中國申請路線站點：院校官網、TAFE SA + Adelaide University / Flinders University 打包課程、簽證風險初篩、文件清單與通過 OTC 辦理入口。",
   path: "/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/",
+  image: "/assets/social/herald-zh-tafe-sa-offshore-china-application-guide-2026.png",
+  imageWidth: 1200,
+  imageHeight: 630,
+  imageAlt: "2026 境外中國學生 TAFE SA 路線解讀分享報頭",
   heroEyebrow: "OTC Australia · TAFE SA route",
   heroTitle: "TAFE SA 境外中國申請：OTC 路線站點",
   heroIntro: "這一頁是 OTC 面向中國家庭的 TAFE SA 申請站點：先公開列出院校官方網站、可辦理課程方向與 OTC 初篩入口，再由 OTC 在收到申請後按個案手動跟進。申請本身不難，重點是簽證風險、英文、年齡、課程邏輯與護理例外。",
