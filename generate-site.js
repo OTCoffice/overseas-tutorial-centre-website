@@ -1436,6 +1436,7 @@ const countryGatewayData = [
   { slug: "new-zealand", zh: "新西蘭", name: "New Zealand", href: "/countries/new-zealand/", labelClass: "label-country-new-zealand", note: "適合大學、理工學院、中小學及家庭型低齡留學路線。", universities: ["University of Auckland", "University of Otago", "Victoria University of Wellington", "University of Canterbury", "Massey University", "Auckland University of Technology"], colleges: ["Te Pukenga / institutes of technology", "Unitec", "Ara Institute of Canterbury", "English language colleges"], highSchools: ["Auckland secondary schools", "Wellington secondary schools", "Christchurch high schools", "Boarding schools"], primarySchools: ["Auckland primary schools", "Wellington primary schools", "Local state primary schools", "Independent primary schools"] },
   { slug: "ireland", zh: "愛爾蘭", name: "Ireland", href: "/countries/ireland/", labelClass: "label-country-ireland", note: "適合英語授課本科、碩士、醫藥、商科、科技與歐洲工作路線比較。", universities: ["Trinity College Dublin", "University College Dublin", "University of Galway", "University College Cork", "Dublin City University", "University of Limerick"], colleges: ["Technological University Dublin", "Griffith College", "Dublin Business School", "National College of Ireland"], highSchools: ["Irish boarding schools", "Dublin secondary schools", "International high schools", "Senior cycle programmes"], primarySchools: ["Dublin primary schools", "Independent primary schools", "Local national schools", "International junior routes"] },
   { slug: "singapore", zh: "新加坡", name: "Singapore", href: "/countries/singapore/", labelClass: "label-country-singapore", note: "適合亞洲英文教育、英澳美銜接、國際學校和本科/研究生路線比較。", universities: ["National University of Singapore", "Nanyang Technological University", "Singapore Management University", "Singapore University of Technology and Design", "Singapore Institute of Technology"], colleges: ["Singapore polytechnics", "Kaplan Singapore", "SIM Global Education", "PSB Academy", "James Cook University Singapore"], highSchools: ["Junior colleges", "International schools", "IB schools", "Integrated Programme schools"], primarySchools: ["International primary schools", "Local primary schools", "IB PYP schools", "British curriculum primary schools"] },
+  { slug: "thailand", zh: "泰國", name: "Thailand", href: "/countries/thailand/", labelClass: "label-country-singapore", note: "適合親子短住、國際學校日營、英語假期課、雙語幼兒園和低齡家庭友好路線比較。", universities: ["Chulalongkorn University", "Mahidol University International College", "Thammasat University", "Asian Institute of Technology"], colleges: ["International schools", "Bilingual preschools", "English language centres", "Holiday camp providers"], highSchools: ["Bangkok international schools", "British curriculum schools", "IB schools", "Boarding-style camps"], primarySchools: ["International primary schools", "Bilingual kindergartens", "Early-years centres", "Parent-child playgroups"] },
   { slug: "japan", zh: "日本", name: "Japan", href: "/countries/japan/", labelClass: "label-country-japan", note: "適合英文授課本科/研究生、語言學校、國際高中與亞洲路線比較。", universities: ["University of Tokyo", "Kyoto University", "Waseda University", "Keio University", "Sophia University", "Tohoku University", "Osaka University"], colleges: ["Japanese language schools", "Professional training colleges", "Temple University Japan", "Pathway and EJU preparation providers"], highSchools: ["International high schools", "IB schools in Japan", "Japanese private high schools", "Boarding-style programmes"], primarySchools: ["International primary schools", "Japanese private elementary schools", "IB PYP schools", "Bilingual junior schools"] },
   { slug: "south-korea", zh: "韓國", name: "South Korea", href: "/countries/south-korea/", labelClass: "label-country-korea", note: "適合英文授課、韓語預備、亞洲本科/研究生與國際高中路線。", universities: ["Seoul National University", "KAIST", "Yonsei University", "Korea University", "Sungkyunkwan University", "Hanyang University"], colleges: ["Korean language institutes", "International colleges", "Professional colleges", "Pathway preparation providers"], highSchools: ["International schools", "Foreign language high schools", "Private high schools", "IB / AP schools"], primarySchools: ["International primary schools", "Bilingual elementary schools", "Private elementary schools", "Foreign schools"] },
   { slug: "hong-kong", zh: "香港", name: "Hong Kong", href: "/countries/hong-kong/", labelClass: "label-country-hong-kong", note: "適合英語授課大學、國際學校、DSE / IB / A-Level 銜接與大灣區家庭路線。", universities: ["University of Hong Kong", "Chinese University of Hong Kong", "Hong Kong University of Science and Technology", "City University of Hong Kong", "Hong Kong Polytechnic University", "Hong Kong Baptist University"], colleges: ["HKU SPACE", "Community colleges", "Vocational Training Council routes", "Private higher education colleges"], highSchools: ["International schools", "DSE schools", "IB schools", "British curriculum schools"], primarySchools: ["International primary schools", "Local primary schools", "ESF junior schools", "Private primary schools"] },
@@ -12034,7 +12035,7 @@ const summerSchoolAlliance = pageShell({
   lang: "zh-Hant",
   locale: "zh",
   path: "/summer-school-alliance/",
-  description: "OTC 暑校聯盟入口：英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期遊學與 summer school 初步匹配、免費代辦、無隱藏收費、海外督導與家長文件支持。",
+  description: "OTC 暑校聯盟入口：英國、澳洲、新西蘭、馬來西亞、新加坡、泰國、美國、加拿大暑期遊學與 summer school 初步匹配、免費代辦、無隱藏收費、海外督導與家長文件支持。",
   body: `
     <section class="page-hero regional-office-hero country-gateway-hero">
       <div class="band">
@@ -12042,7 +12043,7 @@ const summerSchoolAlliance = pageShell({
           <div class="summer-alliance-hero-main">
             <div class="eyebrow">SUMMER SCHOOL HUB</div>
             <h1>海外督導｜暑校聯盟</h1>
-            <h2>UK · Australia · New Zealand · Malaysia · USA · Canada</h2>
+            <h2>UK · Australia · New Zealand · Malaysia · Singapore · Thailand · USA · Canada</h2>
             <p>為中學生提供全球優質暑期學術項目，探索興趣，提升背景，為未來升學做好準備。</p>
             <div class="summer-alliance-hero-proofs">
               <article><strong>全球優質項目</strong><span>精選全球知名院校暑校項目</span></article>
@@ -12086,6 +12087,14 @@ const summerSchoolAlliance = pageShell({
         <article class="summer-alliance-region-card">
           <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=900&q=80" alt="馬來西亞 Malaysia">
           <div class="body"><strong>馬來西亞 Malaysia</strong><span>英語環境、距離近，適合首次國際項目試水。</span><a href="/zh/summer-school-alliance/malaysia/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80" alt="新加坡 Singapore">
+          <div class="body"><strong>新加坡 Singapore</strong><span>日營、STEM、雙語幼兒園與親子短住路線密集。</span><a href="/zh/summer-school-alliance/singapore/">查看項目 →</a></div>
+        </article>
+        <article class="summer-alliance-region-card">
+          <img src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=900&q=80" alt="泰國 Thailand">
+          <div class="body"><strong>泰國 Thailand</strong><span>國際學校日營、戶外住宿營和低齡親子雙語路線。</span><a href="/zh/summer-school-alliance/thailand/">查看項目 →</a></div>
         </article>
         <article class="summer-alliance-region-card">
           <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=900&q=80" alt="美國 USA">
@@ -12285,11 +12294,11 @@ const summerSchoolCountryRoutes = [
       "最後按 provider 與 school-break 檔期匹配實際可報名名額"
     ],
     projects: [
-      ["British Council Primary Summer Camp 2026", "2026 暑期 school holiday 檔期", "Kuala Lumpur / Malaysia centres", "young learners summer camp", "British Council 官方低齡 camp；以 7–12 歲為主，結合 English communication、creative tasks、games、project learning 與 confidence building。", "很適合第一次做英語 camp、家長不想一開始就把孩子送去太高壓或太遠國家的家庭。", "participation / completion record 常見", "RM 路線；日校型通常較容易控制總成本", "適合 7–12 歲、低齡、以英文輸出與國際課堂感為主的學生", "這條不是海外 boarding route，而是更偏 school-break English camp；要如實包裝成低齡英語與 confidence route"],
-      ["British Council Secondary Holiday Course 2026", "2026 school holidays｜多期可有", "Kuala Lumpur / Malaysia centres", "teen holiday English route", "British Council 官方青少年假期課；較偏 speaking、writing、group communication、task-based English 與同齡互動。", "適合 13–17 歲、想先做英文與國際課堂節奏適應，但不急著追 academic summer brand 的家庭。", "completion record 常見", "RM 路線；以課程週數與 centre 安排為準", "適合 13–17 歲、英語提升型、亞洲區短期過渡型學生", "對很多家庭來說，這條比一開始就衝歐美 residence route 更穩，也更適合作為『先試一下』的入口"],
-      ["ELS Malaysia Holiday English Programme 2026", "2026 school holiday intake｜依 centre 檔期安排", "Kuala Lumpur / Subang Jaya / Johor / Penang", "holiday English programme", "ELS Malaysia 官方 holiday English 類課程；可按校區安排 short-term English learning、communication practice 與 school-break language support。", "適合把馬來西亞當成低風險英文 immersion、城市適應與亞洲區短期 route 的家庭。", "course completion / participation 常見", "RM 路線；依中心、課時與住宿 / 自理方式決定", "適合中學生、短期英語提升、希望先看亞洲國際教育環境的家庭", "這類 route 更偏 language-school holiday intake，要和真正 university summer school 分清楚。"],
-      ["Erican Winter Camp Malaysia 2026", "2026/12–2027/01 冬季營常見", "Kuala Lumpur", "winter / holiday camp route", "Erican 官方 holiday / winter camp 類產品；結合 English、activities、group interaction 與 school-break timetable。", "很適合親子先試水、或對 school-break route 更敏感的家庭；也適合想先做短期團體型過渡。", "participation certificate 常見", "RM 路線；通常較英美澳暑校友好", "適合中小學生、偏親和型、第一次國際 camp 體驗", "這條更像亞洲區 holiday camp，不應硬寫成名校學術營；定位清楚反而更好賣。"],
-      ["Monash University Malaysia Pre-University Summer Route 2026", "依 Monash Malaysia / school outreach 當期安排", "Bandar Sunway, Selangor", "university exposure route", "Monash Malaysia 面向高中生 / future undergraduates 的 outreach / pre-university exposure 類活動，重點更偏學科、校園、未來本科理解。", "這條不是普適 holiday camp，而是更適合已開始看大學、專業或醫商理工方向的高年級學生。", "活動 / outreach participation records 依校方安排", "以當期活動與註冊方式為準", "適合高中後段、future university families、想看馬來西亞國際大學環境的學生", "如果家長真正要的是『大學氛圍 + 亞洲區國際本科試水』，這條比普通 holiday English route 更有說服力。"]
+      ["Marlborough College Malaysia Holiday Camps 2026", "2026 dates TBC", "Iskandar Puteri, Johor", "Marlborough College Malaysia / Camp Beaumont / UKLC", "3–12 歲 day camp；9–15 歲 residential English language immersion。Johor 校區離新加坡近，Changi transfer 可作安排方向。", "這是馬來西亞線最適合做高端 residential / 親子考察 / 新加坡周邊暑校的一條。", "completion materials 依 camp operator 安排", "fee TBC", "適合 9–15 歲 residential，或 3–12 歲家長同行 day camp 家庭", "住宅未成年人簽證、監護、接送、保險與 boarding 年齡要逐項確認。"],
+      ["Nexus International School Malaysia Holiday Camps 2026", "Day camp 29 Jun–7 Aug 2026；residential 27 Jul–9 Aug 2026 approx.", "Putrajaya", "Nexus International School Malaysia / Arrowhead", "8–14 歲 English-focus day camp，並有 residential option；校內 nurse、activity timetable 與 English development 信號清楚。", "對海外家庭比較友好，既有日營也有住宿路線，是馬來西亞頁面應優先呈現的穩定候選。", "completion materials 依 Nexus / operator 安排", "Residential snippet MYR 6,000–11,000；day fee TBC", "適合 8–14 歲、想要英語提升和住宿可能性的學生", "Residential pricing 需用官方 quote 核實；minor guardian / visa rules 需確認。"],
+      ["British Council Malaysia Young Learner Summer Camp 2026", "Summer / holiday courses 2026 TBC", "Kuala Lumpur / Penang centres", "British Council Malaysia", "5–17 歲 Young Learner summer camp / holiday course，偏英語輸出、任務式學習與 confidence building。", "品牌信任度高，很適合第一次做亞洲英語暑期項目的家庭。", "participation / completion record 依 British Council 安排", "fee TBC", "適合 5–17 歲、以英語提升為主、家長同行或自理住宿的學生", "Day-only；住宿、監護、保險和接送需另行安排。"],
+      ["Garden International School Arrowhead Holiday Camp 2026", "29 Jun–7 Aug 2026", "Mont Kiara, Kuala Lumpur", "Garden International School / Arrowhead Skills", "4–12 歲 multi-activity day camp，位於 KL Mont Kiara 國際家庭聚集區，日程約 8:30–15:00。", "適合家長在 KL 陪同、希望孩子白天進入國際學校假期環境的低齡家庭。", "participation record 依 operator 安排", "fee TBC", "適合 4–12 歲、家長同行、KL 短住家庭", "Day-only；第三方 operator；under-6 比例、接送與保險需確認。"],
+      ["Julia Gabriel Malaysia Bilingual Holiday Programmes 2026", "Holiday programmes 2026 TBC", "Kuala Lumpur", "Julia Gabriel Malaysia", "6 months–Primary 2；English / Mandarin holiday programmes、speech & drama、parent-child early-years route。", "這條是馬來西亞雙語幼兒園 / 親子雙語園最值得先問的一個入口。", "class participation record 依 centre 安排", "fee TBC", "適合 6 個月以上低齡、親子同行、英中雙語啟蒙家庭", "部分資料需官方核實；短期國際家庭名額、日期、費用和 drop-in eligibility 需確認。"]
     ]
   },
   {
@@ -12411,11 +12420,31 @@ const summerSchoolCountryRoutes = [
       "最後按年齡、課程密度、英語程度與家庭是否能接受日營模式縮小 shortlist"
     ],
     projects: [
-      ["NUS SCALE Youth Programmes 2026", "Open enrolment；Jun–Jul 2026 route", "National University of Singapore / UTown", "NUS SCALE", "High School / Pre-U / Undergrad youth academic enrichment；可比較 on-campus 15 小時 1–2 週課程與 online 18–24 小時 3–6 週課程。", "NUS 官方、亞洲區位便利、線上線下彈性最高，適合作為新加坡學術暑校主軸。", "completion materials 依 NUS SCALE 安排", "fee TBC，按項目核價", "適合 15+、希望用 NUS 做 pre-university / enrichment exposure 的學生", "各 youth programme 的逐項費用、精確營期、住宿與中國大陸學生資格仍需確認。"],
-      ["SMU Young Leaders Summer Programme 2026", "13–18 Jul 2026", "Singapore Management University city campus", "SMU Young Leaders Summer Programme", "面向 2027 / 2028 入大學者的 1 週跨學科 leadership enrichment；涵蓋 cybersecurity、software engineering、sample classes 與 21st-century competencies。", "大學官方、選拔性強，適合高中生做新加坡 leadership + university exposure 背景。", "programme completion materials 依 SMU 安排", "fee TBC", "適合高中後段、學術成熟度較高、準備 2027/2028 入大學的學生", "2026 申請已截止（deadline 17 May 2026，now closed）；應轉為 2027 pipeline。"],
-      ["Immerse Education Singapore Summer 2026", "2026 dates TBC", "Singapore central accommodation", "Immerse Education", "13–18 歲 university-style academic summer programme，住宿規範，國際學生混合，偏學術探索與名校課堂感。", "品牌成熟，適合家長想要亞洲地點但保留英式/國際學術暑校敘事。", "completion materials 依 Immerse 安排", "fee TBC", "適合 13–18 歲、偏 academic enrichment 的學生", "精確 2026 日期、費用、選拔條件、agent terms 需確認。"],
-      ["British Council Singapore Summer 2026 Camps", "June / Summer 2026 weekly camps", "Napier Road / Toa Payoh, Singapore", "British Council Singapore", "4–16 歲 English holiday camps；以 weekly topic、hands-on experiential learning、English confidence 與 safe interactive classroom 為主。", "品牌信任度高，適合低齡和中小學生先做新加坡英文環境試水。", "completion / participation record 依 British Council 安排", "S$ route；exact weekly fee 需按週次核對", "適合 4–16 歲、家長可安排住宿或同行的新加坡英文日營家庭", "多為 day camp，不含住宿；海外學生需另行安排 guardian / hotel / parent stay。"],
-      ["Embassy Camps Singapore 2026", "2026 dates TBC", "Singapore", "Embassy Camps", "Skills + English camp route，主題可含 AI、English language、speed reading 等，亦有 Malaysia / Bali / Dubai 等目的地網絡。", "作為技能加英文的差異化候選，可補足 NUS / SMU / British Council 之外的非傳統營隊。", "completion materials 依 provider 安排", "fee TBC", "適合想要 skills + English、新加坡及亞洲多目的地比較的家庭", "provider standing、年齡、住宿、日期、費用與 cooperation terms 需逐項核實。"]
+      ["Camp Asia at Stamford American / Australian International 2026", "15 Jun–31 Jul 2026", "Woodleigh Campus / Early Learning Village", "Camp Asia", "3–16 歲 multi-activity、STEM、sports、English Lab；9:00–15:00 day camp，支援 WhatsApp / WeChat。", "新加坡最適合華語家庭快速理解的一條：年齡寬、課程多、有 EAL English Lab，且明確 open to all。", "completion materials 依 Camp Asia 安排", "from approx. SGD 715 / 5 days", "適合 3–16 歲、家長同行或另行安排住宿的新加坡日營家庭", "Day-only；住宿、guardian、under-6 陪同與保險需另行確認。"],
+      ["XCL World Academy XCL Camps 2026", "22 Jun–31 Jul 2026；Dec 2026", "Yishun, Singapore", "XCL World Academy", "3–16 歲 sport / STEM / arts / multi-activity day camp；午餐包含，交通可加購。", "官方明確 open to overseas families，日期和起價清楚，是新加坡頁面很穩的 family-facing candidate。", "participation record 依 XCL 安排", "from SGD 720 + optional bus", "適合 3–16 歲、海外家庭、新加坡短住日營", "Day-only；住宿與監護另行安排。"],
+      ["Julia Gabriel Singapore Bilingual PlayClub / Holiday Camps 2026", "Holiday programmes 2026 TBC", "Forum / United Square, Singapore", "Julia Gabriel Education", "6 months–18 歲；6mo–3.5y 有 adult-accompanied PlayClub，另有 English + Mandarin bilingual route 和 holiday camps。", "最適合作為新加坡雙語幼兒園 / 親子雙語園入口，對 Mandarin-first 家庭溝通友好。", "class participation record 依 centre 安排", "fee TBC", "適合 6 個月以上親子同行、英中雙語啟蒙和短期體驗家庭", "Premium fee、短期國際名額、holiday dates 和陪同要求需確認。"],
+      ["British Council Singapore Summer 2026 Camps", "Holiday periods 2026 TBC", "Napier Road / Toa Payoh, Singapore", "British Council Singapore", "4–16 歲 English holiday camps；結構化英文、MOE-aligned 課程信號與多 level 分班。", "品牌信任度高，適合低齡和中小學生先做新加坡英文環境試水。", "completion / participation record 依 British Council 安排", "fee TBC", "適合 4–16 歲、以英語提升為主、家長可安排住宿或同行的家庭", "Day-only；住宿、guardian、exact 2026 dates 需確認。"],
+      ["Maple Bear Singapore Bilingual Preschool Holiday Route 2026", "June 2026 holiday weeks TBC", "Multiple centres, Singapore", "Maple Bear Singapore", "18 months–6 歲 Canadian bilingual preschool + June holiday programme；English + Mandarin。", "適合作為新加坡雙語幼兒園候選，對低齡華語家庭比普通英語營更貼近需求。", "centre participation record 依 Maple Bear 安排", "fee TBC", "適合 18 個月–6 歲、英中雙語幼兒園短期體驗家庭", "可能優先 enrolled / local families；international drop-in eligibility 需確認。"]
+    ]
+  },
+  {
+    slug: "thailand",
+    zh: "泰國",
+    name: "Thailand",
+    intro: "泰國暑校適合把英語、戶外活動、國際學校日營、低齡雙語幼兒園和家長陪同短住放在一起比較。它不是典型名校學術路線，而是更偏家庭友好、城市短住和低齡 bilingual exposure。",
+    fee: "OTC 代辦本身免費，不設隱藏收費；泰國暑校常見成本由日營或住宿營費、家長住宿、保險、接送、簽證 / 入境停留和未成年人監護構成。低齡與親子項目尤其要確認 centre licensing、adult accompaniment 和醫療安排。",
+    process: [
+      "先分清楚是 Bangkok day camp、boarding camp、early-years summer school，還是 parent-child bilingual route",
+      "再看 Sukhumvit、Bang Na、Riverside、Chonburi / Pattaya、Chiang Mai、Phuket 等家庭停留差異",
+      "確認 under-6 是否需要家長全程陪同、語言比例與 drop-in eligibility",
+      "最後按住宿、保險、接送、監護和 2026 是否已滿位縮小 shortlist"
+    ],
+    projects: [
+      ["Rugby School Thailand Wisdom Camps 2026", "Summer 2026 reported sold out；Dec 2026 / 2027 pipeline", "Chonburi near Pattaya", "Rugby School Thailand", "6–13 歲 English + outdoor adventure；可 day 或 residential。", "英式寄宿學校感、戶外活動與住宿可能性強，是泰國線最像 premium camp 的候選。", "completion materials 依 camp 安排", "fee TBC", "適合 6–13 歲、想要英文 + 戶外 + 住宿體驗的家庭", "2026 summer reported sold out；minor residential guardian / visa / insurance 需確認。"],
+      ["Harrow Bangkok Holiday Programme 2026", "Summer 2026 dates TBC", "Bangkok", "Harrow International School Bangkok", "18 months–18 歲 summer camp / holiday programme；較高年齡段可能有 boarding option。", "品牌強、年齡跨度大，適合從幼兒到青少年都想看 Bangkok 國際學校環境的家庭。", "participation record 依 school 安排", "fee TBC", "適合低齡到高中、家長同行或需 boarding 可能性的家庭", "Boarding age limits、guardian、under-6 陪同、實際日期需確認。"],
+      ["ELC International Schools Bangkok Summer School 2026", "Jun / Jul 2026 sessions", "Bangkok / Purple Elephant Samakee", "ELC International Schools Bangkok", "18 months–11 歲 early-years + primary summer programme；day 8:30–12:30，open to new and community families。", "這是泰國雙語幼兒園 / early-years family route 最值得先放上頁面的一條。", "participation record 依 ELC 安排", "snippet approx. THB 13,800 / 5 days；official quote needed", "適合 18 個月–11 歲、家長陪同、低齡英語 / 國際幼兒園體驗", "Fee snippet-based；day-only；under-6 accompaniment、insurance、drop-in documents 需確認。"],
+      ["Shrewsbury International School Bangkok Holiday Camps 2026", "Summer 2026 dates TBC", "Riverside / City Campus, Bangkok", "Shrewsbury International School Bangkok", "3–17 歲 sports + educational holiday camps，兩個 Bangkok campus 可比較。", "適合想要 Bangkok 名校日營、運動與教育活動結合的家庭。", "participation record 依 school / operator 安排", "fee TBC", "適合 3–17 歲、家長在曼谷陪同的日營家庭", "Day-only；under-6 supervision、exact dates、overseas drop-in eligibility 需確認。"],
+      ["British Council Thailand Holiday English Courses 2026", "Holiday courses 2026 TBC", "Bangkok", "British Council Thailand", "6–17 歲 English holiday courses，按 level 分班，偏英語提升與課堂 confidence。", "品牌信任度高，適合把泰國作為短期英文提升和家庭停留的低風險入口。", "completion / participation record 依 British Council 安排", "fee TBC", "適合 6–17 歲、以英語提升為主、家長自理住宿的家庭", "Day-only；官方細節需補核；6 歲以下不覆蓋。"]
     ]
   }
 ];
@@ -12618,6 +12647,11 @@ function summerSchoolCountryPage(route) {
     "ELS Malaysia Holiday English Programme 2026": { label: "ELS Language Centres Malaysia", url: "https://www.els.edu.my/", domain: "els.edu.my" },
     "Erican Winter Camp Malaysia 2026": { label: "Erican Language Centre", url: "https://www.erican.edu.my/", domain: "erican.edu.my" },
     "Monash University Malaysia Pre-University Summer Route 2026": { label: "Monash University Malaysia", url: "https://www.monash.edu.my/", domain: "monash.edu.my" },
+    "Marlborough College Malaysia Holiday Camps 2026": { label: "Marlborough College Malaysia", url: "https://www.marlboroughcollegemalaysia.org/college-life/holiday-camps/", domain: "marlboroughcollegemalaysia.org" },
+    "Nexus International School Malaysia Holiday Camps 2026": { label: "Nexus International School Malaysia", url: "https://www.nexus.edu.my/innovative-learning/wider-learning/holiday-camps/", domain: "nexus.edu.my" },
+    "British Council Malaysia Young Learner Summer Camp 2026": { label: "British Council Malaysia", url: "https://www.britishcouncil.my/", domain: "britishcouncil.my" },
+    "Garden International School Arrowhead Holiday Camp 2026": { label: "Garden International School", url: "https://www.gardenschool.edu.my/", domain: "gardenschool.edu.my" },
+    "Julia Gabriel Malaysia Bilingual Holiday Programmes 2026": { label: "Julia Gabriel Malaysia", url: "http://www.juliagabriel.com.my/", domain: "juliagabriel.com.my" },
     "Yale Young Global Scholars 2026": { label: "Yale Young Global Scholars", url: "https://globalscholars.yale.edu/", domain: "globalscholars.yale.edu" },
     "Columbia Summer Immersion New York City 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/programs/summer-programs", domain: "precollege.sps.columbia.edu" },
     "Columbia College Edge 2026": { label: "Columbia Pre-College Programs", url: "https://precollege.sps.columbia.edu/highschool/college-edge", domain: "precollege.sps.columbia.edu" },
@@ -12677,13 +12711,22 @@ function summerSchoolCountryPage(route) {
     "UCD Summer High School Program 2026": { label: "University College Dublin", url: "https://www.ucd.ie/global/", domain: "ucd.ie" },
     "Emerald Cultural Institute Junior Summer 2026": { label: "Emerald Cultural Institute", url: "https://www.eci.ie/", domain: "eci.ie" },
     "British Council Singapore Summer 2026 Camps": { label: "British Council Singapore", url: "https://www.britishcouncil.sg/english-courses/camps/study", domain: "britishcouncil.sg" },
+    "Camp Asia at Stamford American / Australian International 2026": { label: "Camp Asia", url: "https://www.sais.edu.sg/school-life/camp-asia/", domain: "sais.edu.sg" },
+    "XCL World Academy XCL Camps 2026": { label: "XCL World Academy", url: "https://xwa.edu.sg/school-life/xcl-camps", domain: "xwa.edu.sg" },
+    "Julia Gabriel Singapore Bilingual PlayClub / Holiday Camps 2026": { label: "Julia Gabriel Education", url: "https://www.juliagabriel.com/", domain: "juliagabriel.com" },
+    "Maple Bear Singapore Bilingual Preschool Holiday Route 2026": { label: "Maple Bear Singapore", url: "https://www.maplebear.sg/programmes", domain: "maplebear.sg" },
     "SMU Young Leaders Summer Programme 2026": { label: "Singapore Management University", url: "https://admissions.smu.edu.sg/smu-young-leaders-summer-programme", domain: "admissions.smu.edu.sg" },
     "NUS College Summer School 2026": { label: "NUS College", url: "https://nuscollege.nus.edu.sg/admissions/summer-school/", domain: "nuscollege.nus.edu.sg" },
     "NUS SCALE Youth Programmes 2026": { label: "NUS SCALE", url: "https://scale.nus.edu.sg/", domain: "scale.nus.edu.sg" },
     "Immerse Education Singapore Summer 2026": { label: "Immerse Education", url: "https://www.immerse.education/", domain: "immerse.education" },
     "Embassy Camps Singapore 2026": { label: "Embassy Camps", url: "https://embassy.camp/", domain: "embassy.camp" },
     "HWA x SUSS-INTO Future Summer School 2026": { label: "HWA International School", url: "https://www.hwa.edu.sg/academic/summer-school-program/", domain: "hwa.edu.sg" },
-    "MDIS English Immersion Programme 2026": { label: "MDIS", url: "https://www.mdis.edu.sg/ct-summer-camps", domain: "mdis.edu.sg" }
+    "MDIS English Immersion Programme 2026": { label: "MDIS", url: "https://www.mdis.edu.sg/ct-summer-camps", domain: "mdis.edu.sg" },
+    "Rugby School Thailand Wisdom Camps 2026": { label: "Rugby School Thailand", url: "https://www.rugbyschool.ac.th/camps-commercial/camps/", domain: "rugbyschool.ac.th" },
+    "Harrow Bangkok Holiday Programme 2026": { label: "Harrow International School Bangkok", url: "https://www.harrowschool.ac.th/holiday-programme", domain: "harrowschool.ac.th" },
+    "ELC International Schools Bangkok Summer School 2026": { label: "ELC International Schools Bangkok", url: "https://www.elc.ac.th/summer-school", domain: "elc.ac.th" },
+    "Shrewsbury International School Bangkok Holiday Camps 2026": { label: "Shrewsbury International School Bangkok", url: "https://www.shrewsbury.ac.th/", domain: "shrewsbury.ac.th" },
+    "British Council Thailand Holiday English Courses 2026": { label: "British Council Thailand", url: "https://www.britishcouncil.or.th/", domain: "britishcouncil.or.th" }
   };
 
   const projectMetaOverrides = {
@@ -12760,6 +12803,11 @@ function summerSchoolCountryPage(route) {
     "ELS Malaysia Holiday English Programme 2026": { age: "中學–高中", city: "Kuala Lumpur / Subang / Penang / Johor", priceBand: "RM 路線", boarding: "日校 / 自理 / 個案住宿" },
     "Erican Winter Camp Malaysia 2026": { age: "中小學生", city: "Kuala Lumpur", priceBand: "RM 路線", boarding: "日校 / 家長安排" },
     "Monash University Malaysia Pre-University Summer Route 2026": { age: "16+ / 高中後段", city: "Bandar Sunway", priceBand: "按活動", boarding: "日校 / 自理" },
+    "Marlborough College Malaysia Holiday Camps 2026": { age: "3–15歲", city: "Johor", priceBand: "待報價", boarding: "日營 / 住校" },
+    "Nexus International School Malaysia Holiday Camps 2026": { age: "8–14歲", city: "Putrajaya", priceBand: "MYR 路線", boarding: "日營 / 住校" },
+    "British Council Malaysia Young Learner Summer Camp 2026": { age: "5–17歲", city: "Kuala Lumpur / Penang", priceBand: "RM 路線", boarding: "日營 / 家長安排" },
+    "Garden International School Arrowhead Holiday Camp 2026": { age: "4–12歲", city: "Kuala Lumpur", priceBand: "待報價", boarding: "日營 / 家長安排" },
+    "Julia Gabriel Malaysia Bilingual Holiday Programmes 2026": { age: "6個月+", city: "Kuala Lumpur", priceBand: "待報價", boarding: "親子 / 日營" },
     "DCU International Academy Junior Residential Programme 2026": { age: "團體 junior", city: "Dublin", priceBand: "€ / 報價", boarding: "住校 / group-only" },
     "ISI Dublin Residential Programme 2026": { age: "14–17歲", city: "Dublin", priceBand: "€€", boarding: "住校 / 寄宿" },
     "Babel Academy Junior Summer School 2026": { age: "11–17歲", city: "Dublin", priceBand: "待報價", boarding: "homestay / residence" },
@@ -12770,6 +12818,10 @@ function summerSchoolCountryPage(route) {
     "UCD Summer High School Program 2026": { age: "高中段", city: "Dublin / UCD", priceBand: "待報價", boarding: "campus / 待核" },
     "Emerald Cultural Institute Junior Summer 2026": { age: "junior", city: "Dublin", priceBand: "待報價", boarding: "homestay / residence" },
     "British Council Singapore Summer 2026 Camps": { age: "4–16歲", city: "Singapore", priceBand: "S$ 路線", boarding: "日營 / 家長安排" },
+    "Camp Asia at Stamford American / Australian International 2026": { age: "3–16歲", city: "Singapore", priceBand: "S$715+", boarding: "日營 / 家長安排" },
+    "XCL World Academy XCL Camps 2026": { age: "3–16歲", city: "Singapore", priceBand: "S$720+", boarding: "日營 / 家長安排" },
+    "Julia Gabriel Singapore Bilingual PlayClub / Holiday Camps 2026": { age: "6個月+", city: "Singapore", priceBand: "待報價", boarding: "親子 / 日營" },
+    "Maple Bear Singapore Bilingual Preschool Holiday Route 2026": { age: "18個月–6歲", city: "Singapore", priceBand: "待報價", boarding: "日營 / 家長安排" },
     "SMU Young Leaders Summer Programme 2026": { age: "高中後段", city: "Singapore", priceBand: "S$3,500", boarding: "campus / 待核" },
     "NUS College Summer School 2026": { age: "16–18歲", city: "Singapore", priceBand: "待報價", boarding: "campus / 待核" },
     "NUS SCALE Youth Programmes 2026": { age: "15+ 歲", city: "Singapore", priceBand: "待報價", boarding: "campus / online" },
@@ -12783,7 +12835,12 @@ function summerSchoolCountryPage(route) {
     "Berkeley Pre-College Scholars 2026": { age: "高中生", city: "Berkeley", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
     "UCLA Summer College Immersion Program 2026": { age: "高中生", city: "Los Angeles", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
     "UCLA Precollege Summer Institutes 2026": { age: "高中生", city: "Los Angeles", priceBand: "US$ 路線", boarding: "住校 / 通勤" },
-    "UChicago Pre-College Summer Session 2026": { age: "高中生", city: "Chicago", priceBand: "US$ 路線", boarding: "住校 / 線上 / 通勤" }
+    "UChicago Pre-College Summer Session 2026": { age: "高中生", city: "Chicago", priceBand: "US$ 路線", boarding: "住校 / 線上 / 通勤" },
+    "Rugby School Thailand Wisdom Camps 2026": { age: "6–13歲", city: "Chonburi", priceBand: "待報價", boarding: "日營 / 住校" },
+    "Harrow Bangkok Holiday Programme 2026": { age: "18個月–18歲", city: "Bangkok", priceBand: "待報價", boarding: "日營 / boarding待核" },
+    "ELC International Schools Bangkok Summer School 2026": { age: "18個月–11歲", city: "Bangkok", priceBand: "THB 路線", boarding: "日營 / 家長安排" },
+    "Shrewsbury International School Bangkok Holiday Camps 2026": { age: "3–17歲", city: "Bangkok", priceBand: "待報價", boarding: "日營 / 家長安排" },
+    "British Council Thailand Holiday English Courses 2026": { age: "6–17歲", city: "Bangkok", priceBand: "THB 路線", boarding: "日營 / 家長安排" }
   };
 
   const inferProjectMeta = (project) => {
@@ -12802,7 +12859,7 @@ function summerSchoolCountryPage(route) {
       age = "17+ / 本科";
     }
 
-    let city = route.slug === "australia" ? "Australia" : route.slug === "new-zealand" ? "New Zealand" : route.slug === "canada" ? "Canada" : route.slug === "malaysia" ? "Malaysia" : route.slug === "united-states" ? "United States" : route.slug === "ireland" ? "Ireland" : route.slug === "singapore" ? "Singapore" : "英國";
+    let city = route.slug === "australia" ? "Australia" : route.slug === "new-zealand" ? "New Zealand" : route.slug === "canada" ? "Canada" : route.slug === "malaysia" ? "Malaysia" : route.slug === "united-states" ? "United States" : route.slug === "ireland" ? "Ireland" : route.slug === "singapore" ? "Singapore" : route.slug === "thailand" ? "Thailand" : "英國";
     if (/London/i.test(location)) city = "London";
     else if (/Oxford/i.test(location)) city = "Oxford";
     else if (/Cambridge/i.test(location)) city = "Cambridge";
@@ -12824,6 +12881,8 @@ function summerSchoolCountryPage(route) {
     else if (/Hamilton/i.test(location)) city = "Hamilton";
     else if (/Dublin|UCD|DCU|Belvedere/i.test(location)) city = "Dublin";
     else if (/Singapore|SMU|NUS|MDIS|HWA/i.test(location)) city = "Singapore";
+    else if (/Bangkok|Harrow|Shrewsbury|ELC|British Council Thailand/i.test(location)) city = "Bangkok";
+    else if (/Chonburi|Pattaya|Rugby School Thailand/i.test(location)) city = "Chonburi";
     else if (/Queenstown/i.test(location)) city = "Queenstown";
     else if (/Vancouver|UBC|SFU/i.test(location)) city = "Vancouver";
     else if (/Toronto|UTSG|St\. George/i.test(location)) city = "Toronto";
@@ -13449,10 +13508,10 @@ function summerSchoolCountryPage(route) {
             <div class="eyebrow">Route Types</div>
             <h3>先分清楚馬來西亞這幾種路線</h3>
             <div class="summer-route-cards">
-              <article><b>Low-age English Camp</b><strong>British Council Primary</strong><span>適合 7–12 歲，以英語 confidence、task-based learning 與課堂習慣建立為主。</span></article>
-              <article><b>Teen Holiday English</b><strong>British Council Secondary / ELS</strong><span>適合 13–17 歲，先做 speaking、writing、group communication 和 school-break immersion。</span></article>
-              <article><b>Holiday / Winter Camp</b><strong>Erican</strong><span>更偏親和型、短期團體型、節奏較輕的 holiday route。</span></article>
-              <article><b>University Exposure</b><strong>Monash Malaysia</strong><span>更適合高中後段、已在看國際本科與專業方向的家庭。</span></article>
+              <article><b>Residential English</b><strong>Marlborough / Nexus</strong><span>適合 8–15 歲，需要住宿可能性、國際校校園感和更完整照護。</span></article>
+              <article><b>Young Learner English</b><strong>British Council</strong><span>適合 5–17 歲，先做 speaking、confidence 和 school-break immersion。</span></article>
+              <article><b>International School Day Camp</b><strong>Garden International School</strong><span>適合家長在 KL 陪同，孩子白天進入國際校假期環境。</span></article>
+              <article><b>Bilingual Parent-child</b><strong>Julia Gabriel Malaysia</strong><span>適合低齡親子同行、英中雙語、speech & drama 和短期體驗。</span></article>
             </div>
           </div>
         </div>
@@ -13490,7 +13549,7 @@ function summerSchoolCountryPage(route) {
             <ul class="summer-focus-list">
               <li><strong>Current</strong><span>目前馬來西亞頁更偏 family-facing route curation，合作關係需按 provider 類型與當期 intake 再確認。</span></li>
               <li><strong>Goal</strong><span>優先和 route 清楚、節奏穩、低齡 / holiday / pre-university 條線明確的 provider 建立更直接合作。</span></li>
-              <li><strong>Priority</strong><span>British Council、ELS、Erican 與 Monash Malaysia 這類清楚、好講、家長容易理解的路線最值得先推。</span></li>
+              <li><strong>Priority</strong><span>Marlborough、Nexus、British Council、Garden International School 與 Julia Gabriel 這類清楚、好講、家長容易理解的路線最值得先推。</span></li>
               <li><strong>Boundary</strong><span>OTC 不會把所有馬來西亞項目都寫成同一種 camp，而是按 provider 實際定位和當期回覆說清楚。</span></li>
             </ul>
           </div>
@@ -13878,7 +13937,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
 
             <section>
               <h2 class="zh-herald-section-head" data-num="二">先分清楚這四條主線</h2>
-              <p>Low-age English camp、Teen holiday English、holiday / winter camp、pre-university exposure。先把這幾條線分開看，再選 provider，會準得多。</p>
+              <p>Residential English、Young Learner English、International School Day Camp、Bilingual Parent-child。先把這幾條線分開看，再選 provider，會準得多。</p>
             </section>
 
             <section>
@@ -13886,7 +13945,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
               <p>馬來西亞項目適合壓成一張清楚的 route 總表看，不需要在主頁堆滿大卡。主頁先把 family fit 講清楚，完整項目放到子頁集中比對。</p>
               <div class="summer-herald-linkbox">
                 <strong>馬來西亞暑校熱門課程總表</strong>
-                <span>British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 總表。</span>
+                <span>Marlborough、Nexus、British Council、Garden International School、Julia Gabriel 與雙語親子 route 總表。</span>
                 <div class="actions">
                   <a class="btn btn-primary" href="/zh/summer-school-alliance/malaysia/programmes/">打開項目總表</a>
                   <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想先看馬來西亞暑校熱門課程總表。")}">WhatsApp</a>
@@ -13898,7 +13957,7 @@ const malaysiaEditorialBody = route.slug === "malaysia"
               <h2 class="zh-herald-section-head" data-num="四">合作與申請</h2>
               <div class="summer-country-cta-banner">
                 <strong>你是馬來西亞英語中心、holiday camp 或 pre-university 合作窗口？</strong>
-                <span>OTC 目前正把馬來西亞路線整理成更清楚的 school-break 與 pre-university route。若你願意討論 family referrals、small groups 或更直接合作，可直接和我們連線。</span>
+                <span>OTC 目前正把馬來西亞路線整理成更清楚的 residential、international-school day camp 與 bilingual parent-child route。若你願意討論 family referrals、small groups 或更直接合作，可直接和我們連線。</span>
                 <div class="summer-country-cta-row">
                   <a class="btn btn-primary" href="/zh/education-partners/">打開合作夥伴頁</a>
                   <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=OTC%20Malaysia%20Summer%20Alliance%20Enquiry">Email OTC</a>
@@ -13913,24 +13972,24 @@ const malaysiaEditorialBody = route.slug === "malaysia"
             <div class="zh-herald-widget">
               <div class="zh-herald-widget-title">四條主線</div>
               <div class="zh-herald-trust-card family">
-                <div class="zh-herald-card-name">Low-age English</div>
-                <div class="zh-herald-card-en">British Council Primary</div>
-                <div class="zh-herald-card-desc">適合 7–12 歲，先做英語 confidence、課堂節奏與 group learning。</div>
+                <div class="zh-herald-card-name">Residential English</div>
+                <div class="zh-herald-card-en">Marlborough / Nexus</div>
+                <div class="zh-herald-card-desc">適合需要住宿可能性、國際校環境與更完整照護的家庭。</div>
               </div>
               <div class="zh-herald-trust-card unit">
-                <div class="zh-herald-card-name">Teen Holiday English</div>
-                <div class="zh-herald-card-en">British Council / ELS</div>
-                <div class="zh-herald-card-desc">適合 13–17 歲，先做 speaking、writing 與 school-break immersion。</div>
+                <div class="zh-herald-card-name">Young Learner English</div>
+                <div class="zh-herald-card-en">British Council</div>
+                <div class="zh-herald-card-desc">適合 5–17 歲，先做 speaking、writing 與 school-break immersion。</div>
               </div>
               <div class="zh-herald-trust-card will">
-                <div class="zh-herald-card-name">Camp Route</div>
-                <div class="zh-herald-card-en">Erican</div>
-                <div class="zh-herald-card-desc">更偏輕量、團體型、節奏較柔和的 holiday route。</div>
+                <div class="zh-herald-card-name">International School</div>
+                <div class="zh-herald-card-en">Garden International School</div>
+                <div class="zh-herald-card-desc">家長在 KL 陪同，孩子白天進入國際校日營環境。</div>
               </div>
               <div class="zh-herald-trust-card smsf">
-                <div class="zh-herald-card-name">Pre-University</div>
-                <div class="zh-herald-card-en">Monash Malaysia</div>
-                <div class="zh-herald-card-desc">更適合高中後段，已開始看本科與專業方向的家庭。</div>
+                <div class="zh-herald-card-name">Bilingual Parent-child</div>
+                <div class="zh-herald-card-en">Julia Gabriel Malaysia</div>
+                <div class="zh-herald-card-desc">低齡親子、英中雙語、speech & drama 和短期體驗。</div>
               </div>
             </div>
 
@@ -14760,17 +14819,17 @@ function malaysiaProgrammesPage() {
   if (!route) return "";
 
   const getMalaysiaProjectCategory = (projectTitle) => {
-    if (/Primary|Kids/i.test(projectTitle)) return "low-age-english";
-    if (/Secondary|ELS/i.test(projectTitle)) return "teen-english";
-    if (/Erican|Winter Camp|Holiday/i.test(projectTitle)) return "camp-route";
-    return "pre-university";
+    if (/Julia Gabriel|Garden|British Council/i.test(projectTitle)) return "low-age-english";
+    if (/Nexus|Marlborough/i.test(projectTitle)) return "residential-camp";
+    if (/ELS|Secondary/i.test(projectTitle)) return "teen-english";
+    return "camp-route";
   };
 
   const categoryGroups = [
-    { id: "low-age-english", code: "01", title: "Low-age English", description: "適合低齡英語 confidence 與課堂習慣建立。" },
-    { id: "teen-english", code: "02", title: "Teen Holiday English", description: "適合 13–17 歲 school-break route。" },
-    { id: "camp-route", code: "03", title: "Camp Route", description: "偏 holiday / winter camp 的輕量主線。" },
-    { id: "pre-university", code: "04", title: "Pre-University Exposure", description: "適合高中後段與未來本科方向探索。" }
+    { id: "low-age-english", code: "01", title: "Low-age / Bilingual", description: "適合低齡英語、親子陪同與英中雙語啟蒙。" },
+    { id: "residential-camp", code: "02", title: "Residential / International School", description: "適合需要住宿可能性、國際校校園感與更完整照護的家庭。" },
+    { id: "teen-english", code: "03", title: "Teen Holiday English", description: "適合 13–17 歲 school-break route。" },
+    { id: "camp-route", code: "04", title: "Camp Route", description: "偏 holiday / winter camp 的輕量主線。" }
   ];
 
   const inferProjectMeta = (project) => {
@@ -14846,7 +14905,7 @@ function malaysiaProgrammesPage() {
     current: "resources",
     lang: "zh-Hant",
     locale: "zh",
-    description: "馬來西亞暑校熱門課程總表：British Council、ELS、Erican、Monash Malaysia 與 school-break / pre-university route 項目總表。",
+    description: "馬來西亞暑校熱門課程總表：Marlborough、Nexus、British Council、Garden International School 與 Julia Gabriel 雙語親子路線項目總表。",
     path: "/zh/summer-school-alliance/malaysia/programmes/",
     image: "/assets/social/malaysia-summer-alliance-hero-share-20260528-v3.png",
     imageWidth: 1200,
@@ -14879,7 +14938,7 @@ function malaysiaProgrammesPage() {
                 <h1>海外督導｜暑校聯盟｜馬來西亞</h1>
                 <h2>Malaysia Summer Alliance 2026</h2>
               </div>
-              <p class="zh-herald-standfirst">這一頁集中放 British Council、ELS、Erican、Monash Malaysia 以及 school-break / pre-university route，方便家長直接比對年齡段、城市與住宿方式。</p>
+              <p class="zh-herald-standfirst">這一頁集中放 Marlborough、Nexus、British Council、Garden International School 與 Julia Gabriel，方便家長直接比對年齡段、城市、日營 / 住宿和親子雙語方式。</p>
             </header>
             <div class="summer-herald-inline-strip">
               <article><strong>先看年齡段</strong><span>low-age、teen、pre-university 要分開看。</span></article>
@@ -14901,36 +14960,44 @@ function malaysiaProgrammesPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Low-age English</td>
+                    <td>Residential English</td>
+                    <td>Marlborough College Malaysia</td>
+                    <td>Johor</td>
+                    <td>9–15</td>
+                    <td>日營 / 住校</td>
+                    <td>想要新加坡周邊英式寄宿校園體驗</td>
+                  </tr>
+                  <tr>
+                    <td>International School Camp</td>
+                    <td>Nexus International School</td>
+                    <td>Putrajaya</td>
+                    <td>8–14</td>
+                    <td>日營 / 住校</td>
+                    <td>需要英文提升、校內 nurse 和住宿可能性</td>
+                  </tr>
+                  <tr>
+                    <td>Young Learner English</td>
                     <td>British Council</td>
                     <td>Kuala Lumpur</td>
-                    <td>7–12</td>
+                    <td>5–17</td>
                     <td>日校 / 家長安排</td>
                     <td>低齡、先做英文 confidence</td>
                   </tr>
                   <tr>
-                    <td>Teen Holiday English</td>
-                    <td>British Council / ELS</td>
-                    <td>KL / Subang / Penang</td>
-                    <td>13–17</td>
-                    <td>日校 / 自理</td>
-                    <td>第一次做國際暑校、先試亞洲線</td>
+                    <td>International School Day Camp</td>
+                    <td>Garden International School</td>
+                    <td>Mont Kiara</td>
+                    <td>4–12</td>
+                    <td>日營 / 家長安排</td>
+                    <td>家長在 KL 陪同、孩子白天進國際校環境</td>
                   </tr>
                   <tr>
-                    <td>Camp Route</td>
-                    <td>Erican</td>
+                    <td>Bilingual Parent-child</td>
+                    <td>Julia Gabriel Malaysia</td>
                     <td>Kuala Lumpur</td>
-                    <td>中小學</td>
-                    <td>Camp / 日校</td>
-                    <td>活動型、團體型、節奏更柔和</td>
-                  </tr>
-                  <tr>
-                    <td>Pre-University</td>
-                    <td>Monash Malaysia</td>
-                    <td>Bandar Sunway</td>
-                    <td>16+</td>
-                    <td>城市宿舍 / 自理</td>
-                    <td>高中後段、想先看大學氛圍</td>
+                    <td>6 個月+</td>
+                    <td>親子 / 日營</td>
+                    <td>英中雙語、親子陪同、低齡短期體驗</td>
                   </tr>
                 </tbody>
               </table>
