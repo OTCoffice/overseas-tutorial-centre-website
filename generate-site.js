@@ -14302,6 +14302,223 @@ const canadaEditorialBody = route.slug === "canada"
     `
     : "";
 
+  const compactAllianceEditorialBody = (config) => `
+      <div class="zh-herald-page summer-herald-page summer-herald-us ${config.bodyClass}">
+        <div class="zh-herald-masthead">
+          <div>
+            <div class="zh-herald-name-en">OTC Study Hub</div>
+            <div class="zh-herald-name-zh">海外督導 OTC</div>
+            <div class="zh-herald-tagline">Summer Alliance Desk</div>
+          </div>
+          <div class="zh-herald-meta">
+            <div><strong>${config.chineseTitle}</strong></div>
+            <div>${config.englishTitle}</div>
+            <div>OTC Study Hub</div>
+            <div>overseasuk.com/summer-school-alliance</div>
+          </div>
+        </div>
+        <div class="zh-herald-section-bar">
+          <div class="zh-herald-section-tag">${config.stripTag}</div>
+          <div class="zh-herald-section-line"></div>
+          <time>2026</time>
+        </div>
+        <div class="zh-herald-body-grid summer-herald-grid">
+          <main class="zh-herald-main summer-herald-main">
+            <header class="zh-herald-hero summer-herald-hero">
+              <div class="summer-herald-title-stack">
+                <h1>${config.chineseTitle}</h1>
+                <h2>${config.englishTitle}</h2>
+              </div>
+              <p class="zh-herald-standfirst">${config.standfirst}</p>
+            </header>
+            <div class="summer-mini-details-grid summer-mini-details-grid-herald summer-mini-details-grid-us">
+              ${config.quickNotes.map((item, index) => `
+                <details class="summer-mini-detail">
+                  <summary><b>${String(index + 1).padStart(2, "0")}</b><strong>${item.title}</strong><span>${item.line}</span></summary>
+                  <p>${item.copy}</p>
+                </details>
+              `).join("")}
+            </div>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="一">${config.sectionOneTitle}</h2>
+              <p>${config.sectionOneCopy}</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="二">${config.sectionTwoTitle}</h2>
+              <p>${config.sectionTwoCopy}</p>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="三">熱門課程總表改到獨立頁面</h2>
+              <p>${config.programmesCopy}</p>
+              <div class="summer-herald-linkbox">
+                <strong>${config.programmesTitle}</strong>
+                <span>${config.programmesLine}</span>
+                <div class="actions">
+                  <a class="btn btn-primary" href="${config.programmesHref}">打開項目總表</a>
+                  <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent(config.whatsappText)}">WhatsApp</a>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h2 class="zh-herald-section-head" data-num="四">合作與申請口徑</h2>
+              <p>${config.cooperationCopy}</p>
+              <div class="summer-country-cta-row">
+                <a class="btn btn-primary" href="/zh/education-partners/">合作夥伴入口</a>
+                <a class="btn btn-secondary" href="/consultation-chat/?source=summer-school-alliance-${config.slug}">家庭諮詢</a>
+              </div>
+            </section>
+          </main>
+          <aside class="zh-herald-side summer-herald-side">
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">四條主線</div>
+              ${config.routeCards.map((card) => `
+                <div class="zh-herald-trust-card ${card.className}">
+                  <div class="zh-herald-card-name">${card.title}</div>
+                  <div class="zh-herald-card-en">${card.en}</div>
+                  <div class="zh-herald-card-desc">${card.copy}</div>
+                </div>
+              `).join("")}
+            </div>
+            <div class="zh-herald-widget">
+              <div class="zh-herald-widget-title">${config.sidebarTitle}</div>
+              ${config.resourceItems.map((item) => `
+                <div class="zh-herald-resource-item">
+                  <div class="zh-herald-resource-icon">${item.code}</div>
+                  <div>
+                    <div class="zh-herald-resource-name">${item.title}</div>
+                    <div class="zh-herald-card-desc">${item.copy}</div>
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </aside>
+        </div>
+      </div>
+    `;
+
+  const irelandEditorialBody = route.slug === "ireland"
+    ? compactAllianceEditorialBody({
+      slug: "ireland",
+      bodyClass: "summer-herald-ireland",
+      chineseTitle: "海外督導｜暑校聯盟｜愛爾蘭",
+      englishTitle: "Ireland Summer Alliance 2026",
+      stripTag: "Ireland · Dublin · Residential · Homestay",
+      standfirst: "愛爾蘭這條線適合先看 Dublin 英語沉浸、寄宿家庭、寄宿校園與 UCD / 城市中心 route。先把住宿與語言支援看清楚，再做 shortlist。",
+      quickNotes: [
+        { title: "收費說明", line: "先分寄宿、寄宿家庭與大學校園。", copy: "愛爾蘭費用差異主要來自住宿、接送、活動與校園類型。" },
+        { title: "標準流程", line: "先看城市與住宿，再看 provider。", copy: "先確認年齡、英文水平、住宿承受度與當季日期。" },
+        { title: "適合家庭", line: "適合低風險英語沉浸。", copy: "適合想避開英美高價、又希望保留歐洲英語環境的家庭。" },
+        { title: "路線分類", line: "Dublin、寄宿校園、UCD、考試英語。", copy: "不同 route 對孩子獨立性和家長陪同要求不同。" },
+        { title: "減壓流程", line: "OTC 先核對照護邏輯。", copy: "先把 airport transfer、homestay、residential 與保險問清楚。" },
+        { title: "常見問題", line: "先看是否真適合短期。", copy: "愛爾蘭更適合英語信心與歐洲短期體驗，不宜硬套名校暑校口徑。" }
+      ],
+      sectionOneTitle: "愛爾蘭線更適合哪類家庭",
+      sectionOneCopy: "如果家庭想要歐洲、英文環境、費用相對可控，又不希望一開始就進入英美高密度名校暑校，愛爾蘭是一條很穩的試水 route。它更像英語沉浸與住宿適應，不是單純追名校標籤。",
+      sectionTwoTitle: "先分清楚這四條主線",
+      sectionTwoCopy: "Dublin 主流英語學校、寄宿校園、UCD / university taster、以及考試英語 / Cambridge prep。先分路線，才知道應該看 ATC、ICE、ISI、Emerald、CES 還是 UCD。",
+      programmesCopy: "愛爾蘭 provider 數量不算最多，但住宿模式、校園位置和日期差異很大。主頁先講清楚家庭適配，完整項目放到 programmes 頁集中比對。",
+      programmesTitle: "愛爾蘭暑校熱門課程總表",
+      programmesLine: "ICE、ATC、ISI Dublin、Emerald、CES、UCD 與多語種差異化候選集中整理。",
+      programmesHref: "/zh/summer-school-alliance/ireland/programmes/",
+      whatsappText: "你好，我想先看愛爾蘭暑校熱門課程總表。",
+      cooperationCopy: "愛爾蘭頁目前使用候選 route 口徑，不寫成官方合作夥伴。後續如 provider 提供正式 agent / group / referral 條款，再更新合作狀態。",
+      routeCards: [
+        { className: "family", title: "Dublin 英語沉浸", en: "ATC / CES / ISI", copy: "適合想把城市、安全與英文輸出放在一起看的家庭。" },
+        { className: "unit", title: "寄宿校園型", en: "ICE / Residential Schools", copy: "適合希望孩子住校、作息集中、照護邏輯更清楚的家庭。" },
+        { className: "will", title: "大學體驗型", en: "UCD", copy: "適合高中段、想先看 university campus 與選專業工作坊的學生。" },
+        { className: "smsf", title: "考試英語型", en: "Emerald / Cambridge Prep", copy: "適合要把短期英語接回 FCE / CAE 或升學英文準備的家庭。" }
+      ],
+      sidebarTitle: "先看這幾個點",
+      resourceItems: [
+        { code: "ICE", title: "Irish College of English", copy: "2026 日期較清楚，是愛爾蘭線可優先核價的候選。" },
+        { code: "ATC", title: "ATC Language Schools", copy: "多校區、寄宿與寄宿家庭雙線，適合主流英語沉浸。" },
+        { code: "UCD", title: "UCD Summer High School", copy: "大學官方 route，但年齡、費用和日期需逐項確認。" }
+      ]
+    })
+    : "";
+
+  const singaporeEditorialBody = route.slug === "singapore"
+    ? compactAllianceEditorialBody({
+      slug: "singapore",
+      bodyClass: "summer-herald-singapore",
+      chineseTitle: "海外督導｜暑校聯盟｜新加坡",
+      englishTitle: "Singapore Summer Alliance 2026",
+      stripTag: "Singapore · Day Camp · Bilingual Early Years · STEM",
+      standfirst: "新加坡不是傳統寄宿暑校主場，而是 day camp、STEM、英語、雙語幼兒園與親子早教的高密度城市 route。這頁先幫家庭分清楚陪讀、住宿與低齡照護邏輯。",
+      quickNotes: [
+        { title: "收費說明", line: "多數是日營，住宿另算。", copy: "主要成本是課程、接送、家長住宿與城市生活費。" },
+        { title: "標準流程", line: "先分 day camp 與親子雙語。", copy: "低齡家庭要先確認是否接受短期國際家庭 drop-in。" },
+        { title: "適合家庭", line: "適合低齡與亞洲試水。", copy: "適合不想長途飛歐美、又想看英文 / 雙語環境的華語家庭。" },
+        { title: "路線分類", line: "STEM、英語、雙語幼兒、國際校。", copy: "每條線的家長陪同、接送和照護責任不同。" },
+        { title: "減壓流程", line: "OTC 先問清楚家長端安排。", copy: "先核對 daily schedule、transport、lunch、visitor eligibility 與保險。" },
+        { title: "常見問題", line: "不要誤當寄宿暑校。", copy: "新加坡強在城市日營和雙語早教，不一定自帶住宿和監護。" }
+      ],
+      sectionOneTitle: "新加坡線更適合哪類家庭",
+      sectionOneCopy: "如果孩子年齡偏小、家長希望陪同、或希望先看英語 / Mandarin bilingual / STEM / international school day camp，新加坡會比歐美長線更容易落地。它適合短期高密度體驗，不適合被包裝成全托寄宿暑校。",
+      sectionTwoTitle: "先分清楚這四條主線",
+      sectionTwoCopy: "國際校 day camp、英文品牌營、親子雙語早教、以及 STEM / multi-activity camp。Camp Asia、XCL、British Council、Julia Gabriel、Maple Bear 應按家庭年齡段和陪同方式分開看。",
+      programmesCopy: "新加坡項目容易因為看起來都在同一座城市而混在一起。主頁先講清楚路線和家長責任，完整 provider 清單放到子頁集中比較。",
+      programmesTitle: "新加坡暑校熱門課程總表",
+      programmesLine: "Camp Asia、XCL、British Council、Julia Gabriel、Maple Bear 等 day camp / bilingual early years route。",
+      programmesHref: "/zh/summer-school-alliance/singapore/programmes/",
+      whatsappText: "你好，我想先看新加坡暑校熱門課程總表。",
+      cooperationCopy: "新加坡頁使用候選 route 口徑，尤其低齡與幼兒園項目需逐一確認短期國際家庭可否報名、是否需要家長全程陪同，以及保險與接送責任。",
+      routeCards: [
+        { className: "family", title: "國際校日營", en: "Camp Asia / XCL", copy: "適合 3–16 歲，重活動、STEM、運動與英文輸出。" },
+        { className: "unit", title: "英文品牌型", en: "British Council", copy: "適合要穩定英語課程與品牌信任感的家庭。" },
+        { className: "will", title: "親子雙語型", en: "Julia Gabriel", copy: "適合低齡、家長陪同與 English + Mandarin exposure。" },
+        { className: "smsf", title: "幼兒園路線", en: "Maple Bear / Odyssey", copy: "適合看 preschool / bilingual environment，但短期名額需核實。" }
+      ],
+      sidebarTitle: "家長先核對",
+      resourceItems: [
+        { code: "DAY", title: "多數為日營", copy: "住宿、陪同與接送通常要家庭另行安排。" },
+        { code: "0-6", title: "低齡需要額外確認", copy: "under-6 是否可短期加入、是否需家長陪同，要逐項問 provider。" },
+        { code: "SG", title: "城市效率高", copy: "適合短期、低齡、親子與亞洲區家庭試水。" }
+      ]
+    })
+    : "";
+
+  const thailandEditorialBody = route.slug === "thailand"
+    ? compactAllianceEditorialBody({
+      slug: "thailand",
+      bodyClass: "summer-herald-thailand",
+      chineseTitle: "海外督導｜暑校聯盟｜泰國",
+      englishTitle: "Thailand Summer Alliance 2026",
+      stripTag: "Thailand · Bangkok · Early Years · Boarding",
+      standfirst: "泰國線要分清 Bangkok 日營、國際校 camp、親子幼兒、以及少數 boarding / outdoor route。它不是單一英語營，而是低齡、家庭陪同與國際校觀察的混合入口。",
+      quickNotes: [
+        { title: "收費說明", line: "日營與住校差異很大。", copy: "課程費、接送、家長住宿、醫療保險和 boarding 監護需分開核對。" },
+        { title: "標準流程", line: "先分 Bangkok、boarding、幼兒。", copy: "先看孩子年齡、家長是否同行、是否需要住校。" },
+        { title: "適合家庭", line: "適合亞洲親子與國際校觀察。", copy: "適合希望低成本看 international school / early years environment 的家庭。" },
+        { title: "路線分類", line: "國際校、親子幼兒、英文、戶外寄宿。", copy: "不同 route 的照護責任完全不同。" },
+        { title: "減壓流程", line: "OTC 先問清短期可行性。", copy: "先核對是否接受 non-enrolled overseas children、每日時間和 guardian rule。" },
+        { title: "常見問題", line: "先看是否有真住宿。", copy: "很多曼谷項目是 day camp，不應按英國 boarding camp 方式理解。" }
+      ],
+      sectionOneTitle: "泰國線更適合哪類家庭",
+      sectionOneCopy: "泰國更適合低齡、親子、國際校觀察和亞洲短期體驗。它的價值不是名校光環，而是讓家庭在成本較低、距離較近的環境裡看孩子是否適合英文 / 國際校節奏。",
+      sectionTwoTitle: "先分清楚這四條主線",
+      sectionTwoCopy: "Bangkok 國際校日營、早幼兒 / parent-child、British Council 英文課、以及 Rugby School Thailand 類 boarding / outdoor route。先分住宿和家長責任，再談 provider。",
+      programmesCopy: "泰國項目年齡跨度很大，從 18 個月到 teen camp 都有。主頁保留 route 判斷，完整項目清單放在 programmes 頁集中看。",
+      programmesTitle: "泰國暑校熱門課程總表",
+      programmesLine: "Rugby School Thailand、Harrow Bangkok、Shrewsbury、ELC Bangkok、British Council Thailand 等 route。",
+      programmesHref: "/zh/summer-school-alliance/thailand/programmes/",
+      whatsappText: "你好，我想先看泰國暑校熱門課程總表。",
+      cooperationCopy: "泰國頁目前以候選項目和 route research 呈現，boarding、低齡和國際校 drop-in 都需逐一確認當季名額與監護安排。",
+      routeCards: [
+        { className: "family", title: "戶外寄宿型", en: "Rugby School Thailand", copy: "適合想看 boarding + outdoor + English 的家庭，但檔期需提前確認。" },
+        { className: "unit", title: "國際校日營", en: "Harrow / Shrewsbury", copy: "適合看 Bangkok 國際校環境、活動和英語課堂節奏。" },
+        { className: "will", title: "早幼兒路線", en: "ELC Bangkok", copy: "適合低齡、家庭陪同、短期 summer programme 觀察。" },
+        { className: "smsf", title: "英語品牌型", en: "British Council", copy: "適合以英文提升為主、不需要住宿的家庭。" }
+      ],
+      sidebarTitle: "先看這幾個風險",
+      resourceItems: [
+        { code: "BKK", title: "Bangkok 多為日營", copy: "接送、家長住宿與餐食安排要先拆開算。" },
+        { code: "BRD", title: "住校名額有限", copy: "boarding route 需確認年齡、監護、保險和剩餘名額。" },
+        { code: "0-6", title: "低齡規則不同", copy: "幼兒園短期加入、parent-child 和 ratio 不能靠猜。" }
+      ]
+    })
+    : "";
+
   const ukEditorialBody = route.slug === "uk"
     ? `
       <div class="zh-herald-page summer-herald-page summer-herald-us summer-herald-uk">
@@ -14432,7 +14649,7 @@ const canadaEditorialBody = route.slug === "canada"
       : route.slug === "uk"
       ? "OTC 英國暑校聯盟分享題圖"
       : "",
-    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : route.slug === "new-zealand" ? newZealandEditorialBody : route.slug === "australia" ? australiaEditorialBody : route.slug === "uk" ? ukEditorialBody : `
+    body: route.slug === "united-states" ? usEditorialBody : route.slug === "malaysia" ? malaysiaEditorialBody : route.slug === "canada" ? canadaEditorialBody : route.slug === "new-zealand" ? newZealandEditorialBody : route.slug === "australia" ? australiaEditorialBody : route.slug === "ireland" ? irelandEditorialBody : route.slug === "singapore" ? singaporeEditorialBody : route.slug === "thailand" ? thailandEditorialBody : route.slug === "uk" ? ukEditorialBody : `
       <section class="page-hero regional-office-hero country-gateway-hero">
         <div class="band">
           <div class="eyebrow">OTC Summer School Country Desk</div>
@@ -15579,6 +15796,153 @@ function ukProgrammesPage() {
       { id: "premium-camp", code: "04", title: "Premium Camp 型", description: "適合活動更多、課堂壓力更低的家庭。" }
     ],
     getCategory: (title) => /KCL|UCL|Imperial|UAL|InvestIN|Academic Summer|King’s College London/i.test(title) ? "london-campus" : /Oxford|Cambridge|Reach Cambridge|ISSOS|Immerse|St Clare|Oxford Royale|Oxford Summer Courses|Bucksmore Pre-University|Earlscliffe/i.test(title) ? "oxbridge-academic" : /Language in Action|Bucksmore Intensive English|Bucksmore English|Bucksmore IELTS|TASIS|Bell Young Learners|Felsted/i.test(title) ? "junior-english" : "premium-camp"
+  });
+}
+
+function irelandProgrammesPage() {
+  return buildAllianceProgrammesPage("ireland", {
+    pageTitle: "愛爾蘭暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "愛爾蘭暑校熱門課程總表：ICE、ATC、ISI Dublin、Emerald、CES、UCD 與 Dublin residential / homestay / university-taster route 總表。",
+    path: "/zh/summer-school-alliance/ireland/programmes/",
+    image: "",
+    imageAlt: "OTC 愛爾蘭暑校聯盟項目總表",
+    bodyClass: "summer-herald-ireland",
+    chineseTitle: "海外督導｜暑校聯盟｜愛爾蘭",
+    englishTitle: "Ireland Summer Alliance 2026",
+    stripTag: "Ireland Programmes",
+    standfirst: "這一頁集中放 ICE、ATC、UCD、Emerald、ISI Dublin 等 route，方便家長直接比對 Dublin 城市英語、寄宿校園、寄宿家庭與 university-taster 路線。",
+    inlineStrip: [
+      { title: "先看住宿", copy: "homestay、residential、university campus 要分開。" },
+      { title: "再看英文目標", copy: "一般英語、考試英語與 university taster 不同。" },
+      { title: "最後做 shortlist", copy: "先把年齡、日期、接送與保險核對完。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead><tr><th>類型</th><th>代表 Provider</th><th>地點</th><th>住宿</th><th>更適合誰</th></tr></thead>
+          <tbody>
+            <tr><td>日期較清楚型</td><td>Irish College of English</td><td>Dublin / Glenstal / Clongowes</td><td>Homestay / Residence</td><td>想先拿到可落地檔期的家庭</td></tr>
+            <tr><td>Dublin 主流英語</td><td>ATC / ISI / CES</td><td>Dublin</td><td>Homestay / Residence</td><td>想做英語沉浸與城市適應的學生</td></tr>
+            <tr><td>大學體驗</td><td>UCD</td><td>University College Dublin</td><td>On-campus TBC</td><td>高中段、想看本科前置與選專業的學生</td></tr>
+            <tr><td>考試英語</td><td>Emerald</td><td>Dublin</td><td>待核</td><td>想接回 FCE / CAE 或升學英文的家庭</td></tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/ireland/",
+    backLabel: "愛爾蘭",
+    groups: [
+      { id: "published-dates", code: "01", title: "日期較清楚型", description: "適合先做可行性核價與家庭檔期判斷。" },
+      { id: "mainstream-english", code: "02", title: "Dublin 主流英語", description: "適合英語沉浸、寄宿家庭與城市安全感。" },
+      { id: "university-taster", code: "03", title: "University Taster", description: "適合高中段、希望看到大學官方課堂與 campus 的學生。" },
+      { id: "exam-english", code: "04", title: "考試英語 / Cambridge Prep", description: "適合把短期英語接回考試與升學英文準備。" }
+    ],
+    getCategory: (title) => /Irish College|ICE/i.test(title)
+      ? "published-dates"
+      : /UCD|University College Dublin/i.test(title)
+        ? "university-taster"
+        : /Emerald/i.test(title)
+          ? "exam-english"
+          : "mainstream-english"
+  });
+}
+
+function singaporeProgrammesPage() {
+  return buildAllianceProgrammesPage("singapore", {
+    pageTitle: "新加坡暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "新加坡暑校熱門課程總表：Camp Asia、XCL、British Council、Julia Gabriel、Maple Bear 與 day camp / bilingual early years route 總表。",
+    path: "/zh/summer-school-alliance/singapore/programmes/",
+    image: "",
+    imageAlt: "OTC 新加坡暑校聯盟項目總表",
+    bodyClass: "summer-herald-singapore",
+    chineseTitle: "海外督導｜暑校聯盟｜新加坡",
+    englishTitle: "Singapore Summer Alliance 2026",
+    stripTag: "Singapore Programmes",
+    standfirst: "這一頁集中放 Camp Asia、XCL、Julia Gabriel、British Council、Maple Bear 等 route，方便家長直接比對日營、英語、STEM、雙語幼兒與親子陪同安排。",
+    inlineStrip: [
+      { title: "先看日營", copy: "多數新加坡 route 不含住宿。" },
+      { title: "再看低齡照護", copy: "under-6 是否需家長陪同要逐項確認。" },
+      { title: "最後做 shortlist", copy: "課程、接送、午餐、保險與家長住宿拆開看。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead><tr><th>類型</th><th>代表 Provider</th><th>年齡</th><th>模式</th><th>更適合誰</th></tr></thead>
+          <tbody>
+            <tr><td>國際校日營</td><td>Camp Asia / XCL</td><td>3–16</td><td>Day camp</td><td>想做 STEM、運動、英文和活動混合的家庭</td></tr>
+            <tr><td>英文品牌型</td><td>British Council</td><td>4–16</td><td>Day English</td><td>以英語提升與品牌信任為主的家庭</td></tr>
+            <tr><td>親子雙語型</td><td>Julia Gabriel</td><td>6 months+</td><td>Parent-child / Day</td><td>低齡、家長陪同、英中雙語啟蒙</td></tr>
+            <tr><td>幼兒園路線</td><td>Maple Bear</td><td>18 months–6</td><td>Preschool / Holiday</td><td>想看 Canadian bilingual preschool 的家庭</td></tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/singapore/",
+    backLabel: "新加坡",
+    groups: [
+      { id: "day-camp", code: "01", title: "國際校日營", description: "適合 STEM、運動、多活動與英文輸出。" },
+      { id: "english-brand", code: "02", title: "英文品牌型", description: "適合以英語提升與穩定課程為主。" },
+      { id: "bilingual-early-years", code: "03", title: "親子雙語 / 幼兒園", description: "適合低齡、親子陪同與 English + Mandarin exposure。" },
+      { id: "preschool-route", code: "04", title: "Preschool Route", description: "適合短期觀察雙語幼兒園環境，但 drop-in 需核實。" }
+    ],
+    getCategory: (title) => /Julia Gabriel/i.test(title)
+      ? "bilingual-early-years"
+      : /Maple Bear/i.test(title)
+        ? "preschool-route"
+        : /British Council/i.test(title)
+          ? "english-brand"
+          : "day-camp"
+  });
+}
+
+function thailandProgrammesPage() {
+  return buildAllianceProgrammesPage("thailand", {
+    pageTitle: "泰國暑校熱門課程總表 | OTC Study Hub",
+    pageDescription: "泰國暑校熱門課程總表：Rugby School Thailand、Harrow Bangkok、ELC Bangkok、Shrewsbury、British Council Thailand 與 early-years / international-school route 總表。",
+    path: "/zh/summer-school-alliance/thailand/programmes/",
+    image: "",
+    imageAlt: "OTC 泰國暑校聯盟項目總表",
+    bodyClass: "summer-herald-thailand",
+    chineseTitle: "海外督導｜暑校聯盟｜泰國",
+    englishTitle: "Thailand Summer Alliance 2026",
+    stripTag: "Thailand Programmes",
+    standfirst: "這一頁集中放 Rugby School Thailand、Harrow Bangkok、ELC Bangkok、Shrewsbury、British Council Thailand 等 route，方便家長直接比對 Bangkok day camp、早幼兒、英文課與 boarding / outdoor。",
+    inlineStrip: [
+      { title: "先看住宿", copy: "泰國多數為日營，少數 boarding 需要提早卡位。" },
+      { title: "再看低齡", copy: "18 months–6 歲要先確認陪同和 drop-in 規則。" },
+      { title: "最後做 shortlist", copy: "guardian、接送、保險與家長停留拆開核對。" },
+      { title: "聯絡 OTC", copy: "WhatsApp +44 7947 991572 · WeChat overseasus" }
+    ],
+    compareTableHtml: `
+      <div class="article-service-table summer-programme-compare-table">
+        <table>
+          <thead><tr><th>類型</th><th>代表 Provider</th><th>地點</th><th>模式</th><th>更適合誰</th></tr></thead>
+          <tbody>
+            <tr><td>戶外寄宿型</td><td>Rugby School Thailand</td><td>Chonburi</td><td>Day / Residential</td><td>想要英文、戶外與英式寄宿學校感</td></tr>
+            <tr><td>國際校日營</td><td>Harrow / Shrewsbury</td><td>Bangkok</td><td>Day / Boarding TBC</td><td>想看曼谷國際學校環境的家庭</td></tr>
+            <tr><td>早幼兒路線</td><td>ELC Bangkok</td><td>Bangkok</td><td>Day</td><td>低齡、親子、國際幼兒園試水</td></tr>
+            <tr><td>英文品牌型</td><td>British Council</td><td>Bangkok</td><td>Day English</td><td>以英文提升為主的 6–17 歲學生</td></tr>
+          </tbody>
+        </table>
+      </div>
+    `,
+    backHref: "/zh/summer-school-alliance/thailand/",
+    backLabel: "泰國",
+    groups: [
+      { id: "boarding-outdoor", code: "01", title: "戶外寄宿型", description: "適合英文、戶外與 boarding exposure。" },
+      { id: "international-school", code: "02", title: "國際校日營", description: "適合 Bangkok 國際校環境觀察。" },
+      { id: "early-years", code: "03", title: "早幼兒 / 親子", description: "適合低齡、parent-child 與 preschool observation。" },
+      { id: "english-course", code: "04", title: "英文品牌型", description: "適合以英文提升為主的短期 route。" }
+    ],
+    getCategory: (title) => /Rugby/i.test(title)
+      ? "boarding-outdoor"
+      : /ELC/i.test(title)
+        ? "early-years"
+        : /British Council/i.test(title)
+          ? "english-course"
+          : "international-school"
   });
 }
 
@@ -18825,6 +19189,12 @@ write("summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("zh/summer-school-alliance/malaysia/programmes", malaysiaProgrammesPage());
 write("summer-school-alliance/canada/programmes", canadaProgrammesPage());
 write("zh/summer-school-alliance/canada/programmes", canadaProgrammesPage());
+write("summer-school-alliance/ireland/programmes", irelandProgrammesPage());
+write("zh/summer-school-alliance/ireland/programmes", irelandProgrammesPage());
+write("summer-school-alliance/singapore/programmes", singaporeProgrammesPage());
+write("zh/summer-school-alliance/singapore/programmes", singaporeProgrammesPage());
+write("summer-school-alliance/thailand/programmes", thailandProgrammesPage());
+write("zh/summer-school-alliance/thailand/programmes", thailandProgrammesPage());
 write("summer-school-alliance/new-zealand/programmes", newZealandProgrammesPage());
 write("zh/summer-school-alliance/new-zealand/programmes", newZealandProgrammesPage());
 write("summer-school-alliance/australia/programmes", australiaProgrammesPage());
