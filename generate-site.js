@@ -1610,6 +1610,8 @@ function searchItems() {
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
     ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
+    ["私校聯盟", "/zh/private-school-alliance/", "OTC 中文私校聯盟入口：按國家、課程體系、年級、寄宿/走讀與家庭長線規劃整理 K-12 國際校和私校觀察路線。"],
+    ["越南私校聯盟", "/zh/private-school-alliance/vietnam/", "OTC 越南私校聯盟樣本頁：The Dewey Schools 院校資料、校區、課程體系、官方連結與家庭初篩入口。"],
     ["Courses", "/courses/", "OTC course architecture hub separating the global programme finder from OTC's own learning platform, tutoring routes and qualification support."],
     ["OTC Learning Platform", "/learning-platform/", "OTC's own learning platform for international curriculum tutoring, Apps & Tools, OTHM, external programme support, academic tutoring and progression guidance."],
     ["International Curriculum Bilingual Tutoring", "/international-curriculum-tutoring/", "Bilingual academic tutoring for A-Level, BTEC, IB, AP, IGCSE, OSSD, Australian, US high school, Foundation, HND, OTHM, NCC and ATHE learners."],
@@ -2065,6 +2067,119 @@ const insightsArticles = [
           "下一步不是立刻送件，而是先看簽證風險：為什麼讀這個課程、為什麼去澳洲、為什麼是現在、為什麼是這個級別、家庭資金如何說明、學生過去學習與未來計劃是否連得起來。",
           "OTC 公開頁面只說文件初篩、風險提示與個案協調。收到申請後，後續處理由 OTC 按個案手動跟進，不在公開頁面呈現後台流程。",
           "一句話總結：TAFE SA 路線很適合做澳洲職業教育與大學銜接規劃，但要把一般 pathway、護理註冊、簽證材料和大學打包分開讀。分清楚，才不會在後面白白失分。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "vietnam-the-dewey-schools-private-school-alliance-2026",
+    title: "Vietnam Private School Route: The Dewey Schools as a K-12 American / IB Case Study for Chinese-Speaking Families",
+    date: "2026-05-29",
+    category: "K-12 / Private Schools",
+    column: "study",
+    kicker: "Vietnam · Private School Alliance · K-12",
+    author: "留學導報編輯部",
+    summary: "The Dewey Schools in Vietnam offers a useful case study for families comparing Asian K-12 international-school routes: an Edufit K-12 school system, CIS member positioning, IB / AP / American curriculum signals, multiple campuses and public academic-results data. This briefing explains what Chinese-speaking families should verify before treating it as a long-term school route.",
+    titleZh: "越南私校聯盟樣本：The Dewey Schools 為什麼值得放進亞洲低齡留學比較？",
+    summaryZh: "The Dewey Schools 是越南 Edufit Education Group 旗下 K-12 學校系統，官網公開標示 CIS member school、IB international school、AP program 與 Mount Vernon School (USA) partner school 等信息。本文用它作為 OTC 私校聯盟第一個越南樣本，說明中文家庭如何判讀越南國際校：校區、課程體系、英文比例、IB/AP/美式文憑、升學成果與後續長線規劃都要分開核對。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "foundation-vs-international-year-one-vs-direct-entry-uk-aus"
+    ],
+    resources: [
+      ["The Dewey Schools official website", "https://thedeweyschools.edu.vn/en/"],
+      ["The Dewey Schools academic results", "https://thedeweyschools.edu.vn/en/academic-results/"],
+      ["The Dewey Schools Tay Ho Tay campus", "https://thedeweyschools.edu.vn/en/cp/dewey-tay-ho-tay/"],
+      ["OTC 越南私校聯盟頁", "https://overseasuk.com/zh/private-school-alliance/vietnam/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-29。本文依據 The Dewey Schools 官網公開頁面整理，不代表 OTC 與該校存在正式代理授權或招生合作。",
+      "CIS、IB、AP、美國文憑、合作學校、升學成果與校區信息均需按具體校區、年級、入學年度與學校正式文件再次核對。本文不構成錄取、簽證、升學或獎學金結果承諾。"
+    ],
+    body: [
+      {
+        heading: "1) Why Vietnam belongs in a private-school comparison",
+        paragraphs: [
+          "For many Chinese-speaking families, Vietnam is not yet the first country that comes to mind for K-12 international education. That is exactly why it deserves a separate category rather than being hidden inside a generic Southeast Asia note.",
+          "Vietnam can be relevant for families who want an Asian location, a developing international-school ecosystem, English-medium exposure, and a route that may feel more manageable than moving directly into the UK, Australia, Canada or the United States."
+        ]
+      },
+      {
+        heading: "2) The Dewey Schools: what the official pages show",
+        paragraphs: [
+          "The Dewey Schools’ official website describes it as a K-12 school system under Edufit Education Group. It also presents several public positioning signals: CIS member school, AP program, IB international school and partner school references.",
+          "The school website lists several campuses, including Cau Giay, Tay Ho Tay, Hai Phong and Ocean Park. For families, this means the first question is not simply “Is Dewey good?” but “Which campus, which year group, which programme and which graduation route are we discussing?”"
+        ]
+      },
+      {
+        heading: "3) Curriculum signals: American, IB, AP and bilingual pathways should be separated",
+        paragraphs: [
+          "The public curriculum information includes Integrated Explore / Discover, Adventure International, Journey International and IB Programme routes. The website also mentions ratios of instructional language and different graduation outcomes across routes.",
+          "Families should not merge all of these into one label. An IB route, an American high-school-diploma route, a Vietnamese national diploma route and a bilingual integrated route have different implications for university applications, transfer timing and academic support."
+        ]
+      },
+      {
+        heading: "4) Academic results are useful, but must be read carefully",
+        paragraphs: [
+          "The Dewey Schools’ public results page reports strong university outcomes, including a figure of 94.1% admitted to top national and global universities and a 70.6% subset admitted to selected prestigious groups. These figures are useful as a signal, but families should still ask which cohort, which campus, which curriculum route and which destinations are included.",
+          "A strong results page helps with first screening. It does not replace programme-specific due diligence, teacher/counsellor conversations, student fit, language readiness or a realistic assessment of whether the child can thrive in that school environment."
+        ]
+      },
+      {
+        heading: "5) OTC reading: when Dewey may fit a Chinese-speaking family",
+        paragraphs: [
+          "Dewey may be worth shortlisting for families comparing Asian K-12 international-school routes, especially where the family wants English-medium immersion but still prefers an Asian setting and a staged transition.",
+          "It may also be relevant for families comparing IB/AP/American routes before deciding whether to move later to the US, Australia, the UK, Canada, Singapore or another destination. The key is to avoid treating a school label as a guarantee: year group, English level, campus, route and graduation evidence matter."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼越南應該放進私校比較，而不是只放在旅遊或暑校頁",
+        paragraphs: [
+          "很多中文家庭談低齡留學時，第一反應通常是英國、澳洲、加拿大、新加坡或美國，越南不一定在第一張清單裡。但正因如此，越南國際校更適合單獨做一個「私校聯盟」入口，而不是混在一般東南亞短期項目裡。",
+          "越南對部分家庭的吸引力在於：距離亞洲家庭生活圈更近、國際學校體系正在發展、英文浸潤環境比本地普通學校強，又不像一步到位去英澳美加那樣需要立刻處理非常重的住宿、監護和文化落差。"
+        ]
+      },
+      {
+        heading: "二、The Dewey Schools：官網能看到什麼",
+        paragraphs: [
+          "The Dewey Schools 官網介紹其為 Edufit Education Group 旗下 K-12 school system，並在首頁公開展示 CIS member school、AP program、IB international school、partner school 等定位信息。",
+          "官網同時列出多個校區，包括 Cau Giay、Tay Ho Tay、Hai Phong、Ocean Park。對家長來說，第一個問題不是簡單問「Dewey 好不好」，而是要問清楚：哪個校區、哪個年級、哪條課程線、哪種畢業出口。",
+          `OTC 已新建越南私校聯盟子頁，家長可從這裡進入院校官網與初步問題清單：<a href="/zh/private-school-alliance/vietnam/">/zh/private-school-alliance/vietnam/</a>。`
+        ]
+      },
+      {
+        heading: "三、IB、AP、美式與雙語路線不能混成一句「國際校」",
+        paragraphs: [
+          "官網列出的課程信息包含 Integrated Explore / Discover、Adventure International、Journey International 與 IB Programme 等方向，也列出不同英文授課比例和不同畢業出口描述。",
+          "這些不能混成一句「全英文國際校」。IB 路線、美國高中文憑路線、越南國家文憑路線、雙語融合路線，對未來大學申請、轉學時間、學分銜接和英文支持的要求都不一樣。",
+          `家長初篩時可先用這張表：<div class="article-service-table"><table><thead><tr><th>問題</th><th>為什麼重要</th><th>需要問學校什麼</th></tr></thead><tbody><tr><td>孩子目前年級</td><td>年級越高，轉學、學分與畢業文憑風險越高。</td><td>該年級能否轉入？需要補哪些科目？</td></tr><tr><td>英文水平</td><td>全英文/高比例英文課程不是只靠興趣能適應。</td><td>是否有 EAL / ESL 支持？入學測試如何安排？</td></tr><tr><td>目標出口</td><td>IB、AP、美式文憑與越南文憑對應不同大學申請策略。</td><td>畢業文憑、升學顧問、AP/IB 科目與過往錄取數據。</td></tr><tr><td>校區</td><td>不同校區可能有不同年級、設施、師資與項目成熟度。</td><td>所選校區是否提供目標課程與年級？</td></tr></tbody></table></div>`
+        ]
+      },
+      {
+        heading: "四、升學成果很亮眼，但要按 cohort 和路線讀",
+        paragraphs: [
+          "The Dewey Schools 官網披露了包括 94.1% 學生進入 top national & global universities、70.6% 進入若干 prestigious groups 在內的升學成果，也列出 SAT、IELTS、獎學金等指標。",
+          "這些數字對第一輪篩查很有用，但不能代替細節核對。家長應該問：是哪一屆學生？哪個校區？哪些課程線？國內大學和海外大學如何計算？是否包含國際大學在越南校區？獎學金是錄取自帶還是另行申請？",
+          "換句話說，升學成果可以幫助學校進入 shortlist，但不能直接等於孩子本人將來會取得同樣結果。"
+        ]
+      },
+      {
+        heading: "五、什麼家庭適合把 Dewey 放進 shortlist",
+        paragraphs: [
+          "第一類是正在比較亞洲國際校的家庭：希望孩子進入英文浸潤環境，但仍希望保持亞洲生活距離、文化適應與家庭陪伴的可控性。",
+          "第二類是低齡長線家庭：還未決定未來去美國、澳洲、英國、加拿大或新加坡，但希望先把 IB/AP/美式課程和英文輸出能力建起來。",
+          "第三類是已經感覺傳統本地升學路線不夠合適，但又不想立刻把孩子送到遠距離寄宿環境的家庭。越南國際校可以作為過渡選項，但必須先核對簽證、陪讀、住宿、醫療、交通與家長端支持。"
+        ]
+      },
+      {
+        heading: "六、OTC 如何處理這類私校諮詢",
+        paragraphs: [
+          "OTC 不會把 The Dewey Schools 包裝成已簽署正式代理合作的院校，也不會承諾錄取、簽證或升學結果。公開頁面只做教育資訊整理和初步分流。",
+          "更穩妥的做法是：先把孩子年級、英文水平、目前課程、家庭是否陪讀、目標國家、預算和轉入時間寫成一頁資料；再由 OTC 幫家庭列出要問學校的問題，必要時再進入正式聯絡。",
+          `相關入口：<a href="/zh/private-school-alliance/">海外督導｜私校聯盟</a>、<a href="/zh/private-school-alliance/vietnam/">越南私校聯盟：The Dewey Schools</a>、<a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">The Dewey Schools 官方網站</a>。`
         ]
       }
     ]
@@ -11481,6 +11596,7 @@ const chineseEntrance = pageShell({
           <div class="hero-actions">
             <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
             <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
+            <a class="btn btn-secondary" href="/zh/private-school-alliance/">私校聯盟</a>
             <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
             <a class="btn btn-secondary" href="/publishing/">海外書局</a>
             <a class="btn btn-secondary" href="/university-applications/">申請評估</a>
@@ -11502,8 +11618,8 @@ const chineseEntrance = pageShell({
     <section class="band compact-band zh-home-top-links">
       <div class="zh-home-small-links">
         <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用、監護與家長端安排。</span><em>英國｜加拿大｜澳洲｜新西蘭｜住宿文件</em></a>
+        <a href="/zh/private-school-alliance/"><b>私校聯盟</b><span>K-12 國際校、私校觀察、校區比較與長線低齡規劃。</span><em>越南｜澳洲｜英國｜新馬泰｜IB / AP / 美式</em></a>
         <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接、先前學習與雙語解釋。</span><em>Credit transfer｜RPL｜升學文件｜資格對照</em></a>
-        <a href="/zh/education-partners/"><b>機構合作</b><span>學校、教育機構、合作夥伴與市場入口。</span><em>代表申請｜市場進入｜培訓簡報｜資料包</em></a>
         <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span><em>政策解讀｜考牌路線｜家庭決策｜案例觀察</em></a>
       </div>
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
@@ -12421,6 +12537,774 @@ const summerSchoolAlliance = pageShell({
     </section>
   `
 });
+
+const privateSchoolAlliance = pageShell({
+  title: "海外督導｜私校聯盟 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/private-school-alliance/",
+  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+  imageWidth: 1200,
+  imageHeight: 630,
+  imageAlt: "海外督導私校聯盟：越南 The Dewey Schools 分享報頭",
+  description: "OTC 私校聯盟入口：按國家、課程體系、年級、寄宿/走讀、校區與家庭長線規劃整理 K-12 國際校和私校觀察路線。",
+  body: `
+    <section class="page-hero services-hero private-school-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">PRIVATE SCHOOL ALLIANCE</div>
+            <h1>海外督導｜私校聯盟</h1>
+            <h2>K-12 · International Schools · Boarding / Day School · Long-term Planning</h2>
+            <p class="hero-sub">私校聯盟不是單純列校名，而是家庭決策台：把國家、課程體系、年級銜接、住宿照護、英文準備與未來升學出口拆開核對。暑校適合試水，私校聯盟用於真正開始看 K-12 長線路線。</p>
+            <div class="actions private-school-main-actions">
+              <a class="btn btn-primary" href="/zh/private-school-alliance/vietnam/">精選樣本</a>
+              <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Private%20School%20Alliance%20Enquiry">提交需求</a>
+            </div>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/zh/private-school-alliance/vietnam/"><strong>越南樣本</strong><span>The Dewey Schools</span></a>
+            <a href="#private-school-decision-strip"><strong>四個入口</strong><span>國家、體系、年級、照護</span></a>
+            <a href="#private-school-desk"><strong>決策台</strong><span>左側路線 + 右側文件</span></a>
+            <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><strong>導報文章</strong><span>院校介紹與讀法</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="band service-review-strip private-school-strip" id="private-school-decision-strip">
+      <a href="#private-school-countries"><b>LOC</b><strong>國家地區</strong><span>城市生活、陪讀、治安與後續出口</span></a>
+      <a href="#private-school-systems"><b>SYS</b><strong>課程體系</strong><span>IB、AP、美式、英式、雙語與本地文憑</span></a>
+      <a href="#private-school-years"><b>YR</b><strong>年級入口</strong><span>小學、初中、高中轉入與畢業風險</span></a>
+      <a href="#private-school-care"><b>CARE</b><strong>住宿照護</strong><span>寄宿、走讀、校車、陪讀、緊急聯絡</span></a>
+    </section>
+
+    <section class="band compact-band service-review-body" id="private-school-desk">
+      <div class="section-head compact-head service-review-head">
+        <span>K-12 決策台</span>
+        <strong>先做家庭分流，再看院校名字</strong>
+        <p>私校聯盟首頁只做決策入口；深度院校介紹放入國家子頁與導報文章。</p>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section id="private-school-countries">
+            <h2 class="zh-herald-section-head" data-num="01">國家 / 地區入口</h2>
+            <p>國家不是背景圖片，而是家庭決策條件：生活距離、陪讀可能、城市安全感、課程體系和下一站升學出口。</p>
+            <div class="private-school-candidate-list private-school-home-index">
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/vietnam/"><span class="candidate-city"><i>🇻🇳</i> VN</span><strong>越南 Vietnam</strong><span class="candidate-fit">河內美式、IB、雙語與亞洲家庭友好型國際校路線。</span><small>K-12 · American / IB · Hanoi</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/australia/"><span class="candidate-city"><i>🇦🇺</i> AU</span><strong>澳洲 Australia</strong><span class="candidate-fit">私校、boarding、州政府學校與 Gold Coast / Sydney / Melbourne 觀察路線。</span><small>Boarding · State / Private · NSW / QLD</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/united-kingdom/"><span class="candidate-city"><i>🇬🇧</i> UK</span><strong>英國 United Kingdom</strong><span class="candidate-fit">寄宿學校、preparatory school、sixth form 與英式課程銜接。</span><small>Prep · Boarding · Sixth Form</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/singapore/"><span class="candidate-city"><i>🇸🇬</i> SG</span><strong>新加坡 Singapore</strong><span class="candidate-fit">英式、美式、IB 國際校、雙語幼兒園與短住家庭試讀。</span><small>IB · British · Early years</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/malaysia/"><span class="candidate-city"><i>🇲🇾</i> MY</span><strong>馬來西亞 Malaysia</strong><span class="candidate-fit">吉隆坡與柔佛寄宿/走讀國際校，適合亞洲成本比較。</span><small>Boarding · Johor · KL</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/thailand/"><span class="candidate-city"><i>🇹🇭</i> TH</span><strong>泰國 Thailand</strong><span class="candidate-fit">曼谷、春武里、英式國際校與親子短住路線。</span><small>Bangkok · Boarding · Early years</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/united-states/"><span class="candidate-city"><i>🇺🇸</i> US</span><strong>美國 United States</strong><span class="candidate-fit">東岸寄宿、college-prep、Harkness / liberal arts 與高年級申請節奏。</span><small>Boarding · Prep · Grade 9-12</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/canada/"><span class="candidate-city"><i>🇨🇦</i> CA</span><strong>加拿大 Canada</strong><span class="candidate-fit">安省、BC、寄宿/走讀、IB 與北美大學銜接。</span><small>Ontario · BC · Boarding</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/new-zealand/"><span class="candidate-city"><i>🇳🇿</i> NZ</span><strong>新西蘭 New Zealand</strong><span class="candidate-fit">奧克蘭、基督城、寄宿、NCEA / IB 與安全生活節奏。</span><small>Auckland · Boarding · NCEA</small></a>
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/europe/"><span class="candidate-city"><i>🇪🇺</i> EU</span><strong>歐洲 Europe</strong><span class="candidate-fit">瑞士、北歐、西歐、中歐、南歐、東歐私校分區入口。</span><small>Nordic · West · Central · South · East</small></a>
+            </div>
+          </section>
+
+          <section id="private-school-systems">
+            <h2 class="zh-herald-section-head" data-num="02">課程體系怎麼分</h2>
+            <div class="service-route-list">
+              <a href="/international-curriculum-tutoring/"><span>IB</span><strong>IB PYP / MYP / DP</strong><em>重視 inquiry、subject groups、CAS/EE/TOK 與全球大學出口。</em></a>
+              <a href="/international-curriculum-tutoring/"><span>US</span><strong>美式高中 / AP</strong><em>核對 high school diploma、credits、AP subjects、SAT/ACT 與 counsellor support。</em></a>
+              <a href="/international-curriculum-tutoring/"><span>UK</span><strong>IGCSE / A-Level</strong><em>適合後續英澳申請，但需看科目組合與 sixth form 入口。</em></a>
+              <a href="/zh/private-school-alliance/vietnam/"><span>Bilingual</span><strong>雙語 / 本地融合</strong><em>看清英文比例、本地文憑、轉學風險與大學申請出口。</em></a>
+            </div>
+          </section>
+
+          <section id="private-school-years">
+            <h2 class="zh-herald-section-head" data-num="03">年級入口與院校樣本</h2>
+            <div class="private-school-candidate-list">
+              <a class="private-school-candidate-record" href="/zh/private-school-alliance/vietnam/the-dewey-schools/"><span class="candidate-city">Vietnam · Hanoi / Hai Phong</span><strong>The Dewey Schools</strong><span class="candidate-fit">官網顯示 Edufit K-12 school system、CIS member school、IB international school、AP program 與 Mount Vernon School partner school 等信息。</span><small>Sample provider page · campus / curriculum / year-group check</small></a>
+              <a class="private-school-candidate-record" href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><span class="candidate-city">留學導報</span><strong>越南國際校為什麼值得放進亞洲低齡留學比較？</strong><span class="candidate-fit">用 The Dewey Schools 作案例，介紹 K-12、美式/IB/雙語路線、家長應核對的校區與畢業出口。</span><small>Article · route explanation · family reading guide</small></a>
+            </div>
+          </section>
+        </main>
+
+        <aside class="service-guide-side service-herald-side private-school-home-side" id="private-school-care">
+          <div class="otc-quick-consult">
+            <div class="consult-qr-side">
+              <img src="/ai-business-studio/wechat-overseasus-qr.png" alt="WeChat QR" class="qr-img">
+              <span class="qr-tip">微信掃碼諮詢</span>
+            </div>
+            <div class="consult-form-side">
+              <div class="consult-contact-info">
+                <p><strong>WhatsApp:</strong> 400-8244-7990</p>
+                <p><strong>Email:</strong> office@overseasuk.com</p>
+              </div>
+              <div class="input-row">
+                <input type="text" placeholder="姓名" class="consult-input">
+                <input type="text" placeholder="WeChat / 電話" class="consult-input">
+              </div>
+              <a class="consult-submit-btn" href="mailto:office@overseasuk.com?subject=Private%20school%20quick%20consultation">預約諮詢</a>
+            </div>
+          </div>
+          <div class="private-school-side-ledger">
+            <span>家庭初篩</span>
+            <strong>先交一頁資料</strong>
+            <p>學生年級、英文水平、目前課程、目標國家、是否陪讀、住宿偏好、預算範圍與轉入時間。</p>
+            <a href="mailto:office@overseasuk.com?subject=Private%20School%20Alliance%20Family%20Screening">提交初篩 →</a>
+          </div>
+          <div class="private-school-side-ledger">
+            <span>官方核對</span>
+            <strong>校區、課程、文憑</strong>
+            <p>IB/AP/CIS/美國文憑/合作學校等標識必須按校區、年級和當年官方文件核對。</p>
+            <a href="/zh/private-school-alliance/vietnam/">看越南樣本 →</a>
+          </div>
+          <div class="private-school-tag-cloud">
+            <span>熱門標籤</span>
+            <a href="#private-school-countries">#低齡留學</a>
+            <a href="#private-school-systems">#IB</a>
+            <a href="#private-school-systems">#AP</a>
+            <a href="#private-school-care">#寄宿</a>
+            <a href="/zh/summer-school-alliance/">#暑校試讀</a>
+            <a href="/international-curriculum-tutoring/">#英文銜接</a>
+            <a href="/zh/private-school-alliance/europe/">#歐洲私校</a>
+            <a href="/zh/private-school-alliance/singapore/">#雙語幼兒園</a>
+          </div>
+          <div class="private-school-micro-form">
+            <span>按需選校</span>
+            <p>把年級、英文、意向國家、住宿偏好四項發來，先做免費初篩。</p>
+            <a class="private-school-demand-button" href="mailto:office@overseasuk.com?subject=Private%20school%20quick%20screening&body=學生年級：%0A英文水平：%0A意向國家：%0A住宿/陪讀：%0A聯絡方式：">獲取一對一需求 →</a>
+          </div>
+          <div class="sidebar-webinars">
+            <span>近期網路講座</span>
+            <a href="mailto:office@overseasuk.com?subject=AP%20admission%20webinar">[Mar 15] AP 錄取準備講座 | 立即預約 →</a>
+            <a href="mailto:office@overseasuk.com?subject=IB%20course%20strategy%20webinar">[Apr 2] IB 選課策略分析 | 立即預約 →</a>
+          </div>
+          <div class="sidebar-pop-schools">
+            <span>熱門學校推薦</span>
+            <a href="/zh/private-school-alliance/united-kingdom/"><b>🇬🇧</b><strong>UK Schools</strong><em>A-Level / IB 專注</em></a>
+            <a href="/zh/private-school-alliance/united-states/"><b>🇺🇸</b><strong>US Prep</strong><em>College-prep 專注</em></a>
+            <a href="/zh/private-school-alliance/australia/"><b>🇦🇺</b><strong>AU/NZ Schools</strong><em>Boarding / NCEA 專注</em></a>
+            <a href="/zh/private-school-alliance/canada/"><b>🇨🇦</b><strong>Canada Schools</strong><em>IB / Ontario / BC 專注</em></a>
+          </div>
+          <div class="otc-success-box">
+            <h3 class="success-title">成功案例與升學參考</h3>
+            <p class="success-subtitle">Selected progression references</p>
+            <div class="university-dense-grid">
+              <span>Oxford</span><span>Cambridge</span><span>Imperial</span><span>UCL</span>
+              <span>LSE</span><span>Edinburgh</span><span>King's</span><span>Manchester</span>
+              <span>Bristol</span><span>Glasgow</span><span>Warwick</span><span>Southampton</span>
+              <span>Harvard</span><span>MIT</span><span>Stanford</span><span>UC Berkeley</span>
+              <span>Columbia</span><span>UCLA</span><span>UPenn</span><span>Cornell</span>
+              <span>NYU</span><span>UMich</span><span>UW-Madison</span><span>UT Austin</span>
+              <span>USYD</span><span>Unimelb</span><span>ANU</span><span>UQ</span>
+              <span>UofT</span><span>McGill</span><span>UBC</span><span>Waterloo</span>
+            </div>
+            <div class="abbey-case-content">
+              <h4>#AbbeyCollegeCambridge #阿貝劍橋中學</h4>
+              <p><strong>又是一年畢業季！</strong> 2026 屆畢業生的畢業典禮在學校隔壁的劍橋大學 Homerton College 禮堂進行。</p>
+              <p>校長 Ellen 寄語：同學們積極融入國際化學習，收穫知識與同理心，主動營造以支持、尊重和歸屬感為基礎的校園環境。</p>
+            </div>
+            <a href="/zh/insights/" class="success-cta-link">OTC 學員獲 UC Berkeley 錄取！| 詳細閱讀 →</a>
+          </div>
+          <div class="nav-box">
+            <div class="private-school-side-linknet">
+              <span>國家篩選</span>
+              <a href="/zh/private-school-alliance/vietnam/">越南</a>
+              <a href="/zh/private-school-alliance/thailand/">泰國</a>
+              <a href="/zh/private-school-alliance/singapore/">新加坡</a>
+              <a href="/zh/private-school-alliance/malaysia/">馬來西亞</a>
+              <a href="/zh/private-school-alliance/australia/">澳洲</a>
+              <a href="/zh/private-school-alliance/new-zealand/">新西蘭</a>
+              <a href="/zh/private-school-alliance/united-kingdom/">英國</a>
+              <a href="/zh/private-school-alliance/canada/">加拿大</a>
+              <a href="/zh/private-school-alliance/united-states/">美國</a>
+              <a href="/zh/private-school-alliance/europe/">歐洲</a>
+            </div>
+            <div class="private-school-side-linknet">
+              <span>網頁導航</span>
+              <a href="#private-school-countries">國家城市</a>
+              <a href="#private-school-systems">課程體系</a>
+              <a href="#private-school-years">年級出口</a>
+              <a href="/zh/services/">服務導覽</a>
+              <a href="/zh/study-planning/">留學規劃</a>
+            </div>
+            <div class="private-school-side-linknet">
+              <span>校內文庫</span>
+              <a href="/zh/summer-school-alliance/">暑校聯盟</a>
+              <a href="/international-curriculum-tutoring/">課程銜接</a>
+              <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">Dewey 導報</a>
+              <a href="/zh/insights/">留學導報</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <p class="source-note">私校聯盟頁面為 OTC 公開教育資訊與初步分流頁，不代表已簽署正式代理授權、保證錄取、保證簽證或完整院校名單。所有入學、費用、課程、認證與畢業結果均以學校官方最新文件為準。</p>
+    </section>
+  `
+});
+
+const vietnamPrivateSchoolAlliance = pageShell({
+  title: "海外督導｜私校聯盟｜越南 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/private-school-alliance/vietnam/",
+  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+  imageWidth: 1200,
+  imageHeight: 630,
+  imageAlt: "海外督導私校聯盟越南 The Dewey Schools 分享報頭",
+  description: "海外督導私校聯盟越南頁：The Dewey Schools 河內美式/IB 國際校資料、校區、課程體系、官方連結、家庭初篩與導報文章入口。",
+  body: `
+    <section class="page-hero services-hero private-school-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">Vietnam Private School Alliance</div>
+            <h1>海外督導｜私校聯盟｜越南</h1>
+            <h2>Hanoi · K-12 · American / IB / Bilingual Route</h2>
+            <p class="hero-sub">越南線適合正在比較亞洲國際校、低齡陪讀、英語浸潤、美式高中/IB/雙語路線的家庭。The Dewey Schools 是第一個公開樣本：先讀官網資料，再由 OTC 協助家庭整理校區、課程、年級與照護問題清單。</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">院校官方網站</a>
+              <a class="btn btn-secondary" href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">閱讀導報介紹</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=The%20Dewey%20Schools%20Vietnam%20private%20school%20enquiry%20via%20OTC">通過 OTC 初步諮詢</a>
+            </div>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/zh/private-school-alliance/"><strong>私校總頁</strong><span>K-12 家庭決策台</span></a>
+            <a href="#vietnam-school-campus"><strong>校區官網</strong><span>Dewey 官方資料</span></a>
+            <a href="#vietnam-curriculum-routes"><strong>課程路線</strong><span>IB / AP / 美式 / 雙語</span></a>
+            <a href="#vietnam-family-fit"><strong>家庭初篩</strong><span>年級、英文、照護</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="band service-review-strip private-school-strip">
+      <a href="#vietnam-school-campus"><b>LOC</b><strong>河內 / 海防</strong><span>校區、通勤、生活圈與家庭陪讀可行性</span></a>
+      <a href="#vietnam-curriculum-routes"><b>SYS</b><strong>IB / AP / 美式</strong><span>課程體系、畢業文憑與英文比例分開核對</span></a>
+      <a href="#vietnam-family-fit"><b>YR</b><strong>K-12 年級</strong><span>小學、初中、高中轉入與畢業出口風險</span></a>
+      <a href="#vietnam-care-notes"><b>CARE</b><strong>照護安排</strong><span>走讀、校車、陪讀、緊急聯絡與醫療支持</span></a>
+    </section>
+
+    <section class="band compact-band service-review-body">
+      <div class="section-head compact-head service-review-head">
+        <span>分類核對</span>
+        <strong>The Dewey Schools 應該怎麼讀</strong>
+        <p>家長不要只看「國際校」三個字，要把校區、年級、課程、語言比例與畢業文憑分開核對。</p>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section id="vietnam-school-campus">
+            <h2 class="zh-herald-section-head" data-num="01">院校與校區</h2>
+            <div class="service-situation-grid private-school-region-desk">
+              <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener"><b>Official</b><strong>The Dewey Schools</strong><span>官網入口，先核對最新招生、學費、校區與課程。</span></a>
+              <a href="https://thedeweyschools.edu.vn/en/cp/dewey-tay-ho-tay/" target="_blank" rel="noopener"><b>Tay Ho Tay</b><strong>Dewey Tay Ho Tay</strong><span>官網校區頁顯示 IB international school、CIS member 與 Mount Vernon partner 信息。</span></a>
+              <a href="https://thedeweyschools.edu.vn/en/contact-us/" target="_blank" rel="noopener"><b>Contact</b><strong>聯絡與校區選擇</strong><span>校方表格可選 Tay Ho Tay、Cau Giay、Ocean Park、Hai Phong 等校區。</span></a>
+              <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><b>Herald</b><strong>導報介紹</strong><span>用中文讀法整理學校亮點、適合家庭與核對問題。</span></a>
+            </div>
+          </section>
+          <section id="vietnam-curriculum-routes">
+            <h2 class="zh-herald-section-head" data-num="02">課程分類</h2>
+            <div class="article-service-table private-school-compact-table">
+              <table>
+                <thead><tr><th>類別</th><th>官網可見信息</th><th>家長應核對</th><th>OTC 入口</th></tr></thead>
+                <tbody>
+                  <tr><td>Integrated Explore / Discover</td><td>Grades 1-12，英語比例約 30%-45%（按官網描述）。</td><td>是否適合中文母語學生、英文銜接與越南課程比例。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=Dewey%20Schools%20integrated%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+                  <tr><td>Adventure / Journey International</td><td>官網描述 Grades 6-12 或 Grades 1-12，英文比例較高，涉及美式文憑/國際大學出口。</td><td>美國高中文憑授權、學分、轉學與升學出口文件。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=Dewey%20Schools%20international%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+                  <tr><td>IB Programme</td><td>官網列 IB Program，Grades 6-12，畢業出口指向 IB Diploma 與全球大學。</td><td>具體 IB 授權、開設年級、科目組合與升學顧問支持。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=Dewey%20Schools%20IB%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+                  <tr><td>AP / SAT / IELTS profile</td><td>官網列 AP program，並披露 SAT、IELTS 與升學成果數據。</td><td>AP 科目、考試安排、升學顧問與學生個人 profile 支持。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=Dewey%20Schools%20AP%20SAT%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section id="vietnam-family-fit">
+            <h2 class="zh-herald-section-head" data-num="03">適合家庭</h2>
+            <div class="service-route-list">
+              <a href="/zh/private-school-alliance/"><span>Long-term</span><strong>低齡長線家庭</strong><em>想把小學/初中/高中放在亞洲英語環境中逐步過渡。</em></a>
+              <a href="/zh/summer-school-alliance/singapore/"><span>SEA</span><strong>新馬泰越比較</strong><em>先比較亞洲短住、親子、國際校與雙語路線，再決定國家。</em></a>
+              <a href="/international-curriculum-tutoring/"><span>Support</span><strong>課程與英文準備</strong><em>需要 IB/AP/美式課程、Academic English 或 bilingual support 的家庭。</em></a>
+              <a href="/consultation-chat/?source=private-school-alliance-vietnam"><span>AI</span><strong>初步問題清單</strong><em>先整理孩子年級、英文、目標國家、家庭陪讀與預算。</em></a>
+            </div>
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side" id="vietnam-care-notes">
+          <div class="service-guide-card is-urgent">
+            <span>OTC 提醒</span>
+            <strong>先核對授權範圍</strong>
+            <p>CIS、IB、AP、美國文憑、合作學校與升學數據都要按校區、年級和當年官方文件核對，不能只看首頁標識。</p>
+            <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">打開官網</a>
+          </div>
+          <div class="service-guide-card">
+            <span>公開來源</span>
+            <strong>Academic results</strong>
+            <p>官網列出 94.1% 等升學成果與 SAT、IELTS、獎學金等指標；正式諮詢時應確認適用畢業年度。</p>
+            <a href="https://thedeweyschools.edu.vn/en/academic-results/" target="_blank" rel="noopener">查看成果頁</a>
+          </div>
+          <div class="service-guide-note">
+            <b>下一步</b>
+            <p>準備學生年級、英文水平、目前課程、想轉入時間、是否陪讀、是否需要寄宿/校車/監護，再由 OTC 建立初篩問題表。</p>
+          </div>
+          <div class="service-side-links">
+            <span>相關入口</span>
+            <a href="/zh/private-school-alliance/">私校聯盟總頁</a>
+            <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">導報文章</a>
+            <a href="/zh/summer-school-alliance/">暑校聯盟</a>
+            <a href="/zh/study-planning/">留學規劃</a>
+          </div>
+        </aside>
+      </div>
+      <p class="source-note">本頁為 OTC 初步資訊整理，不代表 The Dewey Schools 正式授權、錄取承諾或簽證/升學結果承諾。院校資料、課程、費用、認證、名額與畢業路線以學校官方最新文件為準。</p>
+    </section>
+  `
+});
+
+const privateSchoolCountryData = [
+  {
+    slug: "vietnam",
+    code: "VN",
+    zh: "越南",
+    en: "Vietnam",
+    subtitle: "Hanoi / Hai Phong · American / IB / Bilingual Route",
+    intro: "越南私校線目前以 The Dewey Schools 作公開樣本，適合比較亞洲低齡留學、英文浸潤、美式/IB/雙語路線和家庭陪讀可行性的家長。",
+    officialContext: "越南國際校需核對校區、英文比例、IB/AP/美式文憑授權、升學成果口徑、交通、校車、醫療與家長居留安排。",
+    schools: [
+      { slug: "the-dewey-schools", name: "The Dewey Schools", city: "Hanoi / Hai Phong", type: "K-12 international school system", age: "K-12", curriculum: "American / IB / AP / bilingual route", officialUrl: "https://thedeweyschools.edu.vn/en/", routeUrl: "/zh/private-school-alliance/vietnam/", publicStatus: "Public research sample / official details to confirm", familyFit: "適合正在比較亞洲國際校、低齡陪讀、英語浸潤、美式高中/IB/雙語路線的家庭。", check: "校區、課程線、英文比例、IB/AP/美式文憑、學費、升學成果口徑與照護安排。", source: "The Dewey Schools official pages / OTC guide article" }
+    ]
+  },
+  {
+    slug: "australia",
+    code: "AU",
+    zh: "澳洲",
+    en: "Australia",
+    subtitle: "NSW / Queensland · Boarding / Day School · Short-term or Long-term Route",
+    intro: "澳洲私校線適合把長期 K-12、短期試讀、寄宿家庭、州別生活和未來澳洲升學放在一起評估的家庭。OTC 目前以已整理過的 NSW / Queensland 學校資料與澳洲辦公室路線為基礎，先做家庭初篩與校方資料核對。",
+    officialContext: "澳洲學校申請需逐校核對 CRICOS、年級、英文要求、homestay / welfare、CAAW、OSHC、費用與學生簽證文件。",
+    schools: [
+      { slug: "lindisfarne-anglican-grammar-school", name: "Lindisfarne Anglican Grammar School", city: "Tweed Coast / Gold Coast corridor", type: "Independent school · K-12 route", age: "K-Year 12", curriculum: "NSW curriculum / HSC", officialUrl: "https://www.lindisfarne.nsw.edu.au/", routeUrl: "/australia-schools/lindisfarne-anglican-grammar-school/", publicStatus: "材料已整理；需校方確認與 onboarding 文件", familyFit: "適合想比較 Gold Coast / Tweed Coast 生活圈、短期試讀、homestay 與長期澳洲中學路線的家庭。", check: "費用、homestay、英文要求、短期/長期路線與正式代理文件。", source: "Existing OTC review draft and received school materials" },
+      { slug: "macarthur-anglican-school", name: "Macarthur Anglican School", city: "South-west Sydney", type: "Independent co-educational school", age: "K-Year 12", curriculum: "Australian curriculum / NSW pathway", officialUrl: "https://www.macarthur.nsw.edu.au/", routeUrl: "/australia-schools/macarthur-anglican-school/", publicStatus: "Review draft / school-side confirmation needed", familyFit: "適合希望保留 Sydney 生活圈，又不想把孩子放在城市中心高密度通勤節奏中的家庭。", check: "年級位置、英文銜接、國際學生名額、校園訪問與正式申請流程。", source: "Study NSW briefing notes / OTC review draft" },
+      { slug: "the-illawarra-grammar-school", name: "The Illawarra Grammar School", city: "Wollongong", type: "Independent school", age: "K-Year 12", curriculum: "NSW pathway", officialUrl: "https://www.tigs.nsw.edu.au/", routeUrl: "/australia-schools/the-illawarra-grammar-school/", publicStatus: "Candidate route / details to confirm", familyFit: "適合想把視野從 Sydney 擴展到 Wollongong，重視城市安全感、海岸生活和學校社群的家庭。", check: "國際生入學、homestay/welfare、英文門檻、費用與可入讀年級。", source: "Study NSW briefing notes / OTC review draft" },
+      { slug: "moreton-bay-colleges", name: "The Moreton Bay Colleges", city: "Brisbane", type: "Girls / boys college route", age: "Prep-Year 12", curriculum: "PYP / QCE / ATAR / VET route", officialUrl: "https://www.mbc.qld.edu.au/", routeUrl: "/australia-schools/moreton-bay-colleges/", publicStatus: "Review draft / details to confirm", familyFit: "適合希望在 Brisbane 比較男校/女校、PYP 小學、PSP/HSP 過渡和 homestay 管理的家庭。", check: "男校/女校選擇、CRICOS、準備課程、住宿與主流班銜接。", source: "OTC review draft" }
+    ]
+  },
+  {
+    slug: "united-kingdom",
+    code: "UK",
+    zh: "英國",
+    en: "United Kingdom",
+    subtitle: "Prep / Boarding / Sixth Form · UK School Route",
+    intro: "英國私校線應按年級入口和學制節點來看：Prep、Year 9、GCSE、A-Level / IB Sixth Form 都是不同決策。OTC 將先把寄宿制、城市走讀、暑期體驗與正式入學分開處理。",
+    officialContext: "英國學校路線需核對 UKVI / guardian、寄宿名額、入學測試、面試、reference、school report、費用與退費條款。",
+    schools: [
+      { slug: "concord-college", name: "Concord College", city: "Shrewsbury", type: "Boarding school / summer route", age: "Secondary / sixth form", curriculum: "GCSE / A-Level style route", officialUrl: "https://concordcollegeuk.com/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Agent process / references requested for summer route; school-route details TBC", familyFit: "適合看英國寄宿學校、學術氛圍與中高年級銜接的家庭。", check: "正式學年入學與暑期項目需分開確認；不可混用合作狀態。", source: "UK outreach log / official website to verify" },
+      { slug: "tasis-england", name: "TASIS England", city: "Surrey", type: "International school / boarding summer route", age: "School-age / summer cohorts", curriculum: "American / international route", officialUrl: "https://www.tasisengland.org/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Agent agreement review for summer route; school-route details TBC", familyFit: "適合重視國際校社群、校園照護、寄宿與英國近郊生活的家庭。", check: "正式入學、暑期課程、boarding 和 agent terms 需分線核對。", source: "UK outreach log / TASIS materials" },
+      { slug: "st-clares-oxford", name: "St Clare's, Oxford", city: "Oxford", type: "International school / IB route", age: "Junior / teenage / sixth form routes", curriculum: "IB-oriented route", officialUrl: "https://www.stclares.ac.uk/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Candidate route / official details to confirm", familyFit: "適合希望把 Oxford、IB、英語提升與後續英國學校銜接放在一起看的家庭。", check: "IB / summer / academic year routes、住宿和年齡限制。", source: "UK summer research / official website to verify" }
+    ]
+  },
+  {
+    slug: "singapore",
+    code: "SG",
+    zh: "新加坡",
+    en: "Singapore",
+    subtitle: "International Schools · Bilingual Early Years · Family Short Stay",
+    intro: "新加坡私校線偏向亞洲區位、英文環境、IB/英式/美式國際校和雙語幼兒園。它不是低成本路線，但對低齡家庭、親子短住、英文/中文雙語環境和亞洲轉銜很直觀。",
+    officialContext: "新加坡需特別核對短期訪客身份、幼兒園 drop-in 可能性、ECDA / school policies、保險、午餐、校車和住宿安排。",
+    schools: [
+      { slug: "xcl-world-academy", name: "XCL World Academy", city: "Yishun", type: "International school / camp route", age: "3-16 camp; school ages TBC", curriculum: "IB / international school route", officialUrl: "https://xwa.edu.sg/", routeUrl: "/zh/summer-school-alliance/singapore/programmes/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望在新加坡測試國際校生活、英文輸出和亞洲短住節奏的家庭。", check: "正式入學、camp、短期體驗與 overseas family eligibility 需分開核對。", source: "SEA research / official page" },
+      { slug: "tanglin-trust-school", name: "Tanglin Trust School", city: "Singapore", type: "British international school / camp route", age: "3-12 camp; school ages TBC", curriculum: "British route", officialUrl: "https://www.tts.edu.sg/", routeUrl: "/zh/summer-school-alliance/singapore/programmes/", publicStatus: "Candidate / third-party camp operator to verify", familyFit: "適合希望看英式國際校、低齡活動營和新加坡校園氛圍的家庭。", check: "Camp operator、正式學校入學、年齡、費用和監護安排。", source: "SEA research / official page to verify" },
+      { slug: "julia-gabriel-education", name: "Julia Gabriel Education", city: "Forum / United Square", type: "Bilingual early-years / enrichment", age: "6 months-18", curriculum: "English / Mandarin enrichment", officialUrl: "https://www.juliagabriel.com/", routeUrl: "/zh/summer-school-alliance/singapore/programmes/", publicStatus: "Candidate / parent-child route", familyFit: "適合需要親子雙語園、低齡語言啟蒙、短期家庭陪同課程的華語家庭。", check: "短期非本地家庭是否可報、家長陪同、年齡分班與費用。", source: "SEA research / official page" }
+    ]
+  },
+  {
+    slug: "malaysia",
+    code: "MY",
+    zh: "馬來西亞",
+    en: "Malaysia",
+    subtitle: "Johor / KL · Boarding / Day School · Bilingual Cost Comparison",
+    intro: "馬來西亞私校線適合把亞洲成本、英式國際校、寄宿選項、吉隆坡/柔佛生活圈和新加坡鄰近性放在一起比較的家庭。",
+    officialContext: "馬來西亞需核對 student pass / guardian、boarding age、保險、校車、醫療、短期營與正式入學的差異。",
+    schools: [
+      { slug: "marlborough-college-malaysia", name: "Marlborough College Malaysia", city: "Iskandar Puteri, Johor", type: "British international boarding/day school", age: "3-18 school; camps by age", curriculum: "British route", officialUrl: "https://www.marlboroughcollegemalaysia.org/", routeUrl: "/zh/summer-school-alliance/malaysia/programmes/", publicStatus: "Outreach sent / reply pending for camp route", familyFit: "適合比較柔佛、英式寄宿、近新加坡位置與亞洲英式教育成本的家庭。", check: "正式入學、holiday camp、boarding、Changi transfer 和 guardian 規則。", source: "SEA outreach tracker / official page" },
+      { slug: "nexus-international-school-malaysia", name: "Nexus International School Malaysia", city: "Putrajaya", type: "International school / residential camp option", age: "School ages / 8-14 camp", curriculum: "International route", officialUrl: "https://www.nexus.edu.my/", routeUrl: "/zh/summer-school-alliance/malaysia/programmes/", publicStatus: "Outreach sent / reply pending", familyFit: "適合看 KL / Putrajaya 國際校、短期英文營與住宿可能性的家庭。", check: "正式入學、camp 住宿、英語要求、保險和未成年照護。", source: "SEA outreach tracker / official page" },
+      { slug: "alice-smith-school", name: "Alice Smith School", city: "Kuala Lumpur", type: "British international school / day camp route", age: "3-12 camp; school ages TBC", curriculum: "British route", officialUrl: "https://www.alice-smith.edu.my/", routeUrl: "/zh/summer-school-alliance/malaysia/programmes/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較吉隆坡英式學校、低齡 camp 和家庭短住的家庭。", check: "Camp operator、正式入學、under-6 監護、費用和交通。", source: "SEA research / official page" }
+    ]
+  },
+  {
+    slug: "thailand",
+    code: "TH",
+    zh: "泰國",
+    en: "Thailand",
+    subtitle: "Bangkok / Chonburi · British International Schools · Family Stay",
+    intro: "泰國私校線適合看曼谷英式國際校、寄宿/日營、親子陪讀、早幼兒國際園和東南亞生活成本的家庭。它適合先試短期，再判斷是否長線轉入。",
+    officialContext: "泰國需核對短期訪客身份、guardian、boarding age、醫療保險、交通、校車與正式學年入學條件。",
+    schools: [
+      { slug: "rugby-school-thailand", name: "Rugby School Thailand", city: "Chonburi", type: "British international school / boarding camp", age: "School ages / camp 6-13", curriculum: "British route", officialUrl: "https://www.rugbyschool.ac.th/", routeUrl: "/zh/summer-school-alliance/thailand/programmes/", publicStatus: "Outreach sent / 2026 summer availability risk", familyFit: "適合重視英式寄宿、戶外教育、校園尺度和泰國近郊生活的家庭。", check: "正式入學、boarding、Wisdom Camps、名額、guardian 和簽證安排。", source: "SEA outreach tracker / official page" },
+      { slug: "harrow-international-school-bangkok", name: "Harrow International School Bangkok", city: "Bangkok", type: "British international school / boarding option", age: "18 months-18 route signals", curriculum: "British route", officialUrl: "https://www.harrowschool.ac.th/", routeUrl: "/zh/summer-school-alliance/thailand/programmes/", publicStatus: "Outreach sent / reply pending", familyFit: "適合比較曼谷英式名校、低齡到高中、boarding option 和家庭短住的家庭。", check: "正式入學、summer camp、boarding 年齡、under-6 家長陪同與費用。", source: "SEA outreach tracker / official page" },
+      { slug: "shrewsbury-international-school-bangkok", name: "Shrewsbury International School Bangkok", city: "Bangkok", type: "British international school / day camp route", age: "3-17 camp signal", curriculum: "British route", officialUrl: "https://www.shrewsbury.ac.th/", routeUrl: "/zh/summer-school-alliance/thailand/programmes/", publicStatus: "Outreach sent / reply pending", familyFit: "適合重視曼谷市區英式學校、日營活動與長線入學可能性的家庭。", check: "正式入學與 holiday camp 分線、校區、年齡、監護、交通。", source: "SEA outreach tracker / official page" }
+    ]
+  },
+  {
+    slug: "united-states",
+    code: "US",
+    zh: "美國",
+    en: "United States",
+    subtitle: "East Coast / New England · Boarding · College-prep Route",
+    intro: "美國私校線應按寄宿成熟度、Grade 9/10/11 入口、SSAT/TOEFL/Duolingo、校園面試、推薦信和大學升學支持來判斷。OTC 先把代表性 boarding / day prep school 放入候選池，避免家長只按排名或名字做決策。",
+    officialContext: "美國私校需核對 SEVIS / I-20、boarding age、standardized testing、teacher recommendations、financial documents、health forms、guardianship 和 school visit / interview。",
+    schools: [
+      { slug: "phillips-exeter-academy", name: "Phillips Exeter Academy", city: "Exeter, New Hampshire", type: "Independent boarding/day college-preparatory school", age: "Grades 9-12 / postgraduate", curriculum: "US college-prep / Harkness-style learning", officialUrl: "https://exeter.edu/", routeUrl: "https://exeter.edu/", publicStatus: "Candidate / official details to confirm", familyFit: "適合學術能力強、能適應高討論密度課堂與寄宿生活的高中家庭。", check: "年級入口、測試要求、面試、寄宿名額、國際生支持與財務文件。", source: "Official website search result checked 2026-05-29" },
+      { slug: "phillips-academy-andover", name: "Phillips Academy Andover", city: "Andover, Massachusetts", type: "Independent boarding/day college-preparatory school", age: "Grades 9-12 / postgraduate", curriculum: "US college-prep / liberal arts route", officialUrl: "https://www.andover.edu/", routeUrl: "https://www.andover.edu/", publicStatus: "Candidate / official details to confirm", familyFit: "適合高學術、高自主性、目標北美頂尖大學準備的家庭。", check: "入學輪次、面試、標化、寄宿比例、國際生文件與家庭財務承受力。", source: "Official website route" },
+      { slug: "choate-rosemary-hall", name: "Choate Rosemary Hall", city: "Wallingford, Connecticut", type: "Boarding/day college-preparatory school", age: "Grades 9-12 / postgraduate", curriculum: "US college-prep route", officialUrl: "https://www.choate.edu/", routeUrl: "https://www.choate.edu/", publicStatus: "Candidate / official details to confirm", familyFit: "適合想在美國東岸寄宿高中中比較學術、藝術、社群與大學輔導的家庭。", check: "寄宿名額、國際申請文件、校園訪問、英文要求與課外活動匹配。", source: "Official website route" },
+      { slug: "deerfield-academy", name: "Deerfield Academy", city: "Deerfield, Massachusetts", type: "Boarding/day college-preparatory school", age: "Grades 9-12 / postgraduate", curriculum: "US college-prep route", officialUrl: "https://deerfield.edu/", routeUrl: "https://deerfield.edu/", publicStatus: "Candidate / official details to confirm", familyFit: "適合重視傳統寄宿文化、學術挑戰、運動與社群歸屬感的家庭。", check: "年級入口、boarding life、面試、teacher recommendation、健康表與 I-20 流程。", source: "Official website route" },
+      { slug: "the-lawrenceville-school", name: "The Lawrenceville School", city: "Lawrenceville, New Jersey", type: "Boarding/day college-preparatory school", age: "Grades 9-12", curriculum: "US college-prep / Harkness-style route", officialUrl: "https://www.lawrenceville.org/", routeUrl: "https://www.lawrenceville.org/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望靠近紐約/新澤西生活圈，同時進入成熟寄宿學校體系的家庭。", check: "Harkness 課堂適應、住宿、申請截止、訪校面試與國際生文件。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "canada",
+    code: "CA",
+    zh: "加拿大",
+    en: "Canada",
+    subtitle: "Ontario / BC · Boarding / Day School · University-prep Route",
+    intro: "加拿大私校線通常比美國更重視省份、城市安全感、寄宿/走讀、IB 或省高中畢業文憑與後續加拿大大學銜接。OTC 先按安省、BC 和寄宿可能性做候選池。",
+    officialContext: "加拿大私校需核對省份高中畢業要求、study permit、custodianship、boarding/homestay、ESL support、醫療保險和大學申請輔導。",
+    schools: [
+      { slug: "upper-canada-college", name: "Upper Canada College", city: "Toronto, Ontario", type: "Independent boys' school / day and boarding", age: "Senior school / boarding age to confirm", curriculum: "IB / Ontario route", officialUrl: "https://www.ucc.on.ca/", routeUrl: "https://www.ucc.on.ca/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望放入 Toronto 核心私校、IB 與加拿大大學出口比較的家庭。", check: "男校環境、IB 路線、boarding/custodianship、申請年級與國際生支持。", source: "Official website route" },
+      { slug: "appleby-college", name: "Appleby College", city: "Oakville, Ontario", type: "Independent day/boarding school", age: "Grades 7-12", curriculum: "Ontario / global education route", officialUrl: "https://www.appleby.on.ca/", routeUrl: "https://www.appleby.on.ca/", publicStatus: "Candidate / official details to confirm", familyFit: "適合想在 Greater Toronto Area 比較寄宿、國際化和大學輔導的家庭。", check: "boarding 年級、費用、ESL、入學測試與 custodianship。", source: "Official website route" },
+      { slug: "ridley-college", name: "Ridley College", city: "St. Catharines, Ontario", type: "Independent boarding/day school", age: "JK-Grade 12; boarding age to confirm", curriculum: "IB continuum / Ontario route", officialUrl: "https://www.ridleycollege.com/", routeUrl: "https://www.ridleycollege.com/", publicStatus: "Candidate / official details to confirm", familyFit: "適合重視 IB、寄宿社群和尼亞加拉/安省生活圈的家庭。", check: "IB 年級、boarding、國際生支持、study permit 與醫療保險。", source: "Official website route" },
+      { slug: "bishops-college-school", name: "Bishop's College School", city: "Sherbrooke, Quebec", type: "Independent boarding/day school", age: "Grades 7-12", curriculum: "Canadian / bilingual environment route", officialUrl: "https://www.bishopscollegeschool.com/", routeUrl: "https://www.bishopscollegeschool.com/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望看魁北克寄宿、英法語環境和小城市安全感的家庭。", check: "語言環境、boarding、Quebec 學制、簽證/監護與大學出口。", source: "Official website route" },
+      { slug: "st-michaels-university-school", name: "St. Michaels University School", city: "Victoria, British Columbia", type: "Independent day/boarding school", age: "Kindergarten-Grade 12; boarding age to confirm", curriculum: "BC curriculum / AP route", officialUrl: "https://www.smus.ca/", routeUrl: "https://www.smus.ca/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較 BC、溫哥華島安全生活、boarding 和 AP / Canadian route 的家庭。", check: "BC 畢業要求、boarding 年級、custodianship、醫療保險與國際生支持。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "new-zealand",
+    code: "NZ",
+    zh: "新西蘭",
+    en: "New Zealand",
+    subtitle: "Auckland / Wellington / Christchurch · Boarding / Day School · NCEA / IB",
+    intro: "新西蘭私校線重點在安全感、生活節奏、寄宿/走讀、NCEA 或 IB 路線，以及學生是否能在相對安靜的英文環境中建立自律。",
+    officialContext: "新西蘭需核對 Code of Practice、homestay/boarding、guardian、student visa、保險、NCEA / IB / Cambridge route 與大學出口。",
+    schools: [
+      { slug: "kings-college-auckland", name: "King's College Auckland", city: "Auckland", type: "Independent secondary school", age: "Secondary years", curriculum: "NCEA / Cambridge / school route to confirm", officialUrl: "https://www.kingscollege.school.nz/", routeUrl: "https://www.kingscollege.school.nz/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望看奧克蘭私校、寄宿/走讀和新西蘭高中出口的家庭。", check: "入學年級、boarding、國際生名額、NCEA/Cambridge 選項和費用。", source: "Official website search result checked 2026-05-29" },
+      { slug: "st-cuthberts-college", name: "St Cuthbert's College", city: "Auckland", type: "Independent girls' school", age: "Years 0-13; boarding to confirm", curriculum: "NCEA / IB route to confirm", officialUrl: "https://www.stcuthberts.school.nz/", routeUrl: "https://www.stcuthberts.school.nz/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望比較奧克蘭女校、寄宿與高年級升學支持的家庭。", check: "女校環境、boarding、NCEA/IB、國際生支持與監護安排。", source: "Official website route" },
+      { slug: "scots-college-wellington", name: "Scots College Wellington", city: "Wellington", type: "Independent school", age: "Years 1-13; boarding to confirm", curriculum: "IB / New Zealand route to confirm", officialUrl: "https://www.scotscollege.school.nz/", routeUrl: "https://www.scotscollege.school.nz/", publicStatus: "Candidate / official details to confirm", familyFit: "適合想看 Wellington、IB / New Zealand route 與中小學一貫制的家庭。", check: "IB 階段、boarding/host family、國際生服務與簽證文件。", source: "Official website route" },
+      { slug: "st-andrews-college-christchurch", name: "St Andrew's College Christchurch", city: "Christchurch", type: "Independent co-educational school", age: "Preschool-Year 13; boarding to confirm", curriculum: "NCEA / school route to confirm", officialUrl: "https://www.stac.school.nz/", routeUrl: "https://www.stac.school.nz/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望比較基督城、安全生活、校園社群與寄宿可能性的家庭。", check: "boarding、國際生入學、NCEA 路線、費用與監護。", source: "Official website route" },
+      { slug: "acg-schools", name: "ACG Schools", city: "Auckland / Tauranga / other NZ campuses", type: "Private school group", age: "School-age routes to confirm", curriculum: "Cambridge / NZ school route to confirm", officialUrl: "https://www.acgedu.com/", routeUrl: "https://www.acgedu.com/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望看集團化私校、多校區、Cambridge route 和城市選擇的家庭。", check: "具體校區、課程、住宿/監護、費用與入學年級。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "europe",
+    code: "EU",
+    zh: "歐洲",
+    en: "Europe",
+    subtitle: "Nordic / Western / Central / Southern / Eastern Europe · Boarding / International Schools",
+    intro: "歐洲私校線不能只看國家名字，要按北歐、西歐、中歐、南歐、東歐拆開：瑞士寄宿、德奧中歐國際校、西班牙/葡萄牙/意大利南歐校園、波蘭/捷克/匈牙利東中歐路線，家庭成本與簽證/居留邏輯差異很大。",
+    officialContext: "歐洲私校需逐國核對居留、監護、語言、文憑體系、醫療保險、寄宿名額、假期離校安排與大學出口。歐洲頁先做分區入口，不把不同國家混成一個申請流程。",
+    schools: [
+      { slug: "nordic-europe", name: "北歐私校分區", city: "Norway / Sweden / Finland / Denmark / Iceland", type: "Regional desk", age: "K-12 / upper secondary by school", curriculum: "IB / national / international route", officialUrl: "/zh/private-school-alliance/nordic-europe/", routeUrl: "/zh/private-school-alliance/nordic-europe/", publicStatus: "Regional page", familyFit: "適合重視安全感、福利型社會、英文/本地語言平衡與低密度生活的家庭。", check: "居留、語言、本地學制、寄宿少、冬季生活與監護。", source: "OTC regional framework" },
+      { slug: "western-europe", name: "西歐私校分區", city: "Switzerland / France / Netherlands / Belgium", type: "Regional desk", age: "K-12 / boarding by school", curriculum: "IB / French / bilingual / international route", officialUrl: "/zh/private-school-alliance/western-europe/", routeUrl: "/zh/private-school-alliance/western-europe/", publicStatus: "Regional page", familyFit: "適合看瑞士高端寄宿、法語/英語雙語、IB 和西歐國際校的家庭。", check: "費用、boarding、語言、學制和簽證/居留。", source: "OTC regional framework" },
+      { slug: "central-europe", name: "中歐私校分區", city: "Germany / Austria / Czechia / Hungary", type: "Regional desk", age: "K-12 / secondary by school", curriculum: "IB / German / British / American route", officialUrl: "/zh/private-school-alliance/central-europe/", routeUrl: "/zh/private-school-alliance/central-europe/", publicStatus: "Regional page", familyFit: "適合比較德奧捷匈國際校、音樂藝術、IB 和歐盟生活成本的家庭。", check: "德語/英語比例、居留、學制、boarding 和大學出口。", source: "OTC regional framework" },
+      { slug: "southern-europe", name: "南歐私校分區", city: "Spain / Portugal / Italy", type: "Regional desk", age: "K-12 / secondary by school", curriculum: "British / IB / American / national route", officialUrl: "/zh/private-school-alliance/southern-europe/", routeUrl: "/zh/private-school-alliance/southern-europe/", publicStatus: "Regional page", familyFit: "適合看氣候、生活成本、英式/IB 國際校和家庭陪讀可能性的家庭。", check: "居留、語言、校車、醫療、寄宿與大學出口。", source: "OTC regional framework" },
+      { slug: "eastern-europe", name: "東歐私校分區", city: "Poland / Romania / Bulgaria / Ukraine route watch", type: "Regional desk", age: "K-12 / secondary by school", curriculum: "British / American / IB / national route", officialUrl: "/zh/private-school-alliance/eastern-europe/", routeUrl: "/zh/private-school-alliance/eastern-europe/", publicStatus: "Regional page", familyFit: "適合看成本、英文國際校、歐盟/非歐盟銜接和醫療/安全風險評估的家庭。", check: "安全、居留、語言、本地學制、醫療保險與轉學出口。", source: "OTC regional framework" }
+    ]
+  },
+  {
+    slug: "nordic-europe",
+    code: "NO",
+    zh: "北歐",
+    en: "Nordic Europe",
+    subtitle: "Norway / Sweden / Finland / Denmark / Iceland · International School Route",
+    intro: "北歐私校數量不像英美瑞士密集，重點在國際學校、IB、英文授課可行性、本地語言與家庭居留。適合先做安全與生活型比較。",
+    officialContext: "北歐需核對居留、學生年齡、是否接收短期/國際家庭、本地語言要求、boarding 是否存在與冬季生活安排。",
+    schools: [
+      { slug: "uwc-red-cross-nordic", name: "UWC Red Cross Nordic", city: "Flekke, Norway", type: "Residential upper-secondary international school", age: "Upper secondary / IB", curriculum: "IB Diploma / UWC route", officialUrl: "https://uwcrcn.no/", routeUrl: "https://uwcrcn.no/", publicStatus: "Candidate / official details to confirm", familyFit: "適合高年級、公益/國際理解導向、可承受全寄宿與 IB 強度的學生。", check: "UWC 選拔、年齡、獎學金、簽證、寄宿生活與 IB 適配。", source: "Official website route" },
+      { slug: "sshl", name: "Sigtunaskolan Humanistiska Läroverket (SSHL)", city: "Sigtuna, Sweden", type: "Boarding/day school", age: "Secondary / upper secondary", curriculum: "Swedish / IB route to confirm", officialUrl: "https://sshl.se/", routeUrl: "https://sshl.se/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較瑞典寄宿、IB/本地路線與北歐生活的家庭。", check: "boarding、課程語言、入學年級、居留與假期安排。", source: "Official website route" },
+      { slug: "international-school-of-helsinki", name: "International School of Helsinki", city: "Helsinki, Finland", type: "International day school", age: "K-12 route to confirm", curriculum: "IB route to confirm", officialUrl: "https://ishelsinki.fi/", routeUrl: "https://ishelsinki.fi/", publicStatus: "Candidate / official details to confirm", familyFit: "適合有芬蘭/北歐家庭安排、重視 IB 與安全城市生活的家庭。", check: "日校安排、居留、年級空位、語言支持與交通。", source: "Official website route" },
+      { slug: "copenhagen-international-school", name: "Copenhagen International School", city: "Copenhagen, Denmark", type: "International day school", age: "K-12 route to confirm", curriculum: "IB / international route to confirm", officialUrl: "https://www.cis.dk/", routeUrl: "https://www.cis.dk/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看丹麥國際校、IB 和家庭居留/陪讀可行性的家庭。", check: "年級空位、語言、居留、校車/交通與大學出口。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "western-europe",
+    code: "WE",
+    zh: "西歐",
+    en: "Western Europe",
+    subtitle: "Switzerland / France / Netherlands / Belgium · Elite Boarding and International Schools",
+    intro: "西歐私校以瑞士寄宿和法荷比國際校最具代表性。重點是高費用、語言環境、IB/法式/英式/美式體系和家庭是否接受跨國假期安排。",
+    officialContext: "西歐需核對費用、boarding、語言、簽證/居留、醫療保險、假期離校和大學申請輔導。",
+    schools: [
+      { slug: "institut-le-rosey", name: "Institut Le Rosey", city: "Rolle / Gstaad, Switzerland", type: "Swiss boarding school", age: "Secondary boarding route to confirm", curriculum: "Bilingual / IB / French route to confirm", officialUrl: "https://www.rosey.ch/", routeUrl: "https://www.rosey.ch/", publicStatus: "Candidate / official details to confirm", familyFit: "適合高預算、重視瑞士寄宿、雙語環境、全球社群與全人教育的家庭。", check: "年齡入口、費用、語言、boarding、假期安排與申請選拔。", source: "Official website search result checked 2026-05-29" },
+      { slug: "aiglon-college", name: "Aiglon College", city: "Chesières-Villars, Switzerland", type: "Swiss boarding school", age: "Secondary boarding route to confirm", curriculum: "IB / international route to confirm", officialUrl: "https://www.aiglon.ch/", routeUrl: "https://www.aiglon.ch/", publicStatus: "Candidate / official details to confirm", familyFit: "適合重視山地戶外、寄宿社群與 IB/國際升學的家庭。", check: "boarding、IB、戶外活動風險、費用、假期與申請材料。", source: "Official website route" },
+      { slug: "institut-auf-dem-rosenberg", name: "Institut auf dem Rosenberg", city: "St. Gallen, Switzerland", type: "Swiss boarding school", age: "Boarding route to confirm", curriculum: "International / bespoke route to confirm", officialUrl: "https://instrosenberg.ch/", routeUrl: "https://instrosenberg.ch/", publicStatus: "Candidate / official details to confirm", familyFit: "適合高預算、重視個性化教育與瑞士寄宿環境的家庭。", check: "課程體系、學歷出口、費用、boarding 和大學輔導。", source: "Official website route" },
+      { slug: "tasis-switzerland", name: "TASIS Switzerland", city: "Montagnola, Switzerland", type: "International boarding/day school", age: "K-12 route to confirm", curriculum: "American / IB / AP route to confirm", officialUrl: "https://www.tasis.ch/", routeUrl: "https://www.tasis.ch/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較瑞士、美式/IB、寄宿和國際校社群的家庭。", check: "年級、boarding、AP/IB、費用、學生簽證與校園生活。", source: "Official website route" },
+      { slug: "ecole-internationale-de-geneve", name: "Ecolint - International School of Geneva", city: "Geneva, Switzerland", type: "International day school system", age: "K-12 route to confirm", curriculum: "IB / international route to confirm", officialUrl: "https://www.ecolint.ch/", routeUrl: "https://www.ecolint.ch/", publicStatus: "Candidate / official details to confirm", familyFit: "適合有日內瓦家庭居住安排、重視 IB 和國際組織城市環境的家庭。", check: "校區、日校、語言、年級空位、費用與居留。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "central-europe",
+    code: "CE",
+    zh: "中歐",
+    en: "Central Europe",
+    subtitle: "Germany / Austria / Czechia / Hungary · IB / British / American School Route",
+    intro: "中歐私校適合比較德奧捷匈生活成本、音樂藝術、IB/英式/美式國際校與歐盟城市居住可行性。",
+    officialContext: "中歐需核對德語/英語比例、簽證/居留、寄宿是否可行、學歷出口、校車/住宿與醫療保險。",
+    schools: [
+      { slug: "schule-schloss-salem", name: "Schule Schloss Salem", city: "Salem, Germany", type: "German boarding school", age: "Secondary boarding route", curriculum: "German / IB route to confirm", officialUrl: "https://www.schule-schloss-salem.de/", routeUrl: "https://www.schule-schloss-salem.de/", publicStatus: "Candidate / official details to confirm", familyFit: "適合希望看德國寄宿、IB/德國學制與品格教育的家庭。", check: "德語要求、IB/Abitur、boarding、費用、監護與假期。", source: "Official website route" },
+      { slug: "amadeus-international-school-vienna", name: "AMADEUS International School Vienna", city: "Vienna, Austria", type: "International day/boarding school", age: "K-12 route to confirm", curriculum: "IB / music route to confirm", officialUrl: "https://amadeus-vienna.com/", routeUrl: "https://amadeus-vienna.com/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看維也納、IB、音樂藝術和寄宿選項的家庭。", check: "IB、boarding、音樂項目、費用、居留與語言支持。", source: "Official website route" },
+      { slug: "vienna-international-school", name: "Vienna International School", city: "Vienna, Austria", type: "International day school", age: "K-12 route to confirm", curriculum: "IB / international route to confirm", officialUrl: "https://www.vis.ac.at/", routeUrl: "https://www.vis.ac.at/", publicStatus: "Candidate / official details to confirm", familyFit: "適合有維也納居住安排、重視 IB 和國際社群的家庭。", check: "日校、年級空位、居留、語言、費用與交通。", source: "Official website route" },
+      { slug: "prague-british-international-school", name: "Prague British International School", city: "Prague, Czechia", type: "British international day school", age: "K-12 route to confirm", curriculum: "British / IB route to confirm", officialUrl: "https://www.nordangliaeducation.com/pbis-prague", routeUrl: "https://www.nordangliaeducation.com/pbis-prague", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較布拉格、英式國際校、成本和歐洲城市生活的家庭。", check: "課程、校區、費用、居留、交通和英語支持。", source: "Official website route" },
+      { slug: "american-international-school-of-budapest", name: "American International School of Budapest", city: "Budapest, Hungary", type: "American international day school", age: "K-12 route to confirm", curriculum: "American / IB route to confirm", officialUrl: "https://www.aisb.hu/", routeUrl: "https://www.aisb.hu/", publicStatus: "Candidate / official details to confirm", familyFit: "適合有布達佩斯居住安排、看美式/國際校和歐洲成本的家庭。", check: "年級空位、語言、居留、交通、費用與畢業出口。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "southern-europe",
+    code: "SE",
+    zh: "南歐",
+    en: "Southern Europe",
+    subtitle: "Spain / Portugal / Italy · British / IB / American Route",
+    intro: "南歐私校適合把氣候、生活成本、英式/IB 國際校、家庭陪讀和歐洲大學/英美申請出口放在一起看。",
+    officialContext: "南歐需核對居留、語言、校車、住宿/寄宿、醫療保險、學制與大學出口。",
+    schools: [
+      { slug: "sotogrande-international-school", name: "Sotogrande International School", city: "Sotogrande, Spain", type: "International day/boarding school", age: "K-12 route to confirm", curriculum: "IB route to confirm", officialUrl: "https://www.sis.ac/", routeUrl: "https://www.sis.ac/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看西班牙南部、IB、寄宿/走讀和家庭陪讀生活方式的家庭。", check: "boarding、IB、費用、居留、醫療與交通。", source: "Official website route" },
+      { slug: "kings-college-madrid", name: "King's College Madrid", city: "Madrid, Spain", type: "British international school", age: "K-12 route to confirm", curriculum: "British route to confirm", officialUrl: "https://www.kingscollegeschools.org/", routeUrl: "https://www.kingscollegeschools.org/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較馬德里英式教育、城市生活和家庭陪讀的家庭。", check: "具體校區、年級、課程、費用、居留與交通。", source: "Official website route" },
+      { slug: "st-georges-british-international-school-rome", name: "St George's British International School Rome", city: "Rome, Italy", type: "British international day school", age: "K-12 route to confirm", curriculum: "British / IB route to confirm", officialUrl: "https://www.stgeorge.school.it/", routeUrl: "https://www.stgeorge.school.it/", publicStatus: "Candidate / official details to confirm", familyFit: "適合有羅馬居住安排、重視英式/IB 和國際社群的家庭。", check: "日校、校區、語言、費用、居留和大學出口。", source: "Official website route" },
+      { slug: "st-stephens-school-rome", name: "St. Stephen's School Rome", city: "Rome, Italy", type: "International day/boarding route to confirm", age: "Secondary route to confirm", curriculum: "American / IB route to confirm", officialUrl: "https://sssrome.it/", routeUrl: "https://sssrome.it/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看羅馬美式/IB 高中、文理教育和歐洲文化環境的家庭。", check: "boarding 是否可行、IB、費用、居留與學生支持。", source: "Official website route" },
+      { slug: "st-julians-school", name: "St Julian's School", city: "Carcavelos, Portugal", type: "British international day school", age: "K-12 route to confirm", curriculum: "British / IB route to confirm", officialUrl: "https://www.stjulians.com/", routeUrl: "https://www.stjulians.com/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看里斯本周邊、英式/IB、海岸生活和家庭陪讀的家庭。", check: "日校、交通、居留、費用、語言和大學出口。", source: "Official website route" }
+    ]
+  },
+  {
+    slug: "eastern-europe",
+    code: "EE",
+    zh: "東歐",
+    en: "Eastern Europe",
+    subtitle: "Poland / Romania / Bulgaria / Ukraine Route Watch · Cost-sensitive International Schools",
+    intro: "東歐私校線更適合成本敏感、歐洲入口、英文國際校和特定家庭居留需求，但安全、醫療、語言和學歷出口必須更嚴格核對。",
+    officialContext: "東歐需逐國核對安全、居留、醫療保險、英語授課比例、IB/British/American 授權、校車和轉學出口。",
+    schools: [
+      { slug: "the-british-school-warsaw", name: "The British School Warsaw", city: "Warsaw, Poland", type: "British international day school", age: "K-12 route to confirm", curriculum: "British / IB route to confirm", officialUrl: "https://www.nordangliaeducation.com/tbsw-warsaw", routeUrl: "https://www.nordangliaeducation.com/tbsw-warsaw", publicStatus: "Candidate / official details to confirm", familyFit: "適合看華沙英式國際校、歐盟城市生活和成本較英美低的家庭。", check: "課程、校區、費用、居留、語言支持和校車。", source: "Official website route" },
+      { slug: "american-school-of-warsaw", name: "American School of Warsaw", city: "Warsaw, Poland", type: "American international school", age: "K-12 route to confirm", curriculum: "American / IB route to confirm", officialUrl: "https://www.aswarsaw.org/", routeUrl: "https://www.aswarsaw.org/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較華沙美式/IB 國際校和北美大學出口的家庭。", check: "年級、課程、費用、居留、交通和國際生支持。", source: "Official website route" },
+      { slug: "american-international-school-of-bucharest", name: "American International School of Bucharest", city: "Bucharest, Romania", type: "American international day school", age: "K-12 route to confirm", curriculum: "American / IB route to confirm", officialUrl: "https://www.aisb.ro/", routeUrl: "https://www.aisb.ro/", publicStatus: "Candidate / official details to confirm", familyFit: "適合看羅馬尼亞成本、英語國際校和東歐城市生活的家庭。", check: "居留、安全、校車、醫療、課程授權與費用。", source: "Official website route" },
+      { slug: "anglo-american-school-of-sofia", name: "Anglo-American School of Sofia", city: "Sofia, Bulgaria", type: "International day school", age: "K-12 route to confirm", curriculum: "American / IB route to confirm", officialUrl: "https://www.aas-sofia.org/", routeUrl: "https://www.aas-sofia.org/", publicStatus: "Candidate / official details to confirm", familyFit: "適合比較保加利亞、英語國際校、生活成本和安全環境的家庭。", check: "居留、課程、費用、校車、醫療與轉學出口。", source: "Official website route" },
+      { slug: "pechersk-school-international", name: "Pechersk School International", city: "Kyiv, Ukraine", type: "International school route watch", age: "K-12 route to confirm", curriculum: "IB route to confirm", officialUrl: "https://www.psi.kiev.ua/", routeUrl: "https://www.psi.kiev.ua/", publicStatus: "Route watch / security-sensitive", familyFit: "只適合有特殊家庭背景或在地需求者作安全評估，不作一般低齡留學主推。", check: "安全、運營狀態、居留、醫療、保險和是否適合未成年人。", source: "Official website route / security-sensitive watch" }
+    ]
+  }
+];
+
+function privateSchoolCountryPage(country) {
+  const schoolCards = country.schools.map((school) => {
+    const profileUrl = school.type === "Regional desk" ? school.routeUrl : `/zh/private-school-alliance/${country.slug}/${school.slug}/`;
+    return `
+              <a class="private-school-candidate-record" href="${profileUrl}">
+                <span class="candidate-city">${school.city.split(/[,\s]/)[0]}</span>
+                <strong>${school.name}</strong>
+                <span class="candidate-fit">${school.familyFit}</span>
+                <small>${school.type}</small>
+                <em><span>課程：${school.curriculum}</span><span>狀態：${school.publicStatus}</span><span><u>打開子頁核對</u></span></em>
+              </a>
+  `;
+  }).join("");
+  return pageShell({
+    title: `海外督導｜私校聯盟｜${country.zh} | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    path: `/zh/private-school-alliance/${country.slug}/`,
+    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: `海外督導私校聯盟${country.zh}頁`,
+    description: `OTC 私校聯盟${country.zh}頁：院校候選、官方網站、課程體系、年級入口、照護問題與 OTC 家庭初篩。`,
+    body: `
+    <section class="page-hero services-hero private-school-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">${country.en} Private School Alliance</div>
+            <h1>海外督導｜私校聯盟｜${country.zh}</h1>
+            <h2>${country.subtitle}</h2>
+            <p class="hero-sub">${country.intro}</p>
+            <div class="actions private-school-hero-actions">
+              <a class="btn btn-primary" href="#${country.slug}-schools">查看院校候選</a>
+              <a class="btn btn-secondary" href="/zh/private-school-alliance/">返回私校總頁</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.en + " private school family screening via OTC")}">通過 OTC 初篩</a>
+            </div>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="#${country.slug}-schools"><strong>院校候選</strong><span>官方網站 + OTC 讀法</span></a>
+            <a href="#${country.slug}-systems"><strong>課程核對</strong><span>IB / AP / 英式 / 本地</span></a>
+            <a href="#${country.slug}-care"><strong>照護文件</strong><span>住宿、監護、醫療</span></a>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.en + " school contact list update")}"><strong>更新聯絡</strong><span>後台合作清單</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="band service-review-strip private-school-strip">
+      <a href="#${country.slug}-schools"><b>${country.code}</b><strong>院校候選</strong><span>只放公開可讀信息，不公開第三方或上游渠道。</span></a>
+      <a href="#${country.slug}-systems"><b>SYS</b><strong>課程體系</strong><span>按年級、文憑、英文比例與升學出口核對。</span></a>
+      <a href="#${country.slug}-care"><b>CARE</b><strong>照護安排</strong><span>boarding、homestay、guardian、medical 分開問。</span></a>
+      <a href="#${country.slug}-apply"><b>OTC</b><strong>辦理入口</strong><span>先做家庭初篩，再與校方/通道逐項確認。</span></a>
+    </section>
+
+    <section class="band compact-band service-review-body">
+      <div class="section-head compact-head service-review-head">
+        <span>${country.en}</span>
+        <strong>${country.zh}私校路線先看這幾個入口</strong>
+        <div class="private-school-text-toggles">
+          <details><summary>官方核對</summary><p>${country.officialContext}</p></details>
+          <details><summary>年級入口</summary><p>小學、初中、高中轉入與畢業年級風險不同，應先確認學生目前年級、生日、英文能力和可接受的轉入時間。</p></details>
+          <details><summary>住宿照護</summary><p>寄宿、走讀、校車、陪讀、監護、醫療與緊急聯絡要在申請前問清楚，不能等錄取後才補。</p></details>
+          <details><summary>文件節奏</summary><p>成績單、護照、英文證明、推薦、健康表、監護文件和面試安排應先形成一頁清單。</p></details>
+        </div>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section id="${country.slug}-schools">
+            <h2 class="zh-herald-section-head" data-num="01">院校 / 路線索引</h2>
+            <div class="private-school-candidate-list">
+${schoolCards}
+            </div>
+            <p class="private-school-index-note">點進院校子頁，可查看年級、住宿、課程、文件與官方核對入口。</p>
+          </section>
+          <section id="${country.slug}-apply">
+            <h2 class="zh-herald-section-head" data-num="03">海外督導 OTC 免費代辦流程</h2>
+            <div class="private-school-apply-flow">
+              <details><summary><b>01</b><strong>家庭初篩</strong></summary><p>年級、英文、成績、預算、住宿、陪讀。</p></details>
+              <details><summary><b>02</b><strong>院校核對</strong></summary><p>官網、課程、年級入口、費用與監護。</p></details>
+              <details><summary><b>03</b><strong>文件整理</strong></summary><p>護照、成績、推薦、英文、健康/監護表。</p></details>
+              <details><summary><b>04</b><strong>免費遞交</strong></summary><p>按學校流程提交，跟進 offer、補件、面試。</p></details>
+              <details><summary><b>05</b><strong>銜接支援</strong></summary><p>師資、課程、出行；法律/簽證轉介專業人士。</p></details>
+            </div>
+            <div class="private-school-flow-cta">
+              <span>➡️</span>
+              <strong>先把學生資料交給 OTC，免費建立一頁私校申請判斷表。</strong>
+              <a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.en + " private school free application flow")}">開始免費代辦</a>
+            </div>
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side" id="${country.slug}-care">
+          <div class="service-guide-card is-urgent">
+            <span>海外督導</span>
+            <strong>學術網路、師資資料與專業轉介一起進場</strong>
+            <p>海外督導長期積累院校資訊、學術網路、師資支援、課程銜接經驗與多國留學 agent training / 官方資訊更新記錄；涉及簽證、監護、合同或法律問題時，可協助家庭整理文件並轉介合適律師或專業人士。</p>
+            <a href="/zh/private-school-alliance/">返回私校總頁</a>
+          </div>
+          <div class="service-guide-card">
+            <span>照護問題</span>
+            <strong>住宿和監護先問清</strong>
+            <p>寄宿、homestay、校車、家長陪讀、緊急聯絡、醫療保險與退費條款應在申請前確認。</p>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.en + " care and guardianship questions")}">發送問題</a>
+          </div>
+          <div class="service-side-links private-school-side-linkbar">
+            <span>實用入口</span>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.en + " private school document checklist")}">文件清單</a>
+            <a href="#${country.slug}-systems">課程銜接</a>
+            <a href="/zh/study-planning/">長線規劃</a>
+            <a href="/zh/services/">服務導覽</a>
+          </div>
+          <div class="private-school-side-toggles">
+            <span>服務小問答</span>
+            <details><summary>英文不夠怎麼辦</summary><p>先做 Academic English 與面試輸出評估，再判斷是否需要語言銜接、暑期試讀或延後正式轉入。</p></details>
+            <details><summary>需要律師嗎</summary><p>一般選校和申請文件由 OTC 協助整理；涉及簽證、監護、合同或法律爭議時，再轉介合適專業人士。</p></details>
+            <details><summary>可以免費代辦嗎</summary><p>可以先由 OTC 免費做家庭初篩、院校核對與文件清單；學校或第三方收費按官方文件另行確認。</p></details>
+            <details><summary>先暑校還是正課</summary><p>低齡或不確定國家時，可先用暑校、短期試讀或線上銜接測試學生適應度。</p></details>
+          </div>
+        </aside>
+      </div>
+      <p class="source-note">本頁為 OTC 公開教育資訊整理與家庭初篩入口，不代表正式代理授權、合作公告、錄取承諾、簽證承諾或升學結果承諾。所有院校資料以學校官方最新文件為準。</p>
+    </section>`
+  });
+}
+
+function privateSchoolProviderPage(country, school) {
+  return pageShell({
+    title: `海外督導｜私校聯盟｜${country.zh}｜${school.name} | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    path: `/zh/private-school-alliance/${country.slug}/${school.slug}/`,
+    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: `${school.name} OTC 私校聯盟頁`,
+    description: `${school.name} OTC 私校聯盟院校頁：官方網站、城市、課程體系、家庭適配、核對問題與 OTC 初篩入口。`,
+    body: `
+    <section class="page-hero services-hero private-school-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">${country.en} · Private School Profile</div>
+            <h1>海外督導｜私校聯盟｜${school.name}</h1>
+            <h2>${school.city} · ${school.type}</h2>
+            <p class="hero-sub">${school.familyFit}</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="${school.officialUrl}" target="_blank" rel="noopener">院校官方網站</a>
+              <a class="btn btn-secondary" href="${school.routeUrl}">查看 OTC 相關資料</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " enquiry via OTC")}">通過 OTC 辦理</a>
+            </div>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="/zh/private-school-alliance/${country.slug}/"><strong>${country.zh}總頁</strong><span>返回國家路線</span></a>
+            <a href="#school-quick-facts"><strong>院校信息</strong><span>城市、年級、體系</span></a>
+            <a href="#school-questions"><strong>核對問題</strong><span>申請前要問清</span></a>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " family screening")}"><strong>家庭初篩</strong><span>提交給 OTC</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="band service-review-strip private-school-strip">
+      <a href="${school.officialUrl}" target="_blank" rel="noopener"><b>OFF</b><strong>官方網站</strong><span>所有課程、費用、名額以院校官方文件為準。</span></a>
+      <a href="#school-quick-facts"><b>FACT</b><strong>基本信息</strong><span>城市、年級、課程和公開狀態。</span></a>
+      <a href="#school-questions"><b>ASK</b><strong>核對問題</strong><span>英文、住宿、監護、費用、入學時間。</span></a>
+      <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " via OTC")}"><b>OTC</b><strong>通過 OTC</strong><span>先做家庭初篩，再逐項對接。</span></a>
+    </section>
+
+    <section class="band compact-band service-review-body">
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section id="school-quick-facts">
+            <h2 class="zh-herald-section-head" data-num="01">院校基本信息</h2>
+            <div class="article-service-table">
+              <table>
+                <tbody>
+                  <tr><th>國家 / 地區</th><td>${country.zh} ${country.en}</td></tr>
+                  <tr><th>城市 / 校區</th><td>${school.city}</td></tr>
+                  <tr><th>年級 / 年齡</th><td>${school.age}</td></tr>
+                  <tr><th>課程體系</th><td>${school.curriculum}</td></tr>
+                  <tr><th>公開狀態</th><td>${school.publicStatus}</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section id="school-questions">
+            <h2 class="zh-herald-section-head" data-num="02">家長應核對</h2>
+            <div class="resource-list">
+              <article class="resource-row"><div><div class="meta">Before application</div><h3>${school.check}</h3><p>OTC 建議把這些問題寫成一頁 family screening sheet，再由校方或正式通道確認。不要只看校名、排名或 brochure 圖片。</p></div><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " questions checklist")}">整理問題</a></article>
+              <article class="resource-row"><div><div class="meta">OTC global learning desk</div><h3>學術網路與專業支援可以先用起來</h3><p>OTC 可協助家庭整理院校選項、核對官方要求、匹配師資/課程銜接資源、準備申請文件與問題清單；涉及簽證、監護、合同或法律問題時，再轉介律師或專業人士。</p></div><span class="pill">資源平台</span></article>
+            </div>
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side">
+          <div class="service-guide-card is-urgent">
+            <span>OTC 初篩</span>
+            <strong>適合誰？</strong>
+            <p>${school.familyFit}</p>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " private school screening")}">通過 OTC 辦理</a>
+          </div>
+          <div class="service-guide-card">
+            <span>資料來源</span>
+            <strong>${school.source}</strong>
+            <p>本頁是公開讀法與候選路線，不是正式代理公告。</p>
+            <a href="${school.officialUrl}" target="_blank" rel="noopener">打開官方網站</a>
+          </div>
+          <div class="service-side-links">
+            <span>實用入口</span>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent(school.name + " document checklist")}">文件清單</a>
+            <a href="/international-curriculum-tutoring/">課程銜接</a>
+            <a href="/zh/study-planning/">長線規劃</a>
+            <a href="/zh/private-school-alliance/${country.slug}/">${country.zh}</a>
+          </div>
+        </aside>
+      </div>
+      <p class="source-note">本頁不代表 OTC 與 ${school.name} 已簽署正式代理授權或合作協議，也不構成錄取、簽證、獎學金或升學結果承諾。所有信息應以院校官方最新文件和書面回覆為準。</p>
+    </section>`
+  });
+}
 
 const summerSchoolCountryRoutes = [
   {
@@ -19539,6 +20423,16 @@ write("zh", chineseEntrance);
 write("zh/study-planning", zhStudyPlanning);
 write("zh/immigration-info", zhImmigrationInfo);
 write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
+write("zh/private-school-alliance", privateSchoolAlliance);
+write("zh/private-school-alliance/vietnam", vietnamPrivateSchoolAlliance);
+privateSchoolCountryData.forEach((country) => {
+  if (country.slug !== "vietnam") {
+    write(`zh/private-school-alliance/${country.slug}`, privateSchoolCountryPage(country));
+  }
+  country.schools.forEach((school) => {
+    write(`zh/private-school-alliance/${country.slug}/${school.slug}`, privateSchoolProviderPage(country, school));
+  });
+});
 write("international-curriculum-tutoring", internationalCurriculumTutoring);
 write("othm-qualifications", othmQualifications);
 write("external-programme-support", externalProgrammeSupport);
