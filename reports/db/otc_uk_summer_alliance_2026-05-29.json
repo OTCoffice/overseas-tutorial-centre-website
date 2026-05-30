@@ -1,0 +1,116 @@
+{
+  "dataset": "OTC UK Summer Alliance cooperation tracker",
+  "date": "2026-05-29",
+  "records": [
+    {
+      "provider": "Oxford Summer Courses",
+      "contact_name": "Yao Zhou",
+      "contact_email": "yaozhou@oxfordsummercourses.com",
+      "programme_route": "Oxford/Cambridge academic summer courses",
+      "latest_status": "maria_takeover_partner_agreement_requested",
+      "incoming_message_id": "19e6d77d16a4adde",
+      "reply_message_id": "19e70ecbf85a9d7e",
+      "next_action": "await_partner_agreement_and_application_link",
+      "notes": "Maria Shaw replied with OTC agent details, company number 11060519, registered address, gross-paying preference and main contact flow."
+    },
+    {
+      "provider": "CSVPA / Stafford House Study Holidays",
+      "contact_name": "Jennifer Zhang",
+      "contact_email": "jzhang@catsglobalschools.com",
+      "programme_route": "CSVPA and Stafford House summer schools",
+      "latest_status": "maria_takeover_onboarding_requested",
+      "incoming_message_id": "19e6c33c51e0e7d8",
+      "reply_message_id": "19e70eceece08d8c",
+      "next_action": "await_fee_sheet_agent_terms_and_booking_flow",
+      "notes": "Jennifer confirmed she handles Stafford House recruitment in China and CSVPA is operated with SHSH. Maria Shaw requested 2026 fees, onboarding, commission/referral terms and booking procedure."
+    },
+    {
+      "provider": "Immerse Education",
+      "contact_name": "Pearly Sze",
+      "contact_email": "pearly.sze@immerse.education",
+      "programme_route": "Academic and career-enrichment summer programmes",
+      "latest_status": "maria_takeover_partner_process_requested",
+      "incoming_message_id": "19e68b09ac3ed0df",
+      "reply_message_id": "19e70ed1656049a5",
+      "next_action": "await_agent_agreement_tracking_and_terms",
+      "notes": "Pearly shared 2026 prospectus, dates and fees. Maria Shaw requested formal onboarding, referral tracking, commission terms, family/group arrangements and enrolment contact flow before booking a meeting."
+    },
+    {
+      "provider": "ISSOS",
+      "contact_name": "Emma Horner",
+      "contact_email": "emmahorner@issos.com",
+      "programme_route": "Fully residential international summer school",
+      "latest_status": "maria_takeover_agent_agreement_requested",
+      "incoming_message_id": "19e68a9ca1f8aa16",
+      "reply_message_id": "19e70ed3ec729094",
+      "next_action": "await_agent_agreement_fee_sheet_availability",
+      "notes": "ISSOS confirmed agent work, 20% commission, 10% nationality cap, A2 minimum English and GBP 7900 fee. Maria Shaw requested agreement, fee sheet, availability and placement-test process."
+    },
+    {
+      "provider": "Concord College Summer School",
+      "contact_name": "Isabelle Hubbard",
+      "contact_email": "summer@concordcollege.org.uk",
+      "programme_route": "Concord College residential summer school",
+      "latest_status": "maria_takeover_reference_format_requested",
+      "incoming_message_id": "19e64f7922edfd11",
+      "reply_message_id": "19e70ed67ccccd3d",
+      "next_action": "prepare_two_uk_reference_contacts",
+      "notes": "Concord confirmed agent process starts with two UK-based educational establishment references. Maria Shaw asked for preferred reference format before sending details."
+    },
+    {
+      "provider": "Reach Cambridge",
+      "contact_name": "Katy / Reach Cambridge Admissions",
+      "contact_email": "admissions@reachcambridge.com",
+      "programme_route": "Cambridge academic summer programmes",
+      "latest_status": "maria_takeover_onboarding_requested",
+      "incoming_message_id": "19e64d328e2104b8",
+      "reply_message_id": "19e70ed8fef6b589",
+      "next_action": "await_agent_onboarding_dates_fees_terms",
+      "notes": "Reach Cambridge invited OTC to book an agent-team call. Maria Shaw requested partner onboarding steps, 2026 dates/fees/availability, commission terms and tracking process before scheduling."
+    },
+    {
+      "provider": "MPW Summer School",
+      "contact_name": "Izzy Holmes / Helena Cheng",
+      "contact_email": "summerschool@mpw.ac.uk; Helena.Cheng@mpw.ac.uk",
+      "programme_route": "London and Cambridge academic summer school",
+      "latest_status": "maria_takeover_agent_terms_requested",
+      "incoming_message_id": "19e6485b5ef6fbf2",
+      "reply_message_id": "19e70ef47ef799cf",
+      "next_action": "await_helena_agent_onboarding_and_availability",
+      "notes": "MPW confirmed agent work, copied Helena Cheng for Chinese-speaking student recruitment, shared 2026 brochure, dates, fees and application process. Maria Shaw requested agent onboarding, commission/referral terms, tracking, availability by stream and payment/contact flow."
+    },
+    {
+      "provider": "Oxford Royale",
+      "contact_name": "Dan Metcalfe",
+      "contact_email": "agentpartnerships@oxford-royale.co.uk",
+      "programme_route": "Oxford Royale summer programmes",
+      "latest_status": "maria_takeover_source_market_clarification",
+      "incoming_message_id": "19e646c73940dc46",
+      "reply_message_id": "19e70ef6caadde6f",
+      "next_action": "await_permission_for_non_mainland_china_sources",
+      "notes": "Oxford Royale noted a mainland China exclusivity arrangement. Maria Shaw clarified OTC supports Chinese-speaking families outside mainland China too and asked whether direct cooperation is possible for UK-based, Hong Kong, Macau and other non-mainland sources."
+    },
+    {
+      "provider": "TASIS England Summer Program",
+      "contact_name": "Jennifer Yeadon",
+      "contact_email": "jyeadon@tasisengland.org",
+      "programme_route": "TASIS England residential summer program",
+      "latest_status": "maria_takeover_agent_agreement_review",
+      "incoming_message_id": "19e645884eb4df94",
+      "reply_message_id": "19e70ef946c281e2",
+      "next_action": "await_agent_terms_availability_and_tracking_details",
+      "notes": "TASIS shared Summer Infographic, application form and agent agreement form. Maria Shaw replied as takeover contact and requested confirmation of onboarding step, availability, commission/referral terms, tracking and sibling/group/early-booking arrangements."
+    },
+    {
+      "provider": "Academic Summer / Academic Camp",
+      "contact_name": "Betty Ho",
+      "contact_email": "betty.ho@academiccamp.co.uk",
+      "programme_route": "London Westminster at DLD College London and West Country at Sidcot School Bristol",
+      "latest_status": "maria_takeover_partner_terms_requested",
+      "incoming_message_id": "19e73ea988a30db8",
+      "reply_message_id": "19e77763bb692426",
+      "next_action": "await_2026_brochure_fee_sheet_terms_and_meeting_confirmation",
+      "notes": "Betty introduced Academic Summer as a BAC-accredited UK summer school provider established in 2010 for ages 7-17, with boarding and day options, London Westminster and West Country locations, project-based CLIL learning and Career Pathways. Maria Shaw requested 2026 brochure, dates, age ranges, fees, availability, agent onboarding, agreement, commission, group/sibling terms, referral tracking, booking/payment flow and meeting route confirmation."
+    }
+  ]
+}
