@@ -24906,3 +24906,16 @@ body .partner-hero .band .partner-hero-copy .actions {
 .zh-home-region-map{border-radius:0!important;border-top:2px solid var(--gold)!important;margin-bottom:0!important}
 .zh-home-region-map::after{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(6,23,43,.2) 58%,var(--base) 100%),radial-gradient(circle at 83% 67%,rgba(245,194,107,.2),transparent 17%),radial-gradient(circle at 48% 42%,rgba(245,194,107,.14),transparent 15%)!important}
 .site-footer{background:var(--base)!important;border-top:0!important;margin-top:0!important}
+
+.btn-healthbridge {
+  background: linear-gradient(135deg, #1f4e79, #183653);
+  border-color: #bedcfb;
+  color: #fff;
+}
+
+.btn-healthbridge:hover,
+.btn-healthbridge:focus-visible {
+  background: linear-gradient(135deg, #28669e, #1f4e79);
+  border-color: #d8ebff;
+  color: #fff;
+}
