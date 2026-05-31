@@ -12746,7 +12746,7 @@ const vietnamPrivateSchoolAlliance = pageShell({
   lang: "zh-Hant",
   locale: "zh",
   path: "/zh/private-school-alliance/vietnam/",
-  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
   imageWidth: 1200,
   imageHeight: 630,
   imageAlt: "海外督導私校聯盟越南 The Dewey Schools 分享報頭",
@@ -12760,7 +12760,7 @@ const vietnamPrivateSchoolAlliance = pageShell({
             <h1>海外督導｜私校聯盟｜越南</h1>
             <h2>Hanoi · K-12 · American / IB / Bilingual Route</h2>
             <p class="hero-sub">越南線適合正在比較亞洲國際校、低齡陪讀、英語浸潤、美式高中/IB/雙語路線的家庭。The Dewey Schools 是第一個公開樣本：先讀官網資料，再由 OTC 協助家庭整理校區、課程、年級與照護問題清單。</p>
-            <div class="actions">
+            <div class="actions private-school-vietnam-actions">
               <a class="btn btn-primary" href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">院校官方網站</a>
               <a class="btn btn-secondary" href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">閱讀導報介紹</a>
               <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=The%20Dewey%20Schools%20Vietnam%20private%20school%20enquiry%20via%20OTC">通過 OTC 初步諮詢</a>
@@ -12857,7 +12857,7 @@ const vietnamPrivateSchoolAlliance = pageShell({
             </div>
           </section>
         </main>
-        <aside class="service-guide-side service-herald-side" id="vietnam-care-notes">
+        <aside class="service-guide-side service-herald-side vietnam-care-side" id="vietnam-care-notes">
           <div class="service-guide-card is-urgent">
             <span>OTC 提醒</span>
             <strong>先核對授權範圍</strong>

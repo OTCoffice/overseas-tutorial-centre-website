@@ -11227,6 +11227,31 @@ h1 {
   color: #fffaf0;
 }
 
+.private-school-vietnam-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.private-school-vietnam-actions .btn {
+  border-radius: 999px;
+  font-size: 10.5px;
+  letter-spacing: 0;
+  line-height: 1.05;
+  min-height: 0;
+  min-width: 0;
+  padding: 6px 9px;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .private-school-vietnam-actions {
+    flex-wrap: wrap;
+  }
+}
+
 .zh-side-window {
   background: #fffdf7;
 }
@@ -15743,6 +15768,56 @@ h1 {
 
 .private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:hover {
   color: #8b6830;
+}
+
+.vietnam-care-side .service-guide-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(214, 198, 171, 0.56);
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr;
+  padding: 2px 0 15px;
+}
+
+.vietnam-care-side .service-guide-card::before {
+  content: none;
+}
+
+.vietnam-care-side .service-guide-card span,
+.vietnam-care-side .service-guide-card strong,
+.vietnam-care-side .service-guide-card p,
+.vietnam-care-side .service-guide-card a {
+  grid-column: 1;
+}
+
+.vietnam-care-side .service-guide-card span {
+  color: #8b6830;
+}
+
+.vietnam-care-side .service-guide-card strong {
+  color: #17243f;
+  font-size: 16px;
+}
+
+.vietnam-care-side .service-guide-card p {
+  color: #554536;
+}
+
+.vietnam-care-side .service-guide-note {
+  background: #17243f;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 10px 22px rgba(23, 36, 63, 0.14);
+  padding: 13px 14px;
+}
+
+.vietnam-care-side .service-guide-note b {
+  color: #d7ad55;
+}
+
+.vietnam-care-side .service-guide-note p {
+  color: rgba(255, 250, 240, 0.84);
 }
 
 .service-route-list {
