@@ -12544,7 +12544,7 @@ const privateSchoolAlliance = pageShell({
   lang: "zh-Hant",
   locale: "zh",
   path: "/zh/private-school-alliance/",
-  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
   imageWidth: 1200,
   imageHeight: 630,
   imageAlt: "海外督導私校聯盟：越南 The Dewey Schools 分享報頭",
@@ -13143,7 +13143,7 @@ function privateSchoolCountryPage(country) {
     lang: "zh-Hant",
     locale: "zh",
     path: `/zh/private-school-alliance/${country.slug}/`,
-    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: `海外督導私校聯盟${country.zh}頁`,
@@ -13257,7 +13257,7 @@ function privateSchoolProviderPage(country, school) {
     lang: "zh-Hant",
     locale: "zh",
     path: `/zh/private-school-alliance/${country.slug}/${school.slug}/`,
-    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260529",
+    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: `${school.name} OTC 私校聯盟頁`,
@@ -18792,7 +18792,7 @@ function zhVetBoardToolShelf({ heading = "配套出版物與學習工具", intro
   `;
 }
 
-function zhVetBoardPage({ title, description, path, image = "/assets/otc-australia-vet-tafe-social-card.png", imageWidth = 1200, imageHeight = 675, imageAlt = "", heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext, extraContent = "" }) {
+function zhVetBoardPage({ title, description, path, image = "/assets/otc-australia-vet-tafe-social-card.png", imageWidth = 1200, imageHeight = 675, imageAlt = "", heroEyebrow, heroTitle, heroIntro, sections, resources, related, toolContext, extraContent = "", layoutClass = "" }) {
   const resourceList = (resources || [])
     .map((resource) => `<li><strong><a href="${resource[1]}" target="_blank" rel="noopener">${resource[0]}</a></strong><span>${resource[1]}</span></li>`)
     .join("");
@@ -18840,7 +18840,7 @@ function zhVetBoardPage({ title, description, path, image = "/assets/otc-austral
         `).join("")}
       </section>
 
-      <section class="band compact-band service-review-body">
+      <section class="band compact-band service-review-body${layoutClass ? ` ${layoutClass}` : ""}">
         <div class="section-head compact-head service-review-head">
           <span>職培服務台</span>
           <strong>先分流，再核對</strong>
@@ -18875,14 +18875,14 @@ function zhVetBoardPage({ title, description, path, image = "/assets/otc-austral
             ${(related || []).length ? `
             <section>
               <h2 class="zh-herald-section-head" data-num="03">相關板塊</h2>
-              <div class="service-situation-grid">${relatedCards}</div>
+              <div class="service-situation-grid tafe-related-grid">${relatedCards}</div>
             </section>
             ` : ""}
           </main>
           <aside class="service-guide-side service-herald-side">
             <div class="service-guide-card is-urgent">
               <span>合規邊界</span>
-              <strong>不做保證式表述</strong>
+              <strong>不做保證式<br>表述</strong>
               <p>OTC 做教育協調、文件整理與官方入口核對；移民、法律、執業註冊與就業結果由相應機構或合資格人士處理。</p>
               <a href="/application-service-standards/">查看服務標準</a>
             </div>
@@ -19032,21 +19032,21 @@ const tafeSaOffshoreChinaExtra = `
   <section class="band compact-band">
     <div class="section-head compact-head">
       <div class="eyebrow">Official Institutions</div>
-      <h2>院校、官方網站與通過 OTC 辦理入口</h2>
+      <h2>院校、官方網站與 OTC 辦理入口</h2>
       <p>公開頁面只展示院校官方網站和 OTC 文件初篩入口；後台遞交與個案協調由 OTC 收到申請後手動處理。</p>
     </div>
     <div class="article-service-table">
       <table>
         <thead><tr><th>院校 / 路線</th><th>課程方向</th><th>官方網站</th><th>辦理入口</th></tr></thead>
         <tbody>
-          <tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">通過 OTC 辦理</a></td></tr>
-          <tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">通過 OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">OTC 辦理</a></td></tr>
+          <tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">OTC 辦理</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -19069,7 +19069,7 @@ const tafeSaOffshoreChinaExtra = `
 
 const zhAustraliaVetTafeSaOffshoreChina = zhVetBoardPage({
   title: "TAFE SA 境外中國申請路線 | OTC 澳洲 VET / TAFE",
-  description: "OTC TAFE SA 境外中國申請路線站點：院校官網、TAFE SA + Adelaide University / Flinders University 打包課程、簽證風險初篩、文件清單與通過 OTC 辦理入口。",
+  description: "OTC TAFE SA 境外中國申請路線站點：院校官網、TAFE SA + Adelaide University / Flinders University 打包課程、簽證風險初篩、文件清單與 OTC 辦理入口。",
   path: "/zh/australia-vet-tafe-pathways/tafe-sa-offshore-china/",
   image: "/assets/social/herald-zh-tafe-sa-offshore-china-application-guide-2026.png",
   imageWidth: 1200,
@@ -19079,6 +19079,7 @@ const zhAustraliaVetTafeSaOffshoreChina = zhVetBoardPage({
   heroTitle: "TAFE SA 境外中國申請：OTC 路線站點",
   heroIntro: "這一頁是 OTC 面向中國家庭的 TAFE SA 申請站點：先公開列出院校官方網站、可辦理課程方向與 OTC 初篩入口，再由 OTC 在收到申請後按個案手動跟進。申請本身不難，重點是簽證風險、英文、年齡、課程邏輯與護理例外。",
   toolContext: "tafe-sa-offshore-china",
+  layoutClass: "tafe-sa-board-layout",
   sections: [
     ["Route 01", "境外中國學生初篩", "以高中畢業或同等學歷為主，先看年齡、學歷、英文與學習連續性。", ["Year 12 / 同等學歷", "21 歲以上需特別審", "空窗與工作經驗證據"]],
     ["Route 02", "TAFE SA 直讀與語言打包", "一般路線可按 IELTS / PTE 與 ELICOS 打包設計，但需核對官方當期要求。", ["IELTS / PTE", "ELICOS 週數", "CoE package"]],

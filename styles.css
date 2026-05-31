@@ -15807,9 +15807,9 @@ h1 {
 .vietnam-care-side .service-guide-note {
   background: #17243f;
   border: 0;
-  border-radius: 8px;
-  box-shadow: 0 10px 22px rgba(23, 36, 63, 0.14);
-  padding: 13px 14px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(23, 36, 63, 0.1);
+  padding: 8px 11px;
 }
 
 .vietnam-care-side .service-guide-note b {
@@ -16041,6 +16041,50 @@ h1 {
   margin-top: 2px;
 }
 
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card.is-urgent,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card:nth-child(2) {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(214, 198, 171, 0.58);
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr;
+  min-height: 0;
+  padding: 4px 0 13px 24px;
+}
+
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card::before,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card:nth-child(2)::before {
+  content: none;
+}
+
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card span,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card strong,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card p,
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card a {
+  grid-column: 1;
+}
+
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card strong {
+  color: #17243f;
+  font-size: 15.5px;
+  line-height: 1.18;
+}
+
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card p {
+  color: #554536;
+  font-size: 11.5px;
+  line-height: 1.42;
+  max-width: 26em;
+}
+
+.private-school-hero ~ .service-review-body .vietnam-care-side .service-guide-card a {
+  font-size: 11.5px;
+  line-height: 1.1;
+  margin-top: 8px;
+}
+
 .service-guide-note {
   background: #15110d;
   color: #fffaf0;
@@ -16055,6 +16099,342 @@ h1 {
 
 .service-guide-note p {
   color: rgba(255, 250, 240, 0.82);
+}
+
+.tafe-sa-board-layout {
+  max-width: 100%;
+}
+
+.tafe-sa-board-layout .service-review-head {
+  margin-bottom: 16px;
+}
+
+.tafe-sa-board-layout .service-herald-grid {
+  align-items: start;
+  display: grid;
+  grid-template-columns: minmax(0, 3.35fr) minmax(220px, 0.85fr);
+  gap: 18px;
+}
+
+.tafe-sa-board-layout .service-herald-main {
+  border-right: 0;
+  padding: 16px 18px 20px;
+}
+
+.tafe-sa-board-layout .service-herald-side {
+  align-self: start;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0 0 0 10px;
+}
+
+.tafe-sa-board-layout .service-situation-grid {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+}
+
+.tafe-sa-board-layout .service-situation-grid a,
+.tafe-sa-board-layout .hub-item,
+.tafe-sa-board-layout .service-route-list a {
+  min-height: 0;
+  padding: 12px 14px;
+}
+
+.tafe-sa-board-layout section:first-child .service-situation-grid a {
+  align-items: start;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(214, 198, 171, 0.72);
+  display: grid;
+  gap: 6px 16px;
+  grid-template-columns: 86px minmax(0, 1.15fr) minmax(220px, 0.85fr);
+  padding: 10px 4px;
+}
+
+.tafe-sa-board-layout section:first-child .service-situation-grid a b {
+  align-self: start;
+  color: #8b6830;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.tafe-sa-board-layout section:first-child .service-situation-grid a strong {
+  color: #17243f;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.tafe-sa-board-layout section:first-child .service-situation-grid a span {
+  color: #554536;
+  font-size: 12px;
+  grid-column: 2;
+  line-height: 1.42;
+}
+
+.tafe-sa-board-layout section:first-child .service-situation-grid a small {
+  align-self: center;
+  color: #7a6a56;
+  font-size: 11px;
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  line-height: 1.42;
+}
+
+.tafe-sa-board-layout .service-situation-grid a strong,
+.tafe-sa-board-layout .hub-item strong,
+.tafe-sa-board-layout .service-route-list a strong {
+  line-height: 1.18;
+}
+
+.tafe-sa-board-layout .service-route-list a strong {
+  font-size: 13px;
+}
+
+.tafe-sa-board-layout .service-situation-grid a span,
+.tafe-sa-board-layout .service-situation-grid a small,
+.tafe-sa-board-layout .hub-item p,
+.tafe-sa-board-layout .service-route-list a em {
+  line-height: 1.38;
+}
+
+.tafe-sa-board-layout .article-service-table {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tafe-sa-board-layout .article-service-table table {
+  min-width: 760px;
+  width: 100%;
+}
+
+.tafe-sa-board-layout .article-service-table th,
+.tafe-sa-board-layout .article-service-table td {
+  padding: 9px 10px;
+}
+
+.tafe-sa-board-layout .article-service-table tbody td:first-child {
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.tafe-sa-board-layout .article-service-table .btn {
+  font-size: 10.5px;
+  line-height: 1.15;
+  padding: 7px 9px;
+}
+
+.tafe-sa-board-layout .section-head.compact-head {
+  margin-bottom: 14px;
+}
+
+.tafe-sa-board-layout .section-head.compact-head h2 {
+  font-size: 23px;
+  line-height: 1.22;
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid {
+  border-top: 1px solid rgba(214, 198, 171, 0.72);
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid article {
+  background: transparent;
+  border: 0;
+  border-right: 1px solid rgba(214, 198, 171, 0.56);
+  border-radius: 0;
+  min-height: 0;
+  padding: 10px 12px 11px;
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid article:last-child {
+  border-right: 0;
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid span {
+  color: #8b6830;
+  font-size: 9px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid strong {
+  color: #17243f;
+  font-size: 13px;
+  line-height: 1.22;
+}
+
+.tafe-sa-board-layout .vet-tafe-screening-grid p {
+  color: #5b626d;
+  font-size: 10.5px;
+  line-height: 1.42;
+  margin-top: 5px;
+}
+
+.tafe-sa-board-layout .service-guide-card,
+.tafe-sa-board-layout .service-guide-note,
+.tafe-sa-board-layout .service-side-links,
+.tafe-sa-board-layout .service-mini-index {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(214, 198, 171, 0.7);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 11px 0 13px;
+}
+
+.tafe-sa-board-layout .service-guide-card,
+.tafe-sa-board-layout .service-guide-card.is-urgent,
+.tafe-sa-board-layout .service-guide-card:nth-child(2),
+.tafe-sa-board-layout .service-guide-card:nth-child(3) {
+  display: block;
+  min-height: 0;
+}
+
+.tafe-sa-board-layout .service-guide-card::before,
+.tafe-sa-board-layout .service-guide-card:nth-child(2)::before,
+.tafe-sa-board-layout .service-guide-card:nth-child(3)::before {
+  content: none;
+}
+
+.tafe-sa-board-layout .service-guide-card span,
+.tafe-sa-board-layout .service-guide-card strong,
+.tafe-sa-board-layout .service-guide-card p,
+.tafe-sa-board-layout .service-guide-card a {
+  grid-column: auto;
+}
+
+.tafe-sa-board-layout .service-guide-card span,
+.tafe-sa-board-layout .service-side-links span,
+.tafe-sa-board-layout .service-mini-index span {
+  color: #8b6830;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  margin-bottom: 7px;
+}
+
+.tafe-sa-board-layout .service-guide-card strong {
+  color: #17243f;
+  display: block;
+  font-size: 14px;
+  line-height: 1.22;
+}
+
+.tafe-sa-board-layout .service-guide-card strong br {
+  display: block;
+}
+
+.tafe-sa-board-layout .service-guide-card p,
+.tafe-sa-board-layout .service-guide-note p {
+  color: #5b626d;
+  font-size: 11px;
+  line-height: 1.48;
+}
+
+.tafe-sa-board-layout .service-guide-card a {
+  color: #17243f;
+  display: inline-flex;
+  font-size: 10px;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.tafe-sa-board-layout .service-guide-note {
+  color: #17243f;
+}
+
+.tafe-sa-board-layout .service-side-links,
+.tafe-sa-board-layout .service-mini-index {
+  display: block;
+}
+
+.tafe-sa-board-layout .service-side-links a,
+.tafe-sa-board-layout .service-side-links a:nth-child(3),
+.tafe-sa-board-layout .service-side-links a:nth-child(4),
+.tafe-sa-board-layout .service-side-links a:nth-child(5),
+.tafe-sa-board-layout .service-mini-index a {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid rgba(214, 198, 171, 0.58);
+  color: #17243f;
+  display: block;
+  font-size: 10.5px;
+  min-height: 0;
+  padding: 7px 0;
+}
+
+.tafe-sa-board-layout .tafe-related-grid {
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item,
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(2),
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(3),
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(4) {
+  border: 0;
+  box-shadow: none;
+  display: block;
+  min-height: 0;
+  padding: 12px 13px;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item::before {
+  content: none;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(1) {
+  background: #fff9ec;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(2) {
+  background: #f2f5fb;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(3) {
+  background: #eef8f6;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item:nth-child(4) {
+  background: #fff3ee;
+}
+
+.tafe-sa-board-layout .tafe-related-grid .hub-item strong {
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .tafe-sa-board-layout .service-herald-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tafe-sa-board-layout .service-situation-grid,
+  .tafe-sa-board-layout section:first-child .service-situation-grid a {
+    grid-template-columns: 1fr;
+  }
+
+  .tafe-sa-board-layout .vet-tafe-screening-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tafe-sa-board-layout .tafe-related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tafe-sa-board-layout .vet-tafe-screening-grid article:nth-child(2) {
+    border-right: 0;
+  }
+
+  .tafe-sa-board-layout section:first-child .service-situation-grid a span,
+  .tafe-sa-board-layout section:first-child .service-situation-grid a small {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
 
 .service-side-links,
