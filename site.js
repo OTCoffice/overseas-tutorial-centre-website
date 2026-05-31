@@ -349,7 +349,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="twitter:image:src" content="${socialImageUrl}">
   <meta name="twitter:image:alt" content="${imageAlt || title}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="stylesheet" href="/styles.css?v=tafe-sa-board-20260531-compact">
+  <link rel="stylesheet" href="/styles.css?v=uk-private-school-20260531">
 </head>
 <body>
   ${nav(current, locale)}

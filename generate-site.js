@@ -12924,7 +12924,7 @@ const privateSchoolCountryData = [
     ]
   },
   {
-    slug: "united-kingdom",
+    slug: "uk",
     code: "UK",
     zh: "英國",
     en: "United Kingdom",
@@ -12935,6 +12935,20 @@ const privateSchoolCountryData = [
       { slug: "concord-college", name: "Concord College", city: "Shrewsbury", type: "Boarding school / summer route", age: "Secondary / sixth form", curriculum: "GCSE / A-Level style route", officialUrl: "https://concordcollegeuk.com/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Agent process / references requested for summer route; school-route details TBC", familyFit: "適合看英國寄宿學校、學術氛圍與中高年級銜接的家庭。", check: "正式學年入學與暑期項目需分開確認；不可混用合作狀態。", source: "UK outreach log / official website to verify" },
       { slug: "tasis-england", name: "TASIS England", city: "Surrey", type: "International school / boarding summer route", age: "School-age / summer cohorts", curriculum: "American / international route", officialUrl: "https://www.tasisengland.org/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Agent agreement review for summer route; school-route details TBC", familyFit: "適合重視國際校社群、校園照護、寄宿與英國近郊生活的家庭。", check: "正式入學、暑期課程、boarding 和 agent terms 需分線核對。", source: "UK outreach log / TASIS materials" },
       { slug: "st-clares-oxford", name: "St Clare's, Oxford", city: "Oxford", type: "International school / IB route", age: "Junior / teenage / sixth form routes", curriculum: "IB-oriented route", officialUrl: "https://www.stclares.ac.uk/", routeUrl: "/zh/summer-school-alliance/uk/programmes/", publicStatus: "Candidate route / official details to confirm", familyFit: "適合希望把 Oxford、IB、英語提升與後續英國學校銜接放在一起看的家庭。", check: "IB / summer / academic year routes、住宿和年齡限制。", source: "UK summer research / official website to verify" }
+    ],
+    schoolIndex: [
+      ["Eton College","Berkshire","13-18","Boarding","GCSE / A-Level"],["Harrow School","London","13-18","Boarding","GCSE / A-Level"],["Winchester College","Hampshire","13-18","Boarding / Day","GCSE / A-Level"],["Westminster School","London","13-18","Boarding / Day","GCSE / A-Level"],["St Paul's School","London","13-18","Day","GCSE / A-Level"],["St Paul's Girls' School","London","11-18","Day","GCSE / A-Level"],["King's College School Wimbledon","London","7-18","Day","GCSE / IB / A-Level"],["Dulwich College","London","7-18","Boarding / Day","GCSE / A-Level"],["City of London School","London","10-18","Day","GCSE / A-Level"],["City of London School for Girls","London","11-18","Day","GCSE / A-Level"],
+      ["North London Collegiate School","London","4-18","Day","GCSE / A-Level"],["Highgate School","London","4-18","Day","GCSE / A-Level"],["Latymer Upper School","London","11-18","Day","GCSE / A-Level"],["Sevenoaks School","Kent","11-18","Boarding / Day","GCSE / IB"],["Tonbridge School","Kent","13-18","Boarding / Day","GCSE / A-Level"],["Benenden School","Kent","11-18","Boarding","GCSE / A-Level"],["King's School Canterbury","Kent","13-18","Boarding / Day","GCSE / A-Level"],["Marlborough College","Wiltshire","13-18","Boarding / Day","GCSE / A-Level"],["Radley College","Oxfordshire","13-18","Boarding","GCSE / A-Level"],["Magdalen College School","Oxford","7-18","Day","GCSE / A-Level"],
+      ["Oxford High School GDST","Oxford","4-18","Day","GCSE / A-Level"],["Headington School","Oxford","3-18","Boarding / Day","GCSE / A-Level"],["St Edward's Oxford","Oxford","13-18","Boarding / Day","GCSE / IB / A-Level"],["Abingdon School","Oxfordshire","11-18","Day / Boarding","GCSE / A-Level"],["The Dragon School","Oxford","4-13","Boarding / Day","Prep"],["Cheltenham Ladies' College","Gloucestershire","11-18","Boarding / Day","GCSE / IB / A-Level"],["Cheltenham College","Gloucestershire","13-18","Boarding / Day","GCSE / A-Level"],["Clifton College","Bristol","3-18","Boarding / Day","GCSE / A-Level"],["Badminton School","Bristol","3-18","Boarding / Day","GCSE / A-Level"],["Bristol Grammar School","Bristol","4-18","Day","GCSE / A-Level"],
+      ["Wellington College","Berkshire","13-18","Boarding / Day","GCSE / IB / A-Level"],["Charterhouse","Surrey","13-18","Boarding / Day","GCSE / A-Level"],["Rugby School","Warwickshire","13-18","Boarding / Day","GCSE / IB / A-Level"],["Oundle School","Northamptonshire","11-18","Boarding / Day","GCSE / A-Level"],["Uppingham School","Rutland","13-18","Boarding / Day","GCSE / A-Level"],["Oakham School","Rutland","10-18","Boarding / Day","GCSE / IB / A-Level"],["Stowe School","Buckinghamshire","13-18","Boarding / Day","GCSE / A-Level"],["Wycombe Abbey","Buckinghamshire","11-18","Boarding","GCSE / A-Level"],["The Royal Grammar School Guildford","Surrey","11-18","Day","GCSE / A-Level"],["Guildford High School","Surrey","4-18","Day","GCSE / A-Level"],
+      ["Epsom College","Surrey","11-18","Boarding / Day","GCSE / A-Level"],["Reigate Grammar School","Surrey","11-18","Day","GCSE / A-Level"],["Caterham School","Surrey","11-18","Boarding / Day","GCSE / A-Level"],["Brighton College","East Sussex","3-18","Boarding / Day","GCSE / A-Level"],["Roedean School","East Sussex","11-18","Boarding / Day","GCSE / A-Level"],["Lancing College","West Sussex","13-18","Boarding / Day","GCSE / A-Level"],["Hurstpierpoint College","West Sussex","4-18","Boarding / Day","GCSE / A-Level"],["Worth School","West Sussex","11-18","Boarding / Day","GCSE / A-Level"],["Bedales School","Hampshire","3-18","Boarding / Day","GCSE / A-Level"],["Sherborne School","Dorset","13-18","Boarding / Day","GCSE / A-Level"],
+      ["Sherborne Girls","Dorset","11-18","Boarding / Day","GCSE / A-Level"],["Bryanston School","Dorset","3-18","Boarding / Day","GCSE / A-Level"],["Canford School","Dorset","13-18","Boarding / Day","GCSE / A-Level"],["Millfield School","Somerset","13-18","Boarding / Day","GCSE / A-Level / BTEC"],["King's College Taunton","Somerset","13-18","Boarding / Day","GCSE / A-Level"],["Taunton School","Somerset","0-18","Boarding / Day","GCSE / IB / A-Level"],["Blundell's School","Devon","3-18","Boarding / Day","GCSE / A-Level"],["Exeter School","Devon","7-18","Day","GCSE / A-Level"],["Truro School","Cornwall","3-18","Boarding / Day","GCSE / A-Level"],["Wells Cathedral School","Somerset","2-18","Boarding / Day","GCSE / A-Level / Music"],
+      ["Manchester Grammar School","Manchester","7-18","Day","GCSE / A-Level"],["Withington Girls' School","Manchester","7-18","Day","GCSE / A-Level"],["The King's School Chester","Cheshire","4-18","Day","GCSE / A-Level"],["Shrewsbury School","Shropshire","13-18","Boarding / Day","GCSE / A-Level"],["Concord College","Shropshire","13-18","Boarding / Day","GCSE / A-Level"],["Moreton Hall","Shropshire","0-18","Boarding / Day","GCSE / A-Level"],["The King's School Worcester","Worcestershire","2-18","Day","GCSE / A-Level"],["Bromsgrove School","Worcestershire","2-18","Boarding / Day","GCSE / IB / A-Level"],["Malvern College","Worcestershire","13-18","Boarding / Day","GCSE / IB / A-Level"],["Warwick School","Warwickshire","7-18","Day","GCSE / A-Level"],
+      ["King's High Warwick","Warwickshire","11-18","Day","GCSE / A-Level"],["Solihull School","West Midlands","3-18","Day","GCSE / A-Level"],["King Edward's School Birmingham","Birmingham","11-18","Day","GCSE / IB"],["King Edward VI High School for Girls","Birmingham","11-18","Day","GCSE / A-Level"],["Loughborough Grammar School","Leicestershire","10-18","Boarding / Day","GCSE / A-Level"],["Loughborough High School","Leicestershire","11-18","Day","GCSE / A-Level"],["Nottingham High School","Nottinghamshire","4-18","Day","GCSE / A-Level"],["Trent College","Derbyshire","3-18","Boarding / Day","GCSE / A-Level"],["Repton School","Derbyshire","13-18","Boarding / Day","GCSE / IB / A-Level"],["Rugby School Japan UK Route Watch","Warwickshire","13-18","Route watch","British route"],
+      ["The Perse School","Cambridge","3-18","Day","GCSE / A-Level"],["The Leys School","Cambridge","11-18","Boarding / Day","GCSE / A-Level"],["St Mary's School Cambridge","Cambridge","3-18","Boarding / Day","GCSE / A-Level"],["Stephen Perse Foundation","Cambridge","1-18","Day","GCSE / IB / A-Level"],["Norwich School","Norfolk","4-18","Day","GCSE / A-Level"],["Gresham's School","Norfolk","2-18","Boarding / Day","GCSE / IB / A-Level"],["Ipswich School","Suffolk","3-18","Boarding / Day","GCSE / A-Level"],["Framlingham College","Suffolk","3-18","Boarding / Day","GCSE / A-Level"],["Felsted School","Essex","4-18","Boarding / Day","GCSE / IB / A-Level"],["Bishop's Stortford College","Hertfordshire","4-18","Boarding / Day","GCSE / A-Level"],
+      ["Haileybury","Hertfordshire","11-18","Boarding / Day","GCSE / IB / A-Level"],["St Albans School","Hertfordshire","11-18","Day","GCSE / A-Level"],["St Albans High School for Girls","Hertfordshire","4-18","Day","GCSE / A-Level"],["Berkhamsted School","Hertfordshire","3-18","Boarding / Day","GCSE / A-Level"],["Winchester College","Hampshire","13-18","Boarding / Day","GCSE / A-Level"],["Portsmouth Grammar School","Hampshire","2-18","Day","GCSE / A-Level"],["Lord Wandsworth College","Hampshire","11-18","Boarding / Day","GCSE / A-Level"],["Dauntsey's School","Wiltshire","11-18","Boarding / Day","GCSE / A-Level"],["Monkton Combe School","Bath","2-18","Boarding / Day","GCSE / A-Level"],["Prior Park College","Bath","11-18","Boarding / Day","GCSE / A-Level"],
+      ["Giggleswick School","North Yorkshire","2-18","Boarding / Day","GCSE / A-Level"],["Ampleforth College","North Yorkshire","11-18","Boarding / Day","GCSE / A-Level"],["St Peter's School York","York","2-18","Boarding / Day","GCSE / A-Level"],["Bootham School","York","3-18","Boarding / Day","GCSE / A-Level"],["Queen Ethelburga's Collegiate","North Yorkshire","0-19","Boarding / Day","GCSE / A-Level / BTEC"],["Sedbergh School","Cumbria","13-18","Boarding / Day","GCSE / A-Level"],["Cheadle Hulme School","Greater Manchester","3-18","Day","GCSE / A-Level"],["Rossall School","Lancashire","0-18","Boarding / Day","GCSE / IB / A-Level"],["Stonyhurst College","Lancashire","3-18","Boarding / Day","GCSE / IB / A-Level"],["Giggleswick / Sedbergh Prep Route","North England","Prep-13","Boarding / Day","Prep route"],
+      ["Fettes College","Edinburgh","7-18","Boarding / Day","Scottish / GCSE / A-Level route"],["George Heriot's School","Edinburgh","3-18","Day","Scottish route"],["Merchiston Castle School","Edinburgh","7-18","Boarding / Day","Scottish / GCSE route"],["Gordonstoun","Moray","4-18","Boarding / Day","GCSE / A-Level / Scottish route"],["Loretto School","East Lothian","0-18","Boarding / Day","GCSE / A-Level"],["Dollar Academy","Clackmannanshire","5-18","Day / Boarding","Scottish route"],["Strathallan School","Perthshire","7-18","Boarding / Day","GCSE / A-Level / Scottish route"],["Rannoch School Route Watch","Scotland","Route watch","Route watch","Scottish route"],["Cardiff Sixth Form College","Cardiff","14-19","Boarding / Day","GCSE / A-Level"],["Christ College Brecon","Wales","7-18","Boarding / Day","GCSE / A-Level"]
     ]
   },
   {
@@ -13123,6 +13137,155 @@ const privateSchoolCountryData = [
     ]
   }
 ];
+
+function privateSchoolUkPage(country) {
+  const routes = [
+    ["Route 01", "年級與入學點初篩", "先核對生日、目前年級、英國 Year Group、11+/13+/16+ 與是否轉學。", "護照 / 成績單 · Year Group · 轉入時間"],
+    ["Route 02", "寄宿 / 走讀 / 監護", "boarding、day school、guardian、exeat、half-term、家長探訪與緊急聯絡分開核對。", "Boarding · Guardian · Exeat / Half-term"],
+    ["Route 03", "課程與升學路線", "GCSE、IGCSE、A-Level、IB、Pre-A-Level、Foundation 與牛劍/G5/醫科目標分開判斷。", "GCSE / IB / A-Level · G5 / Medicine"],
+    ["Route 04", "英文與入學測試", "EAL、CAT4、UKiset、interview、subject tests、writing sample 要先整理。", "EAL · CAT4 / UKiset · Interview"],
+    ["Route 05", "OTC 文件包", "把護照、成績、在讀、推薦、英文、活動獎項與家長需求整理成一頁 evidence pack。", "Transcript · Reference · Parent brief"]
+  ];
+  const schoolIndexRows = (country.schoolIndex || []).map((school, index) => `
+                    <tr>
+                      <td><b>${String(index + 1).padStart(3, "0")}</b> ${school[0]}</td>
+                      <td>${school[1]}</td>
+                      <td>${school[2]}</td>
+                      <td>${school[3]}</td>
+                      <td>${school[4]}</td>
+                      <td><a href="mailto:office@overseasuk.com?subject=${encodeURIComponent("UK private school screening: " + school[0])}">OTC 初篩</a></td>
+                    </tr>`).join("");
+
+  return pageShell({
+    title: "海外督導｜私校聯盟｜英國 | OTC Study Hub",
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    path: "/zh/private-school-alliance/uk/",
+    image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: "海外督導私校聯盟英國頁",
+    description: "OTC 私校聯盟英國頁：100+ 英國私校公開資料索引、年級入口、寄宿/走讀/監護、課程路線、入學測試與 OTC 家庭初篩。",
+    body: `
+    <section class="page-hero services-hero private-school-hero uk-private-school-hero">
+      <div class="band">
+        <div class="service-hero-layout">
+          <div>
+            <div class="eyebrow">United Kingdom Private School Alliance</div>
+            <h1>海外督導｜私校聯盟｜英國</h1>
+            <h2>Prep / Boarding / Sixth Form · 100+ UK Independent Schools</h2>
+            <p class="hero-sub">此頁是英國私校路線初篩站點，用於家庭先整理年級、課程、入學時間、寄宿/走讀、監護、英文水平與預算，再由 OTC 協助建立選校與提問清單。</p>
+            <div class="actions private-school-hero-actions">
+              <a class="btn btn-primary" href="#uk-school-index">100+ 私校索引</a>
+              <a class="btn btn-secondary" href="#uk-routes">初篩路線</a>
+              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=UK%20private%20school%20screening%20via%20OTC">OTC 初篩</a>
+            </div>
+          </div>
+          <aside class="service-hero-panel">
+            <a href="#uk-routes"><strong>入學點</strong><span>11+ / 13+ / 16+</span></a>
+            <a href="#uk-school-index"><strong>100+ Index</strong><span>公開資料初篩</span></a>
+            <a href="#uk-official-check"><strong>官方核對</strong><span>ISI / ISC / GOV.UK</span></a>
+            <a href="mailto:office@overseasuk.com?subject=UK%20school%20question%20list"><strong>問題表</strong><span>交由 OTC 整理</span></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="band service-review-strip private-school-strip uk-school-route-strip">
+      ${routes.map((route, index) => `<a href="#uk-route-${index + 1}"><b>${String(index + 1).padStart(2, "0")}</b><strong>${route[1]}</strong><span>${route[2]}</span></a>`).join("")}
+    </section>
+
+    <section class="band compact-band service-review-body uk-private-school-board">
+      <div class="section-head compact-head service-review-head">
+        <span>UK SCHOOL DESK</span>
+        <strong>先篩查，再核對，最後決定是否遞交</strong>
+        <p>英國私校不能只看排名或校名；家庭需要先把年齡、入學點、住宿照護、英文測試與預算邊界整理清楚，再進入正式問校。</p>
+      </div>
+      <div class="service-herald-grid">
+        <main class="service-herald-main">
+          <section id="uk-routes">
+            <h2 class="zh-herald-section-head" data-num="01">板塊內容</h2>
+            <p>每個板塊都對應「要準備什麼文件、問什麼問題、在哪裡核對、哪些內容需要轉介」。</p>
+            <div class="service-situation-grid">
+              ${routes.map((route, index) => `
+                <a id="uk-route-${index + 1}" href="#uk-route-${index + 1}">
+                  <b>${route[0]}</b>
+                  <strong>${route[1]}</strong>
+                  <span>${route[2]}</span>
+                  <small>${route[3]}</small>
+                </a>
+              `).join("")}
+            </div>
+          </section>
+
+          <section id="uk-official-check">
+            <h2 class="zh-herald-section-head" data-num="02">英國私校、官方網站與 OTC 初篩入口</h2>
+            <div class="article-service-table">
+              <table>
+                <thead><tr><th>學校 / 類型</th><th>適合家庭</th><th>官方核對</th><th>辦理入口</th></tr></thead>
+                <tbody>
+                  <tr><td>Boarding schools</td><td>重視寄宿、假期照護、校園社群與全人教育的家庭。</td><td>學校官網、ISI 報告、費用表、guardian policy。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=UK%20boarding%20school%20screening">OTC 初篩</a></td></tr>
+                  <tr><td>London day schools</td><td>已有倫敦居住/通勤安排，重視走讀和城市資源的家庭。</td><td>入學年級、考試輪次、catchment/commute、面試安排。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=London%20day%20school%20screening">OTC 核對</a></td></tr>
+                  <tr><td>Sixth Form / 16+</td><td>目標 A-Level / IB、牛劍/G5/醫科或轉軌英國高中出口的學生。</td><td>科目組合、GCSE/IGCSE 成績、英文與 writing sample。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=UK%20sixth%20form%20screening">OTC 初篩</a></td></tr>
+                  <tr><td>Prep / 11+ / 13+</td><td>低齡入學、預備學校銜接、公學入口或長線陪讀規劃家庭。</td><td>生日、Year Group、ISEB/CAT4、面試、寄宿起始年齡。</td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=UK%20prep%20school%20screening">OTC 核對</a></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">常見誤區 / 風險核對</h2>
+            <div class="service-route-list">
+              <a href="#uk-routes"><span>Ranking</span><strong>只看排名，不看入學點</strong><em>同一所學校的 11+、13+、16+ 難度、名額與考試完全不同。</em></a>
+              <a href="#uk-routes"><span>Care</span><strong>忽略監護與假期安排</strong><em>boarding、exeat、half-term、guardian 和醫療聯絡要先問清。</em></a>
+              <a href="#uk-routes"><span>EAL</span><strong>誤把 EAL 當普通補習</strong><em>EAL 影響入學、課堂適應和學術寫作輸出，不只是語言課。</em></a>
+              <a href="#uk-routes"><span>Test</span><strong>低估面試與寫作樣本</strong><em>UKiset、CAT4、subject tests、interview 和 writing sample 要提前準備。</em></a>
+              <a href="#uk-routes"><span>UKVI</span><strong>未核對簽證與 CAS 邊界</strong><em>簽證、監護、合同與法律問題需要按官方或合資格人士意見處理。</em></a>
+            </div>
+          </section>
+
+          <section id="uk-school-index">
+            <h2 class="zh-herald-section-head" data-num="04">100+ UK Independent Schools Index</h2>
+            <p>本索引是公開資料初篩入口，不代表合作、授權或推薦排名；招生、學費、課程、寄宿、簽證與監護安排以學校及官方最新書面資料為準。</p>
+            <div class="article-service-table uk-school-index-table">
+              <table>
+                <thead><tr><th>School</th><th>Region</th><th>Age</th><th>Boarding / Day</th><th>Curriculum</th><th>OTC</th></tr></thead>
+                <tbody>${schoolIndexRows}</tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+        <aside class="service-guide-side service-herald-side uk-private-school-side">
+          <div class="service-guide-card is-urgent">
+            <span>OTC 提醒</span>
+            <strong>先核對入學點</strong>
+            <p>英國私校不能只看排名；要按年齡、Year Group、課程、寄宿安排與英文能力核對。</p>
+            <a href="mailto:office@overseasuk.com?subject=UK%20private%20school%20entry%20point%20check">建立問題表</a>
+          </div>
+          <div class="service-guide-card">
+            <span>公開來源</span>
+            <strong>官方資料優先</strong>
+            <p>學校官網、ISI 報告、Good Schools Guide、ISC、GOV.UK 等入口只作核對，不作排名背書。</p>
+            <a href="https://www.isi.net/" target="_blank" rel="noopener">ISI inspection</a>
+          </div>
+          <div class="service-guide-note">
+            <b>下一步</b>
+            <p>準備學生年級、英文水平、目前課程、目標入學季、寄宿需求、監護安排與預算，再由 OTC 建立初篩問題表。</p>
+          </div>
+          <div class="service-side-links">
+            <span>相關入口</span>
+            <a href="/zh/private-school-alliance/">私校聯盟總頁</a>
+            <a href="/zh/summer-school-alliance/uk/">暑校聯盟</a>
+            <a href="/zh/study-planning/">英國升學規劃</a>
+            <a href="/zh/insights/">留學導報文章</a>
+          </div>
+        </aside>
+      </div>
+      <p class="source-note">本頁為 OTC 公開教育資訊整理與家庭初篩入口，不代表正式代理授權、合作公告、錄取承諾、簽證承諾或升學結果承諾。所有院校資料、招生、學費、課程、寄宿與監護安排以學校及官方最新文件為準。</p>
+    </section>`
+  });
+}
 
 function privateSchoolCountryPage(country) {
   const schoolCards = country.schools.map((school) => {
@@ -20468,7 +20631,7 @@ write("zh/private-school-alliance", privateSchoolAlliance);
 write("zh/private-school-alliance/vietnam", vietnamPrivateSchoolAlliance);
 privateSchoolCountryData.forEach((country) => {
   if (country.slug !== "vietnam") {
-    write(`zh/private-school-alliance/${country.slug}`, privateSchoolCountryPage(country));
+    write(`zh/private-school-alliance/${country.slug}`, country.slug === "uk" ? privateSchoolUkPage(country) : privateSchoolCountryPage(country));
   }
   country.schools.forEach((school) => {
     write(`zh/private-school-alliance/${country.slug}/${school.slug}`, privateSchoolProviderPage(country, school));
