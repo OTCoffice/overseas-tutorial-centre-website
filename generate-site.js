@@ -12785,23 +12785,47 @@ const vietnamPrivateSchoolAlliance = pageShell({
 
     <section class="band compact-band service-review-body">
       <div class="section-head compact-head service-review-head">
-        <span>分類核對</span>
-        <strong>The Dewey Schools 應該怎麼讀</strong>
-        <p>家長不要只看「國際校」三個字，要把校區、年級、課程、語言比例與畢業文憑分開核對。</p>
+        <span>聯盟導航與快訊</span>
+        <strong>Vietnam Private School Alliance</strong>
+        <p>適合正在比較亞洲國際學校、低齡陪讀、英語浸潤、美式高中 / IB / 雙語路線的家庭。首發樣本為 The Dewey Schools：先讀官網資料，再由 OTC 協助整理校區、課程、年級與照護問題清單。</p>
       </div>
       <div class="service-herald-grid">
         <main class="service-herald-main">
           <section id="vietnam-school-campus">
-            <h2 class="zh-herald-section-head" data-num="01">院校與校區</h2>
-            <div class="service-situation-grid private-school-region-desk">
+            <h2 class="zh-herald-section-head" data-num="01">核心院校詳情：The Dewey Schools</h2>
+            <div class="service-situation-grid private-school-region-desk vietnam-school-record-grid">
               <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener"><b>Official</b><strong>The Dewey Schools</strong><span>官網入口，先核對最新招生、學費、校區與課程。</span></a>
               <a href="https://thedeweyschools.edu.vn/en/cp/dewey-tay-ho-tay/" target="_blank" rel="noopener"><b>Tay Ho Tay</b><strong>Dewey Tay Ho Tay</strong><span>官網校區頁顯示 IB international school、CIS member 與 Mount Vernon partner 信息。</span></a>
               <a href="https://thedeweyschools.edu.vn/en/contact-us/" target="_blank" rel="noopener"><b>Contact</b><strong>聯絡與校區選擇</strong><span>校方表格可選 Tay Ho Tay、Cau Giay、Ocean Park、Hai Phong 等校區。</span></a>
               <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><b>Herald</b><strong>導報介紹</strong><span>用中文讀法整理學校亮點、適合家庭與核對問題。</span></a>
             </div>
+            <div class="article-service-table private-school-compact-table">
+              <table>
+                <thead><tr><th>項目</th><th>官方資料核對口徑</th></tr></thead>
+                <tbody>
+                  <tr><td>校區分佈</td><td>以 Hanoi / Hai Phong 等官網列明校區為基礎，逐一核對目標年級、通勤與家庭生活圈。</td></tr>
+                  <tr><td>學制年級</td><td>K-12 全學段公開樣本；實際可轉入年級、名額與入學要求以學校當期文件為準。</td></tr>
+                  <tr><td>課程路線</td><td>美式高中路線、IB 國際文憑、AP 與雙語路線須分開核對，不能合併理解為單一「國際校」。</td></tr>
+                  <tr><td>照護與陪讀</td><td>低齡照護、英語浸潤、校車、家長陪讀與緊急聯絡安排，需要按校區與家庭狀況逐項確認。</td></tr>
+                </tbody>
+              </table>
+            </div>
           </section>
           <section id="vietnam-curriculum-routes">
-            <h2 class="zh-herald-section-head" data-num="02">課程分類</h2>
+            <h2 class="zh-herald-section-head" data-num="02">雙語選校腳手架</h2>
+            <div class="article-service-table private-school-compact-table">
+              <table>
+                <thead><tr><th>English Framework</th><th>繁體中文指引</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Step 1: Document Review</strong><br>Families examine official curriculum profiles and accreditation metrics directly from the institutional portal.</td><td><strong>第一步：文獻審查</strong><br>家庭直接從院校官方網站下載並審查課程大綱、師資比例、國際認證與升學成果口徑。</td></tr>
+                  <tr><td><strong>Step 2: Gap Analysis & Mapping</strong><br>OTC assists parents in mapping the student current academic level against localized grade boundaries.</td><td><strong>第二步：差距分析與年級對齊</strong><br>OTC 協助家長將學生目前學業水平與越南當地年級劃分、英文門檻和轉學時間進行對齊。</td></tr>
+                  <tr><td><strong>Step 3: Multi-Agency Inquiry</strong><br>Build a structured question bank on safeguarding, English immersion pathways and pastoral care.</td><td><strong>第三步：結構化質詢清單</strong><br>共同梳理聚焦校園保護、英語浸潤路徑、學生照護、陪讀與畢業出口的問題清單。</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">課程分類</h2>
             <div class="article-service-table private-school-compact-table">
               <table>
                 <thead><tr><th>類別</th><th>官網可見信息</th><th>家長應核對</th><th>OTC 入口</th></tr></thead>
@@ -12815,12 +12839,21 @@ const vietnamPrivateSchoolAlliance = pageShell({
             </div>
           </section>
           <section id="vietnam-family-fit">
-            <h2 class="zh-herald-section-head" data-num="03">適合家庭</h2>
+            <h2 class="zh-herald-section-head" data-num="04">涉外選校常見誤區</h2>
             <div class="service-route-list">
-              <a href="/zh/private-school-alliance/"><span>Long-term</span><strong>低齡長線家庭</strong><em>想把小學/初中/高中放在亞洲英語環境中逐步過渡。</em></a>
-              <a href="/zh/summer-school-alliance/singapore/"><span>SEA</span><strong>新馬泰越比較</strong><em>先比較亞洲短住、親子、國際校與雙語路線，再決定國家。</em></a>
-              <a href="/international-curriculum-tutoring/"><span>Support</span><strong>課程與英文準備</strong><em>需要 IB/AP/美式課程、Academic English 或 bilingual support 的家庭。</em></a>
-              <a href="/consultation-chat/?source=private-school-alliance-vietnam"><span>AI</span><strong>初步問題清單</strong><em>先整理孩子年級、英文、目標國家、家庭陪讀與預算。</em></a>
+              <a href="/zh/private-school-alliance/"><span>Pitfall 01</span><strong>只看低客單價</strong><em>東南亞國際校學費相對低，但外教流動率、多元文化融合度、升學出口與轉學成本都要放入總成本。</em></a>
+              <a href="/zh/study-planning/"><span>Pitfall 02</span><strong>忽視陪讀與居留規劃</strong><em>低齡家庭需提前核對長期合法陪讀、居留、醫療與跨國續簽安排，避免入學後被行政問題打斷。</em></a>
+              <a href="/international-curriculum-tutoring/"><span>Pitfall 03</span><strong>把 IB / AP / 美式 / 雙語混為一談</strong><em>不同路線對大學申請、英文支持、學分轉換與畢業文憑的要求完全不同。</em></a>
+              <a href="/consultation-chat/?source=private-school-alliance-vietnam"><span>Checklist</span><strong>先做入學問題表</strong><em>把校區、年級、英文、陪讀、照護、預算與畢業出口拆成可核對項。</em></a>
+            </div>
+          </section>
+          <section>
+            <h2 class="zh-herald-section-head" data-num="05">申請準備檢核表</h2>
+            <div class="service-route-list">
+              <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener"><span>01</span><strong>下載 School Profile</strong><em>閱讀 The Dewey Schools 最新年度校區、課程、學費、招生與升學資料。</em></a>
+              <a href="mailto:office@overseasuk.com?subject=Vietnam%20Dewey%20route%20academic%20background%20check"><span>02</span><strong>完成背景審查</strong><em>由 OTC 顧問核對學生年級、英文水平、現有課程與可轉入時間。</em></a>
+              <a href="https://moet.gov.vn/" target="_blank" rel="noopener"><span>03</span><strong>核對涉外教育規管</strong><em>家庭須自行確認越南涉外教育、陪讀、居留與學生簽證相關官方口徑。</em></a>
+              <a href="https://www.cois.org/" target="_blank" rel="noopener"><span>04</span><strong>核對國際認證</strong><em>重點查看 CIS 等國際學校認證狀態，以及 IB / AP / 美式文憑授權文件。</em></a>
             </div>
           </section>
         </main>
@@ -12840,6 +12873,13 @@ const vietnamPrivateSchoolAlliance = pageShell({
           <div class="service-guide-note">
             <b>下一步</b>
             <p>準備學生年級、英文水平、目前課程、想轉入時間、是否陪讀、是否需要寄宿/校車/監護，再由 OTC 建立初篩問題表。</p>
+          </div>
+          <div class="service-side-links">
+            <span>權威文獻與官方鏈接</span>
+            <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">The Dewey Schools Official Portal</a>
+            <a href="https://moet.gov.vn/" target="_blank" rel="noopener">Vietnam Ministry of Education and Training</a>
+            <a href="https://www.cois.org/" target="_blank" rel="noopener">Council of International Schools</a>
+            <a href="https://thedeweyschools.edu.vn/en/academic-results/" target="_blank" rel="noopener">Dewey Academic Results</a>
           </div>
           <div class="service-side-links">
             <span>相關入口</span>

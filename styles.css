@@ -15607,6 +15607,144 @@ h1 {
   grid-column: 2;
 }
 
+.vietnam-school-record-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+.vietnam-school-record-grid a,
+.vietnam-school-record-grid a:nth-child(2),
+.vietnam-school-record-grid a:nth-child(3),
+.vietnam-school-record-grid a:nth-child(4) {
+  background: #fffdf8;
+  border: 1px solid #d6c6ab;
+  border-top: 3px solid #b7892c;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 132px;
+  padding: 12px 12px 13px;
+  position: relative;
+}
+
+.vietnam-school-record-grid a:nth-child(2) {
+  border-top-color: #3e5f90;
+}
+
+.vietnam-school-record-grid a:nth-child(3) {
+  border-top-color: #3f7f78;
+}
+
+.vietnam-school-record-grid a:nth-child(4) {
+  border-top-color: #b24c34;
+}
+
+.vietnam-school-record-grid a::before {
+  align-items: center;
+  background: #15110d;
+  border-radius: 999px;
+  color: #fffaf0;
+  content: "01";
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 900;
+  height: 24px;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  width: 24px;
+}
+
+.vietnam-school-record-grid a:nth-child(2)::before {
+  background: #3e5f90;
+  content: "02";
+}
+
+.vietnam-school-record-grid a:nth-child(3)::before {
+  background: #3f7f78;
+  content: "03";
+}
+
+.vietnam-school-record-grid a:nth-child(4)::before {
+  background: #b24c34;
+  content: "04";
+}
+
+.vietnam-school-record-grid a::after {
+  content: none;
+}
+
+.vietnam-school-record-grid b,
+.vietnam-school-record-grid strong,
+.vietnam-school-record-grid span {
+  grid-column: auto;
+}
+
+.vietnam-school-record-grid b {
+  color: #8b6830;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.vietnam-school-record-grid strong {
+  color: #15110d;
+  font-size: 15px;
+  font-weight: 850;
+  line-height: 1.16;
+}
+
+.vietnam-school-record-grid span {
+  color: #554536;
+  font-size: 11px;
+  line-height: 1.42;
+}
+
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links {
+  background: transparent;
+  border: 0;
+  gap: 0;
+  padding: 2px 0;
+}
+
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links span {
+  border-bottom: 1px solid rgba(214, 198, 171, 0.72);
+  color: #8b6830;
+  display: block;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  padding: 0 0 7px;
+  text-transform: uppercase;
+}
+
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a,
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:nth-child(3),
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:nth-child(4),
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:nth-child(5) {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(214, 198, 171, 0.48);
+  color: #15110d;
+  display: block;
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.35;
+  min-height: 0;
+  padding: 9px 0;
+}
+
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:last-child {
+  border-bottom: 0;
+}
+
+.private-school-hero ~ .service-review-body .service-herald-side .service-side-links a:hover {
+  color: #8b6830;
+}
+
 .service-route-list {
   display: grid;
   gap: 8px;
@@ -16595,6 +16733,10 @@ h1 {
     padding: 20px;
   }
 
+  .vietnam-school-record-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .service-herald-side {
     border-top: 1px solid #c8b89a;
     padding: 16px;
@@ -17431,6 +17573,10 @@ h1 {
 
   .service-product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .vietnam-school-record-grid {
+    grid-template-columns: 1fr;
   }
 
   .zh-landing-card {
