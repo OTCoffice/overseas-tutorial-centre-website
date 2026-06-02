@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTC AI Intake Desk｜海外督導初步問訊台</title>
+  <meta name="description" content="OTC AI Intake Desk 用於收集初步需求、生成問訊摘要、列出文件清單並轉交人工跟進。">
+  <link rel="canonical" href="https://overseasuk.com/zh/ai-intake/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Overseas Tutorial Centre Ltd">
+  <meta property="og:title" content="OTC AI Intake Desk｜海外督導初步問訊台">
+  <meta property="og:description" content="收集需求、生成初步摘要、列文件清單、轉人工跟進。">
+  <meta property="og:url" content="https://overseasuk.com/zh/ai-intake/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="/styles.css?v=uk-private-school-20260531">
+  <link rel="stylesheet" href="/assets/css/ai-intake.css?v=otc-ai-intake-20260602">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="/zh/">
+        <span class="brand-mark"><span></span></span>
+        <span>Overseas Tutorial Centre (OTC)<small>OTC Study Hub · Overseas Publishing</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="/services/">服務與申請</a>
+        <a href="/zh/private-school-alliance/">私校聯盟</a>
+        <a href="/zh/summer-school-alliance/">暑校聯盟</a>
+        <a href="/zh/insights/">導報</a>
+        <a href="/zh/">中文首頁</a>
+        <a class="nav-cta" href="/zh/ai-intake/" aria-current="page">AI 初步問訊</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="ai-intake-page">
+    <section class="ai-intake-hero">
+      <div class="ai-intake-copy">
+        <span class="ai-intake-eyebrow">OTC AI Intake Desk</span>
+        <h1>海外督導｜AI 初步問訊台</h1>
+        <p>先把需求、背景、時間線與文件狀態收清楚，再生成一份可轉人工跟進的初步摘要。此頁只做教育服務分流與資料整理，不作錄取、簽證、法律、醫療或專業註冊結論。</p>
+        <div class="ai-intake-flow" aria-label="Intake flow">
+          <span>Collect Req</span>
+          <span>Summary</span>
+          <span>Doc List</span>
+          <span>Human Handover</span>
+        </div>
+      </div>
+      <aside class="ai-intake-note">
+        <b>低成本合規版本</b>
+        <p>本版本不連接外部 AI API；所有輸入先在瀏覽器本地生成摘要，再由用戶主動複製或發送郵件給 OTC 人工跟進。</p>
+      </aside>
+    </section>
+
+    <section class="ai-intake-board" id="intake-desk">
+      <form class="ai-intake-form" data-ai-intake-form>
+        <div class="ai-intake-step">
+          <span>01</span>
+          <h2>收集需求</h2>
+          <p>請先選擇服務方向，再填入最少必要背景。可不填敏感資料；正式文件由人工跟進時再確認。</p>
+        </div>
+
+        <div class="ai-intake-grid">
+          <label>
+            服務方向
+            <select name="service" required>
+              <option value="">請選擇</option>
+              <option value="留學規劃">留學規劃 / Study planning</option>
+              <option value="私校或暑校">私校或暑校 / School or summer route</option>
+              <option value="OTHM 或學習台">OTHM 或學習台 / Qualification support</option>
+              <option value="海醫匯">海醫匯 / HealthBridge</option>
+              <option value="合作與出版">合作與出版 / Partnership or publishing</option>
+              <option value="複雜個案">複雜個案 / Appeal, refusal, transfer, evidence issue</option>
+            </select>
+          </label>
+          <label>
+            聯絡人
+            <input name="contactName" type="text" placeholder="例如：Maria / 家長姓名 / 機構聯絡人" required>
+          </label>
+          <label>
+            Email / WeChat / WhatsApp
+            <input name="contact" type="text" placeholder="例如：office@overseasuk.com / WeChat ID / WhatsApp" required>
+          </label>
+          <label>
+            學生年齡 / 目前階段
+            <input name="stage" type="text" placeholder="例如：Year 10 / 本科在讀 / 已工作 3 年">
+          </label>
+          <label>
+            目標國家或路線
+            <input name="destination" type="text" placeholder="例如：英國 OTHM / 澳洲 TAFE / 英國私校 / 暑校">
+          </label>
+          <label>
+            目標時間
+            <input name="timeline" type="text" placeholder="例如：2026 Sep 入學 / 兩週內遞交 / 尚未確定">
+          </label>
+        </div>
+
+        <label class="ai-intake-wide">
+          目前情況與主要問題
+          <textarea name="caseNote" rows="5" placeholder="例如：想申請 UK OTHM Health and Social Care，需要判斷 Level、文件清單、英文要求與是否要人工跟進。"></textarea>
+        </label>
+
+        <fieldset class="ai-intake-checks">
+          <legend>是否涉及受規管或高風險事項</legend>
+          <label><input type="checkbox" name="risk" value="簽證 / 移民"> 簽證 / 移民</label>
+          <label><input type="checkbox" name="risk" value="醫療 / 臨床"> 醫療 / 臨床</label>
+          <label><input type="checkbox" name="risk" value="法律 / 投訴"> 法律 / 投訴</label>
+          <label><input type="checkbox" name="risk" value="護理 / 社工 / CQC 等註冊"> 護理 / 社工 / CQC 等註冊</label>
+          <label><input type="checkbox" name="risk" value="拒錄 / 申訴 / 學術不端"> 拒錄 / 申訴 / 學術不端</label>
+        </fieldset>
+
+        <div class="ai-intake-actions">
+          <button class="btn btn-dark" type="submit" data-ai-intake-generate>生成初步摘要</button>
+          <button class="btn btn-light" type="reset" data-ai-intake-reset>清空</button>
+        </div>
+      </form>
+
+      <aside class="ai-intake-output" aria-live="polite">
+        <div class="ai-intake-step">
+          <span>02</span>
+          <h2>摘要與文件清單</h2>
+          <p>提交後會在此生成可複製的人工交接摘要。</p>
+        </div>
+        <div class="ai-intake-result" data-ai-intake-result>
+          <p class="ai-intake-placeholder">等待輸入。填寫左側表單後，系統會生成：需求摘要、建議文件、合規提醒與下一步交接方式。</p>
+        </div>
+        <div class="ai-intake-actions">
+          <button class="btn btn-dark" type="button" data-ai-intake-copy disabled>複製摘要</button>
+          <button class="btn btn-light" type="button" data-ai-intake-email disabled>轉人工跟進</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="ai-intake-compliance">
+      <h2>合規邊界</h2>
+      <p>OTC AI Intake Desk 只做初步問訊、文件整理與教育服務分流，不提供醫療診斷、急救、法律意見、移民建議、簽證結論、護理或社工註冊判定，也不承諾錄取、名額、獎學金、就業或簽證結果。涉及受規管事項時，應以官方機構、項目方最新書面確認或合資格專業人士意見為準。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-about">
+        <strong>OTC Study Hub</strong>
+        <p>Overseas Tutorial Centre、Overseas Publishing House 與海外教育服務的數字學習及出版平台。</p>
+        <p>教育諮詢 · 課程輔導 · 雙語出版 · 研究項目 · 數字學習工具。</p>
+      </div>
+      <div class="footer-col">
+        <strong>合規提示</strong>
+        <p>除非另有明確說明，OTC 出版物與工具均為獨立教育資源。</p>
+        <p>對資格、考試或機構的引用僅作語境說明；未經書面許可不代表任何官方背書。</p>
+      </div>
+      <div class="footer-col">
+        <strong>學術誠信</strong>
+        <p>資源用於支持理解、詞彙、研究規劃與負責任的學術準備。</p>
+        <p>它們僅作公開資訊與學習路線參考，不構成範文、官方 assessment 文件或學習成果證明。</p>
+      </div>
+      <div class="footer-col footer-contact">
+        <strong>聯絡與出版信息</strong>
+        <p>Overseas Tutorial Centre Ltd<br>3/F Overseas Education, 207 Regent Street, London W1B 3HH<br>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: overseasus<br>Website: <a href="https://overseasuk.com">https://overseasuk.com</a></p>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>© 2026 Overseas Tutorial Centre Ltd. All rights reserved.</span>
+      <span>London, United Kingdom · Public Bookshop Editions · Bilingual Digital Learning Resources · Research and Editorial Projects</span>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const root = document.querySelector(".ai-intake-page");
+      const form = root?.querySelector("[data-ai-intake-form]");
+      const result = root?.querySelector("[data-ai-intake-result]");
+      const copyButton = root?.querySelector("[data-ai-intake-copy]");
+      const emailLink = root?.querySelector("[data-ai-intake-email]");
+      const resetButton = root?.querySelector("[data-ai-intake-reset]");
+      const generateButton = root?.querySelector("[data-ai-intake-generate]");
+      let plainSummary = "";
+
+      if (!form || !result || !copyButton || !emailLink || !resetButton || !generateButton) return;
+
+      const docsByService = {
+        "留學規劃": ["護照姓名頁", "近兩年成績單", "在讀 / 畢業證明", "英文成績或目前英文水平", "目標國家、專業與入學季", "已有 offer / refusal / agent communication（如有）"],
+        "私校或暑校": ["學生生日與目前年級", "近兩年校內成績", "英文水平或面試經驗", "住宿 / 寄宿 / 監護需求", "偏好國家、城市、學校類型", "家長最關心的 3 個問題"],
+        "OTHM 或學習台": ["最高學歷與工作背景", "目標 Level / qualification", "英文水平", "目前 assignment brief / unit title（如有）", "學習時間表", "是否需要教材、輔導或升學銜接"],
+        "海醫匯": ["需求類型：資格 / 教材 / 臨床審核 / 合作", "相關專業背景", "待審內容或項目簡介", "是否涉及病患個案或受規管事項", "希望 OTC 協作的邊界", "目標時間線"],
+        "合作與出版": ["機構或個人簡介", "合作類型", "所在地與網站 / profile", "已有文件或合同草案", "預期 referral / publishing / review 流程", "下一步希望 OTC 回覆的問題"],
+        "複雜個案": ["事件時間線", "官方信件或 decision letter", "截止日期", "已提交材料", "學校 / 機構 policy", "希望 OTC 協助整理的證據點"]
+      };
+
+      const baseDocs = ["聯絡方式", "需求一句話摘要", "時間線 / deadline", "現有文件清單"];
+
+      function esc(text) {
+        return String(text || "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[ch]));
+      }
+
+      function getRisks() {
+        return Array.from(form.querySelectorAll('input[name="risk"]:checked')).map((input) => input.value);
+      }
+
+      function buildSummary(data) {
+        const risks = getRisks();
+        const docs = [...baseDocs, ...(docsByService[data.service] || [])];
+        const compliance = risks.length
+          ? `涉及高風險 / 受規管事項：${risks.join("、")}。OTC 只可先做教育服務分流與文件整理；相關專業結論需由官方機構或合資格專業人士確認。`
+          : "暫未標記受規管事項；仍需在人工跟進時確認是否涉及簽證、法律、醫療、註冊或投訴期限。";
+
+        plainSummary = [
+          "OTC AI Intake Desk - Human Handover",
+          "",
+          `服務方向：${data.service || "未填"}`,
+          `聯絡人：${data.contactName || "未填"}`,
+          `聯絡方式：${data.contact || "未填"}`,
+          `學生階段：${data.stage || "未填"}`,
+          `目標路線：${data.destination || "未填"}`,
+          `時間線：${data.timeline || "未填"}`,
+          "",
+          "目前情況：",
+          data.caseNote || "未填",
+          "",
+          "初步摘要：",
+          `此個案屬於「${data.service || "待分類"}」初步問訊。建議先由 OTC 人工確認背景、時間線、文件完整度與是否涉及受規管事項，再決定是否進入正式諮詢、文件審核或合作流程。`,
+          "",
+          "建議先準備文件：",
+          ...docs.map((item) => `- ${item}`),
+          "",
+          "合規提醒：",
+          compliance
+        ].join("\n");
+
+        return `
+          <article>
+            <span class="ai-intake-tag">${esc(data.service || "待分類")}</span>
+            <h3>初步問訊摘要</h3>
+            <p>此個案屬於 <strong>${esc(data.service || "待分類")}</strong>。建議先由 OTC 人工確認背景、時間線、文件完整度與是否涉及受規管事項，再決定是否進入正式諮詢、文件審核或合作流程。</p>
+            <dl>
+              <div><dt>聯絡人</dt><dd>${esc(data.contactName || "未填")} · ${esc(data.contact || "未填")}</dd></div>
+              <div><dt>學生階段</dt><dd>${esc(data.stage || "未填")}</dd></div>
+              <div><dt>目標路線</dt><dd>${esc(data.destination || "未填")}</dd></div>
+              <div><dt>時間線</dt><dd>${esc(data.timeline || "未填")}</dd></div>
+            </dl>
+            <h3>建議文件清單</h3>
+            <ul>${docs.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
+            <h3>合規提醒</h3>
+            <p>${esc(compliance)}</p>
+          </article>
+        `;
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        generateButton.textContent = "生成中...";
+        generateButton.disabled = true;
+        const data = Object.fromEntries(new FormData(form).entries());
+        result.innerHTML = buildSummary(data);
+        copyButton.disabled = false;
+        emailLink.dataset.mailto = "mailto:office@overseasuk.com?subject=" + encodeURIComponent("OTC AI Intake Desk Handover - " + (data.service || "New enquiry")) + "&body=" + encodeURIComponent(plainSummary);
+        emailLink.disabled = false;
+        generateButton.textContent = "重新生成摘要";
+        generateButton.disabled = false;
+        result.setAttribute("tabindex", "-1");
+        result.focus({ preventScroll: true });
+      });
+
+      copyButton.addEventListener("click", async () => {
+        if (!plainSummary) return;
+        await navigator.clipboard.writeText(plainSummary);
+        const label = copyButton.textContent;
+        copyButton.textContent = "已複製";
+        setTimeout(() => { copyButton.textContent = label; }, 1200);
+      });
+
+      resetButton.addEventListener("click", () => {
+        plainSummary = "";
+        copyButton.disabled = true;
+        result.innerHTML = '<p class="ai-intake-placeholder">等待輸入。填寫左側表單後，系統會生成：需求摘要、建議文件、合規提醒與下一步交接方式。</p>';
+        emailLink.href = "mailto:office@overseasuk.com?subject=OTC%20AI%20Intake%20Desk%20Handover";
+        emailLink.dataset.mailto = "";
+        emailLink.disabled = true;
+      });
+
+      emailLink.addEventListener("click", () => {
+        if (!emailLink.dataset.mailto) return;
+        window.location.href = emailLink.dataset.mailto;
+      });
+    })();
+  </script>
+</body>
+</html>
