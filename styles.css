@@ -25770,6 +25770,48 @@ body .partner-hero .band .partner-hero-copy .actions {
 .service-herald-main>#otc-private-school-alliance.flex{align-items:center;background:transparent;border:1px dashed #e2e8f0;border-radius:8px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;margin:24px 0;min-height:340px;padding:64px 24px;text-align:center;width:100%}.service-herald-main>#otc-private-school-alliance .text-xs{color:#94a3b8;font-size:12px;font-weight:700;letter-spacing:.14em;margin:0 0 12px;text-transform:uppercase}.service-herald-main>#otc-private-school-alliance h1{color:#1e293b;font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:0 0 16px}.service-herald-main>#otc-private-school-alliance p{color:#64748b;font-size:14px;line-height:1.7;margin:0 0 32px;max-width:448px}.service-herald-main>#otc-private-school-alliance a.inline-flex{align-items:center;background:#0e1e38;border-radius:6px;box-shadow:0 8px 18px rgba(14,30,56,.18);color:#fff;display:inline-flex;font-size:14px;font-weight:700;justify-content:center;padding:12px 24px;text-decoration:none;transition:background .2s ease,box-shadow .2s ease,transform .2s ease}.service-herald-main>#otc-private-school-alliance a.inline-flex:hover{background:#1e3a8a;box-shadow:0 12px 26px rgba(14,30,56,.25);transform:translateY(-1px)}.service-herald-main>#otc-private-school-alliance svg{height:16px;margin-left:8px;transition:transform .2s ease;width:16px}.service-herald-main>#otc-private-school-alliance a.inline-flex:hover svg{transform:translateX(4px)}.service-herald-main>#otc-private-school-alliance>a+span,.service-herald-main>#otc-private-school-alliance>a+span+span,.service-herald-main>#otc-private-school-alliance>a+span+span+span,.service-herald-main>#otc-private-school-alliance>a+span+span+span+span{display:block;height:0;overflow:hidden;width:0}@media(max-width:720px){.service-herald-main>#otc-private-school-alliance.flex{min-height:300px;padding:44px 18px}.service-herald-main>#otc-private-school-alliance a.inline-flex{width:100%}}
 .otc-private-school-landing-pair{background:#f8fafc;padding:0}.otc-private-school-landing-pair .max-w-7xl{box-sizing:border-box;margin:32px auto;max-width:1280px;padding-left:16px;padding-right:16px;width:100%}.otc-private-school-landing-pair .flex{display:flex}.otc-private-school-landing-pair .flex-col{flex-direction:column}.otc-private-school-landing-pair .gap-6{gap:24px}.otc-private-school-landing-pair .items-start{align-items:flex-start}.otc-private-school-landing-pair .flex-1{flex:1 1 0%;min-width:0}.otc-private-school-landing-pair .w-full{width:100%}.otc-private-school-landing-pair .flex-shrink-0{flex-shrink:0}.otc-private-school-landing-pair #otc-private-school-alliance{margin:0;min-height:400px}.otc-private-school-landing-pair .source-note{box-sizing:border-box;margin:0 auto 28px;max-width:1280px;padding-left:16px;padding-right:16px}@media(min-width:1024px){.otc-private-school-landing-pair .lg\\:flex-row{flex-direction:row}.otc-private-school-landing-pair .lg\\:w-\\[360px\\]{width:360px}}@media(min-width:640px){.otc-private-school-landing-pair .sm\\:px-6{padding-left:24px;padding-right:24px}}@media(min-width:1024px){.otc-private-school-landing-pair .lg\\:px-8{padding-left:32px;padding-right:32px}}
 
+@media(max-width:720px){
+  .home-hero .hero-inner{
+    box-sizing:border-box!important;
+    padding:40px 0 36px!important;
+    width:min(var(--page-max),calc(100% - 20px))!important;
+  }
+
+  .home-hero .hero-title-block,
+  .home-hero .hero-title-block h1,
+  .home-hero .hero-subhead,
+  .hero.home-hero p{
+    max-width:100%!important;
+    min-width:0!important;
+  }
+
+  .home-hero .hero-title-block h1{
+    font-size:clamp(36px,11vw,44px)!important;
+    line-height:1.08!important;
+    overflow-wrap:normal!important;
+    white-space:normal!important;
+    word-break:normal!important;
+  }
+
+  .home-hero .hero-subhead{
+    font-size:20px!important;
+    line-height:1.18!important;
+  }
+
+  .home-hero .hero-actions{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:10px!important;
+    width:100%!important;
+  }
+
+  .home-hero .hero-actions .btn{
+    justify-content:center!important;
+    white-space:normal!important;
+    width:100%!important;
+  }
+}
+
 /* Chinese home layout + unified section typography */
 .otc-eyebrow{font-family:"Noto Sans TC",system-ui,sans-serif!important;font-size:10px!important;font-weight:850!important;letter-spacing:.12em!important;text-transform:uppercase!important;line-height:1.2!important;color:var(--gold)!important;margin:0 0 3px!important}
 .otc-title{font-family:"Noto Serif TC",serif!important;font-size:18px!important;font-weight:900!important;line-height:1.2!important;color:var(--ink)!important;margin:0 0 6px!important;letter-spacing:0!important}
@@ -26537,9 +26579,23 @@ body.zh-home-page .zh-bookshop-button-grid span{
 
 body.zh-home-page .zh-home-hero .hero-inner{
   display:block!important;
-  max-width:100%!important;
+  max-width:calc(100vw - 32px)!important;
   min-width:0!important;
-  width:100%!important;
+  width:calc(100% - 32px)!important;
+}
+
+body.zh-home-page .zh-home-top-links,
+body.zh-home-page .zh-home-workbench,
+body.zh-home-page .zh-home-route-tiles,
+body.zh-home-page .zh-home-feature-grid,
+body.zh-home-page .zh-home-bookshop-footer,
+body.zh-home-page .zh-home-region-map{
+  box-sizing:border-box!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  max-width:calc(100vw - 32px)!important;
+  overflow:hidden!important;
+  width:calc(100% - 32px)!important;
 }
 
 body.zh-home-page .zh-priority-panel{
