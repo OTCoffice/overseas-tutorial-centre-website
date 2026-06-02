@@ -293,9 +293,16 @@ function pageUtilityScript() {
   `;
 }
 
+function relativeAssetPath(pagePath, assetPath) {
+  const normalized = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
+  const depth = normalized.replace(/^\/|\/$/g, "").split("/").filter(Boolean).length;
+  return `${"../".repeat(depth)}${assetPath}`;
+}
+
 function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
+  const stylesheetPath = relativeAssetPath(canonicalPath, "styles.css");
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
   const socialImageType = image.endsWith(".svg") ? "image/svg+xml" : image.endsWith(".jpg") || image.endsWith(".jpeg") ? "image/jpeg" : "image/png";
   const structuredData = {
@@ -349,7 +356,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="twitter:image:src" content="${socialImageUrl}">
   <meta name="twitter:image:alt" content="${imageAlt || title}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="stylesheet" href="/styles.css?v=uk-private-school-20260531">
+  <link rel="stylesheet" href="${stylesheetPath}?v=zh-mobile-workbench-20260602f">
 </head>
 <body>
   ${nav(current, locale)}

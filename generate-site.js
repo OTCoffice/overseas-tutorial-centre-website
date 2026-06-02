@@ -1822,6 +1822,194 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "admissions-email-clarification-pack-uk-aus",
+    title: "Emailing Admissions (UK/Australia): A Simple Clarification Pack That Gets Useful Answers",
+    date: "2026-06-01",
+    category: "University Applications",
+    column: "study",
+    kicker: "Applications · Entry requirements · Communication",
+    author: "留學導報編輯部",
+    summary: "When entry requirements are unclear, a short, well-structured email can save weeks of guesswork—but only if you ask specific questions and attach the right context. This guide gives a simple “clarification pack”: what to include, what to ask, what not to claim, and how to track replies so your plan stays compliant and realistic (no outcome guarantees).",
+    titleZh: "怎麼寫信問招生才有用（英國／澳洲）：一套「澄清包」把問題問清楚、把回覆用起來",
+    summaryZh: "入學要求看不懂時，寫信問招生可以省下很多猜測時間，但前提是：問題要夠具體、背景要交代清楚、用詞要合規。本文提供一套可直接套用的「澄清包」：信件結構、附件與背景資訊、建議詢問的重點、避免誤導的表述，以及如何整理回覆，讓申請規劃更可控（不作任何結果承諾）。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "reference-letter-briefing-pack-uk-aus",
+      "uk-personal-statement-evidence-first-checklist",
+      "foundation-vs-international-year-one-vs-direct-entry-uk-aus"
+    ],
+    resources: [
+      ["UCAS — Applying to university (overview)", "https://www.ucas.com/undergraduate/applying-university"],
+      ["Study Australia (official) — Find courses and providers", "https://www.studyaustralia.gov.au/"],
+      ["IELTS (official)", "https://www.ielts.org/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-01。本文為一般性教育資訊，適用於『向大學招生/課程團隊詢問入學與文件要求』的常見情境；各院校回覆速度、受理方式與要求可能差異很大，請以目標大學官網與 admissions 回覆為準。",
+      "本文不構成錄取、簽證或任何結果承諾；寫信與提交材料請如實呈現，避免過度宣稱。若你不確定某份文件是否符合要求，建議先用中性措辭詢問並附上樣本/截圖，等待官方確認後再提交正式版本。"
+    ],
+    body: [
+      {
+        heading: "1) When an email helps (and when it doesn’t)",
+        paragraphs: [
+          "Emailing admissions works best when the website is ambiguous (e.g., your qualification isn’t listed, the English requirement has multiple tests, or your transcript format is unusual). It’s less effective for questions already answered clearly on the course page—staff may simply paste a link.",
+          "Before emailing, take 10 minutes to collect: the exact course name + intake, the link to the course page, and a 2–3 line summary of your current qualification and expected completion date."
+        ]
+      },
+      {
+        heading: "2) Ask “one email = one decision”, not ten small questions",
+        paragraphs: [
+          "Write 2–4 precise questions that admissions can answer without guessing. Good examples: whether your qualification is accepted as an entry route, whether a specific module/subject is required, whether predicted grades are acceptable at initial review, and what minimum English score is required for that intake.",
+          "Avoid outcome language (“Will I get an offer?”). Use neutral wording such as “Would you confirm whether…” and “Could you advise if…”."
+        ]
+      },
+      {
+        heading: "3) The “clarification pack”: what to attach (small but complete)",
+        paragraphs: [
+          "Attach only what helps them decide: (a) transcript or statement of results (PDF if possible), (b) grading scale/legend if available, (c) English test result (or planned test date), and (d) a one-page profile summary (name, qualification, subjects, current average, expected graduation, and links to official programme descriptions if relevant).",
+          "If any document is not final, label it clearly as interim/predicted with date. If names differ across documents, add a short name note; do not edit originals."
+        ]
+      },
+      {
+        heading: "4) Use the reply safely: version control and compliance",
+        paragraphs: [
+          "Save replies as PDFs and log them with date, sender, and the specific question answered. If the reply is general, follow up once with a single clarifying line rather than reopening the whole thread.",
+          "Treat email replies as guidance, not a contract: entry requirements can change. Re-check the course page before submission and keep evidence of the version/date you relied on."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、什麼情況寫信最有效？什麼情況只是浪費時間",
+        paragraphs: [
+          "寫信問招生最適合用在官網資訊不夠明確的時候：例如你的學歷/課程不在清單內、英文要求有多種測試但細節不清、成績單格式特殊、或你有在讀/預測分數等情況。相反地，如果課程頁面已經寫得很清楚，招生方多半只會回你連結。",
+          "寄信前先花 10 分鐘整理好：課程全名與 intake（入學季）、課程頁面連結，以及 2–3 句的背景摘要（你目前讀什麼、何時畢業/出分）。"
+        ]
+      },
+      {
+        heading: "二、把問題問成『一封信可以做一個判斷』，不要問成十個碎問題",
+        paragraphs: [
+          "建議每封信只放 2–4 個可直接回答的具體問題，讓招生不用猜。好的問題例子：你的學歷是否被接受為入學途徑、是否要求特定科目/模組、在讀/預測分數能否用於初審、該 intake 的最低英文成績要求是什麼。",
+          "避免結果導向用語（例如「我會不會被錄取？」）。改用中性措辭，例如「請協助確認是否…」「想請教是否可以…」。"
+        ]
+      },
+      {
+        heading: "三、一套可直接附上的『澄清包』：附件怎麼選（小但完整）",
+        paragraphs: [
+          "附件只放有助於招生做判斷的材料：(a) transcript / statement of results（盡量 PDF）、(b) 成績計算尺度或 legend（若有）、(c) 英文成績單或預計考試日期、(d) 一頁式背景摘要（姓名、目前學歷、科目/模組、目前平均分、預計畢業/出分日期，必要時附上官方課程說明連結）。",
+          "若材料不是最終版本，請清楚標註為 interim/在讀/預測（含日期）。若不同文件上的英文姓名拼寫不一致，另外附一段短短的 name note；不要自行修改原始文件。"
+        ]
+      },
+      {
+        heading: "四、如何安全地使用回覆：版本管理與合規要點",
+        paragraphs: [
+          "把回覆存成 PDF，並用表格記錄：日期、回覆人、對應的問題與答案。如果回覆太泛泛，最多再 follow-up 一次，用一行把你要確認的點講清楚，不要把整個 thread 再打散重問。",
+          "把 email 回覆當作『指引』而不是保證：入學要求可能變動。正式提交前再回到課程頁面核對一次，並保留你當時參考的頁面版本/日期證據。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "transcript-grading-context-note-uk-aus-applications",
+    title: "Transcripts & Grades for UK/Australia: A One-Page Grading Context Note (So Evaluators Don’t Guess)",
+    date: "2026-05-30",
+    category: "University Applications",
+    column: "study",
+    kicker: "Documents · Transcript · Evidence-first",
+    author: "留學導報編輯部",
+    summary: "Many application problems are not about “bad grades” but about unclear context: different grading scales, missing course titles, inconsistent names, or screenshots that cannot be verified. This practical guide shows how to package your transcript properly and add a one-page “grading context note” so UK/Australia evaluators can interpret your results accurately. Use it as a quality-control checklist (no outcome guarantees).",
+    titleZh: "英國／澳洲申請成績單怎麼交：做一頁「評分制度說明」讓招生不用猜（實務清單）",
+    summaryZh: "不少申請卡關不是因為成績差，而是「背景不清楚」：評分制度不同、科目/課程名稱缺漏、姓名拼寫不一致、只有截圖無法核對等。本文提供一套可直接照做的打包方法：把 transcript 交得可核對、可閱讀，並加上一頁「評分制度說明」，讓英國／澳洲招生能更準確理解你的學術表現（不作任何結果承諾）。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "uk-entry-requirements-course-page-checklist",
+      "reference-letter-briefing-pack-uk-aus",
+      "uk-personal-statement-evidence-first-checklist"
+    ],
+    resources: [
+      ["UK ENIC (official) — Qualification recognition guidance", "https://www.enic.org.uk/"],
+      ["UCAS — Applying to university (overview)", "https://www.ucas.com/undergraduate/applying-university"],
+      ["IELTS (official)", "https://www.ielts.org/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-05-30。本文為一般性教育資訊，重點在『把成績單交得可被核對』與『補上評分制度/學校出分規則的背景說明』；各大學/各課程對文件形式（是否需蓋章、是否需寄送官方紙本、是否接受電子章、是否需 certified translation）要求可能不同，請以目標學校官方 admissions 指引為準。",
+      "本文不構成錄取、簽證或任何結果承諾；若你對文件公證/翻譯/驗證要求不確定，建議先向目標院校 admissions 發郵件確認，再安排翻譯與提交流程。"
+    ],
+    body: [
+      {
+        heading: "1) What counts as an “official transcript” (and when a screenshot is risky)",
+        paragraphs: [
+          "Universities usually prefer an official transcript or academic record issued by the school: clear institution name, your name/ID, programme, dates, module/unit list, credits/contact hours (if available), and grades. If your only evidence is a portal screenshot, treat it as temporary—some institutions may not accept it as final proof.",
+          "If you are still studying, ask your school what they can issue now (interim transcript, statement of results, enrolment letter). The goal is verifiability: the reader can trust where the data came from."
+        ]
+      },
+      {
+        heading: "2) Add a one-page “grading context note” (template you can reuse)",
+        paragraphs: [
+          "A grading context note is a neutral one-page document that explains how your grades are calculated. Keep it factual and avoid persuasive language. Suggested fields: grading scale (e.g., 0–100, A–F, GPA), pass mark, honours/distinction rules, whether results are rounded, what “predicted” means in your school, and any ranking/percentile method if your school provides it.",
+          "Attach official sources if available (school handbook, transcript legend, official grading policy PDF). If you can’t get an official document, write the note clearly and label it as “student-prepared summary” so it is not mistaken for an institutional certificate."
+        ]
+      },
+      {
+        heading: "3) Predicted grades and in-progress study: show progress without over-claiming",
+        paragraphs: [
+          "Predicted grades are a forecast, not a final result. Present them as “school predicted” (with date) and separate them from achieved grades. If you have mid-year reports, include them as supporting context, not as a replacement for a transcript.",
+          "If you have resits, pending modules, or deferred assessments, list them in a simple table: module, status, expected result date. This reduces misunderstandings during assessment."
+        ]
+      },
+      {
+        heading: "4) Translation + name consistency: the silent rejection reasons",
+        paragraphs: [
+          "Check name consistency across passport, transcript, certificates, and test reports. Even small differences (spacing, order, missing middle name) can trigger document queries. If your school record cannot be changed, add a short “name note” explaining the spelling variants and attach the passport bio page.",
+          "For non-English documents, confirm whether the university requires certified translation and whether they need both the original-language copy and the translation. Do not edit originals; keep clear scans and preserve stamps/signatures."
+        ]
+      },
+      {
+        heading: "5) Submission hygiene: file naming and version control (fast, practical)",
+        paragraphs: [
+          "Use consistent file names so nobody mixes versions: `LastName_FirstName_Transcript_School_2026-05-30.pdf`, `..._GradingContextNote_2026-05-30.pdf`, `..._NameNote_2026-05-30.pdf`. Keep a simple index page listing every file and its date.",
+          "Before submitting, do a 10-minute “audit”: can a stranger identify you, your programme, the grading scale, and whether results are final? If any answer is “no”, fix the packaging first."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、什麼才算「正式成績單」？為什麼只交截圖風險很高",
+        paragraphs: [
+          "大多數大學偏好由學校出具的正式 transcript / academic record：學校名稱清楚、你的姓名/學號、就讀項目、日期、科目/模組清單、（若有）學分/時數，以及對應成績。若你目前只有系統截圖，請把它視為臨時材料：部分院校可能不接受作為最終證明。",
+          "若你仍在就讀，先問學校目前能出具什麼：interim transcript、statement of results、在讀證明等。核心目標是『可被核對』：讀者能判斷資料來源可信。"
+        ]
+      },
+      {
+        heading: "二、加一頁「評分制度說明」（可直接套用的範本）",
+        paragraphs: [
+          "所謂「評分制度說明」是一頁中性文件，用來解釋你學校怎麼算分。內容務必客觀，不要寫成推銷文。建議欄位：評分尺度（0–100、A–F、GPA 等）、及格線、Distinction/Honours 規則、是否四捨五入、學校的 predicted/預測分數定義、以及（若學校提供）排名或百分位的計算方式。",
+          "若能取得官方來源（學生手冊、成績單 legend、學校 grading policy PDF），請一併附上。若拿不到官方文件，仍可寫出清楚說明，但請標註為「學生整理摘要」，避免被誤認為學校出具的證明。"
+        ]
+      },
+      {
+        heading: "三、Predicted grades 與在讀成績：如實呈現進度，不要過度宣稱",
+        paragraphs: [
+          "Predicted grades 是預測，不是最終結果。請明確標註為「學校預測」（含日期），並與已取得的成績分開呈現。若你有期中報告或學期報告，可作為補充背景，但不要把它當作正式 transcript 的替代品。",
+          "若有補考、尚未出分的模組、或延後評核，建議用一張小表格列出：科目/模組、目前狀態、預計出分時間。這能大幅降低評估時的誤會。"
+        ]
+      },
+      {
+        heading: "四、翻譯與姓名一致性：最常見、但最容易忽略的退件原因",
+        paragraphs: [
+          "先做一次「姓名一致性」核對：護照、成績單、畢業證書、語言成績單等是否完全一致。哪怕只是空格、順序、少了 middle name，都可能引發學校追問。若學校紀錄無法更改，可附上一段簡短的「姓名說明」並附護照資料頁，解釋拼寫差異。",
+          "對於非英文文件，務必確認院校是否要求 certified translation，以及是否需要同時提交原文與翻譯件。請不要修改原件；掃描要清晰，章/簽名要保留完整。"
+        ]
+      },
+      {
+        heading: "五、提交前的「檔案與版本管理」：10 分鐘就能把錯誤率降下來",
+        paragraphs: [
+          "用一致的檔名避免版本混淆：`LastName_FirstName_Transcript_School_2026-05-30.pdf`、`..._GradingContextNote_2026-05-30.pdf`、`..._NameNote_2026-05-30.pdf`。再加一頁簡單的文件目錄，列出每個檔案的日期與用途。",
+          "提交前做一個 10 分鐘『陌生人測試』：讓一個不認識你的人看文件包，能不能立刻知道你是誰、讀什麼、評分制度是什麼、成績是否已定案？只要有一項答案是「不行」，先把打包方式修好再送。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "portfolio-evidence-pack-marketing-media-business",
     title: "Marketing / Media / Business Applications: A Simple Portfolio & Evidence Pack (UK/Australia)",
     date: "2026-05-29",
@@ -2040,9 +2228,9 @@ const insightsArticles = [
         ]
       },
       {
-        heading: "四、院校、官方網站與「通過 OTC 辦理」入口",
+        heading: "四、院校、官方網站與「OTC 辦理」入口",
         paragraphs: [
-          `每個課程族都應先看院校官方網站，再由 OTC 做文件與簽證風險初篩：<div class="article-service-table"><table><thead><tr><th>院校 / 路線</th><th>課程方向</th><th>官方網站</th><th>辦理入口</th></tr></thead><tbody><tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">通過 OTC 辦理</a></td></tr><tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">通過 OTC 辦理</a></td></tr></tbody></table></div>`,
+          `每個課程族都應先看院校官方網站，再由 OTC 做文件與簽證風險初篩：<div class="article-service-table"><table><thead><tr><th>院校 / 路線</th><th>課程方向</th><th>官方網站</th><th>辦理入口</th></tr></thead><tbody><tr><td>TAFE SA International</td><td>工程 Associate Degree</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA International</td><td>旅遊、酒店與會展管理</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>IT 打包：Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>幼教與 teaching 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>護理打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Marketing / Business 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Screen and Media / Visual Effects 打包</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">OTC 辦理</a></td></tr><tr><td>TAFE SA + Flinders University</td><td>部分工程打包路線，按入學季確認</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">OTC 辦理</a></td></tr></tbody></table></div>`,
           "這個按鈕不是取代官方審核，而是啟動 OTC 初步評估：先看年齡、英文、學歷、課程邏輯與簽證風險，再決定是否進入正式遞交流程。"
         ]
       },
@@ -11625,10 +11813,10 @@ const chineseEntrance = pageShell({
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
     </section>
 
-    <section class="band compact-band zh-home-workbench" aria-label="海外督導｜｜工作台">
+    <section class="band compact-band zh-home-workbench zh-mobile-single-stack" aria-label="海外督導｜工作台">
       <div class="zh-workbench-head">
         <span>From current OTC inbox workflow</span>
-        <strong>海外督導｜｜工作台</strong>
+        <strong>海外督導｜工作台</strong>
         <p>郵件工作流顯示，OTC 的特點不是只放服務名稱，而是把逐校問詢、學生文件、課程路線、出版審稿與跨區域協調整理成可追蹤的工作線索。</p>
       </div>
       <div class="zh-workbench-ledger">
@@ -11639,7 +11827,7 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band zh-home-route-tiles" id="open-learning-platform">
+    <section class="band compact-band zh-home-route-tiles zh-mobile-single-stack" id="open-learning-platform">
       <div class="zh-home-route-note">
         <span>先判斷家庭目前處在哪一步：選國家與學校、理解政策與職業路線，或補一條更實用的職業培訓路徑。</span>
         <em>OTC 將信息拆成三個入口，詳細流程放入子頁，首頁只保留判斷線索。</em>
@@ -11649,7 +11837,7 @@ const chineseEntrance = pageShell({
       <a href="/zh/australia-vet-tafe-pathways/"><strong>職涯培訓</strong><span>澳洲 VET / TAFE、職業課程、TAFE-to-university 與就業方向總覽。</span><small>對象：轉專業/職業導向 · 材料：RTO/TAFE/課程代碼 · 輸出：evidence pack</small></a>
     </section>
 
-    <section class="band compact-band zh-home-feature-grid" id="othm-centre">
+    <section class="band compact-band zh-home-feature-grid zh-mobile-single-stack" id="othm-centre">
       <div class="zh-home-learning-core">
         <a class="zh-learning-head" href="/international-curriculum-tutoring/">
           <span>OTC Learning Platform</span>
@@ -11681,8 +11869,8 @@ const chineseEntrance = pageShell({
       </div>
     </section>
 
-    <section class="band compact-band zh-home-bookshop-footer">
-      <div class="zh-home-bookshop-card">
+    <section class="band compact-band zh-home-bookshop-footer zh-mobile-single-stack">
+      <div class="zh-home-bookshop-card zh-mobile-single-stack">
         <a class="zh-bookshop-main" href="/publishing/">
           <span>Overseas Publishing</span>
           <strong>海外書局｜出版、編譯與導報</strong>
