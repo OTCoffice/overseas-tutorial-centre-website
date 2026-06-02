@@ -1,5 +1,5 @@
 /* ==========================================================================
-   1. 平板與手機版樣式 (1024px 以下)
+   【1. 平板與手機版樣式（1024px 以下）】
    ========================================================================== */
 @media (max-width: 1024px) {
   body.zh-home-page .zh-home-bookshop-card {
@@ -27,55 +27,29 @@
     width: 100% !important;
   }
 
-  body.zh-home-page .zh-bookshop-button-grid a,
-  body.zh-home-page .zh-bookshop-button-grid a:nth-child(5) {
-    border-left: 0 !important;
-    border-right: 0 !important;
+  body.zh-home-page .zh-bookshop-button-grid a {
     border-top: 1px solid rgba(131,112,82,.18) !important;
-    border-bottom: 0 !important;
-    border-radius: 0 !important;
     display: grid !important;
     gap: 4px !important;
-    grid-column: auto !important;
     grid-template-columns: 1fr auto !important;
-    min-height: 0 !important;
     padding: 14px 0 !important;
     width: 100% !important;
   }
 
-  body.zh-home-page .zh-bookshop-button-grid b,
-  body.zh-home-page .zh-bookshop-button-grid span {
-    max-width: 100% !important;
-    min-width: 0 !important;
-    overflow-wrap: break-word !important;
-    text-align: left !important;
-    white-space: normal !important;
-    word-break: normal !important;
-    writing-mode: horizontal-tb !important;
-  }
-
   body.zh-home-page .zh-bookshop-button-grid b {
     font-size: 18px !important;
-    grid-column: 1 !important;
     line-height: 1.2 !important;
   }
 
   body.zh-home-page .zh-bookshop-button-grid span {
     font-size: 13px !important;
-    grid-column: 1 !important;
     line-height: 1.45 !important;
   }
 
   body.zh-home-page .zh-bookshop-button-grid a::after {
-    align-self: start !important;
-    color: rgba(184,138,59,.72) !important;
     content: "→" !important;
-    display: block !important;
+    color: rgba(184,138,59,.72) !important;
     font-size: 16px !important;
-    grid-column: 2 !important;
-    grid-row: 1 / span 2 !important;
-    line-height: 1 !important;
-    padding-top: 3px !important;
   }
 
   body.zh-home-page .zh-workbench-head,
@@ -83,75 +57,13 @@
   body.zh-home-page .zh-learning-head,
   body.zh-home-page .zh-home-side-stack {
     padding-left: 0 !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
     width: 100% !important;
-  }
-
-  body.zh-home-page .zh-workbench-ledger a::before,
-  body.zh-home-page .zh-workbench-ledger a:nth-child(-n+2)::before,
-  body.zh-home-page .zh-home-route-tiles>a::before,
-  body.zh-home-page .zh-home-route-tiles>a:nth-child(1)::before,
-  body.zh-home-page .zh-home-route-tiles>a:nth-child(2)::before,
-  body.zh-home-page .zh-home-route-tiles>a:nth-child(3)::before,
-  body.zh-home-page .zh-learning-ledger a::before,
-  body.zh-home-page .zh-learning-ledger a:nth-child(-n+2)::before {
-    content: none !important;
-    display: none !important;
   }
 }
 
 /* ==========================================================================
-   2. 寬螢幕/特殊單欄堆疊樣式 (1200px 以下)
+   【2. 大螢幕桌機版樣式（1025px 以上）】
    ========================================================================== */
-@media (max-width: 1200px) {
-  body.zh-home-page .zh-mobile-single-stack {
-    --hub-left: 1fr !important;
-    --hub-right: 1fr !important;
-    column-count: auto !important;
-    columns: auto !important;
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-  }
-
-  body.zh-home-page .zh-mobile-single-stack>* {
-    max-width: 100% !important;
-    min-width: 0 !important;
-    width: 100% !important;
-  }
-
-  body.zh-home-page .zh-mobile-single-stack :is(.zh-workbench-ledger,.zh-learning-ledger,.zh-bookshop-button-grid) {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    width: 100% !important;
-  }
-
-  body.zh-home-page .zh-mobile-single-stack :is(.zh-workbench-ledger,.zh-home-route-tiles,.zh-learning-ledger,.zh-bookshop-button-grid)>a,
-  body.zh-home-page .zh-mobile-single-stack.zh-home-route-tiles>a {
-    display: grid !important;
-    grid-template-columns: 1fr auto !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    padding: 14px 0 !important;
-    width: 100% !important;
-  }
-
-  body.zh-home-page .zh-mobile-single-stack :is(.zh-workbench-ledger,.zh-home-route-tiles,.zh-learning-ledger)>a::before,
-  body.zh-home-page .zh-mobile-single-stack.zh-home-route-tiles>a::before {
-    content: none !important;
-    display: none !important;
-  }
-
-  body.zh-home-page .zh-mobile-single-stack :is(b,strong,span,small,p,em) {
-    max-width: 100% !important;
-    min-width: 0 !important;
-    overflow-wrap: break-word !important;
-    white-space: normal !important;
-    word-break: normal !important;
-    writing-mode: horizontal-tb !important;
-  }
+@media (min-width: 1025px) {
+  /* 這裡保留或留空你原本的桌面版樣式，確保完全不會干擾到手機版 */
 }
