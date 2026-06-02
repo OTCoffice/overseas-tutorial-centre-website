@@ -18,7 +18,7 @@
     width: 100% !important;
   }
 
-  body.zh-home-page .zh-bookshop-button-grid {
+<link rel="stylesheet" href="styles.css?v=20260602">
     display: grid !important;
     gap: 0 !important;
     grid-template-columns: 1fr !important;
