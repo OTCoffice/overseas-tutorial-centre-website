@@ -12275,6 +12275,11 @@ h1 {
   font-size: 18px;
 }
 
+.summer-alliance-faq-band .resource-row h3 {
+  font-size: 16px;
+  line-height: 1.36;
+}
+
 .resource-row p {
   color: var(--muted);
   margin: 5px 0 0;
@@ -23051,6 +23056,11 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   .summer-alliance-hero-main .actions .btn {
     justify-content: center;
     width: 100%;
+  }
+
+  .summer-alliance-faq-band .resource-row h3 {
+    font-size: 15px;
+    line-height: 1.42;
   }
 }
 

@@ -12674,7 +12674,7 @@ const summerSchoolAlliance = pageShell({
       </div>
     </section>
 
-    <section class="band">
+    <section class="band summer-alliance-faq-band">
       <div class="section-head compact-head">
         <div class="eyebrow">Customer Pain Points</div>
         <h2>常見問題</h2>
