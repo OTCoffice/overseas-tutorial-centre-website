@@ -23315,6 +23315,42 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   padding: 0 20px 18px;
 }
 
+.appeal-expert-profile {
+  border-top: 1px solid rgba(212, 175, 55, 0.22);
+  display: grid;
+  gap: 0;
+  padding: 0 20px 20px;
+}
+
+.appeal-expert-profile div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 92px minmax(0, 1fr);
+  padding: 16px 0;
+}
+
+.appeal-expert-profile div:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.appeal-expert-profile span {
+  color: #d4af37;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.appeal-expert-profile p {
+  border-top: 0;
+  color: #d9e0e7;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
 .appeal-process {
   display: grid;
   gap: 12px;
@@ -23395,6 +23431,11 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
   .appeal-accordion summary,
   .appeal-process button {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .appeal-expert-profile div {
+    gap: 7px;
     grid-template-columns: minmax(0, 1fr);
   }
 
