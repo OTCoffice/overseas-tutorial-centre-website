@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OTHM Level 3 成人健康與社會照護文憑——英澳長照職業資歷完整解析</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Serif+TC:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1410;--ink-mid:#3d2f22;--ink-light:#7a6552;
+  --paper:#faf6ef;--paper-warm:#f3ede2;--paper-deep:#e8dece;
+  --red:#b5272d;--gold:#c8952a;--gold-light:#e8b84b;--gold-pale:#f5e8c8;
+  --teal:#1e6b6b;--teal-light:#22a08e;
+  --rule:#c8b89a;--rule-light:#ddd0bb;--outer:#e8e0d4;
+}
+html{font-size:15px;-webkit-font-smoothing:antialiased}
+body{background:var(--outer);color:var(--ink);font-family:'Noto Sans TC',sans-serif;padding:24px 16px 48px}
+.page{max-width:880px;margin:0 auto;background:var(--paper);box-shadow:0 4px 40px rgba(80,50,20,.16)}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);padding:14px 36px;display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid var(--red)}
+.mast-brand{font-family:'Noto Serif TC',serif;font-size:20px;font-weight:700;color:#fff;letter-spacing:.04em}
+.mast-brand span{font-weight:300;font-size:12px;color:rgba(255,255,255,.45);letter-spacing:.18em;display:block;margin-top:2px}
+.mast-right{text-align:right;font-size:10px;color:rgba(255,255,255,.35);letter-spacing:.08em;line-height:1.7}
+
+/* CAT BAR */
+.cat-bar{background:var(--red);padding:7px 36px;display:flex;align-items:center;justify-content:space-between}
+.cat-title{font-family:'Noto Serif TC',serif;font-size:13px;font-weight:700;color:#fff;letter-spacing:.08em}
+.cat-sub{font-size:10px;color:rgba(255,255,255,.65);letter-spacing:.10em}
+
+/* HERO */
+.hero{padding:30px 36px 22px;background:linear-gradient(to bottom,var(--paper-warm),var(--paper));border-bottom:1px solid var(--rule)}
+.kicker{display:flex;align-items:center;gap:8px;font-size:10px;letter-spacing:.18em;color:var(--gold);text-transform:uppercase;font-weight:500;margin-bottom:10px}
+.kicker::before{content:'';display:block;width:22px;height:1px;background:var(--gold)}
+h1{font-family:'Noto Serif TC',serif;font-size:28px;font-weight:700;line-height:1.32;color:var(--ink);margin-bottom:8px;letter-spacing:.01em}
+h1 em{font-style:italic;color:var(--red)}
+.deck{font-size:14px;color:var(--ink-mid);line-height:1.80;border-left:3px solid var(--gold);padding-left:14px;margin-top:10px;max-width:600px}
+
+/* TWO COL */
+.two-col{display:grid;grid-template-columns:1fr 255px;gap:0;border-top:1px solid var(--rule)}
+.main{padding:24px 36px;border-right:1px solid var(--rule)}
+.side{padding:22px 18px;background:var(--paper-warm)}
+
+/* BODY TEXT */
+h2{font-family:'Noto Serif TC',serif;font-size:17px;font-weight:700;color:var(--ink);margin:22px 0 10px;padding-bottom:7px;border-bottom:2px solid var(--gold)}
+h3{font-family:'Noto Serif TC',serif;font-size:14px;font-weight:700;color:var(--navy,var(--ink));margin:16px 0 7px}
+p{font-size:13px;color:var(--ink-mid);line-height:1.90;margin-bottom:12px;text-align:justify}
+p:last-child{margin-bottom:0}
+
+/* CALLOUTS */
+.callout-gold{background:var(--gold-pale);border-left:4px solid var(--gold);padding:12px 16px;margin:14px 0;border-radius:0 3px 3px 0}
+.callout-red{background:#fef3f3;border-left:4px solid var(--red);padding:12px 16px;margin:14px 0;border-radius:0 3px 3px 0}
+.callout-teal{background:#e8f4f4;border-left:4px solid var(--teal);padding:12px 16px;margin:14px 0;border-radius:0 3px 3px 0}
+.callout-gold p,.callout-red p,.callout-teal p{margin-bottom:0;font-size:12.5px}
+.callout-label{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:5px}
+.callout-gold .callout-label{color:var(--gold)}
+.callout-red .callout-label{color:var(--red)}
+.callout-teal .callout-label{color:var(--teal)}
+
+/* MODULE LIST */
+.module-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+.module-card{background:var(--paper-warm);border:1px solid var(--rule-light);border-radius:3px;padding:10px 12px}
+.module-tag{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:4px}
+.module-name{font-family:'Noto Serif TC',serif;font-size:12.5px;font-weight:700;color:var(--ink);line-height:1.35;margin-bottom:2px}
+.module-en{font-size:11px;color:var(--ink-light);font-style:italic}
+
+/* PULL QUOTE */
+.pull-quote{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:12px 0;margin:18px 0}
+.pq{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--ink);line-height:1.55}
+.pq-src{font-size:10px;color:var(--ink-light);margin-top:5px;letter-spacing:.08em;text-transform:uppercase}
+
+/* VISA COMPARISON TABLE */
+.visa-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:12px}
+.visa-table th{background:rgba(200,149,42,.18);font-family:'Noto Serif TC',serif;font-weight:700;color:var(--ink);padding:8px 10px;text-align:left;border-bottom:2px solid var(--gold)}
+.visa-table td{padding:8px 10px;border-bottom:1px solid var(--rule-light);color:var(--ink-mid);line-height:1.55;vertical-align:top}
+.visa-table tr:nth-child(even) td{background:var(--paper-warm)}
+.chip{display:inline-block;padding:1px 7px;border-radius:2px;font-size:10px;font-weight:700;font-family:'Noto Sans TC',sans-serif}
+.chip-g{background:rgba(30,107,107,.10);color:var(--teal)}
+.chip-r{background:rgba(181,39,45,.09);color:var(--red)}
+.chip-gold{background:var(--gold-pale);color:var(--gold)}
+.chip-grey{background:var(--paper-deep);color:var(--ink-light)}
+
+/* DARK INFOGRAPHIC */
+.dark-block{background:var(--ink);padding:24px 36px;border-top:3px solid var(--gold)}
+.db-title{font-family:'Noto Serif TC',serif;font-size:16px;font-weight:700;color:#fff;margin-bottom:18px;letter-spacing:.02em}
+.db-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.db-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:4px;padding:14px 16px}
+.db-num{font-family:'Playfair Display',serif;font-size:30px;font-weight:700;color:var(--gold-light);line-height:1;margin-bottom:4px}
+.db-label{font-family:'Noto Serif TC',serif;font-size:12px;font-weight:700;color:#fff;margin-bottom:5px}
+.db-desc{font-size:11.5px;color:rgba(255,255,255,.55);line-height:1.6}
+.db-arrow{display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--gold-light)}
+
+/* SIDEBAR */
+.sw{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--rule-light)}
+.sw:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.sw-title{font-family:'Noto Serif TC',serif;font-size:12px;font-weight:700;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:4px;display:inline-block;margin-bottom:10px}
+.fact-row{display:flex;justify-content:space-between;align-items:baseline;padding:5px 0;border-bottom:1px dashed var(--rule-light);font-size:11.5px}
+.fact-row:last-child{border-bottom:none}
+.fact-label{color:var(--ink-light)}
+.fact-val{font-family:'Noto Serif TC',serif;font-weight:700;color:var(--ink);font-size:12.5px}
+.warn-box{background:#fef3f3;border:1px solid rgba(181,39,45,.20);border-radius:3px;padding:10px 12px}
+.warn-title{font-size:10px;letter-spacing:.12em;color:var(--red);font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.warn-text{font-size:11.5px;color:var(--ink-mid);line-height:1.65}
+.tip-box{background:var(--gold-pale);border:1px solid rgba(200,149,42,.25);border-radius:3px;padding:10px 12px}
+.tip-title{font-size:10px;letter-spacing:.12em;color:var(--gold);font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.tip-text{font-size:11.5px;color:var(--ink-mid);line-height:1.65}
+.prog-item{display:flex;align-items:flex-start;gap:7px;font-size:12px;color:var(--ink-mid);padding:4px 0;border-bottom:1px solid var(--rule-light);line-height:1.5}
+.prog-item:last-child{border-bottom:none}
+.prog-item::before{content:'→';color:var(--gold);flex-shrink:0;font-size:11px;margin-top:2px}
+
+/* FOOTER */
+.footer{background:var(--ink);padding:14px 36px;display:flex;align-items:center;justify-content:space-between;border-top:2px solid var(--gold)}
+.footer-copy{font-size:10px;color:rgba(255,255,255,.30);letter-spacing:.04em}
+.footer-url{font-size:10px;color:rgba(255,255,255,.40)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.page{animation:fadeUp .45s ease both}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- MASTHEAD -->
+<div class="masthead">
+  <div class="mast-brand">Overseas Education Herald
+    <span>海 外 留 學 導 報</span>
+  </div>
+  <div class="mast-right">
+    英澳職業資歷分析<br>
+    Qualification No. 610/6122/0<br>
+    otcoffice-articles.vercel.app
+  </div>
+</div>
+<div class="cat-bar">
+  <div class="cat-title">英澳護理職業資歷深度分析</div>
+  <div class="cat-sub">UK · Australia · Aged Care · Visa Pathways · 2025–2026</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="kicker">OTHM 認可文憑 · 資格編號 610/6122/0</div>
+  <h1>OTHM Level 3 成人健康與社會照護文憑——<br><em>英澳長照職業資歷完整解析</em></h1>
+  <div class="deck">
+    一紙由英國 Ofqual 監管機構認可的 Level 3 文憑，如何在英國在職申請者與澳洲技術移民簽證之間架起橋樑？本文梳理課程結構、英澳簽證政策最新變動，以及在境內求職者的實際就業價值。
+  </div>
+</div>
+
+<!-- TWO COL -->
+<div class="two-col">
+<div class="main">
+
+<h2>一、課程概覽：為什麼是 Level 3？</h2>
+
+<p>OTHM Level 3 Diploma in Adult Health and Social Care（成人健康與社會照護高級文憑）由英國資歷架構監管機構 Ofqual 認可（資格編號 610/6122/0），在英國資歷架構（RQF）中相當於 GCE A-Level 程度，即高中後職業資歷的入門級別。課程總學習時數為 600 小時，其中建議面授及指導學習時數（GLH）不少於 300 小時，修讀期限典型為全日制六個月，亦可兼讀或遠程修讀。</p>
+
+<p>這一定位，使其成為進入英國及澳洲健康與社會照護行業的重要「入場券」——既低於大學本科要求，又明顯高於純在職培訓，在兩個英語國家的資歷認可體系中均有明確對應位置。</p>
+
+<div class="callout-gold">
+  <div class="callout-label">資歷定位</div>
+  <p>RQF Level 3 ＝ A-Level 同等資歷。Ofqual 監管，OTHM 認可中心（如 OTC，中心編號 DC11060519）可直接開辦並頒發此文憑。</p>
+</div>
+
+<h2>二、課程結構：必修與選修單元</h2>
+
+<p>文憑由三個必修單元及三個選修單元組成，共計 60 學分。必修單元涵蓋護理工作的核心法律、倫理與實踐框架；選修單元則允許學員根據個人職業方向定制專業重點。</p>
+
+<p><strong>三個必修單元：</strong></p>
+<div class="module-grid">
+  <div class="module-card">
+    <div class="module-tag">Mandatory</div>
+    <div class="module-name">健康與社會照護工作者的職責</div>
+    <div class="module-en">Responsibilities of a Health and Social Care Worker</div>
+  </div>
+  <div class="module-card">
+    <div class="module-tag">Mandatory</div>
+    <div class="module-name">以人為本的照護實踐</div>
+    <div class="module-en">Person-Centred Approaches in Health and Social Care Settings</div>
+  </div>
+  <div class="module-card" style="grid-column:1/-1">
+    <div class="module-tag">Mandatory</div>
+    <div class="module-name">有效溝通與倫理實踐</div>
+    <div class="module-en">Effective Communication and Ethical Practice in Health and Social Care</div>
+  </div>
+</div>
+
+<p><strong>七個選修單元（從中選三）：</strong></p>
+<div class="module-grid">
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">健康促進</div><div class="module-en">Health Promotion</div></div>
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">糖尿病認知</div><div class="module-en">Diabetes Awareness</div></div>
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">中風認知與管理</div><div class="module-en">Stroke Awareness and Management</div></div>
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">認知症照護</div><div class="module-en">Dementia Awareness</div></div>
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">精神健康認知</div><div class="module-en">Mental Health Awareness</div></div>
+  <div class="module-card"><div class="module-tag">Optional</div><div class="module-name">肢體殘障認知</div><div class="module-en">Physical Disability Awareness</div></div>
+  <div class="module-card" style="grid-column:1/-1"><div class="module-tag">Optional</div><div class="module-name">資訊處理</div><div class="module-en">Effective Handling of Information in Health and Social Care Settings</div></div>
+</div>
+
+<p>評估方式為純作業式（無閉卷考試），由認可中心進行內部評核，OTHM 委派外部驗證人員（External Verifier）複核，達到全部學習成果即可獲「通過」。</p>
+
+<h2>三、英國簽證政策：2025年7月重大變動</h2>
+
+<p>2025年5月，英國政府發布《移民白皮書》（Immigration White Paper: Restoring Control over the Immigration System），隨即於同年7月22日生效一系列對健康護理工作者簽證（Health and Care Worker Visa）的重大修訂。這些變動，根本性地改變了 Level 3 護理資歷在英國簽證申請中的角色。</p>
+
+<div class="callout-red">
+  <div class="callout-label">2025年7月22日起 · 重要政策收緊</div>
+  <p><strong>海外申請者</strong>：照護工作者（SOC 6135）及高級照護工作者（SOC 6136）已<strong>停止接受新申請</strong>。從海外直接申請此類職位的健康護理工作者簽證路線，自該日起關閉。</p>
+</div>
+
+<p>此前，RQF Level 3 資歷是英國技術工作者簽證（Skilled Worker Visa）的最低門檻。然而 2025年7月起，技術工作者簽證的技能門檻已提升至 RQF Level 6（即大學本科同等），Level 3–5 的職位若未列入移民薪酬清單（Immigration Salary List）或臨時短缺職業清單（Temporary Shortage Occupation List），則不再具備簽證申請資格。</p>
+
+<p>然而，這一收緊對<strong>已在英國境內的申請者</strong>產生了截然不同的影響——這正是 Level 3 文憑目前最具策略性的應用場景。</p>
+
+<div class="callout-teal">
+  <div class="callout-label">境內申請者例外條款</div>
+  <p>雇主仍可在英國境內招聘並擔保照護工作者（SOC 6135/6136），前提是工作者已被雇主合法僱用至少三個月，且此安排維持至 2028年7月22日（持續審查中）。此外，已獲擔保在英從事照護工作者，可繼續申請延期、轉換雇主，並在符合條件後申請居留。</p>
+</div>
+
+<div class="pull-quote">
+  <div class="pq">「海外招聘的大門已關，但境內轉換的窗口仍開著——這使得 Level 3 文憑對已在英國的求職者而言，比任何時候都更具即時價值。」</div>
+  <div class="pq-src">— OTC 顧問評估 · 2026</div>
+</div>
+
+<h3>境內求職者的實際應用路線</h3>
+
+<p>對於目前以學生簽證、畢業生簽證、配偶簽證或其他合法身份在英國境內的人士，持有 OTHM Level 3 文憑可帶來以下具體優勢：</p>
+
+<p><strong>1. 在 NHS 及私立照護機構求職的資歷憑證。</strong>絕大多數英國照護機構要求照護助理具備相關資歷，Level 3 文憑符合 Care Quality Commission（CQC）對照護工作者的基本培訓期望，是求職履歷的有效支撐。</p>
+
+<p><strong>2. 轉換簽證身份的資歷基礎。</strong>對已在 CQC 登記雇主工作三個月以上者，雇主可在截止期前（2028年7月）為其申請 Health and Care Worker Visa 擔保，屆時 Level 3 文憑即為申請資歷的核心文件。</p>
+
+<p><strong>3. 升讀 Level 4 及更高資歷的墊腳石。</strong>OTHM 的資歷架構允許 Level 3 直接銜接 Level 4 健康與社會照護課程，部分大學並以此資歷作為直接入讀本科學位的條件，為學生開啟向 RQF Level 6 晉升的長期通道。</p>
+
+<h2>四、澳洲簽證：技術短缺窗口大開</h2>
+
+<p>與英國的政策收緊相比，澳洲的方向截然相反。2026年，長照類職位預計繼續位列澳洲需求量最高的職業之一，獲移民政策、資金承諾及積極引進海外勞動力的全面支持。這一差異，使澳洲成為持有英式健康護理資歷者目前最具簽證可行性的目的地。</p>
+
+<h3>澳洲主要相關職位（ANZSCO）</h3>
+
+<table class="visa-table">
+  <thead><tr><th>職位</th><th>ANZSCO 編號</th><th>技能評估機構</th><th>簽證可用性</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Aged or Disabled Carer<br>老人/殘障護理員</td>
+      <td>423111</td>
+      <td>ACWA<br>（澳洲社區工作者協會）</td>
+      <td><span class="chip chip-g">482 / 186 / 191</span></td>
+    </tr>
+    <tr>
+      <td>Personal Care Assistant<br>個人護理助理</td>
+      <td>423313</td>
+      <td>ANMAC</td>
+      <td><span class="chip chip-g">482 / 186</span></td>
+    </tr>
+    <tr>
+      <td>Nursing Support Worker<br>護理支援工作者</td>
+      <td>423312</td>
+      <td>ANMAC</td>
+      <td><span class="chip chip-g">482 / 186</span></td>
+    </tr>
+    <tr>
+      <td>Aged Care Coordinator<br>長照統籌主任</td>
+      <td>134212</td>
+      <td>AIM / 相關大學評估</td>
+      <td><span class="chip chip-g">PMSOL · 189 / 482</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>482 技術短缺簽證（Temporary Skill Shortage）</h3>
+
+<p>申請 482 簽證的長照職位，海外申請者必須持有至少相當於澳洲資歷架構（AQF）Certificate III 同等或以上的資歷，或具備 12 個月以上相關全職工作經驗。若持有的是海外資歷，則需獲得 ACWA 或 ANMAC 的正面技能評估。</p>
+
+<p>OTHM Level 3 文憑在澳洲資歷框架中通常被評定為相當於 AQF Certificate III 至 IV 之間，即符合持有 Certificate III、IV 或 Diploma 的要求——達到 482 簽證長照類職位申請的基本資歷門檻。</p>
+
+<div class="callout-teal">
+  <div class="callout-label">澳洲長照行業勞動協議（Aged Care Industry Labour Agreement）</div>
+  <p>此特殊協議允許已有雇主擔保的海外長照工作者申請 482 簽證，且<strong>毋需有效簽注後工作經驗</strong>，並可在獲簽後兩年內申請永居——較標準 482 路線顯著加快。對持有 Level 3 文憑並有雇主願意擔保者，此協議是效率最高的簽證路線。</p>
+</div>
+
+<h3>技能評估：OTHM Level 3 如何通過 ACWA？</h3>
+
+<p>申請人需向 ACWA（Australian Community Workers Association）提交技能評估。評估的核心文件包括：OTHM 文憑正本（帶 e-certificate 驗證碼）、所有單元的成績單、相關工作經歷證明，以及翻譯（如文件為非英語）。OTHM 的資歷在澳洲評估機構中已有相當知名度，配合詳盡的課程規格說明（Specification），評估通過率較高。</p>
+
+<div class="callout-gold">
+  <div class="callout-label">OTC 建議</div>
+  <p>選修單元建議優先選取「Dementia Awareness」及「Mental Health Awareness」兩項，此兩項在澳洲雇主評估中契合度最高，亦符合澳洲長照行業近年的技能優先方向。</p>
+</div>
+
+<h2>五、對境內求職者的直接就業價值</h2>
+
+<p>無論是在英國還是澳洲，相當比例的 OTHM Level 3 修讀者已在境內生活工作——他們或是持有效工作簽證的居民，或是正在尋求轉換職業跑道的人士。對這一群體而言，這份文憑的價值並不依賴於簽證申請，而直接體現在就業市場上。</p>
+
+<p><strong>在英國境內的即時就業效益：</strong>英國照護行業目前面臨嚴峻的人手短缺，招聘廣告中明確要求或優先考慮持有「Level 3 Health and Social Care」相關資歷的申請人。照護助理、支援工作者、健康倡導者等職位，通常要求此資歷作為入職門檻，起薪區間在每小時 £11.50 至 £14.00 之間，大型連鎖照護機構（如 HC-One、Barchester、Four Seasons）均提供穩定的全職職缺。</p>
+
+<p><strong>在澳洲境內的即時就業效益：</strong>健康照護與社會援助行業目前佔澳洲勞動力的 15%，是澳洲最大的雇主行業，且預計增速快於其他所有行業。持有 Level 3 / Certificate III 同等資歷的照護工作者，在悉尼、墨爾本、布里斯本等主要城市均可在數週內完成就業。薪酬受《Social, Community, Home Care and Disability Services Award》保護，最低時薪約 AUD $25.41（Pay Level 2）。</p>
+
+<p>此外，澳洲政府對長照工作者提供多項培訓補貼，包括 TAFE 補貼課程及部分州政府提供的「Job Trainer」計劃，持有 OTHM Level 3 文憑者可在此基礎上以更短時間完成 AQF Certificate IV 換算，進一步提升薪酬和晉升空間。</p>
+
+</div><!-- /main -->
+
+<!-- SIDEBAR -->
+<div class="side">
+
+  <div class="sw">
+    <div class="sw-title">課程基本資料</div>
+    <div class="fact-row"><span class="fact-label">資格編號</span><span class="fact-val">610/6122/0</span></div>
+    <div class="fact-row"><span class="fact-label">RQF 級別</span><span class="fact-val">Level 3</span></div>
+    <div class="fact-row"><span class="fact-label">學分</span><span class="fact-val">60 Credits</span></div>
+    <div class="fact-row"><span class="fact-label">總學習時數</span><span class="fact-val">600 TQT Hours</span></div>
+    <div class="fact-row"><span class="fact-label">面授指導時數</span><span class="fact-val">最少 300 GLH</span></div>
+    <div class="fact-row"><span class="fact-label">修讀期</span><span class="fact-val">全日制 6 個月</span></div>
+    <div class="fact-row"><span class="fact-label">評核方式</span><span class="fact-val">純作業（無考試）</span></div>
+    <div class="fact-row"><span class="fact-label">監管機構</span><span class="fact-val">Ofqual (RN5284)</span></div>
+    <div class="fact-row"><span class="fact-label">頒授機構</span><span class="fact-val">OTHM</span></div>
+    <div class="fact-row"><span class="fact-label">入學年齡</span><span class="fact-val">16 歲或以上</span></div>
+  </div>
+
+  <div class="sw">
+    <div class="sw-title">英國簽證現況速覽</div>
+    <div class="warn-box">
+      <div class="warn-title">⚠ 2025年7月22日起</div>
+      <div class="warn-text">
+        SOC 6135 / 6136 照護工作者從海外申請的路線已<strong>關閉</strong>。<br><br>
+        境內已受僱者可繼續被擔保至 2028年7月（持續審查）。<br><br>
+        Level 6+ 資歷路線不受影響。
+      </div>
+    </div>
+  </div>
+
+  <div class="sw">
+    <div class="sw-title">澳洲簽證速覽</div>
+    <div class="tip-box">
+      <div class="tip-title">✦ 技術短缺窗口大開</div>
+      <div class="tip-text">
+        482 簽證：AQF Cert III 同等資歷 + ACWA 技能評估<br><br>
+        186 簽證：兩年後永居路線<br><br>
+        長照行業勞動協議：<strong>毋需有效後工作經驗 · 兩年快速永居</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="sw">
+    <div class="sw-title">升學銜接路線</div>
+    <div class="prog-item">OTHM Level 4 Health and Social Care</div>
+    <div class="prog-item">OTHM Level 5 Diploma（相當 Foundation Degree）</div>
+    <div class="prog-item">OTHM Level 6（相當學士學位）</div>
+    <div class="prog-item">部分大學直接入讀本科學位（OTHM 大學銜接名單）</div>
+    <div class="prog-item">澳洲 CHC43015 Cert IV Ageing Support 換算認可</div>
+  </div>
+
+  <div class="sw">
+    <div class="sw-title">OTC 可提供的服務</div>
+    <div class="tip-box" style="background:var(--paper-deep);border-color:var(--rule)">
+      <div class="tip-title" style="color:var(--ink)">海外督導學院（OTC）</div>
+      <div class="tip-text">
+        ✦ OTHM 認可中心（DC11060519），可直接開辦此文憑<br><br>
+        ✦ 英澳雙軌職業規劃：簽證評估 + 就業路徑分析<br><br>
+        ✦ 免費背景評估，WhatsApp：+44 7947 991572
+      </div>
+    </div>
+  </div>
+
+</div><!-- /side -->
+</div><!-- /two-col -->
+
+<!-- DARK INFOGRAPHIC -->
+<div class="dark-block">
+  <div class="db-title">英澳長照職業路線對比一覽</div>
+  <div class="db-grid">
+    <div class="db-card">
+      <div class="db-num">🇬🇧</div>
+      <div class="db-label">英國——境內求職者</div>
+      <div class="db-desc">
+        持 Level 3 文憑可直接求職照護助理、支援工作者。已受雇者可由雇主擔保至 2028年7月。起薪 £11.50–£14/hr。升讀 Level 4 可開啟 Level 6 大學通道。
+      </div>
+    </div>
+    <div class="db-arrow">→</div>
+    <div class="db-card">
+      <div class="db-num">🌏</div>
+      <div class="db-label">技能評估橋樑</div>
+      <div class="db-desc">
+        OTHM Level 3 ≈ AQF Certificate III–IV。需向 ACWA（ANZSCO 423111）或 ANMAC（423312/313）申請正面技能評估，OTHM Specification 是核心支撐文件。
+      </div>
+    </div>
+    <div class="db-arrow" style="transform:none;writing-mode:horizontal-tb">→</div>
+    <div class="db-card">
+      <div class="db-num">🇦🇺</div>
+      <div class="db-label">澳洲——技術移民窗口</div>
+      <div class="db-desc">
+        482 簽證（2–4年）→ 186 永居（2年後）。長照行業勞動協議可免後工作經驗要求，加速永居。AUD $25.41+/hr 起薪，政府補貼升讀 Cert IV。
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-copy">© Overseas Tutorial Centre Ltd · 207 Regent Street London W1B 3HH · OTHM Centre DC11060519</div>
+  <div class="footer-url">otcoffice-articles.vercel.app</div>
+</div>
+
+</div>
+</body>
+</html>
