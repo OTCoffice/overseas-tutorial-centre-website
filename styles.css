@@ -22824,6 +22824,236 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   margin: 0 0 16px;
 }
 
+@media (max-width: 720px) {
+  .summer-herald-page,
+  .summer-herald-us {
+    width: min(100%, calc(100% - 18px));
+    margin: 0 auto 22px;
+    overflow: hidden;
+  }
+
+  .summer-herald-us .zh-herald-masthead,
+  .summer-herald-us .zh-herald-section-bar,
+  .summer-herald-us .zh-herald-body-grid,
+  .summer-herald-us .zh-herald-main,
+  .summer-herald-us .zh-herald-side,
+  .summer-herald-us .summer-herald-hero,
+  .summer-herald-us .summer-herald-title-stack,
+  .summer-herald-us .zh-herald-standfirst {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .summer-herald-us .zh-herald-masthead,
+  .summer-herald-us .zh-herald-body-grid,
+  .summer-herald-grid,
+  .summer-herald-grid-single {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .summer-herald-us .zh-herald-masthead {
+    gap: 10px;
+    padding: 14px 16px;
+  }
+
+  .summer-herald-us .zh-herald-meta {
+    text-align: left;
+  }
+
+  .summer-herald-us .zh-herald-section-bar {
+    gap: 8px;
+    padding: 8px 16px;
+  }
+
+  .summer-herald-us .zh-herald-section-line {
+    min-width: 36px;
+  }
+
+  .summer-herald-us .zh-herald-main {
+    border-bottom: 1px solid #c8b89a;
+    border-right: 0;
+    padding: 18px 16px 20px;
+    width: 100%;
+  }
+
+  .summer-herald-us .zh-herald-side {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .summer-herald-us .summer-herald-title-stack h1 {
+    font-size: 30px;
+    line-height: 1.08;
+  }
+
+  .summer-herald-us .summer-herald-title-stack h2 {
+    font-size: 14px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .summer-herald-us .zh-herald-standfirst {
+    font-size: 13px;
+    line-height: 1.72;
+  }
+
+  .summer-herald-inline-strip,
+  .summer-mini-details-grid-us,
+  .summer-mini-details-grid-canada-compact,
+  .summer-mini-details-grid-herald,
+  .summer-herald-page .summer-hot-course-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .summer-herald-inline-strip {
+    gap: 7px;
+  }
+
+  .summer-herald-inline-strip article {
+    min-width: 0;
+  }
+
+  .summer-herald-linkbox .actions,
+  .summer-country-cta-row,
+  .summer-alliance-bottom-cta,
+  .summer-alliance-bottom-cta .actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .summer-herald-linkbox .btn,
+  .summer-country-cta-row .btn,
+  .summer-alliance-bottom-cta .btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .summer-programme-compare-table,
+  .article-service-table.summer-programme-compare-table {
+    display: block;
+    max-width: 100%;
+    overflow: visible;
+  }
+
+  .summer-programme-compare-table table,
+  .summer-programme-compare-table thead,
+  .summer-programme-compare-table tbody,
+  .summer-programme-compare-table tr,
+  .summer-programme-compare-table th,
+  .summer-programme-compare-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .summer-programme-compare-table table {
+    min-width: 0;
+  }
+
+  .summer-programme-compare-table thead {
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+  }
+
+  .summer-programme-compare-table tbody {
+    display: grid;
+    gap: 10px;
+  }
+
+  .summer-programme-compare-table tr {
+    background: #fffaf2;
+    border: 1px solid #d6c6ab;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .summer-programme-compare-table th,
+  .summer-programme-compare-table td {
+    border-bottom: 1px solid rgba(214, 198, 171, 0.72);
+    border-right: 0;
+    box-sizing: border-box;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    padding: 10px 12px;
+  }
+
+  .summer-programme-compare-table td:first-child {
+    background: #f3e6d2;
+    color: #b5272d;
+    font-family: var(--font-zh-editorial);
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .summer-programme-compare-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .summer-programme-compare-table td:not(:first-child)::before {
+    color: #8d734b;
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+
+  .summer-programme-compare-table td:nth-child(2)::before {
+    content: "代表 Provider";
+  }
+
+  .summer-programme-compare-table td:nth-child(3)::before {
+    content: "城市";
+  }
+
+  .summer-programme-compare-table td:nth-child(4)::before {
+    content: "年齡";
+  }
+
+  .summer-programme-compare-table td:nth-child(5)::before {
+    content: "住宿";
+  }
+
+  .summer-programme-compare-table td:nth-child(6)::before {
+    content: "更適合誰";
+  }
+
+  .summer-alliance-hero-grid,
+  .summer-alliance-hero-proofs,
+  .summer-alliance-hero-stats,
+  .summer-alliance-region-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summer-alliance-hero-side {
+    justify-content: stretch;
+  }
+
+  .summer-alliance-hero-stats {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .country-gateway-hero .band {
+    padding: 18px 0;
+  }
+
+  .summer-alliance-hero-main .actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .summer-alliance-hero-main .actions .btn {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 .partner-hero {
   background:
     linear-gradient(180deg, rgba(7, 22, 42, 0.99), rgba(10, 30, 55, 0.99)),
