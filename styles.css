@@ -23065,8 +23065,11 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-system-page {
-  background: #0f1d2d;
-  color: #ffffff;
+  --appeal-card: #ffffff;
+  --appeal-edge: var(--gold);
+  --appeal-soft: #efe7d8;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .appeal-system-page .band {
@@ -23075,9 +23078,9 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
 .appeal-hero {
   background:
-    linear-gradient(135deg, rgba(15, 29, 45, 0.98), rgba(26, 42, 58, 0.94)),
-    linear-gradient(90deg, rgba(139, 58, 58, 0.26), transparent 42%);
-  border-bottom: 4px solid #8b3a3a;
+    linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 70%),
+    linear-gradient(90deg, rgba(208, 174, 103, 0.28), transparent 46%);
+  border-bottom: 3px solid var(--gold);
 }
 
 .appeal-hero .band {
@@ -23133,8 +23136,8 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-hero-panel {
-  background: #1a2a3a;
-  border: 2px solid #8b3a3a;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(208, 174, 103, 0.44);
   border-radius: 8px;
   box-shadow: 0 24px 55px rgba(0, 0, 0, 0.24);
   display: grid;
@@ -23173,7 +23176,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-tabs {
-  border-bottom: 2px solid rgba(212, 175, 55, 0.5);
+  border-bottom: 2px solid var(--line);
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -23184,7 +23187,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   background: transparent;
   border: 0;
   border-bottom: 3px solid transparent;
-  color: rgba(255, 255, 255, 0.58);
+  color: var(--muted);
   cursor: pointer;
   font-family: var(--font-ui);
   font-size: 14px;
@@ -23193,8 +23196,8 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-tabs button.is-active {
-  border-bottom-color: #d4af37;
-  color: #ffffff;
+  border-bottom-color: var(--gold);
+  color: var(--ink);
 }
 
 .appeal-tab-panel {
@@ -23211,7 +23214,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-section-head h2 {
-  color: #ffffff;
+  color: var(--ink);
   font-family: var(--font-zh-editorial);
   font-size: clamp(26px, 3.6vw, 38px);
   line-height: 1.18;
@@ -23219,7 +23222,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-section-head p {
-  color: rgba(255, 255, 255, 0.68);
+  color: var(--muted);
   font-size: 15px;
   line-height: 1.7;
   margin: 0;
@@ -23236,9 +23239,16 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 .appeal-pricing-grid article,
 .appeal-accordion details,
 .appeal-process li {
-  background: #1a2a3a;
-  border: 2px solid rgba(139, 58, 58, 0.82);
+  background: var(--appeal-card);
+  border: 1px solid var(--line);
   border-radius: 8px;
+  box-shadow: var(--shadow);
+  color: var(--ink);
+}
+
+.appeal-card-grid article,
+.appeal-pricing-grid article {
+  border-top: 3px solid var(--gold);
 }
 
 .appeal-card-grid article {
@@ -23247,7 +23257,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
 .appeal-card-grid b,
 .appeal-process b {
-  color: #d4af37;
+  color: var(--gold);
   display: block;
   font-family: Georgia, serif;
   font-size: 24px;
@@ -23257,7 +23267,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
 .appeal-card-grid strong,
 .appeal-process strong {
-  color: #ffffff;
+  color: var(--ink);
   display: block;
   font-family: var(--font-zh-editorial);
   font-size: 20px;
@@ -23269,7 +23279,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 .appeal-process span,
 .appeal-pricing-grid p,
 .appeal-promise span {
-  color: rgba(255, 255, 255, 0.68);
+  color: var(--muted);
   font-size: 14px;
   line-height: 1.65;
 }
@@ -23298,32 +23308,32 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-accordion summary strong {
-  color: #ffffff;
+  color: var(--ink);
   font-family: var(--font-zh-editorial);
   font-size: 19px;
 }
 
 .appeal-accordion summary span {
-  color: #d4af37;
+  color: var(--gold);
   font-size: 13px;
   line-height: 1.45;
 }
 
 .appeal-accordion p {
-  border-top: 1px solid rgba(212, 175, 55, 0.22);
+  border-top: 1px solid var(--line);
   margin: 0;
   padding: 0 20px 18px;
 }
 
 .appeal-expert-profile {
-  border-top: 1px solid rgba(212, 175, 55, 0.22);
+  border-top: 1px solid var(--line);
   display: grid;
   gap: 0;
   padding: 0 20px 20px;
 }
 
 .appeal-expert-profile div {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--line);
   display: grid;
   gap: 14px;
   grid-template-columns: 92px minmax(0, 1fr);
@@ -23336,7 +23346,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-expert-profile span {
-  color: #d4af37;
+  color: var(--gold);
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -23345,7 +23355,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
 .appeal-expert-profile p {
   border-top: 0;
-  color: #d9e0e7;
+  color: var(--muted);
   line-height: 1.75;
   margin: 0;
   padding: 0;
@@ -23384,12 +23394,12 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-pricing-grid article.featured {
-  border-color: #d4af37;
+  border-color: var(--gold);
   box-shadow: 0 18px 42px rgba(212, 175, 55, 0.14);
 }
 
 .appeal-pricing-grid strong {
-  color: #ffffff;
+  color: var(--ink);
   display: block;
   font-family: var(--font-zh-editorial);
   font-size: 24px;
@@ -23397,25 +23407,179 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 }
 
 .appeal-pricing-grid b {
-  color: #d4af37;
+  color: var(--gold);
   display: block;
   font-size: 28px;
   margin-top: 12px;
 }
 
 .appeal-promise {
-  background: #111f30;
-  border-left: 5px solid #d4af37;
+  background: var(--appeal-soft);
+  border-left: 5px solid var(--gold);
   margin-top: 18px;
   padding: 18px 20px;
 }
 
 .appeal-promise strong {
-  color: #ffffff;
+  color: var(--ink);
   display: block;
   font-family: var(--font-zh-editorial);
   font-size: 20px;
   margin-bottom: 6px;
+}
+
+.appeal-subhead {
+  margin-top: 40px;
+}
+
+.appeal-case-grid,
+.appeal-country-grid,
+.appeal-mentor-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.appeal-case-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.appeal-country-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.appeal-mentor-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.appeal-case,
+.appeal-country,
+.appeal-mentor {
+  background: var(--appeal-card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.appeal-case {
+  background: var(--appeal-soft);
+  padding: 18px;
+}
+
+.appeal-case .tag {
+  background: var(--gold);
+  border-radius: 999px;
+  color: var(--navy);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+
+.appeal-case p {
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.appeal-case .ctx {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.appeal-case .act {
+  color: var(--muted);
+  margin: 8px 0;
+}
+
+.appeal-case .out {
+  color: var(--green);
+  font-weight: 800;
+}
+
+.appeal-country {
+  padding: 16px;
+}
+
+.appeal-country b {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.appeal-country p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 8px 0 0;
+}
+
+.appeal-mentor {
+  border-left: 3px solid var(--gold);
+  padding: 20px;
+}
+
+.appeal-mentor header {
+  align-items: baseline;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.appeal-mentor header strong {
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.appeal-mentor header em {
+  color: var(--gold);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.appeal-mentor .bg {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+
+.appeal-mentor ul {
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.appeal-fineprint {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+  margin-top: 14px;
+}
+
+.appeal-process button > span {
+  grid-column: 3;
+}
+
+.appeal-process .node {
+  color: var(--gold);
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 2px;
+}
+
+.appeal-process .ex {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  margin-top: -8px;
 }
 
 @media (max-width: 900px) {
@@ -23432,6 +23596,15 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   .appeal-accordion summary,
   .appeal-process button {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .appeal-process button > span {
+    grid-column: auto;
+  }
+
+  .appeal-mentor header {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .appeal-expert-profile div {
