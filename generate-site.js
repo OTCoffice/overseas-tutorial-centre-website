@@ -1822,6 +1822,76 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "ai-ppt-prompt-engineering-7-templates",
+    title: "Prompt Engineering for AI Slides: Seven Structured Prompts That Beat “Make Me a PPT”",
+    date: "2026-06-05",
+    category: "AI Productivity",
+    column: "culture",
+    kicker: "AI · Prompt engineering · Presentation",
+    author: "留學導報編輯部",
+    summary: "A practical Chinese-language guide to seven structured prompts for using ChatGPT and other AI tools to plan presentations with clearer story flow, audience fit, research depth and speaker notes.",
+    titleZh: "AI 時代的提示工程：別再對 ChatGPT 說「做個 PPT」，用這 7 個專業指令讓輸出升級",
+    summaryZh: "一句「幫我做個 PPT」通常只會得到平淡大綱。本文整理 7 類更專業的 AI 簡報提示詞，涵蓋 TED 風格敘事、深度研究、初學者解釋、融資路演、故事結構、董事會簡報與完整演講稿，幫助讀者用更少試錯、更少 token，得到更可用的簡報初稿。",
+    relatedReadings: [
+      "portfolio-evidence-pack-marketing-media-business",
+      "admissions-email-clarification-pack-uk-aus",
+      "transcript-grading-context-note-uk-aus-applications"
+    ],
+    resources: [
+      ["OpenAI Prompt engineering guide", "https://platform.openai.com/docs/guides/prompt-engineering"]
+    ],
+    factCheckNotes: [
+      "本文為提示工程與 AI 工具使用的一般性教育內容；示例 prompt 需按具體工具、模型版本、受眾和資料來源調整。",
+      "文中提及的社交媒體分享由編輯部按讀者投稿素材整理；未附原帖鏈接時，請勿將本文視作對該貼文全部內容的逐字引用或官方背書。",
+      "涉及真實數據、案例、專家引用或商業預測的簡報，應在輸出後人工核查來源，不應直接把 AI 生成內容作為事實定稿。"
+    ],
+    body: [
+      {
+        heading: "1) Why “make me a PPT” is usually too weak",
+        paragraphs: [
+          "A vague prompt usually produces a vague slide outline. Better results come from telling the model the audience, purpose, story structure, evidence requirements, visual direction and delivery format.",
+          "For presentation work, prompt engineering is less about clever wording and more about supplying a useful brief: what the deck must achieve, who will read it, and how the story should move."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼不要再只說「做個 PPT」",
+        paragraphs: [
+          "在 AI 工具普及的今天，許多人已經習慣用 ChatGPT 輔助工作，但輸入一句「幫我做個關於 XX 的 PPT」往往只得到平淡、缺乏結構的結果。近期 X（Twitter）用戶 @0xluffy_eth 分享的一則貼文，精準點出了問題核心：命令弱，結果也弱。",
+          "真正有效的簡報 prompt，不只是要求 AI 產出幾頁內容，而是把角色、受眾、故事弧線、資料要求、視覺建議和演講稿一起交代清楚。這樣做的好處很現實：少來回、少改稿，也更省 token。"
+        ]
+      },
+      {
+        heading: "二、7 個可直接替換主題的實戰 Prompt",
+        paragraphs: [
+          "1. 完整演示文稿生成器（TED 風格）：像全球演示文稿設計師一樣行動。創建「主題」的完整演示文稿。包含標題幻燈片、要點、示例、數據、隱喻、視覺建議和有力結尾。按照 TED 級別的故事流程結構。",
+          "2. 深度研究演示文稿：基於「主題」的深度研究創建完整演示文稿。加入真實統計數據、案例研究、專家引用、實用洞察和示例。每張幻燈片教育性強且有可靠來源支撐。最後附參考文獻。",
+          "3. 簡化敘述演示文稿：為初學者創建「主題」演示文稿。將複雜概念分解為簡單說法、比喻和逐步邏輯，使內容清晰到完全沒有背景的人也能理解。",
+          "4. 商業／投資演示文稿：為我的商業創意「描述」創建融資風格的完整路演。必須包含問題、解決方案、市場規模、產品特點、商業模式、競爭優勢、財務預測、團隊和融資演講稿。",
+          "5. 故事講述大師演示文稿：使用故事結構創建「主題」演示文稿：鉤子 → 衝突 → 旅程 → 洞察 → 轉變 → 行動號召。使幻燈片有情緒、有記憶點、有說服力，並附演講者筆記和舞台提示。",
+          "6. 企業演示文稿（董事會風格）：以正式企業風格創建「主題」演示文稿。使用專業語言、結構化要點、圖表、表格、SWOT 分析、趨勢、預測和數據驅動建議，適合董事會和高管會議。",
+          "7. 完整演示文稿 + 演講稿組合：創建「主題」完整演示文稿和完整演講稿。確保文本與幻燈片的語氣、節奏和情感流一致，包含停頓、強調點、故事提示和演講指導。"
+        ]
+      },
+      {
+        heading: "三、進階技巧：把 prompt 寫成簡報 brief",
+        paragraphs: [
+          "最省 token 的方法，不是一次丟很多模糊要求，而是先把限制條件寫清楚：幻燈片數量、受眾、使用場景、輸出語言、是否需要表格、是否需要演講稿、是否要附資料來源。",
+          "如果簡報要進入真實商務場景，還應加入品牌規範，例如主色、字體、Logo、語氣、版式偏好，以及圖表類型。這能避免 AI 反覆生成不符合品牌的內容。",
+          "完成初稿後，可以再把內容轉入 Gamma、Beautiful.ai、Plus AI 或其他簡報工具進行視覺排版；但資料、數字、引用和案例仍需要人工核對。"
+        ]
+      },
+      {
+        heading: "四、導報結論：會用 AI，不如會指揮 AI",
+        paragraphs: [
+          "在 AI 時代，真正的競爭力不是「會不會用 AI」，而是「能不能駕馭 AI」。好的 prompt 就像給 AI 一份專業設計藍圖，能把泛泛而談的大綱，變成可修改、可演講、可交付的簡報草案。",
+          "下次需要做 PPT 時，不妨先不要急著輸入「做個 PPT」。先選定上面 7 類模板之一，替換主題、受眾和場景，再讓 AI 產出第一版。這一步做好，後面的修改會輕很多。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "hong-kong-ttps-us-universities-2026",
     title: "Hong Kong Top Talent Pass Scheme 2026: Why U.S. University Graduates Should Re-check the Eligible University List",
     date: "2026-06-05",
