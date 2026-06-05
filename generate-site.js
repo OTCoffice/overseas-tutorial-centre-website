@@ -1822,6 +1822,95 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "othm-uk-qualifications-global-career-pathways",
+    title: "OTHM UK Qualifications: Ofqual-Regulated Pathways for Global Study and Career Progression",
+    date: "2026-06-05",
+    category: "OTHM Qualifications",
+    column: "study",
+    kicker: "OTHM · UK qualifications · Global progression",
+    author: "留學導報編輯部",
+    summary: "A short Overseas Study Review briefing on why OTHM qualifications matter for approved centres, learners and international progression: Ofqual-regulated standards, practical career-focused learning, university progression pathways and employability relevance.",
+    titleZh: "OTHM 英國資格為什麼值得重視：Ofqual 監管、全球認可與職業進階路線",
+    summaryZh: "英國資格因品質、可信度與行業銜接而在全球教育市場具有辨識度。本文以 OTHM 為例，整理 approved centres 與學員為何重視 Ofqual 監管標準、國際認可、實務導向學習、升讀大學路線及職業發展價值。",
+    relatedReadings: [
+      "otc-othm-centre-renewal-2026",
+      "btec-othm-assignment-evidence-log-checklist",
+      "othm-credits-australia-advanced-entry",
+      "othm-health-social-care-australia-vet-comparison"
+    ],
+    resources: [
+      ["OTHM Qualifications — Who We Are", "https://othm.org.uk/who-we-are"],
+      ["OTHM Qualifications — Why OTHM", "https://othm.org.uk/why"],
+      ["OTHM Qualifications — Qualifications", "https://othm.org.uk/qualification"],
+      ["OTHM Logo Usage Policy and Guidelines", "https://othm.org.uk/doc/policies/Logo%20Usage%20Policy%20and%20Guidelines%20v.2.0.pdf"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-05。OTHM 官方介紹其為英國 awarding organisation，受 Ofqual 監管；具體 qualification、level、credit、assessment 與 progression 應以 OTHM 官網最新規格文件為準。",
+      "本文所稱『全球認可』指英國受監管資格在國際升學、職業培訓與中心合作中的辨識度；不等於任何大學、僱主、簽證或專業機構必然接受。",
+      "OTHM logo 使用須遵守 OTHM logo usage policy。本文為 OTC 導報資訊頁面展示與中心資料語境使用，不應被解讀為額外授權、官方背書或結果承諾。"
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic" style="padding:22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <div style="background:#fff; border:1px solid rgba(20,32,51,.14); border-radius:12px; padding:14px 18px; min-width:190px;">
+          <img src="/assets/brand/othm-logo.png" alt="OTHM Qualifications logo" style="display:block; width:180px; max-width:48vw; height:auto;">
+        </div>
+        <div style="flex:1; min-width:240px;">
+          <h2 style="margin:0 0 8px; color:#142033;">UK Qualifications · Global Pathways</h2>
+          <p style="margin:0; color:#536070;">Ofqual-regulated standards, practical learning outcomes and progression-focused qualification design for approved centres and learners.</p>
+        </div>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) Why OTHM qualifications matter",
+        paragraphs: [
+          "UK qualifications are recognised worldwide for quality, credibility and alignment with workforce needs. OTHM qualifications sit within this wider UK regulated-qualification ecosystem and are designed to support practical academic and professional progression.",
+          "For approved centres, the value is not only the certificate title. It is the ability to deliver structured learning pathways with assessment standards, quality assurance expectations and progression relevance."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼 OTHM 英國資格值得重視",
+        paragraphs: [
+          "英國資格在全球教育市場長期具有辨識度，核心原因在於品質、可信度，以及與當代職場和行業需求之間的連接。對希望建立國際課程、職業進階或升學銜接的中心而言，OTHM 提供了一條較清晰的 UK qualifications 路線。",
+          "Partnering with OTHM 的價值，不只是多一個證書名稱，而是讓 approved centres 能夠提供受監管、有規格、有學習成果、有升學與職業語境的英國資格。這類路線對全球學員尤其重要：學習不只停留在理論，而要能轉化為可理解、可評估、可銜接的能力。"
+        ]
+      },
+      {
+        heading: "二、OTHM qualifications 的核心優勢",
+        paragraphs: [
+          "第一，Ofqual-regulated and quality-assured standards。受監管資格的意義，在於課程設計、評估、質量保證與學習成果需要放在可審核的框架內，而不是單純由單一機構自由命名。",
+          "第二，internationally recognised UK qualifications。英國資格的國際辨識度，能幫助學員在跨國升學、職業發展與履歷呈現中形成更清晰的資格語言。",
+          "第三，industry-relevant learning and professional skills development。OTHM qualification 的實務價值，通常體現在管理、健康與社會護理、IT、商業、教育、旅遊酒店、物流供應鏈、項目管理等領域的職業能力建構。",
+          "第四，progression pathways to university degree programmes。許多學員選擇 OTHM，不只是為了完成單一 diploma，而是希望把 Level 3 至 Level 7 等不同階段，放進更長期的本科、top-up、碩士或 MBA progression 規劃中。",
+          "第五，enhanced employability and career advancement opportunities。對在職人士或轉型學員而言，受監管資格能提供更正式的學習紀錄，也有助於向僱主、教育合作方或後續院校解釋自己的學習階段與能力結構。"
+        ]
+      },
+      {
+        heading: "三、對 approved centres 的意義：不是賣課，而是建質量體系",
+        paragraphs: [
+          "對中心而言，加入 OTHM network 的重點，不應只是招生宣傳，而是建立一套可持續的學術交付能力：教師配置、學員支持、作業指導、學術誠信、內部質量保證、資料留存與進度追蹤，都會影響 learner achievement。",
+          "高質量中心需要把 qualification 當成一個完整教育項目來運營：從入學評估、學習計劃、作業反饋到 progression advice，每一步都要能讓學員明白自己正在學什麼、為什麼學、學完如何銜接。"
+        ]
+      },
+      {
+        heading: "四、對學員的意義：國際路線需要可被理解的資格語言",
+        paragraphs: [
+          "對學員而言，OTHM 的吸引力在於它把英國受監管資格、職業能力和升學銜接放在同一個框架中。這對國際學生尤其有用，因為跨國申請時，院校、僱主和合作方通常需要看懂 level、credits、learning outcomes 和 assessment evidence。",
+          "但導報也提醒：任何 qualification 的實際用途，都要按目標國家、目標院校、專業方向、職業資格要求和最新政策逐項核對。不能把『國際認可』理解為所有場景自動接受，更不能替代具體大學或專業機構的書面確認。"
+        ]
+      },
+      {
+        heading: "五、導報結論：用 OTHM 建立長期教育與職業進階路線",
+        paragraphs: [
+          "在全球教育競爭加速的背景下，OTHM qualifications 的價值在於：以 UK regulated qualification 為基礎，將 academic excellence、practical learning、career-focused pathways 和 professional progression 串成一條可規劃的路線。",
+          "對 approved centres 來說，這是建立可信教育供給與質量管理的機會；對 learners 來說，這是把學習成果轉化為升學、就業和長期職業發展語言的工具。真正重要的，不是把 qualification 當成一句宣傳口號，而是把它落實為高質量教學、清晰評估和負責任的 progression support。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "ai-ppt-prompt-engineering-7-templates",
     title: "Prompt Engineering for AI Slides: Seven Structured Prompts That Beat “Make Me a PPT”",
     date: "2026-06-05",
