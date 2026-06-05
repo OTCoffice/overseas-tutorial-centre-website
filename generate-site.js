@@ -1822,6 +1822,131 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "hong-kong-ttps-us-universities-2026",
+    title: "Hong Kong Top Talent Pass Scheme 2026: Why U.S. University Graduates Should Re-check the Eligible University List",
+    date: "2026-06-05",
+    category: "Hong Kong Talent Admission",
+    column: "migration",
+    kicker: "Hong Kong · TTPS · U.S. universities",
+    author: "留學導報編輯部",
+    summary: "Hong Kong’s Top Talent Pass Scheme (TTPS) has updated its aggregate list of eligible universities for 2026. The list now contains 200 eligible universities/institutions, giving many U.S. bachelor’s degree graduates a no-prior-job-offer route to explore Hong Kong under Categories B or C, subject to the detailed rules.",
+    titleZh: "美國55所大學畢業生香港身份直拿！香港入境處最新「高才通」名單更新，留美黨大勝",
+    summaryZh: "香港高端人才通行證計劃（高才通／TTPS）2026 年合資格大學綜合名單已更新至 200 所院校。對留美本科畢業生而言，約 55 所美國院校進入名單，意味著符合 B 類或 C 類條件者可在無需事先取得香港工作 offer 的情況下申請赴港發展。本文按官方口徑整理三大申請路徑、留美畢業生重點、常見誤區與文件準備清單。",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "admissions-email-clarification-pack-uk-aus",
+      "transcript-grading-context-note-uk-aus-applications",
+      "foundation-vs-international-year-one-vs-direct-entry-uk-aus"
+    ],
+    resources: [
+      ["香港人才服務辦公室：2026 高才通合資格大學綜合名單更新", "https://www.hkengage.gov.hk/zh-CN/media/news/top-talent-pass-scheme-aggregate-list-of-eligible-universities-updated"],
+      ["Immigration Department: Top Talent Pass Scheme FAQ", "https://www.immd.gov.hk/eng/faq/TTPS.html"],
+      ["Immigration Department: Top Talent Pass Scheme", "https://www.immd.gov.hk/eng/services/visas/TTPS.html"],
+      ["Immigration Department: Aggregate List of Eligible Universities", "https://www.immd.gov.hk/pdf/aggregate_list.pdf"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-05。HKTE 2026-01-02 公告顯示，高才通合資格大學/院校綜合名單已由 199 所增至 200 所。具體院校、名稱及適用資格應以香港人才服務辦公室及入境處最新公布的 aggregate list 為準。",
+      "本文使用『約 55 所美國院校』作為面向留美讀者的導報整理口徑；完整名單及院校英文名請以官方 PDF 為準。B/C 類要求的是合資格大學本科學位，單靠碩士或博士而沒有該名單院校本科學位，通常不能直接按 B/C 類申請。",
+      "高才通不是永久居留保證，也不是『自動拿身份』。它是入境及逗留安排，申請人仍需符合類別條件、遞交真實文件，並在後續續簽及通常居住安排中滿足相關要求。"
+    ],
+    body: [
+      {
+        heading: "1) What changed in the 2026 TTPS list",
+        paragraphs: [
+          "Hong Kong Talent Engage announced on 2 January 2026 that the updated aggregate list of eligible universities under the Top Talent Pass Scheme had been published, with the number of eligible universities/institutions increasing from 199 to 200.",
+          "For U.S. university graduates, the practical point is not a single ranking label, but whether the bachelor’s degree-awarding institution appears on the official aggregate list. Many well-known U.S. institutions remain within the list, which can make Categories B and C highly relevant for U.S.-educated applicants."
+        ]
+      },
+      {
+        heading: "2) Categories B and C: why bachelor’s degree matters",
+        paragraphs: [
+          "Category B is for degree graduates of eligible universities with at least three years of full-time work experience over the past five years immediately preceding the application date. Category C is for degree graduates of eligible universities in the past five years with less than three years of work experience, subject to an annual quota.",
+          "The Hong Kong Immigration Department FAQ makes an important distinction: for Categories B and C, applicants need a bachelor’s degree from an eligible university. A master’s or doctoral degree alone does not replace this bachelor’s-degree requirement."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、2026 名單更新：200 所合資格大學，留美畢業生要重新核對",
+        paragraphs: [
+          "香港高端人才通行證計劃（Top Talent Pass Scheme，簡稱高才通／TTPS）在 2026 年繼續成為全球高學歷及高收入人才赴港發展的重要入口。香港人才服務辦公室於 2026 年 1 月 2 日公布，最新合資格大學綜合名單已發布，名單內合資格大學／院校數目由 199 所增至 200 所。",
+          "對留美學生和畢業生來說，真正關鍵不是『排名好不好聽』，而是你的本科授予院校是否在官方 aggregate list 內。按官方綜合名單及留美讀者常用口徑整理，約 55 所美國院校進入名單；常春藤、頂尖理工、加州大學系統多所分校，以及若干醫學、設計和專門院校均在覆蓋範圍內。",
+          "需要先說清楚：所謂『直拿』不是不審核、不看條件，也不是直接永久居留；更準確的理解是，符合 A/B/C 類條件後，可以在無需事先取得香港僱主 offer 的情況下申請高才通，先取得赴港探索工作與生活機會的入境安排。"
+        ]
+      },
+      {
+        heading: "二、高才通三大申請路徑：A 類看收入，B/C 類看合資格本科",
+        paragraphs: [
+          "A 類面向高收入人士：在緊接申請前一年，全年收入達港幣 250 萬元或以上，或等值外幣。A 類不以畢業院校作為核心門檻，首次逗留安排較長，適合已有高收入紀錄的專業人士、企業高管、創業者或高收入自僱人士。",
+          "B 類是留美畢業生最常見的成熟路線：申請人須畢業於合資格大學名單內院校並取得相當於香港認可本科學位的學歷，同時在緊接申請前五年內累積至少三年全職工作經驗。這條路線適合畢業多年、有北美或全球工作履歷、但暫時未拿到香港 offer 的申請人。",
+          "C 類則更偏向近年本科畢業生：申請人須在申請前五年內從合資格大學取得本科學位，且工作經驗少於三年，並受年度配額限制，名額先到先得。這就是為什麼很多留美新鮮人會把高才通視為『先去香港再找機會』的快速通道。"
+        ]
+      },
+      {
+        heading: "三、B/C 類的核心誤區：不是碩博就行，必須看本科授予院校",
+        paragraphs: [
+          "入境處 FAQ 對 B/C 類有一個很容易被忽略的點：如果只是在合資格大學取得碩士或博士，但本科不是由合資格大學授予，通常不能單靠碩博學位申請 B 類或 C 類。官方口徑要求的是合資格大學本科學位，且學位水平須相當於香港認可的學士學位。",
+          "此外，繼續教育學院、分校、extension school、subsidiary school、網課、夜校、自學、兼讀等形式也可能不符合 B/C 類要求。留美畢業生在準備材料時，不應只看學校品牌，而要核對學位授予機構、課程形式、證書與 transcript 上的英文名稱是否與官方名單一致。",
+          "如果你的美國本科是 joint programme，也要注意入境處 FAQ 對 joint programmes 的說明：相關授予學位的院校均需在合資格名單內，且申請人仍要符合相應類別的其他條件。"
+        ]
+      },
+      {
+        heading: "四、2026 美國合資格院校：哪些類型最值得留意",
+        paragraphs: [
+          "第一類是常春藤及頂尖綜合大學，例如 Harvard、Yale、Princeton、Columbia、University of Pennsylvania、Brown、Dartmouth、Cornell 等。這些院校對 B/C 類申請的辨識度很高，但仍要以官方 PDF 名單及學位文件名稱為準。",
+          "第二類是理工強校及研究型大學，例如 MIT、Caltech、Carnegie Mellon、Georgia Tech、Purdue、UIUC、Johns Hopkins、Duke、Northwestern、Vanderbilt、Rice、Emory、NYU、USC、University of Texas at Austin、University of Maryland, College Park、Penn State、University of Pittsburgh、UNC Chapel Hill 等。",
+          "第三類是加州大學系統與專門院校。UC Berkeley、UCLA、UC San Diego、UC Davis、UC Irvine、UC Santa Barbara 等多所分校常被留美家庭重點關注；此外，Icahn School of Medicine at Mount Sinai、Rhode Island School of Design、Parsons School of Design 等專門院校也值得相關背景申請人核對。本文列舉僅作導報整理，完整名單請以官方 aggregate list 為準。"
+        ]
+      },
+      {
+        heading: "五、為什麼說留美黨『大勝』：免 offer、時間窗口與香港市場",
+        paragraphs: [
+          "高才通對留美畢業生最有吸引力的一點，是不要求申請前先取得香港僱主 offer。這和很多傳統工作簽證很不一樣：申請人可以先以高才通赴港，再探索金融、科技、諮詢、教育、創意、科研或大灣區相關機會。",
+          "B 類適合已有三年以上工作經驗的人士，C 類則給近五年本科畢業且經驗不足三年的申請人一個更早進場的窗口。對剛從美國本科畢業、還在比較美國、香港、新加坡、英國等地發展路線的人來說，C 類尤其有戰略價值。",
+          "香港本身具備國際金融中心、低稅率、普通法制度、靠近內地與大灣區等優勢。對英文能力、國際教育背景和跨文化溝通能力較強的留美畢業生而言，高才通的價值不只是簽證本身，而是給了一個低摩擦的市場試跑窗口。"
+        ]
+      },
+      {
+        heading: "六、申請文件：先把本科、經驗與身份材料對齊",
+        paragraphs: [
+          "B/C 類申請前，建議先準備四組材料：第一，本科學位證書與正式 transcript；第二，護照、照片及基本身份文件；第三，若走 B 類，準備過去五年內至少三年全職工作經驗證明，包括 employment letters、合同、稅單、薪資紀錄或自僱證明；第四，若學校名稱、學位名稱或個人姓名有不同拼寫，提前準備 name note 或官方說明。",
+          "C 類申請人要特別注意畢業時間和年度配額。官方口徑是近五年內本科畢業且工作經驗少於三年，並受年度配額限制；若配額已滿、畢業時間超過五年或工作經驗滿三年，申請策略就要重新判斷。",
+          "線上遞交前，建議把官方 aggregate list、自己的學位證書、transcript、院校英文名稱截圖和申請類別要求放在同一個 evidence folder 裡。這不是為了堆文件，而是避免因名稱不一致、學位層級不清、工作經驗日期不連續而被要求補件。"
+        ]
+      },
+      {
+        heading: "七、QMAS 優才：碩博與高學歷人士的另一條比較線",
+        paragraphs: [
+          "如果申請人持有碩士或博士學位，尤其是教育、金融、科技、工程、醫療、數據、創意或研究背景，也可同步研究優秀人才入境計劃（Quality Migrant Admission Scheme，QMAS）。QMAS 與高才通不是同一套制度，評估邏輯、材料與競爭方式不同。",
+          "高才通的 B/C 類更像是以合資格本科院校和工作經驗建立快速入口；QMAS 則會更綜合地看年齡、學歷、語言、工作經驗、專業背景、人才清單等因素。對留美黨來說，真正成熟的策略不是只盯一個計劃，而是把 TTPS、QMAS、香港工作 offer、家庭安排和長期居留目標放在一起比較。",
+          "若你是美國本科 + 碩士／博士，或本科不在名單但研究生背景很強，更應該把 QMAS 和其他香港入境計劃一併評估，而不是誤以為高才通是唯一入口。"
+        ]
+      },
+      {
+        heading: "八、導報提醒：核對官方名單，不要只看網絡轉發表",
+        paragraphs: [
+          "高才通名單是動態綜合名單，基於過去五年四大世界大學排名，以及酒店、內地院校、藝術設計等特定補充口徑形成。2026 年增至 200 所後，網絡上會出現很多『美國 55 所』、『某校新增／移除』的轉發表，但真正可用的仍然是香港人才服務辦公室和入境處官方文件。",
+          "申請前請至少做三個核對：一是院校是否在最新 aggregate list 內；二是你取得的是不是該院校授予的本科學位；三是你的申請類別是否與畢業時間、工作經驗和配額狀態一致。這三點沒有核清，再漂亮的學校名字也可能在申請中變成補件風險。",
+          "最後，高才通不是永久居留保證。獲批後的逗留、續簽、就業、家庭成員安排和之後通常居住滿七年申請永久性居民身份，都需要按香港入境處最新政策和個人實際情況處理。"
+        ]
+      }
+    ],
+    sidebar: {
+      title: "本文速讀",
+      cards: [
+        ["2026 名單", "200 所院校", "HKTE 公告：合資格大學/院校由 199 所增至 200 所。"],
+        ["留美重點", "約 55 所美國院校", "常春藤、頂尖理工、UC 系統多所分校及若干專門院校。"],
+        ["B/C 類核心", "本科學位", "B/C 類重點是合資格大學本科；單靠碩博通常不替代本科要求。"]
+      ],
+      reminders: [
+        "先核對官方 aggregate list，不只看網絡轉發名單。",
+        "B 類需過去五年內至少三年全職工作經驗。",
+        "C 類針對近五年本科畢業且工作經驗少於三年者，受年度配額限制。",
+        "高才通不是永久居留保證；後續續簽與永居仍需按入境處規則處理。"
+      ]
+    }
+  },
+  {
     slug: "admissions-email-clarification-pack-uk-aus",
     title: "Emailing Admissions (UK/Australia): A Simple Clarification Pack That Gets Useful Answers",
     date: "2026-06-01",
