@@ -1822,6 +1822,107 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "othm-social-care-aged-care-career-progression-route",
+    title: "Choosing Social Care and Aged Care: A Career-Progression Route Using OTHM Health and Social Care Qualifications",
+    date: "2026-06-05",
+    category: "OTHM Qualifications",
+    column: "study",
+    kicker: "OTHM · Social Care · Aged Care",
+    author: "留學導報編輯部",
+    summary: "A practical briefing for learners considering social care and aged care as a career-progressive route, using OTHM Health and Social Care qualifications as a structured learning pathway while keeping employability, ethics, safeguarding and progression planning in view.",
+    titleZh: "選擇 Social Care／老年護理：用 OTHM 英國資格建立職業進取路線",
+    summaryZh: "如果希望把英國資格、職業能力和長期就業方向結合起來，Social Care／老年護理是一條值得認真規劃的路線。本文從 OTHM Health and Social Care 資格出發，梳理入門、進階、管理與長期職業發展的學習框架。",
+    relatedReadings: [
+      "othm-uk-qualifications-global-career-pathways",
+      "othm-health-social-care-australia-vet-comparison",
+      "othm-credits-australia-advanced-entry",
+      "btec-othm-assignment-evidence-log-checklist"
+    ],
+    resources: [
+      ["OTHM Health and Social Care Qualifications", "https://othm.org.uk/subject/health-and-social-care"],
+      ["GOV.UK Care Workforce Pathway for Adult Social Care", "https://www.gov.uk/government/publications/care-workforce-pathway-for-adult-social-care/"],
+      ["Skills for Care", "https://www.skillsforcare.org.uk/"],
+      ["OTHM Qualifications — Why OTHM", "https://othm.org.uk/why"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-05。OTHM Health and Social Care qualification 名稱、level、credit、entry requirements 和 assessment 應以 OTHM 官方最新規格文件為準。",
+      "英國 adult social care workforce pathway 由官方及行業機構持續更新；本文只作職業進取與學習規劃參考，不構成僱傭、簽證、專業註冊或薪酬承諾。",
+      "老年護理相關職位涉及 safeguarding、mental capacity、communication、care planning、privacy 和 professional boundaries；學員應按所在地法規與僱主要求完成相應培訓與背景審查。"
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic" style="padding:22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <div style="background:#fff; border:1px solid rgba(20,32,51,.14); border-radius:12px; padding:14px 18px; min-width:190px;">
+          <img src="/assets/brand/othm-logo.png" alt="OTHM Qualifications logo" style="display:block; width:180px; max-width:48vw; height:auto;">
+        </div>
+        <div style="flex:1; min-width:240px;">
+          <h2 style="margin:0 0 8px; color:#142033;">Social Care / Aged Care Route</h2>
+          <p style="margin:0; color:#536070;">From care values and safeguarding to team leadership, care planning and health-and-social-care management.</p>
+        </div>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) Why social care and aged care can be a progressive route",
+        paragraphs: [
+          "Social care and aged care are not only entry-level support roles. They can develop into a structured career route involving person-centred practice, safeguarding, communication, care planning, team leadership and service management.",
+          "OTHM Health and Social Care qualifications can help learners organise this journey into a clearer qualification pathway, while practical workplace competence still depends on local regulations, employer training and supervised experience."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼選擇 Social Care／老年護理",
+        paragraphs: [
+          "如果一名學員希望選擇一條職業進取路線，而不是只讀一個空泛文憑，Social Care／老年護理值得認真考慮。人口老化、社區照護需求增加、家庭照護壓力上升，使 adult social care 成為很多國家長期需要人才的服務領域。",
+          "這條路線的特點是清楚而務實：從 care assistant、support worker、adult care worker 等基礎職位開始，逐步累積溝通、保障、個人照護、記錄、團隊協作與 care planning 能力，再向 lead worker、senior carer、team leader、care coordinator、deputy manager 或 health and social care management 方向發展。"
+        ]
+      },
+      {
+        heading: "二、OTHM 資格如何放進老年護理職業路線",
+        paragraphs: [
+          "OTHM Health and Social Care qualifications 的價值，在於它能把學習分成可理解的 level 與 learning outcomes。對入門者來說，Level 3 方向可幫助建立健康與社會護理的基本語言，包括 person-centred care、communication、safeguarding、equality、mental health awareness、dementia awareness、physical disability awareness 等。",
+          "當學員進一步希望從一線照護轉向管理、協調或服務質量方向，Level 4、Level 5、Level 6 或 Level 7 的 health and social care management route，就可以被放入長期 progression plan 中。這不是跳過實務經驗，而是把工作經驗、作業證據和管理知識放在同一條路線上。"
+        ]
+      },
+      {
+        heading: "三、第一階段：建立照護價值觀與基礎能力",
+        paragraphs: [
+          "老年護理不是簡單的『照顧老人』。它首先要求學員理解尊嚴、獨立性、選擇權、隱私、風險與福祉。person-centred care 的意思，是把服務使用者視為有歷史、有偏好、有家庭關係、有身心需求的人，而不是只看作任務清單。",
+          "基礎能力包括安全移動、日常生活支援、飲食與水分觀察、溝通、記錄、情緒支持、與家屬和專業人員合作，以及對虐待、忽視、跌倒、失智症、孤獨和 mental capacity 問題保持警覺。這些能力需要課堂學習，也需要在合規工作環境中接受培訓與督導。"
+        ]
+      },
+      {
+        heading: "四、第二階段：從一線照護走向 senior / lead 角色",
+        paragraphs: [
+          "當學員具備一定實務經驗後，下一步不只是做更多工時，而是開始承擔更高層次責任。例如協助新員工、監察 care plan 執行情況、發現服務使用者狀態變化、與護士或社工溝通、整理記錄、參與風險評估與 quality improvement。",
+          "這一階段最需要的能力是 judgement。老年護理現場經常遇到模糊情境：服務使用者拒絕進食、家屬要求與 care plan 不一致、失智症患者情緒波動、跌倒風險升高、藥物提醒與職責邊界不清。好的 senior worker 不是只會完成任務，而是知道何時記錄、何時上報、何時尋求專業支持。"
+        ]
+      },
+      {
+        heading: "五、第三階段：進入管理、質量與服務發展",
+        paragraphs: [
+          "如果學員希望把 social care 作為長期職業，而不是短期工作，就要開始理解管理語言：staff supervision、rota、training record、incident reporting、care quality、complaints handling、service user feedback、CQC 或所在地監管要求、data protection 和 safeguarding governance。",
+          "在這一階段，OTHM health and social care management 方向能支持學員把一線經驗提升為管理思維。未來可考慮的方向包括 deputy manager、registered manager 路線、care coordinator、quality officer、training coordinator、community care service lead 或相關健康與社會護理管理學位銜接。"
+        ]
+      },
+      {
+        heading: "六、學員如何設計自己的職業進取計劃",
+        paragraphs: [
+          "第一步，確認自己是否真的適合照護工作。老年護理需要耐心、邊界感、溝通力、情緒穩定度和對日常細節的尊重。如果只把它看成移民或就業捷徑，往往很難長久。",
+          "第二步，選擇合適的 OTHM level 與學習節奏。剛入門者應先打好 health and social care foundation；已有照護經驗者，可把工作紀錄、培訓證書、反思日誌和作業主題結合起來，形成 evidence-based learning portfolio。",
+          "第三步，提前把職業目標拆成三年路線：第一年建立基礎照護能力，第二年爭取 senior / lead responsibilities，第三年思考管理、進修、top-up 或跨國發展。這樣資格、經驗和職位才會互相支撐。"
+        ]
+      },
+      {
+        heading: "七、導報提醒：老年護理路線要真實、合規、長期",
+        paragraphs: [
+          "Social Care／老年護理是一條有溫度也有壓力的路線。它不是單靠一張證書就能完成的職業轉型，而是需要把 qualification、supervised practice、local training、background check、employer requirements 和 ongoing CPD 放在一起規劃。",
+          "選擇 OTHM 的意義，是幫助學員用英國受監管資格語言整理學習與進階方向；選擇老年護理的意義，則是把這套學習真正落到服務使用者的安全、尊嚴與生活質量上。這兩者結合，才是一條真正可持續的職業進取路線。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-uk-qualifications-global-career-pathways",
     title: "OTHM UK Qualifications: Ofqual-Regulated Pathways for Global Study and Career Progression",
     date: "2026-06-05",
