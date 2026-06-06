@@ -1823,14 +1823,14 @@ function writeHeraldSocialImage(article, locale = "en") {
 const insightsArticles = [
   {
     slug: "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
-    title: "Australia 2026–27 Budget for Small Business: Permanent Instant Asset Write-Off and Startup Cash-Flow Signals",
+    title: "Australia Small Business 2026: Tax Write-Off and Cash Flow",
     date: "2026-06-06",
     category: "Australia Business",
     column: "business",
     kicker: "Australia · Small business · Budget 2026",
     author: "留學導報編輯部",
     summary: "A practical briefing for Chinese-speaking founders and sole traders in Australia on the 2026–27 Budget signals: permanent $20,000 instant asset write-off, tax loss carry-back proposals and future startup loss refundability.",
-    titleZh: "澳洲小生意 2026 預算熱點：$20,000 即時抵扣永久化，創業者現金流怎麼看",
+    titleZh: "澳洲小生意：抵扣與現金流",
     summaryZh: "澳洲 2026–27 Budget 對小生意與自雇人士釋出幾個重要信號：$20,000 instant asset write-off 擬永久化、公司虧損可回溯抵扣，以及初創企業虧損退稅安排。本文用華人創業者能看懂的方式，整理設備投資、現金流、稅務記錄與合規邊界。",
     relatedReadings: ["australia-trust-guide", "anonymous-europe-business-planning", "east-asian-women-australia-migration-whv-citizenship"],
     resources: [
@@ -1893,14 +1893,14 @@ const insightsArticles = [
   },
   {
     slug: "australia-entrepreneur-visa-after-biip-closure-national-innovation-route",
-    title: "After Australia Closed BIIP: What Entrepreneurs Should Understand About the National Innovation Visa",
+    title: "After 188: Australia’s Innovation Visa",
     date: "2026-06-06",
     category: "Australia Business",
     column: "business",
     kicker: "Australia · Entrepreneur visa · Innovation",
     author: "留學導報編輯部",
     summary: "Australia’s BIIP subclass 188 program is closed to new applications. This briefing explains why ordinary small-business migration narratives need to change and how the National Innovation Visa priorities frame promising entrepreneurial activities.",
-    titleZh: "188 商業移民關閉後：澳洲創業者還能怎麼看 National Innovation Visa",
+    titleZh: "188 關閉後：澳洲創業簽證新路",
     summaryZh: "澳洲 Business Innovation and Investment Program（BIIP / 188）已於 2024 年 7 月 31 日關閉新申請。對想靠創業、自雇或開店赴澳的人來說，舊敘事不能再套用。本文整理 BIIP 關閉後的現實、National Innovation Visa 的創業活動口徑，以及普通小生意與高潛力創新項目的分界。",
     relatedReadings: [
       "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
@@ -1967,14 +1967,14 @@ const insightsArticles = [
   },
   {
     slug: "australia-small-business-fair-work-2026-casual-right-to-disconnect",
-    title: "Australia Small Business Employers in 2026: Right to Disconnect, Casual Changes and Hiring Compliance",
+    title: "Australia Hiring Rules for Small Business",
     date: "2026-06-06",
     category: "Australia Business",
     column: "business",
     kicker: "Australia · Small business · Fair Work",
     author: "留學導報編輯部",
     summary: "A compliance-focused briefing for Chinese-speaking small business owners in Australia on the right to disconnect, casual employee changes and basic hiring hygiene.",
-    titleZh: "澳洲小老闆 2026 用工合規：下班不回訊息、casual 轉 permanent 與招聘底線",
+    titleZh: "澳洲小老闆：用工合規重點",
     summaryZh: "從 2025 年 8 月 26 日起，right to disconnect 已適用於 small business employees；同日起，符合條件的小企業 casual 員工也可透過 employee choice pathway 發出轉 full-time 或 part-time 的通知。本文為華人小老闆整理招聘、排班、訊息聯絡與 casual 管理的合規重點。",
     relatedReadings: [
       "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
@@ -2042,14 +2042,14 @@ const insightsArticles = [
   },
   {
     slug: "australia-sole-trader-cyber-resilience-mental-health-2026",
-    title: "Australian Sole Traders in 2026: Cyber Resilience, Mental Health Support and Quiet Business Risks",
+    title: "Australia Sole Trader Survival Checklist",
     date: "2026-06-06",
     category: "Australia Business",
     column: "business",
     kicker: "Australia · Sole trader · Cyber resilience",
     author: "留學導報編輯部",
     summary: "A practical briefing for sole traders and micro-business owners in Australia on cyber resilience support, NewAccess mental health coaching and basic operational safeguards.",
-    titleZh: "澳洲 sole trader 2026 生存清單：網安、心理健康與小生意真正容易翻車的地方",
+    titleZh: "澳洲自雇者：生存清單",
     summaryZh: "很多澳洲自雇者最怕的不是沒有 idea，而是帳戶被盜、客戶資料外洩、現金流斷裂、長期焦慮和沒有人可商量。本文整理 Small Business Cyber Resilience Service、Beyond Blue NewAccess for Small Business Owners，以及 sole trader 應該先做好的低成本風險清單。",
     relatedReadings: [
       "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
