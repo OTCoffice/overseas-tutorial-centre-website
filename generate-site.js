@@ -6580,13 +6580,21 @@ function zhReviewCategoryLabel(category) {
 
 function zhReviewDepartmentCards() {
   return zhReviewColumns.map((column, index) => {
-    const count = insightsArticles.filter((article) => zhReviewColumnForArticle(article).key === column.key).length;
+    const columnArticles = insightsArticles.filter((article) => zhReviewColumnForArticle(article).key === column.key);
     return `
       <article>
         <b>${String(index + 1).padStart(2, "0")}</b>
         <strong>${column.name}</strong>
         <span>${column.scope}</span>
-        <em>${count} 篇</em>
+        <em>${columnArticles.length} 篇</em>
+        ${columnArticles.length ? `<div class="zh-review-department-mini" aria-label="${column.name}文章小索引">
+          ${columnArticles.slice(0, 8).map((article, articleIndex) => `
+            <a href="/zh/insights/${article.slug}/">
+              <i>${String(articleIndex + 1).padStart(2, "0")}</i>
+              <span>${zhReviewTitleHtml(article.titleZh || article.title)}</span>
+            </a>
+          `).join("")}
+        </div>` : ""}
       </article>
     `;
   }).join("");
@@ -6620,47 +6628,45 @@ function zhReviewTitleHtml(title) {
 
 function zhReviewListContent() {
   return `
-    <div class="zh-editorial-desk">
+    <div class="zh-review-edition-panel">
       <div>
-        <span>Editor's Note</span>
-        <strong>主編歡迎詞</strong>
-        <p>歡迎來到留學導報。這裡不做碎片資訊堆放，而把升學、移居、財務與職業路線整理成可以反覆查閱的中文出版頁面。讀者可以先掃欄目，再選文章深入閱讀。</p>
+        <span>Current Issue</span>
+        <strong>本期導讀</strong>
+        <p>本期按六個固定版面整理：留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化。文章不再集中堆成長索引，而是收進下方 01-06 欄目內的小字行列，方便日後持續擴充。</p>
       </div>
-      <div class="zh-editorial-actions">
-        <a class="notice" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E7%B7%A8%E8%BC%AF%E9%83%A8%E9%80%9A%E8%A8%8A">編輯部通訊</a>
-        <a class="submit" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E6%AD%A1%E8%BF%8E%E6%8A%95%E7%A8%BF">歡迎投稿</a>
-        <a class="update" href="mailto:office@overseasuk.com?subject=%E8%A8%82%E9%96%B1%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%E6%9B%B4%E6%96%B0">訂閱更新</a>
-        <a class="letter" href="#zh-review-current-directory">本期索引</a>
-      </div>
+      <aside>
+        <b>01-06</b>
+        <em>欄目式閱讀 · 小索引收納 · 長期更新</em>
+      </aside>
     </div>
     <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
+    <p class="zh-review-index-note">文章細目已按 01-06 版面收納於上方欄目卡片內；新增文章會自動歸入相應版面。</p>
     <div class="zh-review-format-strip">
       <span>固定版面：報頭 · 欄目標籤欄 · 頁腳</span>
       <span>正文：分節 · 引言 · 提示框 · 免責聲明</span>
       <span>速查：側欄卡片 · 清單 · 官方資源</span>
       <span>視覺：流程圖 · 對比表 · 數據橫條</span>
     </div>
-    <div class="zh-review-list-head" id="zh-review-current-directory">
-      <span>Current Directory</span>
-      <strong>本期文章索引</strong>
-      <em>${insightsArticles.length} 篇導報文章 · 按最新更新排序</em>
-    </div>
-    <div class="zh-review-list">
-      ${insightsArticles.map((article, index) => `
-        <article class="zh-review-row">
-          <div class="zh-review-row-meta">
-            <b>${String(index + 1).padStart(2, "0")}</b>
-            <time>${article.date.replace(/-/g, ".")}</time>
-            <span>${zhReviewColumnForArticle(article).name}</span>
-          </div>
-          <div class="zh-review-row-body">
-            <h3><a href="/zh/insights/${article.slug}/">${zhReviewTitleHtml(article.titleZh || article.title)}</a></h3>
-            <p>${article.summaryZh || article.summary}</p>
-          </div>
-          <a href="/zh/insights/${article.slug}/">閱讀正文</a>
-        </article>
-      `).join("")}
-    </div>
+  `;
+}
+
+function zhReviewReaderLetter() {
+  return `
+    <section class="band compact-band zh-reader-letter-section">
+      <div class="zh-editorial-desk">
+        <div>
+          <span>Editor's Note</span>
+          <strong>給中文讀者的一封短箋</strong>
+          <p>留學導報面向學生、家長與旅外華人家庭，選取真正需要判斷的題目：申請文件、升學路線、移居安家、財富結構與職業資格。每一篇文章都以可核查、可更新、可分享為基本標準。</p>
+        </div>
+        <div class="zh-editorial-actions">
+          <a class="notice" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E7%B7%A8%E8%BC%AF%E9%83%A8%E9%80%9A%E8%A8%8A">編輯部通訊</a>
+          <a class="submit" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E6%AD%A1%E8%BF%8E%E6%8A%95%E7%A8%BF">歡迎投稿</a>
+          <a class="update" href="mailto:office@overseasuk.com?subject=%E8%A8%82%E9%96%B1%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%E6%9B%B4%E6%96%B0">訂閱更新</a>
+          <a class="letter" href="mailto:office@overseasuk.com">讀者來信</a>
+        </div>
+      </div>
+    </section>
   `;
 }
 
@@ -7296,18 +7302,6 @@ const zhInsights = pageShell({
           <div class="zh-herald-section-line"></div>
           <time>每週整理 · 擇要更新</time>
         </div>
-        <header class="zh-herald-hero zh-insights-front-hero">
-          <div class="zh-herald-kicker">給中文讀者的一封短箋</div>
-          <h1>把海外生活與升學路線<br>整理成<em>可閱讀的刊面</em></h1>
-          <p class="zh-herald-standfirst">留學導報面向學生、家長與旅外華人家庭，選取真正需要判斷的題目：申請文件、升學路線、移居安家、財富結構與職業資格。每一篇文章都以可核查、可更新、可分享為基本標準。</p>
-          <div class="zh-herald-byline">
-            <span>主編：海外書局編輯部</span>
-            <i></i>
-            <span>讀者來信：office@overseasuk.com</span>
-            <i></i>
-            <span>歡迎投稿與選題建議</span>
-          </div>
-        </header>
       </div>
     </section>
     <section class="band compact-band zh-review-list-section">
@@ -7318,6 +7312,7 @@ const zhInsights = pageShell({
       </div>
       ${zhReviewListContent()}
     </section>
+    ${zhReviewReaderLetter()}
   `
 });
 
