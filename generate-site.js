@@ -1822,6 +1822,299 @@ function writeHeraldSocialImage(article, locale = "en") {
 
 const insightsArticles = [
   {
+    slug: "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
+    title: "Australia 2026–27 Budget for Small Business: Permanent Instant Asset Write-Off and Startup Cash-Flow Signals",
+    date: "2026-06-06",
+    category: "Australia Business",
+    column: "business",
+    kicker: "Australia · Small business · Budget 2026",
+    author: "留學導報編輯部",
+    summary: "A practical briefing for Chinese-speaking founders and sole traders in Australia on the 2026–27 Budget signals: permanent $20,000 instant asset write-off, tax loss carry-back proposals and future startup loss refundability.",
+    titleZh: "澳洲小生意 2026 預算熱點：$20,000 即時抵扣永久化，創業者現金流怎麼看",
+    summaryZh: "澳洲 2026–27 Budget 對小生意與自雇人士釋出幾個重要信號：$20,000 instant asset write-off 擬永久化、公司虧損可回溯抵扣，以及初創企業虧損退稅安排。本文用華人創業者能看懂的方式，整理設備投資、現金流、稅務記錄與合規邊界。",
+    relatedReadings: ["australia-trust-guide", "anonymous-europe-business-planning", "east-asian-women-australia-migration-whv-citizenship"],
+    resources: [
+      ["business.gov.au — What does the Budget mean for your business?", "https://business.gov.au/news/budget-2026-27"],
+      ["ATO — Instant asset write-off for eligible businesses", "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/depreciation-and-capital-expenses-and-allowances/simpler-depreciation-for-small-business/instant-asset-write-off"],
+      ["business.gov.au — Sole trader", "https://business.gov.au/planning/business-structures-and-types/business-structures/sole-trader"],
+      ["business.gov.au — Change your business structure", "https://business.gov.au/planning/business-structures-and-types/restructuring/change-your-business-structure"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。business.gov.au 2026–27 Budget 頁面顯示 current $20,000 instant asset write-off will be made permanent；具體立法、適用年度與實務申報仍應以 ATO 和通過後法律為準。",
+      "ATO 說明 instant asset write-off 適用於符合條件的小生意、每項資產需低於相關門檻，且只能按 business portion 申報。本文不構成稅務建議。",
+      "創業者在購買設備、車輛、電腦、軟件或工具前，應先與註冊稅務代理核對 business use、GST、depreciation、record keeping 和 cash-flow impact。"
+    ],
+    body: [
+      {
+        heading: "1) Budget signals that matter to small businesses",
+        paragraphs: [
+          "The 2026–27 Budget includes several signals relevant to small businesses, including a proposed permanent $20,000 instant asset write-off and future loss measures designed to support cash flow.",
+          "For founders, the key is not to buy assets just because a deduction exists. The decision still needs a commercial purpose, clean records and a cash-flow plan."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、為什麼這次 Budget 對小生意值得看",
+        paragraphs: [
+          "澳洲 2026–27 Budget 中，對小生意和創業者最直接的信號，是政府宣布將現有 $20,000 instant asset write-off 做成 permanent。business.gov.au 的預算整理亦提到，從 2026–27 起，turnover up to $1 billion 的公司可用 tax losses 申請過去兩個 income years 已繳稅款的 refund；從 2028–29 起，新設立小型 startup 在首兩年可就 tax losses 獲得 refund。",
+          "對華人自雇者來說，這不是一句『買東西可以抵稅』那麼簡單。真正要看的是：你是否已經有 ABN、是否需要 GST、資產是否主要用於業務、是否低於門檻、是否有發票與付款記錄，以及這筆支出是否真的服務於收入模型。"
+        ]
+      },
+      {
+        heading: "二、$20,000 instant asset write-off 怎麼理解",
+        paragraphs: [
+          "ATO 的核心口徑是：符合條件的小生意，可以在資產首次使用或安裝好可使用的年度，就該資產 business portion 申請 immediate deduction。門檻是逐項資產判斷，不是全年總額；新資產和二手資產均可能適用。",
+          "但 deduction 不等於政府替你買單。它通常是降低 taxable income，而不是直接返還全部購買成本。若業務尚未盈利、現金流緊張，盲目購買設備反而可能造成壓力。"
+        ]
+      },
+      {
+        heading: "三、適合哪些華人創業場景",
+        paragraphs: [
+          "常見場景包括：攝影與媒體工作室購買相機、燈光和剪輯設備；教育與顧問工作室購買電腦、屏幕和錄音設備；美容、清潔、餐飲和維修行業購買工具、機器或小型設備；跨境電商或本地零售購買 POS、倉儲和包裝設備。",
+          "每個場景都要保留 supplier invoice、付款記錄、資產用途、使用日期、business/private use 比例，以及是否涉及 GST credit。若資產同時自用和商用，不能把私人部分也當成業務扣除。"
+        ]
+      },
+      {
+        heading: "四、從 sole trader 到 company：不要只為抵扣而改結構",
+        paragraphs: [
+          "business.gov.au 提醒，sole trader 是最簡單、成本較低的結構，但個人需對業務債務和損失負責；company 是獨立法律實體，可能有助於責任隔離、聘用員工、引入投資或持有資產，但報告和法律義務更重。",
+          "如果你只是週末接單、自由職業或低風險服務，sole trader 可能已經足夠；如果開始僱人、簽長約、承擔庫存和租約、需要品牌資產或投資人，才應認真評估 company。"
+        ]
+      },
+      {
+        heading: "五、導報提醒：先做現金流，再談抵稅",
+        paragraphs: [
+          "創業初期最容易犯的錯，是把『可以 deduction』理解成『值得買』。真正成熟的做法，是先列出三張表：未來 6 個月現金流、必要設備清單、每項支出對收入的作用。",
+          "如果一項設備不能提高交付能力、降低成本、增加收入或滿足合規要求，即使它可以扣除，也未必值得買。稅務政策是工具，不是商業模式本身。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "australia-entrepreneur-visa-after-biip-closure-national-innovation-route",
+    title: "After Australia Closed BIIP: What Entrepreneurs Should Understand About the National Innovation Visa",
+    date: "2026-06-06",
+    category: "Australia Business",
+    column: "business",
+    kicker: "Australia · Entrepreneur visa · Innovation",
+    author: "留學導報編輯部",
+    summary: "Australia’s BIIP subclass 188 program is closed to new applications. This briefing explains why ordinary small-business migration narratives need to change and how the National Innovation Visa priorities frame promising entrepreneurial activities.",
+    titleZh: "188 商業移民關閉後：澳洲創業者還能怎麼看 National Innovation Visa",
+    summaryZh: "澳洲 Business Innovation and Investment Program（BIIP / 188）已於 2024 年 7 月 31 日關閉新申請。對想靠創業、自雇或開店赴澳的人來說，舊敘事不能再套用。本文整理 BIIP 關閉後的現實、National Innovation Visa 的創業活動口徑，以及普通小生意與高潛力創新項目的分界。",
+    relatedReadings: [
+      "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
+      "east-asian-women-australia-migration-whv-citizenship",
+      "australia-trust-guide"
+    ],
+    resources: [
+      ["Home Affairs — Business Innovation and Investment (subclass 188)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-innovation-and-investment-188"],
+      ["Home Affairs — BIIP closure and refunds", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/biip-closure-and-refunds"],
+      ["Home Affairs — National Innovation visa priorities", "https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/national-innovation-visa/priorities"],
+      ["Home Affairs — National Innovation Visa", "https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/global-talent-independent-program"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Home Affairs 顯示 BIIP closed permanently to new applications on 31 July 2024，已遞交申請仍會繼續處理。",
+      "National Innovation Visa priorities 提到 promising entrepreneurial activities that will lead to commercialisation of a product or service in Australia，尤其與 Commonwealth、State 或 Territory innovation hubs 連接的項目。",
+      "本文不構成移民法律建議。創業、投資或簽證策略應由註冊移民代理或澳洲律師按個案處理。"
+    ],
+    body: [
+      {
+        heading: "1) The old business migration story no longer works",
+        paragraphs: [
+          "Australia’s Business Innovation and Investment Program is closed to new applications. Entrepreneurs should not rely on outdated subclass 188 narratives when planning a new Australia route.",
+          "The National Innovation Visa is not a replacement for every small business owner. It is aimed at exceptional talent and innovation potential."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先把舊敘事停下來：188 / BIIP 已關閉新申請",
+        paragraphs: [
+          "Home Affairs 已明確寫明，Business Innovation and Investment Program（BIIP）於 2024 年 7 月 31 日 permanently closed to new applications。這意味著過去很多『開店、買生意、做 turnover、走 188』的敘事，不能再直接作為新申請人的澳洲創業移民方案。",
+          "已在 2024 年 7 月 31 日前遞交的申請仍會繼續處理，部分撤回申請人可能涉及 VAC refund；但對今天才開始規劃的人來說，重點已經不是研究舊 188 如何包裝，而是重新理解澳洲現在想吸引什麼類型的人才和項目。"
+        ]
+      },
+      {
+        heading: "二、National Innovation Visa 不是普通開店簽證",
+        paragraphs: [
+          "National Innovation Visa 的語境，是吸引 brightest and best、能幫助澳洲經濟增長的人才。官方 priority 中提到，promising entrepreneurial activities 應能在澳洲 commercialise a product or service，並特別提及與 Commonwealth、State 或 Territory innovation hubs 連接的項目。",
+          "普通開咖啡店、代購、民宿、清潔公司、教育中介或小型貿易，未必能自然落入 National Innovation Visa 的核心敘事。它更看重高潛力創新、技術、商業化能力、可擴展性、外部認可與對澳洲的經濟或行業貢獻。"
+        ]
+      },
+      {
+        heading: "三、什麼項目更接近 innovation 敘事",
+        paragraphs: [
+          "較接近的方向可能包括：能商業化的教育科技、醫療健康技術、AI 或自動化工具、清潔能源、農業科技、網安、先進製造、創意科技、科研成果轉化，或已與澳洲 incubator、accelerator、university、state innovation agency 建立連接的項目。",
+          "申請敘事不能只寫『我想創業』。更有用的材料通常包括：產品或服務說明、技術或市場壁壘、traction、客戶或合作方證據、融資或 revenue、知識產權、創始人履歷、澳洲商業化計劃，以及為何澳洲是合理落點。"
+        ]
+      },
+      {
+        heading: "四、普通小生意創業者應該怎麼辦",
+        paragraphs: [
+          "如果你的目標是先在澳洲做小生意、自雇或自由職業，應把問題拆開：一是你目前可持有什麼簽證合法在澳工作；二是你的 business structure、ABN、GST、保險和稅務是否合規；三是這個 business 是否能支持現實收入，而不是只為簽證包裝。",
+          "很多人把『創業』和『移民』混成一件事，結果兩邊都不紮實。更穩的做法，是先把可合法執行的商業模型跑通，再由合資格移民專業人士判斷是否能與僱主擔保、州擔保、技術職業、partner route 或 innovation route 產生關聯。"
+        ]
+      },
+      {
+        heading: "五、導報提醒：創業移民要從『買生意』轉向『證據能力』",
+        paragraphs: [
+          "BIIP 關閉後，澳洲創業路線的關鍵不再是套用舊模板，而是建立真實可核查的 evidence：你做過什麼、賣給誰、產生什麼收入或影響、為何能擴展、為何澳洲需要你。",
+          "對高潛力創業者而言，National Innovation Visa 值得研究；對普通小生意或自雇人士而言，更重要的是先把商業、稅務、合規和當前簽證權利處理清楚。不要用過期的 188 話術設計 2026 年的澳洲路線。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "australia-small-business-fair-work-2026-casual-right-to-disconnect",
+    title: "Australia Small Business Employers in 2026: Right to Disconnect, Casual Changes and Hiring Compliance",
+    date: "2026-06-06",
+    category: "Australia Business",
+    column: "business",
+    kicker: "Australia · Small business · Fair Work",
+    author: "留學導報編輯部",
+    summary: "A compliance-focused briefing for Chinese-speaking small business owners in Australia on the right to disconnect, casual employee changes and basic hiring hygiene.",
+    titleZh: "澳洲小老闆 2026 用工合規：下班不回訊息、casual 轉 permanent 與招聘底線",
+    summaryZh: "從 2025 年 8 月 26 日起，right to disconnect 已適用於 small business employees；同日起，符合條件的小企業 casual 員工也可透過 employee choice pathway 發出轉 full-time 或 part-time 的通知。本文為華人小老闆整理招聘、排班、訊息聯絡與 casual 管理的合規重點。",
+    relatedReadings: [
+      "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
+      "australia-online-safety-cyberbullying-legal-guide",
+      "east-asian-women-australia-migration-whv-citizenship"
+    ],
+    resources: [
+      ["Fair Work Ombudsman — Start of right to disconnect and casual changes for small businesses", "https://www.fairwork.gov.au/newsroom/news/start-right-disconnect-and-casual-changes-small-businesses"],
+      ["Fair Work Ombudsman — Casual employment changes", "https://www.fairwork.gov.au/about-us/workplace-laws/legislation-changes/closing-loopholes/casual-employment-changes"],
+      ["Fair Work Ombudsman — Hours of work, breaks and rosters", "https://www.fairwork.gov.au/employment-conditions/hours-of-work-breaks-and-rosters"],
+      ["Fair Work Ombudsman — Award and agreement free wages and conditions", "https://www.fairwork.gov.au/employment-conditions/awards/award-and-agreement-free-wages-and-conditions"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Fair Work Ombudsman 公告顯示，right to disconnect 自 2025-08-26 起適用於 small business employees。",
+      "同一公告顯示，自 2025-08-26 起，符合條件的小企業 casual 員工可向 employer 發出書面 notice，通過 employee choice pathway 轉為 full-time 或 part-time。",
+      "本文為一般資訊，不替代僱傭律師、HR 顧問或 Fair Work Ombudsman 個案建議。"
+    ],
+    body: [
+      {
+        heading: "1) Small business employment rules have changed",
+        paragraphs: [
+          "Right to disconnect and casual changes are now relevant to small business employers. The practical task is to update communication, rosters and casual employment records before disputes arise.",
+          "Small business compliance is not only about paying wages. It also includes how people are contacted, rostered, classified and moved between casual and permanent work."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、小企業也已進入 right to disconnect 時代",
+        paragraphs: [
+          "Fair Work Ombudsman 公告顯示，right to disconnect 自 2025 年 8 月 26 日起適用於 small business employees。簡單說，員工有權拒絕在工作時間外監看、閱讀或回覆僱主或第三方的聯絡，除非拒絕是不合理的。",
+          "對華人小生意來說，這不代表完全不能下班後聯絡員工，而是要建立合理邊界：什麼情況算緊急、哪些職位需要待命、是否有 allowance 或約定、是否真的需要即時回覆，都應該寫清楚。"
+        ]
+      },
+      {
+        heading: "二、casual 員工不是永遠 casual",
+        paragraphs: [
+          "同日起，符合條件的小企業 casual 員工可以用 employee choice pathway，書面通知 employer 希望轉為 full-time 或 part-time。Fair Work 對 notice、response、資格和流程有具體規則。",
+          "小老闆不能只靠一句『我們店都是 casual』來處理長期固定排班。你需要知道員工入職時合同怎麼寫、實際排班是否穩定、是否有 firm advance commitment、是否支付 casual loading，以及員工是否已符合提出轉 permanent 的條件。"
+        ]
+      },
+      {
+        heading: "三、招聘和排班的三個底線",
+        paragraphs: [
+          "第一，招聘廣告不要含糊承諾。若只是 casual，合同、offer、薪資與 award 對應要清楚；若需要固定日子和長期承諾，可能不適合簡單包裝成 casual。",
+          "第二，排班要留痕。roster、shift swap、break、overtime、public holiday、allowance 和取消班次，都應該有可查記錄。很多糾紛不是一開始惡意，而是沒有記錄。",
+          "第三，下班聯絡要分類。普通安排可以等工作時間再說；真正緊急情況要有標準，並讓員工知道哪些渠道、哪些時段、哪些角色需要回應。"
+        ]
+      },
+      {
+        heading: "四、華人小生意常見高風險行業",
+        paragraphs: [
+          "餐飲、奶茶店、清潔、美容、補習、零售、倉儲、短期活動和留學生兼職較多的行業，都容易出現 casual、award、break、加班、試工、現金工和排班糾紛。",
+          "若員工人數接近 15 人，還要注意 small business employer 的定義與 headcount。不同權利的開始時間和適用門檻可能與是否 small business 有關，不能只按老闆主觀感覺判斷。"
+        ]
+      },
+      {
+        heading: "五、導報提醒：把人事制度做薄，但做清楚",
+        paragraphs: [
+          "小生意不需要一開始就做很厚的人事手冊，但至少要有四份文件：employment contract、award / classification note、roster and timesheet record、after-hours contact guideline。",
+          "真正降低風險的不是把員工管得更死，而是把權利、義務、時間、薪資和溝通邊界說清楚。2026 年的小老闆，要把合規當成經營能力的一部分。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "australia-sole-trader-cyber-resilience-mental-health-2026",
+    title: "Australian Sole Traders in 2026: Cyber Resilience, Mental Health Support and Quiet Business Risks",
+    date: "2026-06-06",
+    category: "Australia Business",
+    column: "business",
+    kicker: "Australia · Sole trader · Cyber resilience",
+    author: "留學導報編輯部",
+    summary: "A practical briefing for sole traders and micro-business owners in Australia on cyber resilience support, NewAccess mental health coaching and basic operational safeguards.",
+    titleZh: "澳洲 sole trader 2026 生存清單：網安、心理健康與小生意真正容易翻車的地方",
+    summaryZh: "很多澳洲自雇者最怕的不是沒有 idea，而是帳戶被盜、客戶資料外洩、現金流斷裂、長期焦慮和沒有人可商量。本文整理 Small Business Cyber Resilience Service、Beyond Blue NewAccess for Small Business Owners，以及 sole trader 應該先做好的低成本風險清單。",
+    relatedReadings: [
+      "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
+      "australia-small-business-fair-work-2026-casual-right-to-disconnect",
+      "australia-trust-guide"
+    ],
+    resources: [
+      ["business.gov.au — Small Business Cyber Resilience Service", "https://business.gov.au/grants-and-programs/small-business-cyber-resilience-service"],
+      ["business.gov.au — NewAccess for Small Business Owners", "https://business.gov.au/grants-and-programs/newaccess-for-small-business-owners"],
+      ["business.gov.au — Sole trader", "https://business.gov.au/planning/business-structures-and-types/business-structures/sole-trader"],
+      ["Australian Cyber Security Centre — Small business cyber security guide", "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。business.gov.au 顯示 Small Business Cyber Resilience Service 提供免費、tailored、person-to-person cyber security support。",
+      "business.gov.au 顯示 Beyond Blue NewAccess for Small Business Owners 向 small business owners 和 sole traders 提供免費且保密的 mental health coaching，closing date 目前列為 2027-06-30。",
+      "本文為一般風險管理資訊，不替代網安顧問、心理健康專業人士、稅務代理或法律建議。"
+    ],
+    body: [
+      {
+        heading: "1) Quiet risks for sole traders",
+        paragraphs: [
+          "Many sole traders worry about finding clients, but the quiet risks are often operational: cyber incidents, lost passwords, weak records, unpaid invoices and burnout.",
+          "Australia now has free support pathways that small business owners should know about, including cyber resilience support and NewAccess mental health coaching."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、sole trader 最常翻車的不是 idea，而是運營風險",
+        paragraphs: [
+          "澳洲 sole trader 容易設立、成本較低、控制權高，但 business.gov.au 也提醒，sole trader 需要對業務債務、損失和日常決策承擔法律責任。很多華人自雇者初期把注意力放在接單和收入，卻忽略了網安、資料、心理壓力和記錄。",
+          "真正讓小生意崩掉的，往往不是產品不夠好，而是 email 被盜、客戶資料外洩、Invoice 追不回來、稅務文件混亂、長期睡不好、沒有 backup plan。"
+        ]
+      },
+      {
+        heading: "二、Small Business Cyber Resilience Service：免費網安支持值得用",
+        paragraphs: [
+          "business.gov.au 顯示，Small Business Cyber Resilience Service 已可為 small businesses 提供免費、tailored、person-to-person cyber security support，幫助改善 cyber resilience，並在 cyber incident 後提供 recovery guidance。",
+          "對 micro-business 和 sole trader 來說，最先要做的不是買很貴的系統，而是完成基本動作：開啟 multi-factor authentication、使用 password manager、分開個人和業務 email、定期備份、限制員工或 contractor access、為 payment 和 client files 設權限。"
+        ]
+      },
+      {
+        heading: "三、NewAccess：小生意老闆也需要心理健康支持",
+        paragraphs: [
+          "Beyond Blue 的 NewAccess for Small Business Owners 是為 small business owners 和 sole traders 設計的免費保密 mental health coaching program。business.gov.au 顯示，符合條件者可獲得 6 次免費 coaching sessions，加上 2 次 follow-up sessions，且不需要 GP referral。",
+          "自雇者常常沒有 HR、沒有同事分擔、沒有固定下班時間。若長期焦慮、睡眠受影響、逃避帳單或客戶溝通，這不是『意志力不夠』，而是應該及早尋求支持的信號。"
+        ]
+      },
+      {
+        heading: "四、低成本風險清單：先做這 8 件事",
+        paragraphs: [
+          "第一，ABN、business name、bank account、accounting software 和 invoice template 分清楚。第二，每週固定一次整理收入、支出和 receipts。第三，所有客戶資料不要只放在聊天軟件裡。",
+          "第四，重要帳戶全部開 MFA。第五，為網站、email、domain、社媒帳號保存 owner access。第六，所有合作和外包至少有簡短書面 scope。第七，設一個 emergency contact / backup operator。第八，每季度檢查一次保險、稅務、網安和 mental health support。"
+        ]
+      },
+      {
+        heading: "五、導報提醒：自雇不是一個人硬扛",
+        paragraphs: [
+          "澳洲自雇的自由感很強，但風險也更集中。sole trader 不等於所有事情都自己扛，反而更需要把會計、網安、心理健康、法律文件和客戶溝通做成簡單系統。",
+          "2026 年的創業自雇，不只是開 ABN 和接第一單；它是一套能讓你長期活下去的 operating discipline。先把小風險降下來，才有空間談增長。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-social-care-aged-care-career-progression-route",
     title: "Choosing Social Care and Aged Care: A Career-Progression Route Using OTHM Health and Social Care Qualifications",
     date: "2026-06-05",
