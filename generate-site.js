@@ -1820,7 +1820,294 @@ function writeHeraldSocialImage(article, locale = "en") {
   return imagePath;
 }
 
+function makeAustraliaLicensingArticle({
+  slug,
+  title,
+  titleZh,
+  kicker,
+  summaryZh,
+  resources,
+  factCheckNotes,
+  sectionsZh
+}) {
+  return {
+    slug,
+    title,
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker,
+    author: "留學導報編輯部",
+    summary: summaryZh,
+    titleZh,
+    summaryZh,
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "australia-health-vocation-pathway",
+      "australia-aged-care-disability-allied-health-pr-routes-2026",
+      "australia-training-visa-407-sponsorship-nomination-sequence-update"
+    ],
+    resources,
+    factCheckNotes,
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+          summaryZh,
+          "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+        ]
+      }
+    ],
+    bodyZh: sectionsZh.map((section) => ({
+      heading: section[0],
+      paragraphs: section.slice(1)
+    }))
+  };
+}
+
+const australiaLicensingHotspotArticles = [
+  makeAustraliaLicensingArticle({
+    slug: "australia-ahpra-english-2026",
+    title: "Ahpra English Scores",
+    titleZh: "Ahpra 英語新分數",
+    kicker: "Australia · Ahpra · English",
+    summaryZh: "2026 年健康職業考牌最先要看的，不是補習廣告，而是 Ahpra 與 National Boards 在 2026 年 4 月 23 日起更新的 accepted English test scores。護理、藥劑、物理治療、職能治療等很多註冊職業都會受這條線影響。",
+    resources: [
+      ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"],
+      ["Ahpra — English language skills registration standard", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills.aspx"],
+      ["Ahpra — Registration standards", "https://www.ahpra.gov.au/Registration/Registration-Standards.aspx"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Ahpra 頁面顯示 accepted English test minimum scores 自 2026-04-23 起更新。",
+      "可接受考試包括 IELTS Academic、OET、PTE Academic、TOEFL iBT Australia、Cambridge C1/C2；實際分數與兩次拼分規則須按 Ahpra 表格核對。",
+      "本文不構成註冊建議；每個職業仍須查其 National Board 的完整 registration standard。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "很多學生以為澳洲健康職業考牌只看學歷，其實英語常常是第一道門。2026 年 4 月 23 日起，Ahpra 與 National Boards 更新 accepted English test 的最低分數，測試日期不同，適用表格也可能不同。"],
+      ["二、誰最需要注意", "護理、助產、醫學、藥劑、物理治療、職能治療、心理、牙科、醫學影像、視光等 Ahpra 監管職業，都應先查英語標準。不要只問『IELTS 幾分』，還要查是否可拼分、單項最低線、測試形式與有效期。"],
+      ["三、準備順序", "先確認目標職業與 Board，再核對你考試日期對應的舊表或新表，最後才決定考 IELTS、PTE、OET 或 TOEFL iBT Australia。若已在 2026 年 4 月 23 日前後跨期考試，更要逐項看 transition arrangements。"],
+      ["四、導報提醒", "考英語不是單獨任務，而是註冊、skills assessment、簽證和僱主時間線的一部分。最好把 test booking、註冊遞交、placement、offer 和簽證材料放在同一張時間表上。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-img-fast-pathways-2026",
+    title: "IMG Fast Pathways",
+    titleZh: "海外醫生快通道",
+    kicker: "Australia · IMG · Medical Board",
+    summaryZh: "海外醫生赴澳不是只有 AMC standard pathway。2026 年最值得關注的是 Competent Authority pathway 與 Expedited Specialist pathway：前者可能免 AMC exams，後者正按專科優先級擴展。",
+    resources: [
+      ["Medical Board — Competent Authority pathway", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates/Competent-Authority-Pathway/"],
+      ["Medical Board — Expedited Specialist pathway", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates/Expedited-specialist-pathway.aspx"],
+      ["Medical Board — IMG pathways", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates.aspx"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Medical Board 頁面顯示 Competent Authority pathway 可通向 general registration，通常需 provisional registration 與 12 個月 supervised practice。",
+      "Expedited Specialist pathway 目前列出 anaesthesia、general practice、obstetrics and gynaecology、paediatrics、general medicine、psychiatry 等專科，並標明下一批優先專科。",
+      "醫生註冊高度個案化，本文不替代 Medical Board、Ahpra、AMC、醫院或移民專業人士判斷。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "澳洲醫生註冊在 2026 年的熱點，是用更清楚的 pathway 把不同背景的 IMG 分流。若你有英國、加拿大、美國、新西蘭、愛爾蘭等特定系統的考試或訓練背景，Competent Authority pathway 可能比 standard pathway 更值得先查。"],
+      ["二、快不等於簡單", "Competent Authority pathway 不等於直接 general registration。通常仍要 primary source verification、澳洲職位、provisional registration、supervised practice，以及 Board 對 position 和 supervision 的審核。"],
+      ["三、專科醫生的焦點", "Expedited Specialist pathway 是另一個高熱點，但只適用於 accepted qualifications list 上的專科資格。它不是普通醫學本科畢業生路線，也不是所有專科自動接受。"],
+      ["四、導報提醒", "海外醫生應先做 pathway self-assessment，再決定是否考 AMC、找職位、做 PSV 或準備專科材料。不要把『醫生短缺』理解成『任何醫生都能快速註冊』。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-nursing-anmac-2026",
+    title: "Nursing Skills Check",
+    titleZh: "護士技能評估",
+    kicker: "Australia · Nursing · ANMAC",
+    summaryZh: "護理仍是澳洲高關注職業，但 2026 年真正要分清的是：NMBA 註冊、ANMAC skilled migration assessment、Ahpra 英語標準與僱主要求不是同一件事。",
+    resources: [
+      ["ANMAC — Skilled Migrants", "https://anmac.org.au/skilled-migrants"],
+      ["ANMAC — Full Skills Assessment", "https://anmac.org.au/skilled-migrants/full-skills-assessment"],
+      ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/International.aspx"],
+      ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。ANMAC Skilled Migrants 頁面顯示其處理 nursing/midwifery/health care qualifications assessment for migration purposes。",
+      "ANMAC Full Skills Assessment 頁面提示英語測試日期與有效性需按其政策核對；NMBA/Ahpra 註冊是另一套流程。",
+      "本文不構成護理註冊、技能評估、就業或簽證建議。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "很多人把『澳洲護士』簡化成讀護理或考英文，但實際至少有四層：你是否能向 NMBA/Ahpra 申請註冊、是否需要 ANMAC skills assessment、是否符合簽證與職業清單、是否能滿足僱主和州要求。"],
+      ["二、ANMAC 不是 NMBA", "ANMAC 常用於 skilled migration assessment；NMBA/Ahpra 則關乎能否作為 nurse 或 midwife 在澳洲註冊。兩者文件相似但目的不同，不能互相替代。"],
+      ["三、最容易卡住的材料", "常見卡點包括英語成績、註冊歷史、工作證明、學歷與課程內容、良好品行、身份文件、海外註冊證明與是否有足夠 recent practice。"],
+      ["四、導報提醒", "若你把護理當移民路線，應先畫出『註冊可行性』，再談簽證。若註冊本身不穩，後面的 PR 敘事會很脆弱。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-pharmacist-opra-2026",
+    title: "Pharmacist OPRA",
+    titleZh: "藥劑師 OPRA",
+    kicker: "Australia · Pharmacy · OPRA",
+    summaryZh: "海外藥劑師 2026 年最常被問到的是 OPRA。KAPS 已被 OPRA 取代，知識流、能力流、CAOP、intern written exam、provisional registration 需要分開理解。",
+    resources: [
+      ["Australian Pharmacy Council — Skills assessment", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/"],
+      ["Australian Pharmacy Council — OPRA exam", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/knowledge-stream/opra-exam"],
+      ["Australian Pharmacy Council — CAOP exam", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/competency-stream/"],
+      ["Australian Pharmacy Council — OPRA guide", "https://www.pharmacycouncil.org.au/resources/opra-exam-guide-and-sample-content/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。APC 頁面顯示 OPRA exam 取代 KAPS，並為 Knowledge Stream 的重要考試。",
+      "APC 顯示 CAOP 主要服務 Competency Stream；2026 CAOP exam conditions 已更新。",
+      "APC 明確說其不決定 pharmacist registration eligibility；註冊仍須查 Pharmacy Board / Ahpra。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "藥劑師路線的熱點是 OPRA。對很多非澳洲、非加英美愛新等背景的海外藥劑師來說，OPRA 是知識流中的關鍵一步。"],
+      ["二、不要把 OPRA 當唯一終點", "OPRA 考的是 biomedical、pharmaceutical、clinical sciences 的 readiness。它通常只是通往 provisional registration、internship 和後續考核的一部分，不是通過後就能獨立執業。"],
+      ["三、CAOP 與 OPRA 分清楚", "CAOP 面向特定 Competency Stream 背景，OPRA 面向 Knowledge Stream。選錯 stream，會浪費時間和費用。"],
+      ["四、導報提醒", "藥劑路線要先查 APC stream，再查 Pharmacy Board registration，再排英語、實習與簽證。不要只問『OPRA 難不難』，要問整條註冊路線是否能走完。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-physio-apep-2026",
+    title: "Physio APEP",
+    titleZh: "物理治療 APEP",
+    kicker: "Australia · Physiotherapy · APEP",
+    summaryZh: "海外物理治療師 2026 年要留意 Australian Physiotherapy Council 的新 pathway 與費用變化。APEP、FLYR、Express FLYR、limited registration 與 Ahpra general registration 需要一起看。",
+    resources: [
+      ["Australian Physiotherapy Council — Getting Started", "https://physiocouncil.com.au/international-physiotherapists/getting-started"],
+      ["Australian Physiotherapy Council — Fees and processing times", "https://physiocouncil.com.au/international-physiotherapists/fees-and-processing-times"],
+      ["Australian Physiotherapy Council — Written Assessment", "https://physiocouncil.com.au/international-physiotherapists/australian-physiotherapy-entry-pathway/written-assessment"],
+      ["Australian Physiotherapy Council — APEP launch note", "https://physiocouncil.com.au/insights/innovating-physiotherapy-assessment"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Australian Physiotherapy Council 是海外 qualified physiotherapists 的 assessing authority。",
+      "APC/Physio Council 頁面顯示 assessment fee 自 2026-01-05 起調整，APEP 包含 Eligibility Assessment、Cultural Safety Training、Written Assessment、Capability Assessment、Clinical Workshop 等階段。",
+      "物理治療在澳洲仍需 Ahpra/Physiotherapy Board 註冊；本文不替代官方評估。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "物理治療師的考牌熱點，是 Australian Physiotherapy Council 的 assessment pathways 更新。APEP 把部分流程遠程化，但仍保留嚴格的知識、能力和臨床實作要求。"],
+      ["二、費用與時間要先算", "Council 頁面列出 2026 年費用，APEP 全流程成本不低，且 written assessment 有固定考期與截止日。對海外申請人來說，時間線比單次考試更重要。"],
+      ["三、limited registration 的角色", "部分 pathway 可能通向 limited registration，使申請人在監督下取得澳洲經驗，再推進 general registration。這需要職位、supervision 和 Board 要求配合。"],
+      ["四、導報提醒", "物理治療不是單靠學歷等同。先查你是否符合 eligibility，再決定走 APEP、FLYR 或其他 pathway；同時把英語、職位和簽證安排放進同一張表。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-occupational-therapy-2026",
+    title: "OT New Process",
+    titleZh: "職能治療新流程",
+    kicker: "Australia · Occupational Therapy · Ahpra",
+    summaryZh: "國際職能治療師赴澳流程在 2025 年底出現重要調整。OT Council 已不再接受舊 Stage 1 申請，國際資格先由 Ahpra 評估是否可接受，再視情況進入 supervised practice 及 competence assessment。",
+    resources: [
+      ["Occupational Therapy Council — Assessment", "https://www.otcouncil.com.au/assessment/"],
+      ["Occupational Therapy Board / Ahpra", "https://www.occupationaltherapyboard.gov.au/"],
+      ["OT Council — Assessment of competence notes", "https://www.otcouncil.com.au/wp-content/uploads/Assessment-of-competence-explanatory-notes.pdf"],
+      ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。OT Council assessment 頁面顯示因 2025-10-27 起新 registration pathways 與 international qualification assessments，舊 Stage 1 applications 已不再接受。",
+      "頁面說明 internationally qualified occupational therapists 須由 Ahpra 評估 qualification 是否 accepted for general registration；部分申請人可能需在 limited registration 下完成 competence assessment during supervised practice。",
+      "職能治療屬 Ahpra 監管職業，本文不構成註冊建議。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "職能治療的最大熱點，是舊 Stage 1 思維不能再照搬。2025 年 10 月 27 日後，國際資格評估與註冊 pathway 的入口發生變化。"],
+      ["二、先 Ahpra，再看 competence", "現在的核心是：國際職能治療資格先由 Ahpra/OTBA 判斷是否可接受；若不能直接滿足 general registration，可能要在 limited registration 和 supervised practice 中完成 competence assessment。"],
+      ["三、材料不能只準備成績單", "申請人通常要準備資格、課程、實習、註冊歷史、英語、身份、履歷和監督安排相關資料。僅有海外畢業證不代表可直接入職。"],
+      ["四、導報提醒", "OT 路線應先查新流程，再查職位和簽證。不要買舊版 Stage 1 補習或模板，也不要把過期流程當成 2026 年策略。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-early-childhood-register-2026",
+    title: "Early Childhood Register",
+    titleZh: "幼教註冊清單",
+    kicker: "Australia · ECEC · Worker Register",
+    summaryZh: "2026 年幼教與 childcare 熱點不是一句『幼教好移民』，而是 National Early Childhood Worker Register、WWCC/WWVP、資格、approved training 和 teacher registration 逐步被放進同一個可監管框架。",
+    resources: [
+      ["Department of Education — National Educator Register testing", "https://www.education.gov.au/newsroom/articles/official-testing-national-educator-register-commences"],
+      ["ACECQA — National Early Childhood Worker Register toolkit", "https://www.acecqa.gov.au/communications-toolkit-national-early-childhood-worker-register-feb-2026"],
+      ["Department of Education — Quality and safety", "https://www.education.gov.au/early-childhood/about/quality-and-safety"],
+      ["ACECQA — New national early childhood worker register PDF", "https://www.acecqa.gov.au/sites/default/files/2026-01/New%20national%20early%20childhood%20worker%20register.pdf"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。澳洲教育部與 ACECQA 資料顯示 National Early Childhood Worker Register 於 2026 年逐步推出，包含 worker identifying information、employment records、approved training、qualifications、WWCC/WWVP 或 teacher registration 等資料。",
+      "幼教資格、教師註冊、Working With Children Check 和服務端義務按州/領地與崗位不同而異。",
+      "本文不構成教育、註冊或移民建議。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "幼教近年被大量包裝成移民熱門，但 2026 年更應看 child safety 與 workforce visibility。National Early Childhood Worker Register 把工作者資料、資格、培訓與背景檢查放進更清楚的監管框架。"],
+      ["二、誰會被影響", "long day care、preschool、family day care 等 National Quality Framework 下的服務需要按要求使用 Register。工作者則要確保身份、WWCC/WWVP、資格與 approved training 記錄可查。"],
+      ["三、teacher registration 不是每個人都一樣", "Early childhood teacher、educator、assistant、room leader 的資格與註冊要求不同。部分州/領地涉及 teacher registration，不能只看 Certificate III 或 Diploma 名稱。"],
+      ["四、導報提醒", "幼教路線要從兒童安全、資格真實性和州/領地要求開始讀。若只是因為『熱門』而轉專業，後期 placement、英文、背景審查與職業倫理都可能成為壓力。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-social-work-registration-2026",
+    title: "Social Work Registration",
+    titleZh: "社工註冊轉向",
+    kicker: "Australia · Social Work · SA registration",
+    summaryZh: "澳洲社工長期不像 Ahpra 職業那樣全國註冊，但 South Australia 正推進 statutory registration。對社工學生、雇主和跨州服務者來說，2026 年要重新理解 title protection、AASW assessment 和州註冊。",
+    resources: [
+      ["SWRB SA — Introducing Registration", "https://swrb.sa.gov.au/registration/registration/Introducing-Registration"],
+      ["SWRB SA — How to apply for registration", "https://www.swrb.sa.gov.au/registration/how-to-register/how-to-register"],
+      ["SWRB SA — Prescribed Qualifications", "https://www.swrb.sa.gov.au/registration/registration/qualifications"],
+      ["AASW — Migration and eligibility assessment", "https://www.aasw.asn.au/careers-study/assessment-of-social-work-qualifications-international-or-australian-for-migration-and-or-employment-purposes/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。SWRB SA 頁面顯示 scheme opens 後 delivering social work services 或使用 title social worker 可能需要註冊，並有 full/provisional/limited categories。",
+      "SWRB SA prescribed qualifications 頁面說明海外資格需由 AASW positive assessment 才可被接受。",
+      "社工註冊在澳洲具有州別差異；本文不構成法律、註冊或僱傭建議。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "南澳社工註冊是 2026 年職業考牌最值得看的變化之一。它把 social worker title、social work services、雇主義務和註冊類別放進法定框架。"],
+      ["二、AASW 與州註冊要分清", "AASW assessment 常用於海外資格等同性、migration eligibility 或 employment purposes；SWRB SA 是南澳法定註冊。兩者相關，但不是同一個機構、同一個目的。"],
+      ["三、跨州與遠程服務也要小心", "SWRB SA 提醒，是否需要註冊可能看服務對象所在地，而不只是工作者住在哪裡。若向南澳客戶提供 telehealth 或 online social work services，也要核對義務。"],
+      ["四、導報提醒", "社工路線不能只看移民職業清單。若未來要在 regulated environment 中使用 social worker title，應提前整理學歷、AASW assessment、supervision、CPD 和雇主職位名稱。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-electrician-otsr-2026",
+    title: "Electrician OTSR",
+    titleZh: "電工牌照 OTSR",
+    kicker: "Australia · Trades · Electrician",
+    summaryZh: "電工、空調制冷、水管等 licensed trades 是澳洲技能短缺與安全監管的交匯點。海外技工最常誤解的是：TRA skills assessment、OTSR、provisional licence、gap training 和 supervised employment 是不同階段。",
+    resources: [
+      ["TRA — Electrician (General and Special Class)", "https://www.tradesrecognitionaustralia.gov.au/electrician-general-and-special-class"],
+      ["TRA — Licensing", "https://www.tradesrecognitionaustralia.gov.au/licensing"],
+      ["TRA — OSAP", "https://www.tradesrecognitionaustralia.gov.au/programs/offshore-skills-assessment-program-osap"],
+      ["DEWR — 2026–27 Budget", "https://www.dewr.gov.au/about-department/corporate-reporting/budget/202627-budget"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。TRA 顯示 electrician successful skills assessment 後可獲 Offshore Technical Skills Record（OTSR），再向州/領地 licensing authority 申請 provisional licence/registration/certificate。",
+      "TRA Licensing 頁面顯示 OTSR 後仍需 Australian context gap training 與 supervised employment。",
+      "DEWR 2026–27 Budget 顯示政府將投入現代化 trade skills assessment system，並可整合 occupational licensing capacity。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "澳洲技工牌照的熱點，是 skills assessment 與 licence recognition 更緊密連接。電工尤其敏感，因為安全標準高，不能只靠海外經驗直接上手。"],
+      ["二、OTSR 是什麼", "OTSR 記錄你已在 TRA-approved RTO assessment 中展示了對應澳洲 VET qualification 的技術能力。它不是完整澳洲牌照，而是申請 provisional licence 和後續 gap training 的入口。"],
+      ["三、為什麼不能跳過 supervised employment", "電工、空調制冷、水管等 licensed occupations 通常需要在監督下工作、完成澳洲 context gap training，再逐步取得正式州/領地牌照。"],
+      ["四、導報提醒", "海外技工不要只問『能不能移民』，要先問『到澳洲能否合法接活』。技能評估、州牌照、保險、雇主監督和工作範圍都要一起核對。"]
+    ]
+  }),
+  makeAustraliaLicensingArticle({
+    slug: "australia-engineer-registration-2026",
+    title: "Engineer Registration",
+    titleZh: "工程師州註冊",
+    kicker: "Australia · Engineering · Registration",
+    summaryZh: "澳洲工程師不是所有州、所有工作都一樣。2026 年要關注 Engineers Australia skills assessment、Victoria professional engineer registration、Queensland RPEQ，以及 building-related engineering 的州別要求。",
+    resources: [
+      ["Engineers Australia — Migration skills assessment", "https://www.engineersaustralia.org.au/migrants/migration-skills-assessment"],
+      ["Consumer Affairs Victoria — Professional engineers", "https://www.consumer.vic.gov.au/licensing-and-registration/professional-engineers"],
+      ["Consumer Affairs Victoria — Who needs to be registered", "https://www.consumer.vic.gov.au/licensing-and-registration/professional-engineers/who-needs-to-be-registered"],
+      ["BPEQ — Registered Professional Engineers Queensland", "https://bpeq.qld.gov.au/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-06。Engineers Australia 是澳洲政府授權的 engineering migration skills assessment authority。",
+      "Consumer Affairs Victoria 顯示 Victoria 對特定 professional engineering services 有 mandatory registration 要求。",
+      "工程師州註冊與 migration skills assessment 不同；本文不構成工程執業或法律建議。"
+    ],
+    sectionsZh: [
+      ["一、熱點在哪裡", "工程師路線的熱點，是 migration skills assessment 與州執業註冊被很多人混為一談。拿到 Engineers Australia outcome letter，不等於在所有州都可提供所有 professional engineering services。"],
+      ["二、Victoria 與 Queensland 要特別查", "Victoria 已對特定工程領域實施 professional engineer registration；Queensland 長期有 RPEQ 制度。若工作涉及 building、civil、structural、fire safety 或 public safety，不能只按普通 job title 判斷。"],
+      ["三、海外學歷要看 Accords 與 CDR", "Engineers Australia 評估時會看 Washington/Sydney/Dublin Accord、澳洲 accredited qualification 或 CDR pathway。RTO advanced diploma / associate degree 類背景也有特殊變化。"],
+      ["四、導報提醒", "工程師應把三張證據分開：移民用 skills assessment、州執業 registration、雇主/項目要求。哪一張缺失，都可能影響工作合法性或簽證敘事。"]
+    ]
+  })
+];
+
 const insightsArticles = [
+  ...australiaLicensingHotspotArticles,
   {
     slug: "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
     title: "Australia Small Business 2026: Tax Write-Off and Cash Flow",
@@ -6811,6 +7098,7 @@ const zhReviewColumns = [
   {
     key: "study",
     name: "留學升學",
+    href: "/zh/insights/study/",
     scope: "英澳升學路線、UCAS 申請、Foundation vs 直入",
     tagline: "旅澳華人 · 留學移民 · 升學規劃",
     audience: "適合讀者：學生、家長、升學顧問"
@@ -6818,6 +7106,7 @@ const zhReviewColumns = [
   {
     key: "settlement",
     name: "移居安家",
+    href: "/zh/insights/settlement/",
     scope: "簽證、生活、租房、選區",
     tagline: "旅澳華人 · 留學移民 · 生活安置",
     audience: "適合讀者：新移居家庭、陪讀家長、留學生"
@@ -6825,6 +7114,7 @@ const zhReviewColumns = [
   {
     key: "wealth",
     name: "財富規劃",
+    href: "/zh/insights/wealth/",
     scope: "信託、物業投資、稅務、退休金",
     tagline: "旅澳華人 · 留學移民 · 財富規劃",
     audience: "適合讀者：在澳華人家庭、投資者"
@@ -6832,6 +7122,7 @@ const zhReviewColumns = [
   {
     key: "licensing",
     name: "職業考牌",
+    href: "/zh/insights/licensing/",
     scope: "駕照、CSCS、行業資格",
     tagline: "旅澳華人 · 留學移民 · 職業資格",
     audience: "適合讀者：求職者、轉行人士、技能路線學生"
@@ -6839,6 +7130,7 @@ const zhReviewColumns = [
   {
     key: "business",
     name: "創業自雇",
+    href: "/zh/insights/business/",
     scope: "公司設立、PAYE、商業結構",
     tagline: "旅澳華人 · 留學移民 · 創業自雇",
     audience: "適合讀者：創業者、自雇人士、小企業家庭"
@@ -6846,6 +7138,7 @@ const zhReviewColumns = [
   {
     key: "culture",
     name: "學術文化",
+    href: "/zh/insights/culture/",
     scope: "文學、歷史、評論",
     tagline: "旅澳華人 · 留學移民 · 學術文化",
     audience: "適合讀者：學生、家長、文化與教育讀者"
@@ -6877,20 +7170,70 @@ function zhReviewDepartmentCards() {
     return `
       <article>
         <b>${String(index + 1).padStart(2, "0")}</b>
-        <strong>${column.name}</strong>
+        <a class="zh-review-department-open" href="${column.href}"><strong>${column.name}</strong><small>進入本版</small></a>
         <span>${column.scope}</span>
         <em>${columnArticles.length} 篇</em>
         ${columnArticles.length ? `<div class="zh-review-department-mini" aria-label="${column.name}文章小索引">
-          ${columnArticles.slice(0, 8).map((article, articleIndex) => `
+          ${columnArticles.slice(0, 10).map((article, articleIndex) => `
             <a href="/zh/insights/${article.slug}/">
               <i>${String(articleIndex + 1).padStart(2, "0")}</i>
               <span>${zhReviewTitleHtml(article.titleZh || article.title)}</span>
             </a>
           `).join("")}
+          ${columnArticles.length > 10 ? `<a class="zh-review-mini-more" href="${column.href}"><i>+</i><span>查看全部 ${columnArticles.length} 篇</span></a>` : ""}
         </div>` : ""}
       </article>
     `;
   }).join("");
+}
+
+function zhReviewColumnPage(column, index) {
+  const columnArticles = insightsArticles.filter((article) => zhReviewColumnForArticle(article).key === column.key);
+  return pageShell({
+    title: `${column.name} | 留學導報`,
+    current: "insights",
+    lang: "zh-Hant",
+    locale: "zh",
+    description: `留學導報 ${column.name} 版面完整文章清單：${column.scope}`,
+    path: column.href,
+    body: `
+      <section class="page-hero services-hero zh-insights-service-hero">
+        <div class="band">
+          <div class="service-hero-layout">
+            <div>
+              <div class="eyebrow">Overseas Study Review · ${String(index + 1).padStart(2, "0")}</div>
+              <h1>${column.name}</h1>
+              <h2>${column.scope}</h2>
+              <p class="hero-sub">${column.audience}。本頁收納本版全部文章，主頁只顯示最新十篇。</p>
+            </div>
+            <aside class="service-hero-panel">
+              <a href="/zh/insights/"><strong>導報首頁</strong><span>返回 01-06 版面</span></a>
+              ${zhReviewColumns.filter((item) => item.key !== column.key).slice(0, 3).map((item) => `
+                <a href="${item.href}"><strong>${item.name}</strong><span>${item.scope}</span></a>
+              `).join("")}
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="band compact-band zh-review-list-section">
+        <div class="zh-review-prelude">
+          <div class="eyebrow">Full Index</div>
+          <p>${column.name}版面完整文章清單，共 ${columnArticles.length} 篇。</p>
+        </div>
+        <div class="zh-review-column-list">
+          ${columnArticles.map((article, articleIndex) => `
+            <a href="/zh/insights/${article.slug}/">
+              <b>${String(articleIndex + 1).padStart(2, "0")}</b>
+              <span>${article.date}</span>
+              <strong>${article.titleZh || article.title}</strong>
+              <em>${article.kicker || article.category}</em>
+            </a>
+          `).join("")}
+        </div>
+      </section>
+      ${zhReviewReaderLetter()}
+    `
+  });
 }
 
 function zhReviewTitleHtml(title) {
@@ -21561,6 +21904,9 @@ write("zh/reports/othm-australia-expansion", othmAustraliaExpansionReportZh);
 write("consultation-chat", consultationChat);
 write("insights", insights);
 write("zh/insights", zhInsights);
+zhReviewColumns.forEach((column, index) => {
+  write(`zh/insights/${column.key}`, zhReviewColumnPage(column, index));
+});
 insightsArticles.forEach((article) => {
   write(`insights/${article.slug}`, insightArticlePage(article));
   write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
