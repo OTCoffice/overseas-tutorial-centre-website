@@ -6632,11 +6632,14 @@ function zhReviewListContent() {
       <div>
         <span>Current Issue</span>
         <strong>本期導讀</strong>
-        <p>本期按六個固定版面整理：留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化。文章不再集中堆成長索引，而是收進下方 01-06 欄目內的小字行列，方便日後持續擴充。</p>
+        <p>本期只保留可判斷、可查證、可延伸的路線筆記；長索引已收進各欄目細目。</p>
       </div>
       <aside>
-        <b>01-06</b>
-        <em>欄目式閱讀 · 小索引收納 · 長期更新</em>
+        <div class="zh-review-edition-actions">
+          <a class="gold" href="/zh/services/">服務與申請</a>
+          <a class="red" href="/zh/study-planning/">升學規劃</a>
+          <a class="teal" href="/zh/immigration-info/">移民資訊</a>
+        </div>
       </aside>
     </div>
     <div class="zh-review-departments">${zhReviewDepartmentCards()}</div>
@@ -6653,13 +6656,13 @@ function zhReviewListContent() {
 function zhReviewReaderLetter() {
   return `
     <section class="band compact-band zh-reader-letter-section">
-      <div class="zh-editorial-desk">
+      <div class="zh-reader-letter-card">
         <div>
           <span>Editor's Note</span>
           <strong>給中文讀者的一封短箋</strong>
           <p>留學導報面向學生、家長與旅外華人家庭，選取真正需要判斷的題目：申請文件、升學路線、移居安家、財富結構與職業資格。每一篇文章都以可核查、可更新、可分享為基本標準。</p>
         </div>
-        <div class="zh-editorial-actions">
+        <div class="zh-reader-letter-actions">
           <a class="notice" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E7%B7%A8%E8%BC%AF%E9%83%A8%E9%80%9A%E8%A8%8A">編輯部通訊</a>
           <a class="submit" href="mailto:office@overseasuk.com?subject=%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%20%E6%AD%A1%E8%BF%8E%E6%8A%95%E7%A8%BF">歡迎投稿</a>
           <a class="update" href="mailto:office@overseasuk.com?subject=%E8%A8%82%E9%96%B1%E7%95%99%E5%AD%B8%E5%B0%8E%E5%A0%B1%E6%9B%B4%E6%96%B0">訂閱更新</a>
@@ -7282,33 +7285,28 @@ const zhInsights = pageShell({
   description: "留學導報是海外書局的中文導報板塊，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理文章。",
   path: "/zh/insights/",
   body: `
-    <section class="zh-insights-front">
-      <div class="zh-herald-page zh-insights-front-page">
-        <div class="zh-herald-masthead">
+    <section class="page-hero services-hero zh-insights-service-hero">
+      <div class="band">
+        <div class="service-hero-layout">
           <div>
-            <div class="zh-herald-name-en">Overseas Study Review</div>
-            <div class="zh-herald-name-zh">留學導報</div>
-            <div class="zh-herald-tagline">旅澳華人 · 留學移民 · 財富規劃</div>
+            <div class="eyebrow">Overseas Study Review</div>
+            <h1>留學導報</h1>
+            <h2>升學 · 移居 · 財富 · 職業路線</h2>
+            <p class="hero-sub">以出版級編輯標準整理海外教育與家庭規劃題目，保留可核查、可分享、可持續更新的中文路線筆記。</p>
           </div>
-          <div class="zh-herald-meta">
-            <div><strong>海外書局系列板塊</strong></div>
-            <div>中文文章目錄</div>
-            <div>出版 · 編譯 · 導報</div>
-            <div>overseasuk.com/zh/insights</div>
-          </div>
-        </div>
-        <div class="zh-herald-section-bar">
-          <div class="zh-herald-section-tag">中文刊面</div>
-          <div class="zh-herald-section-line"></div>
-          <time>每週整理 · 擇要更新</time>
+          <aside class="service-hero-panel">
+            <a href="/zh/study-planning/"><strong>升學規劃</strong><span>申請文件與路線判斷</span></a>
+            <a href="/zh/immigration-info/"><strong>移居安家</strong><span>政策入口與合規邊界</span></a>
+            <a href="/zh/services/"><strong>服務入口</strong><span>申請、監護與協調</span></a>
+            <a href="/zh/publishing/"><strong>出版書局</strong><span>導報、報告與教材</span></a>
+          </aside>
         </div>
       </div>
     </section>
     <section class="band compact-band zh-review-list-section">
-      <div class="section-head compact-head zh-editorial-section-head">
+      <div class="zh-review-prelude">
         <div class="eyebrow">Editorial Desk</div>
-        <h2>本期導讀</h2>
-        <p>主編短箋、欄目索引、投稿與訂閱入口集中於此；文章列表保持清晰、可掃讀。</p>
+        <p>按 01-06 固定版面閱讀本期文章，細目已收納在各欄目內。</p>
       </div>
       ${zhReviewListContent()}
     </section>
