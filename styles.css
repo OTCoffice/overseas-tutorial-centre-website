@@ -1838,16 +1838,21 @@ h1 {
 
 .zh-home-small-links a:nth-child(2)::before {
   background: #3e5f90;
-  content: "分";
+  content: "私";
 }
 
 .zh-home-small-links a:nth-child(3)::before {
   background: #566f92;
-  content: "合";
+  content: "分";
 }
 
 .zh-home-small-links a:nth-child(4)::before {
   background: #b24c34;
+  content: "移";
+}
+
+.zh-home-small-links a:nth-child(5)::before {
+  background: #8d3f35;
   content: "導";
 }
 

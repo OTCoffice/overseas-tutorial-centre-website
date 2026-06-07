@@ -13138,11 +13138,11 @@ const chineseEntrance = pageShell({
         <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用、監護與家長端安排。</span><em>英國｜加拿大｜澳洲｜新西蘭｜住宿文件</em></a>
         <a href="/zh/private-school-alliance/"><b>私校聯盟</b><span>K-12 國際校、私校觀察、校區比較與長線低齡規劃。</span><em>越南｜澳洲｜英國｜新馬泰｜IB / AP / 美式</em></a>
         <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接、先前學習與雙語解釋。</span><em>Credit transfer｜RPL｜升學文件｜資格對照</em></a>
+        <a href="/zh/immigration-alliance/"><b>移民聯盟</b><span>各國政策、工作權、永居路線與職業資格入口。</span><em>美國｜英國｜澳洲｜加拿大｜新加坡｜歐洲</em></a>
         <a href="/zh/insights/"><b>留學導報</b><span>申請、政策、職業資格與海外生活文章。</span><em>政策解讀｜考牌路線｜家庭決策｜案例觀察</em></a>
       </div>
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
     </section>
-    ${zhImmigrationAllianceSection()}
 
     <section class="band compact-band zh-home-workbench zh-mobile-single-stack" aria-label="海外督導｜工作台">
       <div class="zh-workbench-head">
