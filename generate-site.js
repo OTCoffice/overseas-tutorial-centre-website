@@ -12920,14 +12920,28 @@ const zhImmigrationAlliance = pageShell({
   body: `
     <section class="immigration-alliance-hero">
       <div class="band">
-        <div class="immigration-alliance-hero-copy">
-          <span>IMMIGRATION ALLIANCE 2026</span>
-          <h1>各國移民政策<br>與法規最新動態</h1>
-          <p>系統化整理美國、英國、澳洲、加拿大、紐西蘭、歐盟等主要目的地最新移民政策、職業清單、永居路徑與風險提示。</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="#countries">按國家瀏覽</a>
-            <a class="btn btn-secondary" href="#latest">最新政策更新</a>
+        <div class="immigration-alliance-hero-grid">
+          <div class="immigration-alliance-hero-copy">
+            <span>IMMIGRATION ALLIANCE 2026</span>
+            <h1>各國移民政策<br>與法規最新動態</h1>
+            <p>像暑校聯盟一樣先按目的地和家庭問題拆路線：留學後工作、僱主擔保、州省提名、人才創新、職業資格與官方查詢入口。</p>
+            <div class="immigration-alliance-hero-proofs">
+              <article><strong>10 個目的地</strong><span>美英澳加新與歐洲重點國家</span></article>
+              <article><strong>官方入口優先</strong><span>每頁保留官方來源，不寫死民間傳聞</span></article>
+              <article><strong>教育到職業</strong><span>從課程、工作權、考牌到長期居留</span></article>
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary" href="#countries">按國家瀏覽</a>
+              <a class="btn btn-secondary" href="#latest">最新政策更新</a>
+            </div>
           </div>
+          <aside class="immigration-alliance-hero-side">
+            <div class="immigration-alliance-hero-stats">
+              <article><strong>10</strong><span>國家分頁</span></article>
+              <article><strong>30+</strong><span>官方入口</span></article>
+              <article><strong>4</strong><span>路線矩陣</span></article>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
@@ -12939,20 +12953,32 @@ const zhImmigrationAlliance = pageShell({
     </section>
 
     <section class="band compact-band immigration-alliance-countries" id="countries">
-      <div class="section-head compact-head">
-        <div class="eyebrow">Country Desk</div>
-        <h2>按國家建立移民政策閱讀框架。</h2>
-        <p>先看官方制度，再回到個人條件。OTC 將國家、職業、學歷、工作經驗、英語與合規風險分開呈現，避免把熱門帖當成申請策略。</p>
-      </div>
-      <div class="immigration-country-grid">
-        ${immigrationAllianceCountries.map(([slug, en, zh, desc, href, source]) => `
-          <article id="${slug}">
-            <div><span>${en}</span><em>${source}</em></div>
-            <strong>${zh}</strong>
-            <p>${desc}</p>
-            <a href="${href}">查看相關資料 →</a>
-          </article>
-        `).join("")}
+      <div class="immigration-alliance-content-grid">
+        <div class="immigration-alliance-main-column">
+          <div class="section-head compact-head">
+            <div class="eyebrow">Country Desk</div>
+            <h2>按國家建立移民政策閱讀框架。</h2>
+            <p>先看官方制度，再回到個人條件。OTC 將國家、職業、學歷、工作經驗、英語與合規風險分開呈現，避免把熱門帖當成申請策略。</p>
+          </div>
+          <div class="immigration-country-grid">
+            ${immigrationAllianceCountries.map(([slug, en, zh, desc, href, source]) => `
+              <article id="${slug}">
+                <div><span>${en}</span><em>${source}</em></div>
+                <strong>${zh}</strong>
+                <p>${desc}</p>
+                <a href="${href}">查看相關資料 →</a>
+              </article>
+            `).join("")}
+          </div>
+        </div>
+        <aside class="immigration-alliance-side-rail" aria-label="移民聯盟側欄">
+          <span>Decision Desk</span>
+          <strong>先問三件事</strong>
+          <p>目的地、可用身份、職業/學歷證據。不要先被單一簽證名稱帶走。</p>
+          <a href="#routes">路線矩陣</a>
+          <a href="#latest">政策觀察</a>
+          <a href="mailto:office@overseasuk.com?subject=OTC%20Immigration%20Alliance%20route%20question">提交問題</a>
+        </aside>
       </div>
     </section>
 
@@ -13014,12 +13040,21 @@ function zhImmigrationAllianceCountryPage(country) {
     body: `
       <section class="immigration-alliance-country-hero">
         <div class="band">
-          <span>IMMIGRATION ALLIANCE · ${en}</span>
-          <h1>${zh}移民政策</h1>
-          <p>${desc}</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="#routes">主要路線</a>
-            <a class="btn btn-secondary" href="/zh/immigration-alliance/">返回移民聯盟</a>
+          <div class="immigration-alliance-country-hero-grid">
+            <div>
+              <span>IMMIGRATION ALLIANCE · ${en}</span>
+              <h1>${zh}移民政策</h1>
+              <p>${desc}</p>
+              <div class="actions">
+                <a class="btn btn-primary" href="#routes">主要路線</a>
+                <a class="btn btn-secondary" href="/zh/immigration-alliance/">返回移民聯盟</a>
+              </div>
+            </div>
+            <aside class="immigration-alliance-country-rail">
+              <span>${source}</span>
+              <strong>官方來源優先</strong>
+              <p>先核對條文、申請入口與最新公告，再做個案策略判斷。</p>
+            </aside>
           </div>
         </div>
       </section>
