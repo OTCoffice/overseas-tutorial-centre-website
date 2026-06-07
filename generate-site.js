@@ -12779,6 +12779,286 @@ const zhImmigrationInfo = pageShell({
   `
 });
 
+const immigrationAllianceCountries = [
+  ["usa", "United States", "美國", "EB-1 / EB-2 / EB-5、H-1B、OPT / STEM OPT、綠卡排期與身份銜接。", "/zh/immigration-alliance/usa/", "USCIS / DOS"],
+  ["uk", "United Kingdom", "英國", "Skilled Worker、Global Talent、Graduate route、ILR 與僱主擔保合規。", "/zh/immigration-alliance/uk/", "GOV.UK"],
+  ["australia", "Australia", "澳洲", "189 / 190 / 491、Skills in Demand 482、州擔保、職業評估與考牌。", "/zh/immigration-alliance/australia/", "Home Affairs"],
+  ["canada", "Canada", "加拿大", "Express Entry、PNP、省提名、PGWP、CEC 與職業類別邀請。", "/zh/immigration-alliance/canada/", "IRCC"],
+  ["new-zealand", "New Zealand", "新西蘭", "AEWV、Skilled Migrant Category、Green List、NOL 與 English requirements。", "/zh/immigration-alliance/new-zealand/", "INZ"],
+  ["singapore", "Singapore", "新加坡", "Employment Pass、COMPASS、ONE Pass、EntrePass 與高技能就業路線。", "/zh/immigration-alliance/singapore/", "MOM"],
+  ["germany", "Germany", "德國", "EU Blue Card、Chancenkarte、技術工人法與職業資格認可。", "/zh/immigration-alliance/germany/", "Make it in Germany"],
+  ["france", "France", "法國", "Passeport Talent、創業、研究、藝術文化與求職/創業回流簽證。", "/zh/immigration-alliance/france/", "France-Visas"],
+  ["spain", "Spain", "西班牙", "Digital Nomad、創業、非盈利居留與歐盟長居銜接。", "/zh/immigration-alliance/spain/", "Exteriores"],
+  ["italy", "Italy", "義大利", "Digital Nomad / Remote Worker、自僱、創新初創與居留許可。", "/zh/immigration-alliance/italy/", "Esteri / MIMIT"]
+];
+
+const immigrationAllianceCountryProfiles = {
+  usa: {
+    routes: ["EB-1 / EB-2 / NIW", "H-1B → employment-based green card", "EB-5 investor route", "F-1 OPT / STEM OPT transition"],
+    update: "2026 年應同時查看 USCIS STEM professional options、Department of State Visa Bulletin 與 EB-5 投資額口徑；中國大陸出生申請人尤其要核對 employment-based 排期。",
+    links: [
+      ["USCIS — STEM professionals options", "https://www.uscis.gov/working-in-the-united-states/options-for-alien-stem-professionals-to-work-in-the-united-states"],
+      ["Department of State — Visa Bulletin", "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html"],
+      ["USCIS — EB-5 immigrant investor", "https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-immigrant-investors"]
+    ]
+  },
+  uk: {
+    routes: ["Skilled Worker", "Global Talent", "Graduate route → sponsored work", "ILR long-term planning"],
+    update: "2026 年英國路線重點在 sponsor compliance、Skilled Worker Appendix、薪資與英語要求；學生家庭要把 offer、雇主 sponsor 與 ILR 時間線分開看。",
+    links: [
+      ["GOV.UK — Appendix Skilled Worker", "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker"],
+      ["GOV.UK — Sponsor a Skilled Worker", "https://www.gov.uk/government/publications/sponsor-a-skilled-worker"],
+      ["GOV.UK — Global Talent visa", "https://www.gov.uk/global-talent"]
+    ]
+  },
+  australia: {
+    routes: ["Subclass 189 / 190 / 491", "Skills in Demand / 482", "Employer nomination", "Skills assessment + registration"],
+    update: "澳洲長期路線不只看簽證名，還要看職業評估、州擔保、僱主資質、英語、薪資和職業註冊。健康、幼教、技工、工程類尤其要先核對考牌。",
+    links: [
+      ["Home Affairs — Skilled occupation list", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list"],
+      ["Home Affairs — Skills in Demand visa", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-482"],
+      ["留學導報 — 澳洲職業考牌", "https://overseasuk.com/zh/insights/licensing/"]
+    ]
+  },
+  canada: {
+    routes: ["Express Entry", "Provincial Nominee Program", "Canadian Experience Class", "PGWP → skilled work"],
+    update: "加拿大要把 Express Entry pool、PNP nomination、省份職業偏好和畢業後工作權分開讀；PNP 可顯著改變 CRS，但省份要求不同。",
+    links: [
+      ["IRCC — Express Entry", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"],
+      ["IRCC — Provincial Nominee Program", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"],
+      ["IRCC — Post-graduation work permit", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"]
+    ]
+  },
+  "new-zealand": {
+    routes: ["Accredited Employer Work Visa", "Skilled Migrant Category", "Green List", "Post Study Work Visa"],
+    update: "Immigration NZ 已公布 2026 年 AEWV skill level 3 英語要求、NOL 職業更新與 2026 年 8 月 SMC 變更；低技能與高技能路線要分開規劃。",
+    links: [
+      ["INZ — Skilled Migrant Category changes", "https://www.immigration.govt.nz/about-us/news-centre/further-changes-to-the-skilled-migrant-category-to-come-into-effect-in-august-2026/"],
+      ["INZ — AEWV English requirements", "https://www.immigration.govt.nz/about-us/news-centre/english-language-requirements-extended-to-aewv-skill-level-3-roles/"],
+      ["INZ — Accredited Employer Work Visa", "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/accredited-employer-work-visa"]
+    ]
+  },
+  singapore: {
+    routes: ["Employment Pass", "COMPASS points framework", "ONE Pass / Tech routes", "EntrePass and business setup"],
+    update: "新加坡重點在雇主、薪資、COMPASS 計分、行業短缺與公平招聘要求。2026 年仍應以 MOM Employment Pass 與 COMPASS 官方頁面逐項核對。",
+    links: [
+      ["MOM — Employment Pass", "https://www.mom.gov.sg/passes-and-permits/employment-pass"],
+      ["MOM — EP eligibility and COMPASS", "https://www.mom.gov.sg/passes-and-permits/employment-pass/upcoming-changes-to-employment-pass-eligibility/complementarity-assessment-framework-compass"],
+      ["MOM — COMPASS Shortage Occupation List", "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"]
+    ]
+  },
+  germany: {
+    routes: ["EU Blue Card", "Chancenkarte / Opportunity Card", "Skilled worker residence", "Qualification recognition"],
+    update: "德國路線要同時看學歷/職業資格認可、德語、薪資、僱主與生活費證明。Opportunity Card 偏求職入口，Blue Card 偏已取得合格工作。",
+    links: [
+      ["Make it in Germany — Opportunity Card", "https://www.make-it-in-germany.com/en/service/newsletter/opportunitycard"],
+      ["Make it in Germany — Chancenkarte FAQ", "https://www.make-it-in-germany.com/de/visum-aufenthalt/chancenkarte/fragen-antworten"],
+      ["Make it in Germany — EU Blue Card", "https://www.make-it-in-germany.com/de/visum-aufenthalt/arten/blaue-karte-eu"]
+    ]
+  },
+  france: {
+    routes: ["Passeport Talent", "Business creator / innovative project", "Researcher / artist routes", "Job search / business creation after French degree"],
+    update: "法國頁面重點不是單一移民分數，而是長居簽證類別、Passeport Talent 分支、資源證明與到法後換取多年居留卡的節點。",
+    links: [
+      ["France-Visas — International talents", "https://france-visas.gouv.fr/web/france-visas/talents-internationaux-et-attractivite-economique"],
+      ["France-Visas — Passeport Talent", "https://france-visas.gouv.fr/web/france-visas/passeport-talents"],
+      ["France-Visas — Job search / business creation", "https://france-visas.gouv.fr/recherche-d-emploi-creation-d-entreprise"]
+    ]
+  },
+  spain: {
+    routes: ["Telework / Digital Nomad visa", "Entrepreneur / startup route", "Non-lucrative residence", "Self-employed professional route"],
+    update: "西班牙數字游民路線對遠程工作來源、NIE、文件認證、收入與社保/稅務安排很敏感；僱員與自僱人可工作的範圍也不同。",
+    links: [
+      ["Spain Consular Services — Digital Nomad Visa", "https://www.exteriores.gob.es/Embajadas/dublin/en/ServiciosConsulares/Paginas/Consular/Digital-Nomad-Visa.aspx"],
+      ["Spain Consular Services — Telework visa", "https://www.exteriores.gob.es/Consulados/washington/en/ServiciosConsulares/Paginas/Consular/Telework-visa.aspx"],
+      ["Spain Consular Services — Residence visa for teleworking", "https://www.exteriores.gob.es/Consulados/montreal/en/ServiciosConsulares/Paginas/Consular/Residence-visa-for-teleworking-%28digital-nomad%29.aspx"]
+    ]
+  },
+  italy: {
+    routes: ["Digital Nomad / Remote Worker visa", "Self-employment", "Innovative startup", "Elective residence"],
+    update: "義大利數字游民/遠程工作簽證由不同領館落地執行，還涉及高度專業工作、稅務、社保、居留許可與職業牌照；申請前必須核對管轄領館清單。",
+    links: [
+      ["Visa for Italy — official portal", "https://vistoperitalia.esteri.it/ees"],
+      ["Italian Consulate New York — Digital Nomad / Remote Worker Visa", "https://consnewyork.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/visas-to-enter-italy/digital-nomad-remote-worker-visa/"],
+      ["MIMIT — Innovative startups and SMEs", "https://www.mimit.gov.it/index.php/it/impresa/registro-delle-imprese/startup"]
+    ]
+  }
+};
+
+function zhImmigrationAllianceSection() {
+  return `
+    <section class="band compact-band zh-immigration-alliance-strip">
+      <div class="zh-immigration-alliance-copy">
+        <span>Immigration Alliance</span>
+        <h2>移民聯盟</h2>
+        <h3>各國移民政策・法規・最新動態</h3>
+        <p>按國家整理最新政策、職業路線、畢業後工作權、永居路徑與合規風險。適合已完成留學規劃、準備長期居留的家庭。</p>
+        <a href="/zh/immigration-alliance/">進入移民聯盟 →</a>
+      </div>
+      <div class="zh-immigration-alliance-cards" aria-label="移民聯盟國家入口">
+        ${immigrationAllianceCountries.slice(0, 6).map(([slug, en, zh, desc, href, source]) => `
+          <a href="${href}">
+            <b>${zh}</b>
+            <span>${desc}</span>
+            <em>${source}</em>
+          </a>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
+const zhImmigrationAlliance = pageShell({
+  title: "移民聯盟 | OTC Study Hub",
+  current: "zh",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/zh/immigration-alliance/",
+  image: "/assets/hero-worldmap-nasa-blackmarble-2016.jpg",
+  imageAlt: "移民聯盟：各國移民政策與法規最新動態",
+  description: "OTC 移民聯盟：系統化整理美國、英國、澳洲、加拿大、新西蘭、歐盟等主要目的地最新移民政策、職業清單、永居路徑與風險提示。",
+  body: `
+    <section class="immigration-alliance-hero">
+      <div class="band">
+        <div class="immigration-alliance-hero-copy">
+          <span>IMMIGRATION ALLIANCE 2026</span>
+          <h1>各國移民政策<br>與法規最新動態</h1>
+          <p>系統化整理美國、英國、澳洲、加拿大、紐西蘭、歐盟等主要目的地最新移民政策、職業清單、永居路徑與風險提示。</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#countries">按國家瀏覽</a>
+            <a class="btn btn-secondary" href="#latest">最新政策更新</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band compact-band immigration-alliance-nav" aria-label="移民聯盟決策導航">
+      <a href="#countries"><b>01</b><strong>國家入口</strong><span>按目的地拆解政策與官方來源。</span></a>
+      <a href="#routes"><b>02</b><strong>路線類型</strong><span>留學後工作、僱主擔保、州省提名與創新人才。</span></a>
+      <a href="#latest"><b>03</b><strong>最新更新</strong><span>以官方公告和導報核查作為更新線索。</span></a>
+    </section>
+
+    <section class="band compact-band immigration-alliance-countries" id="countries">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Country Desk</div>
+        <h2>按國家建立移民政策閱讀框架。</h2>
+        <p>先看官方制度，再回到個人條件。OTC 將國家、職業、學歷、工作經驗、英語與合規風險分開呈現，避免把熱門帖當成申請策略。</p>
+      </div>
+      <div class="immigration-country-grid">
+        ${immigrationAllianceCountries.map(([slug, en, zh, desc, href, source]) => `
+          <article id="${slug}">
+            <div><span>${en}</span><em>${source}</em></div>
+            <strong>${zh}</strong>
+            <p>${desc}</p>
+            <a href="${href}">查看相關資料 →</a>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="band compact-band immigration-alliance-routes" id="routes">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Route Matrix</div>
+        <h2>常見路線比較。</h2>
+        <p>每個國家名稱不同，但家庭實際要比較的問題相似：能否留下工作、是否需要僱主、是否看職業清單、是否能轉永居。</p>
+      </div>
+      <div class="immigration-route-table">
+        <table>
+          <thead><tr><th>路線</th><th>典型國家</th><th>核心判斷</th><th>OTC 可協助整理</th></tr></thead>
+          <tbody>
+            <tr><td>留學後工作</td><td>英國、加拿大、澳洲、新西蘭</td><td>課程層級、學習時長、畢業時間、申請窗口</td><td>學歷與時間線梳理</td></tr>
+            <tr><td>僱主擔保</td><td>英國、澳洲、新西蘭、加拿大</td><td>僱主資質、職位真實性、薪資、英文與合規</td><td>職位與文件問題清單</td></tr>
+            <tr><td>州 / 省 / 地區提名</td><td>澳洲、加拿大</td><td>地區需求、職業、居住/工作要求、邀請節奏</td><td>政策入口與證據清單</td></tr>
+            <tr><td>人才 / 創新 / 投資</td><td>美國、英國、澳洲、加拿大</td><td>成就證據、商業化、研究影響、投資與推薦</td><td>履歷與證據架構</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band compact-band immigration-alliance-timeline" id="latest">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Policy Timeline</div>
+        <h2>近期政策觀察。</h2>
+      </div>
+      <div class="immigration-timeline-list">
+        <article><b>2026</b><strong>新西蘭 SMC / AEWV</strong><span>Immigration NZ 已公布 2026 年 SMC 與 AEWV 相關更新，包括 AEWV skill level 3 英語要求及 2026 年 8 月生效的 SMC 變更。</span></article>
+        <article><b>2026</b><strong>英國 Skilled Worker</strong><span>GOV.UK sponsor guidance 已更新部分 Skilled Worker 英語與 sponsor compliance 說明，申請仍須逐項查 Appendix Skilled Worker。</span></article>
+        <article><b>2026</b><strong>加拿大 PNP / Express Entry</strong><span>IRCC 持續透過 Express Entry 與省提名分流邀請，家庭應分開看 federal pool、PNP nomination 與職業類別邀請。</span></article>
+        <article><b>2026</b><strong>澳洲技術與職業路線</strong><span>澳洲仍以職業、技能評估、州擔保、僱主擔保與職業註冊交叉構成長期路線。</span></article>
+      </div>
+    </section>
+
+    <section class="band compact-band immigration-alliance-disclaimer">
+      <strong>OTC 移民資訊免責聲明</strong>
+      <p>本頁為公開資訊整理，正式申請以官方機構最新公告為準。OTC 可協助家庭整理教育背景、職業路線、官方政策入口與文件問題清單；簽證、移民、法律、稅務、專業註冊及個案策略須由相應官方機構或合資格專業人士處理。</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=OTC%20Immigration%20Alliance%20route%20question">提交路線問題</a>
+        <a class="btn btn-secondary" href="/zh/immigration-info/">移民資訊舊入口</a>
+      </div>
+    </section>
+  `
+});
+
+function zhImmigrationAllianceCountryPage(country) {
+  const [slug, en, zh, desc, href, source] = country;
+  const profile = immigrationAllianceCountryProfiles[slug];
+  return pageShell({
+    title: `${zh}移民政策 | 移民聯盟 | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    path: href,
+    image: "/assets/hero-worldmap-nasa-blackmarble-2016.jpg",
+    imageAlt: `${zh}移民政策與法規最新動態`,
+    description: `OTC 移民聯盟${zh}頁：${desc}`,
+    body: `
+      <section class="immigration-alliance-country-hero">
+        <div class="band">
+          <span>IMMIGRATION ALLIANCE · ${en}</span>
+          <h1>${zh}移民政策</h1>
+          <p>${desc}</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#routes">主要路線</a>
+            <a class="btn btn-secondary" href="/zh/immigration-alliance/">返回移民聯盟</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band compact-band immigration-alliance-country-body" id="routes">
+        <div class="section-head compact-head">
+          <div class="eyebrow">${source}</div>
+          <h2>主要路線</h2>
+          <p>${profile.update}</p>
+        </div>
+        <div class="immigration-country-route-grid">
+          ${profile.routes.map((route, index) => `
+            <article>
+              <b>${String(index + 1).padStart(2, "0")}</b>
+              <strong>${route}</strong>
+              <span>需按官方條件、文件與個案背景逐項核對。</span>
+            </article>
+          `).join("")}
+        </div>
+      </section>
+
+      <section class="band compact-band immigration-alliance-country-sources">
+        <div class="section-head compact-head">
+          <div class="eyebrow">Official Sources</div>
+          <h2>官方查詢入口</h2>
+        </div>
+        <div class="immigration-source-list">
+          ${profile.links.map(([label, link]) => `<a href="${link}" target="_blank" rel="noopener"><strong>${label}</strong><span>${link}</span></a>`).join("")}
+        </div>
+      </section>
+
+      <section class="band compact-band immigration-alliance-disclaimer">
+        <strong>合規聲明</strong>
+        <p>本頁為公開資訊整理，不構成移民建議、法律意見、簽證承諾、工作承諾或永居保證。正式申請請以各國官方機構最新公告及合資格專業人士意見為準。</p>
+      </section>
+    `
+  });
+}
+
 const chineseEntrance = pageShell({
   title: "中文 | OTC Study Hub",
   current: "zh",
@@ -12826,6 +13106,7 @@ const chineseEntrance = pageShell({
       </div>
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
     </section>
+    ${zhImmigrationAllianceSection()}
 
     <section class="band compact-band zh-home-workbench zh-mobile-single-stack" aria-label="海外督導｜工作台">
       <div class="zh-workbench-head">
@@ -21828,6 +22109,10 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
 write("zh", chineseEntrance);
 write("zh/study-planning", zhStudyPlanning);
 write("zh/immigration-info", zhImmigrationInfo);
+write("zh/immigration-alliance", zhImmigrationAlliance);
+immigrationAllianceCountries.forEach((country) => {
+  write(`zh/immigration-alliance/${country[0]}`, zhImmigrationAllianceCountryPage(country));
+});
 write("zh/study-group-2026-applications", studyGroup2026ApplicationsZh);
 write("zh/private-school-alliance", privateSchoolAlliance);
 write("zh/private-school-alliance/vietnam", vietnamPrivateSchoolAlliance);
