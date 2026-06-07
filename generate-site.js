@@ -1698,6 +1698,7 @@ function write(route, html) {
   const htmlWithCanonical = html
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`)
     .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`)
+    .replace(/href="(?:\.\.\/)*styles\.css\?v=/g, `href="/styles.css?v=`)
     .replace(/[ \t]+$/gm, "");
   fs.writeFileSync(path.join(dir, "index.html"), htmlWithCanonical);
   generatedRoutes.push(publicPath);
