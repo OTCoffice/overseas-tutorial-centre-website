@@ -12924,7 +12924,7 @@ const zhImmigrationAlliance = pageShell({
         <div class="immigration-alliance-hero-grid">
           <div class="immigration-alliance-hero-copy">
             <span>IMMIGRATION ALLIANCE 2026</span>
-            <h1>各國移民政策<br>與法規最新動態</h1>
+            <h1>移民聯盟：政策｜法規｜動態</h1>
             <p>像暑校聯盟一樣先按目的地和家庭問題拆路線：留學後工作、僱主擔保、州省提名、人才創新、職業資格與官方查詢入口。</p>
             <div class="immigration-alliance-hero-proofs">
               <article><strong>10 個目的地</strong><span>美英澳加新與歐洲重點國家</span></article>
@@ -12942,6 +12942,15 @@ const zhImmigrationAlliance = pageShell({
               <article><strong>30+</strong><span>官方入口</span></article>
               <article><strong>4</strong><span>路線矩陣</span></article>
             </div>
+            <div class="immigration-alliance-hero-steps" aria-label="決策三步驟">
+              <span>Decision Desk</span>
+              <strong>決策三步驟</strong>
+              <ol>
+                <li><b>01</b><em>目的地</em></li>
+                <li><b>02</b><em>可用身份</em></li>
+                <li><b>03</b><em>職業 / 學歷證據</em></li>
+              </ol>
+            </div>
           </aside>
         </div>
       </div>
@@ -12954,11 +12963,10 @@ const zhImmigrationAlliance = pageShell({
     </section>
 
     <section class="band compact-band immigration-alliance-countries" id="countries">
-      <div class="immigration-alliance-content-grid">
-        <div class="immigration-alliance-main-column">
+      <div class="immigration-alliance-main-column">
           <div class="section-head compact-head">
             <div class="eyebrow">Country Desk</div>
-            <h2>按國家建立移民政策閱讀框架。</h2>
+            <h2>移民政策閱讀框架</h2>
             <p>先看官方制度，再回到個人條件。OTC 將國家、職業、學歷、工作經驗、英語與合規風險分開呈現，避免把熱門帖當成申請策略。</p>
           </div>
           <div class="immigration-country-grid">
@@ -12971,15 +12979,6 @@ const zhImmigrationAlliance = pageShell({
               </article>
             `).join("")}
           </div>
-        </div>
-        <aside class="immigration-alliance-side-rail" aria-label="移民聯盟側欄">
-          <span>Decision Desk</span>
-          <strong>先問三件事</strong>
-          <p>目的地、可用身份、職業/學歷證據。不要先被單一簽證名稱帶走。</p>
-          <a href="#routes">路線矩陣</a>
-          <a href="#latest">政策觀察</a>
-          <a href="mailto:office@overseasuk.com?subject=OTC%20Immigration%20Alliance%20route%20question">提交問題</a>
-        </aside>
       </div>
     </section>
 
