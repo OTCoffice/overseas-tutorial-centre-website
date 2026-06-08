@@ -2403,6 +2403,127 @@ const insightsArticles = [
     ]
   },
   {
+    slug: "segi-othm-level-6-diploma-to-master-malaysia",
+    title: "SEGi University Malaysia: Using OTHM Level 6 as a Diploma-to-Master Planning Route",
+    date: "2026-06-08",
+    category: "OTHM Qualifications",
+    column: "study",
+    kicker: "Malaysia · SEGi University · OTHM Level 6",
+    author: "留學導報編輯部",
+    summary: "A practical Chinese briefing on the SEGi University Malaysia diploma-to-master planning route using OTHM Level 6 as a bridging framework, with careful notes on entry requirements, English evidence, study mode, China credential verification and application checks.",
+    titleZh: "SEGi 專升碩：OTHM Level 6 到馬來西亞碩士",
+    summaryZh: "馬來西亞 SEGi University 的專升碩路線常被包裝成「大專生 1.5 年拿碩士」。本文用導報方式拆解：OTHM Level 6 作為銜接框架、SEGi MBA／教育類碩士的入學判斷、語言要求、學歷認證與申請前必須核對的文件。",
+    relatedReadings: [
+      "othm-uk-qualifications-global-career-pathways",
+      "othm-social-care-aged-care-career-progression-route",
+      "othm-credits-australia-advanced-entry",
+      "btec-othm-assignment-evidence-log-checklist"
+    ],
+    resources: [
+      ["SEGi University — Master of Business Administration", "https://university.segi.edu.my/?course=master-of-business-administration"],
+      ["OTHM Level 6 Diploma in Business Management Specification", "https://othm.org.uk/docs/qualifications/othm-level-6-diploma-in-business-management/specification_files/othm_level_6_diploma_in_business_management_2024-06-07_10-37.pdf"],
+      ["OTHM Qualifications — University Progressions", "https://othm.org.uk/university-progression"],
+      ["中國教育部留學服務中心 — 國外學歷學位認證系統", "https://zwfw.cscse.edu.cn/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-08。SEGi University MBA 官方頁列明 programme 為 postgraduate level，官方介紹其 12-month completion timeline；入學要求包含 Bachelor degree 及其他由 Malaysian Government 認可的 Level 6 等同／相關資格，具體接受與否以 SEGi admissions / Senate 審核為準。",
+      "OTHM Level 6 Diploma in Business Management 官方規格列明該資格受 Ofqual 監管，120 credits，assessment method 為 coursework，Level 6 等同於 bachelor-level academic terms，並可為相關碩士銜接提供 progression 機會。",
+      "本文不承諾任何學生必然免雅思、必然錄取、必然 1.5 年畢業或必然通過中國留服認證。語言豁免、內測安排、入學時間、簽證、線上／線下學習比例與學歷認證均須以 SEGi、OTHM、馬來西亞官方與中國留服最新規則為準。"
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic" style="padding:22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <div style="background:#fff; border:1px solid rgba(20,32,51,.14); border-radius:12px; padding:14px 18px; min-width:190px;">
+          <img src="/assets/brand/othm-logo.png" alt="OTHM Qualifications logo" style="display:block; width:180px; max-width:48vw; height:auto;">
+        </div>
+        <div style="flex:1; min-width:240px;">
+          <h2 style="margin:0 0 8px; color:#142033;">SEGi / OTHM Diploma-to-Master Route</h2>
+          <p style="margin:0; color:#536070;">Level 6 bridging, postgraduate entry review, English evidence and credential-verification planning.</p>
+        </div>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) The route in plain terms",
+        paragraphs: [
+          "For diploma holders, the SEGi University Malaysia route is often discussed as a diploma-to-master pathway using OTHM Level 6 as a bridging framework before entering a postgraduate programme such as an MBA or education-related master’s route.",
+          "The key is not to treat the route as automatic. Level 6 learning, university entry review, English evidence, visa conditions and credential verification should be checked as separate decisions."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這條路線到底在解決什麼問題",
+        paragraphs: [
+          "很多大專學歷學生想讀碩士，但在傳統路線上會遇到兩個障礙：第一，本科學位缺口；第二，語言成績與入學審核壓力。馬來西亞 SEGi University 與 OTHM Level 6 銜接框架被關注，正是因為它試圖把大專背景、英國 Level 6 學習和馬來西亞碩士入學放進同一條路線。",
+          "市場上常見說法是「國內線上 OTHM Level 6 + 馬來西亞一年碩士」，最快約 1.5 年完成。但導報建議把這句話拆開理解：OTHM 階段是否合規完成、SEGi 是否接受你的前置資格、英語是否可通過內測或其他方式滿足、簽證與在馬學習時間是否符合要求、畢業後中國留服是否按個案認證，都是不同環節。"
+        ]
+      },
+      {
+        heading: "二、OTHM Level 6 在路線中的角色",
+        paragraphs: [
+          "OTHM Level 6 Diploma in Business Management 是英國 Ofqual 監管資格，官方規格列明 120 credits、coursework assessment，學術等同層級接近本科階段。它的作用不是把大專文憑「變成本科」，而是為學生提供一個可被大學審核的 Level 6 學習證據。",
+          "對專升碩申請而言，Level 6 的價值在於補足商業管理、領導力、研究、營運、財務與人力資源等碩士前置能力。尤其對準備申請 MBA、管理類或教育管理方向的學生，這一階段可以幫助招生方判斷你是否具備 postgraduate study readiness。"
+        ]
+      },
+      {
+        heading: "三、SEGi University 碩士端要看什麼",
+        paragraphs: [
+          "SEGi University MBA 官方頁列明碩士課程通常可在 12 個月完成，入學條件包括相關或非相關本科背景，也包括由馬來西亞政府認可的 Level 6 等同／相關資格。這意味著 OTHM Level 6 可以成為申請材料中的重要依據，但最終仍要由 SEGi admissions / Senate 進行審核。",
+          "申請人不應只問「能不能專升碩」，而應準備一份完整審核包：大專畢業證、成績單、學信網可查證明、OTHM 學習與通過證明、英文能力材料、護照、履歷、個人陳述，以及如有工作經驗，最好提供正式 employment letter 或社保／收入證明。"
+        ]
+      },
+      {
+        heading: "四、免雅思／內測要謹慎理解",
+        paragraphs: [
+          "不少馬來西亞私立大學在招生實務中會提供 internal English test 或英文評估安排，因此學生可能不需要一開始就提交 IELTS / TOEFL。但這不等於「沒有英文要求」。SEGi 官方 MBA 頁仍列出 MUET Band 4、CEFR Mid B2 或 IELTS 6.0 等英文要求作為標準。",
+          "導報建議：若招生顧問表示可免雅思托福，一定要取得書面確認，說明是入學前內測、入學後補交、基於前置英文授課豁免，還是只針對某一 intake / programme 的安排。英文安排會影響錄取、簽證、註冊和後續學習壓力，不能只聽口頭承諾。"
+        ]
+      },
+      {
+        heading: "五、誰比較適合這條專升碩路線",
+        paragraphs: [
+          "第一類，是學信網可查的大專畢業生，包括全日制大專、成人高考、自考、網絡教育、五年一貫制等背景，但具體能否接受仍要看學校審核。第二類，是已有工作經驗、希望把學歷提升到管理或教育方向的人。",
+          "第三類，是不希望花三到四年重新讀本科、但願意接受作業制、英文閱讀寫作和馬來西亞線下學習安排的學生。若完全不能接受英文作業、案例分析、研究報告和碩士論文，這條路線即使時間短，也不一定適合。"
+        ]
+      },
+      {
+        heading: "六、可選方向：MBA 與教育類碩士",
+        paragraphs: [
+          "從市場常見方案看，SEGi 專升碩主要被包裝為 MBA 及 MEd 等方向。MBA 適合希望走企業管理、創業、運營、人力資源、項目管理、數據或市場方向的學生；教育學碩士則更適合已有教育、培訓、學校行政或課程設計經驗的人。",
+          "跨專業並非完全不可能，但跨專業越大，越要提前準備補充材料。例如護理、教育、商科、行政或自雇背景學生申請管理類碩士時，應用履歷和個人陳述把工作經驗與碩士方向連起來，而不是只靠一句『不限專業』。"
+        ]
+      },
+      {
+        heading: "七、典型流程：先審核，再入讀",
+        paragraphs: [
+          "一個較穩妥的流程是：先做前置學歷初審，確認大專證書、成績單、學信網記錄與英文能力情況；再進入 OTHM Level 6 學習，完成 coursework、案例分析、研究型作業與學術寫作訓練；之後向 SEGi 提交碩士申請與材料審核。",
+          "如果獲得 SEGi 碩士錄取，再按學校與馬來西亞學生簽證要求安排赴馬學習。所謂「國內半年 + 馬來西亞一年」只應作為常見規劃框架，不能替代正式 offer、academic calendar、visa approval letter 和註冊文件。"
+        ]
+      },
+      {
+        heading: "八、中國留服認證：不是一句話保證",
+        paragraphs: [
+          "很多家庭最關心的是回國後能否在中國教育部留學服務中心做學歷學位認證。原則上，境外高校學位是否可認證，要看院校資質、學習形式、出入境記錄、學習時長、課程真實性、學位授予文件及中留服當期規則。",
+          "因此，文章不能把「可認證」寫成無條件承諾。更嚴謹的說法是：若學生完成 SEGi 正規碩士課程並符合中國留服關於境外學習、學位授予和材料真實性的要求，畢業後可按中留服流程提交認證申請；最終結果以中留服審核為準。"
+        ]
+      },
+      {
+        heading: "九、申請前必須問清的 10 個問題",
+        paragraphs: [
+          "第一，SEGi 是否直接書面確認接受你的 OTHM Level 6 與大專背景？第二，入讀的是哪一個 campus、哪一個 programme code、哪一個 intake？第三，英文要求是 IELTS、MUET、內測還是豁免？第四，OTHM 階段的 delivery centre 是否合規，學習時長和作業要求是什麼？第五，碩士階段是否需要全日制線下學習？",
+          "第六，馬來西亞學生簽證由誰處理，時間線如何？第七，學費、雜費、住宿、保險、簽證費和補考費如何列明？第八，若內測未通過或作業未通過怎麼辦？第九，畢業證、成績單、學位證和 verification letter 如何取得？第十，回國認證材料是否能完整保留。"
+        ]
+      },
+      {
+        heading: "十、導報提醒：短路線更需要文件紀律",
+        paragraphs: [
+          "專升碩路線的吸引力在於時間短、門檻相對靈活、成本通常低於英美澳主流碩士，但越是快速路線，越不能靠模糊承諾推進。所有核心條件都應落在書面材料上：入學資格、英文安排、學制、學費、簽證、線下學習與認證邏輯。",
+          "對適合的學生來說，SEGi + OTHM Level 6 可以是一條務實的學歷提升路線；對不適合的學生來說，它也可能因英文、作業、簽證或認證理解不足而變成風險。真正的規劃，不是追求最短，而是把每一步核對清楚。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "othm-social-care-aged-care-career-progression-route",
     title: "Choosing Social Care and Aged Care: A Career-Progression Route Using OTHM Health and Social Care Qualifications",
     date: "2026-06-05",
