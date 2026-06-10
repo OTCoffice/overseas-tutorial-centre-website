@@ -2107,8 +2107,84 @@ const australiaLicensingHotspotArticles = [
   })
 ];
 
+const ukEytsRecognitionBody = [
+  {
+    heading: "1) 4500鎊獎金：英國政府重金搶幼師落區",
+    paragraphs: [
+      "為提升幼兒教育質素、縮窄貧富兒童發展差距，英國政府正式推出早期教育教師認可獎金（Early Years Teacher Recognition Payment）。凡合資格的幼兒教師（Early Years Teacher）在指定貧困社區的幼兒園任教，即可獲得一次性稅前4500英鎊（約HK$47,000 / TWD 190,000）獎勵。",
+      "此獎金不限國籍，只要合法在英國工作並符合資格即可申請，對有意以幼教切入英國職場的海外人士而言，是一個帶有實質經濟誘因的入場機會。"
+    ]
+  },
+  {
+    heading: "2) 首批10個地區啟動，年內擴展至30區",
+    paragraphs: [
+      "計畫已於2026年6月率先在10個地區啟動，包括米杜士堡（Middlesbrough）、山威（Sandwell）、羅慈地（Rochdale）、Tameside、Bolton、Hartlepool、Rotherham、Dudley、Luton 及 Barking and Dagenham。",
+      "政府預計今年內擴展至30個地區，選擇標準包括地區貧窮率、教師短缺情況及兒童入學準備度。換言之，越是缺人、越是貧困的社區，越可能進入獎金名單，也越有機會為海外候選人提供職位與擔保。"
+    ]
+  },
+  {
+    heading: "3) 政策背景：盡早拉近起跑線",
+    paragraphs: [
+      "教育大臣Bridget Phillipson強調：「每個孩子都應擁有最優秀的老師，無論出生在Sandwell還是Middlesbrough。」幼教聯盟指出，貧困地區兒童入學時發展平均落後富裕同齡兒童近5個月，及早介入有助縮小差距。",
+      "目前全英國僅約一成幼兒園配有專科畢業教師，人手短缺問題嚴峻，這也是政府願意以獎金吸納並挽留人才的根本原因。"
+    ]
+  },
+  {
+    heading: "4) 申請資格重點",
+    paragraphs: [
+      "申請人須持有 Qualified Teacher Status (QTS)、Early Years Teacher Status (EYTS) 或 Early Years Professional Status；並在參與計畫的私立、志願或獨立幼兒園全職或兼職工作，直接與兒童互動時間達70%以上。",
+      "新入職或離開行業超過6個月後重返者優先。獎金為稅前4500英鎊，通常需服務滿一定時間（一般為6個月）後發放。"
+    ]
+  },
+  {
+    heading: "5) 海外留學／工作人士能否加入",
+    paragraphs: [
+      "資格認證方面，海外幼兒教育或師範學位需通過英國官方認證（通常經DfE或相關機構評估），轉換為EYTS／QTS。持有澳洲、加拿大、香港、新加坡等主流教育體系資格者，認證相對順利。",
+      "簽證方面，非英國人士需取得技術工人簽證（Skilled Worker Visa）。許多幼兒園可提供簽證擔保（Visa Sponsorship），尤其在嚴重缺人地區；薪資需達最低門檻（目前約£26,200起），多數合格幼師職位可符合。",
+      "實際機會上，貧困地區幼兒園招聘壓力大，較願意為合適海外候選人提供擔保；持相關學位加工作經驗者競爭力不弱。挑戰在於需先取得工作Offer、完成資格認證、再申請簽證，整個流程可能需3至6個月，並須符合語言要求（IELTS 6.5或同等）與背景審查（DBS Check）。"
+    ]
+  },
+  {
+    heading: "6) 留學導報建議與行動指引",
+    paragraphs: [
+      "若你持有幼兒教育相關學位（學士或以上）並有意在英國發展職業，可考慮此計畫作為切入點；尤其是計劃攻讀英國PGCE／EYTS課程的留學生，或已具海外幼教經驗者，畢業後直接申請帶獎金職位，能快速累積英國工作經驗並獲得額外收入。",
+      "有意者可透過Indeed、Daynurseries.co.uk或直接聯繫參與地區的幼兒園查詢帶sponsorship的職位，最新官方資訊請參考DfE網站或Early Years Alliance。此類帶獎金職位不僅提供經濟激勵，更有助累積英國工作經驗，對未來申請永居（Indefinite Leave to Remain）或轉換其他簽證極有幫助。",
+      "本文綜合BBC、DfE官方及Early Years Alliance最新報導整理，最新詳情以政府官網為準。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "uk-early-years-teacher-recognition-payment-4500-2026",
+    title: "UK Early Years Teacher Recognition Payment: £4,500 Bonus",
+    date: "2026-06-10",
+    category: "UK Careers",
+    column: "settlement",
+    kicker: "Early Years · QTS / EYTS · Skilled Worker · ILR",
+    author: "留學導報編輯部",
+    summary: "The UK government's Early Years Teacher Recognition Payment gives qualified early years teachers a one-off £4,500 (pre-tax) for working in nurseries in designated disadvantaged areas. This briefing covers the launch areas, eligibility, and how overseas-trained early years staff can enter via qualification recognition and the Skilled Worker visa route toward UK careers and settlement.",
+    titleZh: "英國早期教育教師認可獎金：合格幼師最高獲4500鎊",
+    summaryZh: "英國政府推出早期教育教師認可獎金（Early Years Teacher Recognition Payment），合資格幼兒教師在指定貧困社區任教即可獲一次性稅前4500英鎊。本文整理計畫地區、申請資格，並分析海外幼教背景人士如何透過資格認證與技術工人簽證切入英國幼教職涯與永居路線。",
+    relatedReadings: [
+      "uk-skilled-worker-to-ilr-5-year-checklist-2026",
+      "uk-second-masters-scholarship-funding-guide-2026",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["GOV.UK — Early years recruitment and retention", "https://www.gov.uk/government/collections/early-years-and-childcare"],
+      ["Department for Education", "https://www.gov.uk/government/organisations/department-for-education"],
+      ["Early Years Alliance", "https://www.eyalliance.org.uk/"],
+      ["Daynurseries.co.uk — Nursery jobs", "https://www.daynurseries.co.uk/"]
+    ],
+    body: ukEytsRecognitionBody,
+    bodyZh: ukEytsRecognitionBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。本文所述獎金金額（稅前4500英鎊）、首批10個地區、年內擴展至30區，以及70%互動工時、6個月服務期等資格條件，均以政府公告口徑整理，實際發放條件與名單應以GOV.UK及DfE官方最新公告為準。",
+      "技術工人簽證最低薪資門檻（約£26,200起）與語言要求（IELTS 6.5或同等）會隨內政部政策調整，申請前須核對Home Office最新規定。"
+    ],
+  },
   {
     slug: "ucsb-step-upp-gaokao-us-pathway-2026",
     title: "After Gaokao: UCSB Step UPP as a U.S. Pathway for Chinese Students",
