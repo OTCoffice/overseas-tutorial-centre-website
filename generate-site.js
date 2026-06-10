@@ -2110,6 +2110,108 @@ const australiaLicensingHotspotArticles = [
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
   {
+    slug: "study-nsw-illawarra-grammar-school-briefing-2026",
+    title: "Study NSW 2026 School Briefing: The Illawarra Grammar School",
+    date: "2026-06-10",
+    category: "Australia Schools",
+    column: "study",
+    kicker: "Study NSW · K-12 · Wollongong",
+    author: "留學導報編輯部",
+    summary: "A short OTC briefing note for Chinese families and education partners following the Study NSW Greater China online training reminder for The Illawarra Grammar School, the fifth session in the 2026 NSW quality school series.",
+    titleZh: "今天下午 2 點：2026 新州中小學線上培訓系列五 The Illawarra Grammar School",
+    summaryZh: "Study NSW / Investment NSW 提醒已報名中介伙伴，2026 年新州優質中小學系列線上培訓第五場 The Illawarra Grammar School 專場將於 2026 年 6 月 10 日下午 2 點開始。OTC 將此作為 Wollongong 新州中小學路線的資料承接頁，供家長與合作方後續比較。",
+    relatedReadings: [
+      "australia-agent-training-map-2026",
+      "study-nt-agent-training-certificate-otc-australia-meaning",
+      "australia-student-visa-2026-npl-md115-priority-processing",
+      "tafe-sa-offshore-china-application-guide-2026"
+    ],
+    resources: [
+      ["The Illawarra Grammar School official website", "https://www.tigs.nsw.edu.au/"],
+      ["Study NSW", "https://www.study.nsw.gov.au/"],
+      ["OTC Illawarra review draft", "https://overseasuk.com/australia-schools/the-illawarra-grammar-school/"]
+    ],
+    factCheckNotes: [
+      "來源時間：2026-06-10。本文根據 Investment NSW / Study NSW Greater China training reminder email 整理；郵件提醒第五場 The Illawarra Grammar School 專場於當日下午 2 點開始。",
+      "本文是 OTC 對中介培訓信息的家庭向閱讀整理，不代表 OTC 已取得 The Illawarra Grammar School 或 Study NSW 的正式代理授權。",
+      "正式申請前，年級空位、費用、CRICOS、入學材料、住宿/照護與國際學生支持信息應以學校及官方渠道最新確認為準。"
+    ],
+    body: [
+      {
+        heading: "1) What the reminder says",
+        paragraphs: [
+          "Investment NSW / Study NSW sent a reminder to registered education partners for the 2026 NSW quality primary and secondary school online training series. The fifth session is dedicated to The Illawarra Grammar School and was scheduled for 2:00 pm on 10 June 2026.",
+          "For OTC, the useful point is not just the meeting time. The session gives a structured moment to collect school-specific information for Chinese family counselling: location, year levels, admissions expectations, student support, accommodation or welfare notes, and the right contact pathway."
+        ]
+      },
+      {
+        heading: "2) Why this matters for Chinese families",
+        paragraphs: [
+          "Many families start with Sydney as the default NSW destination. A Wollongong school route can widen the comparison: still in New South Wales, still connected to a recognised education region, but potentially offering a calmer coastal-city rhythm than central Sydney.",
+          "This does not mean every student should choose Wollongong. It means the family should compare city fit, school community, English transition, transport, guardian arrangements and future university planning before narrowing the shortlist."
+        ]
+      },
+      {
+        heading: "3) Questions OTC should take into the follow-up",
+        paragraphs: [
+          "The practical questions are straightforward: which year levels are open to international students, what academic and English evidence is expected, whether interviews or school reports are required, how student welfare is managed, and what the current fee and application timeline looks like.",
+          "Families should also ask how the school supports new international students in the first term: orientation, subject selection, English-language support, pastoral care, activities and communication with parents overseas."
+        ]
+      },
+      {
+        heading: "4) How OTC will use the briefing",
+        paragraphs: [
+          "OTC has created a dedicated review-draft page for The Illawarra Grammar School and will use the briefing notes to complete the profile after school-side information is confirmed.",
+          "The page should remain clearly labelled as a review draft until wording, application pathway and current school details are checked by the appropriate school or programme contact."
+        ]
+      },
+      {
+        heading: "5) Next step for parents and partners",
+        paragraphs: [
+          "Parents who are considering NSW schools can send OTC the student's current year level, recent school reports, English evidence, target intake and family questions. OTC can then compare the Wollongong route with Sydney, regional NSW and other Australian school options.",
+          "Education partners can use this note as a reminder to collect questions during the Study NSW series and avoid over-promising. A briefing invitation is useful evidence of sector engagement, but formal admissions and representation status must still be confirmed separately."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這封提醒郵件說了什麼",
+        paragraphs: [
+          "Investment NSW / Study NSW 發來提醒：已報名的中介伙伴，2026 年新州優質中小學系列線上培訓第五場 The Illawarra Grammar School（伊拉瓦拉文法學校）專場，將於 2026 年 6 月 10 日下午 2 點開始。",
+          "對 OTC 來說，這封郵件的價值不只是提醒開會時間，而是把 The Illawarra Grammar School 放進了 Study NSW 的中小學培訓節奏中。後續可用來整理學校位置、入學要求、學生支持、住宿/照護安排、申請材料和聯絡路線。"
+        ]
+      },
+      {
+        heading: "二、為什麼這對中國家庭有用",
+        paragraphs: [
+          "很多中國家庭一想到新州中小學，第一反應就是 Sydney。但不是所有孩子都適合市中心或大城市高刺激節奏。Wollongong 類型的沿海城市路線，提供了一個介於大城市和區域型學校之間的比較角度。",
+          "這並不表示 Wollongong 一定適合所有學生。真正應該比較的是：孩子是否適合較穩定的城市節奏、是否需要更清晰的 school community、英文過渡是否可控、監護/照護如何安排，以及未來是否希望保留 NSW 大學與城市連接。"
+        ]
+      },
+      {
+        heading: "三、OTC 後續要帶著哪些問題跟進",
+        paragraphs: [
+          "最需要核對的是幾類問題：哪些年級接受國際學生、需要什麼成績和英文證明、是否需要面試或近兩年 school reports、學生 welfare 如何安排、是否有 homestay 或監護相鄰要求，以及目前費用和申請時間線。",
+          "家長還應關心第一學期的過渡支持，例如 orientation、選課、英文支持、pastoral care、課外活動和與海外家長的溝通方式。這些往往比單純看學費和排名更能影響孩子是否適應。"
+        ]
+      },
+      {
+        heading: "四、這篇導報與學校審核頁如何銜接",
+        paragraphs: [
+          "OTC 已為 The Illawarra Grammar School 建立獨立的 review-draft 頁面，用來承接 Study NSW briefing 後的資料整理。正式內容應在收到或核對培訓資料後補齊，包括 school strengths、admission notes、fees、student support 和 contact route。",
+          "在未取得學校或項目方確認前，公開頁必須保持審核稿口徑：可以說明 Study NSW 培訓線索和 OTC 家庭初篩用途，但不能表述為正式代理授權、官方背書或保證錄取。"
+        ]
+      },
+      {
+        heading: "五、家長和合作方現在可以做什麼",
+        paragraphs: [
+          "如果家庭正在考慮新州中小學，可以先整理學生目前年級、近兩年成績單、英文水平、目標入學時間、住宿/照護偏好和家庭問題。OTC 可用這些信息，把 Wollongong route 與 Sydney、regional NSW 以及其他澳洲學校路線一起比較。",
+          "如果是教育合作方，可把這篇導報作為 Study NSW 系列培訓的問題收集提醒：先收集家庭問題，再等學校資料確認。培訓邀請是有價值的行業參與記錄，但正式申請、錄取和代表關係仍要以學校書面流程為準。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "australia-small-business-budget-2026-instant-asset-writeoff-startup-losses",
     title: "Australia Small Business 2026: Tax Write-Off and Cash Flow",
     date: "2026-06-06",
