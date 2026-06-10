@@ -2121,6 +2121,7 @@ const insightsArticles = [
     titleZh: "高考後美國留學方案：UCSB Step UPP 國際大一路線",
     summaryZh: "2026 秋季入學申請窗口延長至 6 月 15 日的提醒，讓 UCSB Professional and Continuing Education 的 Step UPP 國際本科銜接路線再次進入高考後家庭視野。本文以繁體整理 UCSB + SBCC + TAG 的條件式升學邏輯、語言門檻、課程結構、官方費用日期與申請注意事項。",
     relatedReadings: [
+      "ucsb-tag-major-restrictions-2026",
       "english-test-choice-uk-aus-ielts-pte-det-checklist",
       "uk-aus-application-documents-checklist",
       "transcript-grading-context-note-uk-aus-applications",
@@ -2241,6 +2242,140 @@ const insightsArticles = [
         paragraphs: [
           "若想趕 2026 秋季窗口，建議立即整理：護照、證件照、高中成績單、畢業證明或預畢業證明、英文成績、財力證明、目標專業、是否接受 SBCC 轉學路線、住宿偏好，以及家長最關心的費用和簽證問題。",
           "OTC 可協助家長做初步路線評估、材料清單整理、英文門檻檢查、專業方向風險提示與申請節奏規劃。本文基於 UCSB PaCE、UCSB Admissions、UC TAG matrix 等公開資料及招生窗口提醒整理；最新要求、費用、截止日期、TAG 專業限制和錄取條件，請以 UCSB Professional and Continuing Education、UCSB Undergraduate Admissions 及 UC 官方文件為準。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "ucsb-tag-major-restrictions-2026",
+    title: "UCSB TAG Major Restrictions: What Step UPP and SBCC Families Must Check",
+    date: "2026-06-10",
+    category: "US Pathways",
+    column: "study",
+    kicker: "UCSB TAG · SBCC · Major Planning",
+    author: "留學導報編輯部",
+    summary: "A Traditional Chinese companion note to the UCSB Step UPP article, explaining which UCSB majors are excluded from TAG, which selective majors need extra major preparation, and why families should use ASSIST before choosing a transfer target.",
+    titleZh: "UCSB TAG 轉學具體專業限制：2026 秋季家庭速查",
+    summaryZh: "作為 UCSB Step UPP 國際大一路線的相關閱讀，本文用繁體整理 UCSB TAG 的專業適用範圍、完全排除專業、selective majors 額外先修課要求、TAG major 與 UC application first-choice major 一致性，以及 SBCC 學生應如何使用 ASSIST 規劃課程。",
+    relatedReadings: [
+      "ucsb-step-upp-gaokao-us-pathway-2026",
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "uk-aus-application-documents-checklist",
+      "transcript-grading-context-note-uk-aus-applications"
+    ],
+    resources: [
+      ["UCSB Undergraduate Admissions — Transfer Admission Guarantee", "https://admissions.sa.ucsb.edu/tag"],
+      ["UC Transfer Admission Guarantee Matrix 2026-27", "https://admission.universityofcalifornia.edu/counselors/_files/documents/uc-tag-matrix.pdf"],
+      ["ASSIST — California transfer articulation", "https://assist.org/"],
+      ["UCSB Professional and Continuing Education — Step UPP", "https://www.professional.ucsb.edu/international-undergraduate-pathway-program"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-10。UCSB Admissions TAG page states TAG offers guaranteed admission to California community college students who meet specific requirements, and that TAG is offered for fall term only.",
+      "UCSB Admissions currently displays Fall 2027 TAG Requirements; the UC TAG Matrix PDF used here is for students applying for 2026-27 admission and is marked accurate as of 2025-06-23, subject to change.",
+      "UCSB Admissions states TAGs are available for all majors in the College of Letters and Science except performing arts majors that require audition or portfolio review, and excludes all majors in the College of Creative Studies and College of Engineering.",
+      "UCSB Admissions lists non-TAG majors as any College of Creative Studies major, any College of Engineering major, Dance B.A./B.F.A., Music B.M., Theater B.A. Theater Design Emphasis, and Theater B.F.A. Acting Emphasis.",
+      "UCSB Admissions lists selective major preparation requirements for Biological Sciences, Chemistry & Biochemistry, Economics, Mathematics, Physics, and Statistics & Applied Probability; required courses and major-prep GPA must be checked in ASSIST by community college and major.",
+      "UCSB Admissions FAQ states the TAG major should be listed as the first-choice major in the UC application, and changing the major voids the TAG application."
+    ],
+    body: [
+      {
+        heading: "1) Start with the correct promise",
+        paragraphs: [
+          "For UCSB Step UPP families, the SBCC year and TAG plan can be powerful, but the promise must be read precisely. UCSB TAG is a guarantee only when the student is TAG-eligible, applies on time, keeps the required GPA, completes the required courses, and chooses a TAG-eligible major.",
+          "UCSB Admissions says TAG offers guaranteed admission to California community college students who meet specific requirements and is offered for the fall term only. If a student submits TAG but misses the conditions, admission to UCSB is not guaranteed."
+        ]
+      },
+      {
+        heading: "2) Where TAG mainly applies",
+        paragraphs: [
+          "At UCSB, TAG is mainly a College of Letters and Science route. UCSB's TAG page says TAGs are available for all majors in the College of Letters and Science except performing arts majors that require an audition or portfolio review.",
+          "This is why many Step UPP and SBCC families first compare Letters and Science majors such as social sciences, humanities, environmental studies or other non-excluded routes. The correct question is not simply 'Can I TAG to UCSB?' but 'Can I TAG to this exact major from SBCC under the current cycle?'"
+        ]
+      },
+      {
+        heading: "3) Majors excluded from TAG",
+        paragraphs: [
+          "UCSB lists three major exclusion groups. First, TAG does not apply to any major in the College of Creative Studies. Second, TAG does not apply to any major in the College of Engineering, which includes Computer Science. Third, several performing arts routes in Letters and Science are excluded.",
+          "The performing arts exclusions currently listed by UCSB are Dance B.A., Dance B.F.A., Music B.M., Theater B.A. with Theater Design Emphasis, and Theater B.F.A. with Acting Emphasis. Students targeting these routes should plan for regular transfer review rather than TAG."
+        ]
+      },
+      {
+        heading: "4) Selective majors: GPA 3.4 is not enough by itself",
+        paragraphs: [
+          "For UCSB TAG, the overall UC-transferable GPA threshold is important, but selective majors add another layer. UCSB Admissions says Biological Sciences, Chemistry & Biochemistry, Economics, Mathematics, Physics, and Statistics & Applied Probability majors have required major preparation courses and minimum major-preparation GPA rules.",
+          "The required courses and minimum GPA are not a generic list copied from a brochure. They must be checked in ASSIST under the 'By Major' articulation agreement between UCSB and the student's California community college, such as SBCC. Major preparation requirements are subject to change without notice."
+        ]
+      },
+      {
+        heading: "5) TAG major and UC application major must match",
+        paragraphs: [
+          "UCSB states students must submit the UC application for the same major as the TAG application, and the FAQ reminds applicants to list the TAG major as the first-choice major in the UC application.",
+          "Changing the major can void the TAG application. For Step UPP students, this makes first-year advising critical: the family should avoid choosing a major purely because it sounds easier, then trying to switch into a more competitive or excluded major later."
+        ]
+      },
+      {
+        heading: "6) Practical advice for Step UPP families",
+        paragraphs: [
+          "The most stable route is usually to choose a TAG-eligible Letters and Science major, complete the required UC-transferable units, keep grades well above the minimum where possible, and build the SBCC schedule around ASSIST from the first advising meeting.",
+          "If the student wants Engineering, Computer Science, Creative Studies or an excluded performance route, the plan should be labelled as regular transfer, not TAG. The student will need a stronger GPA, complete major preparation, and a realistic alternate strategy."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先把 TAG 的承諾讀準：不是所有專業都保證",
+        paragraphs: [
+          "在 UCSB Step UPP 國際大一路線中，學生完成 UCSB PaCE 階段後，再透過 Santa Barbara City College（SBCC）銜接 UC 轉學與 TAG 規劃，確實是一條很有吸引力的美國本科路線。但家長必須先把 TAG 的承諾讀準：它不是任何學生、任何專業、任何 GPA 都自動進 UCSB。",
+          "UCSB Admissions 官方說明，TAG 是給符合特定要求的 California community college students 的 fall term 轉學保證。換句話說，學生必須按時提交 TAG 和 UC application、完成指定學分和課程、維持 GPA、選擇 TAG-eligible major，才有條件取得 guarantee。若提交 TAG 但沒有滿足全部條件，UCSB 錄取就不再保證。"
+        ]
+      },
+      {
+        heading: "二、UCSB TAG 主要適用範圍：Letters & Science",
+        paragraphs: [
+          "UCSB 官方 TAG 頁面目前寫明：UCSB TAG 適用於 College of Letters and Science 的所有專業，但需要 audition 或 portfolio review 的表演藝術專業除外。這也是為什麼 Step UPP / SBCC 家庭在規劃時，通常會先看文理學院內的非排除專業。",
+          "比較穩妥的討論方式不是簡單問「UCSB 可不可以 TAG」，而是問「這個學生從 SBCC 轉 UCSB，目標專業在當年 cycle 是否 TAG-eligible」。同一所 UCSB，不同學院與專業的 TAG 結果可以完全不同。"
+        ]
+      },
+      {
+        heading: "三、完全無法使用 TAG 的專業排除名單",
+        paragraphs: [
+          "UCSB 官方列出的非 TAG 專業可分三大類。第一，College of Creative Studies 的所有專業都不適用 TAG。第二，College of Engineering 的所有專業都不適用 TAG，這裡包括 Computer Science。第三，College of Letters & Science 中部分需要 audition 或 portfolio review 的表演藝術方向也不適用 TAG。",
+          "目前 UCSB 官方列出的表演藝術排除項包括：Dance B.A.、Dance B.F.A.、Music B.M.、Theater B.A.（Theater Design Emphasis）、Theater B.F.A.（Acting Emphasis）。若學生目標是這些方向，家長應從一開始就按 regular transfer review 規劃，而不是把它包裝成 TAG 保證路線。"
+        ]
+      },
+      {
+        heading: "四、Selective Majors：不是只有總 GPA 3.4 就夠",
+        paragraphs: [
+          "UCSB TAG 的整體 UC-transferable GPA 門檻很重要。UCSB 官方 Fall 2027 頁面寫的是 overall minimum 3.40 GPA；UC 2026-27 TAG Matrix 亦列出 Santa Barbara 需要 3.4 GPA。可是對 selective majors 來說，總 GPA 只是第一層，還要看 major preparation。",
+          "UCSB 官方列出的 selective major groups 包括：Biological Sciences、Chemistry & Biochemistry、Economics、Mathematics、Physics、Statistics & Applied Probability。這些專業需要完成指定 major preparation courses，且相關課程要達到 major-prep GPA 要求。具體課程和 GPA 不能只看中文整理，必須進 ASSIST.org 查 SBCC ↔ UCSB 的 By Major articulation agreement。"
+        ]
+      },
+      {
+        heading: "五、哪些專業屬於 selective major group",
+        paragraphs: [
+          "Biological Sciences 方向包括 Aquatic Biology、Biological Sciences、Ecology & Evolution、Molecular & Cellular Biology、Physiology、Zoology 等。Chemistry & Biochemistry 包括 Biochemistry、Chemistry。Economics 包括 Economics B.A. 與 Economics & Accounting B.A.。",
+          "Mathematics 方向包括 Applied Mathematics、Financial Mathematics & Statistics、Mathematics。Physics 包括 Physics B.A. 與 B.S.。Statistics & Applied Probability 包括 Actuarial Science、Financial Mathematics & Statistics、Statistics & Data Science 等。這些名稱和要求每年可能調整，正式申請前要以 UCSB Admissions、UC TAG Matrix 和 ASSIST 最新資料為準。"
+        ]
+      },
+      {
+        heading: "六、TAG major 必須與 UC 申請第一志願一致",
+        paragraphs: [
+          "UCSB TAG FAQ 提醒，學生需要把 TAG major 作為 UC application 的 first choice major。UCSB 也說明，changing your major voids your TAG application。這一點對 Step UPP 學生尤其重要，因為很多家庭會在第一年才逐步了解專業難度和轉學限制。",
+          "因此，不建議先用一個看似容易的專業提交 TAG，再期待入讀後轉去 Engineering、Computer Science 或其他受限方向。這類操作風險很高，且不應被包裝成穩妥方案。"
+        ]
+      },
+      {
+        heading: "七、給 STEP UPP / SBCC 學生的實務建議",
+        paragraphs: [
+          "若家庭最看重穩定性，通常應優先考慮 College of Letters and Science 內的 TAG-eligible major，並避開工程、Creative Studies、被排除的表演藝術專業，以及自己無法完成 major prep 的 selective major。Psychology、Sociology、History、Environmental Studies 等是否適合，仍要逐項核對當年 ASSIST 與 UCSB 專業要求。",
+          "若學生目標是 Engineering 或 Computer Science，請直接把路線定位為 regular transfer，而不是 TAG。這意味著需要更強 GPA、更完整 major preparation、更清楚的 alternate major / alternate campus 策略，以及對競爭強度的心理準備。"
+        ]
+      },
+      {
+        heading: "八、總結：TAG 友好，但專業選擇決定風險",
+        paragraphs: [
+          "UCSB TAG 對從 SBCC 規劃轉學的學生非常有價值，但它的友好建立在條件清楚、專業選擇正確、課程規劃嚴格的前提上。工程、Creative Studies 和特定表演藝術專業不能走 TAG；selective majors 則有額外 major preparation 壓力。",
+          "對高考後正在考慮 UCSB Step UPP 的家庭，最重要的不是只問「能不能保錄」，而是先把目標專業、SBCC 課程、ASSIST 對應、GPA 目標和備選方案排成一張表。最新官方資訊請以 UCSB TAG 頁、UC TAG Matrix、ASSIST.org 及 UCSB / SBCC advisor 書面確認為準。"
         ]
       }
     ]
