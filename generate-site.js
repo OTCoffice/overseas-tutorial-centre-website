@@ -2197,8 +2197,75 @@ const ukEytsSalaryBody = [
   }
 ];
 
+const stevensGcepBody = [
+  {
+    heading: "1) 史蒂文斯理工學院與研究生職業體驗項目",
+    paragraphs: [
+      "史蒂文斯理工學院（Stevens Institute of Technology, SIT）是美國頂尖的理工科私立大學，以工程、計算機科學、商科與金融工程等專業聞名，地處紐約 Hoboken，緊鄰曼哈頓，就業與實習資源得天獨厚。",
+      "2026年，學校正式推出 Graduate Career Experience Program（研究生職業體驗項目），為研究生提供全周期的學業加職業雙軌支持，幫助學生從入學到畢業實現職業目標的穩定落地。"
+    ]
+  },
+  {
+    heading: "2) 重磅就業保障：4500美元暑期實習補貼",
+    paragraphs: [
+      "這是該項目最大亮點之一：若學生暫未找到帶薪實習，學校將直接發放4500美元暑期實習補貼，為研究生就業「兜底」。",
+      "這一保障大幅降低學生求職壓力，尤其適合國際生在適應美國職場初期使用，讓學生在累積經驗的同時仍有基本收入支撐。"
+    ]
+  },
+  {
+    heading: "3) 2026年7月起：全套系統化職業服務",
+    paragraphs: [
+      "符合條件的新生（2026 Fall 及之後入讀的研究生）將全面享受以下支持：",
+      "<ul><li><strong>職業發展課程：</strong>系統講授職場軟技能、行業趨勢與美國職場文化。</li><li><strong>面試專項輔導：</strong>一對一模擬面試、簡歷優化與 LinkedIn 打造。</li><li><strong>優質雇主資源對接：</strong>與 Google、Microsoft、JPMorgan、Pfizer、Honeywell 等頂尖企業深度合作。</li><li><strong>專屬導師一對一指導：</strong>資深職業顧問全程跟蹤，提供個性化職業規劃。</li><li><strong>定向衝刺2027夏季實習：</strong>提前半年鎖定目標企業，助力拿下高含金量實習 Offer。</li></ul>"
+    ]
+  },
+  {
+    heading: "4) 史蒂文斯研究生為何值得選擇",
+    paragraphs: [
+      "<ul><li><strong>就業數據亮眼：</strong>近年研究生就業率保持在90%以上，平均起薪具競爭力。</li><li><strong>地理優勢：</strong>位於紐約大都會區，實習與全職機會豐富。</li><li><strong>STEM 專業優勢：</strong>多數專業畢業生可享 OPT（最長3年）加 STEM Extension，合法工作時間可達數年。</li><li><strong>小班精英教育：</strong>師生比優越，教授資源豐富，業界項目眾多。</li></ul>",
+      "適合人群：希望畢業即就業、追求高薪實習的理工或商科學生；希望在美累積豐富工作經驗的國際生；以及對職業規劃有明確需求、希望獲得全程支持的同學。"
+    ]
+  },
+  {
+    heading: "5) 申請提示與行動建議",
+    paragraphs: [
+      "2026 Fall 申請通道已開，建議盡早準備材料，並關注學校 Graduate Admission 及 Career Center 官網，確認最新項目資格要求。",
+      "史蒂文斯理工學院這次推出的 Graduate Career Experience Program，不僅強化學術實力，更在職業發展上給予「保姆級」支持，為研究生打造從校園到職場的無縫銜接，對有意衝刺美國名校研究生的同學是一大利好。",
+      "本文基於史蒂文斯理工學院官方資訊整理，最新項目細節與補貼政策請以學校官網為準。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "stevens-institute-graduate-career-experience-program-2026",
+    title: "Stevens Institute Graduate Career Experience Program 2026: $4,500 Internship Stipend",
+    date: "2026-06-10",
+    category: "US Pathways",
+    column: "study",
+    kicker: "Stevens · Hoboken · STEM OPT · Graduate Careers",
+    author: "留學導報編輯部",
+    summary: "Stevens Institute of Technology has launched a Graduate Career Experience Program for 2026, pairing graduate study with full career support — including a $4,500 summer internship stipend if a paid internship is not secured, employer connections with firms like Google, JPMorgan and Pfizer, and one-to-one coaching toward 2027 internships. A briefing for international students weighing a STEM-OPT-backed US graduate route.",
+    titleZh: "史蒂文斯理工學院研究生職業體驗項目（2026上線）",
+    summaryZh: "史蒂文斯理工學院（SIT）2026年正式推出 Graduate Career Experience Program，提供研究生全周期學業加職業雙軌支持：未找到帶薪實習可獲4500美元暑期補貼、對接 Google／JPMorgan／Pfizer 等頂尖雇主、一對一職業輔導與定向衝刺2027夏季實習。本文為有意走美國 STEM 研究生與 OPT 就業路線的國際生整理。",
+    relatedReadings: [
+      "ucsb-step-upp-gaokao-us-pathway-2026",
+      "uk-aus-application-documents-checklist",
+      "english-test-choice-uk-aus-ielts-pte-det-checklist"
+    ],
+    resources: [
+      ["Stevens — Graduate Career", "https://www.stevens.edu/academics/graduate-study/graduate-career"],
+      ["Stevens — Career Center", "https://www.stevens.edu/student-life/career-center"],
+      ["Stevens — Graduate Admissions", "https://www.stevens.edu/admission-aid/graduate-admissions"]
+    ],
+    body: stevensGcepBody,
+    bodyZh: stevensGcepBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。本文所述4500美元暑期實習補貼、2026年7月起實施、2026 Fall 起新生適用、合作雇主名單及90%以上就業率等內容，均以學校公開資訊整理，實際項目資格、補貼條件與發放方式應以 Stevens Graduate Career 與 Career Center 官網最新公告為準。",
+      "OPT 與 STEM OPT Extension 的可申請時長與資格依美國移民法規與專業 CIP code 而定，申請前須核對學校國際學生辦公室與 USCIS 最新規定。"
+    ],
+  },
   {
     slug: "uk-early-years-nursery-salary-analysis-2026",
     title: "UK Early Years & Nursery Salaries 2026: Pay Bands and the £4,500 Bonus",
