@@ -2121,6 +2121,7 @@ const insightsArticles = [
     titleZh: "今天下午 2 點：2026 新州中小學線上培訓系列五 The Illawarra Grammar School",
     summaryZh: "Study NSW / Investment NSW 提醒已報名中介伙伴，2026 年新州優質中小學系列線上培訓第五場 The Illawarra Grammar School 專場將於 2026 年 6 月 10 日下午 2 點開始。OTC 將此作為 Wollongong 新州中小學路線的資料承接頁，供家長與合作方後續比較。",
     relatedReadings: [
+      "illawarra-grammar-training-questions-aeas-guide-2026",
       "australia-agent-training-map-2026",
       "study-nt-agent-training-certificate-otc-australia-meaning",
       "australia-student-visa-2026-npl-md115-priority-processing",
@@ -2207,6 +2208,128 @@ const insightsArticles = [
         paragraphs: [
           "如果家庭正在考慮新州中小學，可以先整理學生目前年級、近兩年成績單、英文水平、目標入學時間、住宿/照護偏好和家庭問題。OTC 可用這些信息，把 Wollongong route 與 Sydney、regional NSW 以及其他澳洲學校路線一起比較。",
           "如果是教育合作方，可把這篇導報作為 Study NSW 系列培訓的問題收集提醒：先收集家庭問題，再等學校資料確認。培訓邀請是有價值的行業參與記錄，但正式申請、錄取和代表關係仍要以學校書面流程為準。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "illawarra-grammar-training-questions-aeas-guide-2026",
+    title: "After the Illawarra Grammar School Briefing: Questions for Parents and an AEAS Guide",
+    date: "2026-06-10",
+    category: "Australia Schools",
+    column: "study",
+    kicker: "TIGS · AEAS · Homestay",
+    author: "留學導報編輯部",
+    summary: "A follow-up briefing for Chinese families after the Study NSW session on The Illawarra Grammar School, covering parent questions on day-school living arrangements, homestay, guardianship, English requirements and AEAS preparation.",
+    titleZh: "參加伊拉瓦拉文法學校培訓會後：提問整理與 AEAS 考試指南",
+    summaryZh: "根據 Study NSW 培訓會後的家長諮詢場景，整理中國家庭最應優先確認的陪讀、Homestay、監護、英語支持、升學與費用問題，並結合 TIGS 與 AEAS 官方公開資料，說明 Year 4 至 Year 10 申請中的 AEAS 要求與準備方向。",
+    relatedReadings: [
+      "study-nsw-illawarra-grammar-school-briefing-2026",
+      "australia-agent-training-map-2026",
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "study-nt-agent-training-certificate-otc-australia-meaning"
+    ],
+    resources: [
+      ["TIGS International Students", "https://www.tigs.nsw.edu.au/international-students/"],
+      ["TIGS International Student Homestay Rates 2025", "https://www.tigs.nsw.edu.au/wp-content/uploads/2025-International-Student-Homestay-Rates-final.pdf"],
+      ["TIGS International Schedule of Fees and Charges 2025", "https://www.tigs.nsw.edu.au/wp-content/uploads/2025-International-schedule-of-fees-and-charges-Final-FINAL.pdf"],
+      ["AEAS Test Information for Students and Parents", "https://aeas.com.au/students-parents/test-information-for-students/"],
+      ["AEAS Report", "https://aeas.com.au/aeas-report/"],
+      ["AEAS Testing China", "https://aeas.com.au/how-to-register/china/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-10。TIGS official International Students page states Year 7 to Year 12 international students have the option to live with carefully selected homestay families, and that homestay is managed by UOW College Homestay.",
+      "TIGS official page states Kindergarten to Year 3 have no English language proficiency requirement, while Year 4 to Year 10 applicants must meet English levels through AEAS. Published thresholds are Year 4 ≥30, Year 5 ≥35, Year 6 ≥40, Year 7 ≥61, Year 8 ≥61, Year 9 ≥71, Year 10 ≥81.",
+      "TIGS 2025 Homestay Rates PDF lists accommodation and welfare at AUD 434 per person per week, placement fee AUD 350 per person, annual management fee AUD 200 per term and school-day packed lunch AUD 15 per day. Future fees should be checked against the current school schedule.",
+      "AEAS official information says the AEAS Test is designed for school-aged students and assesses English language and learning standards. The AEAS Report includes an English score out of 100, sub-test scores, stanine scores, mathematical reasoning, general ability and recommended English study.",
+      "AEAS China page dated 2026 states the test fee is RMB 3350. Other countries may quote fees in AUD; families should check the country-specific AEAS registration page before booking."
+    ],
+    body: [
+      {
+        heading: "1) The parent questions to ask first",
+        paragraphs: [
+          "After the Study NSW briefing on The Illawarra Grammar School, Chinese families should start with the practical questions: living arrangement, homestay, guardianship, English readiness, AEAS timing and whether the student can realistically enter the target year level.",
+          "Because TIGS is a day school, families should not assume the same arrangement fits every age group. The school’s public information says Year 7 to Year 12 international students may live with carefully selected homestay families. For younger students, and for any family considering a parent or nominated relative arrangement, the precise welfare and visa pathway should be confirmed with the school and official Australian visa guidance."
+        ]
+      },
+      {
+        heading: "2) Homestay and guardianship: what to confirm",
+        paragraphs: [
+          "TIGS states that homestay for students is managed by UOW College Homestay, and that a Homestay Coordinator is available to manage issues that may arise. TIGS also says guardianship can be provided for students under 18.",
+          "Parents should ask how families are selected, how ongoing checks work, whether dietary needs can be recorded, what happens in an emergency, how transport to school is arranged, and whether the student must join the school homestay programme unless a relative arrangement is officially approved."
+        ]
+      },
+      {
+        heading: "3) English requirements and AEAS at TIGS",
+        paragraphs: [
+          "TIGS publishes a clear English requirement structure. Kindergarten to Year 3 applicants have no published English language proficiency requirement. Year 4 to Year 10 applicants who use English as a second language must meet the published AEAS levels.",
+          "The published TIGS thresholds are Year 4 at 30 or above, Year 5 at 35 or above, Year 6 at 40 or above, Year 7 and Year 8 at 61 or above, Year 9 at 71 or above, and Year 10 at 81 or above. TIGS also notes that Years 4 to 6 applicants who do not meet the prerequisite may be required to attend the school’s Targeted English Program, with a fee applying."
+        ]
+      },
+      {
+        heading: "4) What AEAS measures",
+        paragraphs: [
+          "AEAS is not a simple pass-or-fail test. AEAS says its test is designed for school-aged students and assesses English language and learning standards from primary years through to senior secondary years.",
+          "The AEAS Report gives schools and families a wider picture: English score out of 100, English sub-test and stanine scores, general ability, mathematical reasoning, recommended weeks of intensive English and suggested school entry level. This is why families should treat AEAS as both an admissions tool and an education-planning report."
+        ]
+      },
+      {
+        heading: "5) AEAS booking and preparation notes for China families",
+        paragraphs: [
+          "For China testing, AEAS currently lists the test fee as RMB 3350 and asks students to register online, including student details, parent details, current school information, the school year level and year of entry, schools being applied to, ID or passport information, agent details if relevant, and a passport-style photo.",
+          "Preparation should begin at least three to six months before the preferred school intake where possible. Students should work on reading, vocabulary, listening, writing, speaking, mathematical reasoning and non-verbal reasoning, but the goal is not just to train for question types. The real goal is to show whether the student can move into an English-medium Australian classroom with the right level of support."
+        ]
+      },
+      {
+        heading: "6) Fees, outcomes and final checks",
+        paragraphs: [
+          "The 2025 TIGS homestay rates list accommodation and welfare at AUD 434 per person per week, with a placement fee and termly management fee. Families should treat these as a published 2025 reference point and ask for the latest 2026 or intake-specific fee schedule before budgeting.",
+          "Families should also ask about recent international student destinations, the proportion choosing the University of Wollongong, subject pathways, HSC or IB outcomes where relevant, and how the school supports new students in the first term. A good decision is not just about school reputation; it is about whether the child’s age, English level, living arrangement and family plan fit the school’s real operating model."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、培訓會後，家長應先問哪些問題",
+        paragraphs: [
+          "參加 Study NSW 主辦的 The Illawarra Grammar School（伊拉瓦拉文法學校，TIGS）培訓會後，最值得中國家庭先釐清的，不是單純排名或學費，而是生活安排、Homestay、監護、英文要求、AEAS 時間線，以及學生是否真的適合目標年級。",
+          "因為 TIGS 是 Day School，家長不能直接假設所有年齡段都適用同一種安排。TIGS 官方公開資料寫明，Year 7 至 Year 12 國際學生可選擇入住經篩選的 Homestay family。若是更低年級、父母陪讀、親屬照護或 nominated relative 安排，應逐一向學校及澳洲官方簽證/監護規則確認。"
+        ]
+      },
+      {
+        heading: "二、陪讀、Homestay 與監護：建議優先確認",
+        paragraphs: [
+          "家長最關心的第一組問題，是不同年級國際生的生活與照護安排：哪些年級可以 Homestay，哪些情況需要父母、custodian 或 nominated relative，Year 7 以下是否有不同處理方式，以及學校如何判斷 welfare arrangement 是否合適。",
+          "TIGS 官方頁面顯示，Homestay 由 UOW College Homestay 管理；學校也提到 Homestay Coordinator 可協助處理問題，18 歲以下學生可獲 guardianship support。家長應進一步問：Homestay 如何匹配、是否可記錄飲食習慣、家庭如何審核、交通如何安排、緊急事件誰負責、費用何時支付，以及學生若不適應如何更換。"
+        ]
+      },
+      {
+        heading: "三、入學與英語支持：TIGS 的 AEAS 要求",
+        paragraphs: [
+          "TIGS 的官方英文要求相當清楚：Kindergarten 至 Year 3 目前沒有公開英文語言能力門檻；Year 4 至 Year 10 的英語作為第二語言申請人，需通過 AEAS 達到學校列出的英文要求。",
+          "TIGS 公開表格列出的 AEAS 分數門檻為：Year 4 ≥30、Year 5 ≥35、Year 6 ≥40、Year 7 ≥61、Year 8 ≥61、Year 9 ≥71、Year 10 ≥81。TIGS 亦說明，Year 4 至 Year 6 申請人若未達英語 prerequisite，可能需參加學校 Targeted English Program，並需支付相應費用。"
+        ]
+      },
+      {
+        heading: "四、AEAS 到底考什麼，不要只把它當成英文考試",
+        paragraphs: [
+          "AEAS 官方說明，AEAS Test 是專為 school-aged students 設計，用來評估從小學到高中階段學生的英文語言與學習標準。換句話說，它不只是 IELTS 類英文考試，也不是單純通過/不通過。",
+          "AEAS Report 通常包括英文總分（100 分制）、英文各子項與 stanine 標準分、數理推理、一般能力、建議的 intensive English study 週數，以及建議入讀年級。對家長來說，AEAS 不只是申請材料，也是判斷孩子是否需要英文過渡、是否適合目標年級的重要報告。"
+        ]
+      },
+      {
+        heading: "五、中國學生報考 AEAS：時間與費用要先排進申請表",
+        paragraphs: [
+          "AEAS 中國官方頁面目前列出的考試費為 RMB 3350。線上報名時通常需要填寫學生資料、家長資料、目前就讀學校、申請年級和入學年份、申請學校、護照或身份證件資料、如有則填寫教育代理資料，並上傳證件照。若在中國其他城市無固定場次，應直接聯絡 AEAS China office 核對安排。",
+          "建議至少提前 3 至 6 個月準備 AEAS。準備方向包括英文閱讀、詞彙、聽力、寫作、口說、基礎數理推理與非語言推理。真正目標不是背題，而是讓報告顯示學生是否能進入英文授課的澳洲課堂，以及需要多少英文支持。"
+        ]
+      },
+      {
+        heading: "六、費用、升學與 Wollongong 生活：最後仍要回到孩子是否適配",
+        paragraphs: [
+          "TIGS 2025 Homestay Rates 文件列出 Accommodation and Welfare 為每人每週 AUD 434，另有 placement fee、termly management fee 及 school-day packed lunch 等項目。這些可作預算參考，但正式申請前必須向學校索取最新 2026 或對應 intake 的 fee schedule。",
+          "升學方面，TIGS 官方頁提到有 26% 國際畢業生選擇 University of Wollongong。家長可進一步詢問近年國際生 HSC 或 IB Diploma 結果、升讀澳洲大學方向、UOW 銜接優勢，以及新生第一學期的 pastoral care、選課、英文支持與家校溝通機制。",
+          "結論很簡單：TIGS 的 Wollongong 日校環境、Homestay 和 Targeted English Program 對部分中國家庭很有吸引力，但是否適合，要看學生年齡、英文水平、家庭陪讀能力、Homestay 接受度和長期升學計劃。正式決策前，請以 TIGS、AEAS 和澳洲官方最新資料為準。"
         ]
       }
     ]
