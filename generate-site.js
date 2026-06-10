@@ -2110,6 +2110,142 @@ const australiaLicensingHotspotArticles = [
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
   {
+    slug: "ucsb-step-upp-gaokao-us-pathway-2026",
+    title: "After Gaokao: UCSB Step UPP as a U.S. Pathway for Chinese Students",
+    date: "2026-06-10",
+    category: "US Pathways",
+    column: "study",
+    kicker: "UCSB · Step UPP · SBCC TAG",
+    author: "留學導報編輯部",
+    summary: "A Traditional Chinese briefing for families considering a post-Gaokao U.S. route through UC Santa Barbara Professional and Continuing Education's Step UPP pathway, including English requirements, UCSB coursework, SBCC transfer planning and TAG cautions.",
+    titleZh: "高考後美國留學方案：UCSB Step UPP 國際大一路線",
+    summaryZh: "2026 秋季入學申請窗口延長至 6 月 15 日的提醒，讓 UCSB Professional and Continuing Education 的 Step UPP 國際本科銜接路線再次進入高考後家庭視野。本文以繁體整理 UCSB + SBCC + TAG 的條件式升學邏輯、語言門檻、課程結構、官方費用日期與申請注意事項。",
+    relatedReadings: [
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "uk-aus-application-documents-checklist",
+      "transcript-grading-context-note-uk-aus-applications",
+      "otc-free-study-abroad-application-agent-service"
+    ],
+    resources: [
+      ["UCSB Professional and Continuing Education — Step UPP", "https://www.professional.ucsb.edu/international-undergraduate-pathway-program"],
+      ["UCSB PaCE — Apply for International Programs", "https://www.professional.ucsb.edu/international/apply-our-programs"],
+      ["UCSB PaCE Help Center — International Program Dates", "https://help.professional.ucsb.edu/international-student-programs/applying-international-programs/international-program-dates"],
+      ["UCSB Undergraduate Admissions — Transfer Admission Guarantee", "https://admissions.sa.ucsb.edu/tag"],
+      ["UC Transfer Admission Guarantee Matrix", "https://admission.universityofcalifornia.edu/counselors/_files/documents/uc-tag-matrix.pdf"],
+      ["UC Santa Barbara Facts and Figures", "https://www.ucsb.edu/about/facts-and-figures"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-06-10。UCSB PaCE official Step UPP page states the programme is designed to prepare high school graduates to seek admission to a U.S. research university.",
+      "UCSB PaCE lists programme highlights including 6 weeks of Intensive English Language Training, 3 quarters of General Education and academic preparation, 28 transferable units, transfer to SBCC, and TAG application support.",
+      "UCSB PaCE lists 2026-2027 Step UPP pricing as application fee USD 210, tuition USD 39,980, non-refundable deposit USD 500, orientation on 2026-08-03, Summer English Academy from 2026-08-03 to 2026-09-11, and academic year from 2026-09-23 to 2027-06-11.",
+      "UCSB PaCE lists English proficiency evidence as TOEFL 75, IELTS 6.0, Duolingo 95 or CET-4 500, and high school transcript/diploma GPA 2.7 among application materials.",
+      "The 2026-27 UC TAG matrix states UC Santa Barbara requires a 3.4 UC-transferable GPA by the end of fall 2025 for TAG, with exclusions and additional major-preparation GPA requirements. Families should not treat TAG as unconditional or applicable to every major.",
+      "本文的 2026 秋季申請延長至 6 月 15 日為招生窗口提醒口徑；公開頁仍應以 UCSB PaCE application portal and written programme confirmation 為準。"
+    ],
+    body: [
+      {
+        heading: "1) Why this route matters after Gaokao",
+        paragraphs: [
+          "For students who have just completed Gaokao, a direct U.S. undergraduate application can feel rushed: transcripts, English tests, activity records, essays, major choice and deadlines all collide at the same time. UCSB Professional and Continuing Education's Step UPP offers a more staged route for students who want a U.S. research-university environment but need a structured transition first.",
+          "The 2026 fall intake reminder says the application window has been extended to 15 June. Because seats, visa timing and document review can still move quickly, families should use the extension as a final planning window rather than a reason to wait."
+        ]
+      },
+      {
+        heading: "2) UCSB: coastal campus, serious research setting",
+        paragraphs: [
+          "UC Santa Barbara is widely recognised for its coastal campus and research strength. UCSB's official facts page cites rankings including No. 8 public university in Forbes' 2024-2025 America's Top Colleges list and No. 13 public university in U.S. News & World Report's 2025 Best Colleges listing.",
+          "For Chinese families, the attraction is not only the beach-campus image. The stronger question is whether the student can handle U.S. quarter-system learning, English academic writing, independent advising, transferable coursework and a later transfer plan."
+        ]
+      },
+      {
+        heading: "3) What Step UPP actually includes",
+        paragraphs: [
+          "UCSB PaCE describes Step UPP as a pathway for high school graduates seeking admission to a U.S. research university. The official structure starts with six weeks of Intensive English Language Training at UCSB's English Academy, followed by three quarters of General Education and academic preparation courses.",
+          "The programme page lists 28 transferable units, academic English preparation, UCSB campus access and support services. After the UCSB academic year, students transfer to Santa Barbara City College to complete General Education requirements, with UCSB assisting the SBCC application and SBCC advisors supporting the TAG process."
+        ]
+      },
+      {
+        heading: "4) TAG is conditional, not a blank cheque",
+        paragraphs: [
+          "The attractive part of the route is the California community-college transfer system and UCSB TAG pathway. But families should read this carefully: TAG is a conditional transfer guarantee for eligible California Community College students who meet stated requirements, not a simple promise that every Step UPP student will enter every UCSB major.",
+          "The UC TAG matrix for 2026-27 states that UC Santa Barbara requires a 3.4 UC-transferable GPA by the relevant deadline. It also notes exclusions and additional major-preparation requirements. In practice, major choice matters: engineering, computer science, College of Creative Studies and some performance majors may be outside TAG or require separate review."
+        ]
+      },
+      {
+        heading: "5) Entry profile and English requirements",
+        paragraphs: [
+          "UCSB PaCE lists the Step UPP application materials as passport copy, passport-style photo, high school transcript and diploma with GPA 2.7, English language proficiency, and proof of financial eligibility. The listed English options are TOEFL iBT 75, IELTS 6.0, Duolingo 95 or CET-4 500.",
+          "This can be more realistic for a post-Gaokao student than a high-pressure freshman direct application. Still, students should not treat the English threshold as the finish line. Academic reading, seminar participation, writing and GPA management are the real tests once the programme begins."
+        ]
+      },
+      {
+        heading: "6) 2026-27 dates, fees and action checklist",
+        paragraphs: [
+          "For the 2026-2027 academic year, UCSB PaCE lists the Step UPP application fee as USD 210, tuition as USD 39,980 and the non-refundable deposit as USD 500 after acceptance for I-20 processing. The page lists orientation on 3 August 2026, the mandatory Summer English Academy from 3 August to 11 September 2026, and the academic year from 23 September 2026 to 11 June 2027.",
+          "Families should prepare passport, school transcript, graduation proof, English result, financial documents and a realistic major list. Before paying, ask for the current written deadline, refund terms, housing options, visa document timing, whether the intended major is TAG-eligible, and how advising is handled between UCSB PaCE and SBCC."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、高考後為什麼要看 UCSB Step UPP",
+        paragraphs: [
+          "高考後如果臨時轉向美國本科直申，很多家庭會遇到同一個問題：時間太緊、材料太多、競爭太激烈，還要同時處理英文考試、活動履歷、文書、專業選擇和簽證節奏。對不想硬碰美本直申、但又希望進入美國研究型大學環境的學生，UCSB Professional and Continuing Education 的 Step UPP（Undergraduate Pathway Program）提供了一條分階段銜接路線。",
+          "本次招生窗口提醒顯示，2026 秋季入學申請延期至 6 月 15 日。這個日期應理解為最後衝刺窗口，而不是可以繼續拖延：名額、I-20、簽證、住宿與文件審核都需要時間，家長最好在截止日前把材料和專業方向一次整理清楚。"
+        ]
+      },
+      {
+        heading: "二、UCSB：海邊校園不只是好看，也要看學術適配",
+        paragraphs: [
+          "UC Santa Barbara（加州大學聖塔芭芭拉分校）常被中文學生稱為「海邊公立常春藤」。UCSB 官方 facts page 引用的排名包括：Forbes 2024-2025 America's Top Colleges 將其列為全美公立大學第 8；U.S. News & World Report 2025 Best Colleges 將其列為全美公立大學第 13。",
+          "不過，家長不要只被海景校園吸引。真正需要評估的是：學生能否適應美國 quarter system、英文學術寫作、通識課選課、advisor 溝通、GPA 管理，以及後續社區學院轉學規劃。Step UPP 的價值，正是在於讓學生先在 UCSB 環境中建立這些能力。"
+        ]
+      },
+      {
+        heading: "三、項目核心：UCSB + SBCC 的分段式國際大一路線",
+        paragraphs: [
+          "UCSB PaCE 官方頁面說明，Step UPP 是為高中畢業生設計，目標是幫助學生準備申請美國研究型大學。官方列出的結構包括：先在 UCSB English Academy 完成 6 週 Intensive English Language Training，再完成 3 個 quarter 的 General Education 與 academic preparation courses。",
+          "官方亮點還包括 28 個 transferable units、學術英語準備、UCSB 校園資源和國際學生支持。完成 UCSB academic year 後，學生會轉入 Santa Barbara City College（SBCC）繼續完成 General Education 要求；UCSB 會協助申請 SBCC，SBCC advising 團隊則協助學生進入 TAG 申請流程。"
+        ]
+      },
+      {
+        heading: "四、TAG 很有吸引力，但不是無條件保錄",
+        paragraphs: [
+          "這條路線最吸引中國家庭的，是 California Community College 轉學體系與 UCSB TAG（Transfer Admission Guarantee）機制。需要說清楚的是：TAG 是符合條件的加州社區學院轉學生，在滿足指定 GPA、課程、學分、專業與申請時間要求後取得的條件式錄取保障，不是任何學生、任何專業都自動進 UCSB。",
+          "2026-27 UC TAG matrix 顯示，UC Santa Barbara TAG 要求 UC-transferable GPA 達到 3.4，且部分專業有額外 major preparation GPA 和課程要求。部分學院或專業可能不開放 TAG，例如工程、計算機、College of Creative Studies 或部分表演類專業方向需按官方最新清單核對。因此，家長不能只問「能不能保錄」，而要先問「目標專業是否 TAG-eligible，以及孩子是否有能力維持 GPA」。"
+        ]
+      },
+      {
+        heading: "五、語言門檻相對友好，但真正考驗在入學後",
+        paragraphs: [
+          "UCSB PaCE Step UPP 官方頁列出的申請材料包括：護照、證件照、高中成績單與畢業證明（GPA 2.7）、英文能力證明，以及覆蓋學費和預估生活費的財力證明。英文選項包括 TOEFL iBT 75、IELTS 6.0、Duolingo 95 或 CET-4 500。",
+          "這個門檻對高考後英語中等、但仍希望走美國本科路線的學生相對友好。不過，英文分數只是入場券。真正影響後續轉學結果的，是學生能否在英文授課環境中穩定閱讀、寫作、討論、按時完成作業，並把 GPA 管理在 TAG 或競爭性轉學要求之上。"
+        ]
+      },
+      {
+        heading: "六、2026-27 費用與日期：家長要把時間線排清楚",
+        paragraphs: [
+          "UCSB PaCE 官方頁目前列出的 2026-2027 Academic Year Program Dates & Tuition Pricing 包括：application fee USD 210、tuition USD 39,980、錄取後用於 I-20 的 non-refundable deposit USD 500。官方頁列出的 orientation 為 2026 年 8 月 3 日； mandatory Summer English Academy 為 2026 年 8 月 3 日至 9 月 11 日；academic year 為 2026 年 9 月 23 日至 2027 年 6 月 11 日。",
+          "家長應在申請前確認：6 月 15 日延期截止是否適用於自己的申請批次、住宿選項是否仍有空位、I-20 發放時間是否足夠、退款規則如何、學生是否適合 F-1 簽證節奏，以及目標專業是否能透過 SBCC + TAG 路線合理銜接。"
+        ]
+      },
+      {
+        heading: "七、誰適合現在衝刺申請",
+        paragraphs: [
+          "比較適合的學生包括：高考後想轉向美國本科，但直申材料和時間不足；希望先在 UCSB 校園環境中過渡，再透過 SBCC 和 TAG 規劃轉學；英文基礎可達 TOEFL 75 / IELTS 6.0 / Duolingo 95 左右，但仍需要學術英語與美國課堂適應；家庭願意按兩年左右的轉學節奏做長線規劃。",
+          "不太適合的情況也要說清楚：如果學生只接受一步直入 UCSB degree、不能接受 SBCC 過渡、目標專業明確不適用 TAG、或家庭無法承擔學費與生活費，則應同時比較其他美國直錄、社區學院、英澳加 pathway 或亞洲英文授課本科選項。"
+        ]
+      },
+      {
+        heading: "八、立即行動清單",
+        paragraphs: [
+          "若想趕 2026 秋季窗口，建議立即整理：護照、證件照、高中成績單、畢業證明或預畢業證明、英文成績、財力證明、目標專業、是否接受 SBCC 轉學路線、住宿偏好，以及家長最關心的費用和簽證問題。",
+          "OTC 可協助家長做初步路線評估、材料清單整理、英文門檻檢查、專業方向風險提示與申請節奏規劃。本文基於 UCSB PaCE、UCSB Admissions、UC TAG matrix 等公開資料及招生窗口提醒整理；最新要求、費用、截止日期、TAG 專業限制和錄取條件，請以 UCSB Professional and Continuing Education、UCSB Undergraduate Admissions 及 UC 官方文件為準。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "study-nsw-illawarra-grammar-school-briefing-2026",
     title: "Study NSW 2026 School Briefing: The Illawarra Grammar School",
     date: "2026-06-10",
