@@ -1,2 +1,7 @@
 # Sensitive application packages and government form submissions
 reports/nt-government-schools-agent-application/
+
+# Local build tooling (sharp installed ad hoc for social image generation)
+node_modules/
+package.json
+package-lock.json
