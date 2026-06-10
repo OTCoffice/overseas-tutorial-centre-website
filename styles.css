@@ -14061,6 +14061,22 @@ h1 {
   font-size: 12px;
 }
 
+.zh-herald-masthead-right {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.zh-herald-contact-section {
+  padding: 24px 48px 0;
+  max-width: 460px;
+}
+
+.zh-herald-contact-section .zh-herald-widget-title {
+  margin-bottom: 10px;
+}
+
 .zh-herald-section-bar {
   background: #b5272d;
   padding: 6px 48px;
@@ -18768,6 +18784,22 @@ h1 {
 
   .zh-herald-meta {
     text-align: left;
+  }
+
+  .zh-herald-masthead-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .zh-herald-masthead-right .oeh-consult-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .zh-herald-contact-section {
+    padding: 20px 24px 0;
+    max-width: none;
   }
 
   .zh-herald-section-bar,
