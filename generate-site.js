@@ -2154,8 +2154,80 @@ const ukEytsRecognitionBody = [
   }
 ];
 
+const ukEytsSalaryBody = [
+  {
+    heading: "1) 英國幼教薪酬概況：基礎偏低，獎金補強",
+    paragraphs: [
+      "英國幼兒教育（Early Years / Nursery）行業長期面臨嚴重人手短缺，尤其在貧困地區。政府透過4500英鎊早期教育教師認可獎金吸引人才，但整體薪酬仍低於中小學教師，主要因幼教多為私立／志願機構，並非全國統一的公務員薪級表。",
+      "對海外幼教背景人士而言，理解各職位薪酬區間、地區差異與獎金加成，是評估是否以幼教作為赴英職涯切入點的第一步。"
+    ]
+  },
+  {
+    heading: "2) 不同職位平均薪酬（2026年數據）",
+    paragraphs: [
+      "以下為2026年6月各職位的年薪區間整理（資料來源：National Careers Service、Glassdoor、Indeed、Prospects.ac.uk）：",
+      "<div class=\"report-table-wrap article-cost-table\"><table><thead><tr><th>職位</th><th>起薪（年薪）</th><th>平均薪酬（年薪）</th><th>資深／管理級（年薪）</th><th>備註</th></tr></thead><tbody><tr><td>Early Years Teacher (EYTS)</td><td>£22,000 – £27,000</td><td>£27,000 – £29,500</td><td>£35,000 – £42,000</td><td>最高專業資格</td></tr><tr><td>Nursery Teacher</td><td>£22,000 – £26,000</td><td>£26,000 – £28,000</td><td>£32,000 – £37,000</td><td>常見職稱</td></tr><tr><td>Level 3 Early Years Educator</td><td>£20,000 – £24,000</td><td>£26,000 – £27,000</td><td>£28,000 – £31,000+</td><td>基礎帶班資格</td></tr><tr><td>Nursery Manager / Room Leader</td><td>£28,000 – £32,000</td><td>£32,000 – £38,000</td><td>£40,000+</td><td>管理職</td></tr></tbody></table></div>",
+      "小時薪方面，Level 3 通常為 £11–£14／小時，EYTS 約 £14–£18／小時。倫敦及周邊薪酬通常高出10–20%（Outer London 可多 £4,000–£6,000），但生活成本亦相應較高。"
+    ]
+  },
+  {
+    heading: "3) 影響薪酬的主要因素",
+    paragraphs: [
+      "<ul><li><strong>地區差異：</strong>倫敦及東南部較高，北方及中部較低。參與4500鎊獎金計畫的30個貧困地區（如 Middlesbrough、Sandwell、Rochdale 等），雖然基礎薪酬未必最高，但額外獎金大幅提升實際收入。</li><li><strong>機構類型：</strong>私立幼兒園薪酬較彈性（可能更高但福利較少）；公立或大型連鎖較穩定。</li><li><strong>經驗與資格：</strong>持有 EYTS／QTS 者明顯高於 Level 3；管理職或具 SEND（特殊教育需求）經驗者可多20–30%。</li><li><strong>工作模式：</strong>多為全職（32–40小時／週），部分為 term-time only（學期制），年薪已反映假期影響。</li><li><strong>獎金與福利：</strong>4500鎊一次性稅前獎金（服務滿約6個月後發放），相當於基層幼師額外15–20%收入；部分機構另有績效獎金與培訓資助。</li></ul>"
+    ]
+  },
+  {
+    heading: "4) 與其他行業／教育階段比較",
+    paragraphs: [
+      "<ul><li><strong>比中小學教師低：</strong>中小學 Qualified Teacher（QTS）起薪 £32,916（英格蘭，非倫敦），資深可達 £45,000+。</li><li><strong>比一般行業：</strong>高於零售／餐飲，但低於護理（Nurse）或社工。</li><li><strong>海外人士優勢：</strong>取得 EYTS 後，Skilled Worker Visa 薪資門檻較易達到（教育類有彈性），搭配獎金計畫，首年實際到手收入可達 £30,000+（含獎金）。</li></ul>"
+    ]
+  },
+  {
+    heading: "5) 留學／移民人士實務建議",
+    paragraphs: [
+      "<ul><li><strong>新手／海外畢業生：</strong>先從 Level 3 入手（較易獲 Sponsorship），累積經驗後轉 EYTS 加獎金職位。</li><li><strong>具經驗者：</strong>直接申請 Assessment Only EYTS，鎖定參與獎金計畫的地區，可快速提升收入與簽證優勢。</li><li><strong>稅後與生活：</strong>稅前 £28,000 稅後約 £23,000–£24,000（視個人情況）；北方生活成本低，實際購買力不差。</li><li><strong>前景：</strong>政府大力投資早期教育，預計2026–2028年薪酬將持續調整（可能跟隨教師薪級上漲4–6.5%）。</li></ul>"
+    ]
+  },
+  {
+    heading: "6) 總結：海外幼教背景的務實切入點",
+    paragraphs: [
+      "英國幼教基礎薪酬中等偏低（約 £26,000–£30,000），但4500鎊獎金加上簽證擔保與穩定需求，使其成為海外幼教背景人士相對吸引的切入點，尤其適合希望快速累積英國工作經驗、未來申請永居者。",
+      "有意者可查詢 Indeed、Teaching Vacancies 或 Daynurseries.co.uk 標註『Sponsorship』的職位，最新薪酬以雇主 Offer 及 DfE 官網為準。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "uk-early-years-nursery-salary-analysis-2026",
+    title: "UK Early Years & Nursery Salaries 2026: Pay Bands and the £4,500 Bonus",
+    date: "2026-06-10",
+    category: "UK Careers",
+    column: "settlement",
+    kicker: "Early Years Pay · EYTS / Level 3 · Skilled Worker · ILR",
+    author: "留學導報編輯部",
+    summary: "A 2026 breakdown of UK early years and nursery pay bands — from Level 3 educators to EYTS teachers and nursery managers — and how the new £4,500 recognition payment, regional differences and visa sponsorship shape real take-home income for overseas-trained early years staff considering a UK career and settlement route.",
+    titleZh: "英國幼教行業薪酬水平分析（2026最新）",
+    summaryZh: "2026年英國幼教（Early Years／Nursery）各職位薪酬區間整理：從 Level 3 教育員到 EYTS 教師與幼兒園主管，分析地區差異、4500鎊獎金加成與簽證擔保如何影響實際到手收入，並給出海外幼教背景人士的切入與永居路線建議。",
+    relatedReadings: [
+      "uk-early-years-teacher-recognition-payment-4500-2026",
+      "uk-skilled-worker-to-ilr-5-year-checklist-2026",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["National Careers Service — Early years teacher", "https://nationalcareers.service.gov.uk/job-profiles/early-years-teacher"],
+      ["Get Into Teaching (DfE)", "https://getintoteaching.education.gov.uk/"],
+      ["UK ENIC — Qualification recognition", "https://www.enic.org.uk/"],
+      ["GOV.UK — Skilled Worker visa", "https://www.gov.uk/skilled-worker-visa"]
+    ],
+    body: ukEytsSalaryBody,
+    bodyZh: ukEytsSalaryBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。文中薪酬區間為 National Careers Service、Glassdoor、Indeed、Prospects.ac.uk 等公開來源整理的概略範圍，實際薪資依雇主、地區與資歷而異，應以雇主 Offer 及官方資料為準。",
+      "中小學 QTS 起薪（£32,916，英格蘭非倫敦）與 Skilled Worker 簽證薪資門檻會隨年度政策調整；本文比較僅作參考，申請前須核對 DfE 與 Home Office 最新規定。"
+    ],
+  },
   {
     slug: "uk-early-years-teacher-recognition-payment-4500-2026",
     title: "UK Early Years Teacher Recognition Payment: £4,500 Bonus",
