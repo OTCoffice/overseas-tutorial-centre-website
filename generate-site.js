@@ -2240,7 +2240,7 @@ const stevensI983Body = [
   {
     heading: "1) 為什麼 Section 5 是 I-983 的審核重點",
     paragraphs: [
-      "I-983（Training Plan for STEM OPT Students）的 Section 5 是 USCIS 與 SEVP 審核的重點，必須具體、詳細、有數據或時間表，清楚證明工作內容與你的 STEM 學位直接相關。",
+      "I-983（Training Plan for STEM OPT Students）由學生與雇主填寫後，提交給學校 DSO（Stevens ISSS）審核、由其簽發 STEM OPT I-20，並非提交給 USCIS。Section 5 是 DSO 審核與日後 SEVP site visit 的重點，必須具體、詳細、有數據或時間表，清楚證明工作內容與你的 STEM 學位直接相關。",
       "以下提供 Computer Science／Software Engineering 與 Financial Engineering／Business Analytics 兩個常見範例，供史蒂文斯理工學院（Stevens）研究生填寫時參考。範例僅作格式與寫法示意，實際內容須依你的真實職位、雇主與課程如實填寫。"
     ]
   },
@@ -2278,43 +2278,43 @@ const stevensI983Body = [
     heading: "5) 官方資源與重要提醒",
     paragraphs: [
       "官方資源：DHS I-983 表格與說明（ice.gov）、Study in the States 的 STEM OPT Hub。填寫前後都應對照官方最新版本。",
-      "本文僅為格式與寫法的教育性參考，不構成移民、法律或個案建議。STEM OPT、I-983 與 OPT Extension 的資格、時限與填報要求依美國移民法規與你的個案而定；草稿完成後務必交由 Stevens ISSS 或合資格的移民專業人士最終審核，避免 USCIS 退件。"
+      "本文僅為格式與寫法的教育性參考，不構成移民、法律或個案建議。I-983 提交給學校 DSO（Stevens ISSS）而非 USCIS；STEM OPT、I-983 與 OPT Extension 的資格、時限與填報要求依美國移民法規與你的個案而定，草稿完成後務必交由 Stevens ISSS 或合資格的移民專業人士最終審核，避免 DSO 退件或日後查核問題。"
     ]
   }
 ];
 
 const stevensI983PitfallsBody = [
   {
-    heading: "1) 為什麼 I-983 最容易出問題",
+    heading: "1) 先搞清楚：I-983 交給誰、問題會出在哪",
     paragraphs: [
-      "Form I-983 是 STEM OPT 申請中最容易出問題的文件。USCIS 與 SEVP 審核非常嚴格，一旦 I-983 有問題，常導致 RFE（補件）、退件或 Denial（拒絕）。",
-      "以下根據官方指引與近年實際案例，整理最常見的被拒與 RFE 原因，供史蒂文斯理工學院（Stevens）學生填寫前自我檢查。"
+      "一個常見誤解是「I-983 要提交給 USCIS」。實際上，Form I-983（Training Plan for STEM OPT Students）由學生與雇主共同填寫後，提交給學校的 DSO（即 Stevens ISSS），由 DSO 審核並簽發載有 STEM OPT 的新 I-20；學生再以 I-765 向 USCIS 申請 EAD。USCIS 的 I-765 申請包裡並不包含 I-983。",
+      "因此，I-983 的風險並非「被 USCIS 拒絕」，而是沿三條路徑出現：(a) DSO 審核後退回要求修改——這是最常見的情況；(b) USCIS 在 I-765 的 RFE 中索取 I-983 副本，若內容與申請不符才會出問題；(c) 日後 SEVP site visit（實地查核）發現培訓計劃與實際工作不符。下表的問題點，主要對應 DSO 退件與後續查核風險。"
     ]
   },
   {
-    heading: "2) Top 10 常見 I-983 被拒 / RFE 原因",
+    heading: "2) Top 10 常見 I-983 問題與退件原因",
     paragraphs: [
-      "<div class=\"report-table-wrap article-cost-table\"><table><thead><tr><th>排名</th><th>拒絕原因</th><th>說明與後果</th><th>避坑建議</th></tr></thead><tbody><tr><td>1</td><td>Section 5 培訓計劃太泛、缺乏具體性</td><td>目標模糊（如只寫「學習新技能」）、未連結 STEM 學位具體課程、沒有可衡量成果</td><td>引用課程名稱（如 CS 600 Algorithms）、工具與預期成果（improve accuracy by 15%）、時間表</td></tr><tr><td>2</td><td>工作與 STEM 學位關聯性不足</td><td>職責描述與所學專業無明顯直接關係</td><td>明確寫出「本職位直接應用我在 Stevens 修讀的 XXX 課程知識」</td></tr><tr><td>3</td><td>雇主未參與 E-Verify</td><td>雇主提交時尚未註冊或已失效</td><td>提交前讓雇主確認 E-Verify 狀態（可線上查詢）</td></tr><tr><td>4</td><td>簽名無效</td><td>使用打字簽名、電子簽名格式錯誤、缺少日期</td><td>使用手寫濕簽或可驗證電子簽名（Adobe Sign／DocuSign）</td></tr><tr><td>5</td><td>日期錯誤</td><td>STEM OPT 開始日期填錯（最常見）、與 Offer Letter 或 I-20 不一致</td><td>STEM OPT 開始日期＝實際 STEM 期間第一天（非原 OPT 開始日）</td></tr><tr><td>6</td><td>雇主資訊不完整或不準確</td><td>EIN 錯誤、工作地點填總部而非實際地址、缺 Supervisor 資訊</td><td>填寫實際工作 Site Address，並讓 HR 審核</td></tr><tr><td>7</td><td>薪資／工時不符合要求</td><td>低於同等美國員工、每週少於 20 小時、未說明補償</td><td>寫明與 similarly situated U.S. workers 相當，並確保 ≥20 小時／週</td></tr><tr><td>8</td><td>格式與文件問題</td><td>文字超出欄位、字跡不清、附加頁格式錯誤</td><td>使用最新官方表格＋Stevens 專用 I-983 Guide</td></tr><tr><td>9</td><td>雇主資源與監督不足</td><td>未說明監督人、會議頻率、評估方式</td><td>明確寫出 Supervisor 姓名、每週／每月會議、KPI 等</td></tr><tr><td>10</td><td>未說明不取代美國員工</td><td>缺少此聲明</td><td>Section 4 雇主認證必須完整</td></tr></tbody></table></div>"
+      "<div class=\"report-table-wrap article-cost-table\"><table><thead><tr><th>排名</th><th>問題點</th><th>說明與後果</th><th>避坑建議</th></tr></thead><tbody><tr><td>1</td><td>Section 5 培訓計劃太泛、缺乏具體性</td><td>目標模糊（如只寫「學習新技能」）、未連結 STEM 學位具體課程、沒有可衡量成果</td><td>引用課程名稱（如 CS 600 Algorithms）、工具與預期成果（improve accuracy by 15%）、時間表</td></tr><tr><td>2</td><td>工作與 STEM 學位關聯性不足</td><td>職責描述與所學專業無明顯直接關係</td><td>明確寫出「本職位直接應用我在 Stevens 修讀的 XXX 課程知識」</td></tr><tr><td>3</td><td>雇主未參與 E-Verify</td><td>STEM OPT 要求雇主為 E-Verify 雇主；未註冊或已失效即不符資格</td><td>提交前讓雇主確認 E-Verify 狀態，並填入有效的 E-Verify 公司／客戶識別碼</td></tr><tr><td>4</td><td>簽名或日期不完整</td><td>缺少學生／雇主簽名或日期、簽名與其他文件不一致</td><td>確保學生與雇主皆已簽署並填日期；ICE 自 2020 年起接受電子簽名與掃描件，無須一律手寫濕簽</td></tr><tr><td>5</td><td>日期錯誤</td><td>STEM OPT 開始日期填錯（最常見）、與 Offer Letter 或 I-20 不一致</td><td>STEM OPT 開始日期＝核發的 STEM OPT 期間第一天，須與 I-20 一致</td></tr><tr><td>6</td><td>雇主資訊不完整或不準確</td><td>EIN 錯誤、工作地點填總部而非實際地址、缺 Supervisor 資訊</td><td>填寫實際工作 Site Address，並讓 HR 審核</td></tr><tr><td>7</td><td>薪資／工時不符合要求</td><td>低於同等美國員工、每週少於 20 小時、未說明補償</td><td>寫明與 similarly situated U.S. workers 相當，並確保 ≥20 小時／週</td></tr><tr><td>8</td><td>格式與文件問題</td><td>文字超出欄位、字跡不清、附加頁格式錯誤</td><td>使用最新官方表格＋Stevens 專用 I-983 Guide</td></tr><tr><td>9</td><td>雇主資源與監督不足</td><td>未說明監督人、會議頻率、評估方式</td><td>明確寫出 Supervisor 姓名、每週／每月會議、KPI 等</td></tr><tr><td>10</td><td>未說明不取代美國員工</td><td>缺少 Section 4 雇主認證的相關聲明</td><td>Section 4 雇主認證（含 attestations）必須完整填寫</td></tr></tbody></table></div>"
     ]
   },
   {
-    heading: "3) 其他重要拒絕風險（2026 新趨勢）",
+    heading: "3) 其他重要風險（2026 提醒）",
     paragraphs: [
-      "<ul><li>雇主在提交後才註冊 E-Verify。</li><li>培訓計劃看起來像「一般工作」而非「結構化培訓」。</li><li>材料變更未及時報告，衍生後續問題。</li><li>整體申請時機錯誤（如超過 60 天窗口）。</li></ul>"
+      "<ul><li>雇主在學生開始 STEM OPT 後才註冊 E-Verify，導致開始時不符資格。</li><li>培訓計劃看起來像「一般工作」而非「結構化培訓」，易在 site visit 被質疑。</li><li>工作內容、地點或雇主有重大變更卻未在規定時限內更新 I-983 並報告 DSO。</li><li>OPT／STEM OPT 申請時機錯誤（如錯過相對於畢業或 I-20 建議的申請窗口）。</li></ul>"
     ]
   },
   {
     heading: "4) Stevens 學生實務建議",
     paragraphs: [
-      "<ul><li>使用 Stevens 官方 2026 更新版 I-983 Guide（學校網站可下載）。</li><li>填好後先上傳給 ISSS 審核，不要直接寄給 USCIS。</li><li>讓雇主（Supervisor 加 HR）共同審核 Section 5。</li><li>保留完整記錄，包括 Offer Letter、Pay Stub 等，以備 RFE。</li></ul>",
-      "如果收到 RFE：通常有 30–87 天補件時間，應盡快與 Stevens ISSS 聯繫處理，多數情況可透過補正 I-983 解決。"
+      "<ul><li>使用 Stevens 官方 2026 更新版 I-983 Guide（學校網站可下載）。</li><li>I-983 本來就是交給 Stevens ISSS（DSO）審核、由其簽發 STEM OPT I-20——務必先給 ISSS 審核通過，不要自行寄出或略過這一步。</li><li>讓雇主（Supervisor 加 HR）共同審核並簽署 Section 4 與 Section 5。</li><li>保留完整記錄，包括 Offer Letter、Pay Stub、I-983 副本等，以備日後 USCIS RFE 或 SEVP site visit。</li></ul>",
+      "若 USCIS 對 I-765 發出 RFE 並索取 I-983：補件回覆期通常為 30–90 天不等，以 RFE 通知書載明的截止日為準；應盡快與 Stevens ISSS 聯繫，多數情況可透過補正資料解決。"
     ]
   },
   {
     heading: "5) 官方資源與重要提醒",
     paragraphs: [
-      "官方資源：Study in the States 的 I-983 Overview、USCIS／ICE 官方 I-983 Instructions、Stevens ISSS 的 STEM OPT 頁面（含最新 Guide）。",
-      "本文僅為教育性整理，不構成移民、法律或個案建議。I-983、STEM OPT 與 RFE 處理依美國移民法規與個案而定，最新要求以 ice.gov 及 studyinthestates.dhs.gov 為準，並由 Stevens ISSS 或合資格移民專業人士最終審核。"
+      "官方資源：Study in the States 的 STEM OPT Hub 與 I-983 Overview、ICE 官方 I-983 表格與說明、Stevens ISSS 的 STEM OPT 頁面（含最新 Guide）。",
+      "本文僅為教育性整理，不構成移民、法律或個案建議。I-983 的提交對象為學校 DSO（Stevens ISSS）而非 USCIS；相關資格、時限與填報要求依美國移民法規與個案而定，最新要求以 ice.gov 及 studyinthestates.dhs.gov 為準，並由 Stevens ISSS 或合資格移民專業人士最終審核。"
     ]
   }
 ];
@@ -2323,15 +2323,15 @@ const insightsArticles = [
   ...australiaLicensingHotspotArticles,
   {
     slug: "stevens-i-983-common-rejection-reasons-avoidance-guide-2026",
-    title: "I-983 Common Rejection Reasons & Avoidance Guide (Stevens 2026)",
+    title: "I-983 Common Problems & DSO Return Avoidance Guide (Stevens 2026)",
     date: "2026-06-10",
     category: "US Pathways",
     column: "study",
-    kicker: "I-983 · STEM OPT · RFE · Stevens ISSS",
+    kicker: "I-983 · STEM OPT · DSO Review · Stevens ISSS",
     author: "留學導報編輯部",
-    summary: "The top 10 reasons Form I-983 training plans draw RFEs or rejections under STEM OPT — vague Section 5 goals, weak degree linkage, E-Verify and signature errors, wrong dates, pay/hours issues and more — with concrete avoidance tips for Stevens Institute of Technology students. Educational guidance only; final review must go through Stevens ISSS or a qualified immigration professional.",
-    titleZh: "I-983 常見被拒原因與避坑指南（史蒂文斯2026）",
-    summaryZh: "整理 STEM OPT 申請中 Form I-983 最常見的 10 大被拒與 RFE 原因（Section 5 太泛、學位關聯不足、E-Verify 與簽名問題、日期錯誤、薪資工時等），並提供史蒂文斯學生適用的避坑建議。內容僅為教育性參考，最終須交 Stevens ISSS 或合資格移民專業人士審核。",
+    summary: "Form I-983 is submitted to your school's DSO (Stevens ISSS) — not USCIS. This guide explains where I-983 risk actually sits (DSO returns, an I-765 RFE asking for the plan, or a later SEVP site visit) and lists the top 10 problems — vague Section 5 goals, weak degree linkage, E-Verify and date issues, pay/hours and more — with avoidance tips for Stevens students. Educational guidance only; final review must go through Stevens ISSS or a qualified immigration professional.",
+    titleZh: "I-983 常見問題與退件避坑指南（史蒂文斯2026）",
+    summaryZh: "釐清關鍵前提：I-983 提交給學校 DSO（Stevens ISSS）而非 USCIS。本文說明 I-983 真正的風險路徑（DSO 退件、I-765 的 RFE 索取副本、或日後 SEVP site visit），並整理 10 大常見問題（Section 5 太泛、學位關聯不足、E-Verify、日期、薪資工時等）與避坑建議。內容僅為教育性參考，最終須交 Stevens ISSS 或合資格移民專業人士審核。",
     relatedReadings: [
       "stevens-i-983-section-5-stem-opt-training-plan-examples-2026",
       "stevens-institute-graduate-career-experience-program-2026",
@@ -2345,8 +2345,9 @@ const insightsArticles = [
     body: stevensI983PitfallsBody,
     bodyZh: stevensI983PitfallsBody,
     factCheckNotes: [
-      "核查時間：2026-06-10。文中 10 大被拒原因與避坑建議為官方指引與公開案例整理，並非保證審核結果；實際 I-983 填報與 E-Verify、簽名、日期、薪資工時等要求應以官方表格與說明為準。",
-      "STEM OPT、I-983 與 RFE 補件時限依美國移民法規與個案而定，最新版本與要求以 ice.gov 及 studyinthestates.dhs.gov 為準，並由 Stevens ISSS 或合資格移民專業人士最終審核。"
+      "核查時間：2026-06-10。I-983 提交對象為學校 DSO（Stevens ISSS），非 USCIS；USCIS 的 I-765 申請包不含 I-983。風險路徑為 DSO 退件、I-765 的 RFE 索取 I-983 副本、或 SEVP site visit 發現不符，而非「I-983 被 USCIS 拒絕」。",
+      "ICE 自 2020 年起接受 I-983 的電子簽名與掃描件，並非一律要求手寫濕簽。I-765 的 RFE 回覆期一般為 30–90 天，以通知書載明截止日為準。",
+      "文中問題點與建議為官方指引與公開資訊整理，不保證審核結果；最新要求以 ice.gov 及 studyinthestates.dhs.gov 為準，並由 Stevens ISSS 或合資格移民專業人士最終審核。"
     ],
   },
   {
