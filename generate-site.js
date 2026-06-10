@@ -7509,6 +7509,7 @@ function genericHeraldSidebar(article) {
           <em>${String(index + 1).padStart(2, "0")}</em>
         </div>
       `).join("")}
+      <button type="button" class="oeh-consult-mini" data-page-copy-link="overseasus" aria-label="立即諮詢 OTC，複製微信號 overseasus">立即諮詢OTC · 微信 overseasus</button>
     </div>
     <div class="oeh-widget">
       <div class="oeh-widget-title">重要提示</div>
@@ -7527,21 +7528,9 @@ function contactHeraldWidget() {
     <div class="oeh-widget">
       <div class="oeh-widget-title">聯絡 OTC</div>
       <div class="oeh-contact-card">
-        <p><strong>Maria Shaw</strong></p>
-        <p class="oeh-contact-full">Overseas Tutorial Centre Ltd</p>
-        <p><span class="oeh-contact-head">UK Head Office</span></p>
-        <p class="oeh-contact-full">3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
-        <p><span class="oeh-contact-head">Australia Representative Office</span></p>
-        <p class="oeh-contact-full">45 Evans St, Balmain, NSW 2041, Australia</p>
-        <p><span>Website</span><a href="https://www.overseasuk.com">overseasuk.com</a></p>
-        <p><span>Australia Office</span><a href="https://www.overseasuk.com/australia-business-landing/">澳洲辦事處</a></p>
-        <p><span>Email</span><a href="mailto:office@overseasuk.com">office@overseasuk.com</a></p>
-        <p><span>Phone</span><a href="tel:+442079353623">+44 20 7935 3623</a></p>
-        <p><span>WeChat</span><button type="button" class="oeh-wechat-copy" data-page-copy-link="overseasus" aria-label="複製微信號 overseasus">overseasus</button></p>
-        <p><span>WhatsApp</span><a href="https://wa.me/447947991572">+44 7947 991572</a></p>
-        <p><span>UKPRN</span><strong>10099225</strong></p>
-        <p><span>OTHM Centre</span><strong>DC11060519</strong></p>
-        <p><span>Approval Valid Until</span><strong>30 May 2031</strong></p>
+        <p><strong>WhatsApp</strong><a href="https://wa.me/447947991572">+44 7947 991572</a></p>
+        <p><strong>Email</strong><a href="mailto:office@overseasuk.com">office@overseasuk.com</a></p>
+        <p><strong>WeChat</strong><span>overseasus</span></p>
       </div>
     </div>
   `;
@@ -7604,13 +7593,10 @@ function heraldArticleBody(article) {
           <div class="oeh-name-zh">海外留學導報</div>
           <div class="oeh-tagline">旅英旅澳華人 · 留學升學 · 生活規劃</div>
         </div>
-        <div class="oeh-masthead-right">
-          <div class="oeh-meta">
-            <div><strong>${article.category}</strong></div>
-            <div>${article.date}</div>
-            <div>overseasuk.com/insights</div>
-          </div>
-          <button type="button" class="oeh-consult-cta" data-page-copy-link="overseasus" aria-label="立即諮詢 OTC，複製微信號 overseasus">立即諮詢OTC｜微信 overseasus</button>
+        <div class="oeh-meta">
+          <div><strong>${article.category}</strong></div>
+          <div>${article.date}</div>
+          <div>overseasuk.com/insights</div>
         </div>
       </div>
       <div class="oeh-section-bar">
@@ -8340,14 +8326,11 @@ function zhArticleMagazineBody(article) {
           <div class="zh-herald-name-zh">留學導報</div>
           <div class="zh-herald-tagline">${reviewColumn.tagline}</div>
         </div>
-        <div class="zh-herald-masthead-right">
-          <div class="zh-herald-meta">
-            <div><strong>${reviewColumn.name}</strong></div>
-            <div>${issueMonth}</div>
-            <div>${article.author}</div>
-            <div>overseasuk.com/insights</div>
-          </div>
-          <button type="button" class="oeh-consult-cta zh-herald-consult-cta" data-page-copy-link="overseasus" aria-label="立即諮詢 OTC，複製微信號 overseasus">立即諮詢OTC｜微信 overseasus</button>
+        <div class="zh-herald-meta">
+          <div><strong>${reviewColumn.name}</strong></div>
+          <div>${issueMonth}</div>
+          <div>${article.author}</div>
+          <div>overseasuk.com/insights</div>
         </div>
       </div>
       <div class="zh-herald-section-bar">
@@ -8426,6 +8409,7 @@ function zhArticleMagazineBody(article) {
               <div class="zh-herald-card-desc">${article.summaryZh || article.summary}</div>
               <span class="zh-herald-badge">導報主題</span>
             </div>
+            <button type="button" class="oeh-consult-mini" data-page-copy-link="overseasus" aria-label="立即諮詢 OTC，複製微信號 overseasus">立即諮詢OTC · 微信 overseasus</button>
           </div>
           ${article.sidebarCards ? `
             <div class="zh-herald-widget">
@@ -8496,26 +8480,6 @@ function zhArticleMagazineBody(article) {
         </section>
       ` : ""}
       ${shareLinksHerald(article, "zh")}
-      <section class="zh-herald-contact-section">
-        <div class="zh-herald-widget-title">聯絡 OTC</div>
-        <div class="oeh-contact-card">
-          <p><strong>Maria Shaw</strong></p>
-          <p class="oeh-contact-full">Overseas Tutorial Centre Ltd</p>
-          <p><span class="oeh-contact-head">UK Head Office</span></p>
-          <p class="oeh-contact-full">3rd Floor, 207 Regent Street, London W1B 3HH, United Kingdom</p>
-          <p><span class="oeh-contact-head">Australia Representative Office</span></p>
-          <p class="oeh-contact-full">45 Evans St, Balmain, NSW 2041, Australia</p>
-          <p><span>Website</span><a href="https://www.overseasuk.com">overseasuk.com</a></p>
-          <p><span>Australia Office</span><a href="https://www.overseasuk.com/australia-business-landing/">澳洲辦事處</a></p>
-          <p><span>Email</span><a href="mailto:office@overseasuk.com">office@overseasuk.com</a></p>
-          <p><span>Phone</span><a href="tel:+442079353623">+44 20 7935 3623</a></p>
-          <p><span>WeChat</span><button type="button" class="oeh-wechat-copy" data-page-copy-link="overseasus" aria-label="複製微信號 overseasus">overseasus</button></p>
-          <p><span>WhatsApp</span><a href="https://wa.me/447947991572">+44 7947 991572</a></p>
-          <p><span>UKPRN</span><strong>10099225</strong></p>
-          <p><span>OTHM Centre</span><strong>DC11060519</strong></p>
-          <p><span>Approval Valid Until</span><strong>30 May 2031</strong></p>
-        </div>
-      </section>
       <footer class="zh-herald-footer">
         <strong>留學導報</strong>
         <span>© 2026 Overseas Tutorial Centre Ltd. · Overseas Publishing House · overseasuk.com</span>

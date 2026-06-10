@@ -14061,22 +14061,6 @@ h1 {
   font-size: 12px;
 }
 
-.zh-herald-masthead-right {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.zh-herald-contact-section {
-  padding: 24px 48px 0;
-  max-width: 460px;
-}
-
-.zh-herald-contact-section .zh-herald-widget-title {
-  margin-bottom: 10px;
-}
-
 .zh-herald-section-bar {
   background: #b5272d;
   padding: 6px 48px;
@@ -15526,36 +15510,28 @@ h1 {
   font-size: 12px;
 }
 
-.oeh-masthead-right {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.oeh-consult-cta {
-  flex-shrink: 0;
+.oeh-consult-mini {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
+  margin-top: 10px;
   border: none;
   cursor: pointer;
   background: var(--oeh-red);
   color: #fff;
   font-family: "Noto Serif TC", "Songti TC", serif;
   font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  padding: 10px 18px;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  padding: 6px 10px;
   border-radius: 999px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  transition: background 0.18s ease, transform 0.18s ease;
+  transition: background 0.18s ease;
 }
 
-.oeh-consult-cta:hover {
+.oeh-consult-mini:hover {
   background: var(--oeh-gold);
   color: var(--oeh-ink);
-  transform: translateY(-1px);
 }
 
 .oeh-section-bar {
@@ -15992,49 +15968,6 @@ h1 {
   color: var(--oeh-ink);
 }
 
-.oeh-contact-card .oeh-contact-head {
-  display: block;
-  margin-top: 4px;
-  color: var(--oeh-red);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.oeh-contact-card .oeh-contact-full {
-  display: block;
-  color: var(--oeh-ink-mid);
-}
-
-.oeh-contact-card span {
-  color: var(--oeh-ink-light);
-  flex-shrink: 0;
-}
-
-.oeh-contact-card a,
-.oeh-contact-card .oeh-wechat-copy {
-  color: var(--oeh-red);
-  text-decoration: none;
-  font-size: 12px;
-  text-align: right;
-  word-break: break-word;
-}
-
-.oeh-contact-card a:hover,
-.oeh-contact-card .oeh-wechat-copy:hover {
-  text-decoration: underline;
-}
-
-.oeh-contact-card .oeh-wechat-copy {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  font: inherit;
-  font-weight: 700;
-}
-
 .oeh-share-row {
   display: flex;
   flex-wrap: wrap;
@@ -16147,19 +16080,6 @@ h1 {
 
   .oeh-meta {
     text-align: left;
-  }
-
-  .oeh-masthead-right {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .oeh-consult-cta {
-    width: 100%;
-    justify-content: center;
-    font-size: 14px;
-    padding: 12px 18px;
   }
 
   .oeh-section-bar {
@@ -18784,22 +18704,6 @@ h1 {
 
   .zh-herald-meta {
     text-align: left;
-  }
-
-  .zh-herald-masthead-right {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .zh-herald-masthead-right .oeh-consult-cta {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .zh-herald-contact-section {
-    padding: 20px 24px 0;
-    max-width: none;
   }
 
   .zh-herald-section-bar,
