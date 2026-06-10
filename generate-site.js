@@ -2236,8 +2236,83 @@ const stevensGcepBody = [
   }
 ];
 
+const stevensI983Body = [
+  {
+    heading: "1) 為什麼 Section 5 是 I-983 的審核重點",
+    paragraphs: [
+      "I-983（Training Plan for STEM OPT Students）的 Section 5 是 USCIS 與 SEVP 審核的重點，必須具體、詳細、有數據或時間表，清楚證明工作內容與你的 STEM 學位直接相關。",
+      "以下提供 Computer Science／Software Engineering 與 Financial Engineering／Business Analytics 兩個常見範例，供史蒂文斯理工學院（Stevens）研究生填寫時參考。範例僅作格式與寫法示意，實際內容須依你的真實職位、雇主與課程如實填寫。"
+    ]
+  },
+  {
+    heading: "2) 範例一：Computer Science / Software Engineering",
+    paragraphs: [
+      "<strong>Student Role:</strong> As a Software Development Engineer at [Company Name], the student will design, develop, test, and deploy scalable web applications and cloud-based services. This role directly builds upon the advanced knowledge gained from the Master of Science in Computer Science at Stevens Institute of Technology, particularly coursework in Algorithms, Distributed Systems, Machine Learning, and Software Engineering.",
+      "<strong>Goals and Objectives:</strong>",
+      "<ul><li>Goal 1: Master full-stack development using modern frameworks (React, Node.js, AWS) to improve system performance and scalability.</li><li>Goal 2: Apply machine learning techniques to develop intelligent features, such as recommendation engines or predictive analytics models.</li><li>Goal 3: Gain expertise in DevOps practices, CI/CD pipelines, and cloud infrastructure management to support enterprise-level deployments.</li></ul>",
+      "<strong>How Goals Will Be Achieved:</strong>",
+      "<ul><li>Goal 1: In the first 6 months, the student will participate in sprint planning and contribute to 3–4 major feature developments, guided by senior engineers (bi-weekly code reviews).</li><li>Goal 2: During months 7–12, the student will work on an ML project using Python/TensorFlow, completing model training and deployment by Q3 2027.</li><li>Goal 3: The student will complete internal AWS certification training and lead one infrastructure automation project within the first 12 months.</li></ul>",
+      "<strong>Employer Oversight and Supervision:</strong> The student will report directly to the Senior Software Engineering Manager [Name]. Supervision includes weekly 1:1 meetings, quarterly performance reviews, and access to the internal mentorship program. All code will undergo peer review before deployment.",
+      "<strong>Performance Evaluation Process:</strong> Formal evaluations will occur at 12 months and 24 months using the company's standard performance review system, measuring technical contribution, code quality, and project delivery against the above goals."
+    ]
+  },
+  {
+    heading: "3) 範例二：Financial Engineering / Business Analytics",
+    paragraphs: [
+      "<strong>Student Role:</strong> The student will serve as a Quantitative Analyst / Financial Engineer at [Company Name], developing quantitative models for risk management, algorithmic trading, and portfolio optimization. This position directly applies the quantitative finance, stochastic calculus, and programming skills acquired in the Master of Science in Financial Engineering program at Stevens Institute of Technology.",
+      "<strong>Goals and Objectives:</strong>",
+      "<ul><li>Goal 1: Build and validate pricing models for derivatives using stochastic processes and Monte Carlo simulations.</li><li>Goal 2: Develop machine learning-based credit risk prediction models to support real-time decision-making.</li><li>Goal 3: Optimize trading strategies through back-testing and high-frequency data analysis.</li></ul>",
+      "<strong>How Goals Will Be Achieved:</strong>",
+      "<ul><li>Goal 1: Complete model development and validation for at least two derivative products within the first 6 months, with regular feedback from the Quantitative Research team.</li><li>Goal 2: In months 7–18, implement ML models in Python/R and integrate them into production risk systems.</li><li>Goal 3: Conduct monthly strategy performance reviews and achieve at least 10% improvement in Sharpe ratio for assigned portfolios by the end of Year 1.</li></ul>",
+      "<strong>Employer Oversight and Supervision:</strong> Daily supervision by the Head of Quantitative Research. The student will join daily stand-up meetings, weekly model validation sessions, and have access to proprietary datasets and computing resources. Progress will be tracked via Jira and internal dashboards.",
+      "<strong>Performance Evaluation Process:</strong> Evaluations at 12 and 24 months will assess model accuracy, business impact, and adherence to regulatory standards, documented through formal written reports signed by the supervisor."
+    ]
+  },
+  {
+    heading: "4) 填寫小提醒（Stevens 學生適用）",
+    paragraphs: [
+      "<ul><li><strong>越具體越好：</strong>使用課程名稱（如 CS 600 Algorithms）、工具（Python、AWS、MATLAB）與可衡量的預期成果（如 improve accuracy by 15%）。</li><li><strong>長度：</strong>每個欄位建議 4–8 句，必要時可附加額外頁面（Addendum）。</li><li><strong>與雇主合作：</strong>讓雇主（Supervisor／HR）共同審核與簽名。</li><li><strong>Stevens 專屬資源：</strong>使用學校提供的 2026 更新版 I-983 Guide，並先把草稿上傳給 ISSS 審核。</li></ul>"
+    ]
+  },
+  {
+    heading: "5) 官方資源與重要提醒",
+    paragraphs: [
+      "官方資源：DHS I-983 表格與說明（ice.gov）、Study in the States 的 STEM OPT Hub。填寫前後都應對照官方最新版本。",
+      "本文僅為格式與寫法的教育性參考，不構成移民、法律或個案建議。STEM OPT、I-983 與 OPT Extension 的資格、時限與填報要求依美國移民法規與你的個案而定；草稿完成後務必交由 Stevens ISSS 或合資格的移民專業人士最終審核，避免 USCIS 退件。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "stevens-i-983-section-5-stem-opt-training-plan-examples-2026",
+    title: "I-983 Section 5 Examples: STEM OPT Training Plan Samples (Stevens 2026)",
+    date: "2026-06-10",
+    category: "US Pathways",
+    column: "study",
+    kicker: "I-983 · STEM OPT · Training Plan · Stevens ISSS",
+    author: "留學導報編輯部",
+    summary: "Two worked I-983 Section 5 training-plan examples for STEM OPT students at Stevens Institute of Technology — one for Computer Science / Software Engineering and one for Financial Engineering / Quantitative roles — with goals, oversight and evaluation wording, plus filling tips. Educational template guidance only; final review must go through Stevens ISSS or a qualified immigration professional.",
+    titleZh: "I-983 Section 5 範例：STEM OPT 訓練計畫填寫參考（史蒂文斯2026）",
+    summaryZh: "提供兩個 I-983 Section 5 訓練計畫範例（軟體工程方向與金融工程方向），含 Student Role、Goals、雇主監督與評估流程的英文寫法，以及史蒂文斯學生適用的填寫提醒。內容僅為格式參考，最終須交由 Stevens ISSS 或合資格移民專業人士審核。",
+    relatedReadings: [
+      "stevens-institute-graduate-career-experience-program-2026",
+      "ucsb-step-upp-gaokao-us-pathway-2026",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["DHS — Form I-983 (PDF)", "https://www.ice.gov/doclib/sevis/pdf/i983.pdf"],
+      ["Study in the States — STEM OPT Hub", "https://studyinthestates.dhs.gov/stem-opt-hub"],
+      ["Stevens — Career Center", "https://www.stevens.edu/student-life/career-center"]
+    ],
+    body: stevensI983Body,
+    bodyZh: stevensI983Body,
+    factCheckNotes: [
+      "核查時間：2026-06-10。I-983（Training Plan for STEM OPT Students）為美國 DHS／SEVP 官方表格；本文兩個 Section 5 範例為格式與寫法示意，並非真實個案，須依學生實際職位、雇主與課程如實填寫。",
+      "STEM OPT 與 OPT Extension 的資格、時限與 I-983 填報要求依美國移民法規與個案而定，最新版本與要求以 ice.gov 及 studyinthestates.dhs.gov 為準，並由 Stevens ISSS 或合資格移民專業人士最終審核。"
+    ],
+  },
   {
     slug: "stevens-institute-graduate-career-experience-program-2026",
     title: "Stevens Institute Graduate Career Experience Program 2026: $4,500 Internship Stipend",
