@@ -1431,7 +1431,7 @@ function universityModuleSupportList() {
 const countryGatewayData = [
   { slug: "united-kingdom", zh: "英國", name: "United Kingdom", href: "/countries/united-kingdom/", labelClass: "label-country-uk", note: "OTC 英國總部所在市場，適合本科、碩士、博士、pathway、寄宿學校及國際課程銜接。", universities: ["University of Oxford", "University of Cambridge", "Imperial College London", "UCL", "King's College London", "University of Manchester", "University of Edinburgh", "University of Warwick"], colleges: ["Study Group UK / Europe ISC", "INTO University Partnerships", "Kaplan International Pathways", "Navitas UK Colleges", "Oxford International Education Group", "Cambridge Education Group"], highSchools: ["UK independent boarding schools", "Sixth form colleges", "State boarding schools", "International Study Centres"], primarySchools: ["Preparatory schools", "Junior boarding schools", "Independent primary schools", "London day schools"] },
   { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已升級為澳洲本地協調 + 中國五城宣傳並行：北京、上海、廣州、深圳、西安同步開展說明會、渠道拜訪、家長諮詢與 VET / TAFE 路線初篩。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
-  { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
+  { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["CATS Academy Boston (CATS Boston) — Braintree, MA boarding, Grades 8-12 / PG", "Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
   { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", universities: ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"], colleges: ["Seneca Polytechnic", "George Brown College", "Humber College", "Centennial College", "BCIT", "Fanshawe College"], highSchools: ["Ontario public school boards", "BC school districts", "Private boarding schools", "OSSD schools"], primarySchools: ["Public elementary schools", "Private elementary schools", "International junior schools", "Catholic school boards"] },
   { slug: "new-zealand", zh: "新西蘭", name: "New Zealand", href: "/countries/new-zealand/", labelClass: "label-country-new-zealand", note: "適合大學、理工學院、中小學及家庭型低齡留學路線。", universities: ["University of Auckland", "University of Otago", "Victoria University of Wellington", "University of Canterbury", "Massey University", "Auckland University of Technology"], colleges: ["Te Pukenga / institutes of technology", "Unitec", "Ara Institute of Canterbury", "English language colleges"], highSchools: ["Auckland secondary schools", "Wellington secondary schools", "Christchurch high schools", "Boarding schools"], primarySchools: ["Auckland primary schools", "Wellington primary schools", "Local state primary schools", "Independent primary schools"] },
   { slug: "ireland", zh: "愛爾蘭", name: "Ireland", href: "/countries/ireland/", labelClass: "label-country-ireland", note: "適合英語授課本科、碩士、醫藥、商科、科技與歐洲工作路線比較。", universities: ["Trinity College Dublin", "University College Dublin", "University of Galway", "University College Cork", "Dublin City University", "University of Limerick"], colleges: ["Technological University Dublin", "Griffith College", "Dublin Business School", "National College of Ireland"], highSchools: ["Irish boarding schools", "Dublin secondary schools", "International high schools", "Senior cycle programmes"], primarySchools: ["Dublin primary schools", "Independent primary schools", "Local national schools", "International junior routes"] },
@@ -2319,8 +2319,83 @@ const stevensI983PitfallsBody = [
   }
 ];
 
+const catsBostonBody = [
+  {
+    heading: "1) 學校概覽",
+    paragraphs: [
+      "波士頓文理中學（CATS Boston）成立於2012年，是一所私立寄宿制男女混校，無宗教背景。學校位於麻薩諸塞州波士頓南部的 Braintree 鎮，距波士頓市區僅約20分鐘車程；地鐵可直達哈佛大學、MIT、波士頓大學等世界頂尖學府，學術氛圍濃厚，校區毗鄰當地警局，安全保障出色。",
+      "校園佔地約130畝（22英畝），相當於13個標準足球場大小，環境優美、設施完善。目前在校學生約440人，其中約95%為寄宿生，走讀比例很低，真正實現沉浸式的校園生活。"
+    ]
+  },
+  {
+    heading: "2) 多元國際社區",
+    paragraphs: [
+      "CATS Boston 的學生來自全球三十多個國家，國際化程度高，學生組成大致如下：",
+      "<div class=\"report-table-wrap article-cost-table\"><table><thead><tr><th>學生來源</th><th>比例</th></tr></thead><tbody><tr><td>美國本地</td><td>38%</td></tr><tr><td>加拿大</td><td>15%</td></tr><tr><td>南美</td><td>15%</td></tr><tr><td>歐洲</td><td>10%</td></tr><tr><td>中國</td><td>10%</td></tr><tr><td>日韓</td><td>5%</td></tr><tr><td>非洲</td><td>2%</td></tr><tr><td>其他地區</td><td>6%</td></tr></tbody></table></div>",
+      "平均班型僅5–12人，師生比約1:9，教師能充分關注每一位學生的學習與成長需求。"
+    ]
+  },
+  {
+    heading: "3) 學術設置",
+    paragraphs: [
+      "學校提供21門 AP 課程與23門榮譽（Honors）課程，課程難度與選擇性均處於較高水平，適合追求學術挑戰的學生。",
+      "CATS Boston 注重小班教學與個性化指導，協助學生在大學申請中展現獨特競爭力，尤其在文書、選課與升學規劃上提供緊密支持。"
+    ]
+  },
+  {
+    heading: "4) 升學成果亮眼",
+    paragraphs: [
+      "學校升學率達100%，藤校錄取率接近5%。歷年畢業生獲 MIT、耶魯、史丹佛、賓州大學（沃頓商學院）、達特茅斯、布朗、康乃爾、哥倫比亞、約翰霍普金斯、威廉姆斯學院、萊斯、埃默里等頂尖大學錄取。",
+      "中國學生近年表現尤為突出：<strong>2024年</strong>中國畢業生9人（藝術特長生除外）全部獲 US News 前50大學錄取，包括紐約大學 Stern 商學院、喬治亞理工、UIUC（2人）、多倫多大學、波士頓大學、賓州州立、伯克利音樂學院、Parsons 藝術學院（服裝設計）。",
+      "<strong>2025年</strong>中國畢業生9人（藝術特長生除外）全部獲 US News 前40大學錄取，包括南加州大學、紐約大學、UIUC（2人）、Franklin & Marshall 文理學院、羅格斯大學（2人）、伯克利音樂學院、羅德島藝術學院（服裝設計）。",
+      "學校累計為學生提供超過1900萬美元的大學獎學金。"
+    ]
+  },
+  {
+    heading: "5) 權威排名與口碑",
+    paragraphs: [
+      "<ul><li><strong>Niche 綜合評分：</strong>A+</li><li><strong>Finding School 2025 排名：</strong>98</li><li><strong>FS 哈耶普斯麻榜單排名：</strong>54</li></ul>"
+    ]
+  },
+  {
+    heading: "6) 學校亮點與適合學生",
+    paragraphs: [
+      "<ul><li><strong>地理位置絕佳：</strong>緊鄰波士頓、名校環繞，文化與學術資源豐富，同時保有小鎮的安靜與安全。</li><li><strong>小班精英教學：</strong>5–12人班級規模搭配1:9師生比，真正落實個性化教育。</li><li><strong>升學支持強勁：</strong>100%升學率，藤校及頂尖大學錄取成績穩定，對中國學生友好。</li><li><strong>多元包容環境：</strong>來自全球三十多國的學生共同生活，培養國際視野與跨文化能力。</li><li><strong>藝術與學術並重：</strong>除傳統學術外，音樂、服裝設計等藝術特長生亦有出色發揮。</li></ul>",
+      "適合學生：希望在波士頓地區接受高質量美式高中教育、追求頂尖大學錄取、偏好小班教學與多元國際環境的8–12年級及 PG（Postgraduate）學生。若你正在考慮讓孩子就讀一所規模適中、升學扎實、關懷到位的私立寄宿高中，CATS Boston 是非常值得重點關注的優質選擇。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "cats-boston-boarding-school-profile-2026",
+    title: "CATS Boston: A Small, Selective Boarding School near Boston (2026 Profile)",
+    date: "2026-06-10",
+    category: "US Pathways",
+    column: "study",
+    kicker: "CATS Boston · Braintree MA · US Boarding · Grades 8-12 / PG",
+    author: "留學導報編輯部",
+    summary: "A 2026 profile of CATS Boston (CATS Academy Boston) — a small, selective non-denominational boarding school in Braintree, 20 minutes from Boston. Class sizes of 5-12, a 1:9 staff ratio, 21 AP and 23 Honors courses, a 100% university progression rate and strong outcomes for Chinese students make it a focused option for overseas families seeking a US boarding route.",
+    titleZh: "波士頓文理中學（CATS Boston）：波士頓近郊小而精緻的升學優選",
+    summaryZh: "2026年波士頓文理中學（CATS Boston）學校檔案：位於波士頓南部 Braintree 的私立寄宿男女混校，距市區20分鐘車程，名校環繞。5–12人小班、1:9師生比、21門 AP 與23門榮譽課程、100%升學率，中國學生升學成果亮眼，是海外家庭赴美寄宿高中的精緻選擇。",
+    relatedReadings: [
+      "ucsb-step-upp-gaokao-us-pathway-2026",
+      "stevens-institute-graduate-career-experience-program-2026",
+      "uk-aus-application-documents-checklist"
+    ],
+    resources: [
+      ["CATS Academy Boston — Official site", "https://www.catsacademyboston.com/"],
+      ["Niche — CATS Academy Boston", "https://www.niche.com/k12/cats-academy-boston-braintree-ma/"],
+      ["U.S. News — Best Colleges (rankings reference)", "https://www.usnews.com/best-colleges"]
+    ],
+    body: catsBostonBody,
+    bodyZh: catsBostonBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。校齡、地點、學生人數、寄宿比例、班型、師生比、AP／榮譽課程數、升學率、藤校錄取率、獎學金總額與排名等數據為學校公開資訊與第三方排名整理，可能隨年度更新，入學前應以 CATS Academy Boston 官網及最新招生資料為準。",
+      "錄取結果與中國畢業生升學名單反映歷年情況，不構成未來錄取保證；簽證、監護與費用等事項應以學校與合資格專業人士確認為準。"
+    ],
+  },
   {
     slug: "stevens-i-983-common-rejection-reasons-avoidance-guide-2026",
     title: "I-983 Common Problems & DSO Return Avoidance Guide (Stevens 2026)",
