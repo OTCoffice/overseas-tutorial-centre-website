@@ -28533,3 +28533,17 @@ body.zh-home-page .zh-priority-panel{
     padding: 10px;
   }
 }
+
+/* University of Alberta series entry card (insights index) */
+.alberta-series-band { background: #1a1410; color: #fff7e8; border-radius: 6px; }
+.alberta-series-head .eyebrow { color: #e8b84b; }
+.alberta-series-head h2 { color: #fff; margin: 6px 0 4px; }
+.alberta-series-head p { color: #c9b896; margin: 0 0 18px; font-size: 14px; }
+.alberta-series-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.alberta-series-card { display: flex; flex-direction: column; gap: 6px; background: #fffaf2; border: 1px solid #c8952a; border-radius: 5px; padding: 16px; text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+.alberta-series-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.28); }
+.alberta-series-num { color: #b5272d; font-weight: 900; font-size: 13px; letter-spacing: .1em; }
+.alberta-series-card strong { color: #1a1410; font-size: 15px; line-height: 1.35; }
+.alberta-series-card em { color: #6b5a44; font-style: normal; font-size: 12px; line-height: 1.4; }
+@media (max-width: 860px) { .alberta-series-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .alberta-series-grid { grid-template-columns: 1fr; } }

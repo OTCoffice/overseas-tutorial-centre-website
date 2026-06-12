@@ -9156,6 +9156,28 @@ function zhArticleMagazineBody(article) {
   `;
 }
 
+function albertaSeriesSection(isZh) {
+  const base = isZh ? "/zh/insights/" : "/insights/";
+  const items = [
+    ["01", "university-of-alberta-year-one-foundation-program-overview-2026", isZh ? "總覽：QS94 加拿大升學通道" : "Overview: a QS-94 Canadian pathway", isZh ? "Year One 機制與七大院系銜接" : "Year One model & faculty progression"],
+    ["02", "university-of-alberta-year-one-engineering-pathway-2026", isZh ? "工程方向：Qualifying Year 與 Co-op GPA" : "Engineering: qualifying year & Co-op GPA", isZh ? "先修、課程與 GPA 門檻" : "Prerequisites, courses & GPA"],
+    ["03", "university-of-alberta-coop-internship-guide-2026", isZh ? "Co-op 與實習機會" : "Co-op & internships", isZh ? "各學院實習 + 2026/4 工簽新規" : "Placements + the 2026 no-permit rule"],
+    ["04", "university-of-alberta-pgwp-aaip-immigration-route-2026", isZh ? "PGWP 與 AAIP 移民路線" : "PGWP & AAIP immigration route", isZh ? "畢業後工作與省提名" : "Post-grad work & provincial nomination"]
+  ];
+  return `
+    <section class="band compact-band alberta-series-band">
+      <div class="alberta-series-head">
+        <div class="eyebrow">Series · 系列專題</div>
+        <h2>${isZh ? "阿爾伯塔大學 Year One 系列" : "University of Alberta Year One Series"}</h2>
+        <p>${isZh ? "QS 世界第94 · 平行大一 · 工程 · Co-op 與移民，四篇連讀。" : "QS World #94 · Year One pathway · engineering, Co-op and immigration, in four linked parts."}</p>
+      </div>
+      <div class="alberta-series-grid">
+        ${items.map(([n, slug, t, sub]) => `<a class="alberta-series-card" href="${base}${slug}/"><span class="alberta-series-num">${n}</span><strong>${t}</strong><em>${sub}</em></a>`).join("")}
+      </div>
+    </section>
+  `;
+}
+
 const insights = pageShell({
   title: "Overseas Study Review | 留學導報 | OTC Study Hub",
   current: "insights",
@@ -9177,6 +9199,7 @@ const insights = pageShell({
         </aside>
       </div>
     </section>
+    ${albertaSeriesSection(false)}
     <section class="band insights-band">
       <div class="insights-intro">
         <div>
@@ -9226,6 +9249,7 @@ const zhInsights = pageShell({
         </div>
       </div>
     </section>
+    ${albertaSeriesSection(true)}
     <section class="band compact-band zh-review-list-section">
       <div class="zh-review-prelude">
         <div class="eyebrow">Editorial Desk</div>
