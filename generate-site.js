@@ -2366,8 +2366,245 @@ const catsBostonBody = [
   }
 ];
 
+const uoaOverviewBody = [
+  {
+    heading: "1) 院校概覽：QS 世界第94、加拿大第4",
+    paragraphs: [
+      "阿爾伯塔大學（University of Alberta，U of A）成立於1906年，是加拿大 U15 研究型大學聯盟成員。在2026年 QS 世界大學排名中位列<strong>世界第94、加拿大第4</strong>（較上一年上升兩位，學術聲譽提升為主要動力）。學校位於阿爾伯塔省首府埃德蒙頓（Edmonton），國際學生佔比約27%，生活成本較多倫多、溫哥華更親民。",
+      "在學科層面，U of A 的石油工程於 QS 2026 學科排名<strong>世界第3、加拿大第1</strong>，並是加拿大唯一獲認證的石油工程學士課程；採礦與資源工程亦為其強項，整體在能源與資源領域具國際聲譽。"
+    ]
+  },
+  {
+    heading: "2) 什麼是「平行大一」Year One Foundation Program",
+    paragraphs: [
+      "許多中國高考生因缺少部分先修課程（如特定理科科目）而無法直錄加拿大頂尖大學本科。U of A 自2024/25年起與 Kaplan International 合作推出 Year One Foundation Program，專為國際學生設計：",
+      "<ul><li><strong>課程性質：</strong>這是四年制本科的「第一年」，由 U of A 教授授課、修讀 U of A 正式學分課程，計入本科成績。</li><li><strong>銜接模式：</strong>成功完成第一年並達到指定 GPA，即可直接進入第二年本科，不需重新申請、不損失時間。</li><li><strong>Kaplan 支持：</strong>透過 Kaplan 申請不收申請費、可享整個本科期間的固定學費，並由 Kaplan 協助文件準備與校方溝通。</li></ul>"
+    ]
+  },
+  {
+    heading: "3) 可銜接的七大院系（North Campus）",
+    paragraphs: [
+      "完成 Year One 並達到 GPA 後，可銜接主校區多個院系的學士學位：",
+      "<ul><li><strong>Faculty of Science（理學院）：</strong>生物、化學、物理、數學、電腦科學、心理學、地球科學等近30個方向。</li><li><strong>Faculty of Arts（文學院）：</strong>經濟、歷史、政治、語言、文學、哲學、傳播、國際關係等。</li><li><strong>Alberta School of Business（商學院）：</strong>會計、金融、管理、市場營銷、商業分析、人力資源等。</li><li><strong>Faculty of Agriculture, Life &amp; Environmental Sciences（農業、生命與環境科學）：</strong>農業、環境科學、營養與食品、森林保育、動物科學等。</li><li><strong>Faculty of Engineering（工程學院）：</strong>透過 Engineering Qualifying（基礎）年銜接，詳見本系列工程專篇。</li></ul>",
+      "此外，Augustana 小校區（強調文理博雅、小班教學）亦提供文學、社會科學與理學等方向。官方銜接學科以 Kaplan / U of A 最新清單為準。"
+    ]
+  },
+  {
+    heading: "4) 適合學生與行動建議",
+    paragraphs: [
+      "適合：高考成績不錯但部分科目缺失、無法直錄心儀專業者；希望先緩衝適應加拿大本科節奏、再進入世界 Top 100 名校者。2026秋季入學申請已開放，名額有限。",
+      "建議盡早準備高考成績、語言成績與個人資料；OTC 海外留學督導可協助評估資格、規劃專業方向，並全程跟進申請與簽證。本文數據以 U of A 與 Kaplan 官網最新公告為準。"
+    ]
+  }
+];
+
+const uoaEngBody = [
+  {
+    heading: "1) 工程直錄的傳統高中先修要求（對照）",
+    paragraphs: [
+      "U of A 工程學院（BSc in Engineering）對「直接入讀」（非 Year One）的學生，通常要求5門高中核心科目（Alberta 12年級標準或等效）：English Language Arts 30-1、Chemistry 30、Mathematics 30-1、Mathematics 31（微積分）、Physics 30。",
+      "競爭平均分一般落在 mid-to-high 80s（視當年申請池而定），無固定最低線；石油工程、電腦工程等熱門方向競爭更激烈。高考體系常缺少 Calculus 或 Physics 等科目，這正是 Year One 的切入點。"
+    ]
+  },
+  {
+    heading: "2) Year One（Engineering Qualifying Year）如何補足",
+    paragraphs: [
+      "工程方向的 Year One 即 U of A 的 Engineering Qualifying（基礎）年。你不需要在申請時已具備全部5門高中先修課；在這一年內以 U of A 正式學分課程補齊工程所需的數學、物理、化學等基礎。",
+      "第一年典型課程包含：Calculus、Introductory University Chemistry、Physics / Engineering Mechanics、Linear Algebra、Computer Programming，以及 ENGG 工程導論與設計，搭配實作 lab 與研討課。完成並達到指定 GPA 後，可進入工程學院特定專業的大二（傳統或 Co-op 路線），無需重新申請。"
+    ]
+  },
+  {
+    heading: "3) 可銜接的主要工程專業",
+    paragraphs: [
+      "<ul><li>Chemical Engineering（化學工程）</li><li>Civil Engineering（土木工程）</li><li>Computer Engineering（電腦工程）</li><li>Electrical Engineering（電機工程）</li><li>Engineering Physics（工程物理）</li><li>Materials Engineering（材料工程）</li><li>Mechanical Engineering（機械工程）</li><li>Mining Engineering（採礦工程）</li><li>Petroleum Engineering（石油工程，QS 世界第3）</li></ul>",
+      "部分方向（如 Biomedical 相關）可能額外需要 Biology 背景；熱門專業在 Qualifying Year 期間需達到較高 GPA 才能優先選擇。"
+    ]
+  },
+  {
+    heading: "4) GPA 門檻與 Co-op 申請（重要）",
+    paragraphs: [
+      "工程 Co-op 的<strong>最低申請 GPA 約為 2.3</strong>（cumulative 或 Fall/Winter 兩學期 GPA），但這只是資格線；實際錄取 cut-off 通常更高，熱門專業常落在 2.7–3.0+。官方亦建議在求職簡歷中列出 3.0+ 的 GPA。",
+      "Year One / Qualifying Year 學生申請工程專業 placement 時，主要依 Fall + Winter 學期 GPA 排名（Program Admission Factor）。<strong>建議目標 GPA 3.0 以上、衝刺 3.3+</strong>，以確保進入心儀專業與 Co-op。語言要求一般約 IELTS 6.0（單項不低於5.5），實際門檻、GPA 與先修要求以 U of A 工程學院及 Kaplan 官方最新規定為準。"
+    ]
+  }
+];
+
+const uoaCoopBody = [
+  {
+    heading: "1) U of A 的帶薪實習版圖",
+    paragraphs: [
+      "阿爾伯塔大學提供豐富的帶薪 Co-op 與實習（Internship）機會，多數帶薪且可計入學分。Year One 學生完成第一年、成功銜接本科後即可依所屬學院申請。下表為主要類型對照（薪資為公開概估，實際依職位與年級而定）：",
+      "<div class=\"report-table-wrap article-cost-table\"><table><thead><tr><th>類型</th><th>時長</th><th>帶薪</th><th>主要學院</th><th>特色</th></tr></thead><tbody><tr><td>Engineering Co-op</td><td>4 或 8 個月／期，可多次</td><td>是（概估約 $3,000–$4,500/月）</td><td>工程學院（最強）</td><td>結構化、學分認可、業界連結強</td></tr><tr><td>Science Internship (SIP)</td><td>4／8／12／16 個月</td><td>是（全職付薪）</td><td>理學院、ALES</td><td>時長靈活，適合科學/環境</td></tr><tr><td>Business Co-op</td><td>累計約12個月</td><td>是（概估約 $3,600/月）</td><td>商學院</td><td>部分學生獲雇主永久 offer</td></tr><tr><td>Arts Work Experience</td><td>4–16 個月</td><td>多數帶薪</td><td>文學院</td><td>多元行業體驗</td></tr><tr><td>ALES Mini-Internship</td><td>短期</td><td>部分帶薪</td><td>農業、生命與環境</td><td>快速入門業界</td></tr></tbody></table></div>"
+    ]
+  },
+  {
+    heading: "2) 工程 Co-op：加拿大領先",
+    paragraphs: [
+      "U of A 工程 Co-op 自1981年成立，是加拿大工程帶薪實習的長期領導者，合作企業涵蓋能源（石油、礦業）、科技、製造、環境等阿爾伯塔優勢產業。學生可在4或8個月工作期間多次交替，累積一年以上實務經驗。",
+      "Year One 後銜接工程學院、達到 GPA 門檻（最低約2.3，建議3.0+）即可申請。薪資、職缺數與名額逐年浮動，以官方公布為準。"
+    ]
+  },
+  {
+    heading: "3) 2026 重大利好：實習不再需要單獨工簽",
+    paragraphs: [
+      "依加拿大移民部（IRCC）公告，<strong>自2026年4月1日起，符合資格的高等教育國際學生參加課程required的工作 placement（含 Co-op、實習）不再需要單獨的 Co-op Work Permit</strong>。只要持有附 on-campus 工作條件的有效學習許可、且該 placement 為課程必要部分並佔課程總時數的50%或以下，即可合法參與。",
+      "這項變更簡化了流程、省下申請費與數週處理時間。但它<strong>不構成移民或法律建議</strong>；個人資格、課程是否符合 required placement 條件等，須以 IRCC 官方說明與學校國際學生辦公室確認為準。"
+    ]
+  },
+  {
+    heading: "4) Year One 學生的實際路徑",
+    paragraphs: [
+      "<ul><li>完成 Year One 並達到目標 GPA（工程建議3.0+）→ 無縫銜接大二。</li><li>大二申請所屬學院的 Co-op／Internship（工程、商科最常見）。</li><li>透過 Kaplan 學術支持與 U of A Career Centre（campusBRIDGE 平台）準備履歷與職缺申請。</li><li>實習經驗多可計入學分，畢業時可累積加拿大本地工作經驗，對未來就業與移民均有幫助。</li></ul>"
+    ]
+  }
+];
+
+const uoaImmigBody = [
+  {
+    heading: "1) 為什麼阿爾伯塔對國際生友善",
+    paragraphs: [
+      "阿爾伯塔大學（QS 94）所在的埃德蒙頓與阿爾伯塔省，能源、科技與資源產業發達、勞動力需求強，省提名計劃（AAIP）活躍，是國際生「留學→工作→移民」的常見通道之一。以下說明畢業後工作（PGWP）與省提名（AAIP）的機制與工程方向優勢。",
+      "本文僅為教育性整理，<strong>不構成移民或法律建議</strong>；所有資格、分數、配額與政策依美國以外之加拿大移民法規與個案而定，須以 IRCC 及 AAIP 官網最新公告與合資格移民顧問確認為準。"
+    ]
+  },
+  {
+    heading: "2) PGWP：畢業後工作許可",
+    paragraphs: [
+      "大學學士學位畢業生通常可獲得最長3年的 Post-Graduation Work Permit（PGWP），為開放式工作許可。依 IRCC 近年規則，<strong>大學學位（本/碩/博）畢業生豁免「學習領域（field of study）限制」</strong>（該限制主要針對部分學院/非學位課程），但 PGWP 申請設有語言要求（大學畢業生一般為 CLB 7）。",
+      "Year One 學生完成並銜接本科、正常畢業後即可依規定申請 PGWP；Co-op／實習累積的加拿大工作經驗，對後續移民（如 Express Entry 的 CRS 分數）有實質幫助。具體資格與語言門檻以 IRCC 官方為準。"
+    ]
+  },
+  {
+    heading: "3) AAIP：阿爾伯塔省提名",
+    paragraphs: [
+      "Alberta Advantage Immigration Program（AAIP）是 U of A 畢業生常見的省提名途徑。獲得省提名後，可在 Express Entry 系統中<strong>直接加 600 分 CRS</strong>，大幅提升獲邀機率。與國際生較相關的通道包括：",
+      "<ul><li><strong>Alberta Opportunity Stream（AOS）：</strong>適合畢業後在阿爾伯塔全職工作、且職業與所學相關者。</li><li><strong>Alberta Express Entry Stream（含 Accelerated Tech Pathway）：</strong>對工程、IT、科技、能源等專業較有利。</li><li><strong>Graduate Entrepreneur Stream：</strong>適合畢業後創業者，需符合持有工簽、股權與商業計劃等條件。</li></ul>",
+      "AAIP 各通道的抽籤分數、邀請人數與配額會定期變動，本文不列具體數字以免過時或誤導；<strong>最新 cut-off 與名額請以 AAIP 官網公布為準</strong>。"
+    ]
+  },
+  {
+    heading: "4) 工程方向的移民優勢與規劃",
+    paragraphs: [
+      "石油、機械、電機、電腦、土木等工程屬阿爾伯塔核心產業，就業機會多、薪資較高，且常見於 AAIP 的優先行業或科技通道；Co-op／PGWP 累積的本地工作經驗對 AOS 與 Express Entry 均有加分。",
+      "對 Year One 學生的務實建議：從入學起即規劃「高 GPA → Co-op → PGWP → AAIP」的完整路線，工程與 STEM 方向優勢最明顯。所有移民步驟務必以 IRCC、AAIP 官方資訊與合資格移民顧問的個案評估為準。"
+    ]
+  }
+];
+
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
+  {
+    slug: "university-of-alberta-year-one-foundation-program-overview-2026",
+    title: "University of Alberta Year One Foundation Program 2026: A QS-94 Canadian Pathway",
+    date: "2026-06-10",
+    category: "Canada Pathways",
+    column: "study",
+    kicker: "U of A · QS 94 · Year One · Kaplan Pathway",
+    author: "留學導報編輯部",
+    summary: "An overview of the University of Alberta (QS World #94, Canada #4) Year One Foundation Program run with Kaplan — a first year of U of A credit courses that lets international students with course deficiencies progress straight into second-year degrees across Science, Arts, Business, Agriculture/Life Sciences and Engineering. Part 1 of an OTC series.",
+    titleZh: "阿爾伯塔大學 Year One 平行大一 2026：QS94 加拿大升學通道（總覽）",
+    summaryZh: "阿爾伯塔大學（QS 世界第94、加拿大第4）與 Kaplan 合作的 Year One Foundation Program 總覽：以 U of A 正式學分的第一年，幫助有科目缺失的國際生無縫銜接理、文、商、農業生命科學與工程等院系大二。為 OTC 阿大系列第一篇。",
+    relatedReadings: [
+      "university-of-alberta-year-one-engineering-pathway-2026",
+      "university-of-alberta-coop-internship-guide-2026",
+      "university-of-alberta-pgwp-aaip-immigration-route-2026"
+    ],
+    resources: [
+      ["University of Alberta — Year One Foundation Program", "https://www.ualberta.ca/en/international/year-one-foundation-program.html"],
+      ["Kaplan Pathways — University of Alberta", "https://www.kaplanpathways.com/where-to-study/canadian-universities/university-of-alberta/"],
+      ["U of A solidifies Top 100 position in QS rankings (Folio)", "https://www.ualberta.ca/en/folio/2025/06/u-of-a-solidifies-top-100-position-in-latest-qs-global-rankings.html"]
+    ],
+    body: uoaOverviewBody,
+    bodyZh: uoaOverviewBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。U of A 於 2026 QS 世界大學排名為世界第94、加拿大第4（官方 Folio 與 QS 來源）。Year One Foundation Program 為 U of A 與 Kaplan International 合作、2024/25 起推出，以 U of A 學分課程銜接本科第二年（官方頁面）。",
+      "石油工程於 QS 2026 學科排名世界第3、加拿大第1，並為加拿大唯一獲認證的石油工程學士（U of A Folio）。國際學生佔比、生活成本等為概況，銜接學科與費用以 U of A 與 Kaplan 官網最新公告為準。"
+    ],
+  },
+  {
+    slug: "university-of-alberta-year-one-engineering-pathway-2026",
+    title: "University of Alberta Year One: The Engineering Qualifying-Year Route (2026)",
+    date: "2026-06-10",
+    category: "Canada Pathways",
+    column: "study",
+    kicker: "U of A Engineering · Qualifying Year · Co-op GPA",
+    author: "留學導報編輯部",
+    summary: "How international students reach University of Alberta engineering through the Year One / Engineering Qualifying Year — the high-school prerequisites direct entry expects, the first-year courses (calculus, chemistry, physics, linear algebra, programming), the engineering disciplines you can progress into, and the GPA thresholds for engineering Co-op. Part 2 of an OTC series.",
+    titleZh: "阿爾伯塔大學 Year One 工程方向：Qualifying Year 先修與 Co-op GPA（2026）",
+    summaryZh: "國際生如何透過 Year One／工程 Qualifying Year 進入阿爾伯塔大學工程學院：直錄所需高中先修、第一年課程（微積分、化學、物理、線性代數、程式設計）、可銜接的工程專業，以及工程 Co-op 的 GPA 門檻（最低約2.3、建議3.0+）。為 OTC 阿大系列第二篇。",
+    relatedReadings: [
+      "university-of-alberta-year-one-foundation-program-overview-2026",
+      "university-of-alberta-coop-internship-guide-2026",
+      "university-of-alberta-pgwp-aaip-immigration-route-2026"
+    ],
+    resources: [
+      ["U of A — BSc in Engineering, Qualifying Year", "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-in-engineering-qualifying-year.html"],
+      ["Kaplan Pathways — University of Alberta", "https://www.kaplanpathways.com/where-to-study/canadian-universities/university-of-alberta/"],
+      ["QS World University Rankings by Subject — Petroleum Engineering", "https://www.topuniversities.com/university-subject-rankings/engineering-petroleum"]
+    ],
+    body: uoaEngBody,
+    bodyZh: uoaEngBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。U of A 設有 Engineering Qualifying（基礎）年，第一年課程包含 calculus、chemistry、physics、linear algebra、mechanics、computer programming，之後進入工程專業（傳統或 Co-op 路線）（官方課程頁）。",
+      "工程直錄高中先修、競爭分數、Co-op GPA 門檻（最低約2.3、實際 cut-off 常更高）與語言要求為公開資訊整理，實際數字逐年浮動，以 U of A 工程學院與 Kaplan 官方最新規定為準。"
+    ],
+  },
+  {
+    slug: "university-of-alberta-coop-internship-guide-2026",
+    title: "University of Alberta Co-op & Internships 2026 (incl. the new no-permit rule)",
+    date: "2026-06-10",
+    category: "Canada Pathways",
+    column: "study",
+    kicker: "U of A · Co-op · Internship · IRCC 2026",
+    author: "留學導報編輯部",
+    summary: "A guide to University of Alberta paid Co-op and internship options for Year One students — engineering, science (SIP), business and arts placements — plus the April 2026 IRCC change that removes the separate co-op work permit for eligible students. Educational only; check IRCC and the university for your case. Part 3 of an OTC series.",
+    titleZh: "阿爾伯塔大學 Co-op 與實習機會 2026（含工簽新規）",
+    summaryZh: "阿爾伯塔大學帶薪 Co-op 與實習指南：工程、理學（SIP）、商學與文學等 placement，以及 2026年4月 IRCC 取消單獨 Co-op 工簽的新規。內容僅為教育性整理，個案以 IRCC 與學校確認為準。為 OTC 阿大系列第三篇。",
+    relatedReadings: [
+      "university-of-alberta-year-one-foundation-program-overview-2026",
+      "university-of-alberta-year-one-engineering-pathway-2026",
+      "university-of-alberta-pgwp-aaip-immigration-route-2026"
+    ],
+    resources: [
+      ["IRCC — Work in a student work placement", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html"],
+      ["IRCC — Simplifying the co-op work permit requirement", "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/simplifying-co-op-work-permit-requirement-post-secondary-international-students.html"],
+      ["University of Alberta — Co-operative Education", "https://www.ualberta.ca/en/engineering/co-op-education/index.html"]
+    ],
+    body: uoaCoopBody,
+    bodyZh: uoaCoopBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。IRCC 公告：自2026年4月1日起，符合資格的高等教育國際學生參加課程必要的 placement（含 Co-op／實習）不再需要單獨 Co-op Work Permit，須持有附 on-campus 條件之學習許可，且 placement 佔課程50%或以下（IRCC 官方）。",
+      "各學院 Co-op／實習的時長、薪資與名額為公開概估，逐年浮動；移民與工作授權事項以 IRCC 及學校國際學生辦公室確認為準，本文不構成移民或法律建議。"
+    ],
+  },
+  {
+    slug: "university-of-alberta-pgwp-aaip-immigration-route-2026",
+    title: "University of Alberta: PGWP & Alberta (AAIP) Immigration Route 2026",
+    date: "2026-06-10",
+    category: "Canada Pathways",
+    column: "settlement",
+    kicker: "U of A · PGWP · AAIP · Express Entry",
+    author: "留學導報編輯部",
+    summary: "How a University of Alberta degree connects to staying in Canada — the up-to-3-year PGWP (with the field-of-study exemption for university degrees and the language requirement), and the Alberta Advantage Immigration Program (AAIP) streams that add 600 CRS on nomination. Educational only; current cut-offs and quotas are on the official AAIP/IRCC pages. Part 4 of an OTC series.",
+    titleZh: "阿爾伯塔大學：PGWP 與阿爾伯塔省提名（AAIP）移民路線 2026",
+    summaryZh: "阿爾伯塔大學學位如何連結留加：最長3年的 PGWP（大學學位豁免領域限制、設語言要求），以及獲提名可加600分 CRS 的 AAIP 各通道。內容僅為教育性整理，最新 cut-off 與配額以 AAIP／IRCC 官網為準。為 OTC 阿大系列第四篇。",
+    relatedReadings: [
+      "university-of-alberta-year-one-foundation-program-overview-2026",
+      "university-of-alberta-coop-internship-guide-2026",
+      "uk-skilled-worker-to-ilr-5-year-checklist-2026"
+    ],
+    resources: [
+      ["IRCC — Post-Graduation Work Permit Program", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"],
+      ["Alberta Advantage Immigration Program (AAIP)", "https://www.alberta.ca/alberta-advantage-immigration-program"],
+      ["IRCC — Express Entry", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"]
+    ],
+    body: uoaImmigBody,
+    bodyZh: uoaImmigBody,
+    factCheckNotes: [
+      "核查時間：2026-06-10。大學學位畢業生 PGWP 最長3年，並豁免 PGWP 的 field-of-study（學習領域）限制（該限制主要適用於部分非學位課程），惟設語言要求（大學畢業生一般 CLB 7）；以 IRCC 官方為準。AAIP 提名可於 Express Entry 加600分 CRS。",
+      "AAIP 各通道的抽籤分數、邀請人數與配額會定期變動，本文刻意不列具體數字以免過時或誤導；最新 cut-off 與名額以 AAIP 官網為準。本文不構成移民或法律建議，個案須由合資格移民顧問評估。"
+    ],
+  },
   {
     slug: "cats-boston-boarding-school-profile-2026",
     title: "CATS Boston: A Small, Selective Boarding School near Boston (2026 Profile)",
