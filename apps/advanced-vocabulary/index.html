@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>進階英語詞庫 · 3 萬詞雙語學習</title>
+<style>
+  :root{
+    --bg:#faf8f3; --ink:#2b2620; --muted:#8a8175; --line:#e4ddd0;
+    --accent:#8a5a2b; --accent-soft:#f0e7d8; --card:#fffdf8; --good:#4a7a4a; --bad:#a8483a;
+    --serif:"Songti SC","Noto Serif CJK SC","Times New Roman",Georgia,serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#1c1a17;--ink:#e8e2d6;--muted:#9a9184;--line:#34302a;
+      --accent:#d2a36a;--accent-soft:#2a261f;--card:#23211c;--good:#7fae7f;--bad:#cf7a6c;}
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--serif);line-height:1.7;
+    -webkit-font-smoothing:antialiased;padding:0 16px 80px}
+  header{max-width:760px;margin:0 auto;padding:28px 0 16px;border-bottom:1px solid var(--line);text-align:center}
+  header h1{font-size:1.5rem;font-weight:600;letter-spacing:.04em}
+  header p{color:var(--muted);font-size:.85rem;margin-top:6px}
+  nav{max-width:760px;margin:0 auto;display:flex;gap:4px;padding:14px 0;flex-wrap:wrap;justify-content:center}
+  nav button{font-family:var(--serif);font-size:.92rem;background:none;border:1px solid var(--line);
+    color:var(--ink);padding:7px 16px;border-radius:999px;cursor:pointer;transition:.15s}
+  nav button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  main{max-width:760px;margin:0 auto;padding-top:10px}
+  .panel{display:none} .panel.show{display:block}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:34px 28px;
+    box-shadow:0 1px 3px rgba(0,0,0,.04);text-align:center;min-height:300px;
+    display:flex;flex-direction:column;justify-content:center;cursor:pointer}
+  .word{font-size:2.4rem;font-weight:600;letter-spacing:.01em}
+  .ipa{color:var(--accent);font-size:1.05rem;margin-top:6px;font-family:"Times New Roman",serif}
+  .pos{color:var(--muted);font-style:italic;font-size:.95rem;margin-top:14px}
+  .zh{font-size:1.5rem;margin-top:14px;line-height:1.5}
+  .def{color:var(--ink);font-size:1rem;margin-top:14px;max-width:560px;align-self:center}
+  .ex{color:var(--muted);font-style:italic;font-size:.95rem;margin-top:12px;max-width:560px;align-self:center}
+  .syn{color:var(--muted);font-size:.85rem;margin-top:14px}
+  .hint{color:var(--muted);font-size:.8rem;margin-top:18px;letter-spacing:.05em}
+
+  .controls{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+  .controls button{font-family:var(--serif);font-size:.95rem;padding:10px 22px;border-radius:10px;
+    border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+  .controls .again{border-color:var(--bad);color:var(--bad)}
+  .controls .good{border-color:var(--good);color:var(--good)}
+  .meta{text-align:center;color:var(--muted);font-size:.82rem;margin:14px 0}
+
+  input[type=search]{width:100%;font-family:var(--serif);font-size:1rem;padding:12px 16px;
+    border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+  .result{border-bottom:1px solid var(--line);padding:16px 4px}
+  .result .word{font-size:1.3rem;text-align:left}
+  .result .row{text-align:left;font-size:1.4rem;margin-top:4px}
+  .result .d{text-align:left;color:var(--muted);font-size:.92rem;margin-top:4px}
+
+  .quizopt{display:block;width:100%;text-align:left;font-family:var(--serif);font-size:1.05rem;
+    padding:14px 18px;margin-top:10px;border:1px solid var(--line);border-radius:10px;
+    background:var(--card);color:var(--ink);cursor:pointer;transition:.12s}
+  .quizopt.correct{border-color:var(--good);background:var(--accent-soft)}
+  .quizopt.wrong{border-color:var(--bad)}
+  .stat{display:flex;gap:24px;justify-content:center;margin:24px 0}
+  .stat div{text-align:center}
+  .stat b{display:block;font-size:1.8rem;color:var(--accent)}
+  .stat span{font-size:.8rem;color:var(--muted)}
+  .bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin:8px 0}
+  .bar i{display:block;height:100%;background:var(--accent)}
+  .loading{text-align:center;color:var(--muted);padding:60px 0}
+  .err{text-align:center;color:var(--bad);padding:40px 0;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>進階英語詞庫</h1>
+  <p>30,000 advanced words · 英漢雙語 · IPA · WordNet 釋義</p>
+</header>
+<nav>
+  <button data-tab="learn" class="active">學習卡片</button>
+  <button data-tab="quiz">測驗</button>
+  <button data-tab="dict">詞庫搜尋</button>
+  <button data-tab="prog">學習進度</button>
+</nav>
+<main>
+  <div id="boot" class="loading">載入詞庫中…</div>
+
+  <section id="learn" class="panel">
+    <div class="meta" id="learnMeta"></div>
+    <div class="card" id="flashcard" onclick="flip()"></div>
+    <div class="controls">
+      <button class="again" onclick="grade(0)">再來一次</button>
+      <button onclick="grade(1)">記得</button>
+      <button class="good" onclick="grade(2)">很熟</button>
+    </div>
+  </section>
+
+  <section id="quiz" class="panel">
+    <div class="meta" id="quizMeta"></div>
+    <div class="card" id="quizCard"></div>
+    <div id="quizOpts"></div>
+  </section>
+
+  <section id="dict" class="panel">
+    <input type="search" id="search" placeholder="輸入英文單字或中文…">
+    <div id="results"></div>
+  </section>
+
+  <section id="prog" class="panel">
+    <div class="stat">
+      <div><b id="pLearned">0</b><span>已學</span></div>
+      <div><b id="pMastered">0</b><span>已熟</span></div>
+      <div><b id="pTotal">0</b><span>總詞數</span></div>
+    </div>
+    <div class="bar"><i id="pBar" style="width:0%"></i></div>
+    <p class="meta" id="pPct"></p>
+    <div class="controls"><button onclick="resetProgress()">重設進度</button></div>
+  </section>
+</main>
+
+<script>
+let DATA=[], idx=0, flipped=false, quizState=null;
+const LS='vocab30k_progress';
+let prog=JSON.parse(localStorage.getItem(LS)||'{}');
+function save(){localStorage.setItem(LS,JSON.stringify(prog));}
+
+// ---- boot
+fetch('vocab.json').then(r=>{if(!r.ok)throw 0;return r.json();})
+  .then(d=>{DATA=d;document.getElementById('boot').remove();
+    document.getElementById('learn').classList.add('show');
+    nextCard();updateProg();})
+  .catch(()=>{document.getElementById('boot').className='err';
+    document.getElementById('boot').textContent='找不到 vocab.json — 請確認它與 index.html 在同一資料夾,並透過網頁伺服器(非 file://)開啟。';});
+
+// ---- tabs
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('show'));
+  document.getElementById(b.dataset.tab).classList.add('show');
+  if(b.dataset.tab==='quiz')newQuiz();
+  if(b.dataset.tab==='prog')updateProg();
+});
+
+// ---- spaced repetition (simple Leitner): pick least-recently/weakest first
+function pickIndex(){
+  // weight unseen + low-box words higher
+  let best=-1,bestScore=1e9;
+  for(let t=0;t<40;t++){
+    const i=Math.floor(Math.random()*DATA.length);
+    const p=prog[DATA[i].w]||{box:0,due:0};
+    const score=p.box*1000+ (p.due||0);
+    if(score<bestScore){bestScore=score;best=i;}
+  }
+  return best;
+}
+function nextCard(){idx=pickIndex();flipped=false;renderCard();}
+function renderCard(){
+  const e=DATA[idx];const c=document.getElementById('flashcard');
+  document.getElementById('learnMeta').textContent=`zipf ${e.zipf} · 點卡片翻面`;
+  if(!flipped){
+    c.innerHTML=`<div class="word">${e.w}</div>
+      ${e.ipa?`<div class="ipa">${e.ipa}</div>`:''}
+      <div class="hint">點擊看中文釋義</div>`;
+  }else{
+    c.innerHTML=`<div class="word">${e.w}</div>
+      ${e.ipa?`<div class="ipa">${e.ipa}</div>`:''}
+      <div class="pos">${e.pos}</div>
+      ${e.zh.length?`<div class="zh">${e.zh.join('、')}</div>`:''}
+      <div class="def">${e.def}</div>
+      ${e.ex?`<div class="ex">“${e.ex}”</div>`:''}
+      ${e.syn.length?`<div class="syn">近義: ${e.syn.join(', ')}</div>`:''}`;
+  }
+}
+function flip(){flipped=!flipped;renderCard();}
+function grade(g){
+  const w=DATA[idx].w;const p=prog[w]||{box:0};
+  p.box=g===0?0:Math.min((p.box||0)+g,5);
+  p.due=Date.now()+ (g===0?0:p.box*60000);
+  p.seen=true;prog[w]=p;save();updateProg();nextCard();
+}
+
+// ---- quiz
+function newQuiz(){
+  const i=pickIndex();const e=DATA[i];
+  const opts=[e];const used=new Set([i]);
+  while(opts.length<4){const j=Math.floor(Math.random()*DATA.length);
+    if(!used.has(j)&&DATA[j].zh.length){used.add(j);opts.push(DATA[j]);}}
+  opts.sort(()=>Math.random()-.5);
+  quizState={e,opts};
+  document.getElementById('quizMeta').textContent='選出正確的中文釋義';
+  document.getElementById('quizCard').innerHTML=
+    `<div class="word">${e.w}</div>${e.ipa?`<div class="ipa">${e.ipa}</div>`:''}<div class="pos">${e.pos}</div>`;
+  const box=document.getElementById('quizOpts');box.innerHTML='';
+  opts.forEach(o=>{const b=document.createElement('button');b.className='quizopt';
+    b.textContent=o.zh.length?o.zh.join('、'):o.def;
+    b.onclick=()=>answer(b,o,e);box.appendChild(b);});
+}
+function answer(btn,chosen,correct){
+  document.querySelectorAll('.quizopt').forEach(b=>b.onclick=null);
+  if(chosen===correct){btn.classList.add('correct');
+    const p=prog[correct.w]||{box:0};p.box=Math.min((p.box||0)+1,5);p.seen=true;prog[correct.w]=p;save();}
+  else{btn.classList.add('wrong');
+    document.querySelectorAll('.quizopt').forEach(b=>{
+      if(b.textContent===(correct.zh.length?correct.zh.join('、'):correct.def))b.classList.add('correct');});
+    prog[correct.w]={box:0,seen:true};save();}
+  updateProg();
+  setTimeout(newQuiz,1100);
+}
+
+// ---- dictionary search
+const sEl=document.getElementById('search');
+sEl&&sEl.addEventListener('input',()=>{
+  const q=sEl.value.trim().toLowerCase();const out=document.getElementById('results');
+  if(!q){out.innerHTML='';return;}
+  const isCJK=/[一-鿿]/.test(q);
+  const hits=[];
+  for(const e of DATA){
+    if(isCJK){if(e.zh.some(z=>z.includes(sEl.value.trim())))hits.push(e);}
+    else{if(e.w.startsWith(q))hits.push(e);}
+    if(hits.length>=50)break;
+  }
+  out.innerHTML=hits.map(e=>`<div class="result">
+    <span class="word">${e.w}</span> ${e.ipa?`<span class="ipa">${e.ipa}</span>`:''}
+    <span class="pos">${e.pos}</span>
+    ${e.zh.length?`<div class="row zh">${e.zh.join('、')}</div>`:''}
+    <div class="d">${e.def}</div></div>`).join('')||'<p class="meta">查無結果</p>';
+});
+
+// ---- progress
+function updateProg(){
+  const vals=Object.values(prog);
+  const learned=vals.filter(p=>p.seen).length;
+  const mastered=vals.filter(p=>(p.box||0)>=4).length;
+  document.getElementById('pLearned').textContent=learned;
+  document.getElementById('pMastered').textContent=mastered;
+  document.getElementById('pTotal').textContent=DATA.length;
+  const pct=DATA.length?Math.round(100*learned/DATA.length):0;
+  document.getElementById('pBar').style.width=pct+'%';
+  document.getElementById('pPct').textContent=`已涵蓋 ${pct}% 詞庫`;
+}
+function resetProgress(){if(confirm('確定重設所有學習進度?')){prog={};save();updateProg();}}
+</script>
+</body>
+</html>

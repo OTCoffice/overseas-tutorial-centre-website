@@ -1625,6 +1625,7 @@ function searchItems() {
     ["NCLEX-RN Bilingual Trainer", "/apps/nclex-rn-bilingual-trainer/", "Public demo trainer for bilingual NCLEX-RN cue recognition, prioritisation language, wrong-answer review and glossary practice."],
     ["Australian Citizenship Test Practice App", "/apps/australian-citizenship-test/", "Independent OTC English-Chinese Australian citizenship test practice app with mock tests, topic practice, flashcards and study guide."],
     ["IH London Placement & Interview Practice App", "/apps/ih-placement-interview/", "Independent OTC practice app for IH London online placement test readiness, speaking interview preparation, bilingual vocabulary and tutor-led review."],
+    ["Advanced English Vocabulary Trainer", "/apps/advanced-vocabulary/", "Independent OTC English-Chinese advanced vocabulary trainer with 30,000 WordNet-based words, IPA pronunciation, traditional-Chinese glosses, flashcards, spaced repetition and quizzes."],
     ["Publishing", "/publishing/", "Overseas Publishing editorial lines, live Payhip releases and author services."],
     ["留學導報中文目錄", "/zh/insights/", "海外書局導報中文文章清單，按留學升學、移居安家、財富規劃、職業考牌、創業自雇與學術文化六類整理。"],
     ["Study Guides", "/study-guides/", "OTC OTHM Level 5 Business Management first-edition single-unit study companions are live on Payhip."],
@@ -14999,6 +15000,7 @@ const apps = pageShell({
           <ul>
             <li><span>Live</span> <a href="/apps/ucbelt-speaking/#embedded-ucbelt-app">UCBELT Speaking Test Practice</a></li>
             <li><span>Live</span> <a href="/apps/ih-placement-interview/#embedded-ih-app">IH Placement & Interview Practice</a></li>
+            <li><span>Live</span> <a href="/apps/advanced-vocabulary/">Advanced English Vocabulary Trainer · 30,000 詞</a></li>
             <li><span>Planned</span> Academic English speaking timer suite</li>
           </ul>
         </article>
@@ -23549,7 +23551,8 @@ write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
 [
   "/ai-business-studio/",
   "/apps/nclex-rn-bilingual-demo/",
-  "/apps/nclex-rn-bilingual-trainer/"
+  "/apps/nclex-rn-bilingual-trainer/",
+  "/apps/advanced-vocabulary/"
 ].forEach((publicPath) => generatedRoutes.push(publicPath));
 
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
