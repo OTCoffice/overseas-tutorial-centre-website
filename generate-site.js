@@ -1699,8 +1699,7 @@ function write(route, html) {
   const htmlWithCanonical = html
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`)
     .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`)
-    .replace(/href="(?:\.\.\/)*styles\.css\?v=/g, `href="/styles.css?v=`)
-    .replace(/[ \t]+$/gm, "");
+    .replace(/href="(?:\.\.\/)*styles\.css\?v=/g, `href="/styles.css?v=times-new-roman-20260704    .replace(/[ \t]+$/gm, "");
   fs.writeFileSync(path.join(dir, "index.html"), htmlWithCanonical);
   generatedRoutes.push(publicPath);
 }
@@ -13708,7 +13707,7 @@ const creditAlliance = pageShell({
   description: "海外督導學分聯盟：以 OTHM、Open University、英澳美加紐學分與先前學習記錄為基礎，整理跨國升學、credit transfer、RPL 與申請文件路線。",
   path: "/insights/credit-alliance/",
   body: `
-    <link rel="stylesheet" href="/styles.css?v=academic-reading-stickers-20260524">
+    <link rel="stylesheet" href="/styles.css?v=times-new-roman-20260704">
     <main class="credit-alliance-page">
       <header class="credit-herald-masthead">
         <div>

@@ -16,7 +16,7 @@
   --shadow: 0 18px 46px rgba(6, 26, 47, 0.1);
   --page-max: 1480px;
   --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --font-zh-editorial: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "STSong", "SimSun", serif;
+  --font-zh-editorial: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "STSong", "SimSun", serif;
 }
 
 /* Partner page exact-layout overrides */
@@ -623,7 +623,7 @@ h3 {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(42px, 5.2vw, 64px);
   font-weight: 700;
   margin-top: 10px;
@@ -797,7 +797,7 @@ h1 {
 .zh-othm-centre-section,
 .zh-publishing-gateway-section,
 .curriculum-overview {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
 }
 
 .zh-home-hero .hero-inner,
@@ -854,7 +854,7 @@ h1 {
 .zh-othm-centre-section .eyebrow,
 .zh-publishing-gateway-section .eyebrow,
 .curriculum-overview .eyebrow {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -889,7 +889,7 @@ h1 {
 }
 
 .zh-home-hero .hero-title-block h1 {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-size: clamp(34px, 4.5vw, 48px);
   font-weight: 900;
   letter-spacing: 0.06em;
@@ -897,7 +897,7 @@ h1 {
 }
 
 .zh-home-hero .hero-subhead {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-size: clamp(14px, 1.4vw, 17px);
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -1002,7 +1002,7 @@ h1 {
 .zh-publishing-gateway-section .section-head h2,
 .curriculum-overview .section-head h2,
 .zh-institutional-update .institutional-update-head h2 {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-size: clamp(22px, 2.6vw, 30px);
   font-weight: 900;
   letter-spacing: 0.02em;
@@ -1053,7 +1053,7 @@ h1 {
 .zh-tool-link-list strong,
 .zh-publishing-gateway strong,
 .zh-compact-curriculum strong {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
   font-weight: 900;
   line-height: 1.38;
 }
@@ -1422,7 +1422,7 @@ h1 {
 
 .zh-learning-ledger span {
   color: #4c596b;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.55;
@@ -1642,7 +1642,7 @@ h1 {
 .zh-region-map-copy h3 {
   color: #fff8e8;
   display: block;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: clamp(20px, 2.2vw, 28px);
   line-height: 1.2;
   margin: 0;
@@ -2153,7 +2153,7 @@ h1 {
 .zh-planning-hero h1,
 .zh-immigration-hero h1 {
   color: #fffaf0;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: clamp(46px, 6vw, 78px);
   font-weight: 900;
 }
@@ -2293,7 +2293,7 @@ h1 {
 }
 
 .zh-immigration-alliance-copy h2 {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: clamp(34px, 4.4vw, 56px);
   line-height: 1;
 }
@@ -2411,7 +2411,7 @@ h1 {
 .immigration-alliance-hero h1,
 .immigration-alliance-country-hero h1 {
   color: #fffaf0;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: clamp(40px, 5vw, 70px);
   font-weight: 900;
   letter-spacing: -0.02em;
@@ -2697,7 +2697,7 @@ h1 {
 .zh-immigration-alliance-copy h2,
 .immigration-alliance-hero h1,
 .immigration-alliance-country-hero h1 {
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   letter-spacing: 0;
 }
 
@@ -2780,7 +2780,7 @@ h1 {
 
 .immigration-alliance-hero-stats strong {
   color: #fffaf0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 28px;
   line-height: 1;
 }
@@ -2810,7 +2810,7 @@ h1 {
 
 .immigration-alliance-hero-steps > strong {
   color: #0e1e38;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 20px;
   line-height: 1.15;
 }
@@ -3309,7 +3309,7 @@ h1 {
 
 .summer-alliance-hero-main h1 {
   color: #f3ede0;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(28px, 3.3vw, 42px);
   font-weight: 700;
   line-height: 1.04;
@@ -3318,7 +3318,7 @@ h1 {
 
 .summer-alliance-hero-main h2 {
   color: #d9b56a;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(18px, 1.8vw, 24px);
   font-weight: 600;
   line-height: 1.18;
@@ -4339,7 +4339,7 @@ h1 {
 }
 
 .section-head h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(30px, 3.6vw, 44px);
   font-weight: 700;
   color: var(--navy);
@@ -4536,7 +4536,7 @@ h1 {
 
 .zh-publishing-gateway strong {
   color: var(--navy);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 17px;
   font-weight: 900;
   letter-spacing: 0.02em;
@@ -4701,7 +4701,7 @@ h1 {
 .zh-review-edition-panel strong {
   display: block;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.03em;
@@ -4813,7 +4813,7 @@ h1 {
 .zh-editorial-desk strong {
   display: block;
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 28px;
   font-weight: 900;
   letter-spacing: 0.05em;
@@ -4905,7 +4905,7 @@ h1 {
 .zh-review-departments b {
   display: block;
   color: #b5272d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 15px;
   letter-spacing: 0.08em;
 }
@@ -4913,7 +4913,7 @@ h1 {
 .zh-review-departments strong {
   display: block;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 18px;
   line-height: 1.15;
   margin-top: 12px;
@@ -4979,7 +4979,7 @@ h1 {
 
 .zh-review-department-mini i {
   color: #b5272d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 900;
@@ -5035,7 +5035,7 @@ h1 {
 
 .zh-review-column-list b {
   color: #b5272d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 13px;
   letter-spacing: 0.08em;
 }
@@ -5050,7 +5050,7 @@ h1 {
 
 .zh-review-column-list strong {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 15px;
   line-height: 1.35;
 }
@@ -5115,7 +5115,7 @@ h1 {
 
 .zh-review-list-head strong {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.1;
@@ -5181,7 +5181,7 @@ h1 {
 .zh-review-row-meta b {
   display: block;
   color: #1a1410;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -5206,7 +5206,7 @@ h1 {
 
 .zh-review-row h3 {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 20px;
   font-weight: 900;
   line-height: 1.32;
@@ -5292,7 +5292,7 @@ h1 {
 .zh-reader-letter-card strong {
   display: block;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 20px;
   font-weight: 900;
   line-height: 1.2;
@@ -5641,7 +5641,7 @@ h1 {
   width: max-content;
   border-bottom: 2px solid currentColor;
   color: var(--gold);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -6739,7 +6739,7 @@ h1 {
 
 .btec-matrix-head h2 {
   color: var(--navy);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(28px, 3vw, 38px);
   font-weight: 700;
 }
@@ -6928,7 +6928,7 @@ h1 {
 .btec-subpage-main h2,
 .btec-subpage-side h3 {
   color: var(--navy);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 30px;
   line-height: 1.05;
   margin-top: 7px;
@@ -6987,7 +6987,7 @@ h1 {
 }
 
 .btec-diagnosis-main h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 34px;
   line-height: 1.05;
   margin-top: 7px;
@@ -7069,7 +7069,7 @@ h1 {
 }
 
 .btec-level3-main h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 34px;
   line-height: 1.05;
   margin-top: 7px;
@@ -7277,7 +7277,7 @@ h1 {
 
 .ou-catalogue-tools strong {
   color: var(--navy);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 34px;
   line-height: 1;
 }
@@ -7661,7 +7661,7 @@ h1 {
 
 .doctoral-highlight h3 {
   color: var(--navy);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 28px;
 }
 
@@ -8032,7 +8032,7 @@ h1 {
 .consulting-stat-panel b {
   display: block;
   color: var(--navy);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 34px;
   line-height: 1;
 }
@@ -12752,7 +12752,7 @@ h1 {
 }
 
 .screen-title h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -12855,7 +12855,7 @@ h1 {
 }
 
 .shelf-head h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   color: var(--navy);
   font-size: 28px;
 }
@@ -13096,7 +13096,7 @@ h1 {
 
 .shelf-cover strong {
   color: #fff;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 11px;
   line-height: 1.04;
 }
@@ -13173,7 +13173,7 @@ h1 {
 }
 
 .cover strong {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 31px;
   font-weight: 700;
   line-height: 1.1;
@@ -14022,7 +14022,7 @@ h1 {
 }
 
 .zh-herald-name-en {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 11px;
   color: #e8b84b;
   letter-spacing: 0.18em;
@@ -14032,7 +14032,7 @@ h1 {
 
 .zh-herald-name-zh {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: 26px;
   font-weight: 900;
   letter-spacing: 0.06em;
@@ -14071,7 +14071,7 @@ h1 {
 
 .zh-herald-section-tag {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.2em;
@@ -14150,7 +14150,7 @@ h1 {
 .zh-herald-hero h1 {
   max-width: 620px;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   font-size: clamp(30px, 4.2vw, 38px);
   font-weight: 900;
   line-height: 1.2;
@@ -14260,7 +14260,7 @@ h1 {
   align-items: center;
   gap: 10px;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 18px;
   font-weight: 850;
   line-height: 1.35;
@@ -14346,7 +14346,7 @@ h1 {
 
 .zh-academic-main p {
   color: #2c241c;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 16px;
   line-height: 2.18;
   margin-bottom: 20px;
@@ -14461,7 +14461,7 @@ h1 {
 
 .zh-academic-publication-strip strong {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 16px;
   font-weight: 850;
 }
@@ -14560,7 +14560,7 @@ h1 {
 
 .zh-academic-cover-atlas-head h2 {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 22px;
   font-weight: 900;
   letter-spacing: 0;
@@ -14620,7 +14620,7 @@ h1 {
 
 .zh-academic-cover-card figcaption strong {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 12px;
   font-weight: 900;
   line-height: 1.3;
@@ -14668,7 +14668,7 @@ h1 {
 
 .zh-academic-reading-list strong a {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 13px;
   font-weight: 800;
   line-height: 1.35;
@@ -14782,7 +14782,7 @@ h1 {
 
 .zh-academic-reading-chip strong {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", Georgia, serif;
   font-size: 15px;
   font-weight: 900;
   line-height: 1.45;
@@ -14841,7 +14841,7 @@ h1 {
 
 .zh-herald-pullquote p {
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 18px;
   font-weight: 850;
   line-height: 1.65;
@@ -14919,7 +14919,7 @@ h1 {
   align-items: center;
   gap: 7px;
   color: #1a1410;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 14px;
   font-weight: 850;
   letter-spacing: 0.06em;
@@ -15122,7 +15122,7 @@ h1 {
 
 .zh-herald-infographic h2 {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 22px;
   font-weight: 900;
   text-align: center;
@@ -15263,7 +15263,7 @@ h1 {
   display: grid;
   place-items: center;
   margin: 0 auto 10px;
-  font-family: Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 16px;
   font-weight: 900;
 }
@@ -15367,7 +15367,7 @@ h1 {
 .zh-herald-related-card strong {
   display: block;
   color: var(--navy);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 16px;
   line-height: 1.35;
   margin-top: 10px;
@@ -15394,7 +15394,7 @@ h1 {
 
 .zh-herald-footer strong {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 15px;
 }
 
@@ -15470,7 +15470,7 @@ h1 {
 }
 
 .oeh-name-en {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 11px;
   font-weight: 700;
   color: var(--oeh-gold-light);
@@ -15482,7 +15482,7 @@ h1 {
 .oeh-name-zh {
   margin-top: 4px;
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 26px;
   font-weight: 900;
   letter-spacing: 0.06em;
@@ -15519,7 +15519,7 @@ h1 {
   cursor: pointer;
   background: var(--oeh-red);
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-weight: 700;
   font-size: 11px;
   letter-spacing: 0.02em;
@@ -15544,7 +15544,7 @@ h1 {
 
 .oeh-section-bar div {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -15592,7 +15592,7 @@ h1 {
   max-width: 680px;
   margin: 0 0 12px;
   color: var(--oeh-ink);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 38px;
   font-weight: 900;
   line-height: 1.2;
@@ -15607,7 +15607,7 @@ h1 {
 .oeh-hero h2 {
   margin: 0 0 18px;
   color: var(--oeh-ink-mid);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.45;
@@ -15667,7 +15667,7 @@ h1 {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--oeh-rule);
   color: var(--oeh-ink);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 1.35;
@@ -15717,7 +15717,7 @@ h1 {
 .oeh-pullquote p {
   margin: 0;
   color: var(--oeh-ink);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.65;
@@ -15805,7 +15805,7 @@ h1 {
   gap: 8px;
   margin-bottom: 13px;
   color: var(--oeh-ink);
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -16044,7 +16044,7 @@ h1 {
 
 .oeh-footer strong {
   color: #fff;
-  font-family: "Noto Serif TC", "Songti TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -18350,7 +18350,7 @@ h1 {
 .footer-inner strong {
   color: #fff;
   display: block;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.08;
@@ -19620,7 +19620,7 @@ h1 {
 }
 
 .lms-topbar h1 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 38px;
   font-weight: 600;
   margin: 8px 0 10px;
@@ -19668,7 +19668,7 @@ h1 {
 
 .lms-status-grid strong {
   display: block;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 31px;
   font-weight: 600;
   line-height: 1;
@@ -19694,7 +19694,7 @@ h1 {
 }
 
 .lms-panel h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 29px;
   font-weight: 600;
   margin-top: 4px;
@@ -19858,7 +19858,7 @@ h1 {
 }
 
 .family-guide-inner h1 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: clamp(32px, 3.4vw, 46px);
   color: #213246;
 }
@@ -20003,7 +20003,7 @@ h1 {
 }
 
 .route-stop h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   color: #102d4b;
   font-size: clamp(34px, 4vw, 50px);
   font-weight: 700;
@@ -20166,7 +20166,7 @@ h1 {
 }
 
 .compact-programme h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   color: #25384d;
   font-size: 28px;
   font-weight: 600;
@@ -20306,7 +20306,7 @@ h1 {
 .activity-board h3,
 .check-panel h2,
 .source-panel h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   color: #25384d;
   font-weight: 600;
 }
@@ -20611,7 +20611,7 @@ h1 {
 .credit-alliance-page {
   background: #f5efe5;
   color: #182236;
-  font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
   margin: 0 auto;
   width: min(1220px, calc(100% - 44px));
 }
@@ -21119,7 +21119,7 @@ h1 {
 .credit-hero h1 {
   border-left: 0;
   color: #21170f;
-  font-family: "Noto Serif TC", "Songti TC", serif !important;
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", serif !important;
   font-size: clamp(30px, 5vw, 48px);
   font-weight: 900 !important;
   letter-spacing: 0.01em;
@@ -21188,7 +21188,7 @@ h1 {
 
 .credit-stat-strip strong {
   color: #b88a3b;
-  font-family: Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 20px;
   font-weight: 800 !important;
 }
@@ -23760,7 +23760,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 
 .summer-herald-us .summer-herald-title-stack h2 {
   color: #8d734b;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.25;
@@ -24345,7 +24345,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
 .appeal-process b {
   color: var(--gold);
   display: block;
-  font-family: Georgia, serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 24px;
   line-height: 1;
   margin-bottom: 14px;
@@ -28547,3 +28547,18 @@ body.zh-home-page .zh-priority-panel{
 .alberta-series-card em { color: #6b5a44; font-style: normal; font-size: 12px; line-height: 1.4; }
 @media (max-width: 860px) { .alberta-series-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .alberta-series-grid { grid-template-columns: 1fr; } }
+
+/* Overseas Study Review (herald): English in Times New Roman, CJK falls back to Noto Serif TC.
+   !important overrides the site-wide sans heading rule so herald headings match too. */
+.oeh-page .oeh-name-en,
+.oeh-page .oeh-hero h1,
+.oeh-page .oeh-hero h2,
+.oeh-page .oeh-hero p,
+.oeh-page .oeh-section-head,
+.oeh-page .oeh-pullquote p,
+.oeh-page .oeh-main-col p,
+.oeh-page .oeh-main-col li,
+.oeh-page .oeh-route-card strong,
+.oeh-page .oeh-disclaimer {
+  font-family: "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif !important;
+}
