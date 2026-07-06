@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/zh/course-selection-guide/",
+      "destination": "/zh/course-selection-alliance/",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
