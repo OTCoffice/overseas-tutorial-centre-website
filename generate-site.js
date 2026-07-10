@@ -2495,6 +2495,148 @@ const uoaImmigBody = [
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
   {
+    slug: "taiwan-entry-permit-work-right-mainland-foreigners",
+    title: "Taiwan Entry Permit Is Not Work Authorisation",
+    date: "2026-06-28",
+    category: "Taiwan Employment",
+    column: "settlement",
+    kicker: "Cross-Strait · Immigration · Career Pathways",
+    author: "留學導報編輯部",
+    summary: "入台證解決的是能不能進入台灣，工作許可解決的是能不能受僱。醫美、健檢、商務、專業交流等停留事由，都不等於在台工作權。",
+    titleZh: "入台證不等於工作權：大陸與外籍人士赴台就業途徑全解析",
+    summaryZh: "「醫美、健檢、商務、專業交流」聽起來像是辦理入台證的不同門檻，其實是四種不同的停留事由，而其中沒有任何一種能讓人合法在台灣工作。對有意赴台發展的人而言，先弄清楚「入境」與「就業」是兩件事，是避免踩到法律紅線的第一步。",
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "mainland-students-taiwan-postgraduate-degree-vs-exchange",
+      "london-private-banking-wealth-management-job-guide-mandarin-graduates",
+      "uk-universal-credit-2026-nrpf-public-funds-guide"
+    ],
+    sidebarCards: [
+      ["NT$47,971", "關鍵數字", "跨國企業內部調動之陸籍人員，最低平均月薪門檻（勞動部公告）", "薪資門檻"],
+      ["3 年", "停留期限", "內部調動初次停留上限，期滿可申請延期，每次不逾 3 年", "期限"],
+      ["三部關鍵法令", "法規依據", "《兩岸人民關係條例》§10、§11；《大陸地區人民進入臺灣地區許可辦法》；《跨國企業內部調動之大陸地區人民申請來臺服務許可辦法》", "依據"],
+      ["一句話重點", "制度區分", "入台證解決的是「能不能進去」，工作許可解決的是「能不能受僱」；兩者分屬不同制度，不可混為一談。", "重點"],
+      ["主管機關", "入境與聘僱", "內政部移民署（入境許可）；勞動部（聘僱許可）；經濟部（投資／營運總部認定）", "機關"]
+    ],
+    factCheckNotes: [
+      "本文為法規資訊整理，不構成法律意見；實際個案請向內政部移民署或專業移民顧問確認。"
+    ],
+    body: [
+      {
+        heading: "Entry reason and employment must be separated",
+        paragraphs: [
+          "入台證解決的是能不能進入台灣，工作許可解決的是能不能受僱。醫美、健檢、商務、專業交流等停留事由，都不等於在台工作權。"
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先把「事由」與「工作」分開",
+        paragraphs: [
+          "每隔一段時間，編輯部就會收到類似的詢問：「我想去台灣就業發展，是不是要先辦醫美簽、健檢簽，或者準備商務專業訪談的材料？」這個問題本身藏著一個普遍的誤會——把入台證的「事由」當成了通往工作的階梯。事實上，這些事由彼此獨立、條件各異，而且全都屬於短期停留性質，與「在台灣領薪工作」是完全不同的法律範疇。",
+          "大陸居民赴台的入台證，依目的分為若干類別。常被混為一談的三種是：<strong>健檢醫美</strong>，由台灣醫院出具邀請，停留約十五天，對戶籍與職業限制最寬，本質上是自由行的替代方案；<strong>商務交流／履約</strong>，須有台灣邀請公司、兩岸企業業務對口，停留期由數日至三個月不等；<strong>專業交流</strong>，涵蓋藝文傳習、科技研究、投資經營管理、教育講學等，以個人受邀名義從事專業活動。",
+          "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">三類常見入台證一覽</div><ul><li><strong>健檢醫美</strong>──醫院邀請，約 15 天，門檻最低、自由活動。</li><li><strong>商務交流／履約</strong>──公司對口邀請，1 天至 3 個月。</li><li><strong>專業交流</strong>──個人受邀從事專業活動，依類別最長可達數月。</li></ul><p>共同點：皆為<strong>停留事由</strong>，不附帶任何工作權。</p></div>"
+        ]
+      },
+      {
+        heading: "二、法律紅線：與許可目的不符即屬違規",
+        paragraphs: [
+          "真正關鍵的限制，寫在《臺灣地區與大陸地區人民關係條例》第十條：經許可進入台灣地區的大陸地區人民，<strong>不得從事與許可目的不符的活動或工作</strong>。換言之，持醫美簽、商務簽或專業交流簽赴台，再「順便」謀職或受僱，無論材料多齊全，本身就構成違規。",
+          "<div class=\"zh-herald-warning-box\"><div class=\"zh-herald-box-title\">後果提醒</div><p>違反許可目的者，主管機關得撤銷許可、限期離境；情節嚴重者可能面臨數年內不得入境的處分。為取得入台證而提供不實材料，亦有遭拒簽與後續處分的風險。</p></div>"
+        ]
+      },
+      {
+        heading: "三、大陸居民合法在台工作的四條途徑",
+        paragraphs: [
+          "對大陸籍人士而言，能合法在台工作的管道相當有限，主要集中於以下四種，門檻與適用對象各不相同：",
+          "<div class=\"article-service-table\"><table><thead><tr><th>途徑</th><th>核心條件</th><th>適用對象</th></tr></thead><tbody><tr><td><strong>陸配依親居留</strong></td><td>與台灣居民結婚、辦妥登記後取得依親居留，即可在台工作</td><td>大陸配偶（最主流的一條）</td></tr><tr><td><strong>跨國企業內部調動</strong></td><td>企業在台設有據點，員工任職滿一年、屬管理或專業技術職、薪資達標</td><td>跨國企業在職員工</td></tr><tr><td><strong>專案許可（傑出人才）</strong></td><td>基於政治、經濟、科技、文化等因素的特例，門檻極高</td><td>產業領袖、頂尖科研或文化人士</td></tr><tr><td><strong>第三國國籍 + 旅居海外滿 4 年</strong></td><td>取得他國國籍並在大陸以外旅居滿四年後，比照外國人申請工作許可</td><td>已具外國身分者</td></tr></tbody></table></div>",
+          "值得注意的是，目前赴台就學的陸生，畢業後原則上仍無法留台工作。因此「念書 → 留台就業」這條在許多國家成立的路徑，在台灣對陸籍學生並不適用。"
+        ]
+      },
+      {
+        heading: "四、「外國公司派人來台」實務：外籍 vs 陸籍",
+        paragraphs: [
+          "不少人想到的變通方案，是透過一家海外（例如英國）公司「外派」赴台。這條路可不可行？答案取決於<strong>被派的人是什麼國籍</strong>——這決定了兩套截然不同的制度。",
+          "<strong>情形一：派遣外籍員工</strong><br>若外派的是英國籍或其他外籍員工，走的是一般外國人來台工作規定：由在台單位向勞動部申請聘僱許可，再辦理居留簽證與居留證（ARC）。專門性、技術性工作有學歷或薪資門檻，但整體屬常規流程，並無特殊障礙。",
+          "<strong>情形二：派遣陸籍員工</strong><br>若外派的是大陸籍員工，則適用《跨國企業內部調動之大陸地區人民申請來臺服務許可辦法》。這是陸籍人士合法在台工作中相對最可行的一條，但有幾項硬性前提，缺一不可：",
+          "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">跨國企業內部調動的四個前提</div><ol><li><strong>企業須具跨國結構且在台有實體</strong>──母公司或本公司設於外國（英國符合），且在台灣設有子公司或分公司；不能只是掛名借殼。</li><li><strong>職務與年資</strong>──擔任負責人、經理人或從事專門／技術性服務，且在該企業<strong>任職滿一年</strong>，屬內部既有員工的真實調動。</li><li><strong>薪資達標</strong>──須達勞動部公告的外國人專門性技術性工作最低平均月薪，目前為新臺幣 <strong>47,971 元</strong>。</li><li><strong>由在台據點代為申請</strong>──由跨國企業在台之母／本／分／子公司向移民署提出。</li></ol></div>",
+          "取得許可後，初次停留期間最長三年，期滿仍有必要可申請延期、每次不逾三年，配偶及未滿十八歲子女得申請隨同來台。但須留意：來台後<strong>不得轉任或兼任該跨國企業以外的職務</strong>，一旦轉任、兼任或離職，須於十日內離境。",
+          "結論很清楚：海外公司派人來台工作本身完全可行——派外籍員工是常規操作；派陸籍員工也行得通，但前提是這家公司在台灣有實體據點、被派的人已任職滿一年且屬管理或專業技術職、薪資達標。它是一套正規的調動制度，<strong>而不是繞過陸籍工作限制的捷徑</strong>。"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "mainland-students-taiwan-postgraduate-degree-vs-exchange",
+    title: "Can Mainland Students Still Study a Postgraduate Degree in Taiwan?",
+    date: "2026-06-28",
+    category: "Cross-Strait Admissions",
+    column: "study",
+    kicker: "Cross-Strait · Admissions · Postgraduate Study",
+    author: "留學導報編輯部",
+    summary: "Taiwan's postgraduate admission framework still exists, and exchange study remains possible, but for a mainland student applying from scratch for a Taiwan degree, the practical barrier sits mainly on the mainland side.",
+    titleZh: "陸生赴台讀研，路還通嗎？學位生與研修生的真實處境",
+    summaryZh: "每隔一陣子就有人問：能不能去台灣讀個碩士？答案是——制度的框架還在，台灣的硕博士班招生年年照常公告，但對一個「現在才從大陸申請」的普通陸生而言，這扇門實務上幾乎是關著的。卡點不在台灣，而在大陸這一側。",
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "taiwan-entry-permit-work-right-mainland-foreigners",
+      "uk-australia-conditional-offer-evidence-calendar",
+      "uk-aus-application-documents-checklist"
+    ],
+    sidebarCards: [
+      ["2020", "關鍵年份", "大陸單方面公告暫停陸生赴台就讀，至今未正式解除", "暫停"],
+      ["8 省市", "戶籍門檻", "學位生限設籍京、滬、蘇、浙、閩、粵、鄂、遼", "資格"],
+      ["學位 vs 研修", "兩條路對照", "學位生：拿台灣文憑，但新生進不去；研修生：可短期赴台，但非學位", "對照"],
+      ["一句話重點", "現實判斷", "制度的門框還在，門卻關著；而且就算進得去，讀研也通不到在台就業。", "重點"],
+      ["辦理窗口", "查詢方向", "陸生聯招會（學位生報名）；大陸原校／台灣合作校（研修生）；內政部移民署（入境許可）", "窗口"]
+    ],
+    factCheckNotes: [
+      "本文為政策資訊整理，不構成升學或法律意見；實際申請請以陸生聯招會、教育部及移民署最新公告為準。"
+    ],
+    body: [
+      {
+        heading: "Degree study and exchange study are different routes",
+        paragraphs: [
+          "Taiwan's postgraduate admission framework still exists, and exchange study remains possible, but for a mainland student applying from scratch for a Taiwan degree, the practical barrier sits mainly on the mainland side."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、學位生：框架還在，新生卻進不去",
+        paragraphs: [
+          "把「能不能讀」拆開來看，要分成兩種身分：攻讀學位的「學位生」，和短期交流的「研修生」。兩者的法源、停留性質與目前的開放程度截然不同，混為一談就會得出錯誤的結論。對想拿一張台灣碩士文憑的人來說，真正關鍵的是學位生這條路——而它目前的狀態，遠比表面上的「招生簡章照常公告」要複雜。",
+          "台灣的陸生碩博士班招生，由「大學校院招收大陸地區學生聯合招生委員會」（陸生聯招會）統一辦理，每年都有完整的報名與分發時程。表面上看，這條路是開的；但報考資格設了兩道硬門檻。",
+          "第一道是<strong>戶籍限制</strong>：申請人必須設籍於北京、上海、江蘇、浙江、福建、廣東、湖北、遼寧這八個省市，戶籍不在這八地，連報名資格都不具備。第二道是<strong>學歷資格</strong>：碩博招生對象限定為具台灣公立或已立案私立大學校院學位、或具同等學力資格的應屆畢業生。",
+          "<div class=\"zh-herald-warning-box\"><div class=\"zh-herald-box-title\">真正的卡點：大陸單方面暫停尚未解除</div><p>2020 年 4 月 9 日，大陸教育部公告「暫停 2020 年陸生赴台就讀試點工作」，僅允許已在台就讀的陸生依自願原則繼續升讀。這項單方面暫停至今未正式解除，結果是硕博班這幾年實務上「僅限在台應屆陸生報名」——也就是已在台灣念完學士、想直升硕博的那批人，新生從大陸這側送不出去。</p></div>",
+          "<div class=\"article-service-table\"><table><thead><tr><th>身分</th><th>性質</th><th>目前對「新申請陸生」的開放程度</th></tr></thead><tbody><tr><td><strong>學位生（含硕士、博士）</strong></td><td>攻讀台灣學位，畢業取得台灣文憑</td><td>框架在，但受大陸暫停 + 八省市 + 學歷限制，新生實務上接近零</td></tr><tr><td><strong>研修生（交流／研修）</strong></td><td>學籍仍在大陸原校，赴台短期就讀（多在 6 個月內）</td><td>暢通，但不是學位</td></tr></tbody></table></div>"
+        ]
+      },
+      {
+        heading: "二、台灣的善意，與現實的落差",
+        paragraphs: [
+          "台灣這一側其實是想恢復的。2024 年 5 月，賴清德總統就職演說宣示「重啟陸生學位生來台就學」，教育部長鄭英耀隨後宣布 114 學年度（2025）重新公告陸生學士班招生簡章——這份簡章自 2020 年起已五年未曾更新。",
+          "問題在於，招生時程仍須透過陸生聯招會與大陸招生服務中心協商。只要大陸不放行，台灣單方面開出名額，硕博與學士班的新生人數實務上仍接近零。換句話說，<strong>台灣已遞出橄欖枝，但球在對岸</strong>。"
+        ]
+      },
+      {
+        heading: "三、研修生：唯一暢通，但換不到學位",
+        paragraphs: [
+          "和學位生相反，大陸研修生來台目前「暢通無阻」，自 2022 年 11 月 7 日起即可依規定申請來台研修。但這條路要講清楚一個本質：它<strong>不是學位</strong>。",
+          "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">研修生這條路的真相</div><p>研修生以「校對校」合作方式進行，學籍仍留在大陸原校，到台灣短期就讀（通常半年以內），持研修事由的入台證，而非攻讀碩士。適合「人已在大陸某高校在讀、且該校與台灣學校有合作」的學生去體驗一學期；但若目標是拿一張台灣硕士文憑，研修生幫不上忙。</p></div>"
+        ]
+      },
+      {
+        heading: "四、別把讀書當成就業跳板",
+        paragraphs: [
+          "不少人問「讀研」其實是想藉此在台灣落腳、就業。這裡必須潑一盆冷水：台灣對陸生長期採「三限六不」原則，其中關鍵的兩條，直接堵死了這條盤算。",
+          "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">「三限六不」中最該記住的兩條</div><ul><li><strong>不允許打工</strong>──已正式入法，陸生在學期間不得打工。</li><li><strong>畢業不能留台工作</strong>──陸生畢業後原則上無法留在台灣就業。</li></ul><p>結論：就算能去讀，讀研也<strong>不是通往在台就業或落腳的路</strong>，兩件事銜接不上。</p></div>",
+          "因此，在替任何人評估「赴台讀研」之前，先把三件事問清楚，才知道有沒有可操作空間：戶籍是否在那八個省市？人目前是已在台、還是在大陸？真正想要的是一張台灣學位，還是去台灣待一段時間？答案不同，路徑與可行性天差地別。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "university-of-alberta-year-one-foundation-program-overview-2026",
     title: "University of Alberta Year One Foundation Program 2026: A QS-94 Canadian Pathway",
     date: "2026-06-10",
@@ -7164,7 +7306,7 @@ const insightsArticles = [
     ],
     resources: [
       ["OTC Study NT training certificate", "/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf"],
-      ["Study NT", "studynt.nt.gov.au"],
+      ["Study NT", "https://studynt.nt.gov.au"],
       ["OTC Australia route", "/zh/australia-office-presence/"],
       ["Australia training map", "/zh/insights/australia-agent-training-map-2026/"]
     ]
@@ -7263,11 +7405,11 @@ const insightsArticles = [
       ["Public boundary", "Compliance first", "培訓參與不等於代理授權，正式合作需書面確認。", "boundary"]
     ],
     resources: [
-      ["Study Queensland", "studyqueensland.qld.gov.au"],
-      ["Study Melbourne", "studymelbourne.vic.gov.au"],
-      ["StudyPerth", "studyperth.com.au"],
-      ["StudyAdelaide", "studyadelaide.com"],
-      ["Study NT", "studynt.nt.gov.au"],
+      ["Study Queensland", "https://studyqueensland.qld.gov.au"],
+      ["Study Melbourne", "https://studymelbourne.vic.gov.au"],
+      ["StudyPerth", "https://studyperth.com.au"],
+      ["StudyAdelaide", "https://studyadelaide.com"],
+      ["Study NT", "https://studynt.nt.gov.au"],
       ["OTC Study NT training certificate", "/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf"],
       ["Tasmanian Government Education International", "study.tas.gov.au"],
       ["ACT International Education Unit", "act.gov.au"]
@@ -7438,10 +7580,10 @@ const insightsArticles = [
       ["ATO 登記 TFN/ABN", "免費", 4]
     ],
     resources: [
-      ["NSW Law Society", "lawsociety.com.au"],
-      ["Law Institute of Victoria", "liv.asn.au"],
-      ["Queensland Law Society", "qls.com.au"],
-      ["Australian Taxation Office", "ato.gov.au/trusts"]
+      ["NSW Law Society", "https://lawsociety.com.au"],
+      ["Law Institute of Victoria", "https://liv.asn.au"],
+      ["Queensland Law Society", "https://qls.com.au"],
+      ["Australian Taxation Office", "https://ato.gov.au/trusts"]
     ]
   },
   {
@@ -15695,7 +15837,7 @@ const zhInsights = pageShell({
             <a href="/zh/study-planning/"><strong>升學規劃</strong><span>申請文件與路線判斷</span></a>
             <a href="/zh/immigration-info/"><strong>移居安家</strong><span>政策入口與合規邊界</span></a>
             <a href="/zh/services/"><strong>服務入口</strong><span>申請、監護與協調</span></a>
-            <a href="/zh/publishing/"><strong>出版書局</strong><span>導報、報告與教材</span></a>
+            <a href="/publishing/"><strong>出版書局</strong><span>導報、報告與教材</span></a>
           </aside>
         </div>
       </div>
@@ -20857,6 +20999,8 @@ function zhImmigrationAllianceCountryPage(country) {
 
 const chineseEntrance = pageShell({
   title: "中文 | OTC Study Hub",
+  path: "/zh/",
+  bodyClass: "zh-home-page",
   current: "zh",
   lang: "zh-Hant",
   locale: "zh",

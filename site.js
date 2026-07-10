@@ -209,7 +209,12 @@ function parentPathFor(canonicalPath) {
 }
 
 function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
-  const parentPath = parentPathFor(canonicalPath);
+  const parentFallbacks = {
+    "/zh/publishing/": "/publishing/",
+    "/zh/reports/": "/zh/australia-office-presence/",
+    "/zh/australia-universities/": "/zh/australia-office-presence/"
+  };
+  const parentPath = parentFallbacks[parentPathFor(canonicalPath)] || parentPathFor(canonicalPath);
   const isZh = locale === "zh";
   const shareText = `${title} | OTC Study Hub`;
   const parentLabel = isZh ? (parentPath === "/zh/" ? "返回中文首頁" : "返回上級頁面") : "Back to parent page";
@@ -299,7 +304,7 @@ function relativeAssetPath(pagePath, assetPath) {
   return `${"../".repeat(depth)}${assetPath}`;
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const stylesheetPath = relativeAssetPath(canonicalPath, "styles.css");
@@ -358,7 +363,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
   <link rel="stylesheet" href="${stylesheetPath}?v=zh-mobile-workbench-20260602f">
 </head>
-<body>
+<body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale)}
   ${pageUtilityBar({ canonicalPath, canonicalUrl, title, locale })}
   ${body}
