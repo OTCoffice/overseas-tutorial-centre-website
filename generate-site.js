@@ -1699,7 +1699,8 @@ function write(route, html) {
   const htmlWithCanonical = html
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`)
     .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonicalUrl}">`)
-    .replace(/href="(?:\.\.\/)*styles\.css\?v=/g, `href="/styles.css?v=times-new-roman-20260704b    .replace(/[ \t]+$/gm, "");
+    .replace(/href="(?:\.\.\/)*styles\.css\?v=[^"]*"/g, `href="/styles.css?v=times-new-roman-20260704b"`)
+    .replace(/[ \t]+$/gm, "");
   fs.writeFileSync(path.join(dir, "index.html"), htmlWithCanonical);
   generatedRoutes.push(publicPath);
 }
@@ -7920,7 +7921,6457 @@ const insightsArticles = [
         ]
       }
     ]
-  }
+  },
+  {
+    slug: "australia-482-skills-in-demand-employer-sponsorship-checklist",
+    title: "Australia 482 Skills in Demand Visa: Employer Sponsorship Is Not Just Finding a Company",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "482 Skills in Demand · Employer sponsorship",
+    author: "留學導報編輯部",
+    summary: "A compliance-first briefing on Australia’s Skills in Demand visa (subclass 482), covering approved sponsors, CSOL occupation fit, salary thresholds, one-year relevant work experience, skills assessment and English requirements.",
+    titleZh: "482 Skills in Demand 簽證：僱主擔保不是「找到公司就行」",
+    summaryZh: "澳洲 482 Skills in Demand 簽證常被簡化成「找到公司願意擔保」。實際上，Core Skills stream 涉及 approved sponsor、CSOL 職業、AMSR/CSIT 薪資、至少一年相關工作經驗、技能評估與英文要求。本文用官方頁面做一份申請人與雇主都能讀懂的合規核對清單。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+        "australia-employer-sponsorship-standard-business-sponsor-checklist",
+        "australia-self-sponsorship-company-sponsor-risk-check",
+        "australia-training-visa-407-sponsorship-nomination-sequence-update",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+        ["Home Affairs — Skills in Demand Visa (subclass 482) Core Skills stream", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream"],
+        ["Home Affairs — Salary requirements to nominate a worker", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482/salary-requirements"],
+        ["Home Affairs — English proficiency (subclass 482)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/sufficient-english"],
+        ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "The first misunderstanding: sponsorship is a structured employer process",
+        paragraphs: [
+                "The Skills in Demand visa (subclass 482) lets an employer sponsor a suitably skilled worker for a position they cannot fill with a suitably skilled Australian worker. That wording matters: the visa is tied to a real role, an approved sponsor, the nominated occupation and the applicant’s evidence.",
+                "A willing company is only the beginning. The proposed employer must be an approved sponsor, or at least have submitted an application to become a Standard Business Sponsor before nominating the worker.",
+                "For the Core Skills stream, the nominated occupation must be on the Core Skills Occupation List (CSOL). If the occupation fit is weak, the whole file becomes weak."
+              ]
+      },
+      {
+        heading: "Salary: AMSR and CSIT are not optional details",
+        paragraphs: [
+                "Home Affairs salary rules require the employer to determine the Annual Market Salary Rate (AMSR) correctly and not pay the overseas worker less than an Australian worker would be paid for equivalent work.",
+                "For Skills in Demand Core Skills stream nominations, the role must meet the Core Skills Income Threshold (CSIT). The Home Affairs salary page states AUD76,515 for nominations lodged from 1 July 2025 to 30 June 2026.",
+                "Non-cash benefits such as accommodation or a car do not replace the threshold. Salary evidence is therefore not just a number in an offer letter; it is part of the employer’s compliance file."
+              ]
+      },
+      {
+        heading: "Applicant evidence: one year of relevant experience, skills and English",
+        paragraphs: [
+                "For the Core Skills stream, applicants must generally have at least one year of relevant work experience in the nominated occupation or a related field. Part-time or casual work may count only where it is equivalent to the required full-time period and at the right skill level.",
+                "Some occupations require a mandatory skills assessment. Where required, the assessment must be commenced before submitting the visa application or the application may not be valid.",
+                "Primary applicants must also meet the relevant English language requirements unless an exemption applies. From the applicant’s perspective, a 482 file is therefore a combined story: role fit, experience evidence, English evidence and sponsor evidence must point in the same direction."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "Applicants should prepare passport and visa history, CV, qualification records, employment contracts, reference letters, payslips, tax or social-security records where relevant, English test evidence, and skills-assessment evidence if required.",
+                "Employers should prepare sponsor approval evidence, business registration, organisation chart, position description, recruitment or labour-market evidence where applicable, salary benchmarking, employment contract and compliance records.",
+                "This article is general public information, not migration or legal advice. Cases involving refusal history, related-party sponsorship, newly formed businesses, unclear salary source or complex visa status should be reviewed by a registered Australian migration agent or qualified lawyer."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "第一個誤區：僱主擔保不是一句「公司願意」",
+        paragraphs: [
+                "澳洲 Skills in Demand visa（subclass 482）讓雇主在找不到合適澳洲本地員工時，擔保具備相應技能的海外工作者。這句話背後其實有四個核心：真實職位、合格 sponsor、對應職業、申請人證據。",
+                "所以，找到一家公司願意幫忙，只是起點，不是終點。雇主需要是 approved sponsor，或至少已提交 Standard Business Sponsor 申請，之後才能為具體職位提名申請人。",
+                "如果走 Core Skills stream，被提名職位還需要落在 Core Skills Occupation List（CSOL）框架內。職業匹配不清楚，後面的薪資、經驗、英文材料再完整，也很難讓整份文件站穩。"
+              ]
+      },
+      {
+        heading: "薪資不是隨便填：AMSR 與 CSIT 都要看",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Home Affairs 對提名薪資有明確要求：雇主要正確判斷 Annual Market Salary Rate（AMSR），也就是澳洲本地同等職位應有的市場薪資，並且不能把海外員工支付得低於同等澳洲員工。</p></div>",
+                "Core Skills stream 還要看 Core Skills Income Threshold（CSIT）。Home Affairs 薪資頁面列明，2025 年 7 月 1 日至 2026 年 6 月 30 日之間遞交的相關 nomination，CSIT 為 AUD76,515。",
+                "住宿、車輛等非現金福利不能替代薪資門檻。因此，薪資不是 offer letter 上的一個數字，而是雇主合規文件的一部分。"
+              ]
+      },
+      {
+        heading: "申請人端：一年相關經驗、技能與英文不能漏",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Core Skills stream 通常要求申請人在被提名職業或相關領域有至少一年相關工作經驗。兼職或 casual work 並非完全不能算，但要能折算到足夠的全職等效期間，並且工作內容要達到相應技能層級。</p></div>",
+                "部分職業還需要 mandatory skills assessment。若屬於強制技能評估職業，通常需要在遞交簽證前已經開始評估，否則可能影響申請有效性。",
+                "主申請人還要滿足英文要求，除非符合豁免。換句話說，482 文件不是只看職位，也不是只看個人履歷，而是職位、經驗、薪資、英文、雇主材料互相支撐。"
+              ]
+      },
+      {
+        heading: "比較低風險的準備清單",
+        paragraphs: [
+                "申請人端可以先準備：護照與簽證歷史、CV、學歷文件、工作合同、推薦信、工資單、稅務或社保記錄（如適用）、英文成績，以及需要時的技能評估材料。",
+                "雇主端則應準備：sponsor 批准或申請證據、公司登記、組織架構、職位描述、招聘或勞動市場證據（如適用）、薪資市場對照、雇傭合同與合規記錄。",
+                "本文為公開政策與教育資訊整理，不構成移民法律建議。若涉及拒簽史、親屬或關聯公司擔保、新成立公司、薪資來源不清或簽證身份複雜，應找澳洲註冊移民代理或合資格律師做個案審查。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-accountant-registration-skills-assessment-2026",
+    title: "澳洲會計師註冊與技能評估：CPA Australia、CA ANZ 與 IPA 怎麼分",
+    date: "2026-07-04",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Australia · Accounting · Skills assessment",
+    author: "留學導報編輯部",
+    summary: "海外會計師想在澳洲執業或做技術移民，關鍵在「技能評估」與職業會員：CPA Australia、Chartered Accountants ANZ（CA ANZ）與 IPA 三大機構各有路線。本文說明技能評估如何運作、職業代碼與英語要求。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    titleZh: "澳洲會計師註冊與技能評估：CPA Australia、CA ANZ 與 IPA 怎麼分",
+    summaryZh: "海外會計師想在澳洲執業或做技術移民，關鍵在「技能評估」與職業會員：CPA Australia、Chartered Accountants ANZ（CA ANZ）與 IPA 三大機構各有路線。本文說明技能評估如何運作、職業代碼與英語要求。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    relatedReadings: [
+        "australia-engineer-registration-2026",
+        "australia-ict-acs-skills-assessment-2026"
+      ],
+    resources: [
+        ["CPA Australia", "https://www.cpaaustralia.com.au/"],
+        ["Chartered Accountants ANZ", "https://www.charteredaccountantsanz.com/"],
+        ["Institute of Public Accountants", "https://www.publicaccountants.org.au/"]
+      ],
+    body: [
+      {
+        heading: "先分清：技能評估、職業會員與就業",
+        paragraphs: [
+                "三件事常被混為一談：<strong>技能評估（skills assessment）</strong>多用於技術移民，判定你的學歷與經歷是否等同澳洲會計職業；<strong>職業會員</strong>（如 CPA、CA）是專業資格與持續進修；<strong>就業</strong>則是雇主要求。三者相關但不等同。",
+                "先想清楚你的目標是移民、還是執業掛牌，再選路線。"
+              ]
+      },
+      {
+        heading: "三大機構：CPA Australia、CA ANZ、IPA",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>澳洲會計技能評估由三個機構辦理：<strong>CPA Australia</strong>、<strong>Chartered Accountants ANZ（CA ANZ）</strong>與 <strong>IPA（Institute of Public Accountants）</strong>。它們都是移民技能評估的認可機構，也各有自己的會員與考試體系；選哪一家可看課程認可、方向與費用。</p></div>"
+              ]
+      },
+      {
+        heading: "技能評估怎麼運作",
+        paragraphs: [
+                "一般會核對學歷是否達到認可水平、比對必修知識範疇（core knowledge areas），並要求英語成績。部分職業代碼還要求相關工作經驗評估（skilled employment assessment）。文件要求嚴格，翻譯與認證要齊備。"
+              ]
+      },
+      {
+        heading: "職業代碼與英語要求",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>常見 ANZSCO 代碼包括 Accountant (General)、Taxation Accountant、Management Accountant、External Auditor 等，不同代碼的評估與提名要求不同。英語通常要達指定分數（IELTS／PTE 等），以評估機構當年度標準為準。</p></div>"
+              ]
+      },
+      {
+        heading: "找誰、常見誤區",
+        paragraphs: [
+                "學歷與知識範疇評估找上述三機構；<strong>移民路線與提名請諮詢註冊移民代理（MARA）</strong>。常見誤區：以為「有會計學位就自動通過」、忽略必修範疇或英語門檻。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供移民或就業意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先分清：技能評估、職業會員與就業",
+        paragraphs: [
+                "三件事常被混為一談：<strong>技能評估（skills assessment）</strong>多用於技術移民，判定你的學歷與經歷是否等同澳洲會計職業；<strong>職業會員</strong>（如 CPA、CA）是專業資格與持續進修；<strong>就業</strong>則是雇主要求。三者相關但不等同。",
+                "先想清楚你的目標是移民、還是執業掛牌，再選路線。"
+              ]
+      },
+      {
+        heading: "三大機構：CPA Australia、CA ANZ、IPA",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>澳洲會計技能評估由三個機構辦理：<strong>CPA Australia</strong>、<strong>Chartered Accountants ANZ（CA ANZ）</strong>與 <strong>IPA（Institute of Public Accountants）</strong>。它們都是移民技能評估的認可機構，也各有自己的會員與考試體系；選哪一家可看課程認可、方向與費用。</p></div>"
+              ]
+      },
+      {
+        heading: "技能評估怎麼運作",
+        paragraphs: [
+                "一般會核對學歷是否達到認可水平、比對必修知識範疇（core knowledge areas），並要求英語成績。部分職業代碼還要求相關工作經驗評估（skilled employment assessment）。文件要求嚴格，翻譯與認證要齊備。"
+              ]
+      },
+      {
+        heading: "職業代碼與英語要求",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>常見 ANZSCO 代碼包括 Accountant (General)、Taxation Accountant、Management Accountant、External Auditor 等，不同代碼的評估與提名要求不同。英語通常要達指定分數（IELTS／PTE 等），以評估機構當年度標準為準。</p></div>"
+              ]
+      },
+      {
+        heading: "找誰、常見誤區",
+        paragraphs: [
+                "學歷與知識範疇評估找上述三機構；<strong>移民路線與提名請諮詢註冊移民代理（MARA）</strong>。常見誤區：以為「有會計學位就自動通過」、忽略必修範疇或英語門檻。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供移民或就業意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-acila-aged-care-visa-2026",
+    title: "Australia ACILA Aged Care Visa Pathway 2026: Subclass 482 to 186 PR Briefing",
+    date: "2026-06-03",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Aged Care · Subclass 482 · Subclass 186",
+    author: "Overseas Study Review Editorial Team",
+    summary: "A Chinese-language Overseas Study Review briefing on Australia’s Aged Care Industry Labour Agreement, covering eligible care occupations, employer MoU steps, applicant requirements, subclass 482 labour agreement pathway and subclass 186 PR planning.",
+    titleZh: "澳洲 ACILA（Aged Care Industry Labour Agreement）簽證申請深入解析（2026 年最新）",
+    summaryZh: "本文深入解析澳洲 Aged Care Industry Labour Agreement（ACILA）在 2026 年的適用職業、雇主 MoU 流程、申請人資格、英語與薪資要求、482 轉 186 PR 路線，以及已在澳洲境內人士的實務優勢與風險。",
+    body: [
+      {
+        heading: "What ACILA Does",
+        paragraphs: [
+                "ACILA is an employer-led industry labour agreement for aged care providers facing direct-care workforce shortages. It is usually used through the Skills in Demand visa (subclass 482) labour agreement stream, with a potential Employer Nomination Scheme (subclass 186) labour agreement pathway after the required Australian direct-care work period."
+              ]
+      },
+      {
+        heading: "Eligible Care Occupations",
+        paragraphs: [
+                "The framework focuses on Aged or Disabled Carer (423111), Nursing Support Worker (423312) and Personal Care Assistant (423313). These are direct care roles, not a general pathway for every health, disability or community services employer."
+              ]
+      },
+      {
+        heading: "Employer MoU First",
+        paragraphs: [
+                "The aged care provider must have the right sponsorship position and usually needs a Memorandum of Understanding with relevant unions such as ANMF, UWU or HSU before streamlined access to the Aged Care Industry Labour Agreement is available."
+              ]
+      },
+      {
+        heading: "Applicant Requirements",
+        paragraphs: [
+                "Applicants generally rely on a relevant AQF Certificate III or equivalent, or at least 12 months relevant full-time experience, with skills assessment where required. The assessment authority differs by occupation."
+              ]
+      },
+      {
+        heading: "English, Salary and PR Planning",
+        paragraphs: [
+                "The agreement contains English and salary concessions compared with many standard routes, but the exact requirement must be checked against the current labour agreement and Home Affairs guidance. Subclass 186 planning must also account for the age limit and the two-year Australian direct-care work requirement."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "This is a public education briefing, not migration advice. Requirements can change; applicants should check Department of Home Affairs guidance, the relevant skills assessment authority and a registered migration agent before lodging."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "ACILA 是什麼：為誰而設的勞工協議",
+        paragraphs: [
+                "ACILA（Aged Care Industry Labour Agreement）是澳洲政府為回應老年護理行業長期人力短缺而設立的行業勞工協議。它不是普通技術移民清單上的一般通道，而是由合資格 Aged Care 雇主與澳洲政府簽署的固定條款協議，用於贊助直接照護崗位的海外工作者。",
+                "在目前框架下，ACILA 主要連接兩條路線：先透過 Skills in Demand Visa（Subclass 482）的 Labour Agreement Stream 到澳洲工作，再在符合條件後由雇主提名 Employer Nomination Scheme（Subclass 186）的 Labour Agreement Stream 轉永久居留。對申請人而言，重點不是自己單獨遞交一份「ACILA 簽證」，而是先找到具備協議及提名能力的雇主。"
+              ]
+      },
+      {
+        heading: "三個適用職業：直接照護才是核心",
+        paragraphs: [
+                "ACILA 聚焦直接護理及照護角色，而不是所有醫療、殘疾服務或社區服務職位。官方模板列明的主要職業包括 Aged or Disabled Carer（ANZSCO 423111）、Nursing Support Worker（423312）及 Personal Care Assistant（423313）。",
+                "這些職位通常涉及日常生活支援、個人照護、陪伴、基礎健康觀察、照護紀錄及與護理團隊配合。它們與註冊護士、專科醫療人員、社工或殘障服務機構的一般職位不同。若雇主不是 Aged Care Provider，或職位實質不屬直接 aged care 照護，通常不能簡單套用 ACILA。"
+              ]
+      },
+      {
+        heading: "雇主端流程：MoU 是真正的前置關卡",
+        paragraphs: [
+                "雇主端是 ACILA 的起點。Aged Care Provider 通常需要是已批准的標準贊助商，或符合成為贊助商的條件，並需先與相關行業工會簽署 Memorandum of Understanding（MoU）。常見工會包括 Australian Nursing and Midwifery Federation（ANMF）、United Workers Union（UWU）及 Health Services Union（HSU）。",
+                "Home Affairs 說明，與相關工會簽署並維持 MoU 的雇主，可取得 streamlined access。實務上，很多申請延誤不是出在申請人文件，而是出在雇主尚未完成 MoU、尚未取得 ACILA 准入，或尚未把職位與薪資條件整理到可提名程度。",
+                "因此求職時應直接詢問雇主：是否已有現行 Aged Care Industry Labour Agreement、是否已完成 MoU、過往是否成功提名 482 或 186，以及是否願意提供書面 nomination 支持。"
+              ]
+      },
+      {
+        heading: "申請人資格：資格、經驗與技能評估",
+        paragraphs: [
+                "申請人通常需要持有相關 AQF Certificate III 或同等資格，或以至少 12 個月全職相關工作經驗作為替代基礎。相關經驗可包括 aged care、disability care 或 nursing support 等直接照護工作；兼職經驗通常需折算。",
+                "若使用海外資格或工作經驗滿足要求，需留意技能評估機構。Aged or Disabled Carer（423111）一般對應 Community Work Australia；Nursing Support Worker（423312）及 Personal Care Assistant（423313）一般對應 ANMAC。具體要求應以當期 skills assessment authority 及 Home Affairs 文件為準。",
+                "對 482 臨時簽證而言，ACILA 框架下通常沒有額外的 post-qualification work experience 門檻；但對 186 永居路線，申請人需要在澳洲從事相關直接照護工作至少兩年全職，並在雇主提名下進入永久居留階段。"
+              ]
+      },
+      {
+        heading: "英語、薪資與年齡：為什麼說門檻較低",
+        paragraphs: [
+                "ACILA 的吸引力之一，是在英語與薪資方面設有行業協議下的 concession。一般 aged care 機構下，482 申請常見要求是 IELTS overall 5.0，Speaking / Listening 5.0，Reading / Writing 4.5，或同等 PTE、TOEFL 等成績。",
+                "若雇主屬於 CALD（culturally and linguistically diverse）服務社群並符合條件，英語要求可能降至 IELTS overall 4.5 且無單項最低分，前提是申請人精通目標社群語言。186 永居階段常見要求為 IELTS overall 5.5 且無單項要求。",
+                "薪資方面，官方 ACILA 模板列明最低保證年薪與 Australian Market Salary Rate（AMSR）取較高者，並需符合 National Employment Standards。482 本身無年齡上限，但 186 永居申請一般需在 45 歲以下提交，這一點對境內轉 PR 規劃非常關鍵。"
+              ]
+      },
+      {
+        heading: "482 到 186：典型時間線與文件順序",
+        paragraphs: [
+                "典型流程可分為四段：雇主簽署 MoU 並申請 ACILA 准入；雇主取得或維持 approved sponsor 身份並提交 nomination；申請人準備技能評估、英文成績、資格及工作經驗文件並遞交 482 Labour Agreement Stream；入境或在境內轉簽後開始全職工作。",
+                "若後續目標是 186 PR，申請人需要在澳洲完成至少兩年相關直接照護工作，再由符合條件的雇主提名 186 Labour Agreement Stream。這兩年不是單純持簽證時間，而是與職位、工作內容和全職性質相關的實際工作經驗。",
+                "雇主準備可能需一至三個月，簽證審理時間會因案件、文件、政策及 Home Affairs 工作量而變動。任何固定「四週必下」或「保證 PR」說法都不應採信。"
+              ]
+      },
+      {
+        heading: "已在澳洲境內人士的實務優勢",
+        paragraphs: [
+                "若申請人已在澳洲持學生簽、Working Holiday Visa 或其他臨時簽證，並已在 aged care 機構工作，ACILA 可能比海外直接求職更具操作性。原因很簡單：雇主已能觀察其出勤、英文溝通、照護態度、團隊配合與合規意識。",
+                "境內人士可先累積本地 aged care 經驗，補齊英文與技能評估，並尋找已具 ACILA 經驗的雇主。若工作內容與職位代碼吻合，之後轉 482，再以兩年澳洲直接照護工作銜接 186，會比純海外投遞更容易建立可信度。",
+                "但境內優勢不等於自動可行。申請人仍要處理 bridging visa、現有簽證條件、工作時數限制、職位提名、skills assessment 和 health / character 等要求。"
+              ]
+      },
+      {
+        heading: "OTHM Level 3 的位置：有幫助，但不是自動認可",
+        paragraphs: [
+                "OTHM Level 3 Diploma in Adult Health and Social Care 可作為健康與社會照護基礎訓練材料，對求職敘事、照護知識、person-centred care、safeguarding、communication、dementia、mental health awareness 等主題有實際幫助。",
+                "在澳洲語境下，它可能被雇主或評估機構作為海外健康照護資格背景的一部分參考；但是否等同 AQF Certificate III、是否足以通過技能評估，不能由培訓中心或顧問單方面保證，仍需看評估機構、文件完整度、工作經驗與雇主提名條件。",
+                "比較穩妥的做法，是把 OTHM Level 3 與相關工作經驗、雇主 reference、職責描述、英文成績、DBS / police check 及澳洲本地短課或入職培訓一起打包，形成可核查的職業能力證據。"
+              ]
+      },
+      {
+        heading: "主要風險與核查清單",
+        paragraphs: [
+                "第一，確認雇主是否真有 ACILA，而不是只說「可以 sponsor」。第二，確認職位是否屬三個可用 ANZSCO 代碼之一。第三，確認薪資、工時、加班、住宿或扣款安排是否符合 National Employment Standards 及 market salary 要求。",
+                "第四，確認自己的年齡是否允許兩年後銜接 186。第五，確認技能評估機構、英文要求和文件要求是否以最新官方版本為準。第六，若是殘疾護理、社區服務或非 aged care 機構，應另查 DAMA 或其他 labour agreement，而不是硬套 ACILA。",
+                "最重要的是：ACILA 是雇主主導的 labour agreement 路線，不是單靠一張證書就能自行啟動的移民通道。所有簽證及永居方案，均應在遞交前由註冊移民代理或移民律師核查。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成移民建議、法律意見、就業保證或簽證結果承諾。ACILA 是雇主主導的 labour agreement 路線，須由具備協議及提名能力的雇主配合，並以澳洲政府最新規則為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-aged-care-disability-allied-health-pr-routes-2026",
+    title: "Australia Care Workforce Routes 2026: Aged Care, Disability, Community Services and Allied Health Assistant",
+    date: "2026-05-27",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "澳洲移居安家 · 護理勞動力短缺 · 風險排序",
+    author: "留學導報編輯部",
+    summary: "A reality-first OTC briefing on which care-related routes in Australia currently look most practical for older applicants or career changers: aged care, disability support, community services, allied health assistance and nursing, with official boundary notes on labour agreements, registration and training packages.",
+    titleZh: "澳洲最現實的 PR 路線之一：Aged Care、Disability、Community Services、Allied Health 哪條更值得走？",
+    summaryZh: "如果目標不是「先去讀書看看」，而是更現實地把工作、擔保與長線身份放在一起判斷，那麼澳洲近年的護理勞動力短缺，確實把 Aged Care、Disability、Community Services 與 Allied Health Assistant 推到了更前面。這篇《留學導報》把 OTC 內部最常做的現實排序公開寫出來，同時把官方邊界一併說清：哪些可談 labour agreement、哪些不能直接套、哪些要看 AHPRA／NMBA、哪些只是訓練包與工作場景，而不是移民保證。",
+    relatedReadings: [
+        "australia-health-vocation-pathway",
+        "australia-vet-tafe-aqf-cost-duration-xian-landing-guide-2026",
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "othm-health-social-care-australia-vet-comparison"
+      ],
+    resources: [
+        ["Home Affairs — Industry labour agreements", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/labour-agreements/types-of-labour-agreements/industry-labour-agreements"],
+        ["Home Affairs — New Aged Care Industry Labour Agreement", "https://immi.homeaffairs.gov.au/programs-subsite/Pages/skilled-migration-program/new-aged-care-industry-labour-agreement.aspx"],
+        ["training.gov.au — CHC33021 Certificate III in Individual Support", "https://training.gov.au/training/details/CHC33021"],
+        ["training.gov.au — CHC43121 Certificate IV in Disability Support", "https://training.gov.au/training/details/CHC43121"],
+        ["training.gov.au — CHC52025 Diploma of Community Services", "https://training.gov.au/training/details/CHC52025"],
+        ["training.gov.au — HLT33021 Certificate III in Allied Health Assistance", "https://training.gov.au/training/details/HLT33021"],
+        ["AHPRA — English language skills FAQ", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/FAQ.aspx"],
+        ["NDIS — What is a support worker", "https://www.ndis.gov.au/participants/working-providers/support-workers-and-recovery-coaches/what-support-worker"]
+      ],
+    body: [
+      {
+        heading: "The real question is not “what is popular?” but “what is still practical?”",
+        paragraphs: [
+                "For older applicants, career changers or families who are not looking for a decorative student route, the practical Australian question is simple: which sectors still show real workforce demand, local training pathways and a plausible employer-sponsored future?",
+                "In OTC’s internal screening work, the care economy now matters more than many glamour routes. Aged care, disability support, community services and allied-health assistance are not identical, but they sit closer to Australia’s long-term workforce need than hospitality, generic customer service or informal massage work."
+              ]
+      },
+      {
+        heading: "Why aged care currently looks the most realistic",
+        paragraphs: [
+                "The strongest official signal is the Aged Care Industry Labour Agreement. Home Affairs states that the aged care sector can use this industry labour agreement for direct care occupations including Aged or Disabled Carer, Nursing Support Worker and Personal Care Assistant.",
+                "Home Affairs also states that the Skills in Demand visa (subclass 482) has no age limit, while the Employer Nomination Scheme visa (subclass 186) generally requires the applicant to be no more than 45 years old at the time of application. That means age tolerance in practice is better than many people assume at the 482 stage, but it is not unlimited once the route moves toward 186.",
+                "At training level, CHC33021 Certificate III in Individual Support remains the most visible entry route. The training package states that it applies to community, home or residential care settings and requires at least 120 hours of work."
+              ]
+      },
+      {
+        heading: "Disability and community services are strong — but not interchangeable with aged care",
+        paragraphs: [
+                "Disability support is clearly a major service area in Australia, and NDIS continues to define support-worker roles and worker-screening expectations. But applicants should not assume that a disability employer can simply use the aged-care labour agreement. Home Affairs explicitly says disability-sector employers cannot access the Aged Care Industry Labour Agreement.",
+                "At qualification level, CHC43121 Certificate IV in Disability Support is now the current Certificate IV-level disability route. For broader community work, CHC52025 Diploma of Community Services covers delivery, management and coordination of person-centred services and includes at least 100 hours of work placement.",
+                "In practice, these routes can still be strong for long-term employment and regional strategy, but they require more careful checking of occupation lists, local employer options and region-specific agreements such as DAMA where applicable."
+              ]
+      },
+      {
+        heading: "Why Allied Health Assistant may suit some applicants better than generic care work",
+        paragraphs: [
+                "For people who already have bodywork, rehabilitation, therapy-adjacent or client-service experience, allied-health assistance can be a better skills match than starting from a general care identity. HLT33021 Certificate III in Allied Health Assistance is designed for work under delegation and supervision of allied health professionals.",
+                "This matters because the work environment can be closer to clinics, rehabilitation settings or structured health services rather than only residential care. It is not a shortcut to professional registration, but it can offer a cleaner occupational story for applicants whose background already overlaps with recovery support, physical care or client handling."
+              ]
+      },
+      {
+        heading: "Nursing is still the strongest long-term route — but not the cheapest or fastest",
+        paragraphs: [
+                "If the goal is the most regulated and recognisable health route, nursing remains stronger than most support roles. But it is also slower, more expensive and more tightly controlled.",
+                "AHPRA’s current English-language FAQ confirms that English registration standards remain part of registration, even though some component thresholds have been adjusted in recent updates. More importantly, nursing registration depends on approved programs and regulator requirements, not on migration marketing language.",
+                "So the realistic OTC reading is: nursing may be the strongest long-term route, but for many 40+ applicants it is not automatically the most efficient one."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先說結論：現在澳洲真正「還算現實」的，不是所有留學路線，而是照護勞動力相關行業",
+        paragraphs: [
+                "如果家庭或申請人的目標不是單純體驗留學，而是更直接地把 <b>工作、擔保、長線身份與現實可操作性</b> 放在一起判斷，那麼近年澳洲真正更值得看的，不是餐飲、酒店、普通服務業，也不是放鬆型按摩這類很難職業化、很難移民化的工作，而是與老齡化、社區照護、殘障支援與 allied health support 相關的勞動力板塊。",
+                "OTC 內部如果要做一個很老實的排序，目前通常會把 <b>Aged Care</b> 放在最前面，其次是 <b>Disability / Community Services</b>，再來是對特定背景更匹配的 <b>Allied Health Assistant</b>，而 <b>Nursing</b> 則屬於最穩但也最慢、最貴、最吃英文與註冊要求的長線路線。"
+              ]
+      },
+      {
+        heading: "Aged Care 為什麼最現實：不是因為「好做」，而是因為官方路徑最清楚",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Aged Care 現在最值得先看，核心不是它「輕鬆」，而是它的 <b>官方路徑相對清楚</b>。Home Affairs 的 Industry Labour Agreements 官方頁面明確列出：Aged Care Industry Labour Agreement 可用於 aged care sector 的 direct care occupations，包括 <b>Aged or Disabled Carer、Nursing Support Worker、Personal Care Assistant</b>。</p></div>",
+                "這裡最值得注意的，不是坊間常說的「缺人很多」這種模糊表述，而是官方確實留有 <b>industry labour agreement</b> 這條口徑。對很多原本未必適合傳統 points-tested 技術移民的人來說，這比單純去讀一個泛商科碩士更有現實感。",
+                "另一個很重要的官方邊界是年齡。Home Affairs 目前寫得很清楚：<b>482 Skills in Demand 沒有年齡上限</b>；但 <b>186 一般要求申請時不超過 45 歲</b>。所以如果有人說「40+ 就完全不行」，那不準；但如果有人反過來說「40+ 走 aged care 一定沒問題」，那也不準。比較準確的說法是：<b>482 階段年齡容忍度較高，但往 186 走時要面對 45 歲邊界</b>。",
+                "在訓練包層面，最常見的入門是 <b>CHC33021 Certificate III in Individual Support</b>。training.gov.au 的官方說明寫得很清楚：這個資格對應社區、家居或院舍照護場景，並要求至少 <b>120 小時 work placement</b>。所以它不是一張只在教室裡念完的紙，而是和實際照護場景直接連在一起。"
+              ]
+      },
+      {
+        heading: "Disability Support 很強，但不要錯把它當成 aged care 的平替",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Disability Support 這條線近年確實很熱，很多人也會先想到 NDIS。這個方向的現實性在於：工作場景多、社區需求廣、support worker 類型清楚，而且 NDIS 官方頁面也直接定義了 support worker 的角色，並提醒要做 <b>NDIS worker screening check</b>。</p></div>",
+                "但這條線最大的風險，是很多人會把它和 aged care 混成一條。Home Affairs 官方頁面其實已經講明：<b>disability sector employers 不能直接使用 Aged Care Industry Labour Agreement</b>。也就是說，Disability 的就業和長線身份路徑，不能直接套用 aged care 的 labour agreement 敘事，必須另外核查具體 occupation、當地 employer 與是否存在可用的 DAMA 或其他擔保安排。",
+                "在資格上，現在應該看的是 <b>CHC43121 Certificate IV in Disability Support</b>。training.gov.au 的官方描述指出，這個資格對應在社區或個人家中提供 disability support 的工作場景，強調 person-centred support，且通常已經不是完全直接監督下的入門角色。換句話說，它比單純入門照護更進一步，也更適合打算把 disability 當成真正職涯方向的人。"
+              ]
+      },
+      {
+        heading: "Community Services 的優勢，不在『熱門』，而在它更能接管理、case work 與 program coordination",
+        paragraphs: [
+                "Community Services 不是很多中文市場最先想到的詞，但它其實很重要。<b>CHC52025 Diploma of Community Services</b> 的官方說明直接寫明，這個資格對應的是 delivery、management 和 coordination of person-centred services，也就是它不只是前線照護，還可能往 <b>case management、program coordination、supervision</b> 等方向延伸。",
+                "這對於已經不是二十歲出頭、而是有一定社會經驗、客戶服務經驗、社區工作經驗，甚至家庭管理經驗的人，其實反而更有現實感。因為很多 40+ 申請人不一定最適合從最基層、最體力型的 direct care 做起，而可能更適合往 <b>community support + coordination</b> 這種較成熟的工作敘事去整理。",
+                "但這條路的風險在於：它不像 aged care labour agreement 那樣有非常直接的官方移民敘事，因此更需要具體去核對州別、地區、雇主、職位名稱與當期 occupation / DAMA 設置。"
+              ]
+      },
+      {
+        heading: "Allied Health Assistant 其實很值得看，特別是有推拿、康復、理療邊緣背景的人",
+        paragraphs: [
+                "如果申請人本身有 <b>推拿、復健、理療、康復、身體照護、客戶服務</b> 這些背景，我其實會很認真地把 <b>Allied Health Assistant</b> 拉出來單獨看。原因不是它保證移民，而是它的 <b>職業敘事通常比普通 massage 更乾淨、更正規，也更貼近澳洲醫療體系周邊</b>。",
+                "training.gov.au 的 <b>HLT33021 Certificate III in Allied Health Assistance</b> 明確寫到，這類工作是在 allied health professionals 的 delegation and supervision 下提供協助。這代表它的工作環境更可能是 physio clinic、rehab centre、health service setting，而不是容易被市場視為灰色或非規範化的放鬆型按摩場景。",
+                "所以對某些背景的人來說，Allied Health Assistant 未必是最容易的路，但很可能是 <b>最匹配</b> 的路。這和 aged care 的差別，不是誰高誰低，而是你的既有經驗能不能說成一個更像澳洲健康體系周邊職位的故事。"
+              ]
+      },
+      {
+        heading: "Nursing 依然最穩，但對很多人來說不一定最划算",
+        paragraphs: [
+                "Nursing 當然仍是最穩的長線之一，但它不是一個可以被輕鬆說成「最好走」的選項。它的問題很清楚：<b>時間更長、英文更高、成本更高、註冊要求更嚴</b>。",
+                "AHPRA 的英文 FAQ 已經說明，註冊英語標準仍然存在，只是部分測試 component 的要求在近年更新中有調整。無論如何，nursing 的核心不是課程名稱好不好聽，而是你最後能不能完成 <b>approved program、滿足英文、再走註冊</b>。",
+                "所以對很多 40+ 或希望更快落地工作的人來說，Nursing 雖然穩，但未必最划算。它更適合那些願意投入更長時間、能承擔學費與英文壓力、並且確定自己要走受監管醫療職業的人。"
+              ]
+      },
+      {
+        heading: "哪些方向現在不太建議當作『移民化』主軸",
+        paragraphs: [
+                "最不建議當主軸的，通常是 <b>Hospitality</b> 和 <b>普通按摩店</b> 這類路線。原因不是完全沒有工作，而是它們很難形成一個穩定、正規、可持續的擔保與身份敘事。",
+                "特別是放鬆型按摩、非臨床型 bodywork，現在越來越難被市場讀成一條清楚、可監管、可職業化的長線。除非申請人能接受再讀 AQF、往 clinical / rehab / allied health 周邊去補正規資格，否則這條線的風險通常比看起來高。"
+              ]
+      },
+      {
+        heading: "OTC 的現實排序：如果真的把 PR 放進判斷裡，會怎麼看？",
+        paragraphs: [
+                "如果目標是把 <b>PR 可能性</b> 當成真實考量，而不是只做表面留學規劃，我會比較保守地給出這個排序：",
+                "<b>方案 A｜Aged Care</b>：最穩，因為官方 labour agreement 口徑最清楚，direct care occupations 的可讀性也最高。",
+                "<b>方案 B｜Allied Health Assistant</b>：最匹配，特別是對已有推拿、康復、理療、客戶服務背景的人，更容易說成一個正規職業故事。",
+                "<b>方案 C｜Disability / Community Services</b>：很值得做，但要更細地看 region、employer、occupation 和當地協議，不能直接套 aged care 的敘事。",
+                "<b>方案 D｜Nursing</b>：長線最穩，但對很多人不一定最划算。",
+                "最重要的是：<b>這不是移民承諾，而是現實度排序</b>。澳洲現在確實進入了照護勞動力短缺時代，但缺人不等於每個人都能順利轉成簽證與永居。真正穩的做法，仍然是把 qualification、英文、工作場景、雇主類型、州別與簽證條件逐項核對。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-27。本文涉及的 aged care labour agreement、482/186、Qualification code、AHPRA 英文要求與 NDIS support worker 定義，均已按 Home Affairs、training.gov.au、AHPRA 與 NDIS 官方公開頁面核對。",
+        "Home Affairs 2025-11-17 更新的 Industry Labour Agreements 頁面明確寫明：Aged Care Industry Labour Agreement 可用於 aged care sector 的 Aged or Disabled Carer、Nursing Support Worker、Personal Care Assistant；但 disability sector employers 不能直接使用 ACILA，應改查所在地是否有適用的 DAMA。",
+        "Home Affairs 官方頁面同時寫明：Skills in Demand visa (subclass 482) 沒有年齡上限；但 Employer Nomination Scheme visa (subclass 186) 一般要求申請時年齡不超過 45 歲。任何個案是否可行，仍要看實際 occupation、州別、雇主、工作經驗、英文與當期政策。"
+      ],
+  },
+  {
+    slug: "australia-ahpra-english-2026",
+    title: "Ahpra English Scores",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Ahpra · English",
+    author: "留學導報編輯部",
+    summary: "2026 年健康職業考牌最先要看的，不是補習廣告，而是 Ahpra 與 National Boards 在 2026 年 4 月 23 日起更新的 accepted English test scores。護理、藥劑、物理治療、職能治療等很多註冊職業都會受這條線影響。",
+    titleZh: "Ahpra 英語新分數",
+    summaryZh: "2026 年健康職業考牌最先要看的，不是補習廣告，而是 Ahpra 與 National Boards 在 2026 年 4 月 23 日起更新的 accepted English test scores。護理、藥劑、物理治療、職能治療等很多註冊職業都會受這條線影響。",
+    relatedReadings: [
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"],
+        ["Ahpra — English language skills registration standard", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills.aspx"],
+        ["Ahpra — Registration standards", "https://www.ahpra.gov.au/Registration/Registration-Standards.aspx"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "2026 年健康職業考牌最先要看的，不是補習廣告，而是 Ahpra 與 National Boards 在 2026 年 4 月 23 日起更新的 accepted English test scores。護理、藥劑、物理治療、職能治療等很多註冊職業都會受這條線影響。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "很多學生以為澳洲健康職業考牌只看學歷，其實英語常常是第一道門。2026 年 4 月 23 日起，Ahpra 與 National Boards 更新 accepted English test 的最低分數，測試日期不同，適用表格也可能不同。"
+              ]
+      },
+      {
+        heading: "誰最需要注意",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>護理、助產、醫學、藥劑、物理治療、職能治療、心理、牙科、醫學影像、視光等 Ahpra 監管職業，都應先查英語標準。不要只問『IELTS 幾分』，還要查是否可拼分、單項最低線、測試形式與有效期。</p></div>"
+              ]
+      },
+      {
+        heading: "準備順序",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>先確認目標職業與 Board，再核對你考試日期對應的舊表或新表，最後才決定考 IELTS、PTE、OET 或 TOEFL iBT Australia。若已在 2026 年 4 月 23 日前後跨期考試，更要逐項看 transition arrangements。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "考英語不是單獨任務，而是註冊、skills assessment、簽證和僱主時間線的一部分。最好把 test booking、註冊遞交、placement、offer 和簽證材料放在同一張時間表上。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。Ahpra 頁面顯示 accepted English test minimum scores 自 2026-04-23 起更新。",
+        "可接受考試包括 IELTS Academic、OET、PTE Academic、TOEFL iBT Australia、Cambridge C1/C2；實際分數與兩次拼分規則須按 Ahpra 表格核對。",
+        "本文不構成註冊建議；每個職業仍須查其 National Board 的完整 registration standard。"
+      ],
+  },
+  {
+    slug: "australia-dentist-registration-adc-2026",
+    title: "澳洲牙醫註冊：ADC 評估與 Dental Board（AHPRA）路線",
+    date: "2026-07-04",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Australia · Dentist · ADC & AHPRA",
+    author: "留學導報編輯部",
+    summary: "海外牙醫要在澳洲執業，主要透過 ADC（Australian Dental Council）的評估路線，並向 AHPRA 的 Dental Board 註冊。本文說明 ADC 三段流程（文件核實、筆試、實作考試）、認可課程替代路線、英語與名額現實。屬一般認識，以官方最新資訊為準。",
+    titleZh: "澳洲牙醫註冊：ADC 評估與 Dental Board（AHPRA）路線",
+    summaryZh: "海外牙醫要在澳洲執業，主要透過 ADC（Australian Dental Council）的評估路線，並向 AHPRA 的 Dental Board 註冊。本文說明 ADC 三段流程（文件核實、筆試、實作考試）、認可課程替代路線、英語與名額現實。屬一般認識，以官方最新資訊為準。",
+    relatedReadings: [
+        "australia-nursing-anmac-2026",
+        "australia-teacher-registration-aitsl-2026"
+      ],
+    resources: [
+        ["Australian Dental Council (ADC)", "https://www.adc.org.au/"],
+        ["Dental Board of Australia (AHPRA)", "https://www.dentalboard.gov.au/"],
+        ["AHPRA", "https://www.ahpra.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "路線總覽：考試路線 vs 認可課程",
+        paragraphs: [
+                "海外牙醫在澳註冊，常見兩條路：走 <strong>ADC 評估考試</strong>路線，或就讀澳洲／認可的牙醫課程。兩者最終都要向 <strong>Dental Board of Australia（透過 AHPRA）</strong>註冊。"
+              ]
+      },
+      {
+        heading: "ADC 流程：三段",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>ADC 評估通常分三段：<strong>文件與資格核實（initial assessment）</strong>、<strong>筆試（Written Examination）</strong>、<strong>實作考試（Practical Examination）</strong>。每一段都有通過才進入下一段，實作考試名額與時間是常見瓶頸。</p></div>"
+              ]
+      },
+      {
+        heading: "AHPRA/Dental Board 註冊與英語",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>通過評估後向 AHPRA 的 Dental Board 申請註冊，並須符合英語能力、近期執業、良好行為（good standing）等要求。英語標準以 AHPRA 現行政策為準。</p></div>"
+              ]
+      },
+      {
+        heading: "名額、時間與費用的現實",
+        paragraphs: [
+                "ADC 考試（尤其實作段）名額有限、費用不低、整體時程可能較長。務必按官方公布的考試週期與費用規劃，預留時間與預算。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "評估與考試以 ADC、註冊以 AHPRA/Dental Board 官方資訊為準；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "路線總覽：考試路線 vs 認可課程",
+        paragraphs: [
+                "海外牙醫在澳註冊，常見兩條路：走 <strong>ADC 評估考試</strong>路線，或就讀澳洲／認可的牙醫課程。兩者最終都要向 <strong>Dental Board of Australia（透過 AHPRA）</strong>註冊。"
+              ]
+      },
+      {
+        heading: "ADC 流程：三段",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>ADC 評估通常分三段：<strong>文件與資格核實（initial assessment）</strong>、<strong>筆試（Written Examination）</strong>、<strong>實作考試（Practical Examination）</strong>。每一段都有通過才進入下一段，實作考試名額與時間是常見瓶頸。</p></div>"
+              ]
+      },
+      {
+        heading: "AHPRA/Dental Board 註冊與英語",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>通過評估後向 AHPRA 的 Dental Board 申請註冊，並須符合英語能力、近期執業、良好行為（good standing）等要求。英語標準以 AHPRA 現行政策為準。</p></div>"
+              ]
+      },
+      {
+        heading: "名額、時間與費用的現實",
+        paragraphs: [
+                "ADC 考試（尤其實作段）名額有限、費用不低、整體時程可能較長。務必按官方公布的考試週期與費用規劃，預留時間與預算。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "評估與考試以 ADC、註冊以 AHPRA/Dental Board 官方資訊為準；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-early-childhood-register-2026",
+    title: "Early Childhood Register",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · ECEC · Worker Register",
+    author: "留學導報編輯部",
+    summary: "2026 年幼教與 childcare 熱點不是一句『幼教好移民』，而是 National Early Childhood Worker Register、WWCC/WWVP、資格、approved training 和 teacher registration 逐步被放進同一個可監管框架。",
+    titleZh: "幼教註冊清單",
+    summaryZh: "2026 年幼教與 childcare 熱點不是一句『幼教好移民』，而是 National Early Childhood Worker Register、WWCC/WWVP、資格、approved training 和 teacher registration 逐步被放進同一個可監管框架。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026"
+      ],
+    resources: [
+        ["Department of Education — National Educator Register testing", "https://www.education.gov.au/newsroom/articles/official-testing-national-educator-register-commences"],
+        ["ACECQA — National Early Childhood Worker Register toolkit", "https://www.acecqa.gov.au/communications-toolkit-national-early-childhood-worker-register-feb-2026"],
+        ["Department of Education — Quality and safety", "https://www.education.gov.au/early-childhood/about/quality-and-safety"],
+        ["ACECQA — New national early childhood worker register PDF", "https://www.acecqa.gov.au/sites/default/files/2026-01/New%20national%20early%20childhood%20worker%20register.pdf"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "2026 年幼教與 childcare 熱點不是一句『幼教好移民』，而是 National Early Childhood Worker Register、WWCC/WWVP、資格、approved training 和 teacher registration 逐步被放進同一個可監管框架。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "幼教近年被大量包裝成移民熱門，但 2026 年更應看 child safety 與 workforce visibility。National Early Childhood Worker Register 把工作者資料、資格、培訓與背景檢查放進更清楚的監管框架。"
+              ]
+      },
+      {
+        heading: "誰會被影響",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>long day care、preschool、family day care 等 National Quality Framework 下的服務需要按要求使用 Register。工作者則要確保身份、WWCC/WWVP、資格與 approved training 記錄可查。</p></div>"
+              ]
+      },
+      {
+        heading: "teacher registration 不是每個人都一樣",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Early childhood teacher、educator、assistant、room leader 的資格與註冊要求不同。部分州/領地涉及 teacher registration，不能只看 Certificate III 或 Diploma 名稱。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "幼教路線要從兒童安全、資格真實性和州/領地要求開始讀。若只是因為『熱門』而轉專業，後期 placement、英文、背景審查與職業倫理都可能成為壓力。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。澳洲教育部與 ACECQA 資料顯示 National Early Childhood Worker Register 於 2026 年逐步推出，包含 worker identifying information、employment records、approved training、qualifications、WWCC/WWVP 或 teacher registration 等資料。",
+        "幼教資格、教師註冊、Working With Children Check 和服務端義務按州/領地與崗位不同而異。",
+        "本文不構成教育、註冊或移民建議。"
+      ],
+  },
+  {
+    slug: "australia-electrician-otsr-2026",
+    title: "Electrician OTSR",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Trades · Electrician",
+    author: "留學導報編輯部",
+    summary: "電工、空調制冷、水管等 licensed trades 是澳洲技能短缺與安全監管的交匯點。海外技工最常誤解的是：TRA skills assessment、OTSR、provisional licence、gap training 和 supervised employment 是不同階段。",
+    titleZh: "電工牌照 OTSR",
+    summaryZh: "電工、空調制冷、水管等 licensed trades 是澳洲技能短缺與安全監管的交匯點。海外技工最常誤解的是：TRA skills assessment、OTSR、provisional licence、gap training 和 supervised employment 是不同階段。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026"
+      ],
+    resources: [
+        ["TRA — Electrician (General and Special Class)", "https://www.tradesrecognitionaustralia.gov.au/electrician-general-and-special-class"],
+        ["TRA — Licensing", "https://www.tradesrecognitionaustralia.gov.au/licensing"],
+        ["TRA — OSAP", "https://www.tradesrecognitionaustralia.gov.au/programs/offshore-skills-assessment-program-osap"],
+        ["DEWR — 2026–27 Budget", "https://www.dewr.gov.au/about-department/corporate-reporting/budget/202627-budget"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "電工、空調制冷、水管等 licensed trades 是澳洲技能短缺與安全監管的交匯點。海外技工最常誤解的是：TRA skills assessment、OTSR、provisional licence、gap training 和 supervised employment 是不同階段。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "澳洲技工牌照的熱點，是 skills assessment 與 licence recognition 更緊密連接。電工尤其敏感，因為安全標準高，不能只靠海外經驗直接上手。"
+              ]
+      },
+      {
+        heading: "OTSR 是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>OTSR 記錄你已在 TRA-approved RTO assessment 中展示了對應澳洲 VET qualification 的技術能力。它不是完整澳洲牌照，而是申請 provisional licence 和後續 gap training 的入口。</p></div>"
+              ]
+      },
+      {
+        heading: "為什麼不能跳過 supervised employment",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>電工、空調制冷、水管等 licensed occupations 通常需要在監督下工作、完成澳洲 context gap training，再逐步取得正式州/領地牌照。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "海外技工不要只問『能不能移民』，要先問『到澳洲能否合法接活』。技能評估、州牌照、保險、雇主監督和工作範圍都要一起核對。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。TRA 顯示 electrician successful skills assessment 後可獲 Offshore Technical Skills Record（OTSR），再向州/領地 licensing authority 申請 provisional licence/registration/certificate。",
+        "TRA Licensing 頁面顯示 OTSR 後仍需 Australian context gap training 與 supervised employment。",
+        "DEWR 2026–27 Budget 顯示政府將投入現代化 trade skills assessment system，並可整合 occupational licensing capacity。"
+      ],
+  },
+  {
+    slug: "australia-employer-sponsorship-standard-business-sponsor-checklist",
+    title: "Australia Employer Sponsorship: What a Business Must Check Before Sponsoring a Worker",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Employer sponsorship · SBS checklist",
+    author: "留學導報編輯部",
+    summary: "A compliance-first checklist for businesses and applicants reading Australian employer sponsorship, Standard Business Sponsor status, nomination evidence, salary thresholds and professional-advice boundaries.",
+    titleZh: "什麼條件可以在澳洲給別人工作擔保？雇主擔保前的合規清單",
+    summaryZh: "澳洲工作擔保不是個人一句話能完成的事，而是一套由企業擔保資格、職位真實性、提名、薪資、招聘證據與簽證申請共同構成的流程。本文把 Standard Business Sponsor、482/186/494 常見路線與高風險邊界整理成可核對清單。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+        "australia-self-sponsorship-company-sponsor-risk-check",
+        "australia-training-visa-407-sponsorship-nomination-sequence-update",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Home Affairs — Learn about sponsoring", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/learn-about-sponsoring"],
+        ["Home Affairs — Standard Business Sponsor", "https://immi.homeaffairs.gov.au/employer-subsite/Pages/becoming-standard-business-sponsor.aspx"],
+        ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+        ["Home Affairs — Salary requirements", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482/salary-requirements"]
+      ],
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+                "This article is a general public briefing. It does not provide migration, legal, tax or employment-law advice. Businesses and applicants should check the current Home Affairs pages and consult a registered migration agent or Australian legal practitioner before acting."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先分清：雇主擔保是企業流程，不是個人承諾",
+        paragraphs: [
+                "在澳洲給海外員工做工作擔保，通常涉及企業先成為 Standard Business Sponsor，再為特定職位提交 nomination，最後由員工申請相應簽證。常見路線包括 subclass 482 Skills in Demand、186 雇主提名永居及 494 區域雇主擔保。",
+                "這裡的核心不是「某個人願不願意擔保」，而是企業是否合法營運、是否有真實職位需求、是否能支付市場薪資、是否能履行擔保義務。若只是為了簽證而製造職位，風險非常高。"
+              ]
+      },
+      {
+        heading: "企業端需要先核對的條件",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>第一，企業須是合法、持續經營並正在交易的澳洲企業，通常需要 ABN、公司或商業登記、財務與稅務記錄、業務合同、發票、租約或辦公地址等材料來支持其真實運作。</p></div>",
+                "第二，公司及相關負責人不應存在嚴重不良記錄，例如移民、勞工、稅務或合規違規。移民局會看企業是否有能力、也是否可信地履行 sponsorship obligations。",
+                "第三，提名職位需要有真實商業需求，職位內容、組織架構、工作地點、全職安排、職責描述與薪資都要能互相對得上。小企業不是不能擔保，但更要證明財務能力和職位必要性。"
+              ]
+      },
+      {
+        heading: "職位與薪資：最容易出問題的地方",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>被提名職位通常需要落在相關 skilled occupation list 或 Core Skills Occupation List 的框架內。雇主還可能需要進行 Labour Market Testing，以證明已按要求嘗試在澳洲本地招聘。</p></div>",
+                "薪資不能只看雇主願意付多少，還要符合 Annual Market Salary Rate，並達到相應收入門檻，例如 482 Core Skills stream 的 Core Skills Income Threshold。具體金額會按日期與政策調整，發布前必須以 Home Affairs 當前頁面為準。",
+                "雇主不能向被擔保人收取擔保費或回扣。這類行為不只是商業糾紛，而可能觸及移民與勞工合規問題。"
+              ]
+      },
+      {
+        heading: "給申請人和企業的低風險做法",
+        paragraphs: [
+                "企業端先建立一套 evidence pack：公司登記、ABN、財務報表、BAS 或稅務記錄、招聘廣告、組織架構、職位說明、薪資依據、僱傭合約及 SAF levy 預算。",
+                "申請人端同步準備護照、簽證歷史、學歷證明、工作經驗、英文成績、技能評估或職業註冊資料。兩邊資料要能互相支持：職位需要什麼能力，申請人就要能證明自己具備什麼能力。",
+                "若個案涉及公司新成立、親屬公司、董事或股東本人被提名、薪資來源不清或職位高度依賴申請人，應在行動前找 MARA 註冊移民代理或澳洲律師做正式評估。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-engineer-registration-2026",
+    title: "Engineer Registration",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Engineering · Registration",
+    author: "留學導報編輯部",
+    summary: "澳洲工程師不是所有州、所有工作都一樣。2026 年要關注 Engineers Australia skills assessment、Victoria professional engineer registration、Queensland RPEQ，以及 building-related engineering 的州別要求。",
+    titleZh: "工程師州註冊",
+    summaryZh: "澳洲工程師不是所有州、所有工作都一樣。2026 年要關注 Engineers Australia skills assessment、Victoria professional engineer registration、Queensland RPEQ，以及 building-related engineering 的州別要求。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026"
+      ],
+    resources: [
+        ["Engineers Australia — Migration skills assessment", "https://www.engineersaustralia.org.au/migrants/migration-skills-assessment"],
+        ["Consumer Affairs Victoria — Professional engineers", "https://www.consumer.vic.gov.au/licensing-and-registration/professional-engineers"],
+        ["Consumer Affairs Victoria — Who needs to be registered", "https://www.consumer.vic.gov.au/licensing-and-registration/professional-engineers/who-needs-to-be-registered"],
+        ["BPEQ — Registered Professional Engineers Queensland", "https://bpeq.qld.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "澳洲工程師不是所有州、所有工作都一樣。2026 年要關注 Engineers Australia skills assessment、Victoria professional engineer registration、Queensland RPEQ，以及 building-related engineering 的州別要求。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "工程師路線的熱點，是 migration skills assessment 與州執業註冊被很多人混為一談。拿到 Engineers Australia outcome letter，不等於在所有州都可提供所有 professional engineering services。"
+              ]
+      },
+      {
+        heading: "Victoria 與 Queensland 要特別查",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Victoria 已對特定工程領域實施 professional engineer registration；Queensland 長期有 RPEQ 制度。若工作涉及 building、civil、structural、fire safety 或 public safety，不能只按普通 job title 判斷。</p></div>"
+              ]
+      },
+      {
+        heading: "海外學歷要看 Accords 與 CDR",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Engineers Australia 評估時會看 Washington/Sydney/Dublin Accord、澳洲 accredited qualification 或 CDR pathway。RTO advanced diploma / associate degree 類背景也有特殊變化。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "工程師應把三張證據分開：移民用 skills assessment、州執業 registration、雇主/項目要求。哪一張缺失，都可能影響工作合法性或簽證敘事。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。Engineers Australia 是澳洲政府授權的 engineering migration skills assessment authority。",
+        "Consumer Affairs Victoria 顯示 Victoria 對特定 professional engineering services 有 mandatory registration 要求。",
+        "工程師州註冊與 migration skills assessment 不同；本文不構成工程執業或法律建議。"
+      ],
+  },
+  {
+    slug: "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
+    title: "Australia Hairdresser Pathway: RPL, Certificate III and Employer Sponsorship Need to Be Separated",
+    date: "2026-05-25",
+    category: "Australia Pathways",
+    column: "study",
+    kicker: "Australia · Trades · RPL",
+    author: "留學導報編輯部",
+    summary: "A publication-safe guide to the hairdressing route in Australia: what RPL can and cannot do, why the qualification record matters, and why migration advice must be separated from course and skills-document preparation.",
+    titleZh: "澳洲美髮師路線：RPL、Certificate III 與雇主擔保要先分清楚",
+    summaryZh: "美髮經驗可以成為澳洲技職與職業評估材料的一部分，但不能把 RPL、證書、職業清單、雇主擔保與簽證結果混成一句「包移民」。本文把可整理的材料、必須核查的官方入口與出版風險分開說清楚。",
+    relatedReadings: [
+        "uk-aus-application-documents-checklist",
+        "australia-new-zealand-provider-pathway-updates-2026"
+      ],
+    resources: [
+        ["Australia skilled occupation list", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list"],
+        ["training.gov.au qualification records", "https://training.gov.au/"],
+        ["Trades Recognition Australia", "https://www.tradesrecognitionaustralia.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "Start with the distinction",
+        paragraphs: [
+                "For hairdressers considering Australia, three things must be separated: recognition of prior learning, the Australian qualification record, and any later visa or employer-sponsorship question.",
+                "RPL may help an education or training provider assess whether past work evidence can count toward a qualification outcome. It is not, by itself, a visa grant, a job offer or a professional migration guarantee."
+              ]
+      },
+      {
+        heading: "Evidence that usually matters",
+        paragraphs: [
+                "A practical evidence pack normally includes employment references, payslips or tax records where available, photos of work, service menus, training certificates, customer or employer records, and a clear timeline of duties.",
+                "The key editorial point is evidence quality. A claim such as 'years of salon work' is weaker than dated, verifiable documents showing the work performed."
+              ]
+      },
+      {
+        heading: "Official checks before any public claim",
+        paragraphs: [
+                "Before publishing or advising, check the relevant occupation entry through the Australian Department of Home Affairs skilled occupation list, the qualification record through training.gov.au, and any skills assessment pathway through the responsible assessment body.",
+                "If the matter becomes migration advice, it should be handled by a registered migration professional or the relevant official channel."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先把三件事拆開",
+        paragraphs: [
+                "美髮師考慮澳洲路線時，最容易被混在一起的是三件事：RPL（Recognition of Prior Learning，既有經驗認定）、澳洲技職資格（例如與 Certificate III in Hairdressing 相關的培訓記錄）、以及後續是否能走雇主擔保或其他簽證路線。",
+                "RPL 的作用，是讓培訓機構或相關評估方根據過往工作證據判斷是否可抵扣部分學習或形成資格結果。它不是簽證批准，不是工作邀約，也不是「保證移民」。"
+              ]
+      },
+      {
+        heading: "美髮經驗要整理成證據，而不是口號",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>可先準備一個工作證據包：雇主推薦信、任職合同或工資 / 稅務記錄（如有）、服務項目清單、作品照片、店鋪或客戶記錄、培訓證書，以及清晰的工作時間線與職責說明。</p></div>",
+                "出版和諮詢時要避免使用「零基礎也行」「不用上課」「不用英文」「包過」等表述。更穩妥的說法是：有相關經驗者可先做材料初篩，再由合資格機構按其標準判斷。"
+              ]
+      },
+      {
+        heading: "三個官方入口先查清楚",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>第一，澳洲 Department of Home Affairs 的 skilled occupation list，用來核對職業在簽證框架中的位置：https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list。</p></div>",
+                "第二，training.gov.au，用來核對資格名稱、代碼、單元與是否仍為現行 / 被替代版本：https://training.gov.au/。",
+                "第三，Trades Recognition Australia 或相關職業評估機構，用來核對技能評估的申請要求：https://www.tradesrecognitionaustralia.gov.au/。"
+              ]
+      },
+      {
+        heading: "導報給讀者的結論",
+        paragraphs: [
+                "美髮不是不能做路線，而是要把教育、技能證據、雇主與簽證四層分開處理。先把材料做實，再談是否適合評估、是否需要補課、是否有僱主需求，以及是否需要正式移民意見。",
+                "對 OTC 內部審核而言，這類文章可以發布為「材料準備與官方核查指南」，不應發布為「無英文、無上課、直接移民」的結果承諾。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-health-vocation-pathway",
+    title: "Health and Care Careers in Australia: OTHM Qualifications and Local VET Training Routes",
+    date: "2026-05-24",
+    category: "University Pathways",
+    column: "study",
+    kicker: "澳洲醫療 · 職業培訓路線",
+    author: "留學導報編輯部",
+    summary: "A practical route map for Chinese-speaking students comparing OTHM Health and Social Care qualifications, Australian VET training and regulated health-care pathways.",
+    titleZh: "在澳洲做醫療護理：OTHM 資格與本地 VET 培訓的完整路線圖",
+    summaryZh: "本文把澳洲醫療護理職業機會、OTHM 健康與社會護理資格、澳洲本地 VET 培訓及護理執業邊界放在同一張路線圖中，幫學生判斷應從英國 OTHM、澳洲 VET 還是大學銜接開始。",
+    relatedReadings: [
+        "othm-health-social-care-australia-vet-comparison",
+        "othm-credits-australia-advanced-entry",
+        "australia-new-zealand-provider-pathway-updates-2026",
+        "otc-othm-centre-renewal-2026"
+      ],
+    resources: [
+        ["OTHM Health and Social Care", "https://othm.org.uk/subject/health-and-social-care"],
+        ["CHC33021 Certificate III in Individual Support", "https://training.gov.au/training/details/CHC33021"],
+        ["CHC43121 Certificate IV in Disability Support", "https://training.gov.au/Training/Details/CHC43121"],
+        ["HLT54121 Diploma of Nursing", "https://training.gov.au/training/details/HLT54121"],
+        ["CHC52025 Diploma of Community Services", "https://training.gov.au/training/details/CHC52025"],
+        ["AHPRA approved programs of study", "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"],
+        ["SkillSelect", "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect"]
+      ],
+    body: [
+      {
+        heading: "Why Health and Care Is One of Australia's Most Practical Career Routes",
+        paragraphs: [
+                "Australia's ageing population, disability support needs and community-care workforce demand make health and care one of the clearest long-term study and career directions for international students.",
+                "For Chinese-speaking students in the UK or planning to move to Australia, this is not only a stable employment sector. It may also connect with skilled occupation planning, depending on the specific occupation, qualification, registration body and visa route.",
+                "The practical question is not whether the sector matters, but where to start: UK OTHM, Australian VET, university advanced entry, or a regulated professional pathway."
+              ]
+      },
+      {
+        heading: "Two Qualification Systems Running in Parallel",
+        paragraphs: [
+                "Australia's VET system sits within the Australian Qualifications Framework and is delivered by TAFEs and registered training organisations. In health and care, common families include CHC community services and HLT health training package qualifications.",
+                "OTHM is a UK Ofqual-regulated awarding organisation. Its Health and Social Care qualifications run from Level 3 to Level 7 under the UK RQF framework.",
+                "These systems are not rivals. A useful way to read them is: OTHM can help open an academic progression conversation, while Australian VET is the local training route for Australian workplace competency and, where applicable, regulated pathways."
+              ]
+      },
+      {
+        heading: "OTHM Health Qualifications and Australian VET References",
+        paragraphs: [
+                "OTHM Level 3 Foundation Diploma in Health and Social Care may be compared, for planning purposes, with Australian entry-level care training such as CHC33021 Certificate III in Individual Support and HLT33115 Certificate III in Health Services Assistance.",
+                "OTHM Level 4 Diploma in Health and Social Care Management may be compared with Certificate IV-level support routes. For disability, students should check the current CHC43121 Certificate IV in Disability Support; the older CHC43115 Certificate IV in Disability has been superseded.",
+                "OTHM Level 5 Diploma or Extended Diploma in Health and Social Care Management may sit near AQF Diploma-level planning references such as HLT54121 Diploma of Nursing or CHC52025 Diploma of Community Services, but this is not direct equivalence.",
+                "OTHM Level 6 Health and Social Care Management can be compared at planning level with advanced diploma or management routes, while OTHM Level 7 is better read against Australian graduate diploma or master's-level health management study."
+              ]
+      },
+      {
+        heading: "The Most Important Clarification",
+        paragraphs: [
+                "Students sometimes see OTHM Level 5 Health and Social Care and assume it means they can immediately work as a nurse in Australia. That assumption is not safe.",
+                "Enrolled Nurse registration in Australia is regulated. Training.gov.au explains that a learner seeking registration as an enrolled nurse must complete a Diploma of Nursing program accredited by ANMAC and approved by the Nursing and Midwifery Board of Australia as an approved program of study. Students should check AHPRA's approved programs list before relying on any course.",
+                "The practical use of OTHM Level 5 in this field is usually academic entry or advanced-entry discussion with universities, not direct nursing registration."
+              ]
+      },
+      {
+        heading: "Four Route Options",
+        paragraphs: [
+                "Route A is the direct Australian employment route: study a local VET qualification such as CHC33021, a relevant Certificate IV, CHC52025 or HLT54121 through an appropriately scoped provider.",
+                "Route B is the UK-to-Australia academic route: study OTHM Level 4 or Level 5 Health and Social Care with OTC, then apply for Australian university advanced entry into a health science, nursing-related, public health or health management degree where accepted.",
+                "Route C is the management route: use OTHM Level 6 or Level 7 Health and Social Care Management to support applications to Australian postgraduate health management or community-sector management programs.",
+                "Route D is the migration-sensitive route: any skilled migration planning must be checked against Home Affairs, SkillSelect, state nomination rules and a registered MARA / OMARA migration agent."
+              ]
+      },
+      {
+        heading: "Providers to Consider",
+        paragraphs: [
+                "For VET routes, students should check public TAFE providers such as TAFE NSW, TAFE Queensland, TAFE SA, North Metropolitan TAFE, South Metropolitan TAFE, and Victorian providers such as Holmesglen Institute, Box Hill Institute and Chisholm TAFE.",
+                "Private RTOs may also offer health, individual support, disability, ageing support, community services or nursing-related training. Before enrolling, students should check RTO scope, current course code, CRICOS status for international students, placement arrangements and regulatory recognition.",
+                "For OTHM-to-university routes, universities assess credit and advanced entry case by case. Students should prepare transcripts, unit specifications, English evidence and a clear study plan."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "This article is general education information and a route-planning guide. It is not migration advice, legal advice, employment advice or professional registration advice.",
+                "Australian health-care professional registration must be confirmed with the relevant regulator, including AHPRA, NMBA and ANMAC where applicable. Course availability, fees, placement hours and provider approvals must be checked directly with official registers and institutions."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼醫療護理是澳洲最值得走的職業路線之一",
+        paragraphs: [
+                "澳洲人口老齡化正在加速，老人護理、殘疾支援、社區醫療與健康管理長期面臨人手缺口。對於正在英國或準備前往澳洲的華人學生，這意味著一條相對清晰、穩定、可長期累積的職業路線。",
+                "醫療護理不只是一份工作，它還可能與澳洲技術移民的職業規劃相連。不同職業類別，例如 Enrolled Nurse、個人護理工作者、社區服務工作者或管理類職位，分別對應不同的資格、評估機構與簽證提名邏輯。",
+                "真正需要判斷的不是「醫療護理是否值得走」，而是「從哪裡開始、走哪條路、在哪一步需要本地資格或監管機構確認」。"
+              ]
+      },
+      {
+        heading: "兩條並行的資格體系",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>在澳洲醫療護理領域，存在兩套互有關聯但性質不同的資格體系。</p></div>",
+                "第一套是澳洲 VET 體系。VET 即 Vocational Education and Training，按澳洲資歷框架（AQF）分級，由各州 TAFE 及已登記培訓機構（RTO）提供。醫療護理常見資格分為 CHC 系列（社區服務、老人護理、殘疾支援、個人支援）和 HLT 系列（衛生服務、護理及相關健康服務）。",
+                "第二套是英國 OTHM 資格體系。OTHM 是英國 Ofqual 監管的頒證機構，其健康與社會護理資格從 Level 3 延伸至 Level 7，按英國 RQF 框架認可。OTHM 的優勢在於可在英國修讀，並作為澳洲大學銜接入學或 Advanced Entry 申請的材料之一。",
+                "簡單理解：OTHM 負責開門，VET 負責落地。前者更偏學術銜接與路線準備，後者更偏澳洲本地工作能力、實習與執業環境。"
+              ]
+      },
+      {
+        heading: "OTHM 健康護理資格清單與澳洲對應",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>OTHM Level 3 Foundation Diploma in Health and Social Care，可作為層級參考，對照澳洲 CHC33021 Certificate III in Individual Support（Ageing / Disability）及 HLT33115 Certificate III in Health Services Assistance。</p></div>",
+                "OTHM Level 3 Foundation Diploma in Health and Social Care 由 6 個必修單元組成，共 60 學分，旨在為學習者在醫療及社會護理行業擔任支援工作者、高級支援工作者或護理助理職位做準備。",
+                "澳洲 CHC33021 Certificate III in Individual Support 針對老人護理、殘疾支援及個人支援等入門工作場景。training.gov.au 顯示，該資格要求學習者完成至少 120 小時的工作實踐。",
+                "OTHM Level 4 Diploma in Health and Social Care Management，可作為層級參考，對照澳洲 Certificate IV 類支援資格。老人護理方向可查看 CHC43015 Certificate IV in Ageing Support；殘疾支援方向應查看現行 CHC43121 Certificate IV in Disability Support。舊版 CHC43115 Certificate IV in Disability 已被 CHC43121 取代。",
+                "OTHM Level 5 Diploma / Extended Diploma in Health and Social Care Management，可作為層級參考，對照 HLT54121 Diploma of Nursing 及 CHC52025 Diploma of Community Services。但這只是層級參考，不代表資格可以互相替代。",
+                "OTHM Level 6 Diploma in Health and Social Care Management，可對照 Advanced Diploma 或社區服務管理方向；OTHM Level 7 Diploma in Health and Social Care Management 在澳洲 VET 體系沒有直接對應，更適合銜接 Graduate Diploma of Health Management 或 Master of Health Management 等大學課程。"
+              ]
+      },
+      {
+        heading: "最重要的一個釐清",
+        paragraphs: [
+                "許多學生看到 OTHM Level 5 Health and Social Care，會直接聯想到「我可以在澳洲做護士了」。這個理解必須糾正。",
+                "澳洲 Enrolled Nurse 的執業資格受監管。training.gov.au 對 HLT54121 Diploma of Nursing 的說明指出，若要申請成為澳洲 Enrolled Nurse 並在澳洲執業，學習者須完成由 ANMAC 認證、並由 Nursing and Midwifery Board of Australia（NMBA）批准為 approved program of study 的 Diploma of Nursing 課程，並應通過 AHPRA 核查教育提供者及課程批准狀態。",
+                "因此，OTHM Level 5 Health and Social Care 的實際用途不是執業許可，而是大學入學或 Advanced Entry 申請材料。它可以用於申請澳洲大學 Bachelor of Nursing、Bachelor of Health Science、Public Health 或 Health Management 等相關課程，但能否減免學分由澳洲大學逐案評估。",
+                "如果學生的明確目標是 Enrolled Nurse 執業，核心路線仍是澳洲本地獲認可的 HLT54121 Diploma of Nursing 或受監管機構承認的等值路線。"
+              ]
+      },
+      {
+        heading: "路線選擇指引",
+        paragraphs: [
+                "路線 A：直接在澳洲就業。適合已在澳洲、希望盡快取得本地工作資格的學生。可優先查看 CHC33021、CHC43015、CHC43121、CHC52025 或 HLT54121 等本地 VET 課程。修讀時間通常為 6 個月至 18 個月不等，具體取決於課程、校區、學習模式及實習要求。",
+                "路線 B：英國 OTHM 銜接澳洲大學。適合希望先在英國修讀 OTHM Level 4 或 Level 5 Health and Social Care，再申請澳洲大學相關學位 Advanced Entry 的學生。這條路線更長，但最終有機會取得澳洲大學學位，長期發展空間較大。",
+                "路線 C：OTHM Level 7 銜接澳洲碩士。適合已有醫療、護理、社區服務或管理背景，希望進入健康管理、醫院管理或社區服務機構管理層的人士。",
+                "路線 D：技術移民路線。部分澳洲技術移民職業類別要求澳洲本地資格、海外等值評估、工作經驗或專業註冊。此路線必須查閱 SkillSelect、Home Affairs 及各州領地提名官方頁面，並諮詢合資格 MARA / OMARA 移民代理。"
+              ]
+      },
+      {
+        heading: "主要院校與培訓機構參考",
+        paragraphs: [
+                "澳洲 VET 路線可先查看各州 TAFE 及 RTO。常見公立提供者包括 TAFE NSW、TAFE Queensland、TAFE SA、North Metropolitan TAFE、South Metropolitan TAFE，以及維州的 Holmesglen Institute、Box Hill Institute、Chisholm TAFE 等。",
+                "私立 RTO 亦可能提供老人護理、殘疾支援、個人支援、社區服務或護理相關課程。報讀前必須核查 RTO scope、課程代碼、CRICOS 狀態（如涉及國際學生簽證）、實習安排、英語要求、學費及行業認可。",
+                "如果學生走 OTHM 銜接澳洲大學路線，應提前準備成績單、資格證書、課程單元說明、英文成績、個人陳述及清晰的職業計劃。澳洲大學是否接受 Advanced Entry 或 credit transfer，由院校按個案決定。"
+              ]
+      },
+      {
+        heading: "OTC 可以如何協助",
+        paragraphs: [
+                "OTC 可協助學生整理 OTHM 資格、英國學習記錄、課程單元說明及澳洲申請文件，並根據學生目標判斷應優先看 VET、TAFE、大學 Advanced Entry 還是健康管理碩士路線。",
+                "OTC 也可以協助學生向相關院校準備 inquiry、文件清單、學分評估材料及路線比較表。但涉及澳洲移民、法律、護理註冊、職業評估或受監管建議時，應由相應合資格專業人士處理。"
+              ]
+      },
+      {
+        heading: "重要提示",
+        paragraphs: [
+                "本文所列課程資訊及院校政策以各院校、training.gov.au、AHPRA、ANMAC、NMBA、Home Affairs 及各州領地官方最新公佈為準。",
+                "澳洲醫療職業的執業資格須由相關監管機構評審確認。涉及技術移民及職業提名事項，請查閱 SkillSelect、Home Affairs 及各州領地提名官方頁面，並諮詢 MARA / OMARA 移民代理。本文不構成移民建議、法律意見、就業結果保證或執業資格認定。",
+                "OTC 為 OTHM 官方認可教學及評核中心（Centre No. DC1802235），Overseas Tutorial Centre Ltd，Companies House No. 11060519。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-ict-acs-skills-assessment-2026",
+    title: "澳洲 ICT/IT 職業評估：ACS 技能評估路線怎麼走",
+    date: "2026-07-04",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Australia · ICT · ACS skills assessment",
+    author: "留學導報編輯部",
+    summary: "海外 IT 專業人士做澳洲技術移民，多數需要 ACS（Australian Computer Society）的技能評估：判定你的學歷相關性與工作經驗是否符合 ICT 職業。本文說明評估類型、經驗扣減、職業代碼與 Professional Year。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    titleZh: "澳洲 ICT/IT 職業評估：ACS 技能評估路線怎麼走",
+    summaryZh: "海外 IT 專業人士做澳洲技術移民，多數需要 ACS（Australian Computer Society）的技能評估：判定你的學歷相關性與工作經驗是否符合 ICT 職業。本文說明評估類型、經驗扣減、職業代碼與 Professional Year。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    relatedReadings: [
+        "australia-accountant-registration-skills-assessment-2026",
+        "australia-trades-recognition-tra-2026"
+      ],
+    resources: [
+        ["ACS — Skills assessment", "https://www.acs.org.au/msa.html"],
+        ["Department of Home Affairs — Skilled visas", "https://immi.homeaffairs.gov.au/"],
+        ["ABS — ANZSCO", "https://www.abs.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "ACS 是誰、評估用在哪",
+        paragraphs: [
+                "<strong>ACS（Australian Computer Society）</strong>是澳洲 ICT 職業的指定技能評估機構，評估結果多用於技術移民（判定你是否符合某個 ICT 職業）。它評的是「你的背景是否對應該職業」，不是幫你找工作。"
+              ]
+      },
+      {
+        heading: "評估類型與經驗扣減",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>常見類型包括學歷相關的評估與 <strong>RPL（Recognition of Prior Learning）</strong>（學歷不對口者以經驗證明）。ACS 通常會扣減一段「不計入」的工作經驗年數（視學歷相關性與學位層級而定），之後的經驗才算「符合技能」的工作經驗。</p></div>"
+              ]
+      },
+      {
+        heading: "ANZSCO 職業代碼與相關性",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>你申請的 <strong>ANZSCO ICT 代碼</strong>（如 Software Engineer、Analyst Programmer、ICT Business Analyst 等）要與你的學歷與工作內容相關。相關性不足是常見退件原因，職責描述要具體、可佐證。</p></div>"
+              ]
+      },
+      {
+        heading: "Professional Year 與畢業生路線",
+        paragraphs: [
+                "在澳完成相關學位的畢業生，可能透過 <strong>Professional Year（PY）</strong>等安排取得額外分數或縮短經驗要求。不同路線適合不同背景，需按個人情況判斷。"
+              ]
+      },
+      {
+        heading: "找誰、時間與費用觀念",
+        paragraphs: [
+                "技能評估找 ACS；<strong>移民打分與簽證路線請諮詢註冊移民代理（MARA）</strong>。準備充足的職責信、payslip 與學歷文件可減少來回。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "ACS 是誰、評估用在哪",
+        paragraphs: [
+                "<strong>ACS（Australian Computer Society）</strong>是澳洲 ICT 職業的指定技能評估機構，評估結果多用於技術移民（判定你是否符合某個 ICT 職業）。它評的是「你的背景是否對應該職業」，不是幫你找工作。"
+              ]
+      },
+      {
+        heading: "評估類型與經驗扣減",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>常見類型包括學歷相關的評估與 <strong>RPL（Recognition of Prior Learning）</strong>（學歷不對口者以經驗證明）。ACS 通常會扣減一段「不計入」的工作經驗年數（視學歷相關性與學位層級而定），之後的經驗才算「符合技能」的工作經驗。</p></div>"
+              ]
+      },
+      {
+        heading: "ANZSCO 職業代碼與相關性",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>你申請的 <strong>ANZSCO ICT 代碼</strong>（如 Software Engineer、Analyst Programmer、ICT Business Analyst 等）要與你的學歷與工作內容相關。相關性不足是常見退件原因，職責描述要具體、可佐證。</p></div>"
+              ]
+      },
+      {
+        heading: "Professional Year 與畢業生路線",
+        paragraphs: [
+                "在澳完成相關學位的畢業生，可能透過 <strong>Professional Year（PY）</strong>等安排取得額外分數或縮短經驗要求。不同路線適合不同背景，需按個人情況判斷。"
+              ]
+      },
+      {
+        heading: "找誰、時間與費用觀念",
+        paragraphs: [
+                "技能評估找 ACS；<strong>移民打分與簽證路線請諮詢註冊移民代理（MARA）</strong>。準備充足的職責信、payslip 與學歷文件可減少來回。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-img-fast-pathways-2026",
+    title: "IMG Fast Pathways",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · IMG · Medical Board",
+    author: "留學導報編輯部",
+    summary: "海外醫生赴澳不是只有 AMC standard pathway。2026 年最值得關注的是 Competent Authority pathway 與 Expedited Specialist pathway：前者可能免 AMC exams，後者正按專科優先級擴展。",
+    titleZh: "海外醫生快通道",
+    summaryZh: "海外醫生赴澳不是只有 AMC standard pathway。2026 年最值得關注的是 Competent Authority pathway 與 Expedited Specialist pathway：前者可能免 AMC exams，後者正按專科優先級擴展。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["Medical Board — Competent Authority pathway", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates/Competent-Authority-Pathway/"],
+        ["Medical Board — Expedited Specialist pathway", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates/Expedited-specialist-pathway.aspx"],
+        ["Medical Board — IMG pathways", "https://www.medicalboard.gov.au/Registration/International-Medical-Graduates.aspx"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "海外醫生赴澳不是只有 AMC standard pathway。2026 年最值得關注的是 Competent Authority pathway 與 Expedited Specialist pathway：前者可能免 AMC exams，後者正按專科優先級擴展。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "澳洲醫生註冊在 2026 年的熱點，是用更清楚的 pathway 把不同背景的 IMG 分流。若你有英國、加拿大、美國、新西蘭、愛爾蘭等特定系統的考試或訓練背景，Competent Authority pathway 可能比 standard pathway 更值得先查。"
+              ]
+      },
+      {
+        heading: "快不等於簡單",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Competent Authority pathway 不等於直接 general registration。通常仍要 primary source verification、澳洲職位、provisional registration、supervised practice，以及 Board 對 position 和 supervision 的審核。</p></div>"
+              ]
+      },
+      {
+        heading: "專科醫生的焦點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Expedited Specialist pathway 是另一個高熱點，但只適用於 accepted qualifications list 上的專科資格。它不是普通醫學本科畢業生路線，也不是所有專科自動接受。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "海外醫生應先做 pathway self-assessment，再決定是否考 AMC、找職位、做 PSV 或準備專科材料。不要把『醫生短缺』理解成『任何醫生都能快速註冊』。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。Medical Board 頁面顯示 Competent Authority pathway 可通向 general registration，通常需 provisional registration 與 12 個月 supervised practice。",
+        "Expedited Specialist pathway 目前列出 anaesthesia、general practice、obstetrics and gynaecology、paediatrics、general medicine、psychiatry 等專科，並標明下一批優先專科。",
+        "醫生註冊高度個案化，本文不替代 Medical Board、Ahpra、AMC、醫院或移民專業人士判斷。"
+      ],
+  },
+  {
+    slug: "australia-locum-pharmacist-fifo-career-guide",
+    title: "Locum Pharmacist and FIFO Work in Australia: What Overseas Readers Should Check First",
+    date: "2026-05-25",
+    category: "Australia Careers",
+    column: "study",
+    kicker: "Australia · Pharmacy · Remote work",
+    author: "留學導報編輯部",
+    summary: "Locum and FIFO pharmacy roles can be attractive, especially in regional Australia, but overseas readers must first understand registration, supervision, contracts, accommodation and professional risk.",
+    titleZh: "澳洲 Locum Pharmacist 與 FIFO 工作：出發前先核對註冊、合約與偏遠地區條件",
+    summaryZh: "澳洲偏遠地區藥房常見臨時藥師與 FIFO 工作安排，但對海外讀者而言，第一步不是看日薪，而是核查 AHPRA / Pharmacy Board 註冊、工作範圍、住宿交通、保險與合約責任。",
+    relatedReadings: [
+        "australia-new-zealand-provider-pathway-updates-2026",
+        "uk-aus-application-documents-checklist"
+      ],
+    resources: [
+        ["Pharmacy Board of Australia overseas registration", "https://www.pharmacyboard.gov.au/Registration/Overseas.aspx"],
+        ["Ahpra registration information", "https://www.ahpra.gov.au/"],
+        ["Australian Department of Health and Aged Care", "https://www.health.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "What locum and FIFO usually mean",
+        paragraphs: [
+                "A locum pharmacist is usually engaged to cover temporary pharmacy staffing needs. FIFO means fly-in fly-out: the worker travels to a regional or remote site for a rostered block and then returns home.",
+                "These roles can offer higher pay or accommodation support, but the details depend on registration status, location, employer, roster, travel, insurance and contract terms."
+              ]
+      },
+      {
+        heading: "Registration is the first gate",
+        paragraphs: [
+                "Overseas-trained pharmacists should begin with the Pharmacy Board of Australia and Ahpra registration information. Without the correct registration and permission to work, salary figures and job adverts are not actionable.",
+                "Readers should also check whether the role requires community pharmacy experience, vaccinations, medication review work, rural practice confidence, or additional state-level requirements."
+              ]
+      },
+      {
+        heading: "Contract checks",
+        paragraphs: [
+                "Before accepting a locum or FIFO role, check who pays flights, local transport, accommodation, meals, professional indemnity insurance, overtime, cancellation costs and emergency cover.",
+                "Remote practice can be professionally rewarding, but it is not a casual holiday job. The pharmacist may be the most senior health professional immediately available in the community."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "Locum Pharmacist 與 FIFO 是什麼",
+        paragraphs: [
+                "Locum Pharmacist 通常指臨時藥師：藥房因休假、空缺、旺季或偏遠地區人手不足，聘請藥師短期補位。FIFO（Fly In Fly Out）則是飛到偏遠或區域地點工作一段 roster，再飛回原居地。",
+                "這類工作可能有較高時薪、住宿或交通補貼，但是否適合，取決於註冊資格、工作地點、合約、保險、偏遠地區經驗與個人承受能力。"
+              ]
+      },
+      {
+        heading: "海外讀者第一步：先查註冊",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>海外藥學背景讀者應先查 Pharmacy Board of Australia 的 overseas registration 頁面：https://www.pharmacyboard.gov.au/Registration/Overseas.aspx，以及 Ahpra 註冊要求：https://www.ahpra.gov.au/。</p></div>",
+                "沒有相應註冊與工作權利，招聘廣告上的日薪、住宿、FIFO 津貼都只是參考信息，不能直接變成可入職機會。"
+              ]
+      },
+      {
+        heading: "合約要逐項看",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>接受 locum 或 FIFO 前，至少要確認：機票誰付、本地交通誰安排、住宿是否安全、餐食是否包含、是否有 professional indemnity insurance、加班如何計算、班表取消如何補償、緊急情況由誰支援。</p></div>",
+                "偏遠地區藥房可能要求更強的獨立判斷能力。對讀者而言，這不是單純「去偏遠地區賺高薪」，而是專業責任、合規與生活安排一起評估。"
+              ]
+      },
+      {
+        heading: "可以發布的導報角度",
+        paragraphs: [
+                "本文適合作為「職業介紹與核查清單」發布，不應渲染為任何人都能立即入職。對有藥學背景的讀者，正確順序是：核查註冊、整理學歷與實習 / 工作證據、了解州和雇主要求，再看具體招聘機會。",
+                "如涉及簽證、職業註冊、執業範圍或保險責任，應以官方機構與合資格專業人士意見為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+    title: "Australia Migration Program 2026–27: 185,000 Places and an Onshore Tilt — What It Means for Students and Skilled Applicants",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Budget 2026–27 · Onshore prioritisation",
+    author: "留學導報編輯部",
+    summary: "A clear, practical briefing on the 2026–27 permanent Migration Program planning level (185,000) and the policy direction to prioritise onshore applicants, plus what students, graduates and skilled applicants can do to reduce avoidable risk.",
+    titleZh: "澳洲 2026–27 永居名額與「境內優先」方向：留學生與技術路線該怎麼讀懂？",
+    summaryZh: "2026–27 澳洲永居規劃名額維持 185,000，並明確把更多名額優先配置給已在澳洲境內的申請人。本文用「可操作」的方式解讀：對留學生、485 畢業生、482 雇主擔保與技術移民路線，這些數字可能意味著什麼，以及你現在可以做哪些準備來降低不確定性。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "australia-employer-sponsorship-standard-business-sponsor-checklist",
+        "australia-self-sponsorship-company-sponsor-risk-check",
+        "australia-training-visa-407-sponsorship-nomination-sequence-update",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Home Affairs — Migration Program planning levels", "https://immi.homeaffairs.gov.au/what-we-do/migration-program-planning-levels"],
+        ["Australian Government — Budget 2026–27", "https://budget.gov.au/index.htm"],
+        ["Budget downloads (Budget papers)", "https://budget.gov.au/content/downloads.htm"]
+      ],
+    body: [
+      {
+        heading: "What was announced (planning level + direction, not a guarantee)",
+        paragraphs: [
+                "Australia’s 2026–27 permanent Migration Program planning level is set at 185,000 places, with an approximate 70:30 split between Skilled and Family streams. Planning levels are program settings, not an approval guarantee for any individual application.",
+                "A key direction is prioritising onshore applicants: 129,590 places are allocated to migrants already living in Australia, with 55,110 places available offshore (plus a small Special Eligibility allocation).",
+                "This means the practical competition picture can differ depending on whether you are onshore or offshore, and which visa pathway you are pursuing."
+              ]
+      },
+      {
+        heading: "Why “onshore prioritisation” matters for real applicants",
+        paragraphs: [
+                "When the system signals onshore priority, applicants already in Australia may see relatively clearer transition pathways — but only if they meet visa criteria, have clean documentation, and can satisfy skills, work and English requirements.",
+                "Offshore applicants should expect that invitations and processing capacity may concentrate on fewer cohorts (for example, highly skilled roles, employer-sponsored cases, or clearly shortage-linked occupations), but the exact impact varies by year and by instrument.",
+                "The most important mindset shift is to treat your plan as a sequence: temporary status management → evidence readiness → eligibility checks → application timing. A single missing document can cost months."
+              ]
+      },
+      {
+        heading: "A practical checklist for students, graduates and skilled applicants (next 6–12 weeks)",
+        paragraphs: [
+                "Build a simple evidence pack: passport + visa history, qualification documents, translated transcripts, employment evidence (contracts, payslips, tax summaries where applicable), and updated English test results where required.",
+                "Read official sources first, then map your pathway: Home Affairs program settings, your visa subclass page, and any state/territory nomination requirements (for points-tested routes). Save screenshots or PDFs of key rules you rely on.",
+                "Do a “realism check” on timing and costs: skills assessment lead times, English test validity windows, and the risk of policy changes. If you need professional advice, use a registered Australian migration agent (MARA) or lawyer."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "Avoid promises like “this policy guarantees PR” or “onshore means automatic success”. Outcomes depend on eligibility, evidence, quotas, processing priorities and the overall applicant pool.",
+                "Watch updates around: detailed category allocations, points-test settings, state nomination rules, and employer-sponsored policy instruments. These details often come later than headline planning-level announcements.",
+                "For high-stakes decisions (course choice, visa timing, relocation), rely on official pages and dated instruments, not social-media summaries."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先搞清楚：規劃名額是「方向」，不是對個人的承諾",
+        paragraphs: [
+                "澳洲公布 2026–27 永居（Permanent Migration Program）規劃名額為 185,000，並維持大約 70:30 的技術類與家庭類比例。要特別注意：規劃名額是政府的年度配額設定，並不等於任何人「一定會批」。",
+                "本次最值得關注的訊號是「境內優先」：公開信息指出，129,590 個名額將優先配置給已在澳洲境內居住的人士，境外名額為 55,110（另有少量 Special Eligibility）。",
+                "因此，同樣是技術移民或雇主擔保，境內／境外的競爭環境與處理節奏可能不同；不同子類別也會呈現不同的實際體感。"
+              ]
+      },
+      {
+        heading: "為什麼「境內優先」會改變你的策略讀法",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>當系統更偏向境內申請人時，人在澳洲的申請者可能更容易形成「可持續的轉換路徑」——但前提是你確實符合條件、材料乾淨、英文與工作證據能對得上，以及能跟上政策與時間線。</p></div>",
+                "境外申請者則要更務實：邀請輪次與處理資源可能集中於更少的群體（例如高技能、雇主擔保或明確短缺的職位），但影響程度會因年度細分配額與實施文件而異。",
+                "最重要的心態轉換是把移民路線視為「一段流程」：臨時身份管理 → 證據準備 → 資格核對 → 時點選擇。很多延誤不是分數不夠，而是證據不齊或版本不一致。"
+              ]
+      },
+      {
+        heading: "留學生、485、482 與技術路線：接下來 6–12 週可做的清單",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>做一套最小可用的 evidence pack：護照與簽證歷史、學歷文件、成績單與翻譯件、就業證據（合同、工資單、稅務文件如適用）、以及必要時更新的英文成績（注意有效期）。</p></div>",
+                "先看官方，再做路線對照：Home Affairs 的規劃與優先處理信息、你對應子類別簽證頁面、以及州／領地提名要求（如走 190/491 等分數制）。把你依賴的規則截圖或存成 PDF，保留日期。",
+                "做一次「現實校準」：技能評估的等待時間、英文考試有效期、政策變動風險與整體成本。若涉及高風險決策，建議找澳洲註冊移民代理（MARA）或律師取得個案意見。"
+              ]
+      },
+      {
+        heading: "合規邊界：避免保證式說法，重點關注哪些後續更新",
+        paragraphs: [
+                "避免把政策訊號說成結果保證，例如「境內優先＝必拿 PR」。結果取決於資格條件、證據、年度配額、處理優先級與申請池競爭。",
+                "接下來需要關注的通常包括：更細的類別配額拆分、分數制度與打分細則、州／領地提名政策、以及雇主擔保相關的實施文件與門檻更新。",
+                "做重大決策（選課、簽證時點、搬遷）時，盡量依據官方頁面與有日期的政策文件，不要只依賴社交媒體或二手解讀。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-nursing-anmac-2026",
+    title: "Nursing Skills Check",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Nursing · ANMAC",
+    author: "留學導報編輯部",
+    summary: "護理仍是澳洲高關注職業，但 2026 年真正要分清的是：NMBA 註冊、ANMAC skilled migration assessment、Ahpra 英語標準與僱主要求不是同一件事。",
+    titleZh: "護士技能評估",
+    summaryZh: "護理仍是澳洲高關注職業，但 2026 年真正要分清的是：NMBA 註冊、ANMAC skilled migration assessment、Ahpra 英語標準與僱主要求不是同一件事。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["ANMAC — Skilled Migrants", "https://anmac.org.au/skilled-migrants"],
+        ["ANMAC — Full Skills Assessment", "https://anmac.org.au/skilled-migrants/full-skills-assessment"],
+        ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/International.aspx"],
+        ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "護理仍是澳洲高關注職業，但 2026 年真正要分清的是：NMBA 註冊、ANMAC skilled migration assessment、Ahpra 英語標準與僱主要求不是同一件事。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "很多人把『澳洲護士』簡化成讀護理或考英文，但實際至少有四層：你是否能向 NMBA/Ahpra 申請註冊、是否需要 ANMAC skills assessment、是否符合簽證與職業清單、是否能滿足僱主和州要求。"
+              ]
+      },
+      {
+        heading: "ANMAC 不是 NMBA",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>ANMAC 常用於 skilled migration assessment；NMBA/Ahpra 則關乎能否作為 nurse 或 midwife 在澳洲註冊。兩者文件相似但目的不同，不能互相替代。</p></div>"
+              ]
+      },
+      {
+        heading: "最容易卡住的材料",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>常見卡點包括英語成績、註冊歷史、工作證明、學歷與課程內容、良好品行、身份文件、海外註冊證明與是否有足夠 recent practice。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "若你把護理當移民路線，應先畫出『註冊可行性』，再談簽證。若註冊本身不穩，後面的 PR 敘事會很脆弱。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。ANMAC Skilled Migrants 頁面顯示其處理 nursing/midwifery/health care qualifications assessment for migration purposes。",
+        "ANMAC Full Skills Assessment 頁面提示英語測試日期與有效性需按其政策核對；NMBA/Ahpra 註冊是另一套流程。",
+        "本文不構成護理註冊、技能評估、就業或簽證建議。"
+      ],
+  },
+  {
+    slug: "australia-occupational-therapy-2026",
+    title: "OT New Process",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Occupational Therapy · Ahpra",
+    author: "留學導報編輯部",
+    summary: "國際職能治療師赴澳流程在 2025 年底出現重要調整。OT Council 已不再接受舊 Stage 1 申請，國際資格先由 Ahpra 評估是否可接受，再視情況進入 supervised practice 及 competence assessment。",
+    titleZh: "職能治療新流程",
+    summaryZh: "國際職能治療師赴澳流程在 2025 年底出現重要調整。OT Council 已不再接受舊 Stage 1 申請，國際資格先由 Ahpra 評估是否可接受，再視情況進入 supervised practice 及 competence assessment。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["Occupational Therapy Council — Assessment", "https://www.otcouncil.com.au/assessment/"],
+        ["Occupational Therapy Board / Ahpra", "https://www.occupationaltherapyboard.gov.au/"],
+        ["OT Council — Assessment of competence notes", "https://www.otcouncil.com.au/wp-content/uploads/Assessment-of-competence-explanatory-notes.pdf"],
+        ["Ahpra — Accepted English language tests", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/Accepted-English-language-tests.aspx"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "國際職能治療師赴澳流程在 2025 年底出現重要調整。OT Council 已不再接受舊 Stage 1 申請，國際資格先由 Ahpra 評估是否可接受，再視情況進入 supervised practice 及 competence assessment。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "職能治療的最大熱點，是舊 Stage 1 思維不能再照搬。2025 年 10 月 27 日後，國際資格評估與註冊 pathway 的入口發生變化。"
+              ]
+      },
+      {
+        heading: "先 Ahpra，再看 competence",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>現在的核心是：國際職能治療資格先由 Ahpra/OTBA 判斷是否可接受；若不能直接滿足 general registration，可能要在 limited registration 和 supervised practice 中完成 competence assessment。</p></div>"
+              ]
+      },
+      {
+        heading: "材料不能只準備成績單",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>申請人通常要準備資格、課程、實習、註冊歷史、英語、身份、履歷和監督安排相關資料。僅有海外畢業證不代表可直接入職。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "OT 路線應先查新流程，再查職位和簽證。不要買舊版 Stage 1 補習或模板，也不要把過期流程當成 2026 年策略。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。OT Council assessment 頁面顯示因 2025-10-27 起新 registration pathways 與 international qualification assessments，舊 Stage 1 applications 已不再接受。",
+        "頁面說明 internationally qualified occupational therapists 須由 Ahpra 評估 qualification 是否 accepted for general registration；部分申請人可能需在 limited registration 下完成 competence assessment during supervised practice。",
+        "職能治療屬 Ahpra 監管職業，本文不構成註冊建議。"
+      ],
+  },
+  {
+    slug: "australia-pharmacist-opra-2026",
+    title: "Pharmacist OPRA",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Pharmacy · OPRA",
+    author: "留學導報編輯部",
+    summary: "海外藥劑師 2026 年最常被問到的是 OPRA。KAPS 已被 OPRA 取代，知識流、能力流、CAOP、intern written exam、provisional registration 需要分開理解。",
+    titleZh: "藥劑師 OPRA",
+    summaryZh: "海外藥劑師 2026 年最常被問到的是 OPRA。KAPS 已被 OPRA 取代，知識流、能力流、CAOP、intern written exam、provisional registration 需要分開理解。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["Australian Pharmacy Council — Skills assessment", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/"],
+        ["Australian Pharmacy Council — OPRA exam", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/knowledge-stream/opra-exam"],
+        ["Australian Pharmacy Council — CAOP exam", "https://www.pharmacycouncil.org.au/pharmacist/skills-assessment/competency-stream/"],
+        ["Australian Pharmacy Council — OPRA guide", "https://www.pharmacycouncil.org.au/resources/opra-exam-guide-and-sample-content/"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "海外藥劑師 2026 年最常被問到的是 OPRA。KAPS 已被 OPRA 取代，知識流、能力流、CAOP、intern written exam、provisional registration 需要分開理解。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "藥劑師路線的熱點是 OPRA。對很多非澳洲、非加英美愛新等背景的海外藥劑師來說，OPRA 是知識流中的關鍵一步。"
+              ]
+      },
+      {
+        heading: "不要把 OPRA 當唯一終點",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>OPRA 考的是 biomedical、pharmaceutical、clinical sciences 的 readiness。它通常只是通往 provisional registration、internship 和後續考核的一部分，不是通過後就能獨立執業。</p></div>"
+              ]
+      },
+      {
+        heading: "CAOP 與 OPRA 分清楚",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>CAOP 面向特定 Competency Stream 背景，OPRA 面向 Knowledge Stream。選錯 stream，會浪費時間和費用。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "藥劑路線要先查 APC stream，再查 Pharmacy Board registration，再排英語、實習與簽證。不要只問『OPRA 難不難』，要問整條註冊路線是否能走完。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。APC 頁面顯示 OPRA exam 取代 KAPS，並為 Knowledge Stream 的重要考試。",
+        "APC 顯示 CAOP 主要服務 Competency Stream；2026 CAOP exam conditions 已更新。",
+        "APC 明確說其不決定 pharmacist registration eligibility；註冊仍須查 Pharmacy Board / Ahpra。"
+      ],
+  },
+  {
+    slug: "australia-physio-apep-2026",
+    title: "Physio APEP",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Physiotherapy · APEP",
+    author: "留學導報編輯部",
+    summary: "海外物理治療師 2026 年要留意 Australian Physiotherapy Council 的新 pathway 與費用變化。APEP、FLYR、Express FLYR、limited registration 與 Ahpra general registration 需要一起看。",
+    titleZh: "物理治療 APEP",
+    summaryZh: "海外物理治療師 2026 年要留意 Australian Physiotherapy Council 的新 pathway 與費用變化。APEP、FLYR、Express FLYR、limited registration 與 Ahpra general registration 需要一起看。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-occupational-therapy-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["Australian Physiotherapy Council — Getting Started", "https://physiocouncil.com.au/international-physiotherapists/getting-started"],
+        ["Australian Physiotherapy Council — Fees and processing times", "https://physiocouncil.com.au/international-physiotherapists/fees-and-processing-times"],
+        ["Australian Physiotherapy Council — Written Assessment", "https://physiocouncil.com.au/international-physiotherapists/australian-physiotherapy-entry-pathway/written-assessment"],
+        ["Australian Physiotherapy Council — APEP launch note", "https://physiocouncil.com.au/insights/innovating-physiotherapy-assessment"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "海外物理治療師 2026 年要留意 Australian Physiotherapy Council 的新 pathway 與費用變化。APEP、FLYR、Express FLYR、limited registration 與 Ahpra general registration 需要一起看。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "物理治療師的考牌熱點，是 Australian Physiotherapy Council 的 assessment pathways 更新。APEP 把部分流程遠程化，但仍保留嚴格的知識、能力和臨床實作要求。"
+              ]
+      },
+      {
+        heading: "費用與時間要先算",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Council 頁面列出 2026 年費用，APEP 全流程成本不低，且 written assessment 有固定考期與截止日。對海外申請人來說，時間線比單次考試更重要。</p></div>"
+              ]
+      },
+      {
+        heading: "limited registration 的角色",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>部分 pathway 可能通向 limited registration，使申請人在監督下取得澳洲經驗，再推進 general registration。這需要職位、supervision 和 Board 要求配合。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "物理治療不是單靠學歷等同。先查你是否符合 eligibility，再決定走 APEP、FLYR 或其他 pathway；同時把英語、職位和簽證安排放進同一張表。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。Australian Physiotherapy Council 是海外 qualified physiotherapists 的 assessing authority。",
+        "APC/Physio Council 頁面顯示 assessment fee 自 2026-01-05 起調整，APEP 包含 Eligibility Assessment、Cultural Safety Training、Written Assessment、Capability Assessment、Clinical Workshop 等階段。",
+        "物理治療在澳洲仍需 Ahpra/Physiotherapy Board 註冊；本文不替代官方評估。"
+      ],
+  },
+  {
+    slug: "australia-property-investment-tax-basics-2026",
+    title: "澳洲物業投資的稅務基本盤：負扣稅、資本利得稅與土地稅",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "Australia · Property investment · Tax basics",
+    author: "留學導報編輯部",
+    summary: "投資物業前先分清三種稅：收租（租金所得）、增值（資本利得稅 CGT）與持有（各州土地稅）。負扣稅是稅務機制不是回報保證；外國居民另有印花稅與土地稅附加。本文為一般認識，以 ATO 與合資格會計師為準。",
+    titleZh: "澳洲物業投資的稅務基本盤：負扣稅、資本利得稅與土地稅",
+    summaryZh: "投資物業前先分清三種稅：收租（租金所得）、增值（資本利得稅 CGT）與持有（各州土地稅）。負扣稅是稅務機制不是回報保證；外國居民另有印花稅與土地稅附加。本文為一般認識，以 ATO 與合資格會計師為準。",
+    relatedReadings: [
+        "australia-trust-guide",
+        "australia-superannuation-new-migrants-2026"
+      ],
+    resources: [
+        ["ATO 澳洲稅務局", "https://www.ato.gov.au/"],
+        ["FIRB 外國投資審查", "https://firb.gov.au/"],
+        ["Moneysmart（政府理財資訊）", "https://moneysmart.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "先分清三種稅：收租、增值、持有",
+        paragraphs: [
+                "投資物業會碰到的稅，大致分三類：<strong>收租</strong>階段（租金收入計入應稅所得，相關開支可扣除）、<strong>增值</strong>階段（出售時的資本利得稅 CGT）、以及<strong>持有</strong>階段（各州對投資物業徵收的土地稅 land tax）。三者規則不同，先分清楚再談節稅。",
+                "先把角色定義好：物業是自住還是投資，直接決定適用哪些扣除與豁免。"
+              ]
+      },
+      {
+        heading: "負扣稅（negative gearing）是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>當投資物業的可扣除開支（含貸款利息、維修、管理費、折舊等）大於當年租金收入，形成的虧損可用來抵減你其他的應稅收入，這就是負扣稅。它是一種稅務機制，不是投資回報的保證。</p></div>",
+                "利率、租金、空置率與房價都會改變實際結果。把「省稅」當成買房的唯一理由，是常見的誤區。"
+              ]
+      },
+      {
+        heading: "資本利得稅（CGT）重點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>出售投資物業的增值部分要計 CGT。個人持有滿 12 個月，通常可享 50% CGT 折扣；主要自住房一般適用 main residence exemption；但外國稅務居民的規則不同，可能不適用折扣。</p></div>",
+                "保留購入、裝修、賣出的完整成本記錄（cost base），會直接影響最終應稅的增值金額。"
+              ]
+      },
+      {
+        heading: "外國居民：附加印花稅與土地稅",
+        paragraphs: [
+                "多個州對外國購買者徵收印花稅附加（foreign purchaser surcharge）與土地稅附加（land tax surcharge），稅率各州不同；購買特定住宅物業可能還需經 FIRB（外國投資審查委員會）審批。",
+                "身分（公民、PR、臨時簽證、非居民）不同，適用規則差異很大，購買前務必先確認自己的稅務居民身分與州別規定。"
+              ]
+      },
+      {
+        heading: "報稅與該找誰",
+        paragraphs: [
+                "做好記錄：租金、各項開支、貸款利息、折舊表（depreciation schedule）等。報稅與結構安排請找<strong>註冊稅務代理（registered tax agent）或會計師</strong>；重大決定前諮詢合資格顧問。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務或投資意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。稅率、供款上限、州法規與門檻每年可能變動；具體情況請以 ATO、相關政府部門及合資格會計師、註冊稅務代理或持牌財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先分清三種稅：收租、增值、持有",
+        paragraphs: [
+                "投資物業會碰到的稅，大致分三類：<strong>收租</strong>階段（租金收入計入應稅所得，相關開支可扣除）、<strong>增值</strong>階段（出售時的資本利得稅 CGT）、以及<strong>持有</strong>階段（各州對投資物業徵收的土地稅 land tax）。三者規則不同，先分清楚再談節稅。",
+                "先把角色定義好：物業是自住還是投資，直接決定適用哪些扣除與豁免。"
+              ]
+      },
+      {
+        heading: "負扣稅（negative gearing）是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>當投資物業的可扣除開支（含貸款利息、維修、管理費、折舊等）大於當年租金收入，形成的虧損可用來抵減你其他的應稅收入，這就是負扣稅。它是一種稅務機制，不是投資回報的保證。</p></div>",
+                "利率、租金、空置率與房價都會改變實際結果。把「省稅」當成買房的唯一理由，是常見的誤區。"
+              ]
+      },
+      {
+        heading: "資本利得稅（CGT）重點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>出售投資物業的增值部分要計 CGT。個人持有滿 12 個月，通常可享 50% CGT 折扣；主要自住房一般適用 main residence exemption；但外國稅務居民的規則不同，可能不適用折扣。</p></div>",
+                "保留購入、裝修、賣出的完整成本記錄（cost base），會直接影響最終應稅的增值金額。"
+              ]
+      },
+      {
+        heading: "外國居民：附加印花稅與土地稅",
+        paragraphs: [
+                "多個州對外國購買者徵收印花稅附加（foreign purchaser surcharge）與土地稅附加（land tax surcharge），稅率各州不同；購買特定住宅物業可能還需經 FIRB（外國投資審查委員會）審批。",
+                "身分（公民、PR、臨時簽證、非居民）不同，適用規則差異很大，購買前務必先確認自己的稅務居民身分與州別規定。"
+              ]
+      },
+      {
+        heading: "報稅與該找誰",
+        paragraphs: [
+                "做好記錄：租金、各項開支、貸款利息、折舊表（depreciation schedule）等。報稅與結構安排請找<strong>註冊稅務代理（registered tax agent）或會計師</strong>；重大決定前諮詢合資格顧問。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務或投資意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。稅率、供款上限、州法規與門檻每年可能變動；具體情況請以 ATO、相關政府部門及合資格會計師、註冊稅務代理或持牌財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-self-sponsorship-company-sponsor-risk-check",
+    title: "Australia Self-Sponsorship Through Your Own Company: Why It Is High Risk",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Self-sponsorship · Risk check",
+    author: "留學導報編輯部",
+    summary: "A cautious briefing on Australian self-sponsorship through a Pty Ltd company, focusing on genuine position evidence, employer-employee relationship, business substance and professional review.",
+    titleZh: "在澳洲自己開公司自擔保可行嗎？先看這份高風險核對清單",
+    summaryZh: "澳洲自擔保常被簡化成「開一家公司擔保自己」，但實務上會面臨職位真實性、公司獨立營運、雇主—員工關係、薪資能力與商業實質等審查。本文只作風險教育，不建議讀者自行 DIY。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+        "australia-employer-sponsorship-standard-business-sponsor-checklist",
+        "australia-training-visa-407-sponsorship-nomination-sequence-update",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Home Affairs — Become a sponsor", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor"],
+        ["Home Affairs — Standard Business Sponsor", "https://immi.homeaffairs.gov.au/employer-subsite/Pages/becoming-standard-business-sponsor.aspx"],
+        ["Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx"],
+        ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+                "Self-sponsorship scenarios are fact-sensitive and high risk. This public article explains issues to check before seeking professional advice; it is not a route recommendation."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "自擔保不是魔法公式",
+        paragraphs: [
+                "所謂 self-sponsorship，通常指申請人通過自己控制或參與的澳洲公司，由公司作為雇主提名自己擔任某一職位。從法律結構上看，Pty Ltd 有限公司與個人是不同法律實體；但從移民審查角度看，這種安排會被高度審視。",
+                "如果公司只是為了簽證而成立，沒有真實營運、沒有客戶、沒有收入、沒有獨立管理能力，或職位本身並非商業必需，拒簽風險很高。"
+              ]
+      },
+      {
+        heading: "Sole trader 通常不是合適結構",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>獨資或自僱模式很難形成清晰的雇主與員工關係。雇主擔保需要一個能提名、監督、支付薪資並履行擔保義務的雇主實體。</p></div>",
+                "因此，自擔保討論中常見的是 Pty Ltd 有限公司結構。但公司存在本身並不等於可行，審查重點仍是商業實質與職位真實性。"
+              ]
+      },
+      {
+        heading: "四個核心風險點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>第一，職位是否真實。職位應是公司業務真正需要，而不是為某個人量身定做的簽證空缺。職責、職業清單、招聘證據、業務計劃和組織架構要互相支持。</p></div>",
+                "第二，公司是否有財務能力。公司需要能支付符合市場水平和收入門檻的薪資，並能承擔 SAF levy、會計、合規和營運成本。新公司或低營收公司會面臨更重的證據壓力。",
+                "第三，雇主—員工關係是否成立。如果申請人同時是唯一董事、唯一股東、唯一員工，且沒有人能有效監督或解雇他，案件會非常敏感。",
+                "第四，資金流是否清晰。若薪資實質上來自申請人自己循環支付，或公司收入與薪資承擔不匹配，會削弱案件可信度。"
+              ]
+      },
+      {
+        heading: "比較務實的準備方式",
+        paragraphs: [
+                "在尋求專業意見前，先整理公司材料：ABN/ACN、ASIC 記錄、BAS、稅表、銀行流水、客戶合同、發票、租約、業務計劃、員工或承包商記錄、招聘材料與職位說明。",
+                "同時整理個人材料：學歷、工作經驗、英文、職業資格、技能評估或註冊要求。若公司需求和個人能力不能自然對接，不應勉強包裝。",
+                "這類案件不適合自行操作。應先讓 MARA 註冊移民代理或澳洲律師審查公司結構、職位、薪資、證據與替代路線。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-social-work-registration-2026",
+    title: "Social Work Registration",
+    date: "2026-06-06",
+    category: "Australia Licensing",
+    column: "licensing",
+    kicker: "Australia · Social Work · SA registration",
+    author: "留學導報編輯部",
+    summary: "澳洲社工長期不像 Ahpra 職業那樣全國註冊，但 South Australia 正推進 statutory registration。對社工學生、雇主和跨州服務者來說，2026 年要重新理解 title protection、AASW assessment 和州註冊。",
+    titleZh: "社工註冊轉向",
+    summaryZh: "澳洲社工長期不像 Ahpra 職業那樣全國註冊，但 South Australia 正推進 statutory registration。對社工學生、雇主和跨州服務者來說，2026 年要重新理解 title protection、AASW assessment 和州註冊。",
+    relatedReadings: [
+        "australia-ahpra-english-2026",
+        "australia-img-fast-pathways-2026",
+        "australia-nursing-anmac-2026",
+        "australia-pharmacist-opra-2026",
+        "australia-physio-apep-2026",
+        "australia-occupational-therapy-2026"
+      ],
+    resources: [
+        ["SWRB SA — Introducing Registration", "https://swrb.sa.gov.au/registration/registration/Introducing-Registration"],
+        ["SWRB SA — How to apply for registration", "https://www.swrb.sa.gov.au/registration/how-to-register/how-to-register"],
+        ["SWRB SA — Prescribed Qualifications", "https://www.swrb.sa.gov.au/registration/registration/qualifications"],
+        ["AASW — Migration and eligibility assessment", "https://www.aasw.asn.au/careers-study/assessment-of-social-work-qualifications-international-or-australian-for-migration-and-or-employment-purposes/"]
+      ],
+    body: [
+      {
+        heading: "Licensing hotspot",
+        paragraphs: [
+                "澳洲社工長期不像 Ahpra 職業那樣全國註冊，但 South Australia 正推進 statutory registration。對社工學生、雇主和跨州服務者來說，2026 年要重新理解 title protection、AASW assessment 和州註冊。",
+                "This briefing is written for Chinese-speaking students, migrants and career changers who need to separate qualification study, skills assessment, registration and workplace licensing before making a decision."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "熱點在哪裡",
+        paragraphs: [
+                "南澳社工註冊是 2026 年職業考牌最值得看的變化之一。它把 social worker title、social work services、雇主義務和註冊類別放進法定框架。"
+              ]
+      },
+      {
+        heading: "AASW 與州註冊要分清",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>AASW assessment 常用於海外資格等同性、migration eligibility 或 employment purposes；SWRB SA 是南澳法定註冊。兩者相關，但不是同一個機構、同一個目的。</p></div>"
+              ]
+      },
+      {
+        heading: "跨州與遠程服務也要小心",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>SWRB SA 提醒，是否需要註冊可能看服務對象所在地，而不只是工作者住在哪裡。若向南澳客戶提供 telehealth 或 online social work services，也要核對義務。</p></div>"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "社工路線不能只看移民職業清單。若未來要在 regulated environment 中使用 social worker title，應提前整理學歷、AASW assessment、supervision、CPD 和雇主職位名稱。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-06-06。SWRB SA 頁面顯示 scheme opens 後 delivering social work services 或使用 title social worker 可能需要註冊，並有 full/provisional/limited categories。",
+        "SWRB SA prescribed qualifications 頁面說明海外資格需由 AASW positive assessment 才可被接受。",
+        "社工註冊在澳洲具有州別差異；本文不構成法律、註冊或僱傭建議。"
+      ],
+  },
+  {
+    slug: "australia-student-visa-2026-npl-md115-priority-processing",
+    title: "Australia Student Visa 2026: NPL 295,000, MD115 and What Offshore Applicants Should Know",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "study",
+    kicker: "Student visa · NPL 2026 · MD115",
+    author: "留學導報編輯部",
+    summary: "A practical briefing on Australia’s 2026 National Planning Level of 295,000 new international student commencements, Ministerial Direction 115, offshore student visa processing, and complete-file preparation.",
+    titleZh: "澳洲 2026 學生簽證不是簡單「擴招」：NPL 295,000 與 MD115 優先處理怎麼看",
+    summaryZh: "澳洲 2026 年國際學生 National Planning Level 為 295,000，比 2025 年增加 25,000。但這不是一句「名額放開」就能概括的消息。本文用公開官方資料說明 NPL、MD115、境外學生簽證處理優先級與材料完整性，幫助學生和家長把申請節奏看清楚。",
+    relatedReadings: [
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+        "australia-employer-sponsorship-standard-business-sponsor-checklist",
+        "australia-self-sponsorship-company-sponsor-risk-check",
+        "australia-training-visa-407-sponsorship-nomination-sequence-update",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Australian Department of Education — A managed system for international education", "https://www.education.gov.au/managed-system-international-education-2026"],
+        ["Study Australia — Student visa processing update", "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-processing-update"],
+        ["Home Affairs — Student visa (subclass 500)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"],
+        ["Home Affairs — Check twice, submit once", "https://immi.homeaffairs.gov.au/help-support/applying-online-or-on-paper/online/check-twice-submit-once"]
+      ],
+    body: [
+      {
+        heading: "The headline: 295,000 is a managed-growth setting, not a personal visa guarantee",
+        paragraphs: [
+                "Australia’s 2026 National Planning Level (NPL) for new international student commencements is 295,000, which is 25,000 higher than the 2025 level. This is good news for the sector, but it should not be read as an individual visa guarantee.",
+                "The official framing is managed growth: the government is trying to keep international education open while controlling processing pressure, provider allocation and system integrity.",
+                "For students and families, the practical question is not only “is Australia accepting more students?” but also “which provider, which intake, which course level, and how complete is the visa file?”"
+              ]
+      },
+      {
+        heading: "What MD115 changes in the real application journey",
+        paragraphs: [
+                "Study Australia states that Ministerial Direction 115 (MD115) replaced MD111 for 2026 offshore Student visa processing. The new system affects offshore Student visa applications, not every possible student-related situation.",
+                "The priority system works through provider allocation progress. In plain terms, where and when a student applies can affect processing priority, even when the formal visa requirements remain the same.",
+                "This is why applicants should treat course selection, provider choice and lodgement timing as one file strategy, rather than three unrelated decisions."
+              ]
+      },
+      {
+        heading: "What applicants can do now",
+        paragraphs: [
+                "First, build a clean application timeline: offer, acceptance, CoE, payment record, OSHC, financial evidence, Genuine Student explanation and supporting documents should tell one coherent story.",
+                "Second, check the provider and course logic before paying. A cheaper or faster option may still create questions if the course level, study history and future plan do not connect clearly.",
+                "Third, lodge a complete file where possible. Study Australia explicitly warns that missing or incorrect information can delay processing and may lead to refusal."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "OTC can help students and families read the education pathway: course fit, provider comparison, document checklist, study-plan logic, family communication and preparation for official requirements.",
+                "OTC does not guarantee visa outcomes and this article is not migration legal advice. Where a case involves refusal history, complex visa status, high-risk financial evidence or legal questions, applicants should consult a registered Australian migration agent or qualified legal practitioner.",
+                "The strongest plan is evidence-first: understand the official system, choose a defensible course, prepare documents early and avoid last-minute storytelling."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先看清標題：295,000 是「管理式增長」，不是個人簽證保證",
+        paragraphs: [
+                "澳洲 2026 年國際學生 National Planning Level（NPL）為 295,000，比 2025 年增加 25,000。這對市場是利好，但不能簡單理解為「澳洲學生簽證全面放開」或「申請就會批」。",
+                "官方說法的核心是 managed growth，也就是在繼續歡迎國際學生的同時，管理處理速度、院校分配、住宿壓力與整體系統完整性。",
+                "對學生和家長來說，真正要問的不是單一句「澳洲是不是擴招」，而是：你選的是哪所學校、哪個 intake、哪個課程層級、你的簽證材料是否完整且邏輯一致。"
+              ]
+      },
+      {
+        heading: "MD115 對境外學生申請意味著什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>Study Australia 公開說明，2026 年境外 Student visa 申請處理中，Ministerial Direction 115（MD115）取代了 2025 年使用的 MD111。這套系統主要影響境外遞交的學生簽證申請。</p></div>",
+                "MD115 的重點不是把簽證要求全部改掉，而是通過院校新海外學生名額使用情況來管理處理優先級。換句話說，同樣是學生簽證，申請時間、院校分配進度與材料完整性，都可能影響實際等待體感。",
+                "因此，選校、接受 offer、交押金、拿 CoE、準備簽證材料，不能拆成互不相關的步驟。它們其實是一個完整的申請策略。"
+              ]
+      },
+      {
+        heading: "現在可以做的三件事",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>第一，建立清楚的時間線：offer、接受確認、CoE、付款記錄、OSHC、資金證明、Genuine Student 說明和支持文件，要能講出同一個合理故事。</p></div>",
+                "第二，先核對課程邏輯再付款。便宜、快、門檻低不一定等於穩。如果課程層級、過往學習、未來規劃與家庭資金不能自然對上，簽證文件很容易變成補救式寫作。",
+                "第三，盡量完整遞交。Study Australia 提醒，資料缺失或信息錯誤會拖慢處理，甚至可能導致拒簽。這也是為什麼學生簽證不是只拿到 CoE 就結束。"
+              ]
+      },
+      {
+        heading: "OTC 可以做什麼，不能承諾什麼",
+        paragraphs: [
+                "OTC 可以協助學生和家庭做教育路徑閱讀：課程匹配、院校比較、文件清單、學習計劃邏輯、家長溝通與官方要求前的準備工作。",
+                "但本文不是移民法律建議，OTC 也不承諾簽證結果。若個案涉及拒簽史、複雜簽證身份、高風險資金材料或法律問題，應尋求澳洲註冊移民代理或合資格法律顧問的個案意見。",
+                "比較穩的做法是 evidence-first：先看官方規則，選一個能說清楚的課程，提前準備文件，不要等到最後才用一篇說明信試圖補上所有漏洞。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-superannuation-new-migrants-2026",
+    title: "澳洲退休金 Superannuation 給新移民：SG、稅務與 SMSF 的基本認識",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "Australia · Superannuation · New migrants",
+    author: "留學導報編輯部",
+    summary: "Superannuation 是澳洲強制退休儲蓄：僱主按工資繳 SG 到你的 super 基金。本文說明 SG 比例與供款上限、稅務、選基金與 SMSF，以及臨時簽證離境的 DASP。屬一般認識，以 ATO 與持牌顧問為準。",
+    titleZh: "澳洲退休金 Superannuation 給新移民：SG、稅務與 SMSF 的基本認識",
+    summaryZh: "Superannuation 是澳洲強制退休儲蓄：僱主按工資繳 SG 到你的 super 基金。本文說明 SG 比例與供款上限、稅務、選基金與 SMSF，以及臨時簽證離境的 DASP。屬一般認識，以 ATO 與持牌顧問為準。",
+    relatedReadings: [
+        "australia-trust-guide",
+        "australia-property-investment-tax-basics-2026"
+      ],
+    resources: [
+        ["ATO — Super", "https://www.ato.gov.au/individuals-and-families/super"],
+        ["Moneysmart — Super", "https://moneysmart.gov.au/how-super-works"],
+        ["APRA", "https://www.apra.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "Super 是什麼、錢從哪來",
+        paragraphs: [
+                "Superannuation（退休金，簡稱 super）是澳洲強制性的退休儲蓄制度。只要你受僱且符合條件，僱主須依法按你的工資，把 <strong>Superannuation Guarantee（SG）</strong>供款到你的 super 基金裡，這筆錢一直存到你退休。",
+                "對新移民來說，第一件事是搞清楚：你有沒有 super 帳戶、僱主有沒有按規定供款、錢進了哪一個基金。"
+              ]
+      },
+      {
+        heading: "SG 比例與供款上限",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>SG 的法定比例近年逐步調整（近年約在 11%–12% 區間，以 ATO 公布為準）。除僱主供款外，你也可自願供款，但有 concessional（稅前）與 non-concessional（稅後）兩種供款上限，超額會有稅務後果。</p></div>",
+                "具體比例與上限每年可能變動，動手前先查 ATO 當年度數字。"
+              ]
+      },
+      {
+        heading: "稅務怎麼算",
+        paragraphs: [
+                "一般情況下，供款與基金內的投資收益按優惠稅率課稅，通常低於個人邊際稅率；但要到達 preservation age 並符合條件才能提取。提早或不當提取可能有稅務甚至法律後果。",
+                "不同供款方式（稅前 vs 稅後）稅務效果不同，適合誰要看個人情況，宜由合資格顧問評估。"
+              ]
+      },
+      {
+        heading: "選基金與 SMSF 是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>你通常可以選擇 industry fund 或 retail fund，並留意費用、保險與長期表現。<strong>SMSF（self-managed super fund，自管退休金基金）</strong>讓你自行管理投資，但受託人責任重、合規與審計要求高，並不適合所有人。</p></div>",
+                "「別人做 SMSF 我也要做」是常見誤區；是否適合要看資產規模、時間與專業支援。"
+              ]
+      },
+      {
+        heading: "新移民與離境：DASP",
+        paragraphs: [
+                "持臨時簽證者永久離開澳洲後，通常可申請 <strong>DASP（Departing Australia Superannuation Payment）</strong>領回 super，但會被預扣稅。PR 與公民則一般須留待退休條件達成。",
+                "選基金、供款策略與離境安排，請諮詢<strong>持牌財務顧問（licensed financial adviser）或註冊稅務代理</strong>。OTC 只做資訊整理與官方來源核對。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。稅率、供款上限、州法規與門檻每年可能變動；具體情況請以 ATO、相關政府部門及合資格會計師、註冊稅務代理或持牌財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "Super 是什麼、錢從哪來",
+        paragraphs: [
+                "Superannuation（退休金，簡稱 super）是澳洲強制性的退休儲蓄制度。只要你受僱且符合條件，僱主須依法按你的工資，把 <strong>Superannuation Guarantee（SG）</strong>供款到你的 super 基金裡，這筆錢一直存到你退休。",
+                "對新移民來說，第一件事是搞清楚：你有沒有 super 帳戶、僱主有沒有按規定供款、錢進了哪一個基金。"
+              ]
+      },
+      {
+        heading: "SG 比例與供款上限",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>SG 的法定比例近年逐步調整（近年約在 11%–12% 區間，以 ATO 公布為準）。除僱主供款外，你也可自願供款，但有 concessional（稅前）與 non-concessional（稅後）兩種供款上限，超額會有稅務後果。</p></div>",
+                "具體比例與上限每年可能變動，動手前先查 ATO 當年度數字。"
+              ]
+      },
+      {
+        heading: "稅務怎麼算",
+        paragraphs: [
+                "一般情況下，供款與基金內的投資收益按優惠稅率課稅，通常低於個人邊際稅率；但要到達 preservation age 並符合條件才能提取。提早或不當提取可能有稅務甚至法律後果。",
+                "不同供款方式（稅前 vs 稅後）稅務效果不同，適合誰要看個人情況，宜由合資格顧問評估。"
+              ]
+      },
+      {
+        heading: "選基金與 SMSF 是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>你通常可以選擇 industry fund 或 retail fund，並留意費用、保險與長期表現。<strong>SMSF（self-managed super fund，自管退休金基金）</strong>讓你自行管理投資，但受託人責任重、合規與審計要求高，並不適合所有人。</p></div>",
+                "「別人做 SMSF 我也要做」是常見誤區；是否適合要看資產規模、時間與專業支援。"
+              ]
+      },
+      {
+        heading: "新移民與離境：DASP",
+        paragraphs: [
+                "持臨時簽證者永久離開澳洲後，通常可申請 <strong>DASP（Departing Australia Superannuation Payment）</strong>領回 super，但會被預扣稅。PR 與公民則一般須留待退休條件達成。",
+                "選基金、供款策略與離境安排，請諮詢<strong>持牌財務顧問（licensed financial adviser）或註冊稅務代理</strong>。OTC 只做資訊整理與官方來源核對。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。稅率、供款上限、州法規與門檻每年可能變動；具體情況請以 ATO、相關政府部門及合資格會計師、註冊稅務代理或持牌財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-teacher-registration-aitsl-2026",
+    title: "澳洲教師註冊：AITSL 技能評估與各州教師登記怎麼看",
+    date: "2026-07-04",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Australia · Teaching · AITSL & registration",
+    author: "留學導報編輯部",
+    summary: "海外受訓教師到澳洲，有兩條相關但不同的線：AITSL 技能評估（多用於技術移民）與各州／領地教師註冊局的執教登記。本文說明兩者差別、AITSL 評估要點、州註冊與 WWCC。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    titleZh: "澳洲教師註冊：AITSL 技能評估與各州教師登記怎麼看",
+    summaryZh: "海外受訓教師到澳洲，有兩條相關但不同的線：AITSL 技能評估（多用於技術移民）與各州／領地教師註冊局的執教登記。本文說明兩者差別、AITSL 評估要點、州註冊與 WWCC。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    relatedReadings: [
+        "australia-accountant-registration-skills-assessment-2026",
+        "australia-early-childhood-register-2026"
+      ],
+    resources: [
+        ["AITSL — Migration skills assessment", "https://www.aitsl.edu.au/migrate-to-australia"],
+        ["VIT（維州教師註冊局）", "https://www.vit.vic.edu.au/"],
+        ["NESA（新州）", "https://www.nsw.gov.au/nesa"]
+      ],
+    body: [
+      {
+        heading: "兩條線：技能評估 vs 州教師註冊",
+        paragraphs: [
+                "要在澳洲教書，通常需要向該州／領地的<strong>教師註冊局</strong>登記；若走技術移民，則另需 <strong>AITSL</strong> 的技能評估。兩者目的不同：一個讓你「合法執教」，一個判定你「移民資格」。",
+                "很多人只做其中一項就以為完成，實務上常需兩者都處理。"
+              ]
+      },
+      {
+        heading: "AITSL 技能評估要點",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>AITSL（Australian Institute for Teaching and School Leadership）評估通常看學歷是否等同澳洲教師資格、是否包含足夠的<strong>受監督教學實習（practicum）</strong>，以及英語能力。實習時數與課程內容常是海外教師的卡點。</p></div>"
+              ]
+      },
+      {
+        heading: "各州/領地教師註冊局",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>執教登記由各地監管局辦理，例如 VIT（維州）、NESA（新州）、QCT（昆州）等，各有申請流程、資格認可與英語要求。你打算在哪個州教書，就向該局申請。</p></div>"
+              ]
+      },
+      {
+        heading: "英語與兒童工作許可（WWCC）",
+        paragraphs: [
+                "教師通常要達較高英語標準，並取得所在州的 <strong>Working With Children Check（WWCC）</strong>或等同背景審查，才能進入校園工作。這些是安全合規的基本要求。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "技能評估找 AITSL、執教登記找目標州註冊局；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "兩條線：技能評估 vs 州教師註冊",
+        paragraphs: [
+                "要在澳洲教書，通常需要向該州／領地的<strong>教師註冊局</strong>登記；若走技術移民，則另需 <strong>AITSL</strong> 的技能評估。兩者目的不同：一個讓你「合法執教」，一個判定你「移民資格」。",
+                "很多人只做其中一項就以為完成，實務上常需兩者都處理。"
+              ]
+      },
+      {
+        heading: "AITSL 技能評估要點",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>AITSL（Australian Institute for Teaching and School Leadership）評估通常看學歷是否等同澳洲教師資格、是否包含足夠的<strong>受監督教學實習（practicum）</strong>，以及英語能力。實習時數與課程內容常是海外教師的卡點。</p></div>"
+              ]
+      },
+      {
+        heading: "各州/領地教師註冊局",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>執教登記由各地監管局辦理，例如 VIT（維州）、NESA（新州）、QCT（昆州）等，各有申請流程、資格認可與英語要求。你打算在哪個州教書，就向該局申請。</p></div>"
+              ]
+      },
+      {
+        heading: "英語與兒童工作許可（WWCC）",
+        paragraphs: [
+                "教師通常要達較高英語標準，並取得所在州的 <strong>Working With Children Check（WWCC）</strong>或等同背景審查，才能進入校園工作。這些是安全合規的基本要求。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "技能評估找 AITSL、執教登記找目標州註冊局；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-trades-recognition-tra-2026",
+    title: "澳洲技工職業評估：TRA、JobReady 與 OSAP 怎麼分",
+    date: "2026-07-04",
+    category: "Professional Licensing",
+    column: "licensing",
+    kicker: "Australia · Trades · TRA assessment",
+    author: "留學導報編輯部",
+    summary: "海外技工（廚師、技術工種等）要在澳洲做技術移民或申請職業評估，多透過 TRA（Trades Recognition Australia）。本文說明 TRA 的主要方案（JRP、OSAP、Migration Skills Assessment）、評估重點，以及「技能評估」與「州執照」的差別。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    titleZh: "澳洲技工職業評估：TRA、JobReady 與 OSAP 怎麼分",
+    summaryZh: "海外技工（廚師、技術工種等）要在澳洲做技術移民或申請職業評估，多透過 TRA（Trades Recognition Australia）。本文說明 TRA 的主要方案（JRP、OSAP、Migration Skills Assessment）、評估重點，以及「技能評估」與「州執照」的差別。屬一般認識，移民規劃請諮詢註冊移民代理（MARA）。",
+    relatedReadings: [
+        "australia-electrician-otsr-2026",
+        "australia-ict-acs-skills-assessment-2026"
+      ],
+    resources: [
+        ["Trades Recognition Australia", "https://www.tradesrecognitionaustralia.gov.au/"],
+        ["Department of Home Affairs — Skilled visas", "https://immi.homeaffairs.gov.au/"],
+        ["Your state licensing authority", "https://www.australia.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "TRA 是誰、評估用途",
+        paragraphs: [
+                "<strong>TRA（Trades Recognition Australia）</strong>是澳洲政府的技工職業評估機構，評估結果多用於技術移民與部分簽證。它判定你的技能是否達到澳洲相應工種標準，但<strong>不等於各州的執業執照</strong>。"
+              ]
+      },
+      {
+        heading: "主要方案：JRP、OSAP、MSA",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>常見方案包括 <strong>JobReady Program（JRP）</strong>（含在澳受僱與職場評估的多步驟計畫）、<strong>OSAP（Offshore Skills Assessment Program）</strong>（境外技能與知識評估）與 <strong>Migration Skills Assessment（MSA）</strong>。適用哪個方案，取決於你的工種、經驗與所在地。</p></div>"
+              ]
+      },
+      {
+        heading: "廚師與各類技工的評估重點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>以廚師（cook／chef）等工種為例，評估通常看資歷、實際工作經驗與技能證據（work evidence）。文件與工作證明是否充分、可佐證，往往決定成敗。</p></div>"
+              ]
+      },
+      {
+        heading: "技能評估 ≠ 州執照",
+        paragraphs: [
+                "要特別分清：<strong>技能評估（移民用）</strong>與<strong>州／領地的職業執照（licensing，例如電工、水管工等 licensed trades）</strong>是兩回事。有些工種即使通過技能評估，實際上工前仍須取得該州執照。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "技能評估以 TRA 官方為準；州執照向該州監管局申請；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "TRA 是誰、評估用途",
+        paragraphs: [
+                "<strong>TRA（Trades Recognition Australia）</strong>是澳洲政府的技工職業評估機構，評估結果多用於技術移民與部分簽證。它判定你的技能是否達到澳洲相應工種標準，但<strong>不等於各州的執業執照</strong>。"
+              ]
+      },
+      {
+        heading: "主要方案：JRP、OSAP、MSA",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>常見方案包括 <strong>JobReady Program（JRP）</strong>（含在澳受僱與職場評估的多步驟計畫）、<strong>OSAP（Offshore Skills Assessment Program）</strong>（境外技能與知識評估）與 <strong>Migration Skills Assessment（MSA）</strong>。適用哪個方案，取決於你的工種、經驗與所在地。</p></div>"
+              ]
+      },
+      {
+        heading: "廚師與各類技工的評估重點",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>以廚師（cook／chef）等工種為例，評估通常看資歷、實際工作經驗與技能證據（work evidence）。文件與工作證明是否充分、可佐證，往往決定成敗。</p></div>"
+              ]
+      },
+      {
+        heading: "技能評估 ≠ 州執照",
+        paragraphs: [
+                "要特別分清：<strong>技能評估（移民用）</strong>與<strong>州／領地的職業執照（licensing，例如電工、水管工等 licensed trades）</strong>是兩回事。有些工種即使通過技能評估，實際上工前仍須取得該州執照。"
+              ]
+      },
+      {
+        heading: "找誰",
+        paragraphs: [
+                "技能評估以 TRA 官方為準；州執照向該州監管局申請；<strong>移民路線請諮詢註冊移民代理（MARA）</strong>。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成註冊、移民、法律或就業意見，也不構成任何結果保證。評估標準、英語要求、名額與費用每年可能變動；註冊與執業要求，請以相關委員會、評估機構或各州監管局的官方最新資訊為準。個人移民規劃請諮詢澳洲註冊移民代理（MARA）或合資格專業人士。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-training-visa-407-sponsorship-nomination-sequence-update",
+    title: "Australia Training Visa 407: Sponsorship and Nomination Must Be Planned Before Lodgement",
+    date: "2026-05-24",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "Training visa 407 · Planning sequence",
+    author: "留學導報編輯部",
+    summary: "A short public briefing on why Training Visa (subclass 407) applicants and sponsors should plan sponsorship, nomination and visa lodgement sequence carefully and verify requirements on official Home Affairs pages.",
+    titleZh: "澳洲 407 Training Visa：先核對 sponsor 與 nomination，再安排遞交節奏",
+    summaryZh: "407 培訓簽證不應只看簽證表格本身。申請前需要先核對 Temporary Activities Sponsor、Training Visa Nomination、培訓安排、時間線與簽證空窗風險。本文根據公開線索改寫，避免轉載第三方通訊原文。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-482-skills-in-demand-employer-sponsorship-checklist",
+        "australia-migration-program-2026-27-onshore-prioritisation-what-it-means",
+        "australia-employer-sponsorship-standard-business-sponsor-checklist",
+        "australia-self-sponsorship-company-sponsor-risk-check",
+        "australia-aged-care-disability-allied-health-pr-routes-2026"
+      ],
+    resources: [
+        ["Home Affairs — Training visa (subclass 407)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/training-407"],
+        ["Home Affairs — Temporary Activities Sponsor", "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor/temporary-activities-sponsor"],
+        ["Office of the Migration Agents Registration Authority", "https://www.mara.gov.au/"]
+      ],
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+                "This article is rewritten from a newsletter lead and checked against official Home Affairs entry points. Readers must verify current requirements directly before acting."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "407 不是單獨一張簽證申請表",
+        paragraphs: [
+                "Training Visa (subclass 407) 面向在澳洲參加職業培訓、專業發展或特定訓練安排的人群。它通常涉及三層問題：誰是 sponsor，培訓或 nomination 是否被接受，以及申請人自己的簽證條件是否滿足。",
+                "很多申請延誤不是因為申請人不知道 407，而是把 sponsor、nomination 和 visa lodgement 的先後順序想得太簡單。若前置審批未完成或材料不匹配，後續時間線會被拉長。"
+              ]
+      },
+      {
+        heading: "申請前要先問的三個問題",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>第一，sponsor 是否具備資格。對 407 相關活動，通常需要 Temporary Activities Sponsor 或其他符合規則的 sponsor 身份。是否已批准、是否仍有效、可否覆蓋該活動，都要核對。</p></div>",
+                "第二，nomination 或培訓安排是否清楚。培訓目的、職業關聯、時間、地點、監督安排、培訓計劃和申請人背景要一致。",
+                "第三，簽證時間線是否安全。若申請人已在澳洲，必須特別注意現有簽證到期、bridging visa、遞交節點與是否可能出現身份空窗。"
+              ]
+      },
+      {
+        heading: "給學生與雇主的實務清單",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>雇主或培訓方先建立 sponsor/nomination 文件包，包括 sponsor approval、training plan、職責與培訓內容、監督人資料、保險、場地和時間安排。</p></div>",
+                "申請人同步準備護照、簽證歷史、學歷與工作經驗、英文或職業背景材料、健康與品格資料，以及與培訓目標相匹配的個人說明。",
+                "不要只依賴社交媒體或招聘通訊的摘要。407 涉及簽證狀態和培訓合規，必須回到 Home Affairs 官方頁面，必要時找 MARA 註冊移民代理確認。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "australia-vet-tafe-aqf-cost-duration-xian-landing-guide-2026",
+    title: "Australia VET / TAFE Explained: AQF Level, Study Length, Fees and a Xi'an Landing Plan",
+    date: "2026-05-26",
+    category: "Australia VET",
+    column: "study",
+    kicker: "Australia · VET / TAFE · China landing",
+    author: "留學導報編輯部",
+    summary: "A service-oriented briefing for students, families and partners comparing Australian VET / TAFE routes: AQF level mapping, duration checks, fee modelling, provider verification and compliance boundaries for Xi'an-facing advisory work.",
+    titleZh: "澳洲 VET / TAFE 職業教育怎麼對標：學歷層級、學制、費用與西安落地路線",
+    summaryZh: "面向學生、家庭與合作方的澳洲 VET / TAFE 路線服務說明：以 AQF 層級、CRICOS / provider 核查、費用預算模型、文件準備和合規邊界為核心，建立可執行的西安本地諮詢與宣講工作流。",
+    relatedReadings: [
+        "australia-new-zealand-provider-pathway-updates-2026",
+        "australia-hairdresser-rpl-certificate-employer-sponsorship-guide",
+        "uk-aus-application-documents-checklist"
+      ],
+    body: [
+      {
+        heading: "Service scope and evidence sources",
+        paragraphs: [
+                "This briefing explains how OTC supports students, families and local partners with Australian VET / TAFE route comparison. The service scope is education consulting, document preparation, provider checking and compliance-boundary clarification.",
+                "Information should be checked against the Australian Qualifications Framework, CRICOS, training.gov.au, provider course pages, provider fee pages and written provider communications."
+              ]
+      },
+      {
+        heading: "AQF level mapping",
+        paragraphs: [
+                "VET / TAFE should be explained by AQF level, not as a single generic course type. Certificate III commonly maps to AQF level 3, Certificate IV to AQF level 4, Diploma to AQF level 5 and Advanced Diploma to AQF level 6.",
+                "This is an Australian framework explanation only. It is not a Chinese qualification equivalence decision, a university admission decision, a visa outcome or a skills assessment outcome."
+              ]
+      },
+      {
+        heading: "Duration and course checks",
+        paragraphs: [
+                "Duration depends on the qualification level, course design, campus, delivery mode, student background and whether the student studies full-time. Public explanations should be supported by the provider course page and, where international student visa study is involved, the CRICOS record.",
+                "The operating rule is to avoid standalone duration claims. OTC should record the course name, provider, campus, CRICOS status, intake, duration, entry requirements, placement requirements and fee page before advising a family or partner."
+              ]
+      },
+      {
+        heading: "Fee estimate and budget model",
+        paragraphs: [
+                "Fees should be broken down by category rather than quoted as a single number. The example below uses TAFE Queensland's Diploma of Business / Diploma of Leadership and Management at South Bank, Brisbane, starting 13 July 2026, with a 1-year duration and an international student total course fee of AUD 17,200. RMB figures use an indicative AUD/CNY reference rate of about 1:4.87 on 26 May 2026.",
+                "<div class=\"report-table-wrap article-cost-table\">\n            <table>\n              <thead>\n                <tr><th>Cost item</th><th>Indicative AUD amount</th><th>Approx. RMB amount</th><th>Planning note</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>Tuition</td><td>AUD 17,200</td><td>About RMB 83,800</td><td>TAFE Queensland Diploma of Business / Diploma of Leadership and Management example, South Bank, Brisbane.</td></tr>\n                <tr><td>Materials, equipment, uniform or consumables</td><td>AUD 500-1,500</td><td>About RMB 2,400-7,300</td><td>Course-specific; check provider fee page and offer documents.</td></tr>\n                <tr><td>Application / administration / enrolment estimate</td><td>AUD 100-250</td><td>About RMB 500-1,200</td><td>May be separate from tuition; provider policies vary.</td></tr>\n                <tr><td>OSHC example</td><td>AUD 806</td><td>About RMB 3,900</td><td>12-month single-cover example based on ANU / Allianz published table.</td></tr>\n                <tr><td>Student visa VAC, primary applicant</td><td>AUD 2,000</td><td>About RMB 9,700</td><td>Study Australia update from 1 July 2025; always recheck before payment.</td></tr>\n                <tr><td>Brisbane living-cost planning range</td><td>AUD 24,000-30,000</td><td>About RMB 116,900-146,100</td><td>Food, accommodation, transport and general living expenses; planning estimate only.</td></tr>\n                <tr><td><strong>Illustrative first-year total</strong></td><td><strong>AUD 44,600-51,800</strong></td><td><strong>About RMB 217,000-252,000</strong></td><td><strong>Planning estimate, not a provider quote or formal offer.</strong></td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "This is a planning model only. Formal payment decisions should rely on provider offer documents, the latest provider fee page and official visa / OSHC information."
+              ]
+      },
+      {
+        heading: "Xi'an service deployment scope",
+        paragraphs: [
+                "A Xi'an-facing service should be positioned as information briefing, student screening, English and document preparation, pathway comparison and provider briefing support. It should not be presented as an unauthorised Australian qualification delivery centre.",
+                "Any claim about Australian qualification delivery, certification, CRICOS-linked delivery or RTO scope must be supported by written provider confirmation and the relevant public registers."
+              ]
+      },
+      {
+        heading: "Partner communication standard",
+        paragraphs: [
+                "Partner communications should use verifiable language: AQF level, provider name, course page, CRICOS status, fee page, entry requirements, placement requirements and written provider confirmation where needed.",
+                "OTC should not promise admission, visa outcomes, occupational registration, skills assessment or Australian qualification delivery. Those matters require formal institutional decisions or qualified professional advice."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "服務定位與資料來源",
+        paragraphs: [
+                "本頁用於說明 OTC 如何協助學生、家庭與合作方理解澳洲 VET / TAFE 路線。內容以官方框架、provider 公開頁面與可核查資料為基礎，服務範圍限定在教育諮詢、文件準備、路線比較與合規邊界提示。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>信息類型</th><th>主要來源</th><th>用途</th><th>OTC 處理方式</th></tr></thead>\n              <tbody>\n                <tr><td>資格層級</td><td>Australian Qualifications Framework (AQF)</td><td>確認 Certificate、Diploma、Advanced Diploma 的官方層級。</td><td>轉化為中文對照表，避免把 VET / TAFE 說成模糊課程。</td></tr>\n                <tr><td>課程註冊</td><td>CRICOS、training.gov.au、provider course page</td><td>核查課程、校區、開課、international student 適用性與 RTO scope。</td><td>建立 provider 核查表，逐項記錄來源和更新日期。</td></tr>\n                <tr><td>費用預算</td><td>Study Australia、provider fee page、公開保險/簽證費用頁</td><td>拆分 tuition、材料費、OSHC、簽證與生活費。</td><td>提供規劃估算表；正式付款以 provider offer 和官方頁面為準。</td></tr>\n                <tr><td>合規邊界</td><td>院校書面回覆、RTO / CRICOS 信息、專業顧問意見</td><td>區分教育諮詢、資格交付、移民/職業註冊等不同責任範圍。</td><td>在每個 case 中標記需要轉介或等待正式授權的事項。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "AQF 層級對照",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>VET / TAFE 應按 AQF 層級說明，而不是用單一中文詞概括。以下對照用於初步理解，並不構成中國學歷認證、院校錄取或移民結果判斷。</p></div>",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>AQF 層級</th><th>常見資格</th><th>中文說明</th><th>常見用途</th><th>核查重點</th></tr></thead>\n              <tbody>\n                <tr><td>AQF 3</td><td>Certificate III</td><td>職業入門與基礎技能證書。</td><td>技能起點、部分職業入門、後續進階學習。</td><td>課程是否在 RTO scope；是否面向國際學生。</td></tr>\n                <tr><td>AQF 4</td><td>Certificate IV</td><td>技能進階或 Diploma 前置層級。</td><td>轉入 Diploma、職業方向確認、技能補強。</td><td>入學條件、英文要求、placement 或實訓要求。</td></tr>\n                <tr><td>AQF 5</td><td>Diploma</td><td>VET 主力層級之一，可用於技能、轉專業或銜接。</td><td>職業教育主路線、TAFE-to-university、部分 advanced standing 討論。</td><td>provider、CRICOS、銜接規則和費用頁。</td></tr>\n                <tr><td>AQF 6</td><td>Advanced Diploma</td><td>更高階技術或 paraprofessional 層級。</td><td>高階技能、專業方向深化、部分本科銜接場景。</td><td>課程時長、專業限制、職業註冊/技能評估邊界。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "學制與課程核查",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>學制不能以單一數字承諾。正式服務中，OTC 會同時核查課程頁、CRICOS record、開課日期、校區、學習模式與 placement 要求。</p></div>",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>項目</th><th>常見範圍</th><th>必查來源</th><th>為什麼要查</th></tr></thead>\n              <tbody>\n                <tr><td>Certificate III / IV</td><td>約半年至一年，視課程設計而定。</td><td>provider course page、training.gov.au、CRICOS（如涉及國際學生）。</td><td>確認是否適合作為入門、轉專業或 Diploma 前置。</td></tr>\n                <tr><td>Diploma</td><td>常見一年至兩年。</td><td>CRICOS duration、provider fee page、entry requirements。</td><td>確認銜接可能、費用、英文要求和課程強度。</td></tr>\n                <tr><td>Advanced Diploma</td><td>常見一年半至兩年。</td><td>course page、RTO scope、placement / practical requirements。</td><td>確認是否涉及高階技術、實訓、職業路線或進一步銜接。</td></tr>\n                <tr><td>國際學生適用性</td><td>不以普通課程頁推定。</td><td>CRICOS official course register: https://cricos.education.gov.au/。</td><td>學生簽證相關課程必須核查 CRICOS 註冊信息。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "費用估算與預算模型",
+        paragraphs: [
+                "費用需要拆分，不應用單一數字概括。以下以 TAFE Queensland Diploma of Business / Diploma of Leadership and Management（South Bank, Brisbane；2026 年 7 月 13 日開課；1 年制；國際學生 total course fee AUD 17,200）作示例，並按 2026 年 5 月 26 日 AUD/CNY 約 1:4.87 估算人民幣金額。正式報價以 provider offer、費用頁及官方收費通知為準。",
+                "<div class=\"report-table-wrap article-cost-table\">\n            <table>\n              <thead>\n                <tr><th>費用項目</th><th>AUD 估算</th><th>人民幣約算</th><th>說明</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>學費 tuition</td><td>AUD 17,200</td><td>約 RMB 83,800</td><td>TAFE Queensland Diploma of Business / Diploma of Leadership and Management，South Bank, Brisbane 示例。</td></tr>\n                <tr><td>材料、工具、制服或耗材</td><td>AUD 500-1,500</td><td>約 RMB 2,400-7,300</td><td>按課程不同而變；正式提交前查 provider fee page 和 offer 文件。</td></tr>\n                <tr><td>申請 / administration / enrolment 相關費用</td><td>AUD 100-250</td><td>約 RMB 500-1,200</td><td>可能另算，不同 provider 規則不同。</td></tr>\n                <tr><td>OSHC 公開示例</td><td>AUD 806</td><td>約 RMB 3,900</td><td>以 ANU / Allianz 12 個月 single cover 公開表格作參考。</td></tr>\n                <tr><td>學生簽證 VAC，主申請人</td><td>AUD 2,000</td><td>約 RMB 9,700</td><td>Study Australia 2025 年 7 月更新口徑；付款前仍需核查最新官方頁面。</td></tr>\n                <tr><td>Brisbane 一年生活費預估</td><td>AUD 24,000-30,000</td><td>約 RMB 116,900-146,100</td><td>住宿、飲食、交通和日常生活費；只作規劃估算。</td></tr>\n                <tr><td><strong>第一年預算樣本合計</strong></td><td><strong>AUD 44,600-51,800</strong></td><td><strong>約 RMB 217,000-252,000</strong></td><td><strong>這是給家長看的規劃樣本，不是院校正式報價。</strong></td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>正式核查入口</th><th>核查內容</th><th>輸出文件</th></tr></thead>\n              <tbody>\n                <tr><td>Study Australia 費用頁</td><td>生活費、簽證費和一般費用分類。</td><td>家庭預算說明表。</td></tr>\n                <tr><td>Provider international price list</td><td>國際學生 tuition、材料費和一次性申請費。</td><td>課程費用核查表。</td></tr>\n                <tr><td>Offer / written agreement</td><td>正式學費、付款節點、退費規則和附加費用。</td><td>提交前最終費用核對清單。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "西安落地服務範圍",
+        paragraphs: [
+                "西安本地落地應定位為信息說明、學生初篩、文件準備與 provider briefing 支持，不應包裝成未授權的澳洲資格交付中心。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>服務場景</th><th>可提供內容</th><th>交付物</th><th>邊界</th></tr></thead>\n              <tbody>\n                <tr><td>家長說明會</td><td>AQF 層級、學制、費用構成、申請文件和路線比較。</td><td>中文 briefing、問答清單、費用估算表。</td><td>不承諾錄取、簽證或資格結果。</td></tr>\n                <tr><td>學生初篩</td><td>年齡、英文、學歷、職業方向、預算和學習地點偏好。</td><td>學生初篩表、下一步文件清單。</td><td>不替代 provider admissions assessment。</td></tr>\n                <tr><td>文件準備</td><td>成績單、英文證明、CV、作品/技能證據、學習目的說明。</td><td>evidence pack、文件命名和缺件清單。</td><td>文件真實性由學生提供並承擔責任。</td></tr>\n                <tr><td>Provider briefing</td><td>課程頁、費用頁、CRICOS / RTO scope 和 entry requirements 說明。</td><td>provider 核查表、合作方 briefing notes。</td><td>正式合作需 provider written confirmation 或協議。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "合作機構清單與用途",
+        paragraphs: [
+                "合作機構應按學生來源、服務用途和合規邊界分類管理。以下清單用於業務開發排序，不代表已建立正式合作或授權關係。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>合作類型</th><th>潛在機構</th><th>適合主題</th><th>OTC 交付</th></tr></thead>\n              <tbody>\n                <tr><td>國際教育端</td><td>國際學校、民辦雙語學校、普通高中國際部、A-Level / BTEC / Foundation 教學點。</td><td>VET / TAFE、Diploma、Advanced Diploma、TAFE-to-university。</td><td>升學路線說明、學生初篩表、家長問答。</td></tr>\n                <tr><td>高校窗口</td><td>西安外國語大學、西安交通大學、西北大學等國際教育、繼續教育或海外項目窗口。</td><td>澳洲職業教育層級、升學銜接、短期 briefing。</td><td>機構簡報、課程層級表、合作問題清單。</td></tr>\n                <tr><td>職教院校</td><td>西安職業技術學院、陝西職業技術學院、西安航空職業技術學院等。</td><td>VET / TAFE 對讀、技能證據、RPL 概念和 provider 核查。</td><td>職教路線 briefing、RPL 問題清單、provider 核查模板。</td></tr>\n                <tr><td>市場渠道</td><td>語培機構、留學服務公司、企業培訓機構、家長社群。</td><td>學生來源、英文準備、文件準備、家庭預算。</td><td>渠道培訓、標準答覆、case log。</td></tr>\n                <tr><td>澳洲 provider</td><td>澳洲校方、TAFE / RTO、pathway provider 線上招生窗口。</td><td>課程、費用、開課、授權和正式合作流程。</td><td>官方詢問函、資料索取清單、合作狀態記錄。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "合作方溝通口徑",
+        paragraphs: [
+                "與合作方溝通時，建議使用清晰、可核查、可轉發的口徑。重點是先說明 VET / TAFE 的層級、費用構成和可做事項，再把需要官方核查或專業轉介的內容明確分開。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead>\n                <tr><th>溝通主題</th><th>建議表述</th><th>需要核查</th><th>不可承諾</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>課程層級</td><td>VET / TAFE 是澳洲 AQF 框架內的職業教育階梯，常見從 Certificate III / IV 到 Diploma / Advanced Diploma，對應 AQF Level 3-6。</td><td>具體課程名稱、AQF level、provider、校區及是否面向 international students。</td><td>不能說成單一學位，也不能承諾等同中國某一學歷。</td></tr>\n                <tr><td>學制時間</td><td>常見學制約半年至兩年，但正式周期必須回到 provider course page 和 CRICOS record。</td><td>CRICOS duration、開課日期、full-time / part-time、placement 或實訓安排。</td><td>不能用籠統時間替代正式 offer 或 CRICOS 信息。</td></tr>\n                <tr><td>費用預算</td><td>費用不是一個數字，應拆成 tuition、材料費、申請費、OSHC、簽證、英文測試、住宿交通和生活費。</td><td>provider fee page、international price list、材料費、一次性費用、匯率和家庭預算。</td><td>不能把估算表當成正式報價；不得忽略生活費和簽證相關費用。</td></tr>\n                <tr><td>西安落地</td><td>第一階段可做課程介紹、學生初篩、英文與文件準備、pathway counselling 和 provider briefing。</td><td>合作方角色、宣講材料、學生來源、後續申請流程和官方合作窗口。</td><td>不能宣稱本地可直接交付澳洲資格或簽發澳洲證書。</td></tr>\n                <tr><td>合規邊界</td><td>正式澳洲資格交付、證書簽發、RTO scope、CRICOS 和合作授權必須逐項核清後再對外發布。</td><td>training.gov.au、CRICOS、provider written confirmation、合作協議和授權範圍。</td><td>不能提前承諾錄取、簽證、職業註冊、技能評估或移民結果。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "OTC 將提供以下專業服務",
+        paragraphs: [
+                "OTC 的服務重點不是單純介紹學校，而是把課程層級、學生背景、英文能力、申請文件、費用預算、澳洲 provider 核查與合規邊界放在同一套工作流程中處理。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead>\n                <tr><th>服務模組</th><th>OTC 交付內容</th><th>學生 / 家庭得到什麼</th><th>合規邊界</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>VET / TAFE 路線圖</td><td>整理 AQF Level 3-6、常見專業方向、學制、費用構成、升學及就業用途。</td><td>用一頁中文 briefing 看懂澳洲職業教育層級，不再只聽籠統的「職業課程」。</td><td>層級解讀不等於中國學歷認證、錄取保證或移民結果。</td></tr>\n                <tr><td>學生初步評估</td><td>核對年齡、英文、現有學歷、職業方向、家庭預算和是否考慮澳洲境內學習。</td><td>先判斷是否適合 VET / TAFE、pathway、學術銜接或其他替代路線。</td><td>正式入學要求以 provider / admissions 書面評估為準。</td></tr>\n                <tr><td>西安本地說明會</td><td>為學校、國際部、職教院校、語培與留學合作方準備簡報、問答稿和初篩表。</td><td>合作方可以用統一口徑向家長解釋層級、費用、文件和後續步驟。</td><td>不得把說明會包裝成澳洲資格交付或證書授權。</td></tr>\n                <tr><td>Provider 核查表</td><td>逐項核對 training.gov.au、CRICOS、課程頁、費用頁、材料費、placement 要求、英文要求和開課時間。</td><td>降低錯報課程、漏算費用、忽略實習或英文要求的風險。</td><td>所有課程、費用、開課與簽證相關信息均需以官方最新頁面和書面文件為準。</td></tr>\n                <tr><td>專業轉介標記</td><td>遇到簽證、移民、職業註冊、技能評估等問題時，明確標記需要 qualified professional adviser 處理。</td><td>家庭知道哪些屬於教育諮詢，哪些必須另行尋求專業意見。</td><td>OTC 不提供受監管的移民、法律、職業註冊或技能評估結論。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-26。本文依據 AQF、Study Australia、CRICOS、training.gov.au、ASQA 及 TAFE Queensland 公開頁面整理。",
+        "各州 TAFE 與私立 RTO 課程費用、材料費、校區與開課時間會變動；正式報價應以 provider letter of offer / course page 為準。"
+      ],
+  },
+  {
+    slug: "business-marketing-media-course-fit-portfolio-evidence-pack",
+    title: "Business, Marketing or Media? A Module-First Course-Fit Checklist + Mini Portfolio Plan",
+    date: "2026-05-24",
+    category: "University Pathways",
+    column: "study",
+    kicker: "Course fit · Evidence pack",
+    author: "留學導報編輯部",
+    summary: "A practical way to choose between Business, Marketing and Media programmes by reading modules (not just course names), then building a small evidence pack and portfolio that supports honest statements and interviews without over-claiming outcomes.",
+    titleZh: "商科、行銷還是媒體？用「課程模組」判斷適配度：選科清單＋迷你作品集方案",
+    summaryZh: "不要只看課程名稱與排名；先讀課程模組與評核方式，再做一套「證據包＋迷你作品集」：既能支援 Personal Statement / SOP 與面試，又能避免空泛或誇大，讓申請更可核對、也更合規。",
+    relatedReadings: [
+        "australia-health-vocation-pathway",
+        "othm-health-social-care-australia-vet-comparison"
+      ],
+    body: [
+      {
+        heading: "Start with modules, assessments, and graduate skills",
+        paragraphs: [
+                "Course titles overlap. What really differs is the module mix (strategy, consumer behaviour, analytics, media theory, production, branding), the assessment style (essays, reports, group projects, presentations, portfolios) and the skill outcomes.",
+                "Before deciding, pull the module list for each programme and mark: (a) 3 modules you are genuinely curious about, (b) 2 modules you feel underprepared for, and (c) the main assessment types.",
+                "If a programme is heavily quantitative (statistics, econometrics, marketing analytics), plan how you will show readiness (maths background, spreadsheet work, simple data projects) rather than hoping motivation alone will carry it."
+              ]
+      },
+      {
+        heading: "Build a one-page course-fit evidence pack (easy to reuse)",
+        paragraphs: [
+                "Create a single-page evidence pack that you can reuse across applications: your target programme, 3 module links, 3 evidence bullets, and 2 learning goals for your first term.",
+                "Evidence can be small but specific: a club role, a part-time job task, a short online course certificate, a reading log, or a mini research note with sources.",
+                "Keep claims cautious and verifiable: describe what you did, what you learned, and what you would improve next time."
+              ]
+      },
+      {
+        heading: "A mini portfolio plan: 3 small projects that fit most routes",
+        paragraphs: [
+                "Project A (analysis): choose one brand or organisation, write a 700–1,000 word campaign analysis with 3–5 sources and a short reflection on metrics and limitations.",
+                "Project B (audit): do a content audit for 10 posts (or 10 pages). Summarise themes, audience assumptions and improvements in a simple spreadsheet + 1-page insight note.",
+                "Project C (data-lite): use publicly available data (e.g., website traffic estimates, simple survey results, platform analytics screenshots) to produce 3 charts and explain what the data can and cannot show."
+              ]
+      },
+      {
+        heading: "A safe application line: demonstrate readiness, not promises",
+        paragraphs: [
+                "In statements and interviews, focus on readiness signals: module awareness, realistic learning plan, evidence-based examples, and an understanding that admission decisions depend on the institution's criteria and the wider applicant pool.",
+                "If you are still undecided, say so strategically: show how your evidence pack helps you test-fit between Business, Marketing and Media pathways, and what you will do in the next 6–8 weeks to reduce uncertainty."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先看「課程模組」與評核方式，不要只看課程名稱",
+        paragraphs: [
+                "商科、行銷與媒體類課程名稱常常互相重疊；真正差異在於模組組合（策略、消費者行為、數據分析、媒體理論、內容製作、品牌等）、評核形式（essay、report、group project、presentation、portfolio）與要訓練的能力。",
+                "建議把每個目標課程的 module list 拉出來，逐一標記：(a) 你真正想學的 3 個模組；(b) 你目前最不熟悉的 2 個模組；(c) 主要評核方式是什麼。",
+                "如果課程偏量化（統計、計量、行銷分析），就要提早規劃「如何證明你準備好了」：例如數學背景、試算表能力、簡單數據小專題，而不是只用熱情敘述。"
+              ]
+      },
+      {
+        heading: "做一份可重複使用的「一頁證據包」",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>把申請材料做成一頁式 evidence pack：目標課程、3 個模組連結、3 條可核對的證據點、以及開學第一學期的 2 個學習目標。</p></div>",
+                "證據不必很大，但要具體：社團職務、兼職工作任務、短課程證書、閱讀筆記、帶來源的 mini research note 都可以。",
+                "表述要保守且可驗證：說清楚你做了什麼、學到什麼、下次會怎麼改進，避免誇大或把結果講成保證。"
+              ]
+      },
+      {
+        heading: "迷你作品集：3 個小專題，幾乎適用所有路線",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>專題 A（分析）：選一個品牌或機構，寫 700–1,000 字的 campaign 分析，引用 3–5 個資料來源，並補一段對指標與限制的反思。</p></div>",
+                "專題 B（盤點）：做一份 10 篇貼文（或 10 個網頁）的 content audit，用簡單表格整理主題、受眾假設與改進建議，再配一頁 insight note。",
+                "專題 C（輕數據）：用公開資料或可分享的數據截圖（例如平台分析、簡單問卷結果）做 3 張圖表，並解釋這些數據「能說明什麼」與「不能說明什麼」。"
+              ]
+      },
+      {
+        heading: "合規的申請敘事：展示準備度，而不是承諾結果",
+        paragraphs: [
+                "Personal Statement / SOP 與面試建議聚焦在「準備度訊號」：你了解模組、你有可執行的學習計劃、例子有證據、也明白錄取取決於校方標準與整體競爭情況。",
+                "如果你仍在 Business／Marketing／Media 之間猶豫，可以用更成熟的方式呈現：說明你如何用 evidence pack 來做路線 test-fit，以及未來 6–8 週你會做哪些行動（補課、做專題、閱讀與反思）來降低不確定性。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "bytedance-scholarship-2026-ai-students-application-briefing",
+    title: "ByteDance Scholarship 2026: A Briefing for AI and Computer Science Students",
+    date: "2026-05-24",
+    category: "Scholarships",
+    column: "study",
+    kicker: "Scholarship watch · AI research",
+    author: "留學導報編輯部",
+    summary: "A concise student-facing note on the ByteDance Scholarship application window, eligibility signals and preparation checklist, based on the official scholarship website and internal editorial lead.",
+    titleZh: "字節跳動獎學金 2026：AI 與計算機方向學生的申請提示",
+    summaryZh: "字節跳動獎學金已開放新一輪申請，面向人工智能、計算機科學及相關方向學生。本文把申請截止、研究成果、導師推薦與材料準備整理成導報提示，提醒學生以官方頁面為準。",
+    relatedReadings: [
+        "soas-nstc-taiwan-scholarships-2026-27-application-guide"
+      ],
+    resources: [
+        ["ByteDance Scholarship — Official Website", "https://scholarship.bytedance.com/en"]
+      ],
+    body: [
+      {
+        heading: "Editorial note",
+        paragraphs: [
+                "This scholarship briefing is for general information. Applicants should rely on the official ByteDance Scholarship website for eligibility, deadlines, award structure and form submission."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "這是一個值得 AI / CS 學生關注的企業獎學金",
+        paragraphs: [
+                "字節跳動獎學金面向人工智能、計算機科學及相關研究方向學生，重點關注科研潛力、階段性成果、研究問題意識與長期價值。對準備博士、科研實習、AI 安全、多模態生成、機器學習系統等方向的學生來說，這類項目可以作為研究履歷的一部分來準備。",
+                "根據官方獎學金頁面與郵件線索，新一輪申請節點集中在 2026 年 6 月下旬前後；具體 eligibility、地域、畢業時間、申請表和材料要求必須以官方頁面為準。"
+              ]
+      },
+      {
+        heading: "申請材料不只是堆成果",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>申請人應優先整理三類材料：第一，科研成果證明，例如論文、預印本、開源項目、競賽、專利或可展示的研究 demo；第二，導師推薦或學術評價；第三，一份能說清研究問題、方法、貢獻和未來方向的個人陳述。</p></div>",
+                "若成果仍處於階段性狀態，也不必急於包裝成完成品。更重要的是講清楚：你在解決什麼問題，已有證據支持到哪一步，下一步要如何驗證。"
+              ]
+      },
+      {
+        heading: "適合海外學生的準備節奏",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>第一週：核對官方申請頁，保存截止日期、申請表、資格條件和推薦信要求。若不確定自己是否符合地域或畢業時間條件，先向官方渠道確認。</p></div>",
+                "第二週：把研究成果整理為一頁 research evidence pack，包括項目名稱、你的角色、方法、結果、連結和可核驗材料。",
+                "第三週：請導師或研究 supervisor 提前準備推薦意見。不要等到截止前才發材料，因為高質量推薦需要對方理解你的研究脈絡。",
+                "最後：提交前做一次事實核對，確保日期、學校、研究方向、附件命名、連結權限和英文/中文表述一致。"
+              ]
+      },
+      {
+        heading: "導報提醒",
+        paragraphs: [
+                "獎學金資訊變動快，尤其是申請範圍、截止時間、獎項數量和評審安排。本文只作申請提示，不替代官方公告，也不承諾申請結果。",
+                "對海外申請人而言，最有價值的準備不是臨時寫一份漂亮文書，而是提前建立可核對的科研證據包。這份材料未必只用於一個獎學金，也可支持博士申請、暑研、研究助理申請和學術面試。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "china-fine-art-sino-foreign-cooperation-programmes-2026",
+    title: "Fine Art in China Through Sino-Foreign Programmes: A 2026 Checklist for International Families",
+    date: "2026-05-25",
+    category: "China Programmes",
+    column: "study",
+    kicker: "China · Fine Art · Sino-foreign cooperation",
+    author: "留學導報編輯部",
+    summary: "For families considering fine art without immediately sending a student overseas, Sino-foreign cooperation programmes may be worth reviewing, but the first check should be official approval, degree recognition and portfolio fit.",
+    titleZh: "2026 還想在國內讀純藝：中外合作辦學與藝術方向初篩清單",
+    summaryZh: "純藝家庭若暫時不想直接出國，可把中外合作辦學作為選項之一，但先查教育部平台、學位授予、外方合作院校、作品集要求、語言與後續升學出口，不能只看宣傳海報。",
+    relatedReadings: [
+        "uk-personal-statement-evidence-first-checklist",
+        "uk-aus-application-documents-checklist"
+      ],
+    resources: [
+        ["MOE Sino-foreign cooperation information platform", "https://www.crs.jsj.edu.cn/"],
+        ["China Ministry of Education", "https://www.moe.gov.cn/"]
+      ],
+    body: [
+      {
+        heading: "Why families look at this route",
+        paragraphs: [
+                "Some fine-art students want international curriculum exposure but are not ready, financially or personally, to move overseas immediately. Sino-foreign cooperation programmes may provide a middle route.",
+                "The route should be checked carefully: official approval, degree-awarding arrangements, studio resources, portfolio fit, language requirements and progression options."
+              ]
+      },
+      {
+        heading: "What to verify first",
+        paragraphs: [
+                "Start with the Ministry of Education’s Sino-foreign cooperation information platform. Confirm the programme name, Chinese institution, foreign partner, approval status, student intake scope and credential arrangement.",
+                "Then review whether the programme suits the student’s artistic direction: painting, sculpture, experimental art, visual communication, digital media, curation or interdisciplinary practice."
+              ]
+      },
+      {
+        heading: "Portfolio and student wellbeing",
+        paragraphs: [
+                "For fine art, the portfolio is not decoration. It should show process, observation, material experimentation, critical thinking and a coherent visual question.",
+                "Families should also consider student wellbeing, studio culture, workload, city environment and whether the programme supports later graduate applications."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼純藝家庭會看中外合作辦學",
+        paragraphs: [
+                "有些學生想接觸國際藝術教育，但暫時不適合直接出國：可能是年齡、家庭預算、語言、生活適應或安全管理方面的考量。這時，中外合作辦學可以作為一個過渡型選項。",
+                "但它不是「不用出國就等於海外名校」的捷徑。家長和學生要先查清楚項目是否在教育部平台可查、學位如何授予、外方合作院校是否真實參與、課程與作品集方向是否匹配。"
+              ]
+      },
+      {
+        heading: "第一步：查教育部平台",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>中外合作辦學信息應先查教育部中外合作辦學監管工作信息平台：https://www.crs.jsj.edu.cn/。重點核對項目名稱、中方院校、外方院校、批准書編號、招生層次、招生方式與證書信息。</p></div>",
+                "若宣傳材料中的名稱、外方院校、學位說法與平台信息不一致，應要求招生方提供正式書面說明，不要只依賴口頭承諾。"
+              ]
+      },
+      {
+        heading: "純藝要看作品集方向，不只看校名",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>純藝方向包括繪畫、雕塑、實驗藝術、裝置、影像、材料研究、策展與跨媒介實踐等。學生應確認課程是否支持自己的創作方向，而不是只看「國際」「合作」「雙文憑」等關鍵詞。</p></div>",
+                "作品集應呈現觀察、過程、材料實驗、概念發展與最終作品，而不只是漂亮成品。若未來想申海外研究生，還要看課程是否能支持英文 artist statement、portfolio documentation 與研究型寫作。"
+              ]
+      },
+      {
+        heading: "家長還要看生活與長期出口",
+        paragraphs: [
+                "藝術學習高度依賴工作室文化與生活狀態。家長應實地或線上了解城市環境、住宿、校園管理、工作室開放時間、教師背景、展覽機會與心理支持。",
+                "更重要的是長期出口：畢業後是國內升學、海外研究生、藝術教育、設計轉向、策展與文化機構，還是獨立創作。不同出口需要不同的課程和作品集策略。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "china-university-official-admission-channels-2026",
+    title: "Official Admission Channels to Chinese Universities: A 2026 Guide for International Students",
+    date: "2026-07-04",
+    category: "China Programmes",
+    column: "study",
+    kicker: "China · International admission · Official channels",
+    author: "留學導報編輯部",
+    summary: "For international students considering Chinese universities, the safe starting point is the official admission channel — the university international student office, the government scholarship system and the Ministry of Education platform — not a third-party “international programme” page.",
+    titleZh: "2026 外國學生赴中國高校：官方招生渠道與核驗指南",
+    summaryZh: "外國學生赴中國高校，第一步不是找「國際本科」廣告頁，而是核驗官方渠道：院校國際學生辦公室、CSC 與省市獎學金系統、教育部合作辦學平台，以及能否出正式錄取通知與 JW201／JW202。涵蓋川渝、廣州、江蘇等方向。",
+    relatedReadings: [
+        "china-fine-art-sino-foreign-cooperation-programmes-2026",
+        "uk-aus-application-documents-checklist"
+      ],
+    resources: [
+        ["CSC 中國政府獎學金 (Campus China)", "https://www.campuschina.org/"],
+        ["教育部中外合作辦學監管平台", "https://www.crs.jsj.edu.cn/"],
+        ["China Ministry of Education", "https://www.moe.gov.cn/"]
+      ],
+    body: [
+      {
+        heading: "Where the official channels actually are",
+        paragraphs: [
+                "Every Chinese university that admits international students runs an official international student office (often shown in English as the Overseas Students Office or International Student Office). That office, and the university’s own online application system, is the real entry point — not a general agent landing page.",
+                "Regions vary in the range of English-taught and Chinese-taught programmes available. Well-documented official channels include universities across Chengdu and Chongqing (川渝), Guangzhou (廣州) and Jiangsu (江蘇), alongside major national universities in other provinces. The institution name, its official domain and its application portal should always match before a student proceeds."
+              ]
+      },
+      {
+        heading: "Scholarship routes are separate systems",
+        paragraphs: [
+                "Scholarships do not all run through one door. The Chinese Government Scholarship (CSC) is applied for through the national scholarship system, then supported through the university’s own submission. Provincial and municipal scholarships are usually applied for alongside the university application. Chinese-language and teaching-related scholarships are handled through a different national body again.",
+                "Because these are distinct systems with distinct deadlines, a student applying for a scholarship should map which route applies to their programme before filling in anything — mixing the systems is one of the most common reasons an application stalls."
+              ]
+      },
+      {
+        heading: "Verify before you apply",
+        paragraphs: [
+                "For any cooperative, preparatory, “2+2 / 3+2” or overseas-taught arrangement, the first check is the Ministry of Education’s cooperation-programme information platform and the university’s official website — together, not either alone. Confirm the programme name, the Chinese institution, any foreign partner, the approval status and the credential arrangement.",
+                "A genuine degree-track admission produces a formal admission notice and the official visa forms (JW201 or JW202) needed for a study visa. If a “programme” cannot show an official admission notice and the correct visa paperwork, treat it as unverified.",
+                "<ul class=\"oeh-reminder-list\">\n            <li>Programme and institution match the official platform and the university’s own domain.</li>\n            <li>Formal admission notice plus JW201 / JW202 can be issued for the study visa.</li>\n            <li>Language route is clear (Chinese-taught with HSK, or an approved English-taught track).</li>\n            <li>Deadlines and intake month confirmed from the official notice, not a third-party page.</li>\n          </ul>"
+              ]
+      },
+      {
+        heading: "What a clean application flow looks like",
+        paragraphs: [
+                "A well-run application moves in a predictable order: eligibility and programme screening, document preparation, submission through the official system, application fee, pre-admission review, formal admission with JW201 / JW202, the X1 or X2 study visa, and finally on-campus registration.",
+                "Enrolment for most programmes falls in early September, with some spring intakes. Missing the stipulated registration window can forfeit an offer, so the visa and travel steps should be planned backwards from the enrolment date rather than left to the last weeks."
+              ]
+      },
+      {
+        heading: "How OTC supports this route",
+        paragraphs: [
+                "Overseas Tutorial Centre supports students and families with document pre-screening, official-source verification, education coordination and case follow-up. The emphasis is on checking that a route is official and that a student’s profile genuinely fits the programme, not on shortcuts.",
+                "OTC does not promise admission, visa outcomes or scholarships, and regulated matters — visa, legal, tax and immigration questions — are always referred to the relevant official body or a qualified professional. Students and partners are welcome to contact OTC for an initial channel check before committing to any application."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "官方渠道到底在哪裡",
+        paragraphs: [
+                "每一所招收國際學生的中國高校，都設有官方的國際學生辦公室（英文常寫作 Overseas Students Office 或 International Student Office）。這個辦公室與院校自己的線上申請系統，才是真正的申請入口，而不是一般中介的落地頁。",
+                "各地區可招收的中文授課／英文授課項目範圍不同。已有較完整官方渠道的方向包括川渝（成都、重慶）、廣州與江蘇，另有多所其他省份的重點高校。開始申請前，務必先讓「院校名稱、官方網域、申請系統」三者一致。"
+              ]
+      },
+      {
+        heading: "獎學金是各自獨立的系統",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>中國政府獎學金（CSC）先在國家獎學金系統 campuschina.org 申請，再由院校端提交；省市政府獎學金通常隨院校申請一併提交；國際中文教師等語言類獎學金，則走另一個國家層級的系統。</p></div>",
+                "由於這些是截止日期各異的不同系統，申請獎學金的學生應先釐清自己的項目對應哪一條渠道，再動手填寫——把系統混在一起，是申請卡住最常見的原因之一。"
+              ]
+      },
+      {
+        heading: "申請前先核驗",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>凡是合作辦學、預科、「2+2／3+2」或境外授課安排，第一步都要「教育部合作辦學信息平台」與「院校官網」兩者一起查，核對項目名稱、中方院校、外方合作院校、批准狀態與證書安排。</p></div>",
+                "真正的學歷錄取，會產生正式的錄取通知書與辦理學習簽證所需的 JW201／JW202。若一個「項目」拿不出正式錄取通知與正確的簽證表格，就視為未經核實。"
+              ]
+      },
+      {
+        heading: "乾淨的申請流程長怎樣",
+        paragraphs: [
+                "一個運作良好的申請有可預期的順序：資格與項目初篩 → 材料準備 → 官方系統提交 → 報名費 → 預審／預錄 → 正式錄取＋JW201／JW202 → X1／X2 學習簽證 → 入學註冊。",
+                "多數項目在 9 月初入學，部分有春季入學。錯過規定的註冊時間可能被取消錄取，因此簽證與行程應從入學日往回倒推規劃，不要拖到最後幾週。"
+              ]
+      },
+      {
+        heading: "OTC 如何協助",
+        paragraphs: [
+                "海外督導（OTC）為學生與家庭提供文件初篩、官方來源核對、教育協調與個案跟進，重點在於確認渠道是否官方、學生條件是否真正匹配項目，而非走捷徑。",
+                "OTC 不承諾錄取、簽證結果或獎學金；簽證、法律、稅務與移民等受監管事項，一律轉介相關官方機構或合資格專業人士。學生與合作方在正式提交任何申請前，歡迎先聯絡 OTC 做一次渠道核驗。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取、簽證或獎學金保證，亦非法律或移民意見。合作辦學、預科與「2+2／3+2」項目須經教育部平台與院校官網雙重核驗；具體申請要求、截止日期與入學條件，以相關院校或官方最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "cross-border-tax-residency-uk-srt-australia-2026",
+    title: "跨境稅務居民身分：英國 SRT 與澳洲居民測試怎麼看",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "Cross-border · Tax residency · UK SRT / AU",
+    author: "留學導報編輯部",
+    summary: "你就哪些收入納稅，取決於稅務居民身分，而非簽證或國籍。本文說明英國法定居民測試（SRT：天數與連結）、澳洲居民測試（resides／183 天等），以及雙重居民時如何用英澳租稅協定 tie-breaker。屬一般認識，以 HMRC、ATO 與合資格顧問為準。",
+    titleZh: "跨境稅務居民身分：英國 SRT 與澳洲居民測試怎麼看",
+    summaryZh: "你就哪些收入納稅，取決於稅務居民身分，而非簽證或國籍。本文說明英國法定居民測試（SRT：天數與連結）、澳洲居民測試（resides／183 天等），以及雙重居民時如何用英澳租稅協定 tie-breaker。屬一般認識，以 HMRC、ATO 與合資格顧問為準。",
+    relatedReadings: [
+        "uk-isa-pension-basics-2026",
+        "australia-superannuation-new-migrants-2026"
+      ],
+    resources: [
+        ["GOV.UK — SRT 指引 (RDR3)", "https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt"],
+        ["ATO — Residency for tax", "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas"],
+        ["HMRC — Tax on foreign income", "https://www.gov.uk/tax-foreign-income/residence"]
+      ],
+    body: [
+      {
+        heading: "為什麼「稅務居民身分」是第一個問題",
+        paragraphs: [
+                "你在哪個國家、就哪些收入要納稅，取決於你的<strong>稅務居民身分（tax residency）</strong>，而不是你的簽證或國籍。搞錯身分，輕則漏報、重則被兩地重複課稅。",
+                "跨境生活（英澳兩地、經常往返、剛移居或準備離境）的家庭，這是財富規劃的第一道題。"
+              ]
+      },
+      {
+        heading: "英國：法定居民測試 SRT",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>英國用 <strong>Statutory Residence Test（SRT）</strong>判定：先看 automatic overseas tests（自動非居民）、再看 automatic UK tests（自動居民），都不成立才看 <strong>sufficient ties test</strong>（在英天數＋與英國的連結）。另有 split year（分割年度）、domicile 與 remittance basis 等概念，影響海外收入如何課稅。</p></div>",
+                "天數與連結的計算細節多，邊界個案務必查 HMRC 指引 RDR3。"
+              ]
+      },
+      {
+        heading: "澳洲：居民測試",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>澳洲以多項測試判定稅務居民：<strong>resides test（居住事實）</strong>、domicile test、183-day test（一年在澳逾 183 天）與 Commonwealth superannuation test。近年有居民規則改革的討論，實務仍以 ATO 現行指引為準。</p></div>",
+                "澳洲稅務居民一般就全球收入納稅，身分認定務必謹慎。"
+              ]
+      },
+      {
+        heading: "雙重居民與租稅協定 DTA",
+        paragraphs: [
+                "若你同時符合兩地的居民條件，會依 <strong>英澳租稅協定（Double Tax Agreement）</strong>的 tie-breaker 規則（永久住所、重要利益中心、慣常居所、國籍）決定「協定居民」歸屬，並據此避免雙重課稅、申請 relief 或抵免。",
+                "DTA 的適用相當技術性，不同收入類型（薪資、股息、租金、退休金）規則不同。"
+              ]
+      },
+      {
+        heading: "實務與該找誰",
+        paragraphs: [
+                "務實做法：<strong>記錄每年在各國的天數與行程證據</strong>、保留住所與連結的文件。跨境者宜找同時熟悉兩地的稅務顧問（如 UK chartered tax adviser 與 AU registered tax agent）協調處理。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。額度、稅率、門檻與居民測試規則每年可能變動；具體情況請以 GOV.UK、HMRC、ATO 等官方資訊，及合資格律師、稅務顧問或 FCA 監管的財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼「稅務居民身分」是第一個問題",
+        paragraphs: [
+                "你在哪個國家、就哪些收入要納稅，取決於你的<strong>稅務居民身分（tax residency）</strong>，而不是你的簽證或國籍。搞錯身分，輕則漏報、重則被兩地重複課稅。",
+                "跨境生活（英澳兩地、經常往返、剛移居或準備離境）的家庭，這是財富規劃的第一道題。"
+              ]
+      },
+      {
+        heading: "英國：法定居民測試 SRT",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>英國用 <strong>Statutory Residence Test（SRT）</strong>判定：先看 automatic overseas tests（自動非居民）、再看 automatic UK tests（自動居民），都不成立才看 <strong>sufficient ties test</strong>（在英天數＋與英國的連結）。另有 split year（分割年度）、domicile 與 remittance basis 等概念，影響海外收入如何課稅。</p></div>",
+                "天數與連結的計算細節多，邊界個案務必查 HMRC 指引 RDR3。"
+              ]
+      },
+      {
+        heading: "澳洲：居民測試",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>澳洲以多項測試判定稅務居民：<strong>resides test（居住事實）</strong>、domicile test、183-day test（一年在澳逾 183 天）與 Commonwealth superannuation test。近年有居民規則改革的討論，實務仍以 ATO 現行指引為準。</p></div>",
+                "澳洲稅務居民一般就全球收入納稅，身分認定務必謹慎。"
+              ]
+      },
+      {
+        heading: "雙重居民與租稅協定 DTA",
+        paragraphs: [
+                "若你同時符合兩地的居民條件，會依 <strong>英澳租稅協定（Double Tax Agreement）</strong>的 tie-breaker 規則（永久住所、重要利益中心、慣常居所、國籍）決定「協定居民」歸屬，並據此避免雙重課稅、申請 relief 或抵免。",
+                "DTA 的適用相當技術性，不同收入類型（薪資、股息、租金、退休金）規則不同。"
+              ]
+      },
+      {
+        heading: "實務與該找誰",
+        paragraphs: [
+                "務實做法：<strong>記錄每年在各國的天數與行程證據</strong>、保留住所與連結的文件。跨境者宜找同時熟悉兩地的稅務顧問（如 UK chartered tax adviser 與 AU registered tax agent）協調處理。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。額度、稅率、門檻與居民測試規則每年可能變動；具體情況請以 GOV.UK、HMRC、ATO 等官方資訊，及合資格律師、稅務顧問或 FCA 監管的財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "family-office-cross-border-wealth-succession-2026",
+    title: "家族辦公室與跨境財富傳承入門：架構、風險與治理",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "Cross-border · Family office · Succession",
+    author: "留學導報編輯部",
+    summary: "家族辦公室為高淨值家族統籌投資、稅務、法律與傳承；但不是每個家庭都需要。本文說明跨境傳承的核心風險（多法域繼承法、遺產稅、CRS 申報）、常見工具（遺囑、信託、保險、控股）與治理（家族憲章、接班）。屬一般認識，須由 STEP 律師與稅務顧問評估。",
+    titleZh: "家族辦公室與跨境財富傳承入門：架構、風險與治理",
+    summaryZh: "家族辦公室為高淨值家族統籌投資、稅務、法律與傳承；但不是每個家庭都需要。本文說明跨境傳承的核心風險（多法域繼承法、遺產稅、CRS 申報）、常見工具（遺囑、信託、保險、控股）與治理（家族憲章、接班）。屬一般認識，須由 STEP 律師與稅務顧問評估。",
+    relatedReadings: [
+        "uk-estate-planning-will-probate-2026",
+        "australia-trust-guide"
+      ],
+    resources: [
+        ["GOV.UK — Inheritance Tax", "https://www.gov.uk/inheritance-tax"],
+        ["OECD — Common Reporting Standard", "https://www.oecd.org/tax/automatic-exchange/"],
+        ["STEP（傳承與信託專業組織）", "https://www.step.org/"]
+      ],
+    body: [
+      {
+        heading: "家族辦公室是什麼、誰真的需要",
+        paragraphs: [
+                "<strong>家族辦公室（family office）</strong>是為（超）高淨值家族統籌投資、稅務、法律、傳承、慈善與行政事務的架構，分 <em>single-family office</em>（單一家族）與 <em>multi-family office</em>（多家族共用）。它把原本分散在各顧問手上的事務集中治理。",
+                "但並非每個家庭都需要：要看資產規模、跨境複雜度與傳承需求，小型家庭用專業顧問團隊往往就足夠。"
+              ]
+      },
+      {
+        heading: "跨境傳承的核心風險",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>資產分散在英國、澳洲、香港、中國等多個法域時，會同時面對不同的繼承法、遺產稅、外匯管制與申報要求。缺乏規劃可能導致雙重課稅、資產一時凍結、認證（probate）延宕，甚至家族糾紛。</p></div>",
+                "跨境傳承的難點，往往不在單一國家的規則，而在「銜接」。"
+              ]
+      },
+      {
+        heading: "常見工具：遺囑、信託、保險、控股",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>常見工具包括：各法域協調的遺囑、信託（須注意各地稅務與 CRS 申報）、人壽保險（提供傳承時的流動性）、以及控股或公司架構。工具必須合法合規，避免被視為不當避稅或觸發反避稅規則。</p></div>",
+                "沒有「萬用工具」，適合與否取決於家族結構、資產所在與目標。"
+              ]
+      },
+      {
+        heading: "治理與傳承：不只是稅",
+        paragraphs: [
+                "財富傳承有一半是治理與溝通，而不只是稅務。常見安排包括 <strong>家族憲章（family charter）</strong>、接班規劃、下一代教育與參與、以及決策與爭議解決機制。制度設計得好，才能減少下一代的內耗。"
+              ]
+      },
+      {
+        heading: "合規與該找誰",
+        paragraphs: [
+                "跨境財富必須面對 <strong>CRS 自動情報交換</strong>、各地反避稅規則與透明度要求；資訊申報做不到位，風險很高。務實做法是組建跨法域團隊：<strong>STEP 律師、稅務顧問、持牌財務顧問與私人銀行</strong>共同協調。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務、法律或傳承意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或傳承規劃意見，也不構成任何結果保證。稅率、門檻、申報與合規規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor／STEP 會員）、稅務顧問或會計師的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "家族辦公室是什麼、誰真的需要",
+        paragraphs: [
+                "<strong>家族辦公室（family office）</strong>是為（超）高淨值家族統籌投資、稅務、法律、傳承、慈善與行政事務的架構，分 <em>single-family office</em>（單一家族）與 <em>multi-family office</em>（多家族共用）。它把原本分散在各顧問手上的事務集中治理。",
+                "但並非每個家庭都需要：要看資產規模、跨境複雜度與傳承需求，小型家庭用專業顧問團隊往往就足夠。"
+              ]
+      },
+      {
+        heading: "跨境傳承的核心風險",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>資產分散在英國、澳洲、香港、中國等多個法域時，會同時面對不同的繼承法、遺產稅、外匯管制與申報要求。缺乏規劃可能導致雙重課稅、資產一時凍結、認證（probate）延宕，甚至家族糾紛。</p></div>",
+                "跨境傳承的難點，往往不在單一國家的規則，而在「銜接」。"
+              ]
+      },
+      {
+        heading: "常見工具：遺囑、信託、保險、控股",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>常見工具包括：各法域協調的遺囑、信託（須注意各地稅務與 CRS 申報）、人壽保險（提供傳承時的流動性）、以及控股或公司架構。工具必須合法合規，避免被視為不當避稅或觸發反避稅規則。</p></div>",
+                "沒有「萬用工具」，適合與否取決於家族結構、資產所在與目標。"
+              ]
+      },
+      {
+        heading: "治理與傳承：不只是稅",
+        paragraphs: [
+                "財富傳承有一半是治理與溝通，而不只是稅務。常見安排包括 <strong>家族憲章（family charter）</strong>、接班規劃、下一代教育與參與、以及決策與爭議解決機制。制度設計得好，才能減少下一代的內耗。"
+              ]
+      },
+      {
+        heading: "合規與該找誰",
+        paragraphs: [
+                "跨境財富必須面對 <strong>CRS 自動情報交換</strong>、各地反避稅規則與透明度要求；資訊申報做不到位，風險很高。務實做法是組建跨法域團隊：<strong>STEP 律師、稅務顧問、持牌財務顧問與私人銀行</strong>共同協調。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務、法律或傳承意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或傳承規劃意見，也不構成任何結果保證。稅率、門檻、申報與合規規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor／STEP 會員）、稅務顧問或會計師的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "issos-agent-agreement-signed-2026",
+    title: "OTC 已簽署並回傳 ISSOS Agent Agreement：英國 St Andrews / Cambridge 暑校合作通道更新",
+    date: "2026-05-30",
+    category: "Session 1 / Session 2",
+    column: "study",
+    kicker: "ISSOS Partnership Desk · Signed Agent Agreement",
+    author: "留學導報編輯部",
+    summary: "2026 年 5 月，OTC 收到 ISSOS Admissions Director Emma Horner 發來的 agent agreement 與 fact sheet，並已完成簽署版回傳。這代表 OTC 與 ISSOS 的英國暑校合作通道進一步落地；後續學生 referral、英文分級測試、付款與家庭溝通流程均可按 ISSOS 書面確認執行。",
+    titleZh: "OTC 已簽署並回傳 ISSOS Agent Agreement：英國 St Andrews / Cambridge 暑校合作通道更新",
+    summaryZh: "2026 年 5 月，OTC 收到 ISSOS Admissions Director Emma Horner 發來的 agent agreement 與 fact sheet，並已完成簽署版回傳。這代表 OTC 與 ISSOS 的英國暑校合作通道進一步落地；後續學生 referral、英文分級測試、付款與家庭溝通流程均可按 ISSOS 書面確認執行。",
+    body: [
+      {
+        heading: "ISSOS 合作文件已進一步落地",
+        paragraphs: [
+                "ISSOS 向 OTC 發來 agent agreement 與 fact sheet，並就英文分級測試、學生 referral tracking、合作安排、付款和溝通方式作出書面說明。OTC 已簽署並回傳 agent agreement，相關合作文件已歸入 OTC 對外合作文件庫，供後續內部核對與學生申請流程使用。",
+                "對家長而言，這意味著 ISSOS 不再只是英國暑校清單中的一個 provider，而是可以透過 OTC 進一步做項目核對、申請溝通和 referral tracking 的合作通道之一。"
+              ]
+      },
+      {
+        heading: "ISSOS 已確認的申請與 tracking 流程",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>項目</th><th>ISSOS 書面確認內容</th><th>對家庭的實務意義</th></tr></thead>\n              <tbody>\n                <tr><td>英文分級測試</td><td>學生申請後，ISSOS 會向學生發送 online English placement / level test，學生與 ISSOS 均會收到結果。</td><td>家庭不用先自行安排外部測試，但學生需具備可完成英文課堂指令的基本英文能力。</td></tr>\n                <tr><td>Referral tracking</td><td>可由 OTC 直接 email 學生姓名給 ISSOS，或在 online application form 指定欄位填入 agency name。</td><td>申請可與 OTC 對接並留痕，便於後續查詢與跟進。</td></tr>\n                <tr><td>付款方式</td><td>付款通過 Flywire online payment 完成。</td><td>家庭付款路徑以 ISSOS 正式付款要求為準，OTC 可協助核對流程。</td></tr>\n                <tr><td>溝通方式</td><td>ISSOS 可只與 OTC、只與家庭，或同時與 OTC 及家庭溝通。</td><td>可根據家庭偏好選擇 OTC 統一協調或三方共同溝通。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "2026 當前可查詢名額方向",
+        paragraphs: [
+                "根據 ISSOS 發給 OTC 的最新書面回覆，St Andrews 與 Cambridge 仍有部分 session / academic classes / electives 可供查詢。由於暑校名額會快速變動，以下信息只作申請前初步判斷，正式報名前仍需由 ISSOS 書面確認。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>校區 / Session</th><th>Academic classes</th><th>Electives</th></tr></thead>\n              <tbody>\n                <tr><td>St Andrews Session 1</td><td>English Language、Creative Writing、Study Skills（16+）</td><td>Film、Theatre、Art、Golf</td></tr>\n                <tr><td>St Andrews Session 2</td><td>Business、Youth Leadership、English、Study Skills、Creative Writing</td><td>Tennis、Golf、Theatre、Film、Art</td></tr>\n                <tr><td>Cambridge</td><td>English、Journalism、Study Skills</td><td>Tennis、Photography、Theatre</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "OTC 對家長的操作建議",
+        paragraphs: [
+                "如果家庭正在比較 ISSOS、Bucksmore、Bell、Concord、Inspired 或其他英國暑校，建議先不要只看校名，而要先把年齡、英文基礎、是否接受三週 residential、學術課與 elective 的比例、學生獨立性和家長希望 OTC 介入的深度講清楚。",
+                "對 ISSOS 路線，OTC 可先協助家庭完成方向篩選：St Andrews 或 Cambridge、academic class 選擇、elective 優先序、英文分級測試預期、付款與溝通節點。實際錄取、名額、費用、退款、監護與行前要求仍以 ISSOS 最新正式文件和書面確認為準。"
+              ]
+      },
+      {
+        heading: "下一步",
+        paragraphs: [
+                "OTC 將把 ISSOS 放入英國暑校聯盟頁與英國暑校課程總表的合作通道更新中，供家長在比較英國 premium camp / residential summer school route 時快速查看。已有學生意向的家庭，可直接聯絡 OTC 先做年齡、英文、校區與課程方向初篩。",
+                "<div class=\"zh-herald-teal-box\">\n            <div class=\"zh-herald-box-title\">聯絡 OTC</div>\n            <p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>英國暑校入口：<a href=\"/zh/summer-school-alliance/uk/\">/zh/summer-school-alliance/uk/</a></p>\n          </div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為 OTC 導報對合作文件進展與暑校申請流程的公開信息整理，不構成法律意見、錄取保證、簽證意見或 ISSOS 官方公告。所有申請條件、價格、付款、取消政策、名額與學生安排，應以 ISSOS 最新正式文件及書面回覆為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "ISSOS 合作文件已進一步落地",
+        paragraphs: [
+                "ISSOS 向 OTC 發來 agent agreement 與 fact sheet，並就英文分級測試、學生 referral tracking、合作安排、付款和溝通方式作出書面說明。OTC 已簽署並回傳 agent agreement，相關合作文件已歸入 OTC 對外合作文件庫，供後續內部核對與學生申請流程使用。",
+                "對家長而言，這意味著 ISSOS 不再只是英國暑校清單中的一個 provider，而是可以透過 OTC 進一步做項目核對、申請溝通和 referral tracking 的合作通道之一。"
+              ]
+      },
+      {
+        heading: "ISSOS 已確認的申請與 tracking 流程",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>項目</th><th>ISSOS 書面確認內容</th><th>對家庭的實務意義</th></tr></thead>\n              <tbody>\n                <tr><td>英文分級測試</td><td>學生申請後，ISSOS 會向學生發送 online English placement / level test，學生與 ISSOS 均會收到結果。</td><td>家庭不用先自行安排外部測試，但學生需具備可完成英文課堂指令的基本英文能力。</td></tr>\n                <tr><td>Referral tracking</td><td>可由 OTC 直接 email 學生姓名給 ISSOS，或在 online application form 指定欄位填入 agency name。</td><td>申請可與 OTC 對接並留痕，便於後續查詢與跟進。</td></tr>\n                <tr><td>付款方式</td><td>付款通過 Flywire online payment 完成。</td><td>家庭付款路徑以 ISSOS 正式付款要求為準，OTC 可協助核對流程。</td></tr>\n                <tr><td>溝通方式</td><td>ISSOS 可只與 OTC、只與家庭，或同時與 OTC 及家庭溝通。</td><td>可根據家庭偏好選擇 OTC 統一協調或三方共同溝通。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "2026 當前可查詢名額方向",
+        paragraphs: [
+                "根據 ISSOS 發給 OTC 的最新書面回覆，St Andrews 與 Cambridge 仍有部分 session / academic classes / electives 可供查詢。由於暑校名額會快速變動，以下信息只作申請前初步判斷，正式報名前仍需由 ISSOS 書面確認。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>校區 / Session</th><th>Academic classes</th><th>Electives</th></tr></thead>\n              <tbody>\n                <tr><td>St Andrews Session 1</td><td>English Language、Creative Writing、Study Skills（16+）</td><td>Film、Theatre、Art、Golf</td></tr>\n                <tr><td>St Andrews Session 2</td><td>Business、Youth Leadership、English、Study Skills、Creative Writing</td><td>Tennis、Golf、Theatre、Film、Art</td></tr>\n                <tr><td>Cambridge</td><td>English、Journalism、Study Skills</td><td>Tennis、Photography、Theatre</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "OTC 對家長的操作建議",
+        paragraphs: [
+                "如果家庭正在比較 ISSOS、Bucksmore、Bell、Concord、Inspired 或其他英國暑校，建議先不要只看校名，而要先把年齡、英文基礎、是否接受三週 residential、學術課與 elective 的比例、學生獨立性和家長希望 OTC 介入的深度講清楚。",
+                "對 ISSOS 路線，OTC 可先協助家庭完成方向篩選：St Andrews 或 Cambridge、academic class 選擇、elective 優先序、英文分級測試預期、付款與溝通節點。實際錄取、名額、費用、退款、監護與行前要求仍以 ISSOS 最新正式文件和書面確認為準。"
+              ]
+      },
+      {
+        heading: "下一步",
+        paragraphs: [
+                "OTC 將把 ISSOS 放入英國暑校聯盟頁與英國暑校課程總表的合作通道更新中，供家長在比較英國 premium camp / residential summer school route 時快速查看。已有學生意向的家庭，可直接聯絡 OTC 先做年齡、英文、校區與課程方向初篩。",
+                "<div class=\"zh-herald-teal-box\">\n            <div class=\"zh-herald-box-title\">聯絡 OTC</div>\n            <p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>英國暑校入口：<a href=\"/zh/summer-school-alliance/uk/\">/zh/summer-school-alliance/uk/</a></p>\n          </div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為 OTC 導報對合作文件進展與暑校申請流程的公開信息整理，不構成法律意見、錄取保證、簽證意見或 ISSOS 官方公告。所有申請條件、價格、付款、取消政策、名額與學生安排，應以 ISSOS 最新正式文件及書面回覆為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "ISSOS 名額、課程、electives、付款、取消、退款、監護與行前文件要求會變動，正式報名前須以 ISSOS 最新書面確認為準。",
+        "OTC 對學生申請提供信息整理、溝通協調與文件核對支持，不構成錄取、簽證或最終名額保證。"
+      ],
+  },
+  {
+    slug: "nclex-rn-2026-stream-b-taiwan-nursing-prep",
+    title: "NCLEX-RN 2026 Prep Strategy for Taiwan-Trained Stream B Nurses",
+    date: "2026-05-24",
+    category: "Australia Health Pathways",
+    column: "settlement",
+    kicker: "NCLEX-RN · NGN · Stream B",
+    author: "留學導報編輯部",
+    summary: "A practical, source-checked NCLEX-RN preparation plan for Taiwan-trained nurses using the Ahpra/NMBA Stream B OBA route, updated for the 2026 RN test plan and Next Generation NCLEX item formats.",
+    titleZh: "NCLEX-RN 備考策略完整解析（2026 最新版）：台灣五專背景 Stream B 考生專用",
+    summaryZh: "NCLEX-RN 是 AHPRA / NMBA Stream B OBA 路線中的核心筆試。本文依 NCSBN 2026 RN Test Plan、NCLEX Candidate Bulletin 與 NMBA RN MCQ 頁面，整理台灣五專護理背景考生可用的 8-12 週備考策略、NGN 題型、時間管理與 OSCE 銜接提醒。",
+    relatedReadings: [
+        "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway"
+      ],
+    resources: [
+        ["NCSBN — 2026 NCLEX-RN Test Plan", "https://www.ncsbn.org/publications/2026-nclex-rn-test-plan"],
+        ["NCLEX — Test Plans", "https://www.nclex.com/test-plans"],
+        ["NCSBN — 2026 NCLEX Examination Candidate Bulletin", "https://www.ncsbn.org/public-files/NCLEX_Examination_Candidate_Bulletin_April_2026.pdf"],
+        ["NCSBN — Current scoring models", "https://ncsbn.zendesk.com/hc/en-us/articles/14690447982359-What-are-the-current-scoring-models"],
+        ["NCLEX — Frequently Asked Questions", "https://www.nclex.com/faqs.page"],
+        ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
+        ["NMBA — Objective Structured Clinical Exam (OSCE)", "https://www.nursingmidwiferyboard.gov.au/Accreditation%20/IQNM/Examination/Objective-structured-clinical-exam.aspx"]
+      ],
+    body: [
+      {
+        heading: "First correction: 2026 NCLEX-RN is 85-150 items, not 75-145",
+        paragraphs: [
+                "The April 2026 NCLEX Candidate Bulletin states that the NCLEX-RN is a variable-length computerized adaptive test with 85 to 150 items and a five-hour time limit, including optional breaks.",
+                "The 2026 RN Test Plan is effective from April 1, 2026 through March 31, 2029. Candidates should treat the test plan as the map for study, because it explains client-needs categories, clinical judgment, sample item formats and item-writing logic.",
+                "For Ahpra/NMBA Stream B registered nurse candidates, the RN MCQ examination is coordinated with NCSBN and delivered through Pearson VUE using the NCLEX-RN."
+              ]
+      },
+      {
+        heading: "What Taiwan-trained nurses should train differently",
+        paragraphs: [
+                "Many Taiwan-trained nurses are clinically experienced but need to adjust to NCLEX language: prioritisation, delegation, safety, therapeutic communication, infection control, pharmacology and US-style entry-level nursing responsibility.",
+                "The exam rewards clinical judgment more than memorisation. A useful daily question is not simply 'what is correct?' but 'what is the safest nursing action now, based on the cues available?'",
+                "Build a bilingual weak-point log for English medical terms, medication classes, maternal-child nursing, mental health, paediatrics, delegation and emergency prioritisation."
+              ]
+      },
+      {
+        heading: "NGN item formats and scoring",
+        paragraphs: [
+                "Next Generation NCLEX item formats may include case studies, bow-tie, matrix/grid, drag-and-drop, highlight and extended multiple response. The point is to assess whether the candidate can notice cues, analyse them, prioritise hypotheses, take action and evaluate outcomes.",
+                "Do not rely on the old rule that all SATA items are simply all-or-nothing. NCSBN states that items with more than one key can use partial-credit scoring, including plus/minus, zero/one and rationale scoring models.",
+                "For practice, this means reviewing rationales is more valuable than counting only the percentage correct. A candidate should know whether the mistake was knowledge, cue recognition, prioritisation, English wording or unsafe delegation."
+              ]
+      },
+      {
+        heading: "A realistic 8-12 week plan",
+        paragraphs: [
+                "Weeks 1-3 should focus on the official test plan, baseline question bank results and high-frequency content gaps. Use daily blocks of 50-75 questions plus rationale review rather than passive reading.",
+                "Weeks 4-8 should increase to timed mixed sets and CAT-style practice. Track each missed item under content area and reasoning error. Pharmacology, physiology, maternal-child, mental health and safety/delegation usually need repeated spaced review.",
+                "The final two to four weeks should focus on full timed practice, NGN case studies, sleep rhythm, test-day routine and reducing avoidable anxiety. Readiness scores from commercial tools are signals, not guarantees."
+              ]
+      },
+      {
+        heading: "Stream B timeline and OSCE connection",
+        paragraphs: [
+                "Ahpra/NMBA advises that once a portfolio has been approved, the IQNM dashboard will direct candidates to register and pay for the NCLEX-RN through Pearson VUE. After authorisation, candidates schedule the examination through Pearson VUE.",
+                "The current Ahpra RN candidate handbook states that the Authorization to Test is valid for 90 days. NCSBN also reminds candidates that they must test within the dates of the ATT, which cannot be extended.",
+                "Passing the NCLEX-RN is not the end of the Stream B route. Stream B candidates still need to complete the OSCE before they are eligible to apply for registration in Australia."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先修正一個重要數字：2026 版不是 75-145 題",
+        paragraphs: [
+                "NCSBN 2026 年 4 月版 Candidate Bulletin 說明，NCLEX-RN 是電腦適應性考試（CAT），題量為 85 至 150 題，總時間最多 5 小時，時間包含介紹頁面與所有休息。",
+                "2026 RN Test Plan 自 2026 年 4 月 1 日生效，至 2029 年 3 月 31 日。它不是普通簡章，而是備考地圖：內容類別、臨床判斷、題型示例和命題邏輯都在裡面。",
+                "對 AHPRA / NMBA Stream B 的 Registered Nurse 考生來說，RN MCQ Examination 由 NCSBN / Pearson VUE 的 NCLEX-RN 承接。這一關是 OBA 路線的重要筆試，但不是澳洲註冊的最後一步。"
+              ]
+      },
+      {
+        heading: "台灣五專背景考生最需要換腦的地方",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>台灣護理師常有真實臨床經驗，但 NCLEX-RN 的難點在語言與思維轉換：prioritization、delegation、safety、therapeutic communication、infection control、pharmacology，以及美式入門 RN 的職責邊界。</p></div>",
+                "這不是單純背題考試。更好的練習問題是：在目前資料與風險下，最安全、最優先、最符合 RN 職責的下一步是什麼？",
+                "建議建立雙語弱點本，把錯題分成 medication / maternal-child / mental health / paediatrics / delegation / emergency prioritisation / English wording，而不是只記『這題選錯』。"
+              ]
+      },
+      {
+        heading: "NGN 題型：不要再用舊 SATA 規則備考",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Next Generation NCLEX（NGN）會用 case studies、bow-tie、matrix/grid、drag-and-drop、highlight、extended multiple response 等題型，測的是考生能否發現 cues、分析資料、排序假設、採取行動並評估結果。</p></div>",
+                "原稿中的『SATA 全部選對才得分』需要修正。NCSBN 目前說明，多答案題可使用 partial credit scoring，常見模型包括 plus/minus、zero/one 和 rationale scoring。",
+                "所以刷題時不要只看正確率。每一道錯題都要問：是知識缺口、線索辨識、優先順序、英文理解，還是 delegation / safety 判斷錯誤？這比單純追求題量更有用。"
+              ]
+      },
+      {
+        heading: "8-12 週備考節奏：把題庫變成診斷工具",
+        paragraphs: [
+                "第 1-3 週，先讀官方 Test Plan，做一次基線測試，每天 50-75 題加完整解析。這一階段不要急著衝模考分數，重點是找出內容缺口與英文題幹習慣。",
+                "第 4-8 週，改成限時 mixed sets 與 CAT-style practice。每週固定複盤弱項：藥理、內外科生理、產兒、精神、感染控制、安全與 delegation。錯題本要按『為什麼錯』分類。",
+                "最後 2-4 週，重點放在完整限時練習、NGN case studies、作息穩定、考場流程和焦慮管理。商業題庫的 readiness assessment 只能當參考訊號，不是通過保證。"
+              ]
+      },
+      {
+        heading: "資源怎麼選：官方資料打底，商業題庫做訓練",
+        paragraphs: [
+                "官方資料必讀：NCSBN 2026 RN Test Plan、NCLEX Candidate Bulletin、NCLEX FAQ、Ahpra / NMBA 的 RN MCQ 頁面。先確定考試制度，再選補習或題庫。",
+                "商業題庫可作訓練工具，例如 UWorld、Archer、Kaplan、SimpleNursing 等，但本文不把任何第三方資源寫成保證有效。選擇時看三件事：解析品質、NGN 題型覆蓋、錯題分類是否方便。",
+                "若使用 Mark Klimek 或其他免費講義/音頻，也應把它當成概念複習，而不是官方標準答案來源。真正的底層標準仍是 NCSBN test plan 和護理監管機構要求。"
+              ]
+      },
+      {
+        heading: "ATT、90 天與 OSCE：不要只盯著筆試",
+        paragraphs: [
+                "Ahpra / NMBA 說明，portfolio approved 之後，IQNM dashboard 會提示考生到 NCSBN / Pearson VUE 註冊並支付 NCLEX-RN 費用；之後收到 Authorization to Test（ATT）再預約考點與日期。",
+                "目前 Ahpra RN candidate handbook 寫明 ATT 有效期為 90 天；NCSBN 也提醒考生必須在 ATT 有效日期內考試，ATT 日期不能延長。因此公開文章不宜把備考窗口寫成固定 180 天，而應寫成『按個人 ATT 有效期倒排備考』。",
+                "更重要的是，Stream B 考生通過 NCLEX-RN 後仍需準備 OSCE。NMBA 的 OSCE 頁面明確說明，Stream B 候選人完成 Orientation Part 1、Portfolio 和 MCQ 後，還需要通過 OSCE，才有資格申請澳洲註冊。"
+              ]
+      },
+      {
+        heading: "導報建議：可以鼓勵，但不要製造保證感",
+        paragraphs: [
+                "台灣五專護理背景的考生，不需要被『海外考試』嚇倒；你們的臨床經驗是資產。但 NCLEX-RN 要求的是英文環境下的安全判斷與入門 RN 標準，需要有紀律地轉換題感。",
+                "比較穩的策略是：官方 test plan 做地圖，題庫做訓練，錯題本做診斷，ATT 有效期做時間邊界，OSCE 做下一階段準備。",
+                "本文為一般教育資訊，不是註冊、移民、就業或財務建議。AHPRA / NMBA 流程、NCLEX 費用與考試安排、OSCE 位置及個人適用性，請以官方頁面與個案通知為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "nclex-rn-bilingual-clinical-judgment-demo-launch",
+    title: "NCLEX-RN Bilingual Clinical Judgment Demo Goes Live",
+    date: "2026-05-24",
+    category: "OTC News",
+    column: "study",
+    kicker: "NCLEX-RN · Demo Launch · Overseas Supervision",
+    author: "海外督導學習中心 / 留學導報編輯部",
+    summary: "Overseas Supervision has released a public bilingual NCLEX-RN clinical judgment demo with 50 original low-risk practice items, glossary support and a learner review report, while the full 500-item pool remains under internal clinical and compliance review.",
+    titleZh: "NCLEX-RN 雙語臨床判斷 Demo 上線：50 題公開展示題池與學員報告工具",
+    summaryZh: "海外督導學習中心正式上線 NCLEX-RN 雙語臨床判斷公開 Demo，先開放 50 題低風險原創展示題、雙語術語表、錯題分類與學員報告工具；完整 500 題題池仍留在內部進行臨床與合規審核。",
+    relatedReadings: [
+        "overseas-supervision-nclex-rn-bilingual-study-companion-preview",
+        "nclex-rn-2026-stream-b-taiwan-nursing-prep",
+        "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway"
+      ],
+    resources: [
+        ["OTC — NCLEX-RN Bilingual Demo", "https://overseasuk.com/apps/nclex-rn-bilingual-demo/"],
+        ["OTC — NCLEX-RN Bilingual Trainer", "https://overseasuk.com/apps/nclex-rn-bilingual-trainer/"],
+        ["NCLEX — Test plans", "https://www.nclex.com/test-plans"],
+        ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM.aspx"],
+        ["OTC — Australia VET / TAFE Health & Community Services", "https://overseasuk.com/zh/australia-vet-tafe-pathways/health-community/"]
+      ],
+    body: [
+      {
+        heading: "Public demo now available",
+        paragraphs: [
+                "Overseas Supervision has released the first public demo of its NCLEX-RN bilingual clinical judgment learning tool. The demo is designed for Chinese-speaking nurses and health-care learners who are researching NCLEX-RN preparation in the context of the Ahpra/NMBA Stream B route.",
+                "The public version is intentionally modest: 50 original low-risk practice items, bilingual rationales, a glossary panel, category filters, wrong-answer review and a learner report that can be copied into notes or sent to a tutor.",
+                "Readers who subscribe to Overseas Study Review and OTC website updates can use the public demo directly: open the landing page at <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a>, or open the trainer at <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>."
+              ]
+      },
+      {
+        heading: "What the demo is testing",
+        paragraphs: [
+                "The demo is not a full CAT simulator and not a replacement for established NCLEX products. Its purpose is narrower: to test whether a bilingual interface can help learners notice cue recognition, prioritisation language, delegation boundaries, safety logic and the reason behind each wrong answer.",
+                "Instead of showing only a score, the trainer asks learners to tag the likely cause of each miss, such as knowledge gap, English wording, cue recognition, prioritisation, delegation/scope or safety and infection control.",
+                "This gives tutors and learners a better starting point for feedback: not simply 'more questions needed', but 'which kind of thinking broke down here?'"
+              ]
+      },
+      {
+        heading: "Why the release is staged",
+        paragraphs: [
+                "The full product line is being built around a much larger original question pool of 500 items. That internal pool is not being released publicly yet because clinical-education material must be reviewed with more care than ordinary marketing content.",
+                "For the public demo, the team selected lower-risk items and removed higher-stakes categories that require deeper nursing review, including complex pharmacology, obstetric emergencies, acute deterioration, airway risk, sepsis escalation and other areas where wording precision matters.",
+                "This staged release lets learners try the learning design now while the editorial team continues clinical review, source checking, glossary expansion and app usability testing."
+              ]
+      },
+      {
+        heading: "Who should try it first",
+        paragraphs: [
+                "The demo is most relevant for Taiwan-trained nurses, Chinese-speaking nursing graduates, health and community-care learners, and families researching Australian RN routes through GCAN, Stream B, NCLEX-RN and OSCE.",
+                "It may also help tutors understand how a learner is reading English nursing questions: whether the difficulty lies in vocabulary, clinical judgment, exam logic or confidence under time pressure.",
+                "Early users are encouraged to record which categories feel useful, which rationales need clearer Chinese explanation and whether the learner report is practical enough for supervision."
+              ]
+      },
+      {
+        heading: "Next steps",
+        paragraphs: [
+                "Overseas Supervision will now use the public demo to collect feedback before moving into a more structured beta. The next planned improvements include broader glossary coverage, topic-specific drills, a wrong-answers-only review mode and clearer tutor-facing progress summaries.",
+                "The full 500-item pool will remain an internal review asset until the clinical and compliance checks are complete. The public message is simple: try the demo, test the bilingual learning design, and help shape a safer, clearer NCLEX-RN support tool for Chinese-speaking learners."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "This demo is an independent educational prototype. It is not an official NCLEX, NCSBN, Pearson VUE, Ahpra, NMBA, ANMAC or immigration product, and it is not endorsed by those bodies.",
+                "The demo does not guarantee NCLEX-RN pass, OSCE pass, Australian registration, skills assessment, visa grant, school admission or employment outcome.",
+                "Learners must always follow their own official Ahpra/NMBA dashboard, Pearson VUE instructions, ATT validity dates, regulator communications and professional advice where required."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "公開 Demo 正式上線",
+        paragraphs: [
+                "海外督導學習中心正式上線 NCLEX-RN 雙語臨床判斷公開 Demo。這是海外督導與海外書局正在策劃的護理雙語教輔產品線中的第一個公開展示版本，主要面向正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 路線的華語護理背景讀者。",
+                "公開版刻意採用小而清楚的範圍：50 題低風險原創展示題、雙語解析、術語表、分類篩選、錯題回看與學員報告工具。這不是把完整產品一次性放出，而是先讓讀者試用學習設計與界面邏輯。",
+                "訂閱本刊及 OTC 網站更新的讀者，可直接使用公開 Demo：從公開入口 <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> 進入；也可直接打開練習工具 <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>。"
+              ]
+      },
+      {
+        heading: "這個 Demo 想測試什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>這個 Demo 不是完整 CAT 模擬器，也不是要替代 UWorld、Archer、Kaplan、Saunders 等成熟備考產品。它測試的是另一件事：雙語界面是否能幫華語考生看清 cue recognition、prioritisation、delegation、scope of practice、safety logic，以及每一次錯題背後真正卡住的位置。</p></div>",
+                "練習工具不只顯示對錯，也會引導學員標記錯題原因，例如 knowledge gap、English wording、cue recognition、prioritization、delegation/scope、safety/infection control。",
+                "這樣一來，學員和督導老師討論時就不只是『分數不夠』，而是能看出：到底是英文題幹沒讀懂、線索沒抓住、優先順序錯了，還是對澳洲/英語護理語境中的職責邊界不熟悉。"
+              ]
+      },
+      {
+        heading: "為什麼採用分階段發布",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>完整產品線目前已圍繞 500 題原創題池進行內部建設，但這個完整題池不會直接公開。原因很簡單：臨床教育內容不同於普通市場文案，任何涉及藥理、急症、產兒科、惡化病人與安全風險的表述，都需要更嚴格的臨床與合規審核。</p></div>",
+                "因此，公開 Demo 先選擇相對低風險的展示題，暫時避開複雜藥理、產科急症、急性惡化、airway risk、sepsis escalation、重大出血等需要更高精度審閱的內容。",
+                "這種分階段發布方式，可以讓讀者現在就試用學習工具，也讓編輯團隊有時間繼續做臨床審核、來源核對、術語擴充與 App 使用體驗測試。"
+              ]
+      },
+      {
+        heading: "誰適合先試用",
+        paragraphs: [
+                "這個 Demo 最適合幾類讀者：台灣五專/專科護理背景考生、正在研究澳洲 RN 路線的華語護理師、準備 NCLEX-RN 的護理畢業生、健康護理與社區服務方向學習者，以及正在為家人規劃 GCAN、Stream B、NCLEX-RN、OSCE 路線的家庭。",
+                "對督導老師而言，它也可以作為初步診斷工具：觀察學員讀英文護理題時，困難究竟來自詞彙、臨床判斷、考試邏輯，還是時間壓力下的不確定感。",
+                "我們也希望早期用戶反饋：哪些分類最有用、哪些中文解析需要更清楚、學員報告是否方便貼到筆記或發給督導老師。"
+              ]
+      },
+      {
+        heading: "合規邊界",
+        paragraphs: [
+                "本 Demo 是獨立教育原型，不是 NCLEX、NCSBN、Pearson VUE、AHPRA、NMBA、ANMAC 或任何移民/監管機構的官方產品，也不代表上述機構背書。",
+                "本 Demo 不承諾 NCLEX-RN 通過、不承諾 OSCE 通過、不承諾澳洲 RN 註冊、不承諾職業評估、不承諾簽證、不承諾入學或就業結果。",
+                "學員仍必須以自己的 Ahpra/NMBA dashboard、Pearson VUE 通知、ATT 有效日期、官方監管要求及必要時的專業建議為準。"
+              ]
+      },
+      {
+        heading: "下一步",
+        paragraphs: [
+                "海外督導將先用公開 Demo 收集小範圍反饋，再進入更正式的 beta 測試。下一步規劃包括：擴充雙語術語表、增加主題練習、加入 only wrong answers review mode，並把學員報告做得更適合督導老師使用。",
+                "完整 500 題題池會繼續作為內部審核資產保留，待臨床與合規審核完成後再決定公開範圍。現階段的公開信息很明確：先試用 Demo，檢驗雙語學習設計，逐步把這套 NCLEX-RN 支援工具做得更安全、更清楚、更適合華語護理背景學員。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "new-zealand-aewv-skill-level-3-english-requirement-2026",
+    title: "New Zealand AEWV Update: English Requirement Extends to Skill Level 3 Roles from 1 June 2026",
+    date: "2026-05-25",
+    category: "New Zealand Policy Watch",
+    column: "study",
+    kicker: "New Zealand · AEWV · English requirement",
+    author: "留學導報編輯部",
+    summary: "Immigration New Zealand has confirmed that from 1 June 2026, AEWV applicants in ANZSCO or National Occupation List skill level 3 roles must meet the minimum English language requirement, with targeted transitional exemptions for some current AEWV holders.",
+    titleZh: "紐西蘭 AEWV 新規：2026 年 6 月 1 日起 Skill Level 3 職位也要英文證明",
+    summaryZh: "Immigration New Zealand 已確認，自 2026 年 6 月 1 日起，AEWV 申請中屬於 ANZSCO 或 National Occupation List skill level 3 的職位，也須符合最低英文能力要求。部分現有 AEWV 持有人有過渡豁免。",
+    relatedReadings: [
+        "australia-new-zealand-provider-pathway-updates-2026",
+        "uk-aus-application-documents-checklist",
+        "australia-locum-pharmacist-fifo-career-guide"
+      ],
+    resources: [
+        ["Immigration New Zealand announcement", "https://www.immigration.govt.nz/about-us/news-centre/english-language-requirements-extended-to-aewv-skill-level-3-roles/"],
+        ["AEWV English language requirements", "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/english-language-requirements/english-language-requirements-for-an-accredited-employer-work-visa/"],
+        ["Beehive government release", "https://www.beehive.govt.nz/release/english-language-requirement-extended-aewv-skill-level-3-roles"]
+      ],
+    body: [
+      {
+        heading: "What has changed",
+        paragraphs: [
+                "Immigration New Zealand has announced that from 1 June 2026, minimum English language requirements for the Accredited Employer Work Visa (AEWV) will extend to ANZSCO and National Occupation List (NOL) skill level 3 occupations.",
+                "The English requirement already applied to AEWV roles at skill levels 4 and 5. The policy change brings skill level 3 roles into the same minimum-English framework."
+              ]
+      },
+      {
+        heading: "Who is affected",
+        paragraphs: [
+                "The change affects people applying for an AEWV in a skill level 3 role from 1 June 2026. INZ says this applies even where the employer received a job check token before 1 June 2026.",
+                "The requirement does not retrospectively change a current valid AEWV. INZ also notes that Global Workforce Seasonal Visa and Peak Seasonal Visa AEWV applications are not required to meet the minimum English standard, and the requirement does not apply to Job Change applications."
+              ]
+      },
+      {
+        heading: "Evidence and transitional arrangements",
+        paragraphs: [
+                "The official minimum standard is described as basic, everyday English. INZ's English requirement page lists acceptable evidence routes, including approved English-language test results such as IELTS overall 4.0 or equivalent accepted scores.",
+                "People already holding an AEWV that expires on or before 1 December 2026 will be exempt from the new English requirement when applying for a further AEWV at skill level 3. People who have already provided English evidence in a previous AEWV application may also be exempt."
+              ]
+      },
+      {
+        heading: "What applicants and employers should check now",
+        paragraphs: [
+                "Applicants should first confirm the job's ANZSCO or NOL skill level, then check whether they already qualify through an exemption or need to arrange an accepted test result.",
+                "Employers recruiting into skill level 3 roles should build the English evidence timeline into hiring plans. Immigration advice should be provided only by appropriately qualified professionals or through official channels."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "政策變化：Skill Level 3 納入 AEWV 英文要求",
+        paragraphs: [
+                "Immigration New Zealand 已於 2026 年 5 月 25 日公告：自 2026 年 6 月 1 日起，Accredited Employer Work Visa（AEWV）中屬於 ANZSCO 或 National Occupation List（NOL）skill level 3 的職位，也需要符合最低英文能力要求。",
+                "此前 AEWV 英文要求主要適用於 skill level 4 和 5 職位。新規將 skill level 3 拉入同一套最低英文框架，官方說明目的在於讓移工能以基本日常英文理解權利義務、工作溝通與生活情境。"
+              ]
+      },
+      {
+        heading: "誰會受影響",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>從 2026 年 6 月 1 日起，凡申請 skill level 3 職位 AEWV 的申請人，需要符合英文要求。INZ 公告中特別指出：即使雇主在 2026 年 6 月 1 日前已取得 job check token，申請人若從 6 月 1 日起遞交 skill level 3 AEWV，仍需符合新英文要求。</p></div>",
+                "現有有效 AEWV 不會被追溯影響。INZ 亦說明，Global Workforce Seasonal Visa 與 Peak Seasonal Visa 的 AEWV 申請無需符合此最低英文要求；Job Change application 也不適用此要求。"
+              ]
+      },
+      {
+        heading: "英文證明與分數參考",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>官方口徑是 basic, everyday English，並非高階英文。INZ 的 AEWV 英文要求頁列出可接受證明方式，包括認可英文測試成績；政府新聞稿提到現行基準為 IELTS 4.0 或同等水平。</p></div>",
+                "原稿中提到 TOEFL iBT overall 31、PTE Academic overall 29 等分數，應以 INZ 英文要求頁最新列表為準。申請時還要注意成績有效期、考試形式與是否為 INZ 接受的測試結果。"
+              ]
+      },
+      {
+        heading: "過渡豁免：現有 AEWV 持有人要看日期",
+        paragraphs: [
+                "INZ 公告列明，已持有 AEWV 且簽證在 2026 年 12 月 1 日或之前到期的人，如申請新的 skill level 3 AEWV，可豁免新的英文要求。已在過往 AEWV 申請中提供過英文證明的人，也可能獲豁免。",
+                "這一過渡安排不代表所有續簽者都免英文。讀者需要按自己的簽證到期日、職位 skill level、過往是否已提供英文證明，以及本次申請類型逐項核對。"
+              ]
+      },
+      {
+        heading: "申請人與雇主現在應做什麼",
+        paragraphs: [
+                "申請人先確認職位的 ANZSCO 或 NOL skill level，再判斷是否屬於 2026 年 6 月 1 日後遞交、是否有過渡豁免、是否需要提前安排 IELTS 或其他認可英文測試。",
+                "雇主則應把英文證明時間納入招聘與入職計劃，避免職位已通過 job check，但候選人因英文證明未準備好而延誤遞交。涉及簽證策略、豁免判斷或個案風險時，應以 INZ 官方資訊或合資格移民顧問 / 律師意見為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-25。信息來源為 Immigration New Zealand 2026-05-25 公告及 Beehive 同日政府新聞稿。",
+        "本文按官方公告整理為一般資訊，不構成紐西蘭移民建議。"
+      ],
+  },
+  {
+    slug: "nordic-power-electronics-phd-18-month-application-plan",
+    title: "From NTU Power Electronics MSc to a Nordic PhD: A Practical 18-Month Preparation Plan",
+    date: "2026-05-25",
+    category: "PhD Applications",
+    column: "study",
+    kicker: "Nordics · Electrical Engineering · PhD",
+    author: "留學導報編輯部",
+    summary: "For a power-electronics or electrical-engineering master’s student, Nordic PhD applications should be treated as funded research job applications: supervisor fit, research evidence and timing matter more than slogans.",
+    titleZh: "南洋理工電力電子碩士申北歐電工科 PhD：1.5 年準備路線",
+    summaryZh: "北歐電工科博士通常更像研究職位招聘：看課題匹配、導師需求、研究能力與資金來源。對 NTU 電力電子碩士而言，1.5 年可以做出有競爭力的材料，但不能靠泛泛套磁逆襲。",
+    relatedReadings: [
+        "uk-personal-statement-evidence-first-checklist",
+        "ucas-offers-conditions-firm-insurance-checklist"
+      ],
+    resources: [
+        ["Study in Sweden", "https://studyinsweden.se/"],
+        ["Study in Norway", "https://www.studyinnorway.no/"],
+        ["Study in Finland", "https://www.studyinfinland.fi/"],
+        ["Study in Denmark", "https://studyindenmark.dk/"]
+      ],
+    body: [
+      {
+        heading: "Think of it as a research job",
+        paragraphs: [
+                "Many Nordic PhD positions are advertised as funded research jobs. The application is therefore less like a taught master’s application and more like applying to join a specific lab or project.",
+                "A strong applicant shows technical fit, research maturity, writing ability, and evidence that they understand the project’s methods and constraints."
+              ]
+      },
+      {
+        heading: "Build the evidence in 18 months",
+        paragraphs: [
+                "The first six months should clarify the research direction: power electronics, drives, grids, renewable integration, control, reliability, semiconductors or another focused theme.",
+                "The next six months should produce evidence: a thesis direction, supervisor letter, preprint or conference target where realistic, coding or simulation portfolio, and a one-page research fit memo.",
+                "The final six months should be used for targeted applications, not mass emails."
+              ]
+      },
+      {
+        heading: "Where applications fail",
+        paragraphs: [
+                "Common failures include generic supervisor emails, weak explanation of methods, no connection to the advertised project, and overclaiming results.",
+                "A concise, specific email with a focused CV and project-fit paragraph is usually stronger than a long personal story."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "北歐 PhD 更像研究職位，不只是升學申請",
+        paragraphs: [
+                "北歐很多博士崗位是 funded PhD position，本質上接近研究工作招聘。學校或課題組在找一個能進入項目、完成研究任務、交付論文與成果的人，而不只是錄取一名學生。",
+                "因此，南洋理工（NTU）電力電子碩士申北歐電工科博士，核心不是「學校名氣夠不夠」，而是研究方向、技能證據、導師需求與項目資金是否對得上。"
+              ]
+      },
+      {
+        heading: "1.5 年準備可以這樣拆",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>前 6 個月：縮小方向。不要只寫 Electrical Engineering，要明確到 power electronics、electric drives、smart grid、renewable integration、control、wide-bandgap semiconductor devices、reliability 等可對應課題組的方向。</p></div>",
+                "中間 6 個月：做證據。包括碩士論文方向、導師推薦、可展示的仿真 / 控制 / 硬件經驗、英文研究摘要、GitHub 或項目文檔（如適合公開）、以及一頁 research fit memo。",
+                "最後 6 個月：定向投遞。優先投有明確 funding 的 PhD vacancy，再針對導師近期論文與項目寫短郵件，不建議群發模板。"
+              ]
+      },
+      {
+        heading: "套磁郵件怎麼寫才不像群發",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>郵件正文控制在 180 至 250 詞左右：第一段說你是誰與研究方向；第二段精準對應導師某個項目或論文；第三段列出 2 至 3 個證據，例如碩士 thesis、仿真工具、控制算法、實驗平台或發表計劃。</p></div>",
+                "附件用一頁 CV、成績單、研究摘要即可。不要一上來發十幾頁材料，也不要用「我非常熱愛貴校」代替技術匹配。"
+              ]
+      },
+      {
+        heading: "官方入口與現實預期",
+        paragraphs: [
+                "讀者可從 Study in Sweden、Study in Norway、Study in Finland、Study in Denmark 了解各國博士制度與生活信息，再回到各大學 job vacancy / PhD positions 頁面找具體崗位。",
+                "1.5 年足夠把材料從普通申請提升到可競爭，但不能保證錄取。真正能提高成功率的是方向清晰、證據可核、導師與項目匹配，而不是把國家名單拉得很長。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "otc-othm-additional-qualification-approval-2026",
+    title: "OTC 獲批新增 OTHM Health and Social Care 及 Level 8 資格 — 2026 年 5 月",
+    date: "2026-05-30",
+    category: "OTC News",
+    column: "study",
+    kicker: "機構資訊 · OTHM 新增資格核准",
+    author: "留學導報編輯部",
+    summary: "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 的 Additional Qualification Approval Email，確認中心可推廣和交付 Health and Social Care Level 3 至 Level 7 及 Level 8 Strategic Management and Leadership Practice 相關新增資格。",
+    titleZh: "OTC 獲批新增 OTHM Health and Social Care 及 Level 8 資格 — 2026 年 5 月",
+    summaryZh: "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 的 Additional Qualification Approval Email，確認中心可推廣和交付 Health and Social Care Level 3 至 Level 7 及 Level 8 Strategic Management and Leadership Practice 相關新增資格。",
+    relatedReadings: [
+        "othm-credits-australia-advanced-entry",
+        "australia-new-zealand-provider-pathway-updates-2026"
+      ],
+    resources: [
+        ["OTHM Health and Social Care", "https://othm.org.uk/subject/health-and-social-care"],
+        ["OTHM Level 8 Strategic Management", "https://othm.org.uk/qualification/othm-level-8-diploma-in-strategic-management-and-leadership-practice"],
+        ["OTHM Qualifications list", "https://othm.org.uk/qualification"],
+        ["OTC OTHM qualification map", "https://overseasuk.com/othm-qualifications/"],
+        ["OTC Health & Social Care series page", "https://overseasuk.com/publishing/othm-health-social-care-bilingual-series/"]
+      ],
+    body: [
+      {
+        heading: "新增資格核准確認",
+        paragraphs: [
+                "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 發出的 Additional Qualification Approval Email。該郵件確認，Overseas Tutorial Centre 已獲准 promotion and deliver 信中列明的 additional qualifications。",
+                "OTC 的 OTHM 中心編號為 DC1802235。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
+                "本次公告只確認中心新增資格範圍；具體開班、招生、導師安排、IQA、assessment 和學生註冊，仍以 OTC 及 OTHM 當時最新程序為準。"
+              ]
+      },
+      {
+        heading: "本次新增資格清單",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">OTC 正式確認</div><p>本次新增核准涵蓋 Health and Social Care 路線 Level 3 至 Level 7，以及 Level 8 Strategic Management and Leadership Practice。</p></div>",
+                "Health and Social Care 路線包括：OTHM Level 3 Foundation Diploma in Health and Social Care、OTHM Level 4 Diploma in Health and Social Care Management、OTHM Level 5 Diploma in Health and Social Care Management、OTHM Level 5 Extended Diploma in Health and Social Care Management、OTHM Level 6 Diploma in Health and Social Care Management、OTHM Level 7 Diploma in Health and Social Care Management。",
+                "高階管理路線包括：OTHM Level 8 Diploma in Strategic Management and Leadership Practice。",
+                "OTC 已在官網 OTHM qualification map 及 OTHM Health &amp; Social Care bilingual series 子頁同步標註本次核准狀態，供學生、家長、合作導師與機構方查閱。"
+              ]
+      },
+      {
+        heading: "官方網頁核對",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">雙重依據</div><p>中心是否獲准交付某項資格，以 OTHM 對中心發出的正式 approval correspondence 為準；資格本身的公開名稱、層級和 subject taxonomy，則可在 OTHM 官方網站核對。</p></div>",
+                "OTHM 官方 Health and Social Care subject page 已列出 Level 3 Foundation Diploma in Health and Social Care、Level 4 至 Level 7 Health and Social Care Management，以及 Level 5 Extended Diploma in Health and Social Care Management。",
+                "OTHM 官方 qualification page 亦列出 OTHM Level 8 Diploma in Strategic Management and Leadership Practice，並說明 Level 8 sits on the Regulated Qualifications Framework and European Qualifications Framework at doctoral-comparable level。",
+                "因此，本文採用兩層表述：一是 OTHM 官方網站已公開列出相關 qualification；二是 OTC 於 2026 年 5 月 29 日收到 OTHM Centre Accreditation 對本中心新增資格範圍的確認。"
+              ]
+      },
+      {
+        heading: "對學生與合作導師的意義",
+        paragraphs: [
+                "對學生而言，Health and Social Care 路線補足了從 foundation level 到 postgraduate-level management 的一條完整階梯。這有助於家庭在護理、健康管理、社會照護、澳洲 VET / TAFE、英澳升學銜接等方向進行更清晰的長線規劃。",
+                "對合作導師而言，本次核准意味著 OTC 可以按已確認的 qualification scope 整理正式教學安排、資源準備、assessment support、IQA 記錄與課程材料管理。",
+                "對出版與雙語教輔工作而言，Health and Social Care 系列可從出版計劃進一步連接至實際資格支援語境，但仍必須嚴格區分官方 assessment 文件、獨立學習資源和學生本人提交的 coursework。"
+              ]
+      },
+      {
+        heading: "下一步安排",
+        paragraphs: [
+                "OTC 將依據本次最終確認的資格範圍，整理相關導師聘用、教學資源、學習管理系統、學生查詢入口與公開課程頁面。",
+                "Health and Social Care 相關的完整資格清單已移入 OTHM 課程子頁，首頁不再展示內部課程長表，以保持資訊架構清晰。",
+                "如涉及具體開班時間、學生入學條件、英文要求、費用、assessment 設計與授課模式，OTC 將另行發布課程說明或以書面方式回覆個案查詢。"
+              ]
+      },
+      {
+        heading: "聯絡 OTC",
+        paragraphs: [
+                "如需查詢 OTHM Health and Social Care、Level 8 Strategic Management and Leadership Practice、雙語學術支援或合作導師安排，歡迎通過以下渠道聯絡 OTC。",
+                "電話 / WhatsApp：+44 7947 991572。電郵：office@overseasuk.com。WeChat：overseasus。",
+                "地址：3/F, 207 Regent Street, London W1B 3HH。"
+              ]
+      },
+      {
+        heading: "重要提示",
+        paragraphs: [
+                "本文資訊以 OTHM Centre Accreditation 於 2026 年 5 月 29 日發出的 Additional Qualification Approval Email、OTC 與 OTHM 往來記錄，以及 OTHM 官方 subject / qualification pages 為依據。",
+                "課程供應、費用、入學要求、cohort opening、assessment arrangement 與 delivery method，以 OTC 最新書面公佈及 OTHM 當時有效要求為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "新增資格核准確認",
+        paragraphs: [
+                "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 發出的 Additional Qualification Approval Email。該郵件確認，Overseas Tutorial Centre 已獲准 promotion and deliver 信中列明的 additional qualifications。",
+                "OTC 的 OTHM 中心編號為 DC1802235。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
+                "本次公告只確認中心新增資格範圍；具體開班、招生、導師安排、IQA、assessment 和學生註冊，仍以 OTC 及 OTHM 當時最新程序為準。"
+              ]
+      },
+      {
+        heading: "本次新增資格清單",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">OTC 正式確認</div><p>本次新增核准涵蓋 Health and Social Care 路線 Level 3 至 Level 7，以及 Level 8 Strategic Management and Leadership Practice。</p></div>",
+                "Health and Social Care 路線包括：OTHM Level 3 Foundation Diploma in Health and Social Care、OTHM Level 4 Diploma in Health and Social Care Management、OTHM Level 5 Diploma in Health and Social Care Management、OTHM Level 5 Extended Diploma in Health and Social Care Management、OTHM Level 6 Diploma in Health and Social Care Management、OTHM Level 7 Diploma in Health and Social Care Management。",
+                "高階管理路線包括：OTHM Level 8 Diploma in Strategic Management and Leadership Practice。",
+                "OTC 已在官網 OTHM qualification map 及 OTHM Health &amp; Social Care bilingual series 子頁同步標註本次核准狀態，供學生、家長、合作導師與機構方查閱。"
+              ]
+      },
+      {
+        heading: "官方網頁核對",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">雙重依據</div><p>中心是否獲准交付某項資格，以 OTHM 對中心發出的正式 approval correspondence 為準；資格本身的公開名稱、層級和 subject taxonomy，則可在 OTHM 官方網站核對。</p></div>",
+                "OTHM 官方 Health and Social Care subject page 已列出 Level 3 Foundation Diploma in Health and Social Care、Level 4 至 Level 7 Health and Social Care Management，以及 Level 5 Extended Diploma in Health and Social Care Management。",
+                "OTHM 官方 qualification page 亦列出 OTHM Level 8 Diploma in Strategic Management and Leadership Practice，並說明 Level 8 sits on the Regulated Qualifications Framework and European Qualifications Framework at doctoral-comparable level。",
+                "因此，本文採用兩層表述：一是 OTHM 官方網站已公開列出相關 qualification；二是 OTC 於 2026 年 5 月 29 日收到 OTHM Centre Accreditation 對本中心新增資格範圍的確認。"
+              ]
+      },
+      {
+        heading: "對學生與合作導師的意義",
+        paragraphs: [
+                "對學生而言，Health and Social Care 路線補足了從 foundation level 到 postgraduate-level management 的一條完整階梯。這有助於家庭在護理、健康管理、社會照護、澳洲 VET / TAFE、英澳升學銜接等方向進行更清晰的長線規劃。",
+                "對合作導師而言，本次核准意味著 OTC 可以按已確認的 qualification scope 整理正式教學安排、資源準備、assessment support、IQA 記錄與課程材料管理。",
+                "對出版與雙語教輔工作而言，Health and Social Care 系列可從出版計劃進一步連接至實際資格支援語境，但仍必須嚴格區分官方 assessment 文件、獨立學習資源和學生本人提交的 coursework。"
+              ]
+      },
+      {
+        heading: "下一步安排",
+        paragraphs: [
+                "OTC 將依據本次最終確認的資格範圍，整理相關導師聘用、教學資源、學習管理系統、學生查詢入口與公開課程頁面。",
+                "Health and Social Care 相關的完整資格清單已移入 OTHM 課程子頁，首頁不再展示內部課程長表，以保持資訊架構清晰。",
+                "如涉及具體開班時間、學生入學條件、英文要求、費用、assessment 設計與授課模式，OTC 將另行發布課程說明或以書面方式回覆個案查詢。"
+              ]
+      },
+      {
+        heading: "聯絡 OTC",
+        paragraphs: [
+                "如需查詢 OTHM Health and Social Care、Level 8 Strategic Management and Leadership Practice、雙語學術支援或合作導師安排，歡迎通過以下渠道聯絡 OTC。",
+                "電話 / WhatsApp：+44 7947 991572。電郵：office@overseasuk.com。WeChat：overseasus。",
+                "地址：3/F, 207 Regent Street, London W1B 3HH。"
+              ]
+      },
+      {
+        heading: "重要提示",
+        paragraphs: [
+                "本文資訊以 OTHM Centre Accreditation 於 2026 年 5 月 29 日發出的 Additional Qualification Approval Email、OTC 與 OTHM 往來記錄，以及 OTHM 官方 subject / qualification pages 為依據。",
+                "課程供應、費用、入學要求、cohort opening、assessment arrangement 與 delivery method，以 OTC 最新書面公佈及 OTHM 當時有效要求為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "otc-othm-health-social-care-level8-2026",
+    title: "OTC 獲批新增 OTHM 健康與社會照護及 Level 8 資格　輔導教材計畫六月中旬完成審核出版",
+    date: "2026-05-30",
+    category: "HSC Level 3-7 + Level 8",
+    column: "study",
+    kicker: "留學升學 · 資格新增",
+    author: "留學導報編輯部",
+    summary: "OTC（海外督導）於 2026 年 5 月完成新增 OTHM 健康與社會照護系列與 Level 8 進階資格的相關程序，並計畫於六月中旬完成該領域課程輔導教材的審核與出版；教材由臨床人員擔任專業審核，並由海外出版方承辦發行，目前正徵求發行渠道。",
+    titleZh: "OTC 獲批新增 OTHM 健康與社會照護及 Level 8 資格　輔導教材計畫六月中旬完成審核出版",
+    summaryZh: "OTC（海外督導）於 2026 年 5 月完成新增 OTHM 健康與社會照護系列與 Level 8 進階資格的相關程序，並計畫於六月中旬完成該領域課程輔導教材的審核與出版；教材由臨床人員擔任專業審核，並由海外出版方承辦發行，目前正徵求發行渠道。",
+    body: [
+      {
+        heading: "事件背景",
+        paragraphs: [
+                "2026 年 5 月，OTC（Overseas Tutorial Centre Ltd／海外督導）完成新增 OTHM 健康與社會照護（Health and Social Care）系列資格，以及一項 OTHM Level 8 進階資格的相關程序，使這一領域的可修讀範圍由基礎延伸至進階層級。",
+                "在資格新增的基礎上，OTC 計畫於 2026 年六月中旬，完成該領域 OTHM 課程輔導教材的審核與出版。教材由具相關專業背景的編著者以筆名完成編寫，並邀請臨床人員擔任專業審核，以確保內容貼近實務、用語準確。出版方面，由海外出版方承辦發行事宜，OTC 目前正就教材徵求發行渠道。",
+                "需特別說明：上述資格的開放修讀情況、教材的出版與供應時間，均以項目方（OTHM 及承辦出版方）最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "對學生與家長意味著什麼",
+        paragraphs: [
+                "對打算進入或已在健康與社會照護領域的學生與在職人士而言，資格範圍的擴大意味著可依自身階段選擇較合適的層級，而非只能在單一入口起步。進階（Level 8）資格的加入，也為有意走向研究、管理或更高階實務的學習者，提供了向上銜接的可能路徑。",
+                "教材由臨床人員擔任審核，對家長與自學者來說，是一項可參考的品質訊號：內容在編成後，經過具實務經驗者的把關，較能反映真實工作場景所需的知識。",
+                "不過，資格本身是否符合個人的升學或職涯目標，仍須個別評估。資格的「適不適合」不等於「能不能讀」。"
+              ]
+      },
+      {
+        heading: "申請與教材流程如何運作",
+        paragraphs: [
+                "整體可分為「資格」與「教材」兩條線。資格端，學習者依層級選擇後，循一般報讀流程進行；教材端，則經編著、臨床審核、出版方承辦、再到發行渠道的順序逐步推進。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>概略層級</th><th>一般適合對象</th><th>常見用途</th></tr></thead>\n              <tbody>\n                <tr><td>基礎至中階</td><td>初入或在職的照護人員</td><td>建立基礎知識、取得入門資格</td></tr>\n                <tr><td>中階至 Level 7</td><td>具一定經驗者、管理方向</td><td>強化實務與管理能力</td></tr>\n                <tr><td>Level 8（進階）</td><td>具進階先備條件者</td><td>銜接研究、高階實務或更高階學習</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">提示</div><p>在決定層級之前，建議先向 OTC 索取最新的書面資格清單與教材出版／開課時間表。所有資格的開放修讀、費用與報讀條件，一律以項目方最新書面確認為準；本文所列層級僅為一般性說明，不構成名額或錄取承諾。</p></div>"
+              ]
+      },
+      {
+        heading: "家庭應如何判斷是否適合",
+        paragraphs: [
+                "判斷是否適合，可從三個方向著手。其一是現況評估：目前的學歷、語言能力與工作背景，是否符合擬選層級的先備條件。進階（Level 8）資格門檻較高，尤須審視先備條件。",
+                "其二是目標對齊：所選資格能否真正支援預期的升學或職涯方向，而非「為讀而讀」。其三是學習形式：需要釐清「課程輔導」與「教材自學」的差別，前者有人帶領與督導，後者更倚賴自律與既有基礎。",
+                "對在職者而言，還需要評估時間投入與工作的平衡；對家長而言，則宜協助子女確認資格與其長期規劃的關聯，而非僅以「層級高低」作為唯一考量。"
+              ]
+      },
+      {
+        heading: "OTC 能協助什麼",
+        paragraphs: [
+                "OTC 在這一領域可提供的協助，包括課程輔導、輔導教材，以及由臨床人員參與的內容審核把關；在升學銜接方面，可協助釐清不同層級資格之間的關係與一般銜接方向。對於不確定該從哪一層級起步的家庭，OTC 可提供初步諮詢，協助對照個人背景與資格定位。",
+                "OTC 不就任何資格作出錄取、簽證或名額方面的承諾；所有與開放修讀、出版時間相關的資訊，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "合作通道與文件安排",
+        paragraphs: [
+                "OTC 正在同步整理與本資格及教材出版相關的合作通道文件。若涉及 agent agreement、渠道合作、教材發行或推薦合作，相關文件將由 OTC 內部文件庫保存，作為後續學生轉介、教材發行、渠道合作與文件核對的依據。",
+                "公開文章僅說明合作方向與服務範圍；具體商務條款以雙方簽署文件為準，不在網站公開披露。OTC 不在公開頁面披露 commission、分成比例、付款條款、私人聯絡資料或合同附件內容。"
+              ]
+      },
+      {
+        heading: "下一步行動",
+        paragraphs: [
+                "有意了解的學生與家長，可向 OTC 索取最新的書面資格清單與教材出版時間表，並就個人背景預約一次初步諮詢，以評估適合的層級與學習形式。教材出版與發行渠道的後續進展，留學導報將於確認後另行更新。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">聯絡 OTC</div><p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>OTHM 書系入口：<a href=\"/publishing/othm-health-social-care-bilingual-series/\">/publishing/othm-health-social-care-bilingual-series/</a></p></div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文所述資格與教材之開放、出版與供應時間，以項目方（OTHM 及承辦出版方）最新書面確認為準。表格與層級說明僅為一般性參考，不構成報讀資格、名額或錄取之保證。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "事件背景",
+        paragraphs: [
+                "2026 年 5 月，OTC（Overseas Tutorial Centre Ltd／海外督導）完成新增 OTHM 健康與社會照護（Health and Social Care）系列資格，以及一項 OTHM Level 8 進階資格的相關程序，使這一領域的可修讀範圍由基礎延伸至進階層級。",
+                "在資格新增的基礎上，OTC 計畫於 2026 年六月中旬，完成該領域 OTHM 課程輔導教材的審核與出版。教材由具相關專業背景的編著者以筆名完成編寫，並邀請臨床人員擔任專業審核，以確保內容貼近實務、用語準確。出版方面，由海外出版方承辦發行事宜，OTC 目前正就教材徵求發行渠道。",
+                "需特別說明：上述資格的開放修讀情況、教材的出版與供應時間，均以項目方（OTHM 及承辦出版方）最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "對學生與家長意味著什麼",
+        paragraphs: [
+                "對打算進入或已在健康與社會照護領域的學生與在職人士而言，資格範圍的擴大意味著可依自身階段選擇較合適的層級，而非只能在單一入口起步。進階（Level 8）資格的加入，也為有意走向研究、管理或更高階實務的學習者，提供了向上銜接的可能路徑。",
+                "教材由臨床人員擔任審核，對家長與自學者來說，是一項可參考的品質訊號：內容在編成後，經過具實務經驗者的把關，較能反映真實工作場景所需的知識。",
+                "不過，資格本身是否符合個人的升學或職涯目標，仍須個別評估。資格的「適不適合」不等於「能不能讀」。"
+              ]
+      },
+      {
+        heading: "申請與教材流程如何運作",
+        paragraphs: [
+                "整體可分為「資格」與「教材」兩條線。資格端，學習者依層級選擇後，循一般報讀流程進行；教材端，則經編著、臨床審核、出版方承辦、再到發行渠道的順序逐步推進。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>概略層級</th><th>一般適合對象</th><th>常見用途</th></tr></thead>\n              <tbody>\n                <tr><td>基礎至中階</td><td>初入或在職的照護人員</td><td>建立基礎知識、取得入門資格</td></tr>\n                <tr><td>中階至 Level 7</td><td>具一定經驗者、管理方向</td><td>強化實務與管理能力</td></tr>\n                <tr><td>Level 8（進階）</td><td>具進階先備條件者</td><td>銜接研究、高階實務或更高階學習</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">提示</div><p>在決定層級之前，建議先向 OTC 索取最新的書面資格清單與教材出版／開課時間表。所有資格的開放修讀、費用與報讀條件，一律以項目方最新書面確認為準；本文所列層級僅為一般性說明，不構成名額或錄取承諾。</p></div>"
+              ]
+      },
+      {
+        heading: "家庭應如何判斷是否適合",
+        paragraphs: [
+                "判斷是否適合，可從三個方向著手。其一是現況評估：目前的學歷、語言能力與工作背景，是否符合擬選層級的先備條件。進階（Level 8）資格門檻較高，尤須審視先備條件。",
+                "其二是目標對齊：所選資格能否真正支援預期的升學或職涯方向，而非「為讀而讀」。其三是學習形式：需要釐清「課程輔導」與「教材自學」的差別，前者有人帶領與督導，後者更倚賴自律與既有基礎。",
+                "對在職者而言，還需要評估時間投入與工作的平衡；對家長而言，則宜協助子女確認資格與其長期規劃的關聯，而非僅以「層級高低」作為唯一考量。"
+              ]
+      },
+      {
+        heading: "OTC 能協助什麼",
+        paragraphs: [
+                "OTC 在這一領域可提供的協助，包括課程輔導、輔導教材，以及由臨床人員參與的內容審核把關；在升學銜接方面，可協助釐清不同層級資格之間的關係與一般銜接方向。對於不確定該從哪一層級起步的家庭，OTC 可提供初步諮詢，協助對照個人背景與資格定位。",
+                "OTC 不就任何資格作出錄取、簽證或名額方面的承諾；所有與開放修讀、出版時間相關的資訊，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "合作通道與文件安排",
+        paragraphs: [
+                "OTC 正在同步整理與本資格及教材出版相關的合作通道文件。若涉及 agent agreement、渠道合作、教材發行或推薦合作，相關文件將由 OTC 內部文件庫保存，作為後續學生轉介、教材發行、渠道合作與文件核對的依據。",
+                "公開文章僅說明合作方向與服務範圍；具體商務條款以雙方簽署文件為準，不在網站公開披露。OTC 不在公開頁面披露 commission、分成比例、付款條款、私人聯絡資料或合同附件內容。"
+              ]
+      },
+      {
+        heading: "下一步行動",
+        paragraphs: [
+                "有意了解的學生與家長，可向 OTC 索取最新的書面資格清單與教材出版時間表，並就個人背景預約一次初步諮詢，以評估適合的層級與學習形式。教材出版與發行渠道的後續進展，留學導報將於確認後另行更新。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">聯絡 OTC</div><p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>OTHM 書系入口：<a href=\"/publishing/othm-health-social-care-bilingual-series/\">/publishing/othm-health-social-care-bilingual-series/</a></p></div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文所述資格與教材之開放、出版與供應時間，以項目方（OTHM 及承辦出版方）最新書面確認為準。表格與層級說明僅為一般性參考，不構成報讀資格、名額或錄取之保證。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "已核：資格新增與教材出版屬「程序完成／計畫出版」階段之陳述，未作錄取或名額承諾。",
+        "已核：availability、fee、admission 相關處均加註「以項目方最新書面確認為準」。",
+        "已核：未公開 commission、合同細節、出版方內部商務條款；編著者僅以筆名呈現。",
+        "待核：教材出版確切日期、ISBN、發行渠道及合作文件簽署版本。"
+      ],
+  },
+  {
+    slug: "othm-health-social-care-bilingual-study-series-plan",
+    title: "Overseas Publishing Plans an OTHM Health & Social Care Bilingual Study Series",
+    date: "2026-05-24",
+    category: "OTC News",
+    column: "study",
+    kicker: "海外書局 · OTHM 教材策劃",
+    author: "留學導報編輯部",
+    summary: "Overseas Publishing House is planning an independent bilingual study-companion series for OTHM Health and Social Care learners, linking assignment support, health terminology, UK care-sector learning and Australia pathway context.",
+    titleZh: "海外書局策劃 OTHM 健康護理雙語教材：從 Level 3 到 Level 7 的學習支持路線",
+    summaryZh: "海外書局正在策劃《OTHM 健康護理雙語精講》系列，面向華語學生、照護從業者與英澳健康護理路線規劃人群。這套書的重點不是替代官方課綱，而是把英文資格要求、作業寫作、健康護理術語與升學職業路線翻譯成可操作的學習支持。",
+    relatedReadings: [
+        "australia-health-vocation-pathway",
+        "othm-health-social-care-australia-vet-comparison",
+        "otc-othm-centre-renewal-2026"
+      ],
+    resources: [
+        ["OTC publishing series planning column", "https://overseasuk.com/publishing/othm-health-social-care-bilingual-series/"],
+        ["OTHM Health and Social Care subject area", "https://othm.org.uk/subject/health-and-social-care"],
+        ["Skills for Care workforce intelligence", "https://www.skillsforcare.org.uk/Adult-Social-Care-Workforce-Data/Workforce-intelligence/publications/Topics/State-of-the-adult-social-care-sector-and-workforce-in-England.aspx"],
+        ["Care Quality Commission State of Care", "https://www.cqc.org.uk/publications/major-report/state-care/2024-2025"]
+      ],
+    body: [
+      {
+        heading: "Why OTC Is Planning This Series",
+        paragraphs: [
+                "Overseas Publishing House is preparing a bilingual OTHM Health and Social Care study-companion series for Chinese-speaking learners who need both academic structure and practical pathway context.",
+                "Health and care is no longer a narrow vocational niche. In the UK, adult social care continues to face sustained workforce pressure; in Australia, ageing care, disability support, community health and nursing-related routes remain central to study and career planning.",
+                "For many students, the hardest part is not only the English. It is understanding how a qualification title, a regulated framework, an assignment brief, a workplace skill and a future progression route fit together."
+              ]
+      },
+      {
+        heading: "Who the Series Serves",
+        paragraphs: [
+                "The planned readers include OTHM Health and Social Care learners, Chinese-speaking care-sector workers, students comparing UK and Australian health-care routes, and families planning longer-term health, social care or health-management progression.",
+                "Each guide will use bilingual explanation, health-care terminology, assignment-oriented frameworks and official-source reading lists to make the learning path more legible.",
+                "The series is designed as an independent learning-support product. It is not an official OTHM publication, not a model-answer bank and not a substitute for centre-issued assessment instructions."
+              ]
+      },
+      {
+        heading: "Five Books, Level 3 to Level 7",
+        paragraphs: [
+                "Book 1 covers Level 3 entry and career orientation: health systems, care roles, foundation concepts, terminology and assignment-writing basics.",
+                "Book 2 covers Level 4 management foundations: care-setting organisation, communication, staff coordination, multicultural care and case-based writing.",
+                "Book 3 covers Level 5 core practice and management: CQC standards, quality management, research methods, mental health, disability support, NDIS and the boundary between OTHM Level 5 and Australian Diploma of Nursing routes.",
+                "Book 4 covers Level 6 academic progression: referencing, policy analysis, critical thinking and advanced-entry preparation.",
+                "Book 5 covers Level 7 management and master's preparation: research design, health-system leadership, strategy, postgraduate progression and cross-disciplinary health-management planning."
+              ]
+      },
+      {
+        heading: "Market and Distribution",
+        paragraphs: [
+                "The first release strategy is PDF-first: Payhip for direct ebook sales, then Amazon KDP and print-on-demand options for wider discoverability once the manuscript and design system are stable.",
+                "OTC can also use the guides as course-bundle resources for enrolled learners, as seminar handouts for health-pathway enquiries, and as bilingual lead magnets connected to Study Hub and Overseas Study Review articles.",
+                "The editorial plan prioritises Level 3 and Level 5 first. Level 3 supports new learners, while Level 5 has the strongest pathway conversation because students often compare it with Australian VET, nursing and community-services routes."
+              ]
+      },
+      {
+        heading: "What Happens Next",
+        paragraphs: [
+                "The public planning column is now live on the OTC website, giving readers a central place to track the series concept, book matrix, market logic, distribution channels and compliance notes.",
+                "The next practical steps are academic review, manuscript sample preparation, cover and interior template development, and a small pilot release for Level 3 or Level 5 before the full series is expanded."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "OTC is preparing a health-subject evidence workflow around tutor suitability, academic review and learning-resource readiness. Medical and care-sector expertise will be used to review terminology, clinical context and ethical boundaries.",
+                "The compliance line must stay clear: every book will cite public official sources, explain learning concepts and provide frameworks for study. It will not reproduce confidential assessment materials, quality-assurance forms, learner submissions or official marking tools.",
+                "Students must always follow the current OTHM specification and instructions issued by their approved centre."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼海外書局要策劃這套書",
+        paragraphs: [
+                "海外書局正在策劃一套《OTHM 健康護理雙語精講》系列，目標讀者是需要同時理解英文資格要求、作業寫作、健康護理術語和英澳升學職業路線的華語學習者。",
+                "健康護理不再只是狹義的職業技能方向。英國成人社會照護長期存在人手壓力；澳洲的老人護理、殘疾支援、社區健康與護理相關路線，也一直是學生規劃升學、就業和長期發展時無法繞開的領域。",
+                "很多學生真正卡住的不是單純英文，而是不知道一個資格名稱、一套監管框架、一份 assignment brief、一項工作技能和未來的升學或職業路線到底如何連起來。這套書要解決的正是這個問題。"
+              ]
+      },
+      {
+        heading: "這套書服務誰",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>這套系列面向四類人：正在或準備修讀 OTHM Health and Social Care 的學生；已在 care home、community care、support work 等場景工作的華語從業者；比較英國 OTHM 與澳洲健康護理路線的學生；以及為子女規劃健康、社會照護或健康管理方向的家庭。</p></div>",
+                "每冊會用中英雙語說明、健康護理詞彙、assignment 寫作框架和官方來源閱讀清單，把原本散落在 specification、課堂材料、政策網站和職業路線圖裡的資訊整理成可讀、可學、可諮詢的教輔材料。",
+                "這套書的定位是獨立學習支持，不是 OTHM 官方教材，不是標準答案庫，也不替代 approved centre 發出的評核指引。"
+              ]
+      },
+      {
+        heading: "五冊規劃：從 Level 3 到 Level 7",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>第一冊是 Level 3 入門與職業定向，涵蓋英國與澳洲醫療照護體系基礎、健康護理職業路線、核心概念、術語表與 assignment 寫作入門。</p></div>",
+                "第二冊是 Level 4 管理基礎，重點放在醫療及照護機構組織、人員協調、溝通、多元文化護理和案例式寫作。",
+                "第三冊是 Level 5 執業核心與管理，會處理 CQC 標準、護理品質管理、研究方法、心理健康、殘疾支援倫理、澳洲 NDIS 與 CHC 體系，也會釐清 OTHM Level 5 與澳洲 Diploma of Nursing 之間不能直接互換的邊界。",
+                "第四冊是 Level 6 學術升學橋樑，聚焦文獻引用、政策分析、批判性思維和澳洲大學 Advanced Entry 文件準備。",
+                "第五冊是 Level 7 管理碩士預備，面向研究設計、醫療系統領導力、策略管理、研究生銜接和跨學科健康管理路線。"
+              ]
+      },
+      {
+        heading: "市場與發行渠道",
+        paragraphs: [
+                "初期發行建議採用 PDF ebook first：先在 Payhip 上架電子版，待版式、封面與內容模板穩定後，再擴展至 Amazon KDP、print-on-demand 或其他紙本分發渠道。",
+                "OTC 也可以把這套書用作在校學生的課程配套、健康護理路線講座的資料包，以及 Study Hub 與海外留學導報文章的轉化入口。",
+                "發行順序建議先做 Level 3 和 Level 5。Level 3 對新生最友好，Level 5 則最容易引發英國 OTHM、澳洲 VET、護理和社區服務路線之間的比較需求。"
+              ]
+      },
+      {
+        heading: "學術審閱與合規邊界",
+        paragraphs: [
+                "OTC 正在圍繞 Health and Social Care 方向準備導師資格、學術審閱和學習資源證據。醫學與照護領域的專業背景將用於審閱術語、臨床語境和倫理邊界。",
+                "合規邊界必須清楚：每冊可以引用公開官方來源、解釋學習概念、提供寫作框架和延伸閱讀；但不能收錄保密評核材料、質量保證表格、學生作業、官方 marking tools 或可直接提交的標準答案。",
+                "學生仍必須以最新官方 specification 及 approved centre 發出的指引為準。"
+              ]
+      },
+      {
+        heading: "下一步",
+        paragraphs: [
+                "OTC 官網的出版策劃專欄已經作為這套系列的公開入口，用於展示系列定位、五冊書目、讀者市場、發行渠道與合規聲明。",
+                "下一步將進入學術審閱、樣章製作、封面與內頁模板設計，以及 Level 3 或 Level 5 小規模試發行。等首冊穩定後，再逐步擴展至完整 Level 3 至 Level 7 系列。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "othm-health-social-care-career-pathways-2026",
+    title: "OTHM 健康與社會照護資格的求職渠道：兩條路徑，與一條不可忽略的界線",
+    date: "2026-05-30",
+    category: "Employment + progression",
+    column: "study",
+    kicker: "留學升學 · 就業指南",
+    author: "留學導報編輯部",
+    summary: "OTHM 健康與社會照護系列屬受 Ofqual 規管的學術／職業型資格，主打知識、管理能力與升學銜接。它能開啟照護與管理崗位的就業渠道，也能作為升學踏板；但它不是臨床執業或專業註冊資格。本文整理其求職渠道，並釐清最常見的三個誤解。",
+    titleZh: "OTHM 健康與社會照護資格的求職渠道：兩條路徑，與一條不可忽略的界線",
+    summaryZh: "OTHM 健康與社會照護系列屬受 Ofqual 規管的學術／職業型資格，主打知識、管理能力與升學銜接。它能開啟照護與管理崗位的就業渠道，也能作為升學踏板；但它不是臨床執業或專業註冊資格。本文整理其求職渠道，並釐清最常見的三個誤解。",
+    body: [
+      {
+        heading: "事件背景",
+        paragraphs: [
+                "繼 OTC（海外督導）新增 OTHM 健康與社會照護及 Level 8 資格之後，學生與家長最常提出的問題是：讀完能做什麼工作？求職渠道在哪裡？",
+                "健康與社會照護是英國長期缺人的領域，相關資格因此受到關注。然而「資格能讀」不等於「能進任何崗位」。OTHM 屬受英國 Ofqual 規管的頒證機構，其健康與社會照護資格依 RQF 框架設置，重點在於知識、理解、管理能力與升學銜接。本文據此整理求職渠道，並釐清三個常見誤解。文中所述資格層級與升學安排，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "對學生與家長意味著什麼",
+        paragraphs: [
+                "對家庭而言，最重要的認知是：這一系列資格存在兩條求職主路徑。其一是直接進入照護與管理崗位，從前線角色起步、隨經驗與層級向上；其二是以資格作為升學踏板，銜接英國大學的學士或碩士學位，再憑學位進入更廣的就業市場。",
+                "同樣重要的是界線：OTHM 健康與社會照護「管理」文憑屬知識與管理導向，並非護理或社工的執業註冊資格。對在職者，它可作為知識與晉升的佐證；對升學者，它是縮短學位年限的工具。但若目標是受規管的臨床或專業職位，資格本身並不足夠。"
+              ]
+      },
+      {
+        heading: "資格與求職渠道如何運作",
+        paragraphs: [
+                "各層級對應的就業切入點與升學銜接，可概覽如下。實際資格名稱、編號與適用條件，以項目方書面說明為準。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>RQF 層級</th><th>學術等同</th><th>可切入的就業渠道（典型角色）</th><th>升學銜接</th></tr></thead>\n              <tbody>\n                <tr><td>Level 3（基礎）</td><td>大學入學前</td><td>照護助理、支援工作者、資深支援工作者</td><td>銜接本科一年級；UK 資格可換算 UCAS 分數</td></tr>\n                <tr><td>Level 4 / 5 / 6</td><td>學士第 1／2／3 年</td><td>照護領域進階與初中階管理職</td><td>可直入學士後續年級（top-up）</td></tr>\n                <tr><td>Level 7</td><td>碩士同級</td><td>健康與社會照護經理、院舍經理、衛生服務經理、資深團隊主管</td><td>銜接碩士 top-up（須補論文階段）</td></tr>\n                <tr><td>Level 8</td><td>博士同級</td><td>高階策略、顧問、學術／研究方向</td><td>博士層級學術認可</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "直接就業這條路最快接觸職場，但晉升仍高度依賴實際工作經驗，文憑是加分項而非唯一條件；學術銜接這條路則較慢，卻是日後轉入受規管專業的必要前置。"
+              ]
+      },
+      {
+        heading: "家庭應如何判斷是否適合",
+        paragraphs: [
+                "判斷的第一步，是先把求職目標歸類為三種之一，因為對應的資格路徑完全不同。",
+                "<ul>\n            <li><strong>不需執照的照護／管理崗位：</strong>OTHM 健康與社會照護資格較能直接支援。</li>\n            <li><strong>受規管專業（如護士、社工）：</strong>護理在英國執業須走 NMC 認可的護理教育與註冊路徑；社工須持認可社工資格並向 Social Work England 註冊。OTHM 管理文憑不直接通往這些註冊，只能作為升學踏板。</li>\n            <li><strong>CQC 註冊經理（Registered Manager）：</strong>Skills for Care 所列成人照護領導與管理 Level 5 文憑，屬以工作場域能力為本的資格；它與 OTHM Level 5 健康與社會照護管理文憑並非同一張資格。以註冊經理為目標者，須確認所修資格是否屬被認可的那一類。</li>\n          </ul>",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">提示</div><p>在報讀前，建議向 OTC 索取最新的書面資格清單，並說明你的求職目標屬於上述哪一類，以對照合適的資格與路徑。所有資格的開放修讀、費用與升學銜接安排，一律以項目方最新書面確認為準；本文不構成就業、簽證或專業註冊之保證。</p></div>"
+              ]
+      },
+      {
+        heading: "OTC 能協助什麼",
+        paragraphs: [
+                "OTC 在這一領域可提供課程輔導、輔導教材，以及升學銜接諮詢，協助學員釐清「目標崗位—所需資格—升學路徑」三者的對應關係，避免選錯方向。對於不確定該從哪一層級起步、或分不清受規管專業與一般崗位差異的家庭，OTC 可提供初步諮詢。",
+                "OTC 不就任何資格作出就業、簽證或專業註冊之承諾；相關開放與供應資訊，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "下一步行動",
+        paragraphs: [
+                "有意了解的學生與家長，可向 OTC 索取最新書面資格清單與升學銜接資訊，並在諮詢時說明目標就業市場（英國或海外），以便評估當地對 OTHM 資格的認受與相應渠道。後續若有資格或升學安排更新，留學導報將另行說明。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">聯絡 OTC</div><p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>OTHM 書系入口：<a href=\"/publishing/othm-health-social-care-bilingual-series/\">/publishing/othm-health-social-care-bilingual-series/</a></p></div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文所述資格層級、就業渠道與升學銜接僅為一般性說明，不構成就業、簽證或專業註冊之保證。各受規管專業之註冊條件，以相關規管機構最新公告為準；資格開放與供應時間，以項目方最新書面確認為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "事件背景",
+        paragraphs: [
+                "繼 OTC（海外督導）新增 OTHM 健康與社會照護及 Level 8 資格之後，學生與家長最常提出的問題是：讀完能做什麼工作？求職渠道在哪裡？",
+                "健康與社會照護是英國長期缺人的領域，相關資格因此受到關注。然而「資格能讀」不等於「能進任何崗位」。OTHM 屬受英國 Ofqual 規管的頒證機構，其健康與社會照護資格依 RQF 框架設置，重點在於知識、理解、管理能力與升學銜接。本文據此整理求職渠道，並釐清三個常見誤解。文中所述資格層級與升學安排，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "對學生與家長意味著什麼",
+        paragraphs: [
+                "對家庭而言，最重要的認知是：這一系列資格存在兩條求職主路徑。其一是直接進入照護與管理崗位，從前線角色起步、隨經驗與層級向上；其二是以資格作為升學踏板，銜接英國大學的學士或碩士學位，再憑學位進入更廣的就業市場。",
+                "同樣重要的是界線：OTHM 健康與社會照護「管理」文憑屬知識與管理導向，並非護理或社工的執業註冊資格。對在職者，它可作為知識與晉升的佐證；對升學者，它是縮短學位年限的工具。但若目標是受規管的臨床或專業職位，資格本身並不足夠。"
+              ]
+      },
+      {
+        heading: "資格與求職渠道如何運作",
+        paragraphs: [
+                "各層級對應的就業切入點與升學銜接，可概覽如下。實際資格名稱、編號與適用條件，以項目方書面說明為準。",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>RQF 層級</th><th>學術等同</th><th>可切入的就業渠道（典型角色）</th><th>升學銜接</th></tr></thead>\n              <tbody>\n                <tr><td>Level 3（基礎）</td><td>大學入學前</td><td>照護助理、支援工作者、資深支援工作者</td><td>銜接本科一年級；UK 資格可換算 UCAS 分數</td></tr>\n                <tr><td>Level 4 / 5 / 6</td><td>學士第 1／2／3 年</td><td>照護領域進階與初中階管理職</td><td>可直入學士後續年級（top-up）</td></tr>\n                <tr><td>Level 7</td><td>碩士同級</td><td>健康與社會照護經理、院舍經理、衛生服務經理、資深團隊主管</td><td>銜接碩士 top-up（須補論文階段）</td></tr>\n                <tr><td>Level 8</td><td>博士同級</td><td>高階策略、顧問、學術／研究方向</td><td>博士層級學術認可</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "直接就業這條路最快接觸職場，但晉升仍高度依賴實際工作經驗，文憑是加分項而非唯一條件；學術銜接這條路則較慢，卻是日後轉入受規管專業的必要前置。"
+              ]
+      },
+      {
+        heading: "家庭應如何判斷是否適合",
+        paragraphs: [
+                "判斷的第一步，是先把求職目標歸類為三種之一，因為對應的資格路徑完全不同。",
+                "<ul>\n            <li><strong>不需執照的照護／管理崗位：</strong>OTHM 健康與社會照護資格較能直接支援。</li>\n            <li><strong>受規管專業（如護士、社工）：</strong>護理在英國執業須走 NMC 認可的護理教育與註冊路徑；社工須持認可社工資格並向 Social Work England 註冊。OTHM 管理文憑不直接通往這些註冊，只能作為升學踏板。</li>\n            <li><strong>CQC 註冊經理（Registered Manager）：</strong>Skills for Care 所列成人照護領導與管理 Level 5 文憑，屬以工作場域能力為本的資格；它與 OTHM Level 5 健康與社會照護管理文憑並非同一張資格。以註冊經理為目標者，須確認所修資格是否屬被認可的那一類。</li>\n          </ul>",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">提示</div><p>在報讀前，建議向 OTC 索取最新的書面資格清單，並說明你的求職目標屬於上述哪一類，以對照合適的資格與路徑。所有資格的開放修讀、費用與升學銜接安排，一律以項目方最新書面確認為準；本文不構成就業、簽證或專業註冊之保證。</p></div>"
+              ]
+      },
+      {
+        heading: "OTC 能協助什麼",
+        paragraphs: [
+                "OTC 在這一領域可提供課程輔導、輔導教材，以及升學銜接諮詢，協助學員釐清「目標崗位—所需資格—升學路徑」三者的對應關係，避免選錯方向。對於不確定該從哪一層級起步、或分不清受規管專業與一般崗位差異的家庭，OTC 可提供初步諮詢。",
+                "OTC 不就任何資格作出就業、簽證或專業註冊之承諾；相關開放與供應資訊，均以項目方最新書面確認為準。"
+              ]
+      },
+      {
+        heading: "下一步行動",
+        paragraphs: [
+                "有意了解的學生與家長，可向 OTC 索取最新書面資格清單與升學銜接資訊，並在諮詢時說明目標就業市場（英國或海外），以便評估當地對 OTHM 資格的認受與相應渠道。後續若有資格或升學安排更新，留學導報將另行說明。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">聯絡 OTC</div><p>Email：<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a><br>WhatsApp：<a href=\"https://wa.me/447947991572\">+44 7947 991572</a><br>OTHM 書系入口：<a href=\"/publishing/othm-health-social-care-bilingual-series/\">/publishing/othm-health-social-care-bilingual-series/</a></p></div>"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文所述資格層級、就業渠道與升學銜接僅為一般性說明，不構成就業、簽證或專業註冊之保證。各受規管專業之註冊條件，以相關規管機構最新公告為準；資格開放與供應時間，以項目方最新書面確認為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "已核：資格定位描述為「學術／職業型、受 Ofqual 規管」，未誇大為執業或註冊資格。",
+        "已核：護理（NMC）、社工（Social Work England）、CQC 註冊經理之界線已明確區分，未暗示 OTHM 文憑可直接通往。",
+        "已核：未承諾就業、簽證或註冊；availability 相關處均加註「以項目方最新書面確認為準」。",
+        "待核：OTHM 健康與社會照護各層級之確切資格名稱與編號。"
+      ],
+  },
+  {
+    slug: "overseas-supervision-nclex-rn-bilingual-study-companion-preview",
+    title: "Overseas Supervision Opens Controlled Beta Review for a 500-Page NCLEX-RN Bilingual Study Companion",
+    date: "2026-05-25",
+    category: "OTC News",
+    column: "study",
+    kicker: "海外督導 · Beta Review · NCLEX-RN",
+    author: "海外督導學習中心 / 留學導報編輯部",
+    summary: "Overseas Supervision has completed a 500-page working manuscript of an independent NCLEX-RN bilingual clinical judgment study companion and has moved the project into controlled beta review, with the public demo app already available.",
+    titleZh: "海外督導《NCLEX-RN 臨床判斷雙語備考指南》500頁工作稿完成，進入受控 Beta 審稿",
+    summaryZh: "海外督導學習中心與海外書局已完成《NCLEX-RN 臨床判斷雙語備考指南》500頁工作稿，項目正式進入受控 Beta 審稿階段；公開 Demo App 已開放讀者試用。",
+    relatedReadings: [
+        "nclex-rn-2026-stream-b-taiwan-nursing-prep",
+        "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
+        "othm-health-social-care-bilingual-study-series-plan"
+      ],
+    resources: [
+        ["OTC — NCLEX-RN Bilingual Demo", "https://overseasuk.com/apps/nclex-rn-bilingual-demo/"],
+        ["OTC — NCLEX-RN Bilingual Trainer", "https://overseasuk.com/apps/nclex-rn-bilingual-trainer/"],
+        ["NCLEX — 2026 RN Test Plan", "https://www.nclex.com/test-plans"],
+        ["NCSBN — 2026 NCLEX Candidate Bulletin", "https://www.ncsbn.org/public-files/NCLEX_Examination_Candidate_Bulletin_April_2026.pdf"],
+        ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
+        ["NMBA — Objective Structured Clinical Exam (OSCE)", "https://www.nursingmidwiferyboard.gov.au/Accreditation%20/IQNM/Examination/Objective-structured-clinical-exam.aspx"],
+        ["OTC — Australia VET / TAFE Health & Community Services", "https://overseasuk.com/zh/australia-vet-tafe-pathways/health-community/"]
+      ],
+    body: [
+      {
+        heading: "From product plan to 500-page working manuscript",
+        paragraphs: [
+                "Overseas Supervision and Overseas Publishing House have moved the NCLEX-RN bilingual study companion project from planning into controlled beta review. The current working manuscript contains 33 manuscript sections and 470 structured page units, with an estimated print length of about 500 pages.",
+                "The project remains an independent educational resource for Chinese-speaking nurses and health-care learners exploring NCLEX-RN preparation within the wider Ahpra/NMBA Stream B context.",
+                "The working title is NCLEX-RN Clinical Judgment Bilingual Study Companion: Stream B Route Edition. The current release label is 500-Page Working Manuscript / Beta Review Edition, not final sale edition."
+              ]
+      },
+      {
+        heading: "Why this book is needed",
+        paragraphs: [
+                "Mainstream NCLEX products such as large question banks and video platforms already serve the English-language market well. The gap is different: many Chinese-speaking nurses do not need another generic QBank first; they need a bridge between English test language, nursing judgment and the Australian Stream B registration context.",
+                "Taiwan-trained nurses may be clinically experienced, but NCLEX-RN questions often test prioritisation, scope of practice, delegation, safety and therapeutic communication in a language and regulatory setting that feels unfamiliar.",
+                "The book will therefore focus on how to read the question, identify cues, classify the error type and build a realistic study plan around the candidate's own ATT validity and OSCE timeline."
+              ]
+      },
+      {
+        heading: "What is included in the beta review edition",
+        paragraphs: [
+                "The beta review edition includes route-map chapters, 2026 NCLEX-RN test-plan interpretation, clinical judgment method, prioritisation and delegation, NGN case-reading, pharmacology language, maternal-child safety, mental-health communication, infection control, OSCE transition notes, bilingual phrasebook material and a large structured practice compendium.",
+                "The manuscript is paired with an editorial index and a clinical-risk review queue. The review queue currently separates the internal 500-item pool into high, medium and low review priority so that nursing reviewers can examine higher-risk items first.",
+                "Practice material is written independently by the editorial team and is not copied or adapted from proprietary question banks such as UWorld, Archer, Kaplan, Saunders or other commercial products."
+              ]
+      },
+      {
+        heading: "Public demo app is already open",
+        paragraphs: [
+                "The public demo app is already available. Readers can open the public entrance at <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> or directly open the trainer at <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>.",
+                "The demo uses a controlled low-risk public question set. It supports bilingual rationales, category filters, wrong-answer review, glossary support and a copyable weak-area summary for learners and tutors.",
+                "The full 500-item internal pool remains under clinical and compliance review. Higher-risk pharmacology, maternal-child, mental-health, safety and NGN items will not be promoted as a public full product until review is complete."
+              ]
+      },
+      {
+        heading: "Why the release is controlled",
+        paragraphs: [
+                "Clinical education publishing needs a slower release path than ordinary marketing content. The team has therefore prepared a beta review package rather than a final sale package.",
+                "Before final sale, the project requires RN / nursing educator review, official-source review, bilingual editorial review, compliance review and app-content alignment review.",
+                "The immediate public message is deliberately precise: the manuscript is substantial enough for beta review, the public demo is open, and the final commercial edition will wait for professional sign-off."
+              ]
+      },
+      {
+        heading: "Invitation for beta readers and reviewers",
+        paragraphs: [
+                "Overseas Supervision is now collecting feedback from Taiwan-trained nurses, Chinese-speaking nursing graduates, health-community learners, tutors and qualified nursing reviewers.",
+                "Early readers can try the public demo, subscribe to Overseas Study Review updates and watch for selected sample pages. Professional reviewers should focus on clinical safety, source currency, bilingual clarity and whether any wording sounds too close to a guarantee or official instruction.",
+                "The goal is not simply to produce a long book. The goal is to build a safer bilingual learning system that helps Chinese-speaking learners understand the logic behind NCLEX-RN clinical judgment."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "This book, app and question bank are independent educational resources. They are not official NCLEX, NCSBN, Pearson VUE, Ahpra, NMBA, ANMAC, Australian Government or migration-authority products.",
+                "They do not guarantee NCLEX-RN pass, OSCE pass, Ahpra/NMBA registration, ANMAC skills assessment, visa grant, course admission, employment or any other regulated outcome.",
+                "Learners must follow their own official regulator dashboard, Pearson VUE instructions, ATT validity dates, current candidate bulletin and professional advice where required."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "從新書策劃推進到 500 頁工作稿",
+        paragraphs: [
+                "海外督導學習中心與海外書局已將 NCLEX-RN 雙語教輔項目從「新書策劃」推進到「受控 Beta 審稿」。目前工作稿包含 33 個章節檔與 470 個結構化 page units，估算印刷體量約 500 頁。",
+                "這套產品主要服務正在研究 AHPRA/NMBA Stream B、GCAN、NCLEX-RN 與 OSCE 的華語護理背景讀者，尤其是台灣五專/專科護理背景、已有臨床經驗但需要轉換英文考試語境的人。",
+                "本階段版本名稱建議使用：《NCLEX-RN 臨床判斷雙語備考指南：AHPRA Stream B 路線版》500-Page Working Manuscript / Beta Review Edition。它不是正式銷售版。"
+              ]
+      },
+      {
+        heading: "為什麼需要這本書",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>英文市場已有大量成熟產品：大型題庫、視頻課、CAT 模擬、readiness assessment 和綜合複習書。但對華語護理師而言，真正缺的常常不是『再多一套題』，而是能把英文題幹、護理判斷、台灣護理教育背景和澳洲 Stream B 註冊流程串起來的橋樑。</p></div>",
+                "台灣護理師通常不缺臨床經驗；難點在於 NCLEX-RN 常考 prioritization、delegation、scope of practice、safety、therapeutic communication，以及美式入門 RN 的責任邊界。這些概念如果只靠中文直譯，很容易讀懂字面，卻抓不到題目真正考的安全判斷。",
+                "因此，本書會把重點放在：如何讀題、如何找 cues、如何判斷現在最安全的 action、如何分類錯題，以及如何按自己的 ATT 有效期和 OSCE 後續安排倒排備考。"
+              ]
+      },
+      {
+        heading: "Beta 審稿版包括什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>Beta 審稿版目前包括：AHPRA Stream B 路線圖、2026 NCLEX-RN Test Plan 雙語解讀、Clinical Judgment Model、prioritization、delegation、NGN case study 讀題方法、pharmacology 高頻英文、產兒安全、精神健康溝通、安全與感染控制、OSCE 銜接、雙語術語表與大型練習工作稿。</p></div>",
+                "書稿同時配套 editorial index 與 clinical-risk review queue。審核隊列會把內部 500 題題池按 high / medium / low review priority 分層，方便 RN reviewer 先處理高風險題。",
+                "練習題由編輯團隊獨立撰寫並安排審閱，不複製、不改寫 UWorld、Archer、Kaplan、Saunders 或任何商業題庫內容。"
+              ]
+      },
+      {
+        heading: "公開 Demo App 已可試用",
+        paragraphs: [
+                "公開 Demo App 已經上線。讀者可從公開入口 <a href=\"/apps/nclex-rn-bilingual-demo/\">/apps/nclex-rn-bilingual-demo/</a> 進入，也可直接打開練習工具 <a href=\"/apps/nclex-rn-bilingual-trainer/\">/apps/nclex-rn-bilingual-trainer/</a>。",
+                "公開 Demo 採用受控低風險題池，支援雙語解析、分類篩選、錯題回看、關聯詞彙卡與可複製的弱項報告，適合讀者先試用學習設計。",
+                "完整 500 題內部題池仍處於臨床與合規審核階段。涉及藥理、產兒、精神健康、安全感染控制與 NGN 的高風險題，不會在完成審核前作為完整公開產品推廣。"
+              ]
+      },
+      {
+        heading: "為什麼採取受控發布",
+        paragraphs: [
+                "臨床教育出版不同於普通市場文案，不能因為書稿體量足夠就直接作為正式銷售版推出。海外督導因此先建立 Beta Review Edition，而不是直接發布 Final Sale Edition。",
+                "正式銷售前，需要完成 RN / nursing educator 臨床審核、官方來源核對、雙語編輯審核、合規審核，以及 App 內容一致性審核。",
+                "現階段公開信息應保持精確：500 頁工作稿已完成，公開 Demo 可試用，正式商業版仍等待專業審核與簽署。"
+              ]
+      },
+      {
+        heading: "合規聲明",
+        paragraphs: [
+                "本書、App 與題庫均為獨立教育輔助材料，不是 NCLEX、NCSBN、Pearson VUE、AHPRA、NMBA、ANMAC、澳洲政府或任何移民/監管機構的官方產品。",
+                "本項目不承諾 NCLEX-RN 通過、不承諾 OSCE 通過、不承諾澳洲 RN 註冊、不承諾 ANMAC 職業評估、不承諾簽證、不承諾入學或就業結果。",
+                "學員仍應以自己的官方 regulator dashboard、Pearson VUE 通知、ATT 有效日期、最新 candidate bulletin 及必要時的專業建議為準。"
+              ]
+      },
+      {
+        heading: "徵集 Beta 讀者與專業審核意見",
+        paragraphs: [
+                "海外督導現在徵集台灣護理背景讀者、華語護理畢業生、健康與社區服務方向學習者、督導老師與合資格 nursing reviewer 的反饋。",
+                "讀者可先試用公開 Demo，訂閱留學導報及 OTC 網站更新，等待後續樣章與試讀通知。專業審核者則可重點查看臨床安全、來源時效、雙語清晰度，以及是否有任何表述過度接近保證或官方指令。",
+                "本項目的目標不是單純做一本很厚的書，而是建立一套更安全、更清楚、更適合華語護理背景讀者的 NCLEX-RN 雙語臨床判斷學習系統。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "study-melbourne-hub-victoria-student-support-official-resource",
+    title: "What Is Study Melbourne Hub? Official Student-Support Resources for Victoria-Bound Students",
+    date: "2026-05-25",
+    category: "Australia Study Pathways",
+    column: "settlement",
+    kicker: "Victoria · Study Melbourne · Student Support",
+    author: "留學導報編輯部",
+    summary: "A practical guide to Study Melbourne Hub, the Victorian Government's public information and support resource for international students studying and living in Victoria.",
+    titleZh: "Study Melbourne Hub 是什麼：去維州留學前，學生和家庭可以先知道的官方支持資源",
+    summaryZh: "Study Melbourne Hub 是維多利亞州政府面向國際學生的公共資訊與支持資源。本文整理赴墨爾本 / 維州學生可提前了解的官方入口、到達前清單與 OTC 的服務邊界。",
+    relatedReadings: [
+        "australia-student-visa-2026-npl-md115-priority-processing",
+        "australia-health-vocation-pathway",
+        "uk-aus-application-documents-checklist"
+      ],
+    resources: [
+        ["Study Melbourne official website", "https://studymelbourne.vic.gov.au/"],
+        ["Global Victoria — International Education", "https://global.vic.gov.au/our-programs-and-services/our-programs/international-education"],
+        ["DJSIR — Trade and investment / Study Melbourne Hub reference", "https://djsir.vic.gov.au/what-we-do/trade-and-investment"],
+        ["Study Australia — Victoria / Melbourne", "https://www.studyaustralia.gov.au/en/life-in-australia/locations-in-australia/victoria-melbourne"]
+      ],
+    body: [
+      {
+        heading: "What Study Melbourne Hub is",
+        paragraphs: [
+                "Study Melbourne Hub is part of Study Melbourne, a Victorian Government initiative supporting Victoria's international student community with public information, support services, events and student-experience resources.",
+                "The Melbourne Hub is located at 17 Hardware Lane in Melbourne's CBD. Study Melbourne's public website also provides information about studying, living, working and settling into student life in Victoria.",
+                "For families planning a Melbourne or Victoria study route, Study Melbourne should be understood as an official public resource layer. It is not a substitute for a student's own education provider, visa instructions, medical support, legal advice or emergency services."
+              ]
+      },
+      {
+        heading: "Why students should know it before arrival",
+        paragraphs: [
+                "Many international students focus heavily on the offer, CoE, visa and flight, but the first month in Australia also depends on practical support: accommodation, transport, phone, banking, OSHC, provider orientation, student work rights and knowing where to ask for help.",
+                "Study Melbourne's value is that it gives students a Victorian Government starting point for public information and student-support orientation. It can help students understand events, wellbeing resources, work-related information and the wider student community in Victoria.",
+                "For OTC, the correct use is to direct students to official public resources while keeping our own role clear: education-route coordination, document organisation, family communication and study-planning support."
+              ]
+      },
+      {
+        heading: "Victoria arrival-support checklist",
+        paragraphs: [
+                "Before departure, students should confirm their offer, CoE, payment record, orientation date, accommodation address, OSHC policy, emergency contacts, initial funds, phone plan and arrival transport.",
+                "During the first week, students should attend provider orientation, activate student email and LMS access, check accommodation condition, set up local banking and transport, save emergency contacts and bookmark Study Melbourne resources.",
+                "If a situation involves visa risk, workplace exploitation, accommodation disputes, mental-health crisis, medical emergency, professional registration or legal conflict, students should seek the appropriate official or qualified support rather than relying on informal advice."
+              ]
+      },
+      {
+        heading: "What OTC can and cannot do",
+        paragraphs: [
+                "OTC can help students and families build a study-route file, compare providers, organise document checklists, understand public resources, prepare family communication and keep a practical arrival plan.",
+                "OTC does not act as Study Melbourne, Global Victoria, DJSIR or the Victorian Government. Referencing Study Melbourne does not imply partnership, appointment, endorsement or recruitment authorisation.",
+                "OTC also does not provide migration legal advice, employment legal advice, accommodation legal advice, medical advice or emergency support. Where regulated or urgent issues arise, students should contact the appropriate official service, qualified professional or emergency channel."
+              ]
+      },
+      {
+        heading: "How to keep updated",
+        paragraphs: [
+                "Students can visit the Study Melbourne website, follow Study Melbourne's public social-media channels and subscribe to its e-newsletter for updates.",
+                "OTC will also keep Study Melbourne as part of its Victoria public-resource map and use it when preparing Melbourne / Victoria student orientation notes.",
+                "A good study plan is not only about admission. It also needs a safe landing plan, a reliable support map and a clear understanding of where official information begins."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "Study Melbourne Hub 是什麼",
+        paragraphs: [
+                "Study Melbourne Hub 是 Study Melbourne 的一部分。Study Melbourne 是維多利亞州政府面向國際學生的公共資訊與支持項目，服務對象包括在維州學習、生活或準備赴維州學習的國際學生群體。",
+                "Study Melbourne Hub 位於墨爾本市中心 Hardware Lane。Study Melbourne 官網也提供關於在維州學習、生活、工作、活動、學生支持與社群連結的公開資訊。",
+                "對準備赴墨爾本或維州留學的家庭來說，Study Melbourne 應被理解為一層官方公共資源入口。它不是學生所在學校的替代品，也不是簽證、醫療、法律、住宿糾紛或緊急情況的萬能解決渠道。"
+              ]
+      },
+      {
+        heading: "為什麼出發前就應該知道它",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>很多家庭在出發前只盯著 offer、CoE、簽證和機票，但學生到澳洲後的第一個月，真正考驗的是生活落地能力：住宿、交通、電話卡、銀行、OSHC、學校 orientation、兼職工作權益、遇到問題時去哪裡求助。</p></div>",
+                "Study Melbourne 的價值在於，它提供了一個維州政府層面的公共資訊起點，幫學生理解官方活動、學生支持、生活資訊、工作相關提示與維州國際學生社群。",
+                "對 OTC 而言，正確用法是：在學生路線規劃中引導學生查看官方公共資源，同時保持我們自己的服務邊界清楚，即教育路線協調、文件整理、家庭溝通與學習規劃支持。"
+              ]
+      },
+      {
+        heading: "赴維州學生到達前清單",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>出發前，學生應確認 offer、CoE、付款記錄、orientation 日期、住宿地址、OSHC 保單、緊急聯絡人、初期生活費、電話卡方案與抵達交通安排。</p></div>",
+                "到達第一週，學生應完成學校 orientation、啟用 student email 和 LMS、檢查住宿狀況並保留照片、設置本地銀行和交通卡、保存緊急聯絡方式，並收藏 Study Melbourne 等官方公共資源。",
+                "若問題涉及簽證風險、工作剝削、住宿糾紛、心理健康危機、醫療急症、專業註冊或法律衝突，學生不應只依賴非正式建議，而應尋求相應官方渠道、合資格專業人士或緊急服務。"
+              ]
+      },
+      {
+        heading: "OTC 可以做什麼，不能做什麼",
+        paragraphs: [
+                "OTC 可以協助學生和家庭建立留學路線檔案、比較院校與課程、整理文件清單、理解公共資源、準備家庭溝通與到達前安排。",
+                "OTC 不是 Study Melbourne、Global Victoria、DJSIR 或維多利亞州政府。引用 Study Melbourne 公共資源，不代表 OTC 與 Study Melbourne 建立合作、獲得授權、被官方背書或取得招生代理身份。",
+                "OTC 也不提供移民法律建議、就業法律建議、住宿法律建議、醫療建議或緊急救援。遇到受監管或緊急事項時，學生應聯絡相應官方服務、合資格專業人士或緊急渠道。"
+              ]
+      },
+      {
+        heading: "如何持續更新",
+        paragraphs: [
+                "學生可以訪問 Study Melbourne 官網，關注其公開社交媒體渠道，並訂閱 e-newsletter 以獲得活動與學生支持資訊更新。",
+                "OTC 也會把 Study Melbourne 納入維州公共資源地圖，在整理墨爾本 / 維州學生 orientation notes 時作為官方公共入口之一。",
+                "一個好的留學規劃不只是拿到 offer，也包括安全落地、知道去哪裡尋找官方資訊，以及在問題出現時能分清哪些事應該找學校、政府公共資源、專業人士或緊急服務。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "summer-school-vaccine-medical-consent-parent-checklist",
+    title: "UK Summer School Health Checklist: Vaccinations, Medical Forms and Travel Consent",
+    date: "2026-05-26",
+    category: "Summer School",
+    column: "study",
+    kicker: "Summer School · Parents · Health & Consent",
+    author: "留學導報編輯部",
+    summary: "A practical parent-facing health checklist for UK summer school preparation: student health information, vaccine records, medical forms, medication notes, emergency contacts and travel consent.",
+    titleZh: "去英國 Summer School 前，家長怎樣做健康檢查？可直接照填的清單",
+    summaryZh: "給準備去英國 summer school 的家長使用：學生基本健康資料、近期健康狀況、疫苗記錄、用藥與過敏、醫生/診所確認項目、緊急聯絡人和家長同意書，一次整理成可提交文件包。",
+    relatedReadings: [
+        "uk-aus-application-documents-checklist",
+        "reference-letter-briefing-pack-uk-aus",
+        "uk-entry-requirements-course-page-checklist"
+      ],
+    resources: [
+        ["NHS: Travel vaccinations", "https://www.nhs.uk/vaccinations/travel-vaccinations/"],
+        ["NHS: Travel vaccination advice", "https://www.nhs.uk/vaccinations/travel-vaccinations/travel-vaccination-advice/"],
+        ["Fit for Travel: Child travellers", "https://www.fitfortravel.scot.nhs.uk/advice/general-travel-health-advice/child-travellers"],
+        ["GOV.UK: Permission to take a child abroad", "https://www.gov.uk/permission-take-child-abroad"],
+        ["GOV.UK: Children travelling to the UK", "https://www.gov.uk/government/publications/children-travelling-to-the-uk/children-travelling-to-the-uk-accessible"],
+        ["GOV.UK: Travel abroad", "https://www.gov.uk/browse/abroad/travel-abroad"]
+      ],
+    body: [
+      {
+        heading: "Start with the programme requirement",
+        paragraphs: [
+                "If the original summer school page cannot be opened, ask the organiser for the latest written requirements and start a parent document pack immediately.",
+                "The core file usually includes passport copy, visa or entry permission if applicable, insurance, medical form, vaccination record, allergies, medication notes, emergency contacts and parental consent."
+              ]
+      },
+      {
+        heading: "Vaccinations and medical forms",
+        paragraphs: [
+                "Parents should first check whether the child is up to date with routine vaccinations, then check destination-specific travel vaccine advice. Travel vaccines depend on destination, itinerary, duration, activities and the child's age.",
+                "If a medical form requires a doctor or clinic signature, book early and bring the programme form, passport details, vaccination record and medication list."
+              ]
+      },
+      {
+        heading: "Parental consent and travel permission",
+        paragraphs: [
+                "For a child travelling abroad, written permission from people with parental responsibility may be requested at borders or by programme staff. GOV.UK notes that a permission letter may be asked for at a UK or foreign border.",
+                "The letter should name the child, parents or guardians, accompanying adult or organisation, travel dates, destination, emergency contacts and permission for routine supervision and urgent medical contact."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "OTC can help families organise checklists and document packs. It cannot replace a doctor, school nurse, solicitor, border authority, visa authority or programme organiser.",
+                "When unsure, ask the programme organiser and official health or travel sources in writing, then keep the reply in the student's file."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "英國 Summer School 健康檢查清單：家長可直接照填",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>項目</th><th>請填寫 / 勾選</th><th>備註</th></tr></thead>\n              <tbody>\n                <tr><td>學生姓名</td><td>____________</td><td>需與護照一致。</td></tr>\n                <tr><td>出生日期</td><td>____________</td><td>日 / 月 / 年。</td></tr>\n                <tr><td>護照號碼</td><td>____________</td><td>附護照首頁。</td></tr>\n                <tr><td>英國夏校名稱</td><td>____________</td><td>填 summer school / camp 正式名稱。</td></tr>\n                <tr><td>出行日期</td><td>____________</td><td>含抵達英國與離開英國日期。</td></tr>\n                <tr><td>身高 / 體重</td><td>____________</td><td>如夏校 health form 要求。</td></tr>\n                <tr><td>血型</td><td>____________</td><td>不知道可填 Unknown。</td></tr>\n                <tr><td>是否有慢性疾病</td><td>是 / 否；詳情：____________</td><td>如哮喘、糖尿病、心臟病等。</td></tr>\n                <tr><td>是否正在服藥</td><td>是 / 否；藥名：____________</td><td>寫明劑量、時間、是否需成人提醒。</td></tr>\n                <tr><td>是否有過敏史</td><td>是 / 否；過敏源：____________</td><td>食物、藥物、花粉、昆蟲、乳膠等。</td></tr>\n                <tr><td>是否有食物禁忌</td><td>是 / 否；詳情：____________</td><td>宗教、素食、乳糖不耐、堅果過敏等。</td></tr>\n                <tr><td>是否近期手術或住院</td><td>是 / 否；日期與原因：____________</td><td>建議附醫生說明。</td></tr>\n                <tr><td>是否需要情緒/心理支持</td><td>是 / 否；注意事項：____________</td><td>如焦慮、睡眠、適應問題等。</td></tr>\n                <tr><td>是否適合正常體育活動</td><td>是 / 否 / 需限制</td><td>如不能跑步、游泳、遠足，請寫清。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "出發前 7 天健康狀況確認",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p></p><div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>出發前 7 天內</th><th>是 / 否</th><th>如選「是」，請說明</th></tr></thead>\n              <tbody>\n                <tr><td>是否發燒</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否咳嗽、喉嚨痛、流鼻水</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否腹瀉或嘔吐</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否皮疹或疑似傳染性皮膚問題</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否接觸傳染病患者</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否胸悶、頭暈、嚴重疲勞</td><td>是 / 否</td><td>____________</td></tr>\n                <tr><td>是否有任何需要夏校老師特別注意的健康變化</td><td>是 / 否</td><td>____________</td></tr>\n              </tbody>\n            </table>\n          </div><p></p></div>",
+                "如出發前出現發燒、傳染性症狀、嚴重不適或醫生建議不宜出行，請先通知夏校/項目方，不要隱瞞健康變化。"
+              ]
+      },
+      {
+        heading: "疫苗記錄核對",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p></p><div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>疫苗 / 記錄</th><th>是否已接種 / 有記錄</th><th>文件位置</th></tr></thead>\n              <tbody>\n                <tr><td>MMR 麻疹、腮腺炎、風疹</td><td>是 / 否 / 不確定</td><td>疫苗本 / 診所記錄 / 學校記錄</td></tr>\n                <tr><td>DTP / Tdap 白喉、破傷風、百日咳</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>Polio 小兒麻痺</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>Hepatitis B 乙肝</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>Chickenpox / Varicella 水痘</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>Influenza 流感，如有</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>COVID-19，如夏校要求</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n                <tr><td>其他英國夏校或醫生要求項目</td><td>是 / 否 / 不確定</td><td>____________</td></tr>\n              </tbody>\n            </table>\n          </div><p></p></div>",
+                "家長需要附上疫苗本、接種記錄照片或診所/學校出具的接種記錄。若無法判斷英文名稱，可先提交原始記錄，再由項目方確認是否需要翻譯或醫生說明。"
+              ]
+      },
+      {
+        heading: "用藥與過敏說明",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>項目</th><th>請填寫</th><th>提醒</th></tr></thead>\n              <tbody>\n                <tr><td>藥品名稱</td><td>____________</td><td>最好中英文或拍照附藥盒。</td></tr>\n                <tr><td>用途</td><td>____________</td><td>例如哮喘、過敏、胃藥等。</td></tr>\n                <tr><td>劑量</td><td>____________</td><td>每次多少、每日幾次。</td></tr>\n                <tr><td>服用時間</td><td>____________</td><td>早/午/晚/睡前/需要時。</td></tr>\n                <tr><td>是否需要成人提醒</td><td>是 / 否</td><td>請明確告知夏校。</td></tr>\n                <tr><td>是否需要冷藏</td><td>是 / 否</td><td>如需冷藏，提前確認宿舍/醫務室安排。</td></tr>\n                <tr><td>是否有醫生處方/說明</td><td>是 / 否</td><td>處方藥建議附醫生信或處方。</td></tr>\n                <tr><td>禁忌藥物</td><td>____________</td><td>例如青黴素、布洛芬等。</td></tr>\n                <tr><td>過敏反應表現</td><td>____________</td><td>皮疹、呼吸困難、腫脹、嘔吐等。</td></tr>\n                <tr><td>緊急處理方式</td><td>____________</td><td>如有 EpiPen 等需明確說明。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "如英國 Summer School 要求體檢，請醫生/診所確認這些項目",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>醫生/診所確認項目</th><th>適合 / 不適合 / 需限制</th><th>醫生備註</th></tr></thead>\n              <tbody>\n                <tr><td>學生目前身體狀況是否適合參加 summer school</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否適合長途飛行</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否適合集體住宿</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否適合正常戶外活動</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否適合體育課 / 游泳 / 遠足</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否有需夏校知悉的醫療風險</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否需要攜帶常用藥</td><td>____________</td><td>____________</td></tr>\n                <tr><td>是否需要特殊飲食或照護</td><td>____________</td><td>____________</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "醫生簽名：____________　診所名稱：____________　診所電話：____________　檢查日期：____________　診所蓋章：____________"
+              ]
+      },
+      {
+        heading: "原頁面打不開時，仍要先按「家長文件包」準備",
+        paragraphs: [
+                "如果夏校頁面暫時打不開，家長可以先按公開通用清單準備，不必等到最後一週才開始補材料。請同時向項目方索取最新書面要求，並把所有回覆截圖或存成 PDF。",
+                "建議先建立一個「夏校出行文件包」：學生護照首頁、簽證或入境許可（如適用）、保險、疫苗記錄、體檢/醫療表、過敏與用藥說明、緊急聯絡人、家長同意書、航班與住宿/接送信息。"
+              ]
+      },
+      {
+        heading: "補充提醒：疫苗怎麼辦",
+        paragraphs: [
+                "第一步不是盲目補針，而是先找出學生已有的疫苗記錄：兒童疫苗本、學校/診所記錄、GP 或家庭醫生記錄、過去出國疫苗記錄等。先確認常規疫苗是否完整，再看目的地是否需要 travel vaccines。",
+                "NHS 關於 travel vaccinations 的公開說明提醒，出行前應確認常規疫苗是否 up to date。不同國家、停留時間、活動內容、學生年齡和健康狀況都會影響建議。",
+                "實務上請至少提前數週處理，因為有些疫苗需要多劑次或間隔時間。若夏校、航空公司、目的地國家或醫生給出不同要求，以最新正式書面要求為準。"
+              ]
+      },
+      {
+        heading: "補充提醒：體檢 / 醫療表只填事實，不替醫生判斷",
+        paragraphs: [
+                "很多夏校會要求 health form、medical form 或 emergency medical information。家長應如實填寫：過敏史、哮喘、癲癇、糖尿病、食物禁忌、正在服用的藥物、既往重大疾病、心理健康或特殊支持需要（如適用）。",
+                "如果表格需要醫生或診所簽字蓋章，請提前預約。去診所時帶上：項目方原表格、學生護照信息、疫苗記錄、正在使用的藥物清單、過敏信息、家長聯絡方式。不要讓中介或老師代替醫生填寫醫療判斷。"
+              ]
+      },
+      {
+        heading: "家長同意書：未成年人去英國要把監護授權寫清楚",
+        paragraphs: [
+                "未成年人出國，尤其是跟學校、夏校、親戚、監護人或團隊老師同行時，通常需要家長/監護人的書面同意。GOV.UK 關於帶未成年人出國的說明也提醒，邊境或相關方可能要求查看 permission letter。",
+                "一份實用的家長同意書應至少包括：學生姓名、出生日期、護照號；父母/監護人姓名、電話和電郵；同行成人或項目方名稱；出行國家、城市、日期；住宿或活動安排；緊急聯絡人；家長同意學生參加項目、接受日常管理、在緊急情況下由項目方聯絡醫療機構和家長。",
+                "如父母不同姓、單親監護、離異、監護權安排複雜，或孩子由非父母成人帶出境，建議提前諮詢相關官方渠道或法律專業人士，並保留能證明監護/同意關係的文件。"
+              ]
+      },
+      {
+        heading: "建議家長一次性提交的文件清單",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>文件</th><th>用途</th><th>注意事項</th></tr></thead>\n              <tbody>\n                <tr><td>學生護照首頁</td><td>身份核對、機票與入境材料</td><td>確認有效期足夠，姓名拼寫一致。</td></tr>\n                <tr><td>簽證 / 入境許可</td><td>入境與項目報到</td><td>如目的地要求，請保存批准頁或電子簽證 PDF。</td></tr>\n                <tr><td>疫苗記錄</td><td>健康與入營要求核對</td><td>盡量提供英文或可識別版本；不清楚時請醫生/診所協助。</td></tr>\n                <tr><td>體檢 / 醫療表</td><td>夏校健康管理與緊急處理</td><td>需要醫生簽字時不要自行代填專業部分。</td></tr>\n                <tr><td>家長同意書</td><td>未成年人出行、監護與緊急聯絡授權</td><td>父母/監護人簽名、日期、聯絡方式要完整。</td></tr>\n                <tr><td>保險信息</td><td>醫療、旅行延誤、行李等風險處理</td><td>保存 policy number、24 小時求助電話。</td></tr>\n                <tr><td>過敏 / 用藥說明</td><td>住宿、餐飲、活動安全</td><td>藥品名稱、劑量、服用時間最好中英雙語標註。</td></tr>\n                <tr><td>緊急聯絡人</td><td>項目期間快速聯絡</td><td>至少兩名成人，含手機、微信/WhatsApp、電郵。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "給家長的簡短發送模板",
+        paragraphs: [
+                "家長可將以下文字連同文件一起發給項目負責人：",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">可複製模板</div><p>您好，已按夏校要求整理學生出行文件。附件包括：護照首頁、疫苗記錄、體檢/醫療表、家長同意書、保險信息、緊急聯絡人及過敏/用藥說明（如適用）。請協助核對是否還需補充其他文件。如項目方對疫苗、體檢或家長同意書有最新版表格，請以最新版為準發給我們更新。</p></div>"
+              ]
+      },
+      {
+        heading: "OTC 可以協助什麼，不能替代什麼",
+        paragraphs: [
+                "OTC 可以協助家長整理文件清單、核對是否缺頁、翻譯/雙語整理基本信息、提醒時間節點、把項目方回覆歸檔。但醫療判斷應由醫生/診所完成；法律或監護權爭議應由合資格法律專業人士處理；簽證/邊境要求應以官方渠道為準。",
+                "本文是給家長的行政準備清單，不構成醫療建議、法律建議、簽證建議或學校/夏校官方要求。正式出行前，請以項目方最新書面通知、官方健康/邊境資訊和個人實際情況為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-26。本文依 NHS travel vaccinations、Fit for Travel child travellers 及 GOV.UK 兒童出行同意相關公開資訊整理。",
+        "不同夏校、學校、營地、目的地國家及航空公司可能有不同要求；正式操作以項目方、醫生、學校、邊境/簽證官方頁面和家長實際監護安排為準。"
+      ],
+  },
+  {
+    slug: "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
+    title: "Taiwan Nursing Background to Australia RN: AHPRA Stream B, GCAN and the OBA Route",
+    date: "2026-05-24",
+    category: "Australia Health Pathways",
+    column: "settlement",
+    kicker: "AHPRA Stream B · GCAN · IQNM",
+    author: "留學導報編輯部",
+    summary: "A compliance-first briefing on why Taiwanese diploma-trained nurses may look at AHPRA/NMBA Stream B, the OBA route, and TEQSA-accredited Graduate Certificate in Advanced Nursing options such as IHM’s GCAN.",
+    titleZh: "被挖掘到的低成本澳洲 RN 申請途徑：台灣五專護理背景也能走通？AHPRA Stream B + GCAN 半年線上課程解析",
+    summaryZh: "台灣五專護理、台灣護理師執照與工作經驗，是否能透過 AHPRA Stream B、OBA、NCLEX-RN、OSCE 與 GCAN 做澳洲 RN 路線規劃？本文用 AHPRA/NMBA、TEQSA 與 IHM 公開資料做一份合規版路線解析：GCAN 可作學歷補強與澳洲護理語境準備，但不等於自動註冊，也不等於移民保證。",
+    relatedReadings: [
+        "nclex-rn-2026-stream-b-taiwan-nursing-prep"
+      ],
+    resources: [
+        ["Ahpra — Apply for registration / IQNM self-check entry point", "https://www.ahpra.gov.au/Registration/Registration-Process.aspx"],
+        ["NMBA — Internationally qualified nurses and midwives", "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/International.aspx"],
+        ["NMBA — Objective Structured Clinical Exam (OSCE)", "https://www.nursingmidwiferyboard.gov.au/Accreditation%20/IQNM/Examination/Objective-structured-clinical-exam.aspx"],
+        ["NMBA — Information for registered nurses / NCLEX-RN", "https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Registered-nurses.aspx"],
+        ["Ahpra — English language skills FAQ", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/FAQ.aspx"],
+        ["TEQSA — Graduate Certificate in Advanced Nursing", "https://www.teqsa.gov.au/course/graduate-certificate-advanced-nursing"],
+        ["IHM — Graduate Certificate in Advanced Nursing", "https://ihm.edu.au/graduate-certificate-in-advanced-nursing/"],
+        ["IHM — GCAN Australian Nursing Practice notice", "https://ihm.edu.au/lp/gcan-anp/"],
+        ["ANMAC — Skills assessment", "https://www.anmac.org.au/skilled-migration-services"]
+      ],
+    body: [
+      {
+        heading: "Why this route attracts attention",
+        paragraphs: [
+                "Australia continues to face strong demand for nurses, and internationally qualified nurses and midwives (IQNMs) use the Ahpra/NMBA process to have their qualifications assessed before applying for registration.",
+                "For Taiwanese nurses, the key question is often not whether they have nursing experience, but whether their entry-to-practice qualification is assessed as substantially equivalent to an Australian-approved qualification.",
+                "This is where many applicants begin researching Stream B, the outcomes-based assessment (OBA), and postgraduate study options such as a Graduate Certificate in Advanced Nursing (GCAN)."
+              ]
+      },
+      {
+        heading: "Stream B: OBA, not automatic registration",
+        paragraphs: [
+                "Ahpra/NMBA’s IQNM process starts with the online self-check. Stream B candidates generally hold a qualification that is relevant to nursing or midwifery but is not assessed as substantially equivalent to, or based on similar competencies as, an approved Australian qualification.",
+                "Stream B candidates must complete Orientation Part 1 and the outcomes-based assessment. For registered nurses, the MCQ examination is delivered through the NCLEX-RN, and candidates must also complete the OSCE before they are eligible to apply for registration.",
+                "This is an assessment pathway, not a guaranteed approval route. English language skills, recency of practice, criminal history, professional standards and documentary evidence still matter."
+              ]
+      },
+      {
+        heading: "Where GCAN fits: qualification strengthening and Australian nursing context",
+        paragraphs: [
+                "IHM’s Graduate Certificate in Advanced Nursing is listed as TEQSA-accredited, AQF Level 8, delivered online, with a full-time duration of 26 weeks and a published tuition fee of AUD 8,000 for the online GCAN.",
+                "For a diploma-trained nurse, a TEQSA-accredited postgraduate certificate can be attractive because it gives an Australian higher-education credential and structured exposure to Australian nursing language, ethics, clinical decision-making and specialist topics.",
+                "However, the important caveat is clear: completion of GCAN does not directly lead to registration as a nurse or midwife in Australia. It may support preparation and qualification presentation, but Ahpra/NMBA remains the registration decision-maker."
+              ]
+      },
+      {
+        heading: "A cautious planning sequence",
+        paragraphs: [
+                "A practical sequence is: complete the Ahpra/NMBA self-check, confirm the stream and document requirements, review whether an Australian postgraduate nursing certificate is useful for the file, prepare English and NCLEX-RN in parallel, then plan OSCE timing and travel if required.",
+                "Applicants should also check whether they meet recency of practice and English language standards. From 23 April 2026, Ahpra notes changes to accepted English test score requirements, so applicants should read the current standard before booking a test.",
+                "For migration, registration is only one component. ANMAC skills assessment, visa eligibility, employer sponsorship, state nomination and migration advice are separate issues and should be handled by qualified professionals."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼台灣護理師開始關注這條路",
+        paragraphs: [
+                "澳洲醫療體系長期需要護理人才，海外合格護士與助產士（IQNM）可透過 AHPRA / NMBA 流程評估資格並申請註冊。對台灣護理師而言，真正的問題往往不是「有沒有護理背景」，而是原始入門學歷是否被視為與澳洲批准課程 substantially equivalent。",
+                "台灣五專護理、護理師執照與臨床工作經驗，讓不少人開始研究 Stream B、Outcome-Based Assessment（OBA）、NCLEX-RN、OSCE，以及澳洲 Graduate Certificate in Advanced Nursing（GCAN）這類學歷補強選項。",
+                "這篇文章不是移民承諾，也不是註冊保證，而是把「台灣五專護理背景 + Stream B + GCAN」這條近期被討論較多的低成本規劃路線，拆成可核對的官方節點。"
+              ]
+      },
+      {
+        heading: "Stream B 是 OBA 路線，不是直接註冊",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>AHPRA / NMBA 的 IQNM 流程通常先從 online self-check 開始。Stream B 候選人一般是指：所持資格與護理或助產相關，但尚未被判定為與澳洲批准資格 substantially equivalent，或未被認為基於相似能力標準。</p></div>",
+                "Stream B 不是壞消息，但它代表你需要完成後續評估。對 Registered Nurse 方向而言，通常會涉及 Orientation Part 1、portfolio、MCQ examination（NCLEX-RN）以及 OSCE。NMBA 的 OSCE 頁面也明確說明，Stream B 候選人通過前置階段後，需通過 OSCE 才有資格申請澳洲註冊。",
+                "所以，五專 + 台灣護理師執照 + 工作經驗可以成為申請材料的一部分，但不能被寫成「一定可直接成為澳洲 RN」。英語、近年臨床經驗、無犯罪紀錄、文件一致性與專業標準仍會被審查。"
+              ]
+      },
+      {
+        heading: "GCAN 的作用：學歷補強與澳洲護理語境準備",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>以 Institute of Health &amp; Management（IHM）的 Graduate Certificate in Advanced Nursing 為例，公開資料顯示該課程為 TEQSA 認證、AQF Level 8，線上授課，全職 26 週，線上 GCAN 學費標示為 AUD 8,000。</p></div>",
+                "對已有護理專科、台灣註冊與工作經驗的人來說，GCAN 的吸引力在於：用半年左右取得澳洲高等教育體系下的 postgraduate certificate，同時接觸澳洲護理實務、倫理、臨床判斷、專科方向與英文學術語境。",
+                "但這裡必須放一個醒目警示：GCAN 不等於 AHPRA 註冊。IHM 自己對 Australian Nursing Practice 方向也提醒，完成課程不會直接導致澳洲護士或助產士註冊。它更適合作為學歷補強、語境準備和文件呈現的一部分，而不是保證通行證。"
+              ]
+      },
+      {
+        heading: "一條比較務實的規劃流程",
+        paragraphs: [
+                "第一步，先做 AHPRA / NMBA self-check，確認自己落在哪個 stream。不要先假設自己一定是 Stream B，也不要只根據社群案例判斷。",
+                "第二步，整理文件：台灣五專畢業證書、成績單、課程描述、台灣護理師執照、工作證明、good standing 或主管機構文件、護照、姓名變更文件（如有）、英文成績與近年臨床時數。",
+                "第三步，評估是否需要 GCAN 或其他澳洲高等教育補強。若選 GCAN，應核對 TEQSA、課程名稱、AQF level、交付方式、學費、英文門檻、是否有 NCLEX / OSCE 支援，以及該課程對自己文件策略的實際作用。",
+                "第四步，同步準備 NCLEX-RN 與英文。若 portfolio 被批准，Registered Nurse MCQ 由 NCSBN / Pearson VUE 的 NCLEX-RN 承接；OSCE 則需按 NMBA / Ahpra 要求安排。"
+              ]
+      },
+      {
+        heading: "成本分析：低成本是相對概念，不是低風險",
+        paragraphs: [
+                "與直接在澳洲讀完整 Bachelor of Nursing 或多年課程相比，線上 GCAN 的學費與時間成本確實更容易控制。以 IHM 公開頁面的 AUD 8,000 線上 GCAN 為例，對仍在台灣工作的護理師，可能比立刻搬去澳洲讀長學位更可行。",
+                "但總成本不能只看學費。還要估算英文考試、文件翻譯與認證、AHPRA / NMBA 費用、NCLEX-RN、OSCE、赴澳考試與住宿、複考風險、職業評估、簽證與專業諮詢費。",
+                "移民部分尤其不能簡化。成為澳洲 RN 後，是否能走 ANMAC skills assessment、189/190/186 或雇主擔保，取決於當年政策、個人分數、工作經驗、英文、州政策與雇主條件。GCAN 本身不直接等於移民加分或 PR 保證。"
+              ]
+      },
+      {
+        heading: "OTC 的建議：先做路線審核，再決定是否投入",
+        paragraphs: [
+                "這條路最適合已有護理資格、英文願意投入、能承受 1-2 年考試與文件週期，並且願意把澳洲 RN 當作長期職涯轉換而不是短期捷徑的人。",
+                "如果你是台灣五專護理背景，建議先做三件事：完成 self-check、整理完整 evidence pack、把英文與 NCLEX 計畫放到同一張時間表。之後再判斷 GCAN 是否真的適合你，而不是因為「半年線上」四個字就匆忙報名。",
+                "OTC 可協助做教育路線解讀、文件清單、課程資訊核對與官方來源整理；AHPRA 註冊、ANMAC 職業評估及移民簽證決策，應由監管機構或合資格專業人士確認。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "taiwan-travelogue-critical-collection-methodology",
+    title: "From Phenomenon to Major Critical Work: Editing a Taiwan Travelogue Collection",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "出版策劃 · 批評文集",
+    author: "蕭珩",
+    summary: "A full editorial roadmap for building a major critical collection on Taiwan Travelogue, covering scholarly timing, book architecture, chapter design, fieldwork, publishing strategy and appendices.",
+    titleZh: "從現象到巨著：《臺灣漫遊錄》批評文集的編撰策略與方法論框架",
+    summaryZh: "一份給研究者與編輯的完整路線圖：如何把《臺灣漫遊錄》的獲獎現象、跨語接受、偽譯形式、台灣文學史位置與世界文學理論，編成一部真正有重力的批評文集。",
+    relatedReadings: [
+        "taiwan-travelogue-multidimensional-literary-politics",
+        "taiwan-travelogue-pseudo-translation-comparative-literature"
+      ],
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-03",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    body: [
+      {
+        heading: "Editorial Abstract",
+        paragraphs: [
+                "This Chinese long-form editorial essay proposes a research and publishing roadmap for a major critical collection on Taiwan Travelogue. The full Chinese article is published in the Chinese Overseas Study Review."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一份給研究者與編輯的完整路線圖",
+        paragraphs: [
+                "文學現象的批評史往往有一個「黃金窗口」：作品問世後三至七年，初步的接受浪潮已沉澱，學術詮釋尚未完全固化，仍有充分的爭議空間。《臺灣漫遊錄》目前正處於這一窗口的最佳位置。",
+                "布克獎的頒發（2026年5月），在接受史意義上是一個「元事件」（meta-event）：它使台灣本土接受、日本接受、英語世界接受、大陸的隱蔽接受、東歐的殖民記憶共振，以及 LGBTQ+ 群體的認同性閱讀同時顯影。此刻啟動批評文集的編撰，等於是在最豐富的地質層形成之後、固化之前，進行系統性的鑽探。",
+                "這部小說的結構性特質，使它天然適合成為多聲部批評集合的核心：偽譯作進入翻譯研究，後設小說進入敘事學，歷史小說進入台灣史學，百合文學進入性別與酷兒研究，殖民地書寫進入後殖民理論，飲食文學進入物質文化研究，哀悼書寫進入精神分析。每一個學科都能從不同入口進入同一部文本，各學科的詮釋又不會彼此消耗。這種多義性，是一部批評巨著的最佳基底。"
+              ]
+      },
+      {
+        heading: "書的性格：一場批評事件",
+        paragraphs: [
+                "市面上大多數文學批評文集，是學術論文的鬆散彙編，缺乏整體論述的重力場。本書要避開這一命運，必須從一開始確立清晰的書的性格：它不應只是圍繞《臺灣漫遊錄》的論文合集，而應以《臺灣漫遊錄》為稜鏡，折射當代台灣與世界文學交界處最根本的若干問題。",
+                "這些問題包括翻譯的倫理、殖民記憶的政治、世界文學場域的權力、哀悼書寫的詩學、女性情感與歷史想像的關係。書的定位差異，將決定選文標準、編排邏輯、導論寫法，以及最終在讀者心中產生的重量感。",
+                "可參照的理想書型，是 Henry Louis Gates Jr. 編 Black Literature and Literary Theory 這類以一個文學傳統為核心打開多學科對話的批評集合，也包括 Spivak 的 In Other Worlds 所展現的有觀點的批評寫法，以及接受美學傳統中理論與案例研究的有機整合。目標不是把文章放在一起，而是讓全書本身成為一個批評事件。"
+              ]
+      },
+      {
+        heading: "總體架構：七個同心圓",
+        paragraphs: [
+                "全書可採取「同心圓擴展」的結構邏輯：從文本內部的細讀，逐漸擴展至接受的社會語境，再擴展至世界文學的理論命題。每一部分既可獨立成章，又與整體形成呼應。",
+                "導論由主編撰寫，約三萬字，題為「一部小說，七個問題」。導論本身應是一篇論著，而非說明書。它需要處理：偽譯作為認識論裝置、楊双子的傳記如何成為文本的第七層、百合歷史小說如何在台灣文學史中定位、三浦裕子與林慕蓮的譯本如何參與意義生產、世界文學場域如何發現邊緣文學、大陸的沉默接受如何成為政治鏡面，以及哀悼、愛欲與殖民如何形成不可化約的三角張力。",
+                "第一部可命名為「文本的內部宇宙」，承擔細讀與形式分析任務；第二部處理哀悼、愛欲與書寫；第三部處理翻譯的政治學；第四部處理接受的地理政治學；第五部將案例推向比較文學與世界文學理論；第六部把作品放回台灣文學史；第七部保留開放性問題與未來研究方向。"
+              ]
+      },
+      {
+        heading: "文本內部宇宙：細讀與形式分析",
+        paragraphs: [
+                "第一部是全書的基礎，確立對文本本身的精密理解，供後續各部分的論述建立在堅實的文本基礎之上。",
+                "《偽譯的機器：〈臺灣漫遊錄〉的後設敘事結構分析》應運用熱奈特的敘事學工具，系統分析跨層敘事（metalepsis）、聚焦游移（focalization shifts）、多時間層的敘事時距（narrative duration）。重點在於：「譯者注」如何作為一種敘事干預裝置，不斷打斷並重構讀者對「原著」的詮釋。",
+                "《菜單作為結構：十二道菜的敘事功能與象徵邏輯》應以符號學方法分析十二道料理的選擇邏輯：它們如何形成一條從輕盈到沉重、從個人到歷史、從消費到抵抗的象徵弧線。麻薏湯、菜尾湯、蜜豆冰三道關鍵料理，可作深度個案。",
+                "《兩個千鶴的語法：人物塑造中的殖民主體性》應分析青山千鶴子與王千鶴的主體性不對稱，以及「沉默」如何既是殖民壓迫的後果，也是對殖民話語的抵抗策略。斯皮瓦克的屬下研究框架可以引入，但必須修正：王千鶴並非完全無法說話的屬下，她的沉默是一種選擇性的抵抗。",
+                "《日文腔的文體政治：語言模仿作為批判工具》應處理一個尚未被充分討論的問題：楊双子在中文寫作中刻意模仿「翻譯自日文的中文語感」，這一文體選擇如何使讀者在形式層面體驗到翻譯的認識論位置。"
+              ]
+      },
+      {
+        heading: "哀悼、愛欲與書寫",
+        paragraphs: [
+                "第二部處理傳記維度與精神分析。這一維度容易被學術批評忽略，卻對理解整部作品至關重要。",
+                "《共同的名字：雙胞胎書寫、哀悼政治與「楊双子」的主體性》可從弗洛伊德的哀悼／憂鬱理論出發，分析「楊双子」這一集體性筆名如何成為一種生產性憂鬱（productive melancholia）的書寫裝置，使已故妹妹的在場轉化為持續的創作動力。巴特勒的哀悼政治學也應進入討論：為誰哀悼、以何種方式哀悼，如何構成對公共話語的干預。",
+                "《從未擁有的青春：百合書寫作為反事實歷史想像》可分析百合小說如何為雙胞胎姊妹「從來沒有的青春」補種一個可能性空間。歷史小說在此成為反事實歷史：它給被壓制的可能性一個活著的空間。",
+                "《貧困、夜校、言情與文學：楊双子的階級位置與形式選擇》可借布迪厄的文學場域理論，分析楊双子從言情小說維生、在夜校受教育、以大眾文類進入嚴肅文學場域的軌跡。所謂「以輕包重」的敘事策略，既是審美選擇，也與階級處境的形式化有關。"
+              ]
+      },
+      {
+        heading: "翻譯的政治學：三個語言的三個《漫遊錄》",
+        paragraphs: [
+                "翻譯是這部小說最核心的主題，也是其接受史中最值得深入研究的環節。第三部應追蹤文本在不同語言中的命運，視每一個譯本為一次獨立的意義生產事件。",
+                "《翻譯的後生命：班雅明理論與〈臺灣漫遊錄〉的多語宿命》可以班雅明「譯者的任務」為核心框架，分析一部已是偽譯作的小說，在被真實翻譯之後，其後設層次如何發生質變。Fortleben 在此不再只是原文的延續，而是偽原文與真譯本共同生成的新生命。",
+                "《異化策略的實踐：金翎英譯本的政治詩學》應細讀林慕蓮（Lin King）英譯本如何處理台語、客語、日語混雜的語言現實。三套拼音系統的選擇，不只是工具決定，而是視覺層面上讓英語讀者感受到台灣語言複雜性的政治詩學。",
+                "《日文版的帝國回響：三浦裕子譯本的歷史重量》應分析日文版《台湾漫遊鉄道のふたり》的譯介情況，以及日本評論界如何處理小說中對日本殖民主義的批判性呈現。日本翻譯大賞的評審理由、主要媒體書評與讀者評論，均應進入一手材料。",
+                "《一部小說，多少個語言中的台灣？》可比較已售出語言版權的多國版本，重點聚焦韓文版的殖民歷史共鳴、法文版的後殖民批評框架、德文版與東歐語種可能引出的記憶政治。這一章需要多語研究者合作。"
+              ]
+      },
+      {
+        heading: "接受的地理政治學",
+        paragraphs: [
+                "第四部應處理六條接受河流：台灣、日本、英語世界、大陸、東歐、LGBTQ+ 讀者群。這不是附屬材料，而是理解小說世界化過程的核心史料。",
+                "台灣內部接受史應重構 2020 年出版後的讀者誤解、炎上風波、三刷加注警語，以及金鼎獎的制度性確認。這一接受史本身是一部微型的台灣文化政治史：它揭示台灣讀者對「失落台灣史料」的強烈渴望，以及這種渴望如何塑造閱讀期待。",
+                "日本接受研究應分析日本翻譯大賞評審理由、日本書評界面對殖民批判時是否出現美食化或風情化的迴避傾向，以及日本 LGBTQ+ 讀者群如何把小說放入百合文化傳統。",
+                "英語世界接受研究應處理政治、文學、市場的三角共振：地緣政治語境如何與文學評價相互強化；《紐約時報》《衛報》與學術期刊的第一輪反應如何形成詮釋框架；布克獎評語如何同時承認文學價值與政治意涵。",
+                "大陸接受研究應以審查研究為理論框架，分析豆瓣評論、自我審查語法與失語讀者現象。東歐接受研究則可從烏克蘭、波蘭等地的殖民記憶出發，討論台灣日治經驗、俄羅斯帝國記憶與多重佔領史之間是否存在可被文學喚起的情感語法。",
+                "LGBTQ+ 讀者研究可引入 Sedgwick 與 José Muñoz 的理論，分析百合情感如何被讀作歷史中被壓制的同性情感的考古重建，以及同性情感壓制與殖民壓迫的共謀關係在小說中如何交疊。"
+              ]
+      },
+      {
+        heading: "世界文學的理論命題",
+        paragraphs: [
+                "第五部需要從具體文本躍升至抽象理論，使本書的學術貢獻不限於台灣文學研究，而能介入世界文學理論、翻譯研究與後殖民批評的核心辯論。",
+                "《偽托譜系學的重新書寫》應把《臺灣漫遊錄》放入奧西恩、梅里美、博爾赫斯、納博科夫等偽托傳統中，同時提出後殖民偽譯與歐洲啟蒙時代諷刺性偽托之間的差異：前者的「說謊」服務於殖民地記憶的積極建構，後者的「說謊」更多服務於對中心話語的批判性模擬。",
+                "《卡薩諾瓦的盲點》可借《世界文學共和國》建立框架，同時批判其以巴黎為子午線的模型。以《臺灣漫遊錄》為例，可分析邊緣文學進入世界文學場域需要同時滿足哪些條件：翻譯策略、獎項機制、政治時機、譯者能動性與出版社網絡。",
+                "《食物、翻譯、歷史》應整合飲食研究、後殖民理論與物質文化研究，討論殖民地食物如何同時是帝國知識／權力的客體，也是被殖民者主體性的日常實踐場域。",
+                "《哈伯瑪斯在台北》可分析多語翻譯如何構建一個文學性的跨語言公共領域。文學獎項，尤其國際布克獎，可被視為跨語言公共領域的機制性節點。",
+                "《韓江與楊双子》則可為東亞女性歷史書寫提出新的比較框架：韓江處理一次性的歷史創傷，楊双子處理殖民結構性壓迫的日常生活重構；前者傾向悲劇凝視，後者將感官愉悅與批判並置。"
+              ]
+      },
+      {
+        heading: "台灣文學史的位置",
+        paragraphs: [
+                "第六部需要台灣本土文學研究者的核心參與，避免以西方理論框架直接覆蓋台灣經驗。這一部分應把《臺灣漫遊錄》放回台灣文學史內部定位。",
+                "《百合歷史小說的譜系建構：從楊千鶴到楊双子》可梳理楊千鶴〈花開時節〉、楊双子《花開時節》《花開少女華麗島》到《臺灣漫遊錄》的脈絡。這不只是創作線索，也是主動介入台灣女性文學史的行動。",
+                "《去殖民的書寫倫理》應將《臺灣漫遊錄》放入賴和、吳濁流、吳明益、甘耀明等人的歷史書寫與後殖民論述中，分析它如何同時繼承並突破既有台灣後殖民書寫範式。",
+                "《春山出版的文化政治》可用出版研究視角分析出版社在作品成功中的機構性角色，包括編輯理念、選書邏輯與台灣獨立出版生態。",
+                "《鐵道、縱貫線與台灣文學地理》則可把縱貫鐵道視為台灣文學地理的核心符號：它既是殖民現代性的基礎設施，又是南北文化流通的實體紐帶，也是當代台灣人島內移動的集體記憶載體。"
+              ]
+      },
+      {
+        heading: "未竟的對話與田野方法",
+        paragraphs: [
+                "第七部應保留開放性問題與未來研究方向。影視改編將構成新的後設挑戰：原書的偽譯、多時間層與譯者注如何在影像媒介中轉化？影視改編是否會稀釋小說的後殖民論述？這一問題可引入媒介轉化（intermediality）理論。",
+                "大陸簡體版的可能與不可能，應作為兩岸文學交流的結構性困境處理。如果大陸出版需要刪改，這種刪改是否會改變文本的根本性質？文學文本的政治可承受性邊界，往往能揭示特定政治體制的意識形態邊界。",
+                "研究期間（建議 2026–2028 年）需要建立一手資料系統：楊双子訪談資料庫、林慕蓮與三浦裕子譯者訪談、春山出版社編輯史料、跨語讀者深度訪談，以及台灣、日本、英語世界、大陸與東歐平台的評論監測。豆瓣評論尤其需要定期截存，因審查導致內容可能消失。",
+                "影視改編也應從劇本開發階段開始追蹤，記錄從小說到影像的改編決策，特別關注後設結構如何被翻譯成影像語言，以及哪些元素在媒介轉換中被保留、哪些被犧牲。"
+              ]
+      },
+      {
+        heading: "出版策略、時間表與附錄",
+        paragraphs: [
+                "出版平台的選擇，將直接影響本書在學術場域的流通與接受。方向之一是英語世界頂尖學術出版社，如 Columbia University Press、Duke University Press 或 University of Minnesota Press；提案時應強調本書的理論貢獻不限於台灣文學，而能介入世界文學、翻譯研究與後殖民批評。",
+                "另一方向是台灣本土學術出版，同步或稍後推出英語版。可與中央研究院文哲所、國立台灣文學館等機構合作，確保在台灣學術界的深度根植。最具後設感的方案，是繁體中文版與英文版平行出版，形成一部真正雙語對話的批評集合。",
+                "時間規劃可分四年：2026 年 6–12 月為布局期，確定主編、諮詢委員會、邀稿函、訪談與評論監測系統；2027 年為寫作期，各章節作者完成初稿並季度研討；2028 年上半年為修訂期，進行交叉評審與主編導論寫作；2028 年下半年進入出版社審稿、索引、文獻與附錄整理；2029 年出版。",
+                "附錄應讓本書成為未來研究的基礎設施：包括《臺灣漫遊錄》接受史年表（2020–2028）、各語言版本基本資訊對照表、楊双子主要作品年表、關鍵術語跨語對照表，以及布克獎評審評語英中對照。",
+                "最具雄心的後設設計，是讓這部批評文集本身成為一種「偽譯」的實踐。它通過匯聚台灣本土研究者、日本台灣文學研究者、英語世界後殖民批評家、翻譯研究者、酷兒理論家與大陸失語讀者的聲音，實踐一種眾聲喧嘩的批評政治學。沒有任何一個聲音能宣稱對這部小說的正確詮釋，因為正確的詮釋，如同正確的翻譯，從來就不存在。",
+                "楊双子曾說：「文學通常安靜，但並不妨礙信念遠播，翻譯會造成時差，但可以跨越時間和空間的限制。」這部批評文集，應是那個信念繼續遠播的下一站。"
+              ]
+      },
+      {
+        heading: "延伸閱讀",
+        paragraphs: [
+                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
+                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">“The Task of the Translator.”</a></strong>\n                <em>Benjamin, Walter</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“The Task of the Translator.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">The Rules of Art: Genesis and Structure of the Literary Field</a></strong>\n                <em>Bourdieu, Pierre</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"The Rules of Art: Genesis and Structure of the Literary Field 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Precarious%20Life%3A%20The%20Powers%20of%20Mourning%20and%20Violence%20Butler%2C%20Judith\" target=\"_blank\" rel=\"noopener\">Precarious Life: The Powers of Mourning and Violence</a></strong>\n                <em>Butler, Judith</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"Precarious Life: The Powers of Mourning and Violence 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Precarious%20Life%3A%20The%20Powers%20of%20Mourning%20and%20Violence%20Butler%2C%20Judith\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Precarious%20Life%3A%20The%20Powers%20of%20Mourning%20and%20Violence%20Butler%2C%20Judith%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">The World Republic of Letters</a></strong>\n                <em>Casanova, Pascale</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The World Republic of Letters 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">“Mourning and Melancholia.”</a></strong>\n                <em>Freud, Sigmund</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“Mourning and Melancholia.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Black%20Literature%20and%20Literary%20Theory%20Gates%2C%20Henry%20Louis%20Jr.%2C%20editor\" target=\"_blank\" rel=\"noopener\">Black Literature and Literary Theory</a></strong>\n                <em>Gates, Henry Louis Jr., editor</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Black Literature and Literary Theory 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Black%20Literature%20and%20Literary%20Theory%20Gates%2C%20Henry%20Louis%20Jr.%2C%20editor\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Black%20Literature%20and%20Literary%20Theory%20Gates%2C%20Henry%20Louis%20Jr.%2C%20editor%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">A Poetics of Postmodernism: History, Theory, Fiction</a></strong>\n                <em>Hutcheon, Linda</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"A Poetics of Postmodernism: History, Theory, Fiction 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Censored%3A%20Distraction%20and%20Diversion%20Inside%20China's%20Great%20Firewall%20Roberts%2C%20Margaret%20E\" target=\"_blank\" rel=\"noopener\">Censored: Distraction and Diversion Inside China's Great Firewall</a></strong>\n                <em>Roberts, Margaret E</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Censored: Distraction and Diversion Inside China's Great Firewall 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Censored%3A%20Distraction%20and%20Diversion%20Inside%20China's%20Great%20Firewall%20Roberts%2C%20Margaret%20E\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Censored%3A%20Distraction%20and%20Diversion%20Inside%20China's%20Great%20Firewall%20Roberts%2C%20Margaret%20E%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">Epistemology of the Closet</a></strong>\n                <em>Sedgwick, Eve Kosofsky</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Epistemology of the Closet 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=In%20Other%20Worlds%3A%20Essays%20in%20Cultural%20Politics%20Spivak%2C%20Gayatri%20Chakravorty\" target=\"_blank\" rel=\"noopener\">In Other Worlds: Essays in Cultural Politics</a></strong>\n                <em>Spivak, Gayatri Chakravorty</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"In Other Worlds: Essays in Cultural Politics 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=In%20Other%20Worlds%3A%20Essays%20in%20Cultural%20Politics%20Spivak%2C%20Gayatri%20Chakravorty\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=In%20Other%20Worlds%3A%20Essays%20in%20Cultural%20Politics%20Spivak%2C%20Gayatri%20Chakravorty%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "本文屬編撰策略與方法論路線圖，章節題名與研究分工為作者建議，並非已出版書目。",
+        "出版與獎項背景可參照 National Book Foundation、The Booker Prizes、Graywolf Press、中央社與各出版社公開資料；正式成書時須逐條核對各語言版本與出版日期。",
+        "涉及豆瓣、大陸接受、東歐讀者與影視改編的部分屬未來研究方向，需以後續田野、訪談與平台資料採樣補足。"
+      ],
+  },
+  {
+    slug: "taiwan-travelogue-multidimensional-literary-politics",
+    title: "《臺灣漫遊錄》的多維文學政治意義：獲獎之後",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "文學評論 · 台灣文學",
+    author: "蕭珩",
+    summary: "A long-form academic culture review of Shuangzi Yang's Taiwan Travelogue, reading the novel's pseudo-translation device, food writing, postcolonial politics, public-sphere effects and feminist literary significance.",
+    titleZh: "《臺灣漫遊錄》的多維文學政治意義：獲獎之後",
+    summaryZh: "本文從文學史、政治學、社會學、殖民與後殖民理論、公共領域理論及女性主義文學批評六個維度，分析楊双子《臺灣漫遊錄》的偽譯策略、國際獲獎現象與台灣文學的世界位置。",
+    relatedReadings: [
+        "taiwan-travelogue-pseudo-translation-comparative-literature"
+      ],
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-01",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+                "This Chinese long-form article examines Shuangzi Yang's Taiwan Travelogue through literary history, political theory, sociology, postcolonial theory, public-sphere theory and feminist criticism. The English page preserves the editorial abstract; the full Chinese article is published in the Chinese Overseas Study Review."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+                "楊双子（楊若慈與已故妹妹楊若暉之共同筆名）於2020年出版的歷史小說《臺灣漫遊錄》（Taiwan Travelogue），以其獨特的「偽譯作」敘事裝置、精密的後設結構及豐富的後殖民內涵，在台灣及國際文壇引發廣泛迴響。小說先後榮獲金鼎獎文學圖書獎（2021）、日本翻譯大賞（2024）、美國國家圖書獎翻譯文學獎（2024）及國際布克獎（2026），成為首部獲此殊榮的華文原著小說，具有里程碑意義。本文從文學史、政治學、社會學、殖民與後殖民理論、哈伯瑪斯式公共領域理論及女性主義文學批評六個維度，對該小說的獲獎現象與大眾接受進行系統性分析，以呈現其多層次的文學與社會意義。"
+              ]
+      },
+      {
+        heading: "偽譯、鐵道與問題意識",
+        paragraphs: [
+                "《臺灣漫遊錄》採取一種刻意的後設敘事裝置：假托1930年代日本女作家「青山千鶴子」留有原著、楊双子負責「翻譯並注釋」，藉此建構一段發生於1938年的台灣縱貫鐵道旅行故事。日本女作家青山千鶴子與台灣本島通譯王千鶴，在近三個月的旅途中品嚐台灣各地料理，逐漸發展出一段跨越殖民鴻溝、游移於友誼與情慾之間的幽微情誼。",
+                "全書以十二道台灣菜餚為章節結構，融合旅行書寫、美食志、百合（yuri）情感及後設虛構技法，並設置多時間層（1938、1954、1970、1990、2020），使讀者在閱讀過程中同時參與歷史建構的反思。",
+                "1938年這一時間點具有高度歷史壓力。1895年《馬關條約》後，台灣進入日本殖民統治；至1937年中日戰爭爆發後，台灣總督府推動更強烈的皇民化與戰時動員。小說表面上寫一趟美食鐵道旅行，實則把旅行的自由、飲食的歡愉與戰爭帝國的制度壓迫放在同一個歷史平面上閱讀。",
+                "鐵道在小說中承擔的也遠超交通功能。日治時期台灣西部縱貫線於1908年前後完成，讓殖民地的移動、調查、行政控制、物資流通與觀光凝視彼此連結。青山千鶴子的旅行之所以可能，正是因為殖民現代性已經把台灣改造成可被路線化、分類化、記錄化的空間；王千鶴的通譯位置，則揭示這套現代性必須依賴被殖民者的語言勞動才能運作。",
+                "這一形式選擇帶有深刻的認識論壓力，遠超文學遊戲。「偽譯」作為一種文體策略，同時指涉語言翻譯（日文↔中文）、歷史記憶的轉譯（殖民檔案↔當代重述）、以及身份認同的協商（殖民者凝視↔被殖民者主體性）。三重「翻譯」結構的交疊，賦予小說豐富的闡釋空間，也解釋了為何它能在不同語境、不同讀者群中引發持續且深入的回響。"
+              ]
+      },
+      {
+        heading: "台灣文學的裂縫與形式反擊",
+        paragraphs: [
+                "台灣文學長期處於多重殖民敘事的夾縫之中。荷蘭、明鄭、清帝國、日本帝國、中華民國國民政府的相繼統治，造成語言政策的反覆翻轉與文學傳承的制度性斷裂（陳芳明，《台灣新文學史》，2011，頁3–28）。在此歷史語境下，書寫台灣常面臨雙重困境：語言媒介的合法性危機，以及歷史敘事被更強大的「中心」收編的焦慮。",
+                "楊双子以「偽譯」回應這個老困境，最有力之處，在於她避開正面宣告台灣主體的直線道路，先借來日治時期日本文人的台灣遊記外殼，如佐藤春夫的《殖民地之旅》與西川滿的台灣書寫，再讓台灣人的翻譯與注釋慢慢把外殼撬開。",
+                "這使小說同時處於「致敬」與「顛覆」的張力之中，既繼承日治時期台灣文學的物質遺跡，又以當代意識重新評估其殖民性（Kleeman，Under an Imperial Sun，2003，頁12–19）。",
+                "從敘事技術而言，小說廣泛運用熱奈特（Gérard Genette）的敘事學概念：敘事時距的刻意操控、聚焦位置（focalization）的游移，以及跨層敘事（metalepsis）。青山的第一人稱敘述隨時被「譯者注」打斷，聚焦不斷被外部視角干擾，使讀者同時閱讀「故事」與「閱讀行為本身」。這正呼應 Linda Hutcheon 所稱的「歷史後設小說」（historiographic metafiction）。",
+                "這些技法共同建構出一個自我意識高度發達、邀請讀者同時閱讀「故事」與「閱讀行為本身」的複式文本，呼應 Linda Hutcheon 所稱的「歷史後設小說」（historiographic metafiction）——一類同時自我指涉其虛構性、又深度介入歷史再現問題的小說形式（Hutcheon，A Poetics of Postmodernism，1988，頁105–123）。",
+                "此處尤其需要區分「偽譯」與一般歷史小說中的「擬真」。一般擬真借史料細節增加可信度；《臺灣漫遊錄》的偽譯則把可信度本身變成問題：誰保存文本？誰有資格翻譯？誰能替誰註釋？誰的聲音被檔案化？小說將一段殖民歷史推向更尖銳的閱讀現場，逼迫讀者檢查「歷史如何被製成可讀文本」。",
+                "書中注釋早已越出附屬裝飾的位置，成為敘事權力的舞台。當譯者注打斷青山的日記，讀者被迫在日本女作家的敘述慾望、台灣譯者的當代批判，以及王千鶴的沉默之間移動。台灣文學長期承受的語言斷裂與史料斷裂，就這樣被轉成一種可被世界文學讀懂的形式。",
+                "國際評審對此高度評價。國際布克獎評審讚譽該書「呈現後設小說結構的同時，對語言細微差異保有罕見的敏銳度」，認為其形式創新本身即是對殖民歷史的評論。這一評價確認了台灣文學在全球文學場域中的自主位置：它以特殊的歷史經驗與形式探索進入世界文學對話，不再被迫依附於「中文文學」或「亞洲文學」的大框。"
+              ]
+      },
+      {
+        heading: "身份政治與柔性抵抗",
+        paragraphs: [
+                "小說的時間背景（1938年）並非隨意選擇。彼時皇民化運動甫告展開，強制推廣日語、抑制台灣本土認同；中日戰爭全面爆發，台灣被迫捲入帝國的戰時動員體制（葉石濤，《台灣文學史綱》，1987，頁78–95）。王千鶴以通譯身份周旋於日語與台語之間，其身份的流動性本身即是殖民現代性造就的生存策略。",
+                "青山與王千鶴的關係，是小說最冷的一道政治傷口。青山可以善意，可以溫柔，但她的帝國位置不會因此消失。她能夠自由出入殖民地空間，以「客觀」視角記錄台灣的現代化成就；而這種現代化，在帝國敘事裡本來就被寫成日本的文明贈禮。",
+                "小說借王千鶴的沉默與退縮，展示被殖民者在「善意的凝視」面前維持主體性的限度。「內地人與本島人，終究不可能存在平等的友誼。」這句話的冷，來自一種政治現實主義：它準確指出殖民關係的傷口，也呼應愛德華·薩依德（Edward Said）對東方主義的批判——凝視本身即是一種知識／權力的運作（Said，Orientalism，1978，頁3–28）。",
+                "1938年的政治性還在於它位於「殖民現代化」與「總力戰」之間。若說殖民政府以鐵道、學校、公共衛生、博覽會與觀光書寫來展示治理成果，那麼戰時皇民化則進一步要求被殖民者在語言、姓名、宗教、兵役與情感認同上向帝國中心靠攏。王千鶴的通譯身份因此帶著制度裂痕：她受制度壓迫，又被制度需要。",
+                "小說的政治敏銳，正在於它拒絕把人寫扁。青山的溫柔是真的，帝國身份也是真的；王千鶴的沉默是真的，她的能動性也沒有消失。政治壓迫從暴力場面延伸到餐桌、車廂、旅館、翻譯、禮貌與猶豫裡，一點點滲出來。",
+                "在當代地緣政治語境下，小說的接受無可避免地與台灣主權議題交纏。英文譯者林慕蓮（Lin King）在多個場合表示，她主動選擇只翻譯台灣作品，明確指出此選擇帶有政治立場：使台灣的文化生產在英語世界的公共討論中獲得可見性，本身即是對「台灣是否具有獨立文化主體性」這一問題的實踐性回答。西方文學獎的肯定，因此具有超越文學評價的政治意涵——它在符號層面承認台灣作為一個具有獨立文化生命的政治實體（Casanova，The World Republic of Letters，2004，頁127–167）。",
+                "小說的政治敘事避開簡單的反殖民控訴，藉由「美食旅行」的輕盈形式，將政治議題嵌入日常感官體驗的敘述之中。這種「柔性抵抗」策略——以歡愉包裹批判，以情感帶動反思——使政治訊息能夠繞過讀者的防衛心理，造成更深層的觸動，也大幅擴展了潛在讀者群，不限於具有政治意識的閱讀者。"
+              ]
+      },
+      {
+        heading: "餐桌上的日常政治",
+        paragraphs: [
+                "米歇爾·德·塞托（Michel de Certeau）在《日常生活實踐》中指出，日常生活中的消費行為，包括飲食、行走、閱讀，是弱勢群體對強勢結構進行戰術性挪用的場域。《臺灣漫遊錄》的美食書寫正可在此框架下閱讀：殖民地的菜市場、小吃攤、餐廳，是台灣庶民日常生活最密集的集中地，也是殖民現代性的物質遺跡與本土民俗記憶最複雜地交疊之處。",
+                "小說選取的十二道菜餚，各有其社會學意涵。麻薏湯以平民化的粗糲，抵抗著「帝國廚房」對台灣飲食的異國情調化；菜尾湯以「再生」的料理邏輯（將宴席剩菜熬煮為新菜），隱喻台灣社會對多元族群成分的整合能力；蜜豆冰的酸甜尾韻，則為全書的情感基調定調——無法完全言明、游移於失落與滿足之間的情感狀態，亦是殖民關係中人際情誼的最佳隱喻。",
+                "食物在此承載文化身份，也把社會結構刻進身體經驗：誰能吃什麼、在哪裡吃、與誰共食，皆透露出殖民秩序下的階級、族群與性別位置（Appadurai，1988，頁3–24；Mintz，Sweetness and Power，1985，頁151–186）。",
+                "王千鶴的家庭背景（妾室之女）引入了階級分析的維度。她同時承受殖民壓迫與父權壓迫，卻也因此養成對複雜人情世故的高度敏感與靈活的身份轉換能力。布迪厄的「慣習」（habitus）概念在此具有解釋力：王千鶴在多重位置之間的游移，是長期在結構性不平等中求存所形成的身體化傾向。",
+                "她的通譯職業本身，即是在語言不平等中尋求能動性的一種策略。",
+                "飲食書寫還具有檔案補償作用。殖民官方檔案往往記錄產量、稅收、交通、衛生與行政分類，卻難以保存庶民如何在日常生活中感受殖民現代性。楊双子以味覺、口感、菜名、店鋪與共食場景重建生活世界，使那些不易進入國家檔案的身體經驗獲得敘事位置。",
+                "這種寫法也避免把「台灣」抽象化為政治口號。小說中的台灣由地方飲食、階級習慣、家庭制度、語言轉換、鐵路節點與城市鄉鎮差異共同構成，是一個具體的生活共同體。食物既能被殖民觀光消費，也能成為本土記憶抵抗被單向命名的方式。",
+                "對國際讀者而言，這種多層次的社會複雜性提供了重要的認識論禮物：台灣脫離被動受害的「殖民地」扁平形象，呈現出自身的內部分層、幽默感、情感生命與主體能動性。"
+              ]
+      },
+      {
+        heading: "凝視、混雜與接觸地帶",
+        paragraphs: [
+                "霍米·巴巴（Homi K. Bhabha）在《文化的定位》中提出「混雜性」（hybridity）與「第三空間」（the Third Space）的概念，用以描述殖民話語在接觸地帶產生的意義滑移。《臺灣漫遊錄》的翻譯裝置，正是對這一理論最精緻的文學示範。",
+                "巴巴的框架若與瑪麗·路易斯·普拉特（Mary Louise Pratt）的「接觸地帶」（contact zone）概念並置，旅行書寫的政治性會變得更清楚。普拉特在《帝國之眼》中指出，旅行書寫是殖民者確立「反征服」（anti-conquest）姿態的核心文類：殖民者藉由無害的「觀察」與「記錄」，在道德上為帝國擴張開脫。",
+                "青山千鶴子的旅行日記，正是這一「反征服」姿態的文學體現。她以女性的溫柔凝視取代粗暴的政治宰制，卻在無意間複製了帝國知識／權力的結構。《臺灣漫遊錄》藉由「譯者注」的不斷介入，系統性地拆解這一敘事的意識形態操作。",
+                "「偽譯」結構在形式上實踐了後殖民批評的核心洞見：原文（日文帝國凝視）與譯文（台灣本土重述）之間的落差，來自政治闡釋的必然分歧，並非語言等值的失敗。加亞特里·斯皮瓦克（Gayatri Chakravorty Spivak）在《翻譯的政治》中提醒我們，翻譯沒有中性的語言轉換位置，它帶著詮釋行為中的「倫理暴力」（ethical violence）（Spivak，1993，頁179–200）；楊双子的「偽譯」把這一「倫理暴力」曝光，並在文學形式內部加以逆轉。",
+                "在普拉特的意義上，青山的旅行屬於帝國知識體制中的「可愛版本」：她不以軍人、官吏或學者身份出場，而以女性作家、食客與旅人身份進入台灣。正因為她看似柔和，讀者更容易看見殖民權力如何從命令與暴力延伸到命名、品評、採集、描述與出版之中。",
+                "巴巴的「混雜性」也不應被誤讀為和諧融合。小說中的混雜源於不對等權力中的語言滑移、身份表演與情感誤認，距離台日文化的平等交會很遠。王千鶴既能使用殖民者語言，也能在翻譯中保留不透明之處；她的能動性正存在於無法完全被青山理解、也無法完全被譯者注捕捉的縫隙裡。",
+                "食物在後殖民意義上完成了從「異國奇觀」（exotic spectacle）到「理解媒介」的轉化：青山最初將台灣食物視為可被消費的他者性符號，逐漸在共食行為中體會食物作為社群記憶與情感聯結載體的意義。這一轉化弧線，正是巴巴所說的「第三空間」的開啟——一個不屬於任何一方的、以協商與接觸為特徵的意義生成場域（Bhabha，1994，頁36–39）。"
+              ]
+      },
+      {
+        heading: "文學進入公共領域",
+        paragraphs: [
+                "哈伯瑪斯談公共領域，重視不同聲音如何在理性溝通中相遇；南希·弗雷澤則把這套理想往回拉，指出主流公共領域常以普遍性之名，把女性、少數族裔與殖民地人民擋在門外。",
+                "《臺灣漫遊錄》進入國際獎項與多語閱讀場域後，被看見的遠超一部小說。它像一個台灣文化主體性的對抗性發言，從「中文文學」或「亞洲文學」的大框裡側身出來，要求讀者正面看見台灣自己的歷史位置。",
+                "小說出版初期，其「偽譯」裝置曾引起部分讀者的困惑乃至爭議：是否存在「原著欺騙」的倫理問題？歷史虛構的邊界應如何劃定？這些爭議本身即促成一場關於歷史書寫倫理與台灣記憶主權的公共討論。",
+                "在跨語言的公共領域層次，多個語言版本的流通（繁體中文、日文、英文及其後的韓文、法文等譯本），使小說成為多語脈絡下的對話節點。不同語言讀者群帶入各自的歷史意識——日本讀者面對自身帝國歷史的鏡像，英語世界讀者在後殖民思潮的語境下閱讀台灣的特殊性，韓國讀者在相似的帝國記憶中找到共鳴——形成跨文化公共對話的複調結構。",
+                "2024年美國國家圖書獎翻譯文學獎與2026年國際布克獎，將這部原本高度依賴台灣歷史語境的小說推入更大的世界文學公共場域。這些獎項獎勵的焦點不止於「台灣題材」，也承認台灣殖民經驗、偽譯形式與翻譯倫理本身足以成為世界文學的問題。",
+                "這一接受史也讓「翻譯」本身成為公共議題。英文譯本把台灣文本帶入英語世界時，並沒有扮演透明管道；它在獎項、出版社、評論媒體、讀者社群與政治新聞之間重新安排台灣的可見性。換言之，《臺灣漫遊錄》的國際成功，既是文本被翻譯的成功，也是台灣歷史敘事進入全球公共領域的一次制度性事件。",
+                "楊双子的得獎感言中明確表示：「文學是在強權面前與他人對話的能力。」這一陳述，既是對小說功能的詮釋，也是對文學之政治性的哈伯瑪斯式信念。"
+              ]
+      },
+      {
+        heading: "百合歷史小說與女性主體",
+        paragraphs: [
+                "楊双子明確標舉「百合歷史小說」的創作路線，將女性之間的情感聯結置於敘事中心，是對台灣歷史小說傳統中以男性為主體、女性為配角的敘事慣例的結構性顛覆。",
+                "這一選擇置於台灣女性文學的更長歷史脈絡中，方能見其意義。日治時期《臺灣民報》等媒體雖曾為女性議題提供有限公共空間，但女性書寫在制度上仍受到語言政策與性別規範的雙重限制；戰後國民政府時期，官方文學史更以男性英雄敘事主導歷史小說的典律建構。",
+                "小說的女性主義意涵深入性別、殖民與階級的交織壓迫結構，並不停留在「女性中心」的敘事視角上。王千鶴的身份困境同時承受妾室污名的父權壓迫與本島人身份的殖民壓迫；她在婚前短暫的旅行自由，被設計為一段正常秩序暫時懸置的例外狀態。",
+                "青山千鶴子與王千鶴之間的情感之所以幽微，既因同性情感在歷史語境中難以命名，也因殖民者與被殖民者之間的權力差異使任何親密都帶有政治陰影。小說拒絕把百合書寫處理成脫離歷史的純情幻想，讓情感本身承受語言、階級、帝國身份與父權婚姻制度的多重壓力。",
+                "從這個角度看，王千鶴的「不可完全言說」接近女性主體在殖民父權雙重秩序下的歷史真實，而非敘事缺陷。她的沉默帶著被制度逼出的生存語法：有些話不能說，有些情感不能被命名，有些理解只能在共同吃下一道菜、共同坐過一段車程後短暫出現。",
+                "這種結構性的設計，使小說的百合情感越出個人層次的純愛書寫，轉向對壓迫結構的批判性省察，呼應雷·周（Rey Chow）對現代性語境下中國／東亞女性主體性的分析（Chow，Woman and Chinese Modernity，1991，頁3–33）。",
+                "從女性主義文學批評的視角，《臺灣漫遊錄》的貢獻在於其「通俗性」的策略選擇：以美食旅行的輕盈形式承載女性情感解放的可能性，使女性主義思想能夠觸及更廣泛的讀者群。這與艾蓮·蕭沃特（Elaine Showalter）所區分的「女性文學」（feminine literature）——以通俗形式潛藏激進內容——傳統相互呼應（Showalter，A Literature of Their Own，1977，頁13–36）。"
+              ]
+      },
+      {
+        heading: "獲獎之後的世界位置",
+        paragraphs: [
+                "回到開頭，為什麼是《臺灣漫遊錄》？答案恐怕不在單一題材，也不在某種容易宣傳的台灣性，而在它能讓形式、歷史、食物、情感、翻譯與政治同時發聲。",
+                "在文學史層次，它以後設「偽譯」打破台灣歷史小說的書寫困境，確立台灣文學在全球文學場域中的自主地位；在政治學層次，它提供一套以輕盈包裹批判的「柔性抵抗」敘事；在社會學層次，它以食物與旅行為切入點，呈現殖民社會的複雜日常生活。",
+                "在後殖民理論層次，它以「翻譯即政治」的形式實踐，同時回應巴巴的混雜性理論與普拉特的接觸地帶批判；在公共領域層次，它以弗雷澤意義上的「對抗性公共領域」發言，成為跨語言、跨文化對話的節點；在女性主義文學層次，它以通俗形式為女性情感主體性與多元性別想像開拓空間。",
+                "《臺灣漫遊錄》成為里程碑，靠的並非替台灣說出一句響亮口號。它把美學創新、後殖民批判、女性情感與文化主體性壓進同一部小說裡。台灣在世界文學中的位置，從被說明、被介紹，轉為由一種複雜形式自己證明出來。"
+              ]
+      },
+      {
+        heading: "延伸閱讀",
+        paragraphs: [
+                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
+                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E\" target=\"_blank\" rel=\"noopener\">《台灣新文學史》</a></strong>\n                <em>陳芳明</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"《台灣新文學史》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan\" target=\"_blank\" rel=\"noopener\">Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South</a></strong>\n                <em>Kleeman, Faye Yuan</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors\" target=\"_blank\" rel=\"noopener\">Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory</a></strong>\n                <em>Liao, Ping-hui, and David Der-wei Wang, editors</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">A Poetics of Postmodernism: History, Theory, Fiction</a></strong>\n                <em>Hutcheon, Linda</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"A Poetics of Postmodernism: History, Theory, Fiction 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise\" target=\"_blank\" rel=\"noopener\">Imperial Eyes: Travel Writing and Transculturation</a></strong>\n                <em>Pratt, Mary Louise</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"Imperial Eyes: Travel Writing and Transculturation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K\" target=\"_blank\" rel=\"noopener\">The Location of Culture</a></strong>\n                <em>Bhabha, Homi K</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The Location of Culture 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Orientalism%20Said%2C%20Edward%20W\" target=\"_blank\" rel=\"noopener\">Orientalism</a></strong>\n                <em>Said, Edward W</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"Orientalism 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Orientalism%20Said%2C%20Edward%20W\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Orientalism%20Said%2C%20Edward%20W%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy\" target=\"_blank\" rel=\"noopener\">“Rethinking the Public Sphere.”</a></strong>\n                <em>Fraser, Nancy</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"“Rethinking the Public Sphere.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine\" target=\"_blank\" rel=\"noopener\">A Literature of Their Own: British Women Novelists from Bronte to Lessing</a></strong>\n                <em>Showalter, Elaine</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"A Literature of Their Own: British Women Novelists from Bronte to Lessing 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5\" target=\"_blank\" rel=\"noopener\">《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》</a></strong>\n                <em>黃美娥</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "1895史實核查：日本アジア歴史資料センター（JACAR）日清戰爭檔案頁確認《馬關條約》於1895年4月17日簽訂，台灣割讓由此進入日本殖民統治脈絡。來源：https://www.jacar.go.jp/english/jacarbl-fsjwar-e/main/18950417/index.html",
+        "皇民化史實核查：周婉窈 The Kominka Movement: Taiwan under Wartime Japan, 1937–1945 及相關學術資料確認皇民化運動與1937–1945戰時動員脈絡相關。",
+        "鐵道史實核查：日治台灣西部縱貫線於1908年前後完成，作為殖民治理、物資流通與現代交通的重要基礎；本文僅採保守表述「1908年前後完成」。",
+        "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the",
+        "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
+        "獎項核查：中央公論新社公告確認楊双子著、三浦裕子譯《台湾漫遊鉄道のふたり》獲第十回日本翻訳大賞。來源：https://www.chuko.co.jp/prize/125121.html",
+        "獎項核查：文化部英文網站確認 Taiwan Travelogue 獲2024 U.S. National Book Awards for Translated Literature。來源：https://www.moc.gov.tw/en/News_Content2.aspx?n=467&amp;s=227389"
+      ],
+  },
+  {
+    slug: "taiwan-travelogue-pseudo-translation-comparative-literature",
+    title: "Taiwan Travelogue in the Genealogy of Pseudo-Translation",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "比較文學 · 偽譯譜系",
+    author: "蕭珩",
+    summary: "A comparative-literature essay placing Taiwan Travelogue in a long genealogy of pseudonymous authorship, fictitious translation and historiographic metafiction across Western, Chinese, Japanese and postcolonial literary traditions.",
+    titleZh: "《臺灣漫遊錄》：偽譯譜系的台灣節點",
+    summaryZh: "本文從奧西恩、博爾赫斯、《紅樓夢》與《源氏物語》一路讀到《臺灣漫遊錄》，追問偽托作者、虛構翻譯與後設歷史書寫如何替被壓低的歷史尋找聲音。",
+    relatedReadings: [
+        "taiwan-travelogue-multidimensional-literary-politics"
+      ],
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-02",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+                "This Chinese long-form article places Taiwan Travelogue in a comparative genealogy of pseudo-translation, pseudonymous authorship and historiographic metafiction. The full Chinese article is published in the Chinese Overseas Study Review."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+                "《臺灣漫遊錄》的「偽譯作」裝置，遠比一個漂亮的文學花招更尖銳，也很難被收進孤立的台灣創意名目裡。它踩在一條很長、也很危險的書寫傳統上：有人託名古人，有人假稱譯本，有人把不存在的檔案寫得像真的，有人乾脆讓註釋反客為主。本文沿著「偽托作者」（pseudonymous authorship）、「虛構翻譯」（fictitious translation）與「歷史後設小說」（historiographic metafiction）三條線，從奧西恩、梅里美、博爾赫斯、納博科夫，讀到《列子》、《紅樓夢》、《源氏物語》與愛爾蘭、東亞殖民地文學。本文追問的重心，離「誰騙了誰」很遠；真正棘手的是：為什麼有些歷史，非得繞道、假託、翻譯、扮演，才終於能說出口。"
+              ]
+      },
+      {
+        heading: "偽譯作為世界文學問題",
+        paragraphs: [
+                "偽托書寫大致有三種面孔：假借一個作者，假稱一部譯本，或把歷史寫成一座到處露出機關的舞台。Linda Hutcheon 說「歷史後設小說」的迷人處，正在於它明知自己是人工製品，卻因此更能逼近歷史書寫的人工性。",
+                "讀《臺灣漫遊錄》，若只說它「形式新穎」，其實太輕了。這部小說把作者、原文、譯者、註釋、史料與讀者的信任全部拆開，重新排在桌面上。當這些零件一件件鬆動，所謂歷史真實便不再像一塊沉默的石頭，而像一份被翻譯、被保存、被刪節、被轉述過無數次的文稿。",
+                "偽譯之所以能跨文化流動，靠的正是這種又借信任、又破壞信任的能力。讀者相信古籍，相信譯本，相信旅行記，相信編者序，相信腳註；偽譯便在這些相信之間開一條縫，讓人看見「原文」和「真本」其實也常常只是權威裝作自然的樣子。《臺灣漫遊錄》能被台灣、日本與英語讀者各自讀出不同震動，原因正在這裡：它寫台灣殖民史，也寫世界文學裡那個反覆發作的真實焦慮。",
+                "它比 Hutcheon 所說的歷史後設小說又多走了一步。翻譯在這裡失去橋樑或服務的安穩身份；它成了現場，成了權力換手、記憶改寫、身份試探的地方。下面的比較無意替《臺灣漫遊錄》安排一份漂亮祖譜；我更想看清它到底從哪些舊形式裡借火，又在哪裡把火燒回台灣。"
+              ]
+      },
+      {
+        heading: "從奧西恩到後設迷宮",
+        paragraphs: [
+                "<span class=\"zh-academic-subtitle\">古典與中世紀的偽托傳統。</span>偽托早在現代小說誕生前就已存在。它藏在古典、宗教與中世紀文獻秩序裡。荷馬到底是誰，這個問題吵了兩千多年；《聖經》與早期基督教文獻中的偽名書寫，也一直牽動權威、傳承與正典形成。",
+                "西方文學的偽托傳統可追溯至古典時代。荷馬史詩的「作者問題」本身即是一場延續兩千餘年的偽托爭議；《聖經》中的部分文本亦被現代聖經學者視為偽托文書。這種早期偽托的動機，主要是借權威以自立：真實作者隱身於假托的前人名義之後，以迴避風險或強化說服力。",
+                "古典與中世紀的偽托，很難直接套入今天對「欺騙」的道德判決。那時作者權尚未成為出版制度的中心，以聖賢、先知、古代詩人或遠方旅行者之名發言，常常是文本進入知識秩序的通行證。這套邏輯進入現代後沒有消失，只是變得更狡黠，也更文學化。",
+                "<span class=\"zh-academic-subtitle\">十八世紀：偽托作為諷刺與啟蒙武器。</span>到了啟蒙時代，假託開始帶刺。虛構旅行者、外來者書信、遠方見聞，讓讀者隔著一雙陌生的眼睛看自己，看見平日被習慣遮住的荒謬。",
+                "啟蒙時代的偽托傳統賦予這一策略全新的政治銳度。斯威夫特以「萊繆爾·格列佛船長」之名出版《格列佛遊記》，製造具有高度說服力的虛構旅行者，以第一手報告揭露英國社會的荒謬。孟德斯鳩的《波斯人信札》則虛構兩位波斯旅人記錄巴黎觀察，以外來者視角使法國讀者重新審視本國社會習俗。",
+                "旅行書寫從來不清白。它借航海、帝國、殖民與跨文化見聞取得可信度，又能回頭刺穿帝國中心的自信。斯威夫特、孟德斯鳩與《臺灣漫遊錄》隔著時代相望，靠的正是這種遠親關係：旅行記好讀，於是也最適合偷渡批判。",
+                "詹姆斯·麥克弗森的「奧西恩詩篇」案例最直接觸及虛構翻譯的核心問題。麥克弗森宣稱發現並翻譯古代蓋爾語吟遊詩人奧西恩的史詩，引發全歐洲轟動；「原著」卻始終沒有現身。這一事件既是文學史上的偽造醜聞，也是一個關於民族文學建構、翻譯倫理與文化真實性的深刻寓言。",
+                "奧西恩最有意思的地方，不止在於麥克弗森究竟造沒造假，更在於十八世紀歐洲為何那麼想相信他。蘇格蘭被英格蘭吸納之後，一位古老吟遊詩人的突然現身，等於替被壓縮的民族文化補上一段深遠的過去。偽譯在這裡帶著傷口，近乎一種文化補償。",
+                "<span class=\"zh-academic-subtitle\">十九世紀：歷史小說、性別偽裝與偽文獻的成熟。</span>瓦爾特·司各特確立現代歷史小說範式時，已大量使用序言、編者、史料、腳注與題詞等準文獻裝置，使小說像史書一樣可被查考，又使歷史本身顯出敘事性。",
+                "十九世紀歷史小說進一步成熟化偽文獻裝置。瓦爾特·司各特在多部作品中以虛構編者、腳注與史料來源強化歷史真實感；梅里美則虛構西班牙女劇作家克拉拉·加蘇爾，以「翻譯者」身份出版自己的戲劇。此處的翻譯兼具文學策略、性別偽裝與話語挪用。",
+                "梅里美與《臺灣漫遊錄》可以放在同一張桌上讀。他造出的遠超另一個筆名：那是一位有性別、有國籍、有肖像、有文風的西班牙女劇作家，自己則退到「翻譯者」的位置。青山千鶴子也是這種機制的後殖民版本：一個被造出來的他者之聲，反過來讓真正的作者靠近本來難以抵達的位置。",
+                "同時代女性作家的筆名策略，如喬治·桑與勃朗特三姊妹以男性化筆名進入文學公共領域，也說明作者名從來超出署名功能，常常是進入制度、評論與市場的門票。被排除者借用可被承認的名字發言，與被殖民者借殖民語言、殖民文類或虛構殖民者之口發言，在結構上具有可比性。",
+                "<span class=\"zh-academic-subtitle\">二十世紀的後設激進化：博爾赫斯、納博科夫、卡爾維諾。</span>進入二十世紀後，偽托從增加可信度的技巧轉入哲學性與形式性的核心地帶：文本為何可信，讀者如何相信，注釋如何取得權力，翻譯如何改寫原文，皆成為小說本身的題目。",
+                "二十世紀文學對偽托與虛構翻譯傳統的激進化，以博爾赫斯、納博科夫與卡爾維諾最具代表性。博爾赫斯的《皮埃爾·梅納爾，〈唐吉訶德〉的作者》揭示意義不在文字本身，而在歷史語境、讀者位置與閱讀行為之中；納博科夫《微暗的火》使注釋吞噬原文；卡爾維諾《如果在冬夜，一個旅人》則以不斷中斷的翻譯文本構成一部關於閱讀本身的小說。",
+                "博爾赫斯把偽書、假文獻與虛構學術評論推到哲學邊上：同一段文字到了不同時代，便不再是同一段文字。納博科夫更狠，他讓註釋者幾乎吃掉原文，逼讀者承認詮釋帶著伸手奪權的慾望，遠非溫順服務。《臺灣漫遊錄》的譯者注也如此。它讓權力關係突然現形，絕非旁枝或裝飾。",
+                "卡爾維諾把翻譯、閱讀與不完整性鎖進同一台敘事機器。讀者一次次進入開端，又一次次被中斷；閱讀變成追一部缺席文本。《臺灣漫遊錄》的多重時間層也在說同一件事：後來者只能在殘缺、重述與翻譯之間接近歷史，沒有誰能回到一個乾淨透明的原初現場。",
+                "<span class=\"zh-academic-subtitle\">費爾南多·佩索阿的極端案例：異名書寫與主體的解構。</span>佩索阿的異名遠超普通筆名，它是一組具有完整傳記、風格、思想與相互評論關係的虛構作者系統。這使「作者」從單一自我變成多聲部的集合，也使現代主體的分裂直接成為文學形式。",
+                "佩索阿把偽托推到近乎眩暈的程度。他創造大量具有傳記、個性與文體的虛構作者，讓他們彼此評論、彼此牴牾。作者這個位置從穩定的「我」裂成一屋子互不讓步的聲音。這種分裂感，放到後殖民語境裡讀，並不陌生。"
+              ]
+      },
+      {
+        heading: "古籍、物語與殖民記憶",
+        paragraphs: [
+                "<span class=\"zh-academic-subtitle\">中國古典文學的偽托傳統。</span>中國文學與思想史中的偽托，常常與經典權威、學派傳承和史學正統緊密相連。文本託名古人，目的不止於隱藏作者，也在於取得進入古典知識秩序的資格。",
+                "中國文學史上的偽托傳統同樣源遠流長。《列子》問題是最具代表性的案例：該書長期被視為戰國列禦寇所著，卻在魏晉時代突然大量流傳。多數現代學者，如楊伯峻，認定現存《列子》為魏晉偽作，藉先秦聖賢之名為道家玄學思想賦予古典合法性。",
+                "中國古典偽托傳統與西方偽托不同之處，在於它常與經學、子學、史學的權威結構相連。文本若能託名於古人，即可取得古典秩序中的發言資格；而後世學者對真偽的辨析，也往往同時是對思想譜系、學派權威與政治合法性的重新排序。",
+                "《紅樓夢》的作者問題提供了更複雜的後設框架。小說開篇設置「空空道人」發現頑石故事、「東魯孔梅溪」題書名、「曹雪芹」批閱增刪等多重中介，使作者被分裂為多個層次的虛構節點。這種主動降格與虛實混淆，既是迴避政治審查的修辭盾牌，也是一種後設宣告。",
+                "《紅樓夢》高明就高明在，它不急著讓讀者相信故事是真的；它讓讀者在「真假有無」之間反覆失足。小說開篇便拆自己的台，卻因此摸到正史摸不到的東西：情感、家族、慾望、制度，還有那些不能被正經寫進史書的疼痛。",
+                "蒲松齡《聊齋志異》以「異史氏曰」的史家評論姿態，為鬼怪故事注入正史書寫的話語形式；魯迅《故事新編》則以現代白話重述先秦神話與歷史故事，在重述中插入現代意識的批判眼光。二者都以形式的古典性與意識的當代性之間的張力，製造批判的槓桿。",
+                "<span class=\"zh-academic-subtitle\">日本文學的物語傳統與後設書寫。</span>日本古典文學中的後設辯護，並非等到近代才出現。《源氏物語》已在文本內部提出虛構與正史的關係問題，並以物語能捕捉人情真實為虛構辯護。",
+                "日本文學傳統中，《源氏物語》「螢」帖（第25帖）的物語論框架尤為重要。紫式部借光源氏之口為物語辯護：物語雖為虛構，卻比正史更能呈現人情的真實。這一「以虛構辯護虛構」的後設策略，在日本文學史上確立了物語作為知識形式的合法性。",
+                "「螢」帖早早說出一個後來小說反覆證明的道理：虛構未必比正史更假；有些人情，正史根本裝不下。《臺灣漫遊錄》用旅行日記、譯者注和出版框架重構殖民地女性情感生命，正是沿著這條路往前走。",
+                "江戶時代讀本文學進一步發展了偽文獻與史料化裝置。曲亭馬琴《南總里見八犬傳》大量運用歷史文獻、家譜、傳聞與考證姿態，讓虛構敘事取得近似史傳的厚度。這一文獻癖好與歐洲司各特式歷史小說雖未必存在直接影響，卻顯示東西方在歷史小說成熟時都會借助「像史料一樣的小說」來建立可信度。",
+                "<span class=\"zh-academic-subtitle\">殖民語境中的偽托：愛爾蘭民族文藝復興的啟示。</span>殖民地文學中的偽托與重述，往往與民族文學的自我建構相連。當殖民權力切斷或貶低本土記憶時，重述古老神話、民間故事或失落文獻，便成為重建文化連續性的方式。",
+                "殖民語境中的偽托書寫，在愛爾蘭文學中有重要先例。葉慈與格雷戈里夫人在愛爾蘭民族文藝復興運動中大量重述凱爾特神話與民間故事，其真實性宣稱本身即是一種文化政治聲明。台灣在日治與戰後去日本化之間遭遇雙重記憶斷裂，《臺灣漫遊錄》以偽譯填補空白的姿態，與愛爾蘭案例在文化政治邏輯上高度呼應。",
+                "殖民地或半殖民地文學常面臨一個共同困境：被殖民者的歷史記憶並非完全消失，它以破碎、失語、被翻譯、被檔案化或被敵對政權重寫的方式存在。偽托、重述與虛構翻譯之所以反覆出現，正因為它們能把斷裂的史料重新組織成可感的敘事，使被壓制的共同體獲得文化深度。",
+                "所以，《臺灣漫遊錄》的偽譯不能被粗暴地打成「造假」。殖民地記憶最棘手之處，常常在於事實碎得無法自己長成一個主體。偽譯很危險，當然危險；可它也有力量。它承認歷史已經破了，仍然替被壓低的聲音搭一個能被聽見的台。",
+                "<span class=\"zh-academic-subtitle\">韓江與東亞後殖民文學的當代匯流。</span>若把《臺灣漫遊錄》放入21世紀東亞文學英譯與國際獎項的脈絡，韓江《少年來了》是一個重要參照。兩者題材不同，卻都以女性書寫、多聲部結構、歷史創傷與翻譯傳播進入英語世界公共討論。",
+                "放到更近的東亞文學現場，韓江《少年來了》是一面冷鏡。它以多聲部敘事處理光州事件的歷史創傷，又經由英文譯本進入國際讀者視野。韓江與楊双子不必被硬湊成同一類作家；但兩人的國際接受，確實讓人看見一條新的文學路線：女性書寫、歷史創傷、非線性敘事與翻譯倫理，正在英語世界獎項場域中彼此靠近。"
+              ]
+      },
+      {
+        heading: "偽托的詩學",
+        paragraphs: [
+                "若把上述文本一一攤開，最先浮出的其實是文學對真實的反咬。偽托書寫明明戴著假面，卻最擅長反問那些自稱真實的文本：你們的真實從何而來？誰替你們蓋章？誰被你們排除在檔案之外？麥克弗森的奧西恩、博爾赫斯的假書評、梅里美的克拉拉·加蘇爾，都在被看穿的一瞬間，把真實本身拖到燈下。這裡無意替造假辯護；真正要指出的是，真實從來也有自己的修辭、制度和舞台。",
+                "翻譯在這裡早已越出語言服務的範圍。它更像一個權力交換的房間：有人把原文交出來，有人替它改換聲帶，有人替它標註年代、來源與可信度。班雅明談 Fortleben，說翻譯讓原文獲得後續生命；《臺灣漫遊錄》卻把這句話推到幾乎反諷的位置。青山千鶴子的原文從未存在，卻在楊双子的「譯本」中活得異常具體。這個不存在的原文，比許多存在的檔案更能逼近台灣殖民經驗的神經末梢。",
+                "由此看，所謂原初性少了幾分神聖。原文、真本、古本、第一手材料，當然重要；但文學史一次次告訴我們，原初性也可能是權威戴得最久的一張面具。偽譯的冒犯性，正在於它不肯跪在原文面前。它承認來源可疑、傳承斷裂、聲音混雜，卻也正因如此，能把被正統文獻排斥的經驗帶回閱讀現場。",
+                "這些文本總是靠近沉默。蘇格蘭需要奧西恩，是因為民族過去被壓縮成一種可疑的缺席；愛爾蘭重述凱爾特神話，是因為殖民秩序奪走了文化連續性的敘述權；《臺灣漫遊錄》虛構青山千鶴子與王千鶴，是因為日治時期台灣女性的情感生活、翻譯勞動與日常傷痕，本來就不容易在官方檔案中留下完整聲音。偽托像沉默被迫學會的另一種發音。",
+                "作者也因此失去安穩姓名的外觀。偽托文本常把作者拆成多人：實際作者、虛構作者、譯者、編者、註釋者、讀者，彼此推拉，彼此搶奪最後一句話。《臺灣漫遊錄》尤其如此。楊双子本就是共同筆名，青山千鶴子又作為虛構原作者登場，譯者注插入當代台灣視角，英文譯者林慕蓮再把整套裝置推入英語世界。這種作者位置的複數化，正是台灣多語歷史在形式上的顯影。",
+                "所以形式在這裡絕非外衣。偽托文本真正動人的地方，往往在於它為什麼非得繞到假託、譯本、註釋、殘卷、編者序裡去說。形式本身已經在思想，在辯論，在抵抗。《臺灣漫遊錄》最值得被放入世界文學譜系之處，也正在這裡：它借台灣的歷史裂縫，重新改寫後設框架的重量與方向。"
+              ]
+      },
+      {
+        heading: "邊緣重寫世界文學",
+        paragraphs: [
+                "從比較文學回頭看，偽托與虛構翻譯從來都在文學史的要害處。它們一再出現在那些身份被壓迫、記憶被切斷、聲音被攔截的地方。",
+                "從奧西恩到梅里美，從博爾赫斯到納博科夫，從蒲松齡到《紅樓夢》，從葉慈到韓江，這些文本在各自的文化語境中均代表著對「誰有權書寫歷史」、「誰的聲音得以被聽見」這一根本問題的形式性回答。",
+                "《臺灣漫遊錄》厲害的地方，在於它沒有把這套古老策略照搬過來；它把偽譯放進台灣後殖民歷史的裂縫裡重新點燃。它當然是台灣文學的里程碑；但若只把它放回台灣文學內部，又會低估它對世界文學形式史的挑釁。",
+                "世界文學可以越出中心語言收編邊緣文本的舊路。它也可以反過來：由一段邊緣歷史，重新解釋那些早被中心文學史說熟了的形式。當《臺灣漫遊錄》被放在奧西恩、博爾赫斯、納博科夫、《紅樓夢》與《源氏物語》之間，台灣已經越過被比較的位置；它成了比較文學重新出發的地方。",
+                "國際布克獎評審讀到的那種「普遍性」，來自形式深處的共振，而非抽空歷史後的普遍：不同語言、不同殖民記憶、不同文學傳統，最後都碰到同一個難題——有時候，人必須繞一個彎，甚至必須說一個精心安排的謊，才說得出真相。"
+              ]
+      },
+      {
+        heading: "延伸閱讀",
+        paragraphs: [
+                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
+                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">A Poetics of Postmodernism: History, Theory, Fiction</a></strong>\n                <em>Hutcheon, Linda</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"A Poetics of Postmodernism: History, Theory, Fiction 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony\" target=\"_blank\" rel=\"noopener\">Forgers and Critics: Creativity and Duplicity in Western Scholarship</a></strong>\n                <em>Grafton, Anthony</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Forgers and Critics: Creativity and Duplicity in Western Scholarship 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Faking%20Literature%20Ruthven%2C%20K.%20K\" target=\"_blank\" rel=\"noopener\">Faking Literature</a></strong>\n                <em>Ruthven, K. K</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Faking Literature 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Faking%20Literature%20Ruthven%2C%20K.%20K\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Faking%20Literature%20Ruthven%2C%20K.%20K%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan\" target=\"_blank\" rel=\"noopener\">Crimes of Writing: Problems in the Containment of Representation</a></strong>\n                <em>Stewart, Susan</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Crimes of Writing: Problems in the Containment of Representation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">“The Task of the Translator.”</a></strong>\n                <em>Benjamin, Walter</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“The Task of the Translator.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis\" target=\"_blank\" rel=\"noopener\">“Pierre Menard, Author of the Quixote.”</a></strong>\n                <em>Borges, Jorge Luis</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"“Pierre Menard, Author of the Quixote.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Pale%20Fire%20Nabokov%2C%20Vladimir\" target=\"_blank\" rel=\"noopener\">Pale Fire</a></strong>\n                <em>Nabokov, Vladimir</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Pale Fire 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Pale%20Fire%20Nabokov%2C%20Vladimir\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Pale%20Fire%20Nabokov%2C%20Vladimir%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo\" target=\"_blank\" rel=\"noopener\">If on a Winter's Night a Traveler</a></strong>\n                <em>Calvino, Italo</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"If on a Winter's Night a Traveler 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">東亞古典</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D\" target=\"_blank\" rel=\"noopener\">The Tale of Genji</a></strong>\n                <em>Murasaki Shikibu [紫式部]</em>\n                <small>古典物語與偽托傳統</small>\n                <nav aria-label=\"The Tale of Genji 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">東亞古典</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB\" target=\"_blank\" rel=\"noopener\">《列子集釋》</a></strong>\n                <em>楊伯峻</em>\n                <small>古典物語與偽托傳統</small>\n                <nav aria-label=\"《列子集釋》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "奧西恩核查：Britannica 將 Ossian 詩篇與 James Macpherson 1760年代的「發現／翻譯」及後續真偽爭議相連；Library of Congress 亦將相關版本列入 literary forgeries and mystifications 主題。來源：https://www.britannica.com/topic/Ossian；https://www.loc.gov/item/33005647/",
+        "《源氏物語》核查：物語辯護論位於「螢」帖（第25帖），而非「蓬生」帖；本文已按此處理。",
+        "《列子》核查：現存《列子》真偽與魏晉成書問題依楊伯峻《列子集釋》處理，本文採「多數現代學者認為現存本為魏晉偽作」之保守表述。",
+        "班雅明術語核查：《譯者的任務》中 Fortleben / afterlife 脈絡可譯為「後續生命」，本文避免將其簡化為單一 Nachleben。",
+        "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
+        "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026，並確認其原作語言與翻譯者資訊。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the"
+      ],
+  },
+  {
+    slug: "taiwan-travelogue-reception-aesthetics-global-acceptance",
+    title: "From Authorial Life to Global Reception: Reception Aesthetics of Taiwan Travelogue",
+    date: "2026-05-24",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "接受美學 · 全球接受",
+    author: "蕭珩",
+    summary: "A long-form reception-aesthetics essay on Yang Shuang-zi's Taiwan Travelogue, reading the novel through authorial biography, publishing ecology, awards, translation politics and global interpretive communities.",
+    titleZh: "從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析",
+    summaryZh: "本文以堯斯、伊澤爾與費什的接受理論為框架，分析《臺灣漫遊錄》如何在作者生命史、出版協作、偽譯結構、獎項場域、譯者政治與全球思潮的疊加中，從台灣文學事件成為世界文學現象。",
+    relatedReadings: [
+        "taiwan-travelogue-multidimensional-literary-politics",
+        "taiwan-travelogue-pseudo-translation-comparative-literature",
+        "taiwan-travelogue-critical-collection-methodology"
+      ],
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-04",
+    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    body: [
+      {
+        heading: "Abstract",
+        paragraphs: [
+                "This Chinese long-form article reads the international reception of Taiwan Travelogue through reception aesthetics, literary sociology, translation studies and the politics of world literature. The English page preserves the editorial abstract; the full Chinese article is published in the Chinese Overseas Study Review."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+                "本文以漢斯·羅伯特·堯斯（Hans Robert Jauss）的接受美學理論為核心框架，結合作者生平傳記、文本的多義開放結構、出版生態與編輯協作、獎項的場域放大機制、譯者的政治性翻譯策略，以及全球文學思潮的時代語境，分析《臺灣漫遊錄》在本土及國際語境中的接受盛況。",
+                "本文論證，這一盛況不是由單一因素驅動，而是由至少六個相互強化的接受層次共同疊加作用所形成的複合結構：作者傳記的感召力、文本的多義性與期待視野的生產性破裂、出版生態中的機構性協作、獎項連鎖的馬太效應、譯者作為政治行動者的能動性，以及全球文學場域在特定歷史時刻的思潮聚光。任何一個層次的單獨分析，都不足以解釋這一接受盛況的全貌；只有在六個層次的動態交疊中，方能理解一部台灣中文小說如何在六年之內抵達世界文學的核心位置。"
+              ]
+      },
+      {
+        heading: "接受盛況的結構性之謎",
+        paragraphs: [
+                "2026年5月19日倫敦泰特現代美術館的頒獎典禮上，楊双子以長篇小說《臺灣漫遊錄》奪下國際布克獎，創下台灣文學史與國際布克獎歷史的重要里程碑。在此之前，她已於2024年底榮獲第75屆美國國家圖書獎翻譯文學大獎，成為台灣首位獲此殊榮的創作者。再往前追溯，這部作品已獲2024年日本翻譯大賞與2021年台灣金鼎獎文學圖書獎；英文版之後帶動多語版權流通，成為台灣近年出版史上最受國際矚目的文學案例之一。",
+                "這一成就的驚人之處，在於其出發點的微小。楊双子曾多次談及，台灣多數文學出版社在小說編輯階段，往往只校對錯字與格式，不太深度介入文本修改；而《臺灣漫遊錄》初版以「青山千鶴子著、楊双子譯」為框架，進行大膽的文學實驗，需要有已建立讀者信任的出版社願意承擔出版風險。換言之，這部後來席捲全球的小說，在誕生之初即面臨出版市場的結構性排斥。",
+                "這種從市場冒險到全球盛況的巨大落差，構成接受美學分析最值得深究的張力場所。文學獎項每年頒發，多數得獎作品在下一輪媒體週期中即告沉寂；而《臺灣漫遊錄》的接受，顯然具有更深層的結構性基礎，需要超出「獎項運氣」或「時代機遇」的解釋框架。",
+                "堯斯在〈文學史作為文學科學的挑戰〉中提出「期待視野」（Erwartungshorizont）：文學作品的意義，產生於文本與特定歷史時刻讀者群集體期待之間的動態協商。一部作品之所以能引發深廣共鳴，是因為它既滿足既有期待，又以某種「審美距離」挑戰並擴展這些期待，使讀者在閱讀之後擁有一個被永久擴大的視野。",
+                "伊澤爾在《閱讀行動》中進一步發展「隱含讀者」與「文本空白」的概念：每部文本都在其結構中留有刻意的空白，邀請讀者以自身的歷史經驗與想像力加以填充。費什的「詮釋共同體」理論則提醒我們，意義由共享閱讀慣例與詮釋策略的讀者共同體在閱讀實踐中持續生產。《臺灣漫遊錄》的接受盛況，正是多個詮釋共同體在同一文本中同時找到自身入口的結果。"
+              ]
+      },
+      {
+        heading: "作者傳記作為接受的情感底蘊",
+        paragraphs: [
+                "接受美學的理論傳統，長期傾向於去作者化，強調文本意義在讀者閱讀行為中生成。然而在當代文學消費的媒體生態中，尤其在社交媒體主導的信息傳播環境下，作者的故事往往構成接受的第一個情感入口，是讀者在接觸文本之前已被激活的「前理解」。楊双子的傳記，在這一意義上，具有近乎原型性的多重感召力，且每一層感召力都指向不同的讀者群。",
+                "楊双子本名楊若慈，出生於1984年的台中烏日眷村，是村中少有的本省家庭。父母在她與妹妹年幼時離異，姊妹由祖母扶養長大。15歲開始，兩人相互扶持，楊若慈做麵包學徒，楊若暉做工讀生；她曾賣過雞排、手搖飲，也做過麵包學徒，利用工作空檔寫可以換取稿費的言情小說，然後趕去夜校晚自習。",
+                "這一早年生命史，對應著布迪厄所分析的文學場域中的位置取得：在嚴苛的物質條件下，以創作實踐作為階級突圍的策略。楊双子的故事超出一般苦難成功敘事，關鍵在於她不是從文學場域的中心出發，而是從言情小說這一長期被低估的大眾文類中練出形式感、節奏感與讀者感。日後《臺灣漫遊錄》能以美食旅行與百合情感吸引大眾讀者，同時又以歷史考據、偽譯裝置與後殖民意識贏得學術讀者，正與這段早期訓練密切相關。",
+                "她後來進入中興大學台灣文學與跨國文化研究所，曾形容在興大讀書的八年，是自己成為台灣小說家的關鍵八年。從中文系到台文所，她在閱讀、研究、論述與創作中，逐步確立自身書寫方向，也在對「什麼是台灣文學」的追問中，形塑出鮮明而堅定的創作理念。夜校與研究所、言情小說與台灣文學史、謀生寫作與學術訓練，在她身上不是彼此抵消的矛盾，而是互相加壓的燃料。",
+                "更重要的是，她從來不是一個人在寫作。「楊双子」原是姊妹共同筆名，「双子」取自日文雙胞胎之意。這個筆名原為共同創作台灣歷史百合小說而誕生，特意選用日文漢字「双」，也預示了作品對日本語境與跨語流通的早期想像。2015年，妹妹楊若暉因癌症離世。她留下的文獻考據資料，後來持續參與楊若慈的創作，成為《花開時節》《花開少女華麗島》以及《臺灣漫遊錄》背後不斷回返的材料與情感底層。",
+                "弗洛伊德在《哀悼與憂鬱》中區分哀悼與憂鬱：哀悼是對失去對象的逐漸釋放，憂鬱則是把失去對象內化為自我的永久組成部分。楊双子的書寫，在此意義上是一種生產性的憂鬱行動。妹妹不以幽靈姿態縈繞，而以文獻資料、未竟承諾、共同筆名與小說世界中的少女情誼持續在場。",
+                "百合小說所創造的，是雙胞胎姊妹從未擁有的青春。這一點，反向照亮《臺灣漫遊錄》的情感結構：小說中的兩位千鶴，既是殖民歷史中的人物，也是作者在時間與死亡夾縫中為自己與妹妹補種的可能性。讀者在閱讀兩位女性之間的親密、遲疑與不可抵達時，讀到的已不只是愛情或友誼，而是「替另一個人看見更遠地方」的書寫倫理。"
+              ]
+      },
+      {
+        heading: "歷史百合宇宙與公開身份",
+        paragraphs: [
+                "《臺灣漫遊錄》並非楊双子的孤立之作，而是一個逐步擴大的「歷史百合宇宙」的核心節點。《花開時節》《花開少女華麗島》與《臺灣漫遊錄》共享同一創作方向：把女性之間的情誼、台灣民俗與日治時期歷史放入彼此照亮的敘事空間。前作終幕落下的一九三八年，正是《臺灣漫遊錄》鐵道之旅展開的起點。",
+                "這一宇宙也向台灣首位女記者楊千鶴致敬。楊千鶴的〈花開時節〉在1942年發表，是日治時期台灣女性書寫中的重要文本。楊双子以「千鶴」命名小說人物，又讓「楊双子」這一筆名帶著日文漢字的痕跡，製造出跨越現實與虛構、當代與歷史、作者與前輩女性書寫者的多層致敬結構。這種文學傳承的具身化，使她的創作不只是個人書寫，也是一場台灣女性文學系譜的積極建構。",
+                "楊双子公開出櫃並已婚，其早期創作以羅曼史小說為主，近年將百合元素融入台灣歷史書寫，透過女性之間的理解與情誼開展新的敘事視角。這一身份的公開性，在接受過程中具有雙重意義：它使歷史百合書寫獲得一種由內而外的真實性認證，也使 LGBTQ+ 讀者群形成特殊的認同性閱讀。",
+                "賽奇維克在《壁櫥的認識論》中指出，酷兒讀者長期在文學史中以曲折方式尋找自身影像。當一部作品以正面而複雜的方式呈現女性之間的情感，且把這種情感放回歷史現場，它就不只是一段關係描寫，也是一種歷史位置的修復。台灣作為亞洲同性婚姻合法化的重要案例，在英語世界的接受中，又使《臺灣漫遊錄》的百合元素與台灣民主形象相互強化。",
+                "楊双子身處多重邊緣位置：本省眷村、單親貧窮家庭、夜校背景、女同志作家、百合大眾文學創作者。正是這些邊緣性的交疊，使她的創作在讀者面前獲得一種特殊的道德權威。她想寫只有台灣人能創作、也只有台灣人真正想讀的小說；而當這樣的小說被世界閱讀，台灣讀者感到的便不只是被代表，更是一種久候的文化回聲。"
+              ]
+      },
+      {
+        heading: "出版生態與文本精修",
+        paragraphs: [
+                "任何接受美學分析，若忽略文本從作者手稿到讀者手中所經歷的出版機構中介過程，都是不完整的。《臺灣漫遊錄》的接受盛況，與一個精密的出版機構協作過程密不可分。",
+                "透過作家友人陳又津認識春山出版社後，楊双子第一次遇到願意鉅細靡遺討論小說、追問細節、指出問題的編輯夥伴。從2019年8月到2020年3月出版之間，《臺灣漫遊錄》前後修訂多次。編輯的吹毛求疵，對一部以偽譯、注釋、多時間層與歷史細節為核心的小說來說，不只是文字加工，而是風險管理與形式校準。",
+                "布迪厄在《藝術的規則》中指出，出版社不是單純商業中介，更是文化資本的認證機構。一家具有聲譽、願意深度介入文本的出版社選擇出版某部作品，本身即是向特定讀者群發出信號：這部作品值得嚴肅對待。春山出版對《臺灣漫遊錄》的支持，提供了文本抵達讀者之前的品質保證，也使它在台灣文學讀者群中取得初始信任。",
+                "書上市初期，「青山千鶴子著、楊双子譯」的設定引發爭議，部分讀者以為真有一位日治時代日本女作家留下遊記，發現是小說策略後感到受騙。楊双子事後分析，當代台灣有許多人對台灣文史重新出土抱有高度期待，這種期待可能使讀者忽略文本中已埋下的虛構線索，進而產生情感落差。",
+                "這場風波在接受美學意義上格外重要。讀者對失落台灣史料的強烈渴望，既是偽譯裝置得以成立的情感土壤，也是它被誤讀為詐欺的原因。換言之，作品最想處理的問題，正是在初次接受中以衝突形式爆發出來：台灣讀者究竟多麼渴望一份未曾被保存的殖民地女性旅行檔案？",
+                "出版風波也意外製造了公共討論。關於文學虛構倫理、歷史書寫責任、台灣失落史料渴望的辯論，使這部小說在出版初期即成為文化事件，而不只是一本待讀的文學作品。用堯斯的語言說，「炎上」製造了一次強烈的視野破裂，迫使讀者重新思考自己對歷史文本與虛構文本的分類方式。",
+                "小說中1938、1954、1970、1990與2020等時間節點，則構成五個不同的隱含讀者位置。1938年是日治殖民語境下的原始敘事；1954年是國民政府去日本化後的記憶重框；1970年是戒嚴體制下本土意識的壓抑與積累；1990年是民主化解嚴後本土意識的釋放；2020年則是當代讀者閱讀所有層疊的現在。每一個時間節點，都可能成為不同世代台灣讀者的集體記憶錨點。"
+              ]
+      },
+      {
+        heading: "文本多義性與期待視野的破裂",
+        paragraphs: [
+                "《臺灣漫遊錄》在文本內部同時開啟多個入口。它像美食旅遊小說，以一道道菜餚組織章節；它像百合小說，讓兩位女性在殖民秩序邊緣彼此靠近又彼此退後；它像歷史小說，重建1938年的台灣鐵道、城市、料理與語言環境；它又像後設小說，不斷提醒讀者：你正在閱讀一部被翻譯、被注釋、被重構的文本。",
+                "這種類型混搭製造了一個柔軟的入口。讀者以為走進一部輕盈的美食旅行小說，卻在閱讀過程中逐漸被帶入更深、更重的殖民歷史與身份政治討論。飲食與認同、階級、殖民觀光、地方記憶相連；女性情誼與父權制度、殖民秩序、語言不平等互相纏繞。",
+                "「以輕包重」的敘事策略，使小說同時服務於至少三個不同讀者群：尋求感官愉悅與美食想像的大眾讀者；追求情感共鳴與歷史想像的百合類型讀者；尋求殖民歷史批判與後設文學探索的嚴肅讀者。三個群體都能從文本中取得滿足，卻不是同樣的滿足，也因此不容易形成對同一文本的排他性佔有。",
+                "偽譯裝置在讀者被「騙到」的瞬間，製造了最深刻的後設閱讀效果。當讀者發現原著從未存在、翻譯是一種書寫策略，便不得不回頭重新閱讀整部小說：所謂歷史記錄究竟由誰建構？文獻真實性意味著什麼？翻譯者與注釋者的權力如何改變文本？這種二度閱讀的激活，是詮釋共同體形成的標誌。",
+                "更精細地看，小說中的空白分布極不平均。青山千鶴子的日記看似完整，卻不斷暴露帝國視角的盲點；王千鶴的沉默看似缺席，卻成為讀者最想填補的空白；譯者注看似提供解答，實際上又製造新的不確定性。這些空白讓不同讀者以自身經驗進入文本：台灣讀者補入被壓抑的歷史記憶，日本讀者補入帝國反省，酷兒讀者補入被歷史刪去的同性情感，飲食讀者補入身體與味覺經驗。",
+                "這正是伊澤爾所說的文本空白的生命力。優秀文本不會把所有意義一次性說完，而是保留足夠的縫隙，使讀者在閱讀中完成一部分作品。《臺灣漫遊錄》的世界化，並非因它變得簡單易懂，而是因它的空白足夠深，足以容納不同語言、不同歷史處境的讀者。"
+              ]
+      },
+      {
+        heading: "獎項場域與事件放大",
+        paragraphs: [
+                "《臺灣漫遊錄》的接受呈現明顯的連鎖放大：台灣金鼎獎、日本翻譯大賞、美國國家圖書獎翻譯文學獎、國際布克獎。每一次獎項都不只是評價結果，也是一個新的閱讀入口，將作品送入新的制度網絡與讀者社群。",
+                "文學獎項在布迪厄意義上，是文學場域中的象徵資本轉換機制。地方獎項確認作品在本土文學史中的位置；翻譯獎項確認作品跨語轉換的可讀性與形式價值；英語世界的大型獎項則把作品推入全球書市與媒體視野。這些獎項之間構成馬太效應：既有肯定提高下一輪被看見的概率，而下一輪肯定又回過頭來重估前一輪的意義。",
+                "2024年美國國家圖書獎翻譯文學大獎，使《臺灣漫遊錄》首次在英語世界獲得制度性高亮。到2026年國際布克獎，它已不只是「一部台灣小說被英譯」的案例，而是「一部中文原著台灣小說以翻譯文學身份進入世界文學核心獎項」的事件。",
+                "這種事件性改變了讀者的閱讀姿勢。許多英語讀者初次接觸《臺灣漫遊錄》時，已知道它是獲獎作品，於是帶著「它為何重要」的期待閱讀；台灣讀者重新閱讀時，則把它視為台灣文學被世界承認的證據。獎項沒有創造文本的價值，卻改變了價值被感知、被談論、被流通的方式。",
+                "阿蘭·巴迪烏的「事件」概念在此可作參照：事件不只是發生了什麼，而是迫使在場主體重新定位自身座標。國際布克獎頒給《臺灣漫遊錄》與 Lin King 的英譯，使台灣文學在集體意識中從焦慮的問題轉化為自信的回答：台灣並非等待被中心承認的邊緣，而是已經帶著自己的歷史、形式與語言問題進入世界文學現場。"
+              ]
+      },
+      {
+        heading: "譯者能動性與翻譯政治",
+        paragraphs: [
+                "在《臺灣漫遊錄》的接受鏈條中，英文版譯者 Lin King（金翎）的角色遠超傳統意義上的翻譯工作者。她不是把中文內容搬運到英文裡，而是在世界文學場域中重新設置台灣的可見性。",
+                "金翎曾表示，2022年俄烏戰爭爆發後，她下定決心，在可預見的將來只翻譯來自台灣的創作。這一立場使翻譯行為本身成為政治表態，也使譯者成為獨立於文本之外的公共知識分子。韋努蒂在《譯者的隱形》中批判英語翻譯界以流暢為名讓譯者隱形，主張以異化策略讓讀者意識到自己正在讀翻譯作品。金翎的做法與此相通，政治性更強：她的翻譯選擇，直接回應台灣存在如何在英語世界被看見的問題。",
+                "她在英文版中保留譯者注腳、序文與後記，並以多套拼音系統處理台語、客語、日語與華語混雜的語言現實。這種策略拒絕把台灣的多語現實壓平為一種順滑英文，也拒絕把翻譯中的顆粒感過濾掉。她曾以柳橙汁中的果粒比喻翻譯：那些看似礙口的顆粒，正是文本的生命。",
+                "英文版因此形成更複雜的後設結構：虛構作者青山千鶴子的敘述、虛構譯者楊双子的注釋、真實譯者 Lin King 的注腳彼此疊加。每一層都是不同歷史位置上的詮釋聲音，使英文版在後設意義上不是被簡化的版本，而是被再次增厚的版本。",
+                "譯者政治也成為獨立接受事件。作者與譯者的公開發言，使獎項從文學評價延伸為關於台灣主權、文化可見性與翻譯倫理的公共討論。對不少英語讀者來說，閱讀《Taiwan Travelogue》不只是接觸一部小說，也是在理解一個譯者為何要把台灣作品帶入英語世界。"
+              ]
+      },
+      {
+        heading: "全球思潮與多重詮釋社群",
+        paragraphs: [
+                "《臺灣漫遊錄》的世界接受，恰好發生在亞洲女性歷史書寫被重新看見的時刻。韓江獲諾貝爾文學獎，使英語讀者對亞洲女性、歷史傷痕、國家暴力與身體記憶形成新的期待視野。楊双子自己也指出，這不是把兩位作家畫上等號，而是世界文學視角像一盞探照燈，在時代風潮轉動時照向了原本較隱沒的女性聲音。",
+                "這一探照燈效應，使《臺灣漫遊錄》不必從零開始教育讀者如何閱讀亞洲歷史創傷。讀者已經有某種問題意識：亞洲女性如何書寫國家暴力之下的人？《臺灣漫遊錄》提供的答案具有台灣特殊性：它處理的不是單一事件的創傷，而是殖民結構在日常生活、飲食、語言與情感關係中的持續滲透。",
+                "俄烏戰爭後，西方世界對被強鄰威脅的民主社會高度關注，台灣的地緣政治能見度上升。《臺灣漫遊錄》在此語境中被閱讀，便帶有雙重性質：它是文學作品，也是台灣存在的文化證明。對某些讀者而言，閱讀這部書甚至具有政治聲援意味。",
+                "東歐、波羅的海與烏克蘭讀者對小說的共鳴，則提示一種跨地域後殖民記憶的可能。台灣日治經驗、烏克蘭與東歐的帝國記憶、被強權夾縫中的語言與身份焦慮，雖然歷史脈絡不同，卻可能共享一套情感語法：如何在他者命名的世界中保留自己的名字？如何在帝國帶來的現代性與帝國造成的傷害之間保持判斷？",
+                "LGBTQ+ 讀者讀到的是另一條線。百合歷史小說把女性之間的愛放回歷史，不再把同性情感視為當代城市裡突然出現的例外，而是視為被史料、父權與殖民秩序共同壓低聲音的長期存在。這種歷史化，給身份認同帶來深刻穩定感。",
+                "飲食文化讀者則從味覺進入台灣。美食寫作是一種全球語言，食物能繞過抽象政治，先讓讀者用身體理解地方。當麻薏湯、菜尾湯、蜜豆冰與鐵路旅行被放在一起，台灣不再只是新聞中的地緣政治名詞，而是一個有味道、有季節、有階級、有記憶的生活世界。"
+              ]
+      },
+      {
+        heading: "六層接受的動態模型",
+        paragraphs: [
+                "將以上六個接受層次置於同一分析框架下，可以看到它們不是單線因果，更像一個相互強化的動態共振結構。",
+                "作者傳記為文本多義性提供情感解碼框架：姊妹相依的生命史，使讀者在閱讀兩位千鶴的情感時帶入更深的生命感受；多重邊緣身份，為文本的多個接受入口預設了不同的情感共鳴基礎。",
+                "出版生態為獎項機制提供形式完成度：若沒有春山版本的精細打磨，文本未必具備進入國際獎項場域的穩定性；出版初期的爭議，經過修訂與討論後轉化為作品接受史的一部分，也成為後來讀者理解偽譯裝置的重要背景。",
+                "獎項連鎖為譯者能動性提供結構機會：本土獎項與日本接受建立初步聲譽，英文版出版與美國國家圖書獎擴大能見度，國際布克獎則讓作者與譯者的政治發言被全球媒體聽見。",
+                "譯者能動性為全球思潮提供跨語介面：Lin King 的翻譯策略讓台灣語言複雜性在英語中保留顆粒感，使後殖民讀者、酷兒讀者、飲食讀者、世界文學讀者都能找到自己的閱讀入口。",
+                "全球思潮又反向強化作者傳記與台灣身份的接受框架：亞洲女性歷史書寫的探照燈效應、俄烏戰爭後的地緣政治焦慮、LGBTQ+文化能見度，都使楊双子的生命史與文本形式獲得新的公共意義。",
+                "這六層疊加構成一次罕見的全頻道共鳴。每一個可能的讀者群，都從這部小說中找到自己的入口；每一個入口又足夠深入，足以引發持續閱讀、討論、翻譯與再詮釋。這正是堯斯所描述的古典化機制的當代示範：一部作品能穿越時間與語境限制，不因它提供單一答案，而因它能同時回應不同讀者群最迫切的問題。"
+              ]
+      },
+      {
+        heading: "眾聲喧嘩的接受生態學",
+        paragraphs: [
+                "楊双子和 Lin King 期待能有更多台灣文學進入英語世界，讓更多作品反映出台灣不是齊聲合唱，而是眾聲喧嘩的民主社會。巴赫金以「眾聲喧嘩」（polyphony）描述小說中多種聲音共存、彼此不被化約的狀態；這個詞用在《臺灣漫遊錄》的接受現象上，同樣精準。",
+                "這部小說的接受，本身即是一場眾聲喧嘩。台灣認同讀者聽到身份政治的回聲，LGBTQ+讀者聽到情感解放的回聲，日本讀者聽到帝國反省的回聲，東歐讀者聽到殖民記憶的回聲，學術讀者聽到後設文學的回聲，美食讀者聽到感官愉悅的回聲，飲食政治讀者聽到食物即政治的回聲。每一種接受都是真實的；沒有任何一種接受能獨自構成全部意義。",
+                "在所有聲音的底部，始終有一個最輕柔、也最持久的迴響：一對雙胞胎姊妹曾在烏日眷村相依為命，其中一人先行離去，另一人帶著共同的名字、妹妹留下的資料與未竟的承諾，繼續向世界述說她們都想看見的遠方。",
+                "楊双子在國際獎項舞台上談到台灣文學的百年探問，也談到自由與平等的百年追求。這句話是她一個人站在台上說的；在那個名字的最深處，卻有兩個人的呼吸。正因如此，《臺灣漫遊錄》的全球接受，不只是一本書的成功，也是一種文學如何替逝者、替地方、替被壓低的歷史聲音繼續遠行的證明。"
+              ]
+      },
+      {
+        heading: "延伸閱讀",
+        paragraphs: [
+                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
+                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert\" target=\"_blank\" rel=\"noopener\">Toward an Aesthetic of Reception</a></strong>\n                <em>Jauss, Hans Robert</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Toward an Aesthetic of Reception 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang\" target=\"_blank\" rel=\"noopener\">The Act of Reading: A Theory of Aesthetic Response</a></strong>\n                <em>Iser, Wolfgang</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"The Act of Reading: A Theory of Aesthetic Response 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley\" target=\"_blank\" rel=\"noopener\">Is There a Text in This Class? The Authority of Interpretive Communities</a></strong>\n                <em>Fish, Stanley</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Is There a Text in This Class? The Authority of Interpretive Communities 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">The Rules of Art: Genesis and Structure of the Literary Field</a></strong>\n                <em>Bourdieu, Pierre</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"The Rules of Art: Genesis and Structure of the Literary Field 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence\" target=\"_blank\" rel=\"noopener\">The Translator's Invisibility: A History of Translation</a></strong>\n                <em>Venuti, Lawrence</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The Translator's Invisibility: A History of Translation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail\" target=\"_blank\" rel=\"noopener\">Problems of Dostoevsky's Poetics</a></strong>\n                <em>Bakhtin, Mikhail</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Problems of Dostoevsky's Poetics 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">Epistemology of the Closet</a></strong>\n                <em>Sedgwick, Eve Kosofsky</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Epistemology of the Closet 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">The World Republic of Letters</a></strong>\n                <em>Casanova, Pascale</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The World Republic of Letters 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">“Mourning and Melancholia.”</a></strong>\n                <em>Freud, Sigmund</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“Mourning and Melancholia.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg\" target=\"_blank\" rel=\"noopener\">Truth and Method</a></strong>\n                <em>Gadamer, Hans-Georg</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Truth and Method 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "稿件來源：Gmail 收件箱中 Overseas Office 於 2026年5月24日 09:24（London）發出的〈從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析〉。",
+        "獎項與出版事實已按 The Booker Prizes、National Book Foundation、Graywolf Press 與中央社公開資料核對；涉及訪談細節、作者生命史與媒體引述者，保留為作者正文中的接受材料，後續紙本刊載可再逐條比對原始訪談頁面。",
+        "本文將郵件正文中的參考文獻改為「延伸閱讀／微型知識圖譜」版式，避免頁面末尾形成突兀的學術書目堆疊，同時保留讀者外部查讀入口。"
+      ],
+  },
+  {
+    slug: "uk-chinese-local-business-website-refresh-market-report-2026",
+    title: "UK Chinese Local Business Website Refresh Report: Why Older Shops Need a Faster Digital Front Door",
+    date: "2026-05-25",
+    category: "AI Business Studio",
+    column: "business",
+    kicker: "華人商家 · 網站煥新 · AI Studio",
+    author: "留學導報編輯部",
+    summary: "A practical market note on the digital gap among UK Chinese and Asian local businesses: many shops are still relying on scattered Facebook pages, PDF menus, old websites, delivery-platform listings and incomplete Google profiles. OTC AI Business Studio is launched as a preview-first workflow for business owners who want to see a redesigned online front door before deciding what to pay for.",
+    titleZh: "英國華人老商家網站煥新調查：一萬至兩萬家本地店鋪可能需要重新整理網上門面",
+    summaryZh: "英國華人本地商家並不缺手藝、客源和口碑，真正缺的常常是一個讓客人快速看懂、快速聯絡、快速下單的網上門面。根據官方人口背景、華人公司量級、外賣店目錄與 OTC 初步觀察，英國至少有一批以萬計的華人及亞洲本地店鋪存在網站老舊、資料分散、缺少雙語內容或 Google 展示不足的問題。OTC AI Business Studio 因此推出「先生成預覽、滿意後付費」的商家煥新流程。",
+    relatedReadings: [
+        "business-marketing-media-course-fit-portfolio-evidence-pack",
+        "otc-free-study-abroad-application-agent-service",
+        "overseas-chinese-media-interview-guide"
+      ],
+    resources: [
+        ["ONS Census 2021 ethnic group data", "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/population-of-england-and-wales/latest/"],
+        ["Grant Thornton Tou Ying Tracker 2024", "https://www.grantthornton.co.uk/insights/tou-ying-tracker-2024-chinese-investments-in-the-uk-remain-robust/"],
+        ["PoIData Chinese takeaway directory report", "https://www.poidata.io/report/chinese-takeaway/united-kingdom"],
+        ["Lloyds Bank Consumer Digital Index 2024", "https://www.lloydsbankinggroup.com/media/consumer-digital-index.html"],
+        ["OTC AI Business Studio", "https://overseasuk.com/ai-business-studio/"]
+      ],
+    body: [
+      {
+        heading: "What the public data can and cannot tell us",
+        paragraphs: [
+                "There is no official UK dataset that directly counts 'older Chinese businesses with outdated websites'. The sensible approach is to triangulate: Chinese community size, Chinese-owned company counts, visible local-business categories, directory records and the observable condition of public online profiles.",
+                "ONS Census 2021 data records 445,646 people identifying as Chinese in England and Wales. Grant Thornton's Tou Ying Tracker 2024 also recognises the wider contribution of over 30,000 Chinese-owned companies in the UK. These figures do not equal local shops one-for-one, but they show a large, established commercial and community base."
+              ]
+      },
+      {
+        heading: "A conservative market estimate",
+        paragraphs: [
+                "Commercial directory data indicates 13,561 Chinese takeaways across the United Kingdom. When adjacent categories are included, such as Chinese supermarkets, Asian grocery stores, bubble tea shops, beauty clinics, nail salons, travel agencies, tutoring centres, accountants, repair services, cleaning, moving and local trade services, the practical addressable group becomes much larger than restaurants alone.",
+                "For a cautious planning estimate, OTC treats 8,000-12,000 businesses as the urgent-refresh segment and 10,000-20,000+ as the broader serviceable market for website, Google profile, content and monthly maintenance support. This is a working service estimate, not an official government statistic."
+              ]
+      },
+      {
+        heading: "What 'outdated' usually looks like",
+        paragraphs: [
+                "The problem is rarely that the business is bad. The problem is that the digital front door is unclear: an old site that does not open properly on mobile, a menu hidden inside a photo album, prices scattered across Facebook posts, no clear WhatsApp button, missing opening hours, incomplete Google Business information, or only English content where Chinese-speaking customers need reassurance.",
+                "For older local shops, the issue is time. Owners are busy operating the shop, answering calls, managing staff, buying stock and serving customers. A website redesign becomes another chore, so the online presence freezes even while the business itself keeps changing."
+              ]
+      },
+      {
+        heading: "OTC AI Business Studio launch",
+        paragraphs: [
+                "OTC AI Business Studio is designed around one simple promise: first create a useful preview, then discuss price and scope. The workflow collects public business information, drafts a refreshed bilingual web presence, adds clearer images and service blocks, and prepares a client-facing preview before any full project begins.",
+                "This is not a complex ordering system at the first step. It is a practical way to show the owner what the shop could look like online, then convert that preview into a website, Google review support, monthly updates, ordering links or maintenance tasks only when the owner is satisfied."
+              ]
+      },
+      {
+        heading: "Why this matters for Chinese local business owners",
+        paragraphs: [
+                "Customers now search before they walk in. If Google, Facebook and the website do not answer the basic questions in ten seconds, the customer may choose another shop that looks clearer, even if the first shop has better food, better service or better prices.",
+                "A small business does not need a flashy corporate site. It needs a trustworthy digital front door: name, photos, menu or service list, location, opening hours, WhatsApp or phone, reviews, delivery or booking information, and bilingual wording that feels local and real."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先說清楚：這不是官方精確統計，而是服務市場估算",
+        paragraphs: [
+                "英國目前沒有一個政府資料庫會直接告訴我們：「有多少華人老商家的網站已經落後、急需裝修」。所以這份調查不能假裝有一個神奇的官方答案。比較負責任的方法，是把幾類公開資料放在一起看：華人人口、華人／中國背景公司量級、外賣與本地服務目錄、Google / Facebook / 網站可見狀態，以及 OTC 對本地華人商家線索的初步觀察。",
+                "ONS 2021 年人口普查顯示，英格蘭與威爾斯登記為 Chinese ethnic group 的人口為 445,646 人。Grant Thornton 2024 年 Tou Ying Tracker 亦提到，英國有超過 30,000 家華人／中國背景公司為經濟作出貢獻。這些數字不等於每一家都是街邊店，但它們說明：英國華人商業基礎已經足夠大，足以支撐一個專門服務華人本地商家的數位化工具。"
+              ]
+      },
+      {
+        heading: "保守估算：急需煥新的老華商，至少是以萬計",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>單看餐飲外賣，商業目錄 PoIData 2026 年資料顯示英國有 13,561 家 Chinese takeaway 記錄，其中網站記錄為 7,440 個。這還沒有包括華人超市、亞洲雜貨、奶茶店、美容美甲、中醫理療、會計、補習中心、旅行社、房產中介、物流快遞、修水電、搬家清潔、裝修維修等大量本地服務商家。</p></div>",
+                "因此，OTC 以較保守方式估算：英國華人及亞洲本地商家中，急需處理「網站太舊、資料分散、Google 展示不足、沒有清楚聯絡入口」的商家，大約可先抓 8,000 至 12,000 家；若把輕度改造、月度維護、Google 評論管理、社交媒體更新也納入，可服務市場可達 10,000 至 20,000 家以上。這是一個服務開發估算，不是政府官方統計。"
+              ]
+      },
+      {
+        heading: "真正的痛點不是商家不好，而是網上門面太亂",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>很多華人老商家不是沒有實力。飯菜好吃、老客穩定、手藝扎實、街坊熟悉，問題是新客在網上看不懂：網站打不開或手機顯示很差，菜單只是 Facebook 相簿裡的一張照片，價格與營業時間散落在舊貼文，Google 上沒有清楚圖片，WhatsApp / 電話入口不明顯，中文和英文內容也沒有整理好。</p></div>",
+                "對忙碌店主來說，重做網站總像一件很麻煩的事。每天要進貨、接電話、處理員工、服務客人、更新價格、應付節假日時間，網站自然一直拖。結果就是：店在現實中還活著，網上看起來卻像停在很多年前。"
+              ]
+      },
+      {
+        heading: "OTC AI Business Studio：先生成預覽，滿意後再付費",
+        paragraphs: [
+                "OTC AI Business Studio 推出的不是一開始就很重的訂貨系統，而是更務實的一步：一鍵提交商家資料，AI Studio 先抓取公開資訊，整理 Google / Facebook / 網站線索，生成一個「改造後網上門面」預覽，再由人工檢查語氣、圖片、服務範圍與價格表達。",
+                "店主可以先看到效果：店面圖片怎樣呈現，菜單或服務價目怎樣排，WhatsApp 入口放在哪裡，Google 評論怎樣展示，中文和英文怎樣同時讓人看懂。滿意後，再決定是否付費建站、加訂貨表、加產品目錄、做 Google 評論管理或月度維護。核心原則是：先看得見，再談價格。"
+              ]
+      },
+      {
+        heading: "這個 App 的工作流：抓單、換圖、議價、出單",
+        paragraphs: [
+                "OTC 的下一步，是把這套流程做成可操作的 AI Studio 系統：一鍵提交商家名稱或 Google / Facebook 連結；系統自動抓取公開商家資訊；生成改版後網站預覽；後台形成 lead record；人工確認後發送給店主；店主回覆後進入議價、範圍確認和出單跟進。",
+                "這種做法適合華人老商家，因為它不要求店主先懂技術，也不要求店主先花大錢。店主只需要看到：原本混亂的網上資料，可以變成一個清楚、可信、可聯絡、可持續更新的網上門面。"
+              ]
+      },
+      {
+        heading: "發布目的：讓華人商家的好生意更容易被找到",
+        paragraphs: [
+                "《留學導報》發布這份調查，不只是為了談網站，而是為了指出一個很現實的商業機會：華人本地商家長期服務社區，但很多店沒有得到同等水準的網上展示。當顧客已經習慣先 Google、先看評分、先看圖片、先找 WhatsApp，老商家的第一印象不能繼續停留在舊網站和零散社交媒體裡。",
+                "OTC AI Business Studio 現已作為試行工具推出。商家或介紹人可打開 <a href=\"/ai-business-studio/\">OTC AI Business Studio</a> 提交線索，或直接聯絡 WeChat: overseasus、WhatsApp: +44 7947 991572、Email: office@overseasuk.com。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-25。本文使用 ONS Census 2021、Grant Thornton Tou Ying Tracker 2024、PoIData 商業目錄與 Lloyds Bank Consumer Digital Index 相關公開資料。",
+        "本文中的一萬至兩萬家為服務市場估算，不是政府官方統計。估算目的在於判斷產品需求和服務優先級，不用作投資承諾或收益保證。"
+      ],
+  },
+  {
+    slug: "uk-entry-requirements-course-page-checklist",
+    title: "UK Entry Requirements: How to Read a Course Page Without Missing the Hidden Conditions",
+    date: "2026-05-26",
+    category: "UK Applications",
+    column: "study",
+    kicker: "UK · Applications · Entry requirements",
+    author: "留學導報編輯部",
+    summary: "A practical, compliance-safe checklist for decoding UK university entry requirements: grade wording, subject constraints, English language rules, extra tests/portfolio flags, and a simple evidence pack to keep families aligned.",
+    titleZh: "英國大學 Entry Requirements 怎麼讀：用一張核對清單避免漏掉「隱形條件」",
+    summaryZh: "一份可直接用於家長與學生溝通的入門核對清單：成績要求的關鍵字、科目限制、英文要求、作品集／面試／測試提示，以及一套「證據包」做法，讓資訊可追溯、可核查（不做任何結果保證）。",
+    relatedReadings: [
+        "uk-aus-application-documents-checklist",
+        "uk-personal-statement-evidence-first-checklist",
+        "ucas-offers-conditions-firm-insurance-checklist"
+      ],
+    resources: [
+        ["UCAS: How to apply (overview)", "https://www.ucas.com/undergraduate/applying-university"],
+        ["UCAS: Entry requirements (overview)", "https://www.ucas.com/undergraduate/what-and-where-study/understanding-entry-requirements"],
+        ["UK Government: Student visa (official guidance)", "https://www.gov.uk/student-visa"]
+      ],
+    body: [
+      {
+        heading: "Start with the right source (and save it)",
+        paragraphs: [
+                "Entry requirements can differ between a university prospectus PDF, a department web page, and a UCAS listing. Use the course page as your primary reference, then cross-check against the UCAS entry for the same course code (if applicable).",
+                "Build a small evidence pack: save a PDF print of the course page, capture screenshots of the requirements section, and note the page URL + access date. Requirements change — your job is to keep the family aligned with the latest written source."
+              ]
+      },
+      {
+        heading: "Decode grade wording: typical phrases that change the meaning",
+        paragraphs: [
+                "Don’t treat a grade line as a single number. Watch for wording that changes risk and flexibility (examples vary by course):",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>Phrase you might see</th><th>What it usually implies</th><th>What to check next</th></tr></thead>\n              <tbody>\n                <tr><td>\"AAA including Mathematics\"</td><td>Subject-specific constraint.</td><td>Which maths? Any further minimum grade per subject?</td></tr>\n                <tr><td>\"Typical offer\"</td><td>Not a guarantee; competitive context matters.</td><td>Selection factors (portfolio, interview, admissions test).</td></tr>\n                <tr><td>\"We consider a range of qualifications\"</td><td>Multiple pathways may be accepted.</td><td>Confirm your exact qualification + combinations.</td></tr>\n                <tr><td>\"Contextual offer available\"</td><td>Some applicants may receive adjusted grades.</td><td>Eligibility criteria and required evidence.</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "If a family wants certainty, the only safe answer is: get it in writing from the admissions team for the specific applicant profile."
+              ]
+      },
+      {
+        heading: "English language and deadlines: treat as a separate checklist",
+        paragraphs: [
+                "English requirements are often separate from academic grades and may have additional rules: accepted tests, minimum component scores, validity windows, and latest test dates aligned to CAS/enrolment timelines.",
+                "Practical step: create a one-page ‘English readiness’ note with (a) target test + score, (b) booking plan, (c) retake buffer, and (d) a reminder to re-check the university’s accepted tests and validity rules before paying test fees."
+              ]
+      },
+      {
+        heading: "Hidden extras: portfolio, interview, admissions tests, work experience",
+        paragraphs: [
+                "Many ‘hidden conditions’ are not hidden — they’re simply in a different section: ‘How you are assessed’, ‘Selection process’, ‘Additional requirements’, or a departmental page.",
+                "Before any big decision (switching majors, paying deposits, arranging travel), scan the page for: portfolio submission format, interview dates/time zones, admissions test requirements, work experience expectations, and any restrictions on subject combinations."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "Avoid outcome promises. Use verifiable language: ‘the current published requirement says…’, ‘the admissions team confirmed in writing…’, ‘this is a planning estimate…’.",
+                "Visa, immigration and professional registration rules are separate. For those topics, rely on official sources and qualified professionals; this article is an education-planning checklist, not legal advice."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先找對頁面（並把它存成可追溯的證據）",
+        paragraphs: [
+                "英國大學的入學要求可能同時出現在：大學 prospectus PDF、學院／系所課程頁、UCAS 頁面。實務上建議以「課程頁 course page」作主參考，再與 UCAS 同一課程（如有 course code/UCAS listing）互相核對。",
+                "建立一個小型「證據包」：把課程頁列印成 PDF、把 requirements 相關段落截圖、記下網址與查閱日期。入學要求會更新；可追溯的文字證據能避免家長與學生各自理解、後續產生爭議。"
+              ]
+      },
+      {
+        heading: "讀懂成績要求的關鍵字：同一句話可能代表不同風險",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>不要把 requirements 當成單一數字。留意會改變意思的詞（不同專業會有差異）：</p></div>",
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>常見寫法</th><th>通常代表什麼</th><th>下一步要核查</th></tr></thead>\n              <tbody>\n                <tr><td>\"AAA including Mathematics\"</td><td>有科目限制。</td><td>數學是哪一門？是否有單科最低分？</td></tr>\n                <tr><td>\"Typical offer\"</td><td>不是保證；競爭程度會影響。</td><td>是否有作品集／面試／測試等選拔因素。</td></tr>\n                <tr><td>\"We consider a range of qualifications\"</td><td>可能接受多種學制／組合。</td><td>確認你的「具體」學制與科目組合是否被接受。</td></tr>\n                <tr><td>\"Contextual offer available\"</td><td>部分學生可能有調整後的 offer。</td><td>資格條件與需要提供的證明文件。</td></tr>\n              </tbody>\n            </table>\n          </div>",
+                "如果家長想要「確定」，唯一合規的做法是：針對該學生的背景與科目組合，讓 admissions 以書面方式確認。"
+              ]
+      },
+      {
+        heading: "英文要求請獨立成一張清單：把時間點也寫進去",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>英文要求往往與學術要求分開，且可能包含：接受的考試種類、單項分數、成績有效期、最晚提交日期（常與入學註冊／CAS 節點相關）。</p></div>",
+                "實用做法：做一張 A4『英文準備單』，包含（1）目標考試與分數（2）報名計畫（3）重考緩衝（4）付款前再次核查學校對 accepted tests 與有效期的最新規則。"
+              ]
+      },
+      {
+        heading: "最常被忽略的附加條件：作品集、面試、入學測試、工作經驗",
+        paragraphs: [
+                "很多所謂『隱形條件』其實不隱形，只是藏在另一個區塊：例如 “How you are assessed”、“Selection process”、“Additional requirements”，或系所的補充頁面。",
+                "在做重大決策前（例如改專業、支付押金、安排行程），請先快速掃描：作品集格式與提交方式、面試時間與時區、入學測試要求、工作經驗期待、以及科目組合限制。"
+              ]
+      },
+      {
+        heading: "對家長的合規表述方式：只說可核查的話",
+        paragraphs: [
+                "避免任何結果保證。建議用可核查語句：『目前公開頁面寫的是…』『admissions 書面確認了…』『這是規劃估算…』。",
+                "簽證、移民、職業註冊屬於另一套規則與專業範疇；相關問題請依官方資訊與合資格專業人士處理。本文僅提供教育規劃用的核對清單，不構成法律建議。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "uk-estate-planning-will-probate-2026",
+    title: "遺產規劃入門：立遺囑（Will）、遺囑認證（Probate）與遺產稅",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "UK · Estate planning · Will & Probate",
+    author: "留學導報編輯部",
+    summary: "沒有遺囑，遺產按無遺囑繼承法分配，未必如你所願。本文說明遺囑要件與見證、Probate 遺囑認證流程、IHT 遺產稅門檻與 7 年贈與規則，以及跨境資產（英／澳／中）的協調重點。屬一般認識，以 GOV.UK、HMRC 與合資格律師為準。",
+    titleZh: "遺產規劃入門：立遺囑（Will）、遺囑認證（Probate）與遺產稅",
+    summaryZh: "沒有遺囑，遺產按無遺囑繼承法分配，未必如你所願。本文說明遺囑要件與見證、Probate 遺囑認證流程、IHT 遺產稅門檻與 7 年贈與規則，以及跨境資產（英／澳／中）的協調重點。屬一般認識，以 GOV.UK、HMRC 與合資格律師為準。",
+    relatedReadings: [
+        "australia-trust-guide",
+        "uk-property-sdlt-cgt-basics-2026"
+      ],
+    resources: [
+        ["GOV.UK — Make a will", "https://www.gov.uk/make-will"],
+        ["GOV.UK — Applying for probate", "https://www.gov.uk/applying-for-probate"],
+        ["GOV.UK — Inheritance Tax", "https://www.gov.uk/inheritance-tax"]
+      ],
+    body: [
+      {
+        heading: "為什麼要立遺囑：沒有遺囑會怎樣",
+        paragraphs: [
+                "如果過世時沒有有效遺囑，遺產會依 <strong>intestacy rules（無遺囑繼承法）</strong>分配，未必符合你的意願。同居伴侶（未婚）、繼子女等在無遺囑下可能無法自動繼承，容易引發糾紛。",
+                "立遺囑的第一個作用，就是由你決定「誰拿什麼、由誰執行、孩子由誰監護」。"
+              ]
+      },
+      {
+        heading: "遺囑要寫什麼、怎樣才有效",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>遺囑通常需指定 <strong>executors（遺囑執行人）</strong>、beneficiaries（受益人）、未成年子女的 guardians（監護人）。在英格蘭與威爾斯，遺囑須由立遺囑人簽署，並有兩名見證人在場見證。結婚、離婚、生育或移居都可能影響遺囑效力，需定期檢視更新。</p></div>",
+                "DIY 遺囑若措辭不清或簽署不合規，可能無效或引發爭議。"
+              ]
+      },
+      {
+        heading: "Probate 遺囑認證是什麼",
+        paragraphs: [
+                "過世後，執行人通常需要申請 <strong>grant of probate（遺囑認證）</strong>，才能合法處理遺產（如提取銀行存款、出售房產）；若無遺囑，則由親屬申請 <strong>letters of administration</strong>。",
+                "認證前可能要先處理遺產稅。流程與時間視遺產複雜度而定，資產跨多國時更費時。"
+              ]
+      },
+      {
+        heading: "遺產稅 IHT 基本認識",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>英國 <strong>Inheritance Tax（IHT，遺產稅）</strong>設有免稅門檻（nil-rate band），符合條件的自住房傳給直系後代另有 residence nil-rate band。配偶／民事伴侶之間的轉移通常免稅；生前贈與有「7 年規則」。稅率與門檻可能調整，以 HMRC 最新公布為準。</p></div>",
+                "IHT 規劃牽涉贈與、信託與保險等安排，複雜且個人化，務必由專業人士評估。"
+              ]
+      },
+      {
+        heading: "跨境資產與該找誰",
+        paragraphs: [
+                "在英國、澳洲與中國都有資產者，需考慮各地遺囑與稅務如何銜接：一份設計不當的遺囑，可能與另一地的法律衝突，或造成重複認證與雙重課稅。有些家庭會就不同法域分別立遺囑，但須專業協調避免相互撤銷。",
+                "請找合資格 <strong>律師（solicitor，最好是 STEP 會員）</strong>與稅務顧問處理。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或遺產規劃意見，也不構成任何結果保證。稅率、門檻與規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor）、稅務顧問或 STEP 專業人士的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "為什麼要立遺囑：沒有遺囑會怎樣",
+        paragraphs: [
+                "如果過世時沒有有效遺囑，遺產會依 <strong>intestacy rules（無遺囑繼承法）</strong>分配，未必符合你的意願。同居伴侶（未婚）、繼子女等在無遺囑下可能無法自動繼承，容易引發糾紛。",
+                "立遺囑的第一個作用，就是由你決定「誰拿什麼、由誰執行、孩子由誰監護」。"
+              ]
+      },
+      {
+        heading: "遺囑要寫什麼、怎樣才有效",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>遺囑通常需指定 <strong>executors（遺囑執行人）</strong>、beneficiaries（受益人）、未成年子女的 guardians（監護人）。在英格蘭與威爾斯，遺囑須由立遺囑人簽署，並有兩名見證人在場見證。結婚、離婚、生育或移居都可能影響遺囑效力，需定期檢視更新。</p></div>",
+                "DIY 遺囑若措辭不清或簽署不合規，可能無效或引發爭議。"
+              ]
+      },
+      {
+        heading: "Probate 遺囑認證是什麼",
+        paragraphs: [
+                "過世後，執行人通常需要申請 <strong>grant of probate（遺囑認證）</strong>，才能合法處理遺產（如提取銀行存款、出售房產）；若無遺囑，則由親屬申請 <strong>letters of administration</strong>。",
+                "認證前可能要先處理遺產稅。流程與時間視遺產複雜度而定，資產跨多國時更費時。"
+              ]
+      },
+      {
+        heading: "遺產稅 IHT 基本認識",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>英國 <strong>Inheritance Tax（IHT，遺產稅）</strong>設有免稅門檻（nil-rate band），符合條件的自住房傳給直系後代另有 residence nil-rate band。配偶／民事伴侶之間的轉移通常免稅；生前贈與有「7 年規則」。稅率與門檻可能調整，以 HMRC 最新公布為準。</p></div>",
+                "IHT 規劃牽涉贈與、信託與保險等安排，複雜且個人化，務必由專業人士評估。"
+              ]
+      },
+      {
+        heading: "跨境資產與該找誰",
+        paragraphs: [
+                "在英國、澳洲與中國都有資產者，需考慮各地遺囑與稅務如何銜接：一份設計不當的遺囑，可能與另一地的法律衝突，或造成重複認證與雙重課稅。有些家庭會就不同法域分別立遺囑，但須專業協調避免相互撤銷。",
+                "請找合資格 <strong>律師（solicitor，最好是 STEP 會員）</strong>與稅務顧問處理。OTC 只做資訊整理與官方來源核對，受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或遺產規劃意見，也不構成任何結果保證。稅率、門檻與規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor）、稅務顧問或 STEP 專業人士的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "uk-isa-pension-basics-2026",
+    title: "英國 ISA 與 Pension 退休金入門：免稅帳戶與退休準備怎麼分工",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "UK · ISA & Pension · Basics",
+    author: "留學導報編輯部",
+    summary: "ISA 是英國稅務居民的免稅帳戶（Cash／股票／LISA／IFISA），每年有存入上限；Pension 退休金供款有稅務寬減但鎖到退休。本文說明兩者差別與分工、職場與個人退休金，以及新移民要注意的居民身分。屬一般認識，以 GOV.UK 與 FCA 監管顧問為準。",
+    titleZh: "英國 ISA 與 Pension 退休金入門：免稅帳戶與退休準備怎麼分工",
+    summaryZh: "ISA 是英國稅務居民的免稅帳戶（Cash／股票／LISA／IFISA），每年有存入上限；Pension 退休金供款有稅務寬減但鎖到退休。本文說明兩者差別與分工、職場與個人退休金，以及新移民要注意的居民身分。屬一般認識，以 GOV.UK 與 FCA 監管顧問為準。",
+    relatedReadings: [
+        "cross-border-tax-residency-uk-srt-australia-2026",
+        "uk-property-sdlt-cgt-basics-2026"
+      ],
+    resources: [
+        ["GOV.UK — Individual Savings Accounts", "https://www.gov.uk/individual-savings-accounts"],
+        ["GOV.UK — Workplace pensions", "https://www.gov.uk/workplace-pensions"],
+        ["MoneyHelper（政府理財服務）", "https://www.moneyhelper.org.uk/"]
+      ],
+    body: [
+      {
+        heading: "ISA 是什麼：免稅的儲蓄與投資帳戶",
+        paragraphs: [
+                "<strong>ISA（Individual Savings Account，個人儲蓄帳戶）</strong>是英國稅務居民可用的免稅帳戶：每一稅務年度有存入上限（annual ISA allowance），帳戶內的利息、股息與資本利得通常免稅，也不必在報稅表申報。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>每年額度用完不能結轉到下一年；額度與規則以 GOV.UK 當年度公布為準。</p></div>"
+              ]
+      },
+      {
+        heading: "四種 ISA 有什麼差別",
+        paragraphs: [
+                "常見類型：<strong>Cash ISA</strong>（存款、保本，報酬較低）、<strong>Stocks &amp; Shares ISA</strong>（投資，有市場風險、可能虧損）、<strong>Lifetime ISA（LISA）</strong>（18–39 歲可開，用於買首套自住房或退休，政府按存入加成 25%，但不符條件提取通常有罰扣）、<strong>Innovative Finance ISA</strong>（P2P 借貸，風險較高）。",
+                "選哪一種要看目標與風險承受度，不是「加成多就一定好」。"
+              ]
+      },
+      {
+        heading: "Pension 退休金：職場與個人",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p><strong>職場退休金（workplace pension，auto-enrolment）</strong>由僱主自動為符合條件的員工設立，僱主與員工共同供款，並有政府稅務寬減。此外還有個人退休金與 <strong>SIPP（self-invested personal pension）</strong>。退休金供款有 annual allowance 與 tax relief，通常要到 55 歲（將調升至 57）才可提取。</p></div>",
+                "提早提取或超額供款可能有稅務後果。"
+              ]
+      },
+      {
+        heading: "ISA 與 Pension 怎麼分工",
+        paragraphs: [
+                "兩者定位不同：<strong>ISA</strong> 是稅後存入、增值免稅、隨時可取，靈活性高；<strong>Pension</strong> 供款時有稅務寬減、但資金鎖到退休年齡，適合長期退休準備。國家退休金（State Pension）則取決於你的 National Insurance 供款記錄。",
+                "很多人會「兩者搭配」：短中期彈性用 ISA，長期退休用 Pension，但比例因人而異。"
+              ]
+      },
+      {
+        heading: "給新移民與該找誰",
+        paragraphs: [
+                "要開 ISA 通常須為 <strong>UK 稅務居民</strong>；離開英國後多半不能再存入（既有帳戶可保留）。退休金與投資決定牽涉個人稅務與風險，請諮詢 <strong>FCA 監管的財務顧問（financial adviser）</strong>。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人投資或退休金意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。額度、稅率、門檻與居民測試規則每年可能變動；具體情況請以 GOV.UK、HMRC、ATO 等官方資訊，及合資格律師、稅務顧問或 FCA 監管的財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "ISA 是什麼：免稅的儲蓄與投資帳戶",
+        paragraphs: [
+                "<strong>ISA（Individual Savings Account，個人儲蓄帳戶）</strong>是英國稅務居民可用的免稅帳戶：每一稅務年度有存入上限（annual ISA allowance），帳戶內的利息、股息與資本利得通常免稅，也不必在報稅表申報。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>每年額度用完不能結轉到下一年；額度與規則以 GOV.UK 當年度公布為準。</p></div>"
+              ]
+      },
+      {
+        heading: "四種 ISA 有什麼差別",
+        paragraphs: [
+                "常見類型：<strong>Cash ISA</strong>（存款、保本，報酬較低）、<strong>Stocks &amp; Shares ISA</strong>（投資，有市場風險、可能虧損）、<strong>Lifetime ISA（LISA）</strong>（18–39 歲可開，用於買首套自住房或退休，政府按存入加成 25%，但不符條件提取通常有罰扣）、<strong>Innovative Finance ISA</strong>（P2P 借貸，風險較高）。",
+                "選哪一種要看目標與風險承受度，不是「加成多就一定好」。"
+              ]
+      },
+      {
+        heading: "Pension 退休金：職場與個人",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p><strong>職場退休金（workplace pension，auto-enrolment）</strong>由僱主自動為符合條件的員工設立，僱主與員工共同供款，並有政府稅務寬減。此外還有個人退休金與 <strong>SIPP（self-invested personal pension）</strong>。退休金供款有 annual allowance 與 tax relief，通常要到 55 歲（將調升至 57）才可提取。</p></div>",
+                "提早提取或超額供款可能有稅務後果。"
+              ]
+      },
+      {
+        heading: "ISA 與 Pension 怎麼分工",
+        paragraphs: [
+                "兩者定位不同：<strong>ISA</strong> 是稅後存入、增值免稅、隨時可取，靈活性高；<strong>Pension</strong> 供款時有稅務寬減、但資金鎖到退休年齡，適合長期退休準備。國家退休金（State Pension）則取決於你的 National Insurance 供款記錄。",
+                "很多人會「兩者搭配」：短中期彈性用 ISA，長期退休用 Pension，但比例因人而異。"
+              ]
+      },
+      {
+        heading: "給新移民與該找誰",
+        paragraphs: [
+                "要開 ISA 通常須為 <strong>UK 稅務居民</strong>；離開英國後多半不能再存入（既有帳戶可保留）。退休金與投資決定牽涉個人稅務與風險，請諮詢 <strong>FCA 監管的財務顧問（financial adviser）</strong>。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人投資或退休金意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、退休金或法律意見，也不構成任何結果保證。額度、稅率、門檻與居民測試規則每年可能變動；具體情況請以 GOV.UK、HMRC、ATO 等官方資訊，及合資格律師、稅務顧問或 FCA 監管的財務顧問的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "uk-property-sdlt-cgt-basics-2026",
+    title: "英國買房的稅：SDLT 印花稅與資本利得稅 CGT 的基本認識",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "UK · Property · SDLT & CGT",
+    author: "留學導報編輯部",
+    summary: "在英國買房，買入要繳 SDLT 印花稅（額外房產與非居民有附加稅），出租要計所得稅並留意海外業主規則，賣出增值要計 CGT（非居民須 60 天內申報）。以公司持有可能觸發 ATED。本文為一般認識，以 GOV.UK 與合資格顧問為準。",
+    titleZh: "英國買房的稅：SDLT 印花稅與資本利得稅 CGT 的基本認識",
+    summaryZh: "在英國買房，買入要繳 SDLT 印花稅（額外房產與非居民有附加稅），出租要計所得稅並留意海外業主規則，賣出增值要計 CGT（非居民須 60 天內申報）。以公司持有可能觸發 ATED。本文為一般認識，以 GOV.UK 與合資格顧問為準。",
+    relatedReadings: [
+        "uk-estate-planning-will-probate-2026",
+        "australia-property-investment-tax-basics-2026"
+      ],
+    resources: [
+        ["GOV.UK — Stamp Duty Land Tax", "https://www.gov.uk/stamp-duty-land-tax"],
+        ["GOV.UK — CGT on UK property", "https://www.gov.uk/capital-gains-tax"],
+        ["GOV.UK — Non-resident landlords", "https://www.gov.uk/tax-uk-income-live-abroad/rent"]
+      ],
+    body: [
+      {
+        heading: "買入時：SDLT 印花稅怎麼算",
+        paragraphs: [
+                "在英格蘭與北愛爾蘭買房，要繳 <strong>SDLT（Stamp Duty Land Tax，印花稅）</strong>，按房價分段累進。自住首套與「額外房產」（additional property，例如第二套或買來出租）稅率不同，額外房產通常有附加稅（surcharge）。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>非英國居民購買住宅通常再加 2% 的 non-resident surcharge；首次購房者（first-time buyer）可能有減免。蘇格蘭（LBTT）與威爾斯（LTT）是各自獨立的制度，稅率與門檻不同。具體以 GOV.UK 計算器為準。</p></div>"
+              ]
+      },
+      {
+        heading: "持有與出租：所得稅與海外業主規則",
+        paragraphs: [
+                "出租收入要計 <strong>income tax</strong>；房貸利息的扣除受限，改以基本稅率的稅額抵免（basic rate tax credit）處理，對高稅率業主影響較大。",
+                "人在海外的業主，租金通常適用 <strong>Non-Resident Landlord Scheme</strong>：仲介或租客可能需先預扣稅，除非你先向 HMRC 申請以毛額收租、自行報稅。"
+              ]
+      },
+      {
+        heading: "賣出時：資本利得稅 CGT",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>出售非自住／投資住宅的增值要計 <strong>CGT（Capital Gains Tax）</strong>，住宅物業適用較高的 CGT 稅率。主要自住房通常有 Private Residence Relief。非英國居民處置英國住宅，一般須在完成後 <strong>60 天內</strong>申報並繳稅。</p></div>",
+                "保留購入、裝修與售出的成本記錄，直接影響應稅增值金額。"
+              ]
+      },
+      {
+        heading: "透過公司持有與 ATED",
+        paragraphs: [
+                "以公司（company / corporate envelope）持有較高價值的住宅，可能觸發 <strong>ATED（Annual Tax on Enveloped Dwellings，住宅年度包裹稅）</strong>並須每年申報。結構化持有涉及公司稅、SDLT、ATED 與未來 CGT，整體稅務較複雜。",
+                "「用公司買房比較省」並非通則，是否合適要看用途、金額與長期規劃，宜由專業顧問評估。"
+              ]
+      },
+      {
+        heading: "找誰做",
+        paragraphs: [
+                "買賣找 <strong>solicitor／conveyancer</strong> 處理法律與過戶；稅務與結構找合資格稅務顧問（如 CTA／ATT／chartered accountant）。重大決定前先諮詢合資格顧問。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務或投資意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或遺產規劃意見，也不構成任何結果保證。稅率、門檻與規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor）、稅務顧問或 STEP 專業人士的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "買入時：SDLT 印花稅怎麼算",
+        paragraphs: [
+                "在英格蘭與北愛爾蘭買房，要繳 <strong>SDLT（Stamp Duty Land Tax，印花稅）</strong>，按房價分段累進。自住首套與「額外房產」（additional property，例如第二套或買來出租）稅率不同，額外房產通常有附加稅（surcharge）。",
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>非英國居民購買住宅通常再加 2% 的 non-resident surcharge；首次購房者（first-time buyer）可能有減免。蘇格蘭（LBTT）與威爾斯（LTT）是各自獨立的制度，稅率與門檻不同。具體以 GOV.UK 計算器為準。</p></div>"
+              ]
+      },
+      {
+        heading: "持有與出租：所得稅與海外業主規則",
+        paragraphs: [
+                "出租收入要計 <strong>income tax</strong>；房貸利息的扣除受限，改以基本稅率的稅額抵免（basic rate tax credit）處理，對高稅率業主影響較大。",
+                "人在海外的業主，租金通常適用 <strong>Non-Resident Landlord Scheme</strong>：仲介或租客可能需先預扣稅，除非你先向 HMRC 申請以毛額收租、自行報稅。"
+              ]
+      },
+      {
+        heading: "賣出時：資本利得稅 CGT",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>出售非自住／投資住宅的增值要計 <strong>CGT（Capital Gains Tax）</strong>，住宅物業適用較高的 CGT 稅率。主要自住房通常有 Private Residence Relief。非英國居民處置英國住宅，一般須在完成後 <strong>60 天內</strong>申報並繳稅。</p></div>",
+                "保留購入、裝修與售出的成本記錄，直接影響應稅增值金額。"
+              ]
+      },
+      {
+        heading: "透過公司持有與 ATED",
+        paragraphs: [
+                "以公司（company / corporate envelope）持有較高價值的住宅，可能觸發 <strong>ATED（Annual Tax on Enveloped Dwellings，住宅年度包裹稅）</strong>並須每年申報。結構化持有涉及公司稅、SDLT、ATED 與未來 CGT，整體稅務較複雜。",
+                "「用公司買房比較省」並非通則，是否合適要看用途、金額與長期規劃，宜由專業顧問評估。"
+              ]
+      },
+      {
+        heading: "找誰做",
+        paragraphs: [
+                "買賣找 <strong>solicitor／conveyancer</strong> 處理法律與過戶；稅務與結構找合資格稅務顧問（如 CTA／ATT／chartered accountant）。重大決定前先諮詢合資格顧問。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務或投資意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或遺產規劃意見，也不構成任何結果保證。稅率、門檻與規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor）、稅務顧問或 STEP 專業人士的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "uk-self-employed-entrepreneur-tax-ir35-2026",
+    title: "英國自雇與企業家的稅務入門：Sole trader、有限公司與 IR35",
+    date: "2026-07-04",
+    category: "Wealth Planning",
+    column: "wealth",
+    kicker: "UK · Self-employed · Tax & IR35",
+    author: "留學導報編輯部",
+    summary: "在英國自雇或創業，先選結構：sole trader（個人課稅、無限責任）或 limited company（繳 Corporation Tax、責任有限）。本文說明 Self Assessment 與 NIC、VAT 登記門檻，以及 IR35 判定的實質標準。屬一般認識，以 GOV.UK 與合資格會計師為準。",
+    titleZh: "英國自雇與企業家的稅務入門：Sole trader、有限公司與 IR35",
+    summaryZh: "在英國自雇或創業，先選結構：sole trader（個人課稅、無限責任）或 limited company（繳 Corporation Tax、責任有限）。本文說明 Self Assessment 與 NIC、VAT 登記門檻，以及 IR35 判定的實質標準。屬一般認識，以 GOV.UK 與合資格會計師為準。",
+    relatedReadings: [
+        "family-office-cross-border-wealth-succession-2026",
+        "uk-isa-pension-basics-2026"
+      ],
+    resources: [
+        ["GOV.UK — Working for yourself", "https://www.gov.uk/working-for-yourself"],
+        ["GOV.UK — Understanding off-payroll (IR35)", "https://www.gov.uk/guidance/understanding-off-payroll-working-ir35"],
+        ["GOV.UK — Register for VAT", "https://www.gov.uk/register-for-vat"]
+      ],
+    body: [
+      {
+        heading: "先選結構：sole trader 還是 limited company",
+        paragraphs: [
+                "在英國創業或自雇，第一步是選結構。<strong>Sole trader（個體戶）</strong>以個人名義經營，利潤按 income tax 加 National Insurance 課稅，透過 Self Assessment 報稅；設立簡單，但個人承擔無限責任。<strong>Limited company（有限公司）</strong>是獨立法人，繳 Corporation Tax，董事通常以薪資加股息取酬，責任有限但合規與申報較多。",
+                "「開公司一定省稅」不是通則，要看利潤水平、取酬方式與長期打算。"
+              ]
+      },
+      {
+        heading: "自雇報稅：Self Assessment 與 NIC",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>自雇者須向 HMRC 註冊 <strong>Self Assessment</strong> 並年度申報；依利潤繳 National Insurance（Class 2／4，規則近年有調整）。務必保留完整收支與發票記錄，並留意 <strong>Making Tax Digital</strong> 的數位申報趨勢。</p></div>",
+                "報稅與繳稅有截止日，逾期有罰款與利息。"
+              ]
+      },
+      {
+        heading: "VAT 增值稅什麼時候要登記",
+        paragraphs: [
+                "當應稅營業額超過 VAT 登記門檻，就必須登記並收取／申報 <strong>VAT（增值稅）</strong>；未達門檻也可自願登記（有進項退稅等考量）。小型企業可評估 <strong>flat rate scheme</strong> 是否適用。門檻與稅率以 GOV.UK 當年度為準。"
+              ]
+      },
+      {
+        heading: "IR35（off-payroll working）是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p><strong>IR35</strong> 針對「透過個人服務公司（PSC）提供服務，但實質工作關係像僱員」的情況。若被判 <em>inside IR35</em>，稅務與 NIC 會接近僱員。在公部門與中大型私企，通常由客戶端判定你的 status；可參考 HMRC 的 <strong>CEST</strong> 工具與 status determination statement。</p></div>",
+                "判定看的是實質（控制權、替代權、相互義務），不是合約上的名義。"
+              ]
+      },
+      {
+        heading: "找誰做、常見誤區",
+        paragraphs: [
+                "結構選擇、取酬與報稅請找 <strong>會計師（accountant）</strong>；IR35 個案可再諮詢專業意見。常見誤區：把「開公司」當萬能節稅、忽略 IR35、記帳不全。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或傳承規劃意見，也不構成任何結果保證。稅率、門檻、申報與合規規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor／STEP 會員）、稅務顧問或會計師的最新意見為準。"
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "先選結構：sole trader 還是 limited company",
+        paragraphs: [
+                "在英國創業或自雇，第一步是選結構。<strong>Sole trader（個體戶）</strong>以個人名義經營，利潤按 income tax 加 National Insurance 課稅，透過 Self Assessment 報稅；設立簡單，但個人承擔無限責任。<strong>Limited company（有限公司）</strong>是獨立法人，繳 Corporation Tax，董事通常以薪資加股息取酬，責任有限但合規與申報較多。",
+                "「開公司一定省稅」不是通則，要看利潤水平、取酬方式與長期打算。"
+              ]
+      },
+      {
+        heading: "自雇報稅：Self Assessment 與 NIC",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>自雇者須向 HMRC 註冊 <strong>Self Assessment</strong> 並年度申報；依利潤繳 National Insurance（Class 2／4，規則近年有調整）。務必保留完整收支與發票記錄，並留意 <strong>Making Tax Digital</strong> 的數位申報趨勢。</p></div>",
+                "報稅與繳稅有截止日，逾期有罰款與利息。"
+              ]
+      },
+      {
+        heading: "VAT 增值稅什麼時候要登記",
+        paragraphs: [
+                "當應稅營業額超過 VAT 登記門檻，就必須登記並收取／申報 <strong>VAT（增值稅）</strong>；未達門檻也可自願登記（有進項退稅等考量）。小型企業可評估 <strong>flat rate scheme</strong> 是否適用。門檻與稅率以 GOV.UK 當年度為準。"
+              ]
+      },
+      {
+        heading: "IR35（off-payroll working）是什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p><strong>IR35</strong> 針對「透過個人服務公司（PSC）提供服務，但實質工作關係像僱員」的情況。若被判 <em>inside IR35</em>，稅務與 NIC 會接近僱員。在公部門與中大型私企，通常由客戶端判定你的 status；可參考 HMRC 的 <strong>CEST</strong> 工具與 status determination statement。</p></div>",
+                "判定看的是實質（控制權、替代權、相互義務），不是合約上的名義。"
+              ]
+      },
+      {
+        heading: "找誰做、常見誤區",
+        paragraphs: [
+                "結構選擇、取酬與報稅請找 <strong>會計師（accountant）</strong>；IR35 個案可再諮詢專業意見。常見誤區：把「開公司」當萬能節稅、忽略 IR35、記帳不全。",
+                "OTC 只做公開資訊整理與官方來源核對，不提供個人稅務意見；受監管事項一律轉介合資格專業人士。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與資訊整理，不構成稅務、投資、法律或傳承規劃意見，也不構成任何結果保證。稅率、門檻、申報與合規規則每年可能變動；具體情況請以 GOV.UK、HMRC 等官方資訊，及合資格律師（solicitor／STEP 會員）、稅務顧問或會計師的最新意見為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "uk-skilled-worker-to-ilr-5-year-checklist-2026",
+    title: "Skilled Worker → ILR: A Practical 5-Year Timeline Checklist (UK, May 2026)",
+    date: "2026-05-28",
+    category: "UK Immigration",
+    column: "settlement",
+    kicker: "Settlement planning · Skilled Worker · Evidence checklist",
+    author: "留學導報編輯部",
+    summary: "If you’re on a UK Skilled Worker route and thinking about settlement (ILR), don’t memorise rumours—build a clean 5-year timeline, track absences, keep employment/salary evidence tidy, and plan your “apply up to 28 days early” window. This is a practical checklist (not legal advice) anchored to GOV.UK and the Immigration Rules.",
+    titleZh: "Skilled Worker 走到 ILR：用一張「5 年時間線」清單把風險提早處理（英國，2026/05）",
+    summaryZh: "如果你是英國 Skilled Worker，想規劃永居（ILR），最有效的不是背「網路版本」，而是把 5 年時間線、離境天數、受僱與薪資證據、以及「可提早 28 天遞交」窗口整理好。本文用家長/學生看得懂的方式做一份實務清單（非法律意見），並提醒你以 GOV.UK 與 Immigration Rules 的最新版本為準。",
+    relatedReadings: [
+        "uk-aus-application-documents-checklist",
+        "uk-entry-requirements-course-page-checklist"
+      ],
+    resources: [
+        ["GOV.UK: Skilled Worker ILR – Time in the UK", "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/time-uk"],
+        ["GOV.UK: Immigration Rules – Appendix Skilled Worker", "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker/"],
+        ["GOV.UK: Immigration Rules – Appendix Continuous Residence", "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-continuous-residence/"],
+        ["GOV.UK: Earned settlement consultation", "https://www.gov.uk/government/consultations/earned-settlement"]
+      ],
+    body: [
+      {
+        heading: "The headline is still “5 years” — but it’s the timeline that matters",
+        paragraphs: [
+                "For Skilled Worker settlement, the mainstream starting point is a continuous 5-year qualifying period. In practice, most problems are not about the number “5”, but about whether your timeline is clean: which permission periods count, whether your residence was continuous, and whether evidence can be matched to each period.",
+                "If you do one thing today: create a one-page timeline with visa start dates, employer periods, role/SOC changes, and travel dates. That single document saves weeks later."
+              ]
+      },
+      {
+        heading: "Absences: treat the 180-days rule like a live dashboard",
+        paragraphs: [
+                "A common continuous residence rule is that absences must not exceed 180 days in any 12-month period (subject to the current rule wording and exceptions). Don’t calculate it once—track it continuously, because business travel, family events and emergencies add up fast.",
+                "Keep a simple travel log with date out/date in, reason, and supporting evidence (tickets, employer letters, medical documents if relevant). If the form and travel evidence don’t match, it becomes a delay point."
+              ]
+      },
+      {
+        heading: "Employment & salary: don’t guess a number—prove you meet the current rule",
+        paragraphs: [
+                "For settlement, applicants are usually expected to still be in qualifying sponsored employment and to meet the relevant salary requirement under the current Skilled Worker settlement rules. Because salary thresholds and “going rate” tables can change, avoid writing a single fixed number into your plan.",
+                "Instead, keep a tidy evidence pack: contract, job description, payslips, bank statements, employer letter, and any change history (promotion, hours, location). The goal is to make your status and pay easy to verify."
+              ]
+      },
+      {
+        heading: "Timing: the “apply up to 28 days early” window is real—plan backwards",
+        paragraphs: [
+                "GOV.UK guidance commonly allows applying up to 28 days before completing the 5-year period. That only helps if your dates are correct and your evidence is ready.",
+                "Plan backwards: confirm the earliest eligible submission date, build buffer time for documents and employer letters, and avoid last-minute travel that might push absences over a threshold."
+              ]
+      },
+      {
+        heading: "Earned settlement talk: keep calm, stay official-source-led",
+        paragraphs: [
+                "There has been public policy discussion and consultation activity around “earned settlement”. Treat this as a signal to keep checking official updates—not a reason to rely on social media summaries.",
+                "For May 2026 planning, anchor your checklist to what GOV.UK and the Immigration Rules currently say for Skilled Worker settlement, and keep your evidence and timeline in a state that can survive rule updates."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "標題是「5 年」，但真正卡人的通常是「時間線」",
+        paragraphs: [
+                "Skilled Worker 走到永居（ILR），主線看起來是「連續符合資格 5 年」。但實務上最常出問題的不是 5 這個數字，而是：你的簽證/居留時間線是否連續、哪些 permission 期間可計入、以及每一段能不能用文件對上。",
+                "如果今天只做一件事：先做一張 A4 的時間線（簽證起訖、雇主期間、職位/SOC 變動、出入境日期）。後面準備文件時，你會省下非常多來回確認的時間。"
+              ]
+      },
+      {
+        heading: "離境天數：把 180 天當成「儀表板」一直盯，不要臨時才算",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>連續居住（continuous residence）常見的一個要求是：任何 12 個月內離境不超過 180 天（以當下規則文字與例外為準）。很多人是到最後才發現：商務差旅＋探親＋突發狀況，累積得比想像快。</p></div>",
+                "建議維持一份簡單 travel log：出境日/入境日、原因、證明（機票、公司信、必要時的醫療文件等）。只要表格填寫與出入境/證據對不上，就容易變成審核延誤點。"
+              ]
+      },
+      {
+        heading: "受僱與薪資：不要背一個「網路數字」，要準備「可驗證的證據包」",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>申請 settlement 時，通常需要仍在符合要求的受僱狀態，並達到 Skilled Worker settlement 規則下的薪資要求。由於門檻與 going rate 可能更新，規劃時不建議只記住一個固定金額。</p></div>",
+                "更穩的方法是把證據包整理好：合約、職責/職位說明、薪資單、入帳紀錄、雇主信、以及任何變動紀錄（升遷、工時、工作地點）。你的目標是讓審核方「一眼看懂」。"
+              ]
+      },
+      {
+        heading: "遞交時間：可提早最多 28 天是真的，但要倒推準備",
+        paragraphs: [
+                "官方指引通常允許在滿 5 年前最多 28 天先遞交申請。聽起來很直覺，但前提是：你的日期算對、文件齊、雇主配合出具所需證明。",
+                "建議倒推規劃：先算出最早可遞交日期，預留文件整理與雇主信件的緩衝時間，也避免在臨近窗口時安排會增加離境天數的旅行。"
+              ]
+      },
+      {
+        heading: "關於「earned settlement」：保持冷靜，只跟官方更新走",
+        paragraphs: [
+                "近年確實有「earned settlement」方向的政策討論與諮詢文件。你可以把它當成提醒：要定期查看官方更新，而不是把社群平台的簡化版本當作唯一依據。",
+                "以 2026/05 的規劃角度，更實際的做法是：以 GOV.UK 與 Immigration Rules 當下對 Skilled Worker settlement 的規則為基準，把時間線與證據包整理到「就算規則更新也站得住」的程度。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-28。本文核心時間線、連續居住/離境概念、以及「可提早最多 28 天遞交」提示，依 GOV.UK（Skilled Worker ILR: Time in the UK）與 Immigration Rules（Appendix Skilled Worker、Appendix Continuous Residence）整理。",
+        "移民規則可能更新，且個案可能因簽證歷史、缺口、職業/雇主變動、長期離境原因等而不同；本文為教育資訊整理，不構成法律意見，也不構成任何結果承諾。正式申請前請以官方最新條文與必要時的專業法律意見為準。"
+      ],
+  },
+  {
+    slug: "uk-summer-school-programme-awards-2026",
+    title: "UK Summer School 2026: A Parent-Facing Programme Guide to Academic, English and Career Routes",
+    date: "2026-05-26",
+    category: "Summer School",
+    column: "study",
+    kicker: "UK Summer School · Parents · OTC Selection",
+    author: "留學導報編輯部",
+    summary: "A practical OTC guide to UK summer school types for families comparing English-improvement, academic-campus, career-exploration and younger-student residential routes, with a wider OTC summer network across the UK, Australia, New Zealand, Malaysia, the US and Canada.",
+    titleZh: "英國暑期遊學項目大賞：家長怎麼選 Summer School、學術營、職涯體驗與低齡寄宿營",
+    summaryZh: "不是所有英國 summer school 都適合同一類學生。這份 OTC 導報把家長最常問的四類項目放在一起比較：英文提升型、名校學術體驗型、職涯探索型、低齡寄宿型；同時說明 OTC 目前可承接英國、澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目，一級/二級代理通道均可對接，代辦不收隱藏費用。",
+    relatedReadings: [
+        "summer-school-vaccine-medical-consent-parent-checklist",
+        "uk-aus-application-documents-checklist",
+        "uk-entry-requirements-course-page-checklist"
+      ],
+    resources: [
+        ["Oxford Royale official site", "https://www.oxford-royale.com/"],
+        ["Oxford Royale prices & dates 2026", "https://www.oxford-royale.com/prices"],
+        ["InvestIN Summer Schools 2026", "https://investin.org/collections/summer-schools"],
+        ["InvestIN Summer Schools overview", "https://investin.org/pages/investin-summer-schools"],
+        ["IH London Course Catalogue 2026", "https://www.ihlondon.com/wp-content/uploads/2025/09/IH-London-Course-Catalogue-2026-V2.pdf"],
+        ["NHS: Travel vaccinations", "https://www.nhs.uk/vaccinations/travel-vaccinations/"],
+        ["GOV.UK: Permission to take a child abroad", "https://www.gov.uk/permission-take-child-abroad"]
+      ],
+    body: [
+      {
+        heading: "Don’t ask “which summer school is best?” Ask “best for what kind of student?”",
+        paragraphs: [
+                "Families often compare UK summer schools as if they were interchangeable. They are not. Some are essentially English-language and residential-life programmes; some are academic tasting programmes on famous campuses; some are career simulation products; and some are more suitable for younger students who need stronger pastoral structure.",
+                "OTC’s safer screening question is: what is the student actually trying to gain this summer — English confidence, academic stretch, UK campus exposure, university-application positioning, or a supervised first experience abroad?"
+              ]
+      },
+      {
+        heading: "Four practical route types",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>Route type</th><th>Best for</th><th>What families should expect</th></tr></thead>\n              <tbody>\n                <tr><td>English-improvement residential</td><td>Students who need spoken English, confidence and first-time UK adaptation.</td><td>Daily English classes, activities, excursions, stronger pastoral structure, less subject specialisation.</td></tr>\n                <tr><td>Academic campus summer school</td><td>Students seeking subject exposure and a stronger “study on campus” experience.</td><td>Prestige branding, more ambitious peer group, seminar/workshop structure, usually higher fees.</td></tr>\n                <tr><td>Career exploration / work experience style</td><td>Students already interested in medicine, law, design, media, politics, engineering and similar fields.</td><td>Industry simulation, professional visits, networking, English used in context, but less like a traditional language camp.</td></tr>\n                <tr><td>Younger learners / structured pastoral route</td><td>Families with younger students who care most about safety, routine and supervised group life.</td><td>Tighter supervision, age-specific activity design, stronger welfare emphasis, usually less independent city movement.</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "Example route signals from current official providers",
+        paragraphs: [
+                "Oxford Royale’s current 2026 public materials position it as an academic-campus route with UK locations including Oxford, Cambridge and London, and a 2026 prices page showing two-week structures by location. This is usually the kind of option families compare when they want subject exposure plus a recognisable campus atmosphere.",
+                "InvestIN’s 2026 summer school pages position its London programmes as career-exploration experiences for ages 12-18, with one-week, two-week and Premium formats, central London campus delivery and hands-on professional exposure. This suits students who already want to test fields like medicine, law, design, engineering, media or politics in a more profession-facing way.",
+                "IH London’s 2026 catalogue / young learner materials point to a more classic English-and-residential route, including younger learner provision and a stronger pastoral feel. This is often a better first overseas step for families who are not yet looking for highly specialised subject branding."
+              ]
+      },
+      {
+        heading: "What OTC actually helps with",
+        paragraphs: [
+                "OTC does not simply forward a brochure. We help families compare age fit, English level, independence level, budget band, city preference, accommodation tolerance, paperwork burden and whether the student is emotionally ready for a residential UK experience.",
+                "That usually means: screening 2-4 realistic options, flagging hidden differences in age band / contact hours / supervision / airport transfer / meal plan / medical form burden, helping with registration communication, preparing the parent document pack, and keeping a clean travel-and-contact file."
+              ]
+      },
+      {
+        heading: "OTC summer routes are broader than the UK-only conversation",
+        paragraphs: [
+                "Although this page focuses on UK summer routes, OTC also handles summer-school and study-tour screening across Australia, New Zealand, Malaysia, the United States and Canada.",
+                "For these routes, OTC works through first-level and second-level agent channels where applicable. The family-facing message is simple: the application-handling service is free and OTC does not present hidden handling charges in the application route itself."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "不要只問「哪個英國夏校最好」；要先問「最適合哪一類學生」",
+        paragraphs: [
+                "家長最容易踩的一個坑，就是把所有英國 summer school 都當成差不多的產品。其實不是。有人是去補英語環境和住宿生活適應，有人是想感受 Oxford / Cambridge / London 的學術氛圍，有人是想提前試水醫學、法律、設計、投行、媒體等職涯方向，還有人只是第一次單獨出國，需要更強的照看與監護結構。",
+                "OTC 幫家長做的第一步，不是先報名，而是先判斷這個暑假學生最需要的是什麼：英文開口、自信建立、學術刺激、名校校園感、職涯探索，還是單純先安全地完成第一次英國寄宿體驗。"
+              ]
+      },
+      {
+        heading: "四類英國暑期遊學，先分清再報",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p></p><div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>類型</th><th>更適合誰</th><th>家長通常會得到什麼</th></tr></thead>\n              <tbody>\n                <tr><td>英文提升型寄宿夏校</td><td>英文基礎還在建立、第一次出國、需要先適應集體生活的學生。</td><td>每天英文課 + 活動 + excursions，照看結構通常更強，但學科專業深度較少。</td></tr>\n                <tr><td>名校學術體驗型</td><td>成績較穩、希望感受英國校園學術氛圍、願意進入更有競爭感同儕環境的學生。</td><td>Oxford / Cambridge / London 類學術包裝更強，通常費用也更高，適合把「校園感」和 subject exposure 放在前面。</td></tr>\n                <tr><td>職涯探索 / work experience 型</td><td>已經對醫學、法律、設計、媒體、工程、投資銀行、政治等方向有興趣的學生。</td><td>更像行業模擬和職場體驗，英文是在情境中使用，不等於傳統語言營。</td></tr>\n                <tr><td>低齡寄宿與監護型</td><td>年齡更小、家長最在意安全、作息、照看與 pastoral support 的家庭。</td><td>監護與活動安排更密，學生自由活動空間通常較少，但對第一次離家更友好。</td></tr>\n              </tbody>\n            </table>\n          </div><p></p></div>"
+              ]
+      },
+      {
+        heading: "把幾個常被家長拿來比較的英國項目放在同一張圖上看",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>如果家長追求的是「英國名校氛圍 + 學術課題感 + 校園住宿體驗」，Oxford Royale 這類路線會比較常出現在 shortlist 裡。它目前的 2026 公開頁面把 Oxford、Cambridge、London 等地點與兩週制結構、價格頁面都放得很清楚，這類路線比較像『把暑假做成一段高密度學術體驗』。</p></div>",
+                "如果家長想要的是『孩子已經對某個專業方向有感覺，想提前試一次』，那 InvestIN 類型會更對口。它目前 2026 官方頁把 London summer schools 做成 career exploration 路線，年齡分 12-14 與 15-18，並強調一週、兩週與 Premium 結構、central London campus、professional exposure 和最高可達 65 小時的 hands-on 經驗。這種不是傳統英文營，而是職涯方向先體驗。",
+                "如果家長的優先順序其實是『孩子還小，先把英文、寄宿、照看、作息、安全感做好』，IH London 這類 young learner / residential 路線反而常常更實用。它的 2026 目錄與 young learner 公開材料更偏向經典的英語加住宿生活體驗，也更容易被家長理解和管理。"
+              ]
+      },
+      {
+        heading: "家長真正要比的，不只是名氣，而是這幾個隱形差異",
+        paragraphs: [
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>比較點</th><th>家長應該問什麼</th><th>OTC 會怎麼幫你看</th></tr></thead>\n              <tbody>\n                <tr><td>年齡與成熟度</td><td>孩子能否承受 residential group life？是否需要高監護？</td><td>先看年齡，不夠成熟的不往過度自由或過度專業的項目推。</td></tr>\n                <tr><td>英文程度</td><td>是去補 spoken confidence，還是已能進入 subject-heavy seminar？</td><td>把英文適應和課程難度拆開看，避免『英文不夠卻硬上專業營』。</td></tr>\n                <tr><td>項目定位</td><td>到底是語言營、學術營，還是職涯模擬？</td><td>把 brochure 裡的包裝語言翻成家長能判斷的真實結構。</td></tr>\n                <tr><td>照看與住宿</td><td>住宿誰管？晚上活動誰盯？接送誰接？</td><td>逐項核對 accommodation、airport transfer、meal plan、safeguarding、emergency contact。</td></tr>\n                <tr><td>行前文件量</td><td>是否有 health form、consent letter、醫生簽字、疫苗記錄？</td><td>幫家長提前建立文件包，不到最後一週才慌張補資料。</td></tr>\n                <tr><td>暑假目標</td><td>回來後要的是一段經歷、英語提升，還是可放進後續申請敘事？</td><td>根據學生年齡與下一步規劃決定選『先體驗』還是『更可敘事』的項目。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+              ]
+      },
+      {
+        heading: "OTC 在英國暑期遊學上到底做什麼",
+        paragraphs: [
+                "OTC 不只是把 brochure 轉發給家長。我們更常做的是：先按年齡、英文、成熟度、城市偏好、住宿接受度、預算和未來升學方向，幫家庭縮出 2–4 個真正可比的選項；再把報名路徑、家長 consent、health form、疫苗/醫療材料、住宿/接送、在英聯絡、應急溝通這些事情一起整理成一個乾淨的行前包。",
+                "如果學生是第一次去英國，或者家長本身更重視孩子在英國期間的溝通與狀態跟進，OTC 還可以承接海外督導與家長支持這一層，而不只是『報完名就結束』。"
+              ]
+      },
+      {
+        heading: "OTC 不只做英國：澳洲、新西蘭、馬來西亞、美國、加拿大暑期項目也可對接",
+        paragraphs: [
+                "雖然這一頁主題是英國，但 OTC 目前承接的不只是英國暑期遊學。澳洲、新西蘭、馬來西亞、美國、加拿大的暑期項目，我們也都可以做初步篩選、匹配、報名材料整理與家長端溝通。",
+                "按 OTC 目前的操作口徑，這些暑期項目可通過一級或二級代理通道對接；家長端最需要知道的一句話是：代辦本身不收隱藏費用，報名前會把費用構成、項目方收費與需要自行承擔的部分說清楚，不做模糊收費。"
+              ]
+      },
+      {
+        heading: "這頁面可以直接給家長或朋友點進來：如果要報名，先做初步匹配",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">OTC 暑校聯盟入口</div><p>如果你想先判斷孩子更適合英文提升型、學術體驗型、職涯探索型還是低齡寄宿型，可直接打開 OTC 暑校聯盟頁：<a href=\"/summer-school-alliance/\">/summer-school-alliance/</a>。若想直接把年齡、英文程度、預算和暑假時間發來，亦可用 OTC 諮詢頁：<a href=\"/consultation-chat/?source=uk-summer-school-awards\">/consultation-chat/?source=uk-summer-school-awards</a>。</p></div>",
+                "2026 年 5 月，OTC 已簽署並回傳 ISSOS agent agreement；ISSOS St Andrews / Cambridge 暑校可按書面流程做 referral tracking。相關更新見：<a href=\"/zh/insights/issos-agent-agreement-signed-2026/\">OTC 已簽署並回傳 ISSOS Agent Agreement</a>。",
+                "若孩子已經鎖定暑期出行，請同時準備健康與同意文件。家長可直接配合閱讀這份清單頁：[去英國 Summer School 前，家長怎樣做健康檢查？可直接照填的清單](/zh/insights/summer-school-vaccine-medical-consent-parent-checklist/)。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "核查時間：2026-05-26。本文項目分類與例示依 Oxford Royale、InvestIN、IH London 2026 官方公開頁面或目錄整理。",
+        "夏校地點、年齡分段、住宿安排、價格、開課日期與空位變動很快；正式報名前應以各項目官方最新頁面、招生團隊書面回覆及家庭自身監護安排為準。"
+      ],
+  },
+  {
+    slug: "uk-ucas-clearing-prep-evidence-pack-decision-matrix",
+    title: "UCAS Clearing Prep: An Evidence Pack + Decision Matrix (So You Can Move Fast, Safely)",
+    date: "2026-05-25",
+    category: "UK Applications",
+    column: "study",
+    kicker: "UK · UCAS · Clearing readiness",
+    author: "留學導報編輯部",
+    summary: "A practical, compliance-safe checklist for building a Clearing-ready evidence pack and a simple decision matrix — helping students compare options quickly without relying on rumours or last-minute panic.",
+    titleZh: "UCAS Clearing 怎麼準備：一份可直接用的「證據包」＋決策矩陣（讓你快、但不亂）",
+    summaryZh: "Clearing 的核心不是「臨時搶位」，而是讓自己在需要時能快速、可靠地做決策。本文提供一套可直接落地的證據包清單與課程比較矩陣，避免靠小道消息與情緒決定。",
+    relatedReadings: [
+        "ucas-offers-conditions-firm-insurance-checklist",
+        "uk-aus-application-documents-checklist",
+        "uk-personal-statement-evidence-first-checklist"
+      ],
+    resources: [
+        ["UCAS — Clearing", "https://www.ucas.com/undergraduate/clearing-and-results-day/what-clearing"],
+        ["UCAS — Course search", "https://www.ucas.com/explore"],
+        ["UKCISA (international student advice)", "https://www.ukcisa.org.uk/"]
+      ],
+    body: [
+      {
+        heading: "What Clearing is (and what it is not)",
+        paragraphs: [
+                "Clearing is a UCAS route that helps applicants find a course place if their plans change (for example, results don’t match expectations, they decline their firm choice, or they apply later). It is not a guarantee of admission, and availability can change quickly.",
+                "Because places can appear and disappear, the best advantage is preparation: being able to communicate clearly, share accurate documents, and make a calm comparison between realistic options."
+              ]
+      },
+      {
+        heading: "Your Clearing-ready evidence pack (one folder)",
+        paragraphs: [
+                "Prepare a single folder (PDFs preferred) so you can respond fast and consistently: passport ID page (if requested), UCAS Personal ID, qualifications and predicted/achieved grades, English-language evidence (if relevant), personal statement (final version), academic references, and an up-to-date CV (optional but helpful for some courses).",
+                "Add a one-page summary: your name, contact details, intended subject area, top 3 course targets, key strengths and relevant evidence (projects, competitions, placements). This helps you stay consistent when you speak to universities."
+              ]
+      },
+      {
+        heading: "A simple decision matrix (score before you call)",
+        paragraphs: [
+                "Use a quick comparison table with 6–8 criteria: course modules fit, entry requirements you can realistically meet, cost (tuition + living), location and commute, accommodation availability, placement year / accreditation (if applicable), timetable intensity, and support services.",
+                "Give each criterion a weight (for example 1–3). A weighted score prevents “headline chasing” and keeps decisions aligned with what matters for your goals and constraints."
+              ]
+      },
+      {
+        heading: "Calling universities: a short script that stays accurate",
+        paragraphs: [
+                "When you call, keep it factual: confirm course code, entry requirements, any required documents, how they assess suitability (grades, portfolio, interview), and timelines for decisions. If you are unsure, say you will verify and follow up in writing.",
+                "Avoid over-claiming. If you have pending results or missing evidence, be transparent. Universities can advise on next steps, but only they can confirm current requirements and whether a place can be offered."
+              ]
+      },
+      {
+        heading: "Safety checks (to avoid expensive mistakes)",
+        paragraphs: [
+                "Double-check deadlines, fees and conditions on the official UCAS/university pages. Where a course has professional requirements (health, education, law, engineering), check accreditation and any extra checks early.",
+                "If a decision affects visas, regulated professional registration, or legal obligations, treat informal advice as insufficient and seek the correct official guidance or qualified professional support."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "Clearing 是什麼（也不是什麼）",
+        paragraphs: [
+                "Clearing 是 UCAS 的一種申請路徑，用於在原計劃改變時尋找可申請的課程名額（例如成績與預期不符、放棄 firm 選擇、或較晚才開始申請等）。它不是錄取保證，且名額會隨時變動。",
+                "因此 Clearing 的優勢不在「運氣」，而在「準備度」：能否清晰表達、迅速提供準確文件，以及用冷靜的方法比較多個可行選項。"
+              ]
+      },
+      {
+        heading: "Clearing「證據包」：一個資料夾就夠",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>把常用文件整理成一個資料夾（建議以 PDF 為主），讓你在需要時可快速、統一地回覆：護照資料頁（如學校要求）、UCAS Personal ID、學歷與成績證明（含 predicted / achieved）、英語能力證明（如適用）、Personal Statement 最終版、推薦信 / references、以及更新過的 CV（視課程需要）。</p></div>",
+                "再加一頁「摘要頁」：姓名與聯絡方式、目標學科方向、前三個課程目標、關鍵優勢與證據（作品 / project、比賽、實習等）。這一頁能讓你在打電話或發郵件時保持表述一致。"
+              ]
+      },
+      {
+        heading: "決策矩陣：先打分，再打電話",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>用一張簡單表格比較 6–8 個關鍵因素：課程模組是否匹配、你是否有把握滿足入學條件、成本（學費＋生活費）、地點與通勤、住宿供應與條件、placement year / accreditation（如適用）、課表強度、以及學生支持服務。</p></div>",
+                "給每個因素加「權重」（例如 1–3）。加權分數能避免只追新聞標題或排名，讓決策回到你的目標與限制條件。"
+              ]
+      },
+      {
+        heading: "聯絡大學：一段簡短、但不誇大的問法",
+        paragraphs: [
+                "聯絡時以事實為主：確認 course code、入學要求、需要提交哪些文件、學校如何評估適配（成績 / 作品集 / 面試等）、以及可能的回覆時間線。對不確定的點，直接說明你會再核對並以書面方式跟進。",
+                "避免誇大或猜測。若你有未出成績或材料不齊，務必誠實說明。大學可告知流程與下一步，但只有校方能確認當下要求與是否能提供名額。"
+              ]
+      },
+      {
+        heading: "風險與安全檢查（避免代價高的錯誤）",
+        paragraphs: [
+                "所有截止日期、費用與條件，務必以 UCAS 與院校官方頁面為準。若涉及受監管專業（如健康、教育、法律、工程等），更要提早確認 accreditation 與額外要求。",
+                "若決策牽涉簽證、受監管職業註冊或法律義務，非正式建議不足以作依據；請以官方指南與合資格專業人士意見為準。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+  },
+  {
+    slug: "us-adjustment-of-status-viral-policy-claim-check",
+    title: "Before Sharing a U.S. AOS 'Policy Bomb' Claim: How Students Should Check Official Sources",
+    date: "2026-05-25",
+    category: "US Policy Watch",
+    column: "study",
+    kicker: "United States · AOS · Fact-check",
+    author: "留學導報編輯部",
+    summary: "A viral claim about Adjustment of Status should not be published as confirmed policy unless it can be traced to USCIS, the Federal Register, the State Department or a qualified immigration-law source.",
+    titleZh: "網傳美國 AOS「政策核彈」前，留學生應先核對哪些官方來源",
+    summaryZh: "今天收到的美國 AOS 稿件屬於高風險法律 / 移民信息。導報不把未核實網傳內容當作已確認政策發布，而整理成官方核查指南：先看 USCIS、Federal Register、DOS 與合資格移民律師來源。",
+    relatedReadings: [
+        "uk-aus-application-documents-checklist"
+      ],
+    resources: [
+        ["USCIS Adjustment of Status", "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status"],
+        ["USCIS Policy Manual, Volume 7", "https://www.uscis.gov/policy-manual/volume-7-part-a"],
+        ["Federal Register", "https://www.federalregister.gov/"]
+      ],
+    body: [
+      {
+        heading: "Treat major immigration claims as unverified until sourced",
+        paragraphs: [
+                "A claim that a core U.S. immigration process has been fundamentally changed should not be repeated as fact merely because it is urgent, dramatic or widely forwarded.",
+                "For Adjustment of Status, start with USCIS pages, the USCIS Policy Manual, the Federal Register, the Department of State where consular processing is involved, and qualified immigration-law analysis."
+              ]
+      },
+      {
+        heading: "What students should do",
+        paragraphs: [
+                "Students and workers should avoid changing travel plans, filing strategy or employment timing based only on social-media posts. Save the post, identify the claimed agency action, and look for a dated official document.",
+                "If a case is already pending or close to filing, the responsible attorney or qualified adviser should review the specific facts."
+              ]
+      },
+      {
+        heading: "Compliance Note",
+        paragraphs: [
+                "For publication, the safe article is a fact-check and source guide, not a breaking-news alarm. If the official position later changes, the article can be updated with the exact date, document title and official link.",
+                "This is general information only and is not legal advice."
+              ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "重大移民消息，不能靠轉發口吻定性",
+        paragraphs: [
+                "今天收到的原稿提到美國 Adjustment of Status（AOS，境內調整身分）可能出現重大變化。這類內容一旦寫錯，會直接影響讀者的旅行、身份、工作與申請節奏，因此《留學導報》不把未核實的網傳說法當作已確認政策發布。",
+                "正確做法是先找官方來源：USCIS 的 AOS 頁面：https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status；USCIS Policy Manual Volume 7：https://www.uscis.gov/policy-manual/volume-7-part-a；如涉及規章變更，再查 Federal Register：https://www.federalregister.gov/。"
+              ]
+      },
+      {
+        heading: "讀者應如何自查",
+        paragraphs: [
+                "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">導報提示</div><p>第一步，確認消息說的是哪個機構、哪份文件、哪一天生效。只寫「政府突然宣布」「全面取消」「徹底改變」而沒有文件名稱與官方鏈接，不能作為行動依據。</p></div>",
+                "第二步，區分政策、提案、內部指引、個案裁量與律師觀點。移民程序中，同一個詞在不同情境下含義不同，不能用短視頻標題替代法律判斷。"
+              ]
+      },
+      {
+        heading: "學生和工作人士暫時不要做什麼",
+        paragraphs: [
+                "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">實務重點</div><p>不要僅憑社交媒體帖子取消旅行、改變入境安排、放棄學業或工作計劃，也不要在沒有律師審核的情況下倉促提交或撤回申請。</p></div>",
+                "如果你已有 pending case、即將遞交 I-485、身份即將到期，或涉及 H-1B、L-1、F-1、婚姻 / 親屬移民等具體情況，應讓負責案件的移民律師或合資格專業人士看完整材料。"
+              ]
+      },
+      {
+        heading: "導報發布口徑",
+        paragraphs: [
+                "本篇按「核查指南」發布，而不是按「突發政策已生效」發布。若日後有官方文件，導報可更新文章，補入文件名稱、發布日期、生效日期與官方鏈接。",
+                "本文僅為一般資訊整理，不構成美國法律或移民建議。"
+              ]
+      },
+      {
+        heading: "合規提示",
+        paragraphs: [
+                "本文為一般教育與申請資訊整理，不構成錄取保證、法律意見、移民意見或官方院校文件。具體申請要求、截止日期、入學條件與政策解讀，應以相關院校、政府部門或正式合作方的最新書面資訊為準。"
+              ]
+      }
+    ],
+    factCheckNotes: [
+        "本文未將郵件原稿中的重大政策變動描述作為已確認事實發布。",
+        "發布版本以讀者核查流程為主，避免替代移民律師或官方機構意見。"
+      ],
+  },
 ];
 
 function shareLinks(article, localePath = "") {
