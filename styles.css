@@ -9007,7 +9007,7 @@ h1 {
 }
 
 #china-five-city-outreach .vet-tafe-screening-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -9041,6 +9041,11 @@ h1 {
 #china-five-city-outreach .vet-tafe-screening-grid article:nth-child(5) {
   border-top-color: var(--navy);
   background: rgba(6, 26, 47, 0.05);
+}
+
+#china-five-city-outreach .vet-tafe-screening-grid article:nth-child(6) {
+  border-top-color: #7a5c8e;
+  background: rgba(122, 92, 142, 0.07);
 }
 
 #china-five-city-outreach .vet-tafe-screening-grid span {
