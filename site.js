@@ -60,7 +60,7 @@ function nav(current = "", locale = "en") {
         </a>
         <div class="nav-links">
           ${isZh ? `
-            <a href="/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
+            <a href="/zh/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
             <a href="/australia/" ${current === "australia" ? 'aria-current="page"' : ""}>澳洲路線</a>
             <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>課程</a>
             <a href="/publishing/" ${["apps", "publishing"].includes(current) ? 'aria-current="page"' : ""}>出版</a>
