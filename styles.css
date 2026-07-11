@@ -5095,9 +5095,13 @@ h1 {
 
 .zh-review-column-list strong {
   color: #1a1410;
+  display: -webkit-box;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.35;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .zh-review-column-list a:hover {
@@ -5161,9 +5165,9 @@ h1 {
 .zh-review-list-head strong {
   color: #1a1410;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.12;
 }
 
 .zh-review-list-head em {
@@ -5252,15 +5256,19 @@ h1 {
 .zh-review-row h3 {
   color: #1a1410;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 900;
-  line-height: 1.32;
+  line-height: 1.35;
   margin: 0;
 }
 
 .zh-review-row h3 a {
   color: inherit;
+  display: -webkit-box;
+  overflow: hidden;
   text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .zh-review-row h3 a:hover {
@@ -14253,14 +14261,14 @@ h1 {
 }
 
 .zh-herald-hero h1 {
-  max-width: 620px;
+  max-width: 720px;
   color: #1a1410;
   font-family: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
-  font-size: clamp(30px, 4.2vw, 38px);
+  font-size: clamp(24px, 3vw, 31px);
   font-weight: 900;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin: 0 0 18px;
+  line-height: 1.24;
+  letter-spacing: 0;
+  margin: 0 0 15px;
 }
 
 .zh-herald-hero h1 em {
@@ -15282,11 +15290,14 @@ h1 {
 }
 
 .zh-herald-reading-item strong {
-  display: block;
+  color: #1a1410;
+  display: -webkit-box;
   font-size: 12px;
   font-weight: 900;
   line-height: 1.4;
-  color: #1a1410;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .zh-herald-reading-item span {
@@ -19336,7 +19347,7 @@ h1 {
   }
 
   .zh-herald-hero h1 {
-    font-size: clamp(28px, 8vw, 36px);
+    font-size: clamp(23px, 6.4vw, 28px);
   }
 
   .zh-herald-main p {
@@ -19395,7 +19406,7 @@ h1 {
   }
 
   .zh-review-row h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .zh-review-row > a {
