@@ -2495,6 +2495,121 @@ const uoaImmigBody = [
 const insightsArticles = [
   ...australiaLicensingHotspotArticles,
   {
+    slug: "btec-business-dstar-dd-clearing-russell-group-strategy",
+    title: "BTEC Business D*DD: A Realistic Clearing Strategy for Manchester, KCL, Warwick and Edinburgh",
+    date: "2026-07-11",
+    category: "UK Applications",
+    column: "study",
+    kicker: "BTEC · Clearing · Russell Group",
+    author: "留學導報編輯部",
+    summary: "For a BTEC Business Extended Diploma result of D*DD, Manchester may be the most practical high-reach option if the student is willing to change subject. KCL, Edinburgh and Warwick can still be reviewed as ambitious choices, but the strategy should be grounded in live course availability, BTEC wording and GCSE context.",
+    titleZh: "BTEC Business Extended Diploma 最終 D*DD：還能衝「王曼愛華」嗎？",
+    summaryZh: "如果 BTEC Business Extended Diploma 最終成績是 D*DD，且專業方向可以調整，仍可嘗試把 KCL、曼大、愛丁堡、華威放入衝刺名單，但策略必須現實：曼大相對最值得重點篩選，KCL、愛丁堡、華威則要按當日空位、BTEC 接受方式與 GCSE 背景逐一核對。",
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "uk-aus-application-documents-checklist",
+      "ucas-offers-conditions-firm-insurance-checklist",
+      "foundation-vs-international-year-one-vs-direct-entry-uk-aus",
+      "btec-othm-assignment-evidence-log-checklist"
+    ],
+    sidebarCards: [
+      ["D*DD", "成績基線", "約等於 152 UCAS tariff points，但名校通常仍看具體課程是否接受 BTEC，而不只看 tariff。", "BTEC"],
+      ["曼大", "重點篩選", "商學院 Management 標準通常高於 D*DD；但 Education、部分社科或相關專業可能更有現實空間。", "Manchester"],
+      ["KCL / 愛丁堡 / 華威", "衝刺定位", "可查，但不宜當作穩妥選項；尤其商科、管理類課程需逐頁核對 BTEC 條款與 Clearing 狀態。", "Reach"],
+      ["先查 4 件事", "文件核對", "完整 GCSE、BTEC unit profile、是否已有 UCAS 申請、Home/International fee status。", "Checklist"],
+      ["OTC 協助", "免費篩選", "可按學生完整成績與身份背景篩選可試專業，並協助 Clearing 代辦。WhatsApp: +44 7710 595246", "Support"]
+    ],
+    factCheckNotes: [
+      "本文根據 2026 年 7 月 11 日可查的公開課程頁與一般 BTEC 錄取規則整理；Clearing 空位、課程接受資格與招生口徑會快速變動，申請前必須以院校當日官方頁面或招生辦書面回覆為準。",
+      "曼大 Management 官方頁面列明 BTEC National Extended Diploma 標準為 D*D*D*；D*DD 不應按 Management 標準直接樂觀解讀。",
+      "KCL、華威與愛丁堡不同專業對 BTEC 的接受方式差異很大，有些課程可能要求 A Level 搭配、指定 GCSE 或個案審核；本文不構成錄取承諾。"
+    ],
+    body: [
+      {
+        heading: "1) D*DD can be useful, but the subject must be flexible",
+        paragraphs: [
+          "A BTEC Business Extended Diploma result of D*DD is not a weak result. The problem is that highly selective business and management degrees often set course-specific BTEC rules rather than simply accepting tariff points.",
+          "For a student who can adjust subject direction, the strategy is to treat Manchester, King's, Edinburgh and Warwick as a high-reach review set, then identify realistic adjacent courses in education, social sciences, policy, humanities or related applied fields."
+        ]
+      },
+      {
+        heading: "2) Manchester may be the most practical high-reach route",
+        paragraphs: [
+          "Manchester is often the first place to screen carefully because the wider university has a broad course portfolio. However, Manchester's BSc Management page currently lists BTEC National Extended Diploma requirements at D*D*D*, so D*DD is below that Management benchmark.",
+          "The practical move is not to force a Management application, but to search for courses that accept relevant BTEC profiles around DDM to D*DD, especially where the student's GCSE English, Maths and subject evidence still make sense."
+        ]
+      },
+      {
+        heading: "3) KCL, Warwick and Edinburgh should be treated as ambitious checks",
+        paragraphs: [
+          "King's College London can be kept as an ambitious option, but Business Management is highly selective and its BTEC wording must be checked on the exact course page or through admissions. Clearing acceptance, if any, has to be verified course by course on the day.",
+          "Warwick Business School is usually difficult for a student presenting only BTEC Business, because many competitive routes expect A Level combinations or additional academic evidence. Edinburgh also reviews BTEC by programme and qualification type, and popular business courses are very competitive."
+        ]
+      },
+      {
+        heading: "4) Build the Clearing list in layers",
+        paragraphs: [
+          "A sensible list would place KCL, Edinburgh and Warwick as reach checks, Manchester as the main high-reach screening university, and several Russell Group or strong civic universities as more realistic options.",
+          "The key is not brand first, course later. The safer order is: qualification accepted, GCSE requirements satisfied, vacancies open, subject fit clear, then brand preference. This avoids wasting the short Clearing window on courses that were never open to the student's profile."
+        ]
+      },
+      {
+        heading: "5) OTC can screen the case before calls begin",
+        paragraphs: [
+          "OTC can review the complete GCSE profile, fee status, BTEC unit profile and whether the student already has a UCAS application, then build a short course list for Clearing calls or direct university contact.",
+          "For a free initial screen and Clearing support, contact Overseas Tutorial Centre on WhatsApp: +44 7710 595246."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、D*DD 不是差成績，但不能只看名校光環",
+        paragraphs: [
+          "如果 BTEC Business Extended Diploma 最終成績是 <strong>D*DD</strong>，而且專業可以調整，確實可以嘗試衝一下中文圈常說的「王曼愛華」：KCL、曼大、愛丁堡、華威。但這種嘗試必須現實，不能只拿 UCAS tariff points 去推導結果。",
+          "D*DD 大約對應 152 UCAS tariff points，表面上不低；但越熱門、越精英的商科與管理類課程，越可能看具體 BTEC 條款、科目相關性、GCSE English / Maths、是否需要 A Level 搭配，以及當年是否還有空位。也就是說，真正要問的不是『D*DD 能不能申名校』，而是『哪一個名校、哪一個專業、在這個 intake 是否接受這種組合』。"
+        ]
+      },
+      {
+        heading: "二、曼大：相對最值得重點篩選，但 Management 不能硬衝",
+        paragraphs: [
+          "四所裡面，<strong>曼大</strong>通常是最值得優先細查的一所，原因不是商學院門檻低，而是整體課程面較廣，專業調整空間比較大。",
+          "要先把話說清楚：曼大商學院 Management 目前對 Pearson BTEC Level 3 National Extended Diploma 的要求是 <strong>D*D*D*</strong>。如果學生是 D*DD，單看 Management 這條標準，並沒有達到要求。因此策略不應是『硬申 Management』，而是把方向調到 Education、部分社會科學、政策、人文社科，或其他接受相關 BTEC 且要求約在 DDM 至 D*DD 區間的課程。",
+          "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">曼大篩選邏輯</div><p>先查課程是否接受 BTEC Business，再查是否要求指定 GCSE / A Level / 數學背景，最後才看品牌與專業名稱。能轉專業，才有現實空間。</p></div>"
+        ]
+      },
+      {
+        heading: "三、KCL：可作衝刺，但 Business Management 不能樂觀假設",
+        paragraphs: [
+          "<strong>KCL</strong>可以放在衝刺名單裡，但要把預期壓低。Business Management 本身要求很高，而且官網課程頁與 KCL 的 BTEC 說明需要逐頁核對，不能把『KCL 接受某些 BTEC』直接理解為『Business Management 一定接受單獨 BTEC Extended Diploma』。",
+          "如果走 Clearing，更要在當日逐個專業確認：是否還有空位、是否接受 BTEC Business、是否接受單獨 Extended Diploma、是否要求額外 A Level 或特定 GCSE。這類名校熱門商科，很多時候不是『分數夠不夠』一個問題，而是資格組合是否在課程接受範圍內。"
+        ]
+      },
+      {
+        heading: "四、華威與愛丁堡：商科很難，但可查相鄰方向",
+        paragraphs: [
+          "<strong>華威</strong>的商科與管理方向競爭很強，且很多商學院路線通常更偏好 BTEC 搭配一至兩門 A Level，或要求更強的傳統學術證據。若學生只有單獨的 BTEC Business Extended Diploma，直接衝 Warwick Business School 的機會相對低。",
+          "<strong>愛丁堡</strong>則需要按具體專業審核 BTEC。熱門 Business / Management 類課程競爭非常強，而且 Clearing 空位會隨時變化；若某些商科專業當年已無空位，就不應把時間耗在無效聯絡上。相對更可操作的，是同步查社會政策、教育、國際發展、人文社科、文化與傳播等相鄰方向。"
+        ]
+      },
+      {
+        heading: "五、建議策略：名校衝刺 + 曼大重點 + Russell Group 保底層",
+        paragraphs: [
+          "對 D*DD 的 BTEC Business 學生，比較穩妥的 Clearing / 調整申請策略是：<strong>KCL、愛丁堡、華威作為衝刺核查；曼大重點篩選可接受 D*DD 的調整專業；同時搭配幾所錄取把握較高的 Russell Group 或強勢綜合大學</strong>。",
+          "這裡的重點是分層，而不是只盯四個名字。第一層查最高品牌是否有開口；第二層查曼大等綜合大學是否有匹配專業；第三層放入更現實的 Russell Group 或城市大學選項，避免因為只追名校而錯過短暫窗口。",
+          "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">Clearing 前必備四項資料</div><ul><li>完整 GCSE 成績，尤其 English / Maths。</li><li>BTEC 最終總成績與 unit profile。</li><li>是否已有 UCAS 申請、是否持有 offer / release 狀態。</li><li>Home / International fee status 及簽證時間表。</li></ul></div>"
+        ]
+      },
+      {
+        heading: "六、OTC 可免費做初步篩選與 Clearing 代辦",
+        paragraphs: [
+          "OTC 可以根據完整 GCSE 成績、BTEC Business unit profile、學生身份、是否已有 UCAS 申請，以及可接受的專業方向，免費篩選可嘗試專業，並協助 Clearing 聯絡與代辦。",
+          "<strong>海外督導 WhatsApp：<a href=\"https://wa.me/447710595246\">+44 7710 595246</a></strong>",
+          "本文只提供申請策略與公開資訊整理，不構成任何錄取承諾。所有課程要求、空位與 Clearing 接受資格，均以院校當日官方頁面或招生辦書面確認為準。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "taiwan-entry-permit-work-right-mainland-foreigners",
     title: "Taiwan Entry Permit Is Not Work Authorisation",
     date: "2026-06-28",
