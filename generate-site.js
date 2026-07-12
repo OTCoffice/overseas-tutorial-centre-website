@@ -13577,9 +13577,9 @@ const insightsArticles = [
     "column": "culture",
     "kicker": "書籍史 · 譯介研究",
     "author": "蕭珩",
-    "summary": "A bibliographic review of how Chinese academia has imported Western scholarship on material culture, book history and collecting: Polanyi and Bourdieu arrived in force, Darnton's reading history followed, yet rare-book studies, provenance research and auction history remain largely untranslated — an inverted structure with real consequences for how literary markets are described in Chinese.",
+    "summary": "A bibliographic study, framed by translation studies and the sociology of knowledge, of how Chinese-language academia has imported Western scholarship on material culture, book history and collecting: macro-theory (Polanyi, Bourdieu) translated in force, reading history (Darnton) accumulated, yet rare-book studies, provenance research and auction history remain untranslated — an inverted structure with methodological consequences.",
     "titleZh": "中文世界對物質文化、書籍史與收藏研究的譯介：一項不均衡的知識輸入",
-    "summaryZh": "本文梳理波蘭尼、布迪厄、阿帕杜萊、科皮托夫、達恩頓、皮爾遜及西方收藏研究在中文世界的譯介狀況，指出「宏觀理論充分、專業技術缺席」的倒置結構，並說明《蘇富比木槌》試圖補上的中間層：從理論命題回到拍品編號、來源文件與估價紀錄。",
+    "summaryZh": "本文以譯介學與知識社會學為視角，基於可查證之公開書目記錄，系統考察波蘭尼、布迪厄、阿帕杜萊、科皮托夫、達恩頓、皮爾遜及西方收藏研究在中文世界的譯介軌跡，提出「倒置結構」之概括，並據此界定《蘇富比木槌》在宏觀理論與市場技術之間的中間層定位。",
     "academic": true,
     "publicationCode": "留學導報學術文化欄 · OSR-CULTURE-20260712-01",
     "rightsNotice": "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
@@ -13587,7 +13587,7 @@ const insightsArticles = [
       {
         "heading": "Editorial Abstract",
         "paragraphs": [
-          "This Chinese long-form bibliographic essay surveys how Chinese-language academia has absorbed Western scholarship relevant to rare books, manuscripts and the auction trade. Macro-theory (Polanyi's market society, Bourdieu's cultural capital) has been translated repeatedly on both sides of the Strait; reading history (Darnton) has followed; but the technical literature of rare-book studies — provenance research, binding history, auction catalogues, valuation — remains largely untranslated. The essay maps this inverted structure and its consequences. The full Chinese article is published in the Chinese Overseas Study Review."
+          "Framed by translation studies (譯介學) and the sociology of knowledge, this Chinese-language study surveys, on the basis of verifiable bibliographic records, how Chinese academia has absorbed Western scholarship relevant to rare books, manuscripts and the auction trade. It documents six Chinese editions of Polanyi's The Great Transformation, the twin full translations of Bourdieu's La Distinction (Commercial Press 2015, simplified; Rye Field 2023, traditional), the citation-mediated reception of Appadurai and Kopytoff, the three-edition genealogy of Darnton's The Great Cat Massacre, and the near-total absence of translated technical literature — Pearson's provenance research, Pomian's, Belk's and Muensterberger's collecting studies, and the auction-history volume Under the Hammer (Myers, Harris & Mandelbrote, eds., 2001). The essay characterises this pattern as an inverted structure of knowledge import and traces its methodological consequences for Chinese scholarship on literary markets. The full Chinese article, with keyword list and annotated bibliography, is published in the Chinese Overseas Study Review."
         ]
       }
     ],
@@ -13595,76 +13595,96 @@ const insightsArticles = [
       {
         "heading": "摘要",
         "paragraphs": [
-          "中文學界對文學物件、珍本收藏與拍賣制度的認識，並不是經由一套完整而連續的學術譜系建立起來的。本文以可查證的公開出版記錄為基礎，逐一梳理波蘭尼、布迪厄、阿帕杜萊與科皮托夫、達恩頓、皮爾遜，以及西方收藏研究在中文世界的譯介狀況，指出相關知識輸入呈現「上層理論較多、底層技術較少」的倒置結構，並說明《蘇富比木槌：手稿證券化、死者紅利與文學期貨市場》一書在這一譯介地形中的位置：補上宏觀理論與市場技術之間的中間層。"
+          "本文以譯介學與知識社會學為分析視角，考察與珍本、手稿及拍賣制度研究相關的西方學術文獻在中文世界的翻譯與接受狀況。基於可查證的公開出版記錄，本文逐一檢視卡爾·波蘭尼的市場社會理論、皮埃爾·布迪厄的資本轉換理論、阿爾君·阿帕杜萊與伊戈爾·科皮托夫的物質文化理論、羅伯特·達恩頓的閱讀史研究，以及戴維·皮爾遜等人的珍本學與來源研究在中文學界的譯介軌跡。研究發現，相關知識輸入呈現顯著的層級不均衡：宏觀社會理論譯介充分且持續重譯，閱讀史與出版文化史有所積累，而珍本學、來源研究、拍賣圖錄史與收藏市場史等專業技術文獻則幾近闕如。本文將此種「上層理論充分、底層技術缺席」的現象概括為<strong>譯介的倒置結構</strong>，分析其對中文學界文學市場論述的方法論後果，並據此說明《蘇富比木槌：手稿證券化、死者紅利與文學期貨市場》一書的學術定位：在宏觀理論與市場技術之間補建中間層。",
+          "<strong>關鍵詞：</strong>譯介學；物質文化；書籍史；珍本研究；收藏研究；知識社會學；倒置結構"
         ]
       },
       {
-        "heading": "分散的知識地圖：問題的提出",
+        "heading": "一、問題意識與研究範圍",
         "paragraphs": [
-          "與其說中國已經形成一個邊界清楚的「珍本市場研究」或「文學資產研究」領域，不如說相關知識分散在經濟社會學、文化社會學、人類學、出版史、閱讀史、圖書館學、版本目錄學、藝術市場研究與收藏文化等不同學科之中。這些學科各自引進了部分理論和個案，但尚未充分整合為一套分析文學物件如何被鑑定、估值、拍賣、保存與再出售的共同語言。",
-          "從譯介次序來看，中文世界首先大量吸收的，是關於市場社會、文化資本與階級區隔的宏觀理論，而不是珍本拍賣、來源研究和圖錄技術等專門研究。"
+          "任何一部試圖在中文語境中處理珍本市場與文學資產化問題的著作，都必須首先回答一個學術史問題：其所依賴的理論資源與技術文獻，在中文世界處於何種接受狀態？中文學界對文學物件、珍本收藏與拍賣制度的認識，並非經由一套完整而連續的學術譜系建立起來。與其說中國已經形成一個邊界清楚的「珍本市場研究」或「文學資產研究」領域，不如說相關知識分散在經濟社會學、文化社會學、人類學、出版史、閱讀史、圖書館學、版本目錄學、藝術市場研究與收藏文化等不同學科建制之中。這些學科各自引進了部分理論與個案，但迄今尚未整合為一套足以分析文學物件如何被鑑定、估值、拍賣、保存與再出售的共同語言。",
+          "在方法上，本文採取保守的書目學判準：所有「已譯介」的判斷均以可查證的公開出版記錄（出版社、譯者、年份）為據；凡未能檢索到具備完整出版要素之中文全譯本者，一律標記為「未確認」，而不逕行斷言「不存在」。檢索時限截至2026年7月。此一judgment上的節制，本身即是本文論旨的一部分：在譯介史研究中，「概念的流通」與「文本的在場」是兩個必須嚴格區分的層次——一個術語在中文論文中被頻繁引用，並不等於其原始文本已經完成制度性的翻譯與出版。愛德華·薩義德所論「理論旅行」（traveling theory）提示我們，理論在跨語境移動中必然發生選擇、簡化與重構；本文所描繪的，正是這一旅行過程在特定知識領域中留下的不均衡地形。",
+          "從譯介次序觀察，中文世界首先大量吸收的，是關於市場社會、文化資本與階級區隔的宏觀理論，而非珍本拍賣、來源研究（provenance research）和圖錄技術等專門文獻。以下依理論層級，逐一檢視各知識板塊的譯介狀況。"
         ]
       },
       {
-        "heading": "波蘭尼：宏觀理論的充分譯介",
+        "heading": "二、宏觀理論層的譯介：波蘭尼與市場社會理論",
         "paragraphs": [
-          "卡爾·波蘭尼（Karl Polanyi）的《大轉型》是其中最典型的例子。該書早在1989年即有臺灣遠流版《鉅變：當代政治、經濟的起源》（黃樹民譯），此後中國大陸又陸續出現2007年浙江人民出版社（馮鋼、劉陽譯）的《大轉型：我們時代的政治與經濟起源》、2013年和2017年社會科學文獻出版社（黃樹民譯，「甲骨文」叢書）的《巨變》，以及2020年的其他版本；臺灣亦於2020年推出春山版（黃樹民譯）。2021年，當代世界出版社再推出馮鋼、劉陽譯本《大轉型》，顯示這部著作在簡體市場仍持續有新版投入，而非僅停留於早期譯本的重印。這種持續重譯和再版，使「市場並非自然生成，而是由政治、法律與社會制度共同建構」的命題，在中文社會科學中獲得了相當穩定的影響。",
-          "波蘭尼在中文學界的廣泛流通，為分析圖書館如何被轉化為拍品提供了重要前提。拍賣不再只能被描述為中性的交易形式，而可以被理解為一種重新安排社會關係的制度：原本嵌入家族記憶、宅邸空間、身份傳承與閱讀生活中的書籍，被重新編碼為可以獨立出售的財產。然而，波蘭尼的中文接受主要集中在市場社會、經濟嵌入性和虛構商品等宏觀議題上，較少被具體運用於古籍、手稿、私人檔案與收藏市場。換言之，理論已經譯入，但它與書籍物質史之間的連接，仍需要重新建立。"
+          "卡爾·波蘭尼（Karl Polanyi）《大轉型》（The Great Transformation, 1944）的中譯史，堪稱宏觀理論充分譯介的典型個案。該書早在1989年即有臺灣遠流版《鉅變：當代政治、經濟的起源》（黃樹民譯）；此後中國大陸陸續出現2007年浙江人民出版社版《大轉型：我們時代的政治與經濟起源》（馮鋼、劉陽譯）、2013年與2017年社會科學文獻出版社「甲骨文」叢書版《巨變》（黃樹民譯）及2020年前後的其他版本；臺灣復於2020年推出春山版（黃樹民譯）；2021年，當代世界出版社再刊馮鋼、劉陽譯本。三十餘年間至少六個版本、兩個獨立譯本系統的持續重譯與再版，使「市場並非自然生成，而是由政治、法律與社會制度共同建構」這一命題，在中文社會科學中獲得了高度穩定的經典地位。",
+          "波蘭尼的廣泛流通，為分析圖書館如何被轉化為拍品提供了現成的理論前提：拍賣不再只能被描述為中性的交易形式，而可以被理解為一種重新安排社會關係的制度——原本嵌入（embedded）家族記憶、宅邸空間、身份傳承與閱讀生活之中的書籍，經由拍賣被重新編碼為可獨立出售的財產。然而必須指出，波蘭尼的中文接受主要集中於市場社會、經濟嵌入性與虛構商品（fictitious commodities）等宏觀議題，鮮少被具體運用於古籍、手稿、私人檔案與收藏市場的實證分析。質言之，理論已經譯入，但理論與書籍物質史之間的中觀連接，仍有待建立。"
         ]
       },
       {
-        "heading": "布迪厄：概念先行與兩個完整譯本",
+        "heading": "三、布迪厄的雙軌譯介：概念流通與文本遲滯",
         "paragraphs": [
-          "布迪厄（Pierre Bourdieu）的情況與此相似，但其譯介路徑更加分散，也更容易被誤讀為「遲至晚近才有完整譯本」。在正式全譯本出現以前，「文化資本」「慣習」「場域」「區隔」等概念已經通過學術論文、理論評介與其他著作進入中國大陸的社會學和文化研究，中文研究在2000年代初即已開始討論階級慣習、文化資本與品味分層。值得特別說明的是，中文世界其實已有一個容易被忽略的完整譯本：2015年商務印書館出版劉暉翻譯的簡體全譯本《区分：判断力的社会批判》，譯者劉暉為中國社會科學院外國文學研究所副研究員。這意味著2023年臺灣麥田出版社出版《區判：品味判斷的社會批判》（邱德亮譯）的真正意義，並非「中文世界首次獲得完整譯本」，而是<strong>繁體中文世界首次獲得法文直譯的完整譯本</strong>——此前流通的簡體版本，構成了本書分析布迪厄概念時同樣重要卻常被忽略的中介文本。",
-          "這種概念早期即透過論文與評介零星流通、而完整譯本又分裂為簡體（2015）與繁體（2023）兩個相隔八年版本的譯介路徑，對中文學界產生了雙重影響。一方面，布迪厄的術語獲得了極強的跨學科生命力，「文化資本」幾乎已成為分析教育、藝術、消費和階級再生產的通用概念；另一方面，當概念脫離《區分》中大規模的經驗材料、統計分析與法國社會結構時，也容易被簡化為「有錢人購買文化身份」的直觀公式。在珍本研究中，布迪厄的真正價值不只是指出金錢可以轉化為品味，而是要求研究者分析：誰有權定義何種版本值得收藏，哪些機構能把個人偏好認證為正統趣味，以及收藏者如何在具體場域中爭奪命名、展示與解釋文化遺產的資格。"
+          "皮埃爾·布迪厄（Pierre Bourdieu）《區分》（La Distinction: Critique sociale du jugement, 1979）的譯介路徑呈現「概念先行、文本遲滯」的雙軌結構，且極易被誤讀為「遲至晚近才有完整譯本」。在正式全譯本出現以前，「文化資本」「慣習」「場域」「區隔」等概念已經由學術論文、理論評介及布迪厄其他著作的中譯進入中國大陸的社會學與文化研究；2000年代初的中文研究即已展開關於階級慣習、文化資本與品味分層的討論。尤須訂正的是一個流傳甚廣的認知缺口：2015年，商務印書館已出版劉暉翻譯的簡體全譯本《区分：判断力的社会批判》（譯者劉暉為中國社會科學院外國文學研究所副研究員）。因此，2023年臺灣麥田出版社刊行邱德亮譯《區判：品味判斷的社會批判》的學術史意義，並非「中文世界首次獲得完整譯本」，而應精確表述為<strong>繁體中文世界首次獲得由法文直譯的完整譯本</strong>——此前流通八年的簡體譯本，構成任何中文布迪厄研究皆不應忽略的中介文本。",
+          "此種雙軌譯介對中文學界產生了可辨識的雙重效應。其一，布迪厄的術語獲得極強的跨學科繁殖力，「文化資本」幾乎已成為分析教育、藝術、消費與階級再生產的通用範疇；其二，當概念脫離《區分》原著中大規模的問卷材料、對應分析（correspondence analysis）與1960—70年代法國社會結構時，極易被化約為「有錢人購買文化身份」的直觀公式。就珍本研究而言，布迪厄的方法論價值不在於重申金錢可轉化為品味，而在於強制研究者追問：誰有權定義何種版本值得收藏？哪些機構有能力把個人偏好認證為正統趣味？收藏者如何在具體場域中爭奪命名、展示與詮釋文化遺產的資格？"
         ]
       },
       {
-        "heading": "阿帕杜萊與科皮托夫：論文引用型譯介",
+        "heading": "四、物質文化理論的間接接受：阿帕杜萊與科皮托夫",
         "paragraphs": [
-          "相較之下，阿爾君·阿帕杜萊（Arjun Appadurai）主編的《物的社會生命》以及伊戈爾·科皮托夫（Igor Kopytoff）的〈物的文化傳記〉，在中文世界的傳播更接近「論文引用型譯介」。以本次可確認的公開出版記錄為限，尚未檢索到《物的社會生命》的通行中文全譯本，也未確認科皮托夫文章有被正式出版並廣泛流通的獨立中譯本；即便是學術圈內較活躍的讀書會與書評文章（如復旦大學醫學人類學「每週一書」欄目、學者舒瑜〈物的生命傳記——讀《物的社會生命》〉），指向的也仍是英文原著，而非某個具體出版社、譯者、ISBN 齊全的中文譯本。兩者的核心概念——物的社會生命、商品情境、物件傳記、商品化與單一化——主要經由人類學、考古學、博物館研究和物質文化研究的二手轉述進入中文論述。",
-          "這種間接譯介造成了一個明顯後果：中文研究已經頻繁使用「物的生命史」「物件傳記」或「單一化」等術語，但不同作者對概念的理解未必一致。科皮托夫所說的單一化，本來側重物件如何被從一般商品領域中抽離，成為具有特殊社會身份、因而不能被普通同類替代的物；然而，珍本市場展示的是一種更複雜的情況——書籍並未因單一化而退出交換，反而因其不可替代性獲得更高的交換價值。因此，本書提出「市場化單一化」時，不應把它冒充為科皮托夫的原有術語，而應明確說明，這是以物件傳記理論為基礎、針對珍本市場機制所作的延伸。"
+          "與前述兩者形成鮮明對照的，是阿爾君·阿帕杜萊（Arjun Appadurai）主編《物的社會生命：文化視野中的商品》（The Social Life of Things: Commodities in Cultural Perspective, Cambridge University Press, 1986）及其中伊戈爾·科皮托夫（Igor Kopytoff）〈物的文化傳記：作為過程的商品化〉一章的接受形態——本文稱之為「論文引用型譯介」。以本次可確認的公開出版記錄為限，尚未檢索到《物的社會生命》的通行中文全譯本，亦未確認科皮托夫該文有正式出版並廣泛流通的獨立中譯；即便是學術社群內較活躍的評介文字（如復旦大學醫學人類學讀書欄目之推介、舒瑜〈物的生命傳記〉之書評），其所指向者仍為英文原著，而非任何具備出版社、譯者與ISBN之完整中文譯本。是以「物的社會生命」「商品情境」（commodity situation）「物件傳記」「商品化與單一化」等核心範疇，主要經由人類學、考古學、博物館研究與物質文化研究的二手轉述進入中文論述。",
+          "間接譯介的認識論後果值得專門申說：中文研究雖已頻繁使用「物的生命史」「物件傳記」「單一化」諸術語，但不同論者對概念內涵的理解未必一致，術語漂移（conceptual drift）在所難免。科皮托夫所謂單一化（singularization），原義側重物件如何被從一般商品領域中抽離，成為承載特殊社會身份、因而不可被同類替代之物；珍本市場所呈現者卻是一種更為弔詭的構造——書籍並未因單一化而退出交換，反而恰恰因其被認證的不可替代性獲得更高的交換價值。準此，本書在提出「市場化單一化」這一工作概念時，負有明確的術語自覺義務：不得將其冒充為科皮托夫的原有範疇，而應說明此係以物件傳記理論為基礎、針對珍本市場機制所作的延伸與修正。"
         ]
       },
       {
-        "heading": "書籍史：閱讀史豐富，珍本學缺席",
+        "heading": "五、書籍史譯介的結構性偏重：閱讀史在場，珍本學缺席",
         "paragraphs": [
-          "在書籍史方面，中文譯介的發展相對豐富，但重心主要落在閱讀史、出版文化與思想傳播，而非珍本估值和拍賣市場。羅伯特·達恩頓（Robert Darnton）的文化史與閱讀史研究，在中文世界其實有一條清晰的版本譜系：2006年新星出版社率先推出呂健忠譯本《屠貓記》；2017年商務印書館將同一譯者的版本收入「漢譯世界學術名著叢書」，改題《屠貓狂歡：法國文化史鉤沉》；台灣聯經另有呂健忠所譯繁體版《貓大屠殺：法國文化史鉤沉》流通。三個版本譯者相同、書名略異，顯示達恩頓式的文化史寫作已在兩岸讀者市場站穩腳跟，使書籍不再只被當作思想內容，而被放回印刷工人、書商、讀者、審查制度和日常文化之中。",
-          "然而，中文世界對「書籍作為物件」的專門譯介仍顯不足。戴維·皮爾遜（David Pearson）的《作為歷史的書籍》（Books as History）與《書籍史中的來源研究》（Provenance Research in Book History）、戴維·麥基特里克（David McKitterick）關於印刷品與手稿秩序的研究、詹姆斯·雷文（James Raven）的英國書業史研究、利婭·普賴斯（Leah Price）對維多利亞時代書籍使用方式的研究，以及邁爾斯（Robin Myers）、哈里斯（Michael Harris）與曼德爾布羅特（Giles Mandelbrote）合編的圖書拍賣史論文集《木槌之下：十七世紀以來的圖書拍賣》（Under the Hammer: Book Auctions Since the Seventeenth Century），在本次檢索中均未確認已有公開發行並形成影響的中文全譯本。皮爾遜的研究尤其重要，因為他系統處理了藏書票、題記、邊註、裝幀與拍賣圖錄如何共同構成一本書的來源歷史；這類知識在英美珍本學、圖書館特藏和拍賣實務中屬於基礎訓練，在中文出版市場卻仍主要依賴英文原著。"
+          "書籍史（history of the book）板塊的中文譯介相對豐富，然其重心明顯偏向閱讀史、出版文化與思想傳播，而非書籍的物質構成、估值機制與拍賣市場。羅伯特·達恩頓（Robert Darnton）《屠貓記》（The Great Cat Massacre and Other Episodes in French Cultural History, 1984）在中文世界擁有一條清晰的版本譜系：2006年新星出版社刊呂健忠譯《屠貓記》；2017年商務印書館將同一譯者之譯本收入「漢譯世界學術名著叢書」，改題《屠貓狂歡：法國文化史鉤沉》；臺灣聯經另行流通呂健忠譯繁體版《貓大屠殺：法國文化史鉤沉》（2005）。三個版本同出一位譯者之手而書名各異，足證達恩頓式文化史書寫已在兩岸學術與閱讀市場穩固立足——書籍由此不再僅被視為思想之載體，而被重新置入印刷工人、書商、讀者、審查制度與日常文化的關係網絡。",
+          "與此形成結構性反差的，是「書籍作為物件」（books as objects）之專門文獻的譯介闕如。戴維·皮爾遜（David Pearson）《作為歷史的書籍》（Books as History: The Importance of Books beyond Their Texts, 2008；修訂版2012）與《書籍史中的來源研究》（Provenance Research in Book History: A Handbook）、戴維·麥基特里克（David McKitterick）關於印刷品與手稿秩序的研究、詹姆斯·雷文（James Raven）的英國書業史系列研究、利婭·普賴斯（Leah Price）對維多利亞時代書籍使用方式的研究，以及羅賓·邁爾斯（Robin Myers）、邁克爾·哈里斯（Michael Harris）與賈爾斯·曼德爾布羅特（Giles Mandelbrote）合編的圖書拍賣史論文集《木槌之下：十七世紀以來的圖書拍賣》（Under the Hammer: Book Auctions since the Seventeenth Century, Oak Knoll Press & The British Library, 2001），在本次檢索中均未確認有公開發行並形成影響的中文全譯本。皮爾遜的著作尤具指標意義：其系統處理藏書票、題記、邊註、裝幀與拍賣圖錄如何共同構成一部書的來源史（provenance），此類知識在英美珍本學、圖書館特藏與拍賣實務中屬於基礎訓練科目，於中文出版市場卻至今主要依賴英文原著。附帶澄清一項易生混淆的書目事實：《木槌之下》係三位學者合編之論文集，並非雷文個人著作，二者不應並置而致歸屬錯亂。"
         ]
       },
       {
-        "heading": "收藏研究的缺口",
+        "heading": "六、收藏研究的譯介闕如",
         "paragraphs": [
-          "收藏研究的譯介也呈現類似的不均衡。中文學界可以熟練地運用布迪厄分析品味與階級，也有豐富的中國藏書史、目錄學和版本學傳統，但對西方近代收藏制度如何形成、私人收藏如何被拍賣拆散、藏家心理如何與市場競爭相互塑造等問題，仍缺乏成套譯著。克日什托夫·波米安（Krzysztof Pomian）的《收藏家與珍奇》、拉塞爾·貝爾克（Russell W. Belk）的《消費社會中的收藏》以及維爾納·明斯特伯格（Werner Muensterberger）的《收藏：一種不羈的激情》，均未在本次檢索中確認有通行中文全譯本。這意味著中國讀者較容易獲得「收藏是文化資本」的宏觀判斷，卻較難接觸收藏分類、欲望結構、私人博物館、古物交易和藏家競爭的細部研究。"
+          "收藏研究（collecting studies）呈現同構的不均衡。中文學界一方面能夠嫻熟運用布迪厄分析品味與階級，另一方面擁有深厚的本土藏書史、目錄學與版本學傳統；然而，對於西方近代收藏制度的形成、私人收藏如何經拍賣而解體、藏家心理如何與市場競爭相互構成等問題，成套譯著至今闕如。克日什托夫·波米安（Krzysztof Pomian）《收藏家與珍奇》（Collectionneurs, amateurs et curieux, Gallimard, 1987；英譯 Collectors and Curiosities, Polity, 1990）、拉塞爾·貝爾克（Russell W. Belk）《消費社會中的收藏》（Collecting in a Consumer Society, Routledge, 1995）與維爾納·明斯特伯格（Werner Muensterberger）《收藏：一種不羈的激情》（Collecting: An Unruly Passion, Princeton University Press, 1993），均未在本次檢索中確認有通行中文全譯本。其後果是：中文讀者易於獲得「收藏是文化資本」的宏觀判斷，卻難以接觸收藏分類學、欲望結構、私人博物館、古物交易與藏家競爭之細部研究。"
         ]
       },
       {
-        "heading": "三個層次與倒置結構",
+        "heading": "七、倒置結構：一個知識社會學的解釋",
         "paragraphs": [
-          "由此可以看出，中文世界對相關知識的輸入大致形成了三個層次。第一層是譯介較充分的宏觀理論，包括市場社會、文化資本、品味區隔和商品化；第二層是有所積累的閱讀史、出版史和文化史；第三層則是譯介明顯不足的珍本學、來源研究、裝幀史、拍賣圖錄史、估值制度和收藏市場史。這三個層次並未按照理論由淺入深的順序發展，反而呈現出「上層理論較多、底層技術較少」的倒置結構。",
-          "這一倒置直接影響中國研究者描述文學市場的方式。由於布迪厄、波蘭尼和商品化理論較為熟悉，研究容易從「資本侵入文化」「市場製造區隔」或「文化被商品化」等宏觀結論出發；但當問題進入一本書如何被辨認為初版、如何判斷裝幀年代、如何重建來源鏈、拍賣行怎樣合併拍品、估價如何受到品相與前次成交影響時，中文研究可直接依賴的專業文獻迅速減少。結果是批判性語言往往走在物質證據之前，市場被描述為一種抽象力量，而不是由鑑定師、書商、圖錄編輯、修復師、律師、保險人、藏家和機構共同運作的制度網絡。"
+          "綜上，中文世界對相關知識的輸入呈現三個層次：第一層為譯介充分的宏觀理論（市場社會、文化資本、品味區隔、商品化）；第二層為有所積累的閱讀史、出版史與文化史；第三層為譯介顯著不足的珍本學、來源研究、裝幀史、拍賣圖錄史、估值制度與收藏市場史。三個層次並未依循「由基礎技術而至高階理論」的知識累積次序展開，反而呈現「上層理論充分、底層技術缺席」的<strong>倒置結構</strong>。此種倒置並非偶然：譯介選擇受學科建制、出版市場與理論聲望經濟的三重驅動——宏觀理論可跨學科通用、便於課程建制且自帶經典光環，而珍本學等技術文獻讀者面窄、依賴行業實務語境，遂長期滯留於翻譯視野之外。",
+          "倒置結構直接形塑了中文學界描述文學市場的方式。由於波蘭尼、布迪厄與商品化理論觸手可及，研究極易自「資本侵入文化」「市場製造區隔」「文化被商品化」等宏觀結論出發；然而一旦問題下沉至操作層面——一部書如何被鑑定為初版、裝幀年代如何判定、來源鏈如何重建、拍賣行如何併拍、估價如何受品相與前次成交紀錄制約——可資依憑的中文專業文獻即急遽稀薄。其淨效應是：批判性語言慣常走在物質證據之前，市場被再現為一種抽象力量，而非由鑑定師、書商、圖錄編輯、修復師、律師、保險人、藏家與機構協同運作的制度網絡。就方法論而言，這正是缺乏中間層文獻的知識場域之典型症候。"
         ]
       },
       {
-        "heading": "有待接合的知識傳統",
+        "heading": "八、結語：走向接合的研究框架",
         "paragraphs": [
-          "因此，本書所面對的譯介空白，不是中國完全不了解收藏、出版或書籍物質性，而是不同知識傳統尚未被充分接合。中國本土的版本目錄學擅長辨認版刻、校勘異同與藏書源流；西方書籍史則較強調印刷、閱讀、流通和文本形式；物質文化研究關注物件如何跨越商品、禮物、遺產和博物館藏品等不同狀態；拍賣史與市場研究則分析估價、競價、來源、聲譽與價格紀錄。真正有待建立的，是一種能夠使這些傳統彼此對話的研究框架。",
-          "《蘇富比木槌》因而不應被定位為單純把幾部尚未翻譯的西方著作介紹給中文讀者。它更重要的任務，是補上宏觀理論與市場技術之間的中間層：既使用波蘭尼說明市場如何被制度化，使用布迪厄分析收藏如何轉化資本，也借助阿帕杜萊和科皮托夫追蹤物件的身份變化；但所有理論最終都必須回到拍品編號、版本描述、來源文件、估價表、成交紀錄、倉儲單據與查閱限制等具體材料。只有如此，「文學資產化」才不會停留在修辭層面，而能被重建為一套可觀察、可比較並具有歷史變化的制度過程。"
+          "本書所面對的譯介空白，因而不應表述為「中文世界不了解收藏、出版或書籍物質性」，而應表述為「數個各自成熟的知識傳統尚未被接合」。中國本土版本目錄學長於辨析版刻、校勘異同與藏書源流；西方書籍史側重印刷、閱讀、流通與文本形式；物質文化研究追蹤物件在商品、禮物、遺產與博物館藏品諸狀態間的越界；拍賣史與市場研究則處理估價、競價、來源、聲譽與價格紀錄。有待建立者，是一個使上述傳統得以相互通約的研究框架。",
+          "準此，《蘇富比木槌》不應被定位為將數部未譯西方著作轉介給中文讀者的引進之作；其核心任務在於補建宏觀理論與市場技術之間的中間層——以波蘭尼說明市場如何被制度化，以布迪厄分析收藏如何轉換資本，借阿帕杜萊與科皮托夫追蹤物件的身份變遷，而使一切理論命題最終回落於拍品編號、版本描述、來源文件、估價表、成交紀錄、倉儲單據與查閱限制等可核驗的具體材料。唯有如此，「文學資產化」方能超越修辭層面，被重建為一套可觀察、可比較且具有歷史變化維度的制度過程。"
         ]
       },
       {
         "heading": "關鍵著作中文譯介狀況簡表",
         "paragraphs": [
-          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>原著或作者</th><th>中文譯介狀況</th><th>對本書的意義</th></tr></thead><tbody><tr><td>波蘭尼，《大轉型》</td><td>中文譯本充分，兩岸至少六個版本（1989遠流、2007浙江人民、2013／2017／2020社科文獻、2020春山、2021當代世界）</td><td>市場建構、嵌入與再嵌入</td></tr><tr><td>布迪厄，《區分》及「資本形式」理論</td><td>簡體全譯本2015年商務印書館出版（劉暉譯）；2023年臺灣麥田出版社出版首個繁體全譯本（邱德亮譯）</td><td>品味、文化資本、階級區隔</td></tr><tr><td>阿帕杜萊，《物的社會生命》</td><td>本次檢索未確認通行中文全譯本，僅見學術評介與二手轉述</td><td>商品情境、價值政治、物的流動</td></tr><tr><td>科皮托夫，〈物的文化傳記〉</td><td>主要經二手文獻與概念轉述傳播，未見獨立中譯本</td><td>商品化、去商品化與單一化</td></tr><tr><td>達恩頓的文化史與閱讀史著作</td><td>已有三個中文版本（2006新星、2017商務印書館「漢譯名著」、台灣聯經），譯介成熟</td><td>書籍流通、讀者、出版文化</td></tr><tr><td>皮爾遜的書籍物質史與來源研究</td><td>本次檢索未確認中文全譯本</td><td>藏書票、題記、裝幀和來源鏈</td></tr><tr><td>雷文的英國書業史研究；《木槌之下》（Myers, Harris & Mandelbrote 合編）</td><td>本次檢索均未確認中文全譯本；《木槌之下》為三人合編論文集，非雷文個人著作</td><td>書業、拍賣制度與圖錄技術</td></tr><tr><td>波米安、貝爾克、明斯特伯格的收藏研究</td><td>本次檢索均未確認通行中文全譯本</td><td>收藏制度、身份與欲望結構</td></tr></tbody></table></div>",
-          "說明：以上「未確認」是以截至2026年7月可檢索的公開出版與書目記錄為限，不等於斷言從未存在內部譯稿、期刊節譯或未廣泛發行的版本。"
+          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>原著或作者</th><th>中文譯介狀況</th><th>對本書的意義</th></tr></thead><tbody><tr><td>波蘭尼，《大轉型》（1944）</td><td>中文譯本充分，兩岸至少六個版本（1989遠流、2007浙江人民、2013／2017／2020社科文獻、2020春山、2021當代世界）</td><td>市場建構、嵌入與再嵌入</td></tr><tr><td>布迪厄，《區分》（1979）及「資本形式」理論</td><td>簡體全譯本2015年商務印書館出版（劉暉譯）；2023年臺灣麥田出版社出版首個繁體法文直譯全譯本（邱德亮譯）</td><td>品味、文化資本、階級區隔</td></tr><tr><td>阿帕杜萊主編，《物的社會生命》（1986）</td><td>本次檢索未確認通行中文全譯本，僅見學術評介與二手轉述</td><td>商品情境、價值政治、物的流動</td></tr><tr><td>科皮托夫，〈物的文化傳記〉（1986）</td><td>主要經二手文獻與概念轉述傳播，未見獨立中譯本</td><td>商品化、去商品化與單一化</td></tr><tr><td>達恩頓，《屠貓記》（1984）等閱讀史著作</td><td>三個中文版本（2006新星、2017商務印書館「漢譯名著」、2005台灣聯經；譯者均為呂健忠），譯介成熟</td><td>書籍流通、讀者、出版文化</td></tr><tr><td>皮爾遜的書籍物質史與來源研究（2008／2012等）</td><td>本次檢索未確認中文全譯本</td><td>藏書票、題記、裝幀和來源鏈</td></tr><tr><td>雷文的英國書業史研究；《木槌之下》（Myers, Harris & Mandelbrote 編，2001）</td><td>本次檢索均未確認中文全譯本；《木槌之下》為三人合編論文集，非雷文個人著作</td><td>書業、拍賣制度與圖錄技術</td></tr><tr><td>波米安（1987／1990）、貝爾克（1995）、明斯特伯格（1993）的收藏研究</td><td>本次檢索均未確認通行中文全譯本</td><td>收藏制度、身份與欲望結構</td></tr></tbody></table></div>",
+          "說明：表中「未確認」係以截至2026年7月可檢索之公開出版與書目記錄為限，不等於斷言從未存在內部譯稿、期刊節譯或未廣泛發行之版本。"
+        ]
+      },
+      {
+        "heading": "參考書目（選列，附譯介狀況）",
+        "paragraphs": [
+          "Appadurai, Arjun, ed. <em>The Social Life of Things: Commodities in Cultural Perspective</em>. Cambridge: Cambridge University Press, 1986.（未確認通行中文全譯本）",
+          "Belk, Russell W. <em>Collecting in a Consumer Society</em>. London: Routledge, 1995.（未確認中譯本）",
+          "Bourdieu, Pierre. <em>La Distinction: Critique sociale du jugement</em>. Paris: Éditions de Minuit, 1979.｜中譯：劉暉譯《区分：判断力的社会批判》，北京：商務印書館，2015；邱德亮譯《區判：品味判斷的社會批判》，臺北：麥田出版，2023。",
+          "Darnton, Robert. <em>The Great Cat Massacre and Other Episodes in French Cultural History</em>. New York: Basic Books, 1984.｜中譯：呂健忠譯《屠貓記》，北京：新星出版社，2006；呂健忠譯《屠貓狂歡：法國文化史鉤沉》，北京：商務印書館「漢譯世界學術名著叢書」，2017；呂健忠譯《貓大屠殺：法國文化史鉤沉》，臺北：聯經出版，2005。",
+          "Kopytoff, Igor. “The Cultural Biography of Things: Commoditization as Process.” In Appadurai, ed., <em>The Social Life of Things</em>, 64–91. Cambridge: Cambridge University Press, 1986.（未確認獨立中譯本）",
+          "Muensterberger, Werner. <em>Collecting: An Unruly Passion: Psychological Perspectives</em>. Princeton: Princeton University Press, 1993.（未確認中譯本）",
+          "Myers, Robin, Michael Harris, and Giles Mandelbrote, eds. <em>Under the Hammer: Book Auctions since the Seventeenth Century</em>. New Castle, DE & London: Oak Knoll Press & The British Library, 2001.（未確認中譯本）",
+          "Pearson, David. <em>Books as History: The Importance of Books beyond Their Texts</em>. London & New Castle, DE: The British Library & Oak Knoll Press, 2008; rev. ed. 2012.（未確認中譯本）",
+          "Pearson, David. <em>Provenance Research in Book History: A Handbook</em>. London: The British Library.（未確認中譯本）",
+          "Polanyi, Karl. <em>The Great Transformation: The Political and Economic Origins of Our Time</em>. New York: Farrar & Rinehart, 1944.｜中譯：黃樹民譯《鉅變：當代政治、經濟的起源》，臺北：遠流，1989；馮鋼、劉陽譯《大轉型：我們時代的政治與經濟起源》，杭州：浙江人民出版社，2007；黃樹民譯《巨變：當代政治與經濟的起源》，北京：社會科學文獻出版社「甲骨文」，2013／2017；黃樹民譯《鉅變》，臺北：春山出版，2020；馮鋼、劉陽譯《大轉型》，北京：當代世界出版社，2021。",
+          "Pomian, Krzysztof. <em>Collectionneurs, amateurs et curieux: Paris, Venise, XVIe–XVIIIe siècle</em>. Paris: Gallimard, 1987. 英譯：<em>Collectors and Curiosities: Paris and Venice, 1500–1800</em>. Trans. Elizabeth Wiles-Portier. Cambridge: Polity Press, 1990.（未確認中譯本）",
+          "說明：本書目僅選列本文正文論及之關鍵文獻；各條目之中文譯介狀況判斷，均以截至2026年7月之公開書目檢索為據。"
         ]
       }
     ],
     "factCheckNotes": [
       "核查時間：2026-07-12。波蘭尼《大轉型／巨變／鉅變》各中譯版本（1989遠流、2007浙江人民、2013／2017社科文獻「甲骨文」、2020春山、2021當代世界）已按豆瓣、博客來、京東及出版社公開書目核對。",
-      "布迪厄《區分》兩個全譯本（2015商務印書館劉暉譯；2023麥田邱德亮譯）與達恩頓三個中文版本（2006新星、2017商務印書館、台灣聯經，譯者均為呂健忠）已逐一核實。",
-      "阿帕杜萊、科皮托夫、皮爾遜、波米安、貝爾克、明斯特伯格及《木槌之下》（Myers, Harris & Mandelbrote 合編）在本次公開書目檢索中均未確認通行中文全譯本；「未確認」表述以2026年7月可檢索記錄為限。"
+      "布迪厄《區分》兩個全譯本（2015商務印書館劉暉譯；2023麥田邱德亮譯）與達恩頓三個中文版本（2006新星、2017商務印書館、2005台灣聯經，譯者均為呂健忠）已逐一核實。",
+      "阿帕杜萊、科皮托夫、皮爾遜、波米安、貝爾克、明斯特伯格及《木槌之下》（Myers, Harris & Mandelbrote 合編，2001）在本次公開書目檢索中均未確認通行中文全譯本；「未確認」表述以2026年7月可檢索記錄為限。",
+      "2026-07-12 同日學術體例修訂：全文改為論文體結構（章節編號、摘要關鍵詞、參考書目），增補原著出版年份與出版社資訊；西文書目條目依通行學術書目格式著錄。"
     ]
   },
   {
