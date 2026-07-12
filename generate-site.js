@@ -13624,7 +13624,7 @@ const insightsArticles = [
       {
         "heading": "四、物質文化理論的間接接受：阿帕杜萊與科皮托夫",
         "paragraphs": [
-          "與前述兩者形成鮮明對照的，是阿爾君·阿帕杜萊（Arjun Appadurai）主編《物的社會生命：文化視野中的商品》（The Social Life of Things: Commodities in Cultural Perspective, Cambridge University Press, 1986）及其中伊戈爾·科皮托夫（Igor Kopytoff）〈物的文化傳記：作為過程的商品化〉一章的接受形態——本文稱之為「論文引用型譯介」。以本次可確認的公開出版記錄為限，尚未檢索到《物的社會生命》的通行中文全譯本，亦未確認科皮托夫該文有正式出版並廣泛流通的獨立中譯；即便是學術社群內較活躍的評介文字（如復旦大學醫學人類學讀書欄目之推介、舒瑜〈物的生命傳記〉之書評），其所指向者仍為英文原著，而非任何具備出版社、譯者與ISBN之完整中文譯本。是以「物的社會生命」「商品情境」（commodity situation）「物件傳記」「商品化與單一化」等核心範疇，主要經由人類學、考古學、博物館研究與物質文化研究的二手轉述進入中文論述。",
+          "與前述兩者形成鮮明對照的，是阿爾君·阿帕杜萊（Arjun Appadurai）主編《物的社會生命：文化視野中的商品》（The Social Life of Things: Commodities in Cultural Perspective, Cambridge University Press, 1986）及其中伊戈爾·科皮托夫（Igor Kopytoff）〈物的文化傳記：作為過程的商品化〉一章的接受形態——本文稱之為「論文引用型譯介」。以本次可確認的公開出版記錄為限，尚未檢索到《物的社會生命》的通行中文全譯本；科皮托夫該文雖有選譯收入孟悅、羅鋼主編《物質文化讀本》（北京大學出版社，2008），然迄未確認獨立單行之中譯本；即便是學術社群內較活躍的評介文字（如復旦大學醫學人類學讀書欄目之推介、舒瑜〈物的生命傳記〉之書評），其所指向者仍為英文原著，而非任何具備出版社、譯者與ISBN之完整中文譯本。是以「物的社會生命」「商品情境」（commodity situation）「物件傳記」「商品化與單一化」等核心範疇，主要經由人類學、考古學、博物館研究與物質文化研究的二手轉述進入中文論述。",
           "間接譯介的認識論後果值得專門申說：中文研究雖已頻繁使用「物的生命史」「物件傳記」「單一化」諸術語，但不同論者對概念內涵的理解未必一致，術語漂移（conceptual drift）在所難免。科皮托夫所謂單一化（singularization），原義側重物件如何被從一般商品領域中抽離，成為承載特殊社會身份、因而不可被同類替代之物；珍本市場所呈現者卻是一種更為弔詭的構造——書籍並未因單一化而退出交換，反而恰恰因其被認證的不可替代性獲得更高的交換價值。準此，本書在提出「市場化單一化」這一工作概念時，負有明確的術語自覺義務：不得將其冒充為科皮托夫的原有範疇，而應說明此係以物件傳記理論為基礎、針對珍本市場機制所作的延伸與修正。"
         ]
       },
@@ -13658,7 +13658,7 @@ const insightsArticles = [
       {
         "heading": "關鍵著作中文譯介狀況簡表",
         "paragraphs": [
-          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>原著或作者</th><th>中文譯介狀況</th><th>對本書的意義</th></tr></thead><tbody><tr><td>波蘭尼，《大轉型》（1944）</td><td>中文譯本充分，兩岸至少六個版本（1989遠流、2007浙江人民、2013／2017／2020社科文獻、2020春山、2021當代世界）</td><td>市場建構、嵌入與再嵌入</td></tr><tr><td>布迪厄，《區分》（1979）及「資本形式」理論</td><td>簡體全譯本2015年商務印書館出版（劉暉譯）；2023年臺灣麥田出版社出版首個繁體法文直譯全譯本（邱德亮譯）</td><td>品味、文化資本、階級區隔</td></tr><tr><td>阿帕杜萊主編，《物的社會生命》（1986）</td><td>本次檢索未確認通行中文全譯本，僅見學術評介與二手轉述</td><td>商品情境、價值政治、物的流動</td></tr><tr><td>科皮托夫，〈物的文化傳記〉（1986）</td><td>主要經二手文獻與概念轉述傳播，未見獨立中譯本</td><td>商品化、去商品化與單一化</td></tr><tr><td>達恩頓，《屠貓記》（1984）等閱讀史著作</td><td>三個中文版本（2006新星、2017商務印書館「漢譯名著」、2005台灣聯經；譯者均為呂健忠），譯介成熟</td><td>書籍流通、讀者、出版文化</td></tr><tr><td>皮爾遜的書籍物質史與來源研究（2008／2012等）</td><td>本次檢索未確認中文全譯本</td><td>藏書票、題記、裝幀和來源鏈</td></tr><tr><td>雷文的英國書業史研究；《木槌之下》（Myers, Harris & Mandelbrote 編，2001）</td><td>本次檢索均未確認中文全譯本；《木槌之下》為三人合編論文集，非雷文個人著作</td><td>書業、拍賣制度與圖錄技術</td></tr><tr><td>波米安（1987／1990）、貝爾克（1995）、明斯特伯格（1993）的收藏研究</td><td>本次檢索均未確認通行中文全譯本</td><td>收藏制度、身份與欲望結構</td></tr></tbody></table></div>",
+          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>原著或作者</th><th>中文譯介狀況</th><th>對本書的意義</th></tr></thead><tbody><tr><td>波蘭尼，《大轉型》（1944）</td><td>中文譯本充分，兩岸至少六個版本（1989遠流、2007浙江人民、2013／2017／2020社科文獻、2020春山、2021當代世界）</td><td>市場建構、嵌入與再嵌入</td></tr><tr><td>布迪厄，《區分》（1979）及「資本形式」理論</td><td>簡體全譯本2015年商務印書館出版（劉暉譯）；2023年臺灣麥田出版社出版首個繁體法文直譯全譯本（邱德亮譯）</td><td>品味、文化資本、階級區隔</td></tr><tr><td>阿帕杜萊主編，《物的社會生命》（1986）</td><td>本次檢索未確認通行中文全譯本，僅見學術評介與二手轉述</td><td>商品情境、價值政治、物的流動</td></tr><tr><td>科皮托夫，〈物的文化傳記〉（1986）</td><td>選譯收入《物質文化讀本》（北京大學出版社，2008）；未見獨立單行中譯本，流通仍以二手轉述為主</td><td>商品化、去商品化與單一化</td></tr><tr><td>達恩頓，《屠貓記》（1984）等閱讀史著作</td><td>三個中文版本（2006新星、2017商務印書館「漢譯名著」、2005台灣聯經；譯者均為呂健忠），譯介成熟</td><td>書籍流通、讀者、出版文化</td></tr><tr><td>皮爾遜的書籍物質史與來源研究（2008／2012等）</td><td>本次檢索未確認中文全譯本</td><td>藏書票、題記、裝幀和來源鏈</td></tr><tr><td>雷文的英國書業史研究；《木槌之下》（Myers, Harris & Mandelbrote 編，2001）</td><td>本次檢索均未確認中文全譯本；《木槌之下》為三人合編論文集，非雷文個人著作</td><td>書業、拍賣制度與圖錄技術</td></tr><tr><td>波米安（1987／1990）、貝爾克（1995）、明斯特伯格（1993）的收藏研究</td><td>本次檢索均未確認通行中文全譯本</td><td>收藏制度、身份與欲望結構</td></tr></tbody></table></div>",
           "說明：表中「未確認」係以截至2026年7月可檢索之公開出版與書目記錄為限，不等於斷言從未存在內部譯稿、期刊節譯或未廣泛發行之版本。"
         ]
       },
@@ -13669,7 +13669,7 @@ const insightsArticles = [
           "Belk, Russell W. <em>Collecting in a Consumer Society</em>. London: Routledge, 1995.（未確認中譯本）",
           "Bourdieu, Pierre. <em>La Distinction: Critique sociale du jugement</em>. Paris: Éditions de Minuit, 1979.｜中譯：劉暉譯《区分：判断力的社会批判》，北京：商務印書館，2015；邱德亮譯《區判：品味判斷的社會批判》，臺北：麥田出版，2023。",
           "Darnton, Robert. <em>The Great Cat Massacre and Other Episodes in French Cultural History</em>. New York: Basic Books, 1984.｜中譯：呂健忠譯《屠貓記》，北京：新星出版社，2006；呂健忠譯《屠貓狂歡：法國文化史鉤沉》，北京：商務印書館「漢譯世界學術名著叢書」，2017；呂健忠譯《貓大屠殺：法國文化史鉤沉》，臺北：聯經出版，2005。",
-          "Kopytoff, Igor. “The Cultural Biography of Things: Commoditization as Process.” In Appadurai, ed., <em>The Social Life of Things</em>, 64–91. Cambridge: Cambridge University Press, 1986.（未確認獨立中譯本）",
+          "Kopytoff, Igor. “The Cultural Biography of Things: Commoditization as Process.” In Appadurai, ed., <em>The Social Life of Things</em>, 64–91. Cambridge: Cambridge University Press, 1986.（選譯收入孟悅、羅鋼主編《物質文化讀本》，北京大學出版社，2008；未確認獨立單行中譯本）",
           "Muensterberger, Werner. <em>Collecting: An Unruly Passion: Psychological Perspectives</em>. Princeton: Princeton University Press, 1993.（未確認中譯本）",
           "Myers, Robin, Michael Harris, and Giles Mandelbrote, eds. <em>Under the Hammer: Book Auctions since the Seventeenth Century</em>. New Castle, DE & London: Oak Knoll Press & The British Library, 2001.（未確認中譯本）",
           "Pearson, David. <em>Books as History: The Importance of Books beyond Their Texts</em>. London & New Castle, DE: The British Library & Oak Knoll Press, 2008; rev. ed. 2012.（未確認中譯本）",
@@ -13684,7 +13684,120 @@ const insightsArticles = [
       "核查時間：2026-07-12。波蘭尼《大轉型／巨變／鉅變》各中譯版本（1989遠流、2007浙江人民、2013／2017社科文獻「甲骨文」、2020春山、2021當代世界）已按豆瓣、博客來、京東及出版社公開書目核對。",
       "布迪厄《區分》兩個全譯本（2015商務印書館劉暉譯；2023麥田邱德亮譯）與達恩頓三個中文版本（2006新星、2017商務印書館、2005台灣聯經，譯者均為呂健忠）已逐一核實。",
       "阿帕杜萊、科皮托夫、皮爾遜、波米安、貝爾克、明斯特伯格及《木槌之下》（Myers, Harris & Mandelbrote 合編，2001）在本次公開書目檢索中均未確認通行中文全譯本；「未確認」表述以2026年7月可檢索記錄為限。",
-      "2026-07-12 同日學術體例修訂：全文改為論文體結構（章節編號、摘要關鍵詞、參考書目），增補原著出版年份與出版社資訊；西文書目條目依通行學術書目格式著錄。"
+      "2026-07-12 同日學術體例修訂：全文改為論文體結構（章節編號、摘要關鍵詞、參考書目），增補原著出版年份與出版社資訊；西文書目條目依通行學術書目格式著錄。",
+      "2026-07-12 補正：經進一步書目檢索，確認科皮托夫〈物的文化傳記〉有選譯收入孟悅、羅鋼主編《物質文化讀本》（北京大學出版社，2008）；正文、簡表與參考書目相關表述已由「未見中譯」精確化為「有讀本選譯、無獨立單行本」。詳見本欄專題文章〈論文引用型譯介〉。"
+    ],
+    "relatedReadings": [
+      "social-life-of-things-kopytoff-chinese-citation-mediated-translation"
+    ]
+  },
+  {
+    "slug": "social-life-of-things-kopytoff-chinese-citation-mediated-translation",
+    "title": "Citation-Mediated Translation: The Chinese Journey of The Social Life of Things and “The Cultural Biography of Things”",
+    "date": "2026-07-12",
+    "category": "Academic Culture",
+    "column": "culture",
+    "kicker": "物質文化 · 譯介研究",
+    "author": "蕭珩",
+    "summary": "A reception study of Arjun Appadurai's 1986 Cambridge volume and Igor Kopytoff's chapter in Chinese academia: an anthology selection exists (Peking UP, 2008), a canonical review appeared in Sociological Studies (2007), yet the volume's reception still runs through citation rather than text — a paradox this essay names citation-mediated translation and traces to its methodological costs.",
+    "titleZh": "論文引用型譯介：《物的社會生命》與〈物的文化傳記〉的中文旅行",
+    "summaryZh": "本文考察阿帕杜萊主編《物的社會生命》（1986）及科皮托夫〈物的文化傳記〉在中文學界的接受史：選譯早已在場（2008年《物質文化讀本》）、權威書評早已刊出（《社會學研究》2007年第6期），然其流通仍以論文引用而非文本閱讀為主要形態。本文將此弔詭命名為「論文引用型譯介」，並分析其概念漂移與方法論代價。",
+    "academic": true,
+    "publicationCode": "留學導報學術文化欄 · OSR-CULTURE-20260712-02",
+    "rightsNotice": "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    "relatedReadings": [
+      "material-culture-book-history-collecting-chinese-translation-review"
+    ],
+    "body": [
+      {
+        "heading": "Editorial Abstract",
+        "paragraphs": [
+          "This Chinese-language reception study examines how The Social Life of Things: Commodities in Cultural Perspective (Appadurai ed., Cambridge University Press, 1986) and Igor Kopytoff's chapter “The Cultural Biography of Things: Commoditization as Process” (pp. 64–91) have travelled into Chinese academia. It reconstructs the volume's origins in the University of Pennsylvania Ethnohistory Program (1983–84 workshop; May 1984 symposium), explicates the two theoretical engines — Appadurai's commodity situation and politics of value, Kopytoff's biographical method and singularization — and then documents the Chinese evidentiary record: Huang Ying-kuei's Taiwanese anthology on things and material culture (Academia Sinica, 2004), Shu Yu's canonical review in Sociological Studies (2007, no. 6), and the anthology selection in the Material Culture Reader (Meng Yue & Luo Gang eds., Peking University Press, 2008). The paradox that translation exists yet reception remains citation-driven is theorised as “citation-mediated translation,” a type distinct from full-translation and reader-anthology reception; its costs — conceptual drift around singularization, the loss of the volume's dialogic case-study architecture — are traced in detail. The full Chinese article is published in the Chinese Overseas Study Review."
+        ]
+      }
+    ],
+    "bodyZh": [
+      {
+        "heading": "摘要",
+        "paragraphs": [
+          "阿爾君·阿帕杜萊（Arjun Appadurai）主編的《物的社會生命：文化視野中的商品》（1986）與其中伊戈爾·科皮托夫（Igor Kopytoff）的〈物的文化傳記：商品化作為過程〉，是當代物質文化研究的奠基文獻，卻在中文世界呈現一種特殊的接受形態：選譯早已在場——孟悅、羅鋼主編《物質文化讀本》（北京大學出版社，2008）收錄科皮托夫一文之中譯；權威書評早已刊出——舒瑜〈物的生命傳記〉載《社會學研究》2007年第6期；臺灣人類學界亦於2004年出版黃應貴主編《物與物質文化》回應此一理論脈絡。然而迄今未見全書之通行中文全譯本，其概念之流通亦主要依託論文引用與二手轉述，而非對原始文本的系統閱讀。本文將此種「翻譯在場而接受仍以引用為主」的弔詭形態命名為<strong>論文引用型譯介</strong>，重構原著的理論構造與中文接受的證據鏈，分析概念漂移的具體機制，並申說其對珍本研究與文學資產化研究的方法論意涵。",
+          "<strong>關鍵詞：</strong>阿帕杜萊；科皮托夫；物的社會生命；物的文化傳記；單一化；譯介學；接受史"
+        ]
+      },
+      {
+        "heading": "一、緣起：一部由對話生成的文集",
+        "paragraphs": [
+          "理解《物的社會生命》的中文命運，須先理解其原初的知識形態。此書並非獨著，而是一部由跨學科對話生成的論文集：其篇章源於賓夕法尼亞大學民族史項目（Ethnohistory Program）1983至1984年間的工作坊，以及1984年5月23至25日在費城舉行的「商品與文化之關係」專題研討會——這是人類學家與歷史學家圍繞「商品」概念展開的一場建制化對話的產物。文集1986年由劍橋大學出版社刊行，收入「劍橋社會與文化人類學研究」叢書。",
+          "此一生成史對接受研究並非閒筆。文集的說服力繫於其對話性架構：阿帕杜萊的長篇導論〈商品與價值的政治〉（頁3–63）提出理論綱領，科皮托夫的〈物的文化傳記〉（頁64–91）提供概念引擎，而其後諸章——如帕特里克·吉爾里（Patrick Geary）論中世紀聖髑的流通、布賴恩·斯普納（Brian Spooner）論東方地毯的真確性、科林·倫弗魯（Colin Renfrew）論史前歐洲財富之出現——則以具體個案檢驗並複雜化前兩章的理論命題。換言之，這是一部理論與個案互為支撐的整體構造；任何僅擷取前兩章概念而拋卻個案諸章的接受方式，都必然改變此書的知識性格。中文接受恰恰以後一種方式展開，此為本文論證之伏線。"
+        ]
+      },
+      {
+        "heading": "二、阿帕杜萊的導論：商品情境與價值政治",
+        "paragraphs": [
+          "阿帕杜萊導論的理論貢獻，可概括為一個方法與兩組概念。方法上，他提出所謂「方法論上的拜物教」（methodological fetishism）：儘管就理論而言，是人的交易與賦值活動使物獲得意義，但就方法而言，研究者必須「追隨物自身」——追蹤其形式、用途與軌跡，因為物的社會語境唯有經由物的運動方能顯影。此一表述刻意倒轉了馬克思主義批判傳統中「拜物教」的貶義用法，將其轉化為一種分析姿態。",
+          "概念上，其一為<strong>商品情境</strong>（commodity situation）：商品不是一類物，而是物之生命史中的一種情境。物可以進入商品狀態，亦可退出之，復可再進入之；「商品階段」（commodity phase）、「商品候選資格」（commodity candidacy）與「商品語境」（commodity context）三者共同界定此一情境的時間性、規範性與社會性維度。其二為<strong>價值政治</strong>（politics of value）：在商品的社會生活中，連結價值與交換的紐帶是廣義的政治——關乎權力的關係、預設與競爭。價值體制（regimes of value）在不同交換情境間並不連續，而恰是此種不連續性，使轉移（diversion）、圈禁（enclaving）與「價值競技會」（tournaments of value）成為權力運作的場所。對珍本研究而言，此組概念的效力顯而易見：拍賣會正是典型的價值競技會，圖書館特藏正是典型的圈禁，而手稿自書桌至拍賣行的軌跡正是典型的商品情境轉換。"
+        ]
+      },
+      {
+        "heading": "三、科皮托夫：傳記方法與商品化過程",
+        "paragraphs": [
+          "科皮托夫之文以一個訪談式的設問開篇：研究一件物，可以如同研究一個人——它從何而來？誰製造了它？迄今經歷了哪些生涯？其理想的生涯為何？此即<strong>物的傳記方法</strong>。其最富張力的例證是奴隸：一個人被擄掠而商品化，被出售，繼而在新的社會情境中被重新人格化、重新嵌入親屬與社群關係——奴隸的生命史證明，商品化並非物之恆定屬性，而是一個可逆的<strong>過程</strong>（process），人與物皆可在商品狀態與非商品狀態之間往復。",
+          "在此基礎上，科皮托夫提出其核心對偶：商品化與<strong>單一化</strong>（singularization）。交換技術（尤其是貨幣）內在地趨向同質化，欲使愈來愈多的物可通約、可交換；文化則反向運作，不斷將特定之物從商品領域中抽離，宣告其神聖、獨特、不可讓渡——公共紀念物、王室珍寶、傳家之物皆屬此列。二者的持久拉鋸構成物之社會生命的基本動力學。尤須辨明者：科皮托夫的單一化原型是<strong>去商品化</strong>的——被單一化之物典型地退出交換；至於單一化反而抬升交換價值、使物以「不可替代」之名獲得更高價格的市場機制（珍本市場即為著例），乃是對其概念的延伸運用，而非其原義。此一分辨在中文接受中經常隱沒，成為概念漂移的溫床，詳見第六節。"
+        ]
+      },
+      {
+        "heading": "四、「論文引用型譯介」：一個接受類型學概念",
+        "paragraphs": [
+          "譯介研究慣以「已譯／未譯」二分描述文本的跨語旅行，然此二分無力刻畫《物的社會生命》在中文世界的實況。本文提出一個三分的接受類型學：其一為<strong>全譯本型譯介</strong>，原著以完整譯本進入目標語出版體制，如波蘭尼《大轉型》之於中文；其二為<strong>讀本選譯型譯介</strong>，原著之關鍵篇章經選譯收入教學性文選，獲得局部的文本在場；其三為<strong>論文引用型譯介</strong>，原著概念主要經由學術論文的引用、轉述與再轉述流通，文本自身（無論原文或譯文）在多數使用者的閱讀實踐中缺席。",
+          "三種類型並非互斥的階段，而可並存疊加。《物的社會生命》的特殊性在於：它同時具備第二型的局部條件（2008年讀本選譯）與第三型的主導形態——選譯的存在並未改變引用主導的流通結構。此一併存本身即是有待解釋的現象：翻譯的「在場」何以未能轉化為閱讀的「在場」？"
+        ]
+      },
+      {
+        "heading": "五、中文接受的證據鏈",
+        "paragraphs": [
+          "依時間序排列，中文世界對此書的正式回應至少包括四個節點。其一，2004年5月，臺灣中央研究院民族學研究所出版黃應貴主編《物與物質文化》，沿「物自身、物的交換、物的象徵、物的心性」四條路徑檢視民族誌中物的性質——此為漢語人類學對「物的轉向」最早的建制化回應之一，其問題意識與阿帕杜萊文集形成明確對話。其二，2007年，舒瑜於《社會學研究》第6期刊出書評〈物的生命傳記——讀《物的社會生命：文化視野中的商品》〉，系統紹介「方法論上的拜物教」「商品情境」「價值政治」與傳記方法，成為簡體學界引用鏈上的樞紐文本。其三，2008年1月，孟悅、羅鋼主編《物質文化讀本》由北京大學出版社刊行，作為第一部物質文化研究的中文經典文選，收錄科皮托夫〈物的文化傳記〉之中譯；據出版資訊，阿帕杜萊亦在選目作者之列。其四，2010年代以降，該書進入醫學人類學、消費研究、博物館學等領域的推薦書目與讀書欄目（如復旦大學醫學人類學「每週一書」），同時各類非正式的網絡譯述在學術社群平臺流通。",
+          "此一證據鏈呈現的圖景遠非「空白」：書評、文選、課程與讀書會構成了一個真實的接受基礎設施。然其共同特徵在於<strong>碎片性</strong>——每一節點各取所需（社會學取其價值理論，人類學取其民族誌方法，文選取其可教學的單篇），而文集作為整體構造——導論、概念章與七個歷史個案章之間的論證循環——從未以中文完整在場。截至2026年7月，仍未檢索到全書之通行中文全譯本。"
+        ]
+      },
+      {
+        "heading": "六、選譯在場、全譯闕如：概念漂移的機制",
+        "paragraphs": [
+          "論文引用型譯介的認識論代價，可由「單一化」一詞的中文旅程具體察知。首先是<strong>譯名的不穩定</strong>：singularization在中文文獻中被分別譯作「單一化」「獨特化」「非商品化」「去商品化」，譯名歧出使概念史的追索平添障礙。其次是<strong>原義的失焦</strong>：如前所述，科皮托夫的單一化原型指向退出交換的神聖化運動；而中文論述在挪用此詞描述奢侈品、限量商品與收藏市場時，往往未加說明地將其滑轉為「以獨特性抬升價格」的市場策略——此恰是原概念的反題。其三是<strong>對偶結構的斷裂</strong>：科皮托夫的論證力量繫於商品化與單一化的動態拉鋸，及其背後交換技術與文化分類的張力；孤立徵引任一端，皆使概念退化為標籤。",
+          "此三重漂移皆非個別學者之疏失，而是接受形態的結構性後果：當概念主要經由二手轉述流通時，語境、限定與反例——正是原文個案諸章所承載者——最先被過濾。吉爾里筆下聖髑之被竊、被贈、被商品化的中世紀流通史，斯普納筆下地毯真確性之由西方市場需求所建構，本是防止概念空轉的壓艙石；它們在中文接受中的整體缺席，使理論愈發輕盈，也愈發易於漂移。"
+        ]
+      },
+      {
+        "heading": "七、結語：對珍本研究的方法論意涵",
+        "paragraphs": [
+          "本文所描繪者，並非一個「有待補譯」的簡單缺口，而是一種有其自身邏輯的接受形態。對《蘇富比木槌：手稿證券化、死者紅利與文學期貨市場》而言，其意涵有三。第一，術語自覺：本書使用「商品情境」「價值競技會」「單一化」諸概念時，須明確標注其原義與延伸義之界線——尤其在提出「市場化單一化」這一工作概念時，應說明此係針對珍本市場對科皮托夫原概念所作的反題性延伸。第二，方法自覺：物的傳記方法要求追隨具體之物的完整軌跡，此正與本書以拍品編號、來源文件、估價紀錄重建手稿生命史的進路同構；引用概念而不施行方法，恰是論文引用型譯介的病灶，本書當引以為戒。第三，譯介自覺：在一個原始文本大半缺席的中文語境中書寫，本書負有雙重義務——既向讀者交代所依理論的原始構造，亦如實標示中文世界既有的接受節點（2004年臺灣文集、2007年書評、2008年讀本），使自身成為接受鏈上可被查證的一環，而非又一次無所依傍的轉述。"
+        ]
+      },
+      {
+        "heading": "接受史節點簡表",
+        "paragraphs": [
+          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>文獻</th><th>基本資訊</th><th>接受史地位</th></tr></thead><tbody><tr><td>原著文集（Appadurai ed., 1986）</td><td>劍橋大學出版社；源於賓大民族史項目1983–84工作坊及1984年5月費城研討會</td><td>全書通行中文全譯本迄未確認</td></tr><tr><td>阿帕杜萊導論〈商品與價值的政治〉（頁3–63）</td><td>商品情境、價值政治、價值競技會</td><td>主要經論文引用流通；讀本選目中在列</td></tr><tr><td>科皮托夫〈物的文化傳記〉（頁64–91）</td><td>傳記方法、商品化過程、單一化</td><td>中譯收入《物質文化讀本》（北京大學出版社，2008）</td></tr><tr><td>黃應貴主編《物與物質文化》</td><td>臺北：中央研究院民族學研究所，2004年5月</td><td>漢語人類學對「物的轉向」的建制化回應</td></tr><tr><td>舒瑜〈物的生命傳記〉</td><td>《社會學研究》2007年第6期</td><td>簡體學界引用鏈的樞紐書評</td></tr><tr><td>孟悅、羅鋼主編《物質文化讀本》</td><td>北京：北京大學出版社，2008年1月</td><td>首部物質文化研究中文文選；讀本選譯型譯介之實例</td></tr></tbody></table></div>",
+          "說明：「迄未確認」以截至2026年7月可檢索之公開出版與書目記錄為限；非正式網絡譯述因無出版要素，不列入正式接受節點。"
+        ]
+      },
+      {
+        "heading": "參考書目（選列）",
+        "paragraphs": [
+          "Appadurai, Arjun. “Introduction: Commodities and the Politics of Value.” In Appadurai, ed., <em>The Social Life of Things: Commodities in Cultural Perspective</em>, 3–63. Cambridge: Cambridge University Press, 1986.",
+          "Geary, Patrick. “Sacred Commodities: The Circulation of Medieval Relics.” In Appadurai, ed., <em>The Social Life of Things</em>, 169–191. Cambridge: Cambridge University Press, 1986.",
+          "Kopytoff, Igor. “The Cultural Biography of Things: Commoditization as Process.” In Appadurai, ed., <em>The Social Life of Things</em>, 64–91. Cambridge: Cambridge University Press, 1986.｜中譯（選譯）收入孟悅、羅鋼主編《物質文化讀本》，北京：北京大學出版社，2008。",
+          "Spooner, Brian. “Weavers and Dealers: The Authenticity of an Oriental Carpet.” In Appadurai, ed., <em>The Social Life of Things</em>, 195–235. Cambridge: Cambridge University Press, 1986.",
+          "黃應貴主編：《物與物質文化》，臺北：中央研究院民族學研究所，2004。",
+          "孟悅、羅鋼主編：《物質文化讀本》，北京：北京大學出版社，2008。",
+          "舒瑜：〈物的生命傳記——讀《物的社會生命：文化視野中的商品》〉，《社會學研究》2007年第6期。",
+          "說明：西文個案章頁碼依劍橋1986年版通行著錄；中文文獻出版資訊均經公開書目核對（2026年7月）。"
+        ]
+      }
+    ],
+    "factCheckNotes": [
+      "核查時間：2026-07-12。文集緣起（賓夕法尼亞大學民族史項目1983–84工作坊；1984年5月23–25日費城「商品與文化之關係」研討會）已按劍橋大學出版社前言資訊及圖書館書目核對。",
+      "中文接受節點已逐一核實：黃應貴主編《物與物質文化》（中研院民族所，2004年5月，456頁）；舒瑜書評載《社會學研究》2007年第6期（萬方數據刊期記錄）；孟悅、羅鋼主編《物質文化讀本》（北京大學出版社，2008年1月，561頁）收錄科皮托夫〈物的文化傳記〉中譯。",
+      "阿帕杜萊文本在《物質文化讀本》中的具體選目標題未能逐字核對，正文以「據出版資訊，阿帕杜萊亦在選目作者之列」限定表述。",
+      "全書通行中文全譯本「迄未確認」之判斷，以截至2026年7月可檢索之公開出版記錄為限。"
     ]
   },
   {
