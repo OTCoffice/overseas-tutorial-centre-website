@@ -6141,15 +6141,15 @@ const insightsArticles = [
     column: "study",
     kicker: "機構資訊 · OTHM 認可更新",
     author: "留學導報編輯部",
-    summary: "Overseas Tutorial Centre has received OTHM renewal approval in May 2026, confirming continued operation under centre number DC1802235 and clarifying the currently approved OTHM provision for students.",
+    summary: "Overseas Tutorial Centre has received OTHM renewal approval in May 2026, confirming continued operation under centre number DC11060519 and clarifying the currently approved OTHM provision for students.",
     titleZh: "海外補習中心 OTHM 認可中心資格正式更新 — 2026 年 5 月",
-    summaryZh: "2026 年 5 月，海外補習中心（OTC）收到 OTHM 中心更新批准通知，確認中心編號 DC1802235 維持不變，中心名稱同步更新，學生登記及評核安排不受影響。",
+    summaryZh: "2026 年 5 月，海外補習中心（OTC）收到 OTHM 中心更新批准通知，確認中心編號為 DC11060519，中心名稱同步更新，學生登記及評核安排不受影響。",
     body: [
       {
         heading: "1) Renewal Confirmed",
         paragraphs: [
           "On 21 May 2026, Overseas Tutorial Centre (OTC) received a centre renewal approval notice from OTHM Qualifications. The notice was issued by Elise Labram from OTHM's centre approval team and confirms OTC's continued status as an OTHM-approved teaching and assessment centre.",
-          "OTC's OTHM centre number remains DC1802235. The centre name has been updated to Overseas Tutorial Centre, replacing the previous name Overseas Tutorial College, while the centre number remains unchanged.",
+          "OTC's OTHM centre number is DC11060519. The centre name has been updated to Overseas Tutorial Centre, replacing the previous name Overseas Tutorial College.",
           "This name update does not affect existing or new learner registrations, assessment arrangements or the continuity of OTC's OTHM centre record."
         ]
       },
@@ -6176,7 +6176,7 @@ const insightsArticles = [
         heading: "4) Impact on Current and Prospective Students",
         paragraphs: [
           "OTHM confirmed in the renewal approval correspondence that OTC remained active throughout the renewal review period and that learner registration activity was not interrupted.",
-          "The centre number DC1802235 remains unchanged. Existing learner qualification registrations and assessment arrangements are therefore not affected by the centre name update.",
+          "The centre number DC11060519 is confirmed in the renewal record. Existing learner qualification registrations and assessment arrangements are therefore not affected by the centre name update.",
           "For prospective students, the renewal confirms that OTC continues to hold the appropriate OTHM centre approval to deliver and assess the approved OTHM qualifications listed in this briefing."
         ]
       },
@@ -6200,7 +6200,7 @@ const insightsArticles = [
         heading: "7) Information Basis",
         paragraphs: [
           "This briefing is based on OTHM Qualifications' renewal approval notice and correspondence records between OTC and OTHM.",
-          "Course availability, fees and entry requirements are subject to OTC's latest published information. Formal centre approval status should be checked through OTHM's official approved-centre verification channels using centre number DC1802235."
+          "Course availability, fees and entry requirements are subject to OTC's latest published information. Formal centre approval status should be checked through OTHM's official approved-centre verification channels using centre number DC11060519."
         ]
       }
     ],
@@ -6209,7 +6209,7 @@ const insightsArticles = [
         heading: "一、更新確認",
         paragraphs: [
           "2026 年 5 月 21 日，海外補習中心（Overseas Tutorial Centre，OTC）正式收到 OTHM Qualifications 頒發的中心更新批准通知。該通知由 OTHM 認可中心資格認證部門管理人 Elise Labram 發出，確認 OTC 繼續作為 OTHM 認可的教學及評核中心運作。",
-          "OTC 的 OTHM 中心編號為 DC1802235。中心名稱現正式更新為 Overseas Tutorial Centre（前稱 Overseas Tutorial College），但中心編號保持不變。",
+          "OTC 的 OTHM 中心編號為 DC11060519。中心名稱現正式更新為 Overseas Tutorial Centre（前稱 Overseas Tutorial College）。",
           "這一名稱更新不影響任何現有或新報讀學生的登記、評核安排或中心記錄連續性。"
         ]
       },
@@ -6236,7 +6236,7 @@ const insightsArticles = [
         heading: "四、對在讀及擬報讀學生的影響",
         paragraphs: [
           "OTHM 在更新批准郵件中確認，OTC 在整個更新審批期間始終作為活躍中心運作，學生登記工作未中斷。",
-          "更新後，中心號碼 DC1802235 維持不變，學生的 OTHM 資格登記及評核安排均不受中心名稱更新影響。",
+          "更新後，中心號碼以 DC11060519 為準，學生的 OTHM 資格登記及評核安排均不受中心名稱更新影響。",
           "對於正在考慮報讀 OTC OTHM 課程的學生，此次更新確認 OTC 繼續具備向學生提供已批准 OTHM 資格教學及評核的中心資格。"
         ]
       },
@@ -6260,12 +6260,12 @@ const insightsArticles = [
         heading: "七、重要提示",
         paragraphs: [
           "本文資訊以 OTHM Qualifications 官方通知及 OTC 與 OTHM 往來記錄為依據。課程供應、費用及入學要求以 OTC 最新公佈為準。",
-          "OTHM 資格的正式認可狀態可通過 OTHM 官網的 Approved Centre / centre verification 相關功能查核，中心號碼：DC1802235。"
+          "OTHM 資格的正式認可狀態可通過 OTHM 官網的 Approved Centre / centre verification 相關功能查核，中心號碼：DC11060519。"
         ]
       }
     ],
     sidebarCards: [
-      ["DC1802235", "Centre number", "OTC 的 OTHM 中心編號保持不變。", "centre"],
+      ["DC11060519", "Centre number", "OTC 的 OTHM 中心編號。", "centre"],
       ["21 May 2026", "Renewal notice", "OTHM 更新批准通知日期。", "renewal"],
       ["Overseas Tutorial Centre", "Centre name", "中心名稱由 Overseas Tutorial College 更新為 Overseas Tutorial Centre。", "name"],
       ["London W1B", "Teaching base", "OTC 倫敦 Regent Street 教學基地。", "location"]
@@ -9346,7 +9346,7 @@ const insightsArticles = [
         paragraphs: [
                 "本文所列課程資訊及院校政策以各院校、training.gov.au、AHPRA、ANMAC、NMBA、Home Affairs 及各州領地官方最新公佈為準。",
                 "澳洲醫療職業的執業資格須由相關監管機構評審確認。涉及技術移民及職業提名事項，請查閱 SkillSelect、Home Affairs 及各州領地提名官方頁面，並諮詢 MARA / OMARA 移民代理。本文不構成移民建議、法律意見、就業結果保證或執業資格認定。",
-                "OTC 為 OTHM 官方認可教學及評核中心（Centre No. DC1802235），Overseas Tutorial Centre Ltd，Companies House No. 11060519。"
+                "OTC 為 OTHM 官方認可教學及評核中心（Centre No. DC11060519），Overseas Tutorial Centre Ltd，Companies House No. 11060519。"
               ]
       },
       {
@@ -11954,7 +11954,7 @@ const insightsArticles = [
         heading: "新增資格核准確認",
         paragraphs: [
                 "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 發出的 Additional Qualification Approval Email。該郵件確認，Overseas Tutorial Centre 已獲准 promotion and deliver 信中列明的 additional qualifications。",
-                "OTC 的 OTHM 中心編號為 DC1802235。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
+                "OTC 的 OTHM 中心編號為 DC11060519。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
                 "本次公告只確認中心新增資格範圍；具體開班、招生、導師安排、IQA、assessment 和學生註冊，仍以 OTC 及 OTHM 當時最新程序為準。"
               ]
       },
@@ -12019,7 +12019,7 @@ const insightsArticles = [
         heading: "新增資格核准確認",
         paragraphs: [
                 "2026 年 5 月 29 日，OTC 收到 OTHM Centre Accreditation 發出的 Additional Qualification Approval Email。該郵件確認，Overseas Tutorial Centre 已獲准 promotion and deliver 信中列明的 additional qualifications。",
-                "OTC 的 OTHM 中心編號為 DC1802235。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
+                "OTC 的 OTHM 中心編號為 DC11060519。此次新增資格核准，是在中心更新與既有認可記錄基礎上的進一步資格範圍確認。",
                 "本次公告只確認中心新增資格範圍；具體開班、招生、導師安排、IQA、assessment 和學生註冊，仍以 OTC 及 OTHM 當時最新程序為準。"
               ]
       },
@@ -18036,7 +18036,7 @@ const home = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Quality, Standards &amp; Recognitions</div>
         <h2>UK regulated qualifications, delivered by an approved centre.</h2>
-        <p>Overseas Tutorial Centre is an approved centre of OTHM Qualifications (Centre No. DC1802235, approval valid until 30 June 2031), delivering UK regulated qualifications in the heart of London.</p>
+        <p>Overseas Tutorial Centre is an approved centre of OTHM Qualifications (Centre No. DC11060519, approval valid until 30 June 2031), delivering UK regulated qualifications in the heart of London.</p>
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>Regulated by Ofqual</strong><span>OTHM is approved and regulated by Ofqual (Office of Qualifications and Examinations Regulation), the UK government regulator responsible for maintaining standards and confidence in GCSEs, A Levels and a wide range of vocational qualifications in England. Every OTHM qualification can be verified on the official Register of Regulated Qualifications at register.ofqual.gov.uk.</span></article>
@@ -21450,8 +21450,8 @@ const chineseEntrance = pageShell({
         <a class="zh-home-othm-status" href="/othm-qualifications/">
           <span>OTHM Approved Centre</span>
           <strong>OTHM 中心狀態</strong>
-          <p>中心號碼 DC1802235，有效期至 2031 年 6 月 30 日。作為資格與 progression 支撐，不再壓過學習主入口。</p>
-          <div class="zh-home-facts"><b>DC1802235</b><b>2031-06-30</b><b>UK RQF</b></div>
+          <p>中心號碼 DC11060519，有效期至 2031 年 6 月 30 日。作為資格與 progression 支撐，不再壓過學習主入口。</p>
+          <div class="zh-home-facts"><b>DC11060519</b><b>2031-06-30</b><b>UK RQF</b></div>
           <em>查看資格路線 →</em>
         </a>
         <a class="zh-home-feature-card is-planning" href="/insights/credit-alliance/">
@@ -21468,7 +21468,7 @@ const chineseEntrance = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Quality, Standards &amp; Recognitions</div>
         <h2>品質、標準與認可：受英國官方監管的資歷體系。</h2>
-        <p>海外督導（Overseas Tutorial Centre）是 OTHM 資歷頒授機構的授權教學中心（中心號碼 DC1802235，有效期至 2031 年 6 月 30 日），在倫敦市中心開辦受英國官方監管的正規資歷課程。</p>
+        <p>海外督導（Overseas Tutorial Centre）是 OTHM 資歷頒授機構的授權教學中心（中心號碼 DC11060519，有效期至 2031 年 6 月 30 日），在倫敦市中心開辦受英國官方監管的正規資歷課程。</p>
       </div>
       <div class="index-grid">
         <article><b>01</b><strong>Ofqual 官方監管</strong><span>OTHM 由英國資歷及考試監管局 Ofqual（Office of Qualifications and Examinations Regulation）批准並監管。Ofqual 是英國政府官方監管部門，負責維護英格蘭 GCSE、A Level 及各類職業資歷的標準與公信力；每項 OTHM 資歷均可在官方受監管資歷名冊 register.ofqual.gov.uk 公開查證。</span></article>
@@ -27574,7 +27574,7 @@ const australiaOfficePresence = pageShell({
           <article>
             <b>Centre Status</b>
             <strong>OTHM approved centre status renewed</strong>
-            <p>Overseas Tutorial Centre has been renewed as an approved OTHM Centre. The centre record continues under centre number <em>DC1802235</em>, with approval valid until <em>30 June 2031</em>.</p>
+            <p>Overseas Tutorial Centre has been renewed as an approved OTHM Centre. The centre record continues under centre number <em>DC11060519</em>, with approval valid until <em>30 June 2031</em>.</p>
             <a href="/othm-qualifications/">View OTHM route</a>
           </article>
           <article>
@@ -28055,7 +28055,7 @@ const australiaOfficePresenceZh = pageShell({
       <div class="institutional-update-board">
         <div class="institutional-update-head"><span>Centre Updates · 2026 年 5 月</span><h2>中心狀態與澳洲辦公室更新</h2><p>本區記錄可公開展示的中心狀態、澳洲辦公室發展和治理更新。證書、郵件記錄及內部審核文件另行保存在 OTC 文件系統。</p></div>
         <div class="institutional-update-cards">
-          <article><b>中心狀態</b><strong>OTHM approved centre status renewed</strong><p>Overseas Tutorial Centre 已續期為 OTHM approved centre。中心號 <em>DC1802235</em> 保持不變，批准有效期至 <em>2031 年 6 月 30 日</em>。</p><a href="/othm-qualifications/">查看 OTHM 路線</a></article>
+          <article><b>中心狀態</b><strong>OTHM approved centre status renewed</strong><p>Overseas Tutorial Centre 已續期為 OTHM approved centre。中心號為 <em>DC11060519</em>，批准有效期至 <em>2031 年 6 月 30 日</em>。</p><a href="/othm-qualifications/">查看 OTHM 路線</a></article>
           <article><b>澳洲辦公室</b><strong>OTC Australia 執行董事任命</strong><p>Georgie Barnes 已正式受任為 Executive Director, OTC Australia，支持本地協調、院校溝通、學生路線發展及專業轉介邊界。</p><a href="#australia-director">查看歡迎詞</a></article>
           <article><b>運作更新</b><strong>澳洲辦公室銀行安排已開通</strong><p>OTC Australia 的本地銀行安排已完成開通，可支持澳洲辦公室日常行政、教育服務協調、發票處理與市場運作。具體付款資訊僅以正式 invoice 或 OTC 書面通知為準。</p><a href="#centre-updates">查看更新</a></article>
           <article><b>院校合作</b><strong>澳洲院校合作進度已建立公開索引</strong><p>OTC 已把 Study NSW briefing、CDU Global enquiry、學校資料審核稿與代理 / 代表申請準備度整理為澳洲院校合作進度。正式代理身份仍以院校書面協議為準。</p><a href="#australia-institutional-progress">查看合作進度</a></article>
