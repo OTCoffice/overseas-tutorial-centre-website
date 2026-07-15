@@ -18031,6 +18031,20 @@ const home = pageShell({
         </aside>
       </div>
     </section>
+
+    <section class="band compact-band quality-recognitions-section" id="quality-standards-recognitions">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Quality, Standards &amp; Recognitions</div>
+        <h2>UK regulated qualifications, delivered by an approved centre.</h2>
+        <p>Overseas Tutorial Centre is an approved centre of OTHM Qualifications (Centre No. DC1802235, approval valid until 30 June 2031), delivering UK regulated qualifications in the heart of London.</p>
+      </div>
+      <div class="index-grid">
+        <article><b>01</b><strong>Regulated by Ofqual</strong><span>OTHM is approved and regulated by Ofqual (Office of Qualifications and Examinations Regulation), the UK government regulator responsible for maintaining standards and confidence in GCSEs, A Levels and a wide range of vocational qualifications in England. Every OTHM qualification can be verified on the official Register of Regulated Qualifications at register.ofqual.gov.uk.</span></article>
+        <article><b>02</b><strong>Full member of FAB</strong><span>OTHM is a full member of the Federation of Awarding Bodies, the UK trade association for vocational awarding bodies, representing the interests of over 110 members and supporting high-quality, valued vocational qualifications.</span></article>
+        <article><b>03</b><strong>Global recognition and progression</strong><span>OTHM's academic partnerships in the UK and overseas mean its qualifications are recognised globally: graduates can progress onto degree and Master's top-up programmes at partner universities while enhancing their employability.</span></article>
+      </div>
+      <p class="source-note">As an approved OTHM centre, OTC is subject to ongoing quality assurance, with teaching, assessment and student support reviewed against UK national standards. Qualification register: https://register.ofqual.gov.uk</p>
+    </section>
   `
 });
 
@@ -21448,6 +21462,20 @@ const chineseEntrance = pageShell({
           <em>查看學分聯盟 →</em>
         </a>
       </div>
+    </section>
+
+    <section class="band compact-band zh-home-quality zh-mobile-single-stack" id="quality-standards-recognitions" aria-label="品質、標準與認可">
+      <div class="section-head compact-head">
+        <div class="eyebrow">Quality, Standards &amp; Recognitions</div>
+        <h2>品質、標準與認可：受英國官方監管的資歷體系。</h2>
+        <p>海外督導（Overseas Tutorial Centre）是 OTHM 資歷頒授機構的授權教學中心（中心號碼 DC1802235，有效期至 2031 年 6 月 30 日），在倫敦市中心開辦受英國官方監管的正規資歷課程。</p>
+      </div>
+      <div class="index-grid">
+        <article><b>01</b><strong>Ofqual 官方監管</strong><span>OTHM 由英國資歷及考試監管局 Ofqual（Office of Qualifications and Examinations Regulation）批准並監管。Ofqual 是英國政府官方監管部門，負責維護英格蘭 GCSE、A Level 及各類職業資歷的標準與公信力；每項 OTHM 資歷均可在官方受監管資歷名冊 register.ofqual.gov.uk 公開查證。</span></article>
+        <article><b>02</b><strong>FAB 正式會員</strong><span>OTHM 是英國頒證機構聯合會（Federation of Awarding Bodies）正式會員。FAB 代表全英逾 110 家頒證機構的權益，與監管部門、政府部門及資助機構保持緊密聯繫，確保職業資歷維持高品質與高認受性。</span></article>
+        <article><b>03</b><strong>全球認可與大學銜接</strong><span>OTHM 與英國本土及海外多所大學建立穩固學術合作，資歷獲全球廣泛認可：畢業生可銜接合作大學的學士與碩士補足課程（Top-up），以職業文憑完成正式大學學位，同時提升就業競爭力。</span></article>
+      </div>
+      <p class="source-note">作為 OTHM 授權中心，OTC 的教學、評核與學生支援持續接受品質保證審查，並以英國國家標準為基準。資歷查證：https://register.ofqual.gov.uk</p>
     </section>
 
     <section class="band compact-band zh-home-bookshop-footer zh-mobile-single-stack">
