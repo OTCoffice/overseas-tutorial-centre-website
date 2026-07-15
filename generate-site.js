@@ -2493,6 +2493,195 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  {
+    slug: "uk-skilled-worker-sponsor-company-name-change-otc-case-study",
+    title: "When a Sponsor Changes Its Company Name: Reading Companies House, the UKVI Register and SMS Together",
+    date: "2026-07-15",
+    category: "UK Sponsor Compliance",
+    column: "business",
+    kicker: "UK · Skilled Worker · Sponsor compliance",
+    author: "留學導報編輯部",
+    summary: "A deep public-record case study of Overseas Tutorial Centre Ltd: why Companies House shows a new company name while the UKVI sponsor register still shows the former name, what an A-rating proves, and what employers and workers must verify before a Certificate of Sponsorship is assigned.",
+    titleZh: "公司改名後，Skilled Worker Sponsor Licence 為何仍顯示舊名？——OTC 公開名冊核查案例",
+    summaryZh: "以 Overseas Tutorial Centre Ltd 為公開紀錄案例，深度拆解 Companies House、UKVI Sponsor Register 與 Sponsor Management System 三套資料為何可能不同步；並說明 A-rating 真正證明什麼、公司改名後應如何報告，以及僱主與申請人在簽發 CoS 前必須核查哪些事項。",
+    sidebarMode: "compact-practical",
+    body: [
+      {
+        heading: "1) The public-record question",
+        paragraphs: [
+          "Companies House records Overseas Tutorial Centre Ltd under company number 11060519 and shows that the company changed its name from Overseas Education & Immigration Ltd on 20 April 2026. The company number remained the same.",
+          "The UKVI Register of Worker and Temporary Worker licensed sponsors dated 15 July 2026 still lists Overseas Education & Immigration Ltd in London as Worker (A rating), Skilled Worker. The exact former name on the sponsor register and the Companies House name history connect the two public records, but the public register does not reveal the underlying SMS change-request status."
+        ]
+      },
+      {
+        heading: "2) Three records answer three different questions",
+        paragraphs: [
+          "Companies House answers which legal entity exists and what its registered name and company number are. The sponsor register answers whether an organisation name appears on UKVI's current public list, together with its broad route and rating. SMS is the sponsor's operational record for licence details, CoS allocation and change requests.",
+          "A sound verification therefore uses all three layers. A single search result is not enough to establish the full operational position of a licence."
+        ]
+      },
+      {
+        heading: "3) Corporate continuity is not the same as sponsorship continuity",
+        paragraphs: [
+          "A change of name with the same Companies House number normally indicates that the legal entity continues. It is different from a takeover, merger, transfer of ownership or the incorporation of a new employer.",
+          "However, sponsor compliance remains a separate regulatory question. The sponsor must keep UKVI informed and must ensure that its licence details, evidence and Certificates of Sponsorship accurately reflect the organisation and the genuine employment."
+        ]
+      },
+      {
+        heading: "4) What an A-rating proves — and what it does not",
+        paragraphs: [
+          "The public entry shows an A-rated Worker licence for the Skilled Worker route. This is positive evidence that the organisation is on the current public register under that name and route on the date checked.",
+          "It does not disclose the sponsor licence number, CoS allocation, compliance correspondence, pending change requests, sponsored-worker count or whether a particular vacancy is eligible. Nor does it guarantee that UKVI will approve a Defined CoS or an individual visa application."
+        ]
+      },
+      {
+        heading: "5) Reporting the organisation-name change",
+        paragraphs: [
+          "Current sponsor compliance guidance says significant organisational changes must normally be reported no later than 20 working days after the sponsor becomes aware of them. A Level 1 User can use SMS to request changes to organisation details, including its name.",
+          "A public register that still shows the former name does not, by itself, prove that the sponsor failed to report the change. A request may be pending, evidence may have been requested, or publication may not yet reflect the operational record. The sponsor should retain the submission sheet, supporting documents and UKVI response."
+        ]
+      },
+      {
+        heading: "6) CoS and visa-document risk",
+        paragraphs: [
+          "Before assigning a CoS, the sponsor should reconcile the organisation name shown in SMS with Companies House, payroll, employment contract, PAYE references and the job offer. Where the public register still uses the former name, a clear name-change evidence pack can prevent avoidable confusion.",
+          "Workers applying from outside the UK generally require a Defined CoS for Skilled Worker entry clearance; Skilled Workers applying from inside the UK generally use an Undefined CoS. The correct CoS type, eligible occupation code, genuine vacancy, salary and going-rate requirements remain separate checks."
+        ]
+      },
+      {
+        heading: "7) A worker's due-diligence sequence",
+        paragraphs: [
+          "A prospective worker should search the current official sponsor register, check the exact employer name and city, then use Companies House to match the legal entity, company number, name history and status. They should also compare the job offer, contract, CoS details and employer communications for consistency.",
+          "The worker should never treat a screenshot, recruitment message or third-party sponsor database as a substitute for the current GOV.UK register and the employer's issued CoS."
+        ]
+      },
+      {
+        heading: "8) Practical conclusion",
+        paragraphs: [
+          "As at 15 July 2026, the public evidence supports a current A-rated Skilled Worker sponsor-register entry under Overseas Education & Immigration Ltd and a Companies House continuation under the new name Overseas Tutorial Centre Ltd, company number 11060519.",
+          "The remaining operational questions — including whether the name-change request has been approved in SMS and whether an appropriate CoS is available for a specific role — cannot be answered from the public register. They must be verified inside SMS and against UKVI correspondence before sponsorship action is taken."
+        ]
+      },
+      {
+        heading: "9) Regulatory boundary",
+        paragraphs: [
+          "This case study explains how to read public records and sponsor-management evidence. It is not a statement that any particular vacancy is eligible, that a CoS will be approved or assigned, or that a visa will be granted.",
+          "Employers remain responsible for sponsor duties and workers remain responsible for meeting the Immigration Rules. Case-specific immigration advice should be obtained from an appropriately authorised adviser where required."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這宗案例真正要回答的是什麼",
+        paragraphs: [
+          "公開資料出現了一個看似矛盾、但在公司改名後並不少見的情況：Companies House 顯示公司現名為 Overseas Tutorial Centre Ltd，公司編號為 11060519；同一頁的歷史名稱則顯示，公司在 2026 年 4 月 20 日以前使用 Overseas Education & Immigration Ltd。另一方面，Home Office 於 2026 年 7 月 15 日發布的 Worker and Temporary Worker Sponsor Register，仍以舊名 Overseas Education & Immigration Ltd 列出該組織，城市為 London，類別與評級為 Worker (A rating)，路線為 Skilled Worker。",
+          "這不是一句『有牌照』或『沒有牌照』就能結束的問題。深度核查必須回答四件事：兩個名稱是否屬於同一法人；公開名冊能證明到哪一步；公司改名後應履行什麼 Sponsor reporting duty；以及在名稱尚未同步時，簽發 CoS、簽訂僱傭合同和遞交簽證會出現哪些證據風險。"
+        ]
+      },
+      {
+        heading: "二、先把公開紀錄放進同一條時間線",
+        paragraphs: [
+          "Companies House 與 UKVI 名冊記錄的是不同制度下的資料，更新節奏也不同。把兩者按日期排在一起，才能看清楚『法人已改名』與『Sponsor Register 尚顯示舊名』可以同時成立。",
+          `<div class="article-service-table"><table><thead><tr><th>日期</th><th>公開事件</th><th>可以確認的事實</th><th>不能單憑此事確認</th></tr></thead><tbody><tr><td>2017-11-13</td><td>公司成立</td><td>公司編號 11060519；原名 Overseas Education & Immigration Ltd</td><td>何時首次獲批 Sponsor Licence</td></tr><tr><td>2026-04-20</td><td>Companies House 完成改名</td><td>現名 Overseas Tutorial Centre Ltd；法人編號不變</td><td>UKVI 是否已在同日更新 SMS</td></tr><tr><td>2026-07-15</td><td>UKVI 發布最新 Worker Sponsor Register</td><td>舊名仍列為 London、Worker (A rating)、Skilled Worker</td><td>名稱變更申請是否 pending、是否曾補件、CoS 餘額</td></tr></tbody></table></div>`,
+          "同一公司編號是連接新舊名稱的重要法人證據；UKVI 名冊則提供牌照在公開層面的現況訊號。兩者需要合併閱讀，但不能把 Companies House 的改名紀錄直接當成 UKVI 已批准更新 Sponsor Licence 名稱的證明。"
+        ]
+      },
+      {
+        heading: "三、Companies House、公開 Sponsor Register 與 SMS 各自證明什麼",
+        paragraphs: [
+          "最常見的判讀錯誤，是把三套系統當成同一個資料庫。實際上，它們各自回答不同問題：Companies House 管公司法人公開登記；Sponsor Register 是 UKVI 對外公布的持牌組織名冊；SMS 則是 Sponsor 日常管理牌照、申請及簽發 CoS、報告變更的操作系統。",
+          `<div class="article-service-table"><table><thead><tr><th>系統</th><th>核心問題</th><th>公開可見內容</th><th>核查限制</th></tr></thead><tbody><tr><td>Companies House</td><td>哪一個法人實體存在？</td><td>公司名稱、編號、狀態、地址、歷史名稱、申報文件</td><td>不證明公司持有任何移民牌照</td></tr><tr><td>UKVI Sponsor Register</td><td>哪個組織名稱目前出現在持牌名冊？</td><td>組織名稱、城市、Licence type / rating、Route</td><td>不公開牌照號碼、CoS 額度、內部調查或 pending request</td></tr><tr><td>Sponsor Management System</td><td>牌照目前如何運作？</td><td>只向獲授權的 Sponsor users 開放</td><td>外部求職者無法自行查閱</td></tr></tbody></table></div>`,
+          "因此，合規結論應採用『公開名冊 + 法人紀錄 + SMS 內部讀回』三層證據。只看其中任何一層，都可能得到不完整甚至錯誤的答案。"
+        ]
+      },
+      {
+        heading: "四、法人延續不等於 Sponsor Licence 自動完成同步",
+        paragraphs: [
+          "公司只是改名、公司編號保持不變，通常表示法人實體延續，並不是把業務賣給另一家公司，也不是成立了一個新僱主。這與 takeover、merger、change of direct ownership、TUPE transfer 或新公司承接員工，有本質差別。",
+          "但『法人仍是同一個』只能解決公司法身份問題，不能替代 Sponsor compliance。Sponsor Licence 是受 UKVI 規管的許可，牌照持有人仍須透過 SMS 報告公司名稱、地址、組織結構、關鍵人員等重大變化，並保留所需證據。公司改名證書不會自行把 SMS、公開名冊、PAYE、僱傭合同與既有 CoS 全部同步。",
+          "實務上要把兩條線分開：第一條是 corporate continuity，即新舊名稱是否屬於同一法人；第二條是 sponsorship record continuity，即 UKVI 是否已收到、審閱及更新相關 Sponsor 資料。第一條成立，並不自動證明第二條已完成。"
+        ]
+      },
+      {
+        heading: "五、A-rating 的證明力與邊界",
+        paragraphs: [
+          "截至核查日，公開名冊中的紀錄為 Worker (A rating)、Skilled Worker。這是一項重要的正面證據：它表明該名稱在當日的官方公開名冊上，並以 A-rating 列於 Skilled Worker 路線。對求職者而言，這比第三方網站、招聘廣告或公司自行製作的證書截圖可靠得多。",
+          "但 A-rating 不是一張『任何職位都能擔保』的通行證。公開名冊不會告訴讀者 Sponsor Licence Number、首次批准日期、Undefined CoS allocation、Defined CoS 審批狀況、現有受擔保員工人數、UKVI 往來信件，或某個具體職位是否符合 occupation code、skill level、salary threshold 與 going rate。",
+          "A-rating 同樣不等於簽證保證。僱主必須提供真實職位並履行 Sponsor duties；申請人仍須滿足 Immigration Rules、身份與適任性要求。UKVI 仍可對 Defined CoS、Sponsor 合規或個人簽證申請作進一步審查。"
+        ]
+      },
+      {
+        heading: "六、公司改名後的 20 個工作日報告義務",
+        paragraphs: [
+          "現行 Worker sponsor compliance guidance 要求 Sponsor 將重大組織變更通知 UKVI；除更換 Authorising Officer 或 Key Contact 等另有規定的情況外，一般應在知悉變更後不遲於 20 個工作日報告。組織名稱正是指引明列可由 Level 1 User 透過 SMS 的 Request changes to licence details 功能修改的資料。",
+          "SMS Manual 的操作邏輯是：進入 Licence summary and applications，選擇 Request changes to licence details，再進入 Amend your organisation details，提交原因、變更資料與聲明；部分情況還要遞交 submission sheet 及證明文件。公司應保存改名證書、Companies House filing、董事決議、SMS submission sheet、上傳證據、UKVI acknowledgment、補件通知與最終批准。",
+          "本案例的公開名冊在 7 月 15 日仍顯示舊名，但這一事實本身不能證明公司沒有報告。可能性至少包括：SMS request 正在處理、UKVI 曾要求補件、內部資料已變更但公開名冊尚未刷新，或申報確有延誤。外部讀者看不到 request history，因此負責任的文章只能指出『需要核查』，不能把某一種可能性寫成已證實的違規。"
+        ]
+      },
+      {
+        heading: "七、名稱不同步如何影響 CoS 與簽證文件",
+        paragraphs: [
+          "真正的風險不是版面上多了一個舊名稱，而是不同文件可能開始互相矛盾。例如：Companies House 與僱傭合同使用新名，Sponsor Register 與 SMS Licence Summary 仍使用舊名，PAYE 或銀行文件又可能處於更新過渡期。若沒有清楚的法人連接證據，申請人、律師、銀行、背景審查機構甚至 UKVI caseworker 都可能要求解釋。",
+          `<div class="article-service-table"><table><thead><tr><th>文件或系統</th><th>簽發 CoS 前要核對</th><th>建議證據</th></tr></thead><tbody><tr><td>SMS Licence Summary</td><td>Organisation name、route、rating、licence status</td><td>內部截圖或下載記錄，按資料保護要求保存</td></tr><tr><td>Companies House</td><td>現名、公司編號、改名日期</td><td>Certificate of Incorporation on Change of Name、filing history</td></tr><tr><td>Employment contract / offer</td><td>僱主法人名稱、公司編號、地址、職位、工資</td><td>由有權人士簽署的最終版本</td></tr><tr><td>PAYE / payroll</td><td>PAYE reference 與實際發薪僱主一致</td><td>PAYE 記錄、RTI / payroll evidence</td></tr><tr><td>Certificate of Sponsorship</td><td>正確 CoS 類型、occupation code、salary、work location</td><td>CoS draft review 與 assignment record</td></tr></tbody></table></div>`,
+          "從英國境外申請 Skilled Worker entry clearance，一般需要 Defined CoS；在英國境內申請的 Skilled Worker 一般使用 Undefined CoS。無論使用哪一類，名稱解釋都不能代替職位合資格、真實 vacancy、正確 occupation code、工資門檻、going rate、工作地點和 Sponsor 付費責任。",
+          "如新舊名稱仍同時出現在不同正式文件中，實務上可準備一頁 Name Change and Legal Entity Continuity Note，列明舊名、新名、公司編號、改名日期、Companies House 連結及隨附證據。這份說明的功能是連接證據，不是掩蓋或改寫原始紀錄。"
+        ]
+      },
+      {
+        heading: "八、求職者如何做六步 Sponsor due diligence",
+        paragraphs: [
+          "第一步，下載或打開當日最新的 GOV.UK Worker Sponsor Register，不要依賴數月前的截圖。第二步，同時搜尋公司現名與歷史名稱，因為改名、品牌名或集團結構可能造成搜尋落差。第三步，在 Companies House 核對公司編號、active status、註冊地址及 previous company names。",
+          "第四步，核對 offer letter、employment contract、招聘電郵域名與 CoS 上的 Sponsor 資料是否能回到同一法人。第五步，要求僱主清楚說明職位名稱、occupation code、年薪、每週工時、工作地址及使用 Defined 或 Undefined CoS 的原因。第六步，不向個人賬戶支付『購買 CoS』費用，也不要接受要求員工承擔 Sponsor Licence application fee 或 Skilled Worker CoS fee 的安排。",
+          "求職者也要理解：公司出現在名冊上，不代表公司正在招聘，不代表每一個招聘人員都獲公司授權，更不代表某個職位必然合資格。詐騙者完全可能冒用真實 Sponsor 的公司名稱，因此還要獨立核對公司域名、聯絡方式、面試流程、合同簽署人和付款要求。"
+        ]
+      },
+      {
+        heading: "九、僱主的發布前與簽發前內控清單",
+        paragraphs: [
+          "對 Sponsor 而言，最穩妥的做法不是等待求職者提出疑問，而是主動建立 change-control file。每次公司名稱、地址、董事、Authorising Officer、Key Contact、Level 1 User、PAYE reference 或營運結構發生變化，都應有事件日期、知悉日期、20個工作日截止日、SMS操作人、已交證據、UKVI reference及結果。",
+          `<div class="article-service-table"><table><thead><tr><th>控制點</th><th>通過標準</th><th>高風險訊號</th></tr></thead><tbody><tr><td>法人身份</td><td>所有文件能以同一公司編號連接</td><td>新舊名稱對應不同公司編號或不同僱主</td></tr><tr><td>SMS 名稱變更</td><td>有 submission、證據及結果記錄</td><td>無法說明是否申報，亦無留存文件</td></tr><tr><td>牌照狀態</td><td>SMS 顯示 fully active、正確 route / rating</td><td>只依賴公開名冊截圖，不讀 SMS</td></tr><tr><td>職位真實性</td><td>職責、組織需要、工資與財務能力一致</td><td>為特定申請人臨時拼湊職位或工資</td></tr><tr><td>CoS QA</td><td>另一名合資格人員複核關鍵欄位</td><td>未核對 occupation code、salary、hours、location</td></tr></tbody></table></div>`,
+          "如公開名冊長期未更新，Level 1 User 應讀取 SMS request status，核對是否需要補交 submission sheet 或證據；如出現技術問題或狀態不明，可使用官方 Business Helpdesk。內部不能只說『Companies House 已改名，所以 UKVI 一定自動更新』。"
+        ]
+      },
+      {
+        heading: "十、OTC 案例的審慎結論",
+        paragraphs: [
+          "截至 2026 年 7 月 15 日，公開證據支持以下有限但重要的結論：Overseas Tutorial Centre Ltd 是 Companies House 上的 active company，編號 11060519；其歷史名稱為 Overseas Education & Immigration Ltd，改名日期為 2026 年 4 月 20 日；UKVI 同日最新 Sponsor Register 仍以該舊名列出 London、Worker (A rating)、Skilled Worker。",
+          "因此，公開層面可以建立『同一法人新舊名稱』與『當日名冊存在 A-rated Skilled Worker entry』兩個連接。但公開資料不能證明 SMS 名稱變更 request 已批准，也不能證明公司當下擁有某個具體職位所需的 CoS、該職位符合 Skilled Worker 規則，或任何申請人必然獲簽。這些問題必須在實際 Sponsor action 前由 Level 1 User、公司合規負責人及需要時的合資格移民專業人士核查。",
+          "這宗案例的價值，不在於為某一個結論背書，而在於展示一套可重複的方法：用 Companies House 確認法人，用最新 Sponsor Register 確認公開牌照訊號，用 SMS 確認實際運作狀態，再用合同、PAYE、職位與 CoS 證據完成閉環。只有四組證據互相一致，『持牌 Sponsor』才真正轉化為一宗可安全推進的 Skilled Worker sponsorship。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["A rating", "Public register", "核查日公開名冊顯示 Worker (A rating)。", "status"],
+      ["Skilled Worker", "Licensed route", "公開紀錄列出的 Worker route。", "route"],
+      ["20 working days", "Reporting window", "重大組織變更的一般報告時限。", "duty"],
+      ["Old name shown", "Evidence gap", "需要以 SMS request history 確認更新狀態。", "check"]
+    ],
+    resources: [
+      ["GOV.UK — Register of licensed sponsors: workers", "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers"],
+      ["UKVI sponsor CSV — 15 July 2026", "https://assets.publishing.service.gov.uk/media/6a57414e9e631544544136a7/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-07-15.csv"],
+      ["Companies House — Overseas Tutorial Centre Ltd", "https://find-and-update.company-information.service.gov.uk/company/11060519"],
+      ["Companies House — filing history", "https://find-and-update.company-information.service.gov.uk/company/11060519/filing-history"],
+      ["GOV.UK — Sponsor duties and compliance", "https://www.gov.uk/government/publications/workers-and-temporary-workers-guidance-for-sponsors-part-3-sponsor-duties-and-compliance"],
+      ["GOV.UK — SMS Manual 2", "https://www.gov.uk/government/publications/manage-your-sponsorship-licence-sms-user-manual"],
+      ["GOV.UK — Certificates of Sponsorship", "https://www.gov.uk/uk-visa-sponsorship-employers/certificates-of-sponsorship"],
+      ["GOV.UK — Sponsor Management System", "https://www.gov.uk/sponsor-management-system"],
+      ["GOV.UK — Business Helpdesk", "https://www.gov.uk/government/publications/employers-and-sponsors-make-a-query-to-the-business-helpdesk"]
+    ],
+    factCheckNotes: [
+      "核查日期：2026-07-15。Companies House 顯示公司編號 11060519，現名 Overseas Tutorial Centre Ltd，原名 Overseas Education & Immigration Ltd，改名日期為 2026-04-20。",
+      "2026-07-15 UKVI Worker and Temporary Worker Sponsor Register CSV 中，以 Overseas Education & Immigration Ltd 搜得 London、Worker (A rating)、Skilled Worker。",
+      "公開 Sponsor Register 不列 Sponsor Licence Number、CoS allocation、SMS request history、受擔保員工數或個別職位資格。",
+      "Home Office Sponsor Duties and Compliance 指引 C2.3-C2.4 說明重大組織變更的一般 20 個工作日報告時限，並明列可透過 SMS 修改組織名稱。",
+      "本文只解讀公開紀錄與一般 Sponsor compliance 流程，不代表任何特定 CoS、職位或簽證結果。"
+    ],
+    relatedReadings: [
+      "uk-skilled-worker-to-ilr-5-year-checklist-2026",
+      "australia-self-sponsorship-company-sponsor-risk-check",
+      "uk-australia-application-file-naming-version-control"
+    ]
+  },
   ...australiaLicensingHotspotArticles,
   {
     slug: "btec-business-dstar-dd-clearing-russell-group-strategy",
