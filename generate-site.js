@@ -2494,6 +2494,174 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "uk-legal-english-intensive-course-summer-school-textbook-report",
+    title: "A Dedicated Textbook and Workbook System for Legal English Summer Schools: Inside the UK Legal English Intensive Course",
+    date: "2026-07-20",
+    category: "Legal English Education",
+    column: "study",
+    kicker: "UK · Legal English · Summer school adoption",
+    author: "留學導報編輯部",
+    summary: "Overseas Publishing has released a nine-volume UK Legal English Intensive Course on Payhip, built as a dedicated textbook-and-workbook system for Legal English summer school alliances: a 20-day, four-week programme with a 166-page Student's Book, controlled assessment instruments, a Traditional Chinese-English legal glossary, and law-currency checks dated 18 July 2026 under OSCOLA 5th edition.",
+    titleZh: "海外書局為 Legal English 暑校聯盟推出專用教科書與練習冊——《UK Legal English Intensive Course》九卷體系深度報導",
+    summaryZh: "海外書局（Overseas Publishing House）在 Payhip 書店上架《UK Legal English Intensive Course》系列：學員版、教師版與九卷數位全集三種產品，各 £19。本報導深度拆解這套為 Legal English 暑期課程與暑校聯盟設計的專用教材體系——20 天四週課程架構、166 頁 Student's Book、受控評估工具、繁中英法律詞彙表、以 OSCOLA 第五版為引註標準並核查法源至 2026 年 7 月 18 日的出版管控流程，以及聯盟採用時的授權與邊界。",
+    sidebarMode: "compact-practical",
+    body: [
+      {
+        heading: "1) What has been published",
+        paragraphs: [
+          "Overseas Publishing, the London-based digital imprint behind overseasuk.com, has released the UK Legal English Intensive Course as three products on its Payhip storefront: a Learner Edition, an Instructor Edition and a Complete Nine-Volume Digital Library, each priced at £19.",
+          "The series is positioned as a dedicated textbook-and-workbook system for institutions and summer school alliances delivering intensive Legal English programmes, rather than a single self-study title."
+        ]
+      },
+      {
+        heading: "2) The 20-day, four-week architecture",
+        paragraphs: [
+          "The course contains fifteen day-based teaching units across Weeks 1–3, followed by a Week 4 integration and capstone module. Week 1 covers legal systems, precedent, legal research and OSCOLA foundations; Week 2 covers contract structure, drafting verbs, warranties, indemnities and negotiation; Week 3 covers the dispute lifecycle, client interviewing, pleadings, settlement and oral advocacy.",
+          "Week 4 moves to international legal practice and professional communication, closing with a controlled capstone assessment based on a fictional client matter."
+        ]
+      },
+      {
+        heading: "3) Learner Edition: textbook and workbook in one",
+        paragraphs: [
+          "The Learner Edition contains a 166-page Student's Book combining teaching text with professional research and drafting tasks, a controlled Capstone evidence bundle, a Traditional Chinese-English legal glossary, a captioned Day 1 partner-briefing exercise, an MP3 practice track, English subtitles and a course orientation video.",
+          "The workbook function is embedded: each day-unit pairs language input with drafting, research and communication tasks that generate assessable written work."
+        ]
+      },
+      {
+        heading: "4) Instructor Edition: delivery and assessment controls",
+        paragraphs: [
+          "The Instructor Edition supplies the delivery architecture an alliance needs to run the course consistently across sites: the Teacher's Guide, Assessment Pack, Answer Key and Model Responses, confidential Capstone Teacher Key, Publication Control Pack, and captioned orientation and Day 1 listening materials.",
+          "The Assessment Pack includes a 60-minute entry diagnostic, weekly weightings, a 100-mark master rubric, separate listening, drafting and speaking rubrics, and a final course report template. Instructor files are controlled material and must not be redistributed to learners."
+        ]
+      },
+      {
+        heading: "5) The nine-volume library and set ISBN",
+        paragraphs: [
+          "The Complete Nine-Volume Digital Library consolidates the Master Manuscript, Student's Book, Teacher's Guide, Assessment Pack, Answer Key and Model Responses, Capstone Student Evidence Bundle, Capstone Teacher Key, Traditional Chinese-English Legal Glossary and Publication Control Pack, together with an OSCOLA line-audit companion and all audiovisual files.",
+          "The set carries ISBN 978-1-0666440-4-9; individual volumes are marked as not sold separately from the set."
+        ]
+      },
+      {
+        heading: "6) Source discipline and law currency",
+        paragraphs: [
+          "The publication states that law and source currency were checked to 18 July 2026, with jurisdictional focus on England and Wales and OSCOLA 5th edition as the citation standard. A legal currency note records recent developments the text reflects, including the ADR amendments to the Civil Procedure Rules overriding objective, the Arbitration Act 2025 provisions in force from 1 August 2025, and UK GDPR terminology as modified by the Data (Use and Access) Act 2025.",
+          "The Publication Control Pack functions as the official source register, giving adopting institutions a dated audit trail for the teaching content."
+        ]
+      },
+      {
+        heading: "7) Design for Chinese-speaking learners",
+        paragraphs: [
+          "The language policy is British English with Traditional Chinese learning support. Appendices include the Traditional Chinese-English legal glossary, a contract drafting phrase bank, professional email and letter banks, legal writing templates, a chapter on common errors by Chinese legal learners, and grammar for legal accuracy.",
+          "This makes the series usable both in mixed-language summer classrooms and by learners preparing for English-law study from a Chinese-language academic background."
+        ]
+      },
+      {
+        heading: "8) Boundaries",
+        paragraphs: [
+          "All client matters and transactional documents in the course are fictional teaching simulations. The publication is educational material for professional-language training and does not constitute legal advice.",
+          "Institutions seeking alliance or multi-site adoption terms can contact the publisher at office@overseasuk.com; the products themselves are available for direct download from the Payhip storefront."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、暑校聯盟的教材缺口，與這套書要補的位",
+        paragraphs: [
+          "每年暑期，面向華語學生的 Legal English 課程在倫敦、香港、台北與吉隆坡等地大量開班：大學預備班、律所實習前訓練、暑校聯盟的密集營。長期存在的問題是教材——多數課程依賴教師自編講義、影印案例與零散網上資源，沒有統一的課程架構，沒有可對外說明的評估標準，法源是否過時也無人核查。對單一課程而言這是品質問題；對需要跨site、跨城市保持一致交付的暑校聯盟而言，這是結構性缺口。",
+          "海外書局（Overseas Publishing House）本月在其 Payhip 書店上架的《UK Legal English Intensive Course》系列，正是針對這個缺口設計的專用教材體系：學員用的教科書兼練習冊、教師用的交付與評估管控包，以及供機構建檔的九卷數位全集。三種產品各定價 £19，即買即下載。",
+          "海外書局立足倫敦，是 overseasuk.com 旗下的電子書出版品牌，此前已出版 OTHM 商管系列學習指南、澳洲入籍考試指南等華語社群實用書系。這套法律英語課程以「UK Legal English Series 法律卷」為系列標識，是其首個完整的機構級課程出版物。"
+        ]
+      },
+      {
+        heading: "二、20 天四週：課程骨架先於課文",
+        paragraphs: [
+          "這套書最重要的設計決定，是先定課程骨架、再填教學內容。全課程為 20 天四週制：第一至三週共十五個以「天」為單位的密集教學單元，第四週為整合與 Capstone 結業模組。每個 day-unit 都同時包含語言輸入與產出任務，教科書與練習冊合一。",
+          `<div class="article-service-table"><table><thead><tr><th>週次</th><th>主題</th><th>日單元</th><th>核心能力</th></tr></thead><tbody><tr><td>Week 1</td><td>法律體系、研究與職業身份</td><td>Day 1–5：職業身份與入學診斷、法律體系與比較解釋、判例與法律推理、法律研究與 OSCOLA 基礎、客戶溝通與週整合評估</td><td>法源紀律、引註、專業書面語</td></tr><tr><td>Week 2</td><td>合同與交易實務</td><td>Day 6–10：合同結構與定義條款、義務與起草動詞、陳述保證與盡職調查、彌償與責任談判、終止條款與整份合同審閱</td><td>合同起草與審閱</td></tr><tr><td>Week 3</td><td>爭議、訴訟與辯護</td><td>Day 11–15：爭議生命週期與時序、客戶面談與會談紀錄、訴狀證據與爭點矩陣、和解與無損害通訊談判、口頭辯護與 mini-moot</td><td>爭議解決全流程溝通</td></tr><tr><td>Week 4</td><td>國際法律實務與職業溝通</td><td>整合模組＋Capstone 結業評估（含 board-level advice 場景）</td><td>綜合應用與董事會層級意見</td></tr></tbody></table></div>`,
+          "對暑校而言，這個骨架幾乎可以直接套用：20 個教學日對應四週暑期班，每天半日授課、半日任務產出；Day 5、Day 10、Day 15 內建週整合評估，第四週以 Capstone 收束並產出可存檔的學員證據。"
+        ]
+      },
+      {
+        heading: "三、學員版：166 頁教科書與練習冊合一",
+        paragraphs: [
+          "學員版（Learner Edition）的主體是 166 頁的 Student's Book。它不是語法書加詞彙表的傳統組合，而是把每天的教學文本與專業任務綁定：法律研究任務、起草任務、客戶溝通寫作，配合受控的 Capstone 證據包（evidence bundle）——一組圍繞虛構委託人事務的文件材料，供學員在結業評估中分析與回應。",
+          "隨書附繁體中文—英文法律詞彙表、Day 1 合夥人簡報（partner-briefing）帶字幕聽力練習、MP3 練習音軌、英文字幕與課程導覽影片。聽說讀寫四項技能都有對應的材料入口，而不是只練閱讀。",
+          "值得注意的是「練習冊」的實現方式：練習不是附在章節後的填空題，而是嵌入每個 day-unit 的專業產出任務——寫一份會談紀錄、改一條彌償條款、擬一封客戶郵件。這些產出直接對接教師版的評分量表，構成可評估、可存檔的學習證據。"
+        ]
+      },
+      {
+        heading: "四、教師版：聯盟最需要的其實是管控層",
+        paragraphs: [
+          "單個教師可以靠經驗上課，聯盟不行——跨site交付必須有統一的教案、統一的評分、統一的答案邊界。教師版（Instructor Edition）提供的正是這個管控層：Teacher's Guide、Assessment Pack、Answer Key and Model Responses、保密的 Capstone Teacher Key、Publication Control Pack，以及帶字幕的課程導覽與 Day 1 聽力材料。",
+          `<div class="article-service-table"><table><thead><tr><th>評估工具</th><th>內容</th><th>聯盟用途</th></tr></thead><tbody><tr><td>入學診斷</td><td>60 分鐘 entry diagnostic</td><td>分班與起點記錄</td></tr><tr><td>週權重</td><td>Weekly weighting 架構</td><td>統一各site成績構成</td></tr><tr><td>總評量表</td><td>100 分 master rubric</td><td>跨班可比的結業成績</td></tr><tr><td>分項量表</td><td>聽力、起草、口語 rubrics</td><td>分技能回饋</td></tr><tr><td>結業報告</td><td>Final course report template</td><td>對家長／派出機構的正式交代</td></tr></tbody></table></div>`,
+          "出版方明確標示：教師版檔案屬受控教學與評估材料，不得向學員再分發。對聯盟管理者而言，這條授權邊界本身就是品質控制的一部分——答案與評分標準不外流，評估才有效力。"
+        ]
+      },
+      {
+        heading: "五、九卷全集：機構建檔與 Set ISBN",
+        paragraphs: [
+          "第三種產品是九卷數位全集（Complete Nine-Volume Digital Library），面向機構、教師與進階自學者，將整個出版體系一次交付：Master Manuscript（母稿）、Student's Book、Teacher's Guide、Assessment Pack、Answer Key and Model Responses、Capstone Student Evidence Bundle、Capstone Teacher Key、繁中英法律詞彙表、Publication Control Pack，另附 OSCOLA 逐行審核附冊與全部影音檔案。",
+          "全套書使用統一的 Set ISBN 978-1-0666440-4-9，各卷標示「Volume N of 9、不單獨銷售」。對需要向合作大學、家長或監管方說明教材出處的暑校而言，一個可查的 ISBN 套裝與一份母稿，遠比一疊來源不明的講義有說服力。"
+        ]
+      },
+      {
+        heading: "六、法源紀律：核查到 2026 年 7 月 18 日的教材",
+        paragraphs: [
+          "法律英語教材最常見的死法是過時：引註標準換版、程序規則修訂、教材裡的法條還停在五年前。這套書把「法源時效」做成了顯性製程——扉頁標明 Law and source currency checked to 18 July 2026，管轄聚焦 England and Wales，引註標準為 OSCOLA 第五版（牛津法學院 2026 年 3 月 25 日公布，James Goudkamp 主編）。",
+          "母稿卷首附 Legal Currency Note，記錄教材已反映的近期法制變化：民事訴訟規則（CPR）overriding objective 已明文納入促進與使用 ADR、法院可命令當事人參與 ADR；Arbitration Act 1996 須按 Arbitration Act 2025 修訂後文本閱讀（餘下條文 2025 年 8 月 1 日生效）；資料保護術語按 UK GDPR 及 Data (Use and Access) Act 2025 更新；另有 AI 輔助工作的職業責任與電子簽名效力的說明。",
+          "Publication Control Pack 則承擔官方法源登記冊（source register）的角色，逐項記錄依據與核查日期。對機構採用者，這意味着教材是可審計的：任何一段教學內容都能回溯到具日期的法源紀錄。"
+        ]
+      },
+      {
+        heading: "七、為華語學習者做的四層語言設計",
+        paragraphs: [
+          "系列的語言政策是 British English with Traditional Chinese learning support——正文全英文，支援層繁體中文。附錄體系為華語學習者做了四層鋪墊：第一層是繁中英法律詞彙表（Appendix A），第二層是可直接套用的語言資產——合同起草短語庫、專業郵件與書信庫、法律寫作模板（Appendix B–D），第三層是專章處理華語法律學習者常見錯誤（Appendix F），第四層是法律準確性語法（Appendix G）。",
+          "這個結構承認一個教學現實：華語學生學 Legal English 的瓶頸通常不是詞彙量，而是英式法律文體的慣用結構與母語遷移錯誤。把這兩件事做成專門附錄而不是散落的註腳，是這套書與通用法律英語教材最明顯的差異。"
+        ]
+      },
+      {
+        heading: "八、暑校聯盟如何採用：三種產品對應三種角色",
+        paragraphs: [
+          `<div class="article-service-table"><table><thead><tr><th>產品</th><th>定價</th><th>對象</th><th>核心內容</th></tr></thead><tbody><tr><td>Learner Edition 學員版</td><td>£19</td><td>學員人手一份</td><td>166 頁 Student's Book、Capstone 證據包、詞彙表、影音材料（ZIP 17MB）</td></tr><tr><td>Instructor Edition 教師版</td><td>£19</td><td>授課教師／教學點</td><td>教師指南、評估包、答案與範文、Capstone Teacher Key、出版管控包（ZIP 17MB）</td></tr><tr><td>Complete Nine-Volume Digital Library 九卷全集</td><td>£19</td><td>機構建檔、課程總監、進階自學者</td><td>母稿＋全部九卷＋OSCOLA 審核附冊＋影音（ZIP 20MB）</td></tr></tbody></table></div>`,
+          "實務上的採用模型很直接：學員按人數配學員版，每個教學點配教師版，聯盟總部留一套九卷全集作為課程檔案與教師培訓底本。三種產品都在 Payhip 即買即下載，學員版另提供免費 Preview 供決策前審閱。",
+          "有意洽談聯盟或多site採用條款的機構，可透過 office@overseasuk.com 聯絡出版方；個人與單點採購直接經 Payhip 完成即可。"
+        ]
+      },
+      {
+        heading: "九、界線寫在最前面，而不是最後面",
+        paragraphs: [
+          "這套書在每個產品頁與扉頁重複同一組聲明：所有委託人事務與交易文件均為虛構教學模擬（fictional teaching simulations）；出版物屬教育與職業語言訓練材料，不構成法律意見（not legal advice）。教師版材料受控、不得向學員分發。",
+          "對一套以「培養 source discipline 與 professional judgement」為賣點的教材，這種邊界意識是自洽的：它教的正是何時該引法源、何時該說『這需要合資格律師的意見』。暑校在對外宣傳採用這套教材時，也應沿用同一邊界——它訓練法律英語與職業判斷，不是法律執業資格課程。",
+          "截至本報導核查日（2026 年 7 月 20 日），系列三種產品均在 Payhip 海外書局書店在售。對正在為明年暑期排課的 Legal English 課程主任而言，這是一套罕見地把課程骨架、練習體系、評估管控與法源審計一次交齊的華語友好教材——值得放進教材評審的候選清單。"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["20 天", "課程長度", "三週密集教學＋第四週整合 Capstone。", "structure"],
+      ["9 卷", "數位全集", "Set ISBN 978-1-0666440-4-9，全套發行。", "series"],
+      ["OSCOLA 5th", "引註標準", "法源核查至 2026-07-18，England and Wales。", "standard"],
+      ["£19", "單品定價", "學員版／教師版／九卷全集同價，即買即下載。", "pricing"]
+    ],
+    resources: [
+      ["海外書局 Overseas Publishing — Payhip 書店", "https://payhip.com/overseaspublishing"],
+      ["UK Legal English Intensive Course — Learner Edition（學員版）", "https://payhip.com/b/W4YUo"],
+      ["UK Legal English Intensive Course — Instructor Edition（教師版）", "https://payhip.com/b/aW9ce"],
+      ["UK Legal English Intensive Course — Complete Nine-Volume Digital Library（九卷全集）", "https://payhip.com/b/eMRfE"],
+      ["Oxford Faculty of Law — OSCOLA", "https://www.law.ox.ac.uk/oscola"]
+    ],
+    factCheckNotes: [
+      "核查日期：2026-07-20。三項產品（學員版、教師版、九卷全集）均於 Payhip「Overseas Publishing」書店在售，各 £19.00；學員版與教師版為 ZIP 17MB，九卷全集為 ZIP 20MB。",
+      "學員版產品頁列明：166 頁 Student's Book、受控 Capstone 證據包、繁中英法律詞彙表、專業研究與起草任務、帶字幕 Day 1 partner-briefing 練習、MP3 練習音軌、英文字幕與課程導覽影片。",
+      "Student's Book 扉頁標示：Law and source currency checked to 18 July 2026；Jurisdictional focus: England and Wales；Citation standard: OSCOLA 5th edition；Set ISBN 978-1-0666440-4-9（Volume 2 of 9，不單獨銷售）。",
+      "課程架構（母稿）：Week 1–3 共十五個日單元，Week 4 為國際法律實務與職業溝通整合模組；評估包含 60 分鐘入學診斷、週權重、100 分總評量表、聽力／起草／口語分項量表與結業報告模板。",
+      "出版方聲明：所有委託人事務與交易文件均為虛構教學模擬，出版物不構成法律意見；教師版檔案為受控材料，不得向學員再分發。"
+    ],
+    relatedReadings: [
+      "english-test-choice-uk-aus-ielts-pte-det-checklist",
+      "othm-uk-qualifications-global-career-pathways",
+      "vietnam-the-dewey-schools-private-school-alliance-2026"
+    ]
+  },
+  {
     slug: "uk-skilled-worker-sponsor-company-name-change-otc-case-study",
     title: "When a Sponsor Changes Its Company Name: Reading Companies House, the UKVI Register and SMS Together",
     date: "2026-07-15",
