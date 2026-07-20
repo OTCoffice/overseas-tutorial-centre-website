@@ -2552,6 +2552,178 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "canada-routes-panorama-study-immigration-work-finance-guide",
+    title: "Canada Routes Panorama: Study, Immigration, Work and Finance — A Ten-Chapter Guide",
+    date: "2026-07-20",
+    category: "Canada Routes",
+    column: "study",
+    kicker: "Canada · 留學 · 移民 · 就業 · 財務",
+    author: "留學導報編輯部",
+    summary: "A ten-chapter special feature on the Canada route for Chinese-speaking students and families: the 2026 study-permit framework (caps, provincial attestation letters, PGWP language and field-of-study thresholds), programme selection, Express Entry versus Provincial Nominee pathways, budgeting, Co-op work-integrated learning, graduate applications, lawful part-time work under the 24-hour weekly limit, city and province comparison, student banking and credit, and tenant rights — with key rules checked against IRCC official pages on 20 July 2026.",
+    titleZh: "加拿大路線全景指南：留學・移民・就業・財務十講",
+    summaryZh: "《留學導報》加拿大專題特輯：十個章節走完整條加拿大路線——2026 學簽框架（配額、省級證明信 PAL、PGWP 語言與專業門檻）、選專業、快速通道與省提名對照、學費與資金證明精算、Co-op 帶薪實習、研究生申請、每週 24 小時合法打工與報稅、城市與省份評估、開戶與信用建立、租房權益。關鍵規則已於 2026 年 7 月 20 日對照 IRCC 官方頁面核查，文末附加拿大留學入口頁快速通道。",
+    sidebarMode: "compact-practical",
+    body: [
+      {
+        heading: "1) Why a panorama, not ten scattered tips",
+        paragraphs: [
+          "The Canada route now runs through four interlocking systems — study permits, post-graduation work rights, permanent-residence selection and provincial policy. A decision taken at the programme-selection stage determines options three systems later.",
+          "This special feature therefore walks the full route in ten chapters, from the 2026 study-permit framework to tenant rights, with the load-bearing rules checked against IRCC official pages on 20 July 2026."
+        ]
+      },
+      {
+        heading: "2) The 2026 study-permit framework",
+        paragraphs: [
+          "Since 2024 Canada has operated an intake-cap framework: most post-secondary applicants must include a provincial attestation letter (PAL or, in Quebec, TAL) with the study-permit application, and the acceptance letter must come from a designated learning institution (DLI) — an application without a DLI letter is refused.",
+          "Post-graduation work permits carry language and field-of-study conditions for most streams: university graduates generally need CLB 7, college graduates CLB 5, and non-degree programmes must map to eligible fields of study. Applicants should verify their specific programme against the current IRCC eligibility lists before accepting an offer."
+        ]
+      },
+      {
+        heading: "3) From study to permanent residence",
+        paragraphs: [
+          "The two dominant pathways are Express Entry's Canadian Experience Class — one year of Canadian TEER 0–3 work experience plus language scores — and the Provincial Nominee Programs, which bind candidates to a province but add 600 Comprehensive Ranking System points on nomination.",
+          "The strategic difference: CEC rewards speed and mobility, PNP rewards regional commitment. Graduates in Alberta, Saskatchewan and the Atlantic provinces often reach nomination thresholds earlier than in Ontario or British Columbia."
+        ]
+      },
+      {
+        heading: "4) Money: budget, proof of funds, banking",
+        paragraphs: [
+          "Beyond tuition, IRCC requires proof of financial support at official amounts that are revised periodically — applicants should budget against the figure in force at application time, plus first-year tuition and travel. City choice moves living costs substantially: Toronto and Vancouver rents can double those of prairie cities.",
+          "On arrival, the practical financial sequence is: open a student account with one of the major banks, obtain a credit card early to build a credit record, file a tax return every year even on low income (it unlocks credits and benefits), and understand the residency conditions attached to registered accounts such as TFSA and FHSA before using them."
+        ]
+      },
+      {
+        heading: "5) Work: Co-op, part-time rules, first job",
+        paragraphs: [
+          "Co-op programmes remain the strongest employability lever in Canadian higher education — paid placements, local references and a résumé written to North American conventions. Off campus, eligible full-time students may work up to 24 hours per week during academic terms (full-time during scheduled breaks) and must hold a social insurance number; the permitted hours and conditions are printed on the study permit itself.",
+          "These rules were checked against the IRCC work-off-campus page on 20 July 2026; unauthorized work has immigration consequences, so both student and employer should verify eligibility before the first shift."
+        ]
+      },
+      {
+        heading: "6) Where to study, and where to live",
+        paragraphs: [
+          "Ontario and British Columbia concentrate the research universities and the competition; Alberta and Saskatchewan offer lower costs and fast-growing energy and technology sectors; the Atlantic provinces pair smaller campuses with immigration-friendly regional programmes.",
+          "Tenancy is provincially regulated: use the official standard lease where one exists, know the legal limits on deposits, and carry tenant insurance. The full Chinese feature closes with a chapter on rental pitfalls and remedies, and a fast-track link to the OTC Canada gateway page for personalised assessment."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "卷首語：為什麼要用十講走完一條路線",
+        paragraphs: [
+          "加拿大路線如今由四套互相咬合的制度構成——學簽制度、畢業後工作許可、永居篩選與各省政策。選專業階段的一個決定，會在三個制度之後才顯出後果：選了不在 PGWP 合資格清單上的專科課程，畢業即失去工簽；選了安省的熱門專業，永居分數線可能高出草原省份一大截。",
+          "因此本特輯不做零散貼士，而是按決策順序把整條路線走一遍：新政框架 → 選專業 → 永居路徑 → 財務 → 實習與打工 → 研究生 → 城市 → 理財 → 租房。文中關鍵規則（DLI、打工時數、SIN）已於 2026 年 7 月 20 日對照 IRCC 官方頁面逐項核查；具體金額與分數線隨時調整，申請前請以文末官方連結的最新版本為準。",
+          "<div class=\"zh-herald-teal-box\"><div class=\"zh-herald-box-title\">💡 快速通道</div><p>如需個性化申請方案與院校初步分流，請訪問 <a href=\"/countries/canada/\">OTC 加拿大留學入口頁面</a>——含院校索引、三步申請流程與 IRCC 官方要點速覽。</p></div>"
+        ]
+      },
+      {
+        heading: "第一講：2026 學簽新政框架——配額、PAL 與 PGWP 門檻",
+        paragraphs: [
+          "自 2024 年起，加拿大對學簽實行總量配額管理：大多數專上申請人須隨學簽申請提交省級證明信（PAL；魁北克為 TAL），配額按省分配。錄取信必須來自指定教育機構（DLI）——非 DLI 錄取信會被直接拒簽，這一條已在 IRCC 官方頁面核實。",
+          "畢業後工作許可（PGWP）在 2024 年底後對多數申請人加設語言與專業門檻：大學學位畢業生一般要求 CLB 7、學院課程畢業生 CLB 5；非學位課程另須對應官方認可的緊缺專業領域（醫療、STEM、技工、農業食品等）。這意味着「先入學再說」的舊策略已失效——接受 offer 前就要核對課程是否在 PGWP 合資格清單內。",
+          "應對策略上，申請人應在擇校階段完成三項核查：課程所在院校是否 DLI、課程是否符合 PGWP 現行專業要求、自己的語言水平距離 CLB 門檻有多遠。三項有一項不確定，就先查清再交申請費。"
+        ]
+      },
+      {
+        heading: "第二講：選專業——高就業領域盤點",
+        paragraphs: [
+          "結合加拿大勞動力市場的長期缺口，三組領域值得優先考慮。技術與工程類：人工智能、軟件開發與網絡安全崗位需求持續旺盛，且多屬 PGWP 傾斜的 STEM 範疇。醫療與社會服務類：護理、理療、早教與社區服務人員長期短缺，多個省提名通道對此類職業單獨開閘。技工與應用技術類：學院（College）的電工、焊接、汽修等課程配 Co-op，就業銜接最直接。",
+          "選擇邏輯不是「哪個熱門選哪個」，而是三張清單的交集：勞動力缺口清單、PGWP 合資格專業清單、目標省份的省提名職業清單。三張清單都在的專業，才是政策意義上的「好專業」。"
+        ]
+      },
+      {
+        heading: "第三講：從留學到永居——快速通道與省提名全景對比",
+        paragraphs: [
+          "留學生轉永居的兩條主路：聯邦快速通道（Express Entry）中的加拿大經驗類（CEC），以及各省的省提名項目（PNP）。",
+          "<div class=\"article-service-table\"><table><thead><tr><th>項目類型</th><th>核心要求</th><th>適合人群</th><th>優勢與挑戰</th></tr></thead><tbody><tr><td>EE — CEC</td><td>一年加拿大境內 NOC TEER 0–3 工作經驗＋語言成績</td><td>已有本地工作經驗的本科及碩士畢業生</td><td>審批速度快；但邀請分數線隨抽籤波動</td></tr><tr><td>省提名（PNP）</td><td>符合具體省份的緊缺職業、碩博通道或僱主擔保</td><td>在特定省份就讀並就業的畢業生</td><td>獲提名後 EE 加 600 分，幾乎鎖定邀請；但需接受地域綁定</td></tr></tbody></table></div>",
+          "策略要點：CEC 賭的是速度與自由度，PNP 換的是確定性。在阿爾伯塔、薩省與海洋四省就讀的畢業生，達到提名門檻的速度通常快於安省與 BC 省——擇校時就該把「畢業後在哪個省的哪條通道排隊」想清楚。"
+        ]
+      },
+      {
+        heading: "第四講：財務規劃——學費、生活費與資金證明",
+        paragraphs: [
+          "支出分三層。學費：大學本科國際生學費普遍高於學院課程，同一學位在不同省份可相差數萬加元。生活費：多倫多、溫哥華的房租可達草原省份城市的兩倍，城市選擇本身就是財務決策。隱形支出：醫療保險（聯邦不承擔國際學生醫療費，各省安排不同）、教材、通訊與冬裝。",
+          "資金證明方面，IRCC 對生活費證明設有官方金額標準並不時上調——預算須按申請當時的官方數字（另加首年學費與旅費）準備；經 GIC（擔保投資證明）渠道的申請人須確保資金鏈在整個審理期內不斷裂。切勿臨時拆借湊數：資金來源解釋不清是常見拒簽原因。"
+        ]
+      },
+      {
+        heading: "第五講：Co-op 帶薪實習——畢業前積累本地經驗",
+        paragraphs: [
+          "Co-op 是加拿大高等教育最有含金量的設計：學期與帶薪工作交替，畢業時已有本地僱主推薦信與數段工作經歷。三件事決定 Co-op 成敗：一份按北美慣例改寫的履歷（一頁、成果導向、無照片無年齡）；行為面試（Behavioral Interview）的 STAR 應答準備；以及從第一學期就開始的 LinkedIn 與校園招聘會人脈積累。",
+          "注意 Co-op 工作需要單獨的 co-op work permit（隨學簽一併申請），與校外打工的時數限制分屬兩套規則，不可混用。"
+        ]
+      },
+      {
+        heading: "第六講：研究生申請——學術型與專業型如何選",
+        paragraphs: [
+          "研究型碩士（Research-based/Thesis）：核心是導師匹配——套磁信、研究計劃（Research Proposal）與 GPA 三件套，獎學金多與導師經費綁定，適合以博士或研究職業為目標的申請人。",
+          "授課型碩士（Course-based）：課程設置就業導向，學制短、名額多，是多數以就業移民為目標者的合理選擇；BC 省與安省均有面向碩博畢業生的省提名通道，授課型學位同樣適用，擇校時可將此納入權重。"
+        ]
+      },
+      {
+        heading: "第七講：合法打工——24 小時上限、SIN 卡與報稅",
+        paragraphs: [
+          "本講規則已於 2026 年 7 月 20 日在 IRCC 官方頁面逐條核實：全日制在讀、課程滿六個月且學簽印有打工條件的學生，學期內校外打工上限為每週 24 小時（可多份工作合計），假期可全職；開工前必須先取得社會保險號（SIN），且只能在課程正式開始後工作。",
+          "打工時數印在學簽條件欄——若舊學簽仍印 20 小時而符合現行條件，按現行 24 小時執行，但任何超時都屬 unauthorized work，會直接影響後續簽證與永居申請。",
+          "報稅是另一件「沒收入也要做」的事：留學生按時報稅可觸發 GST/HST 退稅等福利，並開始累積 RRSP 額度；報稅記錄同時是日後永居申請中工作經驗的原始證據鏈。"
+        ]
+      },
+      {
+        heading: "第八講：從多倫多到卡爾加里——省份與城市評估",
+        paragraphs: [
+          "安省與 BC 省：頂級研究型大學雲集、行業機會最多，但生活成本與永居競爭同步最高。阿爾伯塔與薩省：稅負低、房租溫和，能源與科技板塊擴張快，省提名通道相對友好——本刊的四篇阿爾伯塔大學深度文章（見文末延伸閱讀）正是這條路線的具體展開。海洋四省：生活成本最低，大西洋移民計劃（AIP）政策傾斜明顯，適合把「小城市＋快永居」作為優先級的申請人。",
+          "評估框架建議按「畢業出口」倒推：先定目標省的移民通道，再選該省的院校與專業，最後才是城市生活偏好——順序反了，就會出現「在最貴的城市讀了最難移民的專業」的組合。"
+        ]
+      },
+      {
+        heading: "第九講：金融理財第一課——開戶、信用與儲蓄工具",
+        paragraphs: [
+          "落地第一個月的財務動作清單：在五大行（RBC、TD、BMO、Scotiabank、CIBC）中選一家開學生賬戶（多數有免月費學生套餐）；儘早申請第一張信用卡並保持按時全額還款、低額度使用率——信用分（Credit Score）決定日後租房、車貸與房貸的成本。",
+          "TFSA、FHSA 等註冊賬戶對稅務居民身份與 SIN 有前置要求，留學生使用前應先確認自己的稅務居民狀態與供款額度規則，避免超額供款罰稅。理財順序永遠是：應急儲備 → 信用建立 → 再談投資。"
+        ]
+      },
+      {
+        heading: "第十講：租房全攻略——避坑與權益保障",
+        paragraphs: [
+          "租房受各省法律管轄，三個要點跨省通用。合同：有官方標準租約的省份（如安省 Standard Lease）務必使用標準文本，口頭約定一律落地為條款。押金：各省對押金種類與上限有明確規定，警惕一次索要多月預付租金的要求——多數省份此類要求並不合法。保險：租客保險（tenant insurance）覆蓋個人財產與第三方責任，保費低而覆蓋關鍵風險，簽約時多數房東亦會要求。",
+          "遇到非法驅逐或扣押押金，各省均有租務仲裁機構（如安省 LTB）受理申訴——保留書面溝通記錄是維權的前提。"
+        ]
+      },
+      {
+        heading: "結語與快速通道",
+        paragraphs: [
+          "十講合起來是一句話：加拿大路線的每一步都要「以出口定入口」——以 PGWP 定專業、以移民通道定省份、以預算定城市。政策數字年年在變，決策框架不變。",
+          "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">🔗 相關連結</div><p>院校索引、三步申請流程、IRCC 官方要點與阿爾伯塔路線深度文章，請進入 <a href=\"/countries/canada/\">OTC 加拿大留學入口頁面</a>；個性化評估可經頁內「提交初步評估」直達顧問。</p></div>"
+        ]
+      }
+    ],
+    sidebarCards: [
+      ["24 小時/週", "校外打工上限", "學期內合法時數，IRCC 頁面核查於 2026-07-20。", "policy"],
+      ["DLI", "指定院校", "學簽必須持 DLI 錄取信，否則拒簽。", "requirement"],
+      ["+600 分", "省提名加分", "PNP 獲提名後 EE 綜合排名加分。", "immigration"],
+      ["CLB 7 / 5", "PGWP 語言門檻", "大學／學院畢業生的一般要求。", "language"]
+    ],
+    resources: [
+      ["OTC 加拿大留學入口頁面", "https://overseasuk.com/countries/canada/"],
+      ["IRCC — Prepare to study in Canada（DLI 與申請時間）", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare.html"],
+      ["IRCC — Work off campus（打工時數與 SIN）", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"],
+      ["IRCC — Post-graduation work permit", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"],
+      ["IRCC — Express Entry", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"]
+    ],
+    factCheckNotes: [
+      "核查日期：2026-07-20。以下兩頁已實際讀取核對：IRCC「Prepare to study」頁（DLI 制度、非 DLI 錄取信拒簽、中小學提前六個月／專上提前一年申請、聯邦不承擔國際學生醫療費）；IRCC「Work off campus」頁（學期內每週 24 小時上限、假期全職、SIN 前置、課程開始後方可工作、舊學簽印 20 小時者按現行規則執行）。",
+      "PAL/TAL 配額制度（2024 年起）、PGWP 語言門檻（大學 CLB 7／學院 CLB 5）與專業領域要求、CEC 一年 TEER 0–3 經驗、PNP 提名加 600 分，均為 IRCC 現行公開政策框架之一般性表述；個案適用與最新細則以文中官方連結現行版本為準。",
+      "資金證明官方金額與 EE 邀請分數線隨時調整，本文刻意不引用具體數字，以避免時效失真。",
+      "原始供稿大綱中的「加拿大留學入口頁面」連結為無效佔位連結，本刊已更正為站內真實入口頁 /countries/canada/。",
+      "本文為教育資訊整理，不構成移民或法律意見；個案申請請諮詢合資格持牌顧問。"
+    ],
+    relatedReadings: [
+      "university-of-alberta-year-one-foundation-program-overview-2026",
+      "university-of-alberta-coop-internship-guide-2026",
+      "university-of-alberta-pgwp-aaip-immigration-route-2026"
+    ]
+  },
+  {
     slug: "nine-volume-editorial-system-textbook-as-edition",
     title: "Textbook as Edition: The Textual Logic and Institutional Practicality of the Nine-Volume Editorial System in Bilingual ESP Course Publishing",
     date: "2026-07-20",
