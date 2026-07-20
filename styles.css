@@ -14585,6 +14585,8 @@ h1 {
 
 .zh-academic-main .zh-herald-pullquote p {
   text-align: left;
+  font-size: 13px;
+  line-height: 1.85;
 }
 
 .zh-academic-main .zh-herald-warning-box p,
