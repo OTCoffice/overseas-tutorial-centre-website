@@ -1432,7 +1432,12 @@ const countryGatewayData = [
   { slug: "united-kingdom", zh: "英國", name: "United Kingdom", href: "/countries/united-kingdom/", labelClass: "label-country-uk", note: "OTC 英國總部所在市場，適合本科、碩士、博士、pathway、寄宿學校及國際課程銜接。", universities: ["University of Oxford", "University of Cambridge", "Imperial College London", "UCL", "King's College London", "University of Manchester", "University of Edinburgh", "University of Warwick"], colleges: ["Study Group UK / Europe ISC", "INTO University Partnerships", "Kaplan International Pathways", "Navitas UK Colleges", "Oxford International Education Group", "Cambridge Education Group"], highSchools: ["UK independent boarding schools", "Sixth form colleges", "State boarding schools", "International Study Centres"], primarySchools: ["Preparatory schools", "Junior boarding schools", "Independent primary schools", "London day schools"] },
   { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已升級為澳洲本地協調 + 中國五城宣傳並行：北京、上海、廣州、深圳、西安同步開展說明會、渠道拜訪、家長諮詢與 VET / TAFE 路線初篩。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
   { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["CATS Academy Boston (CATS Boston) — Braintree, MA boarding, Grades 8-12 / PG", "Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
-  { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", universities: ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"], colleges: ["Seneca Polytechnic", "George Brown College", "Humber College", "Centennial College", "BCIT", "Fanshawe College"], highSchools: ["Ontario public school boards", "BC school districts", "Private boarding schools", "OSSD schools"], primarySchools: ["Public elementary schools", "Private elementary schools", "International junior schools", "Catholic school boards"] },
+  { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", readings: [
+    { tag: "升學通道", title: "阿爾伯塔大學 Year One 平行大一 2026：QS94 加拿大升學通道（總覽）", href: "/zh/insights/university-of-alberta-year-one-foundation-program-overview-2026/" },
+    { tag: "工程方向", title: "阿爾伯塔大學 Year One 工程方向：Qualifying Year 先修與 Co-op GPA（2026）", href: "/zh/insights/university-of-alberta-year-one-engineering-pathway-2026/" },
+    { tag: "實習就業", title: "阿爾伯塔大學 Co-op 與實習機會 2026（含工簽新規）", href: "/zh/insights/university-of-alberta-coop-internship-guide-2026/" },
+    { tag: "移民銜接", title: "阿爾伯塔大學：PGWP 與阿爾伯塔省提名（AAIP）移民路線 2026", href: "/zh/insights/university-of-alberta-pgwp-aaip-immigration-route-2026/" }
+  ], universities: ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"], colleges: ["Seneca Polytechnic", "George Brown College", "Humber College", "Centennial College", "BCIT", "Fanshawe College"], highSchools: ["Ontario public school boards", "BC school districts", "Private boarding schools", "OSSD schools"], primarySchools: ["Public elementary schools", "Private elementary schools", "International junior schools", "Catholic school boards"] },
   { slug: "new-zealand", zh: "新西蘭", name: "New Zealand", href: "/countries/new-zealand/", labelClass: "label-country-new-zealand", note: "適合大學、理工學院、中小學及家庭型低齡留學路線。", universities: ["University of Auckland", "University of Otago", "Victoria University of Wellington", "University of Canterbury", "Massey University", "Auckland University of Technology"], colleges: ["Te Pukenga / institutes of technology", "Unitec", "Ara Institute of Canterbury", "English language colleges"], highSchools: ["Auckland secondary schools", "Wellington secondary schools", "Christchurch high schools", "Boarding schools"], primarySchools: ["Auckland primary schools", "Wellington primary schools", "Local state primary schools", "Independent primary schools"] },
   { slug: "ireland", zh: "愛爾蘭", name: "Ireland", href: "/countries/ireland/", labelClass: "label-country-ireland", note: "適合英語授課本科、碩士、醫藥、商科、科技與歐洲工作路線比較。", universities: ["Trinity College Dublin", "University College Dublin", "University of Galway", "University College Cork", "Dublin City University", "University of Limerick"], colleges: ["Technological University Dublin", "Griffith College", "Dublin Business School", "National College of Ireland"], highSchools: ["Irish boarding schools", "Dublin secondary schools", "International high schools", "Senior cycle programmes"], primarySchools: ["Dublin primary schools", "Independent primary schools", "Local national schools", "International junior routes"] },
   { slug: "singapore", zh: "新加坡", name: "Singapore", href: "/countries/singapore/", labelClass: "label-country-singapore", note: "適合亞洲英文教育、英澳美銜接、國際學校和本科/研究生路線比較。", universities: ["National University of Singapore", "Nanyang Technological University", "Singapore Management University", "Singapore University of Technology and Design", "Singapore Institute of Technology"], colleges: ["Singapore polytechnics", "Kaplan Singapore", "SIM Global Education", "PSB Academy", "James Cook University Singapore"], highSchools: ["Junior colleges", "International schools", "IB schools", "Integrated Programme schools"], primarySchools: ["International primary schools", "Local primary schools", "IB PYP schools", "British curriculum primary schools"] },
@@ -1459,6 +1464,23 @@ function countryList(items) {
 }
 
 function countryGatewayPage(country) {
+  const categories = [
+    ["01", "大學", "Universities", country.universities],
+    ["02", "學院 / Pathway", "Colleges & Pathways", country.colleges],
+    ["03", "中學", "Secondary Schools", country.highSchools],
+    ["04", "小學", "Primary & Junior", country.primarySchools]
+  ];
+  const readingsBlock = country.readings && country.readings.length ? `
+        <div class="country-readings">
+          <div class="section-head compact-head">
+            <div class="eyebrow">延伸閱讀 · 留學導報</div>
+            <h2>${country.zh}路線深度文章</h2>
+          </div>
+          <div class="country-readings-grid">
+            ${country.readings.map((reading) => `<a href="${reading.href}"><em>${reading.tag}</em><strong>${reading.title}</strong><span>閱讀全文 →</span></a>`).join("")}
+          </div>
+        </div>
+  ` : "";
   return pageShell({
     title: `${country.zh}留學入口 | OTC Study Hub`,
     current: "zh",
@@ -1472,6 +1494,9 @@ function countryGatewayPage(country) {
           <h1>${country.zh}留學入口</h1>
           <h2>${country.name}</h2>
           <p>${country.note}</p>
+          <div class="country-hero-chips">
+            ${categories.map(([, zhName, , items]) => `<span><strong>${items.length}</strong>${zhName}</span>`).join("")}
+          </div>
           <div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.name + " study route enquiry")}">提交初步評估</a><a class="btn btn-secondary" href="/zh/">返回全球地圖</a></div>
         </div>
       </section>
@@ -1482,11 +1507,20 @@ function countryGatewayPage(country) {
           <p>以下為公開展示的第一版路線索引，用於初步分流。具體可申請課程、年級、入學要求、名額、授權渠道和截止日期需要逐案確認。</p>
         </div>
         <div class="country-school-grid">
-          <article><b>01</b><strong>大學</strong><ul>${countryList(country.universities)}</ul></article>
-          <article><b>02</b><strong>學院 / Pathway</strong><ul>${countryList(country.colleges)}</ul></article>
-          <article><b>03</b><strong>中學</strong><ul>${countryList(country.highSchools)}</ul></article>
-          <article><b>04</b><strong>小學</strong><ul>${countryList(country.primarySchools)}</ul></article>
+          ${categories.map(([num, zhName, enName, items]) => `<article><b>${num}</b><strong>${zhName}</strong><em>${enName}</em><ul>${countryList(items)}</ul></article>`).join("")}
         </div>
+        <div class="country-route-steps">
+          <div class="section-head compact-head">
+            <div class="eyebrow">申請流程</div>
+            <h2>三步啟動${country.zh}路線</h2>
+          </div>
+          <div class="country-route-steps-grid">
+            <article><b>STEP 1</b><strong>初步評估</strong><p>整理學術背景、預算、目標年級與城市偏好，由顧問判斷可行路線與入學季。</p></article>
+            <article><b>STEP 2</b><strong>課程與文件準備</strong><p>成績單、語言成績、推薦信與文書；需要銜接課程時同步規劃 Pathway 或預備方案。</p></article>
+            <article><b>STEP 3</b><strong>遞交與後續</strong><p>院校申請遞交、offer 條件核對、簽證文件清單與行前安排逐項跟進。</p></article>
+          </div>
+        </div>
+        ${readingsBlock}
         <div class="country-route-actions">
           ${country.slug === "australia" ? `<a class="btn btn-dark" href="/australia-office-presence/">打開澳洲成熟路線頁</a><a class="btn btn-light" href="/zh/australia-vet-tafe-pathways/">澳洲 VET / TAFE 職業培訓</a>` : `<a class="btn btn-dark" href="/university-applications/">大學申請評估</a><a class="btn btn-light" href="/international-curriculum-tutoring/">課程與文件準備</a>`}
         </div>
