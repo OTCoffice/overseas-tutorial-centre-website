@@ -3345,23 +3345,36 @@ h1 {
   font-weight: 800;
 }
 
-.country-gateway-hero h1 {
+.page-hero.country-gateway-hero h1 {
   color: #f3ecde;
-  font-size: clamp(30px, 3.5vw, 42px);
+  font-size: clamp(20px, 2.2vw, 26px);
   font-weight: 700;
   letter-spacing: 0;
 }
 
-.country-gateway-hero h2 {
+.page-hero.country-gateway-hero h2 {
   color: rgba(255, 255, 255, 0.9);
-  font-size: clamp(18px, 1.9vw, 24px);
-  margin-top: 8px;
+  font-size: clamp(13px, 1.3vw, 16px);
+  margin-top: 6px;
 }
 
-.country-gateway-hero p {
+.page-hero.country-gateway-hero p {
   color: rgba(255, 255, 255, 0.82);
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 12px;
   max-width: 620px;
+}
+
+.country-gateway-panel .section-head h2 {
+  font-size: clamp(16px, 1.7vw, 20px);
+}
+
+.country-gateway-panel .section-head p {
+  font-size: 13px;
+  line-height: 1.75;
+  margin-top: 8px;
+  max-width: 760px;
 }
 
 .summer-alliance-hero-grid {
