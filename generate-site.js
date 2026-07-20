@@ -1473,6 +1473,191 @@ function countryList(items) {
   return items.map((item) => `<li>${item}</li>`).join("");
 }
 
+const countrySubPages = {
+  canada: [
+    {
+      slug: "study-permit",
+      navTitle: "學簽與 2026 新政",
+      navDesc: "配額、PAL、DLI 與 PGWP 門檻",
+      title: "加拿大學簽與 2026 新政",
+      subtitle: "Study Permit & Policy Framework",
+      intro: "配額制、省級證明信與 PGWP 新門檻改寫了申請邏輯：接受 offer 之前，就要把畢業後的工簽資格查清楚。",
+      sections: [
+        { heading: "配額、PAL 與 DLI：三道前置關卡", paragraphs: [
+          "自 2024 年起，加拿大對學簽實行總量配額管理：大多數專上申請人須隨學簽申請提交省級證明信（PAL；魁北克為 TAL），配額按省分配。錄取信必須來自指定教育機構（DLI）——非 DLI 錄取信會被直接拒簽，這一條已在 IRCC 官方頁面核實；全部中小學均屬 DLI，專上院校須查官方 DLI 名單。",
+          "申請時間上，IRCC 提示中小學至少提前六個月、專上課程至少提前一年向學校遞交入學申請；學校錄取後發出的 letter of acceptance 是學簽申請的必備文件。"
+        ] },
+        { heading: "PGWP 語言與專業門檻", paragraphs: [
+          "畢業後工作許可（PGWP）在 2024 年底後對多數申請人加設語言與專業門檻：大學學位畢業生一般要求 CLB 7、學院課程畢業生 CLB 5；非學位課程另須對應官方認可的緊缺專業領域（醫療、STEM、技工、農業食品等）。「先入學再說」的舊策略已失效。",
+          "擇校階段的三項核查：院校是否 DLI、課程是否符合 PGWP 現行專業要求、語言水平距離 CLB 門檻多遠。三項有一項不確定，就先查清再交申請費。"
+        ] }
+      ],
+      sources: [
+        ["IRCC — Prepare to study in Canada", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare.html"],
+        ["IRCC — Post-graduation work permit", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"]
+      ]
+    },
+    {
+      slug: "programmes",
+      navTitle: "選專業與研究生申請",
+      navDesc: "高就業領域＋學術型 vs 授課型",
+      title: "加拿大選專業與研究生申請",
+      subtitle: "Programmes & Graduate Study",
+      intro: "政策意義上的「好專業」是三張清單的交集：勞動力缺口清單、PGWP 合資格清單、目標省份的省提名職業清單。",
+      sections: [
+        { heading: "高就業領域盤點", paragraphs: [
+          "技術與工程類：人工智能、軟件開發與網絡安全崗位需求持續旺盛，且多屬 PGWP 傾斜的 STEM 範疇。醫療與社會服務類：護理、理療、早教與社區服務人員長期短缺，多個省提名通道對此類職業單獨開閘。技工與應用技術類：學院（College）的電工、焊接、汽修等課程配 Co-op，就業銜接最直接。",
+          "選擇邏輯不是「哪個熱門選哪個」，而是把勞動力缺口、PGWP 合資格專業、省提名職業三張清單疊在一起看交集。"
+        ] },
+        { heading: "研究生：學術型與授課型如何選", paragraphs: [
+          "研究型碩士（Thesis-based）：核心是導師匹配——套磁信、研究計劃與 GPA 三件套，獎學金多與導師經費綁定，適合以博士或研究職業為目標的申請人。",
+          "授課型碩士（Course-based）：課程就業導向、學制短、名額多，是多數以就業移民為目標者的合理選擇；BC 省與安省均有面向碩博畢業生的省提名通道，授課型學位同樣適用。"
+        ] }
+      ],
+      sources: [
+        ["EduCanada — 官方留學資訊", "https://www.educanada.ca/"],
+        ["IRCC — PGWP 專業領域要求", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"]
+      ]
+    },
+    {
+      slug: "immigration",
+      navTitle: "移民路線",
+      navDesc: "EE 快速通道 vs 省提名全景",
+      title: "加拿大移民路線：從留學到永居",
+      subtitle: "Immigration Pathways",
+      intro: "留學生轉永居的兩條主路：快速通道的加拿大經驗類（CEC）賭速度與自由度，省提名（PNP）換確定性。擇校時就該想清楚畢業後在哪個省的哪條通道排隊。",
+      sections: [
+        { heading: "EE 與 PNP 對照", paragraphs: [
+          `<div class="article-service-table"><table><thead><tr><th>項目類型</th><th>核心要求</th><th>適合人群</th><th>優勢與挑戰</th></tr></thead><tbody><tr><td>EE — CEC</td><td>一年加拿大境內 NOC TEER 0–3 工作經驗＋語言成績</td><td>已有本地工作經驗的本科及碩士畢業生</td><td>審批速度快；但邀請分數線隨抽籤波動</td></tr><tr><td>省提名（PNP）</td><td>符合具體省份的緊缺職業、碩博通道或僱主擔保</td><td>在特定省份就讀並就業的畢業生</td><td>獲提名後 EE 加 600 分，幾乎鎖定邀請；但需接受地域綁定</td></tr></tbody></table></div>`,
+          "在阿爾伯塔、薩省與海洋四省就讀的畢業生，達到提名門檻的速度通常快於安省與 BC 省；大西洋移民計劃（AIP）對海洋四省的政策傾斜明顯。"
+        ] },
+        { heading: "以出口定入口", paragraphs: [
+          "評估框架按「畢業出口」倒推：先定目標省的移民通道，再選該省的院校與專業，最後才是城市生活偏好——順序反了，就會出現「在最貴的城市讀了最難移民的專業」的組合。",
+          "PGWP 是兩條路的共同前提：課程資格與語言門檻見「學簽與 2026 新政」分頁；具體簽證與移民個案建議須由合資格持牌顧問提供。"
+        ] }
+      ],
+      sources: [
+        ["IRCC — Express Entry", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"],
+        ["IRCC — Provincial Nominee Program", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"],
+        ["IRCC — Atlantic Immigration Program", "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration.html"]
+      ]
+    },
+    {
+      slug: "work",
+      navTitle: "打工與 Co-op",
+      navDesc: "24 小時上限、SIN 與帶薪實習",
+      title: "加拿大打工與 Co-op 實習",
+      subtitle: "Work & Co-op",
+      intro: "校外打工每週 24 小時上限與 SIN 前置要求，已於 2026-07-20 在 IRCC 官方頁面逐條核實；Co-op 另需單獨工作許可，兩套規則不可混用。",
+      sections: [
+        { heading: "合法打工的邊界", paragraphs: [
+          "全日制在讀、課程滿六個月且學簽印有打工條件的學生，學期內校外打工上限為每週 24 小時（可多份工作合計），假期可全職；開工前必須先取得社會保險號（SIN），且只能在課程正式開始後工作。若舊學簽仍印 20 小時而符合現行條件，按現行 24 小時執行。",
+          "任何超時都屬 unauthorized work，會直接影響後續簽證與永居申請——學生與僱主都應在開工前核對資格。報稅是另一件「沒收入也要做」的事：按時報稅可觸發退稅與福利，報稅記錄同時是日後永居申請中工作經驗的證據鏈。"
+        ] },
+        { heading: "Co-op：畢業前的本地經驗引擎", paragraphs: [
+          "Co-op 學期與帶薪工作交替，畢業時已有本地僱主推薦信與數段工作經歷。三件事決定成敗：按北美慣例改寫的一頁式履歷、行為面試的 STAR 應答準備、從第一學期開始的 LinkedIn 與校園招聘會人脈積累。",
+          "Co-op 工作需要隨學簽一併申請的 co-op work permit，與校外打工時數限制分屬兩套規則。"
+        ] }
+      ],
+      sources: [
+        ["IRCC — Work off campus（已核查）", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"],
+        ["IRCC — Co-op work permit", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html"]
+      ]
+    },
+    {
+      slug: "finance",
+      navTitle: "財務與理財",
+      navDesc: "預算、資金證明、開戶與信用",
+      title: "加拿大留學財務與理財",
+      subtitle: "Finance & Banking",
+      intro: "支出分三層：學費、生活費、隱形支出；落地後的理財順序永遠是應急儲備 → 信用建立 → 再談投資。",
+      sections: [
+        { heading: "預算與資金證明", paragraphs: [
+          "大學本科國際生學費普遍高於學院課程；多倫多、溫哥華的房租可達草原省份城市的兩倍，城市選擇本身就是財務決策。隱形支出包括醫療保險（聯邦不承擔國際學生醫療費，各省安排不同）、教材、通訊與冬裝。",
+          "IRCC 對生活費證明設有官方金額標準並不時上調——預算須按申請當時的官方數字（另加首年學費與旅費）準備；經 GIC 渠道的申請人須確保資金鏈在整個審理期內不斷裂。資金來源解釋不清是常見拒簽原因。"
+        ] },
+        { heading: "落地第一個月的財務動作", paragraphs: [
+          "在五大行（RBC、TD、BMO、Scotiabank、CIBC）中選一家開學生賬戶（多數有免月費套餐）；儘早申請第一張信用卡並保持按時全額還款、低額度使用率——信用分決定日後租房、車貸與房貸的成本。",
+          "TFSA、FHSA 等註冊賬戶對稅務居民身份與 SIN 有前置要求，使用前先確認自己的稅務居民狀態與供款額度規則，避免超額供款罰稅。"
+        ] }
+      ],
+      sources: [
+        ["IRCC — Prepare to study in Canada（費用與保險）", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare.html"]
+      ]
+    },
+    {
+      slug: "living",
+      navTitle: "城市與租房",
+      navDesc: "省份評估＋租客權益",
+      title: "加拿大城市選擇與租房攻略",
+      subtitle: "Cities & Housing",
+      intro: "安省 BC 機會最多也最貴，草原省份性價比高、省提名友好，海洋四省政策傾斜最明顯；租房受各省法律管轄，標準租約與押金規則是兩道護身符。",
+      sections: [
+        { heading: "省份與城市評估", paragraphs: [
+          "安省與 BC 省：頂級研究型大學雲集、行業機會最多，但生活成本與永居競爭同步最高。阿爾伯塔與薩省：稅負低、房租溫和，能源與科技板塊擴張快，省提名通道相對友好。海洋四省：生活成本最低，大西洋移民計劃（AIP）政策傾斜明顯，適合把「小城市＋快永居」作為優先級的申請人。",
+          "本站的阿爾伯塔大學系列深度文章（入口頁「延伸閱讀」）是草原路線的具體展開。"
+        ] },
+        { heading: "租房三要點", paragraphs: [
+          "合同：有官方標準租約的省份（如安省 Standard Lease）務必使用標準文本，口頭約定一律落地為條款。押金：各省對押金種類與上限有明確規定，警惕一次索要多月預付租金——多數省份此類要求並不合法。保險：租客保險覆蓋個人財產與第三方責任，保費低而覆蓋關鍵風險。",
+          "遇到非法驅逐或扣押押金，各省均有租務仲裁機構（如安省 LTB）受理申訴——保留書面溝通記錄是維權前提。"
+        ] }
+      ],
+      sources: [
+        ["安省標準租約（Standard Lease）", "https://www.ontario.ca/page/guide-ontarios-standard-lease"]
+      ]
+    }
+  ]
+};
+
+function countrySubPage(country, sub) {
+  const siblings = (countrySubPages[country.slug] || []).filter((s) => s.slug !== sub.slug);
+  return pageShell({
+    title: `${sub.title}｜${country.zh}留學入口 | OTC Study Hub`,
+    current: "zh",
+    lang: "zh-Hant",
+    locale: "zh",
+    path: `/countries/${country.slug}/${sub.slug}/`,
+    description: `OTC ${sub.title}：${sub.navDesc}。`,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero country-subpage-hero">
+        <div class="band">
+          <a class="country-subpage-crumb" href="/countries/${country.slug}/">← ${country.zh}留學入口</a>
+          <div class="eyebrow">${sub.subtitle}</div>
+          <h1>${sub.title}</h1>
+          <p>${sub.intro}</p>
+        </div>
+      </section>
+      <section class="band country-gateway-panel">
+        ${sub.sections.map((section) => `
+        <div class="country-subpage-section">
+          <div class="section-head compact-head">
+            <h2>${section.heading}</h2>
+          </div>
+          ${section.paragraphs.map((paragraph) => paragraph.startsWith("<") ? paragraph : `<p class="country-subpage-text">${paragraph}</p>`).join("")}
+        </div>
+        `).join("")}
+        <div class="country-subpage-sources">
+          <strong>官方來源</strong>
+          ${sub.sources.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label} →</a>`).join("")}
+        </div>
+        <div class="country-subnav">
+          <div class="section-head compact-head">
+            <div class="eyebrow">${country.zh}路線其他分區</div>
+          </div>
+          <div class="country-subnav-grid">
+            ${siblings.map((s) => `<a href="/countries/${country.slug}/${s.slug}/"><strong>${s.navTitle}</strong><span>${s.navDesc}</span></a>`).join("")}
+          </div>
+        </div>
+        <div class="country-route-actions">
+          <a class="btn btn-dark" href="/zh/insights/canada-routes-panorama-study-immigration-work-finance-guide/">閱讀完整十講特輯</a>
+          <a class="btn btn-light" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(country.name + " " + sub.slug + " route enquiry")}">提交初步評估</a>
+        </div>
+        <p class="source-note">本頁為教育資訊整理，關鍵規則核查於 2026-07-20；政策數字隨時調整，申請前請以官方連結現行版本為準。具體簽證與移民個案建議須由合資格持牌專業人士提供。</p>
+      </section>
+    `
+  });
+}
+
 function countryGatewayPage(country) {
   const categories = [
     ["01", "大學", "Universities", country.universities],
@@ -1524,6 +1709,17 @@ function countryGatewayPage(country) {
         </div>
       </section>
       <section class="band country-gateway-panel">
+        ${(countrySubPages[country.slug] || []).length ? `
+        <div class="country-subnav country-subnav-lead">
+          <div class="section-head compact-head">
+            <div class="eyebrow">路線分區</div>
+            <h2>深入${country.zh}路線六個分區</h2>
+          </div>
+          <div class="country-subnav-grid">
+            ${countrySubPages[country.slug].map((s) => `<a href="/countries/${country.slug}/${s.slug}/"><strong>${s.navTitle}</strong><span>${s.navDesc}</span></a>`).join("")}
+          </div>
+        </div>
+        ` : ""}
         <div class="section-head compact-head">
           <div class="eyebrow">初步列表</div>
           <h2>${country.zh}：大學 / 學院 / 中學 / 小學</h2>
@@ -21731,7 +21927,7 @@ const zhImmigrationInfo = pageShell({
         ${[
           ["Australia", "澳洲", "學生簽證、畢業後工作、僱主擔保、州擔保、職業評估、VET/TAFE 與職業路線。", "/zh/insights/australia-migration-program-2026-27-onshore-prioritisation-what-it-means/", "澳洲導報 →"],
           ["United Kingdom", "英國", "Graduate route、Skilled Worker、僱主擔保、短缺職業、升學與工作銜接。", "/zh/insights/uk-aus-application-documents-checklist/", "英國資料 →"],
-          ["Canada", "加拿大", "PGWP、Express Entry、省提名、college/university 路線與工作經驗規劃。", "/countries/canada/", "加拿大入口 →"],
+          ["Canada", "加拿大", "PGWP、Express Entry、省提名、college/university 路線與工作經驗規劃。", "/countries/canada/immigration/", "加拿大移民路線 →"],
           ["New Zealand", "新西蘭", "Post Study Work Visa、AEWV、skill level、職業與地區路線。", "/zh/insights/new-zealand-aewv-skill-level-3-english-requirement-2026/", "新西蘭導報 →"],
           ["United States", "美國", "OPT、STEM OPT、H-1B、學術/研究路線與身份不確定性。", "/countries/united-states/", "美國入口 →"],
           ["Europe", "歐洲", "德國、荷蘭、北歐等英語授課、求職簽證、職業資格與語言門檻。", "/zh/insights/czech-nursing-english-pathway-reality-check/", "歐洲案例 →"]
@@ -31143,6 +31339,9 @@ regionalOfficePages.forEach((office) => {
 });
 countryGatewayData.filter((country) => country.slug !== "australia").forEach((country) => {
   write(`countries/${country.slug}`, countryGatewayPage(country));
+  (countrySubPages[country.slug] || []).forEach((sub) => {
+    write(`countries/${country.slug}/${sub.slug}`, countrySubPage(country, sub));
+  });
 });
 write("zh", chineseEntrance);
 write("zh/study-planning", zhStudyPlanning);

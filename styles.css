@@ -4119,6 +4119,115 @@ h1 {
   }
 }
 
+.country-subnav {
+  margin-top: 34px;
+}
+
+.country-subnav-lead {
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.country-subnav-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 14px;
+}
+
+.country-subnav-grid a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: var(--surface);
+  border: 1px solid #e7dccb;
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.country-subnav-grid a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 26px rgba(15, 35, 65, 0.1);
+  border-color: var(--gold);
+}
+
+.country-subnav-grid strong {
+  color: var(--navy);
+  font-size: 14px;
+}
+
+.country-subnav-grid span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.country-subpage-hero .band {
+  padding: 28px 0 26px;
+}
+
+.country-subpage-crumb {
+  color: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.country-subpage-crumb:hover {
+  color: var(--gold-2);
+}
+
+.country-subpage-section {
+  margin-top: 26px;
+}
+
+.country-subpage-section:first-child {
+  margin-top: 0;
+}
+
+.country-subpage-text {
+  color: #4c596b;
+  font-size: 14px;
+  line-height: 1.85;
+  max-width: 860px;
+  margin: 10px 0 0;
+}
+
+.country-subpage-sources {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+
+.country-subpage-sources strong {
+  color: var(--navy);
+  font-size: 13px;
+}
+
+.country-subpage-sources a {
+  color: var(--muted);
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: 1px solid #d8c8ab;
+}
+
+.country-subpage-sources a:hover {
+  color: #b5272d;
+  border-bottom-color: #b5272d;
+}
+
+@media (max-width: 720px) {
+  .country-subnav-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .country-readings {
   margin-top: 34px;
 }
