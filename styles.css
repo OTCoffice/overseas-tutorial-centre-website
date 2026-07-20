@@ -14460,9 +14460,48 @@ h1 {
 .zh-academic-main p {
   color: #2c241c;
   font-family: "Noto Serif TC", "Songti TC", Georgia, serif;
-  font-size: 16px;
-  line-height: 2.18;
-  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 1.85;
+  margin-bottom: 14px;
+}
+
+.zh-academic-page .zh-herald-masthead {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.zh-academic-page .zh-herald-name-zh {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.zh-academic-page .zh-herald-tagline {
+  margin-top: 3px;
+}
+
+.zh-academic-page .zh-herald-section-bar {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.zh-academic-page .zh-herald-hero {
+  padding-top: 26px;
+  padding-bottom: 20px;
+}
+
+.zh-academic-page .zh-herald-kicker {
+  margin-bottom: 10px;
+}
+
+.zh-academic-page .zh-herald-hero h1 {
+  font-size: clamp(21px, 2.4vw, 26px);
+  margin: 0 0 12px;
+}
+
+.zh-academic-page .zh-herald-standfirst {
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0 0 14px;
 }
 
 .zh-academic-subtitle {

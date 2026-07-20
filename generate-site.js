@@ -15718,7 +15718,7 @@ function heraldArticleBody(article) {
         </div>
       </header>
       ${heraldSubscribeCta("en")}
-      ${shareLinksHerald(article, "en", "top")}
+      ${article.academic ? "" : shareLinksHerald(article, "en", "top")}
       <div class="oeh-body-grid">
         <main class="oeh-main-col">
           <div class="oeh-pullquote"><p>${pullQuote}</p></div>
@@ -16456,7 +16456,7 @@ function zhArticleMagazineBody(article) {
       </div>
       ` : ""}
       ${heraldSubscribeCta("zh")}
-      ${shareLinksHerald(article, "zh", "top")}
+      ${article.academic ? "" : shareLinksHerald(article, "zh", "top")}
       ${article.zhVisualPanel || ""}
       <div class="zh-herald-body-grid">
         <main class="zh-herald-main${mainClass}">
