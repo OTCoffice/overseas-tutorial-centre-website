@@ -14600,11 +14600,11 @@ h1 {
   max-width: 720px;
   color: #1a1410;
   font-family: var(--font-claude-serif);
-  font-size: clamp(24px, 3vw, 31px);
+  font-size: clamp(17px, 4vw, 19px);
   font-weight: 900;
-  line-height: 1.24;
+  line-height: 1.4;
   letter-spacing: 0;
-  margin: 0 0 15px;
+  margin: 0 0 12px;
 }
 
 .zh-herald-hero h1 em {
@@ -14620,11 +14620,11 @@ h1 {
 .zh-herald-standfirst {
   max-width: 610px;
   color: #3d2f22;
-  font-size: 15px;
-  line-height: 1.9;
+  font-size: 13px;
+  line-height: 1.85;
   border-left: 3px solid #c8952a;
   padding-left: 16px;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
 }
 
 .zh-herald-byline {
@@ -16151,10 +16151,10 @@ h1 {
 
 .oeh-hero h1 {
   max-width: 680px;
-  margin: 0 0 12px;
+  margin: 0 0 10px;
   color: var(--oeh-ink);
   font-family: var(--font-claude-serif);
-  font-size: 38px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 0;
@@ -16166,21 +16166,21 @@ h1 {
 }
 
 .oeh-hero h2 {
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   color: var(--oeh-ink-mid);
   font-family: var(--font-claude-serif);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .oeh-hero > p {
   max-width: 560px;
-  margin: 0 0 20px;
+  margin: 0 0 18px;
   border-left: 3px solid var(--oeh-gold);
   padding-left: 16px;
   color: var(--oeh-ink-mid);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.8;
 }
 
@@ -16542,6 +16542,7 @@ h1 {
 }
 
 .oeh-share-row-top {
+  display: none !important;
   background: #1a1410;
   border-bottom: 3px solid #b5272d;
   border-top: 0;
@@ -16663,11 +16664,11 @@ h1 {
   }
 
   .oeh-hero h1 {
-    font-size: 26px;
+    font-size: 19px;
   }
 
   .oeh-hero h2 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .oeh-body-grid {
@@ -19792,7 +19793,7 @@ h1 {
   }
 
   .zh-herald-hero h1 {
-    font-size: clamp(23px, 6.4vw, 28px);
+    font-size: clamp(17px, 4.6vw, 19px);
   }
 
   .zh-herald-main p {
