@@ -4058,6 +4058,67 @@ h1 {
   margin: 0;
 }
 
+.country-official {
+  margin-top: 34px;
+}
+
+.country-official-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 16px;
+}
+
+.country-official-grid article {
+  background: var(--surface);
+  border: 1px solid #e7dccb;
+  border-left: 3px solid #b5272d;
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.country-official-grid b {
+  color: #b5272d;
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  margin-bottom: 7px;
+}
+
+.country-official-grid strong {
+  color: var(--navy);
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.country-official-grid p {
+  color: #4c596b;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.country-official-source {
+  color: var(--muted);
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 12px;
+  text-decoration: none;
+  border-bottom: 1px solid #d8c8ab;
+}
+
+.country-official-source:hover {
+  color: #b5272d;
+  border-bottom-color: #b5272d;
+}
+
+@media (max-width: 640px) {
+  .country-official-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .country-readings {
   margin-top: 34px;
 }

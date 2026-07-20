@@ -1432,7 +1432,17 @@ const countryGatewayData = [
   { slug: "united-kingdom", zh: "英國", name: "United Kingdom", href: "/countries/united-kingdom/", labelClass: "label-country-uk", note: "OTC 英國總部所在市場，適合本科、碩士、博士、pathway、寄宿學校及國際課程銜接。", universities: ["University of Oxford", "University of Cambridge", "Imperial College London", "UCL", "King's College London", "University of Manchester", "University of Edinburgh", "University of Warwick"], colleges: ["Study Group UK / Europe ISC", "INTO University Partnerships", "Kaplan International Pathways", "Navitas UK Colleges", "Oxford International Education Group", "Cambridge Education Group"], highSchools: ["UK independent boarding schools", "Sixth form colleges", "State boarding schools", "International Study Centres"], primarySchools: ["Preparatory schools", "Junior boarding schools", "Independent primary schools", "London day schools"] },
   { slug: "australia", zh: "澳洲", name: "Australia", href: "/australia-office-presence/", labelClass: "label-country-australia", note: "澳洲路線已升級為澳洲本地協調 + 中國五城宣傳並行：北京、上海、廣州、深圳、西安同步開展說明會、渠道拜訪、家長諮詢與 VET / TAFE 路線初篩。", universities: ["UNSW Sydney", "University of Sydney", "University of Melbourne", "Monash University", "University of Queensland", "Australian National University", "University of Adelaide", "University of Western Australia"], colleges: ["TAFE NSW", "UTS College", "Monash College", "UWA College", "KIC Adelaide College", "Murdoch College"], highSchools: ["NSW government schools", "Victorian government schools", "Queensland schools", "Independent boarding schools"], primarySchools: ["NSW primary schools", "Victoria primary schools", "Queensland primary schools", "Independent junior schools"] },
   { slug: "united-states", zh: "美國", name: "United States", href: "/countries/united-states/", labelClass: "label-country-us", note: "適合美本、美研、社區學院轉學、pathway 與英美路線比較。", universities: ["Harvard University", "MIT", "Stanford University", "University of California system", "New York University", "Columbia University", "University of Southern California", "Northeastern University"], colleges: ["Community colleges", "Liberal arts colleges", "Study Group North America routes", "Shorelight partner routes", "INTO US routes", "University extension pathways"], highSchools: ["CATS Academy Boston (CATS Boston) — Braintree, MA boarding, Grades 8-12 / PG", "Private day schools", "Boarding schools", "Public high school exchange routes", "International high schools"], primarySchools: ["Private elementary schools", "Independent K-12 schools", "International elementary programmes", "Local district schools"] },
-  { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", readings: [
+  { slug: "canada", zh: "加拿大", name: "Canada", href: "/countries/canada/", labelClass: "label-country-canada", note: "適合本科、研究生文憑、公立學院、OSSD / BC 課程與家庭移居教育規劃。", official: {
+    sourceName: "IRCC — Prepare to study as an international student in Canada",
+    sourceUrl: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare.html",
+    checkedDate: "2026-07-20",
+    items: [
+      { title: "DLI 指定院校制度", text: "各省／地區自管教育體系，並負責「指定」可招收國際學生的院校（Designated Learning Institution）。申請學簽必須持 DLI 發出的錄取信，否則 IRCC 將拒絕申請；全部中小學均屬 DLI，專上院校須查官方 DLI 名單。" },
+      { title: "提前申請時間", text: "IRCC 提示：中小學至少提前六個月、專上課程至少提前一年向學校遞交入學申請；各校申請規則與文件清單不同，以校方要求為準。" },
+      { title: "錄取信與學簽", text: "學校錄取後發出 letter of acceptance——這封信是申請學簽（study permit）的必備文件。申請費、學費、住宿成本與語言測試要求由校方提供。" },
+      { title: "醫療保險", text: "加拿大政府不承擔國際學生的醫療費用；醫保安排各省不同，須向就讀學校確認國際學生保險方案。" }
+    ]
+  }, readings: [
     { tag: "升學通道", title: "阿爾伯塔大學 Year One 平行大一 2026：QS94 加拿大升學通道（總覽）", href: "/zh/insights/university-of-alberta-year-one-foundation-program-overview-2026/" },
     { tag: "工程方向", title: "阿爾伯塔大學 Year One 工程方向：Qualifying Year 先修與 Co-op GPA（2026）", href: "/zh/insights/university-of-alberta-year-one-engineering-pathway-2026/" },
     { tag: "實習就業", title: "阿爾伯塔大學 Co-op 與實習機會 2026（含工簽新規）", href: "/zh/insights/university-of-alberta-coop-internship-guide-2026/" },
@@ -1470,6 +1480,19 @@ function countryGatewayPage(country) {
     ["03", "中學", "Secondary Schools", country.highSchools],
     ["04", "小學", "Primary & Junior", country.primarySchools]
   ];
+  const officialBlock = country.official ? `
+        <div class="country-official">
+          <div class="section-head compact-head">
+            <div class="eyebrow">官方申請要點</div>
+            <h2>${country.zh}學簽準備：IRCC 官方要求速覽</h2>
+            <p>以下要點整理自加拿大移民、難民及公民部（IRCC）官方頁面，核查於 ${country.official.checkedDate}；正式申請前請以官方最新版本為準。</p>
+          </div>
+          <div class="country-official-grid">
+            ${country.official.items.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item.title}</strong><p>${item.text}</p></article>`).join("")}
+          </div>
+          <a class="country-official-source" href="${country.official.sourceUrl}" target="_blank" rel="noopener">官方原文：${country.official.sourceName} →</a>
+        </div>
+  ` : "";
   const readingsBlock = country.readings && country.readings.length ? `
         <div class="country-readings">
           <div class="section-head compact-head">
@@ -1520,6 +1543,7 @@ function countryGatewayPage(country) {
             <article><b>STEP 3</b><strong>遞交與後續</strong><p>院校申請遞交、offer 條件核對、簽證文件清單與行前安排逐項跟進。</p></article>
           </div>
         </div>
+        ${officialBlock}
         ${readingsBlock}
         <div class="country-route-actions">
           ${country.slug === "australia" ? `<a class="btn btn-dark" href="/australia-office-presence/">打開澳洲成熟路線頁</a><a class="btn btn-light" href="/zh/australia-vet-tafe-pathways/">澳洲 VET / TAFE 職業培訓</a>` : `<a class="btn btn-dark" href="/university-applications/">大學申請評估</a><a class="btn btn-light" href="/international-curriculum-tutoring/">課程與文件準備</a>`}
