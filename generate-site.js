@@ -16432,10 +16432,15 @@ function zhArticleMagazineBody(article) {
         <div class="zh-herald-section-line"></div>
         <time>${zhIssueDate(article.date)}</time>
       </div>
-      <a class="herald-home-link zh-herald-home-link" href="/zh/insights/" aria-label="返回留學導報主頁">
-        <span>Overseas Study Review</span>
-        <strong>返回留學導報主頁</strong>
-      </a>
+      <div class="herald-home-link zh-herald-home-link zh-herald-return-bar">
+        <a class="zh-herald-return-home" href="/zh/insights/" aria-label="返回留學導報主頁">
+          <span>Overseas Study Review</span>
+          <strong>返回留學導報主頁</strong>
+        </a>
+        <nav class="zh-herald-return-columns" aria-label="導報欄目">
+          ${zhReviewColumns.map((column) => `<a href="${column.href}"${column.key === reviewColumn.key ? ` class="is-current"` : ""}>${column.name}</a>`).join("")}
+        </nav>
+      </div>
       <header class="zh-herald-hero">
         <div class="zh-herald-kicker">${article.kicker || `${reviewColumn.name}專題`}</div>
         <h1>${article.titleZh || article.title}</h1>

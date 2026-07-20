@@ -14466,42 +14466,110 @@ h1 {
 }
 
 .zh-academic-page .zh-herald-masthead {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.zh-academic-page .zh-herald-name-en {
+  font-size: 9px;
 }
 
 .zh-academic-page .zh-herald-name-zh {
-  font-size: 20px;
-  margin-top: 2px;
+  font-size: 17px;
+  margin-top: 1px;
 }
 
 .zh-academic-page .zh-herald-tagline {
-  margin-top: 3px;
+  font-size: 9px;
+  margin-top: 2px;
+}
+
+.zh-academic-page .zh-herald-meta {
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.zh-academic-page .zh-herald-meta strong {
+  font-size: 10px;
 }
 
 .zh-academic-page .zh-herald-section-bar {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.zh-academic-page .herald-home-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .zh-academic-page .zh-herald-hero {
-  padding-top: 26px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 14px;
 }
 
 .zh-academic-page .zh-herald-kicker {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .zh-academic-page .zh-herald-hero h1 {
-  font-size: clamp(21px, 2.4vw, 26px);
-  margin: 0 0 12px;
+  font-size: clamp(16px, 4.2vw, 19px);
+  line-height: 1.4;
+  margin: 0 0 10px;
 }
 
 .zh-academic-page .zh-herald-standfirst {
   font-size: 13px;
   line-height: 1.8;
-  margin: 0 0 14px;
+  margin: 0 0 12px;
+}
+
+.zh-academic-page .zh-academic-main .zh-herald-section-head {
+  font-size: 15px;
+  margin-top: 32px;
+}
+
+.zh-herald-return-bar {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+
+.zh-herald-return-home {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.zh-herald-return-columns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+}
+
+.zh-herald-return-columns a {
+  color: #8b7560;
+  font-size: 11px;
+  line-height: 1;
+  text-decoration: none;
+  padding: 3px 8px;
+  border: 1px solid #d8c8ab;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.zh-herald-return-columns a:hover {
+  color: #b5272d;
+  border-color: #b5272d;
+}
+
+.zh-herald-return-columns a.is-current {
+  color: #b5272d;
+  border-color: #b5272d;
+  font-weight: 700;
 }
 
 .zh-academic-subtitle {
