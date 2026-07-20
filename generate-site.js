@@ -2494,6 +2494,137 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "nine-volume-editorial-system-textbook-as-edition",
+    title: "Textbook as Edition: The Textual Logic and Institutional Practicality of the Nine-Volume Editorial System in Bilingual ESP Course Publishing",
+    date: "2026-07-20",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "教材編輯學 · 版本學",
+    author: "蕭肜",
+    summary: "A production study of the nine-volume editorial system in bilingual English-for-Specific-Purposes course publishing: drawing on a published legal-English course and an arts-English course in development, the essay argues that the system turns the textbook from a work into an edition, that its volumes function as distribution semantics safeguarding assessment validity, and that its reliability rests on copy-text discipline and a mechanised build pipeline rather than on volume count.",
+    titleZh: "教科書作為版本：專業英語雙語教材「九卷之制」的文本學邏輯與制度實用性",
+    summaryZh: "教材研究長期偏重內容與使用，生產過程罕有實證考察。本文以一套已發行的法律英語課程與一套開發中的藝術英語課程為個案，對「九卷之制」編輯結構作文獻學式的生產研究：論證九卷之制使教科書由「作品」轉為「版本」，其形態是經注疏—校勘學譜系與單源出版工程的合流；分卷的實質功能是「分發語義」，為高利害評估提供出版形態上的效度保障，其原理與科舉彌封謄錄一脈相通；並藉開發個案一次真實的治理失效與機械化修復，說明此制的可靠性繫於底本紀律與構建管線而非卷數。",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260720-01",
+    rightsNotice: "作者蕭肜版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    relatedReadings: [
+      "uk-legal-english-intensive-course-summer-school-textbook-report",
+      "social-life-of-things-kopytoff-chinese-citation-mediated-translation",
+      "material-culture-book-history-collecting-chinese-translation-review"
+    ],
+    body: [
+      {
+        heading: "Editorial Abstract",
+        paragraphs: [
+          "Materials research has long favoured content analysis and user studies; the production of teaching materials remains, in Harwood's phrase, largely a black box. This Chinese-language essay opens that box for one specific editorial form: the nine-volume system now visible in bilingual English-for-Specific-Purposes publishing for Chinese-speaking learners — five learner volumes (student's book, workbook, reader, capstone evidence bundle, bilingual glossary), three controlled instructor volumes (teacher's guide, assessment pack, model responses), one publisher control pack, plus an unnumbered production master and a confidential marking key excluded from retail numbering. Drawing on documentary analysis of two production repositories — the published UK Legal English Intensive Course (Set ISBN 978-1-0666440-4-9) and an anonymised arts-English course in development — the essay advances three claims. First, the system turns the textbook from a work into an edition, converging two lineages of layered text: the jing–zhu–shu commentary architecture of Chinese classical scholarship (with Ruan Yuan's collation records as the ancestor of the publication control pack) and modern single-source publishing engineering (Rockley; DITA). Second, the volumes enact what the essay terms distribution semantics: paratexts in Genette's sense that perform institutional acts — confidentiality boundaries whose logic runs from Song-dynasty examination safeguards to Messick's and Douglas's accounts of assessment validity. Third, a documented governance failure in the developing case — inversion of canonical and derivative text layers — and its subsequent repair through a mechanised build pipeline constitute a natural experiment showing that the system's reliability rests on copy-text discipline, not volume count. The full article appears in Chinese in the Overseas Study Review academic column."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "教材研究長期偏重內容分析與使用者研究，生產過程罕有實證考察。本文以兩套面向華語學習者的專業英語密集課程出版物——一套已發行的法律英語課程與一套開發中的藝術英語課程——為個案，對其共用的「九卷之制」編輯結構作文獻學式的生產研究。本文提出三個論點。其一，九卷之制在結構上使教科書從「作品」轉為「版本」：它同時繼承了中國經注疏傳統與西方校勘學的分層文本形態，並與當代技術傳播的單源出版工程合流，其核心不是卷數而是底本紀律。其二，分卷的真正功能是「分發語義」：扉頁合規區塊與分發標示構成一種履行制度行為的副文本，使評估效度獲得出版形態上的保障——此點可自科舉彌封謄錄之制與現代語言測試效度理論兩端得到印證。其三，本文追蹤了開發個案中一次真實的治理失效（正典層與衍生層倒掛）及其後以機械化構建管線完成的修復，構成一個罕見的編輯治理自然實驗：九卷之制的可靠性繫於管線而非卷數，無管線之九卷徒具版本之形。文末討論三種反對意見與此制的適用邊界。",
+          "<strong>關鍵詞：</strong>教材生產研究；專業英語（ESP）；版本學；副文本；單源出版；評估效度；雙語詞彙表"
+        ]
+      },
+      {
+        heading: "一、導言：一個未被研究的生產形態",
+        paragraphs: [
+          "教材研究的重心素來偏向兩端：一端是內容——教科書寫了什麼、再現了什麼意識形態；另一端是使用——師生如何消費教材。Harwood 在其主編的教材研究文集中將該領域劃為內容、消費、生產三域，並直言生產一域近乎空白：教材如何被編出來，對研究者而言基本是黑箱[1]。本文即是對這個黑箱的一次個案打開，對象是近年出現於華語專業英語出版中的一種特定編輯形態——本文稱之為「九卷之制」。",
+          "所謂九卷之制，指以下列分卷構成一套密集課程出版物：學員教科書、練習冊、案例讀本、結業案例證據包、雙語詞彙表五種學員卷；教師手冊、評估工具卷、答案範文卷三種受控教師卷；以及一種出版方管控卷，內載來源登記冊、引註政策、核查日期與修訂紀錄。九卷之外，另有兩種不入零售編號的文本：僅供生產端的母稿（production master），與明文「永不進入學員包裝」的結業評卷保密附冊。全套以單一套裝書號發行，各卷扉頁標明卷號與「不單獨銷售」。",
+          "本文的問題是：這種形態的結構邏輯為何？它與既有的分層文本傳統是何關係？其實用性依賴哪些制度條件？又在何處失效？",
+          "<strong>個案與方法。</strong>本文考察兩個個案。個案A為已發行的《UK Legal English Intensive Course》九卷數位全集（海外書局，2026）；個案B為同一出版方開發中的藝術專業英語課程，本文引用時匿名處理。方法是文獻學式的生產文件分析：直接考察兩案的生產倉庫——正典文稿、排版源檔、構建腳本、頁數預算、發布關卡紀錄與分發包——而非僅分析成品。此法的優勢是能觀察到成品所抹除的東西：失效、修復與治理規則的實際執行狀況；其局限是個案數少、且皆出自同一出版方，結論的可推廣性有待他案檢驗。<strong>利益申明</strong>：筆者與該出版方有工作關聯；本文所引生產文件均經筆者直接查驗，對個案缺陷的披露未經修飾，讀者可據此自行估量立場風險。"
+        ]
+      },
+      {
+        heading: "二、三件套的極限：為什麼教師用書不夠",
+        paragraphs: [
+          "九卷之制的直接前身，是英語教學出版自二十世紀後期定型的「三件套」：學生用書、練習冊、教師用書。既有文獻對三件套的討論多集中於選用評估與教師角色兩題[2]，較少追問其文本構成的極限。本文認為，三件套在兩個條件同時出現時必然解體：其一是評估的高利害化，其二是內容的高時效化。",
+          "先看第一個條件。專業英語課程的評估以任務產出為構念：學員起草會談紀錄、修改彌償條款、撰寫策展概念。依 Messick 的效度統一理論，效度不是測驗的屬性而是分數詮釋的屬性，任何威脅分數詮釋的因素——包括評分材料的失控暴露——都是效度威脅[3]。Douglas 進一步指出，專業用途語言測試因其構念與真實職業任務高度重合，範文外流的損害比通用測試更直接：學員可整段挪用[4]。三件套將答案、範文、量表與教案混裝於一冊教師用書，其保密僅靠「教師用書不零售」的行規——在數位分發條件下，這條行規形同虛設。九卷之制的回應是把保密做成裝訂事實：評估工具、答案範文各自成卷，扉頁燒入分發等級，結業評卷附冊更被逐出零售編號體系。個案B的結業評估規則明文規定「抄用教師卷範文即不通過」，這條規則之所以可執行，恰因範文在出版結構上被隔離——規則與形態互為條件。",
+          "值得注意的是，這套安排在中國制度史上有精確的先例。宋代科舉為隔斷評卷者與考生身分的通道，立彌封（糊名）與謄錄之制，使評卷所據之文本與考生原卷在物理上分離[5]。彌封謄錄的原理正是：評估的公正性不能只靠評卷者的德性，必須靠文本流轉的形態來保障。九卷之制對評分材料的分發控制，是同一原理在出版端的重演——把效度條件從人的操守移入物的結構。",
+          "第二個條件是時效。法律英語教材的內容依附於現行法：引註標準換版、程序規則修訂，教材即部分失效。個案A的處理是把時效顯性化：扉頁標明法源核查迄日與引註標準（OSCOLA第五版），母稿卷首附法制時效說明，管控卷承擔逐項登記之責。這使教材獲得可審計性——任何內容可回溯至具日期的依據紀錄。三件套沒有安放這類裝置的位置：它的文本本體論裡沒有「管控卷」這個範疇。"
+        ]
+      },
+      {
+        heading: "三、兩個譜系的合流：從經注疏到單源出版",
+        paragraphs: [
+          "九卷之制的形態並非無源之水。本文將其定位為兩個分層文本傳統的合流點。",
+          "第一個譜系是校勘學的。中國經學文本自漢唐以降形成經、注、疏的分層結構：白文為底，注疏遞相依附，各層地位分明而物理上常分開流傳；至阮元刻《十三經注疏》，更於各卷之後附《校勘記》，將諸本異同與取捨理由一併刊行[6]。阮刻的深刻之處在於：它出版的不僅是文本，還有文本的證據狀況。個案A的管控卷——來源登記、核查日期、修訂紀錄隨套裝發行——正是校勘記的當代對應物。西方脈絡中，Greg 的底本理論處理的是同一問題的另一面：當多個文本見證互有歧異，編者據何者為正[7]？九卷體系內部每日的教學內容同時存在於教科書、練習冊、教師手冊、範文卷四處，任何修訂都在製造潛在歧異——多卷教材天然是一個活的傳抄系統，沒有底本紀律就會像開放的抄本傳統一樣發生沾染（contamination）。而 McKenzie 的「文本社會學」提醒我們，文本的意義包含其物質形態與流通安排[8]：九卷之制的分發標示不是包裝細節，而是文本意義的構成部分——這一點下節再論。",
+          "第二個譜系是技術傳播的。自1990年代末，技術文檔工業發展出單源出版（single-sourcing）方法：內容以模塊化形態維護於單一源，按讀者角色與輸出媒介組裝為多種交付物；Rockley 的統一內容策略與 OASIS 的 DITA 標準是其成熟形態[9]。九卷之制在工程上就是單源出版：個案B的生產端以母稿統攝組裝序，以構建腳本完成「正典文稿→格式轉換→排版編譯→分發打包」的全鏈生成，並對跨卷引用施加機械檢查。教材研究文獻迄今幾乎未注意到這條工程譜系的移入——而它恰是九卷之制區別於「把書拆厚賣」的關鍵：分卷是輸出端的現象，單源是生產端的實質。",
+          "兩個譜系合流的含義是：<strong>九卷之制使教科書從「作品」轉為「版本」</strong>——一個帶有校勘裝置、分層結構與流通規制的文本系統。這是本文的中心命題。"
+        ]
+      },
+      {
+        heading: "四、分發語義：作為制度行為的副文本",
+        paragraphs: [
+          "Genette 將副文本定義為使文本成為書、並以書的形態呈現於讀者的一切門檻裝置[10]。九卷之制的扉頁合規區塊——「法源核查至某日」「第N卷，共九卷，不單獨銷售」「受控教師材料，不得轉發學員」——是一類 Genette 未及細論的副文本：它們不是引導閱讀，而是<strong>履行制度行為</strong>。「不單獨銷售」界定了商品的邊界；「不得轉發學員」設立了分發義務；「核查至某日」則是一項有日期的擔保聲明，出版方以此承擔內容時效之責。本文稱這套裝置為「分發語義」（distribution semantics）：卷的身分、去向與義務被寫入文本形態本身，違規分發在出版結構上成為可識別、可歸責的行為。",
+          "分發語義的實效可以從個案B的一次失誤得到反面印證：其早期分發包曾將教師卷與學員卷混裝一包——恰是分發語義尚未機械化執行時的典型失效。其後的修復把分發等級寫入打包腳本，學員包、教師受控包、出版方管控包由構建管線自動分裝。這裡的教訓具有一般性：副文本的宣告若無生產管線的執行，只是姿態；分發語義必須同時存在於扉頁與腳本兩處。",
+          "雙語詞彙表卷在此框架下也獲得準確定位。九卷之制不採對頁對譯，而採「支援層」模式：正文全英文，中文集中於詞彙表卷、負遷移專章與練習中的雙語決策日誌。從詞典學看，這近於 Wiegand 一系所論的「外部文本」——依附於主文本而承擔獨立功能的裝置[11]；從科學社會學看，詞彙表是 Star 與 Griesemer 意義上的邊界物：它同時服務於兩個語言社群的實踐，在各自脈絡中可用，又維持跨脈絡的同一性[12]。個案A的詞彙表明言「中文對應是提示，不是自動替換」——這句編輯凡例正是邊界物的自我宣告：它拒絕成為翻譯，堅持只做錨定。編輯學的後果是修訂隔離：法規修訂只動英文正文與登記冊，不牽動中文層；中文層的增補也不觸碰正文。支援層雙語制因此不僅是教學法選擇（避免供給迴避產出的退路），更是版本維護策略。"
+        ]
+      },
+      {
+        heading: "五、一次自然實驗：底本紀律的失效與修復",
+        paragraphs: [
+          "本文方法上最有價值的材料，是個案B在開發過程中留下的一段完整失效—修復紀錄。它近乎一個編輯治理的自然實驗：同一批內容、同一套規則，先後在手工同步與機械同步兩種管線下運行。",
+          "失效階段的形態如下。專案治理文件明文規定正典文稿層為唯一事實源、排版層為衍生構建物；但實查發現，入學診斷全卷、結業報告模板、引註政策與評卷附冊等關鍵內容只存在於排版層，正典層闕如——規則與存放倒掛。同時，發布狀態文件所載的完成度與倉庫實態脫節：狀態文件宣稱尚缺的保密附冊，實已寫成。用校勘學的語言說：這個傳抄系統的祖本失去了統攝力，支系文本各自演化，而目錄（狀態文件）記載的是一個不存在的文本狀況。值得強調的是，此時體量尚小、跨卷內容經逐項核對並無實質歧異——失效發生在治理層而非內容層，這正是它危險的原因：在小體量下不可見，卻隨體量線性放大。",
+          "修復階段的措施有四：將排版層獨有內容回填正典層，恢復單一事實源；建立自動構建腳本，貫通正典組裝、格式轉換、排版編譯、頁數回寫、分發打包與一致性檢查；母稿組裝範圍由學員五卷擴至全部九卷與保密附冊；為教學日、練習、擴充單元、週評估與結業任務建立穩定識別碼登記，使跨卷引用可被機械校驗。修復後的構建以去重後的實質頁數為新基準——此數低於手工組裝時的帳面數，因為管線取消了重複與湊頁。這個細節饒有意味：機械化的第一個效果往往是讓帳面繁榮縮水為真實狀況。",
+          "這段紀錄支持本文的第三個論點：<strong>九卷之制的可靠性繫於管線而非卷數</strong>。分層文本傳統早已知道這一點——阮元刻書必先聚眾本、定底本、立校例，然後才有九帙可刊；單源出版工程亦然，DITA 的全部價值在構建鏈而不在模塊數。九卷是果，管線是因；無管線之九卷，只是九本將各自漂移的書。"
+        ]
+      },
+      {
+        heading: "六、實用性的制度條件",
+        paragraphs: [
+          "九卷之制的實用性不是內在屬性，而依賴三個外部條件。",
+          "其一，<strong>跨機構交付</strong>。當課程由聯盟在多城市同時開設，品質問題的實質是可比性問題。九卷之制以評估卷統一成績構成——入學診斷、週權重、總評量表、分項量表、結業報告模板——實際是在建造 Espeland 與 Stevens 所論的可通約化裝置：使異地、異師、異生的表現可在同一度量下比較[13]。一份六十分鐘的入學診斷卷之所以重要，不在其測量精度，而在它使「聯盟」從招生話語變為度量共同體。",
+          "其二，<strong>時效折舊管理</strong>。高時效學科的教材是折舊資產。九卷之制把折舊顯性化（核查日期）並把維護義務結構化（管控卷、修訂紀錄），其代價是出版方背上了持續修訂的長期負債。這使九卷之制下的教材在經濟性質上更近於需要維護的軟體而非一次性商品——出版方若無維護能力，顯性化的核查日期反而會成為自我證偽的裝置：一個停在三年前的「核查至」日期，比不標日期更損害公信。",
+          "其三，<strong>數位發行</strong>。九卷精裝的印製與庫存成本在紙本時代足以扼殺小型出版方；數位分發使分卷的邊際成本趨零，打包即產品，修訂即重新交付。個案A的三種零售包（學員包、教師包、機構全集）同價發行，這個定價事實在分析上關鍵：它排除了「分卷是為了價格歧視」的解釋——分卷的目的在分發控制，而非多收費。"
+        ]
+      },
+      {
+        heading: "七、反對意見與適用邊界",
+        paragraphs: [
+          "<strong>反對一：這不過是商業包裝的合理化。</strong>此說低估了結構與宣稱的差異。行銷話語可以偽稱任何東西，但「保密附冊無零售卷號」「教師卷不入學員包」是可查驗的裝訂與打包事實；同價發行進一步削弱了牟利解釋。當然，分發語義本身也是一種副文本宣稱，理論上可以偽飾——這正是發布關卡制（各關未過不得宣稱已出版）存在的理由：讓宣稱受制於紀錄。個案B的狀態失真事件同時表明，關卡紀錄本身也需機械化更新，否則審計鏈在目錄層斷裂。可審計性沒有終點，只有成本遞減的核查層級。",
+          "<strong>反對二：過度工程。</strong>承認。九卷之制的固定成本——母稿、登記冊、管線、關卡——只有在跨點交付、高時效、高利害評估三條件至少居其一時才可攤銷。一門單點、低利害、內容穩定的課程，三件套仍是理性選擇。本文的主張不是九卷普遍優於三件，而是：當上述條件出現時，三件套的失效不是偶然而是結構性的，且其修補路徑會自發地趨向九卷形態——個案A、B的獨立趨同即是初步證據。",
+          "<strong>反對三：維護承諾是無擔保負債。</strong>這是最有力的反對。顯性核查日期、持續修訂、關卡紀錄，全部依賴出版方的持續存在與投入；小型出版方的九卷之制因此始終帶有一種制度脆弱性。對此本文沒有樂觀的回答，只有一個觀察：這種脆弱性在三件套體制下同樣存在，只是不可見。九卷之制沒有創造維護負債，它只是拒絕隱瞞。"
+        ]
+      },
+      {
+        heading: "八、結論",
+        paragraphs: [
+          "本文以兩個個案的生產文件為據，論證了三個命題：九卷之制使教科書由作品轉為版本，其形態是經注疏—校勘學譜系與單源出版工程的合流；分卷的實質功能是分發語義，它為高利害評估提供了出版形態上的效度保障，其原理與彌封謄錄之制一脈相通；此制的可靠性繫於底本紀律與構建管線，個案B的失效—修復序列為此提供了難得的過程證據。",
+          "對教材研究，本文的方法論含義或許比結論更重要：生產研究不必依賴對編者的訪談追憶，生產倉庫本身——正典層、衍生層、構建紀錄、關卡文件——就是可作文獻學處理的史料。教科書的版本學轉向，也應當伴隨教材研究的文獻學轉向。"
+        ]
+      },
+      {
+        heading: "註釋",
+        paragraphs: [
+          "[1] N. Harwood, ed., <em>English Language Teaching Textbooks: Content, Consumption, Production</em> (Basingstoke: Palgrave Macmillan, 2014), 導論。",
+          "[2] A. Cunningsworth, <em>Choosing Your Coursebook</em> (Oxford: Heinemann, 1995); I. McGrath, <em>Materials Evaluation and Design for Language Teaching</em>, 2nd ed. (Edinburgh: Edinburgh University Press, 2016); B. Tomlinson, ed., <em>Materials Development in Language Teaching</em>, 2nd ed. (Cambridge: Cambridge University Press, 2011).",
+          "[3] S. Messick, “Validity,” in <em>Educational Measurement</em>, 3rd ed., ed. R. L. Linn (New York: Macmillan, 1989), 13–103.",
+          "[4] D. Douglas, <em>Assessing Languages for Specific Purposes</em> (Cambridge: Cambridge University Press, 2000). 另參 L. Bachman and A. Palmer, <em>Language Testing in Practice</em> (Oxford: Oxford University Press, 1996)。",
+          "[5] 商衍鎏：《清代科舉考試述錄》（北京：三聯書店，1958）。彌封起於宋真宗朝，謄錄繼之，論者已明其旨在以文本流轉之制隔斷人情。",
+          "[6] 阮元校刻：《十三經注疏（附校勘記）》（嘉慶二十年南昌府學刊本）。",
+          "[7] W. W. Greg, “The Rationale of Copy-Text,” <em>Studies in Bibliography</em> 3 (1950–51): 19–36; G. T. Tanselle, <em>A Rationale of Textual Criticism</em> (Philadelphia: University of Pennsylvania Press, 1989).",
+          "[8] D. F. McKenzie, <em>Bibliography and the Sociology of Texts</em> (Cambridge: Cambridge University Press, 1999); J. J. McGann, <em>A Critique of Modern Textual Criticism</em> (Chicago: University of Chicago Press, 1983).",
+          "[9] A. Rockley and C. Cooper, <em>Managing Enterprise Content: A Unified Content Strategy</em>, 2nd ed. (Berkeley: New Riders, 2012); J. T. Hackos, <em>Content Management for Dynamic Web Delivery</em> (New York: Wiley, 2002); OASIS, <em>Darwin Information Typing Architecture (DITA) 1.0</em> (2005).",
+          "[10] G. Genette, <em>Paratexts: Thresholds of Interpretation</em>, trans. J. E. Lewin (Cambridge: Cambridge University Press, 1997).",
+          "[11] 參 R. R. K. Hartmann and G. James, <em>Dictionary of Lexicography</em> (London: Routledge, 1998)「outside matter」條。",
+          "[12] S. L. Star and J. R. Griesemer, “Institutional Ecology, ‘Translations’ and Boundary Objects,” <em>Social Studies of Science</em> 19, no. 3 (1989): 387–420.",
+          "[13] W. N. Espeland and M. L. Stevens, “Commensuration as a Social Process,” <em>Annual Review of Sociology</em> 24 (1998): 313–43.",
+          "<strong>個案材料</strong>：《UK Legal English Intensive Course》九卷數位全集（倫敦：海外書局，2026，Set ISBN 978-1-0666440-4-9）；個案B生產倉庫文件（開發稿，未刊，2026，含治理規則、構建紀錄與發布關卡文件），經筆者查驗。"
+        ]
+      }
+    ],
+    factCheckNotes: [
+      "核查時間：2026-07-20。個案A（《UK Legal English Intensive Course》九卷數位全集，Set ISBN 978-1-0666440-4-9，海外書局）之卷目構成、扉頁合規區塊（法源核查至 2026-07-18、OSCOLA 第五版、Volume N of 9 不單獨銷售）與三種零售包同價發行（各 £19，Payhip）均經產品頁與扉頁檔逐項核對。",
+      "個案B（開發中藝術專業英語課程）之治理失效（正典層與排版層倒掛、狀態文件失真、早期分發包混裝）與其後修復（正典回填、自動構建腳本、母稿全卷組裝、跨卷識別碼登記、三包分裝）均據該專案生產倉庫文件與構建紀錄查驗；個案按學術慣例匿名處理。",
+      "科舉彌封謄錄制度沿革據商衍鎏《清代科舉考試述錄》通行敘述；阮元《十三經注疏》附《校勘記》體例據嘉慶南昌府學刊本通行著錄。",
+      "西文文獻書目資訊（Harwood 2014、Messick 1989、Douglas 2000、Greg 1950–51、McKenzie 1999、Genette 1997、Star & Griesemer 1989、Espeland & Stevens 1998 等）均按通行版本著錄。",
+      "利益申明已於正文方法節載明：作者與個案出版方有工作關聯。"
+    ]
+  },
+  {
     slug: "uk-legal-english-intensive-course-summer-school-textbook-report",
     title: "A Dedicated Textbook and Workbook System for Legal English Summer Schools: Inside the UK Legal English Intensive Course",
     date: "2026-07-20",
