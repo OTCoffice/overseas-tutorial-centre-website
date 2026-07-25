@@ -19805,6 +19805,16 @@ h1 {
     text-size-adjust: 100%;
   }
 
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .article-cambridge-ai-mphil-programmes-guide .programme-matrix-wrap {
+    max-width: 100%;
+    width: 100%;
+  }
+
   .article-cambridge-ai-mphil-programmes-guide .zh-herald-main p,
   .article-cambridge-ai-mphil-programmes-guide .zh-herald-main li {
     font-size: 12px;
