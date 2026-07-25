@@ -19816,8 +19816,7 @@ h1 {
     width: 100%;
   }
 
-  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main p,
-  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main li {
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main p {
     font-size: 12px;
     line-height: 1.7;
   }
@@ -29161,4 +29160,17 @@ body.zh-home-page .zh-priority-panel{
 .oeh-page .oeh-route-card strong,
 .oeh-page .oeh-disclaimer {
   font-family: var(--font-claude-serif) !important;
+}
+
+/* Keep plain editorial bullet lists subordinate to body copy across the site.
+   Component lists with their own classes retain their purpose-built sizing. */
+main ul:not([class]) > li {
+  font-size: 12px !important;
+  line-height: 1.7 !important;
+}
+
+@media (max-width: 560px) {
+  main ul:not([class]) > li {
+    font-size: 11px !important;
+  }
 }
