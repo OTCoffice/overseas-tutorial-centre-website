@@ -2013,7 +2013,7 @@ function writeHeraldSocialImage(article, locale = "en") {
   const titleLines = wrapOgTitle(title, isZh ? 12 : 24, 3);
   const titleFontSize = isZh ? (titleLines.length >= 3 ? 50 : 56) : (titleLines.length >= 3 ? 42 : 48);
   const titleLineHeight = isZh ? 63 : 57;
-  const sections = (isZh ? article.bodyZh : article.body || []).slice(0, 5).map((section) => stripSectionNumber(section.heading));
+  const sections = (isZh ? article.bodyZh : article.body || []).slice(0, 5).map((section) => stripSectionNumber(section.heading).replace(/<[^>]+>/g, ""));
   const summary = isZh ? (article.summaryZh || article.summary || "") : (article.summary || "");
   const summaryLines = wrapOgTitle(summary, isZh ? 34 : 56, 2);
   const topicTags = [
@@ -2747,6 +2747,167 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  {
+    slug: "cambridge-ai-mphil-programmes-guide",
+    title: "Cambridge AI MPhil Programmes Explained: Structure, Academic Positioning and Application Strategy",
+    date: "2026-07-25",
+    category: "University Applications",
+    column: "study",
+    kicker: "智能時代的課程結構、學術定位與申請策略",
+    author: "海外督導（Overseas Tutorial College）｜《留學導報》編輯部",
+    summary: "An editorial guide to four University of Cambridge MPhil routes connected with artificial intelligence, comparing their academic positioning, technical and mathematical demands, research training, career pathways and application fit. The full Chinese article is published in the Chinese Overseas Study Review.",
+    titleZh: "劍橋大學人工智慧碩士課程全解析",
+    summaryZh: "全面解析劍橋大學四門人工智慧相關 MPhil：MLMI、Human-Inspired AI、Advanced Computer Science 與 Scientific Computing，對照課程結構、數學與技術門檻、學術定位、研究訓練、職涯銜接及申請策略，協助學生依本科背景與長期方向選擇合適課程。",
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "uk-second-masters-scholarship-funding-guide-2026",
+      "uk-australia-marketing-media-master-application-portfolio",
+      "uk-personal-statement-evidence-first-checklist"
+    ],
+    resources: [
+      ["University of Cambridge — MPhil in Machine Learning and Machine Intelligence", "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmsl"],
+      ["University of Cambridge — MPhil in Human-Inspired Artificial Intelligence", "https://www.postgraduate.study.cam.ac.uk/courses/directory/iethmphia"],
+      ["University of Cambridge — MPhil in Advanced Computer Science", "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs"],
+      ["University of Cambridge — MPhil in Scientific Computing", "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpscm"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-07-25。本文正文依來稿原文刊載；課程要求、路徑與語言門檻可能按招生年度更新，申請前應以劍橋大學 Postgraduate Study 官方課程頁為準。",
+      "劍橋大學目前的 MLMI 官方頁列出五個 specialised pathways，除正文所列四項外，另包括 Biological Learning；官方 Requirements 頁目前列出的 IELTS Academic 總分要求為 7.0，而非正文所述 7.5。",
+      "MPhil in Scientific Computing 官方 Requirements 頁目前列出的 Expected Academic Standard 為 High II.i Honours Degree；正文保留來稿原文的「至少 2:1」表述，申請人應按當期官方要求核對。"
+    ],
+    sidebarCards: [
+      ["01", "MLMI", "統計、機率模型與研究方法導向，適合演算法研究與博士深造。", "Technical"],
+      ["02", "Human-Inspired AI", "連接技術、人文、倫理與社會治理的跨學科路線。", "Interdisciplinary"],
+      ["03", "ACS", "保留電腦科學廣度，以模組彈性連接 AI 與工程職涯。", "Breadth"],
+      ["04", "Scientific Computing", "數值方法、科學模擬與高效能運算的專門路徑。", "HPC"]
+    ],
+    body: [
+      {
+        heading: "Editorial Abstract",
+        paragraphs: [
+          "This editorial guide compares four University of Cambridge MPhil routes connected with artificial intelligence. The full Chinese article is published in the Chinese Overseas Study Review."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "智能時代的課程結構、學術定位與申請策略",
+        paragraphs: [
+          "自大型語言模型（Large Language Models, LLMs）如 ChatGPT、Claude、Gemini 相繼問世以來，人工智慧（Artificial Intelligence, AI）已從電腦科學的一個分支，演變為驅動全球產業結構重組的核心技術。醫療診斷、金融風控、教育評量、自動駕駛與科學計算等領域，皆已將機器學習方法納入其核心流程，而各國頂尖大學亦相應調整研究所課程設置，以因應人才培育與基礎研究的雙重需求。",
+          "劍橋大學（University of Cambridge）在此一趨勢中具有特殊地位：其工程學院、電腦科學與技術系、物理系與新設立的人文與科技研究所（Institute for Technology and Humanity, ITH），分別從不同的知識論立場切入人工智慧研究，形成一套跨學科但又彼此區隔明確的碩士課程體系。對申請者而言，理解這些課程在訓練重心、錄取標準與職涯銜接上的差異，是選校策略的關鍵一步。本文依序解析四個代表性 MPhil 課程，並提供比較架構與申請建議。"
+        ]
+      },
+      {
+        heading: "<span>一、MPhil in Machine Learning and Machine Intelligence（MLMI）：技術深度的基準課程</span>",
+        paragraphs: [
+          "MLMI 由工程學院（Department of Engineering）資訊工程分部下轄的機器學習研究組（Machine Learning Group）、語音研究組（Speech Group）與電腦視覺暨機器人研究組（Computer Vision and Robotics Group）聯合開設，學制為十一個月，是目前劍橋大學內部技術密度最高、也是全球競爭最激烈的機器學習碩士課程之一。"
+        ]
+      },
+      {
+        heading: "課程結構",
+        paragraphs: [
+          "與偏重應用導向的一般 AI 課程不同，MLMI 的訓練核心是統計理論、機率模型與研究方法，要求學生具備扎實的數學基礎與程式設計能力。課程設有四個專精路徑，分別對應學生後續的畢業論文方向：",
+          "<ul><li>機器學習（Machine Learning）</li><li>語音與語言處理（Speech and Language Processing）</li><li>電腦視覺與機器人（Computer Vision and Robotics）</li><li>人機互動（Human-Computer Interaction）</li></ul>",
+          "課堂內容涵蓋深度學習、機率機器學習、貝葉斯推斷、強化學習、統計模式辨識與大規模最佳化等主題；學生須於課程後段完成一項獨立研究專案與學位論文，此一設計使 MLMI 兼具修課型碩士與研究型碩士的雙重性質。"
+        ]
+      },
+      {
+        heading: "錄取條件與適合背景",
+        paragraphs: [
+          "官方要求申請者具備第一等榮譽學位（First Class Honours）水準的本科成績，雅思（IELTS）總分不低於 7.5；技術背景方面，僅具備 A-level 數學或進階數學程度並不足以支撐課程要求，官方明確指出僅在申請者已採取具體補強措施的例外情況下才會考慮。適合申請的本科背景包括電腦科學、人工智慧、數學、統計學、工程學與物理學等。"
+        ]
+      },
+      {
+        heading: "職涯銜接",
+        paragraphs: [
+          "歷屆畢業生的主要流向包括 Google DeepMind、Microsoft Research、Apple、NVIDIA、Amazon、Meta 等企業的研究部門，以及劍橋、牛津、MIT、Stanford 等校的博士研究項目。對於以 AI 演算法研究或博士深造為長期目標的申請者，MLMI 是技術路線上最具指標性的選擇。"
+        ]
+      },
+      {
+        heading: "<span>二、MPhil in Human-Inspired Artificial Intelligence：人本取向的跨學科課程</span>",
+        paragraphs: [
+          "隨著生成式 AI 的普及，AI 系統的可解釋性、倫理風險與社會治理問題日益受到關注。為回應此一趨勢，劍橋大學於人文與科技研究所（Institute for Technology and Humanity, ITH）之下成立人本人工智慧研究中心（Centre for Human-Inspired Artificial Intelligence, CHIA），並由該中心主導開設本課程。"
+        ]
+      },
+      {
+        heading: "課程結構",
+        paragraphs: [
+          "課程設有一門基礎必修模組，聚焦人本取向人工智慧的核心概念，再由學生依興趣選修技術與計算技能模組，以及以下專題模組：",
+          "<ul><li>基礎人本人工智慧（Fundamental Human-Level AI）</li><li>社會與互動式人工智慧（Social and Interactive AI）</li><li>認知人工智慧（Cognitive AI）</li><li>創意人工智慧（Creative AI）</li><li>健康與全球人工智慧（Health and Global AI）</li><li>負責任人工智慧（Responsible AI）</li></ul>",
+          "課程同樣要求學生完成一段受督導的研究期間，並產出學位論文。相較 MLMI，本課程的訓練重心並非模型架構本身，而是「人類智能如何啟發、規範與監督人工智慧系統」，具有明確的跨學科定位。"
+        ]
+      },
+      {
+        heading: "適合背景與職涯銜接",
+        paragraphs: [
+          "本課程歡迎電腦科學以外的申請者，包括心理學、神經科學、語言學、哲學與社會科學背景的學生。對於未來志向為 AI 政策研究、AI 倫理治理、智慧醫療或人機互動設計的申請者而言，本課程提供了技術課程所缺乏的制度與人文分析框架。"
+        ]
+      },
+      {
+        heading: "<span>三、MPhil in Advanced Computer Science（ACS）：廣度優先的電腦科學訓練</span>",
+        paragraphs: [
+          "由電腦科學與技術系（Department of Computer Science and Technology）開設的 ACS，學制九個月，定位為保留電腦科學廣度、同時容許學生依興趣深入 AI 子領域的課程，適合尚未確定專精方向，或希望兼顧軟體工程與系統設計能力的申請者。"
+        ]
+      },
+      {
+        heading: "課程結構",
+        paragraphs: [
+          "課程要求學生修習五門完整模組（通常為米迦勒學期三門、四旬節學期兩門），每門模組含十六小時課堂授課，授課形式依模組性質橫跨傳統講授、實作課與研討會。現行模組目錄約涵蓋三十個選項，除機器學習、機率機器學習、圖神經表徵學習等 AI 相關主題外，亦包括分散式系統、演算法設計與自然語言處理專題等。學生另須修習一門不計學分的研究方法必修課，並於兩個學期內完成研究專案，於六月初提交報告。"
+        ]
+      },
+      {
+        heading: "適合背景與職涯銜接",
+        paragraphs: [
+          "相較 MLMI 聚焦單一研究路徑，ACS 的模組選擇彈性更高，訓練成果也更貼近業界對「全端」電腦科學人才的需求，適合未來從事軟體工程、系統架構設計或 AI 工程職位的申請者。"
+        ]
+      },
+      {
+        heading: "<span>四、MPhil in Scientific Computing：AI 演算法與高效能運算的交會點</span>",
+        paragraphs: [
+          "由物理系（Department of Physics）開設的 MPhil in Scientific Computing 學制十二個月，訓練重心並非通用機器學習，而是數值方法、科學模擬與高效能運算（High Performance Computing, HPC），是四門課程中數學與計算門檻最高者之一。"
+        ]
+      },
+      {
+        heading: "課程結構",
+        paragraphs: [
+          "課程訓練學生使用既有科學計算軟體，並深入理解模擬流程的底層構成：從物理系統的數學建模、離散化數值演算法，到物件導向程式設計與大規模平行運算部署方法。官方要求申請者具備至少 2:1（Upper Second-Class Honours）水準的本科成績，且本科專業須為科學或工程相關領域，並具備足以完成科學或數學應用程式撰寫的程式設計能力。"
+        ]
+      },
+      {
+        heading: "適合背景與職涯銜接",
+        paragraphs: [
+          "本課程特別適合數學、物理與工程背景的申請者，畢業生具備嚴謹的研究能力，多流向航太、金融建模、氣候模擬、製藥研發與科技產業的研發部門，或直接銜接博士研究。對希望將 AI 方法應用於自然科學或大規模計算問題的申請者而言，本課程提供了 MLMI 之外的另一條技術路徑。"
+        ]
+      },
+      {
+        heading: "<span>五、劍橋 AI 生態系統：課程之外的結構性優勢</span>",
+        paragraphs: [
+          "課程設置僅是劍橋 AI 版圖的一部分。真正支撐其長期領先地位的，是一套高度整合的研究基礎設施，包括跨學院的人工智慧倡議（Cambridge AI Initiative）、CHIA、萊弗休姆智能未來研究中心（Leverhulme Centre for the Future of Intelligence）、醫學人工智慧研究中心，以及製造業人工智慧研究所等平台。這些機構與英國及全球企業維持密切的合作關係，使學生在修課之外，仍有機會接觸產業合作專案與早期研究成果。Google DeepMind 於英國設有主要研發基地，長期與劍橋保持學術交流，亦是校友網絡中重要的職涯出口之一。"
+        ]
+      },
+      {
+        heading: "<span>六、申請競爭：研究潛力重於單一成績指標</span>",
+        paragraphs: [
+          "以錄取門檻最高的 MLMI 為例，成功申請者的共通特徵包括：達到第一等榮譽學位水準的本科成績、扎實的線性代數與機率統計基礎、熟練的 Python 程式設計能力，以及具體的機器學習相關研究或專案經驗。個人陳述與推薦信的作用，並非重申履歷內容，而是說明申請者的研究興趣如何與課程的研究路徑相互對應。",
+          "整體而言，劍橋各 AI 相關 MPhil 課程的錄取邏輯，正逐步從「考試成績優先」轉向「研究潛力優先」。本科階段參與科研專案、發表論文、完成具技術深度的獨立作品，或參與具公信力的學術競賽，對申請競爭力的邊際貢獻，往往高於單純提升成績排名。"
+        ]
+      },
+      {
+        heading: "<span>七、四門課程比較</span>",
+        paragraphs: [
+          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>課程</th><th>技術深度</th><th>數學要求</th><th>學制</th><th>主責院系</th></tr></thead><tbody><tr><td>MPhil in Machine Learning and Machine Intelligence（MLMI）</td><td>★★★★★</td><td>★★★★★</td><td>11 個月</td><td>工程學院（資訊工程分部）</td></tr><tr><td>MPhil in Human-Inspired Artificial Intelligence</td><td>★★★★☆</td><td>★★★☆☆</td><td>9 個月</td><td>人文與科技研究所（CHIA）</td></tr><tr><td>MPhil in Advanced Computer Science（ACS）</td><td>★★★★☆</td><td>★★★★☆</td><td>9 個月</td><td>電腦科學與技術系</td></tr><tr><td>MPhil in Scientific Computing</td><td>★★★★★</td><td>★★★★★</td><td>12 個月</td><td>物理系</td></tr></tbody></table></div>"
+        ]
+      },
+      {
+        heading: "<span>八、選校建議</span>",
+        paragraphs: [
+          "四門課程雖同屬「劍橋 AI 碩士」範疇，其學術定位與訓練目標實際上分屬不同象限：MLMI 是技術深度最高的研究導向路徑，適合以演算法研究或博士深造為目標的申請者；Human-Inspired AI 提供技術與人文治理並重的跨學科訓練，適合政策、倫理或人機互動方向的申請者；ACS 以廣度換取彈性，適合尚未確定專精方向或志在業界工程職位的申請者；Scientific Computing 則是科學計算與高效能運算的專門路徑，適合數理與工程背景、志在將 AI 方法應用於自然科學問題的申請者。",
+          "選校策略應以申請者的本科訓練、程式設計基礎與長期職涯方向為出發點，而非單純以課程排名或知名度作為唯一依據。建議有意申請的學生及早規劃本科課程結構、強化數學與程式設計能力，並透過具體的研究或專案成果，建立起與目標課程相符的學術定位。",
+          "下期預告：牛津大學人工智慧碩士全解析，並與劍橋、帝國理工學院（IC）、倫敦大學學院（UCL）進行橫向比較，完整呈現英國頂尖 AI 碩士課程專題。"
+        ]
+      }
+    ]
+  },
   {
     slug: "canada-routes-panorama-study-immigration-work-finance-guide",
     title: "Canada Routes Panorama: Study, Immigration, Work and Finance — A Ten-Chapter Guide",
