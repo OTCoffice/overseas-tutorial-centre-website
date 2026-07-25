@@ -2007,7 +2007,9 @@ function writeHeraldSocialImage(article, locale = "en") {
   const outPath = path.join(root, svgPath.replace(/^\//, ""));
   const pngOutPath = path.join(root, imagePath.replace(/^\//, ""));
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  const title = isZh ? (article.titleZh || article.title) : article.title;
+  const title = isZh
+    ? (article.socialTitleZh || article.titleZh || article.title)
+    : (article.socialTitle || article.title);
   const column = isZh ? "留學導報 · 深度指南" : (article.category || "Overseas Study Review");
   const issue = isZh ? `${article.date.replace(/-/g, ".")} · 留學導報` : `${article.date} · Overseas Study Review`;
   const titleLines = wrapOgTitle(title, isZh ? 12 : 24, 3);
@@ -2748,9 +2750,187 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "st-pauls-school-group-13-plus-pathways-durston-shrewsbury-house-2026",
+    title: "St Paul’s School 13+ Pathway Update: What the Durston House and Shrewsbury House Group Route Means",
+    socialTitle: "St Paul’s 13+ Group Pathway: Durston & Shrewsbury House",
+    date: "2026-07-25",
+    category: "UK Independent Schools",
+    column: "study",
+    kicker: "英國私校 · 13+升學 · Prep銜接",
+    author: "海外督導（Overseas Tutorial Centre）｜《留學導報》編輯部",
+    summary: "A fact-checked guide to the St Paul’s School Group pathway for boys at Durston House and Shrewsbury House, separating the publicly confirmed benefits from automatic-entry claims and mapping the main 13+ decision points for families.",
+    titleZh: "聖保羅公學13+升學新政：Durston House與Shrewsbury House預備校專屬通道解析",
+    socialTitleZh: "聖保羅公學13+新政：Durston House與Shrewsbury House通道",
+    summaryZh: "解析 St Paul’s School Group 為 Durston House 與 Shrewsbury House 男生提供的 13+ 優先評估與支援路徑，區分提前識別、Year 7 優先機會、常規 Year 6／Year 8 申請及真正的直升制度，並整理國際家庭選擇 Prep 預備校時應核對的時間線與約束。",
+    relatedReadings: [
+      "uk-personal-statement-evidence-first-checklist",
+      "uk-second-masters-scholarship-funding-guide-2026",
+      "uk-ucas-clearing-prep-evidence-pack-decision-matrix"
+    ],
+    resources: [
+      ["St Paul’s School Group — Group Charter", "https://www.stpaulsschoolgroup.com/group-charter/"],
+      ["St Paul’s School Group — FAQs", "https://www.stpaulsschoolgroup.com/faqs/"],
+      ["St Paul’s School — Entry at 13+", "https://www.stpaulsschool.org.uk/admissions/entry-to-st-pauls-13/"],
+      ["Durston House — Head’s Welcome", "https://durstonhouse.org/about-us/heads-welcome/"],
+      ["Shrewsbury House School Trust — Group announcement", "https://www.shrewsburyhouse.net/shrewsbury-house-trust-joins-st-paul-school-group"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-07-25。St Paul’s School Group 公開 Charter 確認的重點包括：較早識別與 enrichment support、合適申請人可能在 Year 6 前獲 offer、Year 7 優先 offer、由 St Paul’s 教師提供英數支援，以及在留於 Group 的條件下延後 offer。",
+      "Group FAQ 明確說明，Durston House 或 Shrewsbury House 的 Group 成員身分不會帶來自動入學權；St Paul’s Prep School 才是目前唯一按 through-school 模式直接升入 St Paul’s School Year 9 的 Prep。",
+      "本文的四路徑圖是家庭規劃框架。CAT4、校內作業、面試、Year 6／Year 7／Year 8 的精確考試科目、日期、offer 條件與重考安排，應以 St Paul’s School 及在讀 Prep 當年度書面通知為準。",
+      "本文不把 Group Pathway 描述為保證錄取，也不承諾國際生申請難度已普遍下降。VAT、寄宿市場與學校集團化可能影響招生策略，但個別學校的選拔標準與名額仍會變動。"
+    ],
+    sidebarCards: [
+      ["01", "Early identification", "Group 內合適男生可較早被識別，並取得 enrichment 與申請支援。", "Group only"],
+      ["02", "Pre-Year 6 possibility", "官方使用 potential / possibility，並非所有學生均可取得提前 offer。", "Selective"],
+      ["03", "Year 7 priority", "有潛力但仍需準備的學生，可能取得優先評估及英數支援。", "Supported"],
+      ["04", "Open 13+ entry", "常規 13+ 仍向其他 Prep 學生開放，Group 身分不等於自動錄取。", "Open route"]
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic stpauls-group-map" aria-labelledby="stpauls-group-map-title">
+        <div class="stpauls-visual-head">
+          <span>GROUP PATHWAY · 13+</span>
+          <h2 id="stpauls-group-map-title">英國頂尖公學與預備校銜接體系示意</h2>
+          <p>Group 內的 Prep 保留自身校務與升學選擇，同時為合適男生增加一條由 St Paul’s School stewarded 的申請路徑。</p>
+        </div>
+        <div class="stpauls-school-map">
+          <article><b>PREP</b><strong>Durston House</strong><small>Ealing · Group founding member</small></article>
+          <article><b>PREP</b><strong>Shrewsbury House</strong><small>Surbiton · Group founding member</small></article>
+          <div class="stpauls-map-arrow"><span>early identification</span><i>→</i><span>support & assessment</span></div>
+          <article class="is-senior"><b>YEAR 9 · 13+</b><strong>St Paul’s School</strong><small>Selective entry · not automatic</small></article>
+        </div>
+        <p class="stpauls-figure-caption">圖一｜St Paul’s School Group 公開架構的編輯示意；不代表自動直升或名額保證。</p>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) What has changed",
+        paragraphs: [
+          "The St Paul’s School Group brings Durston House and the Shrewsbury House School Trust into a shared not-for-profit group while each prep school retains its identity and leadership.",
+          "For boys who may be a good match for St Paul’s School, the Group Charter describes a stewarded pathway with earlier identification, enrichment support, the potential for offers before Year 6, priority opportunities in Year 7 and direct academic support."
+        ]
+      },
+      {
+        heading: "2) Preferred pathway does not mean automatic entry",
+        paragraphs: [
+          "The Group FAQ is explicit that membership does not confer an automatic right of entry. St Paul’s Prep School remains the sole through-school route whose boys progress directly into Year 9 without reapplying.",
+          "Families should therefore distinguish between a preferred assessment and support route, a selective offer, and guaranteed progression. Durston House and Shrewsbury House provide the first two possibilities, not the third."
+        ]
+      },
+      {
+        heading: "3) A four-route planning model",
+        paragraphs: [
+          "For family planning, the landscape can be understood through four decision points: early Group identification, the open Year 6 process, a supported or priority Year 7 opportunity for suitable Group boys, and the later Year 8 assessment route.",
+          "The exact tests, dates and offer conditions remain subject to annual school communications."
+        ]
+      },
+      {
+        heading: "4) What families should check",
+        paragraphs: [
+          "Ask whether the child is academically and personally suited to St Paul’s, what commitment is attached to an early offer, whether remaining within the Group is a condition, and what options remain if another senior school later becomes a better fit.",
+          "The strongest plan is not simply to start test preparation earlier, but to align prep-school choice, registration dates, assessment evidence, interview readiness and the child’s changing interests."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、新政改變的是生源識別與支援方式",
+        paragraphs: [
+          "St Paul’s School Group 由 St Paul’s School、Durston House 與 Shrewsbury House School Trust 共同建立。兩所 Prep 仍保留各自校名、管理與升學方向，但 Group 為其中可能適合 St Paul’s School 的男生增加一條由集團管理的申請與支援路徑。",
+          "官方 Group Charter 使用的是 stewarded route 與 preferred entry process：較早識別合適學生、提供 enrichment support、由 St Paul’s 學術人員在英語與數學等方面支援，並保留 Year 6 前 offer 與 Year 7 priority offer 的可能性。這反映頂尖私校正在把選才與培養向 Prep 階段前移。"
+        ]
+      },
+      {
+        heading: "二、先釐清：專屬通道不是自動直升",
+        paragraphs: [
+          "官方 FAQ 明確指出，加入 Group 不會自動取得 St Paul’s School 的入學權。現時唯一按 through-school 模式直接升入 St Paul’s Year 9、毋須重新申請或再考入學試的 Prep，仍是 St Paul’s Prep School。",
+          "因此，Durston House 與 Shrewsbury House 的價值應準確理解為「較早識別＋優先評估可能＋直接學術支援」，而不是「入讀 Prep 幾乎等同鎖定 St Paul’s 13+ 名額」。是否獲 offer 仍取決於匹配度、評估結果與當年度招生安排。"
+        ]
+      },
+      {
+        heading: "三、家庭可用四條路徑理解13+節點",
+        paragraphs: [
+          `<section class="stpauls-route-figure" aria-label="聖保羅13+四條升學路徑示意圖">
+            <div class="stpauls-visual-head"><span>FOUR DECISION POINTS</span><h3>聖保羅13+四條升學路徑示意圖</h3></div>
+            <div class="stpauls-route-grid">
+              <article><b>01</b><strong>Early identification</strong><span>Year 3–5 · Group Prep</span><p>校內表現、教師觀察、認知與面試材料可構成較早識別依據；具體組合以校方通知為準。</p></article>
+              <article><b>02</b><strong>Year 6 route</strong><span>Open 13+ process</span><p>面向不同 Prep 的常規申請節點，通常涉及預測試、校方評估及面試。</p></article>
+              <article><b>03</b><strong>Year 7 priority</strong><span>Suitable Group boys</span><p>官方確認 priority offer 與 St Paul’s 教師支援的可能，並非普遍保證。</p></article>
+              <article><b>04</b><strong>Year 8 assessment</strong><span>Later decision point</span><p>接近 Year 9 入學前的後續評估安排，科目與名額須按當年官方資料核對。</p></article>
+            </div>
+            <p class="stpauls-figure-caption">圖二｜四路徑為規劃框架；公開 Charter 未列出所有考試細則。</p>
+          </section>`,
+          "四個節點可能通向相同的 Year 9 入學結果，但不能據此推論每條路徑的名額、難度或 offer 條件完全相同。家庭需要按孩子所在 Prep、年級與當年度書面安排逐項確認。"
+        ]
+      },
+      {
+        heading: "四、提前識別與Early Offer應如何理解",
+        paragraphs: [
+          "Group 公開資料確認「合適申請人可能在 Year 6 前獲 offer」。實務上，較早評估可參考校內課堂表現、教師長期觀察、英數學習證據、認知測驗與面試；但目前公開 Charter 並未把 CAT4、作業或面試列成所有申請人固定且完整的考試清單。",
+          "提前 offer 的優點是降低後期不確定性，缺點是家庭可能較早作出學校承諾。官方亦提到 offer 可在「繼續留在 Group」的條件下延後，因此接受前應書面確認：承諾期限、留校條件、能否同時申請其他 senior school，以及退出安排。"
+        ]
+      },
+      {
+        heading: "五、Year 6常規路徑仍然重要",
+        paragraphs: [
+          "St Paul’s 的 13+ 主入學點是 Fourth Form（Year 9）。官方 13+ 頁面顯示，每屆約 198 名男生中，大約一半來自 St Paul’s Prep School，另一半來自倫敦及其他地區不同 Prep。",
+          "這說明常規外部申請仍然存在，Group 也公開承諾維持與其他 feeder schools 的關係。對不在 Durston House 或 Shrewsbury House 的學生而言，核心工作仍是按時註冊、準備校方要求的預測試與後續評估、整理穩定的校內證據，並在面試中呈現真實興趣與思考。"
+        ]
+      },
+      {
+        heading: "六、Year 7優先機會的真正價值",
+        paragraphs: [
+          "Year 7 pathway 的重點不是為 Year 6 表現不理想的學生提供無條件補考，而是讓 Group 內「顯示潛力、但仍需要進一步準備」的男生得到更清晰的支援與再次評估機會。",
+          "官方 Charter 特別提到 St Paul’s academic staff 可直接支援需要發展的領域，包括 maths and English。對家庭而言，這種資訊回饋與針對性支援，可能比單純增加一次考試機會更有價值。"
+        ]
+      },
+      {
+        heading: "七、Year 8是後續評估節點，不應當作臨時救場",
+        paragraphs: [
+          "Year 8 接近 Year 9 正式入學，時間更緊，學校也需要完成最終班級與課程安排。家庭不應等到最後一年才開始理解目標校要求。",
+          "部分頂尖學校的 13+ 流程可概括為「前期註冊與預測試—校內評估—Year 8 後續考試」，但各校並不存在統一模板。St Paul’s 當年的考試科目、面試安排、截止日期與 offer 條件，應直接核對招生頁及 Prep 發出的正式通知。"
+        ]
+      },
+      {
+        heading: "八、Prep擇校邏輯正在改變",
+        paragraphs: [
+          "以往選 Prep，家庭多集中於教育理念、地理位置、寄宿或走讀、學術表現與照顧方式。Group 化趨勢增加了一個新問題：這所 Prep 與哪些 senior schools 有制度化合作，學生可以得到哪些提早識別、師資支援或評估機會？",
+          "但「有通道」不等於「最適合」。St Paul’s Group FAQ 同時強調，St Paul’s 不一定適合每名學生，兩所 Prep 仍會為不同 senior school 作準備。家庭應先看孩子，再看通道，而不是為了某個校名倒推全部教育選擇。"
+        ]
+      },
+      {
+        heading: "九、機遇與挑戰要分開判斷",
+        paragraphs: [
+          "機遇在於，頂尖學校透過 Group 更早接觸與培養學生，家庭也可能得到更透明的回饋、學術支援與決策節點。對真正匹配 St Paul’s 的男生，準備路徑會比完全外部申請更連續。",
+          "挑戰在於，部分名額與 offer 可能在較早階段分配，常規申請者需要更早完成註冊與證據準備。另一方面，VAT、寄宿市場及學校集團化確實可能影響私校策略，但不能簡化為「現在是買方市場」或「頂尖公學已大幅降低錄取難度」。選拔仍然存在，且各校情況不同。"
+        ]
+      },
+      {
+        heading: "十、為什麼13歲是關鍵節點",
+        paragraphs: [
+          "Year 9 是英國中學階段的重要銜接點。學生通常仍在 Key Stage 3，並開始為 GCSE 選科與後續學習建立基礎；部分私校會在 Year 9 提前引入若干 GCSE 內容。",
+          "若與中國年級粗略比較，Year 9 接近初二階段，但兩套教育制度不能完全對應。13+ 申請往往跨越數年，任何一個暑假都不會單獨決定結果；更重要的是在正確時間完成正確的註冊、評估與能力建設。"
+        ]
+      },
+      {
+        heading: "十一、國際家庭的三個規劃關鍵詞",
+        paragraphs: [
+          `<section class="stpauls-planning-figure" aria-label="國際家庭英國13+升學規劃示意">
+            <article><b>提前</b><span>查清註冊、預測試、面試與後續評估的年度時間線。</span></article>
+            <article><b>均衡</b><span>同步建立英數學術、邏輯推理、面試表達與課外興趣證據。</span></article>
+            <article><b>真實</b><span>用孩子真正的閱讀、好奇心與經歷回答，而不是背誦標準答案。</span></article>
+            <p class="stpauls-figure-caption">圖三｜國際家庭英國13+升學規劃示意</p>
+          </section>`,
+          "13+ 規劃的關鍵不是一味搶跑，而是先查清目標學校的時間線，再按孩子的年齡、基礎、性格與長期方向安排準備。若正在考慮 Durston House、Shrewsbury House 或其他 Prep，應向學校索取最新 written pathway information，並保留其他 senior school 選項的比較空間。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "cambridge-ai-mphil-programmes-guide",
     title: "Cambridge AI MPhil Programmes Explained: Structure, Academic Positioning and Application Strategy",
     date: "2026-07-25",
+    heraldLayout: "legacy-sidebar",
     category: "University Applications",
     column: "study",
     kicker: "智能時代的課程結構、學術定位與申請策略",
@@ -16956,6 +17136,12 @@ function zhAcademicCoverGallery(article) {
   `;
 }
 
+function usesStackedHeraldLayout(article) {
+  if (article.heraldLayout === "legacy-sidebar") return false;
+  if (article.heraldLayout === "stacked") return true;
+  return Boolean(article.date && article.date >= "2026-07-25");
+}
+
 function zhArticleMagazineBody(article) {
   const zhSections = article.bodyZh && article.bodyZh.length ? article.bodyZh : article.body;
   const englishSections = article.body || [];
@@ -16973,9 +17159,10 @@ function zhArticleMagazineBody(article) {
   const firstSection = cleanedSections[0];
   const checklist = cleanedSections.slice(0, 7);
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
-  const compactSidebar = article.sidebarMode === "compact" || article.sidebarMode === "compact-practical";
+  const stackedLayout = usesStackedHeraldLayout(article);
+  const compactSidebar = stackedLayout || article.sidebarMode === "compact" || article.sidebarMode === "compact-practical";
 
-  const pageClass = article.academic ? " zh-academic-page" : "";
+  const pageClass = `${article.academic ? " zh-academic-page" : ""}${stackedLayout ? " zh-herald-layout-stacked" : ""}`;
   const mainClass = article.academic ? " zh-academic-main" : "";
   const readingReferences = article.readingListZh && article.readingListZh.length
     ? article.readingListZh
@@ -17065,6 +17252,9 @@ function zhArticleMagazineBody(article) {
               ${section.paragraphs.map((paragraph, pIndex) => {
                 if (article.academic) {
                   return zhAcademicParagraph(paragraph);
+                }
+                if (/^<(div|table|section|ul|ol|blockquote|details)\b/i.test(String(paragraph || "").trim())) {
+                  return articleParagraphHtml(paragraph);
                 }
                 if (index === 1 && pIndex === 0) {
                   return `<div class="zh-herald-teal-box"><div class="zh-herald-box-title">導報提示</div><p>${paragraph}</p></div>`;
@@ -31728,9 +31918,11 @@ node generate-site.js
 
 ## 留學導報文章編輯 Prompt
 
-發布或改稿前先做版面平衡檢查：如果正文只有 4-5 個短段落，而右側側欄同時出現速讀、類型卡、欄目定位、閱讀清單、英文對照和官方資源，頁面會變成左輕右重。這類實用清單文章應先補正文密度，例如加入可掃描表格、流程清單、提交前核對、常見錯誤修正或小案例；同時把側欄切到 \`sidebarMode: "compact-practical"\`，保留速讀、3-4 張重點卡和官方資源即可。
+2026-07-25 起的新文章預設採用「置中單欄正文＋底部資訊卡」版型：正文保持適合長文閱讀的行寬，原側欄的速讀、類型卡與官方資源移到正文下方，桌面橫排、手機直排，不再建立會隨正文等高拉伸的右側空欄。此規則由文章日期自動套用；特殊稿件可用 \`heraldLayout: "stacked"\` 主動套用，或以 \`heraldLayout: "legacy-sidebar"\` 明確保留舊雙欄版型。
 
-導報文章不要把自己放進 \`relatedReadings\`。樣本發布後用本地頁面檢查桌面版與手機版：主欄應有足夠閱讀重量，右側只作輔助速查，不能讓讀者感覺正文很薄、側欄反而像主內容。
+底部資訊卡版型會自動採用精簡側欄內容，只保留速讀、3-4 張重點卡和官方資源。發布或改稿前仍應檢查正文密度，必要時加入可掃描表格、流程清單、提交前核對、常見錯誤修正或小案例。
+
+導報文章不要把自己放進 \`relatedReadings\`。樣本發布後用本地頁面檢查桌面版與手機版：正文應保持適合長文閱讀的行寬；底部資訊卡在桌面不得超出三欄，手機必須依次直排，頁面不得出現橫向溢出。
 
 ## 新建網頁 Prompt：服務導覽台格局
 
