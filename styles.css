@@ -14989,8 +14989,8 @@ h1 {
 
 .zh-academic-main .zh-herald-pullquote p {
   text-align: left;
-  font-size: 13px;
-  line-height: 1.85;
+  font-size: 11px;
+  line-height: 1.8;
 }
 
 .zh-academic-main .zh-herald-warning-box p,
@@ -15390,20 +15390,21 @@ h1 {
 }
 
 .zh-herald-pullquote {
-  margin: 0 0 28px;
-  padding: 20px 24px;
-  border-top: 2px solid #1a1410;
-  border-bottom: 2px solid #1a1410;
-  text-align: center;
+  margin: 0 0 24px;
+  padding: 11px 0 12px;
+  border-top: 1px solid #c8b89a;
+  border-bottom: 1px solid #c8b89a;
+  text-align: left;
 }
 
 .zh-herald-pullquote p {
-  color: #1a1410;
+  color: #665647;
   font-family: var(--font-claude-serif);
-  font-size: 18px;
-  font-weight: 850;
-  line-height: 1.65;
-  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  text-align: left;
   margin: 0;
 }
 
@@ -19822,8 +19823,8 @@ h1 {
   }
 
   .article-cambridge-ai-mphil-programmes-guide .zh-herald-pullquote p {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 11px;
+    line-height: 1.8;
   }
 
   .article-cambridge-ai-mphil-programmes-guide .zh-herald-section-head {
