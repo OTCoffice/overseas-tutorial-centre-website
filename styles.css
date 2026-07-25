@@ -19800,6 +19800,33 @@ h1 {
     text-align: left;
   }
 
+  .article-cambridge-ai-mphil-programmes-guide {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main p,
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-main li {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-pullquote p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .article-cambridge-ai-mphil-programmes-guide .zh-herald-section-head {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .article-cambridge-ai-mphil-programmes-guide .programme-matrix th,
+  .article-cambridge-ai-mphil-programmes-guide .programme-matrix td {
+    padding: 10px;
+    font-size: 11px;
+  }
+
   .herald-subscribe-row {
     justify-content: flex-start;
     padding-bottom: 18px;
