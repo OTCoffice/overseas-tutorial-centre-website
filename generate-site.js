@@ -16999,7 +16999,7 @@ function zhArticleMagazineBody(article) {
           </details>
   ` : "";
   return `
-    <div class="zh-herald-page${pageClass}">
+    <div class="zh-herald-page article-${article.slug}${pageClass}">
       <div class="zh-herald-masthead">
         <div>
           <div class="zh-herald-name-en">Overseas Study Review</div>
