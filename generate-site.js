@@ -2750,6 +2750,199 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "australia-482-subsequent-entrant-de-facto-partner-guide-2026",
+    title: "Can a De Facto Partner Join a Subclass 482 Visa Holder? Australia Subsequent Entrant Guide",
+    socialTitle: "Subclass 482 Subsequent Entrant: A De Facto Partner Guide",
+    date: "2026-07-27",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "澳洲移民 · 482後續入境 · De facto伴侶",
+    author: "海外督導（Overseas Tutorial Centre）｜《留學導報》編輯部",
+    summary: "A fact-checked guide to Australia’s subclass 482 subsequent entrant route for a spouse or de facto partner, covering family-unit eligibility, sponsor consent, relationship evidence, health, character, insurance and common legal traps.",
+    titleZh: "案例解析：持482簽證男友，女友可否申請後續入境簽證赴澳？政策法規完整解讀",
+    socialTitleZh: "持482簽證男友：女友如何申請後續入境赴澳？",
+    summaryZh: "以未婚伴侶團聚案例，完整拆解澳洲 Skills in Demand（subclass 482）後續入境者申請：誰屬家庭單位成員、擔保人書面同意、de facto 關係證據、12個月規則、健康品格與保險要求，以及費用、工作權和永居銜接的合規邊界。",
+    relatedReadings: [
+      "australia-trust-guide",
+      "east-asian-women-australia-migration-whv-citizenship",
+      "australia-business-startup-funding-playbook"
+    ],
+    resources: [
+      ["Department of Home Affairs — SID 482 Subsequent Entrant", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/subsequent-entrant"],
+      ["Department of Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482"],
+      ["Federal Register of Legislation — Migration Regulations 1994", "https://www.legislation.gov.au/F1996B03551/latest/text"],
+      ["Department of Home Affairs — Form 1496i", "https://immi.homeaffairs.gov.au/form-listing/forms/1496i.pdf"],
+      ["OMARA — Search for a registered migration agent", "https://portal.mara.gov.au/search-the-register-of-migration-agents/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-07-27。Home Affairs 的 Subsequent Entrant 頁面確認，此路徑適用於 subclass 457 或 482 主申請人的家庭成員；主申請已遞交但尚未決定，或已獲批，均可能另行提出後續入境申請。",
+      "雇主／擔保人並非只需一般「知情」：申請須附上由與最近一次獲批 nomination 關聯的 sponsor 出具之書面同意，確認將家庭成員納入 nomination。",
+      "De facto 的法規判斷不能簡化為「同居滿12個月便自動合格」，也不宜寫成「完全沒有最低期限」。關係定義、12個月要求及可能的法定例外須按 Migration Regulations、申請日期和個案事實共同核對。",
+      "Home Affairs 要求所有非英文文件附英文翻譯；在澳洲境內翻譯者須具 NAATI 資格，境外翻譯者須提供姓名、地址、電話及資格／經驗。專頁並未一概要求所有上傳文件均為 certified copies。",
+      "本文為一般法規資訊，不構成澳洲移民或法律意見，也不保證簽證結果。複雜個案應由 OMARA 註冊移民代理或澳洲執業律師按最新法規評估。"
+    ],
+    sidebarCards: [
+      ["01", "Family-unit test", "申請人須是主申請人的配偶、de facto伴侶或合資格受扶養子女。", "Eligibility"],
+      ["02", "Sponsor letter", "最近一次獲批 nomination 的關聯 sponsor 須書面同意納入家庭成員。", "Essential"],
+      ["03", "Evidence bundle", "財務、家庭、社交與長期承諾證據應形成一致時間線。", "Relationship"],
+      ["04", "Health & character", "體檢、警方證明與足夠醫療保險須按個案要求完成。", "Compliance"]
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic visa482-pathway" aria-labelledby="visa482-pathway-title">
+        <div class="visa482-visual-head">
+          <span>SUBCLASS 482 · SUBSEQUENT ENTRANT</span>
+          <h2 id="visa482-pathway-title">482後續入境申請：四道核心門檻</h2>
+          <p>不是獨立伴侶簽證，也不是主簽證的自動附加；伴侶需要另行遞交一份 subclass 482 申請。</p>
+        </div>
+        <div class="visa482-pathway-grid">
+          <article><b>01</b><strong>家庭單位成員</strong><span>Spouse / de facto partner</span></article>
+          <i aria-hidden="true">→</i>
+          <article><b>02</b><strong>Sponsor書面同意</strong><span>Extend nomination coverage</span></article>
+          <i aria-hidden="true">→</i>
+          <article><b>03</b><strong>個人合規要求</strong><span>Health · Character · Insurance</span></article>
+          <i aria-hidden="true">→</i>
+          <article><b>04</b><strong>個案審批</strong><span>Grant is not automatic</span></article>
+        </div>
+        <p class="visa482-figure-caption">圖一｜申請邏輯示意；每項條件仍須以 ImmiAccount 清單與個案通知為準。</p>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) The short answer",
+        paragraphs: [
+          "A girlfriend cannot join merely because her boyfriend holds a subclass 482 visa. She may lodge a separate subclass 482 subsequent entrant application if she qualifies as his spouse or de facto partner and therefore as a member of his family unit.",
+          "The sponsor linked to the most recent approved nomination must agree in writing to include the family member. The applicant must also meet the applicable health, character, insurance and other visa requirements. Grant is assessed case by case."
+        ]
+      },
+      {
+        heading: "2) What must be proved",
+        paragraphs: [
+          "For a de facto claim, the evidence should show a genuine and continuing relationship, a mutual commitment to a shared life to the exclusion of all others, and that the couple live together or are not permanently separated.",
+          "The legal duration rule and any exception must be checked carefully. A registered relationship can be relevant, but neither registration nor a stack of joint documents replaces the need to establish the relationship as a whole."
+        ]
+      },
+      {
+        heading: "3) Evidence and process",
+        paragraphs: [
+          "Common evidence includes joint bank activity, bills, a lease or mortgage, correspondence to the same address, travel and photographs, statements from friends or family, and a clear relationship chronology. Quality, continuity and consistency matter more than volume.",
+          "The application is lodged through ImmiAccount. Police certificates, health examinations, translations, biometrics or further information may be requested. Applicants should follow the personalised checklist rather than assume every case has identical documents."
+        ]
+      },
+      {
+        heading: "4) Rights and limits",
+        paragraphs: [
+          "The Home Affairs page states that a subsequent entrant can live, work and study in Australia and travel while the visa is valid. The grant letter and VEVO remain the authoritative sources for the conditions attached to the individual visa.",
+          "This is not a permanent partner visa. The family member’s status remains connected to the primary visa holder, and any later permanent-residence pathway requires a separate application and fresh eligibility assessment."
+        ]
+      },
+      {
+        heading: "5) Legal and professional boundary",
+        paragraphs: [
+          "This article reflects official material checked on 27 July 2026 and provides general information only. It is not Australian immigration or legal advice and does not guarantee a visa outcome.",
+          "Applicants with a relationship under 12 months, prolonged periods apart, previous marriages, child-custody issues, refusals, health or character concerns should obtain case-specific advice from an OMARA-registered migration agent or an Australian legal practitioner."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、案例結論：可以申請，但不是自動獲簽",
+        paragraphs: [
+          "本案中的女朋友不能只憑「男朋友持有482簽證」入境團聚。若她能依法證明自己是主簽證持有人的 spouse（配偶）或 de facto partner（事實伴侶），因而屬於其 member of the family unit（家庭單位成員），便可能另行遞交 subclass 482 Subsequent Entrant（後續入境者）申請。",
+          "這不是 subclass 820/801 或 309/100 等獨立伴侶簽證，也不是在男朋友的既有簽證上補一個名字。申請人會另行取得同一 subclass 的簽證，是否獲批仍由內政部按個案審理。"
+        ]
+      },
+      {
+        heading: "二、誰可使用482後續入境途徑",
+        paragraphs: [
+          "Home Affairs 專頁把此途徑定位為：subclass 457 或 482 主申請人的家庭成員，在未隨主申請一同遞交時，另行申請赴澳團聚。主申請已經獲批，或主申請已遞交但仍在審理，均可能使用 subsequent entrant 程序。",
+          "一般家庭單位成員包括合法配偶、同性或異性的 de facto 伴侶，以及符合年齡與依賴條件的子女。子女通常須未滿18歲；18歲以上未滿23歲者須符合經濟依賴條件；23歲以上者通常須因身體或認知限制而無法維持生計，並不得已婚、訂婚或另有 de facto 伴侶。"
+        ]
+      },
+      {
+        heading: "三、De facto關係的法律測試",
+        paragraphs: [
+          "Form 1496i 列出的核心要素包括：關係真實且持續；雙方對共同生活具有排他的相互承諾；雙方並非近親；共同居住，或並非永久分開生活。申請人要證明的是整體關係，而不是只交一份租約或幾張合照。",
+          `<section class="visa482-evidence-figure" aria-label="De facto關係證據四個面向">
+            <div class="visa482-visual-head"><span>RELATIONSHIP EVIDENCE</span><h3>De facto證據的四個面向</h3></div>
+            <div class="visa482-evidence-grid">
+              <article><b>財務</b><p>聯名帳戶使用、共同支出、保險受益人、資產或債務安排。</p></article>
+              <article><b>家庭</b><p>共同租約、帳單、同址信件、家務分工與日常生活安排。</p></article>
+              <article><b>社交</b><p>共同旅行、重要活動、合照、親友如何認識並理解這段關係。</p></article>
+              <article><b>承諾</b><p>關係發展陳述、長期計畫、分居原因與保持聯繫的方式。</p></article>
+            </div>
+            <p class="visa482-figure-caption">圖二｜證據應互相印證並形成連續時間線；數量不能彌補矛盾。</p>
+          </section>`
+        ]
+      },
+      {
+        heading: "四、12個月規則不能只用一句話帶過",
+        paragraphs: [
+          "原稿若寫成「移民法沒有最低同居期，12個月只是建議」會造成誤導。Home Affairs 的 Form 1496i 明確提醒，de facto 伴侶可能須符合關係已存在一定時間的條件；Migration Regulations 亦設有12個月要求及特定例外。",
+          "實務上應核對：申請前的關係持續時間、是否依法註冊關係、是否存在法規承認的例外，以及證據能否支持關係的真實與持續。註冊關係可能影響12個月條件，但不等於自動證明整段關係；關係不足12個月、長期異地或時間線複雜者，應在遞交前取得合資格個案意見。"
+        ]
+      },
+      {
+        heading: "五、Sponsor書面同意是核心文件",
+        paragraphs: [
+          "Home Affairs 要求申請附上 sponsor 的書面信函，確認把 sponsorship obligation 延伸至家庭成員。提供同意的應是與主簽證持有人最近一次獲批 nomination 關聯的 sponsor。",
+          "因此，雇主只口頭表示「沒問題」並不足夠。主簽證持有人應先聯繫公司的人力資源或移民合規負責人，取得清楚列明主申請人、家庭成員、nomination／sponsorship 關係及同意內容的正式書面文件。"
+        ]
+      },
+      {
+        heading: "六、健康、品格與醫療保險",
+        paragraphs: [
+          "申請人須符合澳洲健康要求，並按通知在指定 panel physician／clinic 完成體檢。是否需要哪些檢查，取決於國籍、居住史、預計逗留、工作環境及個案資料；不應在收到個人化要求前自行假定檢查項目。",
+          "品格方面，Home Affairs 專頁說明，年滿16歲的申請人及相關家庭成員須符合 character requirement。通常如自16歲起在過去10年內於澳洲累計居住12個月或以上，須提供 AFP 證明；在其他國家累計居住12個月或以上，也可能須提供該國警方證明。",
+          "申請期間須具備足夠醫療保險，獲批後亦要按簽證條件持續維持。保險是否 adequate 應按個人情況、互惠醫療安排與保單保障核對。"
+        ]
+      },
+      {
+        heading: "七、文件清單：重點是完整、連續、一致",
+        paragraphs: [
+          `<section class="visa482-checklist" aria-label="482後續入境文件清單">
+            <div class="visa482-visual-head"><span>DOCUMENT CHECKLIST</span><h3>常見文件包</h3></div>
+            <div class="visa482-checklist-grid">
+              <article><b>身份與主簽證</b><p>護照、出生／身份文件、主申請人 grant notice、關係資料。</p></article>
+              <article><b>關係證據</b><p>結婚證，或 de facto 的財務、家庭、社交及承諾證據。</p></article>
+              <article><b>Sponsor文件</b><p>與最近獲批 nomination 關聯 sponsor 的正式書面同意。</p></article>
+              <article><b>合規文件</b><p>警方證明、體檢、醫療保險、翻譯及個案要求的補充材料。</p></article>
+            </div>
+          </section>`,
+          "非英文文件均須附英文翻譯。在澳洲境內完成翻譯者須具 NAATI 資格；境外翻譯者須在譯本提供姓名、地址、電話及翻譯資格或經驗。是否另須 certified copy 應按具體文件與 ImmiAccount 清單處理，不宜一概寫成所有文件均須認證翻譯。"
+        ]
+      },
+      {
+        heading: "八、申請流程與境內申請限制",
+        paragraphs: [
+          "一般流程是：確認主申請與 sponsor 狀態、取得書面同意、整理關係與個人文件、在 ImmiAccount 遞交 separate SID 482 application、支付系統計算的申請費，再按通知完成體檢、生物辨識、警方證明或補件。",
+          "申請可在澳洲境內或境外遞交，但不能在 immigration clearance 提出。境內申請人通常須持有效 substantive visa，或特定 bridging visa，並核對現有簽證是否有 No Further Stay 等限制。任何境內身份空窗或簽證條件問題，都應在遞交前先處理。"
+        ]
+      },
+      {
+        heading: "九、費用、處理時間與簽證權利",
+        paragraphs: [
+          "截至2026年7月27日，Home Affairs 的 subclass 482 主頁顯示申請費用為 from AUD 4,015，但「from」不是每名後續入境者的固定報價。實際 charge 會按申請人組成、遞交日期及可能的附加費計算，應以 Visa Pricing Estimator 和 ImmiAccount 結算頁為準。部分合資格太平洋島國及東帝汶護照持有人自2026年7月1日起適用較低費用。",
+          "處理時間會隨個案完整度、體檢、品格查核及部門工作量變動，Visa Processing Time Guide 只能作參考。獲批後，官方專頁說明後續入境者可在澳洲生活、工作、學習及多次出入境；實際簽證條件與有效期仍應以 grant letter 和 VEVO 為準，不宜概括成「工作完全不受任何限制」。"
+        ]
+      },
+      {
+        heading: "十、與主簽證及永居路徑的關係",
+        paragraphs: [
+          "Subsequent entrant 不是獨立永久伴侶簽證，其身份與主簽證持有人的482狀態密切相關。Home Affairs 的表述是：在本人簽證與主簽證持有人的簽證均有效期間，可依簽證條件停留；若主簽證或本人簽證即將結束，應提前評估另一簽證或離境安排。",
+          "482主申請人日後可能符合 subclass 186 等雇主提名永居途徑，家庭成員也可能被納入後續申請，但這不是482後續入境簽證的自動結果。屆時須重新符合相應 nomination、簽證及家庭成員條件。"
+        ]
+      },
+      {
+        heading: "十一、給本案申請人的實務建議",
+        paragraphs: [
+          "第一步不是立刻上傳文件，而是把三條時間線對齊：男朋友的482與 nomination 狀態、雙方 de facto 關係的形成與共同生活證據、女朋友現有簽證及預計遞交地點。三者若出現矛盾，先釐清再遞交。",
+          "若能符合 partner／family-unit 定義、取得 sponsor 書面同意，並滿足健康、品格、保險與其他要求，女朋友便可能遞交482後續入境申請；這不等於必然獲批。關係不足12個月、長期異地、曾婚、子女監護、既往拒簽、健康或品格問題，應由 OMARA 註冊移民代理或澳洲執業律師作個案審查。",
+          "本文依2026年7月27日可見的 Home Affairs、Migration Regulations、Form 1496i 與 OMARA 公開資料整理，僅供一般資訊與媒體教育用途，不構成移民或法律意見。政策、費用與表格可能隨時更新，正式遞交前務必再次核對官方現行版本。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "st-pauls-school-group-13-plus-pathways-durston-shrewsbury-house-2026",
     title: "St Paul’s School 13+ Pathway Update: What the Durston House and Shrewsbury House Group Route Means",
     socialTitle: "St Paul’s 13+ Group Pathway: Durston & Shrewsbury House",
