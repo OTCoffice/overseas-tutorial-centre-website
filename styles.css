@@ -29411,3 +29411,180 @@ main ul:not([class]) > li {
     grid-column: auto;
   }
 }
+
+.visa482-pathway,
+.visa482-evidence-figure,
+.visa482-checklist {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.visa482-pathway {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(203, 151, 67, 0.18), transparent 30%),
+    linear-gradient(145deg, #16292a 0%, #203e3d 58%, #16292a 100%);
+  color: #fffaf0;
+  padding: 30px 34px 32px;
+}
+
+.visa482-visual-head span {
+  color: #d9b66f;
+  display: block;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.visa482-visual-head h2,
+.visa482-visual-head h3 {
+  font-family: var(--font-claude-serif);
+  font-size: clamp(20px, 3vw, 29px);
+  line-height: 1.22;
+  margin: 8px 0 0;
+}
+
+.visa482-visual-head > p {
+  color: rgba(255, 250, 240, 0.75);
+  font-size: 10px !important;
+  line-height: 1.65 !important;
+  margin: 9px 0 0 !important;
+  max-width: 620px;
+}
+
+.visa482-pathway-grid {
+  align-items: stretch;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  margin-top: 24px;
+}
+
+.visa482-pathway-grid article,
+.visa482-evidence-grid article,
+.visa482-checklist-grid article {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.visa482-pathway-grid article {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(217, 182, 111, 0.32);
+  padding: 15px 13px;
+}
+
+.visa482-pathway-grid > i {
+  align-self: center;
+  color: #d9b66f;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.visa482-pathway-grid b {
+  color: #d9b66f;
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+.visa482-pathway-grid strong {
+  display: block;
+  font-family: var(--font-claude-serif);
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 9px;
+}
+
+.visa482-pathway-grid span {
+  color: rgba(255, 250, 240, 0.64);
+  display: block;
+  font-size: 8px;
+  line-height: 1.45;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+
+.visa482-figure-caption {
+  color: #8a7865;
+  font-size: 8px !important;
+  letter-spacing: 0.02em;
+  line-height: 1.55 !important;
+  margin: 14px 0 0 !important;
+}
+
+.visa482-pathway .visa482-figure-caption {
+  color: rgba(255, 250, 240, 0.55);
+}
+
+.visa482-evidence-figure,
+.visa482-checklist {
+  background: #f4f0e7;
+  border: 1px solid #ded4c4;
+  margin: 18px 0 20px;
+  padding: 24px 26px 26px;
+}
+
+.visa482-evidence-figure .visa482-visual-head h3,
+.visa482-checklist .visa482-visual-head h3 {
+  color: #1f3736;
+  font-size: 18px;
+}
+
+.visa482-evidence-grid,
+.visa482-checklist-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 17px;
+}
+
+.visa482-evidence-grid article,
+.visa482-checklist-grid article {
+  background: #fffdf8;
+  border-left: 3px solid #b78a42;
+  padding: 14px 15px;
+}
+
+.visa482-evidence-grid b,
+.visa482-checklist-grid b {
+  color: #203e3d;
+  display: block;
+  font-family: var(--font-claude-serif);
+  font-size: 12px;
+}
+
+.visa482-evidence-grid p,
+.visa482-checklist-grid p {
+  color: #675b4e;
+  font-size: 9px !important;
+  line-height: 1.65 !important;
+  margin: 6px 0 0 !important;
+}
+
+@media (max-width: 720px) {
+  .visa482-pathway {
+    padding: 23px 22px 25px;
+  }
+
+  .visa482-pathway-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .visa482-pathway-grid > i {
+    justify-self: center;
+    line-height: 1;
+    transform: rotate(90deg);
+  }
+
+  .visa482-evidence-figure,
+  .visa482-checklist {
+    padding: 20px 18px 22px;
+  }
+
+  .visa482-evidence-grid,
+  .visa482-checklist-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
