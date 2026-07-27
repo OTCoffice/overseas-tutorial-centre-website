@@ -2750,6 +2750,227 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "uk-company-australia-482-work-experience-ma-education-timeline-2026",
+    title: "UK Company Sponsorship for Australia’s Subclass 482: One-Year Experience Rule and MA Education Timeline",
+    socialTitle: "Australia 482: One-Year Experience Rule for MA Education Graduates",
+    date: "2026-07-27",
+    category: "Australia Migration",
+    column: "settlement",
+    kicker: "澳洲482 · 英國公司擔保 · MA Education時間線",
+    author: "海外督導（Overseas Tutorial Centre）｜《留學導報》編輯部",
+    summary: "A fact-checked guide to the subclass 482 one-year work-experience rule, overseas business sponsorship and realistic visa planning for a January 2026 Australian MA Education graduate—including why a one-year course alone will usually not satisfy the subclass 485 Australian study requirement.",
+    titleZh: "英國公司為中國護照持有人申請澳洲482簽證：1年工作經驗與MA Education畢業時間線",
+    socialTitleZh: "澳洲482：一年工作經驗與教育碩士時間線",
+    summaryZh: "從中國護照申請人、英國公司與澳洲教育職位三個角度，核對 Skills in Demand（subclass 482）的一年相關工作經驗、Overseas Business Sponsor、CSOL職業、薪資與LMT要求，並為2026年1月完成澳洲一年制MA Education者重畫三條可執行時間線。",
+    relatedReadings: [
+      "australia-482-skills-in-demand-employer-sponsorship-checklist",
+      "australia-482-subsequent-entrant-de-facto-partner-guide-2026",
+      "australia-early-childhood-register-2026"
+    ],
+    resources: [
+      ["Home Affairs — SID 482 Core Skills stream", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream"],
+      ["Home Affairs — Core Skills Occupation List", "https://immi.homeaffairs.gov.au/Documents/core-sol.pdf"],
+      ["Home Affairs — Salary requirements to nominate a worker", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482/salary-requirements"],
+      ["Home Affairs — Temporary Graduate 485 Post-Higher Education Work stream", "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/485-post-study-work.aspx"],
+      ["Home Affairs — Meeting the Australian study requirement", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-provisional-489/australian-study-requirements"],
+      ["Federal Register of Legislation — Migration Regulations 1994", "https://www.legislation.gov.au/F1996B03551/latest/text"],
+      ["AITSL — Teacher migration frequently asked questions", "https://www.aitsl.edu.au/migrate-to-australia/frequently-asked-questions"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-07-27。Home Affairs 的 Core Skills stream 專頁要求至少1年提名職業或相關領域工作經驗；須在申請前5年內以全職、兼職或casual方式取得，兼職或casual合計須等同至少12個月全職，且不必連續。官方並未把要求表述成固定的1,976小時計算法。",
+      "Teaching assistant、輔導、教育行政或一般教育管理工作不會因為都在教育領域而自動被視為teacher的相關經驗。相關領域工作須在相同skill level執行與提名職位相同或密切相關的ANZSCO任務。",
+      "一年制MA Education不能一概視為subclass 485通行證。Australian study requirement通常要求92週註冊學習，並在澳洲不少於16個日曆月完成；若只完成約一年的單一課程，通常不足，除非另有可合併計算的合資格澳洲學習。",
+      "MA Education與accredited Master of Teaching／initial teacher education並非同義。AITSL要求相關ITE、指定教育內容與supervised teaching practice；能否作teacher skills assessment及州教師註冊，須看課程實質與認可狀態。",
+      "截至2026年7月，Core Skills nomination須同時符合AMSR及AUD79,423的CSIT（適用於2026-07-01至2027-06-30遞交的nomination）。薪資門檻會按年度調整。",
+      "本文為一般政策資訊，不構成澳洲移民或法律意見。英國公司的澳洲營運結構、nomination真實性、申請人的經驗與現有簽證，應由OMARA註冊移民代理或澳洲執業律師按個案審查。"
+    ],
+    sidebarCards: [
+      ["01", "Experience gate", "至少1年相關經驗；須核對任務、skill level、日期與全職等價。", "Worker"],
+      ["02", "Sponsor gate", "英國公司須符合海外SBS用途，或由合資格澳洲實體擔保。", "Employer"],
+      ["03", "Qualification gate", "MA Education不必然是ITE，也不自動帶來教師註冊。", "Teaching"],
+      ["04", "485 gate", "一年制課程單獨通常不足92週／16個月Australian study requirement。", "Timeline"]
+    ],
+    zhVisualPanel: `
+      <section class="zh-herald-infographic visa482exp-gates" aria-labelledby="visa482exp-gates-title">
+        <div class="visa482exp-visual-head">
+          <span>SID 482 · EDUCATION OCCUPATIONS · 2026</span>
+          <h2 id="visa482exp-gates-title">不是一條時間線，而是四道門同時核對</h2>
+          <p>中國護照、澳洲學位或英國雇主都不能單獨決定結果；worker、occupation、sponsor與nomination必須同時成立。</p>
+        </div>
+        <div class="visa482exp-gate-grid">
+          <article><b>01</b><strong>申請人</strong><span>1年相關經驗 · 英語 · 技能</span></article>
+          <article><b>02</b><strong>提名職業</strong><span>CSOL · ANZSCO任務 · 資格／註冊</span></article>
+          <article><b>03</b><strong>英國公司</strong><span>Overseas SBS用途或澳洲實體</span></article>
+          <article><b>04</b><strong>澳洲職位</strong><span>Genuine position · LMT · AMSR／CSIT</span></article>
+        </div>
+        <p class="visa482exp-caption">圖一｜四道核心門檻；任何一項不足，都不能用另外三項抵銷。</p>
+      </section>
+    `,
+    body: [
+      {
+        heading: "1) The corrected answer",
+        paragraphs: [
+          "A Chinese passport holder seeking the Core Skills stream must have at least one year of relevant work experience in the nominated occupation or a related field. The experience can be overseas and can be full-time, part-time or casual, but part-time or casual work must add up to at least 12 months of full-time equivalent experience within the five years before application.",
+          "A UK company may qualify as an overseas standard business sponsor only for the statutory overseas-business purposes, such as establishing or assisting an Australian operation with overseas connections or fulfilling a contractual obligation. The nomination must still be for a genuine Australian position."
+        ]
+      },
+      {
+        heading: "2) Education experience must match the occupation",
+        paragraphs: [
+          "Primary School Teacher, Secondary School Teacher and Early Childhood (Pre-primary School) Teacher appear on the current CSOL. Listing is only the starting point: the applicant’s work must be in the nominated occupation or at the same skill level in a related field, with duties the same as or closely related to the ANZSCO role.",
+          "Teaching-assistant, tutoring, counselling, education administration or management experience is not automatically equivalent to teacher experience. Evidence should describe duties, student age group, hours, dates, pay and the employing institution."
+        ]
+      },
+      {
+        heading: "3) MA Education is not automatically a teaching qualification",
+        paragraphs: [
+          "Course title alone is not decisive. A generic MA Education may be academic or policy-focused and may not be an accredited initial teacher education qualification. AITSL looks for relevant initial teacher education, professional education studies and supervised teaching practice.",
+          "Teacher skills assessment, state or territory registration and subclass 482 visa eligibility are separate questions. Applicants should verify all three before choosing a teacher occupation."
+        ]
+      },
+      {
+        heading: "4) The subclass 485 reality check",
+        paragraphs: [
+          "A Masters coursework degree can produce a two-year Post-Higher Education Work stream visa only if the applicant meets all current subclass 485 criteria, including the Australian study requirement. That requirement normally means 92 weeks of registered study completed in Australia over at least 16 calendar months.",
+          "A one-year MA Education by itself will therefore usually be insufficient. Other eligible Australian study may sometimes be combined, but credit, overlap, CRICOS registration and physical study time must be checked carefully."
+        ]
+      },
+      {
+        heading: "5) Legal and professional boundary",
+        paragraphs: [
+          "This briefing reflects official material checked on 27 July 2026 and is general information only. It is not Australian immigration or legal advice and does not guarantee sponsorship, nomination, registration or visa approval.",
+          "The sponsor structure, occupation mapping, work evidence, Australian study calculation and current visa status should be reviewed by an OMARA-registered migration agent or Australian legal practitioner."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、先給結論：原稿的兩條捷徑都不能直接成立",
+        paragraphs: [
+          "第一，澳洲學位不能替代482的一年相關工作經驗。中國護照持有人如走Core Skills stream，仍須證明在提名職業或相關領域具至少一年工作經驗；經驗可以來自中國、英國、澳洲或其他國家，但必須符合日期、任務與skill level要求。",
+          "第二，英國公司不是只要願意出offer便能擔保。若公司只在英國營運而未在澳洲合法營運，其Standard Business Sponsor申請須符合Overseas Business Sponsor的法定用途；若已有澳洲分公司或關聯實體，則要先確定由哪個法人申請SBS、提名及實際僱用。",
+          "第三，一年制MA Education不能直接等同兩年485。若單一課程的CRICOS註冊週數及實際在澳學習時間不足Australian study requirement，畢業生即使取得Master學位，也可能不能走Post-Higher Education Work stream。"
+        ]
+      },
+      {
+        heading: "二、482的一年工作經驗要求到底怎麼算",
+        paragraphs: [
+          "Home Affairs的Core Skills專頁要求，主申請人須在nominated occupation或related field具至少一年相關工作經驗。經驗須在簽證申請日前5年內取得，可以全職、兼職或casual；兼職與casual須合計等同至少12個月全職，工作期間不必連續。",
+          "原稿列出「約1,976小時」不宜作為官方硬門檻。38小時乘52週只是常見算術，實際審理仍看就業期間、每週工時、工作性質、休假與證據；更安全的做法是以月份、每週工時和可驗證工資記錄建立full-time equivalent時間表。",
+          "部分與課程相關的正式placement、internship或apprenticeship可能被考慮，但須符合Home Affairs對正式安排、課程相關性及occupation skill level的要求。不能把所有實習、志工或課堂觀摩自動算入一年。"
+        ]
+      },
+      {
+        heading: "三、教育領域不等於所有職位都互相相關",
+        paragraphs: [
+          "現行CSOL列有Early Childhood (Pre-primary School) Teacher 241111、Primary School Teacher 241213、Middle School Teacher 241311、Secondary School Teacher 241411及多項special education teacher職業。但「在清單上」只代表該職業可被Core Skills stream提名，不代表任何教育學畢業生都符合。",
+          `<section class="visa482exp-match-figure" aria-label="教育工作經驗匹配矩陣">
+            <div class="visa482exp-visual-head"><span>OCCUPATION MATCH</span><h3>工作經驗是否「相關」：看任務與skill level</h3></div>
+            <div class="visa482exp-match-grid">
+              <article class="is-strong"><b>較強匹配</b><p>在相應學段正式任教，負責課程設計、授課、評量、班級與學習進度。</p></article>
+              <article><b>需要細查</b><p>同等skill level的相關教育職位，任務與ANZSCO提名職位高度重疊。</p></article>
+              <article class="is-risk"><b>不能自動等同</b><p>Teaching assistant、私人補習、輔導、招生、教育行政或一般管理。</p></article>
+            </div>
+            <p class="visa482exp-caption">圖二｜職稱不是唯一標準；職責、學生年齡、工作環境與技能層級須互相支持。</p>
+          </section>`,
+          "因此，教學助理、輔導或教育管理是否可用，不能只看「都屬教育」。若其主要任務低於teacher的ANZSCO skill level，或缺乏設計課程、獨立授課與評量等核心職責，便可能無法支持teacher提名。"
+        ]
+      },
+      {
+        heading: "四、工作經驗證據應如何整理",
+        paragraphs: [
+          "建議建立一張逐段employment chronology，列出雇主、國家、職稱、起訖年月、每週工時、是否受薪及核心職責，再對照目標ANZSCO任務。中國、英國或其他國家的合資格經驗都可以考慮，國籍本身不限制經驗來源。",
+          "常見文件包括雇主信、合約、工資單、銀行入帳、稅務或社保記錄、排班／課表及學校資料。雇主信應由有權人士簽署，說明職位、日期、每週工時、薪資與具體職責；只有一封內容籠統的推薦信，證明力通常不足。",
+          "若經驗在讀書期間取得，還要核對當時簽證工作條件及實際工時。任何互相矛盾的日期、現金工資、無法查證的雇主或後補職責描述，都會提高風險。"
+        ]
+      },
+      {
+        heading: "五、MA Education不一定等於Master of Teaching",
+        paragraphs: [
+          "「Education」出現在學位名稱中，不等於完成澳洲認可的initial teacher education（ITE）。很多MA Education偏向教育政策、領導、研究或國際教育，未必包含對應學段的curriculum and pedagogy、足夠supervised teaching practice，也未必讓畢業生申請州教師註冊。",
+          "AITSL對school teacher skills assessment的核心是資格與英語：通常須有合計至少四年高等教育，其中包含與提名學段相符的ITE。AITSL亦明確指出，其skills assessment不是用工作經驗補足不符合的教師教育資格。",
+          "因此應先向大學及相關州regulator確認課程是否為accredited ITE。若課程只是MA Education而不是accredited Master of Teaching，不能在文章或申請中直接稱為「教師資格」。"
+        ]
+      },
+      {
+        heading: "六、英國公司可以如何成為Sponsor",
+        paragraphs: [
+          "Migration Regulations 2.59允許在澳洲境外合法營運的企業申請Standard Business Sponsor。但若該企業並未在澳洲合法營運，法定用途受到限制：讓482申請人代表企業建立或協助建立具有海外連結的澳洲業務，或履行／協助履行企業的contractual obligation。",
+          "這意味英國公司不能只為一般長期職位套用OBS。申請材料應能解釋澳洲業務或合約、職位為何在澳洲、申請人將為英國公司完成什麼工作，以及為何這不是紙面安排。",
+          "若集團已有澳洲法人，通常要比較由澳洲實體申請SBS與由英國公司走overseas sponsor的法律和營運結果。Core Skills專頁並指出：澳洲business sponsor的受僱人可在sponsor或合資格associated entity工作；overseas business sponsor的受僱人通常只能在該海外sponsor的business內工作，不能任意轉到associated entity。"
+        ]
+      },
+      {
+        heading: "七、Sponsor、Nomination與Visa是三個不同審查",
+        paragraphs: [
+          `<section class="visa482exp-process" aria-label="482三階段申請流程">
+            <article><b>1</b><strong>SBS</strong><span>企業是否符合approved sponsor資格與海外／澳洲營運用途</span></article>
+            <i>→</i>
+            <article><b>2</b><strong>Nomination</strong><span>真實職位、CSOL、LMT、AMSR、CSIT、僱傭安排</span></article>
+            <i>→</i>
+            <article><b>3</b><strong>Visa</strong><span>申請人的經驗、技能、英語、健康、品格與其他條件</span></article>
+            <p class="visa482exp-caption">圖三｜三層可以部分同步準備，但證據與法律問題不能互相替代。</p>
+          </section>`,
+          "LMT通常要求在澳洲至少以兩則廣告刊登職位至少四週，除非符合豁免。它不是一句「找不到本地人」聲明，而是nomination的證據組合；廣告內容、薪資、職稱、期間與提名職位須保持一致。",
+          "截至2026年7月，Core Skills nomination除須支付不低於相同工作澳洲員工的Annual Market Salary Rate外，現金薪資亦不得低於AUD79,423的CSIT。這一數字適用於2026年7月1日至2027年6月30日遞交的nomination，之後仍可能再次調整。"
+        ]
+      },
+      {
+        heading: "八、485不是所有一年制Master畢業生的標準路徑",
+        paragraphs: [
+          "Post-Higher Education Work stream接受masters coursework作為eligible degree類型，現行通常可給予兩年停留期；但申請人還須同時符合年齡、學生簽證、課程完成後六個月內遞交、英語、AFP、保險及Australian study requirement等條件。",
+          "Australian study requirement通常要求一個或多個合資格課程合計92週registered study，並在澳洲以不少於16個日曆月完成。判斷基礎是CRICOS註冊時長與實際合資格學習，不是學位名稱或學校宣傳所稱的「一年制Master」。",
+          "若一年制MA Education是申請人在澳洲唯一完成的課程，通常無法單獨達標。若之前還完成其他合資格澳洲課程，可能合併計算，但須逐項處理course overlap、credit、RPL、CRICOS週數與實際在澳時間。"
+        ]
+      },
+      {
+        heading: "九、2026年1月畢業者還要注意六個月窗口",
+        paragraphs: [
+          "485的六個月一般從course completion date計算，而不是畢業典禮或收到紙本學位證的日期。完成日是學生首次符合全部學術要求並獲學校書面通知的日期。",
+          "本文核查日為2026年7月27日。若完成信日期早於2026年1月27日，六個月窗口可能已過；若完成日接近1月底，時間也非常緊迫。申請人應立即查completion letter與現有簽證，而不是按「一月畢業」作模糊推算。",
+          "485主申請人通常必須在澳洲境內遞交；亦不能在尚未完成課程時提前提交。原稿建議在2025年底遞交485，對2026年1月才完成課程者並不成立。"
+        ]
+      },
+      {
+        heading: "十、時間線A：已具一年合資格相關經驗",
+        paragraphs: [
+          "若申請人在MA之前或期間已有中國、英國或其他國家的合資格受薪經驗，且在482申請日前五年內，可先做occupation mapping與full-time equivalent計算。不要因為是海外經驗就排除，也不要因為職稱包含teacher便直接納入。",
+          "2026年第三季度可同步完成四項工作：確認提名ANZSCO與課程／註冊要求；整理逐段工作證據；由英國公司確定overseas SBS或澳洲實體路徑；設計澳洲職位、薪資、LMT與合約。SBS、nomination與visa的實際遞交節奏由專業人士按個案安排。",
+          "此情況下不必為了湊澳洲經驗而機械等待一年；法律要求是相關經驗，不是澳洲經驗。但雇主與申請人仍要通過各自審查。"
+        ]
+      },
+      {
+        heading: "十一、時間線B：經驗不足，但確實符合485",
+        paragraphs: [
+          "只有在申請人透過MA加上其他合資格澳洲學習，確實達到92週／16個月等485條件時，才應把485列為可執行路徑。先確認completion date、六個月窗口、年齡、現有簽證及所有附件，再遞交。",
+          "獲得合法工作權後，應尋找與目標ANZSCO同等skill level且職責高度相關的受薪工作，按月保存合約、工資、稅務、排班、職責與學校資料。若目標是school teacher，還須先解決ITE與州教師註冊；不能假設持485便可直接任教。",
+          "英國公司可同時準備企業與nomination證據，但482 visa application必須等申請人真正滿足一年要求後再按當時法規評估。"
+        ]
+      },
+      {
+        heading: "十二、時間線C：一年制MA單獨不符合485，也沒有一年經驗",
+        paragraphs: [
+          "這是原稿最需要補上的情況。畢業生不能把485當成自動過渡簽證，必須先由專業人士確認目前可合法停留與工作的簽證選項；若沒有合適澳洲工作權，可在中國、英國或其他有合法工作資格的地方累積符合要求的相關經驗。",
+          "同時應重新評估提名職業。若MA Education不屬ITE，而過往經驗也不是school teacher，同硬套Primary／Secondary Teacher只會增加風險；可從實際資格與職責出發，查找是否存在更準確且在現行清單上的occupation。",
+          "任何新課程選擇都應以教育與職業價值為先，並在入學前核對CRICOS週數、credit對Australian study requirement的影響、課程是否ITE以及畢業後註冊結果，不能只為延長時間臨時拼課。"
+        ]
+      },
+      {
+        heading: "十三、遞交前的四份核對表",
+        paragraphs: [
+          `<section class="visa482exp-checks" aria-label="482遞交前四份核對表">
+            <article><b>工作經驗表</b><p>每段日期、工時、薪資、任務、證據與FTE累計。</p></article>
+            <article><b>職業資格表</b><p>CSOL、ANZSCO、AITSL／註冊、MA課程實質與英語。</p></article>
+            <article><b>公司結構表</b><p>英國與澳洲法人、SBS類型、澳洲營運／合約、實際僱主。</p></article>
+            <article><b>身份時間表</b><p>completion date、現有簽證、485資格／窗口、482預計遞交日。</p></article>
+          </section>`,
+          "最有效的下一步不是立刻遞交，而是先把上述四張表交叉比對。若worker、occupation、sponsor或position其中一項仍靠假設，便應先補證據或改路線。",
+          "本文依2026年7月27日可見的Home Affairs、Migration Regulations、CSOL、AITSL及公開資料整理，只提供一般政策教育資訊，不構成移民或法律意見。個案應由OMARA註冊移民代理或澳洲執業律師審查；教師資格與註冊另須由AITSL及相關州／領地regulator確認。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "australia-482-subsequent-entrant-de-facto-partner-guide-2026",
     title: "Can a De Facto Partner Join a Subclass 482 Visa Holder? Australia Subsequent Entrant Guide",
     socialTitle: "Subclass 482 Subsequent Entrant: A De Facto Partner Guide",

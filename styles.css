@@ -29588,3 +29588,217 @@ main ul:not([class]) > li {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.visa482exp-gates,
+.visa482exp-match-figure,
+.visa482exp-process,
+.visa482exp-checks {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.visa482exp-gates {
+  background:
+    linear-gradient(115deg, rgba(201, 143, 57, 0.16), transparent 36%),
+    #152733;
+  color: #f8f1e4;
+  padding: 30px 34px 32px;
+}
+
+.visa482exp-visual-head span {
+  color: #d7aa5d;
+  display: block;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+  line-height: 1.45;
+}
+
+.visa482exp-visual-head h2,
+.visa482exp-visual-head h3 {
+  font-family: var(--font-claude-serif);
+  font-size: clamp(19px, 3vw, 28px);
+  line-height: 1.25;
+  margin: 8px 0 0;
+}
+
+.visa482exp-visual-head > p {
+  color: rgba(248, 241, 228, 0.72);
+  font-size: 10px !important;
+  line-height: 1.65 !important;
+  margin: 9px 0 0 !important;
+  max-width: 650px;
+}
+
+.visa482exp-gate-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.visa482exp-gate-grid article {
+  background: rgba(255, 255, 255, 0.07);
+  border-top: 3px solid #d7aa5d;
+  min-width: 0;
+  padding: 15px 13px;
+}
+
+.visa482exp-gate-grid b,
+.visa482exp-process b {
+  color: #d7aa5d;
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+.visa482exp-gate-grid strong,
+.visa482exp-process strong {
+  display: block;
+  font-family: var(--font-claude-serif);
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.visa482exp-gate-grid span,
+.visa482exp-process span {
+  color: rgba(248, 241, 228, 0.66);
+  display: block;
+  font-size: 8px;
+  line-height: 1.55;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+
+.visa482exp-caption {
+  color: #8a7865;
+  font-size: 8px !important;
+  line-height: 1.55 !important;
+  margin: 14px 0 0 !important;
+}
+
+.visa482exp-gates .visa482exp-caption,
+.visa482exp-process .visa482exp-caption {
+  color: rgba(248, 241, 228, 0.55);
+}
+
+.visa482exp-match-figure,
+.visa482exp-checks {
+  background: #f3eee4;
+  border: 1px solid #ded2c1;
+  margin: 18px 0 20px;
+  padding: 24px 26px 26px;
+}
+
+.visa482exp-match-figure .visa482exp-visual-head h3 {
+  color: #19313b;
+  font-size: 18px;
+}
+
+.visa482exp-match-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 17px;
+}
+
+.visa482exp-match-grid article,
+.visa482exp-checks article {
+  background: #fffdf8;
+  border-top: 3px solid #c28b39;
+  min-width: 0;
+  padding: 14px 15px;
+}
+
+.visa482exp-match-grid article.is-strong {
+  border-top-color: #3c7a6c;
+}
+
+.visa482exp-match-grid article.is-risk {
+  border-top-color: #a33b35;
+}
+
+.visa482exp-match-grid b,
+.visa482exp-checks b {
+  color: #1d3942;
+  display: block;
+  font-family: var(--font-claude-serif);
+  font-size: 11px;
+}
+
+.visa482exp-match-grid p,
+.visa482exp-checks p {
+  color: #675b4e;
+  font-size: 9px !important;
+  line-height: 1.65 !important;
+  margin: 6px 0 0 !important;
+}
+
+.visa482exp-process {
+  align-items: stretch;
+  background: #19313b;
+  color: #f8f1e4;
+  display: grid;
+  gap: 9px;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  margin: 18px 0 20px;
+  padding: 24px 26px 22px;
+}
+
+.visa482exp-process article {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(215, 170, 93, 0.3);
+  min-width: 0;
+  padding: 14px;
+}
+
+.visa482exp-process > i {
+  align-self: center;
+  color: #d7aa5d;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.visa482exp-process .visa482exp-caption {
+  grid-column: 1 / -1;
+}
+
+.visa482exp-checks {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 720px) {
+  .visa482exp-gates {
+    padding: 23px 22px 25px;
+  }
+
+  .visa482exp-gate-grid,
+  .visa482exp-match-grid,
+  .visa482exp-checks {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .visa482exp-match-figure,
+  .visa482exp-checks {
+    padding: 20px 18px 22px;
+  }
+
+  .visa482exp-process {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 21px 18px;
+  }
+
+  .visa482exp-process > i {
+    justify-self: center;
+    line-height: 1;
+    transform: rotate(90deg);
+  }
+
+  .visa482exp-process .visa482exp-caption {
+    grid-column: auto;
+  }
+}
