@@ -2750,6 +2750,156 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "north-china-herald-leading-articles-research-significance",
+    title: "From Editorials to Research Infrastructure: Why the North-China Herald Leading Articles Matter",
+    socialTitle: "North-China Herald Leading Articles: A Digital-Humanities Research Framework",
+    date: "2026-07-27",
+    heraldLayout: "stacked",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "條約港英文報刊 · 殖民公共領域 · 數位人文",
+    author: "《留學導報》編輯部",
+    summary: "An academic essay on the historical, historiographical and methodological significance of identifying the North-China Herald’s leading articles, with a reproducible workflow connecting issue-level indexing, article-level verification, OCR criticism and longitudinal discourse analysis.",
+    titleZh: "從社論到研究基礎設施：整理《北華捷報》Leading Articles 的史料與方法論意義",
+    socialTitleZh: "《北華捷報》社論研究：史料價值與數位人文方法",
+    summaryZh: "本文從報刊體裁史、條約港公共領域與數位人文三個層次，說明系統辨識《北華捷報》Leading Articles 的學術意義；並以已完成的3,811期期號索引為基礎，提出從版面核驗、OCR校正、主題標引到可重現語料庫建設的方法框架。",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260727-01",
+    rightsNotice: "本文由《留學導報》編輯部撰寫並全文刊登。未經刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    relatedReadings: [
+      "nine-volume-editorial-system-textbook-as-edition",
+      "material-culture-book-history-collecting-chinese-translation-review"
+    ],
+    resources: [
+      ["Library of Congress — The North-China Herald", "https://www.loc.gov/item/sn89049315/"],
+      ["University of Illinois Newspaper Database — North China Herald", "https://www.library.illinois.edu/hpnl/newspapers/results_full.php?bib_id=343"],
+      ["Internet Archive — northchinaherald collection", "https://archive.org/details/northchinaherald"],
+      ["Oxford Research Encyclopedia — Editorial Journalism and Newspapers’ Editorial Opinions", "https://academic.oup.com/edited-volume/61798/chapter-abstract/546178853"],
+      ["Nicholson — The Digital Turn", "https://doi.org/10.1080/13688804.2012.752963"],
+      ["Milligan — Illusionary Order", "https://doi.org/10.3138/chr.694"],
+      ["Eichleter — The Outside Perspective", "https://doi.org/10.32926/2018.6.eic.outsi"],
+      ["Wei — Beyond the Front Line", "https://doi.org/10.1017/S0026749X11000886"]
+    ],
+    body: [
+      {
+        heading: "Editorial Abstract",
+        paragraphs: [
+          "This article argues that identifying the leading articles of the North-China Herald is not a matter of extracting prominent headlines but of reconstructing the newspaper’s institutional voice across a changing treaty-port media system. It distinguishes the issue-level bibliography already established for 3,811 items dated 3 August 1850 to 19 November 1941 from the article-level corpus still to be built. A rigorous workflow must combine page-layout evidence, genre classification, OCR criticism, source-image verification and transparent metadata. Such a corpus would enable close reading and longitudinal analysis of how commercial interest, diplomatic pressure, municipal government, law and racialised knowledge were converted into editorial claims about public order and China. The article also stresses that the Herald is evidence of a foreign community’s representations and political practices, not a transparent record of China itself."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "本文主張，整理《北華捷報》（North-China Herald）的 Leading Articles，並非從報紙中擷取若干「重要文章」，而是重建一份條約港英文報刊在近一個世紀中持續生產的制度性聲音。Leading Article 在十九、二十世紀英語新聞傳統中通常指代表報館立場的社論，而非今日意義上的頭條新聞。對此類文本進行系統辨識，可使研究者區分事件報道與報館判斷，進而考察商業利益、外交壓力、領事司法、租界治理與種族化知識如何被轉化為關於「秩序」「文明」「改革」及「公共利益」的論述。本文以目前已完成的3,811期期號索引為基礎，區分期號層書目建設與文章層語料庫建設，提出一套結合版面核驗、體裁判定、OCR批判、人工校對、主題標引與來源追溯的方法框架。本文同時強調：《北華捷報》首先是上海外僑社群自我表述與政治介入的史料，而不是關於「中國」的透明窗口；只有把報刊位置、材料缺漏與數位化偏差納入研究設計，Leading Articles 語料庫才可能成為可查證、可比較、可重用的歷史研究基礎設施。",
+          "<strong>關鍵詞：</strong>《北華捷報》；Leading Article；條約港報刊；殖民公共領域；報刊體裁；OCR；數位人文；上海史"
+        ]
+      },
+      {
+        heading: "一、問題的提出：從「讀報」到重建報館聲音",
+        paragraphs: [
+          "歷史研究使用報紙時，最容易出現的問題，是把同一期報紙中的不同文本視為性質相同的「材料」。新聞電訊、商情報價、法庭記錄、讀者來函、轉載、廣告與社論雖共同出現在一個版面上，其生產主體、證據地位與修辭目的卻不相同。若不先辨認體裁，研究者便可能把報館評論當成事實報道，或把轉載內容誤判為本報立場。",
+          "Leading Article 正是在這一層面具有方法論上的樞紐地位。新聞學研究通常將 editorial 或 leading article 理解為一種有別於新聞報道的制度性體裁：它多數不署名，佔據相對穩定的版面位置，並以報館的集體聲音進行解釋、評價、勸說或政治倡議。其「作者」因此不能簡單等同於某一名編輯；更準確地說，它是由編輯制度、報館所有權、讀者市場與政治環境共同生產的言說位置。",
+          "整理《北華捷報》的 Leading Articles，首先是在史料層面恢復這一體裁差異。工作的目的不是證明社論比其他內容更重要，而是讓研究者清楚知道：何時讀到的是事件，何時讀到的是對事件的命名；何時讀到的是信息流通，何時讀到的是報館企圖塑造信息意義的制度性行動。"
+        ]
+      },
+      {
+        heading: "二、《北華捷報》的歷史位置與材料範圍",
+        paragraphs: [
+          "美國國會圖書館的書目記錄顯示，《北華捷報》由H. Shearman在上海創辦，第一卷第一號日期為1850年8月3日，早期以週報形式出版；伊利諾伊大學報紙資料庫則記錄其後續刊名演變，包括 North-China Herald and Market Report，以及自1870年起的 North-China Herald and Supreme Court and Consular Gazette。這些名稱變化並非單純的書目細節，而反映報紙內容結構、司法資料、商業信息與公共事務功能的擴張。",
+          "本項目前一階段已從 Internet Archive 的 `northchinaherald` collection 建立3,811筆期號層索引，日期範圍為1850年8月3日至1941年11月19日；每筆保存 identifier、日期、標題與檔案大小，並預留OCR字符數、品質評分、Municipal Gazette標記與錯誤欄位。20期小樣本的OCR全文抓取已全部成功，證明公開資料可支援下一階段處理；但目前成果仍是「期號索引」，不能被表述為已完成的「社論索引」。",
+          "這一區分具有實質意義。一期報紙可能包含一篇以上的領論，也可能因節期、版面調整、增刊或報館改制而缺少固定欄目；Municipal Gazette、領事法院資料及其他附刊又可能與主報共享檔案。從期號走向文章，必須重新建立版面、欄目、文章起訖與來源層級，不能直接把OCR中的第一段文字當成 Leading Article。"
+        ]
+      },
+      {
+        heading: "三、Leading Article 作為制度性體裁",
+        paragraphs: [
+          "Leading Article 的學術價值，首先來自它所代表的不是私人意見，而是一種經報館制度授權的公共聲音。社論通常以匿名或弱署名方式出現，這種匿名性不意味沒有立場；相反，它把個人發言轉化為報紙整體的判斷，使其得以對政府、領事、商會、工部局、法院及讀者共同體提出要求。",
+          "對《北華捷報》而言，這一體裁尤其關鍵。既有研究已指出，該報主要服務上海英美居民，長期反映商人、傳教士及外國利益群體對中國的理解與期待（Newton, 1985）。條約港英文報刊同時構成跨區域信息網絡，上海的新聞與評論可經日本、香港、倫敦及其他口岸轉載；Eichleter（2019）的研究顯示，《北華捷報》對日本的描述也在東亞條約港網絡中參與形塑跨國想像。",
+          "因此，Leading Article 不能只按題目分類為「政治」「外交」或「商業」。它還應被視為一種制度行為：報館透過論證，把特定群體的利益表述為普遍利益，把某種治理方案表述為理性選擇，並把另一些聲音排除在可被承認的公共意見之外。其史料意義正在於揭示這一轉換過程。"
+        ]
+      },
+      {
+        heading: "四、殖民公共領域：報紙不是中國的透明鏡子",
+        paragraphs: [
+          "《北華捷報》常被研究者用來了解晚清及民國中國，但這種使用必須附帶嚴格限定。該報並不是一面被動反映中國社會的鏡子，而是一個位於條約港權力結構中的媒體機構。它的讀者組成、語言、廣告市場、消息來源及法律環境，使其觀察框架天然帶有選擇性。",
+          "Newton對1850至1900年報道的研究表明，報紙對中國的描述往往與通商、傳教、內河開放、鐵路建設及政治軍事改革等外國利益相互交織。這並不表示每一篇文章都能被簡化為同一種帝國立場；編輯更替、國籍差異、商業競爭與歷史危機都可能造成內部矛盾。然而，正因如此，建立長時段社論語料庫才有價值：它讓研究者不必以少數著名引文代表整份報紙，而能辨認立場的延續、轉折與分歧。",
+          "Wei（2014）對1928年濟南事件期間英文報刊的研究進一步說明，條約港媒體不是地方性的封閉空間。英、日、中各方對事件的敘述經英文報刊競逐，再進入倫敦與紐約的新聞網絡。Leading Articles 因而可用來研究的不只是「西方如何看中國」，還包括地方評論如何取得權威、如何被轉載，以及區域信息如何轉化為全球輿論。"
+        ]
+      },
+      {
+        heading: "五、從期號索引到文章語料庫：可重現的方法框架",
+        paragraphs: [
+          "嚴謹的 Leading Articles 工程應分成六個彼此可追溯的層次。第一層是期號控制：確認日期、刊名、卷期、identifier、頁數、檔案版本與缺期。第二層是版面辨識：根據欄題、排版位置、字體、跨欄關係及文章起訖，建立候選社論。第三層是體裁判定：區分原創社論、轉載評論、讀者來函、新聞摘要與署名專論，並記錄判定理由及信心水準。",
+          "第四層是文本處理：保存原始影像、Internet Archive連結、未校正OCR與人工校正文本，使任何改動都可回溯。第五層是語義標引：記錄人物、機構、地點、事件、主題、政策立場、引用來源及轉載關係。第六層是研究輸出：將資料導出為CSV、JSON或其他開放格式，附帶欄位說明、版本號、核查日期與已知缺陷。",
+          "這一流程的核心原則是把「判斷」也資料化。若某篇文章是否為 Leading Article 存在爭議，資料庫不應強迫給出無條件的二元答案，而應保存候選類型、證據、判定者、日期與信心水準。如此，後來研究者可以修訂分類，而不必推翻整個資料集。"
+        ]
+      },
+      {
+        heading: "六、OCR批判：可檢索不等於可證明",
+        paragraphs: [
+          "數位報刊最具誘惑力的特徵，是能在數秒內完成跨數十年的關鍵詞檢索。然而，Nicholson（2013）提醒我們，數位報紙並不是紙本報紙的透明替身；資料庫的收錄選擇、版面拆分與搜尋介面會改變研究者看見材料的方式。Milligan（2013）則進一步指出，OCR看似提供整齊、全面的檢索秩序，實際上可能使可被準確辨識的時期、字體與版面獲得不成比例的史學能見度。",
+          "本項目的20期測試所得OCR品質分數，只是用於批次篩查的啟發式指標，不能等同於逐字準確率。多欄版面可能發生閱讀順序錯置，破損字體會造成關鍵詞漏檢，頁眉頁腳可能被併入正文，連字符則可能破壞人名與概念的統計。尤其對 Leading Article 而言，OCR能回答「某些字串可能在哪裡」，卻不能單獨證明文章的版面位置、體裁身分或完整邊界。",
+          "因此，量化分析應採取「OCR發現、影像證實」的雙層原則。關鍵引文、首次出現、頻率轉折及重大政治立場都必須返回原始版面核查；搜尋不到某詞，也不能直接推論該概念不存在。只有把不可見的錯誤率納入論證，數位方法才不會把技術便利誤當成史料完整性。"
+        ]
+      },
+      {
+        heading: "七、連接細讀與長時段分析",
+        paragraphs: [
+          "文章層語料庫的最大方法論貢獻，是讓細讀與長時段分析不再彼此排斥。研究者可以從單篇社論的修辭、語氣與論證結構出發，考察其如何界定因果、建構危機及指定責任；同時也可以在數十年尺度上追蹤關鍵概念、地名、機構與議題的共現關係。",
+          "例如，`order`、`civilisation`、`reform`、`riot`、`public opinion`、`native`等詞彙的頻率本身並不構成結論，但它們可以提示需要細讀的轉折點。若某一概念在戰爭、條約修訂、租界危機或政治運動期間突然增加，研究者可進一步比較同時期社論如何重新界定合法暴力、行政能力與群體邊界。",
+          "更重要的是，完整語料庫可以支持負面案例。若研究者認為《北華捷報》持續主張某項政策，便應同時檢查反例、沉默期與立場改變，而不是只挑選支持論點的文章。這種可反駁性，是資料庫從「方便搜尋的檔案」轉化為研究基礎設施的關鍵。"
+        ]
+      },
+      {
+        heading: "八、可形成的研究議程",
+        paragraphs: [
+          "第一，殖民治理研究。社論可用來追蹤工部局、領事司法、警務、衛生、道路、稅收及土地管理如何被論述為專業治理問題，並分析「效率」與「秩序」語彙如何掩蓋權利配置。",
+          "第二，商業與帝國研究。透過航運、關稅、內河通商、鐵路、金融與市場報道的社論化過程，可以檢視私人商業要求如何進入外交語言，以及報館如何協調商人之間並不一致的利益。",
+          "第三，跨國媒體網絡研究。記錄社論的引用、轉載與回應關係，可重建上海、香港、橫濱、倫敦及其他口岸之間的新聞流通。這能把單一報紙研究推進到網絡層次，回答哪些觀點因轉載而放大、哪些地方知識在傳播中被重新包裝。",
+          "第四，概念史與知識史。長時段資料可以研究「中國」「公眾」「文明」「種族」「改革」等概念的語義變化，但前提是把詞頻重新放回句法、體裁與歷史事件中，避免以現代概念直接覆蓋歷史語境。",
+          "第五，比較報刊研究。《北華捷報》的社論可與中文報刊、其他英文報刊及日文報刊對讀。比較的目的不只是判斷誰更接近事實，而是研究不同媒體制度如何決定哪些事實可見、哪些立場可被稱為公共意見。"
+        ]
+      },
+      {
+        heading: "九、限制、倫理與詮釋邊界",
+        paragraphs: [
+          "任何《北華捷報》Leading Articles 資料庫都不可能天然完整。現存數位檔案受館藏、微縮、掃描與上架選擇影響；刊名、版式與附刊在九十年間多次變化；匿名社論又使個人作者判定高度困難。研究者必須把缺期、模糊頁面、OCR失敗、候選爭議及分類規則一併公開。",
+          "報館的「制度性聲音」也不應被誤解為完全一致的單一主體。所有權、主編、駐地記者、通信來源與讀者市場均會改變社論立場；同一期內甚至可能出現相互矛盾的聲音。資料庫的功能是讓這些差異可被發現，而不是預先把它們壓縮成一條帝國意識形態。",
+          "最後，研究語言本身需要反身性。歷史報刊中的種族化稱謂、殖民分類與侮辱性表述可以作為原始史料保存，但資料展示應提供語境說明，不應讓搜尋介面在沒有批判框架的情況下重新自然化這些分類。"
+        ]
+      },
+      {
+        heading: "十、結論：把零散社論轉化為公共研究資源",
+        paragraphs: [
+          "整理《北華捷報》Leading Articles 的意義，不在於建立一份供人快速引用的「名篇目錄」，而在於把報刊的制度性判斷轉化為可核查的研究對象。它要求研究者同時處理體裁、版面、語言、制度、數位化及史料倫理，因而天然位於新聞史、上海史、帝國史與數位人文的交界。",
+          "3,811期全量索引已經建立了期號控制層；下一步的學術工作，是以透明規則辨識文章、保存版面證據、校正文本並記錄不確定性。當每一項分類都能回到原始影像，每一次修訂都有版本記錄，每一個量化結果都能接受細讀檢驗時，這套資料才真正具有學術生命。",
+          "從更廣的角度看，Leading Articles 工程也是一種公共史學實踐。它使分散、難查且常被少數引文代表的殖民報刊，轉化為可以被不同語言、學科與研究傳統共同檢驗的材料。其最重要的成果，不是替《北華捷報》確立一個固定評價，而是建立條件，讓後來研究者能更準確地爭論它。"
+        ]
+      }
+    ],
+    referencesZh: [
+      "Library of Congress. The North-China Herald. Newspaper catalogue record, LCCN sn89049315.",
+      "University of Illinois History, Philosophy, and Newspaper Library. North China Herald (Shanghai, China: 1850). Newspaper Database.",
+      "Newton, Mary W. R. China through Western Eyes: The North China Herald, 1850–1900. MA thesis, University of Tennessee, 1985.",
+      "Eichleter, Andreas. “The Outside Perspective – The Treaty Port Press, the Meiji Restoration and the Image of a Modern Japan.” Mutual Images Journal 6 (2019): 93–114. https://doi.org/10.32926/2018.6.eic.outsi.",
+      "Wei, Shuge. “Beyond the Front Line: China’s Rivalry with Japan in the English-Language Press over the Jinan Incident, 1928.” Modern Asian Studies 48, no. 1 (2014): 188–224. https://doi.org/10.1017/S0026749X11000886.",
+      "Nicholson, Bob. “The Digital Turn: Exploring the Methodological Possibilities of Digital Newspaper Archives.” Media History 19, no. 1 (2013): 59–73. https://doi.org/10.1080/13688804.2012.752963.",
+      "Milligan, Ian. “Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997–2010.” Canadian Historical Review 94, no. 4 (2013): 540–569. https://doi.org/10.3138/chr.694.",
+      "Mussell, James. “Elemental Forms: The Newspaper as Popular Genre in the Nineteenth Century.” Media History 20, no. 1 (2014): 4–20.",
+      "Oxford Research Encyclopedia of Communication. “Editorial Journalism and Newspapers’ Editorial Opinions.” Oxford University Press."
+    ],
+    factCheckNotes: [
+      "書目核查：Library of Congress記錄《北華捷報》為上海英文週報，第一卷第一號日期為1850年8月3日；早期出版者為H. Shearman。來源：https://www.loc.gov/item/sn89049315/",
+      "刊名與日期核查：University of Illinois Newspaper Database記錄1850–1867年為The North-China Herald、1867–1869年為North-China Herald and Market Report、1870–1941年為North-China Herald and Supreme Court and Consular Gazette。來源：https://www.library.illinois.edu/hpnl/newspapers/results_full.php?bib_id=343",
+      "資料集核查：本項目於2026-07-27從Internet Archive `northchinaherald` collection取得3,811筆唯一identifier，日期範圍為1850-08-03至1941-11-19；20期OCR抓取測試成功20期、錯誤0。此數量描述的是當日可取得的期號層索引，不等同館藏完整性，也不等同Leading Articles篇數。",
+      "體裁核查：Oxford Research Encyclopedia of Communication將editorials（亦稱leading articles）界定為有別於新聞報道的體裁，通常代表報紙的集體制度聲音，並多不署名。來源：https://academic.oup.com/edited-volume/61798/chapter-abstract/546178853",
+      "方法論核查：Nicholson（2013）與Milligan（2013）均指出數位報刊、資料庫介面與OCR會改變研究材料的可見性；本文據此採取「OCR發現、影像證實」原則。",
+      "本文為研究方法與史料批判文章。文中3,811期索引和20期OCR測試是本項目現階段成果；完整Leading Articles文章層辨識尚未完成。"
+    ]
+  },
+  {
     slug: "uk-company-australia-482-work-experience-ma-education-timeline-2026",
     title: "UK Company Sponsorship for Australia’s Subclass 482: One-Year Experience Rule and MA Education Timeline",
     socialTitle: "Australia 482: One-Year Experience Rule for MA Education Graduates",
