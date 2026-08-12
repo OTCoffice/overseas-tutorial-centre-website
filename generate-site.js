@@ -16870,7 +16870,7 @@ function shareLinksHerald(article, locale = "en", placement = "bottom") {
       <button type="button" data-email-share data-email-subject="${encodeURIComponent(text)}" data-email-body="${encodeURIComponent(articleUrl)}" data-email-done="${isZh ? "已複製郵件" : "Email copied"}">Email</button>
       <button type="button" data-copy-link="${articleUrl}">${isZh ? "複製連結" : "Copy link"}</button>
       <button type="button" data-copy-link="${articleUrl}">Instagram</button>
-      <button type="button" data-copy-link="${articleUrl}">${isZh ? "微信複製" : "WeChat copy"}</button>
+      <button type="button" data-wechat-share="${articleUrl}" data-wechat-title="${encodeURIComponent(text)}">${isZh ? "微信／朋友圈" : "WeChat / Moments"}</button>
     </div>
   `;
 }
@@ -16894,6 +16894,116 @@ function heraldSubscribeCta(locale = "en") {
 function heraldShareScript() {
   return `
     <script>
+      const copyShareText = async (text) => {
+        try {
+          await navigator.clipboard.writeText(text);
+          return true;
+        } catch (error) {
+          const helper = document.createElement("textarea");
+          helper.value = text;
+          helper.setAttribute("readonly", "");
+          helper.style.position = "fixed";
+          helper.style.opacity = "0";
+          document.body.appendChild(helper);
+          helper.select();
+          let copied = false;
+          try {
+            copied = document.execCommand("copy");
+          } catch (fallbackError) {
+            copied = false;
+          }
+          helper.remove();
+          return copied;
+        }
+      };
+
+      const openWeChatShareDialog = (url, title, trigger) => {
+        const isZh = document.documentElement.lang.toLowerCase().startsWith("zh");
+        let dialog = document.querySelector("[data-wechat-dialog]");
+        if (!dialog) {
+          dialog = document.createElement("div");
+          dialog.className = "wechat-share-dialog";
+          dialog.dataset.wechatDialog = "true";
+          dialog.hidden = true;
+          dialog.innerHTML = [
+            '<div class="wechat-share-backdrop" data-wechat-close></div>',
+            '<section class="wechat-share-panel" role="dialog" aria-modal="true" aria-labelledby="wechat-share-heading">',
+            '<button class="wechat-share-close" type="button" data-wechat-close aria-label="Close">×</button>',
+            '<div class="wechat-share-mark" aria-hidden="true">微</div>',
+            '<h2 id="wechat-share-heading"></h2>',
+            '<p class="wechat-share-instruction"></p>',
+            '<div class="wechat-share-qr-wrap">',
+            '<img class="wechat-share-qr" width="220" height="220" alt="">',
+            '</div>',
+            '<p class="wechat-share-url"></p>',
+            '<button class="wechat-share-copy" type="button"></button>',
+            '<p class="wechat-share-note"></p>',
+            '</section>'
+          ].join("");
+          document.body.appendChild(dialog);
+          dialog.querySelectorAll("[data-wechat-close]").forEach((button) => {
+            button.addEventListener("click", () => {
+              dialog.hidden = true;
+              document.body.classList.remove("wechat-share-open");
+              trigger?.focus();
+            });
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && !dialog.hidden) {
+              dialog.hidden = true;
+              document.body.classList.remove("wechat-share-open");
+              trigger?.focus();
+            }
+          });
+        }
+
+        dialog.querySelector("h2").textContent = isZh ? "分享到微信／朋友圈" : "Share to WeChat / Moments";
+        dialog.querySelector(".wechat-share-instruction").textContent = isZh
+          ? "手機可複製連結後在微信打開；電腦請用微信掃描二維碼，再點右上角「⋯」選擇「分享到朋友圈」。"
+          : "Copy the link and open it in WeChat, or scan the QR code. Then use the top-right menu and choose Share to Moments.";
+        const qr = dialog.querySelector(".wechat-share-qr");
+        qr.src = "https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=12&data=" + encodeURIComponent(url);
+        qr.alt = isZh ? "使用微信掃描本文二維碼" : "Scan this article QR code with WeChat";
+        const urlText = dialog.querySelector(".wechat-share-url");
+        urlText.textContent = url;
+        const copyButton = dialog.querySelector(".wechat-share-copy");
+        copyButton.textContent = isZh ? "複製文章連結" : "Copy article link";
+        copyButton.onclick = async () => {
+          const copied = await copyShareText(url);
+          copyButton.textContent = copied
+            ? (isZh ? "已複製，可貼到微信" : "Copied — paste into WeChat")
+            : (isZh ? "請長按上方網址複製" : "Please copy the URL above");
+          window.setTimeout(() => {
+            copyButton.textContent = isZh ? "複製文章連結" : "Copy article link";
+          }, 2200);
+        };
+        dialog.querySelector(".wechat-share-note").textContent = isZh
+          ? "微信基於私隱與安全限制，不允許一般網站在未經確認的情況下直接代你發布朋友圈。"
+          : "WeChat requires you to confirm the post inside the app; websites cannot publish to Moments on your behalf.";
+        dialog.hidden = false;
+        document.body.classList.add("wechat-share-open");
+        dialog.querySelector(".wechat-share-close").focus();
+      };
+
+      document.querySelectorAll("[data-wechat-share]").forEach((button) => {
+        if (button.dataset.wechatShareBound === "true") return;
+        button.dataset.wechatShareBound = "true";
+        button.addEventListener("click", async () => {
+          const url = button.dataset.wechatShare;
+          const title = decodeURIComponent(button.dataset.wechatTitle || document.title);
+          const isMobile = window.matchMedia("(pointer: coarse)").matches || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+          if (isMobile && navigator.share) {
+            try {
+              await navigator.share({ title, text: title, url });
+              return;
+            } catch (error) {
+              if (error && error.name === "AbortError") return;
+            }
+          }
+          openWeChatShareDialog(url, title, button);
+        });
+      });
+
       document.querySelectorAll("[data-copy-link]").forEach((button) => {
         button.addEventListener("click", async () => {
           const originalLabel = button.dataset.originalLabel || button.textContent;
