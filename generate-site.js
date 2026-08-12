@@ -2764,6 +2764,7 @@ const insightsArticles = [
     summaryZh: "Cambridge Judge Business School 的 Chief Human Resources Officer Programme 為資深 HR 與 People Operations 管理者提供9至12個月的混合式高管教育。本文核對官方課程性質、適合人群、£19,900標準學費、2.5天劍橋線下模組，以及限時優惠、證書和校友身份最容易被誤解的邊界。",
     shareImageZh: "/assets/social/wechat-zh-cambridge-chro-executive-education-guide-2026.jpg",
     socialImageVersion: "v=20260812-wechat-cover-v2",
+    wechatShareVersion: "20260812-cover-v2",
     sidebarMode: "compact-practical",
     relatedReadings: [
       "imperial-free-online-courses-audit-certificate-truth",
@@ -16859,6 +16860,9 @@ function shareLinksHerald(article, locale = "en", placement = "bottom") {
   const isZh = locale === "zh";
   const articleUrl = new URL(`${isZh ? "/zh" : ""}/insights/${article.slug}/`, SITE_URL).toString();
   const text = `${isZh && article.titleZh ? article.titleZh : article.title} | OTC Study Hub`;
+  const wechatUrl = article.wechatShareVersion
+    ? `${articleUrl}?wx=${encodeURIComponent(article.wechatShareVersion)}`
+    : articleUrl;
   const rowClass = placement === "top" ? " oeh-share-row-top" : "";
   return `
     <div class="oeh-share-row${rowClass}" data-share-strip>
@@ -16872,7 +16876,7 @@ function shareLinksHerald(article, locale = "en", placement = "bottom") {
       <button type="button" data-email-share data-email-subject="${encodeURIComponent(text)}" data-email-body="${encodeURIComponent(articleUrl)}" data-email-done="${isZh ? "已複製郵件" : "Email copied"}">Email</button>
       <button type="button" data-copy-link="${articleUrl}">${isZh ? "複製連結" : "Copy link"}</button>
       <button type="button" data-copy-link="${articleUrl}">Instagram</button>
-      <button type="button" data-wechat-share="${articleUrl}" data-wechat-title="${encodeURIComponent(text)}">${isZh ? "微信／朋友圈" : "WeChat / Moments"}</button>
+      <button type="button" data-wechat-share="${wechatUrl}" data-wechat-title="${encodeURIComponent(text)}">${isZh ? "微信／朋友圈" : "WeChat / Moments"}</button>
     </div>
   `;
 }
