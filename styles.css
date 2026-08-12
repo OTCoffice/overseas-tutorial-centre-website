@@ -15967,6 +15967,31 @@ h1 {
   text-align: right;
 }
 
+.zh-herald-share-cover {
+  margin: 0;
+  padding: 24px 48px;
+  border-top: 1px solid #c8b89a;
+  border-bottom: 1px solid #c8b89a;
+  background: #eee5d8;
+}
+
+.zh-herald-share-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  border: 1px solid #c8b89a;
+  border-radius: 4px;
+  background: #faf6ef;
+  object-fit: cover;
+}
+
+@media (max-width: 720px) {
+  .zh-herald-share-cover {
+    padding: 18px 20px;
+  }
+}
+
 .share-strip {
   display: flex;
   flex-wrap: wrap;

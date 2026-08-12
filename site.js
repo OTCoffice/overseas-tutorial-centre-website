@@ -309,7 +309,8 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const stylesheetPath = relativeAssetPath(canonicalPath, "styles.css");
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
-  const socialImageType = image.endsWith(".svg") ? "image/svg+xml" : image.endsWith(".jpg") || image.endsWith(".jpeg") ? "image/jpeg" : "image/png";
+  const socialImagePath = socialImageUrl.split(/[?#]/)[0].toLowerCase();
+  const socialImageType = socialImagePath.endsWith(".svg") ? "image/svg+xml" : socialImagePath.endsWith(".jpg") || socialImagePath.endsWith(".jpeg") ? "image/jpeg" : "image/png";
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -353,7 +354,9 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta property="og:image:type" content="${socialImageType}">
   <meta property="og:image:width" content="${imageWidth}">
   <meta property="og:image:height" content="${imageHeight}">
-  <meta property="og:image:alt" content="${imageAlt || title}">` : ""}
+  <meta property="og:image:alt" content="${imageAlt || title}">
+  <meta itemprop="image" content="${socialImageUrl}">
+  <link rel="image_src" href="${socialImageUrl}">` : ""}
   <meta name="twitter:card" content="${socialImageUrl ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">

@@ -2762,6 +2762,8 @@ const insightsArticles = [
     titleZh: "劍橋 CHRO 高管課程值得申請嗎？成年在職人士的名校進修選擇與非學位邊界",
     socialTitleZh: "劍橋 CHRO 課程：適合誰、值不值得、為何不是學位",
     summaryZh: "Cambridge Judge Business School 的 Chief Human Resources Officer Programme 為資深 HR 與 People Operations 管理者提供9至12個月的混合式高管教育。本文核對官方課程性質、適合人群、£19,900標準學費、2.5天劍橋線下模組，以及限時優惠、證書和校友身份最容易被誤解的邊界。",
+    shareImageZh: "/assets/social/wechat-zh-cambridge-chro-executive-education-guide-2026.jpg",
+    socialImageVersion: "v=20260812-wechat-cover-v2",
     sidebarMode: "compact-practical",
     relatedReadings: [
       "imperial-free-online-courses-audit-certificate-truth",
@@ -17934,6 +17936,11 @@ function zhArticleMagazineBody(article) {
   const issueMonth = article.date ? `${article.date.slice(0, 4)}年${Number(article.date.slice(5, 7))}月號` : "最新一期";
   const stackedLayout = usesStackedHeraldLayout(article);
   const compactSidebar = stackedLayout || article.sidebarMode === "compact" || article.sidebarMode === "compact-practical";
+  const shareCover = article.shareImageZh ? `
+      <figure class="zh-herald-share-cover">
+        <img src="${article.shareImageZh}?${article.socialImageVersion || "v=1"}" width="1200" height="630" alt="${article.titleZh || article.title}" loading="eager" fetchpriority="high">
+      </figure>
+  ` : "";
 
   const pageClass = `${article.academic ? " zh-academic-page" : ""}${stackedLayout ? " zh-herald-layout-stacked" : ""}`;
   const mainClass = article.academic ? " zh-academic-main" : "";
@@ -17999,6 +18006,7 @@ function zhArticleMagazineBody(article) {
           <span>${article.academic ? "全文刊登 · 作者版權所有" : reviewColumn.audience}</span>
         </div>
       </header>
+      ${shareCover}
       ${article.academic ? `
       <div class="zh-academic-publication-strip">
         <span>《留學導報》刊載資訊</span>
@@ -18262,7 +18270,7 @@ function insightArticlePage(article) {
 }
 
 function insightArticlePageZh(article) {
-  const image = writeHeraldSocialImage(article, "zh");
+  const image = article.shareImageZh || writeHeraldSocialImage(article, "zh");
   const socialImageVersion = article.socialImageVersion || "v=20260524-social-png";
   return pageShell({
     title: `${article.titleZh || article.title} | 留學導報`,
