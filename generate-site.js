@@ -2750,6 +2750,105 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "cambridge-judge-chro-executive-education-adult-learners-guide-2026",
+    title: "Cambridge CHRO Programme: A Prestigious Route for Experienced Adult Learners?",
+    socialTitle: "Cambridge CHRO Programme: Executive Education, Not a Degree",
+    date: "2026-08-12",
+    category: "Study Planning",
+    column: "study",
+    kicker: "Cambridge Judge · CHRO · Executive Education",
+    author: "留學導報編輯部",
+    summary: "A fact-checked guide to the Cambridge Judge Business School Chief Human Resources Officer Programme for experienced adult learners, covering audience fit, blended delivery, fees, the non-degree boundary and checks to complete before paying.",
+    titleZh: "劍橋 CHRO 高管課程值得申請嗎？成年在職人士的名校進修選擇與非學位邊界",
+    socialTitleZh: "劍橋 CHRO 課程：適合誰、值不值得、為何不是學位",
+    summaryZh: "Cambridge Judge Business School 的 Chief Human Resources Officer Programme 為資深 HR 與 People Operations 管理者提供9至12個月的混合式高管教育。本文核對官方課程性質、適合人群、£19,900標準學費、2.5天劍橋線下模組，以及限時優惠、證書和校友身份最容易被誤解的邊界。",
+    sidebarMode: "compact-practical",
+    relatedReadings: [
+      "imperial-free-online-courses-audit-certificate-truth",
+      "online-course-evidence-record-university-applications",
+      "professional-recognition-check-before-course-choice"
+    ],
+    resources: [
+      ["Cambridge Judge — Chief Human Resources Officer Programme", "https://www.jbs.cam.ac.uk/executive-education/leadership/chief-human-resources-officer-programme/"],
+      ["Cambridge Judge — Non-degree programmes", "https://www.jbs.cam.ac.uk/non-degree-programmes/"],
+      ["Cambridge Judge — Executive Education FAQs", "https://www.jbs.cam.ac.uk/executive-education/faqs/"],
+      ["Cambridge Judge — Open programme formats", "https://www.jbs.cam.ac.uk/executive-education/open-programmes/programme-formats/"]
+    ],
+    factCheckNotes: [
+      "核查時間：2026-08-12。Cambridge Judge 官方課程頁列明下一期採 blended 模式，2026-09-17 開始，學習期約9至12個月，標準學費為 £19,900，並由 Emeritus 協作交付。",
+      "官方課程頁列明學習旅程包括線上核心與選修模組、項目支援，以及2.5天劍橋線下環節；適合已有職能管理責任的 senior HR executives、HR heads 或 people operations heads。",
+      "£3,500 學費優惠及2026-08-13截止時間來自個別 Emeritus 招生電郵，不是本文核查時劍橋官方課程頁所列標準價格。申請人應在付款前要求書面確認。",
+      "Cambridge Judge 將 Executive Education 列入 non-degree programmes。參與者不應將課程描述為劍橋本科、碩士、學位錄取或學術學分，證書名稱與網絡權益應以正式錄取及付款文件為準。"
+    ],
+    body: [
+      {
+        heading: "1) A strong option for the right experienced professional",
+        paragraphs: [
+          "The Cambridge Judge Chief Human Resources Officer Programme is designed for senior HR and people-operations leaders rather than recent graduates. Its value lies in strategic HR development, executive-level peer learning and a blended format that can fit around employment.",
+          "It is executive education, not a University of Cambridge degree. Applicants should judge it against their career objective, experience and budget, not treat the Cambridge name alone as a substitute for programme fit."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "一、這是什麼課程：劍橋高管教育，不是學位申請",
+        paragraphs: [
+          "Cambridge Judge Business School 官方頁面顯示，Chief Human Resources Officer Programme 屬於 Executive Education 的 Leadership 類課程，由劍橋 Judge 與 Emeritus 協作交付。2026年秋季班於9月17日開始，採 blended 混合模式，整體學習期約9至12個月。",
+          "課程主要以線上核心模組、選修、直播互動、項目支援與同儕交流進行，另安排2.5天劍橋線下環節及結業活動。這種設計特別適合不能離職一年、但希望系統提升策略管理能力的成年在職人士。",
+          "必須先說清楚：這是 non-degree executive education，不是劍橋大學本科、碩士或博士學位錄取，也不能自行表述為取得劍橋學位、正式學籍或學術學分。"
+        ]
+      },
+      {
+        heading: "二、誰最適合：資深 HR，而不是只想要名校標籤的人",
+        paragraphs: [
+          "官方定位非常具體：中大型企業的 senior HR executives、正在帶領 HR 或 People Operations 職能的負責人，以及希望進一步進入 CHRO、CPO 或其他 C-suite 角色的管理者。課程討論的是 people strategy、組織轉型、董事會影響力、人才與數據，而不是 HR 入門。",
+          "較匹配的申請人通常已有人事管理責任，能在課堂中帶入真實組織問題，也有機會把課程框架直接用於公司。若申請人仍是應屆畢業生、沒有管理經驗、只想用 Cambridge 名稱美化履歷，這筆投入未必合理。",
+          "OTC 建議先用三個問題自測：我目前是否負責團隊或人力資源職能？未來兩年是否有晉升至 HR head／CHRO 的具體路線？公司或個人能否把£16,000至£20,000級別投入轉化為可衡量的職業回報？"
+        ]
+      },
+      {
+        heading: "三、課程學什麼：從 HR 操作走向組織與董事會策略",
+        paragraphs: [
+          "官方課程圍繞21世紀工作形態、strategy and human resources、信任與創造力的組織環境，以及 good organisation 等主題展開。People Analytics 已被列為固定模組，另可從 DEI、Digital Transformation、Business Analytics、Strategic Thinking for the CXO、Complex Projects 和 Change Management 等方向選修。",
+          "真正的價值不只是聽課，而是把人力資源問題改寫成可影響業務決策的語言：如何將文化、人才、績效與組織設計連到公司目的和可衡量成果；如何在董事會層面討論人的風險與機會；如何在數字化與AI環境中重新設計工作。",
+          "對成熟學員來說，同儕背景也很重要。招生電郵列出的 Leader’s Club、全球活動、研究更新及專屬社群屬於職業網絡權益，但具體期限、使用資格和是否延續，應在正式文件中確認。"
+        ]
+      },
+      {
+        heading: "四、費用怎麼看：標準學費可核實，限時優惠要書面確認",
+        paragraphs: [
+          "Cambridge Judge 官方頁面目前列出的 programme fee 是 £19,900，包含教學與材料。招生顧問電郵則稱：支付£150不退申請費，並在2026年8月13日前提交，可獲£3,500 tuition fee benefit，使學費降至£16,400。",
+          "這項£3,500優惠具有明顯時效性，但本文核查時，劍橋官方課程頁顯示的仍是£19,900標準價格。因此，申請人不要只依賴推廣電郵或電話承諾；應要求對方在正式錄取、invoice 或 payment schedule 中寫明£16,400、優惠條件、付款日期及取消後處理方式。",
+          "預算還要加入線下模組的航班、住宿、餐飲、保險和簽證成本。官方提醒，非英國或愛爾蘭護照人士參加劍橋線下 Executive Education，需處理合適的入境許可，並建議預留至少6周。"
+        ]
+      },
+      {
+        heading: "五、證書與校友身份：最需要避免的宣傳誤讀",
+        paragraphs: [
+          "Cambridge Judge 的 Executive Education FAQ 說明，open programmes 可發出參與或數字證書，但具體課程的完成標準、證書名稱、簽發時間和展示方式，仍應以該課程正式條款為準。未完整參與課程活動，可能影響證書簽發。",
+          "即使課程提供 Leader’s Club、LinkedIn group、研究通訊、活動邀請或未來課程折扣，也不能自行把這些權益寫成 University of Cambridge degree alumni status。『參加過 Cambridge Judge Executive Education』和『劍橋大學學位校友』是兩種不同陳述。",
+          "在 CV 或 LinkedIn 上，安全寫法是列出完整課程名稱、Cambridge Judge Business School Executive Education、完成年份及實際證書；不要縮寫成 Cambridge MBA、Cambridge degree 或 University of Cambridge alumnus，除非正式文件明確授予相應身份。"
+        ]
+      },
+      {
+        heading: "六、付款前十項核對清單",
+        paragraphs: [
+          "提交£150不退申請費前，先核對：一、申請人工作年限與管理級別是否匹配；二、每週學習時間與直播時段；三、2.5天劍橋模組的日期與出席要求；四、£16,400優惠是否寫入文件；五、分期金額、日期和手續費。",
+          "再核對：六、取消、延期與退款政策；七、航班住宿是否自理；八、入境許可與邀請文件；九、最終證書的準確名稱及完成標準；十、Leader’s Club、活動、社群及課程折扣的期限和資格。",
+          "若由公司資助，還應把學習成果與公司問題綁定，例如人才策略、People Analytics、組織設計或變革項目；若個人自費，則需要比較同等預算下的正式碩士、較短的 Judge Executive Certificate、其他商學院高管課程與職業資格。"
+        ]
+      },
+      {
+        heading: "七、留學導報結論：名校成人教育要按職業回報選，不按校名衝動付款",
+        paragraphs: [
+          "對已有資深 HR 經歷、正在帶領職能團隊、希望進入 C-suite，並能把課程內容直接轉化為組織項目的成年人，Cambridge CHRO Programme 可以是一個有吸引力的高端進修選項。混合式安排降低離職成本，劍橋線下模組和國際同儕則提供額外網絡價值。",
+          "對缺乏HR管理經驗、主要需要正式學歷、依賴學生簽證或預算有限的人士，它未必是最佳答案。這時應比較正式學位、較短和較便宜的 Executive Certificate、專業HR資格，或與目前職位更貼近的數字化、策略與AI課程。",
+          "成年學生選擇牛劍名校課程的核心，不是能否把校名放進朋友圈，而是課程身份是否說得準、能力是否真正提升、網絡是否能被使用，以及這筆投入能否在未來兩三年產生清楚的職業回報。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "north-china-herald-leading-articles-research-significance",
     title: "From Editorials to Research Infrastructure: Why the North-China Herald Leading Articles Matter",
     socialTitle: "North-China Herald Leading Articles: A Digital-Humanities Research Framework",
