@@ -2750,6 +2750,126 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "north-china-herald-war-diplomacy-editorial-corpus",
+    title: "From Newspaper Images to Searchable Text: Building a North-China Herald Corpus of War and Diplomacy",
+    socialTitle: "North-China Herald Corpus: From Page Images to Research Infrastructure",
+    date: "2026-08-17",
+    heraldLayout: "stacked",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "《北華捷報》 · 戰爭與外交 · 歷史語料庫",
+    author: "《留學導報》編輯部",
+    summary: "An academic introduction to a proposed corpus of North-China Herald leading articles on war, treaty revision, diplomatic negotiation and the treaty-port commercial order, with a traceable workflow from page images and column boundaries to semi-diplomatic transcription, metadata and discourse analysis.",
+    titleZh: "從報紙影像到可檢索文本：十九世紀上海英文報刊戰爭與外交社論語料庫的建置與研究價值",
+    socialTitleZh: "《北華捷報》戰爭與外交社論語料庫：建置方法與研究價值",
+    summaryZh: "本文介紹一項以《北華捷報》Leading Articles 為核心的歷史報刊語料庫建置計畫，說明如何把原始影像、版面欄位、文章邊界、半外交式轉錄、主題標註與論述分析連成可回溯、可檢索、可比較的研究流程，並討論其對第二次鴉片戰爭輿論史、條約修訂史、通商口岸報刊史、概念史與數位人文研究的價值。",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260817-01",
+    rightsNotice: "本文由《留學導報》編輯部整理並全文刊登。未經刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    relatedReadings: [
+      "north-china-herald-leading-articles-research-significance",
+      "material-culture-book-history-collecting-chinese-translation-review"
+    ],
+    resources: [
+      ["Library of Congress — The North-China Herald", "https://www.loc.gov/item/sn89049315/"],
+      ["Internet Archive — North-China Herald collection", "https://archive.org/details/northchinaherald"],
+      ["University of Illinois Newspaper Database — North China Herald", "https://www.library.illinois.edu/hpnl/newspapers/results_full.php?bib_id=343"]
+    ],
+    factCheckNotes: [
+      "本文介紹的是擬建語料庫的研究設計與預期用途；除另有說明外，不將規劃中的文章層轉錄、標註或分析描述為已完成成果。",
+      "North-China Herald 依中文學界慣例譯作《北華捷報》；文中 Leading Articles 指代表報館制度性立場的社論體裁，不等同於現代新聞語境中的頭條報道。",
+      "文章所列研究方向屬方法與成果規劃。個別史實、外交事件與詞頻結論，須待原始影像核驗、轉錄校對及完整語料分析後另行發表。"
+    ],
+    sidebarCards: [
+      ["01", "影像可回溯", "每段轉錄均連回日期、頁碼、欄位與原始影像。", "Evidence"],
+      ["02", "連續語料", "按時間追蹤戰爭與談判論述的形成、轉折與矛盾。", "Sequence"],
+      ["03", "概念標註", "比較 ultimatum、war、Pekin 等詞的搭配與政治功能。", "Concepts"],
+      ["04", "可擴充平台", "支援跨報、跨語言及數位人文研究。", "Platform"]
+    ],
+    body: [
+      {
+        heading: "Editorial Abstract",
+        paragraphs: [
+          "This article introduces a proposed historical newspaper corpus centred on the North-China Herald's leading articles concerning war in China, treaty revision, diplomatic negotiation and the commercial order of the treaty ports. The project treats corpus building as a continuous scholarly workflow: source-image identification, page and column location, article-boundary reconstruction, semi-diplomatic transcription, metadata creation, thematic annotation and discourse analysis.",
+          "The corpus is designed to preserve the relationship between text and evidence. Each transcription will remain traceable to a dated issue, printed page, digital sequence, column position and source image. Organised chronologically, the material can show how Shanghai's English-language press interpreted uncertain news and connected military pressure, commercial interest and diplomatic legitimacy. The resulting infrastructure can support research in the history of the Second Opium War, treaty revision, treaty-port journalism, political vocabulary and digital humanities."
+        ]
+      }
+    ],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "本文介紹一項以《北華捷報》（North-China Herald）社論為核心的歷史報刊語料庫建置計畫。該計畫擬系統整理十九世紀上海英文報刊中涉及中國戰爭、條約修訂、外交談判及通商秩序的 Leading Articles，並透過「原始影像辨識—版面與欄位定位—文章邊界判定—半外交式轉錄—主題標註—論述分析」等程序，將散見於歷史報紙版面的社論材料轉化為可檢索、可比較且可供重複驗證的研究資料。",
+          "此語料庫不僅保存報刊文字，亦著重恢復文本與原始版面、出版時點及歷史語境之間的關係。藉由建立穩定的文獻識別資訊，研究者得以追蹤上海英語公共輿論如何在消息尚未確定、外交談判持續變動的情況下理解中國政局、評價清廷、討論英法軍事行動，並將商業利益、外交權利與帝國秩序組織成具有正當性的政治論述。",
+          "<strong>關鍵詞：</strong>《北華捷報》；上海英文報刊；第二次鴉片戰爭；條約修訂；通商口岸；帝國輿論；歷史語料庫"
+        ]
+      },
+      {
+        heading: "一、研究背景與建置目的",
+        paragraphs: [
+          "十九世紀上海英文報刊是理解近代中國外交、戰爭與通商秩序的重要史料。《北華捷報》的 Leading Articles 不只是對時事消息的評論，亦是上海英語社群形成公共判斷、界定共同利益並表達政治立場的重要媒介。",
+          "然而，這些社論大多分散於篇幅龐大、編排複雜的歷史報紙影像之中。版面中的文章未必具有明確標題，起訖位置有時跨越不同欄位或頁面，數位影像頁序亦不必然與原刊印刷頁碼一致。若僅依靠關鍵詞搜尋或零星摘錄，研究者容易忽略文章的完整結構、刊載位置及前後文關係，也難以重建報刊論述隨時間發生的變化。",
+          "本計畫因此擬逐篇整理涉及中國戰爭、條約修訂、外交談判與通商秩序的社論文本。其目的不僅是保存舊報紙內容，而是建立一套由原始影像通往可檢索文本的文獻處理流程，使每篇文章都具有可以查證、引用及重新分析的資料身份。"
+        ]
+      },
+      {
+        heading: "二、從原始影像到可追溯文本",
+        paragraphs: [
+          "語料庫的基本工作並非影像摘錄或一般摘要，而是採取連續的文獻處理流程。研究者首先根據原始報紙影像辨識社論所在頁面及欄位，判定文章起首、結尾與跨欄情況；其次，依據原刊段落、拼寫、標點、大小寫與特殊字形進行半外交式轉錄，並對印刷損壞、辨識疑義與人工補訂作出清楚標記。",
+          "每篇文章均擬建立穩定的文獻識別資料，包括出版日期、報刊名稱、印刷頁碼、數位影像頁序、文章所在版面與欄位、文章起首句、原始影像及數位典藏來源、轉錄批次、轉錄者、校對狀態，以及主題、事件、人物、地名與關鍵詞標籤。",
+          "這些欄位使轉錄文本不致脫離其原始報刊語境。研究者引用任何段落時，均可返回具體版面與影像證據核對；不同人員或不同階段完成的轉錄，也可以透過版本與校對記錄加以追蹤。語料庫因而不只提供可閱讀的文字，也建立文字、版面、影像和研究判斷之間的可追溯關係。"
+        ]
+      },
+      {
+        heading: "三、官方檔案之外的即時輿論層",
+        paragraphs: [
+          "第二次鴉片戰爭及條約修訂的歷史，固然可以透過外交文書、議會文件、政府藍皮書、官方照會與條約文本加以重建；然而，這些材料主要反映國家機關與外交官員的正式立場。報刊社論呈現的則是另一個層次：當消息仍在流動、傳聞尚未證實、外交結果仍不確定時，上海英語公共輿論如何理解局勢，又如何將不完整的消息轉化為政治判斷。",
+          "在這些社論中，對清廷政策的評價、對英法行動的期待，以及對戰爭與談判結果的推測，往往與通商口岸的商業利益緊密相連。軍事壓力可能被描述為恢復條約秩序的必要手段；外交要求可能被表述為維護國際信用與商業安全的合理措施；談判的停滯或破裂，則可能被歸因於清廷的拖延或缺乏誠意。",
+          "本語料庫不把社論視為官方檔案的簡單補充，更不將其等同於整個上海社會的共同意見，而是將其理解為通商口岸英語社群中具有影響力的一種公共聲音。系統整理這些材料，有助於分析帝國政策、地方利益與報刊輿論之間如何相互作用。"
+        ]
+      },
+      {
+        heading: "四、時間序列與社論的論述密度",
+        paragraphs: [
+          "Leading Articles 的重要特徵，在於其高度集中的論述密度。篇幅有限的社論可能同時包含消息引述、傳聞辨析、外交推測、政治諷刺、軍事預期、道德判斷與政策主張。這些要素共同構成報刊理解中國問題的基本框架。",
+          "若僅摘錄單篇文章中的若干句子，研究者容易把具有時效性和爭議性的判斷誤認為報刊長期不變的立場。若將社論依出版日期排列，則可以觀察某一論述如何逐步形成：報刊的語氣可能從等待消息、評估傳聞與懷疑談判前景，逐漸轉向認定交涉已告失敗，繼而主張採取軍事行動、支持聯軍北上，或將條約重訂描述為恢復秩序的必要條件。",
+          "語料庫的基本分析單位雖是單篇文章，其真正價值卻建立在連續的時間序列之上。透過比較不同月份、事件階段及外交節點的社論，可以辨識報刊立場的延續、轉折與矛盾，並說明戰爭的正當性如何在日常評論中逐漸被建構。"
+        ]
+      },
+      {
+        heading: "五、關鍵詞、概念群與帝國政治語言",
+        paragraphs: [
+          "此一語料庫亦可為十九世紀英文報刊的關鍵詞研究與概念史研究提供材料基礎。諸如 <em>ultimatum</em>、<em>reconciliation</em>、<em>war</em>、<em>Pekin</em>、<em>Emperor</em>、<em>plenipotentiaries</em> 等詞，一方面是報道外交事件時使用的普通詞彙，另一方面也是報刊建構中國危機與帝國外交秩序的重要概念節點。",
+          "這些詞語的意義不能只依據字典或單次出現加以判斷。它們在不同時期可能具有不同的語氣、搭配及政治功能。例如，<em>reconciliation</em> 可能在某一階段代表仍可期待的外交結果，至另一階段則成為反襯清廷拒絕合作的修辭；<em>ultimatum</em> 不僅指稱某種外交文件，也可能被用以標誌耐心終結、武力介入即將取得正當性的政治時刻。",
+          "透過逐篇標註與全文檢索，研究者可以考察特定詞語在不同月份、戰爭階段與外交事件中的出現頻率、語義搭配及修辭位置，並進一步分析戰爭與和平、文明與野蠻、信用與背約、秩序與混亂、商業與安全等概念群如何共同構成報刊的帝國政治語言。"
+        ]
+      },
+      {
+        heading: "六、報刊史、媒介史與通商口岸公共輿論",
+        paragraphs: [
+          "《北華捷報》並非被動轉載官方消息的媒介。報刊需要在消息來源不穩定、交通傳遞存在時差的環境中判斷傳聞的可信程度，區分新聞與評論，並向讀者解釋事件的可能後果。這些實踐本身即是報刊史與媒介史的重要研究對象。",
+          "社論尤其可以揭示報刊如何將通商口岸的地方利益提升為普遍性的政治問題。商業航行、條約權利、領事保護與市場准入等議題，往往被重新表述為法律、文明、國際信用和秩序問題。這種轉換使特定社群的經濟利益獲得更普遍的政治語言，同時也可能遮蔽帝國擴張與軍事暴力之間的關係。",
+          "《北華捷報》的社論語氣因此同時具有地方性、帝國性與殖民性。系統整理這些文本，可使十九世紀上海英文報刊不再只是事件史的旁證，而成為研究通商口岸公共領域及帝國知識生產的重要材料。"
+        ]
+      },
+      {
+        heading: "七、可形成的研究成果與擴充方向",
+        paragraphs: [
+          "語料庫完成後，首先可編製《北華捷報》社論的編年式選集，按出版日期呈現相關 Leading Articles，並附原文轉錄、版面資訊、史實說明及必要的文本校勘註記。其次，可撰寫1859至1860年間第二次鴉片戰爭的報刊輿論史，追蹤上海英文報刊如何理解戰爭重啟、聯軍北上、北京談判及條約執行。",
+          "第三，可研究條約修訂與通商秩序的正當性論述，分析報刊如何把外交要求、商業利益、軍事手段與帝國秩序連接成一套相互支持的政治敘述。第四，可透過關鍵詞、詞語搭配、修辭模式與概念群，開展十九世紀通商口岸英文報刊的語彙研究。第五，可整合文章全文、日期、版面欄位、人物、地名、事件、主題、關鍵詞與影像來源，建置可檢索、可篩選、可引用的數位人文研究平台。",
+          "在完成戰爭、條約修訂及外國外交等核心材料後，語料庫亦可逐步擴展至航運、貿易、地方治安、領事司法、傳教活動與中外衝突等議題。若未來納入其他上海或香港英文報刊，以及同時期中文報刊，還可進行跨報刊、跨語言比較，分析同一事件如何因讀者群、語言媒介與政治位置的差異而形成不同敘述。"
+        ]
+      },
+      {
+        heading: "結語",
+        paragraphs: [
+          "歷史報刊的數位化並不等同於歷史材料已經可以直接使用。影像保存只是第一步；唯有進一步辨識文章邊界、恢復版面關係、建立可靠轉錄，並將文本與日期、事件和概念標註相互連結，分散於報紙中的社論材料才可能轉化為可驗證、可比較且可持續擴充的研究語料。",
+          "本語料庫的意義，因而不在於單純保存若干篇舊報紙文字，而在於建立一套可以回溯原始影像、連續追蹤論述變化、交叉比對官方檔案並支援數位分析的研究基礎。透過這一基礎，十九世紀上海英文報刊可以由事件史中的零散旁證，轉化為觀察戰爭、外交、商業利益與帝國輿論如何共同生成的核心史料。"
+        ]
+      }
+    ]
+  },
+  {
     slug: "cambridge-judge-chro-executive-education-adult-learners-guide-2026",
     title: "Cambridge CHRO Programme: A Prestigious Route for Experienced Adult Learners?",
     socialTitle: "Cambridge CHRO Programme: Executive Education, Not a Degree",
