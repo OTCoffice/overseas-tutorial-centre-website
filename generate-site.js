@@ -1887,7 +1887,7 @@ function searchItems() {
     ["About OTC", "/about/", "Overseas Tutorial Centre, Overseas Publishing and overseas education services."]
   ].map(([title, url, desc]) => ({ type: "Page", title, url, desc }));
 
-  const insights = insightsArticles.map((article) => ({
+  const insights = insightsArticles.filter((article) => !article.chineseOnly).map((article) => ({
     type: "Insight",
     title: article.title,
     url: `/insights/${article.slug}/`,
@@ -2749,6 +2749,88 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  {
+    slug: "north-china-herald-corpus-quantification-colonial-gaze-evidence-ethics",
+    chineseOnly: true,
+    title: "A Corpus Is Not a Conclusion: Quantification, Colonial Perspective and Evidence Ethics",
+    date: "2026-08-17",
+    heraldLayout: "stacked",
+    category: "Academic Culture",
+    column: "culture",
+    kicker: "學術評論 · 語料庫批判 · 證據倫理",
+    author: "《留學導報》編輯部",
+    summary: "A Chinese academic commentary arguing that a historical newspaper corpus should preserve uncertainty, positionality and traceable evidence rather than turn keyword counts into conclusions.",
+    titleZh: "語料庫不是結論：論《北華捷報》社論研究中的量化誘惑、殖民視角與證據倫理",
+    summaryZh: "建立《北華捷報》社論語料庫的價值毋庸置疑，但可檢索並不等於可直接下結論。本文評論關鍵詞計量、OCR偏差、報刊代表性、主題標註與引文倫理等問題，主張理想的歷史語料庫不應替研究者消除爭議，而應使每項判斷都能回到版面、影像與具體語境接受檢驗。",
+    shareImageZh: "/assets/social/herald-zh-north-china-herald-war-diplomacy-editorial-corpus.png",
+    socialImageVersion: "v=20260817-corpus-series",
+    academic: true,
+    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260817-02",
+    rightsNotice: "本文由《留學導報》編輯部撰寫並全文刊登。未經刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
+    relatedReadings: [
+      "north-china-herald-war-diplomacy-editorial-corpus",
+      "north-china-herald-leading-articles-research-significance"
+    ],
+    resources: [],
+    factCheckNotes: [
+      "本文屬研究方法評論，不公布尚未完成的詞頻、主題模型或歷史事件分析結果。",
+      "文中所稱上海英語報刊輿論，特指特定外僑與通商口岸英語讀者網絡中的制度性聲音，不等同於上海社會整體意見。",
+      "所有量化結論均應以文章邊界、OCR品質、版本差異、語境核驗與可重現資料處理流程為前提。"
+    ],
+    body: [],
+    bodyZh: [
+      {
+        heading: "摘要",
+        paragraphs: [
+          "建立《北華捷報》（North-China Herald）Leading Articles 語料庫，能把分散的報紙影像轉化為可檢索、可比較的研究材料。然而，資料基礎設施愈完整，研究者愈需要警惕一種常見錯覺：彷彿文本一旦成為資料，歷史解釋便會自然從搜尋結果、詞頻圖表或主題標籤中浮現。事實恰好相反。語料庫可以擴大證據範圍，卻不能替代體裁辨識、語境重建與史學判斷。",
+          "本文主張，《北華捷報》社論語料庫的真正學術標準，不是能否迅速產出漂亮的統計結果，而是能否保留文本的不確定性、報刊的政治位置與每項判斷的證據鏈。理想的語料庫不應替研究者消除爭議，而應使爭議可以被定位、重查與反駁。",
+          "<strong>關鍵詞：</strong>《北華捷報》；語料庫批判；量化史學；殖民視角；OCR；證據倫理；數位人文"
+        ]
+      },
+      {
+        heading: "一、可檢索不等於可直接解釋",
+        paragraphs: [
+          "全文檢索最容易帶來的誘惑，是把搜尋命中視為歷史重要性。某個詞出現得多，可能意味議題受到持續關注，也可能只是文章篇幅變長、報紙版面增加、OCR對該詞辨識較準，或某一固定套語被反覆使用。若沒有總字數、期數、文章數與版面變化作為分母，單純詞頻往往只是一個未完成的觀察。",
+          "同樣地，詞語的缺席也不能直接等同於概念的不存在。報刊可能用近義詞、代稱、諷刺或轉述表達相同立場；拼寫差異如 Pekin 與 Peking、外交職銜的變體，以及破折號和分欄造成的OCR斷裂，都會改變搜尋結果。真正可靠的概念史分析，必須從詞形回到搭配，從搭配回到段落，再從段落回到整篇社論與當期版面。"
+        ]
+      },
+      {
+        heading: "二、量化方法最怕把技術誤差寫成歷史趨勢",
+        paragraphs: [
+          "歷史報紙並不是為機器閱讀而印製。紙張污損、字體磨損、跨欄接續、連字號、長體字母與版面裝飾，都可能造成系統性辨識錯誤。如果某一時段的影像品質較差，關鍵詞命中率下降，圖表便可能製造一個並不存在的『輿論降溫』。因此，OCR品質不能只是一個附註，而應成為分析模型中的正式變項。",
+          "最低限度的做法，是讓每項統計結果都能說明納入多少文章、排除多少文章、缺損比例如何、人工校對覆蓋到何種程度，以及不同拼寫和詞形如何正規化。數位方法的可信度不在於演算法名稱，而在於研究者能否交代數字從哪一批影像、經過哪些選擇而來。"
+        ]
+      },
+      {
+        heading: "三、不能把外僑報館的聲音稱為『上海輿論』",
+        paragraphs: [
+          "《北華捷報》是理解通商口岸英語公共空間的重要材料，但它並不是上海社會的縮影。其社論首先反映特定報館制度、讀者市場與外國利益網絡如何理解中國事務。把它概括為『上海輿論』，會在語言上抹去華人居民、中文報刊、地方官員、買辦、中外商人及其他群體之間的差異。",
+          "較嚴謹的表述應是『上海英語報刊中的外僑公共論述』或『通商口岸英語社群的一種制度性聲音』。這種限定並不削弱材料價值，反而使研究問題更清楚：我們研究的不是中國如何被客觀描述，而是特定權力位置如何把商業利益、外交要求與軍事行動轉譯為秩序、信用和文明的語言。"
+        ]
+      },
+      {
+        heading: "四、主題標註本身就是一種解釋",
+        paragraphs: [
+          "語料庫常以『戰爭』『外交』『條約』『商業』等標籤提高檢索效率，但標籤不是中性的收納盒。一篇社論可能表面討論航運，實際上在論證軍事保護；也可能以外交消息為起點，最後轉向對清廷品格的道德判斷。若每篇文章只能歸入單一類別，複雜論述便會被資料結構提前簡化。",
+          "因此，標註系統應允許多重主題、標註理由與不確定等級，並區分『文章明示議題』與『研究者分析概念』。最好保存標註者、時間與版本，使後來研究者知道某個分類是原刊欄目、文本用詞，還是建庫者的分析判斷。元資料並非研究之前的行政工作；它本身就是史學論證的一部分。"
+        ]
+      },
+      {
+        heading: "五、證據倫理要求引文永遠能回到版面",
+        paragraphs: [
+          "語料庫最重要的公共責任，是避免歷史句子被切割成失去來源的可複製碎片。一段強烈、諷刺或帶有種族化語言的社論，若脫離日期、事件進程、文章起訖與報刊位置，很容易被當成整個時代固定不變的代表。研究平台因此不應只提供乾淨文字，也應保留影像連結、頁碼、欄位、轉錄狀態與必要的編校說明。",
+          "半外交式轉錄尤其需要清楚區分原文、編者補字、無法辨識處與現代化處理。讀者應能知道哪些字來自報紙，哪些字是轉錄者的判斷。當不同研究者對文章邊界或詞語辨識有不同意見時，系統應容許版本並存，而不是用一個看似完美的文本掩蓋材料本身的裂縫。"
+        ]
+      },
+      {
+        heading: "六、好的語料庫不是消除爭議，而是組織爭議",
+        paragraphs: [
+          "歷史語料庫的成功，不應只以收錄篇數、搜尋速度或圖表數量衡量。更重要的問題是：使用者能否從結論返回文本，從文本返回版面，從版面返回影像；能否看見資料缺口、校對程度與分類選擇；能否用同一批材料提出不同解釋，並清楚指出彼此分歧發生在哪一個證據環節。",
+          "就此而言，《北華捷報》社論語料庫的最佳前景，不是成為一部替研究者回答問題的機器，而是成為一套使問題更精確的研究基礎設施。它應讓我們看見戰爭與外交論述如何形成，也讓我們始終記得：任何可計算的模式，都必須接受不可省略的歷史語境檢驗。"
+        ]
+      }
+    ]
+  },
   {
     slug: "north-china-herald-war-diplomacy-editorial-corpus",
     title: "From Newspaper Images to Searchable Text: Building a North-China Herald Corpus of War and Diplomacy",
@@ -18321,7 +18403,7 @@ const insights = pageShell({
         <p>留學導報屬於 Overseas Publishing / 海外書局 的系列板塊之一，與出版、編譯並列：面向學生、家長、教育機構與合作方，整理可分享、可引用、可持續更新的留學資訊。</p>
       </div>
       <div class="insights-ledger">
-        ${insightsArticles.map((article, index) => `
+        ${insightsArticles.filter((article) => !article.chineseOnly).map((article, index) => `
           <article class="insight-card ${index === 0 ? "insight-card-feature" : ""}">
             <div class="insight-card-meta"><span>${article.category}</span><time>${article.date}</time></div>
             <h3>${article.title}</h3>
@@ -32684,7 +32766,7 @@ zhReviewColumns.forEach((column, index) => {
   write(`zh/insights/${column.key}`, zhReviewColumnPage(column, index));
 });
 insightsArticles.forEach((article) => {
-  write(`insights/${article.slug}`, insightArticlePage(article));
+  if (!article.chineseOnly) write(`insights/${article.slug}`, insightArticlePage(article));
   write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
 });
 write("search", search);
