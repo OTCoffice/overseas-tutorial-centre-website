@@ -304,7 +304,7 @@ function relativeAssetPath(pagePath, assetPath) {
   return `${"../".repeat(depth)}${assetPath}`;
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", alternatePath = "", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const stylesheetPath = relativeAssetPath(canonicalPath, "styles.css");
@@ -343,7 +343,9 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <title>${title}</title>
   <meta name="description" content="${description}">
   ${noindex ? '<meta name="robots" content="noindex, nofollow">' : ""}
-  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="canonical" href="${canonicalUrl}">${alternatePath ? `
+  <link rel="alternate" hreflang="${locale === "zh" ? "en" : "zh-Hant"}" href="${new URL(alternatePath, SITE_URL).toString()}">
+  <link rel="alternate" hreflang="${locale === "zh" ? "zh-Hant" : "en"}" href="${canonicalUrl}">` : ""}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="${BRAND_NAME}">
   <meta property="og:title" content="${title}">

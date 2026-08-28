@@ -1861,6 +1861,8 @@ function searchItems() {
     ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
+    ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
+    ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
     ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
@@ -19079,7 +19081,7 @@ function servicesLandingPage(locale = "en") {
             <a href="/services/station-dispatch-emergency-coordination/"><strong>驛站調度</strong><span>24 小時緊急協調</span></a>
             <a href="/services/academic-guardianship-family-office/"><strong>學術監護</strong><span>家庭學業辦公室</span></a>
             <a href="/services/university-application-advisory/"><strong>申請顧問</strong><span>升學文件規劃</span></a>
-            <a href="/services/publishing-editorial-production/"><strong>出版製作</strong><span>書稿、報告與教材</span></a>
+            <a href="/zh/australia-job-search-coaching/"><strong>澳洲求職</strong><span>履歷、面試與落地陪跑</span></a>
           </aside>
         </div>
       </div>
@@ -19177,7 +19179,7 @@ function servicesLandingPage(locale = "en") {
             <a href="/services/station-dispatch-emergency-coordination/"><strong>Dispatch</strong><span>24-hour coordination</span></a>
             <a href="/services/academic-guardianship-family-office/"><strong>Guardianship</strong><span>Family office support</span></a>
             <a href="/services/university-application-advisory/"><strong>Applications</strong><span>Admissions file planning</span></a>
-            <a href="/services/publishing-editorial-production/"><strong>Publishing</strong><span>Books, reports and guides</span></a>
+            <a href="/australia-job-search-coaching/"><strong>Australia careers</strong><span>Search, interviews and landing</span></a>
           </aside>
         </div>
       </div>
@@ -23248,6 +23250,7 @@ const zhImmigrationInfo = pageShell({
         <p>本頁用於幫學生和家庭建立「留學後可能路線」的基本框架：畢業後工作、職業清單、技能評估、語言要求、僱主擔保、地區政策與官方查詢入口。具體簽證與移民建議需由合資格專業人士提供。</p>
         <div class="actions">
           <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Immigration%20information%20route%20question">提交路線問題</a>
+          <a class="btn btn-secondary" href="/zh/australia-job-search-coaching/">澳洲求職陪跑</a>
           <a class="btn btn-secondary" href="/zh/study-planning/">返回留學規劃</a>
         </div>
       </div>
@@ -29581,6 +29584,7 @@ const australiaPathwaysLanding = pageShell({
         <p class="australia-hero-note">三條路線可互相銜接，但每一步的資格用途不同：學術入學、職業能力、執業註冊與移民評估不能混為一談。</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://wa.me/447947991572?text=I%20would%20like%20an%20Australia%20pathway%20credit%20assessment">免費學分評估</a>
+          <a class="btn btn-secondary" href="/zh/australia-job-search-coaching/">澳洲求職陪跑</a>
           <a class="btn btn-secondary" href="#providers">查看澳洲院校清單</a>
           <a class="btn btn-secondary" href="#australia-insights">閱讀澳洲路線導報</a>
         </div>
@@ -30785,6 +30789,171 @@ const illawarraGrammarReview = studyNswSchoolReviewPage({
   ],
   reviewEmail: "enrolments@tigs.nsw.edu.au"
 });
+
+function australiaJobSearchCoachingPage(locale = "en") {
+  const isZh = locale === "zh";
+  const path = isZh ? "/zh/australia-job-search-coaching/" : "/australia-job-search-coaching/";
+  const otherPath = isZh ? "/australia-job-search-coaching/" : "/zh/australia-job-search-coaching/";
+  const waText = encodeURIComponent(isZh
+    ? "你好，我想做澳洲求職路線初評。我目前的身份／工作權、專業、工作經驗與目標城市是："
+    : "Hello, I would like an Australia job-search route assessment. My current work rights, field, experience and target city are:");
+  const contactHref = `https://wa.me/447947991572?text=${waText}`;
+  const fitCards = isZh ? [
+    ["A", "準備赴澳", "仍在海外或尚未落地，需要先釐清工作權、城市、職位與入境後首 30 天行動。"],
+    ["B", "留學生／畢業生", "需要把課程、實習、project 與 transferable skills 轉成澳洲僱主看得懂的證據。"],
+    ["C", "專業轉換", "原有經驗不能直接搬用，需要補技能、作品、local context 或職業資格。"],
+    ["D", "已在澳洲求職", "投遞沒有回音、面試轉化低，或需要重新校準職位、履歷與渠道組合。"]
+  ] : [
+    ["A", "Planning the move", "You are offshore or not yet settled and need clarity on work rights, cities, role targets and the first 30 days."],
+    ["B", "Student or graduate", "You need to translate study, placements, projects and transferable skills into evidence Australian employers understand."],
+    ["C", "Career changer", "Your existing experience needs a bridge: new skills, a portfolio, local context or a professional-registration check."],
+    ["D", "Already job hunting", "Applications are not converting, interviews are stalling, or the role and channel mix needs recalibration."]
+  ];
+  const modules = isZh ? [
+    ["01", "工作權與風險初篩", "按簽證條件、VEVO 結果、可工作時數及時限建立可用邊界；涉及移民策略時轉介註冊專業人士。"],
+    ["02", "職業定位與城市策略", "拆解目標職位、州／城市、行業、薪資帶、local experience 缺口與可替代入口。"],
+    ["03", "澳洲履歷與求職檔案", "建立 targeted résumé、cover letter、LinkedIn、selection criteria 回應與證據庫。"],
+    ["04", "渠道與投遞節奏", "設計職位搜尋詞、公司清單、招聘平台、校友／行業活動與每週追蹤表。"],
+    ["05", "面試與溝通訓練", "練習 recruiter screen、STAR 行為題、technical case、薪資與可入職時間表達。"],
+    ["06", "資格與技能補強", "核對註冊、licence、skills assessment 或短課程的官方要求，不把課程等同工作或身份結果。"],
+    ["07", "落地與入職支援", "處理 TFN、super、工資單、Fair Work 基本權益、入職文件與試用期工作節奏。"]
+  ] : [
+    ["01", "Work-rights screening", "Map visa conditions, VEVO evidence, permitted hours and expiry points; refer migration strategy to a registered professional."],
+    ["02", "Role and city positioning", "Define target roles, location, sector, salary band, local-experience gaps and realistic bridge roles."],
+    ["03", "Australian application file", "Build a targeted résumé, cover letter, LinkedIn profile, selection-criteria responses and evidence bank."],
+    ["04", "Channels and cadence", "Create search terms, employer lists, platform routes, networking actions and a weekly application tracker."],
+    ["05", "Interview communication", "Practise recruiter screens, STAR behavioural answers, technical cases, salary and availability conversations."],
+    ["06", "Credentials and upskilling", "Check official registration, licensing, skills-assessment or short-course requirements without equating study with an outcome."],
+    ["07", "Landing and onboarding", "Cover TFN, super, payslips, Fair Work basics, onboarding documents and the first weeks at work."]
+  ];
+  const steps = isZh ? [
+    ["01", "初評", "提交身份／工作權、履歷、目標城市與職位。"],
+    ["02", "診斷", "找出資格、經驗、英文與市場證據缺口。"],
+    ["03", "定位", "確定主目標、備選入口與不投清單。"],
+    ["04", "建檔", "完成履歷、LinkedIn、求職信與證據庫。"],
+    ["05", "執行", "按週投遞、聯絡、活動與回覆數據調整。"],
+    ["06", "轉化", "面試演練、offer 核對、入職與試用期支援。"]
+  ] : [
+    ["01", "Assess", "Share work-rights evidence, résumé, target city and roles."],
+    ["02", "Diagnose", "Identify gaps in credentials, experience, English and market evidence."],
+    ["03", "Position", "Set the primary target, bridge route and a clear do-not-apply list."],
+    ["04", "Build", "Complete the résumé, LinkedIn, letters and reusable evidence bank."],
+    ["05", "Execute", "Run a weekly cycle of applications, outreach, events and data-led adjustments."],
+    ["06", "Convert", "Practise interviews, review the offer, onboard and navigate probation."]
+  ];
+  const packages = isZh ? [
+    ["起點", "免費初步分流", "15 分鐘需求整理；確認適合自助、文件包、陪跑或專業轉介。", "先做初評"],
+    ["文件", "澳洲求職檔案包", "履歷、LinkedIn、求職信框架、職位關鍵詞與 evidence bank。", "建立求職檔案"],
+    ["陪跑", "求職執行陪跑", "職位策略、每週檢視、面試訓練、追蹤表與轉化調整。", "開始陪跑"],
+    ["轉型", "專業轉換路線", "資格核對、技能缺口、作品／project、bridge role 與轉介協調。", "規劃轉型"]
+  ] : [
+    ["Start", "Free route triage", "A 15-minute intake to decide between self-service, a document pack, coaching or professional referral.", "Request triage"],
+    ["File", "Australian application pack", "Résumé, LinkedIn, cover-letter framework, role keywords and a reusable evidence bank.", "Build my file"],
+    ["Coach", "Job-search coaching", "Role strategy, weekly reviews, interview practice, tracking and conversion adjustments.", "Start coaching"],
+    ["Change", "Professional transition", "Credential checks, skills gaps, portfolio or project evidence, bridge roles and referral coordination.", "Plan a transition"]
+  ];
+  const intake = isZh ? ["目前所在地與目標城市", "簽證類別及 VEVO 工作條件", "最高學歷與專業", "工作／實習年限", "三個目標職位", "英文與面試信心", "專業牌照／註冊狀態", "現有履歷與 LinkedIn", "最早可入職日期", "是否接受 bridge role", "過去投遞與面試數據", "希望 OTC 協助的部分"] : ["Current location and target city", "Visa type and VEVO work conditions", "Highest qualification and field", "Years of work or placement experience", "Three target roles", "English and interview confidence", "Professional registration status", "Current résumé and LinkedIn", "Earliest start date", "Openness to a bridge role", "Application and interview data", "What you want OTC to support"];
+  return pageShell({
+    title: isZh ? "澳洲找工作輔導與落地就業陪跑 | 海外督導 OTC" : "Australia Job Search Coaching & Career Landing | OTC",
+    current: "australia",
+    locale: isZh ? "zh" : "en",
+    lang: isZh ? "zh-Hant" : "en",
+    path,
+    alternatePath: otherPath,
+    bodyClass: "career-coaching-page",
+    description: isZh
+      ? "海外督導 OTC 澳洲找工作輔導：工作權初篩、職業定位、澳洲履歷與 LinkedIn、求職渠道、面試訓練、資格核對及落地入職陪跑。"
+      : "OTC Australia job-search coaching: work-rights screening, career positioning, Australian résumés and LinkedIn, search channels, interview practice, credential checks and onboarding support.",
+    body: `
+      <section class="career-hero">
+        <div class="band career-hero-grid">
+          <div class="career-hero-copy">
+            <div class="career-kicker">OTC Australia · Career Landing Desk</div>
+            <h1>${isZh ? "把「去澳洲」<br>變成一條可執行的求職路線。" : "Turn ‘moving to Australia’<br>into an executable job-search route."}</h1>
+            <p>${isZh ? "從工作權、職業定位與澳洲式求職文件開始，連到渠道、面試、資格核對與落地入職。每一步都有交付物、時間線和明確邊界。" : "Start with work rights, career positioning and an Australian-ready application file, then connect channels, interviews, credential checks and onboarding. Every step has a deliverable, timeline and clear boundary."}</p>
+            <div class="career-hero-actions">
+              <a class="career-primary" href="${contactHref}" target="_blank" rel="noopener">${isZh ? "免費做路線初評" : "Request a free route assessment"}</a>
+              <a class="career-secondary" href="#service-map">${isZh ? "查看服務地圖" : "View the service map"}</a>
+            </div>
+            <div class="career-proofline">
+              <span>${isZh ? "人在海外／澳洲皆可" : "Offshore or in Australia"}</span>
+              <span>${isZh ? "中英文雙語" : "English–Chinese support"}</span>
+              <span>${isZh ? "不承諾錄用或身份" : "No job or visa guarantees"}</span>
+            </div>
+          </div>
+          <aside class="career-radar" aria-label="${isZh ? "澳洲求職路線雷達" : "Australia career route radar"}">
+            <div class="career-radar-orbit orbit-one"></div><div class="career-radar-orbit orbit-two"></div><div class="career-radar-orbit orbit-three"></div>
+            <span class="career-radar-core">OTC<small>${isZh ? "求職陪跑" : "Career desk"}</small></span>
+            <span class="career-radar-node node-rights"><b>01</b>${isZh ? "工作權" : "Rights"}</span>
+            <span class="career-radar-node node-file"><b>03</b>${isZh ? "求職檔案" : "File"}</span>
+            <span class="career-radar-node node-market"><b>04</b>${isZh ? "市場" : "Market"}</span>
+            <span class="career-radar-node node-interview"><b>05</b>${isZh ? "面試" : "Interview"}</span>
+            <span class="career-radar-node node-landing"><b>07</b>${isZh ? "落地" : "Landing"}</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band career-signal-strip">
+        <div><b>01</b><strong>${isZh ? "先確認可工作邊界" : "Confirm the work boundary"}</strong><span>${isZh ? "身份 ≠ 工作權；以 VEVO 與官方條件為準。" : "Status is not the same as work rights; use VEVO and official conditions."}</span></div>
+        <div><b>02</b><strong>${isZh ? "再選職位與城市" : "Then choose role and city"}</strong><span>${isZh ? "用技能、需求與可證明經驗排優先級。" : "Prioritise by skills, demand and provable experience."}</span></div>
+        <div><b>03</b><strong>${isZh ? "用數據調整投遞" : "Adjust with real data"}</strong><span>${isZh ? "追蹤回覆、screen、面試與 offer 轉化。" : "Track replies, screens, interviews and offers."}</span></div>
+        <div><b>04</b><strong>${isZh ? "把入職也納入規劃" : "Plan beyond the offer"}</strong><span>${isZh ? "合約、工資、super、權益與試用期。" : "Contract, pay, super, rights and probation."}</span></div>
+      </section>
+
+      <section class="band compact-band career-fit-section">
+        <div class="career-section-head"><span>${isZh ? "適合誰" : "Who it is for"}</span><h2>${isZh ? "你現在卡在哪一段？" : "Where is your search getting stuck?"}</h2><p>${isZh ? "先按處境分流，不用一開始就購買完整方案。" : "Start from your situation; you do not need a full package on day one."}</p></div>
+        <div class="career-fit-grid">${fitCards.map(([code, title, text]) => `<article><b>${code}</b><div><strong>${title}</strong><p>${text}</p></div></article>`).join("")}</div>
+      </section>
+
+      <section class="career-navy-section" id="service-map">
+        <div class="band compact-band career-service-layout">
+          <div class="career-section-head is-light"><span>${isZh ? "服務地圖" : "Service map"}</span><h2>${isZh ? "七個模組，按缺口組合。" : "Seven modules, combined around your gaps."}</h2><p>${isZh ? "不是把同一份履歷投遍全澳洲，而是建立一套能反覆測試與修正的求職系統。" : "This is not one résumé sent across Australia. It is a job-search system that can be tested and improved."}</p></div>
+          <div class="career-module-list">${modules.map(([num, title, text]) => `<article><b>${num}</b><strong>${title}</strong><p>${text}</p></article>`).join("")}</div>
+        </div>
+      </section>
+
+      <section class="band compact-band career-journey-section">
+        <div class="career-section-head"><span>${isZh ? "工作流程" : "Working journey"}</span><h2>${isZh ? "從初評到入職，六步推進。" : "From assessment to onboarding in six stages."}</h2></div>
+        <div class="career-timeline">${steps.map(([num, title, text]) => `<article><b>${num}</b><strong>${title}</strong><p>${text}</p></article>`).join("")}</div>
+      </section>
+
+      <section class="career-paper-section">
+        <div class="band compact-band">
+          <div class="career-section-head"><span>${isZh ? "可選方案" : "Ways to work with us"}</span><h2>${isZh ? "從免費分流到專業轉型。" : "From free triage to professional transition."}</h2><p>${isZh ? "正式費用會按履歷數量、會議次數、專業複雜度與時限書面確認。" : "Final scope and fees are confirmed in writing based on document volume, meetings, complexity and timeline."}</p></div>
+          <div class="career-package-grid">${packages.map(([tag, title, text, cta], index) => `<article class="${index === 2 ? "is-featured" : ""}"><span>${tag}</span><strong>${title}</strong><p>${text}</p><a href="${contactHref}" target="_blank" rel="noopener">${cta} →</a></article>`).join("")}</div>
+        </div>
+      </section>
+
+      <section class="band compact-band career-intake-section">
+        <div class="career-intake-copy">
+          <span>${isZh ? "初評清單" : "Intake checklist"}</span>
+          <h2>${isZh ? "先給我們這 12 項，初評會更準確。" : "Share these 12 items for a sharper first assessment."}</h2>
+          <p>${isZh ? "不清楚的項目可以留空；不要傳送網銀密碼、驗證碼或與初評無關的敏感資料。" : "Leave unknown items blank. Do not send banking passwords, verification codes or unrelated sensitive information."}</p>
+          <a class="career-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(isZh ? "澳洲求職路線初評" : "Australia job-search route assessment")}">${isZh ? "電郵提交資料" : "Send the intake by email"}</a>
+        </div>
+        <ol class="career-intake-list">${intake.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${item}</span></li>`).join("")}</ol>
+      </section>
+
+      <section class="band compact-band career-resources-section">
+        <div class="career-section-head"><span>${isZh ? "官方入口" : "Official sources"}</span><h2>${isZh ? "會變動的資料，回到官方核對。" : "Check changing information at its official source."}</h2></div>
+        <div class="career-resource-grid">
+          <a href="https://immi.homeaffairs.gov.au/visas/working-in-australia/work-rights-and-exploitation/work-restrictions" target="_blank" rel="noopener"><b>Home Affairs</b><strong>${isZh ? "工作限制與權利" : "Work restrictions and rights"}</strong><span>immi.homeaffairs.gov.au ↗</span></a>
+          <a href="https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online" target="_blank" rel="noopener"><b>VEVO</b><strong>${isZh ? "查詢簽證條件" : "Check visa conditions"}</strong><span>immi.homeaffairs.gov.au ↗</span></a>
+          <a href="https://www.workforceaustralia.gov.au/" target="_blank" rel="noopener"><b>Workforce Australia</b><strong>${isZh ? "官方就業服務入口" : "Official employment services"}</strong><span>workforceaustralia.gov.au ↗</span></a>
+          <a href="https://www.fairwork.gov.au/" target="_blank" rel="noopener"><b>Fair Work</b><strong>${isZh ? "工資與工作權益" : "Pay and workplace rights"}</strong><span>fairwork.gov.au ↗</span></a>
+        </div>
+        <div class="career-boundary"><strong>${isZh ? "服務邊界" : "Service boundary"}</strong><p>${isZh ? "OTC 提供教育與求職準備、文件整理、能力訓練及流程協調；不保證錄用、僱主擔保、簽證、職業註冊或永久居留。移民、法律、稅務、勞動爭議、醫療及受監管職業判斷，應由官方機構或合資格專業人士處理。" : "OTC provides education and job-search preparation, file organisation, skills coaching and process coordination. We do not guarantee employment, sponsorship, a visa, professional registration or permanent residence. Migration, legal, tax, employment-dispute, medical and regulated-profession matters should be handled by the relevant authority or qualified professional."}</p></div>
+      </section>
+
+      <section class="career-final-cta">
+        <div class="band"><div><span>Overseas Tutorial Centre · Australia Career Landing</span><h2>${isZh ? "先把背景說清楚，我們再告訴你下一步。" : "Tell us the real starting point; we will map the next move."}</h2><p>${isZh ? "Email: office@overseasuk.com · WhatsApp: +44 7947 991572 · WeChat: overseasus" : "Email: office@overseasuk.com · WhatsApp: +44 7947 991572 · WeChat: overseasus"}</p></div><div><a class="career-gold" href="${contactHref}" target="_blank" rel="noopener">${isZh ? "開始免費初評" : "Start a free assessment"}</a><a class="career-language" href="${otherPath}">${isZh ? "English version" : "中文版"}</a></div></div>
+      </section>
+    `
+  });
+}
+
+const australiaJobSearchCoaching = australiaJobSearchCoachingPage("en");
+const australiaJobSearchCoachingZh = australiaJobSearchCoachingPage("zh");
 
 const australiaVetTafePathways = pageShell({
   title: "Australia VET / TAFE Pathways | OTC Study Hub",
@@ -32737,6 +32906,8 @@ write("summer-school-alliance/uk/programmes", ukProgrammesPage());
 write("zh/summer-school-alliance/uk/programmes", ukProgrammesPage());
 write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
+write("australia-job-search-coaching", australiaJobSearchCoaching);
+write("zh/australia-job-search-coaching", australiaJobSearchCoachingZh);
 write("australia-office-presence", australiaOfficePresence);
 write("zh/australia-office-presence", australiaOfficePresenceZh);
 write("australia-universities/charles-darwin-university", charlesDarwinUniversityProfile);
