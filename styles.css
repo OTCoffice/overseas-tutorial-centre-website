@@ -78,7 +78,7 @@
 .career-hero-copy h1 {
   color: #fffaf0;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(48px, 5.3vw, 78px);
+  font-size: clamp(40px, 4.5vw, 64px);
   font-weight: 500;
   letter-spacing: -.045em;
   line-height: .98;
@@ -298,7 +298,7 @@
 
 @media (max-width: 680px) {
   .career-hero-grid { min-height: 0; padding-bottom: 54px; padding-top: 54px; }
-  .career-hero-copy h1 { font-size: 43px; }
+  .career-hero-copy h1 { font-size: 36px; }
   .career-radar { max-width: 330px; }
   .career-radar-node { font-size: 10px; min-width: 80px; padding: 7px 8px; }
   .career-radar-core { font-size: 24px; height: 90px; left: calc(50% - 45px); top: calc(50% - 45px); width: 90px; }
