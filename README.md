@@ -19,6 +19,8 @@ Static Vercel prototype for OTC / Overseas Digital Hub.
 - /university-applications/
 - /study-group-2026-applications/
 - /zh/study-group-2026-applications/
+- /countries/hong-kong/
+- /zh/countries/hong-kong/
 - /application-service-standards/
 - /advanced-entry-china-programmes/
 - /university-partnerships/

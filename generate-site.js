@@ -1988,6 +1988,133 @@ function canadaRoutePage(route, locale = "en") {
   });
 }
 
+const hongKongBilingualHub = {
+  zh: {
+    language: "zh-Hant", current: "zh", prefix: "/zh/countries/hong-kong", home: "/zh/",
+    switchHref: "/countries/hong-kong/", switchLabel: "English version",
+    eyebrow: "海外督導 OTC · 香港留學申請",
+    title: "香港留學免費代辦與申請規劃",
+    subtitle: "從選校、語言材料到 Offer 與學生簽證，一套透明、可核對的申請流程",
+    intro: "以香港八所教資會資助大學及合資格院校課程為核心，按申請人的學術背景、專業方向、語言證明與入學時間逐項核對。符合服務範圍的院校與課程可由海外督導提供免費申請協調；錄取決定始終由院校作出。",
+    apply: "申請免費初步評估", back: "返回中文首頁",
+    sectionLabel: "先判斷，再遞交", sectionTitle: "香港申請最容易出錯的四個位置",
+    sectionIntro: "不要只看學校排名或最後截止日期。真正影響結果的是課程匹配、材料口徑、語言證明和遞交順序。",
+    facts: [
+      ["課程匹配", "同一所大學不同學院的學術背景、先修科目、工作經驗及補件規則可能完全不同，必須以具體 programme 為單位核對。"],
+      ["英語證明", "IELTS／TOEFL 並非所有課程唯一途徑；部分大學會接受合資格的英語授課學位證明，但出具部門、措辭和個別課程要求必須另行確認。"],
+      ["滾動錄取", "部分授課型碩士採 rolling admissions。最終截止日不是安全遞交日，材料齊備後應按課程輪次與名額情況安排。"],
+      ["錄取與簽證", "Offer 條件、學費訂金、學生簽證／進入許可及入境文件是不同階段；任何一步都不應以非官方承諾代替正式文件。"]
+    ],
+    universityTitle: "八所教資會資助大學",
+    universityIntro: "香港的大學各自獨立設定課程、學術標準與錄取要求。OTC 會按具體課程核對，而不是用一套門檻概括所有院校。",
+    serviceTitle: "海外督導香港留學代辦服務範圍",
+    serviceIntro: "我們把申請拆成可以追蹤、可以留痕、可以向院校核對的五個階段。",
+    serviceSteps: [
+      ["01", "背景初評", "核對院校背景、GPA、專業、工作經驗、語言成績、入學年份與預算。"],
+      ["02", "選校選專業", "建立衝刺、匹配與穩妥方案，逐項標示硬性門檻、補件風險與截止日期。"],
+      ["03", "文件準備", "整理成績單、學位證明、CV、推薦信、個人陳述、MOI／IELTS 及課程指定材料。"],
+      ["04", "遞交與跟進", "協調申請表、文件上傳、院校電郵、補件、面試與 Offer 條件核對。"],
+      ["05", "接受 Offer", "協助理解接受期限、訂金、簽證文件與行前節點；受監管事項轉介合資格人士。"]
+    ],
+    documentTitle: "開始評估前，先準備這四組資料",
+    documentGroups: [
+      ["學術背景", "成績單、在讀／畢業證明、學位證、院校與專業名稱、成績制度"],
+      ["語言材料", "IELTS／TOEFL 成績或考試計畫、英文授課證明、出具部門與樣本"],
+      ["申請方向", "具體課程、入學年份、職業目標、是否接受跨專業或備選路線"],
+      ["個人材料", "CV、工作／實習、推薦人、身份證明；敏感文件只在正式個案流程中提交"]
+    ],
+    caseLabel: "近期真實問答", caseTitle: "港中文泛商科：可否先交 MOI、之後補 IELTS？",
+    caseText: "OTC 按香港中文大學 Graduate School 與 Business School 官方頁面核對：合資格的英語授課學位證明可用於大學層面的最低英語要求，但個別課程仍可能另有要求。因商學院採 rolling admissions，是否等待 IELTS 應由具體課程、材料完整度與輪次共同決定。",
+    caseLink: "查看 @overseas_uk 公開回覆",
+    feeTitle: "免費代辦不等於隱藏收費或保證錄取",
+    feeText: "對符合 OTC 服務範圍的院校與課程，學生不需支付申請代辦服務費。院校申請費、考試費、翻譯／認證、學費訂金、學費、簽證費及其他第三方費用仍由學生承擔。院校保留最終錄取權，OTC 不出售錄取、不代寫材料，也不承諾結果。",
+    officialTitle: "官方核對入口",
+    disclaimer: "本頁資料核查於 2026 年 8 月 29 日，僅作教育申請資訊與流程說明。院校要求、截止日期、簽證及畢業後安排會變動；正式申請前須以院校、香港入境事務處及其他主管機關的現行規則為準。"
+  },
+  en: {
+    language: "en", current: "applications", prefix: "/countries/hong-kong", home: "/",
+    switchHref: "/zh/countries/hong-kong/", switchLabel: "中文版",
+    eyebrow: "OTC · HONG KONG STUDY APPLICATIONS",
+    title: "Study in Hong Kong: Application Support",
+    subtitle: "A transparent route from programme selection and English evidence to offers and student entry permits",
+    intro: "OTC supports evidence-led application planning across Hong Kong's eight UGC-funded universities and other eligible programmes. Every case is checked against the named programme, academic profile, English evidence and intake. Application coordination is free for eligible routes within our service scope; admissions decisions remain entirely with the institution.",
+    apply: "Request a free initial review", back: "Back to home",
+    sectionLabel: "CHECK BEFORE YOU APPLY", sectionTitle: "Four points that decide whether an application is ready",
+    sectionIntro: "Rankings and final deadlines are not enough. Programme fit, evidence wording, English-language proof and submission order need to be checked together.",
+    facts: [
+      ["Programme fit", "Requirements for prior study, prerequisite modules, experience and supplementary documents can vary across programmes at the same university."],
+      ["English evidence", "IELTS or TOEFL is not always the only route. Some universities accept an eligible English-medium degree, but the issuing office, wording and programme-level rules still need checking."],
+      ["Rolling admissions", "Some taught postgraduate programmes review applications on a rolling basis. A final deadline should not be treated as the safest submission date."],
+      ["Offer and immigration", "Offer conditions, deposits, student visas or entry permits and arrival documents are separate stages. Each should be verified from formal documents."]
+    ],
+    universityTitle: "Hong Kong's eight UGC-funded universities",
+    universityIntro: "Each university is autonomous and controls its own curricula, academic standards and student selection. OTC checks named programmes rather than applying one generic threshold.",
+    serviceTitle: "What OTC Hong Kong application support covers",
+    serviceIntro: "The application is organised into five traceable stages, with decisions and outstanding evidence recorded at each point.",
+    serviceSteps: [
+      ["01", "Profile review", "Review institution, GPA, subject background, experience, English evidence, intake and budget."],
+      ["02", "Programme mapping", "Build aspirational, matched and safer options with entry rules, evidence gaps and deadlines clearly marked."],
+      ["03", "Document readiness", "Organise transcripts, degree evidence, CV, references, statement, MOI or IELTS and programme-specific documents."],
+      ["04", "Submission follow-up", "Coordinate forms, uploads, university emails, supplementary evidence, interviews and offer-condition checks."],
+      ["05", "Offer acceptance", "Explain acceptance dates, deposits, immigration-document stages and pre-arrival milestones; regulated matters are referred appropriately."]
+    ],
+    documentTitle: "Prepare these four information groups for the initial review",
+    documentGroups: [
+      ["Academic record", "Transcript, enrolment or graduation evidence, degree certificate, institution, subject and grading scale"],
+      ["English evidence", "IELTS or TOEFL result or test plan, medium-of-instruction letter, issuing office and sample wording"],
+      ["Study direction", "Named programmes, intake, career objective and openness to adjacent or alternative routes"],
+      ["Applicant context", "CV, work or internship history, referees and identity context; sensitive files are collected only in the formal case workflow"]
+    ],
+    caseLabel: "RECENT PUBLIC Q&A", caseTitle: "CUHK business programmes: submit an MOI letter first and IELTS later?",
+    caseText: "OTC checked the CUHK Graduate School and Business School guidance. An eligible English-medium degree can meet the university-level minimum English requirement, but a programme may still set additional rules. Because Business School admissions are rolling, the decision to wait for IELTS depends on the named programme, evidence completeness and admissions round.",
+    caseLink: "Read the public @overseas_uk reply",
+    feeTitle: "Free application coordination is not a guarantee of admission",
+    feeText: "For eligible institutions and programmes within OTC's service scope, students are not charged an application-agency service fee. University application fees, tests, translation or certification, deposits, tuition, visa charges and other third-party costs remain separate. Institutions retain final admissions authority. OTC does not sell admission, write applicant materials, or guarantee outcomes.",
+    officialTitle: "Official sources used for checking",
+    disclaimer: "Information checked on 29 August 2026 and provided for education-application guidance only. University requirements, deadlines, immigration rules and graduate arrangements can change. Re-check the current institution and Hong Kong Immigration Department pages before acting."
+  }
+};
+
+const hongKongUniversities = [
+  ["HKU", "The University of Hong Kong", "香港大學"], ["CUHK", "The Chinese University of Hong Kong", "香港中文大學"],
+  ["HKUST", "The Hong Kong University of Science and Technology", "香港科技大學"], ["PolyU", "The Hong Kong Polytechnic University", "香港理工大學"],
+  ["CityU", "City University of Hong Kong", "香港城市大學"], ["HKBU", "Hong Kong Baptist University", "香港浸會大學"],
+  ["Lingnan", "Lingnan University", "嶺南大學"], ["EdUHK", "The Education University of Hong Kong", "香港教育大學"]
+];
+
+const hongKongOfficialLinks = [
+  ["UGC-funded universities", "https://www.ugc.edu.hk/eng/ugc/site/fund_inst.html"],
+  ["Hong Kong Immigration Department — Students", "https://www.immd.gov.hk/eng/services/visas/study.html"],
+  ["Hong Kong Immigration Department — IANG", "https://www.immd.gov.hk/eng/services/visas/IANG.html"],
+  ["CUHK Graduate School — Requirements", "https://www.gs.cuhk.edu.hk/admissions/requirements"],
+  ["CUHK Graduate School — Documents Required", "https://www.gs.cuhk.edu.hk/admissions/documents-required"],
+  ["CUHK Business School — Application Procedures", "https://masters.bschool.cuhk.edu.hk/apply/"]
+];
+
+function hongKongHubPage(locale = "en") {
+  const copy = hongKongBilingualHub[locale];
+  const isZh = locale === "zh";
+  return pageShell({
+    title: isZh ? "香港留學免費代辦與申請規劃 | 海外督導 OTC" : "Study in Hong Kong: Application Support | OTC",
+    current: copy.current, lang: copy.language, locale, path: `${copy.prefix}/`, description: copy.intro,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero country-hong-kong-2026"><div class="band"><div class="eyebrow">${copy.eyebrow}</div><h1>${copy.title}</h1><h2>${copy.subtitle}</h2><p>${copy.intro}</p><div class="country-hero-chips"><span><strong>8</strong>${isZh ? "所教資會資助大學" : "UGC-funded universities"}</span><span><strong>2</strong>${isZh ? "語言證明路線核對" : "English-evidence routes"}</span><span><strong>5</strong>${isZh ? "階段申請跟進" : "application stages"}</span></div><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Hong Kong application initial review")}">${copy.apply}</a><a class="btn btn-secondary" href="${copy.switchHref}">${copy.switchLabel}</a><a class="btn btn-secondary" href="${copy.home}">${copy.back}</a></div></div></section>
+      <section class="band country-gateway-panel">
+        <div class="section-head compact-head"><div class="eyebrow">${copy.sectionLabel}</div><h2>${copy.sectionTitle}</h2><p>${copy.sectionIntro}</p></div>
+        <div class="country-official-grid">${copy.facts.map((fact, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${fact[0]}</strong><p>${fact[1]}</p></article>`).join("")}</div>
+        <div class="section-head compact-head"><div class="eyebrow">UGC UNIVERSITY MAP</div><h2>${copy.universityTitle}</h2><p>${copy.universityIntro}</p></div>
+        <div class="country-school-grid country-hong-kong-university-grid">${hongKongUniversities.map((university) => `<article><b>${university[0]}</b><strong>${isZh ? university[2] : university[1]}</strong><em>${isZh ? university[1] : university[2]}</em></article>`).join("")}</div>
+        <div class="country-route-steps"><div class="section-head compact-head"><div class="eyebrow">OTC HONG KONG</div><h2>${copy.serviceTitle}</h2><p>${copy.serviceIntro}</p></div><div class="country-official-grid">${copy.serviceSteps.map((step) => `<article><b>${step[0]}</b><strong>${step[1]}</strong><p>${step[2]}</p></article>`).join("")}</div></div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">${copy.caseLabel}</div><h2>${copy.caseTitle}</h2><p>${copy.caseText}</p></div><div class="country-route-actions"><a class="btn btn-dark" href="https://www.threads.com/@overseas_uk/post/Dcnk9TUjGzI" target="_blank" rel="noopener">${copy.caseLink}</a><a class="btn btn-light" href="https://www.threads.com/@trini17ty/post/DcnjRV6FPrS" target="_blank" rel="noopener">${isZh ? "查看原始提問" : "View the original question"}</a></div></div>
+        <div class="section-head compact-head"><div class="eyebrow">DOCUMENT READINESS</div><h2>${copy.documentTitle}</h2></div>
+        <div class="country-school-grid">${copy.documentGroups.map((group, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${group[0]}</strong><p>${group[1]}</p></article>`).join("")}</div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">SERVICE TERMS</div><h2>${copy.feeTitle}</h2><p>${copy.feeText}</p></div><div class="country-route-actions"><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Hong Kong study application support")}">${copy.apply}</a><a class="btn btn-light" href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a></div></div>
+        <div class="country-subpage-sources"><strong>${copy.officialTitle}</strong>${hongKongOfficialLinks.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label} →</a>`).join("")}</div>
+        <p class="source-note">${copy.disclaimer}</p>
+      </section>`
+  });
+}
+
 function applicationCountryCards() {
   return countryGatewayData.map((country, index) => `
         <a class="application-country-card ${country.slug}" href="/university-applications/?country=${encodeURIComponent(country.name)}#programme-directory" data-country-jump="${country.name}">
@@ -33088,6 +33215,11 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
       write(`countries/canada/${route.slug}`, canadaRoutePage(route, "en"));
       write(`zh/countries/canada/${route.slug}`, canadaRoutePage(route, "zh"));
     });
+    return;
+  }
+  if (country.slug === "hong-kong") {
+    write("countries/hong-kong", hongKongHubPage("en"));
+    write("zh/countries/hong-kong", hongKongHubPage("zh"));
     return;
   }
   write(`countries/${country.slug}`, countryGatewayPage(country));
