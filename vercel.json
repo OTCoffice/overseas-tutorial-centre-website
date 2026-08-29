@@ -3,6 +3,21 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/countries/canada/finance/",
+      "destination": "/countries/canada/costs/",
+      "permanent": true
+    },
+    {
+      "source": "/countries/canada/living/",
+      "destination": "/countries/canada/costs/",
+      "permanent": true
+    },
+    {
+      "source": "/countries/canada/immigration/",
+      "destination": "/countries/canada/pgwp/",
+      "permanent": true
+    },
+    {
       "source": "/zh/course-selection-guide/",
       "destination": "/zh/course-selection-alliance/",
       "permanent": true

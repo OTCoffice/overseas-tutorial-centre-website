@@ -1750,6 +1750,244 @@ function countryGatewayPage(country) {
   });
 }
 
+const canadaBilingualHub = {
+  zh: {
+    language: "zh-Hant",
+    current: "zh",
+    prefix: "/zh/countries/canada",
+    home: "/zh/",
+    heroEyebrow: "OTC 加拿大留學 · 2026 官方規則版",
+    title: "加拿大留學完整指南",
+    subtitle: "選校、申請、學簽、工作與 PGWP，一次整理清楚",
+    intro: "先核對 DLI、課程資格、預算與畢業出口，再決定城市和校名。這套雙語專題按加拿大政府 2026 年現行規則整理，適用於 K–12、本科、學院、碩士及博士申請的初步規劃。",
+    updated: "資料核查：2026 年 8 月 29 日",
+    apply: "申請免費初步評估",
+    switchLabel: "English version",
+    switchHref: "/countries/canada/",
+    back: "返回中文首頁",
+    sectionLabel: "決策路線",
+    sectionTitle: "六個分區，把加拿大申請拆成可執行步驟",
+    sectionIntro: "每一頁均保留加拿大政府官方來源；政策敏感資料不以網路傳言或中介口徑代替。",
+    facts: [
+      ["DLI ≠ 自動取得 PGWP", "院校必須是 DLI，但同一院校不是每個課程都符合 PGWP；接受 offer 前要核對具體課程。"],
+      ["公立碩博免 PAL/TAL", "自 2026 年 1 月 1 日起，公立 DLI 的學位型碩士及博士課程可豁免 PAL/TAL；魁北克仍須核對 CAQ。"],
+      ["校外工作 24 小時", "符合條件的學生在正常學期可每週校外工作最多 24 小時，指定假期可不限時數。"],
+      ["資金標準即將更新", "單人生活費證明在 2026 年 8 月 31 日前為 CAD 22,895；9 月 1 日起為 CAD 23,448，另計學費與交通。"]
+    ],
+    schoolTitle: "院校與課程怎麼選",
+    schoolIntro: "OTC 可協助加拿大各類院校申請，但公開名單只作方向示例。實際開放課程、截止日期、入學要求及合作服務範圍均須逐案確認。",
+    categories: [
+      ["大學", "研究型與綜合型大學", ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"]],
+      ["學院", "公立 College / Polytechnic", ["Seneca Polytechnic", "George Brown College", "Humber Polytechnic", "Centennial College", "BCIT", "Fanshawe College"]],
+      ["中小學", "公立教育局與私立學校", ["Ontario public school boards", "British Columbia school districts", "Catholic school boards", "Private day and boarding schools"]]
+    ],
+    stepsTitle: "OTC 申請流程",
+    steps: [
+      ["01", "背景與目標初評", "整理學歷、成績、英文、預算、入學季、目標省份及畢業後計劃。"],
+      ["02", "院校與課程核對", "比較入學要求、DLI、PGWP、CIP、Co-op、學費、城市成本及替代方案。"],
+      ["03", "材料與院校申請", "建立個人化清單，核對成績單、推薦信、文書、作品集及學校表格後遞交。"],
+      ["04", "Offer 與入學準備", "跟進補件和 offer 條件；學簽文件由官方要求及合資格專業人士意見為準。"]
+    ],
+    serviceTitle: "加拿大院校申請支援",
+    serviceText: "符合基本條件及服務範圍的學生，可獲免費初步評估、選校建議、材料清單、院校申請遞交及一般進度跟進。若院校實際支付招生佣金，任何學生回饋安排以個案書面確認為準。院校申請費、翻譯認證、考試、學費、簽證及第三方費用不包含在免費服務內。OTC 不保證錄取、簽證、PGWP、工作或移民結果。",
+    officialTitle: "官方核對入口",
+    disclaimer: "本頁為教育資訊與申請協調說明，不構成移民或法律意見。規則會變動，正式申請以 IRCC、EduCanada、院校及相關省份的當日要求為準。"
+  },
+  en: {
+    language: "en",
+    current: "applications",
+    prefix: "/countries/canada",
+    home: "/",
+    heroEyebrow: "OTC Canada Study · 2026 official-rules edition",
+    title: "Study in Canada: Complete Guide",
+    subtitle: "Schools, admissions, study permits, work and PGWP in one clear route",
+    intro: "Check the DLI, programme eligibility, budget and graduate outcome before choosing a city or brand name. This bilingual hub is aligned with current Government of Canada rules for K–12, college, undergraduate, master's and doctoral planning.",
+    updated: "Sources checked: 29 August 2026",
+    apply: "Request a free initial review",
+    switchLabel: "中文版",
+    switchHref: "/zh/countries/canada/",
+    back: "Back to home",
+    sectionLabel: "Decision route",
+    sectionTitle: "Six sections turn a Canada application into an executable plan",
+    sectionIntro: "Every section links to primary Canadian government sources. Policy-sensitive claims are not based on marketing copy or social-media hearsay.",
+    facts: [
+      ["A DLI does not guarantee a PGWP", "The school must be a DLI, but not every programme at a DLI is PGWP-eligible. Check the exact programme before accepting an offer."],
+      ["Public master's and PhD PAL/TAL exemption", "From 1 January 2026, degree-granting master's and doctoral programmes at public DLIs are PAL/TAL-exempt; Quebec requirements still need separate checking."],
+      ["24 hours of off-campus work", "Eligible students may work up to 24 hours per week off campus during regular terms and unlimited hours during scheduled breaks."],
+      ["Financial threshold changes soon", "For one applicant, living-expense evidence is CAD 22,895 through 31 August 2026 and CAD 23,448 from 1 September, excluding tuition and travel."]
+    ],
+    schoolTitle: "How to choose a school and programme",
+    schoolIntro: "OTC can support applications across Canadian institutions, but the public list below is illustrative. Programme availability, deadlines, entry requirements and service scope are checked case by case.",
+    categories: [
+      ["Universities", "Research-intensive and comprehensive", ["University of Toronto", "University of British Columbia", "McGill University", "University of Waterloo", "McMaster University", "University of Alberta", "Queen's University", "Simon Fraser University"]],
+      ["Colleges", "Public colleges and polytechnics", ["Seneca Polytechnic", "George Brown College", "Humber Polytechnic", "Centennial College", "BCIT", "Fanshawe College"]],
+      ["K–12", "Public boards and private schools", ["Ontario public school boards", "British Columbia school districts", "Catholic school boards", "Private day and boarding schools"]]
+    ],
+    stepsTitle: "OTC application workflow",
+    steps: [
+      ["01", "Profile and goal review", "Organise qualifications, grades, English, budget, intake, target province and post-study goals."],
+      ["02", "School and programme checks", "Compare admission, DLI and PGWP status, CIP code, co-op, fees, city costs and fallback choices."],
+      ["03", "Documents and applications", "Build a personal checklist and review transcripts, references, statements, portfolios and forms before submission."],
+      ["04", "Offer and enrolment preparation", "Track conditions and follow-up. Study-permit documents remain subject to official rules and qualified professional advice where required."]
+    ],
+    serviceTitle: "Canada application support",
+    serviceText: "Eligible applicants within scope may receive a free initial assessment, school-selection guidance, a document checklist, institutional application submission and routine progress follow-up. Where an institution actually pays an enrolment commission, any student rebate is confirmed in writing case by case. School application fees, translation or certification, tests, tuition, immigration fees and third-party costs are excluded. OTC does not guarantee admission, a visa, PGWP eligibility, employment or immigration outcomes.",
+    officialTitle: "Official verification links",
+    disclaimer: "This is education information and application-coordination guidance, not immigration or legal advice. Rules change; use the current IRCC, EduCanada, institution and provincial requirements at the time of application."
+  }
+};
+
+const canadaRouteContent = [
+  {
+    slug: "study-permit",
+    zh: { nav: "學簽與 PAL/TAL", desc: "LOA、DLI、資金證明與 2026 豁免", title: "加拿大學簽與 2026 文件規則", intro: "學簽不是只看錄取信：DLI、PAL/TAL 或豁免證明、資金來源與學習計劃需要形成完整證據鏈。", sections: [
+      ["申請前的四項核對", ["先取得 DLI 發出的正式錄取信（LOA）。多數專上申請仍須隨申請提交 PAL/TAL；自 2026 年 1 月 1 日起，公立 DLI 的學位型碩士與博士課程可豁免，但須提交符合豁免的證明。魁北克通常仍須按省規取得 CAQ。", "院校會被要求驗證 LOA。文件應放在正確的上傳欄位，其他身份、資金或說明材料不要混入 LOA 欄位。"]],
+      ["資金證明不是一個存款數字", ["IRCC 要求證明首年學費、本人及同行家屬生活費、往返交通；課程超過一年，還要說明餘下學年的資金來源。常見證據包括學費收據、貸款、獎學金、資助人文件、近六個月銀行流水及收入來源。", "魁北克以外，單人生活費標準在 2026 年 8 月 31 日前為 CAD 22,895，2026 年 9 月 1 日起為 CAD 23,448；兩個金額均不包括學費和交通。"]],
+      ["已淘汰的舊說法", ["SDS 已不應作為現行加速申請路徑介紹；CAD 10,000 的單人生活費標準也已失效。處理時間須使用 IRCC 當日 processing-times 工具，不宜承諾固定週數。"]]
+    ]},
+    en: { nav: "Study permit & PAL/TAL", desc: "LOA, DLI, finances and 2026 exemptions", title: "Canada Study Permit and 2026 Document Rules", intro: "A study permit requires more than an offer: DLI status, a PAL/TAL or exemption evidence, credible finances and a coherent study plan must form one evidence chain.", sections: [
+      ["Four checks before applying", ["Obtain a valid letter of acceptance (LOA) from a DLI. Most post-secondary applicants still submit a PAL/TAL, while degree-granting master's and doctoral programmes at public DLIs are exempt from 1 January 2026 if evidence of the exemption is included. Quebec usually still requires a CAQ under provincial rules.", "Institutions are asked to validate LOAs. Upload the LOA in its dedicated field and place other identity, finance and explanation documents in the correct sections."]],
+      ["Financial evidence is not one bank balance", ["IRCC expects first-year tuition, living expenses for the applicant and accompanying family, and travel. For programmes longer than one year, explain how later years will be funded. Evidence may include receipts, loans, scholarships, sponsor records, six months of statements and proof of income sources.", "Outside Quebec, the one-person living-expense threshold is CAD 22,895 through 31 August 2026 and CAD 23,448 from 1 September 2026, excluding tuition and transportation."]],
+      ["Retire outdated advice", ["SDS should not be presented as a current accelerated route, and the old CAD 10,000 living-expense figure is obsolete. Use IRCC's live processing-times tool instead of promising a fixed number of weeks."]]
+    ]},
+    sources: [["IRCC — Study permit documents", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html"], ["IRCC — PAL/TAL rules", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html"], ["IRCC — Financial support", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html"]]
+  },
+  {
+    slug: "programmes",
+    zh: { nav: "選校與課程", desc: "University、College、K–12 與 Co-op", title: "加拿大選校、課程與申請材料", intro: "「門檻較低」不等於「風險較低」。正確比較要同時看學術適配、成本、實習、DLI、PGWP 與畢業後職位。", sections: [
+      ["四類常見入口", ["University 適合本科、研究型或授課型碩博；College / Polytechnic 偏應用、證書和文憑；K–12 通常由公立教育局或私校處理；Pathway 可補足語言或學術差距，但必須看清最終升讀條件。", "各校自行設定學術、語言、作品集、先修課與文件要求。不要把常見 IELTS 6.5 當成全國統一標準，也不要把「可發學簽」誤解成「畢業可拿 PGWP」。"]],
+      ["用六欄比較課程", ["建議每個選項固定記錄：課程名稱與 credential、校區與城市、學費和強制費用、實習安排、DLI/PGWP/CIP 核對結果、畢業職位與省份。排名只能作其中一欄，不能代替其餘五欄。"]],
+      ["申請材料", ["常見材料包括成績單、畢業或在讀證明、語言成績、個人陳述、推薦信、CV；藝術設計另有作品集，研究型課程可能要求研究計劃和導師匹配。最終清單以每個課程官網為準。"]]
+    ]},
+    en: { nav: "Schools & programmes", desc: "University, college, K–12 and co-op", title: "Choosing Canadian Schools, Programmes and Documents", intro: "A lower entry threshold is not automatically lower risk. Compare academic fit, cost, placements, DLI and PGWP status, and realistic graduate roles together.", sections: [
+      ["Four common entry routes", ["Universities cover undergraduate and taught or research graduate degrees; colleges and polytechnics are more applied; K–12 applications often run through public boards or private schools; pathways can address language or academic gaps but progression conditions must be explicit.", "Each institution sets its own academic, language, portfolio, prerequisite and document rules. IELTS 6.5 is not a national rule, and permission to host international students does not guarantee PGWP eligibility."]],
+      ["Compare every programme in six columns", ["Record the credential, campus and city, tuition and mandatory fees, placement structure, DLI/PGWP/CIP result, and target jobs and province. Ranking is one column, not a substitute for the other five."]],
+      ["Application documents", ["Common evidence includes transcripts, graduation or enrolment records, language scores, statements, references and a CV. Creative programmes may require a portfolio; research degrees may require a proposal and supervisor fit. The programme page remains authoritative."]]
+    ]},
+    sources: [["EduCanada — Start your journey", "https://www.educanada.ca/start-commencez/index.aspx?lang=eng"], ["EduCanada — Apply to school", "https://www.educanada.ca/study-plan-etudes/before-avant/apply-school_canada_demande-ecole.aspx?lang=eng"], ["IRCC — DLI list", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html"]]
+  },
+  {
+    slug: "pgwp",
+    zh: { nav: "PGWP 核對", desc: "語言、CIP、課程長度與資格", title: "PGWP 不是校名福利：逐項核對資格", intro: "畢業後工作許可取決於院校、具體課程、申請時間、學習情況、語言、可能適用的專業領域及護照有效期。", sections: [
+      ["學位與非學位的差別", ["Bachelor、Master、Doctoral 畢業生須達到英語 CLB 7 或法語 NCLC 7，沒有專業領域限制。其他 university programme 一般也是 CLB/NCLC 7；college、polytechnic 及其他非 university programme 一般為 CLB/NCLC 5。", "若學簽申請於 2024 年 11 月 1 日或之後提交，非學位等適用課程通常還要符合當時的 eligible field of study；以六位 CIP code 核對。2026 年 eligible field list 已凍結，不增不減。"]],
+      ["工簽長度", ["Master's degree 課程只要至少八個月並符合其他條件，即使短於兩年，也可申請三年 PGWP。其他八個月至不足兩年的課程，PGWP 最長通常不超過課程長度；兩年或以上課程可獲最長三年，並受護照有效期等限制。"]],
+      ["三層核對", ["第一層：DLI 是否在官方名單；第二層：該 DLI 的具體課程是否 PGWP eligible；第三層：申請人是否符合語言、CIP、全日制學習、在加學習比例和申請期限等個人條件。"]]
+    ]},
+    en: { nav: "PGWP checks", desc: "Language, CIP, length and eligibility", title: "A PGWP Is Not a School-Name Benefit", intro: "Eligibility depends on the institution, exact programme, application dates, study record, language, any field requirement and passport validity.", sections: [
+      ["Degrees and non-degrees", ["Bachelor's, master's and doctoral graduates need English CLB 7 or French NCLC 7 and have no field-of-study requirement. Other university programmes generally require CLB/NCLC 7; college, polytechnic and other non-university programmes generally require CLB/NCLC 5.", "Where the study-permit application was submitted on or after 1 November 2024, applicable non-degree programmes normally need an eligible field of study, checked by six-digit CIP code. The eligible-field list is frozen for 2026."]],
+      ["Permit length", ["A qualifying master's degree of at least eight months can support a three-year PGWP even when the programme is under two years. Other programmes of eight months to under two years may receive up to the programme length; programmes of two years or more may receive up to three years, subject to passport validity and other rules."]],
+      ["Three-layer check", ["Check the DLI on the official list, then the exact programme's PGWP status, then the applicant's language, CIP, full-time study, Canadian-study share, timing and other personal conditions."]]
+    ]},
+    sources: [["IRCC — PGWP eligibility", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html"], ["IRCC — Field of study", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html"], ["IRCC — PGWP duration", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html"]]
+  },
+  {
+    slug: "work",
+    zh: { nav: "在讀工作與 Co-op", desc: "24 小時、指定假期與 2026 實習新規", title: "加拿大在讀工作與 Co-op：2026 新規", intro: "工作資格以學簽條件、課程狀態和 IRCC 現行規則為準；把兼職收入當作資金證明或主要學費來源並不成立。", sections: [
+      ["校外工作", ["符合條件、已開始課程的學生在正常學期可校外工作最多每週 24 小時，多份工作合計計算；學校安排的指定假期可不限時數。只有語言課、興趣課或進入正課前的先修課者通常不符合。", "學生要自行保存工時記錄；超時可能導致失去學生身份並影響日後許可。海外僱主的遠程工作在持續符合學簽條件時，一般不計入 24 小時校外上限。"]],
+      ["Co-op / Internship 2026 變更", ["自 2026 年 4 月 1 日起，符合條件的加拿大專上國際學生參加課程規定的實習或 Co-op，不再需要另辦 co-op work permit。舊有 permit 可在有效期內繼續使用；具體資格仍要用 IRCC student work placement 頁核對。"]],
+      ["把實習當成課程指標", ["比較課程時應問：實習是否必修、學校是否安排僱主、是否帶薪、國際生能否參與、歷年僱主和職位是什麼、未獲 placement 時如何完成學分。"]]
+    ]},
+    en: { nav: "Work & co-op", desc: "24 hours, breaks and the 2026 placement rule", title: "Working and Co-op Study in Canada: 2026 Rules", intro: "Work eligibility depends on permit conditions, active study and current IRCC rules. Part-time earnings cannot replace the funds required for study-permit purposes.", sections: [
+      ["Off-campus work", ["Eligible students who have started their programme may work up to 24 hours per week off campus during regular terms, across all jobs, and unlimited hours during scheduled breaks. Language-only, general-interest and prerequisite-only study normally does not qualify.", "Students must track their hours. Excess work can affect status and future permits. Remote work for an employer outside Canada generally does not count toward the 24-hour limit while study-permit conditions continue to be met."]],
+      ["2026 co-op and internship change", ["From 1 April 2026, eligible post-secondary international students no longer need a separate co-op work permit for required student placements. Existing permits remain valid; eligibility still needs checking on IRCC's student-work-placement page."]],
+      ["Treat placements as a programme metric", ["Ask whether the placement is compulsory, employer-arranged, paid, open to international students, supported by named past employers, and how credits are completed if no placement is secured."]]
+    ]},
+    sources: [["IRCC — Work off campus", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"], ["IRCC — Work as an international student", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html"]]
+  },
+  {
+    slug: "costs",
+    zh: { nav: "費用與城市", desc: "學費、生活費、醫保與住宿", title: "加拿大留學費用與城市預算", intro: "預算應以官方生活費底線為起點，再加學費、交通、醫保、教材、押金和城市差異；校外工作收入只宜作補充。", sections: [
+      ["2026 學費參考", ["EduCanada 的最新全國參考：公立 K–12 約 CAD 10,000–17,000/年；私立走讀約 15,000–30,000；寄宿私校約 63,000–83,000。College diploma 國際生約 CAD 16,000–25,000/年。", "University 平均學費約為國際本科 CAD 41,746/年、國際研究生 CAD 24,028/年。這些是全國參考，不是任何院校的報價；專業、校區和強制費用會造成很大差異。"]],
+      ["城市與住宿", ["多倫多和溫哥華機會集中但住房成本高；蒙特利爾涉及法語和魁省制度；卡爾加里、埃德蒙頓、溫尼伯及大西洋城市常有較低住房成本，但課程與就業匹配仍要逐項查。", "住宿可比較校內宿舍、寄宿家庭、合租和整租。簽約前核對押金、租期、家具、水電網、通勤、租客保險及省級租務規則。"]],
+      ["預算公式", ["第一年現金流＝學費及強制費＋IRCC 生活費證明＋交通＋醫保＋教材設備＋住宿押金／首月支出＋應急金。不要用兼職收入填補申請時的資金缺口。"]]
+    ]},
+    en: { nav: "Costs & cities", desc: "Tuition, living costs, health and housing", title: "Canada Study Costs and City Budgeting", intro: "Start with the official living-funds floor, then add tuition, travel, health cover, books, deposits and city variation. Student work should only supplement the budget.", sections: [
+      ["2026 tuition references", ["EduCanada's latest national ranges are CAD 10,000–17,000 a year for public K–12, CAD 15,000–30,000 for private day schools and CAD 63,000–83,000 for private boarding schools. International college diploma tuition is roughly CAD 16,000–25,000 a year.", "Average university tuition is approximately CAD 41,746 a year for international undergraduates and CAD 24,028 for international graduate students. These are national references, not quotations; discipline, campus and mandatory fees can change the total substantially."]],
+      ["Cities and housing", ["Toronto and Vancouver concentrate opportunities but carry high housing costs; Montreal adds French-language and Quebec-system considerations; Calgary, Edmonton, Winnipeg and Atlantic cities may cost less, but programme and employment fit still require individual checks.", "Compare residence, homestay, shared and private rentals. Before signing, check deposits, term, furniture, utilities, commute, tenant insurance and provincial tenancy rules."]],
+      ["Budget formula", ["First-year cash flow equals tuition and mandatory fees, IRCC living-funds evidence, travel, health insurance, books and equipment, housing deposit and initial costs, plus an emergency reserve. Do not use expected part-time earnings to cover an application-stage funding gap."]]
+    ]},
+    sources: [["EduCanada — Study costs", "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"], ["IRCC — Financial support", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html"]]
+  },
+  {
+    slug: "application",
+    zh: { nav: "申請時間線", desc: "從初評到 offer 與入學", title: "加拿大院校申請時間線與 OTC 支援", intro: "不使用「所有學校同一截止日期」的錯誤模板；每個課程建立獨立時間線，主申、穩妥與替代方案同步推進。", sections: [
+      ["建議節奏", ["入學前 12–18 個月：定學段、專業、預算和省份，準備語言與先修課。前 9–12 個月：完成選校、材料和首輪申請。收到 offer 後：核對條件、訂金、退款、PAL/TAL 或豁免、住宿及學簽材料。", "熱門、帶實習、研究型或獎學金課程往往更早截止。公開截止日期不代表名額一定留到最後一天。"]],
+      ["提交給 OTC 的初評資料", ["最高學歷與專業、完整成績、英語或法語成績、目標學段和專業、預算、希望入學時間、目標省市、是否重視 PGWP/Co-op、既往拒簽或學習空檔。沒有發生的互動或不存在的文件不會被補寫。"]],
+      ["服務邊界", ["OTC 可做教育路線初評、院校與課程核對、材料清單、院校申請遞交和一般進度跟進。院校決定錄取；IRCC 決定簽證與許可；移民法律意見及個案代表由具相應資格人士處理。"]]
+    ]},
+    en: { nav: "Application timeline", desc: "From initial review to offer and enrolment", title: "Canada Application Timeline and OTC Support", intro: "There is no single national deadline. Build a separate timeline for each programme and advance reach, realistic and fallback choices together.", sections: [
+      ["Suggested rhythm", ["12–18 months before entry: set the level, subject, budget and province; prepare language and prerequisites. 9–12 months before: finalise choices, documents and first applications. After an offer: verify conditions, deposit and refund terms, PAL/TAL or exemption, housing and study-permit evidence.", "Competitive, placement-based, research and scholarship programmes often close earlier. A published deadline does not mean places remain available until that date."]],
+      ["What OTC needs for an initial review", ["Highest qualification and subject, full grades, English or French results, target level and field, budget, intake, province or city preference, PGWP/co-op priorities, and any study gaps or prior refusals. Missing interactions or documents are not invented."]],
+      ["Service boundary", ["OTC can provide education-route screening, institution and programme checks, document lists, institutional application submission and routine follow-up. Institutions decide admission; IRCC decides permits; regulated immigration representation and legal advice remain with appropriately qualified professionals."]]
+    ]},
+    sources: [["EduCanada — How to apply", "https://www.educanada.ca/study-plan-etudes/before-avant/apply-school_canada_demande-ecole.aspx?lang=eng"], ["IRCC — How to apply for a study permit", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html"]]
+  }
+];
+
+const canadaOfficialLinks = [
+  ["EduCanada", "https://www.educanada.ca/index.aspx?lang=eng"],
+  ["IRCC DLI list", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html"],
+  ["Study permit documents", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html"],
+  ["PGWP eligibility", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html"],
+  ["Work off campus", "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"]
+];
+
+function canadaHubPage(locale = "en") {
+  const copy = canadaBilingualHub[locale];
+  return pageShell({
+    title: locale === "zh" ? "加拿大留學完整指南 2026 | OTC Study Hub" : "Study in Canada: Complete 2026 Guide | OTC Study Hub",
+    current: copy.current,
+    lang: copy.language,
+    locale,
+    path: `${copy.prefix}/`,
+    description: copy.intro,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero country-canada-2026">
+        <div class="band">
+          <div class="eyebrow">${copy.heroEyebrow}</div>
+          <h1>${copy.title}</h1>
+          <h2>${copy.subtitle}</h2>
+          <p>${copy.intro}</p>
+          <div class="country-hero-chips"><span><strong>2026</strong>${copy.updated}</span><span><strong>6</strong>${locale === "zh" ? "個決策分區" : "decision sections"}</span><span><strong>IRCC</strong>${locale === "zh" ? "官方來源核對" : "primary-source checks"}</span></div>
+          <div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Canada study initial review")}">${copy.apply}</a><a class="btn btn-secondary" href="${copy.switchHref}">${copy.switchLabel}</a><a class="btn btn-secondary" href="${copy.home}">${copy.back}</a></div>
+        </div>
+      </section>
+      <section class="band country-gateway-panel">
+        <div class="section-head compact-head"><div class="eyebrow">${copy.sectionLabel}</div><h2>${copy.sectionTitle}</h2><p>${copy.sectionIntro}</p></div>
+        <div class="country-subnav-grid country-canada-route-grid">${canadaRouteContent.map((route) => `<a href="${copy.prefix}/${route.slug}/"><strong>${route[locale].nav}</strong><span>${route[locale].desc}</span></a>`).join("")}</div>
+        <div class="country-official-grid country-canada-facts">${copy.facts.map((fact, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${fact[0]}</strong><p>${fact[1]}</p></article>`).join("")}</div>
+        <div class="section-head compact-head"><div class="eyebrow">${locale === "zh" ? "院校版圖" : "Institution map"}</div><h2>${copy.schoolTitle}</h2><p>${copy.schoolIntro}</p></div>
+        <div class="country-school-grid country-canada-school-grid">${copy.categories.map((category, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${category[0]}</strong><em>${category[1]}</em><ul>${countryList(category[2])}</ul></article>`).join("")}</div>
+        <div class="country-route-steps"><div class="section-head compact-head"><div class="eyebrow">Workflow</div><h2>${copy.stepsTitle}</h2></div><div class="country-route-steps-grid">${copy.steps.map((step) => `<article><b>STEP ${step[0]}</b><strong>${step[1]}</strong><p>${step[2]}</p></article>`).join("")}</div></div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">OTC Canada</div><h2>${copy.serviceTitle}</h2><p>${copy.serviceText}</p></div><div class="country-route-actions"><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Canada application support")}">${copy.apply}</a><a class="btn btn-light" href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a></div></div>
+        <div class="country-subpage-sources"><strong>${copy.officialTitle}</strong>${canadaOfficialLinks.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label} →</a>`).join("")}</div>
+        <p class="source-note">${copy.disclaimer}</p>
+      </section>`
+  });
+}
+
+function canadaRoutePage(route, locale = "en") {
+  const copy = canadaBilingualHub[locale];
+  const section = route[locale];
+  const siblings = canadaRouteContent.filter((item) => item.slug !== route.slug);
+  return pageShell({
+    title: `${section.title} | OTC Study Hub`,
+    current: copy.current,
+    lang: copy.language,
+    locale,
+    path: `${copy.prefix}/${route.slug}/`,
+    description: section.intro,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero country-subpage-hero"><div class="band"><a class="country-subpage-crumb" href="${copy.prefix}/">← ${locale === "zh" ? "加拿大留學完整指南" : "Canada study guide"}</a><div class="eyebrow">${copy.updated}</div><h1>${section.title}</h1><p>${section.intro}</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Canada " + route.slug + " review")}">${copy.apply}</a><a class="btn btn-secondary" href="${locale === "zh" ? `/countries/canada/${route.slug}/` : `/zh/countries/canada/${route.slug}/`}">${copy.switchLabel}</a></div></div></section>
+      <section class="band country-gateway-panel">${section.sections.map(([heading, paragraphs]) => `<div class="country-subpage-section"><div class="section-head compact-head"><h2>${heading}</h2></div>${paragraphs.map((paragraph) => `<p class="country-subpage-text">${paragraph}</p>`).join("")}</div>`).join("")}
+        <div class="country-subpage-sources"><strong>${copy.officialTitle}</strong>${route.sources.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label} →</a>`).join("")}</div>
+        <div class="country-subnav"><div class="section-head compact-head"><div class="eyebrow">${locale === "zh" ? "其他加拿大分區" : "Other Canada sections"}</div></div><div class="country-subnav-grid">${siblings.map((item) => `<a href="${copy.prefix}/${item.slug}/"><strong>${item[locale].nav}</strong><span>${item[locale].desc}</span></a>`).join("")}</div></div>
+        <div class="country-route-actions"><a class="btn btn-dark" href="${copy.prefix}/">${locale === "zh" ? "返回加拿大總覽" : "Back to Canada overview"}</a><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Canada application support")}">${copy.apply}</a></div>
+        <p class="source-note">${copy.disclaimer}</p>
+      </section>`
+  });
+}
+
 function applicationCountryCards() {
   return countryGatewayData.map((country, index) => `
         <a class="application-country-card ${country.slug}" href="/university-applications/?country=${encodeURIComponent(country.name)}#programme-directory" data-country-jump="${country.name}">
@@ -32843,6 +33081,15 @@ regionalOfficePages.forEach((office) => {
   write(`offices/${office.id}`, office.html);
 });
 countryGatewayData.filter((country) => country.slug !== "australia").forEach((country) => {
+  if (country.slug === "canada") {
+    write("countries/canada", canadaHubPage("en"));
+    write("zh/countries/canada", canadaHubPage("zh"));
+    canadaRouteContent.forEach((route) => {
+      write(`countries/canada/${route.slug}`, canadaRoutePage(route, "en"));
+      write(`zh/countries/canada/${route.slug}`, canadaRoutePage(route, "zh"));
+    });
+    return;
+  }
   write(`countries/${country.slug}`, countryGatewayPage(country));
   (countrySubPages[country.slug] || []).forEach((sub) => {
     write(`countries/${country.slug}/${sub.slug}`, countrySubPage(country, sub));
@@ -32956,6 +33203,26 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
   cleanUrls: true,
   trailingSlash: true,
   redirects: [
+    {
+      source: "/countries/canada/finance/",
+      destination: "/countries/canada/costs/",
+      permanent: true
+    },
+    {
+      source: "/countries/canada/living/",
+      destination: "/countries/canada/costs/",
+      permanent: true
+    },
+    {
+      source: "/countries/canada/immigration/",
+      destination: "/countries/canada/pgwp/",
+      permanent: true
+    },
+    {
+      source: "/zh/course-selection-guide/",
+      destination: "/zh/course-selection-alliance/",
+      permanent: true
+    },
     {
       source: "/(.*)",
       has: [
