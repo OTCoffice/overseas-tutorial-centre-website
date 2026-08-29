@@ -3117,6 +3117,85 @@ const uoaImmigBody = [
 
 const insightsArticles = [
   {
+    slug: "taiwan-english-foreign-languages-communication-department-choice-guide-2026",
+    chineseOnly: true,
+    title: "How to Choose Between English, Foreign Languages and Communication Programmes in Taiwan",
+    date: "2026-08-29",
+    heraldLayout: "stacked",
+    category: "Study Planning",
+    column: "study",
+    kicker: "台灣升學 · 英文外文 · 傳播科系 · 選系方法",
+    author: "《留學導報》編輯部",
+    summary: "A curriculum-led comparison of NCCU English, NCCU Communication, NCKU Foreign Languages and Literature, CCU Foreign Languages and Literature, CCU Communication, and NSYSU Foreign Languages and Literature.",
+    titleZh: "政大英文、政大傳播、成大外文、中正外文／傳播、中山外文怎麼選？六系課程導向與適配比較",
+    summaryZh: "六個選項不是同一條賽道：英文／外文系以語言能力、文學文化、語言學與翻譯／教學為主；傳播系則把媒介、寫作、影音、訊息設計、閱聽人與數位製作放在核心。本文依各校官方課程資料，整理差異、適合的學習者與一套可直接使用的選系方法。",
+    relatedReadings: [
+      "business-marketing-media-course-fit-portfolio-evidence-pack"
+    ],
+    resources: [
+      ["國立政治大學英國語文學系 — 系所介紹與教育目標", "https://tcsl.nccu.edu.tw/PageDoc/Detail?fid=4597&id=1822"],
+      ["國立政治大學傳播學院 — 大學部課程地圖", "https://comm.nccu.edu.tw/PageDoc/Detail?fid=11556&id=19129"],
+      ["國立成功大學文學院 — 外國語文學系特色", "https://www.liberal.ncku.edu.tw/index.php?id=1529&option=module&task=pageinfo"],
+      ["國立中正大學 — 外國語文學系課程地圖", "https://coursemap.ccu.edu.tw/dept_info.php?deptcd=1154"],
+      ["國立中正大學傳播學系 — 課程與招生資訊", "https://telecom.ccu.edu.tw/p/412-1088-2039.php?Lang=zh-tw"],
+      ["國立中山大學外國語文學系 — 課程地圖", "https://hs.nsysu.edu.tw/static/file/78/1078/img/4636/676746854.pdf"]
+    ],
+    body: [],
+    bodyZh: [
+      {
+        heading: "先別急著排校名：這六個選項其實分成兩條學習路線",
+        paragraphs: [
+          "這份清單最重要的差異，不是先分政大、成大、中正或中山，而是先分<strong>英文／外國語文</strong>與<strong>傳播</strong>。前者把英文當成研究與表達工具，核心通常是語言訓練、文學文化、語言學、翻譯或語言教學；後者研究媒體與社會，也訓練訊息設計、採訪寫作、影音或數位內容製作。",
+          "如果你會因為讀小說、文本分析、語言如何運作、翻譯與跨文化問題而有興趣，先看四個英文／外文系；如果你比較期待做內容、廣告公關、新聞、影音、社群、媒體研究或數位企劃，先看政大傳播與中正傳播。這一步比只問『哪間比較有名』更能避免入學後才發現每天讀的不是自己想學的內容。"
+        ]
+      },
+      {
+        heading: "六個校系放在同一張課程表裡看",
+        paragraphs: [
+          "<div class=\"report-table-wrap article-service-table\"><table><thead><tr><th>校系</th><th>官方課程訊號</th><th>比較適合的偏好</th><th>選前要確認</th></tr></thead><tbody><tr><td><strong>政大英文</strong></td><td>英語文能力、英美文學／文化、語言學與英語教學並行；官方亦強調跨語言與跨領域學習。</td><td>想保留文學、語言學、英語教學與政大跨院選課彈性的人。</td><td>你是否願意長期閱讀英文文本、寫分析文章，而不是只想把英文變流利。</td></tr><tr><td><strong>政大傳播</strong></td><td>大一大二不分系，課程地圖涵蓋新聞與資訊、媒體與文化、策略與創意溝通、傳播設計、影音創意與製作、媒體企劃與創新等方向。</td><td>想先廣泛接觸傳播領域，再透過學程與作品逐步定位的人。</td><td>你偏研究、文字、廣告策略、設計，還是影音製作；不要把『傳播』只理解成當記者。</td></tr><tr><td><strong>成大外文</strong></td><td>英美文學與語言學雙軌並重，並提供日、德、法、西、俄等第二外語基礎訓練。</td><td>希望在綜合大學環境中讀外文，兼顧文學、語言學與第二外語的人。</td><td>比較實際年度必修比例、第二外語安排，以及你會不會主動跨系修課。</td></tr><tr><td><strong>中正外文</strong></td><td>英語聽說讀寫、文學文化、語言學與英語教學並重；課程地圖亦見翻譯、商用英文、新聞英文、雙語數位出版等應用選修。</td><td>想在傳統外文訓練外，保留英語教學與應用英文選修的人。</td><td>別只看選修課名，要確認近年實際開課頻率與先修要求。</td></tr><tr><td><strong>中正傳播</strong></td><td>課程涵蓋整合傳播、視聽傳播、資訊傳播、訊息設計、媒介寫作、電腦中介傳播、說服、數位整合媒體與閱聽人研究。</td><td>希望理論、寫作、數位媒介與實作都碰到，願意累積企劃或作品的人。</td><td>你喜歡的是鏡頭與製作，還是研究、寫作與策略；兩者所需能力不完全相同。</td></tr><tr><td><strong>中山外文</strong></td><td>文學史與英語訓練基礎扎實，選修延伸至翻譯、第二外語、語言學、文化藝術與溝通，另有語言學與翻譯學程。</td><td>能接受較多文學核心，同時想把翻譯或應用語言學做成明確專長的人。</td><td>先打開必修表，看自己是否真的願意讀不同時期的英美／歐洲文學。</td></tr></tbody></table></div>"
+        ]
+      },
+      {
+        heading: "不要用『畢業能做什麼』反推科系名稱；要用四年會做什麼來判斷",
+        paragraphs: [
+          "英文／外文系不等於只能教英文，傳播系也不等於畢業就自動進媒體。就業結果通常取決於你在主修之外累積了什麼：第二專長、實習、研究方法、數據工具、設計軟體、影音製作、作品集、交換經驗或可被驗證的專題。",
+          "更可靠的問法是：四年裡，你願不願意反覆做這個系的核心任務？外文系常見的是大量閱讀、文本分析、英文寫作與口頭表達；傳播系常見的是研究媒介現象、企劃、採訪寫作、團隊製作與作品迭代。喜歡其中的日常，才有可能把能力累積到能工作的程度。"
+        ]
+      },
+      {
+        heading: "依未來方向做第一輪縮小",
+        paragraphs: [
+          "<div class=\"zh-herald-highlight-box\"><div class=\"zh-herald-box-title\">快速分流</div><p><strong>偏文學、文化研究、翻譯、語言學或英語教學：</strong>先比較政大英文、成大外文、中正外文與中山外文。<br><strong>偏新聞、廣告公關、內容、社群、影音、數位媒體或傳播研究：</strong>先比較政大傳播與中正傳播。<br><strong>還不確定：</strong>不要硬選一個職稱，先把六系的必修課各挑十門，圈出『很想上』『可以接受』『明顯排斥』，分數通常會比網路聲量更誠實。</p></div>",
+          "若同一條路線仍難選，再比較四個現實條件：跨系與雙主修空間、實際開課與師資方向、生活城市與住宿成本、你能否把校內資源轉化成作品或經驗。這些因素沒有對所有人都相同的答案。"
+        ]
+      },
+      {
+        heading: "一張可以直接填的選系決策矩陣",
+        paragraphs: [
+          "<div class=\"report-table-wrap article-service-table\"><table><thead><tr><th>評估項目</th><th>權重建議</th><th>怎麼打分（1–5）</th></tr></thead><tbody><tr><td>核心必修喜好</td><td>30%</td><td>看必修課名與課綱，不看宣傳口號。</td></tr><tr><td>想培養的能力</td><td>25%</td><td>英文閱讀寫作／語言研究，或內容企劃／影音／媒體分析，哪一邊更想練。</td></tr><tr><td>跨域與第二專長</td><td>15%</td><td>核對輔系、雙主修、學程及跨院選課規定。</td></tr><tr><td>可形成的成果</td><td>15%</td><td>四年後可否留下研究、翻譯、教案、採訪、企劃、影音或設計作品。</td></tr><tr><td>地點與生活條件</td><td>10%</td><td>住宿、交通、家庭支持與城市適應是否可持續。</td></tr><tr><td>校園感受</td><td>5%</td><td>參加系所說明、開放日或詢問在校生後再評分。</td></tr></tbody></table></div>",
+          "若兩個選項總分很接近，優先選『核心必修更願意學』的，而不是只靠校名做最後一票。大學四年的投入度，通常比一開始的抽象印象更能拉開差距。"
+        ]
+      },
+      {
+        heading: "回覆這四題，就能把六個選項縮成三個",
+        paragraphs: [
+          "請寫下：① 高中最喜歡與最排斥的三類作業；② 比起讀長文與分析文本，是否更喜歡做企劃、採訪、拍攝或社群內容；③ 目前最想嘗試的三種工作；④ 地點、住宿與預算限制。再把答案與各系必修表對照，就能先排出『高度適配／可接受／不建議』三層。",
+          "若希望由海外督導協助做選校與科系定位，可把學測／分科成績區間、學習歷程、上述四題答案及地點限制一次整理給我們；我們會以官方課程與招生資料作比較，不以單一排名替你做決定。"
+        ]
+      },
+      {
+        heading: "資料邊界與更新提示",
+        paragraphs: [
+          "本文根據各校系 2026 年 8 月可查的官方介紹、課程地圖與修課資料整理，目的是協助初步比較，不構成錄取保證，也不替代當年度招生簡章。課程、學程、必修學分與招生方式可能調整；正式填志願前，應再次打開各校招生與系所官方頁核對最新年度版本。"
+        ]
+      }
+    ],
+    factCheckNotes: [
+      "核查時間：2026-08-29。校系定位與課程內容依國立政治大學、國立成功大學、國立中正大學與國立中山大學官方系所介紹或課程地圖整理。",
+      "本文不做校系絕對排名；『適合誰』屬依官方課程結構所作的編輯判斷。實際課程、學分與招生規則應以申請年度的校方公告為準。"
+    ]
+  },
+  {
     slug: "north-china-herald-corpus-quantification-colonial-gaze-evidence-ethics",
     chineseOnly: true,
     title: "A Corpus Is Not a Conclusion: Quantification, Colonial Perspective and Evidence Ethics",
