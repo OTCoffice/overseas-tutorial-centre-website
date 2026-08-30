@@ -2115,6 +2115,205 @@ function hongKongHubPage(locale = "en") {
   });
 }
 
+const icelandBilingualHub = {
+  zh: {
+    language: "zh-Hant", current: "zh", prefix: "/zh/countries/iceland", home: "/zh/",
+    switchHref: "/countries/iceland/", switchLabel: "English version",
+    eyebrow: "海外督導 OTC · 冰島留學 · 2026 官方資料版",
+    title: "冰島留學完整指南",
+    subtitle: "先核對授課語言、課程、預算與居留，再決定是否出發",
+    intro: "冰島的英文授課優勢主要集中在碩士與博士；英文本科選擇相對有限。OTC 以具體課程而不是國家想像做初評，逐項核對授課語言、學歷銜接、費用、居留與畢業出口。",
+    updated: "官方資料核查：2026 年 8 月 30 日",
+    apply: "提交冰島留學初評",
+    back: "返回中文首頁",
+    factsTitle: "先知道這四件事",
+    factsIntro: "冰島沒有統一的大學申請系統，各校自行設定課程、截止日期、語言要求與費用。",
+    facts: [
+      ["7 所大學", "冰島共有七所大學，涵蓋綜合研究、科技、商科、藝術、農業、海洋與區域研究。"],
+      ["英文本科較少", "大部分本科以冰島語授課；英語選擇在研究生階段更完整，申請前必須核對課程當年度語言。"],
+      ["3–4 年本科", "冰島本科一般為 180–240 ECTS、3–4 年；全日制學生居留通常按每學期 30 ECTS 核對。"],
+      ["直接向學校申請", "沒有中央申請平台；國際生截止日期多在春季，但實際日期、文件和申請費以每校每課程為準。"]
+    ],
+    routesTitle: "六條可行路線，不把『實用』等同於容易",
+    routesIntro: "先選可學到的技能與可接受的語言，再看城市和校名。受監管職業還要另外核對冰島語及專業註冊。",
+    routes: [
+      ["英文本科", "現行選擇有限；以 Study in Iceland 的英語課程目錄及院校頁逐項確認，不預設所有本科都有英文班。"],
+      ["英文碩士", "較適合已有相關本科背景者，常見方向包括電腦、工程、能源、商科、心理、極地與海岸管理。"],
+      ["科技與產業技能", "可研究電腦、工程、能源與資料方向；部分院校英文教學集中於研究生層級，本科常需冰島語。"],
+      ["農業、海洋與環境", "農業大學、Hólar、Akureyri 及西峽灣相關機構有特色，但地點、實習、季節與授課語言須逐課核對。"],
+      ["藝術、設計與創意", "冰島藝術大學涵蓋藝術、設計、建築、音樂、舞蹈與藝術教育；作品集、面試與語言條件可能並行。"],
+      ["交換與短期學習", "如所屬大學有 Erasmus+ 或校際協議，交換往往比直接申請完整學位更適合先體驗冰島學習與生活。"]
+    ],
+    universityTitle: "七所大學與初步定位",
+    universityIntro: "以下是定位索引，不代表每個方向都有英文學位、當年招生或 OTC 正式代理權；正式選校以具體課程頁為準。",
+    admissionTitle: "從想法到入學的五步核對",
+    admissionSteps: [
+      ["01", "背景初評", "整理最高學歷、完整成績、專業先修、工作經歷、英文／冰島語、預算和目標入學季。"],
+      ["02", "課程與語言", "只列當年度仍招生且授課語言適合的課程，標記先修、作品集、研究計畫或面試要求。"],
+      ["03", "申請文件", "按校方清單準備護照、成績單、畢業證明、語言成績、CV、動機信、推薦信及課程特定材料。"],
+      ["04", "直接申請院校", "冰島無中央申請系統；逐校遞交、支付適用費用、回覆補件並核對 offer 是否無條件。"],
+      ["05", "居留與抵達", "非 EEA/EFTA 學生在錄取後準備資金、保險、無犯罪記錄與學生居留；住宿應與申請同步尋找。"]
+    ],
+    documentsTitle: "初評與正式申請要準備什麼",
+    documents: [
+      ["學歷與成績", "完整成績單、畢業／在讀證明、學位證明、評分制度及必要的官方翻譯。"],
+      ["語言證明", "IELTS／TOEFL 或院校接受的替代證明；冰島語授課本科須另按課程要求證明冰島語。"],
+      ["申請敘事", "CV、動機信、推薦人資料；研究型課程可能要求研究構想，藝術課程可能要求作品集或試演。"],
+      ["居留文件", "無條件全日制錄取、有效護照、照片、無犯罪記錄、醫療保險及可核驗的生活資金證明。"]
+    ],
+    costTitle: "費用與生活預算：不要只看『公立免學費』",
+    costItems: [
+      ["公立與私立不同", "Study in Iceland 說明公立大學一般收註冊／行政費，私立院校可收學費；每校、每課程及身份分類不同。"],
+      ["University of Iceland 2026/27", "全年註冊費為 ISK 100,000；非 EEA/EFTA 新申請人另有 ISK 20,000 處理費。2026 秋季入學者暫不收學費。"],
+      ["2027 起可能改變", "冰島政府已授權公立大學自 2027 秋季起向非 EEA/EFTA／瑞士學生收學費；University of Iceland 的金額仍待確定。"],
+      ["居留資金不是全部預算", "2026 年學生居留最低生活資金為每月 ISK 259,951。這是官方門檻，不是房租、押金、交通、保險與個人生活的完整報價。"],
+      ["獎學金須逐校查", "獎學金主要由院校自行提供；冰島政府面向外國學生的代表性項目集中於冰島語、文學與歷史學習，不應預設一般學位都有全額資助。"]
+    ],
+    residenceTitle: "學生居留、工作與畢業後：三件事分開看",
+    residenceItems: [
+      ["學生居留", "非 EEA/EFTA 申請人通常須持無條件全日制錄取，每學期 30 ECTS，並提交護照、無犯罪記錄、保險與資金證明。"],
+      ["在學工作", "自 2026 年 6 月新規起，有效學生居留持有人在學期間可工作至全職的 60%，假期可全職；毋須另辦工作許可，但不得自僱。"],
+      ["何時可以開始工作", "首次申請者在學生居留尚未簽發前不可開始工作；續簽時須申報工作情況，超時可能影響工作權。"],
+      ["畢業後求職", "在冰島完成學士、碩士或博士者，可按條件申請畢業後求職居留，作為轉往專業工作居留的橋樑；並非自動取得工作或永居。"]
+    ],
+    livingTitle: "住宿、醫療、語言與落地生活",
+    livingItems: [
+      ["住宿", "多數大學附近有學生住房，但名額不保證。應在收到錄取後立即向學校國際處與學生住房機構查詢，同時準備私人租房備選。"],
+      ["醫療保險", "EU/EEA 學生通常攜帶 EHIC；非 EU 學生抵達前須備妥合規醫療保險，登記法定住所三個月後才會自動納入冰島國家醫保。"],
+      ["冰島語", "英語在日常生活中廣泛使用，但冰島語是官方語言。若目標是本地服務、教育、醫療或長期工作，學習冰島語會直接影響就業選項。"],
+      ["氣候與城市", "Reykjavík 機會與服務較集中；Akureyri、Bifröst、Hólar 等地生活尺度不同。需把冬季日照、天氣、交通與實習地點納入選校。"]
+    ],
+    serviceTitle: "OTC 冰島留學申請支援",
+    serviceText: "OTC 可協助做課程與授課語言初篩、背景與先修核對、文件清單、院校申請協調、offer 條件整理，以及學生居留與行前文件的官方入口核對。服務範圍、院校合作狀態及收費在個案啟動前書面確認；OTC 不宣稱未經確認的代理權，不保證錄取、簽證、工作或移民結果。受監管的移民、法律與專業註冊事項會以官方來源或合資格人士意見為準。",
+    officialTitle: "官方核對入口",
+    disclaimer: "本頁最後核查於 2026 年 8 月 30 日，為教育申請資訊，不構成法律或移民意見。課程、語言、費用、資金門檻、居留與工作規則會變動，行動前請重新核對官方現行版本。"
+  },
+  en: {
+    language: "en", current: "applications", prefix: "/countries/iceland", home: "/",
+    switchHref: "/zh/countries/iceland/", switchLabel: "中文版",
+    eyebrow: "OTC Study in Iceland · 2026 primary-source edition",
+    title: "Study in Iceland: Complete Guide",
+    subtitle: "Check language, programme, budget and residence rules before deciding",
+    intro: "Iceland's broader English-taught provision is concentrated at master's and doctoral level; English-taught bachelor's choices are comparatively limited. OTC screens the named programme rather than the destination image, checking teaching language, academic fit, costs, residence and graduate outcomes.",
+    updated: "Official sources checked: 30 August 2026",
+    apply: "Request an Iceland study review",
+    back: "Back to home",
+    factsTitle: "Four facts to know first",
+    factsIntro: "Iceland has no central university application system. Each institution sets its own programmes, deadlines, language rules and fees.",
+    facts: [
+      ["Seven universities", "Iceland has seven universities across comprehensive research, technology, business, arts, agriculture, marine and regional studies."],
+      ["Fewer English bachelor's options", "Most undergraduate degrees are taught in Icelandic. English provision is broader at graduate level and must be checked for the relevant academic year."],
+      ["Three- to four-year bachelor's degrees", "Bachelor's degrees are generally 180–240 ECTS over three to four years. Full-time student residence normally means 30 ECTS per semester."],
+      ["Apply to each institution", "There is no central system. International deadlines often fall in spring, but exact dates, evidence and application fees are programme-specific."]
+    ],
+    routesTitle: "Six routes—practical does not mean automatic",
+    routesIntro: "Choose a teachable skill and an acceptable language before choosing a city or brand. Regulated careers also require separate Icelandic-language and professional-registration checks.",
+    routes: [
+      ["English-taught bachelor's", "Current choice is limited. Verify every programme against Study in Iceland and the institution's current page rather than assuming an English cohort exists."],
+      ["English-taught master's", "Often suitable for applicants with a related bachelor's degree; possible areas include computing, engineering, energy, business, psychology, polar and coastal studies."],
+      ["Technology and industry skills", "Explore computing, engineering, energy and data. Some institutions teach these in English mainly at graduate level, while bachelor's teaching remains Icelandic."],
+      ["Agriculture, marine and environment", "The Agricultural University, Hólar, Akureyri and Westfjords-linked providers have distinctive routes; language, location, placement and seasonality need programme-level checking."],
+      ["Arts, design and creative study", "The Iceland University of the Arts covers fine art, design, architecture, music, dance and arts education; portfolios, auditions, interviews and language may all apply."],
+      ["Exchange and short study", "Where your home institution has an Erasmus+ or bilateral agreement, exchange may be a better first test of Icelandic study and life than a full direct-entry degree."]
+    ],
+    universityTitle: "The seven universities at a glance",
+    universityIntro: "This is a positioning index, not a claim that every field is available in English, open in the current year, or within an OTC agency agreement. Check the named programme.",
+    admissionTitle: "Five checks from idea to enrolment",
+    admissionSteps: [
+      ["01", "Profile review", "Organise qualifications, full grades, subject prerequisites, employment, English or Icelandic, budget and intended intake."],
+      ["02", "Programme and language", "Shortlist only programmes open in the relevant year and mark prerequisites, portfolios, research proposals or interview requirements."],
+      ["03", "Application evidence", "Prepare passport, transcripts, completion evidence, language results, CV, motivation, references and programme-specific materials."],
+      ["04", "Apply directly", "There is no central admissions system. Submit to each institution, pay applicable fees, respond to evidence requests and check whether an offer is unconditional."],
+      ["05", "Residence and arrival", "After admission, non-EEA/EFTA students prepare funds, insurance, criminal-record evidence and student residence; start housing searches in parallel."]
+    ],
+    documentsTitle: "Documents for screening and formal application",
+    documents: [
+      ["Academic evidence", "Full transcript, enrolment or completion evidence, degree certificate, grading scale and any required official translation."],
+      ["Language evidence", "IELTS, TOEFL or an accepted alternative; Icelandic-taught bachelor's degrees require the programme's Icelandic evidence."],
+      ["Application narrative", "CV, motivation and referee details; research programmes may need a proposal, while arts programmes may require a portfolio or audition."],
+      ["Residence evidence", "Unconditional full-time admission, valid passport, photograph, criminal record, health insurance and verifiable proof of maintenance funds."]
+    ],
+    costTitle: "Costs and budget: look beyond 'public tuition-free'",
+    costItems: [
+      ["Public and private differ", "Study in Iceland states that public universities generally charge registration or administration fees, while private institutions may charge tuition. Status and programme matter."],
+      ["University of Iceland 2026/27", "The annual registration fee is ISK 100,000 and new non-EEA/EFTA applicants pay an ISK 20,000 processing fee. Autumn 2026 starters are not charged tuition."],
+      ["Change may begin in 2027", "The government has authorised public universities to introduce tuition for non-EEA/EFTA and Swiss students from autumn 2027. University of Iceland rates remain to be determined."],
+      ["Residence funds are not the full budget", "The 2026 student-residence minimum is ISK 259,951 per month. It is an official threshold, not an all-in quote for rent, deposit, transport, insurance and personal spending."],
+      ["Check scholarships institution by institution", "Awards are mainly offered by individual universities. A prominent Icelandic government scheme for foreign students focuses on Icelandic language, literature and history, so general full-degree funding should not be assumed."]
+    ],
+    residenceTitle: "Student residence, work and post-study status are separate",
+    residenceItems: [
+      ["Student residence", "Non-EEA/EFTA applicants normally need unconditional full-time admission at 30 ECTS per semester, plus passport, criminal-record, insurance and financial evidence."],
+      ["Work while studying", "Under rules announced in June 2026, valid student-residence holders may work up to 60% of full-time during study and full-time in scheduled breaks, without a separate work permit. Self-employment remains prohibited."],
+      ["When work can start", "A first-time applicant cannot begin employment until the student residence permit has been issued. Employment is reported at renewal and excess hours can affect work rights."],
+      ["After graduation", "Graduates of an Icelandic bachelor's, master's or doctorate may qualify for a job-seeking residence route as a bridge to specialist employment. It does not guarantee a job or permanent residence."]
+    ],
+    livingTitle: "Housing, healthcare, language and arrival",
+    livingItems: [
+      ["Housing", "Student housing exists near many universities but is not guaranteed. Contact the institution and student housing as soon as admitted, with a private-rental fallback."],
+      ["Healthcare", "EU/EEA students normally bring an EHIC. Non-EU students need compliant insurance before arrival; national coverage begins automatically after three months of registered legal domicile."],
+      ["Icelandic", "English is widely used, but Icelandic is the official language. Local services, education, healthcare and longer-term careers can depend materially on Icelandic ability."],
+      ["Climate and location", "Reykjavík concentrates services and opportunities; Akureyri, Bifröst and Hólar offer different scales. Winter daylight, weather, transport and placement locations belong in the decision."]
+    ],
+    serviceTitle: "OTC Iceland application support",
+    serviceText: "OTC can screen programmes and teaching language, review academic fit and prerequisites, build document lists, coordinate institutional applications, organise offer conditions, and point applicants to the official student-residence and pre-arrival requirements. Service scope, partnership status and fees are confirmed in writing before a case starts. OTC does not claim unverified representation or guarantee admission, a permit, employment or immigration. Regulated immigration, legal and professional-registration matters are checked against official sources or referred appropriately.",
+    officialTitle: "Official checking points",
+    disclaimer: "Last checked on 30 August 2026. This is education-application information, not legal or immigration advice. Programmes, language, fees, financial thresholds, residence and work rules change; re-check the live official version before acting."
+  }
+};
+
+const icelandUniversities = [
+  ["UI", "University of Iceland", "冰島大學", "Largest comprehensive university. Most bachelor's teaching is Icelandic; several master's programmes are taught in English.", "規模最大、學科最完整。多數本科以冰島語授課，部分碩士提供完整英文教學。"],
+  ["RU", "Reykjavík University", "雷克雅未克大學", "Business, computer science, engineering, law, psychology and sport. English teaching is concentrated at graduate and doctoral level.", "商科、電腦、工程、法律、心理與運動領域較突出；英文授課主要集中在碩士與博士。"],
+  ["UNAK", "University of Akureyri", "阿克雷里大學", "Regional, health and social-science strengths. Most bachelor's degrees are Icelandic; selected master's programmes are fully in English.", "區域、健康與社會科學具有特色；多數本科用冰島語，部分碩士為全英文。"],
+  ["AUI", "Agricultural University of Iceland", "冰島農業大學", "Agriculture, environment, landscape and natural resources; verify the language and location of each programme.", "聚焦農業、環境、景觀與自然資源；須逐課確認授課語言與上課地點。"],
+  ["HÓLAR", "Hólar University", "霍拉爾大學", "Aquaculture, equine studies and tourism-linked expertise, with a small-campus and field-based setting.", "水產養殖、馬學與旅遊相關專長鮮明，屬小型校園與實地學習環境。"],
+  ["BIFRÖST", "Bifröst University", "比弗洛斯特大學", "Business, law and social sciences with campus and online formats; confirm the current English-taught degree offer.", "商科、法律與社會科學為主，包含校園與線上形式；須確認當年度英文學位。"],
+  ["IUA", "Iceland University of the Arts", "冰島藝術大學", "Fine arts, theatre, dance, music, design, architecture and arts education; portfolio or audition requirements may apply.", "涵蓋美術、劇場、舞蹈、音樂、設計、建築與藝術教育，常需作品集或試演。"]
+];
+
+const icelandOfficialLinks = [
+  ["Study in Iceland — Study programmes", "https://study.iceland.is/study-in-iceland/study-programs"],
+  ["Study in Iceland — Universities", "https://study.iceland.is/study-in-iceland/universities-in-iceland"],
+  ["Study in Iceland — Admission requirements", "https://study.iceland.is/study-in-iceland/admission-requirements"],
+  ["Ísland.is — Student residence requirements", "https://island.is/en/residence-permit-students/requirements"],
+  ["Ísland.is — Supporting documents", "https://island.is/en/residence-permit-students/document-requirements"],
+  ["Ísland.is — Residence rights and work", "https://island.is/en/residence-permit-students/residence-rights"],
+  ["University of Iceland — Fees", "https://english.hi.is/study/apply/university-fees"],
+  ["Study in Iceland — Accommodation", "https://study.iceland.is/living-in-iceland/accommodation"],
+  ["Study in Iceland — Health care", "https://study.iceland.is/living-in-iceland/health-care"],
+  ["Study in Iceland — Scholarships", "https://study.iceland.is/study-in-iceland/scholarships"]
+];
+
+function icelandHubPage(locale = "en") {
+  const copy = icelandBilingualHub[locale];
+  const isZh = locale === "zh";
+  const bilingualUniversityCopy = (university) => isZh
+    ? [university[2], university[1], university[4]]
+    : [university[1], university[2], university[3]];
+  return pageShell({
+    title: isZh ? "冰島留學完整指南 2026 | 海外督導 OTC" : "Study in Iceland: Complete 2026 Guide | OTC",
+    current: copy.current, lang: copy.language, locale, path: `${copy.prefix}/`, alternatePath: copy.switchHref, description: copy.intro,
+    body: `
+      <section class="page-hero regional-office-hero country-gateway-hero country-iceland-2026"><div class="band"><div class="eyebrow">${copy.eyebrow}</div><h1>${copy.title}</h1><h2>${copy.subtitle}</h2><p>${copy.intro}</p><div class="country-hero-chips"><span><strong>7</strong>${isZh ? "所大學" : "universities"}</span><span><strong>180–240</strong>ECTS</span><span><strong>2026</strong>${isZh ? "工作規則已更新" : "work rules updated"}</span></div><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Iceland study initial review")}">${copy.apply}</a><a class="btn btn-secondary" href="${copy.switchHref}">${copy.switchLabel}</a><a class="btn btn-secondary" href="${copy.home}">${copy.back}</a></div></div></section>
+      <section class="band country-gateway-panel">
+        <div class="section-head compact-head"><div class="eyebrow">${copy.updated}</div><h2>${copy.factsTitle}</h2><p>${copy.factsIntro}</p></div>
+        <div class="country-official-grid">${copy.facts.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div>
+        <div class="country-subnav"><div class="section-head compact-head"><div class="eyebrow">${isZh ? "選課方向" : "Study routes"}</div><h2>${copy.routesTitle}</h2><p>${copy.routesIntro}</p></div><div class="country-subnav-grid">${copy.routes.map((route) => `<a href="#programme-check"><strong>${route[0]}</strong><span>${route[1]}</span></a>`).join("")}</div></div>
+        <div id="programme-check" class="section-head compact-head"><div class="eyebrow">${isZh ? "院校版圖" : "University map"}</div><h2>${copy.universityTitle}</h2><p>${copy.universityIntro}</p></div>
+        <div class="country-school-grid">${icelandUniversities.map((university) => { const display = bilingualUniversityCopy(university); return `<article><b>${university[0]}</b><strong>${display[0]}</strong><em>${display[1]}</em><p>${display[2]}</p></article>`; }).join("")}</div>
+        <div class="country-route-steps"><div class="section-head compact-head"><div class="eyebrow">Workflow</div><h2>${copy.admissionTitle}</h2></div><div class="country-route-steps-grid">${copy.admissionSteps.map((step) => `<article><b>STEP ${step[0]}</b><strong>${step[1]}</strong><p>${step[2]}</p></article>`).join("")}</div></div>
+        <div class="section-head compact-head"><div class="eyebrow">DOCUMENTS</div><h2>${copy.documentsTitle}</h2></div><div class="country-school-grid">${copy.documents.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">COSTS · 2026/27</div><h2>${copy.costTitle}</h2></div><div class="country-official-grid">${copy.costItems.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div></div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">RESIDENCE · WORK</div><h2>${copy.residenceTitle}</h2></div><div class="country-official-grid">${copy.residenceItems.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div></div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">ARRIVAL</div><h2>${copy.livingTitle}</h2></div><div class="country-official-grid">${copy.livingItems.map((item, index) => `<article><b>${String(index + 1).padStart(2, "0")}</b><strong>${item[0]}</strong><p>${item[1]}</p></article>`).join("")}</div></div>
+        <div class="country-official"><div class="section-head compact-head"><div class="eyebrow">OTC ICELAND</div><h2>${copy.serviceTitle}</h2><p>${copy.serviceText}</p></div><div class="country-route-actions"><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Iceland application support")}">${copy.apply}</a><a class="btn btn-light" href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a><a class="btn btn-light" href="/consultation-chat/">${isZh ? "線上諮詢" : "Online consultation"}</a></div></div>
+        <div class="country-subpage-sources"><strong>${copy.officialTitle}</strong>${icelandOfficialLinks.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label} →</a>`).join("")}</div>
+        <p class="source-note">${copy.disclaimer}</p>
+      </section>`
+  });
+}
+
 function applicationCountryCards() {
   return countryGatewayData.map((country, index) => `
         <a class="application-country-card ${country.slug}" href="/university-applications/?country=${encodeURIComponent(country.name)}#programme-directory" data-country-jump="${country.name}">
@@ -33253,6 +33452,12 @@ const wangZhuoyingSummerGuide = pageShell({
   `
 });
 
+if (process.env.OTC_ICELAND_ONLY === "1") {
+  write("countries/iceland", icelandHubPage("en"));
+  write("zh/countries/iceland", icelandHubPage("zh"));
+  process.exit(0);
+}
+
 write(".", home);
 write("publishing", publishing);
 write("publishing/media", publishingMedia);
@@ -33306,6 +33511,8 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
     write(`countries/${country.slug}/${sub.slug}`, countrySubPage(country, sub));
   });
 });
+write("countries/iceland", icelandHubPage("en"));
+write("zh/countries/iceland", icelandHubPage("zh"));
 write("zh", chineseEntrance);
 write("zh/study-planning", zhStudyPlanning);
 write("zh/immigration-info", zhImmigrationInfo);
