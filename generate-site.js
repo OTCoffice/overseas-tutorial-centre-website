@@ -23931,6 +23931,7 @@ const zhStudyPlanning = pageShell({
         <a href="/international-curriculum-tutoring/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
         <a href="/zh/australia-vet-tafe-pathways/"><span>Career</span><strong>職涯培訓 / VET / TAFE</strong><p>職業教育、課程篩查、TAFE-to-university 和 evidence pack。</p><em>查看職涯培訓 →</em></a>
         <a href="/zh/immigration-info/"><span>Policy</span><strong>移民與政策資訊</strong><p>按國別整理政策入口、職業路線與合規邊界，不替代專業建議。</p><em>查看移民資訊 →</em></a>
+        <a href="/zh/countries/south-korea/"><span>East Asia</span><strong>韓國留學規劃</strong><p>本科、碩士、博士、韓語預備與英文授課路線，按家庭目標進行院校與專業初步分流。</p><em>進入韓國規劃 →</em></a>
         <a href="/zh/services/"><span>Support</span><strong>服務導覽台</strong><p>驛站調度、學術監護、出版製作、文件審核與機構合作。</p><em>打開服務導覽 →</em></a>
       </div>
     </section>
@@ -24365,7 +24366,6 @@ const chineseEntrance = pageShell({
 
     <section class="band compact-band zh-home-top-links">
       <div class="zh-home-small-links">
-        <a href="/zh/countries/south-korea/"><b>韓國留學規劃</b><span>本科、碩士、博士、韓語預備與英文授課路線。</span><em>韓國院校索引｜官方檢索｜雙語子頁</em></a>
         <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用、監護與家長端安排。</span><em>英國｜加拿大｜澳洲｜新西蘭｜住宿文件</em></a>
         <a href="/zh/private-school-alliance/"><b>私校聯盟</b><span>K-12 國際校、私校觀察、校區比較與長線低齡規劃。</span><em>越南｜澳洲｜英國｜新馬泰｜IB / AP / 美式</em></a>
         <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接、先前學習與雙語解釋。</span><em>Credit transfer｜RPL｜升學文件｜資格對照</em></a>
