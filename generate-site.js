@@ -1453,7 +1453,7 @@ const countryGatewayData = [
   { slug: "singapore", zh: "新加坡", name: "Singapore", href: "/countries/singapore/", labelClass: "label-country-singapore", note: "適合亞洲英文教育、英澳美銜接、國際學校和本科/研究生路線比較。", universities: ["National University of Singapore", "Nanyang Technological University", "Singapore Management University", "Singapore University of Technology and Design", "Singapore Institute of Technology"], colleges: ["Singapore polytechnics", "Kaplan Singapore", "SIM Global Education", "PSB Academy", "James Cook University Singapore"], highSchools: ["Junior colleges", "International schools", "IB schools", "Integrated Programme schools"], primarySchools: ["International primary schools", "Local primary schools", "IB PYP schools", "British curriculum primary schools"] },
   { slug: "thailand", zh: "泰國", name: "Thailand", href: "/countries/thailand/", labelClass: "label-country-singapore", note: "適合親子短住、國際學校日營、英語假期課、雙語幼兒園和低齡家庭友好路線比較。", universities: ["Chulalongkorn University", "Mahidol University International College", "Thammasat University", "Asian Institute of Technology"], colleges: ["International schools", "Bilingual preschools", "English language centres", "Holiday camp providers"], highSchools: ["Bangkok international schools", "British curriculum schools", "IB schools", "Boarding-style camps"], primarySchools: ["International primary schools", "Bilingual kindergartens", "Early-years centres", "Parent-child playgroups"] },
   { slug: "japan", zh: "日本", name: "Japan", href: "/countries/japan/", labelClass: "label-country-japan", note: "適合英文授課本科/研究生、語言學校、國際高中與亞洲路線比較。", universities: ["University of Tokyo", "Kyoto University", "Waseda University", "Keio University", "Sophia University", "Tohoku University", "Osaka University"], colleges: ["Japanese language schools", "Professional training colleges", "Temple University Japan", "Pathway and EJU preparation providers"], highSchools: ["International high schools", "IB schools in Japan", "Japanese private high schools", "Boarding-style programmes"], primarySchools: ["International primary schools", "Japanese private elementary schools", "IB PYP schools", "Bilingual junior schools"] },
-  { slug: "south-korea", zh: "韓國", name: "South Korea", href: "/countries/south-korea/", labelClass: "label-country-korea", note: "適合英文授課、韓語預備、亞洲本科/研究生與國際高中路線。", universities: ["Seoul National University", "KAIST", "Yonsei University", "Korea University", "Sungkyunkwan University", "Hanyang University"], colleges: ["Korean language institutes", "International colleges", "Professional colleges", "Pathway preparation providers"], highSchools: ["International schools", "Foreign language high schools", "Private high schools", "IB / AP schools"], primarySchools: ["International primary schools", "Bilingual elementary schools", "Private elementary schools", "Foreign schools"] },
+  { slug: "south-korea", zh: "韓國", name: "South Korea", href: "/countries/south-korea/", labelClass: "label-country-korea", note: "適合英文授課、韓語預備、亞洲本科／研究生與國際高中路線；院校索引按地區、類型與研究方向分流。", universities: [], colleges: ["Korean language institutes", "International colleges", "Professional colleges", "Pathway preparation providers"], highSchools: ["International schools", "Foreign language high schools", "Private high schools", "IB / AP schools"], primarySchools: ["International primary schools", "Bilingual elementary schools", "Private elementary schools", "Foreign schools"] },
   { slug: "hong-kong", zh: "香港", name: "Hong Kong", href: "/countries/hong-kong/", labelClass: "label-country-hong-kong", note: "適合英語授課大學、國際學校、DSE / IB / A-Level 銜接與大灣區家庭路線。", universities: ["University of Hong Kong", "Chinese University of Hong Kong", "Hong Kong University of Science and Technology", "City University of Hong Kong", "Hong Kong Polytechnic University", "Hong Kong Baptist University"], colleges: ["HKU SPACE", "Community colleges", "Vocational Training Council routes", "Private higher education colleges"], highSchools: ["International schools", "DSE schools", "IB schools", "British curriculum schools"], primarySchools: ["International primary schools", "Local primary schools", "ESF junior schools", "Private primary schools"] },
   { slug: "netherlands", zh: "荷蘭", name: "Netherlands", href: "/countries/netherlands/", labelClass: "label-country-netherlands", note: "適合歐洲英語授課本科、研究型大學、應用科技大學和商科/設計路線。", universities: ["University of Amsterdam", "Delft University of Technology", "Erasmus University Rotterdam", "Utrecht University", "Leiden University", "Eindhoven University of Technology"], colleges: ["Universities of applied sciences", "Hotelschool The Hague", "Amsterdam University of Applied Sciences", "Fontys University of Applied Sciences"], highSchools: ["International schools", "IB schools", "Bilingual secondary schools", "Private international high schools"], primarySchools: ["International primary schools", "IB PYP schools", "Dutch bilingual primary routes", "Private primary schools"] },
   { slug: "germany", zh: "德國", name: "Germany", href: "/countries/germany/", labelClass: "label-country-germany", note: "適合工程、商科、英語授課碩士、德語預備與歐洲公立大學路線。", universities: ["Technical University of Munich", "LMU Munich", "Heidelberg University", "RWTH Aachen University", "University of Freiburg", "Humboldt University of Berlin"], colleges: ["Universities of applied sciences", "German language institutes", "Studienkolleg routes", "Private business schools"], highSchools: ["International schools", "Gymnasium routes", "IB schools", "Boarding schools"], primarySchools: ["International primary schools", "Bilingual primary schools", "Private elementary schools", "Local Grundschule routes"] },
@@ -1470,7 +1470,55 @@ function countryGatewayLabels() {
 }
 
 function countryList(items) {
-  return items.map((item) => `<li>${item}</li>`).join("");
+  return items.map((item) => typeof item === "object" ? `<li><a href="${item.href}">${item.name}</a></li>` : `<li>${item}</li>`).join("");
+}
+
+const southKoreaUniversityData = [
+  ["Seoul", "Seoul National University", "首爾大學", "研究型綜合大學；人文、社科、商科、工程、自然科學與研究生路線。"],
+  ["Daejeon", "KAIST", "韓國科學技術院", "理工、AI、數據、商業與研究型碩博路線；重視數理與研究能力。"],
+  ["Seoul", "Yonsei University", "延世大學", "綜合型私立大學；國際學院、商科、社科、醫療及研究生項目。"],
+  ["Seoul", "Korea University", "高麗大學", "綜合型私立大學；商科、公共政策、法律、社科與研究生申請。"],
+  ["Seoul", "Sungkyunkwan University", "成均館大學", "綜合型大學；商科、數據、工程、生命科學與企業合作方向。"],
+  ["Seoul", "Hanyang University", "漢陽大學", "工程、設計、商科、媒體與產業合作方向；首爾校區及 ERICA 校區。"],
+  ["Seoul", "Ewha Womans University", "梨花女子大學", "女性高等教育與研究型大學；人文、社科、商科、設計與健康方向。"],
+  ["Seoul", "Kyung Hee University", "慶熙大學", "人文、酒店旅遊、商科、國際研究、韓語及健康相關方向。"],
+  ["Seoul", "Sogang University", "西江大學", "商科、經濟、社科、媒體、國際研究與韓語教育方向。"],
+  ["Seoul", "University of Seoul", "首爾市立大學", "公立大學；城市治理、公共行政、商科、工程與環境研究方向。"],
+  ["Seoul", "Hongik University", "弘益大學", "藝術、設計、建築、商科與創意產業方向；作品集要求需逐項核對。"],
+  ["Seoul", "Konkuk University", "建國大學", "生命科學、商科、媒體、藝術設計與綜合研究生方向。"],
+  ["Seoul", "Chung-Ang University", "中央大學", "商科、媒體、藝術、影視、藥學與社科方向。"],
+  ["Seoul", "Dongguk University", "東國大學", "媒體、影視、商科、人文、佛學與文化產業方向。"],
+  ["Pohang", "POSTECH", "浦項科技大學", "研究型理工大學；工程、材料、生命科學、AI 與研究生路線。"],
+  ["Busan", "Pusan National University", "釜山國立大學", "國立綜合大學；工程、商科、海洋、自然科學與研究生方向。"],
+  ["Daegu", "Kyungpook National University", "慶北國立大學", "國立綜合大學；工程、IT、醫學、商科與自然科學方向。"],
+  ["Gwangju", "Gwangju Institute of Science and Technology", "光州科學技術院", "理工研究型大學；AI、材料、能源、生命科學與研究生項目。"],
+  ["Ulsan", "Ulsan National Institute of Science and Technology", "蔚山科學技術院", "理工、能源、材料、AI 與產業研究方向。"],
+  ["Gwangju", "Chonnam National University", "全南國立大學", "國立綜合大學；農業、工程、商科、人文與研究生路線。"],
+  ["Daejeon", "Chungnam National University", "忠南國立大學", "國立綜合大學；工程、自然科學、商科、農業與研究生方向。"],
+  ["Jeonju", "Jeonbuk National University", "全北國立大學", "國立綜合大學；工程、農業、生命科學、商科與人文方向。"],
+  ["Jeju", "Jeju National University", "濟州國立大學", "國立綜合大學；旅遊、海洋、自然科學、商科與區域研究方向。"],
+  ["Seoul", "KDI School of Public Policy and Management", "KDI 國際政策學院", "公共政策、發展研究、公共管理與國際事務方向；研究生項目與英文授課要求需逐項核對。"]
+].map(([city, name, zh, fit]) => ({ city, name, zh, fit, href: `/countries/south-korea/${name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/` }));
+
+countryGatewayData.find((country) => country.slug === "south-korea").universities = southKoreaUniversityData;
+
+function southKoreaUniversityPage(university) {
+  return pageShell({
+    title: `${university.zh}｜${university.name}｜韓國留學 | OTC Study Hub`,
+    current: "zh", lang: "zh-Hant", locale: "zh",
+    path: university.href,
+    description: `OTC 韓國院校索引：${university.zh} ${university.name}，${university.city}。`,
+    body: `<section class="page-hero regional-office-hero country-gateway-hero country-subpage-hero"><div class="band"><a class="country-subpage-crumb" href="/countries/south-korea/">← 韓國留學入口</a><div class="eyebrow">SOUTH KOREA UNIVERSITY INDEX · ${university.city}</div><h1>${university.zh}</h1><h2>${university.name}</h2><p>${university.fit}</p><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent(university.name + " initial review")}">提交初步評估</a><a class="btn btn-secondary" href="https://www.studyinkorea.go.kr/en/search_v1.do" target="_blank" rel="noopener">官方院校檢索</a></div></div></section><section class="band country-gateway-panel"><div class="country-subpage-section"><div class="section-head compact-head"><div class="eyebrow">個案核對框架</div><h2>申請前先核對四件事</h2></div><div class="country-school-grid"><article><b>01</b><strong>課程與學位</strong><p>確認本科／碩士／博士層級、授課語言、學院及研究方向，不能只按校名判斷適配度。</p></article><article><b>02</b><strong>入學要求</strong><p>按當年度招生簡章核對學歷、成績、TOPIK／IELTS／TOEFL、作品集、研究計劃及推薦信要求。</p></article><article><b>03</b><strong>費用與時間</strong><p>逐項確認申請費、學費、獎學金、宿舍、保險、入學季與材料截止日期。</p></article><article><b>04</b><strong>就業與簽證</strong><p>畢業後工作與簽證須以韓國政府及學校最新規則核對；OTC 不保證錄取、獎學金或工作結果。</p></article></div></div><div class="country-subpage-sources"><strong>官方來源</strong><a href="https://www.studyinkorea.go.kr/en/search_v1.do" target="_blank" rel="noopener">Study in Korea｜韓國政府院校／課程檢索 →</a><a href="https://www.studyinkorea.go.kr/en/plan/certifiedUniversity.do" target="_blank" rel="noopener">Study in Korea｜認證院校資訊 →</a></div><p class="source-note">本頁為 OTC 公開院校索引與初步分流，不代表正式代理授權、招生名額或當年度課程開放。請以院校官方招生簡章及韓國政府最新資訊為準。</p></section>`
+  });
+}
+
+function southKoreaChineseMirror(html, path) {
+  return html
+    .replace(/href="\/countries\/south-korea\//g, 'href="/zh/countries/south-korea/')
+    .replace(/href="\/countries\/south-korea"/g, 'href="/zh/countries/south-korea/"')
+    .replace(/href="\/zh\/"/g, 'href="/zh/"')
+    .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${path}">`)
+    .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${path}">`);
 }
 
 const countrySubPages = {
@@ -1689,6 +1737,22 @@ function countryGatewayPage(country) {
           </div>
         </div>
   ` : "";
+  const southKoreaOfficialIndex = country.slug === "south-korea" ? `
+        <div class="service-herald-grid country-korea-index">
+          <div class="service-herald-main">
+            <div class="eyebrow">NATIONAL UNIVERSITY INDEX · 2026</div>
+            <h2>韓國大專院校清單｜子頁面索引</h2>
+            <p>以下建立 OTC 目前優先分流的院校子頁面；完整、動態的全國院校與課程名錄，請以韓國政府 Study in Korea 官方檢索為準。官方平台亦提醒，資料由院校提供，未必涵蓋韓國全部院校。</p>
+          </div>
+          <aside class="service-guide-side service-herald-side">
+            <div class="eyebrow">OFFICIAL DIRECTORY</div>
+            <strong>全國院校／課程檢索</strong>
+            <p>按學位、地區、授課語言與課程條件查詢最新資料。</p>
+            <a class="service-side-link" href="https://www.studyinkorea.go.kr/en/search_v1.do" target="_blank" rel="noopener">Study in Korea 官方檢索 →</a>
+            <a class="service-side-link" href="https://www.studyinkorea.go.kr/en/plan/certifiedUniversity.do" target="_blank" rel="noopener">認證院校資訊 →</a>
+          </aside>
+        </div>
+  ` : "";
   return pageShell({
     title: `${country.zh}留學入口 | OTC Study Hub`,
     current: "zh",
@@ -1709,6 +1773,7 @@ function countryGatewayPage(country) {
         </div>
       </section>
       <section class="band country-gateway-panel">
+        ${southKoreaOfficialIndex}
         ${(countrySubPages[country.slug] || []).length ? `
         <div class="country-subnav country-subnav-lead">
           <div class="section-head compact-head">
@@ -1722,8 +1787,8 @@ function countryGatewayPage(country) {
         ` : ""}
         <div class="section-head compact-head">
           <div class="eyebrow">初步列表</div>
-          <h2>${country.zh}：大學 / 學院 / 中學 / 小學</h2>
-          <p>以下為公開展示的第一版路線索引，用於初步分流。具體可申請課程、年級、入學要求、名額、授權渠道和截止日期需要逐案確認。</p>
+          <h2>${country.slug === "south-korea" ? "韓國：大學子頁面／語言與銜接路線" : `${country.zh}：大學 / 學院 / 中學 / 小學`}</h2>
+          <p>${country.slug === "south-korea" ? "點選院校名稱進入子頁面，查看城市、學術方向、申請前核對框架與官方來源。具體課程、截止日期、費用及招生資格必須按當年度校方簡章確認。" : "以下為公開展示的第一版路線索引，用於初步分流。具體可申請課程、年級、入學要求、名額、授權渠道和截止日期需要逐案確認。"}</p>
         </div>
         <div class="country-school-grid">
           ${categories.map(([num, zhName, enName, items]) => `<article><b>${num}</b><strong>${zhName}</strong><em>${enName}</em><ul>${countryList(items)}</ul></article>`).join("")}
@@ -22883,16 +22948,16 @@ ${applicationCountryCards()}
           }));
 
         const countryGatewayUniversityProgrammes = ${JSON.stringify(countryGatewayData.filter((country) => country.slug !== "australia").flatMap((country) => country.universities.map((institution) => ({
-          id: `${country.slug}-${institution.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+          id: `${country.slug}-${(typeof institution === "object" ? institution.name : institution).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
           country: country.name,
-          institution,
+          institution: typeof institution === "object" ? institution.name : institution,
           school: "University-wide admissions",
           programme: `${country.name} university application review`,
           level: "Undergraduate / postgraduate to verify",
           band: "Country route",
           fit: `Initial ${country.name} university option to be checked against the student's academic profile, English score, subject direction and intake timing.`,
           action: `Screen suitable ${country.name} university routes, confirm official entry requirements and prepare document checklist`,
-          url: country.href
+          url: typeof institution === "object" ? institution.href : country.href
         }))), null, 10)};
 
         const educationGroupProgrammes = ${JSON.stringify(transnationalEducationGroups.map((group) => ({
@@ -24300,6 +24365,7 @@ const chineseEntrance = pageShell({
 
     <section class="band compact-band zh-home-top-links">
       <div class="zh-home-small-links">
+        <a href="/zh/countries/south-korea/"><b>韓國留學規劃</b><span>本科、碩士、博士、韓語預備與英文授課路線。</span><em>韓國院校索引｜官方檢索｜雙語子頁</em></a>
         <a href="/zh/summer-school-alliance/"><b>暑校聯盟</b><span>短期項目、住宿、費用、監護與家長端安排。</span><em>英國｜加拿大｜澳洲｜新西蘭｜住宿文件</em></a>
         <a href="/zh/private-school-alliance/"><b>私校聯盟</b><span>K-12 國際校、私校觀察、校區比較與長線低齡規劃。</span><em>越南｜澳洲｜英國｜新馬泰｜IB / AP / 美式</em></a>
         <a href="/insights/credit-alliance/"><b>學分聯盟</b><span>課程、學分、銜接、先前學習與雙語解釋。</span><em>Credit transfer｜RPL｜升學文件｜資格對照</em></a>
@@ -33510,6 +33576,14 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
   (countrySubPages[country.slug] || []).forEach((sub) => {
     write(`countries/${country.slug}/${sub.slug}`, countrySubPage(country, sub));
   });
+  if (country.slug === "south-korea") {
+    const koreaMain = countryGatewayPage(country);
+    write("zh/countries/south-korea", southKoreaChineseMirror(koreaMain, "/zh/countries/south-korea/"));
+    southKoreaUniversityData.forEach((university) => {
+      write(`countries/south-korea/${university.href.split("/").filter(Boolean).pop()}`, southKoreaUniversityPage(university));
+      write(`zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}`, southKoreaChineseMirror(southKoreaUniversityPage(university), `/zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}/`));
+    });
+  }
 });
 write("countries/iceland", icelandHubPage("en"));
 write("zh/countries/iceland", icelandHubPage("zh"));
