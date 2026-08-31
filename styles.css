@@ -1881,6 +1881,11 @@ h1 {
 
 .zh-home-othm-status span {
   color: var(--gold-2);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .zh-home-feature-card strong,
@@ -1892,7 +1897,9 @@ h1 {
 
 .zh-home-othm-status strong {
   color: #fffaf0;
-  font-size: clamp(21px, 2.3vw, 28px);
+  font-size: clamp(22px, 2.5vw, 31px);
+  font-weight: 900;
+  line-height: 1.18;
 }
 
 .zh-home-feature-card p,
