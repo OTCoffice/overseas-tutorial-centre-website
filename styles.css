@@ -8385,6 +8385,75 @@ h1 {
   box-shadow: 0 8px 24px rgba(6, 26, 47, 0.045);
 }
 
+.recognition-card {
+  position: relative;
+  overflow: hidden;
+  border-width: 0 0 0 5px;
+  min-height: 248px;
+  padding: 20px 20px 18px;
+}
+
+.recognition-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+  background: var(--recognition-color);
+}
+
+.recognition-card-regulation {
+  --recognition-color: #b88a3b;
+  background: linear-gradient(145deg, #fffaf0 0%, #fff 72%);
+  border-left-color: #b88a3b;
+}
+
+.recognition-card-membership {
+  --recognition-color: #3b7d72;
+  background: linear-gradient(145deg, #eef8f5 0%, #fff 72%);
+  border-left-color: #3b7d72;
+}
+
+.recognition-card-progression {
+  --recognition-color: #5c6fb1;
+  background: linear-gradient(145deg, #f1f3fb 0%, #fff 72%);
+  border-left-color: #5c6fb1;
+}
+
+.recognition-card .area-card-head {
+  border-bottom: 0;
+  padding: 10px 0 4px;
+}
+
+.recognition-card .area-card-head strong {
+  color: var(--recognition-color);
+}
+
+.recognition-card p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.58;
+  margin: 10px 0 0;
+}
+
+.recognition-card a {
+  color: var(--recognition-color);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 14px;
+}
+
+#quality-standards-recognitions .academic-area-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (max-width: 900px) {
+  #quality-standards-recognitions .academic-area-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .area-card-head {
   padding-bottom: 12px;
   border-bottom: 1px solid #eadfce;
