@@ -24375,10 +24375,35 @@ const chineseEntrance = pageShell({
       <p class="source-note">OTC 免費學習資源用於知識普及、學習準備與路線理解；申請、升讀、認證、移民與職業結果均以相關機構正式要求為準。</p>
     </section>
 
+    <section class="band compact-band zh-platform-hub zh-mobile-single-stack" aria-label="海外督導三大平台">
+      <div class="section-head compact-head">
+        <div class="eyebrow">OTC PLATFORM ARCHITECTURE</div>
+        <h2>三大平台：業務、學習與出版分軌運作。</h2>
+        <p>上方聯盟與留學導報保留作為公共入口；以下把服務、學習資源與內容資產分別歸入對應平台，避免不同用途混在同一條內容軌道。</p>
+      </div>
+      <div class="zh-platform-grid">
+        <a class="zh-platform-card is-business" href="/zh/services/">
+          <span>01 · BUSINESS DESK</span><strong>海外督導｜機構業務</strong>
+          <p>面向學生、家庭、學校、合作機構與海外供應方的申請協調、文件整理、路線分流與合作服務。</p>
+          <div class="zh-platform-links"><b>服務導覽台</b><b>大學申請評估</b><b>暑校／私校聯盟</b><b>機構合作</b></div><em>進入機構業務 →</em>
+        </a>
+        <a class="zh-platform-card is-learning" href="/learning-platform/">
+          <span>02 · LEARNING PLATFORM</span><strong>海外督導｜學習平台</strong>
+          <p>面向在讀學生的國際課程、學術英語、測評工具、BTEC／OTHM、作業規劃與升學前能力準備。</p>
+          <div class="zh-platform-links"><b>A-Level／IB／AP</b><b>BTEC／OTHM</b><b>英文與測評</b><b>學習工具台</b></div><em>進入學習平台 →</em>
+        </a>
+        <a class="zh-platform-card is-publishing" href="/publishing/">
+          <span>03 · PUBLISHING PLATFORM</span><strong>海外書局｜出版平台</strong>
+          <p>面向教材、雙語編譯、研究簡報、留學導報與出版製作的內容資產平台，承接可反覆使用的知識產品。</p>
+          <div class="zh-platform-links"><b>出版製作</b><b>雙語教輔</b><b>研究簡報</b><b>留學導報</b></div><em>進入出版平台 →</em>
+        </a>
+      </div>
+    </section>
+
     <section class="band compact-band zh-home-workbench zh-mobile-single-stack" aria-label="海外督導｜工作台">
       <div class="zh-workbench-head">
         <span>From current OTC inbox workflow</span>
-        <strong>海外督導｜工作台</strong>
+        <strong>海外督導｜機構業務工作台</strong>
         <p>郵件工作流顯示，OTC 的特點不是只放服務名稱，而是把逐校問詢、學生文件、課程路線、出版審稿與跨區域協調整理成可追蹤的工作線索。</p>
       </div>
       <div class="zh-workbench-ledger">
