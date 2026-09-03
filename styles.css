@@ -1027,6 +1027,13 @@ h1 {
   }
 }
 
+/* Keep content headings compact across the public site. */
+.section-head h2,
+.compact-head h2 {
+  font-size: clamp(26px, 2.7vw, 36px) !important;
+  line-height: 1.12;
+}
+
 .home-hero::after,
 .zh-home-hero::after {
   display: none;
@@ -3815,34 +3822,160 @@ h1 {
 
 .summer-alliance-region-grid {
   display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.summer-alliance-continent {
+  --continent-accent: #365d8d;
+  --continent-border: rgba(54, 93, 141, 0.25);
+  --continent-soft: #f3f6fa;
+  background: linear-gradient(145deg, var(--continent-soft), #fff 72%);
+  border: 1px solid var(--continent-border);
+  border-radius: 7px;
+  border-top: 4px solid var(--continent-accent);
+  box-shadow: 0 9px 24px rgba(15, 35, 65, 0.055);
+  overflow: hidden;
+  padding: 0 22px 5px;
+}
+
+.summer-alliance-continent--asia {
+  --continent-accent: #9b4b44;
+  --continent-border: rgba(155, 75, 68, 0.24);
+  --continent-soft: #fcf3f1;
+}
+
+.summer-alliance-continent--oceania {
+  --continent-accent: #2f7771;
+  --continent-border: rgba(47, 119, 113, 0.24);
+  --continent-soft: #eef8f6;
+}
+
+.summer-alliance-continent--north-america {
+  --continent-accent: #6d557f;
+  --continent-border: rgba(109, 85, 127, 0.24);
+  --continent-soft: #f7f3f9;
+}
+
+.summer-alliance-continent--africa {
+  --continent-accent: #9a6b28;
+  --continent-border: rgba(154, 107, 40, 0.26);
+  --continent-soft: #fbf6ea;
+  grid-column: 1 / -1;
+}
+
+.summer-alliance-continent-head {
+  align-items: flex-start;
+  background: #0f2341;
+  border-bottom: 4px solid var(--continent-accent);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -22px;
+  padding: 17px 20px 15px;
+}
+
+.summer-alliance-continent-head span {
+  color: rgba(255, 255, 255, 0.72);
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.summer-alliance-continent-head h3 {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 6px 0 0;
+}
+
+.summer-alliance-continent-head b {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  color: #f0cf8b;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px 9px;
+}
+
+.summer-alliance-continent-list {
+  display: grid;
+  gap: 0 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summer-alliance-continent-list .summer-alliance-region-card:nth-last-child(-n + 2) {
+  border-bottom: 0;
 }
 
 .summer-alliance-region-card {
-  background: #fff;
-  border: 1px solid #e7dccb;
-  border-radius: 10px;
-  box-shadow: 0 10px 22px rgba(15, 35, 65, 0.05);
-  overflow: hidden;
+  align-items: start;
+  background: transparent;
+  border-bottom: 1px solid var(--continent-border);
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 38px minmax(0, 1fr);
+  padding: 17px 0 16px;
 }
 
-.summer-alliance-region-card img {
-  display: block;
-  height: 118px;
-  object-fit: cover;
-  width: 100%;
+.summer-alliance-region-card .summer-alliance-region-flag {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--continent-border);
+  border-radius: 3px;
+  box-shadow: 0 2px 7px rgba(15, 35, 65, 0.07);
+  display: inline-flex !important;
+  font-size: 22px !important;
+  height: 30px;
+  justify-content: center;
+  line-height: 1 !important;
+  margin: 1px 0 0 !important;
+  min-height: 0 !important;
+  width: 38px;
 }
 
 .summer-alliance-region-card .body {
-  padding: 14px 14px 16px;
+  padding: 0;
 }
 
 .summer-alliance-region-card strong {
   color: var(--navy);
   display: block;
-  font-size: 17px;
-  line-height: 1.2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.summer-alliance-region-card strong small {
+  background: var(--continent-soft);
+  border: 1px solid var(--continent-border);
+  border-radius: 999px;
+  color: var(--continent-accent);
+  display: inline-flex;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-left: 5px;
+  padding: 3px 6px;
+  vertical-align: 2px;
+}
+
+.summer-alliance-continent-note {
+  background: var(--continent-soft);
+  border-bottom: 1px solid var(--continent-border);
+  color: #4f5f70;
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0 -22px;
+  padding: 14px 22px;
 }
 
 .summer-alliance-region-card span {
@@ -3850,16 +3983,71 @@ h1 {
   display: block;
   font-size: 13px;
   line-height: 1.55;
-  margin-top: 8px;
-  min-height: 60px;
+  margin-top: 5px;
+  min-height: 0;
 }
 
 .summer-alliance-region-card a {
-  color: var(--gold);
+  color: var(--continent-accent);
   display: inline-flex;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  margin-top: 12px;
+  letter-spacing: 0.04em;
+  margin-top: 9px;
+  text-transform: uppercase;
+}
+
+.summer-alliance-continent-empty {
+  display: grid;
+  gap: 7px;
+  padding: 18px 0 19px;
+}
+
+.summer-alliance-continent-empty strong {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.summer-alliance-continent-empty span {
+  color: #5d6774;
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 820px;
+}
+
+.summer-alliance-continent-empty a {
+  color: var(--continent-accent);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .summer-alliance-continent {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .summer-alliance-continent-head,
+  .summer-alliance-continent-note {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+
+  .summer-alliance-continent-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summer-alliance-continent-list .summer-alliance-region-card:nth-last-child(-n + 2) {
+    border-bottom: 1px solid var(--continent-border);
+  }
+
+  .summer-alliance-continent-list .summer-alliance-region-card:last-child {
+    border-bottom: 0;
+  }
 }
 
 .private-school-region-card {
