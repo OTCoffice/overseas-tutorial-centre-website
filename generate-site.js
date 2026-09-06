@@ -28760,7 +28760,7 @@ const canadaEditorialBody = route.slug === "canada"
     ? compactAllianceEditorialBody({
       slug: "thailand",
       bodyClass: "summer-herald-thailand",
-      chineseTitle: "海外督導｜泰國寒假遊學聯盟",
+      chineseTitle: "海外督導｜泰國寒暑校聯盟",
       englishTitle: "Thailand Winter & Holiday Alliance 2026–27",
       stripTag: "Thailand · Winter · Holiday · Short Programmes",
       standfirst: "泰國寒假線涵蓋 Bangkok 國際校日營、親子幼兒、boarding / outdoor、大學短期課程與語言文化研學。2026–27 檔期未公布者均標示待校方確認，避免把候選路線誤當成已開班。",
@@ -30183,7 +30183,7 @@ function thailandProgrammesPage() {
     image: "",
     imageAlt: "OTC 泰國寒假遊學聯盟項目總表",
     bodyClass: "summer-herald-thailand",
-    chineseTitle: "海外督導｜泰國寒假遊學聯盟",
+    chineseTitle: "海外督導｜泰國寒暑校聯盟",
     englishTitle: "Thailand Winter & Holiday Alliance 2026–27",
     stripTag: "Thailand Winter Programme Candidates",
     standfirst: "這一頁集中整理 15 條泰國寒假候選路線，方便家長比較 Bangkok day camp、低齡親子、英語、boarding / outdoor、大學短課及文化研學。所有 TBC 項目仍須取得校方書面確認。",
