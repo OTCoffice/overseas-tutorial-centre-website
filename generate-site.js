@@ -28778,7 +28778,7 @@ const canadaEditorialBody = route.slug === "canada"
       sectionTwoCopy: "Bangkok 國際校日營、早幼兒 / parent-child、British Council 英文課、以及 Rugby School Thailand 類 boarding / outdoor route。先分住宿和家長責任，再談 provider。",
       programmesCopy: "泰國項目年齡跨度很大，從 18 個月到 teen camp 都有。主頁保留 route 判斷，完整項目清單放在 programmes 頁集中看。",
       programmesTitle: "泰國寒假遊學候選項目總表",
-      programmesLine: "15 條國際學校、大學短課、語言與寄宿候選路線；實際日期與海外生名額以校方確認為準。",
+      programmesLine: "40 個泰國寒暑校選項：15 個已公布 2027 冬季班期，另有 25 個等待冬季日期或可詢訂製班的延伸候選；實際日期與海外生名額以校方確認為準。",
       programmesHref: "/zh/summer-school-alliance/thailand/programmes/",
       whatsappText: "你好，我想先看泰國 2026–27 寒假遊學候選項目總表。",
       cooperationCopy: "泰國頁目前以候選項目和 route research 呈現，boarding、低齡和國際校 drop-in 都需逐一確認當季名額與監護安排。",
@@ -29704,6 +29704,7 @@ function canadaProgrammesPage() {
 function buildAllianceProgrammesPage(routeSlug, config) {
   const route = summerSchoolCountryRoutes.find((entry) => entry.slug === routeSlug);
   if (!route) return "";
+  const projects = config.projects || route.projects;
 
   const inferMeta = (project) => {
     const merged = project.join(" ");
@@ -29727,7 +29728,7 @@ function buildAllianceProgrammesPage(routeSlug, config) {
   };
 
   const groupedSections = config.groups.map((group) => {
-    const items = route.projects
+    const items = projects
       .map((project, index) => ({ project, index }))
       .filter(({ project }) => config.getCategory(project[0]) === group.id);
 
@@ -30175,8 +30176,73 @@ function singaporeProgrammesPage() {
   });
 }
 
+const thailandProgrammeRecords = [
+  ["Regent’s English Winter Camp", "Regent’s International School Bangkok", "Bangkok", "Ages 3–12; English, swimming, cooking, Thai dance and art.", "3–12 歲、家長同行或自理住宿"],
+  ["Traidhos English & Environment", "Traidhos Three-Generation", "Chiang Mai", "Ages 6–12; English, environment and farm exploration.", "6–12 歲"],
+  ["Traidhos English & Sports", "Traidhos Three-Generation", "Chiang Mai", "Ages 6–12; English plus multi-sports.", "6–12 歲"],
+  ["Traidhos English & Adventure", "Traidhos Three-Generation", "Chiang Mai", "Ages 6–12; climbing, archery, ropes and nature activities.", "6–12 歲"],
+  ["Traidhos English & Survival", "Traidhos Three-Generation", "Chiang Mai", "Ages 6–12; English and outdoor survival skills.", "6–12 歲"],
+  ["Able Five Senses｜5–9", "Able Camps", "Chiang Mai", "Sensory exploration and project-based learning.", "5–9 歲"],
+  ["Able Trailblazer｜5–9", "Able Camps", "Chiang Mai", "English nature exploration.", "5–9 歲"],
+  ["Able Earth｜5–9", "Able Camps", "Chiang Mai", "Nature, land and sustainability education.", "5–9 歲"],
+  ["Able Fire｜5–9", "Able Camps", "Chiang Mai", "Creativity, outdoor learning and team challenges.", "5–9 歲"],
+  ["Able Water｜5–9", "Able Camps", "Chiang Mai", "Water and nature themed learning.", "5–9 歲"],
+  ["Able Five Senses｜10–14", "Able Camps", "Chiang Mai", "Sensory exploration and project-based learning.", "10–14 歲"],
+  ["Able Trailblazer｜10–14", "Able Camps", "Chiang Mai", "Adventure, leadership and teamwork.", "10–14 歲"],
+  ["Able Earth｜10–14", "Able Camps", "Chiang Mai", "Environment and sustainability education.", "10–14 歲"],
+  ["Able Fire｜10–14", "Able Camps", "Chiang Mai", "Creative and outdoor challenges.", "10–14 歲"],
+  ["Able Water｜10–14", "Able Camps", "Chiang Mai", "Water resources and nature exploration.", "10–14 歲"],
+  ["Camp Beaumont Playtime", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 3–4; play-led day camp.", "3–4 歲"],
+  ["Camp Beaumont Magic", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 5–7; multi-activity day camp.", "5–7 歲"],
+  ["Camp Beaumont Active", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 8–12; active multi-programme day camp.", "8–12 歲"],
+  ["Rugby Wisdom Christmas Day Camp", "Rugby School Thailand", "Chonburi", "Typical ages 7–12; English and outdoor day route.", "7–12 歲"],
+  ["Rugby Wisdom Christmas Residential", "Rugby School Thailand", "Chonburi", "Typical ages 7–12; residential English and outdoor route.", "7–12 歲"],
+  ["iCamp Thailand Winter Residential", "iCamp Thailand", "Kanchanaburi", "Residential or customised outdoor camp route.", "以校方確認為準"],
+  ["Adventures4Kids／Octopus Winter Camp", "Adventures4Kids / Octopus", "Chiang Mai", "English, outdoor and cultural activities.", "以當期公告為準"],
+  ["Bangkok Prep EAL Holiday Camp", "Bangkok Prep", "Bangkok", "Typical ages 4–14; EAL holiday day-camp route.", "4–14 歲"],
+  ["Bangkok Prep Multi-Sports", "Bangkok Prep", "Bangkok", "Typical ages 5–13; multi-sports.", "5–13 歲"],
+  ["Bangkok Prep Minecraft & Robotics", "Bangkok Prep", "Bangkok", "Typical ages 5–12; Minecraft and robotics.", "5–12 歲"],
+  ["Bangkok Prep Minecraft Innovators", "Bangkok Prep", "Bangkok", "Typical ages 5–11; creative technology.", "5–11 歲"],
+  ["Bangkok Prep Maths & Drama", "Bangkok Prep", "Bangkok", "Typical ages 8–12; mathematics and drama.", "8–12 歲"],
+  ["Bangkok Prep Thai Literacy", "Bangkok Prep", "Bangkok", "Typical ages 6–14; Thai literacy.", "6–14 歲"],
+  ["Bangkok Prep Young Designers", "Bangkok Prep", "Bangkok", "Typical ages 5–13; design and creative projects.", "5–13 歲"],
+  ["Bangkok Prep Ivy Camps USA", "Bangkok Prep / Ivy Camps USA", "Bangkok", "Typical ages 6–14; themed enrichment route.", "6–14 歲"],
+  ["Bangkok Prep Grow Learning Gardens Nature Camp", "Bangkok Prep / Grow Learning Gardens", "Bangkok", "Typical ages 5–12; nature learning.", "5–12 歲"],
+  ["Bangkok Prep AP Race Swimming Camp", "Bangkok Prep / AP Race", "Bangkok", "Competitive swimming camp route.", "競技游泳學生"],
+  ["Summer@BISP Early Years Camp", "British International School Phuket", "Phuket", "Typical ages 3–5; early-years camp.", "3–5 歲"],
+  ["Summer@BISP Lower Primary English", "British International School Phuket", "Phuket", "Typical ages 6–8; English track.", "6–8 歲"],
+  ["Summer@BISP Lower Primary Football", "British International School Phuket", "Phuket", "Typical ages 6–8; football track.", "6–8 歲"],
+  ["Summer@BISP Lower Primary Coding & Digital Skills", "British International School Phuket", "Phuket", "Typical ages 6–8; coding and digital skills.", "6–8 歲"],
+  ["Summer@BISP Main English", "British International School Phuket", "Phuket", "Typical ages 9–15; English track.", "9–15 歲"],
+  ["Summer@BISP Main Football", "British International School Phuket", "Phuket", "Typical ages 9–15; football track.", "9–15 歲"],
+  ["Summer@BISP Adventure Sports", "British International School Phuket", "Phuket", "Typical ages 9–15; adventure sports.", "9–15 歲"],
+  ["Bromsgrove Thailand English & Activities Camp", "Bromsgrove International School Thailand", "Bangkok", "Typical ages 8–15; English and activities, day/residential route.", "8–15 歲"]
+];
+
+const thailandProgrammeProjects = thailandProgrammeRecords.map((record, index) => {
+  const [title, provider, location, description, audience] = record;
+  const hasPublishedDates = index < 15;
+  return [
+    title,
+    hasPublishedDates
+      ? "2027 winter dates published；報名前仍以項目方書面確認為準"
+      : "2026–27 winter dates TBC / 可詢訂製班",
+    location,
+    provider,
+    description,
+    "英文、活動或主題學習體驗；實際內容以項目方安排為準。",
+    "依項目方安排",
+    "fee TBC",
+    audience,
+    hasPublishedDates
+      ? "已公布班期候選；名額、費用、海外生資格與住宿安排仍需書面確認。"
+      : "延伸候選；冬季日期、名額、費用、海外生資格與住宿安排待書面確認。"
+  ];
+});
+
 function thailandProgrammesPage() {
   return buildAllianceProgrammesPage("thailand", {
+    projects: thailandProgrammeProjects,
     pageTitle: "泰國寒假遊學與冬季短期課程 2026–27 | OTC Study Hub",
     pageDescription: "泰國 2026–27 寒假遊學候選項目：國際學校假期營、親子幼兒、寄宿戶外、大學短期課程、語言與文化研學。未公布檔期均清楚標示待校方確認。",
     path: "/zh/summer-school-alliance/thailand/programmes/",
@@ -30186,7 +30252,7 @@ function thailandProgrammesPage() {
     chineseTitle: "海外督導｜泰國寒暑校聯盟",
     englishTitle: "Thailand Winter & Holiday Alliance 2026–27",
     stripTag: "Thailand Winter Programme Candidates",
-    standfirst: "這一頁集中整理 15 條泰國寒假候選路線，方便家長比較 Bangkok day camp、低齡親子、英語、boarding / outdoor、大學短課及文化研學。所有 TBC 項目仍須取得校方書面確認。",
+    standfirst: "這一頁按 Notion 項目庫集中整理 40 個泰國寒暑校選項：15 個已公布 2027 冬季班期，以及 25 個等待冬季日期或可詢訂製班的延伸候選。所有名額、費用及 TBC 項目仍須取得校方書面確認。",
     inlineStrip: [
       { title: "先看住宿", copy: "泰國多數為日營，少數 boarding 需要提早卡位。" },
       { title: "再看低齡", copy: "18 months–6 歲要先確認陪同和 drop-in 規則。" },
@@ -30198,10 +30264,10 @@ function thailandProgrammesPage() {
         <table>
           <thead><tr><th>類型</th><th>代表 Provider</th><th>地點</th><th>模式</th><th>更適合誰</th></tr></thead>
           <tbody>
-            <tr><td>戶外寄宿型</td><td>Rugby School Thailand</td><td>Chonburi</td><td>Day / Residential</td><td>想要英文、戶外與英式寄宿學校感</td></tr>
-            <tr><td>國際校日營</td><td>Harrow / Shrewsbury</td><td>Bangkok</td><td>Day / Boarding TBC</td><td>想看曼谷國際學校環境的家庭</td></tr>
-            <tr><td>早幼兒路線</td><td>ELC Bangkok</td><td>Bangkok</td><td>Day</td><td>低齡、親子、國際幼兒園試水</td></tr>
-            <tr><td>英文品牌型</td><td>British Council</td><td>Bangkok</td><td>Day English</td><td>以英文提升為主的 6–17 歲學生</td></tr>
+            <tr><td>已公布班期</td><td>Regent’s / Traidhos / Able</td><td>Bangkok / Chiang Mai</td><td>Day camp</td><td>需要先按確定日期匹配的家庭</td></tr>
+            <tr><td>曼谷國際校日營</td><td>Camp Beaumont / Bangkok Prep</td><td>Bangkok</td><td>Day camp · TBC</td><td>需要英語、運動、科技或藝術主題</td></tr>
+            <tr><td>戶外／寄宿候選</td><td>Rugby / iCamp / Bromsgrove</td><td>Chonburi / Kanchanaburi / Bangkok</td><td>Day / Residential · TBC</td><td>重視戶外、住宿與完整營隊體驗</td></tr>
+            <tr><td>布吉國際校候選</td><td>Summer@BISP</td><td>Phuket</td><td>Day / Custom · TBC</td><td>英文、足球、科技及冒險運動方向</td></tr>
           </tbody>
         </table>
       </div>
@@ -30209,17 +30275,17 @@ function thailandProgrammesPage() {
     backHref: "/zh/summer-school-alliance/thailand/",
     backLabel: "泰國",
     groups: [
-      { id: "boarding-outdoor", code: "01", title: "戶外寄宿型", description: "適合英文、戶外與 boarding exposure。" },
-      { id: "international-school", code: "02", title: "國際校日營", description: "適合 Bangkok 國際校環境觀察。" },
-      { id: "early-years", code: "03", title: "早幼兒 / 親子", description: "適合低齡、parent-child 與 preschool observation。" },
-      { id: "english-course", code: "04", title: "英文品牌型", description: "適合以英文提升為主的短期 route。" }
+      { id: "published-dates", code: "01", title: "已公布 2027 班期", description: "Regent’s、Traidhos 與 Able 共 15 個日期較清楚的選項。" },
+      { id: "international-school", code: "02", title: "曼谷國際校日營", description: "Camp Beaumont 與 Bangkok Prep 等日營及主題課程候選。" },
+      { id: "boarding-outdoor", code: "03", title: "戶外／寄宿候選", description: "Rugby、iCamp、Adventures4Kids 與 Bromsgrove 等戶外或住宿路線。" },
+      { id: "phuket-school", code: "04", title: "布吉國際校候選", description: "Summer@BISP 的幼兒、英語、足球、科技與冒險運動方向。" }
     ],
-    getCategory: (title) => /Rugby/i.test(title)
-      ? "boarding-outdoor"
-      : /ELC/i.test(title)
-        ? "early-years"
-        : /British Council/i.test(title)
-          ? "english-course"
+    getCategory: (title) => /Regent’s English Winter|Traidhos|^Able /i.test(title)
+      ? "published-dates"
+      : /Summer@BISP/i.test(title)
+        ? "phuket-school"
+        : /Rugby Wisdom|iCamp|Adventures4Kids|Bromsgrove/i.test(title)
+          ? "boarding-outdoor"
           : "international-school"
   });
 }
@@ -33693,6 +33759,17 @@ const wangZhuoyingSummerGuide = pageShell({
     </main>
   `
 });
+
+if (process.env.OTC_THAILAND_ONLY === "1") {
+  const thailandRoute = summerSchoolCountryRoutes.find((route) => route.slug === "thailand");
+  const thailandPage = summerSchoolCountryPage(thailandRoute);
+  const thailandProgrammes = thailandProgrammesPage();
+  write("summer-school-alliance/thailand", thailandPage);
+  write("zh/summer-school-alliance/thailand", thailandPage);
+  write("summer-school-alliance/thailand/programmes", thailandProgrammes);
+  write("zh/summer-school-alliance/thailand/programmes", thailandProgrammes);
+  process.exit(0);
+}
 
 if (process.env.OTC_ICELAND_ONLY === "1") {
   write("countries/iceland", icelandHubPage("en"));
