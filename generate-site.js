@@ -2505,6 +2505,7 @@ function searchItems() {
     ["External Programme Support", "/external-programme-support/", "OU, BTEC, Pearson, university modules, foundation / pathway and recognised external programme tutoring support."],
     ["Academic Tutoring", "/academic-tutoring/", "Academic writing, business tutoring, research skills, academic English and study-skills support."],
     ["Guidance & Progression", "/guidance-progression/", "Study-route planning, top-up review, learner profile organisation and progression guidance."],
+    ["督學日誌｜Study Companion", "/apps/study-coach/", "海外書局出品的督學 App，支援雅思 IELTS 與自訂目標、七日讀書計畫、專注計時、任務打卡、每週回顧、本機備份與週報匯出。"],
     ["Apps & Tools", "/apps/", "UCBELT, Australian citizenship test, CE exam app, CSCS/SIA planned tools, vocabulary and quiz systems."],
     ["NCLEX-RN Bilingual Clinical Judgment Demo", "/apps/nclex-rn-bilingual-demo/", "Independent OTC bilingual NCLEX-RN clinical judgment public demo with 50 original low-risk practice items, glossary support and learner report."],
     ["NCLEX-RN Bilingual Trainer", "/apps/nclex-rn-bilingual-trainer/", "Public demo trainer for bilingual NCLEX-RN cue recognition, prioritisation language, wrong-answer review and glossary practice."],
@@ -21018,6 +21019,9 @@ const publishing = pageShell({
   current: "publishing",
   body: `
     <section class="page-hero"><div class="band"><div class="eyebrow">Overseas Publishing House</div><h1>Publishing</h1><p>A long-term publishing programme for academic research, bilingual education, practical guides, cultural translation, digital products and author services.</p></div></section>
+    <section class="band compact-band">
+      <div class="notice"><strong>海外書局新工具｜督學日誌 Study Companion</strong><p>為雅思及自主學習安排七日任務，結合專注計時、任務筆記與週回顧。記錄保存在使用者裝置，可匯出備份及學習週報。</p><a class="btn btn-primary" href="/apps/study-coach/">在 OTC 學習平台使用</a></div>
+    </section>
     <section class="band compact-band media-channel-strip">
       <div class="section-head compact-head">
         <div class="eyebrow">Overseas Publishing Media</div>
@@ -22449,7 +22453,8 @@ const learningPlatform = pageShell({
         <h1>OTC Learning Platform</h1>
         <p>這裡只放 OTC 自己的學習支持系統：課程輔導、Apps、OTHM、external support、academic tutoring 和 progression guidance。它不是全球高校課程庫。</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="/apps/">Open Apps & Tools</a>
+          <a class="btn btn-primary" href="/apps/study-coach/">開啟督學日誌 · 海外書局出品</a>
+          <a class="btn btn-secondary" href="/apps/">Open Apps & Tools</a>
           <a class="btn btn-secondary" href="/international-curriculum-tutoring/">Curriculum tutoring</a>
           <a class="btn btn-secondary" href="/courses/">Back to Courses</a>
         </div>
@@ -24965,7 +24970,7 @@ const apps = pageShell({
           <p>Classroom timers, feedback starters, progress trackers, vocabulary lists and review dashboards for tutorial delivery.</p>
           <ul>
             <li><span>Planned</span> Tutor feedback phrase bank</li>
-            <li><span>Planned</span> Learner progress tracker</li>
+            <li><span>Live</span> <a href="/apps/study-coach/">督學日誌 · Study Companion</a> — 海外書局出品；七日計畫、專注計時與週回顧</li>
             <li><span>Planned</span> Lesson activity timer</li>
           </ul>
         </article>
@@ -33943,7 +33948,8 @@ write("lms-review/wang-zhuoying-summer-2026", wangZhuoyingSummerGuide);
   "/ai-business-studio/",
   "/apps/nclex-rn-bilingual-demo/",
   "/apps/nclex-rn-bilingual-trainer/",
-  "/apps/advanced-vocabulary/"
+  "/apps/advanced-vocabulary/",
+  "/apps/study-coach/"
 ].forEach((publicPath) => generatedRoutes.push(publicPath));
 
 fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>督學日誌｜海外書局 × OTC 學習平台</title>
+  <meta name="description" content="海外書局出品的督學 App：七日讀書計畫、專注計時、任務打卡及每週回顧，支援雅思與自訂學習目標。">
+  <meta name="theme-color" content="#102641"><link rel="canonical" href="https://overseasuk.com/apps/study-coach/">
+  <meta property="og:title" content="督學日誌｜海外書局"><meta property="og:description" content="把學習目標，變成今天能完成的一步。七日計畫、專注計時與進度回顧。"><meta property="og:url" content="https://overseasuk.com/apps/study-coach/"><meta property="og:type" content="website">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至學習工作台</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="identity" href="./" aria-label="督學日誌首頁"><span class="monogram">督</span><span><strong>督學日誌</strong><small>STUDY COMPANION</small></span></a>
+      <nav id="navigation" aria-label="App 功能">
+        <button data-view="today" aria-current="page"><span>◷</span>今日學習</button>
+        <button data-view="plan"><span>▦</span>七日計畫</button>
+        <button data-view="review"><span>▥</span>學習回顧</button>
+        <button data-view="settings"><span>◎</span>目標與資料</button>
+      </nav>
+      <div class="sidebar-bottom"><p>海外書局出品<br><small>Overseas Publishing</small></p><a href="/learning-platform/">OTC 學習平台 ↗</a><a href="/apps/">其他學習工具 ↗</a><small class="version">本機版 · 1.0</small></div>
+    </aside>
+    <div class="workspace"><header class="topbar"><span>海外督導 <span class="separator">/</span> 學習平台</span><span id="save-status">記錄儲存在此裝置</span></header>
+    <div id="storage-warning" class="alert" role="alert" hidden></div><main id="main" tabindex="-1"></main>
+    <footer class="footer">海外書局 × Overseas Tutorial Centre<br><span>自助規劃工具；真人回饋按需要另行諮詢。</span></footer></div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="task-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <noscript><p class="alert">請開啟 JavaScript，使用七日計畫、計時與記錄功能。</p></noscript>
+</body>
+</html>
