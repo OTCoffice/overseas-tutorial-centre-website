@@ -25273,6 +25273,32 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
   margin: 0 0 16px;
 }
 
+.summer-programme-compare-table {
+  overflow-x: auto;
+}
+
+.summer-programme-compare-table table {
+  min-width: 760px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.summer-programme-compare-table th,
+.summer-programme-compare-table td {
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 10px 12px;
+}
+
+.summer-programme-compare-table th {
+  font-size: 11px;
+}
+
+.summer-programme-compare-table td:first-child {
+  font-size: 13px;
+  white-space: normal;
+}
+
 @media (max-width: 720px) {
   .summer-herald-page,
   .summer-herald-us {
@@ -25433,7 +25459,7 @@ body[data-page="/zh/summer-school-alliance/united-states/"] .section-head.compac
     background: #f3e6d2;
     color: #b5272d;
     font-family: var(--font-zh-editorial);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
   }
 
