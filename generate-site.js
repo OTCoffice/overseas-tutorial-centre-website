@@ -28783,7 +28783,7 @@ const canadaEditorialBody = route.slug === "canada"
       sectionTwoCopy: "Bangkok 國際校日營、早幼兒 / parent-child、British Council 英文課、以及 Rugby School Thailand 類 boarding / outdoor route。先分住宿和家長責任，再談 provider。",
       programmesCopy: "泰國項目年齡跨度很大，從 18 個月到 teen camp 都有。主頁保留 route 判斷，完整項目清單放在 programmes 頁集中看。",
       programmesTitle: "泰國寒假遊學候選項目總表",
-      programmesLine: "40 個泰國寒暑校選項：15 個已公布 2027 冬季班期，另有 25 個等待冬季日期或可詢訂製班的延伸候選；實際日期與海外生名額以校方確認為準。",
+      programmesLine: "42 個泰國寒暑校選項：17 個已公布 2027 冬季班期，另有 25 個等待冬季日期或可詢訂製班的延伸候選；實際日期與海外生名額以校方確認為準。",
       programmesHref: "/zh/summer-school-alliance/thailand/programmes/",
       whatsappText: "你好，我想先看泰國 2026–27 寒假遊學候選項目總表。",
       cooperationCopy: "泰國頁目前以候選項目和 route research 呈現，boarding、低齡和國際校 drop-in 都需逐一確認當季名額與監護安排。",
@@ -29714,7 +29714,7 @@ function buildAllianceProgrammesPage(routeSlug, config) {
   const inferMeta = (project) => {
     const merged = project.join(" ");
     let age = "青少年";
-    const ageMatch = merged.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲?/);
+    const ageMatch = `${project[8]} ${project[0]} ${project[4]}`.match(/(\d{1,2}\s*[–-]\s*\d{1,2})\s*歲/);
     if (ageMatch) age = `${ageMatch[1].replace(/\s*/g, "")}歲`;
     else if (/Year 12|高中後段|16\+|17\+|本科/i.test(merged)) age = "高中後段 / 16+";
 
@@ -29727,7 +29727,7 @@ function buildAllianceProgrammesPage(routeSlug, config) {
     let format = "住宿待核";
     if (/homestay/i.test(merged)) format = "Homestay";
     else if (/residence|residential|寄宿|宿舍|boarding|住校/i.test(merged)) format = "Residence";
-    else if (/day|日校/i.test(merged)) format = "日校";
+    else if (/day|日校|日營/i.test(merged)) format = "日校";
     else if (/online|線上/i.test(merged)) format = "線上 / 無住宿";
     return { age, city, format };
   };
@@ -30197,6 +30197,8 @@ const thailandProgrammeRecords = [
   ["Able Earth｜10–14", "Able Camps", "Chiang Mai", "Environment and sustainability education.", "10–14 歲"],
   ["Able Fire｜10–14", "Able Camps", "Chiang Mai", "Creative and outdoor challenges.", "10–14 歲"],
   ["Able Water｜10–14", "Able Camps", "Chiang Mai", "Water resources and nature exploration.", "10–14 歲"],
+  ["Speak Up Chiang Mai｜2027 冬令營半日班", "Speak Up Language School / SUL Chiangmai", "Chiang Mai", "日營；2027-01-04 至 02-19；10:00–12:00 或 13:00–15:00。官網標準價兩名兒童 1 週 THB 12,000、2 週 THB 22,000。", "5–12 歲；可自理住宿"],
+  ["Speak Up Chiang Mai｜2027 冬令營全日班", "Speak Up Language School / SUL Chiangmai", "Chiang Mai", "日營；2027-01-04 至 02-19；10:00–15:00，含 1 小時午休。官網標準價兩名兒童 1 週 THB 20,000、2 週 THB 34,000，午餐另計。", "5–12 歲；可自理住宿"],
   ["Camp Beaumont Playtime", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 3–4; play-led day camp.", "3–4 歲"],
   ["Camp Beaumont Magic", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 5–7; multi-activity day camp.", "5–7 歲"],
   ["Camp Beaumont Active", "Camp Beaumont Asia", "Wellington College Bangkok", "Typical ages 8–12; active multi-programme day camp.", "8–12 歲"],
@@ -30226,7 +30228,7 @@ const thailandProgrammeRecords = [
 
 const thailandProgrammeProjects = thailandProgrammeRecords.map((record, index) => {
   const [title, provider, location, description, audience] = record;
-  const hasPublishedDates = index < 15;
+  const hasPublishedDates = index < 17;
   return [
     title,
     hasPublishedDates
@@ -30257,7 +30259,7 @@ function thailandProgrammesPage() {
     chineseTitle: "海外督導｜泰國寒暑校聯盟",
     englishTitle: "Thailand Winter & Holiday Alliance 2026–27",
     stripTag: "Thailand Winter Programme Candidates",
-    standfirst: "這一頁按 Notion 項目庫集中整理 40 個泰國寒暑校選項：15 個已公布 2027 冬季班期，以及 25 個等待冬季日期或可詢訂製班的延伸候選。所有名額、費用及 TBC 項目仍須取得校方書面確認。",
+    standfirst: "這一頁按 Notion 項目庫集中整理 42 個泰國寒暑校選項：17 個已公布 2027 冬季班期，以及 25 個等待冬季日期或可詢訂製班的延伸候選。所有名額、費用及 TBC 項目仍須取得校方書面確認。",
     inlineStrip: [
       { title: "先看住宿", copy: "泰國多數為日營，少數 boarding 需要提早卡位。" },
       { title: "再看低齡", copy: "18 months–6 歲要先確認陪同和 drop-in 規則。" },
@@ -30269,7 +30271,7 @@ function thailandProgrammesPage() {
         <table>
           <thead><tr><th>類型</th><th>代表 Provider</th><th>地點</th><th>模式</th><th>更適合誰</th></tr></thead>
           <tbody>
-            <tr><td>已公布班期</td><td>Regent’s / Traidhos / Able</td><td>Bangkok / Chiang Mai</td><td>Day camp</td><td>需要先按確定日期匹配的家庭</td></tr>
+            <tr><td>已公布班期</td><td>Regent’s / Traidhos / Able / Speak Up</td><td>Bangkok / Chiang Mai</td><td>Day camp</td><td>需要先按確定日期匹配的家庭</td></tr>
             <tr><td>曼谷國際校日營</td><td>Camp Beaumont / Bangkok Prep</td><td>Bangkok</td><td>Day camp · TBC</td><td>需要英語、運動、科技或藝術主題</td></tr>
             <tr><td>戶外／寄宿候選</td><td>Rugby / iCamp / Bromsgrove</td><td>Chonburi / Kanchanaburi / Bangkok</td><td>Day / Residential · TBC</td><td>重視戶外、住宿與完整營隊體驗</td></tr>
             <tr><td>布吉國際校候選</td><td>Summer@BISP</td><td>Phuket</td><td>Day / Custom · TBC</td><td>英文、足球、科技及冒險運動方向</td></tr>
@@ -30280,12 +30282,12 @@ function thailandProgrammesPage() {
     backHref: "/zh/summer-school-alliance/thailand/",
     backLabel: "泰國",
     groups: [
-      { id: "published-dates", code: "01", title: "已公布 2027 班期", description: "Regent’s、Traidhos 與 Able 共 15 個日期較清楚的選項。" },
+      { id: "published-dates", code: "01", title: "已公布 2027 班期", description: "Regent’s、Traidhos、Able 與 Speak Up 共 17 個日期較清楚的選項。" },
       { id: "international-school", code: "02", title: "曼谷國際校日營", description: "Camp Beaumont 與 Bangkok Prep 等日營及主題課程候選。" },
       { id: "boarding-outdoor", code: "03", title: "戶外／寄宿候選", description: "Rugby、iCamp、Adventures4Kids 與 Bromsgrove 等戶外或住宿路線。" },
       { id: "phuket-school", code: "04", title: "布吉國際校候選", description: "Summer@BISP 的幼兒、英語、足球、科技與冒險運動方向。" }
     ],
-    getCategory: (title) => /Regent’s English Winter|Traidhos|^Able /i.test(title)
+    getCategory: (title) => /Regent’s English Winter|Traidhos|^Able |^Speak Up Chiang Mai/i.test(title)
       ? "published-dates"
       : /Summer@BISP/i.test(title)
         ? "phuket-school"
