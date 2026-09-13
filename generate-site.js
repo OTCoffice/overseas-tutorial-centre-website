@@ -2493,6 +2493,7 @@ function searchItems() {
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
     ["海外督導｜跨境房產管理", "/zh/cross-border-property-management/", "海外業主收樓交接、租務協調、維修調度、供應商對接、文件與付款證據整理及定期雙語業主報告。"],
+    ["海外督導｜美國 SWT 打工度假陪跑", "/zh/us-swt-work-travel-support/", "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、成本合約、簽證面談、住宿交通及行前準備。"],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
     ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
@@ -19285,7 +19286,7 @@ function serviceCards() {
       title: "Family & Student Response",
       titleZh: "家庭與學生端",
       desc: "申請、監護、緊急調度與持續跟進。",
-      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management"]
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management", "us-swt-work-travel-support"]
     },
     {
       title: "Publishing & Language",
@@ -19344,7 +19345,7 @@ function serviceArticleDirectory(locale = "en") {
     {
       title: isZh ? "家庭與學生端" : "Family & Student Response",
       desc: isZh ? "突發調度、學術監護、申請文件與學習工具。" : "Emergency dispatch, guardianship, applications and learning tools.",
-      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools"]
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management", "us-swt-work-travel-support"]
     },
     {
       title: isZh ? "出版與語言" : "Publishing & Language",
@@ -19370,7 +19371,7 @@ function serviceArticleDirectory(locale = "en") {
               .map((slug) => serviceProducts.find((service) => service.slug === slug))
               .filter(Boolean)
               .map((service) => `
-                <a href="${isZh && service.slug === "cross-border-property-management" ? "/zh/cross-border-property-management/" : `/services/${service.slug}/`}">
+                <a href="${isZh && service.slug === "cross-border-property-management" ? "/zh/cross-border-property-management/" : isZh && service.slug === "us-swt-work-travel-support" ? "/zh/us-swt-work-travel-support/" : `/services/${service.slug}/`}">
                   <b>${isZh ? service.titleZh : service.title}</b>
                   <span>${isZh ? service.descZh : service.shortDesc}</span>
                   <em>${service.price}</em>
@@ -19668,6 +19669,27 @@ const serviceProducts = [
     deliverables: ["Property master file", "Contact and responsibility map", "Maintenance and quotation log", "Rent and invoice evidence index", "Owner decision tracker", "Periodic bilingual report"],
     showcase: ["Overseas handover file", "Maintenance quotation comparison", "Tenancy communication log", "Quarterly owner report"],
     pricing: ["Initial property review: quoted after document intake", "One-off handover or maintenance case: quoted by scope", "Monthly owner coordination: quoted by property and communication volume", "Multi-property reporting: portfolio quotation"]
+  },
+  {
+    code: "15",
+    title: "US Summer Work Travel Route Support",
+    titleZh: "海外督導｜美國 SWT 打工度假陪跑",
+    slug: "us-swt-work-travel-support",
+    type: "US exchange route support",
+    audience: "Students and recent graduates who need a clear check of Summer Work Travel eligibility, designated sponsors, job terms, budgets and possible J-1 alternatives.",
+    audienceZh: "面向希望參加美國 Summer Work Travel、需要核對在學資格、指定 sponsor、職位條件、總成本及替代 J-1 路徑的學生與近期畢業生。",
+    desc: "Eligibility triage, sponsor and job checks, cost comparison, interview preparation, accommodation planning and pre-departure support.",
+    descZh: "資格初評、指定 sponsor 與職位核對、成本比較、簽證面談、住宿交通及行前準備。",
+    shortDesc: "SWT eligibility, sponsor, job, budget and departure planning.",
+    cardDesc: "Practical support for US Summer Work Travel: check the timing first, then the sponsor, job, budget, interview and travel arrangements.",
+    price: "Free route triage; packages quoted by scope",
+    timeline: "From eligibility check to departure",
+    tone: "rose",
+    overview: "Practical support for students considering US Summer Work Travel. OTC first checks whether the timing and student status fit SWT, then works through the sponsor, job, budget, interview and travel arrangements with the student.",
+    process: ["Graduation and travel-date check", "Student status, nationality and English review", "Designated sponsor and programme verification", "Job terms, hours, pay and total-cost comparison", "Visa interview and document preparation", "Housing, transport, insurance and pre-departure checklist"],
+    deliverables: ["Eligibility checkpoint note", "Sponsor verification record", "Job and contract comparison", "Budget and break-even worksheet", "Interview preparation pack", "Pre-departure action list"],
+    showcase: ["Final-year SWT timing review", "Recent-graduate J-1 Intern route comparison", "Seasonal job cost check", "Housing and transport risk file"],
+    pricing: ["Initial route triage: free", "Sponsor / offer verification: quoted by case", "Interview and departure pack: quoted by scope", "End-to-end coordination: quoted after eligibility review"]
   }
 ];
 
@@ -19839,6 +19861,7 @@ function servicesLandingPage(locale = "en") {
               <a href="/services/university-application-advisory/"><b>升學文件</b><strong>申請顧問</strong><span>選校、材料、進度表、文件審核。</span></a>
               <a href="/services/academic-guardianship-family-office/"><b>在讀跟進</b><strong>學術監護</strong><span>學校溝通、進度追蹤、家長報告。</span></a>
               <a href="/zh/cross-border-property-management/"><b>海外資產</b><strong>跨境房產</strong><span>收樓、租務、維修、文件與業主報告。</span></a>
+              <a href="/zh/us-swt-work-travel-support/"><b>美國交流</b><strong>SWT 打工度假</strong><span>先查在讀資格，再看 sponsor、職位與成本。</span></a>
             </div>
           </section>
           <section>
@@ -19883,6 +19906,7 @@ function servicesLandingPage(locale = "en") {
             <a href="/consultation-chat/">AI 初步分流</a>
             <a href="/zh/summer-school-alliance/">暑校聯盟</a>
             <a href="/zh/cross-border-property-management/">跨境房產管理</a>
+            <a href="/zh/us-swt-work-travel-support/">美國 SWT 陪跑</a>
             <a href="/zh/education-partners/">機構合作</a>
           </div>
           <div class="service-mini-index">
@@ -20132,6 +20156,154 @@ const crossBorderPropertyManagementZh = pageShell({
             <span>相關資訊</span>
             <a href="/zh/insights/uk-property-sdlt-cgt-basics-2026/">英國房產稅務基礎</a>
             <a href="/zh/insights/australia-property-investment-tax-basics-2026/">澳洲房產投資稅務基礎</a>
+            <a href="/zh/services/">OTC 服務導覽</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  `
+});
+
+const usSwtWorkTravelSupportZh = pageShell({
+  title: "海外督導｜美國 SWT 打工度假陪跑 | OTC Study Hub",
+  current: "services",
+  locale: "zh",
+  lang: "zh-Hant",
+  description: "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、預算合約、簽證面談、住宿交通及行前準備。",
+  path: "/zh/us-swt-work-travel-support/",
+  body: `
+    <section class="swt-service-hero">
+      <div class="band swt-service-hero-grid">
+        <div>
+          <div class="eyebrow">US SUMMER WORK TRAVEL</div>
+          <h1>海外督導｜美國 SWT 打工度假陪跑</h1>
+          <h2>先確認出發時的學生身分，再算這趟值不值得。</h2>
+          <p>Summer Work Travel 是美國 J-1 文化交流項目，不是一般的「畢業後打工簽」。我們先看畢業與出發時間，再核對 sponsor、職位、成本、住宿和交通。</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("美國 SWT 免費資格初評")}&body=${encodeURIComponent("畢業年月：\n預計出發：\n國籍／護照：\n英文程度：\n大約預算：")}">免費判斷路徑</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想做美國 SWT 資格初評。畢業年月是：；預計出發時間是：。")}" target="_blank" rel="noopener">WhatsApp 諮詢</a>
+          </div>
+        </div>
+        <aside class="swt-quick-check">
+          <span>先準備 5 項資料</span>
+          <ol>
+            <li><b>01</b><strong>預計畢業年月</strong></li>
+            <li><b>02</b><strong>希望出發的日期</strong></li>
+            <li><b>03</b><strong>國籍與護照</strong></li>
+            <li><b>04</b><strong>英文溝通程度</strong></li>
+            <li><b>05</b><strong>可接受的總預算</strong></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band swt-answer-strip" aria-label="SWT 快速判斷">
+      <div><b>01</b><strong>仍在讀？</strong><span>SWT 的第一道門檻</span></div>
+      <div><b>02</b><strong>誰是 sponsor？</strong><span>先查官方指定資格</span></div>
+      <div><b>03</b><strong>實際賺多少？</strong><span>時薪減住宿交通與項目費</span></div>
+      <div><b>04</b><strong>想得到什麼？</strong><span>文化體驗或履歷經驗</span></div>
+    </section>
+
+    <section class="band compact-band swt-service-body">
+      <div class="section-head compact-head service-review-head">
+        <span>先回答最常見的問題</span>
+        <strong>大四畢業後去 SWT，還來得及嗎？</strong>
+        <p>不能只看申請時是不是學生，還要把畢業日、項目開始日和 sponsor 的審核口徑放在一起看。</p>
+      </div>
+
+      <div class="service-herald-grid swt-service-layout">
+        <main class="service-herald-main">
+          <section>
+            <h2 class="zh-herald-section-head" data-num="01">SWT 的基本資格</h2>
+            <div class="swt-eligibility-grid">
+              <article><b>在讀身分</b><strong>已註冊並正在修讀</strong><p>美國國務院要求申請人是在美國境外認可、以課堂授課為主的高等院校就讀，並正在修讀學位或其他全日制課程。</p></article>
+              <article><b>學習進度</b><strong>至少完成一學期</strong><p>剛收到大學錄取、尚未完成第一學期的人，一般還未達到這項要求。</p></article>
+              <article><b>英文能力</b><strong>能在英語環境溝通</strong><p>不只是為了面談，也關係到工作安全、住處溝通和遇到問題時能否求助。</p></article>
+              <article><b>職位安排</b><strong>部分申請人需先有工作</strong><p>除 Visa Waiver Program 國家／地區的參加者外，通常要在入境前完成工作安排，並由 sponsor 審核。</p></article>
+            </div>
+            <div class="swt-warning">
+              <strong>如果項目開始前已經畢業</strong>
+              <p>不要先假設自己仍符合 SWT。請讓美國國務院指定 sponsor 按實際畢業日、項目開始日和學籍文件作書面確認。若已不符合，再看 J-1 Intern 等其他類別，不要把兩種項目混在一起。</p>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="02">SWT 與 J-1 Intern 不一樣</h2>
+            <div class="swt-route-compare">
+              <article>
+                <span>Summer Work Travel</span>
+                <strong>長假期間的文化交流與臨時工作</strong>
+                <ul><li>核心對象是在讀大學生</li><li>最長四個月，不可延期</li><li>工作須具季節性或臨時性</li><li>重點是與美國人互動和文化體驗</li></ul>
+              </article>
+              <article>
+                <span>J-1 Intern</span>
+                <strong>與學習背景相關的實習訓練</strong>
+                <ul><li>可為在讀生</li><li>或項目開始前 12 個月內畢業</li><li>須有正式培訓／實習安排</li><li>不能用一般非技術臨時工作代替</li></ul>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">值不值得，算這五筆帳</h2>
+            <div class="swt-value-list">
+              <article><b>01</b><div><strong>總成本</strong><p>項目費、SEVIS／簽證相關費用、機票、保險、住宿押金和落地交通。</p></div></article>
+              <article><b>02</b><div><strong>實際收入</strong><p>時薪、每週承諾工時、加班規則、發薪週期，以及淡旺季會不會減班。</p></div></article>
+              <article><b>03</b><div><strong>住宿與通勤</strong><p>每週房租、押金、多人合住條件、到工作地點的距離和沒有車時怎麼上下班。</p></div></article>
+              <article><b>04</b><div><strong>英文與適應</strong><p>工作中要說多少英文、是否能處理客訴、輪班、室友和臨時狀況。</p></div></article>
+              <article><b>05</b><div><strong>你的目的</strong><p>若主要想賺錢，先做收支試算；若重視文化體驗或履歷，則要看職位內容和可學到什麼。</p></div></article>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="04">海外督導可以陪你做什麼</h2>
+            <div class="property-service-grid swt-support-grid">
+              <article><b>Route</b><strong>資格與時間初評</strong><p>先看在學證明、畢業年月、長假與出發時間，判斷應繼續查 SWT 還是改看其他路徑。</p></article>
+              <article><b>Sponsor</b><strong>指定 sponsor 核對</strong><p>確認對接機構是否出現在美國國務院指定 sponsor 名單，整理需要向 sponsor 問清楚的問題。</p></article>
+              <article><b>Job</b><strong>職位與合約核對</strong><p>看雇主、地點、時薪、工時、住宿、交通、取消及退款條款，列出不清楚或需要書面確認的地方。</p></article>
+              <article><b>Budget</b><strong>成本與收支試算</strong><p>把項目費、機票、保險、房租、押金、交通和可能收入放在同一張表裡算。</p></article>
+              <article><b>Visa</b><strong>面談與文件準備</strong><p>按真實資料整理面談問題、行程、工作與住宿說明；不背稿、不包簽、不製作虛假文件。</p></article>
+              <article><b>Departure</b><strong>住宿交通與行前清單</strong><p>核對入住、通勤、保險、緊急聯絡、到埗報到和 sponsor 要求的行前事項。</p></article>
+            </div>
+          </section>
+
+          <section class="swt-boundary">
+            <strong>服務邊界</strong>
+            <p>OTC 提供公開資訊整理、資格初步篩查、文件和行程準備，不是美國國務院指定 sponsor、雇主或移民律師。是否接收參加者、簽發 DS-2019、批准簽證及允許入境，分別由指定 sponsor、美國使領館及邊境機關決定；任何職位、工時、收入或簽證結果均不能保證。</p>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="05">官方資料</h2>
+            <div class="swt-source-links">
+              <a href="https://j1visa.state.gov/programs/summer-work-travel/" target="_blank" rel="noopener"><strong>BridgeUSA — Summer Work Travel</strong><span>資格、最長時限、工作限制與 sponsor 責任</span></a>
+              <a href="https://j1visa.state.gov/programs/intern/" target="_blank" rel="noopener"><strong>BridgeUSA — Intern</strong><span>在讀生及畢業 12 個月內申請人的實習類別</span></a>
+              <a href="https://j1visa.state.gov/participants/how-to-apply/sponsor-search/" target="_blank" rel="noopener"><strong>BridgeUSA — Sponsor Search</strong><span>查找美國國務院指定 sponsor</span></a>
+            </div>
+            <p class="source-note">本頁於 2026 年 9 月按美國國務院 BridgeUSA 公開資料整理。規則、日期與 sponsor 審核可能更新，申請前須再次查證。</p>
+          </section>
+        </main>
+
+        <aside class="service-guide-side service-herald-side swt-service-side">
+          <div class="service-guide-card is-urgent">
+            <span>免費初評</span>
+            <strong>先看你走哪條路</strong>
+            <p>請提供畢業年月、計畫出發時間、國籍／護照、英文程度和預算。首次聯絡不用傳護照影本。</p>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent("美國 SWT 免費資格初評")}">電郵提交資料</a>
+          </div>
+          <div class="service-guide-card">
+            <span>適合現在問</span>
+            <strong>大三、大四及剛畢業</strong>
+            <p>越接近畢業，越要先把學籍與項目開始時間問清楚，避免先付費再發現路徑不合。</p>
+          </div>
+          <div class="service-guide-card">
+            <span>聯絡 OTC</span>
+            <strong>海外督導</strong>
+            <p>office@overseasuk.com<br>WhatsApp +44 7947 991572<br>WeChat overseasus</p>
+            <a href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想做美國 SWT 資格初評。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="service-side-links">
+            <span>相關入口</span>
+            <a href="/offices/united-states/">美國服務入口</a>
+            <a href="/zh/summer-school-alliance/united-states/">美國暑校聯盟</a>
             <a href="/zh/services/">OTC 服務導覽</a>
           </div>
         </aside>
@@ -24674,7 +24846,7 @@ const regionalOfficePages = [
     subtitle: "United States Gateway",
     desc: "面向美國本科、研究生、pathway、Study Group North America 及英美路線比較的初步篩選入口。",
     regions: ["US undergraduate route screening", "Graduate application document review", "Study Group North America options", "UK / US route comparison"],
-    links: [["Study Group 2026 中文申請", "/zh/study-group-2026-applications/"], ["大學申請評估", "/university-applications/"], ["國際課程輔導", "/international-curriculum-tutoring/"]]
+    links: [["美國 SWT 打工度假陪跑", "/zh/us-swt-work-travel-support/"], ["Study Group 2026 中文申請", "/zh/study-group-2026-applications/"], ["大學申請評估", "/university-applications/"], ["國際課程輔導", "/international-curriculum-tutoring/"]]
   },
   {
     id: "east-asia",
@@ -25536,7 +25708,7 @@ const summerSchoolAlliance = pageShell({
         <article class="resource-row"><div><div class="meta">高頻問題 01</div><h3>現在還有什麼暑期營隊可以報名？</h3><p>家長真正想問的是：現在報還來不來得及、還有沒有名額、哪個國家不用太晚開始補文件。OTC 的做法不是先亂推，而是先看時間窗口、學生年齡、簽證與 health / consent 文件負擔，再給可報 shortlist。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/uk/">先看英國</a></article>
         <article class="resource-row"><div><div class="meta">高頻問題 02</div><h3>我是高一，想去美國、加拿大、澳洲或其他英文國家，找遊學團還是代辦比較好？</h3><p>如果是高一或高中段學生，核心不是「團」還是「代辦」本身，而是學生成熟度、英文輸出、住宿接受度和家長是否需要更細的在途支持。OTC 更適合處理「要把選項看懂、材料理順、風險說清」的家庭。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/united-states/">看美國頁</a></article>
         <article class="resource-row"><div><div class="meta">高頻問題 03</div><h3>第一次海外遊學，7 年級和 9 年級兄弟一起去，想多國學生、住校或 homestay、戶外多、不要太像補習班，怎麼選？</h3><p>這種需求非常典型。通常不應直接上高壓學術營或考證型英文班，而是更適合英文提升型寄宿路線、低齡寄宿型或平衡活動型項目。重點在 mixed nationality、school-based classes、outdoor activity 與 pastoral support，而不是 brochure 上名字最大聲。</p></div><a class="btn btn-light" href="/zh/summer-school-alliance/canada/">看加拿大頁</a></article>
-        <article class="resource-row"><div><div class="meta">高頻問題 04</div><h3>30 歲內已畢業，想找暑期美國營地 / work-and-travel 類型，有沒有替代路線？</h3><p>這類已經不是傳統中學生 summer school，而是 gap year / camp counselor / cultural exchange 類問題。OTC 會先區分學生暑期營、成年人營地工作、志工和打工旅遊平替，不把不同東西混著講，避免家長和學生被錯誤廣告帶偏。</p></div><a class="btn btn-light" href="/consultation-chat/?source=summer-school-alliance&route=adult-seasonal">提交成人暑期需求</a></article>
+        <article class="resource-row"><div><div class="meta">高頻問題 04</div><h3>大四或剛畢業，還能參加美國 Summer Work Travel 嗎？</h3><p>SWT 要先核對在讀身分、畢業日和項目開始日；若已不符合，才另看 J-1 Intern 等不同類別。先把資格問清楚，再比較職位、成本、住宿和交通。</p></div><a class="btn btn-light" href="/zh/us-swt-work-travel-support/">查看 SWT 陪跑</a></article>
       </div>
     </section>
 
@@ -33962,6 +34134,7 @@ write("learning-platform", learningPlatform);
 write("services", services);
 write("zh/services", servicesZh);
 write("zh/cross-border-property-management", crossBorderPropertyManagementZh);
+write("zh/us-swt-work-travel-support", usSwtWorkTravelSupportZh);
 serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });

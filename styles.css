@@ -430,6 +430,380 @@
   }
 }
 
+/* US Summer Work Travel — straightforward eligibility desk */
+.swt-service-hero {
+  background: linear-gradient(116deg, #132946 0%, #132946 72%, #8d3138 72%, #8d3138 100%);
+  border-bottom: 5px solid #c7a560;
+  color: #fff;
+}
+
+.swt-service-hero-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(285px, 0.55fr);
+  padding-bottom: 42px;
+  padding-top: 42px;
+}
+
+.swt-service-hero .eyebrow {
+  color: #dec58d;
+  letter-spacing: 0.16em;
+}
+
+.swt-service-hero h1 {
+  color: #fff;
+  font-size: clamp(28px, 3.5vw, 42px);
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+  margin: 9px 0 10px;
+  max-width: 820px;
+}
+
+.swt-service-hero h2 {
+  color: #ead39e;
+  font-size: clamp(17px, 1.9vw, 21px);
+  line-height: 1.45;
+  margin: 0 0 12px;
+}
+
+.swt-service-hero p {
+  color: #e5e9ee;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 740px;
+}
+
+.swt-service-hero .actions {
+  margin-top: 22px;
+}
+
+.swt-quick-check {
+  align-self: stretch;
+  background: #f6f0e4;
+  border-top: 4px solid #c7a560;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+  color: #132946;
+  padding: 21px 23px;
+}
+
+.swt-quick-check > span {
+  color: #8d3138;
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  margin-bottom: 8px;
+}
+
+.swt-quick-check ol {
+  border-top: 1px solid #d7cdbb;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swt-quick-check li {
+  align-items: baseline;
+  border-bottom: 1px solid #d7cdbb;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 28px 1fr;
+  padding: 9px 0;
+}
+
+.swt-quick-check li b {
+  color: #a27534;
+  font-size: 10px;
+}
+
+.swt-quick-check li strong {
+  font-size: 14px;
+}
+
+.swt-answer-strip {
+  background: #fff;
+  border: 1px solid #d9d0c1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 20px;
+  padding: 0;
+}
+
+.swt-answer-strip > div {
+  border-right: 1px solid #d9d0c1;
+  padding: 15px 17px;
+}
+
+.swt-answer-strip > div:last-child {
+  border-right: 0;
+}
+
+.swt-answer-strip b,
+.swt-answer-strip strong,
+.swt-answer-strip span {
+  display: block;
+}
+
+.swt-answer-strip b {
+  color: #9a353b;
+  font-size: 10px;
+}
+
+.swt-answer-strip strong {
+  color: #132946;
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.swt-answer-strip span {
+  color: #6c6254;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.swt-service-body {
+  padding-top: 38px;
+}
+
+.swt-service-layout {
+  align-items: start;
+}
+
+.swt-eligibility-grid {
+  display: grid;
+  gap: 11px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.swt-eligibility-grid article {
+  background: #f6f2e9;
+  border-top: 3px solid #254f72;
+  padding: 18px;
+}
+
+.swt-eligibility-grid b,
+.swt-eligibility-grid strong {
+  display: block;
+}
+
+.swt-eligibility-grid b {
+  color: #9a353b;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.swt-eligibility-grid strong {
+  color: #132946;
+  font-size: 17px;
+  margin: 6px 0;
+}
+
+.swt-eligibility-grid p,
+.swt-value-list p {
+  color: #675e51;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.swt-warning {
+  background: #fff7e5;
+  border-left: 5px solid #b47c2c;
+  margin-top: 13px;
+  padding: 17px 19px;
+}
+
+.swt-warning strong {
+  color: #7f2e34;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.swt-warning p {
+  color: #5f5548;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.swt-route-compare {
+  display: grid;
+  gap: 13px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.swt-route-compare article {
+  background: #132946;
+  color: #fff;
+  padding: 20px;
+}
+
+.swt-route-compare article:last-child {
+  background: #254f5c;
+}
+
+.swt-route-compare span {
+  color: #dec58d;
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.swt-route-compare strong {
+  display: block;
+  font-size: 17px;
+  line-height: 1.45;
+  margin: 7px 0 9px;
+}
+
+.swt-route-compare ul {
+  color: #e7ebec;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.swt-value-list {
+  border-top: 1px solid #d9d0c1;
+}
+
+.swt-value-list article {
+  border-bottom: 1px solid #d9d0c1;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 38px 1fr;
+  padding: 13px 4px;
+}
+
+.swt-value-list article > b {
+  color: #9a353b;
+  font-size: 11px;
+}
+
+.swt-value-list strong {
+  color: #132946;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.swt-support-grid article {
+  border-left-color: #8d3138;
+}
+
+.swt-boundary {
+  background: #132946;
+  border-left: 5px solid #c7a560;
+  color: #fff;
+  padding: 22px;
+}
+
+.swt-boundary strong {
+  color: #dec58d;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.swt-boundary p {
+  color: #e4e8eb;
+  font-size: 12px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.swt-source-links {
+  display: grid;
+  gap: 10px;
+}
+
+.swt-source-links a {
+  background: #fff;
+  border: 1px solid #d9d0c1;
+  border-left: 4px solid #254f72;
+  color: #132946;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.swt-source-links a strong,
+.swt-source-links a span {
+  display: block;
+}
+
+.swt-source-links a strong {
+  font-size: 14px;
+}
+
+.swt-source-links a span {
+  color: #6c6254;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.swt-service-side {
+  top: 84px;
+}
+
+@media (max-width: 900px) {
+  .swt-service-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .swt-quick-check {
+    max-width: 620px;
+  }
+
+  .swt-answer-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .swt-answer-strip > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .swt-answer-strip > div:nth-child(-n + 2) {
+    border-bottom: 1px solid #d9d0c1;
+  }
+}
+
+@media (max-width: 640px) {
+  .swt-service-hero {
+    background: #132946;
+  }
+
+  .swt-service-hero-grid {
+    gap: 22px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .swt-service-hero h1 {
+    font-size: 28px;
+  }
+
+  .swt-answer-strip,
+  .swt-eligibility-grid,
+  .swt-route-compare {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .swt-answer-strip > div,
+  .swt-answer-strip > div:nth-child(2) {
+    border-bottom: 1px solid #d9d0c1;
+    border-right: 0;
+  }
+
+  .swt-answer-strip > div:last-child {
+    border-bottom: 0;
+  }
+}
+
 /* Australia career landing desk */
 .career-coaching-page {
   --career-navy: #13233f;
