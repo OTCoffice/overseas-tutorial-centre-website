@@ -23,6 +23,413 @@
   --font-zh-editorial: var(--font-claude-serif);
 }
 
+/* Cross-border property management — compact owner-desk layout */
+.property-management-hero {
+  background: linear-gradient(118deg, #10283f 0%, #10283f 66%, #174753 66%, #174753 100%);
+  border-bottom: 5px solid #bb9659;
+  color: #f8f3e8;
+}
+
+.property-management-hero-grid {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr);
+  padding-bottom: 42px;
+  padding-top: 42px;
+}
+
+.property-management-hero-copy {
+  align-self: center;
+  max-width: 790px;
+}
+
+.property-management-hero .eyebrow {
+  color: #dcc28d;
+  letter-spacing: 0.17em;
+}
+
+.property-management-hero h1 {
+  color: #fffdf7;
+  font-size: clamp(28px, 3.5vw, 42px);
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+  margin: 9px 0 10px;
+}
+
+.property-management-hero h2 {
+  color: #d9c18f;
+  font-size: clamp(17px, 1.8vw, 21px);
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0 0 12px;
+  max-width: 720px;
+}
+
+.property-management-hero p {
+  color: #e5e9e8;
+  font-size: 15px;
+  line-height: 1.85;
+  margin: 0;
+  max-width: 720px;
+}
+
+.property-management-hero .actions {
+  margin-top: 22px;
+}
+
+.property-management-ledger {
+  align-self: stretch;
+  background: #f5efe2;
+  border-top: 4px solid #bb9659;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
+  color: #10283f;
+  padding: 23px 24px 20px;
+}
+
+.property-management-ledger > span {
+  color: #287078;
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  margin-bottom: 6px;
+}
+
+.property-management-ledger > strong {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.property-management-ledger dl {
+  border-top: 1px solid #cfc4ae;
+  margin: 0;
+}
+
+.property-management-ledger dl div {
+  align-items: baseline;
+  border-bottom: 1px solid #dcd3c1;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 45px 1fr;
+  padding: 8px 0;
+}
+
+.property-management-ledger dt {
+  color: #a46e2f;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.property-management-ledger dd {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.property-management-strip {
+  background: #fff;
+  border: 1px solid #d9d0c0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 20px;
+  padding: 0;
+}
+
+.property-management-strip > div {
+  border-right: 1px solid #d9d0c0;
+  min-width: 0;
+  padding: 16px 18px 17px;
+}
+
+.property-management-strip > div:last-child {
+  border-right: 0;
+}
+
+.property-management-strip b,
+.property-management-strip strong,
+.property-management-strip span {
+  display: block;
+}
+
+.property-management-strip b {
+  color: #a36f31;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+}
+
+.property-management-strip strong {
+  color: #10283f;
+  font-size: 17px;
+  margin: 4px 0 5px;
+}
+
+.property-management-strip span {
+  color: #655d50;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.property-management-body {
+  padding-top: 38px;
+}
+
+.property-management-layout {
+  align-items: start;
+}
+
+.property-situation-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.property-situation-grid article {
+  background: #f7f3ea;
+  border-top: 3px solid #24717a;
+  min-height: 142px;
+  padding: 18px;
+}
+
+.property-situation-grid article b,
+.property-situation-grid article strong,
+.property-situation-grid article span {
+  display: block;
+}
+
+.property-situation-grid article b {
+  color: #a36f31;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.property-situation-grid article strong {
+  color: #10283f;
+  font-size: 18px;
+  margin: 7px 0;
+}
+
+.property-situation-grid article span {
+  color: #655d50;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.property-service-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.property-service-grid article {
+  background: #fff;
+  border: 1px solid #dcd3c2;
+  border-left: 4px solid #1d5260;
+  padding: 18px;
+}
+
+.property-service-grid article b,
+.property-service-grid article strong {
+  display: block;
+}
+
+.property-service-grid article b {
+  color: #a36f31;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.property-service-grid article strong {
+  color: #10283f;
+  font-size: 17px;
+  margin: 5px 0 7px;
+}
+
+.property-service-grid article p {
+  color: #655d50;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.property-process-list {
+  border-top: 1px solid #d8cfbf;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.property-process-list li {
+  align-items: start;
+  border-bottom: 1px solid #d8cfbf;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 42px 1fr;
+  padding: 13px 4px;
+}
+
+.property-process-list li > b {
+  color: #a36f31;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.property-process-list li strong,
+.property-process-list li span {
+  display: block;
+}
+
+.property-process-list li strong {
+  color: #10283f;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.property-process-list li span {
+  color: #655d50;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.property-deliverable-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.property-deliverable-grid > div {
+  background: #edf2f0;
+  border-bottom: 3px solid #287078;
+  min-height: 116px;
+  padding: 15px;
+}
+
+.property-deliverable-grid b,
+.property-deliverable-grid strong,
+.property-deliverable-grid span {
+  display: block;
+}
+
+.property-deliverable-grid b {
+  color: #a36f31;
+  font-size: 10px;
+}
+
+.property-deliverable-grid strong {
+  color: #10283f;
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+.property-deliverable-grid span {
+  color: #655d50;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.property-boundary-panel {
+  align-items: start;
+  background: #10283f;
+  border-left: 5px solid #bb9659;
+  color: #f7f1e6;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(180px, 0.65fr) minmax(0, 1.35fr);
+  padding: 24px;
+}
+
+.property-boundary-panel span {
+  color: #d9bd83;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.property-boundary-panel h2 {
+  color: #fff;
+  font-size: 19px;
+  line-height: 1.45;
+  margin: 6px 0 0;
+}
+
+.property-boundary-panel p {
+  color: #e5e8e6;
+  font-size: 12px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.property-management-side {
+  top: 84px;
+}
+
+@media (max-width: 900px) {
+  .property-management-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .property-management-ledger {
+    max-width: 620px;
+  }
+
+  .property-management-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .property-management-strip > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .property-management-strip > div:nth-child(-n + 2) {
+    border-bottom: 1px solid #d9d0c0;
+  }
+}
+
+@media (max-width: 640px) {
+  .property-management-hero {
+    background: #10283f;
+  }
+
+  .property-management-hero-grid {
+    gap: 22px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .property-management-hero h1 {
+    font-size: 28px;
+  }
+
+  .property-management-hero h2 {
+    font-size: 17px;
+  }
+
+  .property-management-strip,
+  .property-situation-grid,
+  .property-service-grid,
+  .property-deliverable-grid,
+  .property-boundary-panel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .property-management-strip > div,
+  .property-management-strip > div:nth-child(2) {
+    border-bottom: 1px solid #d9d0c0;
+    border-right: 0;
+  }
+
+  .property-management-strip > div:last-child {
+    border-bottom: 0;
+  }
+
+  .property-process-list li {
+    grid-template-columns: 34px 1fr;
+  }
+
+  .property-boundary-panel {
+    gap: 13px;
+  }
+}
+
 /* Australia career landing desk */
 .career-coaching-page {
   --career-navy: #13233f;

@@ -2492,6 +2492,7 @@ function searchItems() {
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
+    ["海外督導｜跨境房產管理", "/zh/cross-border-property-management/", "海外業主收樓交接、租務協調、維修調度、供應商對接、文件與付款證據整理及定期雙語業主報告。"],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
     ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
@@ -19284,7 +19285,7 @@ function serviceCards() {
       title: "Family & Student Response",
       titleZh: "家庭與學生端",
       desc: "申請、監護、緊急調度與持續跟進。",
-      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools"]
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management"]
     },
     {
       title: "Publishing & Language",
@@ -19369,7 +19370,7 @@ function serviceArticleDirectory(locale = "en") {
               .map((slug) => serviceProducts.find((service) => service.slug === slug))
               .filter(Boolean)
               .map((service) => `
-                <a href="/services/${service.slug}/">
+                <a href="${isZh && service.slug === "cross-border-property-management" ? "/zh/cross-border-property-management/" : `/services/${service.slug}/`}">
                   <b>${isZh ? service.titleZh : service.title}</b>
                   <span>${isZh ? service.descZh : service.shortDesc}</span>
                   <em>${service.price}</em>
@@ -19646,6 +19647,27 @@ const serviceProducts = [
       "Short-trip dispatch cover: quoted by dates, destination and risk level",
       "Termly family dispatch add-on: quoted with guardianship or family office package"
     ]
+  },
+  {
+    code: "14",
+    title: "Cross-border Property Management Coordination",
+    titleZh: "海外督導｜跨境房產管理",
+    slug: "cross-border-property-management",
+    type: "Overseas owner coordination",
+    audience: "Overseas property owners and families needing one bilingual coordination desk for property files, local suppliers, occupier communication and regular reporting.",
+    audienceZh: "面向持有海外房產、需要雙語行政協調、供應商對接、租務資訊整理與定期業主報告的個人及家庭。",
+    desc: "Bilingual property administration, local supplier coordination, maintenance tracking, document organisation and owner reporting.",
+    descZh: "為海外業主提供雙語房產行政、當地供應商協調、維修追蹤、文件整理與業主報告。",
+    shortDesc: "Bilingual administration, maintenance coordination and owner reporting for overseas property.",
+    cardDesc: "Cross-border property administration and owner-side coordination covering handover, local contacts, maintenance, tenancy records and reporting, with regulated work referred locally.",
+    price: "Quoted by property, location and service frequency",
+    timeline: "One-off, monthly or annual coordination",
+    tone: "navy",
+    overview: "A bilingual owner-side coordination service for overseas property. OTC organises the working file, communication trail, supplier quotes, maintenance log and regular owner report so that decisions can be made without fragmented cross-border messages.",
+    process: ["Property and authority intake", "Local contact and responsibility map", "Document and condition-file setup", "Supplier, occupier and agent coordination", "Issue tracking and owner approval", "Monthly, quarterly or case-close reporting"],
+    deliverables: ["Property master file", "Contact and responsibility map", "Maintenance and quotation log", "Rent and invoice evidence index", "Owner decision tracker", "Periodic bilingual report"],
+    showcase: ["Overseas handover file", "Maintenance quotation comparison", "Tenancy communication log", "Quarterly owner report"],
+    pricing: ["Initial property review: quoted after document intake", "One-off handover or maintenance case: quoted by scope", "Monthly owner coordination: quoted by property and communication volume", "Multi-property reporting: portfolio quotation"]
   }
 ];
 
@@ -19790,7 +19812,7 @@ function servicesLandingPage(locale = "en") {
             <a href="/services/station-dispatch-emergency-coordination/"><strong>驛站調度</strong><span>24 小時緊急協調</span></a>
             <a href="/services/academic-guardianship-family-office/"><strong>學術監護</strong><span>家庭學業辦公室</span></a>
             <a href="/services/university-application-advisory/"><strong>申請顧問</strong><span>升學文件規劃</span></a>
-            <a href="/zh/australia-job-search-coaching/"><strong>澳洲求職</strong><span>履歷、面試與落地陪跑</span></a>
+            <a href="/zh/cross-border-property-management/"><strong>跨境房產</strong><span>收樓、租務、維修與業主報告</span></a>
           </aside>
         </div>
       </div>
@@ -19816,13 +19838,13 @@ function servicesLandingPage(locale = "en") {
               <a href="/services/station-dispatch-emergency-coordination/"><b>突發協調</b><strong>驛站調度</strong><span>24 小時緊急調度、住宿接送、家長端更新。</span></a>
               <a href="/services/university-application-advisory/"><b>升學文件</b><strong>申請顧問</strong><span>選校、材料、進度表、文件審核。</span></a>
               <a href="/services/academic-guardianship-family-office/"><b>在讀跟進</b><strong>學術監護</strong><span>學校溝通、進度追蹤、家長報告。</span></a>
-              <a href="/services/publishing-editorial-production/"><b>出版製作</b><strong>海外書局</strong><span>書稿、報告、教材與雙語出版。</span></a>
+              <a href="/zh/cross-border-property-management/"><b>海外資產</b><strong>跨境房產</strong><span>收樓、租務、維修、文件與業主報告。</span></a>
             </div>
           </section>
           <section>
             <h2 class="zh-herald-section-head" data-num="02">三條主線</h2>
             <div class="service-route-list">
-              <a href="/services/station-dispatch-emergency-coordination/"><span>家庭端</span><strong>家庭與學生端</strong><em>驛站調度、監護、申請、學習工具。</em></a>
+              <a href="/services/station-dispatch-emergency-coordination/"><span>家庭端</span><strong>家庭與私人客戶</strong><em>驛站調度、監護、申請、學習工具與房產協調。</em></a>
               <a href="/services/language-context-studio/"><span>出版端</span><strong>出版與語言</strong><em>翻譯、編輯、出版、研究簡報、合規副本。</em></a>
               <a href="/zh/education-partners/"><span>機構端</span><strong>機構合作</strong><em>市場進入、培訓、教育展、accreditation。</em></a>
             </div>
@@ -19860,6 +19882,7 @@ function servicesLandingPage(locale = "en") {
             <a href="/application-service-standards/">服務標準</a>
             <a href="/consultation-chat/">AI 初步分流</a>
             <a href="/zh/summer-school-alliance/">暑校聯盟</a>
+            <a href="/zh/cross-border-property-management/">跨境房產管理</a>
             <a href="/zh/education-partners/">機構合作</a>
           </div>
           <div class="service-mini-index">
@@ -19977,6 +20000,145 @@ function servicesLandingPage(locale = "en") {
 
 const services = servicesLandingPage("en");
 const servicesZh = servicesLandingPage("zh");
+
+const crossBorderPropertyManagementZh = pageShell({
+  title: "海外督導｜跨境房產管理 | OTC Study Hub",
+  current: "services",
+  locale: "zh",
+  lang: "zh-Hant",
+  description: "OTC 海外督導跨境房產管理：為海外業主提供收樓交接、租務協調、維修調度、文件整理、供應商對接與定期業主報告。",
+  path: "/zh/cross-border-property-management/",
+  body: `
+    <section class="property-management-hero">
+      <div class="band property-management-hero-grid">
+        <div class="property-management-hero-copy">
+          <div class="eyebrow">OTC OVERSEAS OWNER DESK</div>
+          <h1>海外督導｜跨境房產管理</h1>
+          <h2>把海外房產的文件、溝通、維修與決策，放進同一個工作台。</h2>
+          <p>面向不常在房產所在地、需要中文決策與英文執行紀錄的海外業主。OTC 負責行政協調、資訊整理、供應商跟進與業主端報告；需持牌或受監管的工作，交由當地合資格人士處理。</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("OTC 跨境房產管理初步評估")}">提交房產概況</a>
+            <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 跨境房產管理服務。")}" target="_blank" rel="noopener">WhatsApp 諮詢</a>
+          </div>
+        </div>
+        <aside class="property-management-ledger" aria-label="服務工作台摘要">
+          <span>OWNER DESK / 01</span>
+          <strong>一個窗口，六組紀錄</strong>
+          <dl>
+            <div><dt>資產</dt><dd>房產資料與權責圖</dd></div>
+            <div><dt>租務</dt><dd>住戶、代理與交接紀錄</dd></div>
+            <div><dt>維修</dt><dd>報修、報價、批准與完工</dd></div>
+            <div><dt>財務</dt><dd>租金、發票與付款證據索引</dd></div>
+            <div><dt>報告</dt><dd>月度／季度雙語摘要</dd></div>
+            <div><dt>轉介</dt><dd>法律、稅務、按揭與保險</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band property-management-strip" aria-label="核心服務">
+      <div><b>01</b><strong>收樓交接</strong><span>鑰匙、清單、照片、文件與聯絡人</span></div>
+      <div><b>02</b><strong>租務協調</strong><span>代理、住戶、入住退租與事項追蹤</span></div>
+      <div><b>03</b><strong>維修調度</strong><span>報修、供應商報價、業主批准與完工記錄</span></div>
+      <div><b>04</b><strong>業主報告</strong><span>決策、費用、未結事項與下一步</span></div>
+    </section>
+
+    <section class="band compact-band service-review-body property-management-body">
+      <div class="section-head compact-head service-review-head">
+        <span>Cross-border Property Operations</span>
+        <strong>房產在海外，管理仍要有清楚的責任鏈。</strong>
+        <p>本頁所稱「房產管理」是業主端行政、文件、溝通和執行協調；不表示 OTC 在每個司法管轄區均為持牌地產或物業管理機構。</p>
+      </div>
+      <div class="service-herald-grid property-management-layout">
+        <main class="service-herald-main">
+          <section>
+            <h2 class="zh-herald-section-head" data-num="01">適合哪些海外業主</h2>
+            <div class="service-situation-grid property-situation-grid">
+              <article><b>長期不在當地</b><strong>遠距持有</strong><span>需要固定窗口整理當地訊息、文件和待批事項。</span></article>
+              <article><b>剛完成購房</b><strong>收樓與建檔</strong><span>把交接、保修、鑰匙、帳戶和供應商資料整理成可用檔案。</span></article>
+              <article><b>已有出租房</b><strong>租務協調</strong><span>需要在業主、代理、住戶和供應商之間維持清楚紀錄。</span></article>
+              <article><b>多套或跨國</b><strong>組合報告</strong><span>以一致格式查看租務、維修、付款證據和風險事項。</span></article>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="02">服務範圍</h2>
+            <div class="property-service-grid">
+              <article><b>Asset file</b><strong>房產主檔</strong><p>整理地址、產權相關文件副本、代理與大廈聯絡、保修資料、保險和關鍵日期；原件及法律效力由業主與專業人士確認。</p></article>
+              <article><b>Handover</b><strong>收樓及交接</strong><p>協調交接清單、鑰匙、照片、缺陷事項、公共設施帳戶與後續責任人，形成可追蹤的交接紀錄。</p></article>
+              <article><b>Occupancy</b><strong>租務與住戶溝通</strong><p>整理代理或住戶訊息、入住退租節點、例行事項與待決策問題；租約及法定程序交由當地持牌人士處理。</p></article>
+              <article><b>Maintenance</b><strong>維修與供應商</strong><p>記錄問題、索取及對照報價、向業主提交批准選項、追蹤施工和完工證據，不代替測量或工程專業判斷。</p></article>
+              <article><b>Evidence</b><strong>租金與費用檔案</strong><p>把租金報表、管理費、發票、收據和付款證據整理成索引，方便業主交給會計師或稅務顧問審閱。</p></article>
+              <article><b>Reporting</b><strong>雙語業主報告</strong><p>按月、季度或個案提供完成事項、待批准項目、費用摘要、未結風險和下一步行動。</p></article>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="03">六步工作流程</h2>
+            <ol class="property-process-list">
+              <li><b>01</b><div><strong>初步接案</strong><span>確認房產所在地、持有方式、用途、現有代理及業主希望 OTC 承擔的協調範圍。</span></div></li>
+              <li><b>02</b><div><strong>授權與聯絡圖</strong><span>記錄誰可以下指示、誰可以收文件，以及代理、大廈、住戶和供應商的責任邊界。</span></div></li>
+              <li><b>03</b><div><strong>建立房產主檔</strong><span>按文件、租務、維修、財務證據、保險和關鍵日期建立索引。</span></div></li>
+              <li><b>04</b><div><strong>日常協調</strong><span>收集問題、分類優先級、取得資料或報價，將需要業主決定的事項集中呈報。</span></div></li>
+              <li><b>05</b><div><strong>執行與留痕</strong><span>依業主書面批准跟進供應商或現有代理，保存付款、照片、訊息與完成狀態。</span></div></li>
+              <li><b>06</b><div><strong>定期報告</strong><span>以雙語摘要交代已完成、待處理、下一期限與需專業轉介的問題。</span></div></li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 class="zh-herald-section-head" data-num="04">業主會收到什麼</h2>
+            <div class="property-deliverable-grid">
+              <div><b>01</b><strong>房產資料總表</strong><span>核心資料、帳戶、日期與聯絡人</span></div>
+              <div><b>02</b><strong>責任與授權圖</strong><span>誰決策、誰執行、誰需被通知</span></div>
+              <div><b>03</b><strong>維修事件紀錄</strong><span>問題、報價、批准、付款、完工</span></div>
+              <div><b>04</b><strong>租務溝通紀錄</strong><span>代理、住戶、交接和未結事項</span></div>
+              <div><b>05</b><strong>費用證據索引</strong><span>租金、發票、收據和報表</span></div>
+              <div><b>06</b><strong>定期業主報告</strong><span>完成事項、風險和下一步決策</span></div>
+            </div>
+          </section>
+
+          <section class="property-boundary-panel">
+            <div>
+              <span>服務邊界</span>
+              <h2>協調工作與受監管工作分開處理</h2>
+            </div>
+            <p>OTC 可整理文件、協調溝通、比較供應商資料、追蹤業主批准及製作報告。買賣代理、租賃代理、租約與驅逐程序、產權轉讓、法律意見、稅務申報、按揭建議、投資建議、保險分銷、估價、測量及工程簽證等事項，須由房產所在地的合資格或持牌人士辦理。</p>
+          </section>
+        </main>
+
+        <aside class="service-guide-side service-herald-side property-management-side">
+          <div class="service-guide-card is-urgent">
+            <span>開始前</span>
+            <strong>先做房產概況評估</strong>
+            <p>提供國家／城市、房產用途、目前狀態、現有代理及最急需處理的三件事；首次聯絡不需要傳送完整產權或身份文件。</p>
+            <a href="mailto:office@overseasuk.com?subject=${encodeURIComponent("跨境房產管理概況評估")}">電郵提交概況</a>
+          </div>
+          <div class="service-guide-card">
+            <span>服務方式</span>
+            <strong>單次、月度或年度</strong>
+            <p>可按收樓／維修個案承接，也可建立月度或季度業主報告；實際範圍按所在地與現有專業團隊確定。</p>
+          </div>
+          <div class="service-guide-card">
+            <span>聯絡</span>
+            <strong>OTC 海外督導</strong>
+            <p>office@overseasuk.com<br>WhatsApp +44 7947 991572<br>WeChat overseasus</p>
+            <a href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 跨境房產管理服務。")}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <div class="service-guide-note">
+            <b>報價口徑</b>
+            <p>按房產數量、所在地、文件狀況、溝通頻率、供應商數量與緊急程度評估；第三方專業費用及實際工程費另計。</p>
+          </div>
+          <div class="service-side-links">
+            <span>相關資訊</span>
+            <a href="/zh/insights/uk-property-sdlt-cgt-basics-2026/">英國房產稅務基礎</a>
+            <a href="/zh/insights/australia-property-investment-tax-basics-2026/">澳洲房產投資稅務基礎</a>
+            <a href="/zh/services/">OTC 服務導覽</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  `
+});
 
 const applicationServiceStandards = pageShell({
   title: "Application Service Standards | OTC Study Hub",
@@ -33799,6 +33961,7 @@ write("courses", courses);
 write("learning-platform", learningPlatform);
 write("services", services);
 write("zh/services", servicesZh);
+write("zh/cross-border-property-management", crossBorderPropertyManagementZh);
 serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });
