@@ -20171,6 +20171,10 @@ const usSwtWorkTravelSupportZh = pageShell({
   lang: "zh-Hant",
   description: "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、預算合約、簽證面談、住宿交通及行前準備。",
   path: "/zh/us-swt-work-travel-support/",
+  image: "/assets/social/otc-us-swt-work-travel-share-20260913.png?v=20260913-1",
+  imageWidth: 1200,
+  imageHeight: 630,
+  imageAlt: "海外督導｜美國 SWT 打工度假陪跑",
   body: `
     <section class="swt-service-hero">
       <div class="band swt-service-hero-grid">
