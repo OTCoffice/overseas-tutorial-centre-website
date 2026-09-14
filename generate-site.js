@@ -20106,7 +20106,7 @@ function servicesLandingPage(locale = "en") {
 }
 
 const services = servicesLandingPage("en");
-const servicesZh = servicesLandingPage("zh");
+const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/vietnam-visa").card + "</main>");
 
 const crossBorderPropertyManagementZh = pageShell({
   title: "海外督導｜跨境房產管理 | OTC Study Hub",
@@ -34220,6 +34220,7 @@ write("courses", courses);
 write("learning-platform", learningPlatform);
 write("services", services);
 write("zh/services", servicesZh);
+write("zh/services/vietnam-visa", require("./content/vietnam-visa").render());
 write("zh/cross-border-property-management", crossBorderPropertyManagementZh);
 write("zh/us-swt-work-travel-support", usSwtWorkTravelSupportZh);
 serviceProducts.forEach((service) => {
