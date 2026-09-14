@@ -3383,6 +3383,89 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+{
+  "slug": "politics-of-visa-refusal-opt-reentry-anonymous-case",
+  "chineseOnly": true,
+  "title": "The Politics of Visa Refusal: OPT Re-entry Anxiety Near the End of an Internship",
+  "titleZh": "《拒簽的政治》連續報導｜實習尾聲的返美焦慮：OPT、文件與尚未發生的拒絕",
+  "date": "2026-09-14",
+  "heraldLayout": "stacked",
+  "category": "Policy Analysis",
+  "column": "settlement",
+  "kicker": "海外留學導報 · 拒簽的政治 · 匿名案例觀察",
+  "author": "《海外留學導報》編輯部",
+  "summary": "An anonymised case observation on OPT travel, the distinction between visa issuance and admission, and the uncertainty of temporary status. No refusal has been verified.",
+  "summaryZh": "一名處於畢業後實習階段的留學生，擔心短期離境後能否在實習結束前返美。本文從匿名提問切入，區分簽證、工作授權與入境審查，分析臨時身分如何把行程變成文件與時間的協調問題；目前沒有已發生拒簽或拒絕入境的證據。",
+  "resources": [
+    [
+      "美國國務院｜What the Visa Expiration Date Means",
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-expiration-date.html"
+    ],
+    [
+      "Case Western Reserve University｜F-1 Student Employment and Training",
+      "https://case.edu/visa/international-students/international-student-employment/f-1-student-employment-and-training"
+    ],
+    [
+      "DHS Study in the States｜OPT Practical Training",
+      "https://studyinthestates.dhs.gov/sites/default/files/OPT%20Practical%20Training.pdf"
+    ]
+  ],
+  "body": [],
+  "bodyZh": [
+    {
+      "heading": "案例起點：擔心的是能否回來",
+      "paragraphs": [
+        "一名在美國完成學業、正參與畢業後實習的留學生，在公開社群詢問：若短期離境，於實習接近結束時返美，即使持有聘用文件、工作許可及學校文件，是否仍可能遇到入境問題？當事人其後補充，實習採遠端形式；所擔心的是實習剩餘時間，而不是已確認工作許可即將失效。",
+        "這是一宗<strong>出行前的風險疑問</strong>。截至本文整理時，沒有可核實的簽證拒發、簽證撤銷或拒絕入境結果。編輯部未訪談當事人，亦未查閱其文件；不能憑一則提問判定其身分合規、違規或入境結果。",
+        "為保護私隱，本文移除帳號、原居地、精確天數、原帖連結及可識別引文，以概括改述呈現制度問題。本文不宣稱案例當事人是 OTC 客戶。"
+      ]
+    },
+    {
+      "heading": "先把三個不同問題分開",
+      "paragraphs": [
+        "簽證、工作授權與入境許可各有用途。美國國務院明確說明：持有有效簽證並不保證獲准入境，每次抵達口岸仍由海關及邊境保護局（CBP）審查。因此，領事機關不發簽證，與口岸不准入境，是不同的程序，不能統稱為同一種已發生的「拒簽」。<a href=\"https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-expiration-date.html\">〔1〕</a>",
+        "OPT 是與所學專業相關的實務訓練安排，參與者仍須維持 F-1 身分。EAD 顯示工作授權，I-20 記錄相關學校及訓練資訊，聘用信則用來說明工作安排；其中任何一份文件，都不能單獨替其他條件作保證。<a href=\"https://case.edu/visa/international-students/international-student-employment/f-1-student-employment-and-training\">〔2〕</a>",
+        "把這宗疑問納入《拒簽的政治》，是要觀察拒絕尚未發生時，人如何理解與應對邊境制度；不是把系列名稱當作案件結論。"
+      ]
+    },
+    {
+      "heading": "實習剩餘時間，不能替代完整的事實核對",
+      "paragraphs": [
+        "本文查閱的指引，不能支持僅憑「實習快結束」便宣稱一定拒絕或一定放行。需要核對的是返美目的、實際僱傭關係、授權有效期、文件與紀錄是否一致，以及個案有沒有其他影響因素。沒有完整資料，便不能估算這名學生被拒入境的機率。",
+        "Case Western Reserve University 的校方指引列出 OPT 獲批後返美通常應攜的文件：有效護照及簽證、載有 OPT 資訊且旅行簽名不超過六個月的有效 I-20、有效 EAD，以及說明開始工作或旅行後繼續／恢復工作的雇主信。這是準備文件的參考，不能取代當事人學校與主管機關的個案核對。<a href=\"https://case.edu/visa/international-students/international-student-employment/f-1-student-employment-and-training\">〔2〕</a>",
+        "實習結束日期、EAD 到期日期、簽證有效期與 I-20 旅行簽名日期應分別確認。文件在同一個資料夾裡，不代表它們使用同一個時鐘。"
+      ]
+    },
+    {
+      "heading": "「停止累計失業天數」背後，必須有實際工作",
+      "paragraphs": [
+        "聘用信是工作證據的一部分，不能僅因持有一封信，就推定所有失業天數問題已經解決。DHS 的 OPT 資料把就業資訊、就業中斷及失業期間列為需要管理的事項；學生與學校須依適用規則保持紀錄更新。<a href=\"https://studyinthestates.dhs.gov/sites/default/files/OPT%20Practical%20Training.pdf\">〔3〕</a>",
+        "就這宗匿名情境而言，仍待核對的包括實際工作內容、工時、專業關聯、聘用起迄，以及離境期間的安排。遠端實習這個標籤，本身不足以證明或否定其合規性；人在境外工作與雇主核准休假，也不應在沒有核查下視為相同。",
+        "可行的準備，是把工作和出行時間線交由學校指定負責人（DSO）核對，必要時請美國移民律師評估。任何延期或雇主證明，都應反映真實安排，不能只為改善文件表面而改寫。"
+      ]
+    },
+    {
+      "heading": "制度評論：邊境如何進入日常時間",
+      "paragraphs": [
+        "以下是編輯分析，而非對當事人或個別官員動機的事實判定。這宗提問顯示，臨時身分帶來的壓力，可以在抵達口岸以前出現：一趟短暫旅行，需要同時協調工作期限、文件效期、學校紀錄與返美後的安排。日常生活因此被多組行政時間表重新組織。",
+        "《拒簽的政治》在這裡關注的，是核准與再審查之間的不確定性。個人或許已持有數份有效文件，卻仍需要在不同機構面前，持續說明自己的活動如何符合獲准停留的目的。對學生而言，負擔不只在補齊文件，也在理解哪一份文件能回答哪一個問題。",
+        "同時，匿名提問不能證明存在政治性針對、國籍歧視，或整體拒絕率上升。若要提出這些更強的主張，需要行政資料、具體決定、跨案例比較等另外的證據。制度批評的可信度，也取決於我們是否守住這條界線。"
+      ]
+    },
+    {
+      "heading": "給處於類似階段的讀者",
+      "paragraphs": [
+        "出行前，可先整理一頁時間線：工作授權、實習、簽證及旅行簽名各自的日期；再向 DSO 確認 SEVIS 紀錄與失業天數，請雇主如實說明離境安排及返美後的工作。若需要重新申請簽證，應把領事程序與口岸入境分開規劃。",
+        "本文提供一般教育資訊及制度評論，不構成個案法律意見，也不承諾入境結果。OTC 可協助整理教育資訊與待問問題；移民法律判斷應由具相應資格的專業人士處理。",
+        "《拒簽的政治》連續報導將持續關注文件、時間與跨境流動的關係。這一篇留下的是一個尚待核查的疑問，而不是一宗被想像出來的拒簽事件。"
+      ]
+    }
+  ],
+  "factCheckNotes": [
+    "資料核查與編輯日期：2026-09-14。案例來自公開提問及補充，未經獨立訪談或文件驗證；沒有已發生拒簽、撤簽或拒絕入境的證據。",
+    "已匿名化並概括改述；公開版本及存檔均不含帳號、原帖連結、精確行程或可識別引文。制度分析屬編輯評論，與主管機關指引分開呈現。"
+  ]
+},
   {
     slug: "taiwan-english-foreign-languages-communication-department-choice-guide-2026",
     chineseOnly: true,
