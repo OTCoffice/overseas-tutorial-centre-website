@@ -90,3 +90,9 @@ python3 scripts/check-herald-share.py content/ARTICLE.json --live
 python3 scripts/check-herald-share.py content/kyung-hee-service.json
 python3 scripts/check-herald-share.py content/kyung-hee-service.json --live
 ```
+
+### 歐洲交換陪跑個案：2026-09-15 審核順序
+
+使用者在此個案明確要求「先公開發佈回覆」「文章及服務頁我審核後再發送」。本個案先以不含待審連結的簡短公開回覆接觸；文章、服務頁及各自題圖先供使用者審核，審核通過後才正式發布並私訊傳送。不得將先前的一般發布授權視為本個案已通過審核。後續依最新使用者指示處理。
+
+審核補記：使用者隨後確認「簡化用語 降低AI噪音 內容通過了」。保留內容與費用範圍，改用日常說法及官網原有版型後，繼續發布及雙連結私訊流程。

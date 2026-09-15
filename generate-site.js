@@ -2472,6 +2472,7 @@ function transnationalEducationGroupCards() {
 
 function searchItems() {
   const pages = [
+    ["歐洲交換陪跑", "/zh/services/europe-exchange-support/", "決策、選課、均分與學分規則、預算及升碩銜接；免費初評，持續陪跑另確認。"],
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
@@ -3388,6 +3389,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  require("./content/europe-exchange-guide.json"),
 require("./content/kyung-hee-english-guide.json"),
 require("./content/otc-english-check-article.json"),
 require("./content/udk-exchange-guide.json"),
@@ -34243,7 +34245,7 @@ write("study-guides", guides);
 write("courses", courses);
 write("learning-platform", learningPlatform);
 write("services", services);
-write("zh/services", servicesZh);
+write("zh/services", servicesZh.replace("</main>", "<div class=\"band\"><p><a href=\"/zh/services/europe-exchange-support/\"><strong>歐洲交換陪跑 →</strong> 決策、選課、學分與均分核對，以及交換與升碩銜接。</a></p></div>" + "</main>"));
 write("zh/services/vietnam-visa", require("./content/vietnam-visa").render());
 write("zh/cross-border-property-management", crossBorderPropertyManagementZh);
 write("zh/us-swt-work-travel-support", usSwtWorkTravelSupportZh);
@@ -34389,6 +34391,7 @@ insightsArticles.forEach((article) => {
   if (!article.chineseOnly) write(`insights/${article.slug}`, insightArticlePage(article));
   write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
 });
+write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("search", search);
 write("about", about);
 write("lms-review", lmsReview);
