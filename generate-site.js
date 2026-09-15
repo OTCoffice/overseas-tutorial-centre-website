@@ -22889,7 +22889,7 @@ const learningPlatform = pageShell({
         <h2>OTC English Check｜先了解英文起點，再決定怎樣學</h2>
         <p>聽力、閱讀、口說與寫作，約 35–45 分鐘，可分段完成。聽讀依答案自動計分，口說錄音及寫作原稿供老師評閱。工具免費；人工評閱另行安排，不提供 IELTS／TOEFL 分數換算。</p>
         <p>Understand your starting point. Complete four short tasks, check listening and reading answers, and save speaking and writing samples for teacher review. Free access; personal marking is arranged separately. No official exam score conversion.</p>
-      </div><div class="hero-actions"><a class="btn btn-primary" href="/apps/english-four-skills-check/">免費開始 / Start free</a><a class="btn btn-secondary" href="/apps/english-four-skills-check/guide.html">中英雙語介紹與用法 / Bilingual guide</a></div>
+      </div><div class="hero-actions"><a class="btn btn-primary" href="/apps/english-four-skills-check/">免費開始 / Start free</a><a class="btn btn-secondary" href="/apps/english-four-skills-check/guide.html">中英雙語介紹與用法 / Bilingual guide</a><a class="btn btn-secondary" href="https://payhip.com/b/u6XDG">Payhip 免費下載 / Free download</a></div>
     </section>
     <section class="band">
       <div class="section-head compact-head">
@@ -25350,7 +25350,7 @@ const apps = pageShell({
         <h2>OTC English Check｜先了解英文起點，再決定怎樣學</h2>
         <p>聽力、閱讀、口說與寫作，約 35–45 分鐘，可分段完成。聽讀依答案自動計分，口說錄音及寫作原稿供老師評閱。工具免費；人工評閱另行安排，不提供 IELTS／TOEFL 分數換算。</p>
         <p>Understand your starting point. Complete four short tasks, check listening and reading answers, and save speaking and writing samples for teacher review. Free access; personal marking is arranged separately. No official exam score conversion.</p>
-      </div><div class="hero-actions"><a class="btn btn-primary" href="/apps/english-four-skills-check/">免費開始 / Start free</a><a class="btn btn-secondary" href="/apps/english-four-skills-check/guide.html">中英雙語介紹與用法 / Bilingual guide</a></div>
+      </div><div class="hero-actions"><a class="btn btn-primary" href="/apps/english-four-skills-check/">免費開始 / Start free</a><a class="btn btn-secondary" href="/apps/english-four-skills-check/guide.html">中英雙語介紹與用法 / Bilingual guide</a><a class="btn btn-secondary" href="https://payhip.com/b/u6XDG">Payhip 免費下載 / Free download</a></div>
     </section>
     <section class="band compact-band">
       <div class="section-head compact-head">
