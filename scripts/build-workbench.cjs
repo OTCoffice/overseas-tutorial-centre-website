@@ -1,0 +1,3 @@
+const fs=require('fs');const core=require('../lib/english-diagnostic.cjs'),flow=require('../scripts/diagnostic-workflow.cjs');const p='apps/english-four-skills-check/diagnostic/';
+const helpers=`function error(message,status=400){return Object.assign(new Error(message),{status});}\nconst esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
+fs.writeFileSync(p+'core.js',helpers+'\n'+[core.validateSource,core.validateDiagnosis,core.renderHTML].map(x=>x.toString()).join('\n')+'\nconst diagnosisSchema='+JSON.stringify(core.diagnosisSchema)+';\nconst POLICY='+JSON.stringify(flow.POLICY)+';\n'+flow.prompt.toString()+'\nexport {validateSource,validateDiagnosis,renderHTML,prompt};');

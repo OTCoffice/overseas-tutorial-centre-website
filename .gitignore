@@ -5,3 +5,6 @@ reports/nt-government-schools-agent-application/
 node_modules/
 package.json
 package-lock.json
+
+# Local diagnostic work files (never publish learner records)
+work/
