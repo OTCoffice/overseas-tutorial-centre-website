@@ -3383,6 +3383,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+require("./content/otc-english-check-article.json"),
 require("./content/udk-exchange-guide.json"),
 {
   "slug": "politics-of-visa-refusal-opt-reentry-anonymous-case",
@@ -19253,7 +19254,7 @@ const zhInsights = pageShell({
 });
 
 function insightArticlePage(article) {
-  const image = writeHeraldSocialImage(article, "en");
+  const image = article.shareImage || writeHeraldSocialImage(article, "en");
   const socialImageVersion = article.socialImageVersion || "v=20260524-social-png";
   return pageShell({
     title: `${article.title} | Overseas Study Review`,
@@ -19262,7 +19263,7 @@ function insightArticlePage(article) {
     path: `/insights/${article.slug}/`,
     image: `${image}?${socialImageVersion}`,
     imageWidth: 1200,
-    imageHeight: 630,
+    imageHeight: article.socialImageHeight || 630,
     imageAlt: `${article.title} | Overseas Study Review`,
     body: `
       <main class="oeh-shell">
@@ -19284,7 +19285,7 @@ function insightArticlePageZh(article) {
     path: `/zh/insights/${article.slug}/`,
     image: `${image}?${socialImageVersion}`,
     imageWidth: 1200,
-    imageHeight: 630,
+    imageHeight: article.socialImageHeight || 630,
     imageAlt: `${article.titleZh || article.title} | 留學導報`,
     body: `
       ${zhArticleMagazineBody(article)}
