@@ -1502,7 +1502,12 @@ const southKoreaUniversityData = [
 
 countryGatewayData.find((country) => country.slug === "south-korea").universities = southKoreaUniversityData;
 
-function southKoreaUniversityPage(university) {
+function southKoreaUniversityPage(university, publicPath = university.href) {
+  const html = southKoreaUniversityPageBase(university);
+  return university.name === "Kyung Hee University" ? require("./content/kyung-hee-service.cjs")(html, publicPath) : html;
+}
+
+function southKoreaUniversityPageBase(university) {
   return pageShell({
     title: `${university.zh}｜${university.name}｜韓國留學 | OTC Study Hub`,
     current: "zh", lang: "zh-Hant", locale: "zh",
@@ -34284,7 +34289,7 @@ countryGatewayData.filter((country) => country.slug !== "australia").forEach((co
     write("zh/countries/south-korea", southKoreaChineseMirror(koreaMain, "/zh/countries/south-korea/"));
     southKoreaUniversityData.forEach((university) => {
       write(`countries/south-korea/${university.href.split("/").filter(Boolean).pop()}`, southKoreaUniversityPage(university));
-      write(`zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}`, southKoreaChineseMirror(southKoreaUniversityPage(university), `/zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}/`));
+      write(`zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}`, southKoreaChineseMirror(southKoreaUniversityPage(university, `/zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}/`), `/zh/countries/south-korea/${university.href.split("/").filter(Boolean).pop()}/`));
     });
   }
 });

@@ -21,7 +21,7 @@ class Page(HTMLParser):
         if tag=='head':self.in_head=False
 
 def verify(text,a,base,locale='zh'):
-    p=Page(text);expected=urljoin(base,('/zh' if locale=='zh' else '')+'/insights/'+a['slug']+'/')
+    p=Page(text);expected=urljoin(base,a.get('path') or ('/zh' if locale=='zh' else '')+'/insights/'+a['slug']+'/')
     assert p.canonical==[expected], 'Canonical missing, duplicated or incorrect'
     def one(k):
         v=p.meta.get(k,[]);assert len(v)==1 and v[0],f'Missing/duplicate {k}';return v[0]
@@ -64,7 +64,7 @@ def get(url,ua):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('article');ap.add_argument('--live',action='store_true');ap.add_argument('--base',default='https://overseasuk.com');ap.add_argument('--locale',choices=['zh','en'],default='zh');arg=ap.parse_args()
-    a=json.loads(Path(arg.article).read_text());route=('/zh' if arg.locale=='zh' else '')+'/insights/'+a['slug']+'/'
+    a=json.loads(Path(arg.article).read_text());route=a.get('path') or ('/zh' if arg.locale=='zh' else '')+'/insights/'+a['slug']+'/'
     if not arg.live:
         image,dims,mime=verify((ROOT/route[1:]/'index.html').read_text(),a,arg.base,arg.locale)
         data=(ROOT/urlsplit(image).path[1:]).read_bytes();assert image_size(data)==(dims,mime)
