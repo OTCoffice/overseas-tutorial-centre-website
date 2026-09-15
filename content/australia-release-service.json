@@ -3,7 +3,7 @@
   "path": "/zh/services/australia-transfer-release-support/",
   "titleZh": "澳洲轉校與 Release 申請協調｜海外督導 OTC",
   "summaryZh": "整理學籍時間線、轉專業理由與材料，協助原校釋放及新校入學的電郵跟進。先確認可協助事項和費用，再開始正式工作。",
-  "socialImageVersion": "v=20260915-release-1",
+  "socialImageVersion": "v=20260915-release-2",
   "socialImageWidth": 1200,
   "socialImageHeight": 630,
   "sections": [
@@ -55,6 +55,6 @@
       ]
     }
   ],
-  "shareImageZh": "/assets/social/australia-release-service-20260915.png",
+  "shareImageZh": "/assets/social/australia-release-service-20260915-v2.png",
   "socialTitleZh": "澳洲轉校與 Release 申請協調"
 }
