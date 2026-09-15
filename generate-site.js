@@ -3383,6 +3383,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+require("./content/kyung-hee-english-guide.json"),
 require("./content/otc-english-check-article.json"),
 require("./content/udk-exchange-guide.json"),
 {
@@ -18928,7 +18929,7 @@ function zhArticleMagazineBody(article) {
     heading: cleanZhHeading(section.heading),
     paragraphs: section.paragraphs
   }));
-  const readingMinutes = Math.max(5, Math.ceil(cleanedSections.reduce((sum, section) => {
+  const readingMinutes = article.readingMinutes || Math.max(5, Math.ceil(cleanedSections.reduce((sum, section) => {
     return sum + section.heading.length + section.paragraphs.join("").length;
   }, 0) / 520));
   const reviewColumn = zhReviewColumnForArticle(article);

@@ -31368,3 +31368,6 @@ main ul:not([class]) > li {
     grid-column: auto;
   }
 }
+
+/* Keep wide comparison tables scrollable within this Herald article. */
+.article-kyung-hee-english-degrees-application-guide-2027 .zh-herald-main { min-width: 0; }
