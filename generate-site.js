@@ -18942,7 +18942,7 @@ function zhArticleMagazineBody(article) {
   const compactSidebar = stackedLayout || article.sidebarMode === "compact" || article.sidebarMode === "compact-practical";
   const shareCover = article.shareImageZh ? `
       <figure class="zh-herald-share-cover">
-        <img src="${article.shareImageZh}?${article.socialImageVersion || "v=1"}" width="1200" height="630" alt="${article.titleZh || article.title}" loading="eager" fetchpriority="high">
+        <img src="${article.shareImageZh}?${article.socialImageVersion || "v=1"}" width="${article.socialImageWidth || 1200}" height="${article.socialImageHeight || 630}"${article.portraitCover ? ' style="max-width:520px;margin:0 auto;aspect-ratio:2/3;object-fit:contain;border-radius:0"' : ""} alt="${article.titleZh || article.title}" loading="eager" fetchpriority="high">
       </figure>
   ` : "";
 
@@ -19262,7 +19262,7 @@ function insightArticlePage(article) {
     description: article.summary,
     path: `/insights/${article.slug}/`,
     image: `${image}?${socialImageVersion}`,
-    imageWidth: 1200,
+    imageWidth: article.socialImageWidth || 1200,
     imageHeight: article.socialImageHeight || 630,
     imageAlt: `${article.title} | Overseas Study Review`,
     body: `
@@ -19284,7 +19284,7 @@ function insightArticlePageZh(article) {
     description: article.summaryZh || article.summary,
     path: `/zh/insights/${article.slug}/`,
     image: `${image}?${socialImageVersion}`,
-    imageWidth: 1200,
+    imageWidth: article.socialImageWidth || 1200,
     imageHeight: article.socialImageHeight || 630,
     imageAlt: `${article.titleZh || article.title} | 留學導報`,
     body: `

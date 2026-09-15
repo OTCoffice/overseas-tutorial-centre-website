@@ -10,7 +10,7 @@
   "titleZh": "免費了解英文起點：OTC 四項診斷 App、師資招聘與學生配課服務",
   "summary": "Explore OTC’s free listening, reading, speaking and writing check, how to save your work, and how students and prospective tutors can enquire about suitable teaching support.",
   "summaryZh": "海外督導推出免費英文聽、讀、說、寫初步診斷工具，協助學生整理學習起點，並以實際作答、學習目標、預算和上課安排，銜接教師評閱、師資合作與學生配課。",
-  "shareImageZh": "/assets/social/otc-english-check-cover.png",
+  "shareImageZh": "/assets/social/otc-english-check-herald-cover.png",
   "resources": [
     [
       "免費開始四項診斷 / Open the free check",
@@ -155,7 +155,9 @@
       ]
     }
   ],
-  "shareImage": "/assets/social/otc-english-check-cover.png",
-  "socialImageVersion": "v=20260915",
-  "socialImageHeight": 1200
+  "shareImage": "/assets/social/otc-english-check-herald-cover.png",
+  "socialImageVersion": "v=20260915-herald",
+  "socialImageHeight": 1536,
+  "socialImageWidth": 1024,
+  "portraitCover": true
 }
