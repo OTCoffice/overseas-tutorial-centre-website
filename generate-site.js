@@ -3383,6 +3383,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+require("./content/udk-exchange-guide.json"),
 {
   "slug": "politics-of-visa-refusal-opt-reentry-anonymous-case",
   "chineseOnly": true,

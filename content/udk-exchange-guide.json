@@ -1,0 +1,245 @@
+{
+  "slug": "udk-berlin-exchange-study-guide-2026-27",
+  "chineseOnly": true,
+  "title": "UdK Berlin Exchange Study Guide 2026/27",
+  "titleZh": "柏林藝術大學交換留學全指南：專業選擇、申請、作品集與柏林生活",
+  "date": "2026-09-15",
+  "heraldLayout": "stacked",
+  "category": "University Applications",
+  "column": "study",
+  "kicker": "OTC 海外留學導報 · 德國藝術與設計交換",
+  "author": "《海外留學導報》編輯部｜海外督導 OTC",
+  "summary": "An official-source guide to partner-university exchange at UdK Berlin, with a focus on art, media and design students and Tama Art University applicants.",
+  "summaryZh": "從合作院校提名到專業與工作室比較，全面介紹 UdK Berlin 2026/27 交換申請、作品集、語言、選課學分、預算、住宿及入境準備，並為多摩美術大學情報設計背景學生提供具體規劃框架。",
+  "resources": [
+    [
+      "UdK｜交換申請程序",
+      "https://www.udk-berlin.de/service/international-office/austausch/studierenden-austausch/nach-berlin/bewerbung/"
+    ],
+    [
+      "UdK｜2026/27 合作院校 Factsheet",
+      "https://www.udk-berlin.de/fileadmin/2_dezentral/International_Office/Dokumente/Download-Center/Factsheet_Application_Procedure_UdK_Berlin_2026_27.pdf"
+    ],
+    [
+      "UdK｜學年曆與課程目錄",
+      "https://www.udk-berlin.de/en/university/course-catalog-and-lecture-periods/"
+    ],
+    [
+      "UdK｜交換生註冊與學習",
+      "https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/registration-and-study-at-berlin-university-of-the-arts/"
+    ],
+    [
+      "UdK｜柏林生活與住宿",
+      "https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/life-in-berlin/"
+    ],
+    [
+      "UdK｜視覺傳達",
+      "https://www.udk-berlin.de/studium/visuelle-kommunikation/"
+    ],
+    [
+      "UdK｜資訊設計",
+      "https://www.udk-berlin.de/studium/visuelle-kommunikation/visuelle-systeme/"
+    ],
+    [
+      "UdK｜New Media",
+      "https://www.udk-berlin.de/studium/visuelle-kommunikation/new-media/"
+    ],
+    [
+      "UdK｜藝術與媒體",
+      "https://www.udk-berlin.de/studium/kunst-und-medien/"
+    ],
+    [
+      "UdK｜Design and Computation",
+      "https://www.udk-berlin.de/studium/studieninformationen/design-and-computation/"
+    ],
+    [
+      "多摩美術大學｜交換留學制度",
+      "https://www.tamabi.ac.jp/international-exchange/student-exchange/"
+    ],
+    [
+      "多摩美術大學｜國際交流",
+      "https://www.tamabi.ac.jp/international-exchange/"
+    ],
+    [
+      "多摩美術大學｜2024 年度交換生報告",
+      "https://www.tamabi.ac.jp/closeup/91395/"
+    ],
+    [
+      "德國外交部｜Visa Navigator",
+      "https://digital.diplo.de/navigator/en/visa"
+    ]
+  ],
+  "factCheckNotes": [
+    "核查日期：2026-09-15。適用於合作院校交換，非完整學位招生或暑校。",
+    "官方 2027 夏季結束日有一天差異，正文列明來源與核對方式。名額、專業准入、課表及費用以當期書面通知為準。",
+    "專業匹配、作品集編輯與規劃表為 OTC 分析建議，並非 UdK 官方錄取條件。"
+  ],
+  "sidebarCards": [
+    [
+      "01",
+      "先核資格",
+      "原校提名、協議範圍與接收名額。",
+      "Eligibility"
+    ],
+    [
+      "02",
+      "看工作室",
+      "依學習問題比較課程及創作方法。",
+      "Study"
+    ],
+    [
+      "03",
+      "先談學分",
+      "確認評核與返校認可。",
+      "Credits"
+    ]
+  ],
+  "bodyZh": [
+    {
+      "heading": "一、到柏林交換，應先確定自己要學什麼",
+      "paragraphs": [
+        "柏林藝術大學（Universität der Künste Berlin，簡稱 UdK Berlin）的交換留學，對已有藝術與設計基礎的學生，最值得思考的是：如何利用一段有限時間，進入不同的創作語境，完成在原校較難展開的項目。對情報設計、互動設計、UI/UX、前端程式、資訊視覺化或遊戲設計背景的學生而言，不能只靠專業中文名稱判斷匹配度。",
+        "本文以合作院校交換為範圍，重點介紹藝術與設計方向，並交代音樂及表演類的差異。交換結束通常回原校完成學位；本文所述程序不等於 UdK 本科、碩士完整學位招生，也不是暑校報名。資料核查日為 <strong>2026 年 9 月 15 日</strong>，下一年度仍須重新查證。"
+      ]
+    },
+    {
+      "heading": "二、誰可以申請：合作協議、院系範圍與正式提名",
+      "paragraphs": [
+        "UdK 接受 Erasmus+、Swiss European Mobility Programme 及雙邊協議框架內的合作院校交換。原校及所屬專業必須有適用協議，並由原校正式提名；UdK 明確不設 Freemover 交換路徑。獲提名後，仍須經作品／表現及名額審核。<a href=\"https://www.udk-berlin.de/service/international-office/austausch/studierenden-austausch/nach-berlin/bewerbung/\" target=\"_blank\" rel=\"noopener noreferrer\">[1] UdK｜交換申請程序</a>",
+        "第一封詢問應發給原校國際交流部門：本年度是否有 UdK 名額、協議涵蓋哪些院系與學習層級、可以提名哪一個專業、校內甄選何時截止，以及交換長度。不要只看到學校列在合作名單，就推定任何系、任何年級都能申請。",
+        "多摩美術大學的官方國際交流頁列有交換制度，其公開交換生報告亦記錄了赴 UdK 的經驗；但前人的成功不能代替當年度名額與專業核准。<a href=\"https://www.tamabi.ac.jp/international-exchange/\" target=\"_blank\" rel=\"noopener noreferrer\">[12] 多摩美術大學｜國際交流</a> <a href=\"https://www.tamabi.ac.jp/closeup/91395/\" target=\"_blank\" rel=\"noopener noreferrer\">[13] 多摩美術大學｜2024 年度交換生報告</a>"
+      ]
+    },
+    {
+      "heading": "三、2026/27 時間表：先過原校甄選，再完成 UdK 申請",
+      "paragraphs": [
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th scope=\"col\">環節</th><th scope=\"col\">冬季學期</th><th scope=\"col\">夏季學期</th></tr></thead><tbody><tr><td>原校向 UdK 提名（一般非音樂類）</td><td>3 月 31 日前</td><td>10 月 31 日前</td></tr><tr><td>學生網上申請</td><td>3 月 15 日至 4 月 15 日</td><td>10 月 15 日至 11 月 15 日</td></tr><tr><td>2026/27 交換生迎新</td><td>2026 年 10 月 7 日</td><td>2027 年 4 月 7 日</td></tr><tr><td>正式授課期（學年曆）</td><td>2026 年 10 月 12 日至 2027 年 2 月 13 日</td><td>2027 年 4 月 12 日至 7 月 17 日</td></tr></tbody></table></div>",
+        "提名與申請窗口依 2026/27 Factsheet；正式授課期依 UdK 學年曆，迎新早於授課開始。<a href=\"https://www.udk-berlin.de/fileadmin/2_dezentral/International_Office/Dokumente/Download-Center/Factsheet_Application_Procedure_UdK_Berlin_2026_27.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">[2] UdK｜2026/27 合作院校 Factsheet</a> <a href=\"https://www.udk-berlin.de/en/university/course-catalog-and-lecture-periods/\" target=\"_blank\" rel=\"noopener noreferrer\">[3] UdK｜學年曆與課程目錄</a>",
+        "截至本文核查日，2026/27 冬季一般申請窗口已過；2027 夏季一般窗口尚未開始。原校內部截止往往更早，也未必每學期都派遣，不能等 UdK 開放後才開始爭取校內提名。",
+        "<strong>日期核查註：</strong>Factsheet 與校級學年曆均列 2027 年 7 月 17 日結束；交換註冊頁列 7 月 16 日。本文以校級學年曆為主，行程仍應按接收通知、考核和工作室安排確認。不要據此購買無法更改的返程票。<a href=\"https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/registration-and-study-at-berlin-university-of-the-arts/\" target=\"_blank\" rel=\"noopener noreferrer\">[4] UdK｜交換生註冊與學習</a>",
+        "<strong>音樂類例外：</strong>音樂、爵士及聲樂頁面列冬季和夏季同以 4 月 15 日為申請截止，結果通常於 6–7 月通知。相關申請人應查該類獨立程序。<a href=\"https://www.udk-berlin.de/service/international-office/austausch/studierenden-austausch/nach-berlin/bewerbung/\" target=\"_blank\" rel=\"noopener noreferrer\">[1] UdK｜交換申請程序</a>"
+      ]
+    },
+    {
+      "heading": "四、設計學生怎樣選方向：先分清專業與工作室",
+      "paragraphs": [
+        "UdK 的 Visuelle Kommunikation（視覺傳達）涵蓋資訊設計、新媒體、平面、插畫、動態影像及空間傳達等領域。這些領域名稱不一定是交換表格中的獨立專業選項。<a href=\"https://www.udk-berlin.de/studium/visuelle-kommunikation/\" target=\"_blank\" rel=\"noopener noreferrer\">[6] UdK｜視覺傳達</a>",
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th scope=\"col\">想深化的能力</th><th scope=\"col\">可優先研究的方向</th><th scope=\"col\">應問清的問題</th></tr></thead><tbody><tr><td>資訊視覺化、複雜資訊的組織</td><td>Visuelle Kommunikation 下的 Informationsdesign</td><td>當期項目偏資料敘事、視覺系統還是其他題目？</td></tr><tr><td>互動原型、創意程式、科技與社會議題</td><td>Visuelle Kommunikation 下的 New Media</td><td>已有技能是否足以進入項目？交換生能否加入該班？</td></tr><tr><td>生成藝術、聲音、實驗影像、互動裝置</td><td>Kunst und Medien</td><td>作品是否以藝術研究為主？技術與設備支援如何？</td></tr><tr><td>實體互動、材料、物件與製作</td><td>Produktdesign 等候選方向</td><td>協議是否涵蓋？工作坊和製作課有何先修要求？</td></tr><tr><td>計算與設計的研究整合</td><td>Design and Computation</td><td>屬碩士層級；本科交換資格和可修模組須獨立確認。</td></tr></tbody></table></div>",
+        "上表是 OTC 的選擇框架，不是接收名額清單。「方向相關」與「可以入讀」要分別求證。選定主專業後，才進一步核對班級、老師、課程、語言和學分。"
+      ]
+    },
+    {
+      "heading": "五、資訊設計與 New Media：從漂亮介面走向問題與方法",
+      "paragraphs": [
+        "Informationsdesign 關注讓複雜資訊更易理解和使用。對情報設計學生，這提供了比「學哪個軟體」更具體的比較起點：如何選資料、建立結構、呈現不確定性，以及評估讀者能否理解。<a href=\"https://www.udk-berlin.de/studium/visuelle-kommunikation/visuelle-systeme/\" target=\"_blank\" rel=\"noopener noreferrer\">[7] UdK｜資訊設計</a>",
+        "New Media 採項目導向，學生可圍繞指定或自選主題獨立或小組創作，重視自主性、討論與原型；官方也要求概念、形式美學及技術基礎。它面向視覺傳達的本科及碩士學生，但交換生能否進入特定課程仍待確認。<a href=\"https://www.udk-berlin.de/studium/visuelle-kommunikation/new-media/\" target=\"_blank\" rel=\"noopener noreferrer\">[8] UdK｜New Media</a>",
+        "OTC 建議的作品集切入方式：展示一個互動項目時，交代最初問題、調查方法、原型失敗、測試回饋與修改，而不只貼最後幾張螢幕圖。若想提升的是商業 UX 流程，也應問課程是否涵蓋使用者研究與驗證；不要因為出現「New Media」就假定它等同職業型 UX 訓練營。"
+      ]
+    },
+    {
+      "heading": "六、Kunst und Medien 與 Design and Computation：名稱相近，定位不同",
+      "paragraphs": [
+        "Kunst und Medien（藝術與媒體）連結實驗電影／媒體藝術、敘事電影、生成藝術及以當代科技進行的時間性藝術。生成藝術方向把程式、生成策略和互動放進藝術項目之中。<a href=\"https://www.udk-berlin.de/studium/kunst-und-medien/\" target=\"_blank\" rel=\"noopener noreferrer\">[9] UdK｜藝術與媒體</a>",
+        "因此，同樣會寫程式的兩位學生，可能需要不同環境：一位想改善服務介面，另一位想用演算法和聲音探討記憶。應比較作品的提問、課堂討論和評核方式，不能以技術工具相同就判斷課程相同。",
+        "Design and Computation 的官方學習資訊對應碩士課程。交換申請頁雖列到這個名稱，也不代表任一本科交換生都可選。應請原校與 UdK 書面確認協議、層級及先修條件，再把它放入正式計畫。<a href=\"https://www.udk-berlin.de/studium/studieninformationen/design-and-computation/\" target=\"_blank\" rel=\"noopener noreferrer\">[10] UdK｜Design and Computation</a>",
+        "對遊戲背景學生，同樣要問清自己要做的是遊戲製作、互動敘事，還是以遊戲機制作為藝術方法；不要把媒體藝術直接宣傳成專門的遊戲開發學位。"
+      ]
+    },
+    {
+      "heading": "七、申請材料：正式清單與作品集編輯要分開",
+      "paragraphs": [
+        "一般非音樂類申請需要履歷與動機信；建築、美術、舞台／服裝／時裝／產品設計、藝術與媒體、視覺傳達等另需 PDF 作品集，上限 10 MB，不接受壓縮包。GWK 另列學習計畫；舞蹈另列最長 10 分鐘影片，戲劇寫作提交劇本。細節應以提名後的表格為準。<a href=\"https://www.udk-berlin.de/service/international-office/austausch/studierenden-austausch/nach-berlin/bewerbung/\" target=\"_blank\" rel=\"noopener noreferrer\">[1] UdK｜交換申請程序</a>",
+        "以下是 OTC 編輯建議，並非 UdK 統一規定的頁數或件數：先挑幾個能清楚說明自己方向的完整項目，每件作品呈現「問題—過程—成果—反思」，合作項目說明本人貢獻。影片、程式和互動作品可在 PDF 中附可存取連結與靜態摘要；外部連結不能替代必交檔案。",
+        "壓縮 PDF 後，重新檢查文字、圖表與作品細節可讀性；用另一台裝置確認連結、權限和播放。不要為了把所有練習都塞進去，讓最能代表自己的項目失去閱讀空間。"
+      ]
+    },
+    {
+      "heading": "八、動機信：說明這次交換如何接上原有學習",
+      "paragraphs": [
+        "一封有說服力的動機信，應回答四件事：我目前在研究什麼；為什麼需要到 UdK；我希望在有限學期完成什麼；回原校後如何延續。具體課程或工作室應來自已核對的資料，避免把未確認的老師指導寫成既定安排。",
+        "例如情報設計學生可以把目標寫成：以既有資料視覺化經驗為基礎，嘗試把資訊敘事延伸到空間或互動原型，並用交換成果支撐後續畢業製作。這只是寫作示例，申請人必須改成自己的研究問題及真實作品。",
+        "「喜歡柏林」「想體驗歐洲」可以作為背景，但不應佔去主要篇幅。更值得交代的是你打算如何參與討論、接受批評、與不同方法的同學合作，以及如何評估自己的學習成果。"
+      ]
+    },
+    {
+      "heading": "九、語言：不能把一般學位門檻直接套到交換",
+      "paragraphs": [
+        "2026/27 交換資料對 GWK 與服裝設計明列德語 B1、建議 B2；Tonmeister（錄音／音響方向）要求至少 B2。其他藝術設計方向不能因此推論成全英語或完全不需德語。<a href=\"https://www.udk-berlin.de/fileadmin/2_dezentral/International_Office/Dokumente/Download-Center/Factsheet_Application_Procedure_UdK_Berlin_2026_27.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">[2] UdK｜2026/27 合作院校 Factsheet</a>",
+        "申請前宜逐課確認四項：授課語言、工作室討論語言、書面作業語言、考核語言。老師可以用英語個別溝通，不一定代表整個班級的討論都改用英語。",
+        "可用一次自我測試判斷準備程度：用預計授課語言說明自己的項目、回答質疑、概述一篇短文，並寫一段反思。如果只能展示作品但無法解釋選擇，交換期間的收穫可能受限。入學後語言支援可補強日常使用，不能取代申請時已列明的要求。"
+      ]
+    },
+    {
+      "heading": "十、選課、跨專業與學分：出發前把認可方式寫清楚",
+      "paragraphs": [
+        "UdK 指出完整課表通常於 9 月底或 3 月底公布，Erasmus+ Learning Agreement 可先列模組後調整；部分課程不給分數，須提早與任課教師協商。結束時需整理並取得簽署的 Record of Courses，再辦理 Transcript of Records。<a href=\"https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/registration-and-study-at-berlin-university-of-the-arts/\" target=\"_blank\" rel=\"noopener noreferrer\">[4] UdK｜交換生註冊與學習</a>",
+        "對雙邊交換學生，是否使用相同表格應由兩校確認。建議建立一份對照表：UdK 課程／模組、ECTS、評核方式、原校對應科目、核准人與備用方案。跨班或跨專業修讀，需另外問名額、先修及簽署權限；自由創作氣氛不代表行政上沒有邊界。",
+        "多摩美術大學說明：交換期間向原校繳學費，協定校學費免除；學分由原校按科目適切性及成績、報告、作品等材料審核，原則上以所屬學科升級所需科目為認可範圍。這是有條件的認可制度，不是每門課自動轉換。<a href=\"https://www.tamabi.ac.jp/international-exchange/student-exchange/\" target=\"_blank\" rel=\"noopener noreferrer\">[11] 多摩美術大學｜交換留學制度</a>",
+        "出發前問：如果工作室只有通過／未通過，原校能否認可？若課程取消，誰批准替代？返校時要交哪種作品紀錄？這些問題比先追求最多學分更重要。"
+      ]
+    },
+    {
+      "heading": "十一、費用：免交換學費，仍需計算完整現金需求",
+      "paragraphs": [
+        "UdK 交換註冊頁列 2026/27 冬季 Semester contribution 為 <strong>€327／學期</strong>，包含學生服務與 Deutschlandsemesterticket 等，並非學費；需要加入德國法定學生醫保者，頁面以約 <strong>€150／月</strong>作參考。實際保險資格與報價另核對。<a href=\"https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/registration-and-study-at-berlin-university-of-the-arts/\" target=\"_blank\" rel=\"noopener noreferrer\">[4] UdK｜交換生註冊與學習</a>",
+        "校方生活指南列約 €900／月的最低生活參考，但個人房租、製作與保險支出可能不同。Siegmundshof 交換生宿舍名額有限，頁面列約 €400／月、押金 €500、最少六個月租期；是否獲房與實際費用須個別確認。<a href=\"https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/life-in-berlin/\" target=\"_blank\" rel=\"noopener noreferrer\">[5] UdK｜柏林生活與住宿</a>",
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th scope=\"col\">預算層次</th><th scope=\"col\">應納入的項目</th></tr></thead><tbody><tr><td>固定學習支出</td><td>原校學費、UdK 學期費、保險</td></tr><tr><td>每月支出</td><td>租金與水電、食物、電話、日常用品、製作材料</td></tr><tr><td>一次性與前期現金</td><td>押金、機票、臨時住宿、簽證／居留手續、行李運輸</td></tr><tr><td>作品特殊支出</td><td>印刷、模型、電子元件、展覽、設備租借或耗材</td></tr></tbody></table></div>",
+        "OTC 建議使用「實際租期月數 × 每月總額＋一次性支出＋預備金」估算。押金雖可能退還，仍佔用前期現金；若宿舍要求六個月租期，就不能只按四個月授課時間計租。上述金額不是全包報價，也不是簽證資金證明標準。",
+        "獎助金應向原校核對當年可申請項目、金額、支付時間與可否兼領。參加交換不表示自動取得 Erasmus+ 或其他資助；未核准的補助先不要列為可支配資金。"
+      ]
+    },
+    {
+      "heading": "十二、住宿、校區與日常安排",
+      "paragraphs": [
+        "UdK 多數建築集中在 Charlottenburg，但 New Media 的官方地點在 Schöneberg 的 Medienhaus。租房前應以實際上課地點比較通勤，而不是只搜尋一個「UdK 主校區」。<a href=\"https://www.udk-berlin.de/en/service/international-office/exchange/student-exchange-programme/studying-in-berlin/life-in-berlin/\" target=\"_blank\" rel=\"noopener noreferrer\">[5] UdK｜柏林生活與住宿</a> <a href=\"https://www.udk-berlin.de/studium/visuelle-kommunikation/new-media/\" target=\"_blank\" rel=\"noopener noreferrer\">[8] UdK｜New Media</a>",
+        "房源比較至少列清暖租／冷租、網路水電、押金、可入住與退租日期、能否辦理住址登記，以及交通時間。遠端找房時核對出租權限、合約與付款對象，預留短期住宿過渡方案。",
+        "藝術設計學生另要想：房內是否能做小型製作、器材與作品如何存放、夜間返家是否便利，以及展覽／工作室晚間活動後的交通。不應只以最低月租作唯一判斷。"
+      ]
+    },
+    {
+      "heading": "十三、簽證與保險：按護照及實際居留情況核對",
+      "paragraphs": [
+        "先使用德國外交部 Visa Navigator 按個人情況查詢，再向主管德國使領館及 UdK 國際學生服務核實交換目的、停留長度與材料。<a href=\"https://digital.diplo.de/navigator/en/visa\" target=\"_blank\" rel=\"noopener noreferrer\">[14] 德國外交部｜Visa Navigator</a>",
+        "在日本就讀與持有日本護照是不同條件；日本居留資格也不能直接作為赴德長期學習許可。申請人應以自己的國籍、通常居住地、既有居留文件與交換期判斷適用程序。",
+        "準備項目通常需要逐一核對接收通知、資金證明方式、醫療保障、住宿及旅行安排，但本文不提供適用所有人的簽證清單。旅遊保險是否符合大學註冊與居留用途，須向承保人及受理機關確認，不能僅看產品名稱。",
+        "抵達後按官方指引安排住址登記、校內註冊及必要居留程序；離境前同步處理退租、學習成果證明和原校返校手續。"
+      ]
+    },
+    {
+      "heading": "十四、多摩美術大學學生的準備順序",
+      "paragraphs": [
+        "多摩美公開流程涵蓋校內申請、甄選、候選人說明、向接收校交材料及返校學分審核；這份共通流程不能取代 UdK 的學期日期。<a href=\"https://www.tamabi.ac.jp/international-exchange/student-exchange/\" target=\"_blank\" rel=\"noopener noreferrer\">[11] 多摩美術大學｜交換留學制度</a>",
+        "<strong>第一步：</strong>向原校確認今年可派專業、名額、學習層級與校內截止。<strong>第二步：</strong>選兩至三個候選方向，對照近期學生作品與課程。<strong>第三步：</strong>詢問 UdK 的交換協調人，哪些班級實際接收你這一層級的學生。",
+        "<strong>第四步：</strong>與原系確認學分對照及畢業製作安排。<strong>第五步：</strong>編輯作品集與動機信，做語言及預算檢查。<strong>第六步：</strong>取得接收結果後，按正式通知完成註冊、住宿和入境手續。",
+        "多摩美已刊載的赴 UdK 學生報告，提到藉與交換生交流了解課程和居住情況，並在創作中拓展觀察與思考。這類經驗很適合用來形成提問，但不是對未來名額、老師或成果的保證。<a href=\"https://www.tamabi.ac.jp/closeup/91395/\" target=\"_blank\" rel=\"noopener noreferrer\">[13] 多摩美術大學｜2024 年度交換生報告</a>"
+      ]
+    },
+    {
+      "heading": "十五、問在校生什麼，問校方什麼？",
+      "paragraphs": [
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th scope=\"col\">對象</th><th scope=\"col\">適合提問</th></tr></thead><tbody><tr><td>在校生／往屆交換生</td><td>一週如何分配時間？討論與個別指導如何進行？實際用什麼語言？工作坊預約是否方便？</td></tr><tr><td>UdK 國際處</td><td>提名、接收通知、註冊、交換期限和住宿申請程序。</td></tr><tr><td>專業交換協調人／任課教師</td><td>班級准入、先修技能、評核、ECTS、跨課程安排和成果簽署。</td></tr><tr><td>原校國際處及所屬學科</td><td>內部甄選、協議範圍、原校學費、資助、學分與畢業時間。</td></tr></tbody></table></div>",
+        "向在校生提問時，帶上自己已查過的專業與具體疑問，例如「你們的評圖更重概念論述還是使用者測試？」比「這個學校怎麼樣？」更容易得到有用答案。涉及名額或規則的說法，最後仍向校方取得書面確認。"
+      ]
+    },
+    {
+      "heading": "十六、常見問題",
+      "paragraphs": [
+        "<strong>可否同時選很多專業？</strong>先確定接收專業，再逐項確認跨課程安排。本文不把「有選擇空間」解讀為無限制跨系。",
+        "<strong>作品漂亮就足夠嗎？</strong>還需讓審閱者理解問題、方法與本人貢獻。技術強項應服務作品的提問。",
+        "<strong>英語好就一定能完成交換嗎？</strong>要看實際課程的授課、討論與考核語言；不同領域有不同要求。",
+        "<strong>可以到了再延長一學期嗎？</strong>2026/27 Factsheet 表示原定交換期一般不得由一學期延至下一學期，應在出發前確定長度。<a href=\"https://www.udk-berlin.de/fileadmin/2_dezentral/International_Office/Dokumente/Download-Center/Factsheet_Application_Procedure_UdK_Berlin_2026_27.pdf\">[2] UdK 2026/27 Factsheet</a>",
+        "<strong>會拿到 UdK 學位嗎？</strong>短期交換本身不等同完成該校完整學位；重點是取得學習紀錄並按原校制度認可。",
+        "<strong>OTC 能保證提名或接收嗎？</strong>不能。提名、錄取、選課與學分決定由相關院校作出。"
+      ]
+    },
+    {
+      "heading": "十七、出發前核對清單與 OTC 支援",
+      "paragraphs": [
+        "<ul><li>原校與專業有適用協議，校內甄選及 UdK 截止均已確認。</li><li>接收專業、候選課程、語言及先修要求已核對。</li><li>履歷、動機信及作品集內容一致，檔案與連結可讀。</li><li>學分、評核與替代課程已和原系討論。</li><li>預算涵蓋完整租期、保險、押金及製作支出。</li><li>入境、註冊與住宿依正式通知安排。</li><li>已規劃課程簽署、成績紀錄及返校作品整理。</li></ul>",
+        "海外督導 OTC 可協助整理官方資料、比較候選方向、規劃作品集呈現與動機信、建立向兩校提問的清單。歡迎提供目前專業與年級、計畫交換學期、兩至三個候選方向和希望完成的項目；首次諮詢不必提交身分證件。",
+        "<a href=\"/zh/university-applications/\">查看 OTC 升學申請支援</a>｜<a href=\"mailto:office@overseasuk.com\">聯絡編輯部／諮詢：office@overseasuk.com</a>"
+      ]
+    }
+  ],
+  "body": []
+}
