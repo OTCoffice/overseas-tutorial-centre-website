@@ -3393,6 +3393,7 @@ const insightsArticles = [
   require("./content/tnua-animation-guide.json"),
   require("./content/visa-politics-japan.json"),
   require("./content/europe-exchange-guide.json"),
+require("./content/yonsei-english-guide.json"),
 require("./content/kyung-hee-english-guide.json"),
 require("./content/otc-english-check-article.json"),
 require("./content/udk-exchange-guide.json"),
