@@ -2473,6 +2473,7 @@ function transnationalEducationGroupCards() {
 function searchItems() {
   const pages = [
     ["動畫與原作作品集支援", "/zh/services/animation-portfolio-support/", "免費初評、作品規劃、導師匹配與報考準備。"],
+    ["澳洲轉校與 Release 申請協調", "/zh/services/australia-transfer-release-support/", "學籍、文件、兩校電郵及入學日期協調。"],
     ["歐洲交換陪跑", "/zh/services/europe-exchange-support/", "決策、選課、均分與學分規則、預算及升碩銜接；免費初評，持續陪跑另確認。"],
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
@@ -3392,6 +3393,7 @@ const uoaImmigBody = [
 const insightsArticles = [
   require("./content/tnua-animation-guide.json"),
   require("./content/visa-politics-japan.json"),
+  require("./content/australia-release-guide.json"),
   require("./content/europe-exchange-guide.json"),
 require("./content/yonsei-english-guide.json"),
 require("./content/kyung-hee-english-guide.json"),
@@ -34396,6 +34398,7 @@ insightsArticles.forEach((article) => {
   write(`zh/insights/${article.slug}`, insightArticlePageZh(article));
 });
 write("zh/services/animation-portfolio-support", require("./content/animation-portfolio-service.cjs")());
+write("zh/services/australia-transfer-release-support", require("./content/australia-release-service.cjs")());
 write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("search", search);
 write("about", about);
