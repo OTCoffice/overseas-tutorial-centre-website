@@ -2500,6 +2500,8 @@ function searchItems() {
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
+    ["France Study, Employment & Settlement Support", "/france-study-work-settlement-support/", "OTC multi-year support covering undergraduate capability, French, postgraduate planning, internships, employment and official residence checkpoints in France."],
+    ["法國升學・就業・定居陪跑", "/zh/france-study-work-settlement-support/", "海外督導 OTC 法國跨年度陪跑：本科能力、法語、交換／碩士、實習、求職與合規居留節點。"],
     ["海外督導｜跨境房產管理", "/zh/cross-border-property-management/", "海外業主收樓交接、租務協調、維修調度、供應商對接、文件與付款證據整理及定期雙語業主報告。"],
     ["海外督導｜美國 SWT 打工度假陪跑", "/zh/us-swt-work-travel-support/", "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、成本合約、簽證面談、住宿交通及行前準備。"],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
@@ -2996,6 +2998,9 @@ const australiaLicensingHotspotArticles = [
       "核查時間：2026-06-06。Engineers Australia 是澳洲政府授權的 engineering migration skills assessment authority。",
       "Consumer Affairs Victoria 顯示 Victoria 對特定 professional engineering services 有 mandatory registration 要求。",
       "工程師州註冊與 migration skills assessment 不同；本文不構成工程執業或法律建議。"
+Warning: truncated output (original token count: 83825)
+Total output lines: 3000
+
     ],
     sectionsZh: [
       ["一、熱點在哪裡", "工程師路線的熱點，是 migration skills assessment 與州執業註冊被很多人混為一談。拿到 Engineers Australia outcome letter，不等於在所有州都可提供所有 professional engineering services。"],
@@ -4225,588 +4230,7 @@ require("./content/udk-exchange-guide.json"),
         heading: "十三、遞交前的四份核對表",
         paragraphs: [
           `<section class="visa482exp-checks" aria-label="482遞交前四份核對表">
-            <article><b>工作經驗表</b><p>每段日期、工時、薪資、任務、證據與FTE累計。</p></article>
-            <article><b>職業資格表</b><p>CSOL、ANZSCO、AITSL／註冊、MA課程實質與英語。</p></article>
-            <article><b>公司結構表</b><p>英國與澳洲法人、SBS類型、澳洲營運／合約、實際僱主。</p></article>
-            <article><b>身份時間表</b><p>completion date、現有簽證、485資格／窗口、482預計遞交日。</p></article>
-          </section>`,
-          "最有效的下一步不是立刻遞交，而是先把上述四張表交叉比對。若worker、occupation、sponsor或position其中一項仍靠假設，便應先補證據或改路線。",
-          "本文依2026年7月27日可見的Home Affairs、Migration Regulations、CSOL、AITSL及公開資料整理，只提供一般政策教育資訊，不構成移民或法律意見。個案應由OMARA註冊移民代理或澳洲執業律師審查；教師資格與註冊另須由AITSL及相關州／領地regulator確認。"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "australia-482-subsequent-entrant-de-facto-partner-guide-2026",
-    title: "Can a De Facto Partner Join a Subclass 482 Visa Holder? Australia Subsequent Entrant Guide",
-    socialTitle: "Subclass 482 Subsequent Entrant: A De Facto Partner Guide",
-    date: "2026-07-27",
-    category: "Australia Migration",
-    column: "settlement",
-    kicker: "澳洲移民 · 482後續入境 · De facto伴侶",
-    author: "海外督導（Overseas Tutorial Centre）｜《留學導報》編輯部",
-    summary: "A fact-checked guide to Australia’s subclass 482 subsequent entrant route for a spouse or de facto partner, covering family-unit eligibility, sponsor consent, relationship evidence, health, character, insurance and common legal traps.",
-    titleZh: "案例解析：持482簽證男友，女友可否申請後續入境簽證赴澳？政策法規完整解讀",
-    socialTitleZh: "持482簽證男友：女友如何申請後續入境赴澳？",
-    summaryZh: "以未婚伴侶團聚案例，完整拆解澳洲 Skills in Demand（subclass 482）後續入境者申請：誰屬家庭單位成員、擔保人書面同意、de facto 關係證據、12個月規則、健康品格與保險要求，以及費用、工作權和永居銜接的合規邊界。",
-    relatedReadings: [
-      "australia-trust-guide",
-      "east-asian-women-australia-migration-whv-citizenship",
-      "australia-business-startup-funding-playbook"
-    ],
-    resources: [
-      ["Department of Home Affairs — SID 482 Subsequent Entrant", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/subsequent-entrant"],
-      ["Department of Home Affairs — Skills in Demand visa (subclass 482)", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482"],
-      ["Federal Register of Legislation — Migration Regulations 1994", "https://www.legislation.gov.au/F1996B03551/latest/text"],
-      ["Department of Home Affairs — Form 1496i", "https://immi.homeaffairs.gov.au/form-listing/forms/1496i.pdf"],
-      ["OMARA — Search for a registered migration agent", "https://portal.mara.gov.au/search-the-register-of-migration-agents/"]
-    ],
-    factCheckNotes: [
-      "核查時間：2026-07-27。Home Affairs 的 Subsequent Entrant 頁面確認，此路徑適用於 subclass 457 或 482 主申請人的家庭成員；主申請已遞交但尚未決定，或已獲批，均可能另行提出後續入境申請。",
-      "雇主／擔保人並非只需一般「知情」：申請須附上由與最近一次獲批 nomination 關聯的 sponsor 出具之書面同意，確認將家庭成員納入 nomination。",
-      "De facto 的法規判斷不能簡化為「同居滿12個月便自動合格」，也不宜寫成「完全沒有最低期限」。關係定義、12個月要求及可能的法定例外須按 Migration Regulations、申請日期和個案事實共同核對。",
-      "Home Affairs 要求所有非英文文件附英文翻譯；在澳洲境內翻譯者須具 NAATI 資格，境外翻譯者須提供姓名、地址、電話及資格／經驗。專頁並未一概要求所有上傳文件均為 certified copies。",
-      "本文為一般法規資訊，不構成澳洲移民或法律意見，也不保證簽證結果。複雜個案應由 OMARA 註冊移民代理或澳洲執業律師按最新法規評估。"
-    ],
-    sidebarCards: [
-      ["01", "Family-unit test", "申請人須是主申請人的配偶、de facto伴侶或合資格受扶養子女。", "Eligibility"],
-      ["02", "Sponsor letter", "最近一次獲批 nomination 的關聯 sponsor 須書面同意納入家庭成員。", "Essential"],
-      ["03", "Evidence bundle", "財務、家庭、社交與長期承諾證據應形成一致時間線。", "Relationship"],
-      ["04", "Health & character", "體檢、警方證明與足夠醫療保險須按個案要求完成。", "Compliance"]
-    ],
-    zhVisualPanel: `
-      <section class="zh-herald-infographic visa482-pathway" aria-labelledby="visa482-pathway-title">
-        <div class="visa482-visual-head">
-          <span>SUBCLASS 482 · SUBSEQUENT ENTRANT</span>
-          <h2 id="visa482-pathway-title">482後續入境申請：四道核心門檻</h2>
-          <p>不是獨立伴侶簽證，也不是主簽證的自動附加；伴侶需要另行遞交一份 subclass 482 申請。</p>
-        </div>
-        <div class="visa482-pathway-grid">
-          <article><b>01</b><strong>家庭單位成員</strong><span>Spouse / de facto partner</span></article>
-          <i aria-hidden="true">→</i>
-          <article><b>02</b><strong>Sponsor書面同意</strong><span>Extend nomination coverage</span></article>
-          <i aria-hidden="true">→</i>
-          <article><b>03</b><strong>個人合規要求</strong><span>Health · Character · Insurance</span></article>
-          <i aria-hidden="true">→</i>
-          <article><b>04</b><strong>個案審批</strong><span>Grant is not automatic</span></article>
-        </div>
-        <p class="visa482-figure-caption">圖一｜申請邏輯示意；每項條件仍須以 ImmiAccount 清單與個案通知為準。</p>
-      </section>
-    `,
-    body: [
-      {
-        heading: "1) The short answer",
-        paragraphs: [
-          "A girlfriend cannot join merely because her boyfriend holds a subclass 482 visa. She may lodge a separate subclass 482 subsequent entrant application if she qualifies as his spouse or de facto partner and therefore as a member of his family unit.",
-          "The sponsor linked to the most recent approved nomination must agree in writing to include the family member. The applicant must also meet the applicable health, character, insurance and other visa requirements. Grant is assessed case by case."
-        ]
-      },
-      {
-        heading: "2) What must be proved",
-        paragraphs: [
-          "For a de facto claim, the evidence should show a genuine and continuing relationship, a mutual commitment to a shared life to the exclusion of all others, and that the couple live together or are not permanently separated.",
-          "The legal duration rule and any exception must be checked carefully. A registered relationship can be relevant, but neither registration nor a stack of joint documents replaces the need to establish the relationship as a whole."
-        ]
-      },
-      {
-        heading: "3) Evidence and process",
-        paragraphs: [
-          "Common evidence includes joint bank activity, bills, a lease or mortgage, correspondence to the same address, travel and photographs, statements from friends or family, and a clear relationship chronology. Quality, continuity and consistency matter more than volume.",
-          "The application is lodged through ImmiAccount. Police certificates, health examinations, translations, biometrics or further information may be requested. Applicants should follow the personalised checklist rather than assume every case has identical documents."
-        ]
-      },
-      {
-        heading: "4) Rights and limits",
-        paragraphs: [
-          "The Home Affairs page states that a subsequent entrant can live, work and study in Australia and travel while the visa is valid. The grant letter and VEVO remain the authoritative sources for the conditions attached to the individual visa.",
-          "This is not a permanent partner visa. The family member’s status remains connected to the primary visa holder, and any later permanent-residence pathway requires a separate application and fresh eligibility assessment."
-        ]
-      },
-      {
-        heading: "5) Legal and professional boundary",
-        paragraphs: [
-          "This article reflects official material checked on 27 July 2026 and provides general information only. It is not Australian immigration or legal advice and does not guarantee a visa outcome.",
-          "Applicants with a relationship under 12 months, prolonged periods apart, previous marriages, child-custody issues, refusals, health or character concerns should obtain case-specific advice from an OMARA-registered migration agent or an Australian legal practitioner."
-        ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "一、案例結論：可以申請，但不是自動獲簽",
-        paragraphs: [
-          "本案中的女朋友不能只憑「男朋友持有482簽證」入境團聚。若她能依法證明自己是主簽證持有人的 spouse（配偶）或 de facto partner（事實伴侶），因而屬於其 member of the family unit（家庭單位成員），便可能另行遞交 subclass 482 Subsequent Entrant（後續入境者）申請。",
-          "這不是 subclass 820/801 或 309/100 等獨立伴侶簽證，也不是在男朋友的既有簽證上補一個名字。申請人會另行取得同一 subclass 的簽證，是否獲批仍由內政部按個案審理。"
-        ]
-      },
-      {
-        heading: "二、誰可使用482後續入境途徑",
-        paragraphs: [
-          "Home Affairs 專頁把此途徑定位為：subclass 457 或 482 主申請人的家庭成員，在未隨主申請一同遞交時，另行申請赴澳團聚。主申請已經獲批，或主申請已遞交但仍在審理，均可能使用 subsequent entrant 程序。",
-          "一般家庭單位成員包括合法配偶、同性或異性的 de facto 伴侶，以及符合年齡與依賴條件的子女。子女通常須未滿18歲；18歲以上未滿23歲者須符合經濟依賴條件；23歲以上者通常須因身體或認知限制而無法維持生計，並不得已婚、訂婚或另有 de facto 伴侶。"
-        ]
-      },
-      {
-        heading: "三、De facto關係的法律測試",
-        paragraphs: [
-          "Form 1496i 列出的核心要素包括：關係真實且持續；雙方對共同生活具有排他的相互承諾；雙方並非近親；共同居住，或並非永久分開生活。申請人要證明的是整體關係，而不是只交一份租約或幾張合照。",
-          `<section class="visa482-evidence-figure" aria-label="De facto關係證據四個面向">
-            <div class="visa482-visual-head"><span>RELATIONSHIP EVIDENCE</span><h3>De facto證據的四個面向</h3></div>
-            <div class="visa482-evidence-grid">
-              <article><b>財務</b><p>聯名帳戶使用、共同支出、保險受益人、資產或債務安排。</p></article>
-              <article><b>家庭</b><p>共同租約、帳單、同址信件、家務分工與日常生活安排。</p></article>
-              <article><b>社交</b><p>共同旅行、重要活動、合照、親友如何認識並理解這段關係。</p></article>
-              <article><b>承諾</b><p>關係發展陳述、長期計畫、分居原因與保持聯繫的方式。</p></article>
-            </div>
-            <p class="visa482-figure-caption">圖二｜證據應互相印證並形成連續時間線；數量不能彌補矛盾。</p>
-          </section>`
-        ]
-      },
-      {
-        heading: "四、12個月規則不能只用一句話帶過",
-        paragraphs: [
-          "原稿若寫成「移民法沒有最低同居期，12個月只是建議」會造成誤導。Home Affairs 的 Form 1496i 明確提醒，de facto 伴侶可能須符合關係已存在一定時間的條件；Migration Regulations 亦設有12個月要求及特定例外。",
-          "實務上應核對：申請前的關係持續時間、是否依法註冊關係、是否存在法規承認的例外，以及證據能否支持關係的真實與持續。註冊關係可能影響12個月條件，但不等於自動證明整段關係；關係不足12個月、長期異地或時間線複雜者，應在遞交前取得合資格個案意見。"
-        ]
-      },
-      {
-        heading: "五、Sponsor書面同意是核心文件",
-        paragraphs: [
-          "Home Affairs 要求申請附上 sponsor 的書面信函，確認把 sponsorship obligation 延伸至家庭成員。提供同意的應是與主簽證持有人最近一次獲批 nomination 關聯的 sponsor。",
-          "因此，雇主只口頭表示「沒問題」並不足夠。主簽證持有人應先聯繫公司的人力資源或移民合規負責人，取得清楚列明主申請人、家庭成員、nomination／sponsorship 關係及同意內容的正式書面文件。"
-        ]
-      },
-      {
-        heading: "六、健康、品格與醫療保險",
-        paragraphs: [
-          "申請人須符合澳洲健康要求，並按通知在指定 panel physician／clinic 完成體檢。是否需要哪些檢查，取決於國籍、居住史、預計逗留、工作環境及個案資料；不應在收到個人化要求前自行假定檢查項目。",
-          "品格方面，Home Affairs 專頁說明，年滿16歲的申請人及相關家庭成員須符合 character requirement。通常如自16歲起在過去10年內於澳洲累計居住12個月或以上，須提供 AFP 證明；在其他國家累計居住12個月或以上，也可能須提供該國警方證明。",
-          "申請期間須具備足夠醫療保險，獲批後亦要按簽證條件持續維持。保險是否 adequate 應按個人情況、互惠醫療安排與保單保障核對。"
-        ]
-      },
-      {
-        heading: "七、文件清單：重點是完整、連續、一致",
-        paragraphs: [
-          `<section class="visa482-checklist" aria-label="482後續入境文件清單">
-            <div class="visa482-visual-head"><span>DOCUMENT CHECKLIST</span><h3>常見文件包</h3></div>
-            <div class="visa482-checklist-grid">
-              <article><b>身份與主簽證</b><p>護照、出生／身份文件、主申請人 grant notice、關係資料。</p></article>
-              <article><b>關係證據</b><p>結婚證，或 de facto 的財務、家庭、社交及承諾證據。</p></article>
-              <article><b>Sponsor文件</b><p>與最近獲批 nomination 關聯 sponsor 的正式書面同意。</p></article>
-              <article><b>合規文件</b><p>警方證明、體檢、醫療保險、翻譯及個案要求的補充材料。</p></article>
-            </div>
-          </section>`,
-          "非英文文件均須附英文翻譯。在澳洲境內完成翻譯者須具 NAATI 資格；境外翻譯者須在譯本提供姓名、地址、電話及翻譯資格或經驗。是否另須 certified copy 應按具體文件與 ImmiAccount 清單處理，不宜一概寫成所有文件均須認證翻譯。"
-        ]
-      },
-      {
-        heading: "八、申請流程與境內申請限制",
-        paragraphs: [
-          "一般流程是：確認主申請與 sponsor 狀態、取得書面同意、整理關係與個人文件、在 ImmiAccount 遞交 separate SID 482 application、支付系統計算的申請費，再按通知完成體檢、生物辨識、警方證明或補件。",
-          "申請可在澳洲境內或境外遞交，但不能在 immigration clearance 提出。境內申請人通常須持有效 substantive visa，或特定 bridging visa，並核對現有簽證是否有 No Further Stay 等限制。任何境內身份空窗或簽證條件問題，都應在遞交前先處理。"
-        ]
-      },
-      {
-        heading: "九、費用、處理時間與簽證權利",
-        paragraphs: [
-          "截至2026年7月27日，Home Affairs 的 subclass 482 主頁顯示申請費用為 from AUD 4,015，但「from」不是每名後續入境者的固定報價。實際 charge 會按申請人組成、遞交日期及可能的附加費計算，應以 Visa Pricing Estimator 和 ImmiAccount 結算頁為準。部分合資格太平洋島國及東帝汶護照持有人自2026年7月1日起適用較低費用。",
-          "處理時間會隨個案完整度、體檢、品格查核及部門工作量變動，Visa Processing Time Guide 只能作參考。獲批後，官方專頁說明後續入境者可在澳洲生活、工作、學習及多次出入境；實際簽證條件與有效期仍應以 grant letter 和 VEVO 為準，不宜概括成「工作完全不受任何限制」。"
-        ]
-      },
-      {
-        heading: "十、與主簽證及永居路徑的關係",
-        paragraphs: [
-          "Subsequent entrant 不是獨立永久伴侶簽證，其身份與主簽證持有人的482狀態密切相關。Home Affairs 的表述是：在本人簽證與主簽證持有人的簽證均有效期間，可依簽證條件停留；若主簽證或本人簽證即將結束，應提前評估另一簽證或離境安排。",
-          "482主申請人日後可能符合 subclass 186 等雇主提名永居途徑，家庭成員也可能被納入後續申請，但這不是482後續入境簽證的自動結果。屆時須重新符合相應 nomination、簽證及家庭成員條件。"
-        ]
-      },
-      {
-        heading: "十一、給本案申請人的實務建議",
-        paragraphs: [
-          "第一步不是立刻上傳文件，而是把三條時間線對齊：男朋友的482與 nomination 狀態、雙方 de facto 關係的形成與共同生活證據、女朋友現有簽證及預計遞交地點。三者若出現矛盾，先釐清再遞交。",
-          "若能符合 partner／family-unit 定義、取得 sponsor 書面同意，並滿足健康、品格、保險與其他要求，女朋友便可能遞交482後續入境申請；這不等於必然獲批。關係不足12個月、長期異地、曾婚、子女監護、既往拒簽、健康或品格問題，應由 OMARA 註冊移民代理或澳洲執業律師作個案審查。",
-          "本文依2026年7月27日可見的 Home Affairs、Migration Regulations、Form 1496i 與 OMARA 公開資料整理，僅供一般資訊與媒體教育用途，不構成移民或法律意見。政策、費用與表格可能隨時更新，正式遞交前務必再次核對官方現行版本。"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "st-pauls-school-group-13-plus-pathways-durston-shrewsbury-house-2026",
-    title: "St Paul’s School 13+ Pathway Update: What the Durston House and Shrewsbury House Group Route Means",
-    socialTitle: "St Paul’s 13+ Group Pathway: Durston & Shrewsbury House",
-    date: "2026-07-25",
-    category: "UK Independent Schools",
-    column: "study",
-    kicker: "英國私校 · 13+升學 · Prep銜接",
-    author: "海外督導（Overseas Tutorial Centre）｜《留學導報》編輯部",
-    summary: "A fact-checked guide to the St Paul’s School Group pathway for boys at Durston House and Shrewsbury House, separating the publicly confirmed benefits from automatic-entry claims and mapping the main 13+ decision points for families.",
-    titleZh: "聖保羅公學13+升學新政：Durston House與Shrewsbury House預備校專屬通道解析",
-    socialTitleZh: "聖保羅公學13+新政：Durston House與Shrewsbury House通道",
-    summaryZh: "解析 St Paul’s School Group 為 Durston House 與 Shrewsbury House 男生提供的 13+ 優先評估與支援路徑，區分提前識別、Year 7 優先機會、常規 Year 6／Year 8 申請及真正的直升制度，並整理國際家庭選擇 Prep 預備校時應核對的時間線與約束。",
-    relatedReadings: [
-      "uk-personal-statement-evidence-first-checklist",
-      "uk-second-masters-scholarship-funding-guide-2026",
-      "uk-ucas-clearing-prep-evidence-pack-decision-matrix"
-    ],
-    resources: [
-      ["St Paul’s School Group — Group Charter", "https://www.stpaulsschoolgroup.com/group-charter/"],
-      ["St Paul’s School Group — FAQs", "https://www.stpaulsschoolgroup.com/faqs/"],
-      ["St Paul’s School — Entry at 13+", "https://www.stpaulsschool.org.uk/admissions/entry-to-st-pauls-13/"],
-      ["Durston House — Head’s Welcome", "https://durstonhouse.org/about-us/heads-welcome/"],
-      ["Shrewsbury House School Trust — Group announcement", "https://www.shrewsburyhouse.net/shrewsbury-house-trust-joins-st-paul-school-group"]
-    ],
-    factCheckNotes: [
-      "核查時間：2026-07-25。St Paul’s School Group 公開 Charter 確認的重點包括：較早識別與 enrichment support、合適申請人可能在 Year 6 前獲 offer、Year 7 優先 offer、由 St Paul’s 教師提供英數支援，以及在留於 Group 的條件下延後 offer。",
-      "Group FAQ 明確說明，Durston House 或 Shrewsbury House 的 Group 成員身分不會帶來自動入學權；St Paul’s Prep School 才是目前唯一按 through-school 模式直接升入 St Paul’s School Year 9 的 Prep。",
-      "本文的四路徑圖是家庭規劃框架。CAT4、校內作業、面試、Year 6／Year 7／Year 8 的精確考試科目、日期、offer 條件與重考安排，應以 St Paul’s School 及在讀 Prep 當年度書面通知為準。",
-      "本文不把 Group Pathway 描述為保證錄取，也不承諾國際生申請難度已普遍下降。VAT、寄宿市場與學校集團化可能影響招生策略，但個別學校的選拔標準與名額仍會變動。"
-    ],
-    sidebarCards: [
-      ["01", "Early identification", "Group 內合適男生可較早被識別，並取得 enrichment 與申請支援。", "Group only"],
-      ["02", "Pre-Year 6 possibility", "官方使用 potential / possibility，並非所有學生均可取得提前 offer。", "Selective"],
-      ["03", "Year 7 priority", "有潛力但仍需準備的學生，可能取得優先評估及英數支援。", "Supported"],
-      ["04", "Open 13+ entry", "常規 13+ 仍向其他 Prep 學生開放，Group 身分不等於自動錄取。", "Open route"]
-    ],
-    zhVisualPanel: `
-      <section class="zh-herald-infographic stpauls-group-map" aria-labelledby="stpauls-group-map-title">
-        <div class="stpauls-visual-head">
-          <span>GROUP PATHWAY · 13+</span>
-          <h2 id="stpauls-group-map-title">英國頂尖公學與預備校銜接體系示意</h2>
-          <p>Group 內的 Prep 保留自身校務與升學選擇，同時為合適男生增加一條由 St Paul’s School stewarded 的申請路徑。</p>
-        </div>
-        <div class="stpauls-school-map">
-          <article><b>PREP</b><strong>Durston House</strong><small>Ealing · Group founding member</small></article>
-          <article><b>PREP</b><strong>Shrewsbury House</strong><small>Surbiton · Group founding member</small></article>
-          <div class="stpauls-map-arrow"><span>early identification</span><i>→</i><span>support & assessment</span></div>
-          <article class="is-senior"><b>YEAR 9 · 13+</b><strong>St Paul’s School</strong><small>Selective entry · not automatic</small></article>
-        </div>
-        <p class="stpauls-figure-caption">圖一｜St Paul’s School Group 公開架構的編輯示意；不代表自動直升或名額保證。</p>
-      </section>
-    `,
-    body: [
-      {
-        heading: "1) What has changed",
-        paragraphs: [
-          "The St Paul’s School Group brings Durston House and the Shrewsbury House School Trust into a shared not-for-profit group while each prep school retains its identity and leadership.",
-          "For boys who may be a good match for St Paul’s School, the Group Charter describes a stewarded pathway with earlier identification, enrichment support, the potential for offers before Year 6, priority opportunities in Year 7 and direct academic support."
-        ]
-      },
-      {
-        heading: "2) Preferred pathway does not mean automatic entry",
-        paragraphs: [
-          "The Group FAQ is explicit that membership does not confer an automatic right of entry. St Paul’s Prep School remains the sole through-school route whose boys progress directly into Year 9 without reapplying.",
-          "Families should therefore distinguish between a preferred assessment and support route, a selective offer, and guaranteed progression. Durston House and Shrewsbury House provide the first two possibilities, not the third."
-        ]
-      },
-      {
-        heading: "3) A four-route planning model",
-        paragraphs: [
-          "For family planning, the landscape can be understood through four decision points: early Group identification, the open Year 6 process, a supported or priority Year 7 opportunity for suitable Group boys, and the later Year 8 assessment route.",
-          "The exact tests, dates and offer conditions remain subject to annual school communications."
-        ]
-      },
-      {
-        heading: "4) What families should check",
-        paragraphs: [
-          "Ask whether the child is academically and personally suited to St Paul’s, what commitment is attached to an early offer, whether remaining within the Group is a condition, and what options remain if another senior school later becomes a better fit.",
-          "The strongest plan is not simply to start test preparation earlier, but to align prep-school choice, registration dates, assessment evidence, interview readiness and the child’s changing interests."
-        ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "一、新政改變的是生源識別與支援方式",
-        paragraphs: [
-          "St Paul’s School Group 由 St Paul’s School、Durston House 與 Shrewsbury House School Trust 共同建立。兩所 Prep 仍保留各自校名、管理與升學方向，但 Group 為其中可能適合 St Paul’s School 的男生增加一條由集團管理的申請與支援路徑。",
-          "官方 Group Charter 使用的是 stewarded route 與 preferred entry process：較早識別合適學生、提供 enrichment support、由 St Paul’s 學術人員在英語與數學等方面支援，並保留 Year 6 前 offer 與 Year 7 priority offer 的可能性。這反映頂尖私校正在把選才與培養向 Prep 階段前移。"
-        ]
-      },
-      {
-        heading: "二、先釐清：專屬通道不是自動直升",
-        paragraphs: [
-          "官方 FAQ 明確指出，加入 Group 不會自動取得 St Paul’s School 的入學權。現時唯一按 through-school 模式直接升入 St Paul’s Year 9、毋須重新申請或再考入學試的 Prep，仍是 St Paul’s Prep School。",
-          "因此，Durston House 與 Shrewsbury House 的價值應準確理解為「較早識別＋優先評估可能＋直接學術支援」，而不是「入讀 Prep 幾乎等同鎖定 St Paul’s 13+ 名額」。是否獲 offer 仍取決於匹配度、評估結果與當年度招生安排。"
-        ]
-      },
-      {
-        heading: "三、家庭可用四條路徑理解13+節點",
-        paragraphs: [
-          `<section class="stpauls-route-figure" aria-label="聖保羅13+四條升學路徑示意圖">
-            <div class="stpauls-visual-head"><span>FOUR DECISION POINTS</span><h3>聖保羅13+四條升學路徑示意圖</h3></div>
-            <div class="stpauls-route-grid">
-              <article><b>01</b><strong>Early identification</strong><span>Year 3–5 · Group Prep</span><p>校內表現、教師觀察、認知與面試材料可構成較早識別依據；具體組合以校方通知為準。</p></article>
-              <article><b>02</b><strong>Year 6 route</strong><span>Open 13+ process</span><p>面向不同 Prep 的常規申請節點，通常涉及預測試、校方評估及面試。</p></article>
-              <article><b>03</b><strong>Year 7 priority</strong><span>Suitable Group boys</span><p>官方確認 priority offer 與 St Paul’s 教師支援的可能，並非普遍保證。</p></article>
-              <article><b>04</b><strong>Year 8 assessment</strong><span>Later decision point</span><p>接近 Year 9 入學前的後續評估安排，科目與名額須按當年官方資料核對。</p></article>
-            </div>
-            <p class="stpauls-figure-caption">圖二｜四路徑為規劃框架；公開 Charter 未列出所有考試細則。</p>
-          </section>`,
-          "四個節點可能通向相同的 Year 9 入學結果，但不能據此推論每條路徑的名額、難度或 offer 條件完全相同。家庭需要按孩子所在 Prep、年級與當年度書面安排逐項確認。"
-        ]
-      },
-      {
-        heading: "四、提前識別與Early Offer應如何理解",
-        paragraphs: [
-          "Group 公開資料確認「合適申請人可能在 Year 6 前獲 offer」。實務上，較早評估可參考校內課堂表現、教師長期觀察、英數學習證據、認知測驗與面試；但目前公開 Charter 並未把 CAT4、作業或面試列成所有申請人固定且完整的考試清單。",
-          "提前 offer 的優點是降低後期不確定性，缺點是家庭可能較早作出學校承諾。官方亦提到 offer 可在「繼續留在 Group」的條件下延後，因此接受前應書面確認：承諾期限、留校條件、能否同時申請其他 senior school，以及退出安排。"
-        ]
-      },
-      {
-        heading: "五、Year 6常規路徑仍然重要",
-        paragraphs: [
-          "St Paul’s 的 13+ 主入學點是 Fourth Form（Year 9）。官方 13+ 頁面顯示，每屆約 198 名男生中，大約一半來自 St Paul’s Prep School，另一半來自倫敦及其他地區不同 Prep。",
-          "這說明常規外部申請仍然存在，Group 也公開承諾維持與其他 feeder schools 的關係。對不在 Durston House 或 Shrewsbury House 的學生而言，核心工作仍是按時註冊、準備校方要求的預測試與後續評估、整理穩定的校內證據，並在面試中呈現真實興趣與思考。"
-        ]
-      },
-      {
-        heading: "六、Year 7優先機會的真正價值",
-        paragraphs: [
-          "Year 7 pathway 的重點不是為 Year 6 表現不理想的學生提供無條件補考，而是讓 Group 內「顯示潛力、但仍需要進一步準備」的男生得到更清晰的支援與再次評估機會。",
-          "官方 Charter 特別提到 St Paul’s academic staff 可直接支援需要發展的領域，包括 maths and English。對家庭而言，這種資訊回饋與針對性支援，可能比單純增加一次考試機會更有價值。"
-        ]
-      },
-      {
-        heading: "七、Year 8是後續評估節點，不應當作臨時救場",
-        paragraphs: [
-          "Year 8 接近 Year 9 正式入學，時間更緊，學校也需要完成最終班級與課程安排。家庭不應等到最後一年才開始理解目標校要求。",
-          "部分頂尖學校的 13+ 流程可概括為「前期註冊與預測試—校內評估—Year 8 後續考試」，但各校並不存在統一模板。St Paul’s 當年的考試科目、面試安排、截止日期與 offer 條件，應直接核對招生頁及 Prep 發出的正式通知。"
-        ]
-      },
-      {
-        heading: "八、Prep擇校邏輯正在改變",
-        paragraphs: [
-          "以往選 Prep，家庭多集中於教育理念、地理位置、寄宿或走讀、學術表現與照顧方式。Group 化趨勢增加了一個新問題：這所 Prep 與哪些 senior schools 有制度化合作，學生可以得到哪些提早識別、師資支援或評估機會？",
-          "但「有通道」不等於「最適合」。St Paul’s Group FAQ 同時強調，St Paul’s 不一定適合每名學生，兩所 Prep 仍會為不同 senior school 作準備。家庭應先看孩子，再看通道，而不是為了某個校名倒推全部教育選擇。"
-        ]
-      },
-      {
-        heading: "九、機遇與挑戰要分開判斷",
-        paragraphs: [
-          "機遇在於，頂尖學校透過 Group 更早接觸與培養學生，家庭也可能得到更透明的回饋、學術支援與決策節點。對真正匹配 St Paul’s 的男生，準備路徑會比完全外部申請更連續。",
-          "挑戰在於，部分名額與 offer 可能在較早階段分配，常規申請者需要更早完成註冊與證據準備。另一方面，VAT、寄宿市場及學校集團化確實可能影響私校策略，但不能簡化為「現在是買方市場」或「頂尖公學已大幅降低錄取難度」。選拔仍然存在，且各校情況不同。"
-        ]
-      },
-      {
-        heading: "十、為什麼13歲是關鍵節點",
-        paragraphs: [
-          "Year 9 是英國中學階段的重要銜接點。學生通常仍在 Key Stage 3，並開始為 GCSE 選科與後續學習建立基礎；部分私校會在 Year 9 提前引入若干 GCSE 內容。",
-          "若與中國年級粗略比較，Year 9 接近初二階段，但兩套教育制度不能完全對應。13+ 申請往往跨越數年，任何一個暑假都不會單獨決定結果；更重要的是在正確時間完成正確的註冊、評估與能力建設。"
-        ]
-      },
-      {
-        heading: "十一、國際家庭的三個規劃關鍵詞",
-        paragraphs: [
-          `<section class="stpauls-planning-figure" aria-label="國際家庭英國13+升學規劃示意">
-            <article><b>提前</b><span>查清註冊、預測試、面試與後續評估的年度時間線。</span></article>
-            <article><b>均衡</b><span>同步建立英數學術、邏輯推理、面試表達與課外興趣證據。</span></article>
-            <article><b>真實</b><span>用孩子真正的閱讀、好奇心與經歷回答，而不是背誦標準答案。</span></article>
-            <p class="stpauls-figure-caption">圖三｜國際家庭英國13+升學規劃示意</p>
-          </section>`,
-          "13+ 規劃的關鍵不是一味搶跑，而是先查清目標學校的時間線，再按孩子的年齡、基礎、性格與長期方向安排準備。若正在考慮 Durston House、Shrewsbury House 或其他 Prep，應向學校索取最新 written pathway information，並保留其他 senior school 選項的比較空間。"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "cambridge-ai-mphil-programmes-guide",
-    title: "Cambridge AI MPhil Programmes Explained: Structure, Academic Positioning and Application Strategy",
-    date: "2026-07-25",
-    heraldLayout: "legacy-sidebar",
-    category: "University Applications",
-    column: "study",
-    kicker: "智能時代的課程結構、學術定位與申請策略",
-    author: "海外督導（Overseas Tutorial College）｜《留學導報》編輯部",
-    summary: "An editorial guide to four University of Cambridge MPhil routes connected with artificial intelligence, comparing their academic positioning, technical and mathematical demands, research training, career pathways and application fit. The full Chinese article is published in the Chinese Overseas Study Review.",
-    titleZh: "劍橋大學人工智慧碩士課程全解析",
-    summaryZh: "全面解析劍橋大學四門人工智慧相關 MPhil：MLMI、Human-Inspired AI、Advanced Computer Science 與 Scientific Computing，對照課程結構、數學與技術門檻、學術定位、研究訓練、職涯銜接及申請策略，協助學生依本科背景與長期方向選擇合適課程。",
-    sidebarMode: "compact-practical",
-    relatedReadings: [
-      "uk-second-masters-scholarship-funding-guide-2026",
-      "uk-australia-marketing-media-master-application-portfolio",
-      "uk-personal-statement-evidence-first-checklist"
-    ],
-    resources: [
-      ["University of Cambridge — MPhil in Machine Learning and Machine Intelligence", "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmsl"],
-      ["University of Cambridge — MPhil in Human-Inspired Artificial Intelligence", "https://www.postgraduate.study.cam.ac.uk/courses/directory/iethmphia"],
-      ["University of Cambridge — MPhil in Advanced Computer Science", "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs"],
-      ["University of Cambridge — MPhil in Scientific Computing", "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpscm"]
-    ],
-    factCheckNotes: [
-      "核查時間：2026-07-25。本文正文依來稿原文刊載；課程要求、路徑與語言門檻可能按招生年度更新，申請前應以劍橋大學 Postgraduate Study 官方課程頁為準。",
-      "劍橋大學目前的 MLMI 官方頁列出五個 specialised pathways，除正文所列四項外，另包括 Biological Learning；官方 Requirements 頁目前列出的 IELTS Academic 總分要求為 7.0，而非正文所述 7.5。",
-      "MPhil in Scientific Computing 官方 Requirements 頁目前列出的 Expected Academic Standard 為 High II.i Honours Degree；正文保留來稿原文的「至少 2:1」表述，申請人應按當期官方要求核對。"
-    ],
-    sidebarCards: [
-      ["01", "MLMI", "統計、機率模型與研究方法導向，適合演算法研究與博士深造。", "Technical"],
-      ["02", "Human-Inspired AI", "連接技術、人文、倫理與社會治理的跨學科路線。", "Interdisciplinary"],
-      ["03", "ACS", "保留電腦科學廣度，以模組彈性連接 AI 與工程職涯。", "Breadth"],
-      ["04", "Scientific Computing", "數值方法、科學模擬與高效能運算的專門路徑。", "HPC"]
-    ],
-    body: [
-      {
-        heading: "Editorial Abstract",
-        paragraphs: [
-          "This editorial guide compares four University of Cambridge MPhil routes connected with artificial intelligence. The full Chinese article is published in the Chinese Overseas Study Review."
-        ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "智能時代的課程結構、學術定位與申請策略",
-        paragraphs: [
-          "自大型語言模型（Large Language Models, LLMs）如 ChatGPT、Claude、Gemini 相繼問世以來，人工智慧（Artificial Intelligence, AI）已從電腦科學的一個分支，演變為驅動全球產業結構重組的核心技術。醫療診斷、金融風控、教育評量、自動駕駛與科學計算等領域，皆已將機器學習方法納入其核心流程，而各國頂尖大學亦相應調整研究所課程設置，以因應人才培育與基礎研究的雙重需求。",
-          "劍橋大學（University of Cambridge）在此一趨勢中具有特殊地位：其工程學院、電腦科學與技術系、物理系與新設立的人文與科技研究所（Institute for Technology and Humanity, ITH），分別從不同的知識論立場切入人工智慧研究，形成一套跨學科但又彼此區隔明確的碩士課程體系。對申請者而言，理解這些課程在訓練重心、錄取標準與職涯銜接上的差異，是選校策略的關鍵一步。本文依序解析四個代表性 MPhil 課程，並提供比較架構與申請建議。"
-        ]
-      },
-      {
-        heading: "<span>一、MPhil in Machine Learning and Machine Intelligence（MLMI）：技術深度的基準課程</span>",
-        paragraphs: [
-          "MLMI 由工程學院（Department of Engineering）資訊工程分部下轄的機器學習研究組（Machine Learning Group）、語音研究組（Speech Group）與電腦視覺暨機器人研究組（Computer Vision and Robotics Group）聯合開設，學制為十一個月，是目前劍橋大學內部技術密度最高、也是全球競爭最激烈的機器學習碩士課程之一。"
-        ]
-      },
-      {
-        heading: "課程結構",
-        paragraphs: [
-          "與偏重應用導向的一般 AI 課程不同，MLMI 的訓練核心是統計理論、機率模型與研究方法，要求學生具備扎實的數學基礎與程式設計能力。課程設有四個專精路徑，分別對應學生後續的畢業論文方向：",
-          "<ul><li>機器學習（Machine Learning）</li><li>語音與語言處理（Speech and Language Processing）</li><li>電腦視覺與機器人（Computer Vision and Robotics）</li><li>人機互動（Human-Computer Interaction）</li></ul>",
-          "課堂內容涵蓋深度學習、機率機器學習、貝葉斯推斷、強化學習、統計模式辨識與大規模最佳化等主題；學生須於課程後段完成一項獨立研究專案與學位論文，此一設計使 MLMI 兼具修課型碩士與研究型碩士的雙重性質。"
-        ]
-      },
-      {
-        heading: "錄取條件與適合背景",
-        paragraphs: [
-          "官方要求申請者具備第一等榮譽學位（First Class Honours）水準的本科成績，雅思（IELTS）總分不低於 7.5；技術背景方面，僅具備 A-level 數學或進階數學程度並不足以支撐課程要求，官方明確指出僅在申請者已採取具體補強措施的例外情況下才會考慮。適合申請的本科背景包括電腦科學、人工智慧、數學、統計學、工程學與物理學等。"
-        ]
-      },
-      {
-        heading: "職涯銜接",
-        paragraphs: [
-          "歷屆畢業生的主要流向包括 Google DeepMind、Microsoft Research、Apple、NVIDIA、Amazon、Meta 等企業的研究部門，以及劍橋、牛津、MIT、Stanford 等校的博士研究項目。對於以 AI 演算法研究或博士深造為長期目標的申請者，MLMI 是技術路線上最具指標性的選擇。"
-        ]
-      },
-      {
-        heading: "<span>二、MPhil in Human-Inspired Artificial Intelligence：人本取向的跨學科課程</span>",
-        paragraphs: [
-          "隨著生成式 AI 的普及，AI 系統的可解釋性、倫理風險與社會治理問題日益受到關注。為回應此一趨勢，劍橋大學於人文與科技研究所（Institute for Technology and Humanity, ITH）之下成立人本人工智慧研究中心（Centre for Human-Inspired Artificial Intelligence, CHIA），並由該中心主導開設本課程。"
-        ]
-      },
-      {
-        heading: "課程結構",
-        paragraphs: [
-          "課程設有一門基礎必修模組，聚焦人本取向人工智慧的核心概念，再由學生依興趣選修技術與計算技能模組，以及以下專題模組：",
-          "<ul><li>基礎人本人工智慧（Fundamental Human-Level AI）</li><li>社會與互動式人工智慧（Social and Interactive AI）</li><li>認知人工智慧（Cognitive AI）</li><li>創意人工智慧（Creative AI）</li><li>健康與全球人工智慧（Health and Global AI）</li><li>負責任人工智慧（Responsible AI）</li></ul>",
-          "課程同樣要求學生完成一段受督導的研究期間，並產出學位論文。相較 MLMI，本課程的訓練重心並非模型架構本身，而是「人類智能如何啟發、規範與監督人工智慧系統」，具有明確的跨學科定位。"
-        ]
-      },
-      {
-        heading: "適合背景與職涯銜接",
-        paragraphs: [
-          "本課程歡迎電腦科學以外的申請者，包括心理學、神經科學、語言學、哲學與社會科學背景的學生。對於未來志向為 AI 政策研究、AI 倫理治理、智慧醫療或人機互動設計的申請者而言，本課程提供了技術課程所缺乏的制度與人文分析框架。"
-        ]
-      },
-      {
-        heading: "<span>三、MPhil in Advanced Computer Science（ACS）：廣度優先的電腦科學訓練</span>",
-        paragraphs: [
-          "由電腦科學與技術系（Department of Computer Science and Technology）開設的 ACS，學制九個月，定位為保留電腦科學廣度、同時容許學生依興趣深入 AI 子領域的課程，適合尚未確定專精方向，或希望兼顧軟體工程與系統設計能力的申請者。"
-        ]
-      },
-      {
-        heading: "課程結構",
-        paragraphs: [
-          "課程要求學生修習五門完整模組（通常為米迦勒學期三門、四旬節學期兩門），每門模組含十六小時課堂授課，授課形式依模組性質橫跨傳統講授、實作課與研討會。現行模組目錄約涵蓋三十個選項，除機器學習、機率機器學習、圖神經表徵學習等 AI 相關主題外，亦包括分散式系統、演算法設計與自然語言處理專題等。學生另須修習一門不計學分的研究方法必修課，並於兩個學期內完成研究專案，於六月初提交報告。"
-        ]
-      },
-      {
-        heading: "適合背景與職涯銜接",
-        paragraphs: [
-          "相較 MLMI 聚焦單一研究路徑，ACS 的模組選擇彈性更高，訓練成果也更貼近業界對「全端」電腦科學人才的需求，適合未來從事軟體工程、系統架構設計或 AI 工程職位的申請者。"
-        ]
-      },
-      {
-        heading: "<span>四、MPhil in Scientific Computing：AI 演算法與高效能運算的交會點</span>",
-        paragraphs: [
-          "由物理系（Department of Physics）開設的 MPhil in Scientific Computing 學制十二個月，訓練重心並非通用機器學習，而是數值方法、科學模擬與高效能運算（High Performance Computing, HPC），是四門課程中數學與計算門檻最高者之一。"
-        ]
-      },
-      {
-        heading: "課程結構",
-        paragraphs: [
-          "課程訓練學生使用既有科學計算軟體，並深入理解模擬流程的底層構成：從物理系統的數學建模、離散化數值演算法，到物件導向程式設計與大規模平行運算部署方法。官方要求申請者具備至少 2:1（Upper Second-Class Honours）水準的本科成績，且本科專業須為科學或工程相關領域，並具備足以完成科學或數學應用程式撰寫的程式設計能力。"
-        ]
-      },
-      {
-        heading: "適合背景與職涯銜接",
-        paragraphs: [
-          "本課程特別適合數學、物理與工程背景的申請者，畢業生具備嚴謹的研究能力，多流向航太、金融建模、氣候模擬、製藥研發與科技產業的研發部門，或直接銜接博士研究。對希望將 AI 方法應用於自然科學或大規模計算問題的申請者而言，本課程提供了 MLMI 之外的另一條技術路徑。"
-        ]
-      },
-      {
-        heading: "<span>五、劍橋 AI 生態系統：課程之外的結構性優勢</span>",
-        paragraphs: [
-          "課程設置僅是劍橋 AI 版圖的一部分。真正支撐其長期領先地位的，是一套高度整合的研究基礎設施，包括跨學院的人工智慧倡議（Cambridge AI Initiative）、CHIA、萊弗休姆智能未來研究中心（Leverhulme Centre for the Future of Intelligence）、醫學人工智慧研究中心，以及製造業人工智慧研究所等平台。這些機構與英國及全球企業維持密切的合作關係，使學生在修課之外，仍有機會接觸產業合作專案與早期研究成果。Google DeepMind 於英國設有主要研發基地，長期與劍橋保持學術交流，亦是校友網絡中重要的職涯出口之一。"
-        ]
-      },
-      {
-        heading: "<span>六、申請競爭：研究潛力重於單一成績指標</span>",
-        paragraphs: [
-          "以錄取門檻最高的 MLMI 為例，成功申請者的共通特徵包括：達到第一等榮譽學位水準的本科成績、扎實的線性代數與機率統計基礎、熟練的 Python 程式設計能力，以及具體的機器學習相關研究或專案經驗。個人陳述與推薦信的作用，並非重申履歷內容，而是說明申請者的研究興趣如何與課程的研究路徑相互對應。",
-          "整體而言，劍橋各 AI 相關 MPhil 課程的錄取邏輯，正逐步從「考試成績優先」轉向「研究潛力優先」。本科階段參與科研專案、發表論文、完成具技術深度的獨立作品，或參與具公信力的學術競賽，對申請競爭力的邊際貢獻，往往高於單純提升成績排名。"
-        ]
-      },
-      {
-        heading: "<span>七、四門課程比較</span>",
-        paragraphs: [
-          "<div class=\"programme-matrix-wrap\"><table class=\"programme-matrix\"><thead><tr><th>課程</th><th>技術深度</th><th>數學要求</th><th>學制</th><th>主責院系</th></tr></thead><tbody><tr><td>MPhil in Machine Learning and Machine Intelligence（MLMI）</td><td>★★★★★</td><td>★★★★★</td><td>11 個月</td><td>工程學院（資訊工程分部）</td></tr><tr><td>MPhil in Human-Inspired Artificial Intelligence</td><td>★★★★☆</td><td>★★★☆☆</td><td>9 個月</td><td>人文與科技研究所（CHIA）</td></tr><tr><td>MPhil in Advanced Computer Science（ACS）</td><td>★★★★☆</td><td>★★★★☆</td><td>9 個月</td><td>電腦科學與技術系</td></tr><tr><td>MPhil in Scientific Computing</td><td>★★★★★</td><td>★★★★★</td><td>12 個月</td><td>物理系</td></tr></tbody></table></div>"
-        ]
-      },
-      {
-        heading: "<span>八、選校建議</span>",
-        paragraphs: [
-          "四門課程雖同屬「劍橋 AI 碩士」範疇，其學術定位與訓練目標實際上分屬不同象限：MLMI 是技術深度最高的研究導向路徑，適合以演算法研究或博士深造為目標的申請者；Human-Inspired AI 提供技術與人文治理並重的跨學科訓練，適合政策、倫理或人機互動方向的申請者；ACS 以廣度換取彈性，適合尚未確定專精方向或志在業界工程職位的申請者；Scientific Computing 則是科學計算與高效能運算的專門路徑，適合數理與工程背景、志在將 AI 方法應用於自然科學問題的申請者。",
-          "選校策略應以申請者的本科訓練、程式設計基礎與長期職涯方向為出發點，而非單純以課程排名或知名度作為唯一依據。建議有意申請的學生及早規劃本科課程結構、強化數學與程式設計能力，並透過具體的研究或專案成果，建立起與目標課程相符的學術定位。",
-          "下期預告：牛津大學人工智慧碩士全解析，並與劍橋、帝國理工學院（IC）、倫敦大學學院（UCL）進行橫向比較，完整呈現英國頂尖 AI 碩士課程專題。"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "canada-routes-panorama-study-immigration-work-finance-guide",
-    title: "Canada Routes Panorama: Study, Immigration, Work and Finance — A Ten-Chapter Guide",
-    date: "2026-07-20",
-    category: "Canada Routes",
-    column: "study",
-    kicker: "Canada · 留學 · 移民 · 就業 · 財務",
-    author: "留學導報編輯部",
-    summary: "A ten-chapter special feature on the Canada route for Chinese-speaking students and families: the 2026 study-permit framework (caps, provincial attestation letters, PGWP language and field-of-study thresholds), programme selection, Express Entry versus Provincial Nominee pathways, budgeting, Co-op work-integrated learning, graduate applications, lawful part-time work under the 24-hour weekly limit, city and province comparison, student banking and credit, and tenant rights — with key rules checked against IRCC official pages on 20 July 2026.",
-    titleZh: "加拿大路線全景指南：留學・移民・就業・財務十講",
-    summaryZh: "《留學導報》加拿大專題特輯：十個章節走完整條加拿大路線——2026 學簽框架（配額、省級證明信 PAL、PGWP 語言與專業門檻）、選專業、快速通道與省提名對照、學費與資金證明精算、Co-op 帶薪實習、研究生申請、每週 24 小時合法打工與報稅、城市與省份評估、開戶與信用建立、租房權益。關鍵規則已於 2026 年 7 月 20 日對照 IRCC 官方頁面核查，文末附加拿大留學入口頁快速通道。",
-    sidebarMode: "compact-practical",
-    body: [
-      {
-        heading: "1) Why a panorama, not ten scattered tips",
-        paragraphs: [
-          "The Canada route now runs through four interlocking systems — study permits, post-graduation work rights, permanent-residence selection and provincial policy. A decision taken at the programme-selection stage determines options three systems later.",
-          "This special feature therefore walks the full route in ten chapters, from the 2026 study-permit framework to tenant rights, with the load-bearing rules checked against IRCC official pages on 20 July 2026."
-        ]
-      },
-      {
-        heading: "2) The 2026 study-permit framework",
-        paragraphs: [
-          "Since 2024 Canada has operated an intake-cap framework: most post-secondary applicants must include a provincial attestation letter (PAL or, in Quebec, TAL) with the study-permit application, and the acceptance letter must come from a designated learning institution (DLI) — an application without a DLI letter is refused.",
-          "Post-graduation work permits carry language and field-of-study conditions for most streams: university graduates generally need CLB 7, college graduates CLB 5, and non-degree programmes must map to eligible fields of study. Applicants should verify their specific programme against the current IRCC eligibility lists before accepting an offer."
-        ]
-      },
-      {
-        heading: "3) From study to permanent residence",
-        paragraphs: [
-          "The two dominant pathways are Express Entry's Canadian Experience Class — one year of Canadian TEER 0–3 work experience plus language scores — and the Provincial Nominee Programs, which bind candidates to a province but add 600 Comprehensive Ranking System points on nomination.",
-          "The strategic difference: CEC rewards speed and mobility, PNP rewards regional commitment. Graduates in Alberta, Saskatchewan and the Atlantic provinces often reach nomination thresholds earlier than in Ontario or British Columbia."
-        ]
-      },
-      {
-        heading: "4) Money: budget, proof of funds, banking",
-        paragraphs: [
-          "Beyond tuition, IRCC requires proof of financial support at official amounts that are revised periodically — applicants should budget against the figure in force at application time, plus first-year tuition and travel. City choice moves living costs substantially: Toronto and Vancouver rents can double those of prairie cities.",
-          "On arrival, the practical financial sequence is: open a student account with one of the major banks, obtain a credit card early to build a credit record, file a tax return every year even on low income (it unlocks credits and benefits), and understand the residency conditions attached to registered accounts such as TFSA and FHSA before using them."
+            <article><b>工作經驗表</b><p>每段日期、工時、薪資、任務、證據與FTE累計。<…13825 tokens truncated…em."
         ]
       },
       {
@@ -5996,6 +5420,9 @@ require("./content/udk-exchange-guide.json"),
       ["UC Santa Barbara Facts and Figures", "https://www.ucsb.edu/about/facts-and-figures"]
     ],
     factCheckNotes: [
+Warning: truncated output (original token count: 74169)
+Total output lines: 3000
+
       "核查時間：2026-06-10。UCSB PaCE official Step UPP page states the programme is designed to prepare high school graduates to seek admission to a U.S. research university.",
       "UCSB PaCE lists programme highlights including 6 weeks of Intensive English Language Training, 3 quarters of General Education and academic preparation, 28 transferable units, transfer to SBCC, and TAG application support.",
       "UCSB PaCE lists 2026-2027 Step UPP pricing as application fee USD 210, tuition USD 39,980, non-refundable deposit USD 500, orientation on 2026-08-03, Summer English Academy from 2026-08-03 to 2026-09-11, and academic year from 2026-09-23 to 2027-06-11.",
@@ -7462,164 +6889,7 @@ require("./content/udk-exchange-guide.json"),
     author: "留學導報編輯部",
     summary: "For marketing, media and business-related applications, “a portfolio” does not have to be design-heavy or expensive. This guide shows a simple evidence pack you can build in 7–14 days: a one-page story, 3–5 proof items, reflective notes, and a verification checklist so your claims are specific, honest and easy for admissions to understand (no outcome guarantees).",
     titleZh: "行銷／媒體／商科申請：用一套「作品集＋證據包」把你講清楚（英國／澳洲通用）",
-    summaryZh: "申請行銷、媒體與商科相關科系時，「作品集」不一定要很花錢或很炫；更重要的是可核對的證據與清晰敘事。本文提供一套 7–14 天可完成的作品集＋證據包框架：一頁故事、3–5 個證據項、反思筆記與核對清單，讓內容具體、誠實、容易被招生閱讀（不作任何錄取/結果承諾）。",
-    relatedReadings: [
-      "uk-personal-statement-evidence-first-checklist",
-      "reference-letter-briefing-pack-uk-aus",
-      "uk-entry-requirements-course-page-checklist",
-      "ucas-offers-conditions-firm-insurance-checklist"
-    ],
-    resources: [
-      ["QAA — Advice and Guidance: Academic Integrity", "https://www.qaa.ac.uk/quality-code/advice-and-guidance/academic-integrity"],
-      ["UCAS — How to write a personal statement (overview)", "https://www.ucas.com/undergraduate/applying-university/writing-your-personal-statement/how-write-personal-statement"],
-      ["IELTS (official)", "https://www.ielts.org/"]
-    ],
-    factCheckNotes: [
-      "核查時間：2026-05-29。本文為一般性教育資訊，提供『可被核對的作品集/證據包』方法論；各校/各課程對作品集格式、頁數、檔案大小、是否接受連結、是否可用團隊作品等規則可能每年更新，請以目標課程官方頁面為準。",
-      "本文不構成錄取、簽證、獎學金、就業或任何結果承諾；請避免誇大或代寫。若作品包含第三方素材或團隊成果，務必清楚標註來源與個人貢獻範圍。"
-    ],
-    body: [
-      {
-        heading: "1) What admissions actually needs (and what they don’t)",
-        paragraphs: [
-          "For marketing/media/business programmes, admissions usually wants to see: (a) what you can do, (b) how you think, and (c) whether your claims are credible. They do not need “fancy design” if the evidence is clear.",
-          "A good portfolio is simply a structured evidence pack: each claim is paired with proof, context and a short reflection."
-        ]
-      },
-      {
-        heading: "2) The 4-part evidence pack (works even with zero design tools)",
-        paragraphs: [
-          "Part A — A one-page story: your target direction (e.g., marketing analytics, brand strategy, media production, business management), why it fits, and what you’ve done that proves it.",
-          "Part B — 3–5 proof items: a mini campaign write-up, a short case analysis, a social/content audit, a basic dashboard/report, a video/script/storyboard, a research summary, or a community project.",
-          "Part C — Reflection notes (100–200 words each): what you did, what you learned, what you would change next time.",
-          "Part D — Verification notes: links, screenshots, dates, tools used, and your exact role if it was a team project."
-        ]
-      },
-      {
-        heading: "3) Proof items: pick “low-risk, high-signal” work",
-        paragraphs: [
-          "Avoid high-risk claims like “I guaranteed growth” or “I ran ads at scale” unless you can prove it and you have permission to disclose. Instead, show controllable work: your process, reasoning, and measurable but modest outcomes (or a clearly-labelled simulation).",
-          "If you have limited time, one strong item beats five weak ones. Prioritise clarity, specificity, and clean structure."
-        ]
-      },
-      {
-        heading: "4) Academic integrity and compliance: what to label clearly",
-        paragraphs: [
-          "If you used AI tools, templates, or collaborators, label it. If you used third-party images/music, cite and check usage rights. If it was a team project, define your contribution in one sentence.",
-          "Never submit content you cannot defend in an interview. Treat the portfolio as a “verifiable file”, not a marketing brochure."
-        ]
-      },
-      {
-        heading: "5) A 7–14 day build plan (practical checklist)",
-        paragraphs: [
-          "Day 1–2: pick direction + write the one-page story. Day 3–7: build 2 proof items. Day 8–10: add 1–3 more proof items (or polish the strongest two). Day 11–12: write reflection notes. Day 13–14: run the verification checklist: dates, links, citations, role boundaries, and file naming.",
-          "If a programme asks for a specific format (PDF page limit, file size, platform upload), adapt the same pack—don’t rebuild from scratch."
-        ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "一、招生到底想看什麼？不想看什麼？",
-        paragraphs: [
-          "行銷／媒體／商科課程的招生通常想確認三件事：你能做什麼、你怎麼思考、你說的話是否可信。設計不必炫，但證據要清楚。",
-          "好的作品集本質上是一套「證據包」：每一個主張都要配上證明、背景與簡短反思，讓人能核對。"
-        ]
-      },
-      {
-        heading: "二、一套四件式證據包（沒有設計工具也能做）",
-        paragraphs: [
-          "A 部分｜一頁故事：你的方向（例如行銷分析、品牌策略、媒體製作、商業管理）、為什麼適合你、以及你做過哪些事能證明。",
-          "B 部分｜3–5 個證據項：小型行銷企劃/策略拆解、案例分析、社群/內容審計、基礎報表/儀表板、影片/腳本/分鏡、研究摘要或社區專案等。",
-          "C 部分｜反思筆記（每項 100–200 字）：你做了什麼、學到什麼、下次會怎麼改。",
-          "D 部分｜可核對資訊：連結、截圖、日期、使用工具，以及若為團隊作品，清楚寫出你的角色與負責範圍。"
-        ]
-      },
-      {
-        heading: "三、證據項怎麼選：優先「低風險、高訊號」",
-        paragraphs: [
-          "避免高風險主張（例如「我保證成長」「我大量投放廣告」）除非你能證明且有權公開。更安全的做法是呈現可控的成果：你的流程、推理、與適度可量化的結果（或清楚標示為模擬/練習）。",
-          "時間不夠時，一個強項比五個弱項有用。把力氣放在結構清晰、用詞具體、證據可查。"
-        ]
-      },
-      {
-        heading: "四、學術誠信與合規：哪些地方要標清楚",
-        paragraphs: [
-          "若使用 AI 工具、模板或他人協作，請標註。若使用第三方圖片/音樂素材，請引用來源並確認使用權。若是團隊作品，用一句話定義你的貢獻。",
-          "不要提交你無法在面試中解釋的內容。把作品集當成「可被核對的檔案」，而不是行銷海報。"
-        ]
-      },
-      {
-        heading: "五、7–14 天完成版：可直接照做的節奏表",
-        paragraphs: [
-          "第 1–2 天：確定方向＋寫完一頁故事。第 3–7 天：完成 2 個證據項。第 8–10 天：再補 1–3 個（或專注把最強兩個打磨到位）。第 11–12 天：完成反思筆記。第 13–14 天：跑一次核對清單：日期、連結、引用、角色邊界、檔名與格式。",
-          "若目標課程要求特定格式（PDF 頁數、檔案大小、平台上傳規格），只要把同一套證據包改版輸出即可，不必整套重做。"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "tafe-sa-offshore-china-application-guide-2026",
-    title: "TAFE SA Offshore China Route 2026: Application Is Manageable, Visa Risk Is the Real Work",
-    date: "2026-05-29",
-    category: "Australia VET / TAFE",
-    column: "study",
-    kicker: "Australia · TAFE SA · Offshore China",
-    author: "留學導報編輯部",
-    summary: "A practical family-facing explanation of the 2026 TAFE SA offshore China route: the application itself is usually manageable when documents are complete; the real work is visa-risk control, English packaging, age and study-continuity logic, and the nursing exception.",
-    titleZh: "2026 境外中國學生 TAFE SA 路線解讀：申請本身不難，真正要把握的是簽證風險",
-    summaryZh: "TAFE SA 這類申請本身通常沒有太高技術難度，真正要把握的是簽證風險：年齡、學習連續性、英文打包、資金與學習計劃邏輯，以及護理路線不能按普通 TAFE pathway 處理的例外條件。",
-    relatedReadings: [
-      "othm-health-social-care-australia-vet-comparison",
-      "australia-aged-care-disability-allied-health-pr-routes-2026",
-      "taiwan-nursing-ahpra-stream-b-gcan-rn-pathway",
-      "credit-alliance-global-pathways"
-    ],
-    resources: [
-      ["TAFE SA International", "https://www.tafesa.edu.au/international"],
-      ["AHPRA English language skills registration standard", "https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills/English-language-skills-registration-standard.aspx"],
-      ["Home Affairs Student visa subclass 500", "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"],
-      ["Adelaide University", "https://www.adelaideuni.edu.au/"]
-    ],
-    factCheckNotes: [
-      "核查時間：2026-05-29。本文依據 OTC 收到的 2026 TAFE SA 境外中國申請資料整理；公開頁面僅呈現教育資訊、文件初篩與風險提示，不披露後台處理細節。",
-      "本文是教育資訊解讀，不構成 TAFE SA、Adelaide University、AHPRA、NMBA、ANMAC 或澳洲移民局的官方錄取、簽證、註冊、學分或就業承諾。正式申請前必須回到官方課程頁、監管機構與簽證頁面核對。"
-    ],
-    sidebarCards: [
-      ["Year 12", "主要基線", "境外高中畢業生或同等學歷；年齡偏高者需特別準備工作經驗證明。", "profile"],
-      ["IELTS 5.0", "最低打包門檻", "一般路線可用最低英文搭配 ELICOS，但不適用護理例外。", "english"],
-      ["CoE package", "一次打包", "TAFE SA + 大學路線可在支付首學期費用後取得打包 CoE。", "coe"],
-      ["Nursing", "高風險例外", "護理需先達 AHPRA 式英文，還有數學測試、體能與手法操作要求。", "nursing"]
-    ],
-    body: [
-      {
-        heading: "1) Application is manageable; risk screening is the real work",
-        paragraphs: [
-          "For an ordinary offshore applicant with complete documents and a sensible course choice, the TAFE SA application itself is not the hard part. The hard part is whether the file makes sense for an Australian student-visa decision.",
-          "The route is written for offshore applicants from China who are secondary school leavers or hold an equivalent qualification. The core academic baseline is Year 12 completion with a graduation certificate and transcript.",
-          "The material also carries an important risk-control signal: for visa-risk purposes, applicants should preferably be no older than 21. Older applicants may need to show work experience that is related to the proposed course. This should be read as a file-preparation warning, not as a simple age ban.",
-          "The table is for offshore applications. Onshore students may have more route options, so an onshore case should not be forced into the same shortlist without checking current TAFE SA options."
-        ]
-      },
-      {
-        heading: "2) English: direct entry, minimum packaging, and the nursing exception",
-        paragraphs: [
-          "For many routes, direct entry is described as PTE 51 overall with each band at least 36, or IELTS 6.0 overall with each band at least 5.0. Students below that level may still be able to package English if they reach the minimum threshold: PTE 36 overall or IELTS 5.0 overall.",
-          "The PDF says TAFE SA can recommend the English-course length, with a maximum of 20 weeks. If the student needs more than 20 weeks, the practical instruction is to study English first and come back after reaching the minimum threshold.",
-          "Nursing is different. Diploma of Nursing must meet the nursing English threshold before application: IELTS 7.0 overall, listening/speaking/reading at least 7.0 and writing at least 6.5, or PTE overall 65 with writing allowed at 58 and the other three skills at least 65. This is why nursing cannot be treated as a normal IELTS 5.0 plus English package."
-        ]
-      },
-      {
-        heading: "3) What packaged CoEs actually mean",
-        paragraphs: [
-          "The TAFE SA plus Adelaide University packaged routes are designed so that the student applies once and, after paying the first-semester TAFE SA tuition, receives the CoEs for the packaged study sequence.",
-          "This is useful for planning because the student can see the whole route on one timeline. But it should not be exaggerated. A packaged CoE is not a visa guarantee, not a professional registration guarantee, not an employment promise, and not a blanket credit decision beyond what the institution actually confirms."
-        ]
-      },
-      {
-        heading: "4) Institutions, official websites and OTC handling buttons",
-        paragraphs: [
-          `Each course family should be checked on the official institution website before OTC screens the file. <div class="article-service-table"><table><thead><tr><th>Institution / route</th><th>Course family</th><th>Official website</th><th>OTC handling</th></tr></thead><tbody><tr><td>TAFE SA International</td><td>Engineering associate degrees</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Engineering%20route%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA International</td><td>Tourism, hospitality and events</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Tourism%20Hospitality%20route%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>IT package: Certificate IV / Diploma / Bachelor of IT</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Adelaide%20University%20IT%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Early childhood and teaching package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Early%20Childhood%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Nursing package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Nursing%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Marketing and business package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Marketing%20Business%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Adelaide University</td><td>Screen, media and visual effects package</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.adelaideuni.edu.au/study/" target="_blank" rel="noopener">Adelaide University</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Screen%20Media%20Visual%20Effects%20package%20via%20OTC">Handle through OTC</a></td></tr><tr><td>TAFE SA + Flinders University</td><td>Selected engineering package routes to be confirmed by intake</td><td><a href="https://www.tafesa.edu.au/international" target="_blank" rel="noopener">TAFE SA</a> · <a href="https://www.flinders.edu.au/international" target="_blank" rel="noopener">Flinders University International</a></td><td><a class="btn btn-light" href="mailto:office@overseasuk.com?subject=TAFE%20SA%20Flinders%20package%20route%20via%20OTC">Handle through OTC</a></td></tr></tbody></table></div>`,
-          "The button does not replace official admission checks. It starts an OTC file-screening conversation so the student's age, English, academic history and visa-risk logic can be reviewed before any formal submission."
+    summaryZh: "申請行銷、媒體與商科相關科系時，「作品集」不一定要很花錢或很炫；更重要的是可核對的證據與清晰敘事。本文提供一套 7–14 天可完成的作品集＋證據包框架：一頁故事、3–5 個證據項、反思筆記與核對清單，讓內容具體、…4169 tokens truncated…sa-risk logic can be reviewed before any formal submission."
         ]
       },
       {
@@ -14996,6 +14266,9 @@ require("./content/udk-exchange-guide.json"),
         heading: "聯絡 OTC",
         paragraphs: [
                 "如需查詢 OTHM Health and Social Care、Level 8 Strategic Management and Leadership Practice、雙語學術支援或合作導師安排，歡迎通過以下渠道聯絡 OTC。",
+Warning: truncated output (original token count: 99161)
+Total output lines: 3000
+
                 "電話 / WhatsApp：+44 7947 991572。電郵：office@overseasuk.com。WeChat：overseasus。",
                 "地址：3/F, 207 Regent Street, London W1B 3HH。"
               ]
@@ -16144,427 +15417,7 @@ require("./content/udk-exchange-guide.json"),
                 "青山與王千鶴的關係，是小說最冷的一道政治傷口。青山可以善意，可以溫柔，但她的帝國位置不會因此消失。她能夠自由出入殖民地空間，以「客觀」視角記錄台灣的現代化成就；而這種現代化，在帝國敘事裡本來就被寫成日本的文明贈禮。",
                 "小說借王千鶴的沉默與退縮，展示被殖民者在「善意的凝視」面前維持主體性的限度。「內地人與本島人，終究不可能存在平等的友誼。」這句話的冷，來自一種政治現實主義：它準確指出殖民關係的傷口，也呼應愛德華·薩依德（Edward Said）對東方主義的批判——凝視本身即是一種知識／權力的運作（Said，Orientalism，1978，頁3–28）。",
                 "1938年的政治性還在於它位於「殖民現代化」與「總力戰」之間。若說殖民政府以鐵道、學校、公共衛生、博覽會與觀光書寫來展示治理成果，那麼戰時皇民化則進一步要求被殖民者在語言、姓名、宗教、兵役與情感認同上向帝國中心靠攏。王千鶴的通譯身份因此帶著制度裂痕：她受制度壓迫，又被制度需要。",
-                "小說的政治敏銳，正在於它拒絕把人寫扁。青山的溫柔是真的，帝國身份也是真的；王千鶴的沉默是真的，她的能動性也沒有消失。政治壓迫從暴力場面延伸到餐桌、車廂、旅館、翻譯、禮貌與猶豫裡，一點點滲出來。",
-                "在當代地緣政治語境下，小說的接受無可避免地與台灣主權議題交纏。英文譯者林慕蓮（Lin King）在多個場合表示，她主動選擇只翻譯台灣作品，明確指出此選擇帶有政治立場：使台灣的文化生產在英語世界的公共討論中獲得可見性，本身即是對「台灣是否具有獨立文化主體性」這一問題的實踐性回答。西方文學獎的肯定，因此具有超越文學評價的政治意涵——它在符號層面承認台灣作為一個具有獨立文化生命的政治實體（Casanova，The World Republic of Letters，2004，頁127–167）。",
-                "小說的政治敘事避開簡單的反殖民控訴，藉由「美食旅行」的輕盈形式，將政治議題嵌入日常感官體驗的敘述之中。這種「柔性抵抗」策略——以歡愉包裹批判，以情感帶動反思——使政治訊息能夠繞過讀者的防衛心理，造成更深層的觸動，也大幅擴展了潛在讀者群，不限於具有政治意識的閱讀者。"
-              ]
-      },
-      {
-        heading: "餐桌上的日常政治",
-        paragraphs: [
-                "米歇爾·德·塞托（Michel de Certeau）在《日常生活實踐》中指出，日常生活中的消費行為，包括飲食、行走、閱讀，是弱勢群體對強勢結構進行戰術性挪用的場域。《臺灣漫遊錄》的美食書寫正可在此框架下閱讀：殖民地的菜市場、小吃攤、餐廳，是台灣庶民日常生活最密集的集中地，也是殖民現代性的物質遺跡與本土民俗記憶最複雜地交疊之處。",
-                "小說選取的十二道菜餚，各有其社會學意涵。麻薏湯以平民化的粗糲，抵抗著「帝國廚房」對台灣飲食的異國情調化；菜尾湯以「再生」的料理邏輯（將宴席剩菜熬煮為新菜），隱喻台灣社會對多元族群成分的整合能力；蜜豆冰的酸甜尾韻，則為全書的情感基調定調——無法完全言明、游移於失落與滿足之間的情感狀態，亦是殖民關係中人際情誼的最佳隱喻。",
-                "食物在此承載文化身份，也把社會結構刻進身體經驗：誰能吃什麼、在哪裡吃、與誰共食，皆透露出殖民秩序下的階級、族群與性別位置（Appadurai，1988，頁3–24；Mintz，Sweetness and Power，1985，頁151–186）。",
-                "王千鶴的家庭背景（妾室之女）引入了階級分析的維度。她同時承受殖民壓迫與父權壓迫，卻也因此養成對複雜人情世故的高度敏感與靈活的身份轉換能力。布迪厄的「慣習」（habitus）概念在此具有解釋力：王千鶴在多重位置之間的游移，是長期在結構性不平等中求存所形成的身體化傾向。",
-                "她的通譯職業本身，即是在語言不平等中尋求能動性的一種策略。",
-                "飲食書寫還具有檔案補償作用。殖民官方檔案往往記錄產量、稅收、交通、衛生與行政分類，卻難以保存庶民如何在日常生活中感受殖民現代性。楊双子以味覺、口感、菜名、店鋪與共食場景重建生活世界，使那些不易進入國家檔案的身體經驗獲得敘事位置。",
-                "這種寫法也避免把「台灣」抽象化為政治口號。小說中的台灣由地方飲食、階級習慣、家庭制度、語言轉換、鐵路節點與城市鄉鎮差異共同構成，是一個具體的生活共同體。食物既能被殖民觀光消費，也能成為本土記憶抵抗被單向命名的方式。",
-                "對國際讀者而言，這種多層次的社會複雜性提供了重要的認識論禮物：台灣脫離被動受害的「殖民地」扁平形象，呈現出自身的內部分層、幽默感、情感生命與主體能動性。"
-              ]
-      },
-      {
-        heading: "凝視、混雜與接觸地帶",
-        paragraphs: [
-                "霍米·巴巴（Homi K. Bhabha）在《文化的定位》中提出「混雜性」（hybridity）與「第三空間」（the Third Space）的概念，用以描述殖民話語在接觸地帶產生的意義滑移。《臺灣漫遊錄》的翻譯裝置，正是對這一理論最精緻的文學示範。",
-                "巴巴的框架若與瑪麗·路易斯·普拉特（Mary Louise Pratt）的「接觸地帶」（contact zone）概念並置，旅行書寫的政治性會變得更清楚。普拉特在《帝國之眼》中指出，旅行書寫是殖民者確立「反征服」（anti-conquest）姿態的核心文類：殖民者藉由無害的「觀察」與「記錄」，在道德上為帝國擴張開脫。",
-                "青山千鶴子的旅行日記，正是這一「反征服」姿態的文學體現。她以女性的溫柔凝視取代粗暴的政治宰制，卻在無意間複製了帝國知識／權力的結構。《臺灣漫遊錄》藉由「譯者注」的不斷介入，系統性地拆解這一敘事的意識形態操作。",
-                "「偽譯」結構在形式上實踐了後殖民批評的核心洞見：原文（日文帝國凝視）與譯文（台灣本土重述）之間的落差，來自政治闡釋的必然分歧，並非語言等值的失敗。加亞特里·斯皮瓦克（Gayatri Chakravorty Spivak）在《翻譯的政治》中提醒我們，翻譯沒有中性的語言轉換位置，它帶著詮釋行為中的「倫理暴力」（ethical violence）（Spivak，1993，頁179–200）；楊双子的「偽譯」把這一「倫理暴力」曝光，並在文學形式內部加以逆轉。",
-                "在普拉特的意義上，青山的旅行屬於帝國知識體制中的「可愛版本」：她不以軍人、官吏或學者身份出場，而以女性作家、食客與旅人身份進入台灣。正因為她看似柔和，讀者更容易看見殖民權力如何從命令與暴力延伸到命名、品評、採集、描述與出版之中。",
-                "巴巴的「混雜性」也不應被誤讀為和諧融合。小說中的混雜源於不對等權力中的語言滑移、身份表演與情感誤認，距離台日文化的平等交會很遠。王千鶴既能使用殖民者語言，也能在翻譯中保留不透明之處；她的能動性正存在於無法完全被青山理解、也無法完全被譯者注捕捉的縫隙裡。",
-                "食物在後殖民意義上完成了從「異國奇觀」（exotic spectacle）到「理解媒介」的轉化：青山最初將台灣食物視為可被消費的他者性符號，逐漸在共食行為中體會食物作為社群記憶與情感聯結載體的意義。這一轉化弧線，正是巴巴所說的「第三空間」的開啟——一個不屬於任何一方的、以協商與接觸為特徵的意義生成場域（Bhabha，1994，頁36–39）。"
-              ]
-      },
-      {
-        heading: "文學進入公共領域",
-        paragraphs: [
-                "哈伯瑪斯談公共領域，重視不同聲音如何在理性溝通中相遇；南希·弗雷澤則把這套理想往回拉，指出主流公共領域常以普遍性之名，把女性、少數族裔與殖民地人民擋在門外。",
-                "《臺灣漫遊錄》進入國際獎項與多語閱讀場域後，被看見的遠超一部小說。它像一個台灣文化主體性的對抗性發言，從「中文文學」或「亞洲文學」的大框裡側身出來，要求讀者正面看見台灣自己的歷史位置。",
-                "小說出版初期，其「偽譯」裝置曾引起部分讀者的困惑乃至爭議：是否存在「原著欺騙」的倫理問題？歷史虛構的邊界應如何劃定？這些爭議本身即促成一場關於歷史書寫倫理與台灣記憶主權的公共討論。",
-                "在跨語言的公共領域層次，多個語言版本的流通（繁體中文、日文、英文及其後的韓文、法文等譯本），使小說成為多語脈絡下的對話節點。不同語言讀者群帶入各自的歷史意識——日本讀者面對自身帝國歷史的鏡像，英語世界讀者在後殖民思潮的語境下閱讀台灣的特殊性，韓國讀者在相似的帝國記憶中找到共鳴——形成跨文化公共對話的複調結構。",
-                "2024年美國國家圖書獎翻譯文學獎與2026年國際布克獎，將這部原本高度依賴台灣歷史語境的小說推入更大的世界文學公共場域。這些獎項獎勵的焦點不止於「台灣題材」，也承認台灣殖民經驗、偽譯形式與翻譯倫理本身足以成為世界文學的問題。",
-                "這一接受史也讓「翻譯」本身成為公共議題。英文譯本把台灣文本帶入英語世界時，並沒有扮演透明管道；它在獎項、出版社、評論媒體、讀者社群與政治新聞之間重新安排台灣的可見性。換言之，《臺灣漫遊錄》的國際成功，既是文本被翻譯的成功，也是台灣歷史敘事進入全球公共領域的一次制度性事件。",
-                "楊双子的得獎感言中明確表示：「文學是在強權面前與他人對話的能力。」這一陳述，既是對小說功能的詮釋，也是對文學之政治性的哈伯瑪斯式信念。"
-              ]
-      },
-      {
-        heading: "百合歷史小說與女性主體",
-        paragraphs: [
-                "楊双子明確標舉「百合歷史小說」的創作路線，將女性之間的情感聯結置於敘事中心，是對台灣歷史小說傳統中以男性為主體、女性為配角的敘事慣例的結構性顛覆。",
-                "這一選擇置於台灣女性文學的更長歷史脈絡中，方能見其意義。日治時期《臺灣民報》等媒體雖曾為女性議題提供有限公共空間，但女性書寫在制度上仍受到語言政策與性別規範的雙重限制；戰後國民政府時期，官方文學史更以男性英雄敘事主導歷史小說的典律建構。",
-                "小說的女性主義意涵深入性別、殖民與階級的交織壓迫結構，並不停留在「女性中心」的敘事視角上。王千鶴的身份困境同時承受妾室污名的父權壓迫與本島人身份的殖民壓迫；她在婚前短暫的旅行自由，被設計為一段正常秩序暫時懸置的例外狀態。",
-                "青山千鶴子與王千鶴之間的情感之所以幽微，既因同性情感在歷史語境中難以命名，也因殖民者與被殖民者之間的權力差異使任何親密都帶有政治陰影。小說拒絕把百合書寫處理成脫離歷史的純情幻想，讓情感本身承受語言、階級、帝國身份與父權婚姻制度的多重壓力。",
-                "從這個角度看，王千鶴的「不可完全言說」接近女性主體在殖民父權雙重秩序下的歷史真實，而非敘事缺陷。她的沉默帶著被制度逼出的生存語法：有些話不能說，有些情感不能被命名，有些理解只能在共同吃下一道菜、共同坐過一段車程後短暫出現。",
-                "這種結構性的設計，使小說的百合情感越出個人層次的純愛書寫，轉向對壓迫結構的批判性省察，呼應雷·周（Rey Chow）對現代性語境下中國／東亞女性主體性的分析（Chow，Woman and Chinese Modernity，1991，頁3–33）。",
-                "從女性主義文學批評的視角，《臺灣漫遊錄》的貢獻在於其「通俗性」的策略選擇：以美食旅行的輕盈形式承載女性情感解放的可能性，使女性主義思想能夠觸及更廣泛的讀者群。這與艾蓮·蕭沃特（Elaine Showalter）所區分的「女性文學」（feminine literature）——以通俗形式潛藏激進內容——傳統相互呼應（Showalter，A Literature of Their Own，1977，頁13–36）。"
-              ]
-      },
-      {
-        heading: "獲獎之後的世界位置",
-        paragraphs: [
-                "回到開頭，為什麼是《臺灣漫遊錄》？答案恐怕不在單一題材，也不在某種容易宣傳的台灣性，而在它能讓形式、歷史、食物、情感、翻譯與政治同時發聲。",
-                "在文學史層次，它以後設「偽譯」打破台灣歷史小說的書寫困境，確立台灣文學在全球文學場域中的自主地位；在政治學層次，它提供一套以輕盈包裹批判的「柔性抵抗」敘事；在社會學層次，它以食物與旅行為切入點，呈現殖民社會的複雜日常生活。",
-                "在後殖民理論層次，它以「翻譯即政治」的形式實踐，同時回應巴巴的混雜性理論與普拉特的接觸地帶批判；在公共領域層次，它以弗雷澤意義上的「對抗性公共領域」發言，成為跨語言、跨文化對話的節點；在女性主義文學層次，它以通俗形式為女性情感主體性與多元性別想像開拓空間。",
-                "《臺灣漫遊錄》成為里程碑，靠的並非替台灣說出一句響亮口號。它把美學創新、後殖民批判、女性情感與文化主體性壓進同一部小說裡。台灣在世界文學中的位置，從被說明、被介紹，轉為由一種複雜形式自己證明出來。"
-              ]
-      },
-      {
-        heading: "延伸閱讀",
-        paragraphs: [
-                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
-                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E\" target=\"_blank\" rel=\"noopener\">《台灣新文學史》</a></strong>\n                <em>陳芳明</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"《台灣新文學史》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%8F%B0%E7%81%A3%E6%96%B0%E6%96%87%E5%AD%B8%E5%8F%B2%E3%80%8B%20%E9%99%B3%E8%8A%B3%E6%98%8E%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan\" target=\"_blank\" rel=\"noopener\">Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South</a></strong>\n                <em>Kleeman, Faye Yuan</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"Under an Imperial Sun: Japanese Colonial Literature of Taiwan and the South 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Under%20an%20Imperial%20Sun%3A%20Japanese%20Colonial%20Literature%20of%20Taiwan%20and%20the%20South%20Kleeman%2C%20Faye%20Yuan%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors\" target=\"_blank\" rel=\"noopener\">Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory</a></strong>\n                <em>Liao, Ping-hui, and David Der-wei Wang, editors</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"Taiwan under Japanese Colonial Rule, 1895–1945: History, Culture, Memory 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20under%20Japanese%20Colonial%20Rule%2C%201895%E2%80%931945%3A%20History%2C%20Culture%2C%20Memory%20Liao%2C%20Ping-hui%2C%20and%20David%20Der-wei%20Wang%2C%20editors%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">A Poetics of Postmodernism: History, Theory, Fiction</a></strong>\n                <em>Hutcheon, Linda</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"A Poetics of Postmodernism: History, Theory, Fiction 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise\" target=\"_blank\" rel=\"noopener\">Imperial Eyes: Travel Writing and Transculturation</a></strong>\n                <em>Pratt, Mary Louise</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"Imperial Eyes: Travel Writing and Transculturation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Imperial%20Eyes%3A%20Travel%20Writing%20and%20Transculturation%20Pratt%2C%20Mary%20Louise%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K\" target=\"_blank\" rel=\"noopener\">The Location of Culture</a></strong>\n                <em>Bhabha, Homi K</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The Location of Culture 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Location%20of%20Culture%20Bhabha%2C%20Homi%20K%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Orientalism%20Said%2C%20Edward%20W\" target=\"_blank\" rel=\"noopener\">Orientalism</a></strong>\n                <em>Said, Edward W</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"Orientalism 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Orientalism%20Said%2C%20Edward%20W\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Orientalism%20Said%2C%20Edward%20W%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy\" target=\"_blank\" rel=\"noopener\">“Rethinking the Public Sphere.”</a></strong>\n                <em>Fraser, Nancy</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"“Rethinking the Public Sphere.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CRethinking%20the%20Public%20Sphere.%E2%80%9D%20Fraser%2C%20Nancy%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine\" target=\"_blank\" rel=\"noopener\">A Literature of Their Own: British Women Novelists from Bronte to Lessing</a></strong>\n                <em>Showalter, Elaine</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"A Literature of Their Own: British Women Novelists from Bronte to Lessing 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Literature%20of%20Their%20Own%3A%20British%20Women%20Novelists%20from%20Bronte%20to%20Lessing%20Showalter%2C%20Elaine%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">台灣文學史</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5\" target=\"_blank\" rel=\"noopener\">《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》</a></strong>\n                <em>黃美娥</em>\n                <small>台灣歷史語境</small>\n                <nav aria-label=\"《重層現代性鏡像：日治時代台灣傳統文人的文化視域與文學想像》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E9%87%8D%E5%B1%A4%E7%8F%BE%E4%BB%A3%E6%80%A7%E9%8F%A1%E5%83%8F%EF%BC%9A%E6%97%A5%E6%B2%BB%E6%99%82%E4%BB%A3%E5%8F%B0%E7%81%A3%E5%82%B3%E7%B5%B1%E6%96%87%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E8%A6%96%E5%9F%9F%E8%88%87%E6%96%87%E5%AD%B8%E6%83%B3%E5%83%8F%E3%80%8B%20%E9%BB%83%E7%BE%8E%E5%A8%A5%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
-              ]
-      }
-    ],
-    factCheckNotes: [
-        "1895史實核查：日本アジア歴史資料センター（JACAR）日清戰爭檔案頁確認《馬關條約》於1895年4月17日簽訂，台灣割讓由此進入日本殖民統治脈絡。來源：https://www.jacar.go.jp/english/jacarbl-fsjwar-e/main/18950417/index.html",
-        "皇民化史實核查：周婉窈 The Kominka Movement: Taiwan under Wartime Japan, 1937–1945 及相關學術資料確認皇民化運動與1937–1945戰時動員脈絡相關。",
-        "鐵道史實核查：日治台灣西部縱貫線於1908年前後完成，作為殖民治理、物資流通與現代交通的重要基礎；本文僅採保守表述「1908年前後完成」。",
-        "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the",
-        "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
-        "獎項核查：中央公論新社公告確認楊双子著、三浦裕子譯《台湾漫遊鉄道のふたり》獲第十回日本翻訳大賞。來源：https://www.chuko.co.jp/prize/125121.html",
-        "獎項核查：文化部英文網站確認 Taiwan Travelogue 獲2024 U.S. National Book Awards for Translated Literature。來源：https://www.moc.gov.tw/en/News_Content2.aspx?n=467&amp;s=227389"
-      ],
-  },
-  {
-    slug: "taiwan-travelogue-pseudo-translation-comparative-literature",
-    title: "Taiwan Travelogue in the Genealogy of Pseudo-Translation",
-    date: "2026-05-24",
-    category: "Academic Culture",
-    column: "culture",
-    kicker: "比較文學 · 偽譯譜系",
-    author: "蕭珩",
-    summary: "A comparative-literature essay placing Taiwan Travelogue in a long genealogy of pseudonymous authorship, fictitious translation and historiographic metafiction across Western, Chinese, Japanese and postcolonial literary traditions.",
-    titleZh: "《臺灣漫遊錄》：偽譯譜系的台灣節點",
-    summaryZh: "本文從奧西恩、博爾赫斯、《紅樓夢》與《源氏物語》一路讀到《臺灣漫遊錄》，追問偽托作者、虛構翻譯與後設歷史書寫如何替被壓低的歷史尋找聲音。",
-    relatedReadings: [
-        "taiwan-travelogue-multidimensional-literary-politics"
-      ],
-    academic: true,
-    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-02",
-    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
-    body: [
-      {
-        heading: "Abstract",
-        paragraphs: [
-                "This Chinese long-form article places Taiwan Travelogue in a comparative genealogy of pseudo-translation, pseudonymous authorship and historiographic metafiction. The full Chinese article is published in the Chinese Overseas Study Review."
-              ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "摘要",
-        paragraphs: [
-                "《臺灣漫遊錄》的「偽譯作」裝置，遠比一個漂亮的文學花招更尖銳，也很難被收進孤立的台灣創意名目裡。它踩在一條很長、也很危險的書寫傳統上：有人託名古人，有人假稱譯本，有人把不存在的檔案寫得像真的，有人乾脆讓註釋反客為主。本文沿著「偽托作者」（pseudonymous authorship）、「虛構翻譯」（fictitious translation）與「歷史後設小說」（historiographic metafiction）三條線，從奧西恩、梅里美、博爾赫斯、納博科夫，讀到《列子》、《紅樓夢》、《源氏物語》與愛爾蘭、東亞殖民地文學。本文追問的重心，離「誰騙了誰」很遠；真正棘手的是：為什麼有些歷史，非得繞道、假託、翻譯、扮演，才終於能說出口。"
-              ]
-      },
-      {
-        heading: "偽譯作為世界文學問題",
-        paragraphs: [
-                "偽托書寫大致有三種面孔：假借一個作者，假稱一部譯本，或把歷史寫成一座到處露出機關的舞台。Linda Hutcheon 說「歷史後設小說」的迷人處，正在於它明知自己是人工製品，卻因此更能逼近歷史書寫的人工性。",
-                "讀《臺灣漫遊錄》，若只說它「形式新穎」，其實太輕了。這部小說把作者、原文、譯者、註釋、史料與讀者的信任全部拆開，重新排在桌面上。當這些零件一件件鬆動，所謂歷史真實便不再像一塊沉默的石頭，而像一份被翻譯、被保存、被刪節、被轉述過無數次的文稿。",
-                "偽譯之所以能跨文化流動，靠的正是這種又借信任、又破壞信任的能力。讀者相信古籍，相信譯本，相信旅行記，相信編者序，相信腳註；偽譯便在這些相信之間開一條縫，讓人看見「原文」和「真本」其實也常常只是權威裝作自然的樣子。《臺灣漫遊錄》能被台灣、日本與英語讀者各自讀出不同震動，原因正在這裡：它寫台灣殖民史，也寫世界文學裡那個反覆發作的真實焦慮。",
-                "它比 Hutcheon 所說的歷史後設小說又多走了一步。翻譯在這裡失去橋樑或服務的安穩身份；它成了現場，成了權力換手、記憶改寫、身份試探的地方。下面的比較無意替《臺灣漫遊錄》安排一份漂亮祖譜；我更想看清它到底從哪些舊形式裡借火，又在哪裡把火燒回台灣。"
-              ]
-      },
-      {
-        heading: "從奧西恩到後設迷宮",
-        paragraphs: [
-                "<span class=\"zh-academic-subtitle\">古典與中世紀的偽托傳統。</span>偽托早在現代小說誕生前就已存在。它藏在古典、宗教與中世紀文獻秩序裡。荷馬到底是誰，這個問題吵了兩千多年；《聖經》與早期基督教文獻中的偽名書寫，也一直牽動權威、傳承與正典形成。",
-                "西方文學的偽托傳統可追溯至古典時代。荷馬史詩的「作者問題」本身即是一場延續兩千餘年的偽托爭議；《聖經》中的部分文本亦被現代聖經學者視為偽托文書。這種早期偽托的動機，主要是借權威以自立：真實作者隱身於假托的前人名義之後，以迴避風險或強化說服力。",
-                "古典與中世紀的偽托，很難直接套入今天對「欺騙」的道德判決。那時作者權尚未成為出版制度的中心，以聖賢、先知、古代詩人或遠方旅行者之名發言，常常是文本進入知識秩序的通行證。這套邏輯進入現代後沒有消失，只是變得更狡黠，也更文學化。",
-                "<span class=\"zh-academic-subtitle\">十八世紀：偽托作為諷刺與啟蒙武器。</span>到了啟蒙時代，假託開始帶刺。虛構旅行者、外來者書信、遠方見聞，讓讀者隔著一雙陌生的眼睛看自己，看見平日被習慣遮住的荒謬。",
-                "啟蒙時代的偽托傳統賦予這一策略全新的政治銳度。斯威夫特以「萊繆爾·格列佛船長」之名出版《格列佛遊記》，製造具有高度說服力的虛構旅行者，以第一手報告揭露英國社會的荒謬。孟德斯鳩的《波斯人信札》則虛構兩位波斯旅人記錄巴黎觀察，以外來者視角使法國讀者重新審視本國社會習俗。",
-                "旅行書寫從來不清白。它借航海、帝國、殖民與跨文化見聞取得可信度，又能回頭刺穿帝國中心的自信。斯威夫特、孟德斯鳩與《臺灣漫遊錄》隔著時代相望，靠的正是這種遠親關係：旅行記好讀，於是也最適合偷渡批判。",
-                "詹姆斯·麥克弗森的「奧西恩詩篇」案例最直接觸及虛構翻譯的核心問題。麥克弗森宣稱發現並翻譯古代蓋爾語吟遊詩人奧西恩的史詩，引發全歐洲轟動；「原著」卻始終沒有現身。這一事件既是文學史上的偽造醜聞，也是一個關於民族文學建構、翻譯倫理與文化真實性的深刻寓言。",
-                "奧西恩最有意思的地方，不止在於麥克弗森究竟造沒造假，更在於十八世紀歐洲為何那麼想相信他。蘇格蘭被英格蘭吸納之後，一位古老吟遊詩人的突然現身，等於替被壓縮的民族文化補上一段深遠的過去。偽譯在這裡帶著傷口，近乎一種文化補償。",
-                "<span class=\"zh-academic-subtitle\">十九世紀：歷史小說、性別偽裝與偽文獻的成熟。</span>瓦爾特·司各特確立現代歷史小說範式時，已大量使用序言、編者、史料、腳注與題詞等準文獻裝置，使小說像史書一樣可被查考，又使歷史本身顯出敘事性。",
-                "十九世紀歷史小說進一步成熟化偽文獻裝置。瓦爾特·司各特在多部作品中以虛構編者、腳注與史料來源強化歷史真實感；梅里美則虛構西班牙女劇作家克拉拉·加蘇爾，以「翻譯者」身份出版自己的戲劇。此處的翻譯兼具文學策略、性別偽裝與話語挪用。",
-                "梅里美與《臺灣漫遊錄》可以放在同一張桌上讀。他造出的遠超另一個筆名：那是一位有性別、有國籍、有肖像、有文風的西班牙女劇作家，自己則退到「翻譯者」的位置。青山千鶴子也是這種機制的後殖民版本：一個被造出來的他者之聲，反過來讓真正的作者靠近本來難以抵達的位置。",
-                "同時代女性作家的筆名策略，如喬治·桑與勃朗特三姊妹以男性化筆名進入文學公共領域，也說明作者名從來超出署名功能，常常是進入制度、評論與市場的門票。被排除者借用可被承認的名字發言，與被殖民者借殖民語言、殖民文類或虛構殖民者之口發言，在結構上具有可比性。",
-                "<span class=\"zh-academic-subtitle\">二十世紀的後設激進化：博爾赫斯、納博科夫、卡爾維諾。</span>進入二十世紀後，偽托從增加可信度的技巧轉入哲學性與形式性的核心地帶：文本為何可信，讀者如何相信，注釋如何取得權力，翻譯如何改寫原文，皆成為小說本身的題目。",
-                "二十世紀文學對偽托與虛構翻譯傳統的激進化，以博爾赫斯、納博科夫與卡爾維諾最具代表性。博爾赫斯的《皮埃爾·梅納爾，〈唐吉訶德〉的作者》揭示意義不在文字本身，而在歷史語境、讀者位置與閱讀行為之中；納博科夫《微暗的火》使注釋吞噬原文；卡爾維諾《如果在冬夜，一個旅人》則以不斷中斷的翻譯文本構成一部關於閱讀本身的小說。",
-                "博爾赫斯把偽書、假文獻與虛構學術評論推到哲學邊上：同一段文字到了不同時代，便不再是同一段文字。納博科夫更狠，他讓註釋者幾乎吃掉原文，逼讀者承認詮釋帶著伸手奪權的慾望，遠非溫順服務。《臺灣漫遊錄》的譯者注也如此。它讓權力關係突然現形，絕非旁枝或裝飾。",
-                "卡爾維諾把翻譯、閱讀與不完整性鎖進同一台敘事機器。讀者一次次進入開端，又一次次被中斷；閱讀變成追一部缺席文本。《臺灣漫遊錄》的多重時間層也在說同一件事：後來者只能在殘缺、重述與翻譯之間接近歷史，沒有誰能回到一個乾淨透明的原初現場。",
-                "<span class=\"zh-academic-subtitle\">費爾南多·佩索阿的極端案例：異名書寫與主體的解構。</span>佩索阿的異名遠超普通筆名，它是一組具有完整傳記、風格、思想與相互評論關係的虛構作者系統。這使「作者」從單一自我變成多聲部的集合，也使現代主體的分裂直接成為文學形式。",
-                "佩索阿把偽托推到近乎眩暈的程度。他創造大量具有傳記、個性與文體的虛構作者，讓他們彼此評論、彼此牴牾。作者這個位置從穩定的「我」裂成一屋子互不讓步的聲音。這種分裂感，放到後殖民語境裡讀，並不陌生。"
-              ]
-      },
-      {
-        heading: "古籍、物語與殖民記憶",
-        paragraphs: [
-                "<span class=\"zh-academic-subtitle\">中國古典文學的偽托傳統。</span>中國文學與思想史中的偽托，常常與經典權威、學派傳承和史學正統緊密相連。文本託名古人，目的不止於隱藏作者，也在於取得進入古典知識秩序的資格。",
-                "中國文學史上的偽托傳統同樣源遠流長。《列子》問題是最具代表性的案例：該書長期被視為戰國列禦寇所著，卻在魏晉時代突然大量流傳。多數現代學者，如楊伯峻，認定現存《列子》為魏晉偽作，藉先秦聖賢之名為道家玄學思想賦予古典合法性。",
-                "中國古典偽托傳統與西方偽托不同之處，在於它常與經學、子學、史學的權威結構相連。文本若能託名於古人，即可取得古典秩序中的發言資格；而後世學者對真偽的辨析，也往往同時是對思想譜系、學派權威與政治合法性的重新排序。",
-                "《紅樓夢》的作者問題提供了更複雜的後設框架。小說開篇設置「空空道人」發現頑石故事、「東魯孔梅溪」題書名、「曹雪芹」批閱增刪等多重中介，使作者被分裂為多個層次的虛構節點。這種主動降格與虛實混淆，既是迴避政治審查的修辭盾牌，也是一種後設宣告。",
-                "《紅樓夢》高明就高明在，它不急著讓讀者相信故事是真的；它讓讀者在「真假有無」之間反覆失足。小說開篇便拆自己的台，卻因此摸到正史摸不到的東西：情感、家族、慾望、制度，還有那些不能被正經寫進史書的疼痛。",
-                "蒲松齡《聊齋志異》以「異史氏曰」的史家評論姿態，為鬼怪故事注入正史書寫的話語形式；魯迅《故事新編》則以現代白話重述先秦神話與歷史故事，在重述中插入現代意識的批判眼光。二者都以形式的古典性與意識的當代性之間的張力，製造批判的槓桿。",
-                "<span class=\"zh-academic-subtitle\">日本文學的物語傳統與後設書寫。</span>日本古典文學中的後設辯護，並非等到近代才出現。《源氏物語》已在文本內部提出虛構與正史的關係問題，並以物語能捕捉人情真實為虛構辯護。",
-                "日本文學傳統中，《源氏物語》「螢」帖（第25帖）的物語論框架尤為重要。紫式部借光源氏之口為物語辯護：物語雖為虛構，卻比正史更能呈現人情的真實。這一「以虛構辯護虛構」的後設策略，在日本文學史上確立了物語作為知識形式的合法性。",
-                "「螢」帖早早說出一個後來小說反覆證明的道理：虛構未必比正史更假；有些人情，正史根本裝不下。《臺灣漫遊錄》用旅行日記、譯者注和出版框架重構殖民地女性情感生命，正是沿著這條路往前走。",
-                "江戶時代讀本文學進一步發展了偽文獻與史料化裝置。曲亭馬琴《南總里見八犬傳》大量運用歷史文獻、家譜、傳聞與考證姿態，讓虛構敘事取得近似史傳的厚度。這一文獻癖好與歐洲司各特式歷史小說雖未必存在直接影響，卻顯示東西方在歷史小說成熟時都會借助「像史料一樣的小說」來建立可信度。",
-                "<span class=\"zh-academic-subtitle\">殖民語境中的偽托：愛爾蘭民族文藝復興的啟示。</span>殖民地文學中的偽托與重述，往往與民族文學的自我建構相連。當殖民權力切斷或貶低本土記憶時，重述古老神話、民間故事或失落文獻，便成為重建文化連續性的方式。",
-                "殖民語境中的偽托書寫，在愛爾蘭文學中有重要先例。葉慈與格雷戈里夫人在愛爾蘭民族文藝復興運動中大量重述凱爾特神話與民間故事，其真實性宣稱本身即是一種文化政治聲明。台灣在日治與戰後去日本化之間遭遇雙重記憶斷裂，《臺灣漫遊錄》以偽譯填補空白的姿態，與愛爾蘭案例在文化政治邏輯上高度呼應。",
-                "殖民地或半殖民地文學常面臨一個共同困境：被殖民者的歷史記憶並非完全消失，它以破碎、失語、被翻譯、被檔案化或被敵對政權重寫的方式存在。偽托、重述與虛構翻譯之所以反覆出現，正因為它們能把斷裂的史料重新組織成可感的敘事，使被壓制的共同體獲得文化深度。",
-                "所以，《臺灣漫遊錄》的偽譯不能被粗暴地打成「造假」。殖民地記憶最棘手之處，常常在於事實碎得無法自己長成一個主體。偽譯很危險，當然危險；可它也有力量。它承認歷史已經破了，仍然替被壓低的聲音搭一個能被聽見的台。",
-                "<span class=\"zh-academic-subtitle\">韓江與東亞後殖民文學的當代匯流。</span>若把《臺灣漫遊錄》放入21世紀東亞文學英譯與國際獎項的脈絡，韓江《少年來了》是一個重要參照。兩者題材不同，卻都以女性書寫、多聲部結構、歷史創傷與翻譯傳播進入英語世界公共討論。",
-                "放到更近的東亞文學現場，韓江《少年來了》是一面冷鏡。它以多聲部敘事處理光州事件的歷史創傷，又經由英文譯本進入國際讀者視野。韓江與楊双子不必被硬湊成同一類作家；但兩人的國際接受，確實讓人看見一條新的文學路線：女性書寫、歷史創傷、非線性敘事與翻譯倫理，正在英語世界獎項場域中彼此靠近。"
-              ]
-      },
-      {
-        heading: "偽托的詩學",
-        paragraphs: [
-                "若把上述文本一一攤開，最先浮出的其實是文學對真實的反咬。偽托書寫明明戴著假面，卻最擅長反問那些自稱真實的文本：你們的真實從何而來？誰替你們蓋章？誰被你們排除在檔案之外？麥克弗森的奧西恩、博爾赫斯的假書評、梅里美的克拉拉·加蘇爾，都在被看穿的一瞬間，把真實本身拖到燈下。這裡無意替造假辯護；真正要指出的是，真實從來也有自己的修辭、制度和舞台。",
-                "翻譯在這裡早已越出語言服務的範圍。它更像一個權力交換的房間：有人把原文交出來，有人替它改換聲帶，有人替它標註年代、來源與可信度。班雅明談 Fortleben，說翻譯讓原文獲得後續生命；《臺灣漫遊錄》卻把這句話推到幾乎反諷的位置。青山千鶴子的原文從未存在，卻在楊双子的「譯本」中活得異常具體。這個不存在的原文，比許多存在的檔案更能逼近台灣殖民經驗的神經末梢。",
-                "由此看，所謂原初性少了幾分神聖。原文、真本、古本、第一手材料，當然重要；但文學史一次次告訴我們，原初性也可能是權威戴得最久的一張面具。偽譯的冒犯性，正在於它不肯跪在原文面前。它承認來源可疑、傳承斷裂、聲音混雜，卻也正因如此，能把被正統文獻排斥的經驗帶回閱讀現場。",
-                "這些文本總是靠近沉默。蘇格蘭需要奧西恩，是因為民族過去被壓縮成一種可疑的缺席；愛爾蘭重述凱爾特神話，是因為殖民秩序奪走了文化連續性的敘述權；《臺灣漫遊錄》虛構青山千鶴子與王千鶴，是因為日治時期台灣女性的情感生活、翻譯勞動與日常傷痕，本來就不容易在官方檔案中留下完整聲音。偽托像沉默被迫學會的另一種發音。",
-                "作者也因此失去安穩姓名的外觀。偽托文本常把作者拆成多人：實際作者、虛構作者、譯者、編者、註釋者、讀者，彼此推拉，彼此搶奪最後一句話。《臺灣漫遊錄》尤其如此。楊双子本就是共同筆名，青山千鶴子又作為虛構原作者登場，譯者注插入當代台灣視角，英文譯者林慕蓮再把整套裝置推入英語世界。這種作者位置的複數化，正是台灣多語歷史在形式上的顯影。",
-                "所以形式在這裡絕非外衣。偽托文本真正動人的地方，往往在於它為什麼非得繞到假託、譯本、註釋、殘卷、編者序裡去說。形式本身已經在思想，在辯論，在抵抗。《臺灣漫遊錄》最值得被放入世界文學譜系之處，也正在這裡：它借台灣的歷史裂縫，重新改寫後設框架的重量與方向。"
-              ]
-      },
-      {
-        heading: "邊緣重寫世界文學",
-        paragraphs: [
-                "從比較文學回頭看，偽托與虛構翻譯從來都在文學史的要害處。它們一再出現在那些身份被壓迫、記憶被切斷、聲音被攔截的地方。",
-                "從奧西恩到梅里美，從博爾赫斯到納博科夫，從蒲松齡到《紅樓夢》，從葉慈到韓江，這些文本在各自的文化語境中均代表著對「誰有權書寫歷史」、「誰的聲音得以被聽見」這一根本問題的形式性回答。",
-                "《臺灣漫遊錄》厲害的地方，在於它沒有把這套古老策略照搬過來；它把偽譯放進台灣後殖民歷史的裂縫裡重新點燃。它當然是台灣文學的里程碑；但若只把它放回台灣文學內部，又會低估它對世界文學形式史的挑釁。",
-                "世界文學可以越出中心語言收編邊緣文本的舊路。它也可以反過來：由一段邊緣歷史，重新解釋那些早被中心文學史說熟了的形式。當《臺灣漫遊錄》被放在奧西恩、博爾赫斯、納博科夫、《紅樓夢》與《源氏物語》之間，台灣已經越過被比較的位置；它成了比較文學重新出發的地方。",
-                "國際布克獎評審讀到的那種「普遍性」，來自形式深處的共振，而非抽空歷史後的普遍：不同語言、不同殖民記憶、不同文學傳統，最後都碰到同一個難題——有時候，人必須繞一個彎，甚至必須說一個精心安排的謊，才說得出真相。"
-              ]
-      },
-      {
-        heading: "延伸閱讀",
-        paragraphs: [
-                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
-                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">A Poetics of Postmodernism: History, Theory, Fiction</a></strong>\n                <em>Hutcheon, Linda</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"A Poetics of Postmodernism: History, Theory, Fiction 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=A%20Poetics%20of%20Postmodernism%3A%20History%2C%20Theory%2C%20Fiction%20Hutcheon%2C%20Linda%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony\" target=\"_blank\" rel=\"noopener\">Forgers and Critics: Creativity and Duplicity in Western Scholarship</a></strong>\n                <em>Grafton, Anthony</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Forgers and Critics: Creativity and Duplicity in Western Scholarship 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Forgers%20and%20Critics%3A%20Creativity%20and%20Duplicity%20in%20Western%20Scholarship%20Grafton%2C%20Anthony%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Faking%20Literature%20Ruthven%2C%20K.%20K\" target=\"_blank\" rel=\"noopener\">Faking Literature</a></strong>\n                <em>Ruthven, K. K</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Faking Literature 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Faking%20Literature%20Ruthven%2C%20K.%20K\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Faking%20Literature%20Ruthven%2C%20K.%20K%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan\" target=\"_blank\" rel=\"noopener\">Crimes of Writing: Problems in the Containment of Representation</a></strong>\n                <em>Stewart, Susan</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Crimes of Writing: Problems in the Containment of Representation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Crimes%20of%20Writing%3A%20Problems%20in%20the%20Containment%20of%20Representation%20Stewart%2C%20Susan%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">“The Task of the Translator.”</a></strong>\n                <em>Benjamin, Walter</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“The Task of the Translator.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CThe%20Task%20of%20the%20Translator.%E2%80%9D%20Benjamin%2C%20Walter%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis\" target=\"_blank\" rel=\"noopener\">“Pierre Menard, Author of the Quixote.”</a></strong>\n                <em>Borges, Jorge Luis</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"“Pierre Menard, Author of the Quixote.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CPierre%20Menard%2C%20Author%20of%20the%20Quixote.%E2%80%9D%20Borges%2C%20Jorge%20Luis%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Pale%20Fire%20Nabokov%2C%20Vladimir\" target=\"_blank\" rel=\"noopener\">Pale Fire</a></strong>\n                <em>Nabokov, Vladimir</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"Pale Fire 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Pale%20Fire%20Nabokov%2C%20Vladimir\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Pale%20Fire%20Nabokov%2C%20Vladimir%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">形式理論</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo\" target=\"_blank\" rel=\"noopener\">If on a Winter's Night a Traveler</a></strong>\n                <em>Calvino, Italo</em>\n                <small>偽托、後設與敘事框架</small>\n                <nav aria-label=\"If on a Winter's Night a Traveler 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=If%20on%20a%20Winter's%20Night%20a%20Traveler%20Calvino%2C%20Italo%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">東亞古典</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D\" target=\"_blank\" rel=\"noopener\">The Tale of Genji</a></strong>\n                <em>Murasaki Shikibu [紫式部]</em>\n                <small>古典物語與偽托傳統</small>\n                <nav aria-label=\"The Tale of Genji 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Tale%20of%20Genji%20Murasaki%20Shikibu%20%5B%E7%B4%AB%E5%BC%8F%E9%83%A8%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">東亞古典</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB\" target=\"_blank\" rel=\"noopener\">《列子集釋》</a></strong>\n                <em>楊伯峻</em>\n                <small>古典物語與偽托傳統</small>\n                <nav aria-label=\"《列子集釋》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E5%88%97%E5%AD%90%E9%9B%86%E9%87%8B%E3%80%8B%20%E6%A5%8A%E4%BC%AF%E5%B3%BB%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
-              ]
-      }
-    ],
-    factCheckNotes: [
-        "奧西恩核查：Britannica 將 Ossian 詩篇與 James Macpherson 1760年代的「發現／翻譯」及後續真偽爭議相連；Library of Congress 亦將相關版本列入 literary forgeries and mystifications 主題。來源：https://www.britannica.com/topic/Ossian；https://www.loc.gov/item/33005647/",
-        "《源氏物語》核查：物語辯護論位於「螢」帖（第25帖），而非「蓬生」帖；本文已按此處理。",
-        "《列子》核查：現存《列子》真偽與魏晉成書問題依楊伯峻《列子集釋》處理，本文採「多數現代學者認為現存本為魏晉偽作」之保守表述。",
-        "班雅明術語核查：《譯者的任務》中 Fortleben / afterlife 脈絡可譯為「後續生命」，本文避免將其簡化為單一 Nachleben。",
-        "獎項核查：National Book Foundation 官方頁確認 Taiwan Travelogue 為 2024 National Book Award for Translated Literature 得主，譯者為 Lin King，出版社為 Graywolf Press。來源：https://www.nationalbook.org/books/taiwan-travelogue/",
-        "獎項核查：The Booker Prizes 官方新聞稿確認 Taiwan Travelogue by Yáng Shuāng-zǐ, translated by Lin King 獲 International Booker Prize 2026，並確認其原作語言與翻譯者資訊。來源：https://thebookerprizes.com/media-centre/press-releases/taiwan-travelogue-by-yang-shuang-zi-translated-by-lin-king-wins-the"
-      ],
-  },
-  {
-    slug: "taiwan-travelogue-reception-aesthetics-global-acceptance",
-    title: "From Authorial Life to Global Reception: Reception Aesthetics of Taiwan Travelogue",
-    date: "2026-05-24",
-    category: "Academic Culture",
-    column: "culture",
-    kicker: "接受美學 · 全球接受",
-    author: "蕭珩",
-    summary: "A long-form reception-aesthetics essay on Yang Shuang-zi's Taiwan Travelogue, reading the novel through authorial biography, publishing ecology, awards, translation politics and global interpretive communities.",
-    titleZh: "從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析",
-    summaryZh: "本文以堯斯、伊澤爾與費什的接受理論為框架，分析《臺灣漫遊錄》如何在作者生命史、出版協作、偽譯結構、獎項場域、譯者政治與全球思潮的疊加中，從台灣文學事件成為世界文學現象。",
-    relatedReadings: [
-        "taiwan-travelogue-multidimensional-literary-politics",
-        "taiwan-travelogue-pseudo-translation-comparative-literature",
-        "taiwan-travelogue-critical-collection-methodology"
-      ],
-    academic: true,
-    publicationCode: "留學導報學術文化欄 · OSR-CULTURE-20260524-04",
-    rightsNotice: "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
-    body: [
-      {
-        heading: "Abstract",
-        paragraphs: [
-                "This Chinese long-form article reads the international reception of Taiwan Travelogue through reception aesthetics, literary sociology, translation studies and the politics of world literature. The English page preserves the editorial abstract; the full Chinese article is published in the Chinese Overseas Study Review."
-              ]
-      }
-    ],
-    bodyZh: [
-      {
-        heading: "摘要",
-        paragraphs: [
-                "本文以漢斯·羅伯特·堯斯（Hans Robert Jauss）的接受美學理論為核心框架，結合作者生平傳記、文本的多義開放結構、出版生態與編輯協作、獎項的場域放大機制、譯者的政治性翻譯策略，以及全球文學思潮的時代語境，分析《臺灣漫遊錄》在本土及國際語境中的接受盛況。",
-                "本文論證，這一盛況不是由單一因素驅動，而是由至少六個相互強化的接受層次共同疊加作用所形成的複合結構：作者傳記的感召力、文本的多義性與期待視野的生產性破裂、出版生態中的機構性協作、獎項連鎖的馬太效應、譯者作為政治行動者的能動性，以及全球文學場域在特定歷史時刻的思潮聚光。任何一個層次的單獨分析，都不足以解釋這一接受盛況的全貌；只有在六個層次的動態交疊中，方能理解一部台灣中文小說如何在六年之內抵達世界文學的核心位置。"
-              ]
-      },
-      {
-        heading: "接受盛況的結構性之謎",
-        paragraphs: [
-                "2026年5月19日倫敦泰特現代美術館的頒獎典禮上，楊双子以長篇小說《臺灣漫遊錄》奪下國際布克獎，創下台灣文學史與國際布克獎歷史的重要里程碑。在此之前，她已於2024年底榮獲第75屆美國國家圖書獎翻譯文學大獎，成為台灣首位獲此殊榮的創作者。再往前追溯，這部作品已獲2024年日本翻譯大賞與2021年台灣金鼎獎文學圖書獎；英文版之後帶動多語版權流通，成為台灣近年出版史上最受國際矚目的文學案例之一。",
-                "這一成就的驚人之處，在於其出發點的微小。楊双子曾多次談及，台灣多數文學出版社在小說編輯階段，往往只校對錯字與格式，不太深度介入文本修改；而《臺灣漫遊錄》初版以「青山千鶴子著、楊双子譯」為框架，進行大膽的文學實驗，需要有已建立讀者信任的出版社願意承擔出版風險。換言之，這部後來席捲全球的小說，在誕生之初即面臨出版市場的結構性排斥。",
-                "這種從市場冒險到全球盛況的巨大落差，構成接受美學分析最值得深究的張力場所。文學獎項每年頒發，多數得獎作品在下一輪媒體週期中即告沉寂；而《臺灣漫遊錄》的接受，顯然具有更深層的結構性基礎，需要超出「獎項運氣」或「時代機遇」的解釋框架。",
-                "堯斯在〈文學史作為文學科學的挑戰〉中提出「期待視野」（Erwartungshorizont）：文學作品的意義，產生於文本與特定歷史時刻讀者群集體期待之間的動態協商。一部作品之所以能引發深廣共鳴，是因為它既滿足既有期待，又以某種「審美距離」挑戰並擴展這些期待，使讀者在閱讀之後擁有一個被永久擴大的視野。",
-                "伊澤爾在《閱讀行動》中進一步發展「隱含讀者」與「文本空白」的概念：每部文本都在其結構中留有刻意的空白，邀請讀者以自身的歷史經驗與想像力加以填充。費什的「詮釋共同體」理論則提醒我們，意義由共享閱讀慣例與詮釋策略的讀者共同體在閱讀實踐中持續生產。《臺灣漫遊錄》的接受盛況，正是多個詮釋共同體在同一文本中同時找到自身入口的結果。"
-              ]
-      },
-      {
-        heading: "作者傳記作為接受的情感底蘊",
-        paragraphs: [
-                "接受美學的理論傳統，長期傾向於去作者化，強調文本意義在讀者閱讀行為中生成。然而在當代文學消費的媒體生態中，尤其在社交媒體主導的信息傳播環境下，作者的故事往往構成接受的第一個情感入口，是讀者在接觸文本之前已被激活的「前理解」。楊双子的傳記，在這一意義上，具有近乎原型性的多重感召力，且每一層感召力都指向不同的讀者群。",
-                "楊双子本名楊若慈，出生於1984年的台中烏日眷村，是村中少有的本省家庭。父母在她與妹妹年幼時離異，姊妹由祖母扶養長大。15歲開始，兩人相互扶持，楊若慈做麵包學徒，楊若暉做工讀生；她曾賣過雞排、手搖飲，也做過麵包學徒，利用工作空檔寫可以換取稿費的言情小說，然後趕去夜校晚自習。",
-                "這一早年生命史，對應著布迪厄所分析的文學場域中的位置取得：在嚴苛的物質條件下，以創作實踐作為階級突圍的策略。楊双子的故事超出一般苦難成功敘事，關鍵在於她不是從文學場域的中心出發，而是從言情小說這一長期被低估的大眾文類中練出形式感、節奏感與讀者感。日後《臺灣漫遊錄》能以美食旅行與百合情感吸引大眾讀者，同時又以歷史考據、偽譯裝置與後殖民意識贏得學術讀者，正與這段早期訓練密切相關。",
-                "她後來進入中興大學台灣文學與跨國文化研究所，曾形容在興大讀書的八年，是自己成為台灣小說家的關鍵八年。從中文系到台文所，她在閱讀、研究、論述與創作中，逐步確立自身書寫方向，也在對「什麼是台灣文學」的追問中，形塑出鮮明而堅定的創作理念。夜校與研究所、言情小說與台灣文學史、謀生寫作與學術訓練，在她身上不是彼此抵消的矛盾，而是互相加壓的燃料。",
-                "更重要的是，她從來不是一個人在寫作。「楊双子」原是姊妹共同筆名，「双子」取自日文雙胞胎之意。這個筆名原為共同創作台灣歷史百合小說而誕生，特意選用日文漢字「双」，也預示了作品對日本語境與跨語流通的早期想像。2015年，妹妹楊若暉因癌症離世。她留下的文獻考據資料，後來持續參與楊若慈的創作，成為《花開時節》《花開少女華麗島》以及《臺灣漫遊錄》背後不斷回返的材料與情感底層。",
-                "弗洛伊德在《哀悼與憂鬱》中區分哀悼與憂鬱：哀悼是對失去對象的逐漸釋放，憂鬱則是把失去對象內化為自我的永久組成部分。楊双子的書寫，在此意義上是一種生產性的憂鬱行動。妹妹不以幽靈姿態縈繞，而以文獻資料、未竟承諾、共同筆名與小說世界中的少女情誼持續在場。",
-                "百合小說所創造的，是雙胞胎姊妹從未擁有的青春。這一點，反向照亮《臺灣漫遊錄》的情感結構：小說中的兩位千鶴，既是殖民歷史中的人物，也是作者在時間與死亡夾縫中為自己與妹妹補種的可能性。讀者在閱讀兩位女性之間的親密、遲疑與不可抵達時，讀到的已不只是愛情或友誼，而是「替另一個人看見更遠地方」的書寫倫理。"
-              ]
-      },
-      {
-        heading: "歷史百合宇宙與公開身份",
-        paragraphs: [
-                "《臺灣漫遊錄》並非楊双子的孤立之作，而是一個逐步擴大的「歷史百合宇宙」的核心節點。《花開時節》《花開少女華麗島》與《臺灣漫遊錄》共享同一創作方向：把女性之間的情誼、台灣民俗與日治時期歷史放入彼此照亮的敘事空間。前作終幕落下的一九三八年，正是《臺灣漫遊錄》鐵道之旅展開的起點。",
-                "這一宇宙也向台灣首位女記者楊千鶴致敬。楊千鶴的〈花開時節〉在1942年發表，是日治時期台灣女性書寫中的重要文本。楊双子以「千鶴」命名小說人物，又讓「楊双子」這一筆名帶著日文漢字的痕跡，製造出跨越現實與虛構、當代與歷史、作者與前輩女性書寫者的多層致敬結構。這種文學傳承的具身化，使她的創作不只是個人書寫，也是一場台灣女性文學系譜的積極建構。",
-                "楊双子公開出櫃並已婚，其早期創作以羅曼史小說為主，近年將百合元素融入台灣歷史書寫，透過女性之間的理解與情誼開展新的敘事視角。這一身份的公開性，在接受過程中具有雙重意義：它使歷史百合書寫獲得一種由內而外的真實性認證，也使 LGBTQ+ 讀者群形成特殊的認同性閱讀。",
-                "賽奇維克在《壁櫥的認識論》中指出，酷兒讀者長期在文學史中以曲折方式尋找自身影像。當一部作品以正面而複雜的方式呈現女性之間的情感，且把這種情感放回歷史現場，它就不只是一段關係描寫，也是一種歷史位置的修復。台灣作為亞洲同性婚姻合法化的重要案例，在英語世界的接受中，又使《臺灣漫遊錄》的百合元素與台灣民主形象相互強化。",
-                "楊双子身處多重邊緣位置：本省眷村、單親貧窮家庭、夜校背景、女同志作家、百合大眾文學創作者。正是這些邊緣性的交疊，使她的創作在讀者面前獲得一種特殊的道德權威。她想寫只有台灣人能創作、也只有台灣人真正想讀的小說；而當這樣的小說被世界閱讀，台灣讀者感到的便不只是被代表，更是一種久候的文化回聲。"
-              ]
-      },
-      {
-        heading: "出版生態與文本精修",
-        paragraphs: [
-                "任何接受美學分析，若忽略文本從作者手稿到讀者手中所經歷的出版機構中介過程，都是不完整的。《臺灣漫遊錄》的接受盛況，與一個精密的出版機構協作過程密不可分。",
-                "透過作家友人陳又津認識春山出版社後，楊双子第一次遇到願意鉅細靡遺討論小說、追問細節、指出問題的編輯夥伴。從2019年8月到2020年3月出版之間，《臺灣漫遊錄》前後修訂多次。編輯的吹毛求疵，對一部以偽譯、注釋、多時間層與歷史細節為核心的小說來說，不只是文字加工，而是風險管理與形式校準。",
-                "布迪厄在《藝術的規則》中指出，出版社不是單純商業中介，更是文化資本的認證機構。一家具有聲譽、願意深度介入文本的出版社選擇出版某部作品，本身即是向特定讀者群發出信號：這部作品值得嚴肅對待。春山出版對《臺灣漫遊錄》的支持，提供了文本抵達讀者之前的品質保證，也使它在台灣文學讀者群中取得初始信任。",
-                "書上市初期，「青山千鶴子著、楊双子譯」的設定引發爭議，部分讀者以為真有一位日治時代日本女作家留下遊記，發現是小說策略後感到受騙。楊双子事後分析，當代台灣有許多人對台灣文史重新出土抱有高度期待，這種期待可能使讀者忽略文本中已埋下的虛構線索，進而產生情感落差。",
-                "這場風波在接受美學意義上格外重要。讀者對失落台灣史料的強烈渴望，既是偽譯裝置得以成立的情感土壤，也是它被誤讀為詐欺的原因。換言之，作品最想處理的問題，正是在初次接受中以衝突形式爆發出來：台灣讀者究竟多麼渴望一份未曾被保存的殖民地女性旅行檔案？",
-                "出版風波也意外製造了公共討論。關於文學虛構倫理、歷史書寫責任、台灣失落史料渴望的辯論，使這部小說在出版初期即成為文化事件，而不只是一本待讀的文學作品。用堯斯的語言說，「炎上」製造了一次強烈的視野破裂，迫使讀者重新思考自己對歷史文本與虛構文本的分類方式。",
-                "小說中1938、1954、1970、1990與2020等時間節點，則構成五個不同的隱含讀者位置。1938年是日治殖民語境下的原始敘事；1954年是國民政府去日本化後的記憶重框；1970年是戒嚴體制下本土意識的壓抑與積累；1990年是民主化解嚴後本土意識的釋放；2020年則是當代讀者閱讀所有層疊的現在。每一個時間節點，都可能成為不同世代台灣讀者的集體記憶錨點。"
-              ]
-      },
-      {
-        heading: "文本多義性與期待視野的破裂",
-        paragraphs: [
-                "《臺灣漫遊錄》在文本內部同時開啟多個入口。它像美食旅遊小說，以一道道菜餚組織章節；它像百合小說，讓兩位女性在殖民秩序邊緣彼此靠近又彼此退後；它像歷史小說，重建1938年的台灣鐵道、城市、料理與語言環境；它又像後設小說，不斷提醒讀者：你正在閱讀一部被翻譯、被注釋、被重構的文本。",
-                "這種類型混搭製造了一個柔軟的入口。讀者以為走進一部輕盈的美食旅行小說，卻在閱讀過程中逐漸被帶入更深、更重的殖民歷史與身份政治討論。飲食與認同、階級、殖民觀光、地方記憶相連；女性情誼與父權制度、殖民秩序、語言不平等互相纏繞。",
-                "「以輕包重」的敘事策略，使小說同時服務於至少三個不同讀者群：尋求感官愉悅與美食想像的大眾讀者；追求情感共鳴與歷史想像的百合類型讀者；尋求殖民歷史批判與後設文學探索的嚴肅讀者。三個群體都能從文本中取得滿足，卻不是同樣的滿足，也因此不容易形成對同一文本的排他性佔有。",
-                "偽譯裝置在讀者被「騙到」的瞬間，製造了最深刻的後設閱讀效果。當讀者發現原著從未存在、翻譯是一種書寫策略，便不得不回頭重新閱讀整部小說：所謂歷史記錄究竟由誰建構？文獻真實性意味著什麼？翻譯者與注釋者的權力如何改變文本？這種二度閱讀的激活，是詮釋共同體形成的標誌。",
-                "更精細地看，小說中的空白分布極不平均。青山千鶴子的日記看似完整，卻不斷暴露帝國視角的盲點；王千鶴的沉默看似缺席，卻成為讀者最想填補的空白；譯者注看似提供解答，實際上又製造新的不確定性。這些空白讓不同讀者以自身經驗進入文本：台灣讀者補入被壓抑的歷史記憶，日本讀者補入帝國反省，酷兒讀者補入被歷史刪去的同性情感，飲食讀者補入身體與味覺經驗。",
-                "這正是伊澤爾所說的文本空白的生命力。優秀文本不會把所有意義一次性說完，而是保留足夠的縫隙，使讀者在閱讀中完成一部分作品。《臺灣漫遊錄》的世界化，並非因它變得簡單易懂，而是因它的空白足夠深，足以容納不同語言、不同歷史處境的讀者。"
-              ]
-      },
-      {
-        heading: "獎項場域與事件放大",
-        paragraphs: [
-                "《臺灣漫遊錄》的接受呈現明顯的連鎖放大：台灣金鼎獎、日本翻譯大賞、美國國家圖書獎翻譯文學獎、國際布克獎。每一次獎項都不只是評價結果，也是一個新的閱讀入口，將作品送入新的制度網絡與讀者社群。",
-                "文學獎項在布迪厄意義上，是文學場域中的象徵資本轉換機制。地方獎項確認作品在本土文學史中的位置；翻譯獎項確認作品跨語轉換的可讀性與形式價值；英語世界的大型獎項則把作品推入全球書市與媒體視野。這些獎項之間構成馬太效應：既有肯定提高下一輪被看見的概率，而下一輪肯定又回過頭來重估前一輪的意義。",
-                "2024年美國國家圖書獎翻譯文學大獎，使《臺灣漫遊錄》首次在英語世界獲得制度性高亮。到2026年國際布克獎，它已不只是「一部台灣小說被英譯」的案例，而是「一部中文原著台灣小說以翻譯文學身份進入世界文學核心獎項」的事件。",
-                "這種事件性改變了讀者的閱讀姿勢。許多英語讀者初次接觸《臺灣漫遊錄》時，已知道它是獲獎作品，於是帶著「它為何重要」的期待閱讀；台灣讀者重新閱讀時，則把它視為台灣文學被世界承認的證據。獎項沒有創造文本的價值，卻改變了價值被感知、被談論、被流通的方式。",
-                "阿蘭·巴迪烏的「事件」概念在此可作參照：事件不只是發生了什麼，而是迫使在場主體重新定位自身座標。國際布克獎頒給《臺灣漫遊錄》與 Lin King 的英譯，使台灣文學在集體意識中從焦慮的問題轉化為自信的回答：台灣並非等待被中心承認的邊緣，而是已經帶著自己的歷史、形式與語言問題進入世界文學現場。"
-              ]
-      },
-      {
-        heading: "譯者能動性與翻譯政治",
-        paragraphs: [
-                "在《臺灣漫遊錄》的接受鏈條中，英文版譯者 Lin King（金翎）的角色遠超傳統意義上的翻譯工作者。她不是把中文內容搬運到英文裡，而是在世界文學場域中重新設置台灣的可見性。",
-                "金翎曾表示，2022年俄烏戰爭爆發後，她下定決心，在可預見的將來只翻譯來自台灣的創作。這一立場使翻譯行為本身成為政治表態，也使譯者成為獨立於文本之外的公共知識分子。韋努蒂在《譯者的隱形》中批判英語翻譯界以流暢為名讓譯者隱形，主張以異化策略讓讀者意識到自己正在讀翻譯作品。金翎的做法與此相通，政治性更強：她的翻譯選擇，直接回應台灣存在如何在英語世界被看見的問題。",
-                "她在英文版中保留譯者注腳、序文與後記，並以多套拼音系統處理台語、客語、日語與華語混雜的語言現實。這種策略拒絕把台灣的多語現實壓平為一種順滑英文，也拒絕把翻譯中的顆粒感過濾掉。她曾以柳橙汁中的果粒比喻翻譯：那些看似礙口的顆粒，正是文本的生命。",
-                "英文版因此形成更複雜的後設結構：虛構作者青山千鶴子的敘述、虛構譯者楊双子的注釋、真實譯者 Lin King 的注腳彼此疊加。每一層都是不同歷史位置上的詮釋聲音，使英文版在後設意義上不是被簡化的版本，而是被再次增厚的版本。",
-                "譯者政治也成為獨立接受事件。作者與譯者的公開發言，使獎項從文學評價延伸為關於台灣主權、文化可見性與翻譯倫理的公共討論。對不少英語讀者來說，閱讀《Taiwan Travelogue》不只是接觸一部小說，也是在理解一個譯者為何要把台灣作品帶入英語世界。"
-              ]
-      },
-      {
-        heading: "全球思潮與多重詮釋社群",
-        paragraphs: [
-                "《臺灣漫遊錄》的世界接受，恰好發生在亞洲女性歷史書寫被重新看見的時刻。韓江獲諾貝爾文學獎，使英語讀者對亞洲女性、歷史傷痕、國家暴力與身體記憶形成新的期待視野。楊双子自己也指出，這不是把兩位作家畫上等號，而是世界文學視角像一盞探照燈，在時代風潮轉動時照向了原本較隱沒的女性聲音。",
-                "這一探照燈效應，使《臺灣漫遊錄》不必從零開始教育讀者如何閱讀亞洲歷史創傷。讀者已經有某種問題意識：亞洲女性如何書寫國家暴力之下的人？《臺灣漫遊錄》提供的答案具有台灣特殊性：它處理的不是單一事件的創傷，而是殖民結構在日常生活、飲食、語言與情感關係中的持續滲透。",
-                "俄烏戰爭後，西方世界對被強鄰威脅的民主社會高度關注，台灣的地緣政治能見度上升。《臺灣漫遊錄》在此語境中被閱讀，便帶有雙重性質：它是文學作品，也是台灣存在的文化證明。對某些讀者而言，閱讀這部書甚至具有政治聲援意味。",
-                "東歐、波羅的海與烏克蘭讀者對小說的共鳴，則提示一種跨地域後殖民記憶的可能。台灣日治經驗、烏克蘭與東歐的帝國記憶、被強權夾縫中的語言與身份焦慮，雖然歷史脈絡不同，卻可能共享一套情感語法：如何在他者命名的世界中保留自己的名字？如何在帝國帶來的現代性與帝國造成的傷害之間保持判斷？",
-                "LGBTQ+ 讀者讀到的是另一條線。百合歷史小說把女性之間的愛放回歷史，不再把同性情感視為當代城市裡突然出現的例外，而是視為被史料、父權與殖民秩序共同壓低聲音的長期存在。這種歷史化，給身份認同帶來深刻穩定感。",
-                "飲食文化讀者則從味覺進入台灣。美食寫作是一種全球語言，食物能繞過抽象政治，先讓讀者用身體理解地方。當麻薏湯、菜尾湯、蜜豆冰與鐵路旅行被放在一起，台灣不再只是新聞中的地緣政治名詞，而是一個有味道、有季節、有階級、有記憶的生活世界。"
-              ]
-      },
-      {
-        heading: "六層接受的動態模型",
-        paragraphs: [
-                "將以上六個接受層次置於同一分析框架下，可以看到它們不是單線因果，更像一個相互強化的動態共振結構。",
-                "作者傳記為文本多義性提供情感解碼框架：姊妹相依的生命史，使讀者在閱讀兩位千鶴的情感時帶入更深的生命感受；多重邊緣身份，為文本的多個接受入口預設了不同的情感共鳴基礎。",
-                "出版生態為獎項機制提供形式完成度：若沒有春山版本的精細打磨，文本未必具備進入國際獎項場域的穩定性；出版初期的爭議，經過修訂與討論後轉化為作品接受史的一部分，也成為後來讀者理解偽譯裝置的重要背景。",
-                "獎項連鎖為譯者能動性提供結構機會：本土獎項與日本接受建立初步聲譽，英文版出版與美國國家圖書獎擴大能見度，國際布克獎則讓作者與譯者的政治發言被全球媒體聽見。",
-                "譯者能動性為全球思潮提供跨語介面：Lin King 的翻譯策略讓台灣語言複雜性在英語中保留顆粒感，使後殖民讀者、酷兒讀者、飲食讀者、世界文學讀者都能找到自己的閱讀入口。",
-                "全球思潮又反向強化作者傳記與台灣身份的接受框架：亞洲女性歷史書寫的探照燈效應、俄烏戰爭後的地緣政治焦慮、LGBTQ+文化能見度，都使楊双子的生命史與文本形式獲得新的公共意義。",
-                "這六層疊加構成一次罕見的全頻道共鳴。每一個可能的讀者群，都從這部小說中找到自己的入口；每一個入口又足夠深入，足以引發持續閱讀、討論、翻譯與再詮釋。這正是堯斯所描述的古典化機制的當代示範：一部作品能穿越時間與語境限制，不因它提供單一答案，而因它能同時回應不同讀者群最迫切的問題。"
-              ]
-      },
-      {
-        heading: "眾聲喧嘩的接受生態學",
-        paragraphs: [
-                "楊双子和 Lin King 期待能有更多台灣文學進入英語世界，讓更多作品反映出台灣不是齊聲合唱，而是眾聲喧嘩的民主社會。巴赫金以「眾聲喧嘩」（polyphony）描述小說中多種聲音共存、彼此不被化約的狀態；這個詞用在《臺灣漫遊錄》的接受現象上，同樣精準。",
-                "這部小說的接受，本身即是一場眾聲喧嘩。台灣認同讀者聽到身份政治的回聲，LGBTQ+讀者聽到情感解放的回聲，日本讀者聽到帝國反省的回聲，東歐讀者聽到殖民記憶的回聲，學術讀者聽到後設文學的回聲，美食讀者聽到感官愉悅的回聲，飲食政治讀者聽到食物即政治的回聲。每一種接受都是真實的；沒有任何一種接受能獨自構成全部意義。",
-                "在所有聲音的底部，始終有一個最輕柔、也最持久的迴響：一對雙胞胎姊妹曾在烏日眷村相依為命，其中一人先行離去，另一人帶著共同的名字、妹妹留下的資料與未竟的承諾，繼續向世界述說她們都想看見的遠方。",
-                "楊双子在國際獎項舞台上談到台灣文學的百年探問，也談到自由與平等的百年追求。這句話是她一個人站在台上說的；在那個名字的最深處，卻有兩個人的呼吸。正因如此，《臺灣漫遊錄》的全球接受，不只是一本書的成功，也是一種文學如何替逝者、替地方、替被壓低的歷史聲音繼續遠行的證明。"
-              ]
-      },
-      {
-        heading: "延伸閱讀",
-        paragraphs: [
-                "這一欄兼作參考書目、微型知識圖譜與外部查讀入口；書名連至研究檢索，「出版/館藏」查版本與館藏，「書評/研究」查評論與論文回應。",
-                "<ul class=\"zh-academic-reading-list\">\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">《臺灣漫遊錄》</a></strong>\n                <em>楊双子</em>\n                <small>文本原點</small>\n                <nav aria-label=\"《臺灣漫遊錄》 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E3%80%8A%E8%87%BA%E7%81%A3%E6%BC%AB%E9%81%8A%E9%8C%84%E3%80%8B%20%E6%A5%8A%E5%8F%8C%E5%AD%90%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">核心文本</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">Taiwan Travelogue</a></strong>\n                <em>Yang, Shuangzi [楊双子]</em>\n                <small>文本原點</small>\n                <nav aria-label=\"Taiwan Travelogue 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Taiwan%20Travelogue%20Yang%2C%20Shuangzi%20%5B%E6%A5%8A%E5%8F%8C%E5%AD%90%5D%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert\" target=\"_blank\" rel=\"noopener\">Toward an Aesthetic of Reception</a></strong>\n                <em>Jauss, Hans Robert</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Toward an Aesthetic of Reception 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Toward%20an%20Aesthetic%20of%20Reception%20Jauss%2C%20Hans%20Robert%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang\" target=\"_blank\" rel=\"noopener\">The Act of Reading: A Theory of Aesthetic Response</a></strong>\n                <em>Iser, Wolfgang</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"The Act of Reading: A Theory of Aesthetic Response 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Act%20of%20Reading%3A%20A%20Theory%20of%20Aesthetic%20Response%20Iser%2C%20Wolfgang%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley\" target=\"_blank\" rel=\"noopener\">Is There a Text in This Class? The Authority of Interpretive Communities</a></strong>\n                <em>Fish, Stanley</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Is There a Text in This Class? The Authority of Interpretive Communities 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Is%20There%20a%20Text%20in%20This%20Class%3F%20The%20Authority%20of%20Interpretive%20Communities%20Fish%2C%20Stanley%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">社會與性別</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">The Rules of Art: Genesis and Structure of the Literary Field</a></strong>\n                <em>Bourdieu, Pierre</em>\n                <small>公共領域、階級與女性主體</small>\n                <nav aria-label=\"The Rules of Art: Genesis and Structure of the Literary Field 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Rules%20of%20Art%3A%20Genesis%20and%20Structure%20of%20the%20Literary%20Field%20Bourdieu%2C%20Pierre%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence\" target=\"_blank\" rel=\"noopener\">The Translator's Invisibility: A History of Translation</a></strong>\n                <em>Venuti, Lawrence</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The Translator's Invisibility: A History of Translation 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20Translator's%20Invisibility%3A%20A%20History%20of%20Translation%20Venuti%2C%20Lawrence%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail\" target=\"_blank\" rel=\"noopener\">Problems of Dostoevsky's Poetics</a></strong>\n                <em>Bakhtin, Mikhail</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Problems of Dostoevsky's Poetics 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Problems%20of%20Dostoevsky's%20Poetics%20Bakhtin%2C%20Mikhail%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">Epistemology of the Closet</a></strong>\n                <em>Sedgwick, Eve Kosofsky</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Epistemology of the Closet 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Epistemology%20of%20the%20Closet%20Sedgwick%2C%20Eve%20Kosofsky%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">殖民與翻譯</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">The World Republic of Letters</a></strong>\n                <em>Casanova, Pascale</em>\n                <small>帝國、翻譯與世界文學場域</small>\n                <nav aria-label=\"The World Republic of Letters 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=The%20World%20Republic%20of%20Letters%20Casanova%2C%20Pascale%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">“Mourning and Melancholia.”</a></strong>\n                <em>Freud, Sigmund</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"“Mourning and Melancholia.” 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=%E2%80%9CMourning%20and%20Melancholia.%E2%80%9D%20Freud%2C%20Sigmund%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n              <li>\n                <span class=\"zh-reading-node\">延伸線索</span>\n                <strong><a href=\"https://scholar.google.com/scholar?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg\" target=\"_blank\" rel=\"noopener\">Truth and Method</a></strong>\n                <em>Gadamer, Hans-Georg</em>\n                <small>旁支線索</small>\n                <nav aria-label=\"Truth and Method 延伸連結\">\n                  <a href=\"https://search.worldcat.org/search?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg\" target=\"_blank\" rel=\"noopener\">出版/館藏</a>\n                  <a href=\"https://scholar.google.com/scholar?q=Truth%20and%20Method%20Gadamer%2C%20Hans-Georg%20review%20OR%20%E6%9B%B8%E8%A9%95\" target=\"_blank\" rel=\"noopener\">書評/研究</a>\n                </nav>\n              </li>\n\n            </ul>"
-              ]
-      }
-    ],
-    factCheckNotes: [
-        "稿件來源：Gmail 收件箱中 Overseas Office 於 2026年5月24日 09:24（London）發出的〈從作者經歷到全球接受：楊双子與《臺灣漫遊錄》的多重接受美學分析〉。",
-        "獎項與出版事實已按 The Booker Prizes、National Book Foundation、Graywolf Press 與中央社公開資料核對；涉及訪談細節、作者生命史與媒體引述者，保留為作者正文中的接受材料，後續紙本刊載可再逐條比對原始訪談頁面。",
-        "本文將郵件正文中的參考文獻改為「延伸閱讀／微型知識圖譜」版式，避免頁面末尾形成突兀的學術書目堆疊，同時保留讀者外部查讀入口。"
-      ],
-  },
-  {
-    "slug": "material-culture-book-history-collecting-chinese-translation-review",
-    "title": "An Uneven Knowledge Import: Chinese Translations of Material Culture, Book History and Collecting Studies",
-    "date": "2026-07-12",
-    "category": "Academic Culture",
-    "column": "culture",
-    "kicker": "書籍史 · 譯介研究",
-    "author": "蕭珩",
-    "summary": "A bibliographic study, framed by translation studies and the sociology of knowledge, of how Chinese-language academia has imported Western scholarship on material culture, book history and collecting: macro-theory (Polanyi, Bourdieu) translated in force, reading history (Darnton) accumulated, yet rare-book studies, provenance research and auction history remain untranslated — an inverted structure with methodological consequences.",
-    "titleZh": "中文世界對物質文化、書籍史與收藏研究的譯介：一項不均衡的知識輸入",
-    "summaryZh": "本文以譯介學與知識社會學為視角，基於可查證之公開書目記錄，系統考察波蘭尼、布迪厄、阿帕杜萊、科皮托夫、達恩頓、皮爾遜及西方收藏研究在中文世界的譯介軌跡，提出「倒置結構」之概括，並據此界定《蘇富比木槌》在宏觀理論與市場技術之間的中間層定位。",
-    "academic": true,
-    "publicationCode": "留學導報學術文化欄 · OSR-CULTURE-20260712-01",
-    "rightsNotice": "作者蕭珩版權所有。本文由《留學導報》全文刊登，未經作者及刊載方書面許可，不得轉載、摘編、改寫或作商業使用。",
-    "body": [
-      {
-        "heading": "Editorial Abstract",
-        "paragraphs": [
-          "Framed by translation studies (譯介學) and the sociology of knowledge, this Chinese-language study surveys, on the basis of verifiable bibliographic records, how Chinese academia has absorbed Western scholarship relevant to rare books, manuscripts and the auction trade. It documents six Chinese editions of Polanyi's The Great Transformation, the twin full translations of Bourdieu's La Distinction (Commercial Press 2015, simplified; Rye Field 2023, traditional), the citation-mediated reception of Appadurai and Kopytoff, the three-edition genealogy of Darnton's The Great Cat Massacre, and the near-total absence of translated technical literature — Pearson's provenance research, Pomian's, Belk's and Muensterberger's collecting studies, and the auction-history volume Under the Hammer (Myers, Harris & Mandelbrote, eds., 2001). The essay characterises this pattern as an inverted structure of knowledge import and traces its methodological consequences for Chinese scholarship on literary markets. The full Chinese article, with keyword list and annotated bibliography, is published in the Chinese Overseas Study Review."
-        ]
-      }
-    ],
-    "bodyZh": [
-      {
-        "heading": "摘要",
-        "paragraphs": [
-          "本文以譯介學與知識社會學為分析視角，考察與珍本、手稿及拍賣制度研究相關的西方學術文獻在中文世界的翻譯與接受狀況。基於可查證的公開出版記錄，本文逐一檢視卡爾·波蘭尼的市場社會理論、皮埃爾·布迪厄的資本轉換理論、阿爾君·阿帕杜萊與伊戈爾·科皮托夫的物質文化理論、羅伯特·達恩頓的閱讀史研究，以及戴維·皮爾遜等人的珍本學與來源研究在中文學界的譯介軌跡。研究發現，相關知識輸入呈現顯著的層級不均衡：宏觀社會理論譯介充分且持續重譯，閱讀史與出版文化史有所積累，而珍本學、來源研究、拍賣圖錄史與收藏市場史等專業技術文獻則幾近闕如。本文將此種「上層理論充分、底層技術缺席」的現象概括為<strong>譯介的倒置結構</strong>，分析其對中文學界文學市場論述的方法論後果，並據此說明《蘇富比木槌：手稿證券化、死者紅利與文學期貨市場》一書的學術定位：在宏觀理論與市場技術之間補建中間層。",
-          "<strong>關鍵詞：</strong>譯介學；物質文化；書籍史；珍本研究；收藏研究；知識社會學；倒置結構"
-        ]
-      },
-      {
-        "heading": "一、問題意識與研究範圍",
-        "paragraphs": [
-          "任何一部試圖在中文語境中處理珍本市場與文學資產化問題的著作，都必須首先回答一個學術史問題：其所依賴的理論資源與技術文獻，在中文世界處於何種接受狀態？中文學界對文學物件、珍本收藏與拍賣制度的認識，並非經由一套完整而連續的學術譜系建立起來。與其說中國已經形成一個邊界清楚的「珍本市場研究」或「文學資產研究」領域，不如說相關知識分散在經濟社會學、文化社會學、人類學、出版史、閱讀史、圖書館學、版本目錄學、藝術市場研究與收藏文化等不同學科建制之中。這些學科各自引進了部分理論與個案，但迄今尚未整合為一套足以分析文學物件如何被鑑定、估值、拍賣、保存與再出售的共同語言。",
-          "在方法上，本文採取保守的書目學判準：所有「已譯介」的判斷均以可查證的公開出版記錄（出版社、譯者、年份）為據；凡未能檢索到具備完整出版要素之中文全譯本者，一律標記為「未確認」，而不逕行斷言「不存在」。檢索時限截至2026年7月。此一judgment上的節制，本身即是本文論旨的一部分：在譯介史研究中，「概念的流通」與「文本的在場」是兩個必須嚴格區分的層次——一個術語在中文論文中被頻繁引用，並不等於其原始文本已經完成制度性的翻譯與出版。愛德華·薩義德所論「理論旅行」（traveling theory）提示我們，理論在跨語境移動中必然發生選擇、簡化與重構；本文所描繪的，正是這一旅行過程在特定知識領域中留下的不均衡地形。",
-          "從譯介次序觀察，中文世界首先大量吸收的，是關於市場社會、文化資本與階級區隔的宏觀理論，而非珍本拍賣、來源研究（provenance research）和圖錄技術等專門文獻。以下依理論層級，逐一檢視各知識板塊的譯介狀況。"
-        ]
-      },
-      {
-        "heading": "二、宏觀理論層的譯介：波蘭尼與市場社會理論",
-        "paragraphs": [
-          "卡爾·波蘭尼（Karl Polanyi）《大轉型》（The Great Transformation, 1944）的中譯史，堪稱宏觀理論充分譯介的典型個案。該書早在1989年即有臺灣遠流版《鉅變：當代政治、經濟的起源》（黃樹民譯）；此後中國大陸陸續出現2007年浙江人民出版社版《大轉型：我們時代的政治與經濟起源》（馮鋼、劉陽譯）、2013年與2017年社會科學文獻出版社「甲骨文」叢書版《巨變》（黃樹民譯）及2020年前後的其他版本；臺灣復於2020年推出春山版（黃樹民譯）；2021年，當代世界出版社再刊馮鋼、劉陽譯本。三十餘年間至少六個版本、兩個獨立譯本系統的持續重譯與再版，使「市場並非自然生成，而是由政治、法律與社會制度共同建構」這一命題，在中文社會科學中獲得了高度穩定的經典地位。",
-          "波蘭尼的廣泛流通，為分析圖書館如何被轉化為拍品提供了現成的理論前提：拍賣不再只能被描述為中性的交易形式，而可以被理解為一種重新安排社會關係的制度——原本嵌入（embedded）家族記憶、宅邸空間、身份傳承與閱讀生活之中的書籍，經由拍賣被重新編碼為可獨立出售的財產。然而必須指出，波蘭尼的中文接受主要集中於市場社會、經濟嵌入性與虛構商品（fictitious commodities）等宏觀議題，鮮少被具體運用於古籍、手稿、私人檔案與收藏市場的實證分析。質言之，理論已經譯入，但理論與書籍物質史之間的中觀連接，仍有待建立。"
-        ]
-      },
-      {
-        "heading": "三、布迪厄的雙軌譯介：概念流通與文本遲滯",
-        "paragraphs": [
-          "皮埃爾·布迪厄（Pierre Bourdieu）《區分》（La Distinction: Critique sociale du jugement, 1979）的譯介路徑呈現「概念先行、文本遲滯」的雙軌結構，且極易被誤讀為「遲至晚近才有完整譯本」。在正式全譯本出現以前，「文化資本」「慣習」「場域」「區隔」等概念已經由學術論文、理論評介及布迪厄其他著作的中譯進入中國大陸的社會學與文化研究；2000年代初的中文研究即已展開關於階級慣習、文化資本與品味分層的討論。尤須訂正的是一個流傳甚廣的認知缺口：2015年，商務印書館已出版劉暉翻譯的簡體全譯本《区分：判断力的社会批判》（譯者劉暉為中國社會科學院外國文學研究所副研究員）。因此，2023年臺灣麥田出版社刊行邱德亮譯《區判：品味判斷的社會批判》的學術史意義，並非「中文世界首次獲得完整譯本」，而應精確表述為<strong>繁體中文世界首次獲得由法文直譯的完整譯本</strong>——此前流通八年的簡體譯本，構成任何中文布迪厄研究皆不應忽略的中介文本。",
-          "此種雙軌譯介對中文學界產生了可辨識的雙重效應。其一，布迪厄的術語獲得極強的跨學科繁殖力，「文化資本」幾乎已成為分析教育、藝術、消費與階級再生產的通用範疇；其二，當概念脫離《區分》原著中大規模的問卷材料、對應分析（correspondence analysis）與1960—70年代法國社會結構時，極易被化約為「有錢人購買文化身份」的直觀公式。就珍本研究而言，布迪厄的方法論價值不在於重申金錢可轉化為品味，而在於強制研究者追問：誰有權定義何種版本值得收藏？哪些機構有能力把個人偏好認證為正統趣味？收藏者如何在具體場域中爭奪命名、展示與詮釋文化遺產的資格？"
-        ]
-      },
-      {
-        "heading": "四、物質文化理論的間接接受：阿帕杜萊與科皮托夫",
-        "paragraphs": [
-          "與前述兩者形成鮮明對照的，是阿爾君·阿帕杜萊（Arjun Appadurai）主編《物的社會生命：文化視野中的商品》（The Social Life of Things: Commodities in Cultural Perspective, Cambridge University Press, 1986）及其中伊戈爾·科皮托夫（Igor Kopytoff）〈物的文化傳記：作為過程的商品化〉一章的接受形態——本文稱之為「論文引用型譯介」。以本次可確認的公開出版記錄為限，尚未檢索到《物的社會生命》的通行中文全譯本；科皮托夫該文雖有選譯收入孟悅、羅鋼主編《物質文化讀本》（北京大學出版社，2008），然迄未確認獨立單行之中譯本；即便是學術社群內較活躍的評介文字（如復旦大學醫學人類學讀書欄目之推介、舒瑜〈物的生命傳記〉之書評），其所指向者仍為英文原著，而非任何具備出版社、譯者與ISBN之完整中文譯本。是以「物的社會生命」「商品情境」（commodity situation）「物件傳記」「商品化與單一化」等核心範疇，主要經由人類學、考古學、博物館研究與物質文化研究的二手轉述進入中文論述。",
-          "間接譯介的認識論後果值得專門申說：中文研究雖已頻繁使用「物的生命史」「物件傳記」「單一化」諸術語，但不同論者對概念內涵的理解未必一致，術語漂移（conceptual drift）在所難免。科皮托夫所謂單一化（singularization），原義側重物件如何被從一般商品領域中抽離，成為承載特殊社會身份、因而不可被同類替代之物；珍本市場所呈現者卻是一種更為弔詭的構造——書籍並未因單一化而退出交換，反而恰恰因其被認證的不可替代性獲得更高的交換價值。準此，本書在提出「市場化單一化」這一工作概念時，負有明確的術語自覺義務：不得將其冒充為科皮托夫的原有範疇，而應說明此係以物件傳記理論為基礎、針對珍本市場機制所作的延伸與修正。"
-        ]
-      },
-      {
-        "heading": "五、書籍史譯介的結構性偏重：閱讀史在場，珍本學缺席",
+                "小說的政治敏銳，正在於它拒絕把人寫扁。青山的溫柔是真的，帝國身份也是真的；王千鶴的沉默是真的，她的能動性也沒…29161 tokens truncated…     "heading": "五、書籍史譯介的結構性偏重：閱讀史在場，珍本學缺席",
         "paragraphs": [
           "書籍史（history of the book）板塊的中文譯介相對豐富，然其重心明顯偏向閱讀史、出版文化與思想傳播，而非書籍的物質構成、估值機制與拍賣市場。羅伯特·達恩頓（Robert Darnton）《屠貓記》（The Great Cat Massacre and Other Episodes in French Cultural History, 1984）在中文世界擁有一條清晰的版本譜系：2006年新星出版社刊呂健忠譯《屠貓記》；2017年商務印書館將同一譯者之譯本收入「漢譯世界學術名著叢書」，改題《屠貓狂歡：法國文化史鉤沉》；臺灣聯經另行流通呂健忠譯繁體版《貓大屠殺：法國文化史鉤沉》（2005）。三個版本同出一位譯者之手而書名各異，足證達恩頓式文化史書寫已在兩岸學術與閱讀市場穩固立足——書籍由此不再僅被視為思想之載體，而被重新置入印刷工人、書商、讀者、審查制度與日常文化的關係網絡。",
           "與此形成結構性反差的，是「書籍作為物件」（books as objects）之專門文獻的譯介闕如。戴維·皮爾遜（David Pearson）《作為歷史的書籍》（Books as History: The Importance of Books beyond Their Texts, 2008；修訂版2012）與《書籍史中的來源研究》（Provenance Research in Book History: A Handbook）、戴維·麥基特里克（David McKitterick）關於印刷品與手稿秩序的研究、詹姆斯·雷文（James Raven）的英國書業史系列研究、利婭·普賴斯（Leah Price）對維多利亞時代書籍使用方式的研究，以及羅賓·邁爾斯（Robin Myers）、邁克爾·哈里斯（Michael Harris）與賈爾斯·曼德爾布羅特（Giles Mandelbrote）合編的圖書拍賣史論文集《木槌之下：十七世紀以來的圖書拍賣》（Under the Hammer: Book Auctions since the Seventeenth Century, Oak Knoll Press & The British Library, 2001），在本次檢索中均未確認有公開發行並形成影響的中文全譯本。皮爾遜的著作尤具指標意義：其系統處理藏書票、題記、邊註、裝幀與拍賣圖錄如何共同構成一部書的來源史（provenance），此類知識在英美珍本學、圖書館特藏與拍賣實務中屬於基礎訓練科目，於中文出版市場卻至今主要依賴英文原著。附帶澄清一項易生混淆的書目事實：《木槌之下》係三位學者合編之論文集，並非雷文個人著作，二者不應並置而致歸屬錯亂。"
@@ -19444,7 +18297,13 @@ function serviceArticleDirectory(locale = "en") {
     {
       title: isZh ? "家庭與學生端" : "Family & Student Response",
       desc: isZh ? "突發調度、學術監護、申請文件與學習工具。" : "Emergency dispatch, guardianship, applications and learning tools.",
-      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management", "us-swt-work-travel-support"]
+      slugs: ["station-dispatch-emergency-coordination", "academic-guardianship-family-office", "university-application-advisory", "digital-learning-assessment-tools", "cross-border-property-management", "us-swt-work-travel-support"],
+      extras: [{
+        href: isZh ? "/zh/france-study-work-settlement-support/" : "/france-study-work-settlement-support/",
+        title: isZh ? "法國升學・就業・定居陪跑" : "France Study, Employment & Settlement Support",
+        desc: isZh ? "本科能力、法語、交換／碩士、實習、求職與合規居留節點的跨年度陪跑。" : "Multi-year support across undergraduate capability, French, postgraduate planning, internships, employment and official residence checkpoints.",
+        note: isZh ? "初評後書面確認範圍" : "Scope confirmed after assessment"
+      }]
     },
     {
       title: isZh ? "出版與語言" : "Publishing & Language",
@@ -19477,6 +18336,13 @@ function serviceArticleDirectory(locale = "en") {
                 </a>
               `)
               .join("")}
+            ${(group.extras || []).map((item) => `
+              <a href="${item.href}">
+                <b>${item.title}</b>
+                <span>${item.desc}</span>
+                <em>${item.note}</em>
+              </a>
+            `).join("")}
           </div>
         </section>
       `).join("")}
@@ -23983,6 +22849,9 @@ const studyGroup2026ApplicationsZh = pageShell({
             <h2>OTC 推薦路線前會先檢查什麼。</h2>
             <ol class="service-steps">
               <li>學生背景：目前學校或大學、學歷階段、目標專業和偏好入學時間。</li>
+Warning: truncated output (original token count: 75920)
+Total output lines: 3000
+
               <li>學術文件：成績單、grading scale、課程描述、畢業證明或在讀證明。</li>
               <li>英文準備：IELTS、TOEFL、PTE、Duolingo 或可接受的內部英文方案。</li>
               <li>路線匹配：foundation、International Year One、pre-master、直入或其他目的地。</li>
@@ -25858,291 +24727,7 @@ const summerSchoolAlliance = pageShell({
       <div class="summer-alliance-bottom-cta">
         <div>
           <strong>開啟你的暑期學術之旅</strong>
-          <span>專業顧問為你梳理方向，匹配更合適的暑校項目。</span>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">免費咨詢</a>
-          <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp 咨詢</a>
-        </div>
-      </div>
-    </section>
-  `
-});
-
-const privateSchoolAlliance = pageShell({
-  title: "海外督導｜私校聯盟 | OTC Study Hub",
-  current: "zh",
-  lang: "zh-Hant",
-  locale: "zh",
-  path: "/zh/private-school-alliance/",
-  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
-  imageWidth: 1200,
-  imageHeight: 630,
-  imageAlt: "海外督導私校聯盟：越南 The Dewey Schools 分享報頭",
-  description: "OTC 私校聯盟入口：按國家、課程體系、年級、寄宿/走讀、校區與家庭長線規劃整理 K-12 國際校和私校觀察路線。",
-  body: `
-    <section class="page-hero services-hero private-school-hero">
-      <div class="band">
-        <div class="service-hero-layout">
-          <div>
-            <div class="eyebrow">PRIVATE SCHOOL ALLIANCE</div>
-            <h1>海外督導｜私校聯盟</h1>
-            <h2>K-12 · International Schools · Boarding / Day School · Long-term Planning</h2>
-            <p class="hero-sub">私校聯盟不是單純列校名，而是家庭決策台：把國家、課程體系、年級銜接、住宿照護、英文準備與未來升學出口拆開核對。暑校適合試水，私校聯盟用於真正開始看 K-12 長線路線。</p>
-            <div class="actions private-school-main-actions">
-              <a class="btn btn-primary" href="/zh/private-school-alliance/vietnam/">精選樣本</a>
-              <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
-              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Private%20School%20Alliance%20Enquiry">提交需求</a>
-            </div>
-          </div>
-          <aside class="service-hero-panel">
-            <a href="/zh/private-school-alliance/vietnam/"><strong>越南樣本</strong><span>The Dewey Schools</span></a>
-            <a href="#private-school-decision-strip"><strong>四個入口</strong><span>國家、體系、年級、照護</span></a>
-            <a href="#private-school-desk"><strong>決策台</strong><span>左側路線 + 右側文件</span></a>
-            <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><strong>導報文章</strong><span>院校介紹與讀法</span></a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="band service-review-strip private-school-strip" id="private-school-decision-strip">
-      <a href="#private-school-countries"><b>LOC</b><strong>國家地區</strong><span>城市生活、陪讀、治安與後續出口</span></a>
-      <a href="#private-school-systems"><b>SYS</b><strong>課程體系</strong><span>IB、AP、美式、英式、雙語與本地文憑</span></a>
-      <a href="#private-school-years"><b>YR</b><strong>年級入口</strong><span>小學、初中、高中轉入與畢業風險</span></a>
-      <a href="#private-school-care"><b>CARE</b><strong>住宿照護</strong><span>寄宿、走讀、校車、陪讀、緊急聯絡</span></a>
-    </section>
-
-    <section class="band compact-band service-review-body" id="private-school-desk">
-      <div class="section-head compact-head service-review-head">
-        <span>K-12 決策台</span>
-        <strong>先做家庭分流，再看院校名字</strong>
-        <p>私校聯盟首頁只做決策入口；深度院校介紹放入國家子頁與導報文章。</p>
-      </div>
-      <div class="service-herald-grid">
-        <main class="service-herald-main">
-          <section id="private-school-countries">
-            <h2 class="zh-herald-section-head" data-num="01">國家 / 地區入口</h2>
-            <p>國家不是背景圖片，而是家庭決策條件：生活距離、陪讀可能、城市安全感、課程體系和下一站升學出口。</p>
-            <div class="private-school-candidate-list private-school-home-index">
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/vietnam/"><span class="candidate-city"><i>🇻🇳</i> VN</span><strong>越南 Vietnam</strong><span class="candidate-fit">河內美式、IB、雙語與亞洲家庭友好型國際校路線。</span><small>K-12 · American / IB · Hanoi</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/australia/"><span class="candidate-city"><i>🇦🇺</i> AU</span><strong>澳洲 Australia</strong><span class="candidate-fit">私校、boarding、州政府學校與 Gold Coast / Sydney / Melbourne 觀察路線。</span><small>Boarding · State / Private · NSW / QLD</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/united-kingdom/"><span class="candidate-city"><i>🇬🇧</i> UK</span><strong>英國 United Kingdom</strong><span class="candidate-fit">寄宿學校、preparatory school、sixth form 與英式課程銜接。</span><small>Prep · Boarding · Sixth Form</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/singapore/"><span class="candidate-city"><i>🇸🇬</i> SG</span><strong>新加坡 Singapore</strong><span class="candidate-fit">英式、美式、IB 國際校、雙語幼兒園與短住家庭試讀。</span><small>IB · British · Early years</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/malaysia/"><span class="candidate-city"><i>🇲🇾</i> MY</span><strong>馬來西亞 Malaysia</strong><span class="candidate-fit">吉隆坡與柔佛寄宿/走讀國際校，適合亞洲成本比較。</span><small>Boarding · Johor · KL</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/thailand/"><span class="candidate-city"><i>🇹🇭</i> TH</span><strong>泰國 Thailand</strong><span class="candidate-fit">曼谷、春武里、英式國際校與親子短住路線。</span><small>Bangkok · Boarding · Early years</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/united-states/"><span class="candidate-city"><i>🇺🇸</i> US</span><strong>美國 United States</strong><span class="candidate-fit">東岸寄宿、college-prep、Harkness / liberal arts 與高年級申請節奏。</span><small>Boarding · Prep · Grade 9-12</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/canada/"><span class="candidate-city"><i>🇨🇦</i> CA</span><strong>加拿大 Canada</strong><span class="candidate-fit">安省、BC、寄宿/走讀、IB 與北美大學銜接。</span><small>Ontario · BC · Boarding</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/new-zealand/"><span class="candidate-city"><i>🇳🇿</i> NZ</span><strong>新西蘭 New Zealand</strong><span class="candidate-fit">奧克蘭、基督城、寄宿、NCEA / IB 與安全生活節奏。</span><small>Auckland · Boarding · NCEA</small></a>
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/europe/"><span class="candidate-city"><i>🇪🇺</i> EU</span><strong>歐洲 Europe</strong><span class="candidate-fit">瑞士、北歐、西歐、中歐、南歐、東歐私校分區入口。</span><small>Nordic · West · Central · South · East</small></a>
-            </div>
-          </section>
-
-          <section id="private-school-systems">
-            <h2 class="zh-herald-section-head" data-num="02">課程體系怎麼分</h2>
-            <div class="service-route-list">
-              <a href="/international-curriculum-tutoring/"><span>IB</span><strong>IB PYP / MYP / DP</strong><em>重視 inquiry、subject groups、CAS/EE/TOK 與全球大學出口。</em></a>
-              <a href="/international-curriculum-tutoring/"><span>US</span><strong>美式高中 / AP</strong><em>核對 high school diploma、credits、AP subjects、SAT/ACT 與 counsellor support。</em></a>
-              <a href="/international-curriculum-tutoring/"><span>UK</span><strong>IGCSE / A-Level</strong><em>適合後續英澳申請，但需看科目組合與 sixth form 入口。</em></a>
-              <a href="/zh/private-school-alliance/vietnam/"><span>Bilingual</span><strong>雙語 / 本地融合</strong><em>看清英文比例、本地文憑、轉學風險與大學申請出口。</em></a>
-            </div>
-          </section>
-
-          <section id="private-school-years">
-            <h2 class="zh-herald-section-head" data-num="03">年級入口與院校樣本</h2>
-            <div class="private-school-candidate-list">
-              <a class="private-school-candidate-record" href="/zh/private-school-alliance/vietnam/the-dewey-schools/"><span class="candidate-city">Vietnam · Hanoi / Hai Phong</span><strong>The Dewey Schools</strong><span class="candidate-fit">官網顯示 Edufit K-12 school system、CIS member school、IB international school、AP program 與 Mount Vernon School partner school 等信息。</span><small>Sample provider page · campus / curriculum / year-group check</small></a>
-              <a class="private-school-candidate-record" href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><span class="candidate-city">留學導報</span><strong>越南國際校為什麼值得放進亞洲低齡留學比較？</strong><span class="candidate-fit">用 The Dewey Schools 作案例，介紹 K-12、美式/IB/雙語路線、家長應核對的校區與畢業出口。</span><small>Article · route explanation · family reading guide</small></a>
-            </div>
-          </section>
-        </main>
-
-        <aside class="service-guide-side service-herald-side private-school-home-side" id="private-school-care">
-          <div class="otc-quick-consult">
-            <div class="consult-qr-side">
-              <img src="/ai-business-studio/wechat-overseasus-qr.png" alt="WeChat QR" class="qr-img">
-              <span class="qr-tip">微信掃碼諮詢</span>
-            </div>
-            <div class="consult-form-side">
-              <div class="consult-contact-info">
-                <p><strong>WhatsApp:</strong> 400-8244-7990</p>
-                <p><strong>Email:</strong> office@overseasuk.com</p>
-              </div>
-              <div class="input-row">
-                <input type="text" placeholder="姓名" class="consult-input">
-                <input type="text" placeholder="WeChat / 電話" class="consult-input">
-              </div>
-              <a class="consult-submit-btn" href="mailto:office@overseasuk.com?subject=Private%20school%20quick%20consultation">預約諮詢</a>
-            </div>
-          </div>
-          <div class="private-school-side-ledger">
-            <span>家庭初篩</span>
-            <strong>先交一頁資料</strong>
-            <p>學生年級、英文水平、目前課程、目標國家、是否陪讀、住宿偏好、預算範圍與轉入時間。</p>
-            <a href="mailto:office@overseasuk.com?subject=Private%20School%20Alliance%20Family%20Screening">提交初篩 →</a>
-          </div>
-          <div class="private-school-side-ledger">
-            <span>官方核對</span>
-            <strong>校區、課程、文憑</strong>
-            <p>IB/AP/CIS/美國文憑/合作學校等標識必須按校區、年級和當年官方文件核對。</p>
-            <a href="/zh/private-school-alliance/vietnam/">看越南樣本 →</a>
-          </div>
-          <div class="private-school-tag-cloud">
-            <span>熱門標籤</span>
-            <a href="#private-school-countries">#低齡留學</a>
-            <a href="#private-school-systems">#IB</a>
-            <a href="#private-school-systems">#AP</a>
-            <a href="#private-school-care">#寄宿</a>
-            <a href="/zh/summer-school-alliance/">#暑校試讀</a>
-            <a href="/international-curriculum-tutoring/">#英文銜接</a>
-            <a href="/zh/private-school-alliance/europe/">#歐洲私校</a>
-            <a href="/zh/private-school-alliance/singapore/">#雙語幼兒園</a>
-          </div>
-          <div class="private-school-micro-form">
-            <span>按需選校</span>
-            <p>把年級、英文、意向國家、住宿偏好四項發來，先做免費初篩。</p>
-            <a class="private-school-demand-button" href="mailto:office@overseasuk.com?subject=Private%20school%20quick%20screening&body=學生年級：%0A英文水平：%0A意向國家：%0A住宿/陪讀：%0A聯絡方式：">獲取一對一需求 →</a>
-          </div>
-          <div class="sidebar-webinars">
-            <span>近期網路講座</span>
-            <a href="mailto:office@overseasuk.com?subject=AP%20admission%20webinar">[Mar 15] AP 錄取準備講座 | 立即預約 →</a>
-            <a href="mailto:office@overseasuk.com?subject=IB%20course%20strategy%20webinar">[Apr 2] IB 選課策略分析 | 立即預約 →</a>
-          </div>
-          <div class="sidebar-pop-schools">
-            <span>熱門學校推薦</span>
-            <a href="/zh/private-school-alliance/united-kingdom/"><b>🇬🇧</b><strong>UK Schools</strong><em>A-Level / IB 專注</em></a>
-            <a href="/zh/private-school-alliance/united-states/"><b>🇺🇸</b><strong>US Prep</strong><em>College-prep 專注</em></a>
-            <a href="/zh/private-school-alliance/australia/"><b>🇦🇺</b><strong>AU/NZ Schools</strong><em>Boarding / NCEA 專注</em></a>
-            <a href="/zh/private-school-alliance/canada/"><b>🇨🇦</b><strong>Canada Schools</strong><em>IB / Ontario / BC 專注</em></a>
-          </div>
-          <div class="otc-success-box">
-            <h3 class="success-title">成功案例與升學參考</h3>
-            <p class="success-subtitle">Selected progression references</p>
-            <div class="university-dense-grid">
-              <span>Oxford</span><span>Cambridge</span><span>Imperial</span><span>UCL</span>
-              <span>LSE</span><span>Edinburgh</span><span>King's</span><span>Manchester</span>
-              <span>Bristol</span><span>Glasgow</span><span>Warwick</span><span>Southampton</span>
-              <span>Harvard</span><span>MIT</span><span>Stanford</span><span>UC Berkeley</span>
-              <span>Columbia</span><span>UCLA</span><span>UPenn</span><span>Cornell</span>
-              <span>NYU</span><span>UMich</span><span>UW-Madison</span><span>UT Austin</span>
-              <span>USYD</span><span>Unimelb</span><span>ANU</span><span>UQ</span>
-              <span>UofT</span><span>McGill</span><span>UBC</span><span>Waterloo</span>
-            </div>
-            <div class="abbey-case-content">
-              <h4>#AbbeyCollegeCambridge #阿貝劍橋中學</h4>
-              <p><strong>又是一年畢業季！</strong> 2026 屆畢業生的畢業典禮在學校隔壁的劍橋大學 Homerton College 禮堂進行。</p>
-              <p>校長 Ellen 寄語：同學們積極融入國際化學習，收穫知識與同理心，主動營造以支持、尊重和歸屬感為基礎的校園環境。</p>
-            </div>
-            <a href="/zh/insights/" class="success-cta-link">OTC 學員獲 UC Berkeley 錄取！| 詳細閱讀 →</a>
-          </div>
-          <div class="nav-box">
-            <div class="private-school-side-linknet">
-              <span>國家篩選</span>
-              <a href="/zh/private-school-alliance/vietnam/">越南</a>
-              <a href="/zh/private-school-alliance/thailand/">泰國</a>
-              <a href="/zh/private-school-alliance/singapore/">新加坡</a>
-              <a href="/zh/private-school-alliance/malaysia/">馬來西亞</a>
-              <a href="/zh/private-school-alliance/australia/">澳洲</a>
-              <a href="/zh/private-school-alliance/new-zealand/">新西蘭</a>
-              <a href="/zh/private-school-alliance/united-kingdom/">英國</a>
-              <a href="/zh/private-school-alliance/canada/">加拿大</a>
-              <a href="/zh/private-school-alliance/united-states/">美國</a>
-              <a href="/zh/private-school-alliance/europe/">歐洲</a>
-            </div>
-            <div class="private-school-side-linknet">
-              <span>網頁導航</span>
-              <a href="#private-school-countries">國家城市</a>
-              <a href="#private-school-systems">課程體系</a>
-              <a href="#private-school-years">年級出口</a>
-              <a href="/zh/services/">服務導覽</a>
-              <a href="/zh/study-planning/">留學規劃</a>
-            </div>
-            <div class="private-school-side-linknet">
-              <span>校內文庫</span>
-              <a href="/zh/summer-school-alliance/">暑校聯盟</a>
-              <a href="/international-curriculum-tutoring/">課程銜接</a>
-              <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">Dewey 導報</a>
-              <a href="/zh/insights/">留學導報</a>
-            </div>
-          </div>
-        </aside>
-      </div>
-      <p class="source-note">私校聯盟頁面為 OTC 公開教育資訊與初步分流頁，不代表已簽署正式代理授權、保證錄取、保證簽證或完整院校名單。所有入學、費用、課程、認證與畢業結果均以學校官方最新文件為準。</p>
-    </section>
-  `
-});
-
-const vietnamPrivateSchoolAlliance = pageShell({
-  title: "海外督導｜私校聯盟｜越南 | OTC Study Hub",
-  current: "zh",
-  lang: "zh-Hant",
-  locale: "zh",
-  path: "/zh/private-school-alliance/vietnam/",
-  image: "/assets/social/herald-zh-vietnam-the-dewey-schools-private-school-alliance-2026.png?v=20260531-vietnam",
-  imageWidth: 1200,
-  imageHeight: 630,
-  imageAlt: "海外督導私校聯盟越南 The Dewey Schools 分享報頭",
-  description: "海外督導私校聯盟越南頁：The Dewey Schools 河內美式/IB 國際校資料、校區、課程體系、官方連結、家庭初篩與導報文章入口。",
-  body: `
-    <section class="page-hero services-hero private-school-hero">
-      <div class="band">
-        <div class="service-hero-layout">
-          <div>
-            <div class="eyebrow">Vietnam Private School Alliance</div>
-            <h1>海外督導｜私校聯盟｜越南</h1>
-            <h2>Hanoi · K-12 · American / IB / Bilingual Route</h2>
-            <p class="hero-sub">越南線適合正在比較亞洲國際校、低齡陪讀、英語浸潤、美式高中/IB/雙語路線的家庭。The Dewey Schools 是第一個公開樣本：先讀官網資料，再由 OTC 協助家庭整理校區、課程、年級與照護問題清單。</p>
-            <div class="actions private-school-vietnam-actions">
-              <a class="btn btn-primary" href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener">院校官方網站</a>
-              <a class="btn btn-secondary" href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/">閱讀導報介紹</a>
-              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=The%20Dewey%20Schools%20Vietnam%20private%20school%20enquiry%20via%20OTC">通過 OTC 初步諮詢</a>
-            </div>
-          </div>
-          <aside class="service-hero-panel">
-            <a href="/zh/private-school-alliance/"><strong>私校總頁</strong><span>K-12 家庭決策台</span></a>
-            <a href="#vietnam-school-campus"><strong>校區官網</strong><span>Dewey 官方資料</span></a>
-            <a href="#vietnam-curriculum-routes"><strong>課程路線</strong><span>IB / AP / 美式 / 雙語</span></a>
-            <a href="#vietnam-family-fit"><strong>家庭初篩</strong><span>年級、英文、照護</span></a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="band service-review-strip private-school-strip">
-      <a href="#vietnam-school-campus"><b>LOC</b><strong>河內 / 海防</strong><span>校區、通勤、生活圈與家庭陪讀可行性</span></a>
-      <a href="#vietnam-curriculum-routes"><b>SYS</b><strong>IB / AP / 美式</strong><span>課程體系、畢業文憑與英文比例分開核對</span></a>
-      <a href="#vietnam-family-fit"><b>YR</b><strong>K-12 年級</strong><span>小學、初中、高中轉入與畢業出口風險</span></a>
-      <a href="#vietnam-care-notes"><b>CARE</b><strong>照護安排</strong><span>走讀、校車、陪讀、緊急聯絡與醫療支持</span></a>
-    </section>
-
-    <section class="band compact-band service-review-body">
-      <div class="section-head compact-head service-review-head">
-        <span>聯盟導航與快訊</span>
-        <strong>Vietnam Private School Alliance</strong>
-        <p>適合正在比較亞洲國際學校、低齡陪讀、英語浸潤、美式高中 / IB / 雙語路線的家庭。首發樣本為 The Dewey Schools：先讀官網資料，再由 OTC 協助整理校區、課程、年級與照護問題清單。</p>
-      </div>
-      <div class="service-herald-grid">
-        <main class="service-herald-main">
-          <section id="vietnam-school-campus">
-            <h2 class="zh-herald-section-head" data-num="01">核心院校詳情：The Dewey Schools</h2>
-            <div class="service-situation-grid private-school-region-desk vietnam-school-record-grid">
-              <a href="https://thedeweyschools.edu.vn/en/" target="_blank" rel="noopener"><b>Official</b><strong>The Dewey Schools</strong><span>官網入口，先核對最新招生、學費、校區與課程。</span></a>
-              <a href="https://thedeweyschools.edu.vn/en/cp/dewey-tay-ho-tay/" target="_blank" rel="noopener"><b>Tay Ho Tay</b><strong>Dewey Tay Ho Tay</strong><span>官網校區頁顯示 IB international school、CIS member 與 Mount Vernon partner 信息。</span></a>
-              <a href="https://thedeweyschools.edu.vn/en/contact-us/" target="_blank" rel="noopener"><b>Contact</b><strong>聯絡與校區選擇</strong><span>校方表格可選 Tay Ho Tay、Cau Giay、Ocean Park、Hai Phong 等校區。</span></a>
-              <a href="/zh/insights/vietnam-the-dewey-schools-private-school-alliance-2026/"><b>Herald</b><strong>導報介紹</strong><span>用中文讀法整理學校亮點、適合家庭與核對問題。</span></a>
-            </div>
-            <div class="article-service-table private-school-compact-table">
-              <table>
-                <thead><tr><th>項目</th><th>官方資料核對口徑</th></tr></thead>
-                <tbody>
-                  <tr><td>校區分佈</td><td>以 Hanoi / Hai Phong 等官網列明校區為基礎，逐一核對目標年級、通勤與家庭生活圈。</td></tr>
-                  <tr><td>學制年級</td><td>K-12 全學段公開樣本；實際可轉入年級、名額與入學要求以學校當期文件為準。</td></tr>
-                  <tr><td>課程路線</td><td>美式高中路線、IB 國際文憑、AP 與雙語路線須分開核對，不能合併理解為單一「國際校」。</td></tr>
-                  <tr><td>照護與陪讀</td><td>低齡照護、英語浸潤、校車、家長陪讀與緊急聯絡安排，需要按校區與家庭狀況逐項確認。</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-          <section id="vietnam-curriculum-routes">
+          <span>專業顧問為你梳理方…5920 tokens truncated…">
             <h2 class="zh-herald-section-head" data-num="02">雙語選校腳手架</h2>
             <div class="article-service-table private-school-compact-table">
               <table>
@@ -29983,6 +28568,9 @@ function canadaProgrammesPage() {
     { id: "leadership-future", code: "03", title: "Leadership / Future Route", description: "適合 future major、career story 與高年級敘事。" },
     { id: "north-america-planning", code: "04", title: "North America Planning", description: "適合把暑期經歷接回中學、本科與長線規劃。" }
   ];
+Warning: truncated output (original token count: 73358)
+Total output lines: 3000
+
 
   const inferProjectMeta = (project) => {
     const merged = project.join(" ");
@@ -31774,66 +30362,7 @@ const australiaOfficePresenceZh = pageShell({
             <details class="map-pin pin-act"><summary><span>ACT</span></summary><div class="map-popover"><button type="button" aria-label="關閉 ACT">關閉</button><h3>Australian Capital Territory</h3><p>首都區路線適合政策、公共管理、研究型課程及 Canberra 學校系統初步篩查。</p><ul><li><strong>Australian National University</strong><span>高選擇性本科、研究生與研究型方向申請評估。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>University of Canberra</strong><span>教育、健康、公共管理、傳媒與職業導向課程。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>ACT Public Schools</strong><span>公立中小學、year level placement 與家庭安置路線初篩。</span><a href="mailto:office@overseasuk.com?subject=ACT%20School%20Screening">免費學校初篩</a></li></ul></div></details>
             <details class="map-pin pin-qld"><summary><span>QLD</span></summary><div class="map-popover"><button type="button" aria-label="關閉 QLD">關閉</button><h3>Queensland</h3><p>昆州路線覆蓋 Brisbane、Gold Coast 及 regional Queensland 的大學、pathway、VET/TAFE 和中小學選項。</p><ul><li><strong>University of Queensland</strong><span>研究型大學課程、商科、工程、生命科學與 pathway screening。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>Griffith University</strong><span>Gold Coast / Brisbane 校區、商科、酒店、健康與創意課程。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>CQUniversity Australia</strong><span>多校區、職業導向、regional option 與 pathway planning。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>The Rockhampton Grammar School</strong><span>Central Queensland 寄宿學校路線，重點在 Years 7-12 accommodation 及區域型澳洲學習環境。</span><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></li><li><strong>Moreton Bay Colleges</strong><span>Brisbane 男校/女校組合，涵蓋 PSP、HSP、PYP 和 school-managed homestay options。</span><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></li><li><strong>Groves Christian College</strong><span>私立中小學路線與家庭教育規劃初步篩查。</span><a href="mailto:office@overseasuk.com?subject=Queensland%20School%20Screening">免費學校初篩</a></li></ul></div></details>
             <details class="map-pin pin-nt"><summary><span>NT</span></summary><div class="map-popover"><button type="button" aria-label="關閉 NT">關閉</button><h3>Northern Territory</h3><p>北領地路線以 Darwin、Study NT 培訓、CDU 大學/TAFE 雙重體系及區域型澳洲學習目的地為核心。</p><ul><li><strong>Charles Darwin University</strong><span>Darwin 為核心的 dual-sector university，覆蓋本科、碩士、研究型、TAFE packages、CDU International College 與 regional Australia planning。</span><a href="/zh/australia-universities/charles-darwin-university/">查看 CDU 資料頁</a><a href="/university-applications/?country=Australia&state=NT&institution=Charles%20Darwin%20University#otc-apply-form">透過 OTC 申請</a></li><li><strong>Study NT agent training</strong><span>OTC 已完成 Study NT agent training，作為北領地路線準備度記錄；這不等於正式 CDU 代理授權。</span><a href="/zh/insights/study-nt-agent-training-certificate-otc-australia-meaning/">閱讀證書解讀</a></li></ul></div></details>
-            <details class="map-pin pin-wa"><summary><span>WA</span></summary><div class="map-popover"><button type="button" aria-label="關閉 WA">關閉</button><h3>Western Australia</h3><p>西澳路線支持 Perth 方向的大學、pathway college、regional mobility 與職業導向選項。</p><ul><li><strong>University of Western Australia / UWA College</strong><span>大學及 pathway progression route 初步評估。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>Curtin University</strong><span>商科、工程、IT、健康及職業連接型課程。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>Murdoch University / Murdoch College</strong><span>pathway、商科、傳媒、教育及環境方向。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>University of Notre Dame Australia</strong><span>健康、教育、法律與人文社科方向初步篩查。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li></ul></div></details>
-            <details class="map-pin pin-sa"><summary><span>SA</span></summary><div class="map-popover"><button type="button" aria-label="關閉 SA">關閉</button><h3>South Australia</h3><p>南澳路線覆蓋 Adelaide 方向大學、pathway college、酒店管理、職業教育及 regional option。</p><ul><li><strong>University of Adelaide</strong><span>研究型大學課程、商科、工程、健康及 STEM 方向。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>KIC Adelaide College</strong><span>pathway preparation 和 foundation / diploma route 初篩。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li><li><strong>International College of Hotel Management</strong><span>酒店、旅遊、商業實務與職業導向課程。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li></ul></div></details>
-            <details class="map-pin pin-tas"><summary><span>TAS</span></summary><div class="map-popover"><button type="button" aria-label="關閉 TAS">關閉</button><h3>Tasmania</h3><p>塔州路線適合 University of Tasmania、regional study、環境、海洋、教育及職業導向課程的初步篩查。</p><ul><li><strong>University of Tasmania</strong><span>Hobart / Launceston options、regional study 和學術/職業路線規劃。</span><a href="/university-applications/#otc-apply-form">透過 OTC 申請</a></li></ul></div></details>
-          </div>
-          <div class="map-index-strip"><span>University</span><span>Pathway</span><span>K-12</span><span>VET / TAFE</span><span>Professional courses</span><span>Public briefings</span></div>
-          <p class="map-note">點擊州份標記可展開院校清單；再次點擊、使用關閉按鈕或點擊其他州份即可收回。公開頁面只作索引展示，具體合作來源與商務條件保存在內部檔案。</p>
-        </div>
-      </div>
-      <div class="australia-intelligence-panel private-intelligence-panel">
-        <article class="intel-feature"><span>Private operations panel</span><strong>申請與合作運作</strong><p>OTC 的私有檔案保存更完整的申請、合作、培訓、平台與合規記錄。這些材料支撐業務盡調與內部決策，但不在公開網站披露。</p><ul><li>portal access、training notes 和 application workflow 記錄</li><li>代表關係、商業條款與合同版本管理</li><li>學生 consent、data handling 和 professional referral notes</li><li>以 case log 方式連接公開院校索引與內部申請檔案</li></ul></article>
-        <div class="intel-list platform-list">
-          <article><b>Direct routes</b><strong>直接院校溝通</strong><p>保留院校招生、國際辦公室、pathway provider 及 Study NSW 類培訓通知。</p></article>
-          <article><b>Channel routes</b><strong>渠道與平台記錄</strong><p>記錄平台入口、培訓材料、代表權限、case submission 和 update history。</p></article>
-          <article><b>Provider routes</b><strong>VET / TAFE 與職業課程</strong><p>整理職業教育、TAFE-to-university progression、英文準備及短課路線。</p></article>
-          <article><b>Professional routes</b><strong>專業轉介網絡</strong><p>移民、法律、稅務、會計、房產及公司設立問題均記錄轉介邊界。</p></article>
-          <article><b>School routes</b><strong>K-12 學校申請</strong><p>按州整理公校、私校、boarding/day school、guardian-adjacent needs 和家庭指示。</p></article>
-          <article><b>Compliance routes</b><strong>合規與文件治理</strong><p>保存 email trail、student instruction、file naming、fee note 及 document checklist。</p></article>
-        </div>
-      </div>
-      <script>
-        (function(){
-          const board = document.querySelector('.cooperation-map-visual');
-          if (!board) return;
-          const pins = Array.from(board.querySelectorAll('details'));
-          pins.forEach((pin) => {
-            pin.addEventListener('toggle', () => {
-              if (!pin.open) return;
-              pins.forEach((other) => { if (other !== pin) other.open = false; });
-            });
-            const close = pin.querySelector('button');
-            if (close) close.addEventListener('click', (event) => { event.preventDefault(); pin.open = false; });
-          });
-        })();
-      </script>
-    </section>
-
-    <section class="spotlight"><div class="band compact-band">
-      <div class="section-head compact-head"><div class="eyebrow">Site Rollout</div><h2>澳洲路線的六個必要站點。</h2><p>本頁區分 OTC 可以直接運作的教育協調工作，以及必須轉介合資格澳洲專業人士處理的事項。</p></div>
-      <div class="australia-office-stations">
-        <article id="nsw-base"><b>01</b><strong>NSW 協調基地</strong><p>悉尼地區地址、本地溝通、預約協調、會議室安排、郵件流程及供應商聯絡。</p><ul><li>保留本地聯絡與往來記錄。</li><li>協調學生、家庭、院校及專業伙伴會議。</li><li>維護澳洲活動日誌。</li></ul></article>
-        <article id="applications"><b>02</b><strong>大學申請路線</strong><p>澳洲院校篩查、課程匹配、intake 時間、英語準備及申請文件規劃。</p><ul><li>先從國別與院校層面篩查，再細化到課程。</li><li>準備文件清單、命名規則及 offer 條件追蹤。</li><li>連接大學申請 portfolio 系統。</li></ul></article>
-        <article id="student-support"><b>03</b><strong>學生支持台</strong><p>支持學生與家庭在申請前、申請中及早期安置階段的實際溝通。</p><ul><li>記錄學生諮詢、家庭指示與下一步。</li><li>協調學術準備、抵達前規劃與本地服務指引。</li><li>將教育支持與移民/法律建議分開。</li></ul></article>
-        <article id="institutional-services"><b>04</b><strong>機構服務</strong><p>雙語文件、翻譯協調、出版聯絡、培訓行政及學術活動支持。</p><ul><li>準備面向機構、出版方及教育伙伴的雙語材料。</li><li>支持培訓包、服務簡介、會議記錄與展示文件。</li><li>需要 certified/legal/notarised 的工作轉介專業人士。</li></ul></article>
-        <article id="market-intelligence"><b>05</b><strong>市場情報</strong><p>澳洲教育更新、agent-channel notes、院校 briefings、公開 insights 及業務發展記錄。</p><ul><li>總結 agent training、portal updates 及院校通信。</li><li>發布合規教育資訊。</li><li>建立澳洲市場需求證據庫。</li></ul></article>
-        <article id="referral"><b>06</b><strong>專業轉介</strong><p>移民、法律、稅務、會計、公司設立及受監管教育事項轉介合資格澳洲專業人士。</p><ul><li>保留轉介記錄、範圍邊界與客戶指示。</li><li>協調註冊移民代理、律師、會計師及合規專家。</li><li>不將 OTC 教育協調表述為受監管專業建議。</li></ul></article>
-      </div>
-    </div></section>
-
-    <section class="band">
-      <div class="nsw-schools-zone" id="nsw-schools">
-        <div class="section-head compact-head"><div class="eyebrow">NSW Schools Briefing Desk</div><h2>澳洲 K-12 中小學申請通道。</h2><p>OTC 正在根據 Study NSW 學校 briefing materials、國際招生更新與 school-specific enquiry records，建立面向學生家庭的新州中小學申請支持台。家庭可在正式申請前先提交免費初步篩查。</p></div>
-        <div class="nsw-schools-briefing"><article><span>Study NSW briefing series</span><strong>2026 新州優質中小學在線培訓會</strong><p>NSW Government / Study NSW 郵件邀請教育中介參加系列培訓，介紹新州中小學、招生條件、費用提示及諮詢聯絡方式。</p></article><article><span>OTC development route</span><strong>學校檔案、家庭諮詢與申請準備</strong><p>OTC 將維護公開學校 profiles、內部 briefing notes、學校聯絡記錄、文件清單及家庭申請指南。正式合作狀態僅在確認後公開表述。</p></article></div>
-        <div class="nsw-school-card-grid nsw-school-series-grid"><article><b>National</b><strong>澳洲教育中介培訓版圖 2026</strong><p>OTC 已向 Queensland、Victoria、Western Australia、South Australia、Northern Territory、Tasmania、ACT 等官方窗口發出培訓與 briefing 加入請求；Study NT training account 已 activated，agent training 已完成，completion certificate 已公開存檔。</p><a href="/zh/insights/australia-agent-training-map-2026/">閱讀培訓版圖</a><a href="/zh/insights/study-nt-agent-training-certificate-otc-australia-meaning/">證書意義解讀</a><a href="/assets/certificates/otc-study-nt-agent-training-certificate-2026.pdf">查看 Study NT 證書</a></article><article><b>Readiness</b><strong>代理 / 代表申請準備度</strong><p>OTC 目前已具備公開澳洲辦公室路線、學校資料審核頁、Study NT 完成證書、院校聯絡記錄與合規邊界說明。這已足以發出初步 representative / agency enquiry；正式代理仍需按各院校書面流程、合規審核與協議條款完成。</p><a href="mailto:office@overseasuk.com?subject=Australia%20Agency%20Request%20Readiness">索取機構資料包</a></article><article><b>Northern Territory</b><strong>Charles Darwin University</strong><p>CDU 已納入 OTC 北領地路線：Darwin 為核心、兼具大學與 TAFE 性質，適合本科、碩士、研究型、職業教育 package 與 regional Australia 規劃。OTC 已取得 CDU Global enquiry reference 260523-000334，正在等待正式代理/代表流程回覆。</p><a href="/zh/australia-universities/charles-darwin-university/">查看 CDU 資料頁</a><a href="/university-applications/?country=Australia&state=NT&institution=Charles%20Darwin%20University#otc-apply-form">開始 CDU 初篩</a></article><article><b>Series 02</b><strong>PLC Pathways</strong><p>Study NSW Greater China training 記錄中的中小學銜接項目，連接 NSW 私立學校選項、pathway planning 及國際學生過渡規劃。</p><a href="/australia-schools/plc-pathways/">查看審核稿</a></article><article><b>Series 03</b><strong>Macarthur Anglican School</strong><p>悉尼西南部私立男女混合學校，郵件材料記錄其 84-acre campus、大悉尼區域位置和國際學生招生介紹。</p><a href="/australia-schools/macarthur-anglican-school/">查看審核稿</a></article><article><b>Series 04</b><strong>Lindisfarne Anglican Grammar School</strong><p>通過 Study NSW 通訊收到 presentation 及 fee schedule 相關材料，可用於家庭初篩、寄宿/地點討論及申請文件規劃。</p><a href="/australia-schools/lindisfarne-anglican-grammar-school/">查看資料頁</a></article><article><b>Series 05</b><strong>The Illawarra Grammar School</strong><p>位於 Wollongong 的 independent co-educational school，2026 年 6 月 10 日 Study NSW briefing 已建立預備審核頁。</p><a href="/australia-schools/the-illawarra-grammar-school/">查看審核稿</a></article><article><b>Queensland</b><strong>Rockhampton Grammar School</strong><p>Central Queensland boarding route，適合比較寄宿制、英語沉浸、地域型教育與澳洲本地社群。</p><a href="/australia-schools/rockhampton-grammar-school/">查看資料頁</a></article><article><b>Queensland</b><strong>Moreton Bay Colleges</strong><p>Brisbane 東區男校/女校路線，涵蓋 PSP/HSP、PYP、QCE/ATAR/VET 與 homestay 支持。</p><a href="/australia-schools/moreton-bay-colleges/">查看資料頁</a></article></div>
-        <div class="nsw-school-apply-panel"><div><span>Free application channel</span><strong>發送一封郵件，開始免費初步審核。</strong><p>請提供學生年齡、目前年級、最新成績單或 school report、英語水平、目標入學時間、寄宿/走讀偏好、預算範圍，以及家庭是否考慮 Sydney、Wollongong、regional NSW 或其他澳洲州份。</p></div><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=Free%20Australia%20K-12%20School%20Application%20Screening">開始免費審核</a></div>
-      </div>
-    </section>
-
-    <section class="band">
-      <div class="section-head compact-head"><div class="eyebrow">Development Record</div><h2>澳洲路線發展檔案與運作支撐。</h2></div>
-      <div class="consulting-levels australia-evidence-cards"><article><strong>辦公室與運作</strong><p>地址證明、本地供應商通信、會議記錄、郵箱日誌與澳洲活動 chronology。</p><span>Operational evidence.</span></article><article><strong>教育代理與院校連接</strong><p>Study NSW 培訓郵件、院校更新、申請 portal 記錄、agent-channel 通訊及學生/申請報告。</p><span>Market evidence.</span></article><article><strong>資格路線出版物</strong><p>公開頁面說明 OTHM-to-Australia qualification interpretation、credit/RPL readiness、pathway screening 及職業資格規劃。</p><span>Public capability evidence.</span></article><article><strong>學生案例記錄</strong><p>學生諮詢、院校篩查、課程 shortlists、文件清單、offer-condition tracking 及家庭溝通記錄。</p><span>Service evidence.</span></article><article><strong>專業轉介記錄</strong><p>轉介郵件、顧問資料、服務範圍 notes 及 OTC 協調與 regulated advice 的邊界。</p><span>Compliance evidence.</span></article></div>
+            <details class="map-pin pin-wa"><summary><span>WA</span></summary><div class="map-popover"><button type="button" aria-label="關閉 WA">關閉</button><h3>Western Australia</h3><p>西澳路線支持 Perth 方向的大學、pathway college、regional mobility 與職業導向選項。</p><ul><li><strong>University of Western Australia / UWA College</strong><span>大學及 pathway progression route 初步評估。</span><a href="/university-applications…3358 tokens truncated…郵件、院校更新、申請 portal 記錄、agent-channel 通訊及學生/申請報告。</p><span>Market evidence.</span></article><article><strong>資格路線出版物</strong><p>公開頁面說明 OTHM-to-Australia qualification interpretation、credit/RPL readiness、pathway screening 及職業資格規劃。</p><span>Public capability evidence.</span></article><article><strong>學生案例記錄</strong><p>學生諮詢、院校篩查、課程 shortlists、文件清單、offer-condition tracking 及家庭溝通記錄。</p><span>Service evidence.</span></article><article><strong>專業轉介記錄</strong><p>轉介郵件、顧問資料、服務範圍 notes 及 OTC 協調與 regulated advice 的邊界。</p><span>Compliance evidence.</span></article></div>
       <div style="height:24px"></div><div class="notice advice-signpost"><strong>合規邊界</strong><p>OTC 提供教育協調、雙語文件、市場進入支持及行政整理；不提供澳洲移民、法律、稅務、金融或受監管教育合規建議。相關事項應由合資格專業人士處理。</p></div>
     </section>
 
@@ -32365,6 +30894,97 @@ function australiaJobSearchCoachingPage(locale = "en") {
 
 const australiaJobSearchCoaching = australiaJobSearchCoachingPage("en");
 const australiaJobSearchCoachingZh = australiaJobSearchCoachingPage("zh");
+
+function franceStudyWorkSettlementSupportPage(locale = "en") {
+  const isZh = locale === "zh";
+  const path = isZh ? "/zh/france-study-work-settlement-support/" : "/france-study-work-settlement-support/";
+  const otherPath = isZh ? "/france-study-work-settlement-support/" : "/zh/france-study-work-settlement-support/";
+  const intakeText = isZh
+    ? "我想做法國升學・就業・定居路線初評。\n目前學校／專業及預計畢業年：\n國籍／護照：\n法語程度及證書：\n目標領域／職位：\n目標城市與年度預算（未定先留空）："
+    : "I would like an initial France study, employment and settlement route review.\nCurrent institution, subject and expected graduation year:\nNationality / passport:\nFrench level and certificate:\nTarget field / roles:\nTarget city and annual budget (leave blank if undecided):";
+  const contactHref = `https://wa.me/447947991572?text=${encodeURIComponent(intakeText)}`;
+  const emailHref = `mailto:office@overseasuk.com?subject=${encodeURIComponent(isZh ? "法國升學・就業・定居路線初評" : "France study, employment and settlement route review")}&body=${encodeURIComponent(intakeText)}`;
+  const modules = isZh ? [
+    ["01", "本科能力建設", "按畢業年份倒排 GPA、數學統計、程式、專業課、project 與實習證據，先建立法國院校及僱主能理解的學術檔案。"],
+    ["02", "法語與英語節奏", "診斷現有程度，將法語學習、證書目標及專業英語放進同一份年度計畫；語言目標按課程與職位要求核定。"],
+    ["03", "交換／碩士銜接", "比較交換、英文授課或法語授課課程、相關碩士與替代路線，逐項核對課程、入學及文件要求。"],
+    ["04", "實習與求職檔案", "建立法英版本履歷、LinkedIn、project evidence bank、職位關鍵詞、公司清單與每週執行表。"],
+    ["05", "在法求職執行", "按目標行業迅速進行職位研究、networking、申請、面試訓練及回覆數據檢視，持續調整入口。"],
+    ["06", "身份節點核對", "按當期 France-Visas、Service-Public 與院校官方資料建立核對點；涉及個案移民判斷時轉介合資格專業人士。"],
+    ["07", "落地與長線跟進", "整理住宿、銀行、保險、入職文件、行政節點與續期提醒；每一步保留官方依據及待辦紀錄。"]
+  ] : [
+    ["01", "Undergraduate capability", "Work backwards from graduation to strengthen grades, quantitative modules, coding, projects, internships and evidence that French institutions and employers can assess."],
+    ["02", "French and English plan", "Diagnose the starting level and place French study, certificate targets and professional English on one annual plan, then confirm targets against real course and role requirements."],
+    ["03", "Exchange or master's route", "Compare exchanges, English- or French-taught programmes, relevant master's degrees and alternatives, checking programme, entry and document requirements one by one."],
+    ["04", "Internship and application file", "Build French and English CVs, LinkedIn, a project evidence bank, role keywords, employer lists and a weekly execution tracker."],
+    ["05", "France job-search execution", "Run role research, networking, applications, interview practice and conversion reviews around the target sector, then adjust the entry route with evidence."],
+    ["06", "Residence checkpoints", "Maintain checkpoints against current France-Visas, Service-Public and institution guidance; refer case-specific immigration advice to a qualified professional."],
+    ["07", "Landing and long-term follow-up", "Organise accommodation, banking, insurance, onboarding documents, administrative steps and renewal reminders with an official source and action owner for each item."]
+  ];
+  const steps = isZh ? [
+    ["01", "背景盤點", "確認學歷、畢業年、護照、語言、經歷與長線目標。"],
+    ["02", "三線建圖", "同步建立升學、能力與身份節點圖，不先把城市定死。"],
+    ["03", "年度方案", "把語言、課程、project、實習與申請任務排入學年。"],
+    ["04", "季度執行", "每季核對完成度、官方變更及下一輪材料。"],
+    ["05", "赴法準備", "完成課程選擇、申請、預算、住宿與文件清單。"],
+    ["06", "在法轉化", "銜接實習、求職、僱主文件及合規居留核對。"]
+  ] : [
+    ["01", "Profile review", "Confirm education, graduation year, passport, languages, experience and long-term goal."],
+    ["02", "Three-track map", "Map study, capability and residence checkpoints together without fixing a city too early."],
+    ["03", "Annual plan", "Schedule language, modules, projects, internships and applications across the academic year."],
+    ["04", "Quarterly execution", "Review delivery, official changes and the next evidence cycle each quarter."],
+    ["05", "France preparation", "Complete programme choices, applications, budget, accommodation and document checklists."],
+    ["06", "In-France conversion", "Connect internships and job search with employer documents and compliant residence checks."]
+  ];
+  const intake = isZh
+    ? ["目前學校、專業與年級", "預計畢業年份", "國籍與所持護照", "目前法語程度及證書", "英語程度及證書", "GPA／均分與核心課程", "project、實習與工作經歷", "目標領域與三個職位", "交換／碩士方向", "目標城市（未定先留空）", "年度預算（未定先留空）", "希望開始陪跑的時間"]
+    : ["Current institution, subject and year", "Expected graduation year", "Nationality and passport", "Current French level and certificate", "English level and certificate", "GPA and core modules", "Projects, internships and work", "Target field and three roles", "Exchange or master's direction", "Target city (blank if undecided)", "Annual budget (blank if undecided)", "When support should begin"];
+  return pageShell({
+    title: isZh ? "法國升學・就業・定居陪跑 | 海外督導 OTC" : "France Study, Employment & Settlement Support | OTC",
+    current: "services",
+    locale: isZh ? "zh" : "en",
+    lang: isZh ? "zh-Hant" : "en",
+    path,
+    alternatePath: otherPath,
+    bodyClass: "career-coaching-page",
+    description: isZh
+      ? "海外督導 OTC 法國升學、語言、實習、求職及長線定居陪跑：從本科能力建設到交換／碩士、在法實習與就業，再到合規居留節點核對。"
+      : "OTC France study, language, internship, employment and long-term settlement support: from undergraduate capability and postgraduate planning to job-search execution and official residence checkpoints.",
+    body: `
+      <section class="career-hero">
+        <div class="band career-hero-grid">
+          <div class="career-hero-copy">
+            <div class="career-kicker">OTC France · Study-to-Career Desk</div>
+            <h1>${isZh ? "把「想留在法國」<br>拆成現在就能執行的準備。" : "Turn ‘I want to stay in France’<br>into work that starts now."}</h1>
+            <p>${isZh ? "從本科能力、法語、交換或碩士，到實習、求職與合規居留節點，海外督導將建立跨年度任務表並持續跟進，不用現在就決定城市或假定結果。" : "From undergraduate capability, French and postgraduate options to internships, job search and compliant residence checkpoints, OTC builds and follows a multi-year action plan without forcing a city decision or assuming an outcome."}</p>
+            <div class="career-hero-actions"><a class="career-primary" href="${contactHref}" target="_blank" rel="noopener">${isZh ? "立即提交，迅速進行初評" : "Start the initial review"}</a><a class="career-secondary" href="#service-map">${isZh ? "查看陪跑模組" : "View the support modules"}</a><a class="career-secondary" href="/countries/france/">${isZh ? "法國留學入口" : "France study gateway"}</a></div>
+            <div class="career-proofline"><span>${isZh ? "在校生及畢業生" : "Students and graduates"}</span><span>${isZh ? "跨年度陪跑" : "Multi-year support"}</span><span>${isZh ? "不承諾簽證、錄用或永居" : "No visa, job or permanent-residence guarantee"}</span></div>
+          </div>
+          <aside class="career-radar" aria-label="${isZh ? "法國升學就業路線圖" : "France study-to-career route"}">
+            <div class="career-radar-orbit orbit-one"></div><div class="career-radar-orbit orbit-two"></div><div class="career-radar-orbit orbit-three"></div>
+            <span class="career-radar-core">OTC<small>${isZh ? "法國陪跑" : "France desk"}</small></span>
+            <span class="career-radar-node node-rights"><b>01</b>${isZh ? "本科" : "Degree"}</span><span class="career-radar-node node-file"><b>02</b>${isZh ? "法語" : "French"}</span><span class="career-radar-node node-market"><b>04</b>${isZh ? "實習" : "Internship"}</span><span class="career-radar-node node-interview"><b>05</b>${isZh ? "就業" : "Career"}</span><span class="career-radar-node node-landing"><b>07</b>${isZh ? "長線" : "Long term"}</span>
+          </aside>
+        </div>
+      </section>
+      <section class="band career-signal-strip">
+        <div><b>01</b><strong>${isZh ? "先建能力，不先押城市" : "Build capability before fixing a city"}</strong><span>${isZh ? "課程、語言、project 與實習先形成證據。" : "Turn modules, language, projects and internships into evidence."}</span></div>
+        <div><b>02</b><strong>${isZh ? "升學與就業同步倒排" : "Plan study and employment together"}</strong><span>${isZh ? "從畢業與入職時間反推每學期任務。" : "Work backwards from graduation and target entry dates."}</span></div>
+        <div><b>03</b><strong>${isZh ? "用官方規則設檢查點" : "Use official-rule checkpoints"}</strong><span>${isZh ? "身份事項不靠口號或成功保證。" : "Residence questions are not reduced to slogans or guarantees."}</span></div>
+        <div><b>04</b><strong>${isZh ? "海外督導跨時區跟進" : "Cross-time-zone supervision"}</strong><span>${isZh ? "英國團隊統籌，澳洲辦事處支援海外執行方法。" : "Led by the UK team with overseas execution support from the Australia office."}</span></div>
+      </section>
+      <section class="career-navy-section" id="service-map"><div class="band compact-band career-service-layout"><div class="career-section-head is-light"><span>${isZh ? "陪跑模組" : "Support modules"}</span><h2>${isZh ? "七個模組，按畢業年份組合。" : "Seven modules, sequenced around graduation."}</h2><p>${isZh ? "未確定城市或預算不影響首輪建圖；後續將在方案逐步清晰時比較。" : "An undecided city or budget does not block the first map; both are compared as the route becomes clearer."}</p></div><div class="career-module-list">${modules.map(([num,title,text]) => `<article><b>${num}</b><strong>${title}</strong><p>${text}</p></article>`).join("")}</div></div></section>
+      <section class="band compact-band career-journey-section"><div class="career-section-head"><span>${isZh ? "工作流程" : "Working journey"}</span><h2>${isZh ? "從現在到在法就業，六步推進。" : "Six stages from today to in-France employment."}</h2></div><div class="career-timeline">${steps.map(([num,title,text]) => `<article><b>${num}</b><strong>${title}</strong><p>${text}</p></article>`).join("")}</div></section>
+      <section class="career-paper-section"><div class="band compact-band"><div class="career-section-head"><span>${isZh ? "服務範圍" : "Scope"}</span><h2>${isZh ? "先免費初評，再書面確認陪跑。" : "Start with free triage, then confirm support in writing."}</h2><p>${isZh ? "正式服務將列明期間、會議頻率、交付文件、溝通方式、費用與取消規則；院校、考試、翻譯、公證、簽證、保險、住宿及交通等第三方費用另計並先確認。" : "The paid scope sets the period, meeting cadence, deliverables, communication, fees and cancellation terms in writing. Institution, test, translation, certification, visa, insurance, housing and travel costs remain third-party charges confirmed separately."}</p></div><div class="career-package-grid"><article><span>${isZh ? "起點" : "Start"}</span><strong>${isZh ? "免費初步分流" : "Free initial triage"}</strong><p>${isZh ? "整理背景、時間與首要缺口，核定第一階段任務。" : "Organise the profile, timing and first gaps, then define stage one."}</p><a href="${contactHref}">${isZh ? "開始初評" : "Start review"} →</a></article><article><span>${isZh ? "年度" : "Annual"}</span><strong>${isZh ? "學年能力方案" : "Academic-year capability plan"}</strong><p>${isZh ? "語言、課程、project、實習與申請節點總表。" : "One plan for language, modules, projects, internships and applications."}</p><a href="${contactHref}">${isZh ? "建立方案" : "Build the plan"} →</a></article><article class="is-featured"><span>${isZh ? "陪跑" : "Coach"}</span><strong>${isZh ? "跨年度執行陪跑" : "Multi-year execution support"}</strong><p>${isZh ? "定期檢視、文件更新、任務追蹤與路線調整。" : "Scheduled reviews, file updates, task tracking and route adjustments."}</p><a href="${contactHref}">${isZh ? "啟動陪跑" : "Start support"} →</a></article><article><span>${isZh ? "在法" : "France"}</span><strong>${isZh ? "實習求職與落地" : "Internship, employment and landing"}</strong><p>${isZh ? "職位研究、申請、面試、行政清單與專業轉介。" : "Role research, applications, interviews, administration and referrals."}</p><a href="${contactHref}">${isZh ? "安排銜接" : "Plan the transition"} →</a></article></div></div></section>
+      <section class="band compact-band career-intake-section"><div class="career-intake-copy"><span>${isZh ? "初評清單" : "Intake checklist"}</span><h2>${isZh ? "先提交 12 項背景，我們將迅速進行第一輪建圖。" : "Share 12 facts and we will promptly build the first route map."}</h2><p>${isZh ? "未確定的城市與預算先留空；首次不傳護照掃描、銀行資料或驗證碼。" : "Leave an undecided city or budget blank. Do not send passport scans, banking details or verification codes at first contact."}</p><a class="career-primary" href="${emailHref}">${isZh ? "電郵提交背景" : "Send the intake by email"}</a></div><ol class="career-intake-list">${intake.map((item,index)=>`<li><b>${String(index+1).padStart(2,"0")}</b><span>${item}</span></li>`).join("")}</ol></section>
+      <section class="band compact-band career-resources-section"><div class="career-section-head"><span>${isZh ? "官方入口" : "Official sources"}</span><h2>${isZh ? "會變動的規則，逐次回到法國官方核對。" : "Recheck changing rules at their French official source."}</h2></div><div class="career-resource-grid"><a href="https://www.campusfrance.org/" target="_blank" rel="noopener"><b>Campus France</b><strong>${isZh ? "院校與國際學生資訊" : "Institutions and international students"}</strong><span>campusfrance.org ↗</span></a><a href="https://www.france-visas.gouv.fr/" target="_blank" rel="noopener"><b>France-Visas</b><strong>${isZh ? "簽證官方入口" : "Official visa portal"}</strong><span>france-visas.gouv.fr ↗</span></a><a href="https://www.service-public.fr/particuliers/vosdroits/F17319" target="_blank" rel="noopener"><b>Service-Public</b><strong>${isZh ? "畢業後求職／創業居留" : "Post-study job-search / business status"}</strong><span>service-public.fr ↗</span></a><a href="https://www.welcometofrance.com/" target="_blank" rel="noopener"><b>Welcome to France</b><strong>${isZh ? "國際人才與僱主資訊" : "International talent and employer guidance"}</strong><span>welcometofrance.com ↗</span></a></div><div class="career-boundary"><strong>${isZh ? "服務邊界" : "Service boundary"}</strong><p>${isZh ? "OTC 提供教育規劃、語言與求職準備、文件整理、任務管理及跨時區協調；不保證錄取、實習、錄用、僱主擔保、簽證、續期、入籍或永久居留。移民、法律、稅務、勞動爭議及受監管職業事項將交由官方機構或合資格專業人士處理。" : "OTC provides education planning, language and job-search preparation, file organisation, task management and cross-time-zone coordination. We do not guarantee admission, an internship, employment, sponsorship, a visa, renewal, citizenship or permanent residence. Immigration, legal, tax, employment-dispute and regulated-profession matters are handled by the relevant authority or a qualified professional."}</p></div></section>
+      <section class="career-final-cta"><div class="band"><div><span>Overseas Tutorial Centre · France Study-to-Career</span><h2>${isZh ? "先把起點說清楚，我們將迅速排出第一年任務。" : "Clarify the starting point and we will map the first year."}</h2><p>Email: office@overseasuk.com · WhatsApp: +44 7947 991572 · WeChat: overseasus</p></div><div><a class="career-gold" href="${contactHref}" target="_blank" rel="noopener">${isZh ? "立即開始初評" : "Start the review"}</a><a class="career-language" href="${otherPath}">${isZh ? "English version" : "中文版"}</a></div></div></section>
+    `
+  });
+}
+
+const franceStudyWorkSettlementSupport = franceStudyWorkSettlementSupportPage("en");
+const franceStudyWorkSettlementSupportZh = franceStudyWorkSettlementSupportPage("zh");
 
 const australiaVetTafePathways = pageShell({
   title: "Australia VET / TAFE Pathways | OTC Study Hub",
@@ -34237,6 +32857,26 @@ if (process.env.OTC_ICELAND_ONLY === "1") {
   process.exit(0);
 }
 
+if (process.argv.includes("--france-service-only")) {
+  write("france-study-work-settlement-support", franceStudyWorkSettlementSupport);
+  write("zh/france-study-work-settlement-support", franceStudyWorkSettlementSupportZh);
+  write("services", services);
+  write("zh/services", servicesZh.replace("</main>", "<div class=\"band\"><p><a href=\"/zh/services/europe-exchange-support/\"><strong>歐洲交換陪跑 →</strong> 決策、選課、學分與均分核對，以及交換與升碩銜接。</a></p></div>" + "</main>"));
+  write("search", search);
+  const sitemapPath = path.join(root, "sitemap.xml");
+  const existingSitemap = fs.readFileSync(sitemapPath, "utf8");
+  const additions = [
+    "/france-study-work-settlement-support/",
+    "/zh/france-study-work-settlement-support/"
+  ].filter((publicPath) => !existingSitemap.includes(`<loc>${new URL(publicPath, SITE_URL).toString()}</loc>`));
+  if (additions.length) {
+    const nodes = additions.map((publicPath) => `  <url><loc>${new URL(publicPath, SITE_URL).toString()}</loc></url>`).join("\n");
+    fs.writeFileSync(sitemapPath, existingSitemap.replace("</urlset>", `${nodes}\n</urlset>`));
+  }
+  console.log("Rendered France study, employment and settlement service pages and indexes.");
+  process.exit(0);
+}
+
 write(".", home);
 write("publishing", publishing);
 write("publishing/media", publishingMedia);
@@ -34365,6 +33005,8 @@ write("australia-business-landing", australiaBusinessLanding);
 write("australia", australiaPathwaysLanding);
 write("australia-job-search-coaching", australiaJobSearchCoaching);
 write("zh/australia-job-search-coaching", australiaJobSearchCoachingZh);
+write("france-study-work-settlement-support", franceStudyWorkSettlementSupport);
+write("zh/france-study-work-settlement-support", franceStudyWorkSettlementSupportZh);
 write("australia-office-presence", australiaOfficePresence);
 write("zh/australia-office-presence", australiaOfficePresenceZh);
 write("australia-universities/charles-darwin-university", charlesDarwinUniversityProfile);
