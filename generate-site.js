@@ -2472,6 +2472,8 @@ function transnationalEducationGroupCards() {
 
 function searchItems() {
   const pages = [
+    ["商業英語學習台", "/apps/business-english-planner/", "免費七日練習計劃、電郵自查、簡報提綱與學習紀錄下載。"],
+    ["商業英語陪跑", "/zh/services/business-english-study-support/", "每週計劃、寫作回饋與簡報練習；免費工具，真人陪跑另行報價。"],
     ["動畫與原作作品集支援", "/zh/services/animation-portfolio-support/", "免費初評、作品規劃、導師匹配與報考準備。"],
     ["澳洲轉校與 Release 申請協調", "/zh/services/australia-transfer-release-support/", "學籍、文件、兩校電郵及入學日期協調。"],
     ["韓國交換陪跑", "/zh/services/korea-exchange-support/", "選校、課程、學分及行前準備；免費初評，持續陪跑另確認。"],
@@ -3392,6 +3394,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+require("./content/business-english-guide.json"),
   require("./content/tnua-animation-guide.json"),
   require("./content/visa-politics-japan.json"),
   require("./content/australia-release-guide.json"),
@@ -20125,7 +20128,7 @@ function servicesLandingPage(locale = "en") {
 }
 
 const services = servicesLandingPage("en");
-const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/vietnam-visa").card + "</main>");
+const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/vietnam-visa").card + '<section class="band compact-band"><div class="notice"><a href="/zh/services/business-english-study-support/">商業英語陪跑｜每週計劃、寫作與簡報練習 →</a></div></section>' + "</main>");
 
 const crossBorderPropertyManagementZh = pageShell({
   title: "海外督導｜跨境房產管理 | OTC Study Hub",
@@ -22891,7 +22894,7 @@ const learningPlatform = pageShell({
       <div class="band">
         <div class="eyebrow">OTC Learning Platform</div>
         <h1>OTC Learning Platform</h1>
-        <p>這裡只放 OTC 自己的學習支持系統：課程輔導、Apps、OTHM、external support、academic tutoring 和 progression guidance。它不是全球高校課程庫。</p>
+        <p>從課堂問題開始，安排練習、整理進度，再按需要找導師一起跟進。</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="/apps/study-coach/">開啟督學日誌 · 海外書局出品</a>
           <a class="btn btn-secondary" href="/apps/">Open Apps & Tools</a>
@@ -22902,7 +22905,8 @@ const learningPlatform = pageShell({
     </section>
 
 
-    <section class="band compact-band" id="english-check">
+    <section class="band compact-band" id="business-english"><div class="section-head compact-head"><div class="eyebrow">商業英語 · 每週跟課</div><h2>電郵不知怎樣寫，簡報不知怎樣說？</h2><p>先排七日計劃，再練一封電郵和一分鐘簡報。免費學習台可下載自己的紀錄；需要真人講解與回饋，再確認陪跑安排。</p></div><div class="hero-actions"><a class="btn btn-primary" href="/apps/business-english-planner/">開始免費練習</a><a class="btn btn-secondary" href="/zh/services/business-english-study-support/">了解陪跑服務</a><a href="/zh/insights/business-english-course-study-plan/">閱讀跟課指南</a></div></section>
+<section class="band compact-band" id="english-check">
       <div class="section-head compact-head"><div class="eyebrow">Free · 免費四項初步診斷</div>
         <h2>OTC English Check｜先了解英文起點，再決定怎樣學</h2>
         <p>聽力、閱讀、口說與寫作，約 35–45 分鐘，可分段完成。聽讀依答案自動計分，口說錄音及寫作原稿可匯出。完整系統診斷需經後續程序，目前不提供人工評閱或 IELTS／TOEFL 分數換算。</p>
@@ -34578,3 +34582,6 @@ node generate-site.js
 console.log("Generated OTC Study Hub static prototype.");
 
 write("zh/services/korea-exchange-support", require("./content/korea-exchange-service.cjs")());
+
+write("zh/services/business-english-study-support", require("./content/business-english-service.cjs")());
+write("apps/business-english-planner", require("./content/business-english-planner.cjs")());

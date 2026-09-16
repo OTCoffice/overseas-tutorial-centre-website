@@ -1,0 +1,87 @@
+{
+  "slug": "business-english-course-study-plan",
+  "chineseOnly": true,
+  "title": "Business English: A Weekly Study Plan",
+  "titleZh": "商業英語怎樣跟得上？課程要求、每週練習與陪跑方法",
+  "socialTitleZh": "商業英語怎樣跟得上？",
+  "date": "2026-09-16",
+  "heraldLayout": "stacked",
+  "category": "Academic Support",
+  "column": "study",
+  "kicker": "OTC 留學導報 · 課程學習",
+  "author": "《海外留學導報》編輯部｜海外督導 OTC",
+  "summary": "A practical weekly plan for business English coursework.",
+  "summaryZh": "先看課程要求，再安排電郵、閱讀、簡報與每週練習。附免費計劃工具與 OTC 陪跑流程。",
+  "resources": [
+    [
+      "HKU SPACE 官方課程列表：CCEN4011 English for Business",
+      "https://learner.hkuspace.hku.hk/lp/resource/ShowChannel.php?channelID=440"
+    ]
+  ],
+  "factCheckNotes": [
+    "2026-09-16 核查。官方列表可確認課程代碼與名稱；本文未取得當期 CCEN4011 課綱、CL03 班別資料、評核比重或導師安排。下列練習為 OTC 通用練習，並非校方考核內容。"
+  ],
+  "sidebarCards": [
+    [
+      "01",
+      "看要求",
+      "課綱、評分準則、日期",
+      "Read"
+    ],
+    [
+      "02",
+      "分次練",
+      "每次完成一件小任務",
+      "Practise"
+    ],
+    [
+      "03",
+      "再修改",
+      "依回饋重做一次",
+      "Review"
+    ]
+  ],
+  "body": [],
+  "bodyZh": [
+    {
+      "heading": "一、先找出擔心的是甚麼",
+      "paragraphs": [
+        "商業英語課讓人緊張，可能是讀不懂題目、寫信不知怎樣開頭，或不習慣用英文簡報。先把困難說清楚，才知道要練甚麼。班上人數、同學一句「很難」，不足以判斷課程難度，更不能據此評價某位老師。",
+        "以 HKU SPACE 的 CCEN4011 為例，官方列表列名 English for Business。目前未取得當期課綱與 CL03 班別的評核安排，不能確認哪位導師任教、是否難取高分，或是否值得轉班。轉班名額、期限與影響應向校方查詢。"
+      ]
+    },
+    {
+      "heading": "二、準備三份資料，就能開始排進度",
+      "paragraphs": [
+        "先找課程大綱、作業要求與評分準則、各項截止日期。把每項任務寫成「要交甚麼、甚麼時候交、佔多少分、老師看甚麼」。未公布的欄位留空，之後補上。",
+        "拿自己的短文、電郵或一分鐘錄音作起點，記下最常卡住的兩件事。給導師的資料只需學習相關部分，遮掉學生證號、同學姓名及不相關的個人資料。"
+      ]
+    },
+    {
+      "heading": "三、一週先完成一個小循環",
+      "paragraphs": [
+        "以下是 OTC 建議的通用練習，可在免費工具按可用時間調整。第一天讀題並列清單；第二天看一份短範例，圈出目的與請求；第三天自己寫初稿；第四天按清單檢查；第五天讀出或說出重點；第六天改寫；第七天回顧並安排下週。",
+        "電郵練習可從改約會議開始：說明原安排、簡短原因、替代時間，再請對方確認。簡報練習可用「問題、建議、理由、下一步」四段。這些是練習方法，實際作業格式仍按課程要求。"
+      ]
+    },
+    {
+      "heading": "四、怎樣檢查寫作與口說",
+      "paragraphs": [
+        "寫完先看讀者是否知道你的目的、需要做甚麼、何時回覆；再看段落順序、語氣與常見文法。一次選兩個問題重寫，比只收下一份被改好的稿更有用。",
+        "口說先錄一分鐘，聽自己有沒有把重點說完，理由是否清楚，句子是否太長。之後再練停頓與發音。工具中的勾選清單只幫助自我檢查，不會判分，也不會換算 IELTS 成績。"
+      ]
+    },
+    {
+      "heading": "五、免費工具與真人陪跑怎樣配合",
+      "paragraphs": [
+        "<a href=\"/apps/business-english-planner/\">免費商業英語學習台</a>可以建立七日任務、練習電郵、整理簡報提綱，並下載自己填寫的學習紀錄。內容保留在目前頁面，重新整理會清空；離開前請下載。",
+        "需要跟進時，可由 OTC 先了解課程與卡點，再確認導師、課時、回饋次數、回覆時間及費用。學生自行完成作業；導師提供講解、練習與修改方向，不代寫或代考。",
+        "<a href=\"/zh/services/business-english-study-support/\">查看商業英語陪跑服務、費用範圍與開始方法 →</a>"
+      ]
+    }
+  ],
+  "shareImageZh": "/assets/social/business-english-guide-20260916-v1.png",
+  "socialImageVersion": "20260916-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630
+}
