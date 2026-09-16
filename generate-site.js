@@ -3398,6 +3398,7 @@ const insightsArticles = [
 require("./content/yonsei-english-guide.json"),
 require("./content/kyung-hee-english-guide.json"),
 require("./content/otc-english-check-article.json"),
+require("./content/polyu-radiography-guide.json"),
 require("./content/udk-exchange-guide.json"),
 {
   "slug": "politics-of-visa-refusal-opt-reentry-anonymous-case",
