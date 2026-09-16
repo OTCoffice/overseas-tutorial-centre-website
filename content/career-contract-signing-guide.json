@@ -1,0 +1,35 @@
+{
+  "slug": "career-contract-signing-checklist",
+  "title": "Career Contract Signing Checklist: Company Checks, Clauses and Negotiation",
+  "titleZh": "職業簽約前怎樣看？公司核查、七類條款與談判清單",
+  "date": "2026-09-16",
+  "heraldLayout": "stacked",
+  "category": "Careers & Contracts",
+  "column": "settlement",
+  "kicker": "海外留學導報 · 職業合作風險",
+  "author": "《海外留學導報》編輯部｜海外督導 OTC",
+  "summary": "A practical checklist for checking a contracting company, mapping obligations and preparing negotiation points before signing a career agreement.",
+  "summaryZh": "簽模特、MCN、經紀、僱傭、實習或自由職業合約前，先核對簽約主體、退出條件、收入扣費、授權、競業及附件。",
+  "socialTitleZh": "職業簽約前：七類條款先看清",
+  "readingMinutes": 8,
+  "sidebarCards": [["01","公司核查","核對法人、收款與蓋章主體。","先查主體"],["02","七類條款","退出、收入、授權、競業與附件。","逐項梳理"],["03","陪跑服務","把風險轉成談判及版本清單。","查看服務"]],
+  "factCheckNotes": ["本文為一般資訊與流程整理，不構成法律意見。", "涉及條款效力、賠償、競業或爭議時，應諮詢相關司法管轄區的合資格律師。"],
+  "bodyZh": [
+    {"heading":"先確認你究竟和誰簽約","paragraphs":["公司品牌名不一定等於合約中的法人。核對註冊名稱、公司編號、所在地、簽署及收款主體，並保存公開登記資料、對方承諾和版本往來。","成立年限、註冊資本或社交平台人氣都不能單獨證明合約安全；公司核查是風險篩查，不是法律結論。"]},
+    {"heading":"七類條款逐項檢查","paragraphs":["<strong>義務：</strong>你的交付和違約責任很具體時，公司投入也應寫清。<br><strong>退出：</strong>查看通知期、解除權、違約金算法及自動續約。<br><strong>收入：</strong>確認分成基數、可扣費項目、結算週期、發票和查帳權。","<strong>授權：</strong>姓名、肖像、聲音、作品及帳號的使用範圍、地區和期限。<br><strong>職業自由：</strong>獨家及競業限制是否過寬。<br><strong>前期收費：</strong>培訓、拍攝、設備及保證金能否退款。<br><strong>附件：</strong>資源投入、排期、考核和退出機制是否真正寫入文件。"]},
+    {"heading":"把疑問變成談判清單","paragraphs":["把問題分為必須修改、需要問清和可以接受三類。每一項寫明原條款、風險、希望修改的方向及可接受底線；收到新版後逐段對照，不以口頭承諾代替正文或附件。","簽署前再次核對頁數、附件、空白欄、日期、簽名與蓋章，並保存雙方一致的最終版本。"]},
+    {"heading":"甚麼情況應立即找律師","paragraphs":["若合約包含高額違約金、長期獨家、跨境爭議、廣泛競業、永久授權、個人擔保，或你已付款並準備解約，應盡快交由適用地區的合資格律師判斷。","陪跑可以整理事實、文件、問題和談判節點，但不替代法律意見，也不能承諾對方一定修改條款或爭議結果。"]},
+    {"heading":"海外督導怎樣陪跑","paragraphs":["我們可協助建立公司核查摘要、條款風險表、談判問題、版本差異和簽署前檢查表；需要法律結論時，再把整理好的材料交給合資格律師。","<a href=\"/zh/services/career-contract-signing-support/\">查看「職業簽約陪跑」服務範圍、流程與免費初步判斷入口 →</a>"]}
+  ],
+  "body": [
+    {"heading":"Confirm who you are contracting with","paragraphs":["Check the legal name, registration number, jurisdiction, signing party and payment recipient. A brand name or social profile may not be the contracting entity.","Public records are useful for risk screening but do not establish that a contract is safe or enforceable."]},
+    {"heading":"Review seven clause groups","paragraphs":["Map both sides’ obligations, termination and renewal, revenue and deductions, rights permissions, exclusivity and non-compete limits, upfront charges, and every referenced schedule.","Where your duties are precise but the company’s commitments are vague, ask for measurable deliverables, dates and remedies in writing."]},
+    {"heading":"Turn concerns into negotiation points","paragraphs":["Classify each point as must change, must clarify or acceptable. Record the original wording, practical risk, requested revision and fallback position, then compare every later version.","Before signing, confirm page count, schedules, dates, signatures and that both parties retain the same final version."]},
+    {"heading":"Know when a lawyer is required","paragraphs":["Seek qualified legal advice for substantial penalties, long exclusivity, cross-border disputes, broad restraints, perpetual rights, personal guarantees or an existing dispute.","Process support can organise facts, files and negotiation tasks, but it is not legal advice and cannot guarantee amendments or outcomes."]},
+    {"heading":"OTC career contract support","paragraphs":["OTC can prepare a company-check summary, clause risk table, negotiation questions, version comparison and pre-signing checklist.","<a href=\"/services/career-contract-signing-support/\">See the Career Contract Signing Support service and initial assessment →</a>"]}
+  ],
+  "socialImageVersion": "v=20260916-contract-2",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/career-contract-signing-support.png"
+}
