@@ -1,0 +1,65 @@
+{
+  "version": "2026-09-17",
+  "rules": [
+    [
+      "客戶資料保密",
+      "Confidential client information",
+      "客戶及其合作方的名稱、聯絡方式、交易關係、報價、合同、產品文件及未公開計畫，只用於受託工作。未經同意，不向第三方披露，也不用於宣傳、案例展示或其他客戶的業務。",
+      "Client and business-partner names, contact details, business relationships, quotations, contracts, product documents and unpublished plans are used only for the agreed assignment. Without consent, we do not disclose them to third parties or use them for publicity, case studies or another client's work."
+    ],
+    [
+      "對外發送前確認",
+      "Approval before external sending",
+      "代客戶發出的電郵、翻譯、附件及補充說明，須先讓客戶核對內容、收件人和用途，取得明確同意後才發送。客戶提供文件，不等於授權轉發；一次同意只涵蓋已確認的內容與範圍。",
+      "Before sending emails, translations, attachments or supplementary explanations on a client's behalf, we ask the client to check the content, recipients and purpose and obtain explicit approval. Providing a document does not itself authorise forwarding it. Each approval covers only the agreed content and scope."
+    ],
+    [
+      "只提供必要資訊",
+      "Share only what is necessary",
+      "詢價初期盡量只提供貨物、數量、包裝、路線等必要資料。終端客戶名稱、完整地址、交易價格及合同等，確有需要時再請客戶批准披露。向多家公司詢價時，分別發送，不互相透露聯絡名單或競爭報價。",
+      "Initial enquiries use only necessary details, such as the goods, quantity, packaging and route. End-client names, full addresses, transaction prices and contracts are disclosed only where needed and approved by the client. Enquiries to multiple providers are sent separately; contact lists and competing quotations are not shared between them."
+    ],
+    [
+      "資料有差異，先核實",
+      "Resolve discrepancies before communicating",
+      "公司名稱、規格、成分、用途或文件版本不一致時，先向客戶說明並核實，再決定如何對外表述。參考資料、客戶陳述及已核實事實須清楚區分，不把第三方文件當成客戶產品的正式證明。",
+      "Where company names, specifications, composition, intended use or document versions differ, we explain the discrepancy to the client and clarify it before agreeing how to present it externally. Reference material, client statements and verified facts are clearly distinguished. Third-party documents are not presented as formal evidence for the client's own product."
+    ],
+    [
+      "翻譯忠於原件",
+      "Translate faithfully",
+      "保留原文的數字、單位、限制及不確定性，不擅自補寫技術結論。摘要或節選須明確標示；涉及安全、技術或合約內容，由相應的生產商、文件出具方或客戶核對確認。",
+      "Translations preserve the source figures, units, limitations and uncertainty without adding unsupported technical conclusions. Summaries and extracts are labelled clearly. Safety, technical and contractual content is checked and confirmed by the relevant manufacturer, document issuer or client."
+    ],
+    [
+      "明確代理身分與權限",
+      "Identify our role and authority",
+      "落款清楚列明海外督導及代客戶聯絡的身分。未經授權，不直接聯絡客戶的終端客戶、繞過客戶洽談，也不承諾訂單、付款、價格或合同條款。",
+      "Signatures identify Overseas Tutorial Centre Ltd and our role in communicating on the client's behalf. Without authorisation, we do not contact the client's end customers, bypass the client in negotiations, or commit to orders, payments, prices or contract terms."
+    ],
+    [
+      "文件妥善保存",
+      "Store documents appropriately",
+      "微信及電郵收到的資料同樣按保密要求處理。按案件歸檔，僅讓必要人員存取；同步至本地、Drive 或 Notion 前，確認存取權限，避免公開連結。護照等身分文件僅存於必要的受限位置。",
+      "Information received through WeChat and email is treated with the same confidentiality. Files are organised by assignment and access is limited to those who need it. Access permissions are checked before synchronising to local storage, Drive or Notion, and public links are avoided. Identity documents, such as passports, are stored only in necessary, access-restricted locations."
+    ],
+    [
+      "誤發或授權變更",
+      "Respond to sending errors or changes in approval",
+      "發現誤發、未經確認發送或客戶要求停止使用時，立即暫停後續發送，如實交代已發內容、收件人及時間，並按客戶指示要求收件方忽略、停止使用或刪除。不得保證已送達的電郵可以撤回。",
+      "If information is sent in error or without approval, or the client asks for its use to stop, we pause further sending, accurately report what was sent, to whom and when, and follow the client's instructions to ask recipients to disregard, stop using or delete it. We do not guarantee that delivered emails can be recalled."
+    ],
+    [
+      "保留確認紀錄",
+      "Keep approval records",
+      "記錄客戶批准的版本、附件、收件人、用途和時間。內容、收件人或用途有實質變更時，重新確認；客戶沉默不視為同意。",
+      "We record the approved version, attachments, recipients, purpose and time of approval. Material changes to content, recipients or purpose require renewed approval. Silence is not treated as consent."
+    ],
+    [
+      "合作結束後仍保密",
+      "Maintain confidentiality after the assignment",
+      "保密義務不因合作結束而終止。資料按約定期限保存，期滿或收到刪除要求時，處理可控制的副本，並如實說明依法須保留或無法立即清除的部分。",
+      "Confidentiality continues after the assignment ends. Information is retained for the agreed period. When that period ends or a deletion request is received, we address copies under our control and explain any information that must be retained by law or cannot immediately be removed."
+    ]
+  ]
+}
