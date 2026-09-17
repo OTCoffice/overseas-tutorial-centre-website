@@ -1,0 +1,146 @@
+{
+  "slug": "australia-chinese-accountants-485-482-186-visa-trends",
+  "chineseOnly": true,
+  "title": "Chinese Accountants in Australia: 485, 482 and 186 Visa Trends",
+  "titleZh": "讀會計、商科能留在澳洲嗎？中國籍485、482與186簽證數據怎樣看",
+  "date": "2026-09-17",
+  "heraldLayout": "stacked",
+  "category": "Migration and Careers",
+  "column": "settlement",
+  "kicker": "海外留學導報 · 澳洲升學與職涯",
+  "author": "《海外留學導報》編輯部｜海外督導 OTC",
+  "summary": "Official visa trends for Chinese nationals in accounting and selected business-related occupations, with the limits of graduate migration comparisons.",
+  "summaryZh": "中國籍會計人員482獲批回升，186近年仍有波動。分清臨時居留、雇主擔保與永久居民，了解官方數據能說明甚麼，以及為何不能當作留學生移民成功率。",
+  "socialTitleZh": "會計商科留澳：簽證數據怎樣看",
+  "readingMinutes": 9,
+  "socialImageVersion": "v=20260917-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "resources": [
+    [
+      "內政部 BP0014｜482/457 臨時技術簽證資料",
+      "https://data.gov.au/data/dataset/visa-temporary-work-skilled"
+    ],
+    [
+      "內政部 BP0068｜永久移民計畫資料",
+      "https://data.gov.au/data/dataset/permanent-migration-program-skilled-family"
+    ],
+    [
+      "內政部｜2023年6月學生及畢業生簽證報告（表8.06）",
+      "https://www.homeaffairs.gov.au/research-and-stats/files/student-temporary-grad-program-report-june-2023.pdf"
+    ],
+    [
+      "內政部｜2024年6月學生及畢業生簽證報告（表8.06）",
+      "https://www.homeaffairs.gov.au/research-and-stats/files/student-temporary-grad-program-report-june-2024.pdf"
+    ],
+    [
+      "內政部｜2025年6月學生及畢業生簽證報告（表8.06）",
+      "https://www.homeaffairs.gov.au/research-and-stats/files/student-temporary-grad-program-report-june-2025.pdf"
+    ]
+  ],
+  "factCheckNotes": [
+    "核查日：2026-09-17。482採截至2026-06-30的BP0014；186採截至2025-06-30的BP0068；485採2023、2024、2025年6月報告表8.06。不同資料截至期不同。",
+    "中國籍口徑為 China, Peoples Republic of (excl SARs)，不含港澳；財年為7月1日至次年6月30日。簽證獲批／移民結果數量不等於去重人數。",
+    "本文分析歷史統計，不判定個人簽證資格，也不就任何新政策是否適用個人作結論。"
+  ],
+  "sidebarCards": [
+    [
+      "01",
+      "先看身份",
+      "485、482屬臨時簽證，186屬永久居民。",
+      "STATUS"
+    ],
+    [
+      "02",
+      "再看口徑",
+      "職業統計不能代替留學生專業統計。",
+      "DATA"
+    ],
+    [
+      "03",
+      "落到崗位",
+      "把課程選擇連到招聘要求及自身經驗。",
+      "WORK"
+    ]
+  ],
+  "bodyZh": [
+    {
+      "heading": "先說結論：有人走通，但不能把獲簽量當成成功率",
+      "paragraphs": [
+        "以留在澳洲為目標選會計或商科，最需要知道的不是一句「容易」或「很難」，而是畢業後能做甚麼工作、雇主是否願意擔保，以及自己的條件是否符合當時要求。內政部數據可以提供歷史規模，卻不能直接給出某位學生拿到永久居民身份的機率。",
+        "本次按官方明細篩選後，中國籍會計主申請人的482獲批數，由2023–24財年的132增至2024–25年的164，再增至2025–26年的239；186則由2023–24年的113增至2024–25年的124。兩組都出現回升，但它們不是同一批人的後續追蹤。下文把各自口徑與限制分開說明。"
+      ]
+    },
+    {
+      "heading": "三種簽證：485、482與186代表不同階段",
+      "paragraphs": [
+        "<div style=\"overflow-x:auto;max-width:100%;margin:20px 0\"><table style=\"width:100%;border-collapse:collapse;font-size:15px;line-height:1.6\"><thead><tr><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">簽證</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">主要性質</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">閱讀數據時要記住</th></tr></thead><tbody><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">485</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">畢業生臨時簽證</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">獲批不代表已有專業工作或雇主擔保</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">482</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">臨時雇主擔保工作簽證</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">需按適用類別核對雇主提名、職位及申請條件</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">186</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">雇主提名永久居民簽證</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">屬PR；並非所有人都先經485及482轉入</td></tr></tbody></table></div>",
+        "三種簽證並非必須依次取得的固定階梯。482不會因持有一段時間就自動變成186，186也不能代表所有留澳途徑。本文沒有統計189、190等其他路線，不能將186數量當作中國會計人士每年獲得全部PR的總數。",
+        "本文不列可能調整的薪資門檻、年齡或英語分數。準備申請時，應按當期官方簽證類別與本人情況核對，不能用歷史獲批數替代資格判斷。"
+      ]
+    },
+    {
+      "heading": "中國籍會計人員：482近兩年回升，186仍有波動",
+      "paragraphs": [
+        "下表僅取中國籍主申請人、ANZSCO 2211 Accountants職業組，包括普通、管理及稅務會計，另把審計等職業分開。482排除457；186加總官方Outcome欄位。",
+        "<div style=\"overflow-x:auto;max-width:100%;margin:20px 0\"><table style=\"width:100%;border-collapse:collapse;font-size:15px;line-height:1.6\"><thead><tr><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">財年</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">482獲批</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">186移民結果</th></tr></thead><tbody><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2021-22</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">249</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">130</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2022-23</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">209</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">159</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2023-24</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">132</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">113</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2024-25</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">164</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">124</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2025-26</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">239</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">—</td></tr></tbody></table></div>",
+        "2024–25年會計482較前一年增長24.2%；2025–26年再增長45.7%。不過，239仍略低於2021–22年的249，因此比較完整的描述是「下降後回升」，而不是「多年持續增長」。",
+        "186近四年為130、159、113、124；最新可比較年度增長9.7%，仍低於2022–23年的159。年度結果會受申請量、審理節奏及政策等因素影響；這些數據沒有拆出各因素的作用，不能把回升直接解讀為雇主更容易擔保應屆生。",
+        "「—」表示本次186來源未涵蓋2025–26，不是零。這些人可能在澳洲留學，也可能沒有；可能是新獲擔保，也可能涉及後續簽證。<a href=\"https://data.gov.au/data/dataset/visa-temporary-work-skilled\">482官方明細</a>；<a href=\"https://data.gov.au/data/dataset/permanent-migration-program-skilled-family\">186官方明細</a>。"
+      ]
+    },
+    {
+      "heading": "商科不是單一職業：各方向差異很大",
+      "paragraphs": [
+        "下面六組職業用來觀察相關工作方向，不是「全部商科專業」的官方分類，也不是一份推薦移民專業清單。學位名稱與提名職業不一一對應；經理職位通常不能被視為剛畢業即可進入的起點。",
+        "<div style=\"overflow-x:auto;max-width:100%;margin:20px 0\"><table style=\"width:100%;border-collapse:collapse;font-size:15px;line-height:1.6\"><thead><tr><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">482職業組</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2021–22</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2022–23</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2023–24</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2024–25</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2025–26</th></tr></thead><tbody><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">會計</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">249</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">209</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">132</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">164</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">239</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">審計、公司秘書及企業司庫</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">25</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">26</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">21</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">25</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">45</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">管理與組織分析</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">13</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">22</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">33</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">30</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">39</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">廣告與市場營銷</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">29</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">43</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">71</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">131</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">229</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">ICT 業務與系統分析</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">41</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">52</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">64</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">59</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">53</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">廣告、公關與銷售經理</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">20</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">41</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">46</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">71</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">81</td></tr></tbody></table></div>",
+        "<div style=\"overflow-x:auto;max-width:100%;margin:20px 0\"><table style=\"width:100%;border-collapse:collapse;font-size:15px;line-height:1.6\"><thead><tr><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">186職業組</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2021–22</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2022–23</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2023–24</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">2024–25</th></tr></thead><tbody><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">會計</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">130</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">159</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">113</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">124</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">審計、公司秘書及企業司庫</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">25</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">19</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">10</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">13</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">管理與組織分析</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">2</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">5</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">4</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">9</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">廣告與市場營銷</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">14</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">11</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">7</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">7</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">ICT 業務與系統分析</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">11</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">22</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">16</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">27</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">廣告、公關與銷售經理</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">9</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">6</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">3</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">2</td></tr></tbody></table></div>",
+        "例如，廣告與市場營銷的482由29增至229，而其186在本次較早截止的四年資料中為14、11、7、7。這不能說成「229人中只有7人留下」：年份、申請人及累積經驗都不同，也存在其他移民途徑。",
+        "ICT業務與系統分析的482從2023–24年的64降至2025–26年的53；其186最新可比年度由16增至27。兩種簽證可能方向不同，正好說明不能用單一年度或單一簽證替整個專業下結論。ICT業務分析也不等同於所有名為Business Analytics的碩士課程。"
+      ]
+    },
+    {
+      "heading": "485整體下降，不能據此斷言商科就業變差",
+      "paragraphs": [
+        "本次查閱的485公開報告只能提供中國籍、所有專業合計，且含家屬。沒有足夠細分資料把中國籍會計或商科畢業生單獨拆出。",
+        "<div style=\"overflow-x:auto;max-width:100%;margin:20px 0\"><table style=\"width:100%;border-collapse:collapse;font-size:15px;line-height:1.6\"><thead><tr><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">財年</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">中國籍485獲批（所有專業、含家屬）</th><th scope=\"col\" style=\"text-align:left;padding:12px;border-bottom:2px solid #173b52;background:#e9eff1\">較上年</th></tr></thead><tbody><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2021–22</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">6,982</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">—</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2022–23</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">18,457</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">+164.4%</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2023–24</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">17,165</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">−7.0%</td></tr><tr><td style=\"padding:12px;border-bottom:1px solid #ddd\">2024–25</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">15,032</td><td style=\"padding:12px;border-bottom:1px solid #ddd\">−12.4%</td></tr></tbody></table></div>",
+        "485在2022–23年大幅增加後連續兩年下降。這是簽證獲批流量的變化，並非就業率、求職成功率或定居率；也不能直接當作當屆畢業生人數。不同簽證類別、家屬及可能重複獲簽，都會影響讀法。",
+        "歷年數字見官方學生及畢業生簽證報告表8.06，文末附三份報告。本文未以未核實的2025–26全年數字補齊空缺。"
+      ]
+    },
+    {
+      "heading": "為甚麼不能算「留下來的機率」",
+      "paragraphs": [
+        "要估計中國商科留學生的後續結果，至少需要同一屆畢業生作為分母，按專業與國籍界定清楚，排除家屬及重複，並追蹤三年或五年後各種簽證、離境及仍在等待的狀態。現有這幾張年度表沒有建立這種人員關聯。",
+        "因此，124÷164不是482轉186的成功率，124÷15,032也不是會計留學生拿PR的成功率。把不同人群、不同時間的數字相除，會得到看似精確、實際沒有相應含義的百分比。",
+        "可以負責任地說：在所列年度，中國籍會計人士持續有雇主擔保獲批記錄，482近期回升；不能據此承諾讀一個會計或商科碩士，就有某個固定百分比可以留下。"
+      ]
+    },
+    {
+      "heading": "對準備讀第二碩士的人：先做一張招聘調查表",
+      "paragraphs": [
+        "在決定二碩之前，先把會計、財務分析或其他真心願意從事的職位分開研究。第二個學位應當能解釋新增了哪些技能、實務訓練或職業方向，而不只是多一張證書。課程能否入讀、學生簽證是否符合要求，以及畢業後有沒有工作，是三個需要分別核對的問題。",
+        "可以在SEEK、LinkedIn及企業招聘頁收集20至30則近期廣告，記錄：職稱、城市、工作內容、最低經驗、軟件技能、專業資格、英語溝通要求、工作權要求、薪資是否含super，以及是否明確提及擔保。這只是個人規劃樣本，不是具代表性的官方就業統計。",
+        "把「接受現有工作權」與「願意提供擔保」分開標記；未提擔保就寫未說明，不自行理解為願意。再比較自己的實習和項目能證明哪些能力，哪些缺口可在入學前補齊，哪些需要真實工作經驗。",
+        "薪資比較也要同城、同級別、同工時；資深會計師或財務經理的薪酬不能當作剛畢業者預期收入。對幾年後才入學的學生，今天的歷史簽證量只能作規劃背景，不能預告畢業時的招聘或政策。"
+      ]
+    },
+    {
+      "heading": "OTC可以協助：把數據變成可執行的求職準備",
+      "paragraphs": [
+        "海外督導可先免費了解基本背景，再按需要協助職位與城市比較、履歷和LinkedIn整理、招聘廣告分析、面試練習及求職進度跟進。正式工作先書面確認內容、次數、期限及費用；考試、認證、翻譯及外部專業服務另計。",
+        "<a href=\"/zh/australia-job-search-coaching/\"><strong>查看澳洲求職輔導與落地就業陪跑服務 →</strong></a> 已經透過私訊聯絡的讀者，可直接回覆原對話，先帶來三至五則感興趣的招聘廣告，不必重新提供已確認過的全部背景。",
+        "我們協助教育與求職準備，不承諾工作、雇主擔保或PR。需要個人移民策略與簽證資格判斷時，另由合資格移民專業人士處理。"
+      ]
+    },
+    {
+      "heading": "資料方法與下載",
+      "paragraphs": [
+        "482：篩選Citizenship Country＝China, Peoples Republic of (excl SARs)、Applicant Type＝Primary、Visa Subclass以482開頭，依職業組及財年加總Total。186使用同樣國籍及主申請人篩選，Visa Subclass以186開頭，依職業組及年度加總Outcome，保留官方調整。",
+        "2021–22會計的純482為249；若採官網合併482/457的臨時技術簽證口徑，會得到255。本文採純482，因此不把兩者混用。485另按報告表8.06抄錄並核對，沒有與職業資料合併成同一批人。",
+        "<a href=\"/assets/reports/chinese-accounting-business-visa-trends-20260917.xlsx\">下載Excel：歷年數量、增減、職業組與來源 →</a>。資料更新可能修訂歷史結果；後續比較應保持相同口徑。"
+      ]
+    }
+  ],
+  "shareImageZh": "/assets/social/china-accounting-visa-trends-20260917-v1.png"
+}
