@@ -1,0 +1,2 @@
+const cards={"zh": "<section class=\"band compact-band\"><h2>馬來西亞留學</h2><p>TAR UMT、UM、UTM、USM 院校與專業介紹，申請路徑、完整預算、學歷認可及赴馬準備。</p><a class=\"button\" href=\"/zh/services/malaysia-study/\">查看馬來西亞留學服務 →</a></section>", "en": "<section class=\"band compact-band\"><h2>Study in Malaysia</h2><p>Explore TAR UMT, UM, UTM and USM, entry routes, full costs, recognition and arrival preparation.</p><a class=\"button\" href=\"/services/malaysia-study/\">Explore study in Malaysia →</a></section>"};
+module.exports=lang=>cards[lang];
