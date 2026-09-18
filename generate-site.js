@@ -20131,8 +20131,8 @@ function servicesLandingPage(locale = "en") {
   });
 }
 
-const services = servicesLandingPage("en");
-const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/vietnam-visa").card + '<section class="band"><h2>設計申請陪跑</h2><p>從資格與選校，到作品回饋及申請進度，免費初步評估後確認服務範圍與費用。</p><p><a href="/zh/services/design-application-coaching/">查看設計申請陪跑服務 →</a></p></section>' + '<section class="band compact-band"><div class="notice"><a href="/zh/services/business-english-study-support/">商業英語陪跑｜每週計劃、寫作與簡報練習 →</a></div></section>' + "</main>");
+const services = servicesLandingPage("en").replace("</main>", require("./content/visa-support-links.cjs")("en") + "</main>");
+const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/visa-support-links.cjs")("zh") + "</main>").replace("</main>", require("./content/vietnam-visa").card + '<section class="band"><h2>設計申請陪跑</h2><p>從資格與選校，到作品回饋及申請進度，免費初步評估後確認服務範圍與費用。</p><p><a href="/zh/services/design-application-coaching/">查看設計申請陪跑服務 →</a></p></section>' + '<section class="band compact-band"><div class="notice"><a href="/zh/services/business-english-study-support/">商業英語陪跑｜每週計劃、寫作與簡報練習 →</a></div></section>' + "</main>");
 
 const crossBorderPropertyManagementZh = pageShell({
   title: "海外督導｜跨境房產管理 | OTC Study Hub",
@@ -34594,3 +34594,6 @@ write("zh/services/korea-exchange-support", require("./content/korea-exchange-se
 
 write("zh/services/business-english-study-support", require("./content/business-english-service.cjs")());
 write("apps/business-english-planner", require("./content/business-english-planner.cjs")());
+
+write("zh/services/visa-application-support", require("./content/visa-support-zh.cjs")());
+write("services/visa-application-support", require("./content/visa-support-en.cjs")());

@@ -1,0 +1,56 @@
+{
+  "path": "/services/visa-application-support/",
+  "slug": "visa-application-support",
+  "titleZh": "Visa Preparation Support | Documents, Timelines & Travel Preparation",
+  "summaryZh": "Clear document checklists, preparation timelines and practical follow-up, with scope and fees agreed before work starts.",
+  "shareImageZh": "/assets/social/visa-support-en-20260918.png",
+  "socialImageVersion": "v=20260918-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "lang": "en",
+  "sections": [
+    {
+      "heading": "Who this service is for",
+      "paragraphs": [
+        "First-time travellers, visiting families and students organising documents; people travelling during a career break; applicants working through an official checklist; and travellers preparing for departure.",
+        "We first confirm the destination, passport, residence, purpose and dates. Requirements are country-specific and the scope is agreed before work starts."
+      ]
+    },
+    {
+      "heading": "What you receive",
+      "paragraphs": [
+        "Agreed deliverables can include an official-source checklist with review dates, a missing-information log, a preparation timeline, a document and version index, and a departure checklist.",
+        "We help identify factual inconsistencies in names, dates and itinerary details and organise questions for you or an appropriately qualified professional. Translation, certification and extra revision rounds are agreed separately."
+      ]
+    },
+    {
+      "heading": "How the service works",
+      "paragraphs": [
+        "1. Share basic details → 2. Confirm scope → 3. Agree fees and deliverables in writing → 4. Organise documents and tasks → 5. Follow up as agreed → 6. Receive the final index and outstanding-items list.",
+        "You retain your accounts, passwords and verification codes. You verify application facts, payments and final submission. Preparation support does not mean an application has been submitted or an appointment secured."
+      ]
+    },
+    {
+      "heading": "Fees and third-party costs",
+      "paragraphs": [
+        "Fees depend on the destination, document volume, preparation progress and level of follow-up required. The initial enquiry establishes your needs; any charge is confirmed in writing before work starts, with a clear description of what is included.",
+        "The agreement specifies destinations and applications covered, duration, meetings, revision rounds, response times, postponement, cancellation and refund terms. Government and visa-centre fees, ETA fees, translation, certification, courier, insurance and travel costs are separate unless expressly included."
+      ]
+    },
+    {
+      "heading": "Visiting the UK during a career break",
+      "paragraphs": [
+        "Leaving a job does not automatically make someone ineligible as a visitor. Organise the genuine purpose, accommodation, duration, funding and departure plans, and describe your employment position truthfully.",
+        "Check visa or ETA requirements for your passport and circumstances. A return ticket, insurance, visa or ETA does not itself guarantee entry; the relevant authorities make the decision."
+      ]
+    },
+    {
+      "heading": "Questions and service boundaries",
+      "paragraphs": [
+        "<strong>Can you guarantee a visa or entry?</strong> No. We do not guarantee decisions, processing times or appointments and do not create false evidence or coach concealment.",
+        "<strong>What about refusals, overstaying or disputed status?</strong> Refer case-specific decisions to an appropriately qualified professional. OTC provides administrative document organisation, public-information research and communication support, not regulated immigration advice, eligibility decisions, appeals or legal representation.",
+        "<strong>Do I send identity and banking documents immediately?</strong> No. Start with passport country or territory, residence, destination, purpose and dates. Agree the purpose and transfer method before sending necessary documents. Never send passwords or verification codes."
+      ]
+    }
+  ]
+}
