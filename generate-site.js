@@ -2472,6 +2472,7 @@ function transnationalEducationGroupCards() {
 
 function searchItems() {
   const pages = [
+    ["泰國大學留學・免費申請辦理", "/zh/thailand-university-study/", "英語授課選擇、全程預算、泰國工商大學多年合作及免費申請服務。"],
     ["商業英語學習台", "/apps/business-english-planner/", "免費七日練習計劃、電郵自查、簡報提綱與學習紀錄下載。"],
     ["商業英語陪跑", "/zh/services/business-english-study-support/", "每週計劃、寫作回饋與簡報練習；免費工具，真人陪跑另行報價。"],
     ["動畫與原作作品集支援", "/zh/services/animation-portfolio-support/", "免費初評、作品規劃、導師匹配與報考準備。"],
@@ -2592,6 +2593,7 @@ function routePath(route) {
 }
 
 function write(route, html) {
+  if ([".", "zh", "services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
   const dir = path.join(root, route);
   fs.mkdirSync(dir, { recursive: true });
   const publicPath = routePath(route);
@@ -34252,6 +34254,7 @@ if (process.env.OTC_ICELAND_ONLY === "1") {
   process.exit(0);
 }
 
+write("zh/thailand-university-study", require("./content/thailand-study.cjs").render());
 write(".", home);
 write("publishing", publishing);
 write("publishing/media", publishingMedia);
