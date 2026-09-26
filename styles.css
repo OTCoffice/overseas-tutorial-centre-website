@@ -23,6 +23,228 @@
   --font-zh-editorial: var(--font-claude-serif);
 }
 
+/* 2026-09 conversion gateway: clear first-step routing for the Chinese home page. */
+.zh-growth-gateway {
+  background: #f6f1e7;
+  border-bottom: 1px solid #d9cdb6;
+  border-top: 3px solid #b5882a;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.zh-growth-gateway-head {
+  display: grid;
+  gap: 7px;
+  max-width: 760px;
+}
+
+.zh-growth-gateway-head > span {
+  color: #8d3138;
+  font-family: var(--font-claude-sans);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.zh-growth-gateway-head h2 {
+  color: #17243f;
+  font-family: var(--font-claude-serif);
+  font-size: clamp(1.55rem, 2.8vw, 2.15rem);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.zh-growth-gateway-head p {
+  color: #5b626d;
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.zh-growth-gateway-grid {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.zh-growth-gateway-grid a {
+  background: #fffdf8;
+  border: 1px solid #d9cdb6;
+  color: #17243f;
+  display: grid;
+  gap: 8px;
+  min-height: 205px;
+  padding: 22px;
+  text-decoration: none;
+  transition: background .18s ease, color .18s ease, transform .18s ease;
+}
+
+.zh-growth-gateway-grid a + a {
+  border-left: 0;
+}
+
+.zh-growth-gateway-grid a:hover {
+  background: #132946;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.zh-growth-gateway-grid b {
+  color: #9d343b;
+  font-family: var(--font-claude-sans);
+  font-size: 13px;
+  letter-spacing: .08em;
+}
+
+.zh-growth-gateway-grid strong {
+  font-family: var(--font-claude-serif);
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.zh-growth-gateway-grid span {
+  color: #5b626d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.zh-growth-gateway-grid a:hover span,
+.zh-growth-gateway-grid a:hover em {
+  color: #f6ecd6;
+}
+
+.zh-growth-gateway-grid em {
+  align-self: end;
+  color: #8d3138;
+  font-family: var(--font-claude-sans);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.zh-growth-contact {
+  align-items: center;
+  background: #132946;
+  color: #fff;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-top: 18px;
+  padding: 20px 22px;
+}
+
+.zh-growth-contact > div:first-child {
+  display: grid;
+  gap: 5px;
+}
+
+.zh-growth-contact span {
+  color: #e1bf72;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.zh-growth-contact strong {
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.zh-growth-contact-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.consultation-route-hero h2 {
+  color: #e2bd69;
+  font-size: clamp(1.15rem, 2.2vw, 1.65rem);
+  line-height: 1.35;
+  margin: 12px 0 0;
+}
+
+.consultation-route-hero .band {
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.consultation-route-hero h1 {
+  font-size: clamp(2rem, 4.2vw, 3.25rem);
+  line-height: 1.12;
+}
+
+@media (max-width: 920px) {
+  .zh-growth-gateway-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .zh-growth-gateway-grid a:nth-child(3) {
+    border-left: 1px solid #d9cdb6;
+  }
+
+  .zh-growth-gateway-grid a:nth-child(n + 3) {
+    border-top: 0;
+  }
+
+  .zh-growth-contact {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .zh-growth-gateway {
+    padding: 24px 16px;
+  }
+
+  .zh-growth-gateway-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .zh-growth-gateway-grid a,
+  .zh-growth-gateway-grid a + a,
+  .zh-growth-gateway-grid a:nth-child(3) {
+    border-left: 1px solid #d9cdb6;
+    border-top: 0;
+    min-height: 0;
+  }
+
+  .zh-growth-gateway-grid a:first-child {
+    border-top: 1px solid #d9cdb6;
+  }
+
+  .zh-growth-contact-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .zh-growth-contact-actions .btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  body.zh-home-page .zh-home-hero .hero-inner > div,
+  body.zh-home-page .zh-home-hero .hero-title-block,
+  body.zh-home-page .hero.zh-home-hero p {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  body.zh-home-page .zh-home-hero .hero-title-block h1 {
+    font-size: 34px !important;
+    letter-spacing: -.02em !important;
+    line-height: 1.12 !important;
+  }
+
+  body.zh-home-page .hero.zh-home-hero p {
+    overflow-wrap: anywhere !important;
+    white-space: normal !important;
+  }
+}
+
 /* Cross-border property management — compact owner-desk layout */
 .property-management-hero {
   background: linear-gradient(118deg, #10283f 0%, #10283f 66%, #174753 66%, #174753 100%);
@@ -31371,3 +31593,52 @@ main ul:not([class]) > li {
 
 /* Keep wide comparison tables scrollable within this Herald article. */
 .article-kyung-hee-english-degrees-application-guide-2027 .zh-herald-main { min-width: 0; }
+
+/* Final funnel sizing overrides: keep service entry headings compact. */
+.consultation-route-hero .band {
+  padding-bottom: 48px !important;
+  padding-top: 48px !important;
+}
+
+.consultation-route-hero h1 {
+  font-size: clamp(2rem, 4.2vw, 3.25rem) !important;
+  line-height: 1.12 !important;
+}
+
+.consultation-route-hero h2 {
+  font-size: clamp(1.15rem, 2.2vw, 1.65rem) !important;
+  line-height: 1.35 !important;
+}
+
+@media (max-width: 620px) {
+  body.zh-home-page .zh-home-hero .hero-inner > div,
+  body.zh-home-page .zh-home-hero .hero-title-block,
+  body.zh-home-page .hero.zh-home-hero p {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  body.zh-home-page .zh-home-hero .hero-title-block h1 {
+    font-size: 30px !important;
+    letter-spacing: -.03em !important;
+    line-height: 1.12 !important;
+    overflow-wrap: normal !important;
+    white-space: nowrap !important;
+    word-break: normal !important;
+  }
+
+  body.zh-home-page .hero.zh-home-hero p {
+    display: block !important;
+    font-size: 15px !important;
+    height: auto !important;
+    max-width: calc(100vw - 32px) !important;
+    overflow: visible !important;
+    overflow-wrap: anywhere !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    width: calc(100vw - 32px) !important;
+    word-break: break-all !important;
+  }
+}

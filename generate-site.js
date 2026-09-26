@@ -24805,9 +24805,10 @@ const chineseEntrance = pageShell({
             <h1>海外督導｜雙語世界</h1>
             <h2 class="hero-subhead">Overseas Tutorial Centre · 海外督導</h2>
           </div>
-          <p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p>
+          <p>先分清楚需求，再進入合適的學校、課程、申請或職涯路線。</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#open-learning-platform">開始學習</a>
+            <a class="btn btn-primary" href="/consultation-chat/?source=zh-home&amp;intent=route-check">免費路線初判</a>
+            <a class="btn btn-secondary" href="#open-learning-platform">學習平台</a>
             <a class="btn btn-secondary" href="/zh/summer-school-alliance/">暑校聯盟</a>
             <a class="btn btn-secondary" href="/zh/private-school-alliance/">私校聯盟</a>
             <a class="btn btn-secondary" href="/international-curriculum-tutoring/">課程輔導</a>
@@ -24826,6 +24827,38 @@ const chineseEntrance = pageShell({
         </aside>
       </div>
       <a class="zh-hero-service-button" href="/zh/services/">服務導覽台 →</a>
+    </section>
+
+    <section class="band compact-band zh-growth-gateway" aria-labelledby="zh-growth-gateway-title">
+      <div class="zh-growth-gateway-head">
+        <span>START WITH YOUR NEED</span>
+        <h2 id="zh-growth-gateway-title">你現在需要處理哪一件事？</h2>
+        <p>先選最接近的情況。每個入口都會帶你到可直接行動的頁面，不用先讀完整個網站。</p>
+      </div>
+      <div class="zh-growth-gateway-grid">
+        <a href="/university-applications/?source=zh-home#otc-apply-form">
+          <b>01</b><strong>升學與申請</strong><span>本科、碩士、轉學、advanced entry、文件與時間線。</span><em>開始申請初篩 →</em>
+        </a>
+        <a href="/zh/summer-school-alliance/?source=zh-home">
+          <b>02</b><strong>寒暑校與低齡路線</strong><span>國家、年齡、住宿、監護、費用與項目匹配。</span><em>查看寒暑校入口 →</em>
+        </a>
+        <a href="/zh/australia-vet-tafe-pathways/?source=zh-home">
+          <b>03</b><strong>澳洲職業與培訓</strong><span>VET、TAFE、轉專業、就業準備與課程證據。</span><em>查看澳洲路線 →</em>
+        </a>
+        <a href="/international-curriculum-tutoring/?source=zh-home">
+          <b>04</b><strong>在讀輔導與英文</strong><span>A-Level、BTEC、IB、AP、學術英文與學習工具。</span><em>查看學習支持 →</em>
+        </a>
+      </div>
+      <aside class="zh-growth-contact">
+        <div>
+          <span>不確定選哪一類？</span>
+          <strong>提供目前學歷、目標國家、計畫時間和大約預算，我們先幫你判斷入口。</strong>
+        </div>
+        <div class="zh-growth-contact-actions">
+          <a class="btn btn-dark" href="/consultation-chat/?source=zh-home&amp;intent=route-check">免費初步判斷</a>
+          <a class="btn btn-light" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我從 OTC 中文首頁進來，想做免費路線初判。目前學歷：；目標國家／服務：；計畫時間：；大約預算：。")}" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </aside>
     </section>
 
     <section class="band compact-band zh-home-top-links">
@@ -24952,6 +24985,8 @@ const chineseEntrance = pageShell({
         </div>
       </div>
     </section>
+
+    <script defer src="/_vercel/speed-insights/script.js"></script>
 
   `
 });
@@ -33517,41 +33552,57 @@ const othmAustraliaExpansionReportZh = pageShell({
 });
 
 const consultationChat = pageShell({
-  title: "Consultation AI | OTC Study Hub",
+  title: "免費路線初判｜OTC 海外督導",
   current: "resources",
+  lang: "zh-Hant",
+  locale: "zh",
+  path: "/consultation-chat/",
+  description: "OTC 海外督導免費路線初判：按目前學歷、目標國家、計畫時間、需求與預算，先判斷合適的申請、課程或諮詢入口。",
   body: `
-    <section class="page-hero"><div class="band"><div class="eyebrow">Education Consulting</div><h1>Consultation AI</h1><p>Instant first-response guidance for English-taught study routes, transfers, progression, academic guardianship and complex education cases.</p></div></section>
+    <section class="page-hero consultation-route-hero"><div class="band"><div class="eyebrow">OTC ROUTE CHECK</div><h1>免費路線初判</h1><h2>先把情況說清楚，再決定下一步。</h2><p>請提供目前學歷、目標國家或服務、計畫時間、主要困難與大約預算。系統會先整理方向與所需文件，再決定是否需要人工諮詢。</p></div></section>
+    <section class="band compact-band">
+      <div class="section-head compact-head"><div class="eyebrow">OTC Free Application Flow</div><h2>免費代辦申請流程</h2><p>先做需求匹配，再按院校官方要求準備及提交；服務本身不等於錄取或簽證保證。</p></div>
+      <div class="school-service-cards">
+        <article><b>01</b><strong>提交基本資料</strong><p>提供學歷、成績單、英文程度、目標國家／專業、預算及申請時間。</p></article>
+        <article><b>02</b><strong>需求匹配</strong><p>按學術背景、課程要求、城市、住宿及時間整理院校選項。</p></article>
+        <article><b>03</b><strong>官方要求核對</strong><p>核對入學條件、文件、截止日期、費用及重修／轉學要求。</p></article>
+        <article><b>04</b><strong>申請協調</strong><p>協助整理文件、填寫資料及按院校指定渠道提交。</p></article>
+        <article><b>05</b><strong>結果跟進</strong><p>協助理解 offer、補件及下一步安排，院校收費按官方確認。</p></article>
+        <article><b>06</b><strong>佣金安排</strong><p>如院校設有正式 agent commission，按書面合作政策處理，不收隱藏代辦費。</p></article>
+      </div>
+      <div class="actions"><a class="btn btn-dark" href="mailto:office@overseasuk.com?subject=OTC%E5%85%8D%E8%B2%BB%E4%BB%A3%E8%BE%A6%E7%94%B3%E8%AB%8B">開始免費代辦</a></div>
+    </section>
     <section class="band two-col">
       <div>
         <div class="chat-app" data-chat-app>
           <div class="chat-window" data-chat-window>
             <div class="chat-message bot">
-              <strong>OTC Consultation AI</strong>
-              <p>Hello. Tell me your target country, current education level, intended subject, deadline and any difficulty such as transfer, refusal, appeal, weak transcript or guardianship need.</p>
-              <p class="zh">你好。請說明目標國家、目前學歷、目標專業、時間要求，以及是否涉及轉學、拒錄、申訴、成績較弱或學術監護等情況。</p>
+              <strong>OTC 路線初判</strong>
+              <p class="zh">你好。請說明目前學歷、目標國家或服務、計畫時間、主要困難與大約預算。首次留言不需要傳護照、財務或其他敏感文件。</p>
+              <p>Hello. Tell us your current education level, target country or service, timeline, main concern and approximate budget. Please do not send sensitive documents at this stage.</p>
             </div>
           </div>
           <div class="quick-prompts">
-            <button type="button" data-prompt="I want to transfer university and need advice on credits and progression.">Transfer</button>
-            <button type="button" data-prompt="I need help choosing an English-taught university pathway.">Pathway</button>
-            <button type="button" data-prompt="I have an appeal or complaint issue with my school or university.">Appeal</button>
-            <button type="button" data-prompt="I need academic guardianship or ongoing study monitoring.">Guardianship</button>
+            <button type="button" data-prompt="我想申請大學或研究生，需要先判斷國家、課程與文件路線。">升學申請</button>
+            <button type="button" data-prompt="我想找寒暑校或低齡國際項目，需要比較年齡、住宿、監護與費用。">寒暑校</button>
+            <button type="button" data-prompt="我想了解澳洲 VET、TAFE、職業培訓或求職準備路線。">澳洲職涯</button>
+            <button type="button" data-prompt="我需要 A-Level、BTEC、IB、AP 或學術英文在讀輔導。">課程輔導</button>
           </div>
           <form class="chat-form" data-chat-form>
             <textarea name="message" rows="3" placeholder="Type your question / 輸入你的問題"></textarea>
-            <button class="btn btn-dark" type="submit">Send</button>
+            <button class="btn btn-dark" type="submit">開始判斷</button>
           </form>
         </div>
       </div>
       <aside class="about-panel">
-        <h3>What this AI can do</h3>
+        <h3>這個入口先做什麼</h3>
         <ul>
-          <li>Identify whether a case is ordinary planning or complex advisory.</li>
-          <li>Suggest documents needed for first review.</li>
-          <li>Explain when paid consulting may apply.</li>
-          <li>Direct learners to courses, apps or human consultation.</li>
+          <li>判斷屬於升學、寒暑校、職涯培訓、在讀輔導或複雜案例。</li>
+          <li>列出首次人工審閱需要的資料。</li>
+          <li>區分免費初判與可能需要收費的深度服務。</li>
+          <li>引導至合適頁面或人工聯絡方式。</li>
         </ul>
-        <p class="notice">This is an instant guidance tool, not legal, visa, immigration, financial or guaranteed-admission advice. Immigration-related matters are signposted to Citizens Advice or another appropriately authorised adviser.</p>
+        <p class="notice">本工具提供教育資訊分流，不構成法律、簽證、移民或財務建議，也不保證錄取、工作或簽證結果。</p>
       </aside>
     </section>
     <script>
@@ -33665,6 +33716,10 @@ const consultationChat = pageShell({
       prompts.forEach((button) => button.addEventListener("click", () => submitMessage(button.dataset.prompt)));
 
       const params = new URLSearchParams(window.location.search);
+      if (params.get("source") === "zh-home") {
+        addMessage("bot", "<strong>從中文首頁開始</strong><p class='zh'>請直接回答五項：目前學歷、目標國家／服務、計畫時間、主要困難、大約預算。我們會先幫你把入口分清楚。</p>");
+        chatForm.elements.message.placeholder = "例如：大三在讀，想申請澳洲碩士，預計 2027 年入學，預算約……";
+      }
       if (params.get("source") === "ou" || params.get("source") === "btec" || params.get("source") === "university-module") {
         const isBtecSource = params.get("source") === "btec";
         const isUniversityModuleSource = params.get("source") === "university-module";
@@ -33685,6 +33740,7 @@ const consultationChat = pageShell({
         submitMessage(prompt);
       }
     </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
   `
 });
 
