@@ -28052,6 +28052,7 @@ function summerSchoolCountryPage(route) {
         <div class="section-head compact-head">
           <div class="eyebrow">Australia Summer Routes</div>
           <h2>不同家庭，需要不同澳洲路線</h2>
+          <p><a href="/zh/language-school-alliance/australia/">一般英語、考試準備與升學英語：前往澳洲語校聯盟城市清單 →</a></p>
           <p>有些家庭想先測試英文與城市適應，有些已經開始比較 boarding、homestay、州別教育與私校差異。OTC Australia Summer Alliance 把澳洲短期項目拆成四條主線，先幫家庭找對教育入口，再談具體報名。</p>
         </div>
         <div class="summer-route-pillars">

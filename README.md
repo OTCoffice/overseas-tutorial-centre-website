@@ -68,3 +68,8 @@ node generate-site.js
 `/zh/australia-vet-tafe-pathways/` 及其所有子頁固定採用服務導覽台格局：總覽只做乾淨分流，詳細課程表、官方入口、文件清單和風險提示放在子頁。不要用散亂等寬卡片作為主要架構。若列出院校或 provider，必須顯示院校官方網站與「通過 OTC 辦理」或相應 OTC action button。
 
 公開頁只說 OTC 進行文件初篩、官方來源核對、教育協調與個案跟進；不得披露上級代理鏈、私有平台、商業條款、內部轉介或後台交接記錄。移民、法律、稅務、就業合約、醫療註冊與專業執照等受監管事項，一律寫成官方核對或合資格人士轉介。
+
+
+### Australian language directory (lightweight lists)
+
+Render only this directory with `node scripts/render-australia-language-directory.cjs`. Its source is `content/australia-language-directory.json`; detailed course records live in the linked public Notion database, not PDF/image bundles. The data snapshot is CRICOS 2026-09-01, filtered to English Language 091501, Non AQF Award, Expired=No: 436 distinct provider codes and 1,228 courses. Metro groups preserve original course-location records in Notion; one contradictory TAS / North Melbourne location is marked for verification. This is the full filtered snapshot, not a guarantee that every institution is recruiting today. Website URLs are taken from the official registry (or checked school sites); missing URLs are displayed as pending rather than guessed. Keep the language-school and summer-school alliances separate.
