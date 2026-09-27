@@ -2480,6 +2480,7 @@ function searchItems() {
     ["韓國交換陪跑", "/zh/services/korea-exchange-support/", "選校、課程、學分及行前準備；免費初評，持續陪跑另確認。"],
     ["設計申請陪跑", "/zh/services/design-application-coaching/", "資格、選校、作品回饋與申請進度；免費初評，後續服務及費用先確認。"],
     ["歐洲交換陪跑", "/zh/services/europe-exchange-support/", "決策、選課、均分與學分規則、預算及升碩銜接；免費初評，持續陪跑另確認。"],
+    ["學歷認證與補件協調", "/zh/services/credential-evaluation-document-coordination/", "WES 及同類學歷評估退件診斷、原校重送、收件院校截止日跟進及書面進度管理。"],
     ["Home", "/", "OTC Study Hub overview for consulting, courses, apps and publishing."],
     ["Education Consulting / Global Study Advisory", "/resources/", "Worldwide English-taught education consulting, transfer, guardianship, appeals and complex cases."],
     ["Services", "/services/", "OTC service lines for translation, publishing, academic guardianship, academic events, education fairs and accreditation support."],
@@ -20192,7 +20193,7 @@ function servicesLandingPage(locale = "en") {
 }
 
 const services = servicesLandingPage("en").replace("</main>", require("./content/malaysia-study-links.cjs")("en") + "</main>").replace("</main>", require("./content/visa-support-links.cjs")("en") + "</main>");
-const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/malaysia-study-links.cjs")("zh") + "</main>").replace("</main>", require("./content/visa-support-links.cjs")("zh") + "</main>").replace("</main>", require("./content/vietnam-visa").card + '<section class="band"><h2>設計申請陪跑</h2><p>從資格與選校，到作品回饋及申請進度，免費初步評估後確認服務範圍與費用。</p><p><a href="/zh/services/design-application-coaching/">查看設計申請陪跑服務 →</a></p></section>' + '<section class="band compact-band"><div class="notice"><a href="/zh/services/business-english-study-support/">商業英語陪跑｜每週計劃、寫作與簡報練習 →</a></div></section>' + "</main>");
+const servicesZh = servicesLandingPage("zh").replace("</main>", require("./content/malaysia-study-links.cjs")("zh") + "</main>").replace("</main>", require("./content/visa-support-links.cjs")("zh") + "</main>").replace("</main>", require("./content/vietnam-visa").card + '<section class="band"><h2>設計申請陪跑</h2><p>從資格與選校，到作品回饋及申請進度，免費初步評估後確認服務範圍與費用。</p><p><a href="/zh/services/design-application-coaching/">查看設計申請陪跑服務 →</a></p></section>' + '<section class="band compact-band"><div class="notice"><a href="/zh/services/business-english-study-support/">商業英語陪跑｜每週計劃、寫作與簡報練習 →</a></div></section>' + '<section class="band compact-band"><h2>學歷認證與補件協調</h2><p>WES 或同類學歷評估退件、無法驗證、文件未收或臨近截止日：核對要求、協調原校重送並跟進收件院校。</p><a class="button" href="/zh/services/credential-evaluation-document-coordination/">查看流程、報價與委託協議 →</a></section>' + "</main>");
 
 const crossBorderPropertyManagementZh = pageShell({
   title: "海外督導｜跨境房產管理 | OTC Study Hub",
@@ -34533,6 +34534,7 @@ write("zh/services/animation-portfolio-support", require("./content/animation-po
 write("zh/services/australia-transfer-release-support", require("./content/australia-release-service.cjs")());
 write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("zh/services/design-application-coaching", require("./content/design-application-service.cjs")());
+write("zh/services/credential-evaluation-document-coordination", require("./content/credential-evaluation-support.cjs")());
 write("search", search);
 write("about", about);
 write("lms-review", lmsReview);
