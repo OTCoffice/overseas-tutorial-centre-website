@@ -3413,6 +3413,63 @@ require("./content/korea-exchange-guide.json"),
 require("./content/polyu-radiography-guide.json"),
 require("./content/udk-exchange-guide.json"),
 {
+  "slug": "us-summer-work-travel-final-year-eligibility-check-2026",
+  "chineseOnly": true,
+  "title": "Can Final-Year Students Still Apply for US Summer Work Travel?",
+  "titleZh": "知識小鐵｜大四還能報美國 SWT 嗎？",
+  "date": "2026-09-27",
+  "heraldLayout": "stacked",
+  "category": "Study Planning",
+  "column": "study",
+  "kicker": "海外督導 OTC · 美國交流 · Summer Work Travel",
+  "author": "海外督導 OTC 編輯部",
+  "summary": "A concise eligibility check for final-year students considering the BridgeUSA Summer Work Travel programme.",
+  "summaryZh": "大四學生能否參加美國 Summer Work Travel，不能只看年級；應把正式畢業日、項目日期、在讀證明與指定 sponsor 的書面判斷放在同一張時間表核對。",
+  "shareImageZh": "/assets/social/knowledge-note-us-swt-final-year-20260927.png",
+  "socialImageVersion": "v=20260927-1",
+  "resources": [
+    [
+      "BridgeUSA｜Summer Work Travel",
+      "https://j1visa.state.gov/programs/summer-work-travel/"
+    ]
+  ],
+  "body": [],
+  "bodyZh": [
+    {
+      "heading": "答案不是只看「大四」兩字",
+      "paragraphs": [
+        "關鍵是項目期間是否仍符合全日制在讀及攻讀學位資格。正式畢業月份、學校長假與項目開始及結束日期，應放在同一條時間線上核對；若項目跨過畢業時間，不宜只依賴機構口頭說法。",
+        "最穩妥的做法，是請實際承辦項目的美國國務院指定 sponsor 按學生的在讀證明、畢業日期與項目日期作書面確認。不同機構停止招生或仍接受報名，都不能替代 sponsor 的資格判斷。"
+      ]
+    },
+    {
+      "heading": "官方基本條件先核對",
+      "paragraphs": [
+        "BridgeUSA 現行說明要求參加者為美國以外高等院校的全日制學生並積極修讀學位或其他完整課程，至少已完成一學期，且具足夠英語能力。項目最長四個月，參加者須在學校開學前回國。",
+        "這些是項目層面的基礎條件。學生仍需通過 sponsor、僱主及簽證程序的個別審核；報名、繳費或拿到初步職位資訊，都不等於已獲 sponsor 接納或 J-1 簽證。"
+      ]
+    },
+    {
+      "heading": "報名前的三步判斷",
+      "paragraphs": [
+        "第一步：整理正式畢業日、項目起止日、長假日期與下一學期開學日。第二步：把在讀證明、學校日曆及護照國籍交給指定 sponsor 作書面資格確認。第三步：在確認資格後，再比較職位、工時、薪資、住宿、交通、退款條款及簽證時間。",
+        "一家機構不再收件，不等於所有合規渠道都已關閉；但也不應因另一家機構仍在招生，就推定一定符合資格。若已不符合 SWT，再另行了解 J-1 Intern 等不同類別，兩者不能混為一談。"
+      ]
+    },
+    {
+      "heading": "海外督導可以協助甚麼",
+      "paragraphs": [
+        "海外督導 OTC 學生服務部可協助整理資格與時間線、核對 sponsor／合作機構、比較協議及成本、準備英文面試，並協調簽證文件與行前事項。",
+        "OTC 提供教育資訊整理與申請協調，不代表美國 sponsor、僱主或簽證機關；不承諾職位、DS-2019、簽證或入境結果。需要個案法律判斷時，應轉介具資格的美國移民律師。聯絡：office@overseasuk.com；WhatsApp：+44 7947 991572。"
+      ]
+    }
+  ],
+  "factCheckNotes": [
+    "資料核查日期：2026-09-27。核心資格與項目時限依 BridgeUSA Summer Work Travel 官方頁面整理。",
+    "本文為一般教育資訊，不構成法律或簽證意見；實際資格及結果以指定 sponsor、學校、美國使領館與主管機關的個案審核為準。"
+  ]
+},
+{
   "slug": "politics-of-visa-refusal-opt-reentry-anonymous-case",
   "chineseOnly": true,
   "title": "The Politics of Visa Refusal: OPT Re-entry Anxiety Near the End of an Internship",
