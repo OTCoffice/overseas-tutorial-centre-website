@@ -2506,7 +2506,7 @@ function searchItems() {
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
     ["海外督導｜跨境房產管理", "/zh/cross-border-property-management/", "海外業主收樓交接、租務協調、維修調度、供應商對接、文件與付款證據整理及定期雙語業主報告。"],
-    ["海外督導｜美國 SWT 打工度假陪跑", "/zh/us-swt-work-travel-support/", "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、成本合約、簽證面談、住宿交通及行前準備。"],
+    ["海外督導｜美國 SWT 暑期工遊｜全程陪跑", "/zh/us-swt-work-travel-support/", "美國 Summer Work Travel 資格初評、指定 sponsor 與職位核對、成本合約、簽證面談、住宿交通及行前準備。"],
     ["中文", "/zh/", "OTC Study Hub 中文頁：教育諮詢、國際課程雙語輔導、BTEC / A-Level / IB 支援、教輔出版與聯絡方式。"],
     ["留學規劃", "/zh/study-planning/", "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。"],
     ["移民資訊", "/zh/immigration-info/", "OTC 中文移民資訊入口：按國別整理留學後工作、職業路線、官方政策入口與合規邊界。"],
@@ -19842,7 +19842,7 @@ const serviceProducts = [
   {
     code: "15",
     title: "US Summer Work Travel Route Support",
-    titleZh: "海外督導｜美國 SWT 打工度假陪跑",
+    titleZh: "海外督導｜美國 SWT 暑期工遊｜全程陪跑",
     slug: "us-swt-work-travel-support",
     type: "US exchange route support",
     audience: "Students and recent graduates who need a clear check of Summer Work Travel eligibility, designated sponsors, job terms, budgets and possible J-1 alternatives.",
@@ -20334,7 +20334,7 @@ const crossBorderPropertyManagementZh = pageShell({
 });
 
 const usSwtWorkTravelSupportZh = pageShell({
-  title: "海外督導｜美國 SWT 打工度假陪跑 | OTC Study Hub",
+  title: "海外督導｜美國 SWT 暑期工遊｜全程陪跑 | OTC Study Hub",
   current: "services",
   locale: "zh",
   lang: "zh-Hant",
@@ -20343,13 +20343,13 @@ const usSwtWorkTravelSupportZh = pageShell({
   image: "/assets/social/otc-us-swt-work-travel-page-preview-20260913.png?v=20260913-2",
   imageWidth: 1200,
   imageHeight: 630,
-  imageAlt: "海外督導｜美國 SWT 打工度假陪跑",
+  imageAlt: "海外督導｜美國 SWT 暑期工遊｜全程陪跑",
   body: `
     <section class="swt-service-hero">
       <div class="band swt-service-hero-grid">
         <div>
           <div class="eyebrow">US SUMMER WORK TRAVEL</div>
-          <h1>海外督導｜美國 SWT 打工度假陪跑</h1>
+          <h1>海外督導｜美國 SWT 暑期工遊｜全程陪跑</h1>
           <h2>先確認出發時的學生身分，再算這趟值不值得。</h2>
           <p>Summer Work Travel 是美國 J-1 文化交流項目，不是一般的「畢業後打工簽」。我們先看畢業與出發時間，再核對 sponsor、職位、成本、住宿和交通。</p>
           <div class="actions">
