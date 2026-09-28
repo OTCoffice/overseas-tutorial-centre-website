@@ -1,0 +1,3 @@
+module.exports=lang=>lang==='zh'
+ ? '<section class="band compact-band"><h2>英國 Global Talent 簽證陪跑</h2><p>學術研究、藝術文化與數碼科技人才：梳理官方路線、既有成果、證據目錄與申請節點。初談免費；收費與交付先書面確認。</p><a class="button" href="/zh/services/global-talent-support/">查看 GTV 陪跑服務 →</a></section>'
+ : '<section class="band compact-band"><h2>UK Global Talent preparation support</h2><p>For research, arts and culture, and digital technology talent: official routes, existing achievements, evidence index and timeline. Free initial enquiry; agree fees and deliverables in writing.</p><a class="button" href="/services/global-talent-support/">Explore Global Talent support →</a></section>';
