@@ -2595,7 +2595,7 @@ function routePath(route) {
 }
 
 function write(route, html) {
-  if ([".", "zh", "services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
+  if (["services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
   const dir = path.join(root, route);
   fs.mkdirSync(dir, { recursive: true });
   const publicPath = routePath(route);
