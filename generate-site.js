@@ -1860,7 +1860,7 @@ const canadaBilingualHub = {
     ],
     serviceTitle: "加拿大院校申請支援",
     serviceText: "符合基本條件及服務範圍的學生，可獲免費初步評估、選校建議、材料清單、院校申請遞交及一般進度跟進。若院校實際支付招生佣金，任何學生回饋安排以個案書面確認為準。院校申請費、翻譯認證、考試、學費、簽證及第三方費用不包含在免費服務內。OTC 不保證錄取、簽證、PGWP、工作或移民結果。",
-    officialTitle: "官方核對入口",
+    officialTitle: "官方網站",
     disclaimer: "本頁為教育資訊與申請協調說明，不構成移民或法律意見。規則會變動，正式申請以 IRCC、EduCanada、院校及相關省份的當日要求為準。"
   },
   en: {
@@ -2080,7 +2080,7 @@ const hongKongBilingualHub = {
     serviceTitle: "海外督導香港留學代辦服務範圍",
     serviceIntro: "我們把申請拆成可以追蹤、可以留痕、可以向院校核對的五個階段。",
     serviceSteps: [
-      ["01", "背景初評", "核對院校背景、GPA、專業、工作經驗、語言成績、入學年份與預算。"],
+      ["01", "選校準備", "核對院校背景、GPA、專業、工作經驗、語言成績、入學年份與預算。"],
       ["02", "選校選專業", "建立衝刺、匹配與穩妥方案，逐項標示硬性門檻、補件風險與截止日期。"],
       ["03", "文件準備", "整理成績單、學位證明、CV、推薦信、個人陳述、MOI／IELTS 及課程指定材料。"],
       ["04", "遞交與跟進", "協調申請表、文件上傳、院校電郵、補件、面試與 Offer 條件核對。"],
@@ -2098,7 +2098,7 @@ const hongKongBilingualHub = {
     caseLink: "查看 @overseas_uk 公開回覆",
     feeTitle: "免費代辦不等於隱藏收費或保證錄取",
     feeText: "對符合 OTC 服務範圍的院校與課程，學生不需支付申請代辦服務費。院校申請費、考試費、翻譯／認證、學費訂金、學費、簽證費及其他第三方費用仍由學生承擔。院校保留最終錄取權，OTC 不出售錄取、不代寫材料，也不承諾結果。",
-    officialTitle: "官方核對入口",
+    officialTitle: "官方網站",
     disclaimer: "本頁資料核查於 2026 年 8 月 29 日，僅作教育申請資訊與流程說明。院校要求、截止日期、簽證及畢業後安排會變動；正式申請前須以院校、香港入境事務處及其他主管機關的現行規則為準。"
   },
   en: {
@@ -2189,74 +2189,74 @@ const icelandBilingualHub = {
   zh: {
     language: "zh-Hant", current: "zh", prefix: "/zh/countries/iceland", home: "/zh/",
     switchHref: "/countries/iceland/", switchLabel: "English version",
-    eyebrow: "海外督導 OTC · 冰島留學 · 2026 官方資料版",
-    title: "冰島留學完整指南",
-    subtitle: "先核對授課語言、課程、預算與居留，再決定是否出發",
-    intro: "冰島的英文授課優勢主要集中在碩士與博士；英文本科選擇相對有限。OTC 以具體課程而不是國家想像做初評，逐項核對授課語言、學歷銜接、費用、居留與畢業出口。",
+    eyebrow: "海外督導 OTC · 冰島留學",
+    title: "冰島留學",
+    subtitle: "大學、費用與申請",
+    intro: "冰島大部分本科以冰島語授課，英語課程主要集中在碩士和博士。選校時，先了解課程語言、入學要求和費用。",
     updated: "官方資料核查：2026 年 8 月 30 日",
-    apply: "提交冰島留學初評",
+    apply: "留學諮詢",
     back: "返回中文首頁",
-    factsTitle: "先知道這四件事",
-    factsIntro: "冰島沒有統一的大學申請系統，各校自行設定課程、截止日期、語言要求與費用。",
+    factsTitle: "概況",
+    factsIntro: "申請直接向各校提交，截止日期和要求由學校公布。",
     facts: [
       ["7 所大學", "冰島共有七所大學，涵蓋綜合研究、科技、商科、藝術、農業、海洋與區域研究。"],
-      ["英文本科較少", "大部分本科以冰島語授課；英語選擇在研究生階段更完整，申請前必須核對課程當年度語言。"],
+      ["英文本科較少", "大部分本科以冰島語授課，英語授課的碩士和博士選擇較多。"],
       ["3–4 年本科", "冰島本科一般為 180–240 ECTS、3–4 年；全日制學生居留通常按每學期 30 ECTS 核對。"],
-      ["直接向學校申請", "沒有中央申請平台；國際生截止日期多在春季，但實際日期、文件和申請費以每校每課程為準。"]
+      ["直接向學校申請", "各校分別接受申請，截止日期、所需材料和申請費可在課程網站查閱。"]
     ],
-    routesTitle: "六條可行路線，不把『實用』等同於容易",
-    routesIntro: "先選可學到的技能與可接受的語言，再看城市和校名。受監管職業還要另外核對冰島語及專業註冊。",
+    routesTitle: "課程",
+    routesIntro: "以下介紹常見選擇。若打算從事醫療、教育等受監管職業，還需了解當地語言和專業註冊要求。",
     routes: [
-      ["英文本科", "現行選擇有限；以 Study in Iceland 的英語課程目錄及院校頁逐項確認，不預設所有本科都有英文班。"],
+      ["英文本科", "選擇較少，可在 Study in Iceland 和院校網站查找英語授課課程。"],
       ["英文碩士", "較適合已有相關本科背景者，常見方向包括電腦、工程、能源、商科、心理、極地與海岸管理。"],
-      ["科技與產業技能", "可研究電腦、工程、能源與資料方向；部分院校英文教學集中於研究生層級，本科常需冰島語。"],
-      ["農業、海洋與環境", "農業大學、Hólar、Akureyri 及西峽灣相關機構有特色，但地點、實習、季節與授課語言須逐課核對。"],
-      ["藝術、設計與創意", "冰島藝術大學涵蓋藝術、設計、建築、音樂、舞蹈與藝術教育；作品集、面試與語言條件可能並行。"],
-      ["交換與短期學習", "如所屬大學有 Erasmus+ 或校際協議，交換往往比直接申請完整學位更適合先體驗冰島學習與生活。"]
+      ["科技與工程", "包括電腦、工程、能源與資料科學，英語授課多集中在研究生階段。"],
+      ["農業、海洋與環境", "可了解冰島農業大學、Hólar、Akureyri 及西峽灣相關課程，並查閱上課地點、授課語言和實習安排。"],
+      ["藝術、設計與創意", "冰島藝術大學設有藝術、設計、建築、音樂、舞蹈及藝術教育課程，部分申請需要作品集、試演或面試。"],
+      ["交換與短期學習", "可向目前就讀的大學查詢 Erasmus+ 或校際交換名額，短期體驗冰島的學習與生活。"]
     ],
-    universityTitle: "七所大學與初步定位",
-    universityIntro: "以下是定位索引，不代表每個方向都有英文學位、當年招生或 OTC 正式代理權；正式選校以具體課程頁為準。",
+    universityTitle: "大學",
+    universityIntro: "以下為各校簡介；授課語言和招生課程請查院校網站。",
     admissionTitle: "流程",
     admissionSteps: [
-      ["01", "背景初評", "整理最高學歷、完整成績、專業先修、工作經歷、英文／冰島語、預算和目標入學季。"],
-      ["02", "課程與語言", "只列當年度仍招生且授課語言適合的課程，標記先修、作品集、研究計畫或面試要求。"],
-      ["03", "申請文件", "按校方清單準備護照、成績單、畢業證明、語言成績、CV、動機信、推薦信及課程特定材料。"],
-      ["04", "直接申請院校", "冰島無中央申請系統；逐校遞交、支付適用費用、回覆補件並核對 offer 是否無條件。"],
-      ["05", "居留與抵達", "非 EEA/EFTA 學生在錄取後準備資金、保險、無犯罪記錄與學生居留；住宿應與申請同步尋找。"]
+      ["01", "選校準備", "整理學歷、成績和語言程度，確定預算及入學時間。"],
+      ["02", "選擇課程", "查看課程語言、入學要求及截止日期。"],
+      ["03", "申請文件", "按學校清單準備材料，研究或藝術課程可能另需研究計畫、作品集。"],
+      ["04", "提交申請", "向各校提交申請、繳付費用，收到錄取後確認是否仍有條件需要完成。"],
+      ["05", "行前準備", "錄取後辦理所需學生居留，準備資金、保險等文件，並盡早安排住宿。"]
     ],
     documentsTitle: "申請材料",
     documents: [
       ["學歷與成績", "完整成績單、畢業／在讀證明、學位證明、評分制度及必要的官方翻譯。"],
       ["語言證明", "IELTS／TOEFL 或院校接受的替代證明；冰島語授課本科須另按課程要求證明冰島語。"],
-      ["申請敘事", "CV、動機信、推薦人資料；研究型課程可能要求研究構想，藝術課程可能要求作品集或試演。"],
+      ["履歷與文書", "CV、動機信、推薦人資料；研究型課程可能要求研究構想，藝術課程可能要求作品集或試演。"],
       ["居留文件", "無條件全日制錄取、有效護照、照片、無犯罪記錄、醫療保險及可核驗的生活資金證明。"]
     ],
-    costTitle: "費用與生活預算：不要只看『公立免學費』",
+    costTitle: "費用",
     costItems: [
-      ["公立與私立不同", "Study in Iceland 說明公立大學一般收註冊／行政費，私立院校可收學費；每校、每課程及身份分類不同。"],
+      ["學費", "公立大學一般收取註冊或行政費，私立院校可收學費；實際收費取決於院校、課程、入學年份和學生身分。"],
       ["University of Iceland 2026/27", "全年註冊費為 ISK 100,000；非 EEA/EFTA 新申請人另有 ISK 20,000 處理費。2026 秋季入學者暫不收學費。"],
-      ["2027 起可能改變", "冰島政府已授權公立大學自 2027 秋季起向非 EEA/EFTA／瑞士學生收學費；University of Iceland 的金額仍待確定。"],
-      ["居留資金不是全部預算", "2026 年學生居留最低生活資金為每月 ISK 259,951。這是官方門檻，不是房租、押金、交通、保險與個人生活的完整報價。"],
-      ["獎學金須逐校查", "獎學金主要由院校自行提供；冰島政府面向外國學生的代表性項目集中於冰島語、文學與歷史學習，不應預設一般學位都有全額資助。"]
+      ["2027 年學費", "冰島政府已授權公立大學自 2027 秋季起向非 EEA/EFTA／瑞士學生收學費；University of Iceland 的金額仍待確定。"],
+      ["生活費", "2026 年學生居留最低生活資金為每月 ISK 259,951。實際開支需按住宿及生活安排另估，並預備押金、交通和保險費。"],
+      ["獎學金", "獎學金可向各校查詢。冰島政府面向外國學生的代表性項目主要資助冰島語、文學與歷史學習，一般學位的資助須另查。"]
     ],
-    residenceTitle: "學生居留、工作與畢業後：三件事分開看",
+    residenceTitle: "居留與工作",
     residenceItems: [
       ["學生居留", "非 EEA/EFTA 申請人通常須持無條件全日制錄取，每學期 30 ECTS，並提交護照、無犯罪記錄、保險與資金證明。"],
       ["在學工作", "自 2026 年 6 月新規起，有效學生居留持有人在學期間可工作至全職的 60%，假期可全職；毋須另辦工作許可，但不得自僱。"],
-      ["何時可以開始工作", "首次申請者在學生居留尚未簽發前不可開始工作；續簽時須申報工作情況，超時可能影響工作權。"],
-      ["畢業後求職", "在冰島完成學士、碩士或博士者，可按條件申請畢業後求職居留，作為轉往專業工作居留的橋樑；並非自動取得工作或永居。"]
+      ["開始工作", "首次申請者在學生居留尚未簽發前不可開始工作；續簽時須申報工作情況，超時可能影響工作權。"],
+      ["畢業後求職", "在冰島完成學士、碩士或博士者，可按條件申請畢業後求職居留。找到工作後，仍需符合相應工作居留要求。"]
     ],
-    livingTitle: "住宿、醫療、語言與落地生活",
+    livingTitle: "生活",
     livingItems: [
-      ["住宿", "多數大學附近有學生住房，但名額不保證。應在收到錄取後立即向學校國際處與學生住房機構查詢，同時準備私人租房備選。"],
+      ["住宿", "可向學校國際處查詢學生住房，名額有限，建議同時了解私人租屋。"],
       ["醫療保險", "EU/EEA 學生通常攜帶 EHIC；非 EU 學生抵達前須備妥合規醫療保險，登記法定住所三個月後才會自動納入冰島國家醫保。"],
-      ["冰島語", "英語在日常生活中廣泛使用，但冰島語是官方語言。若目標是本地服務、教育、醫療或長期工作，學習冰島語會直接影響就業選項。"],
-      ["氣候與城市", "Reykjavík 機會與服務較集中；Akureyri、Bifröst、Hólar 等地生活尺度不同。需把冬季日照、天氣、交通與實習地點納入選校。"]
+      ["冰島語", "日常生活可使用英語。若希望在當地長期工作，尤其是服務、教育或醫療領域，學習冰島語會有幫助。"],
+      ["氣候與城市", "Reykjavík 的工作機會和生活服務較集中。選擇其他城鎮時，可一併了解交通、冬季日照和實習地點。"]
     ],
-    serviceTitle: "OTC 冰島留學申請支援",
-    serviceText: "OTC 可協助做課程與授課語言初篩、背景與先修核對、文件清單、院校申請協調、offer 條件整理，以及學生居留與行前文件的官方入口核對。服務範圍、院校合作狀態及收費在個案啟動前書面確認；OTC 不宣稱未經確認的代理權，不保證錄取、簽證、工作或移民結果。受監管的移民、法律與專業註冊事項會以官方來源或合資格人士意見為準。",
-    officialTitle: "官方核對入口",
-    disclaimer: "本頁最後核查於 2026 年 8 月 30 日，為教育申請資訊，不構成法律或移民意見。課程、語言、費用、資金門檻、居留與工作規則會變動，行動前請重新核對官方現行版本。"
+    serviceTitle: "OTC 申請服務",
+    serviceText: "OTC 可協助選校、整理申請材料、跟進院校回覆及準備行前文件。服務內容與費用會事先書面確認；錄取由院校決定，居留由主管機關審批。涉及法律或專業註冊的問題，可協助轉介合資格人士。",
+    officialTitle: "官方網站",
+    disclaimer: "資料核查日期：2026 年 8 月 30 日。申請要求、費用與居留規定可能調整，請以院校及政府最新公告為準。"
   },
   en: {
     language: "en", current: "applications", prefix: "/countries/iceland", home: "/",
@@ -2362,7 +2362,7 @@ function icelandHubPage(locale = "en") {
     ? [university[2], university[1], university[4]]
     : [university[1], university[2], university[3]];
   return pageShell({
-    title: isZh ? "冰島留學完整指南 2026 | 海外督導 OTC" : "Study in Iceland: Complete 2026 Guide | OTC",
+    title: isZh ? "冰島留學 2026 | 海外督導 OTC" : "Study in Iceland: Complete 2026 Guide | OTC",
     current: copy.current, lang: copy.language, locale, path: `${copy.prefix}/`, alternatePath: copy.switchHref, description: copy.intro,
     body: `
       <section class="page-hero regional-office-hero country-gateway-hero country-iceland-2026"><div class="band"><div class="eyebrow">${copy.eyebrow}</div><h1>${copy.title}</h1><h2>${copy.subtitle}</h2><p>${copy.intro}</p><div class="country-hero-chips"><span><strong>7</strong>${isZh ? "所大學" : "universities"}</span><span><strong>180–240</strong>ECTS</span><span><strong>2026</strong>${isZh ? "工作規則已更新" : "work rules updated"}</span></div><div class="actions"><a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("Iceland study initial review")}">${copy.apply}</a><a class="btn btn-secondary" href="${copy.switchHref}">${copy.switchLabel}</a><a class="btn btn-secondary" href="${copy.home}">${copy.back}</a></div></div></section>
@@ -6670,7 +6670,7 @@ require("./content/udk-exchange-guide.json"),
         heading: "三、什麼項目更接近 innovation 敘事",
         paragraphs: [
           "較接近的方向可能包括：能商業化的教育科技、醫療健康技術、AI 或自動化工具、清潔能源、農業科技、網安、先進製造、創意科技、科研成果轉化，或已與澳洲 incubator、accelerator、university、state innovation agency 建立連接的項目。",
-          "申請敘事不能只寫『我想創業』。更有用的材料通常包括：產品或服務說明、技術或市場壁壘、traction、客戶或合作方證據、融資或 revenue、知識產權、創始人履歷、澳洲商業化計劃，以及為何澳洲是合理落點。"
+          "履歷與文書不能只寫『我想創業』。更有用的材料通常包括：產品或服務說明、技術或市場壁壘、traction、客戶或合作方證據、融資或 revenue、知識產權、創始人履歷、澳洲商業化計劃，以及為何澳洲是合理落點。"
         ]
       },
       {
@@ -8868,7 +8868,7 @@ require("./content/udk-exchange-guide.json"),
     author: "留學導報編輯部",
     summary: "A practical OTC briefing on the newly announced SOAS Taiwan Studies scholarship opportunity backed by Taiwan’s NSTC, including what is already clear from official SOAS sources, what applicants should verify before submission, and why this scholarship deserves attention beyond the headline amount.",
     titleZh: "SOAS 台灣研究獎學金開放申請：這筆 2026/27 funding 為什麼值得立刻看？",
-    summaryZh: "SOAS 近期正式宣布獲得臺灣國家科學及技術委員會（NSTC）支持，將擴大 Taiwan Studies 的 scholarship、研究交流與學術活動。對有意申請 MA Taiwan Studies 或以台灣研究為主題研究學位的人來說，這不是一條可有可無的小獎學金消息，而是一個很值得立刻盤清條件、時程與申請敘事的 funding 窗口。",
+    summaryZh: "SOAS 近期正式宣布獲得臺灣國家科學及技術委員會（NSTC）支持，將擴大 Taiwan Studies 的 scholarship、研究交流與學術活動。對有意申請 MA Taiwan Studies 或以台灣研究為主題研究學位的人來說，這不是一條可有可無的小獎學金消息，而是一個很值得立刻盤清條件、時程與履歷與文書的 funding 窗口。",
     relatedReadings: [
       "uk-second-masters-scholarship-funding-guide-2026",
       "uk-personal-statement-evidence-first-checklist",
@@ -8953,7 +8953,7 @@ require("./content/udk-exchange-guide.json"),
         ]
       },
       {
-        heading: "四、這種獎學金最怕的不是沒成績，而是申請敘事空",
+        heading: "四、這種獎學金最怕的不是沒成績，而是履歷與文書空",
         paragraphs: [
           "對 Taiwan Studies 這類較聚焦的 funding 來說，真正會拉開差距的，往往不是單純成績單，而是申請邏輯。你需要回答的不只是『我想去 SOAS』，而是：<b>為什麼是台灣？為什麼是現在？為什麼是 SOAS？你的研究關心、語言能力、社會觀察或職涯目標，和這個板塊到底怎麼接？</b>",
           "如果這幾個問題講不清楚，那麼即使你 academic profile 不差，也很容易顯得只是來拿 funding。相反地，如果你的申請能讓人看見你和 Taiwan Studies 之間有真實而持續的連結，這類專項獎學金通常會更看得到你。"
@@ -13931,7 +13931,7 @@ require("./content/udk-exchange-guide.json"),
               ]
       },
       {
-        heading: "合規的申請敘事：展示準備度，而不是承諾結果",
+        heading: "合規的履歷與文書：展示準備度，而不是承諾結果",
         paragraphs: [
                 "Personal Statement / SOP 與面試建議聚焦在「準備度訊號」：你了解模組、你有可執行的學習計劃、例子有證據、也明白錄取取決於校方標準與整體競爭情況。",
                 "如果你仍在 Business／Marketing／Media 之間猶豫，可以用更成熟的方式呈現：說明你如何用 evidence pack 來做路線 test-fit，以及未來 6–8 週你會做哪些行動（補課、做專題、閱讀與反思）來降低不確定性。"
@@ -17653,7 +17653,7 @@ require("./content/udk-exchange-guide.json"),
       {
         heading: "家長真正要比的，不只是名氣，而是這幾個隱形差異",
         paragraphs: [
-                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>比較點</th><th>家長應該問什麼</th><th>OTC 會怎麼幫你看</th></tr></thead>\n              <tbody>\n                <tr><td>年齡與成熟度</td><td>孩子能否承受 residential group life？是否需要高監護？</td><td>先看年齡，不夠成熟的不往過度自由或過度專業的項目推。</td></tr>\n                <tr><td>英文程度</td><td>是去補 spoken confidence，還是已能進入 subject-heavy seminar？</td><td>把英文適應和課程難度拆開看，避免『英文不夠卻硬上專業營』。</td></tr>\n                <tr><td>項目定位</td><td>到底是語言營、學術營，還是職涯模擬？</td><td>把 brochure 裡的包裝語言翻成家長能判斷的真實結構。</td></tr>\n                <tr><td>照看與住宿</td><td>住宿誰管？晚上活動誰盯？接送誰接？</td><td>逐項核對 accommodation、airport transfer、meal plan、safeguarding、emergency contact。</td></tr>\n                <tr><td>行前文件量</td><td>是否有 health form、consent letter、醫生簽字、疫苗記錄？</td><td>幫家長提前建立文件包，不到最後一週才慌張補資料。</td></tr>\n                <tr><td>暑假目標</td><td>回來後要的是一段經歷、英語提升，還是可放進後續申請敘事？</td><td>根據學生年齡與下一步規劃決定選『先體驗』還是『更可敘事』的項目。</td></tr>\n              </tbody>\n            </table>\n          </div>"
+                "<div class=\"report-table-wrap article-service-table\">\n            <table>\n              <thead><tr><th>比較點</th><th>家長應該問什麼</th><th>OTC 會怎麼幫你看</th></tr></thead>\n              <tbody>\n                <tr><td>年齡與成熟度</td><td>孩子能否承受 residential group life？是否需要高監護？</td><td>先看年齡，不夠成熟的不往過度自由或過度專業的項目推。</td></tr>\n                <tr><td>英文程度</td><td>是去補 spoken confidence，還是已能進入 subject-heavy seminar？</td><td>把英文適應和課程難度拆開看，避免『英文不夠卻硬上專業營』。</td></tr>\n                <tr><td>項目定位</td><td>到底是語言營、學術營，還是職涯模擬？</td><td>把 brochure 裡的包裝語言翻成家長能判斷的真實結構。</td></tr>\n                <tr><td>照看與住宿</td><td>住宿誰管？晚上活動誰盯？接送誰接？</td><td>逐項核對 accommodation、airport transfer、meal plan、safeguarding、emergency contact。</td></tr>\n                <tr><td>行前文件量</td><td>是否有 health form、consent letter、醫生簽字、疫苗記錄？</td><td>幫家長提前建立文件包，不到最後一週才慌張補資料。</td></tr>\n                <tr><td>暑假目標</td><td>回來後要的是一段經歷、英語提升，還是可放進後續履歷與文書？</td><td>根據學生年齡與下一步規劃決定選『先體驗』還是『更可敘事』的項目。</td></tr>\n              </tbody>\n            </table>\n          </div>"
               ]
       },
       {
@@ -26813,7 +26813,7 @@ function privateSchoolCountryPage(country) {
             <div class="private-school-candidate-list">
 ${schoolCards}
             </div>
-            <p class="private-school-index-note">點進院校子頁，可查看年級、住宿、課程、文件與官方核對入口。</p>
+            <p class="private-school-index-note">點進院校子頁，可查看年級、住宿、課程、文件與官方網站。</p>
           </section>
           <section id="${country.slug}-apply">
             <h2 class="zh-herald-section-head" data-num="03">海外督導 OTC 免費代辦流程</h2>
@@ -29336,7 +29336,7 @@ const canadaEditorialBody = route.slug === "canada"
       chineseTitle: "海外督導｜泰國寒暑校聯盟",
       englishTitle: "Thailand Winter & Holiday Alliance 2026–27",
       stripTag: "Thailand · Winter · Holiday · Short Programmes",
-      standfirst: "泰國寒假線涵蓋 Bangkok 國際校日營、親子幼兒、boarding / outdoor、大學短期課程與語言文化研學。2026–27 檔期未公布者均標示待校方確認，避免把候選路線誤當成已開班。",
+      standfirst: "泰國寒假線涵蓋 Bangkok 國際校日營、親子幼兒、boarding / outdoor、大學短期選擇課程文化研學。2026–27 檔期未公布者均標示待校方確認，避免把候選路線誤當成已開班。",
       quickNotes: [
         { title: "收費說明", line: "日營與住校差異很大。", copy: "課程費、接送、家長住宿、醫療保險和 boarding 監護需分開核對。" },
         { title: "標準流程", line: "先分 Bangkok、boarding、幼兒。", copy: "先看孩子年齡、家長是否同行、是否需要住校。" },
