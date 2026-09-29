@@ -25829,9 +25829,10 @@ const summerSchoolAlliance = pageShell({
 
         <section class="summer-alliance-continent summer-alliance-continent--asia" aria-labelledby="summer-continent-asia">
           <div class="summer-alliance-continent-head">
-            <div><span>02 · Asia</span><h3 id="summer-continent-asia">亞洲</h3></div><b>4 個入口</b>
+            <div><span>02 · Asia</span><h3 id="summer-continent-asia">亞洲</h3></div><b>5 個入口</b>
           </div>
           <div class="summer-alliance-continent-list">
+            <article class="summer-alliance-region-card"><div class="body"><strong>日本 Japan</strong><span>20所大學與語言學校：英語冬校、日語入門、文化及城市生活體驗。</span><a href="/zh/summer-school-alliance/japan/">查看日本冬季專區 →</a></div></article>
             <article class="summer-alliance-region-card">
               <span class="summer-alliance-region-flag" aria-hidden="true">🇲🇾</span>
               <div class="body"><strong>馬來西亞 Malaysia</strong><span>英語環境、距離近，適合首次國際項目試水。</span><a href="/zh/summer-school-alliance/malaysia/">查看項目 →</a></div>
@@ -34473,6 +34474,7 @@ write("apps/australian-citizenship-test", australianCitizenshipTest);
 write("resources", resources);
 write("summer-school-alliance", summerSchoolAlliance);
 write("zh/summer-school-alliance", summerSchoolAlliance);
+write("zh/summer-school-alliance/japan", require("./content/japan-winter-school.cjs")());
 summerSchoolCountryRoutes.forEach((route) => {
   const page = summerSchoolCountryPage(route);
   write(`summer-school-alliance/${route.slug}`, page);
