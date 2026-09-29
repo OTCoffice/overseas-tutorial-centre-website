@@ -1,5 +1,10 @@
 # OTC website publishing instructions
 
+## 官網文案規則（使用者確認，2026-09-30）
+
+所有 OTC 官網新建與修改任務，先讀 [網頁製作 Prompt](docs/WEB-COPY-STYLE-ZH.md)，預設沿用繁體中文、簡短名詞標題、自然精簡文案，避免套話及重複提醒。使用者當次要求優先。
+Notion 原稿：https://www.notion.so/3eafd1e7e12081fa89a0c2d394fd3e4c
+
 For every new or updated Herald article, follow [docs/HERALD-PUBLISHING-WORKFLOW.md](docs/HERALD-PUBLISHING-WORKFLOW.md).
 
 Required before declaring sharing verified:
