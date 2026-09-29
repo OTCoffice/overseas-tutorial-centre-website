@@ -2472,6 +2472,8 @@ function transnationalEducationGroupCards() {
 
 function searchItems() {
   const pages = [
+    ["Personal Statement 個人陳述與申請文書協助", "/zh/services/personal-statement-support/", "素材整理、初稿回饋、結構及英文表達協助；範圍與費用先確認。"],
+    ["Personal Statement & Application Writing Support", "/services/personal-statement-support/", "Evidence planning, draft feedback and editing; scope and fees agreed before work."],
     ["英碩 SOP 邏輯與架構修改", "/zh/services/uk-sop-editing/", "結構診斷 £45–65；單篇深度修改 £120–180；兩個課程版本 £190–280。"],
     ["泰國大學留學・免費申請辦理", "/zh/thailand-university-study/", "英語授課選擇、全程預算、泰國工商大學多年合作及免費申請服務。"],
     ["商業英語學習台", "/apps/business-english-planner/", "免費七日練習計劃、電郵自查、簡報提綱與學習紀錄下載。"],
@@ -34386,15 +34388,15 @@ write("publishing/othm-health-social-care-bilingual-series", othmHealthSocialCar
 write("study-guides", guides);
 write("courses", courses);
 write("learning-platform", learningPlatform);
-write("services", services);
-write("zh/services", servicesZh.replace("</main>", "<div class=\"band\"><p><a href=\"/zh/services/europe-exchange-support/\"><strong>歐洲交換陪跑 →</strong> 決策、選課、學分與均分核對，以及交換與升碩銜接。</a></p></div>" + "</main>"));
+write("services", services.replace("<footer", require("./content/personal-statement-links.cjs")("en") + "<footer"));
+write("zh/services", servicesZh.replace("<footer", require("./content/personal-statement-links.cjs")("zh") + "<footer").replace("</main>", "<div class=\"band\"><p><a href=\"/zh/services/europe-exchange-support/\"><strong>歐洲交換陪跑 →</strong> 決策、選課、學分與均分核對，以及交換與升碩銜接。</a></p></div>" + "</main>"));
 write("zh/services/vietnam-visa", require("./content/vietnam-visa").render());
 write("zh/cross-border-property-management", crossBorderPropertyManagementZh);
 write("zh/us-swt-work-travel-support", usSwtWorkTravelSupportZh);
 serviceProducts.forEach((service) => {
   write(`services/${service.slug}`, serviceDetailPage(service));
 });
-write("university-applications", universityApplications);
+write("university-applications", universityApplications.replace("<footer", require("./content/personal-statement-links.cjs")("en") + "<footer"));
 write("insights/credit-alliance", creditAlliance);
 write("study-group-2026-applications", studyGroup2026Applications);
 write("application-service-standards", applicationServiceStandards);
@@ -34726,3 +34728,6 @@ write("zh/services/malaysia-study", require("./content/malaysia-study-zh.cjs")()
 write("services/malaysia-study", require("./content/malaysia-study-en.cjs")());
 
 write("zh/services/uk-sop-editing", require("./content/uk-sop-editing.cjs")());
+
+write("zh/services/personal-statement-support", require("./content/personal-statement-zh.cjs")());
+write("services/personal-statement-support", require("./content/personal-statement-en.cjs")());
