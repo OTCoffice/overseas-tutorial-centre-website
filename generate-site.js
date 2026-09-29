@@ -3399,6 +3399,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  require("./content/ireland-residency-guide.json"),
   require("./content/australia-ot-five-universities.json"),
 require("./content/chinese-accounting-visa-trends.json"),
 require("./content/career-contract-signing-guide.json"),
