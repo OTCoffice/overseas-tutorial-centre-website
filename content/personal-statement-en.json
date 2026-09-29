@@ -9,28 +9,20 @@
   "socialImageHeight": 630,
   "sections": [
     {
-      "heading": "Choose support for your stage",
-      "html": "<h3>Starting from scratch</h3><p>Organise real academic, project, work and activity evidence into a material bank and outline, then write your own draft.</p><h3>Reviewing an existing draft</h3><p>Review the central argument, evidence selection, paragraph flow and course fit, with comments and revision priorities.</p><h3>Improving English expression</h3><p>Improve clarity and wording while preserving your meaning. Chinese-language material organisation or translation is scoped separately.</p><h3>Preparing course-specific versions</h3><p>Check each prompt, word limit and course focus before adapting your statement.</p>"
+      "heading": "How we can help",
+      "html": "<ul><li><strong>No draft yet:</strong> discuss your experience, choose key points and prepare an outline to help you start writing.</li><li><strong>Existing draft:</strong> improve the structure and flag gaps in the content.</li><li><strong>English editing:</strong> improve wording and sentences while keeping your meaning.</li><li><strong>Different programmes:</strong> adapt each version to its prompt, word limit and course requirements.</li></ul><p>For a class project, for example, explain your role, what you learned and how it connects to your choice of subject.</p>"
     },
     {
-      "heading": "Applications covered",
-      "html": "<p>Hong Kong Associate Degree / Higher Diploma progression, overseas undergraduate and master’s applications. Personal statements, SOPs and short-answer questions are reviewed against the actual programme requirements.</p><p>For an existing English draft for a UK master’s application, see our <a href=\"/zh/services/uk-sop-editing/\">UK SOP editing service and indicative fees (Chinese)</a>. Those fees do not automatically apply to other application types or support without a draft.</p>"
+      "heading": "Getting started",
+      "html": "<p>Send <strong>programme links, your deadline and whether you have a draft</strong>. We will agree the work, fee, revision rounds and delivery dates.</p><p>Depending on the agreed scope, you receive an outline, comments or tracked edits. You add missing information and revise, then we review. You approve the final content and submit it.</p><p>You can ask for help with one statement, Chinese notes or planning from scratch. Urgent work depends on availability.</p>"
     },
     {
-      "heading": "Turn experience into a clear explanation",
-      "html": "<p><strong>Hypothetical teaching example:</strong> “I completed a group project, so I am interested in this subject.”</p><p>We help you identify your role, methods, challenges, learning and connection to the target course. We do not add invented achievements or figures.</p><p>Keep your own voice and check the institution’s rules on outside help and AI use. You review and confirm the final content.</p>"
+      "heading": "Fees",
+      "html": "<p>Fees depend on length, draft condition, programme versions and revision rounds. <strong>Hong Kong application support and standalone statement services are chargeable.</strong></p><p>For overseas applications eligible for free agency support, we explain which document assistance is included. Extra editing or translation, university application fees, tuition and other third-party costs are separate.</p><p>Total fees, applicable tax, delivery, payment, cancellation and refund arrangements are confirmed in writing before work starts.</p><p>For an existing UK master’s draft in English, see <a href=\"/zh/services/uk-sop-editing/\">UK SOP editing and indicative fees (Chinese)</a>. Those fees apply only to the stated scope.</p>"
     },
     {
-      "heading": "Process and deliverables",
-      "html": "<ol><li>Share programme links, deadline and time zone, and draft status.</li><li>Agree scope, total fee, revision rounds and delivery dates in writing.</li><li>Organise genuine evidence and prepare your draft.</li><li>Receive comments, supply missing information and revise; reviews follow the agreed rounds.</li><li>Check facts, prompt, word count and version before your final approval and submission.</li></ol><p>Deliverables may include a material bank, outline, annotated draft, tracked changes and final checklist. Your agreed scope specifies what is included.</p>"
-    },
-    {
-      "heading": "Scope and fees",
-      "html": "<p><strong>Standalone support:</strong> quoted by draft condition, length, programme versions, revision rounds and deadline. Hong Kong application support carries a service fee agreed after reviewing your needs.</p><p><strong>Application packages:</strong> for eligible partner applications covered by free agency support, confirm which standard document assistance is included. Standalone detailed editing, translation and extra versions are not automatically free.</p><p>University application fees, tuition, examinations, visa and other third-party costs are separate. Total fees, applicable tax, timing, payment, cancellation and refund arrangements are agreed before work starts.</p>"
-    },
-    {
-      "heading": "Frequently asked questions",
-      "html": "<h3>No draft, or only Chinese notes?</h3><p>Ask about planning and material organisation; these are quoted separately from editing an existing English draft.</p><h3>Can I request one statement only?</h3><p>Yes. A full application package is not required.</p><h3>How long does it take?</h3><p>We confirm timing based on the materials, deadline and availability. Urgent delivery must be agreed first.</p><h3>Do you guarantee an offer?</h3><p>No. Admissions decisions remain with the institution.</p><h3>What should I send first?</h3><p>Programme links, deadline and draft status are enough to start. No identity documents are needed; drafts may have names, student numbers and contact details removed.</p>"
+      "heading": "Before you submit",
+      "html": "<p>Your statement must reflect your own experience and follow the institution’s rules on outside help and AI use. We do not invent experience or guarantee admission.</p><p>No identity documents are needed for an initial enquiry. You may remove your name, student number and contact details from drafts.</p>"
     }
   ]
 }
