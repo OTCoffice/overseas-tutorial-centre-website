@@ -2216,7 +2216,7 @@ const icelandBilingualHub = {
     ],
     universityTitle: "七所大學與初步定位",
     universityIntro: "以下是定位索引，不代表每個方向都有英文學位、當年招生或 OTC 正式代理權；正式選校以具體課程頁為準。",
-    admissionTitle: "從想法到入學的五步核對",
+    admissionTitle: "流程",
     admissionSteps: [
       ["01", "背景初評", "整理最高學歷、完整成績、專業先修、工作經歷、英文／冰島語、預算和目標入學季。"],
       ["02", "課程與語言", "只列當年度仍招生且授課語言適合的課程，標記先修、作品集、研究計畫或面試要求。"],
