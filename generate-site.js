@@ -3399,6 +3399,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+  require("./content/australia-process-agent-guide.json"),
   require("./content/ireland-residency-guide.json"),
   require("./content/australia-ot-five-universities.json"),
 require("./content/chinese-accounting-visa-trends.json"),
@@ -19215,7 +19216,7 @@ function zhArticleMagazineBody(article) {
         </aside>`}
       </div>
       ${zhArticleRoadmap(article, checklist)}
-      ${article.slug.includes("australia") ? `
+      ${article.slug.includes("australia") && !article.hideAustraliaStudyCta ? `
         <section class="zh-herald-infographic australia-article-cta">
           <h2>下一步：把文章變成路線評估</h2>
           <p>讀完導報後，可回到 OTC 澳洲路線頁，把你的學歷、課程單元、成績單與目標職業整理成初步評估。</p>

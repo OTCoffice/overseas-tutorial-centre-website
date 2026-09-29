@@ -1,0 +1,130 @@
+{
+  "slug": "australia-process-agent-foreign-business-guide",
+  "chineseOnly": true,
+  "title": "Australian process agents: service of documents and foreign business responsibilities",
+  "titleZh": "海外企業在澳洲誰來收法律文件？Process Agent 的用途、責任與委任清單",
+  "socialTitleZh": "澳洲法律文件，誰來收？",
+  "date": "2026-09-29",
+  "heraldLayout": "stacked",
+  "category": "Business Compliance",
+  "column": "business",
+  "kicker": "OTC 留學導報 · 海外創業與企業治理",
+  "author": "《海外留學導報》編輯部｜海外督導 OTC",
+  "summary": "A practical guide to process agents, ASIC local agents and document escalation for foreign businesses in Australia.",
+  "summaryZh": "公司在海外，澳洲法律文件送到誰手上？本文分清文件送達代理、ASIC 本地代理與註冊地址，整理通知時限、授權邊界及委任前的核對清單。",
+  "shareImageZh": "/assets/social/australia-process-agent-20260929-v1.png",
+  "socialImageVersion": "v=20260929-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "body": [],
+  "bodyZh": [
+    {
+      "heading": "一、公司不在澳洲，文件仍可能在當地送達",
+      "paragraphs": [
+        "海外企業簽澳洲融資、租賃或商業協議時，容易只注意價格、期限和付款安排，忽略文件應送到哪裏、誰負責接收。Process agent（文件送達代理）就是按委任範圍，在澳洲代收法律程序文件或正式通知，再轉交指定聯絡人的安排。它的價值在於建立明確的收件與通知流程。",
+        "這不表示所有外資企業都必須另外購買同一種代理服務。是否需要委任、接收哪些文件、可採哪些送達方式，要看企業的法律結構、交易文件及適用規則。本文根據 ABN Australia 提供的實務素材，另加入 ASIC 官方制度核查及編輯部的委任清單。[1][2]"
+      ]
+    },
+    {
+      "heading": "二、收件、簽約與法律代理是不同授權",
+      "paragraphs": [
+        "文件送達代理一般負責接收、記錄及轉交；單憑收件委任，不能推定代理有權替企業接受新交易、簽署合約、承認債務、和解或出庭。這些權限須另看授權及專業資格。",
+        "融資或租賃合約中約定的違約通知、法院程序文件等，是否由同一代理接收，應在委任書逐項列清。合約本身送交代理保管，也不代表代理已替企業同意其內容。董事與法律顧問仍須負責判斷如何回應。[1]"
+      ]
+    },
+    {
+      "heading": "三、Process agent 不等於 ASIC local agent",
+      "paragraphs": [
+        "ASIC 對「已註冊外國公司」另設 local agent（本地代理）要求。官方說明，這類公司須維持本地代理；代理涉及公司應履行的義務，並可能就違規或罰款承擔責任。這比單純代收、轉寄文件的商業服務範圍更廣。Form 418 是委任相關表格之一。[2][3]",
+        "外國股東持有的澳洲註冊公司，與在海外成立後到澳洲註冊營業的 foreign company，是不同情況。不要單憑「外資」兩字，便把外國公司分支的義務套用到所有澳洲子公司。",
+        "另外，ASIC registered agent 是協助辦理特定 ASIC 事務的另一角色；registered office 是法定註冊辦公地址。服務商可以同時提供多項服務，但購買其中一項不代表其餘已完成。一般郵件轉寄或虛擬地址，也不能自行視為已滿足所有法定條件。[2][4]"
+      ]
+    },
+    {
+      "heading": "四、重要的不是何時讀信，而是何時開始計時",
+      "paragraphs": [
+        "「主管還沒看到」未必代表期限尚未開始。合約可以規定通知方式、視為收到的時間及工作日定義；訴訟文件則另受法院程序及相關法例約束。有效送達、期限起算與企業實際閱信，必須分開判斷。[1][5]",
+        "《Corporations Act 2001》第601CX條列出向相關註冊法人送達文件的方法，包括若干向註冊辦公室或已註冊外國公司的本地代理地址送達的方式；這不是所有文件及所有法院程序的唯一規則。個案應交由澳洲律師核對。[5]",
+        "教學假設：一家海外公司星期五收到代理轉寄的通知，但負責人星期一才開信。不能直接認定星期一才開始計時；應立即保留原件、信封、送達紀錄及電郵時間，請律師確認起算點。這是假設例子，不代表任何個案有固定三天或固定回覆期限。"
+      ]
+    },
+    {
+      "heading": "五、委任前，把六件事寫進服務約定",
+      "paragraphs": [
+        "1. 適用對象與文件：列明公司全名、涉及的交易或程序、接收範圍，以及對方合約是否接受這個委任。",
+        "2. 地址與服務時間：核對地址、收件方式、營業時間及假期安排；不要把一般郵箱服務當作有人處理緊急文件。",
+        "3. 轉交通道：寫清掃描與通知時限、主要及備用聯絡人；有急件時是否另行電話通知，應按約定而非自行假設。",
+        "4. 紀錄與保密：保存收件日期時間、送件方式、掃描檔及轉交紀錄；約定原件保存、存取權限與資料處理方式。",
+        "5. 費用與除外項目：確認年費、逐件費、國際快遞、翻譯及緊急處理費。不要把單一供應商的免費寄送宣傳視為市場通則。",
+        "6. 終止與交接：約定代理辭任、地址變更或服務到期時如何接續，以及何時更新合約當事人或必要登記。以上是編輯部的實務核對框架，並非法定統一服務標準。"
+      ]
+    },
+    {
+      "heading": "六、企業內部也要有人接得住",
+      "paragraphs": [
+        "即使代理當天掃描寄出，若企業把信轉進無人查看的共用信箱，流程仍會中斷。可指定一位負責人和一位替補，建立「收件確認 → 律師判斷 → 登記期限 → 分派處理 → 留存回覆」的流程。",
+        "首次收件時不要自行刪掉信封、只轉寄摘要，或未經評估便承認責任。代理是否承諾即時通知、企業是否確認收到、律師是否已接手，應能從紀錄中看清；期限計算應由處理該事項的專業人士確認。"
+      ]
+    },
+    {
+      "heading": "七、先確認需要哪一種安排，再比較服務商",
+      "paragraphs": [
+        "若只是某份跨境合約要求澳洲收件窗口，先核對該合約的 process-agent 條款；若是海外公司在澳洲註冊經營，另查 ASIC 的 foreign-company 義務；若已收到法院文件，應優先聯絡澳洲律師，不要把購買收件服務當成案件處理。",
+        "海外督導 OTC｜企業服務諮詢：可透過 <a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a> 或 <a href=\"https://wa.me/447947991572\">WhatsApp +44 7947 991572</a> 說明所需協調事項。實際服務範圍及承接能力須另行確認；本篇不表示 OTC 已接受 process agent、ASIC local agent 或律師委任。"
+      ]
+    },
+    {
+      "heading": "資料來源與適用邊界",
+      "paragraphs": [
+        "原素材：Ro Elvinia，ABN Australia，〈Process agent services in Australia for foreign-owned businesses〉，2026年9月8日發布，原文標示9月9日更新。本文為獨立中文整理，另補官方資料及編輯部建議，並非該公司授權聲明、合作公告或服務報價。",
+        "資料核對：2026年9月29日。本文屬一般企業治理資訊，不構成個案法律意見；送達效力、訴訟期限、授權及法定責任應按實際文件、現行法例與澳洲法律顧問意見判斷。"
+      ]
+    }
+  ],
+  "resources": [
+    [
+      "[1] ABN Australia：原素材",
+      "https://abnaustralia.com.au/articles/process-agent-services-in-australia-for-foreign-owned-businesses"
+    ],
+    [
+      "[2] ASIC：Obligations of foreign companies",
+      "https://www.asic.gov.au/for-business-and-companies/foreign-companies/obligations-of-foreign-companies"
+    ],
+    [
+      "[3] ASIC：Form 418 委任本地代理",
+      "https://asic.gov.au/regulatory-resources/forms/forms-folder/418-memorandum-of-appointment-of-local-agent/"
+    ],
+    [
+      "[4] ASIC：Registered agents for companies",
+      "https://www.asic.gov.au/for-business-and-companies/companies/registered-agents-for-companies"
+    ],
+    [
+      "[5] Corporations Act 2001：第601CG、601CJ及601CX條",
+      "https://www.legislation.gov.au/C2004A00818/latest/text"
+    ]
+  ],
+  "factCheckNotes": [
+    "核查日：2026-09-29。原素材由使用者提供；ASIC與聯邦法例為制度核對來源。企業內部流程與六項清單為編輯部建議。"
+  ],
+  "sidebarCards": [
+    [
+      "01",
+      "確認角色",
+      "收件代理 ≠ 法定本地代理",
+      "Scope"
+    ],
+    [
+      "02",
+      "確認時限",
+      "送達與閱信分開判斷",
+      "Time"
+    ],
+    [
+      "03",
+      "確認交接",
+      "主要聯絡人＋替補",
+      "Action"
+    ]
+  ],
+  "hideAustraliaStudyCta": true
+}
