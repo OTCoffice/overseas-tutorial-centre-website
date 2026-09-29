@@ -2472,6 +2472,7 @@ function transnationalEducationGroupCards() {
 
 function searchItems() {
   const pages = [
+    ["北歐留學｜五國選校與一年、兩年預算", "/zh/countries/nordic/", "瑞典、芬蘭、丹麥、挪威、冰島：學費、生活費、獎學金、博士、私校與 OTC 諮詢。"],
     ["Asso／HD 升大學", "/zh/asso-hd-university-progression/", "選科、轉科、入學年級及英文要求；OTC 升學協助。"],
     ["Personal Statement 個人陳述與申請文書協助", "/zh/services/personal-statement-support/", "素材整理、初稿回饋、結構及英文表達協助；範圍與費用先確認。"],
     ["Personal Statement & Application Writing Support", "/services/personal-statement-support/", "Evidence planning, draft feedback and editing; scope and fees agreed before work."],
@@ -2599,6 +2600,7 @@ function routePath(route) {
 }
 
 function write(route, html) {
+  if (["zh/study-planning","zh/countries/iceland","zh/private-school-alliance/nordic-europe","zh/services"].includes(route) && !html.includes('data-nordic-hub-link')) html = html.replace(/<footer\b/, require('./content/nordic-study-hub.cjs').link + '<footer');
   if (["services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
   const dir = path.join(root, route);
   fs.mkdirSync(dir, { recursive: true });
@@ -34623,6 +34625,8 @@ fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({
     }
   ]
 }, null, 2) + "\n");
+
+write("zh/countries/nordic", require("./content/nordic-study-hub.cjs").render(pageShell));
 
 const sitemapExcludedRoutes = new Set([
   "/client-portal/",
