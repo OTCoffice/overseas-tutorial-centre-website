@@ -2505,6 +2505,7 @@ function searchItems() {
     ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
+    ["申博陪跑｜PhD Application Coaching", "/zh/services/phd-application-coaching/", "研究方向、導師與資助、研究計劃及面試陪跑；亦可先比較求職與申博。"],
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
     ["海外督導｜跨境房產管理", "/zh/cross-border-property-management/", "海外業主收樓交接、租務協調、維修調度、供應商對接、文件與付款證據整理及定期雙語業主報告。"],
@@ -20042,6 +20043,7 @@ function servicesLandingPage(locale = "en") {
           </section>
           <section>
             <h2 class="zh-herald-section-head" data-num="03">完整服務索引</h2>
+<section class="band compact-band"><h2>申博陪跑｜先想清楚，再開始準備</h2><p>研究方向、導師與資助、申請材料和面試陪跑，也可先比較求職與讀博。</p><a class="btn btn-primary" href="/zh/services/phd-application-coaching/">了解申博陪跑・立即諮詢 →</a></section>
             ${serviceArticleDirectory("zh")}
           </section>
         </main>
@@ -20142,6 +20144,7 @@ function servicesLandingPage(locale = "en") {
           </section>
           <section>
             <h2 class="zh-herald-section-head" data-num="03">Full service index</h2>
+<section class="band compact-band"><h2>PhD application coaching</h2><p>Research direction, supervisor and funding searches, application preparation and interview practice. Start with a discussion of your goals.</p><a class="btn btn-primary" href="/zh/services/phd-application-coaching/">Explore PhD coaching · 中文服務頁 →</a></section>
             ${serviceArticleDirectory("en")}
           </section>
         </main>
@@ -34531,6 +34534,7 @@ insightsArticles.forEach((article) => {
 });
 write("zh/services/animation-portfolio-support", require("./content/animation-portfolio-service.cjs")());
 write("zh/services/australia-transfer-release-support", require("./content/australia-release-service.cjs")());
+write("zh/services/phd-application-coaching", require("./content/phd-application-coaching.cjs")());
 write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("zh/services/design-application-coaching", require("./content/design-application-service.cjs")());
 write("zh/services/credential-evaluation-document-coordination", require("./content/credential-evaluation-support.cjs")());
