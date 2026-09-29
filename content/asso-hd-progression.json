@@ -1,0 +1,19 @@
+{
+  "slug":"asso-hd-university-progression",
+  "path":"/zh/asso-hd-university-progression/",
+  "titleZh":"Asso／HD 升大學｜選科、轉科與 Non-JUPAS 申請｜海外督導 OTC",
+  "summaryZh":"Asso／HD 想升大學？先看轉科、入學年級、GPA 和英文要求。海外督導提供選校、文書及面試協助，服務範圍與費用先確認。",
+  "shareImageZh":"/assets/social/asso-hd-progression-20260930-v1.png",
+  "socialImageVersion":"v=20260930-1",
+  "socialImageWidth":1200,
+  "socialImageHeight":630,
+  "checked":"2026-09-30",
+  "sections":[
+    {"id":"change-subject","heading":"讀文科，可以轉科嗎？","html":"<p>可以考慮，但要逐科看要求。先查有沒有指定相關副學位、必修科目、作品集或面試；不能只看課程名稱。</p><p>例如教大<a href=\"https://www.apply.eduhk.hk/ug/programmes/scs\">「社會學與社區研究」</a>設兩年 Senior Year 課程，可作為了解社科的起點。有這條路，不代表每個 Asso 背景都符合資格。</p>"},
+    {"id":"entry-year","heading":"入 Year 1，還是高年級？","html":"<p><strong>Year 1：</strong>從一年級入學。可否豁免學分，要另查。</p><p><strong>Senior Year：</strong>高年級銜接。城大接受認可 AD／HD 最後一年學生或畢業生申請，仍須符合個別課程要求。</p><p><strong>海外銜接／Top-up：</strong>入讀年級、餘下學制及學分由院校審核；不要一概當成「再讀一年就畢業」。</p><p><a href=\"https://www.cityu.edu.hk/admo/admissions/non-jupas-senior-year-admission\">城大 Senior Year 官方說明 →</a></p>"},
+    {"id":"grades","heading":"GPA 夠不夠？英文要不要重考？","html":"<p>把三件事分開看：最低要求、往年收生資料、自己的科目和成績。達最低要求不等於穩入。</p><p>英文也要逐校查。例如浸大副學位申請頁列 IELTS Academic 總分 6.0 為其中一項英語資格；另須核對課程要求、成績有效期及補交期限。</p><p><a href=\"https://admissions.hkbu.edu.hk/admissions/post-secondary-qualifications.html\">浸大副學位申請及語文要求 →</a></p>"},
+    {"id":"prepare","heading":"現在可以準備甚麼？","html":"<p><strong>先選方向：</strong>列出想讀的課程，查資格和截止日。</p><p><strong>再備材料：</strong>成績單、已修科目、語文成績，以及課程要求的文書或作品。</p><p><strong>按時申請：</strong>記下申請、補件和面試日期，不要假設所有材料都能延後補交。</p>"},
+    {"id":"support","heading":"OTC 幫你做甚麼？","html":"<p>按你的背景篩選課程、核對要求、整理申請時間；需要時協助文書和面試。</p><p>先說你讀甚麼、目前年級、想入學的年份，以及最想問的問題。選校評估時再補 GPA、語文和已修科目。</p><p><a href=\"/zh/services/personal-statement-support/\">Personal Statement 文書協助 →</a></p>"},
+    {"id":"fees","heading":"收費","html":"<p>香港申請及單獨文書、面試服務須收費。按需要確認工作、總價和時間，再開始。</p><p>海外申請如適用免費代辦，會先說明包含哪些協助。學費、院校申請費及其他第三方費用另計。錄取和學分豁免由院校決定。</p>"}
+  ]
+}

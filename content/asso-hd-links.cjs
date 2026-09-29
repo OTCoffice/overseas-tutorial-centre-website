@@ -1,0 +1,1 @@
+module.exports=()=>'<section class="band compact-band" data-asso-hd-link><h2>Asso／HD 升大學</h2><p>轉科、選校、入學年級與英文要求。</p><a class="btn btn-primary" href="/zh/asso-hd-university-progression/">查看升學頁 →</a></section>';
