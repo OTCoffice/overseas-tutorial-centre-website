@@ -2512,6 +2512,8 @@ function searchItems() {
     ["歐洲入口 / Europe Gateway", "/offices/europe/", "OTC regional gateway for UK and European English-taught programmes, transfer planning and document coordination."],
     ["AI Education Operations", "/ai-education-operations/", "AI-supported education operations framework for student files, qualification mapping, application workflows, tutorial publishing, evidence management, China five-city outreach and Australia route intelligence."],
     ["Australia VET / TAFE Pathways", "/australia-vet-tafe-pathways/", "OTC Australia VET and TAFE pathway coverage for vocational course screening, TAFE-to-university progression, document readiness, professional referral boundaries and China five-city outreach materials."],
+    ["日本就業準備陪跑", "/zh/services/japan-employment-preparation/", "方向、日語與技能考試、預算、材料及面試準備。"],
+    ["日本特定技能就業指南", "/zh/insights/japan-specified-skilled-worker-guide/", "介護與食品加工的申請條件、費用與長期發展。"],
     ["申博陪跑｜PhD Application Coaching", "/zh/services/phd-application-coaching/", "研究方向、導師與資助、研究計劃及面試陪跑；亦可先比較求職與申博。"],
     ["Australia Job Search Coaching", "/australia-job-search-coaching/", "OTC Australia career landing support covering work-rights screening, role positioning, Australian resumes and LinkedIn, job-search channels, interview practice, credential checks and onboarding."],
     ["澳洲找工作輔導與落地就業陪跑", "/zh/australia-job-search-coaching/", "海外督導 OTC 澳洲求職服務：工作權初篩、職業定位、澳洲履歷、LinkedIn、求職渠道、面試訓練、資格核對與落地入職陪跑。"],
@@ -2602,6 +2604,7 @@ function routePath(route) {
 }
 
 function write(route, html) {
+  if (["services", "zh/services"].includes(route)) html = require("./content/overseas-careers-links.cjs")(html, route === "zh/services");
   if (["zh/study-planning","zh/countries/iceland","zh/private-school-alliance/nordic-europe","zh/services"].includes(route) && !html.includes('data-nordic-hub-link')) html = html.replace(/<footer\b/, require('./content/nordic-study-hub.cjs').link + '<footer');
   if (["services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
   const dir = path.join(root, route);
@@ -3407,6 +3410,7 @@ const uoaImmigBody = [
 ];
 
 const insightsArticles = [
+require("./content/japan-ssw-guide.json"),
   require("./content/australia-process-agent-guide.json"),
   require("./content/ireland-residency-guide.json"),
   require("./content/australia-ot-five-universities.json"),
@@ -34546,6 +34550,7 @@ insightsArticles.forEach((article) => {
 });
 write("zh/services/animation-portfolio-support", require("./content/animation-portfolio-service.cjs")());
 write("zh/services/australia-transfer-release-support", require("./content/australia-release-service.cjs")());
+write("zh/services/japan-employment-preparation", require("./content/japan-employment-service.cjs")());
 write("zh/services/phd-application-coaching", require("./content/phd-application-coaching.cjs")());
 write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("zh/services/design-application-coaching", require("./content/design-application-service.cjs")());
