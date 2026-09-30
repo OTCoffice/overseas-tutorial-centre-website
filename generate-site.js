@@ -24424,18 +24424,7 @@ const zhStudyPlanning = pageShell({
   path: "/zh/study-planning/",
   description: "OTC 中文留學規劃頁：按中國家庭常見決策順序整理國家、學校、專業、預算、時間線、文件與後續銜接。",
   body: `
-    <section class="page-hero zh-planning-hero">
-      <div class="band">
-        <div class="eyebrow">Family Study Planning</div>
-        <h1>留學規劃</h1>
-        <h2>先定家庭目標，再選國家、學校與路線。</h2>
-        <p>中國家庭做留學規劃，通常不是先問「哪個學校排名高」，而是先把家庭預算、孩子年齡、英文基礎、專業方向、升學出口、身份/就業期待和家長可陪伴程度放在同一張表裡看。</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="mailto:office@overseasuk.com?subject=Chinese%20study%20planning%20enquiry">提交規劃需求</a>
-          <a class="btn btn-secondary" href="/zh/">返回中文首頁</a>
-        </div>
-      </div>
-    </section>
+    ${require("./content/study-planning-hero.cjs")()}
 
     <section class="band compact-band zh-planning-route">
       <div class="section-head compact-head">
