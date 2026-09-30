@@ -54,22 +54,20 @@ function nav(current = "", locale = "en") {
   return `
     <header class="site-header">
       <nav class="nav">
-        <a class="brand" href="/">
+        <a class="brand" href="${isZh ? "/" : "/en/"}">
           <span class="brand-mark"><span></span></span>
-          <span>${SHORT_BRAND_NAME}<small>OTC Study Hub · Overseas Publishing</small></span>
+          <span>${isZh ? "海外督導 OTC" : SHORT_BRAND_NAME}<small>${isZh ? "留學申請 · 專業陪跑 · 雙語學習" : "OTC Study Hub · Overseas Publishing"}</small></span>
         </a>
         <div class="nav-links">
           ${isZh ? `
-            <a href="/zh/services/" ${["resources", "services", "applications"].includes(current) ? 'aria-current="page"' : ""}>服務與申請</a>
-            <a href="/australia/" ${current === "australia" ? 'aria-current="page"' : ""}>澳洲路線</a>
-            <a href="/courses/" ${current === "courses" ? 'aria-current="page"' : ""}>課程</a>
-            <a href="/publishing/" ${["apps", "publishing"].includes(current) ? 'aria-current="page"' : ""}>出版</a>
-            <a href="/zh/insights/" ${current === "insights" ? 'aria-current="page"' : ""}>導報</a>
-            <a href="/about/" ${current === "about" ? 'aria-current="page"' : ""}>關於 OTC</a>
-            <a href="/search/" ${current === "search" ? 'aria-current="page"' : ""}>搜索</a>
-            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>客戶端口</a>
-            <a href="/zh/" ${current === "zh" ? 'aria-current="page"' : ""}>中文</a>
-            <a class="nav-cta" href="/publishing/">出版更新</a>
+            <a href="/zh/services/" ${current === "services" ? 'aria-current="page"' : ""}>留學與服務</a>
+            <a href="/zh/services/art-portfolio-coaching/">藝術與設計</a>
+            <a href="/zh/study-planning/">課程與學習</a>
+            <a href="/zh/summer-school-alliance/">寒暑校</a>
+            <a href="/zh/insights/">留學導報</a>
+            <a href="/zh/publishing/">出版</a>
+            <a href="/search/">搜尋</a>
+            <a href="/en/" lang="en" class="language-link">English</a>
           ` : `
             <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
             <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>Services</a>

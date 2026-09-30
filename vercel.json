@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/zh/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/countries/canada/finance/",
       "destination": "/countries/canada/costs/",
       "permanent": true
