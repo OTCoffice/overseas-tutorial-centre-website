@@ -1,0 +1,61 @@
+const {pageShell}=require('../site');
+const groups=[
+ ['study','留學申請','選校、升學路徑、申請文書與學歷文件。',[
+ ['大學申請','/zh/services/university-application-advisory/','選校、材料規劃、申請進度與院校溝通。'],
+ ['Asso／HD 升大學','/zh/asso-hd-university-progression/','轉科、選校、入學年級與英文要求。'],
+ ['博士申請','/zh/services/phd-application-coaching/','研究方向、導師與資助、研究計劃及面試。'],
+ ['藝術與設計申請','/zh/services/art-portfolio-coaching/','按專業整理作品集、階段成果與申請準備。'],
+ ['個人陳述與申請文書','/zh/services/personal-statement-support/','素材整理、初稿回饋、結構與英文表達。'],
+ ['英碩 SOP 修改','/zh/services/uk-sop-editing/','申請動機、經歷證據、課程契合度與文章架構。'],
+ ['學歷認證與補件','/zh/services/credential-evaluation-document-coordination/','WES 等學歷評估文件、原校重送與收件跟進。'],
+ ['馬來西亞留學','/zh/services/malaysia-study/','院校與專業、申請路徑、完整預算與赴馬準備。'],
+ ['泰國大學留學','/zh/thailand-university-study/','英語授課選擇、選校申請、學費與生活費。'],
+ ['北歐留學','/zh/countries/nordic/','瑞典、芬蘭、丹麥、挪威與冰島的升學及預算資料。']]],
+ ['visa','簽證與短期交流','簽證材料、寒暑校、交換與暑期工遊。',[
+ ['簽證陪跑','/zh/services/visa-application-support/','文件清單、準備時間表、進度與行前資料。'],
+ ['越南簽證代辦','/zh/services/vietnam-visa/','需求確認、文件檢查、申請協調與進度跟進。'],
+ ['寒暑校聯盟','/zh/summer-school-alliance/','按國家比較暑校、遊學及假期短期項目。'],
+ ['歐洲交換陪跑','/zh/services/europe-exchange-support/','交換選校、選課、學分、均分與升碩銜接。'],
+ ['美國 SWT 暑期工遊','/zh/us-swt-work-travel-support/','資格、主辦機構、職位、成本、簽證面談與行前準備。']]],
+ ['learning','學業與就業','在讀學習、語言練習與海外求職準備。',[
+ ['學術監護','/services/academic-guardianship-family-office/','學業進度、學校溝通、家長報告與升學規劃。'],
+ ['商業英語陪跑','/zh/services/business-english-study-support/','每週學習計劃、商業寫作與簡報練習。'],
+ ['日本就業準備','/zh/services/japan-employment-preparation/','特定技能方向、日語、考試、預算與面試。'],
+ ['澳洲求職陪跑','/zh/australia-job-search-coaching/','求職方向、履歷、面試與入職準備。'],
+ ['法國升學與就業','/zh/france-study-work-settlement-support/','法語、升學、實習、求職與居留節點規劃。']]],
+ ['living','海外生活與家庭','住宿接送、突發協調與海外房產行政。',[
+ ['驛站調度與緊急協調','/services/station-dispatch-emergency-coordination/','住宿、接送、文件與跨時區聯絡，向家長更新進度。'],
+ ['跨境房產管理','/zh/cross-border-property-management/','收樓、租務、維修、當地供應商與業主報告。']]],
+ ['publishing','翻譯、出版與商務溝通','語言文件、對外聯絡、編輯出版與研究資料。',[
+ ['海外書局・編譯部','/zh/services/language-context-studio/','中英翻譯、雙語編修與重要文件表達。'],
+ ['商務溝通與資訊保密','/zh/services/language-context-studio/#business-confidentiality','電郵草擬、詢價與對外聯絡；確認後發送，只披露必要資訊。'],
+ ['出版與編輯製作','/services/publishing-editorial-production/','編輯、雙語排版、ISBN 與數字出版準備。'],
+ ['研究與政策簡報','/services/research-policy-briefing/','案頭研究、政策資料、市場筆記與雙語簡報。'],
+ ['合規文件與審核副本','/services/compliance-file-audit-copy/','文件索引、證據包與審核副本整理。']]],
+ ['partners','機構合作','教育機構的合作、培訓、活動與工具建設。',[
+ ['教育機構合作','/zh/education-partners/','院校合作、項目對接與服務範圍洽談。'],
+ ['機構市場進入','/services/institutional-market-entry/','市場定位、合作方梳理與服務資料準備。'],
+ ['高管教育與培訓','/services/executive-education-training/','定制工作坊、雙語培訓與學習材料。'],
+ ['教育展與機構訪問','/services/education-fairs-institutional-delegations/','活動規劃、參展協調、宣傳與會後跟進。'],
+ ['教育機構認證支援','/services/education-institution-accreditation-support/','認證準備、政策文件、師資資源與質量保障資料。'],
+ ['學術會議與圓桌','/services/academic-conferences-roundtables/','主題、講者、會議材料、成果與會後出版。'],
+ ['數字學習與測評工具','/services/digital-learning-assessment-tools/','學習應用、題庫、分級工具與雙語練習系統。']]]
+];
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
+function link(url){return url.startsWith('/services/')?'https://translate.google.com/translate?sl=auto&tl=zh-TW&u='+encodeURIComponent('https://overseasuk.com'+url):url;}
+module.exports=function(){
+const css=`<style>
+.service-desk-page .service-hero-layout{align-items:start}.service-desk-page .service-hero-panel{align-self:start}.service-desk-page .service-hero-panel a{min-height:84px}
+.desk-index{padding-top:12px;padding-bottom:28px}.desk-jump{display:flex;flex-wrap:wrap;gap:8px 22px;padding:12px 0 18px;border-bottom:1px solid #c8b89a}.desk-jump a{font-size:14px;font-weight:700;color:#19394d}
+.desk-section{--accent:#b7892c;--soft:#fff7e6;margin:22px 0 0;scroll-margin-top:130px;border-top:3px solid var(--accent)}.desk-section:nth-of-type(4n+2){--accent:#3e5f90;--soft:#eef2fa}.desk-section:nth-of-type(4n+3){--accent:#3f7f78;--soft:#edf7f3}.desk-section:nth-of-type(4n+4){--accent:#b24c34;--soft:#fff3ed}
+.desk-section-head{display:flex;align-items:baseline;gap:16px;padding:13px 16px;background:var(--soft)}.desk-section-head h2{font-size:21px;margin:0;color:#132f43}.desk-section-head b{color:var(--accent);font-size:12px;margin-right:12px}.desk-section-head p{font-size:13px;margin:0;color:#5d625f}.desk-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}.desk-row{display:grid;grid-template-columns:180px minmax(0,1fr) 14px;gap:10px;align-content:start;padding:14px 4px;border-bottom:1px solid #ded7cc;color:#19394d}.desk-row strong{font-size:15px;line-height:1.5}.desk-row span{font-size:13px;line-height:1.6;color:#56616a}.desk-row small{display:block;color:#8a6c32;font-size:10px;font-weight:400}.desk-row i{font-style:normal;color:var(--accent)}.desk-row:hover{background:var(--soft)}
+.desk-note{border-top:1px solid #c8b89a;margin-top:24px;padding-top:16px;font-size:13px;color:#56616a}.desk-note p{margin:6px 0}.service-desk-page .service-review-strip{padding-bottom:6px}
+@media(max-width:1000px){.desk-row{grid-template-columns:145px minmax(0,1fr) 14px}}@media(max-width:700px){.service-desk-page .service-hero-panel,.service-desk-page .service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.service-desk-page .service-hero-panel a{min-height:70px}.desk-rows{grid-template-columns:1fr}.desk-section-head{display:block}.desk-section-head p{margin-top:6px}.desk-row{grid-template-columns:140px minmax(0,1fr) 14px}.desk-jump{gap:10px 18px}}
+</style>`;
+const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC 服務</div><h1>服務導覽台</h1><h2>留學 · 簽證 · 海外生活 · 出版合作</h2><p class="hero-sub">按需要查看服務，詳細流程、收費及聯絡方式見各服務頁。</p></div><aside class="service-hero-panel"><a href="#study"><strong>留學申請</strong><span>選校、文書與學歷文件</span></a><a href="#visa"><strong>簽證交流</strong><span>簽證、寒暑校與交換</span></a><a href="#living"><strong>海外生活</strong><span>家庭聯絡與突發協調</span></a><a href="#partners"><strong>機構合作</strong><span>教育、活動與學習工具</span></a></aside></div></div></section>
+<section class="band service-review-strip"><a href="${esc(link('/services/station-dispatch-emergency-coordination/'))}"><b>24h</b><strong>緊急協調</strong><span>住宿、接送與家長聯絡</span></a><a href="/consultation-chat/"><b>ASK</b><strong>服務諮詢</strong><span>說明需求，確認服務與費用</span></a><a href="/zh/application-service-standards/"><b>STD</b><strong>服務標準</strong><span>委託範圍、文件與溝通記錄</span></a><a href="#publishing"><b>EDIT</b><strong>翻譯與出版</strong><span>編譯、商務聯絡與保密</span></a></section>
+<main class="band desk-index"><nav class="desk-jump" aria-label="服務分類">${groups.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} ${title}</a>`).join('')}</nav>
+${groups.map(([id,title,desc,rows],i)=>`<section class="desk-section" id="${id}"><header class="desk-section-head"><h2><b>${String(i+1).padStart(2,'0')}</b>${title}</h2><p>${desc}</p></header><div class="desk-rows">${rows.map(([name,url,detail])=>`<a class="desk-row" href="${esc(link(url))}"><strong>${name}${url.startsWith('/services/')?'<small>中文自動翻譯</small>':''}</strong><span>${detail}</span><i aria-hidden="true">↗</i></a>`).join('')}</div></section>`).join('')}
+<div class="desk-note"><p>各項服務的流程、交付內容與費用見子頁，委託前確認服務範圍。</p><p>OTC 提供教育協調、文件整理與溝通支援；法律、移民、醫療、保險及法定監護事宜由相應機構或合資格人士處理。</p></div></main>`;
+return pageShell({title:'服務導覽台｜海外督導 OTC',path:'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:'按留學申請、簽證交流、學業就業、海外生活、翻譯出版及機構合作查閱 OTC 服務。',body}).replace(/[ \t]+$/gm,'');
+};

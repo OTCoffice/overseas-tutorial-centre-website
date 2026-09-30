@@ -34724,3 +34724,6 @@ write("zh/asso-hd-university-progression", require("./content/asso-hd-progressio
 
 // Preserve the Chinese master, restored masthead and current-page translation navigation.
 require("./scripts/consolidate-chinese-site.cjs");
+
+// Keep the service directory grouped; older inline additions are included in this source.
+write("zh/services", require("./content/service-desk.cjs")());
