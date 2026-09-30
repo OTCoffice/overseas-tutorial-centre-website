@@ -4960,6 +4960,8 @@ h1 {
 }
 
 .summer-alliance-region-card .body {
+  grid-column: 2;
+  min-width: 0;
   padding: 0;
 }
 

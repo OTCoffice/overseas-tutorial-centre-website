@@ -25748,35 +25748,7 @@ const summerSchoolAlliance = pageShell({
   path: "/summer-school-alliance/",
   description: "OTC 暑校聯盟入口：英國、澳洲、新西蘭、馬來西亞、新加坡、泰國、美國、加拿大暑期遊學與 summer school 初步匹配、免費代辦、無隱藏收費、海外督導與家長文件支持。",
   body: `
-    <section class="page-hero regional-office-hero country-gateway-hero">
-      <div class="band">
-        <div class="summer-alliance-hero-grid">
-          <div class="summer-alliance-hero-main">
-            <div class="eyebrow">SUMMER SCHOOL HUB</div>
-            <h1>海外督導｜寒暑校聯盟</h1>
-            <h2>UK · Australia · New Zealand · Malaysia · Singapore · Thailand · USA · Canada</h2>
-            <p>為中學生提供全球優質暑期學術項目，探索興趣，提升背景，為未來升學做好準備。</p>
-            <div class="summer-alliance-hero-proofs">
-              <article><strong>全球優質項目</strong><span>精選全球知名院校暑校項目</span></article>
-              <article><strong>學術背景提升</strong><span>提升學術能力與軟實力，助力升學申請</span></article>
-              <article><strong>專業顧問服務</strong><span>個性化規劃與全程跟進，讓每一步更有方向</span></article>
-            </div>
-            <div class="actions">
-              <a class="btn btn-primary" href="/consultation-chat/?source=summer-school-alliance">立即咨詢</a>
-              <a class="btn btn-secondary" href="https://wa.me/447947991572?text=${encodeURIComponent("你好，我想了解 OTC 暑校聯盟入口中的暑期遊學項目。")}">WhatsApp</a>
-              <a class="btn btn-secondary" href="mailto:office@overseasuk.com?subject=Summer%20School%20Alliance%20Enquiry">發送需求</a>
-            </div>
-          </div>
-          <div class="summer-alliance-hero-side">
-            <div class="summer-alliance-hero-stats">
-              <article><strong>10+</strong><span>國家與地區</span></article>
-              <article><strong>200+</strong><span>優質項目</span></article>
-              <article><strong>3000+</strong><span>學生參與</span></article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    ${require("./content/summer-alliance-hero.cjs")()}
 
     <section class="band compact-band summer-alliance-intro">
       <div class="section-head compact-head summer-alliance-intro-head">
@@ -25845,7 +25817,7 @@ const summerSchoolAlliance = pageShell({
             <div><span>02 · Asia</span><h3 id="summer-continent-asia">亞洲</h3></div><b>5 個入口</b>
           </div>
           <div class="summer-alliance-continent-list">
-            <article class="summer-alliance-region-card"><div class="body"><strong>日本 Japan</strong><span>20所大學與語言學校：英語冬校、日語入門、文化及城市生活體驗。</span><a href="/zh/summer-school-alliance/japan/">查看日本冬季專區 →</a></div></article>
+            <article class="summer-alliance-region-card"><span class="summer-alliance-region-flag" aria-hidden="true">🇯🇵</span><div class="body"><strong>日本 Japan</strong><span>20所大學與語言學校：英語冬校、日語入門、文化及城市生活體驗。</span><a href="/zh/summer-school-alliance/japan/">查看日本冬季專區 →</a></div></article>
             <article class="summer-alliance-region-card">
               <span class="summer-alliance-region-flag" aria-hidden="true">🇲🇾</span>
               <div class="body"><strong>馬來西亞 Malaysia</strong><span>英語環境、距離近，適合首次國際項目試水。</span><a href="/zh/summer-school-alliance/malaysia/">查看項目 →</a></div>
