@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/en/",
+      "destination": "https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Foverseasuk.com%2F",
+      "permanent": false
+    },
+    {
       "source": "/zh/",
       "destination": "/",
       "permanent": true

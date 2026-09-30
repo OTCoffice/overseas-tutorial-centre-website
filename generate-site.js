@@ -34749,3 +34749,6 @@ write("zh/services/personal-statement-support", require("./content/personal-stat
 write("services/personal-statement-support", require("./content/personal-statement-en.cjs")());
 
 write("zh/asso-hd-university-progression", require("./content/asso-hd-progression.cjs")());
+
+// Preserve the Chinese master, restored masthead and current-page translation navigation.
+require("./scripts/consolidate-chinese-site.cjs");

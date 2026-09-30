@@ -1,0 +1,751 @@
+[
+  {
+    "path": "/about/",
+    "title": "Overseas Tutorial Centre",
+    "label": "關於海外督導",
+    "chinese": "/zh/about/",
+    "group": "institutions"
+  },
+  {
+    "path": "/academic-tutoring/",
+    "title": "Academic Tutoring & Study Support",
+    "label": "學業輔導與學習支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/advanced-entry-china-programmes/",
+    "title": "Advanced Entry & China Programme Support",
+    "label": "高年級入學與中國課程支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/ai-business-studio/",
+    "title": "OTC AI Business Studio",
+    "label": "AI 商務工作室",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/ai-education-operations/",
+    "title": "AI-Enabled Education Operations",
+    "label": "AI 教育營運",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/application-service-standards/",
+    "title": "Student Application Service Standards",
+    "label": "學生申請服務準則",
+    "chinese": "/zh/application-service-standards/",
+    "group": "institutions"
+  },
+  {
+    "path": "/apps/advanced-vocabulary/",
+    "title": "進階英語詞庫",
+    "label": "進階英語詞庫",
+    "chinese": "/apps/advanced-vocabulary/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/ai-helper/",
+    "title": "OTC Study Hub AI Helper",
+    "label": "AI 學習助手",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/australian-citizenship-test/",
+    "title": "Australian Citizenship Test Practice Guide + App",
+    "label": "澳洲入籍考試練習",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/business-english-planner/",
+    "title": "商業英語學習台",
+    "label": "商業英語學習台",
+    "chinese": "/apps/business-english-planner/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/english-four-skills-check/diagnostic/",
+    "title": "系統診斷工作台",
+    "label": "英語系統診斷",
+    "chinese": "/apps/english-four-skills-check/diagnostic/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/english-four-skills-check/",
+    "title": "英文四項 初步診斷",
+    "label": "英文四項初步診斷",
+    "chinese": "/apps/english-four-skills-check/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/english-four-skills-check/sample-report/",
+    "title": "系統診斷報告｜虛構樣本",
+    "label": "英語診斷樣本報告",
+    "chinese": "/apps/english-four-skills-check/sample-report/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/ih-placement-interview/",
+    "title": "IH Placement & Interview Practice App",
+    "label": "IH 分班與面試練習",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/",
+    "title": "Apps & Tools",
+    "label": "應用與學習工具",
+    "chinese": "/#learning-tools",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/korean-self-study/",
+    "title": "韓語零基礎自學 App",
+    "label": "韓語零基礎自學",
+    "chinese": "/apps/korean-self-study/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/nclex-rn-bilingual-demo/",
+    "title": "NCLEX-RN Bilingual Clinical Judgment Demo",
+    "label": "NCLEX-RN 雙語臨床判斷示範",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/nclex-rn-bilingual-trainer/",
+    "title": "NCLEX-RN Bilingual Clinical Judgment Trainer",
+    "label": "NCLEX-RN 雙語臨床判斷訓練",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/othm-l5bm-companion/",
+    "title": "Overseas Publishing App  Level 5 Business Management Companion",
+    "label": "OTHM 商業管理學習工具",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/self-study/",
+    "title": "高中自學申請  研究與規劃",
+    "label": "高中自學申請",
+    "chinese": "/apps/self-study/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/study-coach/",
+    "title": "督學日誌｜海外書局 × OTC 學習平台",
+    "label": "督學日誌",
+    "chinese": "/apps/study-coach/",
+    "group": "tools"
+  },
+  {
+    "path": "/apps/ucbelt-speaking/",
+    "title": "UCBELT Speaking Test Practice App",
+    "label": "UCBELT 口語練習",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/australia/",
+    "title": "你的學歷， 在澳洲值多少？",
+    "label": "澳洲學歷與升學",
+    "chinese": "/australia/",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-business-landing/",
+    "title": "Australia Business Landing & Education Market Support",
+    "label": "澳洲業務落地與教育市場",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/australia-schools/lindisfarne-anglican-grammar-school/",
+    "title": "Lindisfarne Anglican Grammar School",
+    "label": "Lindisfarne Anglican Grammar School 學校介紹",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-schools/macarthur-anglican-school/",
+    "title": "Macarthur Anglican School",
+    "label": "Macarthur Anglican School 學校介紹",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-schools/moreton-bay-colleges/",
+    "title": "The Moreton Bay Colleges",
+    "label": "Moreton Bay Colleges 學校介紹",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-schools/plc-pathways/",
+    "title": "PLC Pathways",
+    "label": "PLC 升學銜接",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-schools/rockhampton-grammar-school/",
+    "title": "The Rockhampton Grammar School",
+    "label": "Rockhampton Grammar School 學校介紹",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/australia-schools/the-illawarra-grammar-school/",
+    "title": "The Illawarra Grammar School",
+    "label": "Illawarra Grammar School 學校介紹",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/belt/",
+    "title": "UCBELT  Speaking Test  Practice Suite",
+    "label": "UCBELT 口語練習套件",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/citizenship-australia/",
+    "title": "澳洲入籍考試 · Australian Citizenship Test",
+    "label": "澳洲入籍考試",
+    "chinese": "/citizenship-australia/",
+    "group": "tools"
+  },
+  {
+    "path": "/consultation-chat/",
+    "title": "免費路線初判",
+    "label": "免費路線初判",
+    "chinese": "/consultation-chat/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/canada/finance/",
+    "title": "加拿大留學財務與理財",
+    "label": "加拿大留學財務",
+    "chinese": "/countries/canada/finance/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/canada/immigration/",
+    "title": "加拿大移民路線：從留學到永居",
+    "label": "加拿大留學與移居",
+    "chinese": "/countries/canada/immigration/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/canada/living/",
+    "title": "加拿大城市選擇與租房攻略",
+    "label": "加拿大城市與租屋",
+    "chinese": "/countries/canada/living/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/canada/university-of-windsor-msml/",
+    "title": "溫莎大學體育管理與領導碩士（MSML）",
+    "label": "溫莎大學體育管理碩士",
+    "chinese": "/countries/canada/university-of-windsor-msml/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/france/",
+    "title": "法國留學入口",
+    "label": "法國留學",
+    "chinese": "/countries/france/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/germany/",
+    "title": "德國留學入口",
+    "label": "德國留學",
+    "chinese": "/countries/germany/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/ireland/",
+    "title": "愛爾蘭留學入口",
+    "label": "愛爾蘭留學",
+    "chinese": "/countries/ireland/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/japan/",
+    "title": "日本留學入口",
+    "label": "日本留學",
+    "chinese": "/countries/japan/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/netherlands/",
+    "title": "荷蘭留學入口",
+    "label": "荷蘭留學",
+    "chinese": "/countries/netherlands/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/new-zealand/",
+    "title": "新西蘭留學入口",
+    "label": "新西蘭留學",
+    "chinese": "/countries/new-zealand/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/singapore/",
+    "title": "新加坡留學入口",
+    "label": "新加坡留學",
+    "chinese": "/countries/singapore/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/switzerland/",
+    "title": "瑞士留學入口",
+    "label": "瑞士留學",
+    "chinese": "/countries/switzerland/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/thailand/",
+    "title": "泰國留學入口",
+    "label": "泰國留學",
+    "chinese": "/countries/thailand/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/united-kingdom/",
+    "title": "英國留學入口",
+    "label": "英國留學",
+    "chinese": "/countries/united-kingdom/",
+    "group": "learning"
+  },
+  {
+    "path": "/countries/united-states/",
+    "title": "美國留學入口",
+    "label": "美國留學",
+    "chinese": "/countries/united-states/",
+    "group": "learning"
+  },
+  {
+    "path": "/courses/",
+    "title": "Courses",
+    "label": "課程總覽",
+    "chinese": "/#curriculum",
+    "group": "learning"
+  },
+  {
+    "path": "/external-programme-support/btec-pearson/",
+    "title": "BTEC / Pearson Support",
+    "label": "BTEC／Pearson 課程支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/external-programme-support/foundation-pathway/",
+    "title": "Foundation / Pathway Support",
+    "label": "大學預科與銜接支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/external-programme-support/",
+    "title": "External Programme Support",
+    "label": "外部課程支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/external-programme-support/open-university/",
+    "title": "Open University (OU) Support",
+    "label": "英國開放大學課程支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/external-programme-support/university-modules/",
+    "title": "University Module Support",
+    "label": "大學模組輔導",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/guidance-progression/",
+    "title": "Study Route, Top-up & Progression Guidance",
+    "label": "Top-up 與升學指導",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/ih-placement/",
+    "title": "IH placement & interview practice",
+    "label": "IH 分班與面試準備",
+    "chinese": "",
+    "group": "tools"
+  },
+  {
+    "path": "/insights/credit-alliance/",
+    "title": "你的學分，全球通用",
+    "label": "學分聯盟",
+    "chinese": "/insights/credit-alliance/",
+    "group": "learning"
+  },
+  {
+    "path": "/insights/western-university-westernIC-canada-pathway-2026/",
+    "title": "🇨🇦 韦仕敦大学 WesternIC：  本硕直通项目 2026 完整解析",
+    "label": "韋仕敦大學 WesternIC 銜接",
+    "chinese": "/insights/western-university-westernIC-canada-pathway-2026/",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/applied-science/",
+    "title": "Applied Science",
+    "label": "BTEC 應用科學",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/art-design/",
+    "title": "Art & Design",
+    "label": "BTEC 藝術與設計",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/business-enterprise-law/",
+    "title": "Business, Enterprise & Law",
+    "label": "BTEC 商業、企業與法律",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/computing-information-technology/",
+    "title": "Computing & Information Technology",
+    "label": "BTEC 電腦與資訊科技",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/construction-built-environment/",
+    "title": "Construction & Built Environment",
+    "label": "BTEC 建築與建成環境",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/creative-media-production/",
+    "title": "Creative Media Production",
+    "label": "BTEC 創意媒體製作",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/engineering/",
+    "title": "Engineering",
+    "label": "BTEC 工程",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/health-social-care/",
+    "title": "Health & Social Care",
+    "label": "BTEC 健康與社會照護",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/hospitality-catering-events/",
+    "title": "Hospitality, Catering & Events",
+    "label": "BTEC 酒店、餐飲與活動",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/",
+    "title": "BTEC Progression Support",
+    "label": "BTEC 升學支援",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/level-3-international-level-3/",
+    "title": "Level 3 / International Level 3",
+    "label": "BTEC Level 3／International Level 3",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/music-performing-arts/",
+    "title": "Music & Performing Arts",
+    "label": "BTEC 音樂與表演藝術",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/route-diagnosis/",
+    "title": "Route diagnosis for BTEC / Pearson learners",
+    "label": "BTEC／Pearson 學習路線",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/sport-exercise-science/",
+    "title": "Sport & Exercise Science",
+    "label": "BTEC 運動與運動科學",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/travel-tourism/",
+    "title": "Travel & Tourism",
+    "label": "BTEC 旅遊與觀光",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/btec-pearson/university-progression/",
+    "title": "BTEC Level 3 university recognition map",
+    "label": "BTEC Level 3 大學認可",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/international-curriculum-tutoring/",
+    "title": "A-Level, BTEC, IB and AP bilingual tutoring",
+    "label": "國際課程雙語輔導",
+    "chinese": "/#curriculum",
+    "group": "learning"
+  },
+  {
+    "path": "/learning-platform/",
+    "title": "OTC Learning Platform",
+    "label": "OTC 學習平台",
+    "chinese": "/#learning-tools",
+    "group": "learning"
+  },
+  {
+    "path": "/offices/commonwealth/",
+    "title": "英聯邦入口",
+    "label": "英聯邦服務入口",
+    "chinese": "/offices/commonwealth/",
+    "group": "institutions"
+  },
+  {
+    "path": "/offices/east-asia/",
+    "title": "東亞入口",
+    "label": "東亞服務入口",
+    "chinese": "/offices/east-asia/",
+    "group": "institutions"
+  },
+  {
+    "path": "/offices/europe/",
+    "title": "歐洲入口",
+    "label": "歐洲服務入口",
+    "chinese": "/offices/europe/",
+    "group": "institutions"
+  },
+  {
+    "path": "/offices/united-states/",
+    "title": "美國入口",
+    "label": "美國服務入口",
+    "chinese": "/offices/united-states/",
+    "group": "institutions"
+  },
+  {
+    "path": "/othm-level-5-business-management/",
+    "title": "OTHM Level 5 Business Management",
+    "label": "OTHM Level 5 商業管理",
+    "chinese": "",
+    "group": "learning"
+  },
+  {
+    "path": "/publishing/author-gallery/",
+    "title": "作家畫廊系列  Author Gallery Series",
+    "label": "作家畫廊系列",
+    "chinese": "/publishing/author-gallery/",
+    "group": "publishing"
+  },
+  {
+    "path": "/publishing/author-gallery/yan-lianke/",
+    "title": "閻連科  從「不真之真」到神實主義",
+    "label": "閻連科專題",
+    "chinese": "/publishing/author-gallery/yan-lianke/",
+    "group": "publishing"
+  },
+  {
+    "path": "/publishing/btec-level-3-business-assignment-writing-toolkit/sample/",
+    "title": "Sample Pages",
+    "label": "BTEC 商業作業工具包樣章",
+    "chinese": "",
+    "group": "publishing"
+  },
+  {
+    "path": "/publishing/ebook-publishing-support/",
+    "title": "Ebook Publishing Support",
+    "label": "電子書出版支援",
+    "chinese": "",
+    "group": "publishing"
+  },
+  {
+    "path": "/publishing/media/",
+    "title": "YouTube & Podcast",
+    "label": "YouTube 與 Podcast",
+    "chinese": "",
+    "group": "publishing"
+  },
+  {
+    "path": "/publishing/othm-health-social-care-bilingual-series/",
+    "title": "OTHM 健康護理雙語書系",
+    "label": "OTHM 健康護理雙語書系",
+    "chinese": "/publishing/othm-health-social-care-bilingual-series/",
+    "group": "publishing"
+  },
+  {
+    "path": "/resources/",
+    "title": "Global Study Advisory",
+    "label": "全球留學諮詢",
+    "chinese": "/zh/services/",
+    "group": "learning"
+  },
+  {
+    "path": "/search/",
+    "title": "Search OTC Study Hub",
+    "label": "全站搜尋",
+    "chinese": "/zh/search/",
+    "group": "learning"
+  },
+  {
+    "path": "/services/academic-conferences-roundtables/",
+    "title": "Academic Conferences & Roundtables",
+    "label": "學術會議與圓桌",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/academic-guardianship-family-office/",
+    "title": "Academic Guardianship & Family Office",
+    "label": "學術監護與家庭服務",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/compliance-file-audit-copy/",
+    "title": "Compliance File & Audit Copy",
+    "label": "合規檔案與審核副本",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/cross-border-property-management/",
+    "title": "Cross-border Property Management Coordination",
+    "label": "跨境房產管理協調",
+    "chinese": "/zh/cross-border-property-management/",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/digital-learning-assessment-tools/",
+    "title": "Digital Learning & Assessment Tools",
+    "label": "數字學習與評估工具",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/education-fairs-institutional-delegations/",
+    "title": "Education Fairs & Institutional Delegations",
+    "label": "教育展與院校代表團",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/education-institution-accreditation-support/",
+    "title": "Education Institution Accreditation Support",
+    "label": "教育機構認證支援",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/executive-education-training/",
+    "title": "Executive Education & Training",
+    "label": "行政與專業培訓",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/institutional-market-entry/",
+    "title": "Institutional Market Entry",
+    "label": "教育機構市場進入",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/publishing-editorial-production/",
+    "title": "Publishing & Editorial Production",
+    "label": "出版與編輯製作",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/research-policy-briefing/",
+    "title": "Research & Policy Briefing",
+    "label": "研究與政策簡報",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/station-dispatch-emergency-coordination/",
+    "title": "Station Dispatch & Emergency Coordination",
+    "label": "驛站調度與緊急協調",
+    "chinese": "",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/university-application-advisory/",
+    "title": "University Application Advisory",
+    "label": "大學申請顧問",
+    "chinese": "/zh/services/university-application-advisory/",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/us-high-school-exchange-support/",
+    "title": "US High School Exchange Application Support",
+    "label": "美國高中交換支援",
+    "chinese": "/zh/us-high-school-exchange-support/",
+    "group": "institutions"
+  },
+  {
+    "path": "/services/us-swt-work-travel-support/",
+    "title": "US Summer Work Travel Route Support",
+    "label": "美國 SWT 暑期工遊",
+    "chinese": "/zh/us-swt-work-travel-support/",
+    "group": "institutions"
+  },
+  {
+    "path": "/study-guides/",
+    "title": "Study Guides",
+    "label": "學習書籍",
+    "chinese": "/#othm-books",
+    "group": "publishing"
+  },
+  {
+    "path": "/university-applications/",
+    "title": "Apply through OTC",
+    "label": "大學申請",
+    "chinese": "/zh/services/university-application-advisory/",
+    "group": "learning"
+  },
+  {
+    "path": "/university-partnerships/",
+    "title": "University Agent & Institutional Cooperation",
+    "label": "院校代理與機構合作",
+    "chinese": "",
+    "group": "institutions"
+  }
+]

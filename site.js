@@ -49,7 +49,8 @@ const SHORT_BRAND_NAME = "Overseas Tutorial Centre (OTC)";
 const CONTACT_HTML = `${BRAND_NAME}<br>3/F Overseas Education, 207 Regent Street, London W1B 3HH<br>Email: <a href="mailto:office@overseasuk.com">office@overseasuk.com</a><br>WhatsApp: <a href="https://wa.me/447947991572">+44 7947 991572</a><br>WeChat: overseasus<br>Website: <a href="${SITE_URL}">${SITE_URL}</a>`;
 const CONTACT_TEXT = `${BRAND_NAME}\n3/F Overseas Education, 207 Regent Street, London W1B 3HH\nEmail: office@overseasuk.com\nWhatsApp: +44 7947 991572\nWeChat: overseasus\nWebsite: ${SITE_URL}`;
 
-function nav(current = "", locale = "en") {
+function nav(current = "", locale = "en", pagePath = "/") {
+  const translateUrl = "https://translate.google.com/translate?sl=auto&tl=en&u=" + encodeURIComponent(SITE_URL + pagePath);
   const isZh = locale === "zh";
   return `
     <header class="site-header">
@@ -66,8 +67,8 @@ function nav(current = "", locale = "en") {
             <a href="/zh/summer-school-alliance/">寒暑校</a>
             <a href="/zh/insights/">留學導報</a>
             <a href="/zh/publishing/">出版</a>
-            <a href="/search/">搜尋</a>
-            <a href="/en/" lang="en" class="language-link">English</a>
+            <a href="/zh/search/">搜尋</a>
+            <a href="${translateUrl.replaceAll("&", "&amp;")}" lang="en" class="language-link" title="Google 自動翻譯本頁">Translate the page · English</a>
           ` : `
             <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
             <a href="/services/" ${current === "services" ? 'aria-current="page"' : ""}>Services</a>
@@ -208,7 +209,7 @@ function parentPathFor(canonicalPath) {
 
 function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
   const parentFallbacks = {
-    "/zh/publishing/": "/publishing/",
+    "/zh/publishing/": "/zh/publishing/",
     "/zh/reports/": "/zh/australia-office-presence/",
     "/zh/australia-universities/": "/zh/australia-office-presence/"
   };
@@ -367,7 +368,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <link rel="stylesheet" href="${stylesheetPath}?v=zh-mobile-workbench-20260602f">
 </head>
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
-  ${nav(current, locale)}
+  ${nav(current, locale, canonicalPath)}
   ${pageUtilityBar({ canonicalPath, canonicalUrl, title, locale })}
   ${body}
   ${footer(locale)}
@@ -376,4 +377,4 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 </html>`;
 }
 
-module.exports = { pageShell, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };
+module.exports = { nav, pageShell, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };
