@@ -16,7 +16,7 @@ const groups=[
  ['越南簽證代辦','/zh/services/vietnam-visa/','需求確認、文件檢查、申請協調與進度跟進。'],
  ['寒暑校聯盟','/zh/summer-school-alliance/','按國家比較暑校、遊學及假期短期項目。'],
  ['歐洲交換陪跑','/zh/services/europe-exchange-support/','交換選校、選課、學分、均分與升碩銜接。'],
- ['工遊聯盟','/zh/work-travel-alliance/','加拿大、美國、澳洲、英國、荷蘭與紐西蘭的工遊項目及陪跑。'],
+ ['打工度假聯盟','/zh/work-travel-alliance/','按地區查閱各國打工度假、青年流動、暑期工作交流及行前服務。'],
  ['美國 SWT 暑期工遊','/zh/us-swt-work-travel-support/','資格、主辦機構、職位、成本、簽證面談與行前準備。']]],
  ['learning','學業與就業','在讀學習、語言練習與海外求職準備。',[
  ['學術監護','/services/academic-guardianship-family-office/','學業進度、學校溝通、家長報告與升學規劃。'],

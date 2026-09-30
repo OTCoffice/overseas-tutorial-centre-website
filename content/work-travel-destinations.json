@@ -1,0 +1,776 @@
+[
+  {
+    "id": "australia",
+    "name": "澳洲",
+    "region": "oceania",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday · 417／462",
+        "summary": "417 與 462 是不同簽證類別。先按護照確認類別，再查年齡、教育、語言及申請安排。",
+        "scope": "適用護照、名額及抽籤安排依類別而異；續簽另有條件。",
+        "official": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/overview",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "new-zealand",
+    "name": "紐西蘭",
+    "region": "oceania",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "按護照選擇計劃；有些設年度名額及開放日期，有些可全年申請。",
+        "scope": "需按所屬計劃準備資金、保險及適用的體檢或語言證明。",
+        "official": "https://www.immigration.govt.nz/work/working-holiday-visas/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "canada",
+    "name": "加拿大",
+    "region": "north-america",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "IEC · Working Holiday",
+        "summary": "符合資格後建立 profile 入池，收到邀請才進入工作許可申請。",
+        "scope": "護照、年齡、參與次數及停留期限依協定；入池不保證獲邀。",
+        "official": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "usa",
+    "name": "美國",
+    "region": "north-america",
+    "programs": [
+      {
+        "type": "summer",
+        "title": "J-1 · Summer Work Travel",
+        "summary": "以暑假工作及文化交流為主，須經美國國務院指定 sponsor。",
+        "scope": "主要面向符合條件的境外大專院校在讀學生；畢業生不能直接套用在讀資格。",
+        "official": "https://j1visa.state.gov/programs/summer-work-travel/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "uk",
+    "name": "英國",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "youth",
+        "title": "Youth Mobility Scheme · YMS",
+        "summary": "青年流動計劃，依護照核對年齡、資金及是否需要先抽籤。",
+        "scope": "不同國籍的年齡與停留安排不同；持學生身分並不自動取得申請資格。",
+        "official": "https://www.gov.uk/youth-mobility",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "ireland",
+    "name": "愛爾蘭",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Authorisation",
+        "summary": "先申請打工度假授權；受理單位及材料按護照區分。",
+        "scope": "台灣護照由愛爾蘭移民部門受理；其他適用護照按官方列表查詢。長住另核對抵境登記。",
+        "official": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/working-holidays-in-ireland/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "netherlands",
+    "name": "荷蘭",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday · WHP／WHS",
+        "summary": "以文化交流為主要目的，可按規定從事附帶工作。",
+        "scope": "只適用協定護照；台灣、香港等設年度名額，申請程序依國家／地區不同。",
+        "official": "https://ind.nl/en/residence-permits/au-pair-and-exchange/residence-permit-working-holiday",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "france",
+    "name": "法國",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Vacances-travail",
+        "summary": "透過打工度假簽證在法國體驗生活，工作用於補貼旅費。",
+        "scope": "按協定確認年齡與名額；申請地點有護照及居住地限制。",
+        "official": "https://www.france-visas.gouv.fr/en/web/france-visas/jeunes-voyageurs",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "germany",
+    "name": "德國",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "以文化及日常生活體驗為主，可做假期工作補貼生活。",
+        "scope": "適用協定護照；台灣及香港申請人的受理地點各有規定。",
+        "official": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/06-workingholiday-606672",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "belgium",
+    "name": "比利時",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Programme",
+        "summary": "打工度假屬長期停留簽證，應依護照查閱對應使領館文件。",
+        "scope": "台灣申請可查比利時台北辦事處；其他護照使用相應受理單位，勿混用清單。",
+        "official": "https://taipei.diplomatie.belgium.be/en/travel-belgium/visa-belgium/long-stays-over-90-days",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "austria",
+    "name": "奧地利",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Programme",
+        "summary": "依雙邊協定安排假期、短期工作與文化體驗。",
+        "scope": "年齡、停留期限和受理使館依護照不同；倫敦受理範圍不等於所有適用護照。",
+        "official": "https://www.bmeia.gv.at/en/travel-stay/entrance-and-residence-in-austria/working-holiday-programmes",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "czechia",
+    "name": "捷克",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Long-term Visa",
+        "summary": "以打工度假長期簽證安排旅行及短期工作。",
+        "scope": "台灣申請人查捷克經濟文化辦事處；依當期名額、預約及材料清單辦理。",
+        "official": "https://mzv.gov.cz/taipei/en/visas_and_consular_information/visa_information_for_foreigners/working_holiday_long_term_visa/index.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "poland",
+    "name": "波蘭",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Programme",
+        "summary": "透過雙邊青年交流計劃結合旅行、文化體驗與工作。",
+        "scope": "先在官方協定列表確認護照，再向受理單位查申請時間與文件。",
+        "official": "https://www.gov.pl/web/family/working-holiday-agreements",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "hungary",
+    "name": "匈牙利",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Scheme",
+        "summary": "按打工度假協定申請相應臨時居留。",
+        "scope": "設協定國別及年度配額；名額用盡可導致申請被拒。",
+        "official": "https://www.oif.gov.hu/index.php/factsheets/list-of-agreements-concluded-on-working-holiday-scheme",
+        "status": "官方有項目資料"
+      },
+      {
+        "type": "remote",
+        "title": "White Card",
+        "summary": "依境外僱傭或境外公司業務申請遠端工作居留。",
+        "scope": "White Card 不允許在匈牙利從事本地有償活動；與打工度假臨時居留不同。",
+        "official": "https://www.oif.gov.hu/factsheets/white-card-residency-for-digital-nomads",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "slovakia",
+    "name": "斯洛伐克",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Programme",
+        "summary": "青年可按協定申請打工度假國家簽證。",
+        "scope": "台灣申請人使用斯洛伐克台北辦事處清單，核對當期名額及材料。",
+        "official": "https://www.mzv.sk/en/web/taipei-en/visa-and-services/working-holiday-program",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "luxembourg",
+    "name": "盧森堡",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "青年文化交流計劃，結合有限期間的停留與工作。",
+        "scope": "適用夥伴包括台灣等地；國別清單及申請安排以官方頁面為準。",
+        "official": "https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/work-and-travel.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "sweden",
+    "name": "瑞典",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "以體驗瑞典生活與文化為主要目的，獲許可後可按規定工作。",
+        "scope": "適用澳洲、加拿大、香港、日本、紐西蘭及韓國等官方列明護照；不是所有青年都適用。",
+        "official": "https://www.migrationsverket.se/en/you-want-to-apply/work/temporary-work-in-sweden/working-holiday-visa-for-young-people.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "denmark",
+    "name": "丹麥",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "依國別計劃申請居留及工作許可。",
+        "scope": "不同協定可能有暫停受理或工作時數限制；先查所屬護照頁面。",
+        "official": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Working-Holiday",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "norway",
+    "name": "挪威",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday for Young Adults",
+        "summary": "UDI 以申請人國籍顯示適用的青年交流居留類別。",
+        "scope": "先選本人國籍查看可用項目；有旅行計劃不代表符合工作居留資格。",
+        "official": "https://www.udi.no/en/want-to-apply/work-immigration/exchange-programmes-culture-and-organisational-work/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "finland",
+    "name": "芬蘭",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "按互惠協定申請打工度假居留。",
+        "scope": "目前官方清單列澳洲、紐西蘭、日本及加拿大；不能將台灣或香港的其他國家協定套用。",
+        "official": "https://migri.fi/working-holiday/fi",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "italy",
+    "name": "義大利",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "youth",
+        "title": "Youth Mobility · Working Holiday",
+        "summary": "以義大利與加拿大青年流動協定為已核實入口，區分打工度假與其他交流類別。",
+        "scope": "此來源適用加拿大公民；其他護照須另查雙邊協定，不能直接使用同一資格。",
+        "official": "https://www.esteri.it/en/servizi-opportunita/opportunita/scambi_giovanili/accordo-in-materia-di-mobilita-giovanile-tra-litalia-e-il-canada/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "japan",
+    "name": "日本",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday",
+        "summary": "以度假為主，可依規定工作補貼旅費；由所屬國家／地區受理單位處理。",
+        "scope": "護照、年齡、申請次數與名額依協定；工作行業另有限制。",
+        "official": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+        "status": "官方有項目資料"
+      },
+      {
+        "type": "remote",
+        "title": "Digital Nomad · 特定活動",
+        "summary": "針對符合國家／地區與收入條件的遠端工作者，與打工度假分開申請。",
+        "scope": "有收入及保險門檻；核准期限及可從事活動按本類別規定。",
+        "official": "https://www.mofa.go.jp/ca/fna/pagewe_000001_00046.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "south-korea",
+    "name": "韓國",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday · H-1",
+        "summary": "透過 H-1 計劃體驗韓國生活及文化，按規定從事短期工作。",
+        "scope": "按護照查年齡、名額、停留及工作限制；使用當期國別指南。",
+        "official": "https://whic.mofa.go.kr/twa/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "taiwan",
+    "name": "台灣",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday · 來台度假打工",
+        "summary": "提供協定國青年來台旅行及短期工作的入口。",
+        "scope": "本項是外國青年來台計劃；台灣居民赴海外應選目的地國家，兩者方向不同。",
+        "official": "https://www.boca.gov.tw/lp-153-2-1-40.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "hong-kong",
+    "name": "香港",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday Scheme · 來港工作假期",
+        "summary": "協定國青年可申請來港度假，並依條件從事短期工作或修讀短期課程。",
+        "scope": "本項是海外青年來港計劃；香港居民赴海外應選目的地國家。",
+        "official": "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "argentina",
+    "name": "阿根廷",
+    "region": "latin-america",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Work & Holiday Programme",
+        "summary": "按雙邊協定申請旅行與短期工作計劃。",
+        "scope": "每一協定有不同年齡與配額；僅接受官方列出的護照。",
+        "official": "https://cancilleria.gob.ar/en/service/services/work-holiday-programme",
+        "status": "官方有項目資料"
+      },
+      {
+        "type": "remote",
+        "title": "Nómadas Digitales",
+        "summary": "數位遊牧入境申請與 Work & Holiday 為不同項目。",
+        "scope": "依護照入境條件及職業證明核對資格；不能假設兩種計劃互通。",
+        "official": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-nomadas-digitales",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "chile",
+    "name": "智利",
+    "region": "latin-america",
+    "programs": [
+      {
+        "type": "wh",
+        "title": "Working Holiday · 國際協定居留",
+        "summary": "透過國際協定下的臨時居留安排打工度假。",
+        "scope": "申請按協定國籍及 SERMIG 程序；一般應在境外提交相應申請。",
+        "official": "https://serviciomigraciones.cl/en/residencia-temporal-permit/subcategories/international-agreements/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "nepal",
+    "name": "尼泊爾",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "stay",
+        "title": "旅遊停留與延伸旅居",
+        "summary": "可規劃旅行、文化體驗及住宿；按移民部門規定辦理旅遊簽證及延期。",
+        "scope": "旅遊簽證不等於工作許可。在尼泊爾就業需相應工作簽證；未核實數位遊牧簽證正式受理入口。",
+        "official": "https://immigration.gov.np/visa-information",
+        "status": "旅遊停留；工作資格另查"
+      }
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "泰國",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Destination Thailand Visa · DTV",
+        "summary": "Workcation 類別面向符合條件的遠端工作者、數位遊牧及自由工作者。",
+        "scope": "須提交職業或作品等證明；不是開放當地受僱的打工度假簽證。",
+        "official": "https://london.thaiembassy.org/en/page/destination-thailand-visa",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "malaysia",
+    "name": "馬來西亞",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "DE Rantau · Digital Nomad Pass",
+        "summary": "按 MDEC 計劃申請遠端工作停留。",
+        "scope": "職業類別、收入、合約及家屬要求依當期指南；不能以學生身分取代資格。",
+        "official": "https://www.mdec.my/md-programmes/digital-nomad-pass",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "sri-lanka",
+    "name": "斯里蘭卡",
+    "region": "asia",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Visa",
+        "summary": "為境外公司或客戶遠端工作者提供居留申請類別。",
+        "scope": "需符合收入匯入、職業及文件要求；當地就業不適用這個類別。",
+        "official": "https://www.immigration.gov.lk/content/files/visa/digital_nomad/Digital%20Nomad%20Visa%20Category.pdf",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "uae",
+    "name": "阿聯酋",
+    "region": "middle-east",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Virtual Work Residence Visa",
+        "summary": "在阿聯酋居住並為境外公司遠端工作。",
+        "scope": "核對收入、境外工作證明、保險及體檢；ICP 與杜拜受理入口分開。",
+        "official": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-working-outside-the-uae",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "turkiye",
+    "name": "土耳其",
+    "region": "middle-east",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Visa",
+        "summary": "先取得 Digital Nomad Identification Certificate，再按要求申請簽證。",
+        "scope": "設限定國籍清單；不是所有台灣、香港或中國大陸護照持有人都可申請。",
+        "official": "https://yimer.gov.tr/EN/SSS",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "portugal",
+    "name": "葡萄牙",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "遠端工作簽證與居留",
+        "summary": "以為境外單位提供遠端服務為基礎，選擇相應停留或居留申請。",
+        "scope": "核對收入、工作關係及適用簽證程序；不是一般青年工作假期。",
+        "official": "https://www.visitportugal.com/en/content/how-be-digital-nomad-portugal",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "spain",
+    "name": "西班牙",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Visa",
+        "summary": "適用符合條件的遠端僱員或自僱專業人士。",
+        "scope": "需核對工作關係、資格、收入及社會保障文件，不能只以旅遊目的申請。",
+        "official": "https://exteriores.gob.es/Consulados/londres/en/ServiciosConsulares/Paginas/Consular/Digital-Nomad-Visa.aspx",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "estonia",
+    "name": "愛沙尼亞",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Visa",
+        "summary": "遠端工作簽證與 e-Residency 電子居民服務是不同制度。",
+        "scope": "e-Residency 不授予入境或居留權；申請簽證需另符合工作與收入條件。",
+        "official": "https://www.e-resident.gov.ee/blog/posts/faqs-about-estonias-digital-nomad-visa/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "croatia",
+    "name": "克羅埃西亞",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Temporary Stay",
+        "summary": "為符合條件的第三國遠端工作者提供臨時停留安排。",
+        "scope": "入境簽證、停留申請及抵境登記依護照與居住地安排。",
+        "official": "https://mup.gov.hr/print.aspx?id=286833&url=print",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "malta",
+    "name": "馬爾他",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Nomad Residence Permit",
+        "summary": "供以通訊技術為境外單位工作的合資格第三國人士申請。",
+        "scope": "需核對收入、工作安排、保險與住所；不等於馬爾他當地工作許可。",
+        "official": "https://nomad.residencymalta.gov.mt/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "latvia",
+    "name": "拉脫維亞",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Long-term Visa for Remote Work",
+        "summary": "面向符合官方境外僱傭或自僱條件的遠端工作者。",
+        "scope": "須核對僱主／自僱登記國及收入條件；持此簽證不能在拉脫維亞就業。",
+        "official": "https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "romania",
+    "name": "羅馬尼亞",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad · 長期簽證",
+        "summary": "為境外公司工作的數位遊牧人士可查相應長期簽證類別。",
+        "scope": "需提交境外業務或僱傭、收入及其他規定文件。",
+        "official": "https://eviza.mae.ro/TypeOfVisa?lang=en-US",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "slovenia",
+    "name": "斯洛維尼亞",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Temporary Residence",
+        "summary": "官方已公布數位遊牧臨時居留安排，供符合條件的境外工作者查詢。",
+        "scope": "適用非歐盟／歐洲經濟區人士；當地受僱需其他相應居留依據。",
+        "official": "https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads/",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "iceland",
+    "name": "冰島",
+    "region": "europe",
+    "programs": [
+      {
+        "type": "stay",
+        "title": "短期居留制度更新",
+        "summary": "2026 年 5 月官方宣布撤銷原長期簽證條文，改設短期居留許可制度。",
+        "scope": "舊版遠端工作長期簽證攻略不宜直接沿用；需查新制細則及個人適用性。",
+        "official": "https://island.is/en/o/directorate-of-immigration/news/visa-services-transferred-to-the-ministry-for-foreign-affairs",
+        "status": "制度已變更；需核對新制"
+      }
+    ]
+  },
+  {
+    "id": "costa-rica",
+    "name": "哥斯大黎加",
+    "region": "latin-america",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Remote Workers and Service Providers",
+        "summary": "依遠端工作者及服務提供者停留類別申請。",
+        "scope": "需核對境外收入、醫療保險及申請文件；不是一般打工度假。",
+        "official": "https://www.visitcostarica.com/procedure",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "brazil",
+    "name": "巴西",
+    "region": "latin-america",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad · VITEM",
+        "summary": "依數位遊牧臨時簽證類別準備境外工作及財力文件。",
+        "scope": "受理使領館與材料依居住地安排；其他旅行或退休類別不可混用。",
+        "official": "https://www.gov.br/mre/pt-br/consulado-nova-york/servicos-consulares/visto-visa-2/VITEM/nomad_XIV",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "colombia",
+    "name": "哥倫比亞",
+    "region": "latin-america",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Visa V · Nómadas Digitales",
+        "summary": "為境外公司提供遠端服務者可查 V 類數位遊牧簽證。",
+        "scope": "須先確認護照適用範圍及境外工作條件；不是當地受僱簽證。",
+        "official": "https://www.cancilleria.gov.co/node/26950",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "barbados",
+    "name": "巴貝多",
+    "region": "caribbean",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Welcome Stamp",
+        "summary": "以境外遠端工作為基礎安排海島停留。",
+        "scope": "需符合 Welcome Stamp 的收入、職業及保險要求；申請費另計。",
+        "official": "https://tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "antigua-barbuda",
+    "name": "安地卡及巴布達",
+    "region": "caribbean",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Nomad Digital Residence",
+        "summary": "為境外受僱的非本國人士及符合條件家屬提供遠端工作旅居。",
+        "scope": "核對職業、收入及醫療保險；不是當地就業招募計劃。",
+        "official": "https://nomad.gov.ag/ui/faq.php",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "mauritius",
+    "name": "模里西斯",
+    "region": "africa",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Premium Visa",
+        "summary": "可用於符合條件的長期旅居及境外遠端工作。",
+        "scope": "主要業務與收入來源需在境外，不能藉此進入當地勞動市場。",
+        "official": "https://edbmauritius.org/wp-content/uploads/2023/12/FAQs-Premium-Visa.pdf",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "namibia",
+    "name": "納米比亞",
+    "region": "africa",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Digital Nomad Visa",
+        "summary": "官方簽證指南列有數位遊牧類別及 NIPDB 申請入口。",
+        "scope": "核對財力、遠端工作、保險及當期受理程序。",
+        "official": "https://mha.gov.na/documents/292728/5839021/VISA%2Band%2BPERMITS%2BFAQ.pdf/3005c430-1833-f89a-a6b6-5bd8fa88fe5f?t=1741020997482",
+        "status": "官方有項目資料"
+      }
+    ]
+  },
+  {
+    "id": "south-africa",
+    "name": "南非",
+    "region": "africa",
+    "programs": [
+      {
+        "type": "remote",
+        "title": "Remote Work Visitor’s Visa",
+        "summary": "以境外僱主合約為基礎申請遠端工作訪客簽證。",
+        "scope": "需核對收入、合約及稅務登記要求；當地就業需另查相應許可。",
+        "official": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
+        "status": "官方有項目資料"
+      }
+    ]
+  }
+]
