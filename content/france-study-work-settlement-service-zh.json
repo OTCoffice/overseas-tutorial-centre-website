@@ -1,14 +1,68 @@
 {
   "slug": "france-study-work-settlement-support",
   "path": "/zh/france-study-work-settlement-support/",
-  "title": "法國升學・就業・定居陪跑｜海外督導 OTC",
-  "titleZh": "法國升學・就業・定居陪跑｜海外督導 OTC",
-  "summary": "海外督導 OTC 法國跨年度陪跑：本科能力、法語、交換與碩士規劃、實習、求職，以及合規居留節點核對。",
-  "summaryZh": "海外督導 OTC 法國跨年度陪跑：本科能力、法語、交換與碩士規劃、實習、求職，以及合規居留節點核對。",
+  "title": "法國留學申請・就業與生活｜海外督導 OTC",
+  "titleZh": "法國留學申請・就業與生活｜海外督導 OTC",
+  "summary": "法國公立大學、商學院及語言課程諮詢：選校、入學要求、語言成績後補、申請材料、流程與費用，並提供實習、求職及抵法生活準備。",
+  "summaryZh": "法國公立大學、商學院及語言課程諮詢：選校、入學要求、語言成績後補、申請材料、流程與費用，並提供實習、求職及抵法生活準備。",
   "socialTitleZh": "法國升學・就業・定居陪跑",
   "shareImageZh": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
   "shareImage": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
   "socialImageVersion": "v=20260916-france-service-zh-1",
   "socialImageWidth": 1200,
-  "socialImageHeight": 630
+  "socialImageHeight": 630,
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "id": "programmes",
+      "title": "課程",
+      "html": "<p><strong>公立大學：</strong>按本科、碩士及專業方向查閱入學要求，重點比較課程內容、授課語言、先修科目與學費。</p><p><strong>商學院與專業院校：</strong>比較學位認可、課程內容、實習安排及全程費用；學校名稱與課程名稱不能代替學位資格核對。</p><p><strong>法語課程：</strong>適合先提升語言能力的學生。語言課程錄取與後續學位課程錄取分開處理。可參考<a href=\"/zh/language-school-alliance/france/\">法國語言學校</a>。</p>"
+    },
+    {
+      "id": "language",
+      "title": "語言要求",
+      "html": "<p>法語授課與英語授課課程各有要求，應逐項確認認可考試、最低成績、有效期及豁免條件。法語程度、英語成績和學術背景都會影響選校。</p><h3>成績尚未公布</h3><p>部分申請流程可先交考試報名證明、後補成績。例如 Campus France USA 說明，遞交 Études en France 申請時尚未取得法語考試成績者，可先提供考試報名證明；補交時間須按當地流程確認。這項安排不能直接套用到其他居住地或所有院校。</p><p>自行製作的「預計考試日期 PDF」不等同考試報名證明。若希望先審理或先獲錄取，應先取得院校書面確認，並問清接受的文件、補交期限與錄取條件。收到 offer 後仍須完成其列明的要求。</p><p><a href=\"https://www.usa.campusfrance.org/applying-to-a-french-institution\">Campus France USA：申請與語言證明</a> · <a href=\"https://www.usa.campusfrance.org/faq/candidate-faq\">成績補交說明</a></p>"
+    },
+    {
+      "id": "materials",
+      "title": "申請材料",
+      "html": "<p>一般需準備成績單、畢業或在讀證明、履歷、動機信及語言證明。推薦信、作品集、研究計畫與文件翻譯要求依課程而定；申請時再按院校清單準備身分文件。</p><p>尚未畢業或尚未取得語言成績者，先確認可接受的替代文件和最遲補交日期。初次諮詢只需提供學歷、成績概況、目標專業、語言程度、入學年份與預算。</p>"
+    }
+  ],
+  "costRows": [
+    [
+      "公立大學學費",
+      "依學位、身分及院校當年政策確定；非歐盟學生可能適用差別學費，減免須另行確認。"
+    ],
+    [
+      "商學院、專業及語言課程",
+      "按院校報價，分清每年學費、全程學費、訂金和退費條件。"
+    ],
+    [
+      "生活費",
+      "按城市與住宿方式編列房租、押金、餐飲、交通、保險與首次安置費；巴黎與其他城市分開估算。"
+    ],
+    [
+      "其他費用",
+      "語言考試、文件翻譯／認證、申請費、適用的 CVEC、簽證及居留相關費用另計。"
+    ]
+  ],
+  "sources": [
+    [
+      "申請渠道與學位階段",
+      "https://www.campusfrance.org/en/application-higher-education-france"
+    ],
+    [
+      "Études en France",
+      "https://www.campusfrance.org/en/application-etudes-en-france-procedure"
+    ],
+    [
+      "公立及私立院校學費",
+      "https://www.campusfrance.org/en/tuition-fees-France"
+    ],
+    [
+      "各地 Campus France",
+      "https://www.campusfrance.org/en/espaces"
+    ]
+  ]
 }
