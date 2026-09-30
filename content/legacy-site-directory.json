@@ -747,5 +747,17 @@
     "label": "院校代理與機構合作",
     "chinese": "",
     "group": "institutions"
+  },
+  {
+    "path": "/zh/work-travel-alliance/",
+    "label": "工遊聯盟",
+    "group": "learning",
+    "chinese": "/zh/work-travel-alliance/"
+  },
+  {
+    "path": "/zh/work-travel-alliance/canada/",
+    "label": "加拿大打工度假 IEC",
+    "group": "learning",
+    "chinese": "/zh/work-travel-alliance/canada/"
   }
 ]

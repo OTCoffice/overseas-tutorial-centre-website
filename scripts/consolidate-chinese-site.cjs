@@ -54,3 +54,6 @@ if(fs.existsSync(sitemapPath)){
  }
  fs.writeFileSync(sitemapPath,xml);
 }
+
+// Preserve the Work & Travel hub after directory and navigation regeneration.
+require("./render-work-travel.cjs");
