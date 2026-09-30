@@ -1,0 +1,1220 @@
+[
+  {
+    "slug": "united-kingdom",
+    "name": "英國",
+    "language": "英語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "Studio Cambridge",
+        "city": "劍橋 Cambridge",
+        "region": "英格蘭東部",
+        "url": "https://www.studiocambridge.co.uk/",
+        "summary": "一般英語、考試準備及一對一課程。成人課程與青少年夏令營分開招生，可按學習目的比較課時。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "St Giles Cambridge",
+        "city": "劍橋 Cambridge",
+        "region": "英格蘭東部",
+        "url": "https://www.stgiles-international.com/english-language-schools/cambridge/",
+        "summary": "劍橋校區提供英語課程，學校位於市區。報名前應按年齡、程度及預計週數確認可選班級。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Kings Manchester",
+        "city": "曼徹斯特 Manchester",
+        "region": "英格蘭北部",
+        "url": "https://www.kingseducation.com/learn-english/manchester/",
+        "summary": "曼徹斯特校區的英語課程。可向校方比較一般英語、密集課與考試準備的當期安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Oxford School of English",
+        "city": "牛津 Oxford",
+        "region": "英格蘭中南部",
+        "url": "https://oxfordschoolofenglish.com/",
+        "summary": "牛津市內的英語學校，提供一般英語與考試準備。適合希望兼顧語言學習與城市生活的學生比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Wimbledon School of English",
+        "city": "倫敦 London",
+        "region": "倫敦",
+        "url": "https://wimbledon-school.ac.uk/",
+        "summary": "一般英語、商務英語、IELTS、Cambridge 及 OET 相關課程，亦有成熟學員課程。住宿可比較寄宿家庭與宿舍。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "International House London",
+        "city": "倫敦 London",
+        "region": "倫敦",
+        "url": "https://www.ihlondon.com/",
+        "summary": "倫敦英語課程及專業語言培訓，另有教師培訓與青少年項目。申請時應選清楚成人班或季節性課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "The London School of English",
+        "city": "倫敦 London",
+        "region": "倫敦",
+        "url": "https://www.londonschool.com/",
+        "summary": "成人英語與職場英語培訓，提供小組及個別授課選項。適合有明確工作溝通目標的學員比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "BLC International",
+        "city": "布萊頓 Brighton",
+        "region": "英格蘭南部",
+        "url": "https://www.brightonlc.co.uk/",
+        "summary": "布萊頓英語學校，成人、青少年及兒童項目分開介紹。家庭同行應分別確認各人的上課地點與時段。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "BEET Language Centre",
+        "city": "伯恩茅斯 Bournemouth",
+        "region": "英格蘭南部",
+        "url": "https://www.beet.co.uk/",
+        "summary": "提供一般英語、IELTS、Cambridge 考試及較長期英語學習選項。可按考試目標與程度選擇。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ELC Chester",
+        "city": "切斯特 Chester",
+        "region": "英格蘭北部",
+        "url": "https://www.elc-schools.com/uk/chester/",
+        "summary": "切斯特成人英語課程，另有特定年齡組別的課程。適合比較倫敦以外的學習地點。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Edinburgh School of English（Basil Paterson）",
+        "city": "愛丁堡 Edinburgh",
+        "region": "蘇格蘭",
+        "url": "https://www.basilpaterson.co.uk/",
+        "summary": "Basil Paterson 旗下的 Edinburgh School of English 提供英語教學；同院其他部門另有中學及考試服務。查詢時請指定英語語言課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Celtica English Academy",
+        "city": "卡迪夫 Cardiff",
+        "region": "威爾斯",
+        "url": "https://www.celtica.education/",
+        "summary": "加的夫一般英語學習，另有成熟學員及青少年項目。青少年夏令營可能在不同地點舉辦，須按項目確認校址。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較倫敦、劍橋、牛津及其他城市的成人英語與考試課程。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081c88377d9b47152901e"
+  },
+  {
+    "slug": "new-zealand",
+    "name": "新西蘭",
+    "language": "英語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "Languages International",
+        "city": "奧克蘭 Auckland",
+        "region": "北島",
+        "url": "https://www.languages.ac.nz/",
+        "summary": "一般英語、商務及升學用途英語，另有 IELTS、Cambridge 與 OET 相關選項。按學習目標比較課程強度。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "NZLC",
+        "city": "奧克蘭 Auckland",
+        "region": "北島",
+        "url": "https://nzlc.ac.nz/",
+        "summary": "提供一般英語、考試準備及商務英語等選項，亦有年輕學員課程。須按校區及開課月份確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "University of Auckland English Language Academy",
+        "city": "奧克蘭 Auckland",
+        "region": "北島",
+        "url": "https://www.ela.auckland.ac.nz/",
+        "summary": "奧克蘭大學的英語教學單位，提供學術英語、升學銜接相關課程及其他英語培訓。語言課的入讀與大學學位錄取須分別核對。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Auckland Institute of Studies",
+        "city": "奧克蘭 Auckland",
+        "region": "北島",
+        "url": "https://www.ais.ac.nz/",
+        "summary": "AIS 的課程範圍包括英語及其他高等教育課程。詢價時應指定英語課程，避免與學位或文憑項目混淆。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Rotorua English Language Academy",
+        "city": "羅托魯瓦 Rotorua",
+        "region": "北島",
+        "url": "https://rela.co.nz/",
+        "summary": "一般英語、IELTS、Cambridge 及學校銜接相關選項。亦有語言與活動結合的安排，可比較課堂與活動比例。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Mount Maunganui Language Centre",
+        "city": "芒特芒阿努伊 Mount Maunganui",
+        "region": "北島",
+        "url": "https://mmlc.co.nz/",
+        "summary": "位於 Mount Maunganui 的英語學校，適合比較海濱城鎮的學習環境。課程及住宿按預計抵達時間查詢。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CCEL",
+        "city": "基督城 Christchurch",
+        "region": "南島",
+        "url": "https://www.ccel.co.nz/",
+        "summary": "位於基督城坎特伯雷大學校園內的英語學校。課程申請應直接按 CCEL 的招生與收費資料確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "LSNZ",
+        "city": "皇后鎮／基督城 Queenstown / Christchurch",
+        "region": "南島",
+        "url": "https://www.lsnz.co.nz/",
+        "summary": "在皇后鎮及基督城提供英語學習，包含一般英語與 IELTS 相關課程。兩地課程與住宿分別報價。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "從奧克蘭到南島，按城市比較一般英語、考試準備與院校語言課程。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081aeae35ff05f9eb72fa"
+  },
+  {
+    "slug": "ireland",
+    "name": "愛爾蘭",
+    "language": "英語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "Emerald Cultural Institute",
+        "city": "都柏林 Dublin",
+        "region": "都柏林",
+        "url": "https://www.eci.ie/",
+        "summary": "都柏林的成人英語、專業用途課程及青少年項目。Palmerston Park 校區與季節性場地應按所選課程確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ATC Language Schools",
+        "city": "都柏林／布雷 Dublin / Bray",
+        "region": "都柏林與威克洛",
+        "url": "https://atclanguageschools.com/",
+        "summary": "都柏林及 Bray 的英語課程，另有教師培訓、青少年與團體項目。可按城市及年齡分開比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "International House Dublin",
+        "city": "都柏林 Dublin",
+        "region": "都柏林",
+        "url": "https://ihdublin.com/",
+        "summary": "一般英語、商務英語、考試準備及一對一課程，另有成熟學員與青少年項目。成人班與夏令營使用不同招生資料。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Apollo Language Centre",
+        "city": "都柏林 Dublin",
+        "region": "都柏林",
+        "url": "https://apollolanguagecentre.com/",
+        "summary": "都柏林英語課程，另有考試準備及較長期學習選項。課程設計著重日常溝通與實際運用。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Centre of English Studies Dublin",
+        "city": "都柏林 Dublin",
+        "region": "都柏林",
+        "url": "https://ces-schools.com/locations/dublin",
+        "summary": "都柏林一般與密集英語，以及 IELTS 準備。可按每週課時、課程週數及住宿形式比較總費用。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Cork English College",
+        "city": "科克 Cork",
+        "region": "南部",
+        "url": "https://corkenglishcollege.com/",
+        "summary": "成人、青少年、企業及教師培訓課程分開提供。成人一般英語與專門培訓須按當期課程表選擇。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Cork English Academy",
+        "city": "科克 Cork",
+        "region": "南部",
+        "url": "https://www.corkenglishacademy.com/",
+        "summary": "一般英語與 IELTS 準備，可查詢寄宿家庭或公寓住宿。報價時要列明住宿週數及入住日期。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Galway Cultural Institute",
+        "city": "戈爾韋 Galway",
+        "region": "西部",
+        "url": "https://www.gci.ie/",
+        "summary": "高威一般英語、考試準備與暑期課程。可按全年班與季節性班的日期比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Bridge Mills Galway Language Centre",
+        "city": "戈爾韋 Galway",
+        "region": "西部",
+        "url": "https://www.galwaylanguage.com/",
+        "summary": "位於高威的語言中心，提供英語學習。學校亦以 International House Galway 品牌呈現，申請時使用當前官網資料。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較都柏林、科克與高威的英語學校，按學習時長及住宿安排選校。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081939ee8c28aa744379b"
+  },
+  {
+    "slug": "canada",
+    "name": "加拿大",
+    "language": "英語／法語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "ILSC Vancouver",
+        "city": "溫哥華 Vancouver",
+        "region": "卑詩省",
+        "url": "https://www.ilsc.com/language-schools/destinations/city/vancouver",
+        "summary": "溫哥華校區的英語學習，可比較一般、學術或其他選修方向。不同校區的課表及住宿各自確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ILSC Toronto",
+        "city": "多倫多 Toronto",
+        "region": "安大略省",
+        "url": "https://www.ilsc.com/language-schools/destinations/city/toronto",
+        "summary": "多倫多校區提供英語及升學銜接相關選項。銜接課程的適用院校、級別及錄取要求需另行確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ILSC Montreal",
+        "city": "蒙特婁 Montréal",
+        "region": "魁北克省",
+        "url": "https://www.ilsc.com/language-schools/destinations/city/montreal",
+        "summary": "蒙特婁校區提供英語及法語學習。適合比較加拿大英法雙語城市的課程，報名前先確定授課語言。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Global Village Victoria",
+        "city": "維多利亞 Victoria",
+        "region": "卑詩省",
+        "url": "https://gvenglish.com/locations/victoria/",
+        "summary": "維多利亞的英語學校，可按學習時長及程度查詢課程。適合比較溫哥華以外的卑詩省選項。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Global Village Calgary",
+        "city": "卡加利 Calgary",
+        "region": "亞伯達省",
+        "url": "https://gvenglish.com/locations/calgary/",
+        "summary": "卡加利的英語學習選項。申請時比較課程時段、每週課時及住宿交通安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Bayswater Toronto",
+        "city": "多倫多 Toronto",
+        "region": "安大略省",
+        "url": "https://www.bayswater.ac/en/destination/toronto",
+        "summary": "位於多倫多 North York，英語課程包括一般英語與考試準備等。語言課與商業專業課程應分別查詢。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Quest Language Studies",
+        "city": "多倫多 Toronto",
+        "region": "安大略省",
+        "url": "https://studyquest.net/",
+        "summary": "多倫多一般及學術英語，住宿可比較寄宿家庭、宿舍或公寓。課程與住宿費用應分項確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Bouchereau Lingua International",
+        "city": "蒙特婁／魁北克 Montréal / Québec",
+        "region": "魁北克省",
+        "url": "https://bli.ca/",
+        "summary": "蒙特婁及魁北克市的英語／法語課程，另有法語考試準備及青少年項目。按城市確認實際提供的語種。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CLLC",
+        "city": "哈利法克斯／渥太華／多倫多",
+        "region": "新斯科細亞及安大略省",
+        "url": "https://www.cllc.ca/",
+        "summary": "在 Halifax、Ottawa 及 Toronto 提供英語學習，包含一般、密集及考試相關選項。各城市招生及住宿分別核對。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "按省份與城市比較英語、法語及學術語言課程。蒙特婁的雙語選項另作標示。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081cfaf0cf166aa817055"
+  },
+  {
+    "slug": "united-states",
+    "name": "美國",
+    "language": "英語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "Rennert New York",
+        "city": "紐約 New York",
+        "region": "東北部",
+        "url": "https://rennert.com/",
+        "summary": "紐約一般、密集及商務英語，亦有語言與藝術活動結合的選項。不同課程的課時及參加條件不相同。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "LADO International Institute",
+        "city": "華盛頓都會區 Washington DC area",
+        "region": "大西洋中部",
+        "url": "https://lado.edu/",
+        "summary": "華盛頓地區的英語課程，涵蓋一般與專業用途英語。可按校區與程度索取當期課程資料。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Language On",
+        "city": "邁阿密及其他城市",
+        "region": "佛羅里達州及其他州",
+        "url": "https://languageonschools.com/",
+        "summary": "在美國多地提供英語課程。報名前應選定城市及校區，逐一比較上課安排與住宿距離。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "TALK English Schools",
+        "city": "波士頓／亞特蘭大／佛羅里達",
+        "region": "東部與南部",
+        "url": "https://www.talk.edu/",
+        "summary": "在 Atlanta、Aventura、Boston、Fort Lauderdale 及 Miami 等地提供英語學習。全日與部分時段課程的安排分別確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ELC — UCLA Summer Junior Program",
+        "city": "洛杉磯 Los Angeles",
+        "region": "加州",
+        "url": "https://elc.edu/",
+        "summary": "ELC 的 UCLA 暑期青少年項目，結合英語學習與活動。這是 ELC 營運的季節性營隊，並非 UCLA 學位課程，也不列作全年成人語校。",
+        "type": "青少年暑期課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CISL San Diego",
+        "city": "聖地牙哥 San Diego",
+        "region": "加州",
+        "url": "https://cisl.edu/",
+        "summary": "聖地牙哥的成人英語、商務及考試相關課程，另有青少年項目。成人與營隊的日期及住宿安排分開確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Mentor Language Institute",
+        "city": "洛杉磯 Los Angeles",
+        "region": "加州",
+        "url": "https://mliesl.edu/",
+        "summary": "洛杉磯 Hollywood 與 Westwood 校區提供 ESL、TOEFL 等課程。按目標與校區比較課表。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "按地區比較成人英語課程；青少年暑期營隊另作標示。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081408f2bc126b5197cbc"
+  },
+  {
+    "slug": "malta",
+    "name": "馬耳他",
+    "language": "英語",
+    "group": "英語目的地",
+    "schools": [
+      {
+        "name": "ESE — European School of English",
+        "city": "聖朱利安 St Julian’s",
+        "region": "聖朱利安與彭布羅克",
+        "url": "https://ese-edu.com/",
+        "summary": "成人、青少年及成熟學員課程分開提供。可按年齡與學習目的比較一般英語、專門課程及住宿。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ACE English Malta",
+        "city": "聖朱利安 St Julian’s",
+        "region": "聖朱利安與彭布羅克",
+        "url": "https://www.aceenglishmalta.com/",
+        "summary": "提供成人英語、特定年齡組及家庭／青少年選項。親子申請需同時確認兩個年齡組的上課時間。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "inlingua Malta",
+        "city": "斯利馬 Sliema",
+        "region": "斯利馬",
+        "url": "https://www.inlinguamalta.com/",
+        "summary": "一般、商務及考試英語，另有家庭與年輕學員選項。課程週數、級別及最低年齡按當期資料確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "BELS Malta",
+        "city": "聖保羅灣 St Paul’s Bay",
+        "region": "聖保羅灣與戈佐",
+        "url": "https://belsmalta.com/",
+        "summary": "St Paul’s Bay 校區提供成人英語，另有家庭及青少年項目。與 Gozo 校區分開選擇及報價。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "BELS Gozo",
+        "city": "凱爾切姆 Kerċem",
+        "region": "聖保羅灣與戈佐",
+        "url": "https://belsmalta.com/gozo-english-school/",
+        "summary": "位於 Gozo 島 Kerċem 的成人英語學校。適合比較較安靜的島上環境，交通及住宿須一併安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Alpha School of English",
+        "city": "聖保羅灣 St Paul’s Bay",
+        "region": "聖保羅灣與戈佐",
+        "url": "https://alphaschoolmalta.com/",
+        "summary": "一般英語、商務及個別授課，另有兒童和家庭課程。可比較不同家庭成員同時就讀的安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Gateway School of English",
+        "city": "聖朱利安 San Ġwann / St Julian’s",
+        "region": "聖朱利安與彭布羅克",
+        "url": "https://english-malta.com/",
+        "summary": "成人、青少年及家庭英語課程。按參加者年齡查詢相應課程與住宿方案。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較馬耳他本島與 Gozo 的英語學校，亦可查詢親子及成熟學員課程。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e120819188b3ca7b01e28d2f"
+  },
+  {
+    "slug": "philippines",
+    "name": "菲律賓",
+    "language": "英語",
+    "group": "亞洲",
+    "schools": [
+      {
+        "name": "QQEnglish",
+        "city": "宿霧 Cebu / Mactan",
+        "region": "宿霧",
+        "url": "https://qqeng.net/",
+        "summary": "CampusTop（QQEnglish）提供宿霧實體英語及網上課程，校區包括 IT Park 與 Mactan Newtown。申請時請指定實體遊學與校區。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CIA — Cebu International Academy",
+        "city": "麥克坦 Mactan",
+        "region": "宿霧",
+        "url": "https://www.cebucia.com/en/",
+        "summary": "宿霧英語學校，提供 ESL、IELTS、TOEIC、商務及家庭相關課程。課表可包含一對一與小組課，比例依方案而定。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "SMEAG",
+        "city": "宿霧 Cebu / Mactan",
+        "region": "宿霧",
+        "url": "https://www.smeag.com/student-service/general-policies.php",
+        "summary": "SMEAG 的菲律賓英語學習項目，校方公布分班、課堂及住宿生活規則。須按所選校區確認當期課程與宿舍。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CPILS",
+        "city": "宿霧 Cebu",
+        "region": "宿霧",
+        "url": "https://www.cpils.com/new/en/about/about1.php",
+        "summary": "宿霧的密集英語學習，課程涵蓋聽說讀寫，並提供住宿相關安排。報價須列明房型與課堂組合。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "PINES International Academy",
+        "city": "碧瑤 Baguio",
+        "region": "碧瑤",
+        "url": "https://pinesacademy.com/eng/program_power_esl",
+        "summary": "碧瑤英語學校，Power ESL 包含不同一對一課堂組合。可按程度與目標比較課表，並核對固定入學日期。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Baguio JIC",
+        "city": "碧瑤 Baguio",
+        "region": "碧瑤",
+        "url": "https://baguio-jic.com/",
+        "summary": "碧瑤的英語課程，提供一對一及密集學習選項。可比較課程強度、校規及宿舍安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "HELP English Clark",
+        "city": "克拉克 Clark",
+        "region": "克拉克",
+        "url": "https://www.helpenglish.org/p/clark-campus.html",
+        "summary": "HELP 的 Clark 校區提供住宿式英語學習。校方目前將 Baguio 校區標示為維護中，查詢以 Clark 的實際招生安排為準。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "CIP English",
+        "city": "克拉克／安赫勒斯 Clark / Angeles",
+        "region": "克拉克",
+        "url": "https://cipenglish.com/",
+        "summary": "Clark／Angeles 地區的英語學校，提供個別授課及英語學習方案。可比較教師配置、課表與房型。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較宿霧、碧瑤與 Clark 的英語學校，按一對一課時、房型及校規選擇。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081a4ba96f29dff6291c1"
+  },
+  {
+    "slug": "malaysia",
+    "name": "馬來西亞",
+    "language": "英語",
+    "group": "亞洲",
+    "schools": [
+      {
+        "name": "ELS Malaysia",
+        "city": "吉隆坡／梳邦再也等",
+        "region": "吉隆坡與雪蘭莪",
+        "url": "https://els.edu.my/",
+        "summary": "一般及學術英語培訓，亦有升學準備相關選項。英語課結業與大學入學條件須分開核對。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "EMS Language Centre",
+        "city": "吉隆坡 Kuala Lumpur",
+        "region": "吉隆坡",
+        "url": "https://ems.edu.my/about-ems/",
+        "summary": "吉隆坡的密集一般英語、口說、寫作、職場英語及 IELTS 準備。適合按單項能力與課程強度比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Erican Language Centre",
+        "city": "吉隆坡等",
+        "region": "吉隆坡及其他城市",
+        "url": "https://www.erican.edu.my/",
+        "summary": "提供一般溝通、商務、Cambridge 相關課程及年輕學員英語。申請前先確認適用年齡與國際學生班別。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "British Council Malaysia",
+        "city": "吉隆坡／檳城 Kuala Lumpur / Penang",
+        "region": "吉隆坡與檳城",
+        "url": "https://www.britishcouncil.my/english-courses/adults",
+        "summary": "成人一般英語與 IELTS 準備。一般成人課及考試課的授課地點可能不同，按吉隆坡或檳城的當期課程確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較一般英語、口說及考試準備，並確認課程所在地與招生對象。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e120818b841bd36c6dcb42db"
+  },
+  {
+    "slug": "singapore",
+    "name": "新加坡",
+    "language": "英語",
+    "group": "亞洲",
+    "schools": [
+      {
+        "name": "British Council Singapore",
+        "city": "新加坡",
+        "region": "市區及其他教學點",
+        "url": "https://www.britishcouncil.sg/english-courses/adults",
+        "summary": "成人一般英語、IELTS 與個別學習選項，授課地點包括 Napier Road 與 Toa Payoh。報名前需另核對自身身分可參加的課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "LSBF Singapore",
+        "city": "新加坡",
+        "region": "市區",
+        "url": "https://www.lsbf.edu.sg/programmes/languages/weekly-general-english",
+        "summary": "每週一般英語課程涵蓋口說、聽力、閱讀、文法及詞彙，入讀前設程度評估。海外申請者應向校方確認課程與入境安排是否適用。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Inlingua Singapore",
+        "city": "烏節路 Orchard",
+        "region": "烏節路",
+        "url": "https://inlingua.edu.sg/",
+        "summary": "提供英語及其他語言培訓，包含一般、個別及客製團體選項。詢價時應指定英語、上課形式與週數。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "United Language Centre",
+        "city": "新加坡 Singapore",
+        "region": "市區",
+        "url": "https://www.ulc.com.sg/",
+        "summary": "成人英語中心，提供小組學習與溝通練習。適合比較在新加坡的成人日常英語課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "English Explorer",
+        "city": "中央商業區 CBD",
+        "region": "中央區",
+        "url": "https://englishexplorer.com.sg/",
+        "summary": "提供成人一般英語、商務及 IELTS 相關課程，位於中央商業區。須按個人程度與上課時段選班。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "My English School",
+        "city": "新加坡多個中心",
+        "region": "兒童課程中心",
+        "url": "https://www.myenglish.com.sg/",
+        "summary": "面向幼兒園至小學階段的英語教育中心。屬兒童英語學習，並非成人海外語校或全年留學方案。",
+        "type": "兒童英語",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "成人英語、院校語言課程與兒童英語分開列出，方便按年齡及學習目的選擇。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081be9e5ae87f4401dc78"
+  },
+  {
+    "slug": "portugal",
+    "name": "葡萄牙",
+    "language": "葡萄牙語",
+    "group": "歐洲語言",
+    "schools": [
+      {
+        "name": "CIAL Centro de Línguas",
+        "city": "里斯本／法魯 Lisboa / Faro",
+        "region": "多城市",
+        "url": "https://cial.pt/",
+        "summary": "里斯本及 Faro 的葡萄牙語課程，包含小組與個別學習，另有文化活動。申請時應指定城市。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Lusa Language School",
+        "city": "里斯本 Lisboa",
+        "region": "里斯本",
+        "url": "https://www.lusaschool.com/",
+        "summary": "里斯本的葡萄牙語教學，提供密集課及網上學習選項。按實體／網上形式與每週時數比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Portuguese Connection",
+        "city": "里斯本 Lisboa",
+        "region": "里斯本",
+        "url": "https://www.portugueseconnection.pt/",
+        "summary": "里斯本的葡萄牙語課程。可按目前程度、預計學習週數及上課形式索取課程建議。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Coimbra University — Portuguese for Foreigners",
+        "city": "科英布拉 Coimbra",
+        "region": "中部",
+        "url": "https://www.uc.pt/fluc/cursos/portugues-para-estrangeiros/",
+        "summary": "科英布拉大學文學院的葡萄牙語外語課程。大學課程通常按學期或指定梯次招生，須按當期課程確認日期與級別。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Lisbon Language Café",
+        "city": "里斯本 Lisboa",
+        "region": "里斯本",
+        "url": "https://www.lisbonlanguagecafe.pt/",
+        "summary": "里斯本 Santos 區的歐洲葡萄牙語課程，按程度設小組班，另提供網上選項。課程重視日常溝通。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ICLP — Universidade de Lisboa",
+        "city": "里斯本 Lisboa",
+        "region": "里斯本",
+        "url": "https://www.letras.ulisboa.pt/pt/internacional/1915-useful-information",
+        "summary": "里斯本大學文學院 ICLP 的葡萄牙語外語課程，按歐洲語言級別安排。查詢時指定 ICLP 的葡語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "NOVA FCSH",
+        "city": "里斯本 Lisboa",
+        "region": "里斯本",
+        "url": "https://www.fcsh.unl.pt/en/",
+        "summary": "NOVA FCSH 提供葡萄牙語外語學習。申請時向學校確認當期班別及是否接受校外人士。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "FLUP — Universidade do Porto",
+        "city": "波多 Porto",
+        "region": "北部",
+        "url": "https://sigarra.up.pt/flup/pt/web_base.gera_pagina?p_pagina=cursos+de+portugu%C3%AAs+l%C3%ADngua+estrangeira",
+        "summary": "波多大學文學院的葡萄牙語外語課程，面向非葡語母語學員，結合語言與文化。學期課程按級別招生。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Portuguese Lab",
+        "city": "網上課程",
+        "region": "網上",
+        "url": "https://www.portugueselab.com/",
+        "summary": "歐洲葡萄牙語網上自學資源，包含預錄影片、音訊及練習。屬網上學習，不是赴葡實體留學課程。",
+        "type": "網上自學",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Fast Forward Language Institute",
+        "city": "波多 Porto",
+        "region": "北部",
+        "url": "https://fastforwardporto.pt/courses/",
+        "summary": "波多的小組與個別葡萄牙語課程，涵蓋初學至進階及考試準備。入學分班測試用於安排合適程度。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較里斯本、波多、科英布拉及法魯的葡萄牙語課程，另列網上自學選項。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081aabc34c62ec8de71d7"
+  },
+  {
+    "slug": "japan",
+    "name": "日本",
+    "language": "日語",
+    "group": "亞洲",
+    "schools": [
+      {
+        "name": "KAI Japanese Language School",
+        "city": "東京 Tokyo",
+        "region": "關東",
+        "url": "https://www.kaij.jp/",
+        "summary": "東京的日語學校，提供一般日語及短期相關選項。可按日常溝通或較長期學習目的比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Akamonkai Japanese Language School",
+        "city": "東京 Tokyo",
+        "region": "關東",
+        "url": "https://www.akamonkai.ac.jp/english/",
+        "summary": "位於東京日暮里的日語學校，提供長期日語及升學／就業準備相關課程。住宿支援與入學材料依所選課程確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Shinjuku Japanese Language Institute",
+        "city": "東京 Tokyo",
+        "region": "關東",
+        "url": "https://www.sng.ac.jp/en/",
+        "summary": "東京新宿的日語學習，包含一般日語、考試及短期選項，亦有非全日制班別。按上課頻率選擇。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Kudan Institute of Japanese Language & Culture",
+        "city": "東京 Tokyo",
+        "region": "關東",
+        "url": "https://www.kudan-japanese-school.com/",
+        "summary": "一般及短期日語，亦有語言與文化、漫畫等內容結合的課程。不同專題班的日期與最低程度須另查。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Genki Japanese and Culture School",
+        "city": "東京／京都／福岡／名古屋",
+        "region": "多城市",
+        "url": "https://www.genkijacs.com/",
+        "summary": "在東京、京都、福岡及名古屋提供日語與文化學習選項。課程供應按校區確認，適合比較短期沉浸式學習。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ECC Kokusai College of Foreign Languages",
+        "city": "大阪 Osaka",
+        "region": "關西",
+        "url": "http://japan.ecc.ac.jp/",
+        "summary": "大阪 ECC 國際外語專門學校的日本語學科，設長期及短期課程。按學習目的與修讀時間查詢入學材料。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Hokkaido Japanese Language Academy",
+        "city": "札幌 Sapporo",
+        "region": "北海道",
+        "url": "https://japanese-languageschool.com/hokkaido/",
+        "summary": "札幌的短期日語與文化課程。可按上課週數與活動安排比較北海道學習體驗。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Yamasa Institute",
+        "city": "岡崎 Okazaki",
+        "region": "中部",
+        "url": "https://www.yamasa.org/en/home/",
+        "summary": "岡崎的日語教學機構，設較長期日語學習。學校公布的招生梯次與制度調整需按當期申請資料確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較東京、大阪、北海道及其他城市的日語學校，按短期學習或較長期課程選擇。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e1208183ae29dfcd7e93379f"
+  },
+  {
+    "slug": "south-korea",
+    "name": "韓國",
+    "language": "韓語",
+    "group": "亞洲",
+    "schools": [
+      {
+        "name": "Yonsei Korean Language Institute",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://www.yskli.com/",
+        "summary": "延世大學韓國語學堂，提供正規、短期及其他韓語項目。不同項目的週數、開課日與入學材料分開確認。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Sogang Korean Language Education Center",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://klec.sogang.ac.kr/",
+        "summary": "西江大學韓國語教育院，提供日間、晚間與短期相關韓語課程。按學期與上課時段選擇。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Seoul National University Language Education Institute",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://lei.snu.ac.kr/mobile/en/klec/regular/regular.jsp",
+        "summary": "首爾大學語言教育院的正規韓語課程，以密集語言學習為主。韓語課程與學位申請是不同招生程序。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Korea University Korean Language Center",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://klc.korea.ac.kr/klckor/index.do",
+        "summary": "高麗大學韓國語中心提供韓語教學，按官方招生公告查詢正規班安排。申請時確認學期、程度及文件要求。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Ewha Language Center",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://myr.ewha.ac.kr/elc_en/intensive/curriculum.do",
+        "summary": "梨花女子大學語言教育院的韓語課程，按級別安排課程內容。語言中心的報名資格應以該課程招生頁為準。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Hanyang Institute of International Education",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://iie.hanyang.ac.kr/",
+        "summary": "漢陽大學國際教育院設韓語教育項目，官網提供多語言招生入口。韓語班與其他外語班應分別選擇。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Lexis Korea",
+        "city": "首爾／釜山 Seoul / Busan",
+        "region": "首爾與釜山",
+        "url": "https://lexiskorea.com/",
+        "summary": "首爾與釜山的韓語學習，提供一般及密集課程並配合文化體驗。可比較兩個城市的課表與住宿。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較首爾與釜山的大學韓語中心及私人語校，按學期、週數及上課時段選擇。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e120818a98c5e3928f011699"
+  },
+  {
+    "slug": "germany",
+    "name": "德國",
+    "language": "德語",
+    "group": "歐洲語言",
+    "schools": [
+      {
+        "name": "Goethe-Institut Germany",
+        "city": "柏林／慕尼黑及多個城市",
+        "region": "多城市",
+        "url": "https://www.goethe.de/ins/de/en/index.html",
+        "summary": "歌德學院在德國多個城市提供德語課程。可按城市、級別、課程強度及考試目標比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "GLS German Language School",
+        "city": "柏林 Berlin",
+        "region": "柏林",
+        "url": "https://www.gls-german-courses.de/",
+        "summary": "柏林的德語學校，提供不同級別的課程，校園亦有住宿選項。課程及住宿應分項查價。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "DeutschAkademie",
+        "city": "柏林／慕尼黑／漢堡等",
+        "region": "多城市",
+        "url": "https://www.deutschakademie.de/",
+        "summary": "在德國多個城市提供德語課程，包含密集班及其他上課頻率。按城市與可用時段確認實體班。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "DID Deutsch-Institut",
+        "city": "柏林／法蘭克福／漢堡／慕尼黑",
+        "region": "多城市",
+        "url": "https://www.did.de/en/",
+        "summary": "在德國多個城市提供德語學習，成人與青少年課程分開安排。城市、年齡與住宿形式需一併選定。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Academy of Languages Heidelberg",
+        "city": "海德堡 Heidelberg",
+        "region": "巴登—符騰堡",
+        "url": "https://academy-languages.com/en/",
+        "summary": "海德堡的語言教學機構，提供不同程度與用途的語言課程。詢價時指定德語、成人或青少年班別。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "IIK Düsseldorf",
+        "city": "杜塞道夫 Düsseldorf",
+        "region": "北萊茵—威斯特法倫",
+        "url": "https://www.iik-duesseldorf.de/",
+        "summary": "杜塞道夫的德語培訓，包含一般、學術及專業用途選項。可按大學準備或職場需求比較課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "TANDEM Hamburg",
+        "city": "漢堡 Hamburg",
+        "region": "漢堡",
+        "url": "https://www.tandem-hamburg.de/",
+        "summary": "漢堡的密集、晚間及個別德語課程，亦有商務相關選項。按時間安排與語言目標選班。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Humboldt-Institut",
+        "city": "柏林／康斯坦茨等",
+        "region": "多城市",
+        "url": "https://www.humboldt-institut.org/en/",
+        "summary": "在多個地點提供密集德語與住宿式課程。成人、青少年及兒童項目使用不同中心，須按年齡查詢。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較柏林、漢堡、海德堡及其他城市的德語課程，涵蓋一般、學術及專業用途。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e1208188a2d9d807a016a296"
+  },
+  {
+    "slug": "spain",
+    "name": "西班牙",
+    "language": "西班牙語",
+    "group": "歐洲語言",
+    "schools": [
+      {
+        "name": "don Quijote",
+        "city": "馬德里／巴塞隆納及多個城市",
+        "region": "多城市",
+        "url": "https://www.donquijote.org/",
+        "summary": "在西班牙多個城市提供西班牙語學習，包含密集及考試相關選項。可先選城市，再比較課時及活動。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Enforex",
+        "city": "馬德里／巴塞隆納及多個城市",
+        "region": "多城市",
+        "url": "https://www.enforex.com/en",
+        "summary": "西班牙多城市的西班牙語課程。成人班與青少年項目分開招生，須按校區核對開課安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Taronja",
+        "city": "瓦倫西亞 Valencia",
+        "region": "瓦倫西亞自治區",
+        "url": "https://www.spanish-in-spain.es/",
+        "summary": "瓦倫西亞的西班牙語學校，結合語言課堂與文化活動。課外活動與學費包含項目應分開確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Colegio Delibes",
+        "city": "薩拉曼卡 Salamanca",
+        "region": "卡斯提亞—萊昂",
+        "url": "https://www.colegiodelibes.com/",
+        "summary": "薩拉曼卡的西班牙語學習，提供小組課程。可比較每週課時與住宿形式。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Clic International House",
+        "city": "塞維亞／加的斯／馬拉加",
+        "region": "安達盧西亞",
+        "url": "https://clic.es/",
+        "summary": "在塞維亞、加的斯及馬拉加提供西班牙語課程。可按密集、小組或個別授課形式比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Malaca Instituto",
+        "city": "馬拉加 Málaga",
+        "region": "安達盧西亞",
+        "url": "https://www.malacainstituto.com/en/",
+        "summary": "馬拉加的西班牙語學校，可比較宿舍、寄宿家庭及其他住宿。課程與住宿按週數分項報價。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Lacunza International House",
+        "city": "聖塞巴斯提安 San Sebastián",
+        "region": "巴斯克",
+        "url": "https://lacunza.com/",
+        "summary": "聖塞巴斯提安的西班牙語教學，提供不同程度課程與文化活動。適合比較西班牙北部的學習地點。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "按地區比較西班牙語學校，從大城市到南部海岸及北部城市。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081599d35e804d409d9e8"
+  },
+  {
+    "slug": "italy",
+    "name": "意大利",
+    "language": "意大利語",
+    "group": "歐洲語言",
+    "schools": [
+      {
+        "name": "Scuola Leonardo da Vinci",
+        "city": "羅馬／佛羅倫斯／米蘭／都靈／維亞雷焦",
+        "region": "多城市",
+        "url": "https://www.scuolaleonardo.com/italian-language-courses-in-italy.html",
+        "summary": "在佛羅倫斯、米蘭、羅馬、都靈等城市提供意大利語課程，亦有網上課。語言、文化與較長期課程可分別比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "DILIT International House",
+        "city": "羅馬 Roma",
+        "region": "拉齊奧",
+        "url": "https://www.dilit.it/",
+        "summary": "羅馬的意大利語學習，課程與語言文化體驗相連。可按一般學習或專門目標選擇。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Accademia Italiana",
+        "city": "薩勒諾／拿坡里／羅馬",
+        "region": "多城市",
+        "url": "https://accademia-italiana.it/",
+        "summary": "在 Salerno、Napoli 及 Roma 提供意大利語課程，亦有語言文化與教師相關項目。按城市確認所選課程。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Centro Machiavelli",
+        "city": "佛羅倫斯 Firenze",
+        "region": "托斯卡納",
+        "url": "https://centromachiavelli.it/",
+        "summary": "佛羅倫斯的意大利語學校，提供小組及個別學習選項。可配合文化學習安排。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ALCE Bologna",
+        "city": "波隆那 Bologna",
+        "region": "艾米利亞—羅馬涅",
+        "url": "https://www.alcebologna.it/",
+        "summary": "波隆那的意大利語學習及考試相關課程。考試報名與語言課報名應分別確認。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Istituto Venezia",
+        "city": "威尼斯／的里雅斯特 Venezia / Trieste",
+        "region": "意大利東北部",
+        "url": "https://www.istitutovenezia.com/",
+        "summary": "威尼斯與 Trieste 的意大利語課程，包含密集、長期、個別與考試準備。另有藝術及烹飪文化選項。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "Babilonia",
+        "city": "陶爾米納 Taormina",
+        "region": "西西里",
+        "url": "https://www.babilonia.it/",
+        "summary": "陶爾米納的意大利語學校，提供小組、個別及語言文化相關課程。可按課程強度及活動內容比較。",
+        "type": "語言學校",
+        "checkedAt": "2026-09-30"
+      }
+    ],
+    "intro": "比較羅馬、佛羅倫斯、波隆那、威尼斯與西西里的意大利語及文化課程。",
+    "checkedAt": "2026-09-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e12081c486a0f97ae39b79cc"
+  }
+]
