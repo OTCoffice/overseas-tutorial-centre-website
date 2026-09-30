@@ -2605,7 +2605,7 @@ function routePath(route) {
 
 function write(route, html) {
   if (["services", "zh/services"].includes(route)) html = require("./content/overseas-careers-links.cjs")(html, route === "zh/services");
-  if (["zh/study-planning","zh/countries/iceland","zh/private-school-alliance/nordic-europe","zh/services"].includes(route) && !html.includes('data-nordic-hub-link')) html = html.replace(/<footer\b/, require('./content/nordic-study-hub.cjs').link + '<footer');
+  if (["zh/countries/iceland","zh/private-school-alliance/nordic-europe","zh/services"].includes(route) && !html.includes('data-nordic-hub-link')) html = html.replace(/<footer\b/, require('./content/nordic-study-hub.cjs').link + '<footer');
   if (["services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
   const dir = path.join(root, route);
   fs.mkdirSync(dir, { recursive: true });
@@ -24429,17 +24429,16 @@ const zhStudyPlanning = pageShell({
     <section class="band compact-band zh-planning-route">
       <div class="section-head compact-head">
         <div class="eyebrow">Planning Logic</div>
-        <h2>按中國家庭的真實決策順序拆解。</h2>
-        <p>先決定「孩子適合怎樣走」，再決定「去哪個國家、讀哪類學校、怎麼準備材料」。</p>
+        <h2>決策順序</h2>
       </div>
       <div class="zh-planning-steps">
         ${[
-          ["01", "家庭目標", "預算、陪讀可能性、未來是否考慮工作/身份、家長對安全與監護的要求。"],
-          ["02", "學生畫像", "年齡、英文、學術基礎、自律程度、抗壓能力、是否適合寄宿或大城市生活。"],
-          ["03", "國家路線", "英國、澳洲、加拿大、美國、新西蘭、歐洲、亞洲英語授課路線的差異。"],
-          ["04", "學校與專業", "不是只看排名，而是看入學門檻、課程結構、就業/升學出口和學生匹配度。"],
-          ["05", "文件與時間線", "成績單、推薦信、個人陳述、作品集、英文考試、簽證材料與家長文件節點。"],
-          ["06", "落地支持", "住宿、接送、監護、學習跟進、緊急協調與在讀後的路線調整。"]
+          ["01", "家庭目標", "預算、陪讀安排與升學目標。"],
+          ["02", "學生情況", "年齡、成績、英文程度與生活適應。"],
+          ["03", "國家路線", "比較學制、費用與畢業後的選擇。"],
+          ["04", "學校與專業", "入學要求、課程內容與專業方向。"],
+          ["05", "文件與時間線", "申請材料、語言考試與截止日期。"],
+          ["06", "落地支持", "住宿、接送、監護與學習跟進。"]
         ].map(([num, title, desc]) => `<article><b>${num}</b><strong>${title}</strong><p>${desc}</p></article>`).join("")}
       </div>
     </section>
@@ -24448,16 +24447,16 @@ const zhStudyPlanning = pageShell({
       <div class="section-head compact-head">
         <div class="eyebrow">Route Boards</div>
         <h2>常見路線入口</h2>
-        <p>不同家庭需要的不是同一套答案。以下入口用於先分流，再進入具體申請或課程頁。</p>
       </div>
       <div class="zh-planning-board">
         <a href="/zh/summer-school-alliance/"><span>Short-term</span><strong>暑校 / 遊學 / 訪學</strong><p>適合先試海外環境、校園生活、寄宿/活動和英文輸出。</p><em>進入暑校聯盟 →</em></a>
         <a href="/university-applications/"><span>University</span><strong>本科 / 碩士 / 轉學</strong><p>選校、專業、文書、推薦信、時間線與文件審核。</p><em>進入申請評估 →</em></a>
-        <a href="/zh/services/art-portfolio-coaching/"><span>Art &amp; Design</span><strong>藝術與設計申請</strong><p>專業方向、作品集規劃、創作評閱與申請準備。</p><em>查看作品集與申請服務 →</em></a>
+        <a href="/zh/subject-planning/"><span>Subjects</span><strong>學科規劃</strong><p>基礎課程與文、理、工、商、醫學、藝術等專業方向。</p><em>選擇學科 →</em></a>
         <a href="/international-curriculum-tutoring/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
         <a href="/zh/australia-vet-tafe-pathways/"><span>Career</span><strong>職涯培訓 / VET / TAFE</strong><p>職業教育、課程篩查、TAFE-to-university 和 evidence pack。</p><em>查看職涯培訓 →</em></a>
         <a href="/zh/immigration-info/"><span>Policy</span><strong>移民與政策資訊</strong><p>按國別整理政策入口、職業路線與合規邊界，不替代專業建議。</p><em>查看移民資訊 →</em></a>
-        <a href="/zh/countries/south-korea/"><span>East Asia</span><strong>韓國留學規劃</strong><p>本科、碩士、博士、韓語預備與英文授課路線，按家庭目標進行院校與專業初步分流。</p><em>進入韓國規劃 →</em></a>
+        <a href="/zh/countries/"><span>Destinations</span><strong>國別留學規劃</strong><p>按五大洲查閱各國院校、申請與留學資料。</p><em>選擇國家與地區 →</em></a>
+        <a href="/zh/services/phd-application-coaching/"><span>Research</span><strong>博士申請</strong><p>研究方向、導師、資助與研究計劃準備。</p><em>查看博士申請 →</em></a>
         <a href="/zh/services/"><span>Support</span><strong>服務導覽台</strong><p>驛站調度、學術監護、出版製作、文件審核與機構合作。</p><em>打開服務導覽 →</em></a>
       </div>
     </section>
@@ -34717,3 +34716,6 @@ require("./scripts/consolidate-chinese-site.cjs");
 
 // Keep the service directory grouped; older inline additions are included in this source.
 write("zh/services", require("./content/service-desk.cjs")());
+
+// Five-continent destination directory.
+require("./scripts/render-country-study.cjs");

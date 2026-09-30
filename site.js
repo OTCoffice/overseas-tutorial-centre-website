@@ -364,7 +364,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta name="twitter:image:src" content="${socialImageUrl}">
   <meta name="twitter:image:alt" content="${imageAlt || title}">` : ""}
   <script type="application/ld+json">${JSON.stringify(structuredData)}</script>
-  <link rel="stylesheet" href="${stylesheetPath}?v=zh-mobile-workbench-20260602f">
+  <link rel="stylesheet" href="${stylesheetPath}?v=${['/zh/study-planning/','/zh/subject-planning/'].includes(canonicalPath) ? 'planning-colours-20260930' : 'zh-mobile-workbench-20260602f'}">
 </head>
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale, canonicalPath)}

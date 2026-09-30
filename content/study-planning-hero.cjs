@@ -13,7 +13,7 @@ module.exports=()=>`<section class="page-hero services-hero study-planning-acade
     </div>
     <aside class="service-hero-panel" aria-label="留學規劃服務">
       <a href="/zh/services/university-application-advisory/"><strong>選校申請</strong><span>本科、碩士、轉學與申請材料</span></a>
-      <a href="/zh/services/art-portfolio-coaching/"><strong>藝術設計</strong><span>專業方向、作品集與創作評閱</span></a>
+      <a href="/zh/subject-planning/"><strong>學科規劃</strong><span>文理工商、醫學與藝術設計</span></a>
       <a href="/zh/summer-school-alliance/"><strong>寒暑校體驗</strong><span>學術探索、遊學與校園生活</span></a>
       <a href="/zh/services/visa-application-support/"><strong>簽證準備</strong><span>文件清單、時間表與行前資料</span></a>
     </aside>

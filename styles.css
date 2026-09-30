@@ -3644,9 +3644,33 @@ h1 {
   font-weight: 850;
 }
 
-.zh-planning-note {
+/* Study planning: academic colour families, shared by steps and routes. */
+.zh-planning-route :is(.zh-planning-steps article, .zh-planning-board a) {
+  border-radius: 0;
+  border-top-color: var(--planning-accent);
+  background: var(--planning-tint);
+}
+.zh-planning-route :is(.zh-planning-steps article, .zh-planning-board a):nth-child(4n + 1) {
+  --planning-accent: #b88a2d;
+  --planning-tint: #fff7e6;
+}
+.zh-planning-route :is(.zh-planning-steps article, .zh-planning-board a):nth-child(4n + 2) {
+  --planning-accent: #426397;
+  --planning-tint: #eef3fb;
+}
+.zh-planning-route :is(.zh-planning-steps article, .zh-planning-board a):nth-child(4n + 3) {
+  --planning-accent: #39877e;
+  --planning-tint: #edf7f4;
+}
+.zh-planning-route :is(.zh-planning-steps article, .zh-planning-board a):nth-child(4n) {
+  --planning-accent: #b74732;
+  --planning-tint: #fff0ea;
+}
+.zh-planning-note.band {
   background: #061a2f;
   color: #fff;
+  box-sizing: border-box;
+  padding: 28px clamp(24px, 4vw, 48px);
 }
 
 .zh-immigration-alliance-strip {

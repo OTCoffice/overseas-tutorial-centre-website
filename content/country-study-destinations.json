@@ -1,0 +1,383 @@
+[
+  {
+    "id": "asia",
+    "name": "亞洲",
+    "en": "ASIA",
+    "countries": [
+      {
+        "name": "韓國",
+        "en": "South Korea",
+        "desc": "大學、專業與申請規劃。",
+        "links": [
+          [
+            "韓國留學專題",
+            "/zh/countries/south-korea/"
+          ],
+          [
+            "Study in Korea 官方",
+            "https://www.studyinkorea.go.kr/"
+          ]
+        ]
+      },
+      {
+        "name": "日本",
+        "en": "Japan",
+        "desc": "院校、課程與日本留學資料。",
+        "links": [
+          [
+            "Study in Japan 官方",
+            "https://www.studyinjapan.go.jp/en/"
+          ],
+          [
+            "日本寒暑校",
+            "/zh/summer-school-alliance/japan/"
+          ]
+        ]
+      },
+      {
+        "name": "馬來西亞",
+        "en": "Malaysia",
+        "desc": "選校、申請與留學預算。",
+        "links": [
+          [
+            "馬來西亞留學",
+            "/zh/services/malaysia-study/"
+          ]
+        ]
+      },
+      {
+        "name": "新加坡",
+        "en": "Singapore",
+        "desc": "大學招生、國際學校與短期學習。",
+        "links": [
+          [
+            "新加坡國立大學招生",
+            "https://www.nus.edu.sg/oam"
+          ],
+          [
+            "新加坡私校",
+            "/zh/private-school-alliance/singapore/"
+          ]
+        ]
+      },
+      {
+        "name": "泰國",
+        "en": "Thailand",
+        "desc": "大學、英語授課與申請資料。",
+        "links": [
+          [
+            "泰國大學留學",
+            "/zh/thailand-university-study/"
+          ]
+        ]
+      },
+      {
+        "name": "香港",
+        "en": "Hong Kong",
+        "desc": "院校與升學申請資料。",
+        "links": [
+          [
+            "香港留學專題",
+            "/zh/countries/hong-kong/"
+          ]
+        ]
+      },
+      {
+        "name": "台灣",
+        "en": "Taiwan",
+        "desc": "院校、課程與國際生申請資料。",
+        "links": [
+          [
+            "Study in Taiwan 官方",
+            "https://www.studyintaiwan.org/"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "europe",
+    "name": "歐洲",
+    "en": "EUROPE",
+    "countries": [
+      {
+        "name": "英國",
+        "en": "United Kingdom",
+        "desc": "大學課程、升學與寄宿學校。",
+        "links": [
+          [
+            "Study UK 官方",
+            "https://study-uk.britishcouncil.org/"
+          ],
+          [
+            "英國升學課程",
+            "/zh/study-group-2026-applications/"
+          ],
+          [
+            "英國私校",
+            "/zh/private-school-alliance/united-kingdom/"
+          ]
+        ]
+      },
+      {
+        "name": "法國",
+        "en": "France",
+        "desc": "課程申請與留學生活資料。",
+        "links": [
+          [
+            "法國留學專題",
+            "/zh/france-study-work-settlement-support/"
+          ],
+          [
+            "Campus France 官方",
+            "https://www.campusfrance.org/en"
+          ]
+        ]
+      },
+      {
+        "name": "德國",
+        "en": "Germany",
+        "desc": "學制、課程與申請準備。",
+        "links": [
+          [
+            "Study in Germany 官方",
+            "https://www.study-in-germany.com/en/"
+          ]
+        ]
+      },
+      {
+        "name": "愛爾蘭",
+        "en": "Ireland",
+        "desc": "院校、課程與留學申請。",
+        "links": [
+          [
+            "Education in Ireland 官方",
+            "https://www.educationinireland.com/en/"
+          ]
+        ]
+      },
+      {
+        "name": "荷蘭",
+        "en": "Netherlands",
+        "desc": "課程查詢、申請與住宿資料。",
+        "links": [
+          [
+            "Study in NL 官方",
+            "https://www.studyinnl.org/"
+          ]
+        ]
+      },
+      {
+        "name": "意大利",
+        "en": "Italy",
+        "desc": "高等教育與申請資訊。",
+        "links": [
+          [
+            "Study in Italy 官方",
+            "https://studyinitaly.esteri.it/"
+          ]
+        ]
+      },
+      {
+        "name": "瑞典",
+        "en": "Sweden",
+        "desc": "課程、申請與北歐留學預算。",
+        "links": [
+          [
+            "瑞典官方留學資料",
+            "https://studyinsweden.se/"
+          ],
+          [
+            "北歐留學專題",
+            "/zh/countries/nordic/"
+          ]
+        ]
+      },
+      {
+        "name": "芬蘭",
+        "en": "Finland",
+        "desc": "課程、申請與留學費用。",
+        "links": [
+          [
+            "Study in Finland 官方",
+            "https://www.studyinfinland.fi/"
+          ],
+          [
+            "北歐留學專題",
+            "/zh/countries/nordic/"
+          ]
+        ]
+      },
+      {
+        "name": "丹麥",
+        "en": "Denmark",
+        "desc": "院校、課程與生活資料。",
+        "links": [
+          [
+            "Study in Denmark 官方",
+            "https://studyindenmark.dk/"
+          ],
+          [
+            "北歐留學專題",
+            "/zh/countries/nordic/"
+          ]
+        ]
+      },
+      {
+        "name": "挪威",
+        "en": "Norway",
+        "desc": "課程、入學與費用資料。",
+        "links": [
+          [
+            "Study in Norway 官方",
+            "https://studyinnorway.no/"
+          ],
+          [
+            "北歐留學專題",
+            "/zh/countries/nordic/"
+          ]
+        ]
+      },
+      {
+        "name": "冰島",
+        "en": "Iceland",
+        "desc": "院校、申請與生活費用。",
+        "links": [
+          [
+            "冰島留學專題",
+            "/zh/countries/iceland/"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "americas",
+    "name": "美洲",
+    "en": "AMERICAS",
+    "countries": [
+      {
+        "name": "美國",
+        "en": "United States",
+        "desc": "高等教育申請、私校與暑期學習。",
+        "links": [
+          [
+            "EducationUSA 官方",
+            "https://educationusa.state.gov/"
+          ],
+          [
+            "美國私校",
+            "/zh/private-school-alliance/united-states/"
+          ],
+          [
+            "美國寒暑校",
+            "/zh/summer-school-alliance/united-states/"
+          ]
+        ]
+      },
+      {
+        "name": "加拿大",
+        "en": "Canada",
+        "desc": "課程、申請與留學費用。",
+        "links": [
+          [
+            "加拿大留學專題",
+            "/zh/countries/canada/"
+          ],
+          [
+            "EduCanada 官方",
+            "https://www.educanada.ca/"
+          ]
+        ]
+      },
+      {
+        "name": "巴西",
+        "en": "Brazil",
+        "desc": "聖保羅大學的國際交流與留學資料。",
+        "links": [
+          [
+            "聖保羅大學國際處",
+            "https://internationaloffice.usp.br/"
+          ]
+        ]
+      },
+      {
+        "name": "智利",
+        "en": "Chile",
+        "desc": "智利大學課程及國際學生資料。",
+        "links": [
+          [
+            "智利大學官方",
+            "https://uchile.cl/english"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oceania",
+    "name": "大洋洲",
+    "en": "OCEANIA",
+    "countries": [
+      {
+        "name": "澳洲",
+        "en": "Australia",
+        "desc": "大學、職業教育與升學路徑。",
+        "links": [
+          [
+            "Study Australia 官方",
+            "https://www.studyaustralia.gov.au/"
+          ],
+          [
+            "VET／TAFE 專題",
+            "/zh/australia-vet-tafe-pathways/"
+          ]
+        ]
+      },
+      {
+        "name": "紐西蘭",
+        "en": "New Zealand",
+        "desc": "課程、院校與私校資料。",
+        "links": [
+          [
+            "Study with New Zealand 官方",
+            "https://www.studywithnewzealand.govt.nz/en"
+          ],
+          [
+            "紐西蘭私校",
+            "/zh/private-school-alliance/new-zealand/"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "africa",
+    "name": "非洲",
+    "en": "AFRICA",
+    "countries": [
+      {
+        "name": "南非",
+        "en": "South Africa",
+        "desc": "高等教育入學與國際學生登記資料。",
+        "links": [
+          [
+            "南非政府入學指南",
+            "https://www.gov.za/services/services-residents/education-and-training/tertiary-education/register-tertiary-institution"
+          ]
+        ]
+      },
+      {
+        "name": "埃及",
+        "en": "Egypt",
+        "desc": "國際學生申請入口。",
+        "links": [
+          [
+            "Study in Egypt 官方",
+            "https://admission.study-in-egypt.gov.eg/"
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -69,3 +69,6 @@ Notion 原稿：https://www.notion.so/3eafd1e7e12081fa89a0c2d394fd3e4c
 
 ### 打工度假聯盟（2026-09-30 更新）
 使用者確認名稱為「打工度假聯盟」，不使用「全球工作旅居聯盟」。主要對象為在讀學生、應屆畢業生及符合資格的青年；統一整理打工度假、青年流動與暑期工作交流，保留各類不同的護照、年齡及在讀要求。按地區、國家／地區與項目類型分類；澳洲、紐西蘭、英國、愛爾蘭等均有獨立資料頁，不用求職服務連結代替目的地頁。尼泊爾等旅遊停留及遠端工作項目放在下方「延伸旅居」，不得宣稱旅遊簽證授予工作權利。來源有變更、未核實當期受理的項目應明示，不宣稱目錄覆蓋所有現行全球計劃。原稿為 `content/work-travel-destinations.json` 與 `content/work-travel-alliance.cjs`；執行 `node scripts/render-work-travel.cjs` 同步頁面、搜尋、目錄及網站地圖。保留 `/zh/work-travel-alliance/` 網址以維持既有連結。
+
+### 留學規劃入口層級（2026-09-30 更新）
+留學規劃主頁使用「國別留學規劃」與「學科規劃」總入口；韓國、北歐等目的地置於 `/zh/countries/` 五大洲目錄，藝術與設計置於 `/zh/subject-planning/` 學科分類。學科頁分基礎課程與大學學科。主頁題頭保留原版式，藝術入口文字改為學科規劃；正文決策順序精簡、路線九格排列、四色淺底卡片、深藍說明框保留左右內距。目錄原稿為 `content/country-study-destinations.json`、`content/country-study-hub.cjs`、`content/subject-study-hub.cjs`，執行 `node scripts/render-country-study.cjs` 同步兩頁、搜尋與網站地圖。
