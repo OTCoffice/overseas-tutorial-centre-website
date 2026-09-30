@@ -62,7 +62,6 @@ function nav(current = "", locale = "en", pagePath = "/") {
         <div class="nav-links">
           ${isZh ? `
             <a href="/zh/services/" ${current === "services" ? 'aria-current="page"' : ""}>留學與服務</a>
-            <a href="/zh/services/art-portfolio-coaching/">藝術與設計</a>
             <a href="/zh/study-planning/">課程與學習</a>
             <a href="/zh/summer-school-alliance/">寒暑校</a>
             <a href="/zh/insights/">留學導報</a>

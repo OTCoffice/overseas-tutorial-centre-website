@@ -24464,6 +24464,7 @@ const zhStudyPlanning = pageShell({
       <div class="zh-planning-board">
         <a href="/zh/summer-school-alliance/"><span>Short-term</span><strong>暑校 / 遊學 / 訪學</strong><p>適合先試海外環境、校園生活、寄宿/活動和英文輸出。</p><em>進入暑校聯盟 →</em></a>
         <a href="/university-applications/"><span>University</span><strong>本科 / 碩士 / 轉學</strong><p>選校、專業、文書、推薦信、時間線與文件審核。</p><em>進入申請評估 →</em></a>
+        <a href="/zh/services/art-portfolio-coaching/"><span>Art &amp; Design</span><strong>藝術與設計申請</strong><p>專業方向、作品集規劃、創作評閱與申請準備。</p><em>查看作品集與申請服務 →</em></a>
         <a href="/international-curriculum-tutoring/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
         <a href="/zh/australia-vet-tafe-pathways/"><span>Career</span><strong>職涯培訓 / VET / TAFE</strong><p>職業教育、課程篩查、TAFE-to-university 和 evidence pack。</p><em>查看職涯培訓 →</em></a>
         <a href="/zh/immigration-info/"><span>Policy</span><strong>移民與政策資訊</strong><p>按國別整理政策入口、職業路線與合規邊界，不替代專業建議。</p><em>查看移民資訊 →</em></a>
