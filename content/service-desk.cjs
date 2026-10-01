@@ -21,6 +21,7 @@ const groups=[
  ['打工換宿','/zh/services/work-exchange-support/','換宿與雪季短工、履歷聯絡信、食宿條件及行前準備。'],
  ['美國 SWT 暑期工遊','/zh/us-swt-work-travel-support/','資格、主辦機構、職位、成本、簽證面談與行前準備。']]],
  ['learning','學業與就業','在讀學習、語言練習與海外求職準備。',[
+ ['SSCI 學術督導','/zh/services/ssci-academic-supervision/','研究選題、期刊選擇、論文修改與投稿返修。'],
  ['學術監護','/services/academic-guardianship-family-office/','學業進度、學校溝通、家長報告與升學規劃。'],
  ['商業英語陪跑','/zh/services/business-english-study-support/','每週學習計劃、商業寫作與簡報練習。'],
  ['日本就業準備','/zh/services/japan-employment-preparation/','特定技能方向、日語、考試、預算與面試。'],

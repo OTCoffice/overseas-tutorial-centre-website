@@ -34721,3 +34721,5 @@ write("zh/services", require("./content/service-desk.cjs")());
 
 // Five-continent destination directory.
 require("./scripts/render-country-study.cjs");
+
+write("zh/services/ssci-academic-supervision", require("./content/ssci-academic-supervision.cjs")());

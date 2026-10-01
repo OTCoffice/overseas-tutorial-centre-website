@@ -1,0 +1,14 @@
+const fs=require('fs'),path=require('path'),{execFileSync}=require('child_process');
+const root=path.resolve(__dirname,'..'),a=require('../content/ssci-academic-supervision.json');
+execFileSync(process.execPath,['scripts/render-herald.cjs','--service','content/ssci-academic-supervision.json'],{cwd:root,stdio:'inherit'});
+fs.writeFileSync(path.join(root,'zh/services/index.html'),require('../content/service-desk.cjs')());
+const target=path.join(root,'zh/search/index.html');let html=fs.readFileSync(target,'utf8');
+const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=html.match(re);
+if(!m)throw Error('Chinese search index missing');
+const entries=JSON.parse(m[2]),entry={type:'服務',title:a.titleZh,url:a.path,desc:a.summaryZh},i=entries.findIndex(x=>x.url===a.path);
+if(i<0)entries.unshift(entry);else entries[i]=entry;
+fs.writeFileSync(target,html.replace(re,(_,start,old,end)=>start+JSON.stringify(entries).replaceAll('<','\\u003c')+end));
+const directory=path.join(root,'zh/site-directory/index.html');let d=fs.readFileSync(directory,'utf8');
+if(!d.includes('href="'+a.path+'"'))d=d.replace('<ul class="directory-list">','<ul class="directory-list"><li data-directory-row><a href="'+a.path+'">SSCI 學術督導</a><small>中文內容</small></li>');
+fs.writeFileSync(directory,d);
+console.log('Updated academic service, search and directory links.');
