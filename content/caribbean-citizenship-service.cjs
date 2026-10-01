@@ -12,6 +12,7 @@ module.exports = function renderCaribbeanCitizenshipService() {
 .cbi-page .cbi-table th{background:#edf2f5;color:#16314c}
 .cbi-page .cbi-table td:first-child{font-weight:700;color:#16314c}
 .cbi-page .cbi-note{background:#f5f0e7;border-left:4px solid #b7892c;padding:16px 20px;margin:22px 0}
+.cbi-page .service-guide-side{align-content:start;align-self:start}
 .cbi-page .service-herald-main p,.cbi-page .service-herald-main li{font-size:1rem;line-height:1.75}
 .cbi-page .service-herald-main ul,.cbi-page .service-herald-main ol{padding-left:1.5em}
 .cbi-page .service-herald-main a{overflow-wrap:anywhere}
