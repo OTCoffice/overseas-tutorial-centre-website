@@ -2604,6 +2604,7 @@ function routePath(route) {
 }
 
 function write(route, html) {
+  if (["zh/private-school-alliance/uk", "zh/private-school-alliance/united-kingdom"].includes(route)) html = require("./content/uk-day-schools.cjs")(html);
   if (["services", "zh/services"].includes(route)) html = require("./content/overseas-careers-links.cjs")(html, route === "zh/services");
   if (["zh/countries/iceland","zh/private-school-alliance/nordic-europe","zh/services"].includes(route) && !html.includes('data-nordic-hub-link')) html = html.replace(/<footer\b/, require('./content/nordic-study-hub.cjs').link + '<footer');
   if (["services", "zh/services", "countries/thailand"].includes(route)) html = require("./content/thailand-study.cjs").addLink(html);
