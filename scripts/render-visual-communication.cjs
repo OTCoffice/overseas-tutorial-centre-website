@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..');
 const hubs=[require('../content/visual-communication-planning.cjs')];
-const records=hubs.map(h=>({url:h.route,title:'視覺傳達與平面設計｜海外督導 OTC',desc:'本科、插班與碩士申請；院校、學制、學費、轉專業與作品集準備。',html:h.render()}));
+const records=hubs.map(h=>({url:h.route,title:'視覺傳達與平面設計｜海外督導 OTC',desc:'27個國家／地區、93個院校／據點、137項視傳與相關設計課程；附官網連結、學費與申請準備。',html:h.render()}));
 for(const r of records){const p=path.join(root,r.url,'index.html');fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,r.html);}
 for(const file of ['search/index.html','zh/search/index.html']){const p=path.join(root,file);let s=fs.readFileSync(p,'utf8');const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/;const m=s.match(re);if(!m)throw Error('Search index missing');const rows=JSON.parse(m[2]);for(const r of records){const entry={type:'中文資料',title:r.title,url:r.url,desc:r.desc};const i=rows.findIndex(x=>x.url===r.url);if(i<0)rows.unshift(entry);else rows[i]=entry;}fs.writeFileSync(p,s.replace(re,(_,a,b,c)=>a+JSON.stringify(rows).replaceAll('<','\\u003c')+c));}
 const sitemap=path.join(root,'sitemap.xml');let xml=fs.readFileSync(sitemap,'utf8');for(const r of records)if(!xml.includes('<loc>https://overseasuk.com'+r.url+'</loc>'))xml=xml.replace('</urlset>','  <url><loc>https://overseasuk.com'+r.url+'</loc></url>\n</urlset>');fs.writeFileSync(sitemap,xml);
