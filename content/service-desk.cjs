@@ -22,6 +22,7 @@ const groups=[
  ['學術監護','/services/academic-guardianship-family-office/','學業進度、學校溝通、家長報告與升學規劃。'],
  ['商業英語陪跑','/zh/services/business-english-study-support/','每週學習計劃、商業寫作與簡報練習。'],
  ['日本就業準備','/zh/services/japan-employment-preparation/','特定技能方向、日語、考試、預算與面試。'],
+ ['實習陪跑','/zh/services/internship-coaching/','實習方向、申請面試、在崗復盤與成果整理。'],
  ['澳洲求職陪跑','/zh/australia-job-search-coaching/','求職方向、履歷、面試與入職準備。'],
  ['法國升學與就業','/zh/france-study-work-settlement-support/','法語、升學、實習、求職與居留節點規劃。']]],
  ['living','海外生活與家庭','住宿接送、突發協調與海外房產行政。',[

@@ -34512,6 +34512,7 @@ insightsArticles.forEach((article) => {
 write("zh/services/animation-portfolio-support", require("./content/animation-portfolio-service.cjs")());
 write("zh/services/australia-transfer-release-support", require("./content/australia-release-service.cjs")());
 write("zh/services/japan-employment-preparation", require("./content/japan-employment-service.cjs")());
+write("zh/services/internship-coaching", require("./content/internship-coaching.cjs")());
 write("zh/services/phd-application-coaching", require("./content/phd-application-coaching.cjs")());
 write("zh/services/europe-exchange-support", require("./content/europe-exchange-service.cjs")());
 write("zh/services/design-application-coaching", require("./content/design-application-service.cjs")());
