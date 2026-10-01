@@ -37,6 +37,31 @@ return pageShell({title:a.titleZh,current:'services',bodyClass:'ssci-page',lang:
 .phd-layout .phd-references h2{font-size:16px;margin:0 0 10px}.phd-references p,.phd-references li{font-size:12px;line-height:1.85;color:#647078}.phd-references ul{padding-left:18px;margin:0}.phd-references a{color:#48616e}
 .phd-cover{margin:0}.phd-cover img{display:block;width:100%;height:auto;border:1px solid #d7dbd6}.phd-cover figcaption{font-size:10px;margin-top:6px;color:#788083}
 @media(max-width:700px){.phd-layout{padding:0 20px 36px}.phd-row{grid-template-columns:1fr;gap:10px;padding:22px 0}.phd-text p{font-size:14px}.phd-contact{padding:22px}.phd-references{grid-template-columns:1fr;gap:20px}.phd-cover{max-width:220px}}
+
+/* Restrained academic hierarchy: coloured section rules, warm paper and fine type. */
+.ssci-page .phd-intro{background:#f0eee6;padding:24px 26px;border-top-color:#233f54}
+.ssci-page .phd-intro .phd-kicker{color:#8b692b}
+.ssci-page .phd-row{--section-ink:#987126;--section-wash:#f5efe1;gap:28px;padding:28px 0;border-bottom:1px solid #dcd7cc}
+.ssci-page .phd-row:nth-of-type(4n+2){--section-ink:#9b782d;--section-wash:#f7f0df}
+.ssci-page .phd-row:nth-of-type(4n+3){--section-ink:#46668b;--section-wash:#ebf0f6}
+.ssci-page .phd-row:nth-of-type(4n){--section-ink:#3f7b72;--section-wash:#eaf2ee}
+.ssci-page .phd-row:nth-of-type(4n+1){--section-ink:#a15443;--section-wash:#f6ece6}
+.ssci-page .phd-label{align-self:start;padding:14px 15px;border-top:2px solid var(--section-ink);background:var(--section-wash);gap:12px}
+.ssci-page .phd-label span{color:var(--section-ink);font-size:12px;letter-spacing:.06em}
+.ssci-page .phd-label h2{font-size:17px;letter-spacing:.03em}
+.ssci-page .phd-text{padding:7px 0 0}
+.ssci-page .phd-text p{line-height:2;font-size:15px}
+.ssci-page .phd-text p+p{margin-top:15px}
+.ssci-page .phd-text a{color:#365f74;text-decoration:underline;text-decoration-color:#abbfc3;text-underline-offset:4px}
+.ssci-page .phd-steps{list-style:none;counter-reset:steps;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 22px}
+.ssci-page .phd-steps li{counter-increment:steps;padding:14px 16px;background:#f1f3ee;border-top:2px solid #7b9485;font-size:14px;line-height:1.9}
+.ssci-page .phd-steps li:nth-child(2){background:#edf1f6;border-color:#7189a9}.ssci-page .phd-steps li:nth-child(3){background:#f6efe1;border-color:#b29760}.ssci-page .phd-steps li:nth-child(4){background:#f5ebe6;border-color:#b27b6b}
+.ssci-page .phd-steps strong{margin-bottom:6px;font-size:15px}.ssci-page .phd-steps strong::before{content:counter(steps,decimal-leading-zero) '  ';font:12px Georgia,serif;color:#7c755d;margin-right:6px}
+.ssci-page .phd-table-wrap{margin:0 0 16px;border:1px solid #d5d7d2}
+.ssci-page .phd-layout thead{background:#233e50;color:#fff}.ssci-page .phd-layout tbody tr:nth-child(odd){background:#f1f3ee}.ssci-page .phd-layout tbody tr:nth-child(even){background:#faf7ef}.ssci-page .phd-layout tbody th{color:#294b60;white-space:normal;min-width:100px}
+.ssci-page #section-9 .phd-text p{padding:0 0 16px;border-bottom:1px solid #dfd9cd}.ssci-page #section-9 .phd-text p:last-child{border-bottom:0;padding-bottom:0}.ssci-page #section-9 .phd-text strong{display:block;color:#28475c;font-size:16px;margin-bottom:6px}
+.ssci-page .phd-contact{background:#eaf0ee;border-left-color:#65897c;padding:27px 30px}.ssci-page .phd-references{border-top:1px solid #c5ba9f;padding-top:24px}.ssci-page .phd-references h2{color:#6d5934}
+@media(max-width:700px){.ssci-page .phd-row{gap:12px;padding:22px 0}.ssci-page .phd-label{padding:11px 14px}.ssci-page .phd-text{padding:0 2px}.ssci-page .phd-text p{font-size:14px}.ssci-page .phd-steps{grid-template-columns:1fr;gap:12px}.ssci-page .phd-intro,.ssci-page .phd-contact{padding:20px}.ssci-page .phd-layout th,.ssci-page .phd-layout td{padding:10px 9px}}
 </style>
 <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC · ACADEMIC SUPERVISION</div><h1>SSCI 學術督導</h1><h2>選題・選刊・論文修改・投稿返修</h2><p class="hero-sub">從研究問題到審稿回覆，按稿件階段提供指導，協助你完成有依據、表達清楚的研究文章。</p>${heroBtn}<p>海外督導 OTC｜學術督導與編譯服務</p></div><aside class="service-hero-panel"><a href="#section-2"><strong>選題研究</strong><span>問題、文獻與方法</span></a><a href="#section-3"><strong>期刊選擇</strong><span>範圍、收錄與要求</span></a><a href="#section-4"><strong>論文修改</strong><span>論證、結構與表達</span></a><a href="#section-5"><strong>投稿返修</strong><span>材料與審稿回覆</span></a></aside></div></div></section>
 <section class="band service-review-strip"><a href="#section-1"><b>WHO</b><strong>服務對象</strong><span>學生與獨立研究者</span></a><a href="#section-6"><b>ARTS</b><strong>電影與人文</strong><span>主題與期刊契合度</span></a><a href="#section-8"><b>FEES</b><strong>服務費用</strong><span>按稿件及範圍報價</span></a><a href="#consultation"><b>ASK</b><strong>學術諮詢</strong><span>題目、階段與期限</span></a></section>
