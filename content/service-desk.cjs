@@ -70,6 +70,7 @@ const groups=[
         "/zh/summer-school-alliance/",
         "按國家比較暑校、遊學及假期短期項目。"
       ],
+      ["訪問學者與學術交流", "/zh/services/visiting-scholar-support/", "項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"],
       [
         "歐洲交換申請",
         "/zh/services/europe-exchange-support/",

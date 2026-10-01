@@ -1059,5 +1059,11 @@
     "label": "南非｜打工度假聯盟",
     "group": "learning",
     "chinese": "/zh/work-travel-alliance/south-africa/"
+  },
+  {
+    "group": "institutions",
+    "path": "/zh/services/visiting-scholar-support/",
+    "chinese": "/zh/services/visiting-scholar-support/",
+    "label": "訪問學者與學術交流"
   }
 ]

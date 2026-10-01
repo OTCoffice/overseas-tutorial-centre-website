@@ -1,0 +1,32 @@
+{
+  "slug": "visiting-scholar-support",
+  "path": "/zh/services/visiting-scholar-support/",
+  "titleZh": "訪問學者與學術交流｜申請、導師聯絡與行前準備｜海外督導 OTC",
+  "summaryZh": "訪問學者、學生短期研究及醫學觀摩申請支援：項目篩選、導師聯絡、學術履歷、研究計劃、邀請文件及行前準備。",
+  "shareImageZh": "/assets/social/visiting-scholar-support-20261001.png",
+  "socialImageVersion": "v=20261001",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-01",
+  "routes": [
+    ["訪問學者", "高校教師、研究人員及具相關專業經驗的人士", "以研究合作、學術交流為主。接收院系會審核研究方向、任職背景、資助及導師安排；並非繳費即可取得的身分。"],
+    ["訪問研究學生", "在讀碩士或博士生；部分項目另收本科生", "通常保留原校學籍，赴接收機構完成指定研究。須確認原校同意、研究期限、指導安排及成果要求。"],
+    ["醫學觀摩", "符合醫院要求的醫學生、醫學畢業生或醫療人員", "以觀察及學習為主。一般不包含直接病人照護，亦不授予當地醫師執照。醫院可限制申請身分及科別。"],
+    ["醫學生臨床輪轉", "符合年級、臨床訓練及院校要求的在讀醫學生", "屬醫學教育安排，可能要求考試成績、原校認可、保險及健康文件。與一般觀摩或訪問學者申請不同。"]
+  ],
+  "fees": [
+    ["OTC 申請支援", "按單項或全程服務報價", "書面列明申請數量、文件修改輪次、導師聯絡支援、服務期間及取消條款。訪學服務不一概按免費留學代辦計算。"],
+    ["院校及醫院收費", "由接收機構訂定", "可能包括申請、訪問、行政、實驗室或培訓費；是否收費、支付期限及退款條款須逐項確認。"],
+    ["生活與行前費用", "另行預算", "住宿、交通、保險、簽證、語言考試、翻譯認證及健康檢查等，由相應機構收取。"],
+    ["資助與薪酬", "按項目條件", "可核對原單位、公派或外部資助。獲邀不等於獲得獎學金、薪酬或免費住宿。"]
+  ],
+  "sources": [
+    ["Oxford｜訪問學者與研究人員", "https://www.ox.ac.uk/research/collaborate-with-us/visiting-academics-and-visiting-researchers"],
+    ["Stanford｜訪問學者資格", "https://doresearch.stanford.edu/policies/research-policy-handbook/non-faculty-research-appointments/visiting-scholars"],
+    ["Stanford｜訪問研究學生", "https://doresearch.stanford.edu/policies/research-policy-handbook/non-faculty-research-appointments/visiting-student-researchers"],
+    ["Mayo Clinic｜訪問醫學生申請", "https://college.mayo.edu/academics/visiting-medical-student-clerkships/application-process/"],
+    ["Johns Hopkins｜醫學觀摩規定", "https://www.hopkinsmedicine.org/volunteer-services/observerships"],
+    ["英國政府｜學術訪問", "https://www.gov.uk/standard-visitor/visit-as-an-academic"],
+    ["英國政府｜短期研究與學習", "https://www.gov.uk/standard-visitor/visit-to-study"]
+  ]
+}
