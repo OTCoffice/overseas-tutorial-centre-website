@@ -24190,9 +24190,9 @@ const zhStudyPlanning = pageShell({
       </div>
       <div class="zh-planning-board">
         <a href="/zh/summer-school-alliance/"><span>Short-term</span><strong>暑校 / 遊學 / 訪學</strong><p>適合先試海外環境、校園生活、寄宿/活動和英文輸出。</p><em>進入暑校聯盟 →</em></a>
-        <a href="/university-applications/"><span>University</span><strong>本科 / 碩士 / 轉學</strong><p>選校、專業、文書、推薦信、時間線與文件審核。</p><em>進入申請評估 →</em></a>
+        <a href="/zh/services/university-application-advisory/"><span>University</span><strong>本科 / 碩士 / 轉學</strong><p>選校、專業、文書、推薦信、時間線與文件審核。</p><em>進入申請評估 →</em></a>
         <a href="/zh/subject-planning/"><span>Subjects</span><strong>學科規劃</strong><p>基礎課程與文、理、工、商、醫學、藝術等專業方向。</p><em>選擇學科 →</em></a>
-        <a href="/international-curriculum-tutoring/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
+        <a href="/zh/teaching/"><span>Learning</span><strong>A-Level / BTEC / IB / AP</strong><p>在讀學生的學科理解、英文輸出、作業規劃與升學準備。</p><em>進入學習平台 →</em></a>
         <a href="/zh/australia-vet-tafe-pathways/"><span>Career</span><strong>職涯培訓 / VET / TAFE</strong><p>職業教育、課程篩查、TAFE-to-university 和 evidence pack。</p><em>查看職涯培訓 →</em></a>
         <a href="/zh/immigration-info/"><span>Policy</span><strong>移民與政策資訊</strong><p>按國別整理政策入口、職業路線與合規邊界，不替代專業建議。</p><em>查看移民資訊 →</em></a>
         <a href="/zh/countries/"><span>Destinations</span><strong>國別留學規劃</strong><p>按五大洲查閱各國院校、申請與留學資料。</p><em>選擇國家與地區 →</em></a>
@@ -34458,6 +34458,7 @@ require("./scripts/consolidate-chinese-site.cjs");
 
 // Keep the service directory grouped; older inline additions are included in this source.
 write("zh/services", require("./content/service-desk.cjs")());
+write("zh/teaching", require("./content/teaching.cjs")());
 
 // Five-continent destination directory.
 require("./scripts/render-country-study.cjs");

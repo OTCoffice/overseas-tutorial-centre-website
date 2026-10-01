@@ -1,5 +1,11 @@
 [
   {
+    "group": "learning",
+    "path": "/zh/teaching/",
+    "chinese": "/zh/teaching/",
+    "label": "課程與教學"
+  },
+  {
     "path": "/about/",
     "title": "Overseas Tutorial Centre",
     "label": "關於海外督導",
