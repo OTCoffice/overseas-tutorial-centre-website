@@ -2,6 +2,7 @@ const {pageShell}=require('../site');
 const groups=[
  ['study','留學申請','選校、升學路徑、申請文書與學歷文件。',[
  ['大學申請','/zh/services/university-application-advisory/','選校、材料規劃、申請進度與院校溝通。'],
+ ['學分聯盟','/insights/credit-alliance/','學分抵免、轉學插班、課程對照、RPL 與修業預算。'],
  ['Asso／HD 升大學','/zh/asso-hd-university-progression/','轉科、選校、入學年級與英文要求。'],
  ['博士申請','/zh/services/phd-application-coaching/','研究方向、導師與資助、研究計劃及面試。'],
  ['藝術與設計申請','/zh/services/art-portfolio-coaching/','按專業整理作品集、階段成果與申請準備。'],
