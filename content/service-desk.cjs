@@ -13,6 +13,7 @@ const groups=[
  ['北歐留學','/zh/countries/nordic/','瑞典、芬蘭、丹麥、挪威與冰島的升學及預算資料。']]],
  ['visa','簽證與短期交流','簽證材料、寒暑校、交換與暑期工遊。',[
  ['簽證陪跑','/zh/services/visa-application-support/','文件清單、準備時間表、進度與行前資料。'],
+ ['第二護照｜加勒比投資入籍','/zh/services/caribbean-citizenship/','安提瓜和巴布達、多米尼克、格林納達官方方案與申請協調。'],
  ['越南簽證代辦','/zh/services/vietnam-visa/','需求確認、文件檢查、申請協調與進度跟進。'],
  ['寒暑校聯盟','/zh/summer-school-alliance/','按國家比較暑校、遊學及假期短期項目。'],
  ['歐洲交換陪跑','/zh/services/europe-exchange-support/','交換選校、選課、學分、均分與升碩銜接。'],
