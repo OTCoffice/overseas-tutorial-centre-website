@@ -70,7 +70,11 @@ const groups=[
         "/zh/summer-school-alliance/",
         "按國家比較暑校、遊學及假期短期項目。"
       ],
-      ["訪問學者與學術交流", "/zh/services/visiting-scholar-support/", "項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"],
+      [
+        "訪問學者與學術交流",
+        "/zh/services/visiting-scholar-support/",
+        "項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"
+      ],
       [
         "歐洲交換申請",
         "/zh/services/europe-exchange-support/",
@@ -149,8 +153,8 @@ const groups=[
   ],
   [
     "living",
-    "海外生活與就業支援",
-    "住宿、家庭聯絡、房產管理、求職及實習申請。",
+    "海外生活與監護",
+    "住宿接送、抵埗安排、學校與家長聯絡，以及房產管理。",
     [
       [
         "驛站調度與緊急協調",
@@ -166,7 +170,14 @@ const groups=[
         "學術監護",
         "/services/academic-guardianship-family-office/",
         "學業進度、學校溝通、家長報告與升學規劃。"
-      ],
+      ]
+    ]
+  ],
+  [
+    "careers",
+    "海外求職與實習",
+    "求職方向、履歷、面試、實習及工作體驗。",
+    [
       [
         "日本就業準備",
         "/zh/services/japan-employment-preparation/",

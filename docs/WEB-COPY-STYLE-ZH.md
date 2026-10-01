@@ -72,3 +72,7 @@ Notion 原稿：https://www.notion.so/3eafd1e7e12081fa89a0c2d394fd3e4c
 
 ### 留學規劃入口層級（2026-09-30 更新）
 留學規劃主頁使用「國別留學規劃」與「學科規劃」總入口；韓國、北歐等目的地置於 `/zh/countries/` 五大洲目錄，藝術與設計置於 `/zh/subject-planning/` 學科分類。學科頁分基礎課程與大學學科。主頁題頭保留原版式，藝術入口文字改為學科規劃；正文決策順序精簡、路線九格排列、四色淺底卡片、深藍說明框保留左右內距。目錄原稿為 `content/country-study-destinations.json`、`content/country-study-hub.cjs`、`content/subject-study-hub.cjs`，執行 `node scripts/render-country-study.cjs` 同步兩頁、搜尋與網站地圖。
+
+
+### 首頁四色入口與四項主業（2026-10-01 最新要求）
+保留深藍金邊題頭，快捷按鈕按用戶新要求採用金、暖橙、藍、青綠配色，取代先前白色按鈕規定。主要業務為留學規劃與申請、移民與簽證、課程與教學、海外生活與監護；桌面使用兩行兩列、漸層色卡及小圖示。其他服務中的生活支援移入第四項主業，求職與實習另列，避免重複。聯絡資料桌面同列對齊，手機以兩列呈現。原稿 content/chinese-home.cjs；同步服務總覽與關於頁分類。
