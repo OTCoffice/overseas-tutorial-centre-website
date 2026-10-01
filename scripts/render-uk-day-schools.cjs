@@ -1,8 +1,10 @@
-const fs = require('fs'), path = require('path');
-const transform = require('../content/uk-day-schools.cjs');
-for (const slug of ['uk', 'united-kingdom']) {
-  const file = path.join(__dirname, '..', 'zh/private-school-alliance', slug, 'index.html');
-  const result = transform(fs.readFileSync(file, 'utf8'));
-  fs.writeFileSync(file, result);
-  console.log('Updated UK day schools:', slug);
-}
+const fs=require('fs'),path=require('path');
+const base=path.resolve(__dirname,'..'),d=require('../content/uk-school-directory.cjs');
+const template=fs.readFileSync(path.join(base,d.root,'index.html'),'utf8');
+const records=[{url:d.root,title:'英國私校｜海外督導 OTC',desc:'小學、走讀、寄宿、高中與國際課程；學費、住宿及申請。',html:d.render(template)},...d.categories.map(c=>({url:d.root+c.id+'/',title:c.title+'｜英國私校｜海外督導 OTC',desc:c.intro,html:d.render(template,c.id)}))];
+for(const r of records){const p=path.join(base,r.url,'index.html');fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,r.html);}
+const alias=path.join(base,'zh/private-school-alliance/uk/index.html');fs.writeFileSync(alias,d.render(fs.readFileSync(alias,'utf8')));
+for(const file of ['search/index.html','zh/search/index.html']){const p=path.join(base,file);let s=fs.readFileSync(p,'utf8');const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re);if(!m)throw Error('Search data missing');const entries=JSON.parse(m[2]);for(const r of records){const e={type:'中文資料',title:r.title,url:r.url,desc:r.desc},i=entries.findIndex(x=>x.url===r.url);if(i<0)entries.unshift(e);else entries[i]=e;}fs.writeFileSync(p,s.replace(re,(_,a,b,c)=>a+JSON.stringify(entries).replaceAll('<','\\u003c')+c));}
+const sm=path.join(base,'sitemap.xml');let xml=fs.readFileSync(sm,'utf8');for(const r of records)if(!xml.includes('<loc>https://overseasuk.com'+r.url+'</loc>'))xml=xml.replace('</urlset>','<url><loc>https://overseasuk.com'+r.url+'</loc></url>\n</urlset>');fs.writeFileSync(sm,xml);
+const dir=path.join(base,'zh/site-directory/index.html');let h=fs.readFileSync(dir,'utf8');for(const r of records)if(!h.includes('href="'+r.url+'"'))h=h.replace('<ul class="directory-list">','<ul class="directory-list"><li data-directory-row><a href="'+r.url+'">'+r.title+'</a><small>中文內容</small></li>');fs.writeFileSync(dir,h);
+console.log('Rendered UK directory, four category pages and legacy UK alias; indexed '+d.schools.length+' school entries.');

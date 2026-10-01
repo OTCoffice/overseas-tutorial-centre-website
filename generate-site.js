@@ -34466,3 +34466,6 @@ require("./scripts/render-country-study.cjs");
 write("zh/services/ssci-academic-supervision", require("./content/ssci-academic-supervision.cjs")());
 
 write("zh/services/ssci-academic-supervision/subjects", require("./content/ssci-academic-subjects.cjs")());
+
+// UK private school directory and category subpages.
+require("./scripts/render-uk-day-schools.cjs");
