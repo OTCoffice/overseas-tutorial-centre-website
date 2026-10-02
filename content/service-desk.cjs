@@ -184,6 +184,11 @@ const groups=[
         "特定技能方向、日語、考試、預算與面試。"
       ],
       [
+        "新加坡帶薪實習",
+        "/zh/services/singapore-internship-support/",
+        "TEP 資格、履歷面試、雇主條件與行前預算。"
+      ],
+      [
         "實習申請指導",
         "/zh/services/internship-coaching/",
         "實習方向、申請面試、在崗復盤與成果整理。"
