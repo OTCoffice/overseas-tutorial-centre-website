@@ -1,0 +1,38 @@
+{
+  "slug": "portfolio-website-support",
+  "name": "作品網站與雙語介紹",
+  "sub": "作品分類 · 專案介紹 · 網站製作",
+  "summary": "協助插畫家、設計師及自由工作者整理作品網站，提供頁面架構、中英專案介紹、網站製作與更新交接。",
+  "audience": "插畫家、設計師、藝術工作者及自由工作者，希望整理作品、介紹服務或接洽品牌合作。",
+  "items": [
+    [
+      "網站架構",
+      "按作品類型、合作對象與服務內容規劃分類、專案頁、關於及聯絡頁。"
+    ],
+    [
+      "雙語介紹",
+      "整理創作背景、負責角色、作品成果與合作資訊，編修中英介紹。內容以本人提供的資料為準。"
+    ],
+    [
+      "網站製作",
+      "依需求確認頁數、功能、平台及手機版，協助版面製作、舊站搬遷與發布。Framer 或其他平台是否適合，先按更新習慣與預算比較。"
+    ],
+    [
+      "更新交接",
+      "提供約定的操作說明與交接，確認網域、平台帳號與作品檔案的歸屬。後續維護另列範圍。"
+    ]
+  ],
+  "materials": "現有網站或作品連結、預計分類、主要合作對象、語言版本、希望上線時間及預算。初次諮詢不用提供登入密碼。",
+  "english": "PORTFOLIO WEBSITE",
+  "line": "Structure / Bilingual content / Build & handover",
+  "related": "/zh/services/art-portfolio-coaching/",
+  "relatedName": "藝術與設計申請",
+  "path": "/zh/services/portfolio-website-support/",
+  "titleZh": "作品網站與雙語介紹｜海外督導 OTC",
+  "summaryZh": "協助插畫家、設計師及自由工作者整理作品網站，提供頁面架構、中英專案介紹、網站製作與更新交接。",
+  "shareImageZh": "/assets/social/portfolio-website-support-20261002.png",
+  "socialImageVersion": "v=20261002",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-02"
+}

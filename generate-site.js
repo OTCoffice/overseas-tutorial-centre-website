@@ -10,3 +10,6 @@ require("./scripts/render-singapore-internship.cjs");
 
 // Preserve the source-backed Singapore internship Herald guide.
 require('./scripts/render-singapore-guide.cjs');
+
+// Preserve professional website and career services after full generation.
+require("./scripts/render-professional-services.cjs");

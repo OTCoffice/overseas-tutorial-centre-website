@@ -1,0 +1,38 @@
+{
+  "slug": "english-cv-interview-support",
+  "name": "英文履歷與面試",
+  "sub": "CV · Cover Letter · LinkedIn · 面試練習",
+  "summary": "英文履歷、求職信與 LinkedIn 內容整理，按目標職缺準備自我介紹、經歷說明及英文模擬面試。",
+  "audience": "準備外商或海外求職、實習、轉職的人士，希望把經歷寫清楚，並練習工作情境的英文表達。",
+  "items": [
+    [
+      "英文履歷",
+      "按目標職缺整理經歷、技能與成果，調整結構及英文表達；保留可核實的事實，不編造資歷。"
+    ],
+    [
+      "求職信與 LinkedIn",
+      "協助求職信、個人摘要及經歷欄位的內容與語氣。帳號操作與對外聯絡由本人確認。"
+    ],
+    [
+      "英文面試",
+      "以目標職位練習自我介紹、經歷問題、情境題與向雇主提問，提供回饋及練習方向。"
+    ],
+    [
+      "職場英文",
+      "按需求練習會議、電郵、工作匯報等情境；課次與範圍另行確認。"
+    ]
+  ],
+  "materials": "現有履歷、目標職缺或行業、相關經歷、英文程度及面試日期。可先遮去地址、證件號碼等不必要資料。",
+  "english": "ENGLISH CV & INTERVIEW",
+  "line": "CV / Cover letter / LinkedIn / Interview practice",
+  "related": "/zh/services/internship-coaching/",
+  "relatedName": "實習申請指導",
+  "path": "/zh/services/english-cv-interview-support/",
+  "titleZh": "英文履歷與面試｜海外督導 OTC",
+  "summaryZh": "英文履歷、求職信與 LinkedIn 內容整理，按目標職缺準備自我介紹、經歷說明及英文模擬面試。",
+  "shareImageZh": "/assets/social/english-cv-interview-support-20261002.png",
+  "socialImageVersion": "v=20261002",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-02"
+}
