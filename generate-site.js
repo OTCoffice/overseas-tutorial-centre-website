@@ -13,3 +13,6 @@ require('./scripts/render-singapore-guide.cjs');
 
 // Preserve professional website and career services after full generation.
 require("./scripts/render-professional-services.cjs");
+
+// Preserve the three-country masters comparison and official sources.
+require("child_process").execFileSync("python3",["scripts/render-masters-comparison.py"],{stdio:"inherit"});

@@ -31,6 +31,11 @@ const groups=[
         "海外語言課程、學費及開課日期。"
       ],
       [
+        "碩士選國與申請規劃",
+        "/zh/services/masters-country-planning/",
+        "加拿大、紐西蘭與愛爾蘭選校及預算比較；OTC 免費代辦。"
+      ],
+      [
         "大學申請",
         "/zh/services/university-application-advisory/",
         "選校、材料規劃、申請進度與院校溝通。"
@@ -178,7 +183,7 @@ const groups=[
     "海外求職與實習",
     "求職方向、履歷、面試、實習及工作體驗。",
     [
-      ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信、LinkedIn 內容及英文模擬面試。"],
+      ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信、LinkedIn 內容及英文模擬面試；OTC 免費代辦。"],
       [
         "日本就業準備",
         "/zh/services/japan-employment-preparation/",
@@ -216,7 +221,7 @@ const groups=[
     "翻譯、出版與商務溝通",
     "語言文件、對外聯絡、編輯出版與研究資料。",
     [
-      ["作品網站與雙語介紹", "/zh/services/portfolio-website-support/", "作品分類、中英專案介紹、網站製作與更新交接。"],
+      ["作品網站與雙語介紹", "/zh/services/portfolio-website-support/", "作品分類、中英專案介紹、網站製作與更新交接；OTC 免費代辦。"],
       [
         "中英翻譯與編輯",
         "/zh/services/language-context-studio/",

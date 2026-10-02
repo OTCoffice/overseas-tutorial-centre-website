@@ -1,0 +1,38 @@
+{
+  "slug": "masters-country-planning",
+  "name": "碩士選國與申請規劃",
+  "sub": "加拿大 · 紐西蘭 · 愛爾蘭",
+  "summary": "按專業、成績與總預算比較碩士課程，整理選校清單、學費生活預算及申請安排；OTC 免費代辦，不收代辦服務費。",
+  "audience": "正在比較加拿大、紐西蘭或愛爾蘭碩士，重視整體費用、專業方向與畢業後安排的申請人。",
+  "items": [
+    [
+      "課程比較",
+      "按本科背景、成績及語言程度整理課程候選清單，列出入學要求、學程長度與截止日期。"
+    ],
+    [
+      "預算整理",
+      "分開列出全學程學費、住宿、生活與行前費用，註明年度、貨幣及報價來源。"
+    ],
+    [
+      "申請支援",
+      "按委託協助履歷、申請文書、推薦人資料與材料清單，跟進遞交及補件。"
+    ],
+    [
+      "行前與後續",
+      "整理住宿及行前節點，核對官方畢業後工作資訊。個人移民資格或法律意見轉介合資格人士。"
+    ]
+  ],
+  "materials": "本科專業與成績、想讀科目、英語程度、預計入學年份、總預算及偏好國家。初次諮詢毋須提供護照或財務證明。",
+  "related": "/zh/insights/canada-nz-ireland-masters-comparison/",
+  "relatedName": "三國碩士比較詳解",
+  "english": "MASTERS STUDY PLANNING",
+  "line": "Canada / New Zealand / Ireland",
+  "path": "/zh/services/masters-country-planning/",
+  "titleZh": "碩士選國與申請規劃｜海外督導 OTC",
+  "summaryZh": "按專業、成績與總預算比較碩士課程，整理選校清單、學費生活預算及申請安排；OTC 免費代辦，不收代辦服務費。",
+  "shareImageZh": "/assets/social/masters-country-planning-20261002.png",
+  "socialImageVersion": "v=20261002",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-02"
+}

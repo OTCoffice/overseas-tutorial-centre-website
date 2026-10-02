@@ -1,0 +1,1 @@
+module.exports=()=>require('./professional-service-page.cjs')(require('./masters-country-planning.json')).replace('考試、認證、翻譯公證及其他第三方費用另計；本服務不包含招聘仲介、工作許可申請或代替本人參加面試。','院校申請費、學費、住宿、考試、簽證與第三方認證翻譯費另計，與 OTC 服務費分開列明。').replace('內容由本人提供並確認；OTC 不保證面試邀請、錄取或薪資結果。','材料由本人提供並確認；OTC 不承諾錄取、簽證、工作或永久居留結果。');
