@@ -31,7 +31,7 @@ for i,section in enumerate(a['bodyZh']):
  main.append(BeautifulSoup(body,'html.parser'))
 main.append(BeautifulSoup('<p class="zh-herald-disclaimer">'+a['factCheckNotes'][0]+'</p>','html.parser'))
 side=soup.select_one('.zh-herald-side');side.clear()
-for title,body in [('選校重點','先看專業、城市與全學程總成本。'),('工作安排','加拿大与紐西蘭符合資格的碩士可申請3年；愛爾蘭符合條件者最長合計24個月。'),('申請支援','<a href="/zh/services/masters-country-planning/">查看OTC免費碩士代辦 →</a>')]:
+for title,body in [('選校重點','先看專業、城市與全學程總成本。'),('工作安排','加拿大與紐西蘭符合資格的碩士可申請3年；愛爾蘭符合條件者最長合計24個月。'),('申請支援','<a href="/zh/services/masters-country-planning/">查看OTC免費碩士代辦 →</a>')]:
  side.append(BeautifulSoup('<div class="zh-herald-widget"><div class="zh-herald-widget-title">'+title+'</div><p>'+body+'</p></div>','html.parser'))
 hub=soup.select_one('.zh-herald-reading-hub');hub.clear()
 hub.append(BeautifulSoup('<h2>官方來源</h2><p>官方資料 · 資料核查：2026年10月2日</p><div class="zh-herald-reading-list">'+''.join('<a class="zh-herald-reading-item" href="'+u+'" target="_blank" rel="noopener"><strong>'+t+'</strong><span>'+u+'</span></a>' for t,u in a['resources'])+'</div>','html.parser'))
