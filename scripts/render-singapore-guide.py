@@ -13,6 +13,9 @@ for before,after in [(base['titleZh'],a['titleZh']),(base['summaryZh'],a['summar
  s=s.replace(before,after).replace(quote(before,safe=''),quote(after,safe=''))
 s=s.replace(old,url).replace(quote(old,safe=''),quote(url,safe='')).replace('2026年9月30日','2026年10月2日').replace('2026年9月號','2026年10月號')
 soup=BeautifulSoup(s,'html.parser')
+soup.find('meta',property='og:image:type')['content']='image/jpeg' if a['shareImageZh'].endswith('.jpg') else 'image/png'
+cover=soup.select_one('.zh-herald-share-cover img');cover['width']=str(a['socialImageWidth']);cover['height']=str(a['socialImageHeight'])
+for prop,key in [('og:image:width','socialImageWidth'),('og:image:height','socialImageHeight')]:soup.find('meta',property=prop)['content']=str(a[key])
 soup.select_one('.zh-herald-meta strong').string='留學升學'
 soup.select_one('.zh-herald-section-tag').string='留學升學'
 soup.select_one('.zh-herald-tagline').string='留學升學 · 海外實習 · 國際交流'
