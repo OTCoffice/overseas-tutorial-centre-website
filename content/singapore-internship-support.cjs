@@ -56,7 +56,7 @@ const groups=[
 ];
 module.exports=()=>{
 // Reuse the exact service-desk styles rather than applying a separate type scale.
-const css=desk().match(/<style>[\s\S]*?<\/style>/)[0];
+const css=desk().match(/<style>[\s\S]*?<\/style>/)[0].replace(/\.service-desk-page \.service-hero-layout\{[^}]*\}\.service-desk-page \.service-hero-panel\{[^}]*\}\.service-desk-page \.service-hero-panel a\{[^}]*\}/,'');
 let hero=summerHero().split('<section class="band service-review-strip"')[0];
 hero=hero.replace('SUMMER SCHOOL HUB','SINGAPORE INTERNSHIP').replace('海外督導｜寒暑校聯盟','海外督導｜新加坡實習').replace('UK · Australia · New Zealand · Malaysia · Singapore · Thailand · USA · Canada','TEP 資格 · 課程實習 · 申請支援').replace('為中學生提供全球優質暑期學術項目，探索興趣，提升背景，為未來升學做好準備。','核對實習資格、接收雇主、課程要求與費用，安排申請及行前準備。');
 hero=hero.replace(/<div class="actions">[\s\S]*?<\/div>/,`<div class="actions"><a class="btn btn-primary" href="${wa}">實習諮詢</a><a class="btn btn-secondary" href="${email}">發送需求</a></div>`);
