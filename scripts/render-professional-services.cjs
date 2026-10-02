@@ -1,5 +1,5 @@
 const fs=require('fs'),{execFileSync}=require('child_process');
-const slugs=['portfolio-website-support','english-cv-interview-support','masters-country-planning'];
+const slugs=['portfolio-website-support','english-cv-interview-support','masters-country-planning','international-sourcing'];
 execFileSync(process.execPath,['scripts/render-herald.cjs',...slugs.flatMap(s=>['--service','content/'+s+'.json'])],{stdio:'inherit'});
 fs.writeFileSync('zh/services/index.html',require('../content/service-desk.cjs')());
 const p='zh/search/index.html',s=fs.readFileSync(p,'utf8'),re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re),entries=JSON.parse(m[2]);
