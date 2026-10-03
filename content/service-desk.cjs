@@ -223,6 +223,7 @@ const groups=[
     "翻譯、出版與商務溝通",
     "語言文件、國際採購、商務對接、編輯出版與研究資料。",
     [
+      ["企業 AI 與工作流程自動化", "/zh/services/ai-workflow-automation/", "文件辨識與知識庫、數據報表、影像識別及 AI Agent；需求整理、技術對接與交付協調。"],
       ["商業轉讓與買家對接", "/zh/services/business-transfer/", "店舖、企業與資產轉讓；資料整理、買家搜尋、看店及交接協調。"],
       ["國際採購與商務對接", "/zh/services/international-sourcing/", "供應商搜尋、報價比較、採購跟進與海外客戶開發；按項目報價。"],
       ["作品網站與雙語介紹", "/zh/services/portfolio-website-support/", "作品分類、中英專案介紹、網站製作與更新交接；OTC 免費代辦。"],
