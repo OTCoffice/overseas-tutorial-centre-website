@@ -2,7 +2,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 root=Path(__file__).resolve().parents[1]
 font='/Library/Fonts/Arial Unicode.ttf'
-for slug,title,sub in [('nursing-hub','海外護士發展','國家比較  /  申請背景  /  服務與費用'),('nursing-australia','澳洲護士','護理課程  /  專業註冊  /  求職與移民')]:
+for slug,title,sub in [('nursing-hub','海外護理留學','留學國家  /  課程與院校  /  申請服務'),('nursing-australia','澳洲護理專業','護理課程  /  專業註冊  /  求職與移民'),('nursing-courses','護理課程與院校','AQF 學歷級別  /  澳洲院校  /  申請資料')]:
  im=Image.new('RGB',(1200,630),'#142b40');d=ImageDraw.Draw(im)
  d.rectangle((30,30,1170,600),outline='#d7ad55',width=2)
  d.rectangle((73,162,79,350),fill='#d7ad55')
@@ -15,4 +15,4 @@ for slug,title,sub in [('nursing-hub','海外護士發展','國家比較  /  申
  for i,c in enumerate(colors):d.rectangle((75+i*262,400,75+i*262+248,409),fill=c)
  text(76,448,sub,27,'#e9e2d4')
  text(76,548,'海外督導 OTC',23,'#d7ad55');text(867,548,'overseasuk.com',23,'#d7ad55')
- im.save(root/'assets/social'/f'{slug}-20261003-v1.png')
+ im.save(root/'assets/social'/f'{slug}-20261003-v2.png')

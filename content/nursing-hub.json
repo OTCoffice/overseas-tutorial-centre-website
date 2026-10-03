@@ -1,13 +1,13 @@
 {
   "slug": "nursing-hub",
   "path": "/zh/nursing/",
-  "name": "海外護士發展",
-  "titleZh": "海外護士發展｜留學・註冊・就業・移民｜海外督導 OTC",
-  "summaryZh": "按現有學歷與護士資格，了解海外護理升學、專業註冊、求職與移民準備；由澳洲專頁開始比較。",
-  "sub": "留學・註冊・就業・移民",
+  "name": "海外護理留學",
+  "titleZh": "海外護理留學｜課程・院校・申請｜海外督導 OTC",
+  "summaryZh": "海外護理課程、院校介紹、入學要求及留學申請服務，另提供護士註冊、就業與移民資訊。",
+  "sub": "課程・院校・申請",
   "updated": "2026-10-03",
-  "shareImageZh": "/assets/social/nursing-hub-20261003-v1.png",
-  "socialImageVersion": "v=20261003-1",
+  "shareImageZh": "/assets/social/nursing-hub-20261003-v2.png",
+  "socialImageVersion": "v=20261003-2",
   "socialImageWidth": 1200,
   "socialImageHeight": 630
 }

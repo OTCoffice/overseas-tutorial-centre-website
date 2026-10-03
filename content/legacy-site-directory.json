@@ -3,13 +3,19 @@
     "group": "institutions",
     "path": "/zh/nursing/",
     "chinese": "/zh/nursing/",
-    "label": "海外護士發展｜留學、註冊、就業與移民"
+    "label": "海外護理留學｜留學、註冊、就業與移民"
   },
   {
     "group": "institutions",
     "path": "/zh/nursing/australia/",
     "chinese": "/zh/nursing/australia/",
-    "label": "澳洲護士｜護理課程、註冊與移民"
+    "label": "澳洲護理專業｜課程、註冊與移民"
+  },
+  {
+    "group": "institutions",
+    "path": "/zh/nursing/courses/",
+    "chinese": "/zh/nursing/courses/",
+    "label": "護理課程與院校｜AQF 學歷分類"
   },
   {
     "group": "learning",

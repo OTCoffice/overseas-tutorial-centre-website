@@ -1,7 +1,7 @@
 // Targeted publishing: preserve unrelated content and maintain discoverable navigation.
 const fs=require('fs'),path=require('path'),{execFileSync}=require('child_process');
 const base=path.resolve(__dirname,'..');
-const slugs=['nursing-hub','nursing-australia'];
+const slugs=['nursing-hub','nursing-australia','nursing-courses'];
 execFileSync(process.execPath,['scripts/render-herald.cjs',...slugs.flatMap(x=>['--service','content/'+x+'.json'])],{cwd:base,stdio:'inherit'});
 const write=(p,s)=>fs.writeFileSync(path.join(base,p),s.replace(/[ \t]+$/gm,''));
 write('zh/services/index.html',require('../content/service-desk.cjs')());
@@ -22,7 +22,7 @@ for(const a of records){
 const rows=records.map(a=>`<li data-directory-row><a href="${a.path}">${a.name}</a><small>中文內容</small></li>`).join('');
 d=d.replace(/(<section id="institutions">[\s\S]*?<ul class="directory-list">)/, '$1'+rows);
 fs.writeFileSync(dir,d);
-const block=`<section class="band compact-band" id="nursing-related"><h2>海外護士發展</h2><p>按現有學歷及護士資格查看留學、註冊、求職與移民準備。</p><p><a href="/zh/nursing/">護士總覽 →</a>　<a href="/zh/nursing/australia/">澳洲護士專頁 →</a></p></section>`;
+const block=`<section class="band compact-band" id="nursing-related"><h2>海外護理留學</h2><p>按現有學歷及護士資格查看留學、註冊、求職與移民準備。</p><p><a href="/zh/nursing/">護理留學 →</a>　<a href="/zh/nursing/australia/">澳洲護理專業 →</a></p></section>`;
 for(const file of ['zh/immigration-info/index.html','zh/australia-job-search-coaching/index.html']){
  const p=path.join(base,file);let s=fs.readFileSync(p,'utf8');s=s.replace(/<section\b[^>]*id="nursing-related"[\s\S]*?<\/section>/,'');
  const marker=file.includes('immigration-info')?'<section class="band compact-band zh-immigration-country-board"':'</main>';
