@@ -19,3 +19,5 @@ require("child_process").execFileSync("python3",["scripts/render-masters-compari
 
 // Preserve the nursing hub, country guide and navigation.
 require('./scripts/render-nursing.cjs');
+
+require('./scripts/render-korea-winter.cjs');
