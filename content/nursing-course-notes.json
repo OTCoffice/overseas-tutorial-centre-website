@@ -1,0 +1,135 @@
+[
+  {
+    "school": "TAFE NSW",
+    "country": "澳洲",
+    "state": "NSW",
+    "level": 5,
+    "name": "Diploma of Nursing",
+    "zh": "護理文憑",
+    "note": "畢業後可申請登記護士（Enrolled Nurse）註冊；亦可了解護理學士銜接安排。",
+    "url": "https://www.tafensw.edu.au/international/courses/Diploma-of-Nursing--HLT54121",
+    "code": "110160B",
+    "qualificationCode": "HLT54121"
+  },
+  {
+    "school": "悉尼科技大學 UTS",
+    "country": "澳洲",
+    "state": "NSW",
+    "level": 7,
+    "name": "Bachelor of Nursing",
+    "zh": "護理學士",
+    "note": "包含護理理論及臨床實習，供有意申請註冊護士資格的學生修讀。",
+    "url": "https://www.uts.edu.au/courses/bachelor-of-nursing",
+    "code": ""
+  },
+  {
+    "school": "迪肯大學 Deakin University",
+    "country": "澳洲",
+    "state": "VIC",
+    "level": 7,
+    "name": "Bachelor of Nursing",
+    "zh": "護理學士",
+    "note": "國際學生課程；入學要求、校區及實習安排見院校網站。",
+    "url": "https://www.deakin.edu.au/course/bachelor-nursing-international",
+    "code": ""
+  },
+  {
+    "school": "塔斯馬尼亞大學 University of Tasmania",
+    "country": "澳洲",
+    "state": "TAS NSW",
+    "level": 7,
+    "name": "Bachelor of Nursing",
+    "zh": "護理學士",
+    "note": "設多個授課地點；國際生可選校區及名額以當年招生資料為準。",
+    "url": "https://www.utas.edu.au/courses/health/courses/h3o-bachelor-of-nursing",
+    "code": "102253H"
+  },
+  {
+    "school": "弗林德斯大學 Flinders University",
+    "country": "澳洲",
+    "state": "SA",
+    "level": 7,
+    "name": "Bachelor of Nursing (Graduate Entry)",
+    "zh": "學士後護理學士",
+    "note": "供已有學士學位者申請，全日制 2 年；須符合先修課要求。",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-nursing-graduate-entry",
+    "code": "002701K"
+  },
+  {
+    "school": "悉尼大學 University of Sydney",
+    "country": "澳洲",
+    "state": "NSW",
+    "level": 9,
+    "name": "Master of Nursing",
+    "zh": "護理碩士",
+    "note": "Graduate Entry 課程，供學士畢業生申請；須符合院校選拔要求。",
+    "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-nursing.html",
+    "code": ""
+  },
+  {
+    "school": "臥龍崗大學 University of Wollongong",
+    "country": "澳洲",
+    "state": "NSW",
+    "level": 9,
+    "name": "Master of Nursing (Pre-Registration)",
+    "zh": "護理碩士（註冊前課程）",
+    "note": "全日制 2 年；官網所列 2027 年兩輪申請期已結束，後續名額須向院校查詢。",
+    "url": "https://www.uow.edu.au/study/courses/master-of-nursing-pre-registration/",
+    "code": "108467A"
+  },
+  {
+    "school": "蒙納士大學 Monash University",
+    "country": "澳洲",
+    "state": "VIC",
+    "level": 9,
+    "name": "Master of Nursing Practice",
+    "zh": "護理實務碩士",
+    "note": "接受非護理學士畢業生申請，須符合先修課及英語要求。",
+    "url": "https://www.monash.edu/study/courses/find-a-course/nursing-practice-m6016?international=true",
+    "code": "068373J"
+  },
+  {
+    "school": "墨爾本大學 University of Melbourne",
+    "country": "澳洲",
+    "state": "VIC",
+    "level": 9,
+    "name": "Master of Nursing Science",
+    "zh": "護理科學碩士",
+    "note": "護士註冊前課程，包含護理理論與臨床實習。",
+    "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-nursing-science/",
+    "code": ""
+  },
+  {
+    "school": "昆士蘭科技大學 QUT",
+    "country": "澳洲",
+    "state": "QLD",
+    "level": 9,
+    "name": "Master of Nursing – Entry to Practice",
+    "zh": "護理碩士（註冊前課程）",
+    "note": "接受非護理學士畢業生申請；全日制 2 年，Kelvin Grove 校區。",
+    "url": "https://www.qut.edu.au/courses/master-of-nursing-entry-to-practice",
+    "code": "107928G"
+  },
+  {
+    "school": "伊迪斯科文大學 ECU",
+    "country": "澳洲",
+    "state": "WA",
+    "level": 9,
+    "name": "Master of Nursing (Graduate Entry)",
+    "zh": "護理碩士（Graduate Entry）",
+    "note": "接受非護理學士畢業生申請；國際生全日制 2 年，須符合人體生物學先修要求。",
+    "url": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-graduate-entry",
+    "code": ""
+  },
+  {
+    "school": "弗林德斯大學 Flinders University",
+    "country": "澳洲",
+    "state": "SA",
+    "level": 9,
+    "name": "Master of Nursing",
+    "zh": "護理碩士（註冊護士進修）",
+    "note": "供已在澳洲註冊的護士進修；Bedford Park 校區，全日制 2 年。",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-nursing",
+    "code": "113748E"
+  }
+]

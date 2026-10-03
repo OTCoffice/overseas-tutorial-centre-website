@@ -3,11 +3,11 @@
   "path": "/zh/nursing/courses/",
   "name": "護理課程與院校",
   "titleZh": "護理課程與院校｜澳洲 AQF 學歷分類｜海外督導 OTC",
-  "summaryZh": "按學歷級別及州份查閱澳洲護理文憑、學士及碩士課程，附院校官方連結與已核實的 CRICOS 課程代碼。",
-  "sub": "文憑・學士・碩士",
+  "summaryZh": "澳洲 65 所院校及培訓機構、254 項護理及相關課程。按 AQF 學歷、護理專科、州份及院校查詢，附 CRICOS 代碼、校區與名冊登記費用。",
+  "sub": "文憑・學士・研究生・博士",
   "updated": "2026-10-03",
-  "shareImageZh": "/assets/social/nursing-courses-20261003-v2.png",
-  "socialImageVersion": "v=20261003-2",
+  "shareImageZh": "/assets/social/nursing-courses-20261003-v3.png",
+  "socialImageVersion": "v=20261003-3",
   "socialImageWidth": 1200,
   "socialImageHeight": 630
 }

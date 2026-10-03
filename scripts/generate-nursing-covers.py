@@ -10,9 +10,9 @@ for slug,title,sub in [('nursing-hub','海外護理留學','留學國家  /  課
   f=ImageFont.truetype(font,size);assert d.textbbox((x,y),t,font=f)[2]<1135;d.text((x,y),t,font=f,fill=color)
  text(76,75,'OVERSEAS TUTORIAL CENTRE',25,'#d7ad55')
  text(105,165,title,64)
- text(107,273,'留學・註冊・就業・移民',35)
+ text(107,273,'文憑・學士・研究生・博士' if slug=='nursing-courses' else '留學・註冊・就業・移民',35)
  colors=['#b98a3c','#538578','#b45a43','#728aa8']
  for i,c in enumerate(colors):d.rectangle((75+i*262,400,75+i*262+248,409),fill=c)
  text(76,448,sub,27,'#e9e2d4')
  text(76,548,'海外督導 OTC',23,'#d7ad55');text(867,548,'overseasuk.com',23,'#d7ad55')
- im.save(root/'assets/social'/f'{slug}-20261003-v2.png')
+ im.save(root/'assets/social'/f"{slug}-20261003-{'v3' if slug=='nursing-courses' else 'v2'}.png")
