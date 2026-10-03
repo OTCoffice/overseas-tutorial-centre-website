@@ -3,7 +3,7 @@ module.exports=()=>{
 const prompt='你好，我想諮詢旅行服務。\n旅行月份與天數：\n人數與出發地：\n預算：\n目的地與興趣：\n是否自駕：\n步行或住宿需要：';
 const wa='https://wa.me/447947991572?text='+encodeURIComponent(prompt),mail='mailto:office@overseasuk.com?subject='+encodeURIComponent('旅行服務諮詢')+'&body='+encodeURIComponent(prompt),cover=a.shareImageZh+'?'+a.socialImageVersion;
 const body=`<nav class="trade-breadcrumb" aria-label="麵包屑"><a href="/zh/services/">服務導覽台</a> / 旅行服務</nav>
-<section><h2>服務內容</h2><p>為自由行旅客、家庭及赴英探親的家長整理行程、交通與住宿。以英國旅行為主，其他目的地先確認可提供的支援。想少換飯店、不自駕，或把博物館、劇院與自然景觀放在同一趟旅行，都可按時間與預算安排。</p>
+<section><h2>服務內容</h2><p>尚未決定目的地，可查閱<a href="/zh/services/travel-planning/">旅遊規劃</a>，比較歐洲城市、海島與自然路線。</p><p>為自由行旅客、家庭及赴英探親的家長整理行程、交通與住宿。以英國旅行為主，其他目的地先確認可提供的支援。想少換飯店、不自駕，或把博物館、劇院與自然景觀放在同一趟旅行，都可按時間與預算安排。</p>
 <div class="trade-columns"><div><h3>行程規劃</h3><p>比較目的地與停留天數，安排每天的活動、轉乘及休息時間。交付每日行程表、交通連結、住宿區域建議及預算明細。</p><h3>交通與住宿</h3><p>比較火車、巴士、機場接送及住宿位置，整理房型、行李、轉乘和取消條件。預訂前由旅客確認日期、姓名與總價。</p></div><div><h3>活動與當地服務</h3><p>協助查找美術館、博物館、音樂劇及當地一日團，聯絡導遊、接送或其他承辦方。服務是否可安排，按日期、人數與供應商回覆確認。</p><h3>探親與家庭旅行</h3><p>把校園探訪、探親與旅遊合併安排，考慮長輩、兒童、行李及步行距離。有無障礙需求，可先確認住宿及交通設施。</p></div></div></section>
 <section><h2>英國路線</h2><p>以下是行程設計示例，天數可調整，不是已開售團期或固定報價。每趟以倫敦加一個主要區域為起點，減少搬行李與跨區折返。</p><div class="trade-table"><table><thead><tr><th>組合</th><th>示例天數</th><th>安排方向</th></tr></thead><tbody>
 <tr><th>倫敦＋湖區</th><td>5＋4 天</td><td>倫敦安排博物館與音樂劇；湖區以 Windermere 或 Ambleside 為住宿基地，結合巴士、遊船及輕量步行，留出天氣備案。</td></tr>
