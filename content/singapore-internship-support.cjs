@@ -46,9 +46,15 @@ const groups=[
 ['先辦准證再求職','TEP 由接收雇主申請，須先有實際培訓安排。'],
 ['與美國 SWT 比較','兩者的目的、資格、時段與費用不同，按個人條件分別比較。'],
 ['錄用與結果','本頁提供申請支援，未公布已確認在招職位；不承諾錄用、薪資或准證結果。']]],
+['public-cases','公開案例','為保護客戶私隱，本頁僅提供公開來源案例；以下均非 OTC 經辦個案。',[
+['大專在校生','程可：2024年赴新加坡伊頓實習，六個月校企合作安排；准證類別未公開。','/zh/insights/singapore-paid-internship-mainland-chinese-guide/#public-cases'],
+['經貿短期實習','Jia Sibin：2024年完成PECC約兩個月實習，參與貿易與勞動市場數據分析。','/zh/insights/singapore-paid-internship-mainland-chinese-guide/#public-cases'],
+['TEP歷史案例','Humberto Malavé：2011年本人報告記載取得TEP；背景與現行條件須分別核對。','/zh/insights/singapore-paid-internship-mainland-chinese-guide/#public-cases']]],
 ['contact','聯絡我們','提供學校、專業與實習月份。',[
 ['WhatsApp','+44 7947 991572',wa],['電郵','office@overseasuk.com',email],['服務導覽','查看 OTC 其他服務。','/zh/services/'],['打工度假聯盟','比較各國青年及暑期工作交流。','/zh/work-travel-alliance/']]],
-['sources','官方資料','新加坡人力部 MOM。',[
+['sources','官方項目與外部連結','官方資格、項目資訊與申請入口；不代表OTC合作或代理關係。',[
+['YES青年實習計劃','新中雙邊青年實習；名額、期限與確認書要求按計劃單獨核對。','https://yes.businesschina.org.sg/zh-hans/'],
+['PECC實習計劃','HKCPEC遴選及提名香港高等院校學生；非通用招聘入口。','https://www.hkcpec.org/en/Internship-Programme/'],
 ['資格與期限','TEP 適用條件與最長期限。','https://www.mom.gov.sg/passes-and-permits/training-employment-pass/eligibility'],
 ['申請文件','護照、培訓計劃與英文翻譯要求。','https://www.mom.gov.sg/passes-and-permits/training-employment-pass/documents-required'],
 ['辦理流程','由接收雇主按官方程序提出申請。','https://www.mom.gov.sg/passes-and-permits/training-employment-pass/apply-for-a-pass'],
