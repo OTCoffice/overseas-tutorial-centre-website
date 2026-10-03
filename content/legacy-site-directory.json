@@ -1,5 +1,17 @@
 [
   {
+    "group": "institutions",
+    "path": "/zh/nursing/",
+    "chinese": "/zh/nursing/",
+    "label": "海外護士發展｜留學、註冊、就業與移民"
+  },
+  {
+    "group": "institutions",
+    "path": "/zh/nursing/australia/",
+    "chinese": "/zh/nursing/australia/",
+    "label": "澳洲護士｜護理課程、註冊與移民"
+  },
+  {
     "group": "learning",
     "path": "/zh/teaching/",
     "chinese": "/zh/teaching/",

@@ -102,6 +102,7 @@ const groups=[
     "移民與簽證",
     "按國家和簽證類別查閱申請要求、文件及辦理安排。",
     [
+      ["海外護士發展", "/zh/nursing/", "護理升學、護士註冊、求職與移民；澳洲專頁及服務費用。"],
       [
         "各國移民資訊",
         "/zh/immigration-info/",
@@ -201,6 +202,7 @@ const groups=[
         "/zh/services/internship-coaching/",
         "實習方向、申請面試、在崗復盤與成果整理。"
       ],
+      ["護士求職與註冊", "/zh/nursing/", "按現有護士資格及目的地整理準備方向。"],
       [
         "澳洲求職指導",
         "/zh/australia-job-search-coaching/",

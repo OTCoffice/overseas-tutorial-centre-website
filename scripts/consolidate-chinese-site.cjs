@@ -57,3 +57,6 @@ if(fs.existsSync(sitemapPath)){
 
 // Preserve the Work & Travel hub after directory and navigation regeneration.
 require("./render-work-travel.cjs");
+
+// Preserve nursing subject, service and country links during Chinese maintenance.
+require('./render-nursing.cjs');
