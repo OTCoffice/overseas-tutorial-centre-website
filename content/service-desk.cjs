@@ -159,8 +159,9 @@ const groups=[
   [
     "living",
     "海外生活與監護",
-    "住宿接送、抵埗安排、學校與家長聯絡，以及房產管理。",
+    "旅行規劃、住宿接送、抵埗安排、學校與家長聯絡，以及房產管理。",
     [
+      ["旅行服務", "/zh/services/travel-services/", "英國自由行、藝文慢旅行、交通住宿比較與預訂協助。"],
       [
         "驛站調度與緊急協調",
         "/services/station-dispatch-emergency-coordination/",
