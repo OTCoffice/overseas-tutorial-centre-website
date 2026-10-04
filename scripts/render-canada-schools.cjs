@@ -1,0 +1,12 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'..'),d=require('../content/canada-schools.cjs');
+process.chdir(root);
+for(const kind of Object.keys(d.configs)){const m=d.meta(kind),file=path.join(root,m.path,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,d.render(kind).replace(/[ \t]+$/gm,''));fs.writeFileSync('content/'+d.configs[kind].image+'.json',JSON.stringify(m,null,2)+'\n');}
+const records=Object.keys(d.configs).map(k=>d.meta(k));
+for(const f of ['search/index.html','zh/search/index.html']){let h=fs.readFileSync(f,'utf8'),re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=h.match(re);if(!m)throw Error('Missing search');let rows=JSON.parse(m[2]);for(const r of records){let v={type:'中文資料',url:r.path,title:r.titleZh,desc:r.summaryZh},i=rows.findIndex(x=>x.url===r.path);if(i<0)rows.unshift(v);else rows[i]=v;}fs.writeFileSync(f,h.replace(re,(_,a,b,c)=>a+JSON.stringify(rows).replaceAll('<','\\u003c')+c));}
+let sm=fs.readFileSync('sitemap.xml','utf8');for(const r of records)if(!sm.includes('<loc>https://overseasuk.com'+r.path+'</loc>'))sm=sm.replace('</urlset>',`<url><loc>https://overseasuk.com${r.path}</loc></url>\n</urlset>`);fs.writeFileSync('sitemap.xml',sm);
+let directory=fs.readFileSync('zh/site-directory/index.html','utf8');for(const r of records)if(!directory.includes('href="'+r.path+'"'))directory=directory.replace('<ul class="directory-list">',`<ul class="directory-list"><li data-directory-row><a href="${r.path}">${r.titleZh}</a><small>中文內容</small></li>`);fs.writeFileSync('zh/site-directory/index.html',directory);
+let ca=fs.readFileSync('zh/countries/canada/index.html','utf8');
+const entry=`<section class="band" id="canada-school-entry"><h2>中小學留學</h2><p>公校教育局與私校分開比較，了解年級、陪讀監護、住宿及免費申請代辦。</p><p><a class="btn btn-primary" href="${d.guide}">加拿大中小學 →</a> <a class="btn" href="${d.privatePath}">私校聯盟加拿大區 →</a> <a class="btn" href="${d.service}">申請服務 →</a></p></section>`;
+ca=ca.includes('id="canada-school-entry"')?ca.replace(/<section class="band" id="canada-school-entry">[\s\S]*?<\/section>/,entry):ca.replace('<footer class="site-footer">',entry+'<footer class="site-footer">');fs.writeFileSync('zh/countries/canada/index.html',ca);
+fs.writeFileSync('zh/services/index.html',require('../content/service-desk.cjs')());
+console.log('Canada: public board guide, private school directory and application service rendered and indexed.');

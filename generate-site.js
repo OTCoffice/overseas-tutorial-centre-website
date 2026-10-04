@@ -21,3 +21,6 @@ require("child_process").execFileSync("python3",["scripts/render-masters-compari
 require('./scripts/render-nursing.cjs');
 
 require('./scripts/render-korea-winter.cjs');
+
+// Preserve Canada K–12 directories and application service.
+require("./scripts/render-canada-schools.cjs");
