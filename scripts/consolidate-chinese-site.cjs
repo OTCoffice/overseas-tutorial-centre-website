@@ -60,3 +60,6 @@ require("./render-work-travel.cjs");
 
 // Preserve nursing subject, service and country links during Chinese maintenance.
 require('./render-nursing.cjs');
+
+// Preserve veterinary certification pages and vocational-training navigation.
+require("./render-veterinary-training.cjs");

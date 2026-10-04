@@ -142,6 +142,8 @@ const groups=[
         "/zh/teaching/",
         "按課程體系與學習需要查閱教學服務。"
       ],
+      ["ECFVG 獸醫認證陪跑", "/zh/vocational-training/ecfvg/", "BCSE、CPE 備考規劃與北美獸醫實習申請。"],
+      ["PAVE 獸醫認證陪跑", "/zh/vocational-training/pave/", "QSE 備考、ECE 臨床輪轉及申請準備。"],
       [
         "OTHM 資格課程",
         "/zh/othm-qualifications/",

@@ -1,0 +1,61 @@
+{
+  "slug": "pave",
+  "name": "PAVE 獸醫認證陪跑",
+  "summaryZh": "了解 PAVE 適用地區、QSE 備考與 ECE 臨床輪轉申請，並規劃北美獸醫 internship。",
+  "intro": "PAVE 由 AAVSB 管理，評估國際非認證獸醫課程的學歷等值性。開始前先確認目標州／省是否接受 PAVE，再比較時間、臨床訓練名額與費用。",
+  "steps": [
+    [
+      "地區與申請資格",
+      "確認目標地區接受 PAVE，核對學歷文件、英語能力及當期申請要求。"
+    ],
+    [
+      "QSE",
+      "Qualifying Science Examination 評估基礎及臨床前科學知識；依官方考綱安排複習。"
+    ],
+    [
+      "ECE",
+      "向 AVMA 認證獸醫學校申請 Evaluated Clinical Experience，完成規定的臨床輪轉。學費由學校制定，入讀前須完成要求的校方確認。"
+    ],
+    [
+      "PAVE 證書",
+      "完成全部要求後取得證書，再按目標地區完成 NAVLE 及其他執照要求。"
+    ]
+  ],
+  "note": "AAVSB 明確指出：通過 QSE 並繳費不保證 ECE 名額，可能需要等候。ECE 不能當作可領薪資的一年制 internship，費用及簽證安排須向學校核對。",
+  "preparation": "QSE 可從官方考綱、樣題及練習資源開始；同時準備 ECE 學校申請和預算，避免只排考試日期而忽略臨床輪轉的名額。",
+  "sources": [
+    [
+      "AAVSB：PAVE 途徑及適用地區",
+      "https://www.aavsb.org/licensure/international-pathway-for-veterinarians/"
+    ],
+    [
+      "AAVSB：QSE",
+      "https://www.aavsb.org/licensure/international-pathway-for-veterinarians/take-qualifying-science-examination/"
+    ],
+    [
+      "AAVSB：ECE 臨床輪轉與費用",
+      "https://www.aavsb.org/licensure/international-pathway-for-veterinarians/complete-evaluated-clinical-experience/"
+    ],
+    [
+      "ICVA：NAVLE 與 ECFVG／PAVE 資格",
+      "https://www.icva.net/faqs/"
+    ],
+    [
+      "VIRMP：海外畢業生及申請要求",
+      "https://www.virmp.org/Home/Applicants"
+    ],
+    [
+      "VIRMP：實習項目資格、執照及工作授權欄位",
+      "https://www.virmp.org/Public/Internship"
+    ]
+  ],
+  "relatedName": "ECFVG 獸醫認證陪跑",
+  "related": "/zh/vocational-training/ecfvg/",
+  "path": "/zh/vocational-training/pave/",
+  "titleZh": "PAVE 獸醫認證陪跑｜海外督導 OTC",
+  "shareImageZh": "/assets/social/pave-20261004.png",
+  "socialImageVersion": "v=20261004",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-04"
+}

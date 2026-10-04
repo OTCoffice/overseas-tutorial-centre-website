@@ -24,3 +24,6 @@ require('./scripts/render-korea-winter.cjs');
 
 // Preserve Canada K–12 directories and application service.
 require("./scripts/render-canada-schools.cjs");
+
+// Preserve veterinary certification pages and vocational-training navigation.
+require("./scripts/render-veterinary-training.cjs");

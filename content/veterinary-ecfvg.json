@@ -1,0 +1,57 @@
+{
+  "slug": "ecfvg",
+  "name": "ECFVG 獸醫認證陪跑",
+  "summaryZh": "了解 ECFVG 四個步驟、BCSE 與 CPE 準備，以及北美獸醫 internship 申請陪跑。",
+  "intro": "ECFVG 是 AVMA 為海外非認證獸醫院校畢業生提供的學歷等值認證途徑。它包含資格審核、英語、知識與臨床能力評估，不是單一考試，也不等於取得獸醫執照。",
+  "steps": [
+    [
+      "資格與學歷核實",
+      "註冊並核對獸醫院校、畢業資格及所需證明。"
+    ],
+    [
+      "英語能力",
+      "按當期規則提供獲接受的英語能力證明。"
+    ],
+    [
+      "BCSE",
+      "基礎與臨床科學知識考試，備考需涵蓋跨科知識及英文題目理解。"
+    ],
+    [
+      "CPE",
+      "臨床能力評估，重點在實際操作與臨床判斷，不能只靠刷選擇題準備。"
+    ]
+  ],
+  "note": "完成 ECFVG 後，仍須符合目標司法管轄區的 NAVLE 及其他執照要求。加拿大申請人須另核對 NEB 及省級註冊規定。",
+  "preparation": "建議先按 BCSE 科目整理強弱項，再安排複習、練習及回顧。CPE 準備須另評估臨床經驗與可取得的實作訓練，不以固定月數或通過率承諾結果。",
+  "sources": [
+    [
+      "AVMA：ECFVG 官方步驟",
+      "https://www.avma.org/education/ecfvg/ecfvg-policies-and-procedures/steps-ecfvg-certification-program"
+    ],
+    [
+      "加州獸醫委員會：AVMA 人員介紹 ECFVG 四步驟（2025 年 10 月會議紀錄草案，第 6–7 頁）",
+      "https://vmb.ca.gov/meetings/materials/20260121-22_item_3.pdf"
+    ],
+    [
+      "ICVA：NAVLE 與 ECFVG／PAVE 資格",
+      "https://www.icva.net/faqs/"
+    ],
+    [
+      "VIRMP：海外畢業生及申請要求",
+      "https://www.virmp.org/Home/Applicants"
+    ],
+    [
+      "VIRMP：實習項目資格、執照及工作授權欄位",
+      "https://www.virmp.org/Public/Internship"
+    ]
+  ],
+  "relatedName": "PAVE 獸醫認證陪跑",
+  "related": "/zh/vocational-training/pave/",
+  "path": "/zh/vocational-training/ecfvg/",
+  "titleZh": "ECFVG 獸醫認證陪跑｜海外督導 OTC",
+  "shareImageZh": "/assets/social/ecfvg-20261004.png",
+  "socialImageVersion": "v=20261004",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-04"
+}
