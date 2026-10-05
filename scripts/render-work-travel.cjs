@@ -6,7 +6,7 @@ if(args.length&&(args.length!==2||args[0]!=='--country'||!w.countries.some(c=>c.
 const country=args[1];
 const selected=country?w.countries.filter(c=>c.id===country):w.countries;
 const records=[...(country?[]:[{url:w.hub,title:w.brand+'｜海外督導 OTC',desc:'按國家與地區查閱青年打工度假、青年流動、暑期工作交流及延伸旅居資料。',html:w.renderHub()}]),...selected.map(c=>{
- const japan=c.id==='japan'?require('../content/japan-working-holiday.cjs'):null;
+ const japan=c.id==='japan'?require('../content/japan-working-holiday.cjs'):c.id==='new-zealand'?require('../content/new-zealand-working-holiday.cjs'):null;
  return {url:w.route(c),title:japan?japan.title:c.name+(c.programs.some(p=>['wh','youth','summer'].includes(p.type))?'打工度假與青年交流':'延伸旅居')+'｜海外督導 OTC',desc:japan?japan.description:c.programs.map(p=>p.title).join('、')+'：資格、材料、流程、費用與官方來源。',html:w.renderCountry(c)};
 })];
 for(const r of records){const file=path.join(root,r.url,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,r.html.replace(/[ \t]+$/gm,''));}
