@@ -191,6 +191,7 @@ const groups=[
     "海外求職與實習",
     "求職方向、履歷、面試、實習及工作體驗。",
     [
+      ["美國 OPT 求職支援", "/zh/services/us-opt-job-search-support/", "OPT、STEM OPT、申請表與雇主英文溝通。"],
       ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信、LinkedIn 內容及英文模擬面試；OTC 免費代辦。"],
       [
         "日本就業準備",

@@ -32,3 +32,6 @@ require("./scripts/render-veterinary-training.cjs");
 require('./scripts/render-volunteer-alliance.cjs');
 
 require('./scripts/render-us-community-college.cjs');
+
+// Preserve OPT job support, guide and navigation.
+require("./scripts/render-opt-support.cjs");

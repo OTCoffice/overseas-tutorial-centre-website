@@ -1,0 +1,34 @@
+{
+  "slug": "opt-sponsorship-job-application",
+  "name": "OPT 求職與雇主擔保",
+  "path": "/zh/insights/opt-sponsorship-job-application/",
+  "titleZh": "OPT 求職與雇主擔保｜海外督導 OTC",
+  "summaryZh": "美國留學生求職：工作授權、OPT／STEM OPT、sponsorship 問項與雇主英文溝通。",
+  "shareImageZh": "/assets/social/opt-sponsorship-job-application-20261006.png",
+  "socialImageVersion": "v=20261006",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-06",
+  "sub": "申請表填答與英文說明",
+  "body": "<h2>申請表填答</h2><p>工作授權與雇主擔保是兩個問題。按題目原文、目前身分和實際工作計劃回答；表格用語有疑問時向 HR 澄清。</p><div class=\"opt-table\"><table><thead><tr><th>申請表問題</th><th>填答方向</th></tr></thead><tbody><tr><th>Are you legally authorized to work in the United States?</th><td>已獲批並生效的工作授權，而且職位及工作日期符合要求時，可回答 Yes。待審、未到生效日或已到期不能當作現有授權。</td></tr><tr><th>Do you currently require visa sponsorship?</th><td>若目前可按普通 OPT 合法入職，通常無須雇主提交工作簽證申請；仍應說明授權類別與到期日，並確認雇主對 sponsorship 的定義。</td></tr><tr><th>Will you now or in the future require sponsorship?</th><td>若要在 OPT 後繼續這份工作並需要雇主擔保，通常回答 Yes，再解釋目前可用 OPT。若確定只在授權期內工作且之後離境，應明確告知期限，請 HR 確認如何填答；不要把含 future 的問題當作只問現在。</td></tr></tbody></table></div><h2>OPT 與 STEM OPT</h2><p>F-1 學生一般可在各學歷階段申請最多12個月 OPT；先前使用的 OPT 可能影響可用時間。符合 STEM 學位、工作及其他條件者，可申請24個月延期。「三年 OPT」是可能的總期限，不是每位畢業生自動取得的授權。</p><p>工作須符合專業相關性與授權條件。STEM OPT 雇主須參加 E-Verify，並與學生完成及簽署 I-983 培訓計劃；申請、工作安排及報告須符合規定。因此「不用雇主辦 H-1B」不等於「雇主完全不用配合」。</p><h2>雇主溝通</h2><p>以下句型只適用於已取得相應授權的人；按真實日期及狀態修改。</p><blockquote>I am currently authorized to work in the United States under F-1 OPT through [date]. I do not require an employer-filed work visa petition to begin employment during this authorized period. To continue employment beyond my available authorization, I would require employer sponsorship unless I obtain another independent basis for work authorization.</blockquote><p>若只是符合 STEM 延期資格、尚未獲批，可以補充：</p><blockquote>I may be eligible to apply for a 24-month STEM OPT extension, subject to approval and employer participation in E-Verify and completion of Form I-983.</blockquote><p>不要把尚未批准的延期寫成已取得的三年工作權。若公司把 STEM 配合也計為 sponsorship，請 HR 書面說明。</p>",
+  "related": "/zh/services/us-opt-job-search-support/",
+  "relatedName": "美國 OPT 求職支援",
+  "sources": [
+    [
+      "ICE：Practical Training",
+      "https://www.ice.gov/sevis/practical-training"
+    ],
+    [
+      "DHS：Form I-983",
+      "https://studyinthestates.dhs.gov/form-i-983-overview"
+    ],
+    [
+      "E-Verify：STEM OPT 雇主要求",
+      "https://www.e-verify.gov/faq/am-i-required-to-participate-in-e-verify-in-order-to-hire-f-1-students-who-seek-a-stem-opt"
+    ],
+    [
+      "USCIS：OPT",
+      "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students"
+    ]
+  ]
+}
