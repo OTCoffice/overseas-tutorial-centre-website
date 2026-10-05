@@ -15,6 +15,49 @@ const body=`<nav aria-label="麵包屑"><a href="/zh/services/">服務總覽</a>
 <section id="consultation" class="graduate-contact"><h2>諮詢</h2><p>提供「院校＋學位＋畢業年月＋目標國家」，海外督導先協助整理方向。已在讀研者可一併說明預計畢業時間。</p><div class="actions"><a class="btn btn-primary" href="${wa}">WhatsApp 諮詢</a><a class="btn" href="${mail}">電郵諮詢</a></div><p>office@overseasuk.com · WhatsApp +44 7947 991572</p><p><a href="/zh/services/english-cv-interview-support/">英文履歷與面試</a> · <a href="/zh/services/visa-application-support/">簽證申請支援</a> · <a href="/zh/services/masters-country-planning/">碩士選國與申請</a></p></section>
 <section><h2>官方資料</h2><p>資料核對：2026年10月5日。申請時再次核對最新名單與規定；不承諾簽證、錄用或長期居留結果。</p><ul>${a.sources.map(([t,u])=>`<li><a href="${esc(u)}">${esc(t)}</a></li>`).join('')}</ul></section>`;
 let content=frame('高學歷求職簽證',body).replace('<h2>教育服務與雙語學習</h2>','<h2>英國 HPI · 荷蘭 Zoekjaar · 日本 J-Find</h2>').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','查閱學歷資格、停留期限、工作權利與申請準備。').replaceAll('https://wa.me/447947991572',wa).replace('<a href="/#learning-tools"><b>LEARN</b><strong>學習工具</strong><span>課程、練習與學習資源</span></a>','<a href="/zh/services/english-cv-interview-support/"><b>CV</b><strong>求職準備</strong><span>英文履歷與面試輔導</span></a>');
-const css='<style>.graduate-page .consolidated-page{font-size:16px;line-height:1.85;color:#344b59}.graduate-page .consolidated-page section{padding:22px 0;border-bottom:1px solid #d8d6cc}.graduate-page .consolidated-page h2{border-top:3px solid #183747;padding-top:12px;scroll-margin-top:120px}.graduate-page .consolidated-page h3{color:#183747}.graduate-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.graduate-table{overflow:auto}.graduate-table table{width:100%;border-collapse:collapse;min-width:640px}.graduate-table caption{text-align:left;font-size:14px;padding:10px 0}.graduate-table th,.graduate-table td{text-align:left;padding:14px;border-bottom:1px solid #d8d6cc;vertical-align:top}.graduate-table thead{background:#edf1f3}.graduate-table tbody tr:nth-child(even){background:#f7f4ed}.graduate-contact{padding:24px!important;background:#eef3f1;border-left:4px solid #b7892c}.graduate-page .services-hero h1{font-size:clamp(28px,4vw,38px)}.graduate-page .service-hero-panel a{min-height:120px}.graduate-page a:focus-visible{outline:3px solid #b7892c;outline-offset:3px}@media(max-width:700px){.graduate-columns{grid-template-columns:1fr;gap:0}.graduate-page .service-hero-panel,.graduate-page .service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.graduate-page .service-hero-panel a{min-height:86px}.graduate-page .consolidated-page{padding:20px 16px}}</style>';
+content=content.replace('<p>海外督導 OTC｜海圖規劃・留學諮詢</p>','');
+const css=`<style>
+.graduate-page{--graduate-ink:#183747;--graduate-rule:#d9d6cb}
+.graduate-page .band{max-width:1120px;width:calc(100% - 48px);margin-left:auto;margin-right:auto}
+.graduate-page .services-hero .band{padding-top:22px;padding-bottom:22px}
+.graduate-page .service-hero-layout{grid-template-columns:minmax(0,.9fr) minmax(0,1.35fr);gap:28px;align-items:center}
+.graduate-page .services-hero h1{font-size:28px;line-height:1.3;margin:8px 0 6px}
+.graduate-page .services-hero h2{font-size:16px;line-height:1.5;margin:0 0 8px}
+.graduate-page .services-hero .eyebrow{font-size:12px;letter-spacing:.08em}
+.graduate-page .services-hero .hero-sub{font-size:14px;line-height:1.6;max-width:360px;margin:0 0 16px}
+.graduate-page .services-hero .actions{margin:0;gap:10px}
+.graduate-page .btn{font-size:14px;padding:9px 15px;min-height:38px}
+.graduate-page .service-hero-panel{align-self:center;grid-template-columns:repeat(4,minmax(0,1fr))}
+.graduate-page .service-hero-panel a{min-height:128px;padding:12px 10px;grid-template-columns:1fr;gap:8px;align-content:center;border-left-width:3px}
+.graduate-page .service-hero-panel a::before{display:none}
+.graduate-page .service-hero-panel strong,.graduate-page .service-hero-panel span{grid-column:1;line-height:1.5}
+.graduate-page .service-hero-panel strong{font-size:14px}
+.graduate-page .service-hero-panel span{font-size:12px}
+.graduate-page .service-review-strip{padding-top:12px;padding-bottom:12px;gap:10px}
+.graduate-page .service-review-strip a{min-height:70px;padding:10px 12px}
+.graduate-page .service-review-strip strong{font-size:16px;line-height:1.4}
+.graduate-page .service-review-strip span{font-size:12px;line-height:1.5}
+.graduate-page .consolidated-page{box-sizing:border-box;width:calc(100% - 48px);max-width:1120px;margin:0 auto;padding:8px 0 36px;font-size:16px;line-height:1.75;color:#344b59}
+.graduate-page .consolidated-page>nav{font-size:14px;padding:8px 0 18px}
+.graduate-page .consolidated-page section{padding:18px 0;border-bottom:1px solid var(--graduate-rule)}
+.graduate-page .consolidated-page h2{font-size:21px;line-height:1.4;color:var(--graduate-ink);border-top:2px solid var(--graduate-ink);padding-top:12px;margin:0 0 14px;scroll-margin-top:110px}
+.graduate-page .consolidated-page h3{font-size:17px;line-height:1.5;color:var(--graduate-ink);margin:16px 0 8px}
+.graduate-page .consolidated-page p{margin:0 0 12px;font-size:16px;line-height:1.75}
+.graduate-page .consolidated-page li{font-size:16px;line-height:1.75;margin-bottom:6px}
+.graduate-page .consolidated-page ul,.graduate-page .consolidated-page ol{margin:0 0 14px;padding-left:24px}
+.graduate-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.graduate-table{overflow-x:auto;margin:8px 0 16px;border:1px solid var(--graduate-rule)}
+.graduate-table table{width:100%;border-collapse:collapse;min-width:640px;table-layout:fixed;font-size:16px;line-height:1.7}
+.graduate-table caption{text-align:left;font-size:14px;color:#566970;padding:10px 14px;background:#f7f4ed}
+.graduate-table th,.graduate-table td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--graduate-rule);vertical-align:top}
+.graduate-table th:first-child{width:145px}.graduate-table thead th:nth-child(2):not(:last-child){width:130px}
+.graduate-table thead{background:#edf1f3;color:var(--graduate-ink)}
+.graduate-table tbody th{font-weight:600;color:var(--graduate-ink)}
+.graduate-table tbody tr:nth-child(even){background:#f7f4ed}.graduate-table tbody tr:last-child>*{border-bottom:0}
+.graduate-contact{padding:20px!important;background:#eef3f1;border-left:3px solid #b7892c;margin:18px 0}
+.graduate-page a:focus-visible{outline:3px solid #b7892c;outline-offset:3px}
+@media(max-width:900px){.graduate-page .service-hero-layout{grid-template-columns:1fr 1.2fr;gap:18px}.graduate-page .service-hero-panel{grid-template-columns:repeat(2,minmax(0,1fr))}.graduate-page .service-hero-panel a{min-height:76px}.graduate-page .service-review-strip span{display:none}}
+@media(max-width:700px){.graduate-page .band,.graduate-page .consolidated-page{width:calc(100% - 32px)}.graduate-page .service-hero-layout{grid-template-columns:1fr;gap:18px}.graduate-page .services-hero h1{font-size:25px}.graduate-page .services-hero h2{font-size:15px}.graduate-page .service-hero-panel a{min-height:68px;padding:10px 12px}.graduate-page .service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.graduate-page .service-review-strip a{min-height:62px}.graduate-page .service-review-strip strong{font-size:14px}.graduate-columns{grid-template-columns:1fr;gap:0}.graduate-page .consolidated-page h2{font-size:20px}.graduate-page .consolidated-page section{padding:16px 0}.graduate-contact{padding:16px!important}.graduate-table th:first-child{width:110px}.graduate-table thead th:nth-child(2):not(:last-child){width:110px}}
+</style>`;
 return pageShell({title:a.titleZh,path:a.path,locale:'zh',lang:'zh-Hant',current:'services',bodyClass:'graduate-page',description:a.summaryZh,body:css+content});
 };
