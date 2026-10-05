@@ -1,0 +1,306 @@
+[
+  {
+    "url": "https://www.icye.org/country/argentina/",
+    "text": "ICYE Argentina – Fundación SES Argentina",
+    "name": "阿根廷",
+    "code": "AR",
+    "region": "美洲",
+    "slug": "argentina"
+  },
+  {
+    "url": "https://www.icye.org/country/bolivia/",
+    "text": "ICYE Bolivia Bolivia",
+    "name": "玻利維亞",
+    "code": "BO",
+    "region": "美洲",
+    "slug": "bolivia"
+  },
+  {
+    "url": "https://www.icye.org/country/brazil/",
+    "text": "ICYE BRAZIL – Associação Brasileira de Intercâmbio Cultural Brazil",
+    "name": "巴西",
+    "code": "BR",
+    "region": "美洲",
+    "slug": "brazil"
+  },
+  {
+    "url": "https://www.icye.org/country/colombia/",
+    "text": "ICYE Colombia Colombia",
+    "name": "哥倫比亞",
+    "code": "CO",
+    "region": "美洲",
+    "slug": "colombia"
+  },
+  {
+    "url": "https://www.icye.org/country/costa-rica/",
+    "text": "ICYE Costa Rica/ ACI Costa Rica",
+    "name": "哥斯大黎加",
+    "code": "CR",
+    "region": "美洲",
+    "slug": "costa-rica"
+  },
+  {
+    "url": "https://www.icye.org/country/ecuador/",
+    "text": "ICYE Ecuador – VASE Ecuador",
+    "name": "厄瓜多爾",
+    "code": "EC",
+    "region": "美洲",
+    "slug": "ecuador"
+  },
+  {
+    "url": "https://www.icye.org/country/honduras/",
+    "text": "ICYE Honduras Honduras",
+    "name": "洪都拉斯",
+    "code": "HN",
+    "region": "美洲",
+    "slug": "honduras"
+  },
+  {
+    "url": "https://www.icye.org/country/mexico/",
+    "text": "ICYE Mexico – SIIJUVE Mexico",
+    "name": "墨西哥",
+    "code": "MX",
+    "region": "美洲",
+    "slug": "mexico"
+  },
+  {
+    "url": "https://www.icye.org/country/peru/",
+    "text": "Vida y Voluntariado (VIVOL) Peru",
+    "name": "秘魯",
+    "code": "PE",
+    "region": "美洲",
+    "slug": "peru"
+  },
+  {
+    "url": "https://www.icye.org/country/united-states-of-america/",
+    "text": "U.S.A. – United Planet United States of America",
+    "name": "美國",
+    "code": "US",
+    "region": "美洲",
+    "slug": "united-states-of-america"
+  },
+  {
+    "url": "https://www.icye.org/country/austria/",
+    "text": "ICYE Austria/GRENZENLOS Austria",
+    "name": "奧地利",
+    "code": "AT",
+    "region": "歐洲",
+    "slug": "austria"
+  },
+  {
+    "url": "https://www.icye.org/country/denmark/",
+    "text": "ICYE Denmark Denmark",
+    "name": "丹麥",
+    "code": "DK",
+    "region": "歐洲",
+    "slug": "denmark"
+  },
+  {
+    "url": "https://www.icye.org/country/finland/",
+    "text": "ICYE Finland – MAAILMANVAIHTO Finland",
+    "name": "芬蘭",
+    "code": "FI",
+    "region": "歐洲",
+    "slug": "finland"
+  },
+  {
+    "url": "https://www.icye.org/country/france/",
+    "text": "ICYE France – Jeunesse et Reconstruction France",
+    "name": "法國",
+    "code": "FR",
+    "region": "歐洲",
+    "slug": "france"
+  },
+  {
+    "url": "https://www.icye.org/country/germany/",
+    "text": "ICYE Germany/ICJA Germany",
+    "name": "德國",
+    "code": "DE",
+    "region": "歐洲",
+    "slug": "germany"
+  },
+  {
+    "url": "https://www.icye.org/country/iceland/",
+    "text": "ICYE Iceland/AUS Iceland",
+    "name": "冰島",
+    "code": "IS",
+    "region": "歐洲",
+    "slug": "iceland"
+  },
+  {
+    "url": "https://www.icye.org/country/italy/",
+    "text": "ICYE Italy – Associazione JOINT Italy",
+    "name": "意大利",
+    "code": "IT",
+    "region": "歐洲",
+    "slug": "italy"
+  },
+  {
+    "url": "https://www.icye.org/country/poland/",
+    "text": "Stowarzyszenie Promocji Wolontariatu Poland",
+    "name": "波蘭",
+    "code": "PL",
+    "region": "歐洲",
+    "slug": "poland"
+  },
+  {
+    "url": "https://www.icye.org/country/russian-federation/",
+    "text": "ICYE Russia/”LASTOCHKI” Russian Federation",
+    "name": "俄羅斯",
+    "code": "RU",
+    "region": "歐洲",
+    "slug": "russian-federation"
+  },
+  {
+    "url": "https://www.icye.org/country/spain/",
+    "text": "AFAIJ Spain Spain",
+    "name": "西班牙",
+    "code": "ES",
+    "region": "歐洲",
+    "slug": "spain"
+  },
+  {
+    "url": "https://www.icye.org/country/switzerland/",
+    "text": "ICYE Switzerland Switzerland",
+    "name": "瑞士",
+    "code": "CH",
+    "region": "歐洲",
+    "slug": "switzerland"
+  },
+  {
+    "url": "https://www.icye.org/country/turkiye/",
+    "text": "Pi Youth Association (Pi Gençlik Derneği) Türkiye",
+    "name": "土耳其",
+    "code": "TR",
+    "region": "歐洲",
+    "slug": "turkiye"
+  },
+  {
+    "url": "https://www.icye.org/country/united-kingdom/",
+    "text": "ICYE United Kingdom United Kingdom",
+    "name": "英國",
+    "code": "GB",
+    "region": "歐洲",
+    "slug": "united-kingdom"
+  },
+  {
+    "url": "https://www.icye.org/country/ghana/",
+    "text": "ICYE Ghana Ghana",
+    "name": "加納",
+    "code": "GH",
+    "region": "非洲",
+    "slug": "ghana"
+  },
+  {
+    "url": "https://www.icye.org/country/kenya/",
+    "text": "ICYE Kenya Kenya",
+    "name": "肯尼亞",
+    "code": "KE",
+    "region": "非洲",
+    "slug": "kenya"
+  },
+  {
+    "url": "https://www.icye.org/country/morocco/",
+    "text": "ICYE Morocco/CSM Morocco",
+    "name": "摩洛哥",
+    "code": "MA",
+    "region": "非洲",
+    "slug": "morocco"
+  },
+  {
+    "url": "https://www.icye.org/country/mozambique/",
+    "text": "ICYE Mozambique/AJUDE Mozambique",
+    "name": "莫桑比克",
+    "code": "MZ",
+    "region": "非洲",
+    "slug": "mozambique"
+  },
+  {
+    "url": "https://www.icye.org/country/nigeria/",
+    "text": "ICYE Nigeria Nigeria",
+    "name": "尼日利亞",
+    "code": "NG",
+    "region": "非洲",
+    "slug": "nigeria"
+  },
+  {
+    "url": "https://www.icye.org/country/south-africa/",
+    "text": "ICYE South Africa-Volunteer Centre South Africa",
+    "name": "南非",
+    "code": "ZA",
+    "region": "非洲",
+    "slug": "south-africa"
+  },
+  {
+    "url": "https://www.icye.org/country/tanzania/",
+    "text": "United Planet TZ Tanzania",
+    "name": "坦桑尼亞",
+    "code": "TZ",
+    "region": "非洲",
+    "slug": "tanzania"
+  },
+  {
+    "url": "https://www.icye.org/country/india/",
+    "text": "ICYE India – ICDE India",
+    "name": "印度",
+    "code": "IN",
+    "region": "亞太",
+    "slug": "india"
+  },
+  {
+    "url": "https://www.icye.org/country/indonesia/",
+    "text": "Dejavato Foundation Indonesia",
+    "name": "印尼",
+    "code": "ID",
+    "region": "亞太",
+    "slug": "indonesia"
+  },
+  {
+    "url": "https://www.icye.org/country/japan/",
+    "text": "ICYE Japan Japan",
+    "name": "日本",
+    "code": "JP",
+    "region": "亞太",
+    "slug": "japan"
+  },
+  {
+    "url": "https://www.icye.org/country/nepal/",
+    "text": "Nepal Volunteers And Cultural Youth Exchange Program Nepal",
+    "name": "尼泊爾",
+    "code": "NP",
+    "region": "亞太",
+    "slug": "nepal"
+  },
+  {
+    "url": "https://www.icye.org/country/new-zealand/",
+    "text": "ICYE New Zealand – ACVE New Zealand",
+    "name": "新西蘭",
+    "code": "NZ",
+    "region": "亞太",
+    "slug": "new-zealand"
+  },
+  {
+    "url": "https://www.icye.org/country/south-korea/",
+    "text": "ICYE South Korea South Korea",
+    "name": "韓國",
+    "code": "KR",
+    "region": "亞太",
+    "slug": "south-korea"
+  },
+  {
+    "url": "https://www.icye.org/country/taiwan/",
+    "text": "ICYE Taiwan Taiwan",
+    "name": "台灣",
+    "code": "TW",
+    "region": "亞太",
+    "slug": "taiwan"
+  },
+  {
+    "url": "https://www.icye.org/country/thailand/",
+    "text": "ICYE Thailand/ VSA Thailand",
+    "name": "泰國",
+    "code": "TH",
+    "region": "亞太",
+    "slug": "thailand"
+  }
+]

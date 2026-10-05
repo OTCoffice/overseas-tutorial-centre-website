@@ -27,3 +27,6 @@ require("./scripts/render-canada-schools.cjs");
 
 // Preserve veterinary certification pages and vocational-training navigation.
 require("./scripts/render-veterinary-training.cjs");
+
+// Preserve the source-backed volunteer alliance and UK sponsor directory.
+require('./scripts/render-volunteer-alliance.cjs');
