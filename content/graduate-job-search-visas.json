@@ -1,0 +1,19 @@
+{
+  "path": "/zh/services/graduate-job-search-visas/",
+  "titleZh": "高學歷求職簽證｜英國 HPI・荷蘭 Zoekjaar・日本 J-Find｜海外督導 OTC",
+  "summaryZh": "比較英國 HPI、荷蘭求職年及日本 J-Find 的學歷資格、停留期限、工作權利與申請準備。",
+  "updated": "2026-10-05",
+  "routes": [
+    ["英國 HPI", "兩年；博士三年", "申請前五年內取得合資格海外大學學位；按學位頒發年月查英國官方院校名單。學位須經 Ecctis 評估，另須符合英語、資金等要求。英國大學學位不適用。", "不用先取得工作 offer 或雇主擔保。可求職、從事大部分工作及自僱；不可從事職業運動員工作。", "不能續期；符合條件可轉其他簽證。HPI 本身不是永居路線，期間不計入該工作路線的永居年限。通常只能獲批一次；曾獲 Graduate visa 者不能申請。"],
+    ["荷蘭 Zoekjaar", "一年", "海外學歷路線通常要求申請前三年內完成指定院校的碩士、博士或 post-master’s 課程。畢業時須在 THE、QS、ShanghaiRanking 至少兩家指定總榜或相關學科榜前200；另須符合語言及學歷評估要求。荷蘭本地畢業生另有資格條件。", "可自由受僱、實習、自僱及接案；雇主不用另辦 TWV 工作許可。不需要先拿到工作 offer。", "求職年不能續期。找到合適工作或創業機會後，須按相應條件申請高技術移民、創業或自僱等居留。"],
+    ["日本 J-Find", "合計最長兩年", "年滿18歲，五年內取得指定大學的學士、碩士或博士等合資格學位；院校以官方清單為準。另須提供約20萬日圓存款及活動計劃等文件。", "可赴日求職或準備創業，並在指定活動範圍內從事有報酬活動。工作安排應按獲批活動及在留條件確認。", "通常先批六個月或一年，符合條件可在到期前申請延長，合計不超過兩年。長期受僱或創業須按實際活動安排適合的在留資格。"]
+  ],
+  "sources": [
+    ["英國政府｜HPI 概覽、期限及工作權利", "https://www.gov.uk/high-potential-individual-visa"],
+    ["英國政府｜HPI 資格", "https://www.gov.uk/high-potential-individual-visa/eligibility"],
+    ["英國政府｜畢業年份與院校名單", "https://www.gov.uk/government/publications/high-potential-individual-visa-global-universities-list"],
+    ["荷蘭 IND｜Orientation Year 資格與工作權利", "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year"],
+    ["日本外務省｜J-Find 資格、材料及停留期限", "https://www.mofa.go.jp/ca/fna/page22e_001037.html"],
+    ["日本出入國在留管理廳｜J-Find 指定大學與活動", "https://www.moj.go.jp/isa/applications/status/designatedactivities51.html"]
+  ]
+}
