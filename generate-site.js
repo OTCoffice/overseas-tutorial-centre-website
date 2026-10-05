@@ -30,3 +30,5 @@ require("./scripts/render-veterinary-training.cjs");
 
 // Preserve the source-backed volunteer alliance and UK sponsor directory.
 require('./scripts/render-volunteer-alliance.cjs');
+
+require('./scripts/render-us-community-college.cjs');
