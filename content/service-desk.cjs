@@ -5,6 +5,7 @@ const groups=[
     "留學規劃與申請",
     "留學諮詢、國家與學科選擇、學校申請及短期留學。",
     [
+      ["韓國碩士申請", "/zh/services/korea-masters-application/", "藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
       ["加拿大中小學申請", "/zh/services/canada-school-application/", "公校教育局、私校、免費入學代辦與監護住宿協調。"],
       ["護理課程與院校", "/zh/nursing/courses/", "按 AQF 學歷級別及州份查閱澳洲護理課程。"],
       [
