@@ -35,3 +35,6 @@ require('./scripts/render-us-community-college.cjs');
 
 // Preserve OPT job support, guide and navigation.
 require("./scripts/render-opt-support.cjs");
+
+// Preserve Greece country guide and study information.
+require('./scripts/render-greece.cjs');
