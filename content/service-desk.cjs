@@ -89,6 +89,7 @@ const groups=[
         "/zh/services/europe-exchange-support/",
         "交換選校、選課、學分、均分與升碩銜接。"
       ],
+      ["互惠生 Au Pair 申請陪跑", "/zh/services/au-pair-support/", "選國、申請材料、家庭面試與行前準備；按國家核對機構與費用。"],
       [
         "美國 SWT 暑期工遊",
         "/zh/us-swt-work-travel-support/",
