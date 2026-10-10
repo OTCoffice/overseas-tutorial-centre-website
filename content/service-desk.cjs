@@ -219,7 +219,7 @@ const groups=[
       [
         "法國升學與就業",
         "/zh/france-study-work-settlement-support/",
-        "法語、升學、實習、求職與居留節點規劃。"
+        "法國留學、學徒制、申請資格、薪資與求職準備。"
       ],
       [
         "打工換宿申請支援",

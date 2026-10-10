@@ -3,20 +3,25 @@
   "path": "/zh/france-study-work-settlement-support/",
   "title": "法國留學申請・就業與生活｜海外督導 OTC",
   "titleZh": "法國留學申請・就業與生活｜海外督導 OTC",
-  "summary": "法國公立大學、商學院及語言課程諮詢：選校、入學要求、語言成績後補、申請材料、流程與費用，並提供實習、求職及抵法生活準備。",
-  "summaryZh": "法國公立大學、商學院及語言課程諮詢：選校、入學要求、語言成績後補、申請材料、流程與費用，並提供實習、求職及抵法生活準備。",
+  "summary": "法國留學與學徒制（Alternance）諮詢：課程、海外學生資格、工讀安排、薪資、申請材料及費用，並提供求職與抵法生活準備。",
+  "summaryZh": "法國留學與學徒制（Alternance）諮詢：課程、海外學生資格、工讀安排、薪資、申請材料及費用，並提供求職與抵法生活準備。",
   "socialTitleZh": "法國升學・就業・定居陪跑",
   "shareImageZh": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
   "shareImage": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
   "socialImageVersion": "v=20260916-france-service-zh-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 630,
-  "updated": "2026-09-30",
+  "updated": "2026-10-10",
   "sections": [
     {
       "id": "programmes",
       "title": "課程",
       "html": "<p><strong>公立大學：</strong>按本科、碩士及專業方向查閱入學要求，重點比較課程內容、授課語言、先修科目與學費。</p><p><strong>商學院與專業院校：</strong>比較學位認可、課程內容、實習安排及全程費用；學校名稱與課程名稱不能代替學位資格核對。</p><p><strong>法語課程：</strong>適合先提升語言能力的學生。語言課程錄取與後續學位課程錄取分開處理。可參考<a href=\"/zh/language-school-alliance/france/\">法國語言學校</a>。</p>"
+    },
+    {
+      "id": "apprenticeship",
+      "title": "學徒制",
+      "html": "<p>法國工讀交替制度（Alternance）結合學校課程與企業工作。學徒合約（Contrat d’apprentissage）是其中一種形式：學生受僱、領薪並修讀文憑或職業資格；具體上課與工作時間由課程安排。一般適用於16至29歲，部分情況有豁免。</p><h3>海外學生資格</h3><p>持學生居留的非歐盟學生，一般須已在法國居住超過一年。就讀符合規定的 Master 碩士或法國大學校聯盟（CGE）認可的指定課程，可豁免一年要求。應核對實際頒授文憑，不能只憑課程名稱中的「Master」判斷。</p><p>課程錄取與企業聘用須分別落實。先確認學校是否接受你的身分及學歷，再申請相關職位、面試和簽約。學徒合約通過主管機構驗證後，符合規定的學生可在課程內超過一般學生每年964小時的工作上限；國籍特殊規則須另查。另一種職業培訓合約（Contrat de professionnalisation）有不同要求，不能直接套用上述豁免。</p><h3>薪資</h3><p>學徒薪資按年齡與培訓年次計算。以下為2026年10月10日核對的第一年稅前月薪基準；實際薪資仍按適用行業協議及合約確認。</p><div style=\"overflow-x:auto\"><table><thead><tr><th scope=\"col\">年齡</th><th scope=\"col\">第一年基準</th></tr></thead><tbody><tr><th scope=\"row\">18–20歲</th><td>最低工資的43%：€802.82／月</td></tr><tr><th scope=\"row\">21–25歲</th><td>最低工資的53%：€989.52／月；與適用行業最低薪資的53%比較，取較高者</td></tr><tr><th scope=\"row\">26歲及以上</th><td>最低工資100%：€1,867.02／月；與適用行業最低薪資比較，取較高者</td></tr></tbody></table></div><h3>申請準備</h3><p>按學校及雇主要求準備法文或英文履歷、成績單、學歷和語言證明。法語授課與工作須具備相應溝通能力，具體成績要求逐項確認。</p><p>諮詢時請提供年齡、最高學歷、法文程度、國籍、是否已在法國及居住時間。OTC 協助比較課程、核對官方要求、準備申請文件及面試；企業錄用由雇主決定。</p><p><a href=\"#start\">學徒制諮詢</a> · <a href=\"https://www.service-public.gouv.fr/particuliers/vosdroits/F2918\">學徒合約與薪資</a> · <a href=\"https://www.service-public.gouv.fr/particuliers/vosdroits/F2713\">非歐盟學生條件</a> · <a href=\"https://www.alternance.emploi.gouv.fr/\">法國工讀官方平台</a></p>"
     },
     {
       "id": "language",
@@ -37,6 +42,10 @@
     [
       "商學院、專業及語言課程",
       "按院校報價，分清每年學費、全程學費、訂金和退費條件。"
+    ],
+    [
+      "學徒制培訓費",
+      "由學校及雇主確認合約對應的培訓資助與承擔安排。未取得企業合約前，先問清是否須轉為自費課程、付款期限及退費條款。生活、住宿、交通與行前費用另行編列，勿預設薪資足以支付全部開支。"
     ],
     [
       "生活費",
@@ -63,6 +72,14 @@
     [
       "各地 Campus France",
       "https://www.campusfrance.org/en/espaces"
+    ],
+    [
+      "學徒合約、年齡與薪資",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F2918"
+    ],
+    [
+      "非歐盟學生的學徒合約條件",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F2713"
     ]
   ]
 }
