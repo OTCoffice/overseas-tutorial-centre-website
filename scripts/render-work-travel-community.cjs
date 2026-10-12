@@ -12,3 +12,5 @@ for(const r of records)fs.writeFileSync(path.join(root,r.url,'index.html'),r.htm
 for(const filename of ['search/index.html','zh/search/index.html']){const p=path.join(root,filename);let s=fs.readFileSync(p,'utf8');const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re);if(!m)throw Error('Search index missing');const a=JSON.parse(m[2]);for(const r of records){const i=a.findIndex(x=>x.url===r.url),e={type:'中文資料',title:r.title,url:r.url,desc:r.desc};if(i<0)a.push(e);else a[i]={...a[i],...e};}fs.writeFileSync(p,s.replace(re,(_,open,data,close)=>open+JSON.stringify(a).replaceAll('<','\\u003c')+close));}
 
 console.log("Updated community content in 3 pages and 2 search indexes.");
+
+require("./render-swt-directory.cjs");

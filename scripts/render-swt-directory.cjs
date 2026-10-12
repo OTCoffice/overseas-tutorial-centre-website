@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..');
+const file=path.join(root,'zh/us-swt-work-travel-support/index.html');
+let html=fs.readFileSync(file,'utf8');
+const fragment=fs.readFileSync(path.join(root,'content/swt-directory.html'),'utf8');
+html=html.replace(/<!-- SWT DIRECTORY START -->[\s\S]*?<!-- SWT DIRECTORY END -->/,'');
+html=html.replace('<main class="service-herald-main">','<main class="service-herald-main">\n<!-- SWT DIRECTORY START -->'+fragment+'<!-- SWT DIRECTORY END -->');
+html=html.replace('不能只看申請時是不是學生，還要把畢業日、項目開始日和 sponsor 的審核口徑放在一起看。','聯邦規則允許符合申請時全日制在讀要求的最後一年學生參加；再確認主辦方、學校假期與到崗安排。');
+html=html.replace('不要先假設自己仍符合 SWT。請讓美國國務院指定 sponsor 按實際畢業日、項目開始日和學籍文件作書面確認。若已不符合，再看 J-1 Intern 等其他類別，不要把兩種項目混在一起。','最後一年學生並非一律被排除。按申請時的全日制學籍及 22 CFR §62.32 規則，由 sponsor 確認實際資格與時間安排。');
+fs.writeFileSync(file,html);
+console.log('Updated SWT directory from canonical fragment.');
