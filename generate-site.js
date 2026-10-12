@@ -38,3 +38,6 @@ require("./scripts/render-opt-support.cjs");
 
 // Preserve Greece country guide and study information.
 require('./scripts/render-greece.cjs');
+
+// Preserve Taiwan university introductions and winter comparison.
+require('./scripts/render-taiwan-winter.cjs');
