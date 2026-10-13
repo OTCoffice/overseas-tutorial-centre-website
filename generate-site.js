@@ -41,3 +41,6 @@ require('./scripts/render-greece.cjs');
 
 // Preserve Taiwan university introductions and winter comparison.
 require('./scripts/render-taiwan-winter.cjs');
+
+// Preserve music planning and the subject/service directory entries.
+require('./scripts/render-music-study.cjs');
