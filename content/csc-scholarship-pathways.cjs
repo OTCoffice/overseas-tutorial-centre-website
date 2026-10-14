@@ -1,0 +1,6 @@
+const fs=require('fs');
+const {pageShell}=require('../site');
+module.exports=()=>{
+const body=fs.readFileSync(require.resolve('./csc-scholarship-pathways.html'),'utf8');
+const layout=require('./academic-subpage.cjs')('CSC國家公派留學',body).replace('教育服務與雙語學習','碩士・博士・聯合培養').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','按學歷與出國目標查找項目，了解校內推薦、外方申請及學費資助。');
+return pageShell({title:'CSC國家公派留學｜碩士、博士與聯合培養｜海外督導 OTC',path:'/zh/csc-scholarships/',lang:'zh-Hant',locale:'zh',current:'services',description:'CSC碩士與博士路徑：攻讀學位、聯合培養、2027創新項目資格及時間、學費安排、官方申請入口與OTC材料支援。',body:`<style>.consolidated-page{max-width:1080px;margin:auto;padding:28px 24px 50px;line-height:1.9;overflow-wrap:anywhere}.consolidated-page h2{font-size:25px;border-top:3px solid #263e4f;padding-top:22px;margin-top:34px}.csc-note{padding:16px;background:#eef2f2;border-left:3px solid #b7892c}.csc-table{overflow-x:auto;margin:18px 0}.csc-table table{width:100%;border-collapse:collapse;min-width:560px;font-size:15px}.csc-table th,.csc-table td{padding:14px;text-align:left;vertical-align:top;border-bottom:1px solid #d8d9d2}.csc-table thead{background:#eaece7}.csc-table caption{text-align:left;font-weight:bold;padding:8px 0}.consolidated-page li{margin-bottom:10px}@media(max-width:680px){.consolidated-page{padding:22px 16px}.csc-table th,.csc-table td{padding:10px}}</style>`+layout});};

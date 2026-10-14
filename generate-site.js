@@ -44,3 +44,6 @@ require('./scripts/render-taiwan-winter.cjs');
 
 // Preserve music planning and the subject/service directory entries.
 require('./scripts/render-music-study.cjs');
+
+// Preserve CSC masters, doctoral and joint-training routes.
+require('./scripts/render-csc.cjs');

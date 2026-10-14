@@ -5,6 +5,7 @@ const groups=[
     "留學規劃與申請",
     "留學諮詢、國家與學科選擇、學校申請及短期留學。",
     [
+      ["CSC國家公派留學", "/zh/csc-scholarships/", "碩士、博士與聯合培養；官方項目、推薦流程及學費資助。"],
       ["音樂留學規劃", "/zh/subject-planning/music/", "本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
       ["德國雙元制", "/zh/services/germany-ausbildung/", "職業培訓、德語、申請材料及中介合約查核。"],
       ["韓國碩士申請", "/zh/services/korea-masters-application/", "藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
