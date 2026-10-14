@@ -185,6 +185,7 @@ const groups=[
         "/zh/cross-border-property-management/",
         "收樓、租務、維修、當地供應商與業主報告。"
       ],
+      ["香港低齡住宿與監護", "/zh/services/hong-kong-minor-guardianship-homestay/", "校方要求、住宿比較、照顧責任與家校聯絡。"],
       [
         "學術監護",
         "/services/academic-guardianship-family-office/",

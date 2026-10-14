@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'..'),render=require('../content/hk-guardianship-page.cjs');
+const pages=['hk-homestay-guide','hk-guardianship-service'].map(n=>require('../content/'+n+'.json'));
+for(const a of pages){const p=path.join(root,a.path,'index.html');fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,render(a));}
+fs.writeFileSync(path.join(root,'zh/services/index.html'),require('../content/service-desk.cjs')());
+for(const route of ['search/index.html','zh/search/index.html']){const p=path.join(root,route),s=fs.readFileSync(p,'utf8'),re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re);if(!m)continue;const list=JSON.parse(m[2]);for(const a of pages){const e={type:a.path.includes('/insights/')?'Insight':'Page',title:a.titleZh,url:a.path,desc:a.summaryZh},i=list.findIndex(x=>x.url===a.path);if(i<0)list.unshift(e);else list[i]=e;}fs.writeFileSync(p,s.replace(re,(_,h,b,t)=>h+JSON.stringify(list).replaceAll('<','\\u003c')+t));}
+let sm=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');for(const a of pages){const e='<url><loc>https://overseasuk.com'+a.path+'</loc></url>';if(!sm.includes(e))sm=sm.replace('</urlset>',e+'\n</urlset>');}fs.writeFileSync(path.join(root,'sitemap.xml'),sm);
+for(const route of ['zh/insights/index.html','zh/insights/study/index.html']){const p=path.join(root,route);if(!fs.existsSync(p))continue;let s=fs.readFileSync(p,'utf8');const a=pages[0];if(!s.includes(a.path))s=s.replace('<footer',`<section class="band"><h2>香港低齡住宿</h2><p><a href="${a.path}">${a.socialTitleZh}</a> — ${a.summaryZh}</p></section><footer`);fs.writeFileSync(p,s);}
+console.log('Rendered Hong Kong guide, service, search and directory links.');

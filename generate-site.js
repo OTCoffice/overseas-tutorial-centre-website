@@ -52,3 +52,6 @@ require('./scripts/render-swt-terms.cjs');
 
 // Keep the application pricing policy and service navigation current.
 require('./scripts/render-application-fees.cjs');
+
+// Preserve Hong Kong minor homestay guidance and service.
+require('./scripts/render-hk-guardianship.cjs');
