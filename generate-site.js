@@ -49,3 +49,6 @@ require('./scripts/render-music-study.cjs');
 require('./scripts/render-csc.cjs');
 
 require('./scripts/render-swt-terms.cjs');
+
+// Keep the application pricing policy and service navigation current.
+require('./scripts/render-application-fees.cjs');
