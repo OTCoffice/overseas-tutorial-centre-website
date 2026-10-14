@@ -35,6 +35,14 @@ for(const c of selectedData){
   write(base+c.slug+'/','菲律賓語校｜免費代辦・費用與申請流程｜海外督導 OTC','菲律賓語校免費代辦：比較宿霧、碧瑤及克拉克學校與課程，查閱服務範圍、完整費用清單、五步申請流程與常見問題。',body,c.slug);
   continue;
  }
+ if(c.slug==='japan'){
+  body=body.replace('更新：2026 年 9 月 30 日','更新：'+c.updatedAt);
+  for(const school of c.schools){
+   if(school.summary)body=body.replace(`<strong>${esc(school.name)}</strong><small>${esc(school.city)} · ${esc(school.type)}</small>`,`<strong>${esc(school.name)}</strong><small>${esc(school.city)} · ${esc(school.type)}</small><p>${esc(school.summary)}</p>`);
+   body=body.replace(`<a class="apply" href="${wa(c.name,school.name)}" target="_blank" rel="noopener" aria-label="${esc(school.name)} 免費代辦">免費代辦 ↗</a>`,`<a class="apply" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("日本語校申請｜"+school.name)}&amp;body=${encodeURIComponent("您好，我想透過 OTC 申請 "+school.name+"。\n預計開課日期：\n學習週數：\n參加人數與年齡：\n日語程度：\n住宿需求：\n預算：")}" aria-label="透過 OTC 申請 ${esc(school.name)}">透過 OTC 申請</a><a href="https://www.threads.com/@overseas_uk_otc" target="_blank" rel="noopener" aria-label="到 Threads 私訊 OTC 查詢 ${esc(school.name)}">Threads 私訊 ↗</a>`);
+  }
+  body=body.replace('<aside><h2>免費代辦</h2>','<aside><h2>申請諮詢</h2>').replace('海外督導 OTC<br>海圖規劃・留學諮詢','海外督導雙語世界<br>招生部');
+ }
  body=body.replace('<section class="notes">',government(c.slug)+'<section class="notes">');
  write(base+c.slug+'/',c.name+'語言學校｜學校目錄・免費代辦｜海外督導 OTC',`按地區比較${c.name}${c.schools.length}筆語言學校、中心與課程資料。附官方網站、Notion中文介紹、申請流程及免費代辦。`,body,c.slug);
 }

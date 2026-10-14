@@ -1637,11 +1637,36 @@
         "summary": "岡崎的日語教學機構，設較長期日語學習。學校公布的招生梯次與制度調整需按當期申請資料確認。",
         "type": "語言學校",
         "checkedAt": "2026-09-30"
+      },
+      {
+        "name": "ISI 長野校｜長野商務外語專門學校",
+        "city": "長野縣上田市 Ueda",
+        "region": "長野",
+        "url": "https://www.isi-education.com/school/campus/nagano/",
+        "type": "語言學校",
+        "summary": "短期一般日語兩週起。學生宿舍共用廚房、浴室及廁所；家庭同住與陪同者入住須向校方確認。"
+      },
+      {
+        "name": "MANABI 外語學院｜長野校",
+        "city": "長野縣上田市 Ueda",
+        "region": "長野",
+        "url": "https://www.manabi.co.jp/",
+        "type": "語言學校",
+        "summary": "提供日語學習及短期課程資訊；開班日期、年齡條件、住宿與家庭同行安排按個案查詢。"
+      },
+      {
+        "name": "長野21日本語學院",
+        "city": "長野縣長野市 Nagano",
+        "region": "長野",
+        "url": "https://www.nagano21jp.com/",
+        "type": "語言學校",
+        "summary": "位於長野市。短期旁聽、家庭同行及住宿是否可安排，須先向校方確認。"
       }
     ],
-    "intro": "比較東京、大阪、北海道及其他城市的日語學校，按短期學習或較長期課程選擇。",
+    "intro": "比較東京、大阪、北海道及長野等地的日語學校，按短期學習或較長期課程選擇。",
     "checkedAt": "2026-09-30",
-    "notion": "https://overseasuk.notion.site/3ebfd1e7e1208183ae29dfcd7e93379f"
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e1208183ae29dfcd7e93379f",
+    "updatedAt": "2026 年 10 月 14 日"
   },
   {
     "slug": "south-korea",
