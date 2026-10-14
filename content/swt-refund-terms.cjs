@@ -1,0 +1,6 @@
+const fs=require('fs');
+const {pageShell}=require('../site');
+module.exports=()=>{
+const body=fs.readFileSync(require.resolve('./swt-refund-terms.html'),'utf8');
+const layout=require('./academic-subpage.cjs')('SWT服務及退款條款',body).replace('教育服務與雙語學習','服務費・退款・取消權').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','人民幣2,800元服務範圍、退款條件及第三方費用安排。');
+return pageShell({title:'SWT服務及退款條款｜海外督導 OTC',path:'/zh/us-swt-refund-terms/',lang:'zh-Hant',locale:'zh',current:'services',description:'OTC美國SWT申請支援服務：2,800元費用分項、未落實崗位全退、拒簽退款、個人退出及退款程序。',body:`<style>.consolidated-page{max-width:1080px;margin:auto;padding:28px 24px 50px;line-height:1.9;overflow-wrap:anywhere}.consolidated-page h2{font-size:25px;border-top:3px solid #263e4f;padding-top:22px;margin-top:34px}.csc-note{padding:16px;background:#eef2f2;border-left:3px solid #b7892c}.csc-table{overflow-x:auto;margin:18px 0}.csc-table table{width:100%;border-collapse:collapse;min-width:560px;font-size:15px}.csc-table th,.csc-table td{padding:14px;text-align:left;vertical-align:top;border-bottom:1px solid #d8d9d2}.csc-table thead{background:#eaece7}.csc-table caption{text-align:left;font-weight:bold;padding:8px 0}.consolidated-page li{margin-bottom:10px}@media(max-width:680px){.consolidated-page{padding:22px 16px}.csc-table th,.csc-table td{padding:10px}}</style>`+layout});};

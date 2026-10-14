@@ -47,3 +47,5 @@ require('./scripts/render-music-study.cjs');
 
 // Preserve CSC masters, doctoral and joint-training routes.
 require('./scripts/render-csc.cjs');
+
+require('./scripts/render-swt-terms.cjs');
