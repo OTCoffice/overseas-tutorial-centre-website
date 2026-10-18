@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'..');fs.copyFileSync(path.join(root,'content/private-school-hub.html'),path.join(root,'zh/private-school-alliance/index.html'));console.log('Rendered private school hub');

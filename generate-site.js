@@ -55,3 +55,6 @@ require('./scripts/render-application-fees.cjs');
 
 // Preserve Hong Kong minor homestay guidance and service.
 require('./scripts/render-hk-guardianship.cjs');
+
+// Preserve UK-first hub and Japan school planning.
+require('./scripts/render-private-school-hub.cjs');
