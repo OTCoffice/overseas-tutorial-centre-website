@@ -1,3 +1,4 @@
+require("./scripts/render-us-eb1a-niw.cjs");
 require("./scripts/render-uk-global-talent.cjs");
 
 // Preserve visual communication planning and directory links after full generation.

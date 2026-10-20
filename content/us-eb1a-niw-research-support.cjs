@@ -1,0 +1,20 @@
+const {pageShell}=require('../site');
+const a=require('./us-eb1a-niw-research-support.json');
+const desk=require('./service-desk.cjs');
+const summerHero=require('./summer-alliance-hero.cjs');
+const intro='你好，我想諮詢 EB-1A／NIW 研究材料支援。\n研究學科：\n已獲學位及日期：\n直博進度：\n現居地：\n公開成果連結：\n材料需求：';
+const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
+const email='mailto:office@overseasuk.com?subject='+encodeURIComponent('美國 EB-1A／NIW諮詢')+'&body='+encodeURIComponent(intro);
+const groups=a.groups;
+module.exports=()=>{
+// Reuse the exact service-desk styles rather than applying a separate type scale.
+const css=desk().match(/<style>[\s\S]*?<\/style>/)[0].replace(/\.service-desk-page \.service-hero-layout\{[^}]*\}\.service-desk-page \.service-hero-panel\{[^}]*\}\.service-desk-page \.service-hero-panel a\{[^}]*\}/,'');
+let hero=summerHero().split('<section class="band service-review-strip"')[0];
+hero=hero.replace('SUMMER SCHOOL HUB','US EB-1A / NIW').replace('海外督導｜寒暑校聯盟','海外督導｜美國 EB-1A／NIW').replace('UK · Australia · New Zealand · Malaysia · Singapore · Thailand · USA · Canada','本科直博 · 研究成果 · 文件支援').replace('為中學生提供全球優質暑期學術項目，探索興趣，提升背景，為未來升學做好準備。','學歷與成果整理、學術 CV、審稿證據與文件支援。');
+hero=hero.replace(/<div class="actions">[\s\S]*?<\/div>/,`<div class="actions"><a class="btn btn-primary" href="${wa}">陪跑諮詢</a><a class="btn btn-secondary" href="${email}">發送需求</a></div>`);
+hero=hero.replace(/<aside class="service-hero-panel"[\s\S]*?<\/aside>/,`<aside class="service-hero-panel" aria-label="美國 EB-1A／NIW"><a href="#routes"><strong>學術路線</strong><span>EB-1A 與 EB-2 NIW</span></a><a href="#outputs"><strong>研究成果</strong><span>論文、引用與審稿</span></a><a href="#services"><strong>申請服務</strong><span>學術材料與文件</span></a><a href="#fees"><strong>費用</strong><span>服務與第三方費用</span></a></aside>`);
+const strip=`<section class="band service-review-strip"><a href="#documents"><b>DOC</b><strong>申請材料</strong><span>CV、陳述與推薦信</span></a><a href="#process"><b>APPLY</b><strong>申請流程</strong><span>材料整理與專業分工</span></a><a href="#fees"><b>COST</b><strong>費用安排</strong><span>官方費用與服務報價</span></a><a href="#contact"><b>ASK</b><strong>服務諮詢</strong><span>說明學歷與研究階段</span></a></section>`;
+const sections=groups.map(([id,title,desc,rows],i)=>`<section class="desk-section" id="${id}"><header class="desk-section-head"><h2><b>${String(i+1).padStart(2,'0')}</b>${title}</h2><p>${desc}</p></header><div class="desk-rows">${rows.map(([name,detail,url])=>url?`<a class="desk-row" href="${url==='WA'?wa:url==='MAIL'?email:url}"><strong>${name}</strong><span>${detail}</span><i aria-hidden="true">↗</i></a>`:`<div class="desk-row"><strong>${name}</strong><span>${detail}</span></div>`).join('')}</div></section>`).join('');
+const body=css+hero+strip+`<main class="band desk-index"><nav class="desk-jump" aria-label="GTV 內容">${groups.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} ${title}</a>`).join('')}</nav>${sections}<div class="desk-note"><p>資料核查：2026 年 10 月 20 日。資格、材料及費用以 USCIS 與相關官方最新要求為準。</p><p>本頁提供公開資訊及研究材料支援說明；法律意見與代理須由美國合資格移民律師提供，申請結果由美國主管機關決定。</p></div><figure class="singapore-share-proof"><img src="${a.shareImageZh}?${a.socialImageVersion}" width="${a.socialImageWidth}" height="${a.socialImageHeight}" loading="lazy" alt="本頁題頭與服務導覽"></figure></main>`;
+return pageShell({title:a.titleZh,path:a.path,description:a.summaryZh,current:'services',lang:'zh-Hant',locale:'zh',bodyClass:'service-desk-page singapore-service-page',image:a.shareImageZh+'?'+a.socialImageVersion,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:'美國 EB-1A／NIW｜研究材料支援',body:body+'<style>.salary-scroll{overflow-x:auto}.salary-scroll table{width:100%;border-collapse:collapse;text-align:left}.salary-scroll th,.salary-scroll td{padding:14px;border-bottom:1px solid #ccd4d9}.salary-scroll th{background:#18394d;color:white}.salary-scroll caption{text-align:left;padding:12px;font-weight:700}.singapore-share-proof{max-width:600px;margin:28px 0 0}.singapore-share-proof img{display:block;width:100%;height:auto}</style>'});
+};
