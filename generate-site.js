@@ -7,6 +7,7 @@ require("./scripts/render-uk-day-schools.cjs");
 
 // Preserve the Singapore internship service and navigation after full generation.
 require("./scripts/render-singapore-internship.cjs");
+require("./scripts/render-singapore-work-pass.cjs");
 
 // Preserve the source-backed Singapore internship Herald guide.
 require('./scripts/render-singapore-guide.cjs');
