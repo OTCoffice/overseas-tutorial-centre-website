@@ -202,7 +202,7 @@ const groups=[
     [
       ["新加坡工作准證", "/zh/services/singapore-work-pass-support/", "EP、S Pass、雇主條件、薪資門檻及申請流程。"],
       ["美國 OPT 求職支援", "/zh/services/us-opt-job-search-support/", "OPT、STEM OPT、申請表與雇主英文溝通。"],
-      ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信、LinkedIn 內容及英文模擬面試；OTC 免費代辦。"],
+      ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信與 LinkedIn 修改、英文面試；文書修改先報價付款，再詳細審閱。"],
       [
         "日本就業準備",
         "/zh/services/japan-employment-preparation/",
