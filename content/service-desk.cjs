@@ -201,6 +201,7 @@ const groups=[
     "求職方向、履歷、面試、實習及工作體驗。",
     [
       ["新加坡工作准證", "/zh/services/singapore-work-pass-support/", "EP、S Pass、雇主條件、薪資門檻及申請流程。"],
+      ["美國 ITP 實習與培訓", "/zh/services/usa-itp-support/", "J-1 Intern、Trainee 資格、培訓安排、申請準備與費用。"],
       ["美國 OPT 求職支援", "/zh/services/us-opt-job-search-support/", "OPT、STEM OPT、申請表與雇主英文溝通。"],
       ["英文履歷與面試", "/zh/services/english-cv-interview-support/", "CV、求職信與 LinkedIn 修改、英文面試；文書修改先報價付款，再詳細審閱。"],
       [
