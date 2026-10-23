@@ -370,7 +370,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale, canonicalPath)}
   ${pageUtilityBar({ canonicalPath, canonicalUrl, title, locale })}
-  ${body}
+  ${require("./content/compact-tables.cjs")(body)}
   ${footer(locale)}
   ${pageUtilityScript()}
 </body>
