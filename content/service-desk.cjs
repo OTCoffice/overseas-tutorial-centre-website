@@ -39,6 +39,7 @@ const groups=[
         "/zh/language-school-alliance/",
         "17 國語校、課程與費用、政府簽證入口及免費代辦。"
       ],
+      ["高性價比留學", "/zh/services/affordable-study-abroad/", "低學費課程、政府獎學金、研究資助與帶薪培訓。"],
       [
         "碩士選國與申請規劃",
         "/zh/services/masters-country-planning/",

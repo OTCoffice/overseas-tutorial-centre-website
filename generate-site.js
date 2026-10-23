@@ -62,3 +62,6 @@ require('./scripts/render-hk-guardianship.cjs');
 
 // Preserve UK-first hub and Japan school planning.
 require('./scripts/render-private-school-hub.cjs');
+
+// Preserve the affordable study guide and directory entries.
+require('./scripts/render-affordable-study.cjs');
