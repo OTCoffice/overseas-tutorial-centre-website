@@ -201,6 +201,7 @@ const groups=[
     "海外求職與實習",
     "求職方向、履歷、面試、實習及工作體驗。",
     [
+      ["歐洲農業實習", "/zh/services/europe-agriculture-internship/", "丹麥、德國接收渠道、農場案例、薪酬食宿與申請支援。"],
       ["新加坡工作准證", "/zh/services/singapore-work-pass-support/", "EP、S Pass、雇主條件、薪資門檻及申請流程。"],
       ["美國 ITP 實習與培訓", "/zh/services/usa-itp-support/", "J-1 Intern、Trainee 資格、培訓安排、申請準備與費用。"],
       ["美國 OPT 求職支援", "/zh/services/us-opt-job-search-support/", "OPT、STEM OPT、申請表與雇主英文溝通。"],
