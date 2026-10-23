@@ -31797,3 +31797,9 @@ html:root body:is(body,#otc-compact-layout) :is(.service-herald-side,.service-gu
  html:root body:is(body,#otc-compact-layout) :is(.service-herald-grid,.zh-herald-body-grid,.summer-herald-grid,.oeh-body-grid){grid-template-columns:minmax(0,1fr)!important;}
  html:root body:is(body,#otc-compact-layout) :is(.service-herald-side,.service-guide-side,.zh-herald-side,.summer-herald-side,.oeh-side-col,.zh-report-side,.sidebar,.credit-side,.partner-summary-side){width:100%!important;border-left:0!important;border-top:1px solid #d6c6ab!important;padding:6px!important;}
 }
+
+/* Short, hairline accents beside country-entry headings, not full-height rails. */
+html:root body:is(body,#otc-compact-layout) .private-school-candidate-record::before{
+ width:1px!important;height:14px!important;min-height:0!important;
+ top:9px!important;bottom:auto!important;left:0!important;
+}
