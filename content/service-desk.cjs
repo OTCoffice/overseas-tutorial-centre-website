@@ -229,6 +229,7 @@ const groups=[
         "/zh/australia-job-search-coaching/",
         "求職方向、履歷、面試與入職準備。"
       ],
+      ["法國高商留學", "/zh/services/france-business-schools/", "IÉSEG、NEOMA、emlyon、EDHEC、SKEMA；選校、GMAT 與申請規劃。"],
       [
         "法國升學與就業",
         "/zh/france-study-work-settlement-support/",

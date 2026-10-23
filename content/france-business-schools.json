@@ -1,0 +1,68 @@
+{
+  "slug": "france-business-schools",
+  "path": "/zh/services/france-business-schools/",
+  "name": "法國高商留學",
+  "titleZh": "法國高商留學｜IÉSEG、NEOMA、emlyon、EDHEC、SKEMA｜海外督導 OTC",
+  "summaryZh": "法國高商選校與申請規劃，涵蓋 IÉSEG、NEOMA、emlyon、EDHEC、SKEMA，按 MiM、MSc、GMAT 要求、預算及職涯目標比較。",
+  "shareImageZh": "/assets/social/france-business-schools-20261023-v1.png",
+  "socialImageVersion": "v=20261023-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-23",
+  "sections": [
+    {
+      "title": "法國高商",
+      "html": "<p>OTC 提供法國商學院選校、課程比較與申請支援，涵蓋 IÉSEG、NEOMA（諾歐）、emlyon（里昂）、EDHEC（北方）及 SKEMA。按本科背景、成績、語言、工作經驗、預算及畢業後目標建立申請名單。</p><p>排名可作參考，但第 5 至第 10 名並不能單獨判定一個課程是否值得就讀。比較時須使用相同年份、相同課程類別的榜單，再查看課程內容、校區、學費、實習及畢業生去向。</p>"
+    },
+    {
+      "title": "五所院校",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>院校</th><th>比較重點</th><th>官網</th></tr></thead><tbody><tr><th>IÉSEG</th><td>管理與專業碩士；逐項核對課程及入學背景。</td><td><a href=\"https://www.ieseg.fr/en/\">院校資料</a></td></tr><tr><th>NEOMA｜諾歐</th><td>比較 MiM 與具體專業碩士的課程、校區及語言。</td><td><a href=\"https://neoma-bs.com/\">院校資料</a></td></tr><tr><th>emlyon｜里昂</th><td>按 MiM 或專業碩士分別查閱招生途徑與測試要求。</td><td><a href=\"https://em-lyon.com/en\">院校資料</a></td></tr><tr><th>EDHEC｜北方</th><td>區分 MiM、MSc 的申請條件，再比較專業及校區。</td><td><a href=\"https://www.edhec.edu/en\">院校資料</a></td></tr><tr><th>SKEMA</th><td>按課程確認實際就讀校區、跨校區安排與費用。</td><td><a href=\"https://www.skema.edu/en\">院校資料</a></td></tr></tbody></table></div><p>以上為選校範圍及官方查詢入口；是否屬合作課程、能否提供免費代辦，按具體課程另行確認。</p>"
+    },
+    {
+      "title": "MiM 與 MSc",
+      "html": "<p>先確認申請的是 Master in Management（MiM／Grande École）、MSc、其他專業碩士，還是要求工作經驗的 MBA。同一所學校不同課程的申請資格、修業長度、管理能力測試及授予資格可能不同，不能共用一套入學標準。</p><p>比較表應列明課程全名、授予資格、認可資訊、實際校區、課程語言、核心科目、實習安排及全程費用；涉及法國 grade de master 等資格時，查閱具體課程的官方認可，不能只看學校名稱。</p>"
+    },
+    {
+      "title": "GMAT 要求",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>課程示例</th><th>官方要求摘要</th><th>來源</th></tr></thead><tbody><tr><th>IÉSEG Master in Finance</th><td>GMAT／GRE 可選，非必交；此例不代表全校所有課程。</td><td><a href=\"https://www.ieseg.fr/en/programs/specialized-masters/master-finance/admission-fees/\">招生資料</a></td></tr><tr><th>NEOMA MiM 英語軌</th><td>官網建議提交 GMAT／GRE。</td><td><a href=\"https://neoma-bs.com/programmes/master-management\">招生資料</a></td></tr><tr><th>emlyon MiM 國際申請</th><td>列有管理能力測試要求；按申請途徑確認適用測試。</td><td><a href=\"https://em-lyon.com/en/master-in-management\">招生資料</a></td></tr><tr><th>EDHEC MiM／MSc</th><td>目前申請頁將 MiM 測試列為必需，MSc 列為可選；MiM 另列適用替代資格。</td><td><a href=\"https://www.edhec.edu/en/programmes/masters-degree/apply-online\">招生資料</a></td></tr><tr><th>SKEMA</th><td>先提供課程全名，再核對該課程及申請途徑的測試要求。</td><td><a href=\"https://www.skema.edu/en/programmes/grande-ecolemaster-management\">招生資料</a></td></tr></tbody></table></div><p>以上按 2026 年 10 月 23 日公開資料整理。Optional 表示可選，並不保證提交與不提交的評估完全相同；學校通常不公開「不交少多少錄取機會」的固定比例。當年度課程與個人申請系統的要求仍須再次確認。</p>"
+    },
+    {
+      "title": "是否刷分",
+      "html": "<ol><li><strong>先看必要性：</strong>必交測試的課程須安排考試；可選或建議提交的課程另行評估。</li><li><strong>再看證據：</strong>對照目標課程公布的成績資料、學術要求及自己的量化科目成績，判斷分數能否補強申請。沒有官方門檻時，不自行設定保證錄取的分數。</li><li><strong>衡量時間：</strong>根據模考進步、截止日期與材料完成度安排備考；履歷、動機信、推薦信及面試也需要時間。</li><li><strong>核對版本：</strong>現行 GMAT 總分為 205–805，舊版為 200–800。「不到 600」須先釐清版本，跨版本比較用官方百分位或換算資料。</li></ol><p>OTC 可按目標課程、模考及已有材料，協助安排提交策略；不承諾刷分必然增加錄取或獎學金。</p>"
+    },
+    {
+      "title": "費用與職涯",
+      "html": "<p>預算應包含整個修業期的學費、申請費、校方服務費、住宿、保險、交通及日常生活費，另列實習或跨校區期間的支出。獎學金、實習收入或學徒制安排，取得適用資格及書面結果後再計入。</p><p>若目標是在法國工作，選校時也要安排法語學習，研究目標職位所需技能與實習條件。閱讀就業報告時留意畢業屆別、回覆率、工作地區與薪資口徑，不能把學校整體數字當成個人的就業保證。</p><p><a href=\"/zh/france-study-work-settlement-support/\">法國升學與就業規劃</a></p>"
+    },
+    {
+      "title": "OTC 申請服務",
+      "html": "<p>服務可包括背景評估、五校及其他法國高商比較、MiM／MSc 課程篩選、GMAT 提交策略、申請時程、履歷與動機信編修、推薦材料指導、面試及錄取選擇。住宿資訊與行前安排按委託範圍提供。</p><p>諮詢請提供本科專業、成績、英語及法語程度、目標入學年份、課程全名、預算和希望工作的地區。如已有 GMAT 模考，可一併提供考試版本及分項成績。</p><p>服務範圍與費用在委託前書面確認；適用合作課程的免費代辦另行說明，學校與第三方費用另付。</p><p><a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=France%20business%20school%20enquiry\">WhatsApp 高商諮詢</a> <a href=\"mailto:office@overseasuk.com?subject=France%20business%20school%20enquiry\">office@overseasuk.com</a></p><p>微信：overseasus。</p>"
+    }
+  ],
+  "sources": [
+    [
+      "IÉSEG Master in Finance",
+      "https://www.ieseg.fr/en/programs/specialized-masters/master-finance/admission-fees/"
+    ],
+    [
+      "NEOMA MiM 英語軌",
+      "https://neoma-bs.com/programmes/master-management"
+    ],
+    [
+      "emlyon MiM 國際申請",
+      "https://em-lyon.com/en/master-in-management"
+    ],
+    [
+      "EDHEC MiM／MSc",
+      "https://www.edhec.edu/en/programmes/masters-degree/apply-online"
+    ],
+    [
+      "SKEMA",
+      "https://www.skema.edu/en/programmes/grande-ecolemaster-management"
+    ],
+    [
+      "GMAC：GMAT 分數與版本",
+      "https://www.gmac.com/gmat-other-assessments/about-the-gmat-focus-edition/exam-scores"
+    ]
+  ]
+}
