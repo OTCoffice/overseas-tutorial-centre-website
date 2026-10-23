@@ -170,8 +170,12 @@
       {
         "name": "意大利",
         "en": "Italy",
-        "desc": "高等教育與申請資訊。",
+        "desc": "博洛尼亞 Global Cultures、北義選校與申請安排。",
         "links": [
+          [
+            "義大利留學規劃",
+            "/zh/countries/italy/"
+          ],
           [
             "Study in Italy 官方",
             "https://studyinitaly.esteri.it/"
