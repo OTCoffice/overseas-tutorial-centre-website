@@ -1,0 +1,96 @@
+{
+  "slug": "affordable-study-abroad",
+  "path": "/zh/services/affordable-study-abroad/",
+  "name": "高性價比留學",
+  "titleZh": "高性價比留學｜低學費、獎學金與帶薪培訓｜海外督導 OTC",
+  "summaryZh": "比較德國、奧地利、捷克低學費課程，意大利助學金、Erasmus Mundus、日韓獎學金、澳洲研究資助及帶薪培訓；附申請條件、全程預算與官方來源。",
+  "shareImageZh": "/assets/social/affordable-study-20261023-v1.png",
+  "socialImageVersion": "v=20261023-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "updated": "2026-10-23",
+  "sections": [
+    {
+      "title": "留學選擇",
+      "html": "<p>高性價比留學，需要同時比較全程費用、課程內容和入學條件。OTC 協助整理低學費本科與碩士、政府獎學金、研究資助及帶薪職業培訓，按學歷、語言與可承擔預算選擇。</p><p>低學費課程仍須準備生活費；獎學金須經評選；帶薪培訓與博士職位則有工作及研究要求。下列為選校參考，並非全部正在招生或均屬 OTC 合作項目。</p>"
+    },
+    {
+      "title": "低學費課程",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>地區／院校</th><th>費用與資助</th><th>申請條件與支出</th></tr></thead><tbody><tr><td>德國公立大學</td><td>多數本科及多數碩士一般不收學費；每學期另有約 €70–430 學期費。<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">官方資料</a></td><td>須符合學歷與課程語言要求。巴登符騰堡對適用非歐盟學生收取每學期 €1,500；巴伐利亞部分院校亦收費。住宿、保險、生活及語言準備另計。</td></tr><tr><td>奧地利公立大學</td><td>持學生居留的第三國學生一般每學期 €726.72，另核對學生會費。<a href=\"https://studyinaustria.at/en/tuition\">官方資料</a></td><td>核對課程語言、學歷認可與入學考試；應用科技大學及私立院校收費另查。<a href=\"/zh/countries/austria/\">奧地利留學</a></td></tr><tr><td>捷克｜查理大學</td><td>捷克語授課學位課程免學費；外語授課課程另收學費。<a href=\"https://cuni.cz/UKEN-385.html\">官方資料</a></td><td>仍須通過入學要求及適用語言考核。捷克語預備課程與生活費須另作預算，不能把英語課程當作免學費。</td></tr><tr><td>意大利｜DSU Toscana</td><td>按家庭經濟條件與學生類別評定現金及相關福利。<a href=\"https://www.dsu.toscana.it/borsa-di-studio\">官方資料</a></td><td>須按當年度公告提交家庭收入與資產等材料，並遵守學業條件；住宿與各項福利以評選及供應為準。<a href=\"/zh/countries/italy/\">意大利留學</a></td></tr></tbody></table></div>"
+    },
+    {
+      "title": "獎學金",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>資助內容</th><th>申請重點</th></tr></thead><tbody><tr><td>Erasmus Mundus 聯合碩士</td><td>優秀申請人可競逐全額獎學金，涵蓋參與費用並支援生活、交通與簽證費用。<a href=\"https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters\">官方資料</a></td><td>一般修讀 1–2 年，向課程聯盟直接申請；按課程核對學士資格、專業、語言及截止日期。獲錄取不等於獲獎。</td></tr><tr><td>日本 MEXT</td><td>按獎學金類別提供學費豁免、津貼及適用旅費。<a href=\"https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/\">官方資料</a></td><td>分使館推薦與大學推薦等途徑；年齡、學歷、研究計劃、語言及考試要求按類別核對。先確認目標大學有推薦名額。</td></tr><tr><td>韓國 GKS</td><td>可涵蓋學費、韓語培訓、生活資助及機票等。<a href=\"https://www.studyinkorea.go.kr/en/plan/scholarship.do\">官方資料</a></td><td>按本科或研究生當年度簡章確認國籍、年齡、學業、院校名單及使館／大學途徑；不能把一項標準套用所有類別。</td></tr><tr><td>英國 Chevening</td><td>適合比較英國獎學金碩士的申請人。<a href=\"https://www.chevening.org/resource-hub/guidance/eligibility/\">官方資料</a></td><td>須符合當期國籍、學歷、工作經驗與課程等資格，並接受完成獎學金後返回本國至少兩年的要求；截止日期以當期公告為準。</td></tr></tbody></table></div>"
+    },
+    {
+      "title": "研究資助與帶薪培訓",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>類別</th><th>具體入口</th><th>條件與費用</th></tr></thead><tbody><tr><td>澳洲研究碩士／博士</td><td>RTP 可支持本地及國際研究生，向大學申請。<a href=\"https://www.education.gov.au/research-block-grants/research-training-program\">官方資料</a>；墨爾本大學公布 2027 全日制生活津貼標準為每年 A$41,100。<a href=\"https://scholarships.unimelb.edu.au/awards/research-training-program-scholarship\">官方資料</a></td><td>研究碩士與研究博士適用，不能當作一般授課型碩士補貼。逐份確認學費減免、津貼、保險及資助年限；大學與獎項標準不同。</td></tr><tr><td>歐洲博士與研究職位</td><td>在 EURAXESS 按國家、學科、研究階段與資助類別搜尋。<a href=\"https://euraxess.ec.europa.eu/jobs/search\">官方資料</a></td><td>核對實際職缺的學歷、研究方向、合約期限、全職比例及稅前薪資；並非所有博士均屬僱員或均有全額資助。</td></tr><tr><td>德國護理職業培訓</td><td>理論與實務結合，培訓期間有薪酬。<a href=\"https://www.make-it-in-germany.com/en/study-vocational-training/training-in-germany/in-demand/nursing\">官方資料</a></td><td>官方列德語 B1 或 B2（依聯邦州），並有學歷、健康及良好品行要求；須取得合適培訓機構錄取。收入按合約及扣款計算，行前語言、交通、租房押金仍須準備。<a href=\"/zh/services/germany-ausbildung/\">德國職業培訓服務</a></td></tr></tbody></table></div>"
+    },
+    {
+      "title": "總預算",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>預算方式</th></tr></thead><tbody><tr><td>學費</td><td>按全程學年計算，加上註冊、學期費及必要教材；區分歐盟與非歐盟、英語與當地語言課程。</td></tr><tr><td>生活費</td><td>按實際城市估算住宿、水電、飲食、交通及保險，包含假期。</td></tr><tr><td>行前費用</td><td>語言課與考試、翻譯認證、申請費、簽證、機票及租房押金另列。</td></tr><tr><td>資助與薪酬</td><td>只把已確認的獎學金或合約收入列入可用資金，核對支付時間、續領條件、稅費與工作義務。</td></tr><tr><td>資金準備</td><td>預留資助到帳前的支出及應急費；兼職收入不作為尚未落實的基本生活費來源。</td></tr></tbody></table></div>"
+    },
+    {
+      "title": "申請材料與流程",
+      "html": "<ol><li>提供最高學歷、成績單、國籍、語言程度、目標專業、入學年份及全程預算。</li><li>比較課程資格、授課語言、修業年限、官方費用及獎學金條件，建立申請名單。</li><li>按項目準備履歷、動機信、推薦信；研究申請另備研究計劃，助學金另備經濟證明。</li><li>分別跟進入學、獎學金或職位申請，確認補件、面試與結果。</li><li>取得錄取及資助書面條件後，安排資金、簽證、住宿與行程。</li></ol>"
+    },
+    {
+      "title": "OTC 服務",
+      "html": "<p>OTC 可協助選校、費用比較、申請材料與文書、獎學金時程及補件跟進。適用合作課程可免費代辦；其他課程及專項服務的範圍與費用在委託前書面確認。學校、考試、翻譯認證、簽證與住宿等第三方費用另付。</p><p><a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=Affordable%20study%20enquiry\">諮詢留學方案</a> <a href=\"mailto:office@overseasuk.com?subject=Affordable%20study%20enquiry\">office@overseasuk.com</a> · 微信 overseasus</p><p><a href=\"/zh/services/masters-country-planning/\">碩士選國</a> · <a href=\"/zh/csc-scholarships/\">CSC 申請支援</a> · <a href=\"/zh/countries/\">國別留學規劃</a></p>"
+    },
+    {
+      "title": "延伸閱讀",
+      "html": "<p>讀者提供的 <a href=\"https://beckyglobal.github.io/PaidToStudyAbroad/\">BeckyGlobal《高性價比留學》</a>可作為探索項目的線索。本頁依政府與院校資料獨立整理；第三方指南並非 OTC 的合作名單、錄取承諾或費用報價。</p>"
+    }
+  ],
+  "sources": [
+    [
+      "德國 DAAD｜學費與生活費",
+      "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+    ],
+    [
+      "奧地利 OeAD｜學費",
+      "https://studyinaustria.at/en/tuition"
+    ],
+    [
+      "查理大學｜授課語言與學費",
+      "https://cuni.cz/UKEN-385.html"
+    ],
+    [
+      "意大利 DSU Toscana｜2026/27 助學金",
+      "https://www.dsu.toscana.it/borsa-di-studio"
+    ],
+    [
+      "Erasmus Mundus｜聯合碩士",
+      "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters"
+    ],
+    [
+      "日本 MEXT｜政府獎學金",
+      "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/"
+    ],
+    [
+      "韓國 GKS｜政府獎學金",
+      "https://www.studyinkorea.go.kr/en/plan/scholarship.do"
+    ],
+    [
+      "澳洲教育部｜RTP",
+      "https://www.education.gov.au/research-block-grants/research-training-program"
+    ],
+    [
+      "墨爾本大學｜RTP 獎學金",
+      "https://scholarships.unimelb.edu.au/awards/research-training-program-scholarship"
+    ],
+    [
+      "德國政府｜護理培訓",
+      "https://www.make-it-in-germany.com/en/study-vocational-training/training-in-germany/in-demand/nursing"
+    ],
+    [
+      "EURAXESS｜研究職位與資助",
+      "https://euraxess.ec.europa.eu/jobs/search"
+    ],
+    [
+      "Chevening｜申請資格",
+      "https://www.chevening.org/resource-hub/guidance/eligibility/"
+    ]
+  ]
+}
