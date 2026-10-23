@@ -263,6 +263,21 @@
             "https://studyingreece.edu.gr/"
           ]
         ]
+      },
+      {
+        "name": "奧地利",
+        "en": "Austria",
+        "desc": "維也納、TU Wien、學位申請與留學預算。",
+        "links": [
+          [
+            "奧地利留學",
+            "/zh/countries/austria/"
+          ],
+          [
+            "Study in Austria 官方",
+            "https://studyinaustria.at/en/"
+          ]
+        ]
       }
     ]
   },
