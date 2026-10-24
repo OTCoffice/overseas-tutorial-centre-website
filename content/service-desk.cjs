@@ -249,6 +249,7 @@ const groups=[
     "語言文件、國際採購、商務對接、編輯出版與研究資料。",
     [
       ["海外文件驗證與代辦", "mailto:office@overseasuk.com?subject=海外文件驗證與代辦諮詢", "出生、單身、婚姻及學歷證明；公證、海牙認證（Apostille）、領事驗證與翻譯安排，協調當地授權送件及寄送。按文件簽發地、使用地與期限確認流程及報價；政府、翻譯、當地代辦及快遞費另列。"],
+      ["AI 工具小舖", "/zh/services/ai-tool-shop/", "ChatGPT、Claude 方案選擇、訂閱操作協助、實用教學與個別輔導。"],
       ["企業 AI 與工作流程自動化", "/zh/services/ai-workflow-automation/", "文件辨識與知識庫、數據報表、影像識別及 AI Agent；需求整理、技術對接與交付協調。"],
       ["商業轉讓與買家對接", "/zh/services/business-transfer/", "店舖、企業與資產轉讓；資料整理、買家搜尋、看店及交接協調。"],
       ["國際採購與商務對接", "/zh/services/international-sourcing/", "供應商搜尋、報價比較、採購跟進與海外客戶開發；按項目報價。"],

@@ -63,6 +63,7 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 <section class="home-group"><div class="home-card-heading"><h3>海外生活與監護</h3></div><p>住宿接送、抵埗安排、學校與家長聯絡，以及海外房產管理。按家庭需要協調學業跟進和監護服務。</p><div class="home-links"><a href="/zh/services/#living">生活與監護服務</a><a href="/zh/cross-border-property-management/">房產管理</a></div></section>
 </div></div></section>
 <section class="home-section home-secondary"><div class="home-wrap"><h2>其他服務</h2><div class="home-groups">
+<section class="home-group"><h3>AI 工具小舖</h3><p>ChatGPT、Claude 訂閱操作協助、入門教學與個別輔導。</p><a href="/zh/services/ai-tool-shop/">服務與預約 →</a></section>
 <section class="home-group" id="translation"><h3>翻譯與商務溝通</h3><p>中英文件翻譯、英文電郵、海外公司聯絡、詢價跟進與雙語資料整理。</p><a href="/zh/services/language-context-studio/">服務內容與聯絡方式 →</a></section>
 <section class="home-group" id="publishing-programme"><h3>編輯與出版</h3><p>書稿編輯、雙語排版、出版準備及數字出版。</p><a href="/zh/services/#publishing">編輯與出版服務 →</a></section>
 <section class="home-group"><h3>海外求職與實習</h3><p>求職方向、履歷修改、面試準備，以及實習申請指導。</p><a href="/zh/services/#careers">查看服務 →</a></section>
