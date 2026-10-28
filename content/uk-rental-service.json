@@ -1,0 +1,56 @@
+{
+  "path": "/zh/services/uk-rental-support/",
+  "titleZh": "英國找房與租房支援",
+  "summaryZh": "海外督導雙語世界學生服務部：留學生房源比較、租約資料整理、退租溝通、押金及證據整理，按服務範圍書面報價。",
+  "shareImageZh": "/assets/social/uk-rental-support-20261028-v1.png",
+  "socialImageVersion": "20261028-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "sections": [
+    {
+      "heading": "服務內容",
+      "paragraphs": [
+        "海外督導雙語世界學生服務部位於倫敦，為留學生及家長提供找房與租住期間的資料、語言及溝通支援。先了解城市、預算、入住日期及需要協助的事項，再確認服務。",
+        "找房：比較學生公寓、私人租屋及合租房源，整理租金、帳單、押金、通勤與入住條件；協助準備向出租方查詢的問題及看房安排。房源、出租權限及付款資料須逐項核實，不承諾一定找到房屋。",
+        "租住與退租：整理租約、付款及維修記錄，草擬英文查詢或協商信，記錄雙方對退租日期、鑰匙交還、租金結算及押金的書面安排。需要聯絡房東或中介時，先確認授權及發送內容。"
+      ]
+    },
+    {
+      "heading": "退租與押金",
+      "paragraphs": [
+        "先確認房屋位於英格蘭、威爾斯、蘇格蘭還是北愛爾蘭，以及租住類型。房東同住並共用廚房或浴室時，可能屬 lodger，通知及押金規則與一般租客不同。學生宿舍亦須按實際安排核對。",
+        "英格蘭適用的 assured periodic tenancy，自2026年5月1日起通常可給予兩個月書面通知，結束日須符合租金週期規則；可與房東書面同意較短通知或提前結束。不能只因搬走、交回鑰匙或找到接租人，就認定原租約已終止。",
+        "如考慮介紹新租客，先取得房東同意，確認新舊合約如何銜接；不擅自轉租。預付租金按有效終止日期、適用法律及協議核對結算，押金另核對保護、扣款證據與爭議程序，不保證全額退回。"
+      ]
+    },
+    {
+      "heading": "材料與流程",
+      "paragraphs": [
+        "初次諮詢請提供城市／地區、預計入住或退租日期、每月預算，以及找房或租房問題的簡述。處理既有租約時，再提供租約相關頁、通知信、付款記錄和按日期整理的照片或通訊；可遮蓋證件號碼、銀行帳號及無關個人資料。",
+        "<ol><li>確認需求、所在地及租住類型。</li><li>書面確認服務內容、交付時間及費用。</li><li>比較房源或整理租約、時間線及證據，準備英文溝通文字。</li><li>核對回覆及待辦事項；需要法律意見時轉介適當專業機構。</li></ol>"
+      ]
+    },
+    {
+      "heading": "費用",
+      "paragraphs": [
+        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>費用安排</th></tr></thead><tbody><tr><td>需求諮詢</td><td>先了解需求，說明可協助的範圍。</td></tr><tr><td>OTC服務</td><td>按房源比較、文件整理、英文信件及跟進次數書面報價；委託前列明交付、服務期限及取消條款。</td></tr><tr><td>另付費用</td><td>房租、押金、住宿、交通、搬家、翻譯及律師等第三方費用另計；出租方收費須按當地規定核對。</td></tr></tbody></table></div>",
+        "OTC提供資料整理與溝通協調，不代替律師的法律意見或訴訟代理；不保證解約、退款或爭議結果。"
+      ]
+    },
+    {
+      "heading": "聯絡",
+      "paragraphs": [
+        "海外督導雙語世界｜學生服務部",
+        "<a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E8%8B%B1%E5%9C%8B%E6%89%BE%E6%88%BF%E8%88%87%E7%A7%9F%E6%88%BF%E6%94%AF%E6%8F%B4\">WhatsApp 諮詢</a>　<a href=\"mailto:office@overseasuk.com?subject=UK%20rental%20support\">office@overseasuk.com</a>",
+        "WhatsApp +44 7947 991572 · 微信 overseasus。倫敦辦公地址：3/F Overseas Education, 207 Regent Street, London W1B 3HH。"
+      ]
+    },
+    {
+      "heading": "官方與專業資源",
+      "paragraphs": [
+        "<a href=\"https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants\">GOV.UK：英格蘭租客新制與通知期</a> · <a href=\"https://england.shelter.org.uk/housing_advice/private_renting/ending_a_periodic_tenancy/agreement_with_your_landlord\">Shelter England：協議退租</a> · <a href=\"https://england.shelter.org.uk/housing_advice/private_renting/lodgers\">Shelter England：Lodger</a> · <a href=\"https://www.gov.uk/tenancy-deposit-protection\">GOV.UK：租屋押金保護</a>",
+        "資料核查：2026年10月28日。以上通知期說明限所述英格蘭租住類型；其他地區按當地規定確認。"
+      ]
+    }
+  ]
+}
