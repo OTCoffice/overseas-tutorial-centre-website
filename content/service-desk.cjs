@@ -151,6 +151,7 @@ const groups=[
     "課程與教學",
     "國際課程、語言與學術輔導、職業資格及學習管理。",
     [
+      ["A Level 科目評估", "/zh/services/a-level-predicted-grade-assessment/", "預估成績材料、學習證據與自修考生支援。"],
       [
         "課程與教學",
         "/zh/teaching/",

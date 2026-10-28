@@ -1,0 +1,56 @@
+{
+  "path": "/zh/services/a-level-predicted-grade-assessment/",
+  "titleZh": "A Level 科目評估｜預估成績與自修考生支援",
+  "summaryZh": "A Level 中文及其他科目的學習證據評估、模擬測試、預估成績材料與自修考生申請支援。先確認考試局、科目及接收要求，再安排評估。",
+  "shareImageZh": "/assets/social/a-level-assessment-20261028-v1.png",
+  "socialImageVersion": "20261028-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "sections": [
+    {
+      "heading": "服務對象",
+      "paragraphs": [
+        "適合準備大學申請、需要整理 A Level 預估成績材料的學生，以及缺少校內評估紀錄的自修考生。A Level 中文可先查詢；其他科目按導師、考試局及評估條件確認是否承接。",
+        "請先提供考試局、科目名稱及代碼、考試月份、申請用途與截止日。不同考試局、課綱和大學的要求不同，不以中文母語背景直接判定可達到的等級。"
+      ]
+    },
+    {
+      "heading": "評估方式",
+      "paragraphs": [
+        "核對已修課程、歷次成績、近期作業及模擬試卷，再按課綱安排所需的限時或受監督測試；如科目涉及口試、聆聽或課業評核，須另確認可行的評估安排。",
+        "交付內容可包括測試表現、評分依據、能力差距及備考建議。若涉及升學用預估成績，須先確認評估者是否具備足夠教學及觀察依據、推薦人或學校如何提交，以及接收院校是否接受相應文件；承接與文件形式於付款前確認。",
+        "OTC科目評估不是考試局正式成績或資格證書。UCAS升學預估與考試局forecast grade屬不同用途；不保證獲指定等級、錄取或文件認可，不提供購買等級、無評估調高成績、代考或偽造紀錄。"
+      ]
+    },
+    {
+      "heading": "材料與流程",
+      "paragraphs": [
+        "初次提供科目、代碼、考試局、考季、現有學習證據及用途即可；毋須公開提交證件或完整申請帳戶。",
+        "<ol><li>確認需求、截止日、課綱及接收方要求。</li><li>核對可用證據、導師與評估安排，書面確認服務、交付及費用。</li><li>按約定完成測試與材料審閱，必要時補充學習證據。</li><li>提供評估回饋；如可承接預估材料，按已確認的用途與提交程序辦理。</li></ol>",
+        "自修考生的考試報名、考場及課業評核須向接收考點確認；評估服務不等於完成考試報名或成為考試中心。"
+      ]
+    },
+    {
+      "heading": "費用",
+      "paragraphs": [
+        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>需求諮詢</td><td>免費了解科目、用途及可承接範圍。</td></tr><tr><td>正式科目評估</td><td>按科目、證據量、測試方式及文件用途書面報價；確認並付款後安排詳細審閱與評估。</td></tr><tr><td>另付項目</td><td>額外教學、重測、翻譯、考試報名、考場及快遞等費用另列。</td></tr></tbody></table></div>",
+        "委託前確認評估者、交付形式、期限、取消與退款條款；服務費不以買到某個等級為條件。"
+      ]
+    },
+    {
+      "heading": "聯絡",
+      "paragraphs": [
+        "海外督導雙語世界｜學生服務部",
+        "<a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=A%20Level%20subject%20assessment\">WhatsApp 查詢</a>　<a href=\"mailto:office@overseasuk.com?subject=A%20Level%20subject%20assessment\">office@overseasuk.com</a>",
+        "WhatsApp +44 7947 991572 · 微信 overseasus。請說明考試局、科目及代碼、考季、用途與截止日。"
+      ]
+    },
+    {
+      "heading": "官方資料",
+      "paragraphs": [
+        "<a href=\"https://www.ucas.com/advisers/help-and-training/guides-resources-and-training/application-overview/predicted-grades-what-you-need-to-know-for-entry-this-year\">UCAS：預估成績原則</a> · <a href=\"https://www.cambridgeinternational.org/programmes-and-qualifications/recognition-and-acceptance/schools-and-students/predicted-grades-guide/\">Cambridge：預估成績指引</a> · <a href=\"https://help.cambridgeinternational.org/hc/en-gb/articles/29567124604562-Forecast-grades-general-queries\">Cambridge：Forecast grades與自修考生</a>",
+        "資料核查：2026年10月28日。預估應基於可證明的表現與專業判斷；申請材料及提交要求以接收院校、推薦人與考試局當期規定為準。"
+      ]
+    }
+  ]
+}
