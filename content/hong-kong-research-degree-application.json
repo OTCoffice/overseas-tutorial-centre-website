@@ -1,0 +1,57 @@
+{
+  "path": "/zh/services/hong-kong-research-degree-application/",
+  "titleZh": "香港研究型碩博申請｜MPhil、PhD 與 PGS 資助｜海外督導 OTC",
+  "summaryZh": "香港 MPhil 與 PhD 選校、導師聯絡、研究計劃、PGS 資助及面試輔導。先免費了解背景與資助需要，再確認服務範圍及報價。",
+  "shareImageZh": "/assets/social/hong-kong-research-degree-20261029-v1.png",
+  "socialImageVersion": "20261029-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "sections": [
+    {
+      "heading": "選校與導師",
+      "paragraphs": [
+        "按本科或碩士成績、研究經歷、語言能力及資助需要，比較香港研究型碩士（MPhil）與博士（PhD）課程。文化研究、傳播、語言及其他學科須逐項核對課程要求、導師研究方向和當期招生安排。",
+        "協助閱讀導師近年的研究成果，整理學術履歷與聯絡信。小語種背景可用於跨語際文獻、田野或比較研究；申請仍須提出具體問題、材料與方法。導師回覆或表示興趣不等於正式錄取。"
+      ]
+    },
+    {
+      "heading": "獎學金與學費",
+      "paragraphs": [
+        "PGS（Postgraduate Studentships）是研究生助學金，與學費豁免屬不同安排。中大中國研究中心列明，符合資格的全日制研究型研究生可獲考慮，結果隨錄取通知公布；錄取本身不等於已獲資助。",
+        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>官方資料與適用範圍</th></tr></thead><tbody><tr><td>PGS 參考金額</td><td>中大 2026–27 年度每年 HK$229,200，於標準修業期內發放；2027–28 金額待研究生院公布。</td></tr><tr><td>學費</td><td>中大中國研究 MPhil／PhD 頁列 2027–28 年度每年 HK$49,500；其他課程及年度另行核對。</td></tr><tr><td>本地生學費豁免</td><td>官方列明適用於符合條件的本地全日制、教資會資助研究型研究生，不能直接套用至非本地學生。</td></tr><tr><td>HKPFS</td><td>香港博士研究生獎學金計劃，屬博士資助途徑；申請程序、期限及資助條件須另查當期公告。</td></tr></tbody></table></div>",
+        "以上 PGS 與學費來自不同學年，不能相減作為同一年度的可用生活費。預算須以正式資助信核對金額、年限及續領條件，再計入學費、住宿、生活與抵港初期支出。能否足夠負擔生活，取決於實際住宿與支出。"
+      ]
+    },
+    {
+      "heading": "材料與流程",
+      "paragraphs": [
+        "請先提供學歷與專業、成績、語言成績、研究題目或初步想法、相關作品或研究經歷、目標入學年份及可負擔預算。",
+        "<ol><li>免費了解背景、研究方向與資助需要。</li><li>確認課程、導師、截止日期及服務報價。</li><li>指導研究計劃、學術履歷及申請材料，按課程要求準備導師聯絡。</li><li>協助申請檢查、補件與模擬面試。</li><li>收到結果後，逐項比較錄取條件、資助與學費。</li></ol>",
+        "研究計劃由申請人撰寫；海外督導提供問題設定、結構、論證與表達的修改建議。推薦信由推薦人依實際了解撰寫及提交，不提供代寫研究成果或虛構經歷。"
+      ]
+    },
+    {
+      "heading": "費用",
+      "paragraphs": [
+        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>收費安排</th></tr></thead><tbody><tr><td>初步諮詢</td><td>免費了解背景及可協助範圍。</td></tr><tr><td>單項輔導</td><td>選校、研究計劃修改或面試練習，依文件篇幅、次數及交付內容書面報價。</td></tr><tr><td>全程申請</td><td>按申請數量、服務期間及輔導範圍報價，委託前列明交付、修改安排及取消條款。</td></tr><tr><td>第三方支出</td><td>院校申請費、語言考試、翻譯認證、學費、住宿及簽證等另計。</td></tr></tbody></table></div>",
+        "OTC 不保證錄取、導師接收或獎學金；服務費不包含購買名額或資助。"
+      ]
+    },
+    {
+      "heading": "聯絡",
+      "paragraphs": [
+        "海外督導 OTC｜研究型碩博申請",
+        "<a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=Hong%20Kong%20MPhil%20PhD%20enquiry\">免費諮詢</a>　<a href=\"mailto:office@overseasuk.com?subject=Hong%20Kong%20MPhil%20PhD%20enquiry\">office@overseasuk.com</a>",
+        "WhatsApp +44 7947 991572 · 微信 overseasus。請附專業、成績、研究方向、入學年份及資助需要。"
+      ]
+    },
+    {
+      "heading": "官方資料",
+      "paragraphs": [
+        "<a href=\"https://www.ccs.cuhk.edu.hk/admission/mphil-phd-in-chinese-studies/tuition-fees-and-financial-aid/\">中大中國研究中心：學費與資助</a> · <a href=\"https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/hkpfs\">中大研究生院：HKPFS</a>",
+        "資料核對：2026 年 10 月 29 日。所列金額以註明課程及學年為限；其他院校的 PGS 安排須分別核實。",
+        "<a href=\"/zh/services/phd-application-coaching/\">博士申請陪跑</a> · <a href=\"/zh/services/\">服務導覽台</a>"
+      ]
+    }
+  ]
+}
