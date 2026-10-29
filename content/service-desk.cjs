@@ -61,6 +61,7 @@ const groups=[
         "/zh/asso-hd-university-progression/",
         "轉科、選校、入學年級與英文要求。"
       ],
+      ["香港研究型碩博申請", "/zh/services/hong-kong-research-degree-application/", "MPhil、PhD、研究計劃、導師與 PGS 資助。"],
       [
         "博士申請",
         "/zh/services/phd-application-coaching/",
