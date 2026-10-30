@@ -1,0 +1,72 @@
+{
+  "verified": "2026-10-30",
+  "registry": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
+  "schools": [
+    {
+      "name": "HRUC（Harrow、Richmond、Uxbridge）",
+      "location": "倫敦西部／西北部",
+      "courses": "A-Level；UAL／BTEC Level 3；商科、電腦、工程 HNC／HND",
+      "fee": "A-Level £8,900／年；Level 3 £8,500／年；HNC／HND £8,700／年",
+      "note": "2026/27；材料、考試等另收£100–£500；寄宿家庭參考£190–£230／周。",
+      "sponsor": "HRUC",
+      "limit": "不擔保Level 1／2；按課程確認授課校區。",
+      "url": "https://www.hruc.ac.uk/international-students.html"
+    },
+    {
+      "name": "Kingston College（South Thames Colleges Group）",
+      "location": "倫敦西南部 Kingston upon Thames",
+      "courses": "Level 3 藝術設計、攝影、創意媒體、商科；工程 Access",
+      "fee": "Level 3 £8,500／年；Level 4–6 £9,500／年",
+      "note": "官網現行價未標學年；住宿、材料及活動費另計。",
+      "sponsor": "South Thames Colleges Group",
+      "limit": "只擔保Kingston College全日制課程：Kingston Hall Road及Creative Industries Centre。",
+      "url": "https://www.stcg.ac.uk/students/international-study/international-student-fees",
+      "visa": "https://www.stcg.ac.uk/students/international-study/visas-and-college-applications"
+    },
+    {
+      "name": "Cambridge Regional College",
+      "location": "劍橋 Cambridge",
+      "courses": "大學預備班：商科、人文、科學；HNC／HND",
+      "fee": "按課程索取現行國際生報價",
+      "note": "預備班官網標示國際生1月入學，9月班目前限英國學生；住宿另報。",
+      "sponsor": "Cambridge Regional College",
+      "limit": "官網確認Student Sponsor – Track Record；須按所選課程及長度確認CAS安排。",
+      "url": "https://www.camre.ac.uk/international/",
+      "courseUrl": "https://www.camre.ac.uk/courses/university-foundation-programmes/"
+    },
+    {
+      "name": "WQE（Wyggeston & Queen Elizabeth I College）",
+      "location": "Leicester／英格蘭中部",
+      "courses": "A-Level；Level 3 BTEC／Cambridge Technical",
+      "fee": "£7,500／學年",
+      "note": "2026/27；另收£100申請行政費；校方不提供住宿。",
+      "sponsor": "WQE and Regent college group",
+      "limit": "招收Student簽證Level 3學生；官網申請說明列有CAS簽發流程。",
+      "url": "https://wqe.ac.uk/prospective-students/international-applications/",
+      "feeUrl": "https://wqe.ac.uk/wp-content/uploads/2026/01/Tuition-Fees-Policy-2026-27-FINAL.pdf",
+      "visa": "https://wqe.ac.uk/wp-content/uploads/2025/03/Information-for-International-Applicants-2025.pdf"
+    },
+    {
+      "name": "York College",
+      "location": "York／英格蘭北部",
+      "courses": "A-Level；全日制Level 3職業課程",
+      "fee": "學費£8,800起／年；住宿£8,800／年",
+      "note": "2026/27參考；僅9月入學；2027/28費用及日期待公布。",
+      "sponsor": "York College",
+      "limit": "限16–18歲，入學年6月1日前須滿16歲；不擔保學位、Access或HNC／HND。",
+      "url": "https://www.yorkcollege.ac.uk/international",
+      "visa": "https://www.yorkcollege.ac.uk/international/how-to-apply"
+    },
+    {
+      "name": "John Leggott College",
+      "location": "Scunthorpe／North Lincolnshire",
+      "courses": "三科A-Level或BTEC Level 3",
+      "fee": "基本學費£12,000／年",
+      "note": "2026/27付款包首年£15,800、次年£9,200；首年含£3,000次年押金，次年抵扣；住宿及考試另計。",
+      "sponsor": "JOHN LEGGOTT COLLEGE",
+      "limit": "官網確認在符合入學要求後由學校建立UKVI CAS紀錄。",
+      "url": "https://www.leggott.ac.uk/international-fees-cost-of-study-uk",
+      "visa": "https://www.leggott.ac.uk/international-visa-cas-guidance"
+    }
+  ]
+}
