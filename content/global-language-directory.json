@@ -1681,7 +1681,8 @@
         "url": "https://www.yskli.com/",
         "summary": "延世大學韓國語學堂，提供正規、短期及其他韓語項目。不同項目的週數、開課日與入學材料分開確認。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "延世大學韓國語學堂"
       },
       {
         "name": "Sogang Korean Language Education Center",
@@ -1690,7 +1691,8 @@
         "url": "https://klec.sogang.ac.kr/",
         "summary": "西江大學韓國語教育院，提供日間、晚間與短期相關韓語課程。按學期與上課時段選擇。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "西江大學韓國語教育院"
       },
       {
         "name": "Seoul National University Language Education Institute",
@@ -1699,7 +1701,8 @@
         "url": "https://lei.snu.ac.kr/mobile/en/klec/regular/regular.jsp",
         "summary": "首爾大學語言教育院的正規韓語課程，以密集語言學習為主。韓語課程與學位申請是不同招生程序。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "首爾大學語言教育院"
       },
       {
         "name": "Korea University Korean Language Center",
@@ -1708,7 +1711,8 @@
         "url": "https://klc.korea.ac.kr/klckor/index.do",
         "summary": "高麗大學韓國語中心提供韓語教學，按官方招生公告查詢正規班安排。申請時確認學期、程度及文件要求。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "高麗大學韓國語中心"
       },
       {
         "name": "Ewha Language Center",
@@ -1717,7 +1721,8 @@
         "url": "https://myr.ewha.ac.kr/elc_en/intensive/curriculum.do",
         "summary": "梨花女子大學語言教育院的韓語課程，按級別安排課程內容。語言中心的報名資格應以該課程招生頁為準。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "梨花女子大學語言教育院"
       },
       {
         "name": "Hanyang Institute of International Education",
@@ -1726,7 +1731,8 @@
         "url": "https://iie.hanyang.ac.kr/",
         "summary": "漢陽大學國際教育院設韓語教育項目，官網提供多語言招生入口。韓語班與其他外語班應分別選擇。",
         "type": "大學／院校語言課程",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "漢陽大學國際教育院"
       },
       {
         "name": "Lexis Korea",
@@ -1735,12 +1741,439 @@
         "url": "https://lexiskorea.com/",
         "summary": "首爾與釜山的韓語學習，提供一般及密集課程並配合文化體驗。可比較兩個城市的課表與住宿。",
         "type": "語言學校",
-        "checkedAt": "2026-09-30"
+        "checkedAt": "2026-09-30",
+        "nameZh": "Lexis Korea 私立語言學校"
+      },
+      {
+        "name": "Dongguk Institute of Korean Language — Seoul",
+        "nameZh": "東國大學韓國語教育院｜首爾校區",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://interlang.dongguk.edu/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "正規韓語課程；首爾與 WISE 校區的招生安排分開確認。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Kyung Hee University Institute of International Education",
+        "nameZh": "慶熙大學國際教育院｜首爾校區",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://iie.khu.ac.kr/",
+        "sourceUrl": "https://iie.khu.ac.kr/",
+        "summary": "首爾校區韓語課程；其他校區課程須另向所屬中心確認。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Konkuk University Language Institute",
+        "nameZh": "建國大學語言教育院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://kli.konkuk.ac.kr/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "大學附設韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Hongik University Korean Language Institute",
+        "nameZh": "弘益大學韓國語教育部",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://koreanle.hongik.ac.kr/",
+        "sourceUrl": "https://koreanle.hongik.ac.kr/new/brochure/eng.pdf",
+        "summary": "正規韓語課程；語言課程錄取與藝術學位錄取分開辦理。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Kookmin University Korean Language Center",
+        "nameZh": "國民大學韓國語教育中心",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://iie.kookmin.ac.kr/",
+        "sourceUrl": "https://iie.kookmin.ac.kr/",
+        "summary": "大學附設韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Sungkyunkwan University Korean Language Center",
+        "nameZh": "成均館大學成均語學院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://koreansli.skku.edu/ksli/index.do",
+        "sourceUrl": "https://koreansli.skku.edu/ksli/index.do",
+        "summary": "韓語課程；申請時確認授課校區。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Soongsil University Korean Language Institute",
+        "nameZh": "崇實大學韓國語教育院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://language.ssu.ac.kr/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "大學附設韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "HUFS Center for Korean Language and Culture",
+        "nameZh": "韓國外國語大學韓國語文化教育院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://www.korean.ac.kr/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "韓語與韓國文化課程；確認所選課程校區。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Sookmyung Global Language Institute",
+        "nameZh": "淑明女子大學國際語言教育院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://lingua.sookmyung.ac.kr/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "韓語課程；報名資格以語言中心公告為準。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Hansung University Language Education Center",
+        "nameZh": "漢城大學語言教育中心",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://www.hansung.ac.kr/",
+        "sourceUrl": "https://english.seoul.go.kr/service/learning/free-korean-language-education/",
+        "summary": "大學附設韓語教育；由校方國際招生部門確認當期申請入口。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Duksung International Language Center",
+        "nameZh": "德成女子大學國際語言中心",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://dilc.ds.ac.kr/",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=194454",
+        "summary": "大學附設韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "University of Seoul Korean Language and Culture Program",
+        "nameZh": "首爾市立大學韓國語教育中心",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://www.uos.ac.kr/klcpEn/html/course/regular.do?identified=anonymous&menuid=2201002001000000000",
+        "sourceUrl": "https://www.uos.ac.kr/klcpEn/html/course/regular.do?identified=anonymous&menuid=2201002001000000000",
+        "summary": "正規班每期 10 週、200 小時；短期及網上課程另列。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Chung-Ang University Korean Language Program — Seoul",
+        "nameZh": "中央大學語言教育院｜首爾",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://korean.cau.ac.kr/english/course.php?mid=n02_01_01",
+        "sourceUrl": "https://korean.cau.ac.kr/english/course.php?mid=n02_01_01",
+        "summary": "正規班每期 10 週、200 小時；首爾與安城校區分開申請。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Chung-Ang University Korean Language Program — Da Vinci",
+        "nameZh": "中央大學語言教育院｜安城",
+        "city": "安城 Anseong",
+        "region": "京畿道",
+        "url": "https://korean.cau.ac.kr/english/course.php?mid=n02_01_01",
+        "sourceUrl": "https://korean.cau.ac.kr/english/course.php?mid=n02_01_01",
+        "summary": "Da Vinci（安城）校區；高級班是否開設視人數而定。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Ajou University Center for International Education",
+        "nameZh": "亞洲大學國際教育中心",
+        "city": "水原 Suwon",
+        "region": "京畿道",
+        "url": "https://www.ajou.ac.kr/cie_en/korean/regular.do",
+        "sourceUrl": "https://www.ajou.ac.kr/cie_en/korean/regular.do",
+        "summary": "正規班每期 10 週、200 小時，設 1 至 6 級。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Dankook University Korean Language Course — Jukjeon",
+        "nameZh": "檀國大學韓語課程｜竹田",
+        "city": "龍仁 Yongin",
+        "region": "京畿道",
+        "url": "https://klc.dankook.ac.kr/ko/과정소개",
+        "sourceUrl": "https://klc.dankook.ac.kr/ko/과정소개",
+        "summary": "竹田校區正規韓語課程；天安校區費用與安排另列。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Inha University Korean Language Education Center",
+        "nameZh": "仁荷大學韓國語教育中心",
+        "city": "仁川 Incheon",
+        "region": "仁川",
+        "url": "https://ltc.inha.ac.kr/",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=194454",
+        "summary": "大學附設正規韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Incheon National University Korean Language Institute",
+        "nameZh": "仁川大學韓國語學堂",
+        "city": "仁川 Incheon",
+        "region": "仁川",
+        "url": "https://inukli.inu.ac.kr/",
+        "sourceUrl": "https://www.inu.ac.kr/bbs/inu/1750/380404/download.do",
+        "summary": "設 1 至 6 級韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Pusan National University Language Education Institute",
+        "nameZh": "釜山大學語言教育院",
+        "city": "釜山 Busan",
+        "region": "釜山",
+        "url": "https://lei.pusan.ac.kr/",
+        "sourceUrl": "https://lei.pusan.ac.kr/page?menuCD=000000000000226&mode=DETAIL&seq=1213",
+        "summary": "正規韓語課程；官網提供多語言招生簡章。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Pukyong National University Korean Language Program",
+        "nameZh": "釜慶大學韓語課程",
+        "city": "釜山 Busan",
+        "region": "釜山",
+        "url": "https://korean.pknu.ac.kr/",
+        "sourceUrl": "https://www.busan.go.kr/eng/bslearning",
+        "summary": "大學附設韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Busan University of Foreign Studies Korean Language and Culture Education",
+        "nameZh": "釜山外國語大學韓國語文化教育院",
+        "city": "釜山 Busan",
+        "region": "釜山",
+        "url": "https://klce.bufs.ac.kr/",
+        "sourceUrl": "https://www.busan.go.kr/eng/bslearning",
+        "summary": "韓語及韓國文化課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Silla University Korean Language Education Center",
+        "nameZh": "新羅大學韓國語教育院",
+        "city": "釜山 Busan",
+        "region": "釜山",
+        "url": "https://klec.silla.ac.kr/klec/index.php?pCode=foreigner01_02",
+        "sourceUrl": "https://klec.silla.ac.kr/klec/index.php?pCode=foreigner01_02",
+        "summary": "設韓語正規及短期課程；按課程確認報名資格。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Youngsan University Korean Language Education Center — Busan",
+        "nameZh": "靈山大學韓國語教育中心｜釜山",
+        "city": "釜山 Busan",
+        "region": "釜山",
+        "url": "https://klec.ysu.ac.kr/",
+        "sourceUrl": "https://www.busan.go.kr/eng/bslearning",
+        "summary": "釜山校區韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Kyungpook National University Korean Language Program",
+        "nameZh": "慶北大學韓語課程",
+        "city": "大邱 Daegu",
+        "region": "大邱",
+        "url": "https://en.knu.ac.kr/admission/korean01.htm",
+        "sourceUrl": "https://en.knu.ac.kr/admission/korean01.htm",
+        "summary": "正規班每期 10 週、200 小時。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Keimyung Korean Language Institute",
+        "nameZh": "啟明大學韓國語學堂",
+        "city": "大邱 Daegu",
+        "region": "大邱",
+        "url": "https://enkintlcenter.kmu.ac.kr/enkintlcenter/9847/subview.do",
+        "sourceUrl": "https://enkintlcenter.kmu.ac.kr/enkintlcenter/9847/subview.do",
+        "summary": "正規班每期 10 週、200 小時，按程度分班。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Chungnam National University International Language Education Center",
+        "nameZh": "忠南大學國際語言教育中心",
+        "city": "大田 Daejeon",
+        "region": "大田",
+        "url": "https://plus.cnu.ac.kr/html/en/sub04/sub04_040601.html",
+        "sourceUrl": "https://plus.cnu.ac.kr/html/en/sub04/sub04_040601.html",
+        "summary": "日間韓語課程，按級別編排聽說讀寫及文化學習。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Dankook University Korean Language Course — Cheonan",
+        "nameZh": "檀國大學韓語課程｜天安",
+        "city": "天安 Cheonan",
+        "region": "忠清道",
+        "url": "https://klc.dankook.ac.kr/ko/과정소개",
+        "sourceUrl": "https://klc.dankook.ac.kr/ko/과정소개",
+        "summary": "天安校區正規韓語課程；與竹田校區分開比較。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Sun Moon University Korean Language Institute",
+        "nameZh": "鮮文大學韓國語教育院",
+        "city": "天安 Cheonan",
+        "region": "忠清道",
+        "url": "https://smk.sunmoon.ac.kr/",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=194454",
+        "summary": "大學附設正規韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Chungbuk National University Korean Language Program",
+        "nameZh": "忠北大學韓語課程",
+        "city": "清州 Cheongju",
+        "region": "忠清道",
+        "url": "https://oia.cbnu.ac.kr/home/main.do",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=194454",
+        "summary": "從國際交流本部的 Language course 入口查詢韓語課程。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Chonnam National University Language Education Center",
+        "nameZh": "全南大學語言教育院",
+        "city": "光州 Gwangju",
+        "region": "光州",
+        "url": "https://leckor.jnu.ac.kr/en/",
+        "sourceUrl": "https://leckor.jnu.ac.kr/en/",
+        "summary": "正規韓語課程；官網已列 2027 春夏招生資料。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Jeonbuk National University Korean Language Education Center",
+        "nameZh": "全北大學韓國語教育中心",
+        "city": "全州 Jeonju",
+        "region": "全北特別自治道",
+        "url": "https://www.jbnu.ac.kr/en/admission/klec.do",
+        "sourceUrl": "https://www.jbnu.ac.kr/en/admission/klec.do",
+        "summary": "正規班每期 10 週、200 小時，設 1 至 6 級。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Kangwon National University Korean Language Program — Chuncheon",
+        "nameZh": "江原大學韓語課程｜春川",
+        "city": "春川 Chuncheon",
+        "region": "江原特別自治道",
+        "url": "https://klp.kangwon.ac.kr/application/",
+        "sourceUrl": "https://klp.kangwon.ac.kr/application/",
+        "summary": "春川校區正規及短期課程；部分國籍有申請限制，須先查當期公告。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Gyeongsang National University Korean Language Program",
+        "nameZh": "慶尚國立大學韓語課程",
+        "city": "晉州 Jinju",
+        "region": "慶尚南道",
+        "url": "https://www.gnu.ac.kr/sle/cm/cntnts/cntntsView.do?cntntsId=4135&mi=7765",
+        "sourceUrl": "https://www.gnu.ac.kr/sle/cm/cntnts/cntntsView.do?cntntsId=4135&mi=7765",
+        "summary": "正規班每期 10 週、200 小時；需簽證與已有簽證的申請期限分開列示。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Jeju National University Korean Language Program",
+        "nameZh": "濟州大學韓語課程",
+        "city": "濟州 Jeju",
+        "region": "濟州特別自治道",
+        "url": "https://intleng.jejunu.ac.kr/intleng/koreanlanguage/koradmissions/schedule.htm",
+        "sourceUrl": "https://intleng.jejunu.ac.kr/intleng/koreanlanguage/koradmissions/schedule.htm",
+        "summary": "按國籍組別列明申請時程，春季與秋季招生安排分開確認。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Sejong University Sejong Language Center",
+        "nameZh": "世宗大學世宗語學院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://ili.sejong.ac.kr/ili/index.do",
+        "sourceUrl": "https://ili.sejong.ac.kr/ili/index.do",
+        "summary": "大學附設韓語課程；按校方公告確認班別與申請資格。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Sungshin Women’s University International Education Institute",
+        "nameZh": "誠信女子大學國際教育院",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://www.sungshin.ac.kr/siie_eng/20670/subview.do",
+        "sourceUrl": "https://www.sungshin.ac.kr/siie_eng/20670/subview.do",
+        "summary": "大學附設韓語課程；按校方公告確認班別與申請資格。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
+      },
+      {
+        "name": "Seoul National University of Science and Technology Korean Language Program",
+        "nameZh": "首爾科技大學韓語課程",
+        "city": "首爾 Seoul",
+        "region": "首爾",
+        "url": "https://klc.seoultech.ac.kr/",
+        "sourceUrl": "https://klc.seoultech.ac.kr/",
+        "summary": "大學附設韓語課程；按校方公告確認班別與申請資格。",
+        "type": "大學／院校語言課程",
+        "checkedAt": "2026-10-30"
       }
     ],
-    "intro": "比較首爾與釜山的大學韓語中心及私人語校，按學期、週數及上課時段選擇。",
-    "checkedAt": "2026-09-30",
-    "notion": "https://overseasuk.notion.site/3ebfd1e7e120818a98c5e3928f011699"
+    "intro": "按首爾、京畿、仁川、釜山及其他地區比較大學語學院與私人語校。校區分開列示，並附官方課程與申請入口。",
+    "checkedAt": "2026-10-30",
+    "notion": "https://overseasuk.notion.site/3ebfd1e7e120818a98c5e3928f011699",
+    "updatedAt": "2026-10-30",
+    "sources": [
+      {
+        "title": "首爾市政府｜大學附設韓語教育機構",
+        "url": "https://english.seoul.go.kr/service/learning/free-korean-language-education/"
+      },
+      {
+        "title": "釜山市政府｜韓語教育機構",
+        "url": "https://www.busan.go.kr/eng/bslearning"
+      },
+      {
+        "title": "韓國觀光公社｜韓語課程與語學院",
+        "url": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=194454"
+      },
+      {
+        "title": "Study in Korea｜語學院與申請",
+        "url": "https://www.studyinkorea.go.kr/in/plan/schoolType.do?tab=korean-language-institute"
+      }
+    ]
   },
   {
     "slug": "germany",
