@@ -4,7 +4,7 @@ from pathlib import Path
 import json,sys
 root=Path(__file__).resolve().parents[1]
 data=json.loads((root/'content/public-school-global.json').read_text())
-for c in data+[dict(code='alliance',name='公校聯盟',region='八國公立教育')]:
+for c in data+[dict(code='uk',name='英國公校',region='歐洲'),dict(code='alliance',name='公校聯盟',region='八國公立教育')]:
  im=Image.new('RGB',(1080,1080),'#f7f4ed');d=ImageDraw.Draw(im);colors=['#162e43','#a5503d','#557989','#4e7e76']
  d.rectangle((32,32,1047,1047),outline='#cba34d',width=3)
  for i,color in enumerate(colors):d.rectangle((60+i*240,62,300+i*240,73),fill=color)
