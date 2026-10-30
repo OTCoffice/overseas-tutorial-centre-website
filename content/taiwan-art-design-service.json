@@ -2,10 +2,10 @@
   "path": "/zh/services/taiwan-art-design-admissions/",
   "titleZh": "台灣藝術與設計升學｜選系、考試與作品集",
   "summaryZh": "台灣本地高中與高職藝術設計升學：比較繪畫、動畫、視傳與互動設計，核對統測、學測、術科及單獨招生，安排作品集與面試準備。",
-  "shareImageZh": "/assets/social/taiwan-art-design-20261029-v1.png",
-  "socialImageVersion": "20261029-v1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/taiwan-art-design-header-20261030.png",
+  "socialImageVersion": "v=20261030-header",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "sections": [
     {
       "heading": "服務內容",
@@ -46,5 +46,6 @@
         "相關資料：<a href=\"/zh/services/art-portfolio-coaching/\">藝術與設計作品集</a> · <a href=\"/zh/insights/tnua-animation-admissions-portfolio-guide/\">北藝大動畫申請指南</a>。資料核對：2026年10月29日；當期要求以各主管單位及校方簡章為準。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }
