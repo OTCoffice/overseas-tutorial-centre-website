@@ -67,3 +67,6 @@ require('./scripts/render-private-school-hub.cjs');
 
 // Preserve the affordable study guide and directory entries.
 require('./scripts/render-affordable-study.cjs');
+
+// Preserve public school country pages and navigation.
+require('./scripts/render-public-school-alliance.cjs');
