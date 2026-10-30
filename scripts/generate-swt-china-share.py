@@ -19,3 +19,8 @@ d.text((60,594),'SWT 新增交流訪客',font=f(regular,34),fill=navy)
 d.text((60,647),'資料來源：美國國務院',font=f(regular,25),fill=muted)
 d.text((60,718),'overseasuk.com',font=f(regular,24),fill=muted)
 p=root/'assets/social/us-swt-china-participants-20261030-v1.png';p.parent.mkdir(parents=True,exist_ok=True);im.save(p,optimize=True)
+
+# Threads uses a 2:1 link image; keep the complete square artwork in its center.
+wide=Image.new('RGB',(1200,600),'#f7f4ed')
+wide.paste(im.resize((600,600),Image.Resampling.LANCZOS),(300,0))
+wide.save(root/'assets/social/us-swt-china-participants-20261030-v2.png',optimize=True)

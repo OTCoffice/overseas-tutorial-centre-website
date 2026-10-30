@@ -9,13 +9,13 @@ s=(root/'zh/insights/singapore-paid-internship-mainland-chinese-guide/index.html
 for before,after in [(base['titleZh'],a['titleZh']),(base['summaryZh'],a['summaryZh']),(base['kicker'],a['kicker']),(base['author'],a['author']),(base['shareImageZh'],a['shareImageZh']),(base['socialImageVersion'],a['socialImageVersion']),(base['slug'],a['slug'])]:
  s=s.replace(before,after).replace(quote(before,safe=''),quote(after,safe=''))
 s=s.replace('2026年10月2日','2026年10月30日').replace('2026年9月號','2026年10月號').replace('適合讀者：大陸高校學生、中國籍海外留學生','適合讀者：準備赴美暑期工作交流的學生').replace('留學升學 · 海外實習 · 國際交流','留學升學 · 暑期交流 · 官方數據')
-for key,value,is_name in [('twitter:card','summary',True),('og:image:type','image/png',False),('og:image:width','800',False),('og:image:height','800',False)]:
+for key,value,is_name in [('twitter:card','summary',True),('og:image:type','image/png',False),('og:image:width',str(a['socialImageWidth']),False),('og:image:height',str(a['socialImageHeight']),False)]:
  attr='name' if is_name else 'property'
  pattern=r'<meta\b(?=[^>]*\b'+attr+r'="'+re.escape(key)+r'")[^>]*>'
  s,count=re.subn(pattern,lambda m:'<meta '+attr+'="'+key+'" content="'+value+'">',s,count=1)
  assert count==1,key
 
-cover='<figure class="zh-herald-share-cover"><img alt="'+html.escape(a['socialTitleZh'],quote=True)+'" fetchpriority="high" width="800" height="800" loading="eager" src="'+a['shareImageZh']+'?'+a['socialImageVersion']+'"/></figure>'
+cover='<figure class="zh-herald-share-cover"><img alt="'+html.escape(a['socialTitleZh'],quote=True)+'" fetchpriority="high" width="1200" height="600" loading="eager" src="'+a['shareImageZh']+'?'+a['socialImageVersion']+'"/></figure>'
 s,n=re.subn(r'<figure class="zh-herald-share-cover">[\s\S]*?</figure>',lambda m:cover,s,count=1);assert n==1
 sections=[]
 for i,sec in enumerate(a['bodyZh'],1):
@@ -28,7 +28,7 @@ s,n=re.subn(r'<aside class="zh-herald-side[^"]*">[\s\S]*?</aside>',lambda m:side
 links=''.join('<a class="zh-herald-reading-item" href="'+html.escape(u,quote=True)+'" target="_blank" rel="noopener"><strong>'+html.escape(t)+'</strong><span>'+html.escape(u)+'</span></a>' for t,u in a['resources'])
 hub='<section class="zh-herald-infographic zh-herald-reading-hub"><h2>資料來源</h2><p>資料核查：2026年10月30日</p><div class="zh-herald-reading-list">'+links+'</div></section>'
 s,n=re.subn(r'<section class="zh-herald-infographic zh-herald-reading-hub">[\s\S]*?</section>',lambda m:hub,s,count=1);assert n==1
-style='<style>.article-'+a['slug']+' .zh-herald-share-cover{max-width:360px;margin:18px auto;padding:0;border:0;background:transparent}.article-'+a['slug']+' .zh-herald-share-cover img{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain}.article-'+a['slug']+' .article-service-table{overflow-x:auto;max-width:100%;margin:18px 0}.article-'+a['slug']+' table{min-width:490px;width:100%;border-collapse:collapse}.article-'+a['slug']+' th,.article-'+a['slug']+' td{padding:10px;text-align:left;vertical-align:top;border:1px solid #d5dce2;line-height:1.6;font-size:14px}.article-'+a['slug']+' th{background:#163347;color:#fff}.article-'+a['slug']+' caption{text-align:left;font-weight:600;margin-bottom:8px}.article-'+a['slug']+' .zh-herald-reading-item span{overflow-wrap:anywhere}.article-'+a['slug']+' .zh-herald-main{min-width:0}</style>'
+style='<style>.article-'+a['slug']+' .zh-herald-share-cover{max-width:360px;margin:18px auto;padding:0;border:0;background:transparent}.article-'+a['slug']+' .zh-herald-share-cover img{display:block;width:100%;height:auto;aspect-ratio:2 / 1;object-fit:contain}.article-'+a['slug']+' .article-service-table{overflow-x:auto;max-width:100%;margin:18px 0}.article-'+a['slug']+' table{min-width:490px;width:100%;border-collapse:collapse}.article-'+a['slug']+' th,.article-'+a['slug']+' td{padding:10px;text-align:left;vertical-align:top;border:1px solid #d5dce2;line-height:1.6;font-size:14px}.article-'+a['slug']+' th{background:#163347;color:#fff}.article-'+a['slug']+' caption{text-align:left;font-weight:600;margin-bottom:8px}.article-'+a['slug']+' .zh-herald-reading-item span{overflow-wrap:anywhere}.article-'+a['slug']+' .zh-herald-main{min-width:0}</style>'
 s=s.replace('</head>',style+'</head>',1)
 target=root/a['path'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(s)
 entry={'type':'Insight','title':a['titleZh'],'url':a['path'],'desc':a['summaryZh']}
