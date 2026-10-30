@@ -3,10 +3,10 @@
   "path": "/zh/services/japan-employment-preparation/",
   "titleZh": "日本就業準備陪跑｜海外督導 OTC",
   "summaryZh": "日本特定技能就業準備：方向評估、日語與技能考試計劃、費用預算、申請材料及面試準備。免費初步諮詢，正式陪跑按服務範圍報價。",
-  "shareImageZh": "/assets/social/japan-employment-service-20260930-v1.png",
-  "socialImageVersion": "v=20260930-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-japan-employment-preparation-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 206,
   "sections": [
     {
       "heading": "服務對象",
@@ -52,5 +52,6 @@
         "OTC 提供規劃、資訊整理及申請準備陪跑。崗位推薦或招聘代辦不包含在本頁服務內；如需另行安排，須先確認承接機構、資質、服務範圍及費用。僱主負責錄用決定，主管機關負責簽證與在留審批，陪跑服務不承諾錄用、簽證或永住結果。法律意見及需特定資質辦理的事項，由相應專業人士處理。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

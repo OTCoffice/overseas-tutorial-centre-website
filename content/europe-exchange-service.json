@@ -3,9 +3,9 @@
   "path": "/zh/services/europe-exchange-support/",
   "titleZh": "歐洲交換陪跑｜選課、學分與碩士申請",
   "summaryZh": "歐洲交換的選項、選課學分、文件與行前準備。OTC 初步諮詢免費，標準交換陪跑人民幣2,988元／10小時；校方負責提名與審核。",
-  "socialImageVersion": "v=20260915-herald-2",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 186,
   "sections": [
     {
       "heading": "哪些情況可以找我們",
@@ -61,6 +61,7 @@
       ]
     }
   ],
-  "shareImageZh": "/assets/social/europe-exchange-service-0ce826552b68.png",
-  "socialTitleZh": "歐洲交換陪跑：選課與升碩安排"
+  "shareImageZh": "/assets/social/native-europe-exchange-support-20261030.png",
+  "socialTitleZh": "歐洲交換陪跑：選課與升碩安排",
+  "socialImageSource": "page-hero"
 }

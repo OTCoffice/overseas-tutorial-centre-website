@@ -2,10 +2,10 @@
   "path": "/zh/services/a-level-predicted-grade-assessment/",
   "titleZh": "A Level 科目評估｜預估成績與自修考生支援",
   "summaryZh": "A Level 中文及其他科目的學習證據評估、模擬測試、預估成績材料與自修考生申請支援。先確認考試局、科目及接收要求，再安排評估。",
-  "shareImageZh": "/assets/social/a-level-assessment-20261028-v1.png",
-  "socialImageVersion": "20261028-v1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-a-level-predicted-grade-assessment-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "sections": [
     {
       "heading": "服務對象",
@@ -52,5 +52,6 @@
         "資料核查：2026年10月28日。預估應基於可證明的表現與專業判斷；申請材料及提交要求以接收院校、推薦人與考試局當期規定為準。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

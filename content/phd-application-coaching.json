@@ -3,10 +3,10 @@
   "path": "/zh/services/phd-application-coaching/",
   "titleZh": "申博陪跑｜研究方向、導師與資助、申請及面試｜海外督導 OTC",
   "summaryZh": "博士申請輔導：選校與導師、研究計劃、申請文書、獎學金申請及面試。提供單項輔導及全程申請服務，按申請數量與服務內容報價。",
-  "socialImageVersion": "v=20260929-2",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
-  "shareImageZh": "/assets/social/phd-application-coaching-20260929-v2.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 288,
+  "shareImageZh": "/assets/social/native-phd-application-coaching-20261030.png",
   "sections": [
     {
       "heading": "選校與導師",
@@ -80,5 +80,6 @@
         "仍在考慮就業或讀博，可一併諮詢職涯方向。求職服務包括履歷、求職信修改、面試練習及投遞跟進，另行報價。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

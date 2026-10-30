@@ -2,9 +2,9 @@
   "path": "/zh/services/poland-work-residence-support/",
   "titleZh": "波蘭工作與居留｜許可申請與進度整理",
   "summaryZh": "波蘭工作許可、臨時居留與工作許可的區別、審理時間、材料及申請進度整理。按所在地與申請類別核對官方資訊，附OTC支援範圍與收費。",
-  "shareImageZh": "/assets/social/poland-work-residence-header.png",
-  "socialImageVersion": "v=20261029-header",
-  "socialImageWidth": 1528,
+  "shareImageZh": "/assets/social/native-poland-work-residence-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
   "socialImageHeight": 232,
   "sections": [
     {
@@ -47,5 +47,6 @@
         "資料核對：2026年10月29日。<a href=\"https://www.gov.pl/web/uw-mazowiecki/nowe-przepisy-dotyczace-zezwolen-na-prace\">工作許可新規</a> · <a href=\"https://www.gov.pl/web/uw-mazowiecki/problemy-techniczne-aplikacji-dedykowanej-do-rozpatrywania-wnioskow2\">系統延誤通知</a>。實際資格與期限依申請類別、所在地及當期規定確認。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

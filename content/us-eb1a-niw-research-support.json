@@ -2,10 +2,10 @@
   "path": "/zh/services/us-eb1a-niw-research-support/",
   "titleZh": "美國 EB-1A／NIW｜研究材料支援",
   "summaryZh": "本科直博、學歷門檻、論文與審稿證據；OTC 提供學術 CV、成果目錄及文件整理，移民法律判斷由美國合資格律師處理。",
-  "shareImageZh": "/assets/social/us-eb1a-niw-20261020-v1.png",
-  "socialImageVersion": "20261020-v1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-us-eb1a-niw-research-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "reviewed": "2026-10-20",
   "groups": [
     [
@@ -228,5 +228,6 @@
         ]
       ]
     ]
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

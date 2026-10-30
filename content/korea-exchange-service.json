@@ -3,8 +3,8 @@
   "path": "/zh/services/korea-exchange-support/",
   "titleZh": "韓國交換陪跑｜選校、課程、學分與行前準備",
   "summaryZh": "比較韓國交換院校，核對課程語言與學分，整理文件、住宿預算和時間表。初步評估免費，持續陪跑的範圍與費用先確認。",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "socialImageWidth": 1333,
+  "socialImageHeight": 186,
   "sections": [
     {
       "heading": "哪些情況適合找我們",
@@ -57,6 +57,7 @@
     }
   ],
   "socialTitleZh": "韓國交換陪跑",
-  "shareImageZh": "/assets/social/korea-exchange-service-c5bafbb10d29.png",
-  "socialImageVersion": "20260916-c5bafbb10d29"
+  "shareImageZh": "/assets/social/native-korea-exchange-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageSource": "page-hero"
 }

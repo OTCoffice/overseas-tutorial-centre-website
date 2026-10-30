@@ -334,7 +334,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
       telephone: "+447947991572"
     }
   };
-  return `<!doctype html>
+  const renderedHtml = `<!doctype html>
 <html lang="${lang}">
 <head>
   <meta charset="utf-8">
@@ -375,6 +375,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   ${pageUtilityScript()}
 </body>
 </html>`;
+  return require('./content/service-native-header.cjs')(renderedHtml,canonicalPath);
 }
 
 module.exports = { nav, pageShell, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };

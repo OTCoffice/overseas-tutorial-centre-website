@@ -2,10 +2,10 @@
   "path": "/zh/services/singapore-work-pass-support/",
   "titleZh": "新加坡工作准證｜EP・S Pass 流程與申請支援｜海外督導 OTC",
   "summaryZh": "新加坡工作准證與求職準備：EP、S Pass 薪資門檻、COMPASS、雇主配額、聘用條件、申請材料、IPA 與入職流程。",
-  "shareImageZh": "/assets/social/singapore-work-pass-20261020-v1.png",
-  "socialImageVersion": "20261020-v1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-singapore-work-pass-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "reviewed": "2026-10-20",
   "groups": [
     [
@@ -275,5 +275,6 @@
         ]
       ]
     ]
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

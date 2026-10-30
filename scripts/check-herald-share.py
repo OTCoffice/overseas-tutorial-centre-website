@@ -17,7 +17,7 @@ class Page(HTMLParser):
             k=a.get('property',a.get('name',''));self.meta.setdefault(k,[]).append(a.get('content',''))
         if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href'))
         if tag=='img':self.images.append(a)
-        if tag=='section' and 'page-hero' in a.get('class','').split() and a.get('data-share-image'):
+        if tag in ('section','header') and any(c in a.get('class','').split() for c in ('page-hero','services-hero','vn-hero','affordable-compact-header')) and a.get('data-share-image'):
             self.captured_heroes.append({'src':a['data-share-image'],'alt':a.get('aria-label'),'width':a.get('data-share-width'),'height':a.get('data-share-height')})
     def handle_endtag(self,tag):
         if tag=='head':self.in_head=False

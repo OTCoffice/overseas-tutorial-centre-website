@@ -4,10 +4,10 @@
   "name": "高性價比留學",
   "titleZh": "高性價比留學｜低學費、獎學金與帶薪培訓｜海外督導 OTC",
   "summaryZh": "比較德國、奧地利、捷克低學費課程，意大利助學金、Erasmus Mundus、日韓獎學金、澳洲研究資助及帶薪培訓；附申請條件、全程預算與官方來源。",
-  "shareImageZh": "/assets/social/affordable-study-20261023-v1.png",
-  "socialImageVersion": "v=20261023-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-affordable-study-abroad-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1100,
+  "socialImageHeight": 126,
   "updated": "2026-10-23",
   "sections": [
     {
@@ -92,5 +92,6 @@
       "Chevening｜申請資格",
       "https://www.chevening.org/resource-hub/guidance/eligibility/"
     ]
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

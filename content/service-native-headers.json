@@ -1,0 +1,533 @@
+{
+  "/zh/services/a-level-predicted-grade-assessment/": {
+    "title": "A Level 科目評估",
+    "image": "/assets/social/native-a-level-predicted-grade-assessment-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/a-level-predicted-grade-assessment/index.html",
+    "previousImage": "/assets/social/a-level-assessment-20261028-v1.png"
+  },
+  "/zh/services/affordable-study-abroad/": {
+    "title": "想出國，預算不多？從低學費到帶薪培訓",
+    "image": "/assets/social/native-affordable-study-abroad-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1100,
+    "height": 126,
+    "file": "zh/services/affordable-study-abroad/index.html",
+    "previousImage": "/assets/social/affordable-study-20261023-v1.png"
+  },
+  "/zh/services/ai-tool-shop/": {
+    "title": "AI 工具小舖",
+    "image": "/assets/social/native-ai-tool-shop-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/ai-tool-shop/index.html",
+    "previousImage": "/assets/social/ai-tool-shop-20261024.png"
+  },
+  "/zh/services/ai-workflow-automation/": {
+    "title": "企業 AI 與工作流程自動化",
+    "image": "/assets/social/native-ai-workflow-automation-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/ai-workflow-automation/index.html",
+    "previousImage": "/assets/social/ai-workflow-automation-20261003.png"
+  },
+  "/zh/services/animation-portfolio-support/": {
+    "title": "動畫與原作作品集支援",
+    "image": "/assets/social/native-animation-portfolio-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 166,
+    "file": "zh/services/animation-portfolio-support/index.html",
+    "previousImage": "/assets/social/animation-portfolio-service-a4c9481c3a17.png"
+  },
+  "/zh/services/art-portfolio-coaching/": {
+    "title": "設計申請｜藝術總監",
+    "image": "/assets/social/native-art-portfolio-coaching-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 204,
+    "file": "zh/services/art-portfolio-coaching/index.html",
+    "previousImage": "/assets/social/art-portfolio-coaching-20260930-v1.png"
+  },
+  "/zh/services/au-pair-support/": {
+    "title": "互惠生 Au Pair",
+    "image": "/assets/social/native-au-pair-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/au-pair-support/index.html",
+    "previousImage": "/assets/social/au-pair-support-20261010.png"
+  },
+  "/zh/services/australia-transfer-release-support/": {
+    "title": "澳洲轉校與 Release 申請協調",
+    "image": "/assets/social/native-australia-transfer-release-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 166,
+    "file": "zh/services/australia-transfer-release-support/index.html",
+    "previousImage": "/assets/social/australia-release-service-20260915-v2.png"
+  },
+  "/zh/services/business-english-study-support/": {
+    "title": "商業英語陪跑",
+    "image": "/assets/social/native-business-english-study-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 204,
+    "file": "zh/services/business-english-study-support/index.html",
+    "previousImage": "/assets/social/business-english-service-20260916-v1.png"
+  },
+  "/zh/services/business-transfer/": {
+    "title": "商業轉讓與買家對接",
+    "image": "/assets/social/native-business-transfer-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/business-transfer/index.html",
+    "previousImage": "/assets/social/business-transfer-20261003.png"
+  },
+  "/zh/services/canada-school-application/": {
+    "title": "加拿大中小學申請",
+    "image": "/assets/social/native-canada-school-application-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/canada-school-application/index.html",
+    "previousImage": "/assets/social/canada-school-application-20261004-v1.png"
+  },
+  "/zh/services/career-contract-signing-support/": {
+    "title": "職業簽約陪跑",
+    "image": "/assets/social/native-career-contract-signing-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/career-contract-signing-support/index.html",
+    "previousImage": "/assets/social/career-contract-signing-support.png"
+  },
+  "/zh/services/caribbean-citizenship/": {
+    "title": "第二護照",
+    "image": "/assets/social/native-caribbean-citizenship-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/caribbean-citizenship/index.html"
+  },
+  "/zh/services/credential-evaluation-document-coordination/": {
+    "title": "學歷認證與補件協調",
+    "image": "/assets/social/native-credential-evaluation-document-coordination-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/credential-evaluation-document-coordination/index.html",
+    "previousImage": "/assets/social/credential-evaluation-document-coordination-20260927.png"
+  },
+  "/zh/services/custom-lesson-plans-teaching-materials/": {
+    "title": "教案・教輔・教材訂製",
+    "image": "/assets/social/native-custom-lesson-plans-teaching-materials-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/custom-lesson-plans-teaching-materials/index.html"
+  },
+  "/zh/services/design-application-coaching/": {
+    "title": "設計申請陪跑",
+    "image": "/assets/social/native-design-application-coaching-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/design-application-coaching/index.html",
+    "previousImage": "/assets/social/design-application-service-03196d45775b.png"
+  },
+  "/zh/services/english-cv-interview-support/": {
+    "title": "英文履歷與面試",
+    "image": "/assets/social/native-english-cv-interview-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 220,
+    "file": "zh/services/english-cv-interview-support/index.html",
+    "previousImage": "/assets/social/english-cv-interview-support-20261002.png"
+  },
+  "/zh/services/europe-agriculture-internship/": {
+    "title": "歐洲農業實習",
+    "image": "/assets/social/native-europe-agriculture-internship-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/europe-agriculture-internship/index.html",
+    "previousImage": "/assets/social/europe-agriculture-internship-20261023.png"
+  },
+  "/zh/services/europe-exchange-support/": {
+    "title": "歐洲交換陪跑",
+    "image": "/assets/social/native-europe-exchange-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/europe-exchange-support/index.html",
+    "previousImage": "/assets/social/europe-exchange-service-0ce826552b68.png"
+  },
+  "/zh/services/france-business-schools/": {
+    "title": "法國高商留學",
+    "image": "/assets/social/native-france-business-schools-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/france-business-schools/index.html",
+    "previousImage": "/assets/social/france-business-schools-20261023-v1.png"
+  },
+  "/zh/services/germany-ausbildung/": {
+    "title": "德國雙元制",
+    "image": "/assets/social/native-germany-ausbildung-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 220,
+    "file": "zh/services/germany-ausbildung/index.html",
+    "previousImage": "/assets/social/germany-ausbildung-header-20261029.png"
+  },
+  "/zh/services/graduate-job-search-visas/": {
+    "title": "高學歷求職簽證",
+    "image": "/assets/social/native-graduate-job-search-visas-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/graduate-job-search-visas/index.html"
+  },
+  "/zh/services/hong-kong-minor-guardianship-homestay/": {
+    "title": "香港低齡住宿與監護協調",
+    "image": "/assets/social/native-hong-kong-minor-guardianship-homestay-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/hong-kong-minor-guardianship-homestay/index.html",
+    "previousImage": "/assets/social/hk-guardianship-service-20261014.png"
+  },
+  "/zh/services/hong-kong-research-degree-application/": {
+    "title": "香港研究型碩博申請",
+    "image": "/assets/social/native-hong-kong-research-degree-application-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/hong-kong-research-degree-application/index.html",
+    "previousImage": "/assets/social/hong-kong-research-degree-20261029-v1.png"
+  },
+  "/zh/services/international-sourcing/": {
+    "title": "國際採購與商務對接",
+    "image": "/assets/social/native-international-sourcing-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/international-sourcing/index.html",
+    "previousImage": "/assets/social/international-sourcing-20261002.png"
+  },
+  "/zh/services/internship-coaching/": {
+    "title": "實習陪跑",
+    "image": "/assets/social/native-internship-coaching-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/internship-coaching/index.html",
+    "previousImage": "/assets/social/internship-coaching-20261001-v1.png"
+  },
+  "/zh/services/japan-employment-preparation/": {
+    "title": "日本就業準備陪跑",
+    "image": "/assets/social/native-japan-employment-preparation-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/japan-employment-preparation/index.html",
+    "previousImage": "/assets/social/japan-employment-service-20260930-v1.png"
+  },
+  "/zh/services/japan-graduate-application/": {
+    "title": "日本大學院",
+    "image": "/assets/social/native-japan-graduate-application-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/japan-graduate-application/index.html"
+  },
+  "/zh/services/korea-exchange-support/": {
+    "title": "韓國交換陪跑",
+    "image": "/assets/social/native-korea-exchange-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/korea-exchange-support/index.html",
+    "previousImage": "/assets/social/korea-exchange-service-c5bafbb10d29.png"
+  },
+  "/zh/services/korea-masters-application/": {
+    "title": "韓國藝術碩士",
+    "image": "/assets/social/native-korea-masters-application-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 186,
+    "file": "zh/services/korea-masters-application/index.html",
+    "previousImage": "/assets/social/korea-masters-service-20261009.png"
+  },
+  "/zh/services/language-context-studio/": {
+    "title": "中英翻譯與商務溝通服務",
+    "image": "/assets/social/native-language-context-studio-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 216,
+    "file": "zh/services/language-context-studio/index.html"
+  },
+  "/zh/services/malaysia-study/": {
+    "title": "馬來西亞留學",
+    "image": "/assets/social/native-malaysia-study-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/malaysia-study/index.html",
+    "previousImage": "/assets/social/malaysia-study-zh-20260918.png"
+  },
+  "/zh/services/masters-country-planning/": {
+    "title": "碩士選國與申請規劃",
+    "image": "/assets/social/native-masters-country-planning-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/masters-country-planning/index.html",
+    "previousImage": "/assets/social/masters-country-planning-20261002.png"
+  },
+  "/zh/services/media-remote-internship/": {
+    "title": "新傳遠程實習",
+    "image": "/assets/social/native-media-remote-internship-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/media-remote-internship/index.html",
+    "previousImage": "/assets/social/media-remote-internship-approved-header.png"
+  },
+  "/zh/services/personal-statement-support/": {
+    "title": "Personal Statement個人陳述與申請文書",
+    "image": "/assets/social/native-personal-statement-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 184,
+    "file": "zh/services/personal-statement-support/index.html",
+    "previousImage": "/assets/social/personal-statement-support-zh-20260930-v2.png"
+  },
+  "/zh/services/phd-application-coaching/": {
+    "title": "申博陪跑",
+    "image": "/assets/social/native-phd-application-coaching-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/phd-application-coaching/index.html",
+    "previousImage": "/assets/social/phd-application-coaching-20260929-v2.png"
+  },
+  "/zh/services/poland-work-residence-support/": {
+    "title": "波蘭工作與居留",
+    "image": "/assets/social/native-poland-work-residence-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/poland-work-residence-support/index.html",
+    "previousImage": "/assets/social/poland-work-residence-header.png"
+  },
+  "/zh/services/portfolio-website-support/": {
+    "title": "作品網站與雙語介紹",
+    "image": "/assets/social/native-portfolio-website-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 308,
+    "file": "zh/services/portfolio-website-support/index.html",
+    "previousImage": "/assets/social/portfolio-website-support-20261002.png"
+  },
+  "/zh/services/singapore-internship-support/": {
+    "title": "海外督導｜新加坡實習",
+    "image": "/assets/social/native-singapore-internship-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/singapore-internship-support/index.html",
+    "previousImage": "/assets/social/singapore-internship-page-20261002-v3.jpg"
+  },
+  "/zh/services/singapore-work-pass-support/": {
+    "title": "海外督導｜新加坡工作准證",
+    "image": "/assets/social/native-singapore-work-pass-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/singapore-work-pass-support/index.html",
+    "previousImage": "/assets/social/singapore-work-pass-20261020-v1.png"
+  },
+  "/zh/services/ssci-academic-supervision/": {
+    "title": "SSCI 學術督導",
+    "image": "/assets/social/native-ssci-academic-supervision-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/ssci-academic-supervision/index.html",
+    "previousImage": "/assets/social/ssci-academic-supervision-20261001-v1.png"
+  },
+  "/zh/services/ssci-academic-supervision/subjects/": {
+    "title": "學科分類",
+    "image": "/assets/social/native-ssci-academic-supervision-subjects-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/ssci-academic-supervision/subjects/index.html",
+    "previousImage": "/assets/social/ssci-academic-subjects-20261001-v1.png"
+  },
+  "/zh/services/study-tour-programme-review/": {
+    "title": "研學項目評估",
+    "image": "/assets/social/native-study-tour-programme-review-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/study-tour-programme-review/index.html",
+    "previousImage": "/assets/social/study-tour-review-header-20261030-v2.png"
+  },
+  "/zh/services/taiwan-art-design-admissions/": {
+    "title": "台灣藝術與設計升學",
+    "image": "/assets/social/native-taiwan-art-design-admissions-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/taiwan-art-design-admissions/index.html",
+    "previousImage": "/assets/social/taiwan-art-design-header-20261030.png"
+  },
+  "/zh/services/travel-planning/": {
+    "title": "旅遊規劃",
+    "image": "/assets/social/native-travel-planning-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/travel-planning/index.html",
+    "previousImage": "/assets/social/travel-planning-20261003.png"
+  },
+  "/zh/services/travel-services/": {
+    "title": "旅行服務",
+    "image": "/assets/social/native-travel-services-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/travel-services/index.html",
+    "previousImage": "/assets/social/travel-services-20261003.png"
+  },
+  "/zh/services/uk-company-registration-business-bank-account/": {
+    "title": "海外人士註冊英國公司及商業銀行開戶",
+    "image": "/assets/social/native-uk-company-registration-business-bank-account-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/uk-company-registration-business-bank-account/index.html"
+  },
+  "/zh/services/uk-global-talent-support/": {
+    "title": "海外督導｜英國 Global Talent",
+    "image": "/assets/social/native-uk-global-talent-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/uk-global-talent-support/index.html",
+    "previousImage": "/assets/social/uk-global-talent-20261020-v1.png"
+  },
+  "/zh/services/uk-rental-support/": {
+    "title": "英國找房與租房支援",
+    "image": "/assets/social/native-uk-rental-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/uk-rental-support/index.html",
+    "previousImage": "/assets/social/uk-rental-support-20261028-v2.png"
+  },
+  "/zh/services/uk-sop-editing/": {
+    "title": "英碩 SOP 邏輯與架構修改",
+    "image": "/assets/social/native-uk-sop-editing-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/uk-sop-editing/index.html",
+    "previousImage": "/assets/social/uk-sop-editing-20260927-v1.png"
+  },
+  "/zh/services/university-application-advisory/": {
+    "title": "大學申請顧問",
+    "image": "/assets/social/native-university-application-advisory-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 268,
+    "file": "zh/services/university-application-advisory/index.html"
+  },
+  "/zh/services/us-community-college/": {
+    "title": "美國社區大學申請協助",
+    "image": "/assets/social/native-us-community-college-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 285,
+    "file": "zh/services/us-community-college/index.html"
+  },
+  "/zh/services/us-eb1a-niw-research-support/": {
+    "title": "海外督導｜美國 EB-1A／NIW",
+    "image": "/assets/social/native-us-eb1a-niw-research-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 232,
+    "file": "zh/services/us-eb1a-niw-research-support/index.html",
+    "previousImage": "/assets/social/us-eb1a-niw-20261020-v1.png"
+  },
+  "/zh/services/us-opt-job-search-support/": {
+    "title": "美國 OPT 求職支援",
+    "image": "/assets/social/native-us-opt-job-search-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 220,
+    "file": "zh/services/us-opt-job-search-support/index.html",
+    "previousImage": "/assets/social/us-opt-job-search-support-20261006.png"
+  },
+  "/zh/services/us-visa-support/": {
+    "title": "美國簽證協助",
+    "image": "/assets/social/native-us-visa-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/us-visa-support/index.html",
+    "previousImage": "/assets/social/us-visa-support-20261022.png"
+  },
+  "/zh/services/usa-itp-support/": {
+    "title": "美國 ITP 實習與培訓",
+    "image": "/assets/social/native-usa-itp-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 236,
+    "file": "zh/services/usa-itp-support/index.html",
+    "previousImage": "/assets/social/usa-itp-support-20261021-v1.png"
+  },
+  "/zh/services/vietnam-visa/": {
+    "title": "越南簽證代辦",
+    "image": "/assets/social/native-vietnam-visa-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1032,
+    "height": 279,
+    "file": "zh/services/vietnam-visa/index.html"
+  },
+  "/zh/services/visa-application-support/": {
+    "title": "簽證陪跑",
+    "image": "/assets/social/native-visa-application-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 206,
+    "file": "zh/services/visa-application-support/index.html",
+    "previousImage": "/assets/social/visa-support-zh-20260918.png"
+  },
+  "/zh/services/visiting-scholar-support/": {
+    "title": "訪問學者與學術交流",
+    "image": "/assets/social/native-visiting-scholar-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/services/visiting-scholar-support/index.html",
+    "previousImage": "/assets/social/visiting-scholar-support-20261001.png"
+  },
+  "/zh/services/work-exchange-support/": {
+    "title": "打工換宿",
+    "image": "/assets/social/native-work-exchange-support-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 252,
+    "file": "zh/services/work-exchange-support/index.html",
+    "previousImage": "/assets/social/work-exchange-support-20261001-v1.png"
+  }
+}

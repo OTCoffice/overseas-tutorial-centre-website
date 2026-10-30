@@ -3,10 +3,10 @@
   "slug": "visa-application-support",
   "titleZh": "簽證陪跑｜文件整理、申請進度與行前準備",
   "summaryZh": "把官方要求整理成清楚的文件清單與準備時間表。先確認服務範圍和費用，再按約定跟進。",
-  "shareImageZh": "/assets/social/visa-support-zh-20260918.png",
-  "socialImageVersion": "v=20260918-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-visa-application-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 206,
   "lang": "zh",
   "sections": [
     {
@@ -52,5 +52,6 @@
         "<strong>初次需要傳護照和銀行流水嗎？</strong>不用。先提供護照國家／地區、現居地、目的地、出行目的和日期。需要文件時再確認用途與傳送方式；不要傳密碼、驗證碼或公開張貼證件。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

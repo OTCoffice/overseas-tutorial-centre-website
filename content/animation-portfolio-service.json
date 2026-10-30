@@ -2,10 +2,10 @@
   "path": "/zh/services/animation-portfolio-support/",
   "titleZh": "動畫與原作作品集支援",
   "summaryZh": "北藝大等動畫升學方向初評、作品規劃、導師匹配、面談與報考進度支援；專業輔導及費用先行確認。",
-  "socialImageVersion": "v=20260915-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
-  "shareImageZh": "/assets/social/animation-portfolio-service-a4c9481c3a17.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 166,
+  "shareImageZh": "/assets/social/native-animation-portfolio-support-20261030.png",
   "sections": [
     {
       "heading": "十、建議準備節奏：依正式截止日倒排",
@@ -37,5 +37,6 @@
         "海外督導重視的是可執行的師資組合：需求評估、專長核對、階段回饋、進度跟進。本文不以未完成核實或尚待合作確認的候選人履歷宣稱已聘師資，也不把其他院校教師寫成 OTC 任課老師。個案可在確認服務前了解擬配導師背景及具體輔導內容。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

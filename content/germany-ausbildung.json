@@ -4,9 +4,10 @@
   "path": "/zh/services/germany-ausbildung/",
   "titleZh": "德國雙元制 Ausbildung｜海外督導 OTC",
   "summaryZh": "德國雙元制 Ausbildung、本科轉職訓、德語、培訓合約、生活費及居留銜接，附OTC服務流程與收費範圍。",
-  "shareImageZh": "/assets/social/germany-ausbildung-header-20261029.png",
-  "socialImageVersion": "v=20261029-header",
-  "socialImageWidth": 1019,
+  "shareImageZh": "/assets/social/native-germany-ausbildung-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
   "socialImageHeight": 220,
-  "updated": "2026-10-29"
+  "updated": "2026-10-29",
+  "socialImageSource": "page-hero"
 }

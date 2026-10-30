@@ -30,9 +30,10 @@
   "path": "/zh/services/english-cv-interview-support/",
   "titleZh": "英文履歷與面試｜海外督導 OTC",
   "summaryZh": "英文履歷、求職信與 LinkedIn 修改及面試準備；文書修改先確認範圍與報價，付款後詳細審閱及提供修改建議。",
-  "shareImageZh": "/assets/social/english-cv-interview-support-20261002.png",
-  "socialImageVersion": "v=20261002",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
-  "updated": "2026-10-21"
+  "shareImageZh": "/assets/social/native-english-cv-interview-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 220,
+  "updated": "2026-10-21",
+  "socialImageSource": "page-hero"
 }

@@ -3,10 +3,10 @@
   "path": "/zh/services/personal-statement-support/",
   "titleZh": "Personal Statement 個人陳述與申請文書協助｜海外督導 OTC",
   "summaryZh": "個人陳述與申請文書協助：先確認範圍、報價與時間，付款後開始詳細審閱、批註及修訂複核。",
-  "shareImageZh": "/assets/social/personal-statement-support-zh-20260930-v2.png",
-  "socialImageVersion": "v=20260930-2",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-personal-statement-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 184,
   "sections": [
     {
       "heading": "服務內容",
@@ -24,5 +24,6 @@
       "heading": "申請須知",
       "html": "<p>文書須反映你的真實經歷，並符合院校對外部協助及 AI 使用的規定。我們不編造經歷、不保證錄取。</p><p>首次聯絡毋須證件，稿件可遮去姓名、學號及聯絡資料。</p>"
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

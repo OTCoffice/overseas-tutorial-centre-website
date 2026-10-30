@@ -4,10 +4,10 @@
   "path": "/zh/services/media-remote-internship/",
   "titleZh": "新傳遠程實習｜項目費 £150",
   "summaryZh": "海外督導雙語世界新傳類遠程實習：項目費150英鎊，申請前確認任務、週期、時數、指導及成果安排。",
-  "shareImageZh": "/assets/social/media-remote-internship-approved-header.png",
-  "socialImageVersion": "v=20261029-approved",
-  "socialImageWidth": 1013,
-  "socialImageHeight": 149,
+  "shareImageZh": "/assets/social/native-media-remote-internship-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "sections": [
     {
       "heading": "項目",
@@ -52,5 +52,6 @@
         "更新：2026年10月29日。項目費由 OTC 確認；具體名額與執行安排以報名前的書面方案為準。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

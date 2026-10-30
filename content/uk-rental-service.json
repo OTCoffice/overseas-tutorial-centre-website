@@ -2,10 +2,10 @@
   "path": "/zh/services/uk-rental-support/",
   "titleZh": "英國找房與租房支援",
   "summaryZh": "海外督導雙語世界學生服務部：留學生房源比較、租約資料整理、退租溝通、押金及證據整理，按服務範圍書面報價。",
-  "shareImageZh": "/assets/social/uk-rental-support-20261028-v2.png",
-  "socialImageVersion": "20261028-v2",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-uk-rental-support-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 232,
   "sections": [
     {
       "heading": "服務內容",
@@ -52,5 +52,6 @@
         "資料核查：2026年10月28日。以上通知期說明限所述英格蘭租住類型；其他地區按當地規定確認。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

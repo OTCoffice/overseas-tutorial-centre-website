@@ -4,10 +4,10 @@
   "name": "法國高商留學",
   "titleZh": "法國高商留學｜IÉSEG、NEOMA、emlyon、EDHEC、SKEMA｜海外督導 OTC",
   "summaryZh": "法國高商選校與申請規劃，涵蓋 IÉSEG、NEOMA、emlyon、EDHEC、SKEMA，按 MiM、MSc、GMAT 要求、預算及職涯目標比較。",
-  "shareImageZh": "/assets/social/france-business-schools-20261023-v1.png",
-  "socialImageVersion": "v=20261023-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-france-business-schools-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 268,
   "updated": "2026-10-23",
   "sections": [
     {
@@ -64,5 +64,6 @@
       "GMAC：GMAT 分數與版本",
       "https://www.gmac.com/gmat-other-assessments/about-the-gmat-focus-edition/exam-scores"
     ]
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }

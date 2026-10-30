@@ -4,10 +4,10 @@
   "lang": "zh",
   "titleZh": "馬來西亞留學｜院校、專業、申請與費用｜海外督導 OTC",
   "summaryZh": "從 TAR UMT、UM、UTM、USM 的課程開始比較，整理申請路徑、完整預算、認可查詢與赴馬準備。",
-  "shareImageZh": "/assets/social/malaysia-study-zh-20260918.png",
-  "socialImageVersion": "v=20260918-1",
-  "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "shareImageZh": "/assets/social/native-malaysia-study-20261030.png",
+  "socialImageVersion": "v=20261030-native",
+  "socialImageWidth": 1333,
+  "socialImageHeight": 206,
   "sections": [
     {
       "heading": "先選專業，再比較學校",
@@ -75,5 +75,6 @@
         "<strong>需要現在傳護照或銀行資料嗎？</strong>初次諮詢不用。先提供學歷、成績概況、英語水平、想讀的專業、預算和入學時間；需要文件時再確認用途及傳送方式。"
       ]
     }
-  ]
+  ],
+  "socialImageSource": "page-hero"
 }
