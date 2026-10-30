@@ -65,3 +65,6 @@ require('./scripts/render-private-school-hub.cjs');
 
 // Preserve the affordable study guide and directory entries.
 require('./scripts/render-affordable-study.cjs');
+
+// Keep German freelance residence service and directory in sync.
+require("./scripts/render-germany-freelance.cjs");
