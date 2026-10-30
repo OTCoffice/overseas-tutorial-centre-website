@@ -43,6 +43,12 @@ for(const c of selectedData){
   }
   body=body.replace('<aside><h2>免費代辦</h2>','<aside><h2>申請諮詢</h2>').replace('海外督導 OTC<br>海圖規劃・留學諮詢','海外督導雙語世界<br>招生部');
  }
+ if(c.slug==='south-korea'){
+  const hero=require('../content/academic-subpage.cjs')('韓國語學院', '').replace(/<main[\s\S]*?<\/main>/,'').replace(/<section class="band service-review-strip">[\s\S]*?<\/section>/,'').replace('教育服務與雙語學習','韓語課程・學校目錄・免費代辦').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','按城市、開課時間與預算比較韓國語學院，核對課程及申請材料。').replace('海圖規劃・留學諮詢','招生部');
+  const panel='<aside class="service-hero-panel"><a href="#directory"><strong>學校目錄</strong><span>城市・課程・校區</span></a><a href="#process"><strong>申請流程</strong><span>材料與時間安排</span></a><a href="#government"><strong>官方資料</strong><span>簽證與居留要求</span></a><a href="'+wa(c.name)+'"><strong>免費代辦</strong><span>先確認服務範圍</span></a></aside>';
+  const nativeHero=hero.replace(/<aside class="service-hero-panel">[\s\S]*?<\/aside>/,panel);
+  body=body.replace(/<main class="lang-directory" id="top"><div class="lang-hero">[\s\S]*?<\/div><nav class="quicknav"[\s\S]*?<\/nav>/,nativeHero+'<main class="lang-directory" id="top">');
+ }
  body=body.replace('<section class="notes">',government(c.slug)+'<section class="notes">');
  write(base+c.slug+'/',c.name+'語言學校｜學校目錄・免費代辦｜海外督導 OTC',`按地區比較${c.name}${c.schools.length}筆語言學校、中心與課程資料。附官方網站、Notion中文介紹、申請流程及免費代辦。`,body,c.slug);
 }

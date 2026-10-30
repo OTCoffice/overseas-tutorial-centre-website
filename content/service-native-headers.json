@@ -537,5 +537,14 @@
     "width": 1333,
     "height": 232,
     "title": "首爾親子 K-Pop 體驗"
+  },
+  "/zh/language-school-alliance/south-korea/": {
+    "title": "韓國語學院",
+    "image": "/assets/social/native-south-korea-language-schools-20261030.png",
+    "version": "v=20261030-native",
+    "width": 1333,
+    "height": 288,
+    "file": "zh/language-school-alliance/south-korea/index.html",
+    "previousImage": "/assets/language-south-korea-20260930.png"
   }
 }
