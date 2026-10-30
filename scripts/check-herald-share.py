@@ -9,7 +9,7 @@ from urllib.parse import urljoin, urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__();self.meta={};self.images=[];self.canonical=[];self.in_head=False;self.feed(text)
+        super().__init__();self.meta={};self.images=[];self.captured_heroes=[];self.canonical=[];self.in_head=False;self.feed(text)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if tag=='head':self.in_head=True
@@ -17,6 +17,8 @@ class Page(HTMLParser):
             k=a.get('property',a.get('name',''));self.meta.setdefault(k,[]).append(a.get('content',''))
         if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href'))
         if tag=='img':self.images.append(a)
+        if tag=='section' and 'page-hero' in a.get('class','').split() and a.get('data-share-image'):
+            self.captured_heroes.append({'src':a['data-share-image'],'alt':a.get('aria-label'),'width':a.get('data-share-width'),'height':a.get('data-share-height')})
     def handle_endtag(self,tag):
         if tag=='head':self.in_head=False
 
@@ -34,7 +36,8 @@ def verify(text,a,base,locale='zh'):
     assert a.get(field),'Article source must explicitly set '+field
     assert urlsplit(image).path==urlsplit(a[field]).path,'Source image and metadata differ'
     assert a.get('socialImageVersion'),'Explicit image revision required'
-    hero=[x for x in p.images if urljoin(expected,x.get('src',''))==image]
+    candidates=p.captured_heroes if a.get('socialImageSource')=='page-hero' else p.images
+    hero=[x for x in candidates if urljoin(expected,x.get('src',''))==image]
     assert hero and hero[0].get('alt'),'Same image must render in article with alt'
     assert one('og:image:type') in ('image/png','image/jpeg')
     dims=(int(one('og:image:width')),int(one('og:image:height')))
