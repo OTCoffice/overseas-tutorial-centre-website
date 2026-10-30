@@ -392,8 +392,8 @@
   },
   "/zh/services/travel-planning/": {
     "title": "旅遊規劃",
-    "image": "/assets/social/native-travel-planning-20261030.png",
-    "version": "v=20261030-native",
+    "image": "/assets/social/native-travel-planning-types-20261030.png",
+    "version": "v=20261030-types",
     "width": 1333,
     "height": 288,
     "file": "zh/services/travel-planning/index.html",
@@ -401,8 +401,8 @@
   },
   "/zh/services/travel-services/": {
     "title": "旅行服務",
-    "image": "/assets/social/native-travel-services-20261030.png",
-    "version": "v=20261030-native",
+    "image": "/assets/social/native-travel-services-types-20261030.png",
+    "version": "v=20261030-types",
     "width": 1333,
     "height": 288,
     "file": "zh/services/travel-services/index.html",
@@ -529,5 +529,13 @@
     "height": 252,
     "file": "zh/services/work-exchange-support/index.html",
     "previousImage": "/assets/social/work-exchange-support-20261001-v1.png"
+  },
+  "/zh/services/seoul-family-kpop-experience/": {
+    "file": "zh/services/seoul-family-kpop-experience/index.html",
+    "image": "/assets/social/native-seoul-family-kpop-20261030.png",
+    "version": "v=20261030",
+    "width": 1333,
+    "height": 232,
+    "title": "首爾親子 K-Pop 體驗"
   }
 }

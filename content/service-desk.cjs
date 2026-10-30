@@ -185,7 +185,8 @@ const groups=[
     "海外生活與監護",
     "旅行規劃、住宿接送、抵埗安排、學校與家長聯絡，以及房產管理。",
     [
-      ["旅遊規劃", "/zh/services/travel-planning/", "目的地比較、歐洲自由行、每日行程與交通住宿規劃。"],
+      ["旅遊規劃", "/zh/services/travel-planning/", "親子、K-Pop、藝文、美食、自然等十二類旅行；每日行程與交通住宿規劃。"],
+      ["首爾親子 K-Pop 體驗", "/zh/services/seoul-family-kpop-experience/", "舞蹈、妝髮與拍攝比較；兒童年齡、家長陪同及預訂協助。"],
       ["旅行服務", "/zh/services/travel-services/", "英國自由行、藝文慢旅行、交通住宿比較與預訂協助。"],
       [
         "驛站調度與緊急協調",

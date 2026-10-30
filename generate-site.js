@@ -1,3 +1,4 @@
+require('./scripts/render-travel-services.cjs');
 require("./scripts/render-us-eb1a-niw.cjs");
 require("./scripts/render-uk-global-talent.cjs");
 
