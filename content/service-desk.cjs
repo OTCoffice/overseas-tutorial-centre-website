@@ -5,7 +5,7 @@ const groups=[
     "留學規劃與申請",
     "留學諮詢、國家與學科選擇、學校申請及短期留學。",
     [
-      ["公校聯盟", "/zh/public-school-alliance/", "英國六個公立辦學機構與德國公校；國際生、選科、費用及申請。"],
+      ["公校聯盟", "/zh/public-school-alliance/", "英國十二個公立辦學機構與德國公校；國際生、選科、費用及申請。"],
       ["義大利留學", "/zh/countries/italy/", "博洛尼亞 Global Cultures、北義選校、材料、住宿與留學預算。"],
       ["奧地利留學", "/zh/countries/austria/", "維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"],
       ["留學申請收費標準", "/zh/application-fees/", "同等服務參考價六折；免費代辦項目與第三方費用說明。"],
