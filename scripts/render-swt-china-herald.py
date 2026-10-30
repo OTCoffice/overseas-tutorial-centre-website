@@ -30,6 +30,16 @@ hub='<section class="zh-herald-infographic zh-herald-reading-hub"><h2>資料來�
 s,n=re.subn(r'<section class="zh-herald-infographic zh-herald-reading-hub">[\s\S]*?</section>',lambda m:hub,s,count=1);assert n==1
 style='<style>.article-'+a['slug']+' .zh-herald-share-cover{max-width:360px;margin:18px auto;padding:0;border:0;background:transparent}.article-'+a['slug']+' .zh-herald-share-cover img{display:block;width:100%;height:auto;aspect-ratio:2 / 1;object-fit:contain}.article-'+a['slug']+' .article-service-table{overflow-x:auto;max-width:100%;margin:18px 0}.article-'+a['slug']+' table{min-width:490px;width:100%;border-collapse:collapse}.article-'+a['slug']+' th,.article-'+a['slug']+' td{padding:10px;text-align:left;vertical-align:top;border:1px solid #d5dce2;line-height:1.6;font-size:14px}.article-'+a['slug']+' th{background:#163347;color:#fff}.article-'+a['slug']+' caption{text-align:left;font-weight:600;margin-bottom:8px}.article-'+a['slug']+' .zh-herald-reading-item span{overflow-wrap:anywhere}.article-'+a['slug']+' .zh-herald-main{min-width:0}</style>'
 s=s.replace('</head>',style+'</head>',1)
+# A versioned share URL bypasses stale social-platform previews; canonical SEO stays unchanged.
+url='https://overseasuk.com'+a['path']
+share_url=url+'?'+a['sharePageVersion']
+share_markers=('twitter.com/intent/','threads.net/intent/','facebook.com/sharer/','linkedin.com/sharing/','wa.me/','t.me/share/','data-page-copy-link','data-copy-link','data-wechat-share','data-email-body')
+def update_share_tag(match):
+ tag=match.group(0)
+ if any(marker in tag for marker in share_markers):
+  return tag.replace(quote(url,safe=''),quote(share_url,safe='')).replace(url,html.escape(share_url,quote=True))
+ return tag
+s=re.sub(r'<(?:a|button)\b[^>]*>',update_share_tag,s)
 target=root/a['path'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(s)
 entry={'type':'Insight','title':a['titleZh'],'url':a['path'],'desc':a['summaryZh']}
 for file in ['search/index.html','zh/search/index.html']:
