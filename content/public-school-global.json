@@ -1,0 +1,231 @@
+[
+  {
+    "code": "canada",
+    "name": "加拿大公校",
+    "region": "北美洲",
+    "sub": "公立教育局・中學課程・學習許可",
+    "intro": "透過公立教育局申請中學，按成績、年級、英語支援與學額安排校區。適合規劃多年中學課程；國際生項目通常收費。",
+    "visa": "加拿大中小學均屬指定學習機構，無須出現在高等教育DLI清單中。教育局或學校發出錄取信後，學生按要求申請Study Permit；未成年人的監護安排須另行辦理。",
+    "sources": [
+      [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare.html",
+        "加拿大移民部：學校與學習許可"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "卑詩省｜溫哥華",
+        "name": "Vancouver School Board",
+        "url": "https://vsb.bc.ca/international-education/admissions",
+        "course": "中學Grade 8–12",
+        "visa": "國際生教育局錄取渠道；錄取信供申請學習許可。",
+        "note": "2027年9月中學申請已開放；校區、年級及學額按申請時確認。"
+      },
+      {
+        "region": "安大略省｜多倫多",
+        "name": "Toronto District School Board",
+        "url": "https://www.tdsb.on.ca/internationalstudents/Home/Future-Students/How-to-Apply",
+        "course": "安大略省中學課程",
+        "visa": "完成繳費及監護文件等條件後發正式錄取信，用於Study Permit。",
+        "note": "選校受學額限制；國際生不適用其部分特殊項目，包括IB及區域藝術項目。"
+      },
+      {
+        "region": "安大略省｜倫敦市",
+        "name": "Thames Valley District School Board",
+        "url": "https://www.tvdsb.ca/students/one-world-international-welcome-centre/international-students/how-to-apply/",
+        "course": "安大略省中學課程",
+        "visa": "文件及費用獲接納後發正式錄取信與收據，供申請學習許可。",
+        "note": "學校安排與住址、英語支援需求等有關；此處為加拿大倫敦市。"
+      }
+    ]
+  },
+  {
+    "code": "australia",
+    "name": "澳洲公校",
+    "region": "大洋洲",
+    "sub": "政府中學・州政府招生・CoE",
+    "intro": "透過州政府國際教育部門申請公立中學，按年級、英語、學額及住宿安排選校。以下為代表性課程，實際選科以入學年度為準。",
+    "visa": "須選擇獲准招收國際生的項目；由註冊教育提供者出具CoE，供申請Student visa（subclass 500）。未滿18歲須符合住宿、照顧及福利安排要求。",
+    "sources": [
+      [
+        "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500",
+        "澳洲政府：Student visa 500"
+      ],
+      [
+        "https://www2.education.vic.gov.au/pal/international-student-program/guidance/introduction-section-1",
+        "維州教育部：國際生項目及CoE"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "維多利亞州｜墨爾本",
+        "name": "Box Hill High School",
+        "url": "https://www.boxhillhs.vic.edu.au/enrolment-transition/international-student-program/",
+        "course": "中學及高中課程",
+        "visa": "透過維州教育部國際生項目申請；教育部CRICOS 00861K。",
+        "note": "提供英語與生活支援、寄宿家庭安排；入讀年級及名額另核對。"
+      },
+      {
+        "region": "維多利亞州｜墨爾本",
+        "name": "Balwyn High School",
+        "url": "https://www.balwynhs.vic.edu.au/?page_id=4837",
+        "course": "高中課程及英語準備",
+        "visa": "政府中學；參與維州教育部國際生項目，CRICOS 00861K。",
+        "note": "國際生項目限高中階段；部分學生須先修英語課程。"
+      },
+      {
+        "region": "昆士蘭州｜布里斯本",
+        "name": "Indooroopilly State High School",
+        "url": "https://indoorooshs.eq.edu.au/international",
+        "course": "高中預備、中學及IB",
+        "visa": "官網明確招收subclass 500學生；先向EQI申請。",
+        "note": "IB另有費用；先確認課程與名額。"
+      },
+      {
+        "region": "南澳州｜阿德萊德",
+        "name": "Adelaide High School",
+        "url": "https://www.internationalstudents.sa.edu.au/en/school/adelaide-high-school/",
+        "course": "高中畢業、SACE及短期留學",
+        "visa": "透過南澳政府International Education Services申請。",
+        "note": "英語準備及入讀年級按評估安排。"
+      },
+      {
+        "region": "新南威爾士州｜悉尼及其他地區",
+        "name": "NSW Government Schools",
+        "url": "https://www.deinternational.nsw.edu.au/study-options/study-programs/international-student-program/international-student-program-high-schools",
+        "course": "政府中學國際生項目",
+        "visa": "DE International統一受理；從官方參與學校清單選校。",
+        "note": "學額隨學校變動；Chatswood High目前官網表示因容量限制不能接收國際生，不列為可招生個校。"
+      }
+    ]
+  },
+  {
+    "code": "new-zealand",
+    "name": "紐西蘭公校",
+    "region": "大洋洲",
+    "sub": "公立中學・國際學生・Offer of Place",
+    "intro": "公立中學設國際部，受理長期或短期留學申請，並按學校方案安排住宿。國際生通常繳付學費。",
+    "visa": "長期就讀通常以學校的Offer of Place、學費與資金等文件申請Fee Paying Student Visa；學校錄取與簽證審批分開辦理。",
+    "sources": [
+      [
+        "https://www.immigration.govt.nz/visas/fee-paying-student-visa/",
+        "紐西蘭移民局：Fee Paying Student Visa"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "北島｜奧克蘭北岸",
+        "name": "Rangitoto College",
+        "url": "https://www.rangitoto.school.nz/international/apply-to-study/",
+        "course": "中學及高中課程",
+        "visa": "錄取及繳費後發正式Offer of Place與收據，用於學生簽證申請。",
+        "note": "公立中學；入學日期、年級、選科及住宿按名額確認。"
+      },
+      {
+        "region": "北島｜威靈頓",
+        "name": "Wellington High School",
+        "url": "https://www.whs.school.nz/international/application/",
+        "course": "中學及高中課程",
+        "visa": "設國際生申請渠道及簽證合規支援團隊。",
+        "note": "公立男女合校；高中階段不接受第四學期新入學。"
+      },
+      {
+        "region": "南島｜基督城",
+        "name": "Burnside High School",
+        "url": "https://www.burnside.school.nz/international-students/",
+        "course": "長期中學課程及短期留學",
+        "visa": "有正式國際生項目；長期入讀按學生簽證規定辦理。",
+        "note": "公立中學；提供寄宿家庭安排，按入學年級與名額申請。"
+      }
+    ]
+  },
+  {
+    "code": "usa",
+    "name": "美國公校",
+    "region": "北美洲",
+    "sub": "公立高中・I-20・一年留學",
+    "intro": "以下公立學區有國際生及I-20申請渠道，適合一年高中體驗。F-1公立高中累計最多12個月，轉往另一公立高中也不能重新計算期限。",
+    "visa": "學區按錄取要求發Form I-20，供申請F-1。國際生必須支付全額教育成本；不能作為連續兩至三年F-1公立高中方案。",
+    "sources": [
+      [
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa/foreign-students-in-public-schools.html",
+        "美國國務院：公立學校F-1限制"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "加州｜聖荷西",
+        "name": "East Side Union High School District",
+        "url": "https://www.esuhsd.org/International-Student-Program/Requirements/",
+        "course": "公立高中課程",
+        "visa": "官方國際生項目列明Form I-20申請與錄取要求。",
+        "note": "最多12個月；須按學區要求提交學業、財力及其他材料。"
+      },
+      {
+        "region": "加州｜Chino Valley",
+        "name": "Chino Valley Unified School District",
+        "url": "https://www.chino.k12.ca.us/international-program",
+        "course": "公立高中課程",
+        "visa": "官方國際生項目明確由學區簽發I-20。",
+        "note": "最多12個月；校區與年級按錄取安排。"
+      }
+    ]
+  },
+  {
+    "code": "singapore",
+    "name": "新加坡公校",
+    "region": "亞洲",
+    "sub": "政府中學・AEIS・學生准證",
+    "intro": "新加坡政府及政府資助中學有海外學生入學途徑，透過教育部招生考試及學位分配辦理；不能按任選名校直招方式申請。",
+    "visa": "獲學位後，以學校Registration Acknowledgement Letter等文件申請Student’s Pass。需要申請准證者須有年滿21歲的新加坡公民或永久居民作本地擔保人；現有居留身份可能適用豁免。",
+    "sources": [
+      [
+        "https://www.seab.gov.sg/aeis/about-aeis/",
+        "新加坡考評局：AEIS"
+      ],
+      [
+        "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass/student%27s-pass-application-renewal/government--government-aided--independent-schools",
+        "ICA：政府學校Student’s Pass"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "全國｜教育部統一招生",
+        "name": "政府及政府資助中學",
+        "url": "https://www.seab.gov.sg/aeis/about-aeis/",
+        "course": "AEIS申請下一學年中一至中三",
+        "visa": "獲學位後由學校提供註冊確認資料，供申請Student’s Pass。",
+        "note": "須符合年齡、考試及學額要求；AEIS考試入場證不是入境許可。"
+      }
+    ]
+  },
+  {
+    "code": "finland",
+    "name": "芬蘭公校",
+    "region": "歐洲",
+    "sub": "公立IB高中・監護條件・學生居留",
+    "intro": "芬蘭高中錄取可作為申請學生居留的基礎，但各校海外招生與監護要求不同。以下列出有官方海外申請說明的公立IB高中及其限制。",
+    "visa": "獲芬蘭高中錄取後，可按Migri要求申請學生居留許可，另須符合資金、保險等條件。學校不代替移民機關批准居留。",
+    "sources": [
+      [
+        "https://migri.fi/en/residence-permit-application-for-studies",
+        "Migri：學生居留"
+      ],
+      [
+        "https://www.hel.fi/en/childhood-and-education/general-upper-secondary-education/apply-to-general-upper-secondary-school",
+        "赫爾辛基市：高中申請及2026年起收費"
+      ]
+    ],
+    "schools": [
+      {
+        "region": "新地區｜赫爾辛基",
+        "name": "Ressu IB World School",
+        "url": "https://www.hel.fi/en/childhood-and-education/ressu-ib-world-school/get-to-know-our-school-and-apply",
+        "course": "IB預備年及IB Diploma",
+        "visa": "有海外申請渠道；錄取後按學生居留規定辦理。",
+        "note": "官網不接收希望獨自移居且沒有監護人的學生；屬有條件途徑，非一般寄宿直招。"
+      }
+    ],
+    "extra": "2026年8月起入學、符合收費條件的非歐盟／歐洲經濟區等第三國學生，赫爾辛基市普通高中學費為每學年€10,600，IB為€14,000。居留身份及法定豁免影響是否收費，生活費另計；不能一概宣傳芬蘭公立高中免費。"
+  }
+]
