@@ -13,12 +13,17 @@ module.exports=function(html,route){
  const img='https://overseasuk.com'+a.image+'?'+a.version;
  const setMeta=(key,value,name=false)=>{const rx=new RegExp('<meta[^>]+(?:property|name)="'+key+'"[^>]*>');const tag='<meta '+(name?'name':'property')+'="'+key+'" content="'+esc(value)+'">';html=rx.test(html)?html.replace(rx,tag):html.replace('</head>',tag+'\n</head>');};
  for(const k of ['og:image','og:image:secure_url','twitter:image','twitter:image:src'])setMeta(k,img,k.startsWith('twitter'));
- setMeta('twitter:card','summary_large_image',true);
+ setMeta('twitter:card',a.cardType||'summary_large_image',true);
  for(const k of ['title','description'])if(!new RegExp('<meta[^>]+name="twitter:'+k+'"').test(html)){const value=(html.match(new RegExp('<meta[^>]+property="og:'+k+'"[^>]+content="([^"]*)"'))||[])[1]||a.title;setMeta('twitter:'+k,value,true);}setMeta('og:image:width',a.width);setMeta('og:image:height',a.height);setMeta('og:image:type','image/png');
  for(const key of ['og:image','og:image:secure_url','twitter:image','twitter:image:src'])html=html.replace(new RegExp('(<meta[^>]+(?:property|name)="'+key+'"[^>]+content=")[^"]*(")','g'),'$1'+img+'$2');
  html=html.replace(/(<link rel="image_src" href=")[^"]*(")/g,'$1'+img+'$2').replace(/(<meta itemprop="image" content=")[^"]*(")/g,'$1'+img+'$2');
  for(const [key,val] of [['og:image:width',a.width],['og:image:height',a.height],['og:image:type','image/png']])html=html.replace(new RegExp('(<meta[^>]+property="'+key+'"[^>]+content=")[^"]*(")'),'$1'+val+'$2');
  html=html.replace(/<(section|header)\b([^>]*class="[^"]*(?:services-hero|vn-hero|affordable-compact-header)[^"]*"[^>]*)>/,(m,t,attrs)=>'<'+t+attrs.replace(/\s(?:data-share-(?:image|width|height)|aria-label)="[^"]*"/g,'')+' data-share-image="'+esc(a.image+'?'+a.version)+'" data-share-width="'+a.width+'" data-share-height="'+a.height+'" aria-label="'+esc(a.title)+'">');
+ if(a.shareLayout==='compact-square'){
+  html=html.replace(/<figure class="service-link-artwork"[\s\S]*?<\/figure>/g,'');
+  const card='<figure class="service-link-artwork" style="width:min(220px,100%);margin:24px auto"><img src="'+esc(a.image+'?'+a.version)+'" width="'+a.width+'" height="'+a.height+'" alt="'+esc(a.title)+'" loading="lazy" style="display:block;width:100%;height:auto;object-fit:contain"></figure>';
+  html=html.replace('</main>',card+'</main>');
+ }
  if(!html.includes('id="native-service-mobile-layout"'))html=html.replace('</head>','<style id="native-service-mobile-layout">@media(max-width:700px){.services-hero .service-hero-layout{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:16px!important}.services-hero .service-hero-panel{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px!important}.services-hero .service-hero-panel a{min-width:0;overflow-wrap:anywhere}.services-hero .service-hero-layout>div{min-width:0}}</style></head>');
  return html;
 };

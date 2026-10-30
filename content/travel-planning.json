@@ -4,10 +4,11 @@
   "path": "/zh/services/travel-planning/",
   "titleZh": "旅遊規劃｜親子、K-Pop、藝文、自然與主題旅行｜海外督導 OTC",
   "summaryZh": "親子、K-Pop、遊學、藝文、美食手作、自然、節慶、運動、海島、訪校、無障礙與小團體旅行規劃；比較活動、交通住宿及費用，初次諮詢免費。",
-  "shareImageZh": "/assets/social/native-travel-planning-types-20261030.png",
-  "socialImageVersion": "v=20261030-types",
+  "shareImageZh": "/assets/social/travel-planning-compact-link-20261030-v2.png",
+  "socialImageVersion": "v=20261030-compact2",
   "updated": "2026-10-30",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 288,
-  "socialImageSource": "page-hero"
+  "socialImageWidth": 1080,
+  "socialImageHeight": 1080,
+  "socialImageSource": "image",
+  "twitterCard": "summary"
 }

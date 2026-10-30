@@ -392,21 +392,25 @@
   },
   "/zh/services/travel-planning/": {
     "title": "旅遊規劃",
-    "image": "/assets/social/native-travel-planning-types-20261030.png",
-    "version": "v=20261030-types",
-    "width": 1333,
-    "height": 288,
+    "image": "/assets/social/travel-planning-compact-link-20261030-v2.png",
+    "version": "v=20261030-compact2",
+    "width": 1080,
+    "height": 1080,
     "file": "zh/services/travel-planning/index.html",
-    "previousImage": "/assets/social/travel-planning-20261003.png"
+    "previousImage": "/assets/social/travel-planning-20261003.png",
+    "cardType": "summary",
+    "shareLayout": "compact-square"
   },
   "/zh/services/travel-services/": {
     "title": "旅行服務",
-    "image": "/assets/social/native-travel-services-types-20261030.png",
-    "version": "v=20261030-types",
-    "width": 1333,
-    "height": 288,
+    "image": "/assets/social/travel-services-compact-link-20261030-v2.png",
+    "version": "v=20261030-compact2",
+    "width": 1080,
+    "height": 1080,
     "file": "zh/services/travel-services/index.html",
-    "previousImage": "/assets/social/travel-services-20261003.png"
+    "previousImage": "/assets/social/travel-services-20261003.png",
+    "cardType": "summary",
+    "shareLayout": "compact-square"
   },
   "/zh/services/uk-company-registration-business-bank-account/": {
     "title": "海外人士註冊英國公司及商業銀行開戶",
@@ -532,11 +536,13 @@
   },
   "/zh/services/seoul-family-kpop-experience/": {
     "file": "zh/services/seoul-family-kpop-experience/index.html",
-    "image": "/assets/social/native-seoul-family-kpop-20261030.png",
-    "version": "v=20261030",
-    "width": 1333,
-    "height": 232,
-    "title": "首爾親子 K-Pop 體驗"
+    "image": "/assets/social/seoul-family-kpop-compact-link-20261030-v2.png",
+    "version": "v=20261030-compact2",
+    "width": 1080,
+    "height": 1080,
+    "title": "首爾親子 K-Pop 體驗",
+    "cardType": "summary",
+    "shareLayout": "compact-square"
   },
   "/zh/language-school-alliance/south-korea/": {
     "title": "韓國語學院",

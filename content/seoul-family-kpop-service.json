@@ -2,11 +2,11 @@
   "path": "/zh/services/seoul-family-kpop-experience/",
   "titleZh": "首爾親子 K-Pop 體驗｜舞蹈、妝髮與拍攝｜海外督導 OTC",
   "summaryZh": "首爾親子 K-Pop 舞蹈、妝髮及拍攝體驗比較與預訂協助。按孩子年齡、舞蹈程度、日期及預算確認活動、家長陪同與照片使用條款。",
-  "shareImageZh": "/assets/social/native-seoul-family-kpop-20261030.png",
-  "socialImageVersion": "v=20261030",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 232,
-  "socialImageSource": "page-hero",
+  "shareImageZh": "/assets/social/seoul-family-kpop-compact-link-20261030-v2.png",
+  "socialImageVersion": "v=20261030-compact2",
+  "socialImageWidth": 1080,
+  "socialImageHeight": 1080,
+  "socialImageSource": "image",
   "sections": [
     {
       "heading": "服務內容",
@@ -53,5 +53,6 @@
         "相關服務：<a href=\"/zh/services/travel-services/\">旅行規劃與預訂協助</a>。資料核對：2026年10月30日。活動、費用及條款以供應商當期資料及預訂確認為準。"
       ]
     }
-  ]
+  ],
+  "twitterCard": "summary"
 }

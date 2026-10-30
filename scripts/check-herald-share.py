@@ -28,7 +28,7 @@ def verify(text,a,base,locale='zh'):
     def one(k):
         v=p.meta.get(k,[]);assert len(v)==1 and v[0],f'Missing/duplicate {k}';return v[0]
     assert one('og:url')==expected
-    assert one('twitter:card')=='summary_large_image'
+    assert one('twitter:card')==a.get('twitterCard','summary_large_image')
     for k in ('og:title','og:description','twitter:title','twitter:description'):one(k)
     image=one('og:image');assert image==one('twitter:image'),'OG/Twitter images differ'
     assert image.startswith('https://'),'Image must be public HTTPS'
