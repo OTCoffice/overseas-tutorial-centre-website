@@ -15,3 +15,5 @@ User correction: share-image changes must not change the website layout. Restore
 Final share-only revision: content/netherlands-share-cover.html is the reproducible source for assets/social/netherlands-working-holiday-compact-v3.jpg (1000×500 browser capture). Keeps the original page navy gradient, red/gold vertical bands and four accent colours, with tighter spacing. Website body is unchanged.
 
 User-requested v4: long flat banner, 1200×360. Right cream-panel body reduced from 22px bold to 12px medium; label 11px. Preserve palette and unchanged website body. Source remains content/netherlands-share-cover.html.
+
+V5 sharing adaptation: preserve the accepted 1200×360 banner unchanged within a 1200×600 navy canvas (120px top/bottom). Source content/netherlands-share-safe.html; image assets/social/netherlands-working-holiday-share-safe-v5.jpg. OG/Twitter use the adapted image. Sharing actions include v=20261031-v5 to request a fresh preview; canonical and webpage layout stay unchanged.
