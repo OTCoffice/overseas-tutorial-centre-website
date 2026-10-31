@@ -46,3 +46,6 @@
     render();
   }
 })();
+
+// Paid programme directory; independent of the country and UK sponsor filters.
+(()=>{const input=document.getElementById('programme-search'),select=document.getElementById('programme-provider');if(!input||!select)return;const rows=[...document.querySelectorAll('[data-programme]')];function filter(){const q=input.value.trim().toLowerCase();let count=0;for(const row of rows){row.hidden=!(row.dataset.programme.toLowerCase().includes(q)&&(!select.value||row.dataset.provider===select.value));if(!row.hidden)count++;}document.querySelectorAll('[data-programme-group]').forEach(g=>g.hidden=![...g.querySelectorAll('[data-programme]')].some(r=>!r.hidden));document.getElementById('programme-count').textContent=count+' 個項目'+(count?'':'，請更換關鍵字');}input.addEventListener('input',filter);select.addEventListener('change',filter);})();
