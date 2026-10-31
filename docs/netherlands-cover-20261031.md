@@ -9,3 +9,5 @@ Share output: assets/social/netherlands-working-holiday-swt-20261031.jpg. Native
 User explicitly removed the duplicate footer image; retain that removal. OG and Twitter reference the same versioned image.
 
 QA: desktop and 390px iframe visually inspected. Metadata and JPEG dimensions verified. Generic Herald checker requires a duplicate body image, intentionally omitted per user instruction; its image-presence failure is expected.
+
+User correction: share-image changes must not change the website layout. Restored the original academic header and body from 345096d, retaining only the new OG/Twitter image metadata. The screenshot asset records the earlier capture; it is not the current live-page layout.
