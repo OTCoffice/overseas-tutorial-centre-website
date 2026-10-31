@@ -55,12 +55,14 @@
   },
   "/zh/services/au-pair-support/": {
     "title": "互惠生 Au Pair",
-    "image": "/assets/social/native-au-pair-support-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 252,
+    "image": "/assets/social/au-pair-support-share-safe-20261031.png",
+    "version": "v=20261031-safe",
+    "width": 1200,
+    "height": 600,
     "file": "zh/services/au-pair-support/index.html",
-    "previousImage": "/assets/social/au-pair-support-20261010.png"
+    "previousImage": "/assets/social/au-pair-support-20261010.png",
+    "cardType": "summary_large_image",
+    "shareLayout": "safe-landscape"
   },
   "/zh/services/australia-transfer-release-support/": {
     "title": "澳洲轉校與 Release 申請協調",
