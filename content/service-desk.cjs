@@ -119,6 +119,7 @@ const groups=[
     "按國家和簽證類別查閱申請要求、文件及辦理安排。",
     [
       ["波蘭工作與居留", "/zh/services/poland-work-residence-support/", "工作許可、臨時居留、審理時間與文件及進度支援。"],
+      ["德國自由職業居留", "/zh/services/germany-freelance-residence/", "申請資格、合作意向書、材料、費用及獨立收費諮詢。"],
       ["美國簽證協助", "/zh/services/us-visa-support/", "DS-160 資料核對、文件整理、預約流程與面試準備。"],
       ["美國 EB-1A／NIW 研究材料", "/zh/services/us-eb1a-niw-research-support/", "學歷、學術 CV、研究成果、引用與審稿證據整理。"],
       ["英國 Global Talent 陪跑", "/zh/services/uk-global-talent-support/", "學術 CV、研究成果、推薦信及背書材料準備。"],
