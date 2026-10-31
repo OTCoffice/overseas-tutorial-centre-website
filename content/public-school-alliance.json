@@ -4,9 +4,9 @@
   "name": "公校聯盟",
   "titleZh": "公校聯盟｜海外督導 OTC",
   "summaryZh": "按洲別、國家與地區查閱八國公立教育，提供選校、資格評估、收費諮詢及申請服務。",
-  "shareImageZh": "/assets/social/public-school-alliance-20261030-global.png",
-  "socialImageVersion": "v=20261030-global",
-  "socialImageWidth": 1080,
-  "socialImageHeight": 1080,
-  "twitterCard": "summary"
+  "shareImageZh": "/assets/social/public-school-alliance-share-20261031.jpg",
+  "socialImageVersion": "v=20261031-banner",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "twitterCard": "summary_large_image"
 }
