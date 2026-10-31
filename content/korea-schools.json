@@ -1,0 +1,697 @@
+[
+  {
+    "name": "Korea International School – Seoul Campus",
+    "nameZh": "韓國國際學校・首爾校區",
+    "region": "首爾",
+    "city": "江南區",
+    "levels": [
+      "小學"
+    ],
+    "grades": "幼兒及小學至 Grade 5",
+    "curriculum": "美式小學／Common Core；英語授課",
+    "eligibility": "須符合外國人學校資格；首爾校區提供幼兒及小學，中學須另看板橋校區。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://kisseoul.or.kr/",
+    "admissionsUrl": "https://kisseoul.or.kr/?page_id=88171",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://kisseoul.or.kr/?page_id=88171",
+      "https://kisseoul.or.kr/?page_id=83343"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Korea Kent Foreign School",
+    "nameZh": "韓國肯特外國人學校",
+    "region": "首爾",
+    "city": "廣津區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式 Common Core／高中 AP；英語授課",
+    "eligibility": "須符合外國人學校入學資格；OTC 核對父母國籍、海外就學／居住證明及年級名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.kkfs.org/",
+    "admissionsUrl": "https://www.kkfs.org/how-to-apply/admission-requirements/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://www.kkfs.org/how-to-apply/admission-requirements/",
+      "https://www.kkfs.org/academics/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Asia Pacific International School",
+    "nameZh": "亞太國際學校・首爾",
+    "region": "首爾",
+    "city": "蘆原區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式 Common Core／高中 AP；英語授課",
+    "eligibility": "按外籍父母、海外居住／就學或其他法定類別審核；申請資料須符合校方要求。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://apis.org/",
+    "admissionsUrl": "https://apis.org/admissions_applying_to_apis.php",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://apis.org/admissions_applying_to_apis.php",
+      "https://www.apis.org/academics_high_school.php"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Seoul Foreign School",
+    "nameZh": "首爾外國人學校",
+    "region": "首爾",
+    "city": "西大門區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "IB PYP／MYP／DP；另有英式小學部",
+    "eligibility": "核對父母護照、家庭關係及居留卡；韓籍家庭須按校方類別提交海外證明。",
+    "visaNote": "校方明確不擔保學生簽證，入學前須具備合適的合法居留。",
+    "officialUrl": "https://www.seoulforeign.org/",
+    "admissionsUrl": "https://www.seoulforeign.org/admissions/apply",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://www.seoulforeign.org/admissions/apply",
+      "https://www.seoulforeign.org/academics/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Korea Foreign School",
+    "nameZh": "韓國外國人學校",
+    "region": "首爾",
+    "city": "瑞草區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "小學 IB PYP；中學 Cambridge／IGCSE／A Level",
+    "eligibility": "須符合外國人學校入學資格；OTC 核對父母國籍、海外就學／居住證明及年級名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://koreaforeign.org/",
+    "admissionsUrl": "https://koreaforeign.org/eligibility",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://koreaforeign.org/eligibility",
+      "https://koreaforeign.org/admission-faqs",
+      "https://koreaforeign.org/why-choose-kfs"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Yongsan International School of Seoul",
+    "nameZh": "首爾龍山國際學校",
+    "region": "首爾",
+    "city": "龍山區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程／高中 AP；英語授課",
+    "eligibility": "須符合外國人學校資格，並與父母或法定監護人同住。",
+    "visaNote": "校方明確不擔保學生簽證，不提供寄宿或交換生名額。",
+    "officialUrl": "https://www.yisseoul.org/",
+    "admissionsUrl": "https://www.yisseoul.org/admissions/apply",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://www.yisseoul.org/admissions/apply",
+      "https://www.yisseoul.org/admissions/faq"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Dwight School Seoul",
+    "nameZh": "首爾德懷特學校",
+    "region": "首爾",
+    "city": "麻浦區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "IB；英語授課",
+    "eligibility": "須符合外國人學校入學資格；OTC 核對父母國籍、海外就學／居住證明及年級名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://dwight.or.kr/",
+    "admissionsUrl": "https://dwight.or.kr/admission/admission-process/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://dwight.or.kr/admission/admission-process/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Dulwich College Seoul",
+    "nameZh": "首爾德威英國學校",
+    "region": "首爾",
+    "city": "瑞草區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "英式課程／IGCSE／IBDP；英語授課",
+    "eligibility": "須符合國籍／海外經歷類別；另審英文能力、成績及推薦。",
+    "visaNote": "一般須與父母同住；Year 12–13 的監護例外須校方批准，居留另核對。",
+    "officialUrl": "https://seoul.dulwich.org/",
+    "admissionsUrl": "https://seoul.dulwich.org/admissions/apply/eligibility",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://seoul.dulwich.org/admissions/apply/eligibility",
+      "https://seoul.dulwich.org/admissions/apply/admissions-criteria",
+      "https://seoul.dulwich.org/admissions/admissions-overview"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Lycée Français de Séoul",
+    "nameZh": "首爾法國學校",
+    "region": "首爾",
+    "city": "瑞草區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "法國課程；法語授課",
+    "eligibility": "接受各國籍申請，須符合外國人學校資格及法語學習要求。",
+    "visaNote": "校方要求有效居留簽證，不接受以旅遊簽證入學。",
+    "officialUrl": "https://lfseoul.org/",
+    "admissionsUrl": "https://lfseoul.org/en/apply/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool02&menuId=B002",
+      "https://lfseoul.org/en/apply/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Deutsche Schule Seoul International",
+    "nameZh": "首爾德國國際學校",
+    "region": "首爾",
+    "city": "龍山區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "德國課程；德語授課",
+    "eligibility": "須符合外國人學校資格；可能安排德語評估，家長須加入學校協會。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.dsseoul.org/",
+    "admissionsUrl": "https://www.dsseoul.org/en/admissions/",
+    "sources": [
+      "https://isi.go.kr/schoolInfo/SinfoView.do?schoolId=19&schoolType=ST01",
+      "https://www.dsseoul.org/en/admissions/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Korea International School – Pangyo Campus",
+    "nameZh": "韓國國際學校・板橋校區",
+    "region": "京畿道",
+    "city": "城南市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程；英語授課",
+    "eligibility": "須符合外國人學校入學資格；OTC 核對父母國籍、海外就學／居住證明及年級名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.kis.or.kr/",
+    "admissionsUrl": "https://www.kis.or.kr/admissions/admissions-criteria",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool03&menuId=B003",
+      "https://www.kis.or.kr/admissions/admissions-criteria",
+      "https://www.kis.or.kr/admissions/faqs"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Seoul International School",
+    "nameZh": "首爾國際學校",
+    "region": "京畿道",
+    "city": "城南市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程／高中 AP；英語授課",
+    "eligibility": "校名雖有首爾，校址在城南；先核對資格、年級空位及申請清單。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.siskorea.org/",
+    "admissionsUrl": "https://www.siskorea.org/admissions",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool03&menuId=B003",
+      "https://www.siskorea.org/admissions",
+      "https://www.siskorea.org/admissions/application-process/application-checklist",
+      "https://www.siskorea.org/our-schools/high-school/advanced-placement",
+      "https://www.siskorea.org/legal"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Gyeonggi Suwon International School",
+    "nameZh": "京畿水原國際學校",
+    "region": "京畿道",
+    "city": "水原市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "IB PYP／MYP／DP；英語授課",
+    "eligibility": "須符合外國人學校資格；按年級安排英文／學術評估及推薦資料。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.gsis.sc.kr/",
+    "admissionsUrl": "https://www.gsis.sc.kr/admissions/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool03&menuId=B003",
+      "https://www.gsis.sc.kr/admissions/",
+      "https://www.gsis.sc.kr/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "International Christian School Uijeongbu",
+    "nameZh": "議政府國際基督教學校",
+    "region": "京畿道",
+    "city": "議政府市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程／高中 AP；基督教教育",
+    "eligibility": "按父母國籍、居留或韓籍學生海外經歷分類，另有學術與英文測試。",
+    "visaNote": "校方明確不擔保學生簽證，不提供寄宿或交換生服務。",
+    "officialUrl": "https://icsu.kr/",
+    "admissionsUrl": "https://icsu.kr/admissions",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool03&menuId=B003",
+      "https://icsu.kr/admissions",
+      "https://www.nics.org/schools/international-christian-school-uijeongbu/",
+      "https://icsu.kr/academics"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "International Christian School Pyeongtaek",
+    "nameZh": "平澤國際基督教學校",
+    "region": "京畿道",
+    "city": "平澤市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程／高中 AP；基督教教育",
+    "eligibility": "須符合外國人學校入學資格；OTC 核對父母國籍、海外就學／居住證明及年級名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.icsptk.org/",
+    "admissionsUrl": "https://www.icsptk.org/admissions",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool03&menuId=B003",
+      "https://www.icsptk.org/admissions",
+      "https://www.icsptk.org/learning/high-school",
+      "https://www.icsptk.org/learning"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Chadwick International",
+    "nameZh": "松島查德威克國際學校",
+    "region": "仁川",
+    "city": "松島・延壽區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Pre-K–Grade 12",
+    "curriculum": "IB PYP／MYP／DP；英語授課",
+    "eligibility": "有韓籍及外籍招生類別；搬遷來韓的外籍家庭可依空位申請滾動招生。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.chadwickinternational.org/",
+    "admissionsUrl": "https://www.chadwickinternational.org/admission",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.chadwickinternational.org/admission",
+      "https://www.chadwickinternational.org/admission/apply-2027-28",
+      "https://www.chadwickinternational.org/admission/faq"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Cheongna Dalton School",
+    "nameZh": "青羅達爾頓外國人學校",
+    "region": "仁川",
+    "city": "青羅・西區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "英語授課",
+    "eligibility": "政府名冊確認提供中小學；OTC 向招生處取得當期簡章，再核對資格和名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://daltonschool.kr/",
+    "admissionsUrl": "https://daltonschool.kr/",
+    "sources": [
+      "https://www.isi.go.kr/schoolInfo/SinfoView.do?schoolId=47&schoolType=ST01",
+      "https://daltonschool.kr/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Calvin Manitoba International School",
+    "nameZh": "加爾文曼尼托巴國際學校",
+    "region": "仁川",
+    "city": "松島・延壽區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Kindergarten–Grade 12",
+    "curriculum": "加拿大曼尼托巴課程；英語授課",
+    "eligibility": "屬外國教育機構；OTC 按當期簡章核對國籍類別、入學測試及開放年級。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.calvinschool.kr/",
+    "admissionsUrl": "https://www.calvinschool.kr/application/admissions_guide/100",
+    "sources": [
+      "https://www.isi.go.kr/schoolInfo/SinfoView.do?schoolId=120&schoolType=ST03",
+      "https://www.calvinschool.kr/application/admissions_guide/100",
+      "https://www.edu.gov.mb.ca/k12/masop/index.html"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "North London Collegiate School Jeju",
+    "nameZh": "北倫敦學院濟州學校",
+    "region": "濟州",
+    "city": "西歸浦市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Reception–Year 13；新生年級按年度招生",
+    "curriculum": "英語授課；IGCSE／IBDP",
+    "eligibility": "接受各國籍申請；韓籍學生無須海外居住經歷。Year 11、13 不開放2027新生入學。",
+    "visaNote": "校方說明錄取後支持簽證申請，設寄宿；適用年級及家長居留另核對。",
+    "officialUrl": "https://www.nlcsjeju.co.kr/",
+    "admissionsUrl": "https://www.nlcsjeju.co.kr/admissions/apply/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.nlcsjeju.co.kr/admissions/apply/",
+      "https://www.nlcsjeju.co.kr/admissions/international-students/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Branksome Hall Asia",
+    "nameZh": "布蘭克森霍爾亞洲學校",
+    "region": "濟州",
+    "city": "西歸浦市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "幼兒、小學至高中；當期招生列至 Grade 11",
+    "curriculum": "IB；英語授課",
+    "eligibility": "接受男女生，採分階段合班／分班模式。2026–27 寄宿：女生 Grade 6–12、男生 Grade 6–10；須另核對下一學年名額。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.branksome.asia/",
+    "admissionsUrl": "https://www.branksome.asia/admissions/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.branksome.asia/admissions/",
+      "https://www.branksome.asia/admissions/admissions-process",
+      "https://www.branksome.asia/academics",
+      "https://www.branksome.asia/admissions/boarding-international-students"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Korea International School Jeju",
+    "nameZh": "韓國國際學校・濟州",
+    "region": "濟州",
+    "city": "西歸浦市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程／AP Capstone；英語授課",
+    "eligibility": "濟州國際學校；按校方年齡表、國籍文件、測試和面試審核。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://kis.ac/",
+    "admissionsUrl": "https://kis.ac/admissions/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://kis.ac/admissions/",
+      "https://kis.ac/2026-27-admissions-process/",
+      "https://kis.ac/admissions/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "St. Johnsbury Academy Jeju",
+    "nameZh": "聖約翰斯伯里學院濟州",
+    "region": "濟州",
+    "city": "西歸浦市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Pre-K–Grade 12；新生年級按當期招生",
+    "curriculum": "美式課程／高中 AP；英語授課",
+    "eligibility": "國際學校招生；2027常規及滾動招生列為 PK3–Grade 11，須完成申請檔案。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.sjajeju.kr/",
+    "admissionsUrl": "https://www.sjajeju.kr/admissions/apply-now",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.sjajeju.kr/admissions/apply-now",
+      "https://www.sjajeju.kr/admissions/checklist",
+      "https://www.sjajeju.kr/admissions/info-sessions"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "International School of Busan",
+    "nameZh": "釜山國際學校",
+    "region": "釜山",
+    "city": "機張郡",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "IB PYP／MYP／DP；英語授課",
+    "eligibility": "全年受理申請；須面試，Grade 3–11 另有數學和閱讀評估。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.isbusan.org/",
+    "admissionsUrl": "https://www.isbusan.org/how-to-apply",
+    "sources": [
+      "https://isi.go.kr/schoolInfo/SinfoView.do?schoolId=21&schoolType=ST01",
+      "https://www.isbusan.org/how-to-apply"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Busan Foreign School",
+    "nameZh": "釜山外國人學校",
+    "region": "釜山",
+    "city": "海雲臺區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "小學／初中／高中",
+    "curriculum": "美式課程；英語授課",
+    "eligibility": "至少一名父母具外國國籍，或符合韓籍學生海外居住類別；按需求安排測試。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://busanforeignschool.org/",
+    "admissionsUrl": "https://busanforeignschool.org/admissions/",
+    "sources": [
+      "https://isi.go.kr/schoolInfo/SinfoView.do?schoolId=22&schoolType=ST01",
+      "https://busanforeignschool.org/admissions/",
+      "https://busanforeignschool.org/admissions/how-to-apply/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Taejon Christian International School",
+    "nameZh": "大田基督教國際學校",
+    "region": "大田",
+    "city": "儒城區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Kindergarten–Grade 12",
+    "curriculum": "IB；英語授課；基督教教育",
+    "eligibility": "可受理外籍及韓籍學生；韓籍學生不必曾在海外居住／就學，仍須通過入學審核。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.tcis.or.kr/",
+    "admissionsUrl": "https://www.tcis.or.kr/admissions/apply",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.tcis.or.kr/admissions/apply"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Daegu International School",
+    "nameZh": "大邱國際學校",
+    "region": "大邱",
+    "city": "東區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Kindergarten–Grade 12",
+    "curriculum": "美式 Common Core／高中 AP；英語授課",
+    "eligibility": "依校方三種申請類別核對；持韓國國籍的雙重國籍者按韓籍類別申請。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.dis.sc.kr/",
+    "admissionsUrl": "https://www.dis.sc.kr/admissions/process",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://www.dis.sc.kr/admissions/process",
+      "https://www.dis.sc.kr/admissions/faq"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Gwangju International School",
+    "nameZh": "光州國際學校",
+    "region": "光州",
+    "city": "北區",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Grade 1–12；另有幼兒部",
+    "curriculum": "美式課程／高中 AP；英語授課",
+    "eligibility": "Grade 1–12 接受韓籍及外籍申請；韓籍生已取消海外居住要求。幼兒部仍有不同資格。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://gwangjuinternationalschool.org/",
+    "admissionsUrl": "https://gwangjuinternationalschool.org/admissions/application-process/",
+    "sources": [
+      "https://isi.go.kr/schl/info/SinfoView.do?schoolId=29&schoolType=ST01",
+      "https://gwangjuinternationalschool.org/admissions/application-process/",
+      "https://gwangjuinternationalschool.org/academics/curriculum/",
+      "https://gwangjuinternationalschool.org/about/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Ulsan Hyundai International School",
+    "nameZh": "蔚山現代國際學校",
+    "region": "蔚山",
+    "city": "東區",
+    "levels": [
+      "小學",
+      "初中"
+    ],
+    "grades": "Year 1–9；沒有高中課程",
+    "curriculum": "IPC 小學／IMYC 初中；英語授課",
+    "eligibility": "須符合外籍父母、海外居住或就學條件；校方接受不同英文程度的學生。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://uhis.or.kr/",
+    "admissionsUrl": "https://uhis.or.kr/admission-criteria/",
+    "sources": [
+      "https://isi.go.kr/EgovPageLink.do?link=isi%2Fen%2FschoolSearch%2Fschool04&menuId=B004",
+      "https://uhis.or.kr/admission-criteria/",
+      "https://uhis.or.kr/our-curriculum/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Gyeongnam International Foreign School",
+    "nameZh": "慶南國際外國人學校",
+    "region": "慶尚南道",
+    "city": "泗川市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Kindergarten–Grade 12",
+    "curriculum": "英語授課；IB 學校",
+    "eligibility": "政府名冊確認 K–12；OTC 向招生處取得當期申請表並核對入學資格。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.gifs.or.kr/",
+    "admissionsUrl": "https://www.gifs.or.kr/",
+    "sources": [
+      "https://isi.go.kr/schoolInfo/SinfoView.do?schoolId=45&schoolType=ST01",
+      "https://www.gifs.or.kr/",
+      "https://www.ibo.org/school/050119/"
+    ],
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "name": "Atherton International School",
+    "nameZh": "阿瑟頓國際學校（原巨濟國際學校）",
+    "region": "慶尚南道",
+    "city": "巨濟市",
+    "levels": [
+      "小學",
+      "初中",
+      "高中"
+    ],
+    "grades": "Early Years–Year 13",
+    "curriculum": "英國課程；IGCSE／A Level",
+    "eligibility": "接受外籍及符合海外經歷要求的韓籍學生；提交父母及學生護照、出生證明、近兩年成績和家庭居留卡。",
+    "visaNote": "OTC 先核對家庭居留、監護安排及學校可提供的簽證文件。",
+    "officialUrl": "https://www.atherton.sc.kr/",
+    "admissionsUrl": "https://www.atherton.sc.kr/application-process",
+    "sources": [
+      "https://isi.go.kr/schoolInfo/SinfoView.do?schoolId=44&schoolType=ST01",
+      "https://www.atherton.sc.kr/admissions",
+      "https://www.atherton.sc.kr/",
+      "https://www.atherton.sc.kr/application-process",
+      "https://www.atherton.sc.kr/copy-of-ais-application-process"
+    ],
+    "checkedDate": "2026-10-31"
+  }
+]

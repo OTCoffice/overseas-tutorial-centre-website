@@ -15,6 +15,7 @@ const groups=[
       ["音樂留學規劃", "/zh/subject-planning/music/", "本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
       ["德國雙元制", "/zh/services/germany-ausbildung/", "職業培訓、德語、申請材料及中介合約查核。"],
       ["日本大學院選校與申請規劃", "/zh/services/japan-graduate-application/", "修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
+      ["韓國中小學申請", "/zh/countries/south-korea/#korea-apply", "30 所學校／校區、資格、申請材料與 OTC 代辦。"],
       ["韓國碩士申請", "/zh/services/korea-masters-application/", "藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
       ["加拿大中小學申請", "/zh/services/canada-school-application/", "公校教育局、私校、免費入學代辦與監護住宿協調。"],
       ["護理課程與院校", "/zh/nursing/courses/", "按 AQF 學歷級別及州份查閱澳洲護理課程。"],

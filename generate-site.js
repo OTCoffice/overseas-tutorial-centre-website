@@ -70,3 +70,6 @@ require('./scripts/render-affordable-study.cjs');
 
 // Preserve public school country pages and navigation.
 require('./scripts/render-public-school-alliance.cjs');
+
+// Keep Korea K-12 school records, application materials and contact entry in sync.
+require("./scripts/render-korea-schools.cjs");
