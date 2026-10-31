@@ -1,0 +1,9 @@
+const entries=require('./volunteer-entry-guidance.json');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const common=`<details><summary>文件與出發流程</summary><ol><li>提供中國大陸普通護照、香港特區護照或台灣護照類別（新加坡及其他護照另列）、合法居住地、年齡及服務日期；已有居留者另核對其活動權利。</li><li>向接收方取得正式接收信／協議：職務、工時、地點、期間、食宿、津貼、保險及負責人。另問機構能否提供擔保、推薦或主管機關批准。</li><li>按國別規定確認簽證、居留及工作許可是否分開辦理。準備護照、照片、財力、保險與住宿資料；體檢、無犯罪紀錄、翻譯及認證按官方清單辦理。</li><li>經管轄使領館／指定系統遞件，完成所需面談或生物辨識。先確認拒簽退款條款，未獲批准前避免不可退的行程支出。</li><li>入境後按規定辦理住址登記、領卡或許可。服務內容及機構不得任意更換；在合法期限內辦理延期或離境。</li></ol><p>上述為準備順序，不代表每個國家均要求全部文件。接收信、付費收據和簽證是不同文件；機構同意接收不等於政府批准入境或服務。</p></details>`;
+const schengen=new Set(['AT','DK','FI','FR','DE','IS','IT','PL','ES','CH']);
+const audience=code=>`<p class="meta">本頁以中國大陸普通護照、香港特區護照及台灣護照申請人為主；新加坡護照另行核對。BN(O)、其他旅行證件及海外居留者，請提供實際證件與合法居住地。</p>${schengen.has(code)?`<details><summary>陸港台護照與入境資格</summary><p>一般短期訪問：中國大陸普通護照通常須先辦申根簽證；香港特區護照、載有身分證字號的台灣護照及新加坡護照通常適用每 180 日最多 90 日免簽安排。已有合適申根居留等情況另核。</p><p>這只是短期入境規則，不是志工許可。正式服務、工作性質活動及長期居留仍按下列國別程序辦理；須另核出發時適用的入境系統及證件要求。</p><p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02018R1806-20251230" target="_blank" rel="noopener">歐盟護照與簽證名單 ↗</a></p></details>`:'<p class="meta">下列是活動所需途徑，不代表三類護照的普通旅遊免簽安排相同；按本人護照及居住地向管轄機關辦理。</p>'}`;
+module.exports=function(code){
+ const e=entries.find(x=>x.code===code);if(!e)throw new Error('Missing volunteer entry guidance: '+code);
+ return `<section id="entry-visa" class="entry-guidance"><h2>海外申請與簽證</h2>${audience(code)}${e.audience?`<p><strong>陸港台申請：</strong>${esc(e.audience)}</p>`:''}<p>${esc(e.route)}</p>${e.process?`<h3>辦理順序</h3><p>${esc(e.process)}</p>`:''}<p><strong>注意：</strong>${esc(e.caution)}</p>${common}<p class="meta">官方資料核對：${e.checked}。依護照、居住地、服務內容及日期確認；下列來源包含不同領區指引，最終材料以管轄機關為準。</p><p class="entry-sources">${e.sources.map((url,i)=>`<a href="${esc(url)}" target="_blank" rel="noopener">${i===0?'官方簽證／許可指引':'補充官方資料 '+i} ↗</a>`).join(' · ')}</p></section>`;
+};
