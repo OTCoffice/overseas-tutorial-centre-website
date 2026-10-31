@@ -1,0 +1,507 @@
+[
+  {
+    "code": "AT",
+    "route": "非 EU／EEA／瑞士申請人：奧地利「Freiwilliger」居留許可針對 European Solidarity Corps（ESC），不是所有無薪公益活動的通用簽證。逗留超過 6 個月一般申請此居留；較短服務先由奧地利領館確認適用簽證。",
+    "process": "先確認 ESC 資格及取得接收協議，再向居住地奧地利使領館申請；準備護照、照片、保險、生活費證明及載明職務、工時、食宿和零用錢的協議。批准後按通知入境、領卡。",
+    "caution": "ESC 一般要求開始時 18–30 歲，並合法居住在計畫涵蓋國家；中國內地、香港、台灣及英國不在目前一般志工參加國家名單，不能只靠國籍或一封接收信判定合資格。在奧地利合法逗留期間可提交部分申請，但遞件不延長合法停留。非 ESC 的當地志工、森林營及 UN 職位須另查活動許可。",
+    "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/1/1/Seite.120126",
+    "sources": [
+      "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/1/1/Seite.120126",
+      "https://www.wien.gv.at/amtswege/aufenthaltsbewilligung-freiwillige",
+      "https://youth.europa.eu/solidarity/countries-covered_en"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "DK",
+    "route": "丹麥有 Volunteer 居留及工作許可，適用 18–30 歲、全職每週 37 小時、社會或人道性質的無薪服務，最長 18 個月。",
+    "process": "與機構簽訂職務及工時協議，確認食宿／生活費與健康、責任保險，再按 SIRI 程序遞交申請。",
+    "caution": "只可在批准機構從事該無薪角色；慈善機構的普通清潔職位也未必符合資格。以訪客簽證入境後遞交可能引起未來訪客簽證限制，應出發前安排。",
+    "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Volunteer",
+    "sources": [
+      "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Volunteer"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "FI",
+    "route": "芬蘭志工居留可涵蓋 ESC，以及 Maailmanvaihto–ICYE、AIESEC 等非政府組織交換計畫；臨時許可最長一年。",
+    "process": "首次申請在海外辦理；取得志工協議與機構提供的生活保障、食宿及零用錢資料，提交申請並完成身份核驗。",
+    "caution": "必須獲批才可開始服務；這種居留不授予其他工作的權利。不能把任何自費短期活動都當成合資格交換計畫。",
+    "url": "https://migri.fi/en/volunteering1",
+    "sources": [
+      "https://migri.fi/en/volunteering1"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "FR",
+    "route": "法國按 civic service、association-based volunteering 或 European Voluntary Service 區分簽證；官方列 EVS 使用標示 Volunteer 的臨時長期簽證。其他類別按服務長度判定。",
+    "process": "先由接收機構確認所屬制度與協議，再使用 France-Visas 按國籍、居住地、期間建立申請及文件清單。",
+    "caution": "短期義工、正式志願服務合約與一般無薪幫忙不可混用。法國官方仍使用 EVS 名稱，ESC 個案請由機構和領館確認對應類別。",
+    "url": "https://www.france-visas.gouv.fr/en/volontariat",
+    "sources": [
+      "https://www.france-visas.gouv.fr/en/volontariat"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "DE",
+    "route": "德國可按 BFD、FSJ、FÖJ 等正式志願服務辦理簽證／居留；ESC 另有相應條件。無薪不代表無需活動許可。",
+    "process": "取得完整簽署的服務合約、食宿／生活費及保險資料，向居住地德國使領館申請適當簽證；入境後完成住址及居留手續。",
+    "caution": "部分免簽國籍的短期慈善活動有特定例外，不能套用到所有護照。中國護照等通常須先辦簽證；不得把取得居留預約當成已可開工。",
+    "url": "https://uk.diplo.de/uk-en/02/visa/2449448-2449448",
+    "sources": [
+      "https://uk.diplo.de/uk-en/02/visa/2449448-2449448",
+      "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/volunteer-germany_en"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "IS",
+    "route": "冰島有志工居留，適用 18 歲以上、受認可非營利慈善／人道 NGO 邀請的服務；最長一年。",
+    "process": "與 NGO 簽約，備生活保障、保險、護照及回程安排，向移民局提交紙本申請。需簽證人士一般須在境外申請及等候。",
+    "caution": "獲批前不可服務；農場、餐廳、旅館及旅遊業的無薪工作不屬此志工定義。此許可不可續期、不授予有薪工作，也不是永久居留基礎。",
+    "url": "https://island.is/en/permits-for-volunteers",
+    "sources": [
+      "https://island.is/en/permits-for-volunteers",
+      "https://island.is/en/permits-for-volunteers/requirements",
+      "https://island.is/en/permits-for-volunteers/residence-rights"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "IT",
+    "route": "意大利正式志工途徑須符合獲認可組織、服務協議及入境授權條件；並非普通旅遊簽證附帶的服務權利。",
+    "process": "接收組織先向 Prefettura 申請 nulla osta；獲授權後申請簽證，入境後按時辦理居留許可。協議需說明職務、食宿，機構安排醫療及責任保險。",
+    "caution": "不同志願服務制度有不同年齡、名額及接收機構規則。應讓接收方確認所走法律途徑及當期資格，不能把 ESC 條件套用到所有計畫。",
+    "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/volunteer-italy_en",
+    "sources": [
+      "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/volunteer-italy_en",
+      "https://www.interno.gov.it/it/temi/immigrazione-e-asilo/modalita-dingresso/sportello-unico-limmigrazione"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "PL",
+    "route": "波蘭 European volunteering／ESC 可涉及 D 類國家簽證（13b）及志工臨時居留；接收單位須獲內政主管機關批准。",
+    "process": "先核對接收單位批准名單、簽訂服務協議，再向領館辦理入境簽證；需要臨時居留者按當期 MOS 程序在合法停留到期前申請。",
+    "caution": "從 2026 年 4 月 27 日起，官方地方移民頁列臨時居留須經 MOS 電子提交。一般慈善社團邀請不等於符合此許可；零用錢／食宿與有薪雇用不同。",
+    "url": "https://migrant.poznan.uw.gov.pl/en/procedury/volunteering",
+    "sources": [
+      "https://migrant.poznan.uw.gov.pl/en/procedury/volunteering",
+      "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/volunteer-poland_en",
+      "https://www.mos.cudzoziemcy.gov.pl/en/categories-information/visas-movement-free/visas/"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "RU",
+    "route": "俄羅斯人道簽證可用於人道援助等官方列明目的；是否適用個別志工職務，須由接收機構及領館按活動判定。",
+    "process": "先由俄方確認邀請文件及正確入境目的，再向常住地俄羅斯領館申請；一般須護照、表格、照片、保險及符合要求的邀請。",
+    "caution": "普通項目錄取信不一定是合資格的簽證邀請；不同國籍／申請地文件可不同。切勿把旅遊或統一電子簽證當成任何志工工作的許可。",
+    "url": "https://www.kdmid.ru/cons/visas/",
+    "sources": [
+      "https://www.kdmid.ru/cons/visas/",
+      "https://denmark.kdmid.ru/en/consular-functions/visa-application-procedure/ordinary-humanitarian-visa/"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "ES",
+    "route": "西班牙超過 90 天的合資格志工可申請長期停留授權，涵蓋依法登記的公益志工計畫及 ESC；一般以計畫長度為準，最長一年。",
+    "process": "取得載明職務、工時、督導、食宿及零用錢的協議，備生活費、醫療保險等文件，向居住地西班牙領館申請；超過 6 個月另辦外國人身份卡。",
+    "caution": "成人逗留超過 6 個月通常另需過往居住國無犯罪紀錄，外國公文可能須認證及宣誓翻譯。短期活動仍須先確認適用入境類別，不直接套用長期流程。",
+    "url": "https://bibliovirtual.inclusion.gob.es/web/migraciones/w/autorizacion-para-participacion-programa-voluntario",
+    "sources": [
+      "https://bibliovirtual.inclusion.gob.es/web/migraciones/w/autorizacion-para-participacion-programa-voluntario",
+      "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/extranjeria/regimen-general/estancia/"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "CH",
+    "route": "瑞士會把部分無薪志工視作需要許可或申報的活動；規則按國籍、活動及州份不同，須先取得州移民／勞動機關的判定。",
+    "process": "請接收機構向所在州提交具體職務、工時、食宿及服務期間，確認許可或豁免；有入境簽證要求者再辦相應簽證。",
+    "caution": "沒有薪金不代表不屬工作；持其他申根國簽證也不代表可在瑞士服務。第三國短期志工的可行性須個案核實，勿承諾有通用志工簽證。",
+    "url": "https://www.sem.admin.ch/sem/en/home/overview-arbeit.html",
+    "sources": [
+      "https://www.sem.admin.ch/sem/en/home/overview-arbeit.html",
+      "https://www.ge.ch/en/apply-permit-reside-and-work-geneva",
+      "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-kap4-d.pdf.download.pdf/weisungen-aug-kap4-d.pdf"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "TR",
+    "route": "土耳其志工應先由機構與領館確認活動是否需工作許可、工作許可豁免及相應簽證；並無在此核定適用所有項目的單一志工類別。",
+    "process": "提供接收協議、活動內容、期限及食宿資料，由機構確認主管機關程序，再辦入境與所需居留。若適用工作許可豁免，須正式獲批，不能自行宣稱豁免。",
+    "caution": "e-Visa 官方用途限旅遊或商務，不應當成志工工作授權。工作許可豁免新申請自 2026 年 9 月 17 日改用 calismaizni.csgb.gov.tr。",
+    "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+    "sources": [
+      "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+      "https://www.csgb.gov.tr/en/frequently-asked-questions/directorate-general-of-international-labour-force/work-permit-exemption/",
+      "https://emuafiyet.csgb.gov.tr/"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "GB",
+    "route": "以無薪慈善服務為赴英主要目的，可核對 Temporary Work – Charity Worker 路線，須持牌擔保機構簽發 Certificate of Sponsorship；最長 12 個月。",
+    "process": "先確認職位及擔保、取得 CoS，再申請入境許可，完成身份／生物辨識及文件程序；核對生活費、醫療附加費，以及適用的肺結核檢查。",
+    "caution": "機構列入持牌名單不等於有名額或願意擔保。此路線不是永居途徑；不得把普通訪客許可當成長期志工許可。 合資格訪客可為註冊慈善機構參與合計最多 30 日志工，但這不能成為赴英主要目的；須符合訪客規則。",
+    "url": "https://www.gov.uk/temporary-worker-charity-worker-visa",
+    "sources": [
+      "https://www.gov.uk/temporary-worker-charity-worker-visa",
+      "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-temporary-work-charity-worker",
+      "https://www.gov.uk/standard-visitor"
+    ],
+    "checked": "2026-10-31"
+  },
+  {
+    "code": "AR",
+    "route": "文化交流／志工可適用非正規教育、交換、實習等專項簽證，官方列最長一年。",
+    "caution": "先取得接收機構的活動及接收文件，向居住地阿根廷領事館申請；不能把一般觀光免簽當成全部志工活動的許可。",
+    "url": "https://cancilleria.gob.ar/es/servicios/servicios-para-extranjeros/visas",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://cancilleria.gob.ar/es/servicios/servicios-para-extranjeros/visas"
+    ]
+  },
+  {
+    "code": "BO",
+    "route": "志工屬 Visa de Objeto Determinado（特定目的簽證），並非觀光目的。",
+    "caution": "由接收機構出具活動／邀請及合法登記資料，備妥護照、無犯罪紀錄等向領事館申請；較長服務另確認在地停留／居留手續。",
+    "url": "https://consulados.cancilleria.gob.bo/viedma/visas/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://consulados.cancilleria.gob.bo/viedma/visas/"
+    ]
+  },
+  {
+    "code": "BR",
+    "route": "官方訪問類別包括不超過90日的無薪志工；較長服務可按 RN 15/2017 申請志工居留許可。",
+    "caution": "短期是否須簽證依國籍判斷；長期由巴西接收機構經 MigranteWeb 辦理相應申請。不得把無薪志工許可用於有薪工作。",
+    "url": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/navegacao-guiada-1/possui-autorizacao-de-residencia/o-que-deseja/qual-a-finalidade-desejada-1/trabalho-sem-contrato-de-trabalho-no-brasil/voluntario",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/navegacao-guiada-1/possui-autorizacao-de-residencia/o-que-deseja/qual-a-finalidade-desejada-1/trabalho-sem-contrato-de-trabalho-no-brasil/voluntario",
+      "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/navegacao-guiada-1/possui-autorizacao-de-residencia/o-que-deseja/qual-a-finalidade-desejada-1/visita"
+    ]
+  },
+  {
+    "code": "CO",
+    "route": "Visa V Voluntario o Cooperante 適用社會志工／發展合作；批准限於指定活動及機構。",
+    "caution": "接收機構須提供活動、地點、期限及負擔生活和回程費用的承諾；另備醫療保險和機構合法登記／財力文件，向外交部申請。",
+    "url": "https://www.cancilleria.gov.co/node/26948",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.cancilleria.gov.co/node/26948"
+    ]
+  },
+  {
+    "code": "CR",
+    "route": "官方設有學術與志工特別許可路線；使館指引要求先向領事館申請臨時入境簽證。",
+    "caution": "請接收組織確認志工項目文件及入境後向移民局申請的特別類別；臨時簽證、最終居留／活動許可是不同步驟，不宜只按旅遊停留安排。",
+    "url": "https://costaricanembassy.uk/es/categorias-de-residencia/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://costaricanembassy.uk/es/categorias-de-residencia/"
+    ]
+  },
+  {
+    "code": "EC",
+    "route": "外交部列有 Voluntario, misionero 臨時居留簽證；宗教志工另有類別。",
+    "caution": "先取得非營利接收機構證明，請領事館依實際服務及期限確認類別與材料；普通社區志工不要誤選宗教志工。短期活動是否另適用訪客類別須個案核定。",
+    "url": "https://www.cancilleria.gob.ec/2020/06/16/visa-residencia-temporal/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.cancilleria.gob.ec/2020/06/16/visa-residencia-temporal/"
+    ]
+  },
+  {
+    "code": "HN",
+    "route": "移民局設 Voluntarios 特別停留許可（Permiso Especial de Permanencia）。",
+    "caution": "申請需要接收機構證明、承擔生活及離境責任的文件、財力、無犯罪紀錄和醫療證明等；外國文件須依法認證及翻譯。入境簽證另按國籍確認。",
+    "url": "https://inm.gob.hn/requisitos-permisos-formularios/permisos/CATEGORI%E2%95%A0%C3%BCA-%20VOLUNTARIOS.pdf",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://inm.gob.hn/requisitos-permisos-formularios/permisos/CATEGORI%E2%95%A0%C3%BCA-%20VOLUNTARIOS.pdf"
+    ]
+  },
+  {
+    "code": "MX",
+    "route": "無薪慈善活動可在「不准從事有薪活動的訪客」類別評估，停留上限為180日。",
+    "caution": "先核對國籍／既有簽證是否豁免，再向領事館提供活動及財力資料；實際批准停留日數以入境決定為準，不能收取不符合該類別的報酬。",
+    "url": "https://www.gob.mx/sre/acciones-y-programas/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.gob.mx/sre/acciones-y-programas/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
+    ]
+  },
+  {
+    "code": "PE",
+    "route": "社會支援／合作活動可申請 Cooperante；接收組織須先確認是否符合外交部認可的合作或人道支援範圍。",
+    "caution": "由秘魯接收機構向外交部辦理相應批准，再按所在領事館要求申請簽證；並非每個付費短期營均符合 Cooperante，不得自行以觀光取代。",
+    "url": "https://www.consulado.pe/es/paris/tramite/_layouts/mobile/dispform.aspx?ID=76&List=424e6d8f-ec5f-4ec9-b965-40d036844e92&View=8848006b-edaa-4bcb-a664-458686b75825",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.consulado.pe/es/paris/tramite/_layouts/mobile/dispform.aspx?ID=76&List=424e6d8f-ec5f-4ec9-b965-40d036844e92&View=8848006b-edaa-4bcb-a664-458686b75825"
+    ]
+  },
+  {
+    "code": "US",
+    "route": "特定認可宗教／非營利慈善組織的正式志願服務計畫可按 B-1 規則評估，並非一般 B-2 旅遊工作許可。",
+    "caution": "須符合組織關係、公益目的及無美國來源薪酬等條件，生活開銷補助有專門規則；組織需說明項目符合規定，不可把一般實習、商業換宿或募款活動混入此路線。",
+    "url": "https://fam.state.gov/fam/09FAM/09FAM040202.html",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://fam.state.gov/fam/09FAM/09FAM040202.html"
+    ]
+  },
+  {
+    "code": "GH",
+    "route": "加納使館列有 Voluntary Work 申請目的，要求志工錄取／安排信及接收組織資料。",
+    "caution": "先確認機構合法登記；入境簽證不等同長期工作／居留許可，較長 NGO 服務須與接收方核對 Ghana Immigration Service 的工作及居留手續。",
+    "url": "https://london.mfa.gov.gh/services/visa-application?lang=en",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://london.mfa.gov.gh/services/visa-application?lang=en",
+      "https://gis.gov.gh/permits/"
+    ]
+  },
+  {
+    "code": "KE",
+    "route": "慈善／宗教組織活動須按職責核定 permit/pass；專業慈善人員現有 Class Q 路線，不能一概套用宗教 Class I。",
+    "caution": "接收機構先向移民局確認類別，再經 eFNS 提交機構、職務及專業文件。eTA／入境批准不能代替活動許可；普通短期志工的類別須另獲確認。",
+    "url": "https://fns.immigration.go.ke/infopack/permits/classQ/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://fns.immigration.go.ke/infopack/permits/classQ/"
+    ]
+  },
+  {
+    "code": "MA",
+    "route": "尚未核定可供所有海外志工統一使用的專門類別；摩洛哥外交部區分觀光、工作、實習等簽證。",
+    "caution": "將接收信、職責、時數、是否包食宿及期限交所在地領事館，先取得適用入境與活動類別的書面確認；免簽／電子簽證資格不能直接證明可提供志工勞務。",
+    "url": "https://diplomatie.ma/en/visiting-morocco",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://diplomatie.ma/en/visiting-morocco"
+    ]
+  },
+  {
+    "code": "MZ",
+    "route": "莫桑比克使館將有薪或無薪的專業活動列入工作簽證用途。",
+    "caution": "請接收機構核對所需勞動批准及簽證材料，出發前向管轄使館辦理；不能因沒有工資便直接選觀光簽證，普通短期營的個案類別亦需確認。",
+    "url": "https://ambassademozambiquefrance.fr/fr/visas/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://ambassademozambiquefrance.fr/fr/visas/"
+    ]
+  },
+  {
+    "code": "NG",
+    "route": "Staff of NGO Visa（F7M）官方涵蓋尼日利亞 NGO 的員工／志工；列明單次停留不超過30日且不可延期。",
+    "caution": "先取 NGO 邀請，再按使館線上流程提交護照、回程及住宿資料；簽證自簽發起90日有效不代表能停留90日，長期項目需另核定路線。",
+    "url": "https://immigration.gov.ng/info-center/staff-of-ngo-visa-f7m/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://immigration.gov.ng/info-center/staff-of-ngo-visa-f7m/"
+    ]
+  },
+  {
+    "code": "ZA",
+    "route": "真正非營利／慈善組織的無薪服務可申請 Volunteer Visitor Visa；官方指引將90日內及較長停留分開處理。",
+    "caution": "接收方須說明無薪職責及期限，申請人備資金、住宿等材料，向居住地管轄使館／指定中心申請；任何薪資或工資可能改用工作許可，勿自行以免簽推定可開始服務。",
+    "url": "https://dirco.gov.za/canberra/volunteer-permit/",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://dirco.gov.za/canberra/volunteer-permit/"
+    ]
+  },
+  {
+    "code": "TZ",
+    "route": "無薪志工列於 Residence Permit Class C-5；官方指引要求原則上在入境前申請。",
+    "caution": "接收機構提供文件，並核對勞工部工作許可或主管機關豁免；坦桑尼亞本島與桑給巴爾安排需核實。入境簽證不取代志工居留／活動批准。",
+    "url": "https://eservices.immigration.go.tz/online/web/permit/guidelines",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://eservices.immigration.go.tz/online/web/permit/guidelines",
+      "https://www.immigration.go.tz/index.php/regulations?download=14%3Aresidence-permit-guidelines"
+    ]
+  },
+  {
+    "code": "MG",
+    "route": "超過90日的志工居留應先申請可轉長居的一個月入境簽證，入境後辦理長居及居留卡。",
+    "caution": "NGO 路線需核對志工合約、機構協議及無薪工作批准；短期觀光簽證不能在當地直接轉為長居。90日內的具體營隊亦須先向領事館確認活動資格。",
+    "url": "https://www.mdg-london.org/visas",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.mdg-london.org/visas",
+      "https://ambamad-paris.diplomatie.gov.mg/images/doc/visamaj/VISA_POUR_LES_ASSOCIATIONS_ET_ONG.pdf"
+    ]
+  },
+  {
+    "code": "IN",
+    "route": "符合國籍資格、最多 1 個月且不涉及金錢或任何形式回報的短期志工，可按官方 e-Tourist 規則申請，並附機構抬頭邀請函。較長期或一般 NGO 志工工作應先向使領館核定 Employment（E-3）等正式類別。",
+    "caution": "e-Visa 並非一般 NGO 工作許可；包食宿或津貼是否構成回報須事先申報。不能把長期服務拆成多次觀光入境。",
+    "process": "先取得工作內容、日期及待遇說明，核對 e-Visa 國籍及一個月限制；不符合者由註冊 NGO 提供邀請和登記文件，向居住地印度使領館申請正確類別。",
+    "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+    "sources": [
+      "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "https://www.hciwellington.gov.in/page/apply-for-visa/",
+      "https://indianvisaonline.gov.in/evisa/",
+      "https://cgihk.gov.in/pages/MTA2Mg%2C%2C"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：目前中央 e-Visa 公布名單列有台灣、新加坡，未列中國大陸及香港特區；大陸／香港申請人應先向印度使領館核定正式簽證，不套用舊版 e-Visa 名單。台灣／新加坡護照亦須符合短期、無回報等活動條件。"
+  },
+  {
+    "code": "ID",
+    "route": "印尼設有 C6B 志工計畫單次入境訪問簽證。由印尼擔保人提出申請；首次停留最長 60 日，按規定延期總計可至 180 日。",
+    "caution": "一般旅遊落地簽或旅遊 e-Visa 不能直接當作 C6B 使用。應先確認主辦方可擔保，並在停留期限前由擔保人辦理延期。",
+    "process": "接收機構確認擔保與服務計畫 → 透過官方 eVisa 系統申請 C6B → 批准後按簽證條件入境 → 如有需要由擔保人辦理延期。",
+    "url": "https://jakartapusat.imigrasi.go.id/layanan/warga-negara-asing-wna/visa-republik-indonesia/c6b-visa-program-sukarelawan",
+    "sources": [
+      "https://jakartapusat.imigrasi.go.id/layanan/warga-negara-asing-wna/visa-republik-indonesia/c6b-visa-program-sukarelawan"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人均先按志工目的核對 C6B 擔保及申請資格；旅遊免簽或落地簽待遇不取代志工類別審核。"
+  },
+  {
+    "code": "JP",
+    "route": "中國大陸、香港特區、台灣及新加坡申請人須按服務內容、待遇及停留期向日本使領館核定入境或在留資格。日本另有只適用於居英 British Citizens 的 Volunteer Visa，不能套用於本頁主要學生群。",
+    "caution": "無薪不等於任何活動均可用短期停留；住宿、津貼及工作內容須如實披露。英國志工計畫亦限制可做的工作，不能直接從事醫療或護理執業。",
+    "process": "先取機構邀請及活動計畫 → 向居住地管轄日本使領館確認資格 → 如屬長期在留，按要求由接收方辦理在留資格認定證明書後申簽。",
+    "url": "https://www.mofa.go.jp/j_info/visit/visa/",
+    "sources": [
+      "https://www.mofa.go.jp/j_info/visit/visa/",
+      "https://www.uk.emb-japan.go.jp/itpr_en/index_000073.html"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡護照均不能使用上述英籍人士專屬 Volunteer Visa。赴日旅遊免簽與否須分開核對，也不代表志工活動自動獲准。"
+  },
+  {
+    "code": "NP",
+    "route": "需由接收 NGO 與尼泊爾移民局確認志工活動適用的非旅遊簽證及主管部門許可。官方工作簽證路徑要求相關部門推薦、勞動許可及內政部工作協議等文件。",
+    "caution": "目前不能把旅遊簽證視作所有志工活動的許可。官方雖允許工作簽證辦理期間持旅遊身分停留，並不表示可在批准前開工。",
+    "process": "主辦方確認 NGO／INGO 合規與主管機關 → 核定志工所需簽證及推薦、許可 → 提交移民局申請 → 取得所需批准後才開始服務。",
+    "url": "https://immigration.gov.np/visa-fees-and-documents",
+    "sources": [
+      "https://immigration.gov.np/visa-fees-and-documents",
+      "https://immigration.gov.np/visa-information"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人均須由接收方核定服務活動的許可；旅遊入境辦法或費用優惠不能代替志工資格。"
+  },
+  {
+    "code": "NZ",
+    "route": "訪客可參與符合移民局定義、完全不期待或收取可折算金錢回報的志工活動。以勞務換取食物、住宿或交通通常屬工作，應持允許該工作的簽證。",
+    "caution": "WWOOF 換宿被移民局明列為工作；不要因無現金薪資就用訪客簽證參加。DOC 自有志工另有官方說明，應逐項核對。",
+    "process": "取得待遇及食宿安排 → 判斷是否有 gain or reward → 申請對應訪客／工作資格 → 入境後遵守實際核發條件與期限。",
+    "url": "https://www.immigration.govt.nz/about-us/glossary/?letter=V",
+    "sources": [
+      "https://www.immigration.govt.nz/about-us/glossary/?letter=V",
+      "https://www.immigration.govt.nz/visas/visitor-visa/",
+      "https://www.doc.govt.nz/get-involved/volunteer/international-volunteers/"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡護照的入境手續分別核對；即使可走免簽／NZeTA，仍受志工不得取得回報的限制。"
+  },
+  {
+    "code": "KR",
+    "route": "一般海外短期志工尚不能在本頁一概指定某一簽證。應由接收方提供服務內容、期間及補助，向韓國出入境外國人政策本部 1345 或管轄使領館確認可用身分及是否需額外許可。",
+    "caution": "不要把 K-ETA、免簽或 C-3 入境自動解讀成任何志工活動均獲許可；宗教、社福派遣及一般短期參與的條件可能不同。",
+    "process": "取得接收函與待遇說明 → 向 1345／使領館確認類別 → 若所屬類別要求簽證簽發認定，由韓國邀請方先申辦 → 再向使領館申簽。",
+    "url": "https://www.immigration.go.kr/immigration_eng/1862/subview.do",
+    "sources": [
+      "https://www.immigration.go.kr/immigration_eng/1862/subview.do",
+      "https://www.mofa.go.kr/dk-en/brd/m_7038/view.do?page=1&seq=761251"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人均按實際護照、居住地及活動向韓國使領館核對；K-ETA 或免簽資格與志工活動許可是兩回事。"
+  },
+  {
+    "code": "TW",
+    "route": "外國護照持有人可按志工目的申請停留簽證；服務逾 6 個月可按志工居留簽證規定辦理。兩者均須中央主管機關或指定機關的相應許可文件。",
+    "caution": "接收機構邀請函不能取代主管機關許可。居留簽證另需合格體檢，入境次日起 30 日內申辦外僑居留證；中國大陸及港澳居民適用不同入境制度，須另查。",
+    "process": "接收方辦理主管機關許可 → 備妥護照、表格、照片及相應體檢 → 向駐外館處申請 → 居留者入境後依法辦理居留證。",
+    "url": "https://www.boca.gov.tw/cp-402-7530-9fd4a-1.html",
+    "sources": [
+      "https://www.boca.gov.tw/cp-402-7530-9fd4a-1.html",
+      "https://www.boca.gov.tw/fp-158-7533-b6d0a-2.html",
+      "https://www.teco-hk.org/cp.aspx?n=23B1A3A6BA521F00&s=16D244D24667AC0D%27"
+    ],
+    "checked": "2026-10-31",
+    "audience": "身分提示：台灣學生在台參與不按外國護照志工簽證辦理；中國大陸及香港居民應先由接收方確認移民署相應入境許可，不能套用本頁外籍人士簽證。新加坡護照則按外籍人士及活動目的規則核對。"
+  },
+  {
+    "code": "TH",
+    "route": "一般無薪 NGO／慈善志工通常申請 Non-Immigrant O（Volunteer），需機構確認及相關主管部門支持文件，並核對工作許可。初次獲准停留通常不超過 90 日。",
+    "caution": "無薪也可能需要工作許可；教學、實習教師或宗教傳教另有簽證類別，不應全套用 O。離境前如需保留現有停留許可，須核對 re-entry permit。",
+    "process": "主辦方確認註冊及主管機關支持 → 依居住地使領館要求申請 e-Visa → 辦妥所需工作許可後服務 → 延期或重入境按移民局規定辦理。",
+    "url": "https://london.thaiembassy.org/en/page/volunteer-visa",
+    "sources": [
+      "https://london.thaiembassy.org/en/page/volunteer-visa",
+      "https://mfa.go.th/en/publicservice/questions-answers-on-thai-visa?cate=5d5bcb4e15e39c30600068d3",
+      "https://thaiconsulatela.thaiembassy.org/en/publicservice/non-immigrant-type-o-volunteer"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人即使享有旅遊入境便利，也須另核對 O 志工簽證及工作許可；向實際居住地管轄使領館送件。"
+  },
+  {
+    "code": "AU",
+    "route": "訪客簽證禁止工作，但部分真正的志工參與可被允許，須按活動性質及簽證條件判斷。由組織安排的特別計畫可能需要不同簽證；主辦方須先確認適用路線及擔保要求。",
+    "caution": "無薪不等於訪客簽證可參加；應如實申報食宿、津貼、職責及工時，按澳洲規則與實際核發條件確認。",
+    "process": "取得工作內容、待遇及活動主辦資料 → 由主辦方與澳洲內政部確認類別及是否需擔保 → 申請並獲批 → 透過 VEVO 核對條件後參加。",
+    "url": "https://immi.homeaffairs.gov.au/visas/bringing-someone/bringing-for-activities",
+    "sources": [
+      "https://immi.homeaffairs.gov.au/visas/bringing-someone/bringing-for-activities",
+      "https://immi.homeaffairs.gov.au/form-listing/forms/1283.pdf",
+      "https://immi.homeaffairs.gov.au/visas/working-in-australia/work-rights-and-exploitation/work-restrictions"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡護照的訪客申請通道不同；先按護照核對通道，再核對計畫活動，不把 ETA 或其他訪客資格當作工作許可。"
+  },
+  {
+    "code": "LK",
+    "route": "斯里蘭卡居留簽證設志工類別，需志工機構申請信、主管部會推薦及健康保障計畫；NGO／INGO 人員另有對應審批文件。",
+    "caution": "訪問簽證禁止未獲准的有薪或無薪工作。擬辦居留者須先獲移民部門批准，再由駐外館處簽發相應 Entry Visa；不要直接以旅遊入境當成志工通道。",
+    "process": "接收方取得主管部門推薦及移民局預先批准 → 駐外館處申請 Entry Visa → 入境後完成 Residence Visa 手續 → 只做批准活動。",
+    "url": "https://immigration.gov.lk/pages_e.php?id=18",
+    "sources": [
+      "https://immigration.gov.lk/pages_e.php?id=18",
+      "https://www.hc-london.gov.lk/en/residence-work-visa",
+      "https://www.immigration.gov.lk/pages_e.php?id=14&os=apprefapp"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人須依服務活動辦理相應批准；旅遊 ETA、免簽或優惠即使適用，也不能取代志工居留路徑。"
+  },
+  {
+    "code": "KH",
+    "route": "先經接收組織確認志工所需簽證及工作許可；具體類別應由柬埔寨使領館按項目和機構身分審核，本頁不把旅遊 e-Visa 視作通用志工許可。",
+    "caution": "英國政府居柬指引明確要求志工透過註冊組織安排，取得組織推薦信以辦理簽證及工作許可。不能僅憑機構口頭說『觀光入境即可』。",
+    "process": "核對接收機構註冊 → 取得推薦信、活動與待遇資料 → 向柬埔寨使領館確認簽證和許可流程 → 完成所需批准後開始服務。",
+    "url": "https://www.cambodiaembassyuk.org/visa-cosular-services/",
+    "sources": [
+      "https://www.cambodiaembassyuk.org/visa-cosular-services/",
+      "https://www.gov.uk/guidance/living-in-cambodia"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人均先核對志工用途；不要以國籍享有的旅遊入境便利代替組織推薦、簽證及工作許可確認。"
+  },
+  {
+    "code": "MY",
+    "route": "馬來西亞 Professional Visit Pass 的官方可考慮類別包括志工，需由馬來西亞擔保人在申請人入境前提交；有效期依批准條件，最長一般不超過 12 個月。",
+    "caution": "接收方須確認適用一般或專家 PVP 通道及相關主管機關支持要求。一般社交訪問入境並不等於已取得 PVP。",
+    "process": "接收方確認擔保及適用 PVP 通道 → 備妥職責、時程、護照及主管機關支持文件 → 入境前申請獲批 → 按核發條件入境及服務。",
+    "url": "https://www.imi.gov.my/index.php/en/main-services/pass/professional-visitor-pass/",
+    "sources": [
+      "https://www.imi.gov.my/index.php/en/main-services/pass/professional-visitor-pass/",
+      "https://www.imi.gov.my/index.php/en/main-services/pass/professional-visitor-pass-expert/"
+    ],
+    "checked": "2026-10-31",
+    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡申請人應由馬來西亞接收方核對 PVP；旅遊／社交訪問免簽即使適用，也不等於志工活動已批准。"
+  }
+]
