@@ -554,5 +554,14 @@
     "height": 288,
     "file": "zh/language-school-alliance/south-korea/index.html",
     "previousImage": "/assets/language-south-korea-20260930.png"
+  },
+  "/zh/volunteer-alliance/": {
+    "title": "志工聯盟｜海外督導 OTC",
+    "image": "/assets/social/volunteer-alliance-share-safe-20261031.png",
+    "version": "v=20261031-programmes",
+    "width": 1200,
+    "height": 600,
+    "shareLayout": "safe-landscape",
+    "cardType": "summary_large_image"
   }
 }
