@@ -3,9 +3,10 @@
   "path": "/zh/subject-planning/photography/",
   "titleZh": "藝術攝影升學｜50所世界院校・本碩博規劃",
   "summaryZh": "以攝影為主、偏藝術創作的升學與作品集服務。按地區、國家及本科、碩士、博士比較50所國際院校，附官方課程來源與申請安排。",
-  "shareImageZh": "/assets/social/native-photography-art-20261101-v2.png",
-  "socialImageVersion": "v=20261101-native-v2",
-  "socialImageWidth": 927,
-  "socialImageHeight": 252,
-  "socialImageSource": "page-hero"
+  "shareImageZh": "/assets/social/photography-art-share-safe-20261101-v3.png",
+  "socialImageVersion": "v=20261101-share-safe-v3",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "page-hero",
+  "twitterCard": "summary_large_image"
 }

@@ -566,10 +566,11 @@
   },
   "/zh/subject-planning/photography/": {
     "title": "藝術攝影升學",
-    "image": "/assets/social/native-photography-art-20261101-v2.png",
-    "version": "v=20261101-native-v2",
-    "width": 927,
-    "height": 252,
-    "file": "zh/subject-planning/photography/index.html"
+    "image": "/assets/social/photography-art-share-safe-20261101-v3.png",
+    "version": "v=20261101-share-safe-v3",
+    "width": 1200,
+    "height": 600,
+    "file": "zh/subject-planning/photography/index.html",
+    "cardType": "summary_large_image"
   }
 }
