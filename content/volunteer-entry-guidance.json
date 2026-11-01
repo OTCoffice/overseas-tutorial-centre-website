@@ -8,9 +8,12 @@
     "sources": [
       "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/1/1/Seite.120126",
       "https://www.wien.gv.at/amtswege/aufenthaltsbewilligung-freiwillige",
-      "https://youth.europa.eu/solidarity/countries-covered_en"
+      "https://youth.europa.eu/solidarity/countries-covered_en",
+      "https://www.bmeia.gv.at/en/austrian-general-consulate-hongkong/travels-to-austria/entrance-and-residence/how-to-apply",
+      "https://www.bmeia.gv.at/en/austrian-office-taipei/travels-to-austria/entrance-and-residence/how-to-apply/"
     ],
-    "checked": "2026-10-31"
+    "checked": "2026-11-01",
+    "audience": "一般短訪：中國大陸普通護照通常需申根簽證；香港特區護照、載有身分證字號的台灣護照及新加坡護照通常可每 180 日停留最多 90 日。ESC 按合法居住地及個別項目範圍審核，持陸港台護照而合法居住於涵蓋國家者仍可核對資格；僅住陸港台或新加坡者不符合一般居住地條件。境外申請由居住地奧地利館處受理；香港領館要求香港／澳門有效居留或身分證，台北辦事處亦核對在台居住證明。短訪免簽不授予工作權利。"
   },
   {
     "code": "DK",
@@ -50,12 +53,13 @@
     "route": "德國可按 BFD、FSJ、FÖJ 等正式志願服務辦理簽證／居留；ESC 另有相應條件。無薪不代表無需活動許可。",
     "process": "取得完整簽署的服務合約、食宿／生活費及保險資料，向居住地德國使領館申請適當簽證；入境後完成住址及居留手續。",
     "caution": "部分免簽國籍的短期慈善活動有特定例外，不能套用到所有護照。中國護照等通常須先辦簽證；不得把取得居留預約當成已可開工。",
-    "url": "https://uk.diplo.de/uk-en/02/visa/2449448-2449448",
+    "url": "https://uk.diplo.de/uk-en/02/2449448-2449448",
     "sources": [
-      "https://uk.diplo.de/uk-en/02/visa/2449448-2449448",
+      "https://uk.diplo.de/uk-en/02/2449448-2449448",
       "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/volunteer-germany_en"
     ],
-    "checked": "2026-10-31"
+    "checked": "2026-11-01",
+    "audience": "中國大陸普通護照申請人通常須出發前取得適當簽證。香港特區、載有身分證字號的台灣及新加坡護照持有人，若符合德國短期慈善服務例外，可免簽參與；須同時符合申根每 180 日最多 90 日及一年內慈善服務最多 90 日限制。此例外不涵蓋所有無薪工作。較長期 BFD／FSJ／FÖJ 通常須事先申請國家簽證；香港／台灣護照不能直接套用英國公民入境後申領工作居留的待遇。向常住地管轄館處送件，海外居住者須提供當地居留證明。"
   },
   {
     "code": "IS",
@@ -147,16 +151,22 @@
   },
   {
     "code": "GB",
-    "route": "以無薪慈善服務為赴英主要目的，可核對 Temporary Work – Charity Worker 路線，須持牌擔保機構簽發 Certificate of Sponsorship；最長 12 個月。",
+    "route": "正式無薪慈善工作可核對 Temporary Work – Charity Worker 路線，須持牌擔保機構簽發 Certificate of Sponsorship；最長 12 個月，或 CoS 期間加 14 日，取較短者。合資格訪客另可為英國註冊慈善機構參與合計最多 30 日的 volunteering。",
     "process": "先確認職位及擔保、取得 CoS，再申請入境許可，完成身份／生物辨識及文件程序；核對生活費、醫療附加費，以及適用的肺結核檢查。",
-    "caution": "機構列入持牌名單不等於有名額或願意擔保。此路線不是永居途徑；不得把普通訪客許可當成長期志工許可。 合資格訪客可為註冊慈善機構參與合計最多 30 日志工，但這不能成為赴英主要目的；須符合訪客規則。",
+    "caution": "機構有牌照不等於有名額或願意擔保。訪客的 volunteering 與 Charity Worker 的 voluntary work 須分開：訪客不得有僱傭合約、替代受薪職員或收取實物報酬，合理交通與生活費報銷可獲允許；例行後勤行政、銷售、募款及辦公場所維護等工作不屬此訪客安排。不得以 30 日內為由把正式志工工作套入訪客路線；訪客不能在英國境內轉 Charity Worker。",
     "url": "https://www.gov.uk/temporary-worker-charity-worker-visa",
     "sources": [
       "https://www.gov.uk/temporary-worker-charity-worker-visa",
       "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-temporary-work-charity-worker",
-      "https://www.gov.uk/standard-visitor"
+      "https://www.gov.uk/standard-visitor",
+      "https://www.gov.uk/government/publications/visit-guidance/visit-caseworker-guidance-accessible--2",
+      "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-permitted-activities",
+      "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+      "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-electronic-travel-authorisation",
+      "https://www.gov.uk/government/publications/workers-and-temporary-workers-guidance-for-sponsors-sponsor-a-charity-worker/workers-and-temporary-workers-guidance-for-sponsors-sponsor-a-charity-worker-accessible"
     ],
-    "checked": "2026-10-31"
+    "checked": "2026-11-01",
+    "audience": "短期訪客：中國大陸普通護照通常須事先取得訪客簽證；香港特區及載有身分證字號的台灣護照通常須取得 ETA，新加坡護照亦然。已有有效英國簽證或居留許可者另按豁免核對；BN(O) 護照與香港特區護照規則不同，BN(O) 訪客不需 ETA。上述均不代替 Charity Worker 簽證。申請正式志工工作時，陸港台人士均按 CoS 及個人資格審核，提供實際居住地及合法居留資料。"
   },
   {
     "code": "AR",
@@ -254,10 +264,15 @@
     "route": "特定認可宗教／非營利慈善組織的正式志願服務計畫可按 B-1 規則評估，並非一般 B-2 旅遊工作許可。",
     "caution": "須符合組織關係、公益目的及無美國來源薪酬等條件，生活開銷補助有專門規則；組織需說明項目符合規定，不可把一般實習、商業換宿或募款活動混入此路線。",
     "url": "https://fam.state.gov/fam/09FAM/09FAM040202.html",
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "sources": [
-      "https://fam.state.gov/fam/09FAM/09FAM040202.html"
-    ]
+      "https://fam.state.gov/fam/09FAM/09FAM040202.html",
+      "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+      "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+      "https://travel.state.gov/en/newsroom/visas/2026/adjudicating-nonimmigrant-visa--niv--applicants-in-their-country.html"
+    ],
+    "audience": "中國大陸普通護照及香港特區護照不屬美國 Visa Waiver Program，通常須事先取得相應 B 類簽證。台灣護照持有人須符合 VWP 的電子護照、身分證字號、ESTA 及個人旅行紀錄等條件，方可免簽停留最多 90 日；新加坡護照另按 VWP 條件核對。合資格 VWP 商務入境可從事 B-1 範圍活動，但仍須符合正式志願服務計畫的全部條件，ESTA 不是工作許可。簽證面談應在國籍地或居住地安排，依居住地申請者須證明當地居住身分。",
+    "process": "取得非營利／宗教機構正式計畫、成員關係與服務承諾證明，以及職務、日期和費用安排 → 核對 B-1 志願服務條件 → 按護照與個人情況辦理簽證或合資格 VWP／ESTA 商務入境 → 按獲准身分服務。一般工作及實習須另用合適工作或交流類別。"
   },
   {
     "code": "GH",
@@ -372,15 +387,17 @@
   {
     "code": "JP",
     "route": "中國大陸、香港特區、台灣及新加坡申請人須按服務內容、待遇及停留期向日本使領館核定入境或在留資格。日本另有只適用於居英 British Citizens 的 Volunteer Visa，不能套用於本頁主要學生群。",
-    "caution": "無薪不等於任何活動均可用短期停留；住宿、津貼及工作內容須如實披露。英國志工計畫亦限制可做的工作，不能直接從事醫療或護理執業。",
+    "caution": "無薪不等於任何活動均可用短期停留；住宿、津貼及工作內容須如實披露。上述赴日志工簽證計畫亦限制可做的工作，不能直接從事醫療或護理執業。",
     "process": "先取機構邀請及活動計畫 → 向居住地管轄日本使領館確認資格 → 如屬長期在留，按要求由接收方辦理在留資格認定證明書後申簽。",
     "url": "https://www.mofa.go.jp/j_info/visit/visa/",
     "sources": [
       "https://www.mofa.go.jp/j_info/visit/visa/",
-      "https://www.uk.emb-japan.go.jp/itpr_en/index_000073.html"
+      "https://www.uk.emb-japan.go.jp/itpr_en/index_000073.html",
+      "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "https://www.mofa.go.jp/j_info/visit/visa/faq.html"
     ],
-    "checked": "2026-10-31",
-    "audience": "護照提示：中國大陸、香港特區、台灣及新加坡護照均不能使用上述英籍人士專屬 Volunteer Visa。赴日旅遊免簽與否須分開核對，也不代表志工活動自動獲准。"
+    "checked": "2026-11-01",
+    "audience": "一般短期訪問：中國大陸普通護照通常須事先申簽；香港特區護照、載有身分證字號的台灣護照及新加坡護照通常可免簽停留 90 日。有香港居留權的 BN(O) 護照亦在日本免簽安排內，但 BN(O) 不等於 British Citizen，不能直接使用英籍人士專屬 Volunteer Visa。申簽由本人居住地管轄日本館處辦理；海外居住者需核對居留證明，不能一般地在第三國旅遊期間送件。免簽與志工活動資格分開判斷。"
   },
   {
     "code": "NP",
