@@ -2,15 +2,15 @@
   "path": "/zh/services/art-study-residency/",
   "name": "藝術遊學與國際駐村",
   "titleZh": "藝術遊學與國際駐村｜海外督導 OTC",
-  "summaryZh": "14國39項藝術短課與國際駐村，按歐洲、亞洲、美洲及大洋洲分類；比較資格、費用、檔期與申請安排。",
-  "shareImageZh": "/assets/social/art-study-residency-share-20261101.png",
-  "socialImageVersion": "v=20261101-global39",
+  "summaryZh": "14國227項藝術短課與國際駐村，每國至少11項；法國、義大利各20項，按國家比較資格、費用、檔期與申請安排。",
+  "shareImageZh": "/assets/social/art-study-residency-share-20261101-global227.png",
+  "socialImageVersion": "v=20261101-global227",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
   "sections": [
     {
       "heading": "課程與駐村",
-      "html": "<p>想學技巧，選有老師授課的藝術短課；已有作品和計畫，選創作駐村。超過30歲、非在校生仍有選擇，但專業徵選與興趣體驗要求不同。</p><p><strong>39個項目・14個國家・4個地區</strong>｜包含課程系列及獨立駐村計畫；不是39個即時可報名名額。點國家查看資格、費用及狀態。</p>"
+      "html": "<p>想學技巧，選有老師授課的藝術短課；已有作品和計畫，選創作駐村。超過30歲、非在校生仍有選擇，按各項資格挑選。</p><p><strong>227個項目・14個國家・4個地區</strong>｜每國至少11項。課程系列按機構計一項，獨立駐村計畫分別列出；當期名額、截止日及海外資格見各項詳情。已截止、邀請制與下一輪待公布的項目均標明狀態。</p>"
     },
     {
       "heading": "申根地區入境安排",
@@ -28,5 +28,6 @@
       "heading": "聯絡海外督導",
       "html": "<div id=\"contact\"></div><p>提供藝術方向、創作經驗／作品、年齡、出發時間、時長、總預算及護照／居住地。首次諮詢不用傳完整證件。</p><div class=\"actions\"><a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=我想免費篩選藝術遊學或國際駐村項目\">免費項目篩選｜WhatsApp</a><a class=\"btn btn-secondary\" href=\"mailto:office@overseasuk.com?subject=藝術遊學與駐村諮詢\">電郵諮詢</a></div><p>微信：overseasus · WhatsApp：+44 7947 991572 · 電郵：office@overseasuk.com</p><p>相關服務：<a href=\"/zh/services/art-portfolio-coaching/\">作品集與設計申請</a> · <a href=\"/zh/volunteer-alliance/\">志工聯盟</a> · <a href=\"/zh/summer-school-alliance/\">寒暑校與遊學</a></p><p>資料核查：2026年11月1日；各項官方來源列於項目旁，未公布的2027資料待更新。</p>"
     }
-  ]
+  ],
+  "socialImageSource": "share-only"
 }

@@ -14,6 +14,78 @@
         },
         {
           "html": "<article><h3>PART｜維也納國際藝術駐村</h3><p class=\"tag\">徵選駐村 · 已有創作實踐者 · 無年齡上限</p><p>面向居住在奧地利以外的國際藝術家、策展人及藝術工作者，涵蓋視覺藝術、影像、表演、聲音與藝術寫作。駐村最長四個月。</p><details><summary>資格、資助與徵件</summary><p>經公開徵選、推薦或邀請進入；提供創作交流、導師及在地連結。一般介紹明確無年齡上限，但特定合作徵件可另限國家或地區。目前未確認適合所有華語申請人的下一輪公開名額。住宿、補助、餐食、交通及申請材料以當輪公告與邀請條件確認，不列為已開放或全額資助。</p><p><a href=\"https://partresidency.at/residency\">官方駐村與資格</a></p></details></article>"
+        },
+        {
+          "name": "AIR Kunstmeile Krems｜克雷姆斯藝術駐村",
+          "kind": "資助徵選駐村",
+          "fit": "具藝術學歷或同等專業經驗者",
+          "status": "2027輪已截止；官網列2028輪於2027年春徵件",
+          "fee": "5週提供住宿、工作空間及€1,950；旅費與材料自理",
+          "url": "https://live.kunstmeile.at/en/institutions/artist-in-residence/residency/incoming",
+          "detail": "涵蓋視覺藝術、文學、建築及音樂等領域，須持續從事專業創作。奧地利籍及居住於奧地利者不符合 incoming 路線；各類別工作設備與公開活動要求須再確認。"
+        },
+        {
+          "name": "Atelierhaus Salzamt｜林茲藝術家工作室",
+          "kind": "徵選／合作駐村",
+          "fit": "有作品集的藝術家",
+          "status": "一般公開徵件視空位公布；合作路線另限資格",
+          "fee": "一般路線4週補助€1,000並提供住處與工作室",
+          "url": "https://blog.salzamt-linz.at/residency_application/",
+          "detail": "在林茲進行1至2個月創作，申請附履歷、作品與計畫。另有友好地區、院校及藝術節合作渠道；不能把合作路線的資格或旅費支持套用到所有申請人。"
+        },
+        {
+          "name": "MuseumsQuartier｜維也納 MQ 藝術駐村",
+          "kind": "主題／合作徵選駐村",
+          "fit": "藝術家及文化工作者，依當輪限制",
+          "status": "Art & Ecology及各合作輪次另行徵件",
+          "fee": "一般提供免租工作室與每月€1,300；旅費依規定",
+          "url": "https://www.mqw.at/en/artists-in-residence/about-air/",
+          "detail": "MQ 有主題公開徵件及合作機構選送等路線，Art & Ecology 通常為兩個月。部分輪次限定國家或地區，必須逐項核對；不將限定中東歐地區的合作徵件列作普遍開放。"
+        },
+        {
+          "name": "AIR InSILo｜Hollabrunn 藝術研究駐村",
+          "kind": "徵選駐村",
+          "fit": "場域與過程導向的藝術家",
+          "status": "2026輪已到第二階段；下一輪待公布",
+          "fee": "住宿、製作及資助依下一輪條款確認",
+          "url": "https://in-silo.com/opencall2026stage2",
+          "detail": "以地景、基建、記憶及地方歷史等議題發展研究，可包含檔案、步行或地圖實踐。第二階段只接受首輪獲邀者，不能直接報名；適合已有研究方向與作品的申請人。"
+        },
+        {
+          "name": "ISTA｜Klosterneuburg 藝術與科學駐村",
+          "kind": "跨領域徵選駐村",
+          "fit": "希望與科學研究互動的藝術家",
+          "status": "官網預告2027輪於2026年秋；實際窗口須核",
+          "fee": "住宿、製作預算與津貼依當期公告確認",
+          "url": "https://ista.ac.at/en/institute/residencies/",
+          "detail": "在維也納附近研究機構進行約1至3個月藝術與科學交流，每年名額有限。接受不同職涯階段藝術家的計畫，重點是自主研究及與研究人員對話，不是科學或藝術入門班。"
+        },
+        {
+          "name": "Mozarteum｜薩爾茨堡國際夏季音樂學院",
+          "kind": "音樂大師班",
+          "fit": "進階音樂學生及準專業演奏者",
+          "status": "2027課表與報名待核",
+          "fee": "學費按樂器及所選課程；住宿交通另計",
+          "url": "https://www.moz.ac.at/en/summeracademy",
+          "detail": "以一週密集大師班為主，可選不同時段與專業方向，適合準備升學、試奏或比賽者。一般大師班與16歲以下 Young Excellence 路線分開；須按導師要求準備曲目與申請材料。"
+        },
+        {
+          "name": "mdw isa｜維也納國際夏季音樂學院",
+          "kind": "專業音樂大師班",
+          "fit": "進階器樂、聲樂及室內樂學習者",
+          "status": "2026課程可查；2027期程與申請待公布",
+          "fee": "按課程收費；獎助與住宿條件分別確認",
+          "url": "https://www.isa-music.org/en/isamasterclass/",
+          "detail": "由 mdw 提供密集個別或合奏訓練與專業交流，針對已有較高演奏能力的參加者。樂器組別、試奏材料及課程地點按年度課表核對，不能將個別樂器交通支持視作普遍補助。"
+        },
+        {
+          "name": "Schloss Hollenegg for Design｜施蒂利亞設計駐村",
+          "kind": "邀請／合作設計駐村",
+          "fit": "有獨立實踐的設計師",
+          "status": "以邀請及合作輪次為主；下一輪普遍資格未確認",
+          "fee": "製作、研究及旅宿支持依個別合作條款",
+          "url": "https://schlosshollenegg.at/de",
+          "detail": "以歷史城堡、館藏與工藝為研究背景，發展材料及場域設計，部分計畫連結製作工坊並於翌年展出。合作徵件可能限特定國籍或居住地；芬蘭合作名額不能視作所有國家皆可申請。"
         }
       ]
     },
@@ -33,6 +105,168 @@
           "fee": "課程組合計費；確認藝術課時、語言課時及材料，食宿另核。",
           "url": "https://accademiadarte.net/dates-fees-2026/",
           "detail": "官方2026表列藝術及語言課組合；2027費率與年齡要求須書面確認。"
+        },
+        {
+          "name": "The Florence Academy of Art｜佛羅倫斯工作坊",
+          "kind": "素描／油畫／雕塑短課",
+          "fit": "按課程程度選班的藝術學習者",
+          "status": "2027工作坊已公布；名額須確認",
+          "fee": "每班學費不同；住宿材料另核",
+          "url": "https://www.florenceacademyofart.edu/all-workshops/",
+          "detail": "佛羅倫斯校區提供人物、肖像、繪畫、雕塑及版畫工作坊；報名前確認Italy校區，避免誤選其他國家校區。"
+        },
+        {
+          "name": "Charles H. Cecil Studios｜古典繪畫短課",
+          "kind": "素描／肖像短課",
+          "fit": "希望接受工作室訓練者；新手宜先學素描",
+          "status": "2027日期已公布；名額須確認",
+          "fee": "2027兩週素描€1,850–2,000；四週€2,950",
+          "url": "https://charlescecilstudios.com/short-courses/",
+          "detail": "位於佛羅倫斯，以sight-size觀察法作石膏、人物及肖像訓練；每班最多十四人，兩週六十小時或四週一百二十小時。"
+        },
+        {
+          "name": "Angel Academy of Art｜佛羅倫斯藝術工作坊",
+          "kind": "古典繪畫短課",
+          "fit": "初學者至進階創作者",
+          "status": "2026工作坊已結束；下一輪待公布",
+          "fee": "按工作坊學費；住宿與材料另核",
+          "url": "https://angelacademyofart.com/summer-workshop/",
+          "detail": "以英語授課，設一至兩週密集工作坊；已公布的主題包括古典大師繪畫技法與人物造型。"
+        },
+        {
+          "name": "SRISA｜佛羅倫斯夏季藝術遊學",
+          "kind": "藝術／藝術史暑校",
+          "fit": "海外藝術學習者；學術及語言資格須確認",
+          "status": "下一年度課表與報名資格須確認",
+          "fee": "學費與住宿方案由學校報價",
+          "url": "https://srisa.org/experience-studying-in-one-of-the-most-inspiring-cities-in-the-world/",
+          "detail": "Santa Reparata International School of Art以佛羅倫斯作學習場域，結合藝術課堂、博物館及歷史建築觀察；學分轉換須另向原校確認。"
+        },
+        {
+          "name": "NABA｜米蘭與羅馬暑期課程",
+          "kind": "設計／時裝／視覺藝術短課",
+          "fit": "按入門或進階課程選擇的學習者",
+          "status": "暑校課程目錄可查；下一輪日期須確認",
+          "fee": "依課程收費；住宿為另選外部方案",
+          "url": "https://www.naba.it/en/summer-courses",
+          "detail": "兩週英語密集課，涵蓋設計、時裝、美術、影像與傳播；一般單城市課程四十五小時，學分是否承認由原校決定。"
+        },
+        {
+          "name": "IED｜義大利夏季藝術與設計課程",
+          "kind": "設計／時裝短課",
+          "fit": "一般18歲以上、高中畢業及英語B2；進階另審",
+          "status": "依校區與課程核對當期日期",
+          "fee": "按課程公布；住宿與生活費另核",
+          "url": "https://www.ied.edu/study-in-italy/summer-courses",
+          "detail": "分布於義大利多個校區，以密集設計及時裝學習為主；進階班可能要求相關背景、履歷與作品集。"
+        },
+        {
+          "name": "Accademia Riaci｜佛羅倫斯工藝短課",
+          "kind": "繪畫／珠寶／工藝短課",
+          "fit": "想從短期入門或精進工藝的學習者",
+          "status": "全年按班別安排；假期與名額須確認",
+          "fee": "官網短課一週€850起；材料等另計，報價須確認",
+          "url": "https://www.accademiariaci.info/admissions/",
+          "detail": "短課包括繪畫、珠寶、皮革及設計等方向；可按週安排，報名前核對實作時數、英語支援與材料需求。"
+        },
+        {
+          "name": "RUFA｜Summer Academy",
+          "kind": "視覺藝術／影像／設計暑校",
+          "fit": "16歲以上學生、成人及專業人士，按班別選擇",
+          "status": "下一輪日期、城市與語言須確認",
+          "fee": "各班獨立學費；住宿與材料另核",
+          "url": "https://www.unirufa.it/en/educational-offer/summer-academy/",
+          "detail": "在羅馬、米蘭及Brescia等地開設短期課程，涵蓋視覺藝術、電影、攝影、表演與設計；依目標選擇課程格式。"
+        },
+        {
+          "name": "Domus Academy｜米蘭設計與時裝短課",
+          "kind": "設計／時裝短課",
+          "fit": "大學前學生及入門學習者；按班別審核",
+          "status": "2026夏季已結束；下一輪待公布",
+          "fee": "依下一輪課程公布；住宿另核",
+          "url": "https://www.domusacademy.com/programmes/short-courses/",
+          "detail": "在米蘭以設計與時裝專題開展短期學習，結合校內實作及城市參訪；須確認課程所對應的年齡與程度。"
+        },
+        {
+          "name": "Bogliasco Fellowship｜藝術與人文駐村",
+          "kind": "藝術／寫作／人文駐村",
+          "fit": "具創作或研究成果的各國申請人",
+          "status": "按春秋輪次申請；當輪截止日須確認",
+          "fee": "住宿與工作支援依獎助；申請及個人支出另核",
+          "url": "https://bfny.org/en/about/program-overview/",
+          "detail": "位於熱那亞附近Bogliasco，涵蓋視覺藝術、舞蹈、音樂、文學、電影與建築等；按既有成果及新計畫進行同領域評審。"
+        },
+        {
+          "name": "Villa Lena Foundation｜托斯卡尼藝術駐村",
+          "kind": "跨領域藝術駐村",
+          "fit": "各領域創作者；依公開徵選要求",
+          "status": "每年4–10月運作；下一輪徵件須確認",
+          "fee": "住宿及創作支援依當輪條款；旅費另核",
+          "url": "https://www.villa-lena.org/artists-residencies",
+          "detail": "在托斯卡尼鄉間進行創作與跨領域交流；入住條件及作品捐贈要求須閱讀當輪說明，與旅館住宿預訂分開。"
+        },
+        {
+          "name": "Palazzo Monti｜Brescia藝術駐村",
+          "kind": "當代藝術／設計駐村",
+          "fit": "義大利及國際藝術家",
+          "status": "官網設申請入口；檔期與錄取須確認",
+          "fee": "資助、材料及個人支出須向主辦方確認",
+          "url": "https://palazzomonti.org/",
+          "detail": "位於Brescia歷史宮殿，涵蓋繪畫、攝影、雕塑、視覺藝術及設計；重視藝術家共處與在地工藝合作。"
+        },
+        {
+          "name": "VIR Viafarini-in-residence｜米蘭駐村",
+          "kind": "藝術／策展駐村",
+          "fit": "藝術家與策展人",
+          "status": "全年收件；按四個月一輪安排",
+          "fee": "最低捐助€1,500；住宿須另外提出需求",
+          "url": "https://viafarini.org/en/viafarini-in-residence/",
+          "detail": "米蘭共用工作室計畫，分1–4月、5–8月、9–12月三期；包括策展支援、工作室拜訪及公開工作室。"
+        },
+        {
+          "name": "UNIDEE｜Cittadellarte藝術與社會實踐",
+          "kind": "研究／社會參與藝術駐村",
+          "fit": "關注藝術與社會議題的創作者；資格依徵選",
+          "status": "2026秋季已公布入選者；追蹤下輪",
+          "fee": "獎助、學費與住宿依各輪公告",
+          "url": "https://unidee.cittadellarte.it/",
+          "detail": "位於Biella，提供主題駐村模組及研究駐村；2026秋季以LANGUAGES, PLEASE為題，其他合作方案可能有國籍限制。"
+        },
+        {
+          "name": "Scuola Internazionale di Grafica｜威尼斯版畫駐村",
+          "kind": "版畫／藝術家書駐村",
+          "fit": "專業及持續創作的藝術家",
+          "status": "可提出駐村申請；檔期須核准",
+          "fee": "一般駐村收費；全額獎助另有學會會員限制",
+          "url": "https://scuolagrafica.it/en/arts/venice-artist-residency/",
+          "detail": "在威尼斯的版畫及書籍藝術環境中工作；工作室駐村需捐贈一件作品，不能將限定學會會員的獎助視為人人適用。"
+        },
+        {
+          "name": "Faenza Art Ceramic Center｜陶藝駐村",
+          "kind": "陶瓷創作駐村",
+          "fit": "希望獨立進行陶藝計畫的創作者",
+          "status": "2027申請與簡章已公布；名額須確認",
+          "fee": "依2027簡章；燒窯、材料及住宿包含範圍須核對",
+          "url": "https://www.facc-art.it/en/artist-residencies/",
+          "detail": "在Faenza使用陶藝工作室、電窯及拉坯設備，提供技術支援；駐村藝術家可全天進入工作室，申請以創作計畫為基礎。"
+        },
+        {
+          "name": "Siena Art Institute｜藝術與創作遊學",
+          "kind": "藝術／寫作／音樂短期研習",
+          "fit": "大學生、近期畢業生及年輕藝術家",
+          "status": "短期課程依當季公告；2027詩歌工作坊已預告",
+          "fee": "學費與住宿依項目公布",
+          "url": "https://sienaart.org/",
+          "detail": "在Siena設夏季及冬季課程，涵蓋美術、人文與音樂；另有專業藝術家駐村，申請時須分清學生課程與受邀駐村。"
+        },
+        {
+          "name": "RUC｜倫巴底鄉村藝術駐村",
+          "kind": "視覺藝術／音樂／寫作駐村",
+          "fit": "世界各地藝術家、音樂家及作家",
+          "status": "每年5–10月滾動收件；2027檔期須確認",
+          "fee": "住宿與駐村費用須向主辦方查詢",
+          "url": "https://www.ruralcontemporary.org/",
+          "detail": "位於Valcamonica山谷，為期一至三週；以自主創作及跨文化交流為主，申請需藝術家聲明、履歷及作品網站。"
         }
       ]
     },
@@ -190,6 +424,106 @@
           "fee": "按課程和房型報價，確認住宿、餐食及導師內容；交通另計。",
           "url": "https://tynewydd.wales/courses-retreats/course-types/",
           "detail": "北威爾斯Llanystumdwy。住宿週課通常週一晚至週五早；Retreat可無導師，不等同教學課。需能以所選語言參與寫作與討論。"
+        },
+        {
+          "name": "UCL Slade｜美術夏校與短課",
+          "kind": "藝術短課",
+          "subregion": "倫敦",
+          "fit": "繪畫、素描與材料實驗；按課程選擇初學或已有創作經驗的班別。",
+          "status": "2026夏季已結束；下一季檔期待確認",
+          "fee": "2026兩週繪畫班曾列£930，僅作過往參考；新學費、材料及住宿另核。",
+          "url": "https://onlinestore.ucl.ac.uk/short-courses/faculty-of-arts-humanities-c01/slade-school-of-fine-art-courses-f12",
+          "detail": "在UCL Slade工作室學習，繪畫班結合個人指導、技法示範與小組評議；海外報名前確認年齡、英語及完整出席安排。"
+        },
+        {
+          "name": "Newlyn School of Art｜康沃爾藝術短課",
+          "kind": "藝術短課",
+          "subregion": "英格蘭其他地區",
+          "fit": "海岸風景、人物、油畫及實驗素描；按導師與課程程度選擇。",
+          "status": "官網已有2027短課日期，逐班查名額",
+          "fee": "各課程獨立報價；住宿、材料及戶外交通包含範圍按課核對。",
+          "url": "https://www.newlynartschool.co.uk/art-courses/short-courses",
+          "detail": "以Newlyn校舍為基地，部分課程前往西康沃爾海岸寫生，通常每日10:00–16:00。戶外課需考慮天氣、步行與攜帶器材。"
+        },
+        {
+          "name": "Royal Conservatoire of Scotland｜表演藝術夏校",
+          "kind": "戲劇、舞蹈與音樂短課",
+          "subregion": "蘇格蘭",
+          "fit": "格拉斯哥表演及製作藝術，設初學與進階選項；成人類別16歲以上。",
+          "status": "2027夏校陸續公布，按年齡及課程查詢",
+          "fee": "課程費不包含食宿；官網另提供住宿建議。",
+          "url": "https://www.rcs.ac.uk/study/summer-schools/",
+          "detail": "校方明示接收世界各地參加者；涵蓋舞蹈、戲劇、音樂劇、音樂、電影與製作。兒童、成人與住宿課年齡組分開，須確認授課形式及個別甄選要求。"
+        },
+        {
+          "name": "Arvon｜住宿寫作課與創作靜修",
+          "kind": "寫作短課／創作靜修",
+          "subregion": "英格蘭其他地區",
+          "fit": "小說、詩歌、非虛構及劇本寫作；依課程選入門、進階或自主寫作。",
+          "status": "課程日曆持續更新，逐期報名",
+          "fee": "按課型與房型查價；核對食宿、導師及資助資格，交通另計。",
+          "url": "https://www.arvon.org/writing-courses/course-types/",
+          "detail": "駐地位於Devon、Shropshire及Yorkshire，導師課結合工作坊、個別指導與朗讀；Retreat與有導師的課程分開，需能以英語參與。"
+        },
+        {
+          "name": "Morley College London｜藝術與工藝短課",
+          "kind": "藝術短課",
+          "subregion": "倫敦",
+          "fit": "19歲以上成人；繪畫、陶藝、雕塑、版畫、裝幀、珠寶及玻璃按程度選班。",
+          "status": "日間、晚間及週末課按學期開放",
+          "fee": "逐課計費；海外參加者須先確認適用全額收費，不能直接套用本地補助或優惠。",
+          "url": "https://morleycollege.ac.uk/short-courses/",
+          "detail": "Waterloo、Chelsea及North Kensington等校區有不同專用工作室。課長從數小時至數週；按旅程選可完整出席的現場課，住宿另安排。"
+        },
+        {
+          "name": "V&A Academy｜藝術史與創作短課",
+          "kind": "藝術史與博物館短課",
+          "subregion": "倫敦",
+          "fit": "對藝術、設計、服飾及博物館收藏有興趣者；專業進修班另核背景。",
+          "status": "2026年11月已有現場課，按日曆選班",
+          "fee": "各課獨立收費；例如11月27日Colour in Art現場課列£100，非所有課程統一價。",
+          "url": "https://www.vam.ac.uk/whatson/programmes/course.html",
+          "detail": "以V&A收藏為基礎，結合講授及討論；選標明In Person或South Kensington的班別，避免把線上課當作赴英遊學。住宿及交通自理。"
+        },
+        {
+          "name": "The Courtauld｜藝術史短課與夏校",
+          "kind": "藝術史短課",
+          "subregion": "倫敦",
+          "fit": "初學與已有興趣基礎者均可；官方要求良好英語理解能力。",
+          "status": "2026–27晚間課已列出；2027夏校待公布",
+          "fee": "五週晚間課£245起；夏校與其他課型另報價，食宿另核。",
+          "url": "https://courtauld.ac.uk/short-courses-2026/",
+          "detail": "選倫敦校園課或英國境內研學活動；目錄也含網課及海外考察。2026夏校以五天課為主，不能直接當成2027確定安排。"
+        },
+        {
+          "name": "Heatherleys｜具象藝術與版畫短課",
+          "kind": "藝術短課",
+          "subregion": "倫敦",
+          "fit": "19歲以上；肖像、具象繪畫、素描、版畫及雕塑，初學至有經驗者按班選擇。",
+          "status": "日間、晚間及假期課分別報名",
+          "fee": "按週數及班別收費，材料、模型與工作室費用包含範圍另核。",
+          "url": "https://www.heatherleys.org/",
+          "detail": "倫敦獨立美術學校，短課與專業文憑分開；目前目錄有6週及12週課程，短期訪客應先查假期班或可完整出席的課程。"
+        },
+        {
+          "name": "Putney School of Art and Design｜藝術假期班",
+          "kind": "藝術與工藝短課",
+          "subregion": "倫敦",
+          "fit": "繪畫、陶藝、蝕刻及紡織等；入門班與已有技法基礎的工作室課分開。",
+          "status": "專題與假期課每學期更新",
+          "fee": "每班獨立定價；材料、窯燒及設備使用依課程條款。",
+          "url": "https://www.psad.org.uk/course-list/specialist-and-holiday-courses/",
+          "detail": "Putney原校區及3D校區開課，目錄含五日蝕刻入門及拉坯密集課；先核年齡、程度、上課地點及海外報名安排。"
+        },
+        {
+          "name": "RADA｜Acting Essentials 表演短課",
+          "kind": "戲劇表演短課",
+          "subregion": "倫敦",
+          "fit": "表演入門、即興、場景練習及進階訓練；依經驗選班。",
+          "status": "現場班按課程日曆報名",
+          "fee": "逐課查學費與取消條款，住宿及交通另計。",
+          "url": "https://www.rada.ac.uk/short-courses-acting-essentials/",
+          "detail": "Elements of RADA、Acting Fundamentals及Scene Study等列有現場選項；報名前核對最低年齡、英語及前置經驗，不等同全日制表演學位錄取。"
         }
       ]
     },
@@ -215,6 +549,168 @@
           "fee": "項目費、住宿、工作室與材料負擔須先書面確認。",
           "url": "https://porttonicartcenter.org/en/",
           "detail": "通常1–2個月；位於法國南部海岸，適合自主創作，並非一般藝術課。"
+        },
+        {
+          "name": "Camargo Fellowship｜卡西斯跨領域駐村",
+          "kind": "藝術／人文駐村",
+          "fit": "藝術家、學者與思想工作者",
+          "status": "2027–2028輪已截止；追蹤下輪",
+          "fee": "資助與個人支出依當輪條款",
+          "url": "https://camargofoundation.org/en/residencies/apply",
+          "detail": "在普羅旺斯海岸卡西斯進行研究、實驗與跨領域交流；以創作或研究計畫申請。"
+        },
+        {
+          "name": "Maison Dora Maar｜梅內爾布創作駐村",
+          "kind": "寫作／藝術駐村",
+          "fit": "能獨立工作並參與小型社群的創作者",
+          "status": "2027年度一般申請截止日已過",
+          "fee": "申請費US$25；駐村支援依錄取條款",
+          "url": "https://maisondoramaar.org/fellowship/apply/",
+          "detail": "位於Ménerbes；申請需履歷、計畫、推薦及作品樣本，可使用英語或法語；具基本法語能力較理想。"
+        },
+        {
+          "name": "La Napoule Art Foundation｜國際藝術家駐村",
+          "kind": "跨媒介駐村",
+          "fit": "18歲以上各國藝術家",
+          "status": "2027年3月2–30日；申請已截止",
+          "fee": "住宿、工作室與津貼依當輪方案；旅費另核",
+          "url": "https://www.lnaf.org/residencies/application-process/",
+          "detail": "在法國南部La Napoule進行四週創作；需以英語或法語交流。伴侶須分別申請，不能攜帶家人或兒童入住。"
+        },
+        {
+          "name": "Château d’Orquevaux｜藝術家與作家駐村",
+          "kind": "藝術／寫作駐村",
+          "fit": "國際藝術家與作家",
+          "status": "申請入口已公布；檔期與名額須確認",
+          "fee": "免申請費；駐村仍收費，獎助後餘額須確認",
+          "url": "https://www.chateauorquevaux.com/2026-application-schedule-chateauorquevaux",
+          "detail": "提供私人睡房、工作室與膳食；按兩至三週方案申請，獎助並不代表所有費用全免。"
+        },
+        {
+          "name": "Paris College of Art｜巴黎藝術暑校",
+          "kind": "藝術／設計短課",
+          "fit": "開課時滿16歲；按程度選課",
+          "status": "2026暑校已結束；下一年度待公布",
+          "fee": "學費按課程；住宿與額外開支另核",
+          "url": "https://www.paris.edu/programs/summer-2026/",
+          "detail": "以兩週為一個單元，結合工作室、講座與巴黎博物館參訪；涵蓋藝術、設計與作品集發展。"
+        },
+        {
+          "name": "Parsons Paris｜夏季藝術與設計課程",
+          "kind": "藝術／設計暑校",
+          "fit": "高中與大專學生，按年齡及課程分流",
+          "status": "下一輪課表、年齡資格及名額須確認",
+          "fee": "學費與住宿按所選方案",
+          "url": "https://www.newschool.edu/parsons-paris/summer-programs/",
+          "detail": "巴黎課程涵蓋藝術、時裝、繪畫及攝影；Pre-College與College路線不同，官方頁面導向合作報名單位API。"
+        },
+        {
+          "name": "GOBELINS Paris｜動畫暑校",
+          "kind": "動畫／視覺敘事短課",
+          "fit": "動畫與角色設計學習者；依班別審核作品",
+          "status": "下一輪開放時間及班別須確認",
+          "fee": "按課程公布；住宿與材料另核",
+          "url": "https://www.gobelins-school.com/animated-filmmaking/programmes/summer-schools",
+          "detail": "巴黎實體暑校涵蓋角色動畫、角色設計、視覺敘事與Unreal即時製作；須分清巴黎、海外合作班及網課。"
+        },
+        {
+          "name": "Fondation Fiminco｜La Fabrique視覺藝術駐村",
+          "kind": "視覺藝術駐村",
+          "fit": "法國及海外個人藝術家，無年齡上限",
+          "status": "2026徵件已截止；追蹤下輪",
+          "fee": "支援與個人支出依下一輪公告",
+          "url": "https://www.fondationfiminco.com/la-fabrique-artistes.html",
+          "detail": "位於大巴黎Romainville，視覺藝術路線為十個月，要求持續在場投入創作；此條目不包含資格不同的表演藝術方案。"
+        },
+        {
+          "name": "Triangle-Astérides｜馬賽藝術駐村",
+          "kind": "當代藝術駐村",
+          "fit": "法國及海外藝術家；馬賽在地資格另有限制",
+          "status": "年度公開徵選；當輪截止日須確認",
+          "fee": "官網列每月€1,000津貼；交通自理，以下輪條款為準",
+          "url": "https://triangle-asterides.org/en/residents",
+          "detail": "提供約60平方米工作室、共住公寓房間與策展交流；並有公開工作室活動，適合發展研究型創作。"
+        },
+        {
+          "name": "DRAWinternational｜Caylus繪畫研究駐村",
+          "kind": "繪畫／跨媒介駐村",
+          "fit": "視覺藝術家、音樂家與作家",
+          "status": "按個別申請確認檔期",
+          "fee": "工作室、住宿及費用須向主辦方查詢",
+          "url": "https://www.drawinternational.com/",
+          "detail": "位於法國西南Caylus，以一至三個月的研究與實驗為主；從繪畫、記譜延伸至其他媒介。"
+        },
+        {
+          "name": "La Porte Peinte｜勃根地跨領域駐村",
+          "kind": "藝術／寫作／表演駐村",
+          "fit": "個人創作者與合作團隊",
+          "status": "官網接受2027年5–10月申請；名額須確認",
+          "fee": "按時長、工作空間與指導方案報價",
+          "url": "https://laportepeinte.com/residencies/",
+          "detail": "位於Noyers-sur-Serein，為期兩週至六個月；可選自主或導師指導模式，設工作空間與傳統暗房。"
+        },
+        {
+          "name": "La Maison de Beaumont｜普羅旺斯駐村",
+          "kind": "藝術／音樂／寫作駐村",
+          "fit": "藝術家、音樂家、作家及學者",
+          "status": "滾動申請；入住檔期須確認",
+          "fee": "申請費€45；住宿駐村費按房型及時長報價",
+          "url": "https://lamaisondebeaumont.com/artistresidency/",
+          "detail": "位於Luberon地區，通常兩至十二週；提供藝術工作空間及音樂活動空間，申請需創作意向與作品。"
+        },
+        {
+          "name": "Atelier de la Rose｜Lot藝術與寫作駐留",
+          "kind": "藝術／寫作自主駐村",
+          "fit": "業餘及專業藝術家與作家",
+          "status": "按季節預訂；冬季工作室暫停",
+          "fee": "含膳食方案與住宿依報價；交通另計",
+          "url": "https://www.french-rose.com/fr/artists-writers-residency-france",
+          "detail": "位於Montcabrier，駐村通常一至六週，提供獨立工作室與生活空間；11月15日至3月15日工作室不開放。"
+        },
+        {
+          "name": "Artistes en résidence｜100-Day駐村",
+          "kind": "當代藝術研究駐村",
+          "fit": "各國藝術家與研究者，無年齡限制",
+          "status": "2027輪已截止；追蹤下輪",
+          "fee": "住宿、工作室與資助依當輪公告",
+          "url": "https://artistesenresidence.fr/en/residencies",
+          "detail": "位於Clermont-Ferrand，以一百天研究為核心，可分段安排；重視探索，不以完成作品為必要成果。"
+        },
+        {
+          "name": "APM｜Les Ateliers du Plessix-Madeuc",
+          "kind": "視覺藝術駐村",
+          "fit": "繪畫與素描創作者；海外資格須確認",
+          "status": "2027徵選資訊已發布；截止日及資格須確認",
+          "fee": "住宿、工作室與資助以當輪簡章為準",
+          "url": "https://www.apmresidences.fr/association",
+          "detail": "位於布列塔尼Saint-Jacut-de-la-Mer，結合藝術家工作、展覽與公眾交流；2027徵選聚焦繪畫及素描媒介。"
+        },
+        {
+          "name": "École du Louvre｜巴黎夏季藝術史旁聽",
+          "kind": "藝術史短課",
+          "fit": "15歲以上旁聽者；未成年須家長授權",
+          "status": "2026暑期已結束；下一年度待公布",
+          "fee": "2026一般每門課€135；新年度費用另核",
+          "url": "https://auditeurs.ecoledulouvre.fr/catalogue/auditeurs/paris/cours-dete/cours-dete-en-amphitheatre",
+          "detail": "巴黎實體講堂的藝術史主題課程；與網上重播分開報名，屬旁聽學習，報名前確認法語聽課能力。"
+        },
+        {
+          "name": "L’ÉCOLE｜巴黎珠寶藝術課程",
+          "kind": "珠寶工藝／寶石學短課",
+          "fit": "成人及青少年按年齡班別選課",
+          "status": "按官方日曆預約；語言與座位須確認",
+          "fee": "按所選課程公布",
+          "url": "https://www.lecolevancleefarpels.com/fr/en/our-courses",
+          "detail": "巴黎珠寶藝術學校提供工藝、寶石及珠寶史入門；選課時確認巴黎校址與授課語言，避免誤選其他城市。"
+        },
+        {
+          "name": "Les Rencontres d’Arles｜攝影工作坊",
+          "kind": "攝影短課",
+          "fit": "攝影初學者至進階創作者，按班別選擇",
+          "status": "2026暑期已結束；下一期課表待核",
+          "fee": "按工作坊公布；交通住宿另核",
+          "url": "https://www.rencontres-arles.com/en/stages-photofolio",
+          "detail": "在阿爾勒以實拍、作品檢討與攝影方法訓練為主；官方設暑期及週末工作坊，選班時須核對程度要求。"
         }
       ]
     },
@@ -231,6 +727,168 @@
           "fee": "分項目費、月租、保證金；舊版指南不能當作2027報價。",
           "url": "https://glogauair.net/wp-content/uploads/2025/12/2024_On-Site-Residency-Information.pdf",
           "detail": "3或6個月，策展交流、技術支援及開放工作室。指南舊費率為每季€1,500、單人月租€700、保證金€1,000；付款前索取當期書面報價，材料、保險與交通另計。"
+        },
+        {
+          "name": "Künstlerhaus Bethanien｜柏林國際工作室駐村",
+          "kind": "徵選駐村",
+          "fit": "已有創作實踐及作品集的藝術家",
+          "status": "直接申請不設固定截止日；合作機構另有徵件及國別條件。",
+          "fee": "按期長與所需資源核算；通常需自行尋找資助。",
+          "url": "https://bethanien.de/en/application/",
+          "detail": "以當代藝術為主，通常6–12個月，最短3個月。申請附履歷、作品集、計畫及資助構想；意向接納不等於已獲經費。"
+        },
+        {
+          "name": "ZK/U Berlin｜藝術與城市研究駐村",
+          "kind": "藝術研究駐村",
+          "fit": "關注城市議題的藝術家、研究者及實踐者",
+          "status": "最新徵件、期長及空位須確認。",
+          "fee": "依房型、檔期及當期條件報價。",
+          "url": "https://www.zku-berlin.org/residency/",
+          "detail": "位於柏林，以城市為共同研究主題。自主創作結合工作室交流、共同晚餐及OPENHAUS公開活動；不是初學者每日授課班。"
+        },
+        {
+          "name": "Akademie Schloss Solitude｜跨領域駐村獎助",
+          "kind": "徵選獎助駐村",
+          "fit": "完成正式教育後已有2–10年獨立實踐的藝術及文化工作者",
+          "status": "2026–2028輪已結束；下一輪預計2027年秋，最早於2028年秋駐村。",
+          "fee": "獎助、住宿及自付項目依新輪簡章。",
+          "url": "https://www.akademie-solitude.de/en/fellowship/application/",
+          "detail": "位於斯圖加特，面向國際藝術家、學者及文化工作者，提供跨領域交流環境；以創作經驗與計畫接受遴選。"
+        },
+        {
+          "name": "Künstlerdorf Schöppingen｜藝術、寫作與作曲駐村",
+          "kind": "徵選獎助駐村",
+          "fit": "專業視覺藝術家、作家、作曲家及創作團體",
+          "status": "2028駐村預定於2027年6月27日至8月31日申請。",
+          "fee": "現行個人獎助每月€1,500，另扣約€100–200住宿開支；團體條件另核。",
+          "url": "https://stiftung-kuenstlerdorf.de/en/application_process",
+          "detail": "駐村2–6個月，不限國籍及年齡。視覺藝術、文學與作曲按各自材料要求審查，適合已有獨立創作方向者。"
+        },
+        {
+          "name": "UdK Berlin｜柏林藝術大學夏校",
+          "kind": "藝術短課",
+          "fit": "按工作坊接受學生、創作者或其他申請人",
+          "status": "2026季已結束；2027課表與報名待公布。",
+          "fee": "各工作坊另定學費，住宿及旅費另計。",
+          "url": "https://www.udk-berlin.de/en/courses/berlin-summer-university-of-the-arts/",
+          "detail": "夏季工作坊涵蓋藝術、設計及跨領域實作，通常於6–8月舉行。語言、作品要求與先備程度按課程核對，不等同大學學位入學。"
+        },
+        {
+          "name": "Künstlerhaus Lukas｜阿倫斯霍普藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "居於德國、指定波羅的海國家、挪威或冰島的專業藝術家",
+          "status": "2026–2027輪已結束；下一輪預計2027年夏。",
+          "fee": "免費住宿及工作空間；現行每月€1,200獎助，14日為€600，視資助預算而定。",
+          "url": "https://kuenstlerhaus-lukas.de/en/bewerbung/stipendien",
+          "detail": "位於波羅的海沿岸，駐村14日至3個月，涵蓋視覺、媒體、文學、作曲及表演。一般個人獎助限居於德國、波蘭、立陶宛、拉脫維亞、愛沙尼亞、芬蘭、瑞典、丹麥、挪威或冰島者；在校生不符資格。"
+        },
+        {
+          "name": "Künstler:innenhaus Lauenburg｜藝術、文學與作曲駐村",
+          "kind": "徵選獎助駐村",
+          "fit": "已有作品的視覺藝術家、作曲家與作家",
+          "status": "按年度及藝術類別申請；各輪截止日須查最新公告。",
+          "fee": "獎助及入住條件按當輪簡章確認。",
+          "url": "https://kuenstlerhaus-lauenburg.de/stipendien-aktuell-en/?lang=en",
+          "detail": "位於勞恩堡，常規駐村為4個月。文學類要求作品以德語出版或已有德譯，不能將其他藝術類的國際資格直接套用至文學類。"
+        },
+        {
+          "name": "Schloss Wiepersdorf｜藝術與文學駐村",
+          "kind": "徵選駐村",
+          "fit": "文學、視覺藝術、作曲及指定研究領域的創作者",
+          "status": "2027輪已截止；2028輪預定2027年2月15日至4月15日申請。",
+          "fee": "獎助、住宿及旅費依下一輪簡章確認。",
+          "url": "https://www.schloss-wiepersdorf.de/en/individual-and-collaborative-fellowships.html",
+          "detail": "面向德國及海外申請者，涵蓋小說、詩、戲劇、翻譯、攝影、媒體藝術及聲音創作。學術類另限浪漫主義或德國分裂史等指定方向。"
+        },
+        {
+          "name": "AIR-M｜慕尼黑藝術家駐村",
+          "kind": "徵選或推薦駐村",
+          "fit": "居住於巴伐利亞以外的專業藝術家",
+          "status": "以公開徵件及合作機構推薦為主；通常不接受自行投件。",
+          "fee": "現行資助列每月€1,300；租住及其他開支按合約確認。",
+          "url": "https://www.artistinresidence-munich.de/application/",
+          "detail": "統合Villa Waldberta與Ebenböckhaus兩個據點，不重複計項。部分徵件限定地區，例如南美洲；曾參加者一般不能再申請。"
+        },
+        {
+          "name": "PACT Zollverein｜表演與跨領域駐村",
+          "kind": "徵選駐村",
+          "fit": "專業表演及跨領域藝術創作者",
+          "status": "2027上半年輪已截止；下一輪徵件待確認。",
+          "fee": "駐村提供獎助、住宿及旅費支援，額度與條件依簡章。",
+          "url": "https://www.zollverein.de/erleben/pact-zollverein/residenzprogramm/",
+          "detail": "位於埃森，通常3–6週，提供排練空間及技術、戲劇構作支援。重視創作研究過程，不強制以完成公開作品作為成果。"
+        },
+        {
+          "name": "HELLERAU｜德勒斯登跨領域駐村",
+          "kind": "專案徵選駐村",
+          "fit": "表演與跨領域藝術創作者",
+          "status": "不接受自行投件；須等候指定資助計畫公開徵件。",
+          "fee": "資助、住房與製作費按各計畫確認。",
+          "url": "https://hellerau.org/en/residency-programme",
+          "detail": "提供駐村住房、工作室及計畫空間，支持國際藝術研究與排練。可參與項目由機構合作及公開徵件決定。"
+        },
+        {
+          "name": "Tanzfabrik Berlin｜當代舞工作坊",
+          "kind": "舞蹈短課",
+          "fit": "按課程程度選擇的一般參加者及舞者",
+          "status": "已公布WinterTanz：2026年12月27–30日、2027年1月2–5日及7–10日。",
+          "fee": "按所選工作坊收費；住宿及交通另計。",
+          "url": "https://www.tanzfabrik-berlin.de/de/workshop_programm",
+          "detail": "柏林當代舞與身體實踐課程，按教師及主題分班。須核對程度、授課語言及身體活動要求，不將所有工作坊視為零基礎課程。"
+        },
+        {
+          "name": "Bauhaus Summer School｜威瑪藝術與設計夏校",
+          "kind": "藝術設計短課",
+          "fit": "按課程要求接受準大學生、大學生及研究生等",
+          "status": "2026季已結束；2027課表及申請待確認。",
+          "fee": "學費與住宿選項依各班新公告。",
+          "url": "https://www.uni-weimar.de/summerschool/en/courses/all-courses",
+          "detail": "藝術與設計課程曾涵蓋感官實作、海報設計、物件敘事及紀錄媒體。各班的作品要求、授課語言與時長不同，按個別課程申請。"
+        },
+        {
+          "name": "Pentiment｜漢堡藝術與設計夏季學院",
+          "kind": "藝術短課",
+          "fit": "按班別作品與程度要求申請的參加者",
+          "status": "2026年8月9–23日課程已結束；2027資料待公布。",
+          "fee": "2026兩週一般學費€720，僅供預算參考；2027另核。",
+          "url": "https://www.pentiment.de/programm",
+          "detail": "集中兩週進行繪畫、素描、版畫等工作坊。依教師與題材選課並完成申請，不等同漢堡應用科學大學學位課程。"
+        },
+        {
+          "name": "Schloss Balmoral｜巴德埃姆斯視覺藝術駐村",
+          "kind": "徵選獎助駐村",
+          "fit": "已有作品與創作計畫的國際視覺藝術家",
+          "status": "按年度主題徵選；下一輪主題與日期須確認。",
+          "fee": "現行每月€1,400、旅費最高€500，附家具住宿及工作室；以當輪確認。",
+          "url": "https://balmoral.de/en/stipendium/artist-residency-schloss-balmoral-visual-artist/",
+          "detail": "視覺藝術駐村為4或8個月，通常4月開始。按當年主題提交申請；特定國別或受威脅藝術家專項有額外資格。"
+        },
+        {
+          "name": "otte1｜埃克恩弗德藝術駐村",
+          "kind": "徵選獎助駐村",
+          "fit": "非在校的專業視覺藝術家、作曲家及德語作家",
+          "status": "2027輪已於2026年8月31日截止；下一輪預定2027年7月1日開始。",
+          "fee": "現行提供免租工作室及每月€1,000獎助。",
+          "url": "https://www.otte1.org/en/application/",
+          "detail": "三個月創作駐村。視覺藝術不含應用藝術；音樂以當代古典作曲為主，文學以德語創作為條件。"
+        },
+        {
+          "name": "Künstlerhaus Edenkoben｜視覺藝術與文學駐村",
+          "kind": "徵選獎助駐村",
+          "fit": "已有作品的視覺藝術家、作家及翻譯者",
+          "status": "視覺藝術一般於前一年1月15日至4月15日申請；以新公告確認。",
+          "fee": "現行每月€1,400及旅費支援，提供附家具住所；具體條件依簡章。",
+          "url": "https://www.kuenstlerhaus-edenkoben.de/stipendien",
+          "detail": "視覺藝術每年兩個名額，分1月15日至6月15日及7月15日至12月15日。須持續在場創作，文學類另核語言及申請規定。"
+        },
+        {
+          "name": "Schloss Plüschow｜視覺藝術工作駐村",
+          "kind": "徵選駐村",
+          "fit": "德國及海外視覺藝術創作者",
+          "status": "現輪申請已結束；下一輪預計2027年春。",
+          "fee": "獎助及入住開支依新輪簡章確認。",
+          "url": "https://www.plueschow.de/en/artists/application/working-scholarship/",
+          "detail": "設有五間居住工作室，工作獎助通常安排於10–12月、共三個月。獎助期外的工作室租住須另行聯絡，不等同已獲駐村資助。"
         }
       ]
     },
@@ -256,6 +914,87 @@
           "fee": "申請前索取駐村、住宿及工作室分項費用；補助另依公告。",
           "url": "https://hangar.com.pt/en/international-residences/",
           "detail": "先確認接收領域、期限與可用空間；不是一般觀光團或每天授課的藝術班。"
+        },
+        {
+          "name": "Zaratan AIR｜里斯本跨領域駐村",
+          "kind": "申請制駐村",
+          "fit": "海外藝術家及居於國外的葡萄牙藝術家、策展人與作家",
+          "status": "採滾動申請，需附履歷、作品集、計畫與日期。",
+          "fee": "按期長報價，方案含住宿、工作室、接機及技術指導；不保證補助。",
+          "url": "https://zaratan.pt/en/residencies/9",
+          "detail": "通常4–12週，同時接待兩位藝術家，涵蓋視覺、表演與聲音等領域。AIR與只面向里斯本居民的CA方案資格不同。"
+        },
+        {
+          "name": "OBRAS｜阿連特茹藝術與研究駐村",
+          "kind": "自主創作駐村",
+          "fit": "已有實踐的藝術家及研究者",
+          "status": "2026起由新團隊營運，最新檔期與申請安排須確認。",
+          "fee": "期長、住宿及工作空間依新團隊報價。",
+          "url": "https://www.obrasresidencies.com/",
+          "detail": "位於Évoramonte附近的Herdade da Marmeleira，提供鄉間自主創作與研究環境。重視專注工作，不要求固定完成作品；不是初學者授課式遊學。"
+        },
+        {
+          "name": "AiR351｜卡斯凱什藝術與策展駐村",
+          "kind": "專業駐村",
+          "fit": "各職涯階段的國際藝術及策展工作者",
+          "status": "常設申請，建議至少三個月；以英語提交材料。",
+          "fee": "按月繳交計畫費，住宿、生活及旅費另計；獎助另行徵選。",
+          "url": "https://air351.art/calls/ongoig-open-call/",
+          "detail": "提供有工作室或無工作室方案與專業交流。須具英語溝通能力，不能同期參加另一駐村或學術課程，住宿不等於已包含。"
+        },
+        {
+          "name": "PADA｜工業區藝術駐村",
+          "kind": "跨領域駐村",
+          "fit": "能提出適合工業場地計畫的藝術創作者",
+          "status": "現輪已關閉，下一申請期預計2027年初。",
+          "fee": "每月€1,550，含住宿、工作室及計畫活動；旅費、餐食與材料另計。",
+          "url": "https://www.padastudios.com/international-residency",
+          "detail": "位於里斯本河岸工業區，通常1–2個月，以英語申請與交流。包括工作室活動、最後的群展及紀錄，作品需適應現場環境。"
+        },
+        {
+          "name": "RAMA｜托雷斯韋德拉斯藝術駐村",
+          "kind": "藝術駐村",
+          "fit": "視覺藝術及相關創作者",
+          "status": "2027年2–9月檔期徵件至2027年1月20日。",
+          "fee": "現行每月含住宿方案€750、不含住宿€350；付款前確認服務範圍。",
+          "url": "https://www.ramastudios.pt/en/open-calls",
+          "detail": "通常1–4個月，可洽較長停留。結合工作室創作、Paulo Brighenti及Ana Anacleto指導、參訪與地方文化交流。"
+        },
+        {
+          "name": "Cerdeira｜山村工藝短課與駐村",
+          "kind": "工藝短課及自主駐村",
+          "fit": "初學者可選指定工作坊；駐村須具自主創作計畫",
+          "status": "按課程日曆報名，駐村另洽空位及期長。",
+          "fee": "課程、住宿、膳食與材料按方案逐項核對。",
+          "url": "https://www.cerdeirahomeforcreativity.com/arts-and-crafts-school",
+          "detail": "位於Cerdeira山村，提供木作、陶藝、編織與繪畫等。短工作坊約1–3日，較長課程約5–8日；自主駐村與有教師帶領的課程分開選擇。"
+        },
+        {
+          "name": "OSSO｜聖格雷戈里奧跨領域駐村",
+          "kind": "創作研究駐村",
+          "fit": "音樂、表演、舞蹈、聲音、視覺及研究工作者",
+          "status": "依各計畫聯絡，海外申請接收及空位須確認。",
+          "fee": "期長、住宿、工作空間及其他費用依計畫洽詢。",
+          "url": "https://www.osso.pt/?_lg=en",
+          "detail": "位於距Caldas da Rainha約10公里的São Gregório，具住房、工作室及工坊。支持創作、檔案與研究活動，也重視與所在地的交流。"
+        },
+        {
+          "name": "Quinta das Relvas｜藝術與永續駐村",
+          "kind": "藝術駐村",
+          "fit": "藝術學生、新進及其他符合計畫資格的創作者",
+          "status": "依年度及專項徵件；下一可申請檔期須確認。",
+          "fee": "費用及補助按計畫；專項獎助可限指定國家居住者。",
+          "url": "https://quintadasrelvas.pt/artists-in-residence/",
+          "detail": "位於Branca，以藝術與永續為核心，結合工作坊、導師交流、參訪及開放工作室。不能將限特定國家的資助資格套用至所有海外申請人。"
+        },
+        {
+          "name": "Ar.Co｜里斯本與阿爾馬達藝術夏校",
+          "kind": "藝術短課",
+          "fit": "成人課程一般15歲以上；兒童班另設",
+          "status": "2026年6–7月課程已結束；2027課表及報名待公布。",
+          "fee": "依班別確認新學費，材料及住宿另計。",
+          "url": "https://arco.pt/site/en/education-programmes/cursos-de-verao",
+          "detail": "夏季課程涵蓋素描、繪畫、插畫、攝影、陶藝、首飾、雕塑及動態影像。各課的程度、地點、授課語言與海外參加安排須逐班確認。"
         }
       ]
     },
@@ -272,6 +1011,132 @@
           "fee": "申請費€30；住宿、餐食及駐村總費另詢，獎助各有資格。",
           "url": "https://fundacionvalparaiso.com/en/residential/",
           "detail": "通常2或4週；實際駐地在安達魯西亞莫哈卡爾。個別地方或國別獎學金不等於所有申請者免費。官方FAQ：https://fundacionvalparaiso.com/en/faq/"
+        },
+        {
+          "name": "Can Serrat｜藝術與寫作駐村",
+          "kind": "申請制駐村",
+          "fit": "不同經驗階段的藝術及寫作參加者、個人與團體",
+          "status": "2026採滾動申請；2027檔期與條件須確認。",
+          "fee": "住宿、工作空間及其他服務依當期報價；不保證補助。",
+          "url": "https://canserrat.org/es/rolling-artist-residency-2026-barcelona",
+          "detail": "位於蒙特塞拉特山旁El Bruc，距巴塞隆納約45公里，通常2週至2個月。以簡短計畫及作品樣本申請，並非只收專業藝術家或35歲以下人士。"
+        },
+        {
+          "name": "Faberllull Olot｜藝術與人文駐村",
+          "kind": "主題及個人駐村",
+          "fit": "藝術、人文與科學領域的專業工作者",
+          "status": "主題徵件與個人駐村分開申請；按當輪檔期確認。",
+          "fee": "住宿、膳食與交通補助範圍依各輪簡章。",
+          "url": "https://faberllull.cat/en/olot.cfm",
+          "detail": "位於加泰隆尼亞Olot的Hotel Fluvià，通常1–3週。鼓勵跨領域交流及在地活動；本項只指西班牙Olot據點。"
+        },
+        {
+          "name": "Joya: AiR｜安達魯西亞藝術與生態駐村",
+          "kind": "申請制駐村",
+          "fit": "視覺藝術、表演、音樂、寫作及媒體創作者",
+          "status": "2027年1月4日至3月31日檔期申請至2026年11月12日，按空位錄取。",
+          "fee": "每週€400加10%稅，合計€440；網路另約€10／週。",
+          "url": "https://joya-air.org/apply",
+          "detail": "位於阿爾梅里亞Sierra María–Los Vélez，通常1–2週，可洽較長停留。費用含獨立臥浴、工作室、三餐及Vélez Rubio接送；陶藝器材有限，須先確認。"
+        },
+        {
+          "name": "AADK Spain｜布蘭卡創作研究駐村",
+          "kind": "跨領域駐村",
+          "fit": "視覺、聲音、表演及研究創作者",
+          "status": "2027 Situated徵件至2026年11月15日；Cruce採滾動申請。",
+          "fee": "按駐村類別、期長及服務報價；製作費不含在基本費用。",
+          "url": "https://aadk.es/residencies/?lang=en",
+          "detail": "位於穆爾西亞Blanca的Centro Negra。Situated為1–6個月，Cruce可自2週起；住宿、工作空間與指導按方案確認，場所對行動不便者有進出限制。"
+        },
+        {
+          "name": "Art Print Residence｜加泰隆尼亞版畫駐村",
+          "kind": "版畫駐村",
+          "fit": "希望以版畫工作室進行自主創作的藝術家",
+          "status": "不設單一固定徵件，需聯絡檔期及工作室適配。",
+          "fee": "依停留與工作室需求報價，須同時入住駐村公寓。",
+          "url": "https://artprintresidence.com/printmaking-residencies/",
+          "detail": "位於巴塞隆納附近Arenys de Munt，具大型凹版及木刻等創作設備。先提供版畫計畫，確認技能要求、技術協助與材料供應。"
+        },
+        {
+          "name": "CCA Andratx｜馬略卡當代藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "已有作品集的當代藝術創作者",
+          "status": "下一輪申請及空位須向機構確認。",
+          "fee": "不提供藝術家酬金、製作費、旅費或租車費；入住條件另核。",
+          "url": "https://ccandratx.eu/pages/past-artists-in-residence",
+          "detail": "位於馬略卡Andratx、Tramuntana山區旁，駐村通常一個月。適合以工作室自主創作為主的藝術家，交通與製作需自行規劃。"
+        },
+        {
+          "name": "Casa de Velázquez｜馬德里藝術駐村",
+          "kind": "專業徵選駐村",
+          "fit": "具藝術專業資格或充分作品經歷的創作者",
+          "status": "2027–2028輪於2026年10月19日至11月27日申請。",
+          "fee": "獎助及住宿條件以2027–2028簡章核對。",
+          "url": "https://www.casadevelazquez.org/es/creation-artistique/convocatorias",
+          "detail": "法蘭西學院在馬德里的12個月藝術駐村，涵蓋繪畫、版畫、雕塑、建築、作曲、舞蹈、攝影與影像等。須按簡章核對申請語言及面試要求。"
+        },
+        {
+          "name": "Grabart｜Joan Barbarà版畫工坊駐村",
+          "kind": "版畫駐村",
+          "fit": "希望接受版畫技術支援並製作作品的創作者",
+          "status": "可提出期望日期，提交履歷、申請信及五件作品。",
+          "fee": "每週€600或每月€1,800；不含住宿，特殊版材與紙張另計。",
+          "url": "https://www.grabart.art/residence-info",
+          "detail": "巴塞隆納版畫工坊提供1週至3個月駐村及專業印製協助，可使用蝕刻、乾刻、飛塵等技法。一般材料按方案提供，須先確認所需設備與耗材。"
+        },
+        {
+          "name": "ESPRONCEDA｜當代藝術與新媒體駐村",
+          "kind": "跨領域駐村",
+          "fit": "不同職涯階段的藝術家、研究者、技術創作者及團體",
+          "status": "全年有不同公開徵件，依計畫查詢。",
+          "fee": "費用、工作室及住宿安排依各輪方案與空位。",
+          "url": "https://www.espronceda.net/about/residences/",
+          "detail": "位於巴塞隆納，通常1–8週，結合當代藝術、新媒體、表演與科技實驗。多安排成果展或公開呈現，申請須與具體計畫相符。"
+        },
+        {
+          "name": "Centre d’Art i Natura de Farrera｜藝術與自然駐村",
+          "kind": "自主創作駐村",
+          "fit": "藝術家及研究者",
+          "status": "以計畫、空間需求及日期聯絡申請。",
+          "fee": "住宿、膳食與工作空間按最新價目或報價確認。",
+          "url": "https://farreracan.cat/residencies/",
+          "detail": "位於加泰隆尼亞庇里牛斯山區Farrera，提供繪畫、雕塑、版畫及研究空間，另有鋼琴與表演工作室。以自主創作為主，不是每日教學課程。"
+        },
+        {
+          "name": "CACiS El Forn de la Calç｜藝術與永續駐村",
+          "kind": "徵選研究駐村",
+          "fit": "關注環境、地景及永續的藝術創作者",
+          "status": "按年度徵件；下一輪日期與資格須確認。",
+          "fee": "補助、住宿及自付費用依當輪條件。",
+          "url": "https://cacis.elforndelacalc.cat/residencia/",
+          "detail": "加泰隆尼亞藝術與永續中心支持視覺、表演、思想研究及地景介入。申請計畫須回應自然保護與所在地環境。"
+        },
+        {
+          "name": "AZALA｜巴斯克創作與研究駐村",
+          "kind": "研究及創作駐村",
+          "fit": "藝術家、創作者、思想工作者及相關實踐者",
+          "status": "可按公開申請方式提出計畫，檔期及接收條件須確認。",
+          "fee": "依計畫、期長與資源需求洽詢。",
+          "url": "https://www.azala.eus/espacio-de-creacion/residencias/",
+          "detail": "位於阿拉瓦省Lasierra，重視專注研究、創作與在地交流。停留長度依計畫協議，鄉村周邊商店及餐飲有限，需先安排交通與日常生活。"
+        },
+        {
+          "name": "La Maldita Estampa｜巴塞隆納版畫駐村",
+          "kind": "版畫駐村",
+          "fit": "已有創作方向的國際藝術家",
+          "status": "官方已列2026–2027冬季徵件；名額及截止日須確認。",
+          "fee": "工作室、材料、指導及住宿是否包含，須按方案報價核對。",
+          "url": "https://lamalditaestampa.eu/residencias-artisticas/",
+          "detail": "以版畫工作坊及畫廊為創作基地，提供設備、實作支援與作品交流。提交作品與計畫後確認適用技法及所需材料。"
+        },
+        {
+          "name": "Barcelona Academy of Art｜素描、繪畫與雕塑短課",
+          "kind": "藝術短課",
+          "fit": "按班別程度要求選課的藝術學習者",
+          "status": "2026年7–9月課程已結束；2027課表待公布。",
+          "fee": "依所選課程收費；材料與住宿另核。",
+          "url": "https://www.academyofartbarcelona.com/en/book-your-summer-courses-place/",
+          "detail": "夏季曾設1至2週油畫肖像、人體素描、繪畫及雕塑課。按技法、程度與教師選班，先確認授課語言及作品要求。"
         }
       ]
     },
@@ -288,6 +1153,96 @@
           "fee": "官網列每月€500–850，依房間與配置；機票生活費另計。",
           "url": "https://www.sim-residency.info/about",
           "detail": "1–3個月。一般6月及12月徵下一半年度；當期空位請查申請頁，勿把有介紹當成有名額。https://www.sim-residency.info/apply"
+        },
+        {
+          "name": "Nes｜Skagaströnd 跨媒介駐村",
+          "kind": "自費駐村",
+          "fit": "能獨立工作的各類創作者",
+          "status": "全年接受申請；按空位審核",
+          "fee": "按房型及月份報價；交通、膳食與材料另計",
+          "url": "https://neslist.is/apply/",
+          "detail": "在冰島北部漁村安排私人睡房、共用住處及創作空間，涵蓋視覺藝術、寫作、表演等媒介。屬自導創作，現場指導有限；提交作品及計畫後確認住宿、工作室與申請費。"
+        },
+        {
+          "name": "Fish Factory｜東峽灣藝術工廠",
+          "kind": "自費駐村",
+          "fit": "有獨立計畫的藝術家及音樂創作者",
+          "status": "滾動申請；須確認所選月份空位",
+          "fee": "2027一般月期160,000 ISK；短期月份另價",
+          "url": "https://fishfactory.is/apply-fees/",
+          "detail": "位於 Stöðvarfjörður，提供私人睡房及共用工作空間，可按技能與安排使用木工、陶藝及印刷設施。沒有固定授課或作品講評；膳食、創作材料及國際交通另計，機場接送範圍須確認。"
+        },
+        {
+          "name": "Gullkistan｜Laugarvatn 創作駐村",
+          "kind": "自費駐村",
+          "fit": "藝術家、作家及研究者",
+          "status": "全年申請；一般至少一個月",
+          "fee": "單人房每月€1,050；其他房型及雙人入住另價",
+          "url": "https://gullkistan.is/residency/",
+          "detail": "在 Laugarvatn 的住宿及工作室進行獨立創作，可提出家庭同行需求。申請需履歷及駐村目的；較短停留須先詢問，房型與可用工作空間以確認函為準。"
+        },
+        {
+          "name": "ArtsIceland｜Ísafjörður 藝術駐村",
+          "kind": "自費駐村",
+          "fit": "藝術及文化專業工作者",
+          "status": "按申請審核；下一期名額須詢問",
+          "fee": "依住宿、時段及協議確認；不預設有津貼",
+          "url": "https://www.kolsalt.is/residency-information",
+          "detail": "在西峽灣 Ísafjörður 進行約4至12週創作與交流。住宿、工作設施及公共分享安排須逐項核對協議；適合已有計畫的創作者，不是附每日教學的遊學營。"
+        },
+        {
+          "name": "Gil Artist Residency｜Akureyri 藝術駐村",
+          "kind": "徵選／自費駐村",
+          "fit": "有作品集的藝術工作者",
+          "status": "官網列2027徵件；當期截止日與餘額須確認",
+          "fee": "住宿及工作室費依當期公告確認",
+          "url": "https://listagil.is/?page_id=17",
+          "detail": "由 Akureyri 藝術街區的地方藝術組織營運，提供在冰島北部生活與創作的據點。以作品集及創作計畫申請；展覽、交流、設備及停留長度須向主辦方確認。"
+        },
+        {
+          "name": "Skaftfell｜Seyðisfjörður 當代藝術駐村",
+          "kind": "自費／主題徵選駐村",
+          "fit": "各媒介藝術家，可個人或小組",
+          "status": "一般按年度徵件；2027主題與可申請時段須核對",
+          "fee": "6週共享方案135,000 ISK起；獨住及12週另價",
+          "url": "https://skaftfell.is/residency/",
+          "detail": "在東峽灣進行6或12週自導創作，提供住宿、工作空間及印刷工坊使用安排。可選擇分享研究；材料、交通與餐食另計，個別主題徵件的資格及資助不能套用到一般駐村。"
+        },
+        {
+          "name": "Hafnarborg｜Hafnarfjörður 博物館駐村",
+          "kind": "自費駐村",
+          "fit": "本地及國際創作者",
+          "status": "滾動申請；常需提早約一年安排",
+          "fee": "每月€500，依規定提前付款",
+          "url": "https://hafnarborg.is/en/residency/",
+          "detail": "在 Hafnarborg 博物館內使用約80平方米的住宿與工作公寓，一般由每月2日起住一個月。需履歷及5件作品；只有一套公寓，適合可在生活空間獨立工作的計畫。"
+        },
+        {
+          "name": "Icelandic Textile Center｜Ós 紡織駐村",
+          "kind": "自費駐村",
+          "fit": "紡織藝術家、設計師及研究者",
+          "status": "一般1至3個月；12月及設備時段另核",
+          "fee": "依季節與房型收費；TextileLab及數碼織機另計",
+          "url": "https://www.textilmidstod.is/en/textile-residency/about-the-residency",
+          "detail": "位於 Blönduós，以紡織、材料實驗及研究為主，提供私人房間與共享工作室。數碼織機需要另外預約並確認操作能力；一般駐村不含獎學金或完整技術課程。"
+        },
+        {
+          "name": "List og Land｜西峽灣藝術與寫作駐村",
+          "kind": "自費駐村",
+          "fit": "藝術家、作家，可詢問同行安排",
+          "status": "官網列2026場次；2027時段尚待確認",
+          "fee": "已公布2026場次房費€1,350–€1,850；下一年另核",
+          "url": "https://listogland.com/apply/",
+          "detail": "以安靜環境支持寫作及獨立藝術計畫，按房間與場次安排住宿。申請提交履歷、簡短計畫及日期選擇；伴侶、家庭與縮短停留需另行報價，不能沿用單人費用。"
+        },
+        {
+          "name": "Arctic Canvas｜Snæfellsnes 創作靜修",
+          "kind": "自費創作駐留",
+          "fit": "能自行安排工作的藝術家及跨領域創作者",
+          "status": "按日曆詢問；年度免費名額另行徵選",
+          "fee": "Studio兩週€2,150／一月€3,600，清潔€150另計",
+          "url": "https://www.arctic-canvas.com/dates-pricing",
+          "detail": "Studio一般停留兩週至三個月，適合個人或伴侶；團體或整屋須另詢。此為自費創作空間，旅費、餐食與材料自理；年度免費1至2週名額只涵蓋住宿，不能視為全面資助。"
         }
       ]
     },
@@ -313,6 +1268,87 @@
           "fee": "資助、住宿及旅行支持按下一輪條款核對。",
           "url": "https://koneensaatio.fi/en/saari-residence/",
           "detail": "適合已有創作實踐、可獨立工作的人；不列為現在可報名的入門遊學。"
+        },
+        {
+          "name": "HIAP｜赫爾辛基國際藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "藝術家及文化工作者，依輪次資格",
+          "status": "一般與合作徵件分開；下一個合資格輪次待核",
+          "fee": "資助、住宿及自付部分依個別徵件",
+          "url": "https://www.hiap.fi/open-calls/",
+          "detail": "以 Suomenlinna 等空間支持當代藝術研究與交流。一般國際輪次與限定國籍、居住地或主題的合作輪次條件不同；不能將特定國家專案當作所有申請人皆可報名。"
+        },
+        {
+          "name": "Mustarinda｜Hyrynsalmi 生態藝術駐村",
+          "kind": "徵選／自費駐村",
+          "fit": "能參與共居的藝術家及研究者",
+          "status": "2027徵件已於2026年10月13日截止；下一輪待公告",
+          "fee": "依當期房型及條件確認；旅費自理",
+          "url": "https://mustarinda.fi/en/residency",
+          "detail": "在 Paljakka 森林附近進行2至6週藝術與生態研究。2027主題為 House as a Teacher，重視共同生活、煮食與家務參與；適合接受偏遠環境和共享日常的創作者。"
+        },
+        {
+          "name": "AARK｜Korpo 群島藝術駐村",
+          "kind": "自費駐村",
+          "fit": "各領域當代藝術專業工作者",
+          "status": "全年接受申請；按空位審核",
+          "fee": "依空間、月份與停留安排確認",
+          "url": "https://aark.fi/residency/",
+          "detail": "位於 Turku 群島 Korpo 渡輪岸邊，可進行自然、海洋環境及其他自訂藝術研究。提供獨立工作的時間並有每週非正式交流；住處、工作尺度與交通須按計畫確認。"
+        },
+        {
+          "name": "Fiskars AiR｜工藝與設計村駐村",
+          "kind": "徵選駐村",
+          "fit": "工藝、設計、藝術及寫作專業人士",
+          "status": "2027輪已於2026年10月18日截止；官網列下一輪2027年9月",
+          "fee": "免租金；每月維護費€300，生活及材料另計",
+          "url": "https://onoma.fi/en/fiskars-air-en/",
+          "detail": "Fiskars 村提供可住1至2人或小家庭的工作公寓，另有適合粗加工或較大型工作的地下室。接受各國專業人士並優先國際交流；需履歷、計畫及作品，無旅費與生活補助。"
+        },
+        {
+          "name": "Haihatus｜Joutsa 跨領域藝術駐村",
+          "kind": "自費駐村",
+          "fit": "藝術家及跨領域創作者",
+          "status": "按年度徵件；剩餘時段可詢問",
+          "fee": "一人每月€660、兩人€990；確認費另依條款",
+          "url": "https://haihatus.fi/en/residency/",
+          "detail": "在 Joutsa 藝術中心使用私人房間及共享工作空間、廚房與浴室。適合獨立創作及住客交流；工作設備、房型及公開活動須確認，不能把住宿方案理解為含教學與材料。"
+        },
+        {
+          "name": "RaumArs｜Rauma 社區藝術駐村",
+          "kind": "社區徵選／自費駐村",
+          "fit": "願與在地社群合作的藝術家",
+          "status": "年度徵件及餘額申請分開核對",
+          "fee": "社區專案與獨立自費方案費用不同",
+          "url": "https://raumars.org/en/info-taiteilijoille/",
+          "detail": "位於 Rauma，社區藝術路線需要與當地居民、學校或機構共同工作。另有獨立創作路線；申請時先確認參與義務、住宿費及可用資助，再提交相應計畫。"
+        },
+        {
+          "name": "Serlachius｜Mänttä-Vilppula 藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "視覺藝術家、策展人及相關研究者",
+          "status": "按年度甄選；下一輪與可選月份待核",
+          "fee": "住宿、工作空間及自付費用依當期條款",
+          "url": "https://serlachius.fi/en/serlachius-residency/application-for-serlachius-residency/",
+          "detail": "由 Serlachius 與 Mänttä 藝術節相關評審選出，接受藝術史、新聞及策展等工作，也可申請搭檔、團體或家庭同行。申請須由本人依官方規定提交；OTC可協助準備材料。"
+        },
+        {
+          "name": "TUO TUO｜Joutsa 跨領域研究駐村",
+          "kind": "協議式駐村",
+          "fit": "藝術家、研究者與文化工作者",
+          "status": "可全年提交意向；依設施與需求配對邀請",
+          "fee": "費用、住宿及設備按個別安排確認",
+          "url": "https://tuotuoarts.com/residency",
+          "detail": "在 Pynnölä–Uimaniemi 舊校舍支持藝術實驗、生態與社群研究。先說明創作、工作室及無障礙需求，由主辦方判斷能否配合；不是付款即可保證入住的標準課程。"
+        },
+        {
+          "name": "Titanik A.i.R.｜Turku 聲音藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "聲音藝術家及跨媒介創作組合",
+          "status": "2027主要輪已於2026年9月20日截止；合作輪次另公告",
+          "fee": "工作室及住宿免費；交通、生活與材料自理",
+          "url": "https://www.titanik.fi/residency-open-call-titanik-a-i-r-2027/",
+          "detail": "2027主要輪提供兩個各兩個月時段，以聲音、聆聽與共同生活為題，可探索 Titanik Radio。住宿適合個人或伴侶，並非無障礙公寓；不要求完成最終作品，申請材料用英文。"
         }
       ]
     },
@@ -329,6 +1365,96 @@
           "fee": "申請費、參與費及補助須按2028簡章核對。",
           "url": "https://www.janvaneyck.nl/calendar/apply-now-jve-residency-2028",
           "detail": "長期創作研究，非數週體驗課。請準備作品、履歷及研究動機；當輪截止日與時長以完整申請頁為準。"
+        },
+        {
+          "name": "Rijksakademie｜阿姆斯特丹專業藝術駐村",
+          "kind": "長期徵選駐村",
+          "fit": "至少約2至3年獨立實踐的視覺藝術家",
+          "status": "2027申請期已結束；下一輪待核",
+          "fee": "提供工作預算與津貼；當年費用及資助條件另核",
+          "url": "https://www.rijksakademie.nl/en/residency-apply-workshops/apply",
+          "detail": "一至兩年的專業研究與創作，提供工作室、技術工坊及藝術界交流。接受各國申請但不是初學短課；曾參加 Jan van Eyck 或 De Ateliers 者有申請限制，須核對當輪規則。"
+        },
+        {
+          "name": "EKWC｜Oisterwijk 陶瓷研究駐村",
+          "kind": "專業徵選駐村",
+          "fit": "藝術、設計及建築專業創作者",
+          "status": "按年度申請窗口；下一輪待核",
+          "fee": "主辦補貼部分成本；參與者仍付費及材料費",
+          "url": "https://ekwc.nl/en/apply/",
+          "detail": "以陶瓷實驗與技術研究為核心，可接受沒有陶瓷經驗但具專業實踐的申請人。學歷與畢業後工作年資須逐項核對；官方要求申請者自主撰寫，不宜代寫或使用AI生成申請文本。"
+        },
+        {
+          "name": "De Ateliers｜阿姆斯特丹工作室培育",
+          "kind": "兩年專業培育",
+          "fit": "新進視覺藝術家，須作品甄選",
+          "status": "依年度徵選；下一期申請窗口待核",
+          "fee": "現列年費€3,200由津貼扣除；津貼實額須確認",
+          "url": "https://de-ateliers.nl/en/programme",
+          "detail": "提供個人工作室、每週導師訪談及技術設施，屬兩年集中創作與批評討論。外地參與者可詢問有限住宿；官方同頁津貼數字不一致，申請預算應先取得書面確認。"
+        },
+        {
+          "name": "AGALAB｜阿姆斯特丹版畫駐村",
+          "kind": "自費駐村",
+          "fit": "有印刷基礎或願另付技術入門費者",
+          "status": "滾動申請；住宿名額較少",
+          "fee": "4週工作室€500；含住宿€1,450，材料與指導另計",
+          "url": "https://agalab.nl/en/artist-in-residence-2/",
+          "detail": "以版畫與實驗印刷為主，提交動機、履歷及作品後審核。工作室方案與含住宿方案分開，技術入門按時收費；申請前確認所需工藝、機台及材料可用性。"
+        },
+        {
+          "name": "Hotel Maria Kapel｜Hoorn 當代藝術駐村",
+          "kind": "策選／合作駐村",
+          "fit": "當代視覺藝術家",
+          "status": "採合作、預選及對話方式；一般公開申請不可預設",
+          "fee": "住宿、製作支持與費用依邀請協議",
+          "url": "https://www.hotelmariakapel.nl/en/updates/newselectionprocess",
+          "detail": "在歷史教堂空間發展場域、研究與公共交流計畫。機構已調整選人方式，通常先透過合作與對話建立關係，再發展提案；不能當作隨時開放的自費遊學課程。"
+        },
+        {
+          "name": "SEA Foundation｜Tilburg 藝術研究駐村",
+          "kind": "自費／合作徵選駐村",
+          "fit": "藝術家、策展人與寫作者",
+          "status": "自費路線可提出申請；合作名額條件另核",
+          "fee": "單人每週€670；押金€450，材料等另計",
+          "url": "https://www.seafoundation.eu/artist-in-residence-residencies/",
+          "detail": "提供創作研究與同儕交流，每週可安排最多4小時支援。邀請、合作徵件及自費路線並行；主辦並非一般資助機構，有同行者或特殊設備需求須先報價。"
+        },
+        {
+          "name": "Kunsthuis SYB｜Beetsterzwaag 藝術研究",
+          "kind": "邀請式駐村",
+          "fit": "當代藝術家、寫作者與創作團體",
+          "status": "由機構策選邀請；下一輪公開渠道待核",
+          "fee": "支持與自付內容依邀請條件確認",
+          "url": "https://www.kunsthuissyb.nl/en/residency",
+          "detail": "一般以約6週的藝術研究為核心，給予試驗與反思空間，不要求先承諾製成新作品。駐村通常有面向公眾的分享；須確認邀請與計畫匹配，不能直接預訂。"
+        },
+        {
+          "name": "Het Wilde Weten｜鹿特丹藝術駐村",
+          "kind": "自費徵選駐村",
+          "fit": "當代藝術家及策展人",
+          "status": "2027–28輪已於2026年10月16日截止；下一輪待公告",
+          "fee": "房租、押金及工作空間依當輪條款",
+          "url": "https://www.hetwildeweten.nl/artists-in-residency-program/",
+          "detail": "在鹿特丹藝術家工作室社群內進行約3個月的獨立計畫，接受荷蘭與國際專業人士。需作品集、履歷與創作構想；是否有住宿、費用及現場設備須按所選期確認。"
+        },
+        {
+          "name": "1646｜海牙藝術研究駐村",
+          "kind": "資助徵選駐村",
+          "fit": "藝術家及策展人",
+          "status": "2026輪已截止；官網預告2027輪於2026年12月公布",
+          "fee": "一般年度駐村稱全額支持；細項依新徵件",
+          "url": "https://www.1646.nl/residency/",
+          "detail": "提供住處與工作室，支持研究及實驗，無須在結束時交出完成作品。通常以公共活動分享過程；合作交換與一般徵件分開，下一輪資格、時長及補助細目須核對。"
+        },
+        {
+          "name": "Foundation B.a.d.｜鹿特丹客席工作室",
+          "kind": "自費工作室駐留",
+          "fit": "可獨立工作的藝術家",
+          "status": "先詢問空位，再交計畫與作品",
+          "fee": "按工作室及完整月租計；依最新價目確認",
+          "url": "https://www.foundationbad.nl/guest-studios/apply/",
+          "detail": "一般停留3至6個月，在藝術家社群中使用客席工作室。提交約100字動機、作品與日期；此地址不能用作市政居住登記，安排較長停留前須確認個人住宿與登記需要。"
         }
       ]
     },
@@ -363,6 +1489,141 @@
           "fee": "工作室、住宿、窯燒及材料分項計算，按當輪價目核對。",
           "url": "https://www.sccp.jp/air-en/",
           "detail": "官方2026指南為2個月至不足1年；提交履歷、作品及計畫。2027時段與費率須更新確認。"
+        },
+        {
+          "name": "Studio Kura｜福岡糸島藝術駐村",
+          "kind": "自費駐村",
+          "fit": "國內外創作者；適合能自主製作並參與成果展的人。",
+          "status": "官網提供2027檔期表，實際空位須確認",
+          "fee": "4週¥140,000、8週¥280,000、12週¥420,000；餐食、交通及材料另計。",
+          "url": "https://studiokura.info/en/",
+          "detail": "通常4、8或12週，提供私人房間及分隔工作空間，共用生活設施。駐村末舉辦展覽，申請須配合官方整段日期。"
+        },
+        {
+          "name": "Arts Itoya｜佐賀武雄藝術駐村",
+          "kind": "自費駐村",
+          "fit": "希望在九州小鎮自主創作的藝術工作者。",
+          "status": "按官方空位表申請，錄取與日期另確認",
+          "fee": "4週¥120,000；8週¥240,000；12週¥330,000。餐食、交通和材料不含。",
+          "url": "https://artsitoya.com/",
+          "detail": "位於武雄，利用舊和服店改建的獨立駐村場地；1至3個月，最多4人，各有單人房，共用廚衛及分隔工作空間。與福岡Studio Kura是不同駐地。"
+        },
+        {
+          "name": "Art Center Ongoing｜東京吉祥寺駐村",
+          "kind": "徵選・自費駐村",
+          "fit": "國內外藝術家及策展人；接受個人，不接受雙人組合。",
+          "status": "2027春季一般及獎勵駐村：2026年11月30日截止",
+          "fee": "一般計畫2個月住宿費¥200,000；獎勵計畫免住宿費，兩者旅費、生活與製作費自理。",
+          "url": "https://www.ongoing.jp/en/residence/",
+          "detail": "一般期2027年3月5日至5月5日；獎勵期5月8日至7月8日。提供展覽與住宿，但沒有製作工作室。交表格、履歷、作品集及相關作品，獎勵另需至少兩封推薦信；須停留不少於當期三分之二。"
+        },
+        {
+          "name": "ARCUS Research｜茨城守谷研究駐村",
+          "kind": "自費研究駐村",
+          "fit": "藝術家、策展人、研究者及寫作者等專業人士；在校生僅接受博士生。",
+          "status": "2027夏季及2028冬季：2026年12月16日日本時間23:59:59截止",
+          "fee": "1個月¥270,000、2個月¥520,000、6週¥400,000；含工作室、住宿與基本諮詢。",
+          "url": "https://www.arcus-project.com/en/open-call/",
+          "detail": "2027夏季可選6月3日至7月2日、7月7日至8月5日，或連續兩個月；2028冬季為1月14日至2月24日。須能以英語溝通，依官網合併PDF與申請表提交；屬自主研究，不是入門授課。"
+        },
+        {
+          "name": "Aomori Contemporary Art Centre｜青森國際藝術中心駐村",
+          "kind": "徵選駐村",
+          "fit": "藝術家、策展人、研究者及跨領域創作者；須能以日語或英語溝通。",
+          "status": "2026「EAT」徵件已截止；下一輪待公布",
+          "fee": "住宿、工作室與製作支援須按新一輪簡章確認；不將往屆補助當作固定待遇。",
+          "url": "https://acac-aomori.jp/public/",
+          "detail": "青森山林環境中的創作與研究。2026分Creator與Mediator兩類，核心駐期62天，最長92天；成果展示或研究報告要求不同。下一期主題、時長與名額另核。"
+        },
+        {
+          "name": "Shiro Oni Studio｜群馬鬼石藝術駐村",
+          "kind": "徵選・自費駐村",
+          "fit": "能獨立生活及創作、以日語或英語溝通的藝術工作者。",
+          "status": "2027 年駐村的申請期為 2026 年 7 月 1 日至 9 月 1 日，現已截止；下一輪以官方公告為準。",
+          "fee": "2027駐村費¥450,000；含私人房間、工作空間及指定設施，生活交通支出另核。",
+          "url": "https://shirooni.com/applying-artists/requirements/",
+          "detail": "群馬縣鬼石小鎮，通常每組9人、6週。須參加會議及駐村展覽，捐贈一件自選作品；官方亦要求能騎自行車。先核對活動能力與各項費用包含範圍。"
+        },
+        {
+          "name": "Kinosaki International Arts Center｜城崎表演藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "表演藝術團體、個人及研究型藝術計畫；須提出具體創作構想。",
+          "status": "2027／28徵件已於2026年6月27日截止",
+          "fee": "入選者免設施及住宿費；交通、製作和餐食是否支持按當期條款確認。",
+          "url": "https://kiac.jp/en/article/3918/",
+          "detail": "兵庫縣豐岡城崎，提供劇場、排練與住宿環境。一般駐期3日至3個月，重視社會回應、創作及交流；下一輪未公布前只作準備選項。"
+        },
+        {
+          "name": "Fukuoka Asian Art Museum｜福岡亞洲美術館駐村",
+          "kind": "徵選駐村",
+          "fit": "本地及國際藝術家；2026簡章不限國籍或居住地。",
+          "status": "FY2026徵件已截止；下一輪待公告",
+          "fee": "經費支持按新簡章核對；團體申請在2026輪僅1人獲財務支持。",
+          "url": "https://faam.city.fukuoka.lg.jp/en/residence/requirement/",
+          "detail": "創作、成果呈現及與福岡市民交流。2026年度分約70至90日三段，最後一期至2027年3月；不是目前仍可報名的2027新輪。需按表格準備作品、計畫與推薦材料。"
+        },
+        {
+          "name": "Kamiyama Artist in Residence｜德島神山駐村",
+          "kind": "徵選／自費駐村",
+          "fit": "願意結合地方生活、學校工作坊與公開交流的創作者。",
+          "status": "2026入選者已公布；下一輪KAIR與自費空位分開查詢",
+          "fee": "KAIR支持按當輪簡章；Bed & Studio為另外自費租用，須索取報價。",
+          "url": "https://www.in-kamiyama.jp/en",
+          "detail": "德島神山一般秋季邀請少量藝術家約兩個月，結束時辦展覽，並參與在地文化活動。非秋季另有Bed & Studio住宿與工作室選項，本頁合併計一項。"
+        },
+        {
+          "name": "札幌天神山藝術工作室｜滯在創作",
+          "kind": "自費駐村・申請審核",
+          "fit": "18歲以上國內外藝術家、研究者及文化工作者，專業或業餘均可依計畫申請。",
+          "status": "使用前12個月至規定期限內申請，須審核及確認空位",
+          "fee": "A型房首7日每日¥860、第8–14日¥590、第15日起¥430；暖氣與部分設備另收。",
+          "url": "https://tenjinyamastudio.jp/apartment",
+          "detail": "位於札幌天神山綠地，通常連續使用上限90日。須安排與市民交流及提交活動問卷，工作人員使用日語或英語；不是旅館訂房或授課班。"
+        },
+        {
+          "name": "MI-LAB｜越前水印木版畫研修駐村",
+          "kind": "版畫研修駐村",
+          "fit": "國際藝術家、版畫家及教師；按主題班核對先備技術。",
+          "status": "2026主題班有官方簡章；下一期名額及申請期另核",
+          "fee": "學費、住宿、材料及餐食以所選班別新簡章確認。",
+          "url": "https://endeavor.or.jp/mi-lab/aboutus/",
+          "detail": "Mokuhanga Innovation Laboratory教授日本水性木版畫與傳統工具材料。2026簡章確認駐地已轉往福井縣越前；勿按舊介紹安排至山梨河口湖。"
+        },
+        {
+          "name": "Karuizawa Mokuhanga School｜輕井澤木版畫駐村",
+          "kind": "藝術短課・住宿研修",
+          "fit": "初學者至專業藝術家，學習設計、雕刻及日本水印木版印刷。",
+          "status": "2026及2027官網標示額滿；查候補及2028日曆",
+          "fee": "依兩週區段及住宿選項報價；額外版材與紙張另核。",
+          "url": "https://www.mokuhanga-school.jp/residency",
+          "detail": "提供個別指導、設備及榻榻米住宿。2027起以兩週為最小區段，可連接多段；與以自主創作為主的駐村不同，適合希望有技法教學的人。"
+        },
+        {
+          "name": "Art Center NEW｜橫濱亞洲藝術家駐村",
+          "kind": "徵選駐村",
+          "fit": "在亞洲從事創作的藝術家；按當輪所列地區與材料要求審核。",
+          "status": "2026首屆已完成；下一輪待公布",
+          "fee": "資助、住宿、旅費與製作費上限須按下一輪條款確認。",
+          "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+          "detail": "2026期為7月20日至9月20日，在黃金町住宿、Art Center NEW創作，須在橫濱停留至少三分之二時間。保留此路線作長期準備，不標示即時名額。"
+        },
+        {
+          "name": "6okken｜富士河口湖藝術駐村",
+          "kind": "自費駐村",
+          "fit": "希望在富士山麓自主創作及研究的國內外藝術家。",
+          "status": "2027採分期申請，入住前至少60日提出，名額另確認",
+          "fee": "官方AIR_J資料列每四週首人¥280,000；夏季¥320,000，同行者及冬季燃料另計。",
+          "url": "https://air-j.info/en/residence/6okken-residency/",
+          "detail": "山梨縣河口湖北岸大石村，整棟住宿配共用工作室，可連續1至3期；沒有強制成果發表。連結為京都市及京都藝術中心營運的官方AIR_J，內附主辦方網站及申請資訊。"
+        },
+        {
+          "name": "Akiyoshidai International Art Village｜秋吉台Fellowship",
+          "kind": "徵選駐村・資格限制",
+          "fit": "須符合獲機構資助、曾入選AIAV，或具指定政府／教育／文化機構推薦等條件之一。",
+          "status": "2026輪已於2026年1月31日截止；下一輪待公布",
+          "fee": "該輪免私人房及指定工作室費；創作、旅費與生活開支由本人負擔。",
+          "url": "https://aiav.jp/en/11171/",
+          "detail": "山口縣美禰，約1個月，涵蓋多種創作領域。須能以日語或英語溝通並參與地方工作坊、講座或學校交流；不適合沒有推薦或相應背景的零基礎申請者。"
         }
       ]
     },
@@ -406,6 +1667,195 @@
           "fee": "補助、住宿、交通及製作費依當期條款核對。",
           "url": "https://prairieronde.org/about/apply/",
           "detail": "每次接待少量藝術家；國際申請人須確認邀請、保險及適用入境安排。"
+        },
+        {
+          "name": "Anderson Ranch｜科羅拉多藝術工作坊",
+          "kind": "藝術短課",
+          "fit": "陶藝、版畫、繪畫、攝影、雕塑及木工；按初級、中級、進階選班。",
+          "status": "官方課程目錄已有2027日期，逐班確認名額",
+          "fee": "學費依工作坊；材料、住宿、膳食及交通分開核對。",
+          "url": "https://www.andersonranch.org/workshops/",
+          "detail": "位於Snowmass Village，鄰近Aspen。部分進階班要求作品集審核；成人班與兒少班分開，海外參加者須確認完整出席和入境安排。"
+        },
+        {
+          "name": "Haystack Mountain School of Crafts｜夏季工藝工作坊",
+          "kind": "藝術短課・申請審核",
+          "fit": "18歲以上；多數班別接受初學至進階，涵蓋玻璃、陶藝、纖維、金工、版畫及木工。",
+          "status": "2026報名已結束；2027課程待公布",
+          "fee": "學費與食宿分項收費，工作室費及材料另計；獎助須另經評選。",
+          "url": "https://www.haystack-mtn.org/summer-workshops-details",
+          "detail": "緬因州Deer Isle，通常一週或兩週，須整期參加。一般工作坊亦經競爭性審核，不是付款即錄取；不同媒材的程度要求以當班說明為準。"
+        },
+        {
+          "name": "Arrowmont｜藝術與工藝密集工作坊",
+          "kind": "藝術短課",
+          "fit": "多日班限18歲以上；除課程另有註明，多數程度均可參加。",
+          "status": "依官方工作坊檔期選班",
+          "fee": "學費、住宿及膳食按班別與方案核對，材料費另查。",
+          "url": "https://arrowmont.org/about-workshops/",
+          "detail": "田納西州Gatlinburg的工藝學校，課程從數小時至兩週，多數為一週。涵蓋繪畫、版畫、陶藝及工藝；海外短期參加、英語溝通與安全操作要求在報名前確認。"
+        },
+        {
+          "name": "Pilchuck Glass School｜玻璃藝術工作坊",
+          "kind": "玻璃藝術短課・申請審核",
+          "fit": "玻璃吹製、鑄造、雕刻及跨媒材創作；各班程度不同。",
+          "status": "2027課程已公布；首輪申請10月30日結束，後續空位另詢",
+          "fee": "按所選課程核對學費、食宿、材料及設備費；獎學金不保證。",
+          "url": "https://www.pilchuck.org/",
+          "detail": "華盛頓州校園，2027安排八個課程時段，從4月至9月。入門班與專業強化班分開；首輪結束不等於下一輪或候補已開放。"
+        },
+        {
+          "name": "New York Studio School｜Marathon藝術密集課",
+          "kind": "藝術短課・申請審核",
+          "fit": "初學至進階創作者；須能投入全日素描、繪畫或雕塑訓練。",
+          "status": "通常1月、6月、7月及9月開課，逐期確認",
+          "fee": "十天課程學費於註冊時繳清；住宿與材料費另核。",
+          "url": "https://nyss.org/academics/marathons/",
+          "detail": "紐約兩週密集課，通常每日9:00–18:00，包含個別及團體評圖。初次申請需按校方程序審核；另有網課，赴美方案須選現場班。"
+        },
+        {
+          "name": "Art Students League of New York｜藝術工作坊與月課",
+          "kind": "藝術短課",
+          "fit": "一般課程無入學考試或既有藝術經驗要求；按媒材和程度選課。",
+          "status": "按月或工作坊日期註冊",
+          "fee": "依課程、全日／兼讀安排收費；紐約食宿與材料另計。",
+          "url": "https://www.artstudentsleague.org/classes/guide",
+          "detail": "繪畫、素描、版畫、雕塑及混合媒材。工作坊通常週末至一週，常規班以月為單位；部分工作室並非每日都有導師，先核對實際指導時段。"
+        },
+        {
+          "name": "RISD Continuing Education｜成人校園藝術短課",
+          "kind": "藝術與設計短課",
+          "fit": "成人藝術興趣及技巧進修；按課程選程度，不等同RISD學位課程。",
+          "status": "秋季班持續排課；後續週末工作坊待公告",
+          "fee": "逐班學費與材料清單見課程目錄；住宿、交通另計。",
+          "url": "https://ce.risd.edu/adult-in-person-courses/",
+          "detail": "現場課分布於Providence及羅德島其他地點，部分課程跨數週。海外短遊先確認接收資格、教室地點與能否全程出席，勿誤選線上班。"
+        },
+        {
+          "name": "Vermont Studio Center｜藝術與寫作駐村",
+          "kind": "徵選・自費／獎助駐村",
+          "fit": "視覺藝術家及各類寫作者，可自主推進創作。",
+          "status": "依公開徵件及可用時段申請",
+          "fee": "駐村費按時長核對；全額或部分獎助另審，未核准前按自費預算。",
+          "url": "https://vermontstudiocenter.org/residency-program",
+          "detail": "佛蒙特州Johnson，提供兩、三或四週時段，含私人工作室、單人房及共用生活空間；有訪問藝術家交流、工作室訪談與寫作諮詢。食宿包含範圍及總價以錄取方案確認。"
+        },
+        {
+          "name": "Yaddo｜藝術家與作家駐村",
+          "kind": "徵選駐村",
+          "fit": "已有可供評審作品的藝術家與寫作者；依作品品質審核。",
+          "status": "冬季輪11月20日開放，12月20日或收滿件數即截止",
+          "fee": "申請費、住宿膳食及個人旅費負擔按當輪指南確認。",
+          "url": "https://yaddo.org/apply/",
+          "detail": "紐約州Saratoga Springs，接待各國創作者；無必須已出版或展演的門檻。冬季輪設1,600件申請上限，需準備完整作品材料，不能只以截止日期規劃。"
+        },
+        {
+          "name": "Headlands Center for the Arts｜Artist in Residence",
+          "kind": "資助徵選駐村",
+          "fit": "不同職涯階段的視覺藝術、影像、寫作、舞蹈、音樂及跨領域創作者。",
+          "status": "按官方公開徵件輪次；下一輪日期另核",
+          "fee": "官網介紹為資助駐村，涵蓋工作室、住宿、餐食、旅行與生活支援；金額及個人支出按當輪核對。",
+          "url": "https://www.headlands.org/program/AIR/",
+          "detail": "加州灣區，通常四至十週，面向本地、美國及國際藝術家。以創作研究和藝術社群交流為主，須提交作品申請，不是初學體驗營。"
+        },
+        {
+          "name": "Djerassi｜跨領域藝術家駐村",
+          "kind": "資助徵選駐村",
+          "fit": "寫作、視覺與媒體藝術、作曲、編舞、電影及藝術科學跨界創作者。",
+          "status": "2027駐村申請已截止",
+          "fee": "官網列駐村本身不向藝術家收費；旅行、申請費及個別支出另按指南確認。",
+          "url": "https://djerassi.org/apply/",
+          "detail": "北加州Santa Cruz Mountains的一個月自主創作駐村。下一輪開放前準備履歷、作品與計畫；獨立的Leonardo合作項目須另核資格。"
+        },
+        {
+          "name": "Ucross｜懷俄明跨領域駐村",
+          "kind": "徵選駐村",
+          "fit": "藝術、寫作、音樂等創作者，接受美國及其他國家申請。",
+          "status": "官網公告2027秋季輪於2026年11月1日開放",
+          "fee": "一般申請費US$40；住宿、工作空間及補助包含範圍依當輪確認。",
+          "url": "https://www.ucrossfoundation.org/residency-program.html",
+          "detail": "北懷俄明地區，駐村通常兩至六週。以獨立創作和同儕交流為主，須按所申領域提交作品與計畫；實際截止時間以申請系統為準。"
+        },
+        {
+          "name": "Millay Arts｜Core Residency",
+          "kind": "資助徵選駐村",
+          "fit": "多領域創作者，作品採匿名評審；可提出雙人合作計畫。",
+          "status": "春秋兩輪徵選；10月輪已結束，下一輪按官網確認",
+          "fee": "一般申請費US$45、逾期申請US$60；錄取後US$100不可退訂金，核心駐村獲補助。",
+          "url": "https://www.millayarts.org/residencies/core-residency/",
+          "detail": "紐約州Steepletop，通常兩週或一個月，提供私人房間與工作室、共用生活空間、食材及集體晚餐。Core與付費Steepletop、冬季Retreat為不同路線。"
+        },
+        {
+          "name": "Ragdale｜跨領域藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "以專業水準持續創作的藝術家；無必須出版或展演的要求。",
+          "status": "2027駐村申請已截止",
+          "fee": "按收入與支付能力的費率及獎助另核；營運成本不等於每位申請人的應繳費用。",
+          "url": "https://www.ragdale.org/residencies",
+          "detail": "伊利諾州Lake Forest，18天，涵蓋舞蹈、音樂、寫作及視覺藝術。提供個人住宿與工作空間，申請需作品、自述、工作計畫及履歷；海外資格與下一輪檔期先確認。"
+        },
+        {
+          "name": "Wassaic Project｜藝術家駐村",
+          "kind": "徵選・分級收費駐村",
+          "fit": "國際藝術家、合作團隊及創作家庭；媒材不限，需自主創作能力。",
+          "status": "2027年度徵件已進入審核，暫無開放申請",
+          "fee": "申請費US$25；2027駐村採US$0–900分級費率，具體時段及單位按通知核對。",
+          "url": "https://www.wassaicproject.org/apply",
+          "detail": "紐約州Wassaic，冬夏工作室配置不同，提供私人臥室、共用房屋與創作交流。可用木工及部分季節版畫設施；家庭與團隊住宿需在申請時提出。"
+        },
+        {
+          "name": "ISCP｜紐約國際工作室與策展駐村",
+          "kind": "徵選駐村・須外部資助",
+          "fit": "具作品與實踐基礎的藝術家或策展人，須取得合適贊助來源。",
+          "status": "Direct Application依官方程序審核，資金落實後才排期",
+          "fee": "不接受藝術家直接自付贊助費，亦不接受眾籌充當贊助；紐約住宿須另安排。",
+          "url": "https://iscp-nyc.org/apply/faq",
+          "detail": "布魯克林國際藝術與策展交流平台。完整申請審核可需兩個月，工作室約提前一年安排；不同國別資助徵件各有資格，不能視為任意自費入駐。"
+        },
+        {
+          "name": "VCCA｜Mt. San Angelo藝術駐村",
+          "kind": "徵選・自費／獎助駐村",
+          "fit": "需要集中創作時間的藝術家、作家及作曲者，依作品與計畫審核。",
+          "status": "美國駐地每年分三輪受理，當輪時段另核",
+          "fee": "駐村費與可申獎助按官方財務條款確認，旅費與材料另列預算。",
+          "url": "https://www.vcca.com/apply/residencies-at-vcca/",
+          "detail": "維吉尼亞州Amherst，提供附獨立浴室的私人房間、個別工作室及每日三餐。此項為美國Mt. San Angelo；法國Le Moulin à Nef及交換計畫另有資格。"
+        },
+        {
+          "name": "Skowhegan｜九週當代藝術夏校",
+          "kind": "藝術夏校・評選制",
+          "fit": "21歲以上、已有持續創作實踐的新進藝術家；接受世界各地及跨媒材申請。",
+          "status": "2027申請已截止；下輪待公布",
+          "fee": "2027學費US$6,000含食宿；可申請獎學金，申請費另計，後續年度須重新核對。",
+          "url": "https://skowheganart.org/school/",
+          "detail": "緬因州Madison的非學位夏校，須完整參加九週。以工作室創作、集體討論、藝術家講座及跨領域實驗為主，沒有固定技法課表；須提交作品資料並經多輪評選。"
+        },
+        {
+          "name": "I-Park｜跨媒材藝術駐村",
+          "kind": "藝術駐村・評選制",
+          "fit": "能獨立推進創作計畫的藝術家與設計者；非初學者技法班。",
+          "status": "2026一般駐村不公開徵件；下一輪及海外資格待新簡章確認",
+          "fee": "一般駐村為資助項目；下一輪申請費、交通及材料負擔須按新簡章核對。",
+          "url": "https://www.i-park.org/artist-residencies/general-residency/",
+          "detail": "康乃狄克州East Haddam自然保護地內的國際藝術駐村，多數梯次約四週、每期六至八位創作者。重視自主工作室實踐與自然環境；一般駐村與僅限州內藝術家的專項徵件分開。"
+        },
+        {
+          "name": "Atlantic Center for the Arts｜導師制跨領域駐村",
+          "kind": "藝術駐村・導師評選",
+          "fit": "21歲以上、有基本英語能力的美國及海外藝術家；視覺、文學及表演領域按導師檔期申請。",
+          "status": "按導師、梯次及各自截止日期申請",
+          "fee": "官網列三週US$1,350含食宿，一般申請費US$25；交通及材料自理，獎學金另申請。",
+          "url": "https://atlanticcenterforthearts.org/residencies/mair-program/associate-artist-application-information/",
+          "detail": "佛羅里達州New Smyrna Beach，三週以創作過程及跨領域交流為核心。申請人選擇合作導師，由導師訂定材料要求並評選；可由最多兩人的創作團隊申請，工作室共用。"
+        },
+        {
+          "name": "The Studios at MASS MoCA｜視覺藝術與寫作駐村",
+          "kind": "藝術駐村・評選制",
+          "fit": "全球不同職涯階段的視覺藝術家與寫作者；適合安靜工作及不產生強烈氣味的媒材。",
+          "status": "按官方四季徵件日程；2027下半年梯次截止日為2026年11月1日",
+          "fee": "申請免費；駐村費及全額或部分資助依錄取通知，提前申請類別不參與館方助學金評選。",
+          "url": "https://massmoca.org/studios/",
+          "detail": "麻薩諸塞州North Adams，兩週或四週；提供私人工作室、共用公寓中的私人臥室及每日一餐團體餐。可參加策展人工作室訪談與職涯課程；空間不適合舞蹈排練或高噪音音樂創作。"
         }
       ]
     },
@@ -422,6 +1872,132 @@
           "fee": "課程、住宿與膳食及可申助學金見當期費用表；核准前按自費預算。",
           "url": "https://www.banffcentre.ca/programs/visual-arts/visual-arts-embodied-making-performance-art-images-and-objects",
           "detail": "2027年7月5日至8月6日，共5週，須全程參加。結合表演、影像與物件，含工作室實驗及導師活動。"
+        },
+        {
+          "name": "OCAD University｜藝術、設計與媒體短課",
+          "kind": "藝術短課",
+          "fit": "藝術興趣、設計技能及創作進修者；依課程程度選擇。",
+          "status": "按官方持續進修目錄及學期報名",
+          "fee": "每班獨立學費，材料、食宿及交通另核。",
+          "url": "https://www.ocadu.ca/academics/school-continuing-studies",
+          "detail": "多倫多校園設週末與晚間現場課，亦有線上班；赴加拿大須選現場課並確認海外接收、課程長度與英語溝通要求，短課不等同學位錄取。"
+        },
+        {
+          "name": "Emily Carr University｜藝術與設計短課",
+          "kind": "藝術短課",
+          "fit": "不同學習階段的藝術與設計進修者，從個別短課選起。",
+          "status": "按Continuing Studies課程目錄開班",
+          "fee": "學費按課程及時數；材料、住宿與交通另計。",
+          "url": "https://ecuad.ca/continuing-studies/",
+          "detail": "溫哥華藝術大學的持續進修課程，與完整證書及學位分開。選課前核對現場／網課、先備技巧、授課語言與海外短期參加資格。"
+        },
+        {
+          "name": "NSCAD｜藝術與工藝Extended Studies",
+          "kind": "藝術短課",
+          "fit": "藝術、工藝、設計、媒體藝術及藝術史興趣者；按成人與青少年組別選班。",
+          "status": "依官方當期課程目錄",
+          "fee": "每班學費與材料費不同，住宿膳食不預設包含。",
+          "url": "https://make.nscad.ca/",
+          "detail": "哈利法克斯藝術大學的非學位進修入口，提供不同年齡與程度課程。海外參加者先確認現場上課地點、完整課期和接收資格，勿混用青少年或線上課程。"
+        },
+        {
+          "name": "Toronto School of Art｜繪畫與綜合藝術短課",
+          "kind": "藝術短課",
+          "fit": "初學至有經驗者，可選繪畫、版畫、陶藝、數位及混合媒材。",
+          "status": "按一日、多日工作坊及學期班選擇",
+          "fee": "逐班收費，部分另有材料費；住宿交通自理。",
+          "url": "https://tsa-art.com/courses/",
+          "detail": "多倫多藝術學校，課程有不同程度與時長。海外短期旅程以可完整出席的現場工作坊為優先，報名前確認年齡與語言要求。"
+        },
+        {
+          "name": "Haliburton School of Art and Design｜藝術與工藝短課",
+          "kind": "藝術短課",
+          "fit": "繪畫、素描、工藝、設計與攝影進修；按班別基礎要求選擇。",
+          "status": "新課程及日期陸續公布，按課程日曆確認",
+          "fee": "學費按班別；可另查校園住宿，材料與膳食包含範圍另核。",
+          "url": "https://flemingcollege.ca/school/haliburton-school-of-art-and-design/course-calendar",
+          "detail": "Fleming College的Haliburton校區，提供藝術短期進修與校園創作環境。短課與全日文憑課程分開，海外資格、學費及完整日期須按所選班別確認。"
+        },
+        {
+          "name": "Ottawa School of Art｜成人藝術課程",
+          "kind": "藝術短課",
+          "fit": "素描、繪畫、雕塑、數位藝術等興趣與進修者；依程度選班。",
+          "status": "按學期、校區及工作坊日期報名",
+          "fee": "課程費及會員費分開核對；助學金有資格和申請時限。",
+          "url": "https://www.artottawa.ca/programs",
+          "detail": "渥太華校區各有課表，成人一般課與文憑課程分開。海外短遊先核對授課語言、班別長度、名額與是否能全程參加，食宿交通另作安排。"
+        },
+        {
+          "name": "Art Gallery of Ontario｜成人藝術工作坊",
+          "kind": "美術館藝術短課",
+          "fit": "不同程度的成人藝術愛好者，按當期課程內容選擇。",
+          "status": "依美術館課程目錄及可售名額",
+          "fee": "按課程及會員身分核對價格；材料包含範圍逐班確認。",
+          "url": "https://ago.ca/learn/courses",
+          "detail": "多倫多安大略美術館的Gallery School課程，適合把藝術實作與看展安排結合。不是住宿營，海外參加資格、上課語言和年齡規則須在付款前確認。"
+        },
+        {
+          "name": "KIAC｜育空Dawson City藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "藝術家及策展人，涵蓋多種媒材；有接待加拿大及國際創作者的計畫。",
+          "status": "依年度公開徵件，最新檔期與截止日另核",
+          "fee": "住宿、工作室、補助與旅費負擔依當輪條款確認。",
+          "url": "https://kiac.ca/artist-in-residence-program/residence-application-guidelines/",
+          "detail": "Klondike Institute of Art & Culture於Dawson City支持新作及持續研究。地處育空，須另評估交通、季節環境和材料運輸；勿與日本同縮寫的KIAC混淆。"
+        },
+        {
+          "name": "Fogo Island Arts｜紐芬蘭當代藝術駐村",
+          "kind": "徵選／邀請駐村",
+          "fit": "具專業訓練、同儕認可及公開發表經驗的當代藝術家、策展人與寫作者。",
+          "status": "2026秋季輪已截止；後續公開徵件另核",
+          "fee": "食物、旅費、燃油、保險等可能須自付；各輪支持及申請費另確認。",
+          "url": "https://www.fogoislandarts.ca/residencies/",
+          "detail": "駐地位於Fogo Island，提供村落住宅，按需要安排創作工作室。透過公開徵選、合作及邀請選人；指定加拿大青年策展人等合作獎項不能套用所有海外申請者。"
+        },
+        {
+          "name": "Est-Nord-Est｜八週視覺藝術駐村",
+          "kind": "資助徵選駐村",
+          "fit": "新銳或成熟專業視覺藝術家，接受魁北克、加拿大及國際申請。",
+          "status": "官方已公布2027–2028輪，提交前核對截止日",
+          "fee": "當輪列C$2,080酬金及住用工作室；材料、旅費和其他生活支出自理。",
+          "url": "https://estnordest.org/en/artist-residency/artist-residency-regular/",
+          "detail": "魁北克Saint-Jean-Port-Joli，每期八週，提供木工、金工、陶藝設備和技術支援，須全程參加及公開交流。夏季策展場次有主題與優先資格，需另讀條款。"
+        },
+        {
+          "name": "St. Michael’s Printshop｜訪問版畫藝術家駐村",
+          "kind": "徵選駐村",
+          "fit": "已有版畫創作及分享能力的藝術家，接受加拿大與國際申請。",
+          "status": "官網目前未接收提案，等待下一輪",
+          "fee": "錄取者獲駐村酬金及工作室使用；旅行、住宿、材料和金額按下輪確認。",
+          "url": "https://www.stmichaelsprintshop.com/visiting-artist-program/",
+          "detail": "紐芬蘭St. John’s，一個月，全年約六位訪問藝術家。需舉辦社群活動或工作坊、提供導師交流，並按條款提交駐村期間完成的版畫。"
+        },
+        {
+          "name": "Gushul｜藝術工作室與作家小屋駐村",
+          "kind": "自費駐村・申請審核",
+          "fit": "各職涯階段的專業藝術家、寫作者與研究者，須有作品或研究實踐。",
+          "status": "全年受理；不同房舍空位須查即時表",
+          "fee": "藝術工作室每月C$1,500／半月C$870；作家小屋每月C$980／半月C$610，含GST；食物、旅費及材料自理。",
+          "url": "https://www.ulethbridge.ca/fine-arts/community/gushul-residencies",
+          "detail": "University of Lethbridge管理，實際駐地在阿爾伯塔Blairmore。通常一至四個月，亦可申半月；申請須履歷、創作提案及作品。大學內部獎項與一般公開自費路線分開。"
+        },
+        {
+          "name": "Open Studio｜多倫多短期版畫駐村",
+          "kind": "自費版畫駐村",
+          "fit": "已有版畫技術、能安全獨立操作共用工作室的外地藝術家。",
+          "status": "以電郵詢問日期及工作室容量",
+          "fee": "兩週C$400、一個月C$700，另加HST；技術支援、網版與石版租用可另收費。",
+          "url": "https://openstudio.ca/residencies/",
+          "detail": "面向加拿大及國際訪問版畫家，提供入場導覽、24小時工作室、部分耗材和儲物空間。此方案不列住宿；先附日期、計畫和版畫經驗詢問。"
+        },
+        {
+          "name": "Eastern Edge｜St. John’s工作室駐村",
+          "kind": "徵選駐村・長期準備選項",
+          "fit": "各職涯階段的國際藝術家、藝術團體與策展人，可在共用空間工作。",
+          "status": "2028–2029輪已截止；官網明示2027不徵件，下輪2028開放",
+          "fee": "按CARFAC標準支付藝術家費，旅行及住宿補助有限；下一輪金額另核。",
+          "url": "https://easternedge.ca/residency-submissions/",
+          "detail": "紐芬蘭St. John’s，通常六週，提供開放式工作室指定區域，須每週至少20小時在工作室創作。空間不適合需特殊通風、揚塵或大量噪音的技法，不列為近期可報名方案。"
         }
       ]
     },
@@ -438,6 +2014,132 @@
           "fee": "官網列原價A$1,030、早鳥A$927；優惠資格與結帳價須確認。",
           "url": "https://shop.nas.edu.au/pages/courses",
           "detail": "雪梨Darlinghurst校園，5天工作坊。住宿、交通與材料清單另核；短課不等同可申學生簽證的完整課程。"
+        },
+        {
+          "name": "NGV Art School｜墨爾本美術館藝術短課",
+          "kind": "藝術短課",
+          "fit": "不同程度的藝術興趣者；總覽說明無需先備知識，仍按具體班別選擇。",
+          "status": "按現場短課公告；本次查看的11月素描及藍曬班已額滿",
+          "fee": "逐班收費，會員與一般票價須分開；住宿及交通自理。",
+          "url": "https://www.ngv.vic.gov.au/learn/art-school/",
+          "detail": "維多利亞國立美術館的展廳與教學工作室授課，包括一日密集班及多週短課。另有純網課，安排遊學時應選In-person courses。"
+        },
+        {
+          "name": "Adelaide Central School of Art｜短課與夏校",
+          "kind": "藝術短課",
+          "fit": "一般短課16歲以上，涵蓋初學至進階；青少年班另分組。",
+          "status": "2027夏校目錄：1月13日至2月6日，逐班核對日期",
+          "fee": "依班別報價；除另有註明，材料不包含在學費內。",
+          "url": "https://acsa.sa.edu.au/study/short-courses-page/",
+          "detail": "阿德萊德工作室教學，包含素描、油畫、水彩、版畫、陶藝與雕塑。並非整段夏校須全修；選定課程後核對程度、語言及海外短期參與安排。"
+        },
+        {
+          "name": "NIDA Open｜Lab Series舞台與影像密集班",
+          "kind": "表演及舞台設計短課",
+          "fit": "成人18歲以上；青年演員班15–18歲，須有相應英語能力。",
+          "status": "一般於1月及7月舉行，當期課程與名額逐班查詢",
+          "fee": "學費依表演、設計或技術製作班別；食宿及交通另計。",
+          "url": "https://www.open.nida.edu.au/lab-series/",
+          "detail": "雪梨校園兩至三週密集課，方向包括舞台與鏡頭表演、佈景服裝、舞台技術。官方明確接收國際參加者；不同年齡及程度選項分開，不等同學位錄取。"
+        },
+        {
+          "name": "JamFactory｜珠寶、陶藝與玻璃短課",
+          "kind": "工藝短課",
+          "fit": "初學或進階依班別；所核對的珠寶課為18歲以上。",
+          "status": "按阿德萊德及Seppeltsfield課表，部分班已額滿",
+          "fee": "例如2026年11月琺瑯珠寶兩日班A$375含所列材料；其他課程另價。",
+          "url": "https://www.jamfactory.com.au/short-courses",
+          "detail": "銀飾、金工、陶藝、家具與玻璃各有課程。可選單日、週末或多週班；進階鑲嵌班要求已完成入門課或有基礎技術，住宿不包含。"
+        },
+        {
+          "name": "Canberra Glassworks｜玻璃藝術工作坊",
+          "kind": "玻璃藝術短課",
+          "fit": "零基礎至有經驗者；按技法、年齡與工作室安全要求選班。",
+          "status": "短課與體驗由官方預訂系統顯示日期",
+          "fee": "依吹製、窯熔、燈工、鑄造等課程報價，材料與成品領取安排另核。",
+          "url": "https://canberraglassworks.com/classes-tours/",
+          "detail": "坎培拉Kingston的專業玻璃工作室，提供由藝術家帶領的實作。初學短課與專業Masterclass分開，先確認課程程度、英語指導及冷卻後作品交付時間。"
+        },
+        {
+          "name": "Australian Tapestry Workshop｜墨爾本織毯短課",
+          "kind": "紡織藝術短課",
+          "fit": "希望學習織毯、織機與色彩的初學者；進階技法班另有要求。",
+          "status": "現場工作坊按日期報名；2026年11月有基礎及中階活動",
+          "fee": "依課程收費，核對織框、紗線及工具包含範圍；住宿另計。",
+          "url": "https://www.austapestry.com.au/learn",
+          "detail": "南墨爾本專業織毯工坊，課程由織師設計，涵蓋基礎編織、圖案、材質及進階交錯技法。免費導覽與付費實作課是不同活動。"
+        },
+        {
+          "name": "Bundanon｜跨領域藝術家駐村",
+          "kind": "徵選駐村",
+          "fit": "18歲以上專業藝術家、策展人與研究者，接受澳洲及國際申請者。",
+          "status": "2027輪已截止；2028輪預計2027年初開放",
+          "fee": "申請與駐村免費；交通、餐食、設備及材料由本人負擔。",
+          "url": "https://www.bundanon.com.au/residencies/",
+          "detail": "新南威爾斯州Shoalhaven，提供住宿及工作室／排練空間，常見1至3週。適合自主創作，過去5年曾在Bundanon駐村者不符本輪資格；須能在偏遠場地自理。"
+        },
+        {
+          "name": "Walyalup Fremantle Arts Centre｜成人藝術短課",
+          "kind": "藝術短課",
+          "fit": "依課程分初學及進階，涵蓋陶藝、素描、版畫與繪畫。",
+          "status": "按學期及週末班報名，已開始與額滿班不能直接插班",
+          "fee": "當期課表逐班列澳元價格，材料及燒窯費按班核對。",
+          "url": "https://wfac.org.au/art-classes/adults/",
+          "detail": "西澳Fremantle藝術中心，成人課有程度及媒材篩選。選短期停留可全程出席的課程，海外接收、英語及住宿需另行確認。"
+        },
+        {
+          "name": "Baldessin Studio｜維多利亞版畫工作坊",
+          "kind": "版畫短課／自費駐村",
+          "fit": "版畫初學及有經驗創作者；進階班須核對先備技巧。",
+          "status": "2026及2027工作坊目錄已列，逐班確認空位",
+          "fee": "目錄多個2027兩日入門班A$650；長班及自費住宿駐村另價。",
+          "url": "https://baldessinpress.com.au/upcoming-workshops",
+          "detail": "位於St Andrews，提供木版、蝕刻、單版及攝影凹版等小班教學，另可詢問個別指導與自費駐村。工作坊與住宿應分項報價。"
+        },
+        {
+          "name": "UniSQ McGregor School｜圖文巴夏季藝術工作坊",
+          "kind": "藝術夏校",
+          "fit": "藝術愛好者與創作者，按導師課程核對程度及適用年齡。",
+          "status": "2027年1月18–22日，官方已開放報名",
+          "fee": "學費及材料依所選工作坊；住宿與交通按報名條款另核。",
+          "url": "https://www.unisq.edu.au/events/mcgregor-school",
+          "detail": "南昆士蘭大學Toowoomba校區的五日密集藝術學習。由藝術家帶領實作，先選完整工作坊，再確認海外參加、語言及所需材料。"
+        },
+        {
+          "name": "Hazelhurst｜雪梨藝術短課與工作坊",
+          "kind": "藝術短課",
+          "fit": "成人按媒材與程度選課；兒童及學校假期班分開。",
+          "status": "2027第一學期2月1日至4月10日；11月30日開放報名",
+          "fee": "逐班學費，材料及模型費按課程說明；住宿交通自理。",
+          "url": "https://hazelhurst.sutherlandshire.nsw.gov.au/art-classes/term-classes-for-adults/short-courses-and-workshops",
+          "detail": "位於Gymea的美術館與花園，成人課涵蓋陶藝、版畫、水彩及雕塑等。短課與整學期班的出席要求不同，安排遊學須選日期匹配的班別。"
+        },
+        {
+          "name": "Julian Ashton Art School｜雪梨素描與繪畫工作坊",
+          "kind": "藝術短課",
+          "fit": "初學者或已有繪畫經驗者，按工作坊內容選擇。",
+          "status": "官方工作坊目錄更新日期，名額逐班確認",
+          "fee": "逐班報價，畫材、模特兒費及退款條款按報名頁核對。",
+          "url": "https://julianashtonartschool.com.au/?page_id=15808",
+          "detail": "包括素描、繪畫、油畫及靜物等實作工作坊；部分課程在The Rocks校區。與全日制藝術課程分開，海外短期報名及英語指導先確認。"
+        },
+        {
+          "name": "Willoughby Arts Centre｜雪梨藝術工作坊",
+          "kind": "藝術短課",
+          "fit": "藝術興趣者與有經驗學員，成人及兒童班按年齡分開。",
+          "status": "按學期及工作坊日曆報名，短期入境者先核對全程出席",
+          "fee": "依課程收費；陶藝有些班含指定燒窯費，其餘材料另核。",
+          "url": "https://willoughbyarts.org.au/courses",
+          "detail": "雪梨獨立非營利藝術中心，設陶藝、繪畫等專業教室。部分課程連續9週，另有工作坊；不要把多週課當作一次性體驗。"
+        },
+        {
+          "name": "Byron School of Art｜Mullumbimby藝術短課",
+          "kind": "藝術短課",
+          "fit": "短期訪客、藝術愛好者及希望發展創作的人，依班別選程度。",
+          "status": "全年有短課及週末工作坊，按最新目錄確認",
+          "fee": "每班費用與材料清單不同，住宿及交通另計。",
+          "url": "https://www.byronschoolofart.com/visual-arts-courses",
+          "detail": "新南威爾斯州Mullumbimby，提供視覺藝術短課、週末及夜間課。短課與一至三年長期課程分開；可按繪畫、綜合媒材等方向安排。"
         }
       ]
     }
