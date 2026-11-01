@@ -14,6 +14,7 @@ const groups=[
       ["台灣藝術與設計升學", "/zh/services/taiwan-art-design-admissions/", "台灣本地高中與高職選系、統測／學測／術科、作品集及備審。"],
       ["音樂留學規劃", "/zh/subject-planning/music/", "本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
       ["德國雙元制", "/zh/services/germany-ausbildung/", "職業培訓、德語、申請材料及中介合約查核。"],
+      ["日本 SGU／英語學位", "/zh/services/japan-sgu-planning/", "本科與碩博選校、申請材料、語言準備及畢業去向。"],
       ["日本大學院選校與申請規劃", "/zh/services/japan-graduate-application/", "修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
       ["韓國中小學申請", "/zh/countries/south-korea/#korea-apply", "30 所學校／校區、資格、申請材料與 OTC 代辦。"],
       ["韓國碩士申請", "/zh/services/korea-masters-application/", "藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
