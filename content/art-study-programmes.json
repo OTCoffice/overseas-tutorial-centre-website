@@ -48,7 +48,8 @@
           "status": "按班別開課",
           "fee": "每班學費不同；材料、住宿與旅行費分開核對。",
           "url": "https://www.arts.ac.uk/study-at-ual/short-courses/on-campus-short-courses",
-          "detail": "課程目錄不是單一學位；核對成人／青少年班、英語要求與上課校區。"
+          "detail": "課程目錄不是單一學位；核對成人／青少年班、英語要求與上課校區。",
+          "subregion": "倫敦"
         },
         {
           "name": "RCA 皇家藝術學院｜Architecture Summer School",
@@ -57,7 +58,138 @@
           "status": "2027日期待公布",
           "fee": "2027學費待公布；住宿不視為包含。",
           "url": "https://www.rca.ac.uk/study/short-courses/rca-in-person-short-courses/",
-          "detail": "可先登記興趣。設計工作室、觀察與講座；短課不等同RCA學位錄取。"
+          "detail": "可先登記興趣。設計工作室、觀察與講座；短課不等同RCA學位錄取。",
+          "subregion": "倫敦"
+        },
+        {
+          "name": "Royal Drawing School｜公開素描短課",
+          "subregion": "倫敦",
+          "kind": "藝術短課",
+          "fit": "成人素描與觀察繪畫；按班別選程度。",
+          "status": "按學期開課，另有短期班",
+          "fee": "學費按班別及堂數；現場課住宿與交通另計。",
+          "url": "https://royaldrawingschool.org/courses/5-and-10-week-drawing-courses",
+          "detail": "公開短課與Drawing Year獎學金課程分開；確認現場或網課、上課地點及能否全程出席。"
+        },
+        {
+          "name": "City & Guilds of London Art School｜藝術夏校",
+          "subregion": "倫敦",
+          "kind": "藝術短課",
+          "fit": "按媒材與課程挑選，先核對有無先備技巧要求。",
+          "status": "依官方短課及夏校檔期",
+          "fee": "逐班報價；校友優惠不能直接套用一般海外申請人。",
+          "url": "https://www.cityandguildsartschool.ac.uk/london-art-summer-school/",
+          "detail": "從校方頁面進入指定報名系統，核對課時、材料與退款；未公布的2027夏校不列為已開放。"
+        },
+        {
+          "name": "The Place｜芭蕾與當代舞入門課",
+          "subregion": "倫敦",
+          "kind": "舞蹈短課",
+          "fit": "成人初學者，從芭蕾或當代舞基礎開始。",
+          "status": "依學期及課表報名",
+          "fee": "按課程或系列收費；會員年費不是舞蹈學費。",
+          "url": "https://theplace.org.uk/intro-dance-classes/",
+          "detail": "先選Introduction程度，再確認連續上課週數、英語溝通及身體活動要求。不是住宿夏令營。"
+        },
+        {
+          "name": "Trinity Laban｜Ballet Introduction",
+          "subregion": "倫敦",
+          "kind": "舞蹈短課",
+          "fit": "無芭蕾經驗或經驗有限的成人。",
+          "status": "2026秋季第二段：11月5日至12月10日",
+          "fee": "6週普通價£80、優惠價£68；優惠須符合資格。",
+          "url": "https://www.trinitylaban.ac.uk/whats-on/ballet-introduction/",
+          "detail": "每週四18:45–20:15，按5或6堂整段報名，不接受單堂隨到隨上。完全初學者官方建議從學期Block 1開始；下一學期檔期待公布。除校方取消外費用不退。"
+        },
+        {
+          "name": "West Dean｜藝術、設計與工藝短課",
+          "subregion": "英格蘭其他地區",
+          "kind": "藝術短課",
+          "fit": "初學者及已有經驗者；繪畫、工藝與設計按程度選課。",
+          "status": "全年課程目錄，按日期選班",
+          "fee": "課費逐班列出；West Dean House住宿另行預訂，材料另核。",
+          "url": "https://www.westdean.ac.uk/short-courses",
+          "detail": "主校區位於西薩塞克斯，部分課程地點不同。課程與住宿分開確認，短課不自動包含餐食或接送。"
+        },
+        {
+          "name": "St Ives School of Painting｜繪畫短課",
+          "subregion": "英格蘭其他地區",
+          "kind": "藝術短課",
+          "fit": "零基礎至有經驗者；可選風景、人物、油畫或混合媒材。",
+          "status": "按工作坊及短課檔期",
+          "fee": "學費依課長與媒材；住宿、交通和材料包含範圍按班核對。",
+          "url": "https://www.schoolofpainting.co.uk/beginners/",
+          "detail": "康沃爾St Ives現場教學；有數小時、一天及多日選項，注意不要誤選線上課。"
+        },
+        {
+          "name": "Leith School of Art｜短課與夏校",
+          "subregion": "蘇格蘭",
+          "kind": "藝術短課",
+          "fit": "愛丁堡繪畫及藝術課程；夏校有初學至進階選項。",
+          "status": "日間、週末及夏校分別報名",
+          "fee": "按課程報價；材料、住宿另核，社會福利優惠須符合資格。",
+          "url": "https://leithschoolofart.ac.uk/course-types/short-courses",
+          "detail": "夏校通常以週為單位；日間與週末班另有安排。藝術一年課與短課要求不同，按預計停留時長選擇。"
+        },
+        {
+          "name": "Glasgow School of Art｜Open Studio",
+          "subregion": "蘇格蘭",
+          "kind": "藝術短課",
+          "fit": "成人藝術興趣、技巧進修與作品集準備，按程度選班。",
+          "status": "日間、週末及晚間課，依學期排課",
+          "fee": "按班別收費；成人與青少年課程價格及資格分開。",
+          "url": "https://www.gsa.ac.uk/study-at-the-gsa/open-studio",
+          "detail": "格拉斯哥藝術學院的非學位短課；不少班別跨數週，海外短遊須先確認能否完整上課。"
+        },
+        {
+          "name": "Dundee Contemporary Arts｜版畫工作坊",
+          "subregion": "蘇格蘭",
+          "kind": "藝術短課",
+          "fit": "版畫初學及進階創作者；依印刷技法選課。",
+          "status": "已公布2026年10月至2027年3月課程",
+          "fee": "依技法與課時收費；獨立使用工作室的註冊與使用費另核。",
+          "url": "https://www.dca.org.uk/news/get-creative-in-dca-print-studio-october-2026-march-2027/",
+          "detail": "鄧迪Print Studio。完成課程不等於可無限制使用所有設備；註冊及技術認可須向工作室確認。"
+        },
+        {
+          "name": "Edinburgh Printmakers｜版畫課程與工作坊",
+          "subregion": "蘇格蘭",
+          "kind": "藝術短課",
+          "fit": "適合入門、週末體驗及已有版畫經驗者，按具體班別選擇。",
+          "status": "課程目錄及報名系統顯示檔期",
+          "fee": "每班獨立價格；工作室會員及獨立使用安排另計。",
+          "url": "https://edinburghprintmakers.co.uk/studio/courses",
+          "detail": "愛丁堡現場課；最低年齡與前置技能因課程不同，不能把進階課當作零基礎體驗。"
+        },
+        {
+          "name": "Glasgow Print Studio｜成人版畫課",
+          "subregion": "蘇格蘭",
+          "kind": "藝術短課",
+          "fit": "初級／重溫班無需版畫經驗，另有進階課。",
+          "status": "按技法與日期報名",
+          "fee": "在官方Book a Course系統查當期學費；材料及會員使用費另核。",
+          "url": "https://glasgowprintstudio.co.uk/Learning/Courses",
+          "detail": "包括蝕刻、木刻、絲網印刷等。成人與13–17歲青少年課分開；進階課需相應基礎。"
+        },
+        {
+          "name": "Cove Park｜Open Residencies",
+          "subregion": "蘇格蘭",
+          "kind": "自費駐村",
+          "fit": "各創作領域及職涯階段的藝術家、寫作者與研究者。",
+          "status": "全年滾動接受申請",
+          "fee": "按停留長度、季節及個人／機構身分報價，無統一公開價。",
+          "url": "https://covepark.org/apply-for-an-open-residency/",
+          "detail": "位於Argyll & Bute。自行或由機構負擔費用；與限制資格的Awarded Residencies不同。先交詢問表確認日期、住宿工作空間、膳食及總費用。"
+        },
+        {
+          "name": "Tŷ Newydd｜創意寫作住宿課與Retreat",
+          "subregion": "威爾斯",
+          "kind": "寫作短課／創作靜修",
+          "fit": "初學者至已出版作者；英語與威爾斯語班分開選。",
+          "status": "週末、週課及無導師Retreat按檔期",
+          "fee": "按課程和房型報價，確認住宿、餐食及導師內容；交通另計。",
+          "url": "https://tynewydd.wales/courses-retreats/course-types/",
+          "detail": "北威爾斯Llanystumdwy。住宿週課通常週一晚至週五早；Retreat可無導師，不等同教學課。需能以所選語言參與寫作與討論。"
         }
       ]
     },
