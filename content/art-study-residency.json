@@ -2,15 +2,15 @@
   "path": "/zh/services/art-study-residency/",
   "name": "藝術遊學與國際駐村",
   "titleZh": "藝術遊學與國際駐村｜海外督導 OTC",
-  "summaryZh": "14國26項藝術短課與國際駐村，按歐洲、亞洲、美洲及大洋洲分類；比較資格、費用、檔期與申請安排。",
+  "summaryZh": "14國39項藝術短課與國際駐村，按歐洲、亞洲、美洲及大洋洲分類；比較資格、費用、檔期與申請安排。",
   "shareImageZh": "/assets/social/art-study-residency-share-20261101.png",
-  "socialImageVersion": "v=20261101-global26",
+  "socialImageVersion": "v=20261101-global39",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
   "sections": [
     {
       "heading": "課程與駐村",
-      "html": "<p>想學技巧，選有老師授課的藝術短課；已有作品和計畫，選創作駐村。超過30歲、非在校生仍有選擇，但專業徵選與興趣體驗要求不同。</p><p><strong>26個項目・14個國家・4個地區</strong>｜包含課程系列及獨立駐村計畫；不是26個即時可報名名額。點國家查看資格、費用及狀態。</p>"
+      "html": "<p>想學技巧，選有老師授課的藝術短課；已有作品和計畫，選創作駐村。超過30歲、非在校生仍有選擇，但專業徵選與興趣體驗要求不同。</p><p><strong>39個項目・14個國家・4個地區</strong>｜包含課程系列及獨立駐村計畫；不是39個即時可報名名額。點國家查看資格、費用及狀態。</p>"
     },
     {
       "heading": "申根地區入境安排",
