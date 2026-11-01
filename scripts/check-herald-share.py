@@ -36,12 +36,19 @@ def verify(text,a,base,locale='zh'):
     assert a.get(field),'Article source must explicitly set '+field
     assert urlsplit(image).path==urlsplit(a[field]).path,'Source image and metadata differ'
     assert a.get('socialImageVersion'),'Explicit image revision required'
+    # Explicit share-only pages follow the 2026-10-31 rule: keep the original
+    # page header and verify the social image without inserting it in the body.
+    share_only=a.get('socialImageSource')=='share-only'
     candidates=p.captured_heroes if a.get('socialImageSource')=='page-hero' else p.images
     hero=[x for x in candidates if urljoin(expected,x.get('src',''))==image]
-    assert hero and hero[0].get('alt'),'Same image must render in article with alt'
+    if not share_only:
+        assert hero and hero[0].get('alt'),'Same image must render in article with alt'
+    else:
+        one('og:image:alt');one('twitter:image:alt')
     assert one('og:image:type') in ('image/png','image/jpeg')
     dims=(int(one('og:image:width')),int(one('og:image:height')))
-    assert dims==(int(hero[0].get('width',0)),int(hero[0].get('height',0))),'Hero dimensions differ'
+    if not share_only:
+        assert dims==(int(hero[0].get('width',0)),int(hero[0].get('height',0))),'Hero dimensions differ'
     assert dims==(a['socialImageWidth'],a['socialImageHeight']),'Source dimensions differ'
     return image,dims,one('og:image:type')
 
@@ -72,7 +79,7 @@ def main():
         image,dims,mime=verify((ROOT/route[1:]/'index.html').read_text(),a,arg.base,arg.locale)
         data=(ROOT/urlsplit(image).path[1:]).read_bytes();assert image_size(data)==(dims,mime)
         assert len(data)<5_000_000,'Image exceeds 5 MB'
-        print('PASS local: visible cover, source, metadata, image bytes and dimensions')
+        print('PASS local:', 'share-only image' if a.get('socialImageSource')=='share-only' else 'visible cover', '+ source, metadata, image bytes and dimensions')
     else:
         from urllib.robotparser import RobotFileParser
         for ua in ['Mozilla/5.0','Twitterbot/1.0']:
