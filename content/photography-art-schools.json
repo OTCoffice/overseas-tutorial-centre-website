@@ -1,0 +1,643 @@
+[
+  {
+    "country": "英國",
+    "name": "皇家藝術學院 RCA",
+    "focus": "攝影與當代藝術",
+    "bachelor": "",
+    "master": "MA Photography",
+    "doctor": "MPhil/PhD Arts & Humanities（研究方向配對）",
+    "sources": [
+      "https://www.rca.ac.uk/study/programme-finder/photography-ma/",
+      "https://www.rca.ac.uk/research-innovation/research-degrees/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "倫敦藝術大學 UAL",
+    "focus": "純藝術攝影、攝影書與展覽",
+    "bachelor": "BA Fine Art: Photography／BA Photography",
+    "master": "攝影類碩士，按學院選方向",
+    "doctor": "MPhil/PhD；含攝影與攝影新聞研究",
+    "sources": [
+      "https://www.arts.ac.uk/subjects/fine-art/undergraduate/ba-hons-fine-art-photography-camberwell",
+      "https://www.arts.ac.uk/subjects/photography",
+      "https://www.arts.ac.uk/research/phd-and-mphil-degrees"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "倫敦大學金匠學院 Goldsmiths",
+    "focus": "擴展攝影、檔案與跨媒介",
+    "bachelor": "BA Photography",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://www.gold.ac.uk/ug/ba-photography/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "西敏大學 Westminster",
+    "focus": "攝影與擴展影像",
+    "bachelor": "BA Photography",
+    "master": "MA Expanded Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.westminster.ac.uk/course-search?course=photography"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "布萊頓大學 Brighton",
+    "focus": "攝影創作與批判研究",
+    "bachelor": "BA Photography",
+    "master": "MA Photography",
+    "doctor": "PhD Arts and Creative Practices（攝影方向）",
+    "sources": [
+      "https://www.brighton.ac.uk/studying-here/subject-areas/art-and-media/photography/index.aspx",
+      "https://www.brighton.ac.uk/research/postgraduate-research-degrees/programme-areas/arts-practices.aspx"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "伯恩茅斯藝術大學 AUB",
+    "focus": "藝術與編輯攝影；課程亦涵蓋商業實務",
+    "bachelor": "BA Photography",
+    "master": "MA Photography",
+    "doctor": "MPhil/PhD；UAL驗證，須有合適導師",
+    "sources": [
+      "https://aub.ac.uk/ba-hons-photography",
+      "https://aub.ac.uk/graduate-courses/ma-photography",
+      "https://aub.ac.uk/graduate-courses/research-degrees"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "創意藝術大學 UCA",
+    "focus": "攝影創作與實踐",
+    "bachelor": "BA Photography",
+    "master": "",
+    "doctor": "MPhil/PhD研究路線；攝影列為研究領域",
+    "sources": [
+      "https://www.uca.ac.uk/study/courses/ba-photography-farnham/",
+      "https://www.uca.ac.uk/research/research-degrees/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "法爾茅斯大學 Falmouth",
+    "focus": "攝影實踐與個人項目",
+    "bachelor": "BA Photography",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://www.falmouth.ac.uk/study/undergraduate/photography"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "格拉斯哥藝術學院 GSA",
+    "focus": "當代純藝術中的攝影",
+    "bachelor": "BA Fine Art Photography",
+    "master": "MRes藝術研究，非獨立攝影碩士",
+    "doctor": "PhD藝術研究；題目與導師另核",
+    "sources": [
+      "https://www.gsa.ac.uk/undergraduate-degrees/fine-art-photography",
+      "https://www.gsa.ac.uk/study-at-the-gsa/postgraduate-research"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "英國",
+    "name": "普利茅斯大學 Plymouth",
+    "focus": "攝影、藝術與媒體研究",
+    "bachelor": "BA Photography",
+    "master": "",
+    "doctor": "PhD Art & Media；明列攝影背景",
+    "sources": [
+      "https://www.plymouth.ac.uk/schools/school-of-art-design-and-architecture",
+      "https://www.plymouth.ac.uk/courses/postgraduate/phd-art-media"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "荷蘭",
+    "name": "海牙皇家藝術學院 KABK",
+    "focus": "攝影書、出版、裝置與社會議題",
+    "bachelor": "Bachelor Photography",
+    "master": "MA Photography & Society",
+    "doctor": "",
+    "sources": [
+      "https://www.kabk.nl/en/programmes/bachelor/photography",
+      "https://www.kabk.nl/en/programmes/master/master-photography-society"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "荷蘭",
+    "name": "里特維爾德藝術學院 Gerrit Rietveld Academie",
+    "focus": "自主觀念攝影與純藝術",
+    "bachelor": "Bachelor Fine Arts & Design：Photography",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://rietveldacademie.nl/en/page/370/bachelor",
+      "https://rietveldacademie.nl/nl/page/389/fotografie"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "芬蘭",
+    "name": "阿爾托大學 Aalto",
+    "focus": "攝影藝術、攝影書與擴展影像",
+    "bachelor": "BA Design and Media（相關路線，非攝影學士）",
+    "master": "MA Photography",
+    "doctor": "Doctor of Arts；攝影研究領域",
+    "sources": [
+      "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design",
+      "https://www.aalto.fi/en/study-options/photography-master-of-arts-art-and-design",
+      "https://research.aalto.fi/en/organisations/photography-research-at-aalto/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "芬蘭",
+    "name": "赫爾辛基藝術大學 Uniarts Helsinki",
+    "focus": "藝術研究、時空與攝影媒介",
+    "bachelor": "",
+    "master": "",
+    "doctor": "Doctoral Programme in Fine Arts（藝術研究）",
+    "sources": [
+      "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-fine-arts/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "瑞典",
+    "name": "哥德堡大學 HDK-Valand",
+    "focus": "攝影作為藝術表達",
+    "bachelor": "Bachelor Photography",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.gu.se/en/hdk-valand/photography",
+      "https://www.gu.se/en/study-gothenburg/master-of-fine-arts-programme-in-photography-k2fot"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "瑞士",
+    "name": "洛桑藝術設計大學 ECAL",
+    "focus": "攝影實驗、影像與出版",
+    "bachelor": "Bachelor Photography",
+    "master": "Master Photography",
+    "doctor": "",
+    "sources": [
+      "https://ecal.ch/en/courses-and-research/bachelor/bachelor-photography/",
+      "https://ecal.ch/en/courses-and-research/master/master-photography/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "瑞士",
+    "name": "蘇黎世藝術大學 ZHdK",
+    "focus": "跨媒介純藝術；須再配對攝影工作室",
+    "bachelor": "Bachelor Fine Arts（相關路線）",
+    "master": "Master Fine Arts（相關路線）",
+    "doctor": "",
+    "sources": [
+      "https://www.zhdk.ch/en/degree-programmes/finearts"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "法國",
+    "name": "阿爾勒國立高等攝影學校 ENSP",
+    "focus": "攝影作者、展覽與出版",
+    "bachelor": "",
+    "master": "ENSP文憑，授予Master等級；三年制",
+    "doctor": "",
+    "sources": [
+      "https://ensp-arles.net/les-formations/le-master/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "法國",
+    "name": "國立路易盧米埃爾高等學校 ENS Louis-Lumière",
+    "focus": "攝影創作、技術與影像文化",
+    "bachelor": "",
+    "master": "Master Photographie",
+    "doctor": "",
+    "sources": [
+      "https://www.ens-louis-lumiere.fr/formations/formation-initiale/master-photographie/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "德國",
+    "name": "福克旺藝術大學 Folkwang",
+    "focus": "攝影實踐、理論與歷史",
+    "bachelor": "BA Fotografie",
+    "master": "MA Photography Studies and Practice／Research",
+    "doctor": "",
+    "sources": [
+      "https://foto.folkwang-uni.de/de/info/studium/",
+      "https://foto.folkwang-uni.de/en/info/studium/studiengaenge/ma-photography-studies-and-research/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "德國",
+    "name": "萊比錫視覺藝術學院 HGB",
+    "focus": "攝影、動態影像與藝術研究",
+    "bachelor": "Fotografie Diplom（長學制，非BA）",
+    "master": "",
+    "doctor": "Promotion：藝術、哲學與文化研究交界",
+    "sources": [
+      "https://www.hgb-leipzig.de/studium/bewerbung/",
+      "https://www.hgb-leipzig.de/studium/studienangebot/"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "挪威",
+    "name": "奧斯陸國立藝術學院 KHiO",
+    "focus": "跨媒介純藝術，非獨立攝影學位",
+    "bachelor": "Bachelor Fine Art（相關路線）",
+    "master": "Master Fine Art（相關路線）",
+    "doctor": "",
+    "sources": [
+      "https://khio.no/studier/sok-opptak",
+      "https://khio.no/studieprogrammer"
+    ],
+    "region": "英國及歐洲"
+  },
+  {
+    "country": "美國",
+    "name": "羅德島設計學院 RISD",
+    "focus": "攝影創作、批評與畢業展",
+    "bachelor": "BFA Photography",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.risd.edu/academics/photography/bachelors-program",
+      "https://www.risd.edu/academics/photography/masters-program"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "芝加哥藝術學院 SAIC",
+    "focus": "跨媒介與攝影批評",
+    "bachelor": "BFA藝術實踐：Photography",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.saic.edu/photography",
+      "https://www.saic.edu/photography/graduate/overview"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "帕森斯設計學院 Parsons／The New School",
+    "focus": "攝影創作與當代視覺文化",
+    "bachelor": "BFA Photography",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.newschool.edu/parsons/bfa-photography/?show=program-curriculum",
+      "https://www.newschool.edu/parsons/mfa-photography-faculty/"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "加州藝術學院 CalArts",
+    "focus": "攝影與媒體實驗",
+    "bachelor": "BFA Photography and Media",
+    "master": "MFA Photography and Media",
+    "doctor": "",
+    "sources": [
+      "https://calarts.edu/academics/programs-and-degrees/bfa-photography-and-media",
+      "https://calarts.edu/academics/programs-and-degrees/mfa-photography-and-media"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "耶魯大學 Yale School of Art",
+    "focus": "攝影作品、批評與個人敘事",
+    "bachelor": "",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://art.yale.edu/program/photography"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學洛杉磯分校 UCLA",
+    "focus": "當代藝術中的攝影媒介",
+    "bachelor": "",
+    "master": "MFA Art：Photography領域",
+    "doctor": "",
+    "sources": [
+      "https://www.art.ucla.edu/areas-of-study/photography/"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "羅徹斯特理工學院 RIT",
+    "focus": "藝術攝影與相關媒介",
+    "bachelor": "BFA Photographic and Imaging Arts：Fine Art Photography",
+    "master": "MFA Photography and Related Media",
+    "doctor": "",
+    "sources": [
+      "https://www.rit.edu/study/photography-film-and-animation",
+      "https://www.rit.edu/artdesign/study/photography-and-related-media-mfa"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "哥倫比亞大學 Columbia",
+    "focus": "跨媒介工作室與攝影",
+    "bachelor": "",
+    "master": "MFA Visual Arts；攝影申請方向",
+    "doctor": "",
+    "sources": [
+      "https://arts.columbia.edu/visual-arts-sound-art",
+      "https://arts.columbia.edu/visual-arts-sound-art/resources"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "維吉尼亞聯邦大學 VCUarts",
+    "focus": "攝影、電影與影像實踐",
+    "bachelor": "BFA Photography and Film：Photography",
+    "master": "MFA Fine Arts：Photography and Film",
+    "doctor": "",
+    "sources": [
+      "https://arts.vcu.edu/program/photography-bfa/",
+      "https://arts.vcu.edu/program/photography-and-film-mfa/"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "美國",
+    "name": "克蘭布魯克藝術學院 Cranbrook",
+    "focus": "工作室攝影與媒介實驗",
+    "bachelor": "",
+    "master": "MFA Photography",
+    "doctor": "",
+    "sources": [
+      "https://cranbrookart.edu/programs/photography/"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "加拿大",
+    "name": "康考迪亞大學 Concordia",
+    "focus": "藝術攝影與個人創作",
+    "bachelor": "BFA Photography",
+    "master": "MFA Studio Arts：Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.concordia.ca/academics/undergraduate/photography.html",
+      "https://www.concordia.ca/finearts/studio-arts/programs/graduate/photography.html"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "加拿大",
+    "name": "安大略藝術設計大學 OCAD U",
+    "focus": "攝影、物質性與藝術實踐",
+    "bachelor": "BFA Photography",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://admissions.ocadu.ca/program/photography"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "加拿大",
+    "name": "多倫多都會大學 TMU",
+    "focus": "攝影與媒體藝術",
+    "bachelor": "BFA Image Arts：Photography Media Arts",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://www.torontomu.ca/programs/undergraduate/photography-media-arts/",
+      "https://www.torontomu.ca/calendar/2026-2027/programs/fcad/image_arts/"
+    ],
+    "region": "北美洲"
+  },
+  {
+    "country": "澳洲",
+    "name": "皇家墨爾本理工大學 RMIT",
+    "focus": "攝影實踐、社會影像與藝術",
+    "bachelor": "Bachelor of Photography",
+    "master": "Master of Photography",
+    "doctor": "",
+    "sources": [
+      "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bp117?QRY=photography",
+      "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-photography-mc270"
+    ],
+    "region": "大洋洲"
+  },
+  {
+    "country": "澳洲",
+    "name": "新南威爾斯大學 UNSW",
+    "focus": "純藝術、動態影像與跨媒介",
+    "bachelor": "Bachelor of Fine Arts（相關路線）",
+    "master": "MFA Research／MPhil（藝術設計）",
+    "doctor": "PhD Art, Design & Media（非獨立攝影博士）",
+    "sources": [
+      "https://www.handbook.unsw.edu.au/undergraduate/programs/2027/4830",
+      "https://www.unsw.edu.au/arts-design-architecture/our-schools/art-design/research/postgraduate-research",
+      "https://www.unsw.edu.au/arts-design-architecture/study-with-us/postgraduate-research/doctor-of-philosophy-phd"
+    ],
+    "region": "大洋洲"
+  },
+  {
+    "country": "澳洲",
+    "name": "澳洲國立大學 ANU",
+    "focus": "視覺藝術中的攝影與媒體製作",
+    "bachelor": "Bachelor of Visual Arts（相關路線）",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://cass.anu.edu.au/study/bachelor-degrees",
+      "https://soad.cass.anu.edu.au/our-facilities/photography-media-arts"
+    ],
+    "region": "大洋洲"
+  },
+  {
+    "country": "紐西蘭",
+    "name": "梅西大學 Massey",
+    "focus": "藝術與攝影、展場及社群實踐",
+    "bachelor": "攝影／純藝術本科路線，按學制選擇",
+    "master": "Master of Fine Arts（相關路線）",
+    "doctor": "PhD Creative Arts：Art and Photography",
+    "sources": [
+      "https://www.massey.ac.nz/study/find-a-subject-course-or-qualification/study-art-and-photography/",
+      "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-fine-arts-PMFNA/",
+      "https://www.massey.ac.nz/study/about-postgraduate-study/phds-and-professional-doctorates/what-you-can-study-as-a-phd-or-professional-doctoral-student/"
+    ],
+    "region": "大洋洲"
+  },
+  {
+    "country": "紐西蘭",
+    "name": "奧克蘭大學 Auckland／Elam",
+    "focus": "攝影、動態影像與藝術研究",
+    "bachelor": "",
+    "master": "Master of Fine Arts（相關路線）",
+    "doctor": "PhD／PhD含創作成果／Doctor of Fine Arts",
+    "sources": [
+      "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-fine-arts-mfa.html",
+      "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/fine-arts/doctoral.html"
+    ],
+    "region": "大洋洲"
+  },
+  {
+    "country": "日本",
+    "name": "東京藝術大學",
+    "focus": "先端藝術與跨媒介；非攝影專科",
+    "bachelor": "先端藝術表現科（相關路線）",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://ima.fa.geidai.ac.jp/",
+      "https://www.geidai.ac.jp/english/art"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "日本",
+    "name": "東京工藝大學",
+    "focus": "攝影作者與影像藝術",
+    "bachelor": "藝術學部寫真學科",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://www.pht.t-kougei.ac.jp/"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "日本",
+    "name": "日本大學藝術學部",
+    "focus": "攝影表現、技術與理論",
+    "bachelor": "寫真學科",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://www.art.nihon-u.ac.jp/education/department/photography/"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "日本",
+    "name": "京都藝術大學",
+    "focus": "攝影、影像與當代藝術",
+    "bachelor": "寫真・映像課程",
+    "master": "Contemporary Art Practice：Photography and Video",
+    "doctor": "",
+    "sources": [
+      "https://www.kyoto-art.ac.jp/department/contemporary/",
+      "https://www.kyoto-art.ac.jp/en/academics/graduate/admission/"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "韓國",
+    "name": "中央大學 Chung-Ang",
+    "focus": "藝術攝影與影像製作",
+    "bachelor": "Photography本科",
+    "master": "",
+    "doctor": "",
+    "sources": [
+      "https://arts.cau.ac.kr/user-datas/en/u_1.asp",
+      "https://cauphoto.co.kr/curriculum/"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "香港",
+    "name": "香港城市大學 CityUHK",
+    "focus": "創意媒體與跨媒介影像",
+    "bachelor": "BA Creative Media（相關路線）",
+    "master": "MA／MFA Creative Media",
+    "doctor": "PhD Creative Media（相關研究）",
+    "sources": [
+      "https://www.scm.cityu.edu.hk/en/programmes"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "香港",
+    "name": "香港浸會大學 HKBU",
+    "focus": "視覺藝術與研究",
+    "bachelor": "BA Visual Arts（相關路線）",
+    "master": "MA Visual Arts／MPhil",
+    "doctor": "PhD Visual Arts（相關研究）",
+    "sources": [
+      "https://admissions.hkbu.edu.hk/programmes/school-of-creative-arts/bachelor-of-arts-hons-in-visual-arts-senior-year.html",
+      "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-visual-arts",
+      "https://gs.hkbu.edu.hk/sc/admission/research-postgraduate-programmes"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "新加坡",
+    "name": "南洋理工大學 NTU／ADM",
+    "focus": "藝術、設計與媒體，含攝影實踐",
+    "bachelor": "BFA Art, Design and Media（相關路線）",
+    "master": "MA by Research（相關研究）",
+    "doctor": "PhD藝術、設計與媒體研究",
+    "sources": [
+      "https://www.ntu.edu.sg/adm",
+      "https://www.ntu.edu.sg/adm/programmes/graduate-admissions/master-of-arts-%28by-research%29",
+      "https://www.ntu.edu.sg/adm/programmes/undergraduate-programmes/bachelor-of-fine-arts-programmes/major-pe-courses"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "台灣",
+    "name": "國立臺灣藝術大學",
+    "focus": "影像與視覺傳達，非攝影專科",
+    "bachelor": "視覺傳達設計學士（相關路線）",
+    "master": "視覺傳達設計碩士（相關路線）",
+    "doctor": "",
+    "sources": [
+      "https://vcd.ntua.edu.tw/zh/node/1"
+    ],
+    "region": "亞洲"
+  },
+  {
+    "country": "台灣",
+    "name": "國立臺北藝術大學",
+    "focus": "新媒體與藝術影像，非攝影專科",
+    "bachelor": "新媒體藝術學系（相關路線）",
+    "master": "新媒體藝術碩士（相關路線）",
+    "doctor": "",
+    "sources": [
+      "https://student.tnua.edu.tw/upload/files/guidance/TNUAhandbook.pdf"
+    ],
+    "region": "亞洲"
+  }
+]

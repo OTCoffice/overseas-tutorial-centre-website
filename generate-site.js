@@ -73,3 +73,6 @@ require('./scripts/render-public-school-alliance.cjs');
 
 // Keep Korea K-12 school records, application materials and contact entry in sync.
 require("./scripts/render-korea-schools.cjs");
+
+// Preserve photography planning and navigation after full generation.
+require("./scripts/render-photography-art.cjs");
