@@ -1,0 +1,313 @@
+{
+  "checked": "2026-11-01",
+  "countries": [
+    {
+      "id": "austria",
+      "name": "奧地利",
+      "region": "歐洲",
+      "items": [
+        {
+          "html": "<article><h3>ImPulsTanz｜維也納舞蹈工作坊</h3><p class=\"tag\">短期課程 · 初學者至專業舞者</p><p>有不同程度的舞蹈及身體探索課程，亦有60歲以上參加者。一般工作坊與專業培訓／獎學金分開報名，按課程程度選擇。</p><details><summary>資格、費用與報名</summary><p>一般工作坊並非ESC計畫，沒有其18–30歲及指定居住地規則；個別課程的程度、語言及身體活動要求須核對。2026季已結束，2027一般工作坊課表、時長及收費待公布。學費以所選課程計，住宿、膳食及機票另作預算；付款前確認是否有任何配套。興趣參與者可詢問Beginner／Open程度，勿直接選專業研究班。</p><p><a href=\"https://www.impulstanz.com/en/workshops-research/\">官方課程</a> · <a href=\"https://www.impulstanz.com/en/faq/workshops-research/\">官方FAQ</a></p></details></article>"
+        },
+        {
+          "html": "<article><h3>薩爾茨堡國際美術夏季學院</h3><p class=\"tag\">藝術短課 · 兩至三週 · 申請審核</p><p>不以年齡、國籍或學歷限制申請。實作課需提交作品；策展、理論及寫作課需履歷與動機信，使用課程教師認可的語言。</p><details><summary>資格、費用與報名</summary><p>2027課程預計2月公布。2026普通費率作預算參考：兩週€670、三週€890，另加不可退的€100註冊費，合計€770／€990。材料另收，住宿、餐食、機票及保險另計；2027以新公告為準。符合條件者可另申獎學金，未獲批前按自費預算。不是免審核報名。</p><p><a href=\"https://summeracademy.at/en/application/\">申請與費用</a> · <a href=\"https://summeracademy.at/en/agbs/\">資格與條款</a> · <a href=\"https://summeracademy.at/en/\">2027公告</a></p></details></article>"
+        },
+        {
+          "html": "<article><h3>PART｜維也納國際藝術駐村</h3><p class=\"tag\">徵選駐村 · 已有創作實踐者 · 無年齡上限</p><p>面向居住在奧地利以外的國際藝術家、策展人及藝術工作者，涵蓋視覺藝術、影像、表演、聲音與藝術寫作。駐村最長四個月。</p><details><summary>資格、資助與徵件</summary><p>經公開徵選、推薦或邀請進入；提供創作交流、導師及在地連結。一般介紹明確無年齡上限，但特定合作徵件可另限國家或地區。目前未確認適合所有華語申請人的下一輪公開名額。住宿、補助、餐食、交通及申請材料以當輪公告與邀請條件確認，不列為已開放或全額資助。</p><p><a href=\"https://partresidency.at/residency\">官方駐村與資格</a></p></details></article>"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "義大利",
+      "region": "歐洲",
+      "items": [
+        {
+          "html": "<article><h3>La Macina di San Cresci｜托斯卡尼藝術駐村</h3><p class=\"tag\">自費駐村 · 全年滾動申請 · 需作品與計畫</p><p>接受各國及不同背景的創作者，涵蓋視覺藝術、寫作、音樂創作、編舞、媒體藝術、設計與建築。適合已有創作方向、希望集中工作的人。</p><details><summary>費用、住宿與材料</summary><p>首週€550，之後每週€380；兩週€930、三週€1,310。含私人房間、工作室、抵達介紹及一般協助，生活費與交通自理。錄取後收€200訂金，餘款最遲抵達前一個月繳清。訂金不可退；出發前21天內取消不退款，簽約時重新確認最新條款。</p><p>材料：申請表、一頁創作計畫、履歷、藝術家自述與近期作品。官方全年受理，通常收到完整材料後7–10天通知結果；實際檔期須確認。未見明列年齡上限或統一語言分數，須詢問所需溝通能力及個別接收安排。駐村不等於每日有老師授課。</p><p><a href=\"https://www.chianticom.com/index.php/en/application\">官方申請</a> · <a href=\"https://www.chianticom.com/index.php/en/application/application-guidelines\">費用與取消條款</a></p></details></article>"
+        },
+        {
+          "name": "Accademia d’Arte Firenze｜藝術與義大利語課程",
+          "kind": "藝術短課",
+          "fit": "繪畫、雕塑、版畫等；可搭配義大利語，先按程度選班。",
+          "status": "按課程查詢檔期",
+          "fee": "課程組合計費；確認藝術課時、語言課時及材料，食宿另核。",
+          "url": "https://accademiadarte.net/dates-fees-2026/",
+          "detail": "官方2026表列藝術及語言課組合；2027費率與年齡要求須書面確認。"
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "英國",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "UAL 倫敦藝術大學｜校園藝術短課",
+          "kind": "藝術短課",
+          "fit": "繪畫、攝影、設計等；有不同程度，初學者選無先備要求的班別。",
+          "status": "按班別開課",
+          "fee": "每班學費不同；材料、住宿與旅行費分開核對。",
+          "url": "https://www.arts.ac.uk/study-at-ual/short-courses/on-campus-short-courses",
+          "detail": "課程目錄不是單一學位；核對成人／青少年班、英語要求與上課校區。"
+        },
+        {
+          "name": "RCA 皇家藝術學院｜Architecture Summer School",
+          "kind": "藝術短課",
+          "fit": "對建築、空間與設計有興趣的學生及從業者。",
+          "status": "2027日期待公布",
+          "fee": "2027學費待公布；住宿不視為包含。",
+          "url": "https://www.rca.ac.uk/study/short-courses/rca-in-person-short-courses/",
+          "detail": "可先登記興趣。設計工作室、觀察與講座；短課不等同RCA學位錄取。"
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "法國",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "Cité internationale des arts｜2—12 巴黎駐村",
+          "kind": "徵選・自費駐村",
+          "fit": "18歲以上、至少5年藝術經歷；不接受在校生，無年齡上限。",
+          "status": "2026–27輪已截止",
+          "fee": "當輪住用工作室暫定每月€635起；純工作室€265–680，不含住宿。",
+          "url": "https://www.citeinternationaledesarts.fr/en/appels-a-candidature/2-12/",
+          "detail": "2–12個月。需履歷、作品集及創作計畫；下一輪與最終費率待公告。錄取不代表免收駐村費。"
+        },
+        {
+          "name": "Port Tonic Art Center｜海岸藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "國際藝術創作者，須以作品與計畫提出申請。",
+          "status": "全年接受聯絡，檔期依審核安排",
+          "fee": "項目費、住宿、工作室與材料負擔須先書面確認。",
+          "url": "https://porttonicartcenter.org/en/",
+          "detail": "通常1–2個月；位於法國南部海岸，適合自主創作，並非一般藝術課。"
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "德國",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "GlogauAIR｜柏林駐村",
+          "kind": "自費駐村",
+          "fit": "已有創作實踐；官方指南要求英語B2或以上。",
+          "status": "按季度徵選，當期名額另確認",
+          "fee": "分項目費、月租、保證金；舊版指南不能當作2027報價。",
+          "url": "https://glogauair.net/wp-content/uploads/2025/12/2024_On-Site-Residency-Information.pdf",
+          "detail": "3或6個月，策展交流、技術支援及開放工作室。指南舊費率為每季€1,500、單人月租€700、保證金€1,000；付款前索取當期書面報價，材料、保險與交通另計。"
+        }
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "葡萄牙",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "Buinho｜藝術與數位製作駐村",
+          "kind": "自費駐村",
+          "fit": "藝術、設計及跨領域創作者；提交計畫、履歷、作品與日期。",
+          "status": "接受自主申請，空位另確認",
+          "fee": "按房型與時長報價；住宿與工作空間包含範圍須核對。",
+          "url": "https://buinho.pt/residency-2",
+          "detail": "通常2週至2個月，1日或15日開始；另有資助合作案，但不自動適用自主申請。"
+        },
+        {
+          "name": "HANGAR｜里斯本國際駐村",
+          "kind": "駐村・申請審核",
+          "fit": "藝術創作、研究與跨文化交流；已有作品或研究方向者。",
+          "status": "按檔期／徵件核對",
+          "fee": "申請前索取駐村、住宿及工作室分項費用；補助另依公告。",
+          "url": "https://hangar.com.pt/en/international-residences/",
+          "detail": "先確認接收領域、期限與可用空間；不是一般觀光團或每天授課的藝術班。"
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "西班牙",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "Fundación Valparaíso｜莫哈卡爾駐村",
+          "kind": "徵選駐村",
+          "fit": "有專業作品的國際創作者，需提出創作計畫。",
+          "status": "全年收件，安排須審核",
+          "fee": "申請費€30；住宿、餐食及駐村總費另詢，獎助各有資格。",
+          "url": "https://fundacionvalparaiso.com/en/residential/",
+          "detail": "通常2或4週；實際駐地在安達魯西亞莫哈卡爾。個別地方或國別獎學金不等於所有申請者免費。官方FAQ：https://fundacionvalparaiso.com/en/faq/"
+        }
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "冰島",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "SÍM｜雷克雅維克藝術駐村",
+          "kind": "自費駐村",
+          "fit": "美術學士或相當資格；自主創作，需作品與項目說明。",
+          "status": "定期徵件／空位招募",
+          "fee": "官網列每月€500–850，依房間與配置；機票生活費另計。",
+          "url": "https://www.sim-residency.info/about",
+          "detail": "1–3個月。一般6月及12月徵下一半年度；當期空位請查申請頁，勿把有介紹當成有名額。https://www.sim-residency.info/apply"
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "芬蘭",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "Arteles｜主題創作駐村",
+          "kind": "自費／主題徵選",
+          "fit": "藝術、寫作、研究及跨領域創作者；依主題提交申請。",
+          "status": "各主題分開徵件",
+          "fee": "房間與計畫費按期公布，獎助不能預先扣除。",
+          "url": "https://www.arteles.org/residency.html",
+          "detail": "2週至數月依計畫不同；2027春季相關徵件已於2026年10月29日截止，留意新一輪。"
+        },
+        {
+          "name": "Saari Residence｜藝術與寫作駐村",
+          "kind": "徵選駐村",
+          "fit": "各國、各藝術領域的專業創作者；需具體工作計畫。",
+          "status": "2027名單已公布，追蹤下輪",
+          "fee": "資助、住宿及旅行支持按下一輪條款核對。",
+          "url": "https://koneensaatio.fi/en/saari-residence/",
+          "detail": "適合已有創作實踐、可獨立工作的人；不列為現在可報名的入門遊學。"
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "荷蘭",
+      "region": "歐洲",
+      "items": [
+        {
+          "name": "Jan van Eyck Academie｜跨領域駐村",
+          "kind": "徵選駐村",
+          "fit": "藝術家、設計師、建築師、策展人及寫作者等。",
+          "status": "官網已有2028輪入口",
+          "fee": "申請費、參與費及補助須按2028簡章核對。",
+          "url": "https://www.janvaneyck.nl/calendar/apply-now-jve-residency-2028",
+          "detail": "長期創作研究，非數週體驗課。請準備作品、履歷及研究動機；當輪截止日與時長以完整申請頁為準。"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "region": "亞洲",
+      "items": [
+        {
+          "name": "TOKAS｜International Creator Residency",
+          "kind": "徵選駐村",
+          "fit": "視覺藝術、設計與建築創作者；需作品、計畫及推薦材料。",
+          "status": "2027輪已於2026年6月16日截止",
+          "fee": "支持項目依該輪指南；下一輪金額未確認。",
+          "url": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-317.html",
+          "detail": "國際創作者路線與東京在地青年、指定城市交換是不同計畫，不能混用申請資格。"
+        },
+        {
+          "name": "Kyoto Art Center｜表演藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "表演藝術創作者；依年度主題與創作計畫審核。",
+          "status": "2027表演藝術輪已截止",
+          "fee": "住宿、製作及其他支援依下一輪公告。",
+          "url": "https://www.kac.or.jp/en/news/20260615/",
+          "detail": "對舞蹈、劇場等方向可列長期準備選項；關注公開徵件，不能以過往公告直接申請。"
+        },
+        {
+          "name": "信樂陶藝之森｜Studio Artist",
+          "kind": "自費駐村",
+          "fit": "具陶藝知識與實作能力的創作者；非零基礎陶藝體驗。",
+          "status": "按年度申請，最新空位另確認",
+          "fee": "工作室、住宿、窯燒及材料分項計算，按當輪價目核對。",
+          "url": "https://www.sccp.jp/air-en/",
+          "detail": "官方2026指南為2個月至不足1年；提交履歷、作品及計畫。2027時段與費率須更新確認。"
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "美國",
+      "region": "美洲",
+      "items": [
+        {
+          "name": "NARS Foundation｜紐約國際駐村",
+          "kind": "自費駐村",
+          "fit": "新銳及職涯中期藝術家，媒材不限。",
+          "status": "分季度徵選",
+          "fee": "項目與工作室費另詢；不能假定紐約住宿已包含。",
+          "url": "https://www.narsfoundation.org/residencies/international-residency-program",
+          "detail": "國際申請可選不同季度長度；作品集、計畫、當期費用及入境安排須一併評估。"
+        },
+        {
+          "name": "Art Omi｜Dance 舞蹈駐村",
+          "kind": "徵選駐村",
+          "fit": "已有成熟創作實踐的國際舞蹈藝術家。",
+          "status": "夏季計畫，下一輪日期待核",
+          "fee": "住宿、餐食、交通及資助以Dance當輪公告為準。",
+          "url": "https://artomi.org/residencies/",
+          "detail": "約2.5週、跨國舞蹈創作交流；與Writers、Music等分項徵選，非初學舞蹈班。"
+        },
+        {
+          "name": "Bemis Center｜Artists-in-Residence",
+          "kind": "徵選駐村",
+          "fit": "21歲以上、有專業藝術經歷；可接受最多兩人的合作組合。",
+          "status": "按公開徵件輪次",
+          "fee": "補助及住用工作空間按當輪確認；入境與旅費另核。",
+          "url": "https://www.bemiscenter.org/residency/artists-in-residence",
+          "detail": "接受美國及國際創作者。需獨立創作能力，錄取後才按邀請與活動內容安排適用入境文件。"
+        },
+        {
+          "name": "Prairie Ronde｜密西根藝術駐村",
+          "kind": "徵選駐村",
+          "fit": "可自主工作的跨領域藝術家，依創作計畫審核。",
+          "status": "按官方申請輪次",
+          "fee": "補助、住宿、交通及製作費依當期條款核對。",
+          "url": "https://prairieronde.org/about/apply/",
+          "detail": "每次接待少量藝術家；國際申請人須確認邀請、保險及適用入境安排。"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "加拿大",
+      "region": "美洲",
+      "items": [
+        {
+          "name": "Banff Centre｜Embodied Making",
+          "kind": "徵選・藝術進修",
+          "fit": "18歲以上，視覺藝術專上訓練或相當創作經驗；可個人或雙人申請。",
+          "status": "2027年2月17日截止",
+          "fee": "課程、住宿與膳食及可申助學金見當期費用表；核准前按自費預算。",
+          "url": "https://www.banffcentre.ca/programs/visual-arts/visual-arts-embodied-making-performance-art-images-and-objects",
+          "detail": "2027年7月5日至8月6日，共5週，須全程參加。結合表演、影像與物件，含工作室實驗及導師活動。"
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "澳洲",
+      "region": "大洋洲",
+      "items": [
+        {
+          "name": "National Art School｜Painting Fundamentals for Beginners",
+          "kind": "藝術短課",
+          "fit": "油畫／壓克力初學者，從觀察與繪畫基礎入門。",
+          "status": "2027年1月11–15日，名額以官網為準",
+          "fee": "官網列原價A$1,030、早鳥A$927；優惠資格與結帳價須確認。",
+          "url": "https://shop.nas.edu.au/pages/courses",
+          "detail": "雪梨Darlinghurst校園，5天工作坊。住宿、交通與材料清單另核；短課不等同可申學生簽證的完整課程。"
+        }
+      ]
+    }
+  ]
+}
