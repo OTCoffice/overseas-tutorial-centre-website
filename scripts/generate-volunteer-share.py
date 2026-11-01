@@ -5,13 +5,15 @@ from pathlib import Path
 import sys
 from PIL import Image, ImageDraw, ImageFont
 root = Path(__file__).resolve().parents[1]
+austria = "--austria" in sys.argv
 scale = 2
 navy, red, blue, teal, gold, cream = '#102d45', '#546775', '#d5dce0', '#536775', '#b38b45', '#f2f3ef'
 im = Image.new('RGB', (2400,1200), navy)
 d = ImageDraw.Draw(im)
 def box(rect, color): d.rectangle(tuple(int(v*scale) for v in rect), fill=color)
 def text(x,y,s,size,color,weight=400):
-    font=ImageFont.truetype(sys.argv[1],size*scale)
+    font_path = Path(sys.argv[1]).parent / ('NotoSansTC-600.ttf' if weight >= 600 else 'NotoSansTC-400.ttf')
+    font=ImageFont.truetype(str(font_path if font_path.exists() else sys.argv[1]),size*scale)
     if hasattr(font,'set_variation_by_axes'):
         try: font.set_variation_by_axes([weight])
         except OSError: pass
@@ -22,10 +24,10 @@ box((660,120,912,480),red)
 box((912,120,960,480),gold)
 box((0,475,1200,480),red)
 text(48,184,'海外督導 OTC',14,gold)
-text(48,216,'志工聯盟',42,'white',700)
-text(48,286,'25 個項目 · 7 家國際機構',18,'#e4c681')
-text(48,329,'教育 · 動物照護 · 環境保育',15,'#e8e9e5')
-text(48,353,'項目比較 · 申請跟進 · 行前支援',15,'#e8e9e5')
+text(48,216,('奧地利志工' if austria else '志工聯盟'),42,'white',700)
+text(48,286,('18 項計畫 · 資格與申請資訊' if austria else '43 個目的地 · 國際志工目錄'),18,'#e4c681')
+text(48,329,('ESC · 社區公益 · 自然保育' if austria else '教育 · 動物照護 · 環境保育'),15,'#e8e9e5')
+text(48,353,('開放狀態 · 接收資格 · 簽證說明' if austria else '項目比較 · 申請跟進 · 行前支援'),15,'#e8e9e5')
 text(48,392,'overseasuk.com',13,'white')
 box((751,193,1152,404),cream)
 box((751,193,1152,197),gold)
@@ -35,4 +37,4 @@ for i,(label,color) in enumerate(zip(['項目與申請資格','費用、食宿�
     box((773,y,1130,y+0.5),'#d6d1c4')
     box((773,y+11,775,y+25),color)
     text(785,y+9,label,12,navy)
-im.resize((1200,600),Image.Resampling.LANCZOS).save(root/'assets/social/volunteer-alliance-share-safe-20261031.png')
+im.resize((1200,600),Image.Resampling.LANCZOS).save(root/('assets/social/volunteer-austria-share-20261101.png' if austria else 'assets/social/volunteer-alliance-share-20261101.png'))
