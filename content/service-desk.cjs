@@ -10,6 +10,7 @@ const groups=[
       ["奧地利留學", "/zh/countries/austria/", "維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"],
       ["留學申請收費標準", "/zh/application-fees/", "同等服務參考價六折；免費代辦項目與第三方費用說明。"],
       ["CSC國家公派留學", "/zh/csc-scholarships/", "碩士、博士與聯合培養；官方項目、推薦流程及學費資助。"],
+      ["藝術遊學與國際駐村", "/zh/services/art-study-residency/", "奧地利、義大利藝術短課、自費及徵選駐村；免費項目篩選與申請陪跑。"],
       ["研學項目評估", "/zh/services/study-tour-programme-review/", "名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
       ["台灣藝術與設計升學", "/zh/services/taiwan-art-design-admissions/", "台灣本地高中與高職選系、統測／學測／術科、作品集及備審。"],
       ["音樂留學規劃", "/zh/subject-planning/music/", "本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],

@@ -27,5 +27,5 @@ module.exports = function summerAllianceHero() {
   <a href="/consultation-chat/?source=summer-school-alliance"><b>ACADEMIC</b><strong>學術背景提升</strong><span>提升學術能力與軟實力，助力升學申請</span></a>
   <a href="${whatsapp}"><b>SUPPORT</b><strong>專業顧問服務</strong><span>個性化規劃與全程跟進，讓每一步更有方向</span></a>
   <a href="/zh/summer-school-alliance/#summer-continent-asia"><b>SUMMER</b><strong>寒暑校聯盟</strong><span>10+ 國家與地區 · 200+ 優質項目 · 3000+ 學生參與</span></a>
-</section>`;
+</section><p class="art-residency-entry"><a href="/zh/services/art-study-residency/">藝術遊學與國際駐村 →</a> 舞蹈工作坊、美術短課及創作駐村；查閱資格、費用與申請服務。</p>`;
 };
