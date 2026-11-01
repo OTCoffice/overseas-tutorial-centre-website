@@ -35,4 +35,10 @@
 
 ## 上線驗收
 
-待合併部署後核對公開HTML、圖片與main；本段將按實際結果更新。手機實機、微信原生分享沒有可用測試環境，仍待驗收；不沿用上一版Threads卡片結果當作本版已通過。
+PR #75已合併，網站版本為278b6fd3bcb3f0de87edb51c41a894b55ca98b1e，Vercel正式部署狀態success。
+
+- `python scripts/check-art-study-directory.py --live`通過：公開HTML及分享圖片與main一致；227項／14國、各國數量、名稱、官方與OTC連結、英國四區及OG/Twitter標籤通過。
+- `python scripts/check-herald-share.py content/art-study-residency.json --live`通過：一般瀏覽器與Twitterbot請求均可取得頁面及新版1200×600圖片。
+- 桌面瀏覽器實際載入227個可展開詳情，國家導航顯示法國20、義大利20等正確數量，沒有水平溢出；點擊法國導航跳至#france，點擊詳情成功展開費用、資格、官方及OTC入口。彩色頁首保持。
+- 手機實機、微信原生分享沒有可用測試環境，仍待驗收；本版Threads原生卡片亦未重新驗收，不沿用上一版卡片結果。
+- 外部官方申請表未提交；231條來源URL的非200結果仍按上述清單保留待確認，不宣稱所有外部報名流程均已通過。
