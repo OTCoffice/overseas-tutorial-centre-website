@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "uk",
+    "name": "英國",
+    "region": "歐洲",
+    "regulator": "NMC",
+    "route": "護理本科、Pre-registration MSc、海外護士 CBT／OSCE",
+    "url": "https://www.nmc.org.uk/",
+    "path": "/zh/nursing/uk/"
+  },
+  {
+    "slug": "australia",
+    "name": "澳洲",
+    "region": "大洋洲",
+    "regulator": "NMBA／Ahpra",
+    "route": "護理本科、Graduate Entry、OBA 與資格認可",
+    "url": "https://www.nursingmidwiferyboard.gov.au/",
+    "path": "/zh/nursing/australia/"
+  },
+  {
+    "slug": "new-zealand",
+    "name": "紐西蘭",
+    "region": "大洋洲",
+    "regulator": "NCNZ",
+    "route": "海外護士註冊、語言及能力評估",
+    "url": "https://www.nursingcouncil.org.nz/",
+    "path": "/zh/nursing/new-zealand/"
+  },
+  {
+    "slug": "canada",
+    "name": "加拿大",
+    "region": "北美洲",
+    "regulator": "各省護理監管機構",
+    "route": "NNAS（適用時）、省級評估、NCLEX-RN",
+    "url": "https://www.nnas.ca/",
+    "path": "/zh/nursing/canada/"
+  },
+  {
+    "slug": "ireland",
+    "name": "愛爾蘭",
+    "region": "歐洲",
+    "regulator": "NMBI",
+    "route": "學歷認可、語言、適應期或能力測試",
+    "url": "https://www.nmbi.ie/",
+    "path": "/zh/nursing/ireland/"
+  },
+  {
+    "slug": "germany",
+    "name": "德國",
+    "region": "歐洲",
+    "regulator": "各州認可機關",
+    "route": "Ausbildung、德語及海外資格認可",
+    "url": "https://www.anerkennung-in-deutschland.de/",
+    "path": "/zh/nursing/germany/"
+  },
+  {
+    "slug": "usa",
+    "name": "美國",
+    "region": "北美洲",
+    "regulator": "州護理委員會",
+    "route": "學歷評估、NCLEX-RN、僱主與工作簽證",
+    "url": "https://www.ncsbn.org/",
+    "path": "/zh/nursing/usa/"
+  },
+  {
+    "slug": "singapore",
+    "name": "新加坡",
+    "region": "亞洲",
+    "regulator": "SNB",
+    "route": "海外護士註冊及僱主支持",
+    "url": "https://www.snb.gov.sg/",
+    "path": "/zh/nursing/singapore/"
+  },
+  {
+    "slug": "hong-kong",
+    "name": "香港",
+    "region": "亞洲",
+    "regulator": "香港護士管理局",
+    "route": "本地護理學位、非本地資格註冊",
+    "url": "https://www.nchk.org.hk/",
+    "path": "/zh/nursing/hong-kong/"
+  },
+  {
+    "slug": "japan",
+    "name": "日本",
+    "region": "亞洲",
+    "regulator": "厚生勞動省",
+    "route": "日語、海外學歷認定及護士國家考試",
+    "url": "https://www.mhlw.go.jp/",
+    "path": "/zh/nursing/japan/"
+  },
+  {
+    "slug": "south-korea",
+    "name": "韓國",
+    "region": "亞洲",
+    "regulator": "保健福祉部",
+    "route": "韓語、學歷認可及國家考試",
+    "url": "https://www.mohw.go.kr/",
+    "path": "/zh/nursing/south-korea/"
+  },
+  {
+    "slug": "france",
+    "name": "法國",
+    "region": "歐洲",
+    "regulator": "醫護資格主管機關",
+    "route": "法語、護理文憑與資格認可",
+    "url": "https://www.service-public.fr/",
+    "path": "/zh/nursing/france/"
+  },
+  {
+    "slug": "switzerland",
+    "name": "瑞士",
+    "region": "歐洲",
+    "regulator": "Swiss Red Cross",
+    "route": "境外護理文憑認可、工作語言",
+    "url": "https://www.redcross.ch/",
+    "path": "/zh/nursing/switzerland/"
+  },
+  {
+    "slug": "nordics",
+    "name": "北歐四國",
+    "region": "歐洲",
+    "regulator": "各國護理主管機關",
+    "route": "瑞典、挪威、丹麥、芬蘭：語言與資格認可",
+    "url": "https://www.norden.org/",
+    "path": "/zh/nursing/nordics/"
+  }
+]

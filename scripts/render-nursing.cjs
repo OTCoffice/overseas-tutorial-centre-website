@@ -3,13 +3,19 @@ const fs=require('fs'),path=require('path'),{execFileSync}=require('child_proces
 const base=path.resolve(__dirname,'..');
 const slugs=['nursing-hub','nursing-australia','nursing-courses'];
 execFileSync(process.execPath,['scripts/render-herald.cjs',...slugs.flatMap(x=>['--service','content/'+x+'.json'])],{cwd:base,stdio:'inherit'});
-const write=(p,s)=>fs.writeFileSync(path.join(base,p),s.replace(/[ \t]+$/gm,''));
+const write=(p,s)=>{fs.mkdirSync(path.dirname(path.join(base,p)),{recursive:true});fs.writeFileSync(path.join(base,p),s.replace(/[ \t]+$/gm,''));};
 write('zh/services/index.html',require('../content/service-desk.cjs')());
 write('index.html',require('../content/chinese-home.cjs')());
 write('zh/index.html',require('../content/chinese-home.cjs')().replace('href="styles.css?','href="../styles.css?'));
 write('zh/subject-planning/index.html',require('../content/subject-study-hub.cjs').render());
-const records=slugs.map(slug=>require('../content/'+slug+'.json'));
-for(const file of ['zh/search/index.html']){
+const countries=require('../content/nursing-destinations.json').filter(c=>c.slug!=='australia');
+const countryRecords=countries.map(c=>({path:c.path,name:c.name+'護理留學',titleZh:c.name+'護理留學與護士註冊｜海外督導 OTC',summaryZh:c.name+'護理課程、護士註冊及官方查詢入口。'}));
+for(const c of countries) write(c.path.slice(1)+'index.html',require('../content/nursing-template.cjs')('nursing-'+c.slug));
+const records=[...slugs.map(slug=>require('../content/'+slug+'.json')),...countryRecords];
+const sitemapPath=path.join(base,'sitemap.xml');let sitemap=fs.readFileSync(sitemapPath,'utf8');
+for(const a of countryRecords) if(!sitemap.includes('<loc>https://overseasuk.com'+a.path+'</loc>')) sitemap=sitemap.replace('</urlset>','  <url><loc>https://overseasuk.com'+a.path+'</loc></url>\n</urlset>');
+fs.writeFileSync(sitemapPath,sitemap);
+for(const file of ['search/index.html','zh/search/index.html']){
  const p=path.join(base,file),s=fs.readFileSync(p,'utf8'),re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re);if(!m)throw Error('Missing search data');
  const entries=JSON.parse(m[2]);for(const a of records){const e={type:'服務',title:a.titleZh,url:a.path,desc:a.summaryZh},i=entries.findIndex(x=>x.url===a.path);if(i<0)entries.unshift(e);else entries[i]=e;}
  fs.writeFileSync(p,s.replace(re,(_,a,b,c)=>a+JSON.stringify(entries).replaceAll('<','\\u003c')+c));
