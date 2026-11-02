@@ -433,12 +433,14 @@
   },
   "/zh/services/uk-rental-support/": {
     "title": "英國找房與租房支援",
-    "image": "/assets/social/native-uk-rental-support-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 232,
+    "image": "/assets/social/uk-rental-deposit-share-20261102-v1.png",
+    "version": "v=20261102-paid-materials",
+    "width": 1200,
+    "height": 600,
     "file": "zh/services/uk-rental-support/index.html",
-    "previousImage": "/assets/social/uk-rental-support-20261028-v2.png"
+    "previousImage": "/assets/social/uk-rental-support-20261028-v2.png",
+    "cardType": "summary_large_image",
+    "shareLayout": "crop-safe-banner"
   },
   "/zh/services/uk-sop-editing/": {
     "title": "英碩 SOP 邏輯與架構修改",
