@@ -1,7 +1,7 @@
 {
   "path": "/zh/services/uk-rental-support/",
   "titleZh": "英國找房與租房支援",
-  "summaryZh": "海外督導雙語世界學生服務部：留學生房源比較、租約資料整理、退租溝通、押金及證據整理，按服務範圍書面報價。",
+  "summaryZh": "英國租房、退租與押金支援：DPS退款流程、法定聲明材料、海外租客英文溝通及證據整理；免費基本材料梳理，後續服務書面報價。",
   "shareImageZh": "/assets/social/native-uk-rental-support-20261030.png",
   "socialImageVersion": "v=20261030-native",
   "socialImageWidth": 1333,
@@ -12,7 +12,8 @@
       "paragraphs": [
         "海外督導雙語世界學生服務部位於倫敦，為留學生及家長提供找房與租住期間的資料、語言及溝通支援。先了解城市、預算、入住日期及需要協助的事項，再確認服務。",
         "找房：比較學生公寓、私人租屋及合租房源，整理租金、帳單、押金、通勤與入住條件；協助準備向出租方查詢的問題及看房安排。房源、出租權限及付款資料須逐項核實，不承諾一定找到房屋。",
-        "租住與退租：整理租約、付款及維修記錄，草擬英文查詢或協商信，記錄雙方對退租日期、鑰匙交還、租金結算及押金的書面安排。需要聯絡房東或中介時，先確認授權及發送內容。"
+        "租住與退租：整理租約、付款及維修記錄，草擬英文查詢或協商信，記錄雙方對退租日期、鑰匙交還、租金結算及押金的書面安排。需要聯絡房東或中介時，先確認授權及發送內容。",
+        "人在中國大陸、台灣或其他地區，仍可遠端委託OTC整理租房材料、準備英文詢問及跟進清單；法定聲明的見證與原件遞交，須按押金機構接受的方式另行安排。"
       ]
     },
     {
@@ -26,14 +27,14 @@
     {
       "heading": "材料與流程",
       "paragraphs": [
-        "初次諮詢請提供城市／地區、預計入住或退租日期、每月預算，以及找房或租房問題的簡述。處理既有租約時，再提供租約相關頁、通知信、付款記錄和按日期整理的照片或通訊；可遮蓋證件號碼、銀行帳號及無關個人資料。",
+        "初次諮詢請提供城市／地區、預計入住或退租日期、每月預算，以及找房或租房問題的簡述。處理既有租約時，再提供租約相關頁、通知信、付款記錄和按日期整理的照片或通訊；可遮蓋證件號碼、銀行帳號及無關個人資料。 押金個案請另附保護機構名稱、Custodial／Insured類型、押金金額、退租日、退款申請日、系統狀態及對方回覆；已有法定聲明表時一併提供。初次整理毋須提供帳戶密碼或驗證碼。",
         "<ol><li>確認需求、所在地及租住類型。</li><li>書面確認服務內容、交付時間及費用。</li><li>比較房源或整理租約、時間線及證據，準備英文溝通文字。</li><li>核對回覆及待辦事項；需要法律意見時轉介適當專業機構。</li></ol>"
       ]
     },
     {
       "heading": "費用",
       "paragraphs": [
-        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>費用安排</th></tr></thead><tbody><tr><td>需求諮詢</td><td>先了解需求，說明可協助的範圍。</td></tr><tr><td>OTC服務</td><td>按房源比較、文件整理、英文信件及跟進次數書面報價；委託前列明交付、服務期限及取消條款。</td></tr><tr><td>另付費用</td><td>房租、押金、住宿、交通、搬家、翻譯及律師等第三方費用另計；出租方收費須按當地規定核對。</td></tr></tbody></table></div>",
+        "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>費用安排</th></tr></thead><tbody><tr><td>需求諮詢</td><td>免費基本材料梳理，確認可協助範圍及下一步。</td></tr><tr><td>OTC服務</td><td>按房源比較、文件整理、英文信件及跟進次數書面報價；委託前列明交付、服務期限及取消條款。</td></tr><tr><td>另付費用</td><td>房租、押金、住宿、交通、搬家、翻譯、律師／宣誓見證及郵寄等第三方費用另計；出租方收費須按當地規定核對。</td></tr></tbody></table></div>",
         "OTC提供資料整理與溝通協調，不代替律師的法律意見或訴訟代理；不保證解約、退款或爭議結果。"
       ]
     },
@@ -49,7 +50,24 @@
       "heading": "官方與專業資源",
       "paragraphs": [
         "<a href=\"https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants\">GOV.UK：英格蘭租客新制與通知期</a> · <a href=\"https://england.shelter.org.uk/housing_advice/private_renting/ending_a_periodic_tenancy/agreement_with_your_landlord\">Shelter England：協議退租</a> · <a href=\"https://england.shelter.org.uk/housing_advice/private_renting/lodgers\">Shelter England：Lodger</a> · <a href=\"https://www.gov.uk/tenancy-deposit-protection\">GOV.UK：租屋押金保護</a>",
-        "資料核查：2026年10月28日。以上通知期說明限所述英格蘭租住類型；其他地區按當地規定確認。"
+        "資料核查：2026年10月28日。以上通知期說明限所述英格蘭租住類型；其他地區按當地規定確認。",
+        "DPS押金部分核查：2026年11月2日。<a href=\"https://www.depositprotection.com/repayments/statutory-declaration-process-tenants/\">DPS：租客法定聲明流程</a> · <a href=\"https://www.depositprotection.com/learning-centre/agent-resources/changes-to-our-service-what-you-need-to-know\">DPS：線上表格與郵寄要求</a> · <a href=\"https://www.depositprotection.com/news-insights/be-the-adjudicator-live-sept-26\">DPS：親筆簽署及紙本說明</a>。下列流程以DPS Custodial帳戶及個案通知為準；TDS、mydeposits及其他制度須另行核對。"
+      ]
+    },
+    {
+      "heading": "DPS押金退款",
+      "paragraphs": [
+        "先核對押金保護證明及帳戶。法定聲明主要處理房東無法聯絡或未回覆退款申請的情況；房東已提出扣款爭議時，應按機構的爭議處理程序提交證據。",
+        "<ol><li>在DPS提出退款申請，保存金額、日期及系統通知。租期結束後，房東無法聯絡或未在規定的14個曆日期間回覆時，按DPS帳戶提示確認能否使用法定聲明。</li><li>從DPS帳戶取得並列印Statutory Declaration表格，填寫要求退回的金額。聲明須由Solicitor、Commissioner for Oaths或Magistrate見證；在見證人指示下簽署。</li><li>按DPS當次指示郵寄見證完成的紙本原件，留存副本及郵寄憑證。官網明確要求親筆簽署及紙本郵寄，線上填表不等於可全程線上完成。</li><li>DPS收到正確完成的聲明後會通知房東；房東在其後14個曆日仍未回覆，DPS表示將退還申請金額。房東提出異議時轉入後續處理，實際期限以通知為準。</li></ol>",
+        "OTC可協助整理租約、退款申請及聯絡時間線，準備英文催辦信、表格資料及證據目錄，並在確認授權後協助與房東、中介或押金機構溝通。OTC不擔任法定聲明見證人；法律意見、見證及訴訟由合資格專業人士處理。"
+      ]
+    },
+    {
+      "heading": "人在海外",
+      "paragraphs": [
+        "人在中國大陸或台灣，先向DPS書面確認境外見證人的資格是否獲接受、是否需要認證或翻譯，以及原件郵寄地址；如希望視訊見證，也須事前取得明確答覆。DPS公開頁面未確認這類個案可全程視訊辦理，不宜先付款預約後才核對。",
+        "OTC可協助草擬上述詢問、整理DPS答覆及見證預約所需資料。需要律師或公證服務時，先核對執業資格、是否承接海外見證及書面報價；不預先承諾有特定合作律師或境外文件必定獲DPS接受。",
+        "<a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2DPS%E6%8A%BC%E9%87%91%E9%80%80%E6%AC%BE%E8%88%87%E6%B5%B7%E5%A4%96%E6%B3%95%E5%AE%9A%E8%81%B2%E6%98%8E\">諮詢押金與海外辦理</a>　微信 overseasus · <a href=\"mailto:office@overseasuk.com?subject=DPS%20deposit%20support\">office@overseasuk.com</a>"
       ]
     }
   ],
