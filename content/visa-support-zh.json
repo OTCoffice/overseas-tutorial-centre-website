@@ -3,10 +3,10 @@
   "slug": "visa-application-support",
   "titleZh": "簽證陪跑｜文件整理、申請進度與行前準備",
   "summaryZh": "把官方要求整理成清楚的文件清單與準備時間表。先確認服務範圍和費用，再按約定跟進。",
-  "shareImageZh": "/assets/social/native-visa-application-support-20261030.png",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 206,
+  "shareImageZh": "/assets/social/visa-support-share-safe-20261103.png",
+  "socialImageVersion": "v=20261103-safe",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
   "lang": "zh",
   "sections": [
     {
@@ -53,5 +53,5 @@
       ]
     }
   ],
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only"
 }
