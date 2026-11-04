@@ -5,7 +5,7 @@ This does not replace visual inspection of an unsent platform composer.
 import argparse, json, struct, sys, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit, quote
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self,text):
@@ -27,7 +27,8 @@ def verify(text,a,base,locale='zh'):
     assert p.canonical==[expected], 'Canonical missing, duplicated or incorrect'
     def one(k):
         v=p.meta.get(k,[]);assert len(v)==1 and v[0],f'Missing/duplicate {k}';return v[0]
-    assert one('og:url')==expected
+    social_expected=expected+('?share='+quote(a['sharePageVersion'],safe='') if a.get('sharePageVersion') else '')
+    assert one('og:url')==social_expected, 'Social URL differs from configured revision'
     assert one('twitter:card')==a.get('twitterCard','summary_large_image')
     for k in ('og:title','og:description','twitter:title','twitter:description'):one(k)
     image=one('og:image');assert image==one('twitter:image'),'OG/Twitter images differ'

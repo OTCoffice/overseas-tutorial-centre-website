@@ -520,7 +520,8 @@
     "file": "zh/services/visa-application-support/index.html",
     "previousImage": "/assets/social/visa-support-zh-20260918.png",
     "cardType": "summary_large_image",
-    "shareLayout": "safe-landscape"
+    "shareLayout": "safe-landscape",
+    "sharePageVersion": "20261104-zh2"
   },
   "/zh/services/visiting-scholar-support/": {
     "title": "訪問學者與學術交流",

@@ -306,6 +306,8 @@ function relativeAssetPath(pagePath, assetPath) {
 function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", alternatePath = "", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "" }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
+  const sharePageVersion = require("./content/service-native-headers.json")[canonicalPath]?.sharePageVersion;
+  const socialUrl = sharePageVersion ? `${canonicalUrl}?share=${encodeURIComponent(sharePageVersion)}` : canonicalUrl;
   const stylesheetPath = relativeAssetPath(canonicalPath, "styles.css");
   const socialImageUrl = image ? new URL(image, SITE_URL).toString() : "";
   const socialImagePath = socialImageUrl.split(/[?#]/)[0].toLowerCase();
@@ -349,7 +351,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   <meta property="og:site_name" content="${BRAND_NAME}">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
-  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:url" content="${socialUrl}">
   ${socialImageUrl ? `<meta property="og:image" content="${socialImageUrl}">
   <meta property="og:image:secure_url" content="${socialImageUrl}">
   <meta property="og:image:type" content="${socialImageType}">
@@ -369,7 +371,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 </head>
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale, canonicalPath)}
-  ${pageUtilityBar({ canonicalPath, canonicalUrl, title, locale })}
+  ${pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale })}
   ${require("./content/compact-tables.cjs")(body)}
   ${footer(locale)}
   ${pageUtilityScript()}
