@@ -31,7 +31,7 @@
     {
       "heading": "服務費用",
       "paragraphs": [
-        "<table class=\"visa-fees\"><colgroup><col style=\"width:45%\"><col style=\"width:55%\"></colgroup><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">費用</th></tr></thead><tbody><tr><td>基本需求了解</td><td>免費</td></tr><tr><td>詳細諮詢、材料審閱、申請陪跑</td><td>按個案報價，開始前書面確認</td></tr><tr><td>簽證、簽證中心、翻譯、公證</td><td>第三方費用另計</td></tr></tbody></table>"
+        "<table id=\"visa-fees\" class=\"visa-fees\"><colgroup><col style=\"width:45%\"><col style=\"width:55%\"></colgroup><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">費用</th></tr></thead><tbody><tr><td>基本需求了解</td><td>免費</td></tr><tr><td><span class=\"visa-fee-term\">詳細諮詢、</span><span class=\"visa-fee-term\">材料審閱、</span><span class=\"visa-fee-term\">申請陪跑</span></td><td>按個案報價，開始前書面確認</td></tr><tr><td><span class=\"visa-fee-term\">簽證、</span><span class=\"visa-fee-term\">簽證中心、</span><span class=\"visa-fee-term\">翻譯、公證</span></td><td>第三方費用另計</td></tr></tbody></table>"
       ]
     },
     {
