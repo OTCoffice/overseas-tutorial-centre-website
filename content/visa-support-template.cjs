@@ -12,7 +12,11 @@ html:root body #section-4 table.visa-fees th{background:#f0ede5!important;color:
 html:root body #contact .visa-contact h3{font-size:12px!important;line-height:1.5!important;font-weight:600!important;margin:0 0 7px!important;padding:0!important;border:0!important;}
 html:root body #contact .visa-contact h3::before,html:root body #contact .visa-contact h3::after{content:none!important;}
 html:root body #contact .visa-contact a{display:block!important;overflow-wrap:anywhere!important;margin:5px 0!important;padding:0!important;min-height:0!important;font-size:12px!important;line-height:1.5!important;}
-@media(max-width:600px){html:root body #section-4 table.visa-fees :is(th,td){padding:8px!important;}}
+html:root body #section-4 #visa-fees .visa-fee-term{display:inline-block!important;white-space:nowrap!important;overflow-wrap:normal!important;}
+@media(max-width:700px){
+html:root body #section-4 #visa-fees col,html:root body #section-4 #visa-fees tr>:is(th,td){width:50%!important;}
+html:root body #section-4 #visa-fees :is(th,td){padding:8px!important;overflow-wrap:normal!important;}
+}
 </style>`:''}
 <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">${t('海外督導 OTC｜簽證服務','OTC · VISA PREPARATION SUPPORT')}</div><h1>${t('簽證陪跑','Visa preparation support')}</h1><h2>${a.subtitleZh||t('文件有清單，準備有次序。','Clear documents. A practical preparation plan.')}</h2><p class="hero-sub">${a.summaryZh}</p><a class="button" href="${wa}">${t('免費了解服務','Discuss your needs on WhatsApp')}</a></div><aside class="service-hero-panel">${labels.map((l,i)=>`<a href="#section-${i+1}"><strong>${l}</strong><span>0${i+1}</span></a>`).join('')}</aside></div></div></section>
 <section class="band service-review-strip"><a href="#section-1"><b>START</b><strong>${labels[0]}</strong><span>${t('旅遊、探親、留學文件','Travel, family visits and study documents')}</span></a><a href="#section-2"><b>PLAN</b><strong>${labels[1]}</strong><span>${t('清單、時間表、待辦','Checklists, timelines and actions')}</span></a><a href="#section-4"><b>FEES</b><strong>${labels[3]}</strong><span>${t('先確認，再開始','Agree before starting')}</span></a><a href="#contact"><b>ASK</b><strong>${t('開始諮詢','Get in touch')}</strong><span>${t('五項基本資料即可','Start with five basic details')}</span></a></section>
