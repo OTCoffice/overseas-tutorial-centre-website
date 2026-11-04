@@ -13,12 +13,15 @@
       "name": "HSDC",
       "location": "Alton／Havant",
       "courses": "A-Level：攝影、歷史、心理、地理、數學",
-      "fee": "£7,000起／年",
-      "note": "官網起價未標學年；寄宿家庭另列£8,950／學年。",
+      "fee": "£9,000／年",
+      "note": "校方於2026年11月3日就2027年入學查詢回覆的學費。官網寄宿家庭參考£8,950／學年，2027年的住宿週數、餐食及假期安排須另確認。",
       "url": "https://www.hsdc.ac.uk/study-with-us/international-tuition-fees-accommodation/",
       "sponsor": "Havant & South Downs College",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "hsdc",
+      "campus": "Alton校區設體育館、健身房及鄰近運動場。校方場地租用頁列體育館33.60 × 19.30米，約648平方米，可劃分四個羽毛球場；籃球、排球等共用場地。全校現行佔地面積尚待校方確認。",
+      "campusUrl": "https://www.hsdc.ac.uk/study-with-us/alton-campus/community/venue-hire/sports-hall/"
     },
     {
       "name": "Varndean College",
@@ -29,18 +32,20 @@
       "url": "https://www.varndean.ac.uk/international-fees",
       "sponsor": "Varndean College",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "varndean"
     },
     {
       "name": "Chichester College Group",
       "location": "Worthing",
-      "courses": "A-Level：歷史、心理、地理、數學；攝影未確證",
+      "courses": "A-Level：歷史、心理、地理、數學；攝影已停辦",
       "fee": "£8,500／年",
-      "note": "2026/27參考；寄宿家庭£216／周。現行國際A-Level清單未列攝影。",
+      "note": "2026/27參考；寄宿家庭£216／周。校方於2026年11月3日確認攝影已停辦。",
       "url": "https://www.ccgstudyabroad.com/a-levels-worthing-college",
       "sponsor": "CHICHESTER COLLEGE GROUP",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "chichester-worthing"
     },
     {
       "name": "East Sussex College Group",
@@ -51,7 +56,8 @@
       "url": "https://international.escg.ac.uk/apply/fees/",
       "sponsor": "East Sussex College Group",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "east-sussex"
     },
     {
       "name": "Brockenhurst College",
@@ -62,7 +68,8 @@
       "url": "https://www.brock.ac.uk/sixth-form/international/",
       "sponsor": "Brockenhurst College",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "brockenhurst"
     },
     {
       "name": "Bexhill College",
@@ -73,7 +80,8 @@
       "url": "https://www.bexhillcollege.ac.uk/international/",
       "sponsor": "Bexhill College",
       "limit": "按校區確認科目、入學要求、名額及CAS安排。",
-      "region": "英格蘭｜東南部"
+      "region": "英格蘭｜東南部",
+      "slug": "bexhill"
     },
     {
       "name": "HRUC（Harrow、Richmond、Uxbridge）",
@@ -84,7 +92,8 @@
       "sponsor": "HRUC",
       "limit": "不擔保Level 1／2；按課程確認授課校區。",
       "url": "https://www.hruc.ac.uk/international-students.html",
-      "region": "英格蘭｜倫敦及周邊"
+      "region": "英格蘭｜倫敦及周邊",
+      "slug": "hruc"
     },
     {
       "name": "Kingston College（South Thames Colleges Group）",
@@ -96,7 +105,8 @@
       "limit": "只擔保Kingston College全日制課程：Kingston Hall Road及Creative Industries Centre。",
       "url": "https://www.stcg.ac.uk/students/international-study/international-student-fees",
       "visa": "https://www.stcg.ac.uk/students/international-study/visas-and-college-applications",
-      "region": "英格蘭｜倫敦及周邊"
+      "region": "英格蘭｜倫敦及周邊",
+      "slug": "kingston"
     },
     {
       "name": "Cambridge Regional College",
@@ -108,7 +118,8 @@
       "limit": "官網確認Student Sponsor – Track Record；須按所選課程及長度確認CAS安排。",
       "url": "https://www.camre.ac.uk/international/",
       "courseUrl": "https://www.camre.ac.uk/courses/university-foundation-programmes/",
-      "region": "英格蘭｜東部"
+      "region": "英格蘭｜東部",
+      "slug": "cambridge-regional"
     },
     {
       "name": "WQE（Wyggeston & Queen Elizabeth I College）",
@@ -121,7 +132,8 @@
       "url": "https://wqe.ac.uk/prospective-students/international-applications/",
       "feeUrl": "https://wqe.ac.uk/wp-content/uploads/2026/01/Tuition-Fees-Policy-2026-27-FINAL.pdf",
       "visa": "https://wqe.ac.uk/wp-content/uploads/2025/03/Information-for-International-Applicants-2025.pdf",
-      "region": "英格蘭｜中部"
+      "region": "英格蘭｜中部",
+      "slug": "wqe"
     },
     {
       "name": "York College",
@@ -133,7 +145,8 @@
       "limit": "限16–18歲，入學年6月1日前須滿16歲；不擔保學位、Access或HNC／HND。",
       "url": "https://www.yorkcollege.ac.uk/international",
       "visa": "https://www.yorkcollege.ac.uk/international/how-to-apply",
-      "region": "英格蘭｜北部"
+      "region": "英格蘭｜北部",
+      "slug": "york"
     },
     {
       "name": "John Leggott College",
@@ -145,7 +158,8 @@
       "limit": "官網確認在符合入學要求後由學校建立UKVI CAS紀錄。",
       "url": "https://www.leggott.ac.uk/international-fees-cost-of-study-uk",
       "visa": "https://www.leggott.ac.uk/international-visa-cas-guidance",
-      "region": "英格蘭｜北部"
+      "region": "英格蘭｜北部",
+      "slug": "john-leggott"
     },
     {
       "name": "New City College",
@@ -160,7 +174,8 @@
       "visa": "https://www.ncclondon.ac.uk/international/more-information/visa-requirements/",
       "courseUrl": "https://www.ncclondon.ac.uk/international-students/international-courses",
       "sponsorStatus": "Student Sponsor - Track Record",
-      "region": "英格蘭｜倫敦及周邊"
+      "region": "英格蘭｜倫敦及周邊",
+      "slug": "new-city"
     },
     {
       "name": "Capital City College",
@@ -174,7 +189,8 @@
       "feeUrl": "https://www.capitalccg.ac.uk/international/course-fees",
       "visa": "https://www.capitalccg.ac.uk/international/applications",
       "sponsorStatus": "Student Sponsor - Track Record",
-      "region": "英格蘭｜倫敦及周邊"
+      "region": "英格蘭｜倫敦及周邊",
+      "slug": "capital-city"
     },
     {
       "name": "Lincoln College",
@@ -186,7 +202,8 @@
       "limit": "官網確認Student route擔保資格，只接受指定全日制Level 3或以上課程；未成年學生須另確認住宿。校方表示不使用招生代理。",
       "url": "https://www.lincolncollege.ac.uk/international-students",
       "sponsorStatus": "Student Sponsor - Track Record",
-      "region": "英格蘭｜中部"
+      "region": "英格蘭｜中部",
+      "slug": "lincoln"
     },
     {
       "name": "Cardiff and Vale College",
@@ -201,7 +218,8 @@
       "visa": "https://international.cavc.ac.uk/en/support/visas-and-immigration",
       "courseUrl": "https://international.cavc.ac.uk/en/subject/a-levels",
       "sponsorStatus": "Student Sponsor - Track Record",
-      "region": "威爾斯"
+      "region": "威爾斯",
+      "slug": "cardiff-and-vale"
     },
     {
       "name": "Gower College Swansea",
@@ -215,7 +233,8 @@
       "feeUrl": "https://www.gcs.ac.uk/about-college-financial/fees/tuition-fees-and-payment-methods-explained",
       "visa": "https://www.gcs.ac.uk/apply/how-apply-international",
       "sponsorStatus": "Student Sponsor - Track Record",
-      "region": "威爾斯"
+      "region": "威爾斯",
+      "slug": "gower-swansea"
     },
     {
       "name": "St David’s Catholic Sixth Form College",
@@ -229,7 +248,8 @@
       "visa": "https://www.stdavidscollege.ac.uk/how-to-apply-as-an-international-student/",
       "courseUrl": "https://www.stdavidscollege.ac.uk/courses-academic-pathways-international-study-programmes/",
       "sponsorStatus": "Student Sponsor",
-      "region": "威爾斯"
+      "region": "威爾斯",
+      "slug": "st-davids"
     }
   ]
 }
