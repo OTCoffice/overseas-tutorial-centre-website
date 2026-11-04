@@ -6,7 +6,7 @@ const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro),email='mai
 const labels=t(['諮詢範圍','服務內容','辦理流程','服務費用'],['Who it is for','Deliverables','Process','Fees']);
 return pageShell({title:a.titleZh,current:'services',lang:z?'zh-Hant':'en',locale:z?'zh':'en',path:a.path,description:a.summaryZh,image:cover,imageWidth:1200,imageHeight:630,imageAlt:a.titleZh,body:`
 ${z?`<style id="visa-service-layout">
-html:root body #section-4 table.visa-fees{width:100%!important;max-width:640px!important;min-width:0!important;table-layout:fixed!important;border-collapse:collapse!important;margin:8px 0 16px!important;font-size:12px!important;line-height:1.6!important;}
+html:root body #section-4 table.visa-fees{width:100%!important;max-width:100%!important;min-width:0!important;table-layout:fixed!important;border-collapse:collapse!important;margin:8px 0 16px!important;font-size:12px!important;line-height:1.6!important;}
 html:root body #section-4 table.visa-fees :is(th,td){padding:9px 12px!important;text-align:left!important;vertical-align:top!important;white-space:normal!important;overflow-wrap:anywhere!important;border:0!important;border-bottom:1px solid #d6c6ab!important;font-size:12px!important;line-height:1.6!important;}
 html:root body #section-4 table.visa-fees th{background:#f0ede5!important;color:#243e50!important;font-weight:600!important;}
 html:root body #contact .visa-contact h3{font-size:12px!important;line-height:1.5!important;font-weight:600!important;margin:0 0 7px!important;padding:0!important;border:0!important;}
