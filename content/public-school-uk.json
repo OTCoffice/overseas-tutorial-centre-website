@@ -4,9 +4,9 @@
   "name": "英國公校",
   "titleZh": "英國公校｜海外督導 OTC",
   "summaryZh": "按地區查閱18所英國公立學院，點選校名查看課程、費用、住宿與申請資料。",
-  "shareImageZh": "/assets/social/public-school-uk-20261030-global.png",
-  "socialImageVersion": "v=20261030-global",
-  "socialImageWidth": 1080,
-  "socialImageHeight": 1080,
-  "twitterCard": "summary"
+  "shareImageZh": "/assets/social/public-school-uk-share-20261104.jpg",
+  "socialImageVersion": "v=20261104-share-safe",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "twitterCard": "summary_large_image"
 }
