@@ -3,10 +3,10 @@
   "slug": "visa-application-support",
   "titleZh": "簽證陪跑｜各國簽證諮詢與申請協助",
   "summaryZh": "按目的地、護照及出行目的，梳理簽證要求、申請材料與辦理流程。",
-  "shareImageZh": "/assets/social/visa-support-alliance-style-20261104.png",
-  "socialImageVersion": "v=20261104-alliance",
+  "shareImageZh": "/assets/social/visa-support-alliance-safe-v3-20261104.png",
+  "socialImageVersion": "v=20261104-safe3",
   "socialImageWidth": 1200,
-  "socialImageHeight": 600,
+  "socialImageHeight": 1200,
   "lang": "zh",
   "sections": [
     {
@@ -44,5 +44,5 @@
   "socialImageSource": "share-only",
   "subtitleZh": "各國簽證諮詢與申請協助",
   "officialInformationHtml": "",
-  "sharePageVersion": "20261104-zh2"
+  "sharePageVersion": "20261104-safe3"
 }

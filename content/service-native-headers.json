@@ -513,15 +513,15 @@
   },
   "/zh/services/visa-application-support/": {
     "title": "簽證陪跑",
-    "image": "/assets/social/visa-support-alliance-style-20261104.png",
-    "version": "v=20261104-alliance",
+    "image": "/assets/social/visa-support-alliance-safe-v3-20261104.png",
+    "version": "v=20261104-safe3",
     "width": 1200,
-    "height": 600,
+    "height": 1200,
     "file": "zh/services/visa-application-support/index.html",
     "previousImage": "/assets/social/visa-support-zh-20260918.png",
     "cardType": "summary_large_image",
     "shareLayout": "safe-landscape",
-    "sharePageVersion": "20261104-zh2"
+    "sharePageVersion": "20261104-safe3"
   },
   "/zh/services/visiting-scholar-support/": {
     "title": "訪問學者與學術交流",
