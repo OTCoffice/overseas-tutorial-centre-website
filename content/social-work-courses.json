@@ -1,0 +1,165 @@
+{
+  "checked": "2026-11-05",
+  "courses": [
+    {
+      "school": "悉尼大學",
+      "english": "University of Sydney",
+      "state": "新南威爾斯州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.sydney.edu.au/arts/study/undergraduate-courses/our-degrees-explained/bachelor-of-social-work-explained.html",
+      "note": "最後兩年有兩段實習，合計超過140天。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "悉尼大學",
+      "english": "University of Sydney",
+      "state": "新南威爾斯州",
+      "level": "碩士",
+      "name": "Master of Social Work (Qualifying)",
+      "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-social-work-qualifying.html",
+      "note": "須核對先修知識及相關工作經歷；詳見2027課程規章。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "西悉尼大學",
+      "english": "Western Sydney University",
+      "state": "新南威爾斯州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.westernsydney.edu.au/future/study/courses/undergraduate/bachelor-of-social-work",
+      "note": "官網提供國際生申請入口；按申請年度選擇校區。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "西悉尼大學",
+      "english": "Western Sydney University",
+      "state": "新南威爾斯州",
+      "level": "碩士",
+      "name": "Master of Social Work (Qualifying)",
+      "url": "https://www.westernsydney.edu.au/future/study/courses/postgraduate/master-of-social-work-qualifying",
+      "note": "核對本科先修內容、英文及當期開課安排。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "伍倫貢大學",
+      "english": "University of Wollongong",
+      "state": "新南威爾斯州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-work/",
+      "note": "四年全日制；兩段實習共1,000小時。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "伍倫貢大學",
+      "english": "University of Wollongong",
+      "state": "新南威爾斯州",
+      "level": "碩士",
+      "name": "Master of Social Work (Qualifying)",
+      "url": "https://www.uow.edu.au/study/courses/master-of-social-work-qualifying/?addCourse=410553",
+      "note": "核對相關本科及社會科學修課；兩段實習各500小時。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "紐卡素大學",
+      "english": "University of Newcastle",
+      "state": "新南威爾斯州",
+      "level": "本科",
+      "name": "Bachelor of Social Work (Honours)",
+      "url": "https://www.newcastle.edu.au/degrees/bachelor-of-social-work-honours",
+      "note": "榮譽本科；須完成專業實習及課程要求。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "昆士蘭科技大學",
+      "english": "Queensland University of Technology",
+      "state": "昆士蘭州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.qut.edu.au/courses/bachelor-of-social-work",
+      "note": "包括兒童與家庭、健康、社區及社會政策等方向。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "昆士蘭科技大學",
+      "english": "Queensland University of Technology",
+      "state": "昆士蘭州",
+      "level": "碩士",
+      "name": "Master of Social Work – Qualifying",
+      "url": "https://www.qut.edu.au/courses/master-of-social-work-qualifying",
+      "note": "結合校園學習、線上教學、集中授課及實習；確認國際生適用模式。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "墨爾本大學",
+      "english": "University of Melbourne",
+      "state": "維多利亞州",
+      "level": "碩士",
+      "name": "Master of Social Work",
+      "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-social-work",
+      "note": "專業入行碩士；須核對本科背景與修課要求。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "蒙納士大學",
+      "english": "Monash University",
+      "state": "維多利亞州",
+      "level": "碩士",
+      "name": "Master of Social Work",
+      "url": "https://www.monash.edu/study/courses/find-a-course/social-work-m6012",
+      "note": "兩年全日制，1,000小時實習；持學生簽證赴澳者須選校園授課模式。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "迪肯大學",
+      "english": "Deakin University",
+      "state": "維多利亞州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.deakin.edu.au/course/bachelor-social-work",
+      "note": "1,000小時實習；申請前確認國際生可選校區與授課模式。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "迪肯大學",
+      "english": "Deakin University",
+      "state": "維多利亞州",
+      "level": "碩士",
+      "name": "Master of Social Work",
+      "url": "https://www.deakin.edu.au/course/master-social-work",
+      "note": "線上課程，另有至少20天面授及實習；不直接列作赴澳學生簽證選項。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "弗林德斯大學",
+      "english": "Flinders University",
+      "state": "南澳州",
+      "level": "本科",
+      "name": "Bachelor of Social Work",
+      "url": "https://www.flinders.edu.au/study/courses/bachelor-social-work",
+      "note": "核對校園與External模式，不能把兩者視為相同赴澳留學安排。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "弗林德斯大學",
+      "english": "Flinders University",
+      "state": "南澳州",
+      "level": "碩士",
+      "name": "Master of Social Work (Graduate Entry)",
+      "url": "https://www.flinders.edu.au/study/courses/master-social-work-graduate-entry",
+      "note": "供其他學科畢業生入行；須符合先修與英文要求。",
+      "recognition": "AASW認可名單列載"
+    },
+    {
+      "school": "西澳大學",
+      "english": "University of Western Australia",
+      "state": "西澳州",
+      "level": "碩士",
+      "name": "Master of Social Work",
+      "url": "https://www.uwa.edu.au/study/courses/master-of-social-work",
+      "note": "入行資格型課程；與供進修的 Master of Advanced Social Work 區分。",
+      "recognition": "AASW認可名單列載"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ navy,red,blue,teal,gold,cream='#162e43','#a5503d','#557989','#4e7e76','#cba34d',
 fontpath=sys.argv[1];scale=2
 schools=json.loads((root/'content/public-school-uk-schools.json').read_text())['schools']
 names={'hruc':'HRUC','kingston':'Kingston College','wqe':'WQE College','chichester-worthing':'Worthing College','st-davids':'St David’s Catholic\nSixth Form College','cardiff-and-vale':'Cardiff and Vale\nCollege','cambridge-regional':'Cambridge Regional\nCollege','east-sussex':'East Sussex\nCollege Group','gower-swansea':'Gower College\nSwansea'}
-entries=[dict(slug='uk',name='社工升學與職業規劃',location='澳洲 · 課程認可與就業準備',path='/zh/subject-planning/social-work/')]
+entries=[dict(slug='uk',name='社工升學與職業規劃',location='澳洲 · 課程認可與就業準備',path='/zh/subject-planning/social-work/'),dict(slug='courses',name='社工院校與課程',location='澳洲 · 10所院校 · 16項課程',path='/zh/subject-planning/social-work/courses/')]
 metadata={}
 for s in entries:
  im=Image.new('RGB',(2400,1200),navy);d=ImageDraw.Draw(im)
@@ -23,7 +23,7 @@ for s in entries:
  def text(x,y,value,size,color,weight=400):d.text((x*scale,y*scale),value,font=font(size,weight),fill=color)
  box((660,120,912,480),red);box((912,120,960,480),gold);box((0,475,1200,480),gold)
  text(48,160,'海外督導 OTC｜職業規劃',14,gold)
- title=names.get(s['slug'],s['name']);size=46 if s['slug']=='uk' else 34
+ title=s['name'];size=46 if s['slug']=='uk' else 34
  lines=title.split('\n')
  while max(d.textlength(line,font=font(size,700)) for line in lines)>590*scale:size-=1
  for i,line in enumerate(lines):text(48,208+i*49,line,size,'white',700)
@@ -32,12 +32,13 @@ for s in entries:
  locsize=17
  while d.textlength(loc,font=font(locsize))>590*scale:locsize-=1
  text(48,322,loc,locsize,'#e4c681')
- text(48,359,'實習與英文 · 薪資與移民',15,'#e8e9e5');text(48,403,'overseasuk.com',13,'white')
+ text(48,359,'本科與碩士 · 認可與官方連結' if s['slug']=='courses' else '實習與英文 · 薪資與移民',15,'#e8e9e5');text(48,403,'overseasuk.com',13,'white')
  box((751,193,1152,404),cream);box((751,193,1152,197),gold)
  text(773,212,'澳洲社工' if s['slug']=='uk' else '學校資料',11,red)
  for i,(label,color) in enumerate(zip(['本科與轉專業碩士' if s['slug']=='uk' else '課程與選科','AASW 職業評估','薪資統計與就業','技術移民條件'],[gold,teal,red,blue])):
+  label= ['社工本科・7項','入行資格型碩士・9項','認可與授課模式','官方課程與申請資料'][i] if s['slug']=='courses' else label
   y=239+i*38;box((773,y,1130,y+.5),'#d6d1c4');box((773,y+11,775,y+25),color);text(785,y+9,label,12,navy)
- name='social-work-share-20261105.jpg'
+ name='social-work-courses-share-20261105.jpg' if s['slug']=='courses' else 'social-work-share-20261105.jpg'
  im.resize((1200,600),Image.Resampling.LANCZOS).save(root/'assets/social'/name,quality=95)
  metadata[s['path']]={'shareImageZh':'/assets/social/'+name,'socialImageVersion':'v=20261104-share-safe','socialImageWidth':1200,'socialImageHeight':600,'twitterCard':'summary_large_image'}
 
