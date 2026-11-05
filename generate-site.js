@@ -76,3 +76,6 @@ require("./scripts/render-korea-schools.cjs");
 
 // Preserve photography planning and navigation after full generation.
 require("./scripts/render-photography-art.cjs");
+
+// Preserve social work category and navigation.
+require('./scripts/render-social-work.cjs');

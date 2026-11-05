@@ -240,6 +240,7 @@ const groups=[
         "/zh/services/internship-coaching/",
         "實習方向、申請面試、在崗復盤與成果整理。"
       ],
+      ["社工升學與職業規劃", "/zh/subject-planning/social-work/", "澳洲課程認可、實習、英文要求、薪資及移民途徑。"],
       ["護士求職與註冊", "/zh/nursing/", "按現有護士資格及目的地整理準備方向。"],
       [
         "澳洲求職指導",
