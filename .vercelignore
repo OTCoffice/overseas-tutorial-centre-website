@@ -1,0 +1,14 @@
+# Authoring and verification files stay in GitHub, outside deployments.
+# Keep all public pages, downloads, assets, app data, and API code.
+docs/
+screenshots/
+tests/
+scripts/
+publishing/btec-level-3-business-assignment-writing-toolkit/claude-review/
+publishing/btec-level-3-business-assignment-writing-toolkit/manuscript/
+publishing/nclex-rn-bilingual-study-companion/manuscript/
+publishing/nclex-rn-bilingual-study-companion/production/
+AGENTS.md
+README.md
+build_university_capability_statement.py
+generate-site.js
