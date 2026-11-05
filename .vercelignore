@@ -1,7 +1,10 @@
 # Authoring and verification files stay in GitHub, outside deployments.
 # Keep all public pages, downloads, assets, app data, and API code.
 docs/
-screenshots/
+# These two screenshots are live CSS backgrounds, not verification artifacts.
+screenshots/*
+!screenshots/australia-office-presence-executive-preview.png
+!screenshots/australia-business-landing-desktop.png
 tests/
 scripts/
 publishing/btec-level-3-business-assignment-writing-toolkit/claude-review/
