@@ -1,0 +1,421 @@
+[
+  {
+    "slug": "australia",
+    "name": "澳洲",
+    "summary": "AASW認可、職業評估與技術移民；10校16課程。"
+  },
+  {
+    "slug": "uk",
+    "name": "英國",
+    "summary": "按四地註冊制度選課，銜接畢業生或僱主擔保簽證。",
+    "study": "選擇可通往社工註冊的本科，或供已有本科者入行的MA／MSc Social Work。英格蘭本科通常三年、資格型碩士通常兩年；蘇格蘭及個別課程另查學制。社會政策或進修型碩士不一定提供首次註冊資格。",
+    "registration": "英格蘭由Social Work England監管；蘇格蘭為SSSC、威爾斯為Social Care Wales、北愛爾蘭為NISCC。海外社工資格須向工作地監管機構申請認可與註冊，不能用英格蘭認可直接概括全英國。",
+    "language": "入學英文、註冊英文及簽證英文分開核對。實習及入職可能要求面試、DBS或當地背景審查；學校須確認國際生實習安排。",
+    "work": "符合條件者可申請Graduate visa：2026年12月31日或之前申請一般為兩年，2027年1月1日起申請一般為18個月；博士為三年。社工職業代碼2461可核對Health and Care Worker或Skilled Worker，仍須合資格職位、持牌擔保僱主及薪資等條件；社工與care worker不是同一職業。",
+    "residence": "現行Skilled Worker／Health and Care Worker永居頁列五年合資格居留及薪資等要求。學生及Graduate visa時間不能直接當作這條五年路線的合資格工作居留。長期規劃須按申請時規則重核，不把政策提案當已生效制度。",
+    "salary": "National Careers Service參考年薪：入職約£32,000，具經驗約£48,000（稅前）；是職涯參考範圍，不是全國統一薪級或保證薪酬。",
+    "sources": [
+      [
+        "英格蘭認可課程",
+        "https://www.socialworkengland.org.uk/education-training/search-approved-courses/"
+      ],
+      [
+        "英國四地監管",
+        "https://www.regulated-professions.service.gov.uk/professions/social-worker-2"
+      ],
+      [
+        "海外資格與英文",
+        "https://www.socialworkengland.org.uk/registration/overseas-applicant-guidance"
+      ],
+      [
+        "Graduate visa",
+        "https://www.gov.uk/graduate-visa"
+      ],
+      [
+        "Health and Care Worker職業要求",
+        "https://www.gov.uk/health-care-worker-visa/your-job"
+      ],
+      [
+        "工作簽證永居",
+        "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa"
+      ],
+      [
+        "薪資參考",
+        "https://nationalcareers.service.gov.uk/job-profiles/social-worker"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "伯明翰大學",
+        "name": "BA Social Work",
+        "level": "本科",
+        "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-work-courses/social-work-ba",
+        "note": "英格蘭專業本科；核對國際生入學及實習要求。"
+      },
+      {
+        "school": "伯明翰大學",
+        "name": "MA Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-work-ma",
+        "note": "已有本科者的專業資格路線；核對相關背景與經驗。"
+      },
+      {
+        "school": "約克大學",
+        "name": "MA Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-work/",
+        "note": "位於英格蘭York；與加拿大York University區分。"
+      }
+    ]
+  },
+  {
+    "slug": "ireland",
+    "name": "愛爾蘭",
+    "summary": "CORU註冊、畢業生Stamp 1G及Critical Skills工作許可。",
+    "study": "本科或專業社工碩士須對照CORU的Social Workers認可資格名單。Professional Master／MSW通常涉及相關先修、服務經驗及實習；Social Care課程與Social Work分屬不同專業，不能互相替代。",
+    "registration": "在當地執業須符合CORU Social Workers Register要求。海外取得資格者先申請資格認可，再按規定註冊；持有學位不會自動完成註冊。",
+    "language": "按課程確認英文、面試及相關經驗，另查CORU語言要求。實習須預留全日時間，並按院校安排完成背景與適任審查。",
+    "work": "符合Third Level Graduate Programme者，NFQ Level 8畢業生可申請最多12個月；Level 9或以上先批12個月，符合求職進展及其他條件可續12個月。Social Worker列於Critical Skills清單，但仍須符合許可條件、薪資及至少兩年的工作聘約。",
+    "residence": "Critical Skills工作許可可銜接符合條件的後續居留安排；Stamp 4、長期居留與入籍為不同程序，不能把完成課程或取得Stamp 1G視為永居。",
+    "salary": "公營醫療職位可查HSE現行薪級表，按Social Worker職級、增薪點及可承認年資比較。HSE薪級不等於所有慈善機構或私人僱主的報價。",
+    "sources": [
+      [
+        "CORU社工認可資格",
+        "https://www.coru.ie/health-and-social-care-professionals/education/approved-qualifications/social-workers/"
+      ],
+      [
+        "政府社工入行說明",
+        "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/how-do-i-become-a-social-worker/"
+      ],
+      [
+        "畢業生居留",
+        "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/"
+      ],
+      [
+        "Critical Skills職業清單",
+        "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/critical%20skills%20occupations%20list.html"
+      ],
+      [
+        "Critical Skills許可",
+        "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/"
+      ],
+      [
+        "HSE薪級",
+        "https://healthservice.hse.ie/staff/pay/pay-scales/"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "都柏林聖三一學院",
+        "name": "Bachelor in Social Studies (B.S.S.)",
+        "level": "本科",
+        "url": "https://www.tcd.ie/courses/undergraduate/courses/social-studies/",
+        "note": "Social Studies (Social Work)專業路線，並非一般社會學學位。"
+      },
+      {
+        "school": "都柏林聖三一學院",
+        "name": "Master in Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://www.tcd.ie/swsp/courses/postgraduate/master-in-social-work-msw/",
+        "note": "兩年全日制；核對社會科學學位、相關經驗與推薦要求。"
+      },
+      {
+        "school": "都柏林大學學院 UCD",
+        "name": "Professional Master of Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://hub.ucd.ie/usis/%21W_HU_MENU.P_PUBLISH?MAJR=W426&p_tag=PROG",
+        "note": "兩年全日制、CORU認可；另核對非歐盟學費及工作經驗。"
+      }
+    ]
+  },
+  {
+    "slug": "new-zealand",
+    "name": "紐西蘭",
+    "summary": "SWRB認可課程與註冊；按Green List及聘約條件規劃居留。",
+    "study": "選SWRB認可的社工本科，或供已有本科者入行的Professional／Applied Social Work碩士。奧克蘭的Master of Social Work (Professional)與進修研究用途的Master of Social Work不同。",
+    "registration": "執業須向SWRB註冊並持有效Practising Certificate。海外資格者另走海外資格審核；畢業、註冊、執業證與移民申請各自辦理。",
+    "language": "核對學校及SWRB英文要求、面試、背景及適任審查。課程含受督導實習，也須準備紐西蘭雙文化及毛利社群實務學習。",
+    "work": "符合條件的Post Study Work Visa最長三年；完成碩士或博士並在紐西蘭學習至少30週者可核對三年安排，仍須滿足其他資格。",
+    "residence": "社工可核對Green List Tier 1的Straight to Residence路線，關鍵包括SWRB註冊、認可僱主的合資格全職工作或聘約、適用薪資、55歲或以下、英文、健康與品格。取得Resident Visa與其後Permanent Resident Visa是不同步驟，並非畢業即取得身份。",
+    "salary": "比較Oranga Tamariki、醫療機構及社區服務僱主的實際職缺薪級；看職級、認可年資、每週工時及退休金安排。本頁不把個別僱主薪級當作全國起薪。",
+    "sources": [
+      [
+        "SWRB認可課程",
+        "https://swrb.govt.nz/registration/nz-recognised-sw-qualifications/"
+      ],
+      [
+        "SWRB註冊",
+        "https://swrb.govt.nz/registration/"
+      ],
+      [
+        "畢業工作簽證時長",
+        "https://www.immigration.govt.nz/work/requirements-for-work-visas/how-long-you-can-work-on-work-visas/how-long-you-can-stay-on-a-post-study-work-visa/"
+      ],
+      [
+        "Green List醫療及社工路線",
+        "https://www.health.govt.nz/strategies-initiatives/programmes-and-initiatives/health-workforce/international-health-workers"
+      ],
+      [
+        "Straight to Residence",
+        "https://www.immigration.govt.nz/visas/straight-to-residence-visa/"
+      ],
+      [
+        "兒童服務社工招聘要求",
+        "https://www.orangatamariki.govt.nz/about-us/careers/social-worker-jobs/before-you-apply/"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "奧克蘭大學",
+        "name": "Bachelor of Social Work",
+        "level": "本科",
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/Program?p5_code=BSW",
+        "note": "社工專業本科；Honours須符合校內進階要求，不當作獨立轉入課程。"
+      },
+      {
+        "school": "奧克蘭大學",
+        "name": "Master of Social Work (Professional)",
+        "level": "入行資格型碩士",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-social-work-professional-mswprof.html",
+        "note": "供相關先修背景本科生申請；與非Professional的MSW區分。"
+      },
+      {
+        "school": "梅西大學",
+        "name": "Master of Applied Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-applied-social-work-PMAPC/",
+        "note": "含兩段受督導實習；國際生須確認校區及面授安排。"
+      }
+    ]
+  },
+  {
+    "slug": "canada",
+    "name": "加拿大",
+    "summary": "按省註冊，區分BSW、非社工本科入行碩士及Advanced Standing。",
+    "study": "課程先查CASWE認可。BSW的入學點可不同，例如UBC Vancouver須先核對大學修課條件；MSW分非BSW背景的兩年路線及通常要求已有BSW的Advanced Standing，不能只看碩士名稱。",
+    "registration": "社工專業要求由省／地區制度決定；海外資格評估亦須先向目標省監管機構確認。CASWE課程認可不等於自動取得省級註冊。",
+    "language": "查院校英文或法文、先修、社會服務經歷及實習安排；學校錄取英文與PGWP語言要求不相同。",
+    "work": "PGWP須確認院校與課程符合資格及修讀條件。本科、碩士及博士畢業生目前須達英文CLB 7或法文NCLC 7四項，無學科領域限制；仍不代表所有學校或授課模式均可取得PGWP。",
+    "residence": "可按個人條件核對Express Entry或省提名。社工NOC 41300列於醫療與社會服務類別；現行類別要求過去三年內在同一合資格職業累積至少12個月經驗，並須先符合Express Entry項目及當輪要求。被列入類別不保證獲邀。",
+    "salary": "Job Bank全國時薪中位數CAD 38.46；資料期2023–2024、2025年11月19日更新。省份及職位差異明顯，不能當作畢業起薪或直接換算保證年薪。",
+    "sources": [
+      [
+        "CASWE課程認可",
+        "https://caswe-acfts.ca/our-activities/accreditation/"
+      ],
+      [
+        "加拿大職業及省級要求",
+        "https://noc.esdc.gc.ca/OaSIS/OaSISOccProfile?GocTemplateCulture=en-CA&code=41300.00&version=2025.0&wbdisable=true"
+      ],
+      [
+        "PGWP資格",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html"
+      ],
+      [
+        "Express Entry類別",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html"
+      ],
+      [
+        "Job Bank薪資",
+        "https://www.jobbank.gc.ca/marketreport/wages-occupation/23025/ca"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "英屬哥倫比亞大學 UBC Vancouver",
+        "name": "Bachelor of Social Work",
+        "level": "本科",
+        "url": "https://socialwork.ubc.ca/undergraduate/bachelor-of-social-work/",
+        "note": "須先核對大學學分及入學要求，不視為高中畢業直接入讀的四年制。"
+      },
+      {
+        "school": "多倫多大學",
+        "name": "Master of Social Work — Two-Year",
+        "level": "入行資格型碩士",
+        "url": "https://socialwork.utoronto.ca/programs/msw/",
+        "note": "兩年路線供非BSW背景者；另有要求BSW的Advanced Standing。"
+      },
+      {
+        "school": "英屬哥倫比亞大學 UBC Okanagan",
+        "name": "MSW — Foundational Two-Year",
+        "level": "入行資格型碩士",
+        "url": "https://socialwork.ok.ubc.ca/msw-program/master-of-social-work/",
+        "note": "在Okanagan校區；與Vancouver進階MSW的入學條件不同。"
+      }
+    ]
+  },
+  {
+    "slug": "usa",
+    "name": "美國",
+    "summary": "先選目標州及牌照層級，再安排CSWE課程、實習與工作身份。",
+    "study": "本科看BSW，碩士區分一般入行MSW與要求已有BSW的Advanced Standing。課程認可查CSWE；臨床社工通常另需碩士、畢業後受督導經驗及州牌照。",
+    "registration": "牌照由州決定，職稱、考試、受督導時數及獨立執業要求並不全國統一。選校前確認課程能否滿足目標州教育要求，以及國際生可否完成所需實習。",
+    "language": "英文要求依院校；社工實習重視面談、紀錄與風險評估。F-1學生實習須先由學校DSO確認適用工作授權，不能把課程實習視為自動取得校外工作權利。",
+    "work": "合資格F-1學生一般可申請每個教育層級最多12個月OPT，工作須與專業相關並取得授權。不要預設社工課程屬STEM，延長資格須按實際CIP及DHS名單確認。",
+    "residence": "OPT為有期限的工作授權；其後工作身份或僱主支持的移民申請另看職位、僱主、名額與個人條件。社工學位或州牌照不會自動帶來綠卡。",
+    "salary": "BLS社工稅前年薪中位數USD 61,780（2025年5月）。涵蓋不同工作領域及年資，並非應屆起薪；州別、醫療與社區服務職位差異需另比較。",
+    "sources": [
+      [
+        "CSWE認可與州牌照說明",
+        "https://www.cswe.org/accreditation-faqs"
+      ],
+      [
+        "國際生實習與工作授權",
+        "https://www.ice.gov/doclib/sevis/pdf/SEVPPracticalTrainingOverview.pdf"
+      ],
+      [
+        "OPT及STEM官方規則背景",
+        "https://www.govinfo.gov/content/pkg/FR-2026-10-08/html/2026-20660.htm"
+      ],
+      [
+        "BLS職業、牌照與薪資",
+        "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "哥倫比亞大學",
+        "name": "MSSW — Two-Year / Five-Term International",
+        "level": "入行資格型碩士",
+        "url": "https://socialwork.columbia.edu/admissions",
+        "note": "按背景選兩年或國際生課程；赴美就讀須確認實體授課及F-1資格。"
+      },
+      {
+        "school": "密歇根大學",
+        "name": "Master of Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://ssw.umich.edu/academic-programs/msw",
+        "note": "按既有學位選修讀安排；另核對國際生英文、實習及目標州牌照要求。"
+      }
+    ]
+  },
+  {
+    "slug": "hong-kong",
+    "name": "香港",
+    "summary": "認可社工資格、RSW註冊、非本地畢業生IANG及居留。",
+    "study": "本科或轉專業碩士須查香港社工註冊局認可名單。課名不能跨校類推：香港中文大學的MSSc in Social Work為入行路線，其MSW主要供已有社工背景者進修。",
+    "registration": "按社工註冊局要求申請Registered Social Worker，查認可課程的校區、授課方式與適用入學／畢業年度。海外社工資格須按非本地資格制度另核實。",
+    "language": "入學英文之外，要向學校核對廣東話、中文個案紀錄、實習機構及面試要求；英語授課不表示實習與求職毋須中文。",
+    "work": "符合IANG資格的非本地應屆畢業生，在畢業後六個月內申請可毋須先取得聘約，通常可獲24個月逗留。須是符合規定的全日制、本地認可課程；兼讀課程不能直接套用。",
+    "residence": "永久居民資格涉及連續不少於七年通常居住及其他法定條件；非中國籍另有以香港為永久居住地等要求。入讀課程、註冊或IANG獲批均不等於已獲永久居民資格。",
+    "salary": "按政府或社福機構的實際職缺比較職級、薪級、合約期限及可承認年資；註冊社工資格不代表所有畢業生獲同一薪點。",
+    "sources": [
+      [
+        "社工註冊局認可課程",
+        "https://www.swrb.org.hk/en/hk.asp"
+      ],
+      [
+        "RSW申請",
+        "https://www.swrb.org.hk/en/Content.asp?Uid=27"
+      ],
+      [
+        "IANG資格",
+        "https://www.immd.gov.hk/eng/services/visas/IANG.html"
+      ],
+      [
+        "永久居民資格",
+        "https://www.immd.gov.hk/eng/services/roa/eligible.html"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "香港大學",
+        "name": "Bachelor of Social Work",
+        "level": "本科",
+        "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-social-work",
+        "note": "核對非本地生要求及實習語言。"
+      },
+      {
+        "school": "香港大學",
+        "name": "Master of Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/",
+        "note": "兩年全日制或三年兼讀；IANG適用性須按實際修讀模式確認。"
+      },
+      {
+        "school": "香港中文大學",
+        "name": "MSSc in Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-social-work",
+        "note": "入行課程是MSSc；勿與同校供專業進修的MSW混淆。"
+      },
+      {
+        "school": "香港浸會大學",
+        "name": "Master of Social Sciences in Social Work",
+        "level": "入行資格型碩士",
+        "url": "https://sowk.hkbu.edu.hk/en/programmes/master-of-social-sciences-in-social-work.html",
+        "note": "供本科畢業生取得認可社工資格；核對授課模式及實習安排。"
+      },
+      {
+        "school": "香港中文大學",
+        "name": "Master of Social Work",
+        "level": "已有資格者進修",
+        "url": "https://web.swk.cuhk.edu.hk/en-gb/postgraduate/msw",
+        "note": "進階專業發展課程，不列為首次取得RSW的轉專業路線。"
+      }
+    ]
+  },
+  {
+    "slug": "singapore",
+    "name": "新加坡",
+    "summary": "核對SASW專業認證、國際生可讀模式及僱主工作准證。",
+    "study": "認可本科及Graduate Diploma可提供入行教育；部分MSW主要面向已有社工學位或相關資格者。新加坡課程的兼讀、國際生及Student’s Pass安排須逐校確認，不能把本地轉職培訓當作所有海外申請人可用的留學路線。",
+    "registration": "SASW／SWAAB專業認證分RSW-P及RSW等類別，涉及認可學歷、受督導實務及工作條件。這套專業認證與MOM工作准證分開，不能相互替代。",
+    "language": "按院校及服務對象核對英文、其他服務語言、相關經驗與實習。已有資格者讀MSW與非社工本科者讀入行Graduate Diploma應分開評估。",
+    "work": "就業通常須由僱主申請合適工作准證。EP須達隨年齡提高的薪資及通常適用的COMPASS；非金融業最低起點目前S$5,600，2027年1月1日起新申請為S$6,000。S Pass另有薪資、配額及徵稅等條件，並非較低薪即可自動取得。",
+    "residence": "EP或S Pass持有人可按ICA資格申請PR，但是否批准取決於個人及家庭等綜合因素；沒有讀完社工、工作滿固定年數便自動取得PR的承諾。",
+    "salary": "薪資比較可由NCSS社會服務職涯及行業薪資指引入手，再查職缺薪級。專業薪資與EP／S Pass最低門檻是不同數字；須核對實際聘約能否支持工作准證。",
+    "sources": [
+      [
+        "SASW認可資格",
+        "https://sasw.org.sg/about-accreditation/recognised-social-work-qualifications/"
+      ],
+      [
+        "專業認證條件",
+        "https://accreditation.sasw.org.sg/criteria"
+      ],
+      [
+        "EP條件與2027薪資",
+        "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility?locale=en"
+      ],
+      [
+        "PR申請條件",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence"
+      ],
+      [
+        "NCSS職涯與薪資指引入口",
+        "https://www.ncss.gov.sg/careers/social-service-careers/"
+      ]
+    ],
+    "courses": [
+      {
+        "school": "新加坡社會科學大學 SUSS",
+        "name": "Bachelor of Social Work (Full-Time)",
+        "level": "本科",
+        "url": "https://www.suss.edu.sg/programmes/detail/ft-bachelor-of-social-work",
+        "note": "先確認申請人身份、國際生招生及Student’s Pass資格。"
+      },
+      {
+        "school": "新加坡國立大學 NUS",
+        "name": "Graduate Diploma in Social Work",
+        "level": "入行文憑",
+        "url": "https://fass.nus.edu.sg/swk/graduate-diploma-social-work/",
+        "note": "非社工本科轉入專業的教育路線；須核對當期修讀模式與居留安排。"
+      },
+      {
+        "school": "新加坡國立大學 NUS",
+        "name": "Master of Social Work (Coursework)",
+        "level": "已有資格者進修",
+        "url": "https://fass.nus.edu.sg/swk/master-of-social-work-coursework-about/",
+        "note": "先核對社工學位／文憑或指定相關背景要求，不當作無條件轉專業碩士。"
+      },
+      {
+        "school": "新加坡社會科學大學 SUSS",
+        "name": "Master of Social Work",
+        "level": "已有資格者進修",
+        "url": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw",
+        "note": "要求社工本科或社工Graduate Diploma等背景；國際生另核對授課與居留模式。"
+      }
+    ]
+  }
+]
