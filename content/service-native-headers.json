@@ -453,11 +453,13 @@
   },
   "/zh/services/university-application-advisory/": {
     "title": "大學申請顧問",
-    "image": "/assets/social/native-university-application-advisory-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 268,
-    "file": "zh/services/university-application-advisory/index.html"
+    "image": "/assets/social/university-application-share-20261106-v1.png",
+    "version": "v=20261106-v1",
+    "width": 1200,
+    "height": 600,
+    "file": "zh/services/university-application-advisory/index.html",
+    "cardType": "summary_large_image",
+    "shareLayout": "share-only"
   },
   "/zh/services/us-community-college/": {
     "title": "美國社區大學申請協助",

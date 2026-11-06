@@ -1,0 +1,17 @@
+{
+  "title": "大學申請顧問",
+  "image": "/assets/social/university-application-share-20261106-v1.png",
+  "version": "v=20261106-v1",
+  "width": 1200,
+  "height": 600,
+  "file": "zh/services/university-application-advisory/index.html",
+  "cardType": "summary_large_image",
+  "shareLayout": "share-only",
+  "path": "/zh/services/university-application-advisory/",
+  "shareImageZh": "/assets/social/university-application-share-20261106-v1.png",
+  "socialImageVersion": "v=20261106-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "twitterCard": "summary_large_image"
+}
