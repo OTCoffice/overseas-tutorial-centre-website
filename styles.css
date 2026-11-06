@@ -31848,3 +31848,53 @@ html:root body:is(body,#otc-compact-layout) .summer-alliance-bottom-cta .btn{
  width:auto!important;min-height:0!important;padding:4px 9px!important;
  font-size:12px!important;line-height:1.5!important;border-radius:2px!important;box-shadow:none!important;
 }
+
+
+/* Isabella Bird 12-title preview: editorial cover-and-count layout. */
+.bird-preview-band { padding-top: 26px; padding-bottom: 30px; }
+.bird-preview-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(250px, .72fr);
+  overflow: hidden;
+  border: 1px solid #d5c7aa;
+  border-radius: 18px;
+  background: linear-gradient(118deg, #081d33 0%, #123c53 68%, #1d4b5a 100%);
+  box-shadow: 0 18px 44px rgba(6, 26, 47, .16);
+  color: #fff;
+}
+.bird-preview-copy { padding: clamp(26px, 4vw, 48px); align-self: center; }
+.bird-preview-kicker { margin: 0 0 18px; color: #d6b875; font-size: 12px; font-weight: 800; letter-spacing: .14em; }
+.bird-preview-kicker span { margin-left: 10px; color: rgba(255,255,255,.68); letter-spacing: .04em; font-weight: 600; }
+.bird-preview-copy h2 { color: #fff; font-family: var(--font-claude-serif); font-size: clamp(28px, 3.2vw, 42px); line-height: 1.14; }
+.bird-preview-subtitle { margin: 9px 0 0; color: #e5d7b6; font-size: 16px; letter-spacing: .04em; }
+.bird-preview-description { max-width: 650px; margin: 20px 0 0; color: rgba(255,255,255,.86); font-size: 15px; line-height: 1.85; }
+.bird-preview-status { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; max-width: 700px; margin-top: 25px; border-top: 1px solid rgba(255,255,255,.2); border-bottom: 1px solid rgba(255,255,255,.2); }
+.bird-preview-status div { padding: 13px 12px 13px 0; }
+.bird-preview-status div + div { padding-left: 16px; border-left: 1px solid rgba(255,255,255,.18); }
+.bird-preview-status span, .bird-preview-status strong { display: block; }
+.bird-preview-status span { color: rgba(255,255,255,.64); font-size: 11px; letter-spacing: .08em; }
+.bird-preview-status strong { margin-top: 5px; color: #fff; font-size: 14px; line-height: 1.35; }
+.bird-preview-cta { display: inline-flex; gap: 12px; align-items: center; min-height: 45px; margin-top: 24px; padding: 0 18px; border-radius: 7px; background: #d5b36b; color: #102438; font-size: 14px; font-weight: 800; text-decoration: none; }
+.bird-preview-cta:hover, .bird-preview-cta:focus-visible { background: #ead8ad; }
+.bird-preview-art { position: relative; display: flex; min-height: 350px; align-items: center; justify-content: center; overflow: hidden; background: radial-gradient(ellipse at 58% 43%, rgba(224,202,151,.2), transparent 62%); }
+.bird-preview-art img { position: relative; z-index: 1; display: block; width: clamp(130px, 17vw, 210px); height: auto; max-height: 330px; object-fit: contain; border-radius: 3px; box-shadow: 0 18px 32px rgba(0,0,0,.38); transform: rotate(2deg); }
+.bird-preview-art-label { position: absolute; top: 24px; right: 24px; color: rgba(255,255,255,.54); font-size: 10px; letter-spacing: .19em; }
+.bird-preview-count { position: absolute; right: 18px; bottom: 21px; z-index: 2; display: flex; align-items: baseline; gap: 5px; padding: 7px 11px; border: 1px solid rgba(229,211,170,.42); border-radius: 5px; background: rgba(6,26,47,.84); color: #fff; }
+.bird-preview-count strong { color: #e2c47f; font-family: var(--font-claude-serif); font-size: 29px; line-height: 1; }
+.bird-preview-count span { font-size: 12px; }
+@media (max-width: 760px) {
+  .bird-preview-card { grid-template-columns: 1fr; }
+  .bird-preview-copy { padding: 27px 22px 23px; }
+  .bird-preview-art { min-height: 250px; justify-content: flex-start; padding-left: 28px; }
+  .bird-preview-art img { width: 132px; max-height: 220px; }
+  .bird-preview-count { right: 23px; bottom: 24px; }
+  .bird-preview-art-label { top: 20px; right: 18px; }
+}
+@media (max-width: 460px) {
+  .bird-preview-kicker span { display: block; margin: 5px 0 0; }
+  .bird-preview-status { grid-template-columns: 1fr; }
+  .bird-preview-status div, .bird-preview-status div + div { padding: 10px 0; border-left: 0; }
+  .bird-preview-status div + div { border-top: 1px solid rgba(255,255,255,.14); }
+  .bird-preview-status span, .bird-preview-status strong { display: inline; }
+  .bird-preview-status strong { margin-left: 12px; }
+}
