@@ -1,0 +1,198 @@
+[
+  {
+    "country": "英國",
+    "label": "GOV.UK 學位認可與四地院校登記",
+    "url": "https://www.gov.uk/check-university-award-degree",
+    "scope": "按英格蘭、蘇格蘭、威爾斯及北愛爾蘭分別查核；授課機構與學位頒授機構分開。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "澳洲",
+    "label": "TEQSA National Register",
+    "url": "https://www.teqsa.gov.au/national-register",
+    "scope": "全國註冊高教機構，按 Australian University、University College 等類別查詢；國際生課程另核對 CRICOS。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "紐西蘭",
+    "label": "NZQA 教育機構查詢",
+    "url": "https://www.nzqa.govt.nz/providers/index.do",
+    "scope": "高教機構與資格查核；八所大學另參考 Universities New Zealand，不能把理工與私立機構排除。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "美國",
+    "label": "NCES College Navigator",
+    "url": "https://nces.ed.gov/collegenavigator/",
+    "scope": "按州別、學歷層級及機構類型搜尋；資料庫收錄範圍以 NCES 說明為準，專業認可另查。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "加拿大",
+    "label": "CICIC 加拿大教育機構名錄",
+    "url": "https://www.cicic.ca/868/search_the_directory_of_educational_institutions_in_canada.canada",
+    "scope": "按省及地區查詢教育機構認可狀態；留學簽證及畢業後工作資格另核對 IRCC。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "愛爾蘭",
+    "label": "HEA 高教機構名錄",
+    "url": "https://hea.ie/higher-education-institutions/",
+    "scope": "依法與 HEA 合作或獲核心公共資助的機構；不是所有私立高教院校名單，私立課程另查 QQI。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "日本",
+    "label": "JASSO 學校搜尋",
+    "url": "https://www.studyinjapan.go.jp/en/search-for-schools/school_search.php?lang=en",
+    "scope": "可按學校類型、地區等查詢；本搜尋收錄的學校資料不等於文部科學省全部大學總數。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "韓國",
+    "label": "Study in Korea 院校查詢",
+    "url": "https://www.studyinkorea.go.kr/",
+    "scope": "韓國政府留學平台；院校、學歷層級與國際生招生資料依搜尋條件查詢。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "香港",
+    "label": "教育局學位頒授院校名錄",
+    "url": "https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/institutions/index.html",
+    "scope": "22 所可頒授學位的高等教育院校，含公帑及自資；副學位及非本地課程另查。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "新加坡",
+    "label": "MOE 自治大學名錄",
+    "url": "https://www.moe.gov.sg/post-secondary/overview/autonomous-universities",
+    "scope": "六所自治大學；不等於全部可讀學位的機構，藝術大學與私立教育機構分開核對。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "台灣",
+    "label": "教育部大專校院一覽表",
+    "url": "https://udb.moe.edu.tw/ulist/",
+    "scope": "按學年度列出公私立、一般大學與技專校院等；國際生、港澳生與僑生的招生渠道分開。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "馬來西亞",
+    "label": "MQA Malaysian Qualifications Register",
+    "url": "https://www2.mqa.gov.my/mqr/",
+    "scope": "按公私立機構及認可課程查詢；院校登記與課程認可不是同一項。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "泰國",
+    "label": "MHESI 認可高教機構名單",
+    "url": "https://www.ops.go.th/th/inter-about-ops-mhesi/higher-education",
+    "scope": "主管機關公布的認可院校文件；按文件日期及機構類型查核。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "德國",
+    "label": "HRK Hochschulkompass",
+    "url": "https://www.hochschulkompass.de/en/higher-education-institutions.html",
+    "scope": "德國大學校長聯席會議院校資料庫；按大學、應用科技大學及藝術音樂院校等類型查詢。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "法國",
+    "label": "Campus France 課程與院校目錄",
+    "url": "https://www.campusfrance.org/fr/trouver-formation-universitaire-France",
+    "scope": "按 Licence、Master 等學歷查課程及提供院校；不把標章或某申請系統會員名單當全部認可院校。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "荷蘭",
+    "label": "Nuffic / Study in NL 院校分類",
+    "url": "https://www.studyinnl.org/dutch-education",
+    "scope": "研究型大學、應用科技大學及國際教育機構分開；課程認可需另核對。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "意大利",
+    "label": "Universitaly 院校搜尋",
+    "url": "https://www.universitaly.org/en/cerca-istituzioni",
+    "scope": "義大利官方高教入口，按大學及 AFAM 等類別查詢；各學歷課程另有招生要求。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "瑞典",
+    "label": "Universityadmissions.se 院校名錄",
+    "url": "https://www.universityadmissions.se/en/find-out-more/swedish-universities/",
+    "scope": "招生平台院校聯絡名單，含 universities 與 university colleges；各校授予博士學位權不一。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "芬蘭",
+    "label": "Study in Finland 院校目錄",
+    "url": "https://www.studyinfinland.fi/universities",
+    "scope": "大學與應用科技大學分列，按官方平台當期名單查詢；其他特殊主管機構另查。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "丹麥",
+    "label": "丹麥高教機構認可資料庫",
+    "url": "https://hei.ciriusintra.dk/",
+    "scope": "可查當前及歷史機構，須留意狀態；不把歷史或已合併機構當現行院校。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "挪威",
+    "label": "Study in Norway 高教機構名錄",
+    "url": "https://studyinnorway.no/higher-education-institutions-norway",
+    "scope": "按大學、專門大學、大學學院及有認可課程的機構分類；認可狀態另依 NOKUT。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "冰島",
+    "label": "冰島政府大學名錄",
+    "url": "https://island.is/en/universities",
+    "scope": "政府列出七所大學層級機構；不同院校提供的學歷及授課語言不一。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "希臘",
+    "label": "Study in Greece 院校搜尋",
+    "url": "https://apply.studyingreece.edu.gr/en/universities",
+    "scope": "留學平台所列院校及課程，不把平台參與院校數當全國機構總數。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "奧地利",
+    "label": "OeAD 高教機構名錄",
+    "url": "https://studyinaustria.at/en/study/institutions",
+    "scope": "公立大學、私立大學、應用科技大學及師範高教機構分開查詢。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "巴西",
+    "label": "MEC 官方高教機構與課程登記",
+    "url": "https://www.gov.br/mec/pt-br/politica-regulacao-supervisao-educacao-superior/cadastro-nacional-de-cursos-e-ies",
+    "scope": "由教育部說明並連到 e-MEC，查機構及課程授權狀態；不只列研究型大學。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "智利",
+    "label": "Mi Futuro 高教機構搜尋",
+    "url": "https://www.chileatiende.gob.cl/fichas/16563-informacion-sobre-educacion-superior-y-tecnico-profesional",
+    "scope": "政府服務頁連到 Mi Futuro，查大學、專業學院及技術培訓中心，機構類型分開。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "南非",
+    "label": "DHET 高教院校及私立機構登記",
+    "url": "https://www.dhet.gov.za/",
+    "scope": "公立大學與註冊私立高教機構分開；私立機構須依當期登記冊核對。",
+    "checked": "2026-11-06"
+  },
+  {
+    "country": "埃及",
+    "label": "政府公布認可高教機構名單",
+    "url": "https://sis.gov.eg/en/egyptians-abroad-portal/education/university-education/updated-list-of-accredited-higher-education-institutions/",
+    "scope": "公立、私立、非營利及其他機構依官方類別查閱，招生與課程認可另外確認。",
+    "checked": "2026-11-06"
+  }
+]
