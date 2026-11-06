@@ -1,0 +1,3141 @@
+[
+  {
+    "country": "英國",
+    "name": "倫敦大學學院",
+    "en": "University College London",
+    "city": "London",
+    "slug": "university-college-london",
+    "home": "https://www.ucl.ac.uk/",
+    "undergraduate": "https://www.ucl.ac.uk/prospective-students/undergraduate/",
+    "postgraduate": "https://www.ucl.ac.uk/prospective-students/graduate/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "曼徹斯特大學",
+    "en": "University of Manchester",
+    "city": "Manchester",
+    "slug": "university-of-manchester",
+    "home": "https://www.manchester.ac.uk/",
+    "undergraduate": "https://www.manchester.ac.uk/study/undergraduate/",
+    "postgraduate": "https://www.manchester.ac.uk/study/masters/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.manchester.ac.uk/",
+        "title": "The University of Manchester"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.manchester.ac.uk/study/undergraduate/",
+        "title": "Undergraduate study at The University of Manchester"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.manchester.ac.uk/study/masters/",
+        "title": "Taught master's study at The University of Manchester"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "愛丁堡大學",
+    "en": "University of Edinburgh",
+    "city": "Edinburgh",
+    "slug": "university-of-edinburgh",
+    "home": "https://www.ed.ac.uk/",
+    "undergraduate": "https://study.ed.ac.uk/undergraduate",
+    "postgraduate": "https://study.ed.ac.uk/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ed.ac.uk/",
+        "title": "The University of Edinburgh"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://study.ed.ac.uk/undergraduate",
+        "title": "Undergraduate study | The University of Edinburgh"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://study.ed.ac.uk/postgraduate",
+        "title": "Postgraduate study | The University of Edinburgh"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "伯明翰大學",
+    "en": "University of Birmingham",
+    "city": "Birmingham",
+    "slug": "university-of-birmingham",
+    "home": "https://www.birmingham.ac.uk/",
+    "undergraduate": "https://www.birmingham.ac.uk/study/undergraduate",
+    "postgraduate": "https://www.birmingham.ac.uk/study/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.birmingham.ac.uk/",
+        "title": "A leading global university - University of Birmingham"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.birmingham.ac.uk/study/undergraduate",
+        "title": "Undergraduate study - University of Birmingham"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.birmingham.ac.uk/study/postgraduate",
+        "title": "Postgraduate study &amp; research at Birmingham - University of Birmingham"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "里茲大學",
+    "en": "University of Leeds",
+    "city": "Leeds",
+    "slug": "university-of-leeds",
+    "home": "https://www.leeds.ac.uk/",
+    "undergraduate": "https://www.leeds.ac.uk/undergraduate",
+    "postgraduate": "https://www.leeds.ac.uk/masters",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.leeds.ac.uk/",
+        "title": "University of Leeds"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.leeds.ac.uk/undergraduate",
+        "title": "Undergraduate courses | University of Leeds"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.leeds.ac.uk/masters",
+        "title": "Masters courses | University of Leeds"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "諾丁漢大學",
+    "en": "University of Nottingham",
+    "city": "Nottingham",
+    "slug": "university-of-nottingham",
+    "home": "https://www.nottingham.ac.uk/",
+    "undergraduate": "https://www.nottingham.ac.uk/studywithus/ugstudy/",
+    "postgraduate": "https://www.nottingham.ac.uk/pgstudy/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.nottingham.ac.uk/",
+        "title": "University of Nottingham"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+        "title": "Find your course"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.nottingham.ac.uk/pgstudy/",
+        "title": "Postgraduate study"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "雪菲爾大學",
+    "en": "University of Sheffield",
+    "city": "Sheffield",
+    "slug": "university-of-sheffield",
+    "home": "https://sheffield.ac.uk/",
+    "undergraduate": "https://sheffield.ac.uk/undergraduate",
+    "postgraduate": "https://sheffield.ac.uk/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://sheffield.ac.uk/",
+        "title": "Home | The University of Sheffield"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://sheffield.ac.uk/undergraduate",
+        "title": "Undergraduate study | Undergraduate study | The University of Sheffield"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://sheffield.ac.uk/postgraduate",
+        "title": "Postgraduate study | Postgraduate study | The University of Sheffield"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "紐卡素大學",
+    "en": "Newcastle University",
+    "city": "Newcastle upon Tyne",
+    "slug": "newcastle-university",
+    "home": "https://www.ncl.ac.uk/",
+    "undergraduate": "https://www.ncl.ac.uk/undergraduate/",
+    "postgraduate": "https://www.ncl.ac.uk/postgraduate/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ncl.ac.uk/",
+        "title": "Newcastle University | World Top 150 Research-led UK University | Newcastle University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ncl.ac.uk/undergraduate/",
+        "title": "Undergraduate Study | Newcastle University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ncl.ac.uk/postgraduate/",
+        "title": "Postgraduate Study | Master's & PhD Degrees"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "卡迪夫大學",
+    "en": "Cardiff University",
+    "city": "Cardiff",
+    "slug": "cardiff-university",
+    "home": "https://www.cardiff.ac.uk/",
+    "undergraduate": "https://www.cardiff.ac.uk/study/undergraduate",
+    "postgraduate": "https://www.cardiff.ac.uk/study/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "英國",
+    "name": "約克大學",
+    "en": "University of York",
+    "city": "York",
+    "slug": "university-of-york",
+    "home": "https://www.york.ac.uk/",
+    "undergraduate": "https://www.york.ac.uk/study/undergraduate/",
+    "postgraduate": "https://www.york.ac.uk/study/postgraduate-taught/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.york.ac.uk/",
+        "title": "University of York"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.york.ac.uk/study/undergraduate/",
+        "title": "Undergraduate - Undergraduate, University of York"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.york.ac.uk/study/postgraduate-taught/",
+        "title": "Postgraduate taught - Postgraduate taught, University of York"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "都柏林聖三一大學",
+    "en": "Trinity College Dublin",
+    "city": "Dublin",
+    "slug": "trinity-college-dublin",
+    "home": "https://www.tcd.ie/",
+    "undergraduate": "https://www.tcd.ie/courses/undergraduate/",
+    "postgraduate": "https://www.tcd.ie/courses/postgraduate/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.tcd.ie/",
+        "title": "Trinity College Dublin"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tcd.ie/courses/undergraduate/",
+        "title": "Undergraduate - Courses | Trinity College Dublin"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.tcd.ie/courses/postgraduate/",
+        "title": "Postgraduate - Courses | Trinity College Dublin"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "都柏林大學",
+    "en": "University College Dublin",
+    "city": "Dublin",
+    "slug": "university-college-dublin",
+    "home": "https://www.ucd.ie/",
+    "undergraduate": "https://www.ucd.ie/global/study-at-ucd/undergraduate/",
+    "postgraduate": "https://www.ucd.ie/graduateadmissions/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "科克大學",
+    "en": "University College Cork",
+    "city": "Cork",
+    "slug": "university-college-cork",
+    "home": "https://www.ucc.ie/en/",
+    "undergraduate": "https://www.ucc.ie/en/study/undergrad/",
+    "postgraduate": "https://www.ucc.ie/en/study/postgrad/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ucc.ie/en/",
+        "title": "World-class Undergraduate and Postgraduate Education in Ireland - University College Cork"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ucc.ie/en/study/undergrad/",
+        "title": "Undergraduate | Admissions | UCC | Courses | Points | Prospectus | Programmes"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ucc.ie/en/study/postgrad/",
+        "title": "Postgraduate Study and Research Courses UCC | University College Cork | Ireland"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "高威大學",
+    "en": "University of Galway",
+    "city": "Galway",
+    "slug": "university-of-galway",
+    "home": "https://www.universityofgalway.ie/",
+    "undergraduate": "https://www.universityofgalway.ie/courses/undergraduate-courses/",
+    "postgraduate": "https://www.universityofgalway.ie/courses/taught-postgraduate-courses/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.universityofgalway.ie/",
+        "title": "University of Galway - University of Galway"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.universityofgalway.ie/courses/undergraduate-courses/",
+        "title": "Undergraduate Courses - University of Galway"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.universityofgalway.ie/courses/taught-postgraduate-courses/",
+        "title": "Postgraduate Taught Courses - University of Galway"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "都柏林城市大學",
+    "en": "Dublin City University",
+    "city": "Dublin",
+    "slug": "dublin-city-university",
+    "home": "https://www.dcu.ie/",
+    "undergraduate": "https://www.dcu.ie/courses/undergraduate",
+    "postgraduate": "https://www.dcu.ie/courses/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.dcu.ie/",
+        "title": "Dublin City University | DCU"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "利默里克大學",
+    "en": "University of Limerick",
+    "city": "Limerick",
+    "slug": "university-of-limerick",
+    "home": "https://www.ul.ie/",
+    "undergraduate": "https://www.ul.ie/courses",
+    "postgraduate": "https://www.ul.ie/gps",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ul.ie/",
+        "title": "University of Limerick"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ul.ie/study/undergraduate",
+        "title": "Undergraduate | University of Limerick"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ul.ie/gps",
+        "title": "Graduate and Professional Studies | University of Limerick"
+      }
+    }
+  },
+  {
+    "country": "愛爾蘭",
+    "name": "梅努斯大學",
+    "en": "Maynooth University",
+    "city": "Maynooth",
+    "slug": "maynooth-university",
+    "home": "https://www.maynoothuniversity.ie/",
+    "undergraduate": "https://www.maynoothuniversity.ie/study-maynooth/undergraduate-studies",
+    "postgraduate": "https://www.maynoothuniversity.ie/study-maynooth/postgraduate-studies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "墨爾本大學",
+    "en": "University of Melbourne",
+    "city": "Melbourne",
+    "slug": "university-of-melbourne",
+    "home": "https://www.unimelb.edu.au/",
+    "undergraduate": "https://study.unimelb.edu.au/",
+    "postgraduate": "https://study.unimelb.edu.au/find/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "悉尼大學",
+    "en": "University of Sydney",
+    "city": "Sydney",
+    "slug": "university-of-sydney",
+    "home": "https://www.sydney.edu.au/",
+    "undergraduate": "https://www.sydney.edu.au/study.html",
+    "postgraduate": "https://www.sydney.edu.au/courses/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.sydney.edu.au/",
+        "title": "One of Australia’s top universities - The University of Sydney"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.sydney.edu.au/study.html",
+        "title": "Study with us - The University of Sydney"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.sydney.edu.au/courses/search.html",
+        "title": "Course search - The University of Sydney"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "新南威爾斯大學",
+    "en": "UNSW Sydney",
+    "city": "Sydney",
+    "slug": "unsw-sydney",
+    "home": "https://www.unsw.edu.au/",
+    "undergraduate": "https://www.unsw.edu.au/study",
+    "postgraduate": "https://www.unsw.edu.au/study/postgraduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.unsw.edu.au/",
+        "title": "UNSW Sydney | Australia&#39;s #1 university"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.unsw.edu.au/study",
+        "title": "Study in Australia | UNSW Sydney"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.unsw.edu.au/study/postgraduate",
+        "title": "Postgraduate study | UNSW Sydney"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "蒙納許大學",
+    "en": "Monash University",
+    "city": "Melbourne",
+    "slug": "monash-university",
+    "home": "https://www.monash.edu/",
+    "undergraduate": "https://www.monash.edu/study",
+    "postgraduate": "https://www.monash.edu/study/courses",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "昆士蘭大學",
+    "en": "University of Queensland",
+    "city": "Brisbane",
+    "slug": "university-of-queensland",
+    "home": "https://www.uq.edu.au/",
+    "undergraduate": "https://study.uq.edu.au/",
+    "postgraduate": "https://study.uq.edu.au/study-options/programs",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uq.edu.au/",
+        "title": "The University of Queensland"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://study.uq.edu.au/",
+        "title": "Study at UQ - The University of Queensland - Create change"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://study.uq.edu.au/study-options/programs",
+        "title": "Find a degree at UQ"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "澳洲國立大學",
+    "en": "Australian National University",
+    "city": "Canberra",
+    "slug": "australian-national-university",
+    "home": "https://www.anu.edu.au/",
+    "undergraduate": "https://study.anu.edu.au/",
+    "postgraduate": "https://programsandcourses.anu.edu.au/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.anu.edu.au/",
+        "title": "The Australian National University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://study.anu.edu.au/",
+        "title": "Study | The Australian National University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://programsandcourses.anu.edu.au/",
+        "title": "Programs and Courses - ANU"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "西澳大學",
+    "en": "University of Western Australia",
+    "city": "Perth",
+    "slug": "university-of-western-australia",
+    "home": "https://www.uwa.edu.au/",
+    "undergraduate": "https://www.uwa.edu.au/study",
+    "postgraduate": "https://www.uwa.edu.au/study/courses",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uwa.edu.au/home",
+        "title": "The University of Western Australia | UWA"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uwa.edu.au/study",
+        "title": "Study | UWA"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.uwa.edu.au/study/explore-courses",
+        "title": "Explore courses | UWA"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "迪肯大學",
+    "en": "Deakin University",
+    "city": "Geelong / Melbourne",
+    "slug": "deakin-university",
+    "home": "https://www.deakin.edu.au/",
+    "undergraduate": "https://www.deakin.edu.au/study",
+    "postgraduate": "https://www.deakin.edu.au/course",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "澳洲",
+    "name": "格里菲斯大學",
+    "en": "Griffith University",
+    "city": "Brisbane / Gold Coast",
+    "slug": "griffith-university",
+    "home": "https://www.griffith.edu.au/",
+    "undergraduate": "https://www.griffith.edu.au/study",
+    "postgraduate": "https://www.griffith.edu.au/study/degrees",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "奧克蘭大學",
+    "en": "University of Auckland",
+    "city": "Auckland",
+    "slug": "university-of-auckland",
+    "home": "https://www.auckland.ac.nz/",
+    "undergraduate": "https://www.auckland.ac.nz/en/study.html",
+    "postgraduate": "https://www.auckland.ac.nz/en/study/study-options.html",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 406: Not Acceptable"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 406: Not Acceptable"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 406: Not Acceptable"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "奧塔哥大學",
+    "en": "University of Otago",
+    "city": "Dunedin",
+    "slug": "university-of-otago",
+    "home": "https://www.otago.ac.nz/",
+    "undergraduate": "https://www.otago.ac.nz/study",
+    "postgraduate": "https://www.otago.ac.nz/courses",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "威靈頓維多利亞大學",
+    "en": "Victoria University of Wellington",
+    "city": "Wellington",
+    "slug": "victoria-university-of-wellington",
+    "home": "https://www.wgtn.ac.nz/",
+    "undergraduate": "https://www.wgtn.ac.nz/study",
+    "postgraduate": "https://www.wgtn.ac.nz/explore",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.wgtn.ac.nz/",
+        "title": "Te Herenga Waka—Victoria University of Wellington"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.wgtn.ac.nz/study",
+        "title": "Study in Wellington | Te Herenga Waka—Victoria University of Wellington"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.wgtn.ac.nz/explore/",
+        "title": "Victoria University of Wellington"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "坎特伯雷大學",
+    "en": "University of Canterbury",
+    "city": "Christchurch",
+    "slug": "university-of-canterbury",
+    "home": "https://www.canterbury.ac.nz/",
+    "undergraduate": "https://www.canterbury.ac.nz/study",
+    "postgraduate": "https://www.canterbury.ac.nz/study/academic-study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.canterbury.ac.nz/",
+        "title": "Top 2 in NZ for employment outcomes | University of Canterbury"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.canterbury.ac.nz/study",
+        "title": "Study | University of Canterbury"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.canterbury.ac.nz/study/academic-study",
+        "title": "Academic study options | University of Canterbury"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "梅西大學",
+    "en": "Massey University",
+    "city": "Palmerston North / Auckland / Wellington",
+    "slug": "massey-university",
+    "home": "https://www.massey.ac.nz/",
+    "undergraduate": "https://www.massey.ac.nz/study/",
+    "postgraduate": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.massey.ac.nz/",
+        "title": "Massey University of New Zealand - Te Kunenga ki Pūrehuroa - Massey University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.massey.ac.nz/study/",
+        "title": "Study at Massey University - Massey University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/",
+        "title": "List of all qualifications - Massey University"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "懷卡托大學",
+    "en": "University of Waikato",
+    "city": "Hamilton / Tauranga",
+    "slug": "university-of-waikato",
+    "home": "https://www.waikato.ac.nz/",
+    "undergraduate": "https://www.waikato.ac.nz/study/",
+    "postgraduate": "https://www.waikato.ac.nz/study/qualifications/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.waikato.ac.nz/",
+        "title": "Study in Hamilton and Tauranga | University of Waikato"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.waikato.ac.nz/study/",
+        "title": "Study at the University | University of Waikato"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.waikato.ac.nz/study/qualifications/",
+        "title": "Degrees and Qualifications | University of Waikato"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "林肯大學",
+    "en": "Lincoln University",
+    "city": "Lincoln",
+    "slug": "lincoln-university",
+    "home": "https://www.lincoln.ac.nz/",
+    "undergraduate": "https://www.lincoln.ac.nz/study/",
+    "postgraduate": "https://www.lincoln.ac.nz/study/study-programmes/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "紐西蘭",
+    "name": "奧克蘭理工大學",
+    "en": "Auckland University of Technology",
+    "city": "Auckland",
+    "slug": "auckland-university-of-technology",
+    "home": "https://www.aut.ac.nz/",
+    "undergraduate": "https://www.aut.ac.nz/study",
+    "postgraduate": "https://www.aut.ac.nz/study/study-options",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "多倫多大學",
+    "en": "University of Toronto",
+    "city": "Toronto",
+    "slug": "university-of-toronto",
+    "home": "https://www.utoronto.ca/",
+    "undergraduate": "https://future.utoronto.ca/",
+    "postgraduate": "https://www.sgs.utoronto.ca/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.utoronto.ca/",
+        "title": "University of Toronto"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://future.utoronto.ca/",
+        "title": "Your future starts here | Future Students. University of Toronto"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.sgs.utoronto.ca/",
+        "title": "School of Graduate Studies &#8211; University of Toronto"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "英屬哥倫比亞大學",
+    "en": "University of British Columbia",
+    "city": "Vancouver / Kelowna",
+    "slug": "university-of-british-columbia",
+    "home": "https://www.ubc.ca/",
+    "undergraduate": "https://you.ubc.ca/",
+    "postgraduate": "https://www.grad.ubc.ca/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ubc.ca/",
+        "title": "The University of British Columbia"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://you.ubc.ca/",
+        "title": "UBC Undergraduate Programs and Admissions"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.grad.ubc.ca/",
+        "title": "UBC Grad School | Graduate Studies at The University of British Columbia, Vancouver, Canada"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "麥吉爾大學",
+    "en": "McGill University",
+    "city": "Montreal",
+    "slug": "mcgill-university",
+    "home": "https://www.mcgill.ca/",
+    "undergraduate": "https://www.mcgill.ca/undergraduate-admissions/",
+    "postgraduate": "https://www.mcgill.ca/gradapplicants/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.mcgill.ca/",
+        "title": "McGill University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.mcgill.ca/undergraduate-admissions/",
+        "title": "Undergraduate Admissions - McGill University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.mcgill.ca/gradapplicants/",
+        "title": "Future Graduate Students - McGill University"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "阿爾伯塔大學",
+    "en": "University of Alberta",
+    "city": "Edmonton",
+    "slug": "university-of-alberta",
+    "home": "https://www.ualberta.ca/",
+    "undergraduate": "https://www.ualberta.ca/en/admissions/",
+    "postgraduate": "https://www.ualberta.ca/en/graduate-studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "滑鐵盧大學",
+    "en": "University of Waterloo",
+    "city": "Waterloo",
+    "slug": "university-of-waterloo",
+    "home": "https://uwaterloo.ca/",
+    "undergraduate": "https://uwaterloo.ca/future-students/",
+    "postgraduate": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://uwaterloo.ca/",
+        "title": "Home | University of Waterloo"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://uwaterloo.ca/future-students/",
+        "title": "Home | Undergraduate Programs | University of Waterloo"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "西安大略大學",
+    "en": "Western University",
+    "city": "London, Ontario",
+    "slug": "western-university",
+    "home": "https://www.uwo.ca/",
+    "undergraduate": "https://welcome.uwo.ca/",
+    "postgraduate": "https://grad.uwo.ca/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uwo.ca/",
+        "title": "Western University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://welcome.uwo.ca/",
+        "title": "Future Students | Western University | London, Ontario, Canada"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://grad.uwo.ca/",
+        "title": "School of Graduate and Postdoctoral Studies - Western University"
+      }
+    }
+  },
+  {
+    "country": "加拿大",
+    "name": "曼尼托巴大學",
+    "en": "University of Manitoba",
+    "city": "Winnipeg",
+    "slug": "university-of-manitoba",
+    "home": "https://umanitoba.ca/",
+    "undergraduate": "https://umanitoba.ca/admissions",
+    "postgraduate": "https://umanitoba.ca/graduate-studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://umanitoba.ca/",
+        "title": "University of Manitoba"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://umanitoba.ca/admissions",
+        "title": "Admissions | University of Manitoba"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://umanitoba.ca/graduate-studies/",
+        "title": "Faculty of Graduate and Postdoctoral Studies | University of Manitoba"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "亞利桑那州立大學",
+    "en": "Arizona State University",
+    "city": "Tempe / Phoenix",
+    "slug": "arizona-state-university",
+    "home": "https://www.asu.edu/",
+    "undergraduate": "https://admission.asu.edu/",
+    "postgraduate": "https://degrees.apps.asu.edu/masters-phd",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.asu.edu/",
+        "title": "ASU Homepage | Arizona State University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.asu.edu/",
+        "title": "Admission | Arizona State University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://degrees.asu.edu/masters-phd",
+        "title": "Graduate Degrees | Degree Search | ASU"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "俄勒岡州立大學",
+    "en": "Oregon State University",
+    "city": "Corvallis",
+    "slug": "oregon-state-university",
+    "home": "https://oregonstate.edu/",
+    "undergraduate": "https://admissions.oregonstate.edu/",
+    "postgraduate": "https://gradschool.oregonstate.edu/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://oregonstate.edu/",
+        "title": "Oregon State University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.oregonstate.edu/",
+        "title": "Undergraduate Admissions | Oregon State University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://graduate.oregonstate.edu/",
+        "title": "Office of Graduate Education | Oregon State University"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "南佛羅里達大學",
+    "en": "University of South Florida",
+    "city": "Tampa",
+    "slug": "university-of-south-florida",
+    "home": "https://www.usf.edu/",
+    "undergraduate": "https://www.usf.edu/admissions/",
+    "postgraduate": "https://www.usf.edu/graduate-studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.usf.edu/",
+        "title": "Welcome to the University of South Florida | Tampa, St. Petersburg, FL"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.usf.edu/admissions/",
+        "title": "Office of Admissions | University of South Florida"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.usf.edu/graduate-studies/",
+        "title": "Office of Graduate Studies | University of South Florida"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "亞利桑那大學",
+    "en": "University of Arizona",
+    "city": "Tucson",
+    "slug": "university-of-arizona",
+    "home": "https://www.arizona.edu/",
+    "undergraduate": "https://www.arizona.edu/admissions",
+    "postgraduate": "https://grad.arizona.edu/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.arizona.edu/",
+        "title": "University of Arizona in Tucson, AZ"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.arizona.edu/admissions",
+        "title": "Admissions"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://grad.arizona.edu/",
+        "title": "University of Arizona Graduate College"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "東北大學",
+    "en": "Northeastern University",
+    "city": "Boston",
+    "slug": "northeastern-university",
+    "home": "https://www.northeastern.edu/",
+    "undergraduate": "https://admissions.northeastern.edu/",
+    "postgraduate": "https://graduate.northeastern.edu/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.northeastern.edu/",
+        "title": "Home - Northeastern University"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "佩斯大學",
+    "en": "Pace University",
+    "city": "New York",
+    "slug": "pace-university",
+    "home": "https://www.pace.edu/",
+    "undergraduate": "https://www.pace.edu/admission-and-aid",
+    "postgraduate": "https://www.pace.edu/programs",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.pace.edu/",
+        "title": "Pace University | Pace University New York"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.pace.edu/admission-and-aid",
+        "title": "Admission and Aid | Pace University New York"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.pace.edu/find-your-program/undergraduate",
+        "title": "Pace University Undergraduate Program Listing | Pace University New York"
+      }
+    }
+  },
+  {
+    "country": "美國",
+    "name": "伊利諾大學芝加哥分校",
+    "en": "University of Illinois Chicago",
+    "city": "Chicago",
+    "slug": "university-of-illinois-chicago",
+    "home": "https://www.uic.edu/",
+    "undergraduate": "https://admissions.uic.edu/",
+    "postgraduate": "https://grad.uic.edu/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uic.edu/",
+        "title": "University of Illinois Chicago"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.uic.edu/",
+        "title": "UIC Admissions |"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://grad.uic.edu/",
+        "title": "Graduate College | University of Illinois Chicago"
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港大學",
+    "en": "University of Hong Kong",
+    "city": "香港",
+    "slug": "university-of-hong-kong",
+    "home": "https://www.hku.hk/",
+    "undergraduate": "https://admissions.hku.hk/",
+    "postgraduate": "https://admissions.hku.hk/tpg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.hku.hk/",
+        "title": "index"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.hku.hk/",
+        "title": "Home | Admissions Office, the Registry"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://portal.hku.hk/tpg-admissions/",
+        "title": "Home"
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港中文大學",
+    "en": "Chinese University of Hong Kong",
+    "city": "沙田",
+    "slug": "chinese-university-of-hong-kong",
+    "home": "https://www.cuhk.edu.hk/",
+    "undergraduate": "https://admission.cuhk.edu.hk/",
+    "postgraduate": "https://www.gs.cuhk.edu.hk/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.cuhk.edu.hk/",
+        "title": "The Chinese University of Hong Kong"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.cuhk.edu.hk/",
+        "title": "Homepage - CUHK Undergraduate Admissions"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.gs.cuhk.edu.hk/",
+        "title": "CUHK Graduate School"
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港科技大學",
+    "en": "Hong Kong University of Science and Technology",
+    "city": "清水灣",
+    "slug": "hong-kong-university-of-science-and-technology",
+    "home": "https://hkust.edu.hk/",
+    "undergraduate": "https://join.hkust.edu.hk/",
+    "postgraduate": "https://pg.hkust.edu.hk/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://hkust.edu.hk/",
+        "title": "Best Universities in Hong Kong for Study - The University of HK"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://join.hkust.edu.hk/",
+        "title": "Join HKUST | Undergraduate Programs, Requirements &amp; Application"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港理工大學",
+    "en": "Hong Kong Polytechnic University",
+    "city": "紅磡",
+    "slug": "hong-kong-polytechnic-university",
+    "home": "https://www.polyu.edu.hk/",
+    "undergraduate": "https://www.polyu.edu.hk/study/",
+    "postgraduate": "https://www.polyu.edu.hk/study/pg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.polyu.edu.hk/",
+        "title": "Top Innovative World-Class University in Hong Kong | PolyU"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.polyu.edu.hk/study/ug",
+        "title": "Undergraduate Admissions | The Hong Kong Polytechnic University (PolyU)"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.polyu.edu.hk/study/pg",
+        "title": "Postgraduate Admissions | The Hong Kong Polytechnic University (PolyU)"
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港城市大學",
+    "en": "City University of Hong Kong",
+    "city": "九龍塘",
+    "slug": "city-university-of-hong-kong",
+    "home": "https://www.cityu.edu.hk/",
+    "undergraduate": "https://www.cityu.edu.hk/admo/",
+    "postgraduate": "https://www.cityu.edu.hk/pg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.cityu.edu.hk/",
+        "title": ""
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.cityu.edu.hk/admo/",
+        "title": ""
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.cityu.edu.hk/pg/",
+        "title": ""
+      }
+    }
+  },
+  {
+    "country": "香港",
+    "name": "香港浸會大學",
+    "en": "Hong Kong Baptist University",
+    "city": "九龍塘",
+    "slug": "hong-kong-baptist-university",
+    "home": "https://www.hkbu.edu.hk/",
+    "undergraduate": "https://admissions.hkbu.edu.hk/",
+    "postgraduate": "https://gs.hkbu.edu.hk/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.hkbu.edu.hk/",
+        "title": "Hong Kong Baptist University – HKBU"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.hkbu.edu.hk/",
+        "title": "Undergraduate Admissions, HKBU"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://gs.hkbu.edu.hk/",
+        "title": "Hong Kong Baptist University - Graduate School - HKBU"
+      }
+    }
+  },
+  {
+    "country": "新加坡",
+    "name": "新加坡國立大學",
+    "en": "National University of Singapore",
+    "city": "Singapore",
+    "slug": "national-university-of-singapore",
+    "home": "https://www.nus.edu.sg/",
+    "undergraduate": "https://www.nus.edu.sg/oam",
+    "postgraduate": "https://nusgs.nus.edu.sg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.nus.edu.sg/",
+        "title": ""
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.nus.edu.sg/oam",
+        "title": ""
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://nusgs.nus.edu.sg/",
+        "title": ""
+      }
+    }
+  },
+  {
+    "country": "新加坡",
+    "name": "南洋理工大學",
+    "en": "Nanyang Technological University",
+    "city": "Singapore",
+    "slug": "nanyang-technological-university",
+    "home": "https://www.ntu.edu.sg/",
+    "undergraduate": "https://www.ntu.edu.sg/admissions/undergraduate",
+    "postgraduate": "https://www.ntu.edu.sg/admissions/graduate",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ntu.edu.sg/",
+        "title": "Nanyang Technological University - NTU Singapore"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ntu.edu.sg/admissions/undergraduate",
+        "title": "Undergraduate Admissions | NTU Singapore"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ntu.edu.sg/admissions/graduate",
+        "title": "Graduate | NTU Singapore"
+      }
+    }
+  },
+  {
+    "country": "新加坡",
+    "name": "新加坡管理大學",
+    "en": "Singapore Management University",
+    "city": "Singapore",
+    "slug": "singapore-management-university",
+    "home": "https://www.smu.edu.sg/",
+    "undergraduate": "https://admissions.smu.edu.sg/",
+    "postgraduate": "https://masters.smu.edu.sg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.smu.edu.sg/",
+        "title": ""
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.smu.edu.sg/",
+        "title": ""
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://masters.smu.edu.sg/",
+        "title": ""
+      }
+    }
+  },
+  {
+    "country": "日本",
+    "name": "東京大學",
+    "en": "University of Tokyo",
+    "city": "東京",
+    "slug": "university-of-tokyo",
+    "home": "https://www.u-tokyo.ac.jp/en/",
+    "undergraduate": "https://www.u-tokyo.ac.jp/en/prospective-students/",
+    "postgraduate": "https://www.u-tokyo.ac.jp/en/prospective-students/graduate.html",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.u-tokyo.ac.jp/en/",
+        "title": "The University of Tokyo"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "日本",
+    "name": "京都大學",
+    "en": "Kyoto University",
+    "city": "京都",
+    "slug": "kyoto-university",
+    "home": "https://www.kyoto-u.ac.jp/en",
+    "undergraduate": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions",
+    "postgraduate": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.kyoto-u.ac.jp/en",
+        "title": "KYOTO UNIVERSITY"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions",
+        "title": "Education and admissions | KYOTO UNIVERSITY"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions",
+        "title": "Education and admissions | KYOTO UNIVERSITY"
+      }
+    }
+  },
+  {
+    "country": "日本",
+    "name": "早稻田大學",
+    "en": "Waseda University",
+    "city": "東京",
+    "slug": "waseda-university",
+    "home": "https://www.waseda.jp/top/en",
+    "undergraduate": "https://www.waseda.jp/inst/admission/en/",
+    "postgraduate": "https://www.waseda.jp/inst/admission/en/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.waseda.jp/top/en/",
+        "title": "Waseda University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.waseda.jp/inst/admission/en/",
+        "title": "International Admissions Office, Waseda University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.waseda.jp/inst/admission/en/",
+        "title": "International Admissions Office, Waseda University"
+      }
+    }
+  },
+  {
+    "country": "日本",
+    "name": "慶應義塾大學",
+    "en": "Keio University",
+    "city": "東京 / 橫濱",
+    "slug": "keio-university",
+    "home": "https://www.keio.ac.jp/en/",
+    "undergraduate": "https://www.keio.ac.jp/en/admissions/",
+    "postgraduate": "https://www.keio.ac.jp/en/admissions/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.keio.ac.jp/en/",
+        "title": "Keio University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.keio.ac.jp/en/admissions/",
+        "title": "Admissions | Keio University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.keio.ac.jp/en/admissions/",
+        "title": "Admissions | Keio University"
+      }
+    }
+  },
+  {
+    "country": "韓國",
+    "name": "首爾大學",
+    "en": "Seoul National University",
+    "city": "首爾",
+    "slug": "seoul-national-university",
+    "home": "https://en.snu.ac.kr/",
+    "undergraduate": "https://en.snu.ac.kr/admission",
+    "postgraduate": "https://en.snu.ac.kr/admission",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://en.snu.ac.kr/index.html",
+        "title": "Seoul National University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://en.snu.ac.kr/admission",
+        "title": "Admissions Home - Admissions - Seoul National University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://en.snu.ac.kr/admission",
+        "title": "Admissions Home - Admissions - Seoul National University"
+      }
+    }
+  },
+  {
+    "country": "韓國",
+    "name": "延世大學",
+    "en": "Yonsei University",
+    "city": "首爾",
+    "slug": "yonsei-university",
+    "home": "https://www.yonsei.ac.kr/en_sc/",
+    "undergraduate": "https://www.yonsei.ac.kr/en_sc/admission/undergraduate.jsp",
+    "postgraduate": "https://graduate.yonsei.ac.kr/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://graduate.yonsei.ac.kr/graduate/index.do",
+        "title": "연세대학교 대학원"
+      }
+    }
+  },
+  {
+    "country": "韓國",
+    "name": "高麗大學",
+    "en": "Korea University",
+    "city": "首爾",
+    "slug": "korea-university",
+    "home": "https://www.korea.edu/",
+    "undergraduate": "https://oia.korea.ac.kr/",
+    "postgraduate": "https://graduate.korea.ac.kr/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.korea.edu/",
+        "title": "site move"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://oia.korea.ac.kr/oia2026/index.do",
+        "title": "main"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://graduate.korea.ac.kr/",
+        "title": "고려대학교 일반대학원"
+      }
+    }
+  },
+  {
+    "country": "韓國",
+    "name": "成均館大學",
+    "en": "Sungkyunkwan University",
+    "city": "首爾 / 水原",
+    "slug": "sungkyunkwan-university",
+    "home": "https://www.skku.edu/eng/",
+    "undergraduate": "https://admission-global.skku.edu/",
+    "postgraduate": "https://gradschool.skku.edu/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.skku.edu/eng/",
+        "title": "Sungkyunkwan University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission-global.skku.edu/kor/",
+        "title": "성균관대학교 | 글로벌 SKKU"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 503: Service Unavailable"
+      }
+    }
+  },
+  {
+    "country": "馬來西亞",
+    "name": "馬來亞大學",
+    "en": "Universiti Malaya",
+    "city": "Kuala Lumpur",
+    "slug": "universiti-malaya",
+    "home": "https://www.um.edu.my/",
+    "undergraduate": "https://study.um.edu.my/",
+    "postgraduate": "https://study.um.edu.my/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.um.edu.my/",
+        "title": "Welcome to Universiti Malaya"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://study.um.edu.my/",
+        "title": "Marketing and Recruitment Department (MRD)"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://study.um.edu.my/",
+        "title": "Marketing and Recruitment Department (MRD)"
+      }
+    }
+  },
+  {
+    "country": "馬來西亞",
+    "name": "馬來西亞理科大學",
+    "en": "Universiti Sains Malaysia",
+    "city": "Penang",
+    "slug": "universiti-sains-malaysia",
+    "home": "https://www.usm.my/",
+    "undergraduate": "https://admission.usm.my/",
+    "postgraduate": "https://admission.usm.my/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.usm.my/en/",
+        "title": "Universiti Sains Malaysia"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.usm.my/",
+        "title": "Admission USM - Admission"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://admission.usm.my/",
+        "title": "Admission USM - Admission"
+      }
+    }
+  },
+  {
+    "country": "馬來西亞",
+    "name": "蒙納許大學馬來西亞校區",
+    "en": "Monash University Malaysia",
+    "city": "Bandar Sunway",
+    "slug": "monash-university-malaysia",
+    "home": "https://www.monash.edu.my/",
+    "undergraduate": "https://www.monash.edu.my/study",
+    "postgraduate": "https://www.monash.edu.my/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "馬來西亞",
+    "name": "諾丁漢大學馬來西亞校區",
+    "en": "University of Nottingham Malaysia",
+    "city": "Semenyih",
+    "slug": "university-of-nottingham-malaysia",
+    "home": "https://www.nottingham.edu.my/",
+    "undergraduate": "https://www.nottingham.edu.my/Study/",
+    "postgraduate": "https://www.nottingham.edu.my/Study/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.nottingham.edu.my/",
+        "title": "University of Nottingham Malaysia"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.nottingham.edu.my/Study/Study.aspx",
+        "title": "Study with us"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.nottingham.edu.my/Study/Study.aspx",
+        "title": "Study with us"
+      }
+    }
+  },
+  {
+    "country": "泰國",
+    "name": "朱拉隆功大學",
+    "en": "Chulalongkorn University",
+    "city": "Bangkok",
+    "slug": "chulalongkorn-university",
+    "home": "https://www.chula.ac.th/en/",
+    "undergraduate": "https://www.chula.ac.th/en/academics/admissions/",
+    "postgraduate": "https://www.chula.ac.th/en/academics/admissions/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.chula.ac.th/en/",
+        "title": ""
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.chula.ac.th/en/academics/admissions/",
+        "title": ""
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.chula.ac.th/en/academics/admissions/",
+        "title": ""
+      }
+    }
+  },
+  {
+    "country": "泰國",
+    "name": "瑪希敦大學",
+    "en": "Mahidol University",
+    "city": "Nakhon Pathom / Bangkok",
+    "slug": "mahidol-university",
+    "home": "https://mahidol.ac.th/",
+    "undergraduate": "https://muic.mahidol.ac.th/",
+    "postgraduate": "https://graduate.mahidol.ac.th/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://graduate.mahidol.ac.th/",
+        "title": "บัณฑิตวิทยาลัย มหาวิทยาลัยมหิดล | เรียนต่อปริญญาโท–เอก"
+      }
+    }
+  },
+  {
+    "country": "泰國",
+    "name": "法政大學",
+    "en": "Thammasat University",
+    "city": "Bangkok / Pathum Thani",
+    "slug": "thammasat-university",
+    "home": "https://tu.ac.th/en",
+    "undergraduate": "https://tu.ac.th/en/admissions",
+    "postgraduate": "https://tu.ac.th/en/admissions",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://tu.ac.th/en/",
+        "title": "Home - Thammasat University"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "台灣",
+    "name": "國立臺灣大學",
+    "en": "National Taiwan University",
+    "city": "臺北",
+    "slug": "national-taiwan-university",
+    "home": "https://www.ntu.edu.tw/",
+    "undergraduate": "https://admissions.ntu.edu.tw/",
+    "postgraduate": "https://admissions.ntu.edu.tw/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ntu.edu.tw/",
+        "title": "國立臺灣大學"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ntu.edu.tw/",
+        "title": "Home - 台大國際事務處"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://admissions.ntu.edu.tw/",
+        "title": "Home - 台大國際事務處"
+      }
+    }
+  },
+  {
+    "country": "台灣",
+    "name": "國立清華大學",
+    "en": "National Tsing Hua University",
+    "city": "新竹",
+    "slug": "national-tsing-hua-university",
+    "home": "https://www.nthu.edu.tw/",
+    "undergraduate": "https://oga.site.nthu.edu.tw/",
+    "postgraduate": "https://oga.site.nthu.edu.tw/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.nthu.edu.tw/",
+        "title": "國立清華大學"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://oga.site.nthu.edu.tw/",
+        "title": "國立清華大學全球事務處"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://oga.site.nthu.edu.tw/",
+        "title": "國立清華大學全球事務處"
+      }
+    }
+  },
+  {
+    "country": "台灣",
+    "name": "國立成功大學",
+    "en": "National Cheng Kung University",
+    "city": "臺南",
+    "slug": "national-cheng-kung-university",
+    "home": "https://www.ncku.edu.tw/",
+    "undergraduate": "https://admissions.oia.ncku.edu.tw/",
+    "postgraduate": "https://admissions.oia.ncku.edu.tw/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://web.ncku.edu.tw/",
+        "title": "NCKU, 成功大學 National Cheng Kung University - NCKU, 國立成功大學 National Cheng Kung University"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "<urlopen error timed out>"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "<urlopen error timed out>"
+      }
+    }
+  },
+  {
+    "country": "德國",
+    "name": "慕尼黑工業大學",
+    "en": "Technical University of Munich",
+    "city": "Munich",
+    "slug": "technical-university-of-munich",
+    "home": "https://www.tum.de/en/",
+    "undergraduate": "https://www.tum.de/en/studies",
+    "postgraduate": "https://www.tum.de/en/studies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.tum.de/en/",
+        "title": "Technical University of Munich: The Entrepreneurial University - TUM"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tum.de/en/studies",
+        "title": "Undergraduate and Graduate Studies at TUM - TUM"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.tum.de/en/studies",
+        "title": "Undergraduate and Graduate Studies at TUM - TUM"
+      }
+    }
+  },
+  {
+    "country": "德國",
+    "name": "亞琛工業大學",
+    "en": "RWTH Aachen University",
+    "city": "Aachen",
+    "slug": "rwth-aachen-university",
+    "home": "https://www.rwth-aachen.de/",
+    "undergraduate": "https://www.rwth-aachen.de/go/id/efh/lidx/1",
+    "postgraduate": "https://www.rwth-aachen.de/go/id/efh/lidx/1",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.rwth-aachen.de/go/id/a/?lidx=1",
+        "title": "RWTH Aachen University | Rheinisch-Westfälische Technische Hochschule | EN"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: "
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: "
+      }
+    }
+  },
+  {
+    "country": "德國",
+    "name": "海德堡大學",
+    "en": "Heidelberg University",
+    "city": "Heidelberg",
+    "slug": "heidelberg-university",
+    "home": "https://www.uni-heidelberg.de/en",
+    "undergraduate": "https://www.uni-heidelberg.de/en/study",
+    "postgraduate": "https://www.uni-heidelberg.de/en/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uni-heidelberg.de/en",
+        "title": "Heidelberg University - Zukunft seit 1386"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uni-heidelberg.de/en/study",
+        "title": "Heidelberg University - Zukunft seit 1386"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.uni-heidelberg.de/en/study",
+        "title": "Heidelberg University - Zukunft seit 1386"
+      }
+    }
+  },
+  {
+    "country": "法國",
+    "name": "巴黎薩克雷大學",
+    "en": "Université Paris-Saclay",
+    "city": "Paris-Saclay",
+    "slug": "universite-paris-saclay",
+    "home": "https://www.universite-paris-saclay.fr/en",
+    "undergraduate": "https://www.universite-paris-saclay.fr/en/education",
+    "postgraduate": "https://www.universite-paris-saclay.fr/en/education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.universite-paris-saclay.fr/en",
+        "title": "Université Paris-Saclay"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.universite-paris-saclay.fr/en/education",
+        "title": "Choose your programme | Université Paris-Saclay"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.universite-paris-saclay.fr/en/education",
+        "title": "Choose your programme | Université Paris-Saclay"
+      }
+    }
+  },
+  {
+    "country": "法國",
+    "name": "索邦大學",
+    "en": "Sorbonne Université",
+    "city": "Paris",
+    "slug": "sorbonne-universite",
+    "home": "https://www.sorbonne-universite.fr/en",
+    "undergraduate": "https://www.sorbonne-universite.fr/en/study",
+    "postgraduate": "https://www.sorbonne-universite.fr/en/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.sorbonne-universite.fr/en",
+        "title": "Sorbonne Université| Sorbonne université"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://sciences.sorbonne-universite.fr/en/study",
+        "title": "Study | Sorbonne Université| Sciences &amp; Ingénierie"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://sciences.sorbonne-universite.fr/en/study",
+        "title": "Study | Sorbonne Université| Sciences &amp; Ingénierie"
+      }
+    }
+  },
+  {
+    "country": "法國",
+    "name": "里昂商學院",
+    "en": "emlyon business school",
+    "city": "Lyon",
+    "slug": "emlyon-business-school",
+    "home": "https://em-lyon.com/en",
+    "undergraduate": "https://em-lyon.com/en/programs",
+    "postgraduate": "https://em-lyon.com/en/programs",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://em-lyon.com/en",
+        "title": "emlyon business school | Top ranked &amp; Accredited Institution"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "荷蘭",
+    "name": "阿姆斯特丹大學",
+    "en": "University of Amsterdam",
+    "city": "Amsterdam",
+    "slug": "university-of-amsterdam",
+    "home": "https://www.uva.nl/en",
+    "undergraduate": "https://www.uva.nl/en/education",
+    "postgraduate": "https://www.uva.nl/en/education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uva.nl/en",
+        "title": "University of Amsterdam"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uva.nl/en/education/education.html",
+        "title": "Study at the UvA - University of Amsterdam"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.uva.nl/en/education/education.html",
+        "title": "Study at the UvA - University of Amsterdam"
+      }
+    }
+  },
+  {
+    "country": "荷蘭",
+    "name": "格羅寧根大學",
+    "en": "University of Groningen",
+    "city": "Groningen",
+    "slug": "university-of-groningen",
+    "home": "https://www.rug.nl/",
+    "undergraduate": "https://www.rug.nl/education/",
+    "postgraduate": "https://www.rug.nl/education/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.rug.nl/",
+        "title": "Top 100 university | Rijksuniversiteit Groningen"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.rug.nl/education/",
+        "title": "Onderwijs | Rijksuniversiteit Groningen"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.rug.nl/education/",
+        "title": "Onderwijs | Rijksuniversiteit Groningen"
+      }
+    }
+  },
+  {
+    "country": "荷蘭",
+    "name": "代爾夫特理工大學",
+    "en": "Delft University of Technology",
+    "city": "Delft",
+    "slug": "delft-university-of-technology",
+    "home": "https://www.tudelft.nl/en/",
+    "undergraduate": "https://www.tudelft.nl/en/education",
+    "postgraduate": "https://www.tudelft.nl/en/education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.tudelft.nl/en/",
+        "title": "Delft University of Technology | TU Delft | Challenge. Change. Impact!"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tudelft.nl/en/education",
+        "title": "Students and Education | TU Delft | University of Technology"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.tudelft.nl/en/education",
+        "title": "Students and Education | TU Delft | University of Technology"
+      }
+    }
+  },
+  {
+    "country": "意大利",
+    "name": "博洛尼亞大學",
+    "en": "University of Bologna",
+    "city": "Bologna",
+    "slug": "university-of-bologna",
+    "home": "https://www.unibo.it/en",
+    "undergraduate": "https://www.unibo.it/en/study",
+    "postgraduate": "https://www.unibo.it/en/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.unibo.it/en",
+        "title": "University of Bologna"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.unibo.it/en/study",
+        "title": "Study — University of Bologna"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.unibo.it/en/study",
+        "title": "Study — University of Bologna"
+      }
+    }
+  },
+  {
+    "country": "意大利",
+    "name": "帕多瓦大學",
+    "en": "University of Padua",
+    "city": "Padua",
+    "slug": "university-of-padua",
+    "home": "https://www.unipd.it/en/",
+    "undergraduate": "https://www.unipd.it/en/studying-padua",
+    "postgraduate": "https://www.unipd.it/en/studying-padua",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 308: Permanent Redirect"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 308: Permanent Redirect"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 308: Permanent Redirect"
+      }
+    }
+  },
+  {
+    "country": "意大利",
+    "name": "米蘭理工大學",
+    "en": "Politecnico di Milano",
+    "city": "Milan",
+    "slug": "politecnico-di-milano",
+    "home": "https://www.polimi.it/en",
+    "undergraduate": "https://www.polimi.it/en/prospective-students",
+    "postgraduate": "https://www.polimi.it/en/prospective-students",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.polimi.it/en",
+        "title": "Politecnico di Milano - polimi"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.polimi.it/en/prospective-students",
+        "title": "Prospective students - polimi"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.polimi.it/en/prospective-students",
+        "title": "Prospective students - polimi"
+      }
+    }
+  },
+  {
+    "country": "瑞典",
+    "name": "隆德大學",
+    "en": "Lund University",
+    "city": "Lund",
+    "slug": "lund-university",
+    "home": "https://www.lunduniversity.lu.se/",
+    "undergraduate": "https://www.lunduniversity.lu.se/admissions",
+    "postgraduate": "https://www.lunduniversity.lu.se/admissions",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.lunduniversity.lu.se/",
+        "title": "Home | Lund University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.lunduniversity.lu.se/study",
+        "title": "Study | Lund University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.lunduniversity.lu.se/study",
+        "title": "Study | Lund University"
+      }
+    }
+  },
+  {
+    "country": "瑞典",
+    "name": "烏普薩拉大學",
+    "en": "Uppsala University",
+    "city": "Uppsala",
+    "slug": "uppsala-university",
+    "home": "https://www.uu.se/en",
+    "undergraduate": "https://www.uu.se/en/study",
+    "postgraduate": "https://www.uu.se/en/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uu.se/en",
+        "title": "Uppsala University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uu.se/en/study",
+        "title": "Study – Uppsala University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.uu.se/en/study",
+        "title": "Study – Uppsala University"
+      }
+    }
+  },
+  {
+    "country": "瑞典",
+    "name": "皇家理工學院",
+    "en": "KTH Royal Institute of Technology",
+    "city": "Stockholm",
+    "slug": "kth-royal-institute-of-technology",
+    "home": "https://www.kth.se/en",
+    "undergraduate": "https://www.kth.se/en/studies",
+    "postgraduate": "https://www.kth.se/en/studies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.kth.se/en",
+        "title": "KTH - Sweden’s largest technical university | KTH"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.kth.se/en/studies",
+        "title": "Study at KTH | KTH | Sweden"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.kth.se/en/studies",
+        "title": "Study at KTH | KTH | Sweden"
+      }
+    }
+  },
+  {
+    "country": "芬蘭",
+    "name": "赫爾辛基大學",
+    "en": "University of Helsinki",
+    "city": "Helsinki",
+    "slug": "university-of-helsinki",
+    "home": "https://www.helsinki.fi/en",
+    "undergraduate": "https://www.helsinki.fi/en/admissions-and-education",
+    "postgraduate": "https://www.helsinki.fi/en/admissions-and-education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.helsinki.fi/en",
+        "title": "University of Helsinki"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.helsinki.fi/en/admissions-and-education",
+        "title": "Admissions and education | University of Helsinki"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.helsinki.fi/en/admissions-and-education",
+        "title": "Admissions and education | University of Helsinki"
+      }
+    }
+  },
+  {
+    "country": "芬蘭",
+    "name": "阿爾托大學",
+    "en": "Aalto University",
+    "city": "Espoo",
+    "slug": "aalto-university",
+    "home": "https://www.aalto.fi/en",
+    "undergraduate": "https://www.aalto.fi/en/study-at-aalto",
+    "postgraduate": "https://www.aalto.fi/en/study-at-aalto",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.aalto.fi/en",
+        "title": "Aalto University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.aalto.fi/en/study-at-aalto",
+        "title": "Study at Aalto | Aalto University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.aalto.fi/en/study-at-aalto",
+        "title": "Study at Aalto | Aalto University"
+      }
+    }
+  },
+  {
+    "country": "芬蘭",
+    "name": "坦佩雷大學",
+    "en": "Tampere University",
+    "city": "Tampere",
+    "slug": "tampere-university",
+    "home": "https://www.tuni.fi/en",
+    "undergraduate": "https://www.tuni.fi/en/study-with-us",
+    "postgraduate": "https://www.tuni.fi/en/study-with-us",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.tuni.fi/en",
+        "title": "Human Potential Unlimited | Tampere University and TAMK"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tuni.fi/en",
+        "title": "Human Potential Unlimited | Tampere University and TAMK"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.tuni.fi/en",
+        "title": "Human Potential Unlimited | Tampere University and TAMK"
+      }
+    }
+  },
+  {
+    "country": "丹麥",
+    "name": "哥本哈根大學",
+    "en": "University of Copenhagen",
+    "city": "Copenhagen",
+    "slug": "university-of-copenhagen",
+    "home": "https://www.ku.dk/english/",
+    "undergraduate": "https://studies.ku.dk/",
+    "postgraduate": "https://studies.ku.dk/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ku.dk/en",
+        "title": "University of Copenhagen - University of Copenhagen"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ku.dk/studies",
+        "title": "Studies - University of Copenhagen"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ku.dk/studies",
+        "title": "Studies - University of Copenhagen"
+      }
+    }
+  },
+  {
+    "country": "丹麥",
+    "name": "奧胡斯大學",
+    "en": "Aarhus University",
+    "city": "Aarhus",
+    "slug": "aarhus-university",
+    "home": "https://international.au.dk/",
+    "undergraduate": "https://bachelor.au.dk/en/",
+    "postgraduate": "https://masters.au.dk/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://international.au.dk/",
+        "title": "Aarhus University – a top 100 research-intensive university"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://bachelor.au.dk/en/",
+        "title": "Bachelor at Aarhus University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://masters.au.dk/",
+        "title": "Study at Aarhus University in Denmark"
+      }
+    }
+  },
+  {
+    "country": "丹麥",
+    "name": "丹麥技術大學",
+    "en": "Technical University of Denmark",
+    "city": "Lyngby",
+    "slug": "technical-university-of-denmark",
+    "home": "https://www.dtu.dk/english",
+    "undergraduate": "https://www.dtu.dk/english/education",
+    "postgraduate": "https://www.dtu.dk/english/education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.dtu.dk/english",
+        "title": "Technical University of Denmark - DTU"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.dtu.dk/english/education",
+        "title": "Engineering educations at DTU"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.dtu.dk/english/education",
+        "title": "Engineering educations at DTU"
+      }
+    }
+  },
+  {
+    "country": "挪威",
+    "name": "奧斯陸大學",
+    "en": "University of Oslo",
+    "city": "Oslo",
+    "slug": "university-of-oslo",
+    "home": "https://www.uio.no/english/",
+    "undergraduate": "https://www.uio.no/english/studies/",
+    "postgraduate": "https://www.uio.no/english/studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uio.no/english/",
+        "title": "Home - University of Oslo"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uio.no/english/studies/",
+        "title": "Studies - University of Oslo"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.uio.no/english/studies/",
+        "title": "Studies - University of Oslo"
+      }
+    }
+  },
+  {
+    "country": "挪威",
+    "name": "挪威科技大學",
+    "en": "Norwegian University of Science and Technology",
+    "city": "Trondheim",
+    "slug": "norwegian-university-of-science-and-technology",
+    "home": "https://www.ntnu.edu/",
+    "undergraduate": "https://www.ntnu.edu/studies",
+    "postgraduate": "https://www.ntnu.edu/studies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ntnu.edu/",
+        "title": "Norwegian University of Science and Technology - NTNU"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ntnu.edu/studies",
+        "title": "Studies - NTNU"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.ntnu.edu/studies",
+        "title": "Studies - NTNU"
+      }
+    }
+  },
+  {
+    "country": "挪威",
+    "name": "卑爾根大學",
+    "en": "University of Bergen",
+    "city": "Bergen",
+    "slug": "university-of-bergen",
+    "home": "https://www.uib.no/en",
+    "undergraduate": "https://www.uib.no/en/education",
+    "postgraduate": "https://www.uib.no/en/education",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www4.uib.no/en",
+        "title": "University of Bergen | UiB"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www4.uib.no/en/studies",
+        "title": "Studies | UiB"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www4.uib.no/en/studies",
+        "title": "Studies | UiB"
+      }
+    }
+  },
+  {
+    "country": "冰島",
+    "name": "冰島大學",
+    "en": "University of Iceland",
+    "city": "Reykjavik",
+    "slug": "university-of-iceland",
+    "home": "https://english.hi.is/",
+    "undergraduate": "https://english.hi.is/study",
+    "postgraduate": "https://english.hi.is/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://english.hi.is/",
+        "title": "Startpage | University of Iceland"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://english.hi.is/study",
+        "title": "Study at the University of Iceland | University of Iceland"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://english.hi.is/study",
+        "title": "Study at the University of Iceland | University of Iceland"
+      }
+    }
+  },
+  {
+    "country": "冰島",
+    "name": "雷克雅維克大學",
+    "en": "Reykjavik University",
+    "city": "Reykjavik",
+    "slug": "reykjavik-university",
+    "home": "https://www.ru.is/en",
+    "undergraduate": "https://www.ru.is/en/study",
+    "postgraduate": "https://www.ru.is/en/study",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.ru.is/en",
+        "title": "Reykjavik University | Study &amp; Research in Iceland"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "希臘",
+    "name": "雅典國立卡波季斯特大學",
+    "en": "National and Kapodistrian University of Athens",
+    "city": "Athens",
+    "slug": "national-and-kapodistrian-university-of-athens",
+    "home": "https://en.uoa.gr/",
+    "undergraduate": "https://en.uoa.gr/studies/",
+    "postgraduate": "https://en.uoa.gr/studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://en.uoa.gr/",
+        "title": "ENGLISH | National and Kapodistrian University of Athens"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "希臘",
+    "name": "塞薩洛尼基亞里斯多德大學",
+    "en": "Aristotle University of Thessaloniki",
+    "city": "Thessaloniki",
+    "slug": "aristotle-university-of-thessaloniki",
+    "home": "https://www.auth.gr/en/",
+    "undergraduate": "https://www.auth.gr/en/studies/",
+    "postgraduate": "https://www.auth.gr/en/studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.auth.gr/en/homepage/",
+        "title": "ARISTOTLE UNIVERSITY OF THESSALONIKI"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.auth.gr/studies/",
+        "title": "Σπουδές &#8211; ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.auth.gr/studies/",
+        "title": "Σπουδές &#8211; ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ"
+      }
+    }
+  },
+  {
+    "country": "奧地利",
+    "name": "維也納大學",
+    "en": "University of Vienna",
+    "city": "Vienna",
+    "slug": "university-of-vienna",
+    "home": "https://www.univie.ac.at/en/",
+    "undergraduate": "https://studieren.univie.ac.at/en/",
+    "postgraduate": "https://studieren.univie.ac.at/en/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.univie.ac.at/en/",
+        "title": "University of Vienna – study, research, live in Vienna"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://studieren.univie.ac.at/en/",
+        "title": "Studying at the University of Vienna"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://studieren.univie.ac.at/en/",
+        "title": "Studying at the University of Vienna"
+      }
+    }
+  },
+  {
+    "country": "奧地利",
+    "name": "維也納工業大學",
+    "en": "TU Wien",
+    "city": "Vienna",
+    "slug": "tu-wien",
+    "home": "https://www.tuwien.at/en/",
+    "undergraduate": "https://www.tuwien.at/en/studies",
+    "postgraduate": "https://www.tuwien.at/en/studies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.tuwien.at/en/",
+        "title": "TU Wien | TU Wien"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tuwien.at/en/studies",
+        "title": "TU Wien, TUW. Study. Study at the TU Wien. | TU Wien"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.tuwien.at/en/studies",
+        "title": "TU Wien, TUW. Study. Study at the TU Wien. | TU Wien"
+      }
+    }
+  },
+  {
+    "country": "奧地利",
+    "name": "格拉茨大學",
+    "en": "University of Graz",
+    "city": "Graz",
+    "slug": "university-of-graz",
+    "home": "https://www.uni-graz.at/en/",
+    "undergraduate": "https://www.uni-graz.at/en/studying/",
+    "postgraduate": "https://www.uni-graz.at/en/studying/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uni-graz.at/en/",
+        "title": "University of Graz"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Not Found"
+      }
+    }
+  },
+  {
+    "country": "巴西",
+    "name": "聖保羅大學",
+    "en": "University of São Paulo",
+    "city": "São Paulo",
+    "slug": "university-of-sao-paulo",
+    "home": "https://www.usp.br/",
+    "undergraduate": "https://internationaloffice.usp.br/",
+    "postgraduate": "https://internationaloffice.usp.br/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www5.usp.br/",
+        "title": "# USP &#8211; Universidade de São Paulo # &#8211; Universidade pública, autarquia ligada à Secretaria de Estado de Ensino Superior de São Paulo"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "巴西",
+    "name": "坎皮納斯州立大學",
+    "en": "University of Campinas",
+    "city": "Campinas",
+    "slug": "university-of-campinas",
+    "home": "https://www.unicamp.br/",
+    "undergraduate": "https://www.deri.unicamp.br/en",
+    "postgraduate": "https://www.deri.unicamp.br/en",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.unicamp.br/",
+        "title": "Portal Unicamp"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      }
+    }
+  },
+  {
+    "country": "智利",
+    "name": "智利大學",
+    "en": "Universidad de Chile",
+    "city": "Santiago",
+    "slug": "universidad-de-chile",
+    "home": "https://uchile.cl/english",
+    "undergraduate": "https://uchile.cl/english",
+    "postgraduate": "https://uchile.cl/english",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://uchile.cl/english",
+        "title": "Summary in english - Universidad de Chile"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://uchile.cl/english",
+        "title": "Summary in english - Universidad de Chile"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://uchile.cl/english",
+        "title": "Summary in english - Universidad de Chile"
+      }
+    }
+  },
+  {
+    "country": "智利",
+    "name": "智利天主教大學",
+    "en": "Pontificia Universidad Católica de Chile",
+    "city": "Santiago",
+    "slug": "pontificia-universidad-catolica-de-chile",
+    "home": "https://www.uc.cl/en/",
+    "undergraduate": "https://www.uc.cl/en/university-studies/",
+    "postgraduate": "https://www.uc.cl/en/university-studies/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.uc.cl/en/",
+        "title": "UC Chile University"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Page Not Found"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 404: Page Not Found"
+      }
+    }
+  },
+  {
+    "country": "南非",
+    "name": "開普敦大學",
+    "en": "University of Cape Town",
+    "city": "Cape Town",
+    "slug": "university-of-cape-town",
+    "home": "https://uct.ac.za/",
+    "undergraduate": "https://uct.ac.za/students",
+    "postgraduate": "https://uct.ac.za/students",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://uct.ac.za/",
+        "title": "Home | University of Cape Town"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://uct.ac.za/students",
+        "title": "Home | Applicants &amp; Students"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://uct.ac.za/students",
+        "title": "Home | Applicants &amp; Students"
+      }
+    }
+  },
+  {
+    "country": "南非",
+    "name": "金山大學",
+    "en": "University of the Witwatersrand",
+    "city": "Johannesburg",
+    "slug": "university-of-the-witwatersrand",
+    "home": "https://www.wits.ac.za/",
+    "undergraduate": "https://www.wits.ac.za/study-at-wits/",
+    "postgraduate": "https://www.wits.ac.za/study-at-wits/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.wits.ac.za/",
+        "title": "Home - Wits University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.wits.ac.za/study-at-wits/",
+        "title": "Study at Wits - Wits University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.wits.ac.za/study-at-wits/",
+        "title": "Study at Wits - Wits University"
+      }
+    }
+  },
+  {
+    "country": "南非",
+    "name": "斯泰倫博斯大學",
+    "en": "Stellenbosch University",
+    "city": "Stellenbosch",
+    "slug": "stellenbosch-university",
+    "home": "https://www.sun.ac.za/",
+    "undergraduate": "https://www.sun.ac.za/english/maties",
+    "postgraduate": "https://www.sun.ac.za/english/pgstudies",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "undergraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "postgraduate": {
+        "status": "unverified",
+        "reason": "HTTP Error 403: Forbidden"
+      }
+    }
+  },
+  {
+    "country": "埃及",
+    "name": "開羅大學",
+    "en": "Cairo University",
+    "city": "Giza",
+    "slug": "cairo-university",
+    "home": "https://cu.edu.eg/",
+    "undergraduate": "https://cu.edu.eg/",
+    "postgraduate": "https://cu.edu.eg/",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://cu.edu.eg/",
+        "title": "Cairo University"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://cu.edu.eg/",
+        "title": "Cairo University"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://cu.edu.eg/",
+        "title": "Cairo University"
+      }
+    }
+  },
+  {
+    "country": "埃及",
+    "name": "開羅美國大學",
+    "en": "American University in Cairo",
+    "city": "Cairo",
+    "slug": "american-university-in-cairo",
+    "home": "https://www.aucegypt.edu/",
+    "undergraduate": "https://www.aucegypt.edu/admissions",
+    "postgraduate": "https://www.aucegypt.edu/admissions",
+    "checked": "2026-11-06",
+    "sources": {
+      "home": {
+        "status": 200,
+        "url": "https://www.aucegypt.edu/",
+        "title": "The American University in Cairo | The American University in Cairo"
+      },
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.aucegypt.edu/admissions",
+        "title": "Admission | The American University in Cairo"
+      },
+      "postgraduate": {
+        "status": 200,
+        "url": "https://www.aucegypt.edu/admissions",
+        "title": "Admission | The American University in Cairo"
+      }
+    }
+  }
+]
