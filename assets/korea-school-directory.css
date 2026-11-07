@@ -2,7 +2,15 @@
 
 /* Korea directory: names first, with details revealed in place. */
 .ks-school-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;align-items:start;list-style:none;margin:0;padding:0}
-@media(max-width:600px){.ks-school-list{grid-template-columns:minmax(0,1fr)}}
+@media (max-width: 600px) {
+  .ks-school-list { gap: 6px 8px; }
+  .ks-school-list summary { padding: 9px 8px; font-size: 13px; }
+  .ks-school-list summary small { display: block; margin-inline-start: 0; }
+  .ks-school-list .ks-detail { padding-inline: 8px; overflow-wrap: anywhere; }
+}
+@media (max-width: 359px) {
+  .ks-school-list { grid-template-columns: minmax(0, 1fr); }
+}
 .ks-region>h3::after{content:"";display:block;width:32px;height:2px;margin-top:6px;background:#c5a054}
 .ks-table tbody tr:nth-child(even){background:#f4f5f1}
 .ks-school-list>li{margin:0;min-width:0}
