@@ -22,7 +22,7 @@ module.exports = () => {
   const email = 'mailto:office@overseasuk.com?subject=' + encodeURIComponent('大學學費押金退款諮詢') + '&body=' + encodeURIComponent(enquiry);
   const rows = items => items.map(([name, detail]) => `<li><strong>${name}</strong><span>${detail}</span></li>`).join('');
 
-  return pageShell({
+  const page = pageShell({
     title: service.titleZh, current: 'services', lang: 'zh-Hant', locale: 'zh',
     path: service.path, description: service.summaryZh, image, imageWidth: 800,
     imageHeight: 800, imageAlt: '大學學費押金退款協助',
@@ -36,6 +36,8 @@ module.exports = () => {
       .refund-intro{background:#193740;border:1px solid #193740;border-left:10px solid #a55546;box-shadow:inset 5px 0 #c2a367;border-radius:10px;padding:clamp(20px,4vw,38px)}
       .otc-refund .refund-intro h1,.refund-intro p,.refund-intro a{color:#fffaf0}.refund-intro p{max-width:44em}
       .refund-kicker{font-size:.83rem;font-weight:700;color:#ead5a2;margin-bottom:10px}
+      .refund-hero-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(120px,184px);align-items:center;gap:20px}
+      .refund-hero-art{margin:0;max-width:184px}.refund-hero-art img{display:block;width:100%;height:auto;border-radius:6px}
       .refund-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 10px}
       .refund-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 15px;border:1px solid #b3a079;border-radius:7px;color:#fffaf0;font-weight:700;text-decoration:none}
       .refund-actions a:first-child{background:var(--refund-accent);color:white}
@@ -48,16 +50,16 @@ module.exports = () => {
       .refund-panel li strong,.refund-panel li span{display:block}
       .refund-panel li span{color:var(--refund-muted);font-size:.95rem}
       .refund-note{padding:12px 14px;background:#edf5f2;border-radius:8px}
-      @media(max-width:720px){.refund-grid{grid-template-columns:minmax(0,1fr);gap:14px}.refund-actions a{flex:1 1 135px}}
+      @media(max-width:720px){.refund-hero-layout{grid-template-columns:minmax(0,1fr)}.refund-hero-art{max-width:150px}.refund-grid{grid-template-columns:minmax(0,1fr);gap:14px}.refund-actions a{flex:1 1 135px}}
     </style>
     <section class="otc-refund">
-      <header class="services-hero refund-intro">
+      <header class="services-hero refund-intro"><div class="refund-hero-layout"><div>
         <div class="refund-kicker">海外督導 OTC · 學生服務</div>
         <h1>大學學費押金退款協助</h1>
         <p>協助準備退款申請、處理退件或補件，並跟進大學財務部。<strong>服務費為實際退款金額的 5%。</strong></p>
         <div class="refund-actions"><a href="${whatsapp}">WhatsApp 諮詢</a><a href="${email}">電郵諮詢</a><a href="#refund-documents">查看資料清單</a></div>
         <p class="refund-details">WhatsApp +44 7947 991572 · 電郵 <a href="${email}">office@overseasuk.com</a> · 微信搜尋 <strong>overseasus</strong></p>
-      </header>
+      </div><!-- refund-hero-art --></div></header>
       <div class="refund-grid" id="refund-documents">
         <section class="refund-panel">
           <h2>首次聯絡：先提供 4 項資料</h2>
@@ -85,4 +87,5 @@ module.exports = () => {
       <a href="/zh/services/">返回服務導覽台 →</a>
     </section>`
   });
+  return page.replace('<!-- refund-hero-art -->', `<figure class="refund-hero-art"><img src="${image}" width="800" height="800" alt="大學學費押金退款協助，服務費為實際退款金額的 5%"></figure>`);
 };
