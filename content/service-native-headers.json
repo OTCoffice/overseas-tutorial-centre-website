@@ -579,5 +579,15 @@
     "height": 600,
     "file": "zh/subject-planning/photography/index.html",
     "cardType": "summary_large_image"
+  },
+  "/zh/services/tuition-deposit-refund/": {
+    "title": "大學學費押金退款協助",
+    "image": "/assets/social/tuition-deposit-refund-square-20261107.png",
+    "version": "v=20261107-square",
+    "width": 800,
+    "height": 800,
+    "file": "zh/services/tuition-deposit-refund/index.html",
+    "shareLayout": "compact-square",
+    "cardType": "summary"
   }
 }

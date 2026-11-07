@@ -24,8 +24,8 @@ module.exports = () => {
 
   return pageShell({
     title: service.titleZh, current: 'services', lang: 'zh-Hant', locale: 'zh',
-    path: service.path, description: service.summaryZh, image, imageWidth: 1200,
-    imageHeight: 630, imageAlt: '大學學費押金退款協助',
+    path: service.path, description: service.summaryZh, image, imageWidth: 800,
+    imageHeight: 800, imageAlt: '大學學費押金退款協助',
     body: `<style>
       .otc-refund{--refund-ink:#17343c;--refund-muted:#475e63;--refund-line:#d6e1df;--refund-accent:#176050;color:var(--refund-ink);max-width:1080px;margin:0 auto;padding:clamp(16px,4vw,40px) clamp(16px,4vw,36px) 52px;line-height:1.65}
       .otc-refund *{box-sizing:border-box}
@@ -33,11 +33,11 @@ module.exports = () => {
       .otc-refund h1{font-size:clamp(1.95rem,4.5vw,3.05rem)}
       .otc-refund h2{font-size:clamp(1.25rem,3vw,1.65rem)}
       .otc-refund p{margin:.4em 0 .85em}
-      .refund-intro{background:#edf5f2;border:1px solid var(--refund-line);border-radius:14px;padding:clamp(20px,4vw,38px)}
-      .refund-intro p{max-width:44em;color:var(--refund-muted)}
-      .refund-kicker{font-size:.83rem;font-weight:700;color:var(--refund-accent);margin-bottom:10px}
+      .refund-intro{background:#193740;border:1px solid #193740;border-left:10px solid #a55546;box-shadow:inset 5px 0 #c2a367;border-radius:10px;padding:clamp(20px,4vw,38px)}
+      .otc-refund .refund-intro h1,.refund-intro p,.refund-intro a{color:#fffaf0}.refund-intro p{max-width:44em}
+      .refund-kicker{font-size:.83rem;font-weight:700;color:#ead5a2;margin-bottom:10px}
       .refund-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 10px}
-      .refund-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 15px;border:1px solid var(--refund-accent);border-radius:7px;color:var(--refund-accent);font-weight:700;text-decoration:none}
+      .refund-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 15px;border:1px solid #b3a079;border-radius:7px;color:#fffaf0;font-weight:700;text-decoration:none}
       .refund-actions a:first-child{background:var(--refund-accent);color:white}
       .refund-details{font-size:.95rem;overflow-wrap:anywhere}
       .refund-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:20px 0}
@@ -48,12 +48,10 @@ module.exports = () => {
       .refund-panel li strong,.refund-panel li span{display:block}
       .refund-panel li span{color:var(--refund-muted);font-size:.95rem}
       .refund-note{padding:12px 14px;background:#edf5f2;border-radius:8px}
-      .refund-cover{margin:22px 0 12px;max-width:520px}
-      .refund-cover img{display:block;width:100%;height:auto;border:1px solid var(--refund-line);border-radius:8px}
       @media(max-width:720px){.refund-grid{grid-template-columns:minmax(0,1fr);gap:14px}.refund-actions a{flex:1 1 135px}}
     </style>
     <section class="otc-refund">
-      <header class="refund-intro">
+      <header class="services-hero refund-intro">
         <div class="refund-kicker">海外督導 OTC · 學生服務</div>
         <h1>大學學費押金退款協助</h1>
         <p>協助準備退款申請、處理退件或補件，並跟進大學財務部。<strong>服務費為實際退款金額的 5%。</strong></p>
@@ -84,7 +82,6 @@ module.exports = () => {
         <section class="refund-panel"><h2>辦理流程</h2><p>收到資料後，我們先核對校方條款、期限和缺件。確認委託範圍後，協助準備及提交申請或補件，並按授權跟進財務部回覆。</p></section>
         <section class="refund-panel"><h2>服務費</h2><p>按校方實際退回金額的 <strong>5%</strong> 收取。例如實際退回 £2,000，服務費為 £100。退款資格、金額及處理時間由院校決定。</p></section>
       </div>
-      <figure class="refund-cover"><img src="${image}" width="1200" height="630" alt="大學學費押金退款協助"></figure>
       <a href="/zh/services/">返回服務導覽台 →</a>
     </section>`
   });
