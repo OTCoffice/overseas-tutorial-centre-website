@@ -3137,5 +3137,43 @@
         "title": "Admission | The American University in Cairo"
       }
     }
+  },
+  {
+    "country": "韓國",
+    "name": "韓國外國語大學（韓外大）",
+    "en": "Hankuk University of Foreign Studies",
+    "city": "Seoul / Yongin",
+    "slug": "hankuk-university-of-foreign-studies",
+    "home": "https://www.hufs.ac.kr/",
+    "undergraduate": "https://international.hufs.ac.kr/",
+    "checked": "2026-11-07",
+    "transfer": true,
+    "sources": {
+      "home": {
+        "status": 200
+      },
+      "undergraduate": {
+        "status": 200
+      }
+    }
+  },
+  {
+    "country": "新加坡",
+    "name": "新加坡管理學院（SIM GE）",
+    "en": "Singapore Institute of Management Global Education",
+    "city": "Singapore",
+    "slug": "singapore-institute-of-management",
+    "home": "https://www.sim.edu.sg/degrees-diplomas/sim-global-education",
+    "undergraduate": "https://www.sim.edu.sg/degrees-diplomas/admissions",
+    "checked": "2026-11-07",
+    "transfer": true,
+    "sources": {
+      "home": {
+        "status": 200
+      },
+      "undergraduate": {
+        "status": 200
+      }
+    }
   }
 ]
