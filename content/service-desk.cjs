@@ -9,6 +9,7 @@ const groups=[
       ["義大利留學", "/zh/countries/italy/", "博洛尼亞 Global Cultures、北義選校、材料、住宿與留學預算。"],
       ["奧地利留學", "/zh/countries/austria/", "維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"],
       ["留學申請收費標準", "/zh/application-fees/", "同等服務參考價六折；免費代辦項目與第三方費用說明。"],
+      ["土耳其政府獎學金", "/zh/turkiye-burslari/", "Türkiye Bursları 申請資格、資助及材料。"],
       ["CSC國家公派留學", "/zh/csc-scholarships/", "碩士、博士與聯合培養；官方項目、推薦流程及學費資助。"],
       ["藝術遊學與國際駐村", "/zh/services/art-study-residency/", "14國藝術短課、自費及徵選駐村；按國家查看資格、費用與申請安排。"],
       ["研學項目評估", "/zh/services/study-tour-programme-review/", "名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
