@@ -33,14 +33,14 @@ module.exports = () => {
       .otc-refund h1{font-size:clamp(1.95rem,4.5vw,3.05rem)}
       .otc-refund h2{font-size:clamp(1.25rem,3vw,1.65rem)}
       .otc-refund p{margin:.4em 0 .85em}
-      .refund-intro{background:#193740;border:1px solid #193740;border-left:10px solid #a55546;box-shadow:inset 5px 0 #c2a367;border-radius:10px;padding:clamp(20px,4vw,38px)}
+      .refund-intro{background:linear-gradient(117deg,#142c4b 0 70%,#a63143 70% 100%);border:0;border-bottom:5px solid #d7a336;border-radius:10px;padding:clamp(20px,4vw,38px)}
       .otc-refund .refund-intro h1,.refund-intro p,.refund-intro a{color:#fffaf0}.refund-intro p{max-width:44em}
       .refund-kicker{font-size:.83rem;font-weight:700;color:#ead5a2;margin-bottom:10px}
       .refund-hero-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(120px,184px);align-items:center;gap:20px}
       .refund-hero-art{margin:0;max-width:184px}.refund-hero-art img{display:block;width:100%;height:auto;border-radius:6px}
       .refund-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 10px}
       .refund-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 15px;border:1px solid #b3a079;border-radius:7px;color:#fffaf0;font-weight:700;text-decoration:none}
-      .refund-actions a:first-child{background:var(--refund-accent);color:white}
+      .refund-actions a:first-child{background:#d7a336;color:#142c4b}
       .refund-details{font-size:.95rem;overflow-wrap:anywhere}
       .refund-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:20px 0}
       .refund-panel{min-width:0;border:1px solid var(--refund-line);border-radius:12px;padding:clamp(16px,3vw,25px);background:#fff}
