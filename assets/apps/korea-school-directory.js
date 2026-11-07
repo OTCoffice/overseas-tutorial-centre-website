@@ -9,3 +9,14 @@
  }
  query.addEventListener('input',filter);level.addEventListener('change',filter);
 })();
+
+// Reveal application information when reached from an existing shortcut.
+(() => {
+ function revealSection() {
+  if (!['#korea-documents', '#korea-apply'].includes(location.hash)) return;
+  const section = document.getElementById(location.hash.slice(1));
+  if (section instanceof HTMLDetailsElement) section.open = true;
+ }
+ window.addEventListener('hashchange', revealSection);
+ revealSection();
+})();
