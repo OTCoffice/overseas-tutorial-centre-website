@@ -5,117 +5,56 @@ const groups=[
     "留學規劃與申請",
     "留學諮詢、國家與學科選擇、學校申請及短期留學。",
     [
-      ["公校聯盟", "/zh/public-school-alliance/", "八國公立教育；國際招生、選科、費用、收費諮詢與申請。"],
-      ["義大利留學", "/zh/countries/italy/", "博洛尼亞 Global Cultures、北義選校、材料、住宿與留學預算。"],
-      ["奧地利留學", "/zh/countries/austria/", "維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"],
-      ["留學申請收費標準", "/zh/application-fees/", "同等服務參考價六折；免費代辦項目與第三方費用說明。"],
-      ["土耳其政府獎學金", "/zh/turkiye-burslari/", "Türkiye Bursları 申請資格、資助及材料。"],
-      ["CSC國家公派留學", "/zh/csc-scholarships/", "碩士、博士與聯合培養；官方項目、推薦流程及學費資助。"],
-      ["藝術遊學與國際駐村", "/zh/services/art-study-residency/", "14國藝術短課、自費及徵選駐村；按國家查看資格、費用與申請安排。"],
-      ["研學項目評估", "/zh/services/study-tour-programme-review/", "名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
-      ["台灣藝術與設計升學", "/zh/services/taiwan-art-design-admissions/", "台灣本地高中與高職選系、統測／學測／術科、作品集及備審。"],
-      ["藝術攝影升學", "/zh/subject-planning/photography/", "藝術創作、攝影書與展覽；50所國際院校、本碩博及作品集申請。"],
-      ["音樂留學規劃", "/zh/subject-planning/music/", "本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
-      ["德國雙元制", "/zh/services/germany-ausbildung/", "職業培訓、德語、申請材料及中介合約查核。"],
-      ["日本 SGU／英語學位", "/zh/services/japan-sgu-planning/", "本科與碩博選校、申請材料、語言準備及畢業去向。"],
-      ["日本大學院選校與申請規劃", "/zh/services/japan-graduate-application/", "修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
-      ["韓國中小學申請", "/zh/countries/south-korea/#korea-apply", "30 所學校／校區、資格、申請材料與 OTC 代辦。"],
-      ["韓國碩士申請", "/zh/services/korea-masters-application/", "藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
-      ["加拿大中小學申請", "/zh/services/canada-school-application/", "公校教育局、私校、免費入學代辦與監護住宿協調。"],
-      ["護理課程與院校", "/zh/nursing/courses/", "按 AQF 學歷級別及州份查閱澳洲護理課程。"],
-      [
-        "留學規劃",
-        "/zh/study-planning/",
-        "按學歷、預算和入學時間安排選校及申請。"
-      ],
-      [
-        "留學國家",
-        "/zh/countries/",
-        "按國家查閱院校、學費及生活費。"
-      ],
-      [
-        "學科選擇",
-        "/zh/subject-planning/",
-        "商科、文理工科、醫學、法律、藝術與設計等專業。"
-      ],
-      [
-        "中小學申請",
-        "/zh/private-school-alliance/",
-        "學校、入學年齡、課程及住宿。"
-      ],
-      [
-        "語言學校",
-        "/zh/language-school-alliance/",
-        "17 國語校、課程與費用、政府簽證入口及免費代辦。"
-      ],
-      ["高性價比留學", "/zh/services/affordable-study-abroad/", "低學費課程、政府獎學金、研究資助與帶薪培訓。"],
-      [
-        "碩士選國與申請規劃",
-        "/zh/services/masters-country-planning/",
-        "加拿大、紐西蘭與愛爾蘭選校及預算比較；OTC 免費代辦。"
-      ],
-      [
-        "大學申請",
-        "/zh/services/university-application-advisory/",
-        "選校、材料規劃、申請進度與院校溝通。"
-      ],
-      [
-        "轉學與學分抵免",
-        "/insights/credit-alliance/",
-        "學分抵免、轉學插班、課程對照、RPL 與修業預算。"
-      ],
-      [
-        "Asso／HD 升大學",
-        "/zh/asso-hd-university-progression/",
-        "轉科、選校、入學年級與英文要求。"
-      ],
-      ["香港研究型碩博申請", "/zh/services/hong-kong-research-degree-application/", "MPhil、PhD、研究計劃、導師與 PGS 資助。"],
-      [
-        "博士申請",
-        "/zh/services/phd-application-coaching/",
-        "研究方向、導師與資助、研究計劃及面試。"
-      ],
-      [
-        "個人陳述與申請文書",
-        "/zh/services/personal-statement-support/",
-        "素材整理、初稿回饋、結構與英文表達。"
-      ],
-      [
-        "英碩 SOP 修改",
-        "/zh/services/uk-sop-editing/",
-        "申請動機、經歷證據、課程契合度與文章架構。"
-      ],
-      [
-        "學歷認證與補件",
-        "/zh/services/credential-evaluation-document-coordination/",
-        "WES 等學歷評估文件、原校重送與收件跟進。"
-      ],
-      [
-        "寒暑校聯盟",
-        "/zh/summer-school-alliance/",
-        "按國家比較暑校、遊學及假期短期項目。"
-      ],
-      [
-        "訪問學者與學術交流",
-        "/zh/services/visiting-scholar-support/",
-        "項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"
-      ],
-      [
-        "歐洲交換申請",
-        "/zh/services/europe-exchange-support/",
-        "交換選校、選課、學分、均分與升碩銜接。"
-      ],
-      ["互惠生 Au Pair 申請陪跑", "/zh/services/au-pair-support/", "選國、申請材料、家庭面試與行前準備；按國家核對機構與費用。"],
-      [
-        "美國 SWT 暑期工遊",
-        "/zh/us-swt-work-travel-support/",
-        "資格、主辦機構、職位、成本、簽證面談與行前準備。"
-      ],
-      [
-        "美國高中交換",
-        "/zh/us-high-school-exchange-support/",
-        "交換項目、申請條件及文件準備。"
-      ]
+      ["規劃、選國與選科", [
+        ["留學規劃","/zh/study-planning/","按學歷、預算和入學時間安排選校及申請。"],
+        ["留學國家","/zh/countries/","按國家查閱院校、學費及生活費。"],
+        ["學科選擇","/zh/subject-planning/","商科、文理工科、醫學、法律、藝術與設計等專業。"],
+        ["義大利留學","/zh/countries/italy/","博洛尼亞 Global Cultures、北義選校、材料、住宿與留學預算。"],
+        ["奧地利留學","/zh/countries/austria/","維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"],
+        ["台灣藝術與設計升學","/zh/services/taiwan-art-design-admissions/","台灣本地高中與高職選系、統測／學測／術科、作品集及備審。"],
+        ["藝術攝影升學","/zh/subject-planning/photography/","藝術創作、攝影書與展覽；50所國際院校、本碩博及作品集申請。"],
+        ["音樂留學規劃","/zh/subject-planning/music/","本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
+        ["護理課程與院校","/zh/nursing/courses/","按 AQF 學歷級別及州份查閱澳洲護理課程。"]
+      ]],
+      ["費用與獎學金", [
+        ["政府全額獎學金","/zh/government-scholarships/","按目的地、學位與中國大陸、香港、台灣申請渠道查找。"],
+        ["留學申請收費標準","/zh/application-fees/","同等服務參考價六折；免費代辦項目與第三方費用說明。"],
+        ["高性價比留學","/zh/services/affordable-study-abroad/","低學費課程、政府獎學金、研究資助與帶薪培訓。"]
+      ]],
+      ["中小學與本科申請", [
+        ["公校聯盟","/zh/public-school-alliance/","八國公立教育；國際招生、選科、費用、收費諮詢與申請。"],
+        ["中小學申請","/zh/private-school-alliance/","學校、入學年齡、課程及住宿。"],
+        ["韓國中小學申請","/zh/countries/south-korea/#korea-apply","30 所學校／校區、資格、申請材料與 OTC 代辦。"],
+        ["加拿大中小學申請","/zh/services/canada-school-application/","公校教育局、私校、免費入學代辦與監護住宿協調。"],
+        ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
+        ["日本 SGU／英語學位","/zh/services/japan-sgu-planning/","本科與碩博選校、申請材料、語言準備及畢業去向。"],
+        ["轉學與學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
+        ["Asso／HD 升大學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
+        ["德國雙元制","/zh/services/germany-ausbildung/","職業培訓、德語、申請材料及中介合約查核。"]
+      ]],
+      ["碩士與博士申請", [
+        ["碩士選國與申請規劃","/zh/services/masters-country-planning/","加拿大、紐西蘭與愛爾蘭選校及預算比較；OTC 免費代辦。"],
+        ["日本大學院選校與申請規劃","/zh/services/japan-graduate-application/","修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
+        ["韓國碩士申請","/zh/services/korea-masters-application/","藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
+        ["香港研究型碩博申請","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"],
+        ["博士申請","/zh/services/phd-application-coaching/","研究方向、導師與資助、研究計劃及面試。"]
+      ]],
+      ["文書與學歷文件", [
+        ["個人陳述與申請文書","/zh/services/personal-statement-support/","素材整理、初稿回饋、結構與英文表達。"],
+        ["英碩 SOP 修改","/zh/services/uk-sop-editing/","申請動機、經歷證據、課程契合度與文章架構。"],
+        ["學歷認證與補件","/zh/services/credential-evaluation-document-coordination/","WES 等學歷評估文件、原校重送與收件跟進。"]
+      ]],
+      ["短期留學與交流", [
+        ["語言學校","/zh/language-school-alliance/","17 國語校、課程與費用、政府簽證入口及免費代辦。"],
+        ["寒暑校聯盟","/zh/summer-school-alliance/","按國家比較暑校、遊學及假期短期項目。"],
+        ["研學項目評估","/zh/services/study-tour-programme-review/","名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
+        ["藝術遊學與國際駐村","/zh/services/art-study-residency/","14國藝術短課、自費及徵選駐村；按國家查看資格、費用與申請安排。"],
+        ["歐洲交換申請","/zh/services/europe-exchange-support/","交換選校、選課、學分、均分與升碩銜接。"],
+        ["美國高中交換","/zh/us-high-school-exchange-support/","交換項目、申請條件及文件準備。"],
+        ["訪問學者與學術交流","/zh/services/visiting-scholar-support/","項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"],
+        ["互惠生 Au Pair 申請陪跑","/zh/services/au-pair-support/","選國、申請材料、家庭面試與行前準備；按國家核對機構與費用。"],
+        ["美國 SWT 暑期工遊","/zh/us-swt-work-travel-support/","資格、主辦機構、職位、成本、簽證面談與行前準備。"]
+      ]]
     ]
   ],
   [
@@ -344,6 +283,7 @@ const groups=[
 ];
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
 function link(url){return url.startsWith('/services/')?'https://translate.google.com/translate?sl=auto&tl=zh-TW&u='+encodeURIComponent('https://overseasuk.com'+url):url;}
+const renderRows=rows=>`<div class="desk-rows">${rows.map(([name,url,detail])=>`<a class="desk-row" href="${esc(link(url))}"><strong>${name}${url.startsWith('/services/')?'<small>中文自動翻譯</small>':''}</strong><span>${detail}</span><i aria-hidden="true">↗</i></a>`).join('')}</div>`;
 module.exports=function(){
 const css=`<style>
 .service-desk-page .service-hero-layout{align-items:start}.service-desk-page .service-hero-panel{align-self:start}.service-desk-page .service-hero-panel a{min-height:84px}
@@ -352,11 +292,12 @@ const css=`<style>
 .desk-section-head{display:flex;align-items:baseline;gap:16px;padding:13px 16px;background:var(--soft)}.desk-section-head h2{font-size:21px;margin:0;color:#132f43}.desk-section-head b{color:var(--accent);font-size:12px;margin-right:12px}.desk-section-head p{font-size:13px;margin:0;color:#5d625f}.desk-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}.desk-row{display:grid;grid-template-columns:180px minmax(0,1fr) 14px;gap:10px;align-content:start;padding:14px 4px;border-bottom:1px solid #ded7cc;color:#19394d}.desk-row strong{font-size:15px;line-height:1.5}.desk-row span{font-size:13px;line-height:1.6;color:#56616a}.desk-row small{display:block;color:#8a6c32;font-size:10px;font-weight:400}.desk-row i{font-style:normal;color:var(--accent)}.desk-row:hover{background:var(--soft)}
 .desk-note{border-top:1px solid #c8b89a;margin-top:24px;padding-top:16px;font-size:13px;color:#56616a}.desk-note p{margin:6px 0}.service-desk-page .service-review-strip{padding-bottom:6px}
 @media(max-width:1000px){.desk-row{grid-template-columns:145px minmax(0,1fr) 14px}}@media(max-width:700px){.service-desk-page .service-hero-panel,.service-desk-page .service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.service-desk-page .service-hero-panel a{min-height:70px}.desk-rows{grid-template-columns:1fr}.desk-section-head{display:block}.desk-section-head p{margin-top:6px}.desk-row{grid-template-columns:140px minmax(0,1fr) 14px}.desk-jump{gap:10px 18px}}
+.desk-study-group{padding:10px 0 4px}.desk-study-group h3{margin:4px 0;font-size:16px;color:#19394d}
 </style>`;
 const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC 服務</div><h1>服務總覽</h1><h2>留學規劃 · 移民與簽證 · 課程與教學</h2><p class="hero-sub">按需要查看服務，詳細流程、收費及聯絡方式見各服務頁。</p></div><aside class="service-hero-panel"><a href="#study"><strong>留學申請</strong><span>選校、文書與學歷文件</span></a><a href="#visa"><strong>移民與簽證</strong><span>申請類別、文件與辦理安排</span></a><a href="#learning"><strong>課程與教學</strong><span>課程輔導、語言與資格課程</span></a><a href="#partners"><strong>機構合作</strong><span>教育、活動與學習工具</span></a></aside></div></div></section>
 <section class="band service-review-strip"><a href="${esc(link('/services/station-dispatch-emergency-coordination/'))}"><b>24h</b><strong>緊急協調</strong><span>住宿、接送與家長聯絡</span></a><a href="/consultation-chat/"><b>ASK</b><strong>服務諮詢</strong><span>說明需求，確認服務與費用</span></a><a href="/zh/application-service-standards/"><b>STD</b><strong>服務標準</strong><span>委託範圍、文件與溝通記錄</span></a><a href="#publishing"><b>EDIT</b><strong>翻譯與出版</strong><span>編譯、商務聯絡與保密</span></a></section>
 <main class="band desk-index"><nav class="desk-jump" aria-label="服務分類">${groups.map(([id,title],i)=>`<a href="#${id}">${String(i+1).padStart(2,'0')} ${title}</a>`).join('')}</nav>
-${groups.map(([id,title,desc,rows],i)=>`<section class="desk-section" id="${id}"><header class="desk-section-head"><h2><b>${String(i+1).padStart(2,'0')}</b>${title}</h2><p>${desc}</p></header><div class="desk-rows">${rows.map(([name,url,detail])=>`<a class="desk-row" href="${esc(link(url))}"><strong>${name}${url.startsWith('/services/')?'<small>中文自動翻譯</small>':''}</strong><span>${detail}</span><i aria-hidden="true">↗</i></a>`).join('')}</div></section>`).join('')}
+${groups.map(([id,title,desc,rows],i)=>`<section class="desk-section" id="${id}"><header class="desk-section-head"><h2><b>${String(i+1).padStart(2,'0')}</b>${title}</h2><p>${desc}</p></header>${id==='study'?rows.map(([heading,items])=>`<div class="desk-study-group"><h3>${heading}</h3>${renderRows(items)}</div>`).join(''):renderRows(rows)}</section>`).join('')}
 <div class="desk-note"><p>各項服務的流程、交付內容與費用見子頁，委託前確認服務範圍。</p><p>OTC 提供教育協調、文件整理與溝通支援；法律、移民、醫療、保險及法定監護事宜由相應機構或合資格人士處理。</p></div></main>`;
 return pageShell({title:'服務總覽｜海外督導 OTC',path:'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:'查閱留學規劃與申請、移民與簽證、課程與教學，以及其他專業服務。',body}).replace(/[ \t]+$/gm,'');
 };
