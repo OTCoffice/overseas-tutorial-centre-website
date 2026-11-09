@@ -13,7 +13,8 @@ const groups=guides.map(group=>{
  const countries=destinations.filter(region=>regions[group.id].includes(region.id))
   .flatMap(region=>region.destinations)
   .map(({code,name,english,links})=>{
-   const guide=curated.get(code==='US'?'United States':english);
+   const curatedNames={US:'United States',HK:'Hong Kong'};
+   const guide=curated.get(curatedNames[code] ?? english);
    return {...(guide ?? {name,en:english,desc:'查閱高等教育體系與院校資料。',links}),code};
   });
  return {...group,countries};
