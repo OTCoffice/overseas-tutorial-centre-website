@@ -20,8 +20,17 @@ module.exports=()=>pageShell({
   </style>
   <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div>
   <div class="eyebrow">海外督導雙語世界 · 招生部</div><h1>留學規劃與申請諮詢</h1><p class="hero-sub">從選校、估算預算到提交申請，按目前進度查看下一步。</p>
-  <div class="actions"><a class="btn btn-primary" href="https://wa.me/447947991572">聯絡招生部</a><a class="btn btn-secondary" href="/zh/government-scholarships/">政府全額獎學金</a></div></div>
+  <div class="actions"><a class="btn btn-primary" href="#choose">查看申請流程</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
   <aside class="service-hero-panel">${steps.map(([id,title],i)=>`<a href="#${id}"><strong>${i+1}. ${title}</strong></a>`).join('')}</aside></div></div></section>
   <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div></section>`).join('')}
-  <section id="short-study"><h2>短期留學</h2><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">短期課程與學術交流</a></div></section></main>`
+  <section id="short-study"><h2>短期留學</h2><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">短期課程與學術交流</a></div></section>
+  <section id="admissions-contact" aria-labelledby="admissions-heading">
+    <h2 id="admissions-heading">聯絡招生部</h2>
+    <p>請告訴我們你目前的學歷、想申請的國家或課程，以及預計入學時間。</p>
+    <ul>
+      <li>電郵 <a href="mailto:office@overseasuk.com">office@overseasuk.com</a></li>
+      <li>WhatsApp <a href="https://wa.me/447947991572">+44 7947 991572</a></li>
+      <li>微信 overseasus</li>
+    </ul>
+  </section></main>`
 });
