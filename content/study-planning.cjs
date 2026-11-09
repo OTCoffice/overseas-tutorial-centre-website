@@ -17,10 +17,14 @@ module.exports=()=>pageShell({
   body:`<style>
   .study-steps{max-width:1080px;margin:auto;padding:20px 24px 44px;line-height:1.65}.study-steps section{margin:16px 0;padding:12px 0 16px;border-top:2px solid #263e4f;scroll-margin-top:110px}
   .study-steps h2{margin:0;font-size:20px}.study-steps p{margin:6px 0 8px}.study-links{display:flex;flex-wrap:wrap;gap:8px 20px}.study-links a{font-weight:650}
+  .services-hero .study-hero-actions{display:flex;flex-direction:row;flex-wrap:wrap;gap:10px}
+  .services-hero .study-hero-actions .btn{width:auto;min-width:0;flex:0 0 auto}
+  .services-hero .study-hero-actions .btn-secondary{background:transparent;border:1px solid #d4dce8;color:#fff}
+  .services-hero .study-hero-actions .btn-secondary:hover{background:#ffffff20}
   </style>
   <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div>
   <div class="eyebrow">海外督導雙語世界 · 招生部</div><h1>留學規劃與申請諮詢</h1><p class="hero-sub">從選校、估算預算到提交申請，按目前進度查看下一步。</p>
-  <div class="actions"><a class="btn btn-primary" href="/zh/countries/">瀏覽留學目的地</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
+  <div class="actions study-hero-actions"><a class="btn btn-primary" href="/zh/countries/">瀏覽留學目的地</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
   <aside class="service-hero-panel">${steps.map(([id,title],i)=>`<a href="#${id}"><strong>${i+1}. ${title}</strong></a>`).join('')}</aside></div></div></section>
   <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div></section>`).join('')}
   <section id="short-study"><h2>短期留學</h2><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">短期課程與學術交流</a></div></section>
