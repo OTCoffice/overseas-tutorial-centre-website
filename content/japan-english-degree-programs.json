@@ -207,6 +207,158 @@
       "application": "https://www.s-ge.t.kyoto-u.ac.jp/int/en/admission/application/guidelines",
       "guide": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/english-taught-degree-programs",
       "note": "2027 入學。初步資格審查已截止"
+    },
+    {
+      "school": "上智大學",
+      "program": "國際教養（比較文化）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "國際教養（社會研究）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "國際教養（國際商業與經濟）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "新聞學（SPSF）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "教育學（SPSF）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "社會學（SPSF）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "經濟學（SPSF）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "經營學（SPSF）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "全球研究（SPSF，國際關係與區域研究）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/spsf/w_h/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/SPSF_2027_Application_Procedure.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "數位綠色科技（DGTech）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/news/english-taught/dgtech-info-released/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 年 4 月首屆"
+    },
+    {
+      "school": "筑波大學",
+      "program": "國際社會研究（TISS）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://ac.tsukuba.ac.jp/en/examinations/application-guidelines/",
+      "guide": "https://www.soc-int.tsukuba.ac.jp/tiss/?lang=en",
+      "note": "2027 年 9 月入學"
+    },
+    {
+      "school": "筑波大學",
+      "program": "生命與環境科學跨領域課程（TILES）",
+      "language": "全英語授課",
+      "application": "https://ac.tsukuba.ac.jp/en/examinations/application-guidelines/",
+      "guide": null,
+      "note": "2027 年 9 月入學"
+    },
+    {
+      "school": "筑波大學",
+      "program": "跨領域工程（IDE）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://ac.tsukuba.ac.jp/en/examinations/application-guidelines/",
+      "guide": "https://www.ide.tsukuba.ac.jp/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東北大學",
+      "program": "Gateway College（跨領域本科）",
+      "language": "以英語為主，校方未列為全英語",
+      "application": "https://admissions.tohoku.ac.jp/en/admissions/undergraduate/gateway_college/",
+      "guide": "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/",
+      "note": "2027 年 4 月或 10 月入學"
+    },
+    {
+      "school": "慶應義塾大學",
+      "program": "經濟學（PEARL）",
+      "language": "全英語授課",
+      "application": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+      "guide": "https://www.keio.ac.jp/en/admissions/international-student/programs-offered-in-english/",
+      "note": "2027 年 9 月入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "資料科學與人工智慧",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "商業經濟",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "國際關係",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "數位商業與創新",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
     }
   ],
   "碩士": [
@@ -409,6 +561,110 @@
       "application": "https://www.iuj.ac.jp/admissions/",
       "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
       "note": "2027 入學。適用專案申請"
+    },
+    {
+      "school": "上智大學",
+      "program": "全球研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPGS_2027_Application_Procedures-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "國際商業與發展研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPGS_2027_Application_Procedures-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "日本研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPGS_2027_Application_Procedures-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "全球環境研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "綠色科學與工程",
+      "language": "全英語授課",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/gpst/?id=20591",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPST_2027_ApplicationProcedure-1.pdf",
+      "note": "2027 年秋季入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "經濟學",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "國際關係",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "數位商業與創新",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "公共政策（MP1，一年制）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "公共政策（MP2，兩年制）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "公共財政（PF）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "總體經濟政策（MEP）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
+      "note": "2027–2028 學年。直接申請的資格及資助條件見簡章"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "海事安全與保安政策（MSP）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
+      "note": "2027–2028 學年。直接申請的資格及資助條件見簡章"
     }
   ],
   "博士": [
@@ -523,6 +779,86 @@
       "application": "https://www.oist.jp/admissions/phd-program/apply-phd",
       "guide": "https://www.oist.jp/admissions/life-oist/language",
       "note": "申請輪次及入學時間見校方頁面"
+    },
+    {
+      "school": "上智大學",
+      "program": "全球研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPGS_2027_Application_Procedures-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "日本研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPGS_2027_Application_Procedures-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "全球環境研究",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "上智大學",
+      "program": "綠色科學與工程",
+      "language": "全英語授課",
+      "application": "https://adm.sophia.ac.jp/eng/admissions/graduate_p/english_g2/gpst/?id=20591",
+      "guide": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/05/GPST_2027_ApplicationProcedure-1.pdf",
+      "note": "2027 年春季或秋季入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "經濟學",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京國際大學 E-Track",
+      "program": "數位商業與創新",
+      "language": "全英語授課",
+      "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
+      "guide": "https://www.tiu.ac.jp/etrack/academics/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "全球治理（G-cube，五年制）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/about/facts/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "政策分析（PA，五年制）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/about/facts/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "科技與創新政策（STI，三年制）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/about/facts/",
+      "note": "2027–2028 學年"
+    },
+    {
+      "school": "政策研究大學院大學（GRIPS）",
+      "program": "災害管理（DM）",
+      "language": "全英語授課",
+      "application": "https://www.grips.ac.jp/en/admissions/apply/",
+      "guide": "https://www.grips.ac.jp/en/about/facts/",
+      "note": "2027–2028 學年"
     }
   ]
 }
