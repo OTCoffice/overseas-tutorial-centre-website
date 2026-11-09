@@ -27,6 +27,7 @@ const groups=[
         ["韓國中小學申請","/zh/countries/south-korea/#korea-apply","30 所學校／校區、資格、申請材料與 OTC 代辦。"],
         ["加拿大中小學申請","/zh/services/canada-school-application/","公校教育局、私校、免費入學代辦與監護住宿協調。"],
         ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
+        ["國際大學轉學","/zh/services/international-transfer/","按地區查閱轉學途徑、學分認定及申請材料。"],
         ["日本 SGU／英語學位","/zh/services/japan-sgu-planning/","本科與碩博選校、申請材料、語言準備及畢業去向。"],
         ["轉學與學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
         ["Asso／HD 升大學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
