@@ -62,11 +62,26 @@
       [
         [
           "COMPASS",
-          "EP 一般須取得至少 40 分，評估薪資、學歷、企業員工國籍多樣性及支持本地就業等因素，另有特定加分與豁免。大學排名或技術性職稱本身不保證通過。"
+          "EP 須先達到固定月薪門檻，除獲豁免外，再按 COMPASS 評分，須取得至少 40 分。評分涵蓋薪資、學歷、企業員工國籍多樣性及支持本地就業，另有技能和企業項目加分。"
+        ],
+        [
+          "C1 薪資計分",
+          "新版行業薪資基準適用於 2027 年 1 月 1 日起的新 EP 申請，以及 2027 年 7 月 1 日起到期的 EP 續期。C1 只用於計分；最低薪資門檻按上表，續期的生效日期不同。",
+          "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c1-salary-benchmarks"
+        ],
+        [
+          "C2 學歷計分",
+          "MOM 於 2026 年 11 月更新可獲 20 分的院校名單，以及可獲 10 分的同等學位專業資格名單。兩份名單均適用於 2027 年 1 月 1 日起提交的新 EP 及續期申請；如需以學歷取分，須提交核驗證明。"
+        ],
+        [
+          "C5 短缺職業加分",
+          "新版短缺職業清單適用於 2027 年 1 月 1 日起提交的新 EP 及續期申請。以新增的 Forward Deployed Engineer 為例，須符合清單所列職責及至少三年相關職稱的工作經驗。MOM 已公布自 2026 年 11 月 1 日起可使用更新的 EP 自我評估工具（SAT）。",
+          "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
         ],
         [
           "S Pass 雇主條件",
-          "雇主必須有可用配額並承擔征稅等責任。即使申請人達到最低薪資，公司也未必能聘用；由雇主確認並使用 MOM 自我評估工具（SAT）。"
+          "雇主須有可用配額：服務業的 S Pass 人數上限為公司總員工的 10%，建造、製造、海事船廠及加工業為 15%。自 2025 年 9 月 1 日起，各行業每名 S Pass 員工的徵費統一為每月 S$650，由雇主支付。",
+          "https://www.mom.gov.sg/passes-and-permits/s-pass/quota-and-levy/levy-and-quota-requirements"
         ],
         [
           "招聘廣告",
@@ -236,7 +251,7 @@
     [
       "sources",
       "官方資料",
-      "資料核查：2026 年 10 月 20 日。",
+      "資料核查：2026 年 10 月 20 日。COMPASS 政策更新：2026 年 11 月 9 日。",
       [
         [
           "EP 資格與 COMPASS",
@@ -272,6 +287,21 @@
           "S Pass 申請材料",
           "新加坡人力部 MOM 官方資料。",
           "https://www.mom.gov.sg/passes-and-permits/s-pass/documents-required"
+        ],
+        [
+          "C2 院校名單（20 分）",
+          "適用於 2027 年 1 月 1 日起提交的新 EP 及續期申請。",
+          "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/compass-c2-list-of-top-tier-institutions-upcoming.pdf"
+        ],
+        [
+          "C2 專業資格名單（10 分）",
+          "適用於 2027 年 1 月 1 日起提交的新 EP 及續期申請。",
+          "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/compass-c2-list-of-degree-equivalent-qualifications-upcoming.pdf"
+        ],
+        [
+          "C5 短缺職業雇主指南",
+          "適用於 2027 年 1 月 1 日起提交的新 EP 及續期申請。",
+          "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
         ]
       ]
     ]
