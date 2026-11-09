@@ -10,7 +10,27 @@ const pathways = [
 const countries = [
   ['英國', [
     ['倫敦藝術大學（LCC）', 'MA Design Management', 'https://www.arts.ac.uk/subjects/business-and-management-and-science/postgraduate/ma-design-management-lcc', '設計管理。準備能說明研究、協作與決策過程的案例。'],
-    ['倫敦藝術大學（CSM）', 'MA Arts and Cultural Enterprise', 'https://www.arts.ac.uk/subjects/business-and-management-and-science/postgraduate/ma-arts-and-cultural-enterprise-csm', '文化事業管理。一般要求至少兩年相關工作經驗，不招本科畢業後直接升讀的學生。']
+    ['倫敦藝術大學（CSM）', 'MA Arts and Cultural Enterprise', 'https://www.arts.ac.uk/subjects/business-and-management-and-science/postgraduate/ma-arts-and-cultural-enterprise-csm', '文化事業管理。一般要求至少兩年相關工作經驗，不招本科畢業後直接升讀的學生。'],
+    ['倫敦國王學院', 'MA Arts & Cultural Management', 'https://www.kcl.ac.uk/study/postgraduate-taught/courses/arts-and-cultural-management-ma', '文化機構營運。用展演或文化項目說明管理動機。'],
+    ['倫敦大學金匠學院', 'MA Arts Administration & Cultural Policy', 'https://www.gold.ac.uk/pg/ma-arts-admin-cultural-policy/', '藝術行政與文化政策。整理機構實習、展覽協作或政策研究案例。'],
+    ['曼徹斯特大學', 'MA Arts Management, Policy and Practice', 'https://www.manchester.ac.uk/study/masters/courses/list/08035/ma-arts-management-policy-and-practice/', '藝術機構與文化政策。核對本科成績、英語要求及相關經驗。'],
+    ['華威大學', 'MA Cultural Management and Creative Leadership', 'https://warwick.ac.uk/study/postgraduate/courses/ma-cultural-management-creative-leadership/', '文化管理與創意領導。可用團隊製作或文化活動案例說明職涯方向。'],
+    ['謝菲爾德大學', 'MSc Creative and Cultural Industries Management', 'https://sheffield.ac.uk/postgraduate/taught/courses/2026/creative-and-cultural-industries-management-msc', '創意與文化產業管理。核對目標入學年度及學位要求。'],
+    ['巴斯斯巴大學', 'MA Arts Management', 'https://www.bathspa.ac.uk/courses/pg-arts-management/', '藝術項目管理。整理策展、演出製作或社區藝術經驗。'],
+    ['倫敦大學伯貝克學院', 'MA Creative Industries Management and Policy', 'https://www.bbk.ac.uk/courses/postgraduate/creative-industries-management-and-policy', '創意產業管理與政策。從創作案例延伸至產業或機構分析。'],
+    ['諾森比亞大學', 'MA Creative and Cultural Industries Management', 'https://www.northumbria.ac.uk/study-at-northumbria/courses/creative-and-cultural-industries-management-dtpcci6/', '文化與創意產業管理。核對本科背景，準備項目規劃案例。'],
+    ['紐卡素大學', 'MA Creative and Cultural Industries Management', 'https://www.ncl.ac.uk/postgraduate/degrees/4197f/', '創意產業管理。可從展覽、媒體製作或文化項目切入。'],
+    ['薩塞克斯大學', 'MA Cultural and Creative Industries', 'https://www.sussex.ac.uk/study/masters/courses/cultural-and-creative-industries-ma', '文化與創意產業研究。可用產業研究或文化項目說明轉申方向。'],
+    ['瑪格麗特女王大學', 'MA Arts, Festival and Cultural Management', 'https://www.qmu.ac.uk/study-here/postgraduate-study/2026/ma-arts-festival-and-cultural-management', '藝術節與文化管理。可整理活動籌備、觀眾拓展或志願工作經驗。'],
+    ['利茲大學', 'MA Arts Management and Heritage Studies', 'https://courses.leeds.ac.uk/g646/arts-management-and-heritage-studies-ma', '藝術管理與文化遺產。可從博物館、展覽或公共文化教育切入。'],
+    ['格拉斯哥大學', 'MSc Creative Industries & Cultural Policy', 'https://www.gla.ac.uk/postgraduate/taught/creative-industries-cultural-policy/', '創意產業與文化政策。準備能說明政策興趣與研究能力的材料。'],
+    ['蘭卡斯特大學', 'MA Design Management', 'https://www.lancaster.ac.uk/study/postgraduate/postgraduate-courses/design-management-ma/2027/', '設計管理。用作品案例說明調研、決策及跨團隊協作。'],
+    ['考文垂大學', 'MA Design Management', 'https://www.coventry.ac.uk/course-structure/pg/cas/design-management-ma/?term=2027-28', '設計策略與管理。核對設計相關背景及當年度申請材料。'],
+    ['德蒙福特大學', 'MA/MSc Design Innovation and Management', 'https://www.dmu.ac.uk/study/courses/postgraduate-courses/design-innovation-and-management-degree/design-innovation-management-ma-msc.aspx', '設計創新與管理。按本科背景和職涯方向核對 MA 或 MSc 路線。'],
+    ['拉夫堡大學', 'MSc Design Innovation', 'https://www.lboro.ac.uk/study/postgraduate/masters-degrees/design-innovation/', '設計創新。可用研究、原型和測試案例說明如何把設計轉為產品或服務。'],
+    ['諾丁漢特倫特大學', 'MA Luxury Fashion Brand Management', 'https://www.ntu.ac.uk/course/art-and-design/pg/ma-luxury-fashion-brand-management', '奢侈時尚品牌管理。從服裝或視傳延伸至品牌定位與市場分析。'],
+    ['西敏寺大學', 'MA Fashion Business Management', 'https://www.westminster.ac.uk/fashion-courses/2027-28/september/full-time/fashion-business-management-ma', '時尚商業管理。核對本科背景，準備能說明商業動機的案例。'],
+    ['曼徹斯特都會大學', 'MSc Luxury Fashion Management', 'https://www.mmu.ac.uk/study/postgraduate/course/msc-luxury-fashion-management', '奢侈時尚管理。可從設計案例延伸至顧客、品牌與零售分析。']
   ]],
   ['美國', [
     ['紐約大學（Steinhardt）', 'MA Visual Arts Administration', 'https://steinhardt.nyu.edu/degree/ma-visual-arts-administration/how-apply', '視覺藝術機構管理。可用展覽、畫廊或文化項目經驗說明轉申動機。']
