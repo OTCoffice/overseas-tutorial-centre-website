@@ -359,6 +359,142 @@
       "application": "https://www.tiu.ac.jp/etrack/admissions/downloads/index.html",
       "guide": "https://www.tiu.ac.jp/etrack/academics/",
       "note": "2027 入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "應用化學",
+      "language": "專業課全英語授課，日語課除外",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "土木工程",
+      "language": "專業課全英語授課，日語課除外",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "電氣工程與資訊科學",
+      "language": "專業課全英語授課，日語課除外",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "機械與航太工程",
+      "language": "專業課全英語授課，日語課除外",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "生物資源與生物環境",
+      "language": "專業課全英語授課，日語課除外",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "九州大學",
+      "program": "跨領域科學與創新",
+      "language": "日英雙語",
+      "application": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+      "guide": "https://www.isc.kyushu-u.ac.jp/intlweb/en/admission/degree",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "立命館大學",
+      "program": "全球教養（GLA，與澳洲國立大學合作）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+      "guide": "https://en.ritsumei.ac.jp/e-ug/apply/aohb27.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "立命館大學",
+      "program": "全球研究（GS）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+      "guide": "https://en.ritsumei.ac.jp/e-ug/apply/aohb27.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "立命館大學",
+      "program": "社區與區域政策研究（CRPS）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+      "guide": "https://en.ritsumei.ac.jp/e-ug/apply/aohb27.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "立命館大學",
+      "program": "資訊系統科學與工程（ISSE）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+      "guide": "https://en.ritsumei.ac.jp/e-ug/apply/aohb27.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "廣島大學",
+      "program": "綜合全球研究（IGS）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://www.hiroshima-u.ac.jp/en/igs/howto2027",
+      "guide": "https://www.hiroshima-u.ac.jp/en/igs/admissions",
+      "note": "2027 年 4 月入學"
+    },
+    {
+      "school": "北海道大學",
+      "program": "綜合科學（ISP）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/",
+      "guide": "https://www.oia.hokudai.ac.jp/isp/",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "北海道大學",
+      "program": "現代日本研究（MJSP）",
+      "language": "日英雙語",
+      "application": "https://www.oia.hokudai.ac.jp/mjsp/application/",
+      "guide": null,
+      "note": "2028 年 4 月入讀本科。2027 年 10 月為日語密集課程入學"
+    },
+    {
+      "school": "大阪大學",
+      "program": "人間科學國際學位",
+      "language": "全英語授課",
+      "application": "https://iudp.hus.osaka-u.ac.jp/admissions/",
+      "guide": "https://www.hus.osaka-u.ac.jp/en/applicants_for_undergraduate/",
+      "note": "2027 年 10 月入學"
+    },
+    {
+      "school": "大阪大學",
+      "program": "國際理學本科（IUPS）",
+      "language": "日英雙語，須符合日語資格",
+      "application": "https://www.osaka-u.ac.jp/en/admissions/faculty/int_sci/iups",
+      "guide": "https://www.osaka-u.ac.jp/en/admissions/intl-students/Degree-Programs-in-English-Japanese/International-Undergraduate-Program-in-Science-JLPT-N3-required",
+      "note": "2027 年 4 月入學"
+    },
+    {
+      "school": "芝浦工業大學",
+      "program": "創新全球工程（IGP）",
+      "language": "全英語授課",
+      "application": "https://www.igp.shibaura-it.ac.jp/",
+      "guide": "https://www.shibaura-it.ac.jp/en/academics/engineering/igp/index.html",
+      "note": "2027 年秋季入學"
+    },
+    {
+      "school": "明治大學",
+      "program": "國際日本學（English Track）",
+      "language": "英語學位途徑，日語課及畢業要求見簡章",
+      "application": "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html",
+      "guide": "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/index.html",
+      "note": "2027 年 9 月入學"
     }
   ],
   "碩士": [
@@ -665,6 +801,78 @@
       "application": "https://www.grips.ac.jp/en/admissions/apply/",
       "guide": "https://www.grips.ac.jp/en/education/inter_programs/",
       "note": "2027–2028 學年。直接申請的資格及資助條件見簡章"
+    },
+    {
+      "school": "GLOBIS 經營大學院",
+      "program": "英語 MBA（全日制）",
+      "language": "全英語授課",
+      "application": "https://www.globis.ac.jp/apply/",
+      "guide": "https://www.globis.ac.jp/admission-fees/how-to-apply-to-mba/",
+      "note": "2027 年秋季入學"
+    },
+    {
+      "school": "GLOBIS 經營大學院",
+      "program": "英語 MBA（兼讀或線上）",
+      "language": "全英語授課",
+      "application": "https://www.globis.ac.jp/apply/",
+      "guide": "https://www.globis.ac.jp/admission-fees/how-to-apply-to-mba/",
+      "note": "2027 年秋季入學"
+    },
+    {
+      "school": "一橋大學 ICS",
+      "program": "工商管理（MBA）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://www.ics.hub.hit-u.ac.jp/mba/apply/",
+      "guide": null,
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京大學",
+      "program": "機械工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "電氣工程與資訊系統（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "材料工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "航空太空工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "化學系統工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "精密工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
     }
   ],
   "博士": [
@@ -859,6 +1067,70 @@
       "application": "https://www.grips.ac.jp/en/admissions/apply/",
       "guide": "https://www.grips.ac.jp/en/about/facts/",
       "note": "2027–2028 學年"
+    },
+    {
+      "school": "一橋大學 ICS",
+      "program": "工商管理博士（DBA）",
+      "language": "英語學位途徑，必修語言要求見簡章",
+      "application": "https://www.ics.hub.hit-u.ac.jp/dba/apply/",
+      "guide": null,
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京大學",
+      "program": "機械工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "電氣工程與資訊系統（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "材料工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "航空太空工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "化學系統工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "精密工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
+    },
+    {
+      "school": "東京大學",
+      "program": "生物工程（IME）",
+      "language": "英語授課及研究指導，畢業條件見簡章",
+      "application": "https://www.ime.t.u-tokyo.ac.jp/Prospectus-2027.html",
+      "guide": "https://www.t.u-tokyo.ac.jp/en/study-at-utokyo/soe/international-programs",
+      "note": "2027 入學。各專攻開放輪次見簡章"
     }
   ]
 }
