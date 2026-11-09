@@ -2,7 +2,7 @@
   "path": "/zh/services/japan-sgu-planning/",
   "name": "日本英語授課學位",
   "titleZh": "日本英語授課學位｜本科、碩士與博士選校｜海外督導 OTC",
-  "summaryZh": "查找日本英語授課學位的官方入口，按本科、碩士與博士選校，核對授課語言及當年招生簡章。",
+  "summaryZh": "按本科、碩士及博士查找日本英語授課學位，逐項查看授課語言、招生年度和校方申請入口。",
   "shareImageZh": "/assets/social/japan-sgu-share-20261101.png",
   "socialImageVersion": "v=20261101",
   "socialImageWidth": 1200,
@@ -10,15 +10,22 @@
   "sections": [
     {
       "heading": "官方查詢與收錄範圍",
-      "html": "<p>本頁收錄選校示例及查詢入口。日本全國的英語授課學位請從 JASSO 官方搜尋開始，再逐校核對當年簡章。</p><ol><li>先查 <a href=\"https://www.studyinjapan.go.jp/en/search-for-schools/school_search.php?lang=en\">JASSO 院校與課程搜尋</a>，按本科、碩士或博士及授課語言篩選。</li><li>對照 <a href=\"https://www.studyinjapan.go.jp/en/planning/learn-about-schools/english-programs/\">JASSO 英語授課學位指引</a>，確認能否以英語完成學位，以及是否另有日語必修。</li><li>以院校當年簡章核對招生狀態、入學月份、資格、語言成績及截止日。短期交換、個別英語科目與非學位研究生另行查詢。</li></ol><p>SGU 是日本大學國際化政策。<a href=\"https://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/20200305_1395420-2.pdf\">文部科學省的 SGU 歷史名單</a>列出 37 所獲選院校。找英授學位時應按課程查詢，範圍也包括 SGU 名單以外的院校。</p>"
+      "html": "<p>本目錄按學位層級列出已核對校方資料的項目。收錄以可核實的招生資料為準。可用 JASSO 查找其他院校，再逐校核對當年簡章。</p><ol><li>先查 <a href=\"https://www.studyinjapan.go.jp/en/search-for-schools/school_search.php?lang=en&amp;offset=0&amp;go=go&amp;narabikae=2&amp;limit=25&amp;course=0&amp;school_name=&amp;medium_inst-2=1&amp;medium_inst-5=1\">JASSO 院校與課程搜尋</a>，按本科、碩士或博士及授課語言篩選。</li><li>對照 <a href=\"https://www.studyinjapan.go.jp/en/planning/learn-about-schools/english-programs/\">JASSO 英語授課學位指引</a>，確認能否以英語完成學位，以及是否另有日語必修。</li><li>以院校當年簡章核對招生狀態、入學月份、資格、語言成績及截止日。短期交換、個別英語科目與非學位研究生另行查詢。</li></ol><p>SGU 是日本大學國際化政策。<a href=\"https://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/20200305_1395420-2.pdf\">文部科學省的 SGU 歷史名單</a>列出 37 所獲選院校。找英授學位時應按課程查詢，範圍也包括 SGU 名單以外的院校。</p>"
     },
     {
-      "heading": "本科課程示例",
-      "html": "<p>以下列出五組本科選校示例。招生資格、考試、費用及截止日以各校當年簡章為準。</p><div class=\"table-wrap\"><table><thead><tr><th>院校／項目</th><th>選校重點</th><th>官方資料</th></tr></thead><tbody>\n<tr><td>名古屋大學 G30</td><td>涵蓋理工、人文及社會科學等方向；逐項核對高中課程、先修科目及標準化考試。</td><td><a href=\"https://admissions.g30.nagoya-u.ac.jp/undergraduate/\">課程</a> · <a href=\"https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/\">申請</a></td></tr>\n<tr><td>早稻田大學 英語學位</td><td>比較政治經濟、國際教養、社會科學及理工等方向；學部之間的課程結構和選拔方式不同。</td><td><a href=\"https://www.waseda.jp/inst/admission/en/undergraduate/english/\">英授本科</a></td></tr>\n<tr><td>東京科學大學 GSEP</td><td>全英語工程學士；應確認理科與數學準備、選拔方式及獎學金類別，不能套用日授入試要求。</td><td><a href=\"https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep\">GSEP</a></td></tr>\n<tr><td>會津大學 ICT Global All-English Program</td><td>電腦科學與工程方向；比較專業課程、日語課、實習及招生資格。</td><td><a href=\"https://u-aizu.ac.jp/sgu/en/ictg/\">課程</a> · <a href=\"https://u-aizu.ac.jp/en/materials/\">招生簡章</a></td></tr>\n\n<tr><td>立命館亞洲太平洋大學（APU）</td><td>查各學部的 English-basis 本科招生，並核對日語課與畢業要求。</td><td><a href=\"https://admissions.apu.ac.jp/resource/ln/130f31b9fce33b6d5e1c5667a4d7974caa660ff0/ApplicationHandbook_UG_ENG_27_1.pdf\">2027 國際本科招生簡章</a></td></tr>\n</tbody></table></div>"
+      "heading": "本科項目",
+      "degreeLevel": "本科",
+      "html": "<p>全英語授課依校方對該學位途徑的說明標示。英語學位途徑的必修日語、語言科目及畢業條件請另查簡章。</p>"
     },
     {
-      "heading": "碩士與博士查詢",
-      "html": "<p>以研究科和研究方向選校，確認是否提供完整英語學位、適合的導師、研究資源及資助。不是每個項目都要求提前套磁，也不是取得導師回信便等於正式錄取。</p><p>本科成績、相關課程、研究經歷、英文成績、研究計畫與面試按項目準備。申請修士須核對學士學位及受教育年限；博士須核對前置學位與研究資格。可從<a href=\"https://admissions.g30.nagoya-u.ac.jp/\">名古屋 G30 本科與研究生課程</a>及<a href=\"https://www.studyinjapan.go.jp/en/planning/learn-about-schools/english-programs/\">JASSO 英語學位資料</a>查找，再讀研究科最新簡章。</p><p>日本非學位「研究生」與正式修士有別，前者不保證之後考入碩士。相關服務：<a href=\"/zh/services/japan-graduate-application/\">日本大學院申請</a>。</p>"
+      "heading": "碩士項目",
+      "degreeLevel": "碩士",
+      "html": ""
+    },
+    {
+      "heading": "博士項目",
+      "degreeLevel": "博士",
+      "html": ""
     },
     {
       "heading": "語言與就業",

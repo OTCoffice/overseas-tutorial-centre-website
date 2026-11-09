@@ -1,0 +1,528 @@
+{
+  "本科": [
+    {
+      "school": "名古屋大學 G30",
+      "program": "汽車工程（機械工程）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "汽車工程（電氣、電子與資訊工程）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "物理（理學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（理學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（工學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物科學（理學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物科學（農學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "社會科學（法學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "社會科學（經濟學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "日本與亞洲文化研究（人文學部）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "政治學",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "經濟學",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "全球政治經濟",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "社會創新跨領域研究（TAISI）",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "國際教養（SILS）",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "日本文化研究（JCulP）",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "數理科學",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "電腦科學與通訊工程",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "機械工程",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "早稻田大學",
+      "program": "土木與環境工程",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://www.waseda.jp/inst/admission/en/undergraduate/english/",
+      "guide": "https://www.waseda.jp/top/en/news/88403",
+      "note": "2027 招生資料"
+    },
+    {
+      "school": "立命館亞洲太平洋大學（APU）",
+      "program": "亞洲太平洋研究",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://admissions.apu.ac.jp/my/admissions/how_to_apply?lang=en",
+      "guide": "https://admissions.apu.ac.jp/resource/ln/dd39749fe87ff7fdda140e9e8887e31f65a8494f/ApplicationHandbook_UG_ENG_27_2.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "立命館亞洲太平洋大學（APU）",
+      "program": "國際經營",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://admissions.apu.ac.jp/my/admissions/how_to_apply?lang=en",
+      "guide": "https://admissions.apu.ac.jp/resource/ln/dd39749fe87ff7fdda140e9e8887e31f65a8494f/ApplicationHandbook_UG_ENG_27_2.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "立命館亞洲太平洋大學（APU）",
+      "program": "永續發展與觀光",
+      "language": "英語學位途徑，日語修課要求見簡章",
+      "application": "https://admissions.apu.ac.jp/my/admissions/how_to_apply?lang=en",
+      "guide": "https://admissions.apu.ac.jp/resource/ln/dd39749fe87ff7fdda140e9e8887e31f65a8494f/ApplicationHandbook_UG_ENG_27_2.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "東京科學大學",
+      "program": "全球科學家與工程師課程（GSEP）",
+      "language": "全英語授課",
+      "application": "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep",
+      "guide": null,
+      "note": "2027 年 4 月入學。申請期已截止"
+    },
+    {
+      "school": "會津大學",
+      "program": "ICT Global All-English Program",
+      "language": "全英語授課",
+      "application": "https://u-aizu.ac.jp/en/materials/",
+      "guide": null,
+      "note": "2027 入學"
+    },
+    {
+      "school": "京都大學",
+      "program": "土木工程國際課程",
+      "language": "全英語授課",
+      "application": "https://www.s-ge.t.kyoto-u.ac.jp/int/en/admission/application/guidelines",
+      "guide": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/english-taught-degree-programs",
+      "note": "2027 入學。初步資格審查已截止"
+    }
+  ],
+  "碩士": [
+    {
+      "school": "名古屋大學 G30",
+      "program": "汽車工程",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/01_AY2027_G30_MAutoE_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "土木與環境工程",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/02_AY2027_G30_MCiv_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "地球與環境科學",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/04_AY2027_G30_MEES_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "工程物理",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/06_AY2027_G30_MEngPh_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "物理與數學（數學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/08_AY2027_G30_MPhMat_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "物理與數學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/08_AY2027_G30_MPhSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（工學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/10_AY2027_G30_MChEn_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/10_AY2027_G30_MChSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物與生物農學（生物農學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/12_AY2027_G30_MBioAgr_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物與生物農學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/12_AY2027_G30_MBioSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物與生物農學（醫學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/12_AY2027_G30_MBioMed_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "公共衛生",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/18_AY2027_G30_MPhMed_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "經濟與工商管理",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/15_AY2027_G30_MEcon_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "語言學與文化研究",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/16_AY2027_G30_MLING_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "日本與亞洲文化研究",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_2",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/17_AY2027_G30_MJACS_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "國際關係",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "國際發展",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "公共管理與政策分析",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "日本與全球發展（國際關係研究科）",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "國際公共政策",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "工商管理（兩年制 MBA）",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "工商管理（一年制 MBA）",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "日本與全球發展（MBA）",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "數位轉型",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "國際社會創業",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsim/programs/",
+      "note": "2027 入學。適用專案申請"
+    }
+  ],
+  "博士": [
+    {
+      "school": "名古屋大學 G30",
+      "program": "土木與環境工程",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/03_AY2027_G30_DCiv_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "地球與環境科學",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/05_AY2027_G30_DEES_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "工程物理",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/07_AY2027_G30_DEngPh_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "物理與數學（數學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/09_AY2027_G30_DPhMat_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "物理與數學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/09_AY2027_G30_DPhSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（工學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/11_AY2027_G30_DChEn_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "化學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/11_AY2027_G30_DChSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物與生物農學（生物農學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/13_AY2027_G30_DBioAgr_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "生物與生物農學（理學研究科）",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/13_AY2027_G30_DBioSci_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "名古屋大學 G30",
+      "program": "醫學科學",
+      "language": "全英語授課",
+      "application": "https://admissions.g30.nagoya-u.ac.jp/admissions/graduateprograms/#gra_3",
+      "guide": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2026/10/14_AY2027_G30_DMedi_AdmissionRequirement.pdf",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "經濟學",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "公共管理",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "國際大學（IUJ）",
+      "program": "國際關係",
+      "language": "全英語授課",
+      "application": "https://www.iuj.ac.jp/admissions/",
+      "guide": "https://www.iuj.ac.jp/academics/gsir/programs/",
+      "note": "2027 入學"
+    },
+    {
+      "school": "沖繩科學技術大學院大學（OIST）",
+      "program": "科學博士（跨領域）",
+      "language": "全英語授課",
+      "application": "https://www.oist.jp/admissions/phd-program/apply-phd",
+      "guide": "https://www.oist.jp/admissions/life-oist/language",
+      "note": "申請輪次及入學時間見校方頁面"
+    }
+  ]
+}
