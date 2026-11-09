@@ -46,10 +46,12 @@
   },
   "/zh/services/art-portfolio-coaching/": {
     "title": "設計申請｜藝術總監",
-    "image": "/assets/social/native-art-portfolio-coaching-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 204,
+    "image": "/assets/social/art-portfolio-coaching-20261109.png",
+    "version": "v=20261109",
+    "width": 1200,
+    "height": 630,
+    "keepShareCover": true,
+    "sharePageVersion": "20261109",
     "file": "zh/services/art-portfolio-coaching/index.html",
     "previousImage": "/assets/social/art-portfolio-coaching-20260930-v1.png"
   },

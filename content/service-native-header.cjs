@@ -5,8 +5,8 @@ module.exports=function(html,route){
  const a=catalog[route];if(!a)return html;
  if(route==='/zh/services/uk-sop-editing/'&&!html.includes('services-hero')){const frame=require('./academic-subpage.cjs')(a.title,'').replace(/<main[\s\S]*?<\/main>/,'');html=html.replace(/<section class="band sop-page">/,frame+'<section class="band sop-page">').replace(/(<section class="band sop-page">[\s\S]*?)<h1[\s\S]*?<\/h1>/,'$1');}
  const old=[...html.matchAll(/<meta[^>]+(?:property="og:image"|name="twitter:image")[^>]+content="([^"]+)"/g)].map(m=>m[1].split('?')[0]);if(a.previousImage)old.push(a.previousImage);
- html=html.replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/g,f=>old.some(u=>f.includes(u.replace('https://overseasuk.com','')))?'':f);
- html=html.replace(/<img\b[^>]*>/g,t=>old.some(u=>t.includes(u.replace('https://overseasuk.com','')))?'':t);
+ if(!a.keepShareCover)html=html.replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/g,f=>old.some(u=>f.includes(u.replace('https://overseasuk.com','')))?'':f);
+ if(!a.keepShareCover)html=html.replace(/<img\b[^>]*>/g,t=>old.some(u=>t.includes(u.replace('https://overseasuk.com','')))?'':t);
  html=html.replace(/<section\b[^>]*class="[^"]*service-review-strip[^"]*"[^>]*>[\s\S]*?<\/section>/g,'');
  if(route==='/zh/services/vietnam-visa/'&&html.includes('vn-hero')){const frame=require('./academic-subpage.cjs')(a.title,'').replace(/<main[\s\S]*?<\/main>/,'').replace('教育服務與雙語學習','文件整理・申請支援').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','依出行目的與日期，核對越南簽證資料及辦理安排。');html=html.replace(/<header class="vn-hero"[\s\S]*?<\/header>/,frame).replace(/<section\b[^>]*class="[^"]*service-review-strip[^"]*"[^>]*>[\s\S]*?<\/section>/g,'');}
  if(route==='/zh/services/uk-sop-editing/')html=html.replace('教育服務與雙語學習','申請文書・架構與修改').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','依申請課程與經歷，整理文書架構及修改安排。');
