@@ -1,0 +1,3044 @@
+[
+  {
+    "id": "europe",
+    "label": "歐洲",
+    "destinations": [
+      {
+        "code": "AL",
+        "name": "阿爾巴尼亞",
+        "english": "Albania",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Albania"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Albania"
+          ]
+        ]
+      },
+      {
+        "code": "AD",
+        "name": "安道爾",
+        "english": "Andorra",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Andorra"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Andorra"
+          ]
+        ]
+      },
+      {
+        "code": "AT",
+        "name": "奧地利",
+        "english": "Austria",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Austria"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Austria"
+          ]
+        ]
+      },
+      {
+        "code": "BY",
+        "name": "白俄羅斯",
+        "english": "Belarus",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Belarus"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Belarus"
+          ]
+        ]
+      },
+      {
+        "code": "BE",
+        "name": "比利時",
+        "english": "Belgium",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Belgium"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Belgium"
+          ]
+        ]
+      },
+      {
+        "code": "BA",
+        "name": "波士尼亞與赫塞哥維納",
+        "english": "Bosnia & Herzegovina",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Bosnia-and-Herzegovina"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bosnia%20and%20Herzegovina"
+          ]
+        ]
+      },
+      {
+        "code": "BG",
+        "name": "保加利亞",
+        "english": "Bulgaria",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Bulgaria"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bulgaria"
+          ]
+        ]
+      },
+      {
+        "code": "HR",
+        "name": "克羅埃西亞",
+        "english": "Croatia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Croatia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Croatia"
+          ]
+        ]
+      },
+      {
+        "code": "CZ",
+        "name": "捷克",
+        "english": "Czechia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Czech-Republic"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Czechia"
+          ]
+        ]
+      },
+      {
+        "code": "DK",
+        "name": "丹麥",
+        "english": "Denmark",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Denmark"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Denmark"
+          ]
+        ]
+      },
+      {
+        "code": "EE",
+        "name": "愛沙尼亞",
+        "english": "Estonia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Estonia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Estonia"
+          ]
+        ]
+      },
+      {
+        "code": "FI",
+        "name": "芬蘭",
+        "english": "Finland",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Finland"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Finland"
+          ]
+        ]
+      },
+      {
+        "code": "FR",
+        "name": "法國",
+        "english": "France",
+        "route": "先問學校能否申請高年級，再確認應經校方或適用的 Campus France 程序提交。",
+        "credit": "以課程大綱和 ECTS 向目標校申請認定，確認能否免修及入讀年級。",
+        "links": [
+          [
+            "Campus France 法國高等教育",
+            "https://www.campusfrance.org/"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-France"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=France"
+          ]
+        ]
+      },
+      {
+        "code": "DE",
+        "name": "德國",
+        "english": "Germany",
+        "route": "向目標校查 höheres Fachsemester（高年級入學）的名額及申請方式。",
+        "credit": "向院系考試委員會或校方指定單位查 Anerkennung（已修課程認定）。",
+        "links": [
+          [
+            "德國 DAAD 高等教育資料庫",
+            "https://www.daad.de/en/studying-in-germany/universities/all-degree-programmes/"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Germany"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Germany"
+          ]
+        ]
+      },
+      {
+        "code": "GR",
+        "name": "希臘",
+        "english": "Greece",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Greece"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Greece"
+          ]
+        ]
+      },
+      {
+        "code": "HU",
+        "name": "匈牙利",
+        "english": "Hungary",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Hungary"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Hungary"
+          ]
+        ]
+      },
+      {
+        "code": "IS",
+        "name": "冰島",
+        "english": "Iceland",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Iceland"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Iceland"
+          ]
+        ]
+      },
+      {
+        "code": "IE",
+        "name": "愛爾蘭",
+        "english": "Ireland",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Ireland"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Ireland"
+          ]
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "義大利",
+        "english": "Italy",
+        "route": "向校方確認境外在讀者應走轉學或新生入學程序，並核對是否須預註冊。",
+        "credit": "提交已修科目、學分與課綱，請院系審查可認定科目和入讀年級。",
+        "links": [
+          [
+            "義大利 Universitaly",
+            "https://www.universitaly.it/"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Italy"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Italy"
+          ]
+        ]
+      },
+      {
+        "code": "XK",
+        "name": "科索沃",
+        "english": "Kosovo",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "科索沃認證機構",
+            "https://akreditimi.rks-gov.net/"
+          ]
+        ]
+      },
+      {
+        "code": "LV",
+        "name": "拉脫維亞",
+        "english": "Latvia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Latvia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Latvia"
+          ]
+        ]
+      },
+      {
+        "code": "LI",
+        "name": "列支敦斯登",
+        "english": "Liechtenstein",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Liechtenstein"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Liechtenstein"
+          ]
+        ]
+      },
+      {
+        "code": "LT",
+        "name": "立陶宛",
+        "english": "Lithuania",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Lithuania"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Lithuania"
+          ]
+        ]
+      },
+      {
+        "code": "LU",
+        "name": "盧森堡",
+        "english": "Luxembourg",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Luxembourg"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Luxembourg"
+          ]
+        ]
+      },
+      {
+        "code": "MT",
+        "name": "馬爾他",
+        "english": "Malta",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Malta"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Malta"
+          ]
+        ]
+      },
+      {
+        "code": "MD",
+        "name": "摩爾多瓦",
+        "english": "Moldova",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Moldova"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Moldova"
+          ]
+        ]
+      },
+      {
+        "code": "MC",
+        "name": "摩納哥",
+        "english": "Monaco",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Monaco"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Monaco"
+          ]
+        ]
+      },
+      {
+        "code": "ME",
+        "name": "蒙特內哥羅",
+        "english": "Montenegro",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Montenegro"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Montenegro"
+          ]
+        ]
+      },
+      {
+        "code": "NL",
+        "name": "荷蘭",
+        "english": "Netherlands",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Netherlands"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Netherlands"
+          ]
+        ]
+      },
+      {
+        "code": "MK",
+        "name": "北馬其頓",
+        "english": "North Macedonia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-North-Macedonia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=North%20Macedonia%20(Republic%20of)"
+          ]
+        ]
+      },
+      {
+        "code": "NO",
+        "name": "挪威",
+        "english": "Norway",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Norway"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Norway"
+          ]
+        ]
+      },
+      {
+        "code": "PL",
+        "name": "波蘭",
+        "english": "Poland",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Poland"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Poland"
+          ]
+        ]
+      },
+      {
+        "code": "PT",
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "route": "查閱 Mudança de Par Instituição/Curso，向目標院校確認原有學籍是否符合申請資格、名額與期限。",
+        "credit": "向院校申請已修課程的學分認定，備妥 ECTS、課程大綱與考核資料。",
+        "links": [
+          [
+            "葡萄牙高等教育總局轉學指引",
+            "https://www.dges.gov.pt/pt/pagina/mudanca-de-par-instituicaocurso"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Portugal"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Portugal"
+          ]
+        ]
+      },
+      {
+        "code": "RO",
+        "name": "羅馬尼亞",
+        "english": "Romania",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Romania"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Romania"
+          ]
+        ]
+      },
+      {
+        "code": "RU",
+        "name": "俄羅斯",
+        "english": "Russia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Russian-Federation"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Russian%20Federation"
+          ]
+        ]
+      },
+      {
+        "code": "SM",
+        "name": "聖馬利諾",
+        "english": "San Marino",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-San-Marino"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=San%20Marino"
+          ]
+        ]
+      },
+      {
+        "code": "RS",
+        "name": "塞爾維亞",
+        "english": "Serbia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Serbia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Serbia"
+          ]
+        ]
+      },
+      {
+        "code": "SK",
+        "name": "斯洛伐克",
+        "english": "Slovakia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Slovak-Republic"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Slovak%20Republic"
+          ]
+        ]
+      },
+      {
+        "code": "SI",
+        "name": "斯洛維尼亞",
+        "english": "Slovenia",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Slovenia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Slovenia"
+          ]
+        ]
+      },
+      {
+        "code": "ES",
+        "name": "西班牙",
+        "english": "Spain",
+        "route": "向目標校查境外未完成大學課程的申請途徑及所需認定學分。",
+        "credit": "向目標校查 reconocimiento de créditos，確認哪些科目及學分可獲認定。",
+        "links": [
+          [
+            "西班牙大學、中心及學位登記 RUCT",
+            "https://www.educacion.gob.es/ruct/home"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Spain"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Spain"
+          ]
+        ]
+      },
+      {
+        "code": "SE",
+        "name": "瑞典",
+        "english": "Sweden",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Sweden"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Sweden"
+          ]
+        ]
+      },
+      {
+        "code": "CH",
+        "name": "瑞士",
+        "english": "Switzerland",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Switzerland"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Switzerland"
+          ]
+        ]
+      },
+      {
+        "code": "UA",
+        "name": "烏克蘭",
+        "english": "Ukraine",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Ukraine"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Ukraine"
+          ]
+        ]
+      },
+      {
+        "code": "GB",
+        "name": "英國",
+        "english": "United Kingdom",
+        "route": "先問目標校是否接受轉入指定年級，再確認是否經 UCAS 申請。",
+        "credit": "請院系比較已修模組和目標課程，確認可免修科目及入讀年級。",
+        "links": [
+          [
+            "UCAS 轉學指引",
+            "https://www.ucas.com/money-and-student-life/student-life/starting-university-or-college/changing-or-leaving-your-course"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-United-Kingdom"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=United%20Kingdom"
+          ]
+        ]
+      },
+      {
+        "code": "VA",
+        "name": "聖座（梵蒂岡）",
+        "english": "Vatican City",
+        "route": "問目標校是否招收境外轉學生或接受高年級申請；若只收新生，確認能否在錄取後申請抵免。",
+        "credit": "提交成績單和課程大綱；如使用 ECTS，附上學分與學習量，請院系逐科比對。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Holy-See"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Holy%20See"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "north-america",
+    "label": "北美",
+    "destinations": [
+      {
+        "code": "CA",
+        "name": "加拿大",
+        "english": "Canada",
+        "route": "按省份及院校查 Transfer Admission 或 Advanced Standing，確認境外課程是否適用。",
+        "credit": "向目標校查省內轉學協議是否適用，再要求評估境外科目及可入讀年級。",
+        "links": [
+          [
+            "加拿大 CICIC 院校名錄",
+            "https://www.cicic.ca/868/search_the_directory_of_educational_institutions_in_canada.canada"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Canada"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Canada"
+          ]
+        ]
+      },
+      {
+        "code": "MX",
+        "name": "墨西哥",
+        "english": "Mexico",
+        "route": "向目標校確認境外未修畢課程應如何申請，以及是否需先辦部分學業認定。",
+        "credit": "查校方或主管機關的 revalidación parcial 程序，確認文件及可認定科目。",
+        "links": [
+          [
+            "墨西哥教育部 SEP",
+            "https://www.gob.mx/sep"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mexico"
+          ]
+        ]
+      },
+      {
+        "code": "US",
+        "name": "美國",
+        "english": "United States",
+        "route": "查目標校的 Transfer Admission，確認國際生適用的申請類別及專業先修課。",
+        "credit": "索取逐科評估，分清可計入主修的學分、選修學分及須在新校完成的學分。",
+        "links": [
+          [
+            "美國教育部院校及課程認證查詢",
+            "https://ope.ed.gov/dapip/"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-USA"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=United%20States%20of%20America"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oceania",
+    "label": "大洋洲",
+    "destinations": [
+      {
+        "code": "AU",
+        "name": "澳洲",
+        "english": "Australia",
+        "route": "按目標校的國際生招生程序申請，先確認是否可同時申請 Credit 或 Advanced Standing。",
+        "credit": "按校方的 Credit 或 Recognition of Prior Learning 程序提交課程大綱和學習成果。",
+        "links": [
+          [
+            "澳洲 TEQSA 全國高等教育名錄",
+            "https://www.teqsa.gov.au/national-register"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Australia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Australia"
+          ]
+        ]
+      },
+      {
+        "code": "CK",
+        "name": "庫克群島",
+        "english": "Cook Islands",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "FJ",
+        "name": "斐濟",
+        "english": "Fiji",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Fiji"
+          ]
+        ]
+      },
+      {
+        "code": "KI",
+        "name": "吉里巴斯",
+        "english": "Kiribati",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "MH",
+        "name": "馬紹爾群島",
+        "english": "Marshall Islands",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "FM",
+        "name": "密克羅尼西亞聯邦",
+        "english": "Micronesia",
+        "route": "可查 College of Micronesia–FSM 的轉學生與高年級入學規定。",
+        "credit": "依該校指引提交原院校正式成績單，確認科目能否抵免。",
+        "links": [
+          [
+            "密克羅尼西亞學院招生",
+            "https://www.comfsm.fm/national/admissions.html"
+          ]
+        ]
+      },
+      {
+        "code": "NR",
+        "name": "諾魯",
+        "english": "Nauru",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "NZ",
+        "name": "紐西蘭",
+        "english": "New Zealand",
+        "route": "確認目標校是否接受以既有大學修讀紀錄申請及可入讀階段。",
+        "credit": "查 Credit Recognition and Transfer，向校方確認已修科目可抵哪些必修或選修。",
+        "links": [
+          [
+            "紐西蘭 NZQA 院校查詢",
+            "https://www.nzqa.govt.nz/providers/index.do"
+          ],
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-New-Zealand"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=New%20Zealand"
+          ]
+        ]
+      },
+      {
+        "code": "NU",
+        "name": "紐埃島",
+        "english": "Niue",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "PW",
+        "name": "帛琉",
+        "english": "Palau",
+        "route": "查 Palau Community College 的 Transfer Applicant 類別，並核對所選課程的授予學位。",
+        "credit": "向 Admissions & Records 提交正式成績單，查課程目錄確認抵免規定。",
+        "links": [
+          [
+            "帛琉社區學院招生",
+            "https://pcc.palau.edu/admissions/apply-pcc/"
+          ]
+        ]
+      },
+      {
+        "code": "PG",
+        "name": "巴布亞紐幾內亞",
+        "english": "Papua New Guinea",
+        "route": "向目標校或所在地校區確認是否開辦所選學位，並詢問能否憑既有修讀紀錄入學。",
+        "credit": "向校方查先前學習認定或學分抵免、授課地點和剩餘修業時間。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Papua%20New%20Guinea"
+          ]
+        ]
+      },
+      {
+        "code": "WS",
+        "name": "薩摩亞",
+        "english": "Samoa",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Samoa"
+          ]
+        ]
+      },
+      {
+        "code": "SB",
+        "name": "索羅門群島",
+        "english": "Solomon Islands",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Solomon%20Islands"
+          ]
+        ]
+      },
+      {
+        "code": "TO",
+        "name": "東加",
+        "english": "Tonga",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Tonga"
+          ]
+        ]
+      },
+      {
+        "code": "TV",
+        "name": "吐瓦魯",
+        "english": "Tuvalu",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      },
+      {
+        "code": "VU",
+        "name": "萬那杜",
+        "english": "Vanuatu",
+        "route": "向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。",
+        "credit": "向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。",
+        "links": [
+          [
+            "南太平洋大學各地校區",
+            "https://www.usp.ac.fj/about-usp/campuses/"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asia",
+    "label": "亞洲",
+    "destinations": [
+      {
+        "code": "AF",
+        "name": "阿富汗",
+        "english": "Afghanistan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Afghanistan"
+          ]
+        ]
+      },
+      {
+        "code": "AM",
+        "name": "亞美尼亞",
+        "english": "Armenia",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Armenia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Armenia"
+          ]
+        ]
+      },
+      {
+        "code": "AZ",
+        "name": "亞塞拜然",
+        "english": "Azerbaijan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Azerbaijan"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Azerbaijan"
+          ]
+        ]
+      },
+      {
+        "code": "BD",
+        "name": "孟加拉",
+        "english": "Bangladesh",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bangladesh"
+          ]
+        ]
+      },
+      {
+        "code": "BT",
+        "name": "不丹",
+        "english": "Bhutan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bhutan"
+          ]
+        ]
+      },
+      {
+        "code": "BN",
+        "name": "汶萊",
+        "english": "Brunei",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Brunei%20Darussalam"
+          ]
+        ]
+      },
+      {
+        "code": "KH",
+        "name": "柬埔寨",
+        "english": "Cambodia",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cambodia"
+          ]
+        ]
+      },
+      {
+        "code": "CN",
+        "name": "中國大陸",
+        "english": "China",
+        "route": "向目標校國際學生招生單位確認可否以境外在讀身分轉入，或須重新申請。",
+        "credit": "向教務單位確認境外已修課程能否認定，以及正式成績單與課程大綱要求。",
+        "links": [
+          [
+            "中國教育部",
+            "https://www.moe.gov.cn/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=China"
+          ]
+        ]
+      },
+      {
+        "code": "GE",
+        "name": "喬治亞",
+        "english": "Georgia",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Georgia"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Georgia"
+          ]
+        ]
+      },
+      {
+        "code": "HK",
+        "name": "香港",
+        "english": "Hong Kong SAR China",
+        "route": "查院校的高年級入學或非一年級入學，確認境外學籍是否符合資格。",
+        "credit": "向學系確認學分豁免、入讀年級及最低在校修讀要求。",
+        "links": [
+          [
+            "香港教育局高等教育院校",
+            "https://www.edb.gov.hk/tc/edu-system/postsecondary/local-higher-edu/institutions/index.html"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=China%20-%20Hong%20Kong%20SAR"
+          ]
+        ]
+      },
+      {
+        "code": "IN",
+        "name": "印度",
+        "english": "India",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=India"
+          ]
+        ]
+      },
+      {
+        "code": "ID",
+        "name": "印尼",
+        "english": "Indonesia",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Indonesia"
+          ]
+        ]
+      },
+      {
+        "code": "JP",
+        "name": "日本",
+        "english": "Japan",
+        "route": "查招生簡章中的編入學（編入学），確認是否招收國際生及開放年級。",
+        "credit": "請校方確認已修年限和科目可否認定，以及入學後尚須修讀的學分。",
+        "links": [
+          [
+            "日本官方留學資訊・大學編入",
+            "https://www.studyinjapan.go.jp/en/planning/learn-about-schools/universities/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Japan"
+          ]
+        ]
+      },
+      {
+        "code": "KZ",
+        "name": "哈薩克",
+        "english": "Kazakhstan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Kazakhstan"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Kazakhstan"
+          ]
+        ]
+      },
+      {
+        "code": "KG",
+        "name": "吉爾吉斯",
+        "english": "Kyrgyzstan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Kyrgyzstan"
+          ]
+        ]
+      },
+      {
+        "code": "LA",
+        "name": "寮國",
+        "english": "Laos",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Lao%20People's%20Democratic%20Republic"
+          ]
+        ]
+      },
+      {
+        "code": "MO",
+        "name": "澳門",
+        "english": "Macao SAR China",
+        "route": "查目標院校是否設轉校或插班申請，並確認可報讀年級。",
+        "credit": "向院校索取學分豁免辦法，核對可抵科目及剩餘修業時間。",
+        "links": [
+          [
+            "澳門教育及青年發展局",
+            "https://www.dsedj.gov.mo/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=China%20-%20Macao%20SAR"
+          ]
+        ]
+      },
+      {
+        "code": "MY",
+        "name": "馬來西亞",
+        "english": "Malaysia",
+        "route": "在資格名冊核對目標課程，再向院校確認可否由境外院校轉入。",
+        "credit": "向目標校查 Credit Transfer，確認課程對應、成績及可抵學分上限。",
+        "links": [
+          [
+            "馬來西亞 MQA 資格名冊",
+            "https://www2.mqa.gov.my/mqr/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Malaysia"
+          ]
+        ]
+      },
+      {
+        "code": "MV",
+        "name": "馬爾地夫",
+        "english": "Maldives",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Maldives"
+          ]
+        ]
+      },
+      {
+        "code": "MN",
+        "name": "蒙古",
+        "english": "Mongolia",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mongolia"
+          ]
+        ]
+      },
+      {
+        "code": "MM",
+        "name": "緬甸",
+        "english": "Myanmar (Burma)",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Myanmar"
+          ]
+        ]
+      },
+      {
+        "code": "NP",
+        "name": "尼泊爾",
+        "english": "Nepal",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Nepal"
+          ]
+        ]
+      },
+      {
+        "code": "KP",
+        "name": "北韓",
+        "english": "North Korea",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Korea%20(Democratic%20People's%20Republic%20of)"
+          ]
+        ]
+      },
+      {
+        "code": "PK",
+        "name": "巴基斯坦",
+        "english": "Pakistan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Pakistan"
+          ]
+        ]
+      },
+      {
+        "code": "PH",
+        "name": "菲律賓",
+        "english": "Philippines",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Philippines"
+          ]
+        ]
+      },
+      {
+        "code": "SG",
+        "name": "新加坡",
+        "english": "Singapore",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Singapore"
+          ]
+        ]
+      },
+      {
+        "code": "KR",
+        "name": "韓國",
+        "english": "South Korea",
+        "route": "查各校外國學生編入學（편입학）招生，確認既有修讀年限及語言要求。",
+        "credit": "問學系如何評估境外課程、可轉學分和畢業所需學分。",
+        "links": [
+          [
+            "韓國政府 Study in Korea",
+            "https://www.studyinkorea.go.kr/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Korea%20(Republic%20of)"
+          ]
+        ]
+      },
+      {
+        "code": "LK",
+        "name": "斯里蘭卡",
+        "english": "Sri Lanka",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Sri%20Lanka"
+          ]
+        ]
+      },
+      {
+        "code": "TW",
+        "name": "台灣",
+        "english": "Taiwan",
+        "route": "查各校轉學考或轉學生招生簡章，確認境外學歷、申請身分和開放年級。",
+        "credit": "查校方抵免學分辦法，核對成績、學分數、課程大綱和申請期限。",
+        "links": [
+          [
+            "台灣教育部高等教育司",
+            "https://depart.moe.edu.tw/ED2200/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=China%20-%20Taiwan"
+          ]
+        ]
+      },
+      {
+        "code": "TJ",
+        "name": "塔吉克",
+        "english": "Tajikistan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Tajikistan"
+          ]
+        ]
+      },
+      {
+        "code": "TH",
+        "name": "泰國",
+        "english": "Thailand",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Thailand"
+          ]
+        ]
+      },
+      {
+        "code": "TL",
+        "name": "東帝汶",
+        "english": "Timor-Leste",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Timor-Leste"
+          ]
+        ]
+      },
+      {
+        "code": "TM",
+        "name": "土庫曼",
+        "english": "Turkmenistan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Turkmenistan"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Turkmenistan"
+          ]
+        ]
+      },
+      {
+        "code": "UZ",
+        "name": "烏茲別克",
+        "english": "Uzbekistan",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Uzbekistan"
+          ]
+        ]
+      },
+      {
+        "code": "VN",
+        "name": "越南",
+        "english": "Vietnam",
+        "route": "查目標校是否開放境外在讀學生插班、編入或高年級入學，並核對考試和授課語言。",
+        "credit": "向教務單位確認已修科目如何比對、能抵多少學分，以及須從哪一學期開始。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Vietnam"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "middle-east",
+    "label": "中東",
+    "destinations": [
+      {
+        "code": "BH",
+        "name": "巴林",
+        "english": "Bahrain",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bahrain"
+          ]
+        ]
+      },
+      {
+        "code": "CY",
+        "name": "賽普勒斯",
+        "english": "Cyprus",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Cyprus"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cyprus"
+          ]
+        ]
+      },
+      {
+        "code": "IR",
+        "name": "伊朗",
+        "english": "Iran",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Iran%20(Islamic%20Republic%20of)"
+          ]
+        ]
+      },
+      {
+        "code": "IQ",
+        "name": "伊拉克",
+        "english": "Iraq",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Iraq"
+          ]
+        ]
+      },
+      {
+        "code": "IL",
+        "name": "以色列",
+        "english": "Israel",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Israel"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Israel"
+          ]
+        ]
+      },
+      {
+        "code": "JO",
+        "name": "約旦",
+        "english": "Jordan",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Jordan"
+          ]
+        ]
+      },
+      {
+        "code": "KW",
+        "name": "科威特",
+        "english": "Kuwait",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Kuwait"
+          ]
+        ]
+      },
+      {
+        "code": "LB",
+        "name": "黎巴嫩",
+        "english": "Lebanon",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Lebanon"
+          ]
+        ]
+      },
+      {
+        "code": "OM",
+        "name": "阿曼",
+        "english": "Oman",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Oman"
+          ]
+        ]
+      },
+      {
+        "code": "PS",
+        "name": "巴勒斯坦",
+        "english": "Palestinian Territories",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Palestine"
+          ]
+        ]
+      },
+      {
+        "code": "QA",
+        "name": "卡達",
+        "english": "Qatar",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Qatar"
+          ]
+        ]
+      },
+      {
+        "code": "SA",
+        "name": "沙烏地阿拉伯",
+        "english": "Saudi Arabia",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Saudi%20Arabia"
+          ]
+        ]
+      },
+      {
+        "code": "SY",
+        "name": "敘利亞",
+        "english": "Syria",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Syrian%20Arab%20Republic"
+          ]
+        ]
+      },
+      {
+        "code": "TR",
+        "name": "土耳其",
+        "english": "Türkiye",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "ENIC-NARIC 國別資料與主管機關",
+            "https://www.enic-naric.net/page-Turkiye"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=T%C3%BCrkiye"
+          ]
+        ]
+      },
+      {
+        "code": "AE",
+        "name": "阿拉伯聯合大公國",
+        "english": "United Arab Emirates",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=United%20Arab%20Emirates"
+          ]
+        ]
+      },
+      {
+        "code": "YE",
+        "name": "葉門",
+        "english": "Yemen",
+        "route": "向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。",
+        "credit": "查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Yemen"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "latin-america",
+    "label": "中南美洲與加勒比",
+    "destinations": [
+      {
+        "code": "AG",
+        "name": "安地卡及巴布達",
+        "english": "Antigua & Barbuda",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ]
+        ]
+      },
+      {
+        "code": "AR",
+        "name": "阿根廷",
+        "english": "Argentina",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Argentina"
+          ]
+        ]
+      },
+      {
+        "code": "AW",
+        "name": "荷屬阿魯巴",
+        "english": "Aruba",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Aruba"
+          ]
+        ]
+      },
+      {
+        "code": "BS",
+        "name": "巴哈馬",
+        "english": "Bahamas",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bahamas"
+          ]
+        ]
+      },
+      {
+        "code": "BB",
+        "name": "巴貝多",
+        "english": "Barbados",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Barbados"
+          ]
+        ]
+      },
+      {
+        "code": "BZ",
+        "name": "貝里斯",
+        "english": "Belize",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Belize"
+          ]
+        ]
+      },
+      {
+        "code": "BO",
+        "name": "玻利維亞",
+        "english": "Bolivia",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Bolivia%20(Plurinational%20State%20of)"
+          ]
+        ]
+      },
+      {
+        "code": "BR",
+        "name": "巴西",
+        "english": "Brazil",
+        "route": "查校方的 transferência externa 公告，確認境外學生資格和空缺名額。",
+        "credit": "向學系查 aproveitamento de estudos，提交成績與課綱申請科目認定。",
+        "links": [
+          [
+            "巴西教育部 MEC",
+            "https://www.gov.br/mec/pt-br"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Brazil"
+          ]
+        ]
+      },
+      {
+        "code": "CL",
+        "name": "智利",
+        "english": "Chile",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Chile"
+          ]
+        ]
+      },
+      {
+        "code": "CO",
+        "name": "哥倫比亞",
+        "english": "Colombia",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Colombia"
+          ]
+        ]
+      },
+      {
+        "code": "CR",
+        "name": "哥斯大黎加",
+        "english": "Costa Rica",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Costa%20Rica"
+          ]
+        ]
+      },
+      {
+        "code": "CU",
+        "name": "古巴",
+        "english": "Cuba",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cuba"
+          ]
+        ]
+      },
+      {
+        "code": "CW",
+        "name": "庫拉索",
+        "english": "Curaçao",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cura%C3%A7ao"
+          ]
+        ]
+      },
+      {
+        "code": "DM",
+        "name": "多米尼克",
+        "english": "Dominica",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ]
+        ]
+      },
+      {
+        "code": "DO",
+        "name": "多明尼加共和國",
+        "english": "Dominican Republic",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Dominican%20Republic"
+          ]
+        ]
+      },
+      {
+        "code": "EC",
+        "name": "厄瓜多",
+        "english": "Ecuador",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Ecuador"
+          ]
+        ]
+      },
+      {
+        "code": "SV",
+        "name": "薩爾瓦多",
+        "english": "El Salvador",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=El%20Salvador"
+          ]
+        ]
+      },
+      {
+        "code": "GD",
+        "name": "格瑞那達",
+        "english": "Grenada",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Grenada"
+          ]
+        ]
+      },
+      {
+        "code": "GT",
+        "name": "瓜地馬拉",
+        "english": "Guatemala",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Guatemala"
+          ]
+        ]
+      },
+      {
+        "code": "GY",
+        "name": "蓋亞那",
+        "english": "Guyana",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Guyana"
+          ]
+        ]
+      },
+      {
+        "code": "HT",
+        "name": "海地",
+        "english": "Haiti",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Haiti"
+          ]
+        ]
+      },
+      {
+        "code": "HN",
+        "name": "宏都拉斯",
+        "english": "Honduras",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Honduras"
+          ]
+        ]
+      },
+      {
+        "code": "JM",
+        "name": "牙買加",
+        "english": "Jamaica",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Jamaica"
+          ]
+        ]
+      },
+      {
+        "code": "NI",
+        "name": "尼加拉瓜",
+        "english": "Nicaragua",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Nicaragua"
+          ]
+        ]
+      },
+      {
+        "code": "PA",
+        "name": "巴拿馬",
+        "english": "Panama",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Panama"
+          ]
+        ]
+      },
+      {
+        "code": "PY",
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Paraguay"
+          ]
+        ]
+      },
+      {
+        "code": "PE",
+        "name": "秘魯",
+        "english": "Peru",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Peru"
+          ]
+        ]
+      },
+      {
+        "code": "PR",
+        "name": "波多黎各",
+        "english": "Puerto Rico",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=United%20States%20of%20America%20-%20Puerto%20Rico"
+          ]
+        ]
+      },
+      {
+        "code": "KN",
+        "name": "聖克里斯多福及尼維斯",
+        "english": "St. Kitts & Nevis",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Saint%20Kitts%20and%20Nevis"
+          ]
+        ]
+      },
+      {
+        "code": "LC",
+        "name": "聖露西亞",
+        "english": "St. Lucia",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ]
+        ]
+      },
+      {
+        "code": "VC",
+        "name": "聖文森及格瑞那丁",
+        "english": "St. Vincent & Grenadines",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ]
+        ]
+      },
+      {
+        "code": "SR",
+        "name": "蘇利南",
+        "english": "Suriname",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Suriname"
+          ]
+        ]
+      },
+      {
+        "code": "TT",
+        "name": "千里達及托巴哥",
+        "english": "Trinidad & Tobago",
+        "route": "查西印度大學 Global Campus 或所在地校區是否提供所選學位，再確認申請類別。",
+        "credit": "查校方的 Credits and Exemptions，確認適用條件及申請期限。",
+        "links": [
+          [
+            "西印度大學 Global Campus 招生與抵免",
+            "https://global.uwi.edu/admissions/undergraduate/faqs"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Trinidad%20and%20Tobago"
+          ]
+        ]
+      },
+      {
+        "code": "UY",
+        "name": "烏拉圭",
+        "english": "Uruguay",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Uruguay"
+          ]
+        ]
+      },
+      {
+        "code": "VE",
+        "name": "委內瑞拉",
+        "english": "Venezuela",
+        "route": "查目標校的境外轉學或重新入學程序，確認授課語言及入學月份。",
+        "credit": "向校方確認已修科目認定程序、官方翻譯要求及可抵免的必修課。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Venezuela%20(Bolivarian%20Republic%20of)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "africa",
+    "label": "非洲",
+    "destinations": [
+      {
+        "code": "DZ",
+        "name": "阿爾及利亞",
+        "english": "Algeria",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Algeria"
+          ]
+        ]
+      },
+      {
+        "code": "AO",
+        "name": "安哥拉",
+        "english": "Angola",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Angola"
+          ]
+        ]
+      },
+      {
+        "code": "BJ",
+        "name": "貝南",
+        "english": "Benin",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Benin"
+          ]
+        ]
+      },
+      {
+        "code": "BW",
+        "name": "波札那",
+        "english": "Botswana",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Botswana"
+          ]
+        ]
+      },
+      {
+        "code": "BF",
+        "name": "布吉納法索",
+        "english": "Burkina Faso",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Burkina%20Faso"
+          ]
+        ]
+      },
+      {
+        "code": "BI",
+        "name": "蒲隆地",
+        "english": "Burundi",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Burundi"
+          ]
+        ]
+      },
+      {
+        "code": "CM",
+        "name": "喀麥隆",
+        "english": "Cameroon",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cameroon"
+          ]
+        ]
+      },
+      {
+        "code": "CV",
+        "name": "維德角",
+        "english": "Cape Verde",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Cabo%20Verde"
+          ]
+        ]
+      },
+      {
+        "code": "CF",
+        "name": "中非共和國",
+        "english": "Central African Republic",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Central%20African%20Republic"
+          ]
+        ]
+      },
+      {
+        "code": "TD",
+        "name": "查德",
+        "english": "Chad",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Chad"
+          ]
+        ]
+      },
+      {
+        "code": "KM",
+        "name": "葛摩",
+        "english": "Comoros",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Comoros"
+          ]
+        ]
+      },
+      {
+        "code": "CG",
+        "name": "剛果共和國",
+        "english": "Congo - Brazzaville",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Congo"
+          ]
+        ]
+      },
+      {
+        "code": "CD",
+        "name": "剛果民主共和國",
+        "english": "Congo - Kinshasa",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Congo%20(Democratic%20Republic)"
+          ]
+        ]
+      },
+      {
+        "code": "CI",
+        "name": "象牙海岸",
+        "english": "Côte d’Ivoire",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=C%C3%B4te%20d'Ivoire"
+          ]
+        ]
+      },
+      {
+        "code": "DJ",
+        "name": "吉布地",
+        "english": "Djibouti",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Djibouti"
+          ]
+        ]
+      },
+      {
+        "code": "EG",
+        "name": "埃及",
+        "english": "Egypt",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Egypt"
+          ]
+        ]
+      },
+      {
+        "code": "GQ",
+        "name": "赤道幾內亞",
+        "english": "Equatorial Guinea",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Equatorial%20Guinea"
+          ]
+        ]
+      },
+      {
+        "code": "ER",
+        "name": "厄利垂亞",
+        "english": "Eritrea",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Eritrea"
+          ]
+        ]
+      },
+      {
+        "code": "SZ",
+        "name": "史瓦帝尼",
+        "english": "Eswatini",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Eswatini"
+          ]
+        ]
+      },
+      {
+        "code": "ET",
+        "name": "衣索比亞",
+        "english": "Ethiopia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Ethiopia"
+          ]
+        ]
+      },
+      {
+        "code": "GA",
+        "name": "加彭",
+        "english": "Gabon",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Gabon"
+          ]
+        ]
+      },
+      {
+        "code": "GM",
+        "name": "甘比亞",
+        "english": "Gambia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Gambia%20(The)"
+          ]
+        ]
+      },
+      {
+        "code": "GH",
+        "name": "迦納",
+        "english": "Ghana",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Ghana"
+          ]
+        ]
+      },
+      {
+        "code": "GN",
+        "name": "幾內亞",
+        "english": "Guinea",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Guinea"
+          ]
+        ]
+      },
+      {
+        "code": "GW",
+        "name": "幾內亞比索",
+        "english": "Guinea-Bissau",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Guinea-Bissau"
+          ]
+        ]
+      },
+      {
+        "code": "KE",
+        "name": "肯亞",
+        "english": "Kenya",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Kenya"
+          ]
+        ]
+      },
+      {
+        "code": "LS",
+        "name": "賴索托",
+        "english": "Lesotho",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Lesotho"
+          ]
+        ]
+      },
+      {
+        "code": "LR",
+        "name": "賴比瑞亞",
+        "english": "Liberia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Liberia"
+          ]
+        ]
+      },
+      {
+        "code": "LY",
+        "name": "利比亞",
+        "english": "Libya",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Libya"
+          ]
+        ]
+      },
+      {
+        "code": "MG",
+        "name": "馬達加斯加",
+        "english": "Madagascar",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Madagascar"
+          ]
+        ]
+      },
+      {
+        "code": "MW",
+        "name": "馬拉威",
+        "english": "Malawi",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Malawi"
+          ]
+        ]
+      },
+      {
+        "code": "ML",
+        "name": "馬利",
+        "english": "Mali",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mali"
+          ]
+        ]
+      },
+      {
+        "code": "MR",
+        "name": "茅利塔尼亞",
+        "english": "Mauritania",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mauritania"
+          ]
+        ]
+      },
+      {
+        "code": "MU",
+        "name": "模里西斯",
+        "english": "Mauritius",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mauritius"
+          ]
+        ]
+      },
+      {
+        "code": "MA",
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Morocco"
+          ]
+        ]
+      },
+      {
+        "code": "MZ",
+        "name": "莫三比克",
+        "english": "Mozambique",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Mozambique"
+          ]
+        ]
+      },
+      {
+        "code": "NA",
+        "name": "納米比亞",
+        "english": "Namibia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Namibia"
+          ]
+        ]
+      },
+      {
+        "code": "NE",
+        "name": "尼日",
+        "english": "Niger",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Niger"
+          ]
+        ]
+      },
+      {
+        "code": "NG",
+        "name": "奈及利亞",
+        "english": "Nigeria",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Nigeria"
+          ]
+        ]
+      },
+      {
+        "code": "RW",
+        "name": "盧安達",
+        "english": "Rwanda",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Rwanda"
+          ]
+        ]
+      },
+      {
+        "code": "ST",
+        "name": "聖多美普林西比",
+        "english": "São Tomé & Príncipe",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Sao%20Tome%20and%20Principe"
+          ]
+        ]
+      },
+      {
+        "code": "SN",
+        "name": "塞內加爾",
+        "english": "Senegal",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Senegal"
+          ]
+        ]
+      },
+      {
+        "code": "SC",
+        "name": "塞席爾",
+        "english": "Seychelles",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Seychelles"
+          ]
+        ]
+      },
+      {
+        "code": "SL",
+        "name": "獅子山",
+        "english": "Sierra Leone",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Sierra%20Leone"
+          ]
+        ]
+      },
+      {
+        "code": "SO",
+        "name": "索馬利亞",
+        "english": "Somalia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Somalia"
+          ]
+        ]
+      },
+      {
+        "code": "ZA",
+        "name": "南非",
+        "english": "South Africa",
+        "route": "向目標院校確認可否以既有修讀紀錄申請，以及是否須另辦外國資格評估。",
+        "credit": "向院校查 Credit Accumulation and Transfer，確認哪些已修科目可計入學位。",
+        "links": [
+          [
+            "南非資格管理局 SAQA",
+            "https://www.saqa.org.za/"
+          ],
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=South%20Africa"
+          ]
+        ]
+      },
+      {
+        "code": "SS",
+        "name": "南蘇丹",
+        "english": "South Sudan",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=South%20Sudan"
+          ]
+        ]
+      },
+      {
+        "code": "SD",
+        "name": "蘇丹",
+        "english": "Sudan",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Sudan"
+          ]
+        ]
+      },
+      {
+        "code": "TZ",
+        "name": "坦尚尼亞",
+        "english": "Tanzania",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Tanzania"
+          ]
+        ]
+      },
+      {
+        "code": "TG",
+        "name": "多哥",
+        "english": "Togo",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Togo"
+          ]
+        ]
+      },
+      {
+        "code": "TN",
+        "name": "突尼西亞",
+        "english": "Tunisia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Tunisia"
+          ]
+        ]
+      },
+      {
+        "code": "UG",
+        "name": "烏干達",
+        "english": "Uganda",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Uganda"
+          ]
+        ]
+      },
+      {
+        "code": "ZM",
+        "name": "尚比亞",
+        "english": "Zambia",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Zambia"
+          ]
+        ]
+      },
+      {
+        "code": "ZW",
+        "name": "辛巴威",
+        "english": "Zimbabwe",
+        "route": "向目標校確認是否接受境外轉學或高年級入學，並核對課程認可和先修要求。",
+        "credit": "詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。",
+        "links": [
+          [
+            "IAU WHED 國別院校與教育體系",
+            "https://whed.net/choisir.php?country=Zimbabwe"
+          ]
+        ]
+      }
+    ]
+  }
+]
