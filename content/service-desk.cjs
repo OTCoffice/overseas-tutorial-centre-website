@@ -15,6 +15,7 @@ const groups=[
     ]],
     ["university-admissions","本科與轉學",[
       ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
+      ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],
       ["國際大學轉學","/zh/services/international-transfer/","按國家及地區查閱轉學途徑、學分認定與官方入口。"],
       ["轉學與學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
       ["Asso／HD 升大學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
