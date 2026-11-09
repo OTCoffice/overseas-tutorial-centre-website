@@ -56,7 +56,7 @@ const groups=[
       ["美國 EB-1A／NIW 研究材料","/zh/services/us-eb1a-niw-research-support/","學歷、學術 CV、研究成果、引用與審稿證據整理。"],
       ["第二護照｜加勒比投資入籍","/zh/services/caribbean-citizenship/","安提瓜和巴布達、多米尼克、格林納達官方方案與申請協調。"]
     ]],
-    ["study-exchange","短期課程與學術交流",[
+    ["study-exchange","遊學與交流",[
       ["語言學校","/zh/language-school-alliance/","17 國語校、課程與費用、政府簽證入口及免費代辦。"],
       ["寒暑校聯盟","/zh/summer-school-alliance/","按國家比較暑校、遊學及假期短期項目。"],
       ["研學項目評估","/zh/services/study-tour-programme-review/","名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
