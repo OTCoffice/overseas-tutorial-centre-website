@@ -4,11 +4,14 @@
   "titleZh": "設計申請｜藝術總監",
   "summaryZh": "藝術留學與設計申請：預科、本科、碩士及交換選校，八類作品集指導、導師安排、申請材料、收費與交付。免費初步諮詢，服務開始前書面確認。",
   "socialTitleZh": "設計申請｜藝術總監",
-  "shareImageZh": "/assets/social/art-portfolio-coaching-20261109.png",
-  "socialImageVersion": "v=20261109",
-  "sharePageVersion": "20261109",
+  "pageCoverZh": "/assets/social/art-portfolio-coaching-20261109.png?v=20261109",
+  "shareImageZh": "/assets/social/art-portfolio-share-safe-20261109.png",
+  "socialImageSource": "share-only",
+  "twitterCard": "summary_large_image",
+  "socialImageVersion": "v=20261109-safe",
+  "sharePageVersion": "20261109-safe",
   "socialImageWidth": 1200,
-  "socialImageHeight": 630,
+  "socialImageHeight": 600,
   "steps": [
     {
       "title": "選校與作品評估",
