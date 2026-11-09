@@ -8,14 +8,10 @@ const groups=[
       ["高性價比留學","/zh/services/affordable-study-abroad/","低學費課程、政府獎學金、研究資助與帶薪培訓。"],
       ["政府全額獎學金","/zh/government-scholarships/","按目的地、學位與中國大陸、香港、台灣申請渠道查找。"],
       ["留學申請收費標準","/zh/application-fees/","同等服務參考價六折；免費代辦項目與第三方費用說明。"],
-      ["義大利留學","/zh/countries/italy/","博洛尼亞 Global Cultures、北義選校、材料、住宿與留學預算。"],
-      ["奧地利留學","/zh/countries/austria/","維也納、TU Wien 與其他院校；課程、語言、學費及申請服務。"]
     ]],
     ["school-admissions","中小學入學",[
       ["中小學申請","/zh/private-school-alliance/","學校、入學年齡、課程及住宿。"],
       ["公校聯盟","/zh/public-school-alliance/","八國公立教育；國際招生、選科、費用、收費諮詢與申請。"],
-      ["加拿大中小學申請","/zh/services/canada-school-application/","公校教育局、私校、免費入學代辦與監護住宿協調。"],
-      ["韓國中小學申請","/zh/countries/south-korea/#korea-apply","30 所學校／校區、資格、申請材料與 OTC 代辦。"]
     ]],
     ["university-admissions","本科與轉學",[
       ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
@@ -32,10 +28,6 @@ const groups=[
       ["香港研究型碩博申請","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"]
     ]],
     ["subject-admissions","專業與職業升學",[
-      ["台灣藝術與設計升學","/zh/services/taiwan-art-design-admissions/","台灣本地高中與高職選系、統測／學測／術科、作品集及備審。"],
-      ["設計申請｜藝術總監","/zh/services/art-portfolio-coaching/","藝術與設計選科、作品集及院校申請。"],
-      ["藝術攝影升學","/zh/subject-planning/photography/","藝術創作、攝影書與展覽；50所國際院校、本碩博及作品集申請。"],
-      ["音樂留學規劃","/zh/subject-planning/music/","本科、碩士、試音與作品準備；西班牙院校及大二至畢業安排。"],
       ["護理升學、註冊與求職","/zh/nursing/","護理升學、護士註冊、求職與移民；澳洲專頁及服務費用。"],
       ["護理課程與院校","/zh/nursing/courses/","按 AQF 學歷級別及州份查閱澳洲護理課程。"],
       ["社工升學與職業規劃","/zh/subject-planning/social-work/","按國家查閱社工升學、院校課程、專業資格、薪資及居留。"],
@@ -156,7 +148,9 @@ const groups=[
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
 function link(url){return url.startsWith('/services/')?'https://translate.google.com/translate?sl=auto&tl=zh-TW&u='+encodeURIComponent('https://overseasuk.com'+url):url;}
 const renderRows=rows=>`<div class="desk-rows">${rows.map(([name,url,detail])=>`<a class="desk-row" href="${esc(link(url))}"><strong>${name}${url.startsWith('/services/')?'<small>中文自動翻譯</small>':''}</strong><span>${detail}</span><i aria-hidden="true">↗</i></a>`).join('')}</div>`;
-module.exports=function(){
+module.exports=function(category){
+const selected = groups.find(([id]) => id === category);
+const categoryPath = id => `/zh/services/categories/${id}/`;
 const css=`<style>
 .service-desk-page .service-hero-layout{align-items:start}.service-desk-page .service-hero-panel{align-self:start}.service-desk-page .service-hero-panel a{min-height:84px}
 .desk-index{padding-top:12px;padding-bottom:28px}.desk-jump{display:flex;flex-wrap:wrap;gap:8px 22px;padding:12px 0 18px;border-bottom:1px solid #c8b89a}.desk-jump a{font-size:14px;font-weight:700;color:#19394d}
@@ -166,15 +160,23 @@ const css=`<style>
 @media(max-width:700px){.service-desk-page .service-hero-panel,.service-desk-page .service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.service-desk-page .service-hero-panel a{min-height:70px}.desk-section-head{display:block}.desk-section-head p{margin-top:6px}.desk-jump{gap:10px 18px}}
 .desk-study-group{padding:10px 0 4px}.desk-study-group h3{margin:4px 0;font-size:16px;color:#19394d}
 .service-desk-page .service-hero-panel a{min-height:52px}
-.desk-jump{padding:10px 16px;gap:8px 18px}.desk-jump a{text-decoration:underline;text-underline-offset:3px}
+.desk-jump{padding:10px 16px;gap:8px 18px}.desk-jump a{scroll-margin-top:130px;text-decoration:underline;text-underline-offset:3px}
 .desk-study-group{padding:14px 16px 4px;scroll-margin-top:130px}.desk-study-group h3{padding-bottom:6px;border-bottom:1px solid #ded7cc}
 
 @media(max-width:600px){.desk-section-head,.desk-jump,.desk-study-group{padding-inline:10px}.desk-row{grid-template-columns:minmax(0,1fr) 14px;gap:3px 8px}.desk-row span{grid-column:1;grid-row:2}.desk-row i{grid-column:2;grid-row:1}}
 </style>`;
-const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC 服務</div><h1>服務總覽</h1><h2>按服務類別查找</h2><p class="hero-sub">選擇服務類別，再按升學階段或所需支援查閱。</p></div><nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,title])=>`<a href="#${id}"><strong>${title}</strong></a>`).join('')}</nav></div></div></section>
-<section class="band service-review-strip"><a href="${esc(link('/services/station-dispatch-emergency-coordination/'))}"><b>24h</b><strong>緊急協調</strong><span>住宿、接送與家長聯絡</span></a><a href="/consultation-chat/"><b>ASK</b><strong>服務諮詢</strong><span>說明需求，確認服務與費用</span></a><a href="/zh/application-service-standards/"><b>STD</b><strong>服務標準</strong><span>委託範圍、文件與溝通記錄</span></a><a href="/zh/application-fees/"><b>FEES</b><strong>申請收費</strong><span>免費代辦與第三方費用</span></a></section>
+const title=selected?.[1] ?? '服務總覽';
+const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
+<div><div class="eyebrow">OTC 服務</div><h1>${title}</h1><p class="hero-sub">${selected?.[2] ?? '按需要選擇服務類別。'}</p>${selected?'<a class="btn btn-secondary" href="/zh/services/">返回服務總覽</a>':''}</div>
+<nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,label])=>`<a href="${selected?categoryPath(id):'#'+id}"><strong>${label}</strong></a>`).join('')}</nav>
+</div></div></section>
 <main class="band desk-index">
-${groups.map(([id,title,desc,rows],i)=>`<section class="desk-section" id="${id}"><header class="desk-section-head"><h2><b>${String(i+1).padStart(2,'0')}</b>${title}</h2><p>${desc}</p></header><nav class="desk-jump" aria-label="${title}子分類">${rows.map(([key,heading])=>`<a href="#${key}">${heading}</a>`).join('')}</nav>${rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join('')}</section>`).join('')}
-<div class="desk-note"><p>各項服務的流程、交付內容與費用見子頁，委託前確認服務範圍。</p><p>OTC 提供教育協調、文件整理與溝通支援；法律、移民、醫療、保險及法定監護事宜由相應機構或合資格人士處理。</p></div></main>`;
-return pageShell({title:'服務總覽｜海外督導 OTC',path:'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:'查閱留學規劃與申請、移民與簽證、課程與教學，以及其他專業服務。',body}).replace(/[ \t]+$/gm,'');
+${(selected?[selected]:groups).map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
+<header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
+<nav class="desk-jump" aria-label="${label}子分類">${rows.map(([key,heading])=>`<a ${selected?'':'id="'+key+'" '}href="${selected?'':categoryPath(id)}#${key}">${heading}</a>`).join('')}</nav>
+${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
+</section>`).join('')}
+</main>`;
+return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:selected?.[2] ?? '查閱 OTC 服務分類與入口。',body}).replace(/[ \t]+$/gm,'');
 };
+module.exports.categories=groups.map(([id])=>id);
