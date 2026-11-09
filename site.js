@@ -303,7 +303,7 @@ function relativeAssetPath(pagePath, assetPath) {
   return `${"../".repeat(depth)}${assetPath}`;
 }
 
-function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", alternatePath = "", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "" }) {
+function pageShell({ title, current = "", body, lang = "en", locale = "en", description = "Overseas Tutorial Centre Ltd (OTC) / 海外督導 Study Hub: UK education consulting, international curriculum tutoring, bilingual study guides, exam preparation apps and Overseas Publishing resources.", path: pagePath = "/", alternatePath = "", image = "", imageWidth = 1200, imageHeight = 675, imageAlt = "", noindex = false, bodyClass = "", shareAtBottom = false }) {
   const canonicalPath = pagePath === "." ? "/" : pagePath.startsWith("/") ? pagePath : `/${pagePath.replace(/^\/+|\/+$/g, "")}/`;
   const canonicalUrl = new URL(canonicalPath, SITE_URL).toString();
   const sharePageVersion = require("./content/service-native-headers.json")[canonicalPath]?.sharePageVersion;
@@ -371,8 +371,9 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 </head>
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale, canonicalPath)}
-  ${pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale })}
+  ${shareAtBottom ? "" : pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale })}
   ${require("./content/compact-tables.cjs")(body)}
+  ${shareAtBottom ? pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale }) : ""}
   ${footer(locale)}
   ${pageUtilityScript()}
 </body>
