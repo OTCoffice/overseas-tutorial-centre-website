@@ -42,7 +42,7 @@ const page = `<!doctype html>
 </style>
 </head>
 <body>
-<header class="site-header"><nav class="nav"><a class="brand" href="/">海外督導 OTC</a><div class="nav-links"><a href="/zh/services/">留學與服務</a><a href="/zh/subject-planning/">學科規劃</a></div></nav></header>
+<header class="site-header"><nav class="nav"><a class="brand" href="/">海外督導 OTC</a><div class="nav-links"><a href="/zh/services/categories/study/#university-admissions">本科與轉學</a><a href="/zh/subject-planning/">學科規劃</a></div></nav></header>
 <main>
 <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
 <div><div class="eyebrow">海外督導 OTC · 學生服務部</div><h1>國際大學轉學</h1><p class="hero-sub">查閱各地的轉學途徑、學分認定與官方資料，再向目標院校確認可入讀的年級。</p>

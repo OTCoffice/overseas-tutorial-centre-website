@@ -23,5 +23,5 @@ module.exports=()=>pageShell({
   <div class="actions"><a class="btn btn-primary" href="https://wa.me/447947991572">聯絡招生部</a><a class="btn btn-secondary" href="/zh/government-scholarships/">政府全額獎學金</a></div></div>
   <aside class="service-hero-panel">${steps.map(([id,title],i)=>`<a href="#${id}"><strong>${i+1}. ${title}</strong></a>`).join('')}</aside></div></div></section>
   <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div></section>`).join('')}
-  <section id="short-study"><h2>短期留學</h2><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">全部留學服務</a></div></section></main>`
+  <section id="short-study"><h2>短期留學</h2><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">短期課程與學術交流</a></div></section></main>`
 });
