@@ -1,6 +1,6 @@
 const {pageShell}=require('../site');
 
-const shortStudy=`<div id="short-study"><h3>短期留學</h3><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">短期課程與學術交流</a></div></div>`;
+const shortStudy=`<div id="short-study"><h3>遊學</h3><div class="study-links"><a href="/zh/language-school-alliance/">語言學校</a><a href="/zh/summer-school-alliance/">寒暑校</a><a href="/zh/services/europe-exchange-support/">交換申請</a><a href="/zh/services/categories/visa/#study-exchange">遊學與交流</a></div></div>`;
 
 const steps=[
   ['choose','確定目的地與課程','先按目標學歷、專業、語言及入學時間縮小範圍。',[
