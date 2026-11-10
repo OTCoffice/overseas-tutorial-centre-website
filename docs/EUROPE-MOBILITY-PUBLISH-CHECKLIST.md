@@ -142,3 +142,8 @@
 - 該2026流程列創辦人配偶申請同類簽證的資金證明 €704/月、子女不需另證明資金，婚姻／出生證明需合法化；實際領事館和申請人國籍要求仍須個別核對。
 - 官方 FAQ（https://startupestonia.ee/frequently-asked-questions/）列創辦人一般生活費至少€800/月；持創業簽證的配偶如要受僱，須先由僱主辦短期僱用登記；持配偶團聚居留許可則可工作而無須另行登記。
 - 本輪結論：家屬及流程欄位有進展；政府費用標示「官方頁內互相矛盾，待主管機關確認」，不計入完整核驗路線。
+
+## 2026-11-10 第十六輪：瑞典工作許可與荷蘭 Highly Skilled Migrant（官方原文）
+- 瑞典一般受僱工作許可：2026-06-01新規要求薪資至少達申請時瑞典中位數薪資90%，且仍須符合行業集體協議或慣常薪資。2026-06-16起官方基準月薪 SEK 34,470（中位數 SEK 38,300）。某些特定職業／申請人（包括符合條件的前學生或研究員等）可適用75%中位數豁免。已於2026-06-01前獲批工作許可且2026-06-01至12-01申請續簽者，適用過渡80%基準（目前SEK 30,640）；2026-12-02起續簽適用新規。來源：https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html ; https://www.migrationsverket.se/en/word-explanations/a-good-living---maintenance-requirement-for-work-permits.html
+- 荷蘭 Highly Skilled Migrant：必須由IND認可擔保雇主提交申請，具合格僱用合約、達到薪資門檻且符合市場薪資。IND 2026全年（不含假期津貼）月薪門檻：30歲以上 €5,942；30歲以下 €4,357；合資格降低門檻 €3,122。降低門檻並非所有畢業生都適用，需符合 Orientation Year 等指定條件。來源：https://ind.nl/en/residence-permits/work/highly-skilled-migrant ; https://ind.nl/en/required-amounts-income-requirements
+- 兩條路線的護照、家屬、完整申請費、永居及全部例外尚未逐欄核實；不可標為完全核驗通過。
