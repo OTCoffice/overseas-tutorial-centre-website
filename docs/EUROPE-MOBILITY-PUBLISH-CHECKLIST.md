@@ -155,3 +155,11 @@
 - 挪威 UDI 工資：要求碩士學位職位通常稅前年薪NOK 624,700；學士學位職位通常NOK 545,400；集體協議或地方行業正常工資亦須符合。特殊低薪例外須提出有力證據。官方：https://www.udi.no/en/word-definitions/pay-and-working-conditions-in-norway
 - 挪威 UDI 對中國等部分國家簽發的特定職業教育文件（例如廚師、汽車技工、木工等）有更嚴格的真實性審查；這是文件／資格風險而非中國國籍全面禁申。
 - 本輪僅核對以上欄位；護照類別、家屬、各項申請費、續簽、居住連續性及完整永居條件尚未完成。不能計為整條 C/D 全面核驗。
+
+## 2026-11-10 第十八輪：愛沙尼亞一般受僱居留（官方交叉核驗）
+- 愛沙尼亞內政部官方移民說明：非EU人士短期受僱一般須事先登記並有合法停留依據；短期受僱可達455日內365日，季節性工作為365日內270日；通常須支付至少愛沙尼亞平均稅前工資，初創、研究、教師及部分其他類別有例外。https://siseministeerium.ee/en/activities/efficient-population-management/migration
+- 超過12個月一般應申請受僱臨時居留許可，雇主通常須先取得失業保險基金核准；通常受移民配額及平均工資條件限制，初創企業員工、ICT專才等部分豁免。https://siseministeerium.ee/en/activities/efficient-population-management/migration
+- 愛沙尼亞正式 Aliens Act §§116–119、176–178：一般居留條件包括實際居住地、足夠合法收入、醫療保險；受僱居留需具相應資格及工作條件，許可有效期可達5年，但不等於自動取得長期居留。https://www.riigiteataja.ee/public-api/api/v1/en/akt/530092025010/blob-html
+- 官方 e-Residency 知識庫（2026-01-08更新）明確指出 e-Residency 數字身份證**不是**居留許可，也不賦予入境或居留權。https://learn.e-resident.gov.ee/hc/en-gb/articles/360000630337-Live-and-work-in-Estonia
+- **資料品質警示：** Work in Estonia 一般指引含過去固定「€2,528」高技能工資示例，不應直接視為2026年最新數值。應以當期 Statistics Estonia 工資數據與PPA正式核准條件計算。
+- 未完成：各國籍申請地、2026當期平均工資具體數額、申請費、家屬、續期與永居的全欄核實；本條狀態仍為部分核實。
