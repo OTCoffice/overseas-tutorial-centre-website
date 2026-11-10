@@ -57,3 +57,13 @@
 - RUN 的 build_docs.py 直接讀取 data/programmes.json（99條）、src/extra_routes.json（11條），並把各條 status=closed 寫入 CSV。須以這兩份原始記錄為核驗底稿，不能把 README 的110條視為110條仍可申請。來源：https://github.com/BryceYuuu/RUN/blob/main/scripts/build_docs.py
 - 英國 Graduate visa GOV.UK 目前明列：申請費 £937、IHS 通常每年 £1,035；2年（2026-12-31或以前申請）、18個月（2027-01-01起一般申請）、博士3年；一般8週審理；不可延長，可符合資格轉其他路線。來源：https://www.gov.uk/graduate-visa （核驗2026-11-10）。費用會更新，遞交前再次核實。
 - 本輪網站已增加來源路徑與關閉狀態警示。仍未取得99+11條逐項政府核驗證據；不合併正式發布。
+
+## 2026-11-10 第七輪：英國 Graduate 法規條件及費用逐欄
+- Appendix Graduate GR 1.2–1.5：境內申請、Student/前Student許可、不可曾獲Graduate/Doctorate Extension；部分政府獎學金需要同意。
+- GR 4.1–4.3：須為合資格高教機構且校方通知成功完成課程。
+- GR 6.1：12個月及以下課程通常整個課程在英國；較長課程至少12個月；法規另有例外。
+- GR 8.2：允許受僱、自僱及志願工作，但不允許職業運動員；無公共福利。
+- 官方費用：£937；IHS 18個月£1,552.50、2年£2,070、3年£3,105。
+- 法規來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate
+- 費用來源：https://www.gov.uk/graduate-visa/how-much-it-costs
+- 這一輪只擴充已核實的英國特定路線欄位，並未完成36國110路線全量核驗。
