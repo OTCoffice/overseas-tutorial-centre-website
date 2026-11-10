@@ -135,3 +135,10 @@
 - 愛沙尼亞 Startup Visa：官方 Startup Estonia 說明申請人須獲 Startup Committee 對創新、可擴展商業模式的資格認定；獲正面評估後，仍須向警方及邊防局申請簽證或居留，並非獲委員會認可即自動獲簽。Startup Visa 長期簽證最多可達365天，得依條件延長183天；創業居留許可可達5年，須按個案審核。官方：https://startupestonia.ee/visa/ ; https://www.politsei.ee/en/instructions/residence-permit-for-business
 - 馬耳他 Global Residence Programme（GRP）：馬耳他稅務機關官方資料將其定位為針對非EU/EEA/瑞士人士的特殊稅務身份計劃，並非單靠投資即可直接取得永居。符合資格者需有馬耳他合資格物業（購置或租賃）、健康保險及稅務條件；對境外匯入馬耳他的特定收入適用15%稅率，最低年度稅額€15,000。需另核對居留身份與物業最低門檻，不能將稅務身份與移民居留混同。官方：https://mtca.gov.mt/personal-tax/individual/tax-programmes/global-residence-programme
 - 本輪僅核實計劃性質與上述核心條件；中國大陸、香港、台灣的具體護照及居住地資格、所有申請費、家屬與永居仍待官方逐欄核實。
+
+## 2026-11-10 第十五輪：愛沙尼亞創業簽證費用衝突與家屬核驗
+- Startup Estonia 的外國創辦人頁（https://startupestonia.ee/startup-visa/foreign-founder/）在「required documents」列 D 簽證政府費 €100，但同一頁 FAQ 仍寫舊的 €80。**同一官方網站內數值衝突，不能把€80或€100宣稱為已完成最新法定費用核驗**；申請前須以申請地領館／PPA當期收費為準。
+- 官方 2026-04-05 流程（https://startupestonia.ee/instructions/your-guide-to-navigating-estonias-startup-visa-program-a-step-by-step-process-for-aspiring-entrepreneurs/）確認：創業委員會核准後依國籍及既有居留決定境內或使館申請；D簽證可供最長1年合法停留；須在愛沙尼亞正式註冊公司後方可申請創業臨時居留許可，後者最長可達5年，非自動核發。
+- 該2026流程列創辦人配偶申請同類簽證的資金證明 €704/月、子女不需另證明資金，婚姻／出生證明需合法化；實際領事館和申請人國籍要求仍須個別核對。
+- 官方 FAQ（https://startupestonia.ee/frequently-asked-questions/）列創辦人一般生活費至少€800/月；持創業簽證的配偶如要受僱，須先由僱主辦短期僱用登記；持配偶團聚居留許可則可工作而無須另行登記。
+- 本輪結論：家屬及流程欄位有進展；政府費用標示「官方頁內互相矛盾，待主管機關確認」，不計入完整核驗路線。
