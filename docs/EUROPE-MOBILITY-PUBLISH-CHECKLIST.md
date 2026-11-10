@@ -240,3 +240,10 @@
 - 愛沙尼亞《外國人法》2026年正式英文法規 §190⁶：合資格高技能聘用合約或具法律約束力的聘用承諾至少6個月；§190⁷：一般薪資至少 Statistics Estonia 最近公布平均稅前月薪1.5倍，特定高技能職業可用1.24倍。來源：https://www.riigiteataja.ee/public-api/api/v1/en/akt/501092026001/blob-html
 - 歐盟移民門戶愛沙尼亞頁所列€2,748/月是2024門檻，不可當成2026現行數字；英國GOV.UK舊頁所列「至少1年合約」亦與2024修法後愛沙尼亞正式法律的6個月不符。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-estonia_en ; https://www.gov.uk/guidance/travel-to-estonia-for-work
 - 本輪僅核實上述官方條款，兩國完整申請費、家屬、護照差異、2026愛沙尼亞實際工資門檻及永居仍未逐欄核實，故保持部分核驗。
+
+## 2026-11-10 第三十輪：瑞典與芬蘭 EU Blue Card（直接讀取兩國移民局當期官方頁）
+- 瑞典 Migrationsverket EU Blue Card：自2026-07-15起最低稅前月薪 SEK 53,625（全國平均稅前工資1.25倍）；至少6個月高技能聘用合同，至少180學分高等教育或5年相關專業經驗；須有或申請合適醫療保險。首次許可9個月至最多4年；僱主及職業受核准條件約束。申請費 SEK 2,000，成人家屬 SEK 1,500、子女 SEK 750；日本國民有費用豁免。家屬可一同申請，成年家屬及當年滿16歲的子女符合條件可工作。官方：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html （2026-11-10讀取）
+- 瑞典2026-06-01改革：一般工作許可90%中位數門檻**不等於**EU Blue Card門檻；後者仍依1.25倍平均工資、2026-07-15起 SEK 53,625/月。官方：https://www.migrationsverket.se/en/newsarchive/newrulesforworkpermitsfrom1june2026.5.4d7d222919d2a911cf74cf.html
+- 瑞典歐盟移民門戶2025舊頁仍列至少1年聘用、1.5倍平均薪資及最多2年許可，與2026年瑞典主管機關資料衝突，應標記過時：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-sweden_en
+- 芬蘭 Migri EU Blue Card：2026稅前月薪至少 €3,937（不計福利），至少6個月確認聘用；至少3年高等教育資格或通常至少5年相當專業經驗。許可最長2年，合約不足2年則合約期加3個月；網上首次€530、續期€230；紙本首次€630、續期€430；合資格可fast track。藍卡允許從事高技能工作，非綁定單一僱主；首次一般境外申請。官方：https://migri.fi/en/eu-blue-card （2026-11-10讀取）
+- 本輪是直接核實兩國薪資、聘用、學歷、部分費用、期限、工作權及瑞典家屬；其他護照個案、續期細節、永居計算及完整家庭條件仍需逐欄核對。不可將兩條標為全欄C/D完成。
