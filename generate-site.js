@@ -82,3 +82,6 @@ require('./scripts/render-social-work.cjs');
 
 // Preserve the country and university application directory after full generation.
 require('./scripts/render-university-directory.cjs');
+
+// Keep the Europe mobility guide linked from the Chinese services overview.
+require('./scripts/preserve-europe-mobility-guide.cjs');
