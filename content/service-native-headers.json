@@ -290,12 +290,12 @@
   },
   "/zh/services/masters-country-planning/": {
     "title": "碩士選國與申請規劃",
-    "image": "/assets/social/native-masters-country-planning-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 288,
+    "image": "/assets/social/masters-country-planning-share-safe-20261110.png",
+    "version": "v=20261110-safe",
+    "width": 1200,
+    "height": 600,
     "file": "zh/services/masters-country-planning/index.html",
-    "previousImage": "/assets/social/masters-country-planning-20261002.png"
+    "previousImage": "/assets/social/native-masters-country-planning-20261030.png"
   },
   "/zh/services/media-remote-internship/": {
     "title": "新傳遠程實習",

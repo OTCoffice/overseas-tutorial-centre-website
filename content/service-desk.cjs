@@ -22,7 +22,7 @@ const groups=[
       ["日本 SGU／英語學位","/zh/services/japan-sgu-planning/","本科與碩博選校、申請材料、語言準備及畢業去向。"]
     ]],
     ["graduate-admissions","碩士與博士",[
-      ["碩士選國與申請規劃","/zh/services/masters-country-planning/","加拿大、紐西蘭與愛爾蘭選校及預算比較；OTC 免費代辦。"],
+      ["碩士選國與申請規劃","/zh/services/masters-country-planning/","英國、香港、澳洲、加拿大、紐西蘭與愛爾蘭的碩士選校、跨專業申請及預算比較。"],
       ["博士申請","/zh/services/phd-application-coaching/","研究方向、導師與資助、研究計劃及面試。"],
       ["日本大學院選校與申請規劃","/zh/services/japan-graduate-application/","修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
       ["韓國碩士申請","/zh/services/korea-masters-application/","藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
