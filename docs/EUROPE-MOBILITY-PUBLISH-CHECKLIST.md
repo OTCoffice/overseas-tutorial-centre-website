@@ -191,3 +191,11 @@
 - 斯洛文尼亞 EU Blue Card：2025年修訂 ZZSDT-E 將高技能聘用合約最低期限由1年縮短至6個月，ICT部分申請人可用近7年中至少3年的合資格工作經驗證明專業能力；此條本輪依2025修法解說核對，仍需對照正式斯洛文尼亞公報。來源：https://zdops.si/en/act-on-amendments-and-supplements-to-the-act-on-employment-self-employment-and-work-of-foreigners-zzsdt-e/
 - 歐盟移民門戶斯洛文尼亞2025-04-01頁仍列1年合約，不可直接作為修法後最新標準：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/highly-qualified-worker-slovenia_en
 - 未核：2026實際薪資數額、申請費、國籍及使館管轄、家屬、續簽、永居及正式公報最新全文；本輪為部分核實。
+
+## 2026-11-10 第二十三輪：盧森堡、比利時高技能工作居留
+- 盧森堡 EU Blue Card：2026-10-01 更新的 Guichet.lu 官方頁面確認至少6個月高技能聘用合約、專業資格及薪資門檻；**同一頁正文有 €65,562 與 €65,652 兩個不同數字**。2026-02-23部長規則於2026-03-03起適用的專業法務分析列 €65,652。正式發布前應取得規則原文並確認官網筆誤，不應不加說明宣稱€65,562已核實。官方：https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/pays-tiers/hautement-qualifie/salarie-hautement-qualifie.html ；法規分析：https://www.arendt.com/news-insights/news/eu-blue-card-increase-of-minimum-salary-threshold-2/
+- 盧森堡歐盟移民門戶仍列2024年€58,968，為過時數字，不得採用：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-luxembourg_en
+- 比利時高度技術工作居留：由三個地區分別訂定薪資門檻。布魯塞爾官方列工作逾90天須申請single permit，區域先核工作授權，聯邦移民局另審居留，不能把區域批准當成已取得居留。https://economy-employment.brussels/single-permit-highly-qualified
+- 佛蘭德官方列須有至少3年或相當級別的受認可高等教育資格，私人機構非認可證書不適用；合資格工資須可在聘用開始時確定，浮動獎金及費用津貼不一定計入；僱主提交single permit，工作及居留均獲准才可使用。https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/highly-skilled
+- 2026年區域薪資**次級交叉來源**：布魯塞爾高技能€3,703.44/月、Blue Card €4,748/月；瓦隆高技能€53,220/年、Blue Card €68,815/年（符合條件的較新畢業生€55,052）；佛蘭德高技能€48,912/年、Blue Card €63,586/年。此組數字由2026-01 KPMG/EY專業通報交叉支持，但**尚未逐一從三區正式公告確認，因此只能列待官方終核**。https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/01/fa26-018.pdf.coredownload.pdf
+- 待核：盧森堡官方薪資筆誤、比利時三區薪資正式公告、申請費、家屬、護照及使館管轄、續期與永居。兩條維持部分核實。
