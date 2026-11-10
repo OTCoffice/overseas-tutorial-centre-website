@@ -92,3 +92,8 @@
 - 英國 HPI：Appendix High Potential Individual 2026-10-29 更新，2026-11-01起年度上限8,000申請；申請前5年內合資格海外大學學位、Ecctis、英語B2、£1,270資金（符合在英居留12個月條件者有例外）、一般2年/博士3年、可工作自僱、非直接永居。必須依學位授予日期核對當年大學名單，不能只看2026名單。官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual ; https://www.gov.uk/government/publications/high-potential-individual-visa-global-universities-list/high-potential-individual-visa-global-universities-list-2026
 - 德國 Chancenkarte：官方駐英說明首次最多1年、兼職20小時/週、每僱主最多2週試工；完全認可人才或積分制（至少6分、德語A1或英語B2），駐英申請資料列資金€1,091/月（可能變動），不接受將英國領事館文件要求無條件套用其他國家申請地。官方：https://uk.diplo.de/uk-en/02/visa/chancenkarte/2659588
 - 本輪僅核對兩條路線主要條件，並非全部欄位完成；費用、不同護照與申請地、家屬、轉換和永居仍待逐條核驗。不得發布「110條全部完成」。
+
+## 2026-11-10 第十輪：捷克及拉脫維亞數字遊民資格
+- 捷克 Digital Nomad Programme：2026捷克工業與貿易部適用國籍清單列台灣，未列中國大陸或香港；適用高技能IT及行銷遠距工作者等特定類別。這是特定政府加速計劃，不等於所有捷克長期居留類別。官方：https://mpo.gov.cz/en/foreign-trade/economic-migration/economic-migration-and-government-programs--239491/ 。注意部分舊使館頁名單未更新，以當期主管部門版本優先。
+- 拉脫維亞 Remote Work Long-Stay Visa：2026-06-15官方更新，首次1年；須OECD國家註冊的僱主或自僱業務、員工需證明至少6個月聘用，收入門檻€4,538/月，保險責任額至少€42,600；不得在拉脫維亞本地受僱。中國大陸僱主非OECD成員國註冊者不符合該僱主條件，但申請人國籍與僱主所在地應分開判斷。官方：https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work 。
+- 本輪核驗僅涵蓋官方頁明示的條件，申請費、家屬、續簽、永居、香港/台灣特殊文件等仍待核對。
