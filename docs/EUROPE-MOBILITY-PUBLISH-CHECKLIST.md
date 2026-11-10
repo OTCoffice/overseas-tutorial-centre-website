@@ -274,3 +274,11 @@
 - 瑞典跨境流動：已在其他參與國持藍卡至少12個月者可向瑞典申請藍卡，須在入境後一個月內提出，申請前不可開始在瑞典工作。來源同上。
 - 歐盟官方確認愛爾蘭、丹麥未實施 EU Blue Card，不得創建這兩國的藍卡服務頁。來源：https://ind.nl/en/participating-countries-eu-blue-card
 - 本輪核實上述家屬工作權及流動規則；仍須按申請人的實際家庭關係、居留資格、個別國籍和材料核對。整體110條核驗未完成。
+
+## 2026-11-10 第三十四輪：德國與奧地利技術人才家屬工作權（當期官方來源）
+- 德國技術人才／EU Blue Card 家庭團聚：Make it in Germany 官方2026頁確認主申請人須有合資格工作居留或藍卡、醫療保險及家庭生活費；配偶一般須成年18歲，符合條件的技術人才配偶團聚**不需入境前德語證明**；配偶取得家屬居留後即可不受限制受僱。部分2024-03-01後首次獲發工作居留者可申請父母或岳父母／公婆團聚，但須另符合條件。來源：https://www.make-it-in-germany.com/en/visa-recognition/family-reunification/spouses-joining-non-eu-citizens
+- 德國 EU Blue Card 2026正式官方頁：達B1德語及其他條件者最早21個月可申請 settlement permit；符合較低語言條件者通常27個月，仍須有相應養老保險供款及生活保障等。不能將「21個月」視為任何藍卡持有人自動取得永居。來源：https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card
+- 奧地利 Red-White-Red Card Plus：主申請人持 RWR 或 EU Blue Card 並在過去24個月符合條件受僱至少21個月，可申請 RWR Plus，取得不受單一雇主限制的受僱及自僱工作權；主申請人轉換與家屬首次申請是不同情況。來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/redwhiteredcardplus/
+- 奧地利 RWR／藍卡持有人家屬可直接申請 RWR Plus；家屬通常限配偶、登記伴侶及未婚未成年子女，配偶／登記伴侶申請時至少21歲；家屬首次申請原則須A1德語，但 RWR Very Highly Qualified、EU Blue Card及Researcher的家屬有入境前德語豁免。首次家屬居留通常1年，符合在奧地利合法居住至少2年及Integration Agreement Module 1者可獲3年（仍受主申請人許可期限限制）。來源同上及 https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/Seite.120307
+- **版本及適用性注意**：歐盟移民門戶德國家庭團聚2025頁仍以一般A1德語描述配偶，須按當期技術人才特別豁免區分；不能把「一般配偶」與「藍卡／技術人才配偶」混同。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-germany_en
+- 本輪核對的是家屬及轉換居留的主要條件，未完成各申請地費用、全部家庭關係證明、護照差異及永居例外；全量110條核驗仍未完成。
