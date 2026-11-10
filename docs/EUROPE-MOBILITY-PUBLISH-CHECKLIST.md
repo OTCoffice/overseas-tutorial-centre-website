@@ -87,3 +87,8 @@
 
 **已確認的資料品質風險：** RUN 的 `build_docs.py` 對11條補充路線統一寫入 `status: 'open'` 及 `verified: '2026-10'`；這是資料生成器預設值，不等於政府網站確認仍接受新申請。OTC 應獨立保存官方核驗狀態，不直接繼承上述欄位。
 來源：https://github.com/BryceYuuu/RUN/blob/main/scripts/build_docs.py
+
+## 2026-11-10 第九輪：英國 HPI、德國機會卡
+- 英國 HPI：Appendix High Potential Individual 2026-10-29 更新，2026-11-01起年度上限8,000申請；申請前5年內合資格海外大學學位、Ecctis、英語B2、£1,270資金（符合在英居留12個月條件者有例外）、一般2年/博士3年、可工作自僱、非直接永居。必須依學位授予日期核對當年大學名單，不能只看2026名單。官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual ; https://www.gov.uk/government/publications/high-potential-individual-visa-global-universities-list/high-potential-individual-visa-global-universities-list-2026
+- 德國 Chancenkarte：官方駐英說明首次最多1年、兼職20小時/週、每僱主最多2週試工；完全認可人才或積分制（至少6分、德語A1或英語B2），駐英申請資料列資金€1,091/月（可能變動），不接受將英國領事館文件要求無條件套用其他國家申請地。官方：https://uk.diplo.de/uk-en/02/visa/chancenkarte/2659588
+- 本輪僅核對兩條路線主要條件，並非全部欄位完成；費用、不同護照與申請地、家屬、轉換和永居仍待逐條核驗。不得發布「110條全部完成」。
