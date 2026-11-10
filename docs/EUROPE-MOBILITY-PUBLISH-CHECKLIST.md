@@ -329,3 +329,10 @@
 - **未解的發布資料品質差異**：DETE總表仍列€40,909／€36,849：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/ 。本輪有了正式法規支持，按已核實的2026-03-01修法可採€40,904／€36,848為法規基準；但仍應檢查2026-03-01後是否另有修法，並在實際遞交前按DETE申請系統確認。不得宣稱兩頁已一致。
 - **額外資料矛盾**：DETE CSEP申請清單近畢業生最低時薪文字為€18.27，而S.I.643/2025正式Schedule 8列€18.17，故公開資訊應優先使用法規值，並標記申請系統須複核。https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf
 - 本輪正式法律核對補上前輪重大證據缺口，但仍非110條全欄完成或已發布。
+
+## 2026-11-10 第四十輪：正式發布後精簡卡片及官方來源再核
+- 西班牙移民部 Hoja 20：高等教育EQF至少6級、原持長期學生停留；求職／創業居留24個月不可續，期間不得工作，家屬亦不因該居留取得工作權；求職成功須另轉適用居留。官方：https://inclusion.gob.es/web/migraciones/w/20.-autorizacion-de-residencia-para-busqueda-de-empleo-o-inicio-de-proyecto-empresarial
+- 荷蘭 IND 2026官方薪資表：EU Blue Card一般€5,942/月，符合特定條件減額€4,754/月；與Highly Skilled Migrant的€3,122減額不能混用。官方：https://ind.nl/en/news/fees-and-required-amounts-for-2026-known ; https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit
+- 瑞典移民局2026當期EU Blue Card頁：2026-07-15起薪資SEK53,625/月，聘用至少6個月，高等教育180學分或至少5年相關經驗；官方：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html
+- 注意瑞典官方部分僱主續期頁仍誤寫「2025-07-15起SEK53,625」，但2026申請頁明確寫2026-07-15，且2026-06-01改革公告表示EU Blue Card當時薪資已是SEK53,625。日期有官網內部不一致；對外採申請頁日期並註明按當期主管機關複核。來源：https://www.migrationsverket.se/en/employers/extending-a-permit/eu-blue-cards.html ; https://www.migrationsverket.se/en/newsarchive/newrulesforworkpermitsfrom1june2026.5.4d7d222919d2a911cf74cf.html
+- 上述三條已在正式頁增加精簡可視卡片並附直接官方連結；仍不得標記所有申請資格／費用／國籍全欄完成。
