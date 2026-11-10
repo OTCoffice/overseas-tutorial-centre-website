@@ -321,3 +321,11 @@
 - ISD官方FAQ指出香港、澳門特區國民一般免愛爾蘭入境簽證；短期簽證豁免計劃及BIVS不可代替赴愛工作許可。https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/
 - 台灣護照愛爾蘭免簽狀態仍待直接從ISD完整國籍表讀取，**不使用台灣政府「愛爾蘭人訪台免簽」的反向資訊作推論**。
 - 本輪屬法規與官方矛盾證據分級，非110條全欄核驗完成。
+
+## 2026-11-10 第三十九輪：正式愛爾蘭法規 S.I. 643/2025 解決CSEP證據缺口
+- **找到正式一手法律文本**：Irish Statute Book / legislation.ie 《Employment Permits (Amendment) (No. 5) Regulations 2025》S.I. No. 643/2025，Regulation 21 新增 Schedule 8 Part 1，正式列出 Critical Skills（相關合資格職業／學歷）最低年薪 €40,904、最低時薪 €20.17；符合申請前12個月取得Level 8或以上相應學歷的畢業生 €36,848、最低時薪 €18.17。官方原始PDF：https://www.legislation.ie/eli/2025/si/643/made/en/pdf ；正式網頁：https://www.irishstatutebook.ie/eli/2025/si/643/made/en/print
+- Irish European Migration Network 確認 S.I.643/2025於2026-03-01生效；同時確認一般GEP €36,605，其他CSEP較高門檻 €68,911，特定照護／園藝／肉類工種 €32,691。來源：https://emn.ie/legislation/employment-permits-amendment-no-5-regulations-2025/
+- DETE CSEP專頁及2026申請清單亦列€40,904／€36,848：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf
+- **未解的發布資料品質差異**：DETE總表仍列€40,909／€36,849：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/ 。本輪有了正式法規支持，按已核實的2026-03-01修法可採€40,904／€36,848為法規基準；但仍應檢查2026-03-01後是否另有修法，並在實際遞交前按DETE申請系統確認。不得宣稱兩頁已一致。
+- **額外資料矛盾**：DETE CSEP申請清單近畢業生最低時薪文字為€18.27，而S.I.643/2025正式Schedule 8列€18.17，故公開資訊應優先使用法規值，並標記申請系統須複核。https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf
+- 本輪正式法律核對補上前輪重大證據缺口，但仍非110條全欄完成或已發布。
