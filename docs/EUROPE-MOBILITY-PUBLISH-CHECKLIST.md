@@ -130,3 +130,8 @@
 - 義大利 Elective Residence Visa（residenza elettiva）：義大利外交部官方簽證資料庫將其歸類為長期居留簽證，供有充足、穩定、非工作收入且擬在義大利居住的人士；不得依此簽證在義大利工作。使領館對收入證明、住址及文件細節有領區差異；不宜把第三方常見的 €31,000 年收入數字當成普遍法定最低門檻。官方：https://vistoperitalia.esteri.it/home/en ; https://consnewyork.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/elective-residence/
 - 希臘 Financially Independent Person（FIP）：依希臘移民法典 Law 5038/2023，具有足夠穩定收入者可申請相應居留類別，通常不允許在希臘受僱；須分辨原有 FIP 與近年修法後對應的居留類別、主管機關公布的最低資金及家屬比例。2026年收入門檻、居留續期與國籍例外尚未取得同一份現行政府文件的完整確認，因此標示「待核實」，不在公開頁寫固定金額。官方：https://migration.gov.gr/en/ ; https://www.et.gr/
 - 兩條均完成官方類別及禁止本地工作的初步核對，並未達到核驗級別C/D。申請費、家庭團聚、永居及申請人國籍仍待核實。
+
+## 2026-11-10 第十四輪：愛沙尼亞 Startup Visa 及馬耳他 GRP
+- 愛沙尼亞 Startup Visa：官方 Startup Estonia 說明申請人須獲 Startup Committee 對創新、可擴展商業模式的資格認定；獲正面評估後，仍須向警方及邊防局申請簽證或居留，並非獲委員會認可即自動獲簽。Startup Visa 長期簽證最多可達365天，得依條件延長183天；創業居留許可可達5年，須按個案審核。官方：https://startupestonia.ee/visa/ ; https://www.politsei.ee/en/instructions/residence-permit-for-business
+- 馬耳他 Global Residence Programme（GRP）：馬耳他稅務機關官方資料將其定位為針對非EU/EEA/瑞士人士的特殊稅務身份計劃，並非單靠投資即可直接取得永居。符合資格者需有馬耳他合資格物業（購置或租賃）、健康保險及稅務條件；對境外匯入馬耳他的特定收入適用15%稅率，最低年度稅額€15,000。需另核對居留身份與物業最低門檻，不能將稅務身份與移民居留混同。官方：https://mtca.gov.mt/personal-tax/individual/tax-programmes/global-residence-programme
+- 本輪僅核實計劃性質與上述核心條件；中國大陸、香港、台灣的具體護照及居住地資格、所有申請費、家屬與永居仍待官方逐欄核實。
