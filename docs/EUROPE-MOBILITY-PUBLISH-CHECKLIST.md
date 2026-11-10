@@ -310,3 +310,14 @@
 - BIVS英愛簽證計劃只適用合資格短期停留及特定居民／簽證批註，**不可拿BIVS當作赴愛爾蘭工作簽證或居留途徑**。https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/
 - 台灣護照的最新愛爾蘭入境簽證狀態尚未從完整可檢索官方國籍表單取得，不作推斷；後續須查國籍互動表及特殊護照類型。
 - 本輪屬官方文件矛盾及中港資格的部分核驗，110條全量核驗未完成。
+
+## 2026-11-10 第三十八輪：愛爾蘭CSEP法規薪資交叉比對（改進證據等級）
+- DETE 2026薪資總表仍列CSEP相關學位€40,909、近畢業生€36,849；官方 https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/
+- DETE CSEP專頁仍列€40,904及€36,848，且明確2年job offer、申請費€1,000、無須Labour Market Needs Test、通常至少工作開始12週前申請。官方 https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/
+- 2024 Employment Permits Regulations 的2026-03-01合併版本（Better Regulation**非政府網站，僅作法規檢索線索，尚須以Irish Statute Book正式修訂文本複核**）Schedule 8 Part 1亦列€40,904／€36,848及時薪€20.17／€18.17。https://service.betterregulation.com/document/827290
+- DETE 2025-12-02官方政策新聞稿列€40,904。https://www.enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
+- 結論：**官方資料不一致仍未解除**。現有法規整合線索與專項頁較支持€40,904／€36,848，但因非政府整合法規來源不能當作最終權威，公開網站暫保留衝突標記並待 Irish Statute Book 正式修法及DETE確認；不得在個案報價中使用未經核定的數字。
+- 愛爾蘭ISD最新國籍頁明確是否需入境簽證取決於國籍／旅行證件，已有Irish Residence Permit等另有豁免；中國大陸與香港不可混同。https://www.irishimmigration.ie/visa-non-visa-required-nationalities/
+- ISD官方FAQ指出香港、澳門特區國民一般免愛爾蘭入境簽證；短期簽證豁免計劃及BIVS不可代替赴愛工作許可。https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/
+- 台灣護照愛爾蘭免簽狀態仍待直接從ISD完整國籍表讀取，**不使用台灣政府「愛爾蘭人訪台免簽」的反向資訊作推論**。
+- 本輪屬法規與官方矛盾證據分級，非110條全欄核驗完成。
