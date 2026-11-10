@@ -27,13 +27,6 @@
     "socialImageHeight": 600,
     "twitterCard": "summary_large_image"
   },
-  "/zh/public-school-alliance/uk/east-sussex/": {
-    "shareImageZh": "/assets/social/public-school-uk-east-sussex-share-20261104.jpg",
-    "socialImageVersion": "v=20261104-share-safe",
-    "socialImageWidth": 1200,
-    "socialImageHeight": 600,
-    "twitterCard": "summary_large_image"
-  },
   "/zh/public-school-alliance/uk/brockenhurst/": {
     "shareImageZh": "/assets/social/public-school-uk-brockenhurst-share-20261104.jpg",
     "socialImageVersion": "v=20261104-share-safe",
