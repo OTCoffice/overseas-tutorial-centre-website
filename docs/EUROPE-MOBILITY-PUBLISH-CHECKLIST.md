@@ -282,3 +282,12 @@
 - 奧地利 RWR／藍卡持有人家屬可直接申請 RWR Plus；家屬通常限配偶、登記伴侶及未婚未成年子女，配偶／登記伴侶申請時至少21歲；家屬首次申請原則須A1德語，但 RWR Very Highly Qualified、EU Blue Card及Researcher的家屬有入境前德語豁免。首次家屬居留通常1年，符合在奧地利合法居住至少2年及Integration Agreement Module 1者可獲3年（仍受主申請人許可期限限制）。來源同上及 https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/Seite.120307
 - **版本及適用性注意**：歐盟移民門戶德國家庭團聚2025頁仍以一般A1德語描述配偶，須按當期技術人才特別豁免區分；不能把「一般配偶」與「藍卡／技術人才配偶」混同。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-germany_en
 - 本輪核對的是家屬及轉換居留的主要條件，未完成各申請地費用、全部家庭關係證明、護照差異及永居例外；全量110條核驗仍未完成。
+
+## 2026-11-10 第三十五輪：丹麥 Positive Lists 與愛爾蘭 2026 最低年薪
+- 丹麥 SIRI 2026-07-01官方公告：高等教育 Positive List 有164個職位，Skilled Work Positive List 有63個職位；每年1月1日及7月1日更新，不應沿用2026-01-01的183/57或1月19日修正的180/54。來源：https://www.nyidanmark.dk/en-GB/News-Front-Page/2026/06/The-Positive-Lists-are-updated-as-of-1-July-2026
+- SIRI Skilled Work 正式申請頁：常規審理3個月、補件可至4個月，費用 DKK 6,810；工作須在當期清單，薪資及僱傭條款須符合丹麥同業標準。職業包括廚師、電工、汽車維修技師、部分金屬工種及護理相關職位；部分護理職業須丹麥執照，Social and Health Care Worker 另有1000個配額。官方：https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/The-Positive-Lists/Positive-List-for-skilled-work/
+- 2026-08-01起 Skilled Work Positive List 工資評估使用2026 Q1丹麥統計資料，不能假定所有工種有同一最低薪資；住房、車輛等非現金福利不可直接計入合格薪資。官方：https://nyidanmark.dk/en-GB/News-Front-Page/2026/06/Loenstatistk-positivlisten-for-faglaerte-august-2026
+- 丹麥 Pay Limit Scheme 是**另一條**路線，2026最低 DKK 552,000/年（DKK 46,000/月）；不可將此數字套在 Positive List。官方：https://nyidanmark.dk/uk-UA/Words-and-concepts/SIRI/Minimum-amounts/Pay-Limit-Scheme%27s-minimum-amount
+- SIRI官方工作計劃比較表：Positive List for higher education 有非自願失業後6個月求職安排，Skilled Work Positive List 無同類6個月求職安排；兩者一般最長4年並可續期，須符合許可條件。來源：https://www.nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Work-schemes-in-SIRI---an-overview/
+- 愛爾蘭 DETE 2026 Minimum Annual Remuneration 官方表：GEP一般 €36,605；GEP Irish Graduate €34,009；CSEP with relevant degree €40,909；CSEP without relevant degree €68,911；Critical Skills Graduate €36,849；HCA/Home Carer/Care Worker €32,691；肉類及園藝操作工 €32,691。**修正前輪€40,904／€40,909衝突：DETE當期總表列€40,909，但正式對外仍須確認個別職位及有效申請日。** 來源：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/
+- 尚未完成：兩國所有清單職業的逐項資格、申請地、家屬、國籍差異、永居及全額費用；上述為部分核驗，不得宣稱110條全數完成。
