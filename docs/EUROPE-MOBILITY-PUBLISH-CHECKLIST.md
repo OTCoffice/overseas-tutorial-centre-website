@@ -120,3 +120,8 @@
 - 葡萄牙 D7 被動收入居留：葡萄牙政府官方簽證門戶列適用於退休人士或以宗教、資產、知識產權等收入生活者；須證明收入來源及足夠生活資金，簽證申請通常透過領事館。AIMA 2026居留卡指引對退休及自有收入類別列出居留卡首次2年、可續3年。注意 D7 是民間慣用名稱，實際須依官方簽證分類判斷；2026申請費、各家屬資金比例、居住天數及永居條件尚待核驗。官方：https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa ; https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-reformados-ou-titulares-de-rendimentos-proprios
 - 西班牙非營利居留：西班牙領事館官方說明申請人需證明有足夠資金且不得在西班牙從事工作或專業活動；本人至少400% IPREM，家屬每人另100% IPREM。2026官方 IPREM 每月€600，推算本人每月€2,400、每名家屬€600（按12個月計本人€28,800、每名家屬€7,200），申請前須核對領事館對資金持有形式、完整期間及保險的要求。官方：https://www.exteriores.gob.es/Consulados/londres/en/ServiciosConsulares/Paginas/Consular/Non-working-residence-visa.aspx ; https://www.sepe.es/HomeSepe/en/Personas/distributiva-prestaciones/Cuantias-anuales.html
 - 兩條均不能宣傳為「不工作也保證永居」；仍需按居住、續簽、離境、家屬及國籍個案逐欄核驗。
+
+## 2026-11-10 第十二輪：西班牙非營利居留／葡萄牙 D7 的續居、工作與家庭限制
+- 西班牙非營利居留：依西班牙官方移民規則（RD 1155/2024，2025-05-20生效），首次非營利居留一般為1年，首次續期一般2年；申請人不得從事工作或職業活動。資金通常本人400% IPREM、每名家屬另100% IPREM；必須核對實際合法居住、保險及續期要求，不能僅憑持有居留卡推定已符合長期居留。官方：https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099 ; https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-no-lucrativa
+- 葡萄牙 D7：官方 AIMA 對退休及自有收入持有人的居留許可頁面，列首次2年及可續3年；家庭團聚需依 AIMA 另行申請，不能將家庭團聚當成自動權利。2025-10以後葡萄牙家庭團聚法規曾變更，須逐條核對最新條款與例外。官方：https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-reformados-ou-titulares-de-rendimentos-proprios ; https://aima.gov.pt/pt/viver/reagrupamento-familiar
+- 資料庫必須把「首次簽證」、「首次居留許可」、「續期」及「長期居留／永居」拆成不同欄位。上述仍是指定欄位核驗，並非全部法律及護照適用性驗證。
