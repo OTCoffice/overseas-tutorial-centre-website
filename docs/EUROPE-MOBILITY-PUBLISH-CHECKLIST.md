@@ -125,3 +125,8 @@
 - 西班牙非營利居留：依西班牙官方移民規則（RD 1155/2024，2025-05-20生效），首次非營利居留一般為1年，首次續期一般2年；申請人不得從事工作或職業活動。資金通常本人400% IPREM、每名家屬另100% IPREM；必須核對實際合法居住、保險及續期要求，不能僅憑持有居留卡推定已符合長期居留。官方：https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099 ; https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-no-lucrativa
 - 葡萄牙 D7：官方 AIMA 對退休及自有收入持有人的居留許可頁面，列首次2年及可續3年；家庭團聚需依 AIMA 另行申請，不能將家庭團聚當成自動權利。2025-10以後葡萄牙家庭團聚法規曾變更，須逐條核對最新條款與例外。官方：https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-reformados-ou-titulares-de-rendimentos-proprios ; https://aima.gov.pt/pt/viver/reagrupamento-familiar
 - 資料庫必須把「首次簽證」、「首次居留許可」、「續期」及「長期居留／永居」拆成不同欄位。上述仍是指定欄位核驗，並非全部法律及護照適用性驗證。
+
+## 2026-11-10 第十三輪：義大利 Elective Residence 與希臘 FIP，官方分類核對
+- 義大利 Elective Residence Visa（residenza elettiva）：義大利外交部官方簽證資料庫將其歸類為長期居留簽證，供有充足、穩定、非工作收入且擬在義大利居住的人士；不得依此簽證在義大利工作。使領館對收入證明、住址及文件細節有領區差異；不宜把第三方常見的 €31,000 年收入數字當成普遍法定最低門檻。官方：https://vistoperitalia.esteri.it/home/en ; https://consnewyork.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/elective-residence/
+- 希臘 Financially Independent Person（FIP）：依希臘移民法典 Law 5038/2023，具有足夠穩定收入者可申請相應居留類別，通常不允許在希臘受僱；須分辨原有 FIP 與近年修法後對應的居留類別、主管機關公布的最低資金及家屬比例。2026年收入門檻、居留續期與國籍例外尚未取得同一份現行政府文件的完整確認，因此標示「待核實」，不在公開頁寫固定金額。官方：https://migration.gov.gr/en/ ; https://www.et.gr/
+- 兩條均完成官方類別及禁止本地工作的初步核對，並未達到核驗級別C/D。申請費、家庭團聚、永居及申請人國籍仍待核實。
