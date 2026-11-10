@@ -67,3 +67,23 @@
 - 法規來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate
 - 費用來源：https://www.gov.uk/graduate-visa/how-much-it-costs
 - 這一輪只擴充已核實的英國特定路線欄位，並未完成36國110路線全量核驗。
+
+## 2026-11-10 第八輪：11條補充路線已逐一辨識（來源級核對，非政府法規核驗）
+來源：RUN `scripts/build_docs.py` 的 `EXTRA_META`，對照 `src/extra_routes.json`。以下為11條補充路線的確切 ID；全部仍須按官方主管機關逐欄核驗，不得因程式預設 `status: open` 就宣稱開放申請。
+
+| 國家 | 路線 ID | 核驗狀態 |
+|---|---|---|
+| 西班牙 | `spain-non-lucrative-visa` | 待政府原文逐欄核驗 |
+| 葡萄牙 | `portugal-d7-visa` | 待政府原文逐欄核驗 |
+| 德國 | `germany-opportunity-card` | 待政府原文逐欄核驗 |
+| 德國 | `germany-skilled-worker-18a-18b` | 待政府原文逐欄核驗 |
+| 希臘 | `greece-fip` | 待政府原文逐欄核驗 |
+| 意大利 | `italy-elective-residence` | 待政府原文逐欄核驗 |
+| 馬耳他 | `malta-global-residence-programme` | 待政府原文逐欄核驗 |
+| 愛沙尼亞 | `estonia-startup-visa` | 待政府原文逐欄核驗 |
+| 英國 | `uk-skilled-worker` | 待政府原文逐欄核驗 |
+| 英國 | `uk-global-talent` | 待政府原文逐欄核驗 |
+| 英國 | `uk-hpi` | 待政府原文逐欄核驗 |
+
+**已確認的資料品質風險：** RUN 的 `build_docs.py` 對11條補充路線統一寫入 `status: 'open'` 及 `verified: '2026-10'`；這是資料生成器預設值，不等於政府網站確認仍接受新申請。OTC 應獨立保存官方核驗狀態，不直接繼承上述欄位。
+來源：https://github.com/BryceYuuu/RUN/blob/main/scripts/build_docs.py
