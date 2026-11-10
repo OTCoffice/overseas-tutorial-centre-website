@@ -299,3 +299,14 @@
 - **重大官方衝突，禁止直接定稿**：DETE 2026 MAR總表列相關學位CSEP €40,909、Critical Skills Graduate €36,849；但DETE當期CSEP專頁列 €40,904 及 €36,848，2025-12-02政府新聞稿也列€40,904。應在網站標示「以申請日Employment Permits Online核定的現行門檻為準」，正式發布前向DETE核實，避免只用總表掩蓋衝突。來源：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/ ；https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ；https://www.enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
 - **合規區分**：愛爾蘭工作許可並非入境簽證或居留許可，須按國籍判定是否另需簽證及入境後註冊居留；中國大陸、香港、台灣適用性需另逐項查愛爾蘭移民局，不應推斷。來源：上述DETE GEP/CSEP官方頁。
 - 本輪屬新增官方證據及錯誤攔截，未完成全部110路線全欄核驗。
+
+## 2026-11-10 第三十七輪：愛爾蘭 CSEP 官方薪資矛盾深入核查與中港簽證區別
+- DETE「Minimum annual remuneration」2026表：相關學位CSEP €40,909，畢業生CSEP €36,849；https://www.enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/
+- 同一主管機關 CSEP 申請專頁及官方CSEP申請文件核對表均列：相關學位 €40,904、畢業生 €36,848；39小時每週的薪資基準，40小時則官方清單示例最低 €41,953.60。2025-12-02正式新聞稿也列€40,904。故現有證據顯示「2026總表」與「專項頁、清單、新聞稿」不一致，不能直接判斷是政策修訂還是表格誤差。建議網站標示「2026官方資料有€40,904／€40,909差異，須以遞交時Employment Permits Online／DETE確認」，不應無條件給客戶保證。來源：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf ; https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
+- DETE 2026-05-13生效的 Critical Skills Occupations List 以SOC2010分類，部分大類只有指定技能細分符合，不能單靠職稱類似就認定合資格。https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/critical%20skills%20occupations%20list.html
+- 愛爾蘭 ISD 免簽／需簽國籍官方頁指出簽證通常按國籍或旅行證件簽發國判定，已有有效 Irish Residence Permit 等另有豁免；簽證、工作許可、居留註冊是三件不同事。https://www.irishimmigration.ie/visa-non-visa-required-nationalities/
+- ISD官方 Short Stay Visa Waiver FAQ 明確「香港、澳門特區國民已在無需簽證前往愛爾蘭的名單」；中國大陸護照不能據此推定免簽。**但此處僅確認入境簽證一般原則，不等於免除工作許可、就業許可或居留註冊。** https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/
+- ISD 北京簽證處受理中國大陸、香港、澳門、蒙古申請；有管轄範圍不等於各地國籍均需簽證。https://www.irishimmigration.ie/visa-offices/
+- BIVS英愛簽證計劃只適用合資格短期停留及特定居民／簽證批註，**不可拿BIVS當作赴愛爾蘭工作簽證或居留途徑**。https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/
+- 台灣護照的最新愛爾蘭入境簽證狀態尚未從完整可檢索官方國籍表單取得，不作推斷；後續須查國籍互動表及特殊護照類型。
+- 本輪屬官方文件矛盾及中港資格的部分核驗，110條全量核驗未完成。
