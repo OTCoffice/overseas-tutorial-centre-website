@@ -45,3 +45,10 @@
 - 丹麥 Positive List for Higher Education：必須取得當期清單職位的聘用、符合學歷與正常薪資條件；SIRI 頁面顯示費用 DKK 6,810、一般處理時間1個月（補件可能至3個月），清單職位有個別到期日。https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Positive-List-Higher-Education
 - 英國2026-11-04國會答覆：政府擬對部分高合規大學畢業生恢復2年 Graduate visa，但細節與過渡安排未定；不得當作已生效例外。https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40095
 - 上述核對仍不包括所有護照資格、個別申請費及永居年限；正式發布閘門未解除。
+
+## 2026-11-10 第五輪：審核方法及官方英國法規
+- 核驗級別須區分：(A) 僅有國家政府入口；(B) 有路線官方頁；(C) 官方原文已逐欄核實資格、費用、期限、國籍、家屬、工作、續簽、永居；(D) 官方更新日期及實際申請流程已覆核。只有 C/D 才可稱完整核驗。不得以網站可開啟或 RUN 的 verified 欄位代替 C。
+- RUN 110條路線可能包含已關閉途徑；已關閉者仍應保留「已關閉／不可新申請」狀態，而不是算作可申請。
+- 英國 Graduate：2026-10-29 更新的 Appendix Graduate GR 8.1 明定 2027-01-01 起一般18個月、博士3年；GR 8.2 允許受僱及自僱（不含職業運動員）；GR 9.4A 限制家屬新增。https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate
+- 英國國會 2026-11-04 回覆提及擬對部分高合規大學畢業生延長為兩年，但過渡細節尚未公布，不能當作已實施。https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40095
+- 原始 CSV 的完整取得及逐行官方來源核對尚未完成；禁止將現有36國目錄宣稱為110條逐項已核實。
