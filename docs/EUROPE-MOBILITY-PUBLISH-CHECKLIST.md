@@ -147,3 +147,11 @@
 - 瑞典一般受僱工作許可：2026-06-01新規要求薪資至少達申請時瑞典中位數薪資90%，且仍須符合行業集體協議或慣常薪資。2026-06-16起官方基準月薪 SEK 34,470（中位數 SEK 38,300）。某些特定職業／申請人（包括符合條件的前學生或研究員等）可適用75%中位數豁免。已於2026-06-01前獲批工作許可且2026-06-01至12-01申請續簽者，適用過渡80%基準（目前SEK 30,640）；2026-12-02起續簽適用新規。來源：https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html ; https://www.migrationsverket.se/en/word-explanations/a-good-living---maintenance-requirement-for-work-permits.html
 - 荷蘭 Highly Skilled Migrant：必須由IND認可擔保雇主提交申請，具合格僱用合約、達到薪資門檻且符合市場薪資。IND 2026全年（不含假期津貼）月薪門檻：30歲以上 €5,942；30歲以下 €4,357；合資格降低門檻 €3,122。降低門檻並非所有畢業生都適用，需符合 Orientation Year 等指定條件。來源：https://ind.nl/en/residence-permits/work/highly-skilled-migrant ; https://ind.nl/en/required-amounts-income-requirements
 - 兩條路線的護照、家屬、完整申請費、永居及全部例外尚未逐欄核實；不可標為完全核驗通過。
+
+## 2026-11-10 第十七輪：芬蘭及挪威工作許可（官方逐欄部分核驗）
+- 芬蘭 Specialist：Migri 2026稅前月薪最低€3,937（福利及每日津貼不計），須有已確認聘用及專業技能（通常高等教育或相當經驗）；首次許可最長2年；網申首次€530、續期€230，紙本首次€630、續期€430；符合條件可申請 fast track，官方稱兩週。官方：https://migri.fi/en/specialist/en
+- 芬蘭一般受僱工作許可 TTOL：2026稅前月薪最低€1,600，且不得低於適用集體協議薪資；不可以其他福利或夜班津貼替代該基準。官方：https://migri.fi/en/working-in-finland/income-requirement
+- 挪威 Skilled Worker（挪威僱主）：須有具體聘用，通常全職，至少80%可接受；須符合高等教育、至少3年對應職業教育或經嚴格審核的特殊資格；學位職位通常最多3年許可、職業教育職位通常最多1年；符合條件3年後可申請永居，但不是自動核發。官方：https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/
+- 挪威 UDI 工資：要求碩士學位職位通常稅前年薪NOK 624,700；學士學位職位通常NOK 545,400；集體協議或地方行業正常工資亦須符合。特殊低薪例外須提出有力證據。官方：https://www.udi.no/en/word-definitions/pay-and-working-conditions-in-norway
+- 挪威 UDI 對中國等部分國家簽發的特定職業教育文件（例如廚師、汽車技工、木工等）有更嚴格的真實性審查；這是文件／資格風險而非中國國籍全面禁申。
+- 本輪僅核對以上欄位；護照類別、家屬、各項申請費、續簽、居住連續性及完整永居條件尚未完成。不能計為整條 C/D 全面核驗。
