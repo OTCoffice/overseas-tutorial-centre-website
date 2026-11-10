@@ -176,3 +176,10 @@
 - 斯洛伐克 EU Blue Card：IOM Migration Information Centre 2026-07-15更新：至少6個月高技能工作聘用，薪資通常為斯洛伐克平均工資1.2倍，近三年大學畢業生可適用1倍；申請費€250，居留卡€10（一般）／€39（加急），完整申請後30日審理；一般最長5年。來源：https://mic.iom.sk/en/residence/temporary-residence/236-modra-karta-eu-2.html
 - 版本衝突：斯洛伐克勞工部部分英文頁仍列舊的1.5倍薪資、至少一年聘用及三年許可，與2026更新的IOM及歐盟移民門戶不一致。應優先核對現行斯洛伐克法律及移民警察實務，不可將舊頁面當成現行規則。來源：https://employment.gov.sk/en/information-foreigners/employment/employment-third-country-national.html
 - 待核：2026年適用平均工資具體歐元數額、家屬、國籍個案、永居、職業資格認可、捷克最低工資／工時及全部例外；本輪均為部分核驗，尚非 C/D 完整通過。
+
+## 2026-11-10 第二十一輪：克羅地亞及羅馬尼亞 EU Blue Card（法規衝突核驗）
+- 克羅地亞：2025-03 官方公報修訂《外國人法》第126條，最低高技能聘用合約6個月、一般薪資門檻為前一年官方平均稅前工資1.5倍；取得高等教育資格未滿3年者可適用一般門檻80%（須符合全部其他條件）。正式法規：https://narodne-novine.nn.hr/clanci/sluzbeni/full/2025_03_40_545.html
+- 克羅地亞政府／Migracije 公共入口亦列6個月合約及換雇主後5個工作日通知：https://migracije.hr/third-country-nationals/?lang=en 。歐盟移民門戶2025-04-01克羅地亞頁仍列至少1年合約及2023年薪資數字，不應當成2026當期標準：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-croatia_en
+- 羅馬尼亞：移民總局 IGI 官方目前列高技能工作居留期限為合約期限+3個月，最長3年；申請居留時須於簽證許可屆滿前至少30日遞交，居留卡行政費265 RON及相應費用另列。https://igi.mai.gov.ro/single-permit-eu-blue-card/
+- 歐盟移民門戶2025-04-01羅馬尼亞頁仍列最長2年、2023年薪資門檻，不可直接沿用：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-romania_en
+- **尚未核實**：克羅地亞2026當期平均工資及換算歐元門檻、羅馬尼亞2026藍卡薪資門檻與法規最新版本、兩國家屬／永居／國籍適用及全部費用。兩條均維持「部分核驗」而非C/D完整通過。
