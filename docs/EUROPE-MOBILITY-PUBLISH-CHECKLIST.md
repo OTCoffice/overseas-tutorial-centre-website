@@ -52,3 +52,8 @@
 - 英國 Graduate：2026-10-29 更新的 Appendix Graduate GR 8.1 明定 2027-01-01 起一般18個月、博士3年；GR 8.2 允許受僱及自僱（不含職業運動員）；GR 9.4A 限制家屬新增。https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate
 - 英國國會 2026-11-04 回覆提及擬對部分高合規大學畢業生延長為兩年，但過渡細節尚未公布，不能當作已實施。https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40095
 - 原始 CSV 的完整取得及逐行官方來源核對尚未完成；禁止將現有36國目錄宣稱為110條逐項已核實。
+
+## 2026-11-10 第六輪：原始資料結構與英國官方費用
+- RUN 的 build_docs.py 直接讀取 data/programmes.json（99條）、src/extra_routes.json（11條），並把各條 status=closed 寫入 CSV。須以這兩份原始記錄為核驗底稿，不能把 README 的110條視為110條仍可申請。來源：https://github.com/BryceYuuu/RUN/blob/main/scripts/build_docs.py
+- 英國 Graduate visa GOV.UK 目前明列：申請費 £937、IHS 通常每年 £1,035；2年（2026-12-31或以前申請）、18個月（2027-01-01起一般申請）、博士3年；一般8週審理；不可延長，可符合資格轉其他路線。來源：https://www.gov.uk/graduate-visa （核驗2026-11-10）。費用會更新，遞交前再次核實。
+- 本輪網站已增加來源路徑與關閉狀態警示。仍未取得99+11條逐項政府核驗證據；不合併正式發布。
