@@ -183,3 +183,11 @@
 - 羅馬尼亞：移民總局 IGI 官方目前列高技能工作居留期限為合約期限+3個月，最長3年；申請居留時須於簽證許可屆滿前至少30日遞交，居留卡行政費265 RON及相應費用另列。https://igi.mai.gov.ro/single-permit-eu-blue-card/
 - 歐盟移民門戶2025-04-01羅馬尼亞頁仍列最長2年、2023年薪資門檻，不可直接沿用：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-romania_en
 - **尚未核實**：克羅地亞2026當期平均工資及換算歐元門檻、羅馬尼亞2026藍卡薪資門檻與法規最新版本、兩國家屬／永居／國籍適用及全部費用。兩條均維持「部分核驗」而非C/D完整通過。
+
+## 2026-11-10 第二十二輪：保加利亞與斯洛文尼亞官方工作路線
+- 保加利亞 EU Blue Card：保加利亞勞工與社會政策部說明需符合高技能資格（高等教育一般至少3年），合同稅前薪資至少前12個月平均工資1.5倍；不要求先做勞動市場測試，也不對同一企業的此類聘用設定人數限制。來源：https://www.mlsp.government.bg/trudova-migraciq
+- 保加利亞《外國人法》2025修訂後的Art.33j文本（第三方英文譯本，尚需正式公報原文核對）提到藍卡可最長5年、最短24個月及失業期間的特別保護；未以此譯本單獨宣稱法規條件全部完成。非官方譯本：https://www.immigration.bg/legislation/foreigners-act/
+- 斯洛文尼亞 Single Permit：政府 GOV.SI 確認第三國人士一般需要合併居留及工作許可，由行政單位核發、就業服務局同意；可由雇主或本人依規定提交。部分季節工作及特定雙邊協議另有程序。來源：https://www.gov.si/en/topics/employment-and-work-of-foreign-nationals
+- 斯洛文尼亞 EU Blue Card：2025年修訂 ZZSDT-E 將高技能聘用合約最低期限由1年縮短至6個月，ICT部分申請人可用近7年中至少3年的合資格工作經驗證明專業能力；此條本輪依2025修法解說核對，仍需對照正式斯洛文尼亞公報。來源：https://zdops.si/en/act-on-amendments-and-supplements-to-the-act-on-employment-self-employment-and-work-of-foreigners-zzsdt-e/
+- 歐盟移民門戶斯洛文尼亞2025-04-01頁仍列1年合約，不可直接作為修法後最新標準：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/highly-qualified-worker-slovenia_en
+- 未核：2026實際薪資數額、申請費、國籍及使館管轄、家屬、續簽、永居及正式公報最新全文；本輪為部分核實。
