@@ -170,3 +170,9 @@
 - 立陶宛 EU Blue Card：2026-05-14修訂的外國人法律 Article 44¹ 明定至少6個月僱用承諾，一般月薪至少最近公告的全國平均稅前月薪1.5倍；列入指定高附加值緊缺職業清單者為1.2倍。具其他EU國藍卡的跨境流動有另外規則，不能把一般就業配額與藍卡門檻混同。來源：https://www.e-tar.lt/portal/li/legalActPrint?actualEditionId=XQMjqbJOlf&documentId=TAR.42837E5A79DD
 - 立陶宛一般外國人受僱配額：2026年度24,706人，係普通工作路線配額，不得直接當作 EU Blue Card 配額。來源：https://socmin.lrv.lt/lt/veiklos-sritys/darbo-rinka-uzimtumas/uzimtumo-ir-darbo-rinkos-politika/uzsienieciu-idarbinimo-kvota-2025-m/
 - 本輪兩國只核對官方薪資、費用或僱用條件及資料時效衝突；國籍、家屬、完整續期、永居及所有例外未完成，不能標示全欄通過。
+
+## 2026-11-10 第二十輪：捷克 Employee Card 與斯洛伐克 EU Blue Card
+- 捷克 Employee Card：捷克內政部外國人門戶明示第三國國民可申請一般受僱居留，最長2年；境內行政費 CZK 2,500、境外領事費 CZK 5,000；一般審理60日、複雜案件90日。離職後如無自由進入勞動市場資格，須於90日內通報新工作或申請其他居留；境外申請有使館配額及管轄地限制，不能一概視為所有中國／香港／台灣居民可在任意使館提交。來源：https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/
+- 斯洛伐克 EU Blue Card：IOM Migration Information Centre 2026-07-15更新：至少6個月高技能工作聘用，薪資通常為斯洛伐克平均工資1.2倍，近三年大學畢業生可適用1倍；申請費€250，居留卡€10（一般）／€39（加急），完整申請後30日審理；一般最長5年。來源：https://mic.iom.sk/en/residence/temporary-residence/236-modra-karta-eu-2.html
+- 版本衝突：斯洛伐克勞工部部分英文頁仍列舊的1.5倍薪資、至少一年聘用及三年許可，與2026更新的IOM及歐盟移民門戶不一致。應優先核對現行斯洛伐克法律及移民警察實務，不可將舊頁面當成現行規則。來源：https://employment.gov.sk/en/information-foreigners/employment/employment-third-country-national.html
+- 待核：2026年適用平均工資具體歐元數額、家屬、國籍個案、永居、職業資格認可、捷克最低工資／工時及全部例外；本輪均為部分核驗，尚非 C/D 完整通過。
