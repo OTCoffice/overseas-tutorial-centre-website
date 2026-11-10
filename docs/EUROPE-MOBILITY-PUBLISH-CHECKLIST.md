@@ -258,3 +258,11 @@
 - 失業求職保護：持卡未滿2年最多3個月；持卡2年或以上最多6個月，且不得超過卡本身有效期。
 - **版本衝突**：歐盟移民門戶荷蘭2025頁仍寫至少12個月聘用，IND現行官方明確6個月，應採IND。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-netherlands_en
 - 未完成：中國大陸／香港／台灣申請地MVV豁免、家屬個案文件、續期及永居全部條件，仍為部分核驗。
+
+## 2026-11-10 第三十二輪：荷蘭 EU Blue Card MVV 國籍、跨境流動與長期居留（IND）
+- IND MVV 豁免頁（2026-05-06）：僅因國籍豁免的名單包含澳洲、加拿大、日本、摩納哥、紐西蘭、梵蒂岡、英國、美國、韓國、瑞士及EU/EEA；**中國大陸、香港、台灣均不在按國籍自動豁免名單**。這不代表所有相關護照持有人都必須辦 MVV，持有荷蘭既有居留、其他EU國藍卡滿12個月等有個別豁免。官方：https://ind.nl/en/mvv-exemptions
+- IND EU Blue Card 官方頁（2026-06-15）：持其他參與國藍卡至少12個月，可申請荷蘭長期流動；符合該條件者及其家屬可能豁免 MVV；IND 確認藍卡僱主不強制為 recognised sponsor，費用€423。官方：https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit
+- IND 長期EU居留（2026-11-06）：一般要求至少5年合法居留，過往學生居留只計50%，其他臨時目的居留不計；藍卡跨國累計特殊情形：申請前至少連續2年在荷蘭持藍卡，之前在另一參與國至少連續12個月持藍卡，且5年內有合資格EU居留（包括部分其他高技能、研究、庇護、50%學生時間）；五年期間離開EU單次不得逾12個月、累計不得逾18個月。另一種情況為在荷蘭連續5年合法居留且現持藍卡，離境亦有相應12/18個月上限。來源：https://ind.nl/en/residence-permits/long-term-eu-residency/apply-for-a-residence-permit-for-long-term-eu-residents
+- 荷蘭一般永久居留：IND 2026-05-20列一般5年連續合法居留、主居所、按時續簽、非臨時目的居留、收入、BRP登記、A2融合考試或豁免；申請費€254，審理期6個月。與EU長期居民制度的計算不同，不得混稱。官方：https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit
+- IND 官方參與國清單：丹麥及愛爾蘭**未實施**EU Blue Card；不得在這兩國頁面虛構藍卡。來源：https://ind.nl/en/participating-countries-eu-blue-card
+- 本輪已核對荷蘭藍卡國籍豁免、跨境及長期居留核心條件，但個別護照申請地、家屬收入、法律例外仍須核實，尚非全欄C/D完成。
