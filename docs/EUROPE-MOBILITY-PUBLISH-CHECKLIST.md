@@ -163,3 +163,10 @@
 - 官方 e-Residency 知識庫（2026-01-08更新）明確指出 e-Residency 數字身份證**不是**居留許可，也不賦予入境或居留權。https://learn.e-resident.gov.ee/hc/en-gb/articles/360000630337-Live-and-work-in-Estonia
 - **資料品質警示：** Work in Estonia 一般指引含過去固定「€2,528」高技能工資示例，不應直接視為2026年最新數值。應以當期 Statistics Estonia 工資數據與PPA正式核准條件計算。
 - 未完成：各國籍申請地、2026當期平均工資具體數額、申請費、家屬、續期與永居的全欄核實；本條狀態仍為部分核實。
+
+## 2026-11-10 第十九輪：波蘭、立陶宛 EU Blue Card — 官方2026資料優先
+- 波蘭 EU Blue Card：波蘭外國人事務辦理系統 MOS 當期英文官方問答列申請費 PLN 440，2026申請所需稅前年薪至少 PLN 160,264.08（即月薪 PLN 13,355.34）；具合資格高等教育或特定專業經驗、適當僱用與醫療保險。更換僱主可在維持高技能工作與薪資條件下進行，須在15個工作日內書面通知省長。失業保護期視持卡時間為3或6個月，須履行通報義務。來源：https://mos.cudzoziemcy.gov.pl/en/question-and-answer-database/permits-residence-and-work/eu-blue-card/
+- **重要舊資料衝突：** 歐盟 EU Immigration Portal 2025-04-01 波蘭頁面仍列月薪 PLN 9,519.23、費用約€123，不能拿該舊數值覆蓋2026年波蘭主管部門資料。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-poland_en
+- 立陶宛 EU Blue Card：2026-05-14修訂的外國人法律 Article 44¹ 明定至少6個月僱用承諾，一般月薪至少最近公告的全國平均稅前月薪1.5倍；列入指定高附加值緊缺職業清單者為1.2倍。具其他EU國藍卡的跨境流動有另外規則，不能把一般就業配額與藍卡門檻混同。來源：https://www.e-tar.lt/portal/li/legalActPrint?actualEditionId=XQMjqbJOlf&documentId=TAR.42837E5A79DD
+- 立陶宛一般外國人受僱配額：2026年度24,706人，係普通工作路線配額，不得直接當作 EU Blue Card 配額。來源：https://socmin.lrv.lt/lt/veiklos-sritys/darbo-rinka-uzimtumas/uzimtumo-ir-darbo-rinkos-politika/uzsienieciu-idarbinimo-kvota-2025-m/
+- 本輪兩國只核對官方薪資、費用或僱用條件及資料時效衝突；國籍、家屬、完整續期、永居及所有例外未完成，不能標示全欄通過。
