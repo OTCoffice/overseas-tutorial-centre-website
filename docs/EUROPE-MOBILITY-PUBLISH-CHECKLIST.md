@@ -247,3 +247,14 @@
 - 瑞典歐盟移民門戶2025舊頁仍列至少1年聘用、1.5倍平均薪資及最多2年許可，與2026年瑞典主管機關資料衝突，應標記過時：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-sweden_en
 - 芬蘭 Migri EU Blue Card：2026稅前月薪至少 €3,937（不計福利），至少6個月確認聘用；至少3年高等教育資格或通常至少5年相當專業經驗。許可最長2年，合約不足2年則合約期加3個月；網上首次€530、續期€230；紙本首次€630、續期€430；合資格可fast track。藍卡允許從事高技能工作，非綁定單一僱主；首次一般境外申請。官方：https://migri.fi/en/eu-blue-card （2026-11-10讀取）
 - 本輪是直接核實兩國薪資、聘用、學歷、部分費用、期限、工作權及瑞典家屬；其他護照個案、續期細節、永居計算及完整家庭條件仍需逐欄核對。不可將兩條標為全欄C/D完成。
+
+## 2026-11-10 第三十一輪：荷蘭 EU Blue Card（IND 官方逐欄核對）
+- 官方來源：IND 2026-06-15更新 https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit 及 2026全年薪資表 https://ind.nl/en/required-amounts-income-requirements ；核驗2026-11-10。
+- 2026月薪（不含假期津貼）：一般 €5,942，合資格較新畢業生減額 €4,754。減額須符合畢業或取得博士學位後3年內申請等特定條件，不能與荷蘭 Highly Skilled Migrant 減額 €3,122 混用。
+- 最少6個月合資格高技能聘用；3年高等教育學歷（境外學歷須Nuffic評估），或一般5年相當工作經驗；IT管理或專業人士可在申請前7年內有3年相當經驗。醫生／律師等受監管職業仍需當地執業資格。
+- Blue Card 僱主**無須**IND recognised sponsor 資格（Highly Skilled Migrant 才強制要求），但僱主仍是擔保人且須符合合規條件。申請費 €423。
+- 決定期限：認可擔保人、長期跨國流動、符合條件的同步家屬申請一般30天；其他申請一般90天，資料不全可延長。
+- 持卡人可在主職之外自僱，但必須繼續符合藍卡條件；為另一僱主額外工作，該僱主通常需另申請 TWV 工作許可。
+- 失業求職保護：持卡未滿2年最多3個月；持卡2年或以上最多6個月，且不得超過卡本身有效期。
+- **版本衝突**：歐盟移民門戶荷蘭2025頁仍寫至少12個月聘用，IND現行官方明確6個月，應採IND。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-netherlands_en
+- 未完成：中國大陸／香港／台灣申請地MVV豁免、家屬個案文件、續期及永居全部條件，仍為部分核驗。
