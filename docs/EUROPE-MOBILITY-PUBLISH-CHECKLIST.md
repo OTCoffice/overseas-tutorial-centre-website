@@ -205,3 +205,10 @@
 - 愛爾蘭 General Employment Permit：官方2025-12-02公告2026-03-01起一般最低年薪€36,605。來源：https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
 - 愛爾蘭 Critical Skills Employment Permit：官方列至少2年聘用、合資格職業或高薪類別；無需 Labour Market Needs Test。官方政策公告與申請頁列2026門檻€40,904，惟部門另有2026 Minimum Annual Remuneration 表列€40,909，數字相差€5。應核對正式 Employment Permits Regulations 最新修訂，不可直接視為已完成薪資欄位核驗。來源：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/
 - 本輪兩國尚未完成護照適用性、費用、家屬、永居及全部例外核驗，狀態保持部分核實。
+
+## 2026-11-10 第二十五輪：芬蘭與立陶宛畢業生求職居留
+- 芬蘭 Migri「Application for students and researchers: residence permit to look for work」：申請人須已完成芬蘭學位或合資格研究，曾持學生或研究居留；如尚未找到工作，可申請求職／創業居留，最多2年，須在學生或研究居留到期後5年內申請。資金至少€800/月，申請2年示例為€19,200。來源：https://migri.fi/en/application-for-students-and-researchers-residence-permit-to-look-for-work ; https://www.suomi.fi/services/application-for-students-and-researchers-residence-permit-to-look-for-work-or-to-start-a-business-finnish-immigration-service/d24020b6-40ce-414e-bdf9-809da6248f34
+- 芬蘭 Migri 亦提示「芬蘭完成學位」可涉及特定永久居留申請途徑，但須符合持續居留及融合等法定要求；不可把「畢業」或「兩年求職簽證」說成自動永居。來源：https://migri.fi/en/application-for-students-and-researchers-residence-permit-to-look-for-work
+- 立陶宛：歐盟移民門戶及 Study in Lithuania 說明非EU畢業生可申請12個月臨時居留，用於求職或自僱；最後學年學生居留可延至畢業後3個月，部分推廣資料合稱「15個月」，但不是一張自動核發的15個月求職簽證。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-lithuania_en ; https://studyin.lt/about-lithuania/work-in-lithuania/
+- 立陶宛不同公開入口對非EU在讀生每週工作時數出現20小時與40小時的差異，不能把畢業後求職居留的工作權與在讀生工作限制混同。須以當期立陶宛 Migration Department 法規及許可類型作最終核對。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-lithuania_en ; https://workinlithuania.com/relocation-for-students/
+- 未完成：兩國各申請費、家庭成員、國籍例外、所有續簽／永居條件及立陶宛官方移民局當期法規逐欄核驗。此輪為部分核驗。
