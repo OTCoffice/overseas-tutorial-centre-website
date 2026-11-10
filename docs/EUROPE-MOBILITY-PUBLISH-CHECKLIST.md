@@ -39,3 +39,9 @@
 | 荷蘭 | Orientation Year | 合資格畢業／研究後3年內可申請一年求職居留；期間可自由工作或自僱；不得延長 | https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year |
 
 注意：德國官方不同入口有一處較低門檻數字出現 €45,943.20 與 €45,934.20 的差異；本次採用2026年德國使領館PDF及另一外交部頁面一致的 €45,934.20，申請前仍需以主管機關當期正式規則再次確認。此核驗僅涉及所列特定路線及欄位，不代表所有費用、國籍例外、永居條件或其他路線已核實。
+
+## 2026-11-10 第四輪：法國、丹麥與英國國會答覆
+- 法國 Talent – Salarié qualifié：依 CESEDA L421-9，可最長四年；需符合適用學歷、僱用及薪資門檻。Business France 2026-05-11 頁面列 €39,582（註明2025-08-31），Service-Public較舊頁面仍列 €43,243，官方口徑不一致，公開頁暫不標示固定門檻。https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042771572/2026-01-01/ ; https://welcome.businessfrance.fr/simplanter-en-france/recruter-des-talents-internationaux/visas-et-titres-de-sejour/recrutement-salaries-etrangers/talent-salarie-qualifie/
+- 丹麥 Positive List for Higher Education：必須取得當期清單職位的聘用、符合學歷與正常薪資條件；SIRI 頁面顯示費用 DKK 6,810、一般處理時間1個月（補件可能至3個月），清單職位有個別到期日。https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Positive-List-Higher-Education
+- 英國2026-11-04國會答覆：政府擬對部分高合規大學畢業生恢復2年 Graduate visa，但細節與過渡安排未定；不得當作已生效例外。https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40095
+- 上述核對仍不包括所有護照資格、個別申請費及永居年限；正式發布閘門未解除。
