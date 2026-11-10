@@ -336,3 +336,11 @@
 - 瑞典移民局2026當期EU Blue Card頁：2026-07-15起薪資SEK53,625/月，聘用至少6個月，高等教育180學分或至少5年相關經驗；官方：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html
 - 注意瑞典官方部分僱主續期頁仍誤寫「2025-07-15起SEK53,625」，但2026申請頁明確寫2026-07-15，且2026-06-01改革公告表示EU Blue Card當時薪資已是SEK53,625。日期有官網內部不一致；對外採申請頁日期並註明按當期主管機關複核。來源：https://www.migrationsverket.se/en/employers/extending-a-permit/eu-blue-cards.html ; https://www.migrationsverket.se/en/newsarchive/newrulesforworkpermitsfrom1june2026.5.4d7d222919d2a911cf74cf.html
 - 上述三條已在正式頁增加精簡可視卡片並附直接官方連結；仍不得標記所有申請資格／費用／國籍全欄完成。
+
+## 2026-11-10 第四十一輪：瑞士第三國技術工作配額及挪威技術人才薪資
+- 瑞士聯邦移民局 SEM 2025-11-19正式宣布2026年第三國（非EU/EFTA）高技能勞工年度配額8,500，其中B居留4,500、L短期4,000；英國國籍另有獨立3,500配額（B 2,100，L 1,400），不能把英國護照直接歸入8,500。來源：https://www.sem.admin.ch/en/newnsb/7HwBjdg5HpBA
+- 瑞士 SEM 工作準入官方條件：第三國一般須高技能、僱主證明已嘗試聘請瑞士／EU/EFTA合資格勞工且無合適人選、符合當地正常薪資和工作條件，並受配額及經濟利益審查。不能把「取得聘書」說成直接有工作權。來源：https://www.sem.admin.ch/sem/en/home/themen/arbeit/nicht-eu_efta-angehoerige/grundlagen_zur_arbeitsmarktzulassung.html ; https://www.sem.admin.ch/sem/en/home/overview-arbeit.html
+- 挪威 UDI 技術工作居留：通常須具體單一僱主聘用，工作一般全職但可接受至少80%，具相關職業教育、學位或相當技能；部分需專業認證。來源：https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/
+- 挪威 UDI 當期薪資：有集體協議按協議；沒有則按當地正常薪資。要求碩士的職位至少NOK 624,700/年、要求學士的職位至少NOK 545,400/年（稅前），若有充分證據證明當地同業較低薪資正常，可個別例外。不可說所有職位統一門檻。來源：https://www.udi.no/en/word-definitions/pay-and-working-conditions-in-norway
+- 挪威 UDI對部分國家發出的餐飲、汽修、建築等職業文件有特別查驗風險提示，名單包含China；此為文件審核警示，**不是中國籍全面禁止申請**。來源：https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/
+- 已把瑞士與挪威新增至官網精簡已核實卡片；護照簽證、家屬、申請費、續期與永居仍待逐欄核實。
