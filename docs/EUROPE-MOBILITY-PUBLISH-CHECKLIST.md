@@ -266,3 +266,11 @@
 - 荷蘭一般永久居留：IND 2026-05-20列一般5年連續合法居留、主居所、按時續簽、非臨時目的居留、收入、BRP登記、A2融合考試或豁免；申請費€254，審理期6個月。與EU長期居民制度的計算不同，不得混稱。官方：https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit
 - IND 官方參與國清單：丹麥及愛爾蘭**未實施**EU Blue Card；不得在這兩國頁面虛構藍卡。來源：https://ind.nl/en/participating-countries-eu-blue-card
 - 本輪已核對荷蘭藍卡國籍豁免、跨境及長期居留核心條件，但個別護照申請地、家屬收入、法律例外仍須核實，尚非全欄C/D完成。
+
+## 2026-11-10 第三十三輪：荷蘭與瑞典藍卡家屬工作權（官方交叉核驗）
+- 荷蘭 IND 配偶居留頁（本輪2026-11-10查閱）：如擔保人持 European Blue Card，配偶居留通常標示自由工作、無需另辦 TWV；但若擔保人持學生居留，配偶不得工作；持一般 GVVA 的配偶通常仍需雇主另辦 TWV。不能把所有家屬居留視為同一工作權。來源：https://ind.nl/en/residence-permits/family-and-partner/residence-permit-for-partner
+- 荷蘭 IND 藍卡頁（2026-06-15更新）確認：雇主無須 recognised sponsor，至少6個月聘用；長期流動申請可於其他參與國持藍卡至少12個月後提出；部分合資格家屬可同時申請並適用30日決定期限，須符合完整文件及程序。來源：https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit
+- 瑞典 Migrationsverket 藍卡頁：家屬可同時申請，通常包括配偶、登記伴侶、同居伴侶及18歲以下子女；核准家屬居留可與藍卡持有人相同期間，成人家屬及當年滿16歲子女可工作；擔保人須證明足夠收入負擔住房與家庭生活費，不能只看主申請人達到藍卡薪資門檻。來源：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html
+- 瑞典跨境流動：已在其他參與國持藍卡至少12個月者可向瑞典申請藍卡，須在入境後一個月內提出，申請前不可開始在瑞典工作。來源同上。
+- 歐盟官方確認愛爾蘭、丹麥未實施 EU Blue Card，不得創建這兩國的藍卡服務頁。來源：https://ind.nl/en/participating-countries-eu-blue-card
+- 本輪核實上述家屬工作權及流動規則；仍須按申請人的實際家庭關係、居留資格、個別國籍和材料核對。整體110條核驗未完成。
