@@ -212,3 +212,10 @@
 - 立陶宛：歐盟移民門戶及 Study in Lithuania 說明非EU畢業生可申請12個月臨時居留，用於求職或自僱；最後學年學生居留可延至畢業後3個月，部分推廣資料合稱「15個月」，但不是一張自動核發的15個月求職簽證。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-lithuania_en ; https://studyin.lt/about-lithuania/work-in-lithuania/
 - 立陶宛不同公開入口對非EU在讀生每週工作時數出現20小時與40小時的差異，不能把畢業後求職居留的工作權與在讀生工作限制混同。須以當期立陶宛 Migration Department 法規及許可類型作最終核對。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-lithuania_en ; https://workinlithuania.com/relocation-for-students/
 - 未完成：兩國各申請費、家庭成員、國籍例外、所有續簽／永居條件及立陶宛官方移民局當期法規逐欄核驗。此輪為部分核驗。
+
+## 2026-11-10 第二十六輪：法國、德國畢業後求職居留
+- 法國「recherche d'emploi ou création d'entreprise」（RECE）：法國 Service-Public 2026-05-21更新的官方說明，適用在法國取得至少碩士級別或指定職業學士文憑的非歐盟畢業生，以及符合條件的研究人員；居留許可有效12個月且不能續期。期間可從事與學業或研究相關的受僱工作或創業，工作需符合規定薪資門檻；取得合適工作後可轉換相應工作居留。官方：https://www.service-public.fr/particuliers/vosdroits/F17319
+- 法國 RECE 官方另列：畢業生若已離法，可在畢業後4年內由境外申請相應長期簽證；在法國申請需符合原學生／研究居留與學位要求。上述不是所有法國本科畢業生均可直接申請。來源同上。
+- 德國：德國官方 Make it in Germany 明確列在德國完成高等教育的非EU畢業生可申請最長18個月的求職居留，期間可從事任何類型工作；需證明生活費及其他居留要求。獲聘後可轉換合資格工作居留／EU Blue Card。官方：https://www.make-it-in-germany.com/en/study-vocational-training/studies-in-germany/prospects-after
+- 德國2026年國外畢業生的機會卡與德國境內畢業生18個月求職居留是兩種不同制度，不得合併描述；18個月求職居留不代表自動獲得EU Blue Card或永居。
+- 尚未完成：兩國當期申請費、法國工資門檻具體數值、家屬、個別護照和領事館管轄、全部永居規則。僅完成上述官方條件的部分核驗。
