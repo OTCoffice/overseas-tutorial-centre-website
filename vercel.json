@@ -76,5 +76,15 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/zh/services/europe-mobility-pathways",
+      "destination": "/zh/services/europe-mobility-pathways/index.html"
+    },
+    {
+      "source": "/zh/services/europe-mobility-pathways/",
+      "destination": "/zh/services/europe-mobility-pathways/index.html"
+    }
   ]
 }
