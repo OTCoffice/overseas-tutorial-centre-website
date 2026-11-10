@@ -225,3 +225,10 @@
 - RECE 工作權並非完全無限制：受僱職位須與學業／研究相關，且稅前月薪**高於** €2,800.53；符合條件時雇主無須另申請工作許可，不受學生964小時上限。該頁明示阿爾及利亞學生不適用此卡；其他國籍仍須按雙邊協定及居留身分核對。法國境內申請通常應在學生居留到期前2個月內提交；已離法畢業生可在取得合資格學位後4年內申請相應 VLS-TS。來源同上。
 - 德國官方 Bundesportal：在德國完成學業後求職居留最多18個月，不能超過此最長期間續簽；期間可從事任何有報酬工作，並須有生活費及醫療保險。地方服務頁示例收費 €98，**屬地區頁面數字，不可作為全德統一收費**。https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99010020001019/herausgeber/RP-246323131/region/070000000000 ; https://www.make-it-in-germany.com/en/staying-in-germany-after-studies
 - 資料品質修正：前輪法國RECE若僅稱「可工作」而未列與學業相關及薪資條件，可能誤導；公開頁應補上。上述兩路線仍未全欄C/D核驗，家屬、永久居留及大陸／香港／台灣個案適用性未完成。
+
+## 2026-11-10 第二十八輪：西班牙與葡萄牙畢業後求職（當期主管機關原文）
+- 西班牙「autorización de residencia para búsqueda de empleo o inicio de proyecto empresarial」：西班牙移民部 Hoja 20（2025-09更新）明確合資格前提是持長期學生停留許可，於獲認可高等教育機構完成至少EQF 6學位；須有有效保險、足夠資金及合法居留。可在學生許可到期前60日或到期後90日內提交 EX-26；一般20日決定期限。有效24個月、**不可續期，且在此求職居留期間不允許工作**。找到工作後須另申請適用工作居留；此前已陪同學生的家屬可按條件繼續，但不授權家屬工作。資金本人100% IPREM（全期預付住宿可50%），首名家屬75%、其後每名50%。官方：https://inclusion.gob.es/en/web/migraciones/w/20.-autorizacion-de-residencia-para-busqueda-de-empleo-o-inicio-de-proyecto-empresarial
+- 西班牙 EU Immigration Portal 學生頁仍寫畢業後求職居留12個月，與西班牙主管機關目前24個月明顯衝突；優先採用主管機關及現行法律。https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-spain_en
+- 葡萄牙 AIMA Art.122(1)(p)：先前持葡萄牙第2或3周期高等教育（碩士、博士）或研究居留，完成學業／研究後，可申請最多**一年**求職或創業過渡期，須與學歷相容；官方列有效護照、住址、生活費證明、犯罪紀錄及完成學業證明。**不應把此條直接擴大到所有本科畢業生**，其申請路徑應另外核對。官方：https://aima.gov.pt/pt/trabalhar/tendo-beneficiado-de-ar-para-estudantes-do-2-o-ou-3-o-ciclos-do-ensino-superior-ou-de-ar-para-investigacao-e-concluido-os-estudo
+- 葡萄牙 AIMA Art.91 當期高等教育學生居留一般有效3年（課程不足3年者依課程期間），學生可在不影響學業下從事受僱或自僱工作；EU Portal 舊頁仍列1年並指向已撤銷的SEF，屬過時來源。官方：https://aima.gov.pt/pt/estudar/autorizacao-de-residencia-emitida-a-estudantes-do-ensino-superior-art-o-91
+- 未核：兩國完整收費、護照及使館管轄、個案家屬與永居、葡萄牙本科畢業後替代路線；上述路線仍為部分核實。
