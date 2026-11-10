@@ -199,3 +199,9 @@
 - 佛蘭德官方列須有至少3年或相當級別的受認可高等教育資格，私人機構非認可證書不適用；合資格工資須可在聘用開始時確定，浮動獎金及費用津貼不一定計入；僱主提交single permit，工作及居留均獲准才可使用。https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/highly-skilled
 - 2026年區域薪資**次級交叉來源**：布魯塞爾高技能€3,703.44/月、Blue Card €4,748/月；瓦隆高技能€53,220/年、Blue Card €68,815/年（符合條件的較新畢業生€55,052）；佛蘭德高技能€48,912/年、Blue Card €63,586/年。此組數字由2026-01 KPMG/EY專業通報交叉支持，但**尚未逐一從三區正式公告確認，因此只能列待官方終核**。https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/01/fa26-018.pdf.coredownload.pdf
 - 待核：盧森堡官方薪資筆誤、比利時三區薪資正式公告、申請費、家屬、護照及使館管轄、續期與永居。兩條維持部分核實。
+
+## 2026-11-10 第二十四輪：奧地利 RWR Card 與愛爾蘭 Employment Permits
+- 奧地利 Red-White-Red Card，Skilled Workers in Shortage Occupations：政府官方門戶確認至少55積分、完成相應緊缺職業培訓、具正式聘用與法定／集體協議工資；通常核發24個月。於過去24個月符合資格受僱至少21個月者，可申請 RWR Card Plus，取得不受單一僱主限制的勞動市場准入；並非自動取得永居。來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/ （2026-11-10查閱）。注意頁面緊缺職業清單部分仍標2025，2026個別職業須查當年規章。
+- 愛爾蘭 General Employment Permit：官方2025-12-02公告2026-03-01起一般最低年薪€36,605。來源：https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
+- 愛爾蘭 Critical Skills Employment Permit：官方列至少2年聘用、合資格職業或高薪類別；無需 Labour Market Needs Test。官方政策公告與申請頁列2026門檻€40,904，惟部門另有2026 Minimum Annual Remuneration 表列€40,909，數字相差€5。應核對正式 Employment Permits Regulations 最新修訂，不可直接視為已完成薪資欄位核驗。來源：https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/economic-migration-policy/minimum-annual-remuneration/
+- 本輪兩國尚未完成護照適用性、費用、家屬、永居及全部例外核驗，狀態保持部分核實。
