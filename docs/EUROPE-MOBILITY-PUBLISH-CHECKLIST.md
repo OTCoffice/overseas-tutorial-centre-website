@@ -97,3 +97,21 @@
 - 捷克 Digital Nomad Programme：2026捷克工業與貿易部適用國籍清單列台灣，未列中國大陸或香港；適用高技能IT及行銷遠距工作者等特定類別。這是特定政府加速計劃，不等於所有捷克長期居留類別。官方：https://mpo.gov.cz/en/foreign-trade/economic-migration/economic-migration-and-government-programs--239491/ 。注意部分舊使館頁名單未更新，以當期主管部門版本優先。
 - 拉脫維亞 Remote Work Long-Stay Visa：2026-06-15官方更新，首次1年；須OECD國家註冊的僱主或自僱業務、員工需證明至少6個月聘用，收入門檻€4,538/月，保險責任額至少€42,600；不得在拉脫維亞本地受僱。中國大陸僱主非OECD成員國註冊者不符合該僱主條件，但申請人國籍與僱主所在地應分開判斷。官方：https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work 。
 - 本輪核驗僅涵蓋官方頁明示的條件，申請費、家屬、續簽、永居、香港/台灣特殊文件等仍待核對。
+
+## 2026-11-10 即時批次：六條新增官方核驗（部分欄位，非整條全量完成）
+
+| 路線 | 2026年官方證據與適用限制 | 未核實欄位 |
+|---|---|---|
+| 匈牙利 White Card | OIF 官方：境外僱主或境外盈利公司遠距工作，前6個月及居留期間每月淨收入≥€3,000；首年最多1年，只可續1次；不得在匈牙利本地受僱或持當地公司股權；通常不能藉持卡人申請家庭團聚；White Card 不能申請 national residence card，且不能在境內轉其他居留目的。來源：https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads | 申請地別費用、護照及個案例外 |
+| 西班牙 Telework/Digital Nomad Visa | 西班牙駐美使館2026年資料：本人200% SMI = €2,442/月；首名家屬+75% SMI（約€916），其後每名+25%；通常須與西班牙境外企業有至少3個月職業關係、關係預期持續至少1年。來源：https://www.exteriores.gob.es/Consulados/washington/en/ServiciosConsulares/Paginas/Consular/Telework-Visa.aspx | 申請地費用、社保協定、工作比例、永居及護照細節 |
+| 葡萄牙遠距工作 D8 | 葡萄牙政府：前3個月平均月收入至少4倍最低工資；2026最低工資€920，推算門檻€3,680/月；AIMA指持有效居留簽證後取得遠距工作居留卡首次2年、可續3年。來源：https://www2.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples ; https://www.dgert.gov.pt/retribuicao-minima-mensal-garantida-para-2026 ; https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe | D8具體申請地、家屬、續簽材料及永居 |
+| 英國 Skilled Worker | GOV.UK現行一般薪資門檻：£41,700或該職位going rate，以較高者為準；有合資格職位及獲批擔保僱主；特定新入職、博士、醫療教育等例外；現行 Appendix Skilled Worker SW21.1仍列5年定居期，Earned Settlement改革公告不可替代尚未修訂的正式規則；2027-03-26起部分定居申請英語B2。來源：https://www.gov.uk/skilled-worker-visa/your-job ; https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker | 職業碼、各種例外、家屬、個案工資及改革過渡 |
+| 英國 Global Talent | 現行 Appendix GT：認可背書或合資格獎項；每次可申請最長5年，允許工作及自僱；定居通常依背書類型3或5年；2027-03-26起定居英語B2（豁免除外）。費用£766（背書£561+簽證£205，或獎項直接£766），另有IHS。來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-global-talent ; https://www.gov.uk/global-talent | 各背書領域具體證據、家屬費用及改革過渡 |
+| 英國 HPI | Appendix HPI：學位授予前5年內、授予當年的Global Universities List、Ecctis、英語B2、通常£1,270資金（在英持有效許可≥12月有例外）；8,000份/年上限；一般2年/博士3年，不能續，非直接定居；官方2026-10費表簽證費£880。來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual ; https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026 | Ecctis服務費、護照／申請地文件及個案限制 |
+
+### 重要數據品質處理
+- 匈牙利 White Card 不能當成「可帶家屬、可轉永居」路線；其通常不允許家庭團聚、不能申請 national residence card。
+- 西班牙2026年200% SMI為€2,442，不應沿用2025年€2,368。
+- 葡萄牙D8 2026年4倍最低工資=€3,680；須標明是由兩份官方資料計算而非直接照抄舊的固定門檻。
+- 英國 Skilled Worker現行5年定居條款與2026年11月2日政府10年改革公告應分欄顯示，不能以新聞稿覆蓋正式規則。
+- 上述六條只完成所列官方欄位，**沒有**完成110條全欄核驗。發佈閘門仍維持關閉。
