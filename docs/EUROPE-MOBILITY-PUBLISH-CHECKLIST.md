@@ -232,3 +232,11 @@
 - 葡萄牙 AIMA Art.122(1)(p)：先前持葡萄牙第2或3周期高等教育（碩士、博士）或研究居留，完成學業／研究後，可申請最多**一年**求職或創業過渡期，須與學歷相容；官方列有效護照、住址、生活費證明、犯罪紀錄及完成學業證明。**不應把此條直接擴大到所有本科畢業生**，其申請路徑應另外核對。官方：https://aima.gov.pt/pt/trabalhar/tendo-beneficiado-de-ar-para-estudantes-do-2-o-ou-3-o-ciclos-do-ensino-superior-ou-de-ar-para-investigacao-e-concluido-os-estudo
 - 葡萄牙 AIMA Art.91 當期高等教育學生居留一般有效3年（課程不足3年者依課程期間），學生可在不影響學業下從事受僱或自僱工作；EU Portal 舊頁仍列1年並指向已撤銷的SEF，屬過時來源。官方：https://aima.gov.pt/pt/estudar/autorizacao-de-residencia-emitida-a-estudantes-do-ensino-superior-art-o-91
 - 未核：兩國完整收費、護照及使館管轄、個案家屬與永居、葡萄牙本科畢業後替代路線；上述路線仍為部分核實。
+
+## 2026-11-10 第二十九輪：拉脫維亞、愛沙尼亞 EU Blue Card 正式法規對照
+- 拉脫維亞 PMLP 2026-03-16 更新的2026-04-01起資金標準：EU Blue Card 一般薪資門檻 €2,723/月（前一年全國平均稅前薪資1.5倍）。須注意特定緊缺職業可適用1.2倍，需另查當期職業清單及實際金額。官方：https://www.pmlp.gov.lv/en/necessary-subsistence-0
+- 拉脫維亞2026年《移民法》正式公報文本：EU Blue Card 居留一般為2年；合約較短時，居留可為合約期加3個月但不超過2年。部分 Blue Card 跨境流動及失業後保留資格有專門條件，不能把「失業即取消」當成所有情況的現行規則。來源：https://www.vestnesis.lv/op/2026/167.1
+- 拉脫維亞 Integration and Inclusion Agency 的英語 Blue Card 頁仍列最長5年，與2026正式法律的2年規定存在明顯差異；正式發布前必須以現行法規及PMLP當期實務為準。來源：https://livelatvia.lv/living-in-latvia/work/european-union-blue-card/
+- 愛沙尼亞《外國人法》2026年正式英文法規 §190⁶：合資格高技能聘用合約或具法律約束力的聘用承諾至少6個月；§190⁷：一般薪資至少 Statistics Estonia 最近公布平均稅前月薪1.5倍，特定高技能職業可用1.24倍。來源：https://www.riigiteataja.ee/public-api/api/v1/en/akt/501092026001/blob-html
+- 歐盟移民門戶愛沙尼亞頁所列€2,748/月是2024門檻，不可當成2026現行數字；英國GOV.UK舊頁所列「至少1年合約」亦與2024修法後愛沙尼亞正式法律的6個月不符。來源：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-estonia_en ; https://www.gov.uk/guidance/travel-to-estonia-for-work
+- 本輪僅核實上述官方條款，兩國完整申請費、家屬、護照差異、2026愛沙尼亞實際工資門檻及永居仍未逐欄核實，故保持部分核驗。
