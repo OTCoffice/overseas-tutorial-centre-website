@@ -344,3 +344,53 @@
 - 挪威 UDI 當期薪資：有集體協議按協議；沒有則按當地正常薪資。要求碩士的職位至少NOK 624,700/年、要求學士的職位至少NOK 545,400/年（稅前），若有充分證據證明當地同業較低薪資正常，可個別例外。不可說所有職位統一門檻。來源：https://www.udi.no/en/word-definitions/pay-and-working-conditions-in-norway
 - 挪威 UDI對部分國家發出的餐飲、汽修、建築等職業文件有特別查驗風險提示，名單包含China；此為文件審核警示，**不是中國籍全面禁止申請**。來源：https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/
 - 已把瑞士與挪威新增至官網精簡已核實卡片；護照簽證、家屬、申請費、續期與永居仍待逐欄核實。
+
+## 2026-11-11 第四十二輪：110條索引建立，三條此前未核對的RUN補充路線官方初核
+
+**版本控制／發布安全警示：** 2026-11-11讀取GitHub發現 PR #107 已於2026-11-10 10:07:36 UTC合併至main（PR狀態為closed/merged），而且此前main已部署過公開36國索引。因此不能把PR #107仍未合併視為事實，也不能稱本輪「尚未發布」。依最新使用者指示，本輪改在獨立審核分支 `audit/europe-mobility-110-official-checks` 保存證據，**不修改main、不合併、不另行發布**。日後需另行評估既有公開頁是否應繼續展示或降級為未核實目錄。PR: https://github.com/OTCoffice/overseas-tutorial-centre-website/pull/107
+
+**原始範圍（2026-11-11從原始JSON直接讀取）：** `BryceYuuu/RUN/data/programmes.json` 共99筆、36國，當中原來源標示open 94、closed 5；`src/extra_routes.json` 共11筆，合計110筆。原來源的 `status` 只是RUN欄位，**不是主管機關的現況結論**。99筆原始資料在原來源標作closed的ID：`cyprus-investment-programme`、`ireland-immigrant-investor-programme`、`montenegro-citizenship-by-investment`、`spain-golden-visa`、`uk-tier-1-investor-visa`，**各自仍需政府再查核**。新增 `docs/europe-mobility-110-route-audit.csv`，110個唯一ID各一列；本輪新增三條B級部分官方核實，**C/D級「全欄完成」尚無可確認個案，不得報110條已完成**。來源：https://github.com/BryceYuuu/RUN/blob/main/data/programmes.json ; https://github.com/BryceYuuu/RUN/blob/main/src/extra_routes.json （取得日期2026-11-11）。
+
+### 42-A 西班牙 `spain-non-lucrative-visa` — 現行（已核實主要條件；其餘未確認）
+
+- **國籍**：官方Hoja 6以非EU／EEA／瑞士公民為基本範圍；中國大陸、香港特區及台灣護照持有人的*一般第三國規則*可作為初篩，但三類護照的正式適用性、入境簽證地點、翻譯認證與領區個別申請指示**分別待核，不可標「三地完全通過」**。
+- **資格及資金**：居住西班牙、不從事工作或專業活動；本人每月資金400% IPREM、每位家屬加100% IPREM；須當地認可醫保、無犯罪紀錄及其他法定條件。用於比較的2026年€600 IPREM估算為本人€2,400/月、每名家屬+€600/月；最終仍須以遞交年度IPREM及所屬領館材料為準。遠距受僱亦不能自行假定獲許可。
+- **費用**：初次居留審理費 Modelo 790-052 2.1.1，續期 Modelo 790-052 2.2.1；簽證費、製卡費及所屬領館幣別/減免**未核**，不提供單一固定申請總費用。
+- **期限／工作權／家屬**：首次通常1年，完全**不授予工作權**；可與符合條件家屬一併申請，但家屬具體證明及其工作權須核實。
+- **續期／永居**：續期一般2年；須維持經濟能力、保險等且續期指引要求一年內在西班牙實際居住超過183天（核對適用計算期）。長期居留為另行申請制度，一般連續合法居留5年及缺席限制，**不是NLV自動轉永居**。
+- **生效／來源**：Hoja 6／7最後更新2025-05，以Royal Decree 1155/2024 Articles 60–64為法規依據；本輪查核2026-11-11。
+  1. 西班牙移民部初次：https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-no-lucrativa
+  2. 西班牙移民部續期：https://www.inclusion.gob.es/web/migraciones/w/renovacion-de-la-autorizacion-de-residencia-temporal-no-lucrativa
+  3. 西班牙移民部長期居留：https://ciudadaniaexterior.inclusion.gob.es/en/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional
+- **待補**：三地領館國籍細節、最新IPREM、費用全額、家屬工作權、續期居住計算、另申請長居的個案細節。核驗級別：**B（部分欄位）**。
+
+### 42-B 愛沙尼亞 `estonia-startup-visa` — 現行（D簽證核心條件已核；居留許可未核完）
+
+- **國籍**：創業者官方計劃面向非EU創業者；三地護照在**短期入境**有明顯不同：香港特區護照及有身分證號的台灣護照在指定條件下可短期90/180天免簽；中國大陸普通護照不在該短期一般免簽清單。**短期免簽不代表免D簽證或已可在愛沙尼亞長住／工作**。三地創辦人領事館D簽證與居留材料仍需分別核查。
+- **資格／審查**：Startup Committee依科技、創新、可規模化及全球成長模式審核，預計10個工作日出具startup code；傳統單純餐飲／常規顧問生意不自動合格。先取得核准碼，再按需辦D簽證或創業居留；e-Residency不是簽證或實體居留權。
+- **資金與費用：重要更正**。愛沙尼亞外交部當期D簽證表：`Start-up business`創辦人 **€880／月**，配偶 **€704／月**；普通長期D簽證費 **€120**（6–11歲 €60）；不要照抄Startup Estonia較舊頁面的€800/月、€80或€100等不同舊費。D簽證表上`Short term employment in Start-up company`的€880是**一次性**，不可誤套為創辦人`Start-up business`月額。創業委員會審查不另收費（Startup Estonia說明）。
+- **期限／工作權**：外交部D簽證最多12個月內居住365天；連續D簽證總居留上限730天內548天；創辦與一般雇主工作不同，合法工作可能需相關登記或其他許可，**不可宣傳為任意雇主開放工作**。
+- **家屬／續期／永居**：官方創業計劃一般可安排配偶、未成年子女等合規家屬，但不同許可的家屬流程須逐案核對；D簽證延長條件、創業暫住證初次及續期費用、創業居留有效期及長期居留計算**尚未由當期主管機關逐欄完成**，不能把RUN「2+3年」當保證或直接永居。
+- **生效／來源**：外交部2026-11-11即時查閱的當期D簽證頁；Startup Estonia頁顯示約2023年既有內容，數字存在過時風險。
+  1. MFA D簽及2026財力/費用：https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
+  2. MFA按護照短期免簽：https://vm.ee/en/consular-visa-and-travel-information/visa-information/who-does-not-need-visa-visit-estonia
+  3. Startup Estonia 創辦人流程（非主管機關的當期費率優先來源）：https://startupestonia.ee/startup-visa/foreign-founder/
+- **待補**：三地領館D簽證完整申請方式；TRP現行國家規費、家屬、工作登記、續期、長居法律；核驗級別：**B（部分欄位）**。
+
+### 42-C 馬耳他 `malta-global-residence-programme` — 現行稅務制度（「移民／永居路線」分類需糾正）
+
+- **路線性質／國籍**：MTCA官方明確GRP是非EU/EEA/瑞士且不是長期居民人士的**特別稅務待遇**；三地一般屬非EU類別，但中國大陸、香港、台灣個別護照、資金、移民居留卡及領事入境身份均**未完成**獨立確認。
+- **資格／財力**：需有足額固定資源、合格房產、保險，透過持牌 Authorised Registered Mandatory 提交；MTCA目前仍掛載**2020年版**官方指南（Version 2.0）：買房一般€275,000、南部／戈佐€220,000；租房一般€9,600/年、南部／戈佐€8,750/年，租約至少12個月。**以上均屬官網現有歷史指南數值，尚未以2026有效法規逐一確認，切勿宣稱當期固定門檻。**
+- **行政費／稅**：2020指南行政費一般€6,000；只有**南部馬耳他符合資格「已購置」房產且申請時已完成購買**，才可按該指南使用€5,500減額，不適用所有Gozo租房／南部租房。符合課稅條件的匯入海外來源收入按15%及每年最低稅€15,000（仍須審核最新法規及其他所得之稅率）。來源屬舊指南，不應直接標2026法規已核實數值。
+- **期限／工作／家屬／永居**：GRP批予的是特別稅務身份，**不是單憑參與就獲工作許可、移民永居或自動家庭居留權**；工作需另符合工作許可，居留身分、家屬實際居留許可、稅務續享條件及年限另查主管機關。不得與MPRP混同。
+- **生效／來源**：MTCA目前GRP專頁及其連結的 **2020 Version 2.0** 舊指南，於2026-11-11查核；2026適用法律文本、生效日期與修訂歷史未完成對照。
+  1. MTCA GRP現行專頁：https://mtca.gov.mt/personal-tax/individual/special-schemes/global-residence-programme-rules
+  2. MTCA專門計劃性質：https://mtca.gov.mt/personal-tax/individual/special-schemes
+  3. MTCA舊版官方PDF（2020，需按當期法規覆核）：https://mtca.gov.mt/docs/default-source/documents/personal-tax/individual/special-schemes/the-global-residence-programme/guidelines-grp.pdf
+- **待補**：現行法規及核准費率、三地護照適用／居留卡、年費稅務合規及個案工作權。**類別標「稅務計劃，不等於移民或永居」；級別B僅限稅務類型／舊官方指南，移民路線C級未完成。**
+
+### 發布閘門及進度（截至2026-11-11）
+- 索引：已直接載入來源99+11共**110**個原始路線記錄；原始來源36國、RUN標示closed 5筆（**尚未政府驗證關閉狀態**）；原來源open 94+額外11，**不代表政府確認可新申請**。
+- 本輪三條從`未政府核實`推進為`政府部分欄位已核`；**尚未完成三地護照／費用／家屬／續簽／永居全欄任何一條**，不宣稱有C/D全欄完成。
+- 尚未完成：110條每條C/D級官方驗證；逐國可用政府鏈接、法律生效日、閉路狀態；每國頁面／手機排版／導航／SEO／可訪問性及production客觀測試。
+- **本輪嚴格只變更GitHub審核分支，不做合併、官網正式發布或部署。** 實際PR #107此前已合併及公開，需人工確認後續處理，不得假定其「未合併」。
