@@ -1,6 +1,6 @@
 # 歐洲36國移居資料庫：發布核驗清單
 
-更新：2026-11-11
+更新：2026-11-12
 
 ## 已完成
 - [x] 建立36國總目錄，附公共機構／政府入口。
@@ -394,3 +394,44 @@
 - 本輪三條從`未政府核實`推進為`政府部分欄位已核`；**尚未完成三地護照／費用／家屬／續簽／永居全欄任何一條**，不宣稱有C/D全欄完成。
 - 尚未完成：110條每條C/D級官方驗證；逐國可用政府鏈接、法律生效日、閉路狀態；每國頁面／手機排版／導航／SEO／可訪問性及production客觀測試。
 - **本輪嚴格只變更GitHub審核分支，不做合併、官網正式發布或部署。** 實際PR #107此前已合併及公開，需人工確認後續處理，不得假定其「未合併」。
+
+## 2026-11-12 第四十三輪：官方驗證三項已關閉投資路線
+
+**研究範圍**：再次讀取 GitHub PR #107（2026-11-10已合併）、draft PR #108、本清單，以及 BryceYuuu/RUN 的 data/programmes.json（99）及 src/extra_routes.json（11）；與現行官方來源逐條比對。本輪驗證的是「首次／新投資申請關閉」及明列的舊案過渡條款，非11項條件C/D全欄完成。政府網址查核日：2026-11-12。
+
+### 1. 西班牙 Spain Golden Visa — spain-golden-visa
+- **當前狀態／生效日**：官方確認「已關閉新申請」；Ley 14/2013第63–67條自2025-04-03失去內容，含房產及其他投資類型。不能只說「停止房產投資」。
+- **中國大陸／香港／台灣**：三地護照均無新申請途徑；為全路線關閉，並非針對個別國籍的禁令。西班牙駐北京領館2025-03-13公告BLS收件自2025-03-21停辦，這是當地收件日，與法律2025-04-03生效日不同。
+- **資格／薪資資金／費用**：新案均不適用。歷史€500,000房產投資不是2026仍開放的門檻；舊案的當期費率、文件及資金來源仍待查。
+- **期限／工作權**：新案均不適用。舊有效簽證仍維持原有效期；舊案工作權須按簽發時批准條件查核。
+- **家屬**：2025-04-03前已提交的投資人或家屬申請按當時法規處理，仍須實際審理，不保證核發。
+- **續簽**：對2025-04-03仍有效的既有房產投資許可，過渡條款按首次核發時規則處理續簽；不應延伸為所有投資或新家屬無條件可續。
+- **永居**：並非投資許可即自動永居；舊案實際居留、稅務及申請條件尚未逐欄核實。
+- **政府證據**：BOE整合法規（第63–67條、生效日期）https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074&p=20250409&tn=1 ；西班牙移民部UGE過渡規則 https://ciudadaniaexterior.inclusion.gob.es/web/unidadgrandesempresas/inversores ；2025-04-02政府公告 https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020425-fin-golden-visa.aspx ；北京領館通告 https://www.exteriores.gob.es/Consulados/pekin/es/Comunicacion/Noticias/Paginas/Articulos/Eliminaci%C3%B3n-de-la-%E2%80%9CGolden-Visa%E2%80%9D--%E5%8F%96%E6%B6%88%E6%8A%95%E8%B5%84%E7%A7%BB%E6%B0%91%E2%80%9C%E9%BB%84%E9%87%91%E7%AD%BE%E8%AF%81%E2%80%9D.aspx
+
+### 2. 愛爾蘭 Immigrant Investor Programme — ireland-immigrant-investor-programme
+- **當前狀態／生效日**：司法部2023-02-14公告，從2023-02-15營業結束起關閉一般新IIP申請；不是2026仍開放的方案。
+- **中國大陸／香港／台灣**：三地新申請均不適用，原因是全計劃停止新案；舊制的非EEA身分適用不等於今日能新申請。
+- **資格／薪資資金**：2023關閉公告記載歷史淨資產至少€2m及通常投資€1m至少3年、捐贈€500k（特定合計€400k）。**這些是舊制歷史數字，不能當2026新客申請條件**。
+- **費用**：新案不適用；舊案當期手續費、稅務及許可費未核。
+- **期限／工作權／家屬**：舊批核及2023關閉時待審案件可依法繼續處理；許可類別、家庭成員、工作權需依個案另查，不作自動永居承諾。
+- **續簽／永居**：舊案維持居留義務、轉永居或入籍條件未完整核實。
+- **過渡**：官網關閉公告提及少數既發展項目／部分基金的3個月善後安排；這不是2026新申請窗口。
+- **政府證據**：司法部／移民局2023-02-14關閉公告 https://www.irishimmigration.ie/minister-harris-announces-closure-of-the-immigrant-investor-programme/ ；既有案件善後 https://www.irishimmigration.ie/processing-of-iip-applications-on-hand-following-the-closure-of-the-programme/
+
+### 3. 英國 Tier 1 (Investor) — uk-tier-1-investor-visa
+- **當前狀態／生效日**：2022-02-17英國時間16:00起停止所有國籍首次申請及其他簽證轉入，官方2026頁面仍列「You can no longer apply for a new Tier 1 (Investor) visa」。
+- **中國大陸／香港／台灣**：三地均不能首次申請，乃全類別關閉，不是護照個別限制。
+- **資格／薪資資金**：新案不適用；舊案投資£2m/£5m/£10m及工作條件依起初核發日期、規則及個案。不可當作2026新投資移民門檻。
+- **費用**：新案不適用；舊案ILR或家屬當期費用須另依Home Office費表查核。
+- **期限／工作權**：既有有效持有人依原條件可受僱，但不得當職業運動員／教練，醫牙科訓練職位亦可能受限制；不得領取公共福利。
+- **家屬**：依現行附屬規則，舊持有人伴侶及受撫養子女在符合要求下可以申請；並非自動批准。
+- **續簽**：2025-11-11更新的Home Office caseworker guidance第1節明確要求既有Investor entry clearance或leave to remain申請在2026-02-17前提交；截至2026-11-12已過期。GOV.UK目前路線總覽僅列舊持有人的ILR及家屬，**不應沿用2022舊指南誤稱現可續簽**。
+- **永居／期限**：舊制符合資格者按2/3/5年條件個別審理；caseworker guidance列既有Investor ILR必須在2028-02-17前提交。法律變更與實際資格需按個案再次查核。
+- **政府證據**：GOV.UK當期總覽 https://www.gov.uk/tier-1-investor ；Home Office 2025-11-11更新審案指引（第1、3、39–41節）https://www.gov.uk/government/publications/tier-1-investor-caseworker-guidance/tier-1-investor-caseworker-guidance-accessible ；2022關閉公告 https://www.gov.uk/government/news/tier-1-investor-visa-route-closes-over-security-concerns ；2022年正式規則CP632說明 https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-cp-632-17-february-2022/explanatory-memorandum-to-the-statement-of-changes-in-immigration-rules-cp-632-accessible-version
+
+### 本輪CSV、進度及後續
+- 本輪修改三筆原標RUN-closed記錄，狀態改為 **officially_closed_to_new_legacy_...**，核驗級別記 **closure_officially_verified_legacy_fields_pending**，核對日2026-11-12，並存入每筆官方URL。未把這三條標成11欄全量驗證。
+- 110路線總索引完整；CSV明確列 **3條新案關閉有官方證據、3條B級部分欄位核實、2條仍只有RUN原標closed待政府核實、102條尚未在CSV更新官方逐條核驗狀態**。Markdown此前其他政策段落有部分核對，不等於該路線整條已驗證。**全部欄位達C/D級：0/110**。
+- 待查：Cyprus Investment Programme、Montenegro Citizenship by Investment 兩條政府關閉狀態（特別避免混淆黑山2026投資「居留」與已終止的投資「入籍」）；上述三條舊案細節（費用、護照地別文件、家屬與續居）；其餘未核驗路線的資格、資金、工作權、永居與生效日期。
+- **發佈閘門仍關閉。** PR #107已於2026-11-10合併，不能回頭以其已合併分支作工作流；本輪只在 draft PR #108 分支新增核對證據，未更新main、未合併、未部署。
