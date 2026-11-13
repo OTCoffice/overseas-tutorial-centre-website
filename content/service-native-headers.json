@@ -559,12 +559,14 @@
   },
   "/zh/language-school-alliance/south-korea/": {
     "title": "韓國語學院",
-    "image": "/assets/social/native-south-korea-language-schools-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 288,
+    "image": "/assets/social/south-korea-language-schools-share-20261113.png",
+    "version": "v=20261113-share",
+    "width": 1200,
+    "height": 600,
     "file": "zh/language-school-alliance/south-korea/index.html",
-    "previousImage": "/assets/language-south-korea-20260930.png"
+    "previousImage": "/assets/language-south-korea-20260930.png",
+    "shareLayout": "safe-landscape",
+    "cardType": "summary_large_image"
   },
   "/zh/volunteer-alliance/": {
     "title": "志工聯盟｜海外督導 OTC",
