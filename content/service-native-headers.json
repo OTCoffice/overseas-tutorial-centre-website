@@ -398,14 +398,13 @@
   },
   "/zh/services/travel-planning/": {
     "title": "旅遊規劃",
-    "image": "/assets/social/travel-planning-compact-link-20261030-v2.png",
-    "version": "v=20261030-compact2",
-    "width": 1080,
-    "height": 1080,
+    "image": "/assets/social/travel-planning-share-safe-20261114-v1.png",
+    "version": "v=20261114-safe1",
+    "width": 1200,
+    "height": 600,
     "file": "zh/services/travel-planning/index.html",
-    "previousImage": "/assets/social/travel-planning-20261003.png",
-    "cardType": "summary",
-    "shareLayout": "compact-square"
+    "previousImage": "/assets/social/travel-planning-compact-link-20261030-v2.png",
+    "cardType": "summary_large_image"
   },
   "/zh/services/travel-services/": {
     "title": "旅行服務",
