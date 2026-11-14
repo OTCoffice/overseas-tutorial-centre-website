@@ -27,13 +27,13 @@ for slug, title, subtitle, panel, details in (
     text(60, 231, title, 67, "#ffffff")
     text(63, 322, subtitle, 29, "#f4d78c")
     text(64, 401, "overseasuk.com", 23, "#ffffff")
-    draw.rectangle((748, 159, 1140, 444), fill=cream)
-    draw.rectangle((748, 159, 1140, 165), fill=gold)
-    text(778, 188, panel, 36, navy)
+    draw.rectangle((650, 159, 984, 444), fill=cream)
+    draw.rectangle((650, 159, 984, 165), fill=gold)
+    text(678, 188, panel, 36, navy)
     for i, detail in enumerate(details):
         y = 254 + i * 54
-        draw.line((779, y - 10, 1109, y - 10), fill="#d9ceba", width=1)
-        draw.rectangle((779, y + 5, 784, y + 26), fill=(gold, "#557e77", red)[i])
-        text(800, y, detail, 25, navy)
+        draw.line((679, y - 10, 952, y - 10), fill="#d9ceba", width=1)
+        draw.rectangle((679, y + 5, 684, y + 26), fill=(gold, "#557e77", red)[i])
+        text(700, y, detail, 25, navy)
 
-    canvas.save(root / f"{slug}-share-20261114-v1.png", optimize=True)
+    canvas.save(root / f"{slug}-share-20261114-v2.png", optimize=True)
