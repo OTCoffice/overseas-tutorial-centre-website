@@ -1114,7 +1114,7 @@
     "home": "https://www.asu.edu/",
     "undergraduate": "https://admission.asu.edu/",
     "postgraduate": "https://degrees.apps.asu.edu/masters-phd",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1124,14 +1124,16 @@
       "undergraduate": {
         "status": 200,
         "url": "https://admission.asu.edu/",
-        "title": "Admission | Arizona State University"
+        "title": "Admission | Arizona State University",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://degrees.asu.edu/masters-phd",
         "title": "Graduate Degrees | Degree Search | ASU"
       }
-    }
+    },
+    "state": "AZ"
   },
   {
     "country": "美國",
@@ -1142,7 +1144,7 @@
     "home": "https://oregonstate.edu/",
     "undergraduate": "https://admissions.oregonstate.edu/",
     "postgraduate": "https://gradschool.oregonstate.edu/",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1152,14 +1154,16 @@
       "undergraduate": {
         "status": 200,
         "url": "https://admissions.oregonstate.edu/",
-        "title": "Undergraduate Admissions | Oregon State University"
+        "title": "Undergraduate Admissions | Oregon State University",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://graduate.oregonstate.edu/",
         "title": "Office of Graduate Education | Oregon State University"
       }
-    }
+    },
+    "state": "OR"
   },
   {
     "country": "美國",
@@ -1170,7 +1174,7 @@
     "home": "https://www.usf.edu/",
     "undergraduate": "https://www.usf.edu/admissions/",
     "postgraduate": "https://www.usf.edu/graduate-studies/",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1180,14 +1184,16 @@
       "undergraduate": {
         "status": 200,
         "url": "https://www.usf.edu/admissions/",
-        "title": "Office of Admissions | University of South Florida"
+        "title": "Office of Admissions | University of South Florida",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://www.usf.edu/graduate-studies/",
         "title": "Office of Graduate Studies | University of South Florida"
       }
-    }
+    },
+    "state": "FL"
   },
   {
     "country": "美國",
@@ -1196,9 +1202,9 @@
     "city": "Tucson",
     "slug": "university-of-arizona",
     "home": "https://www.arizona.edu/",
-    "undergraduate": "https://www.arizona.edu/admissions",
+    "undergraduate": "https://www.arizona.edu/admissions/undergraduate",
     "postgraduate": "https://grad.arizona.edu/",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1207,15 +1213,17 @@
       },
       "undergraduate": {
         "status": 200,
-        "url": "https://www.arizona.edu/admissions",
-        "title": "Admissions"
+        "url": "https://www.arizona.edu/admissions/undergraduate",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://grad.arizona.edu/",
         "title": "University of Arizona Graduate College"
       }
-    }
+    },
+    "state": "AZ"
   },
   {
     "country": "美國",
@@ -1224,9 +1232,9 @@
     "city": "Boston",
     "slug": "northeastern-university",
     "home": "https://www.northeastern.edu/",
-    "undergraduate": "https://admissions.northeastern.edu/",
+    "undergraduate": "https://catalog.northeastern.edu/undergraduate/admission/admission-policy-entrance-requirements/",
     "postgraduate": "https://graduate.northeastern.edu/",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1234,14 +1242,17 @@
         "title": "Home - Northeastern University"
       },
       "undergraduate": {
-        "status": "unverified",
-        "reason": "HTTP Error 403: Forbidden"
+        "status": 200,
+        "url": "https://catalog.northeastern.edu/undergraduate/admission/admission-policy-entrance-requirements/",
+        "title": "Admission Policy and Entrance Requirements < Northeastern University Academic Catalog",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": "unverified",
         "reason": "HTTP Error 403: Forbidden"
       }
-    }
+    },
+    "state": "MA"
   },
   {
     "country": "美國",
@@ -1250,9 +1261,9 @@
     "city": "New York",
     "slug": "pace-university",
     "home": "https://www.pace.edu/",
-    "undergraduate": "https://www.pace.edu/admission-and-aid",
+    "undergraduate": "https://www.pace.edu/admission-and-aid/undergraduate-admission",
     "postgraduate": "https://www.pace.edu/programs",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1261,15 +1272,17 @@
       },
       "undergraduate": {
         "status": 200,
-        "url": "https://www.pace.edu/admission-and-aid",
-        "title": "Admission and Aid | Pace University New York"
+        "url": "https://www.pace.edu/admission-and-aid/undergraduate-admission",
+        "title": "Undergraduate Admission | Pace University New York",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://www.pace.edu/find-your-program/undergraduate",
         "title": "Pace University Undergraduate Program Listing | Pace University New York"
       }
-    }
+    },
+    "state": "NY"
   },
   {
     "country": "美國",
@@ -1278,9 +1291,9 @@
     "city": "Chicago",
     "slug": "university-of-illinois-chicago",
     "home": "https://www.uic.edu/",
-    "undergraduate": "https://admissions.uic.edu/",
+    "undergraduate": "https://admissions.uic.edu/undergraduate",
     "postgraduate": "https://grad.uic.edu/",
-    "checked": "2026-11-06",
+    "checked": "2026-11-14",
     "sources": {
       "home": {
         "status": 200,
@@ -1289,15 +1302,2095 @@
       },
       "undergraduate": {
         "status": 200,
-        "url": "https://admissions.uic.edu/",
-        "title": "UIC Admissions |"
+        "url": "https://admissions.uic.edu/undergraduate",
+        "title": "Undergraduate | UIC Admissions",
+        "checked": "2026-11-14"
       },
       "postgraduate": {
         "status": 200,
         "url": "https://grad.uic.edu/",
         "title": "Graduate College | University of Illinois Chicago"
       }
-    }
+    },
+    "state": "IL"
+  },
+  {
+    "country": "美國",
+    "name": "普林斯頓大學",
+    "en": "Princeton University",
+    "city": "Princeton",
+    "slug": "princeton-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.princeton.edu/",
+        "title": "Princeton University Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NJ",
+    "undergraduate": "https://admission.princeton.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "麻省理工學院",
+    "en": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "slug": "massachusetts-institute-of-technology",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://mitadmissions.org/",
+        "title": "MIT Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://mitadmissions.org/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "哈佛大學",
+    "en": "Harvard University",
+    "city": "Cambridge",
+    "slug": "harvard-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://college.harvard.edu/admissions",
+        "title": "Admissions | Harvard College",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://college.harvard.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "史丹佛大學",
+    "en": "Stanford University",
+    "city": "Stanford",
+    "slug": "stanford-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.stanford.edu/",
+        "title": "Undergraduate Admission : Stanford University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.stanford.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "耶魯大學",
+    "en": "Yale University",
+    "city": "New Haven",
+    "slug": "yale-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.yale.edu/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CT",
+    "undergraduate": "https://admissions.yale.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "賓夕法尼亞大學",
+    "en": "University of Pennsylvania",
+    "city": "Philadelphia",
+    "slug": "university-of-pennsylvania",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.upenn.edu/",
+        "title": "Home | Penn Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://admissions.upenn.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "杜克大學",
+    "en": "Duke University",
+    "city": "Durham",
+    "slug": "duke-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.duke.edu/",
+        "title": "Homepage - Duke Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NC",
+    "undergraduate": "https://admissions.duke.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州理工學院",
+    "en": "California Institute of Technology",
+    "city": "Pasadena",
+    "slug": "california-institute-of-technology",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.admissions.caltech.edu/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://www.admissions.caltech.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "約翰霍普金斯大學",
+    "en": "Johns Hopkins University",
+    "city": "Baltimore",
+    "slug": "johns-hopkins-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://apply.jhu.edu/",
+        "title": "Undergraduate Admissions | Johns Hopkins University",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "MD",
+    "undergraduate": "https://apply.jhu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "西北大學",
+    "en": "Northwestern University",
+    "city": "Evanston",
+    "slug": "northwestern-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.northwestern.edu/",
+        "title": "Undergraduate Admissions - Northwestern University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IL",
+    "undergraduate": "https://admissions.northwestern.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "布朗大學",
+    "en": "Brown University",
+    "city": "Providence",
+    "slug": "brown-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.brown.edu/",
+        "title": "Undergraduate Admission | Brown University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "RI",
+    "undergraduate": "https://admission.brown.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "哥倫比亞大學",
+    "en": "Columbia University",
+    "city": "New York",
+    "slug": "columbia-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://bulletin.columbia.edu/columbia-college/admission/",
+        "title": "Admission < Columbia College | Columbia University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://bulletin.columbia.edu/columbia-college/admission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "康乃爾大學",
+    "en": "Cornell University",
+    "city": "Ithaca",
+    "slug": "cornell-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.cornell.edu/",
+        "title": "Home | Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://admissions.cornell.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "芝加哥大學",
+    "en": "University of Chicago",
+    "city": "Chicago",
+    "slug": "university-of-chicago",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://collegeadmissions.uchicago.edu/",
+        "title": "Undergraduate Admissions | College Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IL",
+    "undergraduate": "https://collegeadmissions.uchicago.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "達特茅斯學院",
+    "en": "Dartmouth College",
+    "city": "Hanover",
+    "slug": "dartmouth-college",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.dartmouth.edu/",
+        "title": "Home | Dartmouth Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NH",
+    "undergraduate": "https://admissions.dartmouth.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學柏克萊分校",
+    "en": "University of California, Berkeley",
+    "city": "Berkeley",
+    "slug": "university-of-california-berkeley",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.berkeley.edu/",
+        "title": "Home - Office of Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admissions.berkeley.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學洛杉磯分校",
+    "en": "University of California, Los Angeles",
+    "city": "Los Angeles",
+    "slug": "university-of-california-los-angeles",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.ucla.edu/",
+        "title": "UCLA Undergraduate Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.ucla.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "萊斯大學",
+    "en": "Rice University",
+    "city": "Houston",
+    "slug": "rice-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.rice.edu/",
+        "title": "Office of Admission | Rice University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://admission.rice.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "聖母大學",
+    "en": "University of Notre Dame",
+    "city": "Notre Dame",
+    "slug": "university-of-notre-dame",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.nd.edu/",
+        "title": "Undergraduate Admissions | University of Notre Dame",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IN",
+    "undergraduate": "https://admissions.nd.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "范德堡大學",
+    "en": "Vanderbilt University",
+    "city": "Nashville",
+    "slug": "vanderbilt-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.vanderbilt.edu/",
+        "title": "Undergraduate Admissions | Vanderbilt University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TN",
+    "undergraduate": "https://admissions.vanderbilt.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "卡內基美隆大學",
+    "en": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "slug": "carnegie-mellon-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.cmu.edu/admission/",
+        "title": "Undergraduate Admission - Undergraduate Admission - Carnegie Mellon University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://www.cmu.edu/admission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "密西根大學安娜堡分校",
+    "en": "University of Michigan",
+    "city": "Ann Arbor",
+    "slug": "university-of-michigan",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.umich.edu/",
+        "title": "University of Michigan Office of Undergraduate Admissions",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "MI",
+    "undergraduate": "https://admissions.umich.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "聖路易華盛頓大學",
+    "en": "Washington University in St. Louis",
+    "city": "St. Louis",
+    "slug": "washington-university-in-st-louis",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.washu.edu/",
+        "title": "Undergraduate Admissions | WashU",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MO",
+    "undergraduate": "https://admissions.washu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "埃默里大學",
+    "en": "Emory University",
+    "city": "Atlanta",
+    "slug": "emory-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://apply.emory.edu/",
+        "title": "Admissions Homepage | Emory Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "GA",
+    "aliases": [
+      "Emory",
+      "艾默里大學"
+    ],
+    "undergraduate": "https://apply.emory.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "喬治城大學",
+    "en": "Georgetown University",
+    "city": "Washington",
+    "slug": "georgetown-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://uadmissions.georgetown.edu/",
+        "title": "Office of Undergraduate Admissions | Georgetown University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "DC",
+    "undergraduate": "https://uadmissions.georgetown.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "維吉尼亞大學",
+    "en": "University of Virginia",
+    "city": "Charlottesville",
+    "slug": "university-of-virginia",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.virginia.edu/admission/",
+        "title": "Admission | The University of Virginia",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "VA",
+    "undergraduate": "https://www.virginia.edu/admission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "北卡羅來納大學教堂山分校",
+    "en": "University of North Carolina at Chapel Hill",
+    "city": "Chapel Hill",
+    "slug": "university-of-north-carolina-at-chapel-hill",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.unc.edu/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NC",
+    "aliases": [
+      "UNC",
+      "UNC Chapel Hill",
+      "UNC-Chapel Hill",
+      "北卡教堂山"
+    ],
+    "undergraduate": "https://admissions.unc.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "南加州大學",
+    "en": "University of Southern California",
+    "city": "Los Angeles",
+    "slug": "university-of-southern-california",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.usc.edu/",
+        "title": "Undergraduate Admission - Undergraduate Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.usc.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學聖地牙哥分校",
+    "en": "University of California, San Diego",
+    "city": "La Jolla",
+    "slug": "university-of-california-san-diego",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ucsd.edu/",
+        "title": "Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "aliases": [
+      "UCSD",
+      "UC San Diego",
+      "加州大學聖地亞哥分校"
+    ],
+    "undergraduate": "https://admissions.ucsd.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "佛羅里達大學",
+    "en": "University of Florida",
+    "city": "Gainesville",
+    "slug": "university-of-florida",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ufl.edu/",
+        "title": "The Office of Admissions at the University of Florida",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "FL",
+    "aliases": [
+      "UF"
+    ],
+    "undergraduate": "https://admissions.ufl.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "德州大學奧斯汀分校",
+    "en": "University of Texas at Austin",
+    "city": "Austin",
+    "slug": "university-of-texas-at-austin",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.utexas.edu/",
+        "title": "Home - University of Texas Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://admissions.utexas.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "喬治亞理工學院",
+    "en": "Georgia Institute of Technology",
+    "city": "Atlanta",
+    "slug": "georgia-institute-of-technology",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.gatech.edu/",
+        "title": "Welcome! | Undergraduate Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "GA",
+    "undergraduate": "https://admission.gatech.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學戴維斯分校",
+    "en": "University of California, Davis",
+    "city": "Davis",
+    "slug": "university-of-california-davis",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ucdavis.edu/admissions/undergraduate",
+        "title": "Undergraduate Admissions | UC Davis",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://www.ucdavis.edu/admissions/undergraduate",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學爾灣分校",
+    "en": "University of California, Irvine",
+    "city": "Irvine",
+    "slug": "university-of-california-irvine",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.admissions.uci.edu/",
+        "title": "UC Irvine Office of Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://www.admissions.uci.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學聖塔芭芭拉分校",
+    "en": "University of California, Santa Barbara",
+    "city": "Santa Barbara",
+    "slug": "university-of-california-santa-barbara",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.sa.ucsb.edu/",
+        "title": "Home | Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admissions.sa.ucsb.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "伊利諾大學厄巴納香檳分校",
+    "en": "University of Illinois Urbana-Champaign",
+    "city": "Champaign–Urbana",
+    "slug": "university-of-illinois-urbana-champaign",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.admissions.illinois.edu/",
+        "title": "Undergraduate Admissions | Office of Undergraduate Admissions | Illinois",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IL",
+    "undergraduate": "https://www.admissions.illinois.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "威斯康辛大學麥迪遜分校",
+    "en": "University of Wisconsin–Madison",
+    "city": "Madison",
+    "slug": "university-of-wisconsin-madison",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.wisc.edu/",
+        "title": "Office of Admissions and Recruitment – UW–Madison",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "WI",
+    "undergraduate": "https://admissions.wisc.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "波士頓學院",
+    "en": "Boston College",
+    "city": "Chestnut Hill",
+    "slug": "boston-college",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.bc.edu/bc-web/admission.html",
+        "title": "Admission - Boston College",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://www.bc.edu/bc-web/admission.html",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "紐約大學",
+    "en": "New York University",
+    "city": "New York",
+    "slug": "new-york-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://meet.nyu.edu/advice/application-tips/inside-the-2026-2027-common-application-for-nyu/",
+        "title": "Inside the 2026-2027 NYU Common Application",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://meet.nyu.edu/advice/application-tips/inside-the-2026-2027-common-application-for-nyu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "塔夫茨大學",
+    "en": "Tufts University",
+    "city": "Medford",
+    "slug": "tufts-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.tufts.edu/",
+        "title": "Tufts University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://admissions.tufts.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "波士頓大學",
+    "en": "Boston University",
+    "city": "Boston",
+    "slug": "boston-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.bu.edu/admissions/",
+        "title": "Boston University's Office of Admissions Website | Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://www.bu.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "羅格斯大學新布朗斯維克分校",
+    "en": "Rutgers University–New Brunswick",
+    "city": "New Brunswick",
+    "slug": "rutgers-university-new-brunswick",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+        "title": "Application Dates & Deadlines - New Brunswick | Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NJ",
+    "undergraduate": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "華盛頓大學西雅圖分校",
+    "en": "University of Washington",
+    "city": "Seattle",
+    "slug": "university-of-washington",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admit.washington.edu/",
+        "title": "Office of Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "WA",
+    "undergraduate": "https://admit.washington.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "馬里蘭大學學院市分校",
+    "en": "University of Maryland, College Park",
+    "city": "College Park",
+    "slug": "university-of-maryland-college-park",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.umd.edu/",
+        "title": "Office of Undergraduate Admissions | Homepage",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MD",
+    "undergraduate": "https://admissions.umd.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "羅徹斯特大學",
+    "en": "University of Rochester",
+    "city": "Rochester",
+    "slug": "university-of-rochester",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.rochester.edu/",
+        "title": "Home - Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://admissions.rochester.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "理海大學",
+    "en": "Lehigh University",
+    "city": "Bethlehem",
+    "slug": "lehigh-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www2.lehigh.edu/admissions",
+        "title": "Undergraduate Admissions | Lehigh University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://www2.lehigh.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "普渡大學",
+    "en": "Purdue University",
+    "city": "West Lafayette",
+    "slug": "purdue-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.purdue.edu/",
+        "title": "Purdue University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IN",
+    "undergraduate": "https://admissions.purdue.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "俄亥俄州立大學",
+    "en": "Ohio State University",
+    "city": "Columbus",
+    "slug": "ohio-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://undergrad.osu.edu/",
+        "title": "Your story begins here - The Ohio State University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "OH",
+    "undergraduate": "https://undergrad.osu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "凱斯西儲大學",
+    "en": "Case Western Reserve University",
+    "city": "Cleveland",
+    "slug": "case-western-reserve-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://case.edu/admission/",
+        "title": "Undergraduate Admission | Case Western Reserve University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "OH",
+    "undergraduate": "https://case.edu/admission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "維克森林大學",
+    "en": "Wake Forest University",
+    "city": "Winston-Salem",
+    "slug": "wake-forest-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.wfu.edu/",
+        "title": "Undergraduate Admissions | Wake Forest University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NC",
+    "undergraduate": "https://admissions.wfu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "威廉與瑪麗學院",
+    "en": "William & Mary",
+    "city": "Williamsburg",
+    "slug": "william-and-mary",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.wm.edu/admission/undergraduateadmission/",
+        "title": "Undergraduate Admission | William & Mary",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "VA",
+    "undergraduate": "https://www.wm.edu/admission/undergraduateadmission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "維吉尼亞理工大學",
+    "en": "Virginia Tech",
+    "city": "Blacksburg",
+    "slug": "virginia-tech",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.vt.edu/admissions/undergraduate-new.html",
+        "title": "Undergraduate Admissions | Virginia Tech",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "VA",
+    "undergraduate": "https://www.vt.edu/admissions/undergraduate-new.html",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "喬治亞大學",
+    "en": "University of Georgia",
+    "city": "Athens",
+    "slug": "university-of-georgia",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.uga.edu/",
+        "title": "UGA Admissions",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "GA",
+    "undergraduate": "https://admissions.uga.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "佛羅里達州立大學",
+    "en": "Florida State University",
+    "city": "Tallahassee",
+    "slug": "florida-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.fsu.edu/",
+        "title": "Office of Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "FL",
+    "undergraduate": "https://admissions.fsu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "德州農工大學",
+    "en": "Texas A&M University",
+    "city": "College Station",
+    "slug": "texas-aandm-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "title": "How to Apply as a Freshman | Texas A&M University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "明尼蘇達大學雙城分校",
+    "en": "University of Minnesota Twin Cities",
+    "city": "Minneapolis–St. Paul",
+    "slug": "university-of-minnesota-twin-cities",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.tc.umn.edu/admissions/freshman-admission/freshman-admissions-overview",
+        "title": "Freshman Admissions Overview | Office of Admissions",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "MN",
+    "undergraduate": "https://admissions.tc.umn.edu/admissions/freshman-admission/freshman-admissions-overview",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "賓夕法尼亞州立大學",
+    "en": "Penn State University",
+    "city": "University Park",
+    "slug": "penn-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.psu.edu/admission/undergraduate",
+        "title": "Penn State Undergraduate Admissions | Penn State",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://www.psu.edu/admission/undergraduate",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "密西根州立大學",
+    "en": "Michigan State University",
+    "city": "East Lansing",
+    "slug": "michigan-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.msu.edu/",
+        "title": "Michigan State University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MI",
+    "aliases": [
+      "MSU",
+      "密歇根州立大學"
+    ],
+    "undergraduate": "https://admissions.msu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "匹茲堡大學",
+    "en": "University of Pittsburgh",
+    "city": "Pittsburgh",
+    "slug": "university-of-pittsburgh",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.pitt.edu/admissions",
+        "title": "Admissions | University of Pittsburgh",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "aliases": [
+      "Pitt",
+      "匹兹堡大学"
+    ],
+    "undergraduate": "https://www.pitt.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "紐約州立大學水牛城分校",
+    "en": "University at Buffalo",
+    "city": "Buffalo–Amherst",
+    "slug": "university-at-buffalo",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.buffalo.edu/admissions.html",
+        "title": "Undergraduate Admissions - University at Buffalo",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "aliases": [
+      "UB",
+      "SUNY Buffalo",
+      "布法羅大學",
+      "水牛城大學"
+    ],
+    "undergraduate": "https://www.buffalo.edu/admissions.html",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "印第安納大學布魯明頓分校",
+    "en": "Indiana University Bloomington",
+    "city": "Bloomington",
+    "slug": "indiana-university-bloomington",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://bloomington.iu.edu/admissions/",
+        "title": "Admissions at IU Bloomington",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IN",
+    "undergraduate": "https://bloomington.iu.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "康乃狄克大學",
+    "en": "University of Connecticut",
+    "city": "Storrs",
+    "slug": "university-of-connecticut",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.uconn.edu/",
+        "title": "Home | Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CT",
+    "undergraduate": "https://admissions.uconn.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "麻薩諸塞大學阿默斯特分校",
+    "en": "University of Massachusetts Amherst",
+    "city": "Amherst",
+    "slug": "university-of-massachusetts-amherst",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://catalog.umass.edu/undergradguide/2026-2027/Page26708.html",
+        "title": "2026/2027 Guide to Undergraduate Programs",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://catalog.umass.edu/undergradguide/2026-2027/Page26708.html",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "德拉瓦大學",
+    "en": "University of Delaware",
+    "city": "Newark",
+    "slug": "university-of-delaware",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.udel.edu/apply/undergraduate-admissions/",
+        "title": "Undergraduate Admissions | University of Delaware",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "DE",
+    "undergraduate": "https://www.udel.edu/apply/undergraduate-admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "科羅拉多大學波德分校",
+    "en": "University of Colorado Boulder",
+    "city": "Boulder",
+    "slug": "university-of-colorado-boulder",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.colorado.edu/admissions",
+        "title": "Admissions | University of Colorado Boulder",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CO",
+    "undergraduate": "https://www.colorado.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "愛荷華大學",
+    "en": "University of Iowa",
+    "city": "Iowa City",
+    "slug": "university-of-iowa",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.uiowa.edu/",
+        "title": "Admissions | The University of Iowa",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IA",
+    "undergraduate": "https://admissions.uiowa.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "北卡羅來納州立大學",
+    "en": "North Carolina State University",
+    "city": "Raleigh",
+    "slug": "north-carolina-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ncsu.edu/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NC",
+    "undergraduate": "https://admissions.ncsu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "邁阿密大學",
+    "en": "University of Miami",
+    "city": "Coral Gables",
+    "slug": "university-of-miami",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.miami.edu/undergraduate/",
+        "title": "Undergraduate Admission | University of Miami",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "FL",
+    "undergraduate": "https://admissions.miami.edu/undergraduate/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "喬治華盛頓大學",
+    "en": "George Washington University",
+    "city": "Washington",
+    "slug": "george-washington-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://undergraduate.admissions.gwu.edu/apply",
+        "title": "Apply | Office of Undergraduate Admissions",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "DC",
+    "undergraduate": "https://undergraduate.admissions.gwu.edu/apply",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "美利堅大學",
+    "en": "American University",
+    "city": "Washington",
+    "slug": "american-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://american.edu/admissions/first-year/",
+        "title": "First Year Student Admissions | American University",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "DC",
+    "undergraduate": "https://american.edu/admissions/first-year/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "福坦莫大學",
+    "en": "Fordham University",
+    "city": "New York",
+    "slug": "fordham-university",
+    "sources": {
+      "undergraduate": {
+        "status": 302,
+        "url": "https://www.fordham.edu/undergraduate-admission/apply/",
+        "title": "How to Apply to Fordham as an Undergraduate",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.fordham.edu/undergraduate-admission/apply/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "雪城大學",
+    "en": "Syracuse University",
+    "city": "Syracuse",
+    "slug": "syracuse-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.syracuse.edu/admissions-aid/application-process/apply/",
+        "title": "​Apply to Syracuse University - Syracuse University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.syracuse.edu/admissions-aid/application-process/apply/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "紐約州立大學石溪分校",
+    "en": "Stony Brook University",
+    "city": "Stony Brook",
+    "slug": "stony-brook-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.stonybrook.edu/undergraduate-admissions/",
+        "title": "Undergraduate Admissions at Stony Brook University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.stonybrook.edu/undergraduate-admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "紐約州立大學賓漢頓分校",
+    "en": "Binghamton University",
+    "city": "Vestal",
+    "slug": "binghamton-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.binghamton.edu/admissions/",
+        "title": "Admissions | Binghamton University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.binghamton.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學聖塔克魯茲分校",
+    "en": "University of California, Santa Cruz",
+    "city": "Santa Cruz",
+    "slug": "university-of-california-santa-cruz",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.universityofcalifornia.edu/campuses-majors/santa-cruz/",
+        "title": "UC Santa Cruz | UC Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.universityofcalifornia.edu/campuses-majors/santa-cruz/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學河濱分校",
+    "en": "University of California, Riverside",
+    "city": "Riverside",
+    "slug": "university-of-california-riverside",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ucr.edu/",
+        "title": "UCR Admissions | UC Riverside",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admissions.ucr.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "加州大學默塞德分校",
+    "en": "University of California, Merced",
+    "city": "Merced",
+    "slug": "university-of-california-merced",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.universityofcalifornia.edu/campuses-majors/merced/",
+        "title": "UC Merced | UC Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.universityofcalifornia.edu/campuses-majors/merced/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "猶他大學",
+    "en": "University of Utah",
+    "city": "Salt Lake City",
+    "slug": "university-of-utah",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.utah.edu/apply/",
+        "title": "Apply | Admissions - The University of Utah",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "UT",
+    "undergraduate": "https://admissions.utah.edu/apply/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "奧勒岡大學",
+    "en": "University of Oregon",
+    "city": "Eugene",
+    "slug": "university-of-oregon",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uoregon.edu/admissions/",
+        "title": "Admissions and Financial Aid | University of Oregon",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "OR",
+    "undergraduate": "https://www.uoregon.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "華盛頓州立大學",
+    "en": "Washington State University",
+    "city": "Pullman",
+    "slug": "washington-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.wsu.edu/",
+        "title": "Admissions | Washington State University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "WA",
+    "undergraduate": "https://admission.wsu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "堪薩斯大學",
+    "en": "University of Kansas",
+    "city": "Lawrence",
+    "slug": "university-of-kansas",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ku.edu/",
+        "title": "Undergraduate Admissions | University of Kansas",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "KS",
+    "undergraduate": "https://admissions.ku.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "愛荷華州立大學",
+    "en": "Iowa State University",
+    "city": "Ames",
+    "slug": "iowa-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.iastate.edu/admission-and-aid/admissions",
+        "title": "Admissions - Iowa State University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IA",
+    "undergraduate": "https://www.iastate.edu/admission-and-aid/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "內布拉斯加大學林肯分校",
+    "en": "University of Nebraska–Lincoln",
+    "city": "Lincoln",
+    "slug": "university-of-nebraska-lincoln",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.unl.edu/",
+        "title": "Admissions | Undergraduate Office of Admissions | University of Nebraska–Lincoln",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NE",
+    "undergraduate": "https://admissions.unl.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "密蘇里大學",
+    "en": "University of Missouri",
+    "city": "Columbia",
+    "slug": "university-of-missouri",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.missouri.edu/",
+        "title": "Mizzou Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MO",
+    "undergraduate": "https://admissions.missouri.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "田納西大學諾克斯維爾分校",
+    "en": "University of Tennessee, Knoxville",
+    "city": "Knoxville",
+    "slug": "university-of-tennessee-knoxville",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.utk.edu/important-dates-and-deadlines/",
+        "title": "Important Dates & Deadlines - Undergraduate Admissions",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "TN",
+    "undergraduate": "https://admissions.utk.edu/important-dates-and-deadlines/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "奧本大學",
+    "en": "Auburn University",
+    "city": "Auburn",
+    "slug": "auburn-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.auburn.edu/admissions/index.php",
+        "title": "Undergraduate Admissions Homepage | Office of Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "AL",
+    "undergraduate": "https://www.auburn.edu/admissions/index.php",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "阿拉巴馬大學",
+    "en": "University of Alabama",
+    "city": "Tuscaloosa",
+    "slug": "university-of-alabama",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.ua.edu/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "AL",
+    "undergraduate": "https://admissions.ua.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "克萊姆森大學",
+    "en": "Clemson University",
+    "city": "Clemson",
+    "slug": "clemson-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.clemson.edu/admissions/undergraduate-admissions/",
+        "title": "Apply to Clemson - Undergraduate Application Guide",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "SC",
+    "undergraduate": "https://www.clemson.edu/admissions/undergraduate-admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "南卡羅來納大學",
+    "en": "University of South Carolina",
+    "city": "Columbia",
+    "slug": "university-of-south-carolina",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/",
+        "title": "Admissions | University of South Carolina",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "SC",
+    "undergraduate": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "肯塔基大學",
+    "en": "University of Kentucky",
+    "city": "Lexington",
+    "slug": "university-of-kentucky",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.uky.edu/",
+        "title": "Home | Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "KY",
+    "undergraduate": "https://admission.uky.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "路易斯安那州立大學",
+    "en": "Louisiana State University",
+    "city": "Baton Rouge",
+    "slug": "louisiana-state-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.lsu.edu/admissions/",
+        "title": "Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "LA",
+    "undergraduate": "https://www.lsu.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "杜蘭大學",
+    "en": "Tulane University",
+    "city": "New Orleans",
+    "slug": "tulane-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admission.tulane.edu/",
+        "title": "Tulane Office of Admission",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "LA",
+    "undergraduate": "https://admission.tulane.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "南方衛理會大學",
+    "en": "Southern Methodist University",
+    "city": "Dallas",
+    "slug": "southern-methodist-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.smu.edu/admission",
+        "title": "SMU Admission: Apply to Southern Methodist University Today | SMU",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://www.smu.edu/admission",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "德州基督教大學",
+    "en": "Texas Christian University",
+    "city": "Fort Worth",
+    "slug": "texas-christian-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.tcu.edu/",
+        "title": "Undergraduate Admissions at TCU | Apply to Texas Christian University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://admissions.tcu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "貝勒大學",
+    "en": "Baylor University",
+    "city": "Waco",
+    "slug": "baylor-university",
+    "sources": {
+      "undergraduate": {
+        "status": 403,
+        "url": "https://admissions.web.baylor.edu/incoming-freshman",
+        "title": "Baylor University - Incoming Freshman",
+        "checked": "2026-11-14",
+        "verifiedBy": "official-page"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://admissions.web.baylor.edu/incoming-freshman",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "休士頓大學",
+    "en": "University of Houston",
+    "city": "Houston",
+    "slug": "university-of-houston",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uh.edu/undergraduate-admissions/",
+        "title": "Undergraduate Admissions - University of Houston | Undergraduate Admissions | University of Houston",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://www.uh.edu/undergraduate-admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "德州大學達拉斯分校",
+    "en": "University of Texas at Dallas",
+    "city": "Richardson",
+    "slug": "university-of-texas-at-dallas",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://enroll.utdallas.edu/",
+        "title": "Undergraduate Admissions - Office of Admission and Enrollment | The University of Texas at Dallas",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "TX",
+    "undergraduate": "https://enroll.utdallas.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "中佛羅里達大學",
+    "en": "University of Central Florida",
+    "city": "Orlando",
+    "slug": "university-of-central-florida",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.ucf.edu/admissions/undergraduate/",
+        "title": "University of Central Florida | Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "FL",
+    "undergraduate": "https://www.ucf.edu/admissions/undergraduate/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "佛蒙特大學",
+    "en": "University of Vermont",
+    "city": "Burlington",
+    "slug": "university-of-vermont",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.uvm.edu/admissions/undergraduate",
+        "title": "Undergraduate Admissions | The University of Vermont",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "VT",
+    "undergraduate": "https://www.uvm.edu/admissions/undergraduate",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "新罕布夏大學",
+    "en": "University of New Hampshire",
+    "city": "Durham",
+    "slug": "university-of-new-hampshire",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admissions.unh.edu/",
+        "title": "Undergraduate Admissions | University of New Hampshire",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NH",
+    "undergraduate": "https://admissions.unh.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "伍斯特理工學院",
+    "en": "Worcester Polytechnic Institute",
+    "city": "Worcester",
+    "slug": "worcester-polytechnic-institute",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.wpi.edu/admissions/undergraduate",
+        "title": "WPI Admissions | Office of Undergraduate Admissions",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "MA",
+    "undergraduate": "https://www.wpi.edu/admissions/undergraduate",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "倫斯勒理工學院",
+    "en": "Rensselaer Polytechnic Institute",
+    "city": "Troy",
+    "slug": "rensselaer-polytechnic-institute",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.rpi.edu/admissions",
+        "title": "Admissions | Rensselaer Polytechnic Institute",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.rpi.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "史蒂文斯理工學院",
+    "en": "Stevens Institute of Technology",
+    "city": "Hoboken",
+    "slug": "stevens-institute-of-technology",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.stevens.edu/admissions",
+        "title": "Admissions | Stevens Institute of Technology",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NJ",
+    "undergraduate": "https://www.stevens.edu/admissions",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "卓克索大學",
+    "en": "Drexel University",
+    "city": "Philadelphia",
+    "slug": "drexel-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://drexel.edu/admissions/undergrad/",
+        "title": "Undergraduate Admissions | Drexel University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://drexel.edu/admissions/undergrad/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "羅徹斯特理工學院",
+    "en": "Rochester Institute of Technology",
+    "city": "Rochester",
+    "slug": "rochester-institute-of-technology",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.rit.edu/admissions/",
+        "title": "Admissions and Aid | RIT",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "NY",
+    "undergraduate": "https://www.rit.edu/admissions/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "科羅拉多礦業學院",
+    "en": "Colorado School of Mines",
+    "city": "Golden",
+    "slug": "colorado-school-of-mines",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.mines.edu/admissions-and-aid/",
+        "title": "Admissions and Aid | Colorado School of Mines",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CO",
+    "undergraduate": "https://www.mines.edu/admissions-and-aid/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "丹佛大學",
+    "en": "University of Denver",
+    "city": "Denver",
+    "slug": "university-of-denver",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.du.edu/admission-aid/undergraduate",
+        "title": "Undergraduate Admission | University of Denver",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CO",
+    "undergraduate": "https://www.du.edu/admission-aid/undergraduate",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "聖塔克拉拉大學",
+    "en": "Santa Clara University",
+    "city": "Santa Clara",
+    "slug": "santa-clara-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.scu.edu/admission/",
+        "title": "Admission - Santa Clara University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://www.scu.edu/admission/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "洛約拉馬利蒙特大學",
+    "en": "Loyola Marymount University",
+    "city": "Los Angeles",
+    "slug": "loyola-marymount-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.lmu.edu/",
+        "title": "Admission",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.lmu.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "佩珀代因大學",
+    "en": "Pepperdine University",
+    "city": "Malibu",
+    "slug": "pepperdine-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://admission.pepperdine.edu/",
+        "title": "Admission | Pepperdine University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "CA",
+    "undergraduate": "https://admission.pepperdine.edu/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "馬凱特大學",
+    "en": "Marquette University",
+    "city": "Milwaukee",
+    "slug": "marquette-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.marquette.edu/admissions/undergraduate/",
+        "title": "Undergraduate Admissions // Admissions // Marquette University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "WI",
+    "undergraduate": "https://www.marquette.edu/admissions/undergraduate/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "芝加哥洛約拉大學",
+    "en": "Loyola University Chicago",
+    "city": "Chicago",
+    "slug": "loyola-university-chicago",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.luc.edu/undergrad/",
+        "title": "Undergraduate Admission | Loyola University Chicago",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "IL",
+    "undergraduate": "https://www.luc.edu/undergrad/",
+    "checked": "2026-11-14"
+  },
+  {
+    "country": "美國",
+    "name": "維拉諾瓦大學",
+    "en": "Villanova University",
+    "city": "Villanova",
+    "slug": "villanova-university",
+    "sources": {
+      "undergraduate": {
+        "status": 200,
+        "url": "https://www.villanova.edu/university/undergraduate-admission.html",
+        "title": "UNDERGRADUATE ADMISSION | Villanova University",
+        "checked": "2026-11-14"
+      }
+    },
+    "state": "PA",
+    "undergraduate": "https://www.villanova.edu/university/undergraduate-admission.html",
+    "checked": "2026-11-14"
   },
   {
     "country": "香港",
