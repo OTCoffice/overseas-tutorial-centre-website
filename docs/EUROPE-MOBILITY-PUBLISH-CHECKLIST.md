@@ -549,3 +549,60 @@
 ### 第46輪CSV結果與發布禁令
 - 已核對110條索引中的3條並將CSV新增3筆**B_partial_fields**與當日官方主URL；此前5條停止新案、6條B級、99條未在CSV登錄本輪程度。**現在為5條停止新案（舊案欄位仍待核）＋9條B級部分核實＋96條其他待逐條核驗；C/D全欄完成仍為0/110**。
 - 未實施整站網站測試、未更改main或production、未合併PR。原 PR #107已合併，核驗僅寫入 draft PR #108 分支；保留DO NOT MERGE / DO NOT DEPLOY。
+
+
+## 2026-11-14 第四十七輪：奧地利 RWR、愛爾蘭 Critical Skills、瑞典 Work Permit（當期官方B級部分核驗）
+
+**範圍與核驗方法**：重讀已合併的 PR #107（GitHub Issue/PR #107 closed 2026-11-10 10:07:36Z）、審核用 draft PR #108、本文與110路線 CSV，以及 RUN 的 \`data/programmes.json\`（99條）與 \`src/extra_routes.json\`（11條）。本輪三個slug均屬原先 CSV \`pending_full_official_check\`；只更新 draft PR #108 分支 \`audit/europe-mobility-110-official-checks\`，不改 main / production。核對日為**2026-11-14**。凡沒有直接主管機關證明的護照領區、個別家屬/永居或法律實施細節一律標**待查**，不把RUN原有open標記當作政府核准。
+
+### 47-A 奧地利 \`austria-red-white-red-card\` — 現行／B級（RWR具有多個子類，不能一個薪資通用全部）
+- **主管機關、資格、適用國籍**：奧地利政府官方移民入口指 RWR Card 面向符合指定條件的第三國公民，有「緊缺職業技能人才」「其他關鍵人才」「非常高技能人才」「奧地利大學畢業生」「創業者」等子類。中國大陸普通護照、香港特區、台灣護照均非EU/EEA國籍，但是否各自可於指定領館用哪種旅行文件遞交、需不需要D類入境簽證、授權翻譯/海牙認證等尚未逐一官方核查；**只能暫以一般第三國通道作初篩**，非已全面核准三地適用。
+- **緊缺職業類**：必須完成當期短缺職業法規所要求的職業培訓、有奧地利具約束力的聘用邀請、支付至少當地法定/集體協約工資，並取得**至少55分**。當期國家及地區職業清單另核；不能使用「其他關鍵人才」的€3,465/月作此類全國固定門檻。
+- **其他關鍵人才**：2026最低**稅前€3,465/月**，至少**55分**，且通常有AMS勞動市場測試：不得有同等合格本地求職者可媒合。
+- **費用**：上述兩類官方頁均列**申請費€218**。另有可能需D入境簽及特殊文件、翻譯/公證服務費，本輪未核、不可加為一個全國包價。
+- **期限、工作權、轉換**：原RWR Card通常最長**24個月**、僅可受聘於核准聘用的雇主；若在最近24月有至少**21個月**符合資格工作，可按AMS確認申請 RWR Card Plus，Plus提供較廣泛的勞動市場工作權但**不是永久居留**。原卡換雇主法規/45天待辦規則需按完整文件及個案確認，不能保證換雇主即日可工作。
+- **家屬**：家屬可依適用家屬團聚及RWR Plus體系尋求許可，但家屬資格、德語例外、資金及直接工作權未獨立核實；不得保證自動獲批。
+- **續簽、永居**：RWR Plus轉換（21/24個月）可在官方證據支持的條件下記錄；其後長期居留／永居的完整居住計算、德語、缺席與家屬資格尚待逐欄核驗。
+- **政策日期**：€3,465是**2026**年其他關鍵人才門檻；2027金額需另核。2026一般居留收入保障標準（單身€1,308.39等）**不可錯當所有RWR申請一律額外必須存款**，政府總頁明確提示RWR/Blue Card另按就業薪酬規則。
+- **2026-11-14 官方網址與證據**：
+  1. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/
+  2. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/
+  3. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-key-workers/
+- **剩餘待解**：所有其他RWR子類門檻與實施條文、國籍/申請領區、本人與家屬簽證和居留卡費、各子類職業清單、RWR Plus後長居/永居年期及家屬工作權；故**B非C/D**。
+
+### 47-B 愛爾蘭 \`ireland-critical-skills-employment-permit\` — 現行／B級
+- **申請對象**：CSEP以非EEA工作者的符合資格職位及2年或以上正式工作邀請為核心，無一般勞工市場需求測試（Labour Market Needs Test）；還有雇主50% EEA員工要求及特定新創例外。三地中國大陸/香港/台灣人士可按非EEA通道作**條件初篩**，但香港、台灣旅遊免簽或其他英國簽證不能自動當作愛爾蘭入境／受僱許可；三地適用簽證、出入境登記、文件領區尚未獨立完成。
+- **薪資及2026生效**：政府2025-12-02宣布分階段門檻，**2026-03-01**起關鍵職業清單類一般年薪至少**€40,904**；獲該職業所需學歷且畢業不滿12月者可用**€36,848**的特定低門檻；另一高薪資格類是年薪**超過€68,911**，但職位不能在不符合清單、公共利益禁止等條款之內。公共服務協議職位、護理等有特殊條件。**不是所有職業達薪資即可核准**。
+- **職業列表實施日**：DETE當前 Critical Skills Occupations List 明言**2026-05-13**起實施（SI 213/2026），須按具體SOC code及技術專長，不可只按大類名相似。
+- **費用**：CSEP官方申請費**€1,000**；被拒一般返還90%（如適用）。如雇主作為申請者，不可向持證人追回許可申請支出。入境簽、愛爾蘭移民登記、家屬費用不在此費用內，尚待核。
+- **期限及工作權**：要求至少**兩年**聘書；Employment Permit允許為**列明雇主、工作及地點**工作，不是開放式工作卡。原則須為原雇主工作至少9個月才可另辦變更，例外須符合規則。
+- **家屬**：ISD現行Stamp 1G說明，合資格CSEP持有人配偶／事實伴侶取得Stamp 1G後**可受僱且不需另申請employment permit**，但不可自僱或經營企業，按年續登記。注意DETE總頁仍保留「家屬可申請免費Dependant/Partner/Spouse Employment Permit」舊式說明；**目前應以ISD就Stamp 1G的當期法律身分說明優先**。主申請人的家屬團聚也不是自動批准，兒童及伴侶/個案材料待補。
+- **續簽與長居**：ISD正式說明CSEP滿**21個月從開始合資格工作起算**後，符合條件可在線申請**Stamp 4**；Stamp4通常2年後可按條件再續。Stamp4是更自由的**移民居留/工作身分，不等於永久居留或公民資格**。DETE亦列獲60月合資格居留可能申請long-term residence，但個案計算、居留空檔與歸化未核全。
+- **官方來源（2026-11-14查閱）**：
+  1. https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/
+  2. https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
+  3. https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/critical%20skills%20occupations%20list.html
+  4. https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-renew-your-current-permission/information-on-stamp-4-upgrades/
+  5. https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/
+- **待解**：香港/台灣/大陸護照領事簽證分類與入境文件、不同家屬許可/簽證和費用、具體工資計入計算、職業碼個案資格、Stamp4/長期居留完整計算；仍為**B非C/D**。
+
+### 47-C 瑞典 \`sweden-work-permit\` — 現行／B級；2026-10家庭政策已生效，2026-12續期新門檻將生效
+- **申請對象及國籍**：一般非EU/EEA僱員需有簽署的雇佣合同、有效護照、與瑞典集體協約/行業慣例相當條件；雇主須提供醫療、生命、工傷及職業退休金保險。中國大陸、香港、台灣均不能僅憑短期免簽逕自受僱；三地各自護照、領事受理和簽證/生物資料細節尚未獨立確認，**僅確定第三國通用僱員申請規則**。
+- **2026年薪資及生效**：新規**2026-06-01**生效，普通工作許可一般要達當期中位月薪的**90%**且符合行業集體協約。**2026-06-16**官方更新中位薪資SEK38,300，故目前**SEK34,470/月**；這不是所有職業唯一門檻，因為行業工資可能更高。政府明確規定約20種職業及特定申請人群體可按**75%**中位薪資例外，必須逐一查核SSYK職業碼和例外資格，**不可把普通門檻無差別套給所有人**。部分採摘/個人助理等職類自2026-06-01起不得用該一般工作許可，個別農業季節工制度仍另論。
+- **費用**：工作許可本人**SEK2,200**，成年家屬SEK1,500、子女SEK750（官方也列日本國籍個別免申請費；不得誤套三地）。
+- **期限、工作、家屬**：首次最長**2年**，不得超過合同及護照效期，可續簽。家屬可同時遞交，准許期限不長於主申請人及家屬護照。合約及核准的僱主／職業變更後實際需否新許可須個案核對。家屬受僱權、個別居留卡條款未全核。
+- **2026-10-01家庭新規（已生效）**：家屬生活費及居住成本財力審核現在亦適用**家庭居留續期**；與僅首次申請時查核的舊制不同。部分家屬收入可能計算但有排除。主申請人申請永久居留時家屬需有自己的申請，不得把主申請人永居自動延及全家。
+- **續簽過渡**：2026-06-01前獲批的舊許可，在**2026-06-01至2026-12-01**遞交的符合條件續期有舊80%中位薪資門檻過渡；官方明列**2026-12-02起所有續期申請都適用新門檻**（此為截至2026-11-14的**未生效未來日期**）。舊許可工作/保險條件仍須符合。該時間點應保留獨立「已公告未生效」狀態標註，不能把12/2規定寫作已經生效。
+- **永久居留**：Migri不同；瑞典移民局現行一般僱員續期頁列**過去7年內至少4年持工作許可且實際工作**、可維持自我經濟、良好行為等。僅滿4年不等於自動獲批；家屬永久居留有另外條件。
+- **官方來源（2026-11-14核對）**：
+  1. https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/employees.html
+  2. https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html
+  3. https://www.migrationsverket.se/en/news-archive/news/2026-05-25-new-rules-for-labour-immigration---these-occupations-are-exempted.html
+  4. https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html
+  5. https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingemployees.5.15b2309e1a04e5ed2071c33.html
+- **未解**：三地護照/申請地及簽證要求、雇主資格及責任的個案查驗、家屬工作許可的各類情況、指定職業例外細節、永居實際居留天數、2026-12-02過渡處理以及任何後續法改；不達C/D。
+
+### 第47輪進度與發布限制
+- 本輪只將CSV內上述三筆原先 \`pending_full_official_check\` 更新成**B_partial_fields**，最後官方核對日**2026-11-14**，並寫入對應政府官方主來源URL。原RUN status欄位保持原樣，不以RUN「open」當成政府開放簽證保證。
+- CSV共**110筆**：**5筆官方確認停止新申請（舊案完整條件待審）、12筆B級部分官方核驗、93筆尚待逐條官方登錄，C/D全欄完成0/110**。此前清單中其他路線零散官方片段未歸入CSV前，不能當成完整或B級入帳。
+- 2026-11-14本輪直接政府資料更新；尚未完成所有國籍、收費、家屬、續居、永久居留法規及官網手機/SEO/連結測試，**仍禁止合併、禁止部署、禁止宣傳110條已核實或全部可申請**。
