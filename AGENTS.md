@@ -22,3 +22,8 @@ For user-assigned prospect enquiries, complete the linked article AND the releva
 Use `node scripts/render-herald.cjs --article content/ARTICLE.json --service content/SERVICE.json` after preparing the approved content and each page's cover. `--service` is optional and uses a matching `.cjs` renderer. Do not run `node generate-site.js` for one article; it regenerates hundreds of unrelated pages and images. Use `--dry-run` to verify rendering without writes. The targeted command runs local cover checks and upserts only the selected search/sitemap records. New articles still need registration in `insightsArticles` and links in the Herald/category indexes.
 
 Reuse the existing Herald and service-desk templates. Keep wording plain. Batch the approved page pair in one commit/deployment. Test each X preview directly in a fresh empty compose page; do not spend repeated cycles on the home composer. Leave the empty composer between the two preview checks so each URL gets a fresh card. Never publish the test drafts. Preserve user drafts. A failed platform preview remains pending and must be reported accurately.
+
+
+## 分享條位置（2026-11-14）
+
+新建與修改頁面時，社媒分享條放在正文與聯絡區之後、網站 footer 之前，且每頁只保留一組。共用 `pageShell` 預設 `shareAtBottom: true`；獨立 HTML 同步處理。保留分享、Email 與複製連結功能，手機版允許換行。
