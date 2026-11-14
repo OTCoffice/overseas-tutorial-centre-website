@@ -398,10 +398,10 @@
   },
   "/zh/services/travel-planning/": {
     "title": "旅遊規劃",
-    "image": "/assets/social/travel-planning-share-safe-20261114-v2.png",
-    "version": "v=20261114-safe2",
+    "image": "/assets/social/travel-planning-share-safe-20261114-v3.png",
+    "version": "v=20261114-safe3",
     "width": 1200,
-    "height": 600,
+    "height": 440,
     "file": "zh/services/travel-planning/index.html",
     "previousImage": "/assets/social/travel-planning-compact-link-20261030-v2.png",
     "cardType": "summary_large_image"
@@ -518,15 +518,15 @@
   },
   "/zh/services/visa-application-support/": {
     "title": "簽證陪跑",
-    "image": "/assets/social/visa-support-share-safe-20261114-v1.png",
-    "version": "v=20261114-safe1",
+    "image": "/assets/social/visa-support-share-safe-20261114-v2.png",
+    "version": "v=20261114-safe2",
     "width": 1200,
-    "height": 600,
+    "height": 440,
     "file": "zh/services/visa-application-support/index.html",
     "previousImage": "/assets/social/visa-support-zh-20260918.png",
     "cardType": "summary_large_image",
     "shareLayout": "safe-landscape",
-    "sharePageVersion": "20261114-safe1"
+    "sharePageVersion": "20261114-safe2"
   },
   "/zh/services/visiting-scholar-support/": {
     "title": "訪問學者與學術交流",
