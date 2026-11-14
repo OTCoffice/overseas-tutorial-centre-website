@@ -26,7 +26,7 @@ const css=`<style>
 </style>`;
 function hero(title,sub,desc,items){return `<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">海外督導雙語世界 · 招生部</div><h1 class="uni-hero-name">${esc(title)}</h1><h2 class="uni-hero-en">${esc(sub)}</h2><p class="hero-sub">${esc(desc)}</p><div class="actions"><a class="btn btn-primary" href="#universities">查看院校</a><a class="btn btn-secondary" href="#consultation">申請諮詢</a></div></div><aside class="service-hero-panel">${items.map(([label,detail,url])=>`<a href="${url}"><strong>${label}</strong><span>${detail}</span></a>`).join('')}</aside></div></div></section>`;}
 function shell(title,route,desc,body){return pageShell({title,description:desc,current:'zh',lang:'zh-Hant',locale:'zh',path:route,body:body+css,...(route===base+'united-states/'?{
-  image:'/assets/social/us-university-directory-share-20261114-v2.png',
+  image:'/assets/social/us-university-directory-share-20261114-v3.png',
   imageWidth:1200,imageHeight:600,imageAlt:'美國院校目錄｜海外督導 OTC'
 }:{})});}
 function contact(school=''){const msg=`您好，我想諮詢${school||'大學'}申請。\n目前學歷／年級：\n目標國家／課程：\n入學年份：\n學業及語言成績：\n全年預算：`;return `<section id="consultation" class="uni-section uni-contact"><h2>${school?'諮詢 '+esc(school)+' 申請':'大學申請諮詢'}</h2><p>告訴招生部你的學歷、目標專業、入學年份、成績與預算，安排選校及申請。已有心儀課程，可直接附上課程連結。</p><a class="btn" href="https://wa.me/447947991572?text=${encodeURIComponent(msg)}">WhatsApp 諮詢</a><a href="mailto:office@overseasuk.com?subject=${encodeURIComponent((school||'大學')+'申請諮詢')}">office@overseasuk.com</a><p>海外督導雙語世界 · 招生部　｜　WhatsApp +44 7947 991572　｜　微信 overseasus</p></section>`;}
