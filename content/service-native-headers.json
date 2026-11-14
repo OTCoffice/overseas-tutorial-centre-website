@@ -398,8 +398,8 @@
   },
   "/zh/services/travel-planning/": {
     "title": "旅遊規劃",
-    "image": "/assets/social/travel-planning-share-safe-20261114-v1.png",
-    "version": "v=20261114-safe1",
+    "image": "/assets/social/travel-planning-share-safe-20261114-v2.png",
+    "version": "v=20261114-safe2",
     "width": 1200,
     "height": 600,
     "file": "zh/services/travel-planning/index.html",
