@@ -101,6 +101,8 @@ const groups=[
   ]],
   ["living","海外生活與家庭","住宿、家校聯絡、旅行及房產管理。",[
     ["family-support","住宿、監護與緊急協調",[
+      ["海外寄宿家庭","/zh/services/homestay/","歐洲、澳紐、北美與亞洲；地區服務、合作進度及住宿詢問。"],
+      ["英國與愛爾蘭寄宿家庭","/zh/services/uk-ireland-homestay/","2027城市與餐食參考價、未成年住宿及供應商詢價。"],
       ["驛站調度與緊急協調","/services/station-dispatch-emergency-coordination/","住宿、接送、文件與跨時區聯絡，向家長更新進度。"],
       ["英國找房與租房支援","/zh/services/uk-rental-support/","留學生房源比較、租約資料、退租溝通與押金證據整理。"],
       ["香港低齡住宿與監護","/zh/services/hong-kong-minor-guardianship-homestay/","校方要求、住宿比較、照顧責任與家校聯絡。"],
@@ -181,3 +183,4 @@ ${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id
 return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:selected?.[2] ?? '查閱 OTC 服務分類與入口。',body}).replace(/[ \t]+$/gm,'');
 };
 module.exports.categories=groups.map(([id])=>id);
+
