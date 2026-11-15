@@ -953,3 +953,18 @@
 - **未核欄位**：最低薪資/合約工時精確規定、境外申請費、三地護照領事操作、家屬類別及家屬工作權、2026修法實際生效日、精確永居計算。
 - 官方來源（核對日2026-11-15）：https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/employee-card-change-of-employment/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/
 - 發布閘門：仍保持關閉；新核實欄位可作準備，不代表該路線全欄核實或110條完成。
+
+
+## 第59輪（2026-11-15）捷克 EU Blue Card 官方逐欄補核
+- ID：`czechia-eu-blue-card`；**現行路線，B部分核實，不是C/D全欄完成**。
+- 官方：捷克內政部移民資訊平台 https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/blue-card/ （2026-11-15查核）。
+- 資格：第三國高技能人才；通常至少3年高等教育或指定專業技能替代；需適合職位、藍卡招聘空缺編號、合約及薪資。
+- 重要官方頁內文字差異：概覽寫聘約至少1年，但境內及境外申請文件段落均寫至少6個月；暫保留**合同期限未釐清**，不替代政府解釋。
+- 薪資至少捷克平均毛薪1.5倍；**2026實際CZK最低薪資額待核**。
+- 外交領館境外申請費CZK 5,000；境內申請及續簽CZK 2,500。境外通常90日審理；其他EU藍卡持有人轉捷克境內申請有30日/複雜60日特殊時限。
+- 藍卡有效期為聘用合約期加3個月、最高3年；可多次續簽，最早到期前120日申請，通常60日處理；及時同職位續件有繼續工作安排。離職3個工作日內通知內政部。
+- 家屬：官方列家屬團聚及領館申請縮短90日處理，惟個別家屬工作權、資格及中國大陸/香港/台灣領事受理未核。
+- 永居：官網說5年合資格捷克或EU藍卡居留可按條件申請，不是5年自動給永居；跨境居留及缺席計算未完成。官方補源 https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/
+- 三地申請人：第三國公民一般制度可初篩，但中國大陸普通護照、香港特區護照、台灣護照各自領館/文件/簽證實際差異**尚未核**。
+- 未解：聘約最低月份矛盾、2026具體薪資數額、家屬工作權、護照領事路徑、2026生效日、跨境永居年資。
+- 累計：第54–58輪15條深入補核；之前新增捷克Employee Card 1條；本輪新增捷克EU Blue Card 1條，依此口徑**17/110有深入補核紀錄**，但所有110條仍**C/D 0/110**。未完成全站測試，嚴禁合併PR108或正式部署。
