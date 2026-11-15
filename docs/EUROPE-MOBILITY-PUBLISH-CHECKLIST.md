@@ -753,3 +753,22 @@
 
 ### 對帳與不可發布條件（2026-11-15）
 110/110為CSV已登錄來源／待核分類，不是已核驗可申請。當前分類為**101筆B部分核實、5筆新案停止但舊案欄位未補、4筆官方分類/證據爭議（其中馬爾他Citizenship by Merit非公開移民方案）**，尚待登錄入口0筆；**全欄C/D完成0/110**。仍必須核對中國大陸／香港／台灣護照、當期薪資和資金、費用、生效日期、工作、家屬、續居、永居，以及所有國家頁鏈接/手機版/SEO/無障礙/正式站測試。原PR #107已合併，這些修訂只在草稿PR #108審核分支；**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 2026-11-15 第53輪：啟動110條逐欄完整政策核驗（非宣布完成）
+
+**核心變更**：新增 `docs/europe-mobility-110-field-evidence.csv`；110條路線逐條設獨立欄位：中國大陸普通護照、香港特區護照、台灣護照、資格、薪資/資金、政府費用、許可期限、工作權、家屬、續簽、永久居留、法律生效日期，以及官方URL、證據連結、未解問題、是否C/D全欄核實。欄位沒有主管機關證據時記 `未核`，不能把既有單一政府首頁或B級總覽直接轉為12個已核欄位。原`europe-mobility-110-route-audit.csv`保留初級來源目錄，新的逐欄矩陣才是未來C/D審計依據；全欄C/D仍0/110。
+
+### 第53-A 英國 Skilled Worker 依2026-11-15當期Home Office逐欄核對
+- **國籍**：Immigration Rules Appendix Skilled Worker條款SW3.1要求境外先獲准entry clearance，SW3.3禁止阿富汗國民以該身份申請；中國大陸、香港特區、台灣旅行文件的具體認可、領館地區及簽證中心審核未獨立查完，三欄維持`部分核`而非`已核`。
+- **核心資格**：需核准sponsor的CoS、合資格SOC職位、適當薪資、英語一般至少B2；2026-01-08之前已有該路線、續簽/更新且符合條件的既有持有人，可沿用B1。官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker ; https://www.gov.uk/skilled-worker-visa/knowledge-of-english
+- **薪資/資金**：一般年薪至少**£41,700**或該職位going rate較高者，存在薪資/職類/過渡豁免；初次生活費通常**£1,270**持有至少連續28日，第28日在申請前31日內；可有已在英12月或sponsor資助例外。官方：https://www.gov.uk/skilled-worker-visa/your-job ; https://www.gov.uk/skilled-worker-visa/how-much-it-costs
+- **申請費**：當期普通境外首次≤3年£819、>3年£1,618；境內延續/轉換≤3年£943、>3年£1,865；在immigration salary list可有更低費用，通常IHS£1,035/年，醫療護理另有豁免和另案費用。官方：https://www.gov.uk/skilled-worker-visa/how-much-it-costs
+- **期限/工作權**：一次最多5年、可符合條件再續；允許核准職務及某些第二份工作、志願工作和進修，不可領大多數公共福利；換雇主或職碼通常須申請變更後才能開始新職。官方：https://www.gov.uk/skilled-worker-visa ; https://www.gov.uk/skilled-worker-visa/update-your-visa-if-you-change-job-or-employer
+- **家屬**：伴侶及符合資格子女另申請，**care worker和medium-skilled於2024/2025新政策後有子類排除/過渡**，不能一律宣稱可帶家屬。附屬資金通常伴侶£285、首名子女£315、每多一名子女£200；現有豁免另查。官方：https://www.gov.uk/skilled-worker-visa/your-partner-and-children
+- **續簽與定居**：同雇主同職碼且符合薪資時可續；2026-11-15時現行官網仍列合資格Skilled Worker通常5年申請ILR，須符合居留/薪資/雇主及其他要求；ILR政府費目前£3,226／人，伴侶另有年期及資格要求。官方：https://www.gov.uk/skilled-worker-visa/extend-your-visa ; https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/overview ; https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/family-members
+- **未生效改革**：2026-11-02政府earned settlement回應提出10年標準、多檔快慢條件，但官網明說尚待詳細規則及施行安排，不可把改革框架代替現行5年法規。2027-03-26部分定居申請英語提升B2已另有正式規則公告，需單列將來生效。官方：https://www.gov.uk/government/consultations/earned-settlement ; https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1619-5-march-2026/explanatory-memorandum-to-the-statement-of-changes-in-the-immigration-rules-hc-1691-5-march-2026-accessible
+
+**本輪具體限制**：Skilled Worker已有多欄官方證據，但缺三地細分護照、按SOC碼的例外、家屬所有分支、2026年新法規適用和定居改革過渡，所以仍維持 **B級部分核實，不升C/D**。另109條在新矩陣未取得此輪逐欄獨立比對的項目都保持`未核`，不能從Markdown歷史段落推定完成。
+
+**發布閘門**：PR #107已合併（歷史事實），此次只寫入PR #108 `audit/europe-mobility-110-official-checks`；110條B/關閉/分類證據覆蓋**不等於全部政策核驗**。所有三地護照、費用、家屬、續居、永居、生效日和手機/連結/SEO/無障礙/預覽部署實測完成前**禁止合併、禁止部署、禁止對外宣稱110條完成核驗**。
