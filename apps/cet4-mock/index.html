@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="大学英语四级在线自测卷：听力朗读、听力阅读自动判分，写作翻译按官方档次自评，按官方权重折算 710 分制估分。海外督導 OTC 免费工具。">
+<link rel="canonical" href="https://overseasuk.com/apps/cet4-mock/">
+<meta property="og:title" content="大学英语四级在线自测卷 | OTC Apps">
+<meta property="og:description" content="像考试一样作答并估算 710 分制成绩：听力、阅读自动判分，写作翻译按档次自评。">
+<meta property="og:url" content="https://overseasuk.com/apps/cet4-mock/">
+<title>大学英语四级在线自测卷 | OTC Apps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700;900&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: one column styled like a CET answer sheet — printed red rules, bubble options, a score slip at the end */
+:root{
+  --paper:#fbfaf6; --sheet:#ffffff; --ink:#1d2330; --muted:#5d6577; --rule:#e3c9c9;
+  --red:#b3242c; --red-soft:#f8e9e9; --blue:#24508f; --blue-soft:#e8eef8; --ok:#1f7a4d; --bad:#b3242c;
+  --display:"Noto Serif SC","Songti SC",serif; --body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14161c; --sheet:#1c1f27; --ink:#e7e9ef; --muted:#a2a9b8; --rule:#4a3034;
+  --red:#f07178; --red-soft:#3a2226; --blue:#8fb3ef; --blue-soft:#1f2a3d; --ok:#5fd39a; --bad:#f07178; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#14161c; --sheet:#1c1f27; --ink:#e7e9ef; --muted:#a2a9b8; --rule:#4a3034;
+  --red:#f07178; --red-soft:#3a2226; --blue:#8fb3ef; --blue-soft:#1f2a3d; --ok:#5fd39a; --bad:#f07178; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{color-scheme:light}
+body{margin:0}
+img{max-width:100%}
+.backlink{font-size:13px}
+.backlink a{color:var(--blue)}
+
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.75;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+.wrap{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+header.top{border:2px solid var(--red);background:var(--sheet);padding:18px 20px;display:grid;gap:10px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--red);text-transform:uppercase}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(26px,5vw,36px);line-height:1.2;margin:0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:13px}
+.meta b{color:var(--ink);font-family:var(--mono)}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border-top:1px dashed var(--rule);padding-top:10px}
+.clock{font-family:var(--mono);font-size:20px;font-variant-numeric:tabular-nums;color:var(--blue)}
+section.part{background:var(--sheet);border:1px solid var(--rule);border-top:4px solid var(--red);padding:18px 20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.part h2{font-family:var(--display);font-size:20px;margin:0;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline}
+.part h2 .pts{font-family:var(--mono);font-size:12px;color:var(--red);border:1px solid var(--red);padding:1px 6px}
+.dir{font-size:13.5px;color:var(--muted);border-left:3px solid var(--rule);padding-left:10px;margin:0}
+h3{font-size:15px;margin:6px 0 0;color:var(--blue)}
+.passage{background:var(--blue-soft);padding:12px 14px;font-family:Georgia,"Times New Roman",serif;font-size:15.5px;line-height:1.85;margin:0}
+.q{display:grid;gap:6px;padding:10px 0;border-top:1px solid var(--rule)}
+.q .stem{font-weight:500}
+.q .num{font-family:var(--mono);color:var(--red);margin-right:6px}
+.opts{display:grid;gap:4px}
+.opt{display:flex;gap:10px;align-items:flex-start;cursor:pointer;padding:4px 6px;border-radius:4px}
+.opt:hover{background:var(--blue-soft)}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.bub{flex:none;width:30px;height:20px;border:1.5px solid var(--red);border-radius:3px;display:grid;place-items:center;font-family:var(--mono);font-size:12px;color:var(--red);margin-top:3px}
+.opt input:checked + .bub{background:var(--ink);border-color:var(--ink);color:var(--sheet)}
+.opt input:focus-visible + .bub{outline:2px solid var(--blue);outline-offset:2px}
+.opt.right .bub{border-color:var(--ok);box-shadow:0 0 0 2px var(--ok)}
+.opt.wrong input:checked + .bub{background:var(--bad);border-color:var(--bad)}
+.en{font-family:Georgia,"Times New Roman",serif}
+button{font:inherit;cursor:pointer;border:1.5px solid var(--ink);background:var(--sheet);color:var(--ink);padding:6px 14px;border-radius:4px}
+button:hover{background:var(--blue-soft)}
+button:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+button.primary{background:var(--red);border-color:var(--red);color:#fff;font-weight:700;padding:10px 22px;font-size:16px}
+button.primary:hover{filter:brightness(1.08);background:var(--red)}
+.play{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.play small{color:var(--muted)}
+.script{font-size:13.5px;background:var(--red-soft);padding:10px 12px;white-space:pre-line;margin:0}
+.bank{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px;font-family:Georgia,serif;font-size:14.5px}
+.bank span{border:1px solid var(--rule);padding:3px 8px}
+.bank b{font-family:var(--mono);color:var(--red);margin-right:6px}
+.cloze{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.cloze label{display:flex;gap:8px;align-items:center;font-family:var(--mono);font-size:13px}
+select,textarea{font:inherit;color:var(--ink);background:var(--sheet);border:1.5px solid var(--muted);border-radius:4px}
+select{padding:4px 6px;flex:1;min-width:0}
+textarea{width:100%;min-height:200px;padding:10px;font-family:Georgia,serif;font-size:15px;line-height:1.7;resize:vertical}
+.count{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.count.ok{color:var(--ok)} .count.warn{color:var(--bad)}
+.rate{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px}
+.rate select{flex:0 1 auto}
+details{border:1px dashed var(--rule);padding:8px 12px}
+details summary{cursor:pointer;color:var(--blue);font-weight:500}
+details p,details li{font-size:13.5px}
+.slip{border:2px solid var(--ink);background:var(--sheet);padding:20px;display:grid;gap:16px}
+.slip h2{font-family:var(--display);margin:0;font-size:22px}
+.total{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}
+.total .big{font-family:var(--mono);font-size:56px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.total .of{font-family:var(--mono);color:var(--muted)}
+.verdict{font-weight:700;padding:2px 10px;border-radius:3px}
+.verdict.pass{background:var(--ok);color:#fff} .verdict.fail{background:var(--bad);color:#fff}
+.scale{position:relative;height:10px;background:var(--blue-soft);border-radius:5px}
+.scale i{position:absolute;inset:0 auto 0 0;background:var(--blue);border-radius:5px}
+.scale em{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--red)}
+.scale-l{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule)}
+td.n{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.note{font-size:12.5px;color:var(--muted);margin:0}
+.fb{font-size:13px;margin:0}
+.fb.r{color:var(--ok)} .fb.w{color:var(--bad)}
+footer{font-size:12.5px;color:var(--muted);text-align:center}
+footer a{color:var(--blue)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<nav class="backlink"><a href="/apps/">← OTC Apps &amp; Tools</a> · <a href="/">海外督導 OTC 首页</a></nav>
+<header class="top">
+  <div class="eyebrow">College English Test · Band 4 · Mock Paper 01</div>
+  <h1>大学英语四级 在线自测卷</h1>
+  <div class="meta">
+    <span>满分 <b>710</b></span><span>及格线参考 <b>425</b></span><span>建议用时 <b>125</b> 分钟</span><span>听力、阅读自动判分；写作、翻译按官方档次自评</span>
+  </div>
+  <div class="bar">
+    <span>用时 <span class="clock" id="clock">00:00</span></span>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button type="button" id="timerBtn">开始计时</button>
+      <button type="button" id="resetBtn">清空重做</button>
+    </div>
+  </div>
+</header>
+
+<section class="part" id="p1">
+  <h2>Part I&nbsp; Writing <span class="pts">106.5 分 · 15%</span></h2>
+  <p class="dir en">Directions: For this part, you are allowed 30 minutes to write an essay on <b>the importance of building good study habits at university</b>. You should write at least 120 words but no more than 180 words.</p>
+  <textarea id="essay" aria-label="作文作答区" placeholder="在这里写作文……"></textarea>
+  <div class="count" id="essayCount">0 词 · 要求 120–180 词</div>
+  <div class="rate"><label for="essayRate">交卷后对照评分标准自评：</label>
+    <select id="essayRate">
+      <option value="">未评分</option><option value="14">14 分档（13–15）切题，表达清楚，几乎无错误</option><option value="11">11 分档（10–12）切题，较连贯，少量错误</option><option value="8">8 分档（7–9）基本切题，有些语言错误</option><option value="5">5 分档（4–6）表达不清，错误较多</option><option value="2">2 分档（1–3）条理不清，大部分句子有错</option><option value="0">0 分 未作答或离题</option>
+    </select></div>
+  <details><summary>评分要点与参考范文</summary>
+    <ul><li>开头点题：说明良好学习习惯为什么重要。</li><li>主体给出 2–3 个具体习惯（如固定作息、课后复习、合理使用手机），每个配一个原因或例子。</li><li>结尾总结并呼应主题。字数不足 120 词会降档。</li></ul>
+    <p class="en">Sample: University gives students far more freedom than high school, and how we use that freedom depends largely on our study habits. First, a fixed daily routine helps us manage time well. When we study at the same hours every day, focusing becomes easier and deadlines feel less stressful. Second, reviewing lecture notes on the same day turns short-term memory into lasting knowledge, which saves a great deal of time before exams. Third, good habits include knowing when to put the phone away. Constant notifications break our attention and make an hour of study worth only twenty minutes. In short, good study habits are not about working harder but about working smarter. If we build them early, they will benefit us long after we graduate.</p>
+  </details>
+</section>
+
+<section class="part" id="p2">
+  <h2>Part II&nbsp; Listening Comprehension <span class="pts">248.5 分 · 35%</span></h2>
+  <p class="dir">点击播放后由浏览器朗读录音（建议戴耳机，每段只听一遍更接近真实考试）。交卷后可查看原文。</p>
+  <p class="note" id="ttsNote" hidden>此浏览器不支持语音朗读，请交卷后阅读原文作答练习。</p>
+
+  <h3>Section A · News Report</h3>
+  <div class="play"><button type="button" data-play="news">▶ 播放新闻</button><button type="button" data-stop>■ 停止</button><small>Questions 1–3</small></div>
+  <div id="qs-news"></div>
+
+  <h3>Section B · Conversation</h3>
+  <div class="play"><button type="button" data-play="conv">▶ 播放对话</button><button type="button" data-stop>■ 停止</button><small>Questions 4–6</small></div>
+  <div id="qs-conv"></div>
+
+  <h3>Section C · Passage</h3>
+  <div class="play"><button type="button" data-play="pass">▶ 播放短文</button><button type="button" data-stop>■ 停止</button><small>Questions 7–8</small></div>
+  <div id="qs-pass"></div>
+  <div id="scripts" hidden></div>
+</section>
+
+<section class="part" id="p3">
+  <h2>Part III&nbsp; Reading Comprehension <span class="pts">248.5 分 · 35%</span></h2>
+  <h3>Section A · 选词填空（Questions 9–18）</h3>
+  <p class="dir">从词库中为每个空选择一个词，每个词最多用一次，词库中有 5 个干扰项。</p>
+  <p class="passage" id="clozeText"></p>
+  <div class="bank" id="bank"></div>
+  <div class="cloze" id="cloze"></div>
+  <div id="clozeFb"></div>
+
+  <h3>Section C · 仔细阅读（Questions 19–23）</h3>
+  <p class="passage">In recent years, second-hand shopping has moved from the edges of the market to its center. Apps that let people resell clothes, books and electronics now attract millions of users, and young buyers are leading the trend. Some economists have read this as a sign of financial pressure on the younger generation. Surveys, however, tell a more complicated story. Many buyers say they choose used goods because they want to reduce waste, or because they enjoy finding items that no one else has.<br><br>Retailers have noticed. Several clothing brands now buy back their own products from customers, clean them, and sell them again in special sections of their stores. For these companies, resale is a way to keep customers loyal and to present a greener image.<br><br>Critics warn that the boom may not be as green as it looks. Cheap delivery encourages people to buy more often, and some resold items travel thousands of kilometers before reaching a new owner. The real environmental benefit, they argue, depends on one simple question: does a second-hand purchase replace a new one, or does it simply add to what people consume?</p>
+  <div id="qs-read"></div>
+</section>
+
+<section class="part" id="p4">
+  <h2>Part IV&nbsp; Translation <span class="pts">106.5 分 · 15%</span></h2>
+  <p class="dir">将下面这段话翻译成英文（建议用时 30 分钟）。</p>
+  <p class="passage" style="font-family:var(--body)">近年来，越来越多的中国年轻人选择在周末进行城市漫步（city walk）。他们不再追逐热门景点，而是放慢脚步，走进老街小巷，感受当地的历史和生活气息。这种休闲方式花费少、门槛低，既能锻炼身体，又能缓解压力。不少城市也借此机会推出漫步路线，带动了沿途小店和文化场所的发展。专家认为，城市漫步反映了年轻人对生活品质的新理解。</p>
+  <textarea id="trans" aria-label="翻译作答区" placeholder="Write your translation here…"></textarea>
+  <div class="count" id="transCount">0 词</div>
+  <div class="rate"><label for="transRate">交卷后对照参考译文自评：</label>
+    <select id="transRate">
+      <option value="">未评分</option><option value="14">14 分档（13–15）准确表达原意，用词贴切，几乎无错误</option><option value="11">11 分档（10–12）基本表达原意，少量错误</option><option value="8">8 分档（7–9）勉强表达原意，较多错误</option><option value="5">5 分档（4–6）仅表达小部分原意</option><option value="2">2 分档（1–3）支离破碎</option><option value="0">0 分 未作答</option>
+    </select></div>
+  <details><summary>参考译文</summary>
+    <p class="en">In recent years, more and more young people in China have chosen to go on a city walk at weekends. Instead of chasing popular tourist attractions, they slow down and wander through old streets and alleys to experience local history and daily life. This way of relaxing costs little and is easy to start. It not only helps people keep fit but also relieves stress. Many cities have taken this opportunity to launch walking routes, which has boosted small shops and cultural venues along the way. Experts believe that city walks reflect young people's new understanding of the quality of life.</p>
+  </details>
+</section>
+
+<div style="display:flex;justify-content:center"><button type="button" class="primary" id="submitBtn">交卷并查看分数</button></div>
+
+<section class="slip" id="slip" hidden aria-live="polite"></section>
+
+<footer>题目为原创模拟题，分数为按官方权重折算的估算，不代表真实考试成绩。<br>海外督導 OTC · <a href="https://overseasuk.com" target="_blank" rel="noopener">overseasuk.com</a></footer>
+</div>
+
+<script>
+const L = {
+  news:{lines:[["A","City officials in Hangzhou announced on Monday that public libraries will stay open until ten p.m. on weekdays, starting next month. The decision follows a survey in which more than sixty percent of university students said they needed quiet places to study in the evening. Officials say extra staff will be hired, and the cost will be covered by the city's education budget."]],
+    qs:[["What will happen starting next month?",["Libraries will open on weekends.","Libraries will stay open later on weekdays.","Students will pay to use libraries.","New libraries will be built near universities."],1],
+        ["Why was the decision made?",["Libraries had too few visitors.","Library staff asked for longer hours.","Students said they needed quiet places in the evening.","The city wanted to save money."],2],
+        ["How will the extra cost be covered?",["By the city's education budget.","By the universities.","By student fees.","By private donations."],0]]},
+  conv:{lines:[["M","Hi Lisa, are you going to the career fair on Friday?"],["W","I was planning to, but I have a lab report due that afternoon."],["M","The fair runs until six, so you could go after you hand it in."],["W","Good point. Do you know if any tech companies are coming?"],["M","About twenty, including a few that offer summer internships."],["W","Then I'll bring copies of my résumé. Could you look over mine tonight?"],["M","Sure. Send it to me after dinner."]],
+    qs:[["Why might the woman miss the career fair?",["She has a job interview.","She has a lab report due.","She is not interested in tech companies.","She has to work on Friday."],1],
+        ["When does the career fair end?",["At four.","At five.","At six.","At seven."],2],
+        ["What will the man do tonight?",["Go to the career fair.","Write a lab report.","Apply for an internship.","Look over the woman's résumé."],3]]},
+  pass:{lines:[["A","Many students stay up late before an exam, believing that more study time means better results. However, a group of researchers recently found the opposite. Students who slept at least seven hours after studying remembered about twenty percent more new words than those who stayed awake. During deep sleep, the brain seems to replay new information and store it more firmly. The researchers suggest reviewing material in the evening and then getting a full night's rest, rather than studying through the night."]],
+    qs:[["What did the researchers find about students who slept after studying?",["They felt more tired the next day.","They remembered more new words.","They studied fewer hours in total.","They preferred studying in the morning."],1],
+        ["What do the researchers suggest?",["Studying through the night before exams.","Taking short naps between classes.","Reviewing in the evening and then sleeping well.","Learning new words only in the morning."],2]]},
+  read:{qs:[["What does the first paragraph say about second-hand shopping?",["It is mainly popular among older people.","It has become part of the mainstream market.","It is declining because of online shopping.","It is limited to clothes and books."],1],
+        ["According to surveys, why do many young buyers choose used goods?",["They cannot afford new products.","Their parents ask them to save money.","They want to cut waste or find unique items.","Used goods are easier to buy online."],2],
+        ["How have some clothing brands responded to the trend?",["By lowering the prices of new clothes.","By buying back and reselling their own products.","By refusing to sell on resale apps.","By opening stores only for used goods."],1],
+        ["What concern do critics raise?",["Resale apps are hard to use.","Used goods are often of poor quality.","Cheap delivery may lead people to buy more.","Brands earn too much from resale."],2],
+        ["According to the critics, the environmental benefit mainly depends on",["how far an item travels.","whether used goods replace new purchases.","how many apps people use.","the price of second-hand items."],1]]}
+};
+const CLOZE_TEXT = "Learning a foreign language is less about talent than about __1__ habits. Many learners begin with great __2__ but give up after a few weeks because progress feels slow. Experts suggest setting small, __3__ goals, such as learning ten new words a day. It also helps to __4__ the language into daily life: listening to podcasts on the way to class, or labeling objects at home. Regular review is __5__, since new words are quickly forgotten if they are not used. Speaking with others may feel __6__ at first, yet it is one of the most __7__ ways to improve. Mistakes should be seen as a __8__ part of learning rather than a sign of failure. Over time, these small steps __9__ into real ability, and learners often find that they understand far more than they __10__.";
+const BANK = ["abandon","awkward","consistent","develop","effective","enthusiasm","essential","expected","frequently","integrate","natural","obvious","privately","realistic","separate"];
+const LET = "ABCDEFGHIJKLMNO";
+const CLOZE_KEY = ["consistent","enthusiasm","realistic","integrate","essential","awkward","effective","natural","develop","expected"];
+const W = {news:7.1*35/24.85, conv:7.1*35/24.85, pass:14.2*35/24.85};
+
+let qn = 0; const allQ = [];
+function renderQs(key, startLabel){
+  const box = document.getElementById("qs-"+key);
+  L[key].qs.forEach((q,i)=>{
+    qn++; const id = key+i; const n = key==="read" ? 18+i+1 : qn;
+    const d = document.createElement("div"); d.className="q"; d.dataset.key=id;
+    d.innerHTML = `<div class="stem en"><span class="num">${n}.</span>${q[0]}</div><div class="opts">${q[1].map((o,j)=>`<label class="opt" for="${id}-${j}"><input type="radio" name="${id}" id="${id}-${j}" value="${j}"><span class="bub">[${"ABCD"[j]}]</span><span class="en">${o}</span></label>`).join("")}</div><p class="fb" hidden></p>`;
+    box.appendChild(d); allQ.push({id, key, ans:q[2], el:d, n});
+  });
+}
+["news","conv","pass"].forEach(k=>renderQs(k)); renderQs("read");
+
+document.getElementById("clozeText").innerHTML = CLOZE_TEXT.replace(/__(\d+)__/g,(m,n)=>`<b style="font-family:var(--mono);color:var(--red)">__${8+ +n}__</b>`);
+document.getElementById("bank").innerHTML = BANK.map((w,i)=>`<span><b>${LET[i]}</b>${w}</span>`).join("");
+document.getElementById("cloze").innerHTML = CLOZE_KEY.map((_,i)=>`<label for="c${i}">${9+i}.<select id="c${i}"><option value="">—</option>${BANK.map((w,j)=>`<option value="${w}">${LET[j]} ${w}</option>`).join("")}</select></label>`).join("");
+
+/* speech */
+const synth = window.speechSynthesis;
+if(!synth){ document.getElementById("ttsNote").hidden=false; document.querySelectorAll("[data-play],[data-stop]").forEach(b=>b.disabled=true); }
+function pickVoices(){
+  const v = synth ? synth.getVoices().filter(x=>/^en[-_](US|GB)/i.test(x.lang)) : [];
+  const f = v.find(x=>/female|samantha|zira|libby|sonia|aria|jenny/i.test(x.name)) || v[0];
+  const m = v.find(x=>/male|daniel|david|guy|ryan|alex|fred/i.test(x.name) && x!==f) || v.find(x=>x!==f) || f;
+  return {A:f, W:f, M:m};
+}
+document.querySelectorAll("[data-play]").forEach(b=>b.addEventListener("click",()=>{
+  if(!synth) return; synth.cancel(); const vs = pickVoices();
+  L[b.dataset.play].lines.forEach(([who,t])=>{ const u=new SpeechSynthesisUtterance(t); u.lang="en-US"; u.rate=0.95; if(vs[who]) u.voice=vs[who]; if(who==="M") u.pitch=0.8; if(who==="W") u.pitch=1.15; synth.speak(u); });
+}));
+document.querySelectorAll("[data-stop]").forEach(b=>b.addEventListener("click",()=>synth&&synth.cancel()));
+
+/* counters */
+const wc = s => (s.trim().match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g)||[]).length;
+const essay=document.getElementById("essay"), ec=document.getElementById("essayCount");
+essay.addEventListener("input",()=>{const n=wc(essay.value); ec.textContent=`${n} 词 · 要求 120–180 词`; ec.className="count "+(n>=120&&n<=180?"ok":n>0?"warn":"");});
+const trans=document.getElementById("trans"), tc=document.getElementById("transCount");
+trans.addEventListener("input",()=>{tc.textContent=`${wc(trans.value)} 词`;});
+
+/* timer */
+let t0=null, acc=0, tick=null; const clock=document.getElementById("clock"), tb=document.getElementById("timerBtn");
+const fmt=s=>`${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`;
+function elapsed(){return acc+(t0?Math.floor((Date.now()-t0)/1000):0);}
+tb.addEventListener("click",()=>{ if(t0){acc=elapsed();t0=null;clearInterval(tick);tb.textContent="继续计时";} else {t0=Date.now();tick=setInterval(()=>clock.textContent=fmt(elapsed()),500);tb.textContent="暂停计时";} });
+
+/* reset */
+let resetArmed=false; const rb=document.getElementById("resetBtn");
+rb.addEventListener("click",()=>{ if(!resetArmed){resetArmed=true;rb.textContent="再点一次确认清空";setTimeout(()=>{resetArmed=false;rb.textContent="清空重做";},3000);return;} location.reload(); });
+
+/* scoring */
+document.getElementById("submitBtn").addEventListener("click",()=>{
+  if(synth) synth.cancel();
+  let lis=0, lisMax=0, lisRight=0, readRaw=0, readRight=0;
+  allQ.forEach(q=>{
+    const sel=q.el.querySelector("input:checked"); const v=sel?+sel.value:-1; const ok=v===q.ans;
+    q.el.querySelectorAll(".opt").forEach((o,j)=>{o.classList.toggle("right",j===q.ans);o.classList.toggle("wrong",j===v&&!ok);});
+    const fb=q.el.querySelector(".fb"); fb.hidden=false; fb.className="fb "+(ok?"r":"w"); fb.textContent= ok?"✓ 正确":`✗ 正确答案 ${"ABCD"[q.ans]}`+(v<0?"（未作答）":"");
+    if(q.key==="read"){ if(ok){readRaw+=14.2;readRight++;} }
+    else { const w=q.key==="pass"?14.2:7.1; lisMax+=w; if(ok){lis+=w;lisRight++;} }
+  });
+  let clozeRight=0; CLOZE_KEY.forEach((k,i)=>{const s=document.getElementById("c"+i); const ok=s.value===k; if(ok)clozeRight++; s.style.borderColor= ok?"var(--ok)":"var(--bad)";});
+  readRaw += clozeRight*3.55;
+  document.getElementById("clozeFb").innerHTML = `<p class="fb">选词填空答案：${CLOZE_KEY.map((k,i)=>`${9+i}. ${LET[BANK.indexOf(k)]} ${k}`).join("；")}</p>`;
+  const listening = lis/lisMax*248.5;
+  const reading = readRaw/(35.5+71)*248.5;
+  const er=document.getElementById("essayRate").value, tr=document.getElementById("transRate").value;
+  const writing = er===""?0:+er*7.1, translation = tr===""?0:+tr*7.1;
+  const total = Math.round(listening+reading+writing+translation);
+  const pass = total>=425;
+  const pct = Math.min(100,total/710*100);
+  /* scripts */
+  const sc=document.getElementById("scripts"); sc.hidden=false;
+  sc.innerHTML = ["news","conv","pass"].map(k=>`<details><summary>录音原文 · ${{news:"Section A",conv:"Section B",pass:"Section C"}[k]}</summary><p class="script en">${L[k].lines.map(([w,t])=>(w==="A"?"":w+": ")+t).join("\n")}</p></details>`).join("");
+  const slip=document.getElementById("slip"); slip.hidden=false;
+  const missing = [er===""?"写作":"",tr===""?"翻译":""].filter(Boolean);
+  slip.innerHTML = `<h2>成绩单 Score Report</h2>
+   <div class="total"><span class="big">${total}</span><span class="of">/ 710</span><span class="verdict ${pass?"pass":"fail"}">${pass?"达到 425 分线":"未达 425 分线"}</span></div>
+   <div><div class="scale"><i style="width:${pct}%"></i><em style="left:${425/710*100}%"></em></div><div class="scale-l"><span>0</span><span>425</span><span>710</span></div></div>
+   <div style="overflow-x:auto"><table><thead><tr><th>部分</th><th>情况</th><th style="text-align:right">得分</th><th style="text-align:right">满分</th></tr></thead><tbody>
+   <tr><td>写作</td><td>${er===""?"未自评":er+" 分档（自评）"}</td><td class="n">${writing.toFixed(1)}</td><td class="n">106.5</td></tr>
+   <tr><td>听力</td><td>答对 ${lisRight}/8</td><td class="n">${listening.toFixed(1)}</td><td class="n">248.5</td></tr>
+   <tr><td>阅读</td><td>选词 ${clozeRight}/10 · 仔细阅读 ${readRight}/5</td><td class="n">${reading.toFixed(1)}</td><td class="n">248.5</td></tr>
+   <tr><td>翻译</td><td>${tr===""?"未自评":tr+" 分档（自评）"}</td><td class="n">${translation.toFixed(1)}</td><td class="n">106.5</td></tr>
+   </tbody></table></div>
+   ${missing.length?`<p class="fb w">${missing.join("、")}尚未自评，暂按 0 分计。展开上方参考答案后选择分档，再点一次“交卷”即可更新总分。</p>`:""}
+   <p class="note">用时 ${fmt(elapsed())}。听力、阅读按官方各题型分值比例折算到 248.5 分；写作、翻译按“分档 × 7.1”折算。本卷题量少于真实考试，结果仅供参考。</p>`;
+  slip.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+});
+</script>
+
+</body>
+</html>
