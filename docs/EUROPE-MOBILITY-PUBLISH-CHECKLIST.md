@@ -902,3 +902,41 @@
 ### 第57輪對帳與發布限制
 - 官方路線／分類證據索引110/110，逐欄矩陣110/110；第54–57輪累計深入補核12條（不含Graduate關聯政策）。全部欄位C/D仍**0/110**。本輪3筆仍B級，三地領館申辦、部分家屬、工作、永居年資/生效日等未完。
 - 原PR #107已合併；此次只更新draft PR #108 `audit/europe-mobility-110-official-checks`。**DO NOT MERGE / DO NOT DEPLOY / 不宣稱全量核驗完成**。
+
+
+## 2026-11-15 第58輪：愛爾蘭 CSEP、奧地利 Red-White-Red、瑞典 Work Permit（官方逐欄與三地護照）
+
+**範圍**：根據 RUN 原始 `data/programmes.json` 99條及 `src/extra_routes.json` 11條之索引（計110唯一ID、36國），本輪逐欄新增3筆官方證據。研究日期：**2026-11-15**；此輪僅 `audit/europe-mobility-110-official-checks` 分支，**B部分核實**，C/D仍0/110，未動正式主站/PR#107。注意RUN自身94條「open」、5條「closed」、11條未提供狀態預設open都是原始資料**非政府當期核准狀態**。
+
+### 愛爾蘭 `ireland-critical-skills-employment-permit`（現行，部分核驗）
+- **資格及2026薪資**：愛爾蘭DETE的CSEP職位要真正經營的合資格僱主、至少兩年聘約。2026-03-01起合資格緊缺職類一般年薪 **€40,904**；符合12個月內取得合資格學歷者可適用 **€36,848** 例外；高薪開放職類 **€68,911** 年額（排除不合格職類、並有學歷/經驗與公營薪酬特殊規則）。工簽申請費 **€1,000**、不成功通常退90%；簽證/IRP其他費用另計。2025-12-02薪酬路線圖已明定2026-03-01施行，**此日期不代表整個CSEP才推出**。
+- **三地證件**：中國大陸普通護照需依ISD另申愛爾蘭Employment D長期入境簽，且應**先取得DETE工作許可**；香港特區、台灣列在政府官方非入境簽證國籍/地區清單。三者均需實際Employment Permit、移民官入境批准/居留登記；**免入境簽不是免工作許可**。政府非簽國籍表有較舊公示，三地個別旅行證件和領館新要求仍部分核實。
+- **家屬**：CSEP屬可立即為配偶、民事/實質伴侶及符合條件家庭申請團聚的類別；配偶/伴侶獲Stamp1G後可工作毋須獨立Employment Permit。**DETE舊CSEP介紹仍寫申請免費Dependant/Partner/Spouse Employment Permit，與ISD更新2024-05-15的Stamp1G政策不同；核定以較新ISD移民主管機關安排處理，後續留意更新**。子女權利另核。
+- **居留/永居**：基於CSEP實際工作滿**21個月可按條件申請Stamp4**（每2年續），但**Stamp4不是永居**；ISD Long Term Residency另一般要求**60個月基於employment permit的Stamp1/Stamp4合法居留**，獲批准後給予5年免Employment Permit的工作居留，不能以21個月混淆。
+- 官方：DETE https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html ; https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/fees/ ; ISD https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-renew-your-current-permission/information-on-stamp-4-upgrades/ ; https://www.irishimmigration.ie/coming-to-join-family-in-ireland/joining-a-non-eea-non-swiss-national/ ; https://www.irishimmigration.ie/attention-eligible-spouses-and-partners-of-general-employment-permit-and-intra-corporate-transferee-irish-employment-permit-holders/ ; https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/long-term-residency/ ; 非簽表 https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/press-releases/single-application-procedure-for-employment-permits-and-immigration-permissions-to-be-developed/
+- **待解**：三地當期護照領區和台灣旅行證件細節、家屬子女工作權、完整個案/IRP費、實際工資組成豁免、愛爾蘭DETE舊介紹與ISD現行Stamp1G呈現差異，C/D未達。
+
+### 奧地利 `austria-red-white-red-card`（現行多子類，部分核驗）
+- **2026短缺職類核驗重要更正**：RWR概覽頁的連結標題可能仍說「2025 shortage occupations」，但奧地利2026官方清單已生效；以RIS的**Fachkräfteverordnung 2026，BGBl. II 316/2025**為準，2025-12-23公布，**2026-01-01至12-31**有效。核對全國與州別兩份2026清單，不得沿用2025名單替2026申請人定資格。
+- **資格、費用**：短缺職類要2026法定名單/對應訓練、offer和AMS積分**55分**以上、至少集體協約薪資；RWR一般有效24月，綁定批准雇主；申請費官方 **€218**。**其他關鍵員工**另有2026最低毛月薪**€3,465**及勞動市場測試；不能把這一數字套進全部RWR子類。
+- **三地護照**：中國大陸普通護照通常須申根短期簽；香港特區護照短期旅遊/商務90天免申根簽；**台灣護照須印身分證號才90/180短期免簽**。但RWR全須居留/工作批准；有簽證要求者尚要辦相應D簽領取卡片，不能以旅遊免簽直接工作。
+- **家屬工作權**：配偶/註冊伴侶一般申請時至少21歲，子女申請時未滿18歲；通過家庭許可資格後可取得**Red-White-Red Card plus，享不受雇主限制的勞動市場准入**。通常先備A1德文（有特定例外），家屬資金、住宿和健康保險要求仍須合格；2026一般ASVG財力參考單身€1,308.39、夫婦€2,064.12，每名兒童再€201.88，按具體規則/支出核。
+- **續期及永居**：前24個月依RWR條件受僱至少21個月可申**RWR plus**，這是**可自由工作但仍有限期的居留**，非永居；一般需合法連續定居5年、滿足其他標準並完成Integration Module2（通常德語B1+社會法律常識），才可申長居EU。
+- 官方：短缺申請 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/ ; 2026全國 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/ ; 州別 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/regional-shortage-occupations/ ; RIS原法 https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_II_316/BGBLA_2025_II_316.html ; 期間 https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40274302/NOR40274302.html ; 其他員工 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-key-workers/ ; 家屬 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/ ; 整合 https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/ ; 官方台灣簽 https://www.bmeia.gv.at/en/austrian-office-taipei/travels-to-austria/entrance-and-residence/how-to-apply ; 香港領館 https://www.bmeia.gv.at/gk-hongkong/reisen-nach-oesterreich/einreise-und-aufenthalt/wie-stelle-ich-einen-antrag/
+- **待解**：各RWR子類薪酬和申請文件的逐型對應、2026職位個別申請是否符合、三地領區D簽實操、家屬例外與長居年資缺席判準；不能把短缺職位目錄當整張RWR永久有效。
+
+### 瑞典 `sweden-work-permit`（現行，2026新規及過渡，部分核驗）
+- **薪資政策與生效日**：2026-06-01起新work permit普遍最低**瑞典中位薪資90%**；2026-06-16公布中位工資SEK38,300，當期底線**SEK34,470/月**（仍需至少符合集體協約/業界慣例）。政府列舉例外職業/類別為中位薪資**75%（SEK28,725）**，非所有人自動適用。部分職業（如森林野果採集、私人助理）自6月1日起不可核簽。
+- **費用/居留**：申請SEK2,200；成年家屬SEK1,500、子女SEK750。合格聘約、職保/綜合醫保等；工作許可最長2年且不長於聘約和護照效期。
+- **三地證件**：中國大陸普通護照、香港特區護照及台灣旅行文件都按非EU/EEA工作許可制度審批；中國大陸通常須申根短期簽、香港短期免簽、台灣載身分證號者短期免簽，但**短期簽證規則不能推論可在瑞典工作**，領館及生物辨識實操逐個保留部分核。
+- **家屬權利與2026-10-01改制**：合格配偶/登記或同居伴侶、未滿21歲子女（特定21+受養例外）可隨主申請人一起申請，獲准後成年家屬及申請年度滿16歲子女可以工作；主申請人須維持足夠家庭收入及住宿。**2026-10-01起工作許可家屬的扶養資力要求延伸至續簽**，有家庭收入計算和其他家庭團聚類別的不同例外，不應把一般其他家屬類別「居住2年才可團聚」直接套用到同時申請的受僱者家屬。
+- **舊簽續期過渡**：2026-06-01前已獲批的許可在6/1至**12/1**期間延簽，仍可能沿用**80%中位薪資**規則（當期SEK30,640），**2026-12-02**及以後登記延簽原則要新90%（法定豁免除外），並非所有持卡人從6月1日立即升90%。
+- **永久居留**：近7年內持工作許可並符合條件工作至少**4年**，可隨延簽申請永久居留，另需持續自我維生及品行評估；已持家屬許可至少3年且成年的家屬須財務自立等，可申請自己的永居。**非自動取得**。
+- 官方：主規則 https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/employees.html ; 薪資 https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html ; 2026-06-16新中位 https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html ; 續期與永居 https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html ; 家屬新規 https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingemployees.5.15b2309e1a04e5ed2071c33.html ; 家屬詳情 https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/family-of-an-employee-or-self-employed-person-who-apply-afterwards.html
+- **待解**：具體三地領區與實際旅行文件、雇主變動要求、75%豁免名單個案、家屬特殊例外和延簽個案過渡情況；永居4/7年缺席及其他計算細節。
+
+### 第58輪進度及品質閘門（2026-11-15）
+- RUN來源資料99+11／36國／110唯一ID核對完成，**94個原RUN open、5個原RUN closed、11個無狀態預設open皆不代表政府當期核定**。
+- **110/110已登錄來源及矩陣；第54–58輪累計深入逐欄補核15條**（本輪3條），另外95條尚待同等逐欄深核。**C/D全欄驗證仍0/110**，本輪三條仍為B部分核實。
+- 未完成三地各領館、歷史法條生效和部分家屬細則；待確認不可寫「全條核驗通過」。第57輪的英國Graduate只是索引外關聯政策，不列入110。
+- 原PR #107曾用於站點導覽，本輪依安全原則**僅更新draft PR #108分支**，不回寫已合併PR107，也未更動正式網站或發布。**DO NOT MERGE / DO NOT DEPLOY**；需110條C/D全部核實與全站回歸/手機/SEO/可訪問性測試通過後再審正式部署。
