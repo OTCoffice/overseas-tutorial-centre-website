@@ -643,3 +643,35 @@
 ### 第48輪進度、發布閘門
 - CSV此前5條停止新申請＋12條B部分核實＋93筆尚待；本輪將三條待審更新為B，**最新5條停止新申請（舊案待查）＋15條B＋90條待官方逐條登錄，全部C/D=0/110**。部分路線已有獨立清單段落不等於已全欄核驗。
 - 不合併、不部署、不修改main、不宣稱110條全部核實，也不在全站手機/連結/SEO/可訪問性及全部政策核驗之前放行發布。
+
+
+## 2026-11-15 第49輪：加速推進20條政府官方核心欄位核對（累計40條有證據；C/D仍0）
+
+**範圍與方法**：根據既有110條 CSV 選取20條尚未登錄B級的路線，逐一核對2026-11-15可取得之移民主管機關／政府官方指南（不採第三方移民博客）。本表中的B表示**只有部分官方欄位支持**，未證明11類欄位（特別是中國大陸／香港／台灣旅行證件、申請領區、完整費用、家屬、續居、永居及生效條文）全部核實。官方政府網址為直接證據索引；個別政府頁後續可能更改。僅寫入 draft PR #108，**不得合併／發布**。
+
+| RUN slug（原未核路線） | 現行核實的核心要求（官方證據；2026-11-15） | 未完成／特別風險 | 官方URL |
+|---|---|---|---|
+| `uk-skilled-worker` | Home Office：合資格聘用需核准擔保僱主；一般年薪£41,700或職位going rate取高 | 職業碼及優惠/過渡門檻、家屬職類限制、簽證/維持費、5年定居及未生效改革 | https://www.gov.uk/skilled-worker-visa/your-job |
+| `uk-global-talent` | Home Office：認可背書或合資格獎項；簽證£766加IHS；每次最多5年，可續，個別3/5年ILR | 背書領域、各家屬要求、英國定居改革及生效日 | https://www.gov.uk/global-talent |
+| `uk-hpi` | Appendix HPI：前5年內合格大學及年份、英語B2、通常£1,270資金，學歷認證；£880簽證費（見gov.uk費用頁）；通常2年、博士3年，不可續或直接定居 | 依學位授予年度名單、Ecctis當期費、個別領事及家屬 | https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual |
+| `germany-opportunity-card` | 聯邦官方Make it in Germany：2026財力€1,091/月；初次最長1年；兼職每週20小時、每雇主試工最多兩週；積分或完全認可資格 | 護照、申請館、家屬、卡續期、職業轉換及永居 | https://www.make-it-in-germany.com/en/visa-recognition/opportunity-card/job-search |
+| `germany-skilled-worker-18a-18b` | 聯邦§18a/18b：認可職業/大學資格、合資格具體聘書及受監管職業執照；首次赴德45歲以上通常有2026年薪€55,770或退休保障要求 | 國籍與領區、職類/職業資格豁免、費用、期限、家屬與永居 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals |
+| `germany-eu-blue-card` | 聯邦2026一般年薪€50,700；特定緊缺職業/近三年新畢業及特殊IT可為€45,934.20；至少6個月相符聘用，條件化取得 | Bundesagentur審批、家屬/費用、永居年資、年度門檻調整 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card |
+| `portugal-d7-visa` | 葡萄牙gov.pt 2026-05-22更新：退休、宗教、自有收入人士可依官方「residence visa」申請，需資金與來源證明、住宿、保險 | D7是非官方俗稱；2026真實領館費、各家屬金額/團聚、續簽、永居及2025後法改 | https://www.gov.pt/servicos/pedir-um-visto-de-residencia-para-fixacao-de-residencia-de-reformados-religiosos-e-pessoas-que-vivem-de-rendimentos-proprios |
+| `portugal-digital-nomad-visa` | AIMA Art 88(1)：向葡境外企業/客戶提供遠距專業工作；居留卡初次2年、續期可每次3年 | 領館D8簽的資金/各家屬、入境文件、居留費、長期居留另核 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe |
+| `hungary-white-card` | OIF：境外僱主/境外盈利公司遠距工作，持續淨收入至少€3,000/月、前6月也需達標；許可1年可續1次；不容許本地受僱及一般家庭團聚 | 三地領事程序、費用、例外、其他許可轉換；**不得標為永居路線** | https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads |
+| `france-talent-qualified-employee` | Business France 2026-05-11核：法國合資格畢業學歷、至少3月聘用、年薪€39,582（網站標示2025-08-31標準），許可最長4年可續 | 國內其他機關較舊頁面可能有數字衝突、2026立法、費用、家庭及長居 | https://welcome.businessfrance.fr/simplanter-en-france/recruter-des-talents-internationaux/visas-et-titres-de-sejour/recrutement-salaries-etrangers/talent-salarie-qualifie/ |
+| `france-eu-blue-card` | 法國Service-Public 2026條件：高技能、至少6個月聘用、年薪€59,373，許可可最多4年；配偶可依Talent家屬制度工作 | **2026 Business France文件仍有12個月合同要求，與6個月說明衝突**；2026-10-30新法規影響、三地領區/收費及永居待核 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `netherlands-eu-blue-card` | IND 2026-11-12更新：EU/EEA/瑞士以外的高學歷受僱人士，須符合EU Blue Card認定及國家薪資/資格要求 | 年薪數額、認可或學歷經驗替代、申請費、家屬、長居及領館個案未全核 | https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit |
+| `denmark-startup-denmark` | SIRI：創新商業計劃須先獲專家小組批准、企業由本人實質營運、最多3名共同創業人，年度上限75名，費DKK3,060 | SIRI頁面顯示部分2025生活資金數字，**不可當作2026**；國籍/家屬/許可續居待核 | https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark |
+| `czechia-digital-nomad-program` | 捷克工業貿易部：適用高度IT/市場行銷僱員及自由職業者；**當前公開國籍名單含台灣，未列中國大陸或香港** | 不等於其他捷克居留途徑不能申請；具體政府加速計劃文件、簽證費、家屬與永居待核 | https://mpo.gov.cz/en/foreign-trade/economic-migration/digital-nomad-program--275799/ |
+| `greece-digital-nomad-visa` | 希臘區域行政官方FAQ：遠距工作者月淨收入至少€3,500；配偶/伴侶+20%，每子女+15% | 官方Q&A同時提FIP，**不得混淆兩種路線**；簽證費、期限、國籍和工作權及永居待核 | https://e-dm.gov.gr/allodapoi-metanastefsi/ |
+| `spain-digital-nomad-visa` | 西班牙移民部UGE依Law14/2013 Art74bis確認境外企業遠距工作；資金基準200% SMI，簽證/居留期限另依條款 | SMI數值依年度、僱傭與社保、家屬及地別費用、續期/長居逐欄待核 | https://www.inclusion.gob.es/es/web/unidadgrandesempresas/teletrabajadores |
+| `italy-digital-nomad-remote-worker-visa` | 義大利外交部駐都柏林使館：高技能遠距僱員/自由職業，需醫保、住址、至少6個月相關經驗及足夠收入 | 收入金額依法律與個別領館，非自動獲本地自由就業；三地護照/申請費/續期及永居待核 | https://ambdublino.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/digital-nomad-visas/ |
+| `italy-elective-residence` | 義大利駐馬爾他使館：自有穩定被動資金、居住安排，**不得在意大利工作**；該領館標D簽€116 | **馬爾他領館費及文件要求不可套用中國/香港/台灣**；不同館收入/家屬、續簽長居待核 | https://amblavalletta.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/residenza-elettiva/ |
+| `finland-entrepreneur-startup-permit` | Migri：需Business Finland正面Eligibility Statement；2026地區淨月收入€1,210/1,090/1,030，首次最多2年；首次電子費€650、紙本€800 | 首次境外申請；statement須4個月內有效；工作/家屬、續簽及永居另查 | https://migri.fi/start-up-entrepreneur |
+| `malta-single-permit` | Identità：第三國公民須由馬爾他雇主線上代申請；一般首次€600、續期€150/年；僅批准的雇主/職務可工作 | 遞件不等於可立刻工作；須正式Temporary Authorisation to Work或有效居留；家屬/薪資/永居另核 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/ |
+
+**共同的三地國籍欄位限制**：除捷克Digital Nomad已直接核對主管部門國籍名單以外，其他大多數頁面只明列「第三國公民」，**仍須逐一核對中國大陸普通護照、香港特區護照與台灣護照在入境、長期簽證、領區、文件及特殊豁免上的不同待遇**。所有未明示之工作權、家屬、續簽、永居、生效日一律保留「未確認」，不得作為客戶正式資格判斷。
+
+**批次後核算**：原5條已官方確認關閉新案＋15條B部分核實＋90條未CSV核驗。本輪新增20條B，得到 **5條關閉＋35條B＋70條未核＝110條**；**C/D全欄核實仍是0/110**。數字40/110只代表有某些官方核實證據而非40條全部核驗。所有修改只在 `audit/europe-mobility-110-official-checks` 的Draft PR #108分支；PR #107原先已被合併、不能再當未發布分支。**不合併、不部署、不解除網站發布閘門**。
