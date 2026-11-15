@@ -772,3 +772,34 @@
 **本輪具體限制**：Skilled Worker已有多欄官方證據，但缺三地細分護照、按SOC碼的例外、家屬所有分支、2026年新法規適用和定居改革過渡，所以仍維持 **B級部分核實，不升C/D**。另109條在新矩陣未取得此輪逐欄獨立比對的項目都保持`未核`，不能從Markdown歷史段落推定完成。
 
 **發布閘門**：PR #107已合併（歷史事實），此次只寫入PR #108 `audit/europe-mobility-110-official-checks`；110條B/關閉/分類證據覆蓋**不等於全部政策核驗**。所有三地護照、費用、家屬、續居、永居、生效日和手機/連結/SEO/無障礙/預覽部署實測完成前**禁止合併、禁止部署、禁止對外宣稱110條完成核驗**。
+
+
+## 2026-11-15 第54輪：三地護照／家屬／永居／生效日期專項（逐欄矩陣3條）
+
+**執行規則**：本輪僅把有官方主管機關直接證據的欄位寫入 `docs/europe-mobility-110-field-evidence.csv`；其餘保留未核。特別區分短期免簽（90/180）、特定政府促進計劃適用國籍、長期簽證與永久居留，四者不能互推。C/D依然0/110。查核日期：**2026-11-15**。
+
+### 捷克 `czechia-digital-nomad-program` 
+- 工業貿易部2025-07-01數字遊民專頁適用國籍清單含**台灣**，未列中國大陸及香港；這只限制這項加速計劃，不表示兩地申請人不能走其他捷克合法居留方案。
+- 該計劃針對高技能IT/行銷的境外遠距受僱者與合資格自由職業者；配偶、註冊伴侶及符合條件子女可同時參與政府計劃，但各人仍須按其目的另辦長期簽證/居留。
+- 捷克內政部一般永久居留條件通常**5年連續合法居留**，須依所持具體長期簽證/居留類別、缺席及排除期間計算，**加速計劃入選本身不給永居**；家屬受僱權另查。
+- 來源：https://mpo.gov.cz/en/foreign-trade/economic-migration/digital-nomad-program--275799/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/ ; https://ipc.gov.cz/en/administrative-proceedings/continuous-residence/
+- 尚待：台灣旅行證件申請領區、家屬工作/續期、具體簽證年資算法及當期費用。
+
+### 斯洛文尼亞 `slovenia-digital-nomad-permit`
+- 駐北京使館：中國大陸**普通護照須短期簽**、香港特區與台灣護照**短期免簽**；上述是短期入境規則，不是長期數字遊民居留資格已批准。
+- 內政部：該非EU/EEA境外遠距工作臨時居留**2025-11-21正式推出**，最多1年、不可延長同一許可；原許可屆滿6個月後才可重新申請同類；許可有效期間可改申其他合資格居留。
+- 家屬可**即時申請團聚**，不受一般居留年限限制，但家屬當地獨立工作權及該簽證能否計永居年資沒有核實，保持「未核」。
+- 來源：https://www.gov.si/en/representations/embassy-beijing/visa-information-of-the-embassy-beijing/ ; https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads
+- 尚待：三地實際申辦地及文件、家屬受僱、合法居留年資和新法修訂。
+
+### 拉脫維亞 `latvia-remote-work-visa`
+- 外交部2026-03-26免簽名單：香港特區可90/180日短期免簽；台灣護照**須載有身分證號**；中國大陸普通護照不在一般短期免簽名單（外交護照另有例外）。**短期免簽不等於D簽。**
+- OCMA 2026-06-15遠距工作D簽頁：境外雇主或自僱須在OECD會員國註冊，雇員要證明至少6個月既有聘用；當時規定月收入€4,538，D簽最多1年；**不准在拉脫維亞本地受僱**。
+- OCMA官方2026-09-15新Immigration Law實施公告稱D簽申請程序保持不變；家屬能否隨行與工作、再次申請、永居年資未經直接核實。
+- 來源：https://www.mfa.gov.lv/en/countries-and-territories-whose-citizens-may-enter-latvia-without-visa ; https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work ; https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations
+- 尚待：三地長期簽證領事流程、家屬資格、D簽續居/轉永居年資。
+
+### 本輪進度與限制
+- 110條都已建立逐欄矩陣；本輪對**3條**補上實際三地國籍、家屬、續居、永居及生效日期的官方核對證據，並明確保留未核欄位。**這不是3條整體通過C/D，也不是全部110條完成。**
+- 優先下一批：同類遠距工作（克羅地亞、塞浦路斯、馬爾他），並以主管機關逐欄核定；其他路線仍待逐條同樣處理。
+- PR #108僅審核，原PR #107已合併；**DO NOT MERGE / DO NOT DEPLOY / 不宣稱全量核驗完成**。
