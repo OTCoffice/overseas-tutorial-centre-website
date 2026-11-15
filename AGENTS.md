@@ -27,3 +27,19 @@ Reuse the existing Herald and service-desk templates. Keep wording plain. Batch 
 ## 分享條位置（2026-11-14）
 
 新建與修改頁面時，社媒分享條放在正文與聯絡區之後、網站 footer 之前，且每頁只保留一組。共用 `pageShell` 預設 `shareAtBottom: true`；獨立 HTML 同步處理。保留分享、Email 與複製連結功能，手機版允許換行。
+
+
+## Mandatory page creation / revision gate (2026-11-15, user correction)
+
+**This is a blocking instruction for every OTC website page, not a suggestion.** Always read `docs/WEB-COPY-STYLE-ZH.md` and inspect the current approved reference page **before** modifying source or output. Follow the user's named reference (e.g. 「美國留學」) literally; find that actual page and its image/stylesheet first. If unable to locate the exact reference, do not improvise a visually unrelated cover.
+
+1. **Find source of truth**: inspect `AGENTS.md`, the style document, the exact reference page, target page, its renderer/source, existing cover and shared footer. Avoid editing generated HTML alone if the renderer will overwrite it.
+2. **No unrelated image reuse**: image file, visible headline, H1, page title, canonical, OG/Twitter title/description and link destination must all refer to the **same exact subject**. European mobility MUST NOT use a Europe exchange, agriculture, study-abroad-US, or any unrelated service image. An existing file is not a shortcut for a new page-specific asset.
+3. **User's latest cover spec wins**: for named US-study visual reference, use the approved navy/brick red/gold/warm-white academic header, Noto Serif TC Chinese and Georgia English. Share cover **1200×440**, active content y=40–399, preserve x=180–1020 safety, max 3 short right-hand information items. Match actual image dimensions. The latest user instruction can override dimensions.
+4. **Separate header from share cover**: editing share preview does not authorize redesign of the webpage hero. Preserve the authentic OTC service-desk layout and palette. No made-up oversized card-based design or unrelated scenic illustrations.
+5. **Verify before commit**: check actual image bytes, PNG/JPG MIME and dimensions; inspect the image visually; verify that the rendered page loads the real file. OG/Twitter images and text must match the page and the intended share cover. Do not point og:image at SVG when platform support is uncertain. Never publish broken or mismatched images.
+6. **Footer utilities mandatory**: exactly one `page-utility-bar` after main/contact and before `site-footer`, using existing OTC CSS and working page URL for all share targets, email and copy link; do not show it near the hero.
+7. **Publishing QA**: inspect desktop and mobile, check all source/renderer regeneration behavior, links, image fetch, live deployment commit, and *actual* social share preview. Do not say fixed/live/verified merely because GitHub accepted a commit. Record any unchecked item.
+8. **Publication safeguards**: policy route verification and site layout changes are distinct. Do not silently turn unverified immigration route data into verified claims when publishing a layout fix.
+
+**Incident to prevent repeating:** On 2026-11-15 the Europe 36-country page wrongly borrowed an unrelated Europe Exchange cover, used wrong headline and off-standard dimensions, and its styling and footer share bar were repeatedly altered without first following the approved reference. Corrective work MUST use the actual US-study reference and pass the checks above; no fallback to another existing-topic image.
