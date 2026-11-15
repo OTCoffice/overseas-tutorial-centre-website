@@ -968,3 +968,37 @@
 - 三地申請人：第三國公民一般制度可初篩，但中國大陸普通護照、香港特區護照、台灣護照各自領館/文件/簽證實際差異**尚未核**。
 - 未解：聘約最低月份矛盾、2026具體薪資數額、家屬工作權、護照領事路徑、2026生效日、跨境永居年資。
 - 累計：第54–58輪15條深入補核；之前新增捷克Employee Card 1條；本輪新增捷克EU Blue Card 1條，依此口徑**17/110有深入補核紀錄**，但所有110條仍**C/D 0/110**。未完成全站測試，嚴禁合併PR108或正式部署。
+
+
+## 第61輪（2026-11-15）拉脫維亞 EU Blue Card、愛沙尼亞 Startup Visa
+
+**範圍：原RUN 110條中的2條；現行但僅部分官方欄位核實，C/D 均未完成；本輪無權改為完整核實或發布。**
+
+### 拉脫維亞 EU Blue Card（`latvia-eu-blue-card`）
+- PMLP 2026-03-16更新、2026-04-01起：一般工資門檻€2,723/月（1.5×上年平均毛薪），內閣指定短缺職業€2,178/月（1.2×）。**舊藍卡介紹頁2022€1,916／€1,532不得沿用。**
+- PMLP 2026-03-18更新費用：藍卡申請文件10個工作日€160、5個工作日€280；實體卡製發及其他費用可能另計。**舊費用頁列€100／€200不得沿用。**
+- 合資格就業居留最長5年；短聘約等條件有合同期+3個月特例。配偶及子女可按條件申請，實際受僱權仍待核。
+- 長居原則：合資格5年連續合法居留、收入及A2當地語，並有離境限制和藍卡例外；非自動永居。
+- 對中國大陸、香港、台灣三地護照領館／簽證及具體家屬工作權、續簽、跨國年資計算仍未核。
+- 官方核查日2026-11-15：
+  - https://www.pmlp.gov.lv/en/necessary-subsistence-0
+  - https://www.pmlp.gov.lv/en/state-fee-issuing-residence-permit
+  - https://www.pmlp.gov.lv/en/es-blue-card （**舊數值，僅比對**）
+  - https://www.pmlp.gov.lv/en/how-long-may-residence-permit-be-issued-0
+  - https://www.pmlp.gov.lv/en/long-term-resident-status-european-community-latvia
+  - https://www.pmlp.gov.lv/en/employer-invites-foreigner
+
+### 愛沙尼亞 Startup Visa／Founder（`estonia-startup-visa`）
+- Startup Committee 須認定為合規創新及可擴展的初創業務；一般審理10工作日。創業D簽與創業臨時居留是兩種不同許可，e-Residency本身不授予居留權。
+- 愛沙尼亞外交部現行 D 簽費**€120成人**、6–11歲€60；Startup Estonia舊頁列€80及一處€100，需以外交部當期資料為準。創業用途資金主申請€880/月、配偶€704/月。
+- D簽最多365日/12個月；相繼長簽合計不得超過548日/730日；之後可另申經商臨時居留，符合條件最長5年。**5年臨時卡≠5年自動永居**。
+- 創業家屬類別可申相關簽證；獨立工作權及全部臨時居留要求未核。
+- 對中國大陸、香港、台灣護照的領事受理、家屬獨立工作權、創業居留費用、轉換、續簽及永久居留計算仍待核。
+- 官方核查日2026-11-15：
+  - https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
+  - https://startupestonia.ee/startup-visa/foreign-founder/
+  - https://startupestonia.ee/frequently-asked-questions/
+
+### 累計與發布閘門
+- 原RUN **110/110**已有來源矩陣。先前第54–59輪及捷克Employee Card共**17條**深入補核；第61輪**新增2條**，按此前口徑現為 **19/110**；其他舊輪部分核查不等於全欄完成。
+- 全欄 C/D：**0/110**。未完成三地領館、家屬／永居、條款實施日等；PR #108不得合併，亦不得以本次部分核驗作正式政策上線理由。
