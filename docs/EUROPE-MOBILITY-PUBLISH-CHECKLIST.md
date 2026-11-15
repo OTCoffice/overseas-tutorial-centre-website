@@ -834,3 +834,35 @@
 - 本輪完整補查3條的重點欄位；仍有家屬工作、三地護照領事細節、長居計算和實施法條存在未解，**3條仍未達C/D**。
 - 110/110路線已登錄來源與逐欄矩陣，但所有欄位完整C/D仍為0/110；不得稱110條官方條件均全部核實。網頁與手機/SEO/連結/可訪問性全量測試仍未進行。
 - **PR #108審核分支不得合併／部署。**
+
+
+## 2026-11-15 第56輪：永居年資與家屬工作權（三條路線逐欄核驗）
+
+### 英國 HPI — `uk-hpi`
+- Home Office 2026-10-29 Appendix HPI 確認不需僱主擔保、按學位授予時Global Universities List審核、年度8,000申請限額（11月1日—翌年10月31日）。通常學位近5年內取得，個別文件/豁免需再查。
+- GOV.UK現行費用：簽證£880、Ecctis£252含VAT、IHS一般£1,035/年；申請人生活費通常£1,270（連續28日、申請前31日內），家屬另須資金。許可一般2年、博士3年。
+- 家屬：伴侶及合資格子女可申請，家屬可受僱，但不可當職業運動員/教練；伴侶£285、首子女£315、後續每名£200資金，具法定例外。
+- **永居**：官方明確 HPI **非 settlement route，HPI居留時間不計入該類定居申請年期**，不可直接延長HPI；轉Skilled Worker等他種路線須重新符合其定居規則。
+- 中國大陸/香港/台灣：未從此路線一般法規取得排除條文，但各自護照、領館、入境/工作長簽程序及領事文件未逐一核，三欄仍保留部分核。
+- 官方：https://www.gov.uk/high-potential-individual-visa ; https://www.gov.uk/high-potential-individual-visa/your-partner-and-children ; https://www.gov.uk/high-potential-individual-visa/how-much-it-costs ; https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual
+
+### 匈牙利 White Card — `hungary-white-card`
+- OIF官方：外國僱主/境外盈利公司遠距工作，前6月及整個許可期每月合法淨收入至少€3,000，須有住所及醫療保障；不得在匈牙利本地雇主受僱或持本地企業股權。
+- 最長1年、只可續1次；OIF官網要求在到期前90天內、最遲前30天辦續期，近期180日內在匈居住至少90天。
+- **家屬**：White Card持卡人/申請人原則**不得擔保家庭團聚**，於匈牙利出生子女的有限例外除外。
+- **永久居留**：White Card持卡人不具申請 **National Residence Card** 資格；官網另指出在其有效期間或屆滿後不能在當地改申其他居留目的。不得宣傳為3年後可永居的路線。
+- 三地護照：皆須先依第三國一般原則篩選，**短期免簽能否境內申請**由個別旅行文件決定，香港及台灣免簽文件仍須外交部另核，不作自動承諾。
+- 官方：https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads ; https://oif.gov.hu/factsheets/residence-permit-for-the-purpose-of-family-reunification ; https://www.oif.gov.hu/factsheets/national-residence-card
+
+### 荷蘭 Highly Skilled Migrant — `netherlands-highly-skilled-migrant`
+- IND官方認可擔保僱主與合資格薪資聘用；許可最長5年，依雇主申請續期。
+- 家屬須經IND家庭許可另行核准，家屬工作註記及細分費用仍待逐欄原文證據，不能自動以主申請許可推定。
+- **失業求職緩衝期新規（2026-05-22起）**：一般最多3月；失業發生於2026-05-22及之後且已持此許可至少2年者，最多6月，不能超過現卡效期；未找到新僱主可能撤銷許可。
+- **永久居留**：IND一般要求連續合法持有居留至少5年、荷蘭維持主要居所、滿足收入和融入等適用條件；合格後**可申請**但不是自動永居。
+- 三地護照是否須MVV與免簽/領事申請地不同，需分別查當期IND正式豁免條款；未完成，仍B級。
+- 官方：https://ind.nl/en/residence-permits/work/highly-skilled-migrant ; https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit ; https://ind.nl/en/temporary-and-non-temporary-purposes-of-residence
+
+### 第56輪總結
+- 本輪三條已補入 `docs/europe-mobility-110-field-evidence.csv` 的具體政府證據、家屬、永居和生效欄位。2026-11-15查核。
+- 仍缺各三地護照MVV/領事/旅行證件、部分家屬與最新費用、完整法條生效日，因此**全欄C/D完成依舊0/110**。110/110只是完成政府證據索引，不等於所有路線可申請。
+- 只在 draft PR #108 分支，**DO NOT MERGE / DO NOT DEPLOY**。
