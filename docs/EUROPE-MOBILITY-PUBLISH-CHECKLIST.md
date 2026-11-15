@@ -675,3 +675,66 @@
 **共同的三地國籍欄位限制**：除捷克Digital Nomad已直接核對主管部門國籍名單以外，其他大多數頁面只明列「第三國公民」，**仍須逐一核對中國大陸普通護照、香港特區護照與台灣護照在入境、長期簽證、領區、文件及特殊豁免上的不同待遇**。所有未明示之工作權、家屬、續簽、永居、生效日一律保留「未確認」，不得作為客戶正式資格判斷。
 
 **批次後核算**：原5條已官方確認關閉新案＋15條B部分核實＋90條未CSV核驗。本輪新增20條B，得到 **5條關閉＋35條B＋70條未核＝110條**；**C/D全欄核實仍是0/110**。數字40/110只代表有某些官方核實證據而非40條全部核驗。所有修改只在 `audit/europe-mobility-110-official-checks` 的Draft PR #108分支；PR #107原先已被合併、不能再當未發布分支。**不合併、不部署、不解除網站發布閘門**。
+
+
+## 2026-11-15 第50輪：40條加速官方核心欄位核驗（將有證據路線推至80/110）
+
+**核驗定義**：以下39條為B級（從主管機關查得至少一項具體路線條件），另1條馬爾他Citizenship by Merit為官方確認**並非可營銷移民方案**的分類核查；不能宣稱80條均可申請或全部欄位完成。官方URL、核對日2026-11-15均已登錄CSV。RUN原`open`未直接繼承為現行核准；三地中國大陸、香港、台灣個別領事與旅行文件資格仍須逐一查核。
+
+| RUN route ID | 已直接核對的政府核心證據 | 官方原文URL |
+|---|---|---|
+| `austria-eu-blue-card` | 2026年薪€55,678、學歷或合資格ICT經驗、AMS審核 | https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/eubluecard/ |
+| `austria-self-employed-startup-founder-visa` | 創業投資至少€30,000且自有份額50%、至少50點 | https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/start-up-founders/ |
+| `belgium-professional-card-self-employed-visa` | 非EEA/瑞士自僱通常須Professional Card；由地區核發 | https://economie.fgov.be/en/themes/enterprises/starting-business/conditions-access-professions |
+| `belgium-single-permit-work-permit` | 非歐洲受僱逾90日，僱主依區域申請single permit | https://workinginbelgium.be/en/first-visit.html |
+| `bulgaria-eu-blue-card` | 經濟部列EU Blue Card高技能許可；2026數值仍待國內核對 | https://www.mi.government.bg/en/general/naemane-na-slujiteli-grajdani-na-drugi-darjavi/ |
+| `bulgaria-single-residence-work-permit` | 僱主向就業機關申請第三國僱員Single Permit | https://www.mi.government.bg/en/general/naemane-na-slujiteli-grajdani-na-drugi-darjavi/ |
+| `croatia-eu-blue-card` | EU Blue Card限核准雇主職務，首2年換雇主重新辦 | https://mup.gov.hr/aliens-281621/stay-and-work/stay-and-work-of-highly-qualified-third-country-nationals/281692 |
+| `croatia-stay-and-work-permit` | 一般需停留工作許可及可能勞市測試；不等於自由就業 | https://mup.gov.hr/aliens-281621/stay-and-work/work-of-third-country-nationals/281663 |
+| `cyprus-eu-blue-card` | 至少€43,632年薪；指定ICT/藥研/海事職業 | https://www.gov.cy/mip-md/en/documents/eu-blue-card/ |
+| `cyprus-permanent-residence-by-investment` | 投資居留四類別至少€300,000；不同於已終止入籍 | https://www.gov.cy/mip-md/en/documents/companies-investors-permanent-residence-3/immigration-permits-for-investors/ |
+| `cyprus-remunerated-employment-single-permit` | GEN入境許可及1-3年工居€120；續卡€130、初登記€70 | https://www.gov.cy/mip-md/en/documents/remunerated-employment-single-permit-gen/ |
+| `czechia-employee-card` | Employee Card有效聘約及職缺資料；境內申請費CZK2,500 | https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ |
+| `czechia-eu-blue-card` | 至少6月高技能聘約及平均工資1.5倍 | https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/blue-card/ |
+| `finland-eu-blue-card` | 2026每月€3,937、至少6月聘約；電子首次€530 | https://migri.fi/en/eu-blue-card |
+| `france-entrepreneur-profession-liberale-visa` | 獨立經濟活動可行性、資金；初居卡費€350，最長1年 | https://www.service-public.gouv.fr/particuliers/vosdroits/F35795 |
+| `germany-freelance-self-employment-visa` | 自由職業§21(5)須財力和職業許可；45歲以上退休準備 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/other/self-employment |
+| `ireland-start-up-entrepreneur-programme` | STEP創業資金€50,000、費€350，創新計畫 | https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/start-up-entrepreneur-programme-step/ |
+| `italy-eu-blue-card` | Art27-quater高技能經雇主程序，具家屬及轉工特例 | https://lavoro.gov.it/priorita/pagine/carta-blu-ue-emanata-il-28032024-la-circolare-congiunta-del-MLPS-e-ministero-interno |
+| `italy-investor-visa` | 投資€250k新創/€500k公司/€2m公債/€1m慈善；2年 | https://investorvisa.mise.gov.it/index.php/en/home-en/ |
+| `latvia-residence-permit-for-employment` | 長期就業由雇主發起sponsorship，居留與工作權分開核 | https://www.pmlp.gov.lv/en/employment-foreigners |
+| `luxembourg-eu-blue-card` | 高技能先申請authorisation to stay後申請居留卡 | https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/salarie-hautement-qualifie.html |
+| `luxembourg-self-employed-worker-permit` | 自僱居留最長3年可續；須經濟可行及資格 | https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/travailleur-independant/independant.html |
+| `malta-eu-blue-card` | 至少6月聘約、薪資至少國家平均稅前年薪1.5倍 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/blue-card/ |
+| `malta-key-employee-initiative` | KEI特定職位年薪至少€45k，初次費€600 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/key-employee-initiative/who-is-eligible/ |
+| `malta-specialist-employee-initiative` | SEI資格頁€30k/年，但2026資料清單列€25k，衝突待解 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ |
+| `malta-citizenship-by-merit` | 官方明確：Citizenship by Merit不是可推銷的移民/投資入籍方案 | https://komunita.gov.mt/2026/02/05/malta-citizenship-by-merit/ |
+| `netherlands-self-employed-startup-visa` | 新創須認可facilitator與創新方案，與一般自僱許可須拆分 | https://ind.nl/en/residence-permits/work/start-up |
+| `norway-skilled-self-employed-permit` | 自營獨資及技能，年預計收益至少NOK341,373 | https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/ |
+| `portugal-ari-golden-visa` | ARI第三國投資居留，允許工作與家庭團聚；房產舊標準不可用 | https://aima.gov.pt/en/viver/autorizacao-de-residencia-para-investimento-art-90-o-a |
+| `portugal-eu-blue-card` | 高技能聘約至少6月，薪資1.5倍平均年薪（部分1.2倍） | https://aima.gov.pt/pt/viver/concessao-de-cartao-azul-ue-e-autorizacao-de-residencia-para-titulares-de-cartao-azul-ue-noutro-estado-membro-art-121-o-a-e-segu |
+| `portugal-highly-qualified-activity-residence-permit` | Art90高技能需資格/聘約，官網部分€值引用舊年度 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-atividade-altamente-qualificada-art-90-o |
+| `portugal-subordinate-work-residence-permit` | Art88(1)有效居留工作簽及聘僱；卡2年、續3年，Art88(2)已廢 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-exercicio-de-atividade-profissional-subordinada-com-visto-de-residencia-art-88-o-n-o-1 |
+| `poland-eu-blue-card` | 高技能波蘭EU Blue Card；2026-04-27後MOS線上申請 | https://migrant.poznan.uw.gov.pl/en/procedury/temporary-residence-permit-high-qualified-workers-eu-blue-card |
+| `poland-temporary-residence-work-permit` | 暫居工作最低PLN4,806/月及同工標準，MOS線上申請 | https://www.mos.cudzoziemcy.gov.pl/en/question-and-answer-database/permits-residence-and-work/temporary-residence-and-work-permit |
+| `romania-eu-blue-card` | 居留工作需IGI Blue Card，與一般single permit不同 | https://igi.mai.gov.ro/single-permit-eu-blue-card/ |
+| `romania-work-visa-residence-permit` | 入境工作長簽及雇主程序，後續single permit | https://igi.mai.gov.ro/long-stay-visa-for-employment/ |
+| `slovenia-single-residence-and-work-permit` | 單一許可初次最長2年、可續最多3年 | https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/work-in-slovenia/single-permit/ |
+| `sweden-eu-blue-card` | 2026-07-15起至少SEK53,625/月；6月聘約、初居9月-4年 | https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html |
+| `sweden-self-employed-residence-permit` | 自營至少持股51%；本人SEK200k、配偶100k、子女50k | https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/self-employed-people.html |
+| `greece-golden-visa` | 希臘官方變更用途房產特例€250k，5年居留、不可受僱 | https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3APermanent_golden_visa_%28change_of_use%29_%E2%80%93_Initial_issuance |
+
+### 本輪跨路線待解與警示
+1. **中國大陸／香港／台灣**：本次官方「第三國」一般資格不是三地護照可無條件遞交的證明；應再查領事受理、簽證/入境豁免、受規管國籍限制、驗證文件及受理地。
+2. **馬爾他 Citizenship by Merit**：Community Malta Agency 2026-02-05明文表示非計劃、非商業簽證路徑、不得宣傳或推廣；CSV分類已標 `officially_not_an_open_immigration_program`，必須從對客「可申請移民方案」清單移除，保留作資料品質紀錄。
+3. **馬爾他 SEI**：Identità資格頁顯示年薪€30k，而其2026申請文件清單曾列基本工資€25k、申請流程頁列€300，另部分官方頁列€600。直至主管機關釐清生效日和費用，**不能對客固定報價或認定最低門檻**。交叉來源：https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/application-procedure/ 及 https://identita.gov.mt/wp-content/uploads/2026/01/Checklist-New-Application-for-Single-Permit-SEI.pdf
+4. **葡萄牙工作居留**：AIMA Art.88(1)有居留簽證通道仍在；Art.88(2)原免簽manifestation of interest制度已自2024-06-04廢止（舊案過渡除外）。不能混寫成2026新客無簽直接申辦。官方：https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-exercicio-de-atividade-profissional-subordinada-com-dispensa-de-visto-de-residencia-art-88-o-n-o-
+5. **希臘Golden Visa**：€250k只適用特定條款如合法變更物業用途等，並非所有地區的一般投資最低額。2026政府登記的該類別行政費€2016；投資居留不授權當地受僱。
+6. **荷蘭**：RUN的 `netherlands-self-employed-startup-visa` 混合兩種分別由IND監管的類別；已核對start-up但一般self-employed申請要求須獨立完成。參見：https://ind.nl/en/residence-permits/work/residence-permit-self-employed-person
+7. **2026年政策及對客風險**：波蘭2026-04-27起移民居留申請改透過MOS；芬蘭與瑞典2026年薪門檻只能按當年採用，不能外推2027。法國、德國、馬爾他與各國地方/領事費用不得混用。
+8. **所有B級仍需逐欄**：國籍、資格、薪資/資金、費用、期間、工作權、家屬、續簽、永居、法規實施日以及歷史過渡。未發現明文的欄位狀態為**未確認**，不能將B提升C/D。
+
+### 核驗統計與發布限制
+- 從前輪**5條已關閉＋35條B＋70條待核**，本輪新增**39條B及1條官方確認非公開移民方案**，達**5條關閉新案＋74條B＋1條分類核實（不可公開招募）＋30條仍待逐項核驗＝110**。
+- 合計 **80/110有部分官方證據或官方否定分類證據**；其中真正B級現行/部分條件路線74、官方證明不再接受新案5、非可營銷方案1。**11類全欄完成C/D：0/110**。
+- 各路線的完整三地國籍、各地費用、工作/家屬/續簽/永居及法規生效仍未充分核對，網站測試亦未完成。**Draft PR #108 僅保存審核、不得合併或部署，亦不得將80/110稱為80條可申請或80條全面核實。**
