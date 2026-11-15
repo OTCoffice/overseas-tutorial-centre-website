@@ -1,11 +1,13 @@
 const fs=require('fs'),path=require('path'),{pages:allPages,render}=require('../content/public-school-alliance.cjs');
 const ukOnly=process.argv.includes('--uk');
-const pages=ukOnly?allPages.filter(p=>p.path.startsWith('/zh/public-school-alliance/uk/')):allPages;
+const selectedPaths=process.argv.filter(x=>x.startsWith('--path=')).map(x=>x.slice(7));
+const pages=selectedPaths.length?allPages.filter(p=>selectedPaths.includes(p.path)):(ukOnly?allPages.filter(p=>p.path.startsWith('/zh/public-school-alliance/uk/')):allPages);
+if(selectedPaths.some(x=>!pages.some(p=>p.path===x)))throw Error('Unknown public school path');
 const root=path.resolve(__dirname,'..');
 for(const p of pages){const dir=path.join(root,p.path);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),p.path.startsWith('/zh/public-school-alliance/uk/')?render(p).replace(/[ \t]+$/gm,''):render(p));}
 for(const file of ['search/index.html','zh/search/index.html']){let s=fs.readFileSync(path.join(root,file),'utf8');const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/;const m=s.match(re);if(!m)throw Error('Search data missing');const rows=JSON.parse(m[2]);for(const p of pages){const e={type:'中文資料',title:p.name+'｜海外督導 OTC',url:p.path,desc:p.summary};const i=rows.findIndex(x=>x.url===p.path);if(i<0)rows.unshift(e);else rows[i]=e;}fs.writeFileSync(path.join(root,file),s.replace(re,(_,a,b,c)=>a+JSON.stringify(rows).replaceAll('<','\\u003c')+c));}
 let xml=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');for(const p of pages)if(!xml.includes('<loc>https://overseasuk.com'+p.path+'</loc>'))xml=xml.replace('</urlset>','  <url><loc>https://overseasuk.com'+p.path+'</loc></url>\n</urlset>');fs.writeFileSync(path.join(root,'sitemap.xml'),xml);
 const d=path.join(root,'zh/site-directory/index.html');let s=fs.readFileSync(d,'utf8');for(const p of pages)if(!s.includes('href="'+p.path+'"'))s=s.replace('<ul class="directory-list">',`<ul class="directory-list"><li data-directory-row><a href="${p.path}">${p.name}</a><small>公立教育與申請</small></li>`);fs.writeFileSync(d,s);
-if(!ukOnly){fs.writeFileSync(path.join(root,'index.html'),require('../content/chinese-home.cjs')());fs.writeFileSync(path.join(root,'zh/services/index.html'),require('../content/service-desk.cjs')());
+if(!ukOnly&&!selectedPaths.length){fs.writeFileSync(path.join(root,'index.html'),require('../content/chinese-home.cjs')());fs.writeFileSync(path.join(root,'zh/services/index.html'),require('../content/service-desk.cjs')());
 }
-console.log('Rendered public school hub and countries; updated home, services, search, directory and sitemap.');
+console.log('Rendered '+pages.length+' selected public school pages; updated search, directory and sitemap.');
