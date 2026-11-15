@@ -1,0 +1,65 @@
+{
+  "/zh/public-school-alliance/canada/": {
+    "shareImageZh": "/assets/social/public-school-canada-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/australia/": {
+    "shareImageZh": "/assets/social/public-school-australia-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/new-zealand/": {
+    "shareImageZh": "/assets/social/public-school-new-zealand-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/usa/": {
+    "shareImageZh": "/assets/social/public-school-usa-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/singapore/": {
+    "shareImageZh": "/assets/social/public-school-singapore-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/finland/": {
+    "shareImageZh": "/assets/social/public-school-finland-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/germany/": {
+    "shareImageZh": "/assets/social/public-school-germany-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/uk/": {
+    "shareImageZh": "/assets/social/public-school-uk-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  },
+  "/zh/public-school-alliance/": {
+    "shareImageZh": "/assets/social/public-school-alliance-share-20261115.jpg",
+    "socialImageVersion": "v=20261115",
+    "socialImageWidth": 1200,
+    "socialImageHeight": 600,
+    "twitterCard": "summary_large_image"
+  }
+}
