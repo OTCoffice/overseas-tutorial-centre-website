@@ -1039,3 +1039,30 @@
 - 本輪完成2筆新深入補核證據並寫入`docs/europe-mobility-110-field-evidence.csv`；**22/110有深入補核紀錄，C/D全部欄位核實仍0/110**。這不是官方已認可22個移民方案，更非110條可供申請。
 - 前台暫不對未完成路線展示「已核實、可申請、可轉永居」；不更動main、不合併PR108、不部署正式站。
 - 下一批應優先補上芬蘭國內P/P-EU跨境年資、盧森堡2026薪資/家屬及三地領館差異，再進行110頁手機/連結/SEO/無障礙與預覽檢查。
+
+
+## 2026-11-15 第64輪：瑞典與荷蘭 EU Blue Card（官方直接核對，逐欄矩陣更新）
+
+**變更**：本輪核對瑞典Migrationsverket與荷蘭IND現行官方HTML，將`sweden-eu-blue-card`和`netherlands-eu-blue-card`的申請資格、薪資、費用、許可期間、家庭及永居/歐盟長居規則補入 `europe-mobility-110-field-evidence.csv`。沿用110個RUN ID，不將藍卡和一般工作許可混為同一條。三地護照領事實務及個別法規實施日仍未全核，兩條皆**B部分核實，非C/D完成**。
+
+### 64-A 瑞典 EU Blue Card `sweden-eu-blue-card`
+- 瑞典移民局官網目前列2026-07-15起最低月薪**SEK53,625**，等於瑞典平均毛薪1.25倍；至少6月合格高技能聘約；學歷至少180高教學分或5年相當經驗；可能須適當醫療保險。
+- 主申請行政費**SEK2,000**、成年家屬**SEK1,500**、子女**SEK750**；首次許可至少9月最多4年，需配合聘約/護照。
+- 配偶、註冊/同居伴侶及未滿18歲子女可隨同申請；家屬若獲許可，成年家屬和在當年滿16歲子女可工作；主申請人需有養家能力。2026家庭生計費用須按家庭人數、租房成本計。
+- **重大永居區別**：瑞典移民局「EU Blue Card續簽」頁明定**在瑞典持EU Blue Card滿36個月**，符合收入及品行等條件可提出永久居留申請，某些研究/博士許可可合計。若混合一般工作、ICT或季節工許可需按特定48月/7年規則另計。**不是一般工作簽證的4年規則，也不是EU藍卡跨境加總36月**。家屬通常需在瑞典持居留至少3年且成年者自給才有機會獨立申永居。
+- 中國大陸普通護照／香港特區護照／台灣旅行證件個別領館和免簽/工作許可須分別查核，短期免簽不可作為工作權。藍卡工作以所核准雇主和職業為準。
+- 來源（2026-11-15）：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html ; https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/eu-blue-cards.html
+- 待解：旅行文件及領事程序、混合年資法規生效、家屬所有特殊條件。
+
+### 64-B 荷蘭 EU Blue Card `netherlands-eu-blue-card`
+- IND官方**2026-11-12**更新：非EU/EEA/瑞士人士，至少6月高技能聘約；三年高教學歷或五年相關經驗，IT專才近七年三年工作經驗可有例外。與荷蘭Highly Skilled Migrant制度不同，**雇主不必是recognized sponsor**。
+- IND 2026工資：一般**稅前月薪€5,942**，符合規定的畢業生/博士降低藍卡門檻**€4,754**；不是HSM的€3,122優惠。不得計入假期津貼、不固定薪酬或實物福利。
+- 申請費**€423**；居留通常雇佣合同後加三月、最多五年。持藍卡可為主雇主工作及兼做自僱，若受另一雇主聘用需另TWV。失業後找新工作通常3月，持此許可滿2年者可6月，但不能超過許可剩餘有效期。
+- 家屬可用藍卡家屬表格同時申請，家屬工作註記及MVV須按個別法規確定。一般滿5年合資格荷蘭合法居留可申國內永居；**EU long-term resident跨國例外**：提出申請時須最近連續2年持荷蘭藍卡，之前在另一參與國持藍卡至少12月，並有歐盟合計5年連續合格居留（部分研究、高技能及學習年期計算有特例）；5年中EU外合計不得超18月，最長單次不得連續超12月。**荷蘭居住2年不是無條件永居**。
+- 中國普通、香港SAR、台灣護照須各自核對MVV豁免及實際申辦地，短期申根免簽不等於MVV豁免。
+- 官方（2026-11-15）：https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit ; https://ind.nl/en/required-amounts-income-requirements ; https://ind.nl/en/exceptions-to-5-year-term-for-permanent-residency ; https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit
+- 待解：三地護照領事豁免、家屬完整工作註記/實際費用、跨國居留連續性和法律施行條文。
+
+### 第64輪狀態及發布限制
+- 本輪新增2筆逐欄深入證據；第63輪前口徑22/110，**累計24/110條有深入逐欄補核**；這僅是審計工作覆蓋，**C/D完整核實仍0/110**。110/110路線已有來源不代表可以接受新申請。
+- 原PR #107此前已合併，本輪只修改draft PR #108審核分支；**未更動main、未合併、未部署、未完成全站測試**。C/D與網站測試通過前不得公開宣稱「110條已核驗」。
