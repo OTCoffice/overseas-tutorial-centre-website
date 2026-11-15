@@ -738,3 +738,18 @@
 - 從前輪**5條已關閉＋35條B＋70條待核**，本輪新增**39條B及1條官方確認非公開移民方案**，達**5條關閉新案＋74條B＋1條分類核實（不可公開招募）＋30條仍待逐項核驗＝110**。
 - 合計 **80/110有部分官方證據或官方否定分類證據**；其中真正B級現行/部分條件路線74、官方證明不再接受新案5、非可營銷方案1。**11類全欄完成C/D：0/110**。
 - 各路線的完整三地國籍、各地費用、工作/家屬/續簽/永居及法規生效仍未充分核對，網站測試亦未完成。**Draft PR #108 僅保存審核、不得合併或部署，亦不得將80/110稱為80條可申請或80條全面核實。**
+
+
+## 2026-11-15 第51輪補記與第52輪官方衝突修訂（嚴格不升C/D）
+
+### 第51輪補記：最後30條已登錄CSV，但不等於30條可申請
+第51輪CSV提交 `2d39bd597d679336ea294511a48e4b08c25ed4cb` 已將最後30條原待核記錄逐條寫入官方來源或主管機關分類來源及日期。此處補登對應審計摘要，**不宣稱每筆網址本身均已完成最新法條、護照和申辦核對**。當中27筆列B級部分欄位核實、3筆標官方證據或RUN分類待釐清（拉脫維亞投資、黑山「EU citizen investment residence/work」、希臘財務獨立FIP）。已登錄入口不代表具體路線已確認仍開放。
+
+### 第52輪官方原文增補／修正（2026-11-15）
+1. **拉脫維亞 `latvia-investor-residence-permit`**：OCMA 2026-09-15公布新《移民法》已廢止以購買房地產或對銀行次級負債投資申領新的臨時居留的途徑。另立€150,000投資國家設立替代基金管理人制度，但官方明言基金**仍未成立**，現不得視為可申請。OCMA舊「Investments」頁（仍列銀行負債、€25,000國庫捐款）屬過時類型，不能覆蓋2026新法。**狀態：部分舊投資子類已停止／新基金途徑未開放；RUN總稱需拆分分類，暫不對客販售。** 官來源（15 Nov 2026）：https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations ，歷史資料（禁止當現行）：https://www.pmlp.gov.lv/en/investments 。進一步待核：現行企業股權投資類別是否存續、法條和現行政府費表、三地護照、家屬與長居。
+2. **馬爾他 `malta-specialist-employee-initiative`**：Identità SEI Who is Eligible官方現行列簽署馬爾他公司聘約、**稅前年薪至少€30,000**、相關MQF6+學歷或較低學歷加至少3年相關經驗，並有職缺至少刊登2週的條件；官方 FAQ SIGMA 2025/26亦列€30,000自2025年8月生效。另Identità **Who is Eligible頁列申請費€600**，但同機關Application Procedure頁列**€300**；目前無法完全確認申請類型/日期差異，**費用仍爭議、不可對客保證**。原清單所引€25,000舊檢查表亦不得覆蓋更新官方要求。來源：https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ ；https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/application-procedure/ ；https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-employment/ 。待核三地護照、簽證、收費衝突、家屬及長居。
+3. **希臘 `greece-fip`**：雅典主管區政府仍提供Law4251/2014 Art20的舊檢查表，列€2,000/月、兩年許可；希臘勞工部則指當前外國人法架構為Law5038/2023，並已由Law5275/2026修訂。因此**不得把舊€2,000當2026現行金額**；須回查2026版FIP條文、主管部門辦理細則及費用。來源：https://apdattikis.gov.gr/en/documents/ ；https://ypergasias.gov.gr/en/labour-relations/individual-employment-relations/work-for-third-country-nationals-in-greece/ 。仍分類待核。
+4. **黑山 `montenegro-eu-citizen-investment-residence-work-permit`**：RUN路線名稱與正式政府分類尚未建立法律逐條對應，**不宣傳為已開放投資移民項目**。須查2026外國人法及Article 70g文本、國籍適用、投資與許可性質後才可定案；這次未宣稱解決。
+
+### 對帳與不可發布條件（2026-11-15）
+110/110為CSV已登錄來源／待核分類，不是已核驗可申請。當前分類為**101筆B部分核實、5筆新案停止但舊案欄位未補、4筆官方分類/證據爭議（其中馬爾他Citizenship by Merit非公開移民方案）**，尚待登錄入口0筆；**全欄C/D完成0/110**。仍必須核對中國大陸／香港／台灣護照、當期薪資和資金、費用、生效日期、工作、家屬、續居、永居，以及所有國家頁鏈接/手機版/SEO/無障礙/正式站測試。原PR #107已合併，這些修訂只在草稿PR #108審核分支；**DO NOT MERGE / DO NOT DEPLOY**。
