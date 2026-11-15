@@ -1017,3 +1017,25 @@
   - https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations
   - https://www.pmlp.gov.lv/en/residence-permits
 - 累計按第61輪19/110加本輪新增1條，**20/110有深入補核紀錄；C/D仍0/110**。本輪原定擴大多國核驗，**其餘路線尚未完成，不能記入新增數字**。不合併PR108、不以這個部分核驗直接發布。
+
+
+## 2026-11-15 第63輪：芬蘭與盧森堡 EU Blue Card 逐欄證據；審核分支更新，禁止直接上線
+
+**並行紀錄檢查**：重新讀取PR #108草稿清單時發現第58、59、61、62輪及捷克Employee Card已由其他批次登錄；本輪不重複計數愛爾蘭CSEP、奧地利RWR、瑞典Work Permit。依第62輪20條深入補核口徑，**本輪新增2條不同的RUN路線**，累計22/110已有深入逐欄補核紀錄（非C/D完整核實）。CSV索引仍110條，與已合併的PR #107分開；只寫draft PR #108。
+
+### `finland-eu-blue-card`
+- Migri（2026-11-15核）：合格高技能聘用至少6月；3年高等教育或通常至少5年可比較的高技能專業經驗；2026稅前工資至少**€3,937/月**，附加福利與每日津貼不計入。
+- 初次最多2年；短於2年聘期時聘期+3月。首次電子€530、紙本€630，續期電子€230、紙本€430（各類額外D簽/家屬費另核）。Blue Card持有人在芬蘭高技能工作不綁特定雇主，許可簽發後才可工作；芬蘭藍卡不直接授權其他歐盟國內工作。
+- 2026-01-08芬蘭永居改革未改EU長期居民 **P-EU**的合資格5年年資條件；藍卡跨成員國年資可能計入需符合細則。**P-EU與芬蘭國內P永久居留不是同一套資格**。
+- 大陸、香港、台灣旅行證件和申辦領區細節、家屬工作權/費用、國內P新年期及跨歐盟藍卡年資缺口仍待核，不能升C/D。
+- 官方：https://migri.fi/en/eu-blue-card ; https://migri.fi/period-of-residence-requirement ; https://migri.fi/en/working-in-finland/income-requirement
+
+### `luxembourg-eu-blue-card`
+- 盧森堡Guichet.lu官方（2026-03-03更新）明確要求：第三國高技能受僱超過3月者，**入境前先向內政部移民部門申請temporary authorisation to stay**；有簽證義務者取得授權後辦D簽，抵國後做抵達登記/體檢並申EU Blue Card。短期旅遊免簽**不等於**可省略先行批准。
+- 三地護照領事/D簽特例、2026當期薪資門檻、許可時長、政府行政費、家屬獨立工作權、續簽、跨國藍卡永居年資及法規原生效日期**本輪仍未全部取得**。以上欄位矩陣保留未核；不能用其他EU會員國門檻代替盧國法條。
+- 官方：https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/salarie-hautement-qualifie.html
+
+### 發布閘門與對客安全規則
+- 本輪完成2筆新深入補核證據並寫入`docs/europe-mobility-110-field-evidence.csv`；**22/110有深入補核紀錄，C/D全部欄位核實仍0/110**。這不是官方已認可22個移民方案，更非110條可供申請。
+- 前台暫不對未完成路線展示「已核實、可申請、可轉永居」；不更動main、不合併PR108、不部署正式站。
+- 下一批應優先補上芬蘭國內P/P-EU跨境年資、盧森堡2026薪資/家屬及三地領館差異，再進行110頁手機/連結/SEO/無障礙與預覽檢查。
