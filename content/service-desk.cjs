@@ -54,6 +54,7 @@ const groups=[
       ["新加坡工作准證","/zh/services/singapore-work-pass-support/","EP、S Pass、雇主條件、薪資門檻及申請流程。"],
       ["英國 Global Talent 陪跑","/zh/services/uk-global-talent-support/","學術 CV、研究成果、推薦信及背書材料準備。"],
       ["美國 EB-1A／NIW 研究材料","/zh/services/us-eb1a-niw-research-support/","學歷、學術 CV、研究成果、引用與審稿證據整理。"],
+      ["美國 EB-3 非技術工人移民","/zh/services/us-eb3-other-workers/","僱主擔保、PERM流程、中國大陸出生排期與費用責任。"],
       ["第二護照｜加勒比投資入籍","/zh/services/caribbean-citizenship/","安提瓜和巴布達、多米尼克、格林納達官方方案與申請協調。"]
     ]],
     ["study-exchange","遊學與交流",[
