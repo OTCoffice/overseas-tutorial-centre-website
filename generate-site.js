@@ -85,3 +85,6 @@ require('./scripts/render-university-directory.cjs');
 
 // Keep the Europe mobility guide linked from the Chinese services overview.
 require('./scripts/preserve-europe-mobility-guide.cjs');
+
+// Preserve IH Bangkok school page and Thailand directory entry.
+require("./scripts/render-ih-bangkok.cjs");
