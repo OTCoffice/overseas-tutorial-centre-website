@@ -1,8 +1,9 @@
-// Verified 2026-11-15. Text-only until College-supplied marketing images are confirmed.
+// Verified 2026-11-15. Existing OTC typographic cover; no campus photography.
 const root='https://international.escg.ac.uk/';
 const links=[['2027–28 官方費用表','https://www.escg.ac.uk/docs/international/international-fees-27-28/'],['A-Level',root+'international-courses/a-levels/'],['國際學年',root+'international-courses/international-study-year/'],['英語課程',root+'international-courses/year-round-15-hour-english-plus/'],['藝術與設計預科',root+'international-courses/ual-foundation/'],['Lewes 校區',root+'our-campuses/lewes/'],['Hastings 校區',root+'our-campuses/hastings/'],['申請程序與退款政策',root+'apply/how-to-apply/']];
-module.exports={slug:'public-school-uk-east-sussex',school:true,noImage:true,path:'/zh/public-school-alliance/uk/east-sussex/',name:'East Sussex College Group',sub:'英國公立學院・Lewes／Hastings',summary:'2027–28 非歐盟學生 A-Level 學費每學年 £9,500；比較校區、課程、入學要求及住宿。',body:`
+module.exports={slug:'public-school-uk-east-sussex',school:true,path:'/zh/public-school-alliance/uk/east-sussex/',name:'East Sussex College Group',sub:'英國公立學院・Lewes／Hastings',summary:'2027–28 非歐盟學生 A-Level 學費每學年 £9,500；比較校區、課程、入學要求及住宿。',body:`
 <p><a href="/zh/public-school-alliance/uk/">← 英國公校</a> / 英格蘭｜東南部</p>
+<figure style="margin:20px 0"><img src="/assets/social/public-school-uk-east-sussex-share-20261104.jpg?v=20261115" width="1200" height="600" alt="East Sussex College Group：Lewes／Hastings 課程與學費" style="display:block;width:100%;height:auto"></figure>
 <section><h2>課程選擇</h2><p>East Sussex College Group 提供國際學生升學與英語課程。對重視學費預算、科目選擇及本地學習環境的家庭，是值得比較的英國公立學院。OTC 已簽署並交回代理協議，可提供合作院校諮詢及申請協助。</p>
 <div class="table-wrap"><table><thead><tr><th>課程</th><th>校區與修讀安排</th><th>入學要求</th></tr></thead><tbody>
 <tr><td>A-Level</td><td>一般兩年、三科；可查詢 Lewes／Hastings。科目包括數學、電腦科學、歷史、心理學及攝影，實際開設校區與組合須確認。</td><td>16歲起；三科課程英語相當於 IELTS Academic 5.5、各項至少5.0；完成兩年高中教育或同等資格。香港學生可按完成中四或同等資格評估。</td></tr>
