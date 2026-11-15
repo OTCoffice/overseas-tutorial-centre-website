@@ -940,3 +940,16 @@
 - **110/110已登錄來源及矩陣；第54–58輪累計深入逐欄補核15條**（本輪3條），另外95條尚待同等逐欄深核。**C/D全欄驗證仍0/110**，本輪三條仍為B部分核實。
 - 未完成三地各領館、歷史法條生效和部分家屬細則；待確認不可寫「全條核驗通過」。第57輪的英國Graduate只是索引外關聯政策，不列入110。
 - 原PR #107曾用於站點導覽，本輪依安全原則**僅更新draft PR #108分支**，不回寫已合併PR107，也未更動正式網站或發布。**DO NOT MERGE / DO NOT DEPLOY**；需110條C/D全部核實與全站回歸/手機/SEO/可訪問性測試通過後再審正式部署。
+
+
+## 2026-11-15 加速核驗補充：捷克 Employee Card（部分官方核驗，禁止全量完成宣稱）
+- 路線 ID：`czechia-employee-card`；狀態：現行官方制度，**部分欄位核實，未達 C/D**。
+- 資格：捷克內政部官方稱第三國公民可申請，涵蓋不同教育/資格程度職位；須符合具體聘僱及雇主可靠性要求。中國大陸、香港特區及台灣個別護照的領事受理／入境程序**未獨立核實**。
+- 有效期：最長2年，可因工作合約或工作許可期限縮短。
+- 工作：持有效卡可依核准職位在捷克工作。換雇主/職位須向內政部報告；不具自由勞動市場准入者須按規定先通報、取得書面合規通知才開始新職；失業後一般需90日內完成相關通知或轉換，否則卡可能失效。
+- 費用及審核：捷克**境內申請及續期**官方列行政費CZK 2,500；審理通常60日，複雜個案可90日。境外領館收費與三地受理依個案另核，勿套用CZK 2,500。
+- 續簽：官方列可於到期前最早120日申請，最遲有效期最後一日；依符合條件的同一工作職位提出續期時，審理中可依法繼續工作。
+- 永居：捷克一般可於5年合資格臨時居留後申請，不是Employee Card持有滿5年自動取得；連續居留及缺席計算待核。
+- **未核欄位**：最低薪資/合約工時精確規定、境外申請費、三地護照領事操作、家屬類別及家屬工作權、2026修法實際生效日、精確永居計算。
+- 官方來源（核對日2026-11-15）：https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/employee-card-change-of-employment/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/
+- 發布閘門：仍保持關閉；新核實欄位可作準備，不代表該路線全欄核實或110條完成。
