@@ -866,3 +866,39 @@
 - 本輪三條已補入 `docs/europe-mobility-110-field-evidence.csv` 的具體政府證據、家屬、永居和生效欄位。2026-11-15查核。
 - 仍缺各三地護照MVV/領事/旅行證件、部分家屬與最新費用、完整法條生效日，因此**全欄C/D完成依舊0/110**。110/110只是完成政府證據索引，不等於所有路線可申請。
 - 只在 draft PR #108 分支，**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 2026-11-15 第57輪：德國 EU Blue Card、葡萄牙 D7／D8及英國 Graduate 關聯核查
+
+**修改範圍**：110路線逐欄矩陣更新3條（`germany-eu-blue-card`、`portugal-d7-visa`、`portugal-digital-nomad-visa`），均B部分核實、不升C/D。英國 Graduate不在原RUN 99+11的110條中，故只作關聯制度核查，不虛增第111條。查核日期2026-11-15，僅政府主管機關來源。
+
+### 德國 EU Blue Card
+- 德國聯邦官方Make it in Germany：§18g 2026一般年薪€50,700；合資格緊缺職類、新畢業及IT人才€45,934.20，須有至少6個月工作聘約，IT無學位類別要求過去7年中至少3年相應專業經驗。三地護照均須各自核對領事程序，不能以第三國通則推定免簽可直接工作。
+- 配偶團聚通常不須事先提出德語證明，另有家屬簡化措施；父母及配偶父母團聚僅適用特定首次領證/法律條件，**不是所有藍卡都可直接接父母**。
+- §18c(2)藍卡定居許可：符合合資格工作與法定養老保險供款**27個月+A1德語**，或**21個月+B1德語**，及生計、住所、法制知識等條件，可提出申請；**絕非滿21月自動永居**。現行藍卡修法自2023-11-18起，部分家屬新便利自2024-03-01起，2026工資門檻是當年度數字。
+- 官方：https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card ; https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit ; https://www.make-it-in-germany.com/en/visa-recognition/family-reunification/spouses-joining-non-eu-citizens ; https://www.make-it-in-germany.com/en/visa-residence/skilled-immigration-act
+- 未解：3種旅行證件的各領館簽證工作權、精確費用及更新雇主細則、家屬資格與更新條文。
+
+### 葡萄牙 D7（正式類別：退休者及以自有收入生活者）
+- gov.pt官方服務2026-05-22修訂，對象是非EU/EEA/瑞士人士；要有效護照、來源明確的退休或自有收入、住宿、保險、無犯罪材料；**D7是俗稱，不是AIMA所有居留共用許可**。領館費表與不同國家實際材料待核；2024年舊€90費用不得直接當2026現行。
+- AIMA一般臨時居留初次2年、每次續3年（除特定特殊法規）；Art98家屬團聚可申請但須關係與財力文件。AIMA家庭收入比例頁仍標示2025最低工資，因此只能引用100%首成人/50%次成人/30%兒童的比例，不可套用舊年度絕對金額；2025後家屬新法等待期/豁免需原法再核。
+- AIMA Art80永久居留：已合法持**臨時居留至少5年**，有住所、生計、基礎葡語能力、稅務/社保合規、符合犯罪審核等方可申請。2026-11-06新推出永居**預約表單入口**，不是2026才創設5年永居資格，也不是預約即批准。
+- 官方：https://www.gov.pt/servicos/pedir-um-visto-de-residencia-para-fixacao-de-residencia-de-reformados-religiosos-e-pessoas-que-vivem-de-rendimentos-proprios ; https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o ; https://aima.gov.pt/pt/viver/reagrupamento-familiar-com-familiar-fora-de-territorio-nacional-art-98-o-n-o-1 ; https://www.gov.pt/noticias/aima-tem-nova-forma-de-pedir-agendamento-de-residencia-permanente
+- 未解：D7境內可從事有償工作之具體條文、三地旅行文件/領館、家屬2025後限制、實際續居/永居缺席計算及精確費用。
+
+### 葡萄牙 D8（Art88(1)境外遠距工作居留）
+- AIMA現行專頁規定持有效遠距工作居留簽，提交護照、境外雇主/客戶證明、葡國住宿資料；**首次居留2年、每次續3年**。不可把遠距工作居留簽證及AIMA正式居留卡當作同一證件。
+- 家屬依AIMA Art98團聚，法定批核後居留期限通常隨主申請人，但2025年後等待期/例外仍須核；D8本身不自動附送家屬工作權。
+- 依AIMA Art80，合法持有臨時居留5年且滿足葡語、財力、住址、稅社保及犯罪要求，可按條件申請永久居留。**是否所有D8持證時間可連續計入、出入境缺席/中斷如何計算仍未全核**。
+- 官方：https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe ; https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o ; https://aima.gov.pt/pt/viver/reagrupamento-familiar-com-familiar-fora-de-territorio-nacional-art-98-o-n-o-1
+- 未解：三地旅行證件與領事費、2026實際收入/稅前稅後標準、家屬完整待遇、永居缺席規則。
+
+### 英國 Graduate（110條外關聯核查，不計入CSV）
+- Home Office Appendix Graduate現行GR8.1：2026-12-31或之前一般2年；**2027-01-01起**一般18月，博士3年。此路線為境內Student完成合資格學位後申請、不能延長同類、非settlement route。
+- 除英國在Student階段已具合資格附屬家屬身份（或特定在英出生子女）外，通常不得在Graduate階段新增家屬。官網明確原Student附屬家屬可申請延續，家屬可工作但不得當職業運動員。
+- 官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate ; https://www.gov.uk/graduate-visa/your-partner-and-children ; https://www.gov.uk/graduate-visa
+- **不增加RUN路線數**，仍110條。
+
+### 第57輪對帳與發布限制
+- 官方路線／分類證據索引110/110，逐欄矩陣110/110；第54–57輪累計深入補核12條（不含Graduate關聯政策）。全部欄位C/D仍**0/110**。本輪3筆仍B級，三地領館申辦、部分家屬、工作、永居年資/生效日等未完。
+- 原PR #107已合併；此次只更新draft PR #108 `audit/europe-mobility-110-official-checks`。**DO NOT MERGE / DO NOT DEPLOY / 不宣稱全量核驗完成**。
