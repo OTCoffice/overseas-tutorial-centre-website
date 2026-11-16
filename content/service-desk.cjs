@@ -29,6 +29,7 @@ const groups=[
       ["香港研究型碩博申請","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"]
     ]],
     ["subject-admissions","專業與職業升學",[
+      ["波蘭英語獸醫｜SGGW","/zh/subject-planning/poland-veterinary-sggw/","華沙生命科學大學5.5年課程、學費、申請與英歐註冊要求。"],
       ["護理升學、註冊與求職","/zh/nursing/","護理升學、護士註冊、求職與移民；澳洲專頁及服務費用。"],
       ["護理課程與院校","/zh/nursing/courses/","按 AQF 學歷級別及州份查閱澳洲護理課程。"],
       ["社工升學與職業規劃","/zh/subject-planning/social-work/","按國家查閱社工升學、院校課程、專業資格、薪資及居留。"],
