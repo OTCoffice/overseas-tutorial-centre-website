@@ -357,6 +357,14 @@
         "scope": "按護照查年齡、名額、停留及工作限制；使用當期國別指南。",
         "official": "https://whic.mofa.go.kr/twa/",
         "status": "官方有項目資料"
+      },
+      {
+        "type": "remote",
+        "title": "F-1-D · 數字遊民簽證",
+        "summary": "2026年6月30日起正式實施；18–34歲、不帶家屬並住非首都圈等指定地區，年收入門檻為52,416,000韓元。",
+        "scope": "須符合海外公司遠端工作等條件；首次最長1年，逐年申請延長，合計最長3年。不可用作韓國本地求職工簽。",
+        "official": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?menuSn=219&vcontsId=192691",
+        "status": "2026-11-16核查；家屬及其他年齡收入要求另列於專節"
       }
     ]
   },
