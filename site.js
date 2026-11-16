@@ -372,7 +372,7 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
 <body${bodyClass ? ` class="${bodyClass}"` : ""}>
   ${nav(current, locale, canonicalPath)}
   ${shareAtBottom ? "" : pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale })}
-  ${require("./content/compact-tables.cjs")(body)}
+  ${require("./content/compact-tables.cjs")(body)}${require("./content/australia-overview-link.cjs").overviewLink(canonicalPath)}
   ${shareAtBottom ? pageUtilityBar({ canonicalPath, canonicalUrl: socialUrl, title, locale }) : ""}
   ${footer(locale)}
   ${pageUtilityScript()}
