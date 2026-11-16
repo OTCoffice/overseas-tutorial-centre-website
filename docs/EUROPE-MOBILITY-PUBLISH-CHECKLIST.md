@@ -1066,3 +1066,44 @@
 ### 第64輪狀態及發布限制
 - 本輪新增2筆逐欄深入證據；第63輪前口徑22/110，**累計24/110條有深入逐欄補核**；這僅是審計工作覆蓋，**C/D完整核實仍0/110**。110/110路線已有來源不代表可以接受新申請。
 - 原PR #107此前已合併，本輪只修改draft PR #108審核分支；**未更動main、未合併、未部署、未完成全站測試**。C/D與網站測試通過前不得公開宣稱「110條已核驗」。
+
+
+## 第65輪（2026-11-16）四路線官方逐欄核驗：立陶宛3 + 愛沙尼亞1（仍屬B部分核）
+
+**本輪特別警示：立陶宛2026普通工作配額已耗盡、2026-10-03居留費漲價；不得使用2025年薪資和EU Portal 2025年舊費。**
+
+### 65-A 立陶宛一般工作暫居 `lithuania-residence-permit-for-employment`
+- **現行，但一般工作配額已用盡，不是整條制度關閉**。2026年24,706個配額，移民局2026-09-07公告已用盡（2026-09-14更新）。配額耗盡後通常要求雇主稅前月薪至少**1.2 BDU €2,893.68**；列入高附加價值短缺職業清單可至少 **1 BDU €2,411.40**；有適用例外；不是藍卡1.2／1.5 BDU規則。
+- 2026-09-10的官方FAQ（2026-09-15更新）說明：提交申請**不預留配額**，計入時點為批卡決定；工作暫居續件一般可到期前6個月提出且持原卡有效，合資格續件／換雇主不重占本年度配額；留學後5年內就業及團聚持卡者等亦有例外。
+- 外國人持短期免簽、他國申根簽或他國居留通常**不能直接在立陶宛工作**；2024-07-01起需本國工作暫居（法定少數例外另核）。
+- 外部服務商2026-09-15部分辦事處對「非優先」工作／季節工等申請設容量管控，並非對所有海外申請全面關閉；三地申請實際收件地尚未確認。
+- 2026-10-03起移民局公告臨時居留申請／更新€220普通、€440加急；製卡另€75/€150；轉換雇主或工作職能申請€165。
+- 官方： https://migracija.lrv.lt/lt/naujienos/siems-metams-nustatyta-idarbinamu-uzsienieciu-kvota-isnaudota-C8O/ ; https://migracija.lrv.lt/lt/naujienos/migracijos-departamentas-paaiskina-kas-yra-uzsienieciu-kvota-ir-kaip-ji-skaiciuojama-HYn/ ; https://migracija.lrv.lt/en/news/foreigners-who-wish-to-work-in-lithuania-will-have-to-obtain-lithuanian-residence-permits-exceptions-will-only-apply-in-certain-cases/ ; https://migracija.lrv.lt/lt/naujienos/informacija-apie-prasymu-isduoti-llg-priemima-vcX/ ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/
+- 待解：中／港／台領事與VFS實際受理／有效旅行文件，詳細職業例外、個案家屬工作權、費用例外與長居缺席計算。
+
+### 65-B 立陶宛 EU Blue Card `lithuania-eu-blue-card`
+- **現行高技能路線（與一般就業配額制不同）**。EU委員會移民門戶2025-04-01解說六個月以上高技能合約和學歷／專業等效經驗要求；受控專業認可另核。
+- 2026-05-19移民部公布2026-05-12起新BDU：**短缺高附加價值職類1.2倍 €2,893.68/月**；其他符合條件的高技能職位1.5倍 **€3,617.10/月**。不要再引用 EU官方較舊門戶內2023-24年的€2,532、€3,165。
+- EU門戶原有3年卡／短合同加3月、家屬可立即團聚等原則；2026國內相關法條的全部例外未完成。費用以移民部2026-10-03實際調升的**€220/€440**為準，不是EU門戶陳舊的€160/€320。
+- 官方： https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-lithuania_en ; https://migracija.lrv.lt/lt/naujienos/paskelbti-nauji-kalendoriniu-metu-darbo-uzmokescio-dydziai-kgN/ ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/ ; https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-lithuania_en
+- 待解：中／港／台領館、雇主轉換、跨國年資及永久居留、2026法令例外和家屬工作登記。
+
+### 65-C 立陶宛 Startup Visa `lithuania-startup-visa`
+- **現行**：Inovacijų agentūra官方服務仍列Active、免費受理「創新新創」評估。合資格創業構想可能取得**申請臨時居留的資格**，不等於創業計畫一經評估就自動簽發簽證／卡；不是普通經商居留或e-residency。
+- 居留行政費依2026-10-03新費表€220／€440，另製卡費；創業評估免費與移民申請免收費為不同概念。根據EU官方家屬制度，創新業務活動符合要求者可不受一般兩年先居留的等待限制，但家屬工作權／文件細節未核。
+- 本輪未得到足夠當期直接法令證據核對創業卡初批/續卡年限、資金要求，**故明列未核而不挪用2019歷史資料或第三方文章**。
+- 官方： https://www.inovacijuagentura.lt/paslauga/startup-visa/?lang=lt ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/ ; https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-lithuania_en
+- 待解：三地領事、創業評估／公司註冊、初卡和續期、家屬工作權、資金及永居年資。
+
+### 65-D 愛沙尼亞工作居留 `estonia-residence-permit-for-employment`
+- **現行**：現行《Foreign Nationals Act》（§177-179等）一般需要在國內商業登記的雇主、實際職位、按規定先取得勞動市場許可（若符合豁免則不需）；需相應技能經驗、實際居所、足夠收入及醫保。
+- **薪資不等於最新季度平均**：§178一般採Statistikaamet最近公布之「全年平均」稅前月薪，2025年度**€2,092/月**（2026年通常一般工作暫居申請基準），特殊創業/畢業生等例外另核；不能挪用2026 Q2€2,243為工作居留最低薪資。
+- 官方勞動監察局PPA說明：初次工作暫居最長5年，特定雇主/職位；短期工作登記上限365日/455日，**短期登記≠已獲長期居留**。續件/轉工審核按新修訂法令例外。
+- **2027短缺行業優惠改革非2026年當期就業資格**；2026州費當期表、家屬工作權及三地領館仍未核。
+- 官方： https://www.riigiteataja.ee/en/akt/501092026001 ; https://www.ti.ee/en/foreign-worker/coming-abroad-work-estonia ; https://stat.ee/en/wages-and-salaries-and-labour-costs
+- 待解：主辦機關不同受理地/州費、個別工種法定例外、2027改制完整條文和生效日、家屬、永居年資。
+
+### 第65輪質量閘門與進度
+- 四個不同原RUN ID 於2026-11-16新增逐欄部分核實記錄；前一輪官方清單記載**24/110**有深入補核，本輪核對後為**28/110**；還有82條未達同等深入核實。原始RUN 99+11條路線的來源矩陣仍是**110/110**，但**C/D全欄達標仍0/110**。
+- 凡「現行、未生效、封閉、未確認」依當期官方資料區分；立陶宛2026年一般工作**額度耗盡≠制度取消**；愛沙尼亞2027規則不提前套用。
+- 本輪只寫入 draft PR #108 的 `audit/europe-mobility-110-official-checks`，原PR #107早已合併，不能再更新該已合併分支。未變更main、未合併、未部署、未完成網站/手機/SEO/可訪問性全量回歸測試；**DO NOT MERGE / DO NOT DEPLOY**。
