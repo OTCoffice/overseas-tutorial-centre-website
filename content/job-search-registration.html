@@ -1,0 +1,36 @@
+<style>
+.otc-intake {max-width: 760px; margin: 32px auto; padding: 0 20px}
+.otc-intake form {display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.otc-intake label {display:grid; gap:5px; align-content:start}
+.otc-intake input,.otc-intake textarea {font:inherit; color:inherit; padding:10px; border:1px solid #667787; border-radius:4px; width:100%; box-sizing:border-box; background:white}
+.otc-intake textarea {min-height:95px; resize:vertical}
+.otc-intake .full {grid-column:1/-1}
+.otc-intake .actions {display:flex; flex-wrap:wrap; gap:10px}
+.otc-intake button {font:inherit; cursor:pointer}
+</style>
+<section class="page-hero services-hero"><div class="band"><h1>OTC 求職登記表</h1><p>填寫求職資料，連同最新 CV 一起電郵給 Maria。收到完整資料後，OTC 會按個案安排跟進。</p></div></section>
+<main class="otc-intake">
+<form id="job-search-registration" method="post" aria-describedby="registration-privacy">
+  <label>英文姓名（依護照拼寫）<input name="英文姓名" required autocomplete="name" maxlength="100"></label>
+  <label>聯絡電郵<input name="聯絡電郵" type="email" required autocomplete="email" maxlength="160"></label>
+  <label>年齡<input name="年齡" type="number" required min="1" max="120" inputmode="numeric"></label>
+  <label>護照簽發國家／地區<input name="護照簽發地" required maxlength="80"></label>
+  <label>現居國家／地區及城市<input name="現居地" required maxlength="100"></label>
+  <label>最高學歷、技能及證照<input name="學歷、技能及證照" required maxlength="160"></label>
+  <label class="full">最近職位、工作年資及主要職責<textarea name="工作經驗" required maxlength="450"></textarea></label>
+  <label>語言程度及考試成績<input name="語言程度" required maxlength="120"></label>
+  <label>目標國家及職位<input name="目標職位" required maxlength="120"></label>
+  <label>最早可上工時間<input name="最早可上工時間" required maxlength="80" placeholder="例如 2027 年 2 月中旬"></label>
+  <label>期望薪資（選填）<input name="期望薪資" maxlength="80"></label>
+  <p class="full" id="registration-privacy">OTC 用收到的資料查找求職渠道和後續聯絡。填寫內容在瀏覽器內整理，請在郵件草稿中核對內容、附上 CV，再自行寄出。正式申請如需完整生日或護照號碼，請透過受理方的正式渠道提供。</p>
+  <div class="actions full">
+    <button class="btn btn-primary" type="submit" disabled>開啟電郵草稿</button>
+    <button class="btn btn-secondary" type="submit" value="download" disabled>下載已填表格</button>
+  </div>
+  <p class="full" id="registration-status" role="status"></p>
+</form>
+<p>也可以將下載的表格連同 CV 電郵至 <a href="mailto:office@overseasuk.com">office@overseasuk.com</a>。</p>
+<p>英國季節工公開渠道查詢免費。一般求職 CV 可自行更新，如需 Maria 另行編修，會先確認範圍及報價。</p>
+<noscript><p>請啟用 JavaScript 使用表格，或電郵 office@overseasuk.com 索取登記表。</p></noscript>
+</main>
+<script src="/assets/job-search-registration.js" defer></script>
