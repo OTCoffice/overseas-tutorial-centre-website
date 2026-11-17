@@ -4,10 +4,11 @@
   "path": "/zh/services/germany-ausbildung/",
   "titleZh": "德國雙元制 Ausbildung｜海外督導 OTC",
   "summaryZh": "德國帶薪職業培訓 Ausbildung：學歷與德語要求、2026／2027 培訓津貼、簽證生活費、申請流程及畢業後工作居留，附官方來源與 OTC 協助範圍。",
-  "shareImageZh": "/assets/social/native-germany-ausbildung-20261030.png",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 220,
+  "shareImageZh": "/assets/social/germany-ausbildung-share-20261117.png",
+  "socialImageVersion": "v=20261117-cover",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 440,
   "updated": "2026-11-17",
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only",
+  "twitterCard": "summary_large_image"
 }
