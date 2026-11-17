@@ -45,7 +45,7 @@ const groups=[
   ["visa","簽證、居留與短期交流","簽證文件、工作與居留，以及交換、遊學與短期計劃。",[
     ["visa-applications","簽證與居留",[
       ["簽證申請支援","/zh/services/visa-application-support/","文件清單、準備時間表、進度與行前資料。"],
-      ["各國移民資訊","/zh/immigration-info/","居留、工作簽證及留學後工作資訊。"],
+      ["移民聯盟","/zh/immigration-alliance/","各國工作與居留政策、歐洲36國專頁及外部資料索引。"],
       ["美國簽證協助","/zh/services/us-visa-support/","DS-160 資料核對、文件整理、預約流程與面試準備。"],
       ["越南簽證代辦","/zh/services/vietnam-visa/","需求確認、文件檢查、申請協調與進度跟進。"],
       ["澳洲 491／191 規劃","/zh/services/australia-491-planning/","地區技術簽證、州提名、191永居條件與行政支援。"],
