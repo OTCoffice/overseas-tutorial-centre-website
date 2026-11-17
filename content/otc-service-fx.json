@@ -1,0 +1,15 @@
+{
+  "base": "CNY",
+  "asOf": "Tue, 17 Nov 2026 00:02:31 +0000",
+  "source": "https://open.er-api.com/v6/latest/CNY",
+  "provider": "ExchangeRate-API",
+  "rates": {
+    "CNY": 1,
+    "GBP": 0.113567,
+    "USD": 0.149718,
+    "TWD": 4.930966,
+    "HKD": 1.17469,
+    "AUD": 0.222178,
+    "EUR": 0.136112
+  }
+}

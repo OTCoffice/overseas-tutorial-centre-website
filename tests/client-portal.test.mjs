@@ -78,3 +78,26 @@ test('登入及電郵相符不會自動授予管理權；僅讀取明確角色�
   await assert.doesNotReject(requireAdmin({id:'staff'},async()=> 'admin'));
  }finally{if(previous===undefined)delete process.env.OTC_PORTAL_OWNER_EMAIL;else process.env.OTC_PORTAL_OWNER_EMAIL=previous}
 });
+
+test('完整學生表格保留分組資料，拒絕藉新增欄位設定官方結果與角色',async()=>{
+ const {validateClientProfile,profileMissing}=await import('../lib/client-profile.mjs');
+ const p=validateClientProfile({basic:{familyName:'Chan',givenName:'Test',nationality:'示範',email:'test@example.test',phone:'+44000000000',passportNumber:'TEST-ONLY'},education:[{school:'示範大學',qualification:'學士',subject:'商科'}],plan:{countries:'英國',degree:'碩士'},applications:[{school:'意向院校',course:'意向課程',country:'英國',code:'TEST',status:'已錄取',shared:true}],emergency:[{name:'示範聯絡人'}],visa:{refusal:'是',refusalDetails:'測試說明',status:'已獲批'},payments:[{amount:'100',currency:'GBP',verified:true}],arrival:{pickup:'需要'},role:'admin'});
+ assert.deepEqual(profileMissing(p),[]);assert.equal(p.applications[0].code,'TEST');assert.equal(p.emergency[0].name,'示範聯絡人');assert.equal(p.visa.refusal,'是');assert.equal(p.payments[0].currency,'GBP');assert.equal(p.arrival.pickup,'需要');
+ for(const key of ['role','shared','verified'])assert.ok(!JSON.stringify(p).includes('"'+key+'":'));assert.equal(p.visa.status,undefined);assert.equal(p.applications[0].status,undefined);assert.ok(profileMissing({}).length>0);
+ assert.throws(()=>validateClientProfile({applications:Array(16).fill({})}),{status:400});
+});
+test('六幣換算保留原幣，零費用與未知報價不混淆',async()=>{
+ const {convertServiceFee,displayCurrencies}=await import('../lib/client-fees.mjs');const rates={CNY:1,GBP:.1,USD:.15,TWD:5,HKD:1.2,AUD:.2,EUR:.13};
+ assert.equal(displayCurrencies.length,6);assert.equal(convertServiceFee(1000,'CNY','GBP',rates),100);assert.equal(convertServiceFee(1100,'AUD','AUD',rates),1100);assert.equal(convertServiceFee(1100,'AUD','GBP',rates),550);assert.equal(convertServiceFee(0,'CNY','EUR',rates),0);assert.equal(convertServiceFee(null,'CNY','EUR',rates),null);assert.throws(()=>convertServiceFee(1,'BAD','GBP',rates));
+});
+test('公開錄取與簽證資料和客戶意向分開；未公開院校結果仍不可見',()=>{
+ const c={id:'a',name:'test',status:'待機構回覆',publicVisaStatus:'待核對',publicVisaNotes:'公開說明',privateVisaNotes:'內部資料',profile:{updatedAt:'2026-11-17',data:{applications:[{school:'客戶意向院校',status:'已錄取'}]}},routes:[{school:'內部院校',offerType:'有條件錄取'},{school:'公開院校',shared:true,offerType:'有條件錄取',reference:'TEST-123',paymentCurrency:'GBP',fit:'內部評估'}]};const out=clientCase(c);assert.equal(out.routes.length,1);assert.equal(out.routes[0].offerType,'有條件錄取');assert.equal(out.routes[0].reference,'TEST-123');assert.equal(out.publicVisaStatus,'待核對');assert.equal(out.privateVisaNotes,undefined);assert.equal(out.profile.data.applications[0].status,undefined);assert.ok(!JSON.stringify(out).includes('內部'));
+});
+test('提交 OTC 核對保留申請階段、記錄提交版本，且不重複建立未完成審核任務',async()=>{
+ const {applyProfileUpdate}=await import('../lib/client-profile.mjs');const p={basic:{familyName:'Test',givenName:'User',nationality:'Test',email:'test@example.test',phone:'123'},education:[{school:'Test',qualification:'Bachelor',subject:'Test'}],plan:{countries:'法國',degree:'Master'}};
+ const c={id:'a',clientId:'client',status:'資料待補',owner:'OTC',routes:[],tasks:[{title:'原有待辦',done:false}],logs:[]};
+ const draft=applyProfileUpdate(c,{},'t1');assert.equal(draft.profile.submittedAt,'');assert.equal(draft.tasks.length,1);assert.throws(()=>applyProfileUpdate(c,{},'t1',true),{status:400});
+ const submitted=applyProfileUpdate(c,p,'t2',true);assert.equal(submitted.profile.submittedAt,'t2');assert.equal(submitted.status,'資料待補');assert.equal(submitted.clientId,'client');assert.equal(submitted.tasks.length,2);
+ const again=applyProfileUpdate(submitted,p,'t3',true);assert.equal(again.tasks.length,2);assert.equal(again.profile.submittedVersion,'t3');
+ const revised=applyProfileUpdate(again,p,'t4');assert.equal(revised.profile.submittedVersion,'t3');assert.equal(revised.profile.updatedAt,'t4');assert.equal(c.logs.length,0);
+});

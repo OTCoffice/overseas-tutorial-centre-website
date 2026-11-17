@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-11-17",
+  "policy": "依使用者指示採用已核實的小希服務項目及原幣價格，換算金額為估算；未公開價格保留個別報價。",
+  "reference": "https://open.xiaoxiedu.com/details/question",
+  "items": [
+    {
+      "id": "uk-student",
+      "group": "簽證",
+      "name": "英國學生簽證代辦",
+      "amount": 1000,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "經 OTC 跟進的院校申請，需委託代辦學生簽證；政府簽證費及其他第三方費用另計。"
+    },
+    {
+      "id": "nz-student",
+      "group": "簽證",
+      "name": "新西蘭學生簽證代辦",
+      "amount": 500,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "院校申請及錄取由 OTC 跟進，另委託學生簽證代辦；政府費用另計。"
+    },
+    {
+      "id": "au-transfer",
+      "group": "簽證",
+      "name": "澳洲轉代理／自行申請後的學生簽證",
+      "amount": 500,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "適用轉代理或自行取得錄取後另委託簽證的普通個案；有拒簽史等特殊情況須另行評估。"
+    },
+    {
+      "id": "au-complex",
+      "group": "簽證",
+      "name": "澳洲有拒簽史的學生簽證個案",
+      "amount": 1100,
+      "currency": "AUD",
+      "unit": "人次",
+      "conditions": "需先評估拒簽原因、院校 CoE 及可辦範圍；政府申請費另計，不承諾獲批。"
+    },
+    {
+      "id": "au-reapply",
+      "group": "簽證",
+      "name": "澳洲拒簽後再次遞簽",
+      "amount": 500,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "限可重新取得 CoE、且另行評估適用普通再次遞簽的個案；與複雜拒簽個案服務分開確認，不自動疊加收費。"
+    },
+    {
+      "id": "au-guardian",
+      "group": "簽證",
+      "name": "澳洲家長監護／陪讀簽證",
+      "amount": 1000,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "家長監護陪讀個案；申請類別及服務範圍由 OTC 確認，政府費用另計。"
+    },
+    {
+      "id": "au-standard",
+      "group": "簽證",
+      "name": "澳洲一般學生簽證（符合免費條件）",
+      "amount": 0,
+      "currency": "CNY",
+      "unit": "人次",
+      "conditions": "由 OTC 從院校申請開始跟進、且無拒簽史等特殊情況的個案；適用渠道先確認，政府費用另計。"
+    },
+    {
+      "id": "cooperation",
+      "group": "申請",
+      "name": "符合渠道條件的院校申請",
+      "amount": 0,
+      "currency": "CNY",
+      "unit": "項",
+      "conditions": "僅限經 OTC 確認可採用免服務費渠道的項目；博士需自行完成套磁。院校申請費及不適用渠道另計。"
+    },
+    {
+      "id": "noncommission",
+      "group": "申請",
+      "name": "不適用免服務費渠道的院校申請",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "項",
+      "conditions": "先確認課程、申請數量、文書及服務範圍，再提供報價。"
+    },
+    {
+      "id": "documents",
+      "group": "申請",
+      "name": "PS／CV／推薦材料支援",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "項",
+      "conditions": "素材整理、結構、修改及申請材料指導；按文件及服務範圍報價。"
+    },
+    {
+      "id": "language",
+      "group": "語言",
+      "name": "語言培訓及考試支援",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "課程",
+      "conditions": "依測評、課程、課時及考試項目另行報價。"
+    },
+    {
+      "id": "pickup",
+      "group": "境外服務",
+      "name": "接機安排",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "次",
+      "conditions": "依城市、機場、日期、時段、乘客及行李數量報價。"
+    },
+    {
+      "id": "housing",
+      "group": "境外服務",
+      "name": "當地住宿安排",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "項",
+      "conditions": "依地點、住宿類型、租期及供應商報價；房租及押金另列。"
+    },
+    {
+      "id": "online-support",
+      "group": "境外服務",
+      "name": "海外線上學習陪護",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "方案",
+      "conditions": "依年級、時數、週期及所需支援報價。"
+    },
+    {
+      "id": "course-selection",
+      "group": "境外服務",
+      "name": "海外大學選課指導",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "項",
+      "conditions": "依學校、學位、課程要求及學分安排報價。"
+    },
+    {
+      "id": "academic",
+      "group": "境外服務",
+      "name": "海外學術指導",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "課程",
+      "conditions": "依學科、目標及指導時數報價，限學習與研究指導。"
+    },
+    {
+      "id": "appeal",
+      "group": "境外服務",
+      "name": "海外學術申訴支援",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "個案",
+      "conditions": "按通知、事實材料、截止日及服務範圍評估報價。"
+    },
+    {
+      "id": "tuition-payment",
+      "group": "境外服務",
+      "name": "境外學費繳付協助",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "筆",
+      "conditions": "支付供應商、匯率及手續費以當次報價確認；不在本頁直接付款。"
+    },
+    {
+      "id": "health",
+      "group": "境外服務",
+      "name": "海外健康支援服務協調",
+      "amount": null,
+      "currency": "CNY",
+      "unit": "方案",
+      "conditions": "按地點、所需第三方服務及保障範圍確認報價，不代替醫療診斷。"
+    }
+  ]
+}
