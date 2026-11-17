@@ -97,19 +97,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/auth/:path*",
-      "destination": "/api/client-auth/?path=:path*"
-    },
-    {
-      "source": "/zh/services/europe-mobility-pathways",
-      "destination": "/zh/services/europe-mobility-pathways/index.html"
-    },
-    {
-      "source": "/zh/services/europe-mobility-pathways/",
-      "destination": "/zh/services/europe-mobility-pathways/index.html"
-    }
   ]
 }
