@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS otc_portal_workspace (id integer PRIMARY KEY CHECK(id=1), payload jsonb NOT NULL DEFAULT '[]', revision integer NOT NULL DEFAULT 0);
+INSERT INTO otc_portal_workspace(id) VALUES(1) ON CONFLICT DO NOTHING;
+CREATE TABLE IF NOT EXISTS otc_portal_members (user_id text PRIMARY KEY, role text NOT NULL CHECK(role IN ('admin','client')));
+CREATE TABLE IF NOT EXISTS otc_portal_messages (id uuid PRIMARY KEY, case_id text NOT NULL, user_id text NOT NULL, sender_name text NOT NULL, staff boolean NOT NULL DEFAULT false, body text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX IF NOT EXISTS otc_portal_messages_case ON otc_portal_messages(case_id,created_at);
+CREATE TABLE IF NOT EXISTS otc_portal_files (id uuid PRIMARY KEY,case_id text NOT NULL,user_id text NOT NULL,name text NOT NULL,content bytea NOT NULL,shared boolean NOT NULL DEFAULT false, created_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX IF NOT EXISTS otc_portal_files_case ON otc_portal_files(case_id);
