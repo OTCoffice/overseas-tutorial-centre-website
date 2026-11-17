@@ -5,3 +5,6 @@ CREATE TABLE IF NOT EXISTS otc_portal_messages (id uuid PRIMARY KEY, case_id tex
 CREATE INDEX IF NOT EXISTS otc_portal_messages_case ON otc_portal_messages(case_id,created_at);
 CREATE TABLE IF NOT EXISTS otc_portal_files (id uuid PRIMARY KEY,case_id text NOT NULL,user_id text NOT NULL,name text NOT NULL,content bytea NOT NULL,shared boolean NOT NULL DEFAULT false, created_at timestamptz NOT NULL DEFAULT now());
 CREATE INDEX IF NOT EXISTS otc_portal_files_case ON otc_portal_files(case_id);
+CREATE TABLE IF NOT EXISTS otc_portal_routing (id integer PRIMARY KEY CHECK(id=1),rules jsonb NOT NULL DEFAULT '[]');
+INSERT INTO otc_portal_routing(id) VALUES(1) ON CONFLICT DO NOTHING;
+CREATE TABLE IF NOT EXISTS otc_portal_notifications (id uuid PRIMARY KEY,case_id text NOT NULL,kind text NOT NULL,recipient text NOT NULL,status text NOT NULL DEFAULT 'pending',attempts integer NOT NULL DEFAULT 0,provider_id text,error text,created_at timestamptz NOT NULL DEFAULT now(),updated_at timestamptz NOT NULL DEFAULT now(),UNIQUE(case_id,kind));

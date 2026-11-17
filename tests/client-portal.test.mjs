@@ -31,3 +31,18 @@ test('未登入、未驗證及偽造身份標頭都不會獲得客戶權限',asy
 test('儲存拒絕重複個案 ID、缺少欄位及過大資料',()=>{
  const c={id:'case-a',name:'測試',docs:[],actions:[],tasks:[],logs:[],routes:[]};assert.equal(validateWorkspace([c]).length,1);assert.throws(()=>validateWorkspace([c,c]),{status:400});assert.throws(()=>validateWorkspace([{id:'x',name:'測試'}]),{status:400});assert.throws(()=>validateWorkspace([{...c,known:'x'.repeat(3500001)}]),{status:400});
 });
+
+test('背景問卷依服務、國家及答案分支；隱藏欄位不會收存',async()=>{
+ const {intakeQuestions,validateIntake}=await import('../lib/client-intake.mjs');
+ const questions=intakeQuestions('移民與居留','美國',{stage:'在讀',route:'家庭團聚'});
+ for(const id of ['passport','usStatus','usConnection','graduation','sponsor'])assert.ok(questions.some(q=>q.id===id));
+ assert.ok(!intakeQuestions('求職與職涯陪跑','英國',{}).some(q=>q.id==='usStatus'));
+ const answers=Object.fromEntries(questions.map(q=>[q.id,q.options?q.options[0]:'測試背景']));answers.stage='在讀';answers.route='家庭團聚';answers.secret='不得收存';
+ const valid=validateIntake('移民與居留','美國',answers);assert.ok(!('secret' in valid));
+ delete answers.passport;assert.throws(()=>validateIntake('移民與居留','美國',answers),{status:400});
+});
+test('留學官方入口保留明確直申範圍、篩選與空結果',async()=>{
+ const {createRequire}=await import('node:module');const require=createRequire(import.meta.url);const panel=require('../content/study-official-links.cjs');
+ assert.ok(panel.entries.length>=9);for(const e of panel.entries)assert.match(e.url,/^https:\/\//);
+ const html=panel();assert.match(html,/並非完整高校名錄/);assert.match(html,/school-country/);assert.match(html,/school-empty/);
+});
