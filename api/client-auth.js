@@ -3,7 +3,7 @@ const paths=new Set(['get-session','sign-in/email','sign-up/email','sign-out','e
 export default async function handler(req,res){
   try{
     assertSameOrigin(req);
-    const path=String(req.query.path||'');
+    const path=String(req.query.path||'').replace(/\/+$/,'');
     if(!paths.has(path)||!['GET','POST'].includes(req.method))return res.status(404).json({error:'找不到此操作。'});
     if((path==='get-session')!==(req.method==='GET'))return res.status(405).end();
     if(JSON.stringify(req.body||{}).length>12000)return res.status(413).end();

@@ -13,7 +13,7 @@ http.createServer(async(req,res)=>{try{
   if(!/^client-[a-z]+$/.test(name)){res.status(404).end();return;}
   const chunks=[];let size=0;for await(const part of req){size+=part.length;if(size>3000000){res.status(413).end();return;}chunks.push(part);}
   const raw=Buffer.concat(chunks).toString();req.body=raw?JSON.parse(raw):undefined;
-  const handler=(await import(path.join(root,'api',name+'.mjs'))).default;return await handler(req,res);
+  const handler=(await import(path.join(root,'api',name+'.js'))).default;return await handler(req,res);
  }
  if(pathname.split('/').some(p=>p.startsWith('.'))||/^\/(api|lib|db|node_modules|scripts|client-portal\/src)\//.test(pathname)){res.status(404).end();return;}
  let file=path.resolve(root,'.'+pathname);if(!file.startsWith(root+path.sep)&&file!==root){res.status(403).end();return;}
