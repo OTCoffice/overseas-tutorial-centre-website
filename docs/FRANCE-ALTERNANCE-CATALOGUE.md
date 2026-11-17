@@ -32,3 +32,9 @@ These provide useful checks beyond bulk catalogue inclusion. Do not convert any 
 ## Client centre
 
 The client centre has an authenticated dashboard, profile arrays, per-case programmes/tasks, documents and conversations. Only `shared=true` routes and tasks are returned to a client. Internal assessments/actions/logs remain excluded. Profile writes require verified identity, exact case ownership, same-origin and revision checks. No data from the inspected Xiaoxi account was copied into source, fixtures or production.
+
+## 客戶與顧問端驗收補充（2026-11-17）
+
+文件中心加入分類篩選；顧問「文件與版本」直接列出個案附件，留言頁專注對話。客戶個人資料表格在切換頁籤或個案時保留未儲存的輸入，離開瀏覽器頁面時提醒。遇到較新版本時保留草稿，使用者可另行載入最新版；顧問編輯視窗開啟期間停用全局更新，避免使用新工作區版本提交舊編輯內容。
+
+本機使用虛構個案及記憶體 API 驗收：顧問公開候選項目及待辦→客戶重新載入可見；客戶保存背景→顧問更新可見；兩視窗修改同一資料→舊版本遭拒，重新載入仍保留草稿，明確捨棄後顯示新版本。此驗收未新增正式帳戶、未寄出郵件，也未寫入正式客戶資料；正式登入後的全流程仍需授權帳戶驗收。
