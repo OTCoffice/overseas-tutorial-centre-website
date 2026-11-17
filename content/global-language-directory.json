@@ -1040,6 +1040,25 @@
         "checkedAt": "2026-09-30"
       },
       {
+        "name": "VanWest College Vancouver",
+        "city": "溫哥華 Vancouver",
+        "region": "卑詩省",
+        "url": "https://vanwest.com/english/",
+        "summary": "提供每週 20、25 或 30 堂英語課，每堂 50 分鐘；25 堂為核心英語加一門選修，週一至週五 08:30–13:50。住宿可比較寄宿家庭與學生宿舍。Thurlow 宿舍最低訂住 24 週；Nelson、Oakridge 建議至少 12 週。短住、延期、取消及提前退住須先取得校方書面確認，不能預設可只訂兩週。",
+        "type": "語言學校",
+        "checkedAt": "2026-11-17",
+        "sources": [
+          {
+            "title": "英語課程與課表",
+            "url": "https://vanwest.com/english/"
+          },
+          {
+            "title": "學費、住宿費及訂住條款",
+            "url": "https://vanwest.com/admission/fees/"
+          }
+        ]
+      },
+      {
         "name": "ILSC Toronto",
         "city": "多倫多 Toronto",
         "region": "安大略省",
@@ -1113,7 +1132,7 @@
       }
     ],
     "intro": "按省份與城市比較英語、法語及學術語言課程。蒙特婁的雙語選項另作標示。",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-11-17",
     "notion": "https://overseasuk.notion.site/3ebfd1e7e12081cfaf0cf166aa817055"
   },
   {
