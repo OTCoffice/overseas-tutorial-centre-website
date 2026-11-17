@@ -94,3 +94,6 @@ require("./scripts/render-ih-bangkok.cjs");
 
 // Preserve the dated policy reporting and its Herald entries after full generation.
 require('child_process').execFileSync('python3',['scripts/render-education-policy-20261116.py'],{stdio:'inherit'});
+
+// Preserve Ireland language study within the summer-school alliance.
+require("./scripts/render-ireland-language-study.cjs");
