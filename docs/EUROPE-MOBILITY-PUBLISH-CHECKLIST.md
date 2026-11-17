@@ -1146,3 +1146,25 @@
 - 先前第65輪為28/110條有逐欄深入補核紀錄；本輪選4個原矩陣12欄全「未核」的不同route_id，已填入官方實證並保存，按既有口徑現為**32/110具有B級深入補核紀錄**，仍有78條未達同等程度。
 - **C/D全欄完成0/110**：尤其三地領事/旅行文件、部分家屬/永居、個別費用與法條施行日，仍未逐條閉環。
 - 禁止合併PR108、禁止部署、禁止對外標示「110條官方核實完成」。全部C/D及網址/SEO/手機/無障礙/回歸測試完成後方可考慮正式發布。
+
+
+## 第67輪（2026-11-17）波蘭／斯洛文尼亞工作居留（B部分官方核驗）
+
+- 本輪在原110個route_id新增深入補核2條：`poland-temporary-residence-work-permit`、`slovenia-single-residence-and-work-permit`。均屬現行制度但未達C/D，不能以官網概覽代替所有護照、家屬與法條核驗。
+
+### 67-A 波蘭 Temporary Residence and Work Permit
+- 主管機關新版 MOS：2026-04-27起臨時／永久／EU長期居留申請一般須經電子MOS系統提交；不把舊紙本初次申請程序當作現行通用程序。申請人本人為行政程序當事人；不同工作條件和轉雇主依具體規定可能要改許可。
+- 目的為受僱且居留超過3個月；有效期最多3年；一般雇員受僱工作居留申請印花費PLN440，公司董事按另條款可能PLN340；居留卡另PLN100。無工作條件自由轉職權。
+- 波蘭 EU long-term resident原則要求合資格連續合法5年、B1波蘭語、穩定收入及保險，通常單次離境不超6個月、總計不超10個月；並非5年自動獲永居。2026年MOS對語言證據的特定文憑過渡更改，實際個案需核。
+- 三地護照可依第三國一般規則初篩，但中國普通、香港特區、台灣的領館、文件與申請實務未逐一確認；薪資具體門檻、家屬工作、工作變更例外、永居完整計算保留未核。
+- 2026-11-17官方：https://www.gov.pl/web/udsc-en/basic-information-about-the-mos-system ; https://migrant.poznan.uw.gov.pl/en/procedury/temporary-residence-and-work-permit ; https://mos.cudzoziemcy.gov.pl/en/question-and-answer-database/permits-residence-and-work/temporary-residence-and-work-permit ; https://mos.cudzoziemcy.gov.pl/en/categories-information/possibilities-legalization/non-eu-continued-stay/permit-for-residence-of-a-long-term-eu-resident/ ; https://www.mos.cudzoziemcy.gov.pl/en/question-and-answer-database/other-temporary-residence-permits/family/
+
+### 67-B 斯洛文尼亞 Single Residence and Work Permit
+- ESS官方：非EU/EEA/瑞士第三國公民有合格雇主聘用，可由本人在海外使館或雇主在斯國行政單位申請；行政單位核發單一居留及工作許可，ESS依法出具同意。單有聘約不足以合法工作。
+- 首次許可按聘約期最多2年，適時續期最多3年；轉雇主、改職位或多個雇主工作通常需行政單位書面批准。延續工作也受法定社保及續卡條件限制。
+- 三地證件一般為第三國初篩，具體領事/台灣護照承認未完成。當期費用、薪資精確值、非EU家屬團聚與工作權、第三國居民5年永居計算、法令施行日皆未核。**不要把EU/EEA公民家屬自由工作權套用至第三國工作者家屬，亦不要把申根短簽費當作單一工作居留費。**
+- 2026-11-17官方：https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/work-in-slovenia/single-permit/ ; https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/entry-and-residence-in-slovenia/residence-permit ; https://www.ess.gov.si/en/jobseekers/access-to-slovenian-labour-market ; https://www.gov.si/en/topics/entry-and-residence/
+
+### 第67輪累計與發布閘門
+- 上輪深入B級補核32/110；本輪新增2個以前12欄未核的路線ID，**34/110有深入補核紀錄、76條未達同等程度**。這不是完整核驗百分比；**C/D仍0/110**。
+- 未合併PR108、未修改正式網站、未發布新政策條目。PR107此前已合併，所有核驗只更新PR108審核分支；仍須逐條完成國籍、家屬、續簽、永居及2026施行日和網站測試方可公開。
