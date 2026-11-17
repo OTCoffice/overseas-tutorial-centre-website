@@ -1,4 +1,4 @@
 const fs=require('node:fs');
 fs.mkdirSync('client-portal/manage',{recursive:true});
 fs.writeFileSync('client-portal/index.html',require('../content/client-portal.cjs')());
-fs.writeFileSync('client-portal/manage/index.html','<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>OTC 客戶服務工作台</title><link rel="stylesheet" href="/client-portal/manage/admin.css?v=20261117-student6"></head><body><div id="client-app"><p>正在載入管理工作台…</p></div><script src="/client-portal/app.js?v=20261117-student6" defer></script></body></html>');
+fs.writeFileSync('client-portal/manage/index.html','<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>OTC 客戶服務工作台</title><link rel="stylesheet" href="/client-portal/manage/admin.css?v=20261117-otc7"></head><body><div id="client-app"><p>正在載入管理工作台…</p></div><script src="/client-portal/app.js?v=20261117-otc7" defer></script></body></html>');

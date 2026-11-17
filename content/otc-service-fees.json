@@ -1,7 +1,6 @@
 {
   "checkedAt": "2026-11-17",
-  "policy": "依使用者指示採用已核實的小希服務項目及原幣價格，換算金額為估算；未公開價格保留個別報價。",
-  "reference": "https://open.xiaoxiedu.com/details/question",
+  "policy": "OTC 服務價格及六幣估算；適用條件分項列明，未列固定價的項目按個案報價。",
   "items": [
     {
       "id": "uk-student",

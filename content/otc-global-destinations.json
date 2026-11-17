@@ -1,0 +1,3023 @@
+{
+  "updatedAt": "2026-11-17",
+  "source": "https://github.com/unicode-org/cldr-json",
+  "note": "目的地名稱選項，不代表每地每項服務均可承接；具體渠道及要求由 OTC 確認。",
+  "destinations": [
+    {
+      "code": "AF",
+      "name": "阿富汗",
+      "en": "Afghanistan",
+      "region": "亞洲",
+      "aliases": [
+        "AF",
+        "Afghanistan",
+        "阿富汗"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AM",
+      "name": "亞美尼亞",
+      "en": "Armenia",
+      "region": "亞洲",
+      "aliases": [
+        "AM",
+        "Armenia",
+        "亞美尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AZ",
+      "name": "亞塞拜然",
+      "en": "Azerbaijan",
+      "region": "亞洲",
+      "aliases": [
+        "AZ",
+        "Azerbaijan",
+        "亞塞拜然"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BH",
+      "name": "巴林",
+      "en": "Bahrain",
+      "region": "亞洲",
+      "aliases": [
+        "BH",
+        "Bahrain",
+        "巴林"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BD",
+      "name": "孟加拉",
+      "en": "Bangladesh",
+      "region": "亞洲",
+      "aliases": [
+        "BD",
+        "Bangladesh",
+        "孟加拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BT",
+      "name": "不丹",
+      "en": "Bhutan",
+      "region": "亞洲",
+      "aliases": [
+        "BT",
+        "Bhutan",
+        "不丹"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BN",
+      "name": "汶萊",
+      "en": "Brunei",
+      "region": "亞洲",
+      "aliases": [
+        "BN",
+        "Brunei",
+        "汶萊"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KH",
+      "name": "柬埔寨",
+      "en": "Cambodia",
+      "region": "亞洲",
+      "aliases": [
+        "Cambodia",
+        "KH",
+        "柬埔寨"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CN",
+      "name": "中國大陸",
+      "en": "China",
+      "region": "亞洲",
+      "aliases": [
+        "CN",
+        "China",
+        "中国",
+        "中国大陆",
+        "中國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CY",
+      "name": "賽普勒斯",
+      "en": "Cyprus",
+      "region": "亞洲",
+      "aliases": [
+        "CY",
+        "Cyprus",
+        "賽普勒斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GE",
+      "name": "喬治亞",
+      "en": "Georgia",
+      "region": "亞洲",
+      "aliases": [
+        "GE",
+        "Georgia",
+        "喬治亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HK",
+      "name": "香港",
+      "en": "Hong Kong SAR China",
+      "region": "亞洲",
+      "aliases": [
+        "HK",
+        "Hong Kong SAR China",
+        "中国香港",
+        "中國香港",
+        "中國香港特別行政區"
+      ],
+      "url": "/zh/countries/hong-kong/"
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "en": "India",
+      "region": "亞洲",
+      "aliases": [
+        "IN",
+        "India",
+        "印度"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ID",
+      "name": "印尼",
+      "en": "Indonesia",
+      "region": "亞洲",
+      "aliases": [
+        "ID",
+        "Indonesia",
+        "印尼"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IR",
+      "name": "伊朗",
+      "en": "Iran",
+      "region": "亞洲",
+      "aliases": [
+        "IR",
+        "Iran",
+        "伊朗"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IQ",
+      "name": "伊拉克",
+      "en": "Iraq",
+      "region": "亞洲",
+      "aliases": [
+        "IQ",
+        "Iraq",
+        "伊拉克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IL",
+      "name": "以色列",
+      "en": "Israel",
+      "region": "亞洲",
+      "aliases": [
+        "IL",
+        "Israel",
+        "以色列"
+      ],
+      "url": ""
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "en": "Japan",
+      "region": "亞洲",
+      "aliases": [
+        "JP",
+        "Japan",
+        "日本"
+      ],
+      "url": "/zh/services/japan-sgu-planning/"
+    },
+    {
+      "code": "JO",
+      "name": "約旦",
+      "en": "Jordan",
+      "region": "亞洲",
+      "aliases": [
+        "JO",
+        "Jordan",
+        "約旦"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KZ",
+      "name": "哈薩克",
+      "en": "Kazakhstan",
+      "region": "亞洲",
+      "aliases": [
+        "KZ",
+        "Kazakhstan",
+        "哈薩克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KW",
+      "name": "科威特",
+      "en": "Kuwait",
+      "region": "亞洲",
+      "aliases": [
+        "KW",
+        "Kuwait",
+        "科威特"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KG",
+      "name": "吉爾吉斯",
+      "en": "Kyrgyzstan",
+      "region": "亞洲",
+      "aliases": [
+        "KG",
+        "Kyrgyzstan",
+        "吉爾吉斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LA",
+      "name": "寮國",
+      "en": "Laos",
+      "region": "亞洲",
+      "aliases": [
+        "LA",
+        "Laos",
+        "寮國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LB",
+      "name": "黎巴嫩",
+      "en": "Lebanon",
+      "region": "亞洲",
+      "aliases": [
+        "LB",
+        "Lebanon",
+        "黎巴嫩"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MO",
+      "name": "澳門",
+      "en": "Macao SAR China",
+      "region": "亞洲",
+      "aliases": [
+        "MO",
+        "Macao SAR China",
+        "中国澳门",
+        "中國澳門",
+        "中國澳門特別行政區"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MY",
+      "name": "馬來西亞",
+      "en": "Malaysia",
+      "region": "亞洲",
+      "aliases": [
+        "MY",
+        "Malaysia",
+        "馬來西亞"
+      ],
+      "url": "/zh/services/malaysia-study/"
+    },
+    {
+      "code": "MV",
+      "name": "馬爾地夫",
+      "en": "Maldives",
+      "region": "亞洲",
+      "aliases": [
+        "MV",
+        "Maldives",
+        "馬爾地夫"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MN",
+      "name": "蒙古",
+      "en": "Mongolia",
+      "region": "亞洲",
+      "aliases": [
+        "MN",
+        "Mongolia",
+        "蒙古"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MM",
+      "name": "緬甸",
+      "en": "Myanmar (Burma)",
+      "region": "亞洲",
+      "aliases": [
+        "MM",
+        "Myanmar (Burma)",
+        "緬甸"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NP",
+      "name": "尼泊爾",
+      "en": "Nepal",
+      "region": "亞洲",
+      "aliases": [
+        "NP",
+        "Nepal",
+        "尼泊爾"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KP",
+      "name": "北韓",
+      "en": "North Korea",
+      "region": "亞洲",
+      "aliases": [
+        "KP",
+        "North Korea",
+        "北韓"
+      ],
+      "url": ""
+    },
+    {
+      "code": "OM",
+      "name": "阿曼",
+      "en": "Oman",
+      "region": "亞洲",
+      "aliases": [
+        "OM",
+        "Oman",
+        "阿曼"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PK",
+      "name": "巴基斯坦",
+      "en": "Pakistan",
+      "region": "亞洲",
+      "aliases": [
+        "PK",
+        "Pakistan",
+        "巴基斯坦"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PS",
+      "name": "巴勒斯坦自治區",
+      "en": "Palestinian Territories",
+      "region": "亞洲",
+      "aliases": [
+        "PS",
+        "Palestinian Territories",
+        "巴勒斯坦自治區"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PH",
+      "name": "菲律賓",
+      "en": "Philippines",
+      "region": "亞洲",
+      "aliases": [
+        "PH",
+        "Philippines",
+        "菲律賓"
+      ],
+      "url": ""
+    },
+    {
+      "code": "QA",
+      "name": "卡達",
+      "en": "Qatar",
+      "region": "亞洲",
+      "aliases": [
+        "QA",
+        "Qatar",
+        "卡達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SA",
+      "name": "沙烏地阿拉伯",
+      "en": "Saudi Arabia",
+      "region": "亞洲",
+      "aliases": [
+        "SA",
+        "Saudi Arabia",
+        "沙烏地阿拉伯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "en": "Singapore",
+      "region": "亞洲",
+      "aliases": [
+        "SG",
+        "Singapore",
+        "新加坡"
+      ],
+      "url": "/zh/private-school-alliance/singapore/"
+    },
+    {
+      "code": "KR",
+      "name": "韓國",
+      "en": "South Korea",
+      "region": "亞洲",
+      "aliases": [
+        "KR",
+        "South Korea",
+        "南韓",
+        "韩国"
+      ],
+      "url": "/zh/countries/south-korea/"
+    },
+    {
+      "code": "LK",
+      "name": "斯里蘭卡",
+      "en": "Sri Lanka",
+      "region": "亞洲",
+      "aliases": [
+        "LK",
+        "Sri Lanka",
+        "斯里蘭卡"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SY",
+      "name": "敘利亞",
+      "en": "Syria",
+      "region": "亞洲",
+      "aliases": [
+        "SY",
+        "Syria",
+        "敘利亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TW",
+      "name": "台灣",
+      "en": "Taiwan",
+      "region": "亞洲",
+      "aliases": [
+        "TW",
+        "Taiwan",
+        "台湾",
+        "台灣",
+        "臺灣"
+      ],
+      "url": "/zh/services/taiwan-art-design-admissions/"
+    },
+    {
+      "code": "TJ",
+      "name": "塔吉克",
+      "en": "Tajikistan",
+      "region": "亞洲",
+      "aliases": [
+        "TJ",
+        "Tajikistan",
+        "塔吉克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TH",
+      "name": "泰國",
+      "en": "Thailand",
+      "region": "亞洲",
+      "aliases": [
+        "TH",
+        "Thailand",
+        "泰國"
+      ],
+      "url": "/zh/thailand-university-study/"
+    },
+    {
+      "code": "TL",
+      "name": "東帝汶",
+      "en": "Timor-Leste",
+      "region": "亞洲",
+      "aliases": [
+        "TL",
+        "Timor-Leste",
+        "東帝汶"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TM",
+      "name": "土庫曼",
+      "en": "Turkmenistan",
+      "region": "亞洲",
+      "aliases": [
+        "TM",
+        "Turkmenistan",
+        "土庫曼"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "en": "Türkiye",
+      "region": "亞洲",
+      "aliases": [
+        "TR",
+        "Türkiye",
+        "土耳其"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AE",
+      "name": "阿拉伯聯合大公國",
+      "en": "United Arab Emirates",
+      "region": "亞洲",
+      "aliases": [
+        "AE",
+        "United Arab Emirates",
+        "阿拉伯聯合大公國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "UZ",
+      "name": "烏茲別克",
+      "en": "Uzbekistan",
+      "region": "亞洲",
+      "aliases": [
+        "UZ",
+        "Uzbekistan",
+        "烏茲別克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "en": "Vietnam",
+      "region": "亞洲",
+      "aliases": [
+        "VN",
+        "Vietnam",
+        "越南"
+      ],
+      "url": ""
+    },
+    {
+      "code": "YE",
+      "name": "葉門",
+      "en": "Yemen",
+      "region": "亞洲",
+      "aliases": [
+        "YE",
+        "Yemen",
+        "葉門"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AL",
+      "name": "阿爾巴尼亞",
+      "en": "Albania",
+      "region": "歐洲",
+      "aliases": [
+        "AL",
+        "Albania",
+        "阿爾巴尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AD",
+      "name": "安道爾",
+      "en": "Andorra",
+      "region": "歐洲",
+      "aliases": [
+        "AD",
+        "Andorra",
+        "安道爾"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AT",
+      "name": "奧地利",
+      "en": "Austria",
+      "region": "歐洲",
+      "aliases": [
+        "AT",
+        "Austria",
+        "奧地利"
+      ],
+      "url": "/zh/countries/austria/"
+    },
+    {
+      "code": "BY",
+      "name": "白俄羅斯",
+      "en": "Belarus",
+      "region": "歐洲",
+      "aliases": [
+        "BY",
+        "Belarus",
+        "白俄羅斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BE",
+      "name": "比利時",
+      "en": "Belgium",
+      "region": "歐洲",
+      "aliases": [
+        "BE",
+        "Belgium",
+        "比利時"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BA",
+      "name": "波士尼亞與赫塞哥維納",
+      "en": "Bosnia & Herzegovina",
+      "region": "歐洲",
+      "aliases": [
+        "BA",
+        "Bosnia & Herzegovina",
+        "波士尼亞與赫塞哥維納"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BG",
+      "name": "保加利亞",
+      "en": "Bulgaria",
+      "region": "歐洲",
+      "aliases": [
+        "BG",
+        "Bulgaria",
+        "保加利亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HR",
+      "name": "克羅埃西亞",
+      "en": "Croatia",
+      "region": "歐洲",
+      "aliases": [
+        "Croatia",
+        "HR",
+        "克羅埃西亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CZ",
+      "name": "捷克",
+      "en": "Czechia",
+      "region": "歐洲",
+      "aliases": [
+        "CZ",
+        "Czechia",
+        "捷克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "DK",
+      "name": "丹麥",
+      "en": "Denmark",
+      "region": "歐洲",
+      "aliases": [
+        "DK",
+        "Denmark",
+        "丹麥"
+      ],
+      "url": "/zh/countries/nordic/"
+    },
+    {
+      "code": "EE",
+      "name": "愛沙尼亞",
+      "en": "Estonia",
+      "region": "歐洲",
+      "aliases": [
+        "EE",
+        "Estonia",
+        "愛沙尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "FO",
+      "name": "法羅群島",
+      "en": "Faroe Islands",
+      "region": "歐洲",
+      "aliases": [
+        "FO",
+        "Faroe Islands",
+        "法羅群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "FI",
+      "name": "芬蘭",
+      "en": "Finland",
+      "region": "歐洲",
+      "aliases": [
+        "FI",
+        "Finland",
+        "芬蘭"
+      ],
+      "url": "/zh/countries/nordic/"
+    },
+    {
+      "code": "FR",
+      "name": "法國",
+      "en": "France",
+      "region": "歐洲",
+      "aliases": [
+        "FR",
+        "France",
+        "法國"
+      ],
+      "url": "/zh/services/france-business-schools/"
+    },
+    {
+      "code": "DE",
+      "name": "德國",
+      "en": "Germany",
+      "region": "歐洲",
+      "aliases": [
+        "DE",
+        "Germany",
+        "德國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GI",
+      "name": "直布羅陀",
+      "en": "Gibraltar",
+      "region": "歐洲",
+      "aliases": [
+        "GI",
+        "Gibraltar",
+        "直布羅陀"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GR",
+      "name": "希臘",
+      "en": "Greece",
+      "region": "歐洲",
+      "aliases": [
+        "GR",
+        "Greece",
+        "希臘"
+      ],
+      "url": "/zh/countries/greece/"
+    },
+    {
+      "code": "GG",
+      "name": "根息",
+      "en": "Guernsey",
+      "region": "歐洲",
+      "aliases": [
+        "GG",
+        "Guernsey",
+        "根息"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HU",
+      "name": "匈牙利",
+      "en": "Hungary",
+      "region": "歐洲",
+      "aliases": [
+        "HU",
+        "Hungary",
+        "匈牙利"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IS",
+      "name": "冰島",
+      "en": "Iceland",
+      "region": "歐洲",
+      "aliases": [
+        "IS",
+        "Iceland",
+        "冰島"
+      ],
+      "url": "/zh/countries/iceland/"
+    },
+    {
+      "code": "IE",
+      "name": "愛爾蘭",
+      "en": "Ireland",
+      "region": "歐洲",
+      "aliases": [
+        "IE",
+        "Ireland",
+        "愛爾蘭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IM",
+      "name": "曼島",
+      "en": "Isle of Man",
+      "region": "歐洲",
+      "aliases": [
+        "IM",
+        "Isle of Man",
+        "曼島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IT",
+      "name": "義大利",
+      "en": "Italy",
+      "region": "歐洲",
+      "aliases": [
+        "IT",
+        "Italy",
+        "義大利"
+      ],
+      "url": "/zh/countries/italy/"
+    },
+    {
+      "code": "JE",
+      "name": "澤西島",
+      "en": "Jersey",
+      "region": "歐洲",
+      "aliases": [
+        "JE",
+        "Jersey",
+        "澤西島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "XK",
+      "name": "科索沃",
+      "en": "Kosovo",
+      "region": "歐洲",
+      "aliases": [
+        "Kosovo",
+        "XK",
+        "科索沃"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LV",
+      "name": "拉脫維亞",
+      "en": "Latvia",
+      "region": "歐洲",
+      "aliases": [
+        "LV",
+        "Latvia",
+        "拉脫維亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LI",
+      "name": "列支敦斯登",
+      "en": "Liechtenstein",
+      "region": "歐洲",
+      "aliases": [
+        "LI",
+        "Liechtenstein",
+        "列支敦斯登"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LT",
+      "name": "立陶宛",
+      "en": "Lithuania",
+      "region": "歐洲",
+      "aliases": [
+        "LT",
+        "Lithuania",
+        "立陶宛"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LU",
+      "name": "盧森堡",
+      "en": "Luxembourg",
+      "region": "歐洲",
+      "aliases": [
+        "LU",
+        "Luxembourg",
+        "盧森堡"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MT",
+      "name": "馬爾他",
+      "en": "Malta",
+      "region": "歐洲",
+      "aliases": [
+        "MT",
+        "Malta",
+        "馬爾他"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MD",
+      "name": "摩爾多瓦",
+      "en": "Moldova",
+      "region": "歐洲",
+      "aliases": [
+        "MD",
+        "Moldova",
+        "摩爾多瓦"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MC",
+      "name": "摩納哥",
+      "en": "Monaco",
+      "region": "歐洲",
+      "aliases": [
+        "MC",
+        "Monaco",
+        "摩納哥"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ME",
+      "name": "蒙特內哥羅",
+      "en": "Montenegro",
+      "region": "歐洲",
+      "aliases": [
+        "ME",
+        "Montenegro",
+        "蒙特內哥羅"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NL",
+      "name": "荷蘭",
+      "en": "Netherlands",
+      "region": "歐洲",
+      "aliases": [
+        "NL",
+        "Netherlands",
+        "荷蘭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MK",
+      "name": "北馬其頓",
+      "en": "North Macedonia",
+      "region": "歐洲",
+      "aliases": [
+        "MK",
+        "North Macedonia",
+        "北馬其頓"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NO",
+      "name": "挪威",
+      "en": "Norway",
+      "region": "歐洲",
+      "aliases": [
+        "NO",
+        "Norway",
+        "挪威"
+      ],
+      "url": "/zh/countries/nordic/"
+    },
+    {
+      "code": "PL",
+      "name": "波蘭",
+      "en": "Poland",
+      "region": "歐洲",
+      "aliases": [
+        "PL",
+        "Poland",
+        "波蘭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PT",
+      "name": "葡萄牙",
+      "en": "Portugal",
+      "region": "歐洲",
+      "aliases": [
+        "PT",
+        "Portugal",
+        "葡萄牙"
+      ],
+      "url": ""
+    },
+    {
+      "code": "RO",
+      "name": "羅馬尼亞",
+      "en": "Romania",
+      "region": "歐洲",
+      "aliases": [
+        "RO",
+        "Romania",
+        "羅馬尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "RU",
+      "name": "俄羅斯",
+      "en": "Russia",
+      "region": "歐洲",
+      "aliases": [
+        "RU",
+        "Russia",
+        "俄羅斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SM",
+      "name": "聖馬利諾",
+      "en": "San Marino",
+      "region": "歐洲",
+      "aliases": [
+        "SM",
+        "San Marino",
+        "聖馬利諾"
+      ],
+      "url": ""
+    },
+    {
+      "code": "RS",
+      "name": "塞爾維亞",
+      "en": "Serbia",
+      "region": "歐洲",
+      "aliases": [
+        "RS",
+        "Serbia",
+        "塞爾維亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SK",
+      "name": "斯洛伐克",
+      "en": "Slovakia",
+      "region": "歐洲",
+      "aliases": [
+        "SK",
+        "Slovakia",
+        "斯洛伐克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SI",
+      "name": "斯洛維尼亞",
+      "en": "Slovenia",
+      "region": "歐洲",
+      "aliases": [
+        "SI",
+        "Slovenia",
+        "斯洛維尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "en": "Spain",
+      "region": "歐洲",
+      "aliases": [
+        "ES",
+        "Spain",
+        "西班牙"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SJ",
+      "name": "挪威屬斯瓦巴及尖棉",
+      "en": "Svalbard & Jan Mayen",
+      "region": "歐洲",
+      "aliases": [
+        "SJ",
+        "Svalbard & Jan Mayen",
+        "挪威屬斯瓦巴及尖棉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SE",
+      "name": "瑞典",
+      "en": "Sweden",
+      "region": "歐洲",
+      "aliases": [
+        "SE",
+        "Sweden",
+        "瑞典"
+      ],
+      "url": "/zh/countries/nordic/"
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "en": "Switzerland",
+      "region": "歐洲",
+      "aliases": [
+        "CH",
+        "Switzerland",
+        "瑞士"
+      ],
+      "url": ""
+    },
+    {
+      "code": "UA",
+      "name": "烏克蘭",
+      "en": "Ukraine",
+      "region": "歐洲",
+      "aliases": [
+        "UA",
+        "Ukraine",
+        "烏克蘭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GB",
+      "name": "英國",
+      "en": "United Kingdom",
+      "region": "歐洲",
+      "aliases": [
+        "GB",
+        "United Kingdom",
+        "英国",
+        "英國"
+      ],
+      "url": "/zh/study-group-2026-applications/"
+    },
+    {
+      "code": "VA",
+      "name": "梵蒂岡",
+      "en": "Vatican City",
+      "region": "歐洲",
+      "aliases": [
+        "VA",
+        "Vatican City",
+        "梵蒂岡"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AX",
+      "name": "奧蘭群島",
+      "en": "Åland Islands",
+      "region": "歐洲",
+      "aliases": [
+        "AX",
+        "Åland Islands",
+        "奧蘭群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AI",
+      "name": "安奎拉",
+      "en": "Anguilla",
+      "region": "美洲",
+      "aliases": [
+        "AI",
+        "Anguilla",
+        "安奎拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AG",
+      "name": "安地卡及巴布達",
+      "en": "Antigua & Barbuda",
+      "region": "美洲",
+      "aliases": [
+        "AG",
+        "Antigua & Barbuda",
+        "安地卡及巴布達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "en": "Argentina",
+      "region": "美洲",
+      "aliases": [
+        "AR",
+        "Argentina",
+        "阿根廷"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AW",
+      "name": "荷屬阿魯巴",
+      "en": "Aruba",
+      "region": "美洲",
+      "aliases": [
+        "AW",
+        "Aruba",
+        "荷屬阿魯巴"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BS",
+      "name": "巴哈馬",
+      "en": "Bahamas",
+      "region": "美洲",
+      "aliases": [
+        "BS",
+        "Bahamas",
+        "巴哈馬"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BB",
+      "name": "巴貝多",
+      "en": "Barbados",
+      "region": "美洲",
+      "aliases": [
+        "BB",
+        "Barbados",
+        "巴貝多"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BZ",
+      "name": "貝里斯",
+      "en": "Belize",
+      "region": "美洲",
+      "aliases": [
+        "BZ",
+        "Belize",
+        "貝里斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BM",
+      "name": "百慕達",
+      "en": "Bermuda",
+      "region": "美洲",
+      "aliases": [
+        "BM",
+        "Bermuda",
+        "百慕達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BO",
+      "name": "玻利維亞",
+      "en": "Bolivia",
+      "region": "美洲",
+      "aliases": [
+        "BO",
+        "Bolivia",
+        "玻利維亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BV",
+      "name": "布威島",
+      "en": "Bouvet Island",
+      "region": "其他地區",
+      "aliases": [
+        "BV",
+        "Bouvet Island",
+        "布威島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "en": "Brazil",
+      "region": "美洲",
+      "aliases": [
+        "BR",
+        "Brazil",
+        "巴西"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VG",
+      "name": "英屬維京群島",
+      "en": "British Virgin Islands",
+      "region": "美洲",
+      "aliases": [
+        "British Virgin Islands",
+        "VG",
+        "英屬維京群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "en": "Canada",
+      "region": "美洲",
+      "aliases": [
+        "CA",
+        "Canada",
+        "加拿大"
+      ],
+      "url": "/zh/countries/canada/"
+    },
+    {
+      "code": "BQ",
+      "name": "荷蘭加勒比區",
+      "en": "Caribbean Netherlands",
+      "region": "美洲",
+      "aliases": [
+        "BQ",
+        "Caribbean Netherlands",
+        "荷蘭加勒比區"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KY",
+      "name": "開曼群島",
+      "en": "Cayman Islands",
+      "region": "美洲",
+      "aliases": [
+        "Cayman Islands",
+        "KY",
+        "開曼群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CL",
+      "name": "智利",
+      "en": "Chile",
+      "region": "美洲",
+      "aliases": [
+        "CL",
+        "Chile",
+        "智利"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CO",
+      "name": "哥倫比亞",
+      "en": "Colombia",
+      "region": "美洲",
+      "aliases": [
+        "CO",
+        "Colombia",
+        "哥倫比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CR",
+      "name": "哥斯大黎加",
+      "en": "Costa Rica",
+      "region": "美洲",
+      "aliases": [
+        "CR",
+        "Costa Rica",
+        "哥斯大黎加"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CU",
+      "name": "古巴",
+      "en": "Cuba",
+      "region": "美洲",
+      "aliases": [
+        "CU",
+        "Cuba",
+        "古巴"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CW",
+      "name": "庫拉索",
+      "en": "Curaçao",
+      "region": "美洲",
+      "aliases": [
+        "CW",
+        "Curaçao",
+        "庫拉索"
+      ],
+      "url": ""
+    },
+    {
+      "code": "DM",
+      "name": "多米尼克",
+      "en": "Dominica",
+      "region": "美洲",
+      "aliases": [
+        "DM",
+        "Dominica",
+        "多米尼克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "DO",
+      "name": "多明尼加共和國",
+      "en": "Dominican Republic",
+      "region": "美洲",
+      "aliases": [
+        "DO",
+        "Dominican Republic",
+        "多明尼加共和國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "EC",
+      "name": "厄瓜多",
+      "en": "Ecuador",
+      "region": "美洲",
+      "aliases": [
+        "EC",
+        "Ecuador",
+        "厄瓜多"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SV",
+      "name": "薩爾瓦多",
+      "en": "El Salvador",
+      "region": "美洲",
+      "aliases": [
+        "El Salvador",
+        "SV",
+        "薩爾瓦多"
+      ],
+      "url": ""
+    },
+    {
+      "code": "FK",
+      "name": "福克蘭群島",
+      "en": "Falkland Islands",
+      "region": "美洲",
+      "aliases": [
+        "FK",
+        "Falkland Islands",
+        "福克蘭群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GF",
+      "name": "法屬圭亞那",
+      "en": "French Guiana",
+      "region": "美洲",
+      "aliases": [
+        "French Guiana",
+        "GF",
+        "法屬圭亞那"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GL",
+      "name": "格陵蘭",
+      "en": "Greenland",
+      "region": "美洲",
+      "aliases": [
+        "GL",
+        "Greenland",
+        "格陵蘭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GD",
+      "name": "格瑞那達",
+      "en": "Grenada",
+      "region": "美洲",
+      "aliases": [
+        "GD",
+        "Grenada",
+        "格瑞那達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GP",
+      "name": "瓜地洛普",
+      "en": "Guadeloupe",
+      "region": "美洲",
+      "aliases": [
+        "GP",
+        "Guadeloupe",
+        "瓜地洛普"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GT",
+      "name": "瓜地馬拉",
+      "en": "Guatemala",
+      "region": "美洲",
+      "aliases": [
+        "GT",
+        "Guatemala",
+        "瓜地馬拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GY",
+      "name": "蓋亞那",
+      "en": "Guyana",
+      "region": "美洲",
+      "aliases": [
+        "GY",
+        "Guyana",
+        "蓋亞那"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HT",
+      "name": "海地",
+      "en": "Haiti",
+      "region": "美洲",
+      "aliases": [
+        "HT",
+        "Haiti",
+        "海地"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HN",
+      "name": "宏都拉斯",
+      "en": "Honduras",
+      "region": "美洲",
+      "aliases": [
+        "HN",
+        "Honduras",
+        "宏都拉斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "JM",
+      "name": "牙買加",
+      "en": "Jamaica",
+      "region": "美洲",
+      "aliases": [
+        "JM",
+        "Jamaica",
+        "牙買加"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MQ",
+      "name": "馬丁尼克",
+      "en": "Martinique",
+      "region": "美洲",
+      "aliases": [
+        "MQ",
+        "Martinique",
+        "馬丁尼克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "en": "Mexico",
+      "region": "美洲",
+      "aliases": [
+        "MX",
+        "Mexico",
+        "墨西哥"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MS",
+      "name": "蒙哲臘",
+      "en": "Montserrat",
+      "region": "美洲",
+      "aliases": [
+        "MS",
+        "Montserrat",
+        "蒙哲臘"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NI",
+      "name": "尼加拉瓜",
+      "en": "Nicaragua",
+      "region": "美洲",
+      "aliases": [
+        "NI",
+        "Nicaragua",
+        "尼加拉瓜"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PA",
+      "name": "巴拿馬",
+      "en": "Panama",
+      "region": "美洲",
+      "aliases": [
+        "PA",
+        "Panama",
+        "巴拿馬"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PY",
+      "name": "巴拉圭",
+      "en": "Paraguay",
+      "region": "美洲",
+      "aliases": [
+        "PY",
+        "Paraguay",
+        "巴拉圭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PE",
+      "name": "秘魯",
+      "en": "Peru",
+      "region": "美洲",
+      "aliases": [
+        "PE",
+        "Peru",
+        "秘魯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PR",
+      "name": "波多黎各",
+      "en": "Puerto Rico",
+      "region": "美洲",
+      "aliases": [
+        "PR",
+        "Puerto Rico",
+        "波多黎各"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SX",
+      "name": "荷屬聖馬丁",
+      "en": "Sint Maarten",
+      "region": "美洲",
+      "aliases": [
+        "SX",
+        "Sint Maarten",
+        "荷屬聖馬丁"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GS",
+      "name": "南喬治亞與南三明治群島",
+      "en": "South Georgia & South Sandwich Islands",
+      "region": "其他地區",
+      "aliases": [
+        "GS",
+        "South Georgia & South Sandwich Islands",
+        "南喬治亞與南三明治群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BL",
+      "name": "聖巴瑟米",
+      "en": "St. Barthélemy",
+      "region": "美洲",
+      "aliases": [
+        "BL",
+        "St. Barthélemy",
+        "聖巴瑟米"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KN",
+      "name": "聖克里斯多福及尼維斯",
+      "en": "St. Kitts & Nevis",
+      "region": "美洲",
+      "aliases": [
+        "KN",
+        "St. Kitts & Nevis",
+        "聖克里斯多福及尼維斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LC",
+      "name": "聖露西亞",
+      "en": "St. Lucia",
+      "region": "美洲",
+      "aliases": [
+        "LC",
+        "St. Lucia",
+        "聖露西亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MF",
+      "name": "法屬聖馬丁",
+      "en": "St. Martin",
+      "region": "美洲",
+      "aliases": [
+        "MF",
+        "St. Martin",
+        "法屬聖馬丁"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PM",
+      "name": "聖皮埃與密克隆群島",
+      "en": "St. Pierre & Miquelon",
+      "region": "美洲",
+      "aliases": [
+        "PM",
+        "St. Pierre & Miquelon",
+        "聖皮埃與密克隆群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VC",
+      "name": "聖文森及格瑞那丁",
+      "en": "St. Vincent & Grenadines",
+      "region": "美洲",
+      "aliases": [
+        "St. Vincent & Grenadines",
+        "VC",
+        "聖文森及格瑞那丁"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SR",
+      "name": "蘇利南",
+      "en": "Suriname",
+      "region": "美洲",
+      "aliases": [
+        "SR",
+        "Suriname",
+        "蘇利南"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TT",
+      "name": "千里達及托巴哥",
+      "en": "Trinidad & Tobago",
+      "region": "美洲",
+      "aliases": [
+        "TT",
+        "Trinidad & Tobago",
+        "千里達及托巴哥"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TC",
+      "name": "土克斯及開科斯群島",
+      "en": "Turks & Caicos Islands",
+      "region": "美洲",
+      "aliases": [
+        "TC",
+        "Turks & Caicos Islands",
+        "土克斯及開科斯群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VI",
+      "name": "美屬維京群島",
+      "en": "U.S. Virgin Islands",
+      "region": "美洲",
+      "aliases": [
+        "U.S. Virgin Islands",
+        "VI",
+        "美屬維京群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "US",
+      "name": "美國",
+      "en": "United States",
+      "region": "美洲",
+      "aliases": [
+        "US",
+        "USA",
+        "United States",
+        "美国",
+        "美國"
+      ],
+      "url": "/zh/private-school-alliance/united-states/"
+    },
+    {
+      "code": "UY",
+      "name": "烏拉圭",
+      "en": "Uruguay",
+      "region": "美洲",
+      "aliases": [
+        "UY",
+        "Uruguay",
+        "烏拉圭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VE",
+      "name": "委內瑞拉",
+      "en": "Venezuela",
+      "region": "美洲",
+      "aliases": [
+        "VE",
+        "Venezuela",
+        "委內瑞拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AS",
+      "name": "美屬薩摩亞",
+      "en": "American Samoa",
+      "region": "大洋洲",
+      "aliases": [
+        "AS",
+        "American Samoa",
+        "美屬薩摩亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AQ",
+      "name": "南極洲",
+      "en": "Antarctica",
+      "region": "其他地區",
+      "aliases": [
+        "AQ",
+        "Antarctica",
+        "南極洲"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AU",
+      "name": "澳洲",
+      "en": "Australia",
+      "region": "大洋洲",
+      "aliases": [
+        "AU",
+        "Australia",
+        "澳大利亚",
+        "澳大利亞",
+        "澳洲"
+      ],
+      "url": "/zh/australia-vet-tafe-pathways/"
+    },
+    {
+      "code": "CX",
+      "name": "聖誕島",
+      "en": "Christmas Island",
+      "region": "大洋洲",
+      "aliases": [
+        "CX",
+        "Christmas Island",
+        "聖誕島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CC",
+      "name": "科克斯（基靈）群島",
+      "en": "Cocos (Keeling) Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "CC",
+        "Cocos (Keeling) Islands",
+        "科克斯（基靈）群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CK",
+      "name": "庫克群島",
+      "en": "Cook Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "CK",
+        "Cook Islands",
+        "庫克群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "FJ",
+      "name": "斐濟",
+      "en": "Fiji",
+      "region": "大洋洲",
+      "aliases": [
+        "FJ",
+        "Fiji",
+        "斐濟"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PF",
+      "name": "法屬玻里尼西亞",
+      "en": "French Polynesia",
+      "region": "大洋洲",
+      "aliases": [
+        "French Polynesia",
+        "PF",
+        "法屬玻里尼西亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GU",
+      "name": "關島",
+      "en": "Guam",
+      "region": "大洋洲",
+      "aliases": [
+        "GU",
+        "Guam",
+        "關島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "HM",
+      "name": "赫德島及麥唐納群島",
+      "en": "Heard Island & McDonald Islands",
+      "region": "其他地區",
+      "aliases": [
+        "HM",
+        "Heard Island & McDonald Islands",
+        "赫德島及麥唐納群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KI",
+      "name": "吉里巴斯",
+      "en": "Kiribati",
+      "region": "大洋洲",
+      "aliases": [
+        "KI",
+        "Kiribati",
+        "吉里巴斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MH",
+      "name": "馬紹爾群島",
+      "en": "Marshall Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "MH",
+        "Marshall Islands",
+        "馬紹爾群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "FM",
+      "name": "密克羅尼西亞",
+      "en": "Micronesia",
+      "region": "大洋洲",
+      "aliases": [
+        "FM",
+        "Micronesia",
+        "密克羅尼西亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NR",
+      "name": "諾魯",
+      "en": "Nauru",
+      "region": "大洋洲",
+      "aliases": [
+        "NR",
+        "Nauru",
+        "諾魯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NC",
+      "name": "新喀里多尼亞",
+      "en": "New Caledonia",
+      "region": "大洋洲",
+      "aliases": [
+        "NC",
+        "New Caledonia",
+        "新喀里多尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NZ",
+      "name": "紐西蘭",
+      "en": "New Zealand",
+      "region": "大洋洲",
+      "aliases": [
+        "NZ",
+        "New Zealand",
+        "新西兰",
+        "新西蘭",
+        "紐西蘭"
+      ],
+      "url": "/zh/private-school-alliance/new-zealand/"
+    },
+    {
+      "code": "NU",
+      "name": "紐埃島",
+      "en": "Niue",
+      "region": "大洋洲",
+      "aliases": [
+        "NU",
+        "Niue",
+        "紐埃島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NF",
+      "name": "諾福克島",
+      "en": "Norfolk Island",
+      "region": "大洋洲",
+      "aliases": [
+        "NF",
+        "Norfolk Island",
+        "諾福克島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MP",
+      "name": "北馬利安納群島",
+      "en": "Northern Mariana Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "MP",
+        "Northern Mariana Islands",
+        "北馬利安納群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PW",
+      "name": "帛琉",
+      "en": "Palau",
+      "region": "大洋洲",
+      "aliases": [
+        "PW",
+        "Palau",
+        "帛琉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PG",
+      "name": "巴布亞紐幾內亞",
+      "en": "Papua New Guinea",
+      "region": "大洋洲",
+      "aliases": [
+        "PG",
+        "Papua New Guinea",
+        "巴布亞紐幾內亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "PN",
+      "name": "皮特肯群島",
+      "en": "Pitcairn Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "PN",
+        "Pitcairn Islands",
+        "皮特肯群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "WS",
+      "name": "薩摩亞",
+      "en": "Samoa",
+      "region": "大洋洲",
+      "aliases": [
+        "Samoa",
+        "WS",
+        "薩摩亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SB",
+      "name": "索羅門群島",
+      "en": "Solomon Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "SB",
+        "Solomon Islands",
+        "索羅門群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TK",
+      "name": "托克勞群島",
+      "en": "Tokelau",
+      "region": "大洋洲",
+      "aliases": [
+        "TK",
+        "Tokelau",
+        "托克勞群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TO",
+      "name": "東加",
+      "en": "Tonga",
+      "region": "大洋洲",
+      "aliases": [
+        "TO",
+        "Tonga",
+        "東加"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TV",
+      "name": "吐瓦魯",
+      "en": "Tuvalu",
+      "region": "大洋洲",
+      "aliases": [
+        "TV",
+        "Tuvalu",
+        "吐瓦魯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "UM",
+      "name": "美國本土外小島嶼",
+      "en": "U.S. Outlying Islands",
+      "region": "大洋洲",
+      "aliases": [
+        "U.S. Outlying Islands",
+        "UM",
+        "美國本土外小島嶼"
+      ],
+      "url": ""
+    },
+    {
+      "code": "VU",
+      "name": "萬那杜",
+      "en": "Vanuatu",
+      "region": "大洋洲",
+      "aliases": [
+        "VU",
+        "Vanuatu",
+        "萬那杜"
+      ],
+      "url": ""
+    },
+    {
+      "code": "WF",
+      "name": "瓦利斯群島和富圖那群島",
+      "en": "Wallis & Futuna",
+      "region": "大洋洲",
+      "aliases": [
+        "WF",
+        "Wallis & Futuna",
+        "瓦利斯群島和富圖那群島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "DZ",
+      "name": "阿爾及利亞",
+      "en": "Algeria",
+      "region": "非洲",
+      "aliases": [
+        "Algeria",
+        "DZ",
+        "阿爾及利亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "AO",
+      "name": "安哥拉",
+      "en": "Angola",
+      "region": "非洲",
+      "aliases": [
+        "AO",
+        "Angola",
+        "安哥拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BJ",
+      "name": "貝南",
+      "en": "Benin",
+      "region": "非洲",
+      "aliases": [
+        "BJ",
+        "Benin",
+        "貝南"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BW",
+      "name": "波札那",
+      "en": "Botswana",
+      "region": "非洲",
+      "aliases": [
+        "BW",
+        "Botswana",
+        "波札那"
+      ],
+      "url": ""
+    },
+    {
+      "code": "IO",
+      "name": "英屬印度洋領地",
+      "en": "British Indian Ocean Territory",
+      "region": "非洲",
+      "aliases": [
+        "British Indian Ocean Territory",
+        "IO",
+        "英屬印度洋領地"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BF",
+      "name": "布吉納法索",
+      "en": "Burkina Faso",
+      "region": "非洲",
+      "aliases": [
+        "BF",
+        "Burkina Faso",
+        "布吉納法索"
+      ],
+      "url": ""
+    },
+    {
+      "code": "BI",
+      "name": "蒲隆地",
+      "en": "Burundi",
+      "region": "非洲",
+      "aliases": [
+        "BI",
+        "Burundi",
+        "蒲隆地"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CM",
+      "name": "喀麥隆",
+      "en": "Cameroon",
+      "region": "非洲",
+      "aliases": [
+        "CM",
+        "Cameroon",
+        "喀麥隆"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CV",
+      "name": "維德角",
+      "en": "Cape Verde",
+      "region": "非洲",
+      "aliases": [
+        "CV",
+        "Cape Verde",
+        "維德角"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CF",
+      "name": "中非共和國",
+      "en": "Central African Republic",
+      "region": "非洲",
+      "aliases": [
+        "CF",
+        "Central African Republic",
+        "中非共和國"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TD",
+      "name": "查德",
+      "en": "Chad",
+      "region": "非洲",
+      "aliases": [
+        "Chad",
+        "TD",
+        "查德"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KM",
+      "name": "葛摩",
+      "en": "Comoros",
+      "region": "非洲",
+      "aliases": [
+        "Comoros",
+        "KM",
+        "葛摩"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CG",
+      "name": "剛果（布拉薩）",
+      "en": "Congo - Brazzaville",
+      "region": "非洲",
+      "aliases": [
+        "CG",
+        "Congo - Brazzaville",
+        "剛果（布拉薩）"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CD",
+      "name": "剛果（金夏沙）",
+      "en": "Congo - Kinshasa",
+      "region": "非洲",
+      "aliases": [
+        "CD",
+        "Congo - Kinshasa",
+        "剛果（金夏沙）"
+      ],
+      "url": ""
+    },
+    {
+      "code": "CI",
+      "name": "象牙海岸",
+      "en": "Côte d’Ivoire",
+      "region": "非洲",
+      "aliases": [
+        "CI",
+        "Côte d’Ivoire",
+        "象牙海岸"
+      ],
+      "url": ""
+    },
+    {
+      "code": "DJ",
+      "name": "吉布地",
+      "en": "Djibouti",
+      "region": "非洲",
+      "aliases": [
+        "DJ",
+        "Djibouti",
+        "吉布地"
+      ],
+      "url": ""
+    },
+    {
+      "code": "EG",
+      "name": "埃及",
+      "en": "Egypt",
+      "region": "非洲",
+      "aliases": [
+        "EG",
+        "Egypt",
+        "埃及"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GQ",
+      "name": "赤道幾內亞",
+      "en": "Equatorial Guinea",
+      "region": "非洲",
+      "aliases": [
+        "Equatorial Guinea",
+        "GQ",
+        "赤道幾內亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ER",
+      "name": "厄利垂亞",
+      "en": "Eritrea",
+      "region": "非洲",
+      "aliases": [
+        "ER",
+        "Eritrea",
+        "厄利垂亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SZ",
+      "name": "史瓦帝尼",
+      "en": "Eswatini",
+      "region": "非洲",
+      "aliases": [
+        "Eswatini",
+        "SZ",
+        "史瓦帝尼"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ET",
+      "name": "衣索比亞",
+      "en": "Ethiopia",
+      "region": "非洲",
+      "aliases": [
+        "ET",
+        "Ethiopia",
+        "衣索比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TF",
+      "name": "法屬南部屬地",
+      "en": "French Southern and Antarctic Lands",
+      "region": "其他地區",
+      "aliases": [
+        "French Southern and Antarctic Lands",
+        "TF",
+        "法屬南部屬地"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GA",
+      "name": "加彭",
+      "en": "Gabon",
+      "region": "非洲",
+      "aliases": [
+        "GA",
+        "Gabon",
+        "加彭"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GM",
+      "name": "甘比亞",
+      "en": "Gambia",
+      "region": "非洲",
+      "aliases": [
+        "GM",
+        "Gambia",
+        "甘比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GH",
+      "name": "迦納",
+      "en": "Ghana",
+      "region": "非洲",
+      "aliases": [
+        "GH",
+        "Ghana",
+        "迦納"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GN",
+      "name": "幾內亞",
+      "en": "Guinea",
+      "region": "非洲",
+      "aliases": [
+        "GN",
+        "Guinea",
+        "幾內亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "GW",
+      "name": "幾內亞比索",
+      "en": "Guinea-Bissau",
+      "region": "非洲",
+      "aliases": [
+        "GW",
+        "Guinea-Bissau",
+        "幾內亞比索"
+      ],
+      "url": ""
+    },
+    {
+      "code": "KE",
+      "name": "肯亞",
+      "en": "Kenya",
+      "region": "非洲",
+      "aliases": [
+        "KE",
+        "Kenya",
+        "肯亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LS",
+      "name": "賴索托",
+      "en": "Lesotho",
+      "region": "非洲",
+      "aliases": [
+        "LS",
+        "Lesotho",
+        "賴索托"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LR",
+      "name": "賴比瑞亞",
+      "en": "Liberia",
+      "region": "非洲",
+      "aliases": [
+        "LR",
+        "Liberia",
+        "賴比瑞亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "LY",
+      "name": "利比亞",
+      "en": "Libya",
+      "region": "非洲",
+      "aliases": [
+        "LY",
+        "Libya",
+        "利比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MG",
+      "name": "馬達加斯加",
+      "en": "Madagascar",
+      "region": "非洲",
+      "aliases": [
+        "MG",
+        "Madagascar",
+        "馬達加斯加"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MW",
+      "name": "馬拉威",
+      "en": "Malawi",
+      "region": "非洲",
+      "aliases": [
+        "MW",
+        "Malawi",
+        "馬拉威"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ML",
+      "name": "馬利",
+      "en": "Mali",
+      "region": "非洲",
+      "aliases": [
+        "ML",
+        "Mali",
+        "馬利"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MR",
+      "name": "茅利塔尼亞",
+      "en": "Mauritania",
+      "region": "非洲",
+      "aliases": [
+        "MR",
+        "Mauritania",
+        "茅利塔尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MU",
+      "name": "模里西斯",
+      "en": "Mauritius",
+      "region": "非洲",
+      "aliases": [
+        "MU",
+        "Mauritius",
+        "模里西斯"
+      ],
+      "url": ""
+    },
+    {
+      "code": "YT",
+      "name": "馬約特島",
+      "en": "Mayotte",
+      "region": "非洲",
+      "aliases": [
+        "Mayotte",
+        "YT",
+        "馬約特島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MA",
+      "name": "摩洛哥",
+      "en": "Morocco",
+      "region": "非洲",
+      "aliases": [
+        "MA",
+        "Morocco",
+        "摩洛哥"
+      ],
+      "url": ""
+    },
+    {
+      "code": "MZ",
+      "name": "莫三比克",
+      "en": "Mozambique",
+      "region": "非洲",
+      "aliases": [
+        "MZ",
+        "Mozambique",
+        "莫三比克"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NA",
+      "name": "納米比亞",
+      "en": "Namibia",
+      "region": "非洲",
+      "aliases": [
+        "NA",
+        "Namibia",
+        "納米比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NE",
+      "name": "尼日",
+      "en": "Niger",
+      "region": "非洲",
+      "aliases": [
+        "NE",
+        "Niger",
+        "尼日"
+      ],
+      "url": ""
+    },
+    {
+      "code": "NG",
+      "name": "奈及利亞",
+      "en": "Nigeria",
+      "region": "非洲",
+      "aliases": [
+        "NG",
+        "Nigeria",
+        "奈及利亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "RW",
+      "name": "盧安達",
+      "en": "Rwanda",
+      "region": "非洲",
+      "aliases": [
+        "RW",
+        "Rwanda",
+        "盧安達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "RE",
+      "name": "留尼旺",
+      "en": "Réunion",
+      "region": "非洲",
+      "aliases": [
+        "RE",
+        "Réunion",
+        "留尼旺"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SN",
+      "name": "塞內加爾",
+      "en": "Senegal",
+      "region": "非洲",
+      "aliases": [
+        "SN",
+        "Senegal",
+        "塞內加爾"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SC",
+      "name": "塞席爾",
+      "en": "Seychelles",
+      "region": "非洲",
+      "aliases": [
+        "SC",
+        "Seychelles",
+        "塞席爾"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SL",
+      "name": "獅子山",
+      "en": "Sierra Leone",
+      "region": "非洲",
+      "aliases": [
+        "SL",
+        "Sierra Leone",
+        "獅子山"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SO",
+      "name": "索馬利亞",
+      "en": "Somalia",
+      "region": "非洲",
+      "aliases": [
+        "SO",
+        "Somalia",
+        "索馬利亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ZA",
+      "name": "南非",
+      "en": "South Africa",
+      "region": "非洲",
+      "aliases": [
+        "South Africa",
+        "ZA",
+        "南非"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SS",
+      "name": "南蘇丹",
+      "en": "South Sudan",
+      "region": "非洲",
+      "aliases": [
+        "SS",
+        "South Sudan",
+        "南蘇丹"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SH",
+      "name": "聖赫勒拿島",
+      "en": "St. Helena, Ascension & Tristan da Cunha",
+      "region": "非洲",
+      "aliases": [
+        "SH",
+        "St. Helena, Ascension & Tristan da Cunha",
+        "聖赫勒拿島"
+      ],
+      "url": ""
+    },
+    {
+      "code": "SD",
+      "name": "蘇丹",
+      "en": "Sudan",
+      "region": "非洲",
+      "aliases": [
+        "SD",
+        "Sudan",
+        "蘇丹"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ST",
+      "name": "聖多美普林西比",
+      "en": "São Tomé & Príncipe",
+      "region": "非洲",
+      "aliases": [
+        "ST",
+        "São Tomé & Príncipe",
+        "聖多美普林西比"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TZ",
+      "name": "坦尚尼亞",
+      "en": "Tanzania",
+      "region": "非洲",
+      "aliases": [
+        "TZ",
+        "Tanzania",
+        "坦尚尼亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TG",
+      "name": "多哥",
+      "en": "Togo",
+      "region": "非洲",
+      "aliases": [
+        "TG",
+        "Togo",
+        "多哥"
+      ],
+      "url": ""
+    },
+    {
+      "code": "TN",
+      "name": "突尼西亞",
+      "en": "Tunisia",
+      "region": "非洲",
+      "aliases": [
+        "TN",
+        "Tunisia",
+        "突尼西亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "UG",
+      "name": "烏干達",
+      "en": "Uganda",
+      "region": "非洲",
+      "aliases": [
+        "UG",
+        "Uganda",
+        "烏干達"
+      ],
+      "url": ""
+    },
+    {
+      "code": "EH",
+      "name": "西撒哈拉",
+      "en": "Western Sahara",
+      "region": "非洲",
+      "aliases": [
+        "EH",
+        "Western Sahara",
+        "西撒哈拉"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ZM",
+      "name": "尚比亞",
+      "en": "Zambia",
+      "region": "非洲",
+      "aliases": [
+        "ZM",
+        "Zambia",
+        "尚比亞"
+      ],
+      "url": ""
+    },
+    {
+      "code": "ZW",
+      "name": "辛巴威",
+      "en": "Zimbabwe",
+      "region": "非洲",
+      "aliases": [
+        "ZW",
+        "Zimbabwe",
+        "辛巴威"
+      ],
+      "url": ""
+    }
+  ]
+}

@@ -101,3 +101,18 @@ test('提交 OTC 核對保留申請階段、記錄提交版本，且不重複建
  const again=applyProfileUpdate(submitted,p,'t3',true);assert.equal(again.tasks.length,2);assert.equal(again.profile.submittedVersion,'t3');
  const revised=applyProfileUpdate(again,p,'t4');assert.equal(revised.profile.submittedVersion,'t3');assert.equal(revised.profile.updatedAt,'t4');assert.equal(c.logs.length,0);
 });
+test('客戶階段提示不把意向、付款紀錄或附件當成錄取與簽證結果',async()=>{
+ const {stepIndicators}=await import('../lib/client-workflow.mjs');const c={profile:{updatedAt:'t2',submittedAt:'t1',submittedVersion:'t1',data:{plan:{countries:'法國',degree:'Master'},applications:[{school:'意向'}],payments:[{amount:'100'}],arrival:{pickup:'需要'}}},routes:[]};const states=stepIndicators(c);assert.equal(states.length,8);assert.equal(states[2],'提交後有草稿更新');assert.equal(states[3],'結果待更新');assert.equal(states[4],'已填付款紀錄');assert.equal(states[6],'結果待核實');assert.equal(states[7],'需求已儲存');
+});
+test('方案匯出只含對客公開內容，並防止 CSV 公式執行',async()=>{
+ const {planCsv,csvCell}=await import('../lib/client-plan-export.mjs');assert.equal(csvCell('=SUM(A1)'), '"\'=SUM(A1)"');const projected=clientCase({id:'a',name:'Test',publicSummary:'公開方案',known:'內部資料',routes:[{school:'隱藏院校'},{school:'公開院校',course:'=TEST',shared:true}]});const csv=planCsv(projected);assert.ok(csv.includes('公開方案'));assert.ok(csv.includes('公開院校'));assert.ok(!csv.includes('隱藏院校'));assert.ok(!csv.includes('內部資料'));assert.ok(csv.includes("'=TEST"));
+});
+test('公開入口、費用資料及前端成品只含 OTC 品牌，不夾帶參考平台來源',async()=>{
+ const {readFile}=await import('node:fs/promises');for(const p of ['content/otc-service-fees.json','client-portal/app.js','client-portal/index.html','client-portal/manage/index.html']){const s=(await readFile(new URL('../'+p,import.meta.url),'utf8')).replace(/\\u([\da-f]{4})/gi,(_,hex)=>String.fromCharCode(parseInt(hex,16)));assert.doesNotMatch(s,/小希|xiaoxi|smartcounselor|globeedu/i,p)}
+});
+test('全球目的地支援跨洲國家、地區及自訂目的地，不被少量合作地點限制',async()=>{
+ const {readFile}=await import('node:fs/promises');const d=JSON.parse(await readFile(new URL('../content/otc-global-destinations.json',import.meta.url),'utf8'));assert.ok(d.destinations.length>=240);assert.equal(new Set(d.destinations.map(x=>x.code)).size,d.destinations.length);
+ for(const code of ['IN','BR','ZA','IS','PT','FR','DE','JP','KR','TW','HK','MO','AE','KE','AR','CL','PE','MX','CA','US','AU','NZ'])assert.ok(d.destinations.some(x=>x.code===code),code);
+ const {normalizeDestination}=await import('../lib/client-destinations.mjs');assert.equal(normalizeDestination('AU'),'澳洲');assert.equal(normalizeDestination('Australia'),'澳洲');assert.equal(normalizeDestination('澳大利亞'),'澳洲');assert.equal(normalizeDestination('自訂目的地'),'自訂目的地');
+ const {workflowCountries}=await import('../lib/client-workflow.mjs');assert.deepEqual(workflowCountries({country:'Australia',routes:[{country:'澳洲'}],profile:{data:{plan:{countries:'AU,法國'}}}}),['澳洲','法國']);
+});
