@@ -1,8 +1,9 @@
 import React,{useState} from 'react';
+import {clientEntry} from '../../lib/client-entry.mjs';
 export async function api(path:string,body?:any,method?:string){if(path.startsWith('/api/auth/'))path='/api/client-auth/?path='+encodeURIComponent(path.slice(10));const r=await fetch(path,{method:method||(body?'POST':'GET'),headers:body?{'Content-Type':'application/json'}:undefined,body:body?JSON.stringify(body):undefined,cache:'no-store'});const b=await r.json().catch(()=>({}));if(!r.ok){const e:any=Error(b.error||translate(b.code,b.message)||'未能完成，請稍後再試。');e.code=b.code;e.status=r.status;throw e}return b;}
 function translate(code:string,message:string){return ({INVALID_EMAIL_OR_PASSWORD:'電郵或密碼不正確。',EMAIL_NOT_VERIFIED:'請先驗證電郵。',USER_ALREADY_EXISTS:'此電郵已註冊，請登入或重設密碼。',INVALID_OTP:'驗證碼不正確或已過期。',OTP_EXPIRED:'驗證碼已過期，請重新取得。',TOO_MANY_REQUESTS:'操作過於頻繁，請稍後重試。',INVALID_PASSWORD:'密碼不符合要求。',PASSWORD_TOO_SHORT:'密碼至少需要 12 個字元。'} as any)[code]||message;}
 export function Auth({done}:{done:()=>void}){
- const [mode,setMode]=useState('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[name,setName]=useState(''),[otp,setOtp]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
+ const [mode,setMode]=useState(clientEntry(location.search)?'register':'login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[name,setName]=useState(''),[otp,setOtp]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  async function sendCode(type:string){await api('/api/auth/email-otp/send-verification-otp',{email,type});setNotice('驗證碼已寄出，請查看收件匣或垃圾郵件。');}
  async function submit(e:any){e.preventDefault();setBusy(true);setNotice('');try{
  if(mode==='register'){await api('/api/auth/sign-up/email',{name,email,password});setMode('verify');setPassword('');await sendCode('email-verification');}
@@ -20,4 +21,4 @@ export function Auth({done}:{done:()=>void}){
  <div className="authlinks">{(mode==='verify'||mode==='reset')&&<button disabled={busy} type="button" onClick={async()=>{setBusy(true);try{await sendCode(mode==='verify'?'email-verification':'forget-password')}catch(e:any){setNotice(e.message)}finally{setBusy(false)}}}>重新取得驗證碼</button>}<button type="button" onClick={()=>{setMode(mode==='login'?'register':'login');setNotice('')}}>{mode==='login'?'首次使用？註冊帳戶':'返回登入'}</button>{mode==='login'&&<button type="button" onClick={()=>{setMode('reset');setNotice('填寫電郵後，按「重新取得驗證碼」。')}}>忘記密碼</button>}</div>
  </form></section>;
 }
-export async function upload(file:File,caseId:string){if(file.size>2*1024*1024)throw Error('單份附件上限 2 MB。');const encoded=await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=reject;reader.readAsDataURL(file)});return api('/api/client-files',{caseId,name:file.name,encoded});}
+export async function upload(file:File,caseId:string,category?:string){if(file.size>2*1024*1024)throw Error('單份附件上限 2 MB。');const encoded=await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=reject;reader.readAsDataURL(file)});return api('/api/client-files',{caseId,name:category?'['+category+'] '+file.name:file.name,encoded});}

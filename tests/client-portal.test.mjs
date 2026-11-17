@@ -46,3 +46,20 @@ test('留學官方入口保留明確直申範圍、篩選與空結果',async()=>
  assert.ok(panel.entries.length>=9);for(const e of panel.entries)assert.match(e.url,/^https:\/\//);
  const html=panel();assert.match(html,/並非完整高校名錄/);assert.match(html,/school-country/);assert.match(html,/school-empty/);
 });
+
+test('客戶個人資料只保留白名單；多段經歷、長度與版本欄位分開處理',async()=>{
+ const {validateClientProfile}=await import('../lib/client-profile.mjs');
+ const clean=validateClientProfile({basic:{givenName:' Test ',role:'admin'},education:[{school:'A',subject:'商科'},{school:'B',subject:'資訊'}],privateNotes:'不應出現',updatedAt:'偽造版本'});
+ assert.equal(clean.basic.givenName,'Test');assert.equal(clean.education.length,2);for(const key of ['role','privateNotes','updatedAt'])assert.ok(!JSON.stringify(clean).includes(key));
+ assert.throws(()=>validateClientProfile({education:Array(16).fill({})}),{status:400});assert.throws(()=>validateClientProfile({basic:{phone:123}}),{status:400});
+});
+test('對客項目與待辦須逐項公開；排除內部評估、操作、隱藏任務',()=>{
+ const out=clientCase({id:'case-a',routes:[{school:'內部校',fit:'秘密評估'},{shared:true,school:'公開校',course:'課程',fit:'秘密原因',source:'javascript:alert(1)',privateComment:'秘密'}],tasks:[{title:'內部任務'},{shared:true,title:'提供成績單',done:false,privateNote:'秘密'}]});
+ assert.equal(out.routes.length,1);assert.equal(out.routes[0].school,'公開校');assert.equal(out.routes[0].source,'');assert.equal(out.tasks.length,1);assert.equal(out.tasks[0].title,'提供成績單');assert.ok(!JSON.stringify(out).includes('秘密'));assert.ok(!JSON.stringify(out).includes('內部'));
+});
+test('服務入口帶入申請背景，但不能帶入身份、權限或外站跳轉',async()=>{
+ const {clientEntry}=await import('../lib/client-entry.mjs');assert.equal(clientEntry('?role=admin&entry=unknown'),null);const e=clientEntry('?entry=france-alternance&programme=MIAGE&role=admin&redirect=https://evil.example');assert.equal(e.country,'法國');assert.match(e.goal,/MIAGE/);assert.deepEqual(Object.keys(e).sort(),['country','goal','service']);
+});
+test('未知階段不會捏造申請進度，已提交不會自動變為錄取',async()=>{
+ const {stageForStatus}=await import('../lib/client-progress.mjs');assert.equal(stageForStatus('待機構回覆'),null);assert.equal(stageForStatus('已提交'),3);assert.equal(stageForStatus('有條件錄取'),4);assert.equal(stageForStatus('未核實狀態'),null);
+});

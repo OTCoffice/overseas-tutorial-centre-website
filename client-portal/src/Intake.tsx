@@ -1,9 +1,11 @@
 import React,{useState} from 'react';
 import {api} from './Auth';
 import {services} from './config';
+import {clientEntry} from '../../lib/client-entry.mjs';
 import {intakeQuestions} from '../../lib/client-intake.mjs';
 export function Intake({existing,onDone}:{existing?:any,onDone:(id:string)=>void}){
- const [service,setService]=useState(existing?.service||services[0]),[country,setCountry]=useState(existing?.country||''),[goal,setGoal]=useState(existing?.publicSummary||''),[answers,setAnswers]=useState<any>(existing?.intake?.answers||{}),[step,setStep]=useState(0),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ const entry=existing?null:clientEntry(location.search);
+ const [service,setService]=useState(existing?.service||entry?.service||services[0]),[country,setCountry]=useState(existing?.country||entry?.country||''),[goal,setGoal]=useState(existing?.publicSummary||entry?.goal||''),[answers,setAnswers]=useState<any>(existing?.intake?.answers||{}),[step,setStep]=useState(0),[busy,setBusy]=useState(false),[error,setError]=useState('');
  const [requestId]=useState(()=>crypto.randomUUID());
  const questions=intakeQuestions(service,country,answers);
  return <form className="requestform" onSubmit={async e=>{e.preventDefault();if(step<2){setStep(step+1);return}setBusy(true);setError('');try{const b=await api('/api/client-cases',{id:existing?.id,requestId,service,country,goal,answers},existing?'PATCH':'POST');onDone(b.id)}catch(e:any){setError(e.message)}finally{setBusy(false)}}}>
