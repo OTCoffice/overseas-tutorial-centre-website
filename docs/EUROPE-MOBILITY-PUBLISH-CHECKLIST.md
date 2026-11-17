@@ -1192,3 +1192,36 @@
 - 核驗日2026-11-17。
 
 **進度口徑**：第67輪34/110有深入補核記錄，本次新增3條 → **37/110**；尚有73條沒有同等深入補核；**C/D完整逐欄核實0/110**。矩陣全部保留原110 ID、未核欄位明示、每條C_D_complete=false。不可合併PR108或宣稱110條皆可申請；須做正式網站及手機/SEO/分享/可訪問性測試後才談正式發布。
+
+
+## 第69輪（2026-11-17）加速批次｜13條官方部分深入核補（未達80）
+
+**統計原則**：原RUN 99+11共110路線，逐一保留ID。本輪新增13個先前12項核心欄位全部標示「未核」的route_id，均改為「partial official deep」並填入已核官方資格/數值/期限/工作/家屬/續簽/永居及剩餘未核欄位；**不是13條C/D全欄完成**。
+
+| 國家 | route_id | 本輪官方核實重要條件 | 來源（2026-11-17） |
+|---|---|---|---|
+| 丹麥 | `denmark-pay-limit-scheme` | 2026年薪DKK552,000；費DKK6,810；通常4年許可，非自願失業可在嚴格期限內申6個月求職 | https://nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-Limit-Scheme |
+| 丹麥 | `denmark-startup-denmark` | 專家委員會批准創業計畫，每年75人配額；費DKK3,060，首次2年續最多3年；官方頁資金額仍是2025，2026未核 | https://nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark |
+| 芬蘭 | `finland-entrepreneur-startup-permit` | Business Finland正面資格證明；2026淨資金按地區€1,030/1,090/1,210每月；電子首次€650，首次最長2年 | https://migri.fi/en/start-up-entrepreneur ; https://migri.fi/en/working-in-finland/income-requirement |
+| 芬蘭 | `finland-specialist-residence-permit` | 2026專家稅前月薪€3,937；電子首次€530、紙本€630；首次最長2年 | https://migri.fi/en/specialist |
+| 荷蘭 | `netherlands-self-employed-startup-visa` | 專屬startup需facilitator、RVO創新審核、資金；IND €423；最長一年**不可續同類**，可另申自僱 | https://ind.nl/en/residence-permits/work/start-up |
+| 匈牙利 | `hungary-eu-blue-card` | 2026薪資HUF1,001,048/月、指定醫療職業HUF800,838/月；最多4年可續4年；2025舊薪資禁用 | https://oif.gov.hu/factsheets/eu-blue-card |
+| 匈牙利 | `hungary-guest-investor` | 合資格基金€250,000或指定高教捐贈€1,000,000；居留最多10年可續10年；不等於永居 | https://oif.gov.hu/factsheets/residence-permit-for-guest-investor |
+| 馬耳他 | `malta-key-employee-initiative` | 年薪€45,000，首次費€600；首次1年，續最多3年；須有前2個月內2週招募廣告 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/key-employee-initiative/who-is-eligible/ |
+| 馬耳他 | `malta-specialist-employee-initiative` | **官方相互矛盾**：資格網頁最低€30,000，2026年申請清單寫基本稅前年薪€25,000；待主管機關釐清。費€600 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ ; https://identita.gov.mt/wp-content/uploads/2026/01/Checklist-New-Application-for-Single-Permit-SEI.pdf |
+| 馬耳他 | `malta-single-permit` | 雇主線上代申、費首次€600續€150/年；特定住家照顧者€27.50例外；Approval in Principle本身無工作權 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/ |
+| 法國 | `france-entrepreneur-profession-liberale-visa` | 可行自營業務+實際登記；2026申居留卡稅/印花€350，首次最多1年、合資格可轉4年多年卡 | https://www.service-public.gouv.fr/particuliers/vosdroits/F35795 |
+| 德國 | `germany-freelance-self-employment-visa` | 首次最多3年；企業設立者符合條件3年後可申settlement，獨立自由職業者一般5年；非自動永居 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/other/self-employment |
+| 盧森堡 | `luxembourg-self-employed-worker-permit` | 入境前先申居留授權；卡費€80，首次最多3年續最多3年，5年合法連續居留可按條件申長居 | https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/travailleur-independant/independant.html |
+
+### 仍待解與資料品質標記
+- 中國普通護照、香港特區及台灣證件的實際領事受理仍有部分未核；第三國一般資格不能替代領事/入境判斷。
+- 丹麥Start-up Denmark頁明列資金額「2025 level」，不得冒稱2026；須查當期官方資金表。
+- 馬耳他SEI €25k/€30k**同一主管機關不同2026文件衝突**：公開政策頁不得只列其中一個為確定數字。
+- 荷蘭Startup不可續簽同類，匈牙利Guest Investor 10年卡不等於永居，德國自僱與自由職業的永居年限不同。
+- 費用、家屬工作權、入境簽文件、個別生效日、永居連續年資仍有待核；每條C_D_complete保留false。
+
+### 第69輪真實進度與發布限制
+- 第68輪正式報告**37/110**已有深入補核；本輪新增13條不同route_id，依既有保守口徑**50/110**，距使用者期望80/110仍有30條。
+- 實際矩陣中，有些較早的「部分欄位已填」未計入上一輪37條深核口徑。本輪覆核前資料為**41/110有至少一個核心欄位非「未核」**；更新13條後現為**54/110已有逐欄非空證據**。54與50屬**不同口徑**：前者含早期較淺補核，**不可把54直接冒稱為54條深入完成**。
+- **C/D全欄完整核驗仍0/110**；PR108保持Draft、不合併、不正式部署；未全面完成110條官方核驗與網站回歸/手機/SEO/可訪問性/分享測試前發布閘門維持關閉。
