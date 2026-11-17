@@ -3,8 +3,8 @@ reports/nt-government-schools-agent-application/
 
 # Local build tooling (sharp installed ad hoc for social image generation)
 node_modules/
-package.json
-package-lock.json
 
 # Local diagnostic work files (never publish learner records)
 work/
+.vercel
+.env*

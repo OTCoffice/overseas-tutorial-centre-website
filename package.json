@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@neondatabase/auth": "0.6.0-beta",
+    "@neondatabase/serverless": "1.2.1",
+    "esbuild": "0.28.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build:portal": "node scripts/build-client-portal.mjs && node scripts/render-client-portal.cjs",
+    "test:portal": "node --test tests/client-portal.test.mjs"
+  }
+}

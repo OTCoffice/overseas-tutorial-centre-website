@@ -1,0 +1,23 @@
+import React,{useState} from 'react';
+export async function api(path:string,body?:any,method?:string){const r=await fetch(path,{method:method||(body?'POST':'GET'),headers:body?{'Content-Type':'application/json'}:undefined,body:body?JSON.stringify(body):undefined,cache:'no-store'});const b=await r.json().catch(()=>({}));if(!r.ok){const e:any=Error(b.error||translate(b.code,b.message)||'未能完成，請稍後再試。');e.code=b.code;e.status=r.status;throw e}return b;}
+function translate(code:string,message:string){return ({INVALID_EMAIL_OR_PASSWORD:'電郵或密碼不正確。',EMAIL_NOT_VERIFIED:'請先驗證電郵。',USER_ALREADY_EXISTS:'此電郵已註冊，請登入或重設密碼。',INVALID_OTP:'驗證碼不正確或已過期。',OTP_EXPIRED:'驗證碼已過期，請重新取得。',TOO_MANY_REQUESTS:'操作過於頻繁，請稍後重試。',INVALID_PASSWORD:'密碼不符合要求。',PASSWORD_TOO_SHORT:'密碼至少需要 12 個字元。'} as any)[code]||message;}
+export function Auth({done}:{done:()=>void}){
+ const [mode,setMode]=useState('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[name,setName]=useState(''),[otp,setOtp]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
+ async function sendCode(type:string){await api('/api/auth/email-otp/send-verification-otp',{email,type});setNotice('驗證碼已寄出，請查看收件匣或垃圾郵件。');}
+ async function submit(e:any){e.preventDefault();setBusy(true);setNotice('');try{
+ if(mode==='register'){await api('/api/auth/sign-up/email',{name,email,password});setMode('verify');setPassword('');await sendCode('email-verification');}
+ else if(mode==='verify'){await api('/api/auth/email-otp/verify-email',{email,otp});setMode('login');setOtp('');setNotice('電郵已驗證，請使用密碼登入。');}
+ else if(mode==='reset'){await api('/api/auth/email-otp/passcode',{email,otp,password});setMode('login');setPassword('');setOtp('');setNotice('密碼已重設，請重新登入。');}
+ else {const b=await api('/api/auth/sign-in/email',{email,password});setPassword('');if(b.user&&!b.user.emailVerified){setMode('verify');setNotice('請先驗證電郵；按下方按鈕取得驗證碼。');}else done();}
+ }catch(e:any){if(e.code==='EMAIL_NOT_VERIFIED'){setMode('verify');setNotice('請先驗證電郵；按下方按鈕取得驗證碼。');}else setNotice(e.message)}finally{setBusy(false)}}
+ return <section className="authbox"><div className="authintro"><small>OTC CLIENT CENTRE</small><h2>{mode==='register'?'建立客戶帳戶':mode==='verify'?'驗證電郵':mode==='reset'?'重設密碼':'客戶登入'}</h2><p>留學申請、畢業規劃、移民與陪跑服務，集中查看自己的進度、文件及下一步。</p><a href="/">返回官網</a></div><form onSubmit={submit} className="authform">
+ {mode==='register'&&<label>姓名<input required autoComplete="name" maxLength={100} value={name} onChange={e=>setName(e.target.value)}/></label>}
+ <label>電郵<input required type="email" autoComplete="email" value={email} onChange={e=>setEmail(e.target.value)}/></label>
+ {(mode==='verify'||mode==='reset')&&<label>電郵驗證碼<input required inputMode="numeric" autoComplete="one-time-code" value={otp} onChange={e=>setOtp(e.target.value)}/></label>}
+ {mode!=='verify'&&<label>{mode==='reset'?'新密碼':'密碼'}<input required type="password" minLength={mode==='login'?8:12} maxLength={128} autoComplete={mode==='login'?'current-password':'new-password'} value={password} onChange={e=>setPassword(e.target.value)}/>{mode!=='login'&&<small>至少 12 個字元，請使用獨立密碼。</small>}</label>}
+ {mode==='register'&&<p className="hint">建立帳戶僅用於個案協調；服務範圍及費用由 OTC 另行確認。請先完成電郵驗證。</p>}
+ <p role="status" className="authnotice">{notice}</p><button className="primary" disabled={busy}>{busy?'處理中…':mode==='register'?'註冊':mode==='verify'?'確認驗證碼':mode==='reset'?'儲存新密碼':'登入'}</button>
+ <div className="authlinks">{(mode==='verify'||mode==='reset')&&<button disabled={busy} type="button" onClick={async()=>{setBusy(true);try{await sendCode(mode==='verify'?'email-verification':'forget-password')}catch(e:any){setNotice(e.message)}finally{setBusy(false)}}}>重新取得驗證碼</button>}<button type="button" onClick={()=>{setMode(mode==='login'?'register':'login');setNotice('')}}>{mode==='login'?'首次使用？註冊帳戶':'返回登入'}</button>{mode==='login'&&<button type="button" onClick={()=>{setMode('reset');setNotice('填寫電郵後，按「重新取得驗證碼」。')}}>忘記密碼</button>}</div>
+ </form></section>;
+}
+export async function upload(file:File,caseId:string){if(file.size>2*1024*1024)throw Error('單份附件上限 2 MB。');const encoded=await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=reject;reader.readAsDataURL(file)});return api('/api/client-files',{caseId,name:file.name,encoded});}

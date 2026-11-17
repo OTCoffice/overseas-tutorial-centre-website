@@ -67,6 +67,7 @@ function nav(current = "", locale = "en", pagePath = "/") {
             <a href="/zh/insights/">留學導報</a>
             <a href="/zh/publishing/">出版</a>
             <a href="/zh/search/">搜尋</a>
+            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>客戶中心</a>
             <a href="${translateUrl.replaceAll("&", "&amp;")}" lang="en" class="language-link" title="Google 自動翻譯本頁">Translate the page · English</a>
           ` : `
             <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
