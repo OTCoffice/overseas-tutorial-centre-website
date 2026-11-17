@@ -6,7 +6,7 @@
 
 使用 Neon Auth 電郵與密碼登入，所有個案 API 另行要求電郵已驗證。密碼、驗證碼及 session 均由 Neon 處理，網站不另存密碼。驗證與密碼重設使用電郵 OTP。客戶只看 clientId 等於自己穩定帳戶 ID 的個案；不按電郵自動認領既有個案。
 
-管理員角色存於 otc_portal_members，以帳戶 ID 綁定。第一次啟用時，只有 OTC_PORTAL_OWNER_EMAIL 指定、且已驗證的官網持有人可建立首個管理員角色；角色建立後不會因更改電郵而轉移。其他管理員需由持有人另行分配，沒有公開升權 API。
+管理員角色存於 otc_portal_members，以帳戶 ID 綁定。登入及註冊不會建立或修改角色。已取消依電郵初始化首個管理員的邏輯；只有既有的明確授權紀錄可授予顧問權限。其他管理員需由持有人另行分配，沒有公開升權 API。
 
 ## 服務與文件
 
@@ -26,7 +26,7 @@
 
 前端成品已提交，正式部署不執行全站重建。新增 API 使用 Vercel Node 的 api/*.js，服務共用模組位於 lib/*.mjs。預覽與正式環境的 Neon 分支可能不同，應分開確認 schema 和帳戶設定。
 
-必需環境變數：DATABASE_URL、NEON_AUTH_BASE_URL、NEON_AUTH_COOKIE_SECRET、OTC_PORTAL_OWNER_EMAIL。只在部署平台與忽略的本地環境檔管理，不可提交值。
+必需環境變數：DATABASE_URL、NEON_AUTH_BASE_URL、NEON_AUTH_COOKIE_SECRET。只在部署平台與忽略的本地環境檔管理，不可提交值。
 
 ## 寄件服務
 

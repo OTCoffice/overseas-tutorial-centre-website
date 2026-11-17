@@ -63,3 +63,18 @@ test('服務入口帶入申請背景，但不能帶入身份、權限或外站�
 test('未知階段不會捏造申請進度，已提交不會自動變為錄取',async()=>{
  const {stageForStatus}=await import('../lib/client-progress.mjs');assert.equal(stageForStatus('待機構回覆'),null);assert.equal(stageForStatus('已提交'),3);assert.equal(stageForStatus('有條件錄取'),4);assert.equal(stageForStatus('未核實狀態'),null);
 });
+
+test('登入及電郵相符不會自動授予管理權；僅讀取明確角色紀錄',async()=>{
+ const {role,requireAdmin}=await import('../lib/client-portal.mjs');
+ const previous=process.env.OTC_PORTAL_OWNER_EMAIL;process.env.OTC_PORTAL_OWNER_EMAIL='owner@example.test';
+ const queries=[];const query=async(parts,...values)=>{queries.push({sql:parts.join('?'),values});return []};
+ try{
+  assert.equal(await role({id:'registered-client',email:'owner@example.test',emailVerified:true},query),'client');
+  assert.equal(queries.length,1);assert.match(queries[0].sql,/^SELECT role/);assert.deepEqual(queries[0].values,['registered-client']);
+  assert.equal(await role({id:'verified-staff',emailVerified:true},async()=>[{role:'admin'}]),'admin');
+  assert.equal(await role({id:'unverified-staff',emailVerified:false},async()=>{throw Error('must not query')}),'client');
+  assert.equal(await role({id:'registered-client',emailVerified:true},async()=>[{role:'ADMIN'}]),'client');
+  await assert.rejects(requireAdmin({id:'client'},async()=> 'client'),{status:403});
+  await assert.doesNotReject(requireAdmin({id:'staff'},async()=> 'admin'));
+ }finally{if(previous===undefined)delete process.env.OTC_PORTAL_OWNER_EMAIL;else process.env.OTC_PORTAL_OWNER_EMAIL=previous}
+});
