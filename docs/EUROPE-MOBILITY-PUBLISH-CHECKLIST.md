@@ -1107,3 +1107,42 @@
 - 四個不同原RUN ID 於2026-11-16新增逐欄部分核實記錄；前一輪官方清單記載**24/110**有深入補核，本輪核對後為**28/110**；還有82條未達同等深入核實。原始RUN 99+11條路線的來源矩陣仍是**110/110**，但**C/D全欄達標仍0/110**。
 - 凡「現行、未生效、封閉、未確認」依當期官方資料區分；立陶宛2026年一般工作**額度耗盡≠制度取消**；愛沙尼亞2027規則不提前套用。
 - 本輪只寫入 draft PR #108 的 `audit/europe-mobility-110-official-checks`，原PR #107早已合併，不能再更新該已合併分支。未變更main、未合併、未部署、未完成網站/手機/SEO/可訪問性全量回歸測試；**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 第66輪（2026-11-17）官方逐欄深入補核：奧地利2、比利時1、英國1
+
+### 來源／寫入安全核對
+- 2026-11-17重新以GitHub讀取 `BryceYuuu/RUN`：`data/programmes.json`共99條，原狀態94 open、5 closed；`src/extra_routes.json`8個國別節點合計11條，且99+11為110個不同ID。
+- OTC `docs/europe-mobility-110-field-evidence.csv`維持110行、110個不重複route_id，與RUN 110 ID集合一致；**RUN的open/closed是第三方來源原聲稱，不可當政府當期狀態**。
+- PR #107（`content/europe-mobility-routes-2026-11`）查明已merged/closed，不能當未合併審核分支續寫；**只寫入尚在Draft、未合併的PR #108 `audit/europe-mobility-110-official-checks`**；無站點front-end變更。
+
+### 66-A 奧地利 EU Blue Card `austria-eu-blue-card` — 現行、B部分核實
+- 聯邦官方移民入口：2026稅前年薪及特別支付總額至少**€55,678**；3年以上高等教育；ICT技術人員/服務經理可用最近7年內至少3年相當專業經驗替代；有約束力且符合資格聘約，AMS無同等失業求職者可用的勞動市場測試。**無積分制**。
+- 申請費€218；首次卡一般24個月，綁特定雇主。換雇主通常完整遞交轉換申請後30日才可暫工作，已持奧地利藍卡工作至少12月有免30日等例外。持卡近24月受僱合格至少21月可申RWR plus，**不是21月永居**。
+- 符合條件家屬可申RWR plus；一般Long-term Resident–EU需合格連續定居5年及Integration Agreement Module 2，非自動取得。
+- 三地護照原則按第三國公民資格初篩；領館／D簽、家庭個案與2026年立法施行日待核。
+- 2026-11-17官方來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/eubluecard/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/red-white-red-card-plus/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/
+
+### 66-B 奧地利 Startup Founder Red-White-Red Card `austria-self-employed-startup-founder-visa` — 現行、B部分核實
+- 創業須創新產品/服務/技術、商業計畫、創辦人對管理控制；積分至少50/85，創辦資本至少**€30,000**且自有股本**≥50%**；額外€50,000可獲10點而**非每人強制投入€80,000**。
+- 官方申請費€218；首次最長24月。創業卡主要為自僱，不自動允許一般受僱；兩年後合格可轉RWR plus取得較自由就業資格，並非永久居留；一般長居要求與上述奧地利長居制度相同。
+- 合資格家屬可按條件申RWR plus；三地領館、家屬德語例外、創辦資金文件及法條施行日等仍待核。
+- 2026-11-17官方來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/start-up-founders/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/red-white-red-card-plus/
+
+### 66-C 比利時 Single Permit `belgium-single-permit-work-permit` — 現行，僅Flanders具體條件部分核實
+- Working in Belgium官方One-Stop Counter：非EEA/瑞士員工超過90日聘用一般由僱主向工作所在地適當**大區**申single permit，合併工作和居留；90日內或特別類別另有制度。
+- Flanders官方：中等技能必須在該區專門migration list且由比利時僱主聘用；與VDAB shortage list非同一份清單。工資依Joint Committee協約、不得低於當期保障最低薪資。**不同大區、職類與2026具體工資絕對不可一律寫成全國固定€值**。Flanders高技術單一許可部分個案可申3年，不能外推至所有職種；一般續期窗口依具體類別通常到期前2–6月、部分2–4月。
+- 無限期**工作授權不等於永久居留**；聯邦家屬、長居及簽證受理和比利時Brussels/Wallonia/德語社群之具體2026門檻都尚待核。原先以Limosa「First visit」入口為主要簽證官方來源過於籠統，本輪已改以One-Stop Counter和Flanders分類原始頁為證據。
+- 2026-11-17官方來源：https://www.workinginbelgium.be/en/home.html ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/medium-skilled-position ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/highly-skilled ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/wages-and-allowances ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/indefinite-term
+
+### 66-D 英國 Global Talent `uk-global-talent` — 現行、B部分核實
+- 2026-10-29更新Appendix Global Talent現行規則：18歲以上，科研學術／藝術文化／數位科技傑出人才或潛力人才須合格endorsement，或在指定Prestigious Prize清單得獎免背書。**無最低薪資／無強制僱主offer**。
+- GOV.UK現行申請總費**£766**（通常背書£561+簽證£205；獎項直申£766），IHS一般£1,035/年；每次最長5年、可續1–5年；可受僱、自僱或任公司董事但不可當職業運動員。
+- 符合條件家屬可工作（不含職業運動員及教練）；按實際背書類別通常3或5年後才可申ILR，另須符合持續居留、Life in UK、當期英語要求；家屬通常與本人不一定相同年限。
+- 中國大陸／香港特區／台灣護照具體申請地、文件、各背書類型及2027年擬生效改革過渡尚待核；提案或已公告未生效條文不可提前取代2026 Immigration Rules。
+- 2026-11-17官方來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-global-talent ; https://www.gov.uk/global-talent ; https://www.gov.uk/global-talent/your-partner-and-children ; https://www.gov.uk/indefinite-leave-to-remain-business-investor-global-talent/eligibility ; https://www.gov.uk/indefinite-leave-to-remain-business-investor-global-talent/overview
+
+### 累計與發布閘門
+- 先前第65輪為28/110條有逐欄深入補核紀錄；本輪選4個原矩陣12欄全「未核」的不同route_id，已填入官方實證並保存，按既有口徑現為**32/110具有B級深入補核紀錄**，仍有78條未達同等程度。
+- **C/D全欄完成0/110**：尤其三地領事/旅行文件、部分家屬/永居、個別費用與法條施行日，仍未逐條閉環。
+- 禁止合併PR108、禁止部署、禁止對外標示「110條官方核實完成」。全部C/D及網址/SEO/手機/無障礙/回歸測試完成後方可考慮正式發布。
