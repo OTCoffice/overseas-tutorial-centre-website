@@ -116,3 +116,6 @@ test('全球目的地支援跨洲國家、地區及自訂目的地，不被少�
  const {normalizeDestination}=await import('../lib/client-destinations.mjs');assert.equal(normalizeDestination('AU'),'澳洲');assert.equal(normalizeDestination('Australia'),'澳洲');assert.equal(normalizeDestination('澳大利亞'),'澳洲');assert.equal(normalizeDestination('自訂目的地'),'自訂目的地');
  const {workflowCountries}=await import('../lib/client-workflow.mjs');assert.deepEqual(workflowCountries({country:'Australia',routes:[{country:'澳洲'}],profile:{data:{plan:{countries:'AU,法國'}}}}),['澳洲','法國']);
 });
+test('舊視窗不得用過期表格覆寫新增的客戶資料欄位',async()=>{
+ const {assertProfileSchema}=await import('../lib/client-profile.mjs');const {profileSchemaVersion}=await import('../lib/client-profile-fields.mjs');assert.throws(()=>assertProfileSchema(undefined),{status:409});assert.throws(()=>assertProfileSchema('old-version'),{status:409});assert.doesNotThrow(()=>assertProfileSchema(profileSchemaVersion));
+});
