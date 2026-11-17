@@ -4,7 +4,7 @@ const shortStudy=`<div id="short-study"><h3>遊學</h3><div class="study-links">
 
 const steps=[
   ['choose','確定目的地與課程','先按目標學歷、專業、語言及入學時間縮小範圍。',[
-    ['國家與院校','/zh/countries/'],['學科規劃','/zh/subject-planning/'],['公立中小學','/zh/public-school-alliance/'],['私立中小學','/zh/private-school-alliance/']]],
+    ['國家與院校','/zh/countries/'],['學科規劃','/zh/subject-planning/'],['公立中小學','/zh/public-school-alliance/'],['私立中小學','/zh/private-school-alliance/'],['國際中小學入學考試輔導','/zh/school-entrance-exams/']]],
   ['funding','費用與獎學金','先估算學費、生活費與申請開支，再比較獎學金與自費方案。',[
     ['政府全額獎學金','/zh/government-scholarships/'],['低學費與其他資助','/zh/services/affordable-study-abroad/'],['OTC 服務收費','/zh/application-fees/']]],
   ['apply','準備材料與提交申請','按學位層級準備成績、語言證明、文書及其他指定文件。',[
@@ -23,13 +23,14 @@ module.exports=()=>pageShell({
   .services-hero .study-hero-actions .btn{width:auto;min-width:0;flex:0 0 auto}
   .services-hero .study-hero-actions .btn-secondary{background:transparent;border:1px solid #d4dce8;color:#fff}
   .services-hero .study-hero-actions .btn-secondary:hover{background:#ffffff20}
+  .school-tools{display:flex;gap:16px;flex-wrap:wrap;align-items:end;margin:18px 0}.school-tools label{display:flex;flex-direction:column;gap:5px}.school-tools input,.school-tools select{padding:9px;border:1px solid #c8cecf;border-radius:3px;background:#fff;max-width:100%}.school-table{overflow-x:auto}.school-table table{border-collapse:collapse;width:100%;font-size:14px}.school-table th,.school-table td{text-align:left;padding:12px;border-bottom:1px solid #d7dddf;vertical-align:top}.school-table th{background:#e9edeb;color:#173544}.school-table td:first-child{min-width:210px}.school-table td:nth-child(2){min-width:140px}.school-table td:last-child{min-width:240px}.school-source{font-size:12px;color:#626c6d}.school-table [hidden]{display:none}@media(max-width:650px){.school-tools{display:block}.school-tools label{margin:10px 0}.school-tools input{width:100%;box-sizing:border-box}}
   #short-study{margin-top:16px;scroll-margin-top:110px}#short-study h3{margin:0 0 6px;font-size:16px}
   </style>
   <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div>
   <div class="eyebrow">海外督導雙語世界 · 招生部</div><h1>留學規劃與申請諮詢</h1><p class="hero-sub">從選校、估算預算到提交申請，按目前進度查看下一步。</p>
-  <div class="actions study-hero-actions"><a class="btn btn-primary" href="/zh/countries/">瀏覽留學目的地</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
+  <div class="actions study-hero-actions"><a class="btn btn-primary" href="/zh/countries/">瀏覽留學目的地</a><a class="btn btn-secondary" href="#official-school-search">官方選校與直申</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
   <aside class="service-hero-panel">${steps.map(([id,title],i)=>`<a href="#${id}"><strong>${i+1}. ${title}</strong></a>`).join('')}</aside></div></div></section>
-  <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div>${id==='choose'?shortStudy:''}</section>`).join('')}
+  <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div>${id==='choose'?shortStudy:''}</section>${id==='choose'?require('./study-official-links.cjs')():''}`).join('')}
   <section id="admissions-contact" aria-labelledby="admissions-heading">
     <h2 id="admissions-heading">聯絡招生部</h2>
     <p>請告訴我們你目前的學歷、想申請的國家或課程，以及預計入學時間。</p>
