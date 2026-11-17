@@ -185,12 +185,13 @@
   },
   "/zh/services/germany-ausbildung/": {
     "title": "德國雙元制",
-    "image": "/assets/social/native-germany-ausbildung-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 220,
+    "image": "/assets/social/germany-ausbildung-share-20261117.png",
+    "version": "v=20261117-cover",
+    "width": 1200,
+    "height": 440,
     "file": "zh/services/germany-ausbildung/index.html",
-    "previousImage": "/assets/social/germany-ausbildung-header-20261029.png"
+    "previousImage": "/assets/social/germany-ausbildung-header-20261029.png",
+    "cardType": "summary_large_image"
   },
   "/zh/services/graduate-job-search-visas/": {
     "title": "高學歷求職簽證",
