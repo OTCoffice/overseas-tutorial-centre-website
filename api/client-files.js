@@ -1,7 +1,8 @@
-import {randomUUID} from 'node:crypto';
-import {identity,assertSameOrigin,fail} from '../lib/client-auth.mjs';
-import {sql,role,findCase} from '../lib/client-portal.mjs';
-export default async function handler(req,res){try{
+module.exports=async function handler(req,res){
+const {randomUUID}=await import('node:crypto');
+const {identity,assertSameOrigin,fail}=await import('../lib/client-auth.mjs');
+const {sql,role,findCase}=await import('../lib/client-portal.mjs');
+try{
  res.setHeader('Cache-Control','private, no-store');assertSameOrigin(req);const user=await identity(req),admin=await role(user)==='admin';
  if(req.method==='GET'&&req.query.key){
   const rows=await sql()`SELECT id,case_id,user_id,name,encode(content,'base64') AS encoded FROM otc_portal_files WHERE id::text=${String(req.query.key)}`;

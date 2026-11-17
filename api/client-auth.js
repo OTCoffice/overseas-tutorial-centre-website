@@ -1,6 +1,7 @@
-import {assertSameOrigin,authResponse,sendAuthResponse,fail} from '../lib/client-auth.mjs';
 const paths=new Set(['get-session','sign-in/email','sign-up/email','sign-out','email-otp/send-verification-otp','email-otp/verify-email','email-otp/passcode','request-password-reset','reset-password']);
-export default async function handler(req,res){
+module.exports=async function handler(req,res){
+const {assertSameOrigin,authResponse,sendAuthResponse,fail}=await import('../lib/client-auth.mjs');
+
   try{
     assertSameOrigin(req);
     const path=String(req.query.path||'').replace(/\/+$/,'');

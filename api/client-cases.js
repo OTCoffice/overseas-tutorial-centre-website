@@ -1,7 +1,8 @@
-import {randomUUID} from 'node:crypto';
-import {identity,assertSameOrigin,fail} from '../lib/client-auth.mjs';
-import {sql,workspace,clientCase,services} from '../lib/client-portal.mjs';
-export default async function handler(req,res){try{
+module.exports=async function handler(req,res){
+const {randomUUID}=await import('node:crypto');
+const {identity,assertSameOrigin,fail}=await import('../lib/client-auth.mjs');
+const {sql,workspace,clientCase,services}=await import('../lib/client-portal.mjs');
+try{
  res.setHeader('Cache-Control','private, no-store');assertSameOrigin(req);const user=await identity(req);
  if(req.method==='GET'){const w=await workspace();return res.json({cases:w.payload.filter(c=>c.clientId===user.id).map(clientCase)});}
  if(req.method!=='POST')return res.status(405).end();const b=req.body;
