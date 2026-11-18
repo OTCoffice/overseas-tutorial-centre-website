@@ -109,3 +109,6 @@ require('./scripts/render-change-of-major.cjs');
 
 // Preserve the simplified Europe exchange service and its search records.
 require('./scripts/render-europe-exchange-service.cjs');
+
+// Preserve admissions interview and supplemental application coaching.
+require("./scripts/render-university-interview.cjs");

@@ -15,6 +15,7 @@ const groups=[
     ]],
     ["university-admissions","本科與轉學",[
       ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
+      ["大學入學面試與補充申請輔導","/zh/services/university-interview-coaching/","Kira 限時錄影、書面補充申請、經歷整理及模擬回饋。"],
       ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],
       ["國際大學轉學","/zh/services/international-transfer/","按國家及地區查閱轉學途徑、學分認定與官方入口。"],
       ["轉專業與轉學院","/zh/services/change-of-major/","校內轉科、先修課、學分抵免與修業安排；初步諮詢免費。"],
