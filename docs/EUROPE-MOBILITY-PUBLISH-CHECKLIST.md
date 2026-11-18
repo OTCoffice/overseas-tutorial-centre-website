@@ -1342,3 +1342,13 @@
 - 本輪證據在 `docs/europe-mobility-110-field-evidence.csv`，各列列明 `official_checked_at=2026-11-18`、政府URL和未解。
 - 當前不可宣稱“89條完整合規”；正確對外描述是**89/110有深入部分官方核補紀錄，C/D 0/110**。
 - PR #107為已合併的導覽頁；後續安全核驗應於PR #108 Draft分支繼續，直至110條C/D及網站桌面/手機/SEO/分享/無障礙測試全過才提出合併/正式部署。
+
+
+## 第73輪｜2026-11-18 三條核心空白路線的官方補核（非C/D）
+
+- 從第72輪尚有17個12項核心欄全「未核」的route_id中，補入以下3個；本輪結束尚有**14條核心欄全未核**。覆蓋口徑：深入部分補核**92/110**（前89+3）；至少一核心欄有證據**96/110**（前93+3）；**C/D完整0/110**。
+- **阿爾巴尼亞** `albania-digital-mobile-worker-unique-permit`：內政部公布《外國人法》79/2021第68條：境外僱主/客戶遠距合約，初次合法停留，住所、犯罪紀錄、一年醫療保險；每人阿國銀行存款ALL300000/年或月收入ALL32000；首次服務費ALL4500、續費ALL2250；首次許可最多1年。不得把本地工作權或永久居留計時推定為已核。官方：https://mb.gov.al/procedura-dhe-dokumentacioni-per-pajisjen-me-leje-qendrimi-dhe-leje-unike-residence-unique-permit-al-en/ 和 https://mb.gov.al/wp-content/uploads/2024/10/Ligj-per-te-Huajt-%E2%80%93-nr.-79.2021_English.pdf
+- **保加利亞** `bulgaria-eu-blue-card`：歐盟委員會移民入口2025-04-01官方資料列6月高技能聘約、一般毋須勞動市場測試、標準5年卡（短聘另規定）、初次行政費110 BGN；**2026本國最新工資與費表尚未核，不把2025數字當2026確定價格**。官方：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-bulgaria_en
+- **斯洛伐克** `slovakia-eu-blue-card`：歐盟委員會移民入口2025-04-01官方資料列6月高技能聘約、工資通常須前一年度全國平均1.2倍，合格近3年大學畢業生可為1倍；初次費€250、續費€140；最長5年或聘期+90日。2026斯國官方法規、統計平均工資、費表未交叉核實。官方：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-slovakia_en
+- 三條均只屬**B級部分政府核證**；中國大陸／香港／台灣護照個別領事受理、工作及家屬細節、續期、永居和生效日未完成。
+- 本輪僅變更PR #108 Draft審核分支的證據矩陣及清單；**不得合併、不得部署、不得稱110條全部核驗完成**。
