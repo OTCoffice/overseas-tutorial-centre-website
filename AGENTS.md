@@ -43,3 +43,14 @@ Reuse the existing Herald and service-desk templates. Keep wording plain. Batch 
 8. **Publication safeguards**: policy route verification and site layout changes are distinct. Do not silently turn unverified immigration route data into verified claims when publishing a layout fix.
 
 **Incident to prevent repeating:** On 2026-11-15 the Europe 36-country page wrongly borrowed an unrelated Europe Exchange cover, used wrong headline and off-standard dimensions, and its styling and footer share bar were repeatedly altered without first following the approved reference. Corrective work MUST use the actual US-study reference and pass the checks above; no fallback to another existing-topic image.
+
+## 頁面精簡與通用聯絡資訊（2026-11-18 使用者確認，適用所有新建及修改頁面）
+
+以下要求今後一律遵守；與舊版範本中要求保留框列、快捷列或聯絡側欄的規則衝突時，以本節為準。同步修改原稿／產生器與輸出頁面，避免重新產生後復原舊版。
+
+1. **頁頭不堆重複或空泛的框。** 不為填滿版面增加沒有實際內容的卡片、色框、小標或快捷入口；同一組資訊不可在題頭、快捷列及側欄反覆呈現。沒有獨立用途的框列直接刪除，讓讀者從簡潔題頭直接進入正文。不得因沿用範本而強行保留。
+2. **費用說明只寫一次。** 在正文集中說明免費範圍、後續報價及第三方費用；不在頁頭、側欄、提示框或頁末再次重述同一收費內容。需要導引時可連至該費用段落，不複製說明。
+3. **「相關服務」只放服務連結。** 僅列相關服務頁名稱與連結；不得混入 WhatsApp、電話、Email、微信、聯絡卡或重複的服務／費用介紹。
+4. **通用聯絡方式統一放在通用頁腳。** 公司電話、WhatsApp、Email、微信、地址等共用資料使用網站統一 footer 聯絡區；不散放在正文、服務側欄或「相關服務」內，也不為單頁另造一組聯絡資訊。
+
+提交前核對桌面與手機：頁頭無重複框列、費用說明僅一處、「相關服務」沒有聯絡資料、通用聯絡方式僅位於共用頁腳。社媒分享、Email 分享及複製本頁連結仍使用 footer 前唯一的分享條；分享功能不等於公司聯絡方式。
