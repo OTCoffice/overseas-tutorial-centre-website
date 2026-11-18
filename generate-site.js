@@ -112,3 +112,6 @@ require('./scripts/render-europe-exchange-service.cjs');
 
 // Preserve admissions interview and supplemental application coaching.
 require("./scripts/render-university-interview.cjs");
+
+// Preserve Japan welding to Australia guide and its discovery links.
+require('./scripts/render-japan-welder.cjs');
