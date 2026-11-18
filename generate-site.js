@@ -106,3 +106,6 @@ require('./scripts/render-course-selection-alliance.cjs');
 
 // Preserve change-of-major guidance and its service/search navigation.
 require('./scripts/render-change-of-major.cjs');
+
+// Preserve the simplified Europe exchange service and its search records.
+require('./scripts/render-europe-exchange-service.cjs');
