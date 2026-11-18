@@ -1,12 +1,20 @@
 const {pageShell}=require('../site');
 const a=require('./change-of-major.json');
 module.exports=()=>{
- const intro='你好，我想了解轉專業與轉學院諮詢。\n目前院校、專業與年級：\n目標專業或學院：\n已修課程與學分：\n希望轉入的學期：\n最近截止日：';
- const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
- const email='mailto:office@overseasuk.com?subject='+encodeURIComponent('轉專業與轉學院｜初步諮詢')+'&amp;body='+encodeURIComponent(intro);
  const cover=a.shareImageZh+'?'+a.socialImageVersion;
- return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:'轉專業與轉學院：申請期限、先修課與學分抵免',shareAtBottom:true,body:`
-<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">海外督導雙語世界 · 學生服務部</div><h1>轉專業與轉學院</h1><h2>課程比較 · 先修課 · 學分抵免</h2><p class="hero-sub">比較校內轉科與跨學院選擇，確認申請要求、剩餘課程、修業時間與預算。</p><div class="actions"><a class="btn btn-primary" href="${wa}">免費初步諮詢</a><a class="btn btn-secondary" href="#requirements">查看申請要求</a></div></div><aside class="service-hero-panel"><a href="#audience"><strong>適合對象</strong><span>校內轉科與跨學院</span></a><a href="#requirements"><strong>申請要求</strong><span>期限、先修課與學分</span></a><a href="#ubc-example"><strong>UBC 保育例子</strong><span>Conservation 與 Biology</span></a><a href="#fees"><strong>服務與費用</strong><span>初步免費，後續書面報價</span></a></aside></div></div></section>
-<section class="band service-review-strip"><a href="#requirements"><b>01</b><strong>申請條件</strong><span>查清截止日與先修要求</span></a><a href="#ubc-example"><b>02</b><strong>課程比較</strong><span>目標方向與課程內容</span></a><a href="#scope"><b>03</b><strong>服務內容</strong><span>學分清單與申請時間表</span></a><a href="#process"><b>04</b><strong>申請流程</strong><span>材料、提交與結果確認</span></a></section>
-<section class="band compact-band service-review-body"><div class="section-head compact-head service-review-head"><span>轉科諮詢</span><strong>課程與修業安排</strong><p>按校方答覆比較可行選擇，未確認的抵免與修業時間另列。</p></div><div class="service-herald-grid"><main class="service-herald-main" style="min-width:0">${a.sections.map((s,i)=>`<section id="${s.id}"><h2 class="zh-herald-section-head" data-num="${String(i+1).padStart(2,'0')}">${s.heading}</h2>${s.paragraphs.map(p=>p.startsWith('<ol>')?p:'<p>'+p+'</p>').join('')}</section>`).join('')}</main><aside class="service-guide-side service-herald-side" id="contact"><div class="service-guide-card is-urgent"><span>初步諮詢</span><strong>先提供五項資料</strong><p>院校、現有專業與年級；目標方向；已修課程；希望轉入的學期；最近截止日。</p><a href="${wa}">WhatsApp 免費初步諮詢</a></div><div class="service-guide-card"><span>書面聯絡</span><strong>保留校方確認</strong><p>整理需要學院答覆的問題，確認哪些課可計入新學位，以及尚欠哪些要求。</p><a href="${email}">Email 傳送背景</a></div><div class="service-guide-card"><span>規劃文件</span><strong>比較表與時間表</strong><p>課程比較、先修課與學分清單、剩餘修業及預算安排。</p><a href="#scope">查看服務內容</a></div><div class="service-guide-note"><b>服務費用</b><p>初步諮詢免費；後續工作按範圍書面報價。院校及第三方費用另計。</p></div><div class="service-side-links"><span>相關服務</span><a href="/zh/services/international-transfer/">國際大學轉學</a><a href="/zh/course-selection-alliance/">選課聯盟</a><a href="${wa}">WhatsApp +44 7947 991572</a><a href="${email}">office@overseasuk.com</a></div><div class="service-guide-note"><b>海外督導雙語世界｜學生服務部</b><p>微信 overseasus</p></div></aside></div><a class="zh-hero-service-button" href="/zh/services/categories/study/#university-admissions">返回服務導覽台・本科與轉學 →</a></section>`});
+ return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:'轉專業與轉學院：申請期限、先修課與學分抵免',shareAtBottom:true,bodyClass:'change-of-major-page',body:`
+<style>
+.change-of-major-page .page-hero .band,.change-of-major-page .change-major-content{max-width:1040px;margin-inline:auto}
+.change-of-major-page .page-hero .hero-sub{max-width:60em}
+.change-of-major-page .change-major-content{padding-block:24px 32px}
+.change-of-major-page .change-major-content section+section{margin-top:24px}
+.change-of-major-page .change-major-content p,.change-of-major-page .change-major-content li{line-height:1.78;overflow-wrap:anywhere}
+.change-of-major-page .change-major-related{border-top:1px solid var(--line);margin-top:24px;padding-top:14px}
+.change-of-major-page .change-major-related h2{font-size:14px;margin:0 0 10px}
+.change-of-major-page .change-major-related a+a{margin-left:20px}
+</style>
+<section class="page-hero services-hero"><div class="band"><div class="eyebrow">海外督導雙語世界 · 學生服務部</div><h1>轉專業與轉學院</h1><p class="hero-sub">校內轉科與跨學院申請：課程比較、先修課、學分抵免及剩餘修業安排。</p></div></section>
+<main class="band change-major-content">${a.sections.map((s,i)=>`<section id="${s.id}"><h2 class="zh-herald-section-head" data-num="${String(i+1).padStart(2,'0')}">${s.heading}</h2>${s.paragraphs.map(p=>p.startsWith('<ol>')?p:'<p>'+p+'</p>').join('')}</section>`).join('')}
+<nav class="change-major-related" aria-label="相關服務"><h2>相關服務</h2><a href="/zh/services/international-transfer/">國際大學轉學</a><a href="/zh/course-selection-alliance/">選課聯盟</a></nav>
+</main>`});
 };
