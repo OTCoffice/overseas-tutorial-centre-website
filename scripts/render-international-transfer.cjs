@@ -1,4 +1,5 @@
 const fs = require('node:fs');
+const {pageUtilityBar, pageUtilityScript} = require('../site');
 const path = require('node:path');
 const regions = require('../content/international-transfer-destinations.json');
 
@@ -64,6 +65,7 @@ const page = `<!doctype html>
 ${countries}
 <section class="transfer-info">
 <h2 id="documents">申請材料與流程</h2>
+<p>如考慮留在同校更換主修、學位或學院，可查閱<a href="/zh/services/change-of-major/">轉專業與轉學院</a>，了解先修課、學分抵免及剩餘修業安排。</p>
 <ol><li>確認目標校接受的申請類別、入學年級及期限。</li><li>準備正式成績單、在讀證明、已修學分、課程大綱及考核方式，按校方要求補交翻譯或認證。</li><li>確認錄取結果、可認定的必修及選修、剩餘修業時間和費用，再安排離開原校。</li></ol>
 <h2 id="fees">免費評估與代辦</h2>
 <p>初次評估免費。符合 OTC 合作院校、課程及代辦範圍的申請可免費代辦。校方申請費、翻譯及認證等第三方費用另付。其他個案先書面確認服務內容及費用。</p>
@@ -73,6 +75,7 @@ ${countries}
 <p><a href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a> · 微信 overseasus</p>
 </section></div>
 </main>
+${pageUtilityBar({canonicalPath:"/zh/services/international-transfer/",canonicalUrl:"https://overseasuk.com/zh/services/international-transfer/",title:"國際大學轉學",locale:"zh"})}
 <footer class="site-footer"><div class="band">Overseas Tutorial Centre Ltd · 海外督導 OTC</div></footer>
 <script>
 const search = document.querySelector('#country-search');
@@ -118,7 +121,8 @@ for (const link of document.querySelectorAll('.transfer-jump a, a[href="#portuga
 search.hidden = false;
 revealCountry();
 </script>
+${pageUtilityScript()}
 </body>
 </html>
 `;
-fs.writeFileSync(path.join(__dirname,'../zh/services/international-transfer/index.html'),page);
+fs.writeFileSync(path.join(__dirname,'../zh/services/international-transfer/index.html'),page.replace(/[ \t]+$/gm,''));

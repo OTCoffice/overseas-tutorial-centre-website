@@ -17,6 +17,7 @@ const groups=[
       ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
       ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],
       ["國際大學轉學","/zh/services/international-transfer/","按國家及地區查閱轉學途徑、學分認定與官方入口。"],
+      ["轉專業與轉學院","/zh/services/change-of-major/","校內轉科、先修課、學分抵免與修業安排；初步諮詢免費。"],
       ["轉學與學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
       ["Asso／HD 升大學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
       ["日本 SGU／英語學位","/zh/services/japan-sgu-planning/","本科與碩博選校、申請材料、語言準備及畢業去向。"]
@@ -179,6 +180,7 @@ const body=css+`<section class="page-hero services-hero"><div class="band"><div 
 <main class="band desk-index">
 ${(selected?[selected]:groups).map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
 <header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
+${!selected&&id==='study'?'<p class="desk-route-feature"><a href="/zh/services/change-of-major/"><strong>轉專業與轉學院 →</strong></a>　校內轉科、先修課、學分抵免；初步諮詢免費。</p>':''}
 <nav class="desk-jump" aria-label="${label}子分類">${rows.map(([key,heading])=>`<a ${selected?'':'id="'+key+'" '}href="${selected?'':categoryPath(id)}#${key}">${heading}</a>`).join('')}</nav>
 ${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
 </section>`).join('')}

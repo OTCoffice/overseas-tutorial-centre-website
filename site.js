@@ -382,4 +382,4 @@ function pageShell({ title, current = "", body, lang = "en", locale = "en", desc
   return require('./content/service-native-header.cjs')(renderedHtml,canonicalPath);
 }
 
-module.exports = { nav, pageShell, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };
+module.exports = { nav, pageShell, pageUtilityBar, pageUtilityScript, productCards, productShelf, products, SITE_URL, BRAND_NAME, CONTACT_HTML, CONTACT_TEXT };

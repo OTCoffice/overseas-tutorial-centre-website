@@ -103,3 +103,6 @@ require("child_process").execFileSync("python3",["scripts/render-east-sussex-com
 
 // Preserve the course-selection page and both search indexes after generation.
 require('./scripts/render-course-selection-alliance.cjs');
+
+// Preserve change-of-major guidance and its service/search navigation.
+require('./scripts/render-change-of-major.cjs');

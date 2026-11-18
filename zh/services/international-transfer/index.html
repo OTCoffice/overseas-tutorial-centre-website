@@ -1302,6 +1302,7 @@
 </div></section>
 <section class="transfer-info">
 <h2 id="documents">申請材料與流程</h2>
+<p>如考慮留在同校更換主修、學位或學院，可查閱<a href="/zh/services/change-of-major/">轉專業與轉學院</a>，了解先修課、學分抵免及剩餘修業安排。</p>
 <ol><li>確認目標校接受的申請類別、入學年級及期限。</li><li>準備正式成績單、在讀證明、已修學分、課程大綱及考核方式，按校方要求補交翻譯或認證。</li><li>確認錄取結果、可認定的必修及選修、剩餘修業時間和費用，再安排離開原校。</li></ol>
 <h2 id="fees">免費評估與代辦</h2>
 <p>初次評估免費。符合 OTC 合作院校、課程及代辦範圍的申請可免費代辦。校方申請費、翻譯及認證等第三方費用另付。其他個案先書面確認服務內容及費用。</p>
@@ -1311,6 +1312,24 @@
 <p><a href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a> · 微信 overseasus</p>
 </section></div>
 </main>
+
+    <div class="page-utility-bar" data-page-share>
+      <div class="page-utility-inner">
+        <a class="page-parent-link" href="/zh/services/">返回上級頁面</a>
+        <div class="page-share-actions" aria-label="分享本頁">
+          <span>分享</span>
+          <a href="https://twitter.com/intent/tweet?text=%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8%E8%BD%89%E5%AD%B8%20%7C%20OTC%20Study%20Hub&url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" target="_blank" rel="noopener">X</a>
+          <a href="https://www.threads.net/intent/post?text=%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8%E8%BD%89%E5%AD%B8%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" target="_blank" rel="noopener">Threads</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/?text=%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8%E8%BD%89%E5%AD%B8%20%7C%20OTC%20Study%20Hub%20https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/share/url?url=https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F&text=%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8%E8%BD%89%E5%AD%B8%20%7C%20OTC%20Study%20Hub" target="_blank" rel="noopener">Telegram</a>
+          <button type="button" data-email-share data-email-subject="%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8%E8%BD%89%E5%AD%B8%20%7C%20OTC%20Study%20Hub" data-email-body="https%3A%2F%2Foverseasuk.com%2Fzh%2Fservices%2Finternational-transfer%2F" data-email-done="已複製郵件">Email</button>
+          <button type="button" data-page-copy-link="https://overseasuk.com/zh/services/international-transfer/">複製連結</button>
+        </div>
+      </div>
+    </div>
+
 <footer class="site-footer"><div class="band">Overseas Tutorial Centre Ltd · 海外督導 OTC</div></footer>
 <script>
 const search = document.querySelector('#country-search');
@@ -1356,5 +1375,62 @@ for (const link of document.querySelectorAll('.transfer-jump a, a[href="#portuga
 search.hidden = false;
 revealCountry();
 </script>
+
+    <script>
+      document.querySelectorAll("[data-page-copy-link]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const url = button.dataset.pageCopyLink;
+          try {
+            await navigator.clipboard.writeText(url);
+            button.textContent = "Copied";
+          } catch (error) {
+            const helper = document.createElement("textarea");
+            helper.value = url;
+            helper.setAttribute("readonly", "");
+            helper.style.position = "fixed";
+            helper.style.opacity = "0";
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+              document.execCommand("copy");
+              button.textContent = "Copied";
+            } catch (fallbackError) {
+              button.textContent = "Copy failed";
+            }
+            helper.remove();
+          }
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1400);
+        });
+      });
+      document.querySelectorAll("[data-email-share]").forEach((button) => {
+        if (button.dataset.emailShareBound === "true") return;
+        button.dataset.emailShareBound = "true";
+        button.addEventListener("click", async () => {
+          const originalLabel = button.dataset.originalLabel || button.textContent;
+          button.dataset.originalLabel = originalLabel;
+          const subject = decodeURIComponent(button.dataset.emailSubject || "");
+          const body = decodeURIComponent(button.dataset.emailBody || "");
+          const mailto = "mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          const draft = "Subject: " + subject + "\n\n" + body;
+          try {
+            await navigator.clipboard.writeText(draft);
+            button.textContent = button.dataset.emailDone || "Email copied";
+          } catch (error) {
+            button.textContent = button.dataset.emailDone || "Email ready";
+          }
+          window.setTimeout(() => {
+            window.location.href = mailto;
+          }, 80);
+          window.setTimeout(() => {
+            button.textContent = originalLabel;
+          }, 1800);
+        });
+      });
+    </script>
+
 </body>
 </html>
