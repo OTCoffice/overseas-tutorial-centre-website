@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+<defs><linearGradient id="bg"><stop stop-color="#071e32"/><stop offset="1" stop-color="#103551"/></linearGradient></defs>
+<rect width="1200" height="440" fill="#071e32"/>
+<rect y="40" width="1200" height="360" fill="url(#bg)"/>
+<path d="M0 41.5H1200M0 398.5H1200" stroke="#c49b43" stroke-width="3"/>
+<rect x="142" y="43" width="13" height="354" fill="#974735"/>
+<g font-family="Georgia, Noto Serif TC, Songti TC, serif">
+<text x="180" y="98" font-size="16" letter-spacing="1" fill="#d8b65f">EUROPE EXCHANGE SUPPORT</text>
+<text x="180" y="173" font-size="48" font-weight="700" fill="#fff9eb">歐洲交換陪跑</text>
+<g font-size="18" fill="#c6d5df"><text x="180" y="218">選課學分 · 文件與升碩安排</text><text x="180" y="249">海外督導雙語世界・學生服務部</text></g>
+<text x="180" y="294" font-size="16" fill="#d8b65f">OTC Study Hub · overseasuk.com</text>
+<rect x="667" y="83" width="353" height="248" fill="#faf7ee"/>
+<rect x="667" y="83" width="4" height="248" fill="#c49b43"/>
+<g font-size="21" fill="#102d44"><text x="693" y="132">出發前</text><text x="693" y="204">交換期間</text><text x="693" y="276">返校後</text></g>
+<g font-size="14" fill="#62717b"><text x="693" y="157">比較選擇、準備文件</text><text x="693" y="229">課業、選課變更與申請</text><text x="693" y="301">學分認可與成果整理</text></g>
+<path d="M693 172H998M693 244H998" stroke="#d7cdbb"/>
+</g></svg>

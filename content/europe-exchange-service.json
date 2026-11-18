@@ -3,9 +3,9 @@
   "path": "/zh/services/europe-exchange-support/",
   "titleZh": "歐洲交換陪跑｜選課、學分與碩士申請",
   "summaryZh": "歐洲交換選擇、選課與學分、文件及行前準備，按出發前、交換期間與返校後提供規劃和申請支援。",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 186,
+  "socialImageVersion": "v=20261118-v1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 440,
   "sections": [
     {
       "heading": "適合對象",
@@ -68,7 +68,8 @@
       "id": "scope"
     }
   ],
-  "shareImageZh": "/assets/social/native-europe-exchange-support-20261030.png",
+  "shareImageZh": "/assets/social/europe-exchange-share-20261118-v1.png",
   "socialTitleZh": "歐洲交換陪跑：選課與升碩安排",
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only",
+  "sharePageVersion": "20261118-cover-v1"
 }

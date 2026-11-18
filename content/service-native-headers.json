@@ -167,12 +167,13 @@
   },
   "/zh/services/europe-exchange-support/": {
     "title": "歐洲交換陪跑",
-    "image": "/assets/social/native-europe-exchange-support-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 186,
+    "image": "/assets/social/europe-exchange-share-20261118-v1.png",
+    "version": "v=20261118-v1",
+    "width": 1200,
+    "height": 440,
     "file": "zh/services/europe-exchange-support/index.html",
-    "previousImage": "/assets/social/europe-exchange-service-0ce826552b68.png"
+    "previousImage": "/assets/social/europe-exchange-service-0ce826552b68.png",
+    "sharePageVersion": "20261118-cover-v1"
   },
   "/zh/services/france-business-schools/": {
     "title": "法國高商留學",
