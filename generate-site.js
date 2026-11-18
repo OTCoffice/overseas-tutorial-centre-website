@@ -100,3 +100,6 @@ require("./scripts/render-ireland-language-study.cjs");
 
 // Keep the approved East Sussex partnership copy in the existing comparison layout.
 require("child_process").execFileSync("python3",["scripts/render-east-sussex-comparison.py"],{stdio:"inherit"});
+
+// Preserve the course-selection page and both search indexes after generation.
+require('./scripts/render-course-selection-alliance.cjs');
