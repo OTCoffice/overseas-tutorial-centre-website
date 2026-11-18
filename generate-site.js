@@ -97,3 +97,6 @@ require('child_process').execFileSync('python3',['scripts/render-education-polic
 
 // Preserve Ireland language study within the summer-school alliance.
 require("./scripts/render-ireland-language-study.cjs");
+
+// Keep the approved East Sussex partnership copy in the existing comparison layout.
+require("child_process").execFileSync("python3",["scripts/render-east-sussex-comparison.py"],{stdio:"inherit"});
