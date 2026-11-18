@@ -19,5 +19,12 @@ start=s.index(marker)
 end=s.index('</aside>',start)
 resources='\n'.join('<div class="zh-herald-resource-item"><div class="zh-herald-resource-icon">↗</div><div><a class="zh-herald-resource-name" href="'+html.escape(u,quote=True)+'">'+html.escape(t)+'</a></div></div>' for t,u in a['resources'])
 s=s[:start]+'<div class="zh-herald-widget-title">院校與家長手冊</div>\n'+resources+'\n</div>\n'+s[end:]
-p.write_text(s)
+# Keep one functional sharing bar after the article, before the site footer.
+bar=re.search(r'<div class="page-utility-bar" data-page-share>[\s\S]*?</div>\s*</div>\s*</div>',s)
+assert bar
+s=s[:bar.start()]+s[bar.end():]
+s=re.sub(r'<div class="oeh-share-row" data-share-strip>[\s\S]*?</div>', '', s)
+s=s.replace('<footer class="site-footer">',bar[0]+'\n<footer class="site-footer">',1)
+s=s.replace('/assets/college-guides/east-sussex-2027-zh.pdf"','/assets/college-guides/east-sussex-2027-zh.pdf?v=20261118"')
+p.write_text('\n'.join(line.rstrip() for line in s.splitlines())+'\n')
 print('Updated East Sussex paragraphs and resources in existing comparison layout.')
