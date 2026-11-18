@@ -1306,3 +1306,39 @@
 4. 禁止合併 PR #108；亦不得因本輪80/110的B級目標達成而將110政策頁全部發布，需先110條C/D及桌面/手機/SEO/分享/無障礙回歸測試。
 
 **GitHub 安全範圍**：PR #107早已合併，核驗僅提交到 PR #108 Draft 審核分支；本輪不修改正式頁面或部署。
+
+
+## 第72輪｜2026-11-18 官網＋法律原文深入核補9條（年度改革高風險）
+
+### 實際核驗數據（續第71輪口徑）
+- 前輪：**80/110深入部分補核**（B級，非全欄完成）、**84/110至少一核心欄有證據**，C/D=0。
+- 本輪：新增9個先前12核心欄均為「未核」的不同原route_id；每條核對資格、三地證件第三國初篩、薪資/資金、費用、卡期限、工作、家屬、續卡、永居、法令生效與未解，對欠缺來源的欄位保留「未核」而不創造數字。
+- **新的深核覆蓋：89/110**；**有任一核心欄證據：93/110**；餘下17條仍未有逐欄政府證據，另4條僅舊輪少量證據；**C/D全部12欄閉環核實仍0/110**。本輪均 `C_D_complete=false`。
+- 僅寫入PR #108 Draft審核分支（PR #107已於2026-11-10合併），不部署網站、不合併審核分支。
+
+### 本輪新增9個route_id與官方來源
+
+| route_id | 新核實的主幹法規（2026-11-18核對） | 官方來源 |
+|---|---|---|
+| `estonia-digital-nomad-visa` | 外交部D簽數位遊民資金**€132/日＝€3,960/月**，簽費€120，12個月內最多365日；兩張連續D簽730日合計最多548日；D簽不是永居。過去網傳€4,500等數不可直接引用。 | https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa |
+| `estonia-eu-blue-card` | 2026-09-01現行Aliens Act §§190¹–190¹³：至少6月高技能合同；一般1.5倍最新統計平均毛月薪，指定職種1.24倍；首卡聘期+3月最多2年3月，續最多4年3月；2026-05-22廢止舊失業/轉雇主部分條文，舊攻略須更新。 | https://www.riigiteataja.ee/en/akt/501092026001 |
+| `france-eu-blue-card` | France Service Public（頁核證2026-06-01）藍卡最低稅前年薪**€59,373**、合同至少6月、3年高教或指定專業經驗；卡可最長4年；卡費€350。2026-10-30第2026-1001號法令改通知/拒絕/續期部分程序，官網自承仍在更新，須查法令全文。 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `france-talent-qualified-employee` | **不同於藍卡**：Talent-Salarié Qualifié官方薪資**€39,582**；法國碩士／認可證書或創新企業或集團派遣各有不同資格；Talent卡稅票€350、可最長4年；2026-10-30新法部分ICT條件需重核。 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `greece-golden-visa` | 希臘Mitos政府服務資料庫最後更新2026-11-04：特殊**商業用途改住宅**單一物業最低**€250,000**，改用途須2024-04-05後、申前完成；該特例沒有120㎡下限；核發費€2,000+製卡€16，5年卡，**無任何受僱工作權**。不可把此特例誤稱全國普通€250k住宅購房居留。 | https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Permanent_golden_visa_(change_of_use)_%E2%80%93_Initial_issuance |
+| `latvia-investor-residence-permit` | **重大2026法律變更**：PMLP 2026-09-15公告當天實施的新移民法取消「買房獲暫居」和「銀行次級負債投資暫居」兩子類；新€150,000國家另類基金管理人投資路線因基金**尚未成立而暫不能申請**。股本投資舊2022頁€50k/€100k及€10k國庫款須從新法重新核，不能直接宣傳。新法續卡文件原則須用拉脫維亞語，語言/歷史融入義務另於2027-12-31開始。 | https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations ; https://www.pmlp.gov.lv/en/share-capital-investor ; https://www.pmlp.gov.lv/en/real-estate-owner |
+| `switzerland-self-employed-work-permit` | SEM 2026-07-05官方FAQ與FNIA Art19：第三國自僱可個案申請，但要證明對瑞士經濟長期有益、商業營運、聘用計畫、資金、稅及合格州與聯邦批准；**不存在所有人可憑特定CHF投資額自動獲簽的通道**。持其他EU國永居不能直接在瑞士工作。 | https://www.sem.admin.ch/en/faq-working ; https://www.sem.admin.ch/en/basis-for-admission-to-the-swiss-employment-market |
+| `turkiye-citizenship-by-investment` | Türkiye官方投資局現列：購房最低**USD400,000＋3年不得出售**；或資本／銀行／國債／基金等**USD500,000**（大多鎖定3年），亦有聘50人途徑。這是**依總統決定的特例入籍**而非保證取得護照或一般投資永居；中國普通／港／台持證人購地限制須分別核。 | https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx |
+| `malta-global-residence-programme` | MTCA現行官網：GRP屬第三國人士**特殊稅務身份**，不可與MPRP投資永久居留混淆；境外匯入收入特殊稅率15%，本地收入35%另有最低年稅，詳細GRP住房/年度稅額待法規；**僅符合另申工作許可規則者才可在馬耳他工作**。 | https://mtca.gov.mt/personal-tax/individual/special-schemes/global-residence-programme-rules ; https://mtca.gov.mt/personal-tax/individual/special-schemes |
+
+### 需在OTC正式網頁對外發布前阻斷的風險
+1. **拉脫維亞（優先級最高）**：原資料若仍顯示「購房€250k拿居留」或「銀行次級債」為現行，即與2026-09-15政府法令相反；將其標記已終止子類，無新申請CTA。新的€150k基金途徑則是法律已引入但**尚不可操作**，不可顯示申請按鈕。原route_id作帶子路線變更說明，**不得將全部投資途徑誤標已取消**，股本新法合規尚待查。
+2. **法國**：兩套薪資€39,582與€59,373分開；官方2026-06資料頁對10月30日新法仍標「更新中」，通知期限尚不作最終確定。
+3. **希臘**：特殊改用途投資€250k不代表希臘各區普通住宅€250k可申；禁止不加條件的低價房廣告。
+4. **愛沙尼亞**：數位遊民€3,960/月而非舊網上其他數；藍卡2026-05-22部分條款變更，工作/失業規則依當期法。
+5. **瑞士／土耳其／馬耳他GRP**：自僱批准非買牌、投資入籍非保證、特殊稅務居留非投資永久居留，分別標明合法性與風險。
+6. 三地護照領事受理、家屬工作、完整費表、國籍法例外、居留/永久居留年資尚未閉環，保留逐欄待核；官方來源至少兩份年份不同互相衝突時以最新2026主管機關法公告為主，明示舊頁過期。
+
+### 記錄完整性與不發布條件
+- 本輪證據在 `docs/europe-mobility-110-field-evidence.csv`，各列列明 `official_checked_at=2026-11-18`、政府URL和未解。
+- 當前不可宣稱“89條完整合規”；正確對外描述是**89/110有深入部分官方核補紀錄，C/D 0/110**。
+- PR #107為已合併的導覽頁；後續安全核驗應於PR #108 Draft分支繼續，直至110條C/D及網站桌面/手機/SEO/分享/無障礙測試全過才提出合併/正式部署。
