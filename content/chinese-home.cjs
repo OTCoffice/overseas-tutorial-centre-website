@@ -84,6 +84,18 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 .otc-home .home-masthead-nav a:nth-child(3){background:#488579;color:#fff}
 .otc-home .home-masthead-nav a:nth-child(4){background:#a65a47;color:#fff}
 @media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(33px,8vw,48px)!important}.otc-home .home-brand-title h2{font-size:15px}.otc-home .home-masthead-nav{gap:6px}.otc-home .home-masthead-nav a{font-size:11px;padding:6px 9px}}
+
+/* 2026-11-19 final masthead refinement */
+.otc-home .home-masthead .home-kicker{text-align:left}
+.otc-home .home-brand-title{border-left:4px solid #b88a3b;padding-left:17px;text-align:left;margin:18px 0 18px}
+.otc-home .home-brand-title h1{text-align:left;font-size:clamp(62px,7.6vw,108px)!important;line-height:1.13;letter-spacing:.015em}
+.otc-home .home-brand-title h2{text-align:left;font-family:Georgia,serif!important;font-size:clamp(16px,1.65vw,20px);font-weight:400;letter-spacing:.035em;margin-top:12px}
+.otc-home .home-masthead>.home-wrap>p{text-align:left;margin-left:0;margin-right:0}
+.otc-home .home-masthead-nav{justify-content:flex-start;gap:8px;max-width:none}
+.otc-home .home-masthead-nav a{font-size:12px;padding:6px 12px;min-height:0;border-radius:3px;font-weight:650;line-height:1.35}
+.otc-home .home-masthead-nav a:nth-child(1),.otc-home .home-masthead-nav a:nth-child(3){background:#b88a20;color:#fff;border-color:#b88a20}
+.otc-home .home-masthead-nav a:nth-child(2),.otc-home .home-masthead-nav a:nth-child(4){background:#fff;color:#061a2f;border-color:#fff}
+@media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(43px,10vw,65px)!important;letter-spacing:0}.otc-home .home-brand-title h2{font-size:14px}.otc-home .home-masthead-nav{gap:6px}.otc-home .home-masthead-nav a{font-size:11px;padding:6px 9px}}
 </style><main class="otc-home">
 <section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">海外督導 · 雙語世界 · 留學申請 · 海外書局</div><div class="home-brand-title"><h1 id="home-title">海外督導｜雙語世界</h1><h2>Overseas Tutorial Centre</h2></div><p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
 <section class="home-intro"><div class="home-wrap"><h2>留學規劃 · 移民簽證 · 課程教學 · 海外生活</h2><p>海外督導提供留學諮詢、選校申請、移民與簽證申請協調，國際課程、語言和學術輔導，以及海外生活與監護協調。按你的需求查看服務內容、申請要求及費用。</p><div class="home-actions"><a href="#services">查看服務</a><a href="https://wa.me/447947991572">WhatsApp 諮詢</a></div></div></section>
