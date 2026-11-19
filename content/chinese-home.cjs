@@ -123,6 +123,10 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 .otc-home .home-brand-title h2{font-size:clamp(15px,1.6vw,20px)!important;color:#f3f4f7!important;font-weight:400!important;margin-top:12px!important}
 .otc-home .home-masthead> .home-wrap > p{color:#d9e0ea!important}
 @media(max-width:680px){.otc-home .home-masthead{padding:34px 0 29px!important}.otc-home .home-brand-title h1{font-size:clamp(43px,10.4vw,70px)!important;overflow-wrap:normal}.otc-home .home-brand-title h2{font-size:14px!important}}
+
+/* 2026-11-19: homepage hero display headline only */
+.otc-home .home-brand-title h1{font-size:clamp(92px,11.5vw,184px)!important;line-height:1.05!important;letter-spacing:-.035em!important;max-width:100%!important;overflow-wrap:normal!important}
+@media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(56px,13vw,88px)!important;line-height:1.1!important;letter-spacing:-.025em!important}}
 </style><main class="otc-home">
 <section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">留學移民海外數據</div><div class="home-brand-title"><h1 id="home-title">海外督導｜雙語世界</h1><h2>Overseas Tutorial Centre</h2></div><p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
 <section class="home-intro"><div class="home-wrap"><h2>留學規劃 · 移民簽證 · 課程教學 · 海外生活</h2><p>海外督導提供留學諮詢、選校申請、移民與簽證申請協調，國際課程、語言和學術輔導，以及海外生活與監護協調。按你的需求查看服務內容、申請要求及費用。</p><div class="home-actions"><a href="#services">查看服務</a><a href="https://wa.me/447947991572">WhatsApp 諮詢</a></div></div></section>
