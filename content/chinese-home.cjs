@@ -102,6 +102,18 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 .otc-home .home-brand-title h1{font-size:clamp(66px,7.8vw,112px)!important;line-height:1.12!important;letter-spacing:.01em!important;text-align:left!important}
 .otc-home .home-brand-title h2{font-size:clamp(15px,1.6vw,19px)!important;font-weight:400!important;margin-top:12px!important;text-align:left!important}
 @media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(40px,9.8vw,64px)!important}}
+
+/* Contact section: consistent top-aligned four-column layout */
+.otc-home .home-contacts{padding:18px 0!important}
+.otc-home .home-contact-heading{display:flex!important;align-items:baseline!important;gap:14px!important;margin-bottom:14px!important}
+.otc-home .home-contact-heading h2{font-size:19px!important;white-space:nowrap}
+.otc-home .home-contact-heading p{font-size:12px!important;margin:0!important}
+.otc-home .home-contact-grid{display:grid!important;grid-template-columns:1.2fr 1.65fr .85fr 2.15fr!important;gap:12px!important;align-items:start!important}
+.otc-home .home-contact-item{display:block!important;min-width:0!important;padding:0 0 0 11px!important;border-left:2px solid #b7892c!important}
+.otc-home .home-contact-item strong{display:block!important;font-size:12px!important;line-height:1.4!important;margin:0 0 5px!important;white-space:normal}
+.otc-home .home-contact-item p{font-size:12px!important;line-height:1.5!important;margin:0!important;overflow-wrap:anywhere}
+@media(max-width:850px){.otc-home .home-contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px 20px!important}.otc-home .home-contact-heading{display:block!important}.otc-home .home-contact-heading p{margin-top:4px!important}}
+@media(max-width:480px){.otc-home .home-contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px 12px!important}.otc-home .home-contact-item:last-child{grid-column:1/-1}.otc-home .home-contact-item p{font-size:12px!important}}
 </style><main class="otc-home">
 <section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">海外督導 · 雙語世界 · 留學申請 · 海外書局</div><div class="home-brand-title"><h1 id="home-title">海外督導｜雙語世界</h1><h2>Overseas Tutorial Centre</h2></div><p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
 <section class="home-intro"><div class="home-wrap"><h2>留學規劃 · 移民簽證 · 課程教學 · 海外生活</h2><p>海外督導提供留學諮詢、選校申請、移民與簽證申請協調，國際課程、語言和學術輔導，以及海外生活與監護協調。按你的需求查看服務內容、申請要求及費用。</p><div class="home-actions"><a href="#services">查看服務</a><a href="https://wa.me/447947991572">WhatsApp 諮詢</a></div></div></section>
