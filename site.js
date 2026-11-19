@@ -63,11 +63,10 @@ function nav(current = "", locale = "en", pagePath = "/") {
           ${isZh ? `
             <a href="/zh/services/" ${current === "services" ? 'aria-current="page"' : ""}>留學服務</a>
             <a href="/zh/study-planning/">課程學習</a>
-            <a href="/zh/summer-school-alliance/">暑校寒校</a>
-            <a href="/zh/insights/">留學導報</a>
-            <a href="/zh/publishing/">出版</a>
-            <a href="/zh/search/">搜尋</a>
-            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>客戶中心</a>
+            <a href="/zh/summer-school-alliance/">暑校寒校</a>            <a href="/client-portal/" ${current === "portal" ? 'aria-current="page"' : ""}>客戶中心</a>
+
+            <a href="/zh/search/" aria-label="搜尋" title="搜尋"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></a>
+
             <a href="${translateUrl.replaceAll("&", "&amp;")}" lang="en" class="language-link" title="Google 自動翻譯本頁">Translate the page · English</a>
           ` : `
             <a href="/resources/" ${current === "resources" ? 'aria-current="page"' : ""}>Consulting</a>
