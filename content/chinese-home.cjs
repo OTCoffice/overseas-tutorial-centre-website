@@ -96,6 +96,12 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 .otc-home .home-masthead-nav a:nth-child(1),.otc-home .home-masthead-nav a:nth-child(3){background:#b88a20;color:#fff;border-color:#b88a20}
 .otc-home .home-masthead-nav a:nth-child(2),.otc-home .home-masthead-nav a:nth-child(4){background:#fff;color:#061a2f;border-color:#fff}
 @media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(43px,10vw,65px)!important;letter-spacing:0}.otc-home .home-brand-title h2{font-size:14px}.otc-home .home-masthead-nav{gap:6px}.otc-home .home-masthead-nav a{font-size:11px;padding:6px 9px}}
+
+/* Approved: no left gold stripe; retain the bottom gold rule */
+.otc-home .home-brand-title{border-left:0!important;padding-left:0!important;margin:24px 0 23px!important;text-align:left!important}
+.otc-home .home-brand-title h1{font-size:clamp(66px,7.8vw,112px)!important;line-height:1.12!important;letter-spacing:.01em!important;text-align:left!important}
+.otc-home .home-brand-title h2{font-size:clamp(15px,1.6vw,19px)!important;font-weight:400!important;margin-top:12px!important;text-align:left!important}
+@media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(40px,9.8vw,64px)!important}}
 </style><main class="otc-home">
 <section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">海外督導 · 雙語世界 · 留學申請 · 海外書局</div><div class="home-brand-title"><h1 id="home-title">海外督導｜雙語世界</h1><h2>Overseas Tutorial Centre</h2></div><p>公開、雙語、可反覆使用的學習入口：學課程、練英文、懂升學。</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
 <section class="home-intro"><div class="home-wrap"><h2>留學規劃 · 移民簽證 · 課程教學 · 海外生活</h2><p>海外督導提供留學諮詢、選校申請、移民與簽證申請協調，國際課程、語言和學術輔導，以及海外生活與監護協調。按你的需求查看服務內容、申請要求及費用。</p><div class="home-actions"><a href="#services">查看服務</a><a href="https://wa.me/447947991572">WhatsApp 諮詢</a></div></div></section>
