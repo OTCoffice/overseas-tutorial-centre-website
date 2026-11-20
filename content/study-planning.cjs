@@ -4,17 +4,17 @@ const shortStudy=`<div id="short-study"><h3>遊學</h3><div class="study-links">
 
 const steps=[
   ['choose','確定目的地與課程','先按目標學歷、專業、語言及入學時間縮小範圍。',[
-    ['國家與院校','/zh/countries/'],['學科規劃','/zh/subject-planning/'],['公立中小學','/zh/public-school-alliance/'],['私立中小學','/zh/private-school-alliance/'],['國際中小學入學考試輔導','/zh/school-entrance-exams/']]],
+    ['國家與院校','/zh/countries/'],['學科規劃','/zh/subject-planning/'],['職業規劃','/zh/subject-planning/#curating-career'],['公立中小學','/zh/public-school-alliance/'],['私立中小學','/zh/private-school-alliance/'],['國際中小學入學考試輔導','/zh/school-entrance-exams/']]],
   ['funding','費用與獎學金','先估算學費、生活費與申請開支，再比較獎學金與自費方案。',[
     ['政府全額獎學金','/zh/government-scholarships/'],['低學費與其他資助','/zh/services/affordable-study-abroad/'],['OTC 服務收費','/zh/application-fees/']]],
   ['apply','準備材料與提交申請','按學位層級準備成績、語言證明、文書及其他指定文件。',[
-    ['大學申請','/zh/services/university-application-advisory/'],['碩士申請','/zh/services/masters-country-planning/'],['博士申請','/zh/services/phd-application-coaching/'],['個人陳述與文書','/zh/services/personal-statement-support/'],['國際大學轉學','/zh/services/international-transfer/'],['學分抵免資料','/insights/credit-alliance/']]],
+    ['大學申請','/zh/services/university-application-advisory/'],['博士申請','/zh/services/phd-application-coaching/'],['個人陳述與文書','/zh/services/personal-statement-support/'],['國際大學轉學','/zh/services/international-transfer/'],['學分抵免資料','/insights/credit-alliance/']]],
   ['enrol','錄取後安排','收到錄取後核對回覆期限、簽證、住宿及監護安排。',[
     ['簽證服務','/zh/services/categories/visa/#visa-applications'],['海外生活與家庭服務','/zh/services/categories/living/']]],
 ];
 
 module.exports=()=>pageShell({
-  title:'留學規劃與申請諮詢｜海外督導 OTC',description:'按選校、費用與政府獎學金、申請材料及錄取後安排，查找合適的留學諮詢。',
+  title:'留學規劃｜海外督導 OTC',description:'按選校、費用與政府獎學金、申請材料及錄取後安排，查找合適的留學諮詢。',
   path:'/zh/study-planning/',current:'services',lang:'zh-Hant',locale:'zh',
   body:`<style>
   .study-steps{max-width:1080px;margin:auto;padding:20px 24px 44px;line-height:1.65}.study-steps section{margin:16px 0;padding:12px 0 16px;border-top:2px solid #263e4f;scroll-margin-top:110px}
@@ -27,7 +27,7 @@ module.exports=()=>pageShell({
   #short-study{margin-top:16px;scroll-margin-top:110px}#short-study h3{margin:0 0 6px;font-size:16px}
   </style>
   <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div>
-  <div class="eyebrow">海外督導雙語世界 · 招生部</div><h1>留學規劃與申請諮詢</h1><p class="hero-sub">從選校、估算預算到提交申請，按目前進度查看下一步。</p>
+  <div class="eyebrow">海外督導雙語世界 · 招生部</div><h1>留學規劃</h1><p class="hero-sub">從選校、估算預算到提交申請，按目前進度查看下一步。</p>
   <div class="actions study-hero-actions"><a class="btn btn-primary" href="/zh/countries/">瀏覽留學目的地</a><a class="btn btn-secondary" href="#official-school-search">官方選校與直申</a><a class="btn btn-secondary" href="#admissions-contact">聯絡招生部</a></div></div>
   <aside class="service-hero-panel">${steps.map(([id,title],i)=>`<a href="#${id}"><strong>${i+1}. ${title}</strong></a>`).join('')}</aside></div></div></section>
   <main class="study-steps">${steps.map(([id,title,desc,links],i)=>`<section id="${id}"><h2>${i+1}. ${title}</h2><p>${desc}</p><div class="study-links">${links.map(([label,url])=>`<a href="${url}">${label}</a>`).join('')}</div>${id==='choose'?shortStudy:''}</section>${id==='choose'?require('./study-official-links.cjs')():''}`).join('')}

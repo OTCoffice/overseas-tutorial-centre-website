@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/zh/services/masters-country-planning/",
+      "destination": "/zh/study-planning/",
+      "permanent": true
+    },
+    {
       "source": "/en/",
       "destination": "https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Foverseasuk.com%2F",
       "permanent": false
