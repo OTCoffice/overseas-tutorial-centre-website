@@ -12,6 +12,6 @@
   },
   "scripts": {
     "build:portal": "node scripts/build-client-portal.mjs && node scripts/render-client-portal.cjs",
-    "test:portal": "node --test tests/client-portal.test.mjs"
+    "test:portal": "node --test tests/client-portal.test.mjs tests/client-invoices.test.mjs"
   }
 }
