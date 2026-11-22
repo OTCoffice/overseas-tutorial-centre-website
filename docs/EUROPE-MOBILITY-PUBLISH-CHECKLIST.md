@@ -1,6 +1,6 @@
 # 歐洲36國移居資料庫：發布核驗清單
 
-更新：2026-11-10
+更新：2026-11-12
 
 ## 已完成
 - [x] 建立36國總目錄，附公共機構／政府入口。
@@ -344,3 +344,1011 @@
 - 挪威 UDI 當期薪資：有集體協議按協議；沒有則按當地正常薪資。要求碩士的職位至少NOK 624,700/年、要求學士的職位至少NOK 545,400/年（稅前），若有充分證據證明當地同業較低薪資正常，可個別例外。不可說所有職位統一門檻。來源：https://www.udi.no/en/word-definitions/pay-and-working-conditions-in-norway
 - 挪威 UDI對部分國家發出的餐飲、汽修、建築等職業文件有特別查驗風險提示，名單包含China；此為文件審核警示，**不是中國籍全面禁止申請**。來源：https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/
 - 已把瑞士與挪威新增至官網精簡已核實卡片；護照簽證、家屬、申請費、續期與永居仍待逐欄核實。
+
+## 2026-11-11 第四十二輪：110條索引建立，三條此前未核對的RUN補充路線官方初核
+
+**版本控制／發布安全警示：** 2026-11-11讀取GitHub發現 PR #107 已於2026-11-10 10:07:36 UTC合併至main（PR狀態為closed/merged），而且此前main已部署過公開36國索引。因此不能把PR #107仍未合併視為事實，也不能稱本輪「尚未發布」。依最新使用者指示，本輪改在獨立審核分支 `audit/europe-mobility-110-official-checks` 保存證據，**不修改main、不合併、不另行發布**。日後需另行評估既有公開頁是否應繼續展示或降級為未核實目錄。PR: https://github.com/OTCoffice/overseas-tutorial-centre-website/pull/107
+
+**原始範圍（2026-11-11從原始JSON直接讀取）：** `BryceYuuu/RUN/data/programmes.json` 共99筆、36國，當中原來源標示open 94、closed 5；`src/extra_routes.json` 共11筆，合計110筆。原來源的 `status` 只是RUN欄位，**不是主管機關的現況結論**。99筆原始資料在原來源標作closed的ID：`cyprus-investment-programme`、`ireland-immigrant-investor-programme`、`montenegro-citizenship-by-investment`、`spain-golden-visa`、`uk-tier-1-investor-visa`，**各自仍需政府再查核**。新增 `docs/europe-mobility-110-route-audit.csv`，110個唯一ID各一列；本輪新增三條B級部分官方核實，**C/D級「全欄完成」尚無可確認個案，不得報110條已完成**。來源：https://github.com/BryceYuuu/RUN/blob/main/data/programmes.json ; https://github.com/BryceYuuu/RUN/blob/main/src/extra_routes.json （取得日期2026-11-11）。
+
+### 42-A 西班牙 `spain-non-lucrative-visa` — 現行（已核實主要條件；其餘未確認）
+
+- **國籍**：官方Hoja 6以非EU／EEA／瑞士公民為基本範圍；中國大陸、香港特區及台灣護照持有人的*一般第三國規則*可作為初篩，但三類護照的正式適用性、入境簽證地點、翻譯認證與領區個別申請指示**分別待核，不可標「三地完全通過」**。
+- **資格及資金**：居住西班牙、不從事工作或專業活動；本人每月資金400% IPREM、每位家屬加100% IPREM；須當地認可醫保、無犯罪紀錄及其他法定條件。用於比較的2026年€600 IPREM估算為本人€2,400/月、每名家屬+€600/月；最終仍須以遞交年度IPREM及所屬領館材料為準。遠距受僱亦不能自行假定獲許可。
+- **費用**：初次居留審理費 Modelo 790-052 2.1.1，續期 Modelo 790-052 2.2.1；簽證費、製卡費及所屬領館幣別/減免**未核**，不提供單一固定申請總費用。
+- **期限／工作權／家屬**：首次通常1年，完全**不授予工作權**；可與符合條件家屬一併申請，但家屬具體證明及其工作權須核實。
+- **續期／永居**：續期一般2年；須維持經濟能力、保險等且續期指引要求一年內在西班牙實際居住超過183天（核對適用計算期）。長期居留為另行申請制度，一般連續合法居留5年及缺席限制，**不是NLV自動轉永居**。
+- **生效／來源**：Hoja 6／7最後更新2025-05，以Royal Decree 1155/2024 Articles 60–64為法規依據；本輪查核2026-11-11。
+  1. 西班牙移民部初次：https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-no-lucrativa
+  2. 西班牙移民部續期：https://www.inclusion.gob.es/web/migraciones/w/renovacion-de-la-autorizacion-de-residencia-temporal-no-lucrativa
+  3. 西班牙移民部長期居留：https://ciudadaniaexterior.inclusion.gob.es/en/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional
+- **待補**：三地領館國籍細節、最新IPREM、費用全額、家屬工作權、續期居住計算、另申請長居的個案細節。核驗級別：**B（部分欄位）**。
+
+### 42-B 愛沙尼亞 `estonia-startup-visa` — 現行（D簽證核心條件已核；居留許可未核完）
+
+- **國籍**：創業者官方計劃面向非EU創業者；三地護照在**短期入境**有明顯不同：香港特區護照及有身分證號的台灣護照在指定條件下可短期90/180天免簽；中國大陸普通護照不在該短期一般免簽清單。**短期免簽不代表免D簽證或已可在愛沙尼亞長住／工作**。三地創辦人領事館D簽證與居留材料仍需分別核查。
+- **資格／審查**：Startup Committee依科技、創新、可規模化及全球成長模式審核，預計10個工作日出具startup code；傳統單純餐飲／常規顧問生意不自動合格。先取得核准碼，再按需辦D簽證或創業居留；e-Residency不是簽證或實體居留權。
+- **資金與費用：重要更正**。愛沙尼亞外交部當期D簽證表：`Start-up business`創辦人 **€880／月**，配偶 **€704／月**；普通長期D簽證費 **€120**（6–11歲 €60）；不要照抄Startup Estonia較舊頁面的€800/月、€80或€100等不同舊費。D簽證表上`Short term employment in Start-up company`的€880是**一次性**，不可誤套為創辦人`Start-up business`月額。創業委員會審查不另收費（Startup Estonia說明）。
+- **期限／工作權**：外交部D簽證最多12個月內居住365天；連續D簽證總居留上限730天內548天；創辦與一般雇主工作不同，合法工作可能需相關登記或其他許可，**不可宣傳為任意雇主開放工作**。
+- **家屬／續期／永居**：官方創業計劃一般可安排配偶、未成年子女等合規家屬，但不同許可的家屬流程須逐案核對；D簽證延長條件、創業暫住證初次及續期費用、創業居留有效期及長期居留計算**尚未由當期主管機關逐欄完成**，不能把RUN「2+3年」當保證或直接永居。
+- **生效／來源**：外交部2026-11-11即時查閱的當期D簽證頁；Startup Estonia頁顯示約2023年既有內容，數字存在過時風險。
+  1. MFA D簽及2026財力/費用：https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
+  2. MFA按護照短期免簽：https://vm.ee/en/consular-visa-and-travel-information/visa-information/who-does-not-need-visa-visit-estonia
+  3. Startup Estonia 創辦人流程（非主管機關的當期費率優先來源）：https://startupestonia.ee/startup-visa/foreign-founder/
+- **待補**：三地領館D簽證完整申請方式；TRP現行國家規費、家屬、工作登記、續期、長居法律；核驗級別：**B（部分欄位）**。
+
+### 42-C 馬耳他 `malta-global-residence-programme` — 現行稅務制度（「移民／永居路線」分類需糾正）
+
+- **路線性質／國籍**：MTCA官方明確GRP是非EU/EEA/瑞士且不是長期居民人士的**特別稅務待遇**；三地一般屬非EU類別，但中國大陸、香港、台灣個別護照、資金、移民居留卡及領事入境身份均**未完成**獨立確認。
+- **資格／財力**：需有足額固定資源、合格房產、保險，透過持牌 Authorised Registered Mandatory 提交；MTCA目前仍掛載**2020年版**官方指南（Version 2.0）：買房一般€275,000、南部／戈佐€220,000；租房一般€9,600/年、南部／戈佐€8,750/年，租約至少12個月。**以上均屬官網現有歷史指南數值，尚未以2026有效法規逐一確認，切勿宣稱當期固定門檻。**
+- **行政費／稅**：2020指南行政費一般€6,000；只有**南部馬耳他符合資格「已購置」房產且申請時已完成購買**，才可按該指南使用€5,500減額，不適用所有Gozo租房／南部租房。符合課稅條件的匯入海外來源收入按15%及每年最低稅€15,000（仍須審核最新法規及其他所得之稅率）。來源屬舊指南，不應直接標2026法規已核實數值。
+- **期限／工作／家屬／永居**：GRP批予的是特別稅務身份，**不是單憑參與就獲工作許可、移民永居或自動家庭居留權**；工作需另符合工作許可，居留身分、家屬實際居留許可、稅務續享條件及年限另查主管機關。不得與MPRP混同。
+- **生效／來源**：MTCA目前GRP專頁及其連結的 **2020 Version 2.0** 舊指南，於2026-11-11查核；2026適用法律文本、生效日期與修訂歷史未完成對照。
+  1. MTCA GRP現行專頁：https://mtca.gov.mt/personal-tax/individual/special-schemes/global-residence-programme-rules
+  2. MTCA專門計劃性質：https://mtca.gov.mt/personal-tax/individual/special-schemes
+  3. MTCA舊版官方PDF（2020，需按當期法規覆核）：https://mtca.gov.mt/docs/default-source/documents/personal-tax/individual/special-schemes/the-global-residence-programme/guidelines-grp.pdf
+- **待補**：現行法規及核准費率、三地護照適用／居留卡、年費稅務合規及個案工作權。**類別標「稅務計劃，不等於移民或永居」；級別B僅限稅務類型／舊官方指南，移民路線C級未完成。**
+
+### 發布閘門及進度（截至2026-11-11）
+- 索引：已直接載入來源99+11共**110**個原始路線記錄；原始來源36國、RUN標示closed 5筆（**尚未政府驗證關閉狀態**）；原來源open 94+額外11，**不代表政府確認可新申請**。
+- 本輪三條從`未政府核實`推進為`政府部分欄位已核`；**尚未完成三地護照／費用／家屬／續簽／永居全欄任何一條**，不宣稱有C/D全欄完成。
+- 尚未完成：110條每條C/D級官方驗證；逐國可用政府鏈接、法律生效日、閉路狀態；每國頁面／手機排版／導航／SEO／可訪問性及production客觀測試。
+- **本輪嚴格只變更GitHub審核分支，不做合併、官網正式發布或部署。** 實際PR #107此前已合併及公開，需人工確認後續處理，不得假定其「未合併」。
+
+## 2026-11-12 第四十三輪：官方驗證三項已關閉投資路線
+
+**研究範圍**：再次讀取 GitHub PR #107（2026-11-10已合併）、draft PR #108、本清單，以及 BryceYuuu/RUN 的 data/programmes.json（99）及 src/extra_routes.json（11）；與現行官方來源逐條比對。本輪驗證的是「首次／新投資申請關閉」及明列的舊案過渡條款，非11項條件C/D全欄完成。政府網址查核日：2026-11-12。
+
+### 1. 西班牙 Spain Golden Visa — spain-golden-visa
+- **當前狀態／生效日**：官方確認「已關閉新申請」；Ley 14/2013第63–67條自2025-04-03失去內容，含房產及其他投資類型。不能只說「停止房產投資」。
+- **中國大陸／香港／台灣**：三地護照均無新申請途徑；為全路線關閉，並非針對個別國籍的禁令。西班牙駐北京領館2025-03-13公告BLS收件自2025-03-21停辦，這是當地收件日，與法律2025-04-03生效日不同。
+- **資格／薪資資金／費用**：新案均不適用。歷史€500,000房產投資不是2026仍開放的門檻；舊案的當期費率、文件及資金來源仍待查。
+- **期限／工作權**：新案均不適用。舊有效簽證仍維持原有效期；舊案工作權須按簽發時批准條件查核。
+- **家屬**：2025-04-03前已提交的投資人或家屬申請按當時法規處理，仍須實際審理，不保證核發。
+- **續簽**：對2025-04-03仍有效的既有房產投資許可，過渡條款按首次核發時規則處理續簽；不應延伸為所有投資或新家屬無條件可續。
+- **永居**：並非投資許可即自動永居；舊案實際居留、稅務及申請條件尚未逐欄核實。
+- **政府證據**：BOE整合法規（第63–67條、生效日期）https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074&p=20250409&tn=1 ；西班牙移民部UGE過渡規則 https://ciudadaniaexterior.inclusion.gob.es/web/unidadgrandesempresas/inversores ；2025-04-02政府公告 https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020425-fin-golden-visa.aspx ；北京領館通告 https://www.exteriores.gob.es/Consulados/pekin/es/Comunicacion/Noticias/Paginas/Articulos/Eliminaci%C3%B3n-de-la-%E2%80%9CGolden-Visa%E2%80%9D--%E5%8F%96%E6%B6%88%E6%8A%95%E8%B5%84%E7%A7%BB%E6%B0%91%E2%80%9C%E9%BB%84%E9%87%91%E7%AD%BE%E8%AF%81%E2%80%9D.aspx
+
+### 2. 愛爾蘭 Immigrant Investor Programme — ireland-immigrant-investor-programme
+- **當前狀態／生效日**：司法部2023-02-14公告，從2023-02-15營業結束起關閉一般新IIP申請；不是2026仍開放的方案。
+- **中國大陸／香港／台灣**：三地新申請均不適用，原因是全計劃停止新案；舊制的非EEA身分適用不等於今日能新申請。
+- **資格／薪資資金**：2023關閉公告記載歷史淨資產至少€2m及通常投資€1m至少3年、捐贈€500k（特定合計€400k）。**這些是舊制歷史數字，不能當2026新客申請條件**。
+- **費用**：新案不適用；舊案當期手續費、稅務及許可費未核。
+- **期限／工作權／家屬**：舊批核及2023關閉時待審案件可依法繼續處理；許可類別、家庭成員、工作權需依個案另查，不作自動永居承諾。
+- **續簽／永居**：舊案維持居留義務、轉永居或入籍條件未完整核實。
+- **過渡**：官網關閉公告提及少數既發展項目／部分基金的3個月善後安排；這不是2026新申請窗口。
+- **政府證據**：司法部／移民局2023-02-14關閉公告 https://www.irishimmigration.ie/minister-harris-announces-closure-of-the-immigrant-investor-programme/ ；既有案件善後 https://www.irishimmigration.ie/processing-of-iip-applications-on-hand-following-the-closure-of-the-programme/
+
+### 3. 英國 Tier 1 (Investor) — uk-tier-1-investor-visa
+- **當前狀態／生效日**：2022-02-17英國時間16:00起停止所有國籍首次申請及其他簽證轉入，官方2026頁面仍列「You can no longer apply for a new Tier 1 (Investor) visa」。
+- **中國大陸／香港／台灣**：三地均不能首次申請，乃全類別關閉，不是護照個別限制。
+- **資格／薪資資金**：新案不適用；舊案投資£2m/£5m/£10m及工作條件依起初核發日期、規則及個案。不可當作2026新投資移民門檻。
+- **費用**：新案不適用；舊案ILR或家屬當期費用須另依Home Office費表查核。
+- **期限／工作權**：既有有效持有人依原條件可受僱，但不得當職業運動員／教練，醫牙科訓練職位亦可能受限制；不得領取公共福利。
+- **家屬**：依現行附屬規則，舊持有人伴侶及受撫養子女在符合要求下可以申請；並非自動批准。
+- **續簽**：2025-11-11更新的Home Office caseworker guidance第1節明確要求既有Investor entry clearance或leave to remain申請在2026-02-17前提交；截至2026-11-12已過期。GOV.UK目前路線總覽僅列舊持有人的ILR及家屬，**不應沿用2022舊指南誤稱現可續簽**。
+- **永居／期限**：舊制符合資格者按2/3/5年條件個別審理；caseworker guidance列既有Investor ILR必須在2028-02-17前提交。法律變更與實際資格需按個案再次查核。
+- **政府證據**：GOV.UK當期總覽 https://www.gov.uk/tier-1-investor ；Home Office 2025-11-11更新審案指引（第1、3、39–41節）https://www.gov.uk/government/publications/tier-1-investor-caseworker-guidance/tier-1-investor-caseworker-guidance-accessible ；2022關閉公告 https://www.gov.uk/government/news/tier-1-investor-visa-route-closes-over-security-concerns ；2022年正式規則CP632說明 https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-cp-632-17-february-2022/explanatory-memorandum-to-the-statement-of-changes-in-immigration-rules-cp-632-accessible-version
+
+### 本輪CSV、進度及後續
+- 本輪修改三筆原標RUN-closed記錄，狀態改為 **officially_closed_to_new_legacy_...**，核驗級別記 **closure_officially_verified_legacy_fields_pending**，核對日2026-11-12，並存入每筆官方URL。未把這三條標成11欄全量驗證。
+- 110路線總索引完整；CSV明確列 **3條新案關閉有官方證據、3條B級部分欄位核實、2條仍只有RUN原標closed待政府核實、102條尚未在CSV更新官方逐條核驗狀態**。Markdown此前其他政策段落有部分核對，不等於該路線整條已驗證。**全部欄位達C/D級：0/110**。
+- 待查：Cyprus Investment Programme、Montenegro Citizenship by Investment 兩條政府關閉狀態（特別避免混淆黑山2026投資「居留」與已終止的投資「入籍」）；上述三條舊案細節（費用、護照地別文件、家屬與續居）；其餘未核驗路線的資格、資金、工作權、永居與生效日期。
+- **發佈閘門仍關閉。** PR #107已於2026-11-10合併，不能回頭以其已合併分支作工作流；本輪只在 draft PR #108 分支新增核對證據，未更新main、未合併、未部署。
+
+## 2026-11-12 第四十四輪：塞浦路斯與黑山投資入籍停辦（政府當期回查）
+
+### 4. 塞浦路斯 Cyprus Investment Programme — cyprus-investment-programme
+- **官方狀態／生效**：塞浦路斯財政部域名的CIP服務供應商登記機關明文稱，部長會議2020-10-13決定**自2020-11-01終止**Cyprus Investment Programme，**2020-11-01後不得按該計畫提交任何新投資入籍申請**。這是投資歸化／入籍計畫，**不得混寫成當期可投資取得居留卡**。
+- **國籍適用（中國大陸、香港、台灣）**：三地均無新申請資格，因整個特殊投資入籍計畫停止，不是某護照特別遭禁。舊案個別受理資格未查。
+- **資格、薪資／投資資金、費用、期限**：新申請**不適用**；原計畫投資額、背景查核、費用與舊案審理標準不應當作2026新申請報價。
+- **工作權／家屬／續簽／永居**：此計畫屬「入籍」而不是「簽證－續居－永居」常規階段，不能以標準移民卡欄位推斷其權利；已申請案件、家屬歸化及撤銷程序各自待核。另有一般歸化與居留路線，但與此CIP不是同一項目。
+- **來源（2026-11-12核對）**：財政部域名官設CIP Registry（Important note明文） https://cipregistry.mof.gov.cy/en/ ；塞浦路斯審計機關官方2022特別報告：https://www.audit.gov.cy/audit/audit.nsf/2822715F2B2EAA98C22588BB00375007/%24file/2022%2008%2022%20Audit%20of%20the%20CIP%20-%20EN.pdf （**PDF細節未在本輪逐頁核查，僅記錄佐證連結**）。
+- **結論**：官方可驗證「已停止新投資入籍」，舊案細目與任何其他居留路線仍待核，級別不升至全欄C/D。
+
+### 5. 黑山 Montenegro Citizenship by Investment — montenegro-citizenship-by-investment
+- **官方狀態／生效**：黑山政府2023-06-30第59次內閣會議公告明列特殊投資入籍計畫**於2022-12-31結束**，此前提交的舊案因需繼續審核，代理牌照保留直至舊案裁決。黑山政府2026-08-20公布的截至2026-07-31項目財務狀況報告簡介再次明確寫「計畫持續至2022-12-31」。故2026沒有該項目新的入籍申請入口。
+- **國籍適用（中國大陸、香港、台灣）**：三地均不能以已終止計畫提交新入籍申請；不是針對個別護照的限制。
+- **資格／資金／費用／期限**：新案不適用。政府2019創設方案原定以發展計畫投資＋捐贈、有限申請數量實施，歷史資金門檻和中介費不得當2026開放招募金額。
+- **工作權／家屬／續簽／永居**：投資「入籍」與投資「臨時居留／工作許可」性質不同，不得換用欄位。舊入籍申請、家屬及國籍撤銷流程另查，不自動推論。RUN提到2026年黑山外國人法Article 70g的某類投資**居留／工作**安排，須另立路線及核定適用護照／EU公民限制，**不是原投資入籍計畫復辦**。
+- **來源（2026-11-12核對）**：
+  1. 政府2023-06-30第59次會議（正式說明結束及舊案處理）：https://www.gov.me/clanak/saopstenje-sa-59-sjednice-vlade-crne-gore
+  2. 政府2026-08-20發布財務報告官方頁面（非下載PDF內容，簡介明確寫結束日）：https://www.gov.me/en/documents/f0fd1706-7c5d-4e0c-9910-756f7833d7ed
+  3. 政府2019年原計畫公告（**僅作歷史來源**）：https://www.gov.me/en/article/195254--development-programme-for-acquisition-of-montenegrin-citizenship-by-admission-for-investment-purposes-launched
+- **結論**：官方可驗證「已停止新投資入籍」，不升至全欄C/D；歷史申請文件及2026其他種類居留待核。
+
+### 第44輪後總進度與保護措施（2026-11-12）
+- 已對照RUN的99+11原始資料，共36國、110路線。RUN原標 **5條closed** 現均已有當期政府官方HTML證據證明 **5條已停止新申請**（西班牙投資居留、愛爾蘭IIP、英國Tier1 Investor、塞浦路斯投資入籍、黑山投資入籍）；不代表它們的舊案所有欄位都已核驗。
+- CSV：**5條官方確認新申請已關閉（舊案待補）**、**3條B級部分欄位核對**、**102條尚待逐條錄入官方核驗狀態**。先前checklist可能有零散部分證據，仍不能因此標記整條完整。
+- 全部資格、費用、工作、家屬、續簽、永居與國籍等十一類欄位皆完成 C/D 級的路線：**0/110**。待發布審核與網站手機/SEO/連結測試均未完成。
+- **只更新draft PR #108審核分支，維持DO NOT MERGE / DO NOT DEPLOY。** 2026-11-12全程未修改main、未新發網站、未把已關閉項目當作當期銷售項目。
+
+
+## 2026-11-13 第四十五輪：克羅地亞、拉脫維亞、斯洛文尼亞數字遊民路線（官方主管機關）
+
+**範圍與證據基準**：已讀取 GitHub PR #107（2026-11-10 已合併，不可再對其已關閉分支作未合併承諾）、draft PR #108、既有核驗清單、BryceYuuu/RUN `data/programmes.json`（99條）及 `src/extra_routes.json`（11條）。三個 RUN slug 確認原本屬待核。2026-11-13直接核對 Croatia MUP、Croatia MFA、Latvia OCMA/MFA、Slovenia Interior Ministry/駐北京大使館官方HTML。僅將**有官方證據的核心欄位**推進為B級部分核實，並非11欄C/D完成。
+
+### 45-A 克羅地亞 `croatia-digital-nomad-temporary-stay` — 現行／B部分核實
+- **對象及中國大陸／香港／台灣**：MUP定義為非EU/EEA/瑞士第三國公民，為**非克羅地亞註冊**企業（包括本人境外企業）透過通信科技遠距工作、**不向克羅地亞僱主提供服務**。中國大陸普通護照在MUP指示明列通常須簽證：先駐外館申請數字遊民臨時居留（也可網上遞交，但短期C簽不延長合法居留），獲批後通常取D簽；有效其他申根國生物識別居留卡／D簽可能有例外。香港SAR護照MFA官方確認可90/180天短期免簽，並可循非需入境簽證者的當地合法居留申請程序。台灣護照**獨立入境/申請地點尚待克方當期官方領館精確確認**；不得把申根免簽當長居許可。
+- **資格／文件**：有效護照須超過擬居留期限至少3個月、涵蓋克國醫療保險、境外聘用／服務合約或境外公司註冊加遠距工作證明、資金、已認證無犯罪紀錄及克國地址；材料用克羅地亞或英文，其他語言須授權翻譯。
+- **資金**：MUP依Official Gazette 14/21及3/26計算前一年平均淨月薪的2.5倍；當期**€3,622.50/月**；每名額外家屬加前一年平均淨月薪的10%（不是主申請人門檻的10%）。12個月存款替代證明€43,470，18個月€65,205；或月收入銀行流水／至少6個月工資單。
+- **費用**：在使領館遞交：批核€55.74，需D簽時另€93.00；如辦卡€41.14，VFS代辦服務費另算。境內警局遞交：批核€46.45+證卡行政費€9.29+普通製卡€31.85（加急€59.73取代普通製卡費）。**不同遞交位置不能簡單把所有費用合計為一個通用包價**。
+- **期限／工作權**：最長18個月（實際可能更短）；只能保持符合境外雇主／境外公司遠距工作定義，不得藉此擔任當地僱主職位。
+- **家屬**：主申請人**先獲批**數字遊民臨時居留後，其配偶、符合條件的事實伴侶及未成年子女等近親可申請家庭團聚；提前遞交的家屬申請依MUP明文會被拒；家屬本地工作權待核，不得推斷自動可受聘。
+- **續期／再申請**：原核准不足18個月時可申請最多6個月延長，須最遲在原許可屆滿**60天前**向警局親自遞交。另據MUP指示，上一許可結束後等6個月才可重新申請數字遊民類別，實際銜接他類居留須個案核查。
+- **長居/永居**：克國長期居留另有通常5年連續合法居留、缺席限制、語言/財力等規則，官方同時排除若干臨時居留類別，**數字遊民時段能否計入須依實際許可性質及當期法律另外核實**；不可當作自動永居。永久居留（permanent stay）又有不同法定對象，不能混寫。
+- **生效及狀態**：MUP當期頁引Official Gazette 3/26，但**許可18個月政策的確切原始法律生效日未完成獨立核對**；狀態現行，等級B。
+- **官方來源（2026-11-13查閱）**：
+  1. https://mup.gov.hr/aliens-281621/stay-and-work-281622/temporary-stay-of-digital-nomads/286833
+  2. https://mvep.gov.hr/en/services-for-citizens/consular-information-22802/visas-22807/visa-requirements-overview-22879/22879?country=66
+  3. https://mup.gov.hr/aliens-281621/stay-and-work/temporary-stay-for-the-purpose-of-family-reunification/281662
+  4. https://mup.gov.hr/aliens-281621/stay-and-work/long-term-residence-and-permanent-stay/281682
+- **未解**：台灣個別護照分類/領區、家屬工作權、18個月法律生效日、數字遊民計入長居年資及各領館實際服務費。
+
+### 45-B 拉脫維亞 `latvia-remote-work-visa` — 現行／B部分核實
+- **資格及國籍**：OCMA官網2026-06-15更新的remote work D簽：面向第三國公民，但**境外雇主須在OECD會員國註冊，或申請人的自僱登記須在OECD會員國**。這是*雇主/自僱登記地*門檻，**不是申請人的護照國籍須為OECD國家**。若僅持中國大陸、香港、台灣本地公司/登記（非OECD會員管轄區），不能憑「有遠距收入」推斷合格；持任一上述護照但受僱於符合規定的OECD企業者可進一步個案初篩，三地D簽領事受理仍待核。
+- **三地短期入境差異**：Latvia MFA 2026-03-26名單列香港SAR護照可短期免簽；台灣護照**須載有身分證號**才在短期免簽範圍；中國大陸普通護照未列入一般短期免簽名單（外交、公務護照另表）。**短期免簽不等於可以無D簽數字遊民居留／當地就業**。
+- **薪資/資金**：OCMA按上年度平均稅前月薪×2.5，2026頁當期為**€4,538/月**；受僱者須OECD國家稅務或社保機構證明及雇主證明已受僱至少6個月、薪資達標及可遠距工作；自僱者須OECD國家稅局確認過去6個月收入達標。
+- **費用／保險**：OCMA費表更新2026-03-18，普通D簽國家費**€90**，在拉脫維亞合法期限屆滿少於3工作日前遞交特定D簽則€180；其他外包/翻譯/材料費未核。醫療保險須覆蓋拉國及申根、保險責任限額至少€42,600。
+- **期限／工作權**：D簽最多**1年**。OCMA明確寫持遠距工作簽**不得在拉脫維亞就業**；不能把已允許境外遠距工作說成當地開放勞工市場。
+- **家屬／續期／永居**：遠距工作簽的隨行家屬、可否按同類再申請及再申請間隔，尚未在現行專頁核實；D簽本身**不是永居許可**，不得推導可直接計入永居年資。
+- **生效／法改**：現行D簽專頁2026-06-15；2026-09-15生效的New Immigration Law由OCMA官方明確表示**D簽申請程序維持不變**，但居留證及永居制度有變；其新150,000歐元國家替代投資基金尚未成立，不得混寫成此路線的財力門檻或已可申請的投資方案。
+- **官方來源（2026-11-13查閱）**：
+  1. https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work
+  2. https://www.pmlp.gov.lv/en/state-fees-issuance-visa-and-services-related-thereto-0
+  3. https://www.mfa.gov.lv/en/countries-and-territories-whose-citizens-may-enter-latvia-without-visa
+  4. https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations
+- **未解**：三地D簽申請領區和配額、特殊背景審查、家屬可否隨行/相關工作權、同類續簽方式、轉其他居留的長居計算。此路線**僅可向有合格OECD雇主或登記地者推介**，級別B。
+
+### 45-C 斯洛文尼亞 `slovenia-digital-nomad-permit` — 現行／B部分核實；另有未生效政策提案
+- **路線法定性質/生效**：內政部2025-11-21正式宣布，依外國人法新增51.a條**自2025-11-21施行**數字遊民**臨時居留許可（不是D簽證）**；非EU/EEA公民，可為境外企業受僱、簽民事合約或在境外自僱，透過ICT遠距工作，不進入斯國本地勞工市場。
+- **中國大陸／香港／台灣**：2026年斯國駐北京使館：中國大陸普通護照須短期簽；香港特區及台灣護照一般短期免簽。此為**短期入境差異**，不是數字遊民臨時居留的自動核准。居留許可通用於第三國人士，三地各自領區、台灣護照具體註記、證件認可及個別文件尚待核。
+- **財力/費用**：法律說明要有每月**至少斯國平均淨月薪2倍**的合法資金，依官方公報最新公布的平均稅前工資折算；**本輪未取得應用當期公報數字，不刊登固定€門檻**。駐北京使館2026-11-13可查到一般首次臨時居留申請費€102、卡費€15、歐洲境外領卡送達另€13；屬該領館的一般收費表，**仍需核實數字遊民類別有無特例及其他領館收費**。
+- **期限／工作權**：最多1年，**不能續簽同一居留**，前次屆滿6個月後才可重新申請該類；在當前有效期內可另申請不同目的的臨時居留（例如有資格的當地受僱），但須獲另類許可，不可直接在當地就業。
+- **家屬**：數字遊民可**即時申請家屬團聚**，不受通常持證居留時間門檻的限制；家屬獨立工作權、文件、費用及期限未完成。
+- **永居**：臨時居留不等於永居；單次最長1年且原類別不可續。不同居留類別合法居留年資如何計算與缺席限制未核，不得宣稱「住滿5年直升永居」。
+- **2026年10月22日政府提案（未確認已生效）**：斯政府宣布一般家屬團聚事先居留期擬由1年延為3年，並提高一般生活費基準及語言要求；這是**Proposal for the Act Amending the Foreigners Act**，不能當作已生效規則或直接否定2025數字遊民即時家屬團聚的官方明文。提案後續國會立法及對數字遊民例外的影響待查。
+- **官方來源（2026-11-13查閱）**：
+  1. https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads/
+  2. https://www.gov.si/en/representations/embassy-beijing/visa-information-of-the-embassy-beijing/
+  3. https://www.gov.si/en/news/2026-10-22-17th-regular-session-of-the-government-of-the-republic-of-slovenia/
+- **未解**：当期官方薪資公報、斯國當地/其他領館行政費、香港台灣領事申辦文件、家屬就業權、轉另種居留及永居年資、2026年新提案法案立法結果。
+
+### 45輪後CSV狀態、限制及下一次優先任務（2026-11-13）
+- 索引來源仍為RUN 99+11 **110/110**，涵蓋**36國**。CSV對應：**5條政府官方確認停止新申請（舊案欄位未核完）；6條B級部分核實（前三條+本輪三條）；99條尚未逐條錄入官方核驗；全欄C/D完成0/110**。
+- 本輪具體寫入CSV三個slug，保留原RUN狀態原欄，不把RUN「open」視為當期政府已核准；所有新資料標日期2026-11-13及主管機關 URL。
+- 優先待辦：①克羅地亞台灣護照和數字遊民長居年資；②拉脫維亞OECD公司認定及家屬／再申請；③斯洛文尼亞2026公報淨薪資門檻及10月提案立法狀況；④逐條覆核其餘99筆RUN資料的國籍和工作/續居權。
+- **發布閘門鎖定**：PR #107已合併（歷史事實），所有本輪變更只在**Draft PR #108 的 `audit/europe-mobility-110-official-checks` 分支**，未改main、未合併、未部署或做全站驗收測試。網站不得聲稱110條全部通過或全部開放。
+
+
+## 2026-11-13 第四十六輪：丹麥 Pay Limit、芬蘭 Specialist、荷蘭 Highly Skilled Migrant（官方B級部分核驗）
+
+**操作範圍**：讀取本核驗清單與110路線CSV，選取原為 pending_full_official_check 的三條路線。核驗當日2026-11-13；以下只將有官方明文支持的欄位標B級，三地護照的申請領區／入境資格與所有家屬永居細節沒有全量核驗。原 RUN 'open' 不是當前官方確認。政府官方HTML連結如下，未用第三方摘要作核驗憑據。
+
+### 46-A 丹麥 `denmark-pay-limit-scheme` — 現行／B
+- SIRI 2026年 Pay Limit Scheme：必須已獲丹麥雇主聘用，**最低年薪DKK 552,000**；不要求特定學歷或指定行業；SIRI申請費**DKK 6,810**，標示一般審理1個月，補件可達3個月。薪資門檻每年1月1日調整，2026金額不可無條件沿用2027。
+- 可計入薪資者限規定的現金薪資／保證津貼、符合規定的勞動市場退休金等；房屋、電話、汽車等非現金福利不得直接充抵門檻。工作許可與核准的工作關係相關，不能當作不受限制的自僱或自由換雇主。
+- **中國大陸／香港／台灣**：上述為工作聘用類別而非護照限定項目；但三地各自申請地、簽證、文件接受和是否有特殊限制**未逐一獲官方領館確認**，不得標記三地均已完成核實。
+- **未完成**：首次許可時長及續期按合約期限、失業求職期、完整家屬工作權、永居可計入年期、個別領館費用與當期變更生效日。
+- 官方（2026-11-13核對）：https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-Limit-scheme
+
+### 46-B 芬蘭 `finland-specialist-residence-permit` — 現行／B
+- Migri Specialist官方說明：需有已確認的芬蘭專業工作，工作須用到特殊專長；通常有高等教育學位，亦可憑工作經驗或其他教育獲得所需專長；2026稅前月薪至少**€3,937**，實物福利及每日津貼不能計入。
+- **首次居留最長2年**，若聘用期間較短則依聘用期間；**首次電子申請€530、紙本€630；續期電子€230、紙本€430**。首次許可通常自境外申請，續期只可在芬蘭境內申請。合資格者可申請fast-track（官方指最快兩週，不是保證）。
+- **中國大陸／香港／台灣**：專業工作及薪資核心條件已核，但三地身份／旅行文件、境外受理地點、首次入境D簽及家屬特殊程序沒有逐一確認，不以「第三國」泛稱取代各護照適用性核查。
+- **未完成**：家屬申請財力與獨立工作權、工作變更、居留中斷、永居途徑和年資、2026法規具體生效日。
+- 官方（2026-11-13核對）：https://migri.fi/en/specialist/en ; https://migri.fi/en/working-in-finland/income-requirement
+
+### 46-C 荷蘭 `netherlands-highly-skilled-migrant` — 現行／B
+- IND的2026薪資門檻（**不含holiday allowance，gross/month**）：30歲及以上**€5,942**；未滿30歲**€4,357**；符合資格的降低標準**€3,122**。降低標準須符合IND具體條件，例如合資格orientation-year情況，**不能視為所有未滿30歲申請人通用**。
+- 申請需符合IND高度技術移民路線及認可擔保僱主制度；換雇主時應根據新僱用合約開始時適用的門檻核查；相同雇主續期的年齡門檻可能有特定保留規則。2026門檻全年有效，下一年度須重新核對。
+- **中國大陸／香港／台灣**：未核完三地旅行證件、MVV豁免、主管領館和各別文件；不能因門檻已核就視為護照與申請流程全核。
+- **未完成**：現行IND程序費、居留最長期限、家屬受僱權、失業緩衝期、續簽及永久／EU長居資格、護照申請地；本輪不得以定居有保證或可自由本地就業作宣傳。
+- 官方（2026-11-13核對）：https://ind.nl/en/required-amounts-income-requirements ; https://ind.nl/en/residence-permits/work/highly-skilled-migrant
+
+### 第46輪CSV結果與發布禁令
+- 已核對110條索引中的3條並將CSV新增3筆**B_partial_fields**與當日官方主URL；此前5條停止新案、6條B級、99條未在CSV登錄本輪程度。**現在為5條停止新案（舊案欄位仍待核）＋9條B級部分核實＋96條其他待逐條核驗；C/D全欄完成仍為0/110**。
+- 未實施整站網站測試、未更改main或production、未合併PR。原 PR #107已合併，核驗僅寫入 draft PR #108 分支；保留DO NOT MERGE / DO NOT DEPLOY。
+
+
+## 2026-11-14 第四十七輪：奧地利 RWR、愛爾蘭 Critical Skills、瑞典 Work Permit（當期官方B級部分核驗）
+
+**範圍與核驗方法**：重讀已合併的 PR #107（GitHub Issue/PR #107 closed 2026-11-10 10:07:36Z）、審核用 draft PR #108、本文與110路線 CSV，以及 RUN 的 \`data/programmes.json\`（99條）與 \`src/extra_routes.json\`（11條）。本輪三個slug均屬原先 CSV \`pending_full_official_check\`；只更新 draft PR #108 分支 \`audit/europe-mobility-110-official-checks\`，不改 main / production。核對日為**2026-11-14**。凡沒有直接主管機關證明的護照領區、個別家屬/永居或法律實施細節一律標**待查**，不把RUN原有open標記當作政府核准。
+
+### 47-A 奧地利 \`austria-red-white-red-card\` — 現行／B級（RWR具有多個子類，不能一個薪資通用全部）
+- **主管機關、資格、適用國籍**：奧地利政府官方移民入口指 RWR Card 面向符合指定條件的第三國公民，有「緊缺職業技能人才」「其他關鍵人才」「非常高技能人才」「奧地利大學畢業生」「創業者」等子類。中國大陸普通護照、香港特區、台灣護照均非EU/EEA國籍，但是否各自可於指定領館用哪種旅行文件遞交、需不需要D類入境簽證、授權翻譯/海牙認證等尚未逐一官方核查；**只能暫以一般第三國通道作初篩**，非已全面核准三地適用。
+- **緊缺職業類**：必須完成當期短缺職業法規所要求的職業培訓、有奧地利具約束力的聘用邀請、支付至少當地法定/集體協約工資，並取得**至少55分**。當期國家及地區職業清單另核；不能使用「其他關鍵人才」的€3,465/月作此類全國固定門檻。
+- **其他關鍵人才**：2026最低**稅前€3,465/月**，至少**55分**，且通常有AMS勞動市場測試：不得有同等合格本地求職者可媒合。
+- **費用**：上述兩類官方頁均列**申請費€218**。另有可能需D入境簽及特殊文件、翻譯/公證服務費，本輪未核、不可加為一個全國包價。
+- **期限、工作權、轉換**：原RWR Card通常最長**24個月**、僅可受聘於核准聘用的雇主；若在最近24月有至少**21個月**符合資格工作，可按AMS確認申請 RWR Card Plus，Plus提供較廣泛的勞動市場工作權但**不是永久居留**。原卡換雇主法規/45天待辦規則需按完整文件及個案確認，不能保證換雇主即日可工作。
+- **家屬**：家屬可依適用家屬團聚及RWR Plus體系尋求許可，但家屬資格、德語例外、資金及直接工作權未獨立核實；不得保證自動獲批。
+- **續簽、永居**：RWR Plus轉換（21/24個月）可在官方證據支持的條件下記錄；其後長期居留／永居的完整居住計算、德語、缺席與家屬資格尚待逐欄核驗。
+- **政策日期**：€3,465是**2026**年其他關鍵人才門檻；2027金額需另核。2026一般居留收入保障標準（單身€1,308.39等）**不可錯當所有RWR申請一律額外必須存款**，政府總頁明確提示RWR/Blue Card另按就業薪酬規則。
+- **2026-11-14 官方網址與證據**：
+  1. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/
+  2. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/
+  3. https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-key-workers/
+- **剩餘待解**：所有其他RWR子類門檻與實施條文、國籍/申請領區、本人與家屬簽證和居留卡費、各子類職業清單、RWR Plus後長居/永居年期及家屬工作權；故**B非C/D**。
+
+### 47-B 愛爾蘭 \`ireland-critical-skills-employment-permit\` — 現行／B級
+- **申請對象**：CSEP以非EEA工作者的符合資格職位及2年或以上正式工作邀請為核心，無一般勞工市場需求測試（Labour Market Needs Test）；還有雇主50% EEA員工要求及特定新創例外。三地中國大陸/香港/台灣人士可按非EEA通道作**條件初篩**，但香港、台灣旅遊免簽或其他英國簽證不能自動當作愛爾蘭入境／受僱許可；三地適用簽證、出入境登記、文件領區尚未獨立完成。
+- **薪資及2026生效**：政府2025-12-02宣布分階段門檻，**2026-03-01**起關鍵職業清單類一般年薪至少**€40,904**；獲該職業所需學歷且畢業不滿12月者可用**€36,848**的特定低門檻；另一高薪資格類是年薪**超過€68,911**，但職位不能在不符合清單、公共利益禁止等條款之內。公共服務協議職位、護理等有特殊條件。**不是所有職業達薪資即可核准**。
+- **職業列表實施日**：DETE當前 Critical Skills Occupations List 明言**2026-05-13**起實施（SI 213/2026），須按具體SOC code及技術專長，不可只按大類名相似。
+- **費用**：CSEP官方申請費**€1,000**；被拒一般返還90%（如適用）。如雇主作為申請者，不可向持證人追回許可申請支出。入境簽、愛爾蘭移民登記、家屬費用不在此費用內，尚待核。
+- **期限及工作權**：要求至少**兩年**聘書；Employment Permit允許為**列明雇主、工作及地點**工作，不是開放式工作卡。原則須為原雇主工作至少9個月才可另辦變更，例外須符合規則。
+- **家屬**：ISD現行Stamp 1G說明，合資格CSEP持有人配偶／事實伴侶取得Stamp 1G後**可受僱且不需另申請employment permit**，但不可自僱或經營企業，按年續登記。注意DETE總頁仍保留「家屬可申請免費Dependant/Partner/Spouse Employment Permit」舊式說明；**目前應以ISD就Stamp 1G的當期法律身分說明優先**。主申請人的家屬團聚也不是自動批准，兒童及伴侶/個案材料待補。
+- **續簽與長居**：ISD正式說明CSEP滿**21個月從開始合資格工作起算**後，符合條件可在線申請**Stamp 4**；Stamp4通常2年後可按條件再續。Stamp4是更自由的**移民居留/工作身分，不等於永久居留或公民資格**。DETE亦列獲60月合資格居留可能申請long-term residence，但個案計算、居留空檔與歸化未核全。
+- **官方來源（2026-11-14查閱）**：
+  1. https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/
+  2. https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html
+  3. https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/critical%20skills%20occupations%20list.html
+  4. https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-renew-your-current-permission/information-on-stamp-4-upgrades/
+  5. https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/
+- **待解**：香港/台灣/大陸護照領事簽證分類與入境文件、不同家屬許可/簽證和費用、具體工資計入計算、職業碼個案資格、Stamp4/長期居留完整計算；仍為**B非C/D**。
+
+### 47-C 瑞典 \`sweden-work-permit\` — 現行／B級；2026-10家庭政策已生效，2026-12續期新門檻將生效
+- **申請對象及國籍**：一般非EU/EEA僱員需有簽署的雇佣合同、有效護照、與瑞典集體協約/行業慣例相當條件；雇主須提供醫療、生命、工傷及職業退休金保險。中國大陸、香港、台灣均不能僅憑短期免簽逕自受僱；三地各自護照、領事受理和簽證/生物資料細節尚未獨立確認，**僅確定第三國通用僱員申請規則**。
+- **2026年薪資及生效**：新規**2026-06-01**生效，普通工作許可一般要達當期中位月薪的**90%**且符合行業集體協約。**2026-06-16**官方更新中位薪資SEK38,300，故目前**SEK34,470/月**；這不是所有職業唯一門檻，因為行業工資可能更高。政府明確規定約20種職業及特定申請人群體可按**75%**中位薪資例外，必須逐一查核SSYK職業碼和例外資格，**不可把普通門檻無差別套給所有人**。部分採摘/個人助理等職類自2026-06-01起不得用該一般工作許可，個別農業季節工制度仍另論。
+- **費用**：工作許可本人**SEK2,200**，成年家屬SEK1,500、子女SEK750（官方也列日本國籍個別免申請費；不得誤套三地）。
+- **期限、工作、家屬**：首次最長**2年**，不得超過合同及護照效期，可續簽。家屬可同時遞交，准許期限不長於主申請人及家屬護照。合約及核准的僱主／職業變更後實際需否新許可須個案核對。家屬受僱權、個別居留卡條款未全核。
+- **2026-10-01家庭新規（已生效）**：家屬生活費及居住成本財力審核現在亦適用**家庭居留續期**；與僅首次申請時查核的舊制不同。部分家屬收入可能計算但有排除。主申請人申請永久居留時家屬需有自己的申請，不得把主申請人永居自動延及全家。
+- **續簽過渡**：2026-06-01前獲批的舊許可，在**2026-06-01至2026-12-01**遞交的符合條件續期有舊80%中位薪資門檻過渡；官方明列**2026-12-02起所有續期申請都適用新門檻**（此為截至2026-11-14的**未生效未來日期**）。舊許可工作/保險條件仍須符合。該時間點應保留獨立「已公告未生效」狀態標註，不能把12/2規定寫作已經生效。
+- **永久居留**：瑞典移民局現行一般僱員續期頁列**過去7年內至少4年持工作許可且實際工作**、可維持自我經濟、良好行為等。僅滿4年不等於自動獲批；家屬永久居留有另外條件。
+- **官方來源（2026-11-14核對）**：
+  1. https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/employees.html
+  2. https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html
+  3. https://www.migrationsverket.se/en/news-archive/news/2026-05-25-new-rules-for-labour-immigration---these-occupations-are-exempted.html
+  4. https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html
+  5. https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingemployees.5.15b2309e1a04e5ed2071c33.html
+- **未解**：三地護照/申請地及簽證要求、雇主資格及責任的個案查驗、家屬工作許可的各類情況、指定職業例外細節、永居實際居留天數、2026-12-02過渡處理以及任何後續法改；不達C/D。
+
+### 第47輪進度與發布限制
+- 本輪只將CSV內上述三筆原先 \`pending_full_official_check\` 更新成**B_partial_fields**，最後官方核對日**2026-11-14**，並寫入對應政府官方主來源URL。原RUN status欄位保持原樣，不以RUN「open」當成政府開放簽證保證。
+- CSV共**110筆**：**5筆官方確認停止新申請（舊案完整條件待審）、12筆B級部分官方核驗、93筆尚待逐條官方登錄，C/D全欄完成0/110**。此前清單中其他路線零散官方片段未歸入CSV前，不能當成完整或B級入帳。
+- 2026-11-14本輪直接政府資料更新；尚未完成所有國籍、收費、家屬、續居、永久居留法規及官網手機/SEO/連結測試，**仍禁止合併、禁止部署、禁止宣傳110條已核實或全部可申請**。
+
+
+## 2026-11-15 第48輪：塞浦路斯、馬耳他、愛沙尼亞數字遊民（官方核驗；僅B級）
+
+範圍：RUN原99+11索引中三條原CSV待審slug；核對主管機關2026-11-15仍可查閱的官方來源。注意 B 僅代表部分欄位，並不宣稱三地護照申請流程、個別家屬權、永居或所有實施法規已全部驗證。所有原始 RUN open 保留、不得當成政府已核准。PR #107歷史已合併，僅修改draft PR #108審核分支。
+
+### 48-A Cyprus digital nomad — cyprus-digital-nomad-visa（現行、已恢復收件；B）
+- 主管機關 Migration Department 在2025-12-31官網記載重新接受Digital Nomad居留申請，名額上限仍500；原計劃2021-10-15決定建立，2022-03-03上調名額。
+- 對象：非EU/EEA國民，透過資訊科技為境外登記僱主或境外客戶遠距工作；本人**稅後淨收入至少€3,500/月**。官版申請材料清單另列配偶/伴侶+20%、每名子女+15%（相應加額以€3,500計，核對各別家庭資金）。
+- 首次居留1年，合資格者續期最多2年；持證人不能以此許可替塞浦路斯雇主工作。配偶／民事伴侶、未成年子女可申請隨行，但官網明確不准家屬在塞浦路斯受僱或從事經濟活動。
+- 申請人原則在抵達後3個月內按規定向尼科西亞移民部遞件；續期最遲到期前一個月辦理；許可簽發／更新費€70，初次外國人登記費另€70；官方一般審查時間5–7週，非批准保證。
+- 中國大陸／香港／台灣：非EU/EEA類別核心規定對三地可作初步篩查，但**三種旅行文件、入境短期簽證、申請地及領事實操未單獨查完**；不得宣稱三地都已核准。
+- 仍待：當期名額剩餘、三地入境/領事、舊案過渡、具體長居/永居年資、工作轉類條件、行政文件費。
+- 官方（2026-11-15）：https://www.gov.cy/mip-md/en/documents/digital-nomads-and-family-members/ ；政府文件列表 https://www.gov.cy/app/uploads/sites/174/2025/12/Accompanying-Documents_VIS-Digital-Nomad_19032025.pdf （PDF本輪未逐頁查核；不能用此PDF作已完全核實法律細節）。
+
+### 48-B Malta nomad residence — malta-nomad-residence-permit（現行；B）
+- 主管 Residency Malta Agency 2026-04-17 FAQ v14.1：年滿18歲、非EU/EEA/瑞士公民、境外雇主遠距僱員／境外公司經營者／服務境外客戶的自由職業者；不許向馬耳他公司或個人提供本地服務，亦不能憑此受僱當地公司。
+- 目前主申請人**年度稅前收入至少€42,000**，2024-04-01之前提交申請的舊案保留€32,400；申請需有符合條件的收入來源至少累計5個月、有效旅行文件、居住證明、適用保險、背景核驗。
+- 申請費**€300/人不退**；居留卡簽發**€100/人**；其他需入境簽費另計。首次1年，最多另續3次，總計不超過4年（機關有裁量）；續期須證明前12月累計在馬耳他住至少5個月，建議在到期前2–3個月遞交。
+- 申請時可納入配偶、未成年子女及規定符合依賴條件的成年子女。提交後一般不能任意加家屬，續期時可補列、出生新生兒例外。家屬同樣不得在馬耳他從事本地經濟活動。
+- 官網明言**Nomad Residence Permit不直接導向永久/長期居留、國籍或MPRP**；不能宣傳「4年可取得永居」。MPRP為另類獨立方案。
+- 中國大陸／香港／台灣：三地非EU/EEA一般第三國初篩，官方排除國家列表未直接列三地；惟國籍認定、簽證豁免與申請領區/文書認證未逐一完成官方核驗。
+- 尚待：三地領館、稅務法規、保險各項細則和家屬文件、申請實施法令歷次修正生效日。
+- 官方（2026-11-15）：https://nomad.residencymalta.gov.mt/new-faqs/ ；https://nomad.residencymalta.gov.mt/nomad-eligibility/
+
+### 48-C Estonia digital nomad — estonia-digital-nomad-visa（現行制度；資金數字存在政府來源衝突；B）
+- 外交部D類簽證官網明列每12個連續月最多365天，連續兩份長期簽合計不超過730天內548天；D簽官方費€120（6–11歲兒童€60等例外）。
+- 外交部官網同頁明列 teleworking/digital nomad 資金**€132/日（€3,960/月）**；但政府e-Residency 2026-03-11 FAQ及其數字遊民宣傳頁有**€4,500/月**（其中毛淨收入表述可能不一致）。因此**須依現行法律/施行令確認€3,960 vs €4,500及稅前或稅後**。本輪不發布固定門檻，不以宣傳頁取代外交部/法規。
+- 此為**D簽或適用短期簽制度，非永久居留許可**；可為境外雇主/自有境外企業/主要境外客戶遠距工作。不能以愛沙尼亞 e-Residency 電子身分替代簽證和居留。
+- 本人需有效旅行文件、保險、財力及工作證明；外國公文依當期要求合法化/附加證明並翻譯成英文或愛沙尼亞文。三地護照入境豁免、領館、家屬工作權及本地附加工作仍未按主管機關法條逐項確認。
+- 續居不能直接當成可續簽的永居路徑；再次申請須受548/730日限制及個案核准。稅務及法規2026修訂條文待核。
+- 官方（2026-11-15）：https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa ；https://www.e-resident.gov.ee/blog/posts/faqs-about-estonias-digital-nomad-visa/ ；https://www.e-resident.gov.ee/nomadvisa/
+- **重要衝突待解**：€3,960/€4,500，及FAQ同文不同處gross/net表述；必須查看Riigi Teataja現行施行法規才可為客戶核定門檻。
+
+### 第48輪進度、發布閘門
+- CSV此前5條停止新申請＋12條B部分核實＋93筆尚待；本輪將三條待審更新為B，**最新5條停止新申請（舊案待查）＋15條B＋90條待官方逐條登錄，全部C/D=0/110**。部分路線已有獨立清單段落不等於已全欄核驗。
+- 不合併、不部署、不修改main、不宣稱110條全部核實，也不在全站手機/連結/SEO/可訪問性及全部政策核驗之前放行發布。
+
+
+## 2026-11-15 第49輪：加速推進20條政府官方核心欄位核對（累計40條有證據；C/D仍0）
+
+**範圍與方法**：根據既有110條 CSV 選取20條尚未登錄B級的路線，逐一核對2026-11-15可取得之移民主管機關／政府官方指南（不採第三方移民博客）。本表中的B表示**只有部分官方欄位支持**，未證明11類欄位（特別是中國大陸／香港／台灣旅行證件、申請領區、完整費用、家屬、續居、永居及生效條文）全部核實。官方政府網址為直接證據索引；個別政府頁後續可能更改。僅寫入 draft PR #108，**不得合併／發布**。
+
+| RUN slug（原未核路線） | 現行核實的核心要求（官方證據；2026-11-15） | 未完成／特別風險 | 官方URL |
+|---|---|---|---|
+| `uk-skilled-worker` | Home Office：合資格聘用需核准擔保僱主；一般年薪£41,700或職位going rate取高 | 職業碼及優惠/過渡門檻、家屬職類限制、簽證/維持費、5年定居及未生效改革 | https://www.gov.uk/skilled-worker-visa/your-job |
+| `uk-global-talent` | Home Office：認可背書或合資格獎項；簽證£766加IHS；每次最多5年，可續，個別3/5年ILR | 背書領域、各家屬要求、英國定居改革及生效日 | https://www.gov.uk/global-talent |
+| `uk-hpi` | Appendix HPI：前5年內合格大學及年份、英語B2、通常£1,270資金，學歷認證；£880簽證費（見gov.uk費用頁）；通常2年、博士3年，不可續或直接定居 | 依學位授予年度名單、Ecctis當期費、個別領事及家屬 | https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual |
+| `germany-opportunity-card` | 聯邦官方Make it in Germany：2026財力€1,091/月；初次最長1年；兼職每週20小時、每雇主試工最多兩週；積分或完全認可資格 | 護照、申請館、家屬、卡續期、職業轉換及永居 | https://www.make-it-in-germany.com/en/visa-recognition/opportunity-card/job-search |
+| `germany-skilled-worker-18a-18b` | 聯邦§18a/18b：認可職業/大學資格、合資格具體聘書及受監管職業執照；首次赴德45歲以上通常有2026年薪€55,770或退休保障要求 | 國籍與領區、職類/職業資格豁免、費用、期限、家屬與永居 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals |
+| `germany-eu-blue-card` | 聯邦2026一般年薪€50,700；特定緊缺職業/近三年新畢業及特殊IT可為€45,934.20；至少6個月相符聘用，條件化取得 | Bundesagentur審批、家屬/費用、永居年資、年度門檻調整 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card |
+| `portugal-d7-visa` | 葡萄牙gov.pt 2026-05-22更新：退休、宗教、自有收入人士可依官方「residence visa」申請，需資金與來源證明、住宿、保險 | D7是非官方俗稱；2026真實領館費、各家屬金額/團聚、續簽、永居及2025後法改 | https://www.gov.pt/servicos/pedir-um-visto-de-residencia-para-fixacao-de-residencia-de-reformados-religiosos-e-pessoas-que-vivem-de-rendimentos-proprios |
+| `portugal-digital-nomad-visa` | AIMA Art 88(1)：向葡境外企業/客戶提供遠距專業工作；居留卡初次2年、續期可每次3年 | 領館D8簽的資金/各家屬、入境文件、居留費、長期居留另核 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe |
+| `hungary-white-card` | OIF：境外僱主/境外盈利公司遠距工作，持續淨收入至少€3,000/月、前6月也需達標；許可1年可續1次；不容許本地受僱及一般家庭團聚 | 三地領事程序、費用、例外、其他許可轉換；**不得標為永居路線** | https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads |
+| `france-talent-qualified-employee` | Business France 2026-05-11核：法國合資格畢業學歷、至少3月聘用、年薪€39,582（網站標示2025-08-31標準），許可最長4年可續 | 國內其他機關較舊頁面可能有數字衝突、2026立法、費用、家庭及長居 | https://welcome.businessfrance.fr/simplanter-en-france/recruter-des-talents-internationaux/visas-et-titres-de-sejour/recrutement-salaries-etrangers/talent-salarie-qualifie/ |
+| `france-eu-blue-card` | 法國Service-Public 2026條件：高技能、至少6個月聘用、年薪€59,373，許可可最多4年；配偶可依Talent家屬制度工作 | **2026 Business France文件仍有12個月合同要求，與6個月說明衝突**；2026-10-30新法規影響、三地領區/收費及永居待核 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `netherlands-eu-blue-card` | IND 2026-11-12更新：EU/EEA/瑞士以外的高學歷受僱人士，須符合EU Blue Card認定及國家薪資/資格要求 | 年薪數額、認可或學歷經驗替代、申請費、家屬、長居及領館個案未全核 | https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit |
+| `denmark-startup-denmark` | SIRI：創新商業計劃須先獲專家小組批准、企業由本人實質營運、最多3名共同創業人，年度上限75名，費DKK3,060 | SIRI頁面顯示部分2025生活資金數字，**不可當作2026**；國籍/家屬/許可續居待核 | https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark |
+| `czechia-digital-nomad-program` | 捷克工業貿易部：適用高度IT/市場行銷僱員及自由職業者；**當前公開國籍名單含台灣，未列中國大陸或香港** | 不等於其他捷克居留途徑不能申請；具體政府加速計劃文件、簽證費、家屬與永居待核 | https://mpo.gov.cz/en/foreign-trade/economic-migration/digital-nomad-program--275799/ |
+| `greece-digital-nomad-visa` | 希臘區域行政官方FAQ：遠距工作者月淨收入至少€3,500；配偶/伴侶+20%，每子女+15% | 官方Q&A同時提FIP，**不得混淆兩種路線**；簽證費、期限、國籍和工作權及永居待核 | https://e-dm.gov.gr/allodapoi-metanastefsi/ |
+| `spain-digital-nomad-visa` | 西班牙移民部UGE依Law14/2013 Art74bis確認境外企業遠距工作；資金基準200% SMI，簽證/居留期限另依條款 | SMI數值依年度、僱傭與社保、家屬及地別費用、續期/長居逐欄待核 | https://www.inclusion.gob.es/es/web/unidadgrandesempresas/teletrabajadores |
+| `italy-digital-nomad-remote-worker-visa` | 義大利外交部駐都柏林使館：高技能遠距僱員/自由職業，需醫保、住址、至少6個月相關經驗及足夠收入 | 收入金額依法律與個別領館，非自動獲本地自由就業；三地護照/申請費/續期及永居待核 | https://ambdublino.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/digital-nomad-visas/ |
+| `italy-elective-residence` | 義大利駐馬爾他使館：自有穩定被動資金、居住安排，**不得在意大利工作**；該領館標D簽€116 | **馬爾他領館費及文件要求不可套用中國/香港/台灣**；不同館收入/家屬、續簽長居待核 | https://amblavalletta.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/residenza-elettiva/ |
+| `finland-entrepreneur-startup-permit` | Migri：需Business Finland正面Eligibility Statement；2026地區淨月收入€1,210/1,090/1,030，首次最多2年；首次電子費€650、紙本€800 | 首次境外申請；statement須4個月內有效；工作/家屬、續簽及永居另查 | https://migri.fi/start-up-entrepreneur |
+| `malta-single-permit` | Identità：第三國公民須由馬爾他雇主線上代申請；一般首次€600、續期€150/年；僅批准的雇主/職務可工作 | 遞件不等於可立刻工作；須正式Temporary Authorisation to Work或有效居留；家屬/薪資/永居另核 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/ |
+
+**共同的三地國籍欄位限制**：除捷克Digital Nomad已直接核對主管部門國籍名單以外，其他大多數頁面只明列「第三國公民」，**仍須逐一核對中國大陸普通護照、香港特區護照與台灣護照在入境、長期簽證、領區、文件及特殊豁免上的不同待遇**。所有未明示之工作權、家屬、續簽、永居、生效日一律保留「未確認」，不得作為客戶正式資格判斷。
+
+**批次後核算**：原5條已官方確認關閉新案＋15條B部分核實＋90條未CSV核驗。本輪新增20條B，得到 **5條關閉＋35條B＋70條未核＝110條**；**C/D全欄核實仍是0/110**。數字40/110只代表有某些官方核實證據而非40條全部核驗。所有修改只在 `audit/europe-mobility-110-official-checks` 的Draft PR #108分支；PR #107原先已被合併、不能再當未發布分支。**不合併、不部署、不解除網站發布閘門**。
+
+
+## 2026-11-15 第50輪：40條加速官方核心欄位核驗（將有證據路線推至80/110）
+
+**核驗定義**：以下39條為B級（從主管機關查得至少一項具體路線條件），另1條馬爾他Citizenship by Merit為官方確認**並非可營銷移民方案**的分類核查；不能宣稱80條均可申請或全部欄位完成。官方URL、核對日2026-11-15均已登錄CSV。RUN原`open`未直接繼承為現行核准；三地中國大陸、香港、台灣個別領事與旅行文件資格仍須逐一查核。
+
+| RUN route ID | 已直接核對的政府核心證據 | 官方原文URL |
+|---|---|---|
+| `austria-eu-blue-card` | 2026年薪€55,678、學歷或合資格ICT經驗、AMS審核 | https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/eubluecard/ |
+| `austria-self-employed-startup-founder-visa` | 創業投資至少€30,000且自有份額50%、至少50點 | https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/start-up-founders/ |
+| `belgium-professional-card-self-employed-visa` | 非EEA/瑞士自僱通常須Professional Card；由地區核發 | https://economie.fgov.be/en/themes/enterprises/starting-business/conditions-access-professions |
+| `belgium-single-permit-work-permit` | 非歐洲受僱逾90日，僱主依區域申請single permit | https://workinginbelgium.be/en/first-visit.html |
+| `bulgaria-eu-blue-card` | 經濟部列EU Blue Card高技能許可；2026數值仍待國內核對 | https://www.mi.government.bg/en/general/naemane-na-slujiteli-grajdani-na-drugi-darjavi/ |
+| `bulgaria-single-residence-work-permit` | 僱主向就業機關申請第三國僱員Single Permit | https://www.mi.government.bg/en/general/naemane-na-slujiteli-grajdani-na-drugi-darjavi/ |
+| `croatia-eu-blue-card` | EU Blue Card限核准雇主職務，首2年換雇主重新辦 | https://mup.gov.hr/aliens-281621/stay-and-work/stay-and-work-of-highly-qualified-third-country-nationals/281692 |
+| `croatia-stay-and-work-permit` | 一般需停留工作許可及可能勞市測試；不等於自由就業 | https://mup.gov.hr/aliens-281621/stay-and-work/work-of-third-country-nationals/281663 |
+| `cyprus-eu-blue-card` | 至少€43,632年薪；指定ICT/藥研/海事職業 | https://www.gov.cy/mip-md/en/documents/eu-blue-card/ |
+| `cyprus-permanent-residence-by-investment` | 投資居留四類別至少€300,000；不同於已終止入籍 | https://www.gov.cy/mip-md/en/documents/companies-investors-permanent-residence-3/immigration-permits-for-investors/ |
+| `cyprus-remunerated-employment-single-permit` | GEN入境許可及1-3年工居€120；續卡€130、初登記€70 | https://www.gov.cy/mip-md/en/documents/remunerated-employment-single-permit-gen/ |
+| `czechia-employee-card` | Employee Card有效聘約及職缺資料；境內申請費CZK2,500 | https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ |
+| `czechia-eu-blue-card` | 至少6月高技能聘約及平均工資1.5倍 | https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/blue-card/ |
+| `finland-eu-blue-card` | 2026每月€3,937、至少6月聘約；電子首次€530 | https://migri.fi/en/eu-blue-card |
+| `france-entrepreneur-profession-liberale-visa` | 獨立經濟活動可行性、資金；初居卡費€350，最長1年 | https://www.service-public.gouv.fr/particuliers/vosdroits/F35795 |
+| `germany-freelance-self-employment-visa` | 自由職業§21(5)須財力和職業許可；45歲以上退休準備 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/other/self-employment |
+| `ireland-start-up-entrepreneur-programme` | STEP創業資金€50,000、費€350，創新計畫 | https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/start-up-entrepreneur-programme-step/ |
+| `italy-eu-blue-card` | Art27-quater高技能經雇主程序，具家屬及轉工特例 | https://lavoro.gov.it/priorita/pagine/carta-blu-ue-emanata-il-28032024-la-circolare-congiunta-del-MLPS-e-ministero-interno |
+| `italy-investor-visa` | 投資€250k新創/€500k公司/€2m公債/€1m慈善；2年 | https://investorvisa.mise.gov.it/index.php/en/home-en/ |
+| `latvia-residence-permit-for-employment` | 長期就業由雇主發起sponsorship，居留與工作權分開核 | https://www.pmlp.gov.lv/en/employment-foreigners |
+| `luxembourg-eu-blue-card` | 高技能先申請authorisation to stay後申請居留卡 | https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/salarie-hautement-qualifie.html |
+| `luxembourg-self-employed-worker-permit` | 自僱居留最長3年可續；須經濟可行及資格 | https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/travailleur-independant/independant.html |
+| `malta-eu-blue-card` | 至少6月聘約、薪資至少國家平均稅前年薪1.5倍 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/blue-card/ |
+| `malta-key-employee-initiative` | KEI特定職位年薪至少€45k，初次費€600 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/key-employee-initiative/who-is-eligible/ |
+| `malta-specialist-employee-initiative` | SEI資格頁€30k/年，但2026資料清單列€25k，衝突待解 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ |
+| `malta-citizenship-by-merit` | 官方明確：Citizenship by Merit不是可推銷的移民/投資入籍方案 | https://komunita.gov.mt/2026/02/05/malta-citizenship-by-merit/ |
+| `netherlands-self-employed-startup-visa` | 新創須認可facilitator與創新方案，與一般自僱許可須拆分 | https://ind.nl/en/residence-permits/work/start-up |
+| `norway-skilled-self-employed-permit` | 自營獨資及技能，年預計收益至少NOK341,373 | https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/ |
+| `portugal-ari-golden-visa` | ARI第三國投資居留，允許工作與家庭團聚；房產舊標準不可用 | https://aima.gov.pt/en/viver/autorizacao-de-residencia-para-investimento-art-90-o-a |
+| `portugal-eu-blue-card` | 高技能聘約至少6月，薪資1.5倍平均年薪（部分1.2倍） | https://aima.gov.pt/pt/viver/concessao-de-cartao-azul-ue-e-autorizacao-de-residencia-para-titulares-de-cartao-azul-ue-noutro-estado-membro-art-121-o-a-e-segu |
+| `portugal-highly-qualified-activity-residence-permit` | Art90高技能需資格/聘約，官網部分€值引用舊年度 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-atividade-altamente-qualificada-art-90-o |
+| `portugal-subordinate-work-residence-permit` | Art88(1)有效居留工作簽及聘僱；卡2年、續3年，Art88(2)已廢 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-exercicio-de-atividade-profissional-subordinada-com-visto-de-residencia-art-88-o-n-o-1 |
+| `poland-eu-blue-card` | 高技能波蘭EU Blue Card；2026-04-27後MOS線上申請 | https://migrant.poznan.uw.gov.pl/en/procedury/temporary-residence-permit-high-qualified-workers-eu-blue-card |
+| `poland-temporary-residence-work-permit` | 暫居工作最低PLN4,806/月及同工標準，MOS線上申請 | https://www.mos.cudzoziemcy.gov.pl/en/question-and-answer-database/permits-residence-and-work/temporary-residence-and-work-permit |
+| `romania-eu-blue-card` | 居留工作需IGI Blue Card，與一般single permit不同 | https://igi.mai.gov.ro/single-permit-eu-blue-card/ |
+| `romania-work-visa-residence-permit` | 入境工作長簽及雇主程序，後續single permit | https://igi.mai.gov.ro/long-stay-visa-for-employment/ |
+| `slovenia-single-residence-and-work-permit` | 單一許可初次最長2年、可續最多3年 | https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/work-in-slovenia/single-permit/ |
+| `sweden-eu-blue-card` | 2026-07-15起至少SEK53,625/月；6月聘約、初居9月-4年 | https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html |
+| `sweden-self-employed-residence-permit` | 自營至少持股51%；本人SEK200k、配偶100k、子女50k | https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/self-employed-people.html |
+| `greece-golden-visa` | 希臘官方變更用途房產特例€250k，5年居留、不可受僱 | https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3APermanent_golden_visa_%28change_of_use%29_%E2%80%93_Initial_issuance |
+
+### 本輪跨路線待解與警示
+1. **中國大陸／香港／台灣**：本次官方「第三國」一般資格不是三地護照可無條件遞交的證明；應再查領事受理、簽證/入境豁免、受規管國籍限制、驗證文件及受理地。
+2. **馬爾他 Citizenship by Merit**：Community Malta Agency 2026-02-05明文表示非計劃、非商業簽證路徑、不得宣傳或推廣；CSV分類已標 `officially_not_an_open_immigration_program`，必須從對客「可申請移民方案」清單移除，保留作資料品質紀錄。
+3. **馬爾他 SEI**：Identità資格頁顯示年薪€30k，而其2026申請文件清單曾列基本工資€25k、申請流程頁列€300，另部分官方頁列€600。直至主管機關釐清生效日和費用，**不能對客固定報價或認定最低門檻**。交叉來源：https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/application-procedure/ 及 https://identita.gov.mt/wp-content/uploads/2026/01/Checklist-New-Application-for-Single-Permit-SEI.pdf
+4. **葡萄牙工作居留**：AIMA Art.88(1)有居留簽證通道仍在；Art.88(2)原免簽manifestation of interest制度已自2024-06-04廢止（舊案過渡除外）。不能混寫成2026新客無簽直接申辦。官方：https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-exercicio-de-atividade-profissional-subordinada-com-dispensa-de-visto-de-residencia-art-88-o-n-o-
+5. **希臘Golden Visa**：€250k只適用特定條款如合法變更物業用途等，並非所有地區的一般投資最低額。2026政府登記的該類別行政費€2016；投資居留不授權當地受僱。
+6. **荷蘭**：RUN的 `netherlands-self-employed-startup-visa` 混合兩種分別由IND監管的類別；已核對start-up但一般self-employed申請要求須獨立完成。參見：https://ind.nl/en/residence-permits/work/residence-permit-self-employed-person
+7. **2026年政策及對客風險**：波蘭2026-04-27起移民居留申請改透過MOS；芬蘭與瑞典2026年薪門檻只能按當年採用，不能外推2027。法國、德國、馬爾他與各國地方/領事費用不得混用。
+8. **所有B級仍需逐欄**：國籍、資格、薪資/資金、費用、期間、工作權、家屬、續簽、永居、法規實施日以及歷史過渡。未發現明文的欄位狀態為**未確認**，不能將B提升C/D。
+
+### 核驗統計與發布限制
+- 從前輪**5條已關閉＋35條B＋70條待核**，本輪新增**39條B及1條官方確認非公開移民方案**，達**5條關閉新案＋74條B＋1條分類核實（不可公開招募）＋30條仍待逐項核驗＝110**。
+- 合計 **80/110有部分官方證據或官方否定分類證據**；其中真正B級現行/部分條件路線74、官方證明不再接受新案5、非可營銷方案1。**11類全欄完成C/D：0/110**。
+- 各路線的完整三地國籍、各地費用、工作/家屬/續簽/永居及法規生效仍未充分核對，網站測試亦未完成。**Draft PR #108 僅保存審核、不得合併或部署，亦不得將80/110稱為80條可申請或80條全面核實。**
+
+
+## 2026-11-15 第51輪補記與第52輪官方衝突修訂（嚴格不升C/D）
+
+### 第51輪補記：最後30條已登錄CSV，但不等於30條可申請
+第51輪CSV提交 `2d39bd597d679336ea294511a48e4b08c25ed4cb` 已將最後30條原待核記錄逐條寫入官方來源或主管機關分類來源及日期。此處補登對應審計摘要，**不宣稱每筆網址本身均已完成最新法條、護照和申辦核對**。當中27筆列B級部分欄位核實、3筆標官方證據或RUN分類待釐清（拉脫維亞投資、黑山「EU citizen investment residence/work」、希臘財務獨立FIP）。已登錄入口不代表具體路線已確認仍開放。
+
+### 第52輪官方原文增補／修正（2026-11-15）
+1. **拉脫維亞 `latvia-investor-residence-permit`**：OCMA 2026-09-15公布新《移民法》已廢止以購買房地產或對銀行次級負債投資申領新的臨時居留的途徑。另立€150,000投資國家設立替代基金管理人制度，但官方明言基金**仍未成立**，現不得視為可申請。OCMA舊「Investments」頁（仍列銀行負債、€25,000國庫捐款）屬過時類型，不能覆蓋2026新法。**狀態：部分舊投資子類已停止／新基金途徑未開放；RUN總稱需拆分分類，暫不對客販售。** 官來源（15 Nov 2026）：https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations ，歷史資料（禁止當現行）：https://www.pmlp.gov.lv/en/investments 。進一步待核：現行企業股權投資類別是否存續、法條和現行政府費表、三地護照、家屬與長居。
+2. **馬爾他 `malta-specialist-employee-initiative`**：Identità SEI Who is Eligible官方現行列簽署馬爾他公司聘約、**稅前年薪至少€30,000**、相關MQF6+學歷或較低學歷加至少3年相關經驗，並有職缺至少刊登2週的條件；官方 FAQ SIGMA 2025/26亦列€30,000自2025年8月生效。另Identità **Who is Eligible頁列申請費€600**，但同機關Application Procedure頁列**€300**；目前無法完全確認申請類型/日期差異，**費用仍爭議、不可對客保證**。原清單所引€25,000舊檢查表亦不得覆蓋更新官方要求。來源：https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ ；https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/application-procedure/ ；https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-employment/ 。待核三地護照、簽證、收費衝突、家屬及長居。
+3. **希臘 `greece-fip`**：雅典主管區政府仍提供Law4251/2014 Art20的舊檢查表，列€2,000/月、兩年許可；希臘勞工部則指當前外國人法架構為Law5038/2023，並已由Law5275/2026修訂。因此**不得把舊€2,000當2026現行金額**；須回查2026版FIP條文、主管部門辦理細則及費用。來源：https://apdattikis.gov.gr/en/documents/ ；https://ypergasias.gov.gr/en/labour-relations/individual-employment-relations/work-for-third-country-nationals-in-greece/ 。仍分類待核。
+4. **黑山 `montenegro-eu-citizen-investment-residence-work-permit`**：RUN路線名稱與正式政府分類尚未建立法律逐條對應，**不宣傳為已開放投資移民項目**。須查2026外國人法及Article 70g文本、國籍適用、投資與許可性質後才可定案；這次未宣稱解決。
+
+### 對帳與不可發布條件（2026-11-15）
+110/110為CSV已登錄來源／待核分類，不是已核驗可申請。當前分類為**101筆B部分核實、5筆新案停止但舊案欄位未補、4筆官方分類/證據爭議（其中馬爾他Citizenship by Merit非公開移民方案）**，尚待登錄入口0筆；**全欄C/D完成0/110**。仍必須核對中國大陸／香港／台灣護照、當期薪資和資金、費用、生效日期、工作、家屬、續居、永居，以及所有國家頁鏈接/手機版/SEO/無障礙/正式站測試。原PR #107已合併，這些修訂只在草稿PR #108審核分支；**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 2026-11-15 第53輪：啟動110條逐欄完整政策核驗（非宣布完成）
+
+**核心變更**：新增 `docs/europe-mobility-110-field-evidence.csv`；110條路線逐條設獨立欄位：中國大陸普通護照、香港特區護照、台灣護照、資格、薪資/資金、政府費用、許可期限、工作權、家屬、續簽、永久居留、法律生效日期，以及官方URL、證據連結、未解問題、是否C/D全欄核實。欄位沒有主管機關證據時記 `未核`，不能把既有單一政府首頁或B級總覽直接轉為12個已核欄位。原`europe-mobility-110-route-audit.csv`保留初級來源目錄，新的逐欄矩陣才是未來C/D審計依據；全欄C/D仍0/110。
+
+### 第53-A 英國 Skilled Worker 依2026-11-15當期Home Office逐欄核對
+- **國籍**：Immigration Rules Appendix Skilled Worker條款SW3.1要求境外先獲准entry clearance，SW3.3禁止阿富汗國民以該身份申請；中國大陸、香港特區、台灣旅行文件的具體認可、領館地區及簽證中心審核未獨立查完，三欄維持`部分核`而非`已核`。
+- **核心資格**：需核准sponsor的CoS、合資格SOC職位、適當薪資、英語一般至少B2；2026-01-08之前已有該路線、續簽/更新且符合條件的既有持有人，可沿用B1。官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker ; https://www.gov.uk/skilled-worker-visa/knowledge-of-english
+- **薪資/資金**：一般年薪至少**£41,700**或該職位going rate較高者，存在薪資/職類/過渡豁免；初次生活費通常**£1,270**持有至少連續28日，第28日在申請前31日內；可有已在英12月或sponsor資助例外。官方：https://www.gov.uk/skilled-worker-visa/your-job ; https://www.gov.uk/skilled-worker-visa/how-much-it-costs
+- **申請費**：當期普通境外首次≤3年£819、>3年£1,618；境內延續/轉換≤3年£943、>3年£1,865；在immigration salary list可有更低費用，通常IHS£1,035/年，醫療護理另有豁免和另案費用。官方：https://www.gov.uk/skilled-worker-visa/how-much-it-costs
+- **期限/工作權**：一次最多5年、可符合條件再續；允許核准職務及某些第二份工作、志願工作和進修，不可領大多數公共福利；換雇主或職碼通常須申請變更後才能開始新職。官方：https://www.gov.uk/skilled-worker-visa ; https://www.gov.uk/skilled-worker-visa/update-your-visa-if-you-change-job-or-employer
+- **家屬**：伴侶及符合資格子女另申請，**care worker和medium-skilled於2024/2025新政策後有子類排除/過渡**，不能一律宣稱可帶家屬。附屬資金通常伴侶£285、首名子女£315、每多一名子女£200；現有豁免另查。官方：https://www.gov.uk/skilled-worker-visa/your-partner-and-children
+- **續簽與定居**：同雇主同職碼且符合薪資時可續；2026-11-15時現行官網仍列合資格Skilled Worker通常5年申請ILR，須符合居留/薪資/雇主及其他要求；ILR政府費目前£3,226／人，伴侶另有年期及資格要求。官方：https://www.gov.uk/skilled-worker-visa/extend-your-visa ; https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/overview ; https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa/family-members
+- **未生效改革**：2026-11-02政府earned settlement回應提出10年標準、多檔快慢條件，但官網明說尚待詳細規則及施行安排，不可把改革框架代替現行5年法規。2027-03-26部分定居申請英語提升B2已另有正式規則公告，需單列將來生效。官方：https://www.gov.uk/government/consultations/earned-settlement ; https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1619-5-march-2026/explanatory-memorandum-to-the-statement-of-changes-in-the-immigration-rules-hc-1691-5-march-2026-accessible
+
+**本輪具體限制**：Skilled Worker已有多欄官方證據，但缺三地細分護照、按SOC碼的例外、家屬所有分支、2026年新法規適用和定居改革過渡，所以仍維持 **B級部分核實，不升C/D**。另109條在新矩陣未取得此輪逐欄獨立比對的項目都保持`未核`，不能從Markdown歷史段落推定完成。
+
+**發布閘門**：PR #107已合併（歷史事實），此次只寫入PR #108 `audit/europe-mobility-110-official-checks`；110條B/關閉/分類證據覆蓋**不等於全部政策核驗**。所有三地護照、費用、家屬、續居、永居、生效日和手機/連結/SEO/無障礙/預覽部署實測完成前**禁止合併、禁止部署、禁止對外宣稱110條完成核驗**。
+
+
+## 2026-11-15 第54輪：三地護照／家屬／永居／生效日期專項（逐欄矩陣3條）
+
+**執行規則**：本輪僅把有官方主管機關直接證據的欄位寫入 `docs/europe-mobility-110-field-evidence.csv`；其餘保留未核。特別區分短期免簽（90/180）、特定政府促進計劃適用國籍、長期簽證與永久居留，四者不能互推。C/D依然0/110。查核日期：**2026-11-15**。
+
+### 捷克 `czechia-digital-nomad-program` 
+- 工業貿易部2025-07-01數字遊民專頁適用國籍清單含**台灣**，未列中國大陸及香港；這只限制這項加速計劃，不表示兩地申請人不能走其他捷克合法居留方案。
+- 該計劃針對高技能IT/行銷的境外遠距受僱者與合資格自由職業者；配偶、註冊伴侶及符合條件子女可同時參與政府計劃，但各人仍須按其目的另辦長期簽證/居留。
+- 捷克內政部一般永久居留條件通常**5年連續合法居留**，須依所持具體長期簽證/居留類別、缺席及排除期間計算，**加速計劃入選本身不給永居**；家屬受僱權另查。
+- 來源：https://mpo.gov.cz/en/foreign-trade/economic-migration/digital-nomad-program--275799/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/ ; https://ipc.gov.cz/en/administrative-proceedings/continuous-residence/
+- 尚待：台灣旅行證件申請領區、家屬工作/續期、具體簽證年資算法及當期費用。
+
+### 斯洛文尼亞 `slovenia-digital-nomad-permit`
+- 駐北京使館：中國大陸**普通護照須短期簽**、香港特區與台灣護照**短期免簽**；上述是短期入境規則，不是長期數字遊民居留資格已批准。
+- 內政部：該非EU/EEA境外遠距工作臨時居留**2025-11-21正式推出**，最多1年、不可延長同一許可；原許可屆滿6個月後才可重新申請同類；許可有效期間可改申其他合資格居留。
+- 家屬可**即時申請團聚**，不受一般居留年限限制，但家屬當地獨立工作權及該簽證能否計永居年資沒有核實，保持「未核」。
+- 來源：https://www.gov.si/en/representations/embassy-beijing/visa-information-of-the-embassy-beijing/ ; https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads
+- 尚待：三地實際申辦地及文件、家屬受僱、合法居留年資和新法修訂。
+
+### 拉脫維亞 `latvia-remote-work-visa`
+- 外交部2026-03-26免簽名單：香港特區可90/180日短期免簽；台灣護照**須載有身分證號**；中國大陸普通護照不在一般短期免簽名單（外交護照另有例外）。**短期免簽不等於D簽。**
+- OCMA 2026-06-15遠距工作D簽頁：境外雇主或自僱須在OECD會員國註冊，雇員要證明至少6個月既有聘用；當時規定月收入€4,538，D簽最多1年；**不准在拉脫維亞本地受僱**。
+- OCMA官方2026-09-15新Immigration Law實施公告稱D簽申請程序保持不變；家屬能否隨行與工作、再次申請、永居年資未經直接核實。
+- 來源：https://www.mfa.gov.lv/en/countries-and-territories-whose-citizens-may-enter-latvia-without-visa ; https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work ; https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations
+- 尚待：三地長期簽證領事流程、家屬資格、D簽續居/轉永居年資。
+
+### 本輪進度與限制
+- 110條都已建立逐欄矩陣；本輪對**3條**補上實際三地國籍、家屬、續居、永居及生效日期的官方核對證據，並明確保留未核欄位。**這不是3條整體通過C/D，也不是全部110條完成。**
+- 優先下一批：同類遠距工作（克羅地亞、塞浦路斯、馬爾他），並以主管機關逐欄核定；其他路線仍待逐條同樣處理。
+- PR #108僅審核，原PR #107已合併；**DO NOT MERGE / DO NOT DEPLOY / 不宣稱全量核驗完成**。
+
+
+## 2026-11-15 第55輪：克羅地亞、塞浦路斯、馬爾他數字遊民三地護照／家屬／永居
+
+**工作底稿**：`docs/europe-mobility-110-field-evidence.csv`（110路線、12欄），本輪對3條已有B級官方來源的數字遊民路線逐欄補上政府證據。核對日期2026-11-15。只更新Draft PR #108分支；此為部分欄位核實，不代表C/D完整通過。
+
+### Croatia — croatia-digital-nomad-temporary-stay
+- 主管機關 MUP 確認非EU/EEA/瑞士人士須為境外公司遠距工作、不向克國本地雇主提供服務；當期財力€3,622.50/月或12月存款€43,470，家屬每人再增前一年平均淨月薪的10%。最長18月；原批准較短時須最遲到期前60天申請、最多延6月；再申請同類一般須屆滿後6月。
+- 主申請人的居留**須先批核**，近親才可申請團聚；家屬提前申請會被拒。官網未明示團聚家屬可否受聘本地，故保留未核，不能推定工作權。
+- 大陸普通護照一般需要簽證的受理及D簽流程、香港短期免簽已有此前官方核驗底稿，但**台灣護照的克國外交部當期原始分類和辦理領區本輪仍缺**，保持未核；短期免簽不能代替居留許可。
+- 克國一般長居可能要求5年連續合法居留，但**未取得該數字遊民居留計入長居年資的直接法條證明**。MUP頁面提Official Gazette 14/21及3/26作資金計算依據，18月規則的實施日須查現行原法。
+- 官方：https://mup.gov.hr/aliens-281621/stay-and-work-281622/temporary-stay-of-digital-nomads/286833 ; https://mup.gov.hr/aliens-281621/temporary-stay-281662/281662
+
+### Cyprus — cyprus-digital-nomad-visa
+- 移民部2025-12-31公告重新收件，名額總上限500；非EU/EEA、境外僱主/客戶、淨收入€3,500/月；首次1年，可再續最多2年。申請/續居€70、初次外國人登記另€70，續期應至少到期前1個月提出。
+- 配偶/民事伴侶及未成年子女可以依主申請人取得居留，但**家屬明確不能在塞浦路斯受僱或從事任何經濟活動**。不可拿一般家庭團聚的其他工作權直接套入Digital Nomad特定家屬類別。
+- 非EU/EEA共通條件不等於已證實大陸／香港／台灣三種護照的入境與領事實際程序；尤台灣旅行證件認可尚未核完。
+- 長期居民一般制度涉及5年合法連續居留及排除僅暫時居留的類別；**Digital Nomad時間是否計入尚無該類別直接法條證實**，不能承諾3年卡→永居。
+- 官方：https://www.gov.cy/mip-md/en/documents/digital-nomads-and-family-members/ ; https://www.gov.cy/mip-md/en/documents/acquisition-of-the-status-of-long-term-resident-in-the-republic-2/
+
+### Malta — malta-nomad-residence-permit
+- Residency Malta官方FAQs v14.1更新於2026-04-17：非EU/EEA/瑞士人士，與境外雇主/公司/客戶遠距工作；一般年稅前收入至少€42,000，2024-04-01之前既有申請€32,400舊門檻，€300/人不可退行政申請費。
+- 2026 FAQ「Which nationalities require an entry visa?」**明列China**；獲計劃批准後需依Identità Central Visa Unit辦入境簽。香港及台灣旅遊簽證/旅行證件認定仍須查外交官方名單，不因不在該頁列表便宣稱全部免簽。
+- 可納配偶、未成年子女及條件符合的受養成年子女；通常核准後不得新增家屬直到續期，新生兒例外。**家屬與主申請人都不得向馬耳他本地企業/個人提供服務或從事本地經濟活動**；本地受僱需另改相應許可。
+- 初次1年、可酌情續3次總最多4年；續簽須過去12月累計在馬爾他居住至少5月；官方明確**不通往永久/長期居留、國籍或自動轉MPRP**，不可宣傳「住4年換永居」。
+- 官方：https://nomad.residencymalta.gov.mt/new-faqs/ ; https://nomad.residencymalta.gov.mt/nomad-eligibility/
+
+### 第55輪對帳及紅線
+- 本輪完整補查3條的重點欄位；仍有家屬工作、三地護照領事細節、長居計算和實施法條存在未解，**3條仍未達C/D**。
+- 110/110路線已登錄來源與逐欄矩陣，但所有欄位完整C/D仍為0/110；不得稱110條官方條件均全部核實。網頁與手機/SEO/連結/可訪問性全量測試仍未進行。
+- **PR #108審核分支不得合併／部署。**
+
+
+## 2026-11-15 第56輪：永居年資與家屬工作權（三條路線逐欄核驗）
+
+### 英國 HPI — `uk-hpi`
+- Home Office 2026-10-29 Appendix HPI 確認不需僱主擔保、按學位授予時Global Universities List審核、年度8,000申請限額（11月1日—翌年10月31日）。通常學位近5年內取得，個別文件/豁免需再查。
+- GOV.UK現行費用：簽證£880、Ecctis£252含VAT、IHS一般£1,035/年；申請人生活費通常£1,270（連續28日、申請前31日內），家屬另須資金。許可一般2年、博士3年。
+- 家屬：伴侶及合資格子女可申請，家屬可受僱，但不可當職業運動員/教練；伴侶£285、首子女£315、後續每名£200資金，具法定例外。
+- **永居**：官方明確 HPI **非 settlement route，HPI居留時間不計入該類定居申請年期**，不可直接延長HPI；轉Skilled Worker等他種路線須重新符合其定居規則。
+- 中國大陸/香港/台灣：未從此路線一般法規取得排除條文，但各自護照、領館、入境/工作長簽程序及領事文件未逐一核，三欄仍保留部分核。
+- 官方：https://www.gov.uk/high-potential-individual-visa ; https://www.gov.uk/high-potential-individual-visa/your-partner-and-children ; https://www.gov.uk/high-potential-individual-visa/how-much-it-costs ; https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual
+
+### 匈牙利 White Card — `hungary-white-card`
+- OIF官方：外國僱主/境外盈利公司遠距工作，前6月及整個許可期每月合法淨收入至少€3,000，須有住所及醫療保障；不得在匈牙利本地雇主受僱或持本地企業股權。
+- 最長1年、只可續1次；OIF官網要求在到期前90天內、最遲前30天辦續期，近期180日內在匈居住至少90天。
+- **家屬**：White Card持卡人/申請人原則**不得擔保家庭團聚**，於匈牙利出生子女的有限例外除外。
+- **永久居留**：White Card持卡人不具申請 **National Residence Card** 資格；官網另指出在其有效期間或屆滿後不能在當地改申其他居留目的。不得宣傳為3年後可永居的路線。
+- 三地護照：皆須先依第三國一般原則篩選，**短期免簽能否境內申請**由個別旅行文件決定，香港及台灣免簽文件仍須外交部另核，不作自動承諾。
+- 官方：https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads ; https://oif.gov.hu/factsheets/residence-permit-for-the-purpose-of-family-reunification ; https://www.oif.gov.hu/factsheets/national-residence-card
+
+### 荷蘭 Highly Skilled Migrant — `netherlands-highly-skilled-migrant`
+- IND官方認可擔保僱主與合資格薪資聘用；許可最長5年，依雇主申請續期。
+- 家屬須經IND家庭許可另行核准，家屬工作註記及細分費用仍待逐欄原文證據，不能自動以主申請許可推定。
+- **失業求職緩衝期新規（2026-05-22起）**：一般最多3月；失業發生於2026-05-22及之後且已持此許可至少2年者，最多6月，不能超過現卡效期；未找到新僱主可能撤銷許可。
+- **永久居留**：IND一般要求連續合法持有居留至少5年、荷蘭維持主要居所、滿足收入和融入等適用條件；合格後**可申請**但不是自動永居。
+- 三地護照是否須MVV與免簽/領事申請地不同，需分別查當期IND正式豁免條款；未完成，仍B級。
+- 官方：https://ind.nl/en/residence-permits/work/highly-skilled-migrant ; https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit ; https://ind.nl/en/temporary-and-non-temporary-purposes-of-residence
+
+### 第56輪總結
+- 本輪三條已補入 `docs/europe-mobility-110-field-evidence.csv` 的具體政府證據、家屬、永居和生效欄位。2026-11-15查核。
+- 仍缺各三地護照MVV/領事/旅行證件、部分家屬與最新費用、完整法條生效日，因此**全欄C/D完成依舊0/110**。110/110只是完成政府證據索引，不等於所有路線可申請。
+- 只在 draft PR #108 分支，**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 2026-11-15 第57輪：德國 EU Blue Card、葡萄牙 D7／D8及英國 Graduate 關聯核查
+
+**修改範圍**：110路線逐欄矩陣更新3條（`germany-eu-blue-card`、`portugal-d7-visa`、`portugal-digital-nomad-visa`），均B部分核實、不升C/D。英國 Graduate不在原RUN 99+11的110條中，故只作關聯制度核查，不虛增第111條。查核日期2026-11-15，僅政府主管機關來源。
+
+### 德國 EU Blue Card
+- 德國聯邦官方Make it in Germany：§18g 2026一般年薪€50,700；合資格緊缺職類、新畢業及IT人才€45,934.20，須有至少6個月工作聘約，IT無學位類別要求過去7年中至少3年相應專業經驗。三地護照均須各自核對領事程序，不能以第三國通則推定免簽可直接工作。
+- 配偶團聚通常不須事先提出德語證明，另有家屬簡化措施；父母及配偶父母團聚僅適用特定首次領證/法律條件，**不是所有藍卡都可直接接父母**。
+- §18c(2)藍卡定居許可：符合合資格工作與法定養老保險供款**27個月+A1德語**，或**21個月+B1德語**，及生計、住所、法制知識等條件，可提出申請；**絕非滿21月自動永居**。現行藍卡修法自2023-11-18起，部分家屬新便利自2024-03-01起，2026工資門檻是當年度數字。
+- 官方：https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card ; https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit ; https://www.make-it-in-germany.com/en/visa-recognition/family-reunification/spouses-joining-non-eu-citizens ; https://www.make-it-in-germany.com/en/visa-residence/skilled-immigration-act
+- 未解：3種旅行證件的各領館簽證工作權、精確費用及更新雇主細則、家屬資格與更新條文。
+
+### 葡萄牙 D7（正式類別：退休者及以自有收入生活者）
+- gov.pt官方服務2026-05-22修訂，對象是非EU/EEA/瑞士人士；要有效護照、來源明確的退休或自有收入、住宿、保險、無犯罪材料；**D7是俗稱，不是AIMA所有居留共用許可**。領館費表與不同國家實際材料待核；2024年舊€90費用不得直接當2026現行。
+- AIMA一般臨時居留初次2年、每次續3年（除特定特殊法規）；Art98家屬團聚可申請但須關係與財力文件。AIMA家庭收入比例頁仍標示2025最低工資，因此只能引用100%首成人/50%次成人/30%兒童的比例，不可套用舊年度絕對金額；2025後家屬新法等待期/豁免需原法再核。
+- AIMA Art80永久居留：已合法持**臨時居留至少5年**，有住所、生計、基礎葡語能力、稅務/社保合規、符合犯罪審核等方可申請。2026-11-06新推出永居**預約表單入口**，不是2026才創設5年永居資格，也不是預約即批准。
+- 官方：https://www.gov.pt/servicos/pedir-um-visto-de-residencia-para-fixacao-de-residencia-de-reformados-religiosos-e-pessoas-que-vivem-de-rendimentos-proprios ; https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o ; https://aima.gov.pt/pt/viver/reagrupamento-familiar-com-familiar-fora-de-territorio-nacional-art-98-o-n-o-1 ; https://www.gov.pt/noticias/aima-tem-nova-forma-de-pedir-agendamento-de-residencia-permanente
+- 未解：D7境內可從事有償工作之具體條文、三地旅行文件/領館、家屬2025後限制、實際續居/永居缺席計算及精確費用。
+
+### 葡萄牙 D8（Art88(1)境外遠距工作居留）
+- AIMA現行專頁規定持有效遠距工作居留簽，提交護照、境外雇主/客戶證明、葡國住宿資料；**首次居留2年、每次續3年**。不可把遠距工作居留簽證及AIMA正式居留卡當作同一證件。
+- 家屬依AIMA Art98團聚，法定批核後居留期限通常隨主申請人，但2025年後等待期/例外仍須核；D8本身不自動附送家屬工作權。
+- 依AIMA Art80，合法持有臨時居留5年且滿足葡語、財力、住址、稅社保及犯罪要求，可按條件申請永久居留。**是否所有D8持證時間可連續計入、出入境缺席/中斷如何計算仍未全核**。
+- 官方：https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe ; https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o ; https://aima.gov.pt/pt/viver/reagrupamento-familiar-com-familiar-fora-de-territorio-nacional-art-98-o-n-o-1
+- 未解：三地旅行證件與領事費、2026實際收入/稅前稅後標準、家屬完整待遇、永居缺席規則。
+
+### 英國 Graduate（110條外關聯核查，不計入CSV）
+- Home Office Appendix Graduate現行GR8.1：2026-12-31或之前一般2年；**2027-01-01起**一般18月，博士3年。此路線為境內Student完成合資格學位後申請、不能延長同類、非settlement route。
+- 除英國在Student階段已具合資格附屬家屬身份（或特定在英出生子女）外，通常不得在Graduate階段新增家屬。官網明確原Student附屬家屬可申請延續，家屬可工作但不得當職業運動員。
+- 官方：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate ; https://www.gov.uk/graduate-visa/your-partner-and-children ; https://www.gov.uk/graduate-visa
+- **不增加RUN路線數**，仍110條。
+
+### 第57輪對帳與發布限制
+- 官方路線／分類證據索引110/110，逐欄矩陣110/110；第54–57輪累計深入補核12條（不含Graduate關聯政策）。全部欄位C/D仍**0/110**。本輪3筆仍B級，三地領館申辦、部分家屬、工作、永居年資/生效日等未完。
+- 原PR #107已合併；此次只更新draft PR #108 `audit/europe-mobility-110-official-checks`。**DO NOT MERGE / DO NOT DEPLOY / 不宣稱全量核驗完成**。
+
+
+## 2026-11-15 第58輪：愛爾蘭 CSEP、奧地利 Red-White-Red、瑞典 Work Permit（官方逐欄與三地護照）
+
+**範圍**：根據 RUN 原始 `data/programmes.json` 99條及 `src/extra_routes.json` 11條之索引（計110唯一ID、36國），本輪逐欄新增3筆官方證據。研究日期：**2026-11-15**；此輪僅 `audit/europe-mobility-110-official-checks` 分支，**B部分核實**，C/D仍0/110，未動正式主站/PR#107。注意RUN自身94條「open」、5條「closed」、11條未提供狀態預設open都是原始資料**非政府當期核准狀態**。
+
+### 愛爾蘭 `ireland-critical-skills-employment-permit`（現行，部分核驗）
+- **資格及2026薪資**：愛爾蘭DETE的CSEP職位要真正經營的合資格僱主、至少兩年聘約。2026-03-01起合資格緊缺職類一般年薪 **€40,904**；符合12個月內取得合資格學歷者可適用 **€36,848** 例外；高薪開放職類 **€68,911** 年額（排除不合格職類、並有學歷/經驗與公營薪酬特殊規則）。工簽申請費 **€1,000**、不成功通常退90%；簽證/IRP其他費用另計。2025-12-02薪酬路線圖已明定2026-03-01施行，**此日期不代表整個CSEP才推出**。
+- **三地證件**：中國大陸普通護照需依ISD另申愛爾蘭Employment D長期入境簽，且應**先取得DETE工作許可**；香港特區、台灣列在政府官方非入境簽證國籍/地區清單。三者均需實際Employment Permit、移民官入境批准/居留登記；**免入境簽不是免工作許可**。政府非簽國籍表有較舊公示，三地個別旅行證件和領館新要求仍部分核實。
+- **家屬**：CSEP屬可立即為配偶、民事/實質伴侶及符合條件家庭申請團聚的類別；配偶/伴侶獲Stamp1G後可工作毋須獨立Employment Permit。**DETE舊CSEP介紹仍寫申請免費Dependant/Partner/Spouse Employment Permit，與ISD更新2024-05-15的Stamp1G政策不同；核定以較新ISD移民主管機關安排處理，後續留意更新**。子女權利另核。
+- **居留/永居**：基於CSEP實際工作滿**21個月可按條件申請Stamp4**（每2年續），但**Stamp4不是永居**；ISD Long Term Residency另一般要求**60個月基於employment permit的Stamp1/Stamp4合法居留**，獲批准後給予5年免Employment Permit的工作居留，不能以21個月混淆。
+- 官方：DETE https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/ ; https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html ; https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/fees/ ; ISD https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-renew-your-current-permission/information-on-stamp-4-upgrades/ ; https://www.irishimmigration.ie/coming-to-join-family-in-ireland/joining-a-non-eea-non-swiss-national/ ; https://www.irishimmigration.ie/attention-eligible-spouses-and-partners-of-general-employment-permit-and-intra-corporate-transferee-irish-employment-permit-holders/ ; https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/long-term-residency/ ; 非簽表 https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/press-releases/single-application-procedure-for-employment-permits-and-immigration-permissions-to-be-developed/
+- **待解**：三地當期護照領區和台灣旅行證件細節、家屬子女工作權、完整個案/IRP費、實際工資組成豁免、愛爾蘭DETE舊介紹與ISD現行Stamp1G呈現差異，C/D未達。
+
+### 奧地利 `austria-red-white-red-card`（現行多子類，部分核驗）
+- **2026短缺職類核驗重要更正**：RWR概覽頁的連結標題可能仍說「2025 shortage occupations」，但奧地利2026官方清單已生效；以RIS的**Fachkräfteverordnung 2026，BGBl. II 316/2025**為準，2025-12-23公布，**2026-01-01至12-31**有效。核對全國與州別兩份2026清單，不得沿用2025名單替2026申請人定資格。
+- **資格、費用**：短缺職類要2026法定名單/對應訓練、offer和AMS積分**55分**以上、至少集體協約薪資；RWR一般有效24月，綁定批准雇主；申請費官方 **€218**。**其他關鍵員工**另有2026最低毛月薪**€3,465**及勞動市場測試；不能把這一數字套進全部RWR子類。
+- **三地護照**：中國大陸普通護照通常須申根短期簽；香港特區護照短期旅遊/商務90天免申根簽；**台灣護照須印身分證號才90/180短期免簽**。但RWR全須居留/工作批准；有簽證要求者尚要辦相應D簽領取卡片，不能以旅遊免簽直接工作。
+- **家屬工作權**：配偶/註冊伴侶一般申請時至少21歲，子女申請時未滿18歲；通過家庭許可資格後可取得**Red-White-Red Card plus，享不受雇主限制的勞動市場准入**。通常先備A1德文（有特定例外），家屬資金、住宿和健康保險要求仍須合格；2026一般ASVG財力參考單身€1,308.39、夫婦€2,064.12，每名兒童再€201.88，按具體規則/支出核。
+- **續期及永居**：前24個月依RWR條件受僱至少21個月可申**RWR plus**，這是**可自由工作但仍有限期的居留**，非永居；一般需合法連續定居5年、滿足其他標準並完成Integration Module2（通常德語B1+社會法律常識），才可申長居EU。
+- 官方：短缺申請 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/ ; 2026全國 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/ ; 州別 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/regional-shortage-occupations/ ; RIS原法 https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_II_316/BGBLA_2025_II_316.html ; 期間 https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40274302/NOR40274302.html ; 其他員工 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-key-workers/ ; 家屬 https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/ ; 整合 https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/ ; 官方台灣簽 https://www.bmeia.gv.at/en/austrian-office-taipei/travels-to-austria/entrance-and-residence/how-to-apply ; 香港領館 https://www.bmeia.gv.at/gk-hongkong/reisen-nach-oesterreich/einreise-und-aufenthalt/wie-stelle-ich-einen-antrag/
+- **待解**：各RWR子類薪酬和申請文件的逐型對應、2026職位個別申請是否符合、三地領區D簽實操、家屬例外與長居年資缺席判準；不能把短缺職位目錄當整張RWR永久有效。
+
+### 瑞典 `sweden-work-permit`（現行，2026新規及過渡，部分核驗）
+- **薪資政策與生效日**：2026-06-01起新work permit普遍最低**瑞典中位薪資90%**；2026-06-16公布中位工資SEK38,300，當期底線**SEK34,470/月**（仍需至少符合集體協約/業界慣例）。政府列舉例外職業/類別為中位薪資**75%（SEK28,725）**，非所有人自動適用。部分職業（如森林野果採集、私人助理）自6月1日起不可核簽。
+- **費用/居留**：申請SEK2,200；成年家屬SEK1,500、子女SEK750。合格聘約、職保/綜合醫保等；工作許可最長2年且不長於聘約和護照效期。
+- **三地證件**：中國大陸普通護照、香港特區護照及台灣旅行文件都按非EU/EEA工作許可制度審批；中國大陸通常須申根短期簽、香港短期免簽、台灣載身分證號者短期免簽，但**短期簽證規則不能推論可在瑞典工作**，領館及生物辨識實操逐個保留部分核。
+- **家屬權利與2026-10-01改制**：合格配偶/登記或同居伴侶、未滿21歲子女（特定21+受養例外）可隨主申請人一起申請，獲准後成年家屬及申請年度滿16歲子女可以工作；主申請人須維持足夠家庭收入及住宿。**2026-10-01起工作許可家屬的扶養資力要求延伸至續簽**，有家庭收入計算和其他家庭團聚類別的不同例外，不應把一般其他家屬類別「居住2年才可團聚」直接套用到同時申請的受僱者家屬。
+- **舊簽續期過渡**：2026-06-01前已獲批的許可在6/1至**12/1**期間延簽，仍可能沿用**80%中位薪資**規則（當期SEK30,640），**2026-12-02**及以後登記延簽原則要新90%（法定豁免除外），並非所有持卡人從6月1日立即升90%。
+- **永久居留**：近7年內持工作許可並符合條件工作至少**4年**，可隨延簽申請永久居留，另需持續自我維生及品行評估；已持家屬許可至少3年且成年的家屬須財務自立等，可申請自己的永居。**非自動取得**。
+- 官方：主規則 https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/employees.html ; 薪資 https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html ; 2026-06-16新中位 https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html ; 續期與永居 https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html ; 家屬新規 https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingemployees.5.15b2309e1a04e5ed2071c33.html ; 家屬詳情 https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/family-of-an-employee-or-self-employed-person-who-apply-afterwards.html
+- **待解**：具體三地領區與實際旅行文件、雇主變動要求、75%豁免名單個案、家屬特殊例外和延簽個案過渡情況；永居4/7年缺席及其他計算細節。
+
+### 第58輪進度及品質閘門（2026-11-15）
+- RUN來源資料99+11／36國／110唯一ID核對完成，**94個原RUN open、5個原RUN closed、11個無狀態預設open皆不代表政府當期核定**。
+- **110/110已登錄來源及矩陣；第54–58輪累計深入逐欄補核15條**（本輪3條），另外95條尚待同等逐欄深核。**C/D全欄驗證仍0/110**，本輪三條仍為B部分核實。
+- 未完成三地各領館、歷史法條生效和部分家屬細則；待確認不可寫「全條核驗通過」。第57輪的英國Graduate只是索引外關聯政策，不列入110。
+- 原PR #107曾用於站點導覽，本輪依安全原則**僅更新draft PR #108分支**，不回寫已合併PR107，也未更動正式網站或發布。**DO NOT MERGE / DO NOT DEPLOY**；需110條C/D全部核實與全站回歸/手機/SEO/可訪問性測試通過後再審正式部署。
+
+
+## 2026-11-15 加速核驗補充：捷克 Employee Card（部分官方核驗，禁止全量完成宣稱）
+- 路線 ID：`czechia-employee-card`；狀態：現行官方制度，**部分欄位核實，未達 C/D**。
+- 資格：捷克內政部官方稱第三國公民可申請，涵蓋不同教育/資格程度職位；須符合具體聘僱及雇主可靠性要求。中國大陸、香港特區及台灣個別護照的領事受理／入境程序**未獨立核實**。
+- 有效期：最長2年，可因工作合約或工作許可期限縮短。
+- 工作：持有效卡可依核准職位在捷克工作。換雇主/職位須向內政部報告；不具自由勞動市場准入者須按規定先通報、取得書面合規通知才開始新職；失業後一般需90日內完成相關通知或轉換，否則卡可能失效。
+- 費用及審核：捷克**境內申請及續期**官方列行政費CZK 2,500；審理通常60日，複雜個案可90日。境外領館收費與三地受理依個案另核，勿套用CZK 2,500。
+- 續簽：官方列可於到期前最早120日申請，最遲有效期最後一日；依符合條件的同一工作職位提出續期時，審理中可依法繼續工作。
+- 永居：捷克一般可於5年合資格臨時居留後申請，不是Employee Card持有滿5年自動取得；連續居留及缺席計算待核。
+- **未核欄位**：最低薪資/合約工時精確規定、境外申請費、三地護照領事操作、家屬類別及家屬工作權、2026修法實際生效日、精確永居計算。
+- 官方來源（核對日2026-11-15）：https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/employee-card-change-of-employment/ ; https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/
+- 發布閘門：仍保持關閉；新核實欄位可作準備，不代表該路線全欄核實或110條完成。
+
+
+## 第59輪（2026-11-15）捷克 EU Blue Card 官方逐欄補核
+- ID：`czechia-eu-blue-card`；**現行路線，B部分核實，不是C/D全欄完成**。
+- 官方：捷克內政部移民資訊平台 https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/blue-card/ （2026-11-15查核）。
+- 資格：第三國高技能人才；通常至少3年高等教育或指定專業技能替代；需適合職位、藍卡招聘空缺編號、合約及薪資。
+- 重要官方頁內文字差異：概覽寫聘約至少1年，但境內及境外申請文件段落均寫至少6個月；暫保留**合同期限未釐清**，不替代政府解釋。
+- 薪資至少捷克平均毛薪1.5倍；**2026實際CZK最低薪資額待核**。
+- 外交領館境外申請費CZK 5,000；境內申請及續簽CZK 2,500。境外通常90日審理；其他EU藍卡持有人轉捷克境內申請有30日/複雜60日特殊時限。
+- 藍卡有效期為聘用合約期加3個月、最高3年；可多次續簽，最早到期前120日申請，通常60日處理；及時同職位續件有繼續工作安排。離職3個工作日內通知內政部。
+- 家屬：官方列家屬團聚及領館申請縮短90日處理，惟個別家屬工作權、資格及中國大陸/香港/台灣領事受理未核。
+- 永居：官網說5年合資格捷克或EU藍卡居留可按條件申請，不是5年自動給永居；跨境居留及缺席計算未完成。官方補源 https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-general-information/
+- 三地申請人：第三國公民一般制度可初篩，但中國大陸普通護照、香港特區護照、台灣護照各自領館/文件/簽證實際差異**尚未核**。
+- 未解：聘約最低月份矛盾、2026具體薪資數額、家屬工作權、護照領事路徑、2026生效日、跨境永居年資。
+- 累計：第54–58輪15條深入補核；之前新增捷克Employee Card 1條；本輪新增捷克EU Blue Card 1條，依此口徑**17/110有深入補核紀錄**，但所有110條仍**C/D 0/110**。未完成全站測試，嚴禁合併PR108或正式部署。
+
+
+## 第61輪（2026-11-15）拉脫維亞 EU Blue Card、愛沙尼亞 Startup Visa
+
+**範圍：原RUN 110條中的2條；現行但僅部分官方欄位核實，C/D 均未完成；本輪無權改為完整核實或發布。**
+
+### 拉脫維亞 EU Blue Card（`latvia-eu-blue-card`）
+- PMLP 2026-03-16更新、2026-04-01起：一般工資門檻€2,723/月（1.5×上年平均毛薪），內閣指定短缺職業€2,178/月（1.2×）。**舊藍卡介紹頁2022€1,916／€1,532不得沿用。**
+- PMLP 2026-03-18更新費用：藍卡申請文件10個工作日€160、5個工作日€280；實體卡製發及其他費用可能另計。**舊費用頁列€100／€200不得沿用。**
+- 合資格就業居留最長5年；短聘約等條件有合同期+3個月特例。配偶及子女可按條件申請，實際受僱權仍待核。
+- 長居原則：合資格5年連續合法居留、收入及A2當地語，並有離境限制和藍卡例外；非自動永居。
+- 對中國大陸、香港、台灣三地護照領館／簽證及具體家屬工作權、續簽、跨國年資計算仍未核。
+- 官方核查日2026-11-15：
+  - https://www.pmlp.gov.lv/en/necessary-subsistence-0
+  - https://www.pmlp.gov.lv/en/state-fee-issuing-residence-permit
+  - https://www.pmlp.gov.lv/en/es-blue-card （**舊數值，僅比對**）
+  - https://www.pmlp.gov.lv/en/how-long-may-residence-permit-be-issued-0
+  - https://www.pmlp.gov.lv/en/long-term-resident-status-european-community-latvia
+  - https://www.pmlp.gov.lv/en/employer-invites-foreigner
+
+### 愛沙尼亞 Startup Visa／Founder（`estonia-startup-visa`）
+- Startup Committee 須認定為合規創新及可擴展的初創業務；一般審理10工作日。創業D簽與創業臨時居留是兩種不同許可，e-Residency本身不授予居留權。
+- 愛沙尼亞外交部現行 D 簽費**€120成人**、6–11歲€60；Startup Estonia舊頁列€80及一處€100，需以外交部當期資料為準。創業用途資金主申請€880/月、配偶€704/月。
+- D簽最多365日/12個月；相繼長簽合計不得超過548日/730日；之後可另申經商臨時居留，符合條件最長5年。**5年臨時卡≠5年自動永居**。
+- 創業家屬類別可申相關簽證；獨立工作權及全部臨時居留要求未核。
+- 對中國大陸、香港、台灣護照的領事受理、家屬獨立工作權、創業居留費用、轉換、續簽及永久居留計算仍待核。
+- 官方核查日2026-11-15：
+  - https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
+  - https://startupestonia.ee/startup-visa/foreign-founder/
+  - https://startupestonia.ee/frequently-asked-questions/
+
+### 累計與發布閘門
+- 原RUN **110/110**已有來源矩陣。先前第54–59輪及捷克Employee Card共**17條**深入補核；第61輪**新增2條**，按此前口徑現為 **19/110**；其他舊輪部分核查不等於全欄完成。
+- 全欄 C/D：**0/110**。未完成三地領館、家屬／永居、條款實施日等；PR #108不得合併，亦不得以本次部分核驗作正式政策上線理由。
+
+
+## 第62輪（2026-11-15）擴大批次核驗｜已完成的第一條：拉脫維亞一般工作居留
+- ID: `latvia-residence-permit-for-employment`；本輪核實 **1條現行路線的部分官方欄位**，尚未達 C/D。
+- 主管機關 PMLP：長期受僱的第三國人士通常由雇主登記職缺、提交 sponsorship、聘約/草案及必要學歷文件，申請人取得附有工作權的居留許可；短期就業需個別C/D簽上的工作權標示，**免短期簽證不等於允許工作**。
+- 2026-04-01資金／薪資：一般工作居留依行業平均薪資或適用行業協議工資；€1,815基準及€3,630特定商業居留門檻各有適用範圍，**不得統一寫成全部工作簽門檻**。
+- 2026-09-15新移民法正式生效，申請文件語言等條件有變。先前2025草案提出失業容許3/6個月，**未核正式法條前不可當成已生效規則**。
+- 中國大陸普通護照、香港特區、台灣護照分別按第三國身分初篩；領館受理/旅行文件尚未逐一核證。家屬、薪資個別職類、費用、續卡、永居缺席計算待核。
+- 官方來源及本輪核對日期2026-11-15：
+  - https://www.pmlp.gov.lv/en/employment-foreigners
+  - https://www.pmlp.gov.lv/en/necessary-subsistence-0
+  - https://www.pmlp.gov.lv/en/visa-right-employment
+  - https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations
+  - https://www.pmlp.gov.lv/en/residence-permits
+- 累計按第61輪19/110加本輪新增1條，**20/110有深入補核紀錄；C/D仍0/110**。本輪原定擴大多國核驗，**其餘路線尚未完成，不能記入新增數字**。不合併PR108、不以這個部分核驗直接發布。
+
+
+## 2026-11-15 第63輪：芬蘭與盧森堡 EU Blue Card 逐欄證據；審核分支更新，禁止直接上線
+
+**並行紀錄檢查**：重新讀取PR #108草稿清單時發現第58、59、61、62輪及捷克Employee Card已由其他批次登錄；本輪不重複計數愛爾蘭CSEP、奧地利RWR、瑞典Work Permit。依第62輪20條深入補核口徑，**本輪新增2條不同的RUN路線**，累計22/110已有深入逐欄補核紀錄（非C/D完整核實）。CSV索引仍110條，與已合併的PR #107分開；只寫draft PR #108。
+
+### `finland-eu-blue-card`
+- Migri（2026-11-15核）：合格高技能聘用至少6月；3年高等教育或通常至少5年可比較的高技能專業經驗；2026稅前工資至少**€3,937/月**，附加福利與每日津貼不計入。
+- 初次最多2年；短於2年聘期時聘期+3月。首次電子€530、紙本€630，續期電子€230、紙本€430（各類額外D簽/家屬費另核）。Blue Card持有人在芬蘭高技能工作不綁特定雇主，許可簽發後才可工作；芬蘭藍卡不直接授權其他歐盟國內工作。
+- 2026-01-08芬蘭永居改革未改EU長期居民 **P-EU**的合資格5年年資條件；藍卡跨成員國年資可能計入需符合細則。**P-EU與芬蘭國內P永久居留不是同一套資格**。
+- 大陸、香港、台灣旅行證件和申辦領區細節、家屬工作權/費用、國內P新年期及跨歐盟藍卡年資缺口仍待核，不能升C/D。
+- 官方：https://migri.fi/en/eu-blue-card ; https://migri.fi/period-of-residence-requirement ; https://migri.fi/en/working-in-finland/income-requirement
+
+### `luxembourg-eu-blue-card`
+- 盧森堡Guichet.lu官方（2026-03-03更新）明確要求：第三國高技能受僱超過3月者，**入境前先向內政部移民部門申請temporary authorisation to stay**；有簽證義務者取得授權後辦D簽，抵國後做抵達登記/體檢並申EU Blue Card。短期旅遊免簽**不等於**可省略先行批准。
+- 三地護照領事/D簽特例、2026當期薪資門檻、許可時長、政府行政費、家屬獨立工作權、續簽、跨國藍卡永居年資及法規原生效日期**本輪仍未全部取得**。以上欄位矩陣保留未核；不能用其他EU會員國門檻代替盧國法條。
+- 官方：https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/salarie-hautement-qualifie.html
+
+### 發布閘門與對客安全規則
+- 本輪完成2筆新深入補核證據並寫入`docs/europe-mobility-110-field-evidence.csv`；**22/110有深入補核紀錄，C/D全部欄位核實仍0/110**。這不是官方已認可22個移民方案，更非110條可供申請。
+- 前台暫不對未完成路線展示「已核實、可申請、可轉永居」；不更動main、不合併PR108、不部署正式站。
+- 下一批應優先補上芬蘭國內P/P-EU跨境年資、盧森堡2026薪資/家屬及三地領館差異，再進行110頁手機/連結/SEO/無障礙與預覽檢查。
+
+
+## 2026-11-15 第64輪：瑞典與荷蘭 EU Blue Card（官方直接核對，逐欄矩陣更新）
+
+**變更**：本輪核對瑞典Migrationsverket與荷蘭IND現行官方HTML，將`sweden-eu-blue-card`和`netherlands-eu-blue-card`的申請資格、薪資、費用、許可期間、家庭及永居/歐盟長居規則補入 `europe-mobility-110-field-evidence.csv`。沿用110個RUN ID，不將藍卡和一般工作許可混為同一條。三地護照領事實務及個別法規實施日仍未全核，兩條皆**B部分核實，非C/D完成**。
+
+### 64-A 瑞典 EU Blue Card `sweden-eu-blue-card`
+- 瑞典移民局官網目前列2026-07-15起最低月薪**SEK53,625**，等於瑞典平均毛薪1.25倍；至少6月合格高技能聘約；學歷至少180高教學分或5年相當經驗；可能須適當醫療保險。
+- 主申請行政費**SEK2,000**、成年家屬**SEK1,500**、子女**SEK750**；首次許可至少9月最多4年，需配合聘約/護照。
+- 配偶、註冊/同居伴侶及未滿18歲子女可隨同申請；家屬若獲許可，成年家屬和在當年滿16歲子女可工作；主申請人需有養家能力。2026家庭生計費用須按家庭人數、租房成本計。
+- **重大永居區別**：瑞典移民局「EU Blue Card續簽」頁明定**在瑞典持EU Blue Card滿36個月**，符合收入及品行等條件可提出永久居留申請，某些研究/博士許可可合計。若混合一般工作、ICT或季節工許可需按特定48月/7年規則另計。**不是一般工作簽證的4年規則，也不是EU藍卡跨境加總36月**。家屬通常需在瑞典持居留至少3年且成年者自給才有機會獨立申永居。
+- 中國大陸普通護照／香港特區護照／台灣旅行證件個別領館和免簽/工作許可須分別查核，短期免簽不可作為工作權。藍卡工作以所核准雇主和職業為準。
+- 來源（2026-11-15）：https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html ; https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/eu-blue-cards.html
+- 待解：旅行文件及領事程序、混合年資法規生效、家屬所有特殊條件。
+
+### 64-B 荷蘭 EU Blue Card `netherlands-eu-blue-card`
+- IND官方**2026-11-12**更新：非EU/EEA/瑞士人士，至少6月高技能聘約；三年高教學歷或五年相關經驗，IT專才近七年三年工作經驗可有例外。與荷蘭Highly Skilled Migrant制度不同，**雇主不必是recognized sponsor**。
+- IND 2026工資：一般**稅前月薪€5,942**，符合規定的畢業生/博士降低藍卡門檻**€4,754**；不是HSM的€3,122優惠。不得計入假期津貼、不固定薪酬或實物福利。
+- 申請費**€423**；居留通常雇佣合同後加三月、最多五年。持藍卡可為主雇主工作及兼做自僱，若受另一雇主聘用需另TWV。失業後找新工作通常3月，持此許可滿2年者可6月，但不能超過許可剩餘有效期。
+- 家屬可用藍卡家屬表格同時申請，家屬工作註記及MVV須按個別法規確定。一般滿5年合資格荷蘭合法居留可申國內永居；**EU long-term resident跨國例外**：提出申請時須最近連續2年持荷蘭藍卡，之前在另一參與國持藍卡至少12月，並有歐盟合計5年連續合格居留（部分研究、高技能及學習年期計算有特例）；5年中EU外合計不得超18月，最長單次不得連續超12月。**荷蘭居住2年不是無條件永居**。
+- 中國普通、香港SAR、台灣護照須各自核對MVV豁免及實際申辦地，短期申根免簽不等於MVV豁免。
+- 官方（2026-11-15）：https://ind.nl/en/residence-permits/work/european-blue-card-residence-permit ; https://ind.nl/en/required-amounts-income-requirements ; https://ind.nl/en/exceptions-to-5-year-term-for-permanent-residency ; https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit
+- 待解：三地護照領事豁免、家屬完整工作註記/實際費用、跨國居留連續性和法律施行條文。
+
+### 第64輪狀態及發布限制
+- 本輪新增2筆逐欄深入證據；第63輪前口徑22/110，**累計24/110條有深入逐欄補核**；這僅是審計工作覆蓋，**C/D完整核實仍0/110**。110/110路線已有來源不代表可以接受新申請。
+- 原PR #107此前已合併，本輪只修改draft PR #108審核分支；**未更動main、未合併、未部署、未完成全站測試**。C/D與網站測試通過前不得公開宣稱「110條已核驗」。
+
+
+## 第65輪（2026-11-16）四路線官方逐欄核驗：立陶宛3 + 愛沙尼亞1（仍屬B部分核）
+
+**本輪特別警示：立陶宛2026普通工作配額已耗盡、2026-10-03居留費漲價；不得使用2025年薪資和EU Portal 2025年舊費。**
+
+### 65-A 立陶宛一般工作暫居 `lithuania-residence-permit-for-employment`
+- **現行，但一般工作配額已用盡，不是整條制度關閉**。2026年24,706個配額，移民局2026-09-07公告已用盡（2026-09-14更新）。配額耗盡後通常要求雇主稅前月薪至少**1.2 BDU €2,893.68**；列入高附加價值短缺職業清單可至少 **1 BDU €2,411.40**；有適用例外；不是藍卡1.2／1.5 BDU規則。
+- 2026-09-10的官方FAQ（2026-09-15更新）說明：提交申請**不預留配額**，計入時點為批卡決定；工作暫居續件一般可到期前6個月提出且持原卡有效，合資格續件／換雇主不重占本年度配額；留學後5年內就業及團聚持卡者等亦有例外。
+- 外國人持短期免簽、他國申根簽或他國居留通常**不能直接在立陶宛工作**；2024-07-01起需本國工作暫居（法定少數例外另核）。
+- 外部服務商2026-09-15部分辦事處對「非優先」工作／季節工等申請設容量管控，並非對所有海外申請全面關閉；三地申請實際收件地尚未確認。
+- 2026-10-03起移民局公告臨時居留申請／更新€220普通、€440加急；製卡另€75/€150；轉換雇主或工作職能申請€165。
+- 官方： https://migracija.lrv.lt/lt/naujienos/siems-metams-nustatyta-idarbinamu-uzsienieciu-kvota-isnaudota-C8O/ ; https://migracija.lrv.lt/lt/naujienos/migracijos-departamentas-paaiskina-kas-yra-uzsienieciu-kvota-ir-kaip-ji-skaiciuojama-HYn/ ; https://migracija.lrv.lt/en/news/foreigners-who-wish-to-work-in-lithuania-will-have-to-obtain-lithuanian-residence-permits-exceptions-will-only-apply-in-certain-cases/ ; https://migracija.lrv.lt/lt/naujienos/informacija-apie-prasymu-isduoti-llg-priemima-vcX/ ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/
+- 待解：中／港／台領事與VFS實際受理／有效旅行文件，詳細職業例外、個案家屬工作權、費用例外與長居缺席計算。
+
+### 65-B 立陶宛 EU Blue Card `lithuania-eu-blue-card`
+- **現行高技能路線（與一般就業配額制不同）**。EU委員會移民門戶2025-04-01解說六個月以上高技能合約和學歷／專業等效經驗要求；受控專業認可另核。
+- 2026-05-19移民部公布2026-05-12起新BDU：**短缺高附加價值職類1.2倍 €2,893.68/月**；其他符合條件的高技能職位1.5倍 **€3,617.10/月**。不要再引用 EU官方較舊門戶內2023-24年的€2,532、€3,165。
+- EU門戶原有3年卡／短合同加3月、家屬可立即團聚等原則；2026國內相關法條的全部例外未完成。費用以移民部2026-10-03實際調升的**€220/€440**為準，不是EU門戶陳舊的€160/€320。
+- 官方： https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-lithuania_en ; https://migracija.lrv.lt/lt/naujienos/paskelbti-nauji-kalendoriniu-metu-darbo-uzmokescio-dydziai-kgN/ ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/ ; https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-lithuania_en
+- 待解：中／港／台領館、雇主轉換、跨國年資及永久居留、2026法令例外和家屬工作登記。
+
+### 65-C 立陶宛 Startup Visa `lithuania-startup-visa`
+- **現行**：Inovacijų agentūra官方服務仍列Active、免費受理「創新新創」評估。合資格創業構想可能取得**申請臨時居留的資格**，不等於創業計畫一經評估就自動簽發簽證／卡；不是普通經商居留或e-residency。
+- 居留行政費依2026-10-03新費表€220／€440，另製卡費；創業評估免費與移民申請免收費為不同概念。根據EU官方家屬制度，創新業務活動符合要求者可不受一般兩年先居留的等待限制，但家屬工作權／文件細節未核。
+- 本輪未得到足夠當期直接法令證據核對創業卡初批/續卡年限、資金要求，**故明列未核而不挪用2019歷史資料或第三方文章**。
+- 官方： https://www.inovacijuagentura.lt/paslauga/startup-visa/?lang=lt ; https://migracija.lrv.lt/lt/naujienos/nuo-spalio-3-d-pokyciai-valstybes-rinkliavu-sarase-RAb/ ; https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-lithuania_en
+- 待解：三地領事、創業評估／公司註冊、初卡和續期、家屬工作權、資金及永居年資。
+
+### 65-D 愛沙尼亞工作居留 `estonia-residence-permit-for-employment`
+- **現行**：現行《Foreign Nationals Act》（§177-179等）一般需要在國內商業登記的雇主、實際職位、按規定先取得勞動市場許可（若符合豁免則不需）；需相應技能經驗、實際居所、足夠收入及醫保。
+- **薪資不等於最新季度平均**：§178一般採Statistikaamet最近公布之「全年平均」稅前月薪，2025年度**€2,092/月**（2026年通常一般工作暫居申請基準），特殊創業/畢業生等例外另核；不能挪用2026 Q2€2,243為工作居留最低薪資。
+- 官方勞動監察局PPA說明：初次工作暫居最長5年，特定雇主/職位；短期工作登記上限365日/455日，**短期登記≠已獲長期居留**。續件/轉工審核按新修訂法令例外。
+- **2027短缺行業優惠改革非2026年當期就業資格**；2026州費當期表、家屬工作權及三地領館仍未核。
+- 官方： https://www.riigiteataja.ee/en/akt/501092026001 ; https://www.ti.ee/en/foreign-worker/coming-abroad-work-estonia ; https://stat.ee/en/wages-and-salaries-and-labour-costs
+- 待解：主辦機關不同受理地/州費、個別工種法定例外、2027改制完整條文和生效日、家屬、永居年資。
+
+### 第65輪質量閘門與進度
+- 四個不同原RUN ID 於2026-11-16新增逐欄部分核實記錄；前一輪官方清單記載**24/110**有深入補核，本輪核對後為**28/110**；還有82條未達同等深入核實。原始RUN 99+11條路線的來源矩陣仍是**110/110**，但**C/D全欄達標仍0/110**。
+- 凡「現行、未生效、封閉、未確認」依當期官方資料區分；立陶宛2026年一般工作**額度耗盡≠制度取消**；愛沙尼亞2027規則不提前套用。
+- 本輪只寫入 draft PR #108 的 `audit/europe-mobility-110-official-checks`，原PR #107早已合併，不能再更新該已合併分支。未變更main、未合併、未部署、未完成網站/手機/SEO/可訪問性全量回歸測試；**DO NOT MERGE / DO NOT DEPLOY**。
+
+
+## 第66輪（2026-11-17）官方逐欄深入補核：奧地利2、比利時1、英國1
+
+### 來源／寫入安全核對
+- 2026-11-17重新以GitHub讀取 `BryceYuuu/RUN`：`data/programmes.json`共99條，原狀態94 open、5 closed；`src/extra_routes.json`8個國別節點合計11條，且99+11為110個不同ID。
+- OTC `docs/europe-mobility-110-field-evidence.csv`維持110行、110個不重複route_id，與RUN 110 ID集合一致；**RUN的open/closed是第三方來源原聲稱，不可當政府當期狀態**。
+- PR #107（`content/europe-mobility-routes-2026-11`）查明已merged/closed，不能當未合併審核分支續寫；**只寫入尚在Draft、未合併的PR #108 `audit/europe-mobility-110-official-checks`**；無站點front-end變更。
+
+### 66-A 奧地利 EU Blue Card `austria-eu-blue-card` — 現行、B部分核實
+- 聯邦官方移民入口：2026稅前年薪及特別支付總額至少**€55,678**；3年以上高等教育；ICT技術人員/服務經理可用最近7年內至少3年相當專業經驗替代；有約束力且符合資格聘約，AMS無同等失業求職者可用的勞動市場測試。**無積分制**。
+- 申請費€218；首次卡一般24個月，綁特定雇主。換雇主通常完整遞交轉換申請後30日才可暫工作，已持奧地利藍卡工作至少12月有免30日等例外。持卡近24月受僱合格至少21月可申RWR plus，**不是21月永居**。
+- 符合條件家屬可申RWR plus；一般Long-term Resident–EU需合格連續定居5年及Integration Agreement Module 2，非自動取得。
+- 三地護照原則按第三國公民資格初篩；領館／D簽、家庭個案與2026年立法施行日待核。
+- 2026-11-17官方來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/eubluecard/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/red-white-red-card-plus/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/
+
+### 66-B 奧地利 Startup Founder Red-White-Red Card `austria-self-employed-startup-founder-visa` — 現行、B部分核實
+- 創業須創新產品/服務/技術、商業計畫、創辦人對管理控制；積分至少50/85，創辦資本至少**€30,000**且自有股本**≥50%**；額外€50,000可獲10點而**非每人強制投入€80,000**。
+- 官方申請費€218；首次最長24月。創業卡主要為自僱，不自動允許一般受僱；兩年後合格可轉RWR plus取得較自由就業資格，並非永久居留；一般長居要求與上述奧地利長居制度相同。
+- 合資格家屬可按條件申RWR plus；三地領館、家屬德語例外、創辦資金文件及法條施行日等仍待核。
+- 2026-11-17官方來源：https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/start-up-founders/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/ ; https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/red-white-red-card-plus/
+
+### 66-C 比利時 Single Permit `belgium-single-permit-work-permit` — 現行，僅Flanders具體條件部分核實
+- Working in Belgium官方One-Stop Counter：非EEA/瑞士員工超過90日聘用一般由僱主向工作所在地適當**大區**申single permit，合併工作和居留；90日內或特別類別另有制度。
+- Flanders官方：中等技能必須在該區專門migration list且由比利時僱主聘用；與VDAB shortage list非同一份清單。工資依Joint Committee協約、不得低於當期保障最低薪資。**不同大區、職類與2026具體工資絕對不可一律寫成全國固定€值**。Flanders高技術單一許可部分個案可申3年，不能外推至所有職種；一般續期窗口依具體類別通常到期前2–6月、部分2–4月。
+- 無限期**工作授權不等於永久居留**；聯邦家屬、長居及簽證受理和比利時Brussels/Wallonia/德語社群之具體2026門檻都尚待核。原先以Limosa「First visit」入口為主要簽證官方來源過於籠統，本輪已改以One-Stop Counter和Flanders分類原始頁為證據。
+- 2026-11-17官方來源：https://www.workinginbelgium.be/en/home.html ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/medium-skilled-position ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/highly-skilled ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/wages-and-allowances ; https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/indefinite-term
+
+### 66-D 英國 Global Talent `uk-global-talent` — 現行、B部分核實
+- 2026-10-29更新Appendix Global Talent現行規則：18歲以上，科研學術／藝術文化／數位科技傑出人才或潛力人才須合格endorsement，或在指定Prestigious Prize清單得獎免背書。**無最低薪資／無強制僱主offer**。
+- GOV.UK現行申請總費**£766**（通常背書£561+簽證£205；獎項直申£766），IHS一般£1,035/年；每次最長5年、可續1–5年；可受僱、自僱或任公司董事但不可當職業運動員。
+- 符合條件家屬可工作（不含職業運動員及教練）；按實際背書類別通常3或5年後才可申ILR，另須符合持續居留、Life in UK、當期英語要求；家屬通常與本人不一定相同年限。
+- 中國大陸／香港特區／台灣護照具體申請地、文件、各背書類型及2027年擬生效改革過渡尚待核；提案或已公告未生效條文不可提前取代2026 Immigration Rules。
+- 2026-11-17官方來源：https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-global-talent ; https://www.gov.uk/global-talent ; https://www.gov.uk/global-talent/your-partner-and-children ; https://www.gov.uk/indefinite-leave-to-remain-business-investor-global-talent/eligibility ; https://www.gov.uk/indefinite-leave-to-remain-business-investor-global-talent/overview
+
+### 累計與發布閘門
+- 先前第65輪為28/110條有逐欄深入補核紀錄；本輪選4個原矩陣12欄全「未核」的不同route_id，已填入官方實證並保存，按既有口徑現為**32/110具有B級深入補核紀錄**，仍有78條未達同等程度。
+- **C/D全欄完成0/110**：尤其三地領事/旅行文件、部分家屬/永居、個別費用與法條施行日，仍未逐條閉環。
+- 禁止合併PR108、禁止部署、禁止對外標示「110條官方核實完成」。全部C/D及網址/SEO/手機/無障礙/回歸測試完成後方可考慮正式發布。
+
+
+## 第67輪（2026-11-17）波蘭／斯洛文尼亞工作居留（B部分官方核驗）
+
+- 本輪在原110個route_id新增深入補核2條：`poland-temporary-residence-work-permit`、`slovenia-single-residence-and-work-permit`。均屬現行制度但未達C/D，不能以官網概覽代替所有護照、家屬與法條核驗。
+
+### 67-A 波蘭 Temporary Residence and Work Permit
+- 主管機關新版 MOS：2026-04-27起臨時／永久／EU長期居留申請一般須經電子MOS系統提交；不把舊紙本初次申請程序當作現行通用程序。申請人本人為行政程序當事人；不同工作條件和轉雇主依具體規定可能要改許可。
+- 目的為受僱且居留超過3個月；有效期最多3年；一般雇員受僱工作居留申請印花費PLN440，公司董事按另條款可能PLN340；居留卡另PLN100。無工作條件自由轉職權。
+- 波蘭 EU long-term resident原則要求合資格連續合法5年、B1波蘭語、穩定收入及保險，通常單次離境不超6個月、總計不超10個月；並非5年自動獲永居。2026年MOS對語言證據的特定文憑過渡更改，實際個案需核。
+- 三地護照可依第三國一般規則初篩，但中國普通、香港特區、台灣的領館、文件與申請實務未逐一確認；薪資具體門檻、家屬工作、工作變更例外、永居完整計算保留未核。
+- 2026-11-17官方：https://www.gov.pl/web/udsc-en/basic-information-about-the-mos-system ; https://migrant.poznan.uw.gov.pl/en/procedury/temporary-residence-and-work-permit ; https://mos.cudzoziemcy.gov.pl/en/question-and-answer-database/permits-residence-and-work/temporary-residence-and-work-permit ; https://mos.cudzoziemcy.gov.pl/en/categories-information/possibilities-legalization/non-eu-continued-stay/permit-for-residence-of-a-long-term-eu-resident/ ; https://www.mos.cudzoziemcy.gov.pl/en/question-and-answer-database/other-temporary-residence-permits/family/
+
+### 67-B 斯洛文尼亞 Single Residence and Work Permit
+- ESS官方：非EU/EEA/瑞士第三國公民有合格雇主聘用，可由本人在海外使館或雇主在斯國行政單位申請；行政單位核發單一居留及工作許可，ESS依法出具同意。單有聘約不足以合法工作。
+- 首次許可按聘約期最多2年，適時續期最多3年；轉雇主、改職位或多個雇主工作通常需行政單位書面批准。延續工作也受法定社保及續卡條件限制。
+- 三地證件一般為第三國初篩，具體領事/台灣護照承認未完成。當期費用、薪資精確值、非EU家屬團聚與工作權、第三國居民5年永居計算、法令施行日皆未核。**不要把EU/EEA公民家屬自由工作權套用至第三國工作者家屬，亦不要把申根短簽費當作單一工作居留費。**
+- 2026-11-17官方：https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/work-in-slovenia/single-permit/ ; https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/entry-and-residence-in-slovenia/residence-permit ; https://www.ess.gov.si/en/jobseekers/access-to-slovenian-labour-market ; https://www.gov.si/en/topics/entry-and-residence/
+
+### 第67輪累計與發布閘門
+- 上輪深入B級補核32/110；本輪新增2個以前12欄未核的路線ID，**34/110有深入補核紀錄、76條未達同等程度**。這不是完整核驗百分比；**C/D仍0/110**。
+- 未合併PR108、未修改正式網站、未發布新政策條目。PR107此前已合併，所有核驗只更新PR108審核分支；仍須逐條完成國籍、家屬、續簽、永居及2026施行日和網站測試方可公開。
+
+
+## 第68輪｜2026-11-17 深入核補：羅馬尼亞、波蘭、斯洛文尼亞（3條）
+
+本次新增處理原110條中先前12個核心欄位均未逐欄核實的3個不同route_id；使用2026-11-17可讀政府官方來源核對，均標記**現行制度但部分核驗B**，未達C/D。不得把官方頁面舊版內容與新規則混寫，也未確認2026相關修法完整生效細節。
+
+### 68-A 羅馬尼亞 `romania-work-visa-residence-permit`
+- IGI最新英文原文 `https://igi.mai.gov.ro/long-stay-visa-for-employment/` 援引GEO No. 32/2026，列電子平台 WorkinRomania.gov.ro 的D/AM1（雇主直接提交，含高技能及指定類別）與D/AM2（授權雇主／海外招聘機構，含一般及季節工作）兩種電子流程。須符合職業、聘約、無犯罪紀錄、至少€30,000保險等條件。
+- 高技能D/AM1：至少6個月全職聘約，官方要求薪資不低於平均毛薪；D/AM2一般要求90日國家最低毛薪水平的維生證明。當期RON數字未核，不可以一個數字套用所有種類。
+- 舊IGI `https://igi.mai.gov.ro/en/long-stay-visa-for-employment-purposes/`（2022）仍列工作許可、長簽€120及90日；舊單一許可頁 `https://igi.mai.gov.ro/single-permit-eu-blue-card/` 列居留卡費265 RON、一般受僱最多2年，高技能最多3年。**不能在未核2026 GEO32/2026生效及過渡時，沿用這些舊費用／手續作新的統一申請流程。**
+- 待解：GEO32正式公報施行及過渡、電子平台是否全面啟用、三地領事、家屬、雇主改變、準確費用、永久居留及年資。核驗日2026-11-17。
+
+### 68-B 波蘭 `poland-eu-blue-card`
+- 波蘭省級政府官方清單 `https://migrant.poznan.uw.gov.pl/en/checklist/1739`：合資格高技能至少6個月聘約、合格職業資格證據、MOS電子申請與僱主填報附件；年薪不得低於訂立合約前年度全國經濟平均薪資的150%。
+- 不把波蘭一般工作居留印花費直接冒充藍卡費，仍待費表/具體2026基準PLN、卡有效期、家屬工作權、雇主變更、跨EU藍卡永居期間及三地受理官方原文。
+- 官方補源 `https://migrant.poznan.uw.gov.pl/en/procedury/temporary-residence-permit-high-qualified-workers-eu-blue-card`，核驗日2026-11-17。
+
+### 68-C 斯洛文尼亞 `slovenia-eu-blue-card`
+- ESS主管機關 `https://www.ess.gov.si/delodajalci/zaposlovanje-tujcev-iz-tretjih-drzav/enotno-dovoljenje/modra-karta-eu/`：高等職業資格、至少6個月聘約，薪資至少「最新公報所刊年度平均毛薪」；雇主須依法合格、ESS依法核對無合適失業人選。首次2年（短合約則+3個月但不超2年），續卡最多3年。
+- 第一年改雇主/職務需行政單位透過ESS核准；ESS另提持有2年後書面通知條件，兩年之間須核細則。**不可將2026最低工資€1,481.88冒充藍卡工資標準**。
+- 斯洛文尼亞政府2026-10-22公告 `https://www.gov.si/en/news/2026-10-22-17th-regular-session-of-the-government-of-the-republic-of-slovenia/` 是**加嚴家屬團聚等待年數及資金的修法提案**，非已核生效。家屬對藍卡的例外、2026平均薪資實際數值、國籍領館、費用、永居細節均未閉環。
+- 核驗日2026-11-17。
+
+**進度口徑**：第67輪34/110有深入補核記錄，本次新增3條 → **37/110**；尚有73條沒有同等深入補核；**C/D完整逐欄核實0/110**。矩陣全部保留原110 ID、未核欄位明示、每條C_D_complete=false。不可合併PR108或宣稱110條皆可申請；須做正式網站及手機/SEO/分享/可訪問性測試後才談正式發布。
+
+
+## 第69輪（2026-11-17）加速批次｜13條官方部分深入核補（未達80）
+
+**統計原則**：原RUN 99+11共110路線，逐一保留ID。本輪新增13個先前12項核心欄位全部標示「未核」的route_id，均改為「partial official deep」並填入已核官方資格/數值/期限/工作/家屬/續簽/永居及剩餘未核欄位；**不是13條C/D全欄完成**。
+
+| 國家 | route_id | 本輪官方核實重要條件 | 來源（2026-11-17） |
+|---|---|---|---|
+| 丹麥 | `denmark-pay-limit-scheme` | 2026年薪DKK552,000；費DKK6,810；通常4年許可，非自願失業可在嚴格期限內申6個月求職 | https://nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-Limit-Scheme |
+| 丹麥 | `denmark-startup-denmark` | 專家委員會批准創業計畫，每年75人配額；費DKK3,060，首次2年續最多3年；官方頁資金額仍是2025，2026未核 | https://nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark |
+| 芬蘭 | `finland-entrepreneur-startup-permit` | Business Finland正面資格證明；2026淨資金按地區€1,030/1,090/1,210每月；電子首次€650，首次最長2年 | https://migri.fi/en/start-up-entrepreneur ; https://migri.fi/en/working-in-finland/income-requirement |
+| 芬蘭 | `finland-specialist-residence-permit` | 2026專家稅前月薪€3,937；電子首次€530、紙本€630；首次最長2年 | https://migri.fi/en/specialist |
+| 荷蘭 | `netherlands-self-employed-startup-visa` | 專屬startup需facilitator、RVO創新審核、資金；IND €423；最長一年**不可續同類**，可另申自僱 | https://ind.nl/en/residence-permits/work/start-up |
+| 匈牙利 | `hungary-eu-blue-card` | 2026薪資HUF1,001,048/月、指定醫療職業HUF800,838/月；最多4年可續4年；2025舊薪資禁用 | https://oif.gov.hu/factsheets/eu-blue-card |
+| 匈牙利 | `hungary-guest-investor` | 合資格基金€250,000或指定高教捐贈€1,000,000；居留最多10年可續10年；不等於永居 | https://oif.gov.hu/factsheets/residence-permit-for-guest-investor |
+| 馬耳他 | `malta-key-employee-initiative` | 年薪€45,000，首次費€600；首次1年，續最多3年；須有前2個月內2週招募廣告 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/key-employee-initiative/who-is-eligible/ |
+| 馬耳他 | `malta-specialist-employee-initiative` | **官方相互矛盾**：資格網頁最低€30,000，2026年申請清單寫基本稅前年薪€25,000；待主管機關釐清。費€600 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/specialist-employee-initiative/who-is-eligible/ ; https://identita.gov.mt/wp-content/uploads/2026/01/Checklist-New-Application-for-Single-Permit-SEI.pdf |
+| 馬耳他 | `malta-single-permit` | 雇主線上代申、費首次€600續€150/年；特定住家照顧者€27.50例外；Approval in Principle本身無工作權 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/ |
+| 法國 | `france-entrepreneur-profession-liberale-visa` | 可行自營業務+實際登記；2026申居留卡稅/印花€350，首次最多1年、合資格可轉4年多年卡 | https://www.service-public.gouv.fr/particuliers/vosdroits/F35795 |
+| 德國 | `germany-freelance-self-employment-visa` | 首次最多3年；企業設立者符合條件3年後可申settlement，獨立自由職業者一般5年；非自動永居 | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/other/self-employment |
+| 盧森堡 | `luxembourg-self-employed-worker-permit` | 入境前先申居留授權；卡費€80，首次最多3年續最多3年，5年合法連續居留可按條件申長居 | https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/travailleur-independant/independant.html |
+
+### 仍待解與資料品質標記
+- 中國普通護照、香港特區及台灣證件的實際領事受理仍有部分未核；第三國一般資格不能替代領事/入境判斷。
+- 丹麥Start-up Denmark頁明列資金額「2025 level」，不得冒稱2026；須查當期官方資金表。
+- 馬耳他SEI €25k/€30k**同一主管機關不同2026文件衝突**：公開政策頁不得只列其中一個為確定數字。
+- 荷蘭Startup不可續簽同類，匈牙利Guest Investor 10年卡不等於永居，德國自僱與自由職業的永居年限不同。
+- 費用、家屬工作權、入境簽文件、個別生效日、永居連續年資仍有待核；每條C_D_complete保留false。
+
+### 第69輪真實進度與發布限制
+- 第68輪正式報告**37/110**已有深入補核；本輪新增13條不同route_id，依既有保守口徑**50/110**，距使用者期望80/110仍有30條。
+- 實際矩陣中，有些較早的「部分欄位已填」未計入上一輪37條深核口徑。本輪覆核前資料為**41/110有至少一個核心欄位非「未核」**；更新13條後現為**54/110已有逐欄非空證據**。54與50屬**不同口徑**：前者含早期較淺補核，**不可把54直接冒稱為54條深入完成**。
+- **C/D全欄完整核驗仍0/110**；PR108保持Draft、不合併、不正式部署；未全面完成110條官方核驗與網站回歸/手機/SEO/可訪問性/分享測試前發布閘門維持關閉。
+
+
+## 第70輪（2026-11-18）新增4條政府官方核補｜其中一條關閉
+
+本輪按既有第69輪「50/110深入補核」口徑，選取4個先前核心欄位均未填的原RUN路線，逐欄對照當期政府原文。增加3條**現行但部分核實**路線、1條**確定已關閉**歷史入籍制度。2026-11-18為本輪核對日。以下資料不是C/D全欄完成；尤其護照領事細節、家屬及永居等仍按欄位保留待核。
+
+### 70-A 比利時法蘭德斯 EU Blue Card — `belgium-eu-blue-card`
+- 佛蘭德斯大區主管機關：最低高教3年、VKS6，ICT管理/專家可用近7年3年經驗替代；至少6月與比利時雇主之聘約。高技能稅前年薪需達全國平均毛年薪130%，官網當前示例€63,586（**僅法蘭德斯**，不能套所有比利時大區）。雇主於One-Stop Shop辦理。
+- 首12月改雇主須報大區並等待批准，12月後符合藍卡條件可改雇主無須通知；24月後續卡可給3年；續件在屆滿前2至4月提出。其他歐盟國藍卡在比利時長期工作仍須重新辦當地藍卡。
+- 三地證件短期入境、領館D簽，聯邦家屬、費用，及其他大區門檻仍待核；不將24月後工作便利等同永居。
+- 官方：https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/european-blue-card ; https://dofi.ibz.be/en
+
+### 70-B 愛爾蘭 STEP — `ireland-start-up-entrepreneur-programme`
+- ISD：2012年創立的現行創業居留計畫，創新商業計畫、無刑事定罪、良好品行、可動用€50,000及資金來源證明；任何時候可電子提交，獨立委員會按季審查。申請費€350不退。
+- 獲批准須全職經營該企業，不得從事其他受僱工作；不得造成國家財政負擔。**目前不接受俄羅斯及白俄羅斯公民新申請**，但本輪未取得限制確切起始日。
+- 三地護照個別簽證/領館、首次和續居期限、家屬工作、永久居留/入籍計算仍待核，不得以€50k說成保證居留。
+- 官方：https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/start-up-entrepreneur-programme-step/
+
+### 70-C 匈牙利 Hungarian Card — `hungary-hungarian-card`
+- OIF 2026-03-10更新：非EU第三國人士，須屬部門法令列明高等專業資格，或專業運動員/教練、表演者、電影製作等特定類別；有實際受僱/公司高管實際工作條件。最長3年，可續3年，不是一般低技能移民方案。
+- OIF現行行政費：境外申居留兼領卡入境簽€110；境內電子HUF26,000、現場HUF39,000、續期HUF26,000，依法定豁免及送件形式另核。
+- 續件僅透過Enter Hungary，屆滿前90至30天，須滿足任何180日內在匈牙利至少居住90天；財力包括合法收入、住宿、返程、醫療。家屬及申國民/歐盟長居卡是否受限待核。
+- 官方：https://oif.gov.hu/factsheets/residence-permit-for-hungarian-card ; https://oif.gov.hu/factsheets/procedural-fees
+
+### 70-D 塞浦路斯舊投資入籍 CIP — `cyprus-investment-programme`
+- **已關閉，不可新申請。** 財政部CIP Registry明示內閣2020-10-13決議廢止，2020-11-01起不受理任何新投資入籍申請；2026-03-11官方法務部門公告再次確認已終止。
+- 這是**入籍歷史計畫**，不是仍可辦理的投資永久居留。對中國大陸、香港及台灣護照都不得宣傳為可申請；歷史投資門檻、家屬及費用皆不適用於新申請。原RUN如標示open須覆寫為officially_closed並去除申請CTA；保留歷史來源以供核對。
+- 官方：https://cipregistry.mof.gov.cy/en/ ; https://www.gov.cy/en/independent-officials/the-european-commission-closed-the-infringement-procedure-against-cyprus-in-relation-to-the-cyprus-investment-program/
+
+### 第70輪統計與閘門
+- 第69輪**50/110深入補核紀錄**；本輪新增4個不同route_id → **54/110深入補核紀錄**（其中一條已關閉），**尚有56條未達同等深度**。
+- 矩陣目前有證據的欄位計數須獨立復核（第69輪該寬鬆口徑為54/110，本輪預期58/110，但不能把寬鬆口徑混充深入完成）。
+- **C/D完整驗證仍0/110**，已關閉制度的status已確認，但未將其視為可申請的完整C/D路線。所有網站政策現階段仍須人工核證、跨國籍領事/家屬/長居細則核對及桌面、手機、SEO、分享、無障礙回歸測試。**不得合併PR108，不得正式發布尚未全量核實的110條政策頁。**
+
+
+## 第71輪（2026-11-18）擴大至80/110「深入部分補核」目標
+
+### 數據定義及核對方法
+- 來源：原RUN 99+11 =110不重複ID；核驗矩陣中實際有110行、20欄。本輪**選取26條原本12個核心欄位全部為「未核」的不同ID**，分為A批12條、B批14條，從相應政府/主管機關頁面補入國籍初篩、資格、資金、費用、期限、工作、家屬、續期、永居、生效及未解項目，每行保留官方URL與核對日期2026-11-18。
+- 本輪前沿用第70輪**54/110深入補核口徑**，本輪新增26條，現為**80/110具有深入補核紀錄**。這個指標是*政府原文多欄核補覆蓋量*，**不是80條C/D已完整核實**。
+- 矩陣另有舊輪較淺層補核4條，故以「任一核心欄位非未核」統計為**84/110**，兩種口徑不可混用。全部C_D_complete=false：**C/D完整驗證0/110**。
+- 本輪未逐條核完中國大陸、香港特區及台灣實際領事送件和出入境實務；第三國人一般資格是「部分核」，不等於三種護照可直接赴當地申辦。費用、家屬、永居和新法生效等欄位按政府來源可見程度填「已核／部分核／未核／衝突」。
+
+### 新增26條及官方證據（所有路線B／部分核，未達C/D）
+
+| ID | 主要證據與核定限制 | 政府/主管機關URL |
+|---|---|---|
+| `cyprus-eu-blue-card` | 高技能限ICT/製藥研發/指定海事，年薪€43,632；費€110入境+卡、續€95、跨國€40，2025-07-07費法生效 | https://www.gov.cy/mip-md/en/documents/eu-blue-card/ |
+| `cyprus-permanent-residence-by-investment` | 合格投資€300k、年收入€50k+家屬加成；卡10年換，永久居留權與護照/入籍不同；通常不得一般工作 | https://www.gov.cy/mip-md/en/documents/companies-investors-permanent-residence-3/immigration-permits-for-investors/ |
+| `cyprus-remunerated-employment-single-permit` | GEN初次€120、續€130、首次登記€70；簽發1–3年，一般累計工作4年；2026-01-01新聘約不再課舊印花 | https://www.gov.cy/mip-md/en/documents/remunerated-employment-single-permit-gen/ |
+| `malta-eu-blue-card` | 高技能六個月聘約、平均毛年薪1.5倍；初費€600、續€150/年；首卡2年續最多3年；當年實際薪資€額待核 | https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/highly-qualified-individuals/blue-card/ |
+| `malta-permanent-residence-programme` | 資產€500k/€650k兩方案、購屋€375k或租屋€14k/年、行政€60k及貢獻€37k等；永久居留非護照；工作權未核 | https://residencymalta.gov.mt/legal-framework-mprp-2/ |
+| `croatia-eu-blue-card` | 第三國高技能，MUP核發費€74.32、生物卡及附加費分收；2026藍卡薪資/家屬等待核 | https://mup.gov.hr/aliens-281621/stay-and-work-of-high-qualified-third-country-nationals/281692 |
+| `croatia-stay-and-work-permit` | 一般按雇主/職位工作，部分需勞動市場測試與HZZ同意；短缺工種例外，2025修法官報40/2025需逐類核 | https://mup.gov.hr/aliens-281621/stay-and-work/work-of-third-country-nationals/281663 |
+| `czechia-employee-card` | 領館申請CZK5k、境內CZK2.5k，最多2年可續；通常須有書面確認才可開始工作；早期核驗清單已有部分證據但矩陣本輪才補入 | https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/ |
+| `iceland-short-term-residence-permit` | 最多180日、不可續、不能家團、一般不得工作；此條不能對外當正式定居/永久居留路線 | https://island.is/en/short-term-residence-permit |
+| `sweden-self-employed-residence-permit` | 本人維生SEK200k、配偶+100k、每名子女+50k，且另有實際商業資金/客戶要求 | https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/self-employed-people.html |
+| `germany-opportunity-card` | 2026資金€1,091/月、滿6分或已認可技術人才、最多1年、兼職20小時/週；不是永居 | https://www.make-it-in-germany.com/en/visa-recognition/opportunity-card/job-search |
+| `germany-skilled-worker-18a-18b` | 認可資格+合格工作offer，首次赴德45歲以上2026年薪€55,770或退休保障；最多4年、按條件3年可申settlement | https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals |
+| `portugal-ari-golden-visa` | 非房地產研究/文化/基金等投資€250k或€500k等，持卡可合法工作及家團；不等於投資後自動入籍 | https://aima.gov.pt/en/viver/autorizacao-de-residencia-para-investimento-art-90-o-a |
+| `portugal-subordinate-work-residence-permit` | Art88(1)需要工作居留簽、聘約、NIF及社保，首卡2年續3年；**Art88(2)免居留簽意向表達已2024-06-04廢止** | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-exercicio-de-atividade-profissional-subordinada-com-visto-de-residencia-art-88-o-n-o-1 |
+| `portugal-highly-qualified-activity-residence-permit` | Art90高技能，首次2年續3年；AIMA頁薪資示例仍註2023/24參考期，不可當2026值 | https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-atividade-altamente-qualificada-art-90-o |
+| `portugal-eu-blue-card` | AIMA Art121A藍卡高技能受僱；網站跨國18個月規則可能落後EU新指令，須對葡當期法核，不先斷言 | https://aima.gov.pt/pt/viver/concessao-de-cartao-azul-ue-e-autorizacao-de-residencia-para-titulares-de-cartao-azul-ue-noutro-estado-membro-art-121-o-a-e-segu |
+| `spain-digital-nomad-visa` | 第三國境外企業國際遠距工作，UGe主申與家屬專用文件；2026 SMI衍生資金及社保條款待核 | https://www.inclusion.gob.es/es/web/unidadgrandesempresas/teletrabajadores |
+| `spain-non-lucrative-visa` | 非盈利：本人400% IPREM、每受養家屬+100%，不得在當地工作；2026 IPREM實額待核 | https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-no-lucrativa |
+| `italy-investor-visa` | €250k創新初創/€500k公司/€1m慈善/€2m國債，首期簽證2年；俄白雙護照特定申請已暫停 | https://investorvisa.mise.gov.it/index.php/en/ |
+| `italy-digital-nomad-remote-worker-visa` | 高技能遠距工作及自僱，至少6個月相關經驗、足額收入/醫保/住所；2026確切收入€額待核 | https://ambdublino.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/digital-nomad-visas/ |
+| `italy-elective-residence` | 非工作自有資產／被動收入居留，嚴禁受僱及自僱；駐Malta領館示例國家D簽€116，別領館另核 | https://amblavalletta.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/residenza-elettiva/ |
+| `romania-digital-nomad-visa` | 境外企業遠距工作，近6月每月收入均達羅平均毛薪3倍；2026實際RON數額、卡與家屬條件待核 | https://eviza.mae.ro/TypeOfVisa?lang=en-US |
+| `romania-eu-blue-card` | IGI舊流程2022與2026 OUG32新法並列，需先確認新法適用與電子D/AM流程，不把265RON/€120舊費直接當全新標準 | https://igi.mai.gov.ro/single-permit-eu-blue-card/ |
+| `belgium-professional-card-self-employed-visa` | 僅Flanders自僱Professional Card，2026最低生活淨額€2,408.79/月，經濟增值型另需€22,838自有資金；2026-09創新快審名稱 | https://www.vlaanderen.be/en/working-enterprise-and-investment/working/professional-card-for-foreign-entrepreneurs/requirements-for-a-professional-card |
+| `norway-skilled-self-employed-permit` | 挪威境內自有sole proprietorship須預期年利潤NOK341,373，合資格3年可申永久居留；**境外自僱承包許可期間不計入永居** | https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/?c=nor |
+| `liechtenstein-residence-permit-alternative` | 第三國人士無抽籤配額權，政府可按經濟利益/公共利益個案准受僱或非受僱居留；EEA配額抽籤不得用作中國/港/台申請方案 | https://www.llv.li/en/national-administration/migration-and-passport-office/residing-in-liechtenstein |
+
+### 優先後續補證及發布閘門
+1. 每條對中國大陸普通護照、香港特區及台灣護照的**領事實操和實際受理資格**，尚需逐領館結合法規核證。
+2. 核定政府不同文件衝突與新法：**葡萄牙藍卡跨國18月舊文 vs 新EU藍卡12月框架**；**羅馬尼亞2026 OUG32與IGI舊頁**；**馬耳他SEI €25k/€30k**；**葡萄牙AIMA高技能2023年薪數**；**西班牙2026 SMI/IPREM**。
+3. 再補費用、可否在地就業、家屬工作權、續簽窗口、合格永居/國籍計時、法條實施與過渡日；**80條都是B級部分官方核補，絕不稱C/D全欄完成**。
+4. 禁止合併 PR #108；亦不得因本輪80/110的B級目標達成而將110政策頁全部發布，需先110條C/D及桌面/手機/SEO/分享/無障礙回歸測試。
+
+**GitHub 安全範圍**：PR #107早已合併，核驗僅提交到 PR #108 Draft 審核分支；本輪不修改正式頁面或部署。
+
+
+## 第72輪｜2026-11-18 官網＋法律原文深入核補9條（年度改革高風險）
+
+### 實際核驗數據（續第71輪口徑）
+- 前輪：**80/110深入部分補核**（B級，非全欄完成）、**84/110至少一核心欄有證據**，C/D=0。
+- 本輪：新增9個先前12核心欄均為「未核」的不同原route_id；每條核對資格、三地證件第三國初篩、薪資/資金、費用、卡期限、工作、家屬、續卡、永居、法令生效與未解，對欠缺來源的欄位保留「未核」而不創造數字。
+- **新的深核覆蓋：89/110**；**有任一核心欄證據：93/110**；餘下17條仍未有逐欄政府證據，另4條僅舊輪少量證據；**C/D全部12欄閉環核實仍0/110**。本輪均 `C_D_complete=false`。
+- 僅寫入PR #108 Draft審核分支（PR #107已於2026-11-10合併），不部署網站、不合併審核分支。
+
+### 本輪新增9個route_id與官方來源
+
+| route_id | 新核實的主幹法規（2026-11-18核對） | 官方來源 |
+|---|---|---|
+| `estonia-digital-nomad-visa` | 外交部D簽數位遊民資金**€132/日＝€3,960/月**，簽費€120，12個月內最多365日；兩張連續D簽730日合計最多548日；D簽不是永居。過去網傳€4,500等數不可直接引用。 | https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa |
+| `estonia-eu-blue-card` | 2026-09-01現行Aliens Act §§190¹–190¹³：至少6月高技能合同；一般1.5倍最新統計平均毛月薪，指定職種1.24倍；首卡聘期+3月最多2年3月，續最多4年3月；2026-05-22廢止舊失業/轉雇主部分條文，舊攻略須更新。 | https://www.riigiteataja.ee/en/akt/501092026001 |
+| `france-eu-blue-card` | France Service Public（頁核證2026-06-01）藍卡最低稅前年薪**€59,373**、合同至少6月、3年高教或指定專業經驗；卡可最長4年；卡費€350。2026-10-30第2026-1001號法令改通知/拒絕/續期部分程序，官網自承仍在更新，須查法令全文。 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `france-talent-qualified-employee` | **不同於藍卡**：Talent-Salarié Qualifié官方薪資**€39,582**；法國碩士／認可證書或創新企業或集團派遣各有不同資格；Talent卡稅票€350、可最長4年；2026-10-30新法部分ICT條件需重核。 | https://www.service-public.gouv.fr/particuliers/vosdroits/F16922 |
+| `greece-golden-visa` | 希臘Mitos政府服務資料庫最後更新2026-11-04：特殊**商業用途改住宅**單一物業最低**€250,000**，改用途須2024-04-05後、申前完成；該特例沒有120㎡下限；核發費€2,000+製卡€16，5年卡，**無任何受僱工作權**。不可把此特例誤稱全國普通€250k住宅購房居留。 | https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Permanent_golden_visa_(change_of_use)_%E2%80%93_Initial_issuance |
+| `latvia-investor-residence-permit` | **重大2026法律變更**：PMLP 2026-09-15公告當天實施的新移民法取消「買房獲暫居」和「銀行次級負債投資暫居」兩子類；新€150,000國家另類基金管理人投資路線因基金**尚未成立而暫不能申請**。股本投資舊2022頁€50k/€100k及€10k國庫款須從新法重新核，不能直接宣傳。新法續卡文件原則須用拉脫維亞語，語言/歷史融入義務另於2027-12-31開始。 | https://www.pmlp.gov.lv/en/article/new-immigration-law-takes-effect-key-changes-and-regulations ; https://www.pmlp.gov.lv/en/share-capital-investor ; https://www.pmlp.gov.lv/en/real-estate-owner |
+| `switzerland-self-employed-work-permit` | SEM 2026-07-05官方FAQ與FNIA Art19：第三國自僱可個案申請，但要證明對瑞士經濟長期有益、商業營運、聘用計畫、資金、稅及合格州與聯邦批准；**不存在所有人可憑特定CHF投資額自動獲簽的通道**。持其他EU國永居不能直接在瑞士工作。 | https://www.sem.admin.ch/en/faq-working ; https://www.sem.admin.ch/en/basis-for-admission-to-the-swiss-employment-market |
+| `turkiye-citizenship-by-investment` | Türkiye官方投資局現列：購房最低**USD400,000＋3年不得出售**；或資本／銀行／國債／基金等**USD500,000**（大多鎖定3年），亦有聘50人途徑。這是**依總統決定的特例入籍**而非保證取得護照或一般投資永居；中國普通／港／台持證人購地限制須分別核。 | https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx |
+| `malta-global-residence-programme` | MTCA現行官網：GRP屬第三國人士**特殊稅務身份**，不可與MPRP投資永久居留混淆；境外匯入收入特殊稅率15%，本地收入35%另有最低年稅，詳細GRP住房/年度稅額待法規；**僅符合另申工作許可規則者才可在馬耳他工作**。 | https://mtca.gov.mt/personal-tax/individual/special-schemes/global-residence-programme-rules ; https://mtca.gov.mt/personal-tax/individual/special-schemes |
+
+### 需在OTC正式網頁對外發布前阻斷的風險
+1. **拉脫維亞（優先級最高）**：原資料若仍顯示「購房€250k拿居留」或「銀行次級債」為現行，即與2026-09-15政府法令相反；將其標記已終止子類，無新申請CTA。新的€150k基金途徑則是法律已引入但**尚不可操作**，不可顯示申請按鈕。原route_id作帶子路線變更說明，**不得將全部投資途徑誤標已取消**，股本新法合規尚待查。
+2. **法國**：兩套薪資€39,582與€59,373分開；官方2026-06資料頁對10月30日新法仍標「更新中」，通知期限尚不作最終確定。
+3. **希臘**：特殊改用途投資€250k不代表希臘各區普通住宅€250k可申；禁止不加條件的低價房廣告。
+4. **愛沙尼亞**：數位遊民€3,960/月而非舊網上其他數；藍卡2026-05-22部分條款變更，工作/失業規則依當期法。
+5. **瑞士／土耳其／馬耳他GRP**：自僱批准非買牌、投資入籍非保證、特殊稅務居留非投資永久居留，分別標明合法性與風險。
+6. 三地護照領事受理、家屬工作、完整費表、國籍法例外、居留/永久居留年資尚未閉環，保留逐欄待核；官方來源至少兩份年份不同互相衝突時以最新2026主管機關法公告為主，明示舊頁過期。
+
+### 記錄完整性與不發布條件
+- 本輪證據在 `docs/europe-mobility-110-field-evidence.csv`，各列列明 `official_checked_at=2026-11-18`、政府URL和未解。
+- 當前不可宣稱“89條完整合規”；正確對外描述是**89/110有深入部分官方核補紀錄，C/D 0/110**。
+- PR #107為已合併的導覽頁；後續安全核驗應於PR #108 Draft分支繼續，直至110條C/D及網站桌面/手機/SEO/分享/無障礙測試全過才提出合併/正式部署。
+
+
+## 第73輪｜2026-11-18 三條核心空白路線的官方補核（非C/D）
+
+- 從第72輪尚有17個12項核心欄全「未核」的route_id中，補入以下3個；本輪結束尚有**14條核心欄全未核**。覆蓋口徑：深入部分補核**92/110**（前89+3）；至少一核心欄有證據**96/110**（前93+3）；**C/D完整0/110**。
+- **阿爾巴尼亞** `albania-digital-mobile-worker-unique-permit`：內政部公布《外國人法》79/2021第68條：境外僱主/客戶遠距合約，初次合法停留，住所、犯罪紀錄、一年醫療保險；每人阿國銀行存款ALL300000/年或月收入ALL32000；首次服務費ALL4500、續費ALL2250；首次許可最多1年。不得把本地工作權或永久居留計時推定為已核。官方：https://mb.gov.al/procedura-dhe-dokumentacioni-per-pajisjen-me-leje-qendrimi-dhe-leje-unike-residence-unique-permit-al-en/ 和 https://mb.gov.al/wp-content/uploads/2024/10/Ligj-per-te-Huajt-%E2%80%93-nr.-79.2021_English.pdf
+- **保加利亞** `bulgaria-eu-blue-card`：歐盟委員會移民入口2025-04-01官方資料列6月高技能聘約、一般毋須勞動市場測試、標準5年卡（短聘另規定）、初次行政費110 BGN；**2026本國最新工資與費表尚未核，不把2025數字當2026確定價格**。官方：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-bulgaria_en
+- **斯洛伐克** `slovakia-eu-blue-card`：歐盟委員會移民入口2025-04-01官方資料列6月高技能聘約、工資通常須前一年度全國平均1.2倍，合格近3年大學畢業生可為1倍；初次費€250、續費€140；最長5年或聘期+90日。2026斯國官方法規、統計平均工資、費表未交叉核實。官方：https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-slovakia_en
+- 三條均只屬**B級部分政府核證**；中國大陸／香港／台灣護照個別領事受理、工作及家屬細節、續期、永居和生效日未完成。
+- 本輪僅變更PR #108 Draft審核分支的證據矩陣及清單；**不得合併、不得部署、不得稱110條全部核驗完成**。
