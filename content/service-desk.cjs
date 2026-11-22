@@ -160,6 +160,9 @@ module.exports=function(category){
 const selected = groups.find(([id]) => id === category);
 const categoryPath = id => `/zh/services/categories/${id}/`;
 const css=`<style>
+.desk-overview .services-hero{border-bottom-color:#d7ad55;background:linear-gradient(90deg,#081525 0%,#0b3153 42%,#d7ad55 42%,#d7ad55 58%,#c8952a 58%,#c8952a 61%,#081525 61%,#081525 100%)}
+.desk-overview .service-hero-layout{display:block}.desk-overview .desk-hero-buttons{display:flex;flex-wrap:wrap;gap:5px;padding-top:8px;padding-bottom:0}.desk-overview .desk-hero-buttons a{display:inline-flex;align-items:center;min-height:24px;box-sizing:border-box;padding:3px 8px;border:1px solid #c9b985;border-radius:3px;background:#fffaf0;color:#17374b;font-size:12px;line-height:1.35;text-decoration:none}.desk-overview .desk-hero-buttons a:hover{background:#f1e5c5}.desk-overview .desk-hero-buttons a:focus-visible{outline:2px solid #b7892c;outline-offset:2px}
+
 .service-desk-page .service-hero-layout{align-items:start}.service-desk-page .service-hero-panel{align-self:start}.service-desk-page .service-hero-panel a{min-height:84px}
 .desk-index{padding-top:12px;padding-bottom:28px}.desk-jump{display:flex;flex-wrap:wrap;gap:8px 22px;padding:12px 0 18px;border-bottom:1px solid #c8b89a}.desk-jump a{font-size:14px;font-weight:700;color:#19394d}
 .desk-section{--accent:#b7892c;--soft:#fff7e6;margin:22px 0 0;scroll-margin-top:130px;border-top:3px solid var(--accent)}.desk-section:nth-of-type(4n+2){--accent:#3e5f90;--soft:#eef2fa}.desk-section:nth-of-type(4n+3){--accent:#3f7f78;--soft:#edf7f3}.desk-section:nth-of-type(4n+4){--accent:#b24c34;--soft:#fff3ed}
@@ -176,8 +179,9 @@ const css=`<style>
 const title=selected?.[1] ?? '服務總覽';
 const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
 <div><div class="eyebrow">OTC 服務</div><h1>${title}</h1><p class="hero-sub">${selected?.[2] ?? '按需要選擇服務類別。'}</p>${selected?'<a class="btn btn-secondary" href="/zh/services/">返回服務總覽</a>':''}</div>
-<nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,label])=>`<a href="${selected?categoryPath(id):'#'+id}"><strong>${label}</strong></a>`).join('')}</nav>
+${selected?`<nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,label])=>`<a href="${selected?categoryPath(id):'#'+id}"><strong>${label}</strong></a>`).join('')}</nav>`:''}
 </div></div></section>
+${!selected?`<nav class="band desk-hero-buttons" aria-label="服務分類">${groups.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('')}</nav>`:''}
 <main class="band desk-index">
 ${(selected?[selected]:groups).map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
 <header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
@@ -187,7 +191,7 @@ ${!selected&&id==='study'?'<p class="desk-route-feature"><a href="/zh/services/c
 ${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
 </section>`).join('')}
 </main>`;
-return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:'service-desk-page',description:selected?.[2] ?? '查閱 OTC 服務分類與入口。',body}).replace(/[ \t]+$/gm,'');
+return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:selected?'service-desk-page':'service-desk-page desk-overview',description:selected?.[2] ?? '查閱 OTC 服務分類與入口。',body}).replace(/[ \t]+$/gm,'');
 };
 module.exports.categories=groups.map(([id])=>id);
 
