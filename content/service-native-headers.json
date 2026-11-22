@@ -596,5 +596,14 @@
     "file": "zh/services/tuition-deposit-refund/index.html",
     "shareLayout": "compact-square",
     "cardType": "summary"
+  },
+  "/zh/services/": {
+    "title": "服務總台｜海外督導・雙語世界",
+    "image": "/assets/social/service-desk-us-style-20261122.png",
+    "version": "v=20261122-gold-red",
+    "width": 1200,
+    "height": 440,
+    "cardType": "summary_large_image",
+    "sharePageVersion": "20261122-gold-red"
   }
 }
