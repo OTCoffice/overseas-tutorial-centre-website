@@ -175,21 +175,37 @@ const css=`<style>
 .desk-study-group{padding:14px 16px 4px;scroll-margin-top:130px}.desk-study-group h3{padding-bottom:6px;border-bottom:1px solid #ded7cc}
 
 @media(max-width:600px){.desk-section-head,.desk-jump,.desk-study-group{padding-inline:10px}.desk-row{grid-template-columns:minmax(0,1fr) 14px;gap:3px 8px}.desk-row span{grid-column:1;grid-row:2}.desk-row i{grid-column:2;grid-row:1}}
+
+.desk-overview .services-hero h1{font-size:30px!important;line-height:1.25!important;margin:7px 0!important}.desk-overview .services-hero{background:linear-gradient(110deg,#14354d 0%,#254f60 42%,#43877f 42%,#43877f 58%,#e1b64e 58%,#e1b64e 63%,#1b3049 63%,#1b3049 100%)}
+.desk-overview .desk-primary-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}.desk-overview .desk-overview-card{padding:12px 14px;background:#eef2f5;scroll-margin-top:100px}.desk-overview .desk-overview-card:nth-child(2){background:#f4eee3}.desk-overview .desk-overview-card:nth-child(3){background:#eaf2ee}.desk-overview .desk-overview-card:nth-child(4){background:#f1edf4}.desk-overview .desk-index h2{font-size:17px!important;margin:0 0 5px!important;border:0!important;padding:0!important;color:#17374b}.desk-overview .desk-index h3{font-size:15px!important;margin:0 0 5px;color:#17374b}.desk-overview .desk-index p{font-size:12px!important;line-height:1.6;margin:4px 0 8px}.desk-overview .desk-index nav{display:flex;flex-wrap:wrap;gap:5px 16px}.desk-overview .desk-index nav a{font-size:12px;line-height:1.6;text-decoration:underline;text-underline-offset:3px}.desk-overview .desk-career,.desk-overview .desk-extra{margin-top:18px;padding:0;border:0;scroll-margin-top:100px}.desk-overview .desk-career{padding:12px 14px;background:#f3f0e7}.desk-overview .desk-extra-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:10px}.desk-overview .desk-extra-grid section{border:0;padding:0;margin:0}@media(max-width:650px){.desk-overview .desk-primary-grid,.desk-overview .desk-extra-grid{grid-template-columns:1fr}.desk-overview .services-hero h1{font-size:27px!important}}
 </style>`;
-const title=selected?.[1] ?? '服務總覽';
+const byId=id=>groups.find(g=>g[0]===id);
+const overviewGroups=[
+ ['study','留學・規劃','選國、選校、申請與轉學。',byId('study')[3]],
+ ['visa','簽證・居留','簽證、移民與居留申請。',byId('visa')[3]],
+ ['learning','課程・教學','語言、學科、考試與資格課程。',byId('learning')[3].filter(r=>['tuition','qualifications'].includes(r[0]))],
+ ['living','生活・監護','住宿、監護與生活支援。',byId('living')[3]]
+];
+const overviewLinks=(id,rows)=>rows.map(([key,heading])=>`<a href="${categoryPath(id)}#${key}">${heading}</a>`).join('');
+const overviewCard=([id,label,desc,rows])=>`<section class="desk-overview-card" id="${id}"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`;
+const careerRows=byId('learning')[3].filter(r=>['internships','careers'].includes(r[0]));
+const extras=[['publishing','翻譯・出版','翻譯、文件與出版製作。',byId('publishing')[3].filter(r=>r[0]!=='business')],['publishing','商務・支援','採購、商務對接與AI應用。',byId('publishing')[3].filter(r=>r[0]==='business')],['partners','機構・合作','院校合作、活動與機構支援。',byId('partners')[3]]];
+const overview=`<div class="desk-primary-grid">${overviewGroups.map(overviewCard).join('')}</div><section class="desk-career" id="careers"><h2>求職・實習</h2><p>履歷、面試與實習申請。</p><nav aria-label="求職・實習">${overviewLinks('learning',careerRows)}</nav></section><section class="desk-extra" id="professional"><h2>專業・合作</h2><div class="desk-extra-grid">${extras.map(([id,label,desc,rows])=>`<section><h3>${label}</h3><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`).join('')}</div></section>`;
+const overviewButtons=[...overviewGroups.map(([id,label])=>[id,label]),['careers','求職・實習'],['professional','專業・合作']];
+const title=selected?.[1] ?? '服務總台';
 const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
-<div><div class="eyebrow">${selected?'OTC 服務':'海外督導｜雙語世界'}</div><h1>${title}</h1><p class="hero-sub">${selected?.[2] ?? '按需要選擇服務類別。'}</p>${selected?'<a class="btn btn-secondary" href="/zh/services/">返回服務總覽</a>':''}</div>
+<div><div class="eyebrow">${selected?'OTC 服務':'海外督導｜雙語世界'}</div><h1${!selected?' style="font-size:30px!important;line-height:1.25!important"':''}>${title}</h1><p class="hero-sub">${selected?.[2] ?? '按需要選擇服務類別。'}</p>${selected?'<a class="btn btn-secondary" href="/zh/services/">返回服務總覽</a>':''}</div>
 ${selected?`<nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,label])=>`<a href="${selected?categoryPath(id):'#'+id}"><strong>${label}</strong></a>`).join('')}</nav>`:''}
-${!selected?`<nav class="desk-hero-buttons" aria-label="服務分類">${groups.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('')}</nav>`:''}
+${!selected?`<nav class="desk-hero-buttons" aria-label="服務分類">${overviewButtons.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('')}</nav>`:''}
 </div></div></section>
 <main class="band desk-index">
-${(selected?[selected]:groups).map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
+${selected?[selected].map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
 <header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
 ${!selected&&id==='visa'?'<p class="desk-route-feature"><a href="/zh/services/japan-highly-skilled-professional/"><strong>日本高度人才1號與積分計算器</strong></a>　申請條件、70／80分、永住及家屬安排。</p>':''}
 ${!selected&&id==='study'?'<p class="desk-route-feature"><a href="/zh/services/change-of-major/"><strong>轉專業與轉學院 →</strong></a>　校內轉科、先修課、學分抵免；初步諮詢免費。</p>':''}
 <nav class="desk-jump" aria-label="${label}子分類">${rows.map(([key,heading])=>`<a ${selected?'':'id="'+key+'" '}href="${selected?'':categoryPath(id)}#${key}">${heading}</a>`).join('')}</nav>
 ${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
-</section>`).join('')}
+</section>`).join(''):overview}
 </main>`;
 return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:selected?'service-desk-page':'service-desk-page desk-overview',description:selected?.[2] ?? '查閱 OTC 服務分類與入口。',body}).replace(/[ \t]+$/gm,'').replace('>Translate the page · English</a>',selected?'>Translate the page · English</a>':'>English</a>');
 };
