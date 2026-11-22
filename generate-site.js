@@ -115,3 +115,6 @@ require("./scripts/render-university-interview.cjs");
 
 // Preserve Japan welding to Australia guide and its discovery links.
 require('./scripts/render-japan-welder.cjs');
+
+// Preserve Japan highly skilled professional guidance and calculator.
+require("./scripts/render-japan-hsp.cjs");

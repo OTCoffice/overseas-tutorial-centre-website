@@ -52,6 +52,7 @@ const groups=[
       ["澳洲 491／191 規劃","/zh/services/australia-491-planning/","地區技術簽證、州提名、191永居條件與行政支援。"],
       ["波蘭工作與居留","/zh/services/poland-work-residence-support/","工作許可、臨時居留、審理時間與文件及進度支援。"],
       ["德國自由職業居留","/zh/services/germany-freelance-residence/","申請資格、合作意向書、材料、費用及獨立收費諮詢。"],
+      ["日本高度人才1號","/zh/services/japan-highly-skilled-professional/","三類活動、申請條件、永住與自動積分試算。"],
       ["高學歷求職簽證","/zh/services/graduate-job-search-visas/","英國 HPI、荷蘭求職年與日本 J-Find：學歷資格、期限及申請準備。"],
       ["新加坡工作准證","/zh/services/singapore-work-pass-support/","EP、S Pass、雇主條件、薪資門檻及申請流程。"],
       ["英國 Global Talent 陪跑","/zh/services/uk-global-talent-support/","學術 CV、研究成果、推薦信及背書材料準備。"],
@@ -180,6 +181,7 @@ const body=css+`<section class="page-hero services-hero"><div class="band"><div 
 <main class="band desk-index">
 ${(selected?[selected]:groups).map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
 <header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
+${!selected&&id==='visa'?'<p class="desk-route-feature"><a href="/zh/services/japan-highly-skilled-professional/"><strong>日本高度人才1號與積分計算器</strong></a>　申請條件、70／80分、永住及家屬安排。</p>':''}
 ${!selected&&id==='study'?'<p class="desk-route-feature"><a href="/zh/services/change-of-major/"><strong>轉專業與轉學院 →</strong></a>　校內轉科、先修課、學分抵免；初步諮詢免費。</p>':''}
 <nav class="desk-jump" aria-label="${label}子分類">${rows.map(([key,heading])=>`<a ${selected?'':'id="'+key+'" '}href="${selected?'':categoryPath(id)}#${key}">${heading}</a>`).join('')}</nav>
 ${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
