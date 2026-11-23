@@ -97,6 +97,7 @@ const groups=[
       ["美國 ITP 實習與培訓","/zh/services/usa-itp-support/","J-1 Intern、Trainee 資格、培訓安排、申請準備與費用。"]
     ]],
     ["careers","海外求職",[
+      ["海外工作與國際項目專業陪跑","/zh/services/international-application-support/","CV、PS、資格認證資料、填表及申請跟進；人民幣 ¥2,800 起。"],
       ["英文履歷與面試","/zh/services/english-cv-interview-support/","CV、求職信與 LinkedIn 修改、英文面試；文書修改先報價付款，再詳細審閱。"],
       ["澳洲求職指導","/zh/australia-job-search-coaching/","求職方向、履歷、面試與入職準備。"],
       ["日本就業準備","/zh/services/japan-employment-preparation/","特定技能方向、日語、考試、預算與面試。"],
@@ -190,7 +191,7 @@ const overviewLinks=(id,rows)=>rows.map(([key,heading])=>`<a href="${categoryPat
 const overviewCard=([id,label,desc,rows])=>`<section class="desk-overview-card" id="${id}"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`;
 const careerRows=byId('learning')[3].filter(r=>['internships','careers'].includes(r[0]));
 const extras=[['publishing','翻譯・出版','翻譯、文件與出版製作。',byId('publishing')[3].filter(r=>r[0]!=='business')],['publishing','商務・支援','採購、商務對接與AI應用。',byId('publishing')[3].filter(r=>r[0]==='business')],['partners','機構・合作','院校合作、活動與機構支援。',byId('partners')[3]]];
-const overview=`<div class="desk-primary-grid">${overviewGroups.map(overviewCard).join('')}</div><section class="desk-career" id="careers"><h2>求職・實習</h2><p>履歷、面試與實習申請。</p><nav aria-label="求職・實習">${overviewLinks('learning',careerRows)}</nav></section><section class="desk-extra" id="professional"><h2>專業・合作</h2><div class="desk-extra-grid">${extras.map(([id,label,desc,rows])=>`<section><h3>${label}</h3><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`).join('')}</div></section>`;
+const overview=`<div class="desk-primary-grid">${overviewGroups.map(overviewCard).join('')}</div><section class="desk-career" id="careers"><h2>求職・實習</h2><p>履歷、面試與實習申請。</p><nav aria-label="求職・實習">${overviewLinks('learning',careerRows)}<a href="/zh/services/international-application-support/">海外工作與國際項目專業陪跑</a></nav></section><section class="desk-extra" id="professional"><h2>專業・合作</h2><div class="desk-extra-grid">${extras.map(([id,label,desc,rows])=>`<section><h3>${label}</h3><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`).join('')}</div></section>`;
 const overviewButtons=[...overviewGroups.map(([id,label])=>[id,label]),['careers','求職・實習'],['professional','專業・合作']];
 const title=selected?.[1] ?? '服務總台';
 const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
