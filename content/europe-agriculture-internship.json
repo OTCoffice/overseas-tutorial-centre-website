@@ -3,10 +3,10 @@
   "slug": "europe-agriculture-internship",
   "titleZh": "歐洲農業帶薪實習｜丹麥、德國項目與申請支援",
   "summaryZh": "丹麥與德國農業、畜牧、獸醫相關實習：接收渠道、農場案例、在讀資格、語言、薪酬、住宿、費用與申請流程。",
-  "shareImageZh": "/assets/social/native-europe-agriculture-internship-20261030.png",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 252,
+  "shareImageZh": "/assets/social/europe-agriculture-internship-share-20261124.png",
+  "socialImageVersion": "v=20261124-us-style",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
   "lang": "zh",
   "sections": [
     {
@@ -60,5 +60,5 @@
       "html": "<h3>可以DIY嗎？</h3><p>可以按公開渠道自行查詢，但若機構明定只收合作方申請，就不能用直接聯絡取代指定程序。沒有可用本國合作方時，先取得受理確認，再安排下一步。</p><h3>農場實習等於免費食宿嗎？</h3><p>不等於。提供房間與免租是兩回事，須看費用、押金、水電、膳食及是否從薪資扣除。</p><h3>獸醫學生可以做臨床嗎？</h3><p>畜牧照護與紀錄可以是實習內容，但獨立診療、處方及其他受規管操作不能只憑實習合同進行。</p><h3>能轉成長期工作嗎？</h3><p>實習期滿不自動取得長期工作或居留。若有後續雇用，須按當時適用的另一項許可另行核對；本服務不以實習保證移民。</p>"
     }
   ],
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only"
 }

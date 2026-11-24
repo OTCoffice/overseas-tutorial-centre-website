@@ -3,10 +3,10 @@
   "path": "/zh/services/korea-masters-application/",
   "titleZh": "韓國碩士申請｜藝術與影視選校及收費",
   "summaryZh": "韓國藝術與影視碩士選校、語言與作品材料、申請流程及歐洲交換規劃。OTC 標準申請服務人民幣6,600元；交換陪跑10小時人民幣2,988元。",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 186,
-  "shareImageZh": "/assets/social/native-korea-masters-application-20261030.png",
+  "socialImageVersion": "v=20261124-us-style",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "shareImageZh": "/assets/social/korea-masters-application-share-20261124.png",
   "socialTitleZh": "韓國藝術碩士申請",
   "sections": [
     {
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only"
 }

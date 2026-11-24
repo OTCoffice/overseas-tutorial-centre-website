@@ -14,6 +14,7 @@ const groups=[
       ["公校聯盟","/zh/public-school-alliance/","八國公立教育；國際招生、選科、費用、收費諮詢與申請。"],
     ]],
     ["university-admissions","本科與轉學",[
+      ["韓國本科申請","/zh/services/korea-undergraduate-application/","TOPIK、免語言學部與預錄取，選校與申請材料。"],
       ["大學申請","/zh/services/university-application-advisory/","選校、材料規劃、申請進度與院校溝通。"],
       ["大學入學面試與補充申請輔導","/zh/services/university-interview-coaching/","Kira 限時錄影、書面補充申請、經歷整理及模擬回饋。"],
       ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],

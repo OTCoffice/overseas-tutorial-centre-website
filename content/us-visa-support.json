@@ -3,10 +3,10 @@
   "slug": "us-visa-support",
   "titleZh": "美國簽證協助｜表格、材料與面試準備",
   "summaryZh": "協助整理美國旅遊、探親、商務、留學與交流簽證材料，核對 DS-160 資料，了解預約流程及準備面試。",
-  "shareImageZh": "/assets/social/native-us-visa-support-20261030.png",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 206,
+  "shareImageZh": "/assets/social/us-visa-support-share-20261124.png",
+  "socialImageVersion": "v=20261124-us-style",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
   "lang": "zh",
   "sections": [
     {
@@ -50,5 +50,5 @@
       ]
     }
   ],
-  "socialImageSource": "page-hero"
+  "socialImageSource": "share-only"
 }

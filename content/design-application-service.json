@@ -4,9 +4,9 @@
   "titleZh": "設計申請陪跑｜選校、作品集與申請進度",
   "summaryZh": "從背景與資格核對開始，把成績、作品、語言及文件安排成可執行的申請計畫。免費初步評估，導師與後續陪跑範圍、頻率及費用先確認。",
   "socialTitleZh": "設計申請陪跑：作品與進度",
-  "socialImageVersion": "v=20261030-native",
-  "socialImageWidth": 1333,
-  "socialImageHeight": 186,
+  "socialImageVersion": "v=20261124-us-style",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
   "sections": [
     {
       "heading": "適合哪些申請者",
@@ -60,6 +60,6 @@
       ]
     }
   ],
-  "shareImageZh": "/assets/social/native-design-application-coaching-20261030.png",
-  "socialImageSource": "page-hero"
+  "shareImageZh": "/assets/social/design-application-coaching-share-20261124.png",
+  "socialImageSource": "share-only"
 }
