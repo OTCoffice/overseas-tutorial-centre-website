@@ -1,68 +1,104 @@
 {
   "slug": "korea-masters-application",
   "path": "/zh/services/korea-masters-application/",
-  "titleZh": "韓國碩士申請｜藝術與影視選校及收費",
-  "summaryZh": "韓國藝術與影視碩士選校、語言與作品材料、申請流程及歐洲交換規劃。OTC 標準申請服務人民幣6,600元；交換陪跑10小時人民幣2,988元。",
+  "titleZh": "韓國碩士申請｜選校、入學要求、學費與獎學金",
+  "summaryZh": "韓國碩士類型、熱門專業與院校、TOPIK 及英語要求、申請材料與時間、學費、GKS 獎學金及簽證；合作院校免費代辦，非合作院校標準申請人民幣6,000元（最多6校）。",
   "socialImageVersion": "v=20261124-us-style",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
   "shareImageZh": "/assets/social/korea-masters-application-share-20261124.png",
-  "socialTitleZh": "韓國藝術碩士申請",
+  "socialTitleZh": "韓國碩士申請",
   "sections": [
     {
-      "heading": "申請方向",
+      "heading": "碩士類型",
       "paragraphs": [
-        "影視與編導申請先比較電影研究、導演與製作、影像內容等方向，再確認研究型或創作型學位、授課語言、作品集格式及面試要求。音樂、美術、表演與設計需另按專業選校。",
-        "選校前可以查交換制度；實際申請通常在入學後，按校方當期公告、在讀資格、語言、學分與名額辦理。國際處及院系負責提名與審核，不保證第二年赴歐。"
+        "韓國碩士一般為 2 年（4 學期）。研究型課程多屬<strong>一般大學院</strong>，按學科設碩士及博士課程，政府 GKS 獎學金也只適用一般大學院。<strong>專門大學院</strong>面向特定職業或領域，例如國際大學院、經營大學院；<strong>特殊大學院</strong>多為在職人士開設的夜間或週末課程，外國留學生報讀前須確認能否簽發 D-2 簽證。",
+        "授課語言分韓語與英語。韓語授課選擇較多；英語授課集中在國際大學院、經營及部分理工科。"
       ]
     },
     {
-      "heading": "院校示例",
+      "heading": "熱門專業",
       "paragraphs": [
-        "以下按 EduRank 2026 韓國綜合排名作三個相對層次示例，並非編導專業排名或錄取難度；不能據此指定保底校。",
-        "<strong>中央大學（韓國第11）：</strong>可查先端影像大學院的電影研究及製作課程。校級設有一至兩學期交換、短期海外課程等；2027秋季交流說明會分西歐、北歐及南歐介紹。外籍藝術碩士能否參加及適用院校，須由所屬大學院與國際處確認。",
-        "<strong>東國大學（韓國第16）：</strong>可查影像大學院 AI影像藝術產業學科內的電影製作方向，留意院系更名及當期招生。校方有學期交換，2026年亦公告英國 University of Westminster 交換說明會。2025指南要求研究生另行諮詢；不代表該電影方向已有可用名額。",
-        "<strong>東西大學（韓國第68）：</strong>可查 Visual Contents 的 Film 方向，國際學院介紹含英語授課的 MA／MFA 等路線。校級海外交換介紹列有歐洲合作校（例如德國 TU Berlin）；電影方向、外籍研究生及當期名額是否適用仍須書面確認，合作校名單不等於電影交換課程。"
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th>方向</th><th>可查院校</th><th>注意</th></tr></thead><tbody><tr><td>商科與經營</td><td>高麗大學、延世大學、成均館大學</td><td>韓語授課常要求較高 TOPIK；MBA 屬經營大學院，學費明顯較高</td></tr><tr><td>傳媒與影視</td><td>中央大學先端影像大學院、東國大學影像大學院、韓國外國語大學</td><td>創作型課程要作品集；確認研究型或創作型學位</td></tr><tr><td>設計與藝術</td><td>弘益大學、國民大學</td><td>作品集為主要評核；按設計細分方向選校</td></tr><tr><td>教育與韓語教育</td><td>慶熙大學、韓國外國語大學、梨花女子大學</td><td>韓語教育要求較高韓語能力；確認是否含教學實習</td></tr><tr><td>理工與資訊</td><td>首爾大學、KAIST、漢陽大學、成均館大學</td><td>研究型為主，先查研究室方向並聯繫教授；不少課程設英語授課</td></tr></tbody></table></div>",
+        "以上為常見選擇，並非排名；各校每年招生學科可能調整，以當期外國人招生簡章為準。"
+      ]
+    },
+    {
+      "heading": "入學要求",
+      "paragraphs": [
+        "學士學位及成績單；應屆生可先交預計畢業證明，入學前補交。熱門學校及專業對本科成績要求較高。",
+        "韓語授課常見要求 TOPIK 3 至 4 級，經營、新聞傳播等熱門專業可能要 5 至 6 級；部分學校接受校內語言考試或本校語學院結業。英語授課一般要求雅思約 6.0 或托福約 80 以上。TOPIK 成績有效期兩年。",
+        "研究型課程重視研究計畫及與教授研究方向的匹配；藝術、設計、影視課程另看作品集及面試。"
+      ]
+    },
+    {
+      "heading": "院校",
+      "paragraphs": [
+        "<strong>首爾頂尖：</strong>首爾大學、高麗大學、延世大學，競爭最激烈。",
+        "<strong>首爾主要私立：</strong>成均館、漢陽、慶熙、中央、韓國外國語、東國、梨花女子大學等，專業選擇多。",
+        "<strong>地方國立及私立：</strong>釜山大學、慶北大學、全南大學、忠南大學、啟明大學等，學費及生活費較低，部分專業門檻較寬。",
+        "選校按專業方向、語言程度及預算決定，不單看綜合排名。"
       ]
     },
     {
       "heading": "申請材料",
       "paragraphs": [
-        "通常先整理學歷與成績單、語言證明、履歷及學習或研究計畫，再依院系要求準備作品、推薦信、認證文件與面試。作品須標明本人負責的工作；韓語及英語門檻按課程簡章核對。",
-        "申請時間、文件認證及提交方式以當期招生簡章為準。學校與課程確定後，再安排語言考試、作品整理及補件時間。"
+        "常見材料：申請表、學位證及成績單（一般須辦海牙認證或領事認證）、語言成績、學習或研究計畫、自我介紹、推薦信、護照、父母國籍及親屬關係證明、存款證明。藝術類另交作品集，部分學校安排面試。文件格式及存款金額按學校規定。"
       ]
     },
     {
-      "heading": "服務與收費",
+      "heading": "申請時間",
       "paragraphs": [
-        "<div style=\"overflow-x:auto\"><table><thead><tr><th>項目</th><th>OTC 服務費（人民幣）</th><th>包含範圍</th></tr></thead><tbody><tr><td>韓國碩士標準申請</td><td>¥6,600／一個入學季</td><td>同一專業方向最多3校：選校與要求整理、材料清單、履歷及學習計畫結構與表達修改（各2輪）、作品提交規格檢查、申請與補件進度、1次面試準備。</td></tr><tr><td>歐洲交換陪跑</td><td>¥2,988／10小時</td><td>一輪校內提名及一個接收院校申請：選項比較、文件與日期整理、選課學分清單、校方溝通文字及行前準備；會議與文件工作均計入10小時。</td></tr></tbody></table></div>",
-        "初步需求諮詢免費。作品創作與課業不代做；作品集深度輔導、翻譯、語言課、追加學校或超出時數的工作，另行書面報價，確認後才進行。服務開始前列明期限、修改輪次、付款及取消安排。",
-        "學費、院校申請費、考試、翻譯認證、簽證、交通、住宿與保險等第三方費用另付。交換名額、錄取、學分認可及入境許可由相關機構決定。韓國此標準申請方案收費按本頁，與其他院校可能適用的免費代理代辦分開。"
+        "每年招生兩季。以高麗大學為例：3 月春季入學，9 月遞交申請，12 月中公布結果；9 月秋季入學，3 月遞交，6 月中公布結果。各校時間不同，部分學校分兩輪招生。",
+        "建議至少提前一年準備語言考試、文件認證及研究計畫。"
       ]
     },
     {
-      "heading": "定價參考",
+      "heading": "學費",
       "paragraphs": [
-        "韓國碩士申請參考斯通納留學公開報價人民幣11,000元，按60%計算為6,600元。交換陪跑參考 AdmitWrite 公開留學諮詢人民幣498元／小時，以10小時×60%計算為2,988元。",
-        "前者為單一公開申請報價樣本，後者為相近諮詢服務的時薪參考；並非全市場平均、同規格交換項目報價或OTC原價折扣。兩項服務內容以本頁範圍為準。核查：2026年10月9日。"
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th>學校</th><th>每學期學費（韓元）</th><th>入學金（韓元，一次）</th><th>範圍</th></tr></thead><tbody><tr><td>高麗大學（2025）</td><td>5,237,000</td><td>1,142,000</td><td>人文社會碩士</td></tr><tr><td>延世大學（2026）</td><td>5,479,000</td><td>1,028,000</td><td>文科及社會科學</td></tr><tr><td>啟明大學（大邱）</td><td>4,169,000</td><td>810,000</td><td>人文社會碩士</td></tr></tbody></table></div>",
+        "理工、藝術及體育類一般較人文社科高；經營大學院 MBA 及部分專門課程可達每學期一千萬韓元以上。國立大學學費一般較低。生活費按城市及住宿另計，首爾高於地方城市。"
       ]
     },
     {
-      "heading": "流程與聯絡",
+      "heading": "獎學金",
       "paragraphs": [
-        "① 說明專業、入學季與所需協助。<br>② 比較課程、語言及作品要求，確定最多3校。<br>③ 確認服務範圍與費用，整理並核對申請材料。<br>④ 按截止日申請、準備面試及跟進補件。<br>⑤ 入學後向國際處查當期交換機會；需要額外支援時選擇交換陪跑。",
-        "海外督導 OTC｜學生服務部<br><a href=\"https://wa.me/447947991572\">WhatsApp +44 7947 991572</a> · <a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a>",
-        "<a href=\"/zh/services/europe-exchange-support/\">歐洲交換陪跑服務 →</a>"
+        "<strong>GKS 政府獎學金（研究生）：</strong>一年韓語課程加兩年碩士課程，包學費、機票、韓語課程費及每月生活費，只適用一般大學院。研究生項目每年初開放申請，分使館及大學兩種渠道。",
+        "<strong>學校獎學金：</strong>多按入學成績或 TOPIK 級別減免學費，部分學校另設全額學費及生活費獎學金。名額、條件及續領要求以學校公告為準。"
       ]
     },
     {
-      "heading": "資料來源",
+      "heading": "簽證與畢業後",
       "paragraphs": [
-        "<a href=\"https://gsaim.cau.ac.kr/sub05/sub01.php\">中央大學影像課程</a> · <a href=\"https://graduate.cau.ac.kr/cauoia/overseas/exchange.do\">中央大學交換制度</a> · <a href=\"https://graduate.cau.ac.kr/cauoia/overseas/notice.do?articleNo=48330&amp;mode=view\">2027交換說明會</a>",
-        "<a href=\"https://dic.dongguk.edu/main\">東國大學影像大學院</a> · <a href=\"https://www.dongguk.edu/resources/files/ot_2025.pdf\">東國2025學生指南</a> · <a href=\"https://www.dongguk.edu/main\">東國大學最新公告</a>",
-        "<a href=\"https://uni.dongseo.ac.kr/ic/index.php?pCode=MN2000231\">東西大學 Visual Contents</a> · <a href=\"https://www.dongseo.ac.kr/kr/index.php?pCode=global_power\">東西大學海外交流</a>",
-        "綜合排名：<a href=\"https://edurank.org/uni/chung-ang-university/rankings/\">中央</a> · <a href=\"https://edurank.org/uni/dongguk-university/rankings/\">東國</a> · <a href=\"https://edurank.org/uni/dongseo-university/rankings/\">東西</a>",
-        "公開價格：<a href=\"https://www.91goodschool.com/news/15752-10341041.html\">斯通納韓國申請報價</a> · <a href=\"https://www.admitwrite.com/home/service/index.html\">AdmitWrite 諮詢報價</a>"
+        "錄取後學校簽發入學許可書（COA），再申請 D-2 留學簽證（碩士為 D-2-3）。須準備存款證明、學歷認證及護照等文件。",
+        "畢業後可按規定申請求職簽證（D-10）留韓找工作，找到合適工作後再轉工作簽證。"
+      ]
+    },
+    {
+      "heading": "服務與費用",
+      "paragraphs": [
+        "<div style=\"overflow-x:auto\"><table><thead><tr><th>項目</th><th>OTC 服務費（人民幣）</th><th>範圍</th></tr></thead><tbody><tr><td>合作院校標準申請</td><td>免費</td><td>符合合作院校條件時，選校、材料準備、遞交及錄取跟進免收服務費。</td></tr><tr><td>標準申請（非合作院校）</td><td>¥6,000／一個入學季</td><td>最多6校：選校與要求整理、材料清單、履歷及學習計畫修改（各2輪）、作品提交規格檢查、遞交與補件跟進、1次面試準備。</td></tr><tr><td>追加學校</td><td>¥1,200／校</td><td>超過6校時按校計算。</td></tr><tr><td>學習或研究計畫修改</td><td>¥1,000／份</td><td>結構與表達修改2輪。</td></tr><tr><td>面試輔導</td><td>¥600／次</td><td>模擬面試及回饋。</td></tr><tr><td>作品集輔導</td><td>按時數報價</td><td>藝術、設計及影視方向；作品不代做。</td></tr></tbody></table></div>",
+        "初步評估免費。學費、院校申請費、語言考試、文件認證及翻譯、簽證、住宿與保險等第三方費用另計。錄取、獎學金及簽證結果由學校及有關機構決定。"
+      ]
+    },
+    {
+      "heading": "流程",
+      "paragraphs": [
+        "<ol><li>說明本科專業、成績、語言程度、目標方向及入學季。</li><li>比較課程與要求，確定選校及語言路線。</li><li>確認服務範圍與費用，準備材料、研究計畫及作品。</li><li>按截止日遞交申請，準備面試，跟進補件及結果。</li><li>錄取後整理簽證材料，安排入學。</li></ol>"
+      ]
+    },
+    {
+      "heading": "相關服務",
+      "paragraphs": [
+        "<a href=\"/zh/services/korea-undergraduate-application/\">韓國本科申請</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換陪跑</a> · <a href=\"/zh/services/europe-exchange-support/\">歐洲交換陪跑</a> · <a href=\"/countries/south-korea/\">韓國留學入口</a>"
+      ]
+    },
+    {
+      "heading": "官方資料",
+      "paragraphs": [
+        "<a href=\"https://graduate2.korea.ac.kr/admission/procedure.html\" rel=\"noopener\">高麗大學研究生申請流程</a> · <a href=\"https://graduate2.korea.ac.kr/admission/tuition.html\" rel=\"noopener\">高麗大學研究生學費</a> · <a href=\"https://www.yonsei.ac.kr/sites/en_sc/down/2026_fee2.pdf\" rel=\"noopener\">延世大學2026研究生學費</a> · <a href=\"https://egs.kmu.ac.kr/egs/8525/subview.do\" rel=\"noopener\">啟明大學研究生學費</a>",
+        "<a href=\"https://www.studyinkorea.go.kr/ko/plan/scholarship.do\" rel=\"noopener\">Study in Korea｜GKS 獎學金</a> · <a href=\"https://studyinkorea.go.kr/ko/plan/visaAndStay.do\" rel=\"noopener\">Study in Korea｜簽證</a> · <a href=\"https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do\" rel=\"noopener\">Study in Korea｜語言要求與 TOPIK</a>",
+        "<a href=\"https://gsaim.cau.ac.kr/sub05/sub01.php\" rel=\"noopener\">中央大學影像課程</a> · <a href=\"https://dic.dongguk.edu/main\" rel=\"noopener\">東國大學影像大學院</a>"
       ]
     }
   ],

@@ -35,7 +35,7 @@ Reuse the existing Herald and service-desk templates. Keep wording plain. Batch 
 
 1. **Find source of truth**: inspect `AGENTS.md`, the style document, the exact reference page, target page, its renderer/source, existing cover and shared footer. Avoid editing generated HTML alone if the renderer will overwrite it.
 2. **No unrelated image reuse**: image file, visible headline, H1, page title, canonical, OG/Twitter title/description and link destination must all refer to the **same exact subject**. European mobility MUST NOT use a Europe exchange, agriculture, study-abroad-US, or any unrelated service image. An existing file is not a shortcut for a new page-specific asset.
-3. **User's latest cover spec wins**: for named US-study visual reference, use the approved navy/brick red/gold/warm-white academic header, Noto Serif TC Chinese and Georgia English. Share cover **1200×440**, active content y=40–399, preserve x=180–1020 safety, max 3 short right-hand information items. Match actual image dimensions. The latest user instruction can override dimensions.
+3. **User's latest cover spec wins**: for named US-study visual reference, use the approved navy/brick red/gold/warm-white academic header, Noto Serif TC Chinese and Georgia English. Share cover **1200×600** (see 分享題圖新規則 2026-11-24 below), max 3 short right-hand information items. Match actual image dimensions. The latest user instruction can override dimensions.
 4. **Separate header from share cover**: editing share preview does not authorize redesign of the webpage hero. Preserve the authentic OTC service-desk layout and palette. No made-up oversized card-based design or unrelated scenic illustrations.
 5. **Verify before commit**: check actual image bytes, PNG/JPG MIME and dimensions; inspect the image visually; verify that the rendered page loads the real file. OG/Twitter images and text must match the page and the intended share cover. Do not point og:image at SVG when platform support is uncertain. Never publish broken or mismatched images.
 6. **Footer utilities mandatory**: exactly one `page-utility-bar` after main/contact and before `site-footer`, using existing OTC CSS and working page URL for all share targets, email and copy link; do not show it near the hero.
@@ -54,3 +54,12 @@ Reuse the existing Herald and service-desk templates. Keep wording plain. Batch 
 4. **通用聯絡方式統一放在通用頁腳。** 公司電話、WhatsApp、Email、微信、地址等共用資料使用網站統一 footer 聯絡區；不散放在正文、服務側欄或「相關服務」內，也不為單頁另造一組聯絡資訊。
 
 提交前核對桌面與手機：頁頭無重複框列、費用說明僅一處、「相關服務」沒有聯絡資料、通用聯絡方式僅位於共用頁腳。社媒分享、Email 分享及複製本頁連結仍使用 footer 前唯一的分享條；分享功能不等於公司聯絡方式。
+
+## 分享題圖新規則（2026-11-24 使用者確認，取代先前所有題圖尺寸與版式規定）
+
+所有新建及修改的服務頁、專題頁，社媒分享題圖（OG／Twitter）一律採用「美國留學」款式：**1200×600 PNG**，深海軍藍底、左側「海外督導 OTC＋中文標題＋英文副標＋overseasuk.com」、右側磚紅／金色直帶上的米白卡片（「服務重點」＋3項短重點）、底部金色橫線。參考圖 `assets/social/us-study-share-20261114-v3.png`。
+
+- 不再使用頁頭擷取長條圖（`native-*`，如 1333×232），也不用 compact-square 或 1200×440；長條圖在 Threads 等平台會被裁切。
+- 生成：在 `content/us-style-share-cards.json` 加一項（route、slug、head、en、items），執行 `python3 scripts/generate-us-style-share.py <slug>`，輸出 `assets/social/<slug>-share-<日期>.png`。標題過長時在 head 用 `\n` 手動斷行，避免末行只剩一字。
+- 元數據：`content/service-native-headers.json`（如有該頁）把 image、version、width=1200、height=600 更新，舊圖記入 previousImage；頁面來源 JSON 設 `shareImageZh`、`socialImageVersion`、`socialImageWidth: 1200`、`socialImageHeight: 600`、`socialImageSource: "share-only"`（分享圖不放進正文）。OG／Twitter 圖片、寬高、alt 必須一致，跑 `python3 scripts/check-herald-share.py content/<頁>.json`。
+- 已發到 Threads 的連結會緩存舊預覽：換圖後如要更新，刪除舊回覆，以 `?v=<日期>` 版本參數重發。

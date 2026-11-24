@@ -1,0 +1,552 @@
+[
+ {
+  "route": "/zh/services/a-level-predicted-grade-assessment/",
+  "slug": "a-level-predicted-grade-assessment",
+  "head": "A Level 科目評估",
+  "en": "A Level Predicted Grade Assessment",
+  "items": [
+   "預估成績評估",
+   "自修考生支援",
+   "材料與流程"
+  ]
+ },
+ {
+  "route": "/zh/services/affordable-study-abroad/",
+  "slug": "affordable-study-abroad",
+  "head": "高性價比留學",
+  "en": "Affordable Study Abroad",
+  "items": [
+   "低學費課程",
+   "獎學金",
+   "帶薪培訓"
+  ]
+ },
+ {
+  "route": "/zh/services/ai-tool-shop/",
+  "slug": "ai-tool-shop",
+  "head": "AI 工具小舖",
+  "en": "AI Tool Shop",
+  "items": [
+   "訂閱協助",
+   "入門教學",
+   "個別輔導"
+  ]
+ },
+ {
+  "route": "/zh/services/ai-workflow-automation/",
+  "slug": "ai-workflow-automation",
+  "head": "企業 AI 與\n工作流程自動化",
+  "en": "AI Workflow Automation",
+  "items": [
+   "文件",
+   "數據",
+   "系統整合"
+  ]
+ },
+ {
+  "route": "/zh/services/animation-portfolio-support/",
+  "slug": "animation-portfolio-support",
+  "head": "動畫與原作作品集支援",
+  "en": "Animation Portfolio Support",
+  "items": [
+   "作品規劃",
+   "導師匹配",
+   "報考準備"
+  ]
+ },
+ {
+  "route": "/zh/services/australia-transfer-release-support/",
+  "slug": "australia-transfer-release-support",
+  "head": "澳洲轉校與\nRelease 申請協調",
+  "en": "Australia Transfer & Release Support",
+  "items": [
+   "學籍核對",
+   "文件整理",
+   "兩校聯絡"
+  ]
+ },
+ {
+  "route": "/zh/services/business-english-study-support/",
+  "slug": "business-english-study-support",
+  "head": "商業英語陪跑",
+  "en": "Business English Study Support",
+  "items": [
+   "每週學習計劃",
+   "寫作與簡報練習",
+   "商務溝通"
+  ]
+ },
+ {
+  "route": "/zh/services/business-transfer/",
+  "slug": "business-transfer",
+  "head": "商業轉讓與買家對接",
+  "en": "Business Transfer",
+  "items": [
+   "店舖",
+   "企業",
+   "資產"
+  ]
+ },
+ {
+  "route": "/zh/services/canada-school-application/",
+  "slug": "canada-school-application",
+  "head": "加拿大中小學申請",
+  "en": "Canada School Application",
+  "items": [
+   "選校與申請",
+   "免費代辦",
+   "監護與住宿協調"
+  ]
+ },
+ {
+  "route": "/zh/services/career-contract-signing-support/",
+  "slug": "career-contract-signing-support",
+  "head": "職業簽約陪跑",
+  "en": "Career Contract Signing Support",
+  "items": [
+   "公司核查",
+   "條款梳理",
+   "談判跟進"
+  ]
+ },
+ {
+  "route": "/zh/services/caribbean-citizenship/",
+  "slug": "caribbean-citizenship",
+  "head": "第二護照",
+  "en": "Caribbean Citizenship",
+  "items": [
+   "安提瓜和巴布達",
+   "多米尼克",
+   "格林納達"
+  ]
+ },
+ {
+  "route": "/zh/services/credential-evaluation-document-coordination/",
+  "slug": "credential-evaluation-document-coordination",
+  "head": "學歷認證與補件協調",
+  "en": "Credential Evaluation & Documents",
+  "items": [
+   "WES 文件驗證",
+   "院校重送",
+   "截止日應急"
+  ]
+ },
+ {
+  "route": "/zh/services/custom-lesson-plans-teaching-materials/",
+  "slug": "custom-lesson-plans-teaching-materials",
+  "head": "教案、教輔與教材訂製",
+  "en": "Custom Lesson Plans & Materials",
+  "items": [
+   "單堂教案",
+   "教輔與教材",
+   "完整課程包"
+  ]
+ },
+ {
+  "route": "/zh/services/design-application-coaching/",
+  "slug": "design-application-coaching",
+  "head": "設計申請陪跑",
+  "en": "Design Application Coaching",
+  "items": [
+   "選校",
+   "作品集",
+   "申請進度"
+  ]
+ },
+ {
+  "route": "/zh/services/english-cv-interview-support/",
+  "slug": "english-cv-interview-support",
+  "head": "英文履歷與面試",
+  "en": "English CV & Interview Support",
+  "items": [
+   "英文 CV",
+   "Cover Letter／LinkedIn",
+   "面試練習"
+  ]
+ },
+ {
+  "route": "/zh/services/europe-agriculture-internship/",
+  "slug": "europe-agriculture-internship",
+  "head": "歐洲農業帶薪實習",
+  "en": "Europe Agriculture Internship",
+  "items": [
+   "丹麥帶薪實習",
+   "德國帶薪實習",
+   "申請與行前準備"
+  ]
+ },
+ {
+  "route": "/zh/services/france-business-schools/",
+  "slug": "france-business-schools",
+  "head": "法國高商留學",
+  "en": "France Business Schools",
+  "items": [
+   "IÉSEG",
+   "NEOMA",
+   "emlyon"
+  ]
+ },
+ {
+  "route": "/zh/services/graduate-job-search-visas/",
+  "slug": "graduate-job-search-visas",
+  "head": "高學歷求職簽證",
+  "en": "Graduate Job Search Visas",
+  "items": [
+   "英國 HPI",
+   "荷蘭 Zoekjaar",
+   "日本 J-Find"
+  ]
+ },
+ {
+  "route": "/zh/services/hong-kong-minor-guardianship-homestay/",
+  "slug": "hong-kong-minor-guardianship-homestay",
+  "head": "香港低齡住宿\n與監護協調",
+  "en": "Hong Kong Guardianship & Homestay",
+  "items": [
+   "住宿比較",
+   "監護文件",
+   "家校聯絡"
+  ]
+ },
+ {
+  "route": "/zh/services/hong-kong-research-degree-application/",
+  "slug": "hong-kong-research-degree-application",
+  "head": "香港研究型碩博申請",
+  "en": "Hong Kong Research Degree Application",
+  "items": [
+   "MPhil／PhD",
+   "研究資助",
+   "選校與導師"
+  ]
+ },
+ {
+  "route": "/zh/services/international-sourcing/",
+  "slug": "international-sourcing",
+  "head": "國際採購與商務對接",
+  "en": "International Sourcing",
+  "items": [
+   "供應商搜尋",
+   "採購跟進",
+   "海外客戶開發"
+  ]
+ },
+ {
+  "route": "/zh/services/internship-coaching/",
+  "slug": "internship-coaching",
+  "head": "實習陪跑",
+  "en": "Internship Coaching",
+  "items": [
+   "申請準備",
+   "面試",
+   "實習復盤"
+  ]
+ },
+ {
+  "route": "/zh/services/japan-employment-preparation/",
+  "slug": "japan-employment-preparation",
+  "head": "日本就業準備陪跑",
+  "en": "Japan Employment Preparation",
+  "items": [
+   "方向",
+   "考試",
+   "材料與面試"
+  ]
+ },
+ {
+  "route": "/zh/services/japan-graduate-application/",
+  "slug": "japan-graduate-application",
+  "head": "日本大學院\n選校與申請規劃",
+  "en": "Japan Graduate Application",
+  "items": [
+   "申請路線",
+   "選校",
+   "研究計畫與材料"
+  ]
+ },
+ {
+  "route": "/zh/services/korea-exchange-support/",
+  "slug": "korea-exchange-support",
+  "head": "韓國交換陪跑",
+  "en": "Korea Exchange Support",
+  "items": [
+   "交換選擇",
+   "選課學分",
+   "行前準備"
+  ]
+ },
+ {
+  "route": "/zh/services/korea-masters-application/",
+  "slug": "korea-masters-application",
+  "head": "韓國碩士申請",
+  "en": "Korea Masters Application",
+  "items": [
+   "選校與入學要求",
+   "學費與獎學金",
+   "申請材料與面試"
+  ]
+ },
+ {
+  "route": "/zh/services/language-context-studio/",
+  "slug": "language-context-studio",
+  "head": "中英翻譯與\n商務溝通服務",
+  "en": "Translation & Business Communication",
+  "items": [
+   "中英翻譯",
+   "商務溝通",
+   "文件編譯"
+  ]
+ },
+ {
+  "route": "/zh/services/malaysia-study/",
+  "slug": "malaysia-study",
+  "head": "馬來西亞留學",
+  "en": "Malaysia Study",
+  "items": [
+   "院校",
+   "專業",
+   "申請與費用"
+  ]
+ },
+ {
+  "route": "/zh/services/media-remote-internship/",
+  "slug": "media-remote-internship",
+  "head": "新傳遠程實習",
+  "en": "Media Remote Internship",
+  "items": [
+   "項目費 £150",
+   "遠程任務",
+   "實習成果"
+  ]
+ },
+ {
+  "route": "/zh/services/personal-statement-support/",
+  "slug": "personal-statement-support",
+  "head": "個人陳述與申請文書",
+  "en": "Personal Statement Support",
+  "items": [
+   "Personal Statement",
+   "申請文書",
+   "修改與潤色"
+  ]
+ },
+ {
+  "route": "/zh/services/phd-application-coaching/",
+  "slug": "phd-application-coaching",
+  "head": "申博陪跑",
+  "en": "PhD Application Coaching",
+  "items": [
+   "研究方向",
+   "導師與資助",
+   "申請及面試"
+  ]
+ },
+ {
+  "route": "/zh/services/poland-work-residence-support/",
+  "slug": "poland-work-residence-support",
+  "head": "波蘭工作與居留",
+  "en": "Poland Work Residence Support",
+  "items": [
+   "工作許可",
+   "居留",
+   "申請進度"
+  ]
+ },
+ {
+  "route": "/zh/services/portfolio-website-support/",
+  "slug": "portfolio-website-support",
+  "head": "作品網站與雙語介紹",
+  "en": "Portfolio Website Support",
+  "items": [
+   "作品分類",
+   "專案介紹",
+   "網站製作"
+  ]
+ },
+ {
+  "route": "/zh/services/singapore-internship-support/",
+  "slug": "singapore-internship-support",
+  "head": "新加坡帶薪實習",
+  "en": "Singapore Internship Support",
+  "items": [
+   "TEP 資格",
+   "課程實習",
+   "申請支援"
+  ]
+ },
+ {
+  "route": "/zh/services/ssci-academic-supervision/",
+  "slug": "ssci-academic-supervision",
+  "head": "SSCI 學術督導",
+  "en": "SSCI Academic Supervision",
+  "items": [
+   "選題",
+   "選刊",
+   "論文修改"
+  ]
+ },
+ {
+  "route": "/zh/services/ssci-academic-supervision/subjects/",
+  "slug": "ssci-academic-supervision-subjects",
+  "head": "SSCI 學科分類",
+  "en": "SSCI Academic Supervision Subjects",
+  "items": [
+   "教育與語言",
+   "傳播與媒體",
+   "商管與社會科學"
+  ]
+ },
+ {
+  "route": "/zh/services/study-tour-programme-review/",
+  "slug": "study-tour-programme-review",
+  "head": "研學項目評估",
+  "en": "Study Tour Programme Review",
+  "items": [
+   "課程",
+   "主辦",
+   "費用"
+  ]
+ },
+ {
+  "route": "/zh/services/taiwan-art-design-admissions/",
+  "slug": "taiwan-art-design-admissions",
+  "head": "台灣藝術與設計升學",
+  "en": "Taiwan Art Design Admissions",
+  "items": [
+   "選系",
+   "考試",
+   "作品集"
+  ]
+ },
+ {
+  "route": "/zh/services/uk-company-registration-business-bank-account/",
+  "slug": "uk-company-registration-business-bank-account",
+  "head": "註冊英國公司\n及銀行開戶",
+  "en": "UK Company Registration & Business Banking",
+  "items": [
+   "Companies House",
+   "身分核驗",
+   "KYC 文件包"
+  ]
+ },
+ {
+  "route": "/zh/services/uk-global-talent-support/",
+  "slug": "uk-global-talent-support",
+  "head": "英國\nGlobal Talent 陪跑",
+  "en": "UK Global Talent Support",
+  "items": [
+   "學術研究",
+   "British Academy",
+   "申請文書陪跑"
+  ]
+ },
+ {
+  "route": "/zh/services/uk-sop-editing/",
+  "slug": "uk-sop-editing",
+  "head": "英碩 SOP\n邏輯與架構修改",
+  "en": "UK SOP Editing",
+  "items": [
+   "申請文書",
+   "邏輯梳理",
+   "架構修改"
+  ]
+ },
+ {
+  "route": "/zh/services/us-community-college/",
+  "slug": "us-community-college",
+  "head": "美國社區大學申請協助",
+  "en": "US Community College",
+  "items": [
+   "身分判斷",
+   "文件準備",
+   "選課與轉學"
+  ]
+ },
+ {
+  "route": "/zh/services/us-eb1a-niw-research-support/",
+  "slug": "us-eb1a-niw-research-support",
+  "head": "美國 EB-1A／NIW",
+  "en": "US EB-1A / NIW Research Support",
+  "items": [
+   "論文與影響力",
+   "NIW 三項要求",
+   "證據整理"
+  ]
+ },
+ {
+  "route": "/zh/services/us-opt-job-search-support/",
+  "slug": "us-opt-job-search-support",
+  "head": "美國 OPT 求職支援",
+  "en": "US OPT Job Search Support",
+  "items": [
+   "OPT",
+   "STEM OPT",
+   "履歷與雇主溝通"
+  ]
+ },
+ {
+  "route": "/zh/services/us-visa-support/",
+  "slug": "us-visa-support",
+  "head": "美國簽證協助",
+  "en": "US Visa Support",
+  "items": [
+   "表格",
+   "材料",
+   "面試準備"
+  ]
+ },
+ {
+  "route": "/zh/services/usa-itp-support/",
+  "slug": "usa-itp-support",
+  "head": "美國 ITP 實習與培訓",
+  "en": "USA ITP Support",
+  "items": [
+   "J-1 Intern",
+   "J-1 Trainee",
+   "申請條件"
+  ]
+ },
+ {
+  "route": "/zh/services/vietnam-visa/",
+  "slug": "vietnam-visa",
+  "head": "越南簽證代辦",
+  "en": "Vietnam Visa",
+  "items": [
+   "文件整理",
+   "申請支援",
+   "出行日期核對"
+  ]
+ },
+ {
+  "route": "/zh/services/visiting-scholar-support/",
+  "slug": "visiting-scholar-support",
+  "head": "訪問學者與學術交流",
+  "en": "Visiting Scholar Support",
+  "items": [
+   "研究訪問",
+   "學生交流",
+   "醫學觀摩"
+  ]
+ },
+ {
+  "route": "/zh/services/work-exchange-support/",
+  "slug": "work-exchange-support",
+  "head": "打工換宿",
+  "en": "Work Exchange Support",
+  "items": [
+   "換宿申請",
+   "雪季短工",
+   "行前準備"
+  ]
+ },
+ {
+  "route": "/zh/services/korea-undergraduate-application/",
+  "slug": "korea-undergraduate-application",
+  "head": "韓國本科申請",
+  "en": "Korea Undergraduate Application",
+  "items": [
+   "語言要求",
+   "無語言錄取",
+   "申請材料與簽證"
+  ]
+ }
+]

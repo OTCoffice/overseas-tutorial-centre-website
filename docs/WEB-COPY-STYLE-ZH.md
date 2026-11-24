@@ -162,3 +162,12 @@ OTC 網頁以小字、緊湊排版及漂亮的彩色題圖為基本原則。沿�
 - 分享條唯一位置：正文與聯絡區之後，頁尾 footer 之前；使用主站 `page-utility-bar`，每頁恰好一組，分享 URL 必須指向本頁。
 - 提交前必須本地或預覽實際檢查圖片、桌面和手機；部署後重新確認正式網址及平台未發送分享卡片。GitHub 提交成功 ≠ 題圖正常顯示 ≠ 網站已部署 ≠ 分享預覽通過，交付應逐項分開寫明。
 - 將以上步驟視為發布**阻斷條件**；在未通過時，只能說「已提交／待驗收」，不能說「已修好」。
+
+## 分享題圖新規則（2026-11-24 使用者確認，取代先前所有題圖尺寸與版式規定）
+
+所有新建及修改的服務頁、專題頁，社媒分享題圖（OG／Twitter）一律採用「美國留學」款式：**1200×600 PNG**，深海軍藍底、左側「海外督導 OTC＋中文標題＋英文副標＋overseasuk.com」、右側磚紅／金色直帶上的米白卡片（「服務重點」＋3項短重點）、底部金色橫線。參考圖 `assets/social/us-study-share-20261114-v3.png`。
+
+- 不再使用頁頭擷取長條圖（`native-*`，如 1333×232），也不用 compact-square 或 1200×440；長條圖在 Threads 等平台會被裁切。
+- 生成：在 `content/us-style-share-cards.json` 加一項（route、slug、head、en、items），執行 `python3 scripts/generate-us-style-share.py <slug>`，輸出 `assets/social/<slug>-share-<日期>.png`。標題過長時在 head 用 `\n` 手動斷行，避免末行只剩一字。
+- 元數據：`content/service-native-headers.json`（如有該頁）把 image、version、width=1200、height=600 更新，舊圖記入 previousImage；頁面來源 JSON 設 `shareImageZh`、`socialImageVersion`、`socialImageWidth: 1200`、`socialImageHeight: 600`、`socialImageSource: "share-only"`（分享圖不放進正文）。OG／Twitter 圖片、寬高、alt 必須一致，跑 `python3 scripts/check-herald-share.py content/<頁>.json`。
+- 已發到 Threads 的連結會緩存舊預覽：換圖後如要更新，刪除舊回覆，以 `?v=<日期>` 版本參數重發。

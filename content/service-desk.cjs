@@ -27,7 +27,7 @@ const groups=[
     ["graduate-admissions","碩士與博士",[
       ["博士申請","/zh/services/phd-application-coaching/","研究方向、導師與資助、研究計劃及面試。"],
       ["日本大學院選校與申請規劃","/zh/services/japan-graduate-application/","修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
-      ["韓國碩士申請","/zh/services/korea-masters-application/","藝術與影視選校、材料與面試；標準方案人民幣6,600元。"],
+      ["韓國碩士申請","/zh/services/korea-masters-application/","選校、入學要求、學費與獎學金；合作院校免費代辦。"],
       ["香港研究型碩博申請","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"]
     ]],
     ["subject-admissions","專業與職業升學",[
