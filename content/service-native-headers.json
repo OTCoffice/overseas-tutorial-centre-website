@@ -355,12 +355,12 @@
   },
   "/zh/services/singapore-work-pass-support/": {
     "title": "海外督導｜新加坡工作准證",
-    "image": "/assets/social/native-singapore-work-pass-support-20261030.png",
-    "version": "v=20261030-native",
-    "width": 1333,
-    "height": 232,
+    "image": "/assets/social/singapore-work-pass-share-20261124.png",
+    "version": "v=20261124-us-style",
+    "width": 1200,
+    "height": 600,
     "file": "zh/services/singapore-work-pass-support/index.html",
-    "previousImage": "/assets/social/singapore-work-pass-20261020-v1.png"
+    "previousImage": "/assets/social/native-singapore-work-pass-support-20261030.png"
   },
   "/zh/services/ssci-academic-supervision/": {
     "title": "SSCI 學術督導",
