@@ -70,5 +70,252 @@
   "socialImageVersion": "v=20261124-us-style",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "日本大學院申請全攻略 / JAPAN GRADUATE SCHOOL GUIDE",
+    "subtitle": "路線、選校、材料、時間與費用一頁看清；點卡片按鈕直達官方資料或諮詢。",
+    "searchPlaceholder": "搜尋關鍵詞（如 研究生／COE／研究計畫）",
+    "tabs": [
+      {
+        "id": "route",
+        "label": "申請路線"
+      },
+      {
+        "id": "select",
+        "label": "選校與要求"
+      },
+      {
+        "id": "docs",
+        "label": "材料與時間"
+      },
+      {
+        "id": "service",
+        "label": "費用與服務"
+      }
+    ],
+    "tip": "日本大學院以研究科當期簡章為準；先定研究方向，再比較導師與入學要求。修士通常兩年，常見 4 月入學，部分課程另有 9／10 月入學。",
+    "groupTitle": "日本大學院申請要點（點按鈕直達官方資料）",
+    "cards": [
+      {
+        "id": "section-1",
+        "tab": "route",
+        "region": "日本／修士",
+        "badge": "主要路線",
+        "title": "修士正式學位（碩士）",
+        "chips": [
+          "兩年制",
+          "日語／英語授課",
+          "按研究科招生"
+        ],
+        "desc": "日本大學院包括修士、博士及專門職學位。本頁以修士為主，可比較直接報考正式學位、英語授課學位及先讀研究生的安排。",
+        "noteLabel": "選擇建議",
+        "note": "先按背景確認適合直接報考還是先讀研究生。",
+        "primary": {
+          "label": "看 JASSO 官方說明 ↗",
+          "href": "https://www.studyinjapan.go.jp/en/planning/learn-about-schools/graduate-schools/"
+        },
+        "secondary": {
+          "label": "諮詢",
+          "href": "https://wa.me/447947991572"
+        }
+      },
+      {
+        "tab": "route",
+        "region": "日本／非學位",
+        "badge": "易混淆",
+        "title": "研究生（kenkyusei）",
+        "chips": [
+          "非學位身分",
+          "需另行考修士"
+        ],
+        "desc": "日本的「研究生」通常是非學位身分，與中文所稱的碩博士研究生不同；讀完研究生不會自動升讀修士，仍須通過選拔。",
+        "noteLabel": "注意",
+        "note": "不要把研究生錄取當成修士錄取。",
+        "primary": {
+          "label": "東大非學位研究生示例 ↗",
+          "href": "https://www.i.u-tokyo.ac.jp/edu/entra/research_students_e.shtml"
+        }
+      },
+      {
+        "tab": "route",
+        "region": "日本／特別選拔",
+        "badge": "在職人士",
+        "title": "一年制與社會人選拔",
+        "chips": [
+          "修業年限",
+          "招生方式",
+          "專門職學位"
+        ],
+        "desc": "一年制是修業年限，社會人選拔是招生方式，專門職是學位類別。先確認頒授學位及年限，再查簡章是否要求工作年資、相關職務或在職證明。",
+        "noteLabel": "語言",
+        "note": "日語授課課程須另核語言證明及面試語言。"
+      },
+      {
+        "tab": "route",
+        "region": "日本／遠程",
+        "badge": "簽證相關",
+        "title": "遠程授課與在留資格",
+        "chips": [
+          "境外修讀",
+          "混合授課",
+          "COE"
+        ],
+        "desc": "全程在境外修讀無須辦留學簽證，也不能以遠程錄取申請「留學」在留資格。混合授課須向校方確認到校時間及是否協助申請 COE。",
+        "noteLabel": "簽證銜接",
+        "note": "赴日面授課程由校方協助申請 COE 後再辦簽證。",
+        "primary": {
+          "label": "出入國在留管理廳 ↗",
+          "href": "https://www.moj.go.jp/isa/applications/status/student"
+        }
+      },
+      {
+        "tab": "route",
+        "region": "中國內地",
+        "badge": "學歷認證",
+        "title": "留服中心學歷學位認證",
+        "chips": [
+          "跨境遠程不認證",
+          "優先赴日面授"
+        ],
+        "desc": "教育部留學服務中心說明，跨境遠程學習取得的境外學歷學位不在認證範圍。日後需要認證的，選課前應確認實際授課方式。",
+        "noteLabel": "建議",
+        "note": "混合授課按具體安排向留服中心查詢。",
+        "primary": {
+          "label": "留服中心官方提醒 ↗",
+          "href": "https://zwfw.cscse.edu.cn/zwfw/lxfwzxwsfwdt2020/xlxwrz32/tzgg61/2026051815272573928/index.html"
+        }
+      },
+      {
+        "id": "section-2",
+        "tab": "select",
+        "region": "選校",
+        "badge": "核心步驟",
+        "title": "研究科與導師匹配",
+        "chips": [
+          "研究方向",
+          "導師研究",
+          "授課語言"
+        ],
+        "desc": "選校以研究方向、研究科與實驗室為核心，再比較導師、語言、招生資格、選拔方式與預算。排名只作參考，不代替專業匹配。",
+        "noteLabel": "OTC 協助",
+        "note": "整理候選院校表：研究科、導師、語言證明、事前聯絡要求及考試日期。",
+        "primary": {
+          "label": "日本大學清單（中文）",
+          "href": "/zh/universities/japan/"
+        },
+        "secondary": {
+          "label": "全部院校",
+          "href": "/zh/universities/"
+        }
+      },
+      {
+        "id": "section-3",
+        "tab": "select",
+        "region": "入學要求",
+        "badge": "按研究科",
+        "title": "學歷、語言與選拔方式",
+        "chips": [
+          "資格審查",
+          "JLPT／IELTS／TOEFL",
+          "筆試面試"
+        ],
+        "desc": "學歷與語言要求由各研究科訂定；海外學位或跨專業背景可能需提前資格審查。選拔可能包括材料審查、筆試、小論文、面試及口試。",
+        "noteLabel": "注意",
+        "note": "沒有全日本通用的分數門檻；教授回覆不等於正式錄取。",
+        "primary": {
+          "label": "早稻田日語授課招生 ↗",
+          "href": "https://www.waseda.jp/inst/admission/en/graduate/japanese/"
+        }
+      },
+      {
+        "id": "section-4",
+        "tab": "docs",
+        "region": "申請材料",
+        "badge": "重點文件",
+        "title": "研究計畫書",
+        "chips": [
+          "研究問題",
+          "方法",
+          "可行性"
+        ],
+        "desc": "說明研究問題、文獻背景、目的、方法、可行性及參考文獻，篇幅格式按研究科規定。",
+        "noteLabel": "OTC 協助",
+        "note": "選題討論、結構與表達回饋；研究內容由申請人完成。",
+        "primary": {
+          "label": "WhatsApp 諮詢",
+          "href": "https://wa.me/447947991572"
+        }
+      },
+      {
+        "tab": "docs",
+        "region": "申請材料",
+        "badge": "清單",
+        "title": "常見出願材料",
+        "chips": [
+          "成績單",
+          "推薦信",
+          "語言成績",
+          "作品集"
+        ],
+        "desc": "學歷或預畢業證明、成績單、履歷、語言成績、推薦信、研究計畫及畢業論文摘要；藝術設計方向可能另需作品集。",
+        "noteLabel": "格式",
+        "note": "翻譯、認證與寄送規格按校方要求準備。"
+      },
+      {
+        "id": "section-5",
+        "tab": "docs",
+        "region": "時間安排",
+        "badge": "12–18 個月",
+        "title": "申請時間線",
+        "chips": [
+          "4 月入學",
+          "9／10 月入學",
+          "各校日期不同"
+        ],
+        "desc": "① 確認專業、語言、預算與入學季 → ② 比較研究科與導師 → ③ 準備研究計畫與語言考試 → ④ 依簡章出願、筆試面試 → ⑤ 辦理入學、住宿與在留手續。",
+        "noteLabel": "說明",
+        "note": "12–18 個月是準備建議，不是統一申請期限。"
+      },
+      {
+        "id": "section-6",
+        "tab": "service",
+        "region": "費用",
+        "badge": "書面報價",
+        "title": "服務與第三方費用",
+        "chips": [
+          "需求諮詢免費",
+          "按院校數報價",
+          "第三方另計"
+        ],
+        "desc": "選校與申請規劃按院校數、研究方向、文件修改輪次及面試支援報價。學費生活費按院校及城市計算；出願、考試、翻譯、簽證、住宿與保險另計。",
+        "noteLabel": "注意",
+        "note": "不一概視為免費代辦；錄取、獎學金及在留許可由相關機構決定。"
+      },
+      {
+        "id": "section-7",
+        "tab": "service",
+        "region": "OTC 服務",
+        "badge": "立即諮詢",
+        "title": "服務範圍與聯絡",
+        "chips": [
+          "選校比較",
+          "材料修改",
+          "面試準備"
+        ],
+        "desc": "可協助選校比較、時間表、材料清單、研究計畫與履歷修改、導師聯絡文字及面試準備。諮詢時請提供學歷、專業成績、日英語程度、研究興趣、入學季與預算。",
+        "noteLabel": "聯絡",
+        "note": "<a href=\"mailto:office@overseasuk.com\">office@overseasuk.com</a>",
+        "primary": {
+          "label": "WhatsApp 諮詢",
+          "href": "https://wa.me/447947991572"
+        },
+        "secondary": {
+          "label": "電郵",
+          "href": "mailto:office@overseasuk.com"
+        }
+      }
+    ],
+    "footer": "<span id=\"section-8\">資料核查：2026年10月28日。具體資格、日期、費用及選拔方式以申請研究科當期簡章為準。</span>"
+  },
+  "bodyFormat": "card-directory"
 }
