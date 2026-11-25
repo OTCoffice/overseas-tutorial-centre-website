@@ -55,6 +55,7 @@ const CARDS = sortLong(M.cards || {}), SUB = sortLong(M.heroSub || {});
 for (const f of walk('zh')) {
   let s = rd(f); if (!s.includes('class="cd-card')) continue; const o = s;
   s = s.replace(/(<article class="cd-card[^>]*>[\s\S]*?<h3>)([\s\S]*?)(<\/h3>)/g, (m, a, t, b) => a + ((M.cards || {})[t] || t) + b);
+  s = s.replace(/(<div class="cd-desc">)([\s\S]*?)(<\/div>)/g, (m, a, body, b) => a + body.replace(/(<h3\b[^>]*>)([^<]*)(<\/h3>)/g, (x, p, t, q) => p + ((M.cards || {})[t] || t) + q) + b);
   s = s.replace(/<section class="page-hero[\s\S]*?<\/section>/, hero => {
     for (const [a, b] of SUB) hero = hero.split(`>${a}</h2>`).join(`>${b}</h2>`);
     for (const [a, b] of CARDS) hero = hero.split(`<strong>${a}</strong>`).join(`<strong>${b}</strong>`);
