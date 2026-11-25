@@ -6,6 +6,7 @@ const groups=[
       ["留學國家","/zh/countries/","按國家查閱院校、學費及生活費。"],
       ["學科選擇","/zh/subject-planning/","商科、文理工科、醫學、法律、藝術與設計等專業。"],
       ["高性價比留學","/zh/services/affordable-study-abroad/","低學費課程、政府獎學金、研究資助與帶薪培訓。"],
+      ["馬來西亞留學","/zh/services/malaysia-study/","TAR UMT、UM、UTM、USM 課程比較、申請路徑與完整預算。"],
       ["政府全額獎學金","/zh/government-scholarships/","按目的地、學位與中國大陸、香港、台灣申請渠道查找。"],
       ["留學申請收費標準","/zh/application-fees/","同等服務參考價六折；免費代辦項目與第三方費用說明。"],
     ]],
@@ -19,6 +20,7 @@ const groups=[
       ["大學入學面試與補充申請輔導","/zh/services/university-interview-coaching/","Kira 限時錄影、書面補充申請、經歷整理及模擬回饋。"],
       ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],
       ["國際大學轉學","/zh/services/international-transfer/","按國家及地區查閱轉學途徑、學分認定與官方入口。"],
+      ["澳洲轉校與 Release","/zh/services/australia-transfer-release-support/","學籍時間線、轉專業理由，原校釋放與新校入學跟進。"],
       ["轉專業與轉學院","/zh/services/change-of-major/","校內轉科、先修課、學分抵免與修業安排；初步諮詢免費。"],
       ["轉學與學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
       ["Asso／HD 升大學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
@@ -36,6 +38,8 @@ const groups=[
       ["護理課程與院校","/zh/nursing/courses/","按 AQF 學歷級別及州份查閱澳洲護理課程。"],
       ["社工升學與職業規劃","/zh/subject-planning/social-work/","按國家查閱社工升學、院校課程、專業資格、薪資及居留。"],
       ["法國高商留學","/zh/services/france-business-schools/","IÉSEG、NEOMA、emlyon、EDHEC、SKEMA；選校、GMAT 與申請規劃。"],
+      ["設計申請陪跑","/zh/services/design-application-coaching/","選校、作品集、語言與文件的申請計畫。"],
+      ["動畫與原作作品集","/zh/services/animation-portfolio-support/","動畫升學初評、作品規劃、導師匹配與面談準備。"],
       ["德國雙元制","/zh/services/germany-ausbildung/","職業培訓、德語、申請材料及中介合約查核。"]
     ]],
     ["application-documents","文書與學歷文件",[
@@ -51,6 +55,7 @@ const groups=[
       ["美國簽證協助","/zh/services/us-visa-support/","DS-160 資料核對、文件整理、預約流程與面試準備。"],
       ["越南簽證代辦","/zh/services/vietnam-visa/","需求確認、文件檢查、申請協調與進度跟進。"],
       ["澳洲 491／191 規劃","/zh/services/australia-491-planning/","地區技術簽證、州提名、191永居條件與行政支援。"],
+      ["日本焊工轉澳洲","/zh/insights/japan-welder-australia-pathway/","特定技能、JIS 證書與澳洲焊工職業評估；190、491 州擔保。"],
       ["波蘭工作與居留","/zh/services/poland-work-residence-support/","工作許可、臨時居留、審理時間與文件及進度支援。"],
       ["德國自由職業居留","/zh/services/germany-freelance-residence/","申請資格、合作意向書、材料、費用及獨立收費諮詢。"],
       ["日本高度人才1號","/zh/services/japan-highly-skilled-professional/","三類活動、申請條件、永住與自動積分試算。"],
@@ -67,6 +72,7 @@ const groups=[
       ["研學項目評估","/zh/services/study-tour-programme-review/","名校參訪、寒暑校及第三方研學的課程、主辦、費用與退款資料比較。"],
       ["藝術遊學與國際駐村","/zh/services/art-study-residency/","14國藝術短課、自費及徵選駐村；按國家查看資格、費用與申請安排。"],
       ["歐洲交換申請","/zh/services/europe-exchange-support/","交換選校、選課、學分、均分與升碩銜接。"],
+      ["韓國交換陪跑","/zh/services/korea-exchange-support/","韓國交換選校、課程語言、學分與行前準備。"],
       ["美國高中交換","/zh/us-high-school-exchange-support/","交換項目、申請條件及文件準備。"],
       ["訪問學者與學術交流","/zh/services/visiting-scholar-support/","項目與導師、研究計劃、訪問邀請及醫學觀摩申請支援。"]
     ]],
