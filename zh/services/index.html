@@ -76,8 +76,112 @@
 
 <nav class="desk-hero-buttons" aria-label="服務分類"><a href="#study">留學・規劃</a><a href="#visa">簽證・居留</a><a href="#learning">課程・教學</a><a href="#living">生活・監護</a><a href="#careers">求職・實習</a><a href="#professional">專業・合作</a></nav>
 </div></div></section>
-<main class="band desk-index">
-<div class="desk-primary-grid"><section class="desk-overview-card" id="study"><h2><a href="/zh/services/categories/study/">留學・規劃</a></h2><p>選國、選校、申請與轉學。</p><nav aria-label="留學・規劃"><a href="/zh/services/categories/study/#study-planning">選國、選校與預算</a><a href="/zh/services/categories/study/#school-admissions">中小學入學</a><a href="/zh/services/categories/study/#university-admissions">本科與轉學</a><a href="/zh/services/categories/study/#graduate-admissions">碩士與博士</a><a href="/zh/services/categories/study/#subject-admissions">專業與職業升學</a><a href="/zh/services/categories/study/#application-documents">文書與學歷文件</a></nav></section><section class="desk-overview-card" id="visa"><h2><a href="/zh/services/categories/visa/">簽證・居留</a></h2><p>簽證、移民與居留申請。</p><nav aria-label="簽證・居留"><a href="/zh/services/categories/visa/#visa-applications">簽證與居留</a><a href="/zh/services/categories/visa/#study-exchange">遊學與交流</a><a href="/zh/services/categories/visa/#work-exchange">青年交流與短期工作</a></nav></section><section class="desk-overview-card" id="learning"><h2><a href="/zh/services/categories/learning/">課程・教學</a></h2><p>語言、學科、考試與資格課程。</p><nav aria-label="課程・教學"><a href="/zh/services/categories/learning/#tuition">課程與學術輔導</a><a href="/zh/services/categories/learning/#qualifications">職業資格與註冊</a></nav></section><section class="desk-overview-card" id="living"><h2><a href="/zh/services/categories/living/">生活・監護</a></h2><p>住宿、監護與生活支援。</p><nav aria-label="生活・監護"><a href="/zh/services/categories/living/#family-support">住宿、監護與緊急協調</a><a href="/zh/services/categories/living/#travel">旅行與親子體驗</a></nav></section></div><section class="desk-career" id="careers"><h2>求職・實習</h2><p>履歷、面試與實習申請。</p><nav aria-label="求職・實習"><a href="/zh/services/categories/learning/#internships">實習與培訓</a><a href="/zh/services/categories/learning/#careers">海外求職</a><a href="/zh/services/international-application-support/">海外工作與國際項目專業陪跑</a></nav></section><section class="desk-extra" id="professional"><h2>專業・合作</h2><div class="desk-extra-grid"><section><h3>翻譯・出版</h3><p>翻譯、文件與出版製作。</p><nav aria-label="翻譯・出版"><a href="/zh/services/categories/publishing/#language-documents">翻譯與文件</a><a href="/zh/services/categories/publishing/#editorial">出版與研究</a></nav></section><section><h3>商務・支援</h3><p>採購、商務對接與AI應用。</p><nav aria-label="商務・支援"><a href="/zh/services/categories/publishing/#business">跨境商務與 AI</a></nav></section><section><h3>機構・合作</h3><p>院校合作、活動與機構支援。</p><nav aria-label="機構・合作"><a href="/zh/services/categories/partners/#education-partnerships">合作與教育活動</a><a href="/zh/services/categories/partners/#institutional-support">機構營運與培訓</a></nav></section></div></section>
+<main class="band desk-index"><style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><main class="cd" id="directory">
+<div class="cd-head"><h2>服務總台</h2><p>按需要選擇服務類別；每張卡可直達該類全部服務或子分類。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="main">主要業務</button><button type="button" class="cd-tab" data-tab="more">求職・專業・出版</button><input class="cd-search" type="search" placeholder="搜尋服務類別" aria-label="搜尋"></div>
+
+<div class="cd-grouphead">服務類別<span><span class="cd-count">8</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card" data-tab="main">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>留學・規劃</h3>
+
+<div class="cd-desc"><span id="study"></span>選國、選校、申請與轉學。<p class="cd-links"><a href="/zh/services/categories/study/#study-planning">選國、選校與預算</a> · <a href="/zh/services/categories/study/#school-admissions">中小學入學</a> · <a href="/zh/services/categories/study/#university-admissions">本科與轉學</a> · <a href="/zh/services/categories/study/#graduate-admissions">碩士與博士</a> · <a href="/zh/services/categories/study/#subject-admissions">專業與職業升學</a> · <a href="/zh/services/categories/study/#application-documents">文書與學歷文件</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/study/">查看留學・規劃全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="main">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>簽證・居留</h3>
+
+<div class="cd-desc"><span id="visa"></span>簽證、移民與居留申請。<p class="cd-links"><a href="/zh/services/categories/visa/#visa-applications">簽證與居留</a> · <a href="/zh/services/categories/visa/#study-exchange">遊學與交流</a> · <a href="/zh/services/categories/visa/#work-exchange">青年交流與短期工作</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/visa/">查看簽證・居留全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="main">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>課程・教學</h3>
+
+<div class="cd-desc"><span id="learning"></span>語言、學科、考試與資格課程。<p class="cd-links"><a href="/zh/services/categories/learning/#tuition">課程與學術輔導</a> · <a href="/zh/services/categories/learning/#qualifications">職業資格與註冊</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/learning/">查看課程・教學全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="main">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>生活・監護</h3>
+
+<div class="cd-desc"><span id="living"></span>住宿、監護與生活支援。<p class="cd-links"><a href="/zh/services/categories/living/#family-support">住宿、監護與緊急協調</a> · <a href="/zh/services/categories/living/#travel">旅行與親子體驗</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/living/">查看生活・監護全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="more">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>求職・實習</h3>
+
+<div class="cd-desc"><span id="careers"></span>履歷、面試與實習申請。<p class="cd-links"><a href="/zh/services/categories/learning/#internships">實習與培訓</a> · <a href="/zh/services/categories/learning/#careers">海外求職</a> · <a href="/zh/services/international-application-support/">海外工作與國際項目專業陪跑</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/learning/">查看求職・實習全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="more">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>翻譯・出版</h3>
+
+<div class="cd-desc"><span id="professional"></span>翻譯、文件與出版製作。<p class="cd-links"><a href="/zh/services/categories/publishing/#language-documents">翻譯與文件</a> · <a href="/zh/services/categories/publishing/#editorial">出版與研究</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/publishing/">查看翻譯・出版全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="more">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>商務・支援</h3>
+
+<div class="cd-desc">採購、商務對接與AI應用。<p class="cd-links"><a href="/zh/services/categories/publishing/#business">跨境商務與 AI</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/publishing/">查看商務・支援全部服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="more">
+<div class="cd-top"><span class="cd-region">服務類別</span></div>
+<h3>機構・合作</h3>
+
+<div class="cd-desc">院校合作、活動與機構支援。<p class="cd-links"><a href="/zh/services/categories/partners/#education-partnerships">合作與教育活動</a> · <a href="/zh/services/categories/partners/#institutional-support">機構營運與培訓</a></p></div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/categories/partners/">查看機構・合作全部服務 →</a></div>
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
 </main>
 
     <div class="page-utility-bar" data-page-share>

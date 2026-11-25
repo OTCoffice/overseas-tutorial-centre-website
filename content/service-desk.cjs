@@ -1,4 +1,5 @@
 const {pageShell}=require('../site');
+const {categoryDirectory,overviewDirectory}=require('./hub-cards.cjs');
 const groups=[
   ["study","留學規劃與申請","從選校、入學申請到轉學與學分認定。",[
     ["study-planning","選國、選校與預算",[
@@ -199,6 +200,7 @@ const overviewCard=([id,label,desc,rows])=>`<section class="desk-overview-card" 
 const careerRows=byId('learning')[3].filter(r=>['internships','careers'].includes(r[0]));
 const extras=[['publishing','翻譯・出版','翻譯、文件與出版製作。',byId('publishing')[3].filter(r=>r[0]!=='business')],['publishing','商務・支援','採購、商務對接與AI應用。',byId('publishing')[3].filter(r=>r[0]==='business')],['partners','機構・合作','院校合作、活動與機構支援。',byId('partners')[3]]];
 const overview=`<div class="desk-primary-grid">${overviewGroups.map(overviewCard).join('')}</div><section class="desk-career" id="careers"><h2>求職・實習</h2><p>履歷、面試與實習申請。</p><nav aria-label="求職・實習">${overviewLinks('learning',careerRows)}<a href="/zh/services/international-application-support/">海外工作與國際項目專業陪跑</a></nav></section><section class="desk-extra" id="professional"><h2>專業・合作</h2><div class="desk-extra-grid">${extras.map(([id,label,desc,rows])=>`<section><h3>${label}</h3><p>${desc}</p><nav aria-label="${label}">${overviewLinks(id,rows)}</nav></section>`).join('')}</div></section>`;
+const moreGroups=[{group:['careers','求職・實習','履歷、面試與實習申請。',careerRows],ids:['careers'],href:categoryPath('learning'),extra:[{label:'海外工作與國際項目專業陪跑',href:'/zh/services/international-application-support/'}]},...extras.map((g,i)=>({group:g,ids:[i?'':'professional'],href:categoryPath(g[0])}))];
 const overviewButtons=[...overviewGroups.map(([id,label])=>[id,label]),['careers','求職・實習'],['professional','專業・合作']];
 const title=selected?.[1] ?? '服務總台';
 const body=css+`<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout">
@@ -206,15 +208,7 @@ const body=css+`<section class="page-hero services-hero"><div class="band"><div 
 ${selected?`<nav class="service-hero-panel" aria-label="服務分類">${groups.map(([id,label])=>`<a href="${selected?categoryPath(id):'#'+id}"><strong>${label}</strong></a>`).join('')}</nav>`:''}
 ${!selected?`<nav class="desk-hero-buttons" aria-label="服務分類">${overviewButtons.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('')}</nav>`:''}
 </div></div></section>
-<main class="band desk-index">
-${selected?[selected].map(([id,label,desc,rows])=>`<section class="desk-section" id="${id}">
-<header class="desk-section-head"><h2><a href="${categoryPath(id)}">${label}</a></h2><p>${desc}</p></header>
-${!selected&&id==='visa'?'<p class="desk-route-feature"><a href="/zh/services/japan-highly-skilled-professional/"><strong>日本高度人才1號與積分計算器</strong></a>　申請條件、70／80分、永住及家屬安排。</p>':''}
-${!selected&&id==='study'?'<p class="desk-route-feature"><a href="/zh/services/change-of-major/"><strong>轉專業與轉學院 →</strong></a>　校內轉科、先修課、學分抵免；初步諮詢免費。</p>':''}
-<nav class="desk-jump" aria-label="${label}子分類">${rows.map(([key,heading])=>`<a ${selected?'':'id="'+key+'" '}href="${selected?'':categoryPath(id)}#${key}">${heading}</a>`).join('')}</nav>
-${selected?rows.map(([key,heading,items])=>`<section class="desk-study-group" id="${key}"><h3>${heading}</h3>${renderRows(items)}</section>`).join(''):''}
-</section>`).join(''):overview}
-</main>`;
+<main class="band desk-index">${selected?categoryDirectory(selected,link):overviewDirectory(overviewGroups,moreGroups,categoryPath)}</main>`;
 return pageShell({title:title+'｜海外督導 OTC',path:selected?categoryPath(category):'/zh/services/',lang:'zh-Hant',locale:'zh',current:'services',bodyClass:selected?'service-desk-page':'service-desk-page desk-overview',description:selected?.[2] ?? '留學規劃、簽證居留、課程教學、生活監護；求職實習與專業合作。',image:selected?'':'/assets/social/service-desk-us-style-20261122.png?v=20261122-gold-red',imageWidth:1200,imageHeight:440,imageAlt:'服務總台｜海外督導・雙語世界',body}).replace(/[ \t]+$/gm,'').replace('>Translate the page · English</a>',selected?'>Translate the page · English</a>':'>English</a>');
 };
 module.exports.categories=groups.map(([id])=>id);

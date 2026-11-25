@@ -150,3 +150,5 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 <section class="home-group" id="curriculum"><h3>課程資料</h3><p>國際課程、語言學習及資格課程介紹。</p><a href="/zh/teaching/">查看課程與教學 →</a></section>
 </div></div></section>
 </main>`});
+
+;(()=>{const o=module.exports,{homeDirectory:d}=require("./hub-cards.cjs");module.exports=(...a)=>{const h=o(...a);if(typeof h!=="string"||/class="cd-card/.test(h))return h;const r=d(h);return r?h.slice(0,r.start)+r.dir+h.slice(r.end):h}})(); // 主頁卡片目錄（hub-cards）

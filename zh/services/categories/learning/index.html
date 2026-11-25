@@ -67,14 +67,192 @@
 <nav class="service-hero-panel" aria-label="服務分類"><a href="/zh/services/categories/study/"><strong>留學規劃與申請</strong></a><a href="/zh/services/categories/visa/"><strong>簽證、居留與短期交流</strong></a><a href="/zh/services/categories/learning/"><strong>課程、實習與求職</strong></a><a href="/zh/services/categories/living/"><strong>海外生活與家庭</strong></a><a href="/zh/services/categories/publishing/"><strong>翻譯、出版與商務</strong></a><a href="/zh/services/categories/partners/"><strong>機構合作</strong></a></nav>
 
 </div></div></section>
-<main class="band desk-index">
-<section class="desk-section" id="learning">
-<header class="desk-section-head"><h2><a href="/zh/services/categories/learning/">課程、實習與求職</a></h2><p>課程輔導、職業資格、實習及海外求職。</p></header>
+<main class="band desk-index"><style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><main class="cd" id="directory" data-category="learning">
+<div class="cd-head"><h2>課程、實習與求職</h2><p>課程輔導、職業資格、實習及海外求職。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="tuition">課程與學術輔導</button><button type="button" class="cd-tab" data-tab="qualifications">職業資格與註冊</button><button type="button" class="cd-tab" data-tab="internships">實習與培訓</button><button type="button" class="cd-tab" data-tab="careers">海外求職</button><input class="cd-search" type="search" placeholder="搜尋服務（如 簽證／作品集／實習）" aria-label="搜尋"></div>
 
+<div class="cd-grouphead">課程、實習與求職：全部服務<span><span class="cd-count">18</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card" data-tab="tuition">
+<div class="cd-top"><span class="cd-region">課程與學術輔導</span></div>
+<h3>課程與教學</h3>
 
-<nav class="desk-jump" aria-label="課程、實習與求職子分類"><a href="#tuition">課程與學術輔導</a><a href="#qualifications">職業資格與註冊</a><a href="#internships">實習與培訓</a><a href="#careers">海外求職</a></nav>
-<section class="desk-study-group" id="tuition"><h3>課程與學術輔導</h3><div class="desk-rows"><a class="desk-row" href="/zh/teaching/"><strong>課程與教學</strong><span>按課程體系與學習需要查閱教學服務。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/a-level-predicted-grade-assessment/"><strong>A Level 科目評估</strong><span>預估成績材料、學習證據與自修考生支援。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/business-english-study-support/"><strong>商業英語輔導</strong><span>每週學習計劃、商業寫作與簡報練習。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/ssci-academic-supervision/"><strong>SSCI 學術督導</strong><span>研究選題、期刊選擇、論文修改與投稿返修。</span><i aria-hidden="true">↗</i></a></div></section><section class="desk-study-group" id="qualifications"><h3>職業資格與註冊</h3><div class="desk-rows"><a class="desk-row" href="/zh/othm-qualifications/"><strong>OTHM 資格課程</strong><span>資格課程、中心資料與升學資訊。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/vocational-training/ecfvg/"><strong>ECFVG 獸醫認證陪跑</strong><span>BCSE、CPE 備考規劃與北美獸醫實習申請。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/vocational-training/pave/"><strong>PAVE 獸醫認證陪跑</strong><span>QSE 備考、ECE 臨床輪轉及申請準備。</span><i aria-hidden="true">↗</i></a></div></section><section class="desk-study-group" id="internships"><h3>實習與培訓</h3><div class="desk-rows"><a class="desk-row" href="/zh/services/internship-coaching/"><strong>實習申請指導</strong><span>實習方向、申請面試、在崗復盤與成果整理。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/media-remote-internship/"><strong>新傳遠程實習</strong><span>新聞與傳播類遠程實踐；項目費 £150，任務及時數報名前確認。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/europe-agriculture-internship/"><strong>歐洲農業實習</strong><span>丹麥、德國接收渠道、農場案例、薪酬食宿與申請支援。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/singapore-internship-support/"><strong>新加坡帶薪實習</strong><span>TEP 資格、履歷面試、雇主條件與行前預算。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/usa-itp-support/"><strong>美國 ITP 實習與培訓</strong><span>J-1 Intern、Trainee 資格、培訓安排、申請準備與費用。</span><i aria-hidden="true">↗</i></a></div></section><section class="desk-study-group" id="careers"><h3>海外求職</h3><div class="desk-rows"><a class="desk-row" href="/zh/services/international-application-support/"><strong>海外工作與國際項目專業陪跑</strong><span>CV、PS、資格認證資料、填表及申請跟進；人民幣 ¥2,800 起。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/english-cv-interview-support/"><strong>英文履歷與面試</strong><span>CV、求職信與 LinkedIn 修改、英文面試；文書修改先報價付款，再詳細審閱。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/australia-job-search-coaching/"><strong>澳洲求職指導</strong><span>求職方向、履歷、面試與入職準備。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/japan-employment-preparation/"><strong>日本就業準備</strong><span>特定技能方向、日語、考試、預算與面試。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/services/us-opt-job-search-support/"><strong>美國 OPT 求職支援</strong><span>OPT、STEM OPT、申請表與雇主英文溝通。</span><i aria-hidden="true">↗</i></a><a class="desk-row" href="/zh/france-study-work-settlement-support/"><strong>法國升學與就業</strong><span>法國留學、學徒制、申請資格、薪資與求職準備。</span><i aria-hidden="true">↗</i></a></div></section>
-</section>
+<div class="cd-desc"><span id="tuition"></span>按課程體系與學習需要查閱教學服務。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/teaching/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="tuition">
+<div class="cd-top"><span class="cd-region">課程與學術輔導</span></div>
+<h3>A Level 科目評估</h3>
+
+<div class="cd-desc">預估成績材料、學習證據與自修考生支援。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/a-level-predicted-grade-assessment/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="tuition">
+<div class="cd-top"><span class="cd-region">課程與學術輔導</span></div>
+<h3>商業英語輔導</h3>
+
+<div class="cd-desc">每週學習計劃、商業寫作與簡報練習。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/business-english-study-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="tuition">
+<div class="cd-top"><span class="cd-region">課程與學術輔導</span></div>
+<h3>SSCI 學術督導</h3>
+
+<div class="cd-desc">研究選題、期刊選擇、論文修改與投稿返修。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/ssci-academic-supervision/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="qualifications">
+<div class="cd-top"><span class="cd-region">職業資格與註冊</span></div>
+<h3>OTHM 資格課程</h3>
+
+<div class="cd-desc"><span id="qualifications"></span>資格課程、中心資料與升學資訊。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/othm-qualifications/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="qualifications">
+<div class="cd-top"><span class="cd-region">職業資格與註冊</span></div>
+<h3>ECFVG 獸醫認證陪跑</h3>
+
+<div class="cd-desc">BCSE、CPE 備考規劃與北美獸醫實習申請。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/vocational-training/ecfvg/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="qualifications">
+<div class="cd-top"><span class="cd-region">職業資格與註冊</span></div>
+<h3>PAVE 獸醫認證陪跑</h3>
+
+<div class="cd-desc">QSE 備考、ECE 臨床輪轉及申請準備。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/vocational-training/pave/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="internships">
+<div class="cd-top"><span class="cd-region">實習與培訓</span></div>
+<h3>實習申請指導</h3>
+
+<div class="cd-desc"><span id="internships"></span>實習方向、申請面試、在崗復盤與成果整理。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/internship-coaching/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="internships">
+<div class="cd-top"><span class="cd-region">實習與培訓</span></div>
+<h3>新傳遠程實習</h3>
+
+<div class="cd-desc">新聞與傳播類遠程實踐；項目費 £150，任務及時數報名前確認。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/media-remote-internship/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="internships">
+<div class="cd-top"><span class="cd-region">實習與培訓</span></div>
+<h3>歐洲農業實習</h3>
+
+<div class="cd-desc">丹麥、德國接收渠道、農場案例、薪酬食宿與申請支援。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/europe-agriculture-internship/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="internships">
+<div class="cd-top"><span class="cd-region">實習與培訓</span></div>
+<h3>新加坡帶薪實習</h3>
+
+<div class="cd-desc">TEP 資格、履歷面試、雇主條件與行前預算。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/singapore-internship-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="internships">
+<div class="cd-top"><span class="cd-region">實習與培訓</span></div>
+<h3>美國 ITP 實習與培訓</h3>
+
+<div class="cd-desc">J-1 Intern、Trainee 資格、培訓安排、申請準備與費用。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/usa-itp-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>海外工作與國際項目專業陪跑</h3>
+
+<div class="cd-desc"><span id="careers"></span>CV、PS、資格認證資料、填表及申請跟進；人民幣 ¥2,800 起。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/international-application-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>英文履歷與面試</h3>
+
+<div class="cd-desc">CV、求職信與 LinkedIn 修改、英文面試；文書修改先報價付款，再詳細審閱。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/english-cv-interview-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>澳洲求職指導</h3>
+
+<div class="cd-desc">求職方向、履歷、面試與入職準備。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/australia-job-search-coaching/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>日本就業準備</h3>
+
+<div class="cd-desc">特定技能方向、日語、考試、預算與面試。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/japan-employment-preparation/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>美國 OPT 求職支援</h3>
+
+<div class="cd-desc">OPT、STEM OPT、申請表與雇主英文溝通。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/services/us-opt-job-search-support/">查看服務 →</a></div>
+</article>
+<article class="cd-card" data-tab="careers">
+<div class="cd-top"><span class="cd-region">海外求職</span></div>
+<h3>法國升學與就業</h3>
+
+<div class="cd-desc">法國留學、學徒制、申請資格、薪資與求職準備。</div>
+
+<div class="cd-btns"><a class="cd-p" href="/zh/france-study-work-settlement-support/">查看服務 →</a></div>
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
 </main>
 
     <div class="page-utility-bar" data-page-share>
