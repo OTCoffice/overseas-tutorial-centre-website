@@ -208,6 +208,7 @@ function parentPathFor(canonicalPath) {
 
 function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
   const parentFallbacks = {
+    "/zh/services/categories/": "/zh/services/",
     "/zh/vocational-training/": "/zh/teaching/#vocational-training",
     "/zh/publishing/": "/zh/publishing/",
     "/zh/reports/": "/zh/australia-office-presence/",
