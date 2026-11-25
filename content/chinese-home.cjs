@@ -127,27 +127,27 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 /* 2026-11-19: homepage hero display headline only */
 .otc-home .home-brand-title h1{font-size:clamp(112px,15vw,240px)!important;line-height:1.05!important;letter-spacing:-.035em!important;max-width:100%!important;overflow-wrap:normal!important}
 @media(max-width:680px){.otc-home .home-brand-title h1{font-size:clamp(64px,15vw,105px)!important;line-height:1.1!important;letter-spacing:-.025em!important}}
-</style><main class="otc-home">
-<section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">留學移民海外數據</div><div class="home-brand-title"><h1 id="home-title">海外督導｜雙語世界</h1><h2>Overseas Tutorial Centre</h2></div><p>免費學習平台</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
+.otc-home .home-masthead{position:relative;overflow:hidden}.otc-home .home-masthead::after{content:"";position:absolute;top:0;bottom:0;right:4%;width:11%;background:linear-gradient(90deg,#74333a 0 74%,#ae9340 74% 100%);pointer-events:none}.otc-home .home-masthead>.home-wrap{position:relative;z-index:1}@media(max-width:680px){.otc-home .home-masthead::after{right:0;width:8px;background:linear-gradient(180deg,#74333a 0 72%,#ae9340 72% 100%)}}</style><main class="otc-home">
+<section class="home-masthead" aria-labelledby="home-title"><div class="home-wrap"><div class="home-kicker">留學移民海外數據</div><div class="home-brand-title"><h1 id="home-title">海外督導</h1><h2>Overseas Tutorial Centre</h2></div><p>免費學習平台</p><nav class="home-masthead-nav" aria-label="首頁快捷入口"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/services/">移民簽證</a><a href="/courses/">課程教學</a><a href="/zh/publishing/">海外書局</a></nav></div></section>
 <section class="home-intro"><div class="home-wrap"><h2>留學規劃 · 移民簽證 · 課程教學 · 海外生活</h2><p>海外督導提供留學諮詢、選校申請、移民與簽證申請協調，國際課程、語言和學術輔導，以及海外生活與監護協調。按你的需求查看服務內容、申請要求及費用。</p><div class="home-actions"><a href="#services">查看服務</a><a href="https://wa.me/447947991572">WhatsApp 諮詢</a></div></div></section>
 <section id="services" class="home-section"><div class="home-wrap"><h2>主要業務</h2><div class="home-groups home-primary-grid">
-<section class="home-group"><div class="home-card-heading"><h3>留學規劃與申請</h3></div><p>按留學國家、學歷階段和學科選擇院校，準備申請材料並跟進錄取。涵蓋中小學、大學、研究生及短期留學。</p><div class="home-links"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/countries/">留學國家</a><a href="/zh/subject-planning/">學科選擇</a><a href="/zh/services/#study">申請服務</a></div></section>
-<section class="home-group"><div class="home-card-heading"><h3>移民與簽證</h3></div><p>按目的地和申請類別了解要求，安排文件準備、翻譯及申請進度跟進。具體移民建議及受規管申請由相應合資格人士處理。</p><div class="home-links"><a href="/zh/services/#visa">移民與簽證服務</a><a href="/zh/immigration-info/">各國移民資訊</a><a href="/zh/services/graduate-job-search-visas/">高學歷求職簽證</a><a href="/zh/nursing/">海外護理留學</a></div></section>
-<section class="home-group"><div class="home-card-heading"><h3>課程與教學</h3></div><p>國際課程輔導、英語及學術寫作、職業資格課程與學習進度管理。按課程體系、科目和目前程度安排學習。</p><div class="home-links"><a href="/zh/teaching/">課程與教學</a><a href="/zh/othm-qualifications/">OTHM 資格課程</a></div></section>
-<section class="home-group"><div class="home-card-heading"><h3>海外生活與監護</h3></div><p>住宿接送、抵埗安排、學校與家長聯絡，以及海外房產管理。按家庭需要協調學業跟進和監護服務。</p><div class="home-links"><a href="/zh/services/#living">生活與監護服務</a><a href="/zh/cross-border-property-management/">房產管理</a></div></section>
+<section class="home-group"><div class="home-card-heading"><h3>留學申請</h3></div><p>按留學國家、學歷階段和學科選擇院校，準備申請材料並跟進錄取。涵蓋中小學、大學、研究生及短期留學。</p><div class="home-links"><a href="/zh/study-planning/">留學規劃</a><a href="/zh/countries/">留學國家</a><a href="/zh/subject-planning/">學科選擇</a><a href="/zh/services/#study">申請服務</a></div></section>
+<section class="home-group"><div class="home-card-heading"><h3>移民簽證</h3></div><p>按目的地和申請類別了解要求，安排文件準備、翻譯及申請進度跟進。具體移民建議及受規管申請由相應合資格人士處理。</p><div class="home-links"><a href="/zh/services/#visa">簽證服務</a><a href="/zh/immigration-info/">移民資訊</a><a href="/zh/services/graduate-job-search-visas/">求職簽證</a><a href="/zh/nursing/">護理升學</a></div></section>
+<section class="home-group"><div class="home-card-heading"><h3>課程教學</h3></div><p>國際課程輔導、英語及學術寫作、職業資格課程與學習進度管理。按課程體系、科目和目前程度安排學習。</p><div class="home-links"><a href="/zh/teaching/">課程教學</a><a href="/zh/othm-qualifications/">OTHM課程</a></div></section>
+<section class="home-group"><div class="home-card-heading"><h3>生活監護</h3></div><p>住宿接送、抵埗安排、學校與家長聯絡，以及海外房產管理。按家庭需要協調學業跟進和監護服務。</p><div class="home-links"><a href="/zh/services/#living">監護服務</a><a href="/zh/cross-border-property-management/">房產管理</a></div></section>
 </div></div></section>
 <section class="home-section home-secondary"><div class="home-wrap"><h2>其他服務</h2><div class="home-groups">
-<section class="home-group"><h3>AI 工具小舖</h3><p>ChatGPT、Claude 訂閱操作協助、入門教學與個別輔導。</p><a href="/zh/services/ai-tool-shop/">服務與預約 →</a></section>
-<section class="home-group" id="translation"><h3>翻譯與商務溝通</h3><p>中英文件翻譯、英文電郵、海外公司聯絡、詢價跟進與雙語資料整理。</p><a href="/zh/services/language-context-studio/">服務內容與聯絡方式 →</a></section>
-<section class="home-group" id="publishing-programme"><h3>編輯與出版</h3><p>書稿編輯、雙語排版、出版準備及數字出版。</p><a href="/zh/services/categories/publishing/">編輯與出版服務 →</a></section>
-<section class="home-group"><h3>海外求職與實習</h3><p>求職方向、履歷修改、面試準備，以及實習申請指導。</p><a href="/zh/services/#careers">查看服務 →</a></section>
-<section class="home-group" id="institutional-services"><h3>院校與機構合作</h3><p>招生合作、院校訪問、教育展、培訓及項目合作。</p><a href="/zh/education-partners/">合作查詢 →</a></section>
+<section class="home-group"><h3>AI小舖</h3><p>ChatGPT、Claude 訂閱操作協助、入門教學與個別輔導。</p><a href="/zh/services/ai-tool-shop/">預約服務 →</a></section>
+<section class="home-group" id="translation"><h3>中英翻譯</h3><p>中英文件翻譯、英文電郵、海外公司聯絡、詢價跟進與雙語資料整理。</p><a href="/zh/services/language-context-studio/">中英翻譯 →</a></section>
+<section class="home-group" id="publishing-programme"><h3>編輯出版</h3><p>書稿編輯、雙語排版、出版準備及數字出版。</p><a href="/zh/services/categories/publishing/">出版服務 →</a></section>
+<section class="home-group"><h3>求職實習</h3><p>求職方向、履歷修改、面試準備，以及實習申請指導。</p><a href="/zh/services/#careers">查看服務 →</a></section>
+<section class="home-group" id="institutional-services"><h3>機構合作</h3><p>招生合作、院校訪問、教育展、培訓及項目合作。</p><a href="/zh/education-partners/">合作查詢 →</a></section>
 </div></div></section>
-<section class="home-section"><div class="home-wrap"><h2>資訊與學習資源</h2><div class="home-groups">
+<section class="home-section"><div class="home-wrap"><h2>學習資源</h2><div class="home-groups">
 <section class="home-group"><h3>留學導報</h3><p>院校、申請、留學生活及政策資訊。</p><a href="/zh/insights/">閱讀導報 →</a></section>
-<section class="home-group" id="learning-tools"><h3>學習工具</h3><p>英語練習、口語模擬、詞彙及學習記錄。</p><a href="/zh/site-directory/#tools">查看學習工具 →</a></section>
-<section class="home-group" id="othm-books"><h3>書籍與教輔</h3><p>雙語教輔、課程伴讀、書籍與樣章。</p><a href="/zh/publishing/">海外書局 →</a></section>
-<section class="home-group" id="curriculum"><h3>課程資料</h3><p>國際課程、語言學習及資格課程介紹。</p><a href="/zh/teaching/">查看課程與教學 →</a></section>
+<section class="home-group" id="learning-tools"><h3>學習工具</h3><p>英語練習、口語模擬、詞彙及學習記錄。</p><a href="/zh/site-directory/#tools">學習工具 →</a></section>
+<section class="home-group" id="othm-books"><h3>書籍教輔</h3><p>雙語教輔、課程伴讀、書籍與樣章。</p><a href="/zh/publishing/">海外書局 →</a></section>
+<section class="home-group" id="curriculum"><h3>課程資料</h3><p>國際課程、語言學習及資格課程介紹。</p><a href="/zh/teaching/">課程教學 →</a></section>
 </div></div></section>
 </main>`});
 

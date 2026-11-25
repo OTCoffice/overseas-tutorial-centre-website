@@ -4,9 +4,9 @@ const { renderCardDirectory } = require('./card-directory.cjs');
 const dec = s => s.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const strip = h => dec(h.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
 const TABS = [
-  ['cost', '費用與服務', /費用|收費|價格|服務|聯絡|諮詢|委託|方案|合作/],
-  ['apply', '申請與材料', /申請|材料|文件|流程|時間|步驟|準備|面試|作品|計畫|計劃|簽證|手續/],
-  ['ref', '資料與提醒', /官方|資料|來源|參考|提醒|注意|風險|常見問題|FAQ/i],
+  ['cost', '費用服務', /費用|收費|價格|服務|聯絡|諮詢|委託|方案|合作/],
+  ['apply', '申請材料', /申請|材料|文件|流程|時間|步驟|準備|面試|作品|計畫|計劃|簽證|手續/],
+  ['ref', '資料提醒', /官方|資料|來源|參考|提醒|注意|風險|常見問題|FAQ/i],
 ];
 const tabOf = h => (TABS.find(t => t[2].test(h)) || ['overview'])[0];
 
@@ -76,10 +76,10 @@ function htmlSectionsToCards(page, opts = {}) {
     cards.push({ ...base, id, tab: tabOf(title), title, chips, desc, wide });
   });
   const used = new Set(cards.map(c => c.tab));
-  const tabs = [...extraTabs, ...[['overview', '概況與選擇'], ...TABS.map(t => [t[0], t[1]])].filter(t => used.has(t[0])).map(([id, label]) => ({ id, label }))];
+  const tabs = [...extraTabs, ...[['overview', '概況'], ...TABS.map(t => [t[0], t[1]])].filter(t => used.has(t[0])).map(([id, label]) => ({ id, label }))];
   const title = opts.title || strip((page.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '').replace(/｜海外督導 OTC$/, '');
   const subtitle = opts.subtitle || dec((page.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '');
-  const dir = renderCardDirectory({ title, subtitle, searchPlaceholder: '搜尋關鍵詞', tabs, groupTitle: `${title.split('｜')[0]}要點`, cards })
+  const dir = renderCardDirectory({ title, subtitle, searchPlaceholder: '搜尋關鍵詞', tabs, groupTitle: '全部要點', cards })
     .replace('<main class="cd" id="directory">', '<div class="cd" id="directory">').replace(/<\/main>(<script>)/, '</div>$1');
   return page.slice(0, best[0].s) + dir + kept.join('\n') + page.slice(best[best.length - 1].e);
 }

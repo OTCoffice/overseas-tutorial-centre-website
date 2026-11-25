@@ -6,9 +6,9 @@ const { renderCardDirectory } = require('../content/card-directory.cjs');
 const dry = process.argv.includes('--dry');
 const strip = h => h.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 const TABS = [
-  ['cost', '費用與服務', /費用|收費|價格|服務|聯絡|諮詢|委託|方案|合作/],
-  ['apply', '申請與材料', /申請|材料|文件|流程|時間|步驟|準備|面試|作品|計畫|簽證|手續/],
-  ['ref', '資料與提醒', /官方|資料|來源|參考|提醒|注意|風險|常見問題|FAQ/i],
+  ['cost', '費用服務', /費用|收費|價格|服務|聯絡|諮詢|委託|方案|合作/],
+  ['apply', '申請材料', /申請|材料|文件|流程|時間|步驟|準備|面試|作品|計畫|簽證|手續/],
+  ['ref', '資料提醒', /官方|資料|來源|參考|提醒|注意|風險|常見問題|FAQ/i],
 ];
 const tabOf = h => (TABS.find(t => t[2].test(h)) || ['overview'])[0];
 
@@ -47,10 +47,10 @@ function directoryFor(j) {
   const region = (j.eyebrowZh || title).slice(0, 14);
   const cards = j.sections.map((s, i) => toCard(s, i, region));
   const used = new Set(cards.map(c => c.tab));
-  const tabs = [['overview', '概況與選擇'], ...TABS.map(t => [t[0], t[1]])].filter(t => used.has(t[0])).map(([id, label]) => ({ id, label }));
+  const tabs = [['overview', '概況'], ...TABS.map(t => [t[0], t[1]])].filter(t => used.has(t[0])).map(([id, label]) => ({ id, label }));
   return {
     title, subtitle: j.summaryZh || '', searchPlaceholder: '搜尋關鍵詞', tabs,
-    tip: j.tipZh || '', groupTitle: `${title}要點`, cards, footer: j.footerZh || '',
+    tip: j.tipZh || '', groupTitle: '全部要點', cards, footer: j.footerZh || '',
   };
 }
 let ok = 0, skip = [];
