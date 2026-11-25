@@ -548,5 +548,16 @@
    "無語言錄取",
    "申請材料與簽證"
   ]
+ },
+ {
+  "route": "/zh/subject-planning/law/",
+  "slug": "law-planning",
+  "head": "法學升學\n與職涯規劃",
+  "en": "Law Study & Career Planning",
+  "items": [
+   "學位比較",
+   "資格與實習",
+   "求職材料"
+  ]
  }
 ]
