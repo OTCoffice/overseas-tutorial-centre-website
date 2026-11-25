@@ -75,6 +75,13 @@ for (const cjs of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
     const expr = src => { const i = src.indexOf('${' + v + '.sections'); if (i < 0) return null; let d = 0; for (let k = i + 1; k < src.length; k++) { if (src[k] === '{') d++; else if (src[k] === '}' && --d === 0) return [i, k + 1]; } return null; };
     if (!expr(src)) throw 'cjs sections expression not found';
     j.directory = directoryFor(j); j.bodyFormat = 'card-directory';
+    // 保留原頁所有錨點：原區塊裡有、卡片裡沒有的 id，補成 <span id> 放進對應那張卡
+    const region = html.slice(mi, me), starts = j.sections.map((_, k) => region.search(new RegExp('id="' + idOf(k) + '"')));
+    for (const mm of region.matchAll(/\bid="([^"]+)"/g)) {
+      const pid = mm[1]; if (j.directory.cards.some(c => c.id === pid || (c.desc || '').includes(`id="${pid}"`))) continue;
+      let k = 0; starts.forEach((st, q) => { if (st >= 0 && st <= mm.index) k = q; });
+      j.directory.cards[k].desc = `<span id="${pid}"></span>` + j.directory.cards[k].desc;
+    }
     const out = renderCardDirectory(j.directory);
     if (dry) { console.log('OK(dry)', cjs, j.directory.cards.length); ok++; continue; }
     if (!src.includes('card-directory.cjs')) src = src.replace(m[0], m[0] + `;\nconst {renderCardDirectory}=require('./card-directory.cjs')`);
