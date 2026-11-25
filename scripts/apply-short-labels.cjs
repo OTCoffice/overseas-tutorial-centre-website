@@ -50,4 +50,40 @@ for (const f of walk('zh')) {
   s = s.replace(/(<div class="cd-grouphead">)[^<]*(<span>)/, '$1全部要點$2');
   if (s !== o) wr(f, s);
 }
+// 6) 內容頁：卡片標題、hero 副標題與 hero 指示條；並同步 JSON 卡片資料
+const CARDS = sortLong(M.cards || {}), SUB = sortLong(M.heroSub || {});
+for (const f of walk('zh')) {
+  let s = rd(f); if (!s.includes('class="cd-card')) continue; const o = s;
+  s = s.replace(/(<article class="cd-card[^>]*>[\s\S]*?<h3>)([\s\S]*?)(<\/h3>)/g, (m, a, t, b) => a + ((M.cards || {})[t] || t) + b);
+  s = s.replace(/<section class="page-hero[\s\S]*?<\/section>/, hero => {
+    for (const [a, b] of SUB) hero = hero.split(`>${a}</h2>`).join(`>${b}</h2>`);
+    for (const [a, b] of CARDS) hero = hero.split(`<strong>${a}</strong>`).join(`<strong>${b}</strong>`);
+    return hero;
+  });
+  if (s !== o) wr(f, s);
+}
+for (const f of fs.readdirSync(path.join(root, 'content')).filter(x => x.endsWith('.json') && x !== 'short-labels.json')) {
+  let s = rd('content/' + f); const o = s;
+  for (const [a, b] of CARDS) s = s.split(`"title": ${JSON.stringify(a)}`).join(`"title": ${JSON.stringify(b)}`);
+  if (s !== o) wr('content/' + f, s);
+}
+// 7) 內容頁其餘指示條：角標、目錄標題、按鈕、badge、頁籤
+const N = t => (t.replace(/→|↗|›/g, '').match(/[A-Za-z0-9][A-Za-z0-9.-]*|[^\sA-Za-z0-9・、，,\/｜|（）()\-：:？?。]/g) || []).length;
+const ALL = { ...M.services, ...M.home, ...(M.cards || {}), ...(M.tabs || {}) };
+const short = t => ALL[t] || ALL[t.replace(/\s*[→↗]$/, '')];
+for (const f of walk('zh')) {
+  if (f.includes('/categories/') || f === 'zh/index.html' || f === 'zh/services/index.html') continue;
+  let s = rd(f); if (!s.includes('class="cd-card')) continue; const o = s;
+  const h1 = ((s.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || '').replace(/<[^>]+>/g, '').trim();
+  const fix = t => N(t) <= 4 ? t : (short(t) || null);
+  s = s.replace(/(<span class="cd-region">)([^<]*)(<)/g, (m, a, t, b) => a + (N(t) <= 4 ? t : (fix(t) || h1)) + b);
+  s = s.replace(/(<div class="cd-head"><h2>)([\s\S]*?)(<\/h2>)/, (m, a, t, b) => a + (N(t) <= 4 ? t : h1) + b);
+  s = s.replace(/(<a class="cd-([ps])" href="([^"]*)"[^>]*>)([^<]*)(<\/a>)/g, (m, a, k, href, t, b) => {
+    if (N(t) <= 4) return m; const sh = short(t.trim()); if (sh) return a + sh.replace(/\s*[→↗]$/, '') + (/^https?:/.test(href) && !href.includes('overseasuk.com') ? ' ↗' : ' →') + b;
+    return a + (/^https?:/.test(href) && !href.includes('overseasuk.com') ? '官方頁 ↗' : '查看 →') + b; });
+  s = s.replace(/<div class="cd-chips">([\s\S]*?)<\/div>/g, (m, inner) => { const keep = [...inner.matchAll(/<span>([^<]*)<\/span>/g)].map(x => x[1]).map(t => N(t) <= 4 ? t : fix(t)).filter(Boolean); return keep.length ? `<div class="cd-chips">${keep.map(t => `<span>${t}</span>`).join('')}</div>` : ''; });
+  s = s.replace(/(<span class="cd-badge">)([^<]*)(<\/span>)/g, (m, a, t, b) => N(t) <= 4 ? m : (fix(t) ? a + fix(t) + b : ''));
+  s = s.replace(/(<button type="button" class="cd-tab[^"]*" data-tab="[^"]*">)([^<]*)(<\/button>)/g, (m, a, t, b) => N(t) <= 4 ? m : a + (fix(t) || t) + b);
+  if (s !== o) wr(f, s);
+}
 console.log('done', Object.keys(titles).length, 'page titles'); if (log.length) console.log(log.join('\n'));
