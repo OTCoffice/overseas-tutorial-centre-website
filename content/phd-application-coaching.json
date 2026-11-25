@@ -51,12 +51,17 @@
           "title": "錄取跟進",
           "text": "跟進補件，確認錄取與資助條件。"
         }
+      ],
+      "paragraphs": [
+        "<ol><li><strong>諮詢評估</strong> 了解學歷、研究經歷、申請目標及資助需要。</li><li><strong>確認方案</strong> 確定服務內容、申請數量、時間安排及報價。</li><li><strong>選校與文書</strong> 篩選項目與導師，準備研究計劃及申請材料。</li><li><strong>遞交與面試</strong> 按院校要求安排導師聯絡、申請遞交及面試準備。</li><li><strong>錄取跟進</strong> 跟進補件，確認錄取與資助條件。</li></ol>"
       ]
     },
     {
       "heading": "服務費用",
       "paragraphs": [
-        "可選單項輔導或全程申請服務，按申請數量及服務內容提供書面報價。"
+        "可選單項輔導或全程申請服務，按申請數量及服務內容提供書面報價。",
+        "<table><tbody><tr><td>單項輔導</td><td>選校諮詢、文書修改或模擬面試</td><td>按諮詢次數、文件篇幅及修改輪次報價</td></tr><tr><td>全程申請</td><td>選校、導師聯絡準備、文書、面試及申請跟進</td><td>按申請項目數量、服務期間及輔導次數報價</td></tr></tbody></table>",
+        "報價列明文件修改輪次、面試次數、跟進安排及取消條款。院校申請費、考試費、翻譯認證、學費及其他第三方費用另計。"
       ],
       "fees": [
         {
@@ -81,5 +86,110 @@
       ]
     }
   ],
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "申博陪跑｜研究方向、導師與資助、申請及面試｜海外督導 OTC",
+    "subtitle": "博士申請輔導：選校與導師、研究計劃、申請文書、獎學金申請及面試。提供單項輔導及全程申請服務，按申請數量與服務內容報價。",
+    "searchPlaceholder": "搜尋關鍵詞",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "概況與選擇"
+      },
+      {
+        "id": "cost",
+        "label": "費用與服務"
+      },
+      {
+        "id": "apply",
+        "label": "申請與材料"
+      }
+    ],
+    "tip": "",
+    "groupTitle": "申博陪跑｜研究方向、導師與資助、申請及面試｜海外督導 OTC要點",
+    "cards": [
+      {
+        "id": "section-1",
+        "tab": "overview",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "01",
+        "title": "選校與導師",
+        "chips": [],
+        "desc": "<p>根據學術背景、研究方向及預算，篩選博士課程、研究職位與導師，整理入學要求、截止日期及獎學金資訊。需要提前聯絡導師的項目，協助準備聯絡信及學術履歷。</p><p>已有學位或保留原校學籍、計劃短期赴海外研究，可查看<a href=\"/zh/services/visiting-scholar-support/\">訪問學者與學術交流</a>服務。</p><p>計劃申請國家公派留學，可查看<a href=\"/zh/csc-scholarships/\">CSC碩士、博士與聯合培養路徑</a>，比較項目資格、校內推薦及學費資助。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "primary": {
+          "label": "訪問學者與學術交流",
+          "href": "/zh/services/visiting-scholar-support/"
+        }
+      },
+      {
+        "id": "section-2",
+        "tab": "apply",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "02",
+        "title": "申請文書",
+        "chips": [],
+        "desc": "<p>提供研究計劃（Research Proposal）、個人陳述及學術履歷的修改建議，協助整理推薦信要求、成績單與語言成績等申請材料。研究內容由申請人撰寫，顧問就結構、論證及表達提供指導。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      },
+      {
+        "id": "section-3",
+        "tab": "apply",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "03",
+        "title": "面試與錄取",
+        "chips": [],
+        "desc": "<p>安排模擬面試，練習研究介紹與學術問答；跟進申請進度及補件要求。收到錄取後，協助比較入學條件、學費與資助方案。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      },
+      {
+        "id": "section-4",
+        "tab": "apply",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "04",
+        "title": "申請流程",
+        "chips": [
+          "諮詢評估",
+          "確認方案",
+          "選校與文書"
+        ],
+        "desc": "<ol><li><strong>諮詢評估</strong> 了解學歷、研究經歷、申請目標及資助需要。</li><li><strong>確認方案</strong> 確定服務內容、申請數量、時間安排及報價。</li><li><strong>選校與文書</strong> 篩選項目與導師，準備研究計劃及申請材料。</li><li><strong>遞交與面試</strong> 按院校要求安排導師聯絡、申請遞交及面試準備。</li><li><strong>錄取跟進</strong> 跟進補件，確認錄取與資助條件。</li></ol>",
+        "noteLabel": "",
+        "note": "",
+        "wide": true
+      },
+      {
+        "id": "section-5",
+        "tab": "cost",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "05",
+        "title": "服務費用",
+        "chips": [],
+        "desc": "<p>可選單項輔導或全程申請服務，按申請數量及服務內容提供書面報價。</p><table><tbody><tr><td>單項輔導</td><td>選校諮詢、文書修改或模擬面試</td><td>按諮詢次數、文件篇幅及修改輪次報價</td></tr><tr><td>全程申請</td><td>選校、導師聯絡準備、文書、面試及申請跟進</td><td>按申請項目數量、服務期間及輔導次數報價</td></tr></tbody></table>",
+        "noteLabel": "提醒",
+        "note": "報價列明文件修改輪次、面試次數、跟進安排及取消條款。院校申請費、考試費、翻譯認證、學費及其他第三方費用另計。",
+        "wide": true
+      },
+      {
+        "id": "section-6",
+        "tab": "overview",
+        "region": "申博陪跑｜研究方向、導師與資",
+        "badge": "06",
+        "title": "求職輔導",
+        "chips": [],
+        "desc": "<p>仍在考慮就業或讀博，可一併諮詢職涯方向。求職服務包括履歷、求職信修改、面試練習及投遞跟進，另行報價。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      }
+    ],
+    "footer": ""
+  },
+  "bodyFormat": "card-directory"
 }

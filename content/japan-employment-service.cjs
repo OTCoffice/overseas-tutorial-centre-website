@@ -1,5 +1,6 @@
 const {pageShell}=require('../site');
 const a=require('./japan-employment-service.json');
+const {renderCardDirectory}=require('./card-directory.cjs');
 module.exports=()=>{
  const msg='你好，我想諮詢日本就業準備陪跑。\n年齡及學歷／畢業時間：\n日語程度：\n工作意向：\n預計出發時間及預算：';
  const wa='https://wa.me/447947991572?text='+encodeURIComponent(msg);
@@ -47,7 +48,7 @@ module.exports=()=>{
 <section class="band compact-band service-review-body"><div class="service-herald-grid"><main class="service-herald-main">
 <section id="section-1"><h2 class="zh-herald-section-head" data-num="01">服務對象</h2><div class="japan-lead">${paragraphs(0)}</div></section>
 <figure class="zh-herald-share-cover" style="margin:24px 0;max-width:580px"><img src="${cover}" width="1200" height="630" alt="日本就業準備陪跑：方向、考試、預算、材料及面試" style="display:block;width:100%;height:auto" fetchpriority="high"></figure>
-<section id="section-2"><h2 class="zh-herald-section-head" data-num="02">陪跑流程</h2><p>按你的背景和目前進度安排以下準備。實際交付項目、回饋次數與跟進頻率，於委託前寫入服務方案。</p><ol class="japan-steps">${steps.map(([title,result],i)=>`<li><h3>${title}</h3><p>${a.sections[1].paragraphs[i].replace(/^<strong>.*?<\/strong>/,'')}</p><p class="japan-result"><strong>階段成果：</strong>${result}</p></li>`).join('')}</ol></section>
+<section id="section-2"><h2 class="zh-herald-section-head" data-num="02">陪跑流程</h2><p>按你的背景和目前進度安排以下準備。實際交付項目、回饋次數與跟進頻率，於委託前寫入服務方案。</p><ol class="japan-steps">${steps.map(([title,result],i)=>`<li><h3>${title}</h3><p>${renderCardDirectory(a.directory)}</p><p class="japan-result"><strong>階段成果：</strong>${result}</p></li>`).join('')}</ol></section>
 <section id="section-3"><h2 class="zh-herald-section-head" data-num="03">交付項目</h2>${paragraphs(2)}</section>
 <section id="section-4"><h2 class="zh-herald-section-head" data-num="04">委託安排</h2><ol class="japan-start">${a.sections[3].paragraphs.map(p=>`<li>${p.replace(/^[①②③④]\s*/,'')}</li>`).join('')}</ol></section>
 <section id="section-5"><h2 class="zh-herald-section-head" data-num="05">收費</h2><div class="japan-table-wrap"><table class="japan-table"><caption>諮詢、正式陪跑與第三方費用</caption><thead><tr><th scope="col">項目</th><th scope="col">費用與範圍</th></tr></thead><tbody>${a.sections[4].paragraphs.map(p=>{const [,title,body]=p.match(/^<strong>(.*?)：<\/strong>(.*)$/);return `<tr><th scope="row">${title}</th><td>${body}</td></tr>`;}).join('')}</tbody></table></div><p class="japan-caption">正式服務以書面方案確認範圍、期限與報價。</p></section>

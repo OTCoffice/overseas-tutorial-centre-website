@@ -1,5 +1,6 @@
 const {pageShell}=require('../site');
 const a=require('./ssci-academic-supervision.json');
+const {renderCardDirectory}=require('./card-directory.cjs');
 module.exports=()=>{
 const intro='你好，我想諮詢 SSCI 學術督導。\n學科與研究題目：\n稿件階段與字數：\n投稿目的與目標期刊：\n希望協助的部分及期限：';
 const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
@@ -108,7 +109,7 @@ return pageShell({title:a.titleZh,current:'services',bodyClass:'ssci-page',lang:
 <div class="phd-layout">
 <section class="phd-intro"><div><p class="phd-kicker">研究與寫作</p><h2>服務內容</h2><p>可選單項服務，也可安排分階段督導。</p></div><a class="phd-button" href="${wa}">立即諮詢 <span aria-hidden="true">↗</span></a></section>
 <div class="ssci-body-grid"><main class="ssci-main-column">
-${a.sections.map((s,i)=>`<section class="phd-row" id="section-${i+1}"><div class="phd-label"><span>${String(i+1).padStart(2,'0')}</span><h2>${s.heading}</h2></div><div class="phd-text">${(s.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}${s.steps?`<ol class="phd-steps">${s.steps.map(x=>`<li><strong>${x.title}</strong><span>${x.text}</span></li>`).join('')}</ol>`:''}${s.fees?`<div class="phd-table-wrap"><table><caption class="sr-only">學術督導服務及報價方式</caption><thead><tr><th scope="col">方案</th><th scope="col">服務內容</th><th scope="col">報價方式</th></tr></thead><tbody>${s.fees.map(x=>`<tr><th scope="row">${x.name}</th><td>${x.scope}</td><td>${x.basis}</td></tr>`).join('')}</tbody></table></div>`:''}${(s.after||[]).map(p=>`<p>${p}</p>`).join('')}</div></section>`).join('')}
+${renderCardDirectory(a.directory)}
 </main><aside class="ssci-sidebar" aria-label="服務價格與時間安排">
 <section class="ssci-side-card"><p class="side-kicker">FEES</p><h2>服務報價</h2><dl><dt>單項服務｜按項詢價</dt><dd>選題討論、期刊比較、投稿材料檢查，可按需要單獨安排。</dd><dt>稿件編修｜按字數詢價</dt><dd>依學科、字數、修改程度及交稿日期報價。</dd><dt>階段陪跑｜按範圍報價</dt><dd>約定討論次數、修改輪次與各次交稿日期。</dd></dl><a class="side-cta" href="${wa}">取得報價與排期 →</a></section>
 <section class="ssci-side-card"><p class="side-kicker">PUBLIC PRICING</p><h2>華語市場參考</h2><p>以下為其他機構公開價，供預算參考。OTC 費用另行報價。</p><h3>意得輯台灣｜金額為新台幣</h3><dl><dt>期刊挑選 NT$9,000</dt><dd>公開作業時間：4 個工作天。</dd><dt>投稿前審閱 NT$11,000</dt><dd>公開作業時間：1 週。</dd><dt>銀套裝 NT$12,700</dt><dd>4,000 字以下英文稿，包含編修及投稿支援；公開作業時間 3 週。超字數另計，作者回覆時間不含在內。</dd></dl><p style="margin-top:12px"><a href="https://www.editage.com.tw/publication-support/" target="_blank" rel="noopener">台灣公開價目與條件 ↗</a></p><h3>意得輯中國｜金額為人民幣</h3><p>快速投稿套餐 <strong>¥5,999 起</strong>；全程投稿套餐 <strong>¥8,999 起</strong>。方案包含項目與適用限制不同，交期須另行確認。</p><p><a href="https://www.editage.cn/services/publishing-services-packs/compare-plans" target="_blank" rel="noopener">中國公開套餐比較 ↗</a></p><p>查閱：2026 年 10 月 1 日。稅費、優惠及最終金額依供應商確認；上述天數均非期刊錄用期限。</p></section>

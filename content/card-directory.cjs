@@ -23,6 +23,8 @@ const CSS = `<style>
 .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
 .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
 .cd-desc a{color:#74333a}
+.cd-desc p{margin:0 0 8px}.cd-desc p:last-child{margin:0}.cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd-desc th{background:#f9f6ee}.cd-desc .btn{display:inline-block;margin:4px 0}
+.cd-wide{grid-column:1/-1}
 .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
 .cd-note b{color:#74333a;margin-right:4px}
 .cd-btns{display:flex;gap:8px}
@@ -38,11 +40,11 @@ const CSS = `<style>
 const JS = `<script>(()=>{const r=document.querySelector('.cd');if(!r)return;let t='all';const q=r.querySelector('.cd-search'),cs=[...r.querySelectorAll('.cd-card')],e=r.querySelector('.cd-empty'),n=r.querySelector('.cd-count');function f(){const k=(q.value||'').trim().toLowerCase();let c=0;cs.forEach(x=>{const ok=(t==='all'||x.dataset.tab===t)&&(!k||x.textContent.toLowerCase().includes(k));x.style.display=ok?'':'none';if(ok)c++});e.style.display=c?'none':'block';n.textContent=c}r.querySelectorAll('.cd-tab').forEach(b=>b.onclick=()=>{r.querySelectorAll('.cd-tab').forEach(y=>y.classList.remove('on'));b.classList.add('on');t=b.dataset.tab;f()});q.oninput=f;if(location.hash){const h=r.querySelector(location.hash);if(h)h.scrollIntoView()}})();</script>`;
 const btn = (b, cls) => b && b.href ? `<a class="${cls}" href="${esc(b.href)}"${/^https?:/.test(b.href) && !b.href.includes('overseasuk.com') ? ' rel="noopener" target="_blank"' : ''}>${esc(b.label)}</a>` : '';
 function card(c) {
-  return `<article class="cd-card" data-tab="${esc(c.tab)}"${c.id ? ` id="${esc(c.id)}"` : ''}>
+  return `<article class="cd-card${c.wide ? ' cd-wide' : ''}" data-tab="${esc(c.tab)}"${c.id ? ` id="${esc(c.id)}"` : ''}>
 <div class="cd-top"><span class="cd-region">${esc(c.region)}</span>${c.badge ? `<span class="cd-badge">${esc(c.badge)}</span>` : ''}</div>
 <h3>${esc(c.title)}</h3>
 ${c.chips?.length ? `<div class="cd-chips">${c.chips.map(x => `<span>${esc(x)}</span>`).join('')}</div>` : ''}
-<p class="cd-desc">${c.desc}</p>
+<div class="cd-desc">${c.desc}</div>
 ${c.note ? `<div class="cd-note"><b>${esc(c.noteLabel || '提醒')}：</b>${c.note}</div>` : ''}
 ${c.primary || c.secondary ? `<div class="cd-btns">${btn(c.primary, 'cd-p')}${btn(c.secondary, 'cd-s')}</div>` : ''}
 </article>`;

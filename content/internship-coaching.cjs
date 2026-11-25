@@ -1,5 +1,6 @@
 const {pageShell}=require('../site');
 const a=require('./internship-coaching.json');
+const {renderCardDirectory}=require('./card-directory.cjs');
 module.exports=()=>{
 const intro='你好，我想諮詢實習陪跑。\n專業及年級／畢業時間：\n目標國家及實習方向：\n可開始日期、週數及每週時間：\n現有經驗及語言程度：\n希望協助的部分及預算：';
 const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
@@ -42,7 +43,7 @@ return pageShell({title:a.titleZh,current:'services',bodyClass:'internship-page'
 <section class="band service-review-strip"><a href="#section-1"><b>WHO</b><strong>服務對象</strong><span>大學生與畢業生</span></a><a href="#section-5"><b>STUDY</b><strong>升學銜接</strong><span>經驗與學術準備</span></a><a href="#section-6"><b>PLAN</b><strong>服務流程</strong><span>諮詢、準備與結案</span></a><a href="#consultation"><b>ASK</b><strong>實習諮詢</strong><span>時間、方向與所需協助</span></a></section>
 <div class="phd-layout">
 <section class="phd-intro"><div><p class="phd-kicker">實習輔導</p><h2>服務內容</h2><p>從申請準備到實習復盤，按目前需要安排支援。</p></div><a class="phd-button" href="${wa}">立即諮詢 <span aria-hidden="true">↗</span></a></section>
-${a.sections.map((s,i)=>`<section class="phd-row" id="section-${i+1}"><div class="phd-label"><span>${String(i+1).padStart(2,'0')}</span><h2>${s.heading}</h2></div><div class="phd-text">${(s.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}${s.steps?`<ol class="phd-steps">${s.steps.map(x=>`<li><strong>${x.title}</strong><span>${x.text}</span></li>`).join('')}</ol>`:''}${s.fees?`<div class="phd-table-wrap"><table><caption class="sr-only">實習服務及報價方式</caption><thead><tr><th scope="col">方案</th><th scope="col">服務內容</th><th scope="col">報價方式</th></tr></thead><tbody>${s.fees.map(x=>`<tr><th scope="row">${x.name}</th><td>${x.scope}</td><td>${x.basis}</td></tr>`).join('')}</tbody></table></div>`:''}${(s.after||[]).map(p=>`<p>${p}</p>`).join('')}</div></section>`).join('')}
+${renderCardDirectory(a.directory)}
 <section class="phd-contact" id="consultation"><h2>實習諮詢</h2><p>請說明專業與年級、實習方向、目標地點、可投入時間及希望協助的部分。未確定的項目可留空，初次諮詢毋須提供證件或公司機密。</p>${btn}<p class="phd-contact-meta">海外督導 OTC｜海外就業與落地服務部<br>WhatsApp +44 7947 991572 · <a href="${email}">office@overseasuk.com</a></p></section>
 <section class="phd-references"><div><h2>相關服務</h2><p><a href="/zh/services/career-contract-signing-support/">職業簽約陪跑</a> · <a href="/zh/services/business-english-study-support/">商業英語陪跑</a> · <a href="/zh/services/">服務導覽台</a></p><p>海外就業與落地服務部｜Overseas Careers &amp; Settling-in Support<br>WeChat：overseasus · 更新：2026 年 10 月</p></div><figure class="phd-cover"><img src="${cover}" width="1200" height="630" alt="實習陪跑：申請準備、面試與實習復盤" loading="lazy"><figcaption>海外督導 OTC · 實習陪跑</figcaption></figure></section>
 </div>`});};

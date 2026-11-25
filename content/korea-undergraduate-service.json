@@ -65,5 +65,141 @@
         "<a href=\"https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do\" rel=\"noopener\">Study in Korea｜語言要求與 TOPIK</a> · <a href=\"https://studyinkorea.go.kr/ko/plan/visaAndStay.do\" rel=\"noopener\">Study in Korea｜簽證</a> · <a href=\"https://globalcenter.khu.ac.kr/sBbs/7002A\" rel=\"noopener\">慶熙大學外國人入學公告</a> · <a href=\"https://admission.sogang.ac.kr/admission/html/international/overview.asp\" rel=\"noopener\">西江大學外國人入學</a>"
       ]
     }
-  ]
+  ],
+  "directory": {
+    "title": "韓國本科申請｜語言要求、無語言錄取與申請材料",
+    "subtitle": "韓國大學本科外國人招生：TOPIK 與其他語言證明、免語言學部與預錄取的分別、申請材料、入學季及 D-2 簽證；符合合作院校條件的標準申請免費代辦。",
+    "searchPlaceholder": "搜尋關鍵詞",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "概況與選擇"
+      },
+      {
+        "id": "cost",
+        "label": "費用與服務"
+      },
+      {
+        "id": "apply",
+        "label": "申請與材料"
+      },
+      {
+        "id": "ref",
+        "label": "資料與提醒"
+      }
+    ],
+    "tip": "",
+    "groupTitle": "韓國本科申請｜語言要求、無語言錄取與申請材料要點",
+    "cards": [
+      {
+        "id": "section-1",
+        "tab": "overview",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "01",
+        "title": "語言要求",
+        "chips": [],
+        "desc": "<p>韓語授課課程一般要交 TOPIK 成績，常見門檻為 3 至 4 級，熱門專業可能更高。按學校規定，也可能接受社會統合計劃（KIIP）、世宗學堂結業或本校語學院結業。英語授課課程則要英語成績。</p>",
+        "noteLabel": "提醒",
+        "note": "TOPIK 成績自公布日起兩年有效。部分學校另設畢業語言要求，入學前一併查清。",
+        "wide": false
+      },
+      {
+        "id": "section-2",
+        "tab": "overview",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "02",
+        "title": "無語言錄取",
+        "chips": [
+          "免語言學部",
+          "預錄取"
+        ],
+        "desc": "<p>「無語言」常被混為一談，實際有三種情況，申請前先分清：</p><p><strong>免語言學部：</strong>個別學部不要求語言成績，錄取後先在學校語學院學韓語。例如西江大學 Loyola 國際學院的 Global Interdisciplinary Studies 學部；西江其他本科專業仍要交 TOPIK、西江語學堂結業或英語成績。</p><p><strong>以校內考試或語學院結業代替 TOPIK：</strong>例如慶熙大學，語言要求可用 TOPIK、慶熙韓語考試或慶熙下屬語學機構結業滿足，並另接受 KIIP、世宗學堂結業等。這類常被稱為「校考」，不等於免語言。</p><p><strong>預錄取：</strong>先取得錄取資格，入學前或指定期限內補交 TOPIK；未達標可能取消錄取或轉入其他學部。各校期限及級別不同。</p>",
+        "noteLabel": "提醒",
+        "note": "另外，西京大學與西江大學名稱相近，美容、化妝等無語言預錄取專業屬西京大學。以上按 2025 至 2026 年公開資料整理，每年招生簡章可能調整，以學校當期外國人招生簡章為準。",
+        "wide": false
+      },
+      {
+        "id": "section-3",
+        "tab": "apply",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "03",
+        "title": "申請材料",
+        "chips": [],
+        "desc": "<p>常見材料包括護照、高中畢業證書及成績單（一般須辦理海牙認證或領事認證）、父母雙方外國國籍證明及親屬關係證明、語言成績、自我介紹及學習計畫、存款證明。部分專業另有面試或作品要求。存款金額及文件格式按學校規定。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      },
+      {
+        "id": "section-4",
+        "tab": "apply",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "04",
+        "title": "申請時間與簽證",
+        "chips": [],
+        "desc": "<p>本科每年招生兩季：3 月春季入學，多在前一年 9 至 11 月截止申請；9 月秋季入學，多在 5 至 6 月截止。部分學校更早開放，例如成均館大學春季在 7 至 8 月。</p>",
+        "noteLabel": "提醒",
+        "note": "錄取後由學校簽發入學許可書（COA），再到韓國駐當地使領館申請 D-2 留學簽證。",
+        "wide": false
+      },
+      {
+        "id": "section-5",
+        "tab": "cost",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "05",
+        "title": "服務與費用",
+        "chips": [],
+        "desc": "<p>OTC 協助選校、核對當期簡章的語言與材料要求、修改自我介紹及學習計畫、遞交申請及跟進補件，並提供簽證材料清單。</p>",
+        "noteLabel": "提醒",
+        "note": "符合合作院校條件的標準申請免費代辦。報名費、TOPIK 考試、文件認證與翻譯、簽證及學費等第三方費用另計。非合作院校，或另加韓語、面試輔導，先報價再開始。",
+        "wide": false
+      },
+      {
+        "id": "section-6",
+        "tab": "apply",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "06",
+        "title": "流程",
+        "chips": [],
+        "desc": "<ol><li>提供學歷、目前韓語程度、目標學校或專業及預計入學季。</li><li>核對目標學校當期簡章，確定選校與語言路線。</li><li>整理材料、辦理認證及翻譯，修改自我介紹與學習計畫。</li><li>遞交申請，準備面試，跟進補件及結果。</li><li>錄取後整理簽證材料，申請 D-2 簽證。</li></ol>",
+        "noteLabel": "",
+        "note": "",
+        "wide": true
+      },
+      {
+        "id": "section-7",
+        "tab": "cost",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "07",
+        "title": "相關服務",
+        "chips": [],
+        "desc": "<p><a href=\"/zh/services/korea-masters-application/\">韓國碩士申請</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換陪跑</a> · <a href=\"/countries/south-korea/\">韓國留學入口</a> · <a href=\"/apps/korean-self-study/\">韓語零基礎自學</a></p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "primary": {
+          "label": "韓國碩士申請",
+          "href": "/zh/services/korea-masters-application/"
+        }
+      },
+      {
+        "id": "section-8",
+        "tab": "ref",
+        "region": "韓國本科申請｜語言要求、無語",
+        "badge": "08",
+        "title": "官方資料",
+        "chips": [],
+        "desc": "<p><a href=\"https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do\" rel=\"noopener\">Study in Korea｜語言要求與 TOPIK</a> · <a href=\"https://studyinkorea.go.kr/ko/plan/visaAndStay.do\" rel=\"noopener\">Study in Korea｜簽證</a> · <a href=\"https://globalcenter.khu.ac.kr/sBbs/7002A\" rel=\"noopener\">慶熙大學外國人入學公告</a> · <a href=\"https://admission.sogang.ac.kr/admission/html/international/overview.asp\" rel=\"noopener\">西江大學外國人入學</a></p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "primary": {
+          "label": "查看資料 ↗",
+          "href": "https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do"
+        }
+      }
+    ],
+    "footer": ""
+  },
+  "bodyFormat": "card-directory"
 }

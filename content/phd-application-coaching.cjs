@@ -1,5 +1,6 @@
 const {pageShell}=require('../site');
 const a=require('./phd-application-coaching.json');
+const {renderCardDirectory}=require('./card-directory.cjs');
 module.exports=()=>{
 const intro='你好，我想諮詢申博陪跑。\n專業、學位及畢業年月：\n研究方向：\n研究／論文／項目經歷：\n目標國家及入學時間：\n語言程度及資助需要：\n目前最想解決的問題：';
 const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
@@ -39,7 +40,7 @@ return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',
 <section class="band service-review-strip"><a href="${wa}"><b>ASK</b><strong>立即諮詢</strong><span>WhatsApp 聯絡海外督導</span></a><a href="#section-2"><b>PLAN</b><strong>申請文書</strong><span>研究計劃與學術履歷</span></a><a href="#section-6"><b>CAREER</b><strong>求職輔導</strong><span>履歷、面試與投遞跟進</span></a><a href="#consultation"><b>START</b><strong>申請諮詢</strong><span>學歷、研究方向與入學時間</span></a></section>
 <div class="phd-layout">
 <section class="phd-intro"><div><p class="phd-kicker">博士申請輔導</p><h2>服務內容</h2><p>選校、文書、面試及錄取跟進，按申請進度安排輔導。</p></div><a class="phd-button" href="${wa}">立即諮詢 <span aria-hidden="true">↗</span></a></section>
-${a.sections.map((s,i)=>`<section class="phd-row" id="section-${i+1}"><div class="phd-label"><span>${String(i+1).padStart(2,'0')}</span><h2>${s.heading}</h2></div><div class="phd-text">${(s.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}${s.steps?`<ol class="phd-steps">${s.steps.map(x=>`<li><strong>${x.title}</strong><span>${x.text}</span></li>`).join('')}</ol>`:''}${s.fees?`<div class="phd-table-wrap"><table><caption class="sr-only">博士申請服務及報價方式</caption><thead><tr><th scope="col">方案</th><th scope="col">服務內容</th><th scope="col">報價方式</th></tr></thead><tbody>${s.fees.map(x=>`<tr><th scope="row">${x.name}</th><td>${x.scope}</td><td>${x.basis}</td></tr>`).join('')}</tbody></table></div>`:''}${(s.after||[]).map(p=>`<p>${p}</p>`).join('')}</div></section>`).join('')}
+${renderCardDirectory(a.directory)}
 <section class="phd-contact" id="consultation"><h2>申博諮詢</h2><p>請提供學歷與專業、研究方向、目標國家、入學時間及資助需要。未確定的項目可留空。</p>${btn}<p class="phd-contact-meta">海外督導 OTC｜海圖規劃・留學諮詢<br>WhatsApp +44 7947 991572 · <a href="${email}">office@overseasuk.com</a></p></section>
 <section class="phd-references" id="sources"><div><h2>官方資料</h2><p>申請要求以院校公布為準。OTC 不保證錄取或獎學金。</p><ul><li><a href="https://www.ox.ac.uk/admissions/graduate/application-guide/starting-your-application/research-project-and-supervisor">Oxford｜研究項目與導師</a></li><li><a href="https://www.ox.ac.uk/admissions/graduate/application-guide/supporting-documents/research-proposal">Oxford｜研究計劃要求</a></li><li><a href="https://euraxess.ec.europa.eu/jobs">EURAXESS｜研究職位與資助</a></li></ul><p><a href="/application-service-standards/">申請服務準則</a> · <a href="/zh/services/">所有服務</a></p></div><figure class="phd-cover"><img src="${cover}" width="1200" height="630" alt="申博陪跑：研究方向、導師與資助、研究計劃及面試" loading="lazy"><figcaption>海外督導 OTC · 申博陪跑</figcaption></figure></section>
 </div>`});};

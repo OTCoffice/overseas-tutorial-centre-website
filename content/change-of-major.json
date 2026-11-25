@@ -66,5 +66,121 @@
         "院校申請費、補修課學費、延長修業的學費與生活費、翻譯認證及其他第三方費用另計，由相關機構收取。"
       ]
     }
-  ]
+  ],
+  "directory": {
+    "title": "轉專業與轉學院｜申請、先修課與學分抵免｜海外督導雙語世界",
+    "subtitle": "校內轉專業與轉學院諮詢：比較課程、申請期限、先修課、學分抵免及剩餘修業時間，以 UBC 保育方向為例。初步諮詢免費，後續按服務範圍書面報價。",
+    "searchPlaceholder": "搜尋關鍵詞",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "概況與選擇"
+      },
+      {
+        "id": "cost",
+        "label": "費用與服務"
+      },
+      {
+        "id": "apply",
+        "label": "申請與材料"
+      }
+    ],
+    "tip": "",
+    "groupTitle": "轉專業與轉學院｜申請、先修課與學分抵免｜海外督導雙語世界要點",
+    "cards": [
+      {
+        "id": "audience",
+        "tab": "overview",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "01",
+        "title": "適合對象",
+        "chips": [],
+        "desc": "<p>已在大學就讀，想在同校更換專業、學位課程或學院；對原專業的課程與職業方向有疑問，希望比較保留原專業、轉科或修讀副修的選擇。</p><p>本頁以校內轉專業與轉學院為主。若希望轉到另一所大學，可另查<a href=\"/zh/services/international-transfer/\">國際大學轉學</a>；兩種申請的期限、學分及國際生手續可能不同。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "primary": {
+          "label": "國際大學轉學",
+          "href": "/zh/services/international-transfer/"
+        }
+      },
+      {
+        "id": "requirements",
+        "tab": "apply",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "02",
+        "title": "申請要求",
+        "chips": [
+          "申請期限與類別",
+          "先修課",
+          "學分抵免"
+        ],
+        "desc": "<p><strong>申請期限與類別：</strong>確認是更換主修、轉學位還是跨學院申請，查清接收學期、截止日、成績計算及名額限制。達到最低要求不代表一定獲批。</p><p><strong>先修課：</strong>逐門核對目標課程要求、最低成績、開課學期和修課資格，確認能否在申請前完成。不要僅憑課程名稱推定等同。</p><p><strong>學分抵免：</strong>請接收學院確認已修課程可計入必修、選修，還是不能計入新學位；再列出剩餘課程與先修順序，估算最早畢業時間。</p><p><strong>國際生安排：</strong>延長學期可能增加學費、住宿與保險等支出，也要核對獎學金、學生身分及學習許可有效期。涉及加拿大校內換課程與跨校轉學時，按 UBC 國際學生顧問及 IRCC 當期指引分別確認；需要移民意見時轉介合資格人士。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      },
+      {
+        "id": "ubc-example",
+        "tab": "overview",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "03",
+        "title": "UBC 保育方向例子",
+        "chips": [],
+        "desc": "<p>以 UBC 為例：對生態與野生動物保育感興趣的在讀生，可先比較 Conservation 與 Biology 的課程內容，再決定是否需要跨學院申請。</p><p>UBC Vancouver 現行 Conservation Major 隸屬 Faculty of Forestry &amp; Environmental Stewardship 的 Bachelor of Science in Natural Resources。課程結合生態、自然資源管理、政策及實地學習；可比較 Science and Management 與 Global Perspectives 兩個方向。若希望以生物學基礎或研究為主，也應對照 Biology 的必修與研究機會。</p><p>舊 BSc in Natural Resources Conservation 已自 2024 年 9 月起停止招生，由新學位下的 Conservation Major 取代。查課程時需使用適用的入學年份與學位規定。</p><p>下一步是帶同已修課程與目標方向，向接收學院確認申請期限、先修課及學分如何計入。未有成績單、修課紀錄與院系答覆前，不能判定可轉入的年級或會延長多少學期。</p><p>官方資料：<a href=\"https://you.ubc.ca/programs/conservation/\">Conservation 課程</a> · <a href=\"https://you.ubc.ca/programs/biology/\">Biology 課程</a> · <a href=\"https://students.ubc.ca/enrolment/registration/changing-degree-program-or-campus/\">更換學位或校區</a> · <a href=\"https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-forestry-and-environmental-stewardship/bsc-degrees-students-who-started-prior-september-2024/bsc-natural-resources-conservation/introduction\">舊學位停招說明</a>。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": true,
+        "primary": {
+          "label": "Conservation 課程 ↗",
+          "href": "https://you.ubc.ca/programs/conservation/"
+        }
+      },
+      {
+        "id": "scope",
+        "tab": "cost",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "04",
+        "title": "服務內容",
+        "chips": [],
+        "desc": "<p>海外督導雙語世界學生服務部可協助比較目標專業與現有課程、整理申請條件及截止日、製作先修課與學分對照清單，並按已確認資料估算剩餘修業時間與預算。</p><p>按約定範圍協助準備申請材料、整理轉科理由、修改聯絡學院的文字及跟進補件。提供的文件包括課程比較表、待校方確認清單及申請時間表。</p>",
+        "noteLabel": "提醒",
+        "note": "帳號及最終提交由學生本人掌握；錄取、學分認定及畢業要求由院校決定。不代做課業、考試或虛構轉科理由，不保證轉入、抵免或職業結果。",
+        "wide": false
+      },
+      {
+        "id": "process",
+        "tab": "apply",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "05",
+        "title": "申請流程",
+        "chips": [],
+        "desc": "<ol><li>提供目前院校、專業與年級、目標方向、已修課程、希望轉入的學期及最近截止日。</li><li>向接收學院確認申請類別、期限、先修課與學分抵免規定。</li><li>比較剩餘課程、修業時間與預算，決定是否申請；如需 OTC 協助，先書面確認服務範圍與費用。</li><li>按時間表準備及提交材料，保存校方回覆，跟進補件。</li><li>取得結果後核對新課程要求、已認定學分、選課及國際生手續。</li></ol><p>初次聯絡不用提供證件號碼。成績資料可先遮去姓名及學號；如需完整文件，會另行說明用途。</p><p>國際生官方參考：<a href=\"https://students.ubc.ca/international-student-guide/study-permits/\">UBC 學習許可指引</a> · <a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/change-schools.html\">IRCC 更換學校或課程</a>。資料核對：2026-11-18。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": true,
+        "primary": {
+          "label": "UBC 學習許可指引 ↗",
+          "href": "https://students.ubc.ca/international-student-guide/study-permits/"
+        }
+      },
+      {
+        "id": "fees",
+        "tab": "cost",
+        "region": "轉專業與轉學院｜申請、先修課",
+        "badge": "06",
+        "title": "費用",
+        "chips": [
+          "初步諮詢免費",
+          "後續服務按範圍書面報價"
+        ],
+        "desc": "<p><strong>初步諮詢免費：</strong>了解目前專業、目標方向和時間安排，說明需要先向學校確認的事項。</p><p><strong>後續服務按範圍書面報價：</strong>開始前列明需要協助的院校與專業數量、課程與學分核對、材料修改、跟進期限及交付內容；確認報價與付款安排後開展詳細工作。新增工作先另行確認。</p>",
+        "noteLabel": "提醒",
+        "note": "院校申請費、補修課學費、延長修業的學費與生活費、翻譯認證及其他第三方費用另計，由相關機構收取。",
+        "wide": false
+      }
+    ],
+    "footer": ""
+  },
+  "bodyFormat": "card-directory"
 }

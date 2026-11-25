@@ -69,6 +69,9 @@
           "title": "投稿與返修",
           "text": "作者確認後提交。收到審稿意見，再按約定安排返修。"
         }
+      ],
+      "paragraphs": [
+        "<ol><li><strong>提供摘要</strong> 告知學科、稿件進度及希望完成的日期；摘要請先移除個人資料。</li><li><strong>確認報價</strong> 約定顧問、服務內容、修改次數、交稿日期與費用。</li><li><strong>修改與討論</strong> 顧問提供批註，作者修改稿件，再討論需要補充的部分。</li><li><strong>投稿與返修</strong> 作者確認後提交。收到審稿意見，再按約定安排返修。</li></ol>"
       ]
     },
     {
@@ -97,6 +100,10 @@
       ],
       "after": [
         "學術督導另行收費，不包含在免費留學代辦服務中。取消、退款及追加工作的費用，於委託前約定。"
+      ],
+      "paragraphs": [
+        "<table><tbody><tr><td>選題與選刊</td><td>研究問題、提綱、期刊比較</td><td>按資料量、會議次數及交付內容報價。</td></tr><tr><td>稿件督導與編修</td><td>結構批註、學術表達與修改回饋</td><td>按字數、學科、稿件成熟度、輪次及期限報價。</td></tr><tr><td>投稿與返修</td><td>材料檢查、審稿意見分析與回覆表</td><td>按期刊要求與實際返修工作量確認。</td></tr><tr><td>第三方費用</td><td>期刊 APC、投稿費、資料、翻譯或專門分析</td><td>如適用，由相關機構另行收取；先說明並經作者確認。</td></tr></tbody></table>",
+        "學術督導另行收費，不包含在免費留學代辦服務中。取消、退款及追加工作的費用，於委託前約定。"
       ]
     },
     {
@@ -108,5 +115,157 @@
       ]
     }
   ],
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "SSCI 學術督導｜選題・論文修改・投稿與返修",
+    "subtitle": "海外督導提供選題、選刊、論文修改及審稿回覆輔導。可選單項服務或分階段督導，按稿件與工作量報價。",
+    "searchPlaceholder": "搜尋關鍵詞",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "概況與選擇"
+      },
+      {
+        "id": "cost",
+        "label": "費用與服務"
+      },
+      {
+        "id": "apply",
+        "label": "申請與材料"
+      },
+      {
+        "id": "ref",
+        "label": "資料與提醒"
+      }
+    ],
+    "tip": "",
+    "groupTitle": "SSCI 學術督導｜選題・論文修改・投稿與返修要點",
+    "cards": [
+      {
+        "id": "section-1",
+        "tab": "cost",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "01",
+        "title": "服務對象",
+        "chips": [],
+        "desc": "<p>適合首次投稿、將學位論文改寫為期刊文章，或需要回覆審稿意見的研究者。顧問依學科與研究方法安排。</p>",
+        "noteLabel": "提醒",
+        "note": "還沒有初稿，可先討論選題與提綱；已有稿件，可安排選刊、編修或返修。",
+        "wide": false
+      },
+      {
+        "id": "section-2",
+        "tab": "overview",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "02",
+        "title": "選題與研究",
+        "chips": [],
+        "desc": "<p>討論研究問題、相關文獻及研究方法。學位論文改投期刊時，先確定文章的主要論點，再調整篇幅與結構。</p>",
+        "noteLabel": "提醒",
+        "note": "提供選題意見、文獻檢索建議及提綱批註。涉及訪談、問卷或個人資料，須確認倫理審查與使用授權。",
+        "wide": false
+      },
+      {
+        "id": "section-3",
+        "tab": "overview",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "03",
+        "title": "期刊選擇",
+        "chips": [],
+        "desc": "<p>按主題、方法與文章類型比較期刊，列出字數、投稿要求、費用及已公布的審稿資訊。</p><p>SSCI 是社會科學引文索引；人文與藝術題目也可能適合 AHCI 或其他相關期刊。透過 <a href=\"https://mjl.clarivate.com/\" target=\"_blank\" rel=\"noopener\">Clarivate Master Journal List</a> 按刊名或 ISSN 核對當期收錄，再確認學校對索引、年份與分區的要求。影響因子與 SSCI 收錄不能互相替代。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "primary": {
+          "label": "查看資料 ↗",
+          "href": "https://mjl.clarivate.com/"
+        }
+      },
+      {
+        "id": "section-4",
+        "tab": "overview",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "04",
+        "title": "論文修改",
+        "chips": [],
+        "desc": "<p>檢查文章結構、論證與引文，對摘要、文獻、方法及結論提出批註。英文編修處理語句、術語與表達；統計及專門方法需求另行確認。</p>",
+        "noteLabel": "提醒",
+        "note": "提供批註稿與修改建議，必要時安排討論。字數、修改次數及交稿日期列入報價。",
+        "wide": false
+      },
+      {
+        "id": "section-5",
+        "tab": "overview",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "05",
+        "title": "投稿與返修",
+        "chips": [],
+        "desc": "<p>核對期刊格式、匿名稿、圖表、引文、投稿信及相關聲明。由作者確認最終稿、署名並提交。</p>",
+        "noteLabel": "提醒",
+        "note": "逐條討論審稿意見，整理修改內容與對應頁碼，檢查回覆信和修改稿。拒稿後可安排轉投；同一稿件不可同時投往多家期刊。",
+        "wide": false
+      },
+      {
+        "id": "section-6",
+        "tab": "overview",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "06",
+        "title": "學科分類",
+        "chips": [],
+        "desc": "<p>教育、語言、傳播、商管、社會科學、人文與藝術等研究方向，請查看 <a href=\"/zh/services/ssci-academic-supervision/subjects/\">學科分類 →</a>。</p>",
+        "noteLabel": "提醒",
+        "note": "跨學科題目可先提供摘要，確認是否有合適的顧問。",
+        "wide": false,
+        "primary": {
+          "label": "學科分類 →",
+          "href": "/zh/services/ssci-academic-supervision/subjects/"
+        }
+      },
+      {
+        "id": "section-7",
+        "tab": "apply",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "07",
+        "title": "流程",
+        "chips": [
+          "提供摘要",
+          "確認報價",
+          "修改與討論"
+        ],
+        "desc": "<ol><li><strong>提供摘要</strong> 告知學科、稿件進度及希望完成的日期；摘要請先移除個人資料。</li><li><strong>確認報價</strong> 約定顧問、服務內容、修改次數、交稿日期與費用。</li><li><strong>修改與討論</strong> 顧問提供批註，作者修改稿件，再討論需要補充的部分。</li><li><strong>投稿與返修</strong> 作者確認後提交。收到審稿意見，再按約定安排返修。</li></ol>",
+        "noteLabel": "",
+        "note": "",
+        "wide": true
+      },
+      {
+        "id": "section-8",
+        "tab": "cost",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "08",
+        "title": "費用",
+        "chips": [],
+        "desc": "<table><tbody><tr><td>選題與選刊</td><td>研究問題、提綱、期刊比較</td><td>按資料量、會議次數及交付內容報價。</td></tr><tr><td>稿件督導與編修</td><td>結構批註、學術表達與修改回饋</td><td>按字數、學科、稿件成熟度、輪次及期限報價。</td></tr><tr><td>投稿與返修</td><td>材料檢查、審稿意見分析與回覆表</td><td>按期刊要求與實際返修工作量確認。</td></tr><tr><td>第三方費用</td><td>期刊 APC、投稿費、資料、翻譯或專門分析</td><td>如適用，由相關機構另行收取；先說明並經作者確認。</td></tr></tbody></table>",
+        "noteLabel": "提醒",
+        "note": "學術督導另行收費，不包含在免費留學代辦服務中。取消、退款及追加工作的費用，於委託前約定。",
+        "wide": true
+      },
+      {
+        "id": "section-9",
+        "tab": "ref",
+        "region": "SSCI 學術督導｜選題・論",
+        "badge": "09",
+        "title": "常見問題",
+        "chips": [
+          "可以自己投稿嗎？",
+          "能保證錄用或加快審稿嗎？"
+        ],
+        "desc": "<p><strong>可以自己投稿嗎？</strong>可以。按期刊要求註冊及提交，如實填寫作者與所屬單位資料，無須透過代理。</p><p><strong>沒有 SSCI 論文能申請博士嗎？</strong>依院校要求而定。申請前應核對研究計劃、寫作樣本、作品集及導師要求。</p><p><strong>能保證錄用或加快審稿嗎？</strong>不能。錄用與審稿進度由期刊決定。OTC 提供指導與編修，研究及寫作由作者完成；不接受代寫、買賣署名、編造資料或虛假評審。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false
+      }
+    ],
+    "footer": ""
+  },
+  "bodyFormat": "card-directory"
 }
