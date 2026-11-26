@@ -545,40 +545,20 @@
         }
       },
       {
+        "id": "section-9",
         "tab": "faq",
-        "region": "常見問題",
+        "region": "點擊展開",
         "badge": "問答",
-        "title": "自行投稿",
+        "title": "常見問題",
         "chips": [],
-        "desc": "<p><strong>可以自己投稿嗎？</strong></p><p>可以。按期刊要求註冊及提交，如實填寫作者與所屬單位資料，無須透過代理。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "id": "section-9"
-      },
-      {
-        "tab": "faq",
-        "region": "常見問題",
-        "badge": "問答",
-        "title": "博士申請",
-        "chips": [],
-        "desc": "<p><strong>沒有 SSCI 論文能申請博士嗎？</strong></p><p>依院校要求而定。申請前應核對研究計劃、寫作樣本、作品集及導師要求。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "id": "faq-2"
-      },
-      {
-        "tab": "faq",
-        "region": "常見問題",
-        "badge": "問答",
-        "title": "保證錄用",
-        "chips": [],
-        "desc": "<p><strong>能保證錄用或加快審稿嗎？</strong></p><p>不能。錄用與審稿進度由期刊決定。OTC 提供指導與編修，研究及寫作由作者完成；不接受代寫、買賣署名、編造資料或虛假評審。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "id": "faq-3"
+        "desc": "<span id=\"faq-2\"></span><span id=\"faq-3\"></span><details class=\"ssci-faq\" id=\"faq-fee\"><summary>收費怎麼算？</summary><div>沒有一口價。單項服務按項詢價，稿件編修按字數、學科、修改程度及交稿日期報價，階段陪跑按範圍報價。先提供學科、摘要、字數與期限，即可報出準確費用。詳見<a href=\"#section-8\">費用報價</a>。</div></details><details class=\"ssci-faq\" id=\"faq-apc\"><summary>期刊 APC、投稿費包含在服務費內嗎？</summary><div>不包含。期刊 APC、投稿費、資料取得、翻譯或專門分析如適用，由相關機構另行收取；OTC 服務費與期刊收費分開列明，須先說明並經作者確認。</div></details><details class=\"ssci-faq\" id=\"faq-free\"><summary>學術督導包含在免費留學代辦內嗎？</summary><div>不包含。學術督導另行收費；取消、退款及追加工作的費用於委託前約定。</div></details><details class=\"ssci-faq\" id=\"faq-publish\"><summary>能保證錄用或加快審稿嗎？</summary><div>不能。錄用與審稿進度由期刊決定，說能「包發表」的要特別小心。OTC 提供指導與編修，研究及寫作由作者完成。</div></details><details class=\"ssci-faq\" id=\"faq-ghost\"><summary>可以代寫或幫忙掛名嗎？</summary><div>不可以。OTC 不接受代寫、買賣署名、編造資料或虛假評審；最終稿與署名由作者確認並自行提交。</div></details><details class=\"ssci-faq\" id=\"faq-self\"><summary>可以自己投稿嗎？</summary><div>可以。按期刊要求註冊及提交，如實填寫作者與所屬單位資料，無須透過代理。</div></details><details class=\"ssci-faq\" id=\"faq-draft\"><summary>還沒有初稿可以找你們嗎？</summary><div>可以。可先討論選題、研究問題與提綱；已有稿件，則可安排選刊、編修或返修。</div></details><details class=\"ssci-faq\" id=\"faq-index\"><summary>怎樣確認期刊有沒有被 SSCI 收錄？</summary><div>透過 <a href=\"https://mjl.clarivate.com/\" target=\"_blank\" rel=\"noopener\">Clarivate Master Journal List</a> 按刊名或 ISSN 核對當期收錄，再確認學校對索引、年份與分區的要求。影響因子與 SSCI 收錄不能互相替代；人文與藝術題目也可能適合 AHCI。</div></details><details class=\"ssci-faq\" id=\"faq-subject\"><summary>你們做哪些學科？</summary><div>教育、語言、傳播、商管、社會科學、人文與藝術等方向，可查看<a href=\"/zh/services/ssci-academic-supervision/subjects/\">學科分類</a>。跨學科題目可先提供摘要，確認是否有合適的顧問。</div></details><details class=\"ssci-faq\" id=\"faq-prep\"><summary>第一次諮詢要準備什麼？</summary><div>學科、研究題目與摘要；稿件階段、語言與字數；目標期刊或投稿目的；希望交稿日期與預算。首次可先提供摘要或目錄，完整稿件待確認保密安排後提供。</div></details><details class=\"ssci-faq\" id=\"faq-time\"><summary>多久能交稿？可以加急嗎？</summary><div>收到稿件後確認工作量，書面約定交稿日期。能否加急及加收多少費用，需先看稿件與顧問檔期；期刊審稿與錄用時間由編輯部決定。</div></details><details class=\"ssci-faq\" id=\"faq-rounds\"><summary>改幾輪？超出範圍怎麼辦？</summary><div>報價會列明批註、複閱及討論次數。新增資料、改題、超字數或更換期刊，可能需要補報價。</div></details><details class=\"ssci-faq\" id=\"faq-reject\"><summary>被拒稿怎麼辦？</summary><div>可安排轉投，按新期刊要求調整稿件與投稿材料。同一稿件不可同時投往多家期刊。</div></details><details class=\"ssci-faq\" id=\"faq-revise\"><summary>收到審稿意見後要提供什麼？</summary><div>請提供期刊決定信、審稿意見及截止日期，預留修改和校對時間。顧問會逐條討論審稿意見，整理回覆表與修改稿。</div></details><details class=\"ssci-faq\" id=\"faq-phd\"><summary>沒有 SSCI 論文能申請博士嗎？</summary><div>依院校要求而定。申請前應核對研究計劃、寫作樣本、作品集及導師要求。</div></details>",
+        "noteLabel": "還有疑問",
+        "note": "把題目、字數和期限發給我們，按你的稿件直接回答。",
+        "wide": true,
+        "primary": {
+          "label": "立即諮詢 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
       }
     ],
     "footer": "",
