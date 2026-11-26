@@ -1,0 +1,180 @@
+{
+  "slug": "nursing-singapore",
+  "path": "/zh/nursing/singapore/",
+  "name": "新加坡",
+  "countryName": "新加坡",
+  "titleZh": "新加坡護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "新加坡護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-singapore-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "新加坡",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "新加坡",
+        "desc": "<p>核對 SNB 認可本地註冊前課程及國際生資格 → 完成教育與實習 → 申請相應註冊及執業證 → 僱主聘用 → 工作准證。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "新加坡",
+        "desc": "<p>先獲符合資格的新加坡醫療機構聘用 → 由機構人事部與 SNB 聯絡並辦理申請 → 完成所需考試或能力評估 → 註冊／執業證與工作准證 → 到職。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "新加坡",
+        "desc": "<p>選課需分清 Registered Nurse 與 Enrolled Nurse，以及註冊前、文憑升學與持證進修課程。先查 SNB 認可範圍，再向院校核對國際生招生與實習資格；一般健康管理課程不代替護士註冊教育。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "新加坡",
+        "desc": "<p>按院校確認學歷、科目、成績、英語及選拔方式；已有海外護士資格者應先了解僱主支持的 SNB 路線，不假定必須先讀本地碩士。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "新加坡",
+        "desc": "<p>教學、臨床溝通與 SNB 評估要求分別確認；外語文件須按 SNB 要求附正式英文翻譯。本頁不設所有課程及海外申請人通用的 IELTS 分數。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "新加坡",
+        "desc": "<p>海外護士須有相當的註冊前教育、原訓練國註冊、現行執業資格及近五年相關臨床實務。SNB 須先有合資格機構聘用才考慮申請；結果透過僱主通知，不由仲介取代人事部申請。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "新加坡",
+        "desc": "<p>SNB 註冊與工作准證屬不同程序。僱主按職位及個人情況核對適用工作准證；如適用 S Pass，另查薪酬、僱主配額及徵費等要求。獲工作准證不等同永久居民批准。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "工作准證",
+          "href": "https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "新加坡",
+        "desc": "<p>護理教育及理論／實習時數、畢業證、原註冊及現行執照、工作證明與身分資料。學校成績及主管機構註冊驗證須按 SNB 規則直接送交。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "新加坡",
+        "desc": "<p>升學按校方學期安排；海外護士先處理僱主聘用與人事部資格確認，再準備驗證及所需考核。未獲聘用不能以自行付費預留 SNB 註冊名額。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "新加坡",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "新加坡",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "新加坡",
+        "desc": "<p><a href=\"https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/foreign-trained-nurses-midwives/\" target=\"_blank\" rel=\"noopener\">海外申請 ↗</a> · <a href=\"https://www.snb.gov.sg/\" target=\"_blank\" rel=\"noopener\">護理局 ↗</a></p><p><a href=\"https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility\" target=\"_blank\" rel=\"noopener\">工作准證 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "海外申請",
+        "url": "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/foreign-trained-nurses-midwives/"
+      },
+      {
+        "label": "護理局",
+        "url": "https://www.snb.gov.sg/"
+      },
+      {
+        "label": "工作准證",
+        "url": "https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

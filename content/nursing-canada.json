@@ -1,0 +1,188 @@
+{
+  "slug": "nursing-canada",
+  "path": "/zh/nursing/canada/",
+  "name": "加拿大",
+  "countryName": "加拿大",
+  "titleZh": "加拿大護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "加拿大護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-canada-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "加拿大",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "加拿大",
+        "desc": "<p>先選省份與 RN／實務護理等資格方向 → 核對省級認可課程 → 完成學業及該省註冊要求 → 求職 → 分別確認工作許可與移民資格。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "加拿大",
+        "desc": "<p>先選擬執業省份 → 向監管機構查海外資格評估渠道 → 完成學歷、語言及所需補修／考試 → 省級註冊 → 求職與簽證；不一概要求重讀加拿大學位。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "加拿大",
+        "desc": "<p>護理學士、第二學位／加速課程及 Practical Nursing 的資格方向不同。以安大略省為例，RN 與 RPN 使用不同教育與考試要求；可先查 CNO 認可課程，其他省份另向當地監管機構查核。</p>",
+        "id": "courses",
+        "primary": {
+          "label": "加拿大",
+          "href": "/zh/countries/canada/"
+        }
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "加拿大",
+        "desc": "<p>核對理科先修課、學歷等值、語言及臨床實習條件。院校接受國際生、課程專業認可與畢業工簽資格需分別查證；不能只看學校屬 DLI。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "加拿大",
+        "desc": "<p>入學與省級註冊要求分開；英語或法語證據、接受的考試及豁免按目標省份。魁北克等地的法語要求及專業程序不可直接套用安省規則。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "加拿大",
+        "desc": "<p>加拿大按省／地區監管，沒有一張適用所有地區的統一護士牌照。安省 CNO 接受指定 ECA 機構資料，亦列有可接受的 NNAS expedited reports；不可把 NNAS 當作全加拿大必經的唯一步驟。CNO 申請須由申請人自行完成與提交。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "加拿大",
+        "desc": "<p>工作許可與護士註冊分開。Express Entry 的醫療及社會服務類別仍需符合所屬移民項目、職業與工作經驗及該輪邀請條件；省提名亦有各省要求，不以護理畢業或職業在清單上保證獲邀。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "移民類別",
+          "href": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "加拿大",
+        "desc": "<p>完整護理教育、理論與臨床課程、註冊及執業紀錄、語言證據和姓名一致的身分資料。確認由哪個 ECA／原機構直接送件；一般移民學歷評估不自動滿足護理監管要求。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "加拿大",
+        "desc": "<p>按省份先完成資格與課程比較，再安排語言、驗證及補修。安省要求先收到符合規定的學歷評估資料才開始相應申請；各省審理與考試排期分別確認。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "加拿大",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "加拿大",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "加拿大",
+        "desc": "<p><a href=\"https://www.cno.org/become-a-nurse/approved-nursing-programs/approved-nursing-programs\" target=\"_blank\" rel=\"noopener\">認可課程 ↗</a> · <a href=\"https://cno.org/become-a-nurse/approved-educational-credential-assessment-service-providers\" target=\"_blank\" rel=\"noopener\">學歷驗證 ↗</a> · <a href=\"https://cno.org/become-a-nurse/approved-nursing-programs/ien-education-pathways\" target=\"_blank\" rel=\"noopener\">補修課程 ↗</a></p><p><a href=\"https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html\" target=\"_blank\" rel=\"noopener\">移民類別 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "認可課程",
+        "url": "https://www.cno.org/become-a-nurse/approved-nursing-programs/approved-nursing-programs"
+      },
+      {
+        "label": "學歷驗證",
+        "url": "https://cno.org/become-a-nurse/approved-educational-credential-assessment-service-providers"
+      },
+      {
+        "label": "補修課程",
+        "url": "https://cno.org/become-a-nurse/approved-nursing-programs/ien-education-pathways"
+      },
+      {
+        "label": "移民類別",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

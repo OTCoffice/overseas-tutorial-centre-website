@@ -1,0 +1,188 @@
+{
+  "slug": "nursing-germany",
+  "path": "/zh/nursing/germany/",
+  "name": "德國護理",
+  "countryName": "德國",
+  "titleZh": "德國護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "德國護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-germany-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "德國護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "德國護理",
+        "desc": "<p>比較護理 Ausbildung 與具執業資格方向的高等教育 → 核對學歷、德語與實訓合約 → 完成培訓及考核 → 取得職業資格 → 按聘用及居留條件銜接工作。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "德國護理",
+        "desc": "<p>按預計工作州份查資格認可 → 提交護理教育與執業文件 → 完成所需德語及差額補足 → 取得職稱／執業許可 → 銜接僱主聘用及適用居留。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "德國護理",
+        "desc": "<p>德國護理職業培訓結合理論與臨床實務，護理專業人員 Ausbildung 通常為三年。護理助理訓練與正式護理專業資格不同；不要把 Pflege、護理助理或照護工作名稱視為相同執業範圍。</p>",
+        "id": "courses",
+        "primary": {
+          "label": "德國留學",
+          "href": "/zh/countries/germany/"
+        }
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "德國護理",
+        "desc": "<p>核對中學學歷認可、德語、健康及品格要求，並確認學校與實訓僱主合約。培訓薪酬、試用、工作時數、住宿扣費及退出條款應看正式合約，不能沿用仲介宣傳金額。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "德國護理",
+        "desc": "<p>護理執業認可一般需 B2 德語，接受的證書或專業語言測試按主管機關。培訓入學可能另有條件；不要把一般簽證的語言門檻當成護理專業門檻。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "德國護理",
+        "desc": "<p>護理是受規管職業，由相關州份主管機關辦理資格與執業認可。海外學歷若有差額，可能需適應性培訓或知識考試；先用 Recognition Finder 找對主管單位。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "德國護理",
+        "desc": "<p>完整認可、執業資格與具體護士聘用可銜接技術工作居留的查核；部分認可者可查資格認可居留。德國官方明示一般護理專業人員不適用 EU Blue Card；學生或培訓居留也不等同永久居留。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "工作居留",
+          "href": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/nursing-and-care-professionals"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "德國護理",
+        "desc": "<p>護理學歷、科目與理論／臨床時數、執照、工作證明、履歷及德語。由州份確認翻譯、認證及近期健康／品格文件，再按培訓或認可用途準備合約。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "德國護理",
+        "desc": "<p>先確定州份與培訓／持證認可方向，再安排德語、學歷文件及僱主面試。認可結果與補足培訓可能改變整體時程，不以仲介的固定出發日代替主管機關決定。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "德國護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "德國護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>Ausbildung 先確認實訓合約的津貼及扣費；高等教育另查學費，不以培訓津貼概括全部課程。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "德國護理",
+        "desc": "<p><a href=\"https://www.make-it-in-germany.com/en/study-vocational-training/training-in-germany/in-demand/nursing\" target=\"_blank\" rel=\"noopener\">護理培訓 ↗</a> · <a href=\"https://www.anerkennung-in-deutschland.de/html/en/index.php\" target=\"_blank\" rel=\"noopener\">資格認可 ↗</a> · <a href=\"https://www.make-it-in-germany.com/en/working-in-germany/job-search-application/professions-in-demand/nursing\" target=\"_blank\" rel=\"noopener\">護理就業 ↗</a></p><p><a href=\"https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/nursing-and-care-professionals\" target=\"_blank\" rel=\"noopener\">工作居留 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "護理培訓",
+        "url": "https://www.make-it-in-germany.com/en/study-vocational-training/training-in-germany/in-demand/nursing"
+      },
+      {
+        "label": "資格認可",
+        "url": "https://www.anerkennung-in-deutschland.de/html/en/index.php"
+      },
+      {
+        "label": "護理就業",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/job-search-application/professions-in-demand/nursing"
+      },
+      {
+        "label": "工作居留",
+        "url": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/nursing-and-care-professionals"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

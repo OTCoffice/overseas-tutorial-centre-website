@@ -1,0 +1,184 @@
+{
+  "slug": "nursing-ireland",
+  "path": "/zh/nursing/ireland/",
+  "name": "愛爾蘭",
+  "countryName": "愛爾蘭",
+  "titleZh": "愛爾蘭護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "愛爾蘭護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-ireland-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "愛爾蘭",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "愛爾蘭",
+        "desc": "<p>查 NMBI 認可的註冊前護理課程 → 核對註冊分部與國際生招生 → 完成學業及實習 → NMBI 註冊 → 求職及工作／居留許可。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "愛爾蘭",
+        "desc": "<p>先做 NMBI 資格認可 → 按決定完成適用補償措施 → 提供英語與註冊資料 → NMBI 註冊 → 僱主聘用與工作許可。資格認可與正式註冊是兩個階段。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "愛爾蘭",
+        "desc": "<p>選課時確認一般護理、兒童、精神健康或其他分部。註冊前課程與已註冊護士的進修碩士不同；僅有 MSc 名稱不能推定畢業可取得首次護士註冊。院校名錄以 NMBI 當期認可資料為準。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "愛爾蘭",
+        "desc": "<p>按院校及國際生渠道查中學或學士學歷、科目、語言、面試和臨床要求；其他分部的經驗不能自行替代該分部的教育資格。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "愛爾蘭",
+        "desc": "<p>海外申請的英語證據由 NMBI 按途徑審核。考試途徑接受指定 IELTS Academic／OET；IELTS 總分 7、至少三項 7，另一項最低 6.5，適用測試版本、有效期及其他證據詳見 NMBI。入學分數另查院校。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "愛爾蘭",
+        "desc": "<p>非歐盟資格先做 qualification recognition，再辦 registration；可能要求適應期或能力測試等補償措施，依 NMBI 決定。MyNMBI 資料與帳戶由申請人管理；OTC 可協助準備，不代替本人上傳或登入。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "愛爾蘭",
+        "desc": "<p>非豁免人士須分別核對就業許可與入境／居留安排。可查 Critical Skills 等就業許可的職業、合約與其他條件，不能僅憑護士註冊或取得 offer 推定獲批。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "就業許可",
+          "href": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "愛爾蘭",
+        "desc": "<p>護理教育與課程、原主管機構註冊、工作證明及英語資料，按認可及註冊兩階段清單準備；認證與翻譯須符合 NMBI 格式。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "愛爾蘭",
+        "desc": "<p>先確認認可分部，再備原機構文件；若需補償措施，另查接收單位、名額與安排，不能把資格認可結果當作已完成註冊。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "愛爾蘭",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "愛爾蘭",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "愛爾蘭",
+        "desc": "<p><a href=\"https://www.nmbi.ie/Registration/Qualified-outside-the-EU/Application-Process\" target=\"_blank\" rel=\"noopener\">海外申請 ↗</a> · <a href=\"https://www.nmbi.ie/Registration/Qualified-outside-the-EU/Application-Process/English-Language-Requirements\" target=\"_blank\" rel=\"noopener\">英語要求 ↗</a> · <a href=\"https://www.nmbi.ie/Education\" target=\"_blank\" rel=\"noopener\">護理教育 ↗</a></p><p><a href=\"https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/\" target=\"_blank\" rel=\"noopener\">就業許可 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "海外申請",
+        "url": "https://www.nmbi.ie/Registration/Qualified-outside-the-EU/Application-Process"
+      },
+      {
+        "label": "英語要求",
+        "url": "https://www.nmbi.ie/Registration/Qualified-outside-the-EU/Application-Process/English-Language-Requirements"
+      },
+      {
+        "label": "護理教育",
+        "url": "https://www.nmbi.ie/Education"
+      },
+      {
+        "label": "就業許可",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

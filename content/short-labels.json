@@ -185,7 +185,21 @@
   "/zh/services/affordable-study-abroad/": "平價留學",
   "/zh/services/us-visa-support/": "美國簽證",
   "/zh/services/personal-statement-support/": "個人陳述",
-  "/zh/services/uk-sop-editing/": "SOP修改"
+  "/zh/services/uk-sop-editing/": "SOP修改",
+  "/zh/nursing/uk/": "英國護理",
+  "/zh/nursing/australia/": "澳洲護理",
+  "/zh/nursing/new-zealand/": "紐西蘭",
+  "/zh/nursing/canada/": "加拿大",
+  "/zh/nursing/ireland/": "愛爾蘭",
+  "/zh/nursing/germany/": "德國護理",
+  "/zh/nursing/usa/": "美國護理",
+  "/zh/nursing/singapore/": "新加坡",
+  "/zh/nursing/hong-kong/": "香港護理",
+  "/zh/nursing/japan/": "日本護理",
+  "/zh/nursing/south-korea/": "韓國護理",
+  "/zh/nursing/france/": "法國護理",
+  "/zh/nursing/switzerland/": "瑞士護理",
+  "/zh/nursing/nordics/": "北歐護理"
  },
  "cards": {
   "選科與轉科": "選科轉科",

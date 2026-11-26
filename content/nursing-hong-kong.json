@@ -1,0 +1,192 @@
+{
+  "slug": "nursing-hong-kong",
+  "path": "/zh/nursing/hong-kong/",
+  "name": "香港護理",
+  "countryName": "香港",
+  "titleZh": "香港護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "香港護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-hong-kong-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "香港護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "香港護理",
+        "desc": "<p>查護士管理局認可課程及適用註冊類別 → 核對非本地生招生 → 完成課程與註冊要求 → 求職 → 按身分查 IANG 或其他適用就業入境安排。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "香港護理",
+        "desc": "<p>比較正式、特別、有限或臨時註冊等適用路徑 → 核對學歷與臨床經驗 → 完成所需考試／僱主程序 → 註冊及執業資格 → 查適用就業入境安排。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "香港護理",
+        "desc": "<p>護理學士、登記護士課程、登記護士轉註冊護士及註冊前碩士的對象不同。以護士管理局認可名錄核對院校、課程及有效招生屆別；不能把舊年度認可推定延伸到新一屆。</p>",
+        "id": "courses",
+        "primary": {
+          "label": "香港留學",
+          "href": "/zh/countries/hong-kong/"
+        }
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "香港護理",
+        "desc": "<p>院校各有 DSE、國際學歷或學士入學渠道，並可能設面試、語言及實習要求。非本地生是否可報讀須向院校確認；並非所有列入認可名錄的課程均對所有國際生開放。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "香港護理",
+        "desc": "<p>按課程核對英語及中文要求，並確認臨床實習的溝通語言。英語授課不能自行推定毋須中文／粵語能力；非中英文文件按主管機構要求提供翻譯。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "香港護理",
+        "desc": "<p>非本地資格由護士管理局個別審核，沒有概括的互認換照。正式註冊與有限／特別註冊的考試、經驗、指定僱主及執業範圍不同，按選定路徑準備，不混為同一資格。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "香港護理",
+        "desc": "<p>符合條件的非本地畢業生可查 IANG；其學歷須符合相關全日制、本地評審等規定。海外護士也須按身分核對適用專業就業安排；護士註冊、就業許可與香港永久居民資格分別審核。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "IANG條件",
+          "href": "https://www.immd.gov.hk/eng/faq/non-local-graduates-return-employment-arrangement.html"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "香港護理",
+        "desc": "<p>本地升學備學歷、成績、語言及面試資料；海外資格另備課程理論／臨床內容、有效註冊、執業經驗與適用僱主證明。原學校及註冊機構的驗證須按管理局方式提交。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "香港護理",
+        "desc": "<p>先按目標入學屆別核認可，再按院校截止日申請。海外護士預留原學校／主管機構驗證與適用考試時間；有限註冊申請須使用當期僱主證明表格。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "香港護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "香港護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>香港院校申請收取服務費，按選校、文件及跟進範圍商議，開始前確認報價。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "香港護理",
+        "desc": "<p><a href=\"https://www.nchk.org.hk/tc/pre_enrolment_pre_registration_nursing_training/list_of_accredited_pre_service_nursing_programmes/\" target=\"_blank\" rel=\"noopener\">認可課程 ↗</a> · <a href=\"https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/index.html\" target=\"_blank\" rel=\"noopener\">海外資格 ↗</a> · <a href=\"https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/application_general.html\" target=\"_blank\" rel=\"noopener\">正式註冊 ↗</a> · <a href=\"https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/alre_general.html\" target=\"_blank\" rel=\"noopener\">有限註冊 ↗</a></p><p><a href=\"https://www.immd.gov.hk/eng/faq/non-local-graduates-return-employment-arrangement.html\" target=\"_blank\" rel=\"noopener\">IANG條件 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "認可課程",
+        "url": "https://www.nchk.org.hk/tc/pre_enrolment_pre_registration_nursing_training/list_of_accredited_pre_service_nursing_programmes/"
+      },
+      {
+        "label": "海外資格",
+        "url": "https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/index.html"
+      },
+      {
+        "label": "正式註冊",
+        "url": "https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/application_general.html"
+      },
+      {
+        "label": "有限註冊",
+        "url": "https://www.nchk.org.hk/en/registration_and_enrolment/non_locally_trained_nurses/alre_general.html"
+      },
+      {
+        "label": "IANG條件",
+        "url": "https://www.immd.gov.hk/eng/faq/non-local-graduates-return-employment-arrangement.html"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

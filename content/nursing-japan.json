@@ -1,0 +1,180 @@
+{
+  "slug": "nursing-japan",
+  "path": "/zh/nursing/japan/",
+  "name": "日本護理",
+  "countryName": "日本",
+  "titleZh": "日本護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "日本護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-japan-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "日本護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "日本護理",
+        "desc": "<p>選擇可取得看護師國家考試資格的日本課程 → 完成日語及入學選拔 → 完成理論／臨床教育 → 國家考試與看護師免許 → 僱主聘用及適用在留資格。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "日本護理",
+        "desc": "<p>向厚生勞動省申請國家考試受驗資格認定 → 備齊海外訓練及免許資料與適用 N1 證明 → 獲認定後參加國家考試 → 取得日本免許 → 求職及工作在留。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "日本護理",
+        "desc": "<p>看護大學、短期大學或指定養成機構的課程與受驗資格須逐項確認。介護福祉士、介護工作與看護師屬不同資格，不能把介護課程或特定技能介護當作護士換照。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "日本護理",
+        "desc": "<p>留學生招生、學歷、日語、筆試與面試依學校。先確認課程是否接受相應在留身分與海外學歷，以及畢業可取得哪一種國家考試資格。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "日本護理",
+        "desc": "<p>海外看護師受驗資格認定所列 N1 文件，適用於未畢業於日本中學及高中的申請人；符合豁免情況須按厚生勞動省清單。N1 證明不代替專業課程審查或國家考試。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "日本護理",
+        "desc": "<p>海外資格不自動轉為日本看護師免許。認定需比較教育、科目與理論／臨床時數；受驗資格認定、國家考試合格及免許登記是不同階段。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "日本護理",
+        "desc": "<p>具日本看護師資格並從事相應醫療工作的申請人，可核對「醫療」在留資格。其資格與聘用機構資料另審，不使用「介護」在留途徑代替；取得工作在留也不是永久居留。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "醫療在留",
+          "href": "https://www.moj.go.jp/isa/applications/status/medicalservices.html"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "日本護理",
+        "desc": "<p>海外免許、畢業證、成績與課程大綱、理論／臨床單位與時數對照表、院校認可資料、適用 N1 證明及日文翻譯／公證，按厚生勞動省當年度格式準備。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "日本護理",
+        "desc": "<p>厚生勞動省受驗資格認定有年度受理與原件核對安排，須先確認當期截止日。不要把已過的年度收件日期當成仍可申請；日語、文件認定及國家考試分別倒排。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "日本護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "日本護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "日本護理",
+        "desc": "<p><a href=\"https://www.mhlw.go.jp/stf/newpage_29412.html\" target=\"_blank\" rel=\"noopener\">認定材料 ↗</a> · <a href=\"https://shigoto.mhlw.go.jp/User/Occupation/Detail/156\" target=\"_blank\" rel=\"noopener\">看護職業 ↗</a></p><p><a href=\"https://www.moj.go.jp/isa/applications/status/medicalservices.html\" target=\"_blank\" rel=\"noopener\">醫療在留 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "認定材料",
+        "url": "https://www.mhlw.go.jp/stf/newpage_29412.html"
+      },
+      {
+        "label": "看護職業",
+        "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/156"
+      },
+      {
+        "label": "醫療在留",
+        "url": "https://www.moj.go.jp/isa/applications/status/medicalservices.html"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

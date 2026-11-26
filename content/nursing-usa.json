@@ -1,0 +1,184 @@
+{
+  "slug": "nursing-usa",
+  "path": "/zh/nursing/usa/",
+  "name": "美國護理",
+  "countryName": "美國",
+  "titleZh": "美國護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "美國護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-usa-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "美國護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "美國護理",
+        "desc": "<p>先選擬申領牌照州份 → 比較該州認可的 RN 課程 → 完成先修與臨床學習 → 達到州委員會及 NCLEX 要求 → 求職並另核合法工作身分。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "美國護理",
+        "desc": "<p>向目標州護理委員會確認境外資格要求 → 按指定渠道驗證學歷／執照 → 完成適用語言及 NCLEX 等要求 → 取得州牌照 → 另辦僱主聘用與移民／工作程序。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "美國護理",
+        "desc": "<p>RN 可有不同教育途徑，BSN、加速第二學位與 RN-to-BSN 的招生對象不同。RN-to-BSN 多供已有護士資格者進修，不能當成所有國際生首次考照途徑。以目標州委員會確認課程是否符合其教育要求。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "美國護理",
+        "desc": "<p>按課程核對解剖、生理、微生物等先修課、成績、轉學分、語言及臨床資格；並查國際生是否可申請及是否可獲所需入學身分文件。不要將大學錄取等同州考照資格。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "美國護理",
+        "desc": "<p>大學、州護理委員會與適用醫療工作者認證可能分別要求英語證據；接受考試與分數不可混用，也不能憑英文授課學位自行推定全部豁免。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "美國護理",
+        "desc": "<p>NCSBN 說明各州自行發牌，RN 及 LPN／VN 的要求有別；NCLEX 是考試，不是移民簽證。境外學歷評估、背景審查及其他州別要求先向目標委員會確認。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "美國護理",
+        "desc": "<p>州牌照與工作／移民身分分開。受適用規則約束的醫療工作者還可能需要 health care worker certification；僱主申請、簽證類別、配額或排期另核，不把 NCLEX 合格寫成可立即赴美上班。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "就業移民",
+          "href": "https://www.uscis.gov/working-in-the-united-states"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "美國護理",
+        "desc": "<p>所有相關院校成績、科目與實習資料、原註冊機構驗證、語言及州別文件；先確認州指定的驗證服務，再申請，避免選錯報告用途。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "美國護理",
+        "desc": "<p>先選州再選課與驗證服務；先修課、臨床名額、考試授權與簽證進度分開安排。學位學制不能當成取得工作或居留資格的全程時間。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "美國護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "美國護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "美國護理",
+        "desc": "<p><a href=\"https://www.ncsbn.org/nurse-licensure-guidance\" target=\"_blank\" rel=\"noopener\">州別要求 ↗</a> · <a href=\"https://www.ncsbn.org/null/null/internationally-educated-nurses\" target=\"_blank\" rel=\"noopener\">海外護士 ↗</a> · <a href=\"https://www.uscis.gov/sites/default/files/document/forms/i-905instr.pdf\" target=\"_blank\" rel=\"noopener\">認證說明 ↗</a></p><p><a href=\"https://www.uscis.gov/working-in-the-united-states\" target=\"_blank\" rel=\"noopener\">就業移民 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "州別要求",
+        "url": "https://www.ncsbn.org/nurse-licensure-guidance"
+      },
+      {
+        "label": "海外護士",
+        "url": "https://www.ncsbn.org/null/null/internationally-educated-nurses"
+      },
+      {
+        "label": "認證說明",
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-905instr.pdf"
+      },
+      {
+        "label": "就業移民",
+        "url": "https://www.uscis.gov/working-in-the-united-states"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

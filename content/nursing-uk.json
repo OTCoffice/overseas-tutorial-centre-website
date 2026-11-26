@@ -1,0 +1,188 @@
+{
+  "slug": "nursing-uk",
+  "path": "/zh/nursing/uk/",
+  "name": "英國護理",
+  "countryName": "英國",
+  "titleZh": "英國護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "英國護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-uk-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "英國護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "英國護理",
+        "desc": "<p>選擇 NMC 認可的註冊前學士或碩士 → 完成理論與實習 → 符合健康、品格及註冊要求 → 申請護士職位 → 核對僱主擔保與工作簽證。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "英國護理",
+        "desc": "<p>向 NMC 核對海外學歷及註冊 → 提供英語證據 → 按要求完成 CBT／OSCE 等能力測試 → 取得註冊 → 由合資格僱主安排聘用及簽證；不必先重讀英國學位。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "英國護理",
+        "desc": "<p>護理學士須選定成人、兒童、精神健康或學習障礙等註冊方向。已有學士者可比較 Pre-registration MSc；Nursing Studies／Top-up 或研究碩士未必通往首次註冊。例：University of Southampton 的 Nursing (Adult) BSc；正式申請前以 NMC 名錄核對課程與註冊方向。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "英國護理",
+        "desc": "<p>逐校核對學歷等值、科目、成績、面試與國際生名額。註冊前碩士另查學士背景、既往學習認定及照護經歷要求；護理背景不自動獲准抵免。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "英國護理",
+        "desc": "<p>入學英語由大學訂定。海外護士申請 NMC 可使用其接受的 IELTS Academic、OET 或其他合資格證據；總分、單項、有效期及合併規則須查 NMC 當期指引，不能以一般學生簽證英語分數替代。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "英國護理",
+        "desc": "<p>NMC 分別審核資格、能力、健康、品格及英語。CBT 與 OSCE 是否適用，按個人註冊途徑確認；完成英國認可註冊前課程與海外護士申請的程序不同。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "英國護理",
+        "desc": "<p>Health and Care Worker visa 須有適用職位、獲認可擔保僱主及符合規定的薪酬等條件。已取得 NMC 註冊不等於已取得簽證；未完成註冊者的聘用與擔保須按專門規則辦理。後續定居須另核當期資格。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "工作簽證",
+          "href": "https://www.gov.uk/health-care-worker-visa/your-job"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "英國護理",
+        "desc": "<p>升學：學歷、成績、科目、語言、個人陳述及適用推薦資料。註冊：護理訓練、原註冊機構核實、執業及健康／品格證據；另預留考試與原機構回覆時間。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "英國護理",
+        "desc": "<p>按大學或 UCAS 的課程截止日期倒排，預留面試與實習審查。海外護士按 NMC 個人清單安排驗證及考試，不將大學錄取時程當作註冊完成時間。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "英國護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "英國護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "英國護理",
+        "desc": "<p><a href=\"https://www.nmc.org.uk/approved-programmes/\" target=\"_blank\" rel=\"noopener\">認可課程 ↗</a> · <a href=\"https://www.southampton.ac.uk/courses/nursing-adult-degree-bsc\" target=\"_blank\" rel=\"noopener\">南安普敦 ↗</a> · <a href=\"https://www.nmc.org.uk/registration/joining-the-register/register-nurse-midwife/trained-outside-uk/\" target=\"_blank\" rel=\"noopener\">海外註冊 ↗</a> · <a href=\"https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/\" target=\"_blank\" rel=\"noopener\">英語要求 ↗</a></p><p><a href=\"https://www.gov.uk/health-care-worker-visa/your-job\" target=\"_blank\" rel=\"noopener\">工作簽證 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "認可課程",
+        "url": "https://www.nmc.org.uk/approved-programmes/"
+      },
+      {
+        "label": "南安普敦",
+        "url": "https://www.southampton.ac.uk/courses/nursing-adult-degree-bsc"
+      },
+      {
+        "label": "海外註冊",
+        "url": "https://www.nmc.org.uk/registration/joining-the-register/register-nurse-midwife/trained-outside-uk/"
+      },
+      {
+        "label": "英語要求",
+        "url": "https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/"
+      },
+      {
+        "label": "工作簽證",
+        "url": "https://www.gov.uk/health-care-worker-visa/your-job"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

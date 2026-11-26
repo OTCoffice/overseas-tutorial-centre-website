@@ -636,5 +636,159 @@
     "入學與申請",
     "護士註冊"
   ]
+},
+{
+ "route": "/zh/nursing/uk/",
+ "slug": "nursing-uk",
+ "head": "英國護理",
+ "en": "UK Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/australia/",
+ "slug": "nursing-australia",
+ "head": "澳洲護理",
+ "en": "Australia Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/new-zealand/",
+ "slug": "nursing-new-zealand",
+ "head": "紐西蘭",
+ "en": "New Zealand Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/canada/",
+ "slug": "nursing-canada",
+ "head": "加拿大",
+ "en": "Canada Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/ireland/",
+ "slug": "nursing-ireland",
+ "head": "愛爾蘭",
+ "en": "Ireland Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/germany/",
+ "slug": "nursing-germany",
+ "head": "德國護理",
+ "en": "Germany Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/usa/",
+ "slug": "nursing-usa",
+ "head": "美國護理",
+ "en": "US Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/singapore/",
+ "slug": "nursing-singapore",
+ "head": "新加坡",
+ "en": "Singapore Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/hong-kong/",
+ "slug": "nursing-hong-kong",
+ "head": "香港護理",
+ "en": "Hong Kong Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/japan/",
+ "slug": "nursing-japan",
+ "head": "日本護理",
+ "en": "Japan Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/south-korea/",
+ "slug": "nursing-south-korea",
+ "head": "韓國護理",
+ "en": "Korea Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/france/",
+ "slug": "nursing-france",
+ "head": "法國護理",
+ "en": "France Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/switzerland/",
+ "slug": "nursing-switzerland",
+ "head": "瑞士護理",
+ "en": "Switzerland Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
+},
+{
+ "route": "/zh/nursing/nordics/",
+ "slug": "nursing-nordics",
+ "head": "北歐護理",
+ "en": "Nordic Nursing",
+ "items": [
+  "課程與申請",
+  "護士資格認可",
+  "就業與居留"
+ ]
 }
 ]

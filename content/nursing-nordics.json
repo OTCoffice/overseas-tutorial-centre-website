@@ -1,0 +1,240 @@
+{
+  "slug": "nursing-nordics",
+  "path": "/zh/nursing/nordics/",
+  "name": "北歐護理",
+  "countryName": "北歐四國",
+  "titleZh": "北歐四國護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "北歐四國護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-nordics-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "北歐護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "丹麥：非 EU／EEA 護士註冊申請現行零配額至 2026 年底；合法居留、丹麥教育及特定聘用等例外須逐項核對。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "北歐護理",
+        "desc": "<p>先選瑞典、挪威、丹麥或芬蘭 → 核對當國認可課程、授課與臨床語言 → 完成教育及當地註冊 → 求職與該國工作／居留程序。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "北歐護理",
+        "desc": "<p>按一個目標國向當地監管機構申請 → 查海外資格審核、語言及補足要求 → 取得該國執業資格 → 求職與居留；北歐並無對所有海外護士通用的換照程序。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "北歐護理",
+        "desc": "<p>英語授課不代表臨床與註冊只用英語。例：芬蘭 Metropolia 的 Nursing 學士結合英語與芬蘭語；各國課程認可及職業資格須各自查核。先選國家，再比較院校，不能用一套入學分數概括四國。</p>",
+        "id": "courses",
+        "primary": {
+          "label": "北歐留學",
+          "href": "/zh/countries/nordic/"
+        }
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "北歐護理",
+        "desc": "<p>依院校核對中學或學士學歷、當地語言、選拔、臨床資格與國際生收費。海外持證者比較學位重讀與官方補修途徑，先查可受理資格，再確認課程與費用。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "北歐護理",
+        "desc": "<p>瑞典須符合 Socialstyrelsen 接受的語言證據；挪威非 EU／EEA 學歷途徑通常另需 B2 等要求。芬蘭就業及專業認可需相應芬蘭語／瑞典語能力；丹麥語言及適應性聘用只在可受理的申請途徑下安排。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "北歐護理",
+        "desc": "<p>四國分別審核。瑞典可經教育評估、能力試、法規課程與臨床訓練等步驟；挪威先做學歷評估再完成指定附加要求；芬蘭自 2026 年由 Finnish Supervisory Agency 接手相關執業權申請。丹麥須先查零配額及例外。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "北歐護理",
+        "desc": "<p>各國護士資格與工作居留分開，依國籍、聘用、薪酬與現有身分核對。丹麥零配額屬海外護士資格申請限制，不能宣稱所有留學及工作途徑一律關閉，亦不能以一般工作 offer 規避資格限制。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "移民資訊",
+          "href": "/zh/immigration-info/"
+        }
+      },
+      {
+        "tab": "registration",
+        "title": "瑞典",
+        "region": "北歐護理",
+        "desc": "<p>非 EU／EEA 護士可依 Socialstyrelsen 程序或指定補修途徑申請，能力試、法規及臨床要求按途徑辦理；學歷評估階段與後續語言要求不同。</p>",
+        "id": "nordic-sweden",
+        "secondary": {
+          "label": "官方要求",
+          "href": "https://legitimation.socialstyrelsen.se/en/licence-application/outside-eu-eea/nurse-responsible-for-general-care-educated-outside-eu-eea/"
+        }
+      },
+      {
+        "tab": "registration",
+        "title": "挪威",
+        "region": "北歐護理",
+        "desc": "<p>非 EU／EEA 護理學歷先審等值，再完成指定語言、法規／醫療系統課程及適用專業要求；補修完成並不省略正式授權。</p>",
+        "id": "nordic-norway",
+        "secondary": {
+          "label": "官方要求",
+          "href": "https://www.helsedirektoratet.no/english/authorisation-and-license-for-health-personnel/additional-requirements-for-applicants-educated-outside-the-eueea"
+        }
+      },
+      {
+        "tab": "registration",
+        "title": "丹麥",
+        "region": "北歐護理",
+        "desc": "<p>零配額一般限制非 EU／EEA 國民及相關境外教育護士申請，至 2026 年 12 月 31 日；丹麥／EU 身分、合法居留、丹麥教育或符合條件的特別聘用等例外見官方清單。</p>",
+        "id": "nordic-denmark",
+        "secondary": {
+          "label": "官方要求",
+          "href": "https://en.stps.dk/health-professionals-and-authorities/registration-of-healthcare-professionals/nurse/non-eu-countries/quota-for-applications"
+        }
+      },
+      {
+        "tab": "registration",
+        "title": "芬蘭",
+        "region": "北歐護理",
+        "desc": "<p>2026 年執業權申請已轉由 Finnish Supervisory Agency 處理；海外資格驗證、補足教育與芬蘭語／瑞典語要求須分開安排，舊 Valvira 資料需對照新主管機關。</p>",
+        "id": "nordic-finland",
+        "secondary": {
+          "label": "官方要求",
+          "href": "https://valtioneuvosto.fi/en/-/152634019/applications-for-rights-to-practise-in-social-welfare-and-health-care-to-be-redirected-to-the-new-finnish-supervisory-agency"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "北歐護理",
+        "desc": "<p>先定一個目標國，再備身分、完整護理教育與臨床時數、執照、專業狀態、經驗及語言；文件語言、送件方式與補修依當國清單。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "北歐護理",
+        "desc": "<p>先查受理資格與語言，再估教育評估、考核或補修時間。丹麥零配額現行至 2026 年 12 月 31 日；2027 年是否延續須查新公告，不能預先視為恢復。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "北歐護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "北歐護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "北歐護理",
+        "desc": "<p><a href=\"https://legitimation.socialstyrelsen.se/en/licence-application/outside-eu-eea/nurse-responsible-for-general-care-educated-outside-eu-eea/\" target=\"_blank\" rel=\"noopener\">瑞典註冊 ↗</a> · <a href=\"https://www.helsedirektoratet.no/english/authorisation-and-license-for-health-personnel/additional-requirements-for-applicants-educated-outside-the-eueea\" target=\"_blank\" rel=\"noopener\">挪威要求 ↗</a> · <a href=\"https://en.stps.dk/health-professionals-and-authorities/registration-of-healthcare-professionals/nurse/non-eu-countries/quota-for-applications\" target=\"_blank\" rel=\"noopener\">丹麥配額 ↗</a> · <a href=\"https://valtioneuvosto.fi/en/-/152634019/applications-for-rights-to-practise-in-social-welfare-and-health-care-to-be-redirected-to-the-new-finnish-supervisory-agency\" target=\"_blank\" rel=\"noopener\">芬蘭主管 ↗</a> · <a href=\"https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/nursing\" target=\"_blank\" rel=\"noopener\">芬蘭課程 ↗</a></p><p><a href=\"/zh/immigration-info/\">移民資訊</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "瑞典註冊",
+        "url": "https://legitimation.socialstyrelsen.se/en/licence-application/outside-eu-eea/nurse-responsible-for-general-care-educated-outside-eu-eea/"
+      },
+      {
+        "label": "挪威要求",
+        "url": "https://www.helsedirektoratet.no/english/authorisation-and-license-for-health-personnel/additional-requirements-for-applicants-educated-outside-the-eueea"
+      },
+      {
+        "label": "丹麥配額",
+        "url": "https://en.stps.dk/health-professionals-and-authorities/registration-of-healthcare-professionals/nurse/non-eu-countries/quota-for-applications"
+      },
+      {
+        "label": "芬蘭主管",
+        "url": "https://valtioneuvosto.fi/en/-/152634019/applications-for-rights-to-practise-in-social-welfare-and-health-care-to-be-redirected-to-the-new-finnish-supervisory-agency"
+      },
+      {
+        "label": "芬蘭課程",
+        "url": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/nursing"
+      },
+      {
+        "label": "移民資訊",
+        "url": "/zh/immigration-info/"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "nursing-switzerland",
+  "path": "/zh/nursing/switzerland/",
+  "name": "瑞士護理",
+  "countryName": "瑞士",
+  "titleZh": "瑞士護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "瑞士護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-switzerland-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "瑞士護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "瑞士護理",
+        "desc": "<p>比較護理 HES／FH 學士與 ES／HF 專業教育 → 核對地區語言及學歷／實務先修 → 完成認可教育 → 執業登記與聘用 → 依國籍核工作居留。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "瑞士護理",
+        "desc": "<p>先做 Swiss Red Cross（SRC）PreCheck → 正式資格認可 → 如需則完成補償措施及語言 → 核對登記與僱主要求 → 分別確認工作許可。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "瑞士護理",
+        "desc": "<p>瑞士按教育類型及地區語言選校。HES-SO 等護理學士與高等專業學校課程的入學資格不同；先看官方職業教育目錄及院校課程，不把所有護理學歷混成同一入學路線。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "瑞士護理",
+        "desc": "<p>海外中學／大學學歷、先前醫療實務、入學補修及語言依院校和地區。確認國際生資格及臨床學習安排；具護理學位不表示自動獲得跨類型學分抵免。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "瑞士護理",
+        "desc": "<p>SRC 接受其列明的德語、法語或意大利語 B2 證據；依擬工作地區準備。大學招生可能另有語言要求，不能用英語成績代替當地臨床語言。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "瑞士護理",
+        "desc": "<p>外國受規管醫療資格須認可；SRC 的 PreCheck 為強制但免費的起步程序，正面結果仍須完成正式認可，亦可能要求補償措施。認可不等於取得工作居留。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "瑞士護理",
+        "desc": "<p>非 EU／EFTA 人士受獨立的勞動市場、資格與許可數量等條件約束，僱主通常須證明招聘需要。即使 SRC 認可通過，也不能保證獲准聘用；先核對國籍與僱主能否辦理，再決定投入。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "工作許可",
+          "href": "https://www.sem.admin.ch/en/non-eu-efta-nationals"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "瑞士護理",
+        "desc": "<p>學歷、課程、原國註冊與執業、語言及主管機構良好專業狀態等文件，按 PreCheck 結果及正式清單準備；注意文件有效期與翻譯規則。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "瑞士護理",
+        "desc": "<p>先做 PreCheck 再按結果提交正式申請。SRC 列明完整資料及付款後才啟動正式程序；補償措施另加時間，不能把 PreCheck 完成當成已獲執業認可。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "瑞士護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "瑞士護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "瑞士護理",
+        "desc": "<p><a href=\"https://www.orientation.ch/fr/formations/haute-ecole-de-sante-vaud-hesav/nursing-soins-infirmiers\" target=\"_blank\" rel=\"noopener\">護理學士 ↗</a> · <a href=\"https://www.redcross.ch/en/our-services/healthcare-professions-recognition-and-registration/recognition-of-foreign-qualifications\" target=\"_blank\" rel=\"noopener\">資格認可 ↗</a></p><p><a href=\"https://www.sem.admin.ch/en/non-eu-efta-nationals\" target=\"_blank\" rel=\"noopener\">工作許可 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "護理學士",
+        "url": "https://www.orientation.ch/fr/formations/haute-ecole-de-sante-vaud-hesav/nursing-soins-infirmiers"
+      },
+      {
+        "label": "資格認可",
+        "url": "https://www.redcross.ch/en/our-services/healthcare-professions-recognition-and-registration/recognition-of-foreign-qualifications"
+      },
+      {
+        "label": "工作許可",
+        "url": "https://www.sem.admin.ch/en/non-eu-efta-nationals"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}

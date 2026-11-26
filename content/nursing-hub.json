@@ -13,7 +13,7 @@
   "socialImageSource": "share-only",
   "directory": {
     "title": "升學資料",
-    "subtitle": "按地區或主題篩選；搜尋國家、課程與申請要點。",
+    "subtitle": "按地區或主題篩選；各國專頁分別整理未持證升學與海外護士認可。",
     "tabs": [
       {
         "id": "歐洲",
@@ -57,10 +57,10 @@
         "id": "global-nursing-pathways",
         "tab": "歐洲",
         "region": "歐洲",
-        "title": "英國",
-        "desc": "<p>查看英國護理升學與資格資料。</p><p>註冊查詢：NMC。</p>",
+        "title": "英國護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "英國護理",
           "href": "/zh/nursing/uk/"
         }
       },
@@ -68,10 +68,10 @@
         "id": "destination-australia",
         "tab": "大洋洲",
         "region": "大洋洲",
-        "title": "澳洲",
-        "desc": "<p>查看澳洲護理升學與資格資料。</p><p>註冊查詢：NMBA／Ahpra。</p>",
+        "title": "澳洲護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "澳洲護理",
           "href": "/zh/nursing/australia/"
         }
       },
@@ -80,9 +80,9 @@
         "tab": "大洋洲",
         "region": "大洋洲",
         "title": "紐西蘭",
-        "desc": "<p>查看紐西蘭護理升學與資格資料。</p><p>註冊查詢：NCNZ。</p>",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "紐西蘭",
           "href": "/zh/nursing/new-zealand/"
         }
       },
@@ -91,9 +91,9 @@
         "tab": "北美洲",
         "region": "北美洲",
         "title": "加拿大",
-        "desc": "<p>查看加拿大護理升學與資格資料。</p><p>註冊查詢：各省護理監管機構。</p>",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "加拿大",
           "href": "/zh/nursing/canada/"
         }
       },
@@ -102,9 +102,9 @@
         "tab": "歐洲",
         "region": "歐洲",
         "title": "愛爾蘭",
-        "desc": "<p>查看愛爾蘭護理升學與資格資料。</p><p>註冊查詢：NMBI。</p>",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "愛爾蘭",
           "href": "/zh/nursing/ireland/"
         }
       },
@@ -112,10 +112,10 @@
         "id": "destination-germany",
         "tab": "歐洲",
         "region": "歐洲",
-        "title": "德國",
-        "desc": "<p>查看德國護理升學與資格資料。</p><p>註冊查詢：各州認可機關。</p>",
+        "title": "德國護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "德國護理",
           "href": "/zh/nursing/germany/"
         }
       },
@@ -123,10 +123,10 @@
         "id": "destination-usa",
         "tab": "北美洲",
         "region": "北美洲",
-        "title": "美國",
-        "desc": "<p>查看美國護理升學與資格資料。</p><p>註冊查詢：州護理委員會。</p>",
+        "title": "美國護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "美國護理",
           "href": "/zh/nursing/usa/"
         }
       },
@@ -135,9 +135,9 @@
         "tab": "亞洲",
         "region": "亞洲",
         "title": "新加坡",
-        "desc": "<p>查看新加坡護理升學與資格資料。</p><p>註冊查詢：SNB。</p>",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "新加坡",
           "href": "/zh/nursing/singapore/"
         }
       },
@@ -145,10 +145,10 @@
         "id": "destination-hong-kong",
         "tab": "亞洲",
         "region": "亞洲",
-        "title": "香港",
-        "desc": "<p>查看香港護理升學與資格資料。</p><p>註冊查詢：香港護士管理局。</p>",
+        "title": "香港護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "香港護理",
           "href": "/zh/nursing/hong-kong/"
         }
       },
@@ -156,10 +156,10 @@
         "id": "destination-japan",
         "tab": "亞洲",
         "region": "亞洲",
-        "title": "日本",
-        "desc": "<p>查看日本護理升學與資格資料。</p><p>註冊查詢：厚生勞動省。</p>",
+        "title": "日本護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "日本護理",
           "href": "/zh/nursing/japan/"
         }
       },
@@ -167,10 +167,10 @@
         "id": "destination-south-korea",
         "tab": "亞洲",
         "region": "亞洲",
-        "title": "韓國",
-        "desc": "<p>查看韓國護理升學與資格資料。</p><p>註冊查詢：保健福祉部。</p>",
+        "title": "韓國護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "韓國護理",
           "href": "/zh/nursing/south-korea/"
         }
       },
@@ -178,10 +178,10 @@
         "id": "destination-france",
         "tab": "歐洲",
         "region": "歐洲",
-        "title": "法國",
-        "desc": "<p>查看法國護理升學與資格資料。</p><p>註冊查詢：醫護資格主管機關。</p>",
+        "title": "法國護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "法國護理",
           "href": "/zh/nursing/france/"
         }
       },
@@ -189,10 +189,10 @@
         "id": "destination-switzerland",
         "tab": "歐洲",
         "region": "歐洲",
-        "title": "瑞士",
-        "desc": "<p>查看瑞士護理升學與資格資料。</p><p>註冊查詢：Swiss Red Cross。</p>",
+        "title": "瑞士護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "瑞士護理",
           "href": "/zh/nursing/switzerland/"
         }
       },
@@ -200,18 +200,18 @@
         "id": "destination-nordics",
         "tab": "歐洲",
         "region": "歐洲",
-        "title": "北歐四國",
-        "desc": "<p>查看北歐四國護理升學與資格資料。</p><p>註冊查詢：各國護理主管機關。</p>",
+        "title": "北歐護理",
+        "desc": "<p>護理課程、護士註冊、就業居留與申請準備。</p>",
         "primary": {
-          "label": "國別資料",
+          "label": "北歐護理",
           "href": "/zh/nursing/nordics/"
         }
       },
       {
         "tab": "courses",
         "region": "護理升學",
-        "title": "課程選擇",
-        "desc": "<p>未有護士資格者，選擇可通往當地護士註冊的認可課程；已有海外護士資格者，先了解資格認可程序，再決定是否重讀學位。</p>",
+        "title": "背景選擇",
+        "desc": "<p>尚未持證：選認可課程，完成學業、註冊後再核對工作居留。已有護士資格：先查海外資格認可、語言與考核，再決定是否需要重讀學位。各國專頁均分別介紹。</p>",
         "id": "planning"
       },
       {

@@ -58,6 +58,7 @@ ${table(['費用項目','金額／說明'],[
 ${fees()}
 <h2>常見問題</h2><details><summary>已有護士執照，還要讀澳洲碩士嗎？</summary><p>不一定。已有海外護士資格者，可先查詢 NMBA／Ahpra 的註冊要求。</p></details><details><summary>護理畢業就能拿永久居留嗎？</summary><p>不能據此判斷。畢業、護士註冊、技能評估、僱主或州提名，以及簽證審批都有各自條件。</p></details><details><summary>免費代辦包含哪些服務？</summary><p>限已確認可辦理院校及課程的申請代辦。護士註冊、語言或考試輔導、求職與移民專業服務須另確認；第三方費用不包括在內。</p></details>`;}
 module.exports=function(slug){
+ if(slug!=='nursing-hub'&&slug!=='nursing-courses') return countryProfile(require('./'+slug+'.json'));
  const country=destinations.find(c=>c.slug!=='australia'&&slug==='nursing-'+c.slug);
  const a=country?{...require('./nursing-hub.json'),slug,path:country.path,name:country.name+'護理留學',titleZh:country.name+'護理留學與護士註冊｜海外督導 OTC',sub:'課程・院校・護士註冊',summaryZh:country.name+'護理課程與護士註冊資料、官方查詢入口及申請諮詢。'}:require('./'+slug+'.json'),au=slug==='nursing-australia',directory=slug==='nursing-courses',child=au||directory||!!country;
  const text='你好，我想諮詢'+(au?'澳洲護理課程':country?country.name+'護理留學':'海外護理留學')+'。\n本科專業：\n現有護士資格／註冊地（如有）：\n工作經驗：\n英語程度：\n目標國家及年份：';
@@ -88,3 +89,24 @@ const css=`<style>
 const hubCss=`<style>.nursing-destination-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px;margin:16px 0 28px}.nursing-destination-groups section{min-width:0}.nursing-destination-groups h3{font-size:15px;margin:0 0 8px;color:#546573}.nursing-destination-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.nursing-destination-links a{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 14px;background:#f6f2e9;border:1px solid #d5c9b3;border-top:3px solid #b88a2d;text-decoration:none;font-size:15px}.nursing-destination-groups section:nth-child(2) a{background:#eef3fb;border-top-color:#426397}.nursing-destination-groups section:nth-child(3) a{background:#edf7f4;border-top-color:#39877e}.nursing-destination-groups section:nth-child(4) a{background:#fbf1ec;border-top-color:#a36753}.nursing-destination-links a:hover{border-color:#19394d;background:#e9e4d9}.nursing-hub .services-hero .band{padding-top:20px;padding-bottom:20px}.nursing-hub .services-hero h1{font-size:28px!important}.nursing-hub .service-hero-panel a{min-height:50px}.nursing-hub .service-hero-layout{gap:20px}.nursing-hub .nursing-main>h2:first-child{margin-top:8px}.nursing-hub .nursing-main p{font-size:14px}.nursing-hub .nursing-foot{grid-template-columns:1fr}.nursing-hub .nursing-foot figure{display:none}@media(max-width:760px){.nursing-destination-groups{grid-template-columns:1fr;gap:16px}.nursing-destination-links{grid-template-columns:repeat(3,minmax(0,1fr))}.nursing-destination-links a{font-size:14px;padding:10px}.nursing-hub .service-hero-panel{display:none}.nursing-hub .services-hero h2{font-size:16px}}
 
 </style>`;
+
+// Country source JSONs use the shared directory renderer; the course database keeps its existing template.
+function countryProfile(a){
+ const {renderCardDirectory}=require('./card-directory.cjs');
+ const hero=academic(a.name,'').split('<section class="band service-review-strip">')[0]
+  .replace('<div class="service-hero-layout">','<div>')
+  .replace(/<h2>[\s\S]*?<\/h2>/,'')
+  .replace(/<p class="hero-sub">[\s\S]*?<\/p>/,`<p class="hero-sub">${a.hero}</p>`)
+  .replace(/<div class="actions">[\s\S]*?<\/div>/,'')
+  .replace(/<p>海外督導 OTC[\s\S]*?<\/p>/,'')
+  .replace(/<aside[\s\S]*?<\/aside>/,'')
+  .replace('<h1>','<h1 style="font-size:28px!important">');
+ const breadcrumb=`<nav class="band" aria-label="頁面位置"><a href="/">首頁</a> ／ <a href="/zh/nursing/">護理升學</a> ／ <span aria-current="page">${a.name}</span></nav>`;
+ let directory=renderCardDirectory(a.directory);
+ const aliases=a.slug==='nursing-australia'?['admission','courses','registration','migration','fees','process','sources','materials']:['courses','registration','materials'];
+ aliases.forEach((id,i)=>{directory=directory.replace(`id="${id}">`,`id="${id}"><span id="topic-${i}"></span>`)});
+ const contact=`<section class="band" id="contact"><span id="topic-${a.slug==='nursing-australia'?8:3}"></span><h2>申請諮詢</h2><p>海外督導雙語世界｜招生部。準備現有學歷、護士資格與註冊地、臨床經驗、語言、預算及目標年份，透過頁腳聯絡招生部，確認合適課程及申請安排。</p><p><a class="btn btn-primary" href="#footer-contact">聯絡招生</a></p></section>`;
+ const related='<section class="band"><h2>相關服務</h2><p><a href="/zh/nursing/">護理升學</a> · <a href="/zh/immigration-info/">移民資訊</a></p></section>';
+ const cardStyle='<style>.cd .cd-table{overflow-x:auto}.cd .cd-card[data-tab="study"]{border-top-color:#ae9340}.cd .cd-card[data-tab="registration"]{border-top-color:#74333a}.cd .cd-card[data-tab="work"]{border-top-color:#557e77}.cd .cd-table th{min-width:5em}</style>';
+ return pageShell({title:a.titleZh,current:'services',path:a.path,locale:'zh',lang:'zh-Hant',description:a.summaryZh,image:a.shareImageZh+'?'+a.socialImageVersion,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:a.name+'：課程與申請、護士資格認可、就業與居留',body:cardStyle+breadcrumb+hero+directory+contact+related,bodyClass:'nursing-page',shareAtBottom:true}).replace('<footer class="site-footer"','<footer id="footer-contact" class="site-footer"');
+}

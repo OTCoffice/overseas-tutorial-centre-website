@@ -1,0 +1,184 @@
+{
+  "slug": "nursing-france",
+  "path": "/zh/nursing/france/",
+  "name": "法國護理",
+  "countryName": "法國",
+  "titleZh": "法國護理留學與護士註冊、就業居留｜海外督導雙語世界",
+  "summaryZh": "法國護理課程、入學與語言要求、海外護士資格認可、就業居留銜接、申請材料及費用。按尚未持證或已有護士資格選擇準備方向。",
+  "hero": "護理留學・護士註冊・就業居留",
+  "sub": "課程・註冊・就業",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-france-share-20261126.png",
+  "socialImageVersion": "v=20261126",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "法國護理",
+    "subtitle": "先分清尚未持證或已有護士資格，再按階段查看條件。",
+    "tabs": [
+      {
+        "id": "study",
+        "label": "留學課程"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "work",
+        "label": "就業居留"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      },
+      {
+        "id": "sources",
+        "label": "官方資料"
+      }
+    ],
+    "searchPlaceholder": "搜尋課程、語言、註冊或居留",
+    "groupTitle": "全部要點",
+    "tipLabel": "重點",
+    "tip": "學位、專業註冊、僱主聘用及工作居留各有條件，請按每一步要求準備。",
+    "cards": [
+      {
+        "tab": "study",
+        "title": "升學銜接",
+        "region": "法國護理",
+        "desc": "<p>確認 IFSI 護理教育及入學渠道 → 達到法語和學歷要求 → 完成國家護理文憑及臨床教育 → 辦理適用執業登記 → 求職與工作居留。</p>",
+        "id": "study-route"
+      },
+      {
+        "tab": "registration",
+        "title": "持證銜接",
+        "region": "法國護理",
+        "desc": "<p>先按國籍、文憑頒發地及既有歐洲認可查適用規則 → 確認是否可認可或須重返訓練 → 完成法語及專業要求 → 執業登記 → 僱主與工作許可。</p>",
+        "id": "licensed-route"
+      },
+      {
+        "tab": "study",
+        "title": "課程院校",
+        "region": "法國護理",
+        "desc": "<p>法國護理教育通常在 IFSI 修讀，通往 Diplôme d’État d’infirmier（DEI），一般為高中後三年。公共衛生或護理研究學位不能自動取代 DEI 的執業教育。</p>",
+        "id": "courses"
+      },
+      {
+        "tab": "study",
+        "title": "入學要求",
+        "region": "法國護理",
+        "desc": "<p>按身分確認 Parcoursup、持續教育或其他院校指定渠道，以及海外中學文憑等值。入學、實習及學費資助資格分別核對，不直接套用一般大學英授碩士申請方式。</p>",
+        "id": "admission"
+      },
+      {
+        "tab": "apply",
+        "title": "語言要求",
+        "region": "法國護理",
+        "desc": "<p>須具備法語課堂、臨床溝通與執業所需能力；接受證書與分數按 IFSI 及適用主管機構。英語授課的健康學位不等同符合護理臨床法語要求。</p>",
+        "id": "language"
+      },
+      {
+        "tab": "registration",
+        "title": "護士註冊",
+        "region": "法國護理",
+        "desc": "<p>護理執業規則依國籍、文憑及歐洲認可狀態而異；境外非歐洲文憑不可概括作自動互認。先按 Service Public 的護理專業說明核對資格，再向相關主管機關／Ordre 詢問，不把 ENIC-NARIC 學術等值當成護士執業許可。</p>",
+        "id": "registration"
+      },
+      {
+        "tab": "work",
+        "title": "就業居留",
+        "region": "法國護理",
+        "desc": "<p>非歐盟人士除專業資格外，還須確認居留是否已授予工作權；如未涵蓋，僱主須按規則申請工作許可。學業完成、執業登記及工作居留分開處理。</p>",
+        "id": "migration",
+        "primary": {
+          "label": "工作許可",
+          "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3100"
+        }
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "region": "法國護理",
+        "desc": "<p>海外學歷、課程及實習、原國執照、法語與身分／既有歐洲居留資料。先確認適用程序，再辦翻譯及補修，不預設所有海外護士均只需同一項考試。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "title": "申請時程",
+        "region": "法國護理",
+        "desc": "<p>IFSI 入學渠道及學期按當期公告；海外資格先確認程序，再估補修或重讀所需時間。工作許可須與實際聘用條件一併安排。</p>",
+        "id": "timeline"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "region": "法國護理",
+        "desc": "<ol><li>確認背景：是否持有護士資格、擬讀課程或直接認可。</li><li>核對條件：專業認可、學歷、語言、臨床及可用申請渠道。</li><li>準備文件：按院校、監管機構及本人／僱主權責送件。</li><li>分段跟進：錄取、註冊、聘用與居留各自核對結果。</li></ol>",
+        "id": "process",
+        "wide": true
+      },
+      {
+        "tab": "cost",
+        "title": "費用服務",
+        "region": "法國護理",
+        "desc": "<p>海外督導雙語世界｜招生部協助比較課程、核對入學條件、準備材料及跟進院校；註冊申請由本人、指定僱主或主管機構按規則辦理。</p><div class=\"cd-table\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">安排</th></tr></thead><tbody><tr><th scope=\"row\">學費</th><td>依課程、入學年度與學生身分查學費；列明一年／全程及後續調整。</td></tr><tr><th scope=\"row\">生活實習</th><td>住宿、保險、交通、實習通勤或異地住宿；依城市與校方要求列支。</td></tr><tr><th scope=\"row\">資格考核</th><td>語言考試、文件驗證、認證翻譯、註冊、所需補修／考核與簽證由相關機構收費，依適用程序查價。</td></tr><tr><th scope=\"row\">申請服務</th><td>非香港院校申請沿用免費代辦安排，按一級／二級代理及校方允許渠道確認；獨立諮詢與其他委託另議。</td></tr><tr><th scope=\"row\">其他委託</th><td>語言與學習輔導、註冊文件準備及求職協助按範圍另行報價；個別移民及專業資格意見由相應合資格人士處理。</td></tr></tbody></table></div>",
+        "id": "fees",
+        "wide": true
+      },
+      {
+        "tab": "sources",
+        "title": "官方資料",
+        "region": "法國護理",
+        "desc": "<p><a href=\"https://www.onisep.fr/formation/comment-devenir-infirmier-ou-infirmiere\" target=\"_blank\" rel=\"noopener\">護理教育 ↗</a> · <a href=\"https://entreprendre.service-public.gouv.fr/vosdroits/F39604\" target=\"_blank\" rel=\"noopener\">執業條件 ↗</a> · <a href=\"https://www.service-public.gouv.fr/particuliers/vosdroits/F463\" target=\"_blank\" rel=\"noopener\">學歷等值 ↗</a></p><p><a href=\"https://www.service-public.gouv.fr/particuliers/vosdroits/F3100\" target=\"_blank\" rel=\"noopener\">工作許可 ↗</a></p>",
+        "id": "sources",
+        "wide": true
+      }
+    ],
+    "footer": "資料核查：2026 年 11 月 26 日。課程例子與官方查詢入口供比較，並非完整院校名錄或合作代理名單。招生、專業認可及居留以當期官方規定與個別審核為準。"
+  },
+  "review": {
+    "date": "2026-11-26",
+    "peerReferences": [
+      {
+        "url": "https://gostudyin.com/study-in-uk/popular-courses/nursing/",
+        "scope": "英國課程、選校、入學與職涯的編排。"
+      },
+      {
+        "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+        "scope": "護理課程背景分類、院校與抵免問題，沿用本次總覽修訂已閱讀記錄。"
+      },
+      {
+        "url": "https://www.urwinner.net/agent/US/mcphsnursing.htm",
+        "scope": "美國第二學位、先修課與文件分類；不採其考照、薪酬與移民宣傳。"
+      },
+      {
+        "url": "https://educaregermany.de/faq-haufig-gestellte-fragen/",
+        "scope": "德國護理培訓、語言及抵埗支援的服務分類；不採其報價。"
+      }
+    ],
+    "officialSources": [
+      {
+        "label": "護理教育",
+        "url": "https://www.onisep.fr/formation/comment-devenir-infirmier-ou-infirmiere"
+      },
+      {
+        "label": "執業條件",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F39604"
+      },
+      {
+        "label": "學歷等值",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F463"
+      },
+      {
+        "label": "工作許可",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3100"
+      }
+    ],
+    "removed": "刪除通用空泛段落、重複聯絡框及過時未重核費用；留學、註冊與工作居留分開銜接。"
+  }
+}
