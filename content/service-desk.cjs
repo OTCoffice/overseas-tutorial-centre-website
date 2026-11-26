@@ -97,7 +97,8 @@ const groups=[
     ["qualifications","職業資格",[
       ["OTHM課程","/zh/othm-qualifications/","資格課程、中心資料與升學資訊。"],
       ["ECFVG","/zh/vocational-training/ecfvg/","BCSE、CPE 備考規劃與北美獸醫實習申請。"],
-      ["PAVE","/zh/vocational-training/pave/","QSE 備考、ECE 臨床輪轉及申請準備。"]
+      ["PAVE","/zh/vocational-training/pave/","QSE 備考、ECE 臨床輪轉及申請準備。"],
+      ["測量資格","/zh/vocational-training/hk-surveyor/","HKIS 組別、RICS 路線與認可土地測量師；學位認證核對。"]
     ]],
     ["internships","實習培訓",[
       ["實習申請","/zh/services/internship-coaching/","實習方向、申請面試、在崗復盤與成果整理。"],

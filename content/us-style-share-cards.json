@@ -824,5 +824,16 @@
    "限時錄影",
    "模擬回饋"
   ]
+ },
+ {
+  "route": "/zh/vocational-training/hk-surveyor/",
+  "slug": "hk-surveyor",
+  "head": "香港測量師資格",
+  "en": "Hong Kong Surveyor Pathways",
+  "items": [
+   "HKIS 組別",
+   "RICS 路線",
+   "土地測量師"
+  ]
  }
 ]
