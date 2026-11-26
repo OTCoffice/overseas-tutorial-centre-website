@@ -151,12 +151,12 @@
   },
   "/zh/services/english-cv-interview-support/": {
     "title": "英文履歷與面試",
-    "image": "/assets/social/english-cv-interview-support-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "image": "/assets/social/english-cv-interview-support-share-20261126.png",
+    "version": "v=20261126-us-style",
     "width": 1200,
     "height": 600,
     "file": "zh/services/english-cv-interview-support/index.html",
-    "previousImage": "/assets/social/native-english-cv-interview-support-20261030.png"
+    "previousImage": "/assets/social/english-cv-interview-support-share-20261124.png"
   },
   "/zh/services/europe-agriculture-internship/": {
     "title": "歐洲農業實習",

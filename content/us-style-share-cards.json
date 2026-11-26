@@ -156,12 +156,12 @@
  {
   "route": "/zh/services/english-cv-interview-support/",
   "slug": "english-cv-interview-support",
-  "head": "英文履歷與面試",
+  "head": "英文履歷與面試\n校招轉行全流程",
   "en": "English CV & Interview Support",
   "items": [
-   "英文 CV",
-   "Cover Letter／LinkedIn",
-   "面試練習"
+    "CV與求職信",
+    "測評與AC面試",
+    "轉行定位"
   ]
  },
  {
