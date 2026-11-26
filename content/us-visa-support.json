@@ -1,8 +1,8 @@
 {
   "path": "/zh/services/us-visa-support/",
   "slug": "us-visa-support",
-  "titleZh": "美國簽證協助｜旅遊演唱會、收入資金、DS-160與面試準備｜海外督導 OTC",
-  "summaryZh": "按赴美目的整理旅遊、探親、商務或留學交流簽證資料，說明收入與旅費來源、他人資助、返程安排、DS-160及面試準備；不以單一月薪預測結果。",
+  "titleZh": "美國簽證協助｜旅遊探親、商務、留學交流、工作與移民類別｜海外督導 OTC",
+  "summaryZh": "查閱23種赴美目的、ESTA與EVUS、旅遊商務及留學交流材料、資金、DS-160、預約面試、續簽補件和入境停留；OTC提供文件行政整理及面試表達支援。",
   "shareImageZh": "/assets/social/us-visa-support-share-20261126.png",
   "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
@@ -20,6 +20,10 @@
         "label": "赴美目的"
       },
       {
+        "id": "entry",
+        "label": "入境登記"
+      },
+      {
         "id": "fund",
         "label": "收入資金"
       },
@@ -32,35 +36,336 @@
         "label": "申請流程"
       },
       {
+        "id": "follow",
+        "label": "續簽補件"
+      },
+      {
         "id": "service",
         "label": "協助服務"
       }
     ],
     "searchPlaceholder": "搜尋目的、資格、預算",
     "tipLabel": "申請須知",
-    "tip": "按真實目的申請；收入、行程、資金與境外聯繫綜合判斷，不出售名額或承諾通過。",
+    "tip": "先按實際活動選類別；23項是常見目的導覽，不是完整法律分類，也不表示 OTC 可代辦所有類別。",
     "groupTitle": "全部要點",
     "cards": [
       {
         "id": "section-1",
         "tab": "purpose",
         "region": "赴美目的",
-        "title": "短期旅遊",
-        "desc": "<p>訪客簽證 B-2 適用暫時旅遊等活動，演唱會觀眾按實際行程準備；出場表演、受僱工作或收取報酬是不同情況，不能用普通旅遊安排代替。先核對護照、申請地及適用入境方式。</p>",
+        "title": "旅遊觀光",
+        "desc": "<p>B-2：觀光、度假等短期訪問。按護照及行程確認簽證或其他適用入境方式；旅遊不能兼作一般就業。</p>",
         "primary": {
-          "label": "官方旅簽 →",
+          "label": "官方類別 →",
           "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
         }
       },
       {
-        "id": "purpose-1",
+        "id": "purpose-family-visit",
         "tab": "purpose",
         "region": "赴美目的",
-        "title": "留學交流",
-        "desc": "<p>正式留學或工作交流須按項目核對 F、M、J 等適用類別，對照 I-20 或 DS-2019。SWT 是 J-1 交流，不是 B-2 打工許可；只想短遊者不必為此報讀學位。</p>",
+        "title": "探親訪友",
+        "desc": "<p>B-2：探訪親友。說明關係、停留、住宿與誰負擔旅費；親友邀請不取代本人資格，也不等同移民團聚。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-2",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "演唱觀賽",
+        "desc": "<p>作觀眾看演唱會或賽事，可按旅遊目的查 B-2。若本人參賽、表演或收酬，須另查活動性質及適用類別，不因沒有領薪就認定可用旅簽。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-3",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "商務洽談",
+        "desc": "<p>B-1：與商業夥伴磋商、談判合約等短期商務。先列活動內容、付款及在美工作安排，不把商務訪問當作一般受僱工作許可。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-4",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "會議展覽",
+        "desc": "<p>B-1 可涵蓋科學、教育、專業或商務會議。出席、參展、實際提供服務或收取報酬須分清，依本人活動核對，不只看邀請函寫 conference。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-5",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "醫療就診",
+        "desc": "<p>赴美就醫可查 B-2。除一般旅費外，按官方要求準備診斷、接診醫療機構說明及預估治療和生活費的付款能力。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-6",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "興趣短課",
+        "desc": "<p>B-2 可涵蓋旅行期間短期、娛樂性且不計入學位學分的課程。正式學位、語言學校或職業訓練須另查學生類別，不能只按天數短便用旅簽。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-7",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "大學留學",
+        "desc": "<span id=\"purpose-1\"></span><p>大學、學院及適用學術或語言課程查 F 類。先確認學校、課程與 I-20，按學生申請流程準備，不能把錄取本身當成已獲簽。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      },
+      {
+        "id": "purpose-8",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "職業課程",
+        "desc": "<p>非學術或職業課程可能適用 M 類，具體按校方與課程確認。F、M 不是由申請人自行按偏好選擇，應對照實際學習安排。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      },
+      {
+        "id": "purpose-9",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "暑期交流",
+        "desc": "<p>SWT 為 J-1 工作文化交流，須符合學籍、英語、假期及 sponsor 要求；不是所有人均可參加，也不是 B-2 打工方式。詳見美國 SWT 服務。</p>",
         "primary": {
           "label": "SWT 詳頁 →",
           "href": "/zh/us-swt-work-travel-support/"
+        }
+      },
+      {
+        "id": "purpose-10",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "實習研修",
+        "desc": "<p>J-1 Intern、Trainee 等須依指定項目的資格、sponsor 與訓練安排確認。一般求職、正式受僱與文化交流實習不能互相替代。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://j1visa.state.gov/programs/"
+        }
+      },
+      {
+        "id": "purpose-11",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "研究訪學",
+        "desc": "<p>研究學者、教授及其他交流項目可查適用 J 類；接受邀訪不代表一律使用 J。依活動、聘任、資金與接收機構文件核對。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://j1visa.state.gov/programs/"
+        }
+      },
+      {
+        "id": "purpose-12",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "受僱工作",
+        "desc": "<p>專業職位或其他臨時工作須查相應工作類別，如 H 等，並確認是否先需雇主申請與核准文件。職稱、學歷或口頭 offer 本身不授予工作權利。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
+        }
+      },
+      {
+        "id": "purpose-13",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "公司調派",
+        "desc": "<p>跨國公司內部調派可查 L 類。先確認企業關係、境外任職及赴美職務等要求；到美國開會不等於公司調派，兩種目的分別準備。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
+        }
+      },
+      {
+        "id": "purpose-14",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "專才演藝",
+        "desc": "<p>傑出能力、運動或演藝工作可涉及 O、P 等類別。需按具體活動、成就及申請文件確認，專業演出不能直接當觀光或一般業餘活動。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
+        }
+      },
+      {
+        "id": "purpose-15",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "商貿投資",
+        "desc": "<p>條約貿易或投資可查 E-1／E-2 等。條約國籍及實際企業活動等資格須另審，投資或設立公司不自動換成簽證，也不等於永久居留。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-16",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "隨行家屬",
+        "desc": "<p>配偶或子女類別依主申請人身分，例如 F-2、M-2、J-2、H-4、L-2 等。核對親屬關係、年齡及就學工作限制；短期探訪與長期隨行不同。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-17",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "過境轉機",
+        "desc": "<p>經美國前往第三國可查 C 類或其他適用安排。是否可用現有訪客簽證或免簽計畫須依資格確認，不能假設只在機場轉機就不用處理入境文件。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-18",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "船員機組",
+        "desc": "<p>赴美作船員或航空機組查 D 或適用 C-1/D 等安排；登船、執勤與一般乘客過境不同，依工作及行程確認。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-19",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "媒體採訪",
+        "desc": "<p>外國媒體代表、記者等工作可涉及 I 類。採訪拍攝與私人旅行不同，先提供雇主、工作性質及赴美任務，按官方媒體規則核對。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-20",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "外交公務",
+        "desc": "<p>外交、政府公務及國際組織活動可能適用 A、G 或 NATO 類別。按機構、職務與公務文件核對，不把所有政府僱員私人出遊都列為公務。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-21",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "宗教工作",
+        "desc": "<p>臨時宗教工作可查 R 類，須確認組織、本人資格及適用申請文件。私人參加宗教活動與在美從事宗教工作應分開核對。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories.html"
+        }
+      },
+      {
+        "id": "purpose-22",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "永久移民",
+        "desc": "<p>家庭或就業等永久移居走移民程序，與 B、F、J 等暫時赴美類別不同。依資格另查申請、移民簽證與排期，不把訪客簽證當作移民方案。</p>",
+        "primary": {
+          "label": "官方類別 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/immigrate.html"
+        }
+      },
+      {
+        "id": "detail-1",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "免簽資格",
+        "desc": "<p>免簽計畫 VWP 供合資格參與國護照持有人作不超過90天的旅遊或商務訪問，通常須先獲 ESTA 授權。居住地、持有其他國家居留證或有美國親友，都不能單獨取代護照與個人資格審核。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+        }
+      },
+      {
+        "id": "detail-2",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "ESTA申請",
+        "desc": "<p>ESTA 是免簽旅行授權，不是簽證或入境保證。先核對護照、旅行及過往紀錄，透過 CBP 官方系統申請並確認狀態；不合資格或未獲授權者，須依官方指示考慮簽證申請。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://esta.cbp.dhs.gov/"
+        }
+      },
+      {
+        "id": "detail-3",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "EVUS登記",
+        "desc": "<p>持中國護照及十年有效 B-1、B-2 或 B1/B2 簽證的適用旅客，另須確認 EVUS 登記。通常有效兩年，或至護照／簽證到期，以較早者為準；EVUS 不代替有效簽證，也不是 ESTA。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://www.evus.gov/"
+        }
+      },
+      {
+        "id": "detail-4",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "入境文件",
+        "desc": "<p>出發前核對護照、有效簽證或適用旅行授權、住宿及行程；學生與交流人員另帶相應 I-20／DS-2019 等文件。簽證准許前往口岸申請入境，最終是否入境由 CBP 決定。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      },
+      {
+        "id": "detail-5",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "停留期限",
+        "desc": "<p>十年簽證不等於可連住十年。入境後查 I-94 的入境類別及准許停留日期，或 D/S 身分期間註記；就學、工作與交流者同時遵守相應身分條件。發現紀錄錯誤應及早向主管單位處理。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://i94.cbp.dhs.gov/"
+        }
+      },
+      {
+        "id": "detail-6",
+        "tab": "entry",
+        "region": "入境登記",
+        "title": "護照換新",
+        "desc": "<p>舊護照上的有效美簽不一定需要重辦：須按官方條件核對簽證完整、類別、國籍及新舊護照，符合時攜兩本旅行。遺失、損毀、姓名或國籍變更另行查詢，不自行撕下簽證移貼。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/frequently-asked-questions.html"
         }
       },
       {
@@ -68,7 +373,7 @@
         "tab": "fund",
         "region": "收入資金",
         "title": "收入判斷",
-        "desc": "<p>月薪幾千不能單獨證明會獲批，也不能單獨判定一定拒簽。美國國務院說明官員會按個人情況、旅行計畫、財務資源及美國境外聯繫綜合考慮；應以真實資料說明這次旅程是否合理。</p>",
+        "desc": "<p>以訪客簽證為例，月薪幾千不能單獨證明會獲批，也不能單獨判定一定拒簽。美國國務院說明官員會按個人情況、旅行計畫、財務資源及美國境外聯繫綜合考慮；應以真實資料說明這次旅程是否合理。</p>",
         "primary": {
           "label": "官方審核 →",
           "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html"
@@ -121,11 +426,110 @@
         "desc": "<p>護照、表格、行程及口述應反映同一真實計畫。資料填錯或行程變動時，依受理地官方步驟處理，不自行隱瞞或用新故事覆蓋舊資料。</p>"
       },
       {
+        "id": "detail-7",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "基本文件",
+        "desc": "<p>一般非移民申請先整理有效護照、DS-160 確認頁、適用繳費紀錄、合規照片及預約確認。護照效期、照片上傳失敗後的紙本要求及當地進場規定，以受理館處清單為準。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-8",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "旅遊材料",
+        "desc": "<p>準備實際旅行日期、城市、住宿、活動及費用安排，另依情況提供工作、學業或家庭資料。行程應與假期及可用資金相符；無須為製造紀錄而購買不可退票券。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-9",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "商務材料",
+        "desc": "<p>整理邀請機構、聯絡人、會議或洽談議程、雇主說明及費用負擔，清楚列出本人赴美要做的事。邀請函不是工作許可；現場提供服務、領酬等情形另按活動確認類別。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-10",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "探親材料",
+        "desc": "<p>說明與受訪者的關係、住址、停留安排及費用來源。訪客簽證通常不以美國親友邀請函或擔保書作必備條件，也不因有邀請便自動符合資格；按實際情況提供有關資料。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-11",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "就醫材料",
+        "desc": "<p>按要求準備本地醫生診斷及赴美治療原因、美國醫生或機構願意接診的說明、療程時間和費用估算，以及治療、交通與生活費的支付證據。陪同家屬另按本人目的與資格申請。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-12",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "留學材料",
+        "desc": "<p>F／M 申請核對 SEVP 認可學校簽發的 I-20、適用 SEVIS 繳費紀錄、學業與考試資料，以及教育、生活和旅程資金。I-20 需按規定簽署；有錄取信仍須完成簽證審核。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      },
+      {
+        "id": "detail-13",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "交流材料",
+        "desc": "<p>J 類一般涉及指定 sponsor 的 DS-2019，實習或研修另核對適用訓練文件。逐項確認 sponsor、項目日期、資金及保險要求；是否涉及兩年回國居住要求須按個人情況查核。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/exchange.html"
+        }
+      },
+      {
+        "id": "detail-14",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "工作材料",
+        "desc": "<p>依工作類別整理雇主、職務及核准文件；須先請願的類別，核對 I-129 核准所對應的收據號碼或 I-797，L 類 blanket 等另有文件要求。獲准請願仍不等於保證簽證。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
+        }
+      },
+      {
+        "id": "detail-15",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "家屬材料",
+        "desc": "<p>核對結婚或出生等關係證明、主申請人的身分與簽證資料，以及類別要求的個別文件；例如 F／M 配偶及子女各有自己的 I-20。工作或就學權利依家屬類別另查。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      },
+      {
         "id": "section-3",
         "tab": "process",
         "region": "申請流程",
         "title": "申請流程",
-        "desc": "<ol><li>提供護照國家／地區、現居地、赴美目的及日期。</li><li>確認適用類別、支援範圍、交付及費用。</li><li>整理材料與表格，由本人核實。</li><li>按官方流程繳費預約，準備並出席適用的面試。</li></ol>",
+        "desc": "<ol><li>提供護照國家／地區、現居地、赴美目的及日期。</li><li>確認適用類別、支援範圍、交付及費用。</li><li>整理材料與表格，由本人核實。</li><li>按相應官方流程及必要的先行申請，繳費預約，準備並出席適用的面試。</li></ol><p>DS-160 主要用於非移民簽證；移民簽證通常涉及 DS-260 及其他申請程序，應另按類別確認。</p>",
         "wide": true
       },
       {
@@ -133,14 +537,135 @@
         "tab": "process",
         "region": "申請流程",
         "title": "面試準備",
-        "desc": "<p>練習簡潔說明真正目的、停留日期、誰付費及返程安排，按自己的資料回答。面試、補件、行政審查與預約可用時間因申請而異，不保證加急或審理期限。</p>"
+        "desc": "<p>旅遊申請練習說明行程、費用與返程安排；留學申請說明課程選擇、學習背景和資金；工作申請說明雇主、職務及核准文件。按本人資料回答，不背誦另一個人的經歷或隱瞞過往紀錄。</p>"
+      },
+      {
+        "id": "detail-16",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "受理地點",
+        "desc": "<p>先確認護照國籍、合法居住地及館處當期受理政策，再建立官方預約帳號。跨國申請須另看是否受理非居民、入境資格及護照取回安排，不能只看哪裡有較早空位。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://www.usembassy.gov/"
+        }
+      },
+      {
+        "id": "detail-17",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "表格確認",
+        "desc": "<p>先備妥旅行、教育工作、過往赴美及拒簽等紀錄，再填 DS-160。保存申請編號及確認頁，核對條碼與預約資料；第三方可協助，但本人須審閱並依官方規則電子簽署。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/forms/ds-160-online-nonimmigrant-visa-application.html"
+        }
+      },
+      {
+        "id": "detail-18",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "預約繳費",
+        "desc": "<p>按受理地官方流程建立申請資料、繳交適用費用並選擇預約和護照送達安排。保存收據及確認信，核對姓名、護照號碼和類別；不要把顧問收款視為政府繳費或預約已完成。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-19",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "時間安排",
+        "desc": "<p>面試等候時間、面試後審理、行政審查與護照寄送是不同階段。官方等候時間只是估算，不保證某日出簽；開課、會議或旅行日期較近時，同時評估延後安排。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html"
+        }
+      },
+      {
+        "id": "detail-20",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "加急改期",
+        "desc": "<p>急件須按當地館處規則提出理由與證據，是否接受由館處決定。改期、取消及費用有效期依當地系統辦理；私人代辦不能保證加急、指定面試時間或出簽日。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html"
+        }
+      },
+      {
+        "id": "detail-21",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "面試當日",
+        "desc": "<p>帶齊預約與類別文件，先查館處安檢、電子設備及陪同規定。按問題回答真實活動、背景與資金；工作或移民類別依自身資格說明，不能一律套用旅客返程話術。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "detail-22",
+        "tab": "follow",
+        "region": "續簽補件",
+        "title": "續簽條件",
+        "desc": "<p>續簽仍是新的申請，舊簽證不保證再次核發。免面試取決於類別、前次核發情況及受理地當期規定，館處仍可要求面試；兒童或高齡也不能直接假設豁免。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources.html"
+        }
+      },
+      {
+        "id": "detail-23",
+        "tab": "follow",
+        "region": "續簽補件",
+        "title": "補件通知",
+        "desc": "<p>收到 221(g) 通知時，先逐項讀清缺少文件、提交渠道及期限。可能涉及補充材料或行政審查；按通知提供履歷、研究或其他資料，不自行改寫事實，也不把補件當作已獲簽。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html"
+        }
+      },
+      {
+        "id": "detail-24",
+        "tab": "follow",
+        "region": "續簽補件",
+        "title": "行政審查",
+        "desc": "<p>個案所需時間不同，依館處通知追蹤，保留通知與提交紀錄。CEAC 顯示 Refused 時，應連同拒簽條款及書面指示判讀；不能只憑狀態字樣認定永久拒簽或很快通過。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/administrative-processing-information.html"
+        }
+      },
+      {
+        "id": "detail-25",
+        "tab": "follow",
+        "region": "續簽補件",
+        "title": "拒簽再申",
+        "desc": "<p>214(b) 通常涉及未建立相應非移民資格等判斷；重申前先核對拒簽理由及是否有重要新資料或情況變化。重複交同樣材料或購買話術不保證改變結果；再申通常要重新申請及繳費。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html"
+        }
+      },
+      {
+        "id": "detail-26",
+        "tab": "follow",
+        "region": "續簽補件",
+        "title": "核發取件",
+        "desc": "<p>按官方渠道查詢申請及護照寄送狀態，取件後核對姓名、護照號碼、類別及有效期。面試口頭回覆、保留護照或顯示處理中，都不等於已拿到可使用的簽證。</p>",
+        "primary": {
+          "label": "官方說明 →",
+          "href": "https://ceac.state.gov/CEAC/"
+        }
       },
       {
         "id": "section-4",
         "tab": "service",
         "region": "協助服務",
         "title": "服務費用",
-        "desc": "<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>OTC 支援</td><td>依類別、資料及進度書面報價，確認總價、修改次數、期限與取消退款安排。</td></tr><tr><td>第三方費用</td><td>政府簽證費、適用 SEVIS 費、翻譯、公證、快遞及交通另計。</td></tr></tbody></table><p>服務報價不代表政府費用已繳或預約已完成。</p>",
+        "desc": "<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>OTC 支援</td><td>依類別、資料及進度書面報價，確認總價、修改次數、期限與取消退款安排。</td></tr><tr><td>第三方費用</td><td>政府簽證費、適用 SEVIS 費、翻譯、公證、快遞及交通另計。</td></tr></tbody></table><p>服務報價不代表政府費用已繳或預約已完成。</p><p>政府費用依類別、國籍及受理地核算，申請處理費與適用的核發費、SEVIS 或其他官方費用分開確認；不以單一金額當作總價。政府申請處理費通常不退，簽證未獲核發亦然。</p><p><a href=\"https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html\">官方費表</a> · <a href=\"https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/visa-reciprocity-and-civil-documents-by-country.html\">國籍費表</a></p>",
         "wide": true
       },
       {
@@ -148,7 +673,7 @@
         "tab": "service",
         "region": "協助服務",
         "title": "服務範圍",
-        "desc": "<p>OTC 提供公開資訊、文件行政整理與面試表達練習；帳號密碼及驗證碼由本人保管。拒簽法律分析、逾期、豁免或身分爭議須由美國合資格律師處理，不承諾簽證結果。</p>"
+        "desc": "<p>OTC 提供公開資訊、文件行政整理與面試表達練習；帳號密碼及驗證碼由本人保管。工作及移民資格判斷、請願策略、拒簽法律分析、逾期、豁免或身分爭議須由美國合資格律師處理，不承諾簽證結果。</p>"
       },
       {
         "id": "section-7",
@@ -165,6 +690,6 @@
         "desc": "<p><a href=\"/zh/services/affordable-study-abroad/\">平價留學</a> · <a href=\"/zh/us-swt-work-travel-support/\">美國SWT</a> · <a href=\"/zh/services/visa-application-support/\">簽證申請</a></p>"
       }
     ],
-    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校、項目與主管機關公告及書面回覆為準。"
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校、項目與主管機關公告及書面回覆為準。 完整分類見 <a href=\"https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html\">美國國務院簽證目錄</a>；訪客簽證的資金與境外聯繫說明不適用於所有工作或移民類別。"
   }
 }
