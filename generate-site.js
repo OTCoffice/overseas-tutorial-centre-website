@@ -127,3 +127,6 @@ require("./scripts/render-australia-blue-collar-service.cjs");
 
 // Preserve the Australian welding service and its discovery links.
 require("./scripts/render-australia-welder-service.cjs");
+
+// Preserve current US visa guidance and its discovery entries.
+require("./scripts/render-us-visa-support.cjs");

@@ -1,48 +1,14 @@
 {
   "slug": "affordable-study-abroad",
   "path": "/zh/services/affordable-study-abroad/",
-  "name": "高性價比留學",
-  "titleZh": "高性價比留學｜低學費、獎學金與帶薪培訓｜海外督導 OTC",
-  "summaryZh": "比較德國、奧地利、捷克低學費課程，意大利助學金、Erasmus Mundus、日韓獎學金、澳洲研究資助及帶薪培訓；附申請條件、全程預算與官方來源。",
-  "shareImageZh": "/assets/social/affordable-study-abroad-share-20261124.png",
-  "socialImageVersion": "v=20261124-us-style",
+  "name": "平價留學",
+  "titleZh": "平價留學與出國規劃｜SWT、歐洲低學費、獎學金與旅行預算｜海外督導 OTC",
+  "summaryZh": "普通預算先按目的選擇：短期旅行看簽證及全程旅費，在讀生查美國 SWT 或交換，長期升學比較歐洲低學費與獎學金。分清先付資金、預期收入及當期資格。",
+  "shareImageZh": "/assets/social/affordable-study-abroad-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "updated": "2026-10-23",
-  "sections": [
-    {
-      "title": "留學選擇",
-      "html": "<p>高性價比留學，需要同時比較全程費用、課程內容和入學條件。OTC 協助整理低學費本科與碩士、政府獎學金、研究資助及帶薪職業培訓，按學歷、語言與可承擔預算選擇。</p><p>低學費課程仍須準備生活費；獎學金須經評選；帶薪培訓與博士職位則有工作及研究要求。下列為選校參考，並非全部正在招生或均屬 OTC 合作項目。</p>"
-    },
-    {
-      "title": "低學費課程",
-      "html": "<div class=\"table-wrap\"><table><thead><tr><th>地區／院校</th><th>費用與資助</th><th>申請條件與支出</th></tr></thead><tbody><tr><td>德國公立大學</td><td>多數本科及碩士免學費；學期費約 €70–430。<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">官方資料</a></td><td>須符合學歷及語言要求。巴登符騰堡適用非歐盟生：€1,500／學期；巴伐利亞部分院校另收學費。生活、保險及語言準備另計。</td></tr><tr><td>奧地利公立大學</td><td>持學生居留的第三國學生：通常 €726.72／學期，另付學生會費。<a href=\"https://studyinaustria.at/en/tuition\">官方資料</a></td><td>核對語言、學歷認可及入學試。應用科技大學、私校收費另查。<a href=\"/zh/countries/austria/\">奧地利留學</a></td></tr><tr><td>捷克｜查理大學</td><td>捷克語授課學位課程免學費；外語授課課程另收學費。<a href=\"https://cuni.cz/UKEN-385.html\">官方資料</a></td><td>須符合入學及語言要求；捷克語預備課、生活費另計。英語課程不屬免學費範圍。</td></tr><tr><td>意大利｜DSU Toscana</td><td>按家庭經濟條件與學生類別評定現金及相關福利。<a href=\"https://www.dsu.toscana.it/borsa-di-studio\">官方資料</a></td><td>須交家庭收入及資產證明，符合學業條件。住宿、福利按評選及供應安排。<a href=\"/zh/countries/italy/\">意大利留學</a></td></tr></tbody></table></div>"
-    },
-    {
-      "title": "獎學金",
-      "html": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>資助內容</th><th>申請重點</th></tr></thead><tbody><tr><td>Erasmus Mundus 聯合碩士</td><td>可競逐全額獎學金，涵蓋參與費，並支援生活、交通及簽證費。<a href=\"https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters\">官方資料</a></td><td>學制通常 1–2 年，向課程聯盟申請。核對學士資格、專業、語言及截止日期；錄取不保證獲獎。</td></tr><tr><td>日本 MEXT</td><td>按獎學金類別提供學費豁免、津貼及適用旅費。<a href=\"https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/\">官方資料</a></td><td>分使館、大學推薦等途徑。按類別核對年齡、學歷、研究計劃、語言與考試；大學推薦須有名額。</td></tr><tr><td>韓國 GKS</td><td>可涵蓋學費、韓語培訓、生活資助及機票等。<a href=\"https://www.studyinkorea.go.kr/en/plan/scholarship.do\">官方資料</a></td><td>按本科／研究生當期簡章，核對國籍、年齡、成績、院校及使館／大學申請途徑。</td></tr><tr><td>英國 Chevening</td><td>適合比較英國獎學金碩士的申請人。<a href=\"https://www.chevening.org/resource-hub/guidance/eligibility/\">官方資料</a></td><td>須符合當期國籍、學歷、工作經驗及課程資格；完成後須返國至少兩年。截止日期見當期公告。</td></tr></tbody></table></div>"
-    },
-    {
-      "title": "研究資助與帶薪培訓",
-      "html": "<div class=\"table-wrap\"><table><thead><tr><th>類別</th><th>具體入口</th><th>條件與費用</th></tr></thead><tbody><tr><td>澳洲研究碩士／博士</td><td>RTP：本地及國際研究生向大學申請。<a href=\"https://www.education.gov.au/research-block-grants/research-training-program\">官方資料</a>；墨爾本大學 2027 全日制生活津貼：A$41,100／年。<a href=\"https://scholarships.unimelb.edu.au/awards/research-training-program-scholarship\">官方資料</a></td><td>限研究碩士／博士，非授課型碩士。學費減免、津貼、保險及年限依大學與獎項而定。</td></tr><tr><td>歐洲博士與研究職位</td><td>EURAXESS：按國家、學科、研究階段及資助類別搜尋。<a href=\"https://euraxess.ec.europa.eu/jobs/search\">官方資料</a></td><td>核對學歷、研究方向、合約期、全職比例及稅前薪資。並非所有博士都有僱員身份或全額資助。</td></tr><tr><td>德國護理職業培訓</td><td>理論與實務結合，培訓期間有薪酬。<a href=\"https://www.make-it-in-germany.com/en/study-vocational-training/training-in-germany/in-demand/nursing\">官方資料</a></td><td>德語 B1／B2（依州），另須符合學歷、健康及品行要求並取得錄取。薪酬按合約扣款；行前語言、交通及租房押金另備。<a href=\"/zh/services/germany-ausbildung/\">德國職業培訓服務</a></td></tr></tbody></table></div>"
-    },
-    {
-      "title": "總預算",
-      "html": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>預算方式</th></tr></thead><tbody><tr><td>學費</td><td>按全程學年計算，加上註冊、學期費及必要教材；區分歐盟與非歐盟、英語與當地語言課程。</td></tr><tr><td>生活費</td><td>按實際城市估算住宿、水電、飲食、交通及保險，包含假期。</td></tr><tr><td>行前費用</td><td>語言課與考試、翻譯認證、申請費、簽證、機票及租房押金另列。</td></tr><tr><td>資助與薪酬</td><td>只把已確認的獎學金或合約收入列入可用資金，核對支付時間、續領條件、稅費與工作義務。</td></tr><tr><td>資金準備</td><td>預留資助到帳前的支出及應急費；兼職收入不作為尚未落實的基本生活費來源。</td></tr></tbody></table></div>"
-    },
-    {
-      "title": "申請流程",
-      "html": "<ol><li>提供最高學歷、成績單、國籍、語言程度、目標專業、入學年份及全程預算。</li><li>比較課程資格、授課語言、修業年限、官方費用及獎學金條件，建立申請名單。</li><li>按項目準備履歷、動機信、推薦信；研究申請另備研究計劃，助學金另備經濟證明。</li><li>分別跟進入學、獎學金或職位申請，確認補件、面試與結果。</li><li>取得錄取及資助書面條件後，安排資金、簽證、住宿與行程。</li></ol>"
-    },
-    {
-      "title": "OTC 服務",
-      "html": "<p>OTC 可協助選校、費用比較、申請材料與文書、獎學金時程及補件跟進。適用合作課程可免費代辦；其他課程及專項服務的範圍與費用在委託前書面確認。學校、考試、翻譯認證、簽證與住宿等第三方費用另付。</p><p><a class=\"btn btn-primary\" href=\"https://wa.me/447947991572?text=Affordable%20study%20enquiry\">諮詢留學方案</a> <a href=\"mailto:office@overseasuk.com?subject=Affordable%20study%20enquiry\">office@overseasuk.com</a> · 微信 overseasus</p><p><a href=\"/zh/services/masters-country-planning/\">碩士選國</a> · <a href=\"/zh/csc-scholarships/\">CSC 申請支援</a> · <a href=\"/zh/countries/\">國別留學規劃</a></p>"
-    },
-    {
-      "title": "延伸閱讀",
-      "html": "<p>讀者提供的 <a href=\"https://beckyglobal.github.io/PaidToStudyAbroad/\">BeckyGlobal《高性價比留學》</a>可作為探索項目的線索。本頁依政府與院校資料獨立整理；第三方指南並非 OTC 的合作名單、錄取承諾或費用報價。</p>"
-    }
-  ],
+  "updated": "2026-11-26",
   "sources": [
     [
       "德國 DAAD｜學費與生活費",
@@ -93,5 +59,277 @@
       "https://www.chevening.org/resource-hub/guidance/eligibility/"
     ]
   ],
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "socialTitleZh": "平價留學",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "平價留學",
+    "tabs": [
+      {
+        "id": "choice",
+        "label": "出國目的"
+      },
+      {
+        "id": "short",
+        "label": "旅行交流"
+      },
+      {
+        "id": "study",
+        "label": "低費升學"
+      },
+      {
+        "id": "fund",
+        "label": "獎學資助"
+      },
+      {
+        "id": "budget",
+        "label": "全程預算"
+      },
+      {
+        "id": "service",
+        "label": "規劃服務"
+      }
+    ],
+    "searchPlaceholder": "搜尋目的、資格、預算",
+    "tipLabel": "申請須知",
+    "tip": "先看目的、可用資金與資格，不按家庭收入貼標籤；旅行、工作交流與學位課程分別準備。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "topic-0",
+        "tab": "choice",
+        "region": "出國目的",
+        "title": "先選目的",
+        "desc": "<table><thead><tr><th>你想做什麼</th><th>先查方向</th><th>主要準備</th></tr></thead><tbody><tr><td>看演唱會或短遊</td><td>按護照及目的查旅遊入境安排</td><td>日期、總旅費、資金及返程</td></tr><tr><td>在讀暑期體驗</td><td>美國 SWT、短期交流</td><td>學籍、英語、假期及先付成本</td></tr><tr><td>修課與學分</td><td>校際交換或自費訪問</td><td>提名、選課及母校認可</td></tr><tr><td>長期升學</td><td>低學費學位、獎學金</td><td>學歷語言、全程生活費及資助</td></tr></tbody></table>",
+        "wide": true
+      },
+      {
+        "id": "choice-1",
+        "tab": "choice",
+        "region": "出國目的",
+        "title": "收入判斷",
+        "desc": "<p>月薪幾千不能單獨判定美國訪客簽證會批或會拒。應按真實行程、可用資金及美國境外聯繫準備；收入、存款、資助來源及旅程成本要能互相解釋，不編造材料或借款製造帳面餘額。</p>",
+        "primary": {
+          "label": "美國簽證 →",
+          "href": "/zh/services/us-visa-support/"
+        }
+      },
+      {
+        "id": "choice-2",
+        "tab": "choice",
+        "region": "出國目的",
+        "title": "目的相符",
+        "desc": "<p>只想短期看演出，不需要為此報讀完整學位。真正想升學，再比較課程價值與全程成本；SWT 是文化交流類別，也不能當作任何人都能參加的廉價旅行或保證回本方案。</p>"
+      },
+      {
+        "id": "short-3",
+        "tab": "short",
+        "region": "旅行交流",
+        "title": "演唱旅行",
+        "desc": "<p>先核對演出城市日期、本人護照的入境安排、請假及返程，再逐項估算門票、機票、住宿與交通。美國訪客簽證不允許一般就業；若需申請簽證，官方建議取得簽證前不要作最終旅行安排或買票。</p>",
+        "primary": {
+          "label": "官方旅簽 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "short-4",
+        "tab": "short",
+        "region": "旅行交流",
+        "title": "SWT 資格",
+        "desc": "<p>SWT 面向在美國境外院校全日制修讀大專課程、已完成至少一學期或同等學習且具足夠英語溝通能力的學生。項目最長四個月，須在母校開學前返國；仍由 sponsor 確認資格與假期。</p>",
+        "primary": {
+          "label": "官方資格 →",
+          "href": "https://j1visa.state.gov/programs/summer-work-travel/"
+        }
+      },
+      {
+        "id": "short-5",
+        "tab": "short",
+        "region": "旅行交流",
+        "title": "SWT 成本",
+        "desc": "<p>工作有薪不代表出發前不用資金。先確認項目及代辦費、簽證和適用 SEVIS 費、保險、機票、住宿押金與首月生活；扣除稅費、住房通勤後再估算可留存收入，不承諾靠工資全數回本。</p>",
+        "primary": {
+          "label": "SWT 詳頁 →",
+          "href": "/zh/us-swt-work-travel-support/"
+        }
+      },
+      {
+        "id": "independent-study-abroad",
+        "tab": "short",
+        "region": "旅行交流",
+        "title": "交換訪問",
+        "desc": "<span id=\"independent-study-abroad-title\"></span>在讀生先問母校有否交換協議及提名。自費訪問／Free Mover 可能接受個人申請，但通常另付接收校學費，仍須確認母校批准、選課及學分認可。",
+        "primary": {
+          "label": "歐洲交換 →",
+          "href": "/zh/services/europe-exchange-support/"
+        }
+      },
+      {
+        "id": "short-7",
+        "tab": "short",
+        "region": "旅行交流",
+        "title": "直申資料",
+        "desc": "<p>院校允許個人申請時，可自行依官方步驟提交。UCL 與悉尼大學各有 Study Abroad 說明；按當期資格、費用及母校文件確認，不把直申等同免費或保證名額。</p>",
+        "primary": {
+          "label": "UCL 資料 →",
+          "href": "https://www.ucl.ac.uk/prospective-students/study-abroad-at-ucl/how-apply/frequently-asked-questions"
+        }
+      },
+      {
+        "id": "topic-1",
+        "tab": "study",
+        "region": "低費升學",
+        "title": "德國留學",
+        "desc": "<p>可先比較公立大學的免學費課程，另查學期費、特定碩士及適用的非歐盟學生學費。學歷、先修、授課語言與財力證明另審；免學費不等於不需生活費或限制提款帳戶。</p>",
+        "primary": {
+          "label": "德國詳頁 →",
+          "href": "/zh/countries/germany/"
+        }
+      },
+      {
+        "id": "study-9",
+        "tab": "study",
+        "region": "低費升學",
+        "title": "奧國留學",
+        "desc": "<p>OeAD 當期說明：持學生居留的第三國學生，在公立大學通常付 €726.72／學期，另付強制學生會費 €26.20／學期；豁免及其他院校另查。語言準備、生活與居留資金不包含在學費內。</p>",
+        "primary": {
+          "label": "官方學費 →",
+          "href": "https://studyinaustria.at/en/tuition"
+        }
+      },
+      {
+        "id": "study-10",
+        "tab": "study",
+        "region": "低費升學",
+        "title": "捷克留學",
+        "desc": "<p>以查理大學為例，捷克語學位課程免學費，外語授課另收費；國際申請者仍須符合相應入學要求。語言預備、考試與生活費另外估算，不把英授課程當免學費。</p>",
+        "primary": {
+          "label": "校方資料 →",
+          "href": "https://cuni.cz/UKEN-385.html"
+        }
+      },
+      {
+        "id": "study-11",
+        "tab": "study",
+        "region": "低費升學",
+        "title": "義國助學",
+        "desc": "<p>考慮意大利時，把院校學費與地區助學金分開查。家庭經濟資料、翻譯認證、學業及當期申請期限須逐項確認，不能未獲助學金就把全程支出算成零。</p>",
+        "primary": {
+          "label": "義國詳頁 →",
+          "href": "/zh/countries/italy/"
+        }
+      },
+      {
+        "id": "topic-2",
+        "tab": "fund",
+        "region": "獎學資助",
+        "title": "聯合碩士",
+        "desc": "<p>Erasmus Mundus 向所選課程聯盟直接申請，學制 1–2 學年；當期可有競逐全額獎學金的機會，涵蓋參與成本並支援旅費、簽證及生活。錄取不等於必獲獎，按各課程條件及期限準備。</p>",
+        "primary": {
+          "label": "歐盟資助 →",
+          "href": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters"
+        }
+      },
+      {
+        "id": "fund-13",
+        "tab": "fund",
+        "region": "獎學資助",
+        "title": "日韓獎學",
+        "desc": "<p>日本 MEXT、韓國 GKS 都須看當期學位類別與申請渠道，核對國籍、學歷、語言、年齡及文件。不同地區受理與名額不能互相套用，先查官方指南，再選可申請項目。</p>",
+        "primary": {
+          "label": "獎學目錄 →",
+          "href": "/zh/government-scholarships/"
+        }
+      },
+      {
+        "id": "topic-3",
+        "tab": "fund",
+        "region": "獎學資助",
+        "title": "研究資助",
+        "desc": "<p>研究碩士、博士與研究職位須符合研究及學術要求，不把它們當普通旅行替代品。澳洲 RTP 按大學獎項條件申請；歐洲研究職位另查合約、薪酬與工作義務，不假設所有博士都有全額資助。</p>",
+        "primary": {
+          "label": "RTP 資料 →",
+          "href": "https://www.education.gov.au/research-block-grants/research-training-program"
+        }
+      },
+      {
+        "id": "fund-15",
+        "tab": "fund",
+        "region": "獎學資助",
+        "title": "帶薪培訓",
+        "desc": "<p>德國職業培訓等方向仍需真實學習與工作投入，先確認語言、資格、雇主及合約。培訓薪酬、稅費、租房押金和行前準備分開算，避免用尚未取得的合約收入支撐報名。</p>",
+        "primary": {
+          "label": "德國職訓 →",
+          "href": "/zh/services/germany-ausbildung/"
+        }
+      },
+      {
+        "id": "fund-16",
+        "tab": "fund",
+        "region": "獎學資助",
+        "title": "資助缺口",
+        "desc": "<p>確認資助涵蓋學費、生活還是一次性補助，何時入帳、須否先墊付、如何續領及有無返國義務。未確認獎項先作零收入情境，比較是否仍承擔得起。</p>"
+      },
+      {
+        "id": "topic-4",
+        "tab": "budget",
+        "region": "全程預算",
+        "title": "預算清單",
+        "desc": "<table><thead><tr><th>路線</th><th>先備支出</th><th>另留資金</th></tr></thead><tbody><tr><td>短期旅行</td><td>簽證、票務、交通、住宿</td><td>日常生活、改期及應急</td></tr><tr><td>SWT</td><td>項目、代辦、簽證、機票與押金</td><td>薪酬入帳前食宿及通勤</td></tr><tr><td>低費學位</td><td>學費／學期費、語言與申請</td><td>全程生活及居留財力要求</td></tr><tr><td>資助項目</td><td>文件、申請及可能的先墊費</td><td>未獲獎或延後入帳的備案</td></tr></tbody></table>",
+        "wide": true
+      },
+      {
+        "id": "budget-18",
+        "tab": "budget",
+        "region": "全程預算",
+        "title": "旅行算例",
+        "desc": "<p>純計算示例，並非報價：機票 ¥3,000、住宿 ¥2,100、餐飲交通 ¥1,400、門票 ¥800、保險雜費 ¥700，合計 ¥8,000；適用簽證費與備用金另加。實際依城市、季節及行程重新報價，不以月薪單一數字推算能否成行。</p>"
+      },
+      {
+        "id": "budget-19",
+        "tab": "budget",
+        "region": "全程預算",
+        "title": "資金來源",
+        "desc": "<p>把本人儲蓄、收入與家人等真實資助分列，說明可用金額、用途及資助關係；若由他人付款，美國旅簽官方允許提交相應支出承擔證據，但仍須本人符合訪客資格。</p>"
+      },
+      {
+        "id": "budget-20",
+        "tab": "budget",
+        "region": "全程預算",
+        "title": "停止條件",
+        "desc": "<p>若必須借高息貸款、尚無足夠行前資金，或只能靠未確認工作及獎學金填補缺口，先縮短行程、延後或改案。把不可退費與改期損失列入決定，不為湊出國形式超支。</p>"
+      },
+      {
+        "id": "topic-5",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "申請流程",
+        "desc": "<ol><li>說明真正目的、護照與現居地、時間及可用預算。</li><li>短遊核對入境與行程；交流核對學籍；升學核對課程與資助。</li><li>取得逐項費用、付款及退款條款。</li><li>確認能承擔後準備真實材料，完成相應審核。</li><li>結果與資金安排確認後，再完成行前預訂。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "topic-6",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務費用",
+        "desc": "<p>OTC 協助方向與費用比較、材料清單及時程整理。適用合作課程可免費代辦；獨立諮詢、非合作課程與專項服務先書面約定費用及範圍。SWT 與簽證依各專頁條款，政府、學校、保險、票務、翻譯及住宿費另付。</p>"
+      },
+      {
+        "id": "service-23",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "開始諮詢",
+        "desc": "<p>先說明想旅行、交流或升學，並提供學歷或在學狀態、護照國家／地區、現居地、語言、可用總預算及日期。未定可留空，初次毋須提供銀行帳戶、完整證件或未遮擋文件。</p>"
+      },
+      {
+        "id": "topic-7",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/us-visa-support/\">美國簽證</a> · <a href=\"/zh/us-swt-work-travel-support/\">美國SWT</a> · <a href=\"/zh/government-scholarships/\">公費留學</a> · <a href=\"/zh/countries/\">留學國家</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校、項目與主管機關公告及書面回覆為準。"
+  }
 }

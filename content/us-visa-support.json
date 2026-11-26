@@ -1,54 +1,170 @@
 {
   "path": "/zh/services/us-visa-support/",
   "slug": "us-visa-support",
-  "titleZh": "美國簽證協助｜表格、材料與面試準備",
-  "summaryZh": "協助整理美國旅遊、探親、商務、留學與交流簽證材料，核對 DS-160 資料，了解預約流程及準備面試。",
-  "shareImageZh": "/assets/social/us-visa-support-share-20261124.png",
-  "socialImageVersion": "v=20261124-us-style",
+  "titleZh": "美國簽證協助｜旅遊演唱會、收入資金、DS-160與面試準備｜海外督導 OTC",
+  "summaryZh": "按赴美目的整理旅遊、探親、商務或留學交流簽證資料，說明收入與旅費來源、他人資助、返程安排、DS-160及面試準備；不以單一月薪預測結果。",
+  "shareImageZh": "/assets/social/us-visa-support-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
   "lang": "zh",
-  "sections": [
-    {
-      "heading": "服務對象",
-      "paragraphs": [
-        "計劃赴美旅遊、探親或商務訪問，或已取得學校、交流項目文件，需要協助準備簽證的人士。先按護照、現居地、赴美目的與申請地確認適用流程；留學及交流不得直接沿用旅遊簽證安排。"
-      ]
-    },
-    {
-      "heading": "服務內容",
-      "paragraphs": [
-        "提供官方資料清單及時間表，協助整理在讀或在職資料、旅費來源、行程及相關邀請文件；留學與交流項目另對照 I-20 或 DS-2019 等文件。",
-        "協助理解 DS-160 題目，核對姓名、日期、教育與工作經歷、出行目的及過往簽證紀錄；需要第三方協助填表時，按表格要求如實申報。本人須核實資料，並按官方規定完成簽署及提交。",
-        "說明官方繳費及預約步驟，整理面試文件，練習清楚說明真實行程、資金及學業或工作安排。帳號、密碼與驗證碼由本人保管，不出售預約名額。"
-      ]
-    },
-    {
-      "heading": "流程",
-      "paragraphs": [
-        "<ol><li>提供護照國家／地區、現居地、赴美目的、預計日期及申請進度。</li><li>確認可提供的支援、交付項目、期限、費用及修改次數。</li><li>整理材料與表格資料，由本人核實內容。</li><li>按官方流程繳費及預約，完成面試準備並由本人出席。</li></ol>"
-      ]
-    },
-    {
-      "heading": "費用",
-      "paragraphs": [
-        "<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>OTC 協助服務</td><td>按簽證類別、材料及準備進度書面報價；開始前確認總價、修改次數、期限及取消退款安排。</td></tr><tr><td>第三方費用</td><td>政府簽證費、適用的 SEVIS 費、翻譯、公證、快遞及交通另計，按相應官方或供應商標準收取。</td></tr></tbody></table>",
-        "首次聯絡可先說明需求，不需公開傳送證件或銀行資料。服務報價不代表政府費用已繳付或預約已完成。"
-      ]
-    },
-    {
-      "heading": "在讀學生申請",
-      "paragraphs": [
-        "大三在讀本身不能判斷個人通過率。以訪客簽證為例，簽證官會綜合考慮個人情況、旅行計劃、財務資源，以及美國境外的聯繫與離境安排。材料應反映真實的在讀、假期及返校安排。"
-      ]
-    },
-    {
-      "heading": "服務範圍",
-      "paragraphs": [
-        "OTC 提供公開資訊、文件行政整理及面試表達練習，不承諾簽證結果、審理時間或預約名額。涉及拒簽法律分析、逾期停留、身分爭議、豁免或申訴時，須另由美國合資格移民律師處理。",
-        "申請人對資料真實性負責；不編造工作、資金、行程或面試答案。簽證由美國主管機關決定。"
-      ]
-    }
-  ],
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "name": "美國簽證",
+  "socialTitleZh": "美國簽證",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "美國簽證",
+    "tabs": [
+      {
+        "id": "purpose",
+        "label": "赴美目的"
+      },
+      {
+        "id": "fund",
+        "label": "收入資金"
+      },
+      {
+        "id": "docs",
+        "label": "申請材料"
+      },
+      {
+        "id": "process",
+        "label": "申請流程"
+      },
+      {
+        "id": "service",
+        "label": "協助服務"
+      }
+    ],
+    "searchPlaceholder": "搜尋目的、資格、預算",
+    "tipLabel": "申請須知",
+    "tip": "按真實目的申請；收入、行程、資金與境外聯繫綜合判斷，不出售名額或承諾通過。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "section-1",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "短期旅遊",
+        "desc": "<p>訪客簽證 B-2 適用暫時旅遊等活動，演唱會觀眾按實際行程準備；出場表演、受僱工作或收取報酬是不同情況，不能用普通旅遊安排代替。先核對護照、申請地及適用入境方式。</p>",
+        "primary": {
+          "label": "官方旅簽 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "purpose-1",
+        "tab": "purpose",
+        "region": "赴美目的",
+        "title": "留學交流",
+        "desc": "<p>正式留學或工作交流須按項目核對 F、M、J 等適用類別，對照 I-20 或 DS-2019。SWT 是 J-1 交流，不是 B-2 打工許可；只想短遊者不必為此報讀學位。</p>",
+        "primary": {
+          "label": "SWT 詳頁 →",
+          "href": "/zh/us-swt-work-travel-support/"
+        }
+      },
+      {
+        "id": "fund-2",
+        "tab": "fund",
+        "region": "收入資金",
+        "title": "收入判斷",
+        "desc": "<p>月薪幾千不能單獨證明會獲批，也不能單獨判定一定拒簽。美國國務院說明官員會按個人情況、旅行計畫、財務資源及美國境外聯繫綜合考慮；應以真實資料說明這次旅程是否合理。</p>",
+        "primary": {
+          "label": "官方審核 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html"
+        }
+      },
+      {
+        "id": "fund-3",
+        "tab": "fund",
+        "region": "收入資金",
+        "title": "旅費預算",
+        "desc": "<p>列清天數、機票、住宿、門票、餐飲交通、保險與其他費用，對照真實可用資金。不要把尚未落實的美國工作收入算進旅費；先查退改條款，官方建議取得簽證前不要作最終行程安排或購票。</p>"
+      },
+      {
+        "id": "fund-4",
+        "tab": "fund",
+        "region": "收入資金",
+        "title": "他人資助",
+        "desc": "<p>若無法自行承擔全部旅費，可說明誰負擔哪些支出及提供相應證據。這不取代申請人自己的訪客資格；親友邀請或資助承諾本身不保證獲簽。</p>",
+        "primary": {
+          "label": "資助說明 →",
+          "href": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        }
+      },
+      {
+        "id": "fund-5",
+        "tab": "fund",
+        "region": "收入資金",
+        "title": "真實紀錄",
+        "desc": "<p>按受理地要求整理收入、儲蓄、資助與合理支出，能說明大額款項來源。不要短期借款製造餘額、買流水或編造在職證明；OTC 不提供材料造假或統一通過話術。</p>"
+      },
+      {
+        "id": "section-5",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "在讀返校",
+        "desc": "<p>在讀學生說明學校、假期、行程與返校安排；大三或學校名稱本身不能推算個人通過率。工作、家庭及居住等境外聯繫依實際情況呈現，不堆不相關文件。</p>"
+      },
+      {
+        "id": "section-2",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "表格材料",
+        "desc": "<p>協助整理資料清單、理解 DS-160 題目，核對姓名、日期、學歷工作、出行目的及過往簽證紀錄。第三方協助填寫須如實申報；本人確認內容，依官方要求簽署提交。</p>"
+      },
+      {
+        "id": "docs-8",
+        "tab": "docs",
+        "region": "申請材料",
+        "title": "資料一致",
+        "desc": "<p>護照、表格、行程及口述應反映同一真實計畫。資料填錯或行程變動時，依受理地官方步驟處理，不自行隱瞞或用新故事覆蓋舊資料。</p>"
+      },
+      {
+        "id": "section-3",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "申請流程",
+        "desc": "<ol><li>提供護照國家／地區、現居地、赴美目的及日期。</li><li>確認適用類別、支援範圍、交付及費用。</li><li>整理材料與表格，由本人核實。</li><li>按官方流程繳費預約，準備並出席適用的面試。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "process-10",
+        "tab": "process",
+        "region": "申請流程",
+        "title": "面試準備",
+        "desc": "<p>練習簡潔說明真正目的、停留日期、誰付費及返程安排，按自己的資料回答。面試、補件、行政審查與預約可用時間因申請而異，不保證加急或審理期限。</p>"
+      },
+      {
+        "id": "section-4",
+        "tab": "service",
+        "region": "協助服務",
+        "title": "服務費用",
+        "desc": "<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>OTC 支援</td><td>依類別、資料及進度書面報價，確認總價、修改次數、期限與取消退款安排。</td></tr><tr><td>第三方費用</td><td>政府簽證費、適用 SEVIS 費、翻譯、公證、快遞及交通另計。</td></tr></tbody></table><p>服務報價不代表政府費用已繳或預約已完成。</p>",
+        "wide": true
+      },
+      {
+        "id": "section-6",
+        "tab": "service",
+        "region": "協助服務",
+        "title": "服務範圍",
+        "desc": "<p>OTC 提供公開資訊、文件行政整理與面試表達練習；帳號密碼及驗證碼由本人保管。拒簽法律分析、逾期、豁免或身分爭議須由美國合資格律師處理，不承諾簽證結果。</p>"
+      },
+      {
+        "id": "section-7",
+        "tab": "service",
+        "region": "協助服務",
+        "title": "開始諮詢",
+        "desc": "<span id=\"contact\"></span>先說明護照、現居地、出行目的、日期、目前進度，以及是否曾拒簽。毋須在公開留言傳護照、銀行或完整個人文件，未確定事項可留空。"
+      },
+      {
+        "id": "service-14",
+        "tab": "service",
+        "region": "協助服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/affordable-study-abroad/\">平價留學</a> · <a href=\"/zh/us-swt-work-travel-support/\">美國SWT</a> · <a href=\"/zh/services/visa-application-support/\">簽證申請</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校、項目與主管機關公告及書面回覆為準。"
+  }
 }

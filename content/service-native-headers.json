@@ -9,13 +9,13 @@
     "previousImage": "/assets/social/native-a-level-predicted-grade-assessment-20261030.png"
   },
   "/zh/services/affordable-study-abroad/": {
-    "title": "想出國，預算不多？從低學費到帶薪培訓",
-    "image": "/assets/social/affordable-study-abroad-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "平價留學",
+    "image": "/assets/social/affordable-study-abroad-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/affordable-study-abroad/index.html",
-    "previousImage": "/assets/social/native-affordable-study-abroad-20261030.png"
+    "previousImage": "/assets/social/affordable-study-abroad-share-20261124.png"
   },
   "/zh/services/ai-tool-shop/": {
     "title": "AI 工具小舖",
@@ -500,13 +500,13 @@
     "previousImage": "/assets/social/native-us-opt-job-search-support-20261030.png"
   },
   "/zh/services/us-visa-support/": {
-    "title": "美國簽證協助",
-    "image": "/assets/social/us-visa-support-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "美國簽證",
+    "image": "/assets/social/us-visa-support-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/us-visa-support/index.html",
-    "previousImage": "/assets/social/native-us-visa-support-20261030.png"
+    "previousImage": "/assets/social/us-visa-support-share-20261124.png"
   },
   "/zh/services/usa-itp-support/": {
     "title": "美國 ITP 實習與培訓",

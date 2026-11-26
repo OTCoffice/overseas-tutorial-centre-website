@@ -1,8 +1,18 @@
-const fs=require('fs'),{execFileSync}=require('child_process');
-const a=require('../content/affordable-study-abroad.json');
-execFileSync(process.execPath,['scripts/render-herald.cjs','--service','content/affordable-study-abroad.json'],{stdio:'inherit'});
-fs.writeFileSync('zh/services/index.html',require('../content/service-desk.cjs')());
-const p='zh/search/index.html',s=fs.readFileSync(p,'utf8'),re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=s.match(re),entries=JSON.parse(m[2]);
-const entry={type:'服務',title:a.titleZh,url:a.path,desc:a.summaryZh},i=entries.findIndex(x=>x.url===a.path);if(i<0)entries.unshift(entry);else entries[i]=entry;
-fs.writeFileSync(p,s.replace(re,(_,h,b,t)=>h+JSON.stringify(entries).replaceAll('<','\\u003c')+t));
-const dir='zh/site-directory/index.html';let d=fs.readFileSync(dir,'utf8');if(!d.includes('href="'+a.path+'"'))d=d.replace('<ul class="directory-list">',`<ul class="directory-list"><li data-directory-row><a href="${a.path}">${a.name}</a><small>中文內容</small></li>`);fs.writeFileSync(dir,d);
+// Targeted rebuild; keep both search indexes and the service directory current.
+const fs=require('fs'),path=require('path'),{execFileSync}=require('child_process');
+const root=path.resolve(__dirname,'..'),a=require('../content/affordable-study-abroad.json');
+execFileSync(process.execPath,['scripts/render-herald.cjs','--service','content/affordable-study-abroad.json'],{cwd:root,stdio:'inherit'});
+const file=path.join(root,'zh/search/index.html'),h=fs.readFileSync(file,'utf8');
+const re=/(<script type="application\/json" id="search-data">)([\s\S]*?)(<\/script>)/,m=h.match(re);
+if(!m)throw Error('Chinese search data missing');
+const rows=JSON.parse(m[2]),i=rows.findIndex(r=>r.url===a.path),entry={type:'Page',title:a.titleZh,url:a.path,desc:a.summaryZh};
+if(i<0)rows.unshift(entry);else rows[i]={...rows[i],...entry};
+fs.writeFileSync(file,h.replace(re,(_,s,b,e)=>s+JSON.stringify(rows).replace(/</g,'\\u003c')+e));
+const dir=path.join(root,'zh/site-directory/index.html');let d=fs.readFileSync(dir,'utf8');
+if(!d.includes('href="'+a.path+'"')){
+ const marker='<ul class="directory-list">';if(!d.includes(marker))throw Error('Directory list missing');
+ d=d.replace(marker,marker+'<li data-directory-row><a href="'+a.path+'">'+a.name+'</a><small>中文內容</small></li>');
+}
+d=d.replace(new RegExp('(<a\\b[^>]*href="'+a.path+'"[^>]*>)[\\s\\S]*?(</a>)','g'),(_,p,q)=>p+a.name+q);
+fs.writeFileSync(dir,d);
+console.log('Updated Chinese search and exchange service directory.');

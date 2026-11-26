@@ -13,12 +13,12 @@
  {
   "route": "/zh/services/affordable-study-abroad/",
   "slug": "affordable-study-abroad",
-  "head": "高性價比留學",
+  "head": "平價留學",
   "en": "Affordable Study Abroad",
   "items": [
-   "低學費課程",
-   "獎學金",
-   "帶薪培訓"
+   "目的預算",
+   "SWT 交流",
+   "低費升學"
   ]
  },
  {
@@ -486,12 +486,12 @@
  {
   "route": "/zh/services/us-visa-support/",
   "slug": "us-visa-support",
-  "head": "美國簽證協助",
+  "head": "美國簽證",
   "en": "US Visa Support",
   "items": [
-   "表格",
-   "材料",
-   "面試準備"
+   "赴美目的",
+   "收入資金",
+   "表格面試"
   ]
  },
  {
