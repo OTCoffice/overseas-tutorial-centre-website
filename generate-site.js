@@ -133,3 +133,6 @@ require("./scripts/render-us-visa-support.cjs");
 
 // Preserve current Chinese personal statement support.
 require("./scripts/render-personal-statement-zh.cjs");
+
+// Preserve the SOP editing service and its discovery entries.
+require("./scripts/render-uk-sop-editing.cjs");

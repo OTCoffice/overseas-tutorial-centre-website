@@ -454,13 +454,13 @@
     "shareLayout": "crop-safe-banner"
   },
   "/zh/services/uk-sop-editing/": {
-    "title": "英碩 SOP 邏輯與架構修改",
-    "image": "/assets/social/uk-sop-editing-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "SOP修改",
+    "image": "/assets/social/uk-sop-editing-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/uk-sop-editing/index.html",
-    "previousImage": "/assets/social/native-uk-sop-editing-20261030.png"
+    "previousImage": "/assets/social/uk-sop-editing-share-20261124.png"
   },
   "/zh/services/university-application-advisory/": {
     "title": "大學申請顧問",

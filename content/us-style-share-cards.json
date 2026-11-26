@@ -442,12 +442,12 @@
  {
   "route": "/zh/services/uk-sop-editing/",
   "slug": "uk-sop-editing",
-  "head": "英碩 SOP\n邏輯與架構修改",
+  "head": "SOP修改",
   "en": "UK SOP Editing",
   "items": [
-   "申請文書",
-   "邏輯梳理",
-   "架構修改"
+   "主線證據",
+   "英文修改",
+   "交付輪次"
   ]
  },
  {

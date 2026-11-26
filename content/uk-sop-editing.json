@@ -1,11 +1,272 @@
 {
   "slug": "uk-sop-editing",
   "path": "/zh/services/uk-sop-editing/",
-  "titleZh": "英碩 SOP 邏輯與架構修改｜服務範圍與預估價格",
-  "summaryZh": "英碩 Personal Statement／SOP 結構診斷、經歷取捨、課程契合度與英文修改。結構診斷 £45–65；單篇深度修改 £120–180；兩個課程版本 £190–280。先確認總價，付款後詳細看稿。",
-  "shareImageZh": "/assets/social/uk-sop-editing-share-20261124.png",
-  "socialImageVersion": "v=20261124-us-style",
+  "titleZh": "英碩 SOP 修改｜結構診斷、英文編修、交付輪次與預估價格｜海外督導 OTC",
+  "summaryZh": "英碩已有英文初稿的 SOP／PS 修改：申請動機、經歷證據、課程契合、段落結構與英文表達；比較三檔服務、修改輪次、交付與預估價格。確認委託並付款後詳細看稿。",
+  "shareImageZh": "/assets/social/uk-sop-editing-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "name": "SOP修改",
+  "socialTitleZh": "SOP修改",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "SOP修改",
+    "tabs": [
+      {
+        "id": "scope",
+        "label": "修改內容"
+      },
+      {
+        "id": "materials",
+        "label": "準備材料"
+      },
+      {
+        "id": "delivery",
+        "label": "交付樣本"
+      },
+      {
+        "id": "prices",
+        "label": "費用輪次"
+      },
+      {
+        "id": "process",
+        "label": "委託流程"
+      },
+      {
+        "id": "faq",
+        "label": "常見問題"
+      }
+    ],
+    "searchPlaceholder": "搜尋範圍、交付、輪次",
+    "tipLabel": "修改須知",
+    "tip": "已有英文初稿先查方案；以目標課程的題目、篇幅與外部協助規定確認可提供的服務。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "scope",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "適用稿件",
+        "desc": "<p>以英國碩士申請、已有英文初稿的 SOP／Personal Statement 為主。先確認課程題目與允許的外部協助，再決定只做結構回饋、逐句修改，或兩個課程版本。研究計畫、MBA 題組等先另確認範圍。</p>"
+      },
+      {
+        "id": "prompt",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "題目要求",
+        "desc": "<p>逐項對照官方題目、字數、頁數及評核重點，標出漏答、離題與重複之處。SOP、PS 名稱可能交疊，實際題目比文件名稱更重要；研究計畫與寫作樣本不由本篇代替。</p>"
+      },
+      {
+        "id": "structure",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "文章主線",
+        "desc": "<p>檢查申請動機、已有準備、目前想深入的問題及未來目標能否相互連接。調整段落次序與銜接，每段保留一個主要任務；刪去與課程無關的自傳和履歷堆疊。</p>"
+      },
+      {
+        "id": "evidence",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "經歷證據",
+        "desc": "<p>從課程、專題、閱讀、研究、實習或工作中挑選有用例子，核對本人角色、方法、結果與反思。若原稿缺細節，會提出補充問題，由本人提供事實，不替申請人創造數據或成果。</p>"
+      },
+      {
+        "id": "fit",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "課程契合",
+        "desc": "<p>把具體學習需要連到課程模組、方法訓練或研究方向，核對名稱與當期內容。避免只讚排名或城市；提及教授須與課程安排相符，不暗示未取得的指導或錄取承諾。</p>"
+      },
+      {
+        "id": "language",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "英文表達",
+        "desc": "<p>在約定範圍內檢查文法、拼寫、選詞、句子清晰度及英式／美式用法一致性。保留原意與本人語氣，專業術語由申請人確認；若院校限制逐句編輯，改以允許的回饋形式處理。</p>"
+      },
+      {
+        "id": "length",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "篇幅取捨",
+        "desc": "<p>優先刪去重複背景、空泛形容與無關經歷，保留回答題目的證據。原稿遠超規定、需要補寫大量內容或新增題組時，先調整服務範圍；不靠縮字體或刪關鍵限制硬塞頁數。</p>"
+      },
+      {
+        "id": "example",
+        "tab": "scope",
+        "region": "修改內容",
+        "title": "修改示例",
+        "desc": "<p><strong>教學假設：</strong>原稿只有「我參與行銷實習，所以想讀行銷碩士」。回饋會追問本人負責的任務、採用的方法、發現的問題，再檢查目標課程能補足什麼知識。這是獨立示例，並非客戶文件或錄取案例。</p>"
+      },
+      {
+        "id": "materials",
+        "tab": "materials",
+        "region": "準備材料",
+        "title": "文件清單",
+        "desc": "<p>提供可編輯英文稿、目標課程官方連結、完整題目及篇幅要求、截止日期和時區、申請版本數。可附簡歷及相關課程或項目摘要，方便核對事實；首次詢價先說明語言、字數及稿件狀態。</p>"
+      },
+      {
+        "id": "questions",
+        "tab": "materials",
+        "region": "準備材料",
+        "title": "修改需求",
+        "desc": "<p>說明最想解決的是主線、例子不足、課程理由、超字數或英文問題，也交代已獲回饋與仍未確定的內容。若有多位顧問修改，提供最新版本與已確認意見，避免改回舊稿。</p>"
+      },
+      {
+        "id": "lse",
+        "tab": "materials",
+        "region": "準備材料",
+        "title": "院校要求",
+        "desc": "<p>例如 LSE 一般指引預期 1,000–1,500 字，部分課程另有格式，須優先按課程頁辦理。本頁方案的 1,000 英文字是服務計價範圍，不是全英國院校的統一上限。</p>",
+        "primary": {
+          "label": "校方要求 →",
+          "href": "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/Supporting-documents/Statement-of-academic-purpose"
+        }
+      },
+      {
+        "id": "integrity",
+        "tab": "materials",
+        "region": "準備材料",
+        "title": "本人作品",
+        "desc": "<p>素材、想法及最終提交內容由本人負責。先核對院校外部協助、抄襲與申報規則；不代寫、不買模板、不捏造經歷，也不代替本人作學術論證。無法在校方規則內提供的修改不承接。</p>",
+        "primary": {
+          "label": "校方指引 →",
+          "href": "https://www.ox.ac.uk/admissions/graduate/application-guide/supporting-documents/statement"
+        }
+      },
+      {
+        "id": "ai",
+        "tab": "materials",
+        "region": "準備材料",
+        "title": "AI規定",
+        "desc": "<p>Oxford 的研究生申請指引允許指定用途，例如拼寫及文法檢查，但不允許 AI 代寫或翻譯申請材料；初步研究的使用另有申報要求。這是單校規定，其他院校須各自查核；本服務不承諾「去 AI 痕跡」或檢測分數。</p>",
+        "primary": {
+          "label": "AI指引 →",
+          "href": "https://www.ox.ac.uk/admissions/graduate/application-guide/starting-your-application/using-artificial-intelligence-in-your-graduate-application"
+        }
+      },
+      {
+        "id": "delivery",
+        "tab": "delivery",
+        "region": "交付樣本",
+        "title": "交付文件",
+        "desc": "<p>依方案提供批註稿、段落建議或英文修訂痕跡版、清稿及待補問題。批註說明修改原因，讓本人能判斷取捨；尚未核實的內容保留問題，不直接當成事實寫入清稿。</p>"
+      },
+      {
+        "id": "sample-heading",
+        "tab": "delivery",
+        "region": "交付樣本",
+        "title": "批註樣本",
+        "desc": "<p>以下五張沿用既有教學示意圖，為 AI 製作的虛構節錄，並非客戶文件、錄取成果或實際交付紀錄。點擊查看原圖；正式交付以約定方案及本人稿件為準。</p><p><a href=\"/assets/sop-samples/01-structure.png\">段落主線</a> · <a href=\"/assets/sop-samples/02-evidence.png\">證據反思</a> · <a href=\"/assets/sop-samples/03-fit.png\">課程契合</a> · <a href=\"/assets/sop-samples/04-line-edit.png\">逐句修訂</a> · <a href=\"/assets/sop-samples/05-comparison.png\">前後對照</a></p>"
+      },
+      {
+        "id": "revision",
+        "tab": "delivery",
+        "region": "交付樣本",
+        "title": "修改複核",
+        "desc": "<p>本人先集中補資料、回覆問題並完成改稿，再交約定的一次覆核，檢查原問題是否解決及新內容是否一致。覆核不等於新增學校、重換專業或無限輪重寫。</p>"
+      },
+      {
+        "id": "final",
+        "tab": "delivery",
+        "region": "交付樣本",
+        "title": "提交檢查",
+        "desc": "<p>本人逐項核實校名、課名、日期、數字與專業內容，再依院校規定接受或拒絕修訂，清除不應提交的批註與修訂痕跡，檢查字數及檔案格式後自行上傳。</p>"
+      },
+      {
+        "id": "prices",
+        "tab": "prices",
+        "region": "費用輪次",
+        "title": "方案比較",
+        "desc": "<p>以下沿用 OTC 原有預估價格，以英鎊計，按已有英文初稿估算；不是同行價格或最終報價。</p><table><thead><tr><th>方案／預估</th><th>範圍與交付</th><th>輪次與時效</th></tr></thead><tbody><tr><td>結構診斷<br>£45–65</td><td>1篇、1課程、不超過1,000英文字；批註、建議大綱與優先修改清單。不含逐句英文修改或改稿覆核。</td><td>一次書面問題澄清；預估2–3個工作日。</td></tr><tr><td>單篇修改<br>£120–180</td><td>1篇、1課程、不超過1,000英文字；結構內容批註、英文修訂痕跡版、清稿及補充問題。</td><td>初改＋本人補充後一次覆核；首輪3–5個工作日，覆核約2–3個工作日。</td></tr><tr><td>雙版修改<br>£190–280</td><td>同一申請者、相關專業2個課程；每篇不超過1,000英文字。共同主線、各課程調整及兩版修訂稿與清稿。</td><td>每版初改＋一次覆核；首輪兩版5–7個工作日，覆核約2–3個工作日。</td></tr></tbody></table><p>工作日從約定付款且材料齊全後起計，本人補充時間另計。校方不允許的編修形式不包含在方案內。</p>",
+        "wide": true
+      },
+      {
+        "id": "extras",
+        "tab": "prices",
+        "region": "費用輪次",
+        "title": "額外工作",
+        "desc": "<table><thead><tr><th>項目</th><th>原有預估</th></tr></thead><tbody><tr><td>超出1,000字</td><td>每500英文字 £25–40；不足500字按一單位。</td></tr><tr><td>同版加一輪</td><td>£35–55。</td></tr><tr><td>48小時內首輪</td><td>預估加收原方案30%，先確認檔期。</td></tr></tbody></table><p>中文素材、翻譯、無初稿構思、不同專業及新題組另行報價。更換方向或新增版本前先確認工作量與差額。</p>",
+        "wide": true
+      },
+      {
+        "id": "rounds",
+        "tab": "prices",
+        "region": "費用輪次",
+        "title": "輪次計算",
+        "desc": "<p>本人集中提交一次稿件與問題，OTC 回傳一次完整回饋，計一輪。一次澄清只解釋既有回饋，不等同新稿覆核。多校版本分別核對題目、學習目標與課程理由，不只替換校名。</p>"
+      },
+      {
+        "id": "payment",
+        "tab": "prices",
+        "region": "費用輪次",
+        "title": "付款約定",
+        "desc": "<p>首次需求及範圍確認不收費；新委託先書面確認總價、適用稅項、篇幅、版本、輪次、交付日期、付款及取消退款安排。完成付款後才詳細審閱及交付逐項修訂意見；既有約定按原約定履行。</p><p>本頁不含 CV、推薦信、研究計畫、翻譯認證、網申代填、院校申請費或學費。取消時按事前約定及已完成工作結算。</p>"
+      },
+      {
+        "id": "steps",
+        "tab": "process",
+        "region": "委託流程",
+        "title": "委託流程",
+        "desc": "<ol><li>提供課程要求、稿件狀態及截止日期。</li><li>確認可承接範圍、方案、輪次與總價。</li><li>確認委託、完成付款並交齊材料。</li><li>詳細審閱，按方案交付批註或修訂稿。</li><li>本人補充改稿，依約複核並自行提交。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "contact",
+        "tab": "process",
+        "region": "委託流程",
+        "title": "開始諮詢",
+        "desc": "<p>先提供目標校系連結、稿件語言與英文總字數、主要困難、截止日期及時區、希望修改的版本數。聯絡方式見頁尾；未定項目可留空，無須先傳證件。</p>"
+      },
+      {
+        "id": "privacy",
+        "tab": "process",
+        "region": "委託流程",
+        "title": "文件保護",
+        "desc": "<p>稿件、成績或簡歷可遮去姓名、學號及聯絡資料；只提交與協助有關的內容。涉及雇主、客戶或未公開研究的資料先移除，或改用可公開的概括說明，不上傳無權分享的原始文件。</p>"
+      },
+      {
+        "id": "no-draft",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "尚無初稿",
+        "desc": "<p>本頁三檔以已有英文稿估算。只有零散素材或中文提綱時，先確認構思或翻譯需求與院校規定，另議安排；可先查看個人陳述總頁的文件類型與準備方法。</p>",
+        "primary": {
+          "label": "個人陳述 →",
+          "href": "/zh/services/personal-statement-support/"
+        }
+      },
+      {
+        "id": "transfer",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "轉系申請",
+        "desc": "<p>可協助檢查原學科與新方向的連結、相關學習及尚待補足的準備。例如化工轉材料，可核對實際修過的材料課程或項目如何支持申請；不把沒有的課程、研究或技能補進稿件。</p>"
+      },
+      {
+        "id": "urgent",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "臨近截止",
+        "desc": "<p>先告知截止時間及時區，確認能否在本人仍有時間核實和修改的情況下承接。材料缺漏、延遲回覆或臨時加校會影響排程；急件不保證接單，也不能以趕時間省略本人確認。</p>"
+      },
+      {
+        "id": "admission",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "錄取結果",
+        "desc": "<p>修改服務交付的是約定回饋與文件，不保證錄取、獎學金或面試。成績、先修要求、推薦信、作品及名額仍由院校綜合審核，英文流暢不能彌補不符合入學要求。</p>"
+      },
+      {
+        "id": "related",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/personal-statement-support/\">個人陳述</a> · <a href=\"/zh/services/phd-application-coaching/\">申博輔導</a> · <a href=\"/application-service-standards/\">服務準則</a></p>"
+      }
+    ],
+    "footer": "內容核對：2026年11月26日。價格沿用2026年9月27日原有預估，未調價；實際範圍與總額以委託前書面確認為準。院校要求以申請當期課程頁為準。"
+  }
 }
