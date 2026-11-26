@@ -124,3 +124,6 @@ require("./scripts/render-australia-electrician-service.cjs");
 
 // Preserve Australian trade pathways and discovery links.
 require("./scripts/render-australia-blue-collar-service.cjs");
+
+// Preserve the Australian welding service and its discovery links.
+require("./scripts/render-australia-welder-service.cjs");

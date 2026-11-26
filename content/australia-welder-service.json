@@ -1,0 +1,281 @@
+{
+  "slug": "australia-welder-support",
+  "path": "/zh/services/australia-welder-support/",
+  "name": "澳洲焊工",
+  "titleZh": "澳洲焊工規劃｜焊接課程、TRA技能評估、工作證據與費用｜海外督導 OTC",
+  "summaryZh": "分清焊工、金屬製造與壓力焊接，按零基礎、海外技工及澳洲畢業背景，核對課程、TRA評估、實作證據、工地要求與時間成本。",
+  "socialTitleZh": "澳洲焊工",
+  "shareImageZh": "/assets/social/australia-welder-support-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "澳洲焊工",
+    "tabs": [
+      {
+        "id": "routes",
+        "label": "入行途徑"
+      },
+      {
+        "id": "course",
+        "label": "課程資格"
+      },
+      {
+        "id": "assess",
+        "label": "技能評估"
+      },
+      {
+        "id": "work",
+        "label": "工作準備"
+      },
+      {
+        "id": "cost",
+        "label": "時間成本"
+      },
+      {
+        "id": "service",
+        "label": "規劃服務"
+      }
+    ],
+    "searchPlaceholder": "搜尋職業、課程、評估",
+    "tipLabel": "申請須知",
+    "tip": "先按實際工作選職業；焊接證書、澳洲學歷、技能評估與工作許可是不同要求。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "routes-0",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "職業比較",
+        "desc": "<table><thead><tr><th>方向</th><th>核對重點</th></tr></thead><tbody><tr><td>Welder (First Class) 322313</td><td>以多種焊接技術製作與修復金屬產品</td></tr><tr><td>Metal Fabricator 322311</td><td>金屬結構製作、加工與組裝，焊接為工作的一部分</td></tr><tr><td>Pressure Welder</td><td>壓力設備相關焊接，另查工作及測試標準</td></tr></tbody></table><p>依工作證據確認職業，不以雇主給的中文職稱直接選評估代碼。</p>",
+        "primary": {
+          "label": "職業名錄 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/occupations-assessed-trades-recognition-australia"
+        },
+        "wide": true
+      },
+      {
+        "id": "routes-1",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "零基礎者",
+        "desc": "<p>先確認完整職訓、實作及雇主安排，再比較是否值得轉行。西澳官方的焊工學徒例子為 4 年；這是學徒路線參考，不是任何短期焊接班都能替代，也不表示留學生均可參加。</p>",
+        "primary": {
+          "label": "西澳範例 →",
+          "href": "https://buildalife.wa.gov.au/welder-and-boilermaker"
+        }
+      },
+      {
+        "id": "routes-2",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "海外技工",
+        "desc": "<p>已有焊接訓練及受僱經驗，先核對適用的 TRA 計畫與認可評估機構，再決定是否需補課。日本 JIS、中國或其他地區的焊工證及工作紀錄可作背景，但不會自動換成澳洲資格。</p>",
+        "primary": {
+          "label": "評估計畫 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/programs"
+        }
+      },
+      {
+        "id": "routes-3",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "在澳畢業",
+        "desc": "<p>澳洲課程畢業後，依職業及資格核對是否適用 PSA、JRP 或其他評估，不把持有畢業證當成職業全評估已完成。實習、受僱工作及簽證條件須各自確認。</p>",
+        "primary": {
+          "label": "TRA 計畫 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/programs"
+        }
+      },
+      {
+        "id": "course-4",
+        "tab": "course",
+        "region": "課程資格",
+        "title": "課程選擇",
+        "desc": "<p>VETASSESS 當期焊工資料列出的對應資格為 MEM31925 Certificate III in Engineering – Fabrication Trade (Welder)。工程文憑、短期焊接班與技工資格用途不同，先核對培訓內容及評估接受範圍。</p>",
+        "primary": {
+          "label": "資格來源 →",
+          "href": "https://www.vetassess.com.au/check-my-occupation/trade-occupations/welder-first-class"
+        }
+      },
+      {
+        "id": "course-5",
+        "tab": "course",
+        "region": "課程資格",
+        "title": "校方核對",
+        "desc": "<p>索取正式課程與校區、RTO 編號、授權範圍、總費用、退費條款及實作評核安排。海外學生另查 CRICOS；要求校方說明訓練合約、工作場所及學歷銜接，不能只憑課名相近報名。</p>",
+        "primary": {
+          "label": "課程登記 →",
+          "href": "https://training.gov.au/training/details/MEM31925/qualdetails"
+        }
+      },
+      {
+        "id": "course-6",
+        "tab": "course",
+        "region": "課程資格",
+        "title": "實作內容",
+        "desc": "<p>比較所學工法、材料、圖紙、切割、組裝、焊接檢查與安全訓練，並確認能否在實作中展示。只練一種工法或只拿出勤證明，不代表已覆蓋整個技工資格。</p>",
+        "primary": {
+          "label": "評核內容 →",
+          "href": "https://www.vetassess.com.au/check-my-occupation/trade-occupations/welder-first-class"
+        }
+      },
+      {
+        "id": "assess-7",
+        "tab": "assess",
+        "region": "技能評估",
+        "title": "評估選擇",
+        "desc": "<p>TRA 計畫依職業、護照、受訓地及評估用途而異。先查指南及 RTO Finder 的當期授權，再安排資料或技術評估；不是任何 RTO 都可做移民技能評估。</p>",
+        "primary": {
+          "label": "認可機構 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/our-programs/offshore-skills-assessment-program/rto-finder"
+        }
+      },
+      {
+        "id": "assess-8",
+        "tab": "assess",
+        "region": "技能評估",
+        "title": "工作證據",
+        "desc": "<p>按評估清單整理訓練、工作起止、工時、職責與可核實的僱用付款證據；自僱另查所需文件。作品或焊縫照片可輔助說明實務，不能取代要求的僱用證據，也不應洩露雇主機密。</p>",
+        "primary": {
+          "label": "文件要求 →",
+          "href": "https://www.vetassess.com.au/check-my-occupation/trade-occupations/welder-first-class"
+        }
+      },
+      {
+        "id": "assess-9",
+        "tab": "assess",
+        "region": "技能評估",
+        "title": "技術評核",
+        "desc": "<p>以 VETASSESS 焊工評估為例，先審文件，再於通過後進行技術評估；實際形式依適用 Pathway 與當期指南。準備說明自己做過的工作及技術，不代考、不造工作紀錄。</p>",
+        "primary": {
+          "label": "評估流程 →",
+          "href": "https://www.vetassess.com.au/check-my-occupation/trade-occupations/welder-first-class"
+        }
+      },
+      {
+        "id": "assess-10",
+        "tab": "assess",
+        "region": "技能評估",
+        "title": "資格結果",
+        "desc": "<p>技能評估的用途與結果文件須看所選計畫。不要把電工等持牌工種的 OTSR、臨時牌照與補差流程直接套給焊工；也不要把某次技能評估當成所有雇主的產品或工法測試。</p>",
+        "primary": {
+          "label": "金工評估 →",
+          "href": "https://www.vetassess.com.au/check-my-occupation/trade-occupations/metal-fabricator"
+        }
+      },
+      {
+        "id": "work-11",
+        "tab": "work",
+        "region": "工作準備",
+        "title": "州別要求",
+        "desc": "<p>西澳官方說明一般焊工與金屬製造工無須該工種執業牌照；特定雇主與作業仍可能要求其他許可或證明。這是西澳例子，跨州及特定行業應重新核對，不能概括全澳「完全不用證」。</p>",
+        "primary": {
+          "label": "西澳要求 →",
+          "href": "https://buildalife.wa.gov.au/welder-and-boilermaker"
+        }
+      },
+      {
+        "id": "work-12",
+        "tab": "work",
+        "region": "工作準備",
+        "title": "工地安全",
+        "desc": "<p>按現場實際工作確認建築入場、密閉空間、高處及適用的高風險作業資格；有要求才安排對應訓練。一般安全課、叉車或吊掛許可不能代替焊接能力或完整技工資格。</p>",
+        "primary": {
+          "label": "工作要求 →",
+          "href": "https://buildalife.wa.gov.au/welder-and-boilermaker"
+        }
+      },
+      {
+        "id": "work-13",
+        "tab": "work",
+        "region": "工作準備",
+        "title": "工法測試",
+        "desc": "<p>雇主或項目可能按材料、工法、焊接位置及產品規範要求測試。應問清標準、有效範圍、費用及是否重測；不要把某張 coded welding 證書描述為可適用所有項目的全澳統一焊工牌。</p>"
+      },
+      {
+        "id": "work-14",
+        "tab": "work",
+        "region": "工作準備",
+        "title": "工作資格",
+        "desc": "<p>培訓、技能評估與簽證工作權利分開確認。myGov 說明國際學生不能參加 Australian Apprenticeships 計畫，其他 VET 及實習安排仍需逐課查證；簽證個案判斷交合資格專業人士處理。</p>",
+        "primary": {
+          "label": "學徒資格 →",
+          "href": "https://my.gov.au/en/services/education/doing-an-apprenticeship/before-you-start-an-apprenticeship/starting-an-apprenticeship"
+        }
+      },
+      {
+        "id": "cost-15",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "時間安排",
+        "desc": "<p>零基礎把找雇主、正式訓練及實作排入計畫；海外技工另算證據整理、評估、補件與可能的補訓。課程時長、實際工作經驗與評估處理期不同，未有機構回覆前不承諾幾個月完成。</p>"
+      },
+      {
+        "id": "cost-16",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "費用清單",
+        "desc": "<table><thead><tr><th>項目</th><th>報價內容</th></tr></thead><tbody><tr><td>培訓</td><td>學費、實作、耗材、工具防護及重考</td></tr><tr><td>技能評估</td><td>文件、技術評核、翻譯、差旅及重評</td></tr><tr><td>工作生活</td><td>適用安全證、項目測試、簽證、交通住宿及等待成本</td></tr></tbody></table><p>逐項向對應機構索取當期書面報價。不同計畫與背景不套用全包價，也不把預期高薪當作保證能付清學費。</p>",
+        "wide": true
+      },
+      {
+        "id": "cost-17",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "付款條件",
+        "desc": "<p>先取得資格回覆、完整時間成本表、實作與雇主安排，再付學費或評估費。事先寫清找不到雇主、證據不足、簽證工作權利不符時的停止或改案條件，並查退費規則。</p>"
+      },
+      {
+        "id": "service-18",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務內容",
+        "desc": "<p>OTC 協助課程與職業比較、資格問題清單、工作證據目錄、時間成本表及約定的校方溝通。評估由認可機構完成，OTC 不簽發技能資格、不保證工作或移民結果。</p>"
+      },
+      {
+        "id": "service-19",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務費用",
+        "desc": "<p>初步背景了解免費；詳細比較、文件整理及持續支援按範圍書面報價，確認交付、期限、付款與取消規則後開始。課程、評估、測試、翻譯、安全訓練、簽證與生活等第三方費用另付。</p>"
+      },
+      {
+        "id": "service-20",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "規劃流程",
+        "desc": "<ol><li>提供背景、工作內容、目標州及課程。</li><li>確認職業、訓練資格與適用評估。</li><li>取得實作、雇主、工作權利及各項報價。</li><li>比較時間成本，確認委託範圍後準備文件。</li><li>按約定跟進回覆及尚待補齊的事項。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "service-21",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "開始諮詢",
+        "desc": "<p>先提供學歷、焊接訓練、工作年資與工法、目前所在地及簽證類別、目標州、英語程度、預算和最急日期。未定可留空；初次毋須提供護照號碼或未遮擋的銀行文件。</p>"
+      },
+      {
+        "id": "service-22",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "延伸閱讀",
+        "desc": "<p>在日本受訓或工作的讀者，可參考既有焊工赴澳指南，再依目前職責、證據及當期規則確認個人路線。</p>",
+        "primary": {
+          "label": "日本焊工 →",
+          "href": "/zh/insights/japan-welder-australia-pathway/"
+        }
+      },
+      {
+        "id": "service-23",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/australia-blue-collar/\">澳洲藍領</a> · <a href=\"/zh/services/australia-electrician-support/\">澳洲電工</a> · <a href=\"/zh/services/visa-application-support/\">簽證申請</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。資格、課程、評估與工作要求以相關機構當期書面回覆為準。"
+  }
+}

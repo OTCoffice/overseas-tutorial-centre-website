@@ -629,5 +629,13 @@
     "width": 1200,
     "height": 600,
     "file": "zh/services/australia-blue-collar/index.html"
+  },
+  "/zh/services/australia-welder-support/": {
+    "title": "澳洲焊工",
+    "image": "/assets/social/australia-welder-support-share-20261126.png",
+    "version": "v=20261126-1",
+    "width": 1200,
+    "height": 600,
+    "file": "zh/services/australia-welder-support/index.html"
   }
 }

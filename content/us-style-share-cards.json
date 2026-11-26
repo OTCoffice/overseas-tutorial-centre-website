@@ -614,5 +614,16 @@
    "培訓考牌",
    "時間成本"
   ]
+ },
+ {
+  "route": "/zh/services/australia-welder-support/",
+  "slug": "australia-welder-support",
+  "head": "澳洲焊工",
+  "en": "Australian Welder Pathways",
+  "items": [
+   "課程資格",
+   "技能評估",
+   "工作準備"
+  ]
  }
 ]

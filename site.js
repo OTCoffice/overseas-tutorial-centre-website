@@ -214,7 +214,7 @@ function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
     "/zh/reports/": "/zh/australia-office-presence/",
     "/zh/australia-universities/": "/zh/australia-office-presence/"
   };
-  const pageParents = {"/zh/services/australia-electrician-support/": "/zh/services/australia-blue-collar/"};
+  const pageParents = {"/zh/services/australia-welder-support/": "/zh/services/australia-blue-collar/", "/zh/services/australia-electrician-support/": "/zh/services/australia-blue-collar/"};
   const parentPath = pageParents[canonicalPath] || parentFallbacks[parentPathFor(canonicalPath)] || parentPathFor(canonicalPath);
   const isZh = locale === "zh";
   const shareText = `${title} | OTC Study Hub`;
