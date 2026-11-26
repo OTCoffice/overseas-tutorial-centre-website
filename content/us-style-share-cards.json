@@ -625,5 +625,16 @@
    "技能評估",
    "工作準備"
   ]
- }
+ },
+{
+  "route": "/zh/nursing/",
+  "slug": "nursing-hub",
+  "head": "護理升學",
+  "en": "Nursing Study",
+  "items": [
+    "課程與院校",
+    "入學與申請",
+    "護士註冊"
+  ]
+}
 ]

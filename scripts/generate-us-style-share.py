@@ -40,9 +40,14 @@ ROOT=os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 DATE=os.environ.get('SHARE_DATE','20261124')
 spec = json.load(open(os.path.join(ROOT,'content/us-style-share-cards.json')))
 import tempfile; TMP=tempfile.mkdtemp()
-only = sys.argv[1:]
+only = [x for x in sys.argv[1:] if x != '--pillow']
 for o in spec:
     if only and o['slug'] not in only: continue
+    if '--pillow' in sys.argv:
+        import runpy
+        runpy.run_path(os.path.join(ROOT, 'scripts/us-style-share-pillow.py'))['render'](o, os.path.join(ROOT, 'assets/social', f"{o['slug']}-share-{DATE}.png"))
+        print('ok', o['slug'])
+        continue
     e = lambda x: html.escape(x)
     h = TPL.replace('{head}', e(o['head']).replace('\n','<br>')).replace('{en}', e(o['en'])).replace('{i0}', e(o['items'][0])).replace('{i1}', e(o['items'][1])).replace('{i2}', e(o['items'][2]))
     hp = os.path.join(TMP, o['slug']+'.html'); open(hp, 'w').write(h)

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-26",
+  "route": "/zh/nursing/",
+  "peerReferences": [
+    {
+      "url": "https://www.acic.com.tw/Nursing%20Regional.cfm",
+      "scope": "護理課程、背景分組、學分抵免及申請用語；不沿用移民承諾、費用或抵免數字。"
+    },
+    {
+      "url": "https://www.levelupstudies.com.au/tw/news-detail/australia-rn-nurse-study-migration-guide/",
+      "scope": "課程、註冊、就業與常見疑問的編排；不沿用其簽證與評估保證。"
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-nursing.html",
+      "verified": "非護理學士轉入護理課程例子。"
+    },
+    {
+      "url": "https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/qualified-in-english/",
+      "verified": "完成NMC認可註冊前課程可作英語證據。"
+    },
+    {
+      "url": "https://training.gov.au/assets/HLT/HLT54121_R6.pdf",
+      "verified": "認可護理文憑對應Enrolled Nurse，與RN學士方向有別。"
+    }
+  ],
+  "limits": [
+    "本次只更新總覽，不改寫14個國別專頁或重新核驗其完整政策。",
+    "不新增全國統一學費、語言分數或簽證數字。"
+  ]
+}

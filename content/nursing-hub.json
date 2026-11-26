@@ -1,13 +1,330 @@
 {
   "slug": "nursing-hub",
   "path": "/zh/nursing/",
-  "name": "海外護理留學",
-  "titleZh": "海外護理留學｜課程・院校・申請｜海外督導 OTC",
-  "summaryZh": "海外護理課程、院校介紹、入學要求及留學申請服務，另提供護士註冊、就業與移民資訊。",
+  "name": "護理升學",
+  "titleZh": "海外護理留學｜護理課程、院校與申請｜海外督導雙語世界",
+  "summaryZh": "按國家比較護理課程、入學要求與護士註冊，了解語言、實習、申請材料、時程及費用；海外督導雙語世界招生部提供選校與申請協助。",
   "sub": "課程・院校・申請",
-  "updated": "2026-10-03",
-  "shareImageZh": "/assets/social/nursing-hub-20261003-v2.png",
-  "socialImageVersion": "v=20261003-2",
+  "updated": "2026-11-26",
+  "shareImageZh": "/assets/social/nursing-hub-share-20261126.png",
+  "socialImageVersion": "v=20261126",
   "socialImageWidth": 1200,
-  "socialImageHeight": 630
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "升學資料",
+    "subtitle": "按地區或主題篩選；搜尋國家、課程與申請要點。",
+    "tabs": [
+      {
+        "id": "歐洲",
+        "label": "歐洲"
+      },
+      {
+        "id": "大洋洲",
+        "label": "大洋洲"
+      },
+      {
+        "id": "北美洲",
+        "label": "北美洲"
+      },
+      {
+        "id": "亞洲",
+        "label": "亞洲"
+      },
+      {
+        "id": "courses",
+        "label": "課程院校"
+      },
+      {
+        "id": "apply",
+        "label": "申請準備"
+      },
+      {
+        "id": "registration",
+        "label": "護士註冊"
+      },
+      {
+        "id": "cost",
+        "label": "費用服務"
+      }
+    ],
+    "searchPlaceholder": "搜尋國家、課程或材料",
+    "groupTitle": "全部要點",
+    "tipLabel": "選課",
+    "tip": "先確認目標是取得護士資格，還是持證後進修，再比較課程。",
+    "cards": [
+      {
+        "id": "global-nursing-pathways",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "英國",
+        "desc": "<p>查看英國護理升學與資格資料。</p><p>註冊查詢：NMC。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/uk/"
+        }
+      },
+      {
+        "id": "destination-australia",
+        "tab": "大洋洲",
+        "region": "大洋洲",
+        "title": "澳洲",
+        "desc": "<p>查看澳洲護理升學與資格資料。</p><p>註冊查詢：NMBA／Ahpra。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/australia/"
+        }
+      },
+      {
+        "id": "destination-new-zealand",
+        "tab": "大洋洲",
+        "region": "大洋洲",
+        "title": "紐西蘭",
+        "desc": "<p>查看紐西蘭護理升學與資格資料。</p><p>註冊查詢：NCNZ。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/new-zealand/"
+        }
+      },
+      {
+        "id": "destination-canada",
+        "tab": "北美洲",
+        "region": "北美洲",
+        "title": "加拿大",
+        "desc": "<p>查看加拿大護理升學與資格資料。</p><p>註冊查詢：各省護理監管機構。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/canada/"
+        }
+      },
+      {
+        "id": "destination-ireland",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "愛爾蘭",
+        "desc": "<p>查看愛爾蘭護理升學與資格資料。</p><p>註冊查詢：NMBI。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/ireland/"
+        }
+      },
+      {
+        "id": "destination-germany",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "德國",
+        "desc": "<p>查看德國護理升學與資格資料。</p><p>註冊查詢：各州認可機關。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/germany/"
+        }
+      },
+      {
+        "id": "destination-usa",
+        "tab": "北美洲",
+        "region": "北美洲",
+        "title": "美國",
+        "desc": "<p>查看美國護理升學與資格資料。</p><p>註冊查詢：州護理委員會。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/usa/"
+        }
+      },
+      {
+        "id": "destination-singapore",
+        "tab": "亞洲",
+        "region": "亞洲",
+        "title": "新加坡",
+        "desc": "<p>查看新加坡護理升學與資格資料。</p><p>註冊查詢：SNB。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/singapore/"
+        }
+      },
+      {
+        "id": "destination-hong-kong",
+        "tab": "亞洲",
+        "region": "亞洲",
+        "title": "香港",
+        "desc": "<p>查看香港護理升學與資格資料。</p><p>註冊查詢：香港護士管理局。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/hong-kong/"
+        }
+      },
+      {
+        "id": "destination-japan",
+        "tab": "亞洲",
+        "region": "亞洲",
+        "title": "日本",
+        "desc": "<p>查看日本護理升學與資格資料。</p><p>註冊查詢：厚生勞動省。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/japan/"
+        }
+      },
+      {
+        "id": "destination-south-korea",
+        "tab": "亞洲",
+        "region": "亞洲",
+        "title": "韓國",
+        "desc": "<p>查看韓國護理升學與資格資料。</p><p>註冊查詢：保健福祉部。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/south-korea/"
+        }
+      },
+      {
+        "id": "destination-france",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "法國",
+        "desc": "<p>查看法國護理升學與資格資料。</p><p>註冊查詢：醫護資格主管機關。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/france/"
+        }
+      },
+      {
+        "id": "destination-switzerland",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "瑞士",
+        "desc": "<p>查看瑞士護理升學與資格資料。</p><p>註冊查詢：Swiss Red Cross。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/switzerland/"
+        }
+      },
+      {
+        "id": "destination-nordics",
+        "tab": "歐洲",
+        "region": "歐洲",
+        "title": "北歐四國",
+        "desc": "<p>查看北歐四國護理升學與資格資料。</p><p>註冊查詢：各國護理主管機關。</p>",
+        "primary": {
+          "label": "國別資料",
+          "href": "/zh/nursing/nordics/"
+        }
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "課程選擇",
+        "desc": "<p>未有護士資格者，選擇可通往當地護士註冊的認可課程；已有海外護士資格者，先了解資格認可程序，再決定是否重讀學位。</p>",
+        "id": "planning"
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "護理文憑",
+        "desc": "<p>文憑的學歷級別與註冊類別因地而異。澳洲 Diploma of Nursing 與 Registered Nurse 學士課程的資格方向不同，選課前核對認可名錄及預期註冊類別。</p>",
+        "secondary": {
+          "label": "認可課程",
+          "href": "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"
+        }
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "護理學士",
+        "desc": "<p>適合由中學升讀護理的學生。比較學術及科目要求、臨床實習、授課語言、國際生招生資格，以及畢業後可申請的護士註冊。</p>"
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "學士後",
+        "desc": "<p>已有非護理學士者，可查找 Graduate Entry／Pre-registration 課程。例如悉尼大學 Master of Nursing 面向希望轉入護理的非護理學士畢業生；各校先修科目與選拔要求另核。</p>",
+        "secondary": {
+          "label": "悉尼大學",
+          "href": "https://www.sydney.edu.au/courses/courses/pc/master-of-nursing.html"
+        }
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "護理進修",
+        "desc": "<p>護理碩士不一定提供首次護士註冊資格。已註冊護士的專科、研究或管理進修，須與 Pre-registration 課程分開比較。</p>"
+      },
+      {
+        "tab": "courses",
+        "region": "護理升學",
+        "title": "護理院校",
+        "desc": "<p>澳洲已設院校與課程資料庫，可按院校、州份及課程類別查閱。其他國別頁目前以註冊資料與官方入口為主，尚未建立完整院校清單。</p>",
+        "primary": {
+          "label": "護理院校",
+          "href": "/zh/nursing/courses/"
+        }
+      },
+      {
+        "tab": "apply",
+        "region": "護理升學",
+        "title": "入學要求",
+        "desc": "<p>逐校核對學歷等值、成績、理科或人體科學先修課、畢業年限及面試。學分抵免需由院校審核，不能只憑護士證推定縮短修業年期。</p>"
+      },
+      {
+        "tab": "apply",
+        "region": "護理升學",
+        "title": "語言要求",
+        "desc": "<p>分別核對院校入學與護士註冊要求，包括接受的考試、總分、單項、有效期及合併成績規則。英文授課不代表可免除臨床溝通或當地語言要求。</p><p>例如英國 NMC 接受完成 NMC 認可的註冊前護理課程作為英語能力證據；其他資格按其證據類別審核。</p>",
+        "secondary": {
+          "label": "NMC英語",
+          "href": "https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/qualified-in-english/"
+        }
+      },
+      {
+        "tab": "apply",
+        "region": "護理升學",
+        "title": "實習準備",
+        "desc": "<p>確認實習地點、通勤與住宿安排，以及校方要求的健康、疫苗、犯罪紀錄或兒童工作審查。所需項目與完成期限以課程及實習單位通知為準。</p>"
+      },
+      {
+        "tab": "apply",
+        "region": "護理升學",
+        "title": "申請材料",
+        "desc": "<p>選校諮詢準備最高學歷、成績、語言總分與單項、入學年份、預算及目標地區。正式申請另按院校提交護照、畢業證、翻譯及所需個人陳述或推薦資料。</p><p>已有護士資格者補充註冊地、有效執照、臨床科別與年資；認可申請可能另需課程大綱及臨床時數。</p>",
+        "id": "materials"
+      },
+      {
+        "tab": "apply",
+        "region": "護理升學",
+        "title": "申請流程",
+        "desc": "<ol><li>留學諮詢：確認現有學歷、是否持證與升學目標。</li><li>選校選課：比較專業認可、入學條件、實習及全程預算。</li><li>準備文件：確認申請渠道、委託範圍與院校截止日期。</li><li>提交跟進：處理申請、補件及錄取條件。</li><li>入學準備：按錄取通知安排繳費、簽證、住宿及實習文件。</li></ol><p>建議預留語言考試、先修課與文件認證時間；實際進度按院校開課及截止日期倒排，沒有全球統一申請期限。</p>",
+        "wide": true
+      },
+      {
+        "tab": "registration",
+        "region": "護理升學",
+        "title": "護士註冊",
+        "desc": "<p>先查目標地區監管機構的認可課程或海外資格程序，再安排語言、學歷評估及所需考核。完成學位、取得註冊及獲准工作各有條件。</p><p>英國可查 NMC 認可課程；澳洲可查 Ahpra 認可課程與對應專業。</p>",
+        "primary": {
+          "label": "NMC課程",
+          "href": "https://www.nmc.org.uk/education/approved-programmes/"
+        },
+        "secondary": {
+          "label": "Ahpra課程",
+          "href": "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"
+        }
+      },
+      {
+        "tab": "registration",
+        "region": "護理升學",
+        "title": "就業居留",
+        "desc": "<p>求職需核對註冊狀態、臨床經驗、僱主要求與合法工作資格。技能評估、僱主提名及簽證是另行程序；讀護理或取得護士註冊均不保證居留結果。</p>",
+        "primary": {
+          "label": "移民資訊",
+          "href": "/zh/immigration-info/"
+        }
+      },
+      {
+        "tab": "cost",
+        "region": "護理升學",
+        "title": "費用服務",
+        "desc": "<p>海外督導雙語世界｜招生部協助選校、核對入學要求、整理申請材料、聯絡院校與跟進補件。免費初步資料梳理後，確認申請渠道及委託範圍。</p><div class=\"cd-table\"><table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><th>院校申請</th><td>非香港院校申請沿用免費代辦安排，按一級或二級代理及校方允許的渠道辦理；香港申請收取服務費，按需要及服務範圍商議。</td></tr><tr><th>另行委託</th><td>獨立諮詢、語言輔導、註冊文件與求職支援按工作內容報價；移民或個別專業資格意見由相應合資格人士處理。</td></tr><tr><th>留學預算</th><td>比較全程學費、住宿、生活、保險、交通及實習支出；金額按院校年度與城市計算，本頁不設跨國統一價。</td></tr><tr><th>第三方費</th><td>院校申請費、學費、語言考試、認證翻譯、健康審查、護士註冊、技能評估與簽證等另計。</td></tr></tbody></table></div>",
+        "wide": true,
+        "id": "fees"
+      }
+    ],
+    "footer": "更新：2026 年 11 月 26 日。國別入口保留原有資料範圍；院校、監管機構及簽證要求以當期官方說明為準。"
+  }
 }
