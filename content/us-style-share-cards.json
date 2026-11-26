@@ -321,12 +321,12 @@
  {
   "route": "/zh/services/personal-statement-support/",
   "slug": "personal-statement-support",
-  "head": "個人陳述與申請文書",
+  "head": "個人陳述",
   "en": "Personal Statement Support",
   "items": [
-   "Personal Statement",
-   "申請文書",
-   "修改與潤色"
+   "素材構思",
+   "初稿回饋",
+   "英文修改"
   ]
  },
  {

@@ -314,13 +314,13 @@
     "previousImage": "/assets/social/native-media-remote-internship-20261030.png"
   },
   "/zh/services/personal-statement-support/": {
-    "title": "Personal Statement個人陳述與申請文書",
-    "image": "/assets/social/personal-statement-support-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "個人陳述",
+    "image": "/assets/social/personal-statement-support-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/personal-statement-support/index.html",
-    "previousImage": "/assets/social/native-personal-statement-support-20261030.png"
+    "previousImage": "/assets/social/personal-statement-support-share-20261124.png"
   },
   "/zh/services/phd-application-coaching/": {
     "title": "申博陪跑",

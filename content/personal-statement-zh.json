@@ -1,29 +1,242 @@
 {
   "slug": "personal-statement-support",
   "path": "/zh/services/personal-statement-support/",
-  "titleZh": "Personal Statement 個人陳述與申請文書協助｜海外督導 OTC",
-  "summaryZh": "個人陳述與申請文書協助：先確認範圍、報價與時間，付款後開始詳細審閱、批註及修訂複核。",
-  "shareImageZh": "/assets/social/personal-statement-support-share-20261124.png",
-  "socialImageVersion": "v=20261124-us-style",
+  "titleZh": "個人陳述與申請文書｜PS、SOP、UCAS三題、初稿回饋與英文修改｜海外督導 OTC",
+  "summaryZh": "按課程題目整理真實經歷、討論結構、審閱初稿與修改英文，分清UCAS本科、碩士SOP及申請短文。先確認範圍、報價及付款，再開始詳細審閱與修訂複核。",
+  "shareImageZh": "/assets/social/personal-statement-support-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "sections": [
-    {
-      "heading": "服務內容",
-      "html": "<ul><li><strong>未有初稿：</strong>整理經歷、討論重點，列出大綱，協助你開始寫。</li><li><strong>已有初稿：</strong>調整內容和段落，指出需要補充的地方。</li><li><strong>英文修改：</strong>改善用詞和句子，保留你的意思。</li><li><strong>不同課程：</strong>按各校題目、字數及課程要求調整版本。</li></ul><p>例如寫課堂 project，除了交代做過甚麼，也要說清你的工作、學到甚麼，以及為何想繼續讀這一科。</p>"
-    },
-    {
-      "heading": "流程",
-      "html": "<ol><li>說明目標課程、文件語言與篇幅、截止日期及所需協助。</li><li>書面確認服務範圍、總價、修改輪次、交付時間及取消退款安排。</li><li><strong>確認委託並完成付款。</strong></li><li>材料齊全後，按約定開始詳細審閱、提供大綱、批註或修訂建議。</li><li>由你補充真實資料並確認修訂，我們按約定覆核；最終由你提交。</li></ol><p><strong>新委託先付款，再提供具體修改意見。</strong>首次聯絡僅確認需求、服務範圍、報價及預計完成時間，不交付逐項修訂指南。客戶確認報價並完成付款後，才開始詳細審閱、批註、修改建議及修訂複核。交付時間從約定付款及所需材料齊全後起計；既有已確認的個別約定按原約定履行。</p>"
-    },
-    {
-      "heading": "收費",
-      "html": "<p>按稿件長度、初稿情況、課程版本及修改輪次報價。<strong>香港申請及單獨文書服務須收費。</strong></p><p>如你的海外院校申請適用免費代辦，我們會說明哪些文書協助已包含；額外修改或翻譯另計。院校申請費、學費及其他第三方費用另付。</p><p>開始前書面確認總額、適用稅項、交付時間及付款、取消與退款安排。</p><p>已有英碩英文初稿？查看<a href=\"/zh/services/uk-sop-editing/\">英碩 SOP 修改及預估價格</a>。該頁價格只適用於列明的服務。</p>"
-    },
-    {
-      "heading": "申請須知",
-      "html": "<p>文書須反映你的真實經歷，並符合院校對外部協助及 AI 使用的規定。我們不編造經歷、不保證錄取。</p><p>首次聯絡毋須證件，稿件可遮去姓名、學號及聯絡資料。</p>"
-    }
-  ],
-  "socialImageSource": "share-only"
+  "socialImageSource": "share-only",
+  "name": "個人陳述",
+  "socialTitleZh": "個人陳述",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "個人陳述",
+    "tabs": [
+      {
+        "id": "type",
+        "label": "文書類型"
+      },
+      {
+        "id": "plan",
+        "label": "構思初稿"
+      },
+      {
+        "id": "edit",
+        "label": "修改複核"
+      },
+      {
+        "id": "rules",
+        "label": "申請要求"
+      },
+      {
+        "id": "fees",
+        "label": "費用流程"
+      },
+      {
+        "id": "start",
+        "label": "開始諮詢"
+      }
+    ],
+    "searchPlaceholder": "搜尋 PS、SOP、UCAS、初稿",
+    "tipLabel": "文書準備",
+    "tip": "先讀目標課程的題目、篇幅與外部協助規定；申請人的想法、經歷及最終表達應由本人負責。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "type-0",
+        "tab": "type",
+        "region": "文書類型",
+        "title": "文件比較",
+        "desc": "<table><thead><tr><th>文件</th><th>常見重點</th><th>先確認</th></tr></thead><tbody><tr><td>PS／SOP</td><td>動機、學術準備、課程適配與目標</td><td>實際題目、篇幅及指定內容</td></tr><tr><td>UCAS 本科</td><td>以三題說明學科動機與準備</td><td>總字符與每題最低要求</td></tr><tr><td>申請短文</td><td>回答個別經歷、價值或獎項題目</td><td>逐題限制及與主文是否重複</td></tr><tr><td>研究計畫</td><td>研究問題、方法與可行性</td><td>獨立研究文件要求，另議服務</td></tr></tbody></table><p>PS 與 SOP 名稱可因院校而異，不能只按名稱套同一篇。</p>",
+        "wide": true
+      },
+      {
+        "id": "type-1",
+        "tab": "type",
+        "region": "文書類型",
+        "title": "本科升學",
+        "desc": "<p>適用本科及 Asso／HD 銜接等申請，先理解學科選擇、已修課程與後續學習目標。轉系時說明原專業可延伸的準備及尚需補足部分，不只寫「一直有興趣」。</p>",
+        "primary": {
+          "label": "升學資料 →",
+          "href": "/zh/asso-hd-university-progression/"
+        }
+      },
+      {
+        "id": "type-2",
+        "tab": "type",
+        "region": "文書類型",
+        "title": "碩士申請",
+        "desc": "<p>按授課型、研究型及課程題目選素材，說清已有訓練、想深入的問題與為何適合該課程。研究計畫、寫作樣本與個人陳述是不同文件，篇幅與評量目的另查。</p>",
+        "primary": {
+          "label": "校方範例 →",
+          "href": "https://www.ox.ac.uk/admissions/graduate/application-guide/supporting-documents/statement"
+        }
+      },
+      {
+        "id": "type-3",
+        "tab": "type",
+        "region": "文書類型",
+        "title": "申請短文",
+        "desc": "<p>獎學金或院校補充題先逐題整理要求，再分配例子。領導、社群、挫折或職涯問題應有相應事實，不把同一段通用自傳貼進每題。</p>"
+      },
+      {
+        "id": "section-1",
+        "tab": "plan",
+        "region": "構思初稿",
+        "title": "未有初稿",
+        "desc": "<p>先整理本人課程、閱讀、項目、實習及選科想法，討論哪些經歷能回答題目，在院校允許範圍內形成寫作提綱。沒有直接相關經歷時，如實說明可遷移準備，不編造研究或職務。</p>"
+      },
+      {
+        "id": "plan-5",
+        "tab": "plan",
+        "region": "構思初稿",
+        "title": "素材選擇",
+        "desc": "<p>素材表可列「背景與問題、本人做法、可核實成果、反思、與課程關聯」。優先保留能說清自己貢獻的例子，簡歷已列的事項不必逐條重複。</p>"
+      },
+      {
+        "id": "plan-6",
+        "tab": "plan",
+        "region": "構思初稿",
+        "title": "學術動機",
+        "desc": "<p>把感興趣的問題連到已讀、已學或已做的事情，再說明還想學什麼。少用名校光環、排名或空泛熱情代替對課程內容的理解。</p>"
+      },
+      {
+        "id": "plan-7",
+        "tab": "plan",
+        "region": "構思初稿",
+        "title": "項目例子",
+        "desc": "<p>教學假設：化工學生轉材料方向，可先整理某次實驗中的材料選擇、自己負責的測試、結果及反思，再比較目標課程能補足的訓練。這是寫作思路示例，不是真實客戶個案或可直接提交的代寫段落。</p>"
+      },
+      {
+        "id": "edit-8",
+        "tab": "edit",
+        "region": "修改複核",
+        "title": "初稿回饋",
+        "desc": "<p>審閱是否答題、論點與例子是否相符、段落順序是否清楚，標出需要本人補充或核實的內容。回饋重點是讓申請人知道怎樣改，不把文字改得華麗但改掉原意。</p>"
+      },
+      {
+        "id": "edit-9",
+        "tab": "edit",
+        "region": "修改複核",
+        "title": "英文修改",
+        "desc": "<p>在院校允許的外部協助範圍內檢查文法、用詞、清楚度與重複表達。遇到意思不明先確認，不擴大職責、成果或語言能力，也不承諾以潤色改變錄取結果。</p>"
+      },
+      {
+        "id": "edit-10",
+        "tab": "edit",
+        "region": "修改複核",
+        "title": "課程版本",
+        "desc": "<p>按不同課程題目、內容與篇幅調整素材及重點，核對校名、學位名稱和課程資訊。改版本不只是替換校名；新增學校、文件或大幅轉題須先確認服務範圍。</p>"
+      },
+      {
+        "id": "edit-11",
+        "tab": "edit",
+        "region": "修改複核",
+        "title": "交付複核",
+        "desc": "<p>開始前約定交付批註、問題清單、提綱或允許的語言修訂，以及檔案格式與修改輪次。申請人補充資料後依約覆核，保留版本，最終由本人確認提交。</p>"
+      },
+      {
+        "id": "rules-12",
+        "tab": "rules",
+        "region": "申請要求",
+        "title": "UCAS 三題",
+        "desc": "<p>2026 入學起的 UCAS 本科個人陳述採三題：為何讀這一學科、學歷與學習如何準備、課外還做過哪些準備及其幫助。三題合計上限 4,000 字符（含空格），每題至少 350 字符；這不是 4,000 個英文單字。</p>",
+        "primary": {
+          "label": "UCAS 指南 →",
+          "href": "https://www.ucas.com/applying/applying-to-university/writing-your-personal-statement/how-to-write-your-personal-statement"
+        }
+      },
+      {
+        "id": "rules-13",
+        "tab": "rules",
+        "region": "申請要求",
+        "title": "題目篇幅",
+        "desc": "<p>先提供申請系統與課程官方要求，分清字符、英文單字、頁數及指定問題。不同學位與院校不共用 UCAS 限制；涉及研究計畫、附件或指定模板時分別核對。</p>"
+      },
+      {
+        "id": "section-4",
+        "tab": "rules",
+        "region": "申請要求",
+        "title": "外部協助",
+        "desc": "<p>以牛津研究生要求為例，文件須為申請人自己的工作，內容與表達都應反映本人。各校對他人批改、翻譯及工具的允許程度不同，先確認才安排協助；不代寫、不買範文、不編造經歷。</p>",
+        "primary": {
+          "label": "校方要求 →",
+          "href": "https://www.ox.ac.uk/admissions/graduate/application-guide/supporting-documents/statement"
+        }
+      },
+      {
+        "id": "rules-15",
+        "tab": "rules",
+        "region": "申請要求",
+        "title": "AI 規定",
+        "desc": "<p>牛津研究生當期指引允許拼字文法檢查等用途，但不允許用 AI 代寫申請文件、生成想法論證，或把支持材料翻成英文；初步研究的使用亦有申報要求。這是單校例子，不可套成所有院校規則。</p>",
+        "primary": {
+          "label": "AI 指引 →",
+          "href": "https://www.ox.ac.uk/admissions/graduate/application-guide/starting-your-application/using-artificial-intelligence-in-your-graduate-application"
+        }
+      },
+      {
+        "id": "section-3",
+        "tab": "fees",
+        "region": "費用流程",
+        "title": "費用安排",
+        "desc": "<p>按稿件語言與長度、初稿狀況、課程版本、協助內容及修改輪次報價。香港申請及單獨文書服務須收費；適用免費院校代辦時，另確認已包含哪些文書協助，額外修改或翻譯分開列明。</p><p>新委託先書面確認範圍、總價、適用稅項、輪次、交付、付款及取消退款安排。完成付款且所需材料齊全後，才開始詳細審閱、批註、逐項建議與複核；首次聯絡只確認需求及概括範圍，不先交付詳細修訂指南。既有已確認個別約定按原約定履行。</p><p>院校申請費、學費及其他第三方費用另付。已有英碩英文初稿者可查專項 SOP 修改；該頁價格只適用列明範圍。</p>",
+        "primary": {
+          "label": "SOP 修改 →",
+          "href": "/zh/services/uk-sop-editing/"
+        },
+        "wide": true
+      },
+      {
+        "id": "section-2",
+        "tab": "fees",
+        "region": "費用流程",
+        "title": "服務流程",
+        "desc": "<ol><li>提供課程連結、題目、文件狀態及截止日期。</li><li>確認可承接內容、報價、輪次與時間安排。</li><li>依約啟動，整理素材或審閱初稿。</li><li>申請人補充真實資料與修改，依約複核。</li><li>本人核實最終版本並提交。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "fees-18",
+        "tab": "fees",
+        "region": "費用流程",
+        "title": "時間安排",
+        "desc": "<p>截止日期連時區一起確認，另留本人補充、修改與系統上傳時間。急件先確認能否承接；新增版本或補資料可能影響時程，不保證任何時限的即日交付。</p>"
+      },
+      {
+        "id": "contact",
+        "tab": "start",
+        "region": "開始諮詢",
+        "title": "準備資料",
+        "desc": "<p>先提供目標國家、學位與課程連結，官方題目及篇幅，截止日期與時區，文件語言及初稿狀態。說明想整理素材、獲取回饋或檢查英文，未定可留空。</p>"
+      },
+      {
+        "id": "start-20",
+        "tab": "start",
+        "region": "開始諮詢",
+        "title": "文件保護",
+        "desc": "<p>首次毋須提交證件；稿件、成績與簡歷可遮去姓名、學號及聯絡資料。只提供與約定協助有關的內容，第三方或研究項目敏感資料先移除。</p>"
+      },
+      {
+        "id": "start-21",
+        "tab": "start",
+        "region": "開始諮詢",
+        "title": "延伸閱讀",
+        "desc": "<p>先用證據清單整理自己確實完成的學習、項目與反思，再檢查每個例子如何支持申請動機。</p>",
+        "primary": {
+          "label": "證據清單 →",
+          "href": "/zh/insights/uk-personal-statement-evidence-first-checklist/"
+        }
+      },
+      {
+        "id": "start-22",
+        "tab": "start",
+        "region": "開始諮詢",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/uk-sop-editing/\">SOP 修改</a> · <a href=\"/zh/services/phd-application-coaching/\">申博輔導</a> · <a href=\"/application-service-standards/\">服務準則</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。實際題目、字數及可接受協助以申請院校當期要求為準。"
+  }
 }

@@ -130,3 +130,6 @@ require("./scripts/render-australia-welder-service.cjs");
 
 // Preserve current US visa guidance and its discovery entries.
 require("./scripts/render-us-visa-support.cjs");
+
+// Preserve current Chinese personal statement support.
+require("./scripts/render-personal-statement-zh.cjs");
