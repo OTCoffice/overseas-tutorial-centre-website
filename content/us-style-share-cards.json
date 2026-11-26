@@ -541,12 +541,12 @@
  {
   "route": "/zh/services/korea-undergraduate-application/",
   "slug": "korea-undergraduate-application",
-  "head": "韓國本科申請",
+  "head": "韓國本科",
   "en": "Korea Undergraduate Application",
   "items": [
-   "語言要求",
-   "無語言錄取",
-   "申請材料與簽證"
+   "新生插班",
+   "語言路線",
+   "材料費用"
   ]
  },
  {
