@@ -80,6 +80,7 @@ for(const c of selectedData){
   body = body.replace('<h1>語校聯盟｜日本</h1>', '<h1>日本語言學校</h1>')
    .replace('<div class="layout"><div>', '<div>').replace(`</div>${service(c.name)}</div></main>`, '</div></main>')
    .replace(process, guidance+process)
+   .replace('<h2>資料說明</h2>','<h2>資料說明</h2><p>新增機構的名稱、所在地及聯絡網站依 <a href="https://www.studyinjapan.go.jp/en/planning/brochures/ukraine-2.html">Study in Japan 機構資料（2026 年 11 月 17 日）</a>整理。該來源記載特定支援計畫。本頁使用其機構資料，個別申請人的課程、學費與受理情況請向校方查詢。</p>')
    .replace('<a href="#process">申請流程 ↓</a>', '<a href="#fees">費用與退費 ↓</a><a href="#process">申請流程 ↓</a>');
   write(share.path,share.titleZh,share.descriptionZh,japanSchoolCards(body),c.slug,{
    image:share.shareImageZh,imageWidth:share.socialImageWidth,imageHeight:share.socialImageHeight

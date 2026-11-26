@@ -3438,12 +3438,173 @@
         "url": "https://www.nagano21jp.com/",
         "type": "語言學校",
         "summary": "位於長野市。短期旁聽、家庭同行及住宿是否可安排，須先向校方確認。"
+      },
+      {
+        "name": "Hitachi Sakura Japanese Language School",
+        "city": "茨城縣",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "http://www.hitachi-sakura.com/"
+      },
+      {
+        "name": "Orai International Exchange Academy",
+        "city": "茨城縣",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://www.oarai-academy.com/index.html"
+      },
+      {
+        "name": "Fukaya International Foreign Languages Academy",
+        "city": "埼玉縣",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://fukayakgg.academy/"
+      },
+      {
+        "name": "Urawa International Education Center",
+        "city": "埼玉縣",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://uiec.jp/"
+      },
+      {
+        "name": "Meiyuu Japanese Language School",
+        "city": "千葉縣",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://meiyuu-jls.com/us/"
+      },
+      {
+        "name": "ARC Tokyo Japanese Language School",
+        "city": "東京都",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://www.arc.ac.jp/Tokyo/"
+      },
+      {
+        "name": "Tokyo Kogakuin Japanese Language School",
+        "city": "東京都",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://www.technos-jpschool.com/"
+      },
+      {
+        "name": "Aoyama International Education Institute",
+        "city": "東京都",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://www.aoyama-international.com/en/institute-outline.html"
+      },
+      {
+        "name": "Kokusho Japanese Language School",
+        "city": "東京都",
+        "region": "關東",
+        "type": "日語教育機構",
+        "url": "https://www.kokusho-edu.jp/"
+      },
+      {
+        "name": "Shizuoka International School",
+        "city": "靜岡縣",
+        "region": "中部",
+        "type": "日語教育機構",
+        "url": "http://www.sins.co.jp/"
+      },
+      {
+        "name": "Nagoya International School of Japanese Language",
+        "city": "愛知縣",
+        "region": "中部",
+        "type": "日語教育機構",
+        "url": "http://nagoyais.com/"
+      },
+      {
+        "name": "Central Japan Japanese Language School",
+        "city": "愛知縣",
+        "region": "中部",
+        "type": "日語教育機構",
+        "url": "http://cj-manabi.nagoya/"
+      },
+      {
+        "name": "SPC Japanese College",
+        "city": "愛知縣",
+        "region": "中部",
+        "type": "日語教育機構",
+        "url": "https://www.spcjapan.me/jp-school"
+      },
+      {
+        "name": "Nagoya YWCA School of Japanese Language",
+        "city": "愛知縣",
+        "region": "中部",
+        "type": "日語教育機構",
+        "url": "https://ywca.nagoya/en/"
+      },
+      {
+        "name": "Kyoto Japanese Language School",
+        "city": "京都府",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "https://kjls.or.jp/"
+      },
+      {
+        "name": "Nihongo Center",
+        "city": "京都府",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "https://nihongo-center.com/"
+      },
+      {
+        "name": "SEIFU Institute of Information Technology",
+        "city": "大阪府",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "https://jsus.info/"
+      },
+      {
+        "name": "Sochi International Academy",
+        "city": "兵庫縣",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "http://sochi-nihongo.com/"
+      },
+      {
+        "name": "AMA Japan College",
+        "city": "兵庫縣",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "https://www.amajc.ac.jp/"
+      },
+      {
+        "name": "Hanamaru Japanese Language School Shimane",
+        "city": "島根縣",
+        "region": "中國地方",
+        "type": "日語教育機構",
+        "url": "https://en.hanamarujapan.com/"
+      },
+      {
+        "name": "COTO College",
+        "city": "熊本縣",
+        "region": "九州與沖繩",
+        "type": "日語教育機構",
+        "url": "https://www.coto.ac.jp/"
+      },
+      {
+        "name": "Japan Institute of Culture & Economics by Gores Academy",
+        "city": "沖繩縣",
+        "region": "九州與沖繩",
+        "type": "日語教育機構",
+        "url": "https://gores.ac.jp/en/"
+      },
+      {
+        "name": "WELL Japanese Language School",
+        "city": "大阪府",
+        "region": "關西",
+        "type": "日語教育機構",
+        "url": "http://www.healthcare-jinzai.or.jp/japanese-school/school_info.html"
       }
     ],
     "intro": "比較東京、大阪、北海道及長野等地的日語學校，按短期學習或較長期課程選擇。",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026 年 11 月 26 日",
     "notion": "https://overseasuk.notion.site/3ebfd1e7e1208183ae29dfcd7e93379f",
-    "updatedAt": "2026 年 10 月 14 日"
+    "updatedAt": "2026 年 11 月 26 日"
   },
   {
     "slug": "south-korea",
