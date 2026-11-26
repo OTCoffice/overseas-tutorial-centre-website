@@ -118,3 +118,9 @@ require('./scripts/render-japan-welder.cjs');
 
 // Preserve Japan highly skilled professional guidance and calculator.
 require("./scripts/render-japan-hsp.cjs");
+
+// Preserve the source-backed Australian electrician service.
+require("./scripts/render-australia-electrician-service.cjs");
+
+// Preserve Australian trade pathways and discovery links.
+require("./scripts/render-australia-blue-collar-service.cjs");

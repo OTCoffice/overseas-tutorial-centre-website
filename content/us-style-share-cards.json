@@ -581,5 +581,38 @@
    "博士研究",
    "簽證資金"
   ]
+ },
+ {
+  "route": "/zh/services/europe-exchange-support/",
+  "slug": "europe-exchange-support",
+  "head": "歐洲交換",
+  "en": "Europe Exchange Support",
+  "items": [
+   "交換訪問",
+   "選課學分",
+   "費用升碩"
+  ]
+ },
+ {
+  "route": "/zh/services/australia-electrician-support/",
+  "slug": "australia-electrician-support",
+  "head": "澳洲電工",
+  "en": "Australian Electrician Pathways",
+  "items": [
+   "入行途徑",
+   "技能考牌",
+   "時間成本"
+  ]
+ },
+ {
+  "route": "/zh/services/australia-blue-collar/",
+  "slug": "australia-blue-collar",
+  "head": "澳洲藍領",
+  "en": "Australian Trade Pathways",
+  "items": [
+   "職業方向",
+   "培訓考牌",
+   "時間成本"
+  ]
  }
 ]

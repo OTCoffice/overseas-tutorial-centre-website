@@ -168,14 +168,14 @@
     "previousImage": "/assets/social/native-europe-agriculture-internship-20261030.png"
   },
   "/zh/services/europe-exchange-support/": {
-    "title": "歐洲交換陪跑",
-    "image": "/assets/social/europe-exchange-share-20261118-v1.png",
-    "version": "v=20261118-v1",
+    "title": "歐洲交換",
+    "image": "/assets/social/europe-exchange-support-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
-    "height": 440,
+    "height": 600,
     "file": "zh/services/europe-exchange-support/index.html",
     "previousImage": "/assets/social/europe-exchange-service-0ce826552b68.png",
-    "sharePageVersion": "20261118-cover-v1"
+    "sharePageVersion": "20261126-1"
   },
   "/zh/services/france-business-schools/": {
     "title": "法國高商留學",
@@ -613,5 +613,21 @@
     "height": 440,
     "cardType": "summary_large_image",
     "sharePageVersion": "20261122-gold-red"
+  },
+  "/zh/services/australia-electrician-support/": {
+    "title": "澳洲電工",
+    "image": "/assets/social/australia-electrician-support-share-20261126.png",
+    "version": "v=20261126-1",
+    "width": 1200,
+    "height": 600,
+    "file": "zh/services/australia-electrician-support/index.html"
+  },
+  "/zh/services/australia-blue-collar/": {
+    "title": "澳洲藍領",
+    "image": "/assets/social/australia-blue-collar-share-20261126.png",
+    "version": "v=20261126-1",
+    "width": 1200,
+    "height": 600,
+    "file": "zh/services/australia-blue-collar/index.html"
   }
 }

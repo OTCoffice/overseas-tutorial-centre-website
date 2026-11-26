@@ -1,0 +1,240 @@
+{
+  "slug": "australia-electrician-support",
+  "path": "/zh/services/australia-electrician-support/",
+  "name": "澳洲電工",
+  "titleZh": "澳洲電工規劃｜轉行、OTSR、補差培訓、工時與考牌支援｜海外督導 OTC",
+  "summaryZh": "轉行電工先比較資格、培訓、工作權利、監督經驗與完整成本。海外技工與零基礎分開規劃，說明 OTSR、州牌照及 OTC 文件與課程諮詢服務。",
+  "socialTitleZh": "澳洲電工",
+  "shareImageZh": "/assets/social/australia-electrician-support-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "澳洲電工",
+    "searchPlaceholder": "搜尋資格、學分、費用",
+    "tabs": [
+      {
+        "id": "routes",
+        "label": "入行途徑"
+      },
+      {
+        "id": "otsr",
+        "label": "技能評估"
+      },
+      {
+        "id": "licence",
+        "label": "培訓考牌"
+      },
+      {
+        "id": "cost",
+        "label": "時間成本"
+      },
+      {
+        "id": "prepare",
+        "label": "申請準備"
+      },
+      {
+        "id": "service",
+        "label": "規劃服務"
+      }
+    ],
+    "tipLabel": "申請須知",
+    "tip": "報課前先確認：你的背景走哪條路、能否合法受訓工作，以及誰確認最終牌照資格。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "routes-0",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "轉行比較",
+        "desc": "<p>博士與技職是不同職業選擇，先比較課程品質、研究或實作興趣、工作方式、時間及資金。不要只因學歷容易取得或電工被稱為短缺職業，就支付兩套學費；先取得可執行的完整方案。</p>"
+      },
+      {
+        "id": "routes-1",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "零基礎者",
+        "desc": "<p>沒有電工訓練與工作經驗，不應直接套用海外熟練技工 OTSR 路線。先查能參加的正式職訓、學徒或其他合規課程，以及雇主、州訓練合約、實作與牌照要求；課程招生與可拿牌是兩項審核。</p>",
+        "primary": {
+          "label": "學徒範例 →",
+          "href": "https://www.apprenticeships.vic.gov.au/electrician-apprenticeship"
+        }
+      },
+      {
+        "id": "routes-2",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "海外技工",
+        "desc": "<p>已有海外資格及實際電工經驗者，先向 TRA 認可的評估機構確認適用計畫、職業與證據，再安排技能評估。電氣工程學位、維修經驗或一般施工工作不自動等於電工資格。</p>",
+        "primary": {
+          "label": "官方路線 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/licensing"
+        }
+      },
+      {
+        "id": "otsr-3",
+        "tab": "otsr",
+        "region": "技能評估",
+        "title": "評估選擇",
+        "desc": "<p>按職業、護照、資格、工作經驗與評估用途確認應走的 TRA 計畫及認可評估機構。不把同一套年資、費用或流程套給所有人；技術移民評估、澳洲學歷與州牌照分開核對。</p>",
+        "primary": {
+          "label": "職業資料 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/electrician-general-and-special-class"
+        }
+      },
+      {
+        "id": "otsr-4",
+        "tab": "otsr",
+        "region": "技能評估",
+        "title": "技能記錄",
+        "desc": "<p>OTSR 是 Offshore Technical Skills Record，記錄評估中已證明的對應技術能力。它不是完整澳洲 VET 資格，也不是可獨立從事電氣安裝的正式牌照，之後仍須補差培訓及受監督工作。</p>",
+        "primary": {
+          "label": "OTSR 說明 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/licensing"
+        }
+      },
+      {
+        "id": "otsr-5",
+        "tab": "otsr",
+        "region": "技能評估",
+        "title": "工作證據",
+        "desc": "<p>按評估機構清單整理資格與訓練、職責、日期、工時及可驗證的僱用付款證據；自僱另查所需文件。證據須反映本人真實工作，不買工時、不補造雇主信，也不以一般助理工作冒充合資格電工作業。</p>"
+      },
+      {
+        "id": "licence-6",
+        "tab": "licence",
+        "region": "培訓考牌",
+        "title": "臨時牌照",
+        "desc": "<p>取得 OTSR 後，向工作所在地州／領地監管機構查臨時、受監督牌照或訓練許可。名稱、申請條件及工作範圍不同；獲准前不要自行接電氣安裝工作。</p>",
+        "primary": {
+          "label": "州別入口 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/electrician-general-and-special-class"
+        }
+      },
+      {
+        "id": "licence-7",
+        "tab": "licence",
+        "region": "培訓考牌",
+        "title": "補差培訓",
+        "desc": "<p>Australian Context Gap Training 補足澳洲安全與技術要求。確認 RTO 有當期課程授權、接受你的評估文件、安排哪些實作與考核，以及完成後可取得的資格；短期備考班不等於完整補差課程。</p>",
+        "primary": {
+          "label": "維州範例 →",
+          "href": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/interstate-and-international-workers/international-electrical-workers"
+        }
+      },
+      {
+        "id": "licence-8",
+        "tab": "licence",
+        "region": "培訓考牌",
+        "title": "監督經驗",
+        "desc": "<p>以維州海外技工路線為例，持受監督牌照期間須至少完成 12 個月電氣安裝工作，並提供雇主證明；還須完成補差資格及要求的考核。這是維州例子，不是全澳通用工時或整條路只需一年。</p>",
+        "primary": {
+          "label": "正式要求 →",
+          "href": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae"
+        }
+      },
+      {
+        "id": "licence-9",
+        "tab": "licence",
+        "region": "培訓考牌",
+        "title": "正式考牌",
+        "desc": "<p>向州／領地確認最後考試、資格、經驗及申請費。維州 A Grade 可作僱員獨立執行電氣安裝；要以承包商身分承接工程，還須核對 REC 等註冊要求，不能把個人牌照當作開業許可。</p>",
+        "primary": {
+          "label": "牌照範例 →",
+          "href": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae"
+        }
+      },
+      {
+        "id": "cost-10",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "時間比較",
+        "desc": "<table><thead><tr><th>背景</th><th>時間參考</th><th>另留時間</th></tr></thead><tbody><tr><td>零基礎學徒</td><td>維州全日制電工學徒通常 4 年</td><td>資格審核、找雇主、簽合約及最終考核</td></tr><tr><td>海外熟練技工</td><td>維州受監督安裝工作至少 12 個月</td><td>評估、許可、補差、找工作及牌照審核</td></tr></tbody></table><p>培訓和工作能否並行由實際安排決定，不把等待期、重考或轉州當作零成本。</p>",
+        "wide": true
+      },
+      {
+        "id": "cost-11",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "成本清單",
+        "desc": "<table><thead><tr><th>階段</th><th>索取的報價</th></tr></thead><tbody><tr><td>評估</td><td>文件審核、技術／實作評估、翻譯與重評</td></tr><tr><td>培訓考牌</td><td>課程、工具防護、考試重考、許可及牌照</td></tr><tr><td>在澳生活</td><td>住宿押金、交通保險、簽證、等待及收入差額</td></tr></tbody></table><p>各項以對應機構的當期書面報價計算，沒有可套給所有人的全包價。不要拿錯計畫的技能評估費，當作電工拿牌總費用。</p>",
+        "wide": true
+      },
+      {
+        "id": "cost-12",
+        "tab": "cost",
+        "region": "時間成本",
+        "title": "工作資格",
+        "desc": "<p>課程錄取、OTSR、牌照與簽證工作權利分開確認。myGov 說明國際學生不能參加澳洲政府 Australian Apprenticeships 計畫；不能把國內學徒路線直接當留學生課程。具體可行的訓練與工作安排，須向州機構、RTO 及合資格移民專業人士確認。</p>",
+        "primary": {
+          "label": "學徒資格 →",
+          "href": "https://my.gov.au/en/services/education/doing-an-apprenticeship/before-you-start-an-apprenticeship/starting-an-apprenticeship"
+        }
+      },
+      {
+        "id": "prepare-13",
+        "tab": "prepare",
+        "region": "申請準備",
+        "title": "課程核對",
+        "desc": "<p>先取正式課程名稱與代碼、RTO 編號、校區、總費用及退費條款；境外學生另查適用的 CRICOS 資格。請校方書面說明實作安排、是否需自找雇主，以及該課程如何銜接目標州牌照。</p>"
+      },
+      {
+        "id": "prepare-14",
+        "tab": "prepare",
+        "region": "申請準備",
+        "title": "付款條件",
+        "desc": "<p>付款前取得課程與監管機構的資格回覆、完整預算及時間表。把「找不到合資格雇主」「評估未過」「工作權利不符」列成停止或改案條件，勿把尚未找到的電工工作或未獲批簽證寫成保證收入與結果。</p>"
+      },
+      {
+        "id": "prepare-15",
+        "tab": "prepare",
+        "region": "申請準備",
+        "title": "準備資料",
+        "desc": "<p>先提供現有學歷、電工訓練與工作年資、目前所在國與簽證類別、目標州、英語程度、預算及考慮的課程。未定可留空；初次毋須傳護照、證件號或完整薪資銀行文件。</p>"
+      },
+      {
+        "id": "service-16",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務範圍",
+        "desc": "<p>OTC 協助比較課程與轉行選項、整理資格問題清單、文件及證據目錄、時間成本表，並按委託協調校方回覆。技能評估由認可機構完成，牌照由監管機關決定；簽證個案意見交合資格專業人士處理。</p>"
+      },
+      {
+        "id": "service-17",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務費用",
+        "desc": "<p>初步背景了解免費；詳細課程比較、文件整理及持續跟進按範圍報價，確認服務、期限、交付、付款及取消規則後開始。課程、評估、考試、牌照、翻譯、簽證及生活等第三方費用另付，不保證雇主、牌照或移民結果。</p>"
+      },
+      {
+        "id": "service-18",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "規劃流程",
+        "desc": "<ol><li>確認背景及目標州，區分零基礎與海外技工。</li><li>向 RTO、評估機構及監管機關確認資格與銜接。</li><li>取得逐項報價、雇主及工作權利安排。</li><li>比較與原升學選項的總時間、成本及停止條件。</li><li>確認可行及服務約定後，再安排報名與文件。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "service-19",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "延伸閱讀",
+        "desc": "<p>原有 OTSR 文章提供技能記錄與牌照基本概念；本頁說明完整規劃及可委託支援。州規則與考核要求仍依申請當期官方資料。</p>",
+        "primary": {
+          "label": "OTSR 文章 →",
+          "href": "/zh/insights/australia-electrician-otsr-2026/"
+        }
+      },
+      {
+        "id": "service-20",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/change-of-major/\">轉系轉學</a> · <a href=\"/zh/services/visa-application-support/\">簽證申請</a> · <a href=\"/zh/course-selection-alliance/\">選課聯盟</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校及主管機關公告與書面回覆為準。"
+  }
+}

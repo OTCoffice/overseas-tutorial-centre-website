@@ -214,7 +214,8 @@ function pageUtilityBar({ canonicalPath, canonicalUrl, title, locale = "en" }) {
     "/zh/reports/": "/zh/australia-office-presence/",
     "/zh/australia-universities/": "/zh/australia-office-presence/"
   };
-  const parentPath = parentFallbacks[parentPathFor(canonicalPath)] || parentPathFor(canonicalPath);
+  const pageParents = {"/zh/services/australia-electrician-support/": "/zh/services/australia-blue-collar/"};
+  const parentPath = pageParents[canonicalPath] || parentFallbacks[parentPathFor(canonicalPath)] || parentPathFor(canonicalPath);
   const isZh = locale === "zh";
   const shareText = `${title} | OTC Study Hub`;
   const parentLabel = isZh ? (parentPath === "/zh/" ? "返回中文首頁" : "返回上級頁面") : "Back to parent page";

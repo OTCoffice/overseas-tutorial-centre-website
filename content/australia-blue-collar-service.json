@@ -1,0 +1,184 @@
+{
+  "slug": "australia-blue-collar",
+  "path": "/zh/services/australia-blue-collar/",
+  "name": "澳洲藍領",
+  "titleZh": "澳洲藍領規劃｜技職課程、技能評估、考牌與工作準備｜海外督導 OTC",
+  "summaryZh": "整合澳洲電工、焊接、建築與其他技職方向，區分零基礎培訓、海外經驗認可、州牌照與工作權利，先比較資格、時間及全程成本。",
+  "socialTitleZh": "澳洲藍領",
+  "shareImageZh": "/assets/social/australia-blue-collar-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "bodyFormat": "card-directory",
+  "directory": {
+    "title": "澳洲藍領",
+    "searchPlaceholder": "搜尋資格、學分、費用",
+    "tabs": [
+      {
+        "id": "jobs",
+        "label": "職業方向"
+      },
+      {
+        "id": "routes",
+        "label": "入行途徑"
+      },
+      {
+        "id": "check",
+        "label": "資格成本"
+      },
+      {
+        "id": "service",
+        "label": "規劃服務"
+      }
+    ],
+    "tipLabel": "申請須知",
+    "tip": "課程、技能評估、執業牌照與簽證分別審核；本頁是方向匯總，不是完整職業或院校名錄。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "jobs-0",
+        "tab": "jobs",
+        "region": "職業方向",
+        "title": "電工考牌",
+        "desc": "<p>海外技工先核對 OTSR、臨時牌照、補差及監督經驗；零基礎另查培訓與雇主要求。電工詳頁包括維州例子、付款前核對與時間成本。</p>",
+        "primary": {
+          "label": "電工詳頁 →",
+          "href": "/zh/services/australia-electrician-support/"
+        }
+      },
+      {
+        "id": "jobs-1",
+        "tab": "jobs",
+        "region": "職業方向",
+        "title": "焊接金工",
+        "desc": "<p>先分清焊接、金屬製造等實際職責及對應評估職業，整理課程、工作與實作證據。日本證書或工作經驗不自動換成澳洲資格；已有日本焊工赴澳指南可延伸查閱。</p>",
+        "primary": {
+          "label": "焊工指南 →",
+          "href": "/zh/insights/japan-welder-australia-pathway/"
+        }
+      },
+      {
+        "id": "jobs-2",
+        "tab": "jobs",
+        "region": "職業方向",
+        "title": "建築技工",
+        "desc": "<p>木工、砌磚、油漆等方向分別核對課程、實作與當地承包或工作要求。入場安全訓練、職業資格及承包商牌照不是同一件事，不能以短期安全證代替完整職訓。</p>",
+        "primary": {
+          "label": "技工資料 →",
+          "href": "/zh/australia-vet-tafe-pathways/trades-construction/"
+        }
+      },
+      {
+        "id": "jobs-3",
+        "tab": "jobs",
+        "region": "職業方向",
+        "title": "持牌工種",
+        "desc": "<p>電工、空調制冷與一般水管工屬 TRA 列出的持牌職業；海外技能認可後仍可能需要臨時許可、補差與監督工作。依目標州及實際工種查資格，不用電工流程代替其他行業。</p>",
+        "primary": {
+          "label": "牌照入口 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/licensing"
+        }
+      },
+      {
+        "id": "jobs-4",
+        "tab": "jobs",
+        "region": "職業方向",
+        "title": "其他技職",
+        "desc": "<p>汽修、廚藝等可列入比較，但實際工作、資格及評估用途各異。本頁不宣稱所有藍領職業都由 TRA 評估、都需同一牌照，或均有移民途徑；先確認正式職業及當期主管機構。</p>",
+        "primary": {
+          "label": "評估計畫 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/programs"
+        }
+      },
+      {
+        "id": "routes-5",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "零基礎者",
+        "desc": "<p>先看能參加的職訓及實作安排，再看雇主與資格銜接。國際學生不可直接套用 Australian Apprenticeships 計畫；等同或其他 VET 課程是否適合，須逐課核對實習及牌照要求。</p>",
+        "primary": {
+          "label": "學徒資格 →",
+          "href": "https://my.gov.au/en/services/education/doing-an-apprenticeship/before-you-start-an-apprenticeship/starting-an-apprenticeship"
+        }
+      },
+      {
+        "id": "routes-6",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "海外技工",
+        "desc": "<p>已有訓練及工作經驗，先核對職責、資格與證據能否符合適用技能評估，不必先假設重讀全套課程。TRA 計畫按職業、護照、受訓地與申請用途不同而選擇。</p>",
+        "primary": {
+          "label": "TRA 計畫 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/programs"
+        }
+      },
+      {
+        "id": "routes-7",
+        "tab": "routes",
+        "region": "入行途徑",
+        "title": "在澳畢業",
+        "desc": "<p>澳洲課程畢業後，是否適用 PSA、JRP 或其他計畫，須看資格與工種；持牌工種不能直接照搬其他技工的畢業生流程。找到工作、完成技能評估、取得牌照與簽證結果分開確認。</p>",
+        "primary": {
+          "label": "計畫查詢 →",
+          "href": "https://www.tradesrecognitionaustralia.gov.au/programs"
+        }
+      },
+      {
+        "id": "check-8",
+        "tab": "check",
+        "region": "資格成本",
+        "title": "課程核對",
+        "desc": "<p>按正式課程名稱、代碼、RTO 編號、校區、授權範圍及實作安排查證，境外學生另查適用的 CRICOS。要求校方說明誰找雇主、誰記錄工時、誰判定最後資格；不只看招生宣傳。</p>",
+        "primary": {
+          "label": "職訓資料 →",
+          "href": "/zh/australia-vet-tafe-pathways/"
+        }
+      },
+      {
+        "id": "check-9",
+        "tab": "check",
+        "region": "資格成本",
+        "title": "時間成本",
+        "desc": "<table><thead><tr><th>項目</th><th>付款前要有的資料</th></tr></thead><tbody><tr><td>培訓</td><td>總學費、實作、工具防護及重考費</td></tr><tr><td>認可考牌</td><td>評估、翻譯、補差、許可及牌照報價</td></tr><tr><td>工作生活</td><td>找雇主等待、工作權利、住宿交通及收入差額</td></tr></tbody></table><p>把課程、工作與審核放進同一時間表，按具體城市和期限估算，不使用全澳統一總價。</p>",
+        "wide": true
+      },
+      {
+        "id": "check-10",
+        "tab": "check",
+        "region": "資格成本",
+        "title": "工作權利",
+        "desc": "<p>入學與技能評估不自動授予工作權利，學徒、實習及受監督工作還須符合本人簽證條件。簽證、州提名及移民適用性另交合資格專業人士判斷，不把職業短缺或讀完課程當成保證永居。</p>"
+      },
+      {
+        "id": "service-11",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務內容",
+        "desc": "<p>OTC 提供課程與職業方向比較、資格問題清單、材料目錄、時間成本表及約定的校方溝通。電工已有獨立服務頁，其他方向先按個人背景確認可承接範圍；不冒充評估或牌照機關。</p>"
+      },
+      {
+        "id": "service-12",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "服務費用",
+        "desc": "<p>初步背景了解免費，獨立諮詢、文件整理及持續跟進依範圍書面報價，確認交付、期限、付款與取消規則後開始。學費、考試、評估、牌照、翻譯、簽證及生活等第三方費用另付。</p>"
+      },
+      {
+        "id": "service-13",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "準備資料",
+        "desc": "<p>提供目前學歷、職訓與工作年資、所在國及簽證類別、目標工種與州、英語程度、預算及考慮的課程；未定可留空。先完成資格與成本比較，再決定是否付學費。</p>"
+      },
+      {
+        "id": "service-14",
+        "tab": "service",
+        "region": "規劃服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/australia-electrician-support/\">澳洲電工</a> · <a href=\"/zh/services/visa-application-support/\">簽證申請</a> · <a href=\"/zh/course-selection-alliance/\">選課聯盟</a></p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校及主管機關公告與書面回覆為準。"
+  }
+}

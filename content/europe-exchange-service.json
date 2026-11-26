@@ -1,196 +1,240 @@
 {
   "slug": "europe-exchange-support",
   "path": "/zh/services/europe-exchange-support/",
-  "titleZh": "歐洲交換陪跑｜選課、學分與碩士申請",
-  "summaryZh": "歐洲交換選擇、選課與學分、文件及行前準備，按出發前、交換期間與返校後提供規劃和申請支援。",
-  "socialImageVersion": "v=20261118-v1",
+  "titleZh": "歐洲交換申請｜Erasmus+、選課學分、費用簽證與升碩安排｜海外督導 OTC",
+  "summaryZh": "分清校際交換、Erasmus+ 與自費訪問，核對提名、授課語言、ECTS、學分認可、預算與居留，兼顧均分、實習及碩士申請。",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
-  "socialImageHeight": 440,
-  "sections": [
-    {
-      "heading": "適合對象",
-      "paragraphs": [
-        "拿到交換機會，卻擔心影響均分、畢業或實習；準備出發，但選課、文件與住宿安排撞期；交換期間還要申請碩士；回校後不知道怎樣申請學分認可。",
-        "先告訴我們你的情況，我們會確認能幫忙的部分，以及哪些事需要你或學校直接處理。"
-      ],
-      "id": "section-1"
-    },
-    {
-      "heading": "出發前",
-      "paragraphs": [
-        "幫你整理交換與留校的比較表、選課與學分對照表、預算和總時間表。先問清楚交換成績如何計算、必修能否替代、何時出成績，再看會不會影響碩士申請。",
-        "按兩校要求整理提名、申請、語言和選課材料。需要問學校的問題列成清單，回覆也一起保存。帳號由你保管，最後提交的內容由你確認。"
-      ],
-      "id": "section-2"
-    },
-    {
-      "heading": "交換期間",
-      "paragraphs": [
-        "按約定時間一起看進度，更新選課變更、文件和截止日。有修課或出成績的問題，協助整理情況，方便你及早聯絡學校。",
-        "如果同時申請碩士，也會一起安排推薦信、語言成績、成績單和文書。文書可以協助梳理結構與修改表達，內容必須來自你的真實經歷；不代做課業或考試。"
-      ],
-      "id": "section-3"
-    },
-    {
-      "heading": "回校後",
-      "paragraphs": [
-        "按母校要求整理正式成績單、選課批准和課程大綱，跟進缺少的資料及學分認可進度。",
-        "把交換期間真正完成的課程項目、研究或作品整理到履歷與申請材料。學分是否認可、分數怎樣換算、是否錄取，由學校決定。"
-      ],
-      "id": "section-4"
-    },
-    {
-      "heading": "申請流程",
-      "paragraphs": [
-        "<ol><li>提供基本背景、交換安排及最近截止日。</li><li>確認兩校要求及申請日期。</li><li>書面確認服務範圍、跟進方式及費用。</li><li>整理選課、文件、預算與時間表。</li><li>按約定跟進，出現變更時更新安排。</li><li>完成約定工作，交回文件及尚待處理的事項。</li></ol>",
-        "這是教育規劃和學校溝通支援。當地監護、緊急救援、法律或移民事務，需要相應機構或合資格人士處理。"
-      ],
-      "id": "section-6"
-    },
-    {
-      "heading": "準備資料",
-      "paragraphs": [
-        "年級與專業；交換國家、院校及學期；目前均分及成績計算方式；想申請的碩士方向與入學年份；最急的截止日。不知道的部分可以留空。",
-        "初次不用提供護照；需要文件時，會先說明用途和傳送方式。成績資料可先遮去姓名及學號。",
-        "<a href=\"/zh/insights/europe-exchange-gpa-internship-masters-planning/\">閱讀完整指南：均分、實習與碩士申請怎樣一起安排 →</a>"
-      ],
-      "id": "section-7"
-    },
-    {
-      "heading": "費用",
-      "paragraphs": [
-        "<strong>初步評估免費：</strong>了解你的背景和最急的問題，指出需要先向學校確認的事項，再說明我們能提供哪些協助。",
-        "<strong>標準交換陪跑：人民幣¥2,988／10小時。</strong>包含一輪校內提名及一個接收院校申請的選項比較、材料與時間表、選課學分清單、校方溝通文字及行前準備。會議與文件工作均計入10小時；超時或新增工作先另行書面報價。開始前確認期限、回覆安排、付款及取消規則。",
-        "<strong>碩士申請代辦：</strong>符合 OTC 服務範圍的院校與課程，可適用免費申請代辦；這部分與交換陪跑分開說明。詳見<a href=\"/application-service-standards/\">申請服務準則</a>。 韓國碩士非合作院校標準申請人民幣¥6,000（最多6校），見<a href=\"/zh/services/korea-masters-application/\">韓國碩士申請服務</a>。",
-        "<strong>另需自付：</strong>院校收費、考試、翻譯認證、交通、住宿、保險、入境申請等第三方費用。新增支出會先確認。我們不保證交換名額、成績、學分、簽證、實習或錄取結果。",
-        "定價參考：<a href=\"https://www.admitwrite.com/home/service/index.html\">AdmitWrite 公開留學諮詢</a>的相近服務時薪，並非交換項目的市場平均或 OTC 原價折扣。原核查日期：2026-10-09。"
-      ],
-      "id": "scope"
-    }
-  ],
-  "shareImageZh": "/assets/social/europe-exchange-share-20261118-v1.png",
-  "socialTitleZh": "歐洲交換陪跑：選課與升碩安排",
+  "socialImageHeight": 600,
+  "shareImageZh": "/assets/social/europe-exchange-support-share-20261126.png",
+  "socialTitleZh": "歐洲交換",
   "socialImageSource": "share-only",
-  "sharePageVersion": "20261118-cover-v1",
+  "sharePageVersion": "20261126-1",
   "directory": {
-    "title": "歐洲交換陪跑｜選課、學分與碩士申請",
-    "subtitle": "歐洲交換選擇、選課與學分、文件及行前準備，按出發前、交換期間與返校後提供規劃和申請支援。",
-    "searchPlaceholder": "搜尋關鍵詞",
+    "title": "歐洲交換",
+    "searchPlaceholder": "搜尋資格、學分、費用",
     "tabs": [
       {
-        "id": "overview",
-        "label": "概況與選擇"
-      },
-      {
-        "id": "cost",
-        "label": "費用與服務"
+        "id": "routes",
+        "label": "交換途徑"
       },
       {
         "id": "apply",
-        "label": "申請與材料"
+        "label": "申請準備"
+      },
+      {
+        "id": "credits",
+        "label": "選課學分"
+      },
+      {
+        "id": "cost",
+        "label": "費用行前"
+      },
+      {
+        "id": "return",
+        "label": "在外返校"
+      },
+      {
+        "id": "service",
+        "label": "申請服務"
       }
     ],
-    "tip": "",
-    "groupTitle": "歐洲交換陪跑｜選課、學分與碩士申請要點",
+    "tipLabel": "申請須知",
+    "tip": "先查母校協議、提名及學分規則；歐洲、歐盟與申根不是同一範圍。",
+    "groupTitle": "全部要點",
     "cards": [
       {
         "id": "section-1",
-        "tab": "overview",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "01",
-        "title": "適合對象",
-        "chips": [],
-        "desc": "<p>拿到交換機會，卻擔心影響均分、畢業或實習；準備出發，但選課、文件與住宿安排撞期；交換期間還要申請碩士；回校後不知道怎樣申請學分認可。</p>",
-        "noteLabel": "提醒",
-        "note": "先告訴我們你的情況，我們會確認能幫忙的部分，以及哪些事需要你或學校直接處理。",
-        "wide": false
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "校際交換",
+        "desc": "<p>先向母校國際處確認合作院校、院系名額與交換學期，再經校內甄選、提名及接收校審核。OTC 協助比較和整理文件，不能代替母校提名或取得協議外名額。</p>"
+      },
+      {
+        "id": "routes-1",
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "歐盟交換",
+        "desc": "<p>Erasmus+ 沒有供學生直接申請的統一表格，應由就讀院校的國際處啟動。是否可參與，取決於院校、協議與項目；不能只憑護照、歐洲目的地或交換錄取，推定有 Erasmus+ 資助。</p>",
+        "primary": {
+          "label": "官方計畫 →",
+          "href": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad"
+        }
+      },
+      {
+        "id": "routes-2",
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "自費訪問",
+        "desc": "<p>沒有交換名額，可查接收校是否開放 Visiting Student／Free Mover。先確認在學與語言資格、接收校學費、母校批准及學分認可；語學堂、暑校與完整學位申請另按各項規則辦理。</p>",
+        "primary": {
+          "label": "直申選擇 →",
+          "href": "/zh/services/affordable-study-abroad/#independent-study-abroad"
+        }
+      },
+      {
+        "id": "apply-3",
+        "tab": "apply",
+        "region": "申請準備",
+        "title": "申請資格",
+        "desc": "<p>核對兩校對在學年級、已修學期、成績、先修與語言的要求。英授課程不等於整所學校都用英文；部分院系、研究所或專業課可能不開放交換生。</p>"
       },
       {
         "id": "section-2",
-        "tab": "overview",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "02",
-        "title": "出發前",
-        "chips": [],
-        "desc": "<p>幫你整理交換與留校的比較表、選課與學分對照表、預算和總時間表。先問清楚交換成績如何計算、必修能否替代、何時出成績，再看會不會影響碩士申請。</p>",
-        "noteLabel": "提醒",
-        "note": "按兩校要求整理提名、申請、語言和選課材料。需要問學校的問題列成清單，回覆也一起保存。帳號由你保管，最後提交的內容由你確認。",
-        "wide": false
-      },
-      {
-        "id": "section-3",
-        "tab": "overview",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "03",
-        "title": "交換期間",
-        "chips": [],
-        "desc": "<p>按約定時間一起看進度，更新選課變更、文件和截止日。有修課或出成績的問題，協助整理情況，方便你及早聯絡學校。</p>",
-        "noteLabel": "提醒",
-        "note": "如果同時申請碩士，也會一起安排推薦信、語言成績、成績單和文書。文書可以協助梳理結構與修改表達，內容必須來自你的真實經歷；不代做課業或考試。",
-        "wide": false
-      },
-      {
-        "id": "section-4",
-        "tab": "overview",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "04",
-        "title": "回校後",
-        "chips": [],
-        "desc": "<p>按母校要求整理正式成績單、選課批准和課程大綱，跟進缺少的資料及學分認可進度。</p>",
-        "noteLabel": "提醒",
-        "note": "把交換期間真正完成的課程項目、研究或作品整理到履歷與申請材料。學分是否認可、分數怎樣換算、是否錄取，由學校決定。",
-        "wide": false
-      },
-      {
-        "id": "section-6",
         "tab": "apply",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "05",
-        "title": "申請流程",
-        "chips": [],
-        "desc": "<ol><li>提供基本背景、交換安排及最近截止日。</li><li>確認兩校要求及申請日期。</li><li>書面確認服務範圍、跟進方式及費用。</li><li>整理選課、文件、預算與時間表。</li><li>按約定跟進，出現變更時更新安排。</li><li>完成約定工作，交回文件及尚待處理的事項。</li></ol>",
-        "noteLabel": "提醒",
-        "note": "這是教育規劃和學校溝通支援。當地監護、緊急救援、法律或移民事務，需要相應機構或合資格人士處理。",
-        "wide": true
+        "region": "申請準備",
+        "title": "提名申請",
+        "desc": "<p>母校甄選通常早於接收校網申，住宿與獎學金又可能有獨立截止。按目標學期倒排提名、網申、補件與錄取日期，不使用全歐統一月份。</p>"
       },
       {
-        "id": "section-7",
+        "id": "apply-5",
         "tab": "apply",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "06",
-        "title": "準備資料",
-        "chips": [],
-        "desc": "<p>年級與專業；交換國家、院校及學期；目前均分及成績計算方式；想申請的碩士方向與入學年份；最急的截止日。不知道的部分可以留空。</p><p>初次不用提供護照；需要文件時，會先說明用途和傳送方式。成績資料可先遮去姓名及學號。</p><p><a href=\"/zh/insights/europe-exchange-gpa-internship-masters-planning/\">閱讀完整指南：均分、實習與碩士申請怎樣一起安排 →</a></p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
+        "region": "申請準備",
+        "title": "申請文件",
+        "desc": "<p>依通知準備在學與成績證明、護照、語言證明、動機信、課程計畫及適用的提名資料。核對翻譯、有效期及正本要求；最後提交內容由學生確認，帳號由本人保管。</p>"
+      },
+      {
+        "id": "credits-6",
+        "tab": "credits",
+        "region": "選課學分",
+        "title": "課程語言",
+        "desc": "<p>逐門確認授課與考核語言、學期、校區、先修、院系限制及選課順位，準備備選課。往年課表只作參考，錄取不保證每門課都能選上。</p>"
+      },
+      {
+        "id": "credits-7",
+        "tab": "credits",
+        "region": "選課學分",
+        "title": "歐洲學分",
+        "desc": "<p>ECTS 反映學習成果及工作量，60 ECTS 對應一個全日制學年。不能直接當作母校 60 學分，也不代表任選課都能抵免；實際最低修課量和換算方式須查兩校規則。</p>",
         "primary": {
-          "label": "查看資料 ↗",
+          "label": "學分制度 →",
+          "href": "https://education.ec.europa.eu/eu/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system"
+        }
+      },
+      {
+        "id": "credits-8",
+        "tab": "credits",
+        "region": "選課學分",
+        "title": "學習協議",
+        "desc": "<p>Erasmus+ 出發前由學生與兩校確認 Learning Agreement，寫清課程及認可方式。完成約定課程後，按協議及正式成績單認可；其他交換也應先取得母校書面審批，改課後同步更新。</p>",
+        "primary": {
+          "label": "認可規則 →",
+          "href": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad"
+        }
+      },
+      {
+        "id": "credits-9",
+        "tab": "credits",
+        "region": "選課學分",
+        "title": "均分畢業",
+        "desc": "<p>先確認交換成績會否計入均分、只記通過或使用換算表，再核對必修替代、重修與畢業審核日。若成績單晚於升碩截止，提早問能否補交及需用哪份在讀證明。</p>",
+        "primary": {
+          "label": "完整指南 →",
           "href": "/zh/insights/europe-exchange-gpa-internship-masters-planning/"
         }
       },
       {
-        "id": "scope",
+        "id": "cost-10",
         "tab": "cost",
-        "region": "歐洲交換陪跑｜選課、學分與碩",
-        "badge": "07",
-        "title": "費用",
-        "chips": [
-          "初步評估免費",
-          "碩士申請代辦",
-          "另需自付"
-        ],
-        "desc": "<p><strong>初步評估免費：</strong>了解你的背景和最急的問題，指出需要先向學校確認的事項，再說明我們能提供哪些協助。</p><p><strong>標準交換陪跑：人民幣¥2,988／10小時。</strong>包含一輪校內提名及一個接收院校申請的選項比較、材料與時間表、選課學分清單、校方溝通文字及行前準備。會議與文件工作均計入10小時；超時或新增工作先另行書面報價。開始前確認期限、回覆安排、付款及取消規則。</p><p><strong>碩士申請代辦：</strong>符合 OTC 服務範圍的院校與課程，可適用免費申請代辦；這部分與交換陪跑分開說明。詳見<a href=\"/application-service-standards/\">申請服務準則</a>。 韓國碩士非合作院校標準申請人民幣¥6,000（最多6校），見<a href=\"/zh/services/korea-masters-application/\">韓國碩士申請服務</a>。</p><p><strong>另需自付：</strong>院校收費、考試、翻譯認證、交通、住宿、保險、入境申請等第三方費用。新增支出會先確認。我們不保證交換名額、成績、學分、簽證、實習或錄取結果。</p><p>定價參考：<a href=\"https://www.admitwrite.com/home/service/index.html\">AdmitWrite 公開留學諮詢</a>的相近服務時薪，並非交換項目的市場平均或 OTC 原價折扣。原核查日期：2026-10-09。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
+        "region": "費用行前",
+        "title": "學費資助",
+        "desc": "<table><thead><tr><th>途徑</th><th>學費與資助</th><th>另查事項</th></tr></thead><tbody><tr><td>校際交換</td><td>依協議確認接收校減免</td><td>母校學費、註冊雜費</td></tr><tr><td>Erasmus+</td><td>免接收校學費等指定費用；資助另審</td><td>保險或學生會小額費用、撥款時間</td></tr><tr><td>自費訪問</td><td>依接收校報價付費</td><td>母校是否仍收費、退款規則</td></tr></tbody></table><p>交換資助是旅費與生活費的補助，不保證覆蓋全程；按項目核對額度與條件。</p>",
         "primary": {
-          "label": "申請服務準則",
-          "href": "/application-service-standards/"
+          "label": "資助說明 →",
+          "href": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad"
+        },
+        "wide": true
+      },
+      {
+        "id": "cost-11",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "全程預算",
+        "desc": "<p>按城市及實際在外月數列租金、押金、膳食、交通、保險、簽證與往返機票，另留匯率和緊急支出。生活費估算、學校收費與簽證財力證明分開計算，不以一個「歐洲平均價」承諾總費用。</p>"
+      },
+      {
+        "id": "cost-12",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "簽證居留",
+        "desc": "<p>按國籍、居住地、接收國與停留目的核對簽證、居留及入境後登記。持一國居留不等於可在另一國讀完整學期；跨國學生流動另有資格與事先通知程序。</p>",
+        "primary": {
+          "label": "居留範例 →",
+          "href": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/pays-tiers/etudiant/mobilite-etudiant.html"
         }
+      },
+      {
+        "id": "cost-13",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "住宿保險",
+        "desc": "<p>核對宿舍申請與入住期、押金、取消條款及假期是否須退房。保險須確認醫療、責任與校方保障要求；有歐洲健康保險卡者仍應查實際涵蓋範圍，不能假設旅遊保險已滿足學生要求。</p>"
+      },
+      {
+        "id": "section-3",
+        "tab": "return",
+        "region": "在外返校",
+        "title": "在外變更",
+        "desc": "<p>加退選、考核或校區有變時，先依接收校期限處理，再更新母校批准及學習協議。保存課綱、學時、評量和校方回覆，不等返校才發現課程不能認可。</p>"
+      },
+      {
+        "id": "return-15",
+        "tab": "return",
+        "region": "在外返校",
+        "title": "實習升碩",
+        "desc": "<p>把交換學期與實習、語言考試、推薦信及碩士申請排在同一時間表。實習另查工作權利與許可，不把學生居留自動當作任何實習的工作許可；文書只使用真實經歷。</p>"
+      },
+      {
+        "id": "section-4",
+        "tab": "return",
+        "region": "在外返校",
+        "title": "返校認可",
+        "desc": "<p>整理正式成績單、學習協議及變更批准，依母校期限提交認可申請。核對成績出具與畢業審核日期；把確實完成的課程、研究或作品寫進履歷。</p>"
+      },
+      {
+        "id": "service-17",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "服務內容",
+        "desc": "<p>協助交換選項比較、提名與申請時程、選課學分清單、預算、校方溝通文字及約定期間的變更跟進。學業決定由學生與院校完成，不代做課業、考試，也不提供當地緊急救援或未獲資格的移民法律服務。</p>"
+      },
+      {
+        "id": "scope",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "服務費用",
+        "desc": "<p>初步評估免費，了解背景及最急事項。</p><p>標準交換陪跑：人民幣 ¥2,988／10 小時，涵蓋一輪校內提名及一個接收校申請的選項比較、文件與時間表、選課學分清單、溝通文字及行前準備。會議及文件工作均計時；超時或新增工作先書面報價，開始前確認期限、回覆、付款及取消規則。</p><p>碩士代辦另依服務準則及院校範圍確認，與交換支援分開。院校、考試、翻譯認證、交通、住宿、保險及入境手續等第三方費用另付。</p>",
+        "primary": {
+          "label": "服務準則 →",
+          "href": "/application-service-standards/"
+        },
+        "wide": true
+      },
+      {
+        "id": "section-6",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "申請流程",
+        "desc": "<ol><li>提供母校、專業年級、院校學期及截止日。</li><li>確認協議、資格、兩校要求與畢業安排。</li><li>書面約定範圍及費用，整理選課、文件與預算。</li><li>錄取後安排住宿、保險與入境手續。</li><li>依委託跟進在外變更及返校認可。</li></ol>",
+        "wide": true
+      },
+      {
+        "id": "section-7",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "開始諮詢",
+        "desc": "<p>先提供母校、專業與年級、交換國家與院校、目標學期、語言程度、均分規則，以及最急截止日；如同時升碩，補充方向與入學年。未定可留空，初次毋須提交護照或未遮擋的成績單。</p>"
+      },
+      {
+        "id": "service-21",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/course-selection-alliance/\">選課聯盟</a> · <a href=\"/zh/services/change-of-major/\">轉系轉學</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換</a></p>"
       }
     ],
-    "footer": ""
+    "footer": "資料核對：2026 年 11 月 26 日。當期要求以院校及主管機關公告與書面回覆為準。"
   },
-  "bodyFormat": "card-directory"
+  "bodyFormat": "card-directory",
+  "name": "歐洲交換"
 }

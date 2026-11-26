@@ -176,7 +176,10 @@
   "/zh/countries/germany/": "德國留學",
   "/zh/services/korea-masters-application/": "韓國碩士",
   "/zh/services/korea-undergraduate-application/": "韓國本科",
-  "/zh/services/korea-exchange-support/": "韓國交換"
+  "/zh/services/korea-exchange-support/": "韓國交換",
+  "/zh/services/europe-exchange-support/": "歐洲交換",
+  "/zh/services/australia-electrician-support/": "澳洲電工",
+  "/zh/services/australia-blue-collar/": "澳洲藍領"
  },
  "cards": {
   "選科與轉科": "選科轉科",
