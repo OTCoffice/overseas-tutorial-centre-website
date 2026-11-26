@@ -1,18 +1,42 @@
-const {pageShell}=require('../site');
-const academic=require('./academic-subpage.cjs');
-const a=require('./korea-winter.json');
-module.exports=()=>{
-const cover=a.shareImageZh+'?'+a.socialImageVersion;
-const body=`<style>@media(max-width:900px){.services-hero .service-hero-layout{grid-template-columns:1fr!important}.services-hero .service-hero-panel{grid-template-columns:repeat(2,minmax(0,1fr))!important}.service-review-strip{grid-template-columns:repeat(2,minmax(0,1fr))!important}}.consolidated-page{max-width:1100px;margin:0 auto;padding:32px 24px 64px;color:#18334d;line-height:1.85}.consolidated-page h2{border-top:2px solid #18334d;padding-top:20px;margin-top:36px;font-size:26px}.consolidated-page table{border-collapse:collapse;width:100%;font-size:16px}.consolidated-page th,.consolidated-page td{padding:12px;border-bottom:1px solid #d7dce0;text-align:left}.consolidated-page th{background:#18334d;color:#fff}.consolidated-page figure{max-width:840px}@media(max-width:640px){.consolidated-page{padding:24px 18px}.consolidated-page table{font-size:14px}}</style><figure style="margin:0 0 28px"><img src="${cover}" width="1200" height="630" alt="韓國冬校：漢陽大學，2026–27" style="width:100%;height:auto;display:block"></figure>
-<h2>漢陽冬校</h2><p>漢陽大學 Hanyang International Winter School 位於首爾，結合短期大學課程與文化活動。每期最多修讀兩門課、取得五個學分；學分轉換須先取得母校認可。</p>
-<div style="overflow-x:auto"><table><thead><tr><th>期別</th><th>項目日期</th><th>住宿出入日期</th></tr></thead><tbody><tr><td>Session A</td><td>2026/12/26–2027/1/9</td><td>12/25 入住；1/9 退房</td></tr><tr><td>Session B</td><td>2027/1/19–2/3</td><td>1/18 入住；2/4 退房</td></tr></tbody></table></div>
-<p>A 期上課日為 12 月 28 日至 1 月 8 日。訂機票時應預留入住及退房時間。<a href="https://hanyangwinter.com/session-a/">A 期官方日程</a> · <a href="https://hanyangwinter.com/session-b/">B 期官方日程</a></p>
-<h2>延世冬校</h2><p>延世大學 Winter Abroad at Yonsei（WAY）位於首爾新村校區，2026–27 年為三週項目，日期為 2026 年 12 月 22 日至 2027 年 1 月 8 日。每門課每天上課 150 分鐘、週一至週五，共 45 課時；對象為大學在讀生，或已獲大學錄取的高中應屆生。<a href="https://winter.yonsei.ac.kr/">延世冬校官網</a></p><h2>簽證學分</h2><p>短期冬校一般毋須學生簽證。持免簽護照者（例如香港特區護照）可免簽入境；不在免簽名單者，須向韓國使領館申請 C-3-1 短期訪問或 D-2-8 短期留學簽證。K-ETA 臨時豁免適用至 2026 年 12 月 31 日，入境前須填 e-Arrival Card，出發前請再核對最新規定。學分能否轉換與簽證類別無關，取決於母校：出發前向學系或交流處取得課程預先認可，結業後請主辦大學寄發正式成績單。</p>
-<h2>課程</h2><p>A 期暫定課表包括 Creative Computing and Data with Python、AI Ethics and Society，以及韓語選修。例如，希望接觸科技議題的學生可比較 Python 與 AI 倫理課程；以語言體驗為主的學生則應先查韓語分級及文化活動安排。</p><p>上述為暫定課程，開班及最終課表視校方安排。申請前核對課程大綱、授課語言與先修要求。<a href="https://hanyangwinter.com/session-a/courses/">A 期課程</a> · <a href="https://hanyangwinter.com/session-b/courses/">B 期課程</a></p>
-<h2>費用</h2><div style="overflow-x:auto"><table><thead><tr><th>項目</th><th>單期（韓元）</th><th>兩期合報（韓元）</th></tr></thead><tbody><tr><td>一般總費用，含申請費</td><td>1,700,000</td><td>2,700,000</td></tr><tr><td>符合校方優惠條件</td><td>1,500,000</td><td>2,000,000</td></tr></tbody></table></div><p>優惠適用於校方合作大學學生，或符合早鳥條件的非合作大學學生；非合作大學的早鳥申請須於 2026 年 11 月 1 日前完成。資格由漢陽確認，並非使用代辦即自動享有。</p><p>項目費包括學費、指定活動、成績單及證書等；住宿、機票、餐飲、交通、教材、保險及入境相關費用另計。A 期或兩期合報的付款截止日為 2026/11/22；B 期為 2026/12/27。付款截止日不等於申請截止日，名額及受理狀況須在申請時再確認。<a href="https://hanyangwinter.com/session-a/tuition-aid/">校方費用及退款條款</a></p>
-<h2>申請材料</h2><p>主要對象為大學在讀生、已獲大學錄取者或持大學學位者；碩士及以上學位持有人可能受參加限制。基本文件包括清晰的護照／身分證明副本，以及經母校認證、載有姓名、學號及大學標誌的成績單。個別資格及補件以校方要求為準。</p>
-<h2>免費代辦</h2><p>海外督導提供漢陽冬校免費代辦，包括期別與課程比較、申請材料整理及檢查、填表支援、校方通知跟進，以及住宿與行前準備清單。我們不收取此項代辦服務費；校方及第三方費用由學生另付。</p><ol><li>提供年級、可出發日期、預算及課程目標。</li><li>核對資格、當期名額及完整費用。</li><li>整理材料，由學生確認後提交申請。</li><li>按校方錄取及付款通知辦理，跟進選課與住宿。</li><li>完成保險及入境準備，出發前核對行程。</li></ol><p>錄取、優惠、宿舍及學分認可由相關院校決定。初次諮詢只需基本背景，毋須傳送證件。</p><p><a class="btn btn-primary" href="https://wa.me/447947991572?text=%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BC%A2%E9%99%BD%E5%86%AC%E6%A0%A1%E5%85%8D%E8%B2%BB%E4%BB%A3%E8%BE%A6">WhatsApp 諮詢漢陽冬校</a>　<a href="mailto:office@overseasuk.com?subject=Hanyang%20Winter%20School">office@overseasuk.com</a></p>
-<h2>日韓比較</h2><p>日本關西大學 Winter School 2027 為 1 月 13–28 日，主課程涵蓋日本流行文化、動漫、音樂及飲食等，費用為 300,000 日圓，包含住宿；選修生存日語另收 15,000 日圓。申請期為 2026 年 9 月 10 日至 10 月 9 日。與漢陽比較時，請同時看課程內容、住宿是否包含，以及母校是否接受學分。</p><p><a href="https://www.kansai-u.ac.jp/Kokusai/short_term/program/">關西大學官方資料</a> · <a href="/zh/summer-school-alliance/japan/">日本冬校專頁</a> · <a href="/zh/summer-school-alliance/">寒暑校聯盟</a></p><p><small>資料核查：2026 年 10 月 3 日。當期日期、課表、費用及受理安排以院校最新公布為準。本頁為課程資訊及申請支援介紹。</small></p>`;
-let layout=academic('韓國冬校',body).replace('教育服務與雙語學習','寒暑校聯盟 · 漢陽／延世').replace('按主題查閱服務、課程與出版資料，了解內容與聯絡方式。','首爾短期課程、文化體驗與免費申請支援。').replace('查看相關內容','查看冬校資料');
-return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:'韓國冬校｜漢陽・延世 2026–27',body:layout});
+const { pageShell } = require('../site');
+const { renderCardDirectory } = require('./card-directory.cjs');
+const a = require('./korea-winter.json');
+const e = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+module.exports = () => {
+  const kinds = [...new Set(a.schools.map(s => s.kind))];
+  const directory = renderCardDirectory({
+    title: '院校課程', subtitle: '21個冬季項目；按類型篩選，或搜尋院校、城市與截止日期。',
+    searchPlaceholder: '搜尋院校、城市、截止', groupTitle: '課程比較',
+    tabs: kinds.map(k => ({ id: k, label: k })),
+    tipLabel: '申請狀態', tip: '資料核查於2026-11-26，部分項目已截止。日期、費用與名額以院校最新公告為準；收錄不代表目前開放報名。',
+    cards: a.schools.map((s, i) => ({
+      id: 'school-' + (i + 1), tab: s.kind, region: s.city, title: s.name,
+      chips: [s.kind],
+      desc: `<p>${e(s.experience)}</p><dl><dt>語言與資格</dt><dd>${e(s.level)}</dd><dt>日期與申請</dt><dd>${e(s.dates)}</dd><dt>費用與住宿</dt><dd>${e(s.fee)}</dd></dl>`,
+      noteLabel: '申請要求', note: e(s.check),
+      primary: { label: '官方課程', href: s.url },
+      secondary: undefined
+    }))
+  }).replace('<main class="cd" id="directory">', '<section class="cd" id="schools">').replace('</main>', '</section>');
+  return pageShell({ title: a.titleZh, current: 'services', lang: 'zh-Hant', locale: 'zh', path: a.path,
+    description: a.summaryZh, image: a.shareImageZh + '?' + a.socialImageVersion,
+    imageWidth: a.socialImageWidth, imageHeight: a.socialImageHeight, imageAlt: a.titleZh,
+    body: `<main class="japan-courses korea-courses">
+<section class="page-hero services-hero"><div class="band"><div class="eyebrow">OTC 寒暑校聯盟 · KOREA</div><h1>韓國冬校</h1><p class="hero-sub">大學冬校、三週韓語與文化營。比較日期、截止、學分、費用及簽證。</p></div></section>
+<section class="jp-intro" id="start"><h2>課程選擇</h2><p>大學冬校多為英語授課、可修學分，一般要求大學在讀；韓語短期課按程度分班，多數零基礎可報；文化營以體驗為主，部分接受高中生。12月底開課的冬校多在10–11月截止，2月班仍可趕上。</p></section>
+${directory}
+<div class="jp-info"><section id="visa"><h2>簽證學分</h2><p>短期冬校一般毋須學生簽證。持免簽護照者（例如香港特區護照）可免簽入境；不在免簽名單者，須向韓國使領館申請 C-3-1 短期訪問或 D-2-8 短期留學簽證。K-ETA 臨時豁免適用至 2026 年 12 月 31 日，入境前須填 e-Arrival Card；2027 年入境者出發前請再核對最新規定。</p><p>學分能否轉換與簽證類別無關，取決於母校：出發前向學系或交流處取得課程預先認可，結業後請主辦大學寄發正式成績單。</p></section>
+<section id="help"><h2>申請服務</h2><p>告訴我們可出發日期、停留週數、預算、英語／韓語程度及是否需要學分。OTC協助比較2–3個合適項目，核對資格、截止、費用和文件。海外督導提供漢陽冬校免費代辦；其他院校是否適用免費渠道須逐校確認，學費、住宿、機票、保險等第三方費用另計。本清單為獨立資料整理，收錄不代表官方合作或保證名額。</p></section>
+<p class="jp-source">資料核查：2026-11-26，綜合院校官網、合作大學公告及同業整理；標「待核」者未查得可靠金額，不作估價。</p>
+<p><a href="/zh/summer-school-alliance/">寒暑校聯盟</a> · <a href="/zh/language-school-alliance/south-korea/">韓國語言學校</a> · <a href="/zh/services/korea-exchange-support/">韓國交換</a></p></div>
+</main>
+<style>
+.japan-courses .services-hero{background:linear-gradient(90deg,#11263b 0%,#17374b 65%,#842d32 65%,#842d32 85%,#bc9839 85%,#bc9839 90%,#11263b 90%);border-bottom:4px solid #bc9839}
+.japan-courses .services-hero h1{font-size:clamp(1.7rem,3vw,2.4rem);max-width:65%;line-height:1.35}.japan-courses .hero-sub{max-width:60%}
+.japan-courses .jp-intro,.japan-courses .jp-info{max-width:1120px;margin:auto;padding:24px 20px;box-sizing:border-box;font-size:1rem;line-height:1.8;color:#1b263d}
+.japan-courses .jp-intro h2,.japan-courses .jp-info h2{font-size:1.3rem;margin:0 0 12px}.japan-courses .jp-info section{border-top:1px solid #d9cfb4;padding:20px 0}.japan-courses .jp-source{font-size:.875rem;color:#626262}
+.japan-courses .cd{box-sizing:border-box;font-size:1rem}.japan-courses .cd-card{min-width:0}.japan-courses .cd-card h3{font-size:1.125rem}.japan-courses .cd-desc{font-size:1rem}.japan-courses .cd-tab,.japan-courses .cd-search,.japan-courses .cd-tip,.japan-courses .cd-note,.japan-courses .cd-region,.japan-courses .cd-chips span,.japan-courses .cd-btns a,.japan-courses .cd-grouphead,.japan-courses .cd-head p{font-size:.875rem}
+.japan-courses .cd-search{min-width:0;max-width:100%;box-sizing:border-box}.japan-courses dl{margin:0}.japan-courses dt{font-size:.875rem;color:#74333a;font-weight:700;margin-top:12px}.japan-courses dd{margin:3px 0;overflow-wrap:anywhere}.japan-courses .cd-btns{margin-top:auto}.japan-courses .cd-tab:focus-visible,.japan-courses .cd-search:focus-visible{outline:2px solid #74333a;outline-offset:3px}
+@media(max-width:600px){.japan-courses .services-hero h1,.japan-courses .hero-sub{max-width:88%}.japan-courses .cd,.japan-courses .jp-intro,.japan-courses .jp-info{padding-left:16px;padding-right:16px}}
+</style>` });
 };
