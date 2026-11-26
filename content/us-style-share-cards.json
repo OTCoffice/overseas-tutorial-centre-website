@@ -570,5 +570,16 @@
    "行程與約束",
    "網上遞交"
   ]
+ },
+ {
+  "route": "/zh/countries/germany/",
+  "slug": "germany",
+  "head": "德國留學",
+  "en": "Study in Germany",
+  "items": [
+   "碩士申請",
+   "博士研究",
+   "簽證資金"
+  ]
  }
 ]

@@ -157,8 +157,12 @@
       {
         "name": "德國",
         "en": "Germany",
-        "desc": "學制、課程與申請準備。",
+        "desc": "碩士、博士、APS 審核、簽證與資金準備。",
         "links": [
+          [
+            "德國留學",
+            "/zh/countries/germany/"
+          ],
           [
             "Study in Germany 官方",
             "https://www.study-in-germany.com/en/"

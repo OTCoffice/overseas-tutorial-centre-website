@@ -1,0 +1,213 @@
+{
+  "slug": "germany-study",
+  "path": "/zh/countries/germany/",
+  "name": "德國留學",
+  "titleZh": "德國留學｜碩士申請、博士套磁、APS 審核、限制提款帳戶｜海外督導 OTC",
+  "summaryZh": "德國公立大學碩博申請規劃：APS 審核、uni-assist 遞交、德語／英語授課課程、博士職位套磁與研究所崗位、限制提款帳戶與簽證、畢業找工。",
+  "hero": "公立大學多數免學費，碩博銜接順，理工科研究職位多。",
+  "shareImageZh": "/assets/social/germany-og.png",
+  "socialImageVersion": "v=20261126-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "updated": "2026-11-26",
+  "directory": {
+    "title": "德國留學",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "留學概覽"
+      },
+      {
+        "id": "masters",
+        "label": "碩士申請"
+      },
+      {
+        "id": "phd",
+        "label": "博士申請"
+      },
+      {
+        "id": "visa",
+        "label": "簽證資金"
+      },
+      {
+        "id": "alternatives",
+        "label": "其他選擇"
+      },
+      {
+        "id": "faq",
+        "label": "常見問題"
+      }
+    ],
+    "searchPlaceholder": "搜尋專業、APS、簽證",
+    "tipLabel": "申請準備",
+    "tip": "先確認課程學分、授課語言與申請截止，再安排 APS、材料及資金。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "id": "germany-1",
+        "tab": "overview",
+        "region": "留學概覽",
+        "title": "學費生活",
+        "desc": "<p>公立大學多數學士及連續型碩士課程免學費；巴登－符騰堡州一般向非歐盟學生收費，巴伐利亞部分院校及其他特定課程亦可能收費。每學期另繳學期費，是否包含交通票依校而定；住宿、保險及生活費另列預算。</p>",
+        "primary": {
+          "label": "官方資訊 →",
+          "href": "https://www.study-in-germany.com/en/"
+        }
+      },
+      {
+        "id": "germany-2",
+        "tab": "overview",
+        "region": "留學概覽",
+        "title": "入學時間",
+        "desc": "<p>冬季學期通常於 10 月開始，部分課程另有 4 月開始的夏季學期。申請截止可由前一年冬季至當年 7 月前後，熱門或英語課程可能更早；以個別課程的當期日期為準。</p>"
+      },
+      {
+        "id": "germany-3",
+        "tab": "overview",
+        "region": "留學概覽",
+        "title": "授課語言",
+        "desc": "<p>英語授課碩士常見於理工、經管領域，須提供課程認可的英語證明；德語授課通常要求 TestDaF、DSH 或其他認可證明，成績門檻依課程確認。</p>"
+      },
+      {
+        "id": "germany-4",
+        "tab": "masters",
+        "region": "碩士申請",
+        "title": "APS審核",
+        "desc": "<p>持中國大陸學歷申請者通常須辦理 APS 學歷審核；適用程序及例外按個人學歷、申請類型確認。審核可能需數週至數月，應預留等候、補件及寄送時間。</p>",
+        "primary": {
+          "label": "審核須知 →",
+          "href": "https://www.aps.org.cn/zh/verfahren-und-services-deutschland/verfahren-merkblatter"
+        }
+      },
+      {
+        "id": "germany-5",
+        "tab": "masters",
+        "region": "碩士申請",
+        "title": "遞交途徑",
+        "desc": "<p>依校方要求經 uni-assist 或學校系統直申；部分院校先申請 VPD，再向校方遞交。碩士通常重視本科專業、課程內容及學分匹配，語言達標不代表已滿足先修要求。</p>",
+        "primary": {
+          "label": "申請資訊 →",
+          "href": "https://www.uni-assist.de/en/how-to-apply/"
+        }
+      },
+      {
+        "id": "germany-6",
+        "tab": "masters",
+        "region": "碩士申請",
+        "title": "轉專業",
+        "desc": "<p>以化工轉材料或生物為例：物理化學、傳遞及反應工程可能有助銜接材料方向，但仍須逐項比對學分；轉生物可能另需分子、細胞生物學及實驗訓練，部分課程不接受以入學後補課代替先修條件。</p>",
+        "primary": {
+          "label": "學科選擇 →",
+          "href": "/zh/subject-planning/"
+        }
+      },
+      {
+        "id": "germany-7",
+        "tab": "phd",
+        "region": "博士申請",
+        "title": "兩種模式",
+        "desc": "<p>個人指導制由申請人聯繫教授或教研室（Lehrstuhl），確認研究題目與指導安排；結構化項目（Graduate School）則按項目統一招生，通常設課程、研究訓練及團隊指導。</p>",
+        "primary": {
+          "label": "博士資訊 →",
+          "href": "https://www.research-in-germany.org/your-goal/phd.html"
+        }
+      },
+      {
+        "id": "germany-8",
+        "tab": "phd",
+        "region": "博士申請",
+        "title": "研究職位",
+        "desc": "<p>大學及 Max Planck、Fraunhofer、Helmholtz、Leibniz 等研究機構有博士研究職位，常以受薪研究員合同招聘；亦有獎學金或自費途徑。須查明合同工時、薪級、期限與博士註冊的大學，並非所有錄取均附薪資。</p>"
+      },
+      {
+        "id": "germany-9",
+        "tab": "phd",
+        "region": "博士申請",
+        "title": "套磁材料",
+        "desc": "<p>按導師或招聘公告準備 CV、研究計畫、推薦信、成績單及相關研究成果。OTC 可協助研究方向、導師與職位比較、材料編修及申請時程；實際內容與費用在委託前確認。</p>",
+        "primary": {
+          "label": "博士輔導 →",
+          "href": "/zh/services/phd-application-coaching/"
+        }
+      },
+      {
+        "id": "germany-10",
+        "tab": "visa",
+        "region": "簽證資金",
+        "title": "限提帳戶",
+        "desc": "<p>2026 年已獲錄取的學生簽證，生活費資金證明標準為一年 €11,904（每月 €992），與 2025 年相同；常以限制提款帳戶（Sperrkonto）證明，也可按規定使用獎學金或擔保聲明。此為生活費標準，另計適用學費、保險及開戶費；尋找學位名額等其他居留目的適用不同要求。</p>",
+        "primary": {
+          "label": "簽證資訊 →",
+          "href": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying"
+        }
+      },
+      {
+        "id": "germany-11",
+        "tab": "visa",
+        "region": "簽證資金",
+        "title": "畢業找工",
+        "desc": "<p>在德國完成學位後，符合條件者可申請最長 18 個月的求職居留，尋找合資格工作；資金、保險及轉換居留的要求，以德國主管機關當期規定為準。</p>",
+        "primary": {
+          "label": "求職簽證 →",
+          "href": "/zh/services/graduate-job-search-visas/"
+        }
+      },
+      {
+        "id": "germany-12",
+        "tab": "alternatives",
+        "region": "其他選擇",
+        "title": "奧地利",
+        "desc": "<p>可比較德語及英語授課碩士、理工博士與研究機會；學分、學費及居留資金要求須另按奧地利規定核對。</p>",
+        "primary": {
+          "label": "奧地利 →",
+          "href": "/zh/countries/austria/"
+        }
+      },
+      {
+        "id": "germany-13",
+        "tab": "alternatives",
+        "region": "其他選擇",
+        "title": "北歐留學",
+        "desc": "<p>比較北歐不同國家的授課語言、非歐盟學生學費、獎學金與博士招聘；各國資助和居留條件不同。</p>",
+        "primary": {
+          "label": "北歐留學 →",
+          "href": "/zh/countries/nordic/"
+        }
+      },
+      {
+        "id": "germany-14",
+        "tab": "alternatives",
+        "region": "其他選擇",
+        "title": "荷蘭瑞士",
+        "desc": "<p>荷蘭與瑞士常見受薪博士職位，亦有其他資助形式；須逐一核對招聘要求、合同與大學註冊條件。可先查荷蘭官方留學資料；瑞士則查 <a href=\"https://www.swissuniversities.ch/en/topics/studying/doctorate\">博士資訊</a>。</p>",
+        "primary": {
+          "label": "荷蘭資訊 →",
+          "href": "https://www.studyinnl.org/"
+        }
+      },
+      {
+        "id": "germany-15",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "德語要求",
+        "desc": "<p>英語授課碩士可按課程要求提供英語證明，未必需要德語考試；生活、實習與找工仍建議逐步學至 B1 或以上，部分職位要求更高。</p>"
+      },
+      {
+        "id": "germany-16",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "博士費用",
+        "desc": "<p>公立大學博士一般免學費，但可能須繳學期費；研究職位按合同領薪，獎學金與自費博士的資金安排另行確認。</p>"
+      },
+      {
+        "id": "germany-17",
+        "tab": "faq",
+        "region": "常見問題",
+        "title": "APS時程",
+        "desc": "<p>確定申請德國後，先核對適用 APS 程序並儘早安排；不同學歷、碩士及博士申請的程序可能不同，以 APS 當期須知為準。</p>"
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 26 日。<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">學費資料</a> · <a href=\"https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying\">簽證資料</a>。入學、聘用與居留以當期官方公告及書面通知為準。"
+  }
+}
