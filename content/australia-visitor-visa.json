@@ -3,19 +3,597 @@
   "slug": "australia-visitor-visa",
   "name": "澳洲旅簽",
   "titleZh": "澳洲旅遊簽證（600）材料準備｜海外督導 OTC",
-  "summaryZh": "協助整理澳洲訪客簽證（600）旅遊、探親及商務訪問材料：在職與收入證明、資金、行程與回國安排，按官方流程網上遞交。",
+  "summaryZh": "澳洲訪客簽證（600）旅遊、探親、商務及十年常旅客類別：選對類別、按職業準備材料清單、補強資金與回國約束，拒簽後重新申請評估。",
   "shareImageZh": "/assets/social/australia-visitor-visa-share-20261126.png",
   "socialImageVersion": "v=20261126-us-style",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
   "socialImageSource": "share-only",
   "lang": "zh",
-  "sections": [
-    {"heading": "服務對象", "paragraphs": ["計劃赴澳旅遊、探親或短期商務訪問，想把材料一次準備清楚的人士。先按護照國家／地區、現居地、出行目的和日期，確認適用的 600 簽證類別（旅遊、親屬擔保、商務訪客或常旅客等）。", "簽證沒有「特殊渠道」：所有申請都由澳洲內政部審理，聲稱包過或走內部關係的服務不可信，提交虛假材料可能導致拒簽及日後申請受影響。"]},
-    {"heading": "審核重點", "paragraphs": ["審理時一般會看：出行目的是否真實、停留期間的資金是否足夠、國內的工作、學業、家庭或資產等約束，以及過往出入境與簽證紀錄。材料應如實反映個人情況，不需要堆砌與目的無關的文件。"]},
-    {"heading": "服務內容", "paragraphs": ["<ul><li>按個人情況列出官方要求及建議文件清單。</li><li>整理在職或在讀證明、收入與銀行流水、資產證明及行程安排。</li><li>探親或受邀訪問時，整理邀請信及親屬關係文件。</li><li>協助理解 ImmiAccount 網上表格題目，由本人核實並提交。</li><li>補件要求及進度跟進。</li></ul>"]},
-    {"heading": "流程", "paragraphs": ["<ol><li>提供護照國家／地區、現居地、出行目的、預計日期與停留時間。</li><li>確認類別、文件清單、時間表及服務報價。</li><li>整理材料，由本人核實內容。</li><li>本人在 ImmiAccount 遞交並繳費，按通知完成生物資料採集（如適用）。</li></ol>"]},
-    {"heading": "費用", "paragraphs": ["<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>首次諮詢</td><td>說明需求及初步評估免費。</td></tr><tr><td>OTC 材料整理</td><td>按類別及準備進度書面報價；開始前確認總價、修改次數及期限。</td></tr><tr><td>第三方費用</td><td>政府簽證費、生物資料採集、翻譯、公證及體檢（如需要）另計，按官方或供應商標準收取。</td></tr></tbody></table>"]},
-    {"heading": "服務範圍", "paragraphs": ["OTC 提供公開資訊整理、文件行政支援及進度跟進，不承諾簽證結果或審理時間。涉及拒簽分析、簽證取消、上訴或移民法律意見時，轉介澳洲註冊移民代理（MARA）或律師處理。簽證由澳洲內政部決定。", "官方資訊：<a href=\"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\">澳洲內政部：Visitor visa (subclass 600)</a>。實際要求以申請時的官方規定為準。"]}
-  ]
+  "cards": [
+    {
+      "tab": "types",
+      "badge": "簽證類別",
+      "region": "600 / 旅遊",
+      "title": "旅遊類別",
+      "chips": [
+        "觀光探親",
+        "短期遊學",
+        "多次入境"
+      ],
+      "desc": "觀光、探親訪友或三個月內短期課程。一般獲批停留 3、6 或 12 個月。",
+      "note": "大陸護照自由行最常用的類別。",
+      "noteLabel": "類別提醒",
+      "primary": {
+        "label": "官方頁面 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+      },
+      "secondary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "id": "types"
+    },
+    {
+      "tab": "types",
+      "badge": "簽證類別",
+      "region": "600 / 探親",
+      "title": "親屬擔保",
+      "chips": [
+        "親屬擔保",
+        "探親",
+        "保證金"
+      ],
+      "desc": "由澳洲公民或永久居民親屬擔保來澳探親，擔保人須遞交擔保申請。",
+      "note": "移民局可要求擔保人繳交保證金。",
+      "noteLabel": "類別提醒",
+      "primary": {
+        "label": "官方頁面 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/sponsored-family-stream"
+      },
+      "secondary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      }
+    },
+    {
+      "tab": "types",
+      "badge": "簽證類別",
+      "region": "600 / 商務",
+      "title": "商務訪客",
+      "chips": [
+        "會議洽談",
+        "考察",
+        "不可受僱"
+      ],
+      "desc": "參加會議、商務洽談、考察等短期商務活動，不可在澳受僱工作。",
+      "note": "需公司派遣函及澳方邀請資料。",
+      "noteLabel": "類別提醒",
+      "primary": {
+        "label": "官方頁面 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/business-visitor-stream"
+      },
+      "secondary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      }
+    },
+    {
+      "tab": "types",
+      "badge": "簽證類別",
+      "region": "600 / 十年",
+      "title": "常旅客類",
+      "chips": [
+        "最長10年",
+        "每次3月",
+        "常赴澳"
+      ],
+      "desc": "中國及部分東南亞國家護照，近年常赴澳或其他發達國家者可申請。",
+      "note": "政府費用明顯高於旅遊類別，適合確有頻繁往來需要的人。",
+      "noteLabel": "類別提醒",
+      "primary": {
+        "label": "官方頁面 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/frequent-traveller-stream"
+      },
+      "secondary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      }
+    },
+    {
+      "tab": "types",
+      "badge": "簽證類別",
+      "region": "600 / 跟團",
+      "title": "ADS團組",
+      "chips": [
+        "指定旅行社",
+        "團進團出",
+        "非自由行"
+      ],
+      "desc": "跟隨經批准的中國旅行社組團赴澳，由旅行社統一遞交。",
+      "note": "自由行不適用，請改申請旅遊類別。",
+      "noteLabel": "類別提醒",
+      "primary": {
+        "label": "官方頁面 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/approved-destination-status-stream"
+      },
+      "secondary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      }
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 受僱",
+      "title": "在職人士",
+      "chips": [
+        "在職證明",
+        "工資流水",
+        "准假返崗"
+      ],
+      "desc": "在職證明寫明職位、入職時間、收入、准假日期及返崗安排，附營業執照副本及近 6 個月工資流水。",
+      "note": "證明上的收入要與流水對得上。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      },
+      "id": "docs"
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 自僱",
+      "title": "自僱經營",
+      "chips": [
+        "營業執照",
+        "公司流水",
+        "納稅紀錄"
+      ],
+      "desc": "營業執照、公司銀行流水或納稅紀錄、股東或法人身份證明。",
+      "note": "個人與公司資金分開說明，來源要清楚。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 學生",
+      "title": "在讀學生",
+      "chips": [
+        "在讀證明",
+        "准假信",
+        "父母資助"
+      ],
+      "desc": "學校出具在讀證明及准假信；父母資助時附父母收入證明及親屬關係證明。",
+      "note": "未成年人另需父母同意書。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 退休",
+      "title": "退休人士",
+      "chips": [
+        "退休證",
+        "養老金",
+        "子女資助"
+      ],
+      "desc": "退休證、養老金流水；由子女資助時附關係證明及資助說明。",
+      "note": "年長申請人可能被要求體檢。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 財力",
+      "title": "資金證明",
+      "chips": [
+        "銀行流水",
+        "存款證明",
+        "資產證明"
+      ],
+      "desc": "本人銀行流水、存款證明，以及理財、房產、車輛等資產證明。",
+      "note": "避免遞交前突然大額存入，看的是穩定性。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "docs",
+      "badge": "材料清單",
+      "region": "材料 / 行程",
+      "title": "行程探親",
+      "chips": [
+        "行程安排",
+        "住宿",
+        "邀請信"
+      ],
+      "desc": "簡要行程及住宿安排；探親附邀請信、親屬身份及關係證明。",
+      "note": "行程長度要與假期及身份相符。",
+      "noteLabel": "材料重點",
+      "primary": {
+        "label": "請人核對",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "risk",
+      "badge": "審核拒簽",
+      "region": "審核 / 風險",
+      "title": "真實目的",
+      "chips": [
+        "行程合理",
+        "類別一致",
+        "停留時長"
+      ],
+      "desc": "移民局按「真實短期訪客」標準評估：行程、停留時間與身份是否合理，與所選類別一致。",
+      "note": "目的與類別不符是常見拒簽原因。",
+      "noteLabel": "注意",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      },
+      "id": "risk"
+    },
+    {
+      "tab": "risk",
+      "badge": "審核拒簽",
+      "region": "審核 / 風險",
+      "title": "國內約束",
+      "chips": [
+        "工作學業",
+        "家庭",
+        "房產經營"
+      ],
+      "desc": "用工作、學業、家庭、房產或經營證明你會按時回國。",
+      "note": "約束證明不足，會被認為有逾期滯留風險。",
+      "noteLabel": "注意",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "risk",
+      "badge": "審核拒簽",
+      "region": "審核 / 風險",
+      "title": "資料一致",
+      "chips": [
+        "表格",
+        "文件",
+        "日期收入"
+      ],
+      "desc": "表格填寫的職位、收入、日期，必須與文件完全一致。",
+      "note": "不一致或不實資料可導致拒簽並影響日後申請。",
+      "noteLabel": "注意",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "risk",
+      "badge": "審核拒簽",
+      "region": "審核 / 風險",
+      "title": "出入境史",
+      "chips": [
+        "過往出國",
+        "按期返回",
+        "白本護照"
+      ],
+      "desc": "過往出國並按期返回是加分項；白本護照可以申請，用工作和資產材料補強。",
+      "note": "如實申報過往拒簽紀錄。",
+      "noteLabel": "注意",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "risk",
+      "badge": "審核拒簽",
+      "region": "審核 / 風險",
+      "title": "拒簽重遞",
+      "chips": [
+        "拒簽信",
+        "針對補強",
+        "境內限制"
+      ],
+      "desc": "被拒後多數情況可再申請，但須先針對拒簽信理由補強，原樣重遞通常不會改變結果。",
+      "note": "在澳境內被拒者可能受《移民法》第 48 條限制。",
+      "noteLabel": "注意",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "plans",
+      "badge": "服務方案",
+      "region": "OTC / 方案一",
+      "title": "材料審核",
+      "chips": [
+        "你自己準備",
+        "逐份檢查",
+        "指出缺漏"
+      ],
+      "desc": "逐份檢查文件與表格資料是否一致，列出缺漏及需要補強的地方。",
+      "note": "適合首次申請、背景清晰的申請人。",
+      "noteLabel": "適合",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "材料清單",
+        "href": "#docs"
+      },
+      "id": "plans"
+    },
+    {
+      "tab": "plans",
+      "badge": "服務方案",
+      "region": "OTC / 方案二",
+      "title": "全程準備",
+      "chips": [
+        "類別評估",
+        "個人清單",
+        "補件跟進"
+      ],
+      "desc": "評估類別、制定個人材料清單、翻譯指引、核對 ImmiAccount 表格，跟進補件及進度。",
+      "note": "適合白本護照、自僱、探親等情況。",
+      "noteLabel": "適合",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "審核重點",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "plans",
+      "badge": "服務方案",
+      "region": "OTC / 方案三",
+      "title": "拒簽重遞",
+      "chips": [
+        "分析拒簽信",
+        "重整證據",
+        "轉介代理"
+      ],
+      "desc": "分析拒簽理由，重新整理證據，判斷是否需要轉介澳洲註冊移民代理（MARA）。",
+      "note": "涉及法律意見、上訴時轉介 MARA 代理或律師。",
+      "noteLabel": "適合",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "拒簽原因",
+        "href": "#risk"
+      }
+    },
+    {
+      "tab": "plans",
+      "badge": "服務方案",
+      "region": "流程 / 五步",
+      "title": "辦理流程",
+      "chips": [
+        "免費評估",
+        "準備材料",
+        "本人遞交"
+      ],
+      "desc": "<ol><li>說明護照、職業、目的及日期</li><li>免費評估類別與風險</li><li>按清單準備並核對材料</li><li>本人在 ImmiAccount 遞交繳費</li><li>跟進補件及獲批條件</li></ol>",
+      "note": "建議出發前至少一個月遞交，審理時間以官方公布為準。",
+      "noteLabel": "時間",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "plans",
+      "badge": "服務方案",
+      "region": "費用 / 透明",
+      "title": "費用說明",
+      "chips": [
+        "評估免費",
+        "書面報價",
+        "政府費另計"
+      ],
+      "desc": "首次評估免費；OTC 服務按方案書面報價，開始前確認總價、修改次數及退款安排。",
+      "note": "政府簽證費（境外旅遊類別目前約 A$250）每年 7 月 1 日調整、拒簽不退；體檢、翻譯等第三方費用另計。",
+      "noteLabel": "另計",
+      "primary": {
+        "label": "免費評估",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "查官方費用 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      },
+      "id": "fees"
+    },
+    {
+      "tab": "faq",
+      "badge": "常見問題",
+      "region": "Q1",
+      "title": "特殊渠道",
+      "chips": [],
+      "desc": "<b>有沒有特殊渠道？</b> 沒有。所有申請由澳洲內政部審理，聲稱包過或內部關係的都不可信。",
+      "note": "提交虛假材料可能被拒並影響日後申請。",
+      "noteLabel": "提醒",
+      "primary": {
+        "label": "問我們",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      },
+      "id": "faq"
+    },
+    {
+      "tab": "faq",
+      "badge": "常見問題",
+      "region": "Q2",
+      "title": "白本護照",
+      "chips": [],
+      "desc": "<b>沒出過國能申請嗎？</b> 可以。重點是用工作、收入、資產和家庭材料證明真實目的及回國約束。",
+      "note": "白本不等於拒簽，材料完整更重要。",
+      "noteLabel": "提醒",
+      "primary": {
+        "label": "問我們",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "faq",
+      "badge": "常見問題",
+      "region": "Q3",
+      "title": "能否打工",
+      "chips": [],
+      "desc": "<b>旅遊簽可以打工嗎？</b> 不可以。訪客簽證不允許受僱工作。",
+      "note": "想打工度假應另看 462 簽證。",
+      "noteLabel": "提醒",
+      "primary": {
+        "label": "問我們",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "faq",
+      "badge": "常見問題",
+      "region": "Q4",
+      "title": "境內延期",
+      "chips": [],
+      "desc": "<b>到了澳洲能延期嗎？</b> 要看簽證條件；附有 8503「不得再停留」條件的，一般不能在境內轉簽或續簽。",
+      "note": "獲批後先核對簽證條件。",
+      "noteLabel": "提醒",
+      "primary": {
+        "label": "問我們",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    },
+    {
+      "tab": "faq",
+      "badge": "常見問題",
+      "region": "Q5",
+      "title": "審理時間",
+      "chips": [],
+      "desc": "<b>多久出結果？</b> 因類別及個人情況差異大，以官方公布的處理時間為準；材料完整、無需補件通常較快。",
+      "note": "預訂機票前先遞交。",
+      "noteLabel": "提醒",
+      "primary": {
+        "label": "問我們",
+        "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3%E6%BE%B3%E6%B4%B2%E6%97%85%E9%81%8A%E7%B0%BD%E8%AD%89%E3%80%82%0A%E8%AD%B7%E7%85%A7%E5%9C%8B%E5%AE%B6%EF%BC%8F%E5%9C%B0%E5%8D%80%EF%BC%9A%0A%E8%81%B7%E6%A5%AD%E7%8B%80%E6%B3%81%EF%BC%9A%0A%E5%87%BA%E8%A1%8C%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E9%A0%90%E8%A8%88%E6%97%A5%E6%9C%9F%E5%8F%8A%E5%81%9C%E7%95%99%E6%99%82%E9%96%93%EF%BC%9A"
+      },
+      "secondary": {
+        "label": "官方說明 ↗",
+        "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "id": "types",
+      "label": "簽證類別"
+    },
+    {
+      "id": "docs",
+      "label": "材料清單"
+    },
+    {
+      "id": "risk",
+      "label": "審核拒簽"
+    },
+    {
+      "id": "plans",
+      "label": "服務方案"
+    },
+    {
+      "id": "faq",
+      "label": "常見問題"
+    }
+  ],
+  "tip": "沒有特殊渠道，所有申請都由澳洲內政部審理。先選對類別，材料如實並與表格一致，最影響結果。",
+  "tipLabel": "辦簽貼士",
+  "groupTitle": "600 訪客簽證要點（類別、材料、審核、方案）",
+  "footer": "<b>服務範圍：</b>OTC 提供公開資訊整理、文件行政支援及進度跟進，不承諾簽證結果或審理時間；涉及拒簽法律分析、上訴或移民法律意見時，轉介澳洲註冊移民代理（MARA）或律師。實際要求以 <a href=\"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\">澳洲內政部官網</a> 為準。更新：2026年11月26日。"
 }
