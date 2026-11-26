@@ -7,7 +7,7 @@ const wa='https://wa.me/447947991572?text='+encodeURIComponent(intro);
 const email='mailto:office@overseasuk.com?subject='+encodeURIComponent('SSCI 學術督導｜諮詢')+'&body='+encodeURIComponent(intro);
 const cover=a.shareImageZh+'?'+a.socialImageVersion;
 const btn=`<div class="phd-actions"><a class="phd-button" href="${wa}">立即諮詢 <span aria-hidden="true">↗</span></a><a class="phd-email" href="${email}">電郵諮詢 →</a></div>`;
-const heroBtn=`<div class="actions"><a class="btn btn-primary" href="${wa}">諮詢學術督導</a><a class="btn btn-secondary" href="${email}">電郵諮詢</a></div>`;
+const heroBtn=`<div class="actions"><a class="btn btn-primary" href="${wa}">立即諮詢</a><a class="btn btn-secondary" href="${email}">電郵諮詢</a></div>`;
 return pageShell({title:a.titleZh,current:'services',bodyClass:'ssci-page',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:1200,imageHeight:630,imageAlt:'SSCI 學術督導：選題、選刊、修改與返修',body:`
 <style>
 .ssci-page .service-hero-panel a::before,.ssci-page .service-review-strip a::before{display:none}
@@ -103,21 +103,14 @@ return pageShell({title:a.titleZh,current:'services',bodyClass:'ssci-page',lang:
 .ssci-page .ssci-side-card{--card-accent:#916817}.ssci-page .ssci-side-card:nth-child(4n+2){--card-accent:#355d91}.ssci-page .ssci-side-card:nth-child(4n+3){--card-accent:#267366}.ssci-page .ssci-side-card:nth-child(4n){--card-accent:#a84732}
 .ssci-page .ssci-side-card h2{background:var(--card-accent);color:#fff;padding:11px 14px;border:0;margin:0 0 16px}
 .ssci-page .phd-label{background:var(--section-ink)}.ssci-page .phd-label h2,.ssci-page .phd-label span{color:#fff}
+.ssci-page .phd-layout .cd{max-width:none;padding:8px 0 32px}
+.ssci-page .phd-layout .cd .cd-desc table th{white-space:nowrap}
 </style>
 <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC · ACADEMIC SUPERVISION</div><h1>SSCI 學術督導</h1><h2>選題・選刊・論文修改・投稿返修</h2><p class="hero-sub">選題、選刊、修改稿件與回覆審稿意見，按你的研究進度安排。</p>${heroBtn}<p>海外督導 OTC｜學術督導與編譯服務</p></div><aside class="service-hero-panel"><a href="#section-2"><strong>選題研究</strong><span>問題、文獻與方法</span></a><a href="#section-3"><strong>期刊選擇</strong><span>範圍、收錄與要求</span></a><a href="#section-4"><strong>論文修改</strong><span>論證、結構與表達</span></a><a href="#section-5"><strong>投稿返修</strong><span>材料與審稿回覆</span></a></aside></div></div></section>
-<section class="band service-review-strip"><a href="#section-1"><b>WHO</b><strong>服務對象</strong><span>學生與獨立研究者</span></a><a href="/zh/services/ssci-academic-supervision/subjects/"><b>SUBJECT</b><strong>學科分類</strong><span>按研究領域查閱</span></a><a href="#section-8"><b>FEES</b><strong>服務費用</strong><span>按稿件及範圍報價</span></a><a href="#consultation"><b>ASK</b><strong>學術諮詢</strong><span>題目、階段與期限</span></a></section>
+<section class="band service-review-strip"><a href="#section-1"><b>WHO</b><strong>服務對象</strong><span>學生與獨立研究者</span></a><a href="/zh/services/ssci-academic-supervision/subjects/"><b>SUBJECT</b><strong>學科分類</strong><span>按研究領域查閱</span></a><a href="#section-8"><b>FEES</b><strong>費用報價</strong><span>單項、編修、陪跑</span></a><a href="#consultation"><b>ASK</b><strong>學術諮詢</strong><span>題目、階段與期限</span></a></section>
 <div class="phd-layout">
 <section class="phd-intro"><div><p class="phd-kicker">研究與寫作</p><h2>服務內容</h2><p>可選單項服務，也可安排分階段督導。</p></div><a class="phd-button" href="${wa}">立即諮詢 <span aria-hidden="true">↗</span></a></section>
-<div class="ssci-body-grid"><main class="ssci-main-column">
 ${renderCardDirectory(a.directory)}
-</main><aside class="ssci-sidebar" aria-label="服務價格與時間安排">
-<section class="ssci-side-card"><p class="side-kicker">FEES</p><h2>服務報價</h2><dl><dt>單項服務｜按項詢價</dt><dd>選題討論、期刊比較、投稿材料檢查，可按需要單獨安排。</dd><dt>稿件編修｜按字數詢價</dt><dd>依學科、字數、修改程度及交稿日期報價。</dd><dt>階段陪跑｜按範圍報價</dt><dd>約定討論次數、修改輪次與各次交稿日期。</dd></dl><a class="side-cta" href="${wa}">取得報價與排期 →</a></section>
-<section class="ssci-side-card"><p class="side-kicker">PUBLIC PRICING</p><h2>華語市場參考</h2><p>以下為其他機構公開價，供預算參考。OTC 費用另行報價。</p><h3>意得輯台灣｜金額為新台幣</h3><dl><dt>期刊挑選 NT$9,000</dt><dd>公開作業時間：4 個工作天。</dd><dt>投稿前審閱 NT$11,000</dt><dd>公開作業時間：1 週。</dd><dt>銀套裝 NT$12,700</dt><dd>4,000 字以下英文稿，包含編修及投稿支援；公開作業時間 3 週。超字數另計，作者回覆時間不含在內。</dd></dl><p style="margin-top:12px"><a href="https://www.editage.com.tw/publication-support/" target="_blank" rel="noopener">台灣公開價目與條件 ↗</a></p><h3>意得輯中國｜金額為人民幣</h3><p>快速投稿套餐 <strong>¥5,999 起</strong>；全程投稿套餐 <strong>¥8,999 起</strong>。方案包含項目與適用限制不同，交期須另行確認。</p><p><a href="https://www.editage.cn/services/publishing-services-packs/compare-plans" target="_blank" rel="noopener">中國公開套餐比較 ↗</a></p><p>查閱：2026 年 10 月 1 日。稅費、優惠及最終金額依供應商確認；上述天數均非期刊錄用期限。</p></section>
-<section class="ssci-side-card"><p class="side-kicker">TIMELINE</p><h2>時間安排</h2><h3>首次交稿</h3><p>收到稿件後確認工作量，書面約定交稿日期。</p><h3>返修期限</h3><p>請提供期刊決定信、審稿意見及截止日期，預留修改和校對時間。</p><h3>加急需求</h3><p>能否加急及加收多少費用，需先看稿件與顧問檔期。</p><p>上述為服務排期。期刊審稿與錄用時間由編輯部決定。</p></section>
-<section class="ssci-side-card"><p class="side-kicker">SERVICE TERMS</p><h2>輪次與有效期</h2><dl><dt>修改輪次</dt><dd>報價列明批註、複閱及討論次數。</dd><dt>服務期限</dt><dd>委託時約定起止日期、回稿時間及延期辦法。</dd><dt>追加工作</dt><dd>新增資料、改題、超字數或更換期刊，可能需要補報價。</dd></dl></section>
-<section class="ssci-side-card"><p class="side-kicker">ENQUIRY</p><h2>諮詢材料</h2><ol><li>學科、研究題目與摘要</li><li>稿件階段、語言與字數</li><li>目標期刊或投稿目的</li><li>希望交稿日期與預算</li></ol><p style="margin-top:14px">首次可先提供摘要或目錄；完整稿件待確認保密安排後提供。</p><a href="${email}">電郵提交需求 →</a></section>
-<section class="ssci-side-card"><p class="side-kicker">ADDITIONAL COSTS</p><h2>另計費用</h2><p>期刊 APC、投稿費、資料取得、翻譯或專門分析，依實際需要另行確認。</p><p>OTC 服務費與期刊收費分開列明。</p><a href="#section-8">查看費用範圍 →</a></section>
-</aside></div>
 <section class="phd-contact" id="consultation"><h2>學術諮詢</h2><p>請提供學科、摘要、字數及希望交稿的日期，並說明需要選刊、編修或返修協助。</p>${btn}<p class="phd-contact-meta">海外督導 OTC｜學術督導與編譯服務<br>WhatsApp +44 7947 991572 · <a href="${email}">office@overseasuk.com</a></p></section>
 <section class="phd-references"><div><h2>官方資料與相關服務</h2><ul><li><a href="https://mjl.clarivate.com/">Clarivate：期刊收錄查詢</a></li><li><a href="https://authorservices.taylorandfrancis.com/editorial-policies/">Taylor &amp; Francis：作者與編輯政策</a></li><li><a href="https://authorservices.taylorandfrancis.com/publishing-your-research/making-your-submission/">Taylor &amp; Francis：投稿準備</a></li></ul><p><a href="/zh/services/phd-application-coaching/">博士申請陪跑</a> · <a href="/zh/subject-planning/">學科規劃</a> · <a href="/zh/services/">服務導覽台</a></p><p>WeChat：overseasus · 資料核對：2026 年 10 月 1 日<br>期刊收錄與投稿要求以當期官方資訊為準。</p></div><figure class="phd-cover"><img src="${cover}" width="1200" height="630" alt="SSCI 學術督導：選題、選刊、修改與返修" loading="lazy"><figcaption>海外督導 OTC · 學術督導</figcaption></figure></section>
 </div>`});};

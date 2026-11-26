@@ -117,37 +117,45 @@
   ],
   "socialImageSource": "share-only",
   "directory": {
-    "title": "SSCI 學術督導｜選題・論文修改・投稿與返修",
-    "subtitle": "海外督導提供選題、選刊、論文修改及審稿回覆輔導。可選單項服務或分階段督導，按稿件與工作量報價。",
+    "title": "SSCI督導",
+    "subtitle": "選題、選刊、修改、投稿返修可單項或分階段安排；費用按稿件與工作量報價，期刊收費另列。",
     "searchPlaceholder": "搜尋關鍵詞",
     "tabs": [
       {
-        "id": "overview",
-        "label": "概況與選擇"
+        "id": "svc",
+        "label": "服務項目"
       },
       {
-        "id": "cost",
-        "label": "費用與服務"
+        "id": "fee",
+        "label": "費用報價"
       },
       {
-        "id": "apply",
-        "label": "申請與材料"
+        "id": "time",
+        "label": "時程安排"
       },
       {
-        "id": "ref",
-        "label": "資料與提醒"
+        "id": "ask",
+        "label": "諮詢流程"
+      },
+      {
+        "id": "faq",
+        "label": "常見問題"
       }
     ],
-    "tip": "",
-    "groupTitle": "SSCI 學術督導｜選題・論文修改・投稿與返修要點",
+    "tip": "先發學科、摘要、字數與希望交稿日期，即可按「單項／編修／陪跑」三種方式報價；OTC 不包發表、不代寫。",
+    "groupTitle": "服務與報價",
     "cards": [
       {
         "id": "section-1",
-        "tab": "cost",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "01",
+        "tab": "svc",
+        "region": "適用對象",
+        "badge": "服務",
         "title": "服務對象",
-        "chips": [],
+        "chips": [
+          "首次投稿",
+          "學位改投",
+          "審稿回覆"
+        ],
         "desc": "<p>適合首次投稿、將學位論文改寫為期刊文章，或需要回覆審稿意見的研究者。顧問依學科與研究方法安排。</p>",
         "noteLabel": "提醒",
         "note": "還沒有初稿，可先討論選題與提綱；已有稿件，可安排選刊、編修或返修。",
@@ -155,23 +163,35 @@
       },
       {
         "id": "section-2",
-        "tab": "overview",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "02",
+        "tab": "svc",
+        "region": "研究起步",
+        "badge": "服務",
         "title": "選題研究",
-        "chips": [],
+        "chips": [
+          "研究問題",
+          "文獻檢索",
+          "提綱批註"
+        ],
         "desc": "<p>討論研究問題、相關文獻及研究方法。學位論文改投期刊時，先確定文章的主要論點，再調整篇幅與結構。</p>",
         "noteLabel": "提醒",
         "note": "提供選題意見、文獻檢索建議及提綱批註。涉及訪談、問卷或個人資料，須確認倫理審查與使用授權。",
-        "wide": false
+        "wide": false,
+        "secondary": {
+          "label": "看報價",
+          "href": "#section-8"
+        }
       },
       {
         "id": "section-3",
-        "tab": "overview",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "03",
+        "tab": "svc",
+        "region": "選刊收錄",
+        "badge": "服務",
         "title": "期刊選擇",
-        "chips": [],
+        "chips": [
+          "SSCI",
+          "AHCI",
+          "收錄核對"
+        ],
         "desc": "<p>按主題、方法與文章類型比較期刊，列出字數、投稿要求、費用及已公布的審稿資訊。</p><p>SSCI 是社會科學引文索引；人文與藝術題目也可能適合 AHCI 或其他相關期刊。透過 <a href=\"https://mjl.clarivate.com/\" target=\"_blank\" rel=\"noopener\">Clarivate Master Journal List</a> 按刊名或 ISSN 核對當期收錄，再確認學校對索引、年份與分區的要求。影響因子與 SSCI 收錄不能互相替代。</p>",
         "noteLabel": "",
         "note": "",
@@ -183,35 +203,55 @@
       },
       {
         "id": "section-4",
-        "tab": "overview",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "04",
+        "tab": "svc",
+        "region": "稿件階段",
+        "badge": "服務",
         "title": "論文修改",
-        "chips": [],
+        "chips": [
+          "結構論證",
+          "引文檢查",
+          "英文編修"
+        ],
         "desc": "<p>檢查文章結構、論證與引文，對摘要、文獻、方法及結論提出批註。英文編修處理語句、術語與表達；統計及專門方法需求另行確認。</p>",
         "noteLabel": "提醒",
         "note": "提供批註稿與修改建議，必要時安排討論。字數、修改次數及交稿日期列入報價。",
-        "wide": false
+        "wide": false,
+        "secondary": {
+          "label": "看報價",
+          "href": "#fee-edit"
+        }
       },
       {
         "id": "section-5",
-        "tab": "overview",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "05",
+        "tab": "svc",
+        "region": "投稿階段",
+        "badge": "服務",
         "title": "投稿返修",
-        "chips": [],
+        "chips": [
+          "格式核對",
+          "回覆審稿",
+          "拒稿轉投"
+        ],
         "desc": "<p>核對期刊格式、匿名稿、圖表、引文、投稿信及相關聲明。由作者確認最終稿、署名並提交。</p>",
         "noteLabel": "提醒",
         "note": "逐條討論審稿意見，整理修改內容與對應頁碼，檢查回覆信和修改稿。拒稿後可安排轉投；同一稿件不可同時投往多家期刊。",
-        "wide": false
+        "wide": false,
+        "secondary": {
+          "label": "看報價",
+          "href": "#fee-revise"
+        }
       },
       {
         "id": "section-6",
-        "tab": "overview",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "06",
+        "tab": "svc",
+        "region": "研究方向",
+        "badge": "服務",
         "title": "學科分類",
-        "chips": [],
+        "chips": [
+          "教育語言",
+          "傳播商管",
+          "人文藝術"
+        ],
         "desc": "<p>教育、語言、傳播、商管、社會科學、人文與藝術等研究方向，請查看 <a href=\"/zh/services/ssci-academic-supervision/subjects/\">學科分類 →</a>。</p>",
         "noteLabel": "提醒",
         "note": "跨學科題目可先提供摘要，確認是否有合適的顧問。",
@@ -222,15 +262,257 @@
         }
       },
       {
+        "tab": "fee",
+        "region": "按項詢價",
+        "badge": "費用",
+        "title": "單項服務",
+        "chips": [
+          "選題討論",
+          "期刊比較",
+          "投稿檢查"
+        ],
+        "desc": "<p>只需要其中一步，可單獨安排：討論選題與提綱、比較候選期刊，或在投稿前檢查材料。</p><p>適合已有方向、只差某一環的作者。</p>",
+        "noteLabel": "報價依據",
+        "note": "按資料量、會議次數及交付內容報價。",
+        "wide": false,
+        "id": "section-8",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        },
+        "secondary": {
+          "label": "看選題",
+          "href": "#section-2"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "按字數",
+        "badge": "費用",
+        "title": "稿件編修",
+        "chips": [
+          "結構批註",
+          "學術表達",
+          "英文編修"
+        ],
+        "desc": "<p>對摘要、文獻、方法及結論提出批註，處理語句、術語與表達，附修改建議。</p><p>統計及專門方法需求另行確認。</p>",
+        "noteLabel": "報價依據",
+        "note": "按字數、學科、稿件成熟度、修改輪次及交稿期限報價。",
+        "wide": false,
+        "id": "fee-edit",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        },
+        "secondary": {
+          "label": "看修改",
+          "href": "#section-4"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "按範圍",
+        "badge": "費用",
+        "title": "階段陪跑",
+        "chips": [
+          "全程督導",
+          "約定輪次",
+          "分段交稿"
+        ],
+        "desc": "<p>從選題、寫作、選刊一路帶到投稿返修。委託時約定討論次數、修改輪次與每一階段的交稿日期。</p>",
+        "noteLabel": "報價依據",
+        "note": "按整體範圍、階段數及期限報價，報價單逐項列明。",
+        "wide": false,
+        "id": "fee-stage",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        },
+        "secondary": {
+          "label": "看流程",
+          "href": "#section-7"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "按工作量",
+        "badge": "費用",
+        "title": "投稿返修",
+        "chips": [
+          "材料檢查",
+          "審稿分析",
+          "回覆信"
+        ],
+        "desc": "<p>核對格式、匿名稿、圖表與投稿信；逐條分析審稿意見，整理回覆表及修改稿。拒稿後可安排轉投。</p>",
+        "noteLabel": "報價依據",
+        "note": "按期刊要求與實際返修工作量確認。",
+        "wide": false,
+        "id": "fee-revise",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        },
+        "secondary": {
+          "label": "看返修",
+          "href": "#section-5"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "第三方",
+        "badge": "另計",
+        "title": "另計費用",
+        "chips": [
+          "期刊APC",
+          "投稿費",
+          "翻譯分析"
+        ],
+        "desc": "<p>期刊 APC、投稿費、資料取得、翻譯或專門分析，如適用由相關機構另行收取。</p><p>OTC 服務費與期刊收費分開列明。</p>",
+        "noteLabel": "提醒",
+        "note": "須先說明並經作者確認才會產生。",
+        "wide": false,
+        "id": "fee-extra",
+        "primary": {
+          "label": "電郵查詢 →",
+          "href": "mailto:office@overseasuk.com?subject=SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%EF%BD%9C%E8%AB%AE%E8%A9%A2&body=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "委託約定",
+        "badge": "條款",
+        "title": "輪次期限",
+        "chips": [
+          "修改輪次",
+          "服務期限",
+          "追加工作"
+        ],
+        "desc": "<p><strong>修改輪次</strong>：報價列明批註、複閱及討論次數。</p><p><strong>服務期限</strong>：約定起止日期、回稿時間及延期辦法。</p><p><strong>追加工作</strong>：新增資料、改題、超字數或更換期刊，可能需要補報價。</p>",
+        "noteLabel": "提醒",
+        "note": "學術督導另行收費，不含在免費留學代辦內；取消、退款及追加費用於委託前約定。",
+        "wide": false,
+        "id": "fee-terms",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "台灣公價",
+        "badge": "參考",
+        "title": "台灣參考",
+        "chips": [
+          "期刊挑選",
+          "投稿審閱",
+          "銀套裝"
+        ],
+        "desc": "<table><tbody><tr><th>期刊挑選</th><td>NT$9,000｜約 4 個工作天</td></tr><tr><th>投稿前審閱</th><td>NT$11,000｜約 1 週</td></tr><tr><th>銀套裝</th><td>NT$12,700｜4,000 字以下英文稿，含編修及投稿支援，約 3 週</td></tr></tbody></table>",
+        "noteLabel": "說明",
+        "note": "其他機構公開價，供預算參考，非 OTC 價格。超字數另計；查閱日期 2026-10-01。",
+        "wide": false,
+        "id": "ref-tw",
+        "primary": {
+          "label": "台灣價目 ↗",
+          "href": "https://www.editage.com.tw/publication-support/"
+        },
+        "secondary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "fee",
+        "region": "中國公價",
+        "badge": "參考",
+        "title": "中國參考",
+        "chips": [
+          "快速投稿",
+          "全程投稿"
+        ],
+        "desc": "<table><tbody><tr><th>快速投稿套餐</th><td>¥5,999 起</td></tr><tr><th>全程投稿套餐</th><td>¥8,999 起</td></tr></tbody></table><p>方案包含項目與適用限制不同，交期須另行確認。</p>",
+        "noteLabel": "說明",
+        "note": "其他機構公開價，非 OTC 價格。稅費、優惠及最終金額依供應商確認；查閱日期 2026-10-01。",
+        "wide": false,
+        "id": "ref-cn",
+        "primary": {
+          "label": "中國價目 ↗",
+          "href": "https://www.editage.cn/services/publishing-services-packs/compare-plans"
+        },
+        "secondary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "time",
+        "region": "服務排期",
+        "badge": "時程",
+        "title": "首次交稿",
+        "chips": [
+          "確認字數",
+          "書面約定"
+        ],
+        "desc": "<p>收到稿件後確認工作量，以書面約定首次交稿日期。</p>",
+        "noteLabel": "提醒",
+        "note": "服務排期不等於期刊審稿或錄用時間。",
+        "wide": false,
+        "id": "time-first",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "time",
+        "region": "返修階段",
+        "badge": "時程",
+        "title": "返修期限",
+        "chips": [
+          "決定信",
+          "審稿意見",
+          "截止日"
+        ],
+        "desc": "<p>請提供期刊決定信、審稿意見及截止日期，預留修改和校對時間。</p>",
+        "noteLabel": "提醒",
+        "note": "臨近截止日請盡早聯絡，以便安排顧問。",
+        "wide": false,
+        "id": "time-revise",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
+        "tab": "time",
+        "region": "加急安排",
+        "badge": "時程",
+        "title": "加急需求",
+        "chips": [
+          "看稿件",
+          "看檔期"
+        ],
+        "desc": "<p>能否加急及加收多少費用，需先看稿件與顧問檔期再確認。</p>",
+        "noteLabel": "提醒",
+        "note": "加急費用會在報價單內單獨列明。",
+        "wide": false,
+        "id": "time-rush",
+        "primary": {
+          "label": "取得報價 ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
+      },
+      {
         "id": "section-7",
-        "tab": "apply",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "07",
+        "tab": "ask",
+        "region": "合作步驟",
+        "badge": "流程",
         "title": "流程",
         "chips": [
           "提供摘要",
           "確認報價",
-          "修改與討論"
+          "修改討論",
+          "投稿返修"
         ],
         "desc": "<ol><li><strong>提供摘要</strong> 告知學科、稿件進度及希望完成的日期；摘要請先移除個人資料。</li><li><strong>確認報價</strong> 約定顧問、服務內容、修改次數、交稿日期與費用。</li><li><strong>修改與討論</strong> 顧問提供批註，作者修改稿件，再討論需要補充的部分。</li><li><strong>投稿與返修</strong> 作者確認後提交。收到審稿意見，再按約定安排返修。</li></ol>",
         "noteLabel": "",
@@ -238,34 +520,69 @@
         "wide": true
       },
       {
-        "id": "section-8",
-        "tab": "cost",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "08",
-        "title": "費用",
-        "chips": [],
-        "desc": "<table><tbody><tr><td>選題與選刊</td><td>研究問題、提綱、期刊比較</td><td>按資料量、會議次數及交付內容報價。</td></tr><tr><td>稿件督導與編修</td><td>結構批註、學術表達與修改回饋</td><td>按字數、學科、稿件成熟度、輪次及期限報價。</td></tr><tr><td>投稿與返修</td><td>材料檢查、審稿意見分析與回覆表</td><td>按期刊要求與實際返修工作量確認。</td></tr><tr><td>第三方費用</td><td>期刊 APC、投稿費、資料、翻譯或專門分析</td><td>如適用，由相關機構另行收取；先說明並經作者確認。</td></tr></tbody></table>",
+        "tab": "ask",
+        "region": "首次聯絡",
+        "badge": "材料",
+        "title": "諮詢材料",
+        "chips": [
+          "題目摘要",
+          "字數階段",
+          "目標期刊",
+          "期限預算"
+        ],
+        "desc": "<ol><li>學科、研究題目與摘要</li><li>稿件階段、語言與字數</li><li>目標期刊或投稿目的</li><li>希望交稿日期與預算</li></ol>",
         "noteLabel": "提醒",
-        "note": "學術督導另行收費，不包含在免費留學代辦服務中。取消、退款及追加工作的費用，於委託前約定。",
-        "wide": true
+        "note": "首次可先提供摘要或目錄；完整稿件待確認保密安排後提供。",
+        "wide": false,
+        "id": "enquiry",
+        "primary": {
+          "label": "WhatsApp ↗",
+          "href": "https://wa.me/447947991572?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        },
+        "secondary": {
+          "label": "電郵提交",
+          "href": "mailto:office@overseasuk.com?subject=SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%EF%BD%9C%E8%AB%AE%E8%A9%A2&body=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%20SSCI%20%E5%AD%B8%E8%A1%93%E7%9D%A3%E5%B0%8E%E3%80%82%0A%E5%AD%B8%E7%A7%91%E8%88%87%E7%A0%94%E7%A9%B6%E9%A1%8C%E7%9B%AE%EF%BC%9A%0A%E7%A8%BF%E4%BB%B6%E9%9A%8E%E6%AE%B5%E8%88%87%E5%AD%97%E6%95%B8%EF%BC%9A%0A%E6%8A%95%E7%A8%BF%E7%9B%AE%E7%9A%84%E8%88%87%E7%9B%AE%E6%A8%99%E6%9C%9F%E5%88%8A%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%8D%94%E5%8A%A9%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%8A%E6%9C%9F%E9%99%90%EF%BC%9A"
+        }
       },
       {
-        "id": "section-9",
-        "tab": "ref",
-        "region": "SSCI 學術督導｜選題・論",
-        "badge": "09",
-        "title": "常見問題",
-        "chips": [
-          "可以自己投稿嗎？",
-          "能保證錄用或加快審稿嗎？"
-        ],
-        "desc": "<p><strong>可以自己投稿嗎？</strong>可以。按期刊要求註冊及提交，如實填寫作者與所屬單位資料，無須透過代理。</p><p><strong>沒有 SSCI 論文能申請博士嗎？</strong>依院校要求而定。申請前應核對研究計劃、寫作樣本、作品集及導師要求。</p><p><strong>能保證錄用或加快審稿嗎？</strong>不能。錄用與審稿進度由期刊決定。OTC 提供指導與編修，研究及寫作由作者完成；不接受代寫、買賣署名、編造資料或虛假評審。</p>",
+        "tab": "faq",
+        "region": "常見問題",
+        "badge": "問答",
+        "title": "自行投稿",
+        "chips": [],
+        "desc": "<p><strong>可以自己投稿嗎？</strong></p><p>可以。按期刊要求註冊及提交，如實填寫作者與所屬單位資料，無須透過代理。</p>",
         "noteLabel": "",
         "note": "",
-        "wide": false
+        "wide": false,
+        "id": "section-9"
+      },
+      {
+        "tab": "faq",
+        "region": "常見問題",
+        "badge": "問答",
+        "title": "博士申請",
+        "chips": [],
+        "desc": "<p><strong>沒有 SSCI 論文能申請博士嗎？</strong></p><p>依院校要求而定。申請前應核對研究計劃、寫作樣本、作品集及導師要求。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "id": "faq-2"
+      },
+      {
+        "tab": "faq",
+        "region": "常見問題",
+        "badge": "問答",
+        "title": "保證錄用",
+        "chips": [],
+        "desc": "<p><strong>能保證錄用或加快審稿嗎？</strong></p><p>不能。錄用與審稿進度由期刊決定。OTC 提供指導與編修，研究及寫作由作者完成；不接受代寫、買賣署名、編造資料或虛假評審。</p>",
+        "noteLabel": "",
+        "note": "",
+        "wide": false,
+        "id": "faq-3"
       }
     ],
-    "footer": ""
+    "footer": "",
+    "tipLabel": "報價小貼士"
   },
   "bodyFormat": "card-directory"
 }
