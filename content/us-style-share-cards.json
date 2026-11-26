@@ -801,5 +801,104 @@
      "學費與住宿",
      "延期及退費"
    ]
- }
+ },
+{
+ "route": "/zh/universities/new-zealand/",
+ "slug": "nz-university-applications",
+ "head": "新西蘭大學申請",
+ "en": "New Zealand Universities",
+ "items": [
+  "八所大學比較",
+  "課程與申請資料",
+  "免費代辦範圍"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/university-of-auckland/",
+ "slug": "nz-university-of-auckland",
+ "head": "奧克蘭大學",
+ "en": "University of Auckland",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/university-of-otago/",
+ "slug": "nz-university-of-otago",
+ "head": "奧塔哥大學",
+ "en": "University of Otago",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/victoria-university-of-wellington/",
+ "slug": "nz-victoria-university-of-wellington",
+ "head": "威靈頓維多利亞大學",
+ "en": "Victoria University of Wellington",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/university-of-canterbury/",
+ "slug": "nz-university-of-canterbury",
+ "head": "坎特伯雷大學",
+ "en": "University of Canterbury",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/massey-university/",
+ "slug": "nz-massey-university",
+ "head": "梅西大學",
+ "en": "Massey University",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/university-of-waikato/",
+ "slug": "nz-university-of-waikato",
+ "head": "懷卡托大學",
+ "en": "University of Waikato",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/lincoln-university/",
+ "slug": "nz-lincoln-university",
+ "head": "林肯大學",
+ "en": "Lincoln University",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+},
+{
+ "route": "/zh/universities/new-zealand/auckland-university-of-technology/",
+ "slug": "nz-auckland-university-of-technology",
+ "head": "奧克蘭理工大學",
+ "en": "Auckland University of Technology",
+ "items": [
+  "本科與研究生",
+  "入學資格與文件",
+  "申請安排"
+ ]
+}
 ]
