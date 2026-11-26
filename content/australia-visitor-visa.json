@@ -1,0 +1,21 @@
+{
+  "path": "/zh/services/australia-visitor-visa/",
+  "slug": "australia-visitor-visa",
+  "name": "澳洲旅簽",
+  "titleZh": "澳洲旅遊簽證（600）材料準備｜海外督導 OTC",
+  "summaryZh": "協助整理澳洲訪客簽證（600）旅遊、探親及商務訪問材料：在職與收入證明、資金、行程與回國安排，按官方流程網上遞交。",
+  "shareImageZh": "/assets/social/australia-visitor-visa-share-20261126.png",
+  "socialImageVersion": "v=20261126-us-style",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "lang": "zh",
+  "sections": [
+    {"heading": "服務對象", "paragraphs": ["計劃赴澳旅遊、探親或短期商務訪問，想把材料一次準備清楚的人士。先按護照國家／地區、現居地、出行目的和日期，確認適用的 600 簽證類別（旅遊、親屬擔保、商務訪客或常旅客等）。", "簽證沒有「特殊渠道」：所有申請都由澳洲內政部審理，聲稱包過或走內部關係的服務不可信，提交虛假材料可能導致拒簽及日後申請受影響。"]},
+    {"heading": "審核重點", "paragraphs": ["審理時一般會看：出行目的是否真實、停留期間的資金是否足夠、國內的工作、學業、家庭或資產等約束，以及過往出入境與簽證紀錄。材料應如實反映個人情況，不需要堆砌與目的無關的文件。"]},
+    {"heading": "服務內容", "paragraphs": ["<ul><li>按個人情況列出官方要求及建議文件清單。</li><li>整理在職或在讀證明、收入與銀行流水、資產證明及行程安排。</li><li>探親或受邀訪問時，整理邀請信及親屬關係文件。</li><li>協助理解 ImmiAccount 網上表格題目，由本人核實並提交。</li><li>補件要求及進度跟進。</li></ul>"]},
+    {"heading": "流程", "paragraphs": ["<ol><li>提供護照國家／地區、現居地、出行目的、預計日期與停留時間。</li><li>確認類別、文件清單、時間表及服務報價。</li><li>整理材料，由本人核實內容。</li><li>本人在 ImmiAccount 遞交並繳費，按通知完成生物資料採集（如適用）。</li></ol>"]},
+    {"heading": "費用", "paragraphs": ["<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>首次諮詢</td><td>說明需求及初步評估免費。</td></tr><tr><td>OTC 材料整理</td><td>按類別及準備進度書面報價；開始前確認總價、修改次數及期限。</td></tr><tr><td>第三方費用</td><td>政府簽證費、生物資料採集、翻譯、公證及體檢（如需要）另計，按官方或供應商標準收取。</td></tr></tbody></table>"]},
+    {"heading": "服務範圍", "paragraphs": ["OTC 提供公開資訊整理、文件行政支援及進度跟進，不承諾簽證結果或審理時間。涉及拒簽分析、簽證取消、上訴或移民法律意見時，轉介澳洲註冊移民代理（MARA）或律師處理。簽證由澳洲內政部決定。", "官方資訊：<a href=\"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\">澳洲內政部：Visitor visa (subclass 600)</a>。實際要求以申請時的官方規定為準。"]}
+  ]
+}

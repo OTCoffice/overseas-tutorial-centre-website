@@ -559,5 +559,16 @@
    "資格與實習",
    "求職材料"
   ]
+ },
+ {
+  "route": "/zh/services/australia-visitor-visa/",
+  "slug": "australia-visitor-visa",
+  "head": "澳洲旅遊簽證\n材料準備",
+  "en": "Australia Visitor Visa (600)",
+  "items": [
+   "收入與資金",
+   "行程與約束",
+   "網上遞交"
+  ]
  }
 ]

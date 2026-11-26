@@ -55,6 +55,7 @@ const groups=[
       ["移民聯盟","/zh/immigration-alliance/","各國工作與居留政策、歐洲36國專頁及外部資料索引。"],
       ["美國簽證","/zh/services/us-visa-support/","DS-160 資料核對、文件整理、預約流程與面試準備。"],
       ["越南簽證","/zh/services/vietnam-visa/","需求確認、文件檢查、申請協調與進度跟進。"],
+      ["澳洲旅簽","/zh/services/australia-visitor-visa/","600 訪客簽證：在職收入、資金、行程與回國約束材料整理。"],
       ["澳洲491","/zh/services/australia-491-planning/","地區技術簽證、州提名、191永居條件與行政支援。"],
       ["焊工赴澳","/zh/insights/japan-welder-australia-pathway/","特定技能、JIS 證書與澳洲焊工職業評估；190、491 州擔保。"],
       ["波蘭居留","/zh/services/poland-work-residence-support/","工作許可、臨時居留、審理時間與文件及進度支援。"],
