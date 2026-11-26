@@ -805,10 +805,10 @@
 {
  "route": "/zh/universities/new-zealand/",
  "slug": "nz-university-applications",
- "head": "新西蘭大學申請",
- "en": "New Zealand Universities",
+ "head": "新西蘭院校申請",
+ "en": "Study in New Zealand",
  "items": [
-  "八所大學比較",
+  "大學・理工・私立",
   "課程與申請資料",
   "免費代辦範圍"
  ]
