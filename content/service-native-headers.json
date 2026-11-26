@@ -260,13 +260,13 @@
     "previousImage": "/assets/social/native-japan-graduate-application-20261030.png"
   },
   "/zh/services/korea-exchange-support/": {
-    "title": "韓國交換陪跑",
-    "image": "/assets/social/korea-exchange-support-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "韓國交換",
+    "image": "/assets/social/korea-exchange-support-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/korea-exchange-support/index.html",
-    "previousImage": "/assets/social/native-korea-exchange-support-20261030.png"
+    "previousImage": "/assets/social/korea-exchange-support-share-20261124.png"
   },
   "/zh/services/korea-masters-application/": {
     "title": "韓國碩士",

@@ -266,12 +266,12 @@
  {
   "route": "/zh/services/korea-exchange-support/",
   "slug": "korea-exchange-support",
-  "head": "韓國交換陪跑",
+  "head": "韓國交換",
   "en": "Korea Exchange Support",
   "items": [
-   "交換選擇",
+   "交換訪問",
    "選課學分",
-   "行前準備"
+   "費用行前"
   ]
  },
  {

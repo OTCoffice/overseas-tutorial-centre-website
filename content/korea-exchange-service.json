@@ -1,180 +1,240 @@
 {
   "slug": "korea-exchange-support",
   "path": "/zh/services/korea-exchange-support/",
-  "titleZh": "韓國交換陪跑｜選校、課程、學分與行前準備",
-  "summaryZh": "比較韓國交換院校，核對課程語言與學分，整理文件、住宿預算和時間表。初步評估免費，持續陪跑的範圍與費用先確認。",
+  "titleZh": "韓國交換申請｜校際交換、自費訪問、選課學分與行前準備｜海外督導 OTC",
+  "summaryZh": "分清韓國校際交換、自費訪問生與語言遊學，核對母校提名、課程語言、學分認可、學費、住宿保險及 D-2 簽證，了解 OTC 初步評估與持續支援範圍。",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "sections": [
-    {
-      "heading": "哪些情況適合找我們",
-      "paragraphs": [
-        "在國民、仁川、忠南或其他韓國合作院校之間猶豫；需要確認英語／韓語授課、必修認可、住宿及預算；申請和行前安排較多，希望有人一起整理進度。"
-      ]
-    },
-    {
-      "heading": "出發前：把學校比較清楚",
-      "paragraphs": [
-        "按母校協議與交換學期，整理院系准入、課程、授課語言及先修要求，建立選校表與備選課清單。",
-        "整理母校提名、接收校申請、作品集（如適用）、宿舍與文件時間表。協助準備向兩校詢問的問題及回覆記錄，最後提交資料由學生確認。"
-      ]
-    },
-    {
-      "heading": "交換期間：跟進變更與文件",
-      "paragraphs": [
-        "按約定頻率檢查進度；額滿、停開或衝堂時，協助整理替代課及需母校重新確認的事項。",
-        "提供學習安排與校方溝通支援，不代做作業或考試；當地緊急協助按校方及相關機構程序處理。"
-      ]
-    },
-    {
-      "heading": "返校後：完成學分資料",
-      "paragraphs": [
-        "整理正式成績單、課程大綱、選課批准與變更紀錄，按母校要求跟進學分認可。",
-        "是否認可、分數換算與畢業要求由母校決定；可協助整理交換成果作履歷或後續升學用途。"
-      ]
-    },
-    {
-      "heading": "哪些免費，哪些另付費",
-      "paragraphs": [
-        "<strong>初步評估免費：</strong>了解背景及最急的問題，指出需要向學校確認的事項。",
-        "<strong>持續陪跑另行確認：</strong>開始前寫清服務期間、院校範圍、文件種類、跟進頻率、聯絡方式、費用與取消規則；確認後才開始。",
-        "<strong>第三方支出另付：</strong>院校、考試、翻譯認證、住宿、交通、保險及入境手續等費用。交換名額、課程、宿舍、簽證與學分結果均不保證。"
-      ]
-    },
-    {
-      "heading": "怎樣開始",
-      "paragraphs": [
-        "① 提供基本背景。<br>② 核對母校協議及當期要求。<br>③ 確認服務內容和費用。<br>④ 整理比較表、課表、預算與時間表。<br>⑤ 按約定跟進變更。<br>⑥ 交回文件並整理待辦事項。"
-      ]
-    },
-    {
-      "heading": "先提供五項資料",
-      "paragraphs": [
-        "母校與專業；年級；交換院校及學期；韓語／英語程度；最重視的兩項條件與最急截止日。未確定可留空，初次不用傳護照或財務證明。",
-        "可回覆已有 Threads 對話，或用下方 WhatsApp／Email 聯絡。",
-        "<a href=\"/zh/insights/korea-exchange-kookmin-incheon-chungnam-guide/\">閱讀三校完整比較指南 →</a>"
-      ]
-    }
-  ],
-  "socialTitleZh": "韓國交換陪跑",
-  "shareImageZh": "/assets/social/korea-exchange-support-share-20261124.png",
-  "socialImageVersion": "v=20261124-us-style",
+  "socialTitleZh": "韓國交換",
+  "shareImageZh": "/assets/social/korea-exchange-support-share-20261126.png",
+  "socialImageVersion": "v=20261126-1",
   "socialImageSource": "share-only",
+  "bodyFormat": "card-directory",
+  "name": "韓國交換",
+  "updated": "2026-11-26",
   "directory": {
-    "title": "韓國交換陪跑｜選校、課程、學分與行前準備",
-    "subtitle": "比較韓國交換院校，核對課程語言與學分，整理文件、住宿預算和時間表。初步評估免費，持續陪跑的範圍與費用先確認。",
-    "searchPlaceholder": "搜尋關鍵詞",
+    "title": "韓國交換",
     "tabs": [
       {
-        "id": "overview",
-        "label": "概況與選擇"
+        "id": "routes",
+        "label": "交換途徑"
       },
       {
         "id": "apply",
-        "label": "申請與材料"
+        "label": "申請準備"
       },
       {
-        "id": "ref",
-        "label": "資料與提醒"
+        "id": "courses",
+        "label": "選課學分"
+      },
+      {
+        "id": "cost",
+        "label": "費用行前"
+      },
+      {
+        "id": "return",
+        "label": "在韓返校"
+      },
+      {
+        "id": "service",
+        "label": "申請服務"
       }
     ],
-    "tip": "",
-    "groupTitle": "韓國交換陪跑｜選校、課程、學分與行前準備要點",
+    "searchPlaceholder": "搜尋提名、訪問生、學分",
+    "tipLabel": "申請途徑",
+    "tip": "先確認母校協議與在學資格；交換提名、自費訪問及學分認可是不同程序。",
+    "groupTitle": "全部要點",
     "cards": [
       {
         "id": "section-1",
-        "tab": "overview",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "01",
-        "title": "適用情況",
-        "chips": [],
-        "desc": "<p>在國民、仁川、忠南或其他韓國合作院校之間猶豫；需要確認英語／韓語授課、必修認可、住宿及預算；申請和行前安排較多，希望有人一起整理進度。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "校際交換",
+        "desc": "<p>校際交換通常先經母校甄選與提名，再向接收校申請。須確認兩校協議、適用學系、名額及交換學期；接收校仍有最後審核權。OTC 可協助比較與文件安排，不能代替母校提名或取得協議外名額。</p>",
+        "primary": {
+          "label": "申請範例 →",
+          "href": "https://gsc.korea.ac.kr/gsc/ExchangeVisitingProgram/Application/Application.do"
+        }
+      },
+      {
+        "id": "exchange-2",
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "自費訪問",
+        "desc": "<p>沒有校際交換名額時，可另查 Visiting Student Program。以高麗為例，訪問生不需交換提名，但須符合資格、先與母校確認，並向接收校繳學費。並非每校都接受非合作校學生，修課及學分回轉亦須事先確認。</p>",
+        "primary": {
+          "label": "訪問申請 →",
+          "href": "https://gsc.korea.ac.kr/gsc/ExchangeVisitingProgram/Application/Application.do"
+        }
+      },
+      {
+        "id": "exchange-3",
+        "tab": "routes",
+        "region": "交換途徑",
+        "title": "語言遊學",
+        "desc": "<p>語學堂、寒暑校及文化體驗與學期制交換不同，招生對象、課程、證明及簽證須分別查閱。課程名稱寫「交流」或「交換」不代表會修讀大學學分課，也不代表母校承認學分。</p>",
+        "primary": {
+          "label": "韓國留學 →",
+          "href": "/zh/countries/south-korea/"
+        }
+      },
+      {
+        "id": "exchange-4",
+        "tab": "apply",
+        "region": "申請準備",
+        "title": "申請資格",
+        "desc": "<p>按母校及接收校兩份規定核對在學資格、已修學期、成績、年級與語言能力。交換未必需要 TOPIK，但實際韓語或英語程度仍須足以完成所選課程；研究生與本科生、藝術及專業課程可能有不同准入限制。</p>"
       },
       {
         "id": "section-2",
-        "tab": "overview",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "02",
-        "title": "出發前",
-        "chips": [],
-        "desc": "<p>按母校協議與交換學期，整理院系准入、課程、授課語言及先修要求，建立選校表與備選課清單。</p>",
-        "noteLabel": "提醒",
-        "note": "整理母校提名、接收校申請、作品集（如適用）、宿舍與文件時間表。協助準備向兩校詢問的問題及回覆記錄，最後提交資料由學生確認。",
-        "wide": false
+        "tab": "apply",
+        "region": "申請準備",
+        "title": "提名申請",
+        "desc": "<p>母校內部截止通常早於接收校申請。先取得適用的提名或母校批准，再依通知完成網申及文件；另分清補件、住宿和簽證時間。以高麗官網為例，春季申請通常在前一年 10 月、秋季在 4 月，不能套用至所有學校。</p>",
+        "primary": {
+          "label": "校方流程 →",
+          "href": "https://gsc.korea.ac.kr/gsc/ExchangeVisitingProgram/Application/Application.do"
+        }
+      },
+      {
+        "id": "exchange-6",
+        "tab": "apply",
+        "region": "申請準備",
+        "title": "申請文件",
+        "desc": "<p>常見為在學與成績證明、學習計畫、護照及適用的語言、財力、保險資料；交換另需提名或協議資料。翻譯、文件格式、正本寄送與有效期依校方確認，初次諮詢只需基本背景，毋須先傳護照或銀行文件。</p>"
+      },
+      {
+        "id": "exchange-7",
+        "tab": "courses",
+        "region": "選課學分",
+        "title": "授課語言",
+        "desc": "<p>不能只看課名或教材是否英文。仁川自 2026 春季起區分 EN 與 ES：EN 為超過 80% 英語授課，ES 為韓語授課、英文教材與 AI 英文字幕。選課前應確認實際上課、評量語言及所需能力，ES 不等於全英課程。</p>",
+        "primary": {
+          "label": "課程來源 →",
+          "href": "https://www.inu.ac.kr/global/12376/subview.do"
+        }
+      },
+      {
+        "id": "exchange-8",
+        "tab": "courses",
+        "region": "選課學分",
+        "title": "選課限制",
+        "desc": "<p>依當期開課表核對校區、院系准入、先修、選課順位及學分上限。熱門課可能額滿、停開或衝堂，先準備備選課；歷年課表只作參考，錄取及課名出現在目錄中都不等於一定選得到。</p>",
+        "primary": {
+          "label": "選課資料 →",
+          "href": "https://www.inu.ac.kr/global/12376/subview.do"
+        }
+      },
+      {
+        "id": "exchange-9",
+        "tab": "courses",
+        "region": "選課學分",
+        "title": "學分認可",
+        "desc": "<p>出發前向母校申請預先審批，保存課程大綱、學時、評量、學分及最低成績要求。韓國學分與母校學分不一定一對一換算；必修、選修、成績轉換及最低修課量均由母校決定，交換或訪問生身分本身不保證抵免。</p>"
+      },
+      {
+        "id": "exchange-10",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "學費比較",
+        "desc": "<table><thead><tr><th>途徑</th><th>學費安排</th><th>另行確認</th></tr></thead><tbody><tr><td>校際交換</td><td>依兩校協議，通常免接收校學費</td><td>母校學費、註冊及雜費</td></tr><tr><td>自費訪問</td><td>向接收校繳學費</td><td>母校是否仍收費、申請及退費條款</td></tr><tr><td>語學短課</td><td>按個別課程收費</td><td>是否另收活動、教材或語言課費</td></tr></tbody></table><p>住宿、保險、交通及生活支出另列。正式金額按申請學期及校方帳單確認；免接收校學費不代表整趟交換免費。</p>",
+        "primary": {
+          "label": "費用範例 →",
+          "href": "https://gsc.korea.ac.kr/gsc/ExchangeVisitingProgram/Application/Application.do"
+        },
+        "wide": true
+      },
+      {
+        "id": "exchange-11",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "生活預算",
+        "desc": "<p>Study in Korea 的生活費規劃參考約每月 75 萬至 100 萬韓元，實際按城市、宿舍或租屋、膳食和交通報價。按在韓總月數計算，另預留押金、機票、保險及初次安頓費；這項估算不等於簽證財力門檻。</p>",
+        "primary": {
+          "label": "生活開支 →",
+          "href": "https://www.studyinkorea.go.kr/ko/life/livingExpense.do"
+        }
+      },
+      {
+        "id": "exchange-12",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "住宿保險",
+        "desc": "<p>宿舍通常須另外申請，確認名額、入住期間、餐費、寢具、押金及取消規則；校外住宿另核對租約與通勤。保險須查校方指定保障、海外保單是否獲接納，以及適用的韓國健保安排，不假設任何一張保單已涵蓋全部要求。</p>"
+      },
+      {
+        "id": "exchange-13",
+        "tab": "cost",
+        "region": "費用行前",
+        "title": "簽證安排",
+        "desc": "<p>交換通常對應 D-2-6，自費訪問可能適用 D-2-8；以首爾科大官方說明為例，合作校及非合作校學生分別使用這兩類。須依錄取項目、國籍及受理地使領館確認財力、學歷、入境及居留登記資料，不用觀光免簽代替整學期修課。</p>",
+        "primary": {
+          "label": "簽證範例 →",
+          "href": "https://irt.seoultech.ac.kr/inbound/exchange_tab/exchange_visa"
+        }
       },
       {
         "id": "section-3",
-        "tab": "apply",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "03",
-        "title": "交換期間",
-        "chips": [],
-        "desc": "<p>按約定頻率檢查進度；額滿、停開或衝堂時，協助整理替代課及需母校重新確認的事項。</p>",
-        "noteLabel": "提醒",
-        "note": "提供學習安排與校方溝通支援，不代做作業或考試；當地緊急協助按校方及相關機構程序處理。",
-        "wide": false
+        "tab": "return",
+        "region": "在韓返校",
+        "title": "在韓變更",
+        "desc": "<p>選課結果、校區或時程有變時，先依接收校加退選規則處理，再向母校確認替代課認可，保存批准及溝通紀錄。OTC 按委託範圍協助整理問題與校方回覆，學業決定仍由學生與兩校完成。</p>"
       },
       {
         "id": "section-4",
-        "tab": "ref",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "04",
-        "title": "返校後",
-        "chips": [],
-        "desc": "<p>整理正式成績單、課程大綱、選課批准與變更紀錄，按母校要求跟進學分認可。</p>",
-        "noteLabel": "提醒",
-        "note": "是否認可、分數換算與畢業要求由母校決定；可協助整理交換成果作履歷或後續升學用途。",
-        "wide": false
+        "tab": "return",
+        "region": "在韓返校",
+        "title": "返校文件",
+        "desc": "<p>整理正式成績單、課程大綱、原批准及變更紀錄，按母校期限辦學分認可。另確認宿舍退房、費用結算及在韓手續；如需延長交換或留韓，必須先取得適用批准，不能只延後機票。</p>"
+      },
+      {
+        "id": "exchange-16",
+        "tab": "return",
+        "region": "在韓返校",
+        "title": "三校比較",
+        "desc": "<p>國民、仁川與忠南可按課程、授課語言、校區、住宿及預算比較，具體可申請院校先看母校協議。三校指南供整理比較問題，當期開課與住宿仍應回校方公告確認。</p>",
+        "primary": {
+          "label": "三校指南 →",
+          "href": "/zh/insights/korea-exchange-kookmin-incheon-chungnam-guide/"
+        }
+      },
+      {
+        "id": "exchange-17",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "服務內容",
+        "desc": "<p>提供院校與課程比較、提名及申請時程整理、選課與認可清單、預算表，以及約定範圍內的文件與變更跟進。交換、自費訪問與語學課先分清再承接；不代做作業、考試或保證名額、宿舍與學分。</p>"
       },
       {
         "id": "section-5",
-        "tab": "overview",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "05",
-        "title": "收費說明",
-        "chips": [
-          "初步評估免費",
-          "持續陪跑另行確認",
-          "第三方支出另付"
-        ],
-        "desc": "<span id=\"scope\"></span><p><strong>初步評估免費：</strong>了解背景及最急的問題，指出需要向學校確認的事項。</p><p><strong>持續陪跑另行確認：</strong>開始前寫清服務期間、院校範圍、文件種類、跟進頻率、聯絡方式、費用與取消規則；確認後才開始。</p><p><strong>第三方支出另付：</strong>院校、考試、翻譯認證、住宿、交通、保險及入境手續等費用。交換名額、課程、宿舍、簽證與學分結果均不保證。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false
+        "tab": "service",
+        "region": "申請服務",
+        "title": "服務費用",
+        "desc": "<span id=\"scope\"></span><p>初步評估免費：了解在學背景、目標學期與最急事項。持續支援開始前，書面確認期間、院校範圍、文件、跟進頻率、費用及取消規則；院校、考試、翻譯認證、住宿、交通、保險與入境手續等第三方支出另付。</p>"
       },
       {
         "id": "section-6",
-        "tab": "overview",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "06",
-        "title": "怎樣開始",
-        "chips": [],
-        "desc": "<p>① 提供基本背景。<br>② 核對母校協議及當期要求。<br>③ 確認服務內容和費用。<br>④ 整理比較表、課表、預算與時間表。<br>⑤ 按約定跟進變更。<br>⑥ 交回文件並整理待辦事項。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false
+        "tab": "service",
+        "region": "申請服務",
+        "title": "申請流程",
+        "desc": "<ol><li>提供母校、專業與年級、目標院校及學期、語言程度、預算與最急截止日。</li><li>確認交換協議或自費訪問資格，整理兩校要求。</li><li>確認服務範圍，準備申請、備選課、學分審批及預算。</li><li>錄取後安排住宿、簽證、保險與行前資料。</li><li>按委託跟進在韓變更，返校整理成績與認可文件。</li></ol>",
+        "wide": true
       },
       {
         "id": "section-7",
-        "tab": "ref",
-        "region": "韓國交換陪跑｜選校、課程、學",
-        "badge": "07",
-        "title": "五項資料",
-        "chips": [],
-        "desc": "<p>母校與專業；年級；交換院校及學期；韓語／英語程度；最重視的兩項條件與最急截止日。未確定可留空，初次不用傳護照或財務證明。</p><p>可回覆已有 Threads 對話，或用下方 WhatsApp／Email 聯絡。</p><p><a href=\"/zh/insights/korea-exchange-kookmin-incheon-chungnam-guide/\">閱讀三校完整比較指南 →</a></p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "primary": {
-          "label": "閱讀三校完整比較指南 →",
-          "href": "/zh/insights/korea-exchange-kookmin-incheon-chungnam-guide/"
-        }
+        "tab": "service",
+        "region": "申請服務",
+        "title": "開始諮詢",
+        "desc": "<span id=\"start\"></span><p>先提供母校與專業、年級、院校及交換學期、韓語／英語程度，以及最重視的條件與截止日。未確定可留空；已在諮詢中的學生可在原有對話補充。完整文件於確認適用清單後再準備。</p>"
+      },
+      {
+        "id": "exchange-21",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "相關服務",
+        "desc": "<p><a href=\"/zh/services/korea-undergraduate-application/\">韓國本科</a> · <a href=\"/zh/services/korea-masters-application/\">韓國碩士</a> · <a href=\"/zh/services/europe-exchange-support/\">歐洲交換</a></p>"
       }
     ],
-    "footer": ""
-  },
-  "bodyFormat": "card-directory"
+    "footer": "資料核對：2026 年 11 月 26 日。當期院校與簽證規則以官方公告及兩校書面回覆為準；名額、選課、住宿與學分結果由相關機構決定。"
+  }
 }
