@@ -801,5 +801,16 @@
      "學費與住宿",
      "延期及退費"
    ]
- }
+ },
+{
+ "route": "/zh/summer-school-alliance/japan/",
+ "slug": "japan-winter-school",
+ "head": "日本寒校\n冬季短期體驗",
+ "en": "Japan Winter Study",
+ "items": [
+  "20所院校課程",
+  "日期費用與住宿",
+  "語言與申請要求"
+ ]
+}
 ]
