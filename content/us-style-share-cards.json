@@ -835,5 +835,16 @@
    "RICS 路線",
    "土地測量師"
   ]
+ },
+ {
+  "route": "/zh/services/taiwan-transfer-exam-portfolio/",
+  "slug": "taiwan-transfer-exam-portfolio",
+  "head": "轉學考書審",
+  "en": "Taiwan Transfer Exam Portfolio",
+  "items": [
+   "自傳讀書計畫",
+   "軍校背景",
+   "寒轉時程"
+  ]
  }
 ]

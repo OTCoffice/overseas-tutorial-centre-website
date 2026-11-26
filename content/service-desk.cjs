@@ -21,6 +21,7 @@ const groups=[
       ["入學面試","/zh/services/university-interview-coaching/","Kira 限時錄影、書面補充申請、經歷整理及模擬回饋。"],
       ["申請流程","/zh/study-planning/#apply","查看申請材料、提交方式及錄取後安排。"],
       ["國際轉學","/zh/services/international-transfer/","按國家及地區查閱轉學途徑、學分認定與官方入口。"],
+      ["轉學書審","/zh/services/taiwan-transfer-exam-portfolio/","台灣寒轉、暑轉書審：自傳、轉學動機、讀書計畫與軍校生注意事項。"],
       ["澳洲轉校","/zh/services/australia-transfer-release-support/","學籍時間線、轉專業理由，原校釋放與新校入學跟進。"],
       ["轉專業","/zh/services/change-of-major/","校內轉科、先修課、學分抵免與修業安排；初步諮詢免費。"],
       ["學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
