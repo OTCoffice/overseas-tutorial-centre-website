@@ -15,7 +15,7 @@ const selected=global.process.argv.includes('--country')?global.process.argv[glo
 if(global.process.argv.includes('--country')&&!data.some(c=>c.slug===selected))throw new Error('Unknown country: '+selected);
 const selectedData=global.process.argv.includes('--hub')?[]:selected?data.filter(c=>c.slug===selected):data;
 const entries=[];
-function write(route,title,description,body,slug){const file=path.join(root,route,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,pageShell({title,current:'services',lang:'zh-Hant',locale:'zh',path:route,image:'/assets/language-'+slug+'-20260930.png',imageWidth:1200,imageHeight:630,imageAlt:title,description,body:css+body}).replace(/[ \t]+$/gm,''));entries.push({type:'Page',title,url:route,desc:description})}
+function write(route,title,description,body,slug,share={}){const file=path.join(root,route,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,pageShell({title,current:'services',lang:'zh-Hant',locale:'zh',path:route,image:'/assets/language-'+slug+'-20260930.png',imageWidth:1200,imageHeight:630,imageAlt:title,description,body:css+body,...share}).replace(/[ \t]+$/gm,''));entries.push({type:'Page',title,url:route,desc:description})}
 for(const c of selectedData){
  if(c.slug==='canada'){entries.push(...require('../content/canada-language-directory.cjs')());continue;}
  const regions=[...new Set(c.schools.map(s=>s.region))],types=[...new Set(c.schools.map(s=>s.type))];
@@ -42,7 +42,20 @@ for(const c of selectedData){
    if(school.summary)body=body.replace(`<strong>${esc(school.name)}</strong><small>${esc(school.city)} · ${esc(school.type)}</small>`,`<strong>${esc(school.name)}</strong><small>${esc(school.city)} · ${esc(school.type)}</small><p>${esc(school.summary)}</p>`);
    body=body.replace(`<a class="apply" href="${wa(c.name,school.name)}" target="_blank" rel="noopener" aria-label="${esc(school.name)} 免費代辦">免費代辦 ↗</a>`,`<a class="apply" href="mailto:office@overseasuk.com?subject=${encodeURIComponent("日本語校申請｜"+school.name)}&amp;body=${encodeURIComponent("您好，我想透過 OTC 申請 "+school.name+"。\n預計開課日期：\n學習週數：\n參加人數與年齡：\n日語程度：\n住宿需求：\n預算：")}" aria-label="透過 OTC 申請 ${esc(school.name)}">透過 OTC 申請</a><a href="https://www.threads.com/@overseas_uk_otc" target="_blank" rel="noopener" aria-label="到 Threads 私訊 OTC 查詢 ${esc(school.name)}">Threads 私訊 ↗</a>`);
   }
-  body=body.replace('<aside><h2>免費代辦</h2>','<aside><h2>申請諮詢</h2>').replace('海外督導 OTC<br>海圖規劃・留學諮詢','海外督導雙語世界<br>招生部');
+  const share = require('../content/japan-language-school-service.json');
+  const guidance = `<section class="steps" id="fees"><h2>費用與退費</h2>
+<p>向校方索取當期費用單，確認學費涵蓋的月份、入學金、教材、住宿押金及付款期限。另列機票、保險、交通和生活費，再比較總預算。</p>
+<p>延期、取消入學或簽證未獲批時，請校方書面列明各項費用是否可退、申請期限及所需文件。已延期者應索取新入學梯次的費用單，並確認已付款項能否轉用。</p>
+<p>初次選校及預算梳理免費。申請代辦及簽證材料協助須先確認院校、課程和申請渠道是否適用免費合作安排；如有服務費，委託前先確認。學校、政府及第三方費用另付。</p></section>
+<section class="steps"><h2>長期入學</h2><p>按學習目標、日語程度及入學月份選校。需要以「留學」在留資格赴日時，先確認所選課程能否受理，並向校方核對在留資格認定證明書（COE）與申請材料。</p><p><a href="https://www.studyinjapan.go.jp/en/planning/learn-about-schools/japanese-language-schools/">Study in Japan｜日本語教育機構</a></p></section>`;
+  body = body.replace('<h1>語校聯盟｜日本</h1>', '<h1>日本語言學校</h1>')
+   .replace('<div class="layout"><div>', '<div>').replace(`</div>${service(c.name)}</div></main>`, '</div></main>')
+   .replace(process, guidance+process)
+   .replace('<a href="#process">申請流程 ↓</a>', '<a href="#fees">費用與退費 ↓</a><a href="#process">申請流程 ↓</a>');
+  write(share.path,share.titleZh,share.descriptionZh,body,c.slug,{
+   image:share.shareImageZh,imageWidth:share.socialImageWidth,imageHeight:share.socialImageHeight
+  });
+  continue;
  }
  if(c.slug==='south-korea'){
   body=body.replace('<h2>韓國學校目錄</h2>','<h2>韓國學校目錄</h2><p>'+c.schools.length+' 筆學校／校區資料 · 名單擴充：'+c.updatedAt+'。同校不同校區分開列示；新增名單依政府目錄及校方資料整理，不代表當期仍有名額。</p>');

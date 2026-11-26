@@ -790,5 +790,16 @@
   "護士資格認可",
   "就業與居留"
  ]
-}
+},
+ {
+   "route": "/zh/language-school-alliance/japan/",
+   "slug": "japan-language-school",
+   "head": "日本語言學校",
+   "en": "Japanese Language Schools",
+   "items": [
+     "選校與申請",
+     "學費與住宿",
+     "延期及退費"
+   ]
+ }
 ]
