@@ -35,7 +35,7 @@ function japanSchoolCards(body) {
  </style>`;
  return body.replace('<main class="lang-directory"', styles+'<main class="lang-directory japan-directory"')
   .replace(/(<details class="region-group"[\s\S]*<\/details>)(?=<\/section>)/, '<div class="school-card-grid">$1</div>')
-  .replace(/(<details class="region-group" data-region="[^"]+")[^>]*>/g,'$1 open')
+  .replace(/(<details class="region-group" data-region="[^"]+")[^>]*>/g,'$1 open>')
   .replace(/(<li data-school="[^"]+" data-type="([^"]+)">)<strong>([^<]+)<\/strong><small>([^<]+)<\/small>/g,
    (_, item, type, name, location) => item+'<div class="school-card-meta"><span>'+location.split(' · ')[0]+'</span><span class="school-card-type">'+type+'</span></div><strong>'+name+'</strong>')
   .replace(/<a [^>]*>中文介紹 · Notion ↗<\/a>/g,'')
