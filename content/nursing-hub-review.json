@@ -28,5 +28,15 @@
   "limits": [
     "本次只更新總覽，不改寫14個國別專頁或重新核驗其完整政策。",
     "不新增全國統一學費、語言分數或簽證數字。"
-  ]
+  ],
+  "registrationRevision": {
+    "date": "2026-11-26",
+    "scope": "總覽護士註冊欄目由2項整為6項：註冊路線、資格認可、專業考核、執業條件、就業居留、官方查詢；不新增跨國統一門檻或費用。",
+    "peerReferences": "重用本檔已記錄的護理顧問專頁編排參考。",
+    "officialSources": [
+      "https://www.nmc.org.uk/registration/joining-the-register/register-nurse-midwife/trained-outside-uk/",
+      "https://www.nmc.org.uk/approved-programmes/",
+      "https://www.ahpra.gov.au/Accreditation/Approved-Programs-of-Study.aspx"
+    ]
+  }
 }
