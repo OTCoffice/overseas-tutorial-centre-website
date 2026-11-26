@@ -812,5 +812,6 @@
   "日期費用與住宿",
   "語言與申請要求"
  ]
-}
+},
+  {"route":"/zh/summer-school-alliance/south-korea/","slug":"korea-winter","head":"韓國冬校\n漢陽・延世","en":"Korea Winter School","items":["漢陽延世日期","簽證免辦說明","學分轉換要點"]}
 ]
