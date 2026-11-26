@@ -20,7 +20,6 @@ function japanSchoolCards(body) {
  .japan-directory #directory .school-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
  .japan-directory #directory .region-group,.japan-directory #directory .schools{display:contents}
  .japan-directory #directory .region-group[hidden],.japan-directory #directory .schools li[hidden]{display:none}
- .japan-directory #directory .region-group>summary{display:none}
  .japan-directory #directory .schools li{display:flex;flex-direction:column;align-items:stretch;gap:6px;min-width:0;padding:12px;background:#faf9f5;border:1px solid #ddd8ce;border-radius:7px}
  .japan-directory .school-card-meta{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;color:#575950;font-size:.76rem;line-height:1.35}
  .japan-directory .school-card-type{background:#e6ebe4;color:#364538;border-radius:3px;padding:2px 5px;text-align:right}
@@ -35,12 +34,13 @@ function japanSchoolCards(body) {
  </style>`;
  return body.replace('<main class="lang-directory"', styles+'<main class="lang-directory japan-directory"')
   .replace(/(<details class="region-group"[\s\S]*<\/details>)(?=<\/section>)/, '<div class="school-card-grid">$1</div>')
-  .replace(/(<details class="region-group" data-region="[^"]+")[^>]*>/g,'$1 open>')
+  .replace(/<details class="region-group" data-region="([^"]+)"[^>]*><summary>[\s\S]*?<\/summary>([\s\S]*?)<\/details>/g,
+   '<div class="region-group" data-region="$1">$2</div>')
   .replace(/(<li data-school="[^"]+" data-type="([^"]+)">)<strong>([^<]+)<\/strong><small>([^<]+)<\/small>/g,
    (_, item, type, name, location) => item+'<div class="school-card-meta"><span>'+location.split(' · ')[0]+'</span><span class="school-card-type">'+type+'</span></div><strong>'+name+'</strong>')
   .replace(/<a [^>]*>中文介紹 · Notion ↗<\/a>/g,'')
   .replace(/<a [^>]*>Threads 私訊 ↗<\/a>/g,'')
-  .replace('g.open=!!term||!!r.value||!!t.value||i===0','g.open=true')
+  .replace(';g.open=!!term||!!r.value||!!t.value||i===0','')
   .replace('筆結果；點開地區查看學校。','筆結果');
 }
 
