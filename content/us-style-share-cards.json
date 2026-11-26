@@ -813,5 +813,16 @@
   "語言與申請要求"
  ]
 },
-  {"route":"/zh/summer-school-alliance/south-korea/","slug":"korea-winter","head":"韓國冬校\n21個冬季項目","en":"Korea Winter School 2026–27","items":["大學冬校比較","三週韓語短期","簽證學分要點"]}
+  {"route":"/zh/summer-school-alliance/south-korea/","slug":"korea-winter","head":"韓國冬校\n21個冬季項目","en":"Korea Winter School 2026–27","items":["大學冬校比較","三週韓語短期","簽證學分要點"]},
+ {
+  "route": "/zh/services/university-interview-coaching/",
+  "slug": "university-interview-coaching",
+  "head": "入學面試",
+  "en": "University Interview Coaching",
+  "items": [
+   "小組面試",
+   "限時錄影",
+   "模擬回饋"
+  ]
+ }
 ]
