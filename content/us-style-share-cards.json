@@ -277,12 +277,12 @@
  {
   "route": "/zh/services/korea-masters-application/",
   "slug": "korea-masters-application",
-  "head": "韓國碩士申請",
+  "head": "韓國碩士",
   "en": "Korea Masters Application",
   "items": [
-   "選校與入學要求",
-   "學費與獎學金",
-   "申請材料與面試"
+   "選校條件",
+   "材料時程",
+   "費用資助"
   ]
  },
  {

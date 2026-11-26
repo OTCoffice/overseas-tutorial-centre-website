@@ -1,6 +1,6 @@
 const {pageShell}=require('../site');
 const a=require('./korea-masters-service.json');
 const {renderCardDirectory}=require('./card-directory.cjs');
-module.exports=()=>{const cover=a.shareImageZh+'?'+a.socialImageVersion;return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:'韓國碩士申請',body:`
-<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC · 韓國碩士申請</div><h1>韓國碩士申請</h1><h2>選校 · 入學要求 · 學費與獎學金</h2><p class="hero-sub">按專業方向、語言程度與預算比較一般大學院及專門大學院，準備材料、研究計畫與面試。</p></div></div></div></section>
-<section class="band compact-band service-review-body"><main class="service-herald-main" style="min-width:0">${renderCardDirectory(a.directory)}<p>更新：2026-11-24。</p></main></section>`});};
+module.exports=()=>{const cover=a.shareImageZh+'?'+a.socialImageVersion;return pageShell({title:a.titleZh,current:'services',lang:'zh-Hant',locale:'zh',path:a.path,description:a.summaryZh,image:cover,imageWidth:a.socialImageWidth,imageHeight:a.socialImageHeight,imageAlt:a.name,body:`
+<section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">OTC · 海外督導</div><h1>${a.name}</h1><h2>選校申請</h2><p class="hero-sub">按專業、授課語言與預算比較課程，安排材料、研究計畫及面試。</p></div></div></div></section>
+${renderCardDirectory(a.directory)}`});};

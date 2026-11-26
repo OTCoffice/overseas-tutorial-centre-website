@@ -269,13 +269,13 @@
     "previousImage": "/assets/social/native-korea-exchange-support-20261030.png"
   },
   "/zh/services/korea-masters-application/": {
-    "title": "韓國藝術碩士",
-    "image": "/assets/social/korea-masters-application-share-20261124.png",
-    "version": "v=20261124-us-style",
+    "title": "韓國碩士",
+    "image": "/assets/social/korea-masters-application-share-20261126.png",
+    "version": "v=20261126-1",
     "width": 1200,
     "height": 600,
     "file": "zh/services/korea-masters-application/index.html",
-    "previousImage": "/assets/social/native-korea-masters-application-20261030.png"
+    "previousImage": "/assets/social/korea-masters-application-share-20261124.png"
   },
   "/zh/services/language-context-studio/": {
     "title": "中英翻譯與商務溝通服務",

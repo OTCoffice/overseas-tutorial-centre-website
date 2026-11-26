@@ -1,309 +1,266 @@
 {
   "slug": "korea-masters-application",
   "path": "/zh/services/korea-masters-application/",
-  "titleZh": "韓國碩士申請｜選校、入學要求、學費與獎學金",
-  "summaryZh": "韓國碩士類型、熱門專業與院校、TOPIK 及英語要求、申請材料與時間、學費、GKS 獎學金及簽證；合作院校免費代辦，非合作院校標準申請人民幣6,000元（最多6校）。",
-  "socialImageVersion": "v=20261124-us-style",
+  "titleZh": "韓國碩士申請｜選校、TOPIK、申請材料、學費與獎學金｜海外督導 OTC",
+  "summaryZh": "比較韓國碩士課程、授課語言與入學資格，整理申請材料、時程、2026 學費參考、GKS 獎學金及 D-2-3 簽證，了解 OTC 申請服務與收費。",
+  "socialImageVersion": "v=20261126-1",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "shareImageZh": "/assets/social/korea-masters-application-share-20261124.png",
-  "socialTitleZh": "韓國碩士申請",
-  "sections": [
-    {
-      "heading": "碩士類型",
-      "paragraphs": [
-        "韓國碩士一般為 2 年（4 學期）。研究型課程多屬<strong>一般大學院</strong>，按學科設碩士及博士課程，政府 GKS 獎學金也只適用一般大學院。<strong>專門大學院</strong>面向特定職業或領域，例如國際大學院、經營大學院；<strong>特殊大學院</strong>多為在職人士開設的夜間或週末課程，外國留學生報讀前須確認能否簽發 D-2 簽證。",
-        "授課語言分韓語與英語。韓語授課選擇較多；英語授課集中在國際大學院、經營及部分理工科。"
-      ]
-    },
-    {
-      "heading": "熱門專業",
-      "paragraphs": [
-        "<div style=\"overflow-x:auto\"><table><thead><tr><th>方向</th><th>可查院校</th><th>注意</th></tr></thead><tbody><tr><td>商科與經營</td><td>高麗大學、延世大學、成均館大學</td><td>韓語授課常要求較高 TOPIK；MBA 屬經營大學院，學費明顯較高</td></tr><tr><td>傳媒與影視</td><td>中央大學先端影像大學院、東國大學影像大學院、韓國外國語大學</td><td>創作型課程要作品集；確認研究型或創作型學位</td></tr><tr><td>設計與藝術</td><td>弘益大學、國民大學</td><td>作品集為主要評核；按設計細分方向選校</td></tr><tr><td>教育與韓語教育</td><td>慶熙大學、韓國外國語大學、梨花女子大學</td><td>韓語教育要求較高韓語能力；確認是否含教學實習</td></tr><tr><td>理工與資訊</td><td>首爾大學、KAIST、漢陽大學、成均館大學</td><td>研究型為主，先查研究室方向並聯繫教授；不少課程設英語授課</td></tr></tbody></table></div>",
-        "以上為常見選擇，並非排名；各校每年招生學科可能調整，以當期外國人招生簡章為準。"
-      ]
-    },
-    {
-      "heading": "入學要求",
-      "paragraphs": [
-        "學士學位及成績單；應屆生可先交預計畢業證明，入學前補交。熱門學校及專業對本科成績要求較高。",
-        "韓語授課常見要求 TOPIK 3 至 4 級，經營、新聞傳播等熱門專業可能要 5 至 6 級；部分學校接受校內語言考試或本校語學院結業。英語授課一般要求雅思約 6.0 或托福約 80 以上。TOPIK 成績有效期兩年。",
-        "研究型課程重視研究計畫及與教授研究方向的匹配；藝術、設計、影視課程另看作品集及面試。"
-      ]
-    },
-    {
-      "heading": "院校",
-      "paragraphs": [
-        "<strong>首爾頂尖：</strong>首爾大學、高麗大學、延世大學，競爭最激烈。",
-        "<strong>首爾主要私立：</strong>成均館、漢陽、慶熙、中央、韓國外國語、東國、梨花女子大學等，專業選擇多。",
-        "<strong>地方國立及私立：</strong>釜山大學、慶北大學、全南大學、忠南大學、啟明大學等，學費及生活費較低，部分專業門檻較寬。",
-        "選校按專業方向、語言程度及預算決定，不單看綜合排名。"
-      ]
-    },
-    {
-      "heading": "申請材料",
-      "paragraphs": [
-        "常見材料：申請表、學位證及成績單（一般須辦海牙認證或領事認證）、語言成績、學習或研究計畫、自我介紹、推薦信、護照、父母國籍及親屬關係證明、存款證明。藝術類另交作品集，部分學校安排面試。文件格式及存款金額按學校規定。"
-      ]
-    },
-    {
-      "heading": "申請時間",
-      "paragraphs": [
-        "每年招生兩季。以高麗大學為例：3 月春季入學，9 月遞交申請，12 月中公布結果；9 月秋季入學，3 月遞交，6 月中公布結果。各校時間不同，部分學校分兩輪招生。",
-        "建議至少提前一年準備語言考試、文件認證及研究計畫。"
-      ]
-    },
-    {
-      "heading": "學費",
-      "paragraphs": [
-        "<div style=\"overflow-x:auto\"><table><thead><tr><th>學校</th><th>每學期學費（韓元）</th><th>入學金（韓元，一次）</th><th>範圍</th></tr></thead><tbody><tr><td>高麗大學（2025）</td><td>5,237,000</td><td>1,142,000</td><td>人文社會碩士</td></tr><tr><td>延世大學（2026）</td><td>5,479,000</td><td>1,028,000</td><td>文科及社會科學</td></tr><tr><td>啟明大學（大邱）</td><td>4,169,000</td><td>810,000</td><td>人文社會碩士</td></tr></tbody></table></div>",
-        "理工、藝術及體育類一般較人文社科高；經營大學院 MBA 及部分專門課程可達每學期一千萬韓元以上。國立大學學費一般較低。生活費按城市及住宿另計，首爾高於地方城市。"
-      ]
-    },
-    {
-      "heading": "獎學金",
-      "paragraphs": [
-        "<strong>GKS 政府獎學金（研究生）：</strong>一年韓語課程加兩年碩士課程，包學費、機票、韓語課程費及每月生活費，只適用一般大學院。研究生項目每年初開放申請，分使館及大學兩種渠道。",
-        "<strong>學校獎學金：</strong>多按入學成績或 TOPIK 級別減免學費，部分學校另設全額學費及生活費獎學金。名額、條件及續領要求以學校公告為準。"
-      ]
-    },
-    {
-      "heading": "簽證與畢業後",
-      "paragraphs": [
-        "錄取後學校簽發入學許可書（COA），再申請 D-2 留學簽證（碩士為 D-2-3）。須準備存款證明、學歷認證及護照等文件。",
-        "畢業後可按規定申請求職簽證（D-10）留韓找工作，找到合適工作後再轉工作簽證。"
-      ]
-    },
-    {
-      "heading": "服務與費用",
-      "paragraphs": [
-        "<div style=\"overflow-x:auto\"><table><thead><tr><th>項目</th><th>OTC 服務費（人民幣）</th><th>範圍</th></tr></thead><tbody><tr><td>合作院校標準申請</td><td>免費</td><td>符合合作院校條件時，選校、材料準備、遞交及錄取跟進免收服務費。</td></tr><tr><td>標準申請（非合作院校）</td><td>¥6,000／一個入學季</td><td>最多6校：選校與要求整理、材料清單、履歷及學習計畫修改（各2輪）、作品提交規格檢查、遞交與補件跟進、1次面試準備。</td></tr><tr><td>追加學校</td><td>¥1,200／校</td><td>超過6校時按校計算。</td></tr><tr><td>學習或研究計畫修改</td><td>¥1,000／份</td><td>結構與表達修改2輪。</td></tr><tr><td>面試輔導</td><td>¥600／次</td><td>模擬面試及回饋。</td></tr><tr><td>作品集輔導</td><td>按時數報價</td><td>藝術、設計及影視方向；作品不代做。</td></tr></tbody></table></div>",
-        "初步評估免費。學費、院校申請費、語言考試、文件認證及翻譯、簽證、住宿與保險等第三方費用另計。錄取、獎學金及簽證結果由學校及有關機構決定。"
-      ]
-    },
-    {
-      "heading": "流程",
-      "paragraphs": [
-        "<ol><li>說明本科專業、成績、語言程度、目標方向及入學季。</li><li>比較課程與要求，確定選校及語言路線。</li><li>確認服務範圍與費用，準備材料、研究計畫及作品。</li><li>按截止日遞交申請，準備面試，跟進補件及結果。</li><li>錄取後整理簽證材料，安排入學。</li></ol>"
-      ]
-    },
-    {
-      "heading": "相關服務",
-      "paragraphs": [
-        "<a href=\"/zh/services/korea-undergraduate-application/\">韓國本科申請</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換陪跑</a> · <a href=\"/zh/services/europe-exchange-support/\">歐洲交換陪跑</a> · <a href=\"/countries/south-korea/\">韓國留學入口</a>"
-      ]
-    },
-    {
-      "heading": "官方資料",
-      "paragraphs": [
-        "<a href=\"https://graduate2.korea.ac.kr/admission/procedure.html\" rel=\"noopener\">高麗大學研究生申請流程</a> · <a href=\"https://graduate2.korea.ac.kr/admission/tuition.html\" rel=\"noopener\">高麗大學研究生學費</a> · <a href=\"https://www.yonsei.ac.kr/sites/en_sc/down/2026_fee2.pdf\" rel=\"noopener\">延世大學2026研究生學費</a> · <a href=\"https://egs.kmu.ac.kr/egs/8525/subview.do\" rel=\"noopener\">啟明大學研究生學費</a>",
-        "<a href=\"https://www.studyinkorea.go.kr/ko/plan/scholarship.do\" rel=\"noopener\">Study in Korea｜GKS 獎學金</a> · <a href=\"https://studyinkorea.go.kr/ko/plan/visaAndStay.do\" rel=\"noopener\">Study in Korea｜簽證</a> · <a href=\"https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do\" rel=\"noopener\">Study in Korea｜語言要求與 TOPIK</a>",
-        "<a href=\"https://gsaim.cau.ac.kr/sub05/sub01.php\" rel=\"noopener\">中央大學影像課程</a> · <a href=\"https://dic.dongguk.edu/main\" rel=\"noopener\">東國大學影像大學院</a>"
-      ]
-    }
-  ],
+  "shareImageZh": "/assets/social/korea-masters-application-share-20261126.png",
+  "socialTitleZh": "韓國碩士",
   "socialImageSource": "share-only",
+  "bodyFormat": "card-directory",
+  "name": "韓國碩士",
+  "updated": "2026-11-26",
   "directory": {
-    "title": "韓國碩士申請｜選校、入學要求、學費與獎學金",
-    "subtitle": "韓國碩士類型、熱門專業與院校、TOPIK 及英語要求、申請材料與時間、學費、GKS 獎學金及簽證；合作院校免費代辦，非合作院校標準申請人民幣6,000元（最多6校）。",
-    "searchPlaceholder": "搜尋關鍵詞",
+    "title": "韓國碩士",
     "tabs": [
       {
         "id": "overview",
-        "label": "概況與選擇"
+        "label": "選校方向"
       },
       {
-        "id": "cost",
-        "label": "費用與服務"
+        "id": "requirements",
+        "label": "入學要求"
       },
       {
         "id": "apply",
-        "label": "申請與材料"
+        "label": "材料時程"
       },
       {
-        "id": "ref",
-        "label": "資料與提醒"
+        "id": "cost",
+        "label": "費用資助"
+      },
+      {
+        "id": "visa",
+        "label": "簽證行前"
+      },
+      {
+        "id": "service",
+        "label": "申請服務"
       }
     ],
-    "tip": "",
-    "groupTitle": "韓國碩士申請｜選校、入學要求、學費與獎學金要點",
+    "searchPlaceholder": "搜尋 TOPIK、作品、費用",
+    "tipLabel": "申請準備",
+    "tip": "先確定課程與授課語言，再比對資格、文件和截止日；語學堂結業不等於碩士錄取。",
+    "groupTitle": "全部要點",
     "cards": [
       {
         "id": "section-1",
         "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "01",
-        "title": "碩士類型",
-        "chips": [
-          "一般大學院",
-          "專門大學院",
-          "特殊大學院"
-        ],
-        "desc": "<p>韓國碩士一般為 2 年（4 學期）。研究型課程多屬<strong>一般大學院</strong>，按學科設碩士及博士課程，政府 GKS 獎學金也只適用一般大學院。<strong>專門大學院</strong>面向特定職業或領域，例如國際大學院、經營大學院；<strong>特殊大學院</strong>多為在職人士開設的夜間或週末課程，外國留學生報讀前須確認能否簽發 D-2 簽證。</p>",
-        "noteLabel": "提醒",
-        "note": "授課語言分韓語與英語。韓語授課選擇較多；英語授課集中在國際大學院、經營及部分理工科。",
-        "wide": false
+        "region": "選校方向",
+        "title": "學制課程",
+        "desc": "<p>韓國碩士通常修讀兩年，部分課程為兩年半或另有安排。一般大學院偏重學術研究；專門大學院面向特定領域；特殊大學院常設在職課程。選校時一併確認修業年限、論文或學分畢業要求，以及是否接受國際生。</p>"
+      },
+      {
+        "id": "korea-2",
+        "tab": "overview",
+        "region": "選校方向",
+        "title": "授課語言",
+        "desc": "<p>韓語、英語與中文課程須分別比較。例如延世 GSIS 的韓國學、Global Studies 以英語授課，Global Citizenship and Cooperation 則主要用中文；同一學院也可能有不同招生途徑。授課語言與申請時可接受的語言證明並非同一件事。</p>",
+        "primary": {
+          "label": "課程簡章 →",
+          "href": "https://gsis.yonsei.ac.kr/gsis/community/boards1_01.do?articleNo=478909&mode=view"
+        }
       },
       {
         "id": "section-2",
         "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "02",
-        "title": "熱門專業",
-        "chips": [],
-        "desc": "<div style=\"overflow-x:auto\"><table><thead><tr><th>方向</th><th>可查院校</th><th>注意</th></tr></thead><tbody><tr><td>商科與經營</td><td>高麗大學、延世大學、成均館大學</td><td>韓語授課常要求較高 TOPIK；MBA 屬經營大學院，學費明顯較高</td></tr><tr><td>傳媒與影視</td><td>中央大學先端影像大學院、東國大學影像大學院、韓國外國語大學</td><td>創作型課程要作品集；確認研究型或創作型學位</td></tr><tr><td>設計與藝術</td><td>弘益大學、國民大學</td><td>作品集為主要評核；按設計細分方向選校</td></tr><tr><td>教育與韓語教育</td><td>慶熙大學、韓國外國語大學、梨花女子大學</td><td>韓語教育要求較高韓語能力；確認是否含教學實習</td></tr><tr><td>理工與資訊</td><td>首爾大學、KAIST、漢陽大學、成均館大學</td><td>研究型為主，先查研究室方向並聯繫教授；不少課程設英語授課</td></tr></tbody></table></div>",
-        "noteLabel": "提醒",
-        "note": "以上為常見選擇，並非排名；各校每年招生學科可能調整，以當期外國人招生簡章為準。",
-        "wide": true
-      },
-      {
-        "id": "section-3",
-        "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "03",
-        "title": "入學要求",
-        "chips": [],
-        "desc": "<p>學士學位及成績單；應屆生可先交預計畢業證明，入學前補交。熱門學校及專業對本科成績要求較高。</p><p>韓語授課常見要求 TOPIK 3 至 4 級，經營、新聞傳播等熱門專業可能要 5 至 6 級；部分學校接受校內語言考試或本校語學院結業。英語授課一般要求雅思約 6.0 或托福約 80 以上。TOPIK 成績有效期兩年。</p>",
-        "noteLabel": "提醒",
-        "note": "研究型課程重視研究計畫及與教授研究方向的匹配；藝術、設計、影視課程另看作品集及面試。",
-        "wide": false
+        "region": "選校方向",
+        "title": "專業選擇",
+        "desc": "<p>商科先分一般經營研究與 MBA；理工先查研究室、方法及設備；設計、藝術與影視先分研究型和創作型課程。教育、美容等方向也要核對課程偏研究、管理還是技術實務，不只憑中文系名選校。</p>",
+        "primary": {
+          "label": "學科選擇 →",
+          "href": "/zh/subject-planning/"
+        }
       },
       {
         "id": "section-4",
         "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "04",
-        "title": "院校",
-        "chips": [
-          "首爾頂尖",
-          "首爾主要私立",
-          "地方國立及私立"
-        ],
-        "desc": "<p><strong>首爾頂尖：</strong>首爾大學、高麗大學、延世大學，競爭最激烈。</p><p><strong>首爾主要私立：</strong>成均館、漢陽、慶熙、中央、韓國外國語、東國、梨花女子大學等，專業選擇多。</p><p><strong>地方國立及私立：</strong>釜山大學、慶北大學、全南大學、忠南大學、啟明大學等，學費及生活費較低，部分專業門檻較寬。</p>",
-        "noteLabel": "提醒",
-        "note": "選校按專業方向、語言程度及預算決定，不單看綜合排名。",
-        "wide": false
+        "region": "選校方向",
+        "title": "院校比較",
+        "desc": "<p>可從首爾大學、高麗、延世、成均館、漢陽，以及釜山、慶北、全南等院校比較目標學科。這些是查詢例子，並非完整名單或合作保證；比較重點為招生學系、導師、授課語言、總預算及畢業要求，不把地方院校一概視為門檻較低。</p>",
+        "primary": {
+          "label": "院校目錄 →",
+          "href": "/zh/universities/south-korea/"
+        }
       },
       {
-        "id": "section-5",
-        "tab": "apply",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "05",
-        "title": "申請材料",
-        "chips": [],
-        "desc": "<p>常見材料：申請表、學位證及成績單（一般須辦海牙認證或領事認證）、語言成績、學習或研究計畫、自我介紹、推薦信、護照、父母國籍及親屬關係證明、存款證明。藝術類另交作品集，部分學校安排面試。文件格式及存款金額按學校規定。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false
+        "id": "section-3",
+        "tab": "requirements",
+        "region": "入學要求",
+        "title": "學歷國籍",
+        "desc": "<p>通常須持學士學位或在指定期限前取得學位。國際生招生常核對申請人及父母國籍，另有全程海外教育等不同資格途徑；雙重國籍或曾有韓國國籍者應另查規則。應屆生何時補交正式學位及成績單，以當期簡章為準。</p>"
+      },
+      {
+        "id": "korea-6",
+        "tab": "requirements",
+        "region": "入學要求",
+        "title": "語言門檻",
+        "desc": "<p>TOPIK、IELTS、TOEFL 的門檻依學校、學系及招生途徑而異。以高麗官網所列通則為例，列有 TOPIK 3 級或 Academic IELTS 5.5 等途徑，但部分專業要求更高韓語或指定英語證明；經濟系另要求韓英兩種。達最低門檻不代表錄取，應再查當期學系細則。</p>",
+        "primary": {
+          "label": "要求範例 →",
+          "href": "https://graduate2.korea.ac.kr/admission/eligibility.html"
+        }
+      },
+      {
+        "id": "korea-7",
+        "tab": "requirements",
+        "region": "入學要求",
+        "title": "跨科申請",
+        "desc": "<p>先比對本科課程、研究方法及相關經驗，再確認目標學系是否接受跨科。轉商管、傳媒、設計或生物等方向的先修與作品要求不同；工作經驗能否替代學分或作品，由系所判定，不先承諾可以補課入學。</p>"
+      },
+      {
+        "id": "korea-8",
+        "tab": "requirements",
+        "region": "入學要求",
+        "title": "導師聯繫",
+        "desc": "<p>研究型碩士可先查導師近年的研究及招生安排；若學系要求事前同意，須按指定方式聯繫。授課型或統一招生課程未必需要套磁。教授願意交流不等於正式錄取、學費減免或已確認研究助理薪資。</p>"
       },
       {
         "id": "section-6",
         "tab": "apply",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "06",
-        "title": "申請時間",
-        "chips": [],
-        "desc": "<p>每年招生兩季。以高麗大學為例：3 月春季入學，9 月遞交申請，12 月中公布結果；9 月秋季入學，3 月遞交，6 月中公布結果。各校時間不同，部分學校分兩輪招生。</p>",
-        "noteLabel": "提醒",
-        "note": "建議至少提前一年準備語言考試、文件認證及研究計畫。",
-        "wide": false
+        "region": "材料時程",
+        "title": "申請時程",
+        "desc": "<p>常見為 3 月與 9 月入學，申請通常在入學前一學期進行，另有學校分多輪招生。以延世 GSIS 2027 春季國際生為例，網申於 2026 年 9 月 21 日至 10 月 2 日受理，該輪已截止；不能套用舊年度月份表判斷仍可報名。建議提前 6–12 個月整理語言、文件及研究方向。</p>",
+        "primary": {
+          "label": "時程範例 →",
+          "href": "https://gsis.yonsei.ac.kr/gsis/community/boards1_01.do?articleNo=478909&mode=view"
+        }
+      },
+      {
+        "id": "section-5",
+        "tab": "apply",
+        "region": "材料時程",
+        "title": "學歷文件",
+        "desc": "<p>常見為畢業或預計畢業證明、學位及成績單、護照、國籍與親屬關係資料；按學歷簽發地查 Apostille（海牙認證）、領事認證或指定學歷驗證。翻譯、公證、認證的用途不同，亦要分清網申上傳、郵寄正本與錄取後補件期限。</p>"
+      },
+      {
+        "id": "korea-11",
+        "tab": "apply",
+        "region": "材料時程",
+        "title": "申請文書",
+        "desc": "<p>按學系模板準備自我介紹、學習或研究計畫、履歷及推薦信；說清楚已有基礎、目標問題與為何選該課程。藝術、設計及影視另核對作品集格式、影片時長、個人貢獻及版權。推薦信是否由推薦人直接提交，也要按校方規則安排。</p>",
+        "primary": {
+          "label": "作品輔導 →",
+          "href": "/zh/services/art-portfolio-coaching/"
+        }
+      },
+      {
+        "id": "korea-12",
+        "tab": "apply",
+        "region": "材料時程",
+        "title": "面試準備",
+        "desc": "<p>確認是否面試、使用語言、線上或到場，以及作品展示要求。練習說明申請動機、研究可行性、本科基礎與未來規劃；理工可能問研究方法，創作方向可能要求介紹作品。部分課程只做書面評核，不能一概保證免面試。</p>"
       },
       {
         "id": "section-7",
-        "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "07",
-        "title": "學費",
-        "chips": [],
-        "desc": "<div style=\"overflow-x:auto\"><table><thead><tr><th>學校</th><th>每學期學費（韓元）</th><th>入學金（韓元，一次）</th><th>範圍</th></tr></thead><tbody><tr><td>高麗大學（2025）</td><td>5,237,000</td><td>1,142,000</td><td>人文社會碩士</td></tr><tr><td>延世大學（2026）</td><td>5,479,000</td><td>1,028,000</td><td>文科及社會科學</td></tr><tr><td>啟明大學（大邱）</td><td>4,169,000</td><td>810,000</td><td>人文社會碩士</td></tr></tbody></table></div>",
-        "noteLabel": "提醒",
-        "note": "理工、藝術及體育類一般較人文社科高；經營大學院 MBA 及部分專門課程可達每學期一千萬韓元以上。國立大學學費一般較低。生活費按城市及住宿另計，首爾高於地方城市。",
+        "tab": "cost",
+        "region": "費用資助",
+        "title": "學費參考",
+        "desc": "<p>以下為延世大學公布的 2026 年一般研究生院國際生收費例子，單位為韓元；學費按每學期、入學金按首次入學另列。</p><table><thead><tr><th>學科</th><th>學費／學期</th><th>入學金</th></tr></thead><tbody><tr><td>文科及社會科學</td><td>5,479,000</td><td>1,028,000</td></tr><tr><td>商學及經濟</td><td>5,508,000</td><td>1,028,000</td></tr><tr><td>工學</td><td>7,711,000</td><td>1,028,000</td></tr><tr><td>音樂</td><td>8,442,000</td><td>1,028,000</td></tr></tbody></table><p>心理、圖書資訊、認知科學等分項另有標準。此表不能套用 GSIS、MBA 或其他院校；2027 年入學須等當期收費。生活費及其他支出另計。</p>",
+        "primary": {
+          "label": "學費來源 →",
+          "href": "https://www.yonsei.ac.kr/sites/en_sc/down/2026_fee2.pdf"
+        },
         "wide": true
       },
       {
+        "id": "korea-14",
+        "tab": "cost",
+        "region": "費用資助",
+        "title": "生活預算",
+        "desc": "<p>Study in Korea 的生活費參考約每月 75 萬至 100 萬韓元；這是規劃參考，並非簽證資金門檻。實際須按城市、宿舍或校外租屋、膳食及交通報價；另預留押金、保險、機票、教材與首次安頓費，首爾校外租屋可能超過上述範圍。</p>",
+        "primary": {
+          "label": "生活開支 →",
+          "href": "https://www.studyinkorea.go.kr/ko/life/livingExpense.do"
+        }
+      },
+      {
         "id": "section-8",
-        "tab": "overview",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "08",
-        "title": "獎學金",
-        "chips": [
-          "學校獎學金"
-        ],
-        "desc": "<p><strong>GKS 政府獎學金（研究生）：</strong>一年韓語課程加兩年碩士課程，包學費、機票、韓語課程費及每月生活費，只適用一般大學院。研究生項目每年初開放申請，分使館及大學兩種渠道。</p><p><strong>學校獎學金：</strong>多按入學成績或 TOPIK 級別減免學費，部分學校另設全額學費及生活費獎學金。名額、條件及續領要求以學校公告為準。</p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false
+        "tab": "cost",
+        "region": "費用資助",
+        "title": "GKS獎金",
+        "desc": "<p>GKS-G 按年度指定的大學、學系及申請途徑招生，不能只按「一般／專門大學院」判斷資格。2026 年公告分使館與大學途徑；一般碩士資助通常包含韓語研修及學位課程，豁免與專項另有安排。準備下一年度申請時，須重查國籍、成績、名額、補助及截止日。</p>",
+        "primary": {
+          "label": "年度公告 →",
+          "href": "https://www.studyinkorea.go.kr/ko/notice/scholarshipsRead.do?bbsId=BBSMSTR_000000000461&nttId=4420"
+        }
+      },
+      {
+        "id": "korea-16",
+        "tab": "cost",
+        "region": "費用資助",
+        "title": "校內資助",
+        "desc": "<p>比較入學獎學金、在學成績獎學金與研究助理資助，分清學費減免、生活補助及工作合同。確認首學期或全程、續領 GPA／語言要求、可否與其他資助併領，以及是否須另行申請；未取得書面結果前，不把獎學金算成已落實預算。</p>"
+      },
+      {
+        "id": "korea-17",
+        "tab": "visa",
+        "region": "簽證行前",
+        "title": "資金證明",
+        "desc": "<p>學校與領事機關可能分別要求財力證明。金額、幣別、帳戶持有人、開立時間及存期依院校、國籍、簽證受理地而異；使用父母帳戶時常需親屬關係資料。不同學校與簽證類別的金額不能互相套用。</p>"
       },
       {
         "id": "section-9",
-        "tab": "apply",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "09",
-        "title": "簽證畢業",
-        "chips": [],
-        "desc": "<p>錄取後學校簽發入學許可書（COA），再申請 D-2 留學簽證（碩士為 D-2-3）。須準備存款證明、學歷認證及護照等文件。</p>",
-        "noteLabel": "提醒",
-        "note": "畢業後可按規定申請求職簽證（D-10）留韓找工作，找到合適工作後再轉工作簽證。",
-        "wide": false
+        "tab": "visa",
+        "region": "簽證行前",
+        "title": "學生簽證",
+        "desc": "<p>碩士學位通常對應 D-2-3。錄取及完成校方要求後，按受理地韓國使領館清單準備標準入學許可、學歷、資金及適用的體檢資料；在職、夜間或非學位課程應先問清是否適用。語學堂 D-4-1 與學位簽證是不同類別。</p>",
+        "primary": {
+          "label": "簽證資料 →",
+          "href": "https://www.studyinkorea.go.kr/en/plan/visaAndStay.do"
+        }
+      },
+      {
+        "id": "korea-19",
+        "tab": "visa",
+        "region": "簽證行前",
+        "title": "住宿行前",
+        "desc": "<p>宿舍申請與學位錄取可能分開處理，須查名額、入住日、房費、餐費及取消規則。校外租屋先核對押金、租期與通勤，再安排保險、入境及居留登記；錄取不代表已安排住宿。</p>"
+      },
+      {
+        "id": "korea-20",
+        "tab": "visa",
+        "region": "簽證行前",
+        "title": "畢業求職",
+        "desc": "<p>畢業後能否轉 D-10 求職或工作居留，須另看學歷、求職活動與主管機關的當期條件。取得碩士學位不等於自動獲工作簽證；職種、僱主及工作資格須另行確認。</p>",
+        "primary": {
+          "label": "求職居留 →",
+          "href": "/zh/services/graduate-job-search-visas/"
+        }
+      },
+      {
+        "id": "korea-21",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "服務內容",
+        "desc": "<p>協助比較院校與課程、核對資格和材料、整理時程，按委託範圍提供文書修改、遞交與補件跟進及面試準備。申請人提供真實經歷並確認最終文件；研究內容、考試及作品由本人完成，不代做作品或承諾錄取。</p>"
       },
       {
         "id": "section-10",
-        "tab": "cost",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "10",
+        "tab": "service",
+        "region": "申請服務",
         "title": "服務費用",
-        "chips": [],
-        "desc": "<div style=\"overflow-x:auto\"><table><thead><tr><th>項目</th><th>OTC 服務費（人民幣）</th><th>範圍</th></tr></thead><tbody><tr><td>合作院校標準申請</td><td>免費</td><td>符合合作院校條件時，選校、材料準備、遞交及錄取跟進免收服務費。</td></tr><tr><td>標準申請（非合作院校）</td><td>¥6,000／一個入學季</td><td>最多6校：選校與要求整理、材料清單、履歷及學習計畫修改（各2輪）、作品提交規格檢查、遞交與補件跟進、1次面試準備。</td></tr><tr><td>追加學校</td><td>¥1,200／校</td><td>超過6校時按校計算。</td></tr><tr><td>學習或研究計畫修改</td><td>¥1,000／份</td><td>結構與表達修改2輪。</td></tr><tr><td>面試輔導</td><td>¥600／次</td><td>模擬面試及回饋。</td></tr><tr><td>作品集輔導</td><td>按時數報價</td><td>藝術、設計及影視方向；作品不代做。</td></tr></tbody></table></div>",
-        "noteLabel": "提醒",
-        "note": "初步評估免費。學費、院校申請費、語言考試、文件認證及翻譯、簽證、住宿與保險等第三方費用另計。錄取、獎學金及簽證結果由學校及有關機構決定。",
+        "desc": "<table><thead><tr><th>項目</th><th>OTC 服務費（人民幣）</th><th>範圍</th></tr></thead><tbody><tr><td>合作院校標準申請</td><td>免費</td><td>符合合作院校條件時，選校、材料準備、遞交及錄取跟進免收服務費。</td></tr><tr><td>標準申請（非合作院校）</td><td>¥6,000／一個入學季</td><td>最多6校：選校與要求整理、材料清單、履歷及學習計畫修改（各2輪）、作品提交規格檢查、遞交與補件跟進、1次面試準備。</td></tr><tr><td>追加學校</td><td>¥1,200／校</td><td>超過6校時按校計算。</td></tr><tr><td>學習或研究計畫修改</td><td>¥1,000／份</td><td>結構與表達修改2輪。</td></tr><tr><td>面試輔導</td><td>¥600／次</td><td>模擬面試及回饋。</td></tr><tr><td>作品集輔導</td><td>按時數報價</td><td>藝術、設計及影視方向；作品不代做。</td></tr></tbody></table><p>初步評估免費。學費、院校申請費、語言考試、文件認證與翻譯、簽證、住宿及保險等第三方費用另計；開始前書面確認免費代辦是否適用、服務範圍與付款安排。</p>",
         "wide": true
       },
       {
         "id": "section-11",
-        "tab": "apply",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "11",
-        "title": "流程",
-        "chips": [],
-        "desc": "<ol><li>說明本科專業、成績、語言程度、目標方向及入學季。</li><li>比較課程與要求，確定選校及語言路線。</li><li>確認服務範圍與費用，準備材料、研究計畫及作品。</li><li>按截止日遞交申請，準備面試，跟進補件及結果。</li><li>錄取後整理簽證材料，安排入學。</li></ol>",
-        "noteLabel": "",
-        "note": "",
+        "tab": "service",
+        "region": "申請服務",
+        "title": "申請流程",
+        "desc": "<ol><li>提供本科專業、成績概況、語言、目標方向、入學季與預算。</li><li>比較課程、資格及截止日，確認委託範圍。</li><li>整理文件、文書及作品，按規定辦理驗證。</li><li>遞交申請、準備面試，跟進補件及結果。</li><li>錄取後核對費用、簽證與住宿，安排入學。</li></ol>",
         "wide": true
       },
       {
         "id": "section-12",
-        "tab": "cost",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "12",
+        "tab": "service",
+        "region": "申請服務",
         "title": "相關服務",
-        "chips": [],
-        "desc": "<p><a href=\"/zh/services/korea-undergraduate-application/\">韓國本科申請</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換陪跑</a> · <a href=\"/zh/services/europe-exchange-support/\">歐洲交換陪跑</a> · <a href=\"/countries/south-korea/\">韓國留學入口</a></p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "primary": {
-          "label": "韓國本科申請",
-          "href": "/zh/services/korea-undergraduate-application/"
-        }
-      },
-      {
-        "id": "section-13",
-        "tab": "ref",
-        "region": "韓國碩士申請｜選校、入學要求",
-        "badge": "13",
-        "title": "官方資料",
-        "chips": [],
-        "desc": "<p><a href=\"https://graduate2.korea.ac.kr/admission/procedure.html\" rel=\"noopener\">高麗大學研究生申請流程</a> · <a href=\"https://graduate2.korea.ac.kr/admission/tuition.html\" rel=\"noopener\">高麗大學研究生學費</a> · <a href=\"https://www.yonsei.ac.kr/sites/en_sc/down/2026_fee2.pdf\" rel=\"noopener\">延世大學2026研究生學費</a> · <a href=\"https://egs.kmu.ac.kr/egs/8525/subview.do\" rel=\"noopener\">啟明大學研究生學費</a></p><p><a href=\"https://www.studyinkorea.go.kr/ko/plan/scholarship.do\" rel=\"noopener\">Study in Korea｜GKS 獎學金</a> · <a href=\"https://studyinkorea.go.kr/ko/plan/visaAndStay.do\" rel=\"noopener\">Study in Korea｜簽證</a> · <a href=\"https://www.studyinkorea.go.kr/en/plan/examAndKoreanStudy.do\" rel=\"noopener\">Study in Korea｜語言要求與 TOPIK</a></p><p><a href=\"https://gsaim.cau.ac.kr/sub05/sub01.php\" rel=\"noopener\">中央大學影像課程</a> · <a href=\"https://dic.dongguk.edu/main\" rel=\"noopener\">東國大學影像大學院</a></p>",
-        "noteLabel": "",
-        "note": "",
-        "wide": false,
-        "primary": {
-          "label": "高麗大學研究生申請流程 ↗",
-          "href": "https://graduate2.korea.ac.kr/admission/procedure.html"
-        }
+        "desc": "<p><a href=\"/zh/services/korea-undergraduate-application/\">韓國本科</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換</a> · <a href=\"/zh/services/art-portfolio-coaching/\">作品輔導</a> · <a href=\"/zh/services/phd-application-coaching/\">博士輔導</a></p>"
       }
     ],
-    "footer": ""
-  },
-  "bodyFormat": "card-directory"
+    "footer": "<span id=\"section-13\"></span>資料核對：2026 年 11 月 26 日。費用、招生與簽證依當期官方公告；錄取、獎學金及居留由院校與主管機關審定。<a href=\"/zh/countries/south-korea/\">韓國留學</a>。"
+  }
 }
