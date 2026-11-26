@@ -15,6 +15,35 @@ const selected=global.process.argv.includes('--country')?global.process.argv[glo
 if(global.process.argv.includes('--country')&&!data.some(c=>c.slug===selected))throw new Error('Unknown country: '+selected);
 const selectedData=global.process.argv.includes('--hub')?[]:selected?data.filter(c=>c.slug===selected):data;
 const entries=[];
+function japanSchoolCards(body) {
+ const styles = `<style>
+ .japan-directory #directory .school-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
+ .japan-directory #directory .region-group,.japan-directory #directory .schools{display:contents}
+ .japan-directory #directory .region-group[hidden],.japan-directory #directory .schools li[hidden]{display:none}
+ .japan-directory #directory .region-group>summary{display:none}
+ .japan-directory #directory .schools li{display:flex;flex-direction:column;align-items:stretch;gap:6px;min-width:0;padding:12px;background:#faf9f5;border:1px solid #ddd8ce;border-radius:7px}
+ .japan-directory .school-card-meta{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;color:#575950;font-size:.76rem;line-height:1.35}
+ .japan-directory .school-card-type{background:#e6ebe4;color:#364538;border-radius:3px;padding:2px 5px;text-align:right}
+ .japan-directory .schools li strong{line-height:1.3;overflow-wrap:anywhere}
+ .japan-directory .schools li p{margin:0;font-size:.84rem;line-height:1.5}
+ .japan-directory .schools li .actions{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px;margin-top:auto;padding-top:5px}
+ .japan-directory .schools li .actions a{display:flex;align-items:center;justify-content:center;min-height:36px;padding:4px 7px;text-align:center;font-size:.75rem;border-radius:4px}
+ .japan-directory .schools li .actions a:first-child{background:#25352e;color:white;border-color:#25352e}
+ .japan-directory .schools li .actions a.apply{background:white;color:#29352e;border:1px solid #d8d8cf}
+ @media(max-width:900px){.japan-directory #directory .school-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:560px){.japan-directory #directory .school-card-grid{grid-template-columns:minmax(0,1fr)}}
+ </style>`;
+ return body.replace('<main class="lang-directory"', styles+'<main class="lang-directory japan-directory"')
+  .replace(/(<details class="region-group"[\s\S]*<\/details>)(?=<\/section>)/, '<div class="school-card-grid">$1</div>')
+  .replace(/(<details class="region-group" data-region="[^"]+")[^>]*>/g,'$1 open')
+  .replace(/(<li data-school="[^"]+" data-type="([^"]+)">)<strong>([^<]+)<\/strong><small>([^<]+)<\/small>/g,
+   (_, item, type, name, location) => item+'<div class="school-card-meta"><span>'+location.split(' · ')[0]+'</span><span class="school-card-type">'+type+'</span></div><strong>'+name+'</strong>')
+  .replace(/<a [^>]*>中文介紹 · Notion ↗<\/a>/g,'')
+  .replace(/<a [^>]*>Threads 私訊 ↗<\/a>/g,'')
+  .replace('g.open=!!term||!!r.value||!!t.value||i===0','g.open=true')
+  .replace('筆結果；點開地區查看學校。','筆結果');
+}
+
 function write(route,title,description,body,slug,share={}){const file=path.join(root,route,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,pageShell({title,current:'services',lang:'zh-Hant',locale:'zh',path:route,image:'/assets/language-'+slug+'-20260930.png',imageWidth:1200,imageHeight:630,imageAlt:title,description,body:css+body,...share}).replace(/[ \t]+$/gm,''));entries.push({type:'Page',title,url:route,desc:description})}
 for(const c of selectedData){
  if(c.slug==='canada'){entries.push(...require('../content/canada-language-directory.cjs')());continue;}
@@ -52,7 +81,7 @@ for(const c of selectedData){
    .replace('<div class="layout"><div>', '<div>').replace(`</div>${service(c.name)}</div></main>`, '</div></main>')
    .replace(process, guidance+process)
    .replace('<a href="#process">申請流程 ↓</a>', '<a href="#fees">費用與退費 ↓</a><a href="#process">申請流程 ↓</a>');
-  write(share.path,share.titleZh,share.descriptionZh,body,c.slug,{
+  write(share.path,share.titleZh,share.descriptionZh,japanSchoolCards(body),c.slug,{
    image:share.shareImageZh,imageWidth:share.socialImageWidth,imageHeight:share.socialImageHeight
   });
   continue;
