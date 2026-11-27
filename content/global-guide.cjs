@@ -16,4 +16,4 @@ module.exports=()=>pageShell({title:a.titleZh,path:a.path,description:a.summaryZ
  <dialog id="tool-dialog" aria-labelledby="tool-title"><div class="gg-dialog-head"><h2 id="tool-title"></h2><button id="close-dialog" aria-label="關閉視窗">×</button></div><div id="tool-content"></div></dialog>
  <noscript><p>請開啟 JavaScript 使用互動地球。亦可直接瀏覽 <a href="/zh/countries/">國別留學</a>、<a href="/zh/immigration-alliance/">移民聯盟</a>、<a href="/zh/work-travel-alliance/">打工度假</a>。</p></noscript>
 </main>
-<script src="/assets/global-guide/vendor/d3.min.js" defer></script><script src="/assets/global-guide/vendor/topojson-client.min.js" defer></script><script src="/assets/global-guide/guide.js?v=20261127" defer></script>`});
+<script src="/assets/global-guide/vendor/d3.min.js" defer></script><script src="/assets/global-guide/vendor/topojson-client.min.js" defer></script><script src="/assets/global-guide/guide.js?v=20261127-interaction2" defer></script>`});
