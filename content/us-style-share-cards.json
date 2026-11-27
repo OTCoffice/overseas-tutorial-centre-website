@@ -879,5 +879,16 @@
    "碩士交換",
    "中小學"
   ]
+ },
+ {
+  "route": "/zh/services/taiwan-communication-graduate-exam/",
+  "slug": "taiwan-communication-graduate-exam",
+  "head": "傳播研究所備考",
+  "en": "Communication Graduate Exam",
+  "items": [
+   "考科拆解",
+   "時事申論",
+   "資料審查"
+  ]
  }
 ]

@@ -32,7 +32,8 @@ const groups=[
       ["博士申請","/zh/services/phd-application-coaching/","研究方向、導師與資助、研究計劃及面試。"],
       ["日本讀研","/zh/services/japan-graduate-application/","修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
       ["韓國碩士","/zh/services/korea-masters-application/","選校、入學要求、學費與獎學金；合作院校免費代辦。"],
-      ["香港研博","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"]
+      ["香港研博","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"],
+      ["傳播研所","/zh/services/taiwan-communication-graduate-exam/","台灣傳播研究所考科拆解、時事申論練習與資料審查準備。"]
     ]],
     ["subject-admissions","專業升學",[
       ["波蘭獸醫","/zh/subject-planning/poland-veterinary-sggw/","華沙生命科學大學5.5年課程、學費、申請與英歐註冊要求。"],
