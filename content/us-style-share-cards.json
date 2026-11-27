@@ -948,5 +948,16 @@
   "中英翻譯",
   "會計師溝通"
  ]
+},
+{
+ "route": "/zh/global-guide/",
+ "slug": "global-guide",
+ "head": "全球出國指南",
+ "en": "OTC Global Guide",
+ "items": [
+  "互動地球選國家",
+  "留學・工作・移民・旅遊",
+  "路線比較與個人清單"
+ ]
 }
 ]

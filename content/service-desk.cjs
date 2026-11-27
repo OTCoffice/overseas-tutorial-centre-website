@@ -3,6 +3,7 @@ const {categoryDirectory,overviewDirectory}=require('./hub-cards.cjs');
 const groups=[
   ["study","留學申請","從選校、入學申請到轉學與學分認定。",[
     ["study-planning","選校預算",[
+      ["全球出國指南","/zh/global-guide/","互動地球、國家路線、官方入口、收藏與個人清單。"],
       ["留學規劃","/zh/study-planning/","按學歷、預算和入學時間安排選校及申請。"],
       ["留學國家","/zh/countries/","按國家查閱院校、學費及生活費。"],
       ["學科選擇","/zh/subject-planning/","商科、文理工科、醫學、法律、藝術與設計等專業。"],

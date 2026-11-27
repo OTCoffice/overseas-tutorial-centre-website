@@ -145,7 +145,7 @@ module.exports=()=>pageShell({title:'海外督導｜雙語世界',path:'/',alter
 </div></div></section>
 <section class="home-section"><div class="home-wrap"><h2>學習資源</h2><div class="home-groups">
 <section class="home-group"><h3>留學導報</h3><p>院校、申請、留學生活及政策資訊。</p><a href="/zh/insights/">閱讀導報 →</a></section>
-<section class="home-group" id="learning-tools"><h3>學習工具</h3><p>英語練習、口語模擬、詞彙及學習記錄。</p><a href="/zh/site-directory/#tools">學習工具 →</a></section>
+<section class="home-group" id="learning-tools"><h3>學習工具</h3><p>英語練習、口語模擬、詞彙及學習記錄。</p><a href="/zh/global-guide/">全球出國指南 →</a> · <a href="/zh/site-directory/#tools">學習工具 →</a></section>
 <section class="home-group" id="othm-books"><h3>書籍教輔</h3><p>雙語教輔、課程伴讀、書籍與樣章。</p><a href="/zh/publishing/">海外書局 →</a></section>
 <section class="home-group" id="curriculum"><h3>課程資料</h3><p>國際課程、語言學習及資格課程介紹。</p><a href="/zh/teaching/">課程教學 →</a></section>
 </div></div></section>

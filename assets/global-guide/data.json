@@ -1,0 +1,3037 @@
+{
+  "updated": "2026-11-27",
+  "countries": [
+    {
+      "id": "australia",
+      "name": "澳洲",
+      "en": "Australia",
+      "mapId": "036",
+      "coord": [
+        134.0,
+        -25.0
+      ],
+      "region": "oceania",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "大學、職業教育與升學路徑。",
+          "links": [
+            {
+              "label": "Study Australia 官方",
+              "url": "https://www.studyaustralia.gov.au/",
+              "official": true
+            },
+            {
+              "label": "VET／TAFE 專題",
+              "url": "/zh/australia-vet-tafe-pathways/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday · 417／462",
+          "summary": "417 與 462 是不同簽證類別。先按護照確認類別，再查年齡、教育、語言及申請安排。",
+          "conditions": "適用護照、名額及抽籤安排依類別而異；續簽另有條件。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/overview",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "澳洲移民與居留",
+              "url": "/zh/immigration-alliance/australia/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "紐西蘭",
+      "en": "New Zealand",
+      "mapId": "554",
+      "coord": [
+        173.0,
+        -41.0
+      ],
+      "region": "oceania",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程、院校與私校資料。",
+          "links": [
+            {
+              "label": "Study with New Zealand 官方",
+              "url": "https://www.studywithnewzealand.govt.nz/en",
+              "official": true
+            },
+            {
+              "label": "紐西蘭私校",
+              "url": "/zh/private-school-alliance/new-zealand/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "按護照選擇計劃；有些設年度名額及開放日期，有些可全年申請。",
+          "conditions": "需按所屬計劃準備資金、保險及適用的體檢或語言證明。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.immigration.govt.nz/work/working-holiday-visas/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "紐西蘭移民與居留",
+              "url": "/zh/immigration-alliance/new-zealand/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "加拿大",
+      "en": "Canada",
+      "mapId": "124",
+      "coord": [
+        -106.0,
+        57.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程、申請與留學費用。",
+          "links": [
+            {
+              "label": "加拿大留學專題",
+              "url": "/zh/countries/canada/",
+              "official": false
+            },
+            {
+              "label": "EduCanada 官方",
+              "url": "https://www.educanada.ca/",
+              "official": true
+            },
+            {
+              "label": "加拿大中小學申請",
+              "url": "/zh/services/canada-school-application/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "IEC · Working Holiday",
+          "summary": "符合資格後建立 profile 入池，收到邀請才進入工作許可申請。",
+          "conditions": "護照、年齡、參與次數及停留期限依協定；入池不保證獲邀。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "加拿大移民與居留",
+              "url": "/zh/immigration-alliance/canada/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "美國",
+      "en": "United States",
+      "mapId": "840",
+      "coord": [
+        -98.0,
+        39.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "高等教育申請、私校與暑期學習。",
+          "links": [
+            {
+              "label": "EducationUSA 官方",
+              "url": "https://educationusa.state.gov/",
+              "official": true
+            },
+            {
+              "label": "美國私校",
+              "url": "/zh/private-school-alliance/united-states/",
+              "official": false
+            },
+            {
+              "label": "美國寒暑校",
+              "url": "/zh/summer-school-alliance/united-states/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "J-1 · Summer Work Travel",
+          "summary": "以暑假工作及文化交流為主，須經美國國務院指定 sponsor。",
+          "conditions": "主要面向符合條件的境外大專院校在讀學生；畢業生不能直接套用在讀資格。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://j1visa.state.gov/programs/summer-work-travel/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "美國移民與居留",
+              "url": "/zh/immigration-alliance/usa/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "英國",
+      "en": "United Kingdom",
+      "mapId": "826",
+      "coord": [
+        -3.0,
+        55.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "大學課程、升學與寄宿學校。",
+          "links": [
+            {
+              "label": "Study UK 官方",
+              "url": "https://study-uk.britishcouncil.org/",
+              "official": true
+            },
+            {
+              "label": "英國升學課程",
+              "url": "/zh/study-group-2026-applications/",
+              "official": false
+            },
+            {
+              "label": "英國私校",
+              "url": "/zh/private-school-alliance/united-kingdom/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Youth Mobility Scheme · YMS",
+          "summary": "青年流動計劃，依護照核對年齡、資金及是否需要先抽籤。",
+          "conditions": "不同國籍的年齡與停留安排不同；持學生身分並不自動取得申請資格。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.gov.uk/youth-mobility",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "英國移民與居留",
+              "url": "/zh/immigration-alliance/uk/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ireland",
+      "name": "愛爾蘭",
+      "en": "Ireland",
+      "mapId": "372",
+      "coord": [
+        -8.0,
+        53.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校、課程與留學申請。",
+          "links": [
+            {
+              "label": "Education in Ireland 官方",
+              "url": "https://www.educationinireland.com/en/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Authorisation",
+          "summary": "先申請打工度假授權；受理單位及材料按護照區分。",
+          "conditions": "台灣護照由愛爾蘭移民部門受理；其他適用護照按官方列表查詢。長住另核對抵境登記。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/working-holidays-in-ireland/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "荷蘭",
+      "en": "Netherlands",
+      "mapId": "528",
+      "coord": [
+        5.0,
+        52.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程查詢、申請與住宿資料。",
+          "links": [
+            {
+              "label": "Study in NL 官方",
+              "url": "https://www.studyinnl.org/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday · WHP／WHS",
+          "summary": "以文化交流為主要目的，可按規定從事附帶工作。",
+          "conditions": "只適用協定護照；台灣、香港等設年度名額，申請程序依國家／地區不同。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://ind.nl/en/residence-permits/au-pair-and-exchange/residence-permit-working-holiday",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "法國",
+      "en": "France",
+      "mapId": "250",
+      "coord": [
+        2.0,
+        47.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程申請與留學生活資料。",
+          "links": [
+            {
+              "label": "法國高商五校規劃",
+              "url": "/zh/services/france-business-schools/",
+              "official": false
+            },
+            {
+              "label": "法國留學專題",
+              "url": "/zh/france-study-work-settlement-support/",
+              "official": false
+            },
+            {
+              "label": "Campus France 官方",
+              "url": "https://www.campusfrance.org/en",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Vacances-travail",
+          "summary": "透過打工度假簽證在法國體驗生活，工作用於補貼旅費。",
+          "conditions": "按協定確認年齡與名額；申請地點有護照及居住地限制。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.france-visas.gouv.fr/en/web/france-visas/jeunes-voyageurs",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "法國移民與居留",
+              "url": "/zh/immigration-alliance/france/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "德國",
+      "en": "Germany",
+      "mapId": "276",
+      "coord": [
+        10.0,
+        51.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "碩士、博士、APS 審核、簽證與資金準備。",
+          "links": [
+            {
+              "label": "德國留學",
+              "url": "/zh/countries/germany/",
+              "official": false
+            },
+            {
+              "label": "Study in Germany 官方",
+              "url": "https://www.study-in-germany.com/en/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "以文化及日常生活體驗為主，可做假期工作補貼生活。",
+          "conditions": "適用協定護照；台灣及香港申請人的受理地點各有規定。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/06-workingholiday-606672",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "德國移民與居留",
+              "url": "/zh/immigration-alliance/germany/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "比利時",
+      "en": "Belgium",
+      "mapId": "056",
+      "coord": [
+        4.5,
+        50.5
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Programme",
+          "summary": "打工度假屬長期停留簽證，應依護照查閱對應使領館文件。",
+          "conditions": "台灣申請可查比利時台北辦事處；其他護照使用相應受理單位，勿混用清單。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://taipei.diplomatie.belgium.be/en/travel-belgium/visa-belgium/long-stays-over-90-days",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "奧地利",
+      "en": "Austria",
+      "mapId": "040",
+      "coord": [
+        14.0,
+        48.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "維也納、TU Wien、學位申請與留學預算。",
+          "links": [
+            {
+              "label": "奧地利留學",
+              "url": "/zh/countries/austria/",
+              "official": false
+            },
+            {
+              "label": "Study in Austria 官方",
+              "url": "https://studyinaustria.at/en/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Programme",
+          "summary": "依雙邊協定安排假期、短期工作與文化體驗。",
+          "conditions": "年齡、停留期限和受理使館依護照不同；倫敦受理範圍不等於所有適用護照。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.bmeia.gv.at/en/travel-stay/entrance-and-residence-in-austria/working-holiday-programmes",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "czechia",
+      "name": "捷克",
+      "en": "Czechia",
+      "mapId": "203",
+      "coord": [
+        15.0,
+        50.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Long-term Visa",
+          "summary": "以打工度假長期簽證安排旅行及短期工作。",
+          "conditions": "台灣申請人查捷克經濟文化辦事處；依當期名額、預約及材料清單辦理。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://mzv.gov.cz/taipei/en/visas_and_consular_information/visa_information_for_foreigners/working_holiday_long_term_visa/index.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "波蘭",
+      "en": "Poland",
+      "mapId": "616",
+      "coord": [
+        19.0,
+        52.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Programme",
+          "summary": "透過雙邊青年交流計劃結合旅行、文化體驗與工作。",
+          "conditions": "先在官方協定列表確認護照，再向受理單位查申請時間與文件。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.gov.pl/web/family/working-holiday-agreements",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "匈牙利",
+      "en": "Hungary",
+      "mapId": "348",
+      "coord": [
+        19.0,
+        47.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Scheme",
+          "summary": "按打工度假協定申請相應臨時居留。",
+          "conditions": "設協定國別及年度配額；名額用盡可導致申請被拒。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.oif.gov.hu/index.php/factsheets/list-of-agreements-concluded-on-working-holiday-scheme",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-1",
+          "type": "work",
+          "title": "White Card",
+          "summary": "依境外僱傭或境外公司業務申請遠端工作居留。",
+          "conditions": "White Card 不允許在匈牙利從事本地有償活動；與打工度假臨時居留不同。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.oif.gov.hu/factsheets/white-card-residency-for-digital-nomads",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slovakia",
+      "name": "斯洛伐克",
+      "en": "Slovakia",
+      "mapId": "703",
+      "coord": [
+        19.0,
+        49.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Programme",
+          "summary": "青年可按協定申請打工度假國家簽證。",
+          "conditions": "台灣申請人使用斯洛伐克台北辦事處清單，核對當期名額及材料。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.mzv.sk/en/web/taipei-en/visa-and-services/working-holiday-program",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luxembourg",
+      "name": "盧森堡",
+      "en": "Luxembourg",
+      "mapId": "442",
+      "coord": [
+        6.0,
+        49.8
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "青年文化交流計劃，結合有限期間的停留與工作。",
+          "conditions": "適用夥伴包括台灣等地；國別清單及申請安排以官方頁面為準。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://guichet.public.lu/en/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/work-and-travel.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "瑞典",
+      "en": "Sweden",
+      "mapId": "752",
+      "coord": [
+        16.0,
+        62.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程、申請與北歐留學預算。",
+          "links": [
+            {
+              "label": "瑞典官方留學資料",
+              "url": "https://studyinsweden.se/",
+              "official": true
+            },
+            {
+              "label": "北歐留學專題",
+              "url": "/zh/countries/nordic/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "以體驗瑞典生活與文化為主要目的，獲許可後可按規定工作。",
+          "conditions": "適用澳洲、加拿大、香港、日本、紐西蘭及韓國等官方列明護照；不是所有青年都適用。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/temporary-work-in-sweden/working-holiday-visa-for-young-people.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "丹麥",
+      "en": "Denmark",
+      "mapId": "208",
+      "coord": [
+        10.0,
+        56.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校、課程與生活資料。",
+          "links": [
+            {
+              "label": "Study in Denmark 官方",
+              "url": "https://studyindenmark.dk/",
+              "official": true
+            },
+            {
+              "label": "北歐留學專題",
+              "url": "/zh/countries/nordic/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "依國別計劃申請居留及工作許可。",
+          "conditions": "不同協定可能有暫停受理或工作時數限制；先查所屬護照頁面。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Working-Holiday",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "挪威",
+      "en": "Norway",
+      "mapId": "578",
+      "coord": [
+        9.0,
+        62.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程、入學與費用資料。",
+          "links": [
+            {
+              "label": "Study in Norway 官方",
+              "url": "https://studyinnorway.no/",
+              "official": true
+            },
+            {
+              "label": "北歐留學專題",
+              "url": "/zh/countries/nordic/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday for Young Adults",
+          "summary": "UDI 以申請人國籍顯示適用的青年交流居留類別。",
+          "conditions": "先選本人國籍查看可用項目；有旅行計劃不代表符合工作居留資格。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.udi.no/en/want-to-apply/work-immigration/exchange-programmes-culture-and-organisational-work/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "芬蘭",
+      "en": "Finland",
+      "mapId": "246",
+      "coord": [
+        26.0,
+        64.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "課程、申請與留學費用。",
+          "links": [
+            {
+              "label": "芬蘭留學服務",
+              "url": "/zh/study-in-finland/",
+              "official": false
+            },
+            {
+              "label": "Study in Finland 官方",
+              "url": "https://www.studyinfinland.fi/",
+              "official": true
+            },
+            {
+              "label": "北歐留學專題",
+              "url": "/zh/countries/nordic/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "按互惠協定申請打工度假居留。",
+          "conditions": "目前官方清單列澳洲、紐西蘭、日本及加拿大；不能將台灣或香港的其他國家協定套用。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://migri.fi/working-holiday/fi",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "意大利",
+      "en": "Italy",
+      "mapId": "380",
+      "coord": [
+        12.0,
+        43.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "博洛尼亞 Global Cultures、北義選校與申請安排。",
+          "links": [
+            {
+              "label": "義大利留學規劃",
+              "url": "/zh/countries/italy/",
+              "official": false
+            },
+            {
+              "label": "Study in Italy 官方",
+              "url": "https://studyinitaly.esteri.it/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Youth Mobility · Working Holiday",
+          "summary": "以義大利與加拿大青年流動協定為已核實入口，區分打工度假與其他交流類別。",
+          "conditions": "此來源適用加拿大公民；其他護照須另查雙邊協定，不能直接使用同一資格。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.esteri.it/en/servizi-opportunita/opportunita/scambi_giovanili/accordo-in-materia-di-mobilita-giovanile-tra-litalia-e-il-canada/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "意大利移民與居留",
+              "url": "/zh/immigration-alliance/italy/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "en": "Japan",
+      "mapId": "392",
+      "coord": [
+        138.0,
+        37.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校、課程與日本留學資料。",
+          "links": [
+            {
+              "label": "日本 SGU／英語學位選校",
+              "url": "/zh/services/japan-sgu-planning/",
+              "official": false
+            },
+            {
+              "label": "日本大學院選校與申請規劃",
+              "url": "/zh/services/japan-graduate-application/",
+              "official": false
+            },
+            {
+              "label": "Study in Japan 官方",
+              "url": "https://www.studyinjapan.go.jp/en/",
+              "official": true
+            },
+            {
+              "label": "日本寒暑校",
+              "url": "/zh/summer-school-alliance/japan/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday",
+          "summary": "以度假為主，可依規定工作補貼旅費；由所屬國家／地區受理單位處理。",
+          "conditions": "護照、年齡、申請次數與名額依協定；工作行業另有限制。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-1",
+          "type": "work",
+          "title": "Digital Nomad · 特定活動",
+          "summary": "針對符合國家／地區與收入條件的遠端工作者，與打工度假分開申請。",
+          "conditions": "有收入及保險門檻；核准期限及可從事活動按本類別規定。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.mofa.go.jp/ca/fna/pagewe_000001_00046.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "韓國",
+      "en": "South Korea",
+      "mapId": "410",
+      "coord": [
+        128.0,
+        36.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "大學、專業與申請規劃。",
+          "links": [
+            {
+              "label": "韓國留學專題",
+              "url": "/zh/countries/south-korea/",
+              "official": false
+            },
+            {
+              "label": "Study in Korea 官方",
+              "url": "https://www.studyinkorea.go.kr/",
+              "official": true
+            },
+            {
+              "label": "韓國中小學申請",
+              "url": "/zh/countries/south-korea/#korea-apply",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday · H-1",
+          "summary": "透過 H-1 計劃體驗韓國生活及文化，按規定從事短期工作。",
+          "conditions": "按護照查年齡、名額、停留及工作限制；使用當期國別指南。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://whic.mofa.go.kr/twa/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "name": "台灣",
+      "en": "Taiwan",
+      "mapId": "158",
+      "coord": [
+        121.0,
+        23.7
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校、課程與國際生申請資料。",
+          "links": [
+            {
+              "label": "Study in Taiwan 官方",
+              "url": "https://www.studyintaiwan.org/",
+              "official": true
+            },
+            {
+              "label": "台灣本地藝術與設計升學",
+              "url": "/zh/services/taiwan-art-design-admissions/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday · 來台度假打工",
+          "summary": "提供協定國青年來台旅行及短期工作的入口。",
+          "conditions": "本項是外國青年來台計劃；台灣居民赴海外應選目的地國家，兩者方向不同。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.boca.gov.tw/lp-153-2-1-40.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "香港",
+      "en": "Hong Kong",
+      "mapId": "344",
+      "coord": [
+        114.2,
+        22.3
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校與升學申請資料。",
+          "links": [
+            {
+              "label": "香港留學專題",
+              "url": "/zh/countries/hong-kong/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday Scheme · 來港工作假期",
+          "summary": "協定國青年可申請來港度假，並依條件從事短期工作或修讀短期課程。",
+          "conditions": "本項是海外青年來港計劃；香港居民赴海外應選目的地國家。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "阿根廷",
+      "en": "Argentina",
+      "mapId": "032",
+      "coord": [
+        -64.0,
+        -35.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Work & Holiday Programme",
+          "summary": "按雙邊協定申請旅行與短期工作計劃。",
+          "conditions": "每一協定有不同年齡與配額；僅接受官方列出的護照。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://cancilleria.gob.ar/en/service/services/work-holiday-programme",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-1",
+          "type": "work",
+          "title": "Nómadas Digitales",
+          "summary": "數位遊牧入境申請與 Work & Holiday 為不同項目。",
+          "conditions": "依護照入境條件及職業證明核對資格；不能假設兩種計劃互通。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-nomadas-digitales",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chile",
+      "name": "智利",
+      "en": "Chile",
+      "mapId": "152",
+      "coord": [
+        -71.0,
+        -32.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "智利大學課程及國際學生資料。",
+          "links": [
+            {
+              "label": "智利大學官方",
+              "url": "https://uchile.cl/english",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Working Holiday · 國際協定居留",
+          "summary": "透過國際協定下的臨時居留安排打工度假。",
+          "conditions": "申請按協定國籍及 SERMIG 程序；一般應在境外提交相應申請。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://serviciomigraciones.cl/en/residencia-temporal-permit/subcategories/international-agreements/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nepal",
+      "name": "尼泊爾",
+      "en": "Nepal",
+      "mapId": "524",
+      "coord": [
+        84.0,
+        28.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "travel",
+          "title": "旅遊停留與延伸旅居",
+          "summary": "可規劃旅行、文化體驗及住宿；按移民部門規定辦理旅遊簽證及延期。",
+          "conditions": "旅遊簽證不等於工作許可。在尼泊爾就業需相應工作簽證；未核實數位遊牧簽證正式受理入口。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://immigration.gov.np/visa-information",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "name": "泰國",
+      "en": "Thailand",
+      "mapId": "764",
+      "coord": [
+        101.0,
+        16.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "大學、英語授課與申請資料。",
+          "links": [
+            {
+              "label": "泰國大學留學",
+              "url": "/zh/thailand-university-study/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Destination Thailand Visa · DTV",
+          "summary": "Workcation 類別面向符合條件的遠端工作者、數位遊牧及自由工作者。",
+          "conditions": "須提交職業或作品等證明；不是開放當地受僱的打工度假簽證。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://london.thaiembassy.org/en/page/destination-thailand-visa",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malaysia",
+      "name": "馬來西亞",
+      "en": "Malaysia",
+      "mapId": "458",
+      "coord": [
+        102.0,
+        4.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "選校、申請與留學預算。",
+          "links": [
+            {
+              "label": "馬來西亞留學",
+              "url": "/zh/services/malaysia-study/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "DE Rantau · Digital Nomad Pass",
+          "summary": "按 MDEC 計劃申請遠端工作停留。",
+          "conditions": "職業類別、收入、合約及家屬要求依當期指南；不能以學生身分取代資格。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.mdec.my/md-programmes/digital-nomad-pass",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sri-lanka",
+      "name": "斯里蘭卡",
+      "en": "Sri Lanka",
+      "mapId": "144",
+      "coord": [
+        81.0,
+        8.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Visa",
+          "summary": "為境外公司或客戶遠端工作者提供居留申請類別。",
+          "conditions": "需符合收入匯入、職業及文件要求；當地就業不適用這個類別。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.immigration.gov.lk/content/files/visa/digital_nomad/Digital%20Nomad%20Visa%20Category.pdf",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uae",
+      "name": "阿聯酋",
+      "en": "United Arab Emirates",
+      "mapId": "784",
+      "coord": [
+        54.0,
+        24.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Virtual Work Residence Visa",
+          "summary": "在阿聯酋居住並為境外公司遠端工作。",
+          "conditions": "核對收入、境外工作證明、保險及體檢；ICP 與杜拜受理入口分開。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-working-outside-the-uae",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkiye",
+      "name": "土耳其",
+      "en": "Türkiye",
+      "mapId": "792",
+      "coord": [
+        35.0,
+        39.0
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Visa",
+          "summary": "先取得 Digital Nomad Identification Certificate，再按要求申請簽證。",
+          "conditions": "設限定國籍清單；不是所有台灣、香港或中國大陸護照持有人都可申請。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://yimer.gov.tr/EN/SSS",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "葡萄牙",
+      "en": "Portugal",
+      "mapId": "620",
+      "coord": [
+        -8.0,
+        40.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "遠端工作簽證與居留",
+          "summary": "以為境外單位提供遠端服務為基礎，選擇相應停留或居留申請。",
+          "conditions": "核對收入、工作關係及適用簽證程序；不是一般青年工作假期。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.visitportugal.com/en/content/how-be-digital-nomad-portugal",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "西班牙",
+      "en": "Spain",
+      "mapId": "724",
+      "coord": [
+        -4.0,
+        40.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Visa",
+          "summary": "適用符合條件的遠端僱員或自僱專業人士。",
+          "conditions": "需核對工作關係、資格、收入及社會保障文件，不能只以旅遊目的申請。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://exteriores.gob.es/Consulados/londres/en/ServiciosConsulares/Paginas/Consular/Digital-Nomad-Visa.aspx",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "西班牙移民與居留",
+              "url": "/zh/immigration-alliance/spain/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estonia",
+      "name": "愛沙尼亞",
+      "en": "Estonia",
+      "mapId": "233",
+      "coord": [
+        26.0,
+        59.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Visa",
+          "summary": "遠端工作簽證與 e-Residency 電子居民服務是不同制度。",
+          "conditions": "e-Residency 不授予入境或居留權；申請簽證需另符合工作與收入條件。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.e-resident.gov.ee/blog/posts/faqs-about-estonias-digital-nomad-visa/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "克羅埃西亞",
+      "en": "Croatia",
+      "mapId": "191",
+      "coord": [
+        16.0,
+        45.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Temporary Stay",
+          "summary": "為符合條件的第三國遠端工作者提供臨時停留安排。",
+          "conditions": "入境簽證、停留申請及抵境登記依護照與居住地安排。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://mup.gov.hr/print.aspx?id=286833&url=print",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malta",
+      "name": "馬爾他",
+      "en": "Malta",
+      "mapId": "470",
+      "coord": [
+        14.4,
+        35.9
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Nomad Residence Permit",
+          "summary": "供以通訊技術為境外單位工作的合資格第三國人士申請。",
+          "conditions": "需核對收入、工作安排、保險與住所；不等於馬爾他當地工作許可。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://nomad.residencymalta.gov.mt/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latvia",
+      "name": "拉脫維亞",
+      "en": "Latvia",
+      "mapId": "428",
+      "coord": [
+        25.0,
+        57.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Long-term Visa for Remote Work",
+          "summary": "面向符合官方境外僱傭或自僱條件的遠端工作者。",
+          "conditions": "須核對僱主／自僱登記國及收入條件；持此簽證不能在拉脫維亞就業。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.pmlp.gov.lv/en/receiving-long-term-visa-remote-work",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "羅馬尼亞",
+      "en": "Romania",
+      "mapId": "642",
+      "coord": [
+        25.0,
+        46.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad · 長期簽證",
+          "summary": "為境外公司工作的數位遊牧人士可查相應長期簽證類別。",
+          "conditions": "需提交境外業務或僱傭、收入及其他規定文件。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://eviza.mae.ro/TypeOfVisa?lang=en-US",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slovenia",
+      "name": "斯洛維尼亞",
+      "en": "Slovenia",
+      "mapId": "705",
+      "coord": [
+        15.0,
+        46.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Temporary Residence",
+          "summary": "官方已公布數位遊牧臨時居留安排，供符合條件的境外工作者查詢。",
+          "conditions": "適用非歐盟／歐洲經濟區人士；當地受僱需其他相應居留依據。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads/",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "冰島",
+      "en": "Iceland",
+      "mapId": "352",
+      "coord": [
+        -19.0,
+        65.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "院校、申請與生活費用。",
+          "links": [
+            {
+              "label": "冰島留學專題",
+              "url": "/zh/countries/iceland/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "travel",
+          "title": "短期居留制度更新",
+          "summary": "2026 年 5 月官方宣布撤銷原長期簽證條文，改設短期居留許可制度。",
+          "conditions": "舊版遠端工作長期簽證攻略不宜直接沿用；需查新制細則及個人適用性。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://island.is/en/o/directorate-of-immigration/news/visa-services-transferred-to-the-ministry-for-foreign-affairs",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costa-rica",
+      "name": "哥斯大黎加",
+      "en": "Costa Rica",
+      "mapId": "188",
+      "coord": [
+        -84.0,
+        10.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Remote Workers and Service Providers",
+          "summary": "依遠端工作者及服務提供者停留類別申請。",
+          "conditions": "需核對境外收入、醫療保險及申請文件；不是一般打工度假。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.visitcostarica.com/procedure",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "巴西",
+      "en": "Brazil",
+      "mapId": "076",
+      "coord": [
+        -52.0,
+        -13.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "聖保羅大學的國際交流與留學資料。",
+          "links": [
+            {
+              "label": "聖保羅大學國際處",
+              "url": "https://internationaloffice.usp.br/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad · VITEM",
+          "summary": "依數位遊牧臨時簽證類別準備境外工作及財力文件。",
+          "conditions": "受理使領館與材料依居住地安排；其他旅行或退休類別不可混用。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.gov.br/mre/pt-br/consulado-nova-york/servicos-consulares/visto-visa-2/VITEM/nomad_XIV",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "name": "哥倫比亞",
+      "en": "Colombia",
+      "mapId": "170",
+      "coord": [
+        -74.0,
+        4.0
+      ],
+      "region": "americas",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Visa V · Nómadas Digitales",
+          "summary": "為境外公司提供遠端服務者可查 V 類數位遊牧簽證。",
+          "conditions": "須先確認護照適用範圍及境外工作條件；不是當地受僱簽證。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.cancilleria.gov.co/node/26950",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barbados",
+      "name": "巴貝多",
+      "en": "Barbados",
+      "mapId": "052",
+      "coord": [
+        -59.5,
+        13.2
+      ],
+      "region": "caribbean",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Welcome Stamp",
+          "summary": "以境外遠端工作為基礎安排海島停留。",
+          "conditions": "需符合 Welcome Stamp 的收入、職業及保險要求；申請費另計。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antigua-barbuda",
+      "name": "安地卡及巴布達",
+      "en": "Antigua and Barbuda",
+      "mapId": "028",
+      "coord": [
+        -61.8,
+        17.0
+      ],
+      "region": "caribbean",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Nomad Digital Residence",
+          "summary": "為境外受僱的非本國人士及符合條件家屬提供遠端工作旅居。",
+          "conditions": "核對職業、收入及醫療保險；不是當地就業招募計劃。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://nomad.gov.ag/ui/faq.php",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mauritius",
+      "name": "模里西斯",
+      "en": "Mauritius",
+      "mapId": "480",
+      "coord": [
+        57.5,
+        -20.0
+      ],
+      "region": "africa",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Premium Visa",
+          "summary": "可用於符合條件的長期旅居及境外遠端工作。",
+          "conditions": "主要業務與收入來源需在境外，不能藉此進入當地勞動市場。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://edbmauritius.org/wp-content/uploads/2023/12/FAQs-Premium-Visa.pdf",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "namibia",
+      "name": "納米比亞",
+      "en": "Namibia",
+      "mapId": "516",
+      "coord": [
+        17.0,
+        -22.0
+      ],
+      "region": "africa",
+      "routes": [
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Digital Nomad Visa",
+          "summary": "官方簽證指南列有數位遊牧類別及 NIPDB 申請入口。",
+          "conditions": "核對財力、遠端工作、保險及當期受理程序。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://mha.gov.na/documents/292728/5839021/VISA%2Band%2BPERMITS%2BFAQ.pdf/3005c430-1833-f89a-a6b6-5bd8fa88fe5f?t=1741020997482",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-africa",
+      "name": "南非",
+      "en": "South Africa",
+      "mapId": "710",
+      "coord": [
+        25.0,
+        -29.0
+      ],
+      "region": "africa",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "高等教育入學與國際學生登記資料。",
+          "links": [
+            {
+              "label": "南非政府入學指南",
+              "url": "https://www.gov.za/services/services-residents/education-and-training/tertiary-education/register-tertiary-institution",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "work-0",
+          "type": "work",
+          "title": "Remote Work Visitor’s Visa",
+          "summary": "以境外僱主合約為基礎申請遠端工作訪客簽證。",
+          "conditions": "需核對收入、合約及稅務登記要求；當地就業需另查相應許可。",
+          "links": [
+            {
+              "label": "官方計劃資料",
+              "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
+              "official": true
+            },
+            {
+              "label": "OTC 打工度假聯盟",
+              "url": "/zh/work-travel-alliance/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "新加坡",
+      "en": "Singapore",
+      "mapId": "702",
+      "coord": [
+        103.8,
+        1.3
+      ],
+      "region": "asia",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "大學招生、國際學校與短期學習。",
+          "links": [
+            {
+              "label": "新加坡國立大學招生",
+              "url": "https://www.nus.edu.sg/oam",
+              "official": true
+            },
+            {
+              "label": "新加坡私校",
+              "url": "/zh/private-school-alliance/singapore/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "immigrate",
+          "type": "immigrate",
+          "title": "移民與居留",
+          "summary": "查閱 OTC 國別居留資料、適用路線及官方來源。資格與費用請按具體計劃確認。",
+          "links": [
+            {
+              "label": "新加坡移民與居留",
+              "url": "/zh/immigration-alliance/singapore/",
+              "official": false
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "希臘",
+      "en": "Greece",
+      "mapId": "300",
+      "coord": [
+        23.0,
+        39.0
+      ],
+      "region": "europe",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "授課語言、申請材料、學費與簽證生活。",
+          "links": [
+            {
+              "label": "希臘留學",
+              "url": "/zh/countries/greece/",
+              "official": false
+            },
+            {
+              "label": "Study in Greece 官方",
+              "url": "https://studyingreece.edu.gr/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "埃及",
+      "en": "Egypt",
+      "mapId": "818",
+      "coord": [
+        30.0,
+        27.0
+      ],
+      "region": "africa",
+      "routes": [
+        {
+          "id": "study",
+          "type": "study",
+          "title": "留學與院校申請",
+          "summary": "國際學生申請入口。",
+          "links": [
+            {
+              "label": "Study in Egypt 官方",
+              "url": "https://admission.study-in-egypt.gov.eg/",
+              "official": true
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "type": "travel",
+          "title": "旅行規劃",
+          "summary": "行程、交通與住宿規劃。是否需要簽證及入境條件，須按護照、居留身份和出發日期另行核實。",
+          "links": [
+            {
+              "label": "OTC 旅行服務",
+              "url": "/zh/services/travel-services/",
+              "official": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceNote": "整合 OTC 既有國別留學與打工度假資料；整合日期不代表逐項政策已重新核實。請開啟官方來源確認當期資格、費用及受理安排。",
+  "jobs": [
+    {
+      "name": "英國 · Find a job",
+      "url": "https://findajob.dwp.gov.uk/"
+    },
+    {
+      "name": "加拿大 · Job Bank",
+      "url": "https://www.jobbank.gc.ca/"
+    },
+    {
+      "name": "歐洲 · EURES",
+      "url": "https://eures.europa.eu/"
+    },
+    {
+      "name": "澳洲 · Workforce Australia",
+      "url": "https://www.workforceaustralia.gov.au/"
+    },
+    {
+      "name": "德國 · Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/working-in-germany/job-listings"
+    }
+  ]
+}
