@@ -846,5 +846,38 @@
    "軍校背景",
    "寒轉時程"
   ]
+ },
+ {
+  "route": "/zh/services/japan-sgu-planning/",
+  "slug": "japan-sgu-planning",
+  "head": "日本SGU",
+  "en": "Japan English-taught Degrees",
+  "items": [
+   "英授學位",
+   "費用預算",
+   "選校申請"
+  ]
+ },
+ {
+  "route": "/zh/france-study-work-settlement-support/",
+  "slug": "france-study-work-settlement",
+  "head": "法國就業",
+  "en": "France Study, Work & Residence",
+  "items": [
+   "留學申請",
+   "工讀學徒",
+   "工作居留"
+  ]
+ },
+ {
+  "route": "/zh/countries/south-korea/",
+  "slug": "south-korea-study",
+  "head": "韓國留學",
+  "en": "Study in South Korea",
+  "items": [
+   "本科插班",
+   "碩士交換",
+   "中小學"
+  ]
  }
 ]

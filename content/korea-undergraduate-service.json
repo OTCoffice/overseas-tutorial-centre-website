@@ -11,13 +11,17 @@
   "socialTitleZh": "韓國本科",
   "bodyFormat": "card-directory",
   "name": "韓國本科",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "directory": {
     "title": "韓國本科",
     "tabs": [
       {
         "id": "overview",
         "label": "入學選擇"
+      },
+      {
+        "id": "transfer",
+        "label": "插班申請"
       },
       {
         "id": "language",
@@ -40,7 +44,7 @@
         "label": "申請服務"
       }
     ],
-    "searchPlaceholder": "搜尋插班、TOPIK、預錄取",
+    "searchPlaceholder": "搜尋插班、學分、TOPIK",
     "tipLabel": "語言路線",
     "tip": "免 TOPIK 不等於免語言；有條件錄取須另查正式入學、補件期限及簽證條件。",
     "groupTitle": "全部要點",
@@ -58,14 +62,45 @@
       },
       {
         "id": "undergrad-2",
-        "tab": "overview",
-        "region": "入學選擇",
+        "tab": "transfer",
+        "region": "插班申請",
         "title": "插班入學",
-        "desc": "<p>專科畢業或本科在讀者可查插班，但錄取年級、已修年限、學分及原專業限制依校而異。錄取不等於全部學分獲認可，須另查轉入後必修與預計畢業時間；不能一概承諾專升本一年完成。</p>",
+        "wide": true,
+        "desc": "<p>插班（편입，學士編入）按已讀年限和學分決定入讀年級。以下為常見條件，各校、各學系的年級與學分要求不同，以當期簡章為準。</p><table><thead><tr><th>目前學歷</th><th>常見可申請</th></tr></thead><tbody><tr><td>四年制大學讀滿 1 年（2 學期），修滿畢業學分約 25%</td><td>大二</td></tr><tr><td>四年制大學讀滿 2 年（4 學期），修滿畢業學分約 50%</td><td>大三</td></tr><tr><td>專科（2–3 年制）畢業或應屆畢業</td><td>大三；部分學校只收大二</td></tr><tr><td>三年制專科畢業，或四年制讀滿 3 年</td><td>大四（少數學校）</td></tr><tr><td>已取得學士學位</td><td>學士編入（另讀第二學位）</td></tr></tbody></table><p>部分學校對「本人外國籍」與「本人及父母均為外國籍」設不同條件，例如高麗大學外國人插班簡章。季節學期一般不計入學期數。</p>",
         "primary": {
-          "label": "插班範例 →",
+          "label": "高麗簡章 →",
+          "href": "https://siae.korea.ac.kr/bbs/siae/538/166142/download.do"
+        },
+        "secondary": {
+          "label": "光云簡章 →",
           "href": "https://oia.kw.ac.kr/admission/download2/202602_KWU_Admission_Guide_CN.pdf"
         }
+      },
+      {
+        "id": "transfer-credit",
+        "tab": "transfer",
+        "region": "插班申請",
+        "title": "學分轉換",
+        "desc": "<p>錄取年級不等於全部學分獲承認。入學後學校逐科認定學分，跨專業申請常要補修專業必修，畢業時間可能延長。申請前請準備課程大綱和成績單，先問清可轉學分、轉入後必修及預計畢業學期。</p>"
+      },
+      {
+        "id": "transfer-language",
+        "tab": "transfer",
+        "region": "插班申請",
+        "title": "插班語言",
+        "desc": "<p>韓語授課學系多要求 TOPIK 3 級以上；護理、物理治療等學系常要求 4 級，幼兒教育可高至 5 級。部分學校接受校內韓語考試或指定語學院結業代替。英語授課學系另看 TOEFL、IELTS 等成績。</p>",
+        "primary": {
+          "label": "三育例子 →",
+          "href": "https://iie.syu.ac.kr/admission/undergraduate"
+        }
+      },
+      {
+        "id": "transfer-docs",
+        "tab": "transfer",
+        "region": "插班申請",
+        "title": "插班材料",
+        "desc": "<ul><li>高中及大學／專科畢業證或在讀、修業證明</li><li>全部成績單及學分證明，按簽發地辦海牙認證或領事認證</li><li>護照、本人及父母國籍與關係證明（按校要求）</li><li>TOPIK 或英語成績</li><li>存款證明，金額按校，例如有學校要求 2,000 萬韓元以上</li><li>自我介紹、學習計劃，部分學校另要肺結核檢查</li></ul>",
+        "wide": false
       },
       {
         "id": "undergrad-3",
@@ -247,6 +282,6 @@
         "desc": "<p><a href=\"/zh/services/korea-masters-application/\">韓國碩士</a> · <a href=\"/zh/services/korea-exchange-support/\">韓國交換</a> · <a href=\"/zh/services/art-portfolio-coaching/\">作品輔導</a></p>"
       }
     ],
-    "footer": "<span id=\"section-8\"></span>資料核對：2026 年 11 月 26 日。各校招生、費用及簽證以當期官方公告為準；結果由院校及主管機關審定。<a href=\"/zh/countries/south-korea/\">韓國留學</a> · <a href=\"/apps/korean-self-study/\">韓語自學</a>。"
+    "footer": "<span id=\"section-8\"></span>資料核對：2026 年 11 月 27 日。各校招生、費用及簽證以當期官方公告為準；結果由院校及主管機關審定。<a href=\"/zh/countries/south-korea/\">韓國留學</a> · <a href=\"/apps/korean-self-study/\">韓語自學</a>。"
   }
 }

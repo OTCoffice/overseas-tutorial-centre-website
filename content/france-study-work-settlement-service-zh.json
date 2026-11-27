@@ -3,15 +3,15 @@
   "path": "/zh/france-study-work-settlement-support/",
   "title": "法國留學申請・就業與生活｜海外督導 OTC",
   "titleZh": "法國留學申請・就業與生活｜海外督導 OTC",
-  "summary": "法國留學與學徒制（Alternance）諮詢：課程、海外學生資格、工讀安排、薪資、申請材料及費用，並提供求職與抵法生活準備。",
-  "summaryZh": "法國留學與學徒制（Alternance）諮詢：課程、海外學生資格、工讀安排、薪資、申請材料及費用，並提供求職與抵法生活準備。",
+  "summary": "法國留學、學徒制（Alternance）與工作居留諮詢：課程、工讀安排、申請材料、學生轉工作居留類別、費用，並提供求職與抵法生活準備。",
+  "summaryZh": "法國留學、學徒制（Alternance）與工作居留諮詢：課程、工讀安排、申請材料、學生轉工作居留類別、費用，並提供求職與抵法生活準備。",
   "socialTitleZh": "法國升學・就業・定居陪跑",
-  "shareImageZh": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
-  "shareImage": "/assets/social/france-study-work-settlement-service-zh-20260916-v1.png",
-  "socialImageVersion": "v=20260916-france-service-zh-1",
+  "shareImageZh": "/assets/social/france-study-work-settlement-share-20261127.png",
+  "shareImage": "/assets/social/france-study-work-settlement-share-20261127.png",
+  "socialImageVersion": "v=20261127-us-style",
   "socialImageWidth": 1200,
-  "socialImageHeight": 630,
-  "updated": "2026-11-17",
+  "socialImageHeight": 600,
+  "updated": "2026-11-27",
   "sections": [
     {
       "id": "programmes",
@@ -25,7 +25,7 @@
     },
     {
       "id": "alternance-catalogue",
-      "title": "Alternance 碩士項目",
+      "title": "工讀碩士",
       "html": ""
     },
     {
@@ -37,6 +37,11 @@
       "id": "materials",
       "title": "申請材料",
       "html": "<p>一般需準備成績單、畢業或在讀證明、履歷、動機信及語言證明。推薦信、作品集、研究計畫與文件翻譯要求依課程而定；申請時再按院校清單準備身分文件。</p><p>尚未畢業或尚未取得語言成績者，先確認可接受的替代文件和最遲補交日期。初次諮詢只需提供學歷、成績概況、目標專業、語言程度、入學年份與預算。</p>"
+    },
+    {
+      "id": "work-residence",
+      "title": "工作居留",
+      "html": "<p>在法國工作，先看目前持有的居留類別。學生、畢業求職、受僱與自僱的條件不同；轉換類別一般須在現有居留到期前，經內政部 ANEF 網站線上申請。</p><div class=\"table-wrap\"><table><thead><tr><th>類別</th><th>適用情況</th><th>主要條件</th></tr></thead><tbody><tr><td>學生居留</td><td>在學期間打工</td><td>每年最多 964 小時（約每週 20 小時）；不能以受僱身分正式聘用，也不能登記自僱</td></tr><tr><td>求職／創業居留（APS、RECE）</td><td>在法國取得碩士等學位後找工作或創業</td><td>一般為一年；找到工作後再轉工作居留</td></tr><tr><td>受僱（salarié）</td><td>法國雇主聘用</td><td>雇主一般須先取得工作許可</td></tr><tr><td>Talent 合格受僱</td><td>碩士或同等學歷的專業職位</td><td>年薪總額不低於 39,582 歐元（2026）</td></tr><tr><td>歐盟藍卡</td><td>高技能職位</td><td>年薪總額不低於 59,373 歐元（2026）</td></tr><tr><td>自僱、接案（entrepreneur／profession libérale）</td><td>自行開業或接案</td><td>須證明業務可行，收入足以維持生活</td></tr></tbody></table></div><h3>找代辦還是律師</h3><p>資料齊全、單純續期或送件，可自行申請或請代辦整理文件。曾被拒、居留已過期、要轉換身分，或涉及勞動合約與稅務問題，建議諮詢法國移民律師。OTC 可了解你目前的居留與工作安排，整理所需文件清單；需要法律意見時轉介合資格律師。</p>"
     }
   ],
   "costRows": [
@@ -89,6 +94,15 @@
     [
       "學徒及職業培訓合約：居留年限與例外",
       "https://code.travail.gouv.fr/code-du-travail/r5221-7"
+    ],
+    [
+      "外籍人士居留與工作（法國公共服務網）",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/N19804"
+    ],
+    [
+      "居留線上申請 ANEF",
+      "https://administration-etrangers-en-france.interieur.gouv.fr/"
     ]
-  ]
+  ],
+  "socialImageSource": "share-only"
 }

@@ -1,0 +1,23 @@
+{
+  "title": "韓國留學",
+  "subtitle": "按學段與目的選擇：本科新生與插班、碩士、交換、護理、語學院、冬校及中小學。",
+  "tabs": [
+    {"id": "degree", "label": "大學學位"},
+    {"id": "short", "label": "語言短期"},
+    {"id": "school", "label": "中小學"}
+  ],
+  "searchPlaceholder": "搜尋插班、碩士、語學院",
+  "tipLabel": "插班",
+  "tip": "專科畢業或大學在讀，可查插班入讀大二至大四；年級、學分與 TOPIK 要求見<a href=\"/zh/services/korea-undergraduate-application/#undergrad-2\">韓國本科</a>。",
+  "groupTitle": "全部入口",
+  "cards": [
+    {"id": "entry-undergraduate", "tab": "degree", "region": "大學學位", "badge": "本科", "title": "韓國本科", "chips": ["新生", "插班", "TOPIK"], "desc": "<p>新生入學與插班（學士編入）：可插年級、學分轉換、語言要求、申請材料、學費及獎學金。</p>", "primary": {"label": "韓國本科 →", "href": "/zh/services/korea-undergraduate-application/"}, "secondary": {"label": "插班條件", "href": "/zh/services/korea-undergraduate-application/#undergrad-2"}},
+    {"id": "entry-masters", "tab": "degree", "region": "大學學位", "badge": "碩士", "title": "韓國碩士", "desc": "<p>選校、研究計劃、韓語或英語授課要求、申請時程與費用。</p>", "primary": {"label": "韓國碩士 →", "href": "/zh/services/korea-masters-application/"}},
+    {"id": "entry-exchange", "tab": "degree", "region": "大學學位", "badge": "交換", "title": "韓國交換", "desc": "<p>經母校提名的交換生及自費訪問學生：選課、學分與申請安排。</p>", "primary": {"label": "韓國交換 →", "href": "/zh/services/korea-exchange-support/"}},
+    {"id": "entry-nursing", "tab": "degree", "region": "大學學位", "badge": "護理", "title": "韓國護理", "desc": "<p>護理學系入學要求、韓語門檻、實習與執照考試資料。</p>", "primary": {"label": "韓國護理 →", "href": "/zh/nursing/south-korea/"}},
+    {"id": "entry-language", "tab": "short", "region": "語言短期", "badge": "語言", "title": "韓國語校", "desc": "<p>大學附設語學院：學期、學費、入學材料與升讀學位的銜接。</p>", "primary": {"label": "韓國語校 →", "href": "/zh/language-school-alliance/south-korea/"}},
+    {"id": "entry-winter", "tab": "short", "region": "語言短期", "badge": "短期", "title": "韓國冬校", "desc": "<p>寒假短期課程與營隊：日期、費用與報名條件。</p>", "primary": {"label": "韓國冬校 →", "href": "/zh/summer-school-alliance/south-korea/"}},
+    {"id": "entry-schools", "tab": "school", "region": "中小學", "badge": "K-12", "title": "中小學", "desc": "<p>按地區查閱小學、初中及高中：入學資格、插班年級與校方招生資料。</p>", "primary": {"label": "學校名單", "href": "#korea-schools"}, "secondary": {"label": "服務費用", "href": "#korea-apply"}},
+    {"id": "entry-universities", "tab": "degree", "region": "大學學位", "badge": "院校", "title": "大專院校", "desc": "<p>按地區查閱韓國大學簡介，配合本科、碩士頁面選校。</p>", "primary": {"label": "院校名單", "href": "#korea-universities"}}
+  ]
+}
