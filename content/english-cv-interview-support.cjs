@@ -16,6 +16,6 @@ module.exports = () => {
   const start = html.indexOf('<section><h2 id="topic-0">'), end = html.indexOf('<section><h2 id="topic-4">');
   if (start < 0 || end < 0) throw Error('topic markers changed');
   const intro = `<section class="cv-intro"><h2>先看定位</h2><p>${a.intro}</p></section>`;
-  const css = `<style>.cd .cd-fee-table{overflow-x:auto}.cd .cd-fee-table table{min-width:480px}.cd .cd-fee-table caption{text-align:left;font-weight:700;margin-bottom:8px}.cd .cd-fee-table td:nth-child(2),.cd .cd-fee-table td:last-child{white-space:nowrap}</style>`;
+  const css = `<style>.cd .cd-fee-table{overflow-x:auto}.cd .cd-fee-table .btn{white-space:nowrap!important;padding:8px;min-width:3.5em}.cd .cd-fee-table caption{text-align:left;font-weight:700;margin-bottom:8px}.cd .cd-fee-table td:nth-child(2),.cd .cd-fee-table td:last-child{white-space:nowrap}</style>`;
   return (html.slice(0, start) + intro + dir + html.slice(end)).replace("</head>", css + "</head>");
 };
