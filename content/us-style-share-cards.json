@@ -926,5 +926,16 @@
   "15學分語言規劃",
   "畢業居留條件"
  ]
+},
+{
+ "route": "/zh/services/academic-appeal-support/",
+ "slug": "academic-appeal-support",
+ "head": "掛科申訴",
+ "en": "Academic Appeal Support",
+ "items": [
+  "院校規則與期限",
+  "證據與陳述整理",
+  "服務流程與費用"
+ ]
 }
 ]

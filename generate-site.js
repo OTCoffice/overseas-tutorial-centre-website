@@ -148,3 +148,6 @@ require("child_process").execFileSync(process.execPath,["scripts/render-herald.c
 
 // Preserve the source-backed Finland admissions and graduate residence guide.
 require("./scripts/render-finland-study.cjs");
+
+// Preserve academic appeal support and directory entries.
+require('./scripts/render-academic-appeal-service.cjs');

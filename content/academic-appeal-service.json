@@ -1,0 +1,151 @@
+{
+  "slug": "academic-appeal-support",
+  "path": "/zh/services/academic-appeal-support/",
+  "name": "掛科申訴",
+  "titleZh": "掛科申訴｜成績覆核、學業申訴、材料與流程｜海外督導雙語世界",
+  "summaryZh": "掛科與學業申訴支援：核對院校規則、期限及證據，整理陳述、覆核與學籍通知；了解服務流程、書面報價及結果限制。",
+  "shareImageZh": "/assets/social/academic-appeal-support-share-20261127.png",
+  "socialImageVersion": "v=20261127-1",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "socialTitleZh": "掛科申訴",
+  "bodyFormat": "card-directory",
+  "updated": "2026-11-27",
+  "directory": {
+    "title": "掛科申訴",
+    "tabs": [
+      {
+        "id": "scope",
+        "label": "申訴範圍"
+      },
+      {
+        "id": "prepare",
+        "label": "材料準備"
+      },
+      {
+        "id": "service",
+        "label": "服務安排"
+      },
+      {
+        "id": "faq",
+        "label": "常見問題"
+      }
+    ],
+    "searchPlaceholder": "搜尋改分、補考、材料、費用",
+    "tipLabel": "先看期限",
+    "tip": "按院校通知確認適用程序及截止時間，再整理理由與證據。",
+    "groupTitle": "服務要點",
+    "cards": [
+      {
+        "tab": "scope",
+        "title": "申訴依據",
+        "desc": "掛科不代表一定可以改分。先查院校接受的理由：例如評核程序出錯、合理的偏見疑慮，或符合規定但未被考慮的重要情況。理由須對應證據，不能只以「差幾分」或「不想重修」代替。",
+        "region": "申訴範圍"
+      },
+      {
+        "tab": "scope",
+        "title": "成績覆核",
+        "desc": "若懷疑漏算分數、成績錄入或評分程序有誤，先確認成績查核、重新評分與正式申訴是否屬不同程序。不是每項評核都可重評；結果及可能影響須按校規確認。",
+        "region": "申訴範圍"
+      },
+      {
+        "tab": "scope",
+        "title": "特殊情況",
+        "desc": "疾病或其他重大事件影響考試、作業時，可查特殊情況、延期或補考申請。若已出成績，另核對能否補交、為何未及時申報，以及所需同期證據；不補造理由或證明。",
+        "region": "申訴範圍"
+      },
+      {
+        "tab": "scope",
+        "title": "學籍處分",
+        "desc": "限期改善、停學、退學及學術不端通知，可能有各自的回應或申訴程序。先辨認通知類型及所處階段；學業成績申訴不能直接替代紀律程序或簽證處理。",
+        "region": "申訴範圍"
+      },
+      {
+        "tab": "prepare",
+        "title": "通知期限",
+        "desc": "保留決定通知、成績公布日期、申訴入口及截止時間（包括時區）。收到通知便查校規，不等顧問回覆才處理；如需延期，按校方程序申請，未獲確認不能假定已延長。",
+        "region": "材料準備"
+      },
+      {
+        "tab": "prepare",
+        "title": "申訴材料",
+        "desc": "準備評核要求、評分準則、成績與回饋、相關往來、事件時間線及可核驗的證明。每份材料對應一項理由，保留原始版本、提交版本和回執；只提交程序所需內容。",
+        "region": "材料準備"
+      },
+      {
+        "tab": "prepare",
+        "title": "申訴目標",
+        "desc": "說明希望校方重新考慮哪項決定，例如按規則重審特殊情況、重新安排評核或檢查程序。獲受理、獲准覆核、改分與保留學籍是不同結果，不預設申訴成立便直接及格。",
+        "region": "材料準備"
+      },
+      {
+        "tab": "service",
+        "title": "服務內容",
+        "desc": "海外督導雙語世界學生服務部協助閱讀院校規則、整理理由與證據、編修中英文事實陳述、準備會面及跟進書面通知。按委託確認交付文件、修改次數和服務期間；是否接受第三方協助或陪同，依校規確認。",
+        "region": "服務安排"
+      },
+      {
+        "tab": "service",
+        "title": "服務流程",
+        "desc": "<ol><li>了解國家、院校、通知類型和截止日。</li><li>確認可承接範圍、報價及完成時間。</li><li>確認委託並付款後，詳細審閱文件及整理陳述。</li><li>由學生核實事實，按校方渠道提交並保留回執。</li><li>檢視答覆，說明已完成工作及下一步。</li></ol>",
+        "region": "服務安排",
+        "wide": true
+      },
+      {
+        "tab": "service",
+        "title": "服務費用",
+        "desc": "<table><thead><tr><th>項目</th><th>安排</th></tr></thead><tbody><tr><td>基本諮詢</td><td>先了解需求及概括說明可協助範圍，不含詳細審稿或完整方案。</td></tr><tr><td>正式服務</td><td>按案件階段、文件、期限及交付範圍書面報價；確認及付款後開始詳細審閱，列明修改次數、取消與退款條件。</td></tr><tr><td>另付費用</td><td>院校適用收費、認證翻譯、醫療證明及獨立法律或移民專業服務另計。</td></tr></tbody></table>",
+        "region": "服務安排",
+        "wide": true
+      },
+      {
+        "tab": "service",
+        "title": "服務界限",
+        "desc": "OTC 提供教育事務與文件支援，不代替院校裁定，不保證改分、補考、撤銷處分、畢業或保留學籍。學生須核實並對所交事實負責；不偽造證據、不冒充學生，法律及受監管的移民意見另由合資格人士提供。",
+        "region": "服務安排"
+      },
+      {
+        "tab": "faq",
+        "title": "機構作用",
+        "desc": "外部支援的價值在於讀規則、整理證據和清楚表達，不能靠機構名氣或模板改變校規。可先向學校學生支援部或學生會查詢校內建議及可用協助，再決定是否委託。",
+        "region": "常見問題"
+      },
+      {
+        "tab": "faq",
+        "title": "英國例子",
+        "desc": "英格蘭及威爾斯 OIA 的指引列出程序問題、偏見及有合理理由未及時提出的重要情況等依據；多數院校不接受單純挑戰學術評分判斷。這是指引，仍須讀所在院校及所屬程序的規則。",
+        "region": "常見問題",
+        "primary": {
+          "label": "官方指引",
+          "href": "https://www.oiahe.org.uk/resources-and-publications/good-practice-framework/handling-complaints-and-academic-appeals/what-is-an-academic-appeal/"
+        }
+      },
+      {
+        "tab": "faq",
+        "title": "澳洲例子",
+        "desc": "悉尼大學將一般學業申訴分為非正式處理、學院覆核及上訴等階段，並明言申訴不自動帶來重評，也不是議價加分。不同決定可能有例外，不能把該校流程或期限套用到所有澳洲院校。",
+        "region": "常見問題",
+        "primary": {
+          "label": "院校規則",
+          "href": "https://www.sydney.edu.au/students/results/academic-appeals.html"
+        }
+      },
+      {
+        "tab": "service",
+        "title": "開始諮詢",
+        "desc": "先說明所在國家與院校、通知內容、收到日期與截止日、目前程序及希望結果。首次毋須傳全名、學號、護照或醫療細節；需要文件時先確認用途及傳送方式，可遮去無關個資。",
+        "region": "服務安排",
+        "primary": {
+          "label": "預約諮詢",
+          "href": "https://wa.me/447947991572?text=%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%E6%8E%9B%E7%A7%91%E7%94%B3%E8%A8%B4%E6%94%AF%E6%8F%B4"
+        },
+        "secondary": {
+          "label": "相關服務",
+          "href": "/zh/teaching/"
+        }
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 27 日。英國與澳洲例子只作程序說明；其他國家及院校須另查當期規則。"
+  }
+}

@@ -95,6 +95,7 @@ const groups=[
   ]],
   ["learning","課程求職","課程輔導、職業資格、實習及海外求職。",[
     ["tuition","學術輔導",[
+      ["掛科申訴","/zh/services/academic-appeal-support/","校規與期限、申訴材料、事實陳述及學籍通知支援。"],
       ["課程教學","/zh/teaching/","按課程體系與學習需要查閱教學服務。"],
       ["AL評估","/zh/services/a-level-predicted-grade-assessment/","預估成績材料、學習證據與自修考生支援。"],
       ["商業英語","/zh/services/business-english-study-support/","每週學習計劃、商業寫作與簡報練習。"],
