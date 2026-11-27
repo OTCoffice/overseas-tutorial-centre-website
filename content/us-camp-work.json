@@ -1,0 +1,142 @@
+{
+  "path": "/zh/services/us-camp-work/",
+  "name": "營地工作",
+  "titleZh": "美國營地工作｜Camp Counselor、Support Staff、CampStaffUSA 與 United Studies｜海外督導雙語世界",
+  "summaryZh": "比較營地輔導員與後勤崗位、申請資格、機構角色、費用退款及行前安排。",
+  "shareImageZh": "/assets/social/us-camp-work-share-20261127.png",
+  "socialImageVersion": "v=20261127-cards",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "營地工作",
+    "subtitle": "比較營地輔導員與後勤崗位、申請資格、機構角色、費用退款及行前安排。",
+    "tabs": [
+      {
+        "id": "roles",
+        "label": "崗位"
+      },
+      {
+        "id": "eligibility",
+        "label": "資格"
+      },
+      {
+        "id": "orgs",
+        "label": "機構"
+      },
+      {
+        "id": "fees",
+        "label": "費用"
+      },
+      {
+        "id": "apply",
+        "label": "申請"
+      },
+      {
+        "id": "support",
+        "label": "支援"
+      }
+    ],
+    "tip": "營地帶隊與後勤屬不同交流安排；先按實際崗位確認資格及 sponsor。本頁提供獨立申請支援，並非營地或 sponsor 招生保證。",
+    "tipLabel": "項目說明",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "tab": "roles",
+        "title": "營地帶隊",
+        "desc": "<p>Camp Counselor 以照顧營員、帶領活動及文化交流為主。按營地安排可能帶領體育、藝術、戶外或其他專長活動，也可能與營員同住。先了解服務年齡、值班責任、培訓及休息安排。</p><p>這是有兒童照顧責任的工作，不等於報名參加旅遊夏令營。</p>",
+        "id": "counselor"
+      },
+      {
+        "tab": "roles",
+        "title": "後勤崗位",
+        "desc": "<p>Support Staff 可涉及廚房、餐飲、清潔等營運工作。CampStaffUSA 說明國際後勤人員使用 Summer Work Travel 類別；不能用 Camp Counselor 名義安排主要為廚房或清潔的職位。</p><p>按實際職責、資格及 sponsor 核對類別，再比較工作時段和待遇。</p>",
+        "primary": {
+          "label": "美國SWT",
+          "href": "/zh/us-swt-work-travel-support/"
+        }
+      },
+      {
+        "tab": "eligibility",
+        "title": "帶隊資格",
+        "desc": "<p>美國國務院列明 Camp Counselor 申請人須年滿 18 歲，具備能與美國青少年交流及監督活動的英語能力，並屬高等教育學生、青年工作者、教師或具專長人士之一。各 sponsor 可另有審查要求。</p><p><a href=\"https://j1visa.state.gov/programs/camp-counselor/\">國務院資格與職責說明</a></p>"
+      },
+      {
+        "tab": "eligibility",
+        "title": "後勤資格",
+        "desc": "<p>SWT 主要面向在美國境外認可實體高等院校修讀全日制課程、已完成至少一學期的學生，並須符合英語及工作安排要求。可參與日期須配合學校假期與返校時間。</p><p><a href=\"https://j1visa.state.gov/programs/summer-work-travel/\">國務院 SWT 說明</a>。不能以營地帶隊資格代替 SWT 學籍要求。</p>"
+      },
+      {
+        "tab": "orgs",
+        "title": "機構分工",
+        "desc": "<p>報名渠道負責招募及前期協助；營地雇主安排工作與日常管理；美方 sponsor 審核交流資格、提供相關文件及項目期間支援。付款前列清每一方的法定名稱、合約責任和聯絡窗口。</p><p><a href=\"https://j1visa.state.gov/participants/how-to-apply/sponsor-search/\">國務院現行 sponsor 查詢</a>。官方列名與具體報名渠道授權、職位品質和退款保障須分別核對。</p>",
+        "id": "organizations"
+      },
+      {
+        "tab": "orgs",
+        "title": "營地招聘",
+        "desc": "<p>CampStaffUSA 協助營地招募與匹配人員，並與美方指定 sponsor 合作；其說明指接受工作後會告知實際 sponsor。單憑平台名稱不能確認某份方案由誰主辦。</p><p><a href=\"https://campstaffusa.com/participants/international-applicants/\">參加者說明</a> · <a href=\"https://campstaffusa.com/our-sponsors/\">Sponsor 說明</a></p>",
+        "chips": [
+          "CampStaffUSA"
+        ]
+      },
+      {
+        "tab": "orgs",
+        "title": "交流機構",
+        "desc": "<p>United Studies 官網列明其為 501(c)(3) 非營利、非政府機構，辦理高中交流、Camp Counselor 及 Work and Travel，並自述為美方指定 sponsor。非營利身分不等於免費、政府出資或對任何報名渠道背書。</p><p><a href=\"https://unitedstudies.org/about/\">機構介紹</a> · <a href=\"https://unitedstudies.org/employers/summer-camps/\">營地項目</a>。本頁不確認它與 CampStaffUSA 的個別合作，也不表示 OTC 為任一方授權代理。</p>",
+        "chips": [
+          "United Studies"
+        ]
+      },
+      {
+        "tab": "roles",
+        "title": "食宿生活",
+        "desc": "<p>有些營地提供工作期間食宿，但要確認是否扣費、起止日、房型、與營員同住安排、飲食需要及洗衣設施。休息日、值夜與外出規則另問清楚。</p><p>到機場後的接送、營地往返交通與結束後住宿未必包含；以具體職位及合約列出的安排為準。</p>"
+      },
+      {
+        "tab": "fees",
+        "title": "費用明細",
+        "desc": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>確認內容</th></tr></thead><tbody><tr><th>本人支出</th><td>報名／匹配、sponsor、簽證與 SEVIS、保險、體檢與背景審查、機票、交通及個人開支，逐項確認幣別、收款方與付款階段。</td></tr><tr><th>營地支出</th><td>營地向招聘方或 sponsor 支付的費用不等於申請人應繳金額，不可把雇主價目直接當本人報價。</td></tr><tr><th>薪酬待遇</th><td>確認合約週數、薪酬總額、發薪日、食宿及其他扣項；不要把預估工資直接抵扣出發前必備資金。</td></tr><tr><th>OTC服務</th><td>免費了解需求；獨立項目比較、文件整理、面試及行前準備按交付範圍、期間書面報價。未承諾崗位、簽證或固定薪酬。</td></tr></tbody></table></div><p>第三方費用按各提供方標準支付。SWT 頁面的人民幣 2,800 元及退款約定僅按其適用服務執行，不自動涵蓋 Camp Counselor；如後勤崗位屬 SWT，也須書面確認適用範圍。</p>",
+        "wide": true,
+        "id": "fees"
+      },
+      {
+        "tab": "fees",
+        "title": "取消退款",
+        "desc": "<p>付款前索取可保存條款，分別確認未匹配、本人退出、營地取消、拒簽及無法按期出發的處理：哪些可退、由誰退、扣除何項、申請期限與時間。</p><p>OTC 自有服務與第三方款項分列。延期或改配另一營地須由本人同意；不要把其他機構的退款安排當成自己的保障。</p>"
+      },
+      {
+        "tab": "apply",
+        "title": "申請材料",
+        "desc": "<p>通常按機構要求準備履歷、英文自我介紹、可工作日期、推薦人、兒童／青年工作或專長經驗。背景審查、健康表、證照及文件有效期按 sponsor 與營地要求辦理。</p><p>先確認遞交窗口與必要資料，避免把護照等個人資料傳給未確認身分的收款或招募帳號。</p>"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "desc": "<ol><li><strong>確認方向：</strong>選帶隊或後勤，核對資格、英語及可完整工作時段。</li><li><strong>比較方案：</strong>讀清營地、sponsor、職責、食宿、費用及退款條款。</li><li><strong>材料面試：</strong>按真實經歷準備活動帶領、兒童相處、團隊合作及突發情況的例子。</li><li><strong>錄用確認：</strong>保存工作合約，完成 sponsor 審核與文件；簽證按受理機關流程辦理。</li><li><strong>行前報到：</strong>核對保險、抵達交通、培訓、住宿及緊急聯絡方式。</li></ol>",
+        "wide": true,
+        "id": "process"
+      },
+      {
+        "tab": "support",
+        "title": "在美支援",
+        "desc": "<p>遇到職責、薪酬、住宿或人身安全問題，及時聯絡營地管理人與本人 sponsor，保留合約及溝通紀錄；離營或更換工作先按 sponsor 規定處理。</p><p>出發前保存 sponsor 值班及緊急聯絡方式，確認保險理賠、醫療與申訴流程。OTC 可在約定範圍內協助整理資料和溝通，不代替 sponsor 的法定責任。</p>"
+      },
+      {
+        "tab": "support",
+        "title": "開始諮詢",
+        "desc": "<p>可提供具體項目連結、報名渠道、職位說明、出發年份與可工作日期；已拿到合約或報價，可遮去個人資料後說明想確認的部分。透過頁尾聯絡招生部。</p>",
+        "id": "contact",
+        "primary": {
+          "label": "美國SWT",
+          "href": "/zh/us-swt-work-travel-support/"
+        },
+        "secondary": {
+          "label": "工遊聯盟",
+          "href": "/zh/work-travel-alliance/"
+        }
+      }
+    ],
+    "footer": "資料查閱：2026 年 11 月 27 日。歷史渠道及費用快照另標日期；資格、職位及收費以當期主辦方與書面約定為準。"
+  }
+}

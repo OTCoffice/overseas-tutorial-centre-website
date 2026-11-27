@@ -87,6 +87,7 @@ const groups=[
       ["打工度假","/zh/work-travel-alliance/","按地區查閱各國打工度假、青年流動、暑期工作交流及行前服務。"],
       ["季節工","/zh/work-travel-alliance/uk/#seasonal-workers","六家獲批營運商、招募地區、官方申請及聯絡方式。"],
       ["美國SWT","/zh/us-swt-work-travel-support/","資格、主辦機構、職位、成本、簽證面談與行前準備。"],
+      ["營地工作","/zh/services/us-camp-work/","美國營地帶隊與後勤、機構、費用及申請準備。"],
       ["互惠生","/zh/services/au-pair-support/","選國、申請材料、家庭面試與行前準備；按國家核對機構與費用。"],
       ["打工換宿","/zh/services/work-exchange-support/","換宿與雪季短工、履歷聯絡信、食宿條件及行前準備。"]
     ]]

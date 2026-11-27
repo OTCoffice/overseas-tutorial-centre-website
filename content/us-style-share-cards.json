@@ -913,5 +913,7 @@
    "就業倒推"
   ]
  },
- {"route": "/zh/services/japan-sgu/", "slug": "japan-sgu", "head": "日本SGU", "en": "English-Taught Degrees", "items": ["本科申請", "修士申請", "英文文書"]}
+ {"route": "/zh/services/japan-sgu/", "slug": "japan-sgu", "head": "日本SGU", "en": "English-Taught Degrees", "items": ["本科申請", "修士申請", "英文文書"]},
+{"route": "/zh/us-swt-work-travel-support/", "slug": "us-swt-service", "head": "美國SWT", "en": "Summer Work Travel", "items": ["申請資格", "費用退款", "行前支援"]},
+{"route": "/zh/services/us-camp-work/", "slug": "us-camp-work", "head": "營地工作", "en": "US Summer Camp Jobs", "items": ["帶隊後勤", "機構比較", "申請準備"]}
 ]

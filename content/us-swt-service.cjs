@@ -1,0 +1,3 @@
+const {pageShell}=require('../site'),frame=require('./academic-subpage.cjs'),{renderCardDirectory}=require('./card-directory.cjs');
+const a=require('./us-swt-service.json');
+module.exports=()=>{const hero=require('fs').readFileSync(require.resolve('./us-swt-hero.html'),'utf8');return pageShell({title:a.titleZh,path:a.path,lang:'zh-Hant',locale:'zh',current:'services',description:a.summaryZh,image:a.shareImageZh+'?'+a.socialImageVersion,imageWidth:1200,imageHeight:600,imageAlt:a.titleZh,bodyClass:'us-swt-service-page',body:require('./compact-academic-style.cjs')('us-swt-service-page')+hero+'<span id="swt-directory"></span>'+renderCardDirectory(a.directory)});};

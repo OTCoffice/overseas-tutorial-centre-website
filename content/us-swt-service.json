@@ -1,0 +1,142 @@
+{
+  "path": "/zh/us-swt-work-travel-support/",
+  "name": "美國SWT",
+  "titleZh": "美國 SWT 暑期工遊｜資格、主辦方、費用與營地後勤｜海外督導雙語世界",
+  "summaryZh": "比較申請資格、主辦機構、職位、費用與退款，安排面試、行前準備及同行互助。",
+  "shareImageZh": "/assets/social/us-swt-service-share-20261127.png",
+  "socialImageVersion": "v=20261127-cards",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "美國SWT",
+    "subtitle": "比較申請資格、主辦機構、職位、費用與退款，安排面試、行前準備及同行互助。",
+    "tabs": [
+      {
+        "id": "eligibility",
+        "label": "資格"
+      },
+      {
+        "id": "jobs",
+        "label": "崗位"
+      },
+      {
+        "id": "sponsors",
+        "label": "主辦方"
+      },
+      {
+        "id": "fees",
+        "label": "費用"
+      },
+      {
+        "id": "apply",
+        "label": "申請"
+      },
+      {
+        "id": "support",
+        "label": "支援"
+      }
+    ],
+    "tip": "SWT 是 J-1 暑期工作交流；營地輔導員 Camp Counselor 另有資格與職責，請由「營地工作」查看。",
+    "tipLabel": "項目說明",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "tab": "eligibility",
+        "title": "申請資格",
+        "desc": "<p>SWT 面向在美國境外認可實體高等院校修讀全日制課程、已完成至少一學期的學生，須有足夠英語溝通能力。除適用豁免情況外，入境前須落實工作安排。</p><p>參與期最長四個月，須在新學期開始前回國；實際起止日配合本人的學校假期與 sponsor 要求。</p><p><a href=\"https://j1visa.state.gov/programs/summer-work-travel/\">國務院 SWT 指引</a></p>",
+        "id": "eligibility"
+      },
+      {
+        "tab": "eligibility",
+        "title": "畢業時點",
+        "desc": "<p>最後一年學生並非一律被排除；按申請時的全日制學籍及聯邦規則，由 sponsor 核對實際資格與時間安排。已畢業後才申請者，不宜先假設仍符合 SWT。</p><p><a href=\"https://www.ecfr.gov/current/title-22/chapter-I/subchapter-G/part-62/subpart-B/section-62.32\">22 CFR §62.32</a>。SWT 與專業實習 J-1 Intern 是不同類別。</p>"
+      },
+      {
+        "tab": "jobs",
+        "title": "工作選擇",
+        "desc": "<span id=\"recommendations\"></span><p>季節性職位可涉及酒店、度假村、主題樂園、餐飲及零售。比較職責、工時、薪酬、扣款、住宿與通勤，而不只看城市或預估收入。</p><p>崗位類型不等於已開放職缺；到崗日期、最低工作週數、住房及面試安排均須取得書面確認。</p>",
+        "id": "dates-jobs"
+      },
+      {
+        "tab": "jobs",
+        "title": "營地工作",
+        "desc": "<p>營地後勤可屬 SWT；帶領營員活動的 Camp Counselor 則為另一交流類別，資格與職責不同。先釐清自己申請的是帶隊、廚房、清潔或其他工作。</p><p>營地專頁介紹 CampStaffUSA、United Studies、機構分工、食宿、費用及申請安排。</p>",
+        "primary": {
+          "label": "營地工作",
+          "href": "/zh/services/us-camp-work/"
+        },
+        "id": "camp-work"
+      },
+      {
+        "tab": "sponsors",
+        "title": "機構分工",
+        "desc": "<p>Sponsor 是負責交流資格與相關文件、項目監督的美方主辦機構；報名渠道與雇主有各自職責。要求報名方列清 sponsor 法定名稱、實際雇主、收款方與聯絡窗口。</p><p><a href=\"https://j1visa.state.gov/participants/how-to-apply/sponsor-search/\">查詢指定 sponsor</a>。歷史來源國名單、當期受理及渠道授權須分別確認。</p>"
+      },
+      {
+        "tab": "sponsors",
+        "title": "中國渠道",
+        "desc": "<p>2026 年 10 月 12 日整理的三家主辦方頁面合計列出 <strong>7 家不同的中國大陸合作渠道</strong>：CIEE 4 家、InterExchange 4 家、CHI 2 家，部分重複。這是該次查閱範圍，並非全中國合作機構總數。2027 年受理資格、職位與費用仍須向渠道取得書面確認。</p>\n<div class=\"swt-table\"><table><thead><tr><th>美方主辦機構</th><th>官方列名的中國大陸渠道</th><th>申請方式及來源</th></tr></thead><tbody>\n<tr><th>CIEE</th><td>FJ United International Cultural Exchange<br>Raising Culture<br>Shared Vision（海外實習港）<br>SunnySky International Cultural Exchange</td><td>中國已有當地代表，按代表渠道申請。<br><a href=\"https://www.ciee.org/in-the-usa/work/work-travel-usa/lets-get-started\">CIEE 官方代表名錄</a></td></tr>\n<tr><th>InterExchange</th><td>Western Exchange<br>International Exchange Center<br>Sunnysky International Cultural Exchange<br>Beijing Zhonghui Cultural Exchange</td><td>透過當地合作機構申請。<br><a href=\"https://www.interexchange.org/programs/work-travel-usa/international-staff/partner-agencies/\">InterExchange 官方合作名錄</a></td></tr>\n<tr><th>CHI</th><td>WESTERNEXCHANGE INTERNATIONAL EDUCATION L.L.C.<br>SUNNYSKY INTERNATIONAL CULTURAL EXCHANGE</td><td>透過當地合作機構申請，包括自行找到工作的申請人。<br><a href=\"https://chinet.org/work-and-travel/participants/\">CHI 官方參加者及渠道頁</a></td></tr>\n</tbody></table></div>\n\n<details><summary>其他美方主辦機構與歷史中國渠道</summary><p>美國國務院標示為 2024 的按來源國名錄中，以下 19 個 SWT 主辦機構條目曾列出 China。該頁反映歷史參與資料，不能當作 2027 年正在招收中國學生的完整名單。</p><p>CIEE；InterExchange；CHI；Greenheart；ASSE Aspire；Intrax Work/Travel；Alliance Abroad Group；American Institute for Foreign Study – Campower Program；American Work Adventures；American Work Experience；Cultural Exchange Network（CENET）；GeoVisions；Global Educational Concepts（GEC）；ICCE；International Cultural Exchange Organization（ICEO）；International Educational Exchange（IEE）；Spirit Cultural Exchange；United Studies；United Work and Travel（APEI）。</p><p><a href=\"https://j1visa.state.gov/sponsors/sponsor-by-country/?program=all\">國務院歷史來源國名錄</a> · <a href=\"https://j1visa.state.gov/participants/how-to-apply/sponsor-search/\">現行指定主辦方查詢</a></p><ul><li>Greenheart 的歷史文章提到中國合作方 EachFuture Cultural Network：<a href=\"https://greenheart.org/blog/exchange/recruiting-our-participants-in-china/\">官方文章</a>。2027 合作狀態待確認。</li><li>ASSE Aspire 的中國渠道頁列 China Service Center for Educational Exchange，條目日期為 2016 年：<a href=\"https://aspireww.com/partners-swt/\">官方渠道頁</a>。不可據此確認當期授權。</li><li>其他上述主辦方的現行中國渠道與 2027 報價，本頁尚未核實；不列為已開放報名的選項。</li></ul></details>",
+        "wide": true,
+        "id": "sponsors-china",
+        "note": "本卡渠道資料保留 2026 年 10 月 12 日查閱紀錄；2027 受理、授權及報價須重新向相關機構確認。"
+      },
+      {
+        "tab": "fees",
+        "title": "OTC費用",
+        "desc": "<p class=\"fee\">人民幣 2,800 元</p><p>OTC 收取獨立申請協助費。不論申請幾個 SWT 項目，OTC 代辦費不變，不按項目重複收費。包括項目比較、申請材料整理、面試準備及申請進度協助；具體服務期間、崗位條件及匹配截止日於付款前書面確認。</p><p><strong>退款摘要：</strong>如實提供資料並正常配合，資格不符或到約定期限未落實符合條件的崗位，OTC服務費全退；出發前雇主或項目方取消且無符合原約定的替代安排，也全退。正常拒簽至少退1,400元，未完成服務金額更高則按較高者退還，最高不超過已付金額。個人退出按實際完成服務結算。<a href=\"/zh/us-swt-refund-terms/\">完整服務及退款條款（2026年10月14日生效）</a>，付款前提供可保存副本並確認。</p><p>美方項目費、渠道要求的其他費用、簽證、機票、保險、食宿及交通另計，與 OTC 代辦費分開。套餐已包含的項目毋須重複計算。OTC 為學生提供獨立申請協助，並非下列機構列名的中國授權代理。</p>",
+        "wide": true,
+        "id": "otc-fees"
+      },
+      {
+        "tab": "fees",
+        "title": "項目費用",
+        "desc": "<p>以下為可追溯的公開金額，收費範圍不同，不能直接當作同一服務的價格排名。目前未取得三家主辦方各自對中國學生的 2027 純美方項目費報價。</p><div class=\"swt-table\"><table><thead><tr><th>項目／來源</th><th>公開金額</th><th>包含範圍與適用限制</th></tr></thead><tbody>\n<tr><th>CIEE Work &amp; Travel USA<br>中國費用披露</th><td><strong>最高 US$3,849</strong></td><td>含渠道行前支援、美方服務、保險、SEVIS 及簽證面談費等；不是純美方項目費。頁面未標為 2027 報價。機票、生活費及護照另計。<br><a href=\"https://www.ciee.org/partner/employers/summer-work-travel/fee-disclosure\">CIEE 費用披露</a></td></tr>\n<tr><th>Intrax Work Travel<br>亞洲地區估算</th><td><strong>約 US$2,000</strong></td><td>地區參考估算，實際依國家、合作方及匯率而異；不是中國學生已確認的 2027 報價。<br><a href=\"https://www.intraxworktravel.com/participants/costs-benefits\">Intrax 費用頁</a></td></tr>\n<tr><th>武昌理工學院<br>2027 校內招生通知</th><td><strong>美方項目費 US$3,500</strong><br>另收中方服務費 RMB3,000</td><td>通知未列美方 sponsor 名稱，不能歸入 CIEE、CHI 或 InterExchange。簽證及機票另列。面向該校學生。<br><a href=\"https://sie.wut.edu.cn/info/1484/7241.htm\">2026-10-10 公告</a></td></tr>\n<tr><th>安徽文達信息工程學院<br>2027 校內招生通知</th><td><strong>項目費 US$3,580</strong><br>另收報名費 RMB3,000</td><td>包含評估、簽證輔導、職位、DS-2019、保險及 SEVIS 等；未列美方 sponsor 名稱。機票、簽證、食宿與旅遊另計，面向該校學生。<br><a href=\"https://www.wenda.edu.cn/gjhzc/m/display_554.html\">2026-09-14 公告</a></td></tr>\n<tr><th>InterExchange／CHI<br>及各中國渠道</th><td>2027 報價待取得</td><td>官方渠道名錄沒有提供可確認的中國學生當期完整價目，須取得書面費用明細。</td></tr>\n</tbody></table></div><p>大學通知用於了解公開收費，不代表校外學生可報名，也不代表 OTC 能以自己的代辦費替代校方或合作渠道的費用。正式預算應逐項列出收款方、幣別、包含內容、退出與退款條件。</p>",
+        "wide": true,
+        "id": "program-fees"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "desc": "<ol><li><strong>確認資格：</strong>學籍、已修學期、畢業年月、護照、可參與時段及英語。</li><li><strong>比較方案：</strong>按 sponsor、渠道、職位、全額預算與退款條款選擇。</li><li><strong>材料面試：</strong>準備學籍資料、履歷、英文面試及各方要求的文件。</li><li><strong>確認工作：</strong>保存雇主、薪酬、食宿、交通、到崗日期與補件紀錄。</li><li><strong>赴美準備：</strong>完成 sponsor 文件及簽證程序，核對保險、入境報到與返校安排。</li></ol>",
+        "wide": true,
+        "id": "process"
+      },
+      {
+        "tab": "support",
+        "title": "報名支援",
+        "desc": "<p>已透過其他機構報名，也可按需求選擇 OTC 獨立面試、英文、文件時間表、住宿交通或行前預算協助。先了解已包含的服務，避免重複安排。</p><p>個別支援按範圍及期間另作書面報價，相關第三方費用另計；正式通知及工作變更依本人 sponsor 辦理。</p>",
+        "id": "enrolled-support"
+      },
+      {
+        "tab": "support",
+        "title": "同行互助",
+        "desc": "<p>已報名、準備出發或已抵達者，可登記目的地、月份及交流需求。小群籌備中，加入安排另行確認，沒有可直接入群的連結。</p><p>基本互助與公開資源免費；不公開登記名單，交換聯絡方式前另徵同意。毋須提交證件或銀行資料，交流不取代 sponsor 通知。</p>",
+        "id": "community",
+        "primary": {
+          "label": "意向登記",
+          "href": "https://overseasuk.notion.site/694eb937e8b44d55b602196b53432a59"
+        },
+        "secondary": {
+          "label": "行前資源",
+          "href": "https://overseasuk.notion.site/OTC-3eefd1e7e1208191b544ef79f9916020"
+        }
+      },
+      {
+        "tab": "support",
+        "title": "開始諮詢",
+        "desc": "<p>準備畢業年月、出發時段、國籍／護照、英文程度與預算；已有項目連結或報價，可說明想確認的部分。首次聯絡不用傳護照影本，透過頁尾聯絡招生部。</p>",
+        "id": "contact",
+        "primary": {
+          "label": "營地工作",
+          "href": "/zh/services/us-camp-work/"
+        },
+        "secondary": {
+          "label": "工遊聯盟",
+          "href": "/zh/work-travel-alliance/"
+        }
+      }
+    ],
+    "footer": "資料查閱：2026 年 11 月 27 日。歷史渠道及費用快照另標日期；資格、職位及收費以當期主辦方與書面約定為準。"
+  }
+}
