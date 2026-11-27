@@ -42,7 +42,301 @@
 <div id="country-search" class="transfer-search" hidden><label for="country-query">搜尋國家或地區</label><input id="country-query" type="search" placeholder="例如：葡萄牙、Portugal、PT"><p id="country-status" role="status"></p></div>
 <nav class="transfer-jump" aria-label="轉學地區"><a href="#europe">歐洲</a><a href="#north-america">北美</a><a href="#oceania">大洋洲</a><a href="#asia">亞洲</a><a href="#middle-east">中東</a><a href="#latin-america">中南美洲與加勒比</a><a href="#africa">非洲</a></nav>
 
-<section class="transfer-region" aria-labelledby="europe">
+<style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><div class="cd" id="directory">
+<div class="cd-head"><h2>國際轉學</h2><p>按七個地區查閱全球大學轉學。逐國查看轉學途徑、學分認定及官方院校與招生資料。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="overview">概況</button><button type="button" class="cd-tab" data-tab="apply">申請材料</button><input class="cd-search" type="search" placeholder="搜尋關鍵詞" aria-label="搜尋"></div>
+
+<div class="cd-grouphead">全部要點<span><span class="cd-count">4</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card cd-wide" data-tab="overview" id="north-america">
+<div class="cd-top"><span class="cd-region">國際轉學</span><span class="cd-badge">01</span></div>
+<h3>北美</h3>
+
+<div class="cd-desc"><div class="transfer-list">
+<details id="ca" data-code="CA" data-country="加拿大 Canada CA">
+<summary>加拿大 <span lang="en">Canada</span></summary>
+<dl><dt>轉學途徑</dt><dd>按省份及院校查 Transfer Admission 或 Advanced Standing，確認境外課程是否適用。</dd>
+<dt>學分認定</dt><dd>向目標校查省內轉學協議是否適用，再要求評估境外科目及可入讀年級。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.cicic.ca/868/search_the_directory_of_educational_institutions_in_canada.canada">加拿大 CICIC 院校名錄</a></li><li><a href="https://www.enic-naric.net/page-Canada">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Canada">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="mx" data-code="MX" data-country="墨西哥 Mexico MX">
+<summary>墨西哥 <span lang="en">Mexico</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認境外未修畢課程應如何申請，以及是否需先辦部分學業認定。</dd>
+<dt>學分認定</dt><dd>查校方或主管機關的 revalidación parcial 程序，確認文件及可認定科目。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.gob.mx/sep">墨西哥教育部 SEP</a></li><li><a href="https://whed.net/choisir.php?country=Mexico">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="us" data-code="US" data-country="美國 United States US">
+<summary>美國 <span lang="en">United States</span></summary>
+<dl><dt>轉學途徑</dt><dd>查目標校的 Transfer Admission，確認國際生適用的申請類別及專業先修課。</dd>
+<dt>學分認定</dt><dd>索取逐科評估，分清可計入主修的學分、選修學分及須在新校完成的學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://ope.ed.gov/dapip/">美國教育部院校及課程認證查詢</a></li><li><a href="https://www.enic-naric.net/page-USA">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=United%20States%20of%20America">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+</div></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="overview" id="oceania">
+<div class="cd-top"><span class="cd-region">國際轉學</span><span class="cd-badge">02</span></div>
+<h3>大洋洲</h3>
+
+<div class="cd-desc"><div class="transfer-list">
+<details id="au" data-code="AU" data-country="澳洲 Australia AU">
+<summary>澳洲 <span lang="en">Australia</span></summary>
+<dl><dt>轉學途徑</dt><dd>按目標校的國際生招生程序申請，先確認是否可同時申請 Credit 或 Advanced Standing。</dd>
+<dt>學分認定</dt><dd>按校方的 Credit 或 Recognition of Prior Learning 程序提交課程大綱和學習成果。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.teqsa.gov.au/national-register">澳洲 TEQSA 全國高等教育名錄</a></li><li><a href="https://www.enic-naric.net/page-Australia">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Australia">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ck" data-code="CK" data-country="庫克群島 Cook Islands CK">
+<summary>庫克群島 <span lang="en">Cook Islands</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="fj" data-code="FJ" data-country="斐濟 Fiji FJ">
+<summary>斐濟 <span lang="en">Fiji</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Fiji">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ki" data-code="KI" data-country="吉里巴斯 Kiribati KI">
+<summary>吉里巴斯 <span lang="en">Kiribati</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="mh" data-code="MH" data-country="馬紹爾群島 Marshall Islands MH">
+<summary>馬紹爾群島 <span lang="en">Marshall Islands</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="fm" data-code="FM" data-country="密克羅尼西亞聯邦 Micronesia FM">
+<summary>密克羅尼西亞聯邦 <span lang="en">Micronesia</span></summary>
+<dl><dt>轉學途徑</dt><dd>可查 College of Micronesia–FSM 的轉學生與高年級入學規定。</dd>
+<dt>學分認定</dt><dd>依該校指引提交原院校正式成績單，確認科目能否抵免。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.comfsm.fm/national/admissions.html">密克羅尼西亞學院招生</a></li></ul></dd></dl>
+</details>
+<details id="nr" data-code="NR" data-country="諾魯 Nauru NR">
+<summary>諾魯 <span lang="en">Nauru</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="nz" data-code="NZ" data-country="紐西蘭 New Zealand NZ">
+<summary>紐西蘭 <span lang="en">New Zealand</span></summary>
+<dl><dt>轉學途徑</dt><dd>確認目標校是否接受以既有大學修讀紀錄申請及可入讀階段。</dd>
+<dt>學分認定</dt><dd>查 Credit Recognition and Transfer，向校方確認已修科目可抵哪些必修或選修。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.nzqa.govt.nz/providers/index.do">紐西蘭 NZQA 院校查詢</a></li><li><a href="https://www.enic-naric.net/page-New-Zealand">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=New%20Zealand">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="nu" data-code="NU" data-country="紐埃島 Niue NU">
+<summary>紐埃島 <span lang="en">Niue</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="pw" data-code="PW" data-country="帛琉 Palau PW">
+<summary>帛琉 <span lang="en">Palau</span></summary>
+<dl><dt>轉學途徑</dt><dd>查 Palau Community College 的 Transfer Applicant 類別，並核對所選課程的授予學位。</dd>
+<dt>學分認定</dt><dd>向 Admissions &amp; Records 提交正式成績單，查課程目錄確認抵免規定。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://pcc.palau.edu/admissions/apply-pcc/">帛琉社區學院招生</a></li></ul></dd></dl>
+</details>
+<details id="pg" data-code="PG" data-country="巴布亞紐幾內亞 Papua New Guinea PG">
+<summary>巴布亞紐幾內亞 <span lang="en">Papua New Guinea</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校或所在地校區確認是否開辦所選學位，並詢問能否憑既有修讀紀錄入學。</dd>
+<dt>學分認定</dt><dd>向校方查先前學習認定或學分抵免、授課地點和剩餘修業時間。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Papua%20New%20Guinea">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ws" data-code="WS" data-country="薩摩亞 Samoa WS">
+<summary>薩摩亞 <span lang="en">Samoa</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Samoa">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="sb" data-code="SB" data-country="索羅門群島 Solomon Islands SB">
+<summary>索羅門群島 <span lang="en">Solomon Islands</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Solomon%20Islands">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="to" data-code="TO" data-country="東加 Tonga TO">
+<summary>東加 <span lang="en">Tonga</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Tonga">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="tv" data-code="TV" data-country="吐瓦魯 Tuvalu TV">
+<summary>吐瓦魯 <span lang="en">Tuvalu</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+<details id="vu" data-code="VU" data-country="萬那杜 Vanuatu VU">
+<summary>萬那杜 <span lang="en">Vanuatu</span></summary>
+<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
+<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
+</details>
+</div></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="overview" id="middle-east">
+<div class="cd-top"><span class="cd-region">國際轉學</span><span class="cd-badge">03</span></div>
+<h3>中東</h3>
+
+<div class="cd-desc"><div class="transfer-list">
+<details id="bh" data-code="BH" data-country="巴林 Bahrain BH">
+<summary>巴林 <span lang="en">Bahrain</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Bahrain">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="cy" data-code="CY" data-country="賽普勒斯 Cyprus CY">
+<summary>賽普勒斯 <span lang="en">Cyprus</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Cyprus">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Cyprus">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ir" data-code="IR" data-country="伊朗 Iran IR">
+<summary>伊朗 <span lang="en">Iran</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Iran%20(Islamic%20Republic%20of)">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="iq" data-code="IQ" data-country="伊拉克 Iraq IQ">
+<summary>伊拉克 <span lang="en">Iraq</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Iraq">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="il" data-code="IL" data-country="以色列 Israel IL">
+<summary>以色列 <span lang="en">Israel</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Israel">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Israel">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="jo" data-code="JO" data-country="約旦 Jordan JO">
+<summary>約旦 <span lang="en">Jordan</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Jordan">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="kw" data-code="KW" data-country="科威特 Kuwait KW">
+<summary>科威特 <span lang="en">Kuwait</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Kuwait">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="lb" data-code="LB" data-country="黎巴嫩 Lebanon LB">
+<summary>黎巴嫩 <span lang="en">Lebanon</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Lebanon">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="om" data-code="OM" data-country="阿曼 Oman OM">
+<summary>阿曼 <span lang="en">Oman</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Oman">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ps" data-code="PS" data-country="巴勒斯坦 Palestinian Territories PS">
+<summary>巴勒斯坦 <span lang="en">Palestinian Territories</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Palestine">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="qa" data-code="QA" data-country="卡達 Qatar QA">
+<summary>卡達 <span lang="en">Qatar</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Qatar">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="sa" data-code="SA" data-country="沙烏地阿拉伯 Saudi Arabia SA">
+<summary>沙烏地阿拉伯 <span lang="en">Saudi Arabia</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Saudi%20Arabia">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="sy" data-code="SY" data-country="敘利亞 Syria SY">
+<summary>敘利亞 <span lang="en">Syria</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Syrian%20Arab%20Republic">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="tr" data-code="TR" data-country="土耳其 Türkiye TR">
+<summary>土耳其 <span lang="en">Türkiye</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Turkiye">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=T%C3%BCrkiye">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ae" data-code="AE" data-country="阿拉伯聯合大公國 United Arab Emirates AE">
+<summary>阿拉伯聯合大公國 <span lang="en">United Arab Emirates</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=United%20Arab%20Emirates">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+<details id="ye" data-code="YE" data-country="葉門 Yemen YE">
+<summary>葉門 <span lang="en">Yemen</span></summary>
+<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
+<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
+<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Yemen">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
+</details>
+</div></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="apply" id="documents">
+<div class="cd-top"><span class="cd-region">國際轉學</span><span class="cd-badge">04</span></div>
+<h3>申請流程</h3>
+
+<div class="cd-desc"><p>如考慮留在同校更換主修、學位或學院，可查閱<a href="/zh/services/change-of-major/">轉專業與轉學院</a>，了解先修課、學分抵免及剩餘修業安排。</p>
+<ol><li>確認目標校接受的申請類別、入學年級及期限。</li><li>準備正式成績單、在讀證明、已修學分、課程大綱及考核方式，按校方要求補交翻譯或認證。</li><li>確認錄取結果、可認定的必修及選修、剩餘修業時間和費用，再安排離開原校。</li></ol>
+<h2 id="fees">免費評估與代辦</h2>
+<p>初次評估免費。符合 OTC 合作院校、課程及代辦範圍的申請可免費代辦。校方申請費、翻譯及認證等第三方費用另付。其他個案先書面確認服務內容及費用。</p>
+<p><a href="/zh/application-fees/">查看免費代辦與收費標準</a></p>
+<h2 id="contact">聯絡學生服務部</h2>
+<p>請提供目前的國家、院校、專業、年級、已修學分、希望轉入的地區及入學時間。</p>
+<p><a href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a> · 微信 overseasus</p></div>
+
+
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
+</div><script>(()=>{const r=document.querySelector('.cd');if(!r)return;let t='all';const q=r.querySelector('.cd-search'),cs=[...r.querySelectorAll('.cd-card')],e=r.querySelector('.cd-empty'),n=r.querySelector('.cd-count');function f(){const k=(q.value||'').trim().toLowerCase();let c=0;cs.forEach(x=>{const ok=(t==='all'||x.dataset.tab===t)&&(!k||x.textContent.toLowerCase().includes(k));x.style.display=ok?'':'none';if(ok)c++});e.style.display=c?'none':'block';n.textContent=c}r.querySelectorAll('.cd-tab').forEach(b=>b.onclick=()=>{r.querySelectorAll('.cd-tab').forEach(y=>y.classList.remove('on'));b.classList.add('on');t=b.dataset.tab;f()});q.oninput=f;if(location.hash){const h=r.querySelector(location.hash);if(h)h.scrollIntoView()}})();</script><script src="/assets/cd-detail.js?v=20261127" defer></script><section class="transfer-region" aria-labelledby="europe">
 <h2 id="europe">歐洲 <small>45 個查詢項目</small></h2>
 <div class="transfer-list">
 <details id="al" data-code="AL" data-country="阿爾巴尼亞 Albania AL">
@@ -316,131 +610,6 @@
 <dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Holy-See">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Holy%20See">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
 </details>
 </div></section>
-
-<section class="transfer-region" aria-labelledby="north-america">
-<h2 id="north-america">北美 <small>3 個查詢項目</small></h2>
-<div class="transfer-list">
-<details id="ca" data-code="CA" data-country="加拿大 Canada CA">
-<summary>加拿大 <span lang="en">Canada</span></summary>
-<dl><dt>轉學途徑</dt><dd>按省份及院校查 Transfer Admission 或 Advanced Standing，確認境外課程是否適用。</dd>
-<dt>學分認定</dt><dd>向目標校查省內轉學協議是否適用，再要求評估境外科目及可入讀年級。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.cicic.ca/868/search_the_directory_of_educational_institutions_in_canada.canada">加拿大 CICIC 院校名錄</a></li><li><a href="https://www.enic-naric.net/page-Canada">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Canada">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="mx" data-code="MX" data-country="墨西哥 Mexico MX">
-<summary>墨西哥 <span lang="en">Mexico</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認境外未修畢課程應如何申請，以及是否需先辦部分學業認定。</dd>
-<dt>學分認定</dt><dd>查校方或主管機關的 revalidación parcial 程序，確認文件及可認定科目。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.gob.mx/sep">墨西哥教育部 SEP</a></li><li><a href="https://whed.net/choisir.php?country=Mexico">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="us" data-code="US" data-country="美國 United States US">
-<summary>美國 <span lang="en">United States</span></summary>
-<dl><dt>轉學途徑</dt><dd>查目標校的 Transfer Admission，確認國際生適用的申請類別及專業先修課。</dd>
-<dt>學分認定</dt><dd>索取逐科評估，分清可計入主修的學分、選修學分及須在新校完成的學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://ope.ed.gov/dapip/">美國教育部院校及課程認證查詢</a></li><li><a href="https://www.enic-naric.net/page-USA">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=United%20States%20of%20America">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-</div></section>
-
-<section class="transfer-region" aria-labelledby="oceania">
-<h2 id="oceania">大洋洲 <small>16 個查詢項目</small></h2>
-<div class="transfer-list">
-<details id="au" data-code="AU" data-country="澳洲 Australia AU">
-<summary>澳洲 <span lang="en">Australia</span></summary>
-<dl><dt>轉學途徑</dt><dd>按目標校的國際生招生程序申請，先確認是否可同時申請 Credit 或 Advanced Standing。</dd>
-<dt>學分認定</dt><dd>按校方的 Credit 或 Recognition of Prior Learning 程序提交課程大綱和學習成果。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.teqsa.gov.au/national-register">澳洲 TEQSA 全國高等教育名錄</a></li><li><a href="https://www.enic-naric.net/page-Australia">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Australia">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ck" data-code="CK" data-country="庫克群島 Cook Islands CK">
-<summary>庫克群島 <span lang="en">Cook Islands</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="fj" data-code="FJ" data-country="斐濟 Fiji FJ">
-<summary>斐濟 <span lang="en">Fiji</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Fiji">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ki" data-code="KI" data-country="吉里巴斯 Kiribati KI">
-<summary>吉里巴斯 <span lang="en">Kiribati</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="mh" data-code="MH" data-country="馬紹爾群島 Marshall Islands MH">
-<summary>馬紹爾群島 <span lang="en">Marshall Islands</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="fm" data-code="FM" data-country="密克羅尼西亞聯邦 Micronesia FM">
-<summary>密克羅尼西亞聯邦 <span lang="en">Micronesia</span></summary>
-<dl><dt>轉學途徑</dt><dd>可查 College of Micronesia–FSM 的轉學生與高年級入學規定。</dd>
-<dt>學分認定</dt><dd>依該校指引提交原院校正式成績單，確認科目能否抵免。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.comfsm.fm/national/admissions.html">密克羅尼西亞學院招生</a></li></ul></dd></dl>
-</details>
-<details id="nr" data-code="NR" data-country="諾魯 Nauru NR">
-<summary>諾魯 <span lang="en">Nauru</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="nz" data-code="NZ" data-country="紐西蘭 New Zealand NZ">
-<summary>紐西蘭 <span lang="en">New Zealand</span></summary>
-<dl><dt>轉學途徑</dt><dd>確認目標校是否接受以既有大學修讀紀錄申請及可入讀階段。</dd>
-<dt>學分認定</dt><dd>查 Credit Recognition and Transfer，向校方確認已修科目可抵哪些必修或選修。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.nzqa.govt.nz/providers/index.do">紐西蘭 NZQA 院校查詢</a></li><li><a href="https://www.enic-naric.net/page-New-Zealand">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=New%20Zealand">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="nu" data-code="NU" data-country="紐埃島 Niue NU">
-<summary>紐埃島 <span lang="en">Niue</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="pw" data-code="PW" data-country="帛琉 Palau PW">
-<summary>帛琉 <span lang="en">Palau</span></summary>
-<dl><dt>轉學途徑</dt><dd>查 Palau Community College 的 Transfer Applicant 類別，並核對所選課程的授予學位。</dd>
-<dt>學分認定</dt><dd>向 Admissions &amp; Records 提交正式成績單，查課程目錄確認抵免規定。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://pcc.palau.edu/admissions/apply-pcc/">帛琉社區學院招生</a></li></ul></dd></dl>
-</details>
-<details id="pg" data-code="PG" data-country="巴布亞紐幾內亞 Papua New Guinea PG">
-<summary>巴布亞紐幾內亞 <span lang="en">Papua New Guinea</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校或所在地校區確認是否開辦所選學位，並詢問能否憑既有修讀紀錄入學。</dd>
-<dt>學分認定</dt><dd>向校方查先前學習認定或學分抵免、授課地點和剩餘修業時間。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Papua%20New%20Guinea">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ws" data-code="WS" data-country="薩摩亞 Samoa WS">
-<summary>薩摩亞 <span lang="en">Samoa</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Samoa">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="sb" data-code="SB" data-country="索羅門群島 Solomon Islands SB">
-<summary>索羅門群島 <span lang="en">Solomon Islands</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Solomon%20Islands">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="to" data-code="TO" data-country="東加 Tonga TO">
-<summary>東加 <span lang="en">Tonga</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li><li><a href="https://whed.net/choisir.php?country=Tonga">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="tv" data-code="TV" data-country="吐瓦魯 Tuvalu TV">
-<summary>吐瓦魯 <span lang="en">Tuvalu</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-<details id="vu" data-code="VU" data-country="萬那杜 Vanuatu VU">
-<summary>萬那杜 <span lang="en">Vanuatu</span></summary>
-<dl><dt>轉學途徑</dt><dd>向南太平洋大學當地校區查可修讀的課程、授課地點和入學方式。</dd>
-<dt>學分認定</dt><dd>向校方確認可否申請 Cross Credit、須提交的課程資料及剩餘修業安排。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.usp.ac.fj/about-usp/campuses/">南太平洋大學各地校區</a></li></ul></dd></dl>
-</details>
-</div></section>
-
 <section class="transfer-region" aria-labelledby="asia">
 <h2 id="asia">亞洲 <small>35 個查詢項目</small></h2>
 <div class="transfer-list">
@@ -655,108 +824,6 @@
 <dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Vietnam">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
 </details>
 </div></section>
-
-<section class="transfer-region" aria-labelledby="middle-east">
-<h2 id="middle-east">中東 <small>16 個查詢項目</small></h2>
-<div class="transfer-list">
-<details id="bh" data-code="BH" data-country="巴林 Bahrain BH">
-<summary>巴林 <span lang="en">Bahrain</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Bahrain">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="cy" data-code="CY" data-country="賽普勒斯 Cyprus CY">
-<summary>賽普勒斯 <span lang="en">Cyprus</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Cyprus">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Cyprus">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ir" data-code="IR" data-country="伊朗 Iran IR">
-<summary>伊朗 <span lang="en">Iran</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Iran%20(Islamic%20Republic%20of)">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="iq" data-code="IQ" data-country="伊拉克 Iraq IQ">
-<summary>伊拉克 <span lang="en">Iraq</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Iraq">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="il" data-code="IL" data-country="以色列 Israel IL">
-<summary>以色列 <span lang="en">Israel</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Israel">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=Israel">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="jo" data-code="JO" data-country="約旦 Jordan JO">
-<summary>約旦 <span lang="en">Jordan</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Jordan">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="kw" data-code="KW" data-country="科威特 Kuwait KW">
-<summary>科威特 <span lang="en">Kuwait</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Kuwait">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="lb" data-code="LB" data-country="黎巴嫩 Lebanon LB">
-<summary>黎巴嫩 <span lang="en">Lebanon</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Lebanon">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="om" data-code="OM" data-country="阿曼 Oman OM">
-<summary>阿曼 <span lang="en">Oman</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Oman">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ps" data-code="PS" data-country="巴勒斯坦 Palestinian Territories PS">
-<summary>巴勒斯坦 <span lang="en">Palestinian Territories</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Palestine">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="qa" data-code="QA" data-country="卡達 Qatar QA">
-<summary>卡達 <span lang="en">Qatar</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Qatar">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="sa" data-code="SA" data-country="沙烏地阿拉伯 Saudi Arabia SA">
-<summary>沙烏地阿拉伯 <span lang="en">Saudi Arabia</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Saudi%20Arabia">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="sy" data-code="SY" data-country="敘利亞 Syria SY">
-<summary>敘利亞 <span lang="en">Syria</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Syrian%20Arab%20Republic">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="tr" data-code="TR" data-country="土耳其 Türkiye TR">
-<summary>土耳其 <span lang="en">Türkiye</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://www.enic-naric.net/page-Turkiye">ENIC-NARIC 國別資料與主管機關</a></li><li><a href="https://whed.net/choisir.php?country=T%C3%BCrkiye">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ae" data-code="AE" data-country="阿拉伯聯合大公國 United Arab Emirates AE">
-<summary>阿拉伯聯合大公國 <span lang="en">United Arab Emirates</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=United%20Arab%20Emirates">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-<details id="ye" data-code="YE" data-country="葉門 Yemen YE">
-<summary>葉門 <span lang="en">Yemen</span></summary>
-<dl><dt>轉學途徑</dt><dd>向目標校確認國際轉學生的申請途徑，並核對主校、分校與授證院校。</dd>
-<dt>學分認定</dt><dd>查境外成績單認證要求，再向院系確認可抵科目與最低在校修讀學分。</dd>
-<dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Yemen">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
-</details>
-</div></section>
-
 <section class="transfer-region" aria-labelledby="latin-america">
 <h2 id="latin-america">中南美洲與加勒比 <small>35 個查詢項目</small></h2>
 <div class="transfer-list">
@@ -971,7 +1038,6 @@
 <dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Venezuela%20(Bolivarian%20Republic%20of)">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
 </details>
 </div></section>
-
 <section class="transfer-region" aria-labelledby="africa">
 <h2 id="africa">非洲 <small>54 個查詢項目</small></h2>
 <div class="transfer-list">
@@ -1299,18 +1365,7 @@
 <dt>學分認定</dt><dd>詢問是否須先評估境外學歷，再請院系按正式成績單及課綱評估可抵科目。</dd>
 <dt>官方查詢</dt><dd><ul><li><a href="https://whed.net/choisir.php?country=Zimbabwe">IAU WHED 國別院校與教育體系</a></li></ul></dd></dl>
 </details>
-</div></section>
-<section class="transfer-info">
-<h2 id="documents">申請材料與流程</h2>
-<p>如考慮留在同校更換主修、學位或學院，可查閱<a href="/zh/services/change-of-major/">轉專業與轉學院</a>，了解先修課、學分抵免及剩餘修業安排。</p>
-<ol><li>確認目標校接受的申請類別、入學年級及期限。</li><li>準備正式成績單、在讀證明、已修學分、課程大綱及考核方式，按校方要求補交翻譯或認證。</li><li>確認錄取結果、可認定的必修及選修、剩餘修業時間和費用，再安排離開原校。</li></ol>
-<h2 id="fees">免費評估與代辦</h2>
-<p>初次評估免費。符合 OTC 合作院校、課程及代辦範圍的申請可免費代辦。校方申請費、翻譯及認證等第三方費用另付。其他個案先書面確認服務內容及費用。</p>
-<p><a href="/zh/application-fees/">查看免費代辦與收費標準</a></p>
-<h2 id="contact">聯絡學生服務部</h2>
-<p>請提供目前的國家、院校、專業、年級、已修學分、希望轉入的地區及入學時間。</p>
-<p><a href="https://wa.me/447947991572">WhatsApp +44 7947 991572</a> · 微信 overseasus</p>
-</section></div>
+</div></section></div>
 </main>
 
     <div class="page-utility-bar" data-page-share>

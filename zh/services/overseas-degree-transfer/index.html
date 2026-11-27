@@ -71,24 +71,86 @@
   
   <section class="page-hero services-hero"><div class="band"><div class="service-hero-layout"><div><div class="eyebrow">海外督導雙語世界 · 招生部</div><h1 class="uni-hero-name">海外專升本</h1><h2 class="uni-hero-en">韓外大插班 · 新加坡 SIM</h2><p class="hero-sub">核對專科背景、入學年級、可抵學分與剩餘修讀時間。</p><div class="actions"><a class="btn btn-primary" href="#universities">查看院校</a><a class="btn btn-secondary" href="#consultation">申請諮詢</a></div></div><aside class="service-hero-panel"><a href="#universities"><strong>院校比較</strong><span>韓外大與 SIM</span></a><a href="#fees"><strong>免費代辦</strong><span>服務範圍及另付費用</span></a><a href="#process"><strong>申請流程</strong><span>先核對課程與資格</span></a><a href="#consultation"><strong>聯絡招生部</strong><span>按背景確認方案</span></a></aside></div></div></section>
 <main class="uni-main">
-  <section class="uni-section" id="universities">
-    <h2>院校與入學路線</h2>
-    <table><thead><tr><th scope="col">路線</th><th scope="col">申請前要核對</th></tr></thead><tbody>
+  <style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><div class="cd" id="directory">
+<div class="cd-head"><h2>海外專升本</h2><p>比較韓外大插班與新加坡 SIM 合作大學學位，查詢學分抵免、語言要求與免費申請代辦範圍。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="overview">概況</button><button type="button" class="cd-tab" data-tab="cost">費用服務</button><button type="button" class="cd-tab" data-tab="apply">申請材料</button><input class="cd-search" type="search" placeholder="搜尋關鍵詞" aria-label="搜尋"></div>
+
+<div class="cd-grouphead">全部要點<span><span class="cd-count">4</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card cd-wide" data-tab="overview" id="universities">
+<div class="cd-top"><span class="cd-region">海外專升本</span><span class="cd-badge">01</span></div>
+<h3>入學路線</h3>
+
+<div class="cd-desc"><table><thead><tr><th scope="col">路線</th><th scope="col">申請前要核對</th></tr></thead><tbody>
       <tr><th scope="row"><a href="/zh/universities/south-korea/hankuk-university-of-foreign-studies/">韓國外國語大學</a></th><td>查看當期國際生插班簡章。按專科學歷、目標系所及授課語言核對可申請年級、韓語或英語要求，以及入學後學分認定。<br><a href="https://international.hufs.ac.kr/">韓外大國際招生 ↗</a></td></tr>
       <tr><th scope="row"><a href="/zh/universities/singapore/singapore-institute-of-management/">新加坡 SIM GE</a></th><td>先選具體本科課程，確認頒授學位的合作大學、英語要求及是否接受現有專科學歷作學分抵免。向課程方確認剩餘修讀時間及費用。<br><a href="https://www.sim.edu.sg/degrees-diplomas/sim-global-education/university-partners-sim-ge">SIM 合作大學 ↗</a> · <a href="https://www.sim.edu.sg/degrees-diplomas/admissions">SIM 申請入口 ↗</a></td></tr>
-    </tbody></table>
-  </section>
-  <section class="uni-section" id="fees">
-    <h2>免費代辦與費用</h2>
-    <p>招生部先按院校、課程及申請渠道確認可代辦範圍。適用免費代辦的項目，OTC 不收申請代辦服務費，包含申請材料清單、基本文件核對、提交協助、補件及進度跟進。</p>
-    <p>學費、院校申請費、語言考試費、翻譯、公證認證、簽證規費及其他第三方費用另付。額外文書修改與獨立諮詢按範圍另行確認。韓外大和 SIM 的可代辦渠道按具體課程核對，簽證協助如有需要另行確認。</p>
-  </section>
-  <section class="uni-section" id="process">
-    <h2>申請流程</h2>
-    <ol><li>提供專科專業、就讀或畢業狀態、目標專業、語言程度及入學時間。</li><li>比較兩地課程、插班年級、學分抵免及總費用。實際錄取與抵免由院校或學位頒授方審核。</li><li>確認可代辦項目及費用後，再準備材料和提交申請。</li></ol>
-    <p><a href="/zh/services/university-application-advisory/">查看 OTC 大學申請與院校目錄 →</a></p>
-  </section>
-  <section id="consultation" class="uni-section uni-contact"><h2>諮詢 海外專升本 申請</h2><p>告訴招生部你的學歷、目標專業、入學年份、成績與預算，安排選校及申請。已有心儀課程，可直接附上課程連結。</p><a class="btn" href="https://wa.me/447947991572?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%E6%B5%B7%E5%A4%96%E5%B0%88%E5%8D%87%E6%9C%AC%E7%94%B3%E8%AB%8B%E3%80%82%0A%E7%9B%AE%E5%89%8D%E5%AD%B8%E6%AD%B7%EF%BC%8F%E5%B9%B4%E7%B4%9A%EF%BC%9A%0A%E7%9B%AE%E6%A8%99%E5%9C%8B%E5%AE%B6%EF%BC%8F%E8%AA%B2%E7%A8%8B%EF%BC%9A%0A%E5%85%A5%E5%AD%B8%E5%B9%B4%E4%BB%BD%EF%BC%9A%0A%E5%AD%B8%E6%A5%AD%E5%8F%8A%E8%AA%9E%E8%A8%80%E6%88%90%E7%B8%BE%EF%BC%9A%0A%E5%85%A8%E5%B9%B4%E9%A0%90%E7%AE%97%EF%BC%9A">WhatsApp 諮詢</a><a href="mailto:office@overseasuk.com?subject=%E6%B5%B7%E5%A4%96%E5%B0%88%E5%8D%87%E6%9C%AC%E7%94%B3%E8%AB%8B%E8%AB%AE%E8%A9%A2">office@overseasuk.com</a><p>海外督導雙語世界 · 招生部　｜　WhatsApp +44 7947 991572　｜　微信 overseasus</p></section>
+    </tbody></table></div>
+
+
+</article>
+<article class="cd-card" data-tab="cost" id="fees">
+<div class="cd-top"><span class="cd-region">海外專升本</span><span class="cd-badge">02</span></div>
+<h3>代辦費用</h3>
+
+<div class="cd-desc"><p>招生部先按院校、課程及申請渠道確認可代辦範圍。適用免費代辦的項目，OTC 不收申請代辦服務費，包含申請材料清單、基本文件核對、提交協助、補件及進度跟進。</p>
+    <p>學費、院校申請費、語言考試費、翻譯、公證認證、簽證規費及其他第三方費用另付。額外文書修改與獨立諮詢按範圍另行確認。韓外大和 SIM 的可代辦渠道按具體課程核對，簽證協助如有需要另行確認。</p></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="apply" id="process">
+<div class="cd-top"><span class="cd-region">海外專升本</span><span class="cd-badge">03</span></div>
+<h3>申請流程</h3>
+
+<div class="cd-desc"><ol><li>提供專科專業、就讀或畢業狀態、目標專業、語言程度及入學時間。</li><li>比較兩地課程、插班年級、學分抵免及總費用。實際錄取與抵免由院校或學位頒授方審核。</li><li>確認可代辦項目及費用後，再準備材料和提交申請。</li></ol>
+    <p><a href="/zh/services/university-application-advisory/">查看 OTC 大學申請與院校目錄 →</a></p></div>
+
+
+</article>
+<article class="cd-card" data-tab="cost" id="consultation">
+<div class="cd-top"><span class="cd-region">海外專升本</span><span class="cd-badge">04</span></div>
+<h3>專升本</h3>
+
+<div class="cd-desc"><p>告訴招生部你的學歷、目標專業、入學年份、成績與預算，安排選校及申請。已有心儀課程，可直接附上課程連結。</p><a class="btn" href="https://wa.me/447947991572?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%AB%AE%E8%A9%A2%E6%B5%B7%E5%A4%96%E5%B0%88%E5%8D%87%E6%9C%AC%E7%94%B3%E8%AB%8B%E3%80%82%0A%E7%9B%AE%E5%89%8D%E5%AD%B8%E6%AD%B7%EF%BC%8F%E5%B9%B4%E7%B4%9A%EF%BC%9A%0A%E7%9B%AE%E6%A8%99%E5%9C%8B%E5%AE%B6%EF%BC%8F%E8%AA%B2%E7%A8%8B%EF%BC%9A%0A%E5%85%A5%E5%AD%B8%E5%B9%B4%E4%BB%BD%EF%BC%9A%0A%E5%AD%B8%E6%A5%AD%E5%8F%8A%E8%AA%9E%E8%A8%80%E6%88%90%E7%B8%BE%EF%BC%9A%0A%E5%85%A8%E5%B9%B4%E9%A0%90%E7%AE%97%EF%BC%9A">WhatsApp 諮詢</a><a href="mailto:office@overseasuk.com?subject=%E6%B5%B7%E5%A4%96%E5%B0%88%E5%8D%87%E6%9C%AC%E7%94%B3%E8%AB%8B%E8%AB%AE%E8%A9%A2">office@overseasuk.com</a><p>海外督導雙語世界 · 招生部　｜　WhatsApp +44 7947 991572　｜　微信 overseasus</p></div>
+
+
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
+</div><script>(()=>{const r=document.querySelector('.cd');if(!r)return;let t='all';const q=r.querySelector('.cd-search'),cs=[...r.querySelectorAll('.cd-card')],e=r.querySelector('.cd-empty'),n=r.querySelector('.cd-count');function f(){const k=(q.value||'').trim().toLowerCase();let c=0;cs.forEach(x=>{const ok=(t==='all'||x.dataset.tab===t)&&(!k||x.textContent.toLowerCase().includes(k));x.style.display=ok?'':'none';if(ok)c++});e.style.display=c?'none':'block';n.textContent=c}r.querySelectorAll('.cd-tab').forEach(b=>b.onclick=()=>{r.querySelectorAll('.cd-tab').forEach(y=>y.classList.remove('on'));b.classList.add('on');t=b.dataset.tab;f()});q.oninput=f;if(location.hash){const h=r.querySelector(location.hash);if(h)h.scrollIntoView()}})();</script><script src="/assets/cd-detail.js?v=20261127" defer></script>
 </main><style>
 .uni-main{max-width:1160px;margin:auto;padding:28px 24px 48px;color:#172b40;font-size:14px;line-height:1.8}.uni-main *{box-sizing:border-box}.uni-main h2{font-size:23px;line-height:1.4;margin:0 0 12px;color:#122c45}.uni-main h3{font-size:16px;line-height:1.55;margin:0 0 7px;color:#122c45}.uni-main p{margin:0 0 12px}.uni-kicker{font-size:10px;letter-spacing:.14em;color:#876e36;text-transform:uppercase}.uni-section{margin:0 0 32px;scroll-margin-top:24px}.uni-section-head{display:flex;align-items:baseline;justify-content:space-between;gap:15px;border-bottom:2px solid #b69c44;padding-bottom:10px;margin-bottom:16px}.uni-section-head h2{margin:0}.uni-section-head a{font-size:12px;white-space:nowrap}.uni-intro{display:grid;grid-template-columns:1.6fr 1fr;gap:30px;margin-bottom:28px}.uni-facts{display:flex;gap:22px;align-items:center;border-left:2px solid #b69c44;padding:6px 18px}.uni-facts b{display:block;font-size:27px;line-height:1.3}.uni-facts span{font-size:11px;color:#596575}.uni-quick{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0 0 26px;border-bottom:1px solid #d8d4ca;padding:12px 0}.uni-quick a{font-size:12px;color:#172b40}.uni-filter{display:grid;grid-template-columns:2fr 1fr auto;gap:10px;align-items:end;background:#eeeae0;padding:16px;margin:0 0 10px;border-top:3px solid #122c45}.uni-filter label{display:block;font-size:11px;font-weight:700}.uni-filter input,.uni-filter select{display:block;width:100%;padding:10px 12px;font:inherit;font-size:13px;border:1px solid #c9c3b5;background:#fff;color:#142e45;border-radius:0;margin-top:4px;min-width:0}.uni-filter button{padding:10px 15px;font:inherit;font-size:12px;background:#122c45;color:white;border:1px solid #122c45;cursor:pointer;min-height:42px}.uni-result-count{font-size:12px;color:#596575;margin:8px 0 14px!important}.uni-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-left:1px solid #d9d4c9;border-top:1px solid #d9d4c9}.uni-school{padding:17px 18px;background:#fffdf7;border-right:1px solid #d9d4c9;border-bottom:1px solid #d9d4c9;min-width:0}.uni-school small{display:block;font-size:10px;color:#61716e;margin:0 0 8px}.uni-school h3 a{color:#122c45;text-decoration:none}.uni-school h3 a:hover{text-decoration:underline}.uni-school p{font-size:11px;color:#5e6875;line-height:1.6;overflow-wrap:anywhere}.uni-school .uni-view{font-size:12px;color:#775c27;text-decoration:underline;text-underline-offset:3px}.uni-school[hidden]{display:none}.uni-pagination{display:flex;align-items:center;justify-content:center;gap:20px;padding:18px 0;font-size:12px}.uni-pagination[hidden]{display:none}.uni-pagination button{padding:8px 16px;background:#fffdf7;border:1px solid #b7b0a0;color:#142e45;cursor:pointer;font:inherit}.uni-pagination button:disabled{opacity:.4;cursor:default}.uni-empty{padding:24px;background:#f0ece1;font-size:13px}.uni-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.uni-service-grid article{border-top:3px solid #b69c44;padding-top:14px}.uni-service-grid article:nth-child(2){border-color:#77362e}.uni-service-grid article:nth-child(3){border-color:#557e77}.uni-service-grid p{font-size:13px}.uni-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;list-style:none;padding:0;counter-reset:step}.uni-steps li{counter-increment:step;border-top:1px solid #c9c3b5;padding-top:10px;font-size:13px}.uni-steps li:before{content:'0' counter(step);display:block;font-size:11px;color:#876e36;letter-spacing:.1em}.uni-steps strong{display:block;margin:4px 0}.uni-two{display:grid;grid-template-columns:1fr 1fr;gap:28px}.uni-main table{width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed}.uni-main th,.uni-main td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #d9d4c9;overflow-wrap:anywhere}.uni-main th{background:#eeeae0;color:#122c45}.uni-main th:first-child{width:24%}.uni-main details{border-bottom:1px solid #d9d4c9;padding:13px 0}.uni-main summary{cursor:pointer;font-size:14px;font-weight:600}.uni-main details p{margin:10px 0 2px;font-size:13px}.uni-contact{background:#122c45;color:#fff;padding:24px;border-bottom:4px solid #b69c44}.uni-contact h2{color:white}.uni-contact p{font-size:13px;max-width:760px}.uni-contact a{color:#ffe5a7}.uni-contact .btn{display:inline-block;padding:9px 18px;background:#b69c44;color:#122c45;text-decoration:none;font-weight:700;margin:4px 14px 10px 0}.uni-note{font-size:11px!important;color:#61716e;margin-top:12px!important}.uni-breadcrumb{font-size:11px;margin-bottom:20px}.uni-official{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.uni-official a{padding:17px;border:1px solid #d9d4c9;background:#fffdf7;text-decoration:none;color:#122c45}.uni-official a strong{display:block;font-size:14px}.uni-official a small{font-size:11px;color:#61716e;display:block;overflow-wrap:anywhere}.uni-school-info{border-left:3px solid #b69c44;padding-left:18px}.uni-school-info span{display:block;font-size:12px;color:#596575}.uni-registry{border-left:3px solid #b69c44;padding:16px 20px;background:#eeeae0}.uni-registry p{font-size:13px}.uni-registry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px}.uni-registry-grid article{padding:14px 0;border-bottom:1px solid #d9d4c9}.uni-registry-grid a{font-size:13px}.uni-registry-grid p{font-size:12px;margin-top:8px;color:#596575}.uni-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #d9d4c9}.uni-source-list>div{padding:10px 14px;border-bottom:1px solid #d9d4c9;min-width:0}.uni-source-list a{font-size:13px;overflow-wrap:anywhere}.uni-source-list small{display:block;color:#61716e;font-size:10px}.uni-related{display:flex;flex-wrap:wrap;gap:8px 18px}.uni-related a{font-size:13px}.uni-hero-name{overflow-wrap:anywhere}.uni-hero-en{font-size:15px!important;line-height:1.5!important}
 @media(max-width:800px){.uni-list{grid-template-columns:repeat(2,minmax(0,1fr))}.uni-intro{grid-template-columns:1fr;gap:12px}.uni-facts{border-left:0;padding:0;gap:24px}.uni-service-grid{gap:14px}.uni-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}

@@ -84,40 +84,119 @@
             <a class="btn btn-light" href="/consultation-chat/?source=services&amp;amp;amp;amp;service=Language%20%26%20Context%20Studio">先向海外督導諮詢</a>
           </aside>
           <article class="service-detail-body">
-            <section>
-              <div class="eyebrow">服務概覽</div>
-              <h2>我們提供甚麼協助</h2>
-              <p>協助處理重要文件的翻譯與語境表達，同時兼顧用詞準確、語氣、文件權威性及機構溝通風險。</p>
-              <p lang="zh-Hant">面向政府、出版社、大學、教育機構、律師事務所、企業與學術團隊。</p>
-            </section>
-            <section>
-              <div class="eyebrow">工作流程</div>
-              <h2>服務步驟</h2>
-              <ol class="service-steps"><li>接收文件並確認用途</li><li>核對讀者、適用地區及專業用語</li><li>翻譯、雙語編修及文字整理</li><li>編輯覆核並列出待確認事項</li><li>交付定稿及修訂標記版本</li></ol>
-            </section>
-            <section>
-              <div class="eyebrow">交付內容</div>
-              <h2>您會收到的文件</h2>
-              <div class="service-detail-grid"><div>中英文對照定稿</div><div>修訂標記文件</div><div>術語與文風說明</div><div>可另選出版排版服務</div></div>
-            </section>
+            <style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><div class="cd" id="directory">
+<div class="cd-head"><h2>中英翻譯</h2><p>專業中英翻譯、雙語編修、商務文件與對外溝通支援，適用於企業、機構、出版、學術及法律語境文件。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="t3">文件示例</button><button type="button" class="cd-tab" data-tab="overview">概況</button><button type="button" class="cd-tab" data-tab="cost">費用服務</button><button type="button" class="cd-tab" data-tab="apply">申請材料</button><input class="cd-search" type="search" placeholder="搜尋關鍵詞" aria-label="搜尋"></div>
+
+<div class="cd-grouphead">全部要點<span><span class="cd-count">9</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card" data-tab="overview" id="section-1">
+<div class="cd-top"><span class="cd-region">中英翻譯</span><span class="cd-badge">01</span></div>
+<h3>協助範圍</h3>
+
+<div class="cd-desc"><p>協助處理重要文件的翻譯與語境表達，同時兼顧用詞準確、語氣、文件權威性及機構溝通風險。</p>
+              <p lang="zh-Hant">面向政府、出版社、大學、教育機構、律師事務所、企業與學術團隊。</p></div>
 
 
-            <section>
-              <div class="eyebrow">文件類型</div>
-              <h2>可協助處理的文件示例</h2>
-              <div class="service-showcase"><article><span>示例</span><strong>政府或機構介紹</strong></article><article><span>示例</span><strong>學術文章、摘要及會議稿件</strong></article><article><span>示例</span><strong>法律語境的輔助文件</strong></article><article><span>示例</span><strong>出版稿件</strong></article></div>
-            </section>
-            <section>
-              <div class="eyebrow">費用</div>
-              <h2>參考收費</h2>
-              <ul class="service-price-list"><li>文件審閱：£180 起</li><li>專業翻譯及編修：按字數與文件風險程度報價</li><li>機構長期合作：按每月工作範圍議定</li></ul>
-              <p class="source-note">最終費用按文件量、急迫程度、風險、會議時間、第三方費用，以及是否需要認證、法律或其他專業人士參與而定。</p>
-            </section>
-<!-- OTC BUSINESS CONFIDENTIALITY START -->
-<section id="business-confidentiality" aria-labelledby="business-confidentiality-title" style="scroll-margin-top:6rem">
-<style>#business-confidentiality{min-width:0;overflow-wrap:anywhere}#business-confidentiality p{font-size:1rem;line-height:1.8}#business-confidentiality h3{font-size:1.2rem;line-height:1.5}.otc-confidentiality-rule{border-top:1px solid #cbd5e1;padding-top:1rem;margin-top:1.5rem}</style>
-<div class="eyebrow">Business communication · Confidentiality</div>
-<h2 id="business-confidentiality-title"><span lang="zh-Hant">商業溝通服務資訊保密規則</span><br><span lang="en">Confidentiality Rules for Business Communication Services</span></h2>
+</article>
+<article class="cd-card cd-wide" data-tab="cost" id="section-2">
+<div class="cd-top"><span class="cd-region">中英翻譯</span><span class="cd-badge">02</span></div>
+<h3>服務步驟</h3>
+
+<div class="cd-desc"><ol class="service-steps"><li>接收文件並確認用途</li><li>核對讀者、適用地區及專業用語</li><li>翻譯、雙語編修及文字整理</li><li>編輯覆核並列出待確認事項</li><li>交付定稿及修訂標記版本</li></ol></div>
+
+
+</article>
+<article class="cd-card" data-tab="apply" id="section-3">
+<div class="cd-top"><span class="cd-region">中英翻譯</span><span class="cd-badge">03</span></div>
+<h3>交付文件</h3>
+
+<div class="cd-desc"><div class="service-detail-grid"><div>中英文對照定稿</div><div>修訂標記文件</div><div>術語與文風說明</div><div>可另選出版排版服務</div></div></div>
+
+
+</article>
+<article class="cd-card" data-tab="t3" id="section-4">
+<div class="cd-top"><span class="cd-region">中英翻譯</span></div>
+<h3>示例一</h3>
+
+<div class="cd-desc"><span>示例</span><strong>政府或機構介紹</strong></div>
+
+
+</article>
+<article class="cd-card" data-tab="t3">
+<div class="cd-top"><span class="cd-region">中英翻譯</span></div>
+<h3>示例二</h3>
+
+<div class="cd-desc"><span>示例</span><strong>學術文章、摘要及會議稿件</strong></div>
+
+
+</article>
+<article class="cd-card" data-tab="t3">
+<div class="cd-top"><span class="cd-region">中英翻譯</span></div>
+<h3>示例三</h3>
+
+<div class="cd-desc"><span>示例</span><strong>法律語境的輔助文件</strong></div>
+
+
+</article>
+<article class="cd-card" data-tab="t3">
+<div class="cd-top"><span class="cd-region">中英翻譯</span></div>
+<h3>示例四</h3>
+
+<div class="cd-desc"><span>示例</span><strong>出版稿件</strong></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="cost" id="section-5">
+<div class="cd-top"><span class="cd-region">中英翻譯</span><span class="cd-badge">08</span></div>
+<h3>參考收費</h3>
+
+<div class="cd-desc"><ul class="service-price-list"><li>文件審閱：£180 起</li><li>專業翻譯及編修：按字數與文件風險程度報價</li><li>機構長期合作：按每月工作範圍議定</li></ul>
+              <p class="source-note">最終費用按文件量、急迫程度、風險、會議時間、第三方費用，以及是否需要認證、法律或其他專業人士參與而定。</p></div>
+
+
+</article>
+<article class="cd-card cd-wide" data-tab="cost" id="business-confidentiality">
+<div class="cd-top"><span class="cd-region">中英翻譯</span><span class="cd-badge">09</span></div>
+<h3>保密規則</h3>
+
+<div class="cd-desc"><span id="business-confidentiality-title"></span><style>#business-confidentiality{min-width:0;overflow-wrap:anywhere}#business-confidentiality p{font-size:1rem;line-height:1.8}#business-confidentiality h3{font-size:1.2rem;line-height:1.5}.otc-confidentiality-rule{border-top:1px solid #cbd5e1;padding-top:1rem;margin-top:1.5rem}</style>
+
+
 <p>Overseas Tutorial Centre Ltd · 海外督導<br>Version / 版本: 2026-09-17</p>
 <p lang="zh-Hant">適用於中英文翻譯、代寫及代發電郵、詢價、對外聯絡和合作洽談。</p>
 <p lang="en">Applies to Chinese-English translation, email drafting and sending on behalf of clients, quotation enquiries, external liaison and partnership discussions.</p>
@@ -133,8 +212,13 @@
 <section class="otc-confidentiality-rule"><h3>10. <span lang="zh-Hant">合作結束後仍保密</span><br><span lang="en">Maintain confidentiality after the assignment</span></h3><p lang="zh-Hant">保密義務不因合作結束而終止。資料按約定期限保存，期滿或收到刪除要求時，處理可控制的副本，並如實說明依法須保留或無法立即清除的部分。</p><p lang="en">Confidentiality continues after the assignment ends. Information is retained for the agreed period. When that period ends or a deletion request is received, we address copies under our control and explain any information that must be retained by law or cannot immediately be removed.</p></section>
 <p lang="zh-Hant"><strong>執行原則：先核實、先確認、少披露、留紀錄；未經授權，不擴大使用。</strong></p>
 <p lang="en"><strong>Working principles: verify facts, obtain approval, minimise disclosure and keep records. Do not extend use beyond the authorised scope.</strong></p>
-<p><a href="mailto:office@overseasuk.com?subject=Business%20communication%20and%20confidentiality">商務溝通諮詢 / Business communication enquiry</a></p>
-</section>
+<p><a href="mailto:office@overseasuk.com?subject=Business%20communication%20and%20confidentiality">商務溝通諮詢 / Business communication enquiry</a></p></div>
+
+
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
+</div><script>(()=>{const r=document.querySelector('.cd');if(!r)return;let t='all';const q=r.querySelector('.cd-search'),cs=[...r.querySelectorAll('.cd-card')],e=r.querySelector('.cd-empty'),n=r.querySelector('.cd-count');function f(){const k=(q.value||'').trim().toLowerCase();let c=0;cs.forEach(x=>{const ok=(t==='all'||x.dataset.tab===t)&&(!k||x.textContent.toLowerCase().includes(k));x.style.display=ok?'':'none';if(ok)c++});e.style.display=c?'none':'block';n.textContent=c}r.querySelectorAll('.cd-tab').forEach(b=>b.onclick=()=>{r.querySelectorAll('.cd-tab').forEach(y=>y.classList.remove('on'));b.classList.add('on');t=b.dataset.tab;f()});q.oninput=f;if(location.hash){const h=r.querySelector(location.hash);if(h)h.scrollIntoView()}})();</script><script src="/assets/cd-detail.js?v=20261127" defer></script>
 <!-- OTC BUSINESS CONFIDENTIALITY END -->
           </article>
         </div>

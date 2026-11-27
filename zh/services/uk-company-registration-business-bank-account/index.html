@@ -84,51 +84,105 @@
 
   <div class="service-herald-grid">
     <main class="service-herald-main">
-      <section id="company">
-        <h2 class="zh-herald-section-head" data-num="01">註冊英國公司需要準備什麼？</h2>
-        <div class="service-situation-grid">
+      <style>
+.cd{max-width:1120px;margin:0 auto;padding:8px 20px 40px;font-size:14px;color:#1b263d}
+.cd .cd-head h2{font-size:20px;margin:18px 0 4px;padding-left:10px;border-left:4px solid #74333a}
+.cd .cd-head p{margin:0 0 14px;color:#6b6b6b;font-size:13px}
+.cd .cd-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.cd .cd-tab{border:1px solid #d9cfb4;background:#fff;color:#1b263d;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cd .cd-tab.on{background:#1b263d;color:#f9f6ee;border-color:#1b263d;box-shadow:inset 0 -2px 0 #ae9340}
+.cd .cd-search{margin-left:auto;min-width:220px;border:1px solid #d9cfb4;border-radius:999px;padding:7px 14px;font-size:13px}
+.cd .cd-tip{background:#f9f6ee;border-left:4px solid #ae9340;border-radius:8px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+.cd .cd-tip b{margin-right:6px;color:#74333a}
+.cd .cd-grouphead{display:flex;justify-content:space-between;font-weight:700;font-size:13px;margin:6px 0 10px}
+.cd .cd-grouphead span{font-weight:400;color:#6b6b6b}
+.cd .cd-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cd .cd-card{border:1px solid #e4dcc8;border-top:3px solid #1b263d;border-radius:10px;background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-margin-top:90px}
+.cd .cd-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cd .cd-region{font-size:11px;color:#7a7a7a}
+.cd .cd-badge{font-size:11px;background:#74333a;color:#f9f6ee;border-radius:4px;padding:2px 7px;white-space:nowrap}
+.cd .cd-card h3{font-size:15px;margin:0;line-height:1.4;color:#1b263d}
+.cd .cd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cd .cd-chips span{font-size:11px;background:#f9f6ee;color:#1b263d;border:1px solid #e4dcc8;border-radius:4px;padding:2px 7px}
+.cd .cd-desc{margin:0;line-height:1.75;color:#3d3d3d;flex:1}
+.cd .cd-desc a{color:#74333a}
+.cd .cd-desc p{margin:0 0 8px}.cd .cd-desc p:last-child{margin:0}.cd .cd-desc ol,.cd-desc ul{margin:0;padding-left:20px}.cd .cd-desc table{width:100%;border-collapse:collapse;font-size:13px}.cd .cd-desc th,.cd-desc td{border:1px solid #e4dcc8;padding:7px;text-align:left;vertical-align:top}.cd .cd-desc th{background:#f9f6ee;color:#1b263d}.cd .cd-desc .btn{display:inline-block;margin:4px 0}
+.cd .cd-wide{grid-column:1/-1}
+.cd .cd-note{background:#f9f6ee;border:0;border-left:3px solid #ae9340;border-radius:6px;padding:7px 10px;font-size:12px;color:#5a5a5a;line-height:1.6}
+.cd .cd-note b{color:#74333a;margin-right:4px}
+.cd .cd-btns{display:flex;gap:8px}
+.cd .cd-btns a,.cd .cd-btns a:visited{font-size:13px;text-decoration:none;border-radius:6px;padding:8px 10px;text-align:center}
+.cd .cd-p{flex:1;background:#1b263d;color:#f9f6ee;border-bottom:2px solid #ae9340}
+.cd .cd-s{border:1px solid #ae9340;color:#1b263d;background:#fff}
+.cd .cd-foot{margin-top:18px;font-size:12px;color:#6b6b6b;line-height:1.8}
+.cd .cd-foot a{color:#74333a}
+.cd .cd-empty{display:none;color:#6b6b6b;padding:20px 0}
+@media(max-width:900px){.cd .cd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cd .cd-grid{grid-template-columns:1fr}.cd .cd-search{margin-left:0;width:100%}}
+</style><div class="cd" id="directory">
+<div class="cd-head"><h2>海外人士註冊英國公司及商業銀行開戶</h2><p>海外董事註冊英國 Ltd、Companies House 身分核驗、英國註冊地址、PSC 申報及商業銀行帳戶 KYC 文件整理服務。</p></div>
+<div class="cd-bar"><button type="button" class="cd-tab on" data-tab="all">全部</button><button type="button" class="cd-tab" data-tab="overview">概況</button><button type="button" class="cd-tab" data-tab="cost">費用服務</button><button type="button" class="cd-tab" data-tab="apply">申請材料</button><input class="cd-search" type="search" placeholder="搜尋關鍵詞" aria-label="搜尋"></div>
+
+<div class="cd-grouphead">全部要點<span><span class="cd-count">6</span> 項</span></div>
+<div class="cd-grid"><article class="cd-card" data-tab="apply" id="company">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">01</span></div>
+<h3>註冊準備</h3>
+<div class="cd-chips"><span>股份配置</span></div>
+<div class="cd-desc"><div class="service-situation-grid">
           <div><b>公司資料</b><strong>名稱與業務</strong><span>英文公司名稱、業務內容、SIC 行業代碼、公司電郵。</span></div>
           <div><b>英國地址</b><strong>Registered Office</strong><span>須位於公司註冊司法區並能可靠接收正式信件。</span></div>
           <div><b>公司人員</b><strong>董事、股東及 PSC</strong><span>護照姓名、出生日期、國籍、住址、持股及控制權資料。</span></div>
           <div><b>股本</b><strong>股份配置</strong><span>股份數量、面值、各股東比例及初始股本安排。</span></div>
         </div>
-        <p>海外人士一般不必持有英國國籍或永久居留，也不必由英國居民擔任董事；但公司必須提供合規的英國註冊地址。持有超過 25% 股份、投票權或對公司具有重大控制權的人，通常需要申報為 PSC。</p>
-      </section>
+        <p>海外人士一般不必持有英國國籍或永久居留，也不必由英國居民擔任董事；但公司必須提供合規的英國註冊地址。持有超過 25% 股份、投票權或對公司具有重大控制權的人，通常需要申報為 PSC。</p></div>
 
-      <section id="identity">
-        <h2 class="zh-herald-section-head" data-num="02">Companies House 身分核驗</h2>
-        <div class="zh-herald-highlight-box">
+
+</article>
+<article class="cd-card" data-tab="overview" id="identity">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">02</span></div>
+<h3>身分核驗</h3>
+
+<div class="cd-desc"><div class="zh-herald-highlight-box">
           <div class="zh-herald-box-title">2026 重要要求</div>
           <p>董事及 PSC 身分核驗已進入法定實施階段。申請人通常透過 GOV.UK One Login 或 Companies House 授權企業服務提供者（ACSP）完成核驗，並取得 Companies House personal code。</p>
         </div>
-        <p>建議提前準備有效護照、個人住址、聯絡資料及證件姓名一致性資料。若海外證件無法直接完成線上核驗，可評估由合資格 ACSP 協助。</p>
-      </section>
+        <p>建議提前準備有效護照、個人住址、聯絡資料及證件姓名一致性資料。若海外證件無法直接完成線上核驗，可評估由合資格 ACSP 協助。</p></div>
 
-      <section id="bank">
-        <h2 class="zh-herald-section-head" data-num="03">商業銀行帳戶文件清單</h2>
-        <div class="service-route-list">
+
+</article>
+<article class="cd-card" data-tab="apply" id="bank">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">03</span></div>
+<h3>開戶文件</h3>
+<div class="cd-chips"><span>Company Pack</span><span>Personal KYC</span></div>
+<div class="cd-desc"><div class="service-route-list">
           <div><span>公司文件</span><strong>Company Pack</strong><em>Certificate of Incorporation、公司編號、Articles、股權架構、註冊及營業地址。</em></div>
           <div><span>個人核驗</span><strong>Personal KYC</strong><em>董事、主要股東及 PSC 的有效護照、近三個月住址證明及必要的認證翻譯。</em></div>
           <div><span>業務證明</span><strong>Business Evidence</strong><em>商業計劃、網站、公司電郵、客戶合同、供應商資料、發票或意向書。</em></div>
           <div><span>資金來源</span><strong>Source of Funds</strong><em>初始注資、個人或企業銀行流水、收入或資產來源說明及預計交易資料。</em></div>
         </div>
-        <p>銀行通常還會詢問預計年營業額、每月交易筆數與金額、主要幣種、交易國家、付款方式，以及董事是否具有相關行業經驗。</p>
-      </section>
+        <p>銀行通常還會詢問預計年營業額、每月交易筆數與金額、主要幣種、交易國家、付款方式，以及董事是否具有相關行業經驗。</p></div>
 
-      <section>
-        <h2 class="zh-herald-section-head" data-num="04">海外董事常見開戶難點</h2>
-        <div class="service-situation-grid">
+
+</article>
+<article class="cd-card" data-tab="overview" id="section-4">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">04</span></div>
+<h3>開戶難點</h3>
+
+<div class="cd-desc"><div class="service-situation-grid">
           <div><b>缺乏英國聯繫</b><strong>只有註冊地址</strong><span>沒有英國客戶、合同或合理營業安排。</span></div>
           <div><b>資料不一致</b><strong>敘事互相衝突</strong><span>網站、SIC、合同與銀行申請描述不同。</span></div>
           <div><b>資金說明不足</b><strong>Source of Funds</strong><span>無法清楚證明初始注資及營運資金來源。</span></div>
           <div><b>風險因素</b><strong>行業及交易地區</strong><span>受限制行業、複雜股權或高風險地區交易。</span></div>
         </div>
-        <p>部分英國傳統銀行要求至少一名董事是英國居民，或要求公司有可證明的英國實際業務。純海外董事公司可能需要選擇接受非居民申請的機構，或先建立真實交易及營業證據。</p>
-      </section>
+        <p>部分英國傳統銀行要求至少一名董事是英國居民，或要求公司有可證明的英國實際業務。純海外董事公司可能需要選擇接受非居民申請的機構，或先建立真實交易及營業證據。</p></div>
 
-      <section id="support">
-        <h2 class="zh-herald-section-head" data-num="05">海外督導可協助的範圍</h2>
-        <div class="service-article-directory">
+
+</article>
+<article class="cd-card" data-tab="overview" id="support">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">05</span></div>
+<h3>協助範圍</h3>
+
+<div class="cd-desc"><div class="service-article-directory">
           <section class="service-article-group">
             <header><strong>公司成立資料整理</strong><span>在正式申請前把人員、地址、股份及業務資料整理一致。</span></header>
             <div>
@@ -145,18 +199,26 @@
               <div><b>補件與拒絕後重整</b><span>根據銀行問題重新整理資料缺口和一致性。</span><em>個案支援</em></div>
             </div>
           </section>
-        </div>
-      </section>
+        </div></div>
 
-      <section>
-        <h2 class="zh-herald-section-head" data-num="06">服務流程</h2>
-        <div class="service-route-list">
+
+</article>
+<article class="cd-card" data-tab="cost" id="section-6">
+<div class="cd-top"><span class="cd-region">海外人士註冊英國公司及商業銀行開戶</span><span class="cd-badge">06</span></div>
+<h3>服務流程</h3>
+<div class="cd-chips"><span>初步評估</span><span>文件清單</span><span>資料整理</span></div>
+<div class="cd-desc"><div class="service-route-list">
           <div><span>Step 1</span><strong>初步評估</strong><em>確認董事居住國、行業、股權、英國聯繫及開戶用途。</em></div>
           <div><span>Step 2</span><strong>文件清單</strong><em>列出公司成立、個人 KYC、業務及資金來源文件。</em></div>
           <div><span>Step 3</span><strong>資料整理</strong><em>核對名稱、地址、業務描述、合同、網站及證明一致性。</em></div>
           <div><span>Step 4</span><strong>申請與補件支援</strong><em>協助整理遞交版本及後續問題，但決定權由相關機構保留。</em></div>
-        </div>
-      </section>
+        </div></div>
+
+
+</article></div>
+<p class="cd-empty">沒有符合的項目，換個關鍵詞試試。</p>
+
+</div><script>(()=>{const r=document.querySelector('.cd');if(!r)return;let t='all';const q=r.querySelector('.cd-search'),cs=[...r.querySelectorAll('.cd-card')],e=r.querySelector('.cd-empty'),n=r.querySelector('.cd-count');function f(){const k=(q.value||'').trim().toLowerCase();let c=0;cs.forEach(x=>{const ok=(t==='all'||x.dataset.tab===t)&&(!k||x.textContent.toLowerCase().includes(k));x.style.display=ok?'':'none';if(ok)c++});e.style.display=c?'none':'block';n.textContent=c}r.querySelectorAll('.cd-tab').forEach(b=>b.onclick=()=>{r.querySelectorAll('.cd-tab').forEach(y=>y.classList.remove('on'));b.classList.add('on');t=b.dataset.tab;f()});q.oninput=f;if(location.hash){const h=r.querySelector(location.hash);if(h)h.scrollIntoView()}})();</script><script src="/assets/cd-detail.js?v=20261127" defer></script>
 
       <div class="zh-herald-warning-box">
         <div class="zh-herald-box-title">服務邊界</div>
