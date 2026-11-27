@@ -35,7 +35,8 @@ $$('[data-tool]').forEach(b=>b.onclick=()=>tools(b.dataset.tool));$('#compare-op
 function setCategoryButtons(){$$('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category===category);b.setAttribute('aria-pressed',String(b.dataset.category===category));});}
 $$('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;setCategoryButtons();showList();});
 const VIEWS={all:[-100,-25,0],asia:[-105,-25,0],europe:[-15,-48,0],americas:[85,-10,0],oceania:[-155,25,0],africa:[-20,-3,0]};
-$$('[data-region]').forEach(b=>b.onclick=()=>{region=b.dataset.region;rotation=VIEWS[region].slice();spin=false;updateSpin();$$('[data-region]').forEach(x=>x.classList.toggle('active',x===b));showList();});
+function chooseRegion(id){region=id;rotation=VIEWS[region].slice();spin=false;updateSpin();$$('[data-region]').forEach(x=>x.classList.toggle('active',x.dataset.region===region));$('#region-select').value=region;showList();}
+$$('[data-region]').forEach(b=>b.onclick=()=>chooseRegion(b.dataset.region));$('#region-select').onchange=e=>chooseRegion(e.target.value);
 $('#country-search').oninput=showList;$('#clear-search').onclick=()=>{$('#country-search').value='';showList();};$('#favorites').onclick=()=>{favoritesOnly=!favoritesOnly;$('#favorites').classList.toggle('active',favoritesOnly);showList();};$('#theme').onclick=()=>{state.theme=state.theme==='light'?'dark':'light';root.classList.toggle('light',state.theme==='light');save();draw();};
 /* Orthographic globe, painted locally using Natural Earth geometry. */
 const canvas=$('#globe'),host=$('#globe-host'),ctx=canvas.getContext('2d');let projection,path,width=0,height=0,points=[],drag=null,hoverId=null,frame=0,last=0;
