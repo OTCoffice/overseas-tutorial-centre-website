@@ -31898,3 +31898,7 @@ html:root body:is(body,#otc-compact-layout) .summer-alliance-bottom-cta .btn{
   .bird-preview-status span, .bird-preview-status strong { display: inline; }
   .bird-preview-status strong { margin-left: 12px; }
 }
+
+/* Content-sized label columns in service cards; descriptions use remaining space. */
+html:root body:is(body,#otc-compact-layout) .cd .cd-desc table {table-layout:auto!important;}
+html:root body:is(body,#otc-compact-layout) .cd .cd-desc table:has(tr>:nth-child(2)):not(:has(tr>:nth-child(3))) tr>:first-child:not([colspan]) {width:1%!important;white-space:nowrap!important;}
