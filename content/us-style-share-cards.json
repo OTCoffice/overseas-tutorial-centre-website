@@ -890,5 +890,16 @@
    "時事申論",
    "資料審查"
   ]
+ },
+ {
+  "route": "/zh/services/qualification-recognition/",
+  "slug": "qualification-recognition",
+  "head": "海外資歷認可",
+  "en": "Qualification Recognition",
+  "items": [
+   "要否認可",
+   "文件準備",
+   "評估遞交"
+  ]
  }
 ]
