@@ -1,2 +1,3 @@
-const render=require('./france-study-work-settlement-service-template.cjs');
-module.exports=()=>render(require('./france-study-work-settlement-service-zh.json'),'zh');
+const {pageShell}=require('../site'),{renderCardDirectory}=require('./card-directory.cjs');
+const a=require('./france-study-work-settlement-service-zh.json');
+module.exports=()=>pageShell({title:a.titleZh,path:a.path,lang:'zh-Hant',locale:'zh',current:'services',description:a.summaryZh,image:a.shareImageZh+'?'+a.socialImageVersion,imageWidth:1200,imageHeight:600,imageAlt:a.socialTitleZh,bodyClass:'france-study-work-page',body:require('fs').readFileSync(require.resolve('./france-study-work-hero.html'),'utf8')+renderCardDirectory(a.directory)+'<section class="band compact-band" id="alternance-catalogue"><h2>工讀碩士</h2>'+require('./france-alternance-catalogue.cjs')().replace('註冊帳戶・申請 OTC 代辦','帳戶申請').replace('下載完整 CSV 清單','下載清單').replace('來源與收錄範圍','收錄範圍')+'</section>'});

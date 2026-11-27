@@ -1085,5 +1085,6 @@
     "label": "訪問學者與學術交流"
   },
   {"path": "/zh/services/japan-sgu/", "chinese": "/zh/services/japan-sgu/", "label": "日本SGU", "group": "learning"},
-{"group": "learning", "path": "/zh/services/us-camp-work/", "chinese": "/zh/services/us-camp-work/", "label": "營地工作"}
+{"group": "learning", "path": "/zh/services/us-camp-work/", "chinese": "/zh/services/us-camp-work/", "label": "營地工作"},
+{"group": "learning", "path": "/zh/france-study-work-settlement-support/", "chinese": "/zh/france-study-work-settlement-support/", "label": "法國留學"}
 ]

@@ -861,12 +861,12 @@
  {
   "route": "/zh/france-study-work-settlement-support/",
   "slug": "france-study-work-settlement",
-  "head": "法國就業",
-  "en": "France Study, Work & Residence",
+  "head": "法國留學",
+  "en": "France Study & Career",
   "items": [
    "留學申請",
    "工讀學徒",
-   "工作居留"
+   "求職居留"
   ]
  },
  {

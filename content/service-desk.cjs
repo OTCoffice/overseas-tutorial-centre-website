@@ -119,7 +119,7 @@ const groups=[
       ["澳洲求職","/zh/australia-job-search-coaching/","求職方向、履歷、面試與入職準備。"],
       ["日本就業","/zh/services/japan-employment-preparation/","特定技能方向、日語、考試、預算與面試。"],
       ["美國OPT","/zh/services/us-opt-job-search-support/","OPT、STEM OPT、申請表與雇主英文溝通。"],
-      ["法國就業","/zh/france-study-work-settlement-support/","法國留學、學徒制、申請資格、薪資與求職準備。"]
+      ["法國留學","/zh/france-study-work-settlement-support/","法國留學、學徒制、申請資格、薪資與求職準備。"]
     ]]
   ]],
   ["living","海外生活","住宿、家校聯絡、旅行及房產管理。",[

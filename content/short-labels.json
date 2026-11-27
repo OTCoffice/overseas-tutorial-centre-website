@@ -100,7 +100,7 @@
   "澳洲求職指導": "澳洲求職",
   "日本就業準備": "日本就業",
   "美國 OPT 求職支援": "美國OPT",
-  "法國升學與就業": "法國就業",
+  "法國升學與就業": "法國留學",
   "海外寄宿家庭": "寄宿家庭",
   "英國與愛爾蘭寄宿家庭": "英愛寄宿",
   "驛站調度與緊急協調": "緊急協調",
@@ -203,7 +203,8 @@
   "/zh/nursing/south-korea/": "韓國護理",
   "/zh/nursing/france/": "法國護理",
   "/zh/nursing/switzerland/": "瑞士護理",
-  "/zh/nursing/nordics/": "北歐護理"
+  "/zh/nursing/nordics/": "北歐護理",
+  "/zh/france-study-work-settlement-support/": "法國留學"
  },
  "cards": {
   "轉學與高年級入學": "轉學插班",

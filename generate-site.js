@@ -142,3 +142,6 @@ require("child_process").execFileSync(process.execPath,["scripts/render-herald.c
 
 // Preserve SWT and camp work card directories and their share metadata.
 require("child_process").execFileSync(process.execPath,["scripts/render-herald.cjs","--service","content/us-swt-service.json","--service","content/us-camp-work.json"],{stdio:"inherit"});
+
+// Preserve the France card directory, original course search and current share metadata.
+require("child_process").execFileSync(process.execPath,["scripts/render-herald.cjs","--service","content/france-study-work-settlement-service-zh.json"],{stdio:"inherit"});
