@@ -136,3 +136,6 @@ require("./scripts/render-personal-statement-zh.cjs");
 
 // Preserve the SOP editing service and its discovery entries.
 require("./scripts/render-uk-sop-editing.cjs");
+
+// Keep the Japan English-taught application service source-backed.
+require("child_process").execFileSync(process.execPath,["scripts/render-herald.cjs","--service","content/japan-sgu.json"],{stdio:"inherit"});

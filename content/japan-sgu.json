@@ -1,0 +1,137 @@
+{
+  "path": "/zh/services/japan-sgu/",
+  "name": "日本SGU",
+  "titleZh": "日本 SGU 英語授課本科及修士申請｜海外督導雙語世界",
+  "summaryZh": "日本英語授課本科與修士申請：選校、入學資格、英文文書、研究計畫、教授聯絡、AI 使用規範、面試與入學安排。免費基本諮詢，正式服務按範圍報價。",
+  "shareImageZh": "/assets/social/japan-sgu-share-20261127.png",
+  "socialImageVersion": "v=20261127",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "directory": {
+    "title": "日本SGU",
+    "subtitle": "日本英語授課本科及修士申請｜海外督導雙語世界・招生部",
+    "tabs": [
+      {
+        "id": "ug",
+        "label": "本科"
+      },
+      {
+        "id": "pg",
+        "label": "修士"
+      },
+      {
+        "id": "schools",
+        "label": "院校"
+      },
+      {
+        "id": "writing",
+        "label": "文書"
+      },
+      {
+        "id": "ai",
+        "label": "AI檢測"
+      },
+      {
+        "id": "apply",
+        "label": "申請"
+      },
+      {
+        "id": "fees",
+        "label": "費用"
+      }
+    ],
+    "searchPlaceholder": "搜尋院校、文書或申請項目",
+    "tipLabel": "SGU",
+    "tip": "SGU 是常用搜尋名稱，原屬日本大學國際化支援政策，並非現行統一招生計畫。英語授課學位由各校及研究科分別招生，須按入學年份查閱簡章。",
+    "groupTitle": "全部要點",
+    "cards": [
+      {
+        "tab": "ug",
+        "title": "本科申請",
+        "desc": "<p>適合高中、IB、A-Level 及其他國際課程學生。按教育背景核對畢業資格、先修科目、校內成績及預估成績，再比較學科內容、授課語言與費用。</p><p>協助整理 IELTS／TOEFL、SAT／ACT 等認可成績、推薦信、活動經歷及文書要求；是否需要 EJU、日語或額外考試，以課程簡章為準。英授課程也可能設日語必修。</p>",
+        "id": "undergraduate"
+      },
+      {
+        "tab": "pg",
+        "title": "修士申請",
+        "desc": "<p>修士即碩士。按本科專業、已修科目、研究或工作經歷，選擇合適的英語授課碩士及研究方向；核對學位資格、語言成績、筆試、面試與研究計畫要求。</p><p>區分正式碩士與非學位「研究生」身分，不將後者當成已獲修士錄取。</p>",
+        "id": "masters"
+      },
+      {
+        "tab": "pg",
+        "title": "教授聯絡",
+        "desc": "<p>研究型申請先閱讀教授近期研究、實驗室方向與招生說明，再準備履歷、研究摘要及有具體問題的英文聯絡信。是否須預先聯絡、經審查辦公室辦理或取得同意，按研究科規則安排。</p><p>OTC 可協助匹配研究方向及修改信件；申請人以本人身分聯絡。教授回信或接收意向不等同正式錄取。</p>"
+      },
+      {
+        "tab": "schools",
+        "title": "東京大學",
+        "desc": "<p>按研究科查詢英語授課修士及個別招生途徑。東大 PEAK 本科以 2026 年 9 月入學為最後招生一屆，不能當作 2027 年及以後仍開放的本科選項。</p><p><a href=\"https://www.u-tokyo.ac.jp/en/prospective-students/graduate.html\">研究生院招生</a> · <a href=\"https://peak.c.u-tokyo.ac.jp/apply/l3/Vcms3_00000252.html\">PEAK 招生公告</a></p>"
+      },
+      {
+        "tab": "schools",
+        "title": "京都大學",
+        "desc": "<p>按學科查閱英語授課學位及研究科要求。海外大學畢業生須留意 AAO 等前置程序，依適用研究科安排辦理，再聯絡教授及遞交正式申請。</p><p><a href=\"https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/english-taught-degree-programs\">英授學位目錄</a> · <a href=\"https://www.kyoto-u.ac.jp/sites/default/files/inline-files/Admissions_Guide_2026-2027_english-f56db163ad13f5a4c912b8cf47617b89.pdf\">2026–2027 招生指引</a></p>"
+      },
+      {
+        "tab": "schools",
+        "title": "早稻田",
+        "desc": "<p>本科按學部查閱英語學位的課程、考試及文書；修士按研究科查詢。不同學部與研究科的資格、輪次及材料要求不可混用。</p><p><a href=\"https://www.waseda.jp/inst/admission/en/undergraduate/english/\">英語本科招生</a> · <a href=\"https://www.waseda.jp/inst/admission/en/graduate/\">修士招生</a></p>"
+      },
+      {
+        "tab": "schools",
+        "title": "上智大學",
+        "desc": "<p>可從 FLA、SPSF 等英語本科途徑比較學科；理工方向須留意 2027 年 DGTech 新課程資訊與舊課程招生差異。修士另按研究科核對，不能由本科要求推算。</p><p><a href=\"https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/\">英語本科招生</a> · <a href=\"https://adm.sophia.ac.jp/eng/news/english-taught/2027-intake-admission-inform-all-english-taught-programs-now-available/\">2027 年招生資訊</a></p>"
+      },
+      {
+        "tab": "schools",
+        "title": "院校選擇",
+        "desc": "<p>以上為選校例子，並非全部日本英授院校，也不表示 OTC 獲校方授權代理。比較課程內容、師資研究、地點、全程預算、語言與畢業要求，再建立申請清單。</p><p><a href=\"/zh/services/japan-sgu-planning/\">OTC 英授學位目錄</a> · <a href=\"https://www.studyinjapan.go.jp/en/planning/learn-about-schools/english-programs/\">JASSO 英授學位資料</a></p>",
+        "id": "programs"
+      },
+      {
+        "tab": "writing",
+        "title": "英文文書",
+        "desc": "<p>按題目及字數要求，協助 PS、SOP、英文履歷與申請短文的架構、論證、用字及語法修改。以申請人真實經歷連結課程目標，保留本人聲音，不代造活動、成績或研究成果。</p><p>推薦信可提供材料整理與要求說明，內容及提交由推薦人負責。文書修改先確認範圍、報價與交付時間，完成付款後才開始詳細審閱。</p>",
+        "id": "writing"
+      },
+      {
+        "tab": "writing",
+        "title": "研究計畫",
+        "desc": "<p>協助 Research Proposal 的研究問題、文獻脈絡、方法、可行性、時程與參考文獻表達，核對與教授方向及校方格式的關係。</p><p>研究構想、資料和引用由申請人核實；不代寫研究成果、不捏造來源，並準備在面試中說明方法及限制。</p>"
+      },
+      {
+        "tab": "ai",
+        "title": "AI檢測",
+        "desc": "<p>依約提供原創性與引用檢查，辨識需補充來源、重寫或由本人確認的段落。AI 檢測分數只能作輔助訊號，不能證明作者身分，也不能保證通過校方審查。</p><p>不提供規避偵測服務。若使用第三方工具，事先確認資料處理及上傳範圍，避免提交無關的個人資料。</p>",
+        "id": "ai"
+      },
+      {
+        "tab": "ai",
+        "title": "使用規範",
+        "desc": "<p>逐校核對當期招生簡章對生成式 AI、翻譯、語言修改及協助申報的規定；沒有寫明可用，不等於允許代寫。保留構思、草稿及修訂紀錄，按要求披露使用方式。</p><p>例如早稻田政治經濟學部 2026 年英語本科簡章將以生成式 AI 產出文書並作為本人作品提交列為可能作弊的情況；其他學部及年份須另查。</p><p><a href=\"https://www.waseda.jp/fpse/pse/assets/uploads/2025/09/Application-Guide-for-September-2026-Entry-AO-Admissions-SPSE.pdf\">校方 2026 年簡章（規範例子）</a></p>"
+      },
+      {
+        "tab": "apply",
+        "title": "申請流程",
+        "desc": "<ol><li><strong>基本諮詢：</strong>確認學歷、成績、專業、入學年、語言程度、預算及所需協助。</li><li><strong>選校：</strong>比較課程與資格，列出各校截止日、考試、教授聯絡及材料清單；時程以日本時間及校方公告為準。</li><li><strong>材料：</strong>準備成績單、畢業／在讀證明、英文文書及推薦信；修士依要求加研究計畫、履歷與研究成果。</li><li><strong>遞交：</strong>按校方允許渠道申請、付款與補件，準備面試並保留紀錄。</li><li><strong>入學：</strong>核對錄取條件、入學金、退款、住宿及 COE 程序，再按本人情況辦理簽證與赴日安排。</li></ol>",
+        "wide": true,
+        "id": "process"
+      },
+      {
+        "tab": "fees",
+        "title": "服務費用",
+        "desc": "<div class=\"table-wrap\"><table><thead><tr><th>項目</th><th>費用說明</th></tr></thead><tbody><tr><td>基本諮詢</td><td>免費了解背景、目標及所需服務。</td></tr><tr><td>正式服務</td><td>選校、申請協助、英文文書、研究計畫及面試按院校數量、交付範圍、修改次數與服務期限書面報價；委託前列明付款、交付、取消及退款條款。</td></tr><tr><td>第三方費用</td><td>院校申請費、學費、入學金、考試、翻譯認證、簽證、保險、交通與住宿另計，按院校或提供方標準支付。</td></tr></tbody></table></div><p>升學預算同時列出首年一次性費用、每年支出及全程費用；未確認獎學金不扣入基本預算。OTC 不承諾錄取、教授接收、獎學金或簽證結果。</p>",
+        "wide": true,
+        "id": "fees"
+      },
+      {
+        "tab": "apply",
+        "title": "開始諮詢",
+        "desc": "<p>請準備目前學歷與年級、課程體系、成績、英文程度、目標專業、入學年份、預算及已申請進度。首次諮詢毋須提供證件號碼，成績截圖可遮去姓名與學號。</p><p>使用頁尾聯絡方式，註明「日本英授本科」或「日本英授修士」，由招生部了解需求。</p>",
+        "id": "contact"
+      }
+    ],
+    "footer": "資料查閱：2026 年 11 月 27 日。招生與 AI 規範以相應年份校方簡章為準。SGU 政策背景：<a href=\"https://www.u-tokyo.ac.jp/en/academics/sgu.html\">東京大學說明</a>。相關服務：<a href=\"/zh/services/japan-sgu-planning/\">英授目錄</a>。"
+  }
+}

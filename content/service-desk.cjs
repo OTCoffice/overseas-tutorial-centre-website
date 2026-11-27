@@ -26,7 +26,8 @@ const groups=[
       ["轉專業","/zh/services/change-of-major/","校內轉科、先修課、學分抵免與修業安排；初步諮詢免費。"],
       ["學分抵免","/insights/credit-alliance/","學分抵免、轉學插班、課程對照、RPL 與修業預算。"],
       ["Asso升學","/zh/asso-hd-university-progression/","轉科、選校、入學年級與英文要求。"],
-      ["日本SGU","/zh/services/japan-sgu-planning/","本科與碩博選校、申請材料、語言準備及畢業去向。"]
+      ["英授目錄","/zh/services/japan-sgu-planning/","日本本科與碩博英語授課學位資料。"],
+      ["日本SGU","/zh/services/japan-sgu/","本科與修士申請、英文文書、研究計畫與面試準備。"]
     ]],
     ["graduate-admissions","碩博申請",[
       ["博士申請","/zh/services/phd-application-coaching/","研究方向、導師與資助、研究計劃及面試。"],

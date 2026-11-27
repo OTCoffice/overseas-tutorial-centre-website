@@ -912,5 +912,6 @@
    "文泛科路線",
    "就業倒推"
   ]
- }
+ },
+ {"route": "/zh/services/japan-sgu/", "slug": "japan-sgu", "head": "日本SGU", "en": "English-Taught Degrees", "items": ["本科申請", "修士申請", "英文文書"]}
 ]
