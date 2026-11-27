@@ -915,5 +915,16 @@
  },
  {"route": "/zh/services/japan-sgu/", "slug": "japan-sgu", "head": "日本SGU", "en": "English-Taught Degrees", "items": ["本科申請", "修士申請", "英文文書"]},
 {"route": "/zh/us-swt-work-travel-support/", "slug": "us-swt-service", "head": "美國SWT", "en": "Summer Work Travel", "items": ["申請資格", "費用退款", "行前支援"]},
-{"route": "/zh/services/us-camp-work/", "slug": "us-camp-work", "head": "營地工作", "en": "US Summer Camp Jobs", "items": ["帶隊後勤", "機構比較", "申請準備"]}
+{"route": "/zh/services/us-camp-work/", "slug": "us-camp-work", "head": "營地工作", "en": "US Summer Camp Jobs", "items": ["帶隊後勤", "機構比較", "申請準備"]},
+{
+ "route": "/zh/study-in-finland/",
+ "slug": "study-in-finland",
+ "head": "芬蘭留學\n本科與碩士申請",
+ "en": "Finland · 2027 Admissions",
+ "items": [
+  "選校與獎學金",
+  "15學分語言規劃",
+  "畢業居留條件"
+ ]
+}
 ]

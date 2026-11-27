@@ -7,6 +7,7 @@ const groups=[
       ["留學國家","/zh/countries/","按國家查閱院校、學費及生活費。"],
       ["學科選擇","/zh/subject-planning/","商科、文理工科、醫學、法律、藝術與設計等專業。"],
       ["平價留學","/zh/services/affordable-study-abroad/","低學費課程、政府獎學金、研究資助與帶薪培訓。"],
+      ["芬蘭留學","/zh/study-in-finland/","2027 本科與碩士申請、學費獎學金、語言學分及畢業居留條件。"],
       ["大馬留學","/zh/services/malaysia-study/","TAR UMT、UM、UTM、USM 課程比較、申請路徑與完整預算。"],
       ["公費留學","/zh/government-scholarships/","按目的地、學位與中國大陸、香港、台灣申請渠道查找。"],
       ["收費標準","/zh/application-fees/","同等服務參考價六折；免費代辦項目與第三方費用說明。"],

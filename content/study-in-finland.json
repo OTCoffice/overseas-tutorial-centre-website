@@ -1,0 +1,129 @@
+{
+  "path": "/zh/study-in-finland/",
+  "name": "芬蘭留學",
+  "titleZh": "芬蘭本科及碩士申請｜2027留學與畢業永居路線｜海外督導雙語世界",
+  "summaryZh": "2027 芬蘭英語本科及碩士申請：入學要求、選校、學費與獎學金、15 學分芬蘭語或瑞典語規劃，以及 2026 學位永居路線的適用條件。",
+  "shareImageZh": "/assets/social/study-in-finland-share-20261127.png",
+  "socialImageVersion": "v=20261127",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 600,
+  "socialImageSource": "share-only",
+  "updated": "2026-11-27",
+  "directory": {
+    "title": "申請服務",
+    "subtitle": "從學位選擇、2027 申請及留學預算，到語言學分與畢業後的居留條件。",
+    "searchPlaceholder": "搜尋本科、碩士、UAS、15學分、永居",
+    "groupTitle": "服務卡片",
+    "tabs": [
+      {
+        "id": "apply",
+        "label": "本科碩士"
+      },
+      {
+        "id": "budget",
+        "label": "預算資助"
+      },
+      {
+        "id": "residence",
+        "label": "語言居留"
+      },
+      {
+        "id": "service",
+        "label": "申請服務"
+      }
+    ],
+    "cards": [
+      {
+        "id": "universities",
+        "tab": "apply",
+        "title": "芬蘭本科",
+        "region": "英語授課",
+        "desc": "<p>適合準備以高中或同等學歷申請的人士。先比較大學（University）與應用科技大學（UAS）的課程內容、授予學位及職涯方向，再確認高中學歷、英文證明，以及課程要求的 SAT、入學考試或面試。</p><p>英語授課不等於免英文證明；接受的考試、分數及豁免條件逐課程確認。若以畢業後的學位永居路線為目標，須先區分兩類本科：UAS 本科不在這條特定路線的適用學位內。</p><p>2027 秋季部分英語學位聯合申請為 <strong>2027 年 1 月 7–21 日</strong>；個別申請及滾動招生另有時程。</p><p><a href=\"https://www.studyinfinland.fi/news-events/prepare-for-2027\">2027 官方申請日程</a></p>",
+        "primary": {
+          "label": "課程查詢",
+          "href": "https://studyinfo.fi/konfo/en/"
+        },
+        "secondary": {
+          "label": "入學要求",
+          "href": "https://www.studyinfinland.fi/admissions/bachelors-and-masters-admissions"
+        }
+      },
+      {
+        "id": "requirements",
+        "tab": "apply",
+        "title": "芬蘭碩士",
+        "region": "選校與匹配",
+        "desc": "<p>大學碩士通常要求相關本科學位，按課程核對先修學分、成績、研究方向與英文能力；設計、商科等課程可能另需作品集、GMAT／GRE、動機信或面試。</p><p>UAS 碩士除合適學位外，一般另需兩年相關工作經驗，具體計算方式依院校規定。可比較赫爾辛基大學、阿爾托大學及坦佩雷大學的專業與課程要求，不以學校名氣代替專業匹配。</p><p>例：赫爾辛基大學 2027 秋季國際碩士申請為 <strong>1 月 5–19 日</strong>，與上述聯合申請日期不同。申請前逐課程記錄截止時間及補件期限。</p>",
+        "primary": {
+          "label": "院校目錄",
+          "href": "/zh/universities/finland/"
+        },
+        "secondary": {
+          "label": "赫大時程",
+          "href": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-international-masters-programmes/how-apply"
+        }
+      },
+      {
+        "id": "budget",
+        "tab": "budget",
+        "title": "學費及獎學金",
+        "region": "留學預算",
+        "desc": "<p>需繳學費的非 EU／EEA／瑞士學生，英語本科及碩士學費通常約 <strong>€9,000–20,000／年</strong>，個別課程可超出範圍。生活費建議約 <strong>€900–1,200／月</strong>，與學生居留最低資金門檻 €800／月分開理解；另預留保險、旅費及適用的 €100 高教申請費。</p><p>本科及碩士獎學金由院校提供，通常為部分或全額學費減免，不應預設涵蓋生活費。比較申請資格、續領學分要求、申請日期及錄取後繳費期限，未獲批的資助不先從基本預算扣除。</p>",
+        "primary": {
+          "label": "官方費用",
+          "href": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+        },
+        "secondary": {
+          "label": "獎學金",
+          "href": "https://www.studyinfinland.fi/funding-your-studies/bachelors-and-masters-scholarships"
+        }
+      },
+      {
+        "id": "language",
+        "tab": "residence",
+        "title": "15學分語言規劃",
+        "region": "芬蘭語或瑞典語",
+        "desc": "<p>這條學位永居路線的語言要求，可用符合 Migri 規定的 A2 證明，或在芬蘭高等院校完成至少 <strong>15 學分芬蘭語或 15 學分瑞典語</strong>來證明。一般語言學校結業證不自動等同可接受的 A2 證明。</p><p>學分不必包含在申請所依據的學位內，可跨芬蘭高等院校累計，也接受 Open University／Open UAS 的合資格語言課程；課程內容須不同，不得混合兩種語言湊足 15 學分。</p><p>選課前確認開課院校、語言、課程內容、學分及成績紀錄。可按「5＋5＋5 學分、同一語言且內容不重複」規劃進度；這只是規劃示例，實際課程須向院校及 Migri 核對。</p>",
+        "primary": {
+          "label": "語言規定",
+          "href": "https://migri.fi/en/language-skills-requirement"
+        },
+        "secondary": {
+          "label": "官方問答",
+          "href": "https://migri.fi/en/-/usein-kysyttya-jatkolupa-en-duplicate-2"
+        }
+      },
+      {
+        "id": "residence",
+        "tab": "residence",
+        "title": "畢業居留路線",
+        "region": "2026 年新政策",
+        "desc": "<p>2026 年 1 月 8 日起提交的永居申請，設有「在芬蘭完成高等教育學位」路線。適用於在芬蘭完成的大學本科、大學碩士、UAS 碩士（YAMK），以及符合規定的進階研究學位；<strong>UAS 本科不適用這條路線</strong>。</p><p>此路線不設最低居住年限及工作年限要求，但須滿足語言要求、仍具備可接受的連續居留（A 許可）理由、適用的生活資金及其他條件。<strong>不能僅以就學作為永居申請的 A 許可理由</strong>；畢業後長期離境及期間許可失效也可能影響資格。</p><p>完成學位及語言學分並非自動取得永居。2027 入學者應按實際畢業及申請時有效的政策再核對，不將 2026 規定視為未來保證。</p>",
+        "primary": {
+          "label": "永居規定",
+          "href": "https://migri.fi/en/application-for-a-permanent-residence-permit"
+        },
+        "secondary": {
+          "label": "居留年限",
+          "href": "https://migri.fi/en/period-of-residence-requirement"
+        }
+      },
+      {
+        "id": "fees",
+        "tab": "service",
+        "title": "OTC申請服務",
+        "region": "招生部",
+        "desc": "<p>免費初步背景評估：提供目前學歷、專業與成績、英文程度、目標學位、2027 入學計畫及預算。OTC 協助比較課程、整理材料與截止日期，按委託範圍提供 CV／動機信修改、申請填寫與遞交協助及錄取跟進。</p><p><strong>既有芬蘭碩士申請套餐：人民幣 ¥2,800。</strong> 不按委託院校或專業數量另加價；實際志願數仍受各校及聯合申請規則限制。本科申請、語言選課規劃及其他額外服務按範圍另行確認報價，不自動納入碩士套餐。</p><p>委託前書面確認服務內容、時間、修改次數及取消退款安排。院校申請費、學費、語言課程、考試、翻譯公證及居留申請等第三方費用另計。OTC 提供申請與資料協調，不保證錄取、獎學金或居留結果。</p><ol id=\"steps\"><li>了解背景及目標，確認可申請的學位與課程。</li><li>比較預算、專業要求及語言學習安排。</li><li>確認委託，依院校要求整理並遞交材料。</li><li>跟進錄取及補件，畢業居留另按當期規定核對。</li></ol>",
+        "primary": {
+          "label": "申請評估",
+          "href": "/zh/services/university-application-advisory/"
+        },
+        "secondary": {
+          "label": "服務準則",
+          "href": "/zh/application-service-standards/"
+        }
+      }
+    ],
+    "footer": "資料核對：2026 年 11 月 27 日。各卡附官方來源；招生、獎學金及居留資格以申請當期規定為準。"
+  }
+}

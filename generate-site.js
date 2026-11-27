@@ -145,3 +145,6 @@ require("child_process").execFileSync(process.execPath,["scripts/render-herald.c
 
 // Preserve the France card directory, original course search and current share metadata.
 require("child_process").execFileSync(process.execPath,["scripts/render-herald.cjs","--service","content/france-study-work-settlement-service-zh.json"],{stdio:"inherit"});
+
+// Preserve the source-backed Finland admissions and graduate residence guide.
+require("./scripts/render-finland-study.cjs");
