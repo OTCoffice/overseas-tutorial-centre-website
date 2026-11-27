@@ -31902,3 +31902,12 @@ html:root body:is(body,#otc-compact-layout) .summer-alliance-bottom-cta .btn{
 /* Content-sized label columns in service cards; descriptions use remaining space. */
 html:root body:is(body,#otc-compact-layout) .cd .cd-desc table {table-layout:auto!important;}
 html:root body:is(body,#otc-compact-layout) .cd .cd-desc table:has(tbody>tr>th:first-child):has(tr>:nth-child(2)):not(:has(tr>:nth-child(3))) tr>:first-child:not([colspan]) {width:1%!important;white-space:nowrap!important;}
+
+/* SWT mobile tables: allocate space for channel lists and fee explanations. */
+@media(max-width:700px) {
+ html:root body:is(body,#otc-compact-layout) .cd #sponsors-china .cd-desc {--swt-col-1:18%;--swt-col-2:46%;--swt-col-3:36%;}
+ html:root body:is(body,#otc-compact-layout) .cd #program-fees .cd-desc {--swt-col-1:25%;--swt-col-2:23%;--swt-col-3:52%;}
+ html:root body:is(body,#otc-compact-layout) .cd :is(#sponsors-china,#program-fees) .cd-desc tr>:nth-child(1) {width:var(--swt-col-1)!important;}
+ html:root body:is(body,#otc-compact-layout) .cd :is(#sponsors-china,#program-fees) .cd-desc tr>:nth-child(2) {width:var(--swt-col-2)!important;}
+ html:root body:is(body,#otc-compact-layout) .cd :is(#sponsors-china,#program-fees) .cd-desc tr>:nth-child(3) {width:var(--swt-col-3)!important;}
+}
