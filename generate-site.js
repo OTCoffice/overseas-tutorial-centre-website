@@ -1,3 +1,4 @@
+require('./scripts/render-global-guide.cjs');
 require('./scripts/render-uk-tax-support.cjs');
 require('child_process').execFileSync('python3',['scripts/render-swt-china-herald.py'],{stdio:'inherit'});
 require('./scripts/render-travel-services.cjs');
