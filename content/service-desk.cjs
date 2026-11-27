@@ -33,7 +33,8 @@ const groups=[
       ["日本讀研","/zh/services/japan-graduate-application/","修士與研究生路線、研究科與導師、研究計畫及出願準備。"],
       ["韓國碩士","/zh/services/korea-masters-application/","選校、入學要求、學費與獎學金；合作院校免費代辦。"],
       ["香港研博","/zh/services/hong-kong-research-degree-application/","MPhil、PhD、研究計劃、導師與 PGS 資助。"],
-      ["傳播研所","/zh/services/taiwan-communication-graduate-exam/","台灣傳播研究所考科拆解、時事申論練習與資料審查準備。"]
+      ["傳播研所","/zh/services/taiwan-communication-graduate-exam/","台灣傳播研究所考科拆解、時事申論練習與資料審查準備。"],
+      ["跨科碩士","/zh/services/cross-discipline-masters/","文科、藝術、傳媒本科跨專業讀碩士：文泛商、文泛科與半跨路線比較。"]
     ]],
     ["subject-admissions","專業升學",[
       ["波蘭獸醫","/zh/subject-planning/poland-veterinary-sggw/","華沙生命科學大學5.5年課程、學費、申請與英歐註冊要求。"],
