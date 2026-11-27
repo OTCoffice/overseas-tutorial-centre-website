@@ -3,6 +3,7 @@ const a = require('./english-cv-interview-support.json');
 const W = '/zh/services/english-cv-interview-support/#topic-4';
 module.exports = () => {
   let html = require('./professional-service-page.cjs')(a);
+  html = html.replace(/(<section><h2 id="topic-4">[\s\S]*?<\/p>)<div class="actions">[\s\S]*?(?=<p>相關服務：)/, '$1');
   const tabs = ['服務項目', '求職時程', '轉行方向', '選擇須知', '委託費用', '常見問題'].map(t => ({ id: t, label: t }));
   const C = (tab, title, region, desc, extra = {}) => ({ tab, title, region, desc, ...extra });
   const cards = a.cards.map(c => C(c[0], c[1], c[2], c[3], c[4] || {}));
@@ -15,5 +16,6 @@ module.exports = () => {
   const start = html.indexOf('<section><h2 id="topic-0">'), end = html.indexOf('<section><h2 id="topic-4">');
   if (start < 0 || end < 0) throw Error('topic markers changed');
   const intro = `<section class="cv-intro"><h2>先看定位</h2><p>${a.intro}</p></section>`;
-  return html.slice(0, start) + intro + dir + html.slice(end);
+  const css = `<style>.cd .cd-fee-table{overflow-x:auto}.cd .cd-fee-table table{min-width:480px}.cd .cd-fee-table caption{text-align:left;font-weight:700;margin-bottom:8px}.cd .cd-fee-table td:nth-child(2),.cd .cd-fee-table td:last-child{white-space:nowrap}</style>`;
+  return (html.slice(0, start) + intro + dir + html.slice(end)).replace("</head>", css + "</head>");
 };

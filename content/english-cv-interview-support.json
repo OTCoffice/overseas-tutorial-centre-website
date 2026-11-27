@@ -34,7 +34,7 @@
   "socialImageVersion": "v=20261126-us-style",
   "socialImageWidth": 1200,
   "socialImageHeight": 600,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "socialImageSource": "share-only",
   "intro": "英國校招一般包括網申、線上測評、視頻面試、評估中心及終面，很多毕業生項目不限本科專業，但節奏早、滾動招滿即關。轉行或非商科背景的關鍵，是把過去經歷換成雇主看得懂的能力證據。OTC 按你的目標職位，由定位、文書到面試逐步準備；先確認範圍與報價，付款後詳細審閱。",
   "cards": [
@@ -216,7 +216,7 @@
       "委託費用",
       "收費說明",
       "費用",
-      "<p>文書修改及面試練習屬付費服務。首次聯絡先確認需求與報價，不提供逐項修訂指南；完成付款及材料齊全後，才安排詳細看稿、具體修改意見及修訂複核。既有已確認的個別約定按原約定履行。考試、認證、翻譯公證及其他第三方費用另計；本服務不包含招聘仲介、工作許可申請或代替本人參加面試。</p>",
+      "<p>基本諮詢免費。以下為 GBP 英鎊一次性收費；付款前先確認服務範圍、修改次數、交付時間及取消退款安排。</p><div class=\"cd-fee-table\"><table><caption>CV 及行政支援收費</caption><thead><tr><th scope=\"col\">服務</th><th scope=\"col\">費用</th><th scope=\"col\">內容</th><th scope=\"col\">付款</th></tr></thead><tbody><tr><th scope=\"row\">英文 CV 修改</th><td>£25</td><td>修改現有英文履歷。</td><td><a class=\"btn\" href=\"https://buy.stripe.com/6oU3cvcEK9Ny0xD7ys2cg01\">付款</a></td></tr><tr><th scope=\"row\">英文 CV 完整製作</th><td>£49</td><td>依本人提供的真實資料，從零整理及製作。</td><td><a class=\"btn\" href=\"https://buy.stripe.com/cNicN5cEKe3O6W1aKE2cg02\">付款</a></td></tr><tr><th scope=\"row\">獨立電腦及文件行政協助</th><td>£25／小時</td><td>按約定處理電腦及文件操作；此連結支付 1 小時。</td><td><a class=\"btn\" href=\"https://buy.stripe.com/eVqdR9bAGbVG8057ys2cg03\">付款</a></td></tr><tr><th scope=\"row\">CV 製作＋行政協助</th><td>£69</td><td>英文 CV 完整製作及 1 小時行政協助。</td><td><a class=\"btn\" href=\"https://buy.stripe.com/eVq8wP34a5xicgl3ic2cg04\">付款</a></td></tr></tbody></table></div><p>由 Overseas Education &amp; Immigration Ltd. 公司 Stripe 帳戶收款，付款成功後寄送電郵收據。其他求職信、LinkedIn 或面試服務另行報價。</p><p>以上均為獨立、自願購買的專業服務，不屬於工作介紹費，也不作為獲得工作介紹的條件。完成付款及材料齊全後開始詳細審閱與製作；第三方費用另計，既有委託依原約定履行。</p>",
       {
         "id": "topic-3",
         "wide": true
